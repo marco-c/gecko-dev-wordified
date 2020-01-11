@@ -42,6 +42,10 @@ SkOTTable_gasp_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkEndian
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h

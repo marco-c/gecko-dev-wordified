@@ -42,6 +42,10 @@ GrMockBuffer_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrCaps
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrGpuBuffer
 .
 h
@@ -56,6 +64,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+mock
+/
 GrMockGpu
 .
 h

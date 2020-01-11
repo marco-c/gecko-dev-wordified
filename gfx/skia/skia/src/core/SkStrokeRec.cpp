@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkStrokeRec
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkPaintDefaults
 .
 h
@@ -498,6 +506,10 @@ strokeAndFill
 #
 include
 "
+src
+/
+core
+/
 SkStroke
 .
 h

@@ -42,6 +42,10 @@ SkCoverageModePriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBlendMode
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkCoverageMode
 .
 h

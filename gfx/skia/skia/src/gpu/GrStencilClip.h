@@ -42,6 +42,10 @@ GrStencilClip_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrAppliedClip
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrFixedClip
 .
 h

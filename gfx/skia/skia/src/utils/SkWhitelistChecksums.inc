@@ -72,6 +72,10 @@ anew
 #
 include
 "
+include
+/
+private
+/
 SkTDArray
 .
 h

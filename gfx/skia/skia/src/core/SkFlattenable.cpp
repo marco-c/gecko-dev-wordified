@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkPtrRecorder
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkReadBuffer
 .
 h

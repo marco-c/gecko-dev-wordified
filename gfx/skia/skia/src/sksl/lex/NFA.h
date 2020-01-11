@@ -42,6 +42,12 @@ SKSL_NFA
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 NFAState
 .
 h
@@ -49,6 +55,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 RegexNode
 .
 h

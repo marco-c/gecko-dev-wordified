@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkDrawable
 .
 h
@@ -475,6 +483,10 @@ fGenerationID
 #
 include
 "
+include
+/
+core
+/
 SkPictureRecorder
 .
 h

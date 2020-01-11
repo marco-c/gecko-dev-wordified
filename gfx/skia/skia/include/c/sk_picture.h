@@ -59,6 +59,10 @@ sk_picture_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h
@@ -87,6 +91,7 @@ sk_picture_recorder_delete
 .
 *
 /
+SK_API
 sk_picture_recorder_t
 *
 sk_picture_recorder_new
@@ -110,6 +115,7 @@ sk_picture_recorder_t
 .
 *
 /
+SK_API
 void
 sk_picture_recorder_delete
 (
@@ -161,6 +167,7 @@ not
 .
 *
 /
+SK_API
 sk_canvas_t
 *
 sk_picture_recorder_begin_recording
@@ -221,6 +228,7 @@ immutable
 .
 *
 /
+SK_API
 sk_picture_t
 *
 sk_picture_recorder_end_recording
@@ -254,6 +262,7 @@ sk_picture_unref
 .
 *
 /
+SK_API
 void
 sk_picture_ref
 (
@@ -307,6 +316,7 @@ of
 .
 *
 /
+SK_API
 void
 sk_picture_unref
 (
@@ -330,6 +340,7 @@ pictures
 .
 *
 /
+SK_API
 uint32_t
 sk_picture_get_unique_id
 (
@@ -353,6 +364,7 @@ recorded
 .
 *
 /
+SK_API
 sk_rect_t
 sk_picture_get_bounds
 (

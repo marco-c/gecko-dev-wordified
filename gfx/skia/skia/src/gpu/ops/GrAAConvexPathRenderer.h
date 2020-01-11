@@ -42,6 +42,10 @@ GrAAConvexPathRenderer_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrPathRenderer
 .
 h

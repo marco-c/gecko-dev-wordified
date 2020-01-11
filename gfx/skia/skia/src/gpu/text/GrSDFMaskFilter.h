@@ -42,6 +42,10 @@ GrSDFMaskFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMaskFilter
 .
 h
@@ -68,7 +72,6 @@ representation
 *
 /
 class
-SK_API
 GrSDFMaskFilter
 :
 public

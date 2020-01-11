@@ -42,6 +42,10 @@ SkTo_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTFitsIn
 .
 h

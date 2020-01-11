@@ -41,6 +41,10 @@ fstream
 #
 include
 "
+src
+/
+sksl
+/
 SkSLCompiler
 .
 h
@@ -48,6 +52,10 @@ h
 #
 include
 "
+src
+/
+sksl
+/
 SkSLFileOutputStream
 .
 h

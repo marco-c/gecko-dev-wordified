@@ -42,6 +42,10 @@ SkPathOpsTCurve_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsPoint
 .
 h

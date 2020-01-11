@@ -44,6 +44,10 @@ SkBlurDrawLooper_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkDrawLooper
 .
 h

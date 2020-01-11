@@ -61,6 +61,10 @@ SKFONTCONFIGINTERFACE_DIRECT_H_
 #
 include
 "
+include
+/
+ports
+/
 SkFontConfigInterface
 .
 h

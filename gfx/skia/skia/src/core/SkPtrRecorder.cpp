@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkPtrRecorder
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTSearch
 .
 h

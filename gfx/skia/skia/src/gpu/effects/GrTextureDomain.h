@@ -42,6 +42,10 @@ GrTextureDomainEffect_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrCoordTransform
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrFragmentProcessor
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentProcessor
@@ -65,6 +77,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLProgramDataManager
@@ -1332,6 +1348,8 @@ sk_sp
 <
 GrTextureProxy
 >
+GrColorType
+srcColorType
 const
 SkMatrix
 &
@@ -1365,6 +1383,8 @@ sk_sp
 <
 GrTextureProxy
 >
+GrColorType
+srcColorType
 const
 SkMatrix
 &
@@ -1542,6 +1562,8 @@ sk_sp
 <
 GrTextureProxy
 >
+GrColorType
+srcColorType
 const
 SkMatrix
 &

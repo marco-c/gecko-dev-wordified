@@ -42,6 +42,10 @@ SkBlurPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRRect
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkSize
 .
 h

@@ -42,6 +42,10 @@ SkWebpEncoder_DEFINED
 #
 include
 "
+include
+/
+encode
+/
 SkEncoder
 .
 h

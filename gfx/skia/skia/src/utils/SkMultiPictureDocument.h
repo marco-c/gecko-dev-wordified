@@ -42,6 +42,10 @@ SkMultiPictureDocument_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkDocument
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPicture
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkSize
 .
 h

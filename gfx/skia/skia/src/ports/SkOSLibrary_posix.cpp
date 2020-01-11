@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -50,6 +54,10 @@ SK_BUILD_FOR_WIN
 #
 include
 "
+src
+/
+ports
+/
 SkOSLibrary
 .
 h

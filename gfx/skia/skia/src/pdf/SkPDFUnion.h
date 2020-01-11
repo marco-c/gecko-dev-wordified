@@ -38,6 +38,10 @@ SkPDFUnion_DEFINED
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFTypes
 .
 h

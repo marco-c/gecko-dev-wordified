@@ -44,6 +44,10 @@ SkParse_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h

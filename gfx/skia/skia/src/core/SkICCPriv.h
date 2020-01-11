@@ -42,6 +42,10 @@ SkICCPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColorSpace
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

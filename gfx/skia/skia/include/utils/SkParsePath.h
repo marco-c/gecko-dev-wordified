@@ -44,6 +44,10 @@ SkParsePath_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h
@@ -52,6 +56,7 @@ class
 SkString
 ;
 class
+SK_API
 SkParsePath
 {
 public

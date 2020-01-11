@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+pathops
+/
 SkOpCoincidence
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpContour
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpSegment
 .
 h
@@ -57,6 +69,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathWriter
 .
 h

@@ -42,6 +42,10 @@ SkTrimImpl_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPathEffect
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+effects
+/
 SkTrimPathEffect
 .
 h

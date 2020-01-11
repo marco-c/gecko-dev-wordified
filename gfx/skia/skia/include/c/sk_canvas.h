@@ -59,6 +59,10 @@ sk_canvas_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h

@@ -32,6 +32,10 @@ file
 #
 include
 "
+src
+/
+utils
+/
 SkUTF
 .
 h

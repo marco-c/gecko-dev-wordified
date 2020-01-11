@@ -42,6 +42,10 @@ GrBuffer_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h

@@ -42,6 +42,10 @@ SkAtlasTextTarget_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkDeque
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkBlendMode
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkMaskFilter
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPaint
 .
 h
@@ -57,6 +69,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkShader
 .
 h
@@ -64,6 +80,10 @@ h
 #
 include
 "
+include
+/
+c
+/
 sk_paint
 .
 h
@@ -71,6 +91,10 @@ h
 #
 include
 "
+src
+/
+c
+/
 sk_types_priv
 .
 h
@@ -197,6 +221,10 @@ sk_stroke_cap_t
 #
 include
 "
+src
+/
+c
+/
 sk_c_from_to
 .
 h
@@ -222,6 +250,10 @@ sk_stroke_join_t
 #
 include
 "
+src
+/
+c
+/
 sk_c_from_to
 .
 h

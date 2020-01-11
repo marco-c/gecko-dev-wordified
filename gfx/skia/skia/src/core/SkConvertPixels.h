@@ -42,6 +42,10 @@ SkConvertPixels_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkImageInfo
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTemplates
 .
 h

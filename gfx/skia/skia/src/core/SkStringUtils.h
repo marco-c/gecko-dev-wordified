@@ -42,6 +42,10 @@ SkStringUtils_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

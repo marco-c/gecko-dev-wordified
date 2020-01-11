@@ -42,6 +42,10 @@ SkOTTable_OS_2_VA_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkEndian
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkIBMFamilyClass
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h
@@ -63,6 +75,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkPanose
 .
 h

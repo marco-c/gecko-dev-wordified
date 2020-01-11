@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+pathops
+/
 SkAddIntersections
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpCoincidence
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkOpEdgeBuilder
 .
 h
@@ -57,6 +69,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCommon
 .
 h
@@ -64,6 +80,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathWriter
 .
 h

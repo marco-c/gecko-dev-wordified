@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+private
+/
 GrVkTypesPriv
 .
 h
@@ -43,6 +47,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+vk
+/
 GrVkImageLayout
 .
 h

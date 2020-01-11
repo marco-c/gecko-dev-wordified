@@ -42,6 +42,10 @@ GrVkAMDMemoryAllocator_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 vk
 /
 GrVkMemoryAllocator

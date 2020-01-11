@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkPoint3
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

@@ -42,6 +42,10 @@ SkEncodedOrigin_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMatrix
 .
 h
@@ -388,14 +392,6 @@ SK_ABORT
 Unexpected
 origin
 "
-)
-;
-return
-SkMatrix
-:
-:
-I
-(
 )
 ;
 }

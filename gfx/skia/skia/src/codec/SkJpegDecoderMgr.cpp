@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+codec
+/
 SkJpegDecoderMgr
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkJpegUtility
 .
 h
@@ -53,6 +61,10 @@ SK_BUILD_FOR_ANDROID_FRAMEWORK
 #
 include
 "
+include
+/
+android
+/
 SkAndroidFrameworkUtils
 .
 h

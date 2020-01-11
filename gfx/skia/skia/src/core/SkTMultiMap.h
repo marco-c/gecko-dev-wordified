@@ -42,6 +42,10 @@ SkTMultiMap_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTDynamicHash
 .
 h

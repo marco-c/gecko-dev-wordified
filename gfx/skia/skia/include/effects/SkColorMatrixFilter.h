@@ -44,6 +44,10 @@ SkColorMatrixFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColorFilter
 .
 h
@@ -51,6 +55,10 @@ h
 #
 include
 "
+include
+/
+effects
+/
 SkColorMatrix
 .
 h

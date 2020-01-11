@@ -42,6 +42,10 @@ SkMultiPictureDocumentPriv_DEFINED
 #
 include
 "
+src
+/
+utils
+/
 SkMultiPictureDocument
 .
 h

@@ -42,6 +42,10 @@ GrSoftwarePathRenderer_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrPathRenderer
 .
 h
@@ -261,6 +265,8 @@ sk_sp
 GrTextureProxy
 >
 proxy
+GrColorType
+srcColorType
 GrRenderTargetContext
 *
 renderTargetContext

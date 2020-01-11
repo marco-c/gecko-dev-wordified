@@ -42,6 +42,10 @@ SkBBoxHierarchy_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTDArray
 .
 h

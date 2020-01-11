@@ -44,6 +44,10 @@ SkPathEffect_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFlattenable
 .
 h
@@ -51,6 +55,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h
@@ -58,6 +66,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h
@@ -65,6 +77,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h

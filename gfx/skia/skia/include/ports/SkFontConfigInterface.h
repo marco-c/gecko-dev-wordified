@@ -42,6 +42,10 @@ SkFontConfigInterface_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFontStyle
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h
@@ -63,6 +75,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h

@@ -42,6 +42,10 @@ SkJpegDecoderMgr_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkCodecPriv
 .
 h
@@ -63,6 +71,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkJpegUtility
 .
 h

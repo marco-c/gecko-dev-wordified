@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkUnPreMultiply
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkColorData
 .
 h

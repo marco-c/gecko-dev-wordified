@@ -42,6 +42,10 @@ SkTypeface_mac_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h

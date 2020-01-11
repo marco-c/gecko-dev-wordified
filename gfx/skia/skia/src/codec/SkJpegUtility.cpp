@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+codec
+/
 SkJpegUtility
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkCodecPriv
 .
 h

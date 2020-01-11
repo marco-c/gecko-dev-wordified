@@ -42,6 +42,10 @@ SkImageEncoderPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkImageEncoder
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkImageInfoPriv
 .
 h

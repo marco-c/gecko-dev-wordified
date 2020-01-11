@@ -42,6 +42,10 @@ SkICC_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h

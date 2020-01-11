@@ -42,6 +42,10 @@ SkBitmapCache_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRect
 .
 h
@@ -55,10 +59,10 @@ class
 SkBitmap
 ;
 class
-SkBitmapProvider
+SkImage
 ;
 class
-SkImage
+SkImage_Base
 ;
 struct
 SkImageInfo
@@ -333,8 +337,8 @@ SkMipMap
 AddAndRef
 (
 const
-SkBitmapProvider
-&
+SkImage_Base
+*
 SkResourceCache
 *
 localCache

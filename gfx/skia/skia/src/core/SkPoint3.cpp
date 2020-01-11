@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkPoint3
 .
 h

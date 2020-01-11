@@ -42,6 +42,10 @@ SkPDFResourceDict_DEFINED
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFFont
 .
 h

@@ -42,6 +42,10 @@ SkPathOpsRect_DEFINED
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsPoint
 .
 h

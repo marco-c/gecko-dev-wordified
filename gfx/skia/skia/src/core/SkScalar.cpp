@@ -38,6 +38,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkMath
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h

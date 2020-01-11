@@ -59,6 +59,10 @@ sk_path_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h

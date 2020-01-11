@@ -42,6 +42,12 @@ SKSL_VARIABLEREFERENCE
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLExpression
 .
 h

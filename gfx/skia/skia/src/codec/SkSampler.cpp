@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkCodecPriv
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+src
+/
+codec
+/
 SkSampler
 .
 h
@@ -57,6 +69,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkUtils
 .
 h

@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+private
+/
 GrImageContext
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrCaps
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrImageContextPriv
 .
 h
@@ -57,6 +69,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrProxyProvider
 .
 h
@@ -64,6 +80,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrSkSLFPFactoryCache
 .
 h

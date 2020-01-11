@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+gpu
+/
 GrStencilSettings
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrProcessor
 .
 h

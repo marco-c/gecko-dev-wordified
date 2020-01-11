@@ -42,6 +42,10 @@ GrSRGBEffect_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrFragmentProcessor
 .
 h

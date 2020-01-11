@@ -42,6 +42,10 @@ SkTDPQueue_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkTDArray
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTSort
 .
 h

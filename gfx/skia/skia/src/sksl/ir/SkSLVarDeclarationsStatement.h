@@ -42,6 +42,12 @@ SKSL_VARDECLARATIONSSTATEMENT
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLStatement
 .
 h
@@ -49,6 +55,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLVarDeclarations
 .
 h

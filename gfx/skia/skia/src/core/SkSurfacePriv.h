@@ -42,6 +42,10 @@ SkSurfacePriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkSurfaceProps
 .
 h

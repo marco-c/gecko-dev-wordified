@@ -42,6 +42,10 @@ GrAutoLocaleSetter_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkNoncopyable
 .
 h
@@ -62,6 +70,10 @@ SK_BUILD_FOR_WIN
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h

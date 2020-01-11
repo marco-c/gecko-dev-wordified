@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+private
+/
 SkEncodedInfo
 .
 h

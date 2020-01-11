@@ -105,6 +105,10 @@ steps
 #
 include
 "
+include
+/
+gpu
+/
 GrDriverBugWorkaroundsAutogen
 .
 h
@@ -114,6 +118,10 @@ endif
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

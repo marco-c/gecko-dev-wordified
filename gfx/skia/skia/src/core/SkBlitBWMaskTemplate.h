@@ -38,6 +38,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkBitmap
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkMask
 .
 h

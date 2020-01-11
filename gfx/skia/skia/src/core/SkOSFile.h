@@ -61,6 +61,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h

@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkOpts
 .
 h
@@ -47,6 +51,10 @@ ssse3
 #
 include
 "
+src
+/
+opts
+/
 SkBitmapProcState_opts
 .
 h
@@ -54,6 +62,10 @@ h
 #
 include
 "
+src
+/
+opts
+/
 SkBlitMask_opts
 .
 h
@@ -61,6 +73,10 @@ h
 #
 include
 "
+src
+/
+opts
+/
 SkSwizzler_opts
 .
 h
@@ -68,6 +84,10 @@ h
 #
 include
 "
+src
+/
+opts
+/
 SkXfermode_opts
 .
 h

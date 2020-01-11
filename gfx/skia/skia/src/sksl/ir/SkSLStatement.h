@@ -42,6 +42,12 @@ SKSL_STATEMENT
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLIRNode
 .
 h
@@ -49,6 +55,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLType
 .
 h

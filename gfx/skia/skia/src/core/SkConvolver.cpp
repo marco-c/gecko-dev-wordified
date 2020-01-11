@@ -42,6 +42,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkConvolver
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkOpts
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h

@@ -44,6 +44,10 @@ SkDashPathEffect_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPathEffect
 .
 h

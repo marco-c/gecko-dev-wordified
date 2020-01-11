@@ -42,6 +42,10 @@ SkTextUtils_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkFont
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPaint
 .
 h
@@ -63,6 +75,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h
@@ -71,6 +87,7 @@ class
 SkPath
 ;
 class
+SK_API
 SkTextUtils
 {
 public
@@ -149,7 +166,10 @@ strlen
 (
 text
 )
-kUTF8_SkTextEncoding
+SkTextEncoding
+:
+:
+kUTF8
 x
 y
 font

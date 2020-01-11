@@ -42,6 +42,12 @@ SKSL_REGEXPARSER
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 RegexNode
 .
 h

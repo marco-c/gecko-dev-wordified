@@ -390,18 +390,6 @@ CONST
 CONST
 #
 undef
-LOWP
-LOWP
-#
-undef
-MEDIUMP
-MEDIUMP
-#
-undef
-HIGHP
-HIGHP
-#
-undef
 FLAT
 FLAT
 #
@@ -809,6 +797,5 @@ fOffset
 /
 /
 namespace
-SkSL
 #
 endif

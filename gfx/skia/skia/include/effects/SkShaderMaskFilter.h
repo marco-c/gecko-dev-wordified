@@ -42,6 +42,10 @@ SkShaderMaskFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMaskFilter
 .
 h

@@ -42,6 +42,12 @@ SKSL_BREAKSTATEMENT
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLExpression
 .
 h
@@ -49,6 +55,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLStatement
 .
 h

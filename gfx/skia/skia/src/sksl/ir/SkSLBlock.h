@@ -42,6 +42,12 @@ SKSL_BLOCK
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLStatement
 .
 h
@@ -49,6 +55,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLSymbolTable
 .
 h

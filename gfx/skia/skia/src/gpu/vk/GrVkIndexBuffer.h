@@ -42,6 +42,10 @@ GrVkIndexBuffer_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrGpuBuffer
 .
 h
@@ -49,6 +53,12 @@ h
 #
 include
 "
+src
+/
+gpu
+/
+vk
+/
 GrVkBuffer
 .
 h

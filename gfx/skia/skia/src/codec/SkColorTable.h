@@ -42,6 +42,10 @@ SkColorTable_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

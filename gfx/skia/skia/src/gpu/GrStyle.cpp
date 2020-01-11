@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+gpu
+/
 GrStyle
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+utils
+/
 SkDashPathPriv
 .
 h

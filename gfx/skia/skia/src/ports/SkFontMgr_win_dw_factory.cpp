@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -55,6 +59,10 @@ SKIA_GDI
 #
 include
 "
+include
+/
+core
+/
 SkFontMgr
 .
 h
@@ -62,6 +70,10 @@ h
 #
 include
 "
+include
+/
+ports
+/
 SkTypeface_win
 .
 h

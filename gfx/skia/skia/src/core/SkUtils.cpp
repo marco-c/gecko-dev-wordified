@@ -38,6 +38,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkUtils
 .
 h

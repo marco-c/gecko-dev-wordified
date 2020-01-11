@@ -42,6 +42,10 @@ SkEmptyShader_DEFINED
 #
 include
 "
+src
+/
+shaders
+/
 SkShaderBase
 .
 h
@@ -176,7 +180,7 @@ bool
 onAppendStages
 (
 const
-StageRec
+SkStageRec
 &
 )
 const

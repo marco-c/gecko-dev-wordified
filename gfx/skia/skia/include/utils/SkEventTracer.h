@@ -134,6 +134,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

@@ -38,6 +38,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkColorData
 .
 h
@@ -52,6 +60,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkFixed
 .
 h

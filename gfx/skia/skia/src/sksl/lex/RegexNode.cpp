@@ -36,6 +36,12 @@ file
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 RegexNode
 .
 h
@@ -43,6 +49,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 NFA
 .
 h

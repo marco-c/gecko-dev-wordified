@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkPathPriv
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkRecords
 .
 h

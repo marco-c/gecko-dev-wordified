@@ -42,6 +42,10 @@ SKSL_SETTING
 #
 include
 "
+src
+/
+sksl
+/
 SkSLContext
 .
 h
@@ -49,6 +53,12 @@ h
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLExpression
 .
 h

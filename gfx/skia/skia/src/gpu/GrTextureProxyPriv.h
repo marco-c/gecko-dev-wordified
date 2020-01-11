@@ -42,6 +42,10 @@ GrTextureProxyPriv_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrTextureProxy
 .
 h

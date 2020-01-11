@@ -42,6 +42,10 @@ SkRasterClipStack_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkClipOp
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkDeque
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkRasterClip
 .
 h

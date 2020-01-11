@@ -44,6 +44,10 @@ SK_SUPPORT_GPU
 #
 include
 "
+include
+/
+core
+/
 SkColorFilter
 .
 h
@@ -51,6 +55,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h

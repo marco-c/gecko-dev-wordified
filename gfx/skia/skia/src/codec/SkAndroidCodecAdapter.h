@@ -42,6 +42,10 @@ SkAndroidCodecAdapter_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkAndroidCodec
 .
 h

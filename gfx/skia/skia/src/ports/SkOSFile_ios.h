@@ -42,6 +42,10 @@ SkOSFile_ios_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h
@@ -251,6 +255,11 @@ CFStringGetCStringPtr
 imagePath
 encodingMethod
 )
+)
+;
+CFRelease
+(
+imagePath
 )
 ;
 return

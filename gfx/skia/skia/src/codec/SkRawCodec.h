@@ -42,6 +42,10 @@ SkRawCodec_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkColorSpace
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageInfo
 .
 h
@@ -63,6 +75,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

@@ -261,6 +261,10 @@ Q3
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsCubic
 .
 h
@@ -268,6 +272,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsQuad
 .
 h

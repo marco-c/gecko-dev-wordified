@@ -42,6 +42,10 @@ GrBackendDrawableInfo_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 vk
 /
 GrVkTypes

@@ -42,6 +42,10 @@ GrDistanceFieldGenFromVector_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPath
 .
 h

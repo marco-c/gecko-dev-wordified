@@ -42,6 +42,10 @@ SkLatticeIter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkScalar
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h

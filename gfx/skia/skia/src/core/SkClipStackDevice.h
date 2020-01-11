@@ -42,6 +42,10 @@ SkClipStackDevice_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkClipStack
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkDevice
 .
 h

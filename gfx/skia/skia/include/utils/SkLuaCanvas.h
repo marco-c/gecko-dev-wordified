@@ -42,6 +42,10 @@ SkLuaCanvas_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkCanvas
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkVertices
 .
 h

@@ -52,6 +52,12 @@ vector
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 LexUtil
 .
 h

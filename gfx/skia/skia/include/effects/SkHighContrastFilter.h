@@ -42,6 +42,10 @@ SkHighContrastFilter_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColorFilter
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPaint
 .
 h

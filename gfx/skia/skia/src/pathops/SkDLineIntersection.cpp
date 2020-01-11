@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+pathops
+/
 SkIntersections
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+pathops
+/
 SkPathOpsLine
 .
 h

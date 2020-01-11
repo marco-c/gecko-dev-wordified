@@ -38,6 +38,10 @@ file
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFFormXObject
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFUtils
 .
 h

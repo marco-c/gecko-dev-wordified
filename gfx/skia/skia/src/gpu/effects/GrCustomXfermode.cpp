@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+gpu
+/
 effects
 /
 GrCustomXfermode
@@ -45,6 +49,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrCaps
 .
 h
@@ -52,6 +60,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrCoordTransform
 .
 h
@@ -59,6 +71,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrFragmentProcessor
 .
 h
@@ -66,6 +82,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrPipeline
 .
 h
@@ -73,6 +93,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrProcessor
 .
 h
@@ -80,6 +104,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrShaderCaps
 .
 h
@@ -87,6 +115,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLBlend
@@ -96,6 +128,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentProcessor
@@ -105,6 +141,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentShaderBuilder
@@ -114,6 +154,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLProgramDataManager
@@ -123,6 +167,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLUniformHandler
@@ -132,6 +180,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLXferProcessor
@@ -1995,6 +2047,7 @@ hasMixedSamples
 const
 GrCaps
 &
+GrClampType
 )
 const
 override
@@ -2011,6 +2064,7 @@ GrProcessorAnalysisCoverage
 const
 GrCaps
 &
+GrClampType
 )
 const
 override
@@ -2075,6 +2129,8 @@ const
 GrCaps
 &
 caps
+GrClampType
+clampType
 )
 const
 {
@@ -2150,6 +2206,8 @@ const
 GrCaps
 &
 caps
+GrClampType
+clampType
 )
 const
 {
@@ -3337,7 +3395,7 @@ return
 AnalysisProperties
 :
 :
-kCompatibleWithAlphaAsCoverage
+kCompatibleWithCoverageAsAlpha
 ;
 }
 else
@@ -3346,7 +3404,7 @@ return
 AnalysisProperties
 :
 :
-kCompatibleWithAlphaAsCoverage
+kCompatibleWithCoverageAsAlpha
 |
 AnalysisProperties
 :
@@ -3359,7 +3417,7 @@ return
 AnalysisProperties
 :
 :
-kCompatibleWithAlphaAsCoverage
+kCompatibleWithCoverageAsAlpha
 |
 AnalysisProperties
 :

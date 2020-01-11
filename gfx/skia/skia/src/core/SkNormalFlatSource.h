@@ -42,6 +42,10 @@ SkNormalFlatSource_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkNormalSource
 .
 h

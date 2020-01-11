@@ -59,6 +59,10 @@ sk_maskfilter_DEFINED
 #
 include
 "
+include
+/
+c
+/
 sk_types
 .
 h
@@ -131,6 +135,7 @@ sk_maskfilter_unref
 .
 *
 /
+SK_API
 void
 sk_maskfilter_ref
 (
@@ -182,6 +187,7 @@ of
 .
 *
 /
+SK_API
 void
 sk_maskfilter_unref
 (
@@ -221,6 +227,7 @@ be
 .
 *
 /
+SK_API
 sk_maskfilter_t
 *
 sk_maskfilter_new_blur

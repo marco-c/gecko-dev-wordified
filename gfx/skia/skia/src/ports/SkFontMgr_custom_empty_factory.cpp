@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkFontMgr
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+include
+/
+ports
+/
 SkFontMgr_empty
 .
 h

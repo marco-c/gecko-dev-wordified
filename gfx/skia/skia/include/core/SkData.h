@@ -49,6 +49,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

@@ -42,6 +42,10 @@ SkMathPriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkMath
 .
 h
@@ -1772,9 +1776,11 @@ value
 *
 Return
 the
-next
+smallest
 power
+-
 of
+-
 2
 >
 =

@@ -42,6 +42,10 @@ SkValidationUtils_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBitmap
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkBlendMode
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkXfermodePriv
 .
 h

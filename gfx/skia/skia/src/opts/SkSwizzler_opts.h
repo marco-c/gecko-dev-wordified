@@ -42,6 +42,10 @@ SkSwizzler_opts_DEFINED
 #
 include
 "
+include
+/
+private
+/
 SkColorData
 .
 h

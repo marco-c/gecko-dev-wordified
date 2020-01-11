@@ -42,6 +42,10 @@ GrGrCCStrokeGeometry_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkPaint
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkPoint
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h
@@ -1332,9 +1344,6 @@ Verb
 .
 "
 )
-;
-return
-false
 ;
 }
 #

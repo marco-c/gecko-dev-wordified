@@ -42,6 +42,10 @@ SkBBHFactory_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -81,10 +85,6 @@ operator
 (
 )
 (
-const
-SkRect
-&
-bounds
 )
 const
 =
@@ -114,10 +114,6 @@ operator
 (
 )
 (
-const
-SkRect
-&
-bounds
 )
 const
 override

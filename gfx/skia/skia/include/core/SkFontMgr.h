@@ -42,6 +42,10 @@ SkFontMgr_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFontArguments
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkFontStyle
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -63,6 +75,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h

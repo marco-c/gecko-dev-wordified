@@ -42,6 +42,10 @@ SkPDFMetadata_DEFINED
 #
 include
 "
+include
+/
+docs
+/
 SkPDFDocument
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+pdf
+/
 SkPDFTypes
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+pdf
+/
 SkUUID
 .
 h

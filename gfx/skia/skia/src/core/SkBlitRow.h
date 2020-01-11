@@ -42,6 +42,10 @@ SkBlitRow_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkBitmap
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h

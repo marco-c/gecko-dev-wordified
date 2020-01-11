@@ -42,6 +42,10 @@ SKSL_CFGGENERATOR
 #
 include
 "
+src
+/
+sksl
+/
 ir
 /
 SkSLExpression
@@ -51,6 +55,10 @@ h
 #
 include
 "
+src
+/
+sksl
+/
 ir
 /
 SkSLFunctionDefinition

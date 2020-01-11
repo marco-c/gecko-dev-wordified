@@ -42,6 +42,10 @@ SkPaintDefaults_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFontTypes
 .
 h
@@ -105,7 +109,10 @@ SkPaintDefaults_Hinting
 #
 define
 SkPaintDefaults_Hinting
-kNormal_SkFontHinting
+SkFontHinting
+:
+:
+kNormal
 #
 endif
 #

@@ -42,6 +42,10 @@ GrFixedClip_DEFINED
 #
 include
 "
+src
+/
+gpu
+/
 GrClip
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrScissorState
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrWindowRectsState
 .
 h

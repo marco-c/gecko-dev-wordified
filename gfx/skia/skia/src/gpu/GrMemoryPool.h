@@ -42,6 +42,10 @@ GrMemoryPool_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -59,6 +67,10 @@ SK_DEBUG
 #
 include
 "
+include
+/
+private
+/
 SkTHash
 .
 h
@@ -712,7 +724,7 @@ kAlignment
 8
 kHeaderSize
 =
-GR_CT_ALIGN_UP
+GrSizeAlignUp
 (
 sizeof
 (
@@ -722,7 +734,7 @@ kAlignment
 )
 kPerAllocPad
 =
-GR_CT_ALIGN_UP
+GrSizeAlignUp
 (
 sizeof
 (

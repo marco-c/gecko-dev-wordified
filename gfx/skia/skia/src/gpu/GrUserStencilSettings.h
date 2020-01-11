@@ -42,6 +42,10 @@ GrUserStencilSettings_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -62,11 +66,11 @@ clipping
 inside
 the
 *
-GrOpList
+GrOpsTask
 class
 .
 The
-GrOpList
+GrOpsTask
 makes
 a
 subset
@@ -96,7 +100,7 @@ modify
 these
 bits
 .
-GrOpList
+GrOpsTask
 will
 ignore
 ref
@@ -121,7 +125,7 @@ When
 code
 outside
 the
-GrOpList
+GrOpsTask
 class
 uses
 the

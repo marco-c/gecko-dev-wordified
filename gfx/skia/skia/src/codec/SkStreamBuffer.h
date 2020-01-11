@@ -42,6 +42,10 @@ SkStreamBuffer_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkStream
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -63,8 +75,7 @@ h
 #
 include
 "
-.
-.
+include
 /
 private
 /

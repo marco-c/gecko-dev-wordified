@@ -38,6 +38,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkTSearch
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkMalloc
 .
 h

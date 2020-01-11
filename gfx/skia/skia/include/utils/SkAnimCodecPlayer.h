@@ -42,6 +42,10 @@ SkAnimCodecPlayer_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h

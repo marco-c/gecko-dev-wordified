@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkVertState
 .
 h

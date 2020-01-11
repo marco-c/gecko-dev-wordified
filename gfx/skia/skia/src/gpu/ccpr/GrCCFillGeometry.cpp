@@ -36,6 +36,12 @@ file
 #
 include
 "
+src
+/
+gpu
+/
+ccpr
+/
 GrCCFillGeometry
 .
 h
@@ -43,6 +49,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 GrTypes
 .
 h
@@ -50,6 +60,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkGeometry
 .
 h

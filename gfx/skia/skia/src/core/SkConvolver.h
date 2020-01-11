@@ -48,6 +48,10 @@ SK_CONVOLVER_H
 #
 include
 "
+include
+/
+core
+/
 SkSize
 .
 h
@@ -55,6 +59,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTDArray
 .
 h

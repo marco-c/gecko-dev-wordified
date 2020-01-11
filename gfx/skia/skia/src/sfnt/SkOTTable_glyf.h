@@ -42,6 +42,10 @@ SkOTTable_glyf_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkEndian
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTable_head
 .
 h
@@ -63,6 +75,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTable_loca
 .
 h

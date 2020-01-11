@@ -36,6 +36,12 @@ file
 #
 include
 "
+src
+/
+sksl
+/
+lex
+/
 NFA
 .
 h

@@ -42,6 +42,10 @@ SkPerlinNoiseShader_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkShader
 .
 h

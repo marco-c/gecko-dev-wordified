@@ -42,6 +42,10 @@ SkTTopoSort_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTArray
 .
 h
@@ -766,7 +774,7 @@ partially
 /
 flush
 a
-GrOpList
+GrRenderTask
 DAG
 .
 template

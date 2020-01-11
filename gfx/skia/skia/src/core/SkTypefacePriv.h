@@ -42,6 +42,10 @@ SkTypefacePriv_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypeface
 .
 h

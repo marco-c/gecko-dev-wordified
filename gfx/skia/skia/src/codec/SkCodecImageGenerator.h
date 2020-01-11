@@ -42,6 +42,10 @@ SkCodecImageGenerator_DEFINED
 #
 include
 "
+include
+/
+codec
+/
 SkCodec
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageGenerator
 .
 h

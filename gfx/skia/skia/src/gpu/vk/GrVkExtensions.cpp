@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+gpu
+/
 vk
 /
 GrVkExtensions
@@ -59,6 +63,10 @@ flags
 #
 include
 "
+include
+/
+gpu
+/
 vk
 /
 GrVkBackendContext
@@ -68,6 +76,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTSearch
 .
 h
@@ -75,6 +87,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTSort
 .
 h

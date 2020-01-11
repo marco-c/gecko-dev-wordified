@@ -42,6 +42,10 @@ GrVkVulkan_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -59,12 +63,6 @@ SK_VULKAN
 #
 include
 "
-.
-.
-/
-.
-.
-/
 include
 /
 third_party
@@ -148,12 +146,6 @@ SK_VULKAN
 #
 include
 "
-.
-.
-/
-.
-.
-/
 include
 /
 third_party

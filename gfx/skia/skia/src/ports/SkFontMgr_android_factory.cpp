@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkTypes
 .
 h
@@ -49,6 +53,10 @@ SK_BUILD_FOR_ANDROID
 #
 include
 "
+include
+/
+core
+/
 SkFontMgr
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+include
+/
+ports
+/
 SkFontMgr_android
 .
 h

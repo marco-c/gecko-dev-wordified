@@ -42,6 +42,10 @@ SkBitmapFilter_opts_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkConvolver
 .
 h

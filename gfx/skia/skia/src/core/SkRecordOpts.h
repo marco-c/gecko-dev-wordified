@@ -42,6 +42,10 @@ SkRecordOpts_DEFINED
 #
 include
 "
+src
+/
+core
+/
 SkRecord
 .
 h

@@ -42,6 +42,10 @@ SkOTTable_maxp_DEFINED
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTableTypes
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTable_maxp_CFF
 .
 h
@@ -56,6 +64,10 @@ h
 #
 include
 "
+src
+/
+sfnt
+/
 SkOTTable_maxp_TT
 .
 h

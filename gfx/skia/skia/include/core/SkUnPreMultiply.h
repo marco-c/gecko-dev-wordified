@@ -44,6 +44,10 @@ SkUnPreMultiply_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkColor
 .
 h

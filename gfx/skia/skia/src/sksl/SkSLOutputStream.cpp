@@ -36,6 +36,10 @@ file
 #
 include
 "
+src
+/
+sksl
+/
 SkSLOutputStream
 .
 h

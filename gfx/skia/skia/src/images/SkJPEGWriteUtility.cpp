@@ -38,6 +38,10 @@ file
 #
 include
 "
+src
+/
+images
+/
 SkJPEGWriteUtility
 .
 h

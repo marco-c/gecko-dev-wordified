@@ -42,6 +42,10 @@ GrVkInterface_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 vk
 /
 GrVkBackendContext
@@ -58,6 +66,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 vk
 /
 GrVkTypes

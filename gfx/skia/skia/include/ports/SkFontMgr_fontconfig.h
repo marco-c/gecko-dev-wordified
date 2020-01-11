@@ -42,6 +42,10 @@ SkFontMgr_fontconfig_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkRefCnt
 .
 h

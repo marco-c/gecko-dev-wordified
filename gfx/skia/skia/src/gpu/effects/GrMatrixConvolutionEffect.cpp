@@ -36,6 +36,12 @@ file
 #
 include
 "
+src
+/
+gpu
+/
+effects
+/
 GrMatrixConvolutionEffect
 .
 h
@@ -43,6 +49,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 GrTexture
 .
 h
@@ -50,6 +60,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 GrTextureProxy
 .
 h
@@ -57,6 +71,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentProcessor
@@ -66,6 +84,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLFragmentShaderBuilder
@@ -75,6 +97,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLProgramDataManager
@@ -84,6 +110,10 @@ h
 #
 include
 "
+src
+/
+gpu
+/
 glsl
 /
 GrGLSLUniformHandler
@@ -426,6 +456,8 @@ fTransformedCoords
 [
 0
 ]
+.
+fVaryingPoint
 )
 ;
 fragBuilder

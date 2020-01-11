@@ -42,6 +42,10 @@ SKSL_ERRORREPORTER
 #
 include
 "
+src
+/
+sksl
+/
 SkSLPosition
 .
 h

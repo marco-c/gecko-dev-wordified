@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkString
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkStringUtils
 .
 h
@@ -50,6 +58,10 @@ h
 #
 include
 "
+src
+/
+utils
+/
 SkUTF
 .
 h

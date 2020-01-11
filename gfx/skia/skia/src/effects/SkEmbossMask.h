@@ -44,6 +44,10 @@ SkEmbossMask_DEFINED
 #
 include
 "
+src
+/
+effects
+/
 SkEmbossMaskFilter
 .
 h

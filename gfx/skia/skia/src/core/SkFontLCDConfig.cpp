@@ -38,6 +38,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkFontLCDConfig
 .
 h

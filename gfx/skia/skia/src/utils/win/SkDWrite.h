@@ -42,6 +42,10 @@ SkDWrite_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkFontStyle
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+private
+/
 SkTemplates
 .
 h

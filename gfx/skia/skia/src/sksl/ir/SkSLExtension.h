@@ -42,6 +42,12 @@ SKSL_EXTENSION
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLProgramElement
 .
 h

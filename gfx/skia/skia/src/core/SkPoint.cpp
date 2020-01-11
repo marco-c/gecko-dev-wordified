@@ -38,6 +38,10 @@ file
 #
 include
 "
+src
+/
+core
+/
 SkMathPriv
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkPointPriv
 .
 h

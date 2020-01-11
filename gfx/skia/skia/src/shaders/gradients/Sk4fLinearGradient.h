@@ -42,6 +42,12 @@ Sk4fLinearGradient_DEFINED
 #
 include
 "
+src
+/
+shaders
+/
+gradients
+/
 Sk4fGradientBase
 .
 h
@@ -49,6 +55,12 @@ h
 #
 include
 "
+src
+/
+shaders
+/
+gradients
+/
 SkLinearGradient
 .
 h
@@ -101,7 +113,7 @@ GradientShaderBase4fContext
 template
 <
 ApplyPremul
-TileMode
+SkTileMode
 >
 class
 LinearIntervalProcessor
@@ -135,10 +147,7 @@ template
 <
 ApplyPremul
 premul
-SkShader
-:
-:
-TileMode
+SkTileMode
 tileMode
 >
 void

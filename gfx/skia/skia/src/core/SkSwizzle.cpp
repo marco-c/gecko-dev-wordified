@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkSwizzle
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkOpts
 .
 h

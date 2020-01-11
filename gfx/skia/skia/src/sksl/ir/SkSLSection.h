@@ -42,6 +42,12 @@ SKSL_SECTION
 #
 include
 "
+src
+/
+sksl
+/
+ir
+/
 SkSLProgramElement
 .
 h

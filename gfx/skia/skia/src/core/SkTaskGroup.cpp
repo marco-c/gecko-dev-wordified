@@ -36,6 +36,10 @@ file
 #
 include
 "
+include
+/
+core
+/
 SkExecutor
 .
 h
@@ -43,6 +47,10 @@ h
 #
 include
 "
+src
+/
+core
+/
 SkTaskGroup
 .
 h

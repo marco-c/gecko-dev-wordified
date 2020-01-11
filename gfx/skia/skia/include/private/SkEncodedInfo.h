@@ -42,6 +42,10 @@ SkEncodedInfo_DEFINED
 #
 include
 "
+include
+/
+core
+/
 SkData
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+core
+/
 SkImageInfo
 .
 h
@@ -56,11 +64,7 @@ h
 #
 include
 "
-.
-.
-/
-.
-.
+include
 /
 third_party
 /

@@ -42,6 +42,10 @@ GrSemaphore_DEFINED
 #
 include
 "
+include
+/
+gpu
+/
 GrBackendSemaphore
 .
 h
@@ -49,6 +53,10 @@ h
 #
 include
 "
+include
+/
+gpu
+/
 GrGpuResource
 .
 h
