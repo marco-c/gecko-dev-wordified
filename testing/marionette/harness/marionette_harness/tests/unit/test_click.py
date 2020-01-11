@@ -77,8 +77,6 @@ import
     
 MarionetteTestCase
     
-run_if_e10s
-    
 WindowManagerMixin
 )
 def
@@ -3492,16 +3490,6 @@ By
 ID
 "
 delay
-"
-)
-    
-run_if_e10s
-(
-"
-Requires
-e10s
-mode
-enabled
 "
 )
     

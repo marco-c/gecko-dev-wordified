@@ -92,7 +92,6 @@ marionette_harness
 import
 MarionetteTestCase
 expectedFailure
-run_if_e10s
 #
 Import
 runner
@@ -955,19 +954,6 @@ marionette
 .
 get_url
 (
-)
-    
-run_if_e10s
-(
-"
-Content
-crashes
-only
-exist
-in
-e10s
-mode
-"
 )
     
 def

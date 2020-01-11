@@ -69,7 +69,7 @@ from
 marionette_harness
 import
 MarionetteTestCase
-skip_if_e10s
+skip
 class
 TestSSLStatusAfterRestart
 (
@@ -365,11 +365,19 @@ tearDown
 (
 )
     
-skip_if_e10s
+skip
 (
 "
 Bug
 1325047
+-
+Tests
+fails
+when
+run
+with
+multiple
+processes
 "
 )
     
