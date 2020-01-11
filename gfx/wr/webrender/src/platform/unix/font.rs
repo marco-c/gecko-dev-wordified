@@ -939,7 +939,7 @@ C
 "
 {
 fn
-mozilla_GlyphSlot_Embolden_Less
+FT_GlyphSlot_Embolden
 (
 slot
 :
@@ -4279,7 +4279,7 @@ SYNTHETIC_BOLD
 {
 unsafe
 {
-mozilla_GlyphSlot_Embolden_Less
+FT_GlyphSlot_Embolden
 (
 slot
 )
