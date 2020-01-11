@@ -2845,7 +2845,7 @@ GC
 .
 *
 /
-MainThreadOrGCTaskData
+MainThreadData
 <
 bool
 >
