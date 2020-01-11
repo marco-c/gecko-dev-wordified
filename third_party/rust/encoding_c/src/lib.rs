@@ -129,7 +129,7 @@ encoding_c
 .
 9
 .
-4
+7
 "
 )
 ]
@@ -7693,7 +7693,7 @@ the
 encoding
 is
 never
-Latin
+Latin1
 -
 byte
 -

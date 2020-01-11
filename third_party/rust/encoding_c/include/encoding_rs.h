@@ -4725,7 +4725,7 @@ the
 encoding
 is
 never
-Latin
+Latin1
 -
 byte
 -
