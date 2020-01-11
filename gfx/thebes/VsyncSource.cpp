@@ -330,6 +330,7 @@ mRefreshTimerVsyncDispatcher
 new
 RefreshTimerVsyncDispatcher
 (
+this
 )
 ;
 }
@@ -733,6 +734,15 @@ aNewDisplay
 mRefreshTimerVsyncDispatcher
 =
 mRefreshTimerVsyncDispatcher
+;
+mRefreshTimerVsyncDispatcher
+-
+>
+MoveToDisplay
+(
+&
+aNewDisplay
+)
 ;
 mRefreshTimerVsyncDispatcher
 =

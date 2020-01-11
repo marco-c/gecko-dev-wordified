@@ -1306,6 +1306,7 @@ GetCompositorVsyncDispatcher
 (
 )
 ;
+virtual
 void
 CreateCompositorVsyncDispatcher
 (
