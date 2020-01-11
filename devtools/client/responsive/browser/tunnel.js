@@ -1070,14 +1070,6 @@ js
 /
 /
 *
-hasContentOpener
-from
-browser
-.
-js
-/
-/
-*
 preserveLayers
 from
 browser
