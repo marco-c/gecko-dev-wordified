@@ -3220,7 +3220,7 @@ hangDetails
 aHangTime
 nsDependentCString
 (
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 XRE_GetProcessType
 (
