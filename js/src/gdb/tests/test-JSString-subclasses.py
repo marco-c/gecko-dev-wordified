@@ -25,7 +25,7 @@ subclasses
 assert_pretty
 (
 '
-flat
+linear
 '
 '
 "
