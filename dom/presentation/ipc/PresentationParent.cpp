@@ -484,15 +484,12 @@ mChildId
 aContentParentId
 ;
 return
+!
 NS_WARN_IF
 (
 !
 mService
 )
-?
-false
-:
-true
 ;
 }
 void

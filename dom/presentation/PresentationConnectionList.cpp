@@ -473,10 +473,7 @@ if
 id
 =
 =
-nsAutoString
-(
 aId
-)
 )
 {
 return
@@ -541,10 +538,6 @@ ConnectionArray
 :
 :
 NoIndex
-?
-true
-:
-false
 ;
 PresentationConnectionList_Binding
 :

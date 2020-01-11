@@ -556,10 +556,6 @@ nsIDocumentEncoder
 :
 OutputBodyOnly
 )
-?
-true
-:
-false
 ;
 return
 NS_OK

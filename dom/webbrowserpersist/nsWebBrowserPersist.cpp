@@ -2075,10 +2075,6 @@ mPersistFlags
 &
 PERSIST_FLAGS_REPLACE_EXISTING_FILES
 )
-?
-true
-:
-false
 ;
 mSerializingOutput
 =
@@ -2087,10 +2083,6 @@ mPersistFlags
 &
 PERSIST_FLAGS_SERIALIZE_OUTPUT
 )
-?
-true
-:
-false
 ;
 return
 NS_OK

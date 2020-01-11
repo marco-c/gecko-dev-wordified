@@ -31069,13 +31069,10 @@ inverted
 bool
 goDown
 =
+!
 aParams
 .
 vertical
-?
-false
-:
-true
 ;
 uint32_t
 iter

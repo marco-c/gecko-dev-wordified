@@ -6337,12 +6337,12 @@ mMutedErrorFlag
 .
 emplace
 (
+!
 IsMainWorkerScript
 (
 )
-?
-false
-:
+&
+&
 !
 principal
 -

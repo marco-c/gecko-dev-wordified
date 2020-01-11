@@ -19413,13 +19413,12 @@ GetContentPolicy
 )
 ;
 return
-NS_FAILED
+NS_SUCCEEDED
 (
 rv
 )
-?
-false
-:
+&
+&
 NS_CP_ACCEPTED
 (
 decision
