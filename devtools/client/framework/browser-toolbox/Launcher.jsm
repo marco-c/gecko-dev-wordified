@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-DBG_XUL
+BROWSER_TOOLBOX_WINDOW_URL
 =
 "
 chrome
@@ -75,10 +75,10 @@ content
 /
 framework
 /
+browser
+-
 toolbox
--
-process
--
+/
 window
 .
 html
@@ -281,7 +281,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-BrowserToolboxProcess
+BrowserToolboxLauncher
 "
 ]
 ;
@@ -374,10 +374,10 @@ preferences
 /
 this
 .
-BrowserToolboxProcess
+BrowserToolboxLauncher
 =
 function
-BrowserToolboxProcess
+BrowserToolboxLauncher
 (
 onClose
 onRun
@@ -464,7 +464,7 @@ emit
 args
 )
 ;
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 emit
 (
@@ -579,7 +579,7 @@ EventEmitter
 .
 decorate
 (
-BrowserToolboxProcess
+BrowserToolboxLauncher
 )
 ;
 /
@@ -599,7 +599,7 @@ return
 object
 *
 /
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 init
 =
@@ -674,7 +674,7 @@ null
 }
 return
 new
-BrowserToolboxProcess
+BrowserToolboxLauncher
 (
 onClose
 onRun
@@ -710,7 +710,7 @@ return
 bool
 *
 /
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 getBrowserToolboxSessionState
 =
@@ -729,7 +729,7 @@ size
 ;
 }
 ;
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 prototype
 =
@@ -1598,7 +1598,7 @@ profilePath
 -
 chrome
 "
-DBG_XUL
+BROWSER_TOOLBOX_WINDOW_URL
 ]
 ;
 const

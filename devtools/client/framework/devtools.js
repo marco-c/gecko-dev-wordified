@@ -200,7 +200,7 @@ lazyImporter
 (
 this
 "
-BrowserToolboxProcess
+BrowserToolboxLauncher
 "
 "
 resource
@@ -213,7 +213,11 @@ client
 /
 framework
 /
-ToolboxProcess
+browser
+-
+toolbox
+/
+Launcher
 .
 jsm
 "
@@ -2696,7 +2700,7 @@ state
 .
 browserToolbox
 =
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 getBrowserToolboxSessionState
 (
@@ -2734,7 +2738,7 @@ if
 browserToolbox
 )
 {
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 init
 (

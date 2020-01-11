@@ -1446,7 +1446,11 @@ client
 /
 framework
 /
-ToolboxProcess
+browser
+-
+toolbox
+/
+Launcher
 .
 jsm
 *

@@ -112,9 +112,17 @@ client
 /
 framework
 /
+browser
+-
+toolbox
+/
 test
 /
 helpers
+-
+browser
+-
+toolbox
 .
 js
 "
