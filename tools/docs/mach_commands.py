@@ -1109,6 +1109,10 @@ None
         
 import
 sphinx
+.
+cmd
+.
+build
         
 config
 =
@@ -1123,10 +1127,6 @@ conf_py_path
 args
 =
 [
-            
-'
-sphinx
-'
             
 '
 -
@@ -1172,6 +1172,10 @@ jobs
         
 return
 sphinx
+.
+cmd
+.
+build
 .
 build_main
 (
