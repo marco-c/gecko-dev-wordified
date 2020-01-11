@@ -78,7 +78,8 @@ setup
 (
 )
 {
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;

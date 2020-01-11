@@ -240,7 +240,8 @@ promiseStartupManager
 (
 )
 ;
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;
