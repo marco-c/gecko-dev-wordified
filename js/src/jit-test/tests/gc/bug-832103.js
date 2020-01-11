@@ -78,7 +78,7 @@ RegExp
 "
 )
 ;
-uneval
+String
 (
 undefined
 )

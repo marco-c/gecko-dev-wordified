@@ -583,11 +583,6 @@ realGC
 =
 gc
 ;
-var
-realUneval
-=
-uneval
-;
 function
 tryEnsureSanity
 (
@@ -609,11 +604,6 @@ delete
 this
 .
 gc
-;
-delete
-this
-.
-uneval
 ;
 this
 .
@@ -638,12 +628,6 @@ this
 gc
 =
 realGC
-;
-this
-.
-uneval
-=
-realUneval
 ;
 }
 catch

@@ -162,7 +162,9 @@ z
 ;
 print
 (
-uneval
+JSON
+.
+stringify
 (
 findPath
 (
@@ -220,7 +222,9 @@ o
 ;
 print
 (
-uneval
+JSON
+.
+stringify
 (
 findPath
 (
@@ -315,7 +319,9 @@ obj
 ;
 print
 (
-uneval
+JSON
+.
+stringify
 (
 findPath
 (
@@ -404,7 +410,9 @@ o
 ;
 print
 (
-uneval
+JSON
+.
+stringify
 (
 findPath
 (

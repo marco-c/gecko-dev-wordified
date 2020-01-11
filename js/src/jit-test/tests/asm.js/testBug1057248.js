@@ -685,7 +685,9 @@ e
 }
 }
 }
-uneval
+JSON
+.
+stringify
 (
 [
 ]

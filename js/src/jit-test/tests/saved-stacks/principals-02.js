@@ -100,7 +100,9 @@ check
 (
 "
 +
-uneval
+JSON
+.
+stringify
 (
 expected
 )
