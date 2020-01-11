@@ -183,9 +183,6 @@ b
 )
 ;
 }
-var
-initialFrame
-;
 function
 start
 (
@@ -220,12 +217,6 @@ MozPaintWaitFinished
 "
 step
 )
-;
-initialFrame
-=
-window
-.
-mozPaintCount
 ;
 plugin
 =
