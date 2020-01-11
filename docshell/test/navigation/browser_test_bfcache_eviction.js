@@ -453,7 +453,7 @@ historyListener
 )
 ;
 delete
-content
+window
 .
 _testListener
 ;
@@ -513,7 +513,7 @@ weak
 shistory
 listener
 alive
-content
+window
 .
 _testListener
 =
