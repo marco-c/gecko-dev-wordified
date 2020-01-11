@@ -1153,23 +1153,6 @@ MACRO
 (
 5
 "
-responsiveness
-"
-Responsiveness
-\
-"
-Collect
-thread
-responsiveness
-information
-"
-)
-\
-\
-MACRO
-(
-6
-"
 screenshots
 "
 Screenshots
@@ -1190,7 +1173,7 @@ composition
 \
 MACRO
 (
-7
+6
 "
 seqstyle
 "
@@ -1208,7 +1191,7 @@ styling
 \
 MACRO
 (
-8
+7
 "
 stackwalk
 "
@@ -1232,7 +1215,7 @@ platforms
 \
 MACRO
 (
-9
+8
 "
 tasktracer
 "
@@ -1250,7 +1233,7 @@ TaskTracer
 \
 MACRO
 (
-10
+9
 "
 threads
 "
@@ -1267,7 +1250,7 @@ threads
 \
 MACRO
 (
-11
+10
 "
 trackopts
 "
@@ -1287,7 +1270,7 @@ optimizations
 \
 MACRO
 (
-12
+11
 "
 jstracer
 "
