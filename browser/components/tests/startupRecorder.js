@@ -847,7 +847,7 @@ handed
 /
 /
 an
-nsIAppWindow
+nsIXULWindow
 instead
 of
 an
@@ -859,7 +859,7 @@ subject
 instanceof
 Ci
 .
-nsIAppWindow
+nsIXULWindow
 )
 {
 subject

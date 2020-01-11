@@ -626,7 +626,7 @@ h
 #
 include
 "
-nsIAppWindow
+nsIXULWindow
 .
 h
 "
@@ -5979,9 +5979,9 @@ newChrome
 {
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
-appWin
+xulWin
 =
 do_GetInterface
 (
@@ -5990,7 +5990,7 @@ newChrome
 ;
 if
 (
-appWin
+xulWin
 )
 {
 nsCOMPtr
@@ -5999,7 +5999,7 @@ nsIXULBrowserWindow
 >
 xulBrowserWin
 ;
-appWin
+xulWin
 -
 >
 GetXULBrowserWindow
@@ -6046,7 +6046,7 @@ might
 be
 a
 chrome
-AppWindow
+nsXULWindow
 in
 which
 case
@@ -15171,9 +15171,9 @@ aIsCallerChrome
 {
 nsCOMPtr
 <
-nsIAppWindow
+nsIXULWindow
 >
-appWin
+xulWin
 =
 do_GetInterface
 (
@@ -15182,7 +15182,7 @@ treeOwnerAsWin
 ;
 if
 (
-appWin
+xulWin
 &
 &
 aSizeSpec
@@ -15190,7 +15190,7 @@ aSizeSpec
 mLockAspectRatio
 )
 {
-appWin
+xulWin
 -
 >
 LockAspectRatio

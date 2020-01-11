@@ -1368,6 +1368,13 @@ h
 #
 include
 "
+nsIXULWindow
+.
+h
+"
+#
+include
+"
 nsITimedChannel
 .
 h

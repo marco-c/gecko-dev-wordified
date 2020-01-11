@@ -68,7 +68,7 @@ window
 =
 context
 .
-appWindow
+xulWindow
 ;
 if
 (
