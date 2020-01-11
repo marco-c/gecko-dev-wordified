@@ -1928,6 +1928,20 @@ MOZ_DISABLE_STACK_FIX
 return
 None
     
+if
+mozinfo
+.
+isMac
+and
+not
+mozinfo
+.
+automation
+:
+        
+return
+None
+    
 def
 import_stack_fixer_module
 (
