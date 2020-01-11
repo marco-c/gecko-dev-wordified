@@ -32155,19 +32155,6 @@ Spread
 if
 (
 !
-newSrcNote
-(
-SRC_FOR_OF
-)
-)
-{
-return
-false
-;
-}
-if
-(
-!
 loopInfo
 .
 emitLoopHead
@@ -32176,6 +32163,7 @@ this
 Nothing
 (
 )
+SRC_FOR_OF
 )
 )
 {
