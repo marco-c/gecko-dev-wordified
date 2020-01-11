@@ -4209,17 +4209,23 @@ _reset_state
 (
 )
             
-self
-.
-_tests
-=
-list
-(
+for
+test
+in
 self
 .
 load_tests
 (
 )
+:
+                
+self
+.
+_tests
+.
+append
+(
+test
 )
             
 self
@@ -5456,7 +5462,7 @@ id
 file_relpath
 "
 :
-path
+src_path
                         
 "
 head
