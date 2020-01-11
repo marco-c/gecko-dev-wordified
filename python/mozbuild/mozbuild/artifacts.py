@@ -616,14 +616,6 @@ autoland
 '
         
 '
-integration
-/
-mozilla
--
-inbound
-'
-        
-'
 releases
 /
 mozilla
@@ -6857,9 +6849,7 @@ Eg
 '
 integration
 /
-mozilla
--
-inbound
+autoland
 '
 is
 indexed
@@ -6867,9 +6857,7 @@ as
         
 #
 '
-mozilla
--
-inbound
+autoland
 '
         
 tree
