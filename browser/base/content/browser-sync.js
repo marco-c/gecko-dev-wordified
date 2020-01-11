@@ -2922,7 +2922,7 @@ GetStringFromName
 "
 account
 .
-settings
+manageAccount
 "
 )
 ;
