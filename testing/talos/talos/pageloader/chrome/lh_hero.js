@@ -248,6 +248,8 @@ before
 '
 load
 '
+content
+.
 setTimeout
 (
 function
