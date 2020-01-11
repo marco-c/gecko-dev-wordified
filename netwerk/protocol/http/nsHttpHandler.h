@@ -2906,11 +2906,6 @@ bool
 mIsSecure
 )
 ;
-bool
-EnsureConnectionMgr
-(
-)
-;
 MOZ_MUST_USE
 nsresult
 InitConnectionMgr
