@@ -25497,7 +25497,6 @@ type
 .
 *
 /
-static
 PRBool
 ssl_SignatureSchemeValid
 (
