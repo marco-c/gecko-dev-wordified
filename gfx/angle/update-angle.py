@@ -950,6 +950,9 @@ arguments
 .
 is_clang
 =
+true
+is_debug
+=
 false
 angle_enable_gl
 =
@@ -2647,6 +2650,12 @@ REGISTERED_DEFINES
 {
     
 '
+ANGLE_CAPTURE_ENABLED
+'
+:
+True
+    
+'
 ANGLE_EGL_LIBRARY_NAME
 '
 :
@@ -3191,6 +3200,34 @@ False
     
 '
 __STD_C
+'
+:
+False
+    
+#
+clang
+specific
+    
+'
+CR_CLANG_REVISION
+'
+:
+True
+    
+'
+NDEBUG
+'
+:
+False
+    
+'
+NVALGRIND
+'
+:
+False
+    
+'
+_HAS_NODISCARD
 '
 :
 False
