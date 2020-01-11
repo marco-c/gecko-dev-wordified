@@ -6563,6 +6563,7 @@ spoofProfileReset
 (
 )
 ;
+await
 TelemetryEnvironment
 .
 delayedInit
