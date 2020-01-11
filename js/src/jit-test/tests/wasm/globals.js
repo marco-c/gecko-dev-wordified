@@ -3364,12 +3364,6 @@ value
 "
 is
 enumerable
-and
-is
-the
-first
-enumerated
-value
 let
 x
 =
@@ -3410,13 +3404,8 @@ i
 assertEq
 (
 s
-.
-substring
-(
-0
-6
-)
 "
+valueOf
 value
 "
 )
