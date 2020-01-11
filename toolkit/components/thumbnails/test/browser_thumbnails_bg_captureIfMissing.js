@@ -28,9 +28,11 @@ zero
 /
 *
 /
+add_task
+(
+async
 function
-*
-runTests
+thumbnails_bg_captureIfMissing
 (
 )
 {
@@ -128,9 +130,11 @@ exist
 )
 ;
 let
+[
 capturedURL
+]
 =
-yield
+await
 bgCaptureIfMissing
 (
 url
@@ -226,9 +230,11 @@ stick
 "
 )
 ;
+[
 capturedURL
+]
 =
-yield
+await
 bgCaptureIfMissing
 (
 url
@@ -327,3 +333,5 @@ create
 )
 ;
 }
+)
+;
