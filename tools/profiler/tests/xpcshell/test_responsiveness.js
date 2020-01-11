@@ -70,9 +70,6 @@ non
 zero
 event
 delays
-(
-responsiveness
-)
 *
 /
 add_task
@@ -165,7 +162,7 @@ const
 message
 =
 "
-Responsiveness
+eventDelay
 >
 0
 not
@@ -182,7 +179,7 @@ samples
 .
 schema
 .
-responsiveness
+eventDelay
 ;
 for
 (

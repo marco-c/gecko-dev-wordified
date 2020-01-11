@@ -1376,7 +1376,7 @@ schema
 WriteField
 (
 "
-responsiveness
+eventDelay
 "
 )
 ;
