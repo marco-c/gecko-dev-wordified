@@ -540,7 +540,7 @@ browser
 .
 urlbar
 .
-megabar
+update1
 "
 true
 ]

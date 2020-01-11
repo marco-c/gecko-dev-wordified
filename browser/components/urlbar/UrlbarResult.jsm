@@ -1648,6 +1648,8 @@ UrlbarPrefs
 get
 (
 "
+update1
+.
 view
 .
 stripHttps
