@@ -3521,6 +3521,15 @@ finishRoots
 )
 ;
 }
+#
+ifdef
+JS_GC_ZEAL
+clearSelectedForMarking
+(
+)
+;
+#
+endif
 /
 /
 Clear

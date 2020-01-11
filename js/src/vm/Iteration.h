@@ -221,11 +221,11 @@ Internal
 iterator
 object
 .
-JSObject
-*
+GCPtrObject
 iterObj_
 =
-nullptr
+{
+}
 ;
 /
 /
