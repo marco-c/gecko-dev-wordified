@@ -280,10 +280,6 @@ std
 "
 )
 ]
-extern
-crate
-rand
-;
 use
 rand
 :

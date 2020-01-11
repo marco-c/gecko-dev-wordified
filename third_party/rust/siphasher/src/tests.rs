@@ -123,6 +123,19 @@ those
 terms
 .
 use
+super
+:
+:
+sip
+:
+:
+{
+SipHasher
+SipHasher13
+SipHasher24
+}
+;
+use
 std
 :
 :
@@ -132,16 +145,6 @@ hash
 {
 Hash
 Hasher
-}
-;
-use
-sip
-:
-:
-{
-SipHasher
-SipHasher13
-SipHasher24
 }
 ;
 /
@@ -240,7 +243,7 @@ expr
 )
 =
 >
-(
+{
 buf
 [
 0
@@ -347,7 +350,7 @@ u64
 <
 <
 56
-)
+}
 ;
 (
 buf
@@ -362,7 +365,7 @@ expr
 )
 =
 >
-(
+{
 {
 let
 mut
@@ -408,7 +411,7 @@ t
 }
 out
 }
-)
+}
 ;
 }
 fn
@@ -2171,7 +2174,7 @@ val
 =
 0xdeadbeef_deadbeef_u64
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2183,8 +2186,6 @@ as
 u64
 )
 )
-!
-=
 hash
 (
 &
@@ -2268,7 +2269,7 @@ usize
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2280,8 +2281,6 @@ as
 u32
 )
 )
-!
-=
 hash
 (
 &
@@ -2319,7 +2318,7 @@ val
 =
 0xdeadbeef_deadbeef_u64
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2331,8 +2330,6 @@ as
 u64
 )
 )
-!
-=
 hash
 (
 &
@@ -2432,7 +2429,7 @@ val
 =
 0xdeadbeef_deadbeef_u64
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2440,8 +2437,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2453,7 +2448,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2461,8 +2456,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2474,7 +2467,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2482,8 +2475,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2495,7 +2486,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2503,8 +2494,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2516,7 +2505,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2524,8 +2513,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2537,7 +2524,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2545,8 +2532,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2558,7 +2543,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2566,8 +2551,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2579,7 +2562,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2587,8 +2570,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2651,7 +2632,7 @@ val
 =
 0xdeadbeef_u32
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2659,8 +2640,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2672,7 +2651,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2680,8 +2659,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2693,7 +2670,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2701,8 +2678,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2714,7 +2689,7 @@ val
 )
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2722,8 +2697,6 @@ hash
 &
 val
 )
-!
-=
 hash
 (
 &
@@ -2928,16 +2901,14 @@ u
 ]
 )
 ;
-assert
+assert_ne
 !
 (
 v
-!
-=
 w
 )
 ;
-assert
+assert_ne
 !
 (
 hash
@@ -2945,8 +2916,6 @@ hash
 &
 v
 )
-!
-=
 hash
 (
 &
