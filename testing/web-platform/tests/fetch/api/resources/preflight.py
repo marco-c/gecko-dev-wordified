@@ -280,23 +280,6 @@ preflight
 !
 "
         
-#
-https
-:
-/
-/
-github
-.
-com
-/
-whatwg
-/
-fetch
-/
-issues
-/
-922
-        
 if
 request
 .
