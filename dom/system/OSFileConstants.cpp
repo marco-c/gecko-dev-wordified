@@ -3013,12 +3013,6 @@ Defining
 flock
 |
 .
-#
-if
-defined
-(
-XP_UNIX
-)
 {
 "
 OSFILE_SIZEOF_FLOCK
@@ -3120,14 +3114,6 @@ l_whence
 )
 )
 }
-#
-endif
-/
-/
-defined
-(
-XP_UNIX
-)
 /
 /
 Offset
