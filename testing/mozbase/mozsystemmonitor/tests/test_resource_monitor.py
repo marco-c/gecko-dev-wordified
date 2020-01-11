@@ -336,12 +336,15 @@ phase2
 phase1
 '
 ]
+list
+(
 monitor
 .
 phases
 .
 keys
 (
+)
 )
 )
         
