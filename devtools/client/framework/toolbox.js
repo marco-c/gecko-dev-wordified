@@ -4780,9 +4780,6 @@ targetList
 .
 startListening
 (
-TargetList
-.
-ALL_TYPES
 )
 ;
 /
@@ -22854,9 +22851,6 @@ targetList
 .
 stopListening
 (
-TargetList
-.
-ALL_TYPES
 )
 ;
 /
