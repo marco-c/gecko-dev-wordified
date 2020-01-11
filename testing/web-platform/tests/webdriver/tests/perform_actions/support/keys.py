@@ -2561,7 +2561,7 @@ code
 "
 :
 "
-OSLeft
+MetaLeft
 "
         
 "
@@ -4183,7 +4183,7 @@ code
 "
 :
 "
-OSRight
+MetaRight
 "
         
 "
