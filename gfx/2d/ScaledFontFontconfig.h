@@ -226,6 +226,12 @@ GetDefaultAAMode
 override
 ;
 bool
+UseSubpixelPosition
+(
+)
+const
+;
+bool
 CanSerialize
 (
 )

@@ -231,6 +231,12 @@ GRAY
 ;
 }
 bool
+UseSubpixelPosition
+(
+)
+const
+;
+bool
 CanSerialize
 (
 )
