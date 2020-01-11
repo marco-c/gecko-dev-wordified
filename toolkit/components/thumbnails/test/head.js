@@ -931,6 +931,7 @@ color
 .
 *
 /
+async
 function
 captureAndCheckColor
 (
@@ -984,15 +985,14 @@ Capture
 the
 screenshot
 .
+await
 PageThumbs
 .
 captureAndStore
 (
 browser
-function
-(
 )
-{
+;
 retrieveImageDataForURL
 (
 browser
@@ -1032,9 +1032,6 @@ aMessage
 ;
 next
 (
-)
-;
-}
 )
 ;
 }
