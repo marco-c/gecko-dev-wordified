@@ -101,6 +101,15 @@ h
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsPersistentProperties
 .
 h
