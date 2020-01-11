@@ -674,7 +674,7 @@ of
 a
 hint
 on
-MTG
+MSG
 creation
 but
 the
@@ -690,7 +690,7 @@ or
 if
 all
 the
-tracks
+streams
 have
 /
 /
@@ -728,7 +728,7 @@ do
 and
 all
 the
-tracks
+streams
 were
 ended
 /
@@ -962,7 +962,7 @@ data
 produced
 by
 the
-MediaTrackGraph
+MediaStreamGraph
 *
 because
 of

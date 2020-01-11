@@ -103,7 +103,7 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 h
 "
@@ -141,7 +141,7 @@ Ended
 return
 ;
 }
-mTrack
+mStream
 -
 >
 AddAudioOutput
@@ -171,7 +171,7 @@ Ended
 return
 ;
 }
-mTrack
+mStream
 -
 >
 RemoveAudioOutput
@@ -203,7 +203,7 @@ Ended
 return
 ;
 }
-mTrack
+mStream
 -
 >
 SetAudioOutputVolume
@@ -278,7 +278,8 @@ new
 AudioStreamTrack
 (
 mWindow
-mInputTrack
+mInputStream
+mTrackID
 mSource
 ReadyState
 (

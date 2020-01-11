@@ -195,7 +195,7 @@ class
 AudioBlock
 ;
 class
-AudioNodeTrack
+AudioNodeStream
 ;
 /
 *
@@ -1475,7 +1475,7 @@ called
 on
 the
 *
-MediaTrackGraph
+MediaStreamGraph
 thread
 .
 *
@@ -1492,7 +1492,7 @@ should
 be
 compatible
 with
-AudioNodeTrack
+AudioNodeStream
 :
 :
 OutputChunks
@@ -1559,11 +1559,11 @@ nullptr
 }
 virtual
 void
-SetTrackTimeParameter
+SetStreamTimeParameter
 (
 uint32_t
 aIndex
-TrackTime
+StreamTime
 aParam
 )
 {
@@ -1571,7 +1571,7 @@ NS_ERROR
 (
 "
 Invalid
-SetTrackTimeParameter
+SetStreamTimeParameter
 index
 "
 )
@@ -1802,7 +1802,7 @@ sampling
 rate
 for
 the
-track
+stream
 and
 to
 have
@@ -1847,7 +1847,7 @@ ll
 finish
 the
 *
-track
+stream
 consider
 this
 input
@@ -1869,9 +1869,9 @@ virtual
 void
 ProcessBlock
 (
-AudioNodeTrack
+AudioNodeStream
 *
-aTrack
+aStream
 GraphTime
 aFrom
 const
@@ -1936,9 +1936,9 @@ virtual
 void
 ProduceBlockBeforeInput
 (
-AudioNodeTrack
+AudioNodeStream
 *
-aTrack
+aStream
 GraphTime
 aFrom
 AudioBlock
@@ -2123,9 +2123,9 @@ virtual
 void
 ProcessBlocksOnPorts
 (
-AudioNodeTrack
+AudioNodeStream
 *
-aTrack
+aStream
 Span
 <
 const
@@ -2160,7 +2160,7 @@ an
 /
 /
 unfinished
-track
+stream
 even
 when
 it
@@ -2194,7 +2194,7 @@ returning
 false
 then
 the
-track
+stream
 can
 be
 suspended
@@ -2218,7 +2218,7 @@ forced
 shutdown
 of
 the
-MediaTrackGraph
+MediaStreamGraph
 before
 handing
 ownership
@@ -2411,7 +2411,7 @@ from
 AudioNode
 :
 :
-DestroyMediaTrack
+DestroyMediaStream
 (
 )
 dom

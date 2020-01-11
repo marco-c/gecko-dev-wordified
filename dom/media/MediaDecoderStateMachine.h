@@ -1294,7 +1294,7 @@ created
 void
 EnsureOutputStreamManager
 (
-SharedDummyTrack
+SharedDummyStream
 *
 aDummyStream
 )

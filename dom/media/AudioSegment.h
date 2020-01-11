@@ -989,9 +989,9 @@ methods
 void
 SliceTo
 (
-TrackTime
+StreamTime
 aStart
-TrackTime
+StreamTime
 aEnd
 )
 {
@@ -1091,7 +1091,7 @@ aEnd
 aStart
 ;
 }
-TrackTime
+StreamTime
 GetDuration
 (
 )
@@ -1282,7 +1282,7 @@ nullptr
 void
 SetNull
 (
-TrackTime
+StreamTime
 aDuration
 )
 {
@@ -1752,7 +1752,7 @@ return
 mPrincipalHandle
 ;
 }
-TrackTime
+StreamTime
 mDuration
 =
 0

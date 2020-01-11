@@ -140,7 +140,7 @@ h
 #
 include
 "
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 .
 h
 "
@@ -779,7 +779,7 @@ mValue
 mContext
 -
 >
-DestinationTrack
+DestinationStream
 (
 )
 -

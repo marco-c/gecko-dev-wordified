@@ -263,7 +263,7 @@ a
 single
 thread
 (
-MTG
+MSG
 callback
 )
 void

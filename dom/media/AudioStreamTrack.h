@@ -132,12 +132,11 @@ AudioStreamTrack
 nsPIDOMWindowInner
 *
 aWindow
-mozilla
-:
-:
-MediaTrack
+MediaStream
 *
-aInputTrack
+aInputStream
+TrackID
+aTrackID
 MediaStreamTrackSource
 *
 aSource
@@ -161,7 +160,8 @@ MediaTrackConstraints
 MediaStreamTrack
 (
 aWindow
-aInputTrack
+aInputStream
+aTrackID
 aSource
 aReadyState
 aConstraints

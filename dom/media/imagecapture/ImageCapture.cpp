@@ -804,7 +804,7 @@ It
 falls
 back
 to
-MediaTrackGraph
+MediaStreamGraph
 image
 capture
 if
@@ -844,7 +844,7 @@ back
 to
 "
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 "
 )
@@ -867,7 +867,7 @@ It
 adds
 itself
 into
-MediaTrackGraph
+MediaStreamGraph
 so
 ImageCapture
 doesn

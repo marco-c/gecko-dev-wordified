@@ -285,7 +285,7 @@ capture
 image
 MediaEngineSource
 and
-MediaTrackGraph
+MediaStreamGraph
 .
 *
 When
@@ -314,7 +314,7 @@ back
 *
 to
 the
-MediaTrackGraph
+MediaStreamGraph
 way
 .
 *

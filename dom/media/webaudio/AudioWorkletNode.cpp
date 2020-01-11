@@ -233,9 +233,9 @@ aOptionsSerialization
 void
 ProcessBlock
 (
-AudioNodeTrack
+AudioNodeStream
 *
-aTrack
+aStream
 GraphTime
 aFrom
 const
@@ -253,7 +253,7 @@ override
 {
 ProcessBlocksOnPorts
 (
-aTrack
+aStream
 MakeSpan
 (
 &
@@ -272,9 +272,9 @@ aFinished
 void
 ProcessBlocksOnPorts
 (
-AudioNodeTrack
+AudioNodeStream
 *
-aTrack
+aStream
 Span
 <
 const
@@ -593,7 +593,7 @@ such
 that
 the
 last
-AudioNodeTrack
+AudioNodeStream
 reference
 is
 /
@@ -601,7 +601,7 @@ is
 released
 by
 the
-MTG
+MSG
 .
 That
 occurs
@@ -1782,7 +1782,7 @@ runs
 JS
 script
 .
-MediaTrackGraph
+MediaStreamGraph
 control
 messages
 which
@@ -1795,7 +1795,7 @@ the
 WorkletNodeEngine
 and
 its
-AudioNodeTrack
+AudioNodeStream
 cannot
 /
 /
@@ -2012,9 +2012,9 @@ WorkletNodeEngine
 :
 ProcessBlocksOnPorts
 (
-AudioNodeTrack
+AudioNodeStream
 *
-aTrack
+aStream
 Span
 <
 const
@@ -2958,7 +2958,7 @@ nullptr
 }
 /
 /
-MTG
+MSG
 does
 not
 support
@@ -3231,9 +3231,9 @@ mOutputChannelCount
 audioWorkletNode
 -
 >
-mTrack
+mStream
 =
-AudioNodeTrack
+AudioNodeStream
 :
 :
 Create
@@ -3241,10 +3241,10 @@ Create
 &
 aAudioContext
 engine
-AudioNodeTrack
+AudioNodeStream
 :
 :
-NO_TRACK_FLAGS
+NO_STREAM_FLAGS
 aAudioContext
 .
 Graph
@@ -3325,7 +3325,7 @@ Impl
 audioWorkletNode
 -
 >
-mTrack
+mStream
 -
 >
 SendRunnable
@@ -3356,12 +3356,12 @@ bug
 1535398
 .
 [
-track
+stream
 =
 audioWorkletNode
 -
 >
-mTrack
+mStream
 workletImpl
 =
 RefPtr
@@ -3400,7 +3400,7 @@ WorkletNodeEngine
 *
 >
 (
-track
+stream
 -
 >
 Engine

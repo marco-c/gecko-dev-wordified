@@ -122,7 +122,7 @@ h
 #
 include
 "
-AudioNodeTrack
+AudioNodeStream
 .
 h
 "
@@ -186,7 +186,7 @@ ConvertAudioTimelineEventToTicks
 AudioTimelineEvent
 &
 aEvent
-AudioNodeTrack
+AudioNodeStream
 *
 aDest
 )
@@ -198,7 +198,7 @@ SetTimeInTicks
 aDest
 -
 >
-SecondsToNearestTrackTime
+SecondsToNearestStreamTime
 (
 aEvent
 .
@@ -219,7 +219,9 @@ mTimeConstant
 aDest
 -
 >
-mSampleRate
+SampleRate
+(
+)
 ;
 aEvent
 .
@@ -229,7 +231,9 @@ mDuration
 aDest
 -
 >
-mSampleRate
+SampleRate
+(
+)
 ;
 }
 void

@@ -1397,7 +1397,7 @@ AddOutputStream
 DOMMediaStream
 *
 aStream
-SharedDummyTrack
+SharedDummyStream
 *
 aDummyStream
 )

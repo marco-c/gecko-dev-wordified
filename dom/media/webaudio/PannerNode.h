@@ -378,7 +378,7 @@ mDistanceModel
 =
 aDistanceModel
 ;
-SendInt32ParameterToTrack
+SendInt32ParameterToStream
 (
 DISTANCE_MODEL
 int32_t
@@ -653,7 +653,7 @@ mRefDistance
 =
 aRefDistance
 ;
-SendDoubleParameterToTrack
+SendDoubleParameterToStream
 (
 REF_DISTANCE
 mRefDistance
@@ -729,7 +729,7 @@ mMaxDistance
 =
 aMaxDistance
 ;
-SendDoubleParameterToTrack
+SendDoubleParameterToStream
 (
 MAX_DISTANCE
 mMaxDistance
@@ -808,7 +808,7 @@ mRolloffFactor
 =
 aRolloffFactor
 ;
-SendDoubleParameterToTrack
+SendDoubleParameterToStream
 (
 ROLLOFF_FACTOR
 mRolloffFactor
@@ -851,7 +851,7 @@ mConeInnerAngle
 =
 aConeInnerAngle
 ;
-SendDoubleParameterToTrack
+SendDoubleParameterToStream
 (
 CONE_INNER_ANGLE
 mConeInnerAngle
@@ -894,7 +894,7 @@ mConeOuterAngle
 =
 aConeOuterAngle
 ;
-SendDoubleParameterToTrack
+SendDoubleParameterToStream
 (
 CONE_OUTER_ANGLE
 mConeOuterAngle
@@ -962,7 +962,7 @@ mConeOuterGain
 =
 aConeOuterGain
 ;
-SendDoubleParameterToTrack
+SendDoubleParameterToStream
 (
 CONE_OUTER_GAIN
 mConeOuterGain

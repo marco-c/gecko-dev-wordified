@@ -279,13 +279,6 @@ h
 #
 include
 "
-AudioSegment
-.
-h
-"
-#
-include
-"
 DOMMediaStream
 .
 h
@@ -321,13 +314,6 @@ h
 #
 include
 "
-MediaTrackGraph
-.
-h
-"
-#
-include
-"
 MediaTimer
 .
 h
@@ -343,13 +329,6 @@ h
 include
 "
 TimeUnits
-.
-h
-"
-#
-include
-"
-VideoSegment
 .
 h
 "
@@ -25298,7 +25277,7 @@ MediaDecoderStateMachine
 :
 EnsureOutputStreamManager
 (
-SharedDummyTrack
+SharedDummyStream
 *
 aDummyStream
 )
@@ -25432,7 +25411,7 @@ AUDIO
 ;
 RefPtr
 <
-SourceMediaTrack
+SourceMediaStream
 >
 dummy
 =
@@ -25457,7 +25436,7 @@ audio
 track
 with
 underlying
-track
+stream
 %
 p
 "
@@ -25500,7 +25479,7 @@ VIDEO
 ;
 RefPtr
 <
-SourceMediaTrack
+SourceMediaStream
 >
 dummy
 =
@@ -25525,7 +25504,7 @@ video
 track
 with
 underlying
-track
+stream
 %
 p
 "

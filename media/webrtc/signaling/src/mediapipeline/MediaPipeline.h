@@ -204,7 +204,7 @@ h
 #
 include
 "
-MediaSegment
+StreamTracks
 .
 h
 "
@@ -301,7 +301,7 @@ RTCRTPContributingSourceStats
 namespace
 dom
 class
-SourceMediaTrack
+SourceMediaStream
 ;
 /
 /
@@ -463,7 +463,7 @@ and
 RTCP
 /
 /
-MediaTrackGraph
+MediaStreamGraph
 /
 /
 *
@@ -472,7 +472,7 @@ outgoing
 data
 from
 the
-MediaTrackGraph
+MediaStreamGraph
 /
 /
 *
@@ -486,7 +486,7 @@ from
 the
 /
 /
-MediaTrackGraph
+MediaStreamGraph
 /
 /
 One

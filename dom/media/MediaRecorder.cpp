@@ -129,7 +129,7 @@ h
 #
 include
 "
-AudioNodeTrack
+AudioNodeStream
 .
 h
 "
@@ -164,7 +164,7 @@ h
 #
 include
 "
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 .
 h
 "
@@ -1142,9 +1142,9 @@ thread
 *
 Setup
 media
-tracks
+streams
 in
-MTG
+MSG
 and
 bind
 MediaEncoder
@@ -1257,10 +1257,10 @@ resource
 and
 remove
 associated
-tracks
+streams
 *
 from
-MTG
+MSG
 .
 *
 *
@@ -7448,7 +7448,7 @@ MediaRecorder
 (
 DOMMediaStream
 &
-aSourceMediaTrack
+aSourceMediaStream
 nsPIDOMWindowInner
 *
 aOwnerWindow
@@ -7490,7 +7490,7 @@ aOwnerWindow
 mDOMStream
 =
 &
-aSourceMediaTrack
+aSourceMediaStream
 ;
 RegisterActivityObserver
 (

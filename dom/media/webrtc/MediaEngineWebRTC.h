@@ -158,7 +158,7 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 h
 "
@@ -166,6 +166,13 @@ h
 include
 "
 NullTransport
+.
+h
+"
+#
+include
+"
+StreamTracks
 .
 h
 "
@@ -440,7 +447,7 @@ host
 supports
 duplex
 audio
-track
+stream
 .
 bool
 SupportsDuplex

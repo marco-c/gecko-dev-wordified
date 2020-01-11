@@ -99,7 +99,7 @@ h
 #
 include
 "
-MediaTrackGraph
+MediaStreamGraph
 .
 h
 "
@@ -133,7 +133,7 @@ h
 #
 include
 "
-MediaTrackGraphImpl
+MediaStreamGraphImpl
 .
 h
 "

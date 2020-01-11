@@ -200,7 +200,7 @@ tracks
 *
 from
 the
-MediaTrackGraph
+MediaStreamGraph
 .
 *
 *
@@ -213,7 +213,7 @@ is
 driven
 by
 a
-MediaTrackGraph
+MediaStreamGraph
 running
 off
 an
@@ -397,7 +397,7 @@ thread
 .
 Atomic
 <
-TrackTime
+StreamTime
 >
 mAudioSamples
 {
@@ -599,7 +599,7 @@ AudioStream
 void
 NotifyAudio
 (
-TrackTime
+StreamTime
 aSamples
 )
 {
@@ -690,7 +690,7 @@ IsOnCurrentThread
 )
 )
 ;
-TrackTime
+StreamTime
 samples
 =
 mAudioSamples

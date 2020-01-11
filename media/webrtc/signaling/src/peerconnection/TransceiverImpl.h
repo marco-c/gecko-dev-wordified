@@ -274,7 +274,7 @@ public
 *
 *
 |
-aReceiveTrack
+aReceiveStream
 |
 is
 always

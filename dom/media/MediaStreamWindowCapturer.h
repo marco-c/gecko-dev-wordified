@@ -123,9 +123,6 @@ MediaStreamTrack
 /
 namespace
 dom
-class
-MediaInputPort
-;
 /
 *
 *
@@ -154,7 +151,7 @@ the
 stream
 to
 the
-MediaTrackGraph
+MediaStreamGraph
 '
 s
 window
