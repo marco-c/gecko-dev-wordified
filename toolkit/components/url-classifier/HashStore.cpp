@@ -7169,8 +7169,6 @@ previous
 ;
 }
 }
-return
-;
 }
 #
 endif
