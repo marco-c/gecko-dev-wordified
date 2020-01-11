@@ -933,7 +933,6 @@ DIB
 X11
 MacIOSurface
 AndroidNativeWindow
-WaylandDMABUF
 Last
 }
 ;

@@ -793,10 +793,7 @@ aHeight
 ;
 private
 :
-RefPtr
-<
 WaylandDMABufSurface
->
 mDMAbufSurface
 ;
 }
