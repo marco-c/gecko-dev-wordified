@@ -75,7 +75,7 @@ tempfile
 import
 unittest
 from
-StringIO
+six
 import
 StringIO
 import

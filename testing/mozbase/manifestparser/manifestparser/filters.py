@@ -115,6 +115,8 @@ collections
 import
 defaultdict
 MutableSequence
+import
+six
 from
 six
 import
@@ -694,6 +696,12 @@ unique
 =
 True
     
+__hash__
+=
+super
+.
+__hash__
+    
 def
 __init__
 (
@@ -749,10 +757,11 @@ for
 k
 v
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 ]
 )
@@ -1998,10 +2007,11 @@ for
 k
 v
 in
-tests_by_dir
+six
 .
 iteritems
 (
+tests_by_dir
 )
                              
 if

@@ -77,7 +77,7 @@ manifestparser
 import
 read_ini
 from
-StringIO
+six
 import
 StringIO
 import
