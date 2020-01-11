@@ -49905,7 +49905,7 @@ id
 )
 ;
 return
-initializeArrayElement
+initArrayElementFastPath
 (
 obj
 -
@@ -49932,7 +49932,7 @@ Ok
 IonBuilder
 :
 :
-initializeArrayElement
+initArrayElementFastPath
 (
 MNewArray
 *

@@ -5276,7 +5276,7 @@ id
 ;
 MOZ_TRY
 (
-initializeArrayElement
+initArrayElementFastPath
 (
 array
 id
