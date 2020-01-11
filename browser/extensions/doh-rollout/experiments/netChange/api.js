@@ -63,12 +63,6 @@ strict
 ;
 /
 *
-exported
-netChange
-*
-/
-/
-*
 global
 Cc
 Ci
