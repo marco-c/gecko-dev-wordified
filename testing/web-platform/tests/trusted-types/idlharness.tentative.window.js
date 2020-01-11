@@ -183,9 +183,5 @@ string
 )
 ;
 }
-'
-Trusted
-Types
-'
 )
 ;
