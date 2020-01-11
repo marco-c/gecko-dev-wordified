@@ -262,7 +262,7 @@ for
 const
 test
 of
-tests
+testArray
 )
 {
 async_test
