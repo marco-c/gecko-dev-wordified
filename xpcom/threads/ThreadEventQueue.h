@@ -299,6 +299,12 @@ aPriority
 )
 final
 ;
+void
+DidRunEvent
+(
+)
+final
+;
 bool
 HasPendingEvent
 (
