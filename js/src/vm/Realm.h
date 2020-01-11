@@ -5391,8 +5391,11 @@ cx
 )
 ;
 void
-sweepJitRealm
+traceWeakEdgesInJitRealm
 (
+JSTracer
+*
+trc
 )
 ;
 js
