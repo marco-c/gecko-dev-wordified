@@ -856,9 +856,6 @@ ActorId
 profilerActor
 :
 ActorId
-promisesActor
-:
-ActorId
 reflowActor
 :
 ActorId
