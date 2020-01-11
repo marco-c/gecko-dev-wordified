@@ -115,12 +115,9 @@ toggleBrowserConsole
 )
 ;
 await
-hud
-.
-ui
-.
 clearOutput
 (
+hud
 )
 ;
 await

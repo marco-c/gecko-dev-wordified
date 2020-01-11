@@ -143,12 +143,10 @@ with
 some
 output
 .
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 await

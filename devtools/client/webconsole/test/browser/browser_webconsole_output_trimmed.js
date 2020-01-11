@@ -451,12 +451,10 @@ of
 TEST_ITEMS
 )
 {
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 await

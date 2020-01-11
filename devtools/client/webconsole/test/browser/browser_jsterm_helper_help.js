@@ -131,12 +131,10 @@ openedLinks
 }
 }
 ;
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 execute

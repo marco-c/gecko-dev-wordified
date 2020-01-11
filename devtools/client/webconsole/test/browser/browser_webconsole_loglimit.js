@@ -112,12 +112,10 @@ openNewTabAndConsole
 TEST_URI
 )
 ;
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 let

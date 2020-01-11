@@ -369,13 +369,10 @@ console
 "
 )
 ;
-hud
-.
-ui
-.
+await
 clearOutput
 (
-true
+hud
 )
 ;
 }

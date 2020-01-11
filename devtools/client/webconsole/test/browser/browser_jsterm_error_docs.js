@@ -200,12 +200,10 @@ split
 0
 ]
 ;
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 const

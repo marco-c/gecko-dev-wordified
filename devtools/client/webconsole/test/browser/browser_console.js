@@ -319,13 +319,10 @@ testMessages
 hud
 )
 {
-hud
-.
-ui
-.
+await
 clearOutput
 (
-true
+hud
 )
 ;
 executeSoon
