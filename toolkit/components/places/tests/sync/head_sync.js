@@ -1048,11 +1048,9 @@ promiseDBConnection
 for
 (
 let
-[
 chunk
-]
 of
-PlacesSyncUtils
+PlacesUtils
 .
 chunkArray
 (
