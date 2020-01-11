@@ -1422,6 +1422,7 @@ delegate
 .
 onMessage
 (
+nativeApp
 content
 sender
 )
