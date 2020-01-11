@@ -1066,7 +1066,7 @@ features
 .
 watchpoints
 "
-false
+true
 )
 ;
 }
