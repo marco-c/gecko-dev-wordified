@@ -288,10 +288,6 @@ MBasicBlock
 maybePred
 uint32_t
 popped
-unsigned
-stackPhiCount
-=
-0
 )
 ;
 MOZ_MUST_USE
@@ -899,8 +895,6 @@ pred
 BytecodeSite
 *
 site
-unsigned
-loopStateSlots
 )
 ;
 static
