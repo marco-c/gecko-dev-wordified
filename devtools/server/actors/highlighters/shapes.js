@@ -3022,6 +3022,9 @@ relativeTo
 win
 .
 document
+createFramesForSuppressedWhitespace
+:
+false
 }
 )
 [

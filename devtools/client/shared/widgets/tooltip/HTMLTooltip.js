@@ -1927,6 +1927,9 @@ getBoxQuads
 (
 {
 relativeTo
+createFramesForSuppressedWhitespace
+:
+false
 }
 )
 [
@@ -2006,6 +2009,9 @@ getBoxQuads
 (
 {
 relativeTo
+createFramesForSuppressedWhitespace
+:
+false
 }
 )
 [

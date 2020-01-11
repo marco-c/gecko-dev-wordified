@@ -6406,6 +6406,9 @@ getBoxQuads
 relativeTo
 :
 topDocument
+createFramesForSuppressedWhitespace
+:
+false
 }
 )
 [
