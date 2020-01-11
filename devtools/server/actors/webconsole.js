@@ -213,10 +213,6 @@ server
 /
 actors
 /
-object
-/
-long
--
 string
 "
 )
@@ -2979,6 +2975,9 @@ actor
 new
 LongStringActor
 (
+this
+.
+conn
 string
 )
 ;
@@ -2992,7 +2991,7 @@ actor
 return
 actor
 .
-grip
+form
 (
 )
 ;
