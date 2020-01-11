@@ -314,6 +314,13 @@ PropTypes
 func
 .
 isRequired
+clearSearchResultAndCancel
+:
+PropTypes
+.
+func
+.
+isRequired
 caseSensitive
 :
 PropTypes
@@ -749,7 +756,7 @@ renderFilterBox
 const
 {
 addSearchQuery
-clearSearchResults
+clearSearchResultAndCancel
 connector
 }
 =
@@ -807,7 +814,7 @@ onClearButtonClick
 )
 =
 >
-clearSearchResults
+clearSearchResultAndCancel
 (
 )
 onChange
@@ -937,7 +944,7 @@ openSearch
 (
 )
 )
-clearSearchResults
+clearSearchResultAndCancel
 :
 (
 )
@@ -947,7 +954,7 @@ dispatch
 (
 Actions
 .
-clearSearchResults
+clearSearchResultAndCancel
 (
 )
 )
