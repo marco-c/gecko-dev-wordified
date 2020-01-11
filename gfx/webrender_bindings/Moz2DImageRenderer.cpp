@@ -2453,11 +2453,6 @@ sizeof
 (
 size_t
 )
-+
-sizeof
-(
-IntPoint
-)
 ;
 MOZ_RELEASE_ASSERT
 (
