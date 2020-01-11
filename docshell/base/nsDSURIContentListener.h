@@ -406,11 +406,6 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURICONTENTLISTENER
-nsresult
-Init
-(
-)
-;
 protected
 :
 explicit
@@ -512,12 +507,6 @@ mWeakParentContentListener
 nsIURIContentListener
 *
 mParentContentListener
-;
-nsCOMPtr
-<
-nsIWebNavigationInfo
->
-mNavInfo
 ;
 }
 ;
