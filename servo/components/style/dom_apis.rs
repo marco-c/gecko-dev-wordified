@@ -1201,6 +1201,15 @@ Invalidation
 new
 (
 selector
+self
+.
+matching_context
+.
+current_host
+.
+clone
+(
+)
 0
 )
 )
