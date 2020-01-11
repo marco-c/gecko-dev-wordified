@@ -93744,7 +93744,7 @@ mozilla
 :
 IsPowerOfTwo
 (
-unsigned
+uint32_t
 (
 FunctionFlags
 :
@@ -93793,10 +93793,13 @@ mozilla
 :
 FloorLog2
 (
+uint32_t
+(
 FunctionFlags
 :
 :
 CONSTRUCTOR
+)
 )
 )
 output
