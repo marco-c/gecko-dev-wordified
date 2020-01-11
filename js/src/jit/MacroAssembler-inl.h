@@ -954,7 +954,7 @@ DOUBLE
 signature_
 |
 =
-ArgType_Float64
+ArgType_Double
 ;
 break
 ;
