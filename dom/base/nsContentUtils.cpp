@@ -1408,13 +1408,6 @@ h
 #
 include
 "
-nsICharsetDetectionObserver
-.
-h
-"
-#
-include
-"
 nsIConsoleService
 .
 h
