@@ -311,6 +311,7 @@ passwordTextbox
 .
 type
 "
+text
 "
 "
 Password
