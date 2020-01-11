@@ -176,6 +176,8 @@ class
 MediaEngine
 :
 public
+DeviceChangeNotifier
+public
 DeviceChangeCallback
 {
 public
@@ -262,6 +264,17 @@ SetFakeDeviceChangeEvents
 (
 )
 {
+}
+void
+OnDeviceChange
+(
+)
+override
+{
+NotifyDeviceChange
+(
+)
+;
 }
 protected
 :
