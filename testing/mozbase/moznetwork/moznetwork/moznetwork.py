@@ -201,7 +201,7 @@ number
 of
 interfaces
 (
-Aribtrary
+arbitrary
 )
     
 bytes
@@ -542,6 +542,7 @@ default
 '
 ]
                                   
+r
 '
 interface
 :
@@ -571,6 +572,7 @@ default_iface
 ]
 ]
                                   
+r
 '
 inet
 (
@@ -696,6 +698,7 @@ ifconfig
 iface
 ]
                                   
+r
 '
 inet
 (
@@ -802,6 +805,7 @@ ifconfig
 '
 ]
                           
+r
 '
 inet
 (
