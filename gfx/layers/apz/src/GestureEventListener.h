@@ -1115,6 +1115,11 @@ aDuringFastFling
 )
 ;
 void
+EnterFirstSingleTouchDown
+(
+)
+;
+void
 TriggerSingleTapConfirmedEvent
 (
 )
