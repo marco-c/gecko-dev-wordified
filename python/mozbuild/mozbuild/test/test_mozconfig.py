@@ -290,7 +290,6 @@ os
 .
 environ
 [
-b
 '
 MOZ_MYCONFIG
 '
@@ -326,11 +325,12 @@ self
 .
 assertTrue
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 .
 startswith
 (
@@ -376,7 +376,6 @@ os
 .
 environ
 [
-b
 '
 MOZCONFIG
 '
@@ -437,7 +436,7 @@ open
 (
 path
 '
-wb
+w
 '
 )
 as
@@ -508,11 +507,12 @@ than
 one
 of
 '
+str
+(
 e
 .
 exception
-.
-message
+)
 )
         
 for
@@ -526,11 +526,12 @@ self
 assertIn
 (
 d
+str
+(
 e
 .
 exception
-.
-message
+)
 )
     
 def
@@ -577,7 +578,6 @@ os
 .
 environ
 [
-b
 '
 MOZCONFIG
 '
@@ -756,7 +756,6 @@ os
 .
 environ
 [
-b
 '
 MOZCONFIG
 '
@@ -851,11 +850,12 @@ in
 any
 of
 '
+str
+(
 e
 .
 exception
-.
-message
+)
 )
         
 for
@@ -869,11 +869,12 @@ self
 assertIn
 (
 d
+str
+(
 e
 .
 exception
-.
-message
+)
 )
     
 def
@@ -912,7 +913,6 @@ os
 .
 environ
 [
-b
 '
 MOZCONFIG
 '
@@ -1048,7 +1048,6 @@ os
 .
 environ
 [
-b
 '
 MOZCONFIG
 '
@@ -1099,22 +1098,24 @@ does
 not
 exist
 '
+str
+(
 e
 .
 exception
-.
-message
+)
 )
         
 self
 .
 assertTrue
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 .
 endswith
 (
@@ -1159,7 +1160,6 @@ os
 .
 environ
 [
-b
 '
 MOZCONFIG
 '
@@ -1202,22 +1202,24 @@ non
 -
 file
 '
+str
+(
 e
 .
 exception
-.
-message
+)
 )
         
 self
 .
 assertTrue
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 .
 endswith
 (
@@ -1409,11 +1411,12 @@ files
 present
 '
                       
+str
+(
 e
 .
 exception
-.
-message
+)
 )
     
 def
@@ -1509,11 +1512,12 @@ no
 longer
 '
                           
+str
+(
 e
 .
 exception
-.
-message
+)
 )
             
 self
@@ -1521,11 +1525,12 @@ self
 assertIn
 (
 d
+str
+(
 e
 .
 exception
-.
-message
+)
 )
     
 def
@@ -1573,7 +1578,6 @@ os
 .
 environ
 [
-b
 '
 HOME
 '
@@ -1639,11 +1643,12 @@ no
 longer
 '
                           
+str
+(
 e
 .
 exception
-.
-message
+)
 )
             
 self
@@ -1651,11 +1656,12 @@ self
 assertIn
 (
 path
+str
+(
 e
 .
 exception
-.
-message
+)
 )
     
 def
@@ -2374,13 +2380,11 @@ os
 .
 environ
 [
-b
 '
 MOZ_OBJDIR
 '
 ]
 =
-b
 '
 obj
 -
@@ -2460,13 +2464,11 @@ os
 .
 environ
 [
-b
 '
 MOZ_OBJDIR
 '
 ]
 =
-b
 '
 obj
 -
@@ -2957,7 +2959,6 @@ path
 .
 realpath
 (
-b
 '
 /
 usr
@@ -2976,7 +2977,6 @@ path
 .
 realpath
 (
-b
 '
 /
 usr
@@ -2993,7 +2993,6 @@ os
 .
 environ
 [
-b
 '
 CC
 '
@@ -3130,7 +3129,6 @@ path
 .
 realpath
 (
-b
 '
 /
 usr
@@ -3145,7 +3143,6 @@ os
 .
 environ
 [
-b
 '
 CC
 '
@@ -3262,7 +3259,6 @@ path
 .
 realpath
 (
-b
 '
 /
 usr
@@ -3277,7 +3273,6 @@ os
 .
 environ
 [
-b
 '
 CC
 '
@@ -3890,11 +3885,12 @@ an
 error
 '
                           
+str
+(
 e
 .
 exception
-.
-message
+)
 )
             
 self
