@@ -1024,8 +1024,6 @@ focus
 .
 focusedElement
 textbox
-.
-inputField
 "
 the
 search
@@ -1298,8 +1296,6 @@ focus
 .
 focusedElement
 textbox
-.
-inputField
 "
 the
 search
@@ -1675,8 +1671,6 @@ focus
 .
 focusedElement
 textbox
-.
-inputField
 "
 the
 search
