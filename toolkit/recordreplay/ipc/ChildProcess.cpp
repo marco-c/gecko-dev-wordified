@@ -1450,6 +1450,14 @@ IsRecording
 )
 )
 {
+if
+(
+!
+UseCloudForReplayingProcesses
+(
+)
+)
+{
 /
 /
 Notify
@@ -1488,6 +1496,7 @@ GetId
 )
 )
 ;
+}
 /
 /
 Continue
