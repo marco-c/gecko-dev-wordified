@@ -1285,17 +1285,6 @@ MOZ_CRASHREPORTER
 env
 [
 "
-MOZ_CRASHREPORTER_NO_REPORT
-"
-]
-=
-"
-1
-"
-        
-env
-[
-"
 MOZ_CRASHREPORTER_SHUTDOWN
 "
 ]
