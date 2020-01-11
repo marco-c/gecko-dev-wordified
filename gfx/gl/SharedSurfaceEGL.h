@@ -121,6 +121,13 @@ h
 #
 include
 "
+CompositorTypes
+.
+h
+"
+#
+include
+"
 SharedSurface
 .
 h

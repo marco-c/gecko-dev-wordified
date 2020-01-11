@@ -413,6 +413,9 @@ const
 SurfaceCaps
 &
 caps
+layers
+:
+:
 KnowsCompositor
 *
 compositorConnection
@@ -425,8 +428,9 @@ TextureFlags
 flags
 )
 {
-LayersIPCChannel
-*
+const
+auto
+&
 ipcChannel
 =
 compositorConnection
@@ -436,10 +440,9 @@ GetTextureForwarder
 (
 )
 ;
-layers
-:
-:
-LayersBackend
+const
+auto
+&
 backend
 =
 compositorConnection
@@ -492,6 +495,9 @@ const
 SurfaceCaps
 &
 caps
+layers
+:
+:
 LayersIPCChannel
 *
 ipcChannel
@@ -2640,6 +2646,9 @@ size
 {
 RefPtr
 <
+layers
+:
+:
 SharedSurfaceTextureClient
 >
 newBack
@@ -3085,6 +3094,9 @@ size
 {
 RefPtr
 <
+layers
+:
+:
 SharedSurfaceTextureClient
 >
 newBack

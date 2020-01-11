@@ -378,12 +378,8 @@ auto
 &
 state
 =
-*
+State
 (
-mNotLost
--
->
-generation
 )
 ;
 state

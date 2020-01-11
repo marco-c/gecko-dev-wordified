@@ -7954,7 +7954,9 @@ Args
 PcqStatus
 TryPeekOrRemove
 (
+const
 PeekOrRemoveOperation
+&
 aOperation
 )
 {
@@ -11469,10 +11471,16 @@ false
 }
 MOZ_ASSERT
 (
+IsHandleValid
+(
 notEmptyHandle
+)
 &
 &
+IsHandleValid
+(
 notFullHandle
+)
 )
 ;
 aResult
@@ -11812,7 +11820,8 @@ aArg
 MOZ_ASSERT
 (
 aArg
-.
+-
+>
 mRead
 )
 ;

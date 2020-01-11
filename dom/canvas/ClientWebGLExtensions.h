@@ -170,7 +170,8 @@ default
 ;
 public
 :
-auto
+ClientWebGLContext
+*
 GetParentObject
 (
 )
@@ -339,6 +340,7 @@ givenProto
 override
 ;
 \
+explicit
 Client
 #
 #
@@ -383,6 +385,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionCompressedTextureASTC
 (
 ClientWebGLContext
@@ -510,6 +513,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionDebugShaders
 (
 ClientWebGLContext
@@ -609,6 +613,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionLoseContext
 (
 ClientWebGLContext
@@ -766,6 +771,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionDrawBuffers
 (
 ClientWebGLContext
@@ -850,6 +856,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionVertexArray
 (
 ClientWebGLContext
@@ -1054,6 +1061,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionInstancedArrays
 (
 ClientWebGLContext
@@ -1242,6 +1250,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionDisjointTimerQuery
 (
 ClientWebGLContext
@@ -1660,6 +1669,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionExplicitPresent
 (
 ClientWebGLContext
@@ -1734,6 +1744,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionMOZDebug
 (
 ClientWebGLContext
@@ -1831,6 +1842,7 @@ givenProto
 )
 override
 ;
+explicit
 ClientWebGLExtensionMultiview
 (
 ClientWebGLContext
