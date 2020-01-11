@@ -12423,6 +12423,8 @@ Float
 aGamma
 Float
 aContrast
+Float
+aClearTypeLevel
 )
 ;
 static

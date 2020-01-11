@@ -211,6 +211,12 @@ mContrast
 .
 0f
 )
+mClearTypeLevel
+(
+1
+.
+0f
+)
 {
 }
 ScaledFontDWrite
@@ -238,6 +244,8 @@ Float
 aGamma
 Float
 aContrast
+Float
+aClearTypeLevel
 const
 gfxFontStyle
 *
@@ -530,6 +538,9 @@ mGamma
 Float
 mContrast
 ;
+Float
+mClearTypeLevel
+;
 #
 ifdef
 USE_CAIRO_SCALED_FONT
@@ -612,6 +623,13 @@ aScaledFont
 >
 mContrast
 )
+mClearTypeLevel
+(
+aScaledFont
+-
+>
+mClearTypeLevel
+)
 {
 }
 InstanceData
@@ -646,6 +664,9 @@ mGamma
 ;
 Float
 mContrast
+;
+Float
+mClearTypeLevel
 ;
 }
 ;

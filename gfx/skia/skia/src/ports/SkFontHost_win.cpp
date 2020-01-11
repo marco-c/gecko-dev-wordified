@@ -2570,6 +2570,8 @@ float
 aGamma
 float
 aContrast
+float
+aClearTypeLevel
 )
 {
 return
@@ -2587,6 +2589,7 @@ DWRITE_RENDERING_MODE
 aRenderingMode
 aGamma
 aContrast
+aClearTypeLevel
 )
 ;
 }

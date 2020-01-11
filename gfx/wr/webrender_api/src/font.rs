@@ -1790,7 +1790,14 @@ percent
 pub
 contrast
 :
-u16
+u8
+/
+/
+percent
+pub
+cleartype_level
+:
+u8
 /
 /
 percent
@@ -1830,6 +1837,9 @@ Default
 DWrite
 gamma
 contrast
+:
+100
+cleartype_level
 :
 100
 }
