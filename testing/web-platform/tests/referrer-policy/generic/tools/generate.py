@@ -286,14 +286,6 @@ spec_json
 js
 '
         
-self
-.
-test_case_name
-=
-'
-TestCase
-'
-        
 script_directory
 =
 os
