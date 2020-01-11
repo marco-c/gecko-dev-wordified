@@ -2430,6 +2430,18 @@ True
 *
 kwargs_copy
 )
+            
+if
+not
+kwargs
+[
+'
+query
+'
+]
+:
+                
+return
         
 if
 kwargs
