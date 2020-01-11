@@ -9486,7 +9486,7 @@ in
 undefined
 behavior
 .
-RTC_DCHECK_LT
+RTC_CHECK_LT
 (
 fd
 FD_SETSIZE
