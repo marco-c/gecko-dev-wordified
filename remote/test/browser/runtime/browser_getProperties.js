@@ -119,9 +119,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Runtime
 domain

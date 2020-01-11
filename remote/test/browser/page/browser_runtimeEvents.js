@@ -215,9 +215,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Page
 domain
@@ -243,9 +242,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Runtime
 domain
@@ -514,9 +512,8 @@ url
 }
 )
 ;
-ok
+info
 (
-true
 "
 A
 new

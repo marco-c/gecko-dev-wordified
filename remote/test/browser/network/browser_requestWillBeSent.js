@@ -118,9 +118,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Network
 domain
@@ -153,9 +152,8 @@ event
 =
 >
 {
-ok
+info
 (
-true
 "
 Received
 a
