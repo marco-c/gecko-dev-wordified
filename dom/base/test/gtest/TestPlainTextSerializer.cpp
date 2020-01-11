@@ -158,6 +158,12 @@ nsIParserUtils
 .
 h
 "
+const
+uint32_t
+kDefaultWrapColumn
+=
+72
+;
 void
 ConvertBufToPlainText
 (
@@ -166,6 +172,8 @@ nsString
 aConBuf
 int
 aFlag
+uint32_t
+aWrapColumn
 )
 {
 nsCOMPtr
@@ -186,7 +194,7 @@ ConvertToPlainText
 (
 aConBuf
 aFlag
-72
+aWrapColumn
 aConBuf
 )
 ;
@@ -285,6 +293,7 @@ nsIDocumentEncoder
 :
 :
 OutputFormatDelSp
+kDefaultWrapColumn
 )
 ;
 /
@@ -467,6 +476,7 @@ nsIDocumentEncoder
 :
 :
 OutputFormatDelSp
+kDefaultWrapColumn
 )
 ;
 /
@@ -684,6 +694,7 @@ nsIDocumentEncoder
 :
 :
 OutputDisallowLineBreaking
+kDefaultWrapColumn
 )
 ;
 /
@@ -910,6 +921,7 @@ nsIDocumentEncoder
 :
 :
 OutputFormatFlowed
+kDefaultWrapColumn
 )
 ;
 /
@@ -1067,6 +1079,7 @@ ConvertBufToPlainText
 (
 test
 0
+kDefaultWrapColumn
 )
 ;
 ASSERT_TRUE
@@ -1162,6 +1175,7 @@ ConvertBufToPlainText
 (
 test
 0
+kDefaultWrapColumn
 )
 ;
 ASSERT_TRUE
@@ -1271,6 +1285,7 @@ ConvertBufToPlainText
 (
 test
 0
+kDefaultWrapColumn
 )
 ;
 ASSERT_TRUE
@@ -1351,10 +1366,6 @@ pre
 -
 wrap
 ;
-width
-:
-10ch
-;
 \
 "
 >
@@ -1404,6 +1415,12 @@ html
 "
 )
 ;
+const
+uint32_t
+wrapColumn
+=
+10
+;
 ConvertBufToPlainText
 (
 test
@@ -1411,6 +1428,7 @@ nsIDocumentEncoder
 :
 :
 OutputWrap
+wrapColumn
 )
 ;
 /
@@ -1560,6 +1578,7 @@ ConvertBufToPlainText
 (
 test
 0
+kDefaultWrapColumn
 )
 ;
 ASSERT_TRUE
