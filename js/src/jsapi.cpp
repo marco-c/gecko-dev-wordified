@@ -21448,7 +21448,7 @@ JS
 ReadOnlyCompileOptions
 :
 :
-copyPODOptions
+copyPODNonTransitiveOptions
 (
 const
 ReadOnlyCompileOptions
@@ -21456,11 +21456,6 @@ ReadOnlyCompileOptions
 rhs
 )
 {
-copyPODTransitiveOptions
-(
-rhs
-)
-;
 lineno
 =
 rhs
@@ -21683,7 +21678,12 @@ release
 (
 )
 ;
-copyPODOptions
+copyPODTransitiveOptions
+(
+rhs
+)
+;
+copyPODNonTransitiveOptions
 (
 rhs
 )
