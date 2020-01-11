@@ -245,6 +245,17 @@ experiments
 heuristics
 :
 {
+async
+isTesting
+(
+)
+{
+return
+Cu
+.
+isInAutomation
+;
+}
 setupTelemetry
 (
 )
