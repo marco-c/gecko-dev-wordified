@@ -818,7 +818,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -1480,7 +1480,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -1954,7 +1954,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -2437,7 +2437,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -2950,7 +2950,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )

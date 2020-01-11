@@ -3979,7 +3979,7 @@ transaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 |
@@ -4048,7 +4048,7 @@ transaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 &
@@ -4262,7 +4262,7 @@ transaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -4338,7 +4338,7 @@ transaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 &
@@ -4405,7 +4405,7 @@ transaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
