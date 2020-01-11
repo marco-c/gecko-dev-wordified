@@ -10550,6 +10550,12 @@ SymbolicAddress
 :
 MemCopy
 :
+case
+SymbolicAddress
+:
+:
+MemCopyShared
+:
 return
 "
 call
@@ -10583,6 +10589,12 @@ SymbolicAddress
 :
 :
 MemFill
+:
+case
+SymbolicAddress
+:
+:
+MemFillShared
 :
 return
 "
