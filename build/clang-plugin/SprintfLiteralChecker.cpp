@@ -117,7 +117,9 @@ hasArgument
 1
 sizeOfExpr
 (
-hasIgnoringParenImpCasts
+has
+(
+ignoringParenImpCasts
 (
 declRefExpr
 (
@@ -128,6 +130,7 @@ bind
 "
 size
 "
+)
 )
 )
 )

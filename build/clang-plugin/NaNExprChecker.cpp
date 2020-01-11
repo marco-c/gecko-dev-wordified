@@ -95,7 +95,9 @@ binaryEqualityOperator
 )
 hasLHS
 (
-hasIgnoringParenImpCasts
+has
+(
+ignoringParenImpCasts
 (
 declRefExpr
 (
@@ -120,9 +122,12 @@ lhs
 )
 )
 )
+)
 hasRHS
 (
-hasIgnoringParenImpCasts
+has
+(
+ignoringParenImpCasts
 (
 declRefExpr
 (
@@ -144,6 +149,7 @@ bind
 "
 rhs
 "
+)
 )
 )
 )
