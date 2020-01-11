@@ -4229,10 +4229,10 @@ return
 result
 |
 |
-NS_SUCCEEDED
-(
 rv
-)
+!
+=
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 static
