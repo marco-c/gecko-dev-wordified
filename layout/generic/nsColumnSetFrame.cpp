@@ -2271,6 +2271,7 @@ balance
 the
 columns
 .
+const
 bool
 isBalancing
 =
@@ -2318,10 +2319,6 @@ balancingDepth
 kMaxNestedColumnBalancingDepth
 )
 {
-isBalancing
-=
-false
-;
 numColumns
 =
 1
