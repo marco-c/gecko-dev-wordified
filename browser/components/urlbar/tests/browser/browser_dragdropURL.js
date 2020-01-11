@@ -505,7 +505,7 @@ content
 /
 aboutDialog
 .
-xul
+xhtml
 "
 "
 file

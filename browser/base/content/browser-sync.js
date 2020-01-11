@@ -1078,7 +1078,7 @@ windows
 like
 pageInfo
 .
-xul
+xhtml
 /
 /
 (

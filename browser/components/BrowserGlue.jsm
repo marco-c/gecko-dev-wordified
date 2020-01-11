@@ -845,7 +845,7 @@ places
 /
 historySidebar
 .
-xul
+xhtml
 "
 "
 chrome
@@ -860,7 +860,7 @@ places
 /
 bookmarksSidebar
 .
-xul
+xhtml
 "
 ]
 }
@@ -7771,7 +7771,7 @@ content
 /
 safeMode
 .
-xul
+xhtml
 "
 "
 _blank
@@ -11886,7 +11886,7 @@ content
 /
 newInstall
 .
-xul
+xhtml
 "
 "
 _blank

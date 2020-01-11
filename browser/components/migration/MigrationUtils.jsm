@@ -6184,7 +6184,7 @@ migration
 /
 migration
 .
-xul
+xhtml
 "
 "
 _blank
@@ -6341,7 +6341,7 @@ on
 See
 migration
 .
-xul
+xhtml
 )
 .
 *

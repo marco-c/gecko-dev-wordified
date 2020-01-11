@@ -3699,7 +3699,7 @@ places
 /
 places
 .
-xul
+xhtml
 "
 "
 "

@@ -1118,7 +1118,7 @@ places
 /
 places
 .
-xul
+xhtml
 "
 "
 "

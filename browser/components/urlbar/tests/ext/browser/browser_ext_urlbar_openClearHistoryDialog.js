@@ -327,7 +327,7 @@ content
 /
 sanitize
 .
-xul
+xhtml
 "
 )
 {

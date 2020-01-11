@@ -67,7 +67,7 @@ included
 in
 aboutDialog
 .
-xul
+xhtml
 and
 preferences
 /

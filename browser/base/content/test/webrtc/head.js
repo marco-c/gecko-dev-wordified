@@ -331,7 +331,7 @@ content
 /
 webrtcIndicator
 .
-xul
+xhtml
 "
 )
 {

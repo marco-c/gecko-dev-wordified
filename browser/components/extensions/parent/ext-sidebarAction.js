@@ -177,7 +177,7 @@ webext
 -
 panels
 .
-xul
+xhtml
 "
 ;
 /

@@ -3514,7 +3514,7 @@ content
 /
 aboutDialog
 .
-xul
+xhtml
 "
 ;
 is

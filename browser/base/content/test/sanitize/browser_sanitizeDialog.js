@@ -4770,7 +4770,7 @@ content
 /
 sanitize
 .
-xul
+xhtml
 "
 "
 SanitizeDialog

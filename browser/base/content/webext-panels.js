@@ -88,7 +88,7 @@ webext
 -
 panels
 .
-xul
+xhtml
 /
 *
 import

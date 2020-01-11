@@ -19787,7 +19787,7 @@ pageinfo
 /
 pageInfo
 .
-xul
+xhtml
 "
 "
 "

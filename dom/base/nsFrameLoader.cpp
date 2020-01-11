@@ -17026,7 +17026,7 @@ webext
 -
 panels
 .
-xul
+xhtml
 "
 )
 )

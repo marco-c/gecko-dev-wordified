@@ -7980,7 +7980,7 @@ content
 /
 webrtcIndicator
 .
-xul
+xhtml
 "
 ;
 const

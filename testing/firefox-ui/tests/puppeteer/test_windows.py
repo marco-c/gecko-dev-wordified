@@ -554,7 +554,7 @@ content
 /
 safeMode
 .
-xul
+xhtml
 '
 '
 _blank

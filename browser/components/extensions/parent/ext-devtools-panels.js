@@ -184,7 +184,7 @@ webext
 -
 panels
 .
-xul
+xhtml
 "
 ;
 class
@@ -2734,7 +2734,7 @@ webext
 -
 panel
 .
-xul
+xhtml
 page
 to
 have

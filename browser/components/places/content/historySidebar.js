@@ -841,7 +841,7 @@ attribute
 in
 historySidebar
 .
-xul
+xhtml
 /
 /
 otherwise

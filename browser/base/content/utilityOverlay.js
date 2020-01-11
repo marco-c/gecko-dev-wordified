@@ -6042,7 +6042,7 @@ content
 /
 aboutDialog
 .
-xul
+xhtml
 "
 "
 "

@@ -67,7 +67,7 @@ places
 /
 places
 .
-xul
+xhtml
 "
 "
 "
