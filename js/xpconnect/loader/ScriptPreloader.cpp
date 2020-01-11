@@ -2723,9 +2723,8 @@ WillWriteScripts
 )
 {
 return
-Active
-(
-)
+!
+mDataPrepared
 &
 &
 (
