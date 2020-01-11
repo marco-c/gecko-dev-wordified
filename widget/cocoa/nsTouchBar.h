@@ -259,11 +259,10 @@ separately
 because
 they
 are
-generic
-NSButtons
-and
-not
-NSTouchBarItems
+untethered
+from
+the
+nsTouchBar
 .
 As
 such
@@ -287,7 +286,7 @@ strong
 NSMutableDictionary
 <
 NSTouchBarItemIdentifier
-NSButton
+NSCustomTouchBarItem
 *
 >
 *
@@ -640,7 +639,7 @@ void
 updateButton
 :
 (
-NSButton
+NSCustomTouchBarItem
 *
 )
 aButton
@@ -658,7 +657,7 @@ void
 updateMainButton
 :
 (
-NSButton
+NSCustomTouchBarItem
 *
 )
 aMainButton
