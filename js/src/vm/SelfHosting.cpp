@@ -17177,6 +17177,15 @@ intl_TryValidateAndCanonicalizeLanguageTag
 1
 0
 )
+JS_FN
+(
+"
+intl_ValidateAndCanonicalizeUnicodeExtensionType
+"
+intl_ValidateAndCanonicalizeUnicodeExtensionType
+2
+0
+)
 JS_INLINABLE_FN
 (
 "
