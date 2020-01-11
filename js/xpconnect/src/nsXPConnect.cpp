@@ -5028,12 +5028,6 @@ sandbox
 source
 filenameStr
 1
-/
-*
-enforceFilenameRestrictions
-*
-/
-true
 rval
 )
 ;

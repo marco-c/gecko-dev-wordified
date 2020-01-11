@@ -1014,12 +1014,6 @@ sb
 "
 file
 line
-/
-*
-enforceFilenameRestrictions
-*
-/
-false
 )
 timeoutPromise
 ]
