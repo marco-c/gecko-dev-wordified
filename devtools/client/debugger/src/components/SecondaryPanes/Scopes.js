@@ -636,14 +636,6 @@ parent
 !
 item
 .
-parent
-.
-contents
-|
-|
-!
-item
-.
 contents
 .
 configurable
