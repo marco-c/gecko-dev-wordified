@@ -377,8 +377,6 @@ aStatusCode
 DocumentChannelChild
 (
 )
-=
-default
 ;
 nsCOMPtr
 <
