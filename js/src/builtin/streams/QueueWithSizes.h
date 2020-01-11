@@ -177,7 +177,7 @@ namespace
 js
 {
 class
-ReadableStreamController
+StreamController
 ;
 /
 *
@@ -211,7 +211,7 @@ JS
 :
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -262,7 +262,7 @@ JS
 :
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -322,7 +322,7 @@ JS
 :
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer

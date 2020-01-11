@@ -190,7 +190,7 @@ builtin
 /
 streams
 /
-ReadableStreamController
+StreamController
 .
 h
 "
@@ -199,7 +199,7 @@ h
 js
 :
 :
-ReadableStreamController
+StreamController
 #
 include
 "
@@ -686,7 +686,7 @@ JSContext
 cx
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -1041,7 +1041,7 @@ JSContext
 cx
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
@@ -1414,7 +1414,7 @@ JSContext
 cx
 Handle
 <
-ReadableStreamController
+StreamController
 *
 >
 unwrappedContainer
