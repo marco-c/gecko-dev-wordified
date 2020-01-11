@@ -147,14 +147,11 @@ packet
 const
 env
 =
-await
 packet
 .
 frame
 .
-getEnvironment
-(
-)
+environment
 ;
 Assert
 .

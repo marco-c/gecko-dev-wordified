@@ -84,6 +84,9 @@ return
 autoBlackBox
 :
 false
+ignoreFrameEnvironment
+:
+true
 pauseOnExceptions
 :
 Services
