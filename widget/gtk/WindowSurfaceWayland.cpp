@@ -5478,6 +5478,9 @@ GetNumRects
 return
 false
 ;
+gfx
+:
+:
 IntRect
 rect
 =

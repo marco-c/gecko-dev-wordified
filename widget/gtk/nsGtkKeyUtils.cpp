@@ -192,6 +192,13 @@ h
 #
 include
 "
+X11UndefineNone
+.
+h
+"
+#
+include
+"
 IMContextWrapper
 .
 h

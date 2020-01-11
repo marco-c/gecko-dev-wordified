@@ -130,6 +130,13 @@ h
 #
 include
 "
+GLContextTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 widget

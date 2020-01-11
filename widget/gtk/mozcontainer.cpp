@@ -1511,7 +1511,7 @@ surface
 }
 static
 void
-frame_callback_handler
+moz_container_frame_callback_handler
 (
 void
 *
@@ -1659,10 +1659,10 @@ static
 const
 struct
 wl_callback_listener
-frame_listener
+moz_container_frame_listener
 =
 {
-frame_callback_handler
+moz_container_frame_callback_handler
 }
 ;
 static
@@ -1819,7 +1819,7 @@ container
 >
 frame_callback_handler
 &
-frame_listener
+moz_container_frame_listener
 container
 )
 ;
