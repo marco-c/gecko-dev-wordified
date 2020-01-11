@@ -21482,7 +21482,7 @@ oldestEnabledFrame
 ;
 for
 (
-FrameIter
+AllFramesIter
 iter
 (
 cx
