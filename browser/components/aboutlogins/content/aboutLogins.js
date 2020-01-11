@@ -313,6 +313,15 @@ syncState
 .
 hideMobileFooter
 ;
+gElements
+.
+loginIntro
+.
+updateState
+(
+syncState
+)
+;
 }
 window
 .
