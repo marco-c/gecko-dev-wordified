@@ -1608,6 +1608,10 @@ return
 }
 if
 (
+!
+mTrackMain
+|
+|
 mTrackMain
 -
 >
@@ -1620,8 +1624,10 @@ IsDestroyed
 /
 The
 track
-was
+is
 already
+gone
+or
 destroyed
 by
 MediaManager
@@ -1629,9 +1635,9 @@ MediaManager
 This
 can
 happen
+/
+/
 because
-/
-/
 stopping
 the
 draw
