@@ -117,6 +117,8 @@ tooltool_download
     
 download_file_from_url
     
+get_available_port
+    
 LOG
 )
 here
@@ -367,7 +369,11 @@ host
 )
 s
 :
-8080
+%
+(
+port
+)
+d
 "
       
 "
@@ -381,7 +387,11 @@ host
 )
 s
 :
-8080
+%
+(
+port
+)
+d
 "
       
 "
@@ -469,6 +479,25 @@ self
 config
 =
 config
+        
+self
+.
+host
+=
+self
+.
+config
+[
+"
+host
+"
+]
+        
+self
+.
+port
+=
+None
         
 self
 .
@@ -1466,6 +1495,14 @@ started
 "
 )
         
+self
+.
+port
+=
+get_available_port
+(
+)
+        
 LOG
 .
 info
@@ -1771,6 +1808,31 @@ v
 "
 -
 -
+listen
+-
+host
+"
+self
+.
+host
+                    
+"
+-
+-
+listen
+-
+port
+"
+str
+(
+self
+.
+port
+)
+                    
+"
+-
+-
 set
 "
 "
@@ -2015,6 +2077,16 @@ self
 .
 check_proxy
 (
+host
+=
+self
+.
+host
+port
+=
+self
+.
+port
 )
             
 if
@@ -2031,6 +2103,12 @@ Mitmproxy
 playback
 successfully
 started
+on
+%
+s
+:
+%
+d
 as
 pid
 %
@@ -2038,11 +2116,19 @@ d
 "
                     
 %
+(
+self
+.
+host
+self
+.
+port
 self
 .
 mitmproxy_proc
 .
 pid
+)
                 
 )
                 
@@ -2326,13 +2412,7 @@ check_proxy
 (
 self
 host
-=
-"
-localhost
-"
 port
-=
-8080
 )
 :
         
@@ -2835,12 +2915,15 @@ host
 :
 self
 .
-config
-[
-"
 host
+                                                    
 "
-]
+port
+"
+:
+self
+.
+port
 }
         
 )
@@ -3104,12 +3187,14 @@ host
 :
 self
 .
-config
-[
-"
 host
 "
-]
+port
+"
+:
+self
+.
+port
 }
             
 )
