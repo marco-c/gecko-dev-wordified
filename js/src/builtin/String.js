@@ -3924,9 +3924,10 @@ Steps
 .
 requestedLocale
 =
-ValidateAndCanonicalizeLanguageTag
+intl_ValidateAndCanonicalizeLanguageTag
 (
 locales
+false
 )
 ;
 }
@@ -4163,9 +4164,10 @@ Steps
 .
 requestedLocale
 =
-ValidateAndCanonicalizeLanguageTag
+intl_ValidateAndCanonicalizeLanguageTag
 (
 locales
+false
 )
 ;
 }
