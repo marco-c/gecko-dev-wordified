@@ -120,13 +120,6 @@ non
 shared
 integer
 TypedArrays
-includes
-:
-[
-testTypedArray
-.
-js
-]
 features
 :
 [

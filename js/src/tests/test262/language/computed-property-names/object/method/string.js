@@ -299,7 +299,7 @@ compareArray
 (
 Object
 .
-keys
+getOwnPropertyNames
 (
 object
 )
@@ -323,7 +323,7 @@ compareArray
 (
 Object
 .
-keys
+getOwnPropertyNames
 (
 object
 )

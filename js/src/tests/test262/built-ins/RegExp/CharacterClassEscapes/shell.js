@@ -61,6 +61,13 @@ of
 RegExp
 objects
 .
+defines
+:
+[
+buildString
+testPropertyEscapes
+matchValidator
+]
 -
 -
 -

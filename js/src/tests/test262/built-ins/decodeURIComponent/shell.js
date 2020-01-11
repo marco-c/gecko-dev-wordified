@@ -62,6 +62,12 @@ various
 encoding
 operations
 .
+defines
+:
+[
+decimalToHexString
+decimalToPercentHexString
+]
 -
 -
 -

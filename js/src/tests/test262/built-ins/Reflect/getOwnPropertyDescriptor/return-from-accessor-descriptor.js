@@ -395,7 +395,7 @@ compareArray
 (
 Object
 .
-keys
+getOwnPropertyNames
 (
 result
 )

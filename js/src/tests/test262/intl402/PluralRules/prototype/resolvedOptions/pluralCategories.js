@@ -69,9 +69,6 @@ call
 includes
 :
 [
-testIntl
-.
-js
 propertyHelper
 .
 js

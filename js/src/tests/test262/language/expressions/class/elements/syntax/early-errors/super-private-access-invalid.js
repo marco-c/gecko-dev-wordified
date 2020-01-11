@@ -158,6 +158,12 @@ class
 extends
 B
 {
+#
+x
+(
+)
+{
+}
 method
 (
 )

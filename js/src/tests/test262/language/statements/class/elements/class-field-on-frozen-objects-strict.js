@@ -114,13 +114,6 @@ initValue
 .
 Return
 .
-includes
-:
-[
-compareArray
-.
-js
-]
 features
 :
 [

@@ -73,6 +73,11 @@ by
 a
 host
 .
+defines
+:
+[
+DETACHBUFFER
+]
 -
 -
 -

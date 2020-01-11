@@ -77,11 +77,6 @@ returned
 "
 this
 "
-flags
-:
-[
-noStrict
-]
 -
 -
 -

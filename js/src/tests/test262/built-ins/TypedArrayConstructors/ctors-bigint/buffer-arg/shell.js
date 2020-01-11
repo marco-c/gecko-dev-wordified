@@ -73,6 +73,11 @@ by
 a
 host
 .
+defines
+:
+[
+DETACHBUFFER
+]
 -
 -
 -
@@ -184,6 +189,12 @@ BigInt
 TypedArray
 objects
 .
+defines
+:
+[
+TypedArray
+testWithBigIntTypedArrayConstructors
+]
 -
 -
 -

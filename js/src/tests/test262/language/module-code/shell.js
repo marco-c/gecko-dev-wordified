@@ -54,6 +54,11 @@ a
 reliable
 global
 object
+defines
+:
+[
+fnGlobalObject
+]
 -
 -
 -

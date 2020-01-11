@@ -82,6 +82,11 @@ call
 optimization
 semantics
 .
+defines
+:
+[
+MAX_ITERATIONS
+]
 -
 -
 -

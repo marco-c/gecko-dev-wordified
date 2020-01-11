@@ -88,6 +88,7 @@ features
 :
 [
 class
+class
 -
 methods
 -

@@ -242,9 +242,6 @@ includes
 testTypedArray
 .
 js
-detachArrayBuffer
-.
-js
 ]
 features
 :

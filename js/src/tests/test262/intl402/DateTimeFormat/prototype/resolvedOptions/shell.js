@@ -59,6 +59,11 @@ a
 constructor
 function
 .
+defines
+:
+[
+isConstructor
+]
 -
 -
 -

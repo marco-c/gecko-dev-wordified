@@ -61,9 +61,6 @@ includes
 testBigIntTypedArray
 .
 js
-compareArray
-.
-js
 ]
 features
 :

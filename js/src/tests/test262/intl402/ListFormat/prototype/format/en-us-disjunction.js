@@ -45,6 +45,7 @@ prototype
 format
 description
 :
+>
 Checks
 the
 behavior

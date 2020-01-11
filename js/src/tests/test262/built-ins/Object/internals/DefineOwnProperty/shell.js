@@ -90,6 +90,11 @@ in
 Array
 buffers
 .
+defines
+:
+[
+NaNs
+]
 -
 -
 -

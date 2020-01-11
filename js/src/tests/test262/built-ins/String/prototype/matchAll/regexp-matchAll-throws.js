@@ -106,6 +106,7 @@ regexp
 /
 .
 /
+g
 ;
 regexp
 [

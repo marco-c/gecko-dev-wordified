@@ -90,6 +90,7 @@ features
 :
 [
 class
+class
 -
 static
 -

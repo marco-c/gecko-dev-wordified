@@ -79,13 +79,6 @@ CreateArrayFromList
 ll
 )
 .
-includes
-:
-[
-compareArray
-.
-js
-]
 features
 :
 [

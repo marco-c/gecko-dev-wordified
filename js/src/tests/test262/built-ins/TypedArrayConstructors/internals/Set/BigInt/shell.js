@@ -62,6 +62,12 @@ BigInt
 TypedArray
 objects
 .
+defines
+:
+[
+TypedArray
+testWithBigIntTypedArrayConstructors
+]
 -
 -
 -

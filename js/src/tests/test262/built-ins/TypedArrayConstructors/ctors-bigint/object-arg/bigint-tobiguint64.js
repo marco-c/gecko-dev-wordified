@@ -439,13 +439,6 @@ modulo
 Return
 int64bit
 .
-includes
-:
-[
-testBigIntTypedArray
-.
-js
-]
 features
 :
 [

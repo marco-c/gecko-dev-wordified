@@ -191,11 +191,6 @@ funcResult
 .
 .
 .
-flags
-:
-[
-noStrict
-]
 -
 -
 -

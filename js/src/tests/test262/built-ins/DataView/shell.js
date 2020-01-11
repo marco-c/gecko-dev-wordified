@@ -96,6 +96,11 @@ its
 original
 value
 .
+defines
+:
+[
+byteConversionValues
+]
 -
 -
 -
@@ -2363,6 +2368,11 @@ by
 a
 host
 .
+defines
+:
+[
+DETACHBUFFER
+]
 -
 -
 -

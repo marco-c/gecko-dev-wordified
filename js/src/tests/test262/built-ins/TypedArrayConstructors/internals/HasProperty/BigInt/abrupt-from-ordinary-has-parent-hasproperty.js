@@ -242,9 +242,6 @@ includes
 testBigIntTypedArray
 .
 js
-detachArrayBuffer
-.
-js
 ]
 features
 :

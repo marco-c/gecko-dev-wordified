@@ -318,6 +318,9 @@ static
 fields
 -
 private
+cross
+-
+realm
 ]
 flags
 :

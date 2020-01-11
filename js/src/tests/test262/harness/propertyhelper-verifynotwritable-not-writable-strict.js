@@ -48,9 +48,6 @@ writable
 satisfy
 the
 assertion
-in
-strict
-mode
 .
 includes
 :

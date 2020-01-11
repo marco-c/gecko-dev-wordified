@@ -87,6 +87,7 @@ features
 :
 [
 class
+class
 -
 static
 -

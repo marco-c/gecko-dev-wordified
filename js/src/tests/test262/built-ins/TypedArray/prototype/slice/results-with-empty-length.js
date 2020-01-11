@@ -61,9 +61,6 @@ includes
 testTypedArray
 .
 js
-compareArray
-.
-js
 ]
 features
 :

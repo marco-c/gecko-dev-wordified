@@ -125,6 +125,7 @@ regexp
 /
 .
 /
+g
 ;
 Object
 .

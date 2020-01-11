@@ -165,6 +165,7 @@ regexp
 /
 .
 /
+g
 ;
 var
 callCount

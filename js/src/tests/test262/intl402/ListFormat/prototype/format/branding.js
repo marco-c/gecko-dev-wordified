@@ -45,6 +45,7 @@ prototype
 format
 description
 :
+>
 Verifies
 the
 branding

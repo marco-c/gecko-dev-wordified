@@ -79,13 +79,6 @@ methods
 -
 private
 ]
-includes
-:
-[
-propertyHelper
-.
-js
-]
 info
 :
 |

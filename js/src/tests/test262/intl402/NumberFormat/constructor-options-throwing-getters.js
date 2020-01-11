@@ -71,6 +71,9 @@ options
 localeMatcher
 "
 "
+numberingSystem
+"
+"
 style
 "
 "

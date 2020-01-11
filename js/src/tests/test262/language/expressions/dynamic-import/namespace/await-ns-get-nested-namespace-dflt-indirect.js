@@ -1026,7 +1026,7 @@ keys
 =
 Object
 .
-keys
+getOwnPropertyNames
 (
 ns
 .

@@ -117,9 +117,6 @@ code
 includes
 :
 [
-fnGlobalObject
-.
-js
 nativeFunctionMatcher
 .
 js

@@ -60,6 +60,13 @@ array
 of
 expected
 values
+defines
+:
+[
+assert
+.
+compareIterator
+]
 -
 -
 -
@@ -366,6 +373,13 @@ of
 RegExp
 objects
 .
+defines
+:
+[
+buildString
+testPropertyEscapes
+matchValidator
+]
 -
 -
 -

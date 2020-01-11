@@ -59,6 +59,11 @@ within
 an
 array
 .
+defines
+:
+[
+arrayContains
+]
 -
 -
 -

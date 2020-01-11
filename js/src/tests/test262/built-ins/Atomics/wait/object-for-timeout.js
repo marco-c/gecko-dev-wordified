@@ -183,13 +183,6 @@ ToNumber
 primValue
 )
 .
-includes
-:
-[
-atomicsHelper
-.
-js
-]
 features
 :
 [

@@ -114,9 +114,6 @@ async
 includes
 :
 [
-compareArray
-.
-js
 promiseHelper
 .
 js

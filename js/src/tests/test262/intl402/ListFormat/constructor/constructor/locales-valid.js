@@ -73,13 +73,6 @@ CanonicalizeLocaleList
 _locales_
 )
 .
-includes
-:
-[
-testIntl
-.
-js
-]
 features
 :
 [

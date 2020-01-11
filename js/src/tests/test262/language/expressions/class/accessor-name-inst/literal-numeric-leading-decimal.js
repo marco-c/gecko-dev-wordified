@@ -82,6 +82,11 @@ runtime
 semantics
 -
 classdefinitionevaluation
+features
+:
+[
+class
+]
 flags
 :
 [

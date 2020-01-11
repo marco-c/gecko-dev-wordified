@@ -91,6 +91,7 @@ features
 :
 [
 class
+class
 -
 static
 -

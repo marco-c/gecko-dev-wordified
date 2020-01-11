@@ -192,9 +192,6 @@ includes
 nans
 .
 js
-atomicsHelper
-.
-js
 ]
 features
 :

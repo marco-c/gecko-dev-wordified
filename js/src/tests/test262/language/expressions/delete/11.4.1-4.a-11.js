@@ -100,7 +100,7 @@ true
 on
 deleting
 arguments
-propterties
+properties
 (
 arguments
 .

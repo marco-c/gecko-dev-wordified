@@ -199,6 +199,9 @@ class
 methods
 -
 private
+cross
+-
+realm
 ]
 flags
 :

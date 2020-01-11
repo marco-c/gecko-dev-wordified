@@ -66,6 +66,11 @@ of
 Proxy
 objects
 .
+defines
+:
+[
+allowProxyTraps
+]
 -
 -
 -

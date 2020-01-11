@@ -45,11 +45,6 @@ valid
 BindingIdentifier
 for
 GeneratorMethods
-outside
-of
-strict
-mode
-.
 features
 :
 [
@@ -62,11 +57,6 @@ es6id
 1
 .
 1
-flags
-:
-[
-noStrict
-]
 -
 -
 -

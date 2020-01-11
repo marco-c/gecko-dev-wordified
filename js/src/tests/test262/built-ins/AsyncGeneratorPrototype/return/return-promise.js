@@ -146,13 +146,6 @@ Promise
 ]
 ]
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 features
 :
 [

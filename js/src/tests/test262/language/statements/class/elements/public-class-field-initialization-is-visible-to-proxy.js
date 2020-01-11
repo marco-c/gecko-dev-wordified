@@ -117,13 +117,6 @@ initValue
 .
 Return
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 features
 :
 [

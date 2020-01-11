@@ -62,13 +62,6 @@ Norbert
 Lindenberg
 Daniel
 Ehrenberg
-includes
-:
-[
-testIntl
-.
-js
-]
 -
 -
 -

@@ -91,13 +91,6 @@ flags
 generated
 async
 ]
-includes
-:
-[
-compareArray
-.
-js
-]
 info
 :
 |

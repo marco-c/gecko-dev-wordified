@@ -156,6 +156,12 @@ C
 extends
 B
 {
+#
+x
+(
+)
+{
+}
 method
 (
 )

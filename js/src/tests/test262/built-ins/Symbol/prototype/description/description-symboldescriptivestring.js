@@ -138,13 +138,6 @@ and
 )
 "
 .
-includes
-:
-[
-propertyHelper
-.
-js
-]
 features
 :
 [

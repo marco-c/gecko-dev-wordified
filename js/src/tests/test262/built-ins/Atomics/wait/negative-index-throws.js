@@ -169,13 +169,6 @@ throw
 a
 RangeError
 exception
-includes
-:
-[
-atomicsHelper
-.
-js
-]
 features
 :
 [

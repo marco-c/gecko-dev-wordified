@@ -76,13 +76,6 @@ flags
 [
 generated
 ]
-includes
-:
-[
-compareArray
-.
-js
-]
 info
 :
 |

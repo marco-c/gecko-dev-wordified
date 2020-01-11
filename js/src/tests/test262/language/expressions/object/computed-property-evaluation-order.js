@@ -114,7 +114,7 @@ keys
 =
 Object
 .
-keys
+getOwnPropertyNames
 (
 o
 )

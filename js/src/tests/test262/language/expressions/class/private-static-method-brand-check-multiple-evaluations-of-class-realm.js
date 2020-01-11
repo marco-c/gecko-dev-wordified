@@ -255,6 +255,9 @@ static
 methods
 -
 private
+cross
+-
+realm
 ]
 flags
 :
@@ -320,6 +323,7 @@ test262
 '
 ;
 }
+static
 access
 (
 )

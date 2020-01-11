@@ -45,6 +45,7 @@ prototype
 formatToParts
 description
 :
+>
 Checks
 the
 "

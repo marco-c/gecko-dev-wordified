@@ -169,6 +169,7 @@ regexp
 /
 .
 /
+g
 ;
 var
 str
