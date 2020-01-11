@@ -2216,7 +2216,7 @@ mUnstamped
 /
 array
 .
-nsresult
+void
 ReconstructVorbisGranulepos
 (
 )
