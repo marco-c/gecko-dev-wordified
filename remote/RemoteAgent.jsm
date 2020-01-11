@@ -1423,6 +1423,9 @@ generateQI
 Ci
 .
 nsICommandLineHandler
+Ci
+.
+nsIRemoteAgent
 ]
 )
 ;
