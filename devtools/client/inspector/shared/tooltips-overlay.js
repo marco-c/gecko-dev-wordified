@@ -999,6 +999,9 @@ doorhanger
 useXulWrapper
 :
 true
+noAutoHide
+:
+true
 }
 )
 ;
