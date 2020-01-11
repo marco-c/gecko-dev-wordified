@@ -242,6 +242,7 @@ selectedSource
 SourceWithContent
 mappedSource
 :
+?
 Source
 endPanelCollapsed
 :
@@ -1050,7 +1051,11 @@ button
 }
 onCursorChange
 =
+(
 event
+:
+any
+)
 =
 >
 {

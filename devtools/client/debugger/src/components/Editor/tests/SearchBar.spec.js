@@ -225,6 +225,8 @@ function
 generateDefaults
 (
 )
+:
+any
 {
 return
 {

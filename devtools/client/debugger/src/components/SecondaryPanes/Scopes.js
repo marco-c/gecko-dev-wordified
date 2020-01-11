@@ -309,6 +309,7 @@ isLoading
 boolean
 why
 :
+?
 Why
 mapScopesEnabled
 :
@@ -407,10 +408,6 @@ constructor
 props
 :
 Props
-.
-.
-.
-args
 )
 {
 const
@@ -426,10 +423,6 @@ props
 super
 (
 props
-.
-.
-.
-args
 )
 ;
 this
@@ -462,6 +455,8 @@ true
 componentWillReceiveProps
 (
 nextProps
+:
+Props
 )
 {
 const
@@ -597,7 +592,11 @@ onContextMenu
 =
 (
 event
+:
+any
 item
+:
+any
 )
 =
 >

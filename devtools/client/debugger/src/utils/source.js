@@ -2511,10 +2511,11 @@ getSourceClassnames
 (
 source
 :
+?
 Object
 symbols
-?
 :
+?
 Symbols
 )
 {

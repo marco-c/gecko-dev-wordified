@@ -189,6 +189,7 @@ Breakpoint
 ]
 selectedSource
 :
+?
 Source
 removeBreakpoint
 :

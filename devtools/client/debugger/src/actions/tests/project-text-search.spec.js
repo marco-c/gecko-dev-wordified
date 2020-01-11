@@ -948,7 +948,7 @@ const
 mockStatus
 =
 "
-Fetching
+FETCHING
 "
 ;
 dispatch

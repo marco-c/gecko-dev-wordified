@@ -153,7 +153,6 @@ actions
 import
 {
 getThreadContext
-getPreview
 }
 from
 "
@@ -1594,12 +1593,6 @@ state
 cx
 :
 getThreadContext
-(
-state
-)
-preview
-:
-getPreview
 (
 state
 )

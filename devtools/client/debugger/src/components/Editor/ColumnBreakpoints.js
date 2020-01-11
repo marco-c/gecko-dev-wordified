@@ -219,6 +219,7 @@ editor
 Object
 selectedSource
 :
+?
 Source
 columnBreakpoints
 :

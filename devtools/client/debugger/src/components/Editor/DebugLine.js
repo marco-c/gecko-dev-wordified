@@ -186,9 +186,11 @@ Props
 {
 location
 :
+?
 SourceLocation
 why
 :
+?
 Why
 source
 :
@@ -216,6 +218,9 @@ source
 ?
 SourceWithContent
 location
+:
+?
+SourceLocation
 )
 {
 return
@@ -356,9 +361,11 @@ setDebugLine
 (
 why
 :
+?
 Why
 location
 :
+?
 SourceLocation
 source
 :
@@ -368,6 +375,10 @@ SourceWithContent
 {
 if
 (
+!
+location
+|
+|
 !
 isDocumentReady
 (
@@ -542,9 +553,11 @@ clearDebugLine
 (
 why
 :
+?
 Why
 location
 :
+?
 SourceLocation
 source
 :
@@ -554,6 +567,10 @@ SourceWithContent
 {
 if
 (
+!
+location
+|
+|
 !
 isDocumentReady
 (
@@ -629,6 +646,7 @@ getTextClasses
 (
 why
 :
+?
 Why
 )
 :

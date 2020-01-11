@@ -200,6 +200,7 @@ import
 type
 {
 SearchOperation
+StatusType
 }
 from
 "
@@ -360,7 +361,7 @@ cx
 Context
 status
 :
-string
+StatusType
 )
 :
 Action

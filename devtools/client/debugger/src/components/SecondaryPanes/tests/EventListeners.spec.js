@@ -614,7 +614,7 @@ simulate
 change
 "
 {
-target
+currentTarget
 :
 {
 value
@@ -779,7 +779,7 @@ simulate
 change
 "
 {
-target
+currentTarget
 :
 {
 value
@@ -939,7 +939,7 @@ simulate
 change
 "
 {
-target
+currentTarget
 :
 {
 value

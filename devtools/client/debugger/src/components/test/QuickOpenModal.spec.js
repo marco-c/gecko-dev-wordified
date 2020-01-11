@@ -194,6 +194,8 @@ shallow
 {
 const
 props
+:
+any
 =
 {
 cx

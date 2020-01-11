@@ -272,10 +272,6 @@ Component
 Props
 >
 {
-props
-:
-Props
-;
 componentWillUpdate
 (
 nextProps
@@ -310,6 +306,8 @@ nextProps
 showMenu
 (
 props
+:
+Props
 )
 {
 const

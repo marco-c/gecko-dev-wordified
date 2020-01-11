@@ -339,12 +339,12 @@ sourceCount
 :
 number
 shownSource
-?
 :
+?
 Source
 selectedSource
-?
 :
+?
 Source
 debuggeeUrl
 :
@@ -378,6 +378,7 @@ actions
 focusItem
 focused
 :
+?
 TreeNode
 }
 ;
@@ -1140,6 +1141,8 @@ length
 renderEmptyElement
 (
 message
+:
+string
 )
 {
 return
@@ -1175,7 +1178,11 @@ getRoots
 =
 (
 sourceTree
+:
+TreeDirectory
 projectRoot
+:
+string
 )
 =
 >
@@ -1304,6 +1311,8 @@ focused
 :
 boolean
 _
+:
+mixed
 expanded
 :
 boolean
@@ -1561,10 +1570,10 @@ treeProps
 }
 renderPane
 (
-.
-.
-.
-children
+child
+:
+React
+Node
 )
 {
 const
@@ -1612,7 +1621,7 @@ projectRoot
 }
 >
 {
-children
+child
 }
 <
 /

@@ -161,8 +161,9 @@ Function
 setActiveSearch
 :
 (
-?
 ActiveSearchType
+|
+void
 )
 =
 >
