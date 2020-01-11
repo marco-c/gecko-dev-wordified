@@ -325,8 +325,6 @@ mozilla
 :
 AsVariant
 (
-StackGCCellPtr
-(
 JS
 :
 :
@@ -337,7 +335,6 @@ objbox
 >
 object
 (
-)
 )
 )
 )
@@ -469,7 +466,11 @@ operator
 (
 )
 (
-StackGCCellPtr
+const
+JS
+:
+:
+GCCellPtr
 &
 value
 )
@@ -480,10 +481,6 @@ i
 ]
 =
 value
-.
-get
-(
-)
 ;
 return
 true
