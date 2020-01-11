@@ -763,7 +763,7 @@ MediaRawDataQueue
 aSamples
 )
 ;
-nsresult
+void
 Reset
 (
 TrackInfo
