@@ -58350,12 +58350,11 @@ dedent
                     
 if
 (
-nsContentUtils
-:
-:
+principal
+-
+>
 IsSystemPrincipal
 (
-principal
 )
 )
 {

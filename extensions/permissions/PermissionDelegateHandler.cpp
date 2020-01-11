@@ -161,6 +161,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_permissions
 .
 h

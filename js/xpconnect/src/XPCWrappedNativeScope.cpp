@@ -1436,12 +1436,11 @@ contentScope
 ;
 if
 (
-nsContentUtils
-:
-:
+principal
+-
+>
 IsSystemPrincipal
 (
-principal
 )
 )
 {

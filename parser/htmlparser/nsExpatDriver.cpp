@@ -252,6 +252,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NullPrincipal
 .
 h
