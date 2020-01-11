@@ -119,7 +119,11 @@ use
 target_lexicon
 :
 :
+{
+Aarch64Architecture
 Architecture
+ArmArchitecture
+}
 ;
 use
 crate
@@ -670,6 +674,12 @@ Architecture
 :
 :
 Arm
+(
+ArmArchitecture
+:
+:
+Arm
+)
 elf
 :
 :
@@ -683,6 +693,12 @@ Architecture
 :
 :
 Aarch64
+(
+Aarch64Architecture
+:
+:
+Aarch64
+)
 elf
 :
 :

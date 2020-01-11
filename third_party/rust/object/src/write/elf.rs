@@ -432,6 +432,9 @@ Architecture
 :
 :
 Arm
+(
+_
+)
 =
 >
 false
@@ -439,6 +442,9 @@ Architecture
 :
 :
 Aarch64
+(
+_
+)
 =
 >
 false
@@ -2143,6 +2149,9 @@ Architecture
 :
 :
 Arm
+(
+_
+)
 =
 >
 elf
@@ -2153,6 +2162,9 @@ Architecture
 :
 :
 Aarch64
+(
+_
+)
 =
 >
 elf
