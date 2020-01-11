@@ -541,6 +541,9 @@ personalizedCfrThreshold
 "
 personalizedCfrScores
 "
+"
+messageImpressions
+"
 ]
 ;
 for
