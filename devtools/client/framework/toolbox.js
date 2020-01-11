@@ -9266,6 +9266,7 @@ isTargetSupported
 isCurrentlyVisible
 isChecked
 onKeyDown
+experimentalURL
 }
 =
 options
@@ -9460,6 +9461,7 @@ isInStartContainer
 !
 !
 isInStartContainer
+experimentalURL
 }
 ;
 if
