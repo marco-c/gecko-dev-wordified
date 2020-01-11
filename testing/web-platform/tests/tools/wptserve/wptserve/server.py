@@ -4901,7 +4901,7 @@ self
 .
 logger
 .
-error
+critical
 (
 "
 Failed

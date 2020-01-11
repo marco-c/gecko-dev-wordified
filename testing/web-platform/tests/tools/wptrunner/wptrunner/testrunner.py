@@ -3199,7 +3199,7 @@ self
 .
 logger
 .
-error
+critical
 (
 "
 Max

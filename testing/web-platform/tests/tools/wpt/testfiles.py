@@ -391,7 +391,7 @@ e
             
 logger
 .
-error
+critical
 (
 "
 Git
@@ -410,7 +410,7 @@ returncode
             
 logger
 .
-error
+critical
 (
 e
 .

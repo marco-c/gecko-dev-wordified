@@ -1272,7 +1272,7 @@ self
 .
 logger
 .
-error
+critical
 (
 "
 Found
