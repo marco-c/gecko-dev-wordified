@@ -93,6 +93,7 @@ self
 -
 >
 &
+dyn
 Fail
 ;
 }
@@ -117,6 +118,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self
@@ -125,6 +127,7 @@ self
 impl
 AsFail
 for
+dyn
 Fail
 {
 fn
@@ -136,6 +139,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self
@@ -164,6 +168,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self
