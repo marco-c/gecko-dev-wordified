@@ -39070,6 +39070,9 @@ aName
 aCsp
 =
 null
+aSkipLoad
+=
+false
 )
 {
 let
@@ -39283,6 +39286,9 @@ aName
 csp
 :
 aCsp
+skipLoad
+:
+aSkipLoad
 }
 )
 ;
@@ -39344,6 +39350,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+true
 )
 ;
 }
@@ -39397,6 +39404,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+false
 )
 ;
 }
@@ -39408,6 +39416,7 @@ aWhere
 aFlags
 aTriggeringPrincipal
 aCsp
+aSkipLoad
 )
 {
 /
@@ -40179,6 +40188,7 @@ aTriggeringPrincipal
 "
 "
 aCsp
+aSkipLoad
 )
 ;
 if
@@ -40321,7 +40331,22 @@ create
 the
 content
 window
-.
+/
+/
+and
+pass
+true
+for
+aSkipLoad
+to
+prevent
+loading
+of
+/
+/
+about
+:
+blank
 return
 this
 .
@@ -40333,6 +40358,7 @@ aWhere
 aFlags
 aNextRemoteTabId
 aName
+true
 )
 ;
 }
@@ -40360,6 +40386,7 @@ aWhere
 aFlags
 aNextRemoteTabId
 aName
+false
 )
 ;
 }
@@ -40374,6 +40401,7 @@ aWhere
 aFlags
 aNextRemoteTabId
 aName
+aSkipLoad
 )
 {
 if
@@ -40477,6 +40505,7 @@ aName
 aParams
 .
 csp
+aSkipLoad
 )
 ;
 }
