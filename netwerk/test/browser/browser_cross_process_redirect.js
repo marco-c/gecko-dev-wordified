@@ -211,16 +211,9 @@ process
 }
 examine
 (
-aRequestor
+aChannel
 )
 {
-const
-channel
-=
-aRequestor
-.
-channel
-;
 if
 (
 this
@@ -233,7 +226,7 @@ this
 channel
 !
 =
-channel
+aChannel
 )
 {
 /
@@ -269,7 +262,7 @@ return
 }
 if
 (
-channel
+aChannel
 .
 URI
 .
@@ -290,7 +283,7 @@ for
 channel
 "
 +
-channel
+aChannel
 .
 URI
 .
@@ -303,7 +296,7 @@ return
 let
 redirects
 =
-channel
+aChannel
 .
 loadInfo
 .
@@ -358,7 +351,7 @@ this
 .
 channel
 =
-channel
+aChannel
 ;
 let
 self
@@ -467,7 +460,7 @@ switchprocessto
 "
 )
 ;
-aRequestor
+aChannel
 .
 switchProcessTo
 (
@@ -511,7 +504,7 @@ QueryInterface
 (
 Ci
 .
-nsIProcessSwitchRequestor
+nsIHttpChannel
 )
 )
 ;
