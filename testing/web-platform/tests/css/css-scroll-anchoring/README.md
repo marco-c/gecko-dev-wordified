@@ -2,9 +2,8 @@
 #
 Scroll
 Anchoring
-Web
-Platform
-Tests
+Test
+Suite
 Scroll
 anchoring
 adjusts

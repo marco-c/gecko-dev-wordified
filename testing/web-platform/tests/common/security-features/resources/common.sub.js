@@ -9,9 +9,11 @@ mixed
 -
 content
 in
-Web
-Platform
-Tests
+web
+-
+platform
+-
+tests
 .
 *
 author
