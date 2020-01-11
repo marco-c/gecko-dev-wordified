@@ -270,9 +270,9 @@ equal
 typeof
 page
 .
-docshellId
+browsingContextID
 "
-string
+number
 "
 )
 ;
@@ -283,7 +283,7 @@ equal
 typeof
 page
 .
-historyId
+innerWindowID
 "
 number
 "
