@@ -9101,7 +9101,7 @@ a
 space
 .
 nsAutoString
-restOfLine
+restOfContent
 ;
 if
 (
@@ -9127,7 +9127,7 @@ mContent
 .
 Right
 (
-restOfLine
+restOfContent
 contentLength
 -
 goodSpace
@@ -9144,7 +9144,7 @@ mContent
 .
 Right
 (
-restOfLine
+restOfContent
 contentLength
 -
 goodSpace
@@ -9231,7 +9231,7 @@ OutputFormatFlowed
 if
 (
 !
-restOfLine
+restOfContent
 .
 IsEmpty
 (
@@ -9240,7 +9240,7 @@ IsEmpty
 &
 IsSpaceStuffable
 (
-restOfLine
+restOfContent
 .
 get
 (
@@ -9313,7 +9313,7 @@ mContent
 .
 Append
 (
-restOfLine
+restOfContent
 )
 ;
 currentLineContentWidth
