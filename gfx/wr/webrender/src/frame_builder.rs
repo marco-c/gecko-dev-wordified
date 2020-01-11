@@ -2915,10 +2915,6 @@ caching
 (
 3
 )
-[
-In
-future
-]
 Whether
 we
 are
@@ -3008,6 +3004,11 @@ CoordinateSystemId
 root
 (
 )
+|
+|
+spatial_node
+.
+is_ancestor_or_self_zooming
 }
 )
 ;
