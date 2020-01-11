@@ -35903,7 +35903,6 @@ JSScript
 Create
 (
 cx
-fun
 options
 sourceObject
 funbox
