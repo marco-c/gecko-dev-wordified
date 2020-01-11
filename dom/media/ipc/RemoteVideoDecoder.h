@@ -211,8 +211,8 @@ TextureFactoryIdentifier
 aIdentifier
 )
 ;
-IPCResult
-RecvOutput
+MediaResult
+ProcessOutput
 (
 const
 DecodedOutputIPDL
@@ -268,7 +268,6 @@ RemoteVideoDecoderChild
 {
 public
 :
-explicit
 GpuRemoteVideoDecoderChild
 (
 )
@@ -364,6 +363,9 @@ MediaDataDecoder
 DecodedData
 &
 aData
+DecodedOutputIPDL
+&
+aDecodedData
 )
 override
 ;
