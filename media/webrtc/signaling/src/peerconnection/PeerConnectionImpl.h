@@ -315,6 +315,13 @@ h
 #
 include
 "
+RTCStatsIdGenerator
+.
+h
+"
+#
+include
+"
 RTCStatsReport
 .
 h
@@ -3791,6 +3798,12 @@ dom
 :
 RTCStatsTimestampMaker
 mTimestampMaker
+;
+RefPtr
+<
+RTCStatsIdGenerator
+>
+mIdGenerator
 ;
 public
 :
