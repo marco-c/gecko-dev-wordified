@@ -1190,6 +1190,16 @@ OCLASP
 Collator
 )
 )
+\
+REAL_IF_INTL
+(
+DateTimeFormat
+InitViaClassSpec
+OCLASP
+(
+DateTimeFormat
+)
+)
 #
 define
 JS_FOR_PROTOTYPES

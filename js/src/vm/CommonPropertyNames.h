@@ -924,15 +924,6 @@ currencySign
 \
 MACRO
 (
-DateTimeFormat
-DateTimeFormat
-"
-DateTimeFormat
-"
-)
-\
-MACRO
-(
 day
 day
 "
