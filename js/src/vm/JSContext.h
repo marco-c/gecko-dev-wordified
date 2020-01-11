@@ -134,6 +134,16 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+/
+/
+JS_PUBLIC_API
+#
+include
+"
 ds
 /
 TraceableFifo
@@ -278,6 +288,10 @@ Runtime
 .
 h
 "
+struct
+JS_PUBLIC_API
+JSContext
+;
 struct
 DtoaState
 ;
@@ -862,6 +876,7 @@ runtime
 *
 /
 struct
+JS_PUBLIC_API
 JSContext
 :
 public
