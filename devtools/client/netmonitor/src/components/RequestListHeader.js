@@ -206,6 +206,7 @@ constants
 ;
 const
 {
+getColumns
 getWaterfallScale
 }
 =
@@ -4027,11 +4028,10 @@ state
 {
 columns
 :
+getColumns
+(
 state
-.
-ui
-.
-columns
+)
 columnsData
 :
 state
