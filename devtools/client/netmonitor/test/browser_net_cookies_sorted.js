@@ -267,7 +267,7 @@ expectedLabelValues
 [
 "
 Response
-cookies
+Cookies
 "
 "
 bob
@@ -298,7 +298,7 @@ value
 "
 "
 Request
-cookies
+Cookies
 "
 "
 bob
