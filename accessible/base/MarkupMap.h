@@ -2451,7 +2451,7 @@ Document
 roles
 :
 :
-SECTION
+STATUSBAR
 Attr
 (
 live
