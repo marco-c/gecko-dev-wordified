@@ -389,6 +389,13 @@ false
 \
 _
 (
+UseWebRenderCompositor
+bool
+false
+)
+\
+_
+(
 UseWebRenderProgramBinaryDisk
 bool
 false
