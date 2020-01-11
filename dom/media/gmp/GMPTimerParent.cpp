@@ -103,7 +103,7 @@ h
 #
 include
 "
-nsComponentManagerUtils
+GMPLog
 .
 h
 "
@@ -120,6 +120,13 @@ h
 include
 "
 nsAutoPtr
+.
+h
+"
+#
+include
+"
+nsComponentManagerUtils
 .
 h
 "
