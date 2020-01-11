@@ -690,16 +690,7 @@ clone
 property
 "
 +
-uneval
-(
-pa
-[
-i
-]
-[
-0
-]
-)
+propname
 +
 "
 "
