@@ -1574,11 +1574,7 @@ DisplayId
 (
 )
 const
-{
-return
-mDisplayId
 ;
-}
 void
 GetDisplayName
 (
@@ -1587,12 +1583,7 @@ nsAString
 aDisplayName
 )
 const
-{
-aDisplayName
-=
-mDisplayName
 ;
-}
 /
 /
 Replacing
@@ -1954,12 +1945,6 @@ gfx
 VRDisplayClient
 >
 mClient
-;
-uint32_t
-mDisplayId
-;
-nsString
-mDisplayName
 ;
 RefPtr
 <
