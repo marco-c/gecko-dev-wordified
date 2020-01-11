@@ -17035,6 +17035,15 @@ endif
 JS_FN
 (
 "
+intl_BestAvailableLocale
+"
+intl_BestAvailableLocale
+3
+0
+)
+JS_FN
+(
+"
 intl_canonicalizeTimeZone
 "
 intl_canonicalizeTimeZone
