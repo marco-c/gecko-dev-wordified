@@ -418,6 +418,10 @@ const
 uint32_t
 &
 aClassificationFlags
+const
+bool
+&
+aIsThirdParty
 )
 ;
 mozilla
@@ -598,6 +602,11 @@ channel
 s
 matched
 information
+uint32_t
+mFirstPartyClassificationFlags
+=
+0
+;
 uint32_t
 mThirdPartyClassificationFlags
 =
