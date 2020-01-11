@@ -318,7 +318,9 @@ n
 ;
 }
 }
-uneval
+JSON
+.
+stringify
 (
 arr
 [
