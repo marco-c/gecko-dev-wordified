@@ -115,6 +115,12 @@ MPL
 *
 /
 #
+ifndef
+IPC_ErrorIPCUtils_h
+#
+define
+IPC_ErrorIPCUtils_h
+#
 include
 "
 ipc
@@ -150,12 +156,6 @@ Move
 .
 h
 "
-#
-ifndef
-IPC_ErrorIPCUtils_h
-#
-define
-IPC_ErrorIPCUtils_h
 namespace
 IPC
 {

@@ -114,6 +114,12 @@ MPL
 .
 *
 /
+#
+ifndef
+nsObjCExceptions_h_
+#
+define
+nsObjCExceptions_h_
 /
 /
 Undo
@@ -131,12 +137,6 @@ try
 #
 undef
 catch
-#
-ifndef
-nsObjCExceptions_h_
-#
-define
-nsObjCExceptions_h_
 #
 import
 <
