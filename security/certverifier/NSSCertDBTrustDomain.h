@@ -1057,6 +1057,8 @@ NetscapeStepUpPolicy
 netscapeStepUpPolicy
 DistrustedCAPolicy
 distrustedCAPolicy
+CRLiteMode
+crliteMode
 const
 OriginAttributes
 &
@@ -1116,6 +1118,16 @@ optional
 PinningTelemetryInfo
 *
 pinningTelemetryInfo
+=
+nullptr
+/
+*
+optional
+*
+/
+CRLiteTelemetryInfo
+*
+crliteTelemetryInfo
 =
 nullptr
 /
@@ -1855,6 +1867,9 @@ mNetscapeStepUpPolicy
 DistrustedCAPolicy
 mDistrustedCAPolicy
 ;
+CRLiteMode
+mCRLiteMode
+;
 bool
 mSawDistrustedCAByPolicyError
 ;
@@ -1932,6 +1947,10 @@ owning
 PinningTelemetryInfo
 *
 mPinningTelemetryInfo
+;
+CRLiteTelemetryInfo
+*
+mCRLiteTelemetryInfo
 ;
 const
 char

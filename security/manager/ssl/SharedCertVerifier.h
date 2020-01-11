@@ -158,6 +158,8 @@ CertificateTransparencyMode
 ctMode
 DistrustedCAPolicy
 distrustedCAPolicy
+CRLiteMode
+crliteMode
 const
 Vector
 <
@@ -186,6 +188,7 @@ nameMatchingMode
 netscapeStepUpPolicy
 ctMode
 distrustedCAPolicy
+crliteMode
 thirdPartyCerts
 )
 {
