@@ -1506,7 +1506,7 @@ RenderTextureHost
 *
 GetRenderTexture
 (
-WrExternalImageId
+ExternalImageId
 aExternalImageId
 )
 ;
