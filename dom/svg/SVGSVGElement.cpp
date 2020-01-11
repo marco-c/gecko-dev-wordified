@@ -2854,11 +2854,6 @@ if
 WillBeOutermostSVG
 (
 aParent
-aContext
-.
-GetBindingParent
-(
-)
 )
 )
 {
@@ -3758,9 +3753,6 @@ WillBeOutermostSVG
 nsINode
 &
 aParent
-Element
-*
-aBindingParent
 )
 const
 {
@@ -3768,10 +3760,6 @@ nsINode
 *
 parent
 =
-aBindingParent
-?
-aBindingParent
-:
 &
 aParent
 ;
@@ -3846,7 +3834,7 @@ parent
 parent
 -
 >
-GetParent
+GetParentOrShadowHostNode
 (
 )
 ;
