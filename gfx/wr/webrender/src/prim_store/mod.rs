@@ -6375,10 +6375,11 @@ surface_index
 .
 render_tasks
 .
-expect
+unwrap_or_else
 (
-&
-format
+|
+|
+panic
 !
 (
 "
