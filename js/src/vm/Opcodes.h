@@ -186,7 +186,6 @@ define
 MACRO
 (
 op
-val
 name
 token
 length
@@ -253,16 +252,6 @@ the
 JSOp
 enumerator
 name
-*
-value
-Bytecode
-value
-which
-is
-the
-JSOp
-enumerator
-value
 *
 name
 C
@@ -508,7 +497,6 @@ Stack
 MACRO
 (
 JSOP_NOP
-0
 "
 nop
 "
@@ -554,7 +542,6 @@ undefined
 MACRO
 (
 JSOP_UNDEFINED
-1
 js_undefined_str
 "
 "
@@ -603,7 +590,6 @@ rval
 MACRO
 (
 JSOP_GETRVAL
-2
 "
 getrval
 "
@@ -699,7 +685,6 @@ val
 MACRO
 (
 JSOP_ENTERWITH
-3
 "
 enterwith
 "
@@ -746,7 +731,6 @@ Stack
 MACRO
 (
 JSOP_LEAVEWITH
-4
 "
 leavewith
 "
@@ -806,7 +790,6 @@ rval
 MACRO
 (
 JSOP_RETURN
-5
 "
 return
 "
@@ -857,7 +840,6 @@ Stack
 MACRO
 (
 JSOP_GOTO
-6
 "
 goto
 "
@@ -961,7 +943,6 @@ cond
 MACRO
 (
 JSOP_IFEQ
-7
 "
 ifeq
 "
@@ -1036,7 +1017,6 @@ cond
 MACRO
 (
 JSOP_IFNE
-8
 "
 ifne
 "
@@ -1136,7 +1116,6 @@ arguments
 MACRO
 (
 JSOP_ARGUMENTS
-9
 "
 arguments
 "
@@ -1200,7 +1179,6 @@ v1
 MACRO
 (
 JSOP_SWAP
-10
 "
 swap
 "
@@ -1272,7 +1250,6 @@ n
 MACRO
 (
 JSOP_POPN
-11
 "
 popn
 "
@@ -1325,7 +1302,6 @@ v
 MACRO
 (
 JSOP_DUP
-12
 "
 dup
 "
@@ -1378,7 +1354,6 @@ v2
 MACRO
 (
 JSOP_DUP2
-13
 "
 dup2
 "
@@ -1454,7 +1429,6 @@ result
 MACRO
 (
 JSOP_CHECKISOBJ
-14
 "
 checkisobj
 "
@@ -1540,7 +1514,6 @@ rval
 MACRO
 (
 JSOP_BITOR
-15
 "
 bitor
 "
@@ -1558,7 +1531,6 @@ JOF_IC
 MACRO
 (
 JSOP_BITXOR
-16
 "
 bitxor
 "
@@ -1576,7 +1548,6 @@ JOF_IC
 MACRO
 (
 JSOP_BITAND
-17
 "
 bitand
 "
@@ -1642,7 +1613,6 @@ rval
 MACRO
 (
 JSOP_EQ
-18
 "
 eq
 "
@@ -1663,7 +1633,6 @@ JOF_IC
 MACRO
 (
 JSOP_NE
-19
 "
 ne
 "
@@ -1684,7 +1653,6 @@ JOF_IC
 MACRO
 (
 JSOP_LT
-20
 "
 lt
 "
@@ -1702,7 +1670,6 @@ JOF_IC
 MACRO
 (
 JSOP_LE
-21
 "
 le
 "
@@ -1721,7 +1688,6 @@ JOF_IC
 MACRO
 (
 JSOP_GT
-22
 "
 gt
 "
@@ -1739,7 +1705,6 @@ JOF_IC
 MACRO
 (
 JSOP_GE
-23
 "
 ge
 "
@@ -1818,7 +1783,6 @@ rval
 MACRO
 (
 JSOP_LSH
-24
 "
 lsh
 "
@@ -1837,7 +1801,6 @@ JOF_IC
 MACRO
 (
 JSOP_RSH
-25
 "
 rsh
 "
@@ -1916,7 +1879,6 @@ rval
 MACRO
 (
 JSOP_URSH
-26
 "
 ursh
 "
@@ -1994,7 +1956,6 @@ rval
 MACRO
 (
 JSOP_ADD
-27
 "
 add
 "
@@ -2071,7 +2032,6 @@ rval
 MACRO
 (
 JSOP_SUB
-28
 "
 sub
 "
@@ -2089,7 +2049,6 @@ JOF_IC
 MACRO
 (
 JSOP_MUL
-29
 "
 mul
 "
@@ -2107,7 +2066,6 @@ JOF_IC
 MACRO
 (
 JSOP_DIV
-30
 "
 div
 "
@@ -2125,7 +2083,6 @@ JOF_IC
 MACRO
 (
 JSOP_MOD
-31
 "
 mod
 "
@@ -2188,7 +2145,6 @@ val
 MACRO
 (
 JSOP_NOT
-32
 "
 not
 "
@@ -2254,7 +2210,6 @@ val
 MACRO
 (
 JSOP_BITNOT
-33
 "
 bitnot
 "
@@ -2317,7 +2272,6 @@ val
 MACRO
 (
 JSOP_NEG
-34
 "
 neg
 "
@@ -2395,7 +2349,6 @@ val
 MACRO
 (
 JSOP_POS
-35
 "
 pos
 "
@@ -2498,7 +2451,6 @@ succeeded
 MACRO
 (
 JSOP_DELNAME
-36
 "
 delname
 "
@@ -2570,7 +2522,6 @@ succeeded
 MACRO
 (
 JSOP_DELPROP
-37
 "
 delprop
 "
@@ -2657,7 +2608,6 @@ succeeded
 MACRO
 (
 JSOP_DELELEM
-38
 "
 delelem
 "
@@ -2720,7 +2670,6 @@ val
 MACRO
 (
 JSOP_TYPEOF
-39
 js_typeof_str
 NULL
 1
@@ -2775,7 +2724,6 @@ undefined
 MACRO
 (
 JSOP_VOID
-40
 js_void_str
 NULL
 1
@@ -2856,7 +2804,6 @@ rval
 MACRO
 (
 JSOP_SPREADCALL
-41
 "
 spreadcall
 "
@@ -2934,7 +2881,6 @@ rval
 MACRO
 (
 JSOP_SPREADNEW
-42
 "
 spreadnew
 "
@@ -3037,7 +2983,6 @@ rval
 MACRO
 (
 JSOP_SPREADEVAL
-43
 "
 spreadeval
 "
@@ -3143,7 +3088,6 @@ n
 MACRO
 (
 JSOP_DUPAT
-44
 "
 dupat
 "
@@ -3206,7 +3150,6 @@ symbol
 MACRO
 (
 JSOP_SYMBOL
-45
 "
 symbol
 "
@@ -3284,7 +3227,6 @@ succeeded
 MACRO
 (
 JSOP_STRICTDELPROP
-46
 "
 strict
 -
@@ -3382,7 +3324,6 @@ succeeded
 MACRO
 (
 JSOP_STRICTDELELEM
-47
 "
 strict
 -
@@ -3482,7 +3423,6 @@ val
 MACRO
 (
 JSOP_STRICTSETPROP
-48
 "
 strict
 -
@@ -3577,7 +3517,6 @@ val
 MACRO
 (
 JSOP_STRICTSETNAME
-49
 "
 strict
 -
@@ -3686,7 +3625,6 @@ rval
 MACRO
 (
 JSOP_STRICTSPREADEVAL
-50
 "
 strict
 -
@@ -3753,7 +3691,6 @@ heritage
 MACRO
 (
 JSOP_CHECKCLASSHERITAGE
-51
 "
 checkclassheritage
 "
@@ -3812,7 +3749,6 @@ obj
 MACRO
 (
 JSOP_FUNWITHPROTO
-52
 "
 funwithproto
 "
@@ -3870,7 +3806,6 @@ name
 MACRO
 (
 JSOP_GETPROP
-53
 "
 getprop
 "
@@ -3953,7 +3888,6 @@ val
 MACRO
 (
 JSOP_SETPROP
-54
 "
 setprop
 "
@@ -4036,7 +3970,6 @@ propval
 MACRO
 (
 JSOP_GETELEM
-55
 "
 getelem
 "
@@ -4124,7 +4057,6 @@ val
 MACRO
 (
 JSOP_SETELEM
-56
 "
 setelem
 "
@@ -4229,7 +4161,6 @@ val
 MACRO
 (
 JSOP_STRICTSETELEM
-57
 "
 strict
 -
@@ -4324,7 +4255,6 @@ argc
 MACRO
 (
 JSOP_CALL
-58
 "
 call
 "
@@ -4389,7 +4319,6 @@ val
 MACRO
 (
 JSOP_GETNAME
-59
 "
 getname
 "
@@ -4442,7 +4371,6 @@ val
 MACRO
 (
 JSOP_DOUBLE
-60
 "
 double
 "
@@ -4489,7 +4417,6 @@ atom
 MACRO
 (
 JSOP_STRING
-61
 "
 string
 "
@@ -4535,7 +4462,6 @@ Stack
 MACRO
 (
 JSOP_ZERO
-62
 "
 zero
 "
@@ -4583,7 +4509,6 @@ Stack
 MACRO
 (
 JSOP_ONE
-63
 "
 one
 "
@@ -4631,7 +4556,6 @@ null
 MACRO
 (
 JSOP_NULL
-64
 js_null_str
 js_null_str
 1
@@ -4671,7 +4595,6 @@ JS_IS_CONSTRUCTING
 MACRO
 (
 JSOP_IS_CONSTRUCTING
-65
 "
 is
 -
@@ -4720,7 +4643,6 @@ false
 MACRO
 (
 JSOP_FALSE
-66
 js_false_str
 js_false_str
 1
@@ -4732,7 +4654,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_TRUE
-67
 js_true_str
 js_true_str
 1
@@ -4800,7 +4721,6 @@ cond
 MACRO
 (
 JSOP_OR
-68
 "
 or
 "
@@ -4874,7 +4794,6 @@ cond
 MACRO
 (
 JSOP_AND
-69
 "
 and
 "
@@ -4998,7 +4917,6 @@ len
 MACRO
 (
 JSOP_TABLESWITCH
-70
 "
 tableswitch
 "
@@ -5019,7 +4937,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_UNUSED71
-71
 "
 unused71
 "
@@ -5086,7 +5003,6 @@ rval
 MACRO
 (
 JSOP_STRICTEQ
-72
 "
 stricteq
 "
@@ -5108,7 +5024,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTNE
-73
 "
 strictne
 "
@@ -5175,7 +5090,6 @@ Stack
 MACRO
 (
 JSOP_THROWMSG
-74
 "
 throwmsg
 "
@@ -5251,7 +5165,6 @@ iter
 MACRO
 (
 JSOP_ITER
-75
 "
 iter
 "
@@ -5318,7 +5231,6 @@ val
 MACRO
 (
 JSOP_MOREITER
-76
 "
 moreiter
 "
@@ -5380,7 +5292,6 @@ res
 MACRO
 (
 JSOP_ISNOITER
-77
 "
 isnoiter
 "
@@ -5447,7 +5358,6 @@ iterval
 MACRO
 (
 JSOP_ENDITER
-78
 "
 enditer
 "
@@ -5541,7 +5451,6 @@ argc
 MACRO
 (
 JSOP_FUNAPPLY
-79
 "
 funapply
 "
@@ -5600,7 +5509,6 @@ obj
 MACRO
 (
 JSOP_OBJECT
-80
 "
 object
 "
@@ -5647,7 +5555,6 @@ v
 MACRO
 (
 JSOP_POP
-81
 "
 pop
 "
@@ -5734,7 +5641,6 @@ argc
 MACRO
 (
 JSOP_NEW
-82
 "
 new
 "
@@ -5797,7 +5703,6 @@ obj
 MACRO
 (
 JSOP_OBJWITHPROTO
-83
 "
 objwithproto
 "
@@ -5865,7 +5770,6 @@ argno
 MACRO
 (
 JSOP_GETARG
-84
 "
 getarg
 "
@@ -5936,7 +5840,6 @@ v
 MACRO
 (
 JSOP_SETARG
-85
 "
 setarg
 "
@@ -5991,7 +5894,6 @@ val
 MACRO
 (
 JSOP_GETLOCAL
-86
 "
 getlocal
 "
@@ -6047,7 +5949,6 @@ v
 MACRO
 (
 JSOP_SETLOCAL
-87
 "
 setlocal
 "
@@ -6104,7 +6005,6 @@ val
 MACRO
 (
 JSOP_UINT16
-88
 "
 uint16
 "
@@ -6173,7 +6073,6 @@ obj
 MACRO
 (
 JSOP_NEWINIT
-89
 "
 newinit
 "
@@ -6235,7 +6134,6 @@ obj
 MACRO
 (
 JSOP_NEWARRAY
-90
 "
 newarray
 "
@@ -6352,7 +6250,6 @@ obj
 MACRO
 (
 JSOP_NEWOBJECT
-91
 "
 newobject
 "
@@ -6431,7 +6328,6 @@ fun
 MACRO
 (
 JSOP_INITHOMEOBJECT
-92
 "
 inithomeobject
 "
@@ -6530,7 +6426,6 @@ obj
 MACRO
 (
 JSOP_INITPROP
-93
 "
 initprop
 "
@@ -6639,7 +6534,6 @@ obj
 MACRO
 (
 JSOP_INITELEM
-94
 "
 initelem
 "
@@ -6757,7 +6651,6 @@ index
 MACRO
 (
 JSOP_INITELEM_INC
-95
 "
 initelem_inc
 "
@@ -6850,7 +6743,6 @@ obj
 MACRO
 (
 JSOP_INITELEM_ARRAY
-96
 "
 initelem_array
 "
@@ -6945,7 +6837,6 @@ obj
 MACRO
 (
 JSOP_INITPROP_GETTER
-97
 "
 initprop_getter
 "
@@ -7038,7 +6929,6 @@ obj
 MACRO
 (
 JSOP_INITPROP_SETTER
-98
 "
 initprop_setter
 "
@@ -7149,7 +7039,6 @@ obj
 MACRO
 (
 JSOP_INITELEM_GETTER
-99
 "
 initelem_getter
 "
@@ -7261,7 +7150,6 @@ obj
 MACRO
 (
 JSOP_INITELEM_SETTER
-100
 "
 initelem_setter
 "
@@ -7350,7 +7238,6 @@ obj
 MACRO
 (
 JSOP_CALLSITEOBJ
-101
 "
 callsiteobj
 "
@@ -7417,7 +7304,6 @@ obj
 MACRO
 (
 JSOP_NEWARRAY_COPYONWRITE
-102
 "
 newarray_copyonwrite
 "
@@ -7474,7 +7360,6 @@ homeObjectProto
 MACRO
 (
 JSOP_SUPERBASE
-103
 "
 superbase
 "
@@ -7538,7 +7423,6 @@ name
 MACRO
 (
 JSOP_GETPROP_SUPER
-104
 "
 getprop
 -
@@ -7646,7 +7530,6 @@ val
 MACRO
 (
 JSOP_STRICTSETPROP_SUPER
-105
 "
 strictsetprop
 -
@@ -7675,7 +7558,6 @@ JOF_CHECKSTRICT
 MACRO
 (
 JSOP_UNUSED106
-106
 "
 unused
 "
@@ -7756,7 +7638,6 @@ val
 MACRO
 (
 JSOP_SETPROP_SUPER
-107
 "
 setprop
 -
@@ -7925,7 +7806,6 @@ argc
 MACRO
 (
 JSOP_FUNCALL
-108
 "
 funcall
 "
@@ -8023,7 +7903,6 @@ Stack
 MACRO
 (
 JSOP_LOOPHEAD
-109
 "
 loophead
 "
@@ -8097,7 +7976,6 @@ env
 MACRO
 (
 JSOP_BINDNAME
-110
 "
 bindname
 "
@@ -8168,7 +8046,6 @@ val
 MACRO
 (
 JSOP_SETNAME
-111
 "
 setname
 "
@@ -8239,7 +8116,6 @@ v
 MACRO
 (
 JSOP_THROW
-112
 js_throw_str
 NULL
 1
@@ -8334,7 +8210,6 @@ obj
 MACRO
 (
 JSOP_IN
-113
 js_in_str
 js_in_str
 1
@@ -8420,7 +8295,6 @@ ctor
 MACRO
 (
 JSOP_INSTANCEOF
-114
 js_instanceof_str
 js_instanceof_str
 1
@@ -8460,7 +8334,6 @@ Stack
 MACRO
 (
 JSOP_DEBUGGER
-115
 "
 debugger
 "
@@ -8615,7 +8488,6 @@ resumeIndex
 MACRO
 (
 JSOP_GOSUB
-116
 "
 gosub
 "
@@ -8720,7 +8592,6 @@ rval
 MACRO
 (
 JSOP_RETSUB
-117
 "
 retsub
 "
@@ -8814,7 +8685,6 @@ exception
 MACRO
 (
 JSOP_EXCEPTION
-118
 "
 exception
 "
@@ -8861,7 +8731,6 @@ Stack
 MACRO
 (
 JSOP_LINENO
-119
 "
 lineno
 "
@@ -8880,7 +8749,6 @@ JOF_UINT32
 MACRO
 (
 JSOP_UNUSED120
-120
 "
 unused
 "
@@ -8980,7 +8848,6 @@ cond
 MACRO
 (
 JSOP_CASE
-121
 "
 case
 "
@@ -9074,7 +8941,6 @@ lval
 MACRO
 (
 JSOP_DEFAULT
-122
 "
 default
 "
@@ -9186,7 +9052,6 @@ argc
 MACRO
 (
 JSOP_EVAL
-123
 "
 eval
 "
@@ -9307,7 +9172,6 @@ argc
 MACRO
 (
 JSOP_STRICTEVAL
-124
 "
 strict
 -
@@ -9379,7 +9243,6 @@ propval
 MACRO
 (
 JSOP_GETELEM_SUPER
-125
 "
 getelem
 -
@@ -9480,7 +9343,6 @@ resumeIndex
 MACRO
 (
 JSOP_RESUMEINDEX
-126
 "
 resume
 -
@@ -9556,7 +9418,6 @@ fun
 MACRO
 (
 JSOP_DEFFUN
-127
 "
 deffun
 "
@@ -9638,7 +9499,6 @@ Stack
 MACRO
 (
 JSOP_DEFCONST
-128
 "
 defconst
 "
@@ -9761,7 +9621,6 @@ Stack
 MACRO
 (
 JSOP_DEFVAR
-129
 "
 defvar
 "
@@ -9816,7 +9675,6 @@ obj
 MACRO
 (
 JSOP_LAMBDA
-130
 "
 lambda
 "
@@ -9887,7 +9745,6 @@ obj
 MACRO
 (
 JSOP_LAMBDA_ARROW
-131
 "
 lambda_arrow
 "
@@ -9947,7 +9804,6 @@ callee
 MACRO
 (
 JSOP_CALLEE
-132
 "
 callee
 "
@@ -10047,7 +9903,6 @@ n
 MACRO
 (
 JSOP_PICK
-133
 "
 pick
 "
@@ -10127,7 +9982,6 @@ Stack
 MACRO
 (
 JSOP_TRY
-134
 "
 try
 "
@@ -10193,7 +10047,6 @@ resumeIndex
 MACRO
 (
 JSOP_FINALLY
-135
 "
 finally
 "
@@ -10367,7 +10220,6 @@ aliasedVar
 MACRO
 (
 JSOP_GETALIASEDVAR
-136
 "
 getaliasedvar
 "
@@ -10429,7 +10281,6 @@ v
 MACRO
 (
 JSOP_SETALIASEDVAR
-137
 "
 setaliasedvar
 "
@@ -10496,7 +10347,6 @@ Stack
 MACRO
 (
 JSOP_CHECKLEXICAL
-138
 "
 checklexical
 "
@@ -10556,7 +10406,6 @@ v
 MACRO
 (
 JSOP_INITLEXICAL
-139
 "
 initlexical
 "
@@ -10623,7 +10472,6 @@ Stack
 MACRO
 (
 JSOP_CHECKALIASEDLEXICAL
-140
 "
 checkaliasedlexical
 "
@@ -10685,7 +10533,6 @@ v
 MACRO
 (
 JSOP_INITALIASEDLEXICAL
-141
 "
 initaliasedlexical
 "
@@ -10754,7 +10601,6 @@ uninitialized
 MACRO
 (
 JSOP_UNINITIALIZED
-142
 "
 uninitialized
 "
@@ -10867,7 +10713,6 @@ name
 MACRO
 (
 JSOP_GETINTRINSIC
-143
 "
 getintrinsic
 "
@@ -10926,7 +10771,6 @@ val
 MACRO
 (
 JSOP_SETINTRINSIC
-144
 "
 setintrinsic
 "
@@ -11001,7 +10845,6 @@ nuses
 MACRO
 (
 JSOP_CALLITER
-145
 "
 calliter
 "
@@ -11109,7 +10952,6 @@ obj
 MACRO
 (
 JSOP_INITLOCKEDPROP
-146
 "
 initlockedprop
 "
@@ -11211,7 +11053,6 @@ obj
 MACRO
 (
 JSOP_INITHIDDENPROP
-147
 "
 inithiddenprop
 "
@@ -11267,7 +11108,6 @@ target
 MACRO
 (
 JSOP_NEWTARGET
-148
 "
 newtarget
 "
@@ -11286,7 +11126,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_UNUSED149
-149
 "
 unused149
 "
@@ -11363,7 +11202,6 @@ rval
 MACRO
 (
 JSOP_POW
-150
 "
 pow
 "
@@ -11475,7 +11313,6 @@ promise
 MACRO
 (
 JSOP_ASYNCAWAIT
-151
 "
 async
 -
@@ -11538,7 +11375,6 @@ rval
 MACRO
 (
 JSOP_SETRVAL
-152
 "
 setrval
 "
@@ -11618,7 +11454,6 @@ Stack
 MACRO
 (
 JSOP_RETRVAL
-153
 "
 retrval
 "
@@ -11713,7 +11548,6 @@ val
 MACRO
 (
 JSOP_GETGNAME
-154
 "
 getgname
 "
@@ -11832,7 +11666,6 @@ val
 MACRO
 (
 JSOP_SETGNAME
-155
 "
 setgname
 "
@@ -11968,7 +11801,6 @@ val
 MACRO
 (
 JSOP_STRICTSETGNAME
-156
 "
 strict
 -
@@ -12119,7 +11951,6 @@ this
 MACRO
 (
 JSOP_GIMPLICITTHIS
-157
 "
 gimplicitthis
 "
@@ -12180,7 +12011,6 @@ val
 MACRO
 (
 JSOP_SETELEM_SUPER
-158
 "
 setelem
 -
@@ -12250,7 +12080,6 @@ val
 MACRO
 (
 JSOP_STRICTSETELEM_SUPER
-159
 "
 strict
 -
@@ -12322,7 +12151,6 @@ regexp
 MACRO
 (
 JSOP_REGEXP
-160
 "
 regexp
 "
@@ -12380,7 +12208,6 @@ val
 MACRO
 (
 JSOP_INITGLEXICAL
-161
 "
 initglexical
 "
@@ -12470,7 +12297,6 @@ Stack
 MACRO
 (
 JSOP_DEFLET
-162
 "
 deflet
 "
@@ -12534,7 +12360,6 @@ val
 MACRO
 (
 JSOP_CHECKOBJCOERCIBLE
-163
 "
 checkobjcoercible
 "
@@ -12602,7 +12427,6 @@ superFun
 MACRO
 (
 JSOP_SUPERFUN
-164
 "
 superfun
 "
@@ -12680,7 +12504,6 @@ argc
 MACRO
 (
 JSOP_SUPERCALL
-165
 "
 supercall
 "
@@ -12741,7 +12564,6 @@ rval
 MACRO
 (
 JSOP_SPREADSUPERCALL
-166
 "
 spreadsupercall
 "
@@ -12831,7 +12653,6 @@ constructor
 MACRO
 (
 JSOP_CLASSCONSTRUCTOR
-167
 "
 classconstructor
 "
@@ -12916,7 +12737,6 @@ constructor
 MACRO
 (
 JSOP_DERIVEDCONSTRUCTOR
-168
 "
 derivedconstructor
 "
@@ -12982,7 +12802,6 @@ v
 MACRO
 (
 JSOP_THROWSETCONST
-169
 "
 throwsetconst
 "
@@ -13055,7 +12874,6 @@ v
 MACRO
 (
 JSOP_THROWSETALIASEDCONST
-170
 "
 throwsetaliasedconst
 "
@@ -13149,7 +12967,6 @@ obj
 MACRO
 (
 JSOP_INITHIDDENPROP_GETTER
-171
 "
 inithiddenprop_getter
 "
@@ -13245,7 +13062,6 @@ obj
 MACRO
 (
 JSOP_INITHIDDENPROP_SETTER
-172
 "
 inithiddenprop_setter
 "
@@ -13359,7 +13175,6 @@ obj
 MACRO
 (
 JSOP_INITHIDDENELEM_GETTER
-173
 "
 inithiddenelem_getter
 "
@@ -13474,7 +13289,6 @@ obj
 MACRO
 (
 JSOP_INITHIDDENELEM_SETTER
-174
 "
 inithiddenelem_setter
 "
@@ -13585,7 +13399,6 @@ obj
 MACRO
 (
 JSOP_INITHIDDENELEM
-175
 "
 inithiddenelem
 "
@@ -13651,7 +13464,6 @@ val
 MACRO
 (
 JSOP_GETIMPORT
-176
 "
 getimport
 "
@@ -13728,7 +13540,6 @@ checkVal
 MACRO
 (
 JSOP_DEBUGCHECKSELFHOSTED
-177
 "
 debug
 -
@@ -13800,7 +13611,6 @@ optimized
 MACRO
 (
 JSOP_OPTIMIZE_SPREADCALL
-178
 "
 optimize
 -
@@ -13904,7 +13714,6 @@ v
 MACRO
 (
 JSOP_THROWSETCALLEE
-179
 "
 throwsetcallee
 "
@@ -13955,7 +13764,6 @@ Stack
 MACRO
 (
 JSOP_PUSHVARENV
-180
 "
 pushvarenv
 "
@@ -14004,7 +13812,6 @@ Stack
 MACRO
 (
 JSOP_POPVARENV
-181
 "
 popvarenv
 "
@@ -14089,7 +13896,6 @@ fun
 MACRO
 (
 JSOP_SETFUNNAME
-182
 "
 setfunname
 "
@@ -14195,7 +14001,6 @@ v
 MACRO
 (
 JSOP_UNPICK
-183
 "
 unpick
 "
@@ -14279,7 +14084,6 @@ name
 MACRO
 (
 JSOP_CALLPROP
-184
 "
 callprop
 "
@@ -14356,7 +14160,6 @@ this
 MACRO
 (
 JSOP_FUNCTIONTHIS
-185
 "
 functionthis
 "
@@ -14423,7 +14226,6 @@ this
 MACRO
 (
 JSOP_GLOBALTHIS
-186
 "
 globalthis
 "
@@ -14483,7 +14285,6 @@ res
 MACRO
 (
 JSOP_ISGENCLOSING
-187
 "
 isgenclosing
 "
@@ -14536,7 +14337,6 @@ val
 MACRO
 (
 JSOP_UINT24
-188
 "
 uint24
 "
@@ -14598,7 +14398,6 @@ this
 MACRO
 (
 JSOP_CHECKTHIS
-189
 "
 checkthis
 "
@@ -14680,7 +14479,6 @@ this
 MACRO
 (
 JSOP_CHECKRETURN
-190
 "
 checkreturn
 "
@@ -14745,7 +14543,6 @@ this
 MACRO
 (
 JSOP_CHECKTHISREINIT
-191
 "
 checkthisreinit
 "
@@ -14844,7 +14641,6 @@ promise
 MACRO
 (
 JSOP_ASYNCRESOLVE
-192
 "
 async
 -
@@ -14945,7 +14741,6 @@ propval
 MACRO
 (
 JSOP_CALLELEM
-193
 "
 callelem
 "
@@ -15046,7 +14841,6 @@ succeeded
 MACRO
 (
 JSOP_MUTATEPROTO
-194
 "
 mutateproto
 "
@@ -15121,7 +14915,6 @@ v
 MACRO
 (
 JSOP_GETBOUNDNAME
-195
 "
 getboundname
 "
@@ -15234,7 +15027,6 @@ val
 MACRO
 (
 JSOP_TYPEOFEXPR
-196
 "
 typeofexpr
 "
@@ -15351,7 +15143,6 @@ Stack
 MACRO
 (
 JSOP_FRESHENLEXICALENV
-197
 "
 freshenlexicalenv
 "
@@ -15446,7 +15237,6 @@ Stack
 MACRO
 (
 JSOP_RECREATELEXICALENV
-198
 "
 recreatelexicalenv
 "
@@ -15498,7 +15288,6 @@ Stack
 MACRO
 (
 JSOP_PUSHLEXICALENV
-199
 "
 pushlexicalenv
 "
@@ -15548,7 +15337,6 @@ Stack
 MACRO
 (
 JSOP_POPLEXICALENV
-200
 "
 poplexicalenv
 "
@@ -15592,7 +15380,6 @@ Stack
 MACRO
 (
 JSOP_DEBUGLEAVELEXICALENV
-201
 "
 debugleavelexicalenv
 "
@@ -15649,7 +15436,6 @@ generator
 MACRO
 (
 JSOP_INITIALYIELD
-202
 "
 initialyield
 "
@@ -15723,7 +15509,6 @@ rval2
 MACRO
 (
 JSOP_YIELD
-203
 "
 yield
 "
@@ -15783,7 +15568,6 @@ gen
 MACRO
 (
 JSOP_FINALYIELDRVAL
-204
 "
 finalyieldrval
 "
@@ -15861,7 +15645,6 @@ rval
 MACRO
 (
 JSOP_RESUME
-205
 "
 resume
 "
@@ -15935,7 +15718,6 @@ callee
 MACRO
 (
 JSOP_ENVCALLEE
-206
 "
 envcallee
 "
@@ -16003,7 +15785,6 @@ Stack
 MACRO
 (
 JSOP_FORCEINTERPRETER
-207
 "
 forceinterpreter
 "
@@ -16091,7 +15872,6 @@ Stack
 MACRO
 (
 JSOP_AFTERYIELD
-208
 "
 afteryield
 "
@@ -16159,7 +15939,6 @@ resolved
 MACRO
 (
 JSOP_AWAIT
-209
 "
 await
 "
@@ -16230,7 +16009,6 @@ asynciter
 MACRO
 (
 JSOP_TOASYNCITER
-210
 "
 toasynciter
 "
@@ -16312,7 +16090,6 @@ id
 MACRO
 (
 JSOP_HASOWN
-211
 "
 hasown
 "
@@ -16366,7 +16143,6 @@ generator
 MACRO
 (
 JSOP_GENERATOR
-212
 "
 generator
 "
@@ -16415,7 +16191,6 @@ env
 MACRO
 (
 JSOP_BINDVAR
-213
 "
 bindvar
 "
@@ -16499,7 +16274,6 @@ global
 MACRO
 (
 JSOP_BINDGNAME
-214
 "
 bindgname
 "
@@ -16557,7 +16331,6 @@ val
 MACRO
 (
 JSOP_INT8
-215
 "
 int8
 "
@@ -16609,7 +16382,6 @@ val
 MACRO
 (
 JSOP_INT32
-216
 "
 int32
 "
@@ -16674,7 +16446,6 @@ length
 MACRO
 (
 JSOP_LENGTH
-217
 "
 length
 "
@@ -16762,7 +16533,6 @@ hole
 MACRO
 (
 JSOP_HOLE
-218
 "
 hole
 "
@@ -16837,7 +16607,6 @@ obj
 MACRO
 (
 JSOP_CHECKISCALLABLE
-219
 "
 checkiscallable
 "
@@ -16895,7 +16664,6 @@ Stack
 MACRO
 (
 JSOP_TRY_DESTRUCTURING
-220
 "
 try
 -
@@ -16953,7 +16721,6 @@ BuiltinPrototype
 MACRO
 (
 JSOP_BUILTINPROTO
-221
 "
 builtinproto
 "
@@ -17017,7 +16784,6 @@ val
 MACRO
 (
 JSOP_ITERNEXT
-222
 "
 iternext
 "
@@ -17126,7 +16892,6 @@ canskip
 MACRO
 (
 JSOP_TRYSKIPAWAIT
-223
 "
 tryskipawait
 "
@@ -17182,7 +16947,6 @@ rest
 MACRO
 (
 JSOP_REST
-224
 "
 rest
 "
@@ -17241,7 +17005,6 @@ propertyKey
 MACRO
 (
 JSOP_TOID
-225
 "
 toid
 "
@@ -17301,7 +17064,6 @@ this
 MACRO
 (
 JSOP_IMPLICITTHIS
-226
 "
 implicitthis
 "
@@ -17321,7 +17083,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_UNUSED227
-227
 "
 unused
 "
@@ -17372,7 +17133,6 @@ val
 MACRO
 (
 JSOP_TOSTRING
-228
 "
 tostring
 "
@@ -17422,7 +17182,6 @@ Stack
 MACRO
 (
 JSOP_NOP_DESTRUCTURING
-229
 "
 nop
 -
@@ -17501,7 +17260,6 @@ Stack
 MACRO
 (
 JSOP_JUMPTARGET
-230
 "
 jumptarget
 "
@@ -17580,7 +17338,6 @@ argc
 MACRO
 (
 JSOP_CALL_IGNORES_RV
-231
 "
 call
 -
@@ -17639,7 +17396,6 @@ meta
 MACRO
 (
 JSOP_IMPORTMETA
-232
 "
 importmeta
 "
@@ -17698,7 +17454,6 @@ rval
 MACRO
 (
 JSOP_DYNAMIC_IMPORT
-233
 "
 call
 -
@@ -17762,7 +17517,6 @@ val
 MACRO
 (
 JSOP_INC
-234
 "
 inc
 "
@@ -17826,7 +17580,6 @@ val
 MACRO
 (
 JSOP_DEC
-235
 "
 dec
 "
@@ -17889,7 +17642,6 @@ val
 MACRO
 (
 JSOP_TONUMERIC
-236
 "
 tonumeric
 "
@@ -17936,7 +17688,6 @@ val
 MACRO
 (
 JSOP_BIGINT
-237
 "
 bigint
 "
@@ -17978,7 +17729,6 @@ val
 MACRO
 (
 JSOP_INSTRUMENTATION_ACTIVE
-238
 "
 instrumentationActive
 "
@@ -18020,7 +17770,6 @@ val
 MACRO
 (
 JSOP_INSTRUMENTATION_CALLBACK
-239
 "
 instrumentationCallback
 "
@@ -18062,7 +17811,6 @@ val
 MACRO
 (
 JSOP_INSTRUMENTATION_SCRIPT_ID
-240
 "
 instrumentationScriptId
 "
@@ -18129,7 +17877,6 @@ cond
 MACRO
 (
 JSOP_COALESCE
-241
 "
 coalesce
 "
@@ -18224,7 +17971,6 @@ obj
 MACRO
 (
 JSOP_NEWOBJECT_WITHGROUP
-242
 "
 newobjectwithgroup
 "
@@ -18399,25 +18145,15 @@ format
 off
 #
 define
-VALUE_AND_VALUE_PLUS_ONE
+PLUS_ONE
 (
-op
-val
 .
 .
 .
 )
 \
-val
-)
-&
-&
-(
-val
 +
 1
-=
-=
 #
 define
 TRAILING_VALUE_AND_VALUE_PLUS_ONE
@@ -18439,12 +18175,12 @@ static_assert
 (
 (
 0
-=
-=
 FOR_EACH_OPCODE
 (
-VALUE_AND_VALUE_PLUS_ONE
+PLUS_ONE
 )
+=
+=
 FOR_EACH_TRAILING_UNUSED_OPCODE
 (
 TRAILING_VALUE_AND_VALUE_PLUS_ONE
@@ -18452,19 +18188,16 @@ TRAILING_VALUE_AND_VALUE_PLUS_ONE
 256
 )
 "
-opcode
-values
-and
 trailing
 unused
 opcode
 values
 monotonically
-"
-"
 increase
+"
+"
 from
-zero
+JSOP_LIMIT
 to
 255
 "
@@ -18475,7 +18208,7 @@ undef
 TRAILING_VALUE_AND_VALUE_PLUS_ONE
 #
 undef
-VALUE_AND_VALUE_PLUS_ONE
+PLUS_ONE
 /
 /
 clang
@@ -18498,7 +18231,6 @@ define
 DEFINE_LENGTH_CONSTANT
 (
 op
-val
 name
 image
 len
