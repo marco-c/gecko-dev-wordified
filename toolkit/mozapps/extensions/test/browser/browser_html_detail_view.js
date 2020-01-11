@@ -1962,7 +1962,7 @@ visibility
 let
 disableButton
 =
-panel
+card
 .
 querySelector
 (
