@@ -1231,6 +1231,10 @@ MPL
 '
 Unlicense
 '
+        
+'
+Zlib
+'
     
 ]
     
@@ -1279,10 +1283,6 @@ Clause
 '
 :
 [
-            
-'
-adler32
-'
             
 '
 bindgen
