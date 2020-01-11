@@ -271,12 +271,6 @@ customizeStart
 (
 )
 ;
-gURLBarHandler
-.
-customizeStart
-(
-)
-;
 }
 _afterCustomization
 (
@@ -407,12 +401,6 @@ focus
 Update
 the
 urlbar
-gURLBarHandler
-.
-customizeEnd
-(
-)
-;
 URLBarSetURI
 (
 )
