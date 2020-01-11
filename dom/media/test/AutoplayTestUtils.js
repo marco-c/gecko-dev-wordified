@@ -201,16 +201,6 @@ pushAutoplayAllowedPermission
 )
 {
 return
-new
-Promise
-(
-(
-resolve
-reject
-)
-=
->
-{
 SpecialPowers
 .
 pushPermissions
@@ -228,10 +218,6 @@ context
 document
 }
 ]
-resolve
-)
-;
-}
 )
 ;
 }
