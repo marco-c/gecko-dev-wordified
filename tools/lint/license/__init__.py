@@ -853,6 +853,10 @@ jsm
 .
 jsx
 '
+'
+.
+css
+'
 ]
 :
         
@@ -966,6 +970,14 @@ in
 .
 py
 '
+'
+.
+ftl
+'
+'
+.
+properties
+'
 ]
 or
 filename
@@ -1034,6 +1046,14 @@ html
 '
 .
 xhtml
+'
+'
+.
+dtd
+'
+'
+.
+svg
 '
 ]
 :
