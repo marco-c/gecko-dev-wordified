@@ -11251,6 +11251,10 @@ code
 .
 if
 (
+!
+isWorker
+&
+&
 value
 =
 =
