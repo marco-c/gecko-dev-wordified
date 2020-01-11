@@ -391,7 +391,12 @@ dialogWin
 .
 document
 .
-documentElement
+getElementById
+(
+"
+bookmarkproperties
+"
+)
 .
 getButton
 (
@@ -602,7 +607,12 @@ dialogWin
 .
 document
 .
-documentElement
+getElementById
+(
+"
+bookmarkproperties
+"
+)
 .
 getButton
 (

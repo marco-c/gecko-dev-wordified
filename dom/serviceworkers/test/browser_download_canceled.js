@@ -521,7 +521,12 @@ win
 .
 document
 .
-documentElement
+getElementById
+(
+"
+unknownContentType
+"
+)
 .
 getButton
 (

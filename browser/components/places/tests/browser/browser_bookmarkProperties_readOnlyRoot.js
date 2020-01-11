@@ -176,7 +176,12 @@ dialogWin
 .
 document
 .
-documentElement
+getElementById
+(
+"
+bookmarkproperties
+"
+)
 .
 getButton
 (

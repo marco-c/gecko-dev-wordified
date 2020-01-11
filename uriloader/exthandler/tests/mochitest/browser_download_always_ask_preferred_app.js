@@ -170,7 +170,12 @@ dlg
 ;
 doc
 .
-documentElement
+getElementById
+(
+"
+unknownContentType
+"
+)
 .
 cancelDialog
 (

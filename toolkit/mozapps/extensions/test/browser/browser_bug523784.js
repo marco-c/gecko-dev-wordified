@@ -309,7 +309,12 @@ win
 .
 document
 .
-documentElement
+getElementById
+(
+"
+BlocklistDialog
+"
+)
 .
 getButton
 (
@@ -595,7 +600,12 @@ win
 .
 document
 .
-documentElement
+getElementById
+(
+"
+BlocklistDialog
+"
+)
 .
 getButton
 (

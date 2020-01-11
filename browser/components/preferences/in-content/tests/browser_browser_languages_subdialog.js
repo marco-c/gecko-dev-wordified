@@ -2325,9 +2325,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-dialogDoc
-.
-documentElement
+dialog
 "
 dialogclosing
 "
@@ -2536,9 +2534,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-dialogDoc
-.
-documentElement
+dialog
 "
 dialogclosing
 "
@@ -3129,9 +3125,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-dialogDoc
-.
-documentElement
+dialog
 "
 dialogclosing
 "
@@ -4047,9 +4041,7 @@ BrowserTestUtils
 .
 waitForEvent
 (
-dialogDoc
-.
-documentElement
+dialog
 "
 dialogclosing
 "
