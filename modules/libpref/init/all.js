@@ -7349,6 +7349,12 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+|
+|
+defined
+(
+RELEASE_OR_BETA
+)
 pref
 (
 "
