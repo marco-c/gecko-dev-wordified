@@ -562,7 +562,9 @@ e
 {
 window
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 .
 getActor
 (

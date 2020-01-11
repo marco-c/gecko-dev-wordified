@@ -11184,7 +11184,9 @@ loginManager
 =
 window
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 .
 getActor
 (

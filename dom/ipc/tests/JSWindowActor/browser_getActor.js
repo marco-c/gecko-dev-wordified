@@ -133,7 +133,11 @@ child
 =
 content
 .
-windowGlobalChild
+window
+.
+getWindowGlobalChild
+(
+)
 ;
 ok
 (

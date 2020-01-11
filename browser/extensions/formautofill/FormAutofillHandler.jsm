@@ -5397,7 +5397,9 @@ actor
 =
 window
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 .
 getActor
 (
