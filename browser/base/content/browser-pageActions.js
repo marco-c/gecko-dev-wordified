@@ -2542,7 +2542,7 @@ urlbar
 -
 search
 -
-icon
+button
 "
 ]
 ;

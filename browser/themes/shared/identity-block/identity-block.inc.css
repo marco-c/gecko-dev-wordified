@@ -199,7 +199,7 @@ start
 #
 urlbar
 .
-searchIcon
+searchButton
 >
 #
 urlbar
@@ -321,7 +321,7 @@ urlbar
 not
 (
 .
-searchIcon
+searchButton
 )
 >
 #
@@ -1203,7 +1203,7 @@ urlbar
 not
 (
 .
-searchIcon
+searchButton
 )
 >
 #

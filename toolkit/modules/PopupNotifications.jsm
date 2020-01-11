@@ -7675,7 +7675,7 @@ urlbar
 -
 search
 -
-icon
+button
 "
 )
 ;
