@@ -210,15 +210,6 @@ servo
 -
 2020
 "
-servo_2020_pref
-=
-"
-layout
-.
-2020
-.
-unimplemented
-"
 animation_value_type
 =
 "
@@ -1285,6 +1276,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 animation_value_type
 =
@@ -1353,6 +1347,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 animation_value_type
 =
@@ -2623,6 +2620,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 gecko_enum_prefix
 =
