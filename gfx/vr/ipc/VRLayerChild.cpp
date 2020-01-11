@@ -752,6 +752,13 @@ mLastFrameTexture
 =
 nullptr
 ;
+mCanvasElement
+-
+>
+ClearVRFrame
+(
+)
+;
 }
 void
 VRLayerChild
