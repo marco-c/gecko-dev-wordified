@@ -3752,11 +3752,18 @@ mk
 .
 create_rule
 (
+                    
 [
+six
+.
+ensure_text
+(
 options
 .
 output
+)
 ]
+                
 )
 .
 add_dependencies
@@ -6382,7 +6389,12 @@ includes
 .
 add
 (
+six
+.
+ensure_text
+(
 abspath
+)
 )
             
 if

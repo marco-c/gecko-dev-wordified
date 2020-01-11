@@ -120,6 +120,8 @@ argparse
 import
 os
 import
+six
+import
 sys
 from
 xpidl
@@ -275,6 +277,16 @@ rule
 .
 add_dependencies
 (
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
+                          
 iter_modules_in_path
 (
 topsrcdir
@@ -421,6 +433,15 @@ rule
 .
 add_dependencies
 (
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
 idl
 .
 deps
@@ -606,7 +627,12 @@ rule
 add_targets
 (
 [
+six
+.
+ensure_text
+(
 xpt_path
+)
 ]
 )
     

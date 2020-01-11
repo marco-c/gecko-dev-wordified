@@ -58,6 +58,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 from
 mozbuild
 .
@@ -79,12 +80,12 @@ import
 main
 import
 os
+from
+six
+import
+StringIO
 import
 unittest
-from
-StringIO
-import
-StringIO
 class
 TestMakefile
 (
@@ -134,10 +135,9 @@ getvalue
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -180,10 +180,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -244,10 +243,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -368,10 +366,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -429,10 +426,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -473,10 +469,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -517,10 +512,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -561,55 +555,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
-)
-        
-rule
-.
-add_dependencies
-(
-[
-'
-qux
-'
-]
-)
-        
-rule
-.
-dump
-(
-out
-)
-        
-self
-.
-assertEqual
-(
-out
-.
-getvalue
-(
-)
-'
-foo
-bar
-:
-baz
-qux
-\
-n
-'
-)
-        
-out
-.
-truncate
-(
-0
 )
         
 rule
@@ -651,10 +599,53 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
+)
+        
+rule
+.
+add_dependencies
+(
+[
+'
+qux
+'
+]
+)
+        
+rule
+.
+dump
+(
+out
+)
+        
+self
+.
+assertEqual
+(
+out
+.
+getvalue
+(
+)
+'
+foo
+bar
+:
+baz
+qux
+\
+n
+'
+)
+        
+out
+=
+StringIO
+(
 )
         
 rule
@@ -700,10 +691,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 rule
@@ -911,10 +901,9 @@ n
 )
         
 out
-.
-truncate
+=
+StringIO
 (
-0
 )
         
 mk

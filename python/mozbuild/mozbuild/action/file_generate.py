@@ -103,6 +103,8 @@ imp
 import
 os
 import
+six
+import
 sys
 import
 traceback
@@ -170,7 +172,9 @@ locale
 '
 type
 =
-str
+six
+.
+text_type
                         
 help
 =
@@ -199,7 +203,9 @@ script
 '
 type
 =
-str
+six
+.
+text_type
                         
 help
 =
@@ -228,7 +234,9 @@ name
 '
 type
 =
-str
+six
+.
+text_type
                         
 help
 =
@@ -259,7 +267,9 @@ file
 '
 type
 =
-str
+six
+.
+text_type
                         
 help
 =
@@ -287,7 +297,9 @@ file
 '
 type
 =
-str
+six
+.
+text_type
                         
 help
 =
@@ -319,7 +331,9 @@ target
 '
 type
 =
-str
+six
+.
+text_type
                         
 help
 =
@@ -777,7 +791,19 @@ set
                 
 deps
 =
+set
+(
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
 ret
+)
                 
 #
 The
@@ -845,6 +871,16 @@ deps
 =
 set
 (
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
+                            
 iter_modules_in_path
 (
 buildconfig
@@ -879,6 +915,16 @@ deps
 =
 set
 (
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
+                            
 buildconfig
 .
 get_dependencies
