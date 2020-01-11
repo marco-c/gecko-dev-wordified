@@ -560,6 +560,16 @@ PSHEntryParent
 aEntry
 )
 ;
+bool
+RecvEvictContentViewersOrReplaceEntry
+(
+PSHEntryParent
+*
+aNewSHEntry
+bool
+aReplace
+)
+;
 RefPtr
 <
 CanonicalBrowsingContext
