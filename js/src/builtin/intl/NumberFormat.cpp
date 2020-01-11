@@ -2403,7 +2403,8 @@ subtype
 .
 *
 /
-const
+static
+constexpr
 MeasureUnit
 simpleMeasureUnits
 [
