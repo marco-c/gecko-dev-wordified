@@ -183,6 +183,9 @@ namespace
 mozilla
 {
 class
+ErrorResult
+;
+class
 StyleSheet
 ;
 class
