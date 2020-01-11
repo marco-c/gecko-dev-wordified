@@ -2053,13 +2053,6 @@ true
 acceptDifferentSubdomains
 :
 INCLUDE_OTHER_SUBDOMAINS_IN_LOOKUP
-/
-/
-TODO
-:
-for
-TAB
-case
 }
 )
 ;
