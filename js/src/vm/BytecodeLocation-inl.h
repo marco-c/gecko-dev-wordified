@@ -147,6 +147,7 @@ namespace
 js
 {
 inline
+JS_PUBLIC_API
 bool
 BytecodeLocation
 :
