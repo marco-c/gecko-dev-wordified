@@ -263,6 +263,11 @@ GetDefaultCertVerifier
 (
 )
 ;
+UniqueCERTCertList
+FindNonCACertificatesWithPrivateKeys
+(
+)
+;
 }
 /
 /
