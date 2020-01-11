@@ -4682,6 +4682,8 @@ fixed
 .
 SideBits
 mFixedPosSides
+=
+eSideBitsNone
 ;
 HitTestResult
 (
@@ -6765,6 +6767,8 @@ mApzcForInputBlock
 /
 SideBits
 mFixedPosSidesForInputBlock
+=
+eSideBitsNone
 ;
 /
 *
