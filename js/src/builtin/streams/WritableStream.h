@@ -1310,6 +1310,17 @@ state
 Erroring
 ;
 }
+void
+setErroring
+(
+)
+{
+setState
+(
+Erroring
+)
+;
+}
 bool
 errored
 (
