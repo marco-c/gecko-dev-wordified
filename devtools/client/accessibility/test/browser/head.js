@@ -1014,9 +1014,9 @@ too
 fast
 .
 await
-win
+panel
 .
-gToolbox
+_toolbox
 .
 loadTool
 (
