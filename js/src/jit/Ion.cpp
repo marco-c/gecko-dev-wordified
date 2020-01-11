@@ -2829,7 +2829,7 @@ MOZ_ASSERT
 builder
 -
 >
-pendingBlocks
+pendingEdges
 (
 )
 .
