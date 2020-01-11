@@ -639,10 +639,10 @@ namespace
 dom
 {
 class
-Coordinates
+GeolocationCoordinates
 ;
 class
-Position
+GeolocationPosition
 final
 :
 public
@@ -651,7 +651,7 @@ public
 nsWrapperCache
 {
 ~
-Position
+GeolocationPosition
 (
 )
 ;
@@ -660,11 +660,11 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-Position
+GeolocationPosition
 )
 public
 :
-Position
+GeolocationPosition
 (
 nsISupports
 *
@@ -701,7 +701,7 @@ aGivenProto
 )
 override
 ;
-Coordinates
+GeolocationCoordinates
 *
 Coords
 (
@@ -727,7 +727,7 @@ private
 :
 RefPtr
 <
-Coordinates
+GeolocationCoordinates
 >
 mCoordinates
 ;
@@ -746,7 +746,7 @@ mGeoPosition
 }
 ;
 class
-Coordinates
+GeolocationCoordinates
 final
 :
 public
@@ -755,7 +755,7 @@ public
 nsWrapperCache
 {
 ~
-Coordinates
+GeolocationCoordinates
 (
 )
 ;
@@ -764,13 +764,13 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-Coordinates
+GeolocationCoordinates
 )
 public
 :
-Coordinates
+GeolocationCoordinates
 (
-Position
+GeolocationPosition
 *
 aPosition
 nsIDOMGeoPositionCoords
@@ -778,7 +778,7 @@ nsIDOMGeoPositionCoords
 aCoords
 )
 ;
-Position
+GeolocationPosition
 *
 GetParentObject
 (
@@ -863,7 +863,7 @@ private
 :
 RefPtr
 <
-Position
+GeolocationPosition
 >
 mPosition
 ;

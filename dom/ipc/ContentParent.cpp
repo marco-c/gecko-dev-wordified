@@ -643,7 +643,7 @@ mozilla
 /
 dom
 /
-PositionError
+GeolocationPositionError
 .
 h
 "
@@ -26120,7 +26120,7 @@ ContentParent
 :
 HandleEvent
 (
-PositionError
+GeolocationPositionError
 *
 positionError
 )

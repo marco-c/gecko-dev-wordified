@@ -183,7 +183,7 @@ mozilla
 /
 dom
 /
-PositionErrorBinding
+GeolocationPositionErrorBinding
 .
 h
 "
@@ -727,7 +727,7 @@ REPORT_ACCESS_DENIED
 :
 err
 =
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -742,7 +742,7 @@ REPORT_ERROR
 :
 err
 =
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
