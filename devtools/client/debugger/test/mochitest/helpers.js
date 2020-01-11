@@ -8270,6 +8270,16 @@ open
 -
 inspector
 "
+watchpointsSubmenu
+:
+"
+#
+node
+-
+menu
+-
+watchpoints
+"
 addGetWatchpoint
 :
 "
