@@ -513,11 +513,6 @@ JSOP_STRICTNE
 \
 _
 (
-JSOP_CONDSWITCH
-)
-\
-_
-(
 JSOP_CASE
 )
 \
