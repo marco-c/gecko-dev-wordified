@@ -9709,9 +9709,8 @@ NODE_HAS_BEEN_IN_UA_WIDGET
 }
 if
 (
-HasFlag
+IsRootOfNativeAnonymousSubtree
 (
-NODE_IS_ANONYMOUS_ROOT
 )
 )
 {
