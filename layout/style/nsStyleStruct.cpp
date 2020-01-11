@@ -19208,6 +19208,11 @@ so
 /
 just
 repaint
+and
+update
+our
+overflow
+areas
 in
 that
 case
@@ -19215,6 +19220,8 @@ case
 hint
 |
 =
+nsChangeHint_UpdateOverflow
+|
 nsChangeHint_RepaintFrame
 ;
 }
