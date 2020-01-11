@@ -1269,13 +1269,6 @@ jsm
 events
 :
 {
-AboutNetErrorLoad
-:
-{
-wantUntrusted
-:
-true
-}
 AboutNetErrorSetAutomatic
 :
 {
