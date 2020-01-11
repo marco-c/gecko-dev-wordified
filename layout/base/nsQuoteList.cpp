@@ -882,6 +882,14 @@ PrintChain
 (
 )
 {
+using
+StyleContentType
+=
+nsQuoteNode
+:
+:
+StyleContentType
+;
 printf
 (
 "

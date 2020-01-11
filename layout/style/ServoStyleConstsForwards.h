@@ -426,12 +426,6 @@ WritingMode
 class
 ServoElementSnapshotTable
 ;
-enum
-class
-StyleContentType
-:
-uint8_t
-;
 template
 <
 typename

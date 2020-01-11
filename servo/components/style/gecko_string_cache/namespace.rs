@@ -228,6 +228,13 @@ PartialEq
 ToShmem
 )
 ]
+#
+[
+repr
+(
+transparent
+)
+]
 pub
 struct
 Namespace

@@ -843,7 +843,7 @@ hr
 .
 content
 "
-none
+normal
 "
 "
 filtered

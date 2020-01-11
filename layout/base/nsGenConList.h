@@ -188,7 +188,10 @@ StyleContentType
 mozilla
 :
 :
-StyleContentType
+StyleContentItem
+:
+:
+Tag
 ;
 /
 /

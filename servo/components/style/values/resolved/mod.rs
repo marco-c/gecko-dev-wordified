@@ -101,6 +101,9 @@ SmallVec
 mod
 color
 ;
+mod
+counters
+;
 use
 crate
 :
@@ -484,6 +487,15 @@ Box
 <
 str
 >
+)
+;
+trivial_to_resolved_value
+!
+(
+crate
+:
+:
+OwnedStr
 )
 ;
 trivial_to_resolved_value
