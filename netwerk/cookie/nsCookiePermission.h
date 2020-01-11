@@ -72,14 +72,7 @@ h
 #
 include
 "
-nsIPermissionManager
-.
-h
-"
-#
-include
-"
-nsCOMPtr
+nsPermissionManager
 .
 h
 "
@@ -141,9 +134,9 @@ Init
 ;
 }
 ;
-nsCOMPtr
+RefPtr
 <
-nsIPermissionManager
+nsPermissionManager
 >
 mPermMgr
 ;
