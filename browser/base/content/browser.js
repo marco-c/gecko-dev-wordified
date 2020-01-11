@@ -13103,7 +13103,7 @@ init
 ;
 HomePage
 .
-init
+delayedStartup
 (
 )
 .
