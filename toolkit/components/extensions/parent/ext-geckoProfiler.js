@@ -602,7 +602,6 @@ bufferSize
 interval
 features
 threads
-0
 windowLength
 )
 ;
@@ -620,7 +619,6 @@ interval
 features
 [
 ]
-0
 windowLength
 )
 ;

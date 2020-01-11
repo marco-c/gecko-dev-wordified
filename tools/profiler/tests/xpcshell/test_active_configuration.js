@@ -170,11 +170,6 @@ threads
 "
 ]
 ;
-const
-activeBrowsingContextID
-=
-123
-;
 Services
 .
 profiler
@@ -185,7 +180,6 @@ entries
 interval
 features
 threads
-activeBrowsingContextID
 )
 ;
 info
@@ -214,7 +208,6 @@ expectedConfiguration
 interval
 threads
 features
-activeBrowsingContextID
 /
 /
 The
@@ -364,11 +357,6 @@ threads
 ]
 ;
 const
-activeBrowsingContextID
-=
-111
-;
-const
 duration
 =
 20
@@ -397,7 +385,6 @@ entries
 interval
 features
 threads
-activeBrowsingContextID
 /
 /
 Also
@@ -439,7 +426,6 @@ expectedConfiguration
 interval
 threads
 features
-activeBrowsingContextID
 duration
 /
 /
