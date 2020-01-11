@@ -244,8 +244,8 @@ cranelift_wasm
 {
 FuncIndex
 FuncTranslator
-WasmResult
 ModuleTranslationState
+WasmResult
 }
 ;
 use
