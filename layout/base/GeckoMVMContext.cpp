@@ -758,6 +758,9 @@ GetReadyStateEnum
 )
 =
 =
+dom
+:
+:
 Document
 :
 :

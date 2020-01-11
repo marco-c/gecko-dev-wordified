@@ -357,6 +357,15 @@ h
 #
 include
 "
+mozilla
+/
+ViewportFrame
+.
+h
+"
+#
+include
+"
 nsCharTraits
 .
 h
