@@ -1185,6 +1185,17 @@ privID
 PR_FALSE
 )
 ;
+if
+(
+epki
+&
+&
+epki
+-
+>
+arena
+)
+{
 PORT_FreeArena
 (
 epki
@@ -1194,6 +1205,7 @@ arena
 PR_TRUE
 )
 ;
+}
 SECKEY_DestroyPublicKey
 (
 pubKey

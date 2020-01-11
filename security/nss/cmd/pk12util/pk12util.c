@@ -3575,6 +3575,11 @@ if
 certlist
 )
 {
+PORT_SetError
+(
+SEC_ERROR_UNKNOWN_CERT
+)
+;
 SECU_PrintError
 (
 progName

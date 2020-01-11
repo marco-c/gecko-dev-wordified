@@ -2355,6 +2355,15 @@ data
 +
 slen
 )
+<
+data
+|
+|
+(
+data
++
+slen
+)
 >
 end
 )
