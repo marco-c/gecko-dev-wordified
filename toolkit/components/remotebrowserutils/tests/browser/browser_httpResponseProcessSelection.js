@@ -155,10 +155,6 @@ set
 RESPONSE_PROCESS_SELECTION_PREF
 false
 ]
-[
-DOCUMENT_CHANNEL_PREF
-false
-]
 ]
 }
 )
