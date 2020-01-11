@@ -155,7 +155,7 @@ namespace
 dom
 {
 class
-UniqueMessagePortId
+MessagePortIdentifier
 ;
 class
 RemoteWorkerData
@@ -480,7 +480,8 @@ RemoteWorkerData
 aData
 uint64_t
 aWindowID
-UniqueMessagePortId
+const
+MessagePortIdentifier
 &
 aPortIdentifier
 base

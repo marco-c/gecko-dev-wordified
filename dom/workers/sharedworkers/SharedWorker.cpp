@@ -1100,7 +1100,7 @@ return
 nullptr
 ;
 }
-UniqueMessagePortId
+MessagePortIdentifier
 portIdentifier
 ;
 channel
@@ -1275,10 +1275,6 @@ loadInfo
 .
 mWindowID
 portIdentifier
-.
-release
-(
-)
 )
 ;
 RefPtr
