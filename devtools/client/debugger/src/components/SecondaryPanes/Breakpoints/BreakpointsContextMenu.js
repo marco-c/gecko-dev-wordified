@@ -132,6 +132,26 @@ prefs
 "
 ;
 import
+{
+formatKeyShortcut
+}
+from
+"
+.
+.
+/
+.
+.
+/
+.
+.
+/
+utils
+/
+text
+"
+;
+import
 type
 {
 Breakpoint
@@ -1320,6 +1340,8 @@ selectedLocation
 }
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -1331,6 +1353,7 @@ breakpoint
 .
 key
 "
+)
 )
 }
 ;
@@ -1376,6 +1399,8 @@ selectedLocation
 }
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -1387,6 +1412,7 @@ breakpoint
 .
 key
 "
+)
 )
 }
 ;
@@ -1449,6 +1475,8 @@ true
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -1460,6 +1488,7 @@ logPoint
 .
 key
 "
+)
 )
 }
 ;
@@ -1522,6 +1551,8 @@ true
 )
 accelerator
 :
+formatKeyShortcut
+(
 L10N
 .
 getStr
@@ -1533,6 +1564,7 @@ logPoint
 .
 key
 "
+)
 )
 }
 ;
