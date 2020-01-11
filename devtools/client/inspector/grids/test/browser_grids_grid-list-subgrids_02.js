@@ -104,8 +104,8 @@ await
 selectNode
 (
 "
-#
-grid
+.
+container
 "
 inspector
 )
