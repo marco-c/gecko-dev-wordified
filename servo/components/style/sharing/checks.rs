@@ -759,7 +759,7 @@ element
 has
 the
 same
-class
+part
 attribute
 as
 a
