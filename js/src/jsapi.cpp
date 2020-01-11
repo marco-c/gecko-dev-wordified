@@ -23211,14 +23211,6 @@ JSContext
 cx
 HandleObject
 executor
-HandleObject
-proto
-/
-*
-=
-nullptr
-*
-/
 )
 {
 MOZ_ASSERT
@@ -23252,7 +23244,6 @@ cx
 check
 (
 executor
-proto
 )
 ;
 if
@@ -23287,7 +23278,6 @@ create
 (
 cx
 executor
-proto
 )
 ;
 }

@@ -482,7 +482,6 @@ promise
 >
 CreateWrapper
 (
-nullptr
 aRv
 )
 ;
@@ -558,7 +557,6 @@ promise
 >
 CreateWrapper
 (
-nullptr
 aRv
 )
 ;
