@@ -1324,7 +1324,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 >
@@ -1339,7 +1339,7 @@ mDirectoryLockId
 mDirectoryLock
 -
 >
-GetId
+Id
 (
 )
 ;
