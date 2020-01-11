@@ -1157,12 +1157,12 @@ resize
 "
 height
 :
-device
+viewport
 .
 height
 width
 :
-device
+viewport
 .
 width
 }
