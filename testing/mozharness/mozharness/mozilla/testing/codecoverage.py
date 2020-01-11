@@ -1473,7 +1473,7 @@ chrome
             
 '
 .
-xul
+xhtml
 '
 :
 {
@@ -1493,7 +1493,7 @@ chrome
 /
 test_baselinecoverage
 .
-xul
+xhtml
 '
                 
 '

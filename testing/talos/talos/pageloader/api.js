@@ -596,7 +596,7 @@ driven
 from
 pageloader
 .
-xul
+xhtml
 .
 We
 need
@@ -609,7 +609,7 @@ open
 /
 pageloader
 .
-xul
+xhtml
 before
 dismissing
 the
@@ -631,7 +631,7 @@ before
 the
 pageloader
 .
-xul
+xhtml
 /
 /
 window
@@ -761,7 +761,7 @@ over
 Open
 pageloader
 .
-xul
+xhtml
 in
 a
 new
@@ -787,7 +787,7 @@ content
 /
 pageloader
 .
-xul
+xhtml
 "
 ;
 let

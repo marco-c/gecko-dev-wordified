@@ -121,7 +121,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 )
         
@@ -185,7 +185,7 @@ assertIn
 "
 test
 .
-xul
+xhtml
 "
 self
 .
@@ -218,7 +218,7 @@ assertIn
 "
 test2
 .
-xul
+xhtml
 "
 self
 .
@@ -270,7 +270,7 @@ assertIn
 "
 test
 .
-xul
+xhtml
 "
 self
 .
@@ -305,7 +305,7 @@ assertIn
 "
 test2
 .
-xul
+xhtml
 "
 self
 .
@@ -337,7 +337,7 @@ assertIn
 "
 test
 .
-xul
+xhtml
 "
 self
 .
@@ -372,7 +372,7 @@ assertIn
 "
 test2
 .
-xul
+xhtml
 "
 self
 .
@@ -414,7 +414,7 @@ assertIn
 "
 test
 .
-xul
+xhtml
 "
 self
 .
@@ -447,7 +447,7 @@ assertIn
 "
 test2
 .
-xul
+xhtml
 "
 self
 .
@@ -478,7 +478,7 @@ assertIn
 "
 test
 .
-xul
+xhtml
 "
 self
 .

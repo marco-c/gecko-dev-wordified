@@ -133,7 +133,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 )
         

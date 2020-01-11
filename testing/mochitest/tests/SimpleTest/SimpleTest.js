@@ -361,7 +361,7 @@ in
 /
 harness
 .
-xul
+xhtml
 and
 we
 need
@@ -378,7 +378,7 @@ tests
 like
 test_focus
 .
-xul
+xhtml
 where
 we
 open

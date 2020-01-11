@@ -242,7 +242,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 )
         

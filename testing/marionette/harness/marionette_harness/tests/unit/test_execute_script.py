@@ -3204,7 +3204,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 )
             

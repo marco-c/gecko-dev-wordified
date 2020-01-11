@@ -328,7 +328,7 @@ test
 /
 test1
 .
-xul
+xhtml
 "
 )
 ;
@@ -412,7 +412,7 @@ test
 /
 test2
 .
-xul
+xhtml
 "
 )
 ;
@@ -546,7 +546,7 @@ test
 /
 test1
 .
-xul
+xhtml
 "
 )
 ;
@@ -630,7 +630,7 @@ test
 /
 test2
 .
-xul
+xhtml
 "
 )
 ;

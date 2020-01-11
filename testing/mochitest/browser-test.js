@@ -592,7 +592,7 @@ browser
 -
 harness
 .
-xul
+xhtml
 "
 "
 browserTest
