@@ -212,6 +212,12 @@ OnLinkStatusKnown
 )
 override
 ;
+void
+OnDnsSuffixListUpdated
+(
+)
+override
+;
 private
 :
 virtual

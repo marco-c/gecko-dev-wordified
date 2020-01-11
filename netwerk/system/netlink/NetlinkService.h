@@ -293,6 +293,14 @@ OnLinkStatusKnown
 =
 0
 ;
+virtual
+void
+OnDnsSuffixListUpdated
+(
+)
+=
+0
+;
 protected
 :
 virtual
