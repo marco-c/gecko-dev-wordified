@@ -1435,6 +1435,7 @@ Example
 ]
 )
 ;
+await
 addOpenPages
 (
 uri

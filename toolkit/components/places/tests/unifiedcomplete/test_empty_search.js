@@ -362,6 +362,7 @@ title
 }
 )
 ;
+await
 addOpenPages
 (
 uri7

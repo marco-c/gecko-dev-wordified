@@ -847,6 +847,7 @@ context
 id
 *
 /
+async
 registerOpenTab
 (
 url
@@ -901,6 +902,7 @@ this
 _db
 )
 {
+await
 addToMemoryTable
 (
 this
@@ -945,6 +947,7 @@ context
 id
 *
 /
+async
 unregisterOpenTab
 (
 url
@@ -1004,6 +1007,7 @@ this
 _db
 )
 {
+await
 removeFromMemoryTable
 (
 this
