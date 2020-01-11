@@ -1298,14 +1298,16 @@ the
 iframe
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tabInfo
 .
 browser
+[
 aCookieValue
+]
 async
 function
 (
