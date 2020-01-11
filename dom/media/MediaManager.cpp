@@ -7677,6 +7677,7 @@ MediaStreamTrackState
 :
 :
 Live
+false
 GetInvariant
 (
 mConstraints
@@ -7778,6 +7779,7 @@ MediaStreamTrackState
 :
 :
 Live
+false
 GetInvariant
 (
 mConstraints

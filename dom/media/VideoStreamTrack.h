@@ -154,6 +154,10 @@ MediaStreamTrackState
 :
 :
 Live
+bool
+aMuted
+=
+false
 const
 MediaTrackConstraints
 &

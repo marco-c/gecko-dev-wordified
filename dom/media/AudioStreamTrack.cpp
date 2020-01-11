@@ -283,6 +283,9 @@ mSource
 ReadyState
 (
 )
+Muted
+(
+)
 mConstraints
 )
 )

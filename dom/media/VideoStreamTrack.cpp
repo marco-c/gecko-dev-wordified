@@ -160,6 +160,8 @@ MediaStreamTrackSource
 aSource
 MediaStreamTrackState
 aReadyState
+bool
+aMuted
 const
 MediaTrackConstraints
 &
@@ -172,6 +174,7 @@ aWindow
 aInputTrack
 aSource
 aReadyState
+aMuted
 aConstraints
 )
 {
@@ -513,6 +516,9 @@ mWindow
 mInputTrack
 mSource
 ReadyState
+(
+)
+Muted
 (
 )
 mConstraints
