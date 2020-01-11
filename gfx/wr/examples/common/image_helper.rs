@@ -67,6 +67,7 @@ api
 ImageData
 ImageDescriptor
 ImageFormat
+ImageDescriptorFlags
 }
 ;
 pub
@@ -176,8 +177,10 @@ ImageFormat
 :
 :
 BGRA8
-true
-false
+ImageDescriptorFlags
+:
+:
+IS_OPAQUE
 )
 ImageData
 :

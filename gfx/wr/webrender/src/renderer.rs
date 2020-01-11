@@ -15277,7 +15277,10 @@ use
 api
 :
 :
+{
 ImageDescriptor
+ImageDescriptorFlags
+}
 ;
 let
 desc
@@ -15293,8 +15296,10 @@ ImageFormat
 :
 :
 BGRA8
-true
-false
+ImageDescriptorFlags
+:
+:
+IS_OPAQUE
 )
 ;
 let

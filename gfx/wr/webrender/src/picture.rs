@@ -14251,6 +14251,8 @@ image_properties
 descriptor
 .
 is_opaque
+(
+)
 {
 backdrop_candidate
 =

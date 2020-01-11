@@ -103,6 +103,7 @@ api
 :
 {
 ImageDescriptor
+ImageDescriptorFlags
 ImageFormat
 DirtyRect
 }
@@ -1550,12 +1551,14 @@ None
 format
 :
 FORMAT
-is_opaque
+flags
 :
-false
-allow_mipmaps
+ImageDescriptorFlags
 :
-false
+:
+empty
+(
+)
 offset
 :
 0

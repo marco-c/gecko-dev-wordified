@@ -10997,6 +10997,8 @@ if
 descriptor
 .
 allow_mipmaps
+(
+)
 &
 &
 descriptor
