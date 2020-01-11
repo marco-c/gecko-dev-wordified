@@ -800,4 +800,10 @@ OTHER
 ;
 }
 }
+return
+nsIWebNavigationInfo
+:
+:
+UNSUPPORTED
+;
 }
