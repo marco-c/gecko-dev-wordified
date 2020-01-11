@@ -2995,8 +2995,6 @@ aNode
 GetStream
 (
 )
-TRACK_ANY
-TRACK_ANY
 0
 aOutput
 )
