@@ -743,6 +743,15 @@ closePopup
 }
 }
 static
+getCurrentActor
+(
+)
+{
+return
+currentActor
+;
+}
+static
 getCurrentBrowser
 (
 )
