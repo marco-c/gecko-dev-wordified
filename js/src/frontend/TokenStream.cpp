@@ -3244,9 +3244,6 @@ options
 .
 lineno
 )
-flags
-(
-)
 mutedErrors
 (
 options
