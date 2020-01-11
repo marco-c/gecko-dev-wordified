@@ -10792,7 +10792,7 @@ rangeCompare
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 endNode
 endOffset
@@ -14230,7 +14230,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aNode
 aNodeOffset
@@ -14333,7 +14333,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 startNode
 startNodeOffset

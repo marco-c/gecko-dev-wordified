@@ -48151,7 +48151,7 @@ comp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 startPoint
 .
@@ -48190,7 +48190,7 @@ comp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 newStartPoint
 .

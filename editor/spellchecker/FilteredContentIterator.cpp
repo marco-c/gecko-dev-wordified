@@ -1295,7 +1295,7 @@ startRes
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aStartContainer
 aStartOffset
@@ -1309,7 +1309,7 @@ endRes
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aEndContainer
 aEndOffset

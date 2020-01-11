@@ -605,7 +605,7 @@ MOZ_ASSERT
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aScanStartPoint
 .
@@ -11565,7 +11565,7 @@ mStartNode
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aPoint
 .
@@ -11638,7 +11638,7 @@ mEndNode
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aPoint
 .
@@ -12010,7 +12010,7 @@ cmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aPoint
 .
@@ -12396,7 +12396,7 @@ cmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aPoint
 .

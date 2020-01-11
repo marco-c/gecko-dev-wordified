@@ -1121,7 +1121,7 @@ cmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mNode
 static_cast
@@ -1166,7 +1166,7 @@ cmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mNode
 static_cast
@@ -1674,7 +1674,7 @@ middle
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aNode
 static_cast
@@ -1757,7 +1757,7 @@ middle
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aNode
 static_cast
@@ -6489,7 +6489,7 @@ cmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 point
 mStart
@@ -6512,7 +6512,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mEnd
 point
@@ -6667,7 +6667,7 @@ result
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mStart
 .
@@ -6701,7 +6701,7 @@ disconnected
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 parent
 nodeIndex
@@ -8373,7 +8373,7 @@ mRoot
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aPoint
 mEnd
@@ -8824,7 +8824,7 @@ mRoot
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mStart
 aPoint
@@ -11870,7 +11870,7 @@ doctype
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 startContainer
 static_cast
@@ -11890,7 +11890,7 @@ doctype
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 doctype
 0
@@ -13891,7 +13891,7 @@ return
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 ourNode
 static_cast

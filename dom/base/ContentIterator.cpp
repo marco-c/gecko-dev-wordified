@@ -608,7 +608,7 @@ return
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aStart
 afterNode
@@ -620,7 +620,7 @@ afterNode
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aEnd
 afterNode
@@ -658,7 +658,7 @@ return
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aStart
 beforeNode
@@ -671,7 +671,7 @@ beforeNode
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aEnd
 beforeNode
