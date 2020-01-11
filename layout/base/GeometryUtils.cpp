@@ -278,6 +278,8 @@ nsINode
 aNode
 GeometryNodeType
 aType
+bool
+aCreateFramesForSuppressedWhitespace
 )
 {
 Document
@@ -297,6 +299,9 @@ aType
 =
 =
 GEOMETRY_NODE_TEXT
+&
+&
+aCreateFramesForSuppressedWhitespace
 )
 {
 if
@@ -429,6 +434,8 @@ aGeometryNode
 nsINode
 *
 aDefaultNode
+bool
+aCreateFramesForSuppressedWhitespace
 )
 {
 if
@@ -451,6 +458,7 @@ OwnerDoc
 (
 )
 GEOMETRY_NODE_DOCUMENT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -483,6 +491,7 @@ GetAsElement
 (
 )
 GEOMETRY_NODE_ELEMENT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -504,6 +513,7 @@ GetAsDocument
 (
 )
 GEOMETRY_NODE_DOCUMENT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -516,6 +526,7 @@ GetAsText
 (
 )
 GEOMETRY_NODE_TEXT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -530,6 +541,17 @@ GeometryNode
 aGeometryNode
 )
 {
+/
+/
+This
+will
+create
+frames
+for
+suppressed
+whitespace
+nodes
+.
 if
 (
 aGeometryNode
@@ -549,6 +571,7 @@ GetAsElement
 (
 )
 GEOMETRY_NODE_ELEMENT
+true
 )
 ;
 }
@@ -571,6 +594,7 @@ GetAsDocument
 (
 )
 GEOMETRY_NODE_DOCUMENT
+true
 )
 ;
 }
@@ -584,6 +608,7 @@ GetAsText
 (
 )
 GEOMETRY_NODE_TEXT
+true
 )
 ;
 }
@@ -595,6 +620,8 @@ GetFrameForNode
 nsINode
 *
 aNode
+bool
+aCreateFramesForSuppressedWhitespace
 )
 {
 if
@@ -612,6 +639,7 @@ GetFrameForNode
 (
 aNode
 GEOMETRY_NODE_ELEMENT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -633,6 +661,7 @@ GetFrameForNode
 (
 aNode
 GEOMETRY_NODE_DOCUMENT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -656,6 +685,7 @@ GetFrameForNode
 (
 aNode
 GEOMETRY_NODE_TEXT
+aCreateFramesForSuppressedWhitespace
 )
 ;
 }
@@ -674,6 +704,8 @@ aNode
 nsINode
 *
 aDefaultNode
+bool
+aCreateFramesForSuppressedWhitespace
 )
 {
 nsIFrame
@@ -684,6 +716,7 @@ GetFrameForGeometryNode
 (
 aNode
 aDefaultNode
+aCreateFramesForSuppressedWhitespace
 )
 ;
 if
@@ -717,6 +750,17 @@ GeometryNode
 aNode
 )
 {
+/
+/
+This
+will
+create
+frames
+for
+suppressed
+whitespace
+nodes
+.
 nsIFrame
 *
 f
@@ -756,6 +800,17 @@ nsINode
 aNode
 )
 {
+/
+/
+This
+will
+create
+frames
+for
+suppressed
+whitespace
+nodes
+.
 nsIFrame
 *
 f
@@ -763,6 +818,7 @@ f
 GetFrameForNode
 (
 aNode
+true
 )
 ;
 if
@@ -1574,6 +1630,9 @@ frame
 GetFrameForNode
 (
 aNode
+aOptions
+.
+mCreateFramesForSuppressedWhitespace
 )
 ;
 if
@@ -1618,6 +1677,9 @@ aOptions
 .
 mRelativeTo
 ownerDoc
+aOptions
+.
+mCreateFramesForSuppressedWhitespace
 )
 ;
 /
@@ -1675,6 +1737,9 @@ frame
 GetFrameForNode
 (
 aNode
+aOptions
+.
+mCreateFramesForSuppressedWhitespace
 )
 ;
 if
