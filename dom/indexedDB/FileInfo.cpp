@@ -289,8 +289,9 @@ private
 FileInfoImpl
 (
 )
-{
-}
+=
+default
+;
 virtual
 int64_t
 Id
@@ -332,15 +333,6 @@ MOZ_ASSERT
 aFileManager
 )
 ;
-}
-FileInfo
-:
-:
-~
-FileInfo
-(
-)
-{
 }
 /
 /

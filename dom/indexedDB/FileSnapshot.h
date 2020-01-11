@@ -248,7 +248,7 @@ BlobImplSnapshot
 (
 BlobImpl
 *
-aImpl
+aFileImpl
 IDBFileHandle
 *
 aFileHandle
@@ -261,7 +261,7 @@ BlobImplSnapshot
 (
 BlobImpl
 *
-aImpl
+aFileImpl
 nsIWeakReference
 *
 aFileHandle
@@ -271,6 +271,8 @@ aFileHandle
 BlobImplSnapshot
 (
 )
+=
+default
 ;
 /
 /

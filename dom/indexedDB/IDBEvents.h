@@ -495,8 +495,9 @@ aOldVersion
 IDBVersionChangeEvent
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <
@@ -510,7 +511,7 @@ aOwner
 const
 nsAString
 &
-aName
+aType
 uint64_t
 aOldVersion
 const

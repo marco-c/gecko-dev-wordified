@@ -422,8 +422,9 @@ protected
 ResultCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

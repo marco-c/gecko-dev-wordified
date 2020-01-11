@@ -298,6 +298,8 @@ virtual
 FileInfo
 (
 )
+=
+default
 ;
 private
 :
@@ -355,8 +357,9 @@ protected
 CustomCleanupCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

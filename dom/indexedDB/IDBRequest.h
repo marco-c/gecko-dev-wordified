@@ -780,8 +780,9 @@ protected
 ResultCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

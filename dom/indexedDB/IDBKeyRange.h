@@ -606,7 +606,7 @@ JS
 :
 Value
 >
-aKey
+aValue
 ErrorResult
 &
 aRv

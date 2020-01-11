@@ -918,7 +918,7 @@ aBackgroundChildLoggingId
 )
 mCurrentTransaction
 (
-0
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -6212,10 +6212,6 @@ return
 NS_ERROR_DOM_FILEHANDLE_UNKNOWN_ERR
 ;
 }
-rv
-=
-NS_OK
-;
 if
 (
 NS_WARN_IF
@@ -17661,8 +17657,9 @@ private
 DelayedActionRunnable
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_NSIRUNNABLE
 nsresult
 Cancel

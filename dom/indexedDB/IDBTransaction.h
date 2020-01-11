@@ -949,7 +949,7 @@ void
 Abort
 (
 nsresult
-aAbortCode
+aErrorCode
 )
 ;
 int64_t

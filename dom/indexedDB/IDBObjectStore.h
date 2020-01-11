@@ -1166,7 +1166,7 @@ DeleteIndex
 const
 nsAString
 &
-aIndexName
+aName
 ErrorResult
 &
 aRv

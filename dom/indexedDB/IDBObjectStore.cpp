@@ -749,6 +749,7 @@ StructuredCloneWriteInfo
 &
 aCloneWriteInfo
 )
+noexcept
 :
 mCloneBuffer
 (
@@ -6152,9 +6153,7 @@ other
 deserializing
 methods
 .
-if
-(
-!
+return
 JS_ReadStructuredClone
 (
 aCx
@@ -6181,14 +6180,6 @@ callbacks
 &
 aCloneReadInfo
 )
-)
-{
-return
-false
-;
-}
-return
-true
 ;
 }
 namespace

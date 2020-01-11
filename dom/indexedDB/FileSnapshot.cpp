@@ -650,8 +650,9 @@ aStreamWrapper
 CloseRunnable
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -738,15 +739,6 @@ MOZ_ASSERT
 aFileHandle
 )
 ;
-}
-BlobImplSnapshot
-:
-:
-~
-BlobImplSnapshot
-(
-)
-{
 }
 NS_IMPL_ISUPPORTS_INHERITED
 (
