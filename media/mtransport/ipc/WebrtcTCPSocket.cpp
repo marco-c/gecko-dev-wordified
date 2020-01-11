@@ -230,6 +230,13 @@ h
 #
 include
 "
+nsICancelable
+.
+h
+"
+#
+include
+"
 WebrtcTCPSocketCallback
 .
 h
