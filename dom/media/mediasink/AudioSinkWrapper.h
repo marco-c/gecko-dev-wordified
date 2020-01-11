@@ -560,9 +560,6 @@ IsCurrentThreadIn
 )
 ;
 }
-media
-:
-:
 TimeUnit
 GetVideoPosition
 (
@@ -632,9 +629,6 @@ mParams
 TimeStamp
 mPlayStartTime
 ;
-media
-:
-:
 TimeUnit
 mPlayDuration
 ;
