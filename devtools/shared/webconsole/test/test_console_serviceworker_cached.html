@@ -156,7 +156,7 @@ waitForExplicitFinish
 (
 )
 ;
-let
+const
 BASE_URL
 =
 "
@@ -180,7 +180,7 @@ test
 /
 "
 ;
-let
+const
 SERVICE_WORKER_URL
 =
 BASE_URL
@@ -191,7 +191,7 @@ helper_serviceworker
 js
 "
 ;
-let
+const
 FRAME_URL
 =
 BASE_URL
@@ -202,7 +202,7 @@ sandboxed_iframe
 html
 "
 ;
-let
+const
 firstTabExpectedCalls
 =
 [
@@ -268,7 +268,7 @@ event
 }
 ]
 ;
-let
+const
 secondTabExpectedCalls
 =
 [
@@ -297,7 +297,7 @@ FRAME_URL
 }
 ]
 ;
-let
+const
 startTest
 =
 async
@@ -375,7 +375,7 @@ worker
 "
 )
 ;
-let
+const
 tab1
 =
 await
@@ -384,7 +384,7 @@ addTab
 FRAME_URL
 )
 ;
-let
+const
 swr
 =
 await
@@ -530,7 +530,7 @@ URL
 "
 )
 ;
-let
+const
 tab2
 =
 await
@@ -664,7 +664,7 @@ around
 and
 find
 gBrowser
-let
+const
 {
 gBrowser
 }
@@ -742,7 +742,7 @@ resolve
 =
 >
 {
-let
+const
 tab
 =
 gBrowser

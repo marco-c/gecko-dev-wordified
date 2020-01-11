@@ -196,7 +196,7 @@ waitForExplicitFinish
 let
 gState
 ;
-let
+const
 {
 MAX_AUTOCOMPLETE_ATTEMPTS
 MAX_AUTOCOMPLETIONS
@@ -452,7 +452,7 @@ gState
 =
 aState
 ;
-let
+const
 tests
 =
 [
@@ -493,7 +493,7 @@ eval
 "
 )
 ;
-let
+const
 response
 =
 await
@@ -571,7 +571,7 @@ document
 "
 )
 ;
-let
+const
 response
 =
 await
@@ -664,7 +664,7 @@ exception
 "
 )
 ;
-let
+const
 response
 =
 await
@@ -755,7 +755,7 @@ helper
 "
 )
 ;
-let
+const
 response
 =
 await
@@ -824,7 +824,7 @@ doEvalString
 (
 )
 {
-let
+const
 response
 =
 await
@@ -871,7 +871,7 @@ doEvalLongString
 (
 )
 {
-let
+const
 response
 =
 await
@@ -886,7 +886,7 @@ omgstr
 "
 )
 ;
-let
+const
 str
 =
 top
@@ -895,7 +895,7 @@ foobarObject
 .
 omgstr
 ;
-let
+const
 initial
 =
 str
@@ -952,7 +952,7 @@ doEvalWithBinding
 (
 )
 {
-let
+const
 response
 =
 await
@@ -964,7 +964,7 @@ document
 "
 )
 ;
-let
+const
 documentActor
 =
 response
@@ -988,7 +988,7 @@ selectedObjectActor
 "
 )
 ;
-let
+const
 selectedObjectSame
 =
 await
@@ -1029,7 +1029,7 @@ doEvalWithBindingFrame
 (
 )
 {
-let
+const
 frameWin
 =
 top
@@ -1055,7 +1055,7 @@ bar
 1
 }
 ;
-let
+const
 response
 =
 await
@@ -1077,7 +1077,7 @@ fooFrame
 "
 )
 ;
-let
+const
 iframeObjectActor
 =
 response
@@ -1101,7 +1101,7 @@ response
 "
 )
 ;
-let
+const
 selectedObjectGlobal
 =
 await
@@ -1430,13 +1430,13 @@ c3pdoh
 ;
 for
 (
-let
+const
 data
 of
 testData
 )
 {
-let
+const
 response
 =
 await
@@ -1475,7 +1475,7 @@ exception
 ;
 for
 (
-let
+const
 varName
 of
 data
@@ -1483,7 +1483,7 @@ data
 vars
 )
 {
-let
+const
 response2
 =
 await
