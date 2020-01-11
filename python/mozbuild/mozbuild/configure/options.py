@@ -880,6 +880,20 @@ __nonzero__
 self
 )
 :
+#
+py2
+        
+return
+True
+    
+def
+__bool__
+(
+self
+)
+:
+#
+py3
         
 return
 True
