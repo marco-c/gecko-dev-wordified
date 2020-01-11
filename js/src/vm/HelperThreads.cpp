@@ -11021,9 +11021,6 @@ lock
 ;
 runFromMainThread
 (
-runtime
-(
-)
 )
 ;
 }
@@ -11161,9 +11158,6 @@ GCParallelTask
 :
 joinAndRunFromMainThread
 (
-JSRuntime
-*
-rt
 )
 {
 {
@@ -11187,7 +11181,6 @@ lock
 }
 runFromMainThread
 (
-rt
 )
 ;
 }
@@ -11200,9 +11193,6 @@ GCParallelTask
 :
 runFromMainThread
 (
-JSRuntime
-*
-rt
 )
 {
 assertNotStarted
@@ -11216,6 +11206,9 @@ js
 :
 CurrentThreadCanAccessRuntime
 (
+gc
+-
+>
 rt
 )
 )
@@ -11274,9 +11267,10 @@ usesContext
 AutoSetContextRuntime
 ascr
 (
-runtime
-(
-)
+gc
+-
+>
+rt
 )
 ;
 gc
