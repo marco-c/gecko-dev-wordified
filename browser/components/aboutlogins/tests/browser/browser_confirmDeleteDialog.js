@@ -250,6 +250,7 @@ translateElements
 [
 title
 message
+cancelButton
 confirmDeleteButton
 ]
 )
