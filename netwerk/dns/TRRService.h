@@ -751,12 +751,6 @@ nsCStringHashKey
 >
 mExcludedDomains
 ;
-nsTHashtable
-<
-nsCStringHashKey
->
-mDNSSuffixDomains
-;
 enum
 ConfirmationState
 {
