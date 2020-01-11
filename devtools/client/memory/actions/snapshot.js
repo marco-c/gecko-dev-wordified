@@ -2300,9 +2300,7 @@ with
 got
 :
 {
-JSON
-.
-stringify
+uneval
 (
 labelDisplay
 )
@@ -3489,9 +3487,7 @@ with
 got
 :
 {
-JSON
-.
-stringify
+uneval
 (
 display
 )
