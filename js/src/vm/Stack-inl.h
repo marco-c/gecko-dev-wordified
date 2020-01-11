@@ -378,7 +378,7 @@ MOZ_ASSERT
 (
 callee
 .
-nonLazyScript
+baseScript
 (
 )
 =
@@ -1516,7 +1516,7 @@ MOZ_ASSERT
 fun
 -
 >
-nonLazyScript
+baseScript
 (
 )
 =
@@ -1833,7 +1833,7 @@ MOZ_ASSERT
 callee
 -
 >
-nonLazyScript
+baseScript
 (
 )
 =

@@ -17769,14 +17769,13 @@ isSuspended
 ;
 if
 (
-!
 genObj
 .
 callee
 (
 )
 .
-isInterpretedLazy
+hasScript
 (
 )
 &
@@ -17787,7 +17786,7 @@ callee
 (
 )
 .
-nonLazyScript
+baseScript
 (
 )
 =

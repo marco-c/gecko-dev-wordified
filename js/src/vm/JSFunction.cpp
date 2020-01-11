@@ -4383,7 +4383,7 @@ MOZ_ASSERT
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 =
@@ -4399,7 +4399,7 @@ MOZ_ASSERT
 fun
 -
 >
-nonLazyScript
+baseScript
 (
 )
 =
@@ -10526,7 +10526,7 @@ MOZ_ASSERT
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 =
@@ -10710,7 +10710,7 @@ MOZ_ASSERT
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 =
@@ -10843,7 +10843,7 @@ MOZ_ASSERT
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 =

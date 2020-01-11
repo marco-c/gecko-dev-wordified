@@ -9304,7 +9304,7 @@ maybeCanonicalFunction
 )
 -
 >
-nonLazyScript
+baseScript
 (
 )
 )
@@ -13043,7 +13043,7 @@ callee
 (
 )
 .
-nonLazyScript
+baseScript
 (
 )
 -

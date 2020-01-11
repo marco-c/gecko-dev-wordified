@@ -3003,7 +3003,7 @@ needsHomeObject
 )
 |
 |
-nonLazyScript
+baseScript
 (
 )
 -
@@ -3728,7 +3728,7 @@ false
 ;
 }
 return
-nonLazyScript
+baseScript
 (
 )
 -

@@ -2104,11 +2104,6 @@ scope
 funp
 -
 >
-nonLazyScript
-(
-)
--
->
 enclosingScope
 (
 )
@@ -2125,11 +2120,6 @@ sourceObject
 MOZ_ASSERT
 (
 funp
--
->
-nonLazyScript
-(
-)
 -
 >
 enclosingScope
