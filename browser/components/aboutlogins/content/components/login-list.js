@@ -651,6 +651,17 @@ visibleLoginGuids
 size
 )
 ;
+this
+.
+_sortSelect
+.
+disabled
+=
+!
+visibleLoginGuids
+.
+size
+;
 /
 /
 Add
