@@ -3276,6 +3276,12 @@ addException
 {
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
