@@ -618,6 +618,7 @@ aFlags
 )
 ;
 }
+virtual
 void
 DisableFull
 (

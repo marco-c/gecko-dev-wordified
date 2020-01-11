@@ -8613,6 +8613,13 @@ Get
 )
 )
 ;
+dllSvc
+-
+>
+StartUntrustedModulesProcessor
+(
+)
+;
 auto
 dllServicesDisable
 =
