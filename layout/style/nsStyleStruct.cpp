@@ -24355,7 +24355,10 @@ mForceBrokenImageIcon
 )
 mIMEMode
 (
-NS_STYLE_IME_MODE_AUTO
+StyleImeMode
+:
+:
+Auto
 )
 mWindowDragging
 (
