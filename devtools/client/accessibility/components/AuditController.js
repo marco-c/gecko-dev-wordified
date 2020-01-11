@@ -116,7 +116,7 @@ propTypes
 {
 return
 {
-accessible
+accessibleFront
 :
 PropTypes
 .
@@ -143,7 +143,7 @@ props
 ;
 const
 {
-accessible
+accessibleFront
 :
 {
 checks
@@ -180,14 +180,14 @@ componentWillMount
 {
 const
 {
-accessible
+accessibleFront
 }
 =
 this
 .
 props
 ;
-accessible
+accessibleFront
 .
 on
 (
@@ -228,14 +228,14 @@ componentWillUnmount
 {
 const
 {
-accessible
+accessibleFront
 }
 =
 this
 .
 props
 ;
-accessible
+accessibleFront
 .
 off
 (
@@ -254,7 +254,7 @@ onAudited
 {
 const
 {
-accessible
+accessibleFront
 }
 =
 this
@@ -264,7 +264,7 @@ props
 if
 (
 !
-accessible
+accessibleFront
 .
 actorID
 )
@@ -272,6 +272,7 @@ actorID
 /
 /
 Accessible
+front
 is
 being
 removed
@@ -283,7 +284,7 @@ audited
 '
 events
 .
-accessible
+accessibleFront
 .
 off
 (
@@ -305,7 +306,7 @@ setState
 {
 checks
 :
-accessible
+accessibleFront
 .
 checks
 }
@@ -318,7 +319,7 @@ maybeRequestAudit
 {
 const
 {
-accessible
+accessibleFront
 }
 =
 this
@@ -328,7 +329,7 @@ props
 if
 (
 !
-accessible
+accessibleFront
 .
 actorID
 )
@@ -336,6 +337,7 @@ actorID
 /
 /
 Accessible
+front
 is
 being
 removed
@@ -347,7 +349,7 @@ audited
 '
 events
 .
-accessible
+accessibleFront
 .
 off
 (
@@ -364,7 +366,7 @@ return
 }
 if
 (
-accessible
+accessibleFront
 .
 checks
 )
@@ -372,7 +374,7 @@ checks
 return
 ;
 }
-accessible
+accessibleFront
 .
 audit
 (
@@ -395,7 +397,7 @@ closed
 .
 if
 (
-accessible
+accessibleFront
 .
 actorID
 )
