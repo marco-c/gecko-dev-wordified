@@ -1264,10 +1264,10 @@ Assert
 .
 equal
 (
-filtered
+expectedEvents
 .
 length
-expectedEvents
+filtered
 .
 length
 "

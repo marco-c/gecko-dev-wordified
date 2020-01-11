@@ -663,6 +663,9 @@ gBrowser
 about
 :
 logins
+?
+filter
+=
 "
 )
 ;
