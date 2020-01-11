@@ -19278,6 +19278,14 @@ cx
 )
 ;
 bool
+multiValueConfigured
+=
+HasMultiValueSupport
+(
+cx
+)
+;
+bool
 hugeMemory
 =
 false
@@ -19309,6 +19317,7 @@ DebugEnabled
 :
 :
 False
+multiValueConfigured
 refTypesConfigured
 gcTypesConfigured
 hugeMemory
