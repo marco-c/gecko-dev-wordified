@@ -395,6 +395,11 @@ JS
 Value
 >
 aTransfer
+JS
+:
+:
+CloneDataPolicy
+aClonePolicy
 ErrorResult
 &
 aError
@@ -438,12 +443,7 @@ Write
 aCx
 aMessage
 aTransfer
-JS
-:
-:
-CloneDataPolicy
-(
-)
+aClonePolicy
 aError
 )
 ;

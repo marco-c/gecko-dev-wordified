@@ -1122,10 +1122,6 @@ JS
 CloneDataPolicy
 (
 )
-.
-denySharedArrayBuffer
-(
-)
 nullptr
 nullptr
 )

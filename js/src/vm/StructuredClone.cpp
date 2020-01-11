@@ -19079,10 +19079,6 @@ JS
 CloneDataPolicy
 (
 )
-.
-denySharedArrayBuffer
-(
-)
 optionalCallbacks
 closure
 )

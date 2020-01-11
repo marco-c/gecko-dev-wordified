@@ -40394,6 +40394,12 @@ WindowID
 callerDocumentURI
 )
 ;
+JS
+:
+:
+CloneDataPolicy
+clonePolicy
+;
 event
 -
 >
@@ -40402,6 +40408,7 @@ Write
 aCx
 aMessage
 aTransfer
+clonePolicy
 aError
 )
 ;
