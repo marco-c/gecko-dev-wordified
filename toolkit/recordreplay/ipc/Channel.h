@@ -2278,6 +2278,10 @@ initialization
 of
 the
 channel
+and
+ensuring
+atomic
+sends
 .
 Monitor
 mMonitor

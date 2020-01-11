@@ -1335,6 +1335,17 @@ NS_ERROR_NOT_INITIALIZED
 /
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Error
+in
+asyncStorage
+/
+)
+;
 /
 /
 Many
