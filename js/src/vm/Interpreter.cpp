@@ -15159,7 +15159,7 @@ stackDepth
 )
 >
 =
-1
+2
 )
 ;
 CloseIterator
@@ -15170,7 +15170,7 @@ REGS
 sp
 [
 -
-1
+2
 ]
 .
 toObject
@@ -15182,7 +15182,8 @@ REGS
 .
 sp
 -
--
+=
+2
 ;
 }
 END_CASE
