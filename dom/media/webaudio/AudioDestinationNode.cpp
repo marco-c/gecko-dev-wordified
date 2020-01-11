@@ -3651,6 +3651,13 @@ config
 mSuspend
 )
 ;
+WindowAudioCaptureChanged
+(
+config
+.
+mCapturedAudio
+)
+;
 }
 }
 /
