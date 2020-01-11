@@ -807,7 +807,7 @@ x86_64
 -
 apple
 -
-darwin17
+darwin18
 .
 7
 .
@@ -835,11 +835,11 @@ path
 '
 ImageMagick
 -
+18
+.
 7
 .
 0
-.
-8
 '
         
 }
