@@ -4614,7 +4614,7 @@ DirectoryLockImpl
 override
 )
 void
-LogState
+Log
 (
 )
 override
@@ -14756,7 +14756,7 @@ void
 DirectoryLockImpl
 :
 :
-LogState
+Log
 (
 )
 {
@@ -15152,7 +15152,7 @@ mBlockedOn
 blockedOn
 -
 >
-LogState
+Log
 (
 )
 ;
