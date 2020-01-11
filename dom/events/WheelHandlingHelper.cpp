@@ -810,7 +810,7 @@ scrollRange
 aScrollFrame
 -
 >
-GetVisualScrollRange
+GetScrollRangeForUserInputEvents
 (
 )
 ;
@@ -820,7 +820,7 @@ directions
 aScrollFrame
 -
 >
-GetAvailableVisualScrollingDirections
+GetAvailableScrollingDirectionsForUserInputEvents
 (
 )
 ;
