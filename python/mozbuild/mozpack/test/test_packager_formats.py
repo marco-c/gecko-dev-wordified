@@ -2457,11 +2457,6 @@ registry
 read_all
 =
 False
-mode
-=
-'
-rt
-'
 )
 :
     
@@ -2505,14 +2500,6 @@ or
 read_all
 :
             
-if
-'
-b
-'
-in
-mode
-:
-                
 result
 [
 k
@@ -2522,26 +2509,6 @@ v
 .
 open
 (
-mode
-)
-.
-read
-(
-)
-            
-else
-:
-                
-result
-[
-k
-]
-=
-v
-.
-open
-(
-mode
 )
 .
 read
@@ -3943,12 +3910,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error
@@ -4029,12 +3995,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error
@@ -4147,12 +4112,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error
@@ -4415,12 +4379,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error
@@ -4510,12 +4473,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error

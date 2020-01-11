@@ -3640,12 +3640,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error
@@ -3844,12 +3843,11 @@ self
 .
 assertEqual
 (
-str
-(
 e
 .
 exception
-)
+.
+message
                          
 '
 Error

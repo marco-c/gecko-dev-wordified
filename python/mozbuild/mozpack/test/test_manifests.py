@@ -146,7 +146,7 @@ open
 (
 f
 '
-wt
+wb
 '
 )
 .
@@ -759,7 +759,7 @@ open
 (
 p
 '
-r
+rb
 '
 )
 as
@@ -864,7 +864,7 @@ open
 (
 p2
 '
-r
+rb
 '
 )
 as
@@ -1290,8 +1290,7 @@ self
 .
 assertEqual
 (
-sorted
-(
+[
 dest
 for
 dest
@@ -1299,7 +1298,7 @@ in
 m
 .
 _dests
-)
+]
                          
 [
 '

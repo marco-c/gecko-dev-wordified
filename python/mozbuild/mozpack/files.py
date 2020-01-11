@@ -102,6 +102,8 @@ import
     
 FileAvoidWrite
     
+ensure_bytes
+    
 ensure_unicode
 )
 from
@@ -500,11 +502,6 @@ length
 =
 -
 1
-mode
-=
-'
-rb
-'
 )
 :
         
@@ -528,7 +525,9 @@ open
 self
 .
 path
-mode
+'
+rb
+'
 )
             
 self
@@ -554,11 +553,6 @@ write
 (
 self
 data
-mode
-=
-'
-wb
-'
 )
 :
         
@@ -582,7 +576,9 @@ open
 self
 .
 path
-mode
+'
+wb
+'
 )
             
 self
@@ -593,35 +589,6 @@ mode
 w
 '
         
-if
-'
-b
-'
-in
-mode
-:
-            
-to_write
-=
-six
-.
-ensure_binary
-(
-data
-)
-        
-else
-:
-            
-to_write
-=
-six
-.
-ensure_text
-(
-data
-)
-        
 return
 self
 .
@@ -629,7 +596,7 @@ file
 .
 write
 (
-to_write
+data
 )
     
 def
@@ -1485,9 +1452,6 @@ self
 .
 open
 (
-'
-rb
-'
 )
         
 copy_content
@@ -1567,23 +1531,10 @@ remainder
 .
             
 if
-(
-six
-.
-ensure_binary
-(
 dest_content
-)
 !
 =
-                
-six
-.
-ensure_binary
-(
 src_content
-)
-)
 :
                 
 dest
@@ -1640,11 +1591,6 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
@@ -1708,9 +1654,9 @@ open
 self
 .
 path
-mode
-=
-mode
+'
+rb
+'
 )
     
 def
@@ -4131,7 +4077,7 @@ self
 .
 depfile
 '
-rt
+rb
 '
 )
 as
@@ -4397,14 +4343,6 @@ self
 _content
 =
 content
-        
-self
-.
-_mode
-=
-'
-rb
-'
     
 property
     
@@ -4414,26 +4352,6 @@ content
 self
 )
 :
-        
-ensure
-=
-(
-six
-.
-ensure_binary
-if
-'
-b
-'
-in
-self
-.
-_mode
-else
-six
-.
-ensure_text
-)
         
 if
 inspect
@@ -4450,22 +4368,16 @@ self
 .
 _content
 =
-ensure
-(
 self
 .
 _content
 (
-)
 )
         
 return
-ensure
-(
 self
 .
 _content
-)
     
 content
 .
@@ -4489,46 +4401,15 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
-self
-.
-_mode
-=
-mode
-        
 return
-(
 BytesIO
 (
 self
 .
 content
-)
-if
-'
-b
-'
-in
-self
-.
-_mode
-                
-else
-six
-.
-StringIO
-(
-self
-.
-content
-)
 )
     
 def
@@ -4640,11 +4521,6 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
@@ -5172,11 +5048,6 @@ def
 open
 (
 self
-mode
-=
-'
-rt
-'
 )
 :
         
@@ -5208,14 +5079,19 @@ manifest
 '
 '
         
-content
-=
+return
+BytesIO
+(
+            
+ensure_bytes
+(
+                
 '
 '
 .
 join
 (
-            
+                    
 '
 %
 s
@@ -5231,7 +5107,7 @@ self
 .
 _base
 )
-            
+                    
 for
 e
 in
@@ -5244,37 +5120,8 @@ self
 .
 _interfaces
 )
+                
 )
-        
-if
-'
-b
-'
-in
-mode
-:
-            
-return
-BytesIO
-(
-six
-.
-ensure_binary
-(
-content
-)
-)
-        
-return
-six
-.
-StringIO
-(
-six
-.
-ensure_text
-(
-content
 )
 )
     
@@ -5419,11 +5266,6 @@ def
 open
 (
 self
-mode
-=
-'
-r
-'
 )
 :
         
@@ -5456,28 +5298,18 @@ file
 '
 '
         
-content
-=
+return
+BytesIO
+(
+b
 '
 '
 .
 join
 (
-            
 l
 for
 l
-in
-[
-                
-six
-.
-ensure_text
-(
-s
-)
-for
-s
 in
 self
 .
@@ -5485,51 +5317,24 @@ _file
 .
 open
 (
-mode
 )
 .
 readlines
 (
 )
-            
-]
+                                
 if
 not
 l
 .
 startswith
 (
+b
 '
 #
 '
 )
 )
-        
-if
-'
-b
-'
-in
-mode
-:
-            
-return
-BytesIO
-(
-six
-.
-ensure_binary
-(
-content
-)
-)
-        
-return
-six
-.
-StringIO
-(
-content
 )
 class
 MinifiedJavaScript
@@ -5588,19 +5393,12 @@ def
 open
 (
 self
-mode
-=
-'
-r
-'
 )
 :
         
 output
 =
-six
-.
-StringIO
+BytesIO
 (
 )
         
@@ -5614,9 +5412,6 @@ _file
 .
 open
 (
-'
-r
-'
 )
 output
 quote_chars
@@ -5659,9 +5454,6 @@ _file
 .
 open
 (
-'
-r
-'
 )
 .
 read
@@ -5679,19 +5471,11 @@ getvalue
 with
 NamedTemporaryFile
 (
-'
-w
-+
-'
 )
 as
 fh1
 NamedTemporaryFile
 (
-'
-w
-+
-'
 )
 as
 fh2
@@ -5759,10 +5543,6 @@ stderr
 subprocess
 .
 STDOUT
-                                        
-universal_newlines
-=
-True
 )
             
 except
@@ -8377,22 +8157,11 @@ client
 cat
 (
 [
-six
-.
-ensure_binary
-(
 path
-)
 ]
-                                   
 rev
 =
-six
-.
-ensure_binary
-(
 rev
-)
 )
     
 def
@@ -8726,6 +8495,7 @@ is
 not
 None
 else
+b
 '
 .
 '
@@ -8768,7 +8538,6 @@ _client
 rawcommand
 (
 [
-            
 b
 '
 files
@@ -8779,15 +8548,12 @@ b
 -
 rev
 '
-six
-.
-ensure_binary
+str
 (
 self
 .
 _rev
 )
-        
 ]
 )
         
@@ -8825,16 +8591,11 @@ self
 .
 _files
 [
-six
-.
-ensure_text
-(
 mozpath
 .
 normpath
 (
 relpath
-)
 )
 ]
 =
