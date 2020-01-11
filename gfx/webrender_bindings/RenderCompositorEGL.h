@@ -191,6 +191,12 @@ RenderCompositorEGL
 bool
 BeginFrame
 (
+layers
+:
+:
+NativeLayer
+*
+aNativeLayer
 )
 override
 ;
