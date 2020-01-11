@@ -657,6 +657,9 @@ class
 ListElementSelectionState
 ;
 class
+ListItemElementSelectionState
+;
+class
 PlaceholderTransaction
 ;
 class
@@ -16488,6 +16491,10 @@ JoinNodeTransaction
 friend
 class
 ListElementSelectionState
+;
+friend
+class
+ListItemElementSelectionState
 ;
 friend
 class
