@@ -222,9 +222,9 @@ window
 /
 /
 Awaiting
-two
+one
 animation
-frames
+frame
 is
 an
 easy
@@ -234,12 +234,6 @@ determine
 autofocus
 state
 .
-await
-waitForAnimationFrame
-(
-targetWindow
-)
-;
 await
 waitForAnimationFrame
 (
