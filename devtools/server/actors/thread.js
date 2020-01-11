@@ -5281,6 +5281,12 @@ findStepOffsets
 (
 parentFrame
 rewinding
+/
+*
+requireStepStart
+*
+/
+false
 )
 ;
 parentFrame
