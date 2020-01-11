@@ -1192,7 +1192,7 @@ Gecko
 "
 -
 -
-with
+no
 -
 conditioned
 -
@@ -1214,7 +1214,7 @@ dest
 "
 :
 "
-with_conditioned_profile
+no_conditioned_profile
 "
             
 "
@@ -1229,7 +1229,7 @@ help
 :
 "
 Run
-using
+without
 the
 conditioned
 profile
@@ -4955,7 +4955,7 @@ config
 get
 (
 '
-with_conditioned_profile
+no_conditioned_profile
 '
 False
 )
@@ -4969,7 +4969,7 @@ extend
 '
 -
 -
-with
+no
 -
 conditioned
 -
@@ -5436,6 +5436,9 @@ suite_categories
 [
 '
 common
+'
+'
+condprof
 '
 '
 raptor
