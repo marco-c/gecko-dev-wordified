@@ -2062,10 +2062,10 @@ FunctionNode
 functionNode
 ;
 uint32_t
-bufStart
+sourceStart
 ;
 uint32_t
-bufEnd
+sourceEnd
 ;
 uint32_t
 startLine
@@ -4611,7 +4611,7 @@ uint32_t
 column
 )
 {
-bufStart
+sourceStart
 =
 offset
 ;
@@ -4668,7 +4668,7 @@ the
 class
 definition
 .
-bufEnd
+sourceEnd
 =
 toStringEnd
 =
