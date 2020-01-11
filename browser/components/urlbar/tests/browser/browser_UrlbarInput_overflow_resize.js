@@ -192,7 +192,7 @@ textoverflow
 =
 =
 "
-start
+left
 "
 "
 Wait
