@@ -263,6 +263,14 @@ OnNetworkChanged
 ;
 virtual
 void
+OnNetworkIDChanged
+(
+)
+=
+0
+;
+virtual
+void
 OnLinkUp
 (
 )
