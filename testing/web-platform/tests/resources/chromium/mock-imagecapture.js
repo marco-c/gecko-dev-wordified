@@ -67,6 +67,10 @@ mojom
 ImageCapture
 .
 name
+"
+context
+"
+true
 )
 ;
 this
