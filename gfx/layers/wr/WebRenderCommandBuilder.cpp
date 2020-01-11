@@ -5995,6 +5995,10 @@ SetHitTestInfo
 (
 mScrollId
 hitInfo
+SideBits
+:
+:
+eNone
 )
 ;
 aBuilder
