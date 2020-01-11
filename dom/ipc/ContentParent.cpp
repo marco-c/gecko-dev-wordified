@@ -6608,6 +6608,13 @@ aOpener
 )
 ;
 }
+if
+(
+recordReplayState
+=
+=
+eNotRecordingOrReplaying
+)
 {
 RefPtr
 <
