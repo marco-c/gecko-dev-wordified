@@ -19881,7 +19881,7 @@ CloneString
 JSContext
 *
 cx
-JSFlatString
+JSLinearString
 *
 selfHostedString
 )
@@ -20893,7 +20893,7 @@ if
 selfHostedString
 -
 >
-isFlat
+isLinear
 (
 )
 )
@@ -20914,7 +20914,7 @@ cx
 selfHostedString
 -
 >
-asFlat
+asLinear
 (
 )
 )
@@ -21170,7 +21170,7 @@ toString
 )
 -
 >
-isFlat
+isLinear
 (
 )
 )
@@ -21180,7 +21180,7 @@ MOZ_CRASH
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 selfHostedString
 =
@@ -21192,7 +21192,7 @@ toString
 )
 -
 >
-asFlat
+asLinear
 (
 )
 ;
