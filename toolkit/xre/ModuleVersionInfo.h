@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_ModuleVersionInfo_windows_h
+mozilla_ModuleVersionInfo_h
 #
 define
-mozilla_ModuleVersionInfo_windows_h
+mozilla_ModuleVersionInfo_h
 #
 include
 <
@@ -467,4 +467,4 @@ mozilla
 endif
 /
 /
-mozilla_ModuleVersionInfo_windows_h
+mozilla_ModuleVersionInfo_h
