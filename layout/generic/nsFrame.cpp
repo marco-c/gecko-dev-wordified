@@ -15861,7 +15861,7 @@ bounds
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 :

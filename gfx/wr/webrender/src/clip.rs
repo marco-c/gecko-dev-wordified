@@ -7057,9 +7057,6 @@ image_mask
 :
 &
 ImageMask
-mask_rect
-:
-LayoutRect
 )
 -
 >
@@ -7070,7 +7067,9 @@ ClipItemKeyKind
 :
 ImageMask
 (
-mask_rect
+image_mask
+.
+rect
 .
 into
 (
