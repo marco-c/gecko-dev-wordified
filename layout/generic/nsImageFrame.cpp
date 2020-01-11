@@ -5935,11 +5935,6 @@ mImage
 )
 ;
 }
-/
-*
-virtual
-*
-/
 LogicalSize
 nsImageFrame
 :
@@ -6160,11 +6155,6 @@ return
 offset
 ;
 }
-/
-*
-virtual
-*
-/
 nscoord
 nsImageFrame
 :
@@ -6253,11 +6243,6 @@ valueOr
 )
 ;
 }
-/
-*
-virtual
-*
-/
 nscoord
 nsImageFrame
 :
@@ -8532,7 +8517,6 @@ aFrame
 )
 {
 }
-virtual
 nsDisplayItemGeometry
 *
 AllocateGeometry
@@ -8541,7 +8525,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
-override
+final
 {
 return
 new
@@ -8552,7 +8536,6 @@ aBuilder
 )
 ;
 }
-virtual
 void
 ComputeInvalidationRegion
 (
@@ -8568,7 +8551,7 @@ nsRegion
 aInvalidRegion
 )
 const
-override
+final
 {
 auto
 geometry
@@ -8631,7 +8614,6 @@ aInvalidRegion
 )
 ;
 }
-virtual
 nsRect
 GetBounds
 (
@@ -8643,7 +8625,7 @@ bool
 aSnap
 )
 const
-override
+final
 {
 *
 aSnap
@@ -8663,7 +8645,6 @@ ToReferenceFrame
 )
 ;
 }
-virtual
 void
 Paint
 (
@@ -8674,7 +8655,7 @@ gfxContext
 *
 aCtx
 )
-override
+final
 {
 /
 /
@@ -8796,7 +8777,7 @@ nsDisplayListBuilder
 *
 aDisplayListBuilder
 )
-override
+final
 {
 uint32_t
 flags
@@ -12740,11 +12721,6 @@ LayerState
 LAYER_ACTIVE
 ;
 }
-/
-*
-virtual
-*
-/
 nsRegion
 nsDisplayImage
 :
@@ -17752,11 +17728,6 @@ return
 false
 ;
 }
-/
-*
-virtual
-*
-/
 void
 nsImageFrame
 :
