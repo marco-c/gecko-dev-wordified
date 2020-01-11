@@ -14598,10 +14598,10 @@ destination
 if
 (
 !
-nsLayoutUtils
+StaticPrefs
 :
 :
-IsSmoothScrollingEnabled
+general_smoothScroll
 (
 )
 )
