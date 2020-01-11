@@ -1630,6 +1630,17 @@ Viewport
 NOT_LEAF
 )
     
+Frame
+(
+"
+WBRFrame
+"
+"
+Wbr
+"
+LEAF
+)
+    
 #
 Non
 -

@@ -719,7 +719,6 @@ ComputedStyle
 aStyle
 )
 ;
-inline
 nsIFrame
 *
 NS_NewWBRFrame
@@ -737,15 +736,7 @@ ComputedStyle
 *
 aStyle
 )
-{
-return
-NS_NewEmptyFrame
-(
-aPresShell
-aStyle
-)
 ;
-}
 nsBlockFrame
 *
 NS_NewColumnSetWrapperFrame
