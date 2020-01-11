@@ -7563,13 +7563,32 @@ calltype
 )
 :
         
-raise
-RustNoncompat
+return
+"
+%
+s
+u
+%
+d
+"
+%
 (
 '
-cenums
-unimplemented
+*
+mut
 '
+if
+'
+out
+'
+in
+calltype
+else
+'
+'
+self
+.
+width
 )
     
 def
