@@ -2814,7 +2814,7 @@ list
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
@@ -2883,7 +2883,7 @@ stack
 .
 *
 /
-MainThreadData
+MainThreadOrGCTaskData
 <
 size_t
 >
