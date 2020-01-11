@@ -344,7 +344,7 @@ constants
 )
 ;
 class
-AccessibilityTreeFilter
+AccessibilityPrefs
 extends
 Component
 {
@@ -708,6 +708,6 @@ connect
 mapStateToProps
 )
 (
-AccessibilityTreeFilter
+AccessibilityPrefs
 )
 ;
