@@ -533,9 +533,13 @@ window
 const
 frameId
 =
-windowUtils
+window
 .
-outerWindowID
+docShell
+.
+browsingContext
+.
+id
 .
 toString
 (

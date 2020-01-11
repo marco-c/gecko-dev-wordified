@@ -1323,7 +1323,9 @@ frameId
 :
 topFrame
 .
-outerWindowID
+browsingContext
+.
+id
 .
 toString
 (
