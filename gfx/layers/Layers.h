@@ -504,6 +504,17 @@ include
 "
 mozilla
 /
+webrender
+/
+WebRenderTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h

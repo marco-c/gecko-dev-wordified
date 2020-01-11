@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsIRequest
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h

@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CycleCollectedJSContext

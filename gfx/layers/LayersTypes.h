@@ -206,13 +206,6 @@ h
 "
 #
 include
-"
-nsStyleConsts
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -337,6 +330,12 @@ IPC
 namespace
 mozilla
 {
+enum
+class
+StyleBorderStyle
+:
+uint8_t
+;
 namespace
 layers
 {

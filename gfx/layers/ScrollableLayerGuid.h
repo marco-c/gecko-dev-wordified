@@ -179,6 +179,17 @@ LayersId
 #
 include
 "
+nsHashKeys
+.
+h
+"
+/
+/
+for
+nsPrintfCString
+#
+include
+"
 nsPrintfCString
 .
 h
