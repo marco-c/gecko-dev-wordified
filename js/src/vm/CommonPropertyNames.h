@@ -3331,6 +3331,15 @@ resolve
 \
 MACRO
 (
+result
+result
+"
+result
+"
+)
+\
+MACRO
+(
 resumeGenerator
 resumeGenerator
 "
