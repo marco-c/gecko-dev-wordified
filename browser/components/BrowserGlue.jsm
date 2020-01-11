@@ -12595,6 +12595,8 @@ idleDispatchToMainThread
 {
 PushService
 .
+wrappedJSObject
+.
 ensureReady
 (
 )
