@@ -33990,6 +33990,16 @@ update
 (
 )
 {
+if
+(
+BrowserHandler
+.
+kiosk
+)
+{
+return
+;
+}
 let
 text
 ;
