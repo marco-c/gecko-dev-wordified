@@ -171,6 +171,15 @@ h
 #
 include
 "
+frontend
+/
+Stencil
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext
@@ -1594,6 +1603,8 @@ pos
 RegExpLiteralType
 newRegExp
 (
+RegExpIndex
+index
 const
 TokenPos
 &
@@ -1606,6 +1617,7 @@ new_
 RegExpLiteral
 >
 (
+index
 pos
 )
 ;
