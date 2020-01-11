@@ -850,9 +850,6 @@ stderr
 "
 pipe
 "
-disclaim
-:
-true
 }
 ;
 return
