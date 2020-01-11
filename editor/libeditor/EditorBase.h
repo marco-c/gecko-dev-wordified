@@ -4377,11 +4377,11 @@ aEditorBase
 const
 EditorRawDOMPoint
 &
-aInsertionPoint
+aInsertionBegin
 const
-nsAString
+EditorRawDOMPoint
 &
-aString
+aInsertionEnd
 )
 ;
 void
