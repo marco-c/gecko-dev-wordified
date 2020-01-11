@@ -212,7 +212,7 @@ defineTestFunc
 =
 testImport
 .
-toSource
+toString
 (
 )
 ;

@@ -113,10 +113,10 @@ test
 =
 eval
 (
-original
-.
-toSource
 (
+{
+original
+}
 )
 .
 replace
