@@ -32089,6 +32089,7 @@ gProtectionsHandler
 .
 onStateChange
 (
+aWebProgress
 aStateFlags
 )
 ;
