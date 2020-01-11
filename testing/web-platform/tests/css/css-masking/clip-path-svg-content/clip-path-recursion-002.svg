@@ -196,7 +196,9 @@ clip
 -
 path
 -
-invisible
+recursion
+-
+002
 -
 ref
 .
@@ -233,16 +235,6 @@ as
 invalid
 clipping
 path
-and
-makes
-the
-element
-disappear
-.
-You
-should
-see
-nothing
 .
 <
 /
