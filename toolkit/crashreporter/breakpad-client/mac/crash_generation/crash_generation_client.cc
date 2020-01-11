@@ -359,8 +359,6 @@ int
 exception_subcode
 mach_port_t
 crashing_thread
-mach_port_t
-crashing_task
 )
 {
 /
@@ -397,12 +395,14 @@ message
 .
 AddDescriptor
 (
-crashing_task
+mach_task_self
+(
+)
 )
 ;
 /
 /
-crashing
+this
 task
 message
 .

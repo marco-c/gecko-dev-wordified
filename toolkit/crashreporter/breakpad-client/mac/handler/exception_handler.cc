@@ -2031,8 +2031,6 @@ breakpad_ucontext_t
 task_context
 mach_port_t
 thread_name
-mach_port_t
-task_name
 bool
 exit_after_write
 bool
@@ -2188,7 +2186,6 @@ exception_type
 exception_code
 exception_subcode
 thread_name
-task_name
 )
 ;
 if
@@ -3139,9 +3136,6 @@ exception_code
 0
 NULL
 thread
-mach_task_self
-(
-)
 false
 false
 )
@@ -3394,9 +3388,6 @@ receive
 thread
 .
 name
-mach_task_self
-(
-)
 true
 false
 )
@@ -3657,9 +3648,6 @@ uc
 mach_thread_self
 (
 )
-mach_task_self
-(
-)
 true
 true
 )
@@ -3698,8 +3686,6 @@ int
 exception_subcode
 mach_port_t
 thread
-mach_port_t
-task
 )
 {
 if
@@ -3727,7 +3713,6 @@ exception_code
 exception_subcode
 NULL
 thread
-task
 /
 *
 exit_after_write
@@ -4498,15 +4483,6 @@ t
 be
 joining
 .
-mozilla
-:
-:
-recordreplay
-:
-:
-AutoPassThroughThreadEvents
-pt
-;
 pthread_attr_t
 attr
 ;

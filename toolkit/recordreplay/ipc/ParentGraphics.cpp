@@ -1222,17 +1222,6 @@ nsACString
 aImageData
 )
 {
-if
-(
-!
-gGraphics
-)
-{
-InitGraphicsSandbox
-(
-)
-;
-}
 nsCOMPtr
 <
 nsIInputStream

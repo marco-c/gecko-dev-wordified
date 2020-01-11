@@ -3151,19 +3151,6 @@ pausedMessage
 message
 )
 ;
-let
-frameLocation
-=
-"
-"
-;
-if
-(
-message
-.
-frame
-)
-{
 const
 {
 source
@@ -3191,6 +3178,7 @@ pop
 (
 )
 ;
+let
 frameLocation
 =
 {
@@ -3216,7 +3204,6 @@ frameLocation
 column
 }
 ;
-}
 }
 return
 dom
