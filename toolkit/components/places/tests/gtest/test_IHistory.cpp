@@ -1240,9 +1240,6 @@ do_get_IHistory
 (
 )
 ;
-nsresult
-rv
-=
 history
 -
 >
@@ -1250,11 +1247,6 @@ UnregisterVisitedCallback
 (
 testURI
 testLink
-)
-;
-do_check_success
-(
-rv
 )
 ;
 /
@@ -1554,8 +1546,6 @@ Unregister
 the
 Link
 .
-rv
-=
 history
 -
 >
@@ -1563,11 +1553,6 @@ UnregisterVisitedCallback
 (
 testURI
 link
-)
-;
-do_check_success
-(
-rv
 )
 ;
 /
@@ -1884,8 +1869,6 @@ been
 /
 notified
 .
-rv
-=
 history
 -
 >
@@ -1893,11 +1876,6 @@ UnregisterVisitedCallback
 (
 testURI
 link
-)
-;
-do_check_success
-(
-rv
 )
 ;
 run_next_test
@@ -2519,8 +2497,6 @@ have
 been
 released
 .
-rv
-=
 history
 -
 >
@@ -2528,11 +2504,6 @@ UnregisterVisitedCallback
 (
 notVisitedURI
 notVisitedLink
-)
-;
-do_check_success
-(
-rv
 )
 ;
 run_next_test
