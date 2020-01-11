@@ -13549,10 +13549,7 @@ forcing
 otherwise
 forcing
 )
-mozilla
-:
-:
-StyleImeMode
+uint8_t
 mIMEMode
 ;
 mozilla

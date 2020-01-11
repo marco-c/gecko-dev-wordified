@@ -191,11 +191,6 @@ engines
 "
 gecko
 "
-gecko_enum_prefix
-=
-"
-StyleImeMode
-"
 gecko_ffi_name
 =
 "
