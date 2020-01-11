@@ -974,8 +974,8 @@ const
 size_t
 start
 const
-BinASTKind
-kind
+FunctionSyntaxKind
+syntaxKind
 FunctionBox
 *
 funbox

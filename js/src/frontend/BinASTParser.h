@@ -1703,9 +1703,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -1724,9 +1721,6 @@ parseInterfaceArrayBinding
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -1747,9 +1741,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -1768,9 +1759,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -1788,9 +1776,6 @@ parseInterfaceAssertedBoundName
 const
 size_t
 start
-const
-BinASTKind
-kind
 AssertedScopeKind
 scopeKind
 const
@@ -1812,9 +1797,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -1832,9 +1814,6 @@ parseInterfaceAssertedDeclaredName
 const
 size_t
 start
-const
-BinASTKind
-kind
 AssertedScopeKind
 scopeKind
 const
@@ -1855,9 +1834,6 @@ parseInterfaceAssertedParameterScope
 const
 size_t
 start
-const
-BinASTKind
-kind
 MutableHandle
 <
 GCVector
@@ -1885,9 +1861,6 @@ parseInterfaceAssertedPositionalParameterName
 const
 size_t
 start
-const
-BinASTKind
-kind
 AssertedScopeKind
 scopeKind
 MutableHandle
@@ -1918,9 +1891,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -1938,9 +1908,6 @@ parseInterfaceAssertedVarScope
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldContext
 &
@@ -1961,9 +1928,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -1982,9 +1946,6 @@ parseInterfaceAssignmentTargetIdentifier
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldContext
 &
@@ -2005,9 +1966,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2026,9 +1984,6 @@ parseInterfaceBinaryExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2049,9 +2004,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2070,9 +2022,6 @@ parseInterfaceBindingWithInitializer
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2093,9 +2042,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2114,9 +2060,6 @@ parseInterfaceBreakStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2137,9 +2080,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2158,9 +2098,6 @@ parseInterfaceCatchClause
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldContext
 &
@@ -2181,9 +2118,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2202,9 +2136,6 @@ parseInterfaceClassExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2225,9 +2156,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2246,9 +2174,6 @@ parseInterfaceComputedMemberAssignmentTarget
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldContext
 &
@@ -2269,9 +2194,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2290,9 +2212,6 @@ parseInterfaceComputedPropertyName
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldContext
 &
@@ -2313,9 +2232,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2334,9 +2250,6 @@ parseInterfaceContinueStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2357,9 +2270,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 ListContext
 &
 context
@@ -2378,9 +2288,6 @@ parseInterfaceDebuggerStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2401,9 +2308,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 ListContext
 &
 context
@@ -2422,9 +2326,6 @@ parseInterfaceDoWhileStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2445,9 +2346,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2466,9 +2364,6 @@ parseInterfaceEagerArrowExpressionWithFunctionBody
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2489,9 +2384,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2510,9 +2402,6 @@ parseInterfaceEagerFunctionExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2533,9 +2422,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 ListContext
 &
 context
@@ -2554,9 +2440,6 @@ parseInterfaceEagerMethod
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 ListContext
 &
@@ -2577,9 +2460,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 ListContext
 &
 context
@@ -2598,9 +2478,6 @@ parseInterfaceEmptyStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2621,9 +2498,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2642,9 +2516,6 @@ parseInterfaceForInOfBinding
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldContext
 &
@@ -2665,9 +2536,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2686,9 +2554,6 @@ parseInterfaceForOfStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2709,9 +2574,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2731,9 +2593,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -2751,9 +2610,6 @@ parseInterfaceFunctionExpressionContents
 const
 size_t
 start
-const
-BinASTKind
-kind
 uint32_t
 funLength
 ListNode
@@ -2782,9 +2638,6 @@ parseInterfaceFunctionOrMethodContents
 const
 size_t
 start
-const
-BinASTKind
-kind
 uint32_t
 funLength
 ListNode
@@ -2813,9 +2666,6 @@ parseInterfaceGetterContents
 const
 size_t
 start
-const
-BinASTKind
-kind
 uint32_t
 funLength
 ListNode
@@ -2846,9 +2696,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2867,9 +2714,6 @@ parseInterfaceIfStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2890,9 +2734,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2911,9 +2752,6 @@ parseInterfaceLazyArrowExpressionWithExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2934,9 +2772,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2955,9 +2790,6 @@ parseInterfaceLazyFunctionDeclaration
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -2978,9 +2810,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -2999,9 +2828,6 @@ parseInterfaceLazyGetter
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 ListContext
 &
@@ -3022,9 +2848,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 ListContext
 &
 context
@@ -3043,9 +2866,6 @@ parseInterfaceLazySetter
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 ListContext
 &
@@ -3066,9 +2886,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3087,9 +2904,6 @@ parseInterfaceLiteralInfinityExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3110,9 +2924,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3131,9 +2942,6 @@ parseInterfaceLiteralNumericExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3154,9 +2962,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -3175,9 +2980,6 @@ parseInterfaceLiteralRegExpExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3198,9 +3000,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3219,9 +3018,6 @@ parseInterfaceModule
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 RootContext
 &
@@ -3242,9 +3038,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3263,9 +3056,6 @@ parseInterfaceNewTargetExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3286,9 +3076,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -3307,9 +3094,6 @@ parseInterfaceObjectBinding
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3330,9 +3114,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3351,9 +3132,6 @@ parseInterfaceReturnStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3374,9 +3152,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 RootContext
 &
 context
@@ -3394,9 +3169,6 @@ parseInterfaceSetterContents
 const
 size_t
 start
-const
-BinASTKind
-kind
 uint32_t
 funLength
 ListNode
@@ -3427,9 +3199,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 ListContext
 &
 context
@@ -3448,9 +3217,6 @@ parseInterfaceSpreadElement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 ListContext
 &
@@ -3471,9 +3237,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -3492,9 +3255,6 @@ parseInterfaceStaticMemberExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3515,9 +3275,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -3536,9 +3293,6 @@ parseInterfaceSwitchCase
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 ListContext
 &
@@ -3559,9 +3313,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldContext
 &
 context
@@ -3580,9 +3331,6 @@ parseInterfaceSwitchStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3603,9 +3351,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3624,9 +3369,6 @@ parseInterfaceTemplateExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3647,9 +3389,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3668,9 +3407,6 @@ parseInterfaceThrowStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3691,9 +3427,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3712,9 +3445,6 @@ parseInterfaceTryFinallyStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3735,9 +3465,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3756,9 +3483,6 @@ parseInterfaceUpdateExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3779,9 +3503,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3800,9 +3521,6 @@ parseInterfaceVariableDeclarator
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 ListContext
 &
@@ -3823,9 +3541,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3844,9 +3559,6 @@ parseInterfaceWithStatement
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
@@ -3867,9 +3579,6 @@ const
 size_t
 start
 const
-BinASTKind
-kind
-const
 FieldOrListContext
 &
 context
@@ -3888,9 +3597,6 @@ parseInterfaceYieldStarExpression
 const
 size_t
 start
-const
-BinASTKind
-kind
 const
 FieldOrListContext
 &
