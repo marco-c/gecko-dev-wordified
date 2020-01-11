@@ -295,6 +295,15 @@ h
 #
 include
 "
+wasm
+/
+WasmUtility
+.
+h
+"
+#
+include
+"
 debugger
 /
 DebugAPI

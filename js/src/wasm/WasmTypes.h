@@ -343,6 +343,15 @@ WasmConstants
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmUtility
+.
+h
+"
 namespace
 js
 {

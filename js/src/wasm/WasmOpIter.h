@@ -224,6 +224,15 @@ include
 "
 wasm
 /
+WasmUtility
+.
+h
+"
+#
+include
+"
+wasm
+/
 WasmValidate
 .
 h

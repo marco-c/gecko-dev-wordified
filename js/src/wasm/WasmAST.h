@@ -228,6 +228,15 @@ WasmTypes
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmUtility
+.
+h
+"
 namespace
 js
 {
