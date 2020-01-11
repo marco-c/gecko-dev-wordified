@@ -662,9 +662,7 @@ LayerMetricsWrapper
 aLayer
 )
 ;
-const
 ScreenMargin
-&
 GetGeckoFixedLayerMargins
 (
 )
