@@ -655,9 +655,6 @@ PromiseAllResolveElementFunctionSlot_Data
 PromiseAllResolveElementFunctionSlot_ElementIndex
 }
 ;
-#
-ifdef
-NIGHTLY_BUILD
 enum
 PromiseAllSettledElementFunctionSlots
 {
@@ -667,8 +664,6 @@ PromiseAllSettledElementFunctionSlot_Data
 PromiseAllSettledElementFunctionSlot_ElementIndex
 }
 ;
-#
-endif
 enum
 ReactionJobSlots
 {
@@ -14892,9 +14887,6 @@ bool
 done
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 static
 MOZ_MUST_USE
 bool
@@ -14918,8 +14910,6 @@ bool
 done
 )
 ;
-#
-endif
 static
 MOZ_MUST_USE
 bool
@@ -14948,12 +14938,7 @@ class
 IterationMode
 {
 All
-#
-ifdef
-NIGHTLY_BUILD
 AllSettled
-#
-endif
 Race
 }
 ;
@@ -15009,7 +14994,7 @@ Promise
 allSettled
 (
 Stage
-3
+4
 proposal
 )
 /
@@ -15125,9 +15110,6 @@ call
 ;
 break
 ;
-#
-ifdef
-NIGHTLY_BUILD
 case
 IterationMode
 :
@@ -15147,8 +15129,6 @@ call
 ;
 break
 ;
-#
-endif
 case
 IterationMode
 :
@@ -15308,9 +15288,6 @@ all
 ;
 break
 ;
-#
-ifdef
-NIGHTLY_BUILD
 case
 IterationMode
 :
@@ -15329,8 +15306,6 @@ allSettled
 ;
 break
 ;
-#
-endif
 case
 IterationMode
 :
@@ -15402,9 +15377,6 @@ done
 ;
 break
 ;
-#
-ifdef
-NIGHTLY_BUILD
 case
 IterationMode
 :
@@ -15425,8 +15397,6 @@ done
 ;
 break
 ;
-#
-endif
 case
 IterationMode
 :
@@ -16944,7 +16914,7 @@ Promise
 allSettled
 (
 Stage
-3
+4
 proposal
 )
 /
@@ -20823,9 +20793,6 @@ getResolveAndReject
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 enum
 class
 PromiseAllSettledElementFunctionKind
@@ -20841,7 +20808,7 @@ Promise
 allSettled
 (
 Stage
-3
+4
 proposal
 )
 /
@@ -20906,7 +20873,7 @@ Promise
 allSettled
 (
 Stage
-3
+4
 proposal
 )
 /
@@ -20979,7 +20946,7 @@ Promise
 allSettled
 (
 Stage
-3
+4
 proposal
 )
 /
@@ -21746,7 +21713,7 @@ Promise
 allSettled
 (
 Stage
-3
+4
 proposal
 )
 /
@@ -22456,11 +22423,6 @@ return
 true
 ;
 }
-#
-endif
-/
-/
-NIGHTLY_BUILD
 /
 /
 https
@@ -38325,9 +38287,6 @@ Promise_static_all
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -38337,8 +38296,6 @@ Promise_static_allSettled
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
