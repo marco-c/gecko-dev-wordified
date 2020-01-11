@@ -231,6 +231,11 @@ TOPICS
 "
 weave
 :
+connected
+"
+"
+weave
+:
 service
 :
 login
