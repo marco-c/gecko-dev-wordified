@@ -704,7 +704,7 @@ of
 ExecutableCodePageSize
 .
 return
-JS_ROUNDUP
+RoundUp
 (
 codeLength
 ExecutableCodePageSize

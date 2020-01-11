@@ -1263,7 +1263,7 @@ capacity
 )
 ;
 return
-JS_HOWMANY
+HowMany
 (
 capacity
 (

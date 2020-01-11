@@ -758,7 +758,7 @@ count
 size_t
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 count
 *
@@ -864,7 +864,7 @@ count
 size_t
 nbytes
 =
-JS_ROUNDUP
+RoundUp
 (
 count
 *

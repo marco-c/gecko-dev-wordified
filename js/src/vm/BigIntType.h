@@ -361,7 +361,10 @@ constexpr
 uintptr_t
 SignBit
 =
-JS_BIT
+js
+:
+:
+Bit
 (
 Base
 :

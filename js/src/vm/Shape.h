@@ -1653,7 +1653,7 @@ const
 uint32_t
 SHAPE_INVALID_SLOT
 =
-JS_BIT
+Bit
 (
 24
 )
@@ -1665,7 +1665,7 @@ const
 uint32_t
 SHAPE_MAXIMUM_SLOT
 =
-JS_BIT
+Bit
 (
 24
 )
@@ -2340,7 +2340,7 @@ const
 uint32_t
 MIN_SIZE
 =
-JS_BIT
+Bit
 (
 MIN_SIZE_LOG2
 )
@@ -2788,7 +2788,7 @@ capacity
 const
 {
 return
-JS_BIT
+Bit
 (
 HASH_BITS
 -
@@ -5873,12 +5873,10 @@ shapes
 .
 SLOT_MASK
 =
-JS_BIT
+BitMask
 (
 24
 )
--
-1
 /
 /
 Number

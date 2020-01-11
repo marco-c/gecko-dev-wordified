@@ -3271,7 +3271,7 @@ if
 slotFromTop
 >
 =
-JS_BIT
+Bit
 (
 24
 )
@@ -13320,7 +13320,7 @@ if
 (
 u
 <
-JS_BIT
+Bit
 (
 16
 )
@@ -13346,7 +13346,7 @@ if
 (
 u
 <
-JS_BIT
+Bit
 (
 24
 )
@@ -14549,7 +14549,7 @@ constexpr
 uint32_t
 MaxResumeIndex
 =
-JS_BITMASK
+BitMask
 (
 24
 )

@@ -402,7 +402,7 @@ entryCount_
 uint32_t
 size
 =
-JS_BIT
+Bit
 (
 sizeLog2
 )
@@ -441,7 +441,7 @@ MIN_SIZE_LOG2
 }
 size
 =
-JS_BIT
+Bit
 (
 sizeLog2
 )
@@ -1574,7 +1574,7 @@ log2Delta
 uint32_t
 oldSize
 =
-JS_BIT
+Bit
 (
 oldLog2
 )
@@ -1582,7 +1582,7 @@ oldLog2
 uint32_t
 newSize
 =
-JS_BIT
+Bit
 (
 newLog2
 )

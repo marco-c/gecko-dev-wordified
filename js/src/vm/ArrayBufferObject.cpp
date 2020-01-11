@@ -5165,7 +5165,7 @@ cur
 uint32_t
 clampedMaxSize
 =
-JS_ROUNDUP
+RoundUp
 (
 cur
 wasm
@@ -5276,7 +5276,7 @@ buffer
 >
 tryGrowMaxSizeInPlace
 (
-JS_ROUNDUP
+RoundUp
 (
 d
 wasm
@@ -6602,7 +6602,7 @@ MAPPED
 )
 {
 return
-JS_ROUNDUP
+RoundUp
 (
 byteLength
 (
@@ -7895,7 +7895,7 @@ buffers
 size_t
 freeInfoSlots
 =
-JS_HOWMANY
+HowMany
 (
 sizeof
 (
@@ -7969,7 +7969,7 @@ MAPPED
 {
 nAllocated
 =
-JS_ROUNDUP
+RoundUp
 (
 nbytes
 js
@@ -8281,7 +8281,7 @@ MaxInlineBytes
 int
 newSlots
 =
-JS_HOWMANY
+HowMany
 (
 nbytes
 sizeof

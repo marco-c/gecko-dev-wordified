@@ -1762,7 +1762,7 @@ const
 size_t
 size
 =
-JS_ROUNDUP
+RoundUp
 (
 sizeof
 (
@@ -7041,7 +7041,7 @@ const
 size_t
 size
 =
-JS_ROUNDUP
+RoundUp
 (
 sizeof
 (

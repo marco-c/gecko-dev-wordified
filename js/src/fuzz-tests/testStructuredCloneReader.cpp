@@ -301,7 +301,7 @@ kSegmentAlignment
 size_t
 buf_size
 =
-JS_ROUNDUP
+RoundUp
 (
 size
 kSegmentAlignment

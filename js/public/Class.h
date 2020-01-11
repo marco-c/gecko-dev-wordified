@@ -4995,7 +4995,10 @@ const
 uint32_t
 JSCLASS_RESERVED_SLOTS_MASK
 =
-JS_BITMASK
+js
+:
+:
+BitMask
 (
 JSCLASS_RESERVED_SLOTS_WIDTH
 )
@@ -5404,7 +5407,10 @@ const
 uint32_t
 JSCLASS_CACHED_PROTO_MASK
 =
-JS_BITMASK
+js
+:
+:
+BitMask
 (
 js
 :
