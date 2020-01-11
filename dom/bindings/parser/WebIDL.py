@@ -42658,6 +42658,18 @@ location
 ]
 )
         
+if
+len
+(
+interface
+.
+_exposureGlobalNames
+)
+!
+=
+0
+:
+            
 mixin
 .
 actualExposureGlobalNames
@@ -42668,6 +42680,21 @@ interface
 .
 _exposureGlobalNames
 )
+        
+else
+:
+            
+mixin
+.
+actualExposureGlobalNames
+.
+add
+(
+scope
+.
+primaryGlobalName
+)
+;
         
 interface
 .
