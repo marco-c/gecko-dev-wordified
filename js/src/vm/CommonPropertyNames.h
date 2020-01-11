@@ -2747,15 +2747,6 @@ notes
 \
 MACRO
 (
-NumberFormat
-NumberFormat
-"
-NumberFormat
-"
-)
-\
-MACRO
-(
 numberingSystem
 numberingSystem
 "
