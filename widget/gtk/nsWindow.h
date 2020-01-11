@@ -3035,6 +3035,16 @@ mCSDSupportLevel
 ;
 /
 /
+Use
+dedicated
+GdkWindow
+for
+mContainer
+bool
+mDrawToContainer
+;
+/
+/
 If
 true
 draw
