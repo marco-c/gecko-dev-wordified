@@ -425,7 +425,7 @@ ways
 of
 naming
 the
-manfest
+manifest
 asset
 even
 though
