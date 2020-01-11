@@ -1222,9 +1222,12 @@ SocketProcessChild
 AllocPWebrtcTCPSocketChild
 (
 const
-PBrowserOrId
+Maybe
+<
+TabId
+>
 &
-browser
+tabId
 )
 {
 /

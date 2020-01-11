@@ -701,7 +701,10 @@ NeckoChild
 AllocPWebrtcTCPSocketChild
 (
 const
+Maybe
+<
 TabId
+>
 &
 tabId
 )

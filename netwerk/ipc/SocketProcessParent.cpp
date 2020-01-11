@@ -733,7 +733,10 @@ SocketProcessParent
 AllocPWebrtcTCPSocketParent
 (
 const
+Maybe
+<
 TabId
+>
 &
 aTabId
 )
