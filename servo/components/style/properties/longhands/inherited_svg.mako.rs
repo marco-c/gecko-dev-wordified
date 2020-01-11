@@ -249,6 +249,11 @@ html
 #
 TextAnchorProperty
 "
+gecko_enum_prefix
+=
+"
+StyleTextAnchor
+"
 )
 }
 /

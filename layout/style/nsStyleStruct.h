@@ -14368,13 +14368,12 @@ mDominantBaseline
 /
 NS_STYLE_DOMINANT_BASELINE_
 *
-uint8_t
+mozilla
+:
+:
+StyleTextAnchor
 mTextAnchor
 ;
-/
-/
-NS_STYLE_TEXT_ANCHOR_
-*
 /
 /
 /

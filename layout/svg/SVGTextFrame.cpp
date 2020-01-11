@@ -30248,7 +30248,7 @@ static
 TextAnchorSide
 ConvertLogicalTextAnchorToPhysical
 (
-uint8_t
+StyleTextAnchor
 aTextAnchor
 bool
 aIsRightToLeft
@@ -30256,7 +30256,10 @@ aIsRightToLeft
 {
 NS_ASSERTION
 (
+uint8_t
+(
 aTextAnchor
+)
 <
 =
 3
@@ -30277,7 +30280,10 @@ aIsRightToLeft
 return
 TextAnchorSide
 (
+uint8_t
+(
 aTextAnchor
+)
 )
 ;
 }
@@ -30286,7 +30292,10 @@ TextAnchorSide
 (
 2
 -
+uint8_t
+(
 aTextAnchor
+)
 )
 ;
 }
