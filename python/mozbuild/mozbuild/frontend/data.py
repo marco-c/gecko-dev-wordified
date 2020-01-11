@@ -7501,7 +7501,7 @@ force
         
 suffixes
 =
-(
+[
             
 '
 .
@@ -7557,6 +7557,53 @@ profdata
 webidl
 '
         
+]
+        
+try
+:
+            
+lib_suffix
+=
+context
+.
+config
+.
+substs
+[
+'
+LIB_SUFFIX
+'
+]
+            
+suffixes
+.
+append
+(
+'
+.
+'
++
+lib_suffix
+)
+        
+except
+KeyError
+:
+            
+#
+Tests
+may
+not
+define
+LIB_SUFFIX
+            
+pass
+        
+suffixes
+=
+tuple
+(
+suffixes
 )
         
 self
