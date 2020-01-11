@@ -1689,7 +1689,7 @@ The
 default
 is
 to
-allow
+deny
 all
 policy
 -
