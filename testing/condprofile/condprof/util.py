@@ -404,16 +404,19 @@ logger
 into
 arsenic
         
+try
+:
+            
 from
 arsenic
 import
 connection
-        
+            
 from
 structlog
 import
 wrap_logger
-        
+            
 logger
 =
 wrap_logger
@@ -426,12 +429,22 @@ processors
 [
 ]
 )
-        
+            
 connection
 .
 log
 =
 logger
+        
+except
+ImportError
+:
+            
+logger
+=
+NullLogger
+(
+)
     
 else
 :

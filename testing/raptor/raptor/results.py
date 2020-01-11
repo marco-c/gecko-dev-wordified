@@ -159,6 +159,10 @@ False
 app
 =
 None
+with_conditioned_profile
+=
+False
+                 
 *
 *
 kwargs
@@ -233,6 +237,12 @@ self
 browser_name
 =
 None
+        
+self
+.
+with_conditioned_profile
+=
+with_conditioned_profile
     
 abstractmethod
     
@@ -1178,6 +1188,23 @@ new_result
 RaptorTestResult
 (
 new_result_json
+)
+        
+if
+self
+.
+with_conditioned_profile
+:
+            
+new_result
+.
+extra_options
+.
+append
+(
+'
+condprof
+'
 )
         
 self
