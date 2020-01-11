@@ -4073,7 +4073,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -5121,7 +5121,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -5204,8 +5204,13 @@ StartTransmitting
 mVideoConduit
 -
 >
-OnSinkWantsChanged
+AddOrUpdateSinkNotLocked
 (
+sink
+.
+get
+(
+)
 wants
 )
 ;
@@ -5315,8 +5320,13 @@ codecConfig
 mVideoConduit
 -
 >
-OnSinkWantsChanged
+AddOrUpdateSinkNotLocked
 (
+sink
+.
+get
+(
+)
 wants
 )
 ;
@@ -5430,8 +5440,13 @@ codecConfig
 mVideoConduit
 -
 >
-OnSinkWantsChanged
+AddOrUpdateSinkNotLocked
 (
+sink
+.
+get
+(
+)
 wants
 )
 ;
@@ -5551,8 +5566,13 @@ codecConfig
 mVideoConduit
 -
 >
-OnSinkWantsChanged
+AddOrUpdateSinkNotLocked
 (
+sink
+.
+get
+(
+)
 wants
 )
 ;
@@ -5795,7 +5815,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -6233,7 +6253,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -9297,7 +9317,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -10061,7 +10081,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -10530,7 +10550,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -10722,7 +10742,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -10827,7 +10847,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -11053,7 +11073,7 @@ max_pixel_count
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -11238,7 +11258,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -11343,7 +11363,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -11442,7 +11462,7 @@ max_pixel_count
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -11525,7 +11545,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -11630,7 +11650,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -11833,7 +11853,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -11940,7 +11960,7 @@ max_pixel_count
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -12135,7 +12155,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -12232,7 +12252,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -12525,7 +12545,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -12645,7 +12665,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -12837,7 +12857,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -12950,7 +12970,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -13087,7 +13107,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
@@ -13250,7 +13270,7 @@ wants
 mVideoConduit
 -
 >
-AddOrUpdateSink
+AddOrUpdateSinkNotLocked
 (
 sink
 .
@@ -13397,7 +13417,7 @@ StopTransmitting
 mVideoConduit
 -
 >
-RemoveSink
+RemoveSinkNotLocked
 (
 sink
 .
