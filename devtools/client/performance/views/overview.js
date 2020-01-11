@@ -112,8 +112,11 @@ EVENTS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+performance
 /
 events
 "
@@ -127,8 +130,11 @@ GraphsController
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+performance
 /
 modules
 /

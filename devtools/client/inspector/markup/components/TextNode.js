@@ -157,8 +157,13 @@ getFormatStr
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+markup
 /
 utils
 /

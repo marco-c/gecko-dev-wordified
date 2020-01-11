@@ -133,8 +133,13 @@ getFormattedTitle
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+animation
 /
 utils
 /

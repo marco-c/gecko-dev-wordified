@@ -71,7 +71,13 @@ removePseudoClassLock
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
+/
+highlighters
 /
 utils
 /

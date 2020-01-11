@@ -87,8 +87,11 @@ ZOOM_VIEWPORT
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+responsive
 /
 actions
 /

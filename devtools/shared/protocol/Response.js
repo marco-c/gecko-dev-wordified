@@ -71,7 +71,11 @@ describeTemplate
 require
 (
 "
-.
+devtools
+/
+shared
+/
+protocol
 /
 utils
 "
@@ -85,7 +89,11 @@ types
 require
 (
 "
-.
+devtools
+/
+shared
+/
+protocol
 /
 types
 "

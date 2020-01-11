@@ -158,8 +158,11 @@ A11Y_TEXT_LABEL_LINKS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

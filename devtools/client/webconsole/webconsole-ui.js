@@ -2345,7 +2345,11 @@ window
 require
 (
 "
-.
+devtools
+/
+client
+/
+webconsole
 /
 webconsole
 -

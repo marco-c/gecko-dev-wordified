@@ -88,8 +88,13 @@ PANELS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

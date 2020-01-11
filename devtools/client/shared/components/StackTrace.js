@@ -150,7 +150,13 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
+/
+components
 /
 Frame
 "

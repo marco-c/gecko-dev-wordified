@@ -1372,8 +1372,9 @@ menuitems
 require
 (
 "
-.
-.
+devtools
+/
+client
 /
 menus
 "
@@ -1788,8 +1789,9 @@ doc
 require
 (
 "
-.
-.
+devtools
+/
+client
 /
 webreplay
 /

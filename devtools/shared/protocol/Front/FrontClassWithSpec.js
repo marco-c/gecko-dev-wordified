@@ -69,8 +69,11 @@ Front
 require
 (
 "
-.
-.
+devtools
+/
+shared
+/
+protocol
 /
 Front
 "

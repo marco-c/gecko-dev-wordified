@@ -108,7 +108,13 @@ TargetMixin
 require
 (
 "
-.
+devtools
+/
+shared
+/
+fronts
+/
+targets
 /
 target
 -

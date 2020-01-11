@@ -69,8 +69,13 @@ TIMING_KEYS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

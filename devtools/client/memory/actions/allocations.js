@@ -70,8 +70,11 @@ ALLOCATION_RECORDING_OPTIONS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 constants
 "

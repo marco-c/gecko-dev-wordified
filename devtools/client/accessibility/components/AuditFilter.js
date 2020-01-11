@@ -131,8 +131,11 @@ isFiltered
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 utils
 /
@@ -148,8 +151,11 @@ FILTERS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

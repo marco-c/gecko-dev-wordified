@@ -85,8 +85,11 @@ PREF_KEYS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

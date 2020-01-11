@@ -118,7 +118,11 @@ UnsolicitedNotifications
 require
 (
 "
-.
+devtools
+/
+shared
+/
+client
 /
 constants
 "

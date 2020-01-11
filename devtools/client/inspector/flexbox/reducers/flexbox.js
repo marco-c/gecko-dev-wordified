@@ -72,8 +72,13 @@ UPDATE_FLEXBOX_HIGHLIGHTED
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+flexbox
 /
 actions
 /

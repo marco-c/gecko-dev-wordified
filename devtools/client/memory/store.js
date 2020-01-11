@@ -67,8 +67,9 @@ createStore
 require
 (
 "
-.
-.
+devtools
+/
+client
 /
 shared
 /
@@ -86,7 +87,11 @@ reducers
 require
 (
 "
-.
+devtools
+/
+client
+/
+memory
 /
 reducers
 "

@@ -171,8 +171,11 @@ L10N
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 utils
 /

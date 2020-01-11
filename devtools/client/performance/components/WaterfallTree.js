@@ -133,7 +133,13 @@ createFactory
 require
 (
 "
-.
+devtools
+/
+client
+/
+performance
+/
+components
 /
 WaterfallTreeRow
 "

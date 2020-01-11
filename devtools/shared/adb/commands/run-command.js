@@ -115,8 +115,11 @@ adbProcess
 require
 (
 "
-.
-.
+devtools
+/
+shared
+/
+adb
 /
 adb
 -
@@ -130,8 +133,11 @@ client
 require
 (
 "
-.
-.
+devtools
+/
+shared
+/
+adb
 /
 adb
 -
