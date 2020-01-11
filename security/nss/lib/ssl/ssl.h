@@ -1609,7 +1609,7 @@ This
 option
 is
 *
-disabled
+enabled
 by
 default
 .
