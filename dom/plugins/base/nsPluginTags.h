@@ -694,8 +694,6 @@ nsPluginInfo
 aPluginInfo
 int64_t
 aLastModifiedTime
-bool
-fromExtension
 uint32_t
 aBlocklistState
 )
@@ -744,8 +742,6 @@ int32_t
 aVariants
 int64_t
 aLastModifiedTime
-bool
-fromExtension
 uint32_t
 aBlocklistState
 bool
@@ -799,8 +795,6 @@ bool
 aSupportsAsyncRender
 int64_t
 aLastModifiedTime
-bool
-aFromExtension
 int32_t
 aSandboxLevel
 uint32_t
@@ -891,12 +885,6 @@ GetNiceFileName
 (
 )
 override
-;
-bool
-IsFromExtension
-(
-)
-const
 ;
 RefPtr
 <
@@ -1000,9 +988,6 @@ mNiceFileName
 UTF
 -
 8
-bool
-mIsFromExtension
-;
 uint32_t
 mBlocklistState
 ;
