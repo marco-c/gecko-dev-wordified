@@ -32554,6 +32554,17 @@ int
 offset
 )
 {
+if
+(
+mFixedBottomOffset
+=
+=
+offset
+)
+{
+return
+;
+}
 mFixedBottomOffset
 =
 offset
