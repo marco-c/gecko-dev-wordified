@@ -208,6 +208,16 @@ url
 perMessageDeflate
 :
 false
+maxPayload
+:
+256
+*
+1024
+*
+1024
+/
+/
+256Mb
 }
 )
 ;

@@ -250,6 +250,16 @@ return
 DEFAULT_TIMEOUT
 ;
 }
+/
+*
+*
+*
+return
+{
+number
+}
+*
+/
 timeout
 (
 )
