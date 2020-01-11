@@ -371,6 +371,13 @@ nsCOMPtr
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -382,6 +389,13 @@ use
 in
 inline
 functions
+#
+include
+"
+nsIUUIDGenerator
+.
+h
+"
 #
 include
 "
@@ -758,6 +772,9 @@ nsCommandManager
 ;
 class
 nsContentList
+;
+class
+nsIDocShell
 ;
 class
 nsDocShell

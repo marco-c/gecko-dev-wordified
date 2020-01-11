@@ -422,6 +422,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsPresContextInlines
 .
 h

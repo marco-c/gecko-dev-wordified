@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIFileStreams
+.
+h
+"
+#
+include
+"
 TemporaryFileBlobImpl
 .
 h

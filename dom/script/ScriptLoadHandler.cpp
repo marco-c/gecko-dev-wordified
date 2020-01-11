@@ -145,7 +145,14 @@ h
 #
 include
 "
-nsICacheInfoChannel
+nsIEncodedChannel
+.
+h
+"
+#
+include
+"
+nsIStringEnumerator
 .
 h
 "

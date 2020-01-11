@@ -132,6 +132,13 @@ PerformanceServerTimingBinding
 .
 h
 "
+#
+include
+"
+nsITimedChannel
+.
+h
+"
 namespace
 mozilla
 {

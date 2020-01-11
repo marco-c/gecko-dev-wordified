@@ -393,7 +393,7 @@ h
 #
 include
 "
-nsIVariant
+nsIXPConnect
 .
 h
 "

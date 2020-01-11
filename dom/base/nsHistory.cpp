@@ -181,6 +181,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsReadableUtils
 .
 h
@@ -189,6 +196,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+nsISHistory
 .
 h
 "

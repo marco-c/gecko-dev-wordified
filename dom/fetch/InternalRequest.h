@@ -174,6 +174,13 @@ h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h

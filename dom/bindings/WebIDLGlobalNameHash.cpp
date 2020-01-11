@@ -272,6 +272,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h

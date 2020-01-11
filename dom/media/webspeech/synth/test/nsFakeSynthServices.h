@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsISpeechService
 .
 h

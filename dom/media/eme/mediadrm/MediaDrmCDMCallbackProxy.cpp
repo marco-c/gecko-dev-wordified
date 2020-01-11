@@ -162,6 +162,13 @@ h
 #
 include
 "
+mozIGeckoMediaPluginService
+.
+h
+"
+#
+include
+"
 nsContentCID
 .
 h

@@ -125,6 +125,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h
@@ -852,6 +859,13 @@ h
 include
 "
 nsGlobalWindow
+.
+h
+"
+#
+include
+"
+nsIScreenManager
 .
 h
 "

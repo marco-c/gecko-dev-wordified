@@ -167,6 +167,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsISupportsPrimitives
 .
 h

@@ -238,6 +238,13 @@ h
 #
 include
 "
+mozIGeckoMediaPluginService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DetailedPromise

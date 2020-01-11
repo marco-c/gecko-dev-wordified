@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 TCPServerSocket
 .
 h

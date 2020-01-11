@@ -465,6 +465,13 @@ h
 #
 include
 "
+nsIServiceWorkerManager
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h

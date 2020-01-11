@@ -291,6 +291,13 @@ h
 #
 include
 "
+nsIMozBrowserFrame
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h

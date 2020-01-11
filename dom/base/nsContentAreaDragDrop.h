@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsIDOMEventListener
+.
+h
+"
+#
+include
+"
 nsITransferable
 .
 h

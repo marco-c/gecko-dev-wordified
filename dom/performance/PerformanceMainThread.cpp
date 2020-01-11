@@ -137,6 +137,13 @@ StaticPrefs_dom
 .
 h
 "
+#
+include
+"
+nsICacheInfoChannel
+.
+h
+"
 namespace
 mozilla
 {

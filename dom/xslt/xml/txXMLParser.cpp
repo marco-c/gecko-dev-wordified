@@ -146,6 +146,13 @@ nsIURI
 .
 h
 "
+#
+include
+"
+nsIPrincipal
+.
+h
+"
 using
 namespace
 mozilla

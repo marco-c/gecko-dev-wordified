@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsIBlocklistService
+.
+h
+"
+#
+include
+"
 nsIPluginTag
 .
 h

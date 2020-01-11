@@ -190,6 +190,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsISupportsPriority
 .
 h

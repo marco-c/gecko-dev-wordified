@@ -172,6 +172,13 @@ nsRefPtrHashtable
 .
 h
 "
+#
+include
+"
+nsIXPConnect
+.
+h
+"
 class
 nsIGlobalObject
 ;

@@ -532,6 +532,13 @@ h
 #
 include
 "
+nsIRandomGenerator
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h
@@ -547,13 +554,6 @@ h
 include
 "
 nsIURL
-.
-h
-"
-#
-include
-"
-nsIUUIDGenerator
 .
 h
 "

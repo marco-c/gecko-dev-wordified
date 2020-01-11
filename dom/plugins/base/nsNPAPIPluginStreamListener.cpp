@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

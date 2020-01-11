@@ -189,6 +189,13 @@ h
 #
 include
 "
+nsITransactionManager
+.
+h
+"
+#
+include
+"
 nsIControllerContext
 .
 h
@@ -218,6 +225,13 @@ h
 include
 "
 nsIDOMEventListener
+.
+h
+"
+#
+include
+"
+nsIEditorObserver
 .
 h
 "

@@ -400,6 +400,13 @@ h
 #
 include
 "
+nsIScriptSecurityManager
+.
+h
+"
+#
+include
+"
 nsMixedContentBlocker
 .
 h

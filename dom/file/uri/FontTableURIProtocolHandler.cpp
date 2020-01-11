@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIURIMutator
+.
+h
+"
+#
+include
+"
 nsIUUIDGenerator
 .
 h

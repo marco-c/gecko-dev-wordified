@@ -123,6 +123,13 @@ mozilla_dom_Request_h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

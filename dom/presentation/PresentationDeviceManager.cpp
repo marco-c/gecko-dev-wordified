@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

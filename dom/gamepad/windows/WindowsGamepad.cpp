@@ -163,6 +163,13 @@ h
 #
 include
 "
+nsIComponentManager
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

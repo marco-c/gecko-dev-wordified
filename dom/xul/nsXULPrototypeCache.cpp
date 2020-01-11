@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -181,6 +188,13 @@ h
 include
 "
 nsIObserverService
+.
+h
+"
+#
+include
+"
+nsIStringStream
 .
 h
 "

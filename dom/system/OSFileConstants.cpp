@@ -490,6 +490,13 @@ h
 #
 include
 "
+nsIPropertyBag2
+.
+h
+"
+#
+include
+"
 nsXPCOMCIDInternal
 .
 h
@@ -574,6 +581,13 @@ h
 include
 "
 OSFileConstants
+.
+h
+"
+#
+include
+"
+nsIOSFileConstantsService
 .
 h
 "

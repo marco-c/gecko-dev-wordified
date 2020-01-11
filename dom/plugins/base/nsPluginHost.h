@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIPrompt
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h

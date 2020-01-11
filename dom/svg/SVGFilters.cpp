@@ -143,6 +143,13 @@ h
 #
 include
 "
+imgIContainer
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

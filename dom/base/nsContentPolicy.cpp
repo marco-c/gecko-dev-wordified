@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIBrowserChild
 .
 h
@@ -206,6 +213,13 @@ h
 include
 "
 nsIImageLoadingContent
+.
+h
+"
+#
+include
+"
+nsILoadContext
 .
 h
 "

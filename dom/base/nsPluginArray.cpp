@@ -171,6 +171,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIWebNavigation
 .
 h

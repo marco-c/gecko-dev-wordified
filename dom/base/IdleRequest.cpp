@@ -191,6 +191,13 @@ h
 #
 include
 "
+nsISupportsPrimitives
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

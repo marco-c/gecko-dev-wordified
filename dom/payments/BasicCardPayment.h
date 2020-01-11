@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsIPaymentAddress
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

@@ -147,6 +147,13 @@ Monitor
 .
 h
 "
+#
+include
+"
+nsIThread
+.
+h
+"
 namespace
 mozilla
 {

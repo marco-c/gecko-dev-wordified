@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -152,6 +159,13 @@ h
 include
 "
 nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
+nsIXPConnect
 .
 h
 "

@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsIStreamLoader
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

@@ -232,6 +232,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 SMILCompositor
 .
 h

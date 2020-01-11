@@ -307,6 +307,13 @@ h
 #
 include
 "
+nsIURL
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

@@ -198,6 +198,13 @@ Types
 .
 h
 "
+#
+include
+"
+nsIThread
+.
+h
+"
 namespace
 mozilla
 {

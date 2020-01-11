@@ -271,6 +271,13 @@ h
 #
 include
 "
+nsIComponentManager
+.
+h
+"
+#
+include
+"
 nsIConstraintValidation
 .
 h
@@ -318,6 +325,13 @@ h
 include
 "
 nsIFrame
+.
+h
+"
+#
+include
+"
+nsISupportsPrimitives
 .
 h
 "

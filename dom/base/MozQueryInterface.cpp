@@ -130,6 +130,13 @@ h
 "
 #
 include
+"
+nsIException
+.
+h
+"
+#
+include
 <
 string
 .

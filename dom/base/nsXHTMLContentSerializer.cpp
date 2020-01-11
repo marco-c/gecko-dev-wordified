@@ -223,6 +223,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsIDocumentEncoder
 .
 h

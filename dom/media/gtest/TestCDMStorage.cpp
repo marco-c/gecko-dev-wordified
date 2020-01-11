@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h

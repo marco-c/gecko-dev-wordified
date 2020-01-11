@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsIURL
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

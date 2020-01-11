@@ -161,6 +161,13 @@ nsINode
 .
 h
 "
+#
+include
+"
+nsISelectionController
+.
+h
+"
 class
 nsPresContext
 ;

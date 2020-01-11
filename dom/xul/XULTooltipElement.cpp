@@ -161,13 +161,6 @@ nsCTooltipTextProvider
 .
 h
 "
-#
-include
-"
-nsITooltipTextProvider
-.
-h
-"
 namespace
 mozilla
 {

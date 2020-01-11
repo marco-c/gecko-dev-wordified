@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsComponentManagerUtils
-.
-h
-"
-#
-include
-"
 nsIGeolocationProvider
 .
 h

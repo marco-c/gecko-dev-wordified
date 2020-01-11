@@ -252,13 +252,6 @@ h
 #
 include
 "
-nsIXPConnect
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

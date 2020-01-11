@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIComponentManager
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
