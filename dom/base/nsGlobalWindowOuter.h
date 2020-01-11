@@ -3283,8 +3283,7 @@ mozilla
 dom
 :
 :
-BrowsingContext
-*
+WindowProxyHolder
 GetFramesOuter
 (
 )

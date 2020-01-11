@@ -38408,8 +38408,7 @@ forget
 )
 ;
 }
-BrowsingContext
-*
+WindowProxyHolder
 nsGlobalWindowOuter
 :
 :
@@ -38435,7 +38434,10 @@ ContentAndNotify
 )
 ;
 return
+WindowProxyHolder
+(
 mBrowsingContext
+)
 ;
 }
 /
