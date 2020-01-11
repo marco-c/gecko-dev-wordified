@@ -1491,7 +1491,7 @@ fakeElement
 .
 addEventListener
 "
-click
+keypress
 "
 instance
 .
@@ -3267,7 +3267,7 @@ target
 .
 removeEventListener
 "
-click
+keypress
 "
 instance
 .
@@ -3431,7 +3431,7 @@ target
 .
 removeEventListener
 "
-click
+keypress
 "
 instance
 .

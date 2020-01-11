@@ -1108,7 +1108,7 @@ target
 removeEventListener
 (
 "
-click
+keypress
 "
 this
 .
@@ -1697,7 +1697,7 @@ removeAllNotifications
 ;
 /
 /
-click
+keypress
 event
 required
 for
@@ -1708,7 +1708,7 @@ toolbarbutton
 addEventListener
 (
 "
-click
+keypress
 "
 this
 .
