@@ -705,6 +705,17 @@ browsertime
 :
 bool
     
+Optional
+(
+'
+gecko
+-
+profile
+'
+)
+:
+bool
+    
 #
 Keep
 in

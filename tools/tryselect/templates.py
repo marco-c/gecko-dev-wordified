@@ -1171,7 +1171,7 @@ prio
 class
 GeckoProfile
 (
-Template
+TryConfig
 )
 :
     
@@ -1340,7 +1340,7 @@ SUPPRESS
 ]
     
 def
-context
+try_config
 (
 self
 profile
@@ -1351,21 +1351,20 @@ kwargs
 :
         
 if
-not
 profile
 :
             
 return
-        
-return
 {
+                
 '
 gecko
 -
 profile
 '
 :
-profile
+True
+            
 }
 class
 Browsertime
