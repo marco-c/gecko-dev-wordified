@@ -155,9 +155,6 @@ class
 SpeechSynthesis
 ;
 class
-SynthStreamListener
-;
-class
 nsSpeechTask
 :
 public
@@ -167,10 +164,6 @@ nsIAudioChannelAgentCallback
 public
 nsSupportsWeakReference
 {
-friend
-class
-SynthStreamListener
-;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
