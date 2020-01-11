@@ -422,9 +422,6 @@ viewCertHelper
 (
 window
 gCert
-"
-window
-"
 )
 ;
 }
