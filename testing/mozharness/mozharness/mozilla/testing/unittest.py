@@ -1353,7 +1353,7 @@ self
 .
 harness_error_re
 .
-match
+search
 (
 line
 )
@@ -1412,7 +1412,7 @@ self
 .
 full_harness_error_re
 .
-match
+search
 (
 line
 )
