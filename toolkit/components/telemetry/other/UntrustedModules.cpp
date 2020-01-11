@@ -1940,7 +1940,7 @@ strProcType
 .
 Rebind
 (
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 aData
 .

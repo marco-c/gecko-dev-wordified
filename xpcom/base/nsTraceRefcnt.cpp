@@ -1777,7 +1777,7 @@ d
 n
 "
 aMsg
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 XRE_GetProcessType
 (
@@ -3665,7 +3665,7 @@ char
 *
 processType
 =
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 XRE_GetProcessType
 (
@@ -5750,7 +5750,7 @@ logProcessEnv
 strcmp
 (
 logProcessEnv
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 XRE_GetProcessType
 (

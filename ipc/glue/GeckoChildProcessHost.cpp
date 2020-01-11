@@ -1179,7 +1179,7 @@ ChildProcessType
 )
 {
 return
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 mProcessType
 )
@@ -4278,7 +4278,7 @@ launch
 "
 <
 <
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 mProcessType
 )
@@ -4299,7 +4299,7 @@ Telemetry
 SUBPROCESS_LAUNCH_FAILURE
 nsDependentCString
 (
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 mProcessType
 )
