@@ -260,11 +260,14 @@ new
 tab
 .
 await
+Promise
+.
+all
+(
+[
 click
 (
 )
-;
-await
 BrowserTestUtils
 .
 waitForNewTab
@@ -272,6 +275,8 @@ waitForNewTab
 gBrowser
 URL2
 true
+)
+]
 )
 ;
 is
