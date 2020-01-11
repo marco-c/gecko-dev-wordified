@@ -6264,15 +6264,6 @@ PictureInPicture
 Close
 "
 {
-browingContextId
-:
-this
-.
-docShell
-.
-browsingContext
-.
-id
 reason
 }
 )
