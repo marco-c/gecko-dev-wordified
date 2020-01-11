@@ -10082,13 +10082,12 @@ mozilla
 StyleOrient
 mOrient
 ;
-uint8_t
+mozilla
+:
+:
+StyleIsolation
 mIsolation
 ;
-/
-/
-NS_STYLE_ISOLATION_
-*
 mozilla
 :
 :
