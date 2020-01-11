@@ -4262,24 +4262,6 @@ checkDefaultBrowser
 False
         
 #
-Disable
-e10s
-by
-default
-        
-"
-browser
-.
-tabs
-.
-remote
-.
-autostart
-"
-:
-False
-        
-#
 Needed
 for
 branded
