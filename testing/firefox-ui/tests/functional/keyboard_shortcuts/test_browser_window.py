@@ -212,10 +212,17 @@ content
 :
         
 #
+Wait
+(
 self
 .
-wait_for_condition
+marionette
+)
+.
+until
 (
+        
+#
 lambda
 mn
 :
@@ -231,6 +238,24 @@ about
 :
 addons
 "
+        
+#
+message
+=
+"
+Url
+does
+not
+match
+with
+'
+about
+:
+addons
+'
+"
+        
+#
 )
         
 #
