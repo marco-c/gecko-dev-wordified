@@ -3308,13 +3308,13 @@ supportsSession
 submit_frame_sink
 =
 {
-clientRequest
+clientReceiver
 :
 this
 .
 presentation_provider_
 .
-getClientRequest
+getClientReceiver
 (
 )
 provider
@@ -5439,7 +5439,7 @@ return
 providerPtr
 ;
 }
-getClientRequest
+getClientReceiver
 (
 )
 {
