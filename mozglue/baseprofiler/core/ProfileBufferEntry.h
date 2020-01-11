@@ -2108,7 +2108,7 @@ number
 /
 /
 "
-eventDelay
+responsiveness
 "
 :
 2
@@ -2151,7 +2151,7 @@ time
 0
 .
 0
-eventDelay
+responsiveness
 :
 0
 .

@@ -2304,7 +2304,7 @@ STACK
 TIME
 =
 1
-EVENT_DELAY
+RESPONSIVENESS
 =
 2
 }
@@ -2351,7 +2351,7 @@ writer
 .
 DoubleElement
 (
-EVENT_DELAY
+RESPONSIVENESS
 *
 aSample
 .
