@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGPU_TEXTURE_VIEW_H_
+GPU_TextureView_H_
 #
 define
-WEBGPU_TEXTURE_VIEW_H_
+GPU_TextureView_H_
 #
 include
 "
@@ -127,6 +127,8 @@ TextureView
 final
 :
 public
+ObjectBase
+public
 ChildOf
 <
 Device
@@ -134,7 +136,11 @@ Device
 {
 public
 :
-WEBGPU_DECL_GOOP
+GPU_DECL_CYCLE_COLLECTION
+(
+TextureView
+)
+GPU_DECL_JS_WRAP
 (
 TextureView
 )
@@ -168,4 +174,4 @@ mozilla
 endif
 /
 /
-WEBGPU_TEXTURE_VIEW_H_
+GPU_TextureView_H_
