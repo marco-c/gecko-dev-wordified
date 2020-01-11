@@ -275,6 +275,8 @@ WriteTime
 (
 aWriter
 aProcessStartTime
+mCommonProps
+.
 mStartTime
 "
 startTime
@@ -285,6 +287,8 @@ WriteTime
 (
 aWriter
 aProcessStartTime
+mCommonProps
+.
 mEndTime
 "
 endTime
@@ -293,6 +297,8 @@ endTime
 ;
 if
 (
+mCommonProps
+.
 mDocShellId
 )
 {
@@ -303,6 +309,8 @@ StringProperty
 "
 docShellId
 "
+mCommonProps
+.
 mDocShellId
 -
 >
@@ -314,6 +322,8 @@ c_str
 }
 if
 (
+mCommonProps
+.
 mDocShellHistoryId
 )
 {
@@ -324,6 +334,8 @@ DoubleProperty
 "
 docshellHistoryId
 "
+mCommonProps
+.
 mDocShellHistoryId
 .
 ref
@@ -334,6 +346,8 @@ ref
 }
 if
 (
+mCommonProps
+.
 mStack
 )
 {
@@ -347,6 +361,8 @@ stack
 )
 ;
 {
+mCommonProps
+.
 mStack
 -
 >
