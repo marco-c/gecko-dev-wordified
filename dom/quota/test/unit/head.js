@@ -1617,6 +1617,10 @@ function
 getPrincipal
 (
 url
+attr
+=
+{
+}
 )
 {
 let
@@ -1680,8 +1684,7 @@ ssm
 createContentPrincipal
 (
 uri
-{
-}
+attr
 )
 ;
 }
