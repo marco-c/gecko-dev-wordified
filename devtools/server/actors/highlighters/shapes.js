@@ -16798,10 +16798,7 @@ radii
 =
 splitCoords
 (
-values
-[
-0
-]
+radii
 )
 .
 map
