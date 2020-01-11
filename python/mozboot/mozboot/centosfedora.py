@@ -980,6 +980,24 @@ current
 )
 :
         
+if
+current
+is
+None
+:
+            
+self
+.
+dnf_install
+(
+'
+mercurial
+'
+)
+        
+else
+:
+            
 self
 .
 dnf_update
