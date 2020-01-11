@@ -2535,14 +2535,6 @@ javascript
 return
 ;
 }
-match
-.
-providerName
-=
-provider
-.
-name
-;
 this
 .
 context
