@@ -2392,7 +2392,7 @@ Exception
 (
 "
 StyleBench
-has
+requires
 380
 entries
 found
@@ -2401,6 +2401,7 @@ found
 s
 instead
 "
+                            
 %
 len
 (
