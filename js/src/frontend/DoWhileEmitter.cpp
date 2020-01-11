@@ -309,7 +309,6 @@ emitLoopHead
 (
 bce_
 bodyPos
-SRC_DO_WHILE
 )
 )
 {

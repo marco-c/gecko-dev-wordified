@@ -836,8 +836,6 @@ uint32_t
 >
 &
 nextPos
-SrcNoteType
-type
 )
 ;
 MOZ_MUST_USE
