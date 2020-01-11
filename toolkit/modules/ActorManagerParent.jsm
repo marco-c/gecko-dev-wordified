@@ -1946,6 +1946,13 @@ capture
 :
 true
 }
+MozStopPictureInPicture
+:
+{
+capture
+:
+true
+}
 }
 messages
 :
