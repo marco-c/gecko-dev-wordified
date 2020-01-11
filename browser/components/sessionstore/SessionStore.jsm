@@ -17476,6 +17476,11 @@ let
 browsingContext
 ;
 let
+isSubframe
+=
+false
+;
+let
 cp
 =
 channel
@@ -17514,6 +17519,10 @@ channel
 loadInfo
 .
 frameBrowsingContext
+;
+isSubframe
+=
+true
 ;
 }
 if
@@ -18105,6 +18114,7 @@ true
 useRemoteSubframes
 preferredRemoteType
 currentPrincipal
+isSubframe
 )
 ;
 debug
