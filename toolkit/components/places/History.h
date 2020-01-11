@@ -1280,13 +1280,6 @@ moment
 Mutex
 mShutdownMutex
 ;
-nsDataHashtable
-<
-nsURIHashKey
-TrackedURI
->
-mTrackedURIs
-;
 /
 *
 *
