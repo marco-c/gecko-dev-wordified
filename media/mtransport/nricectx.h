@@ -1783,7 +1783,7 @@ before
 StartGathering
 .
 nsresult
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

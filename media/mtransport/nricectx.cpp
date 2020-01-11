@@ -5276,7 +5276,7 @@ nsresult
 NrIceCtx
 :
 :
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

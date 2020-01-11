@@ -522,7 +522,7 @@ process
 .
 virtual
 void
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

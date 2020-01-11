@@ -938,7 +938,7 @@ IPCResult
 MediaTransportParent
 :
 :
-RecvSetProxyServer
+RecvSetProxyConfig
 (
 const
 dom
@@ -966,7 +966,7 @@ mImpl
 mHandler
 -
 >
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 (

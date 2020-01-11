@@ -222,7 +222,7 @@ own
 process
 .
 void
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &

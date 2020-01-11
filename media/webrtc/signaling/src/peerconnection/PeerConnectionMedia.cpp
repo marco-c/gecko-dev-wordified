@@ -2621,7 +2621,7 @@ code
 mTransportHandler
 -
 >
-SetProxyServer
+SetProxyConfig
 (
 std
 :

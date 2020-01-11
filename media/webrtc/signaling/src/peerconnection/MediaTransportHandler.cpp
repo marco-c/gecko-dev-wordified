@@ -440,7 +440,7 @@ own
 process
 .
 void
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &
@@ -3383,7 +3383,7 @@ void
 MediaTransportHandlerSTS
 :
 :
-SetProxyServer
+SetProxyConfig
 (
 NrSocketProxyConfig
 &
@@ -3426,7 +3426,7 @@ mutable
 mIceCtx
 -
 >
-SetProxyServer
+SetProxyConfig
 (
 std
 :
