@@ -397,7 +397,7 @@ properties
 :
 :
 SourcePropertyDeclaration
-608
+600
 )
 ;
 size_of_test
