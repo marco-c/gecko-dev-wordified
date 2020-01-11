@@ -1488,7 +1488,7 @@ loadPrivilegedScript
 (
 loadPrivilegedScriptTest
 .
-toSource
+toString
 (
 )
 )
@@ -1504,7 +1504,7 @@ ok
 false
 "
 loadPrivilegedScript
-shoulde
+should
 not
 throw
 "
