@@ -858,6 +858,7 @@ CompileError
 /
 cannot
 expose
+indexed
 reference
 type
 /
@@ -995,6 +996,7 @@ CompileError
 /
 cannot
 expose
+indexed
 reference
 type
 /
