@@ -19681,7 +19681,7 @@ blocklist
 .
 useXML
 "
-false
+true
 (
 )
 =
