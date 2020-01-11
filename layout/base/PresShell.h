@@ -17400,6 +17400,8 @@ ownership
 /
 /
 mDocument
+and
+mPresContext
 should
 '
 ve
@@ -17409,10 +17411,10 @@ cleared
 nor
 swapped
 with
+/
+/
 another
 instance
-/
-/
 while
 PresShell
 instance
@@ -17425,14 +17427,14 @@ it
 s
 safe
 to
+/
+/
 call
 their
 can
 -
 run
 -
-/
-/
 script
 methods
 without
@@ -17451,6 +17453,7 @@ RefPtr
 <
 nsPresContext
 >
+const
 mPresContext
 ;
 /
