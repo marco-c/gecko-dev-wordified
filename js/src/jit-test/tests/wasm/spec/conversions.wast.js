@@ -13926,6 +13926,7 @@ i32
 trunc_f32_s
 "
 [
+-
 NaN
 ]
 )
@@ -14178,6 +14179,7 @@ i32
 trunc_f32_s
 "
 [
+-
 NaN
 ]
 )
@@ -19483,6 +19485,7 @@ i32
 trunc_f32_u
 "
 [
+-
 NaN
 ]
 )
@@ -19735,6 +19738,7 @@ i32
 trunc_f32_u
 "
 [
+-
 NaN
 ]
 )
@@ -25492,6 +25496,7 @@ i32
 trunc_f64_s
 "
 [
+-
 NaN
 ]
 )
@@ -25752,6 +25757,7 @@ i32
 trunc_f64_s
 "
 [
+-
 NaN
 ]
 )
@@ -32286,6 +32292,7 @@ i32
 trunc_f64_u
 "
 [
+-
 NaN
 ]
 )
@@ -32546,6 +32553,7 @@ i32
 trunc_f64_u
 "
 [
+-
 NaN
 ]
 )
@@ -38805,6 +38813,7 @@ i64
 trunc_f32_s
 "
 [
+-
 NaN
 ]
 )
@@ -39057,6 +39066,7 @@ i64
 trunc_f32_s
 "
 [
+-
 NaN
 ]
 )
@@ -43889,6 +43899,7 @@ i64
 trunc_f32_u
 "
 [
+-
 NaN
 ]
 )
@@ -44141,6 +44152,7 @@ i64
 trunc_f32_u
 "
 [
+-
 NaN
 ]
 )
@@ -50584,6 +50596,7 @@ i64
 trunc_f64_s
 "
 [
+-
 NaN
 ]
 )
@@ -50844,6 +50857,7 @@ i64
 trunc_f64_s
 "
 [
+-
 NaN
 ]
 )
@@ -56994,6 +57008,7 @@ i64
 trunc_f64_u
 "
 [
+-
 NaN
 ]
 )
@@ -57254,6 +57269,7 @@ i64
 trunc_f64_u
 "
 [
+-
 NaN
 ]
 )
@@ -85043,7 +85059,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -85061,6 +85077,9 @@ promote_f32
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -85351,7 +85370,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -85369,6 +85388,9 @@ promote_f32
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -85659,7 +85681,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -85674,9 +85696,13 @@ f64
 promote_f32
 "
 [
+-
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -85967,7 +85993,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -85982,9 +86008,13 @@ f64
 promote_f32
 "
 [
+-
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -98312,7 +98342,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -98330,6 +98360,9 @@ demote_f64
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -98606,7 +98639,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -98624,6 +98657,9 @@ demote_f64
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -98900,7 +98936,7 @@ run
 ;
 /
 /
-assert_return_canonical_nan
+assert_return
 (
 (
 )
@@ -98915,9 +98951,13 @@ f32
 demote_f64
 "
 [
+-
 NaN
 ]
 )
+nan
+:
+canonical
 )
 /
 /
@@ -99194,7 +99234,7 @@ run
 ;
 /
 /
-assert_return_arithmetic_nan
+assert_return
 (
 (
 )
@@ -99209,9 +99249,13 @@ f32
 demote_f64
 "
 [
+-
 NaN
 ]
 )
+nan
+:
+arithmetic
 )
 /
 /
@@ -102064,6 +102108,7 @@ reinterpret_i32
 1
 ]
 )
+-
 NaN
 )
 /
@@ -103781,6 +103826,7 @@ reinterpret_i32
 4_194_304
 ]
 )
+-
 NaN
 )
 /
@@ -104350,6 +104396,7 @@ reinterpret_i32
 6_291_456
 ]
 )
+-
 NaN
 )
 /
@@ -105226,6 +105273,7 @@ int64
 )
 ]
 )
+-
 NaN
 )
 /
@@ -107380,6 +107428,7 @@ int64
 )
 ]
 )
+-
 NaN
 )
 /
@@ -107993,6 +108042,7 @@ int64
 )
 ]
 )
+-
 NaN
 )
 /
@@ -109114,6 +109164,7 @@ i32
 reinterpret_f32
 "
 [
+-
 NaN
 ]
 )
@@ -111695,6 +111746,7 @@ i32
 reinterpret_f32
 "
 [
+-
 NaN
 ]
 )
@@ -112264,6 +112316,7 @@ i32
 reinterpret_f32
 "
 [
+-
 NaN
 ]
 )
@@ -113446,6 +113499,7 @@ i64
 reinterpret_f64
 "
 [
+-
 NaN
 ]
 )
@@ -116226,6 +116280,7 @@ i64
 reinterpret_f64
 "
 [
+-
 NaN
 ]
 )
@@ -116839,6 +116894,7 @@ i64
 reinterpret_f64
 "
 [
+-
 NaN
 ]
 )

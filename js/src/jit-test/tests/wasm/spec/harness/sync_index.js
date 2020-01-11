@@ -1946,8 +1946,17 @@ e
 instanceof
 WebAssembly
 .
+LinkError
+|
+|
+e
+instanceof
+WebAssembly
+.
 RuntimeError
 expected
+link
+or
 runtime
 error
 observed
