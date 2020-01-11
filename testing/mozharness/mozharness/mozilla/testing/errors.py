@@ -1164,6 +1164,12 @@ CRASH
 *
 \
 |
+[
+^
+\
+|
+]
+*
 (
 application
 crashed
