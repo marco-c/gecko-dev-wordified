@@ -1864,6 +1864,10 @@ _debuggerNotificationObserver
 disconnect
 (
 global
+.
+unsafeDereference
+(
+)
 )
 ;
 }
@@ -3556,6 +3560,10 @@ _debuggerNotificationObserver
 connect
 (
 global
+.
+unsafeDereference
+(
+)
 )
 ;
 }
