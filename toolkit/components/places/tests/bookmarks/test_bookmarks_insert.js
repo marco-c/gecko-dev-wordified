@@ -2634,7 +2634,7 @@ promiseAsyncUpdates
 ;
 Assert
 .
-ok
+greater
 (
 frecencyForUrl
 (
@@ -2642,7 +2642,6 @@ bm
 .
 url
 )
->
 0
 "
 Check
