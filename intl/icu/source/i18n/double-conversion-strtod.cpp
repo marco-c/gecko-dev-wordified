@@ -4483,7 +4483,7 @@ simply
 look
 at
 the
-neighbors
+neigbors
 of
 the
 correct
