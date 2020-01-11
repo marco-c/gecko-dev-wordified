@@ -1520,13 +1520,6 @@ catch
 e
 )
 {
-log
-.
-warn
-(
-e
-)
-;
 this
 .
 onError
