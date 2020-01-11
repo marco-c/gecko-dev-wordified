@@ -3796,10 +3796,12 @@ derive
 Clone
 Copy
 Debug
+Deserialize
 Eq
 MallocSizeOf
 PartialEq
 PartialOrd
+Serialize
 ToShmem
 )
 ]

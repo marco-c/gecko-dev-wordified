@@ -179,17 +179,6 @@ selectors
 ;
 #
 [
-cfg
-(
-feature
-=
-"
-servo
-"
-)
-]
-#
-[
 macro_use
 ]
 extern
