@@ -327,6 +327,13 @@ await
 onToolboxDestroy
 ;
 await
+debuggerClient
+.
+close
+(
+)
+;
+await
 removeTab
 (
 targetTab

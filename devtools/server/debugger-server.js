@@ -838,6 +838,11 @@ hasConnection
 )
 {
 return
+this
+.
+_connections
+&
+&
 Object
 .
 keys
