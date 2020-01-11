@@ -949,6 +949,7 @@ ACK
 derive
 (
 Debug
+Clone
 )
 ]
 pub
