@@ -1301,16 +1301,14 @@ be
 inserted
 including
 the
-number
+length
 of
 /
 /
-characters
-in
 mHeader
 .
 int32_t
-mWidth
+mLength
 =
 0
 ;
@@ -1450,7 +1448,7 @@ mCiteQuoteLevel
 +
 mIndentation
 .
-mWidth
+mLength
 ;
 }
 Indentation

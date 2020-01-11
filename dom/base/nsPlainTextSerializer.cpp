@@ -4189,7 +4189,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kIndentSizeList
@@ -4328,7 +4328,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kIndentSizeList
@@ -4626,7 +4626,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kIndentSizeDD
@@ -4698,7 +4698,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kTabSize
@@ -5104,7 +5104,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kIndentSizeHeaders
@@ -5255,7 +5255,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kIndentSizeHeaders
@@ -5295,7 +5295,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 +
 =
 kIndentIncrementHeaders
@@ -6167,7 +6167,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 -
 =
 kIndentSizeList
@@ -6231,7 +6231,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 -
 =
 kIndentSizeList
@@ -6316,7 +6316,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 -
 =
 kIndentSizeDD
@@ -6457,7 +6457,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 -
 =
 kTabSize
@@ -6922,7 +6922,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 -
 =
 kIndentSizeHeaders
@@ -6978,7 +6978,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 -
 =
 kIndentIncrementHeaders
@@ -9811,7 +9811,7 @@ mCurrentLine
 .
 mIndentation
 .
-mWidth
+mLength
 =
 =
 0
@@ -10270,7 +10270,7 @@ indentwidth
 =
 mIndentation
 .
-mWidth
+mLength
 -
 mIndentation
 .
