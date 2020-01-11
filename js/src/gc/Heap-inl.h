@@ -323,6 +323,10 @@ ArenaCellSet
 Empty
 ;
 }
+unmarkAll
+(
+)
+;
 setAsFullyUnused
 (
 )
