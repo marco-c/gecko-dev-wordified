@@ -359,11 +359,6 @@ crashreporter_linux
 .
 cpp
 void
-SaveSettings
-(
-)
-;
-void
 SendReport
 (
 )
