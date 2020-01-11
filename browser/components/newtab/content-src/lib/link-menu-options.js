@@ -460,7 +460,7 @@ message
 to
 DiscoveryStream
 with
-campaign_id
+flight_id
 .
 /
 /
@@ -471,7 +471,7 @@ this
 message
 for
 a
-campaign_id
+flight_id
 /
 /
 it
@@ -480,7 +480,7 @@ blocks
 it
 on
 the
-campaign_id
+flight_id
 .
 BlockUrl
 :
@@ -543,14 +543,14 @@ pocket_id
 (
 site
 .
-campaign_id
+flight_id
 ?
 {
-campaign_id
+flight_id
 :
 site
 .
-campaign_id
+flight_id
 }
 :
 {
