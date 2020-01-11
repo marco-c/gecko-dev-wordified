@@ -131,6 +131,9 @@ gfxDrawable
 namespace
 mozilla
 {
+struct
+MediaFeatureChange
+;
 namespace
 image
 {
@@ -180,6 +183,15 @@ Methods
 inherited
 from
 Image
+void
+MediaFeatureValuesChangedAllDocuments
+(
+const
+MediaFeatureChange
+&
+)
+final
+;
 nsresult
 GetNativeSizes
 (
