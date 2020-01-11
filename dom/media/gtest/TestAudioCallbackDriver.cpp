@@ -94,9 +94,12 @@ MPL
 *
 /
 #
-define
-ENABLE_SET_CUBEB_BACKEND
-1
+include
+"
+CubebUtils
+.
+h
+"
 #
 include
 "
@@ -227,9 +230,6 @@ MockCubeb
 (
 )
 ;
-mozilla
-:
-:
 CubebUtils
 :
 :
@@ -513,6 +513,3 @@ mDriver
 nullptr
 ;
 }
-#
-undef
-ENABLE_SET_CUBEB_BACKEND
