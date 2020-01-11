@@ -11528,10 +11528,6 @@ tests
 -
 wdspec
 '
-    
-'
-xpcshell
-'
 )
 "
 "
