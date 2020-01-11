@@ -2284,6 +2284,9 @@ accDoc
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

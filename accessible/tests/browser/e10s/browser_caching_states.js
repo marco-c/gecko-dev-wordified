@@ -749,6 +749,9 @@ extraStateTests
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

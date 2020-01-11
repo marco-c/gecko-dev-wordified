@@ -1866,6 +1866,9 @@ browser
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

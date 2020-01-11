@@ -529,6 +529,9 @@ focused
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

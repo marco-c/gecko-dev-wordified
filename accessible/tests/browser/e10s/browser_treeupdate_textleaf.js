@@ -277,6 +277,9 @@ ROLE_TEXT_CONTAINER
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

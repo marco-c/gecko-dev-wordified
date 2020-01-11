@@ -378,6 +378,9 @@ accessible
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

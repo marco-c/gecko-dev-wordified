@@ -225,6 +225,9 @@ matches
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;
