@@ -365,7 +365,9 @@ signatures
 .
 type
 .
-clamp
+hasClamp
+(
+)
                
 "
 Should
@@ -404,7 +406,9 @@ signatures
 .
 type
 .
-clamp
+hasClamp
+(
+)
                
 "
 Should
@@ -599,7 +603,9 @@ signatures
 .
 type
 .
-enforceRange
+hasEnforceRange
+(
+)
                
 "
 Should
@@ -638,7 +644,9 @@ signatures
 .
 type
 .
-enforceRange
+hasEnforceRange
+(
+)
                
 "
 Should
