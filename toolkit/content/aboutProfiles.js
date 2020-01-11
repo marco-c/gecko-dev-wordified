@@ -1246,6 +1246,12 @@ eventually
 .
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
