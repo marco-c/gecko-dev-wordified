@@ -140,10 +140,6 @@ smoothing
 "
     
 "
-zoom
-"
-    
-"
 -
 webkit
 -
