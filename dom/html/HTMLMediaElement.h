@@ -889,6 +889,7 @@ nsGkAtoms
 audio
 )
 )
+NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 /
 /
 EventTarget
