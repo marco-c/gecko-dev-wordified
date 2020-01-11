@@ -4527,11 +4527,6 @@ AreNonLocalConnectionsDisabled
 )
 ;
 }
-void
-InitializeJSContext
-(
-)
-;
 /
 *
 *

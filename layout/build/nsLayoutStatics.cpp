@@ -1198,6 +1198,13 @@ StartupJSEnvironment
 (
 )
 ;
+nsJSContext
+:
+:
+EnsureStatics
+(
+)
+;
 nsGlobalWindowInner
 :
 :
