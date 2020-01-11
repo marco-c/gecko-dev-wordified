@@ -81,7 +81,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 -
