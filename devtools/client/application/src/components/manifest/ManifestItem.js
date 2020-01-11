@@ -164,7 +164,7 @@ label
 :
 PropTypes
 .
-string
+node
 .
 isRequired
 children

@@ -127,6 +127,12 @@ align
 :
 right
 ;
+vertical
+-
+align
+:
+top
+;
 }
 .
 manifest
@@ -140,5 +146,11 @@ break
 break
 -
 all
+;
+vertical
+-
+align
+:
+top
 ;
 }
