@@ -2489,10 +2489,7 @@ gpu_cache
 self
 .
 clip_store
-&
 data_stores
-.
-clip
 )
 ;
 {
