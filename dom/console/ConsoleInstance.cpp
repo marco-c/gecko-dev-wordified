@@ -404,10 +404,10 @@ index
 (
 int
 )
-ConsoleLogLevel
+ConsoleLogLevelValues
 :
 :
-EndGuard_
+Count
 )
 ;
 return
