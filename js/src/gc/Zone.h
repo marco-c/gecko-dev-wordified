@@ -4360,6 +4360,11 @@ detachedTypedObjects
 =
 0
 ;
+void
+finishRoots
+(
+)
+;
 private
 :
 /

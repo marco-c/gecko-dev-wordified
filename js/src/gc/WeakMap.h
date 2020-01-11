@@ -2100,6 +2100,14 @@ target
 )
 ;
 void
+remove
+(
+JSObject
+*
+key
+)
+;
+void
 clear
 (
 )
