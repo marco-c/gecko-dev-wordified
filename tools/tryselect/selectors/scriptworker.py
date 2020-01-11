@@ -416,6 +416,16 @@ common_groups
 push
 "
 ]
+    
+task_configs
+=
+[
+"
+worker
+-
+overrides
+"
+]
 def
 get_releases
 (
