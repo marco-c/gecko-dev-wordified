@@ -6010,12 +6010,6 @@ JSProto_AsyncFunction
 key
 !
 =
-JSProto_GeneratorFunction
-&
-&
-key
-!
-=
 JSProto_AsyncGeneratorFunction
 )
 {
@@ -6527,8 +6521,6 @@ Function
 |
 Generator
 )
-and
-Generator
 don
 '
 t
@@ -6542,12 +6534,6 @@ key
 =
 =
 JSProto_AsyncFunction
-|
-|
-key
-=
-=
-JSProto_GeneratorFunction
 |
 |
 key
