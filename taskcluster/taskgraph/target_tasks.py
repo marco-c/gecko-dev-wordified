@@ -3077,13 +3077,13 @@ task
 .
 kind
 :
-                
+            
 return
 is_rc
         
 else
 :
-                
+            
 return
 not
 is_rc

@@ -343,7 +343,7 @@ Exception
 as
 e
 :
-                
+            
 print
 (
 "
@@ -357,7 +357,7 @@ t
 built
 .
 "
-                      
+                  
 "
 Add
 ac_add_options
@@ -369,11 +369,11 @@ geckodriver
 to
 your
 "
-                      
+                  
 "
 mozconfig
 "
-                      
+                  
 "
 and
 run
@@ -387,12 +387,12 @@ it
 .
 "
 )
-                
+            
 print
 (
 e
 )
-                
+            
 return
 1
         
