@@ -683,6 +683,15 @@ DOMMediaStream
 >
 mStream
 ;
+nsTArray
+<
+RefPtr
+<
+MediaStreamTrack
+>
+>
+mLiveTracks
+;
 const
 bool
 mCapturingAudioOnly
