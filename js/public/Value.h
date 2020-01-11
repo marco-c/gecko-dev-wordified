@@ -247,7 +247,7 @@ h
 namespace
 JS
 {
-union
+class
 Value
 ;
 }
@@ -2073,7 +2073,7 @@ match
 .
 *
 /
-union
+class
 alignas
 (
 8
