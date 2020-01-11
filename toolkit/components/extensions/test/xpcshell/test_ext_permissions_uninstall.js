@@ -510,7 +510,7 @@ so
 the
 /
 /
-uninstallObserver
+ExtensionAddonObserver
 works
 .
 add_task
