@@ -915,13 +915,12 @@ secondTab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 nestedBrowser
-[
-]
+null
 function
 (
 )

@@ -260,13 +260,12 @@ activated
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gTestBrowser
-[
-]
+null
 (
 )
 =

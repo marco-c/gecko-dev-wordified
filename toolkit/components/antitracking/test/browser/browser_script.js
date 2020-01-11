@@ -175,12 +175,11 @@ scripts
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 scriptURL
 :
@@ -197,7 +196,6 @@ page
 :
 TEST_3RD_PARTY_PAGE
 }
-]
 async
 obj
 =
@@ -615,12 +613,11 @@ scripts
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 scriptURL
 :
@@ -637,7 +634,6 @@ page
 :
 TEST_3RD_PARTY_PAGE
 }
-]
 async
 obj
 =

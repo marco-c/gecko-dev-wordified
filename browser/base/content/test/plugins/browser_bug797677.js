@@ -231,13 +231,12 @@ found
 simple
 cpows
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gTestBrowser
-[
-]
+null
 function
 (
 )

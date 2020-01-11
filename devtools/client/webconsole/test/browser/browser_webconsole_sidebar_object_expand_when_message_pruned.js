@@ -380,16 +380,14 @@ hud
 messageText
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 messageText
-]
 async
 function
 (

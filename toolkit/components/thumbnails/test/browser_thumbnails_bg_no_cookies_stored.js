@@ -225,13 +225,12 @@ be
 red
 .
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 function
 (
 )

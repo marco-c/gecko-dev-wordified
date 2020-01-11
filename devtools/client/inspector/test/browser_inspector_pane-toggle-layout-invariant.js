@@ -77,15 +77,14 @@ getInvariantRect
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 async
 function
 (

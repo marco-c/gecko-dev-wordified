@@ -1086,16 +1086,14 @@ aURL
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tabInfo
 .
 browser
-[
 aCookieValue
-]
 async
 function
 (

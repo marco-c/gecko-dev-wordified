@@ -152,15 +152,14 @@ window
 TEST_STATUS_TEXT
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 async
 (
 )

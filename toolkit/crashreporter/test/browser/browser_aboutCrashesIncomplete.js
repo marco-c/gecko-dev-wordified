@@ -519,16 +519,14 @@ csp_fail
 true
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 crash
 .
 id
-]
 id
 =
 >

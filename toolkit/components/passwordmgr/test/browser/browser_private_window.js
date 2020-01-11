@@ -4039,14 +4039,12 @@ let
 fieldValues
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
 [
-[
-]
 ]
 async
 function

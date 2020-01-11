@@ -239,13 +239,12 @@ r
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (

@@ -523,13 +523,12 @@ getBoundingClientRect
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 (
 )
 =

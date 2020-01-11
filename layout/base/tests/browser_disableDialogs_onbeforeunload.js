@@ -311,14 +311,12 @@ disableDialogs
 "
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 methodName
-]
 async
 function
 (

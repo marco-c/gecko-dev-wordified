@@ -170,16 +170,14 @@ com
 CORS_SJS_PATH
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 requestUrl
-]
 async
 function
 (

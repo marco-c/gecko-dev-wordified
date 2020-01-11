@@ -382,14 +382,12 @@ gTestBrowser
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gTestBrowser
-[
 gTestcases
-]
 async
 function
 (

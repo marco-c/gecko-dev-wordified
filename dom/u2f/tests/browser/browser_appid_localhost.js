@@ -112,7 +112,7 @@ shadow
 *
 /
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -120,10 +120,8 @@ tab
 .
 linkedBrowser
 [
-[
 app_id
 challenge
-]
 ]
 async
 function
@@ -343,15 +341,14 @@ let
 ready
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 async
 (
 )
@@ -375,8 +372,6 @@ localhost
 "
 &
 &
-!
-!
 content
 .
 u2f

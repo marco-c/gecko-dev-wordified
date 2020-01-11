@@ -210,13 +210,12 @@ browser
 >
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 test_suspend_video_decoding
 )
 ;

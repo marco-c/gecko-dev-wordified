@@ -209,7 +209,7 @@ challenge
 )
 ;
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -217,10 +217,8 @@ tab
 .
 linkedBrowser
 [
-[
 app_id
 challenge
-]
 ]
 function
 (
@@ -346,8 +344,14 @@ spawn
 tab
 .
 linkedBrowser
+[
 appid
+]
+(
+[
 appid
+]
+)
 =
 >
 {

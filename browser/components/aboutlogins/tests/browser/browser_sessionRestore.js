@@ -67,14 +67,12 @@ testGuid
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 testGuid
-]
 async
 function
 (

@@ -106,14 +106,12 @@ TEST_URL_1
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 TEST_URL_2
-]
 async
 function
 (
@@ -712,8 +710,6 @@ Promise
 r
 =
 >
-content
-.
 setTimeout
 (
 r

@@ -198,15 +198,14 @@ originalURL
 ]
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 (
 )
 =

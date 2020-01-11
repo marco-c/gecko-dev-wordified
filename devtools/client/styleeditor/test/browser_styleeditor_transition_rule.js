@@ -154,16 +154,14 @@ const
 rules
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 0
-]
 async
 function
 (

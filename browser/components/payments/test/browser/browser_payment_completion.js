@@ -316,12 +316,11 @@ completeException
 }
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 result
 :
@@ -329,7 +328,6 @@ result
 success
 "
 }
-]
 PTU
 .
 ContentTasks
@@ -597,12 +595,11 @@ completeException
 }
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 result
 :
@@ -610,7 +607,6 @@ result
 fail
 "
 }
-]
 PTU
 .
 ContentTasks
@@ -924,12 +920,11 @@ completeException
 }
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 result
 :
@@ -940,7 +935,6 @@ delayMs
 :
 1000
 }
-]
 PTU
 .
 ContentTasks

@@ -302,14 +302,12 @@ notification
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 data
-]
 async
 function
 (
