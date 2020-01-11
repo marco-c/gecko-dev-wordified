@@ -187,6 +187,14 @@ int
 &
 aPort
 const
+nsCString
+&
+aLocalAddress
+const
+int
+&
+aLocalPort
+const
 LoadInfoArgs
 &
 aLoadInfoArgs
@@ -251,6 +259,8 @@ Open
 (
 aHost
 aPort
+aLocalAddress
+aLocalPort
 aLoadInfoArgs
 aAlpn
 static_cast
