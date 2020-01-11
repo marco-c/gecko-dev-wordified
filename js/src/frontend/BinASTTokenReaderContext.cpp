@@ -3232,7 +3232,6 @@ MOZ_TRY
 (
 readTable
 <
-HuffmanTableValue
 List
 >
 (
@@ -5635,7 +5634,6 @@ identity_
 return
 readTable
 <
-HuffmanTableValue
 Entry
 >
 (
@@ -5693,8 +5691,6 @@ tableForField
 template
 <
 typename
-HuffmanTable
-typename
 Entry
 >
 MOZ_MUST_USE
@@ -5707,7 +5703,7 @@ Ok
 >
 readTable
 (
-HuffmanTable
+HuffmanTableValue
 &
 table
 Entry
