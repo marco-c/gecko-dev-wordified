@@ -561,7 +561,7 @@ void
 if
 defined
 (
-GP_OS_android
+MOZ_LINKER
 )
 /
 /
@@ -1006,7 +1006,7 @@ endif
 /
 defined
 (
-GP_OS_android
+MOZ_LINKER
 )
 #
 endif
