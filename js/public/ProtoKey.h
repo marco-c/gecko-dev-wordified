@@ -1200,6 +1200,16 @@ OCLASP
 DateTimeFormat
 )
 )
+\
+REAL_IF_INTL
+(
+Locale
+InitViaClassSpec
+OCLASP
+(
+Locale
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
