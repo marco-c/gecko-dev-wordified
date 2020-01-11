@@ -800,6 +800,15 @@ if
 (
 !
 mForwarder
+|
+|
+!
+mForwarder
+-
+>
+GetTextureForwarder
+(
+)
 )
 {
 return
