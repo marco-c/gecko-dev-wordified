@@ -3977,6 +3977,9 @@ chromeWindowType
 if
 (
 window
+&
+&
+window
 .
 docShell
 .
