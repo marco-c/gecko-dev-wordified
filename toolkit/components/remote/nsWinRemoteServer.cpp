@@ -119,7 +119,7 @@ h
 #
 include
 "
-nsWinRemoteUtils
+RemoteUtils
 .
 h
 "
