@@ -58,13 +58,11 @@ __future__
 import
 absolute_import
 import
+os
+import
 time
 import
-os
-from
 six
-import
-string_types
 import
 mozinfo
 class
@@ -407,10 +405,11 @@ value
 =
 frozenset
 (
-value
+six
 .
-items
+iteritems
 (
+value
 )
 )
             
@@ -668,6 +667,8 @@ assert
 isinstance
 (
 name
+six
+.
 string_types
 )
 "
@@ -1307,6 +1308,8 @@ if
 isinstance
 (
 output
+six
+.
 string_types
 )
 :
