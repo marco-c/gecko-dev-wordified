@@ -6157,8 +6157,10 @@ mOwnerContent
 )
 )
 ;
-if
-(
+const
+bool
+marginsChanged
+=
 ds
 -
 >
@@ -6169,8 +6171,7 @@ GetMarginAttributes
 mOwnerContent
 )
 )
-)
-{
+;
 if
 (
 PresShell
@@ -6200,6 +6201,11 @@ have
 changed
 if
 (
+marginsChanged
+)
+{
+if
+(
 nsIFrame
 *
 rootScrollFrame
@@ -6226,10 +6232,10 @@ NS_FRAME_IS_DIRTY
 )
 ;
 }
+}
 return
 true
 ;
-}
 }
 nsView
 *
