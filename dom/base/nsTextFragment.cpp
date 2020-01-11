@@ -2174,7 +2174,7 @@ false
 /
 Copy
 data
-LossyConvertUTF16toLatin1
+LossyConvertUtf16toLatin1
 (
 MakeSpan
 (
@@ -2355,7 +2355,7 @@ m1b
 +
 aOffset
 ;
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 MakeSpan
 (
@@ -2946,7 +2946,7 @@ Data
 )
 )
 ;
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 MakeSpan
 (
@@ -3181,7 +3181,7 @@ aBuffer
 into
 buff
 .
-LossyConvertUTF16toLatin1
+LossyConvertUtf16toLatin1
 (
 MakeSpan
 (

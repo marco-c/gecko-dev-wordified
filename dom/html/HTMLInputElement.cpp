@@ -250,6 +250,15 @@ h
 #
 include
 "
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
 nsAttrValueInlines
 .
 h
@@ -9377,7 +9386,7 @@ aValue
 if
 (
 !
-IsASCII
+IsAscii
 (
 aValue
 )

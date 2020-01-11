@@ -152,6 +152,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf8
+.
+h
+"
+#
+include
+"
 BufferReader
 .
 h
@@ -1382,7 +1391,7 @@ length
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 val
 )

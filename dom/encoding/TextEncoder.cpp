@@ -330,7 +330,7 @@ return
 size_t
 utf8Len
 =
-ConvertUTF16toUTF8
+ConvertUtf16toUtf8
 (
 aString
 MakeSpan
@@ -453,7 +453,7 @@ read
 written
 )
 =
-ConvertUTF16toUTF8Partial
+ConvertUtf16toUtf8Partial
 (
 aSrc
 MakeSpan

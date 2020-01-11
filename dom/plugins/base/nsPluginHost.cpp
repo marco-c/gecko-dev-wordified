@@ -502,6 +502,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -8342,7 +8351,7 @@ host
 {
 if
 (
-IsASCII
+IsAscii
 (
 host
 )

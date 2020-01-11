@@ -118,6 +118,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Sprintf
 .
 h
@@ -4336,7 +4345,7 @@ begin
 if
 (
 !
-IsASCII
+IsAscii
 (
 faceName
 )

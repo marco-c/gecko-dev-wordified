@@ -1889,7 +1889,7 @@ fine
 .
 if
 (
-IsUTF8Latin1
+IsUtf8Latin1
 (
 *
 utf8String
@@ -1953,7 +1953,7 @@ false
 size_t
 written
 =
-LossyConvertUTF8toLatin1
+LossyConvertUtf8toLatin1
 (
 *
 utf8String
@@ -2265,7 +2265,7 @@ terminator
 size_t
 written
 =
-ConvertUTF8toUTF16
+ConvertUtf8toUtf16
 (
 *
 utf8String

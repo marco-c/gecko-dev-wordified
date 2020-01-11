@@ -280,6 +280,15 @@ TextUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 /
 /
 /
@@ -1222,7 +1231,7 @@ if
 MOZ_UNLIKELY
 (
 !
-IsUTF8
+IsUtf8
 (
 span
 .

@@ -227,6 +227,15 @@ Wrapper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 extern
 mozilla
 :
@@ -239,6 +248,12 @@ mozilla
 :
 :
 AutoSafeJSContext
+;
+using
+mozilla
+:
+:
+IsUtf8
 ;
 using
 mozilla
@@ -950,7 +965,7 @@ convertedScript
 bool
 isUTF8
 =
-IsUTF8
+IsUtf8
 (
 script
 )

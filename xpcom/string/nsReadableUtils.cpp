@@ -363,7 +363,7 @@ Length
 (
 )
 ;
-LossyConvertUTF16toLatin1
+LossyConvertUtf16toLatin1
 (
 aSource
 MakeSpan
@@ -545,7 +545,7 @@ destLenVal
 size_t
 written
 =
-ConvertUTF16toUTF8
+ConvertUtf16toUtf8
 (
 aSource
 MakeSpan
@@ -798,7 +798,7 @@ Length
 (
 )
 ;
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 aSource
 MakeSpan
@@ -934,7 +934,7 @@ value
 size_t
 written
 =
-ConvertUTF8toUTF16
+ConvertUtf8toUtf16
 (
 aSource
 MakeSpan

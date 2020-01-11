@@ -140,6 +140,15 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 using
 namespace
 mozilla
@@ -379,7 +388,7 @@ nullptr
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 aMimeType
 )

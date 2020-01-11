@@ -262,6 +262,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -2883,7 +2892,7 @@ aBaseDomain
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-IsASCII
+IsAscii
 (
 aAsciiHost
 )

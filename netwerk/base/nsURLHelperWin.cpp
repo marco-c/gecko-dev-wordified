@@ -148,6 +148,15 @@ windows
 .
 h
 >
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 nsresult
 net_GetURLSpecFromActualFile
 (
@@ -683,7 +692,10 @@ Cut
 ;
 if
 (
-IsUTF8
+mozilla
+:
+:
+IsUtf8
 (
 path
 )

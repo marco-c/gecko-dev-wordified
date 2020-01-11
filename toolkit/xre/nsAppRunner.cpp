@@ -284,6 +284,15 @@ include
 "
 mozilla
 /
+Utf8
+.
+h
+"
+#
+include
+"
+mozilla
+/
 intl
 /
 LocaleService
@@ -26393,7 +26402,7 @@ path
 &
 &
 !
-IsUTF8
+IsUtf8
 (
 path
 )

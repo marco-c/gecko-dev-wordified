@@ -173,6 +173,15 @@ include
 "
 mozilla
 /
+Utf8
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 WebSocketEventService
@@ -11693,7 +11702,7 @@ message
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 utf8Data
 )
@@ -12061,7 +12070,7 @@ instead
 if
 (
 !
-IsUTF8
+IsUtf8
 (
 mServerCloseReason
 )

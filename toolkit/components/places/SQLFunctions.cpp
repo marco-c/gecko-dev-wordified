@@ -194,6 +194,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf8
+.
+h
+"
+#
+include
+"
 nsVariant
 .
 h
@@ -2766,7 +2775,7 @@ if
 unescaped
 &
 &
-IsUTF8
+IsUtf8
 (
 aSpecBuf
 )

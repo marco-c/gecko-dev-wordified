@@ -98,6 +98,15 @@ include
 "
 mozilla
 /
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 intl
 /
 MozLocale
@@ -133,6 +142,12 @@ mozilla
 :
 :
 intl
+;
+using
+mozilla
+:
+:
+IsAscii
 ;
 /
 *
@@ -185,7 +200,7 @@ IsEmpty
 |
 |
 !
-IsASCII
+IsAscii
 (
 aLocale
 )

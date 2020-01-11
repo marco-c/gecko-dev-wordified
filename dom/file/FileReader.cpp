@@ -1321,7 +1321,7 @@ char
 to
 char16_t
 .
-ConvertLatin1toUTF16
+ConvertLatin1toUtf16
 (
 MakeSpan
 (

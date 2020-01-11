@@ -5659,10 +5659,16 @@ if
 mozilla
 :
 :
-IsValidUtf8
+IsUtf8
+(
+mozilla
+:
+:
+MakeSpan
 (
 scriptData
 scriptLength
+)
 )
 )
 {

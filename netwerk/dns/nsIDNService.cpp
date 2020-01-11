@@ -181,6 +181,24 @@ punycode
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Utf8
+.
+h
+"
 /
 /
 Currently
@@ -2348,7 +2366,7 @@ bogus
 input
 NS_ENSURE_TRUE
 (
-IsUTF8
+IsUtf8
 (
 input
 )
@@ -2732,7 +2750,7 @@ isACE
 ;
 if
 (
-IsASCII
+IsAscii
 (
 input
 )
@@ -2842,7 +2860,7 @@ eStringPrepForUI
 *
 _isASCII
 =
-IsASCII
+IsAscii
 (
 _retval
 )
@@ -3043,7 +3061,7 @@ bug
 *
 _isASCII
 =
-IsASCII
+IsAscii
 (
 _retval
 )
@@ -3110,7 +3128,7 @@ eStringPrepForUI
 *
 _isASCII
 =
-IsASCII
+IsAscii
 (
 _retval
 )
@@ -3797,7 +3815,7 @@ NS_ERROR_MALFORMED_URI
 }
 if
 (
-IsASCII
+IsAscii
 (
 in
 )
@@ -3842,7 +3860,7 @@ rv
 }
 if
 (
-IsASCII
+IsAscii
 (
 strPrep
 )
@@ -4395,7 +4413,7 @@ codepoints
 if
 (
 !
-IsASCII
+IsAscii
 (
 tld
 )
@@ -4552,7 +4570,7 @@ ASCII
 NS_ASSERTION
 (
 !
-IsASCII
+IsAscii
 (
 label
 )
