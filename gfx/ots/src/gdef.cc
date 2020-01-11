@@ -87,17 +87,12 @@ maxp
 h
 "
 #
-ifdef
-OTS_VARIATIONS
-#
 include
 "
 variations
 .
 h
 "
-#
-endif
 /
 /
 GDEF
@@ -2539,9 +2534,6 @@ store
 )
 ;
 }
-#
-ifdef
-OTS_VARIATIONS
 if
 (
 !
@@ -2571,8 +2563,6 @@ store
 )
 ;
 }
-#
-endif
 }
 this
 -

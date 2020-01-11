@@ -53,12 +53,6 @@ variations
 .
 h
 "
-#
-define
-TABLE_NAME
-"
-HVAR
-"
 namespace
 ots
 {
@@ -599,6 +593,3 @@ true
 /
 namespace
 ots
-#
-undef
-TABLE_NAME
