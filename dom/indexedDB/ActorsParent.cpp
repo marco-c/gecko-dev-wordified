@@ -33160,6 +33160,7 @@ Mode
 ;
 private
 :
+const
 RefPtr
 <
 Database
@@ -33175,7 +33176,15 @@ FullObjectStoreMetadata
 >
 mModifiedAutoIncrementObjectStoreMetadataArray
 ;
+InitializedOnceMustBeTrue
+<
+const
 uint64_t
+LazyInit
+:
+:
+Allow
+>
 mTransactionId
 ;
 const
@@ -33368,8 +33377,11 @@ aTransactionId
 )
 ;
 mTransactionId
-=
+.
+init
+(
 aTransactionId
+)
 ;
 mInitialized
 .
@@ -33423,6 +33435,7 @@ TransactionId
 const
 {
 return
+*
 mTransactionId
 ;
 }
@@ -71938,10 +71951,6 @@ aMode
 mDatabase
 (
 aDatabase
-)
-mTransactionId
-(
-0
 )
 mDatabaseId
 (
