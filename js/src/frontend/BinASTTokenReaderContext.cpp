@@ -1410,7 +1410,7 @@ EntryExplicit
 using
 Table
 =
-HuffmanTableIndexedSymbolsLiteralString
+GenericHuffmanTable
 ;
 explicit
 String
@@ -1465,7 +1465,7 @@ EntryExplicit
 using
 Table
 =
-HuffmanTableIndexedSymbolsOptionalLiteralString
+GenericHuffmanTable
 ;
 explicit
 MaybeString
@@ -1512,7 +1512,7 @@ EntryExplicit
 using
 Table
 =
-HuffmanTableExplicitSymbolsF64
+GenericHuffmanTable
 ;
 explicit
 Number
@@ -1551,7 +1551,7 @@ EntryExplicit
 using
 Table
 =
-HuffmanTableExplicitSymbolsU32
+GenericHuffmanTable
 ;
 explicit
 UnsignedLong
@@ -1587,7 +1587,7 @@ EntryIndexed
 using
 Table
 =
-HuffmanTableIndexedSymbolsBool
+GenericHuffmanTable
 ;
 explicit
 Boolean
@@ -1826,7 +1826,7 @@ EntryIndexed
 using
 Table
 =
-HuffmanTableIndexedSymbolsMaybeInterface
+GenericHuffmanTable
 ;
 /
 /
@@ -2270,7 +2270,7 @@ entry
 using
 Table
 =
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 ;
 /
 /
@@ -2534,7 +2534,7 @@ case
 using
 Table
 =
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 ;
 /
 /
@@ -2759,7 +2759,7 @@ EntryIndexed
 using
 Table
 =
-HuffmanTableIndexedSymbolsStringEnum
+GenericHuffmanTable
 ;
 /
 /
@@ -3648,7 +3648,7 @@ a
 single
 entry
 .
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 sum
 ;
 MOZ_TRY
@@ -3681,7 +3681,7 @@ mozilla
 :
 VariantType
 <
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 >
 {
 }
@@ -6513,7 +6513,7 @@ table
 .
 as
 <
-HuffmanTableIndexedSymbolsMaybeInterface
+GenericHuffmanTable
 >
 (
 )
@@ -6690,7 +6690,7 @@ table
 .
 as
 <
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 >
 (
 )
@@ -6880,7 +6880,7 @@ table
 .
 as
 <
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 >
 (
 )
@@ -9788,7 +9788,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableIndexedSymbolsBool
+GenericHuffmanTable
 >
 (
 context
@@ -9828,7 +9828,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableExplicitSymbolsF64
+GenericHuffmanTable
 >
 (
 context
@@ -9869,7 +9869,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableIndexedSymbolsOptionalLiteralString
+GenericHuffmanTable
 >
 (
 context
@@ -9910,7 +9910,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableIndexedSymbolsLiteralString
+GenericHuffmanTable
 >
 (
 context
@@ -10062,7 +10062,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableIndexedSymbolsStringEnum
+GenericHuffmanTable
 >
 (
 context
@@ -10102,7 +10102,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableIndexedSymbolsStringEnum
+GenericHuffmanTable
 >
 (
 context
@@ -10142,7 +10142,7 @@ BINJS_MOZ_TRY_DECL
 result
 readFieldFromTable
 <
-HuffmanTableExplicitSymbolsU32
+GenericHuffmanTable
 >
 (
 context
@@ -17869,7 +17869,7 @@ readSingleValueTable
 Sum
 >
 (
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 &
 table
 const
@@ -18117,7 +18117,7 @@ readSingleValueTable
 MaybeSum
 >
 (
-HuffmanTableIndexedSymbolsSum
+GenericHuffmanTable
 &
 table
 const
@@ -18476,7 +18476,7 @@ readSingleValueTable
 Number
 >
 (
-HuffmanTableExplicitSymbolsF64
+GenericHuffmanTable
 &
 table
 const
@@ -18992,7 +18992,7 @@ readSingleValueTable
 String
 >
 (
-HuffmanTableIndexedSymbolsLiteralString
+GenericHuffmanTable
 &
 table
 const
@@ -19343,7 +19343,7 @@ readSingleValueTable
 MaybeString
 >
 (
-HuffmanTableIndexedSymbolsOptionalLiteralString
+GenericHuffmanTable
 &
 table
 const
@@ -19580,7 +19580,7 @@ readSingleValueTable
 StringEnum
 >
 (
-HuffmanTableIndexedSymbolsStringEnum
+GenericHuffmanTable
 &
 table
 const
@@ -19833,7 +19833,7 @@ readSingleValueTable
 UnsignedLong
 >
 (
-HuffmanTableExplicitSymbolsU32
+GenericHuffmanTable
 &
 table
 const
