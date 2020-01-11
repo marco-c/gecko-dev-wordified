@@ -147,6 +147,13 @@ nsIDNSListener
 .
 h
 "
+#
+include
+"
+nsIRequest
+.
+h
+"
 class
 nsIURI
 ;
@@ -182,6 +189,11 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
+nsIRequest
+:
+:
+TRRMode
+aTRRMode
 nsIDNSListener
 *
 aListener
@@ -327,6 +339,12 @@ mOriginAttributes
 bool
 mStoreTiming
 ;
+nsIRequest
+:
+:
+TRRMode
+mTRRMode
+;
 mozilla
 :
 :
@@ -345,7 +363,7 @@ mListener
 nsresult
 Prefetch
 (
-uint16_t
+uint32_t
 flags
 )
 ;
