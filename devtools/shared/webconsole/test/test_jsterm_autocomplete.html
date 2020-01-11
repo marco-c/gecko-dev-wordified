@@ -744,7 +744,7 @@ true
 await
 state
 .
-client
+webConsoleFront
 .
 evaluateJSAsync
 (
@@ -852,7 +852,7 @@ test
 (
 state
 .
-client
+webConsoleFront
 )
 ;
 }
@@ -902,7 +902,7 @@ there
 await
 state
 .
-client
+webConsoleFront
 .
 evaluateJSAsync
 (
@@ -931,7 +931,7 @@ async
 function
 doAutocomplete1
 (
-client
+webConsoleFront
 )
 {
 info
@@ -952,7 +952,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1018,7 +1018,7 @@ async
 function
 doAutocomplete2
 (
-client
+webConsoleFront
 )
 {
 info
@@ -1040,7 +1040,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1116,7 +1116,7 @@ async
 function
 doAutocomplete3
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1153,7 +1153,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1233,7 +1233,7 @@ async
 function
 doAutocomplete4
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1269,7 +1269,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1313,7 +1313,7 @@ async
 function
 doAutocompleteLarge1
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1352,7 +1352,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1412,7 +1412,7 @@ async
 function
 doAutocompleteLarge2
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1450,7 +1450,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1495,7 +1495,7 @@ async
 function
 doAutocompleteProxyThrowsPrototype
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1534,7 +1534,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1589,7 +1589,7 @@ async
 function
 doAutocompleteProxyThrowsOwnKeys
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1628,7 +1628,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1683,7 +1683,7 @@ async
 function
 doAutocompleteSandbox
 (
-client
+webConsoleFront
 )
 {
 /
@@ -1722,7 +1722,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1815,7 +1815,7 @@ async
 function
 doAutocompleteArray
 (
-client
+webConsoleFront
 )
 {
 info
@@ -1836,7 +1836,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -1922,7 +1922,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2016,7 +2016,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2099,7 +2099,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2183,7 +2183,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2257,7 +2257,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2315,7 +2315,7 @@ async
 function
 doAutocompleteString
 (
-client
+webConsoleFront
 )
 {
 info
@@ -2333,7 +2333,7 @@ let
 response
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2412,7 +2412,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2482,7 +2482,7 @@ async
 function
 doAutocompleteDotSurroundedBySpaces
 (
-client
+webConsoleFront
 )
 {
 info
@@ -2508,7 +2508,7 @@ matches
 }
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2580,7 +2580,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2646,7 +2646,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2705,7 +2705,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2762,7 +2762,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -2805,7 +2805,7 @@ async
 function
 doAutocompleteBracketSurroundedBySpaces
 (
-client
+webConsoleFront
 )
 {
 const
@@ -2843,7 +2843,7 @@ matches
 await
 getAutocompleteMatches
 (
-client
+webConsoleFront
 "
 window
 .
@@ -2897,7 +2897,7 @@ matches
 await
 getAutocompleteMatches
 (
-client
+webConsoleFront
 "
 window
 .
@@ -2944,7 +2944,7 @@ matches
 await
 getAutocompleteMatches
 (
-client
+webConsoleFront
 "
 window
 .
@@ -2981,7 +2981,7 @@ matches
 await
 getAutocompleteMatches
 (
-client
+webConsoleFront
 "
 window
 .
@@ -3036,7 +3036,7 @@ matches
 await
 getAutocompleteMatches
 (
-client
+webConsoleFront
 "
 window
 .
@@ -3068,7 +3068,7 @@ async
 function
 doAutocompleteAfterOr
 (
-client
+webConsoleFront
 )
 {
 info
@@ -3092,7 +3092,7 @@ matches
 }
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3138,7 +3138,7 @@ async
 function
 doInsensitiveAutocomplete
 (
-client
+webConsoleFront
 )
 {
 info
@@ -3162,7 +3162,7 @@ matches
 }
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3230,7 +3230,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3303,7 +3303,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3370,7 +3370,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3438,7 +3438,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3501,7 +3501,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3563,7 +3563,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3607,7 +3607,7 @@ async
 function
 doElementAccessAutocomplete
 (
-client
+webConsoleFront
 )
 {
 info
@@ -3630,7 +3630,7 @@ res
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3739,7 +3739,7 @@ d
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3837,7 +3837,7 @@ d
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -3936,7 +3936,7 @@ data
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4004,7 +4004,7 @@ d
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4109,7 +4109,7 @@ d
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4201,7 +4201,7 @@ for
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4239,7 +4239,7 @@ for
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4278,7 +4278,7 @@ for
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4315,7 +4315,7 @@ for
 res
 =
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4343,7 +4343,7 @@ async
 function
 doAutocompleteCommands
 (
-client
+webConsoleFront
 )
 {
 info
@@ -4363,7 +4363,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4418,7 +4418,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4466,7 +4466,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4516,7 +4516,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4578,7 +4578,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4639,7 +4639,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4699,7 +4699,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4760,7 +4760,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4821,7 +4821,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -4869,7 +4869,7 @@ async
 function
 doAutocompleteAfterOperator
 (
-client
+webConsoleFront
 )
 {
 const
@@ -5049,7 +5049,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5085,7 +5085,7 @@ async
 function
 dontAutocompleteAfterDeclaration
 (
-client
+webConsoleFront
 )
 {
 info
@@ -5106,7 +5106,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5150,7 +5150,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5194,7 +5194,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5238,7 +5238,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5282,7 +5282,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5328,7 +5328,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5381,7 +5381,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5425,7 +5425,7 @@ async
 function
 doKeywordsAutocomplete
 (
-client
+webConsoleFront
 )
 {
 info
@@ -5445,7 +5445,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5491,7 +5491,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5550,7 +5550,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5608,7 +5608,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5653,7 +5653,7 @@ async
 function
 dontAutocomplete
 (
-client
+webConsoleFront
 )
 {
 const
@@ -5855,7 +5855,7 @@ matches
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (
@@ -5885,7 +5885,7 @@ async
 function
 getAutocompleteMatches
 (
-client
+webConsoleFront
 input
 )
 {
@@ -5906,7 +5906,7 @@ res
 =
 (
 await
-client
+webConsoleFront
 .
 autocomplete
 (

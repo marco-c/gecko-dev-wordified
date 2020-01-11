@@ -148,7 +148,7 @@ this
 .
 proxy
 .
-webConsoleClient
+webConsoleFront
 .
 evaluateJSAsync
 (

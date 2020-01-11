@@ -95,7 +95,7 @@ caches
 using
 the
 *
-webconsoleClient
+webconsoleFront
 when
 the
 user

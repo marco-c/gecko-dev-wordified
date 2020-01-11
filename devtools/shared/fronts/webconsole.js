@@ -135,7 +135,7 @@ webconsole
 *
 *
 A
-WebConsoleClient
+WebConsoleFront
 is
 used
 as
@@ -2499,7 +2499,7 @@ client
 *
 Close
 the
-WebConsoleClient
+WebConsoleFront
 .
 *
 *

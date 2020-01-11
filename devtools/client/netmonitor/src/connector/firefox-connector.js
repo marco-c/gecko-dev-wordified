@@ -507,7 +507,7 @@ owner
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 =
 this
 .
@@ -523,11 +523,11 @@ new
 FirefoxDataProvider
 (
 {
-webConsoleClient
+webConsoleFront
 :
 this
 .
-webConsoleClient
+webConsoleFront
 actions
 :
 this
@@ -822,7 +822,7 @@ null
 }
 this
 .
-webConsoleClient
+webConsoleFront
 =
 null
 ;
@@ -880,7 +880,7 @@ disconnect
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -896,7 +896,7 @@ onNetworkEvent
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -912,7 +912,7 @@ onNetworkEventUpdate
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 on
 (
@@ -1092,7 +1092,7 @@ load
 await
 this
 .
-webConsoleClient
+webConsoleFront
 .
 startListeners
 (
@@ -1206,12 +1206,12 @@ if
 (
 this
 .
-webConsoleClient
+webConsoleFront
 )
 {
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -1227,7 +1227,7 @@ onNetworkEvent
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -1243,7 +1243,7 @@ onNetworkEventUpdate
 ;
 this
 .
-webConsoleClient
+webConsoleFront
 .
 off
 (
@@ -1585,7 +1585,7 @@ networkInfo
 of
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getNetworkEvents
 (
@@ -1759,7 +1759,7 @@ callback
 {
 this
 .
-webConsoleClient
+webConsoleFront
 .
 sendHTTPRequest
 (
@@ -1806,7 +1806,7 @@ filter
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 blockRequest
 (
@@ -1848,7 +1848,7 @@ filter
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 unblockRequest
 (
@@ -1888,7 +1888,7 @@ urls
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 setBlockedUrls
 (
@@ -1946,7 +1946,7 @@ request
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 setPreferences
 (

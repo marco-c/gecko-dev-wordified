@@ -555,7 +555,7 @@ connector
 .
 connector
 .
-webConsoleClient
+webConsoleFront
 .
 once
 (

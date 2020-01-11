@@ -244,11 +244,11 @@ target
 front
 *
 -
-consoleClient
+webConsoleFront
 :
 the
 console
-client
+front
 *
 -
 cleanup
@@ -310,7 +310,7 @@ attach
 ;
 return
 {
-consoleClient
+webConsoleFront
 :
 target
 .

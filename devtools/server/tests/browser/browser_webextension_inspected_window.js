@@ -159,7 +159,7 @@ client
 target
 ;
 const
-consoleClient
+webConsoleFront
 =
 target
 .
@@ -182,7 +182,7 @@ return
 {
 client
 target
-consoleClient
+webConsoleFront
 inspectedWindowFront
 extension
 fakeExtCallerInfo
@@ -607,7 +607,7 @@ client
 inspectedWindowFront
 extension
 fakeExtCallerInfo
-consoleClient
+webConsoleFront
 }
 =
 await
@@ -634,7 +634,7 @@ evalResultAsGrip
 true
 toolboxConsoleActorID
 :
-consoleClient
+webConsoleFront
 .
 actor
 }
@@ -1616,7 +1616,7 @@ test_exception_inspectedWindowReload
 const
 {
 client
-consoleClient
+webConsoleFront
 inspectedWindowFront
 extension
 fakeExtCallerInfo
@@ -1691,7 +1691,7 @@ const
 noBypassCacheEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -1764,7 +1764,7 @@ const
 forceBypassCacheEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -1827,7 +1827,7 @@ test_exception_inspectedWindowReload_customUserAgent
 const
 {
 client
-consoleClient
+webConsoleFront
 inspectedWindowFront
 extension
 fakeExtCallerInfo
@@ -1888,7 +1888,7 @@ const
 customUserAgentEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -1959,7 +1959,7 @@ const
 noCustomUserAgentEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -2019,7 +2019,7 @@ test_exception_inspectedWindowReload_injectedScript
 const
 {
 client
-consoleClient
+webConsoleFront
 inspectedWindowFront
 extension
 fakeExtCallerInfo
@@ -2083,7 +2083,7 @@ const
 injectedScriptEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -2175,7 +2175,7 @@ const
 noInjectedScriptEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -2257,7 +2257,7 @@ test_exception_inspectedWindowReload_multiple_calls
 const
 {
 client
-consoleClient
+webConsoleFront
 inspectedWindowFront
 extension
 fakeExtCallerInfo
@@ -2353,7 +2353,7 @@ const
 customUserAgentEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -2425,7 +2425,7 @@ const
 noCustomUserAgentEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -2485,7 +2485,7 @@ test_exception_inspectedWindowReload_stopped
 const
 {
 client
-consoleClient
+webConsoleFront
 inspectedWindowFront
 extension
 fakeExtCallerInfo
@@ -2626,7 +2626,7 @@ const
 injectedScriptEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (
@@ -2755,7 +2755,7 @@ const
 noInjectedScriptEval
 =
 await
-consoleClient
+webConsoleFront
 .
 evaluateJS
 (

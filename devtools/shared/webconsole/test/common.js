@@ -621,7 +621,7 @@ resume
 )
 ;
 const
-webConsoleClient
+webConsoleFront
 =
 target
 .
@@ -649,7 +649,7 @@ const
 response
 =
 await
-webConsoleClient
+webConsoleFront
 .
 startListeners
 (
@@ -664,12 +664,10 @@ state
 dbgClient
 :
 client
-client
-:
-webConsoleClient
+webConsoleFront
 actor
 :
-webConsoleClient
+webConsoleFront
 .
 actor
 /

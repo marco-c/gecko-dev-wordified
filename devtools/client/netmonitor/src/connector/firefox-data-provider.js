@@ -195,7 +195,7 @@ param
 {
 Object
 }
-webConcoleClient
+webConsoleFront
 represents
 the
 client
@@ -236,7 +236,7 @@ object
 constructor
 (
 {
-webConsoleClient
+webConsoleFront
 actions
 owner
 }
@@ -247,9 +247,9 @@ owner
 Options
 this
 .
-webConsoleClient
+webConsoleFront
 =
-webConsoleClient
+webConsoleFront
 ;
 this
 .
@@ -1637,7 +1637,7 @@ id
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getNetworkRequest
 (
@@ -1742,7 +1742,7 @@ stringGrip
 return
 this
 .
-webConsoleClient
+webConsoleFront
 .
 getString
 (
@@ -3343,7 +3343,7 @@ if
 typeof
 this
 .
-webConsoleClient
+webConsoleFront
 [
 clientMethodName
 ]
@@ -3390,7 +3390,7 @@ actor
 id
 this
 .
-webConsoleClient
+webConsoleFront
 [
 clientMethodName
 ]
