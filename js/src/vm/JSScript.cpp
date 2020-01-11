@@ -36277,7 +36277,7 @@ bodyScope
 ;
 }
 void
-JSScript
+BaseScript
 :
 :
 setArgumentsHasVarBinding
