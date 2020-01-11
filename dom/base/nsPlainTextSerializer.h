@@ -679,6 +679,12 @@ IsInOL
 const
 ;
 bool
+IsInOlOrUl
+(
+)
+const
+;
+bool
 IsCurrentNodeConverted
 (
 )
