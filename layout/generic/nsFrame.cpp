@@ -11927,15 +11927,9 @@ IsPrimaryFrame
 nsLayoutUtils
 :
 :
-HasAnimationOfPropertySet
+HasAnimationOfTransformAndMotionPath
 (
 this
-nsCSSPropertyIDSet
-:
-:
-TransformLikeProperties
-(
-)
 )
 &
 &
