@@ -1726,12 +1726,14 @@ type
 function
 test_url_for_process_types
 (
+{
 url
 chromeResult
 webContentResult
 privilegedAboutContentResult
 privilegedMozillaContentResult
 extensionProcessResult
+}
 )
 {
 const
