@@ -592,6 +592,8 @@ WindowsConsole
 h
 "
 #
+endif
+#
 include
 "
 mozilla
@@ -600,8 +602,6 @@ WindowsDllBlocklist
 .
 h
 "
-#
-endif
 #
 include
 "
