@@ -302,7 +302,6 @@ CreateSkTypeface
 return
 SkCreateTypefaceFromCairoFTFont
 (
-mScaledFont
 mFace
 -
 >
