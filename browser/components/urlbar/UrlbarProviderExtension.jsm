@@ -2250,7 +2250,7 @@ UrlbarUtils
 .
 RESULT_SOURCE
 .
-SEARCH
+SEARCH_NETWORK
 tabs
 :
 UrlbarUtils
