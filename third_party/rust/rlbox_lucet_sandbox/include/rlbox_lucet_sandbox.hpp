@@ -2432,7 +2432,7 @@ not
 /
 always
 be
-propogated
+propagated
 (
 possibly
 when
@@ -2471,7 +2471,7 @@ general
 we
 take
 the
-precaustion
+precaution
 of
 /
 /
@@ -2479,7 +2479,7 @@ rechecking
 this
 on
 each
-sandbix
+sandbox
 creation
 .
 reinit_callback_ref_data
@@ -3225,6 +3225,8 @@ char
 lucet_module_path
 bool
 external_loads_exist
+bool
+allow_stdio
 )
 {
 detail
@@ -3248,6 +3250,7 @@ sandbox
 lucet_load_module
 (
 lucet_module_path
+allow_stdio
 )
 ;
 detail
@@ -3473,10 +3476,17 @@ external_loads_exist
 =
 false
 ;
+const
+bool
+allow_stdio
+=
+true
+;
 impl_create_sandbox
 (
 lucet_module_path
 external_loads_exist
+allow_stdio
 )
 ;
 }
