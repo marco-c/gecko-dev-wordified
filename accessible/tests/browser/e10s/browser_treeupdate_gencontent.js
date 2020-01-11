@@ -284,9 +284,7 @@ content
 to
 container1
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -508,6 +506,11 @@ container2
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

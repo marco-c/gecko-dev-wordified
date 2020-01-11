@@ -217,5 +217,10 @@ DIALOG
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;

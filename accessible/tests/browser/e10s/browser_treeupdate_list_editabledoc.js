@@ -149,9 +149,9 @@ await
 invokeSetAttribute
 (
 browser
-"
-body
-"
+currentContentDoc
+(
+)
 "
 contentEditable
 "
@@ -172,9 +172,7 @@ list
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -275,6 +273,11 @@ children
 }
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

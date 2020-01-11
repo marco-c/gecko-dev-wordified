@@ -153,9 +153,7 @@ dialog
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -232,6 +230,11 @@ ROLE_ENTRY
 }
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;
