@@ -87,7 +87,9 @@ Evaluating
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 expr
 )

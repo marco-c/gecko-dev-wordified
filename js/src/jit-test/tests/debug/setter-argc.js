@@ -72,7 +72,9 @@ bleah
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 prop
 )

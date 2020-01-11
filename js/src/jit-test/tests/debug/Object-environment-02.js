@@ -53,7 +53,9 @@ print
 checking
 "
 +
-uneval
+JSON
+.
+stringify
 (
 expr
 )

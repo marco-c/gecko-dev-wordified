@@ -186,7 +186,9 @@ lines
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 Object
 .
@@ -592,7 +594,9 @@ lines
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 Object
 .
@@ -715,7 +719,9 @@ lines
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 Object
 .

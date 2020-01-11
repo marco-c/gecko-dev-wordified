@@ -61,7 +61,9 @@ check
 (
 "
 +
-uneval
+JSON
+.
+stringify
 (
 code
 )

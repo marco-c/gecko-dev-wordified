@@ -229,7 +229,9 @@ name
 in
 "
 +
-uneval
+JSON
+.
+stringify
 (
 func
 .
@@ -391,7 +393,9 @@ queryExpectOnly
 (
 "
 +
-uneval
+JSON
+.
+stringify
 (
 query
 )

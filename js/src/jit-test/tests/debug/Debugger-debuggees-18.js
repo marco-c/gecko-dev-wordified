@@ -1327,7 +1327,9 @@ combo
 (
 "
 +
-uneval
+JSON
+.
+stringify
 (
 addAs
 )
@@ -1335,7 +1337,9 @@ addAs
 "
 "
 +
-uneval
+JSON
+.
+stringify
 (
 designateAs
 )
