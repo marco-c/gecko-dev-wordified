@@ -232,6 +232,7 @@ ch
 }
 )
 ;
+await
 setLogPoint
 (
 dbg
