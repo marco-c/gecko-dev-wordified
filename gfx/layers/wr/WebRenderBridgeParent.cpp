@@ -12264,8 +12264,6 @@ aTxn
 aTxnForImageBridge
 )
 ;
-return
-;
 }
 void
 WebRenderBridgeParent
