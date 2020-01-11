@@ -975,16 +975,6 @@ return
 mEngine
 ;
 }
-TrackRate
-SampleRate
-(
-)
-const
-{
-return
-mSampleRate
-;
-}
 size_t
 SizeOfExcludingThis
 (

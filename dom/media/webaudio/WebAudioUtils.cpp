@@ -219,9 +219,7 @@ mTimeConstant
 aDest
 -
 >
-SampleRate
-(
-)
+mSampleRate
 ;
 aEvent
 .
@@ -231,9 +229,7 @@ mDuration
 aDest
 -
 >
-SampleRate
-(
-)
+mSampleRate
 ;
 }
 void

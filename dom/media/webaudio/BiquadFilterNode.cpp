@@ -1129,9 +1129,7 @@ i
 aStream
 -
 >
-SampleRate
-(
-)
+mSampleRate
 mType
 freq
 q

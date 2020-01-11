@@ -598,9 +598,7 @@ aParam
 mDestination
 -
 >
-SampleRate
-(
-)
+mSampleRate
 ;
 /
 /
@@ -2900,9 +2898,7 @@ int32_t
 mSource
 -
 >
-SampleRate
-(
-)
+mSampleRate
 /
 computedPlaybackRate
 )
