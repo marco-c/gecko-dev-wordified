@@ -227,6 +227,16 @@ MediaResult
 {
 public
 :
+MediaResult
+(
+)
+:
+mCode
+(
+NS_OK
+)
+{
+}
 MOZ_IMPLICIT
 MediaResult
 (
