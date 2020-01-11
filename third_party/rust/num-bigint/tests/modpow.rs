@@ -550,9 +550,9 @@ num_traits
 :
 {
 Num
-Zero
 One
 Signed
+Zero
 }
 ;
 fn
