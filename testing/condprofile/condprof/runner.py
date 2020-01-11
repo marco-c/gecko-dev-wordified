@@ -120,8 +120,15 @@ __file__
 )
 from
 condprof
-import
+.
 check_install
+import
+check
+#
+NOQA
+check
+(
+)
 #
 NOQA
 from
