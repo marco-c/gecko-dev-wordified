@@ -350,6 +350,12 @@ aActive
 }
 else
 {
+RefPtr
+<
+MediaController
+>
+controller
+=
 MediaControlService
 :
 :
@@ -367,6 +373,8 @@ Id
 (
 )
 )
+;
+controller
 -
 >
 NotifyMediaActiveChanged
