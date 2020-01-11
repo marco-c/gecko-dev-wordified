@@ -206,10 +206,7 @@ zero
 root_space_and_clip
 .
 spatial_id
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
+true
 )
 ;
 if
@@ -260,10 +257,7 @@ new
 root_space_and_clip
 .
 spatial_id
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
+true
 )
 ;
 /

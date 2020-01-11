@@ -301,10 +301,7 @@ origin
 space_and_clip
 .
 spatial_id
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
+true
 )
 ;
 /
@@ -455,10 +452,7 @@ origin
 space_and_clip
 .
 spatial_id
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
+true
 )
 ;
 /

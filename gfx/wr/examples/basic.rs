@@ -1169,10 +1169,7 @@ content_bounds
 .
 origin
 spatial_id
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
+true
 )
 ;
 let
