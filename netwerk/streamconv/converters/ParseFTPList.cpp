@@ -7961,7 +7961,7 @@ toklen
 2
 ]
 ;
-while
+if
 (
 pos
 >
@@ -7977,6 +7977,7 @@ fe_size
 1
 )
 )
+{
 pos
 =
 (
@@ -7991,6 +7992,7 @@ fe_size
 1
 )
 ;
+}
 memcpy
 (
 result

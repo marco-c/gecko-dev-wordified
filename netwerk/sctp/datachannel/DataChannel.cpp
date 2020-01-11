@@ -1352,6 +1352,8 @@ delete
 mInfo
 ;
 delete
+[
+]
 mData
 ;
 }
