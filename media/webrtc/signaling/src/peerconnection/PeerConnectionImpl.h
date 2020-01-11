@@ -2693,13 +2693,8 @@ once
 nsresult
 OnAlpnNegotiated
 (
-const
-std
-:
-:
-string
-&
-aAlpn
+bool
+aPrivacyRequested
 )
 ;
 bool
