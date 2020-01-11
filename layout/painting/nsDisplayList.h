@@ -12151,7 +12151,7 @@ key
 aItem
 -
 >
-GetRawPerFrameKey
+GetPerFrameIndex
 (
 )
 ;
@@ -12186,7 +12186,7 @@ ItemType
 item
 -
 >
-SetPerFrameKey
+SetPerFrameIndex
 (
 key
 )
@@ -12382,7 +12382,7 @@ key
 T
 :
 :
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 aBuilder
 aFrame
@@ -12451,7 +12451,7 @@ type
 item
 -
 >
-SetPerFrameKey
+SetPerFrameIndex
 (
 key
 )
@@ -13516,7 +13516,7 @@ GetPerFrameKey
 *
 /
 uint16_t
-GetRawPerFrameKey
+GetPerFrameIndex
 (
 )
 const
@@ -13562,7 +13562,7 @@ an
 impl
 of
 *
-CalculatePerFrameKey
+CalculatePerFrameIndex
 then
 this
 implementation
@@ -13571,8 +13571,8 @@ just
 returns
 0
 will
-be
 *
+be
 used
 .
 *
@@ -13626,7 +13626,7 @@ Args
 >
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 Args
 &
@@ -14219,7 +14219,7 @@ aType
 ;
 }
 void
-SetPerFrameKey
+SetPerFrameIndex
 (
 const
 uint16_t
@@ -27785,7 +27785,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -28946,7 +28946,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -29547,7 +29547,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -30443,7 +30443,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -31873,7 +31873,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -31948,7 +31948,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -32379,7 +32379,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -32423,7 +32423,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -32479,7 +32479,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -34930,7 +34930,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -35289,7 +35289,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -35725,7 +35725,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -35971,7 +35971,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -36347,7 +36347,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -36776,7 +36776,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -37049,7 +37049,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -37476,7 +37476,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -37766,7 +37766,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -38066,7 +38066,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -38241,7 +38241,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -38407,7 +38407,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -38752,7 +38752,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -39067,7 +39067,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -41091,7 +41091,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -41149,7 +41149,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
@@ -41209,7 +41209,7 @@ above
 ctor
 static
 uint16_t
-CalculatePerFrameKey
+CalculatePerFrameIndex
 (
 nsDisplayListBuilder
 *
