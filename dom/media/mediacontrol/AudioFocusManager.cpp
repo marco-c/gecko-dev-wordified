@@ -95,13 +95,6 @@ StaticPrefs_media
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaControlLog
-;
 #
 undef
 LOG

@@ -131,6 +131,13 @@ h
 #
 include
 "
+MediaControlUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -150,13 +157,6 @@ CanonicalBrowsingContext
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaControlLog
-;
 /
 /
 avoid
