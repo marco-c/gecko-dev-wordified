@@ -158,6 +158,16 @@ sys
 .
 stdout
 }
+                                 
+formatter_defaults
+=
+{
+"
+screenshot
+"
+:
+True
+}
 )
     
 def

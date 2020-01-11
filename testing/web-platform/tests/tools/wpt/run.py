@@ -4711,6 +4711,9 @@ kwargs
 default_config
 =
 None
+formatter_defaults
+=
+None
 )
 :
     
@@ -4790,6 +4793,9 @@ setup_logging
 (
 kwargs
 default_config
+formatter_defaults
+=
+formatter_defaults
 )
     
 logger
