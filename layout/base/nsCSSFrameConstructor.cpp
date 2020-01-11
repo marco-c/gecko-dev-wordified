@@ -26530,7 +26530,10 @@ StyleUI
 mPointerEvents
 =
 =
-NS_STYLE_POINTER_EVENTS_AUTO
+StylePointerEvents
+:
+:
+Auto
 &
 &
 mPresShell

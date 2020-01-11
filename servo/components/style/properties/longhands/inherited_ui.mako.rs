@@ -276,6 +276,11 @@ html
 #
 PointerEventsProperty
 "
+gecko_enum_prefix
+=
+"
+StylePointerEvents
+"
 )
 }
 {

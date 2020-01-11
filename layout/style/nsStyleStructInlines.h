@@ -1498,7 +1498,10 @@ aContextFrame
 )
 ;
 }
-uint8_t
+mozilla
+:
+:
+StylePointerEvents
 nsStyleUI
 :
 :
@@ -1571,7 +1574,13 @@ not
 work
 .
 return
-NS_STYLE_POINTER_EVENTS_AUTO
+mozilla
+:
+:
+StylePointerEvents
+:
+:
+Auto
 ;
 }
 return

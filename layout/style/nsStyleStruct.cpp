@@ -23820,7 +23820,10 @@ None
 )
 mPointerEvents
 (
-NS_STYLE_POINTER_EVENTS_AUTO
+StylePointerEvents
+:
+:
+Auto
 )
 mCursor
 (

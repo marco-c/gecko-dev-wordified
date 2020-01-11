@@ -21197,7 +21197,10 @@ this
 )
 !
 =
-NS_STYLE_POINTER_EVENTS_NONE
+StylePointerEvents
+:
+:
+None
 ;
 bool
 opacityItemForEventsAndPluginsOnly
@@ -80954,7 +80957,7 @@ result
 ;
 }
 const
-uint8_t
+StylePointerEvents
 pointerEvents
 =
 StyleUI
@@ -80972,7 +80975,10 @@ if
 pointerEvents
 =
 =
-NS_STYLE_POINTER_EVENTS_NONE
+StylePointerEvents
+:
+:
+None
 )
 {
 return
