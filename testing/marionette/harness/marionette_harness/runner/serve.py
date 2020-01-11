@@ -97,6 +97,10 @@ collections
 import
 defaultdict
 from
+six
+import
+iteritems
+from
 .
 import
 httpd
@@ -1198,10 +1202,9 @@ _
 proc
 )
 in
-servers
-.
 iteritems
 (
+servers
 )
 :
         
@@ -1221,10 +1224,9 @@ url
 _
 )
 in
-servers
-.
 iteritems
 (
+servers
 )
 :
         
