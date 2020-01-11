@@ -536,6 +536,10 @@ frameId
 windowUtils
 .
 outerWindowID
+.
+toString
+(
+)
 ;
 const
 id

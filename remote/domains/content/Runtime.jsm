@@ -1158,7 +1158,6 @@ ctx
 frameId
 =
 =
-=
 frameId
 )
 {
@@ -1347,7 +1346,7 @@ set
 *
 param
 {
-Number
+number
 }
 id
 *
@@ -1361,7 +1360,7 @@ destroy
 *
 param
 {
-Number
+string
 }
 frameId
 *

@@ -345,6 +345,10 @@ frameId
 windowUtils
 .
 outerWindowID
+.
+toString
+(
+)
 ;
 this
 .
