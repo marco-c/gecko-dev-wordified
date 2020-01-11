@@ -13154,7 +13154,7 @@ the
 document
 .
 If
-updateTimingInformation
+aUpdateTimingInformation
 is
 true
 /
@@ -13203,9 +13203,8 @@ void
 SetReadyStateInternal
 (
 ReadyState
-rs
 bool
-updateTimingInformation
+aUpdateTimingInformation
 =
 true
 )
