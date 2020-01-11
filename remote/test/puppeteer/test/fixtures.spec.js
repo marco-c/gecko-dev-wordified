@@ -155,7 +155,7 @@ expect
 defaultBrowserOptions
 puppeteer
 puppeteerPath
-CHROME
+JUGGLER
 }
 )
 {
@@ -437,11 +437,11 @@ options
 ;
 if
 (
-CHROME
+JUGGLER
 )
 res
 .
-stderr
+stdout
 .
 on
 (
@@ -467,7 +467,7 @@ utf8
 else
 res
 .
-stdout
+stderr
 .
 on
 (
@@ -510,7 +510,7 @@ resolve
 ;
 if
 (
-CHROME
+JUGGLER
 )
 expect
 (
@@ -520,7 +520,7 @@ dumpioData
 toContain
 (
 '
-DevTools
+Juggler
 listening
 on
 ws
@@ -539,7 +539,7 @@ dumpioData
 toContain
 (
 '
-Juggler
+DevTools
 listening
 on
 ws
