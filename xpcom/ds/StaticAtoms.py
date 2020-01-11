@@ -7083,16 +7083,6 @@ mouseover
 Atom
 (
 "
-mousethrough
-"
-"
-mousethrough
-"
-)
-    
-Atom
-(
-"
 mozAccessiblecaret
 "
 "

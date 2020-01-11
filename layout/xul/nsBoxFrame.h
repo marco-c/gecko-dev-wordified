@@ -1251,12 +1251,6 @@ CheckBoxOrder
 ;
 private
 :
-virtual
-void
-UpdateMouseThrough
-(
-)
-;
 void
 CacheAttributes
 (

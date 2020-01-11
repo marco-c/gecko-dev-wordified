@@ -569,14 +569,6 @@ nsITheme
 >
 gTheme
 ;
-enum
-eMouseThrough
-{
-unset
-never
-always
-}
-;
 }
 ;
 #

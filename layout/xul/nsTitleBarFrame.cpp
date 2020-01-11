@@ -314,10 +314,6 @@ mTrackingMouseMove
 =
 false
 ;
-UpdateMouseThrough
-(
-)
-;
 }
 void
 nsTitleBarFrame
