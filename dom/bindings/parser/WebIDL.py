@@ -15289,6 +15289,10 @@ usvstring
 '
         
 '
+utf8string
+'
+        
+'
 jsstring
 '
         
@@ -15572,6 +15576,16 @@ False
     
 def
 isUSVString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isUTF8String
 (
 self
 )
@@ -16904,6 +16918,22 @@ isUSVString
 )
     
 def
+isUTF8String
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isUTF8String
+(
+)
+    
+def
 isJSString
 (
 self
@@ -17863,6 +17893,16 @@ False
     
 def
 isUSVString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isUTF8String
 (
 self
 )
@@ -19687,6 +19727,22 @@ isUSVString
 )
     
 def
+isUTF8String
+(
+self
+)
+:
+        
+return
+self
+.
+inner
+.
+isUTF8String
+(
+)
+    
+def
 isJSString
 (
 self
@@ -20448,6 +20504,16 @@ False
     
 def
 isUSVString
+(
+self
+)
+:
+        
+return
+False
+    
+def
+isUTF8String
 (
 self
 )
@@ -21901,6 +21967,10 @@ usvstring
 '
         
 '
+utf8string
+'
+        
+'
 jsstring
 '
         
@@ -22147,6 +22217,16 @@ IDLType
 Tags
 .
 usvstring
+        
+Types
+.
+utf8string
+:
+IDLType
+.
+Tags
+.
+utf8string
         
 Types
 .
@@ -22553,6 +22633,12 @@ self
 isDOMString
 (
 )
+or
+self
+.
+isUTF8String
+(
+)
 :
             
 if
@@ -22861,6 +22947,18 @@ IDLBuiltinType
 .
 Types
 .
+utf8string
+or
+                
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
 jsstring
 )
     
@@ -22920,6 +23018,25 @@ IDLBuiltinType
 Types
 .
 usvstring
+    
+def
+isUTF8String
+(
+self
+)
+:
+        
+return
+self
+.
+_typeTag
+=
+=
+IDLBuiltinType
+.
+Types
+.
+utf8string
     
 def
 isJSString
@@ -24205,10 +24322,18 @@ TreatNullAs
                 
 if
 not
+(
 self
 .
 isDOMString
 (
+)
+or
+self
+.
+isUTF8String
+(
+)
 )
 :
                     
@@ -24223,6 +24348,8 @@ only
 allowed
 on
 DOMStrings
+and
+UTF8Strings
 "
                                       
 [
@@ -24860,6 +24987,35 @@ IDLBuiltinType
 Types
 .
 usvstring
+)
+    
+IDLBuiltinType
+.
+Types
+.
+utf8string
+:
+        
+IDLBuiltinType
+(
+BuiltinLocation
+(
+"
+<
+builtin
+type
+>
+"
+)
+"
+UTF8String
+"
+                       
+IDLBuiltinType
+.
+Types
+.
+utf8string
 )
     
 IDLBuiltinType
@@ -26501,18 +26657,27 @@ type
 isJSString
 (
 )
+or
+type
+.
+isUTF8String
+(
+)
 )
 :
             
 #
 Allow
 ByteStrings
+UTF8String
 and
 JSStrings
 to
 use
 a
 default
+            
+#
 value
 like
 DOMString
@@ -43303,6 +43468,14 @@ JSSTRING
 "
         
 "
+UTF8String
+"
+:
+"
+UTF8STRING
+"
+        
+"
 any
 "
 :
@@ -51693,6 +51866,9 @@ BYTESTRING
 USVSTRING
                   
 |
+UTF8STRING
+                  
+|
 JSSTRING
                   
 |
@@ -53353,6 +53529,37 @@ IDLBuiltinType
 Types
 .
 usvstring
+    
+def
+p_BuiltinStringTypeUTF8String
+(
+self
+p
+)
+:
+        
+"
+"
+"
+            
+BuiltinStringType
+:
+UTF8STRING
+        
+"
+"
+"
+        
+p
+[
+0
+]
+=
+IDLBuiltinType
+.
+Types
+.
+utf8string
     
 def
 p_BuiltinStringTypeJSString
