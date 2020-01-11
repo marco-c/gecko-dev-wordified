@@ -125,7 +125,7 @@ include
 "
 mozilla
 /
-IHistory
+BaseHistory
 .
 h
 "
@@ -406,7 +406,7 @@ History
 final
 :
 public
-IHistory
+BaseHistory
 public
 mozIAsyncHistory
 public
