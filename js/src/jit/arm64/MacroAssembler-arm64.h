@@ -14112,7 +14112,7 @@ Equal
 is
 double
 move
-teh
+the
 bits
 as
 is
