@@ -657,20 +657,14 @@ MediaTrackGraphImpl
 public
 MediaTrackGraph
 public
+GraphInterface
+public
 nsIMemoryReporter
 public
 nsITimerCallback
 public
 nsINamed
 {
-using
-IterationResult
-=
-GraphDriver
-:
-:
-IterationResult
-;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -864,6 +858,7 @@ GraphDriver
 *
 aDriver
 )
+override
 ;
 #
 endif
@@ -1407,6 +1402,7 @@ AudioMixer
 *
 aMixer
 )
+override
 ;
 /
 *
@@ -2849,6 +2845,7 @@ aRate
 uint32_t
 aChannels
 )
+override
 ;
 /
 *
@@ -2893,6 +2890,7 @@ aRate
 uint32_t
 aChannels
 )
+override
 ;
 /
 *
@@ -2949,6 +2947,7 @@ void
 DeviceChanged
 (
 )
+override
 ;
 /
 *
