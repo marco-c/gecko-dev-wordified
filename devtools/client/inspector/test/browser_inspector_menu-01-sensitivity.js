@@ -142,6 +142,13 @@ menu
 -
 copyinner
 "
+"
+node
+-
+menu
+-
+edithtml
+"
 ]
 .
 concat
