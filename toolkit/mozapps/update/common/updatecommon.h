@@ -110,11 +110,7 @@ Init
 (
 NS_tchar
 *
-sourcePath
-const
-NS_tchar
-*
-fileName
+logFilePath
 )
 ;
 void
@@ -182,12 +178,6 @@ FILE
 logFP
 ;
 NS_tchar
-mTmpFilePath
-[
-MAXPATHLEN
-]
-;
-NS_tchar
 mDstFilePath
 [
 MAXPATHLEN
@@ -237,10 +227,8 @@ args
 define
 LogInit
 (
-PATHNAME_
-FILENAME_
+FILEPATH_
 )
-\
 UpdateLog
 :
 :
@@ -250,8 +238,7 @@ GetPrimaryLog
 .
 Init
 (
-PATHNAME_
-FILENAME_
+FILEPATH_
 )
 #
 define
