@@ -146,7 +146,7 @@ h
 #
 include
 "
-nsIChannel
+nsIChildChannel
 .
 h
 "
@@ -174,7 +174,7 @@ function
 <
 void
 (
-nsIChannel
+nsIChildChannel
 *
 nsTArray
 <
@@ -203,7 +203,7 @@ aCallback
 void
 OnChannelReady
 (
-nsIChannel
+nsIChildChannel
 *
 aChannel
 uint64_t
@@ -251,7 +251,7 @@ CallbackArgs
 {
 nsCOMPtr
 <
-nsIChannel
+nsIChildChannel
 >
 mChannel
 ;
