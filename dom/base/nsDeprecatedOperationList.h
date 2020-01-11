@@ -342,3 +342,7 @@ DEPRECATED_OPERATION
 (
 MathML_DeprecatedStyleAttribute
 )
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedXLinkAttribute
+)

@@ -209,7 +209,7 @@ targets
 commonlink
 "
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -263,7 +263,7 @@ targets
 commonlink
 "
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -442,7 +442,7 @@ targets
 :
 [
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -490,7 +490,7 @@ targets
 commonlink
 "
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -645,7 +645,7 @@ targets
 :
 [
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -742,7 +742,7 @@ targets
 commonlink
 "
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -838,7 +838,7 @@ targets
 commonlink
 "
 "
-mathxlink
+mathlink
 "
 "
 svgxlink
@@ -1678,7 +1678,7 @@ math
 id
 =
 "
-mathxlink
+mathlink
 "
 xmlns
 =
@@ -1699,15 +1699,6 @@ Math
 /
 MathML
 "
-xlink
-:
-type
-=
-"
-simple
-"
-xlink
-:
 href
 =
 "

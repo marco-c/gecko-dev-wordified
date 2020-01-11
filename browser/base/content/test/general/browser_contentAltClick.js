@@ -235,7 +235,7 @@ math
 id
 =
 "
-mathxlink
+mathlink
 "
 xmlns
 =
@@ -256,15 +256,6 @@ Math
 /
 MathML
 "
-xlink
-:
-type
-=
-"
-simple
-"
-xlink
-:
 href
 =
 "
@@ -1056,7 +1047,7 @@ synthesizeMouseAtCenter
 (
 "
 #
-mathxlink
+mathlink
 "
 {
 altKey
@@ -1149,7 +1140,7 @@ moz
 "
 Downloaded
 #
-mathxlink
+mathlink
 element
 "
 )
