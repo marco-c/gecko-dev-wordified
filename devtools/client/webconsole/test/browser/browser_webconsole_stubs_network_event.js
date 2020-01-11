@@ -567,11 +567,7 @@ message
 -
 updated
 "
-(
-[
 res
-]
-)
 =
 >
 {
