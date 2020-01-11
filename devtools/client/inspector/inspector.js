@@ -11057,9 +11057,9 @@ pseudo
 )
 {
 return
-this
+node
 .
-walker
+walkerFront
 .
 removePseudoClassLock
 (
@@ -11094,9 +11094,9 @@ active
 "
 ;
 return
-this
+node
 .
-walker
+walkerFront
 .
 addPseudoClassLock
 (
