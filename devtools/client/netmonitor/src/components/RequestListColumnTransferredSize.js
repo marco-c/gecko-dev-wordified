@@ -358,7 +358,7 @@ getStr
 "
 networkMenu
 .
-blocked
+blocked2
 "
 )
 ;

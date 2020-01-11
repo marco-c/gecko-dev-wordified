@@ -380,7 +380,7 @@ getStr
 "
 networkMenu
 .
-blocked
+blockedTooltip
 "
 )
 }
@@ -399,7 +399,7 @@ getStr
 "
 networkMenu
 .
-blocked
+blockedTooltip
 "
 )
 }
