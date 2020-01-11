@@ -1,8 +1,4 @@
 import
-pytest
-import
-sys
-import
 unittest
 from
 .
@@ -36,37 +32,6 @@ the
 majority
 of
 cases
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-version
-[
-0
-]
-=
-=
-"
-3
-"
-                   
-reason
-=
-"
-wptmanifest
-.
-parser
-doesn
-'
-t
-support
-py3
-"
-)
 class
 TestStatic
 (
@@ -103,6 +68,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -156,7 +122,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -188,7 +154,7 @@ iterchildren
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -206,7 +172,7 @@ children
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -219,7 +185,7 @@ Heading
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -236,7 +202,7 @@ value_2
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -260,6 +226,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -335,7 +302,7 @@ children
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -359,6 +326,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -414,7 +382,7 @@ a
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -449,7 +417,7 @@ ac
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -473,6 +441,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -508,7 +477,7 @@ True
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -541,7 +510,7 @@ False
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -565,6 +534,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -618,7 +588,7 @@ is_empty
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -656,7 +626,7 @@ key_2
         
 self
 .
-assertEquals
+assertEqual
 (
 set
 (
@@ -678,7 +648,7 @@ key_1
         
 self
 .
-assertEquals
+assertEqual
 (
 set
 (
@@ -707,6 +677,7 @@ self
         
 data
 =
+b
 "
 "
 "

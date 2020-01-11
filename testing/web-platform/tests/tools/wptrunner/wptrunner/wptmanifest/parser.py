@@ -61,6 +61,7 @@ import
 binary_type
 text_type
 BytesIO
+unichr
 from
 six
 .
