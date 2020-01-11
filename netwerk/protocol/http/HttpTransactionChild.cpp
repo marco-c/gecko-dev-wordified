@@ -2687,6 +2687,11 @@ selfAddr
 NetAddr
 peerAddr
 ;
+bool
+isTrr
+=
+false
+;
 if
 (
 mTransaction
@@ -2699,6 +2704,7 @@ GetNetworkAddresses
 (
 selfAddr
 peerAddr
+isTrr
 )
 ;
 }
