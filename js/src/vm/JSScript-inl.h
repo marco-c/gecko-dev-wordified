@@ -546,7 +546,7 @@ JSFunction
 *
 fun
 =
-function
+functionNonDelazifying
 (
 )
 ;
@@ -660,7 +660,7 @@ JSFunction
 *
 fun
 =
-function
+functionNonDelazifying
 (
 )
 ;
