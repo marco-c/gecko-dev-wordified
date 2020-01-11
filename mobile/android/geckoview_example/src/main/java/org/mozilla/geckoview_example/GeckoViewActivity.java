@@ -1348,6 +1348,11 @@ ExampleTelemetryDelegate
 (
 )
 )
+.
+aboutConfigEnabled
+(
+true
+)
 ;
 sGeckoRuntime
 =
