@@ -618,6 +618,17 @@ js
 :
 OnLargeAllocationFailure
 ;
+JS
+:
+:
+FilenameValidationCallback
+js
+:
+:
+gFilenameValidationCallback
+=
+nullptr
+;
 namespace
 js
 {
