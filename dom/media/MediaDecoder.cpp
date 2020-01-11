@@ -3876,15 +3876,6 @@ AbstractMainThread
 )
 )
 ;
-GetOwner
-(
-)
--
->
-RemoveMediaTracks
-(
-)
-;
 MetadataLoaded
 (
 MakeUnique
