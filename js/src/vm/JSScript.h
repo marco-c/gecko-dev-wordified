@@ -17165,6 +17165,10 @@ uint32_t
 toStringStart
 uint32_t
 toStringend
+uint32_t
+lineno
+uint32_t
+column
 )
 ;
 static
@@ -17193,6 +17197,10 @@ uint32_t
 toStringStart
 uint32_t
 toStringEnd
+uint32_t
+lineno
+uint32_t
+column
 )
 ;
 public
@@ -17230,6 +17238,10 @@ uint32_t
 toStringStart
 uint32_t
 toStringEnd
+uint32_t
+lineno
+uint32_t
+column
 )
 ;
 static
