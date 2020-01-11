@@ -1814,7 +1814,7 @@ of
 this
 source
 .
-nsCOMPtr
+RefPtr
 <
 nsIPrincipal
 >
