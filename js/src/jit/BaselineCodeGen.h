@@ -288,11 +288,6 @@ JSOP_LOOPHEAD
 \
 _
 (
-JSOP_LOOPENTRY
-)
-\
-_
-(
 JSOP_VOID
 )
 \

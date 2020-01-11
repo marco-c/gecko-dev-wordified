@@ -1107,7 +1107,7 @@ break
 ;
 }
 case
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 :
 for
 (
@@ -1147,7 +1147,7 @@ infos_
 offset
 ]
 .
-loopEntryInCatchOrFinally
+loopHeadInCatchOrFinally
 =
 true
 ;

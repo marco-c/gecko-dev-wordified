@@ -438,7 +438,7 @@ pc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 if
@@ -658,7 +658,7 @@ OSR
 uint32_t
 loopDepth
 =
-LoopEntryDepthHint
+LoopHeadDepthHint
 (
 pc
 )
@@ -716,7 +716,7 @@ code
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 uint32_t
@@ -734,7 +734,7 @@ if
 pc
 !
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 |
 |
 JitOptions
@@ -834,7 +834,7 @@ loops
 uint32_t
 loopDepth
 =
-LoopEntryDepthHint
+LoopHeadDepthHint
 (
 pc
 )

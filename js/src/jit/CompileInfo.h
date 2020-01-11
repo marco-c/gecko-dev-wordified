@@ -1101,7 +1101,7 @@ osrPc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 /
@@ -1707,7 +1707,7 @@ pc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 return

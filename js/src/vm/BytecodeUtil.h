@@ -462,12 +462,12 @@ IC
 index
 *
 /
-JOF_LOOPENTRY
+JOF_LOOPHEAD
 =
 20
 /
 *
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 combines
 JOF_ICINDEX
 and
@@ -1717,7 +1717,7 @@ icIndex
 static
 inline
 unsigned
-LoopEntryDepthHint
+LoopHeadDepthHint
 (
 jsbytecode
 *
@@ -1730,7 +1730,7 @@ MOZ_ASSERT
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 return
@@ -1747,7 +1747,7 @@ pc
 static
 inline
 bool
-LoopEntryCanIonOsr
+LoopHeadCanIonOsr
 (
 jsbytecode
 *
@@ -1760,7 +1760,7 @@ MOZ_ASSERT
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 return
@@ -1777,7 +1777,7 @@ pc
 static
 inline
 void
-SetLoopEntryDepthHintAndFlags
+SetLoopHeadDepthHintAndFlags
 (
 jsbytecode
 *
@@ -1794,7 +1794,7 @@ MOZ_ASSERT
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 uint8_t
@@ -2272,9 +2272,6 @@ JSOP_JUMPTARGET
 :
 case
 JSOP_LOOPHEAD
-:
-case
-JSOP_LOOPENTRY
 :
 case
 JSOP_AFTERYIELD

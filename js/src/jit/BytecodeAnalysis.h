@@ -195,7 +195,7 @@ true
 this
 is
 a
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 op
 inside
 a
@@ -205,7 +205,7 @@ finally
 block
 .
 bool
-loopEntryInCatchOrFinally
+loopHeadInCatchOrFinally
 :
 1
 ;
