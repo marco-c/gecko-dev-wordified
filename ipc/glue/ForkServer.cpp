@@ -614,8 +614,7 @@ pos
 =
 0
 ;
-unsigned
-long
+size_t
 sz
 =
 str

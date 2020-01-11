@@ -1160,7 +1160,7 @@ aMaxFds
 UniquePtr
 <
 msghdr
-typeof
+decltype
 (
 &
 DeinitMsgHdr
