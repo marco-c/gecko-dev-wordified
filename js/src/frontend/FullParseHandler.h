@@ -1198,6 +1198,11 @@ situation
 BigIntLiteralType
 newBigInt
 (
+BigIntIndex
+index
+ParseInfo
+&
+parseInfo
 const
 TokenPos
 &
@@ -1210,6 +1215,8 @@ new_
 BigIntLiteral
 >
 (
+index
+parseInfo
 pos
 )
 ;
