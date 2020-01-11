@@ -420,9 +420,7 @@ include
 "
 mozilla
 /
-dom
-/
-UserActivation
+EventDispatcher
 .
 h
 "
@@ -431,7 +429,7 @@ include
 "
 mozilla
 /
-EventDispatcher
+EventStateManager
 .
 h
 "

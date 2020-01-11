@@ -161,7 +161,7 @@ mozilla
 /
 dom
 /
-UserActivation
+VRDisplay
 .
 h
 "
@@ -170,9 +170,7 @@ include
 "
 mozilla
 /
-dom
-/
-VRDisplay
+HoldDropJSObjects
 .
 h
 "
@@ -192,7 +190,7 @@ include
 "
 mozilla
 /
-HoldDropJSObjects
+Base64
 .
 h
 "
@@ -201,7 +199,7 @@ include
 "
 mozilla
 /
-Base64
+EventStateManager
 .
 h
 "
@@ -2967,7 +2965,7 @@ kVRGroupContent
 if
 (
 !
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput

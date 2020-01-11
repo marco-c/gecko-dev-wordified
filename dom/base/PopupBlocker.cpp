@@ -130,18 +130,7 @@ include
 "
 mozilla
 /
-dom
-/
-UserActivation
-.
-h
-"
-#
-include
-"
-mozilla
-/
-MouseEvents
+EventStateManager
 .
 h
 "
@@ -1058,7 +1047,7 @@ input
 See
 /
 /
-UserActivation
+EventStateManager
 :
 :
 IsUserInteractionEvent
@@ -1069,7 +1058,7 @@ details
 .
 if
 (
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -1173,7 +1162,7 @@ input
 See
 /
 /
-UserActivation
+EventStateManager
 :
 :
 IsUserInteractionEvent
@@ -1184,7 +1173,7 @@ details
 .
 if
 (
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -1265,7 +1254,7 @@ input
 See
 /
 /
-UserActivation
+EventStateManager
 :
 :
 IsUserInteractionEvent
@@ -1276,7 +1265,7 @@ details
 .
 if
 (
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -2037,7 +2026,7 @@ input
 See
 /
 /
-UserActivation
+EventStateManager
 :
 :
 IsUserInteractionEvent
@@ -2048,7 +2037,7 @@ details
 .
 if
 (
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput

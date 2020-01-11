@@ -358,17 +358,6 @@ include
 "
 mozilla
 /
-dom
-/
-UserActivation
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimelineConsumers
 .
 h
@@ -7149,7 +7138,7 @@ userInputStatePusher
 .
 emplace
 (
-UserActivation
+EventStateManager
 :
 :
 IsUserInteractionEvent

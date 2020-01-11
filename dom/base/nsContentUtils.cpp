@@ -825,17 +825,6 @@ mozilla
 /
 dom
 /
-UserActivation
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerCommon
 .
 h
@@ -31241,7 +31230,7 @@ EmptyString
 fileName
 nullptr
 nullptr
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -39333,7 +39322,7 @@ nullptr
 if
 (
 !
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
@@ -39413,7 +39402,7 @@ Now
 (
 )
 -
-UserActivation
+EventStateManager
 :
 :
 GetHandlingInputStart
@@ -39521,7 +39510,7 @@ dom_allow_cut_copy
 )
 &
 &
-UserActivation
+EventStateManager
 :
 :
 IsHandlingUserInput
