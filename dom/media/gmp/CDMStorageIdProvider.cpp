@@ -174,7 +174,7 @@ EmptyCString
 ;
 #
 else
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMStorageIdProvider
@@ -203,7 +203,7 @@ machineId
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMStorageIdProvider
@@ -297,7 +297,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMStorageIdProvider
@@ -356,7 +356,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMStorageIdProvider
@@ -432,7 +432,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMStorageIdProvider
@@ -492,7 +492,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 CDMStorageIdProvider

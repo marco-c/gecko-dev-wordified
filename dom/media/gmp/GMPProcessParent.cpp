@@ -440,7 +440,7 @@ MOZ_SANDBOX_LOGGING
 "
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -687,7 +687,7 @@ wGMPPath
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ResolveJunctionPointsAndSymLinks
@@ -722,7 +722,7 @@ return
 false
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -965,7 +965,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1255,7 +1255,7 @@ appPath
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1288,7 +1288,7 @@ get
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1346,7 +1346,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1390,7 +1390,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1442,7 +1442,7 @@ get
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1477,7 +1477,7 @@ IsDevelopmentBuild
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1524,7 +1524,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1568,7 +1568,7 @@ get
 (
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1623,7 +1623,7 @@ rv
 )
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent
@@ -1667,7 +1667,7 @@ get
 (
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPProcessParent

@@ -223,7 +223,7 @@ mPluginId
 0
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -280,7 +280,7 @@ GMPContentParent
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -411,7 +411,7 @@ ActorDestroyReason
 aWhy
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -504,7 +504,7 @@ ChromiumCDMParent
 aCDM
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -564,7 +564,7 @@ GMPVideoDecoderParent
 aDecoder
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -644,7 +644,7 @@ GMPVideoEncoderParent
 aEncoder
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -737,7 +737,7 @@ IsOnCurrentThread
 +
 mCloseBlockerCount
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -784,7 +784,7 @@ IsOnCurrentThread
 -
 mCloseBlockerCount
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -821,7 +821,7 @@ CloseIfUnused
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -1009,7 +1009,7 @@ if
 mGMPEventTarget
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -1188,7 +1188,7 @@ GetChromiumCDM
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -1278,7 +1278,7 @@ uint32_t
 aDecryptorId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent
@@ -1389,7 +1389,7 @@ GMPVideoEncoderParent
 aGMPVE
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 GMPContentParent

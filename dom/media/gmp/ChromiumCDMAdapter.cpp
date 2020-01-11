@@ -345,7 +345,7 @@ void
 aUserData
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCdmHostFunc
@@ -457,7 +457,7 @@ GMPPlatformAPI
 aPlatformAPI
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMAdapter
@@ -583,7 +583,7 @@ Length
 )
 )
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 %
@@ -634,7 +634,7 @@ return
 GMPGenericErr
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 MOZ_STRINGIFY
 (
@@ -675,7 +675,7 @@ uint32_t
 aDecryptorId
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMAdapter
@@ -764,7 +764,7 @@ if
 create
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMAdapter
@@ -855,7 +855,7 @@ if
 cdm
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMAdapter
@@ -901,7 +901,7 @@ return
 GMPGenericErr
 ;
 }
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 cdm
@@ -941,7 +941,7 @@ GMPShutdown
 (
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 ChromiumCDMAdapter
@@ -985,7 +985,7 @@ if
 deinit
 )
 {
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 DeinitializeCdmModule
@@ -1254,7 +1254,7 @@ size
 =
 0
 ;
-GMP_LOG
+GMP_LOG_DEBUG
 (
 "
 QueryDosDeviceWHook
