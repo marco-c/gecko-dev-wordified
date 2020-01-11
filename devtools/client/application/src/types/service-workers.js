@@ -104,8 +104,6 @@ scope
 PropTypes
 .
 string
-.
-isRequired
 lastUpdateTime
 :
 PropTypes
