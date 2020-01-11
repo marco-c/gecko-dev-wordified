@@ -3090,7 +3090,7 @@ CheckSameOriginURI
 (
 prinURI
 aURI
-aRes
+false
 aIsPrivateWin
 )
 )
