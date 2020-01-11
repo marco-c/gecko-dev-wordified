@@ -48907,6 +48907,17 @@ NS_LITERAL_CSTRING
 )
 ;
 }
+MOZ_CRASH
+(
+"
+Should
+never
+get
+here
+.
+"
+)
+;
 }
 nsAutoCString
 GetKeyClause
