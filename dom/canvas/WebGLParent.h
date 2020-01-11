@@ -195,7 +195,7 @@ InitContextResult
 out
 )
 ;
-already_AddRefed
+RefPtr
 <
 layers
 :

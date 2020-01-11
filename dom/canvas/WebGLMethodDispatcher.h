@@ -398,6 +398,13 @@ HostWebGLContext
 :
 GetSurfaceSnapshot
 )
+DEFINE_SYNC
+(
+HostWebGLContext
+:
+:
+GetVRFrame
+)
 DEFINE_ASYNC
 (
 HostWebGLContext

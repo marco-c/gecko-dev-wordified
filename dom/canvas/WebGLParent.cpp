@@ -872,7 +872,7 @@ IPC_OK
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 layers
 :
