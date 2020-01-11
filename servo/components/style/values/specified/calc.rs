@@ -1304,7 +1304,6 @@ LengthPercentage
 )
 =
 >
-{
 NoCalcLength
 :
 :
@@ -1329,7 +1328,6 @@ map_err
 (
 )
 |
-{
 location
 .
 new_custom_error
@@ -1339,9 +1337,7 @@ StyleParseErrorKind
 :
 UnspecifiedError
 )
-}
 )
-}
 (
 &
 Token
@@ -1393,7 +1389,6 @@ map_err
 (
 )
 |
-{
 location
 .
 new_custom_error
@@ -1403,7 +1398,6 @@ StyleParseErrorKind
 :
 UnspecifiedError
 )
-}
 )
 }
 (
@@ -1457,7 +1451,6 @@ map_err
 (
 )
 |
-{
 location
 .
 new_custom_error
@@ -1467,7 +1460,6 @@ StyleParseErrorKind
 :
 UnspecifiedError
 )
-}
 )
 }
 (

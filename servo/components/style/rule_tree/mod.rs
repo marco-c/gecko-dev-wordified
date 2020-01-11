@@ -5858,6 +5858,7 @@ PresHints
 3
 =
 >
+{
 return
 Self
 :
@@ -5870,6 +5871,7 @@ ShadowCascadeOrder
 (
 order
 )
+}
 }
 4
 =
@@ -5888,6 +5890,7 @@ Animations
 6
 =
 >
+{
 return
 Self
 :
@@ -5900,6 +5903,7 @@ ShadowCascadeOrder
 (
 order
 )
+}
 }
 7
 =

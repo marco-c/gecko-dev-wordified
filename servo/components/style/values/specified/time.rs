@@ -655,7 +655,6 @@ map_err
 (
 )
 |
-{
 location
 .
 new_custom_error
@@ -665,7 +664,6 @@ StyleParseErrorKind
 :
 UnspecifiedError
 )
-}
 )
 }
 Token

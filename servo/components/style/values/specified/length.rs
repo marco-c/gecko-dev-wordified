@@ -4939,7 +4939,6 @@ calc
 )
 =
 >
-{
 input
 .
 parse_nested_block
@@ -4979,7 +4978,6 @@ calc
 )
 }
 )
-}
 ref
 token
 =
