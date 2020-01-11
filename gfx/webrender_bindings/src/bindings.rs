@@ -7126,6 +7126,9 @@ out_max_texture_size
 *
 mut
 i32
+enable_gpu_markers
+:
+bool
 )
 -
 >
@@ -7755,6 +7758,7 @@ false
 start_debug_server
 surface_origin_is_top_left
 compositor_config
+enable_gpu_markers
 .
 .
 Default
