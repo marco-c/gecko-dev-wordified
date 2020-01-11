@@ -19942,16 +19942,6 @@ onHiddenPlugin
 Atom
 (
 "
-onImageContentLoaded
-"
-"
-onImageContentLoaded
-"
-)
-    
-Atom
-(
-"
 onMozApplicationManifest
 "
 "
