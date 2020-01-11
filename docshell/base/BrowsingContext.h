@@ -1904,6 +1904,11 @@ return
 mInRDMPane
 ;
 }
+bool
+IsLoading
+(
+)
+;
 /
 /
 Using

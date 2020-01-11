@@ -3193,7 +3193,7 @@ bc
 bc
 -
 >
-GetLoading
+IsLoading
 (
 )
 )
