@@ -494,6 +494,7 @@ navigated
 ;
 }
 }
+export
 function
 validateThreadContext
 (
