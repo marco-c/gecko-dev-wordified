@@ -1184,6 +1184,15 @@ BufferLength
 Value
 (
 )
+/
+8
+/
+/
+8
+bytes
+per
+entry
+.
 mIntervalsNs
 mOverheadsNs
 mLockingsNs
