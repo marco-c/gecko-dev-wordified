@@ -22447,15 +22447,6 @@ already
 defined
 on
 nsINode
-nsINodeList
-*
-GetAnonymousNodes
-(
-Element
-&
-aElement
-)
-;
 XPathExpression
 *
 CreateExpression
