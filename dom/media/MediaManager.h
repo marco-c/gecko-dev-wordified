@@ -200,6 +200,15 @@ include
 "
 mozilla
 /
+StaticMutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -913,7 +922,9 @@ Exists
 return
 !
 !
-sSingleton
+GetIfExists
+(
+)
 ;
 }
 static
@@ -2062,6 +2073,10 @@ StaticRefPtr
 MediaManager
 >
 sSingleton
+;
+static
+StaticMutex
+sSingletonMutex
 ;
 nsTArray
 <
