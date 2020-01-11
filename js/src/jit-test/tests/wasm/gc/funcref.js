@@ -480,6 +480,10 @@ funcref
 (
 select
 (
+result
+funcref
+)
+(
 local
 .
 get
@@ -520,6 +524,10 @@ anyref
 (
 select
 (
+result
+anyref
+)
+(
 local
 .
 get
@@ -559,6 +567,10 @@ anyref
 )
 (
 select
+(
+result
+anyref
+)
 (
 local
 .
@@ -599,6 +611,10 @@ funcref
 )
 (
 select
+(
+result
+funcref
+)
 (
 local
 .
@@ -640,6 +656,10 @@ funcref
 )
 (
 select
+(
+result
+funcref
+)
 (
 local
 .
@@ -778,6 +798,10 @@ local
 get
 test
 select
+(
+result
+funcref
+)
 )
 (
 func
