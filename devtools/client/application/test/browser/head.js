@@ -600,6 +600,8 @@ function
 )
 {
 return
+!
+!
 content
 .
 wrappedJSObject

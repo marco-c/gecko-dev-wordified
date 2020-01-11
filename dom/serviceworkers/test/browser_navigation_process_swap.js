@@ -456,6 +456,7 @@ scriptURL
 )
 =
 >
+{
 await
 content
 .
@@ -465,6 +466,8 @@ registerAndWaitForActive
 (
 scriptURL
 )
+;
+}
 )
 ;
 info
