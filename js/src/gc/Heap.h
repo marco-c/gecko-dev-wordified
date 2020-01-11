@@ -175,6 +175,15 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+util
+/
+Poison
+.
+h
+"
 namespace
 js
 {
