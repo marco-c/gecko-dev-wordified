@@ -633,6 +633,11 @@ GetDeviceOfEGLDisplay
 (
 )
 ;
+bool
+CreateSwapChain
+(
+)
+;
 void
 CreateSwapChainForDCompIfPossible
 (
