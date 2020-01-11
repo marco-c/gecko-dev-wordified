@@ -999,7 +999,10 @@ individual
 values
 use
 only
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 and
 JS_GetElement
 with

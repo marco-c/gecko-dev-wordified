@@ -247,7 +247,10 @@ jsapi
 root
 :
 :
-JS_IsArrayObject
+JS
+:
+:
+IsArrayObject
 (
 cx
 val
