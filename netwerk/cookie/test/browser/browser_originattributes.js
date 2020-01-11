@@ -594,7 +594,7 @@ cookies
 }
 ;
 let
-enumerator
+allCookies
 =
 cm
 .
@@ -615,7 +615,7 @@ for
 let
 cookie
 of
-enumerator
+allCookies
 )
 {
 cookies
