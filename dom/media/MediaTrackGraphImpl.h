@@ -2472,6 +2472,8 @@ const
 TrackKeyAndVolume
 &
 aTkv
+GraphTime
+aPlayedTime
 )
 ;
 /
