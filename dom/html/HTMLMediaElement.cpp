@@ -30135,7 +30135,7 @@ void
 HTMLMediaElement
 :
 :
-UpdateSrcTrackTime
+UpdateSrcStreamTime
 (
 )
 {
@@ -30234,7 +30234,7 @@ CurrentGraphTime
 HTMLMediaElement
 :
 :
-UpdateSrcTrackTime
+UpdateSrcStreamTime
 )
 ;
 SetVolumeInternal
@@ -30453,7 +30453,7 @@ CurrentGraphTime
 HTMLMediaElement
 :
 :
-UpdateSrcTrackTime
+UpdateSrcStreamTime
 )
 ;
 mMediaStreamRenderer

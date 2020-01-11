@@ -4955,7 +4955,7 @@ timeupdate
 *
 /
 void
-UpdateSrcTrackTime
+UpdateSrcStreamTime
 (
 )
 ;
