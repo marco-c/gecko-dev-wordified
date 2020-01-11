@@ -2602,6 +2602,9 @@ call
 void
 SetSharedContents
 (
+nsLayoutStylesheetCacheShm
+*
+aSharedMemory
 const
 ServoCssRules
 *
