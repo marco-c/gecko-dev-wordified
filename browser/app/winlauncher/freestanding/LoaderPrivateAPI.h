@@ -123,6 +123,8 @@ mozilla_freestanding_LoaderPrivateAPI_h
 #
 include
 "
+mozilla
+/
 LoaderAPIInterfaces
 .
 h

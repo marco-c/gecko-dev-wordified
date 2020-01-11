@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_LoaderAPIInternal_h
+mozilla_LoaderAPIInterfaces_h
 #
 define
-mozilla_LoaderAPIInternal_h
+mozilla_LoaderAPIInterfaces_h
 #
 include
 "
@@ -608,4 +608,4 @@ mozilla
 endif
 /
 /
-mozilla_LoaderAPIInternal_h
+mozilla_LoaderAPIInterfaces_h
