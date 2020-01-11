@@ -282,6 +282,14 @@ tab
 {
 if
 (
+ignore
+)
+{
+return
+;
+}
+if
+(
 url
 &
 &
@@ -303,10 +311,6 @@ url
 =
 =
 url
-&
-&
-!
-ignore
 )
 {
 ignore
