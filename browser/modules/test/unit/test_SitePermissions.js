@@ -311,9 +311,6 @@ prompt
 geo
 "
 "
-image
-"
-"
 install
 "
 "
@@ -1253,9 +1250,6 @@ let
 nonExactHostMatched
 =
 [
-"
-image
-"
 "
 cookie
 "
