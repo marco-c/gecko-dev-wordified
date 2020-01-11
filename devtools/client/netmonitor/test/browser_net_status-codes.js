@@ -763,11 +763,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 index
-)
+]
 ;
 requestItems
 [

@@ -7516,11 +7516,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 ;
 }
 if
@@ -7911,11 +7909,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 i
-)
+]
 ;
 verifyRequestItemTarget
 (

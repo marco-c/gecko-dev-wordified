@@ -224,11 +224,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 )
 ;
 return

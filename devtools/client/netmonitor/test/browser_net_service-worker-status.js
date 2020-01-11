@@ -487,11 +487,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 index
-)
+]
 ;
 info
 (

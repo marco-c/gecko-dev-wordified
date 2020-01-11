@@ -386,7 +386,7 @@ requests
 .
 requests
 .
-size
+length
 >
 0
 )
@@ -403,7 +403,7 @@ requests
 .
 requests
 .
-size
+length
 1
 "
 Network
@@ -427,11 +427,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 ;
 is
 (

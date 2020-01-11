@@ -273,11 +273,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 index
-)
+]
 method
 requestUrl
 )

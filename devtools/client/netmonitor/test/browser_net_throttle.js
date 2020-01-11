@@ -285,11 +285,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 ;
 const
 reportedOneSecond

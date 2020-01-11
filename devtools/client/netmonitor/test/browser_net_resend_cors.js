@@ -272,11 +272,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 i
-)
+]
 )
 ;
 /
@@ -474,7 +472,7 @@ responseHeaders
 ;
 const
 {
-size
+length
 }
 =
 getSortedRequests
@@ -553,11 +551,11 @@ getState
 )
 )
 .
-size
+length
 =
 =
 =
-size
+length
 +
 1
 )
