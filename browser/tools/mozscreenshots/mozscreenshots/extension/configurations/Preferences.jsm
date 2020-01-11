@@ -118,7 +118,6 @@ jsm
 "
 )
 ;
-;
 var
 Preferences
 =
