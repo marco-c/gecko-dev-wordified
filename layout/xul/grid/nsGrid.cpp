@@ -325,7 +325,7 @@ rows
 row
 >
 <
-text
+label
 value
 =
 "
@@ -334,7 +334,7 @@ hello
 /
 >
 <
-text
+label
 value
 =
 "
@@ -367,7 +367,7 @@ rows
 row
 >
 <
-text
+label
 value
 =
 "
@@ -376,7 +376,7 @@ hello
 /
 >
 <
-text
+label
 value
 =
 "
@@ -399,7 +399,7 @@ columns
 column
 >
 <
-text
+label
 value
 =
 "
