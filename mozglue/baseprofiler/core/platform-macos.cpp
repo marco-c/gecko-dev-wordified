@@ -644,6 +644,10 @@ RegisteredThread
 &
 aRegisteredThread
 const
+TimeStamp
+&
+aNow
+const
 Func
 &
 aProcessRegs
@@ -1072,6 +1076,7 @@ mLR
 aProcessRegs
 (
 regs
+aNow
 )
 ;
 }

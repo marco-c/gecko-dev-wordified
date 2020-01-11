@@ -1308,6 +1308,10 @@ discarded
 void
 GetRunningEventDelay
 (
+const
+TimeStamp
+&
+aNow
 TimeDuration
 &
 aDelay
