@@ -11597,6 +11597,12 @@ when
 we
 return
 .
+pendingEdges_
+.
+emplace
+(
+)
+;
 auto
 freeMemory
 =
@@ -11611,7 +11617,7 @@ MakeScopeExit
 {
 pendingEdges_
 .
-clearAndCompact
+reset
 (
 )
 ;
@@ -12421,7 +12427,8 @@ AddPtr
 p
 =
 pendingEdges_
-.
+-
+>
 lookupForAdd
 (
 target
@@ -12500,7 +12507,8 @@ if
 (
 !
 pendingEdges_
-.
+-
+>
 add
 (
 p
@@ -17911,7 +17919,8 @@ Range
 r
 =
 pendingEdges_
-.
+-
+>
 all
 (
 )
@@ -23150,7 +23159,8 @@ Ptr
 p
 =
 pendingEdges_
-.
+-
+>
 lookup
 (
 pc
@@ -23202,7 +23212,8 @@ value
 )
 ;
 pendingEdges_
-.
+-
+>
 remove
 (
 p

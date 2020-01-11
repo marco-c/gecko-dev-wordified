@@ -2826,14 +2826,11 @@ destroyed
 .
 MOZ_ASSERT
 (
+!
 builder
 -
 >
-pendingEdges
-(
-)
-.
-empty
+hasPendingEdgesMap
 (
 )
 "
