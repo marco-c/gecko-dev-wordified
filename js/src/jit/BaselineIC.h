@@ -7402,11 +7402,7 @@ regs
 Register
 argcReg
 bool
-isJitCall
-bool
 isConstructing
-=
-false
 )
 ;
 /
