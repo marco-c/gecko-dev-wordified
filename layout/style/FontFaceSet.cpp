@@ -8413,13 +8413,6 @@ Append
 fontURI
 )
 ;
-if
-(
-LOG_ENABLED
-(
-)
-)
-{
 LOG
 (
 (
@@ -8445,7 +8438,6 @@ get
 )
 )
 ;
-}
 /
 /
 try
