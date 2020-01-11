@@ -7777,16 +7777,6 @@ devtools
 process
 .
 *
-"
-proxy
-"
--
-A
-proxy
-script
-process
-.
-*
 param
 {
 SchemaRoot
