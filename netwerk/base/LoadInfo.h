@@ -285,6 +285,9 @@ LoadInfoArgsToLoadInfo
 const
 Maybe
 <
+mozilla
+:
+:
 net
 :
 :
@@ -295,6 +298,9 @@ aLoadInfoArgs
 nsINode
 *
 aLoadingContext
+nsINode
+*
+aCspToInheritLoadingContext
 net
 :
 :
@@ -1201,6 +1207,9 @@ aLoadInfoArgs
 nsINode
 *
 aLoadingContext
+nsINode
+*
+aCspToInheritLoadingContext
 net
 :
 :
