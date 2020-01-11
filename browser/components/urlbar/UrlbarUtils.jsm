@@ -649,7 +649,6 @@ query
 Payload
 :
 {
-icon
 text
 buttonText
 [
