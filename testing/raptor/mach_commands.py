@@ -82,6 +82,8 @@ os
 import
 shutil
 import
+six
+import
 socket
 import
 subprocess
@@ -1840,7 +1842,9 @@ tcpip
 ]
 )
                 
-raw_input
+six
+.
+input
 (
 "
 Please
@@ -1885,7 +1889,9 @@ devices
 1
 :
                     
-raw_input
+six
+.
+input
 (
 "
 You
@@ -1982,7 +1988,9 @@ power_test
 ]
 :
                     
-raw_input
+six
+.
+input
 (
 "
 Connect
