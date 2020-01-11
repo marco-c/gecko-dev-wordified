@@ -399,8 +399,8 @@ mControllerHistory
 AudioFocusManager
 mAudioFocusManager
 ;
-MediaHardwareKeysManager
-mHardwareKeysManager
+MediaControlKeysManager
+mMediaControlKeysManager
 ;
 }
 ;
