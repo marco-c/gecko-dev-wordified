@@ -1012,6 +1012,13 @@ compositor
 surface
 #
 [
+repr
+(
+C
+)
+]
+#
+[
 derive
 (
 Debug
