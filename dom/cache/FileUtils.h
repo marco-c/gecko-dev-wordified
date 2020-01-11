@@ -447,6 +447,11 @@ aQuotaInfo
 nsIFile
 *
 aFile
+const
+bool
+aTrackQuota
+=
+true
 )
 ;
 nsresult
@@ -459,6 +464,11 @@ aQuotaInfo
 nsIFile
 *
 aFile
+const
+bool
+aTrackQuota
+=
+true
 )
 ;
 void
