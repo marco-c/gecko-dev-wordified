@@ -1286,6 +1286,7 @@ BufferStart
 ;
 auto
 *
+const
 end
 =
 BufferEnd
@@ -1334,6 +1335,7 @@ it
 end
 )
 {
+const
 auto
 type
 =
@@ -1410,6 +1412,7 @@ skip
 all
 binary
 data
+const
 auto
 binaryLength
 =
@@ -1505,6 +1508,7 @@ so
 far
 auto
 *
+const
 start
 =
 BufferStart
@@ -1577,6 +1581,7 @@ char
 *
 buffer
 ;
+const
 uint32_t
 oldLen
 =
@@ -1588,6 +1593,7 @@ Length
 (
 )
 ;
+const
 auto
 type
 =
@@ -1624,6 +1630,7 @@ include
 the
 type
 indicator
+const
 auto
 updateBufferAndIter
 =
@@ -1823,6 +1830,7 @@ skip
 all
 binary
 data
+const
 auto
 binaryLength
 =
@@ -1861,6 +1869,7 @@ Decode
 string
 and
 reencode
+const
 uint8_t
 typeOffset
 =
