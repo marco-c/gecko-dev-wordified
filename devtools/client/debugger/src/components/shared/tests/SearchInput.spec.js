@@ -539,8 +539,6 @@ setProps
 (
 {
 onHistoryScroll
-:
-onHistoryScroll
 onKeyDown
 :
 jest

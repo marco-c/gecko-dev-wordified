@@ -269,14 +269,9 @@ return
 null
 ;
 }
-const
-functions
-=
+return
 symbols
 .
-functions
-;
-return
 functions
 .
 find
