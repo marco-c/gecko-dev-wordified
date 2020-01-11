@@ -243,6 +243,8 @@ const
 nsAString
 &
 aPseudo
+bool
+aIncludeVisitedStyle
 nsTArray
 <
 RefPtr
