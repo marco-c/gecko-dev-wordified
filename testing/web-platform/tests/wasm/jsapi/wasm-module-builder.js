@@ -3291,6 +3291,9 @@ addImportedGlobal
 module
 name
 type
+mutable
+=
+false
 )
 {
 let
@@ -3311,8 +3314,9 @@ type
 type
 mutable
 :
-false
+mutable
 }
+;
 this
 .
 imports
