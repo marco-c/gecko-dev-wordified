@@ -306,6 +306,15 @@ Vector
 #
 include
 "
+util
+/
+DiagnosticAssertions
+.
+h
+"
+#
+include
+"
 vm
 /
 TaggedProto

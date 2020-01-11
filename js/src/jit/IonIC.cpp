@@ -138,6 +138,15 @@ h
 #
 include
 "
+util
+/
+DiagnosticAssertions
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
