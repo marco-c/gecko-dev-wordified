@@ -1201,7 +1201,7 @@ from
 the
 createProfileWizard
 .
-xul
+xhtml
 dialog
 .
 function
@@ -1267,7 +1267,7 @@ profile
 /
 createProfileWizard
 .
-xul
+xhtml
 "
 "
 "

@@ -380,7 +380,7 @@ content
 /
 resetProfile
 .
-xul
+xhtml
 "
 )
 {

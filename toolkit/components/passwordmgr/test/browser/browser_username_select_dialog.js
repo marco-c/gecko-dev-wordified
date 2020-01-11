@@ -65,7 +65,7 @@ that
 has
 selectDialog
 .
-xul
+xhtml
 loaded
 .
 /
@@ -188,7 +188,7 @@ content
 /
 selectDialog
 .
-xul
+xhtml
 "
 )
 {

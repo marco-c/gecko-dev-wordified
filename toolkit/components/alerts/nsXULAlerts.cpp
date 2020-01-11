@@ -200,7 +200,7 @@ alerts
 /
 alert
 .
-xul
+xhtml
 "
 namespace
 {

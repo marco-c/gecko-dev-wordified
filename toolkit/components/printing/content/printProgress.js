@@ -1113,7 +1113,7 @@ argument
 to
 printProgress
 .
-xul
+xhtml
 \
 n
 "

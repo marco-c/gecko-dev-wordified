@@ -8101,7 +8101,7 @@ content
 /
 appPicker
 .
-xul
+xhtml
 "
 null
 "

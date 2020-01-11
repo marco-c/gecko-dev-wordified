@@ -12621,7 +12621,7 @@ content
 /
 commonDialog
 .
-xul
+xhtml
 "
 func
 )
@@ -12878,7 +12878,7 @@ content
 /
 commonDialog
 .
-xul
+xhtml
 "
 func
 )
