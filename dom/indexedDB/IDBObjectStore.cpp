@@ -8390,6 +8390,18 @@ IndexUpdateInfo
 >
 updateInfo
 ;
+{
+const
+auto
+autoStateRestore
+=
+mTransaction
+-
+>
+TemporarilyProceedToInactive
+(
+)
+;
 GetAddInfo
 (
 aCx
@@ -8401,6 +8413,7 @@ updateInfo
 aRv
 )
 ;
+}
 if
 (
 aRv
