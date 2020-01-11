@@ -1,14 +1,10 @@
-/
-*
-global
-video
-*
-/
 var
 result
 =
 {
+"
 getVideoPlaybackQuality
+"
 :
 video
 .
