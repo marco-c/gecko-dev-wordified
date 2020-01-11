@@ -274,12 +274,6 @@ push
 "
 sort
 "
-"
-print
-"
-"
-print
-"
 ]
 )
 ;
