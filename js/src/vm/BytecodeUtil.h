@@ -214,9 +214,10 @@ bytecodes
 .
 *
 /
-typedef
 enum
 JSOp
+:
+uint8_t
 {
 #
 define
@@ -240,7 +241,6 @@ undef
 ENUMERATE_OPCODE
 JSOP_LIMIT
 }
-JSOp
 ;
 /
 *
