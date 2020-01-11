@@ -237,8 +237,8 @@ GfxInfo
 :
 GetAdapterRAM
 (
-nsAString
-&
+uint32_t
+*
 aAdapterRAM
 )
 {
@@ -252,8 +252,8 @@ GfxInfo
 :
 GetAdapterRAM2
 (
-nsAString
-&
+uint32_t
+*
 aAdapterRAM
 )
 {
