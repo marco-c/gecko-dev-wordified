@@ -1491,13 +1491,6 @@ sockp
 )
 override
 ;
-bool
-IsProxied
-(
-)
-const
-override
-;
 int
 async_wait
 (
