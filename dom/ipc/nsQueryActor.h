@@ -158,15 +158,12 @@ mWindow
 )
 |
 |
-NS_WARN_IF
-(
 !
 mWindow
 -
 >
 GetCurrentInnerWindow
 (
-)
 )
 )
 {
