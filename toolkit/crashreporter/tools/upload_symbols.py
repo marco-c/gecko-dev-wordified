@@ -1013,7 +1013,10 @@ zip_arg
 )
             
 #
-500
+429
+or
+any
+5XX
 is
 likely
 to
@@ -1037,9 +1040,22 @@ codes
 if
 r
 .
+ok
+or
+(
+r
+.
 status_code
 <
 500
+and
+r
+.
+status_code
+!
+=
+429
+)
 :
                 
 break
