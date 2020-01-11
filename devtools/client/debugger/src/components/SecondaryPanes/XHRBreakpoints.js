@@ -736,6 +736,13 @@ HTMLInputElement
 =
 >
 {
+const
+target
+=
+e
+.
+target
+;
 this
 .
 setState
@@ -743,8 +750,6 @@ setState
 {
 inputValue
 :
-e
-.
 target
 .
 value
@@ -766,6 +771,13 @@ HTMLInputElement
 =
 >
 {
+const
+target
+=
+e
+.
+target
+;
 this
 .
 setState
@@ -779,8 +791,6 @@ editing
 true
 inputMethod
 :
-e
-.
 target
 .
 value

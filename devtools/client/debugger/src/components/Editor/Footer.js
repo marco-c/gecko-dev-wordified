@@ -757,6 +757,8 @@ active
 :
 sourceLoaded
 blackboxed
+:
+blackboxed
 }
 )
 }

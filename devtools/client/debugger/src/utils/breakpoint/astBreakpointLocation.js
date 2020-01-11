@@ -269,9 +269,14 @@ return
 null
 ;
 }
-return
+const
+functions
+=
 symbols
 .
+functions
+;
+return
 functions
 .
 find

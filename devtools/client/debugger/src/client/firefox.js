@@ -345,11 +345,11 @@ e
 )
 ;
 const
-{
 traits
-}
 =
 tabTarget
+.
+traits
 ;
 await
 actions

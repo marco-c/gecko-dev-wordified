@@ -249,6 +249,8 @@ js
 :
 "
 disabled
+:
+disabled
 options
 :
 {
@@ -293,6 +295,8 @@ js
 :
 "
 disabled
+:
+disabled
 options
 :
 {
@@ -328,6 +332,8 @@ js
 3
 :
 "
+disabled
+:
 disabled
 }
 ]

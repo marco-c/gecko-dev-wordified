@@ -286,7 +286,13 @@ breakpoint
 .
 location
 source
+:
+source
 breakpoint
+:
+breakpoint
+log
+:
 log
 getDefaultValue
 :

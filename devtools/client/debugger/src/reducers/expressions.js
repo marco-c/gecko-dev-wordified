@@ -403,6 +403,8 @@ _state
 input
 {
 input
+:
+input
 value
 :
 result

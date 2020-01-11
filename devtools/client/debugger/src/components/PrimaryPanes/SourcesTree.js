@@ -511,11 +511,11 @@ source
 )
 {
 const
-{
 actor
-}
 =
 targetThread
+.
+actor
 ;
 if
 (

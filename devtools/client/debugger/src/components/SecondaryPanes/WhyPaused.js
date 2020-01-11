@@ -306,11 +306,11 @@ exception
 ;
 }
 const
-{
 preview
-}
 =
 exception
+.
+preview
 ;
 if
 (

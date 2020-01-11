@@ -289,6 +289,8 @@ selectedLocation
 :
 {
 sourceId
+:
+sourceId
 }
 onAlphabetizeClick
 :
@@ -977,6 +979,8 @@ render
 (
 {
 symbols
+:
+symbols
 alphabetizeOutline
 :
 true
@@ -1172,6 +1176,8 @@ render
 (
 {
 symbols
+:
+symbols
 }
 )
 ;
@@ -1275,6 +1281,8 @@ render
 (
 {
 symbols
+:
+symbols
 alphabetizeOutline
 :
 true
@@ -1353,6 +1361,8 @@ render
 (
 {
 symbols
+:
+symbols
 }
 )
 ;
@@ -1389,6 +1399,8 @@ mockcx
 line
 :
 24
+sourceId
+:
 sourceId
 }
 )
@@ -1915,6 +1927,8 @@ toHaveBeenCalledWith
 end
 :
 endLine
+sourceId
+:
 sourceId
 start
 :
