@@ -29648,6 +29648,7 @@ given
 list
 of
 tiles
+pub
 fn
 destroy_native_surfaces
 <
