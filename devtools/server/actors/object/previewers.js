@@ -608,6 +608,13 @@ obj
 script
 .
 startLine
+column
+:
+obj
+.
+script
+.
+startColumn
 }
 ;
 }
