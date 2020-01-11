@@ -2697,9 +2697,6 @@ XPCJSContext
 *
 NewXPCJSContext
 (
-XPCJSContext
-*
-aPrimaryContext
 )
 ;
 static
@@ -3086,9 +3083,6 @@ MOZ_IS_CLASS_INIT
 nsresult
 Initialize
 (
-XPCJSContext
-*
-aPrimaryContext
 )
 ;
 XPCCallContext
