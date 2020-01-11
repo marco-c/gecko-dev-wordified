@@ -90,11 +90,11 @@ event
 >
 {
 return
-content
+event
+.
+target
 .
 location
-.
-href
 !
 =
 "
