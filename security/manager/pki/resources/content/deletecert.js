@@ -84,7 +84,7 @@ functionality
 of
 deletecert
 .
-xul
+xhtml
 :
 a
 dialog
@@ -122,7 +122,7 @@ listed
 in
 certManager
 .
-xul
+xhtml
 .
 *
 argument

@@ -421,7 +421,7 @@ content
 /
 downloadcert
 .
-xul
+xhtml
 "
 "
 "
@@ -2221,7 +2221,7 @@ content
 /
 certManager
 .
-xul
+xhtml
 "
 )
 ;
