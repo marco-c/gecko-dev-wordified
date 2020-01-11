@@ -1185,6 +1185,12 @@ context
 0
 ;
 bool
+couldUseSetData
+(
+)
+const
+;
+bool
 shouldUseSetData
 (
 const
