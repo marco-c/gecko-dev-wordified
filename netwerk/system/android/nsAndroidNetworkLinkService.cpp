@@ -869,11 +869,11 @@ NS_IMETHODIMP
 nsAndroidNetworkLinkService
 :
 :
-GetVpnDetected
+GetPlatformDNSIndications
 (
-bool
+uint32_t
 *
-aHasVPN
+aPlatformDNSIndications
 )
 {
 return
