@@ -1513,13 +1513,6 @@ jsm
 events
 :
 {
-AboutNetErrorSetAutomatic
-:
-{
-wantUntrusted
-:
-true
-}
 AboutNetErrorResetPreferences
 :
 {

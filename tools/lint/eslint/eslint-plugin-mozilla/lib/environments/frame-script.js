@@ -156,6 +156,9 @@ false
 RPMRecordTelemetryEvent
 :
 false
+RPMAddToHistogram
+:
+false
 RPMRemoveMessageListener
 :
 false
