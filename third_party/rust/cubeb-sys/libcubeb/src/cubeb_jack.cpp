@@ -823,10 +823,6 @@ stream_set_volume
 =
 cbjack_stream_set_volume
 .
-stream_set_panning
-=
-NULL
-.
 stream_get_current_device
 =
 cbjack_stream_get_current_device
