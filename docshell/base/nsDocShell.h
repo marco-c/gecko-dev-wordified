@@ -8236,9 +8236,6 @@ shell
 int32_t
 mChildOffset
 ;
-uint32_t
-mSandboxFlags
-;
 BusyFlags
 mBusyFlags
 ;

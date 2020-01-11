@@ -4137,7 +4137,7 @@ IsEmpty
 )
 )
 {
-docShell
+mBrowsingContext
 -
 >
 SetSandboxFlags

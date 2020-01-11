@@ -384,7 +384,12 @@ defaultLoadFlags
 =
 defaultFlags
 ;
-docShell
+BrowsingContext
+.
+getFromWindow
+(
+content
+)
 .
 sandboxFlags
 |
