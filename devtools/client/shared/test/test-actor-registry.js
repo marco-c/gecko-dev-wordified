@@ -118,13 +118,13 @@ const
 TEST_URL_ROOT
 =
 "
-chrome
+http
 :
 /
 /
-mochitests
-/
-content
+example
+.
+com
 /
 browser
 /
