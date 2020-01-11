@@ -12313,9 +12313,6 @@ done
 )
 const
 {
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 mGeneration
@@ -12338,8 +12335,6 @@ mTable
 mMutationCount
 )
 ;
-#
-endif
 return
 mCur
 =
@@ -12362,9 +12357,6 @@ done
 )
 )
 ;
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 mValidEntry
@@ -12392,8 +12384,6 @@ mTable
 mMutationCount
 )
 ;
-#
-endif
 return
 mCur
 .
@@ -12415,9 +12405,6 @@ done
 )
 )
 ;
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 mGeneration
@@ -12440,8 +12427,6 @@ mTable
 mMutationCount
 )
 ;
-#
-endif
 moveToNextLiveEntry
 (
 )
@@ -12736,9 +12721,6 @@ done
 )
 )
 ;
-#
-ifdef
-DEBUG
 MOZ_ASSERT
 (
 this
@@ -12787,8 +12769,6 @@ mTable
 mMutationCount
 )
 ;
-#
-endif
 return
 this
 -
@@ -13434,6 +13414,12 @@ aRhs
 mTable
 =
 nullptr
+;
+aRhs
+.
+clearAndCompact
+(
+)
 ;
 }
 /
@@ -16602,10 +16588,6 @@ const
 {
 if
 (
-!
-mTable
-|
-|
 empty
 (
 )
