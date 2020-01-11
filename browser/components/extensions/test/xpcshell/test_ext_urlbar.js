@@ -8395,9 +8395,11 @@ unload
 /
 /
 Tests
-the
+that
+extensions
+can
+toggle
 openViewOnFocus
-property
 .
 add_task
 (
@@ -8430,7 +8432,7 @@ equal
 getPrefValue
 (
 )
-false
+true
 "
 Open
 -
@@ -8442,7 +8444,7 @@ focus
 mode
 should
 be
-disabled
+enabled
 by
 default
 "
@@ -8497,7 +8499,7 @@ set
 {
 value
 :
-true
+false
 }
 )
 ;
@@ -8540,10 +8542,10 @@ equal
 getPrefValue
 (
 )
-true
+false
 "
 Successfully
-enabled
+disabled
 the
 open
 -
@@ -8583,7 +8585,7 @@ equal
 getPrefValue
 (
 )
-false
+true
 "
 Open
 -
