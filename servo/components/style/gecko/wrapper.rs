@@ -13640,11 +13640,6 @@ Fullscreen
 NonTSPseudoClass
 :
 :
-MozFullScreen
-|
-NonTSPseudoClass
-:
-:
 Indeterminate
 |
 NonTSPseudoClass
