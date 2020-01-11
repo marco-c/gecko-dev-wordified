@@ -6147,6 +6147,9 @@ Option
 <
 String
 >
+surface_is_y_flipped
+:
+bool
 }
 /
 /
@@ -6225,6 +6228,9 @@ target
 total_size
 :
 FramebufferIntSize
+surface_is_y_flipped
+:
+bool
 }
 /
 /
@@ -6393,6 +6399,9 @@ new_default
 size
 :
 DeviceIntSize
+surface_is_y_flipped
+:
+bool
 )
 -
 >
@@ -6426,6 +6435,7 @@ into
 (
 )
 total_size
+surface_is_y_flipped
 }
 }
 /
@@ -6688,6 +6698,7 @@ Default
 {
 ref
 rect
+surface_is_y_flipped
 .
 .
 }
@@ -6702,6 +6713,10 @@ Y
 -
 flip
 here
+if
+!
+surface_is_y_flipped
+{
 fb_rect
 .
 origin
@@ -6745,6 +6760,7 @@ origin
 .
 x
 ;
+}
 }
 DrawTarget
 :
@@ -7300,6 +7316,9 @@ Option
 <
 String
 >
+surface_is_y_flipped
+:
+bool
 )
 -
 >
@@ -9155,6 +9174,7 @@ extensions
 texture_storage_usage
 optimal_pbo_stride
 dump_shader_source
+surface_is_y_flipped
 }
 }
 pub
@@ -9326,6 +9346,21 @@ i32
 self
 .
 max_texture_size
+}
+pub
+fn
+surface_is_y_flipped
+(
+&
+self
+)
+-
+>
+bool
+{
+self
+.
+surface_is_y_flipped
 }
 /
 /

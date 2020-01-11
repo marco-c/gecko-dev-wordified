@@ -368,6 +368,16 @@ IsContextLost
 )
 override
 ;
+bool
+SurfaceIsYFlipped
+(
+)
+override
+{
+return
+true
+;
+}
 protected
 :
 void

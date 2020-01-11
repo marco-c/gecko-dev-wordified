@@ -623,6 +623,12 @@ compositor
 gl
 (
 )
+compositor
+-
+>
+SurfaceIsYFlipped
+(
+)
 aRenderThread
 .
 GetProgramCache
