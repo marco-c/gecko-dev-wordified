@@ -414,6 +414,10 @@ parsedDom
 =
 (
 new
+doc
+.
+defaultView
+.
 DOMParser
 (
 )
