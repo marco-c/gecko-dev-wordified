@@ -973,6 +973,13 @@ error_text
 Error
 !
 "
+retry_button_label
+:
+"
+Try
+again
+?
+"
 links
 :
 {
