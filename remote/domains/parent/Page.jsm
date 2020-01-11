@@ -2183,6 +2183,9 @@ async
 printToPDF
 (
 options
+=
+{
+}
 )
 {
 const
