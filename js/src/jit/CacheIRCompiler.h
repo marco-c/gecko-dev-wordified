@@ -351,6 +351,11 @@ GuardAndGetNumberFromString
 \
 _
 (
+GuardAndGetNumberFromBoolean
+)
+\
+_
+(
 GuardAndGetIndexFromString
 )
 \
