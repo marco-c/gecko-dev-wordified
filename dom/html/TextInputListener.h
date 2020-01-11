@@ -161,14 +161,14 @@ class
 nsIFrame
 ;
 class
-nsITextControlElement
-;
-class
 nsTextControlFrame
 ;
 namespace
 mozilla
 {
+class
+TextControlElement
+;
 class
 TextControlState
 ;
@@ -197,7 +197,7 @@ public
 explicit
 TextInputListener
 (
-nsITextControlElement
+TextControlElement
 *
 aTextControlElement
 )
@@ -422,7 +422,7 @@ nsIFrame
 *
 mFrame
 ;
-nsITextControlElement
+TextControlElement
 *
 const
 mTxtCtrlElement
