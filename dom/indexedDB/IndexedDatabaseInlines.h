@@ -713,7 +713,7 @@ E
 typename
 Map
 >
-already_AddRefed
+RefPtr
 <
 DOMStringList
 >
@@ -808,10 +808,6 @@ Sort
 }
 return
 list
-.
-forget
-(
-)
 ;
 }
 }
