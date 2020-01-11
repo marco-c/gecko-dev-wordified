@@ -1771,7 +1771,7 @@ this
 .
 _timeouts
 .
-remove
+delete
 (
 timeoutId
 )
