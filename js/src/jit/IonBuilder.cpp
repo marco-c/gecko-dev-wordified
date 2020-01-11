@@ -14265,9 +14265,6 @@ JSOP_TRY_DESTRUCTURING
 case
 JSOP_LINENO
 :
-case
-JSOP_LABEL
-:
 return
 Ok
 (
@@ -17277,6 +17274,9 @@ break
 ;
 case
 JSOP_UNUSED71
+:
+case
+JSOP_UNUSED106
 :
 case
 JSOP_UNUSED120

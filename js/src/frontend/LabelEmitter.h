@@ -271,17 +271,6 @@ BytecodeEmitter
 *
 bce_
 ;
-/
-/
-The
-offset
-of
-the
-JSOP_LABEL
-.
-BytecodeOffset
-top_
-;
 mozilla
 :
 :
@@ -444,8 +433,7 @@ bce
 )
 {
 }
-MOZ_MUST_USE
-bool
+void
 emitLabel
 (
 HandleAtom
