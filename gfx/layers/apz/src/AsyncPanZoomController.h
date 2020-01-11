@@ -8995,6 +8995,12 @@ apzc
 .
 *
 /
+bool
+IsInTransformingState
+(
+)
+const
+;
 static
 bool
 IsTransformingState
