@@ -734,7 +734,6 @@ e
 ;
 }
 }
-async
 close
 (
 )
@@ -813,7 +812,7 @@ this
 listening
 )
 {
-await
+return
 this
 .
 server
@@ -865,6 +864,13 @@ targets
 null
 ;
 }
+return
+Promise
+.
+resolve
+(
+)
+;
 }
 get
 scheme
