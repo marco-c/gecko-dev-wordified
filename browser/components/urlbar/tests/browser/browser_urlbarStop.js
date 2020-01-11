@@ -128,9 +128,9 @@ is
 gURLBar
 .
 value
-gURLBar
+BrowserUtils
 .
-trimValue
+trimURL
 (
 goodURL
 )
@@ -154,9 +154,9 @@ is
 gURLBar
 .
 value
-gURLBar
+BrowserUtils
 .
-trimValue
+trimURL
 (
 goodURL
 )
@@ -221,9 +221,9 @@ is
 gURLBar
 .
 value
-gURLBar
+BrowserUtils
 .
-trimValue
+trimURL
 (
 badURL
 )
@@ -269,9 +269,9 @@ is
 gURLBar
 .
 value
-gURLBar
+BrowserUtils
 .
-trimValue
+trimURL
 (
 url
 )

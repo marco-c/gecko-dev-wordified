@@ -2042,9 +2042,9 @@ is
 gURLBar
 .
 value
-gURLBar
+BrowserUtils
 .
-trimValue
+trimURL
 (
 "
 http
