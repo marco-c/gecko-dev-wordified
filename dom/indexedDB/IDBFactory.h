@@ -699,7 +699,8 @@ IsChrome
 )
 const
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -721,7 +722,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -745,7 +747,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -802,7 +805,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -826,7 +830,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -852,7 +857,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -978,7 +984,8 @@ nsIPrincipal
 aPrincipal
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
