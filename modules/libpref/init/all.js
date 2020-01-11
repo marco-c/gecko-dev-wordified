@@ -27531,6 +27531,8 @@ https
 :
 /
 /
+services
+.
 addons
 .
 mozilla
