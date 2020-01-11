@@ -1420,6 +1420,10 @@ lowerURL
 includes
 (
 code
+.
+toLowerCase
+(
+)
 )
 )
 ;
