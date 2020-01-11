@@ -607,16 +607,6 @@ JSEXN_INTERNALERR
 \
 REAL
 (
-AggregateError
-InitViaClassSpec
-ERROR_CLASP
-(
-JSEXN_AGGREGATEERR
-)
-)
-\
-REAL
-(
 EvalError
 InitViaClassSpec
 ERROR_CLASP

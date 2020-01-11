@@ -298,15 +298,6 @@ include
 "
 vm
 /
-ErrorObject
-.
-h
-"
-#
-include
-"
-vm
-/
 FrameIter
 .
 h
