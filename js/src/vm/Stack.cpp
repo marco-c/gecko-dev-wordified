@@ -6387,7 +6387,7 @@ script
 )
 -
 >
-function
+isFunction
 (
 )
 ;

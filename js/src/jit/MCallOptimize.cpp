@@ -26808,7 +26808,7 @@ script
 )
 -
 >
-function
+isFunction
 (
 )
 "

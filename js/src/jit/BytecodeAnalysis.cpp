@@ -1450,7 +1450,7 @@ if
 script
 -
 >
-module
+isModule
 (
 )
 |

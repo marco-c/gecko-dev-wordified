@@ -2210,7 +2210,7 @@ hasName
 script
 -
 >
-function
+isFunction
 (
 )
 |

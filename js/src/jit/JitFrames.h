@@ -450,7 +450,7 @@ token
 )
 -
 >
-module
+isModule
 (
 )
 ;

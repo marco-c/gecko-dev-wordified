@@ -5744,7 +5744,7 @@ if
 script
 -
 >
-module
+isModule
 (
 )
 )

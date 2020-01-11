@@ -3000,7 +3000,7 @@ return
 script_
 -
 >
-module
+isModule
 (
 )
 ;
@@ -3030,7 +3030,7 @@ return
 script_
 -
 >
-function
+isFunction
 (
 )
 ;
