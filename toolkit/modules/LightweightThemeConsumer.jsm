@@ -846,7 +846,7 @@ min_opacity
 =
 0
 .
-7
+9
 ;
 let
 {
