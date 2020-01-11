@@ -723,7 +723,7 @@ GetTopLevelStorageAreaPrincipal
 a3rdPartyTrackingWindow
 -
 >
-GetTopLevelAntiTrackingPrincipal
+GetTopLevelPrincipal
 (
 )
 ;

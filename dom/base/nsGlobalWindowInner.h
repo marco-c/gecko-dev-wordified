@@ -8025,7 +8025,7 @@ window
 .
 nsIPrincipal
 *
-GetTopLevelAntiTrackingPrincipal
+GetTopLevelPrincipal
 (
 )
 ;
