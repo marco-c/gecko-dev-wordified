@@ -89,8 +89,8 @@ hsla
 )
 %
 define
-urlbarBreakoutHorizontalExtend
-30px
+urlbarMarginInline
+5px
 :
 root
 {
@@ -224,7 +224,7 @@ margin
 -
 inline
 :
-5px
+urlbarMarginInline
 ;
 }
 #
@@ -1471,7 +1471,7 @@ top
 left
 :
 -
-urlbarBreakoutHorizontalExtend
+urlbarMarginInline
 ;
 width
 :
@@ -1482,7 +1482,7 @@ calc
 +
 2
 *
-urlbarBreakoutHorizontalExtend
+urlbarMarginInline
 )
 ;
 }
@@ -1585,7 +1585,7 @@ padding
 -
 inline
 :
-urlbarBreakoutHorizontalExtend
+urlbarMarginInline
 ;
 }
 keyframes
@@ -1598,7 +1598,12 @@ grow
 {
 transform
 :
-scale
+scaleX
+(
+.
+98
+)
+scaleY
 (
 .
 9
