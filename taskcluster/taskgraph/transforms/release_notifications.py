@@ -154,7 +154,7 @@ notifications
 =
 job
 .
-get
+pop
 (
 '
 notifications
@@ -261,23 +261,6 @@ for
 email
 in
 emails
-]
-            
-#
-Don
-'
-t
-need
-this
-any
-more
-            
-del
-job
-[
-'
-notifications
-'
 ]
             
 #
