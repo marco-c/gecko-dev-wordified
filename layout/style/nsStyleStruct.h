@@ -14342,13 +14342,12 @@ mozilla
 StyleSVGPaintOrder
 mPaintOrder
 ;
-uint8_t
+mozilla
+:
+:
+StyleShapeRendering
 mShapeRendering
 ;
-/
-/
-NS_STYLE_SHAPE_RENDERING_
-*
 uint8_t
 mStrokeLinecap
 ;

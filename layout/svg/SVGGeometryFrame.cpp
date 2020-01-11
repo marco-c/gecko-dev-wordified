@@ -5070,7 +5070,10 @@ StyleSVG
 mShapeRendering
 =
 =
-NS_STYLE_SHAPE_RENDERING_OPTIMIZESPEED
+StyleShapeRendering
+:
+:
+Optimizespeed
 |
 |
 StyleSVG
@@ -5081,7 +5084,10 @@ StyleSVG
 mShapeRendering
 =
 =
-NS_STYLE_SHAPE_RENDERING_CRISPEDGES
+StyleShapeRendering
+:
+:
+Crispedges
 )
 ?
 AntialiasMode
