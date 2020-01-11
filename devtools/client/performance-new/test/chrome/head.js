@@ -1424,7 +1424,7 @@ perfFrontMock
 receiveProfile
 :
 receiveProfileMock
-recordingSettingsFromPreferences
+recordingPreferences
 :
 getDefaultRecordingPreferences
 (
