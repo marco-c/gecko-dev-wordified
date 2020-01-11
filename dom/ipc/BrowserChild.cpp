@@ -16962,6 +16962,10 @@ result
 SendRequestFocus
 (
 false
+CallerType
+:
+:
+System
 )
 ;
 }
@@ -18950,6 +18954,8 @@ SendRequestFocus
 (
 bool
 aCanFocus
+CallerType
+aCallerType
 )
 {
 PBrowserChild
@@ -18958,6 +18964,7 @@ PBrowserChild
 SendRequestFocus
 (
 aCanFocus
+aCallerType
 )
 ;
 }

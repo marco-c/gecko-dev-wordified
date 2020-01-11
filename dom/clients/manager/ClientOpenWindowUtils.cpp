@@ -1564,6 +1564,10 @@ nsFocusManager
 FocusWindow
 (
 aOuterWindow
+CallerType
+:
+:
+NonSystem
 )
 ;
 nsCOMPtr
