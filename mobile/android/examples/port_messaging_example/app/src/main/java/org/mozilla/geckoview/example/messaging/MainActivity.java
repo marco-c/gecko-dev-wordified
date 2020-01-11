@@ -342,6 +342,11 @@ assets
 messaging
 /
 "
+sRuntime
+.
+getWebExtensionController
+(
+)
 )
 ;
 extension
