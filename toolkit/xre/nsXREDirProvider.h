@@ -405,6 +405,11 @@ InitializeUserPrefs
 )
 ;
 void
+FinishInitializingUserPrefs
+(
+)
+;
+void
 DoShutdown
 (
 )

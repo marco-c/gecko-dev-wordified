@@ -698,6 +698,12 @@ InitializeUserPrefs
 (
 )
 ;
+static
+void
+FinishInitializingUserPrefs
+(
+)
+;
 /
 /
 Returns
