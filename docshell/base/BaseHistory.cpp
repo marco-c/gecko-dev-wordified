@@ -175,13 +175,12 @@ dom
 :
 Link
 ;
+static
 Document
 *
-BaseHistory
-:
-:
 GetLinkDocument
 (
+const
 Link
 &
 aLink
