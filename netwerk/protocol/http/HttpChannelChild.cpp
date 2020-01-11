@@ -18165,11 +18165,11 @@ navigationStartTimeStamp
 ;
 openArgs
 .
-hasSandboxedAuxiliaryNavigations
+hasNonEmptySandboxingFlag
 (
 )
 =
-GetHasSandboxedAuxiliaryNavigations
+GetHasNonEmptySandboxingFlag
 (
 )
 ;

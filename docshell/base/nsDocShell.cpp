@@ -65827,8 +65827,6 @@ LOAD_DOCUMENT_NEEDS_COOKIE
 if
 (
 mSandboxFlags
-&
-SANDBOXED_AUXILIARY_NAVIGATION
 )
 {
 nsCOMPtr
@@ -65851,7 +65849,7 @@ httpChannel
 httpChannel
 -
 >
-SetHasSandboxedAuxiliaryNavigations
+SetHasNonEmptySandboxingFlag
 (
 true
 )

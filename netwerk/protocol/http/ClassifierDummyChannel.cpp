@@ -2762,7 +2762,7 @@ bool
 ClassifierDummyChannel
 :
 :
-GetHasSandboxedAuxiliaryNavigations
+GetHasNonEmptySandboxingFlag
 (
 )
 {
@@ -2774,10 +2774,10 @@ void
 ClassifierDummyChannel
 :
 :
-SetHasSandboxedAuxiliaryNavigations
+SetHasNonEmptySandboxingFlag
 (
 bool
-aHasSandboxedAuxiliaryNavigations
+aHasNonEmptySandboxingFlag
 )
 {
 }
