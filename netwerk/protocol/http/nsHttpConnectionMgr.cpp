@@ -1230,6 +1230,8 @@ uint32_t
 throttleHoldTime
 uint32_t
 throttleMaxTime
+bool
+beConservativeForProxy
 )
 {
 LOG
@@ -1310,6 +1312,10 @@ FromMilliseconds
 (
 throttleMaxTime
 )
+;
+mBeConservativeForProxy
+=
+beConservativeForProxy
 ;
 mIsShuttingDown
 =

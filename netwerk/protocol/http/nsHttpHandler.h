@@ -3141,6 +3141,9 @@ mTailTotalMax
 uint8_t
 mRedirectionLimit
 ;
+bool
+mBeConservativeForProxy
+;
 /
 /
 we
