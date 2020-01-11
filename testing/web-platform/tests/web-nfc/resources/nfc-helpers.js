@@ -1198,7 +1198,7 @@ data
 }
 }
 function
-testNDEFScanOptions
+testMultiScanOptions
 (
 message
 scanOptions
@@ -1374,7 +1374,7 @@ desc
 ;
 }
 function
-testReadingMultiMessages
+testMultiMessages
 (
 message
 scanOptions
