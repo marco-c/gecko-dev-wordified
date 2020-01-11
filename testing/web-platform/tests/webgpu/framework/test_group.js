@@ -317,11 +317,13 @@ throw
 new
 Error
 (
-'
 Duplicate
 test
 name
-'
+:
+{
+name
+}
 )
 ;
 }
@@ -715,6 +717,7 @@ fn
 async
 run
 (
+debug
 )
 {
 const
@@ -745,6 +748,7 @@ rec
 .
 start
 (
+debug
 )
 ;
 try
@@ -784,6 +788,7 @@ fn
 inst
 )
 ;
+await
 inst
 .
 finalize

@@ -191,8 +191,6 @@ device
 .
 createCommandEncoder
 (
-{
-}
 )
 ;
 encoder
@@ -379,8 +377,6 @@ device
 .
 createCommandEncoder
 (
-{
-}
 )
 ;
 encoder
@@ -671,8 +667,6 @@ device
 .
 createCommandEncoder
 (
-{
-}
 )
 ;
 encoder
