@@ -157,13 +157,6 @@ UniquePtr
 .
 h
 "
-#
-include
-"
-nsINamed
-.
-h
-"
 using
 namespace
 mozilla

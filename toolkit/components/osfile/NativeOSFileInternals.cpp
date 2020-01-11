@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsINativeOSFileInternals
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

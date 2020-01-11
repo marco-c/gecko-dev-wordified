@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsIX509Cert
 .
 h

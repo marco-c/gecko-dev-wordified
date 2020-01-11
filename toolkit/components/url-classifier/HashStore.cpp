@@ -367,13 +367,6 @@ h
 #
 include
 "
-nsIStreamConverterService
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

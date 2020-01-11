@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIWritablePropertyBag
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

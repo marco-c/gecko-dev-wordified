@@ -295,13 +295,6 @@ h
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -324,6 +317,13 @@ h
 include
 "
 nsMimeTypes
+.
+h
+"
+#
+include
+"
+imgIEncoder
 .
 h
 "

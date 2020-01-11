@@ -304,13 +304,6 @@ h
 #
 include
 "
-nsILoadGroup
-.
-h
-"
-#
-include
-"
 nsIProxiedChannel
 .
 h

@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsCacheMetaData
 .
 h
@@ -185,6 +178,9 @@ nsCacheRequest
 ;
 class
 nsCacheEntryDescriptor
+;
+class
+nsIEventTarget
 ;
 /
 *

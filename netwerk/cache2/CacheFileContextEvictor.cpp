@@ -129,13 +129,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsIDirectoryEnumerator
 .
 h

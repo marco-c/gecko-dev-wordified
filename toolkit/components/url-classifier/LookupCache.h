@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIFileStreams
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr

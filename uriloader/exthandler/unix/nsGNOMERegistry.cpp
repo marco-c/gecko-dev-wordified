@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsMIMEInfoUnix
 .
 h

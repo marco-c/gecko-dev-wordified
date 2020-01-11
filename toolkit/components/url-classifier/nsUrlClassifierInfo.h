@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

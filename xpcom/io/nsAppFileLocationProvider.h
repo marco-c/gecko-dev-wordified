@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIFile
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

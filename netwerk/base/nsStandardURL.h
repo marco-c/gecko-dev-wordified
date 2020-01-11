@@ -139,13 +139,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

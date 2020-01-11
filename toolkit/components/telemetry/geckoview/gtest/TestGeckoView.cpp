@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsITelemetry
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

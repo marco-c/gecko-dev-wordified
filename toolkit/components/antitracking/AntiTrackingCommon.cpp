@@ -294,13 +294,6 @@ h
 #
 include
 "
-nsIIOService
-.
-h
-"
-#
-include
-"
 nsIParentChannel
 .
 h
@@ -344,13 +337,6 @@ h
 include
 "
 nsIURIFixup
-.
-h
-"
-#
-include
-"
-nsIURL
 .
 h
 "

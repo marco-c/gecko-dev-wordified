@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsIX509Cert
 .
 h

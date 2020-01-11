@@ -257,6 +257,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -279,13 +286,6 @@ h
 include
 "
 nsITransferable
-.
-h
-"
-#
-include
-"
-nsIComponentManager
 .
 h
 "

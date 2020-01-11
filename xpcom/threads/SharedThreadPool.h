@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIThreadManager
-.
-h
-"
-#
-include
-"
 nsIThreadPool
 .
 h

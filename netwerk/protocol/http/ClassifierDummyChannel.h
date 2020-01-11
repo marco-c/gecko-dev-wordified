@@ -126,6 +126,13 @@ h
 "
 #
 include
+"
+nsIHttpChannelInternal
+.
+h
+"
+#
+include
 <
 functional
 >

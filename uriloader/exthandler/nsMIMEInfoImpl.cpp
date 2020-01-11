@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIURILoader
-.
-h
-"
-#
-include
-"
 nsCURILoader
 .
 h

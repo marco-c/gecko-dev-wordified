@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIComponentRegistrar
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

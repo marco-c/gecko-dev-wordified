@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIBrowser
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -177,13 +170,6 @@ h
 include
 "
 nsIPrefBranch
-.
-h
-"
-#
-include
-"
-nsIPrefService
 .
 h
 "

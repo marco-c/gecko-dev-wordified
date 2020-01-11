@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Telemetry

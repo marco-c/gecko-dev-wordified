@@ -118,6 +118,9 @@ prerror
 .
 h
 "
+class
+nsIStringBundle
+;
 namespace
 mozilla
 {

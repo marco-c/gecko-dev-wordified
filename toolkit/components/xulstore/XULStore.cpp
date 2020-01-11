@@ -90,13 +90,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIXULStore
-.
-h
-"
 namespace
 mozilla
 {

@@ -68,13 +68,6 @@ h
 #
 include
 "
-nsIPrintProgressParams
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h

@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIInputStream
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h

@@ -144,13 +144,6 @@ h
 #
 include
 "
-nsIUrlListManager
-.
-h
-"
-#
-include
-"
 nsIUrlClassifierDBService
 .
 h
@@ -166,13 +159,6 @@ h
 include
 "
 nsIURIClassifier
-.
-h
-"
-#
-include
-"
-nsICryptoHMAC
 .
 h
 "

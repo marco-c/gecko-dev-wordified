@@ -113,13 +113,6 @@ nsAutoJSString
 #
 include
 "
-nsITelemetry
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

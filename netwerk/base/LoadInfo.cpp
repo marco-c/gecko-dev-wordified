@@ -303,13 +303,6 @@ h
 #
 include
 "
-nsICookieService
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

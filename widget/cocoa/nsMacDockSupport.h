@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

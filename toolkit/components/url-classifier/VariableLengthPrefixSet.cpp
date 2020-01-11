@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsUrlClassifierPrefixSet
 .
 h

@@ -225,13 +225,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsIPipe
 .
 h
@@ -338,6 +331,13 @@ h
 include
 "
 nsIHttpChannelInternal
+.
+h
+"
+#
+include
+"
+nsIMultiplexInputStream
 .
 h
 "

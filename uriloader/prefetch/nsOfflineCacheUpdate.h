@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIRequestObserver
-.
-h
-"
-#
-include
-"
 nsIRunnable
 .
 h
@@ -194,13 +187,6 @@ h
 include
 "
 nsIURI
-.
-h
-"
-#
-include
-"
-nsIWebProgressListener
 .
 h
 "

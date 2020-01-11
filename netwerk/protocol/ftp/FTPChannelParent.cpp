@@ -203,13 +203,6 @@ h
 #
 include
 "
-nsIEncodedChannel
-.
-h
-"
-#
-include
-"
 nsIHttpChannelInternal
 .
 h
@@ -263,13 +256,6 @@ h
 include
 "
 SerializedLoadContext
-.
-h
-"
-#
-include
-"
-nsIContentPolicy
 .
 h
 "

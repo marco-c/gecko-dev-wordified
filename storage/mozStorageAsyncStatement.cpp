@@ -171,13 +171,6 @@ h
 #
 include
 "
-mozIStorageError
-.
-h
-"
-#
-include
-"
 mozStorageBindingParams
 .
 h

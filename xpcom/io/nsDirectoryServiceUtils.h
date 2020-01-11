@@ -123,13 +123,6 @@ nsDirectoryServiceUtils_h___
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIProperties
 .
 h

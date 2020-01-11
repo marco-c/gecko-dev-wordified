@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -222,13 +215,6 @@ h
 include
 "
 nsMimeTypes
-.
-h
-"
-#
-include
-"
-nsIStreamConverterService
 .
 h
 "

@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsIFileStreams
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

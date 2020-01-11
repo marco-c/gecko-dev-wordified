@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIStorageStream
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

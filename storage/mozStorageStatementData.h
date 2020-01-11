@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h
@@ -148,13 +141,6 @@ h
 include
 "
 mozStorageBindingParamsArray
-.
-h
-"
-#
-include
-"
-mozIStorageBaseStatement
 .
 h
 "

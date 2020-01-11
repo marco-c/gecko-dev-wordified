@@ -162,6 +162,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsDependentSubstring
 .
 h

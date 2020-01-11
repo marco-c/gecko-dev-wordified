@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsITransferable
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

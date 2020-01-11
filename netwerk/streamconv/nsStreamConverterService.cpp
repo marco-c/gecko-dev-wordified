@@ -94,6 +94,13 @@ MPL
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsStreamConverterService
 .
 h

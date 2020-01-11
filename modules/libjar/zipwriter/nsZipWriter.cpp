@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIAsyncStreamCopier
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
@@ -107,13 +100,6 @@ h
 include
 "
 nsIInputStreamPump
-.
-h
-"
-#
-include
-"
-nsILoadInfo
 .
 h
 "

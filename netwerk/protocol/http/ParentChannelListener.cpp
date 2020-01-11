@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsIRemoteTab
-.
-h
-"
-#
-include
-"
 nsIPrompt
 .
 h

@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsIDirectoryEnumerator
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -172,13 +165,6 @@ h
 include
 "
 nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
-nsIToolkitChromeRegistry
 .
 h
 "

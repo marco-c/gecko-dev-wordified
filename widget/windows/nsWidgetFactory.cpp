@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsIFactory
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -168,13 +161,6 @@ mozilla
 widget
 /
 ScreenManager
-.
-h
-"
-#
-include
-"
-nsIServiceManager
 .
 h
 "

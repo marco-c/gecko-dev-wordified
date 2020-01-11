@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsXPCOMPrivate
 .
 h

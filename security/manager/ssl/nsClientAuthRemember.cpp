@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsIX509Cert
-.
-h
-"
-#
-include
-"
 mozilla
 /
 BasePrincipal
@@ -148,13 +141,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsISupportsPrimitives
 .
 h
 "

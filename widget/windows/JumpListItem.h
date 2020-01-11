@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

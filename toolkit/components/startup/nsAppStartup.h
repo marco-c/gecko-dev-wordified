@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsINativeAppSupport
-.
-h
-"
-#
-include
-"
 nsIAppShell
 .
 h

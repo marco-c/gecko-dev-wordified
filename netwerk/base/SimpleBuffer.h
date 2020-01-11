@@ -176,13 +176,6 @@ LinkedList
 .
 h
 "
-#
-include
-"
-nsIThreadInternal
-.
-h
-"
 namespace
 mozilla
 {

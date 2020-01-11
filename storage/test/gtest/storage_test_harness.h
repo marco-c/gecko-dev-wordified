@@ -144,6 +144,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h

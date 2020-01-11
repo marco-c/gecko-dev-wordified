@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIScriptableBase64Encoder
 .
 h

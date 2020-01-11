@@ -65,6 +65,13 @@ mozilla_places_Shutdown_h_
 #
 include
 "
+mozIStorageCompletionCallback
+.
+h
+"
+#
+include
+"
 nsIAsyncShutdown
 .
 h

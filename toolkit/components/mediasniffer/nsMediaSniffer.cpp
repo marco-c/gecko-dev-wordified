@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsIHttpChannel
+nsIChannel
 .
 h
 "

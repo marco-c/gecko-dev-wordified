@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIIdlePeriod
-.
-h
-"
-#
-include
-"
 nsIThreadInternal
 .
 h

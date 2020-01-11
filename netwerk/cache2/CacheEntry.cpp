@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIStreamTransportService
-.
-h
-"
-#
-include
-"
 nsISizeOf
 .
 h

@@ -246,6 +246,13 @@ h
 #
 include
 "
+nsIDNSService
+.
+h
+"
+#
+include
+"
 nsThreadManager
 .
 h

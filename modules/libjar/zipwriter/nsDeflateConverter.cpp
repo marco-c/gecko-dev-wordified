@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIInputStreamPump
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

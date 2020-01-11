@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsISeekableStream
-.
-h
-"
-#
-include
-"
 nsITransport
 .
 h

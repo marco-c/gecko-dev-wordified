@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIXPConnect
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

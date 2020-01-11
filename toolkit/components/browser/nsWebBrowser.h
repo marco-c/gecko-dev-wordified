@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsISHistory
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -220,13 +213,6 @@ h
 include
 "
 nsIWebProgress
-.
-h
-"
-#
-include
-"
-nsISecureBrowserUI
 .
 h
 "

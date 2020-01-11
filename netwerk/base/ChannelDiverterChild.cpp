@@ -180,13 +180,6 @@ PFTPChannelChild
 .
 h
 "
-#
-include
-"
-nsIDivertableChannel
-.
-h
-"
 namespace
 mozilla
 {

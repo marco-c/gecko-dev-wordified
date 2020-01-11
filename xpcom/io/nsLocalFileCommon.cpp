@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsLocalFile
 .
 h

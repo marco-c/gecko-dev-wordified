@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIPipe
-.
-h
-"
-#
-include
-"
 nsStreamUtils
 .
 h

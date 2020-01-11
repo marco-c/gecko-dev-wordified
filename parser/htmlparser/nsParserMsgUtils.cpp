@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

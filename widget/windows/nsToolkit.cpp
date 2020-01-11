@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

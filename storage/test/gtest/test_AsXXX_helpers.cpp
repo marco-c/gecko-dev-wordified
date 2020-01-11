@@ -50,6 +50,13 @@ mozIStorageResultSet
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 /
 *
 *

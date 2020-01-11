@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsISocketProvider
 .
 h

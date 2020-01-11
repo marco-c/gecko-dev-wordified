@@ -223,13 +223,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

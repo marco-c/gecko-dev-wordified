@@ -86,13 +86,6 @@ h
 "
 #
 include
-"
-nsIMutableArray
-.
-h
-"
-#
-include
 <
 glib
 .

@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsNamedPipeService
 .
 h

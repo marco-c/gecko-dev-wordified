@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsIDirectoryEnumerator
 .
 h
@@ -170,13 +163,6 @@ h
 include
 "
 nsIObserverService
-.
-h
-"
-#
-include
-"
-nsICacheStorageVisitor
 .
 h
 "

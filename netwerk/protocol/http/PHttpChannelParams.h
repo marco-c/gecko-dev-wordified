@@ -176,13 +176,6 @@ Tuple
 .
 h
 "
-#
-include
-"
-nsIClassInfo
-.
-h
-"
 namespace
 mozilla
 {

@@ -94,13 +94,6 @@ MPL
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsNamedPipeIOLayer
 .
 h

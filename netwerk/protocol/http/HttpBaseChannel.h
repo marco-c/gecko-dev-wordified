@@ -248,13 +248,6 @@ h
 #
 include
 "
-nsIEffectiveTLDService
-.
-h
-"
-#
-include
-"
 nsIStringEnumerator
 .
 h
@@ -298,13 +291,6 @@ h
 include
 "
 nsITraceableChannel
-.
-h
-"
-#
-include
-"
-nsILoadContext
 .
 h
 "

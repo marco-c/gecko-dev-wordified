@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

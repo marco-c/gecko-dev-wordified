@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsIFileStreams
+.
+h
+"
+#
+include
+"
 nsISeekableStream
 .
 h

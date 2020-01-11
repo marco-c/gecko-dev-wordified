@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIParentRedirectingChannel
 .
 h

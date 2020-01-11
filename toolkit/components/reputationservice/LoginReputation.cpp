@@ -208,6 +208,13 @@ h
 #
 include
 "
+nsIURIClassifier
+.
+h
+"
+#
+include
+"
 nsIUrlClassifierFeature
 .
 h

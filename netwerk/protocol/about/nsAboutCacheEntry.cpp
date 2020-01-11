@@ -191,13 +191,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-nsIPipe
-.
-h
-"
 using
 namespace
 mozilla

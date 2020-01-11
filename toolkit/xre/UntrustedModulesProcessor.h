@@ -234,13 +234,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

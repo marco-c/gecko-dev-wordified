@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsINetAddr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 net

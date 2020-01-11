@@ -157,13 +157,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsPromiseFlatString
 .
 h

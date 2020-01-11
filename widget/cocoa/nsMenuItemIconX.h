@@ -120,13 +120,6 @@ nsMenuItemIconX_h_
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 nsIconLoaderService
 .
 h

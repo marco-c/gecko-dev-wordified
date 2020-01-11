@@ -228,13 +228,6 @@ h
 #
 include
 "
-nsIConsoleService
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -264,13 +257,6 @@ h
 include
 "
 nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
-nsIClassInfo
 .
 h
 "

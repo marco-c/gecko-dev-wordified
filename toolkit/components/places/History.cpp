@@ -283,13 +283,6 @@ h
 #
 include
 "
-nsIFileURL
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

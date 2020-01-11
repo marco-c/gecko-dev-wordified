@@ -219,13 +219,6 @@ h
 #
 include
 "
-nsIXULRuntime
-.
-h
-"
-#
-include
-"
 nsWindow
 .
 h

@@ -135,13 +135,6 @@ nsIUUIDGenerator
 .
 h
 "
-#
-include
-"
-nsIXULAppInfo
-.
-h
-"
 /
 /
 #

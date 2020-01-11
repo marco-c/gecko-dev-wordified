@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIIdlePeriod
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsITelemetry
-.
-h
-"
-#
-include
-"
 TelemetryFixture
 .
 h

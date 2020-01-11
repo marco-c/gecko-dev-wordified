@@ -123,6 +123,13 @@ parsing
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsURLHelper
 .
 h

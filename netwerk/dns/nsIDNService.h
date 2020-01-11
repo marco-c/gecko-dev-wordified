@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsUnicodeScriptCodes
 .
 h

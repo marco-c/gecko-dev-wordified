@@ -130,13 +130,6 @@ nsComponentManagerUtils
 .
 h
 "
-#
-include
-"
-nsIMutableArray
-.
-h
-"
 using
 namespace
 mozilla

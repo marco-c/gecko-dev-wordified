@@ -151,13 +151,6 @@ h
 #
 include
 "
-nsISelectionController
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

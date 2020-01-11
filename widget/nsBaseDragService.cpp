@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsITransferable
 .
 h
@@ -139,13 +132,6 @@ h
 include
 "
 nsXPCOM
-.
-h
-"
-#
-include
-"
-nsISupportsPrimitives
 .
 h
 "

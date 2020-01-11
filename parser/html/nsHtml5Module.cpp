@@ -169,13 +169,6 @@ nsIObserverService
 .
 h
 "
-#
-include
-"
-nsIServiceManager
-.
-h
-"
 using
 namespace
 mozilla

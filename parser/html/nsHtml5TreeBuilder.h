@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsHtml5String
 .
 h

@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsIRandomGenerator
-.
-h
-"
-#
-include
-"
 nsXPCOM
 .
 h

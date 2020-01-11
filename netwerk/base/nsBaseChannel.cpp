@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsIChannelEventSink
 .
 h

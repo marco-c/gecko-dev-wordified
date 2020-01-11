@@ -198,13 +198,6 @@ h
 #
 include
 "
-nsILoadGroup
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -241,13 +234,6 @@ h
 include
 "
 nsIApplicationCacheChannel
-.
-h
-"
-#
-include
-"
-nsIUploadChannel2
 .
 h
 "

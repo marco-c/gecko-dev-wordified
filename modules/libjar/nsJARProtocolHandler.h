@@ -118,13 +118,6 @@ h
 #
 include
 "
-nsIJARURI
-.
-h
-"
-#
-include
-"
 nsIZipReader
 .
 h

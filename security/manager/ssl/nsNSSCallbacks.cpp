@@ -199,13 +199,6 @@ h
 #
 include
 "
-nsICertOverrideService
-.
-h
-"
-#
-include
-"
 nsIHttpChannelInternal
 .
 h

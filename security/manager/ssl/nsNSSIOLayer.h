@@ -148,13 +148,6 @@ h
 #
 include
 "
-nsIClientAuthDialogs
-.
-h
-"
-#
-include
-"
 nsIProxyInfo
 .
 h

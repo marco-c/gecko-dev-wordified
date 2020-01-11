@@ -155,13 +155,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -226,13 +219,6 @@ h
 include
 "
 nsZipArchive
-.
-h
-"
-#
-include
-"
-nsIObserverService
 .
 h
 "

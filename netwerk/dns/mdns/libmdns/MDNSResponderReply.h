@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 mozilla
 /
 net

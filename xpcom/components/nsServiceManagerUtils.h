@@ -123,13 +123,6 @@ nsServiceManagerUtils_h__
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

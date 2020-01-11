@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

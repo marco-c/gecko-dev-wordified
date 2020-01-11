@@ -201,13 +201,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h
@@ -255,13 +248,6 @@ h
 include
 "
 nsIParser
-.
-h
-"
-#
-include
-"
-nsISupportsPrimitives
 .
 h
 "

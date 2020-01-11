@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIArray
-.
-h
-"
-#
-include
-"
 nsICertOverrideService
 .
 h
@@ -169,13 +162,6 @@ h
 include
 "
 nsIWebProgressListener
-.
-h
-"
-#
-include
-"
-nsIX509CertValidity
 .
 h
 "

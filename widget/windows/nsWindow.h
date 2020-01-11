@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h

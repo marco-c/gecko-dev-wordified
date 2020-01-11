@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h

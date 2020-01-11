@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsIJumpListBuilder
 .
 h

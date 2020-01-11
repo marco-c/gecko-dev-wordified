@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIDNSService
 .
 h

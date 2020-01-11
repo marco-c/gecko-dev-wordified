@@ -130,13 +130,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h

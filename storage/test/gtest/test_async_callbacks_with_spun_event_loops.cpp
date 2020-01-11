@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

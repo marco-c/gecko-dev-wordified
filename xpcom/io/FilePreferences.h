@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsIObserver
+nsAString
 .
 h
 "

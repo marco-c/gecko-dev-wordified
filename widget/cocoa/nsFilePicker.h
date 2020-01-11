@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIFileChannel
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

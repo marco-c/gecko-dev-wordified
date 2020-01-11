@@ -131,13 +131,6 @@ Classes
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -188,13 +181,6 @@ h
 include
 "
 nsIAuthPrompt
-.
-h
-"
-#
-include
-"
-nsIWindowMediator
 .
 h
 "

@@ -117,13 +117,6 @@ MPL
 #
 include
 "
-nsIThreadManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
 nsParserCIID
 .
 h
@@ -180,13 +173,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsIInputStream
 .
 h
 "

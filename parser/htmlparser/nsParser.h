@@ -400,13 +400,6 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
 CParserContext
 .
 h
