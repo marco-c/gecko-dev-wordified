@@ -514,11 +514,10 @@ t1
 PR_Open
 (
 "
-/
-usr
+.
 /
 tmp
-/
+-
 ttools
 /
 err03

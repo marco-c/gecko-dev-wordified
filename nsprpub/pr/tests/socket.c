@@ -345,9 +345,10 @@ char
 TEST_DIR
 =
 "
+.
 /
 tmp
-/
+-
 prsocket_test_dir
 "
 ;
@@ -356,9 +357,10 @@ char
 SMALL_FILE_NAME
 =
 "
+.
 /
 tmp
-/
+-
 prsocket_test_dir
 /
 small_file
@@ -369,9 +371,10 @@ char
 LARGE_FILE_NAME
 =
 "
+.
 /
 tmp
-/
+-
 prsocket_test_dir
 /
 large_file

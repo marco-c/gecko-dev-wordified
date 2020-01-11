@@ -165,9 +165,9 @@ h
 define
 DEFAULT_HOST_NAME
 "
-mcom
+mozilla
 .
-com
+org
 "
 static
 void
