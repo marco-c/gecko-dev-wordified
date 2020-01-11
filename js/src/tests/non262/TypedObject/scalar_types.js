@@ -51,10 +51,9 @@ print
 ctor
 =
 "
-ctor
-.
-toSource
+describeType
 (
+ctor
 )
 )
 ;

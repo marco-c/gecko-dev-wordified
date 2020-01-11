@@ -838,10 +838,11 @@ pattern
 :
 "
 +
-exp
+JSON
 .
-toSource
+stringify
 (
+exp
 )
 )
 ;
@@ -1438,10 +1439,11 @@ pattern
 :
 "
 +
-exp
+JSON
 .
-toSource
+stringify
 (
+exp
 )
 )
 ;

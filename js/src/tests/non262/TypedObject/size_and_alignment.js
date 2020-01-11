@@ -373,12 +373,11 @@ print
 Type
 :
 "
+describeType
+(
 test
 .
 type
-.
-toSource
-(
 )
 "
 Size

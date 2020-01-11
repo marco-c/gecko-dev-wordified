@@ -17733,10 +17733,11 @@ data
 =
 '
 +
-data1
+JSON
 .
-toSource
+stringify
 (
+data1
 )
 )
 ;

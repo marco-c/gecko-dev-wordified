@@ -582,11 +582,12 @@ j
 ;
 expect
 =
-'
+formatArray
+(
 [
 3
 ]
-'
+)
 ;
 addThis
 (
