@@ -5501,7 +5501,7 @@ key
 &
 frameObj
 .
-hasAnyLiveHooks
+hasAnyHooks
 (
 )
 )
@@ -25997,7 +25997,7 @@ if
 frameobj
 -
 >
-hasAnyLiveHooks
+hasAnyHooks
 (
 )
 )
