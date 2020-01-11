@@ -8750,6 +8750,12 @@ newBigInt
 (
 )
 ;
+JSAtom
+*
+bigIntAtom
+(
+)
+;
 protected
 :
 /
