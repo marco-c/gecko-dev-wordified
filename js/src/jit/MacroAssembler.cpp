@@ -10371,12 +10371,12 @@ prevent
 speculative
 execution
 .
-test32LoadPtr
+cmp32LoadPtr
 (
 Assembler
 :
 :
-NonZero
+GreaterThan
 Address
 (
 bigInt
@@ -10394,7 +10394,7 @@ int32_t
 BigInt
 :
 :
-nonInlineDigitsLengthMask
+inlineDigitsLength
 (
 )
 )
