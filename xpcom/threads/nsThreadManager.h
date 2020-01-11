@@ -466,6 +466,15 @@ uint32_t
 aDispatchFlags
 )
 ;
+nsresult
+GetBackgroundEventTarget
+(
+nsIEventTarget
+*
+*
+aEventTarget
+)
+;
 /
 /
 Returns
