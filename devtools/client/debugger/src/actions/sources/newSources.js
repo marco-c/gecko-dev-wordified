@@ -2193,9 +2193,11 @@ paths
 for
 (
 const
+{
 source
+}
 of
-newSources
+newSourceActors
 )
 {
 dispatch
@@ -2204,8 +2206,6 @@ checkPendingBreakpoints
 (
 cx
 source
-.
-id
 )
 )
 ;
