@@ -366,7 +366,9 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+docShell
+.
+chromeEventHandler
 "
 MozStopPictureInPicture
 "

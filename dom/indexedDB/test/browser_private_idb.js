@@ -6,6 +6,7 @@ idbCheckFunc
 {
 let
 factory
+console
 ;
 try
 {
@@ -21,6 +22,12 @@ directly
 factory
 =
 indexedDB
+;
+console
+=
+self
+.
+console
 ;
 }
 catch
@@ -47,6 +54,12 @@ factory
 content
 .
 indexedDB
+;
+console
+=
+content
+.
+console
 ;
 }
 try
@@ -533,6 +546,13 @@ workerType
 }
 )
 {
+const
+{
+console
+}
+=
+content
+;
 let
 worker
 port

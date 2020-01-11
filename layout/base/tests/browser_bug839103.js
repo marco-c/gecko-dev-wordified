@@ -274,7 +274,9 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+docShell
+.
+chromeEventHandler
 "
 StyleSheetApplicableStateChanged
 "
@@ -396,7 +398,9 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+docShell
+.
+chromeEventHandler
 "
 StyleSheetApplicableStateChanged
 "
