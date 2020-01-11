@@ -3830,14 +3830,12 @@ pub
 fn
 is_hidden
 (
-&
 self
 )
 -
 >
 bool
 {
-*
 self
 =
 =
@@ -3847,7 +3845,6 @@ BorderStyle
 Hidden
 |
 |
-*
 self
 =
 =
@@ -4976,7 +4973,6 @@ pub
 fn
 local_scale
 (
-&
 self
 )
 -
@@ -4987,7 +4983,6 @@ f32
 >
 {
 match
-*
 self
 {
 RasterSpace
@@ -7747,7 +7742,6 @@ pub
 fn
 get_plane_num
 (
-&
 self
 )
 -
@@ -7755,7 +7749,6 @@ self
 usize
 {
 match
-*
 self
 {
 YuvFormat

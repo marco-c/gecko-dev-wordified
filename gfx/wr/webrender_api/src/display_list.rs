@@ -8968,13 +8968,12 @@ FilterPrimitive
 )
 {
 if
+!
 filters
 .
-len
+is_empty
 (
 )
->
-0
 {
 self
 .
