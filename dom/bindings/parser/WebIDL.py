@@ -41606,6 +41606,22 @@ identifier
 "
 Throws
 "
+or
+            
+identifier
+=
+=
+"
+Func
+"
+or
+            
+identifier
+=
+=
+"
+Pref
+"
 )
 :
             
