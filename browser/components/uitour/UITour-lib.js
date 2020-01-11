@@ -739,11 +739,6 @@ searchIcon
 <
 li
 >
-searchPrefsLink
-*
-<
-li
->
 selectedTabIcon
 *
 <
