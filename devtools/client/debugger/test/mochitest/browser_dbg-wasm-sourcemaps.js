@@ -199,6 +199,17 @@ exist
 )
 ;
 await
+waitForSources
+(
+dbg
+"
+fib
+.
+c
+"
+)
+;
+await
 selectSource
 (
 dbg
