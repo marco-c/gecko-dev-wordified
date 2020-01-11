@@ -173,6 +173,13 @@ h
 #
 include
 "
+gfxTextRun
+.
+h
+"
+#
+include
+"
 nsAnimationManager
 .
 h

@@ -179,6 +179,15 @@ h
 #
 include
 "
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
