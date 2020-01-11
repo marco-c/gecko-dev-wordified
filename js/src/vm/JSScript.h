@@ -11719,7 +11719,7 @@ custom
 logic
 below
 .
-IMMUTABLE_FLAG_GETTER_SETTER
+IMMUTABLE_FLAG_GETTER
 (
 hasMappedArgsObj
 HasMappedArgsObj
