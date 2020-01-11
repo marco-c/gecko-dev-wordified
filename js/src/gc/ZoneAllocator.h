@@ -1208,6 +1208,9 @@ mallocTracker
 endif
 friend
 class
+gc
+:
+:
 GCRuntime
 ;
 }
