@@ -4257,14 +4257,6 @@ ss
 )
 )
 ;
-PORT_Assert
-(
-ss
--
->
-firstHsDone
-)
-;
 if
 (
 !
