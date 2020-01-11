@@ -7450,19 +7450,6 @@ move
 tooltipText
 )
 ;
-if
-(
-self
--
->
-mPossibleTooltipNode
--
->
-OwnerDoc
-(
-)
-)
-{
 self
 -
 >
@@ -7486,7 +7473,6 @@ GetDocShell
 )
 )
 ;
-}
 }
 }
 /
