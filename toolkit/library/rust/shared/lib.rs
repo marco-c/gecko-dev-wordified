@@ -363,6 +363,10 @@ extern
 crate
 rlbox_lucet_sandbox
 ;
+extern
+crate
+remote
+;
 use
 std
 :
