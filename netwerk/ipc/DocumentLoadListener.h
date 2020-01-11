@@ -670,16 +670,6 @@ nsresult
 status
 )
 ;
-void
-Suspend
-(
-)
-;
-void
-Resume
-(
-)
-;
 nsresult
 ReportSecurityMessage
 (
