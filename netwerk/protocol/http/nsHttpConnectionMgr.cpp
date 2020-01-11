@@ -3603,7 +3603,7 @@ nsHttpConnectionMgr
 :
 CompleteUpgrade
 (
-nsHttpTransaction
+HttpTransactionShell
 *
 aTrans
 nsIHttpUpgradeListener
@@ -3648,6 +3648,11 @@ new
 nsCompleteUpgradeData
 (
 aTrans
+-
+>
+AsHttpTransaction
+(
+)
 aUpgradeListener
 wrapped
 )
