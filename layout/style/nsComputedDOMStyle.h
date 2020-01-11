@@ -470,7 +470,7 @@ const
 nsCSSPropertyID
 aPropID
 const
-nsAString
+nsACString
 &
 aValue
 nsIPrincipal
@@ -487,7 +487,7 @@ aIndex
 bool
 &
 aFound
-nsAString
+nsACString
 &
 aPropName
 )
@@ -647,12 +647,12 @@ void
 GetCSSImageURLs
 (
 const
-nsAString
+nsACString
 &
 aPropertyName
 nsTArray
 <
-nsString
+nsCString
 >
 &
 aImageURLs

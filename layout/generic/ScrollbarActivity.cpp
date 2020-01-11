@@ -1850,7 +1850,7 @@ Style
 (
 )
 ;
-nsAutoString
+nsAutoCString
 str
 ;
 str
@@ -1865,7 +1865,7 @@ decl
 >
 SetProperty
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 opacity
@@ -2074,7 +2074,7 @@ decl
 >
 RemoveProperty
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 opacity

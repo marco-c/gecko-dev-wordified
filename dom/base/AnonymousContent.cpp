@@ -1039,7 +1039,7 @@ nsAString
 &
 aElementId
 const
-nsAString
+nsACString
 &
 aPropertyName
 DOMString
@@ -1224,11 +1224,11 @@ AnonymousContent
 SetStyle
 (
 const
-nsAString
+nsACString
 &
 aProperty
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult

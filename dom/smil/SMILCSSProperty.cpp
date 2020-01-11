@@ -771,7 +771,7 @@ SMILOverrideStyle
 SetPropertyValue
 (
 mPropID
-EmptyString
+EmptyCString
 (
 )
 nullptr

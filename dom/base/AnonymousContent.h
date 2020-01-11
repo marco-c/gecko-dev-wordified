@@ -430,7 +430,7 @@ nsAString
 &
 aElementId
 const
-nsAString
+nsACString
 &
 aPropertyName
 DOMString
@@ -456,11 +456,11 @@ void
 SetStyle
 (
 const
-nsAString
+nsACString
 &
 aProperty
 const
-nsAString
+nsACString
 &
 aValue
 ErrorResult

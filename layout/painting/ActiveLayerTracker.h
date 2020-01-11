@@ -429,7 +429,7 @@ aFrame
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aNewValue
 nsDOMCSSDeclaration
@@ -554,7 +554,7 @@ aFrame
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aNewValue
 nsDOMCSSDeclaration

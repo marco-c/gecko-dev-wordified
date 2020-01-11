@@ -193,7 +193,7 @@ aIndex
 bool
 &
 aFound
-nsAString
+nsACString
 &
 aPropName
 )

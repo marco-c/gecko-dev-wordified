@@ -11191,7 +11191,10 @@ decl
 >
 GetPropertyValue
 (
+NS_ConvertUTF16toUTF8
+(
 aPropertyName
+)
 aResult
 )
 ;

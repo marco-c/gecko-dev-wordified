@@ -720,7 +720,7 @@ bool
 IsCustomPropertyName
 (
 const
-nsAString
+nsACString
 &
 aProperty
 )
@@ -774,7 +774,7 @@ nsCSSFontDesc
 LookupFontDesc
 (
 const
-nsAString
+nsACString
 &
 aProperty
 )

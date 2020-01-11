@@ -731,7 +731,7 @@ nsCSSProps
 IsCustomPropertyName
 (
 const
-nsAString
+nsACString
 &
 aProperty
 )
@@ -750,7 +750,7 @@ CSS_CUSTOM_NAME_PREFIX_LENGTH
 StringBeginsWith
 (
 aProperty
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 -
@@ -864,7 +864,7 @@ nsCSSProps
 LookupFontDesc
 (
 const
-nsAString
+nsACString
 &
 aFontDesc
 )

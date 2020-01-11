@@ -1178,7 +1178,7 @@ const
 nsCSSPropertyID
 aPropID
 const
-nsAString
+nsACString
 &
 aValue
 nsIPrincipal
