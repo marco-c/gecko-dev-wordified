@@ -174,6 +174,9 @@ features
 threads
 "
 "
+leaf
+"
+"
 nativeallocations
 "
 ]
@@ -516,6 +519,9 @@ features
 "
 threads
 "
+"
+leaf
+"
 ]
 }
 )
@@ -561,6 +567,9 @@ features
 [
 "
 threads
+"
+"
+leaf
 "
 ]
 }
