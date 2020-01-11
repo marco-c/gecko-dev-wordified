@@ -38861,7 +38861,6 @@ nsContentUtils
 :
 CallerInnerWindow
 (
-aCx
 )
 ;
 nsIPrincipal

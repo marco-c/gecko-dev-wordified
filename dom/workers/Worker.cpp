@@ -732,7 +732,6 @@ nsContentUtils
 :
 CallerInnerWindow
 (
-aCx
 )
 ;
 if
