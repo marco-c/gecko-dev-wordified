@@ -1660,7 +1660,7 @@ aGlobal
 const
 Optional
 <
-StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
+UTF8StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
 >
 &
 aArg
@@ -1718,7 +1718,7 @@ if
 (
 arg
 .
-IsString
+IsUTF8String
 (
 )
 )
@@ -1780,7 +1780,7 @@ SetMatrixValue
 (
 arg
 .
-GetAsString
+GetAsUTF8String
 (
 )
 aRv
@@ -5087,7 +5087,7 @@ aGlobal
 const
 Optional
 <
-StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
+UTF8StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
 >
 &
 aArg
@@ -5145,7 +5145,7 @@ if
 (
 arg
 .
-IsString
+IsUTF8String
 (
 )
 )
@@ -5207,7 +5207,7 @@ SetMatrixValue
 (
 arg
 .
-GetAsString
+GetAsUTF8String
 (
 )
 aRv
@@ -6896,7 +6896,7 @@ DOMMatrixReadOnly
 SetMatrixValue
 (
 const
-nsAString
+nsACString
 &
 aTransformList
 ErrorResult
@@ -7064,7 +7064,7 @@ DOMMatrix
 SetMatrixValue
 (
 const
-nsAString
+nsACString
 &
 aTransformList
 ErrorResult

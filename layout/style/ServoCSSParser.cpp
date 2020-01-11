@@ -353,7 +353,7 @@ ServoCSSParser
 ParseTransformIntoMatrix
 (
 const
-nsAString
+nsACString
 &
 aValue
 bool
