@@ -1242,6 +1242,12 @@ mDocument
 NodePrincipal
 (
 )
+mDocument
+-
+>
+InnerWindowID
+(
+)
 mRefreshString
 )
 ;
