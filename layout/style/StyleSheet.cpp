@@ -6876,7 +6876,7 @@ StyleSheet
 ReparseSheet
 (
 const
-nsAString
+nsACString
 &
 aInput
 )
@@ -7243,10 +7243,7 @@ DropRuleList
 ParseSheetSync
 (
 loader
-NS_ConvertUTF16toUTF8
-(
 aInput
-)
 /
 *
 aLoadData

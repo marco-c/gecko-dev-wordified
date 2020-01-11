@@ -138,11 +138,20 @@ class
 nsINode
 ;
 class
+nsINodeList
+;
+class
+nsRange
+;
+class
 ComputedStyle
 ;
 namespace
 mozilla
 {
+class
+BindingStyleRule
+;
 class
 StyleSheet
 ;
@@ -162,6 +171,9 @@ dom
 {
 class
 CharacterData
+;
+class
+Document
 ;
 class
 Element
@@ -657,7 +669,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aPropertyName
 )
@@ -758,7 +770,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aPropertyName
 nsTArray
@@ -859,7 +871,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aColorString
 Nullable
@@ -891,7 +903,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aColorString
 )
@@ -953,7 +965,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aProperty
 nsTArray
@@ -995,7 +1007,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aProperty
 ErrorResult
@@ -1059,7 +1071,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aProperty
 InspectorPropertyType
@@ -1630,7 +1642,7 @@ DOMCSSStyleSheet
 aSheet
 *
 param
-DOMString
+UTF8String
 aInput
 *
 The
@@ -1655,7 +1667,7 @@ StyleSheet
 &
 aSheet
 const
-nsAString
+nsACString
 &
 aInput
 ErrorResult

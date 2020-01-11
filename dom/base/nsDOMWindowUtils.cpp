@@ -13952,7 +13952,10 @@ nsCSSProps
 :
 LookupProperty
 (
+NS_ConvertUTF16toUTF8
+(
 aProperty
+)
 )
 ;
 if
@@ -14095,7 +14098,10 @@ nsCSSProps
 :
 LookupProperty
 (
+NS_ConvertUTF16toUTF8
+(
 aProperty
+)
 )
 ;
 if

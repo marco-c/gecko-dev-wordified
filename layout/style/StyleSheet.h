@@ -788,7 +788,7 @@ nsresult
 ReparseSheet
 (
 const
-nsAString
+nsACString
 &
 aInput
 )

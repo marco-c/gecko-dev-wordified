@@ -7237,7 +7237,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsDependentAtomString
+nsAtomCString
 (
 aMappedAttrName
 )
@@ -7474,7 +7474,8 @@ unrecognized
 ;
 /
 /
-nsCSSParser
+CSS
+parser
 doesn
 '
 t
@@ -7569,7 +7570,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsDependentAtomString
+nsAtomCString
 (
 aAtom
 )

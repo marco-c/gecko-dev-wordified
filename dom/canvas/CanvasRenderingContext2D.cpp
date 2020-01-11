@@ -4521,7 +4521,7 @@ AddColorStop
 float
 aOffset
 const
-nsAString
+nsACString
 &
 aColorstr
 ErrorResult
@@ -6066,7 +6066,7 @@ CanvasRenderingContext2D
 ParseColor
 (
 const
-nsAString
+nsACString
 &
 aString
 nscolor
@@ -6483,7 +6483,10 @@ if
 !
 ParseColor
 (
+NS_ConvertUTF16toUTF8
+(
 aStr
+)
 &
 color
 )
@@ -12724,7 +12727,10 @@ if
 !
 ParseColor
 (
+NS_ConvertUTF16toUTF8
+(
 aShadowColor
+)
 &
 color
 )
@@ -28692,7 +28698,7 @@ aW
 double
 aH
 const
-nsAString
+nsACString
 &
 aBgColor
 uint32_t

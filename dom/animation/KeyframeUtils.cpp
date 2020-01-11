@@ -3915,7 +3915,7 @@ i
 +
 )
 {
-nsAutoJSString
+nsAutoJSCString
 propName
 ;
 if

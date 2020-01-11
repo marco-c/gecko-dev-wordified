@@ -257,7 +257,7 @@ AddColorStop
 float
 offset
 const
-nsAString
+nsACString
 &
 colorstr
 ErrorResult

@@ -2761,7 +2761,7 @@ aRect
 double
 aScale
 const
-nsAString
+nsACString
 &
 aBackgroundColor
 mozilla

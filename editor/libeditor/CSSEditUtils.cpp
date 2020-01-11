@@ -3101,7 +3101,16 @@ bug
 :
 nsAtomCString
 copies
-unnecessarily
+we
+should
+just
+keep
+around
+the
+/
+/
+property
+id
 .
 MOZ_ALWAYS_SUCCEEDS
 (
@@ -3161,7 +3170,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsDependentAtomString
+nsAtomCString
 (
 aProperty
 )
