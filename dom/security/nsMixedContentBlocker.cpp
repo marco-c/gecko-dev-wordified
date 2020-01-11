@@ -6901,14 +6901,6 @@ eMixedDisplayObjectSubrequest
 )
 ;
 }
-rootDoc
--
->
-SetHasMixedContentObjectSubrequest
-(
-true
-)
-;
 }
 /
 /
