@@ -148,7 +148,7 @@ false
 timestampsVisible
 :
 true
-gripInSidebar
+frontInSidebar
 :
 null
 closeButtonVisible
@@ -277,7 +277,7 @@ state
 sidebarVisible
 :
 false
-gripInSidebar
+frontInSidebar
 :
 null
 }
@@ -308,7 +308,7 @@ state
 sidebarVisible
 :
 false
-gripInSidebar
+frontInSidebar
 :
 null
 }
@@ -320,13 +320,13 @@ if
 (
 action
 .
-grip
+front
 =
 =
 =
 state
 .
-gripInSidebar
+frontInSidebar
 )
 {
 return
@@ -342,11 +342,11 @@ state
 sidebarVisible
 :
 true
-gripInSidebar
+frontInSidebar
 :
 action
 .
-grip
+front
 }
 ;
 case
