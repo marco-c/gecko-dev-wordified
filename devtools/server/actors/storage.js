@@ -5366,10 +5366,6 @@ host
 )
 ;
 return
-Array
-.
-from
-(
 Services
 .
 cookies
@@ -5378,7 +5374,6 @@ getCookiesFromHost
 (
 host
 originAttributes
-)
 )
 ;
 }

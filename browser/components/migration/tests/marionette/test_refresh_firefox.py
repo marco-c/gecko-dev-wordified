@@ -2700,7 +2700,7 @@ try
 {
             
 let
-cookieEnum
+cookies
 =
 Services
 .
@@ -2723,35 +2723,14 @@ cookie
 null
 ;
             
-while
+for
 (
-cookieEnum
-.
-hasMoreElements
-(
-)
-)
-{
-              
 let
 hostCookie
-=
-cookieEnum
-.
-getNext
-(
+of
+cookies
 )
-;
-              
-hostCookie
-.
-QueryInterface
-(
-Ci
-.
-nsICookie
-)
-;
+{
               
 /
 /
