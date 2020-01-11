@@ -82,9 +82,7 @@ application
 /
 test
 /
-components
-/
-helpers
+node
 /
 helpers
 "
@@ -110,7 +108,7 @@ application
 /
 test
 /
-components
+node
 /
 fixtures
 /
