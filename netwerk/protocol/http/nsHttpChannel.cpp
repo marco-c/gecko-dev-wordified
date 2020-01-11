@@ -65105,13 +65105,6 @@ if
 requested
 by
 user
-or
-leaving
-from
-/
-/
-.
-onion
 if
 (
 sSendOriginHeader
