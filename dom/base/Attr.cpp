@@ -683,12 +683,8 @@ Attr
 NS_IMPL_CYCLE_COLLECTING_RELEASE_WITH_LAST_RELEASE
 (
 Attr
-nsNodeUtils
-:
-:
 LastRelease
 (
-this
 )
 )
 void
