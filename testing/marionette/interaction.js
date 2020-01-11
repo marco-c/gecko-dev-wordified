@@ -412,9 +412,6 @@ TAB
 TABS
 "
 "
-TEXTBOX
-"
-"
 TOOLBARBUTTON
 "
 "

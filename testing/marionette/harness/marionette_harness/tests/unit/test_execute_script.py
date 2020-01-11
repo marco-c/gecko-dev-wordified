@@ -3229,7 +3229,7 @@ By
 .
 TAG_NAME
 "
-textbox
+input
 "
 )
             
@@ -3249,10 +3249,22 @@ document
 querySelectorAll
 (
 '
-textbox
+input
 '
 )
 "
+)
+            
+self
+.
+assertTrue
+(
+len
+(
+expected
+)
+>
+0
 )
             
 self
