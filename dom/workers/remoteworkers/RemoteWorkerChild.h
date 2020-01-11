@@ -668,12 +668,6 @@ Op
 aOp
 )
 ;
-MozPromiseHolder
-<
-GenericNonExclusivePromise
->
-mTerminationPromise
-;
 const
 bool
 mIsServiceWorker
@@ -707,6 +701,12 @@ bool
 mIPCActive
 =
 true
+;
+MozPromiseHolder
+<
+GenericNonExclusivePromise
+>
+mTerminationPromise
 ;
 }
 ;
