@@ -321,8 +321,8 @@ val
         
 elif
 val
-is
-not
+!
+=
 0
 :
             

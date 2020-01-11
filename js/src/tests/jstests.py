@@ -4231,7 +4231,8 @@ xul_debug
 lower
 (
 )
-is
+=
+=
 '
 true
 '

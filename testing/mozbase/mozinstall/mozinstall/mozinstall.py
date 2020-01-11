@@ -1493,8 +1493,8 @@ cmdArgs
                 
 if
 result
-is
-not
+!
+=
 0
 :
                     
