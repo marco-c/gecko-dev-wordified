@@ -621,7 +621,7 @@ JOF_CHECKSLOPPY
 10
 /
 *
-Op
+op
 can
 only
 be
@@ -639,7 +639,7 @@ JOF_CHECKSTRICT
 11
 /
 *
-Op
+op
 can
 only
 be
@@ -657,12 +657,11 @@ JOF_INVOKE
 12
 /
 *
-JSOP_CALL
-JSOP_FUNCALL
-JSOP_FUNAPPLY
-JSOP_NEW
-JSOP_EVAL
-JSOP_CALLITER
+call
+construct
+or
+spreadcall
+instruction
 *
 /
 JOF_GNAME
@@ -706,7 +705,7 @@ JOF_IC
 15
 /
 *
-Baseline
+baseline
 may
 use
 an
