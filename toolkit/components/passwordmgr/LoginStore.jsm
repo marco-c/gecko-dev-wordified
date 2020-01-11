@@ -669,6 +669,16 @@ in
 logins
 if
 (
+!
+(
+"
+version
+"
+in
+data
+)
+|
+|
 data
 .
 version

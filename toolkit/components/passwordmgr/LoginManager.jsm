@@ -1804,6 +1804,15 @@ formActionOrigin
 )
 ;
 }
+login
+.
+QueryInterface
+(
+Ci
+.
+nsILoginMetaInfo
+)
+;
 for
 (
 let
