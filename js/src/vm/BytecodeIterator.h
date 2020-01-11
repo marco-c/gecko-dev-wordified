@@ -269,6 +269,13 @@ operator
 int
 )
 {
+BytecodeIterator
+previous
+(
+*
+this
+)
+;
 current_
 =
 current_
@@ -278,8 +285,7 @@ next
 )
 ;
 return
-*
-this
+previous
 ;
 }
 }
