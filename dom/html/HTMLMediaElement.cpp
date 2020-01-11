@@ -26362,14 +26362,6 @@ NotifyUAWidgetSetupOrChange
 (
 )
 ;
-}
-if
-(
-IsInUncomposedDoc
-(
-)
-)
-{
 /
 /
 The
