@@ -10,7 +10,6 @@ test
 code
 -
 coverage
-;
 /
 /
 Currently

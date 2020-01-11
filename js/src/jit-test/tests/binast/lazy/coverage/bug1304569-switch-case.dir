@@ -10,11 +10,3 @@ test
 code
 -
 coverage
-getLcovInfo
-(
-)
-;
-getLcovInfo
-(
-)
-;

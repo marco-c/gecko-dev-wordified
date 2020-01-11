@@ -5,6 +5,12 @@ jit
 -
 test
 |
+-
+-
+code
+-
+coverage
+;
 skip
 -
 if
