@@ -9265,7 +9265,7 @@ getRootNode
 (
 )
 .
-mozFullScreenElement
+fullscreenElement
 )
 ;
 }
@@ -9281,7 +9281,7 @@ this
 .
 document
 .
-mozCancelFullScreen
+exitFullscreen
 (
 )
 :
@@ -9289,7 +9289,7 @@ this
 .
 video
 .
-mozRequestFullScreen
+requestFullscreen
 (
 )
 ;
@@ -9310,7 +9310,7 @@ this
 .
 document
 .
-mozFullScreenEnabled
+fullscreenEnabled
 )
 {
 this
