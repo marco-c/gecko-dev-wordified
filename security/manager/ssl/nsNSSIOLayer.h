@@ -918,9 +918,6 @@ mNegotiatedNPN
 nsCString
 mEsniTxt
 ;
-nsCString
-mPeerId
-;
 bool
 mNPNCompleted
 ;
