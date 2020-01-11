@@ -7032,10 +7032,9 @@ nullptr
 ;
 }
 return
-StringToNewUTF8CharsZ
+QuoteString
 (
 cx
-*
 str
 )
 ;
@@ -7081,10 +7080,9 @@ nullptr
 ;
 }
 return
-StringToNewUTF8CharsZ
+QuoteString
 (
 cx
-*
 source
 )
 ;
