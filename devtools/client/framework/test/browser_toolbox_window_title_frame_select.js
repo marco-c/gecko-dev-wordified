@@ -705,7 +705,7 @@ level
 document
 .
 const
-newRoot
+onInspectorReloaded
 =
 toolbox
 .
@@ -719,9 +719,7 @@ inspector
 once
 (
 "
-new
--
-root
+reloaded
 "
 )
 ;
@@ -744,7 +742,7 @@ await
 willNavigate
 ;
 await
-newRoot
+onInspectorReloaded
 ;
 await
 onTitleChanged
