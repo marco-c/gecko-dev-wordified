@@ -224,7 +224,7 @@ permissions
 :
 [
 "
-history
+tabs
 "
 "
 https
