@@ -221,9 +221,7 @@ browser
 )
 {
 return
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
