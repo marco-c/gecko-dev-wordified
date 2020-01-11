@@ -889,6 +889,17 @@ uint32_t
 count
 )
 {
+if
+(
+!
+isTenured
+(
+)
+)
+{
+return
+;
+}
 for
 (
 size_t
