@@ -58,10 +58,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_mediahardwarekeysobservice_h__
+DOM_MEDIA_MEDIACONTROL_MEDIACONTROLKEYSMANAGER_H_
 #
 define
-mozilla_dom_mediahardwarekeysobservice_h__
+DOM_MEDIA_MEDIACONTROL_MEDIACONTROLKEYSMANAGER_H_
 #
 include
 "
