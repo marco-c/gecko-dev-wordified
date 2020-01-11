@@ -147,9 +147,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Runtime
 domain
@@ -368,9 +367,8 @@ page
 }
 )
 ;
-ok
+info
 (
-true
 "
 A
 new

@@ -98,9 +98,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Runtime
 domain
@@ -443,9 +442,8 @@ objectId
 }
 )
 ;
-ok
+info
 (
-true
 "
 Object
 is
