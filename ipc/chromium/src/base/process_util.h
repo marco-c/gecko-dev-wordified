@@ -348,6 +348,10 @@ FileDescriptor
 ;
 }
 }
+/
+/
+namespace
+mozilla
 #
 endif
 #

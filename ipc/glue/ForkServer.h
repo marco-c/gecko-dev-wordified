@@ -265,7 +265,15 @@ Reply_ForkNewSubprocess__ID
 }
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

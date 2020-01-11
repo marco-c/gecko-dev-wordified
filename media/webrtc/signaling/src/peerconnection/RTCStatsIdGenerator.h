@@ -190,5 +190,9 @@ mAllocated
 }
 ;
 }
+/
+/
+namespace
+mozilla
 #
 endif

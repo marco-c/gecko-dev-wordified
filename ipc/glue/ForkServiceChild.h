@@ -585,7 +585,15 @@ mSingleton
 }
 ;
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
 #
 endif
 /

@@ -781,10 +781,12 @@ mDataBufClear
 }
 /
 /
+namespace
 ipc
 }
 /
 /
+namespace
 mozilla
 #
 endif

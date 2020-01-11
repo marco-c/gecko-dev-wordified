@@ -292,6 +292,7 @@ control
 buffer
 for
 sending
+*
 FDs
 .
 *
@@ -461,6 +462,9 @@ msg_control
 ;
 }
 }
+/
+/
+namespace
 void
 MiniTransceiver
 :
@@ -807,6 +811,8 @@ response
 and
 no
 concurrent
+"
+"
 rules
 "
 )
@@ -1472,6 +1478,8 @@ response
 and
 no
 concurrent
+"
+"
 rules
 "
 )

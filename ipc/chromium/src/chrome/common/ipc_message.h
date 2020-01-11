@@ -198,6 +198,10 @@ MiniTransceiver
 ;
 }
 }
+/
+/
+namespace
+mozilla
 class
 FileDescriptorSet
 ;

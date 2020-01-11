@@ -1250,10 +1250,10 @@ task
 will
 be
 posted
+/
+/
 there
 .
-/
-/
 Also
 mBackgroundET
 and
@@ -1265,6 +1265,8 @@ therefore
 can
 be
 reused
+/
+/
 immediately
 .
 nsresult
@@ -1305,8 +1307,12 @@ No
 need
 to
 shutdown
+/
+/
 background
 task
+/
+/
 queues
 .
 }

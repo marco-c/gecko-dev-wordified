@@ -1007,4 +1007,12 @@ NS_OK
 ;
 }
 }
+/
+/
+namespace
+ipc
 }
+/
+/
+namespace
+mozilla
