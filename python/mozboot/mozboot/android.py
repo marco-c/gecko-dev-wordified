@@ -106,7 +106,7 @@ variable
 NDK_VERSION
 =
 '
-r17b
+r20
 '
 ANDROID_NDK_EXISTS
 =
