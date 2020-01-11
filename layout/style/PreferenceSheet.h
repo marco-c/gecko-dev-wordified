@@ -239,6 +239,11 @@ mUseFocusColors
 =
 false
 ;
+bool
+mUseDocumentColors
+=
+true
+;
 uint8_t
 mFocusRingWidth
 =
