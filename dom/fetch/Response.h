@@ -601,15 +601,12 @@ GlobalObject
 &
 aGlobal
 const
-Optional
-<
 Nullable
 <
 fetch
 :
 :
 ResponseBodyInit
->
 >
 &
 aBody
