@@ -849,7 +849,7 @@ void
 BaselineFrame
 :
 :
-setInterpreterFieldsForPrologueBailout
+setInterpreterFieldsForPrologue
 (
 JSScript
 *

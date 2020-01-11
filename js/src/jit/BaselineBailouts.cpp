@@ -9228,7 +9228,7 @@ code
 blFrame
 -
 >
-setInterpreterFieldsForPrologueBailout
+setInterpreterFieldsForPrologue
 (
 script
 )
