@@ -5445,13 +5445,6 @@ i32
 <
 16
 )
-glyph
-.
-uv_rect_address
-.
-as_int
-(
-)
 (
 rasterization_space
 as
@@ -5478,6 +5471,13 @@ as
 u32
 as
 i32
+)
+glyph
+.
+uv_rect_address
+.
+as_int
+(
 )
 )
 )
