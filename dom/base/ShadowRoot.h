@@ -1112,11 +1112,10 @@ ServoStyleRuleMap
 ;
 JSObject
 *
-WrapObject
+WrapNode
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -1127,7 +1126,7 @@ JSObject
 >
 aGivenProto
 )
-override
+final
 ;
 void
 AddToIdTable

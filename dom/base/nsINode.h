@@ -3191,14 +3191,12 @@ AsDocumentFragment
 )
 const
 ;
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -3209,7 +3207,7 @@ JSObject
 >
 aGivenProto
 )
-override
+final
 ;
 /
 *

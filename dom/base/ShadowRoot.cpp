@@ -633,7 +633,7 @@ JSObject
 ShadowRoot
 :
 :
-WrapObject
+WrapNode
 (
 JSContext
 *
