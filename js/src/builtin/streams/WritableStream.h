@@ -1278,6 +1278,12 @@ newState
 =
 =
 Errored
+|
+|
+newState
+=
+=
+Closed
 )
 ;
 }
