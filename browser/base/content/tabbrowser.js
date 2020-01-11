@@ -17180,6 +17180,7 @@ aTab
 animate
 byMouse
 skipPermitUnload
+closeWindowWithLastTab
 }
 =
 {
@@ -17415,6 +17416,7 @@ closeWindowFastpath
 :
 true
 skipPermitUnload
+closeWindowWithLastTab
 }
 )
 )
