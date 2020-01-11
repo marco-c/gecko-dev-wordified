@@ -373,10 +373,8 @@ InotifyProcess
 ;
 int
 _fd_v4l
-_fd_snd
 _fd_dev
 _wd_v4l
-_wd_snd
 _wd_dev
 ;
 /
