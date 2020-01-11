@@ -113,6 +113,15 @@ script
 <
 script
 >
+setup
+(
+{
+single_test
+:
+true
+}
+)
+;
 window
 .
 addEventListener
@@ -125,12 +134,6 @@ function
 e
 )
 {
-test
-(
-function
-(
-)
-{
 assert_unreached
 (
 "
@@ -138,8 +141,6 @@ securitypolicyviolat
 was
 fired
 "
-)
-}
 )
 ;
 }

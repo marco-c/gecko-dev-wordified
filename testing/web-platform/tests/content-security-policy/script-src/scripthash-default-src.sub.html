@@ -109,6 +109,15 @@ nonce
 abc
 '
 >
+setup
+(
+{
+single_test
+:
+true
+}
+)
+;
 window
 .
 addEventListener
@@ -121,12 +130,6 @@ function
 e
 )
 {
-test
-(
-function
-(
-)
-{
 assert_unreached
 (
 "
@@ -136,8 +139,6 @@ have
 fired
 event
 "
-)
-}
 )
 ;
 }
