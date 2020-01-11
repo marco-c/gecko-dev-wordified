@@ -710,7 +710,9 @@ future
 #
 #
 So
-jsutil
+util
+/
+Utility
 .
 cpp
 deliberately
@@ -723,9 +725,9 @@ called
 )
 function
 that
+#
 contains
 a
-#
 single
 use
 of
@@ -739,8 +741,8 @@ functions
 .
 And
 this
-script
 #
+script
 fails
 if
 it
@@ -756,10 +758,12 @@ in
 files
 other
 than
-jsutil
+#
+util
+/
+Utility
 .
 cpp
-#
 *
 or
 *
@@ -771,7 +775,9 @@ to
 find
 them
 in
-jsutil
+util
+/
+Utility
 .
 cpp
 .
@@ -1236,7 +1242,7 @@ libjs_static
 .
 a
 :
-jsutil
+Utility
 .
 o
 :
@@ -1292,12 +1298,16 @@ have
 been
 seen
 in
-jsutil
+    
+#
+util
+/
+Utility
 .
 cpp
 .
     
-jsutil_cpp
+util_Utility_cpp
 =
 set
 (
@@ -1596,13 +1606,13 @@ filename
 =
 =
 '
-jsutil
+Utility
 .
 o
 '
 :
             
-jsutil_cpp
+util_Utility_cpp
 .
 add
 (
@@ -1671,15 +1681,17 @@ expect
 are
 used
 in
-jsutil
+util
+/
+Utility
 .
 cpp
 .
 (
 This
-will
     
 #
+will
 fail
 if
 the
@@ -1704,7 +1716,7 @@ if
 fn
 not
 in
-jsutil_cpp
+util_Utility_cpp
 :
             
 fail
@@ -1724,7 +1736,9 @@ used
 as
 expected
 in
-jsutil
+util
+/
+Utility
 .
 cpp
 "
@@ -1733,7 +1747,7 @@ cpp
 else
 :
             
-jsutil_cpp
+util_Utility_cpp
 .
 remove
 (
@@ -1753,7 +1767,7 @@ case
 .
     
 if
-jsutil_cpp
+util_Utility_cpp
 :
         
 fail
@@ -1764,7 +1778,9 @@ allocation
 fns
 used
 in
-jsutil
+util
+/
+Utility
 .
 cpp
 :
@@ -1776,7 +1792,7 @@ cpp
 .
 join
 (
-jsutil_cpp
+util_Utility_cpp
 )
 )
     
@@ -1873,7 +1889,12 @@ in
 unoptimized
 builds
 ;
-jsutil
+'
+              
+'
+util
+/
+Utility
 .
 cpp
 expected
@@ -1999,7 +2020,9 @@ following
 #
 U
 malloc
-jsutil
+util
+/
+Utility
 .
 cpp
 :
