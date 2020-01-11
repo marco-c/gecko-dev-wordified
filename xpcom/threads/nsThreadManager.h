@@ -139,13 +139,6 @@ h
 #
 include
 "
-nsIThreadPool
-.
-h
-"
-#
-include
-"
 nsThread
 .
 h
@@ -650,7 +643,7 @@ runnables
 .
 nsCOMPtr
 <
-nsIThreadPool
+nsIEventTarget
 >
 mBackgroundEventTarget
 ;
