@@ -2802,6 +2802,9 @@ bug
 )
 while
 (
+len
+&
+&
 challenge
 [
 len

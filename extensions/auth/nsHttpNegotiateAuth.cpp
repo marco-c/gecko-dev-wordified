@@ -3099,6 +3099,14 @@ strlen
 challenge
 )
 ;
+if
+(
+!
+len
+)
+return
+NS_ERROR_UNEXPECTED
+;
 /
 /
 strip
@@ -3112,6 +3120,9 @@ bug
 )
 while
 (
+len
+&
+&
 challenge
 [
 len
