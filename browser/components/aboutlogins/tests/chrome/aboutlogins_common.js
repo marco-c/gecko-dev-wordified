@@ -396,6 +396,9 @@ password
 )
 ;
 }
+masterPasswordEnabled
+:
+false
 }
 }
 )
