@@ -514,6 +514,15 @@ frames
 void
 ClearFutureFrames
 (
+TimeStamp
+aNow
+=
+TimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 /
