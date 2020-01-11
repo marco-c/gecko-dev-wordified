@@ -2008,6 +2008,13 @@ StoredPattern
 class
 DrawTargetCaptureImpl
 ;
+static
+const
+int32_t
+kReasonableSurfaceSize
+=
+8192
+;
 /
 *
 *
@@ -10642,7 +10649,7 @@ nullptr
 )
 mMaxTextureSize
 (
-8192
+kReasonableSurfaceSize
 )
 mMaxAllocSize
 (

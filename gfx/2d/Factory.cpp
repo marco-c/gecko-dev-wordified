@@ -1832,7 +1832,7 @@ Factory
 CheckSurfaceSize
 (
 aSize
-8192
+kReasonableSurfaceSize
 )
 ;
 }
