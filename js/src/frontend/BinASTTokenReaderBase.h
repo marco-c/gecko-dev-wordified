@@ -1038,11 +1038,14 @@ updateLatestKnownGood
 ;
 if
 (
+MOZ_UNLIKELY
+(
 !
 matchConst
 (
 value
 false
+)
 )
 )
 {
@@ -1204,6 +1207,8 @@ hasRaisedError
 ;
 if
 (
+MOZ_UNLIKELY
+(
 current_
 +
 N
@@ -1211,6 +1216,7 @@ N
 1
 >
 stop_
+)
 )
 {
 return
