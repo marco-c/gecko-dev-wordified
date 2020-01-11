@@ -674,8 +674,6 @@ RootActor
 *
 /
 connect
-:
-function
 (
 onConnected
 )
@@ -802,8 +800,6 @@ closed
 *
 /
 close
-:
-function
 (
 onClosed
 )
@@ -989,8 +985,6 @@ to
 *
 /
 release
-:
-function
 (
 to
 )
@@ -1455,8 +1449,6 @@ js
 *
 /
 request
-:
-function
 (
 packet
 onResponse
@@ -2588,8 +2580,6 @@ js
 *
 /
 startBulkRequest
-:
-function
 (
 request
 )
@@ -3208,8 +3198,6 @@ sent
 *
 /
 expectReply
-:
-function
 (
 actor
 request
@@ -3355,8 +3343,6 @@ packet
 *
 /
 onPacket
-:
-function
 (
 packet
 )
@@ -4048,8 +4034,6 @@ js
 *
 /
 onBulkPacket
-:
-function
 (
 packet
 )
@@ -4255,8 +4239,6 @@ stream
 *
 /
 onClosed
-:
-function
 (
 )
 {
@@ -5471,8 +5453,6 @@ __pools
 ;
 }
 addActorPool
-:
-function
 (
 pool
 )
@@ -5488,8 +5468,6 @@ pool
 ;
 }
 removeActorPool
-:
-function
 (
 pool
 )
@@ -5541,8 +5519,6 @@ for
 *
 /
 getFrontByID
-:
-function
 (
 actorID
 )
@@ -5571,8 +5547,6 @@ null
 ;
 }
 poolFor
-:
-function
 (
 actorID
 )
@@ -5645,8 +5619,6 @@ ObjectFront
 *
 /
 createObjectFront
-:
-function
 (
 grip
 )
