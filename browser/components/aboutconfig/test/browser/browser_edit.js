@@ -993,8 +993,7 @@ the
 first
 form
 .
-await
-BrowserTestUtils
+EventUtils
 .
 synthesizeMouseAtCenter
 (
@@ -1007,6 +1006,8 @@ radioIndex
 this
 .
 browser
+.
+contentWindow
 )
 ;
 /
