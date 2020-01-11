@@ -504,6 +504,12 @@ web
 "
 #
 define
+FISSION_WEB_REMOTE_TYPE
+"
+webIsolated
+"
+#
+define
 FILE_REMOTE_TYPE
 "
 file
