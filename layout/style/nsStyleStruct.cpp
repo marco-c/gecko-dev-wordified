@@ -22539,7 +22539,10 @@ SpaceAround
 )
 mRubyPosition
 (
-NS_STYLE_RUBY_POSITION_OVER
+StyleRubyPosition
+:
+:
+Over
 )
 mTextSizeAdjust
 (

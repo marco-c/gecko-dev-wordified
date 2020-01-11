@@ -7808,13 +7808,12 @@ mozilla
 StyleRubyAlign
 mRubyAlign
 ;
-uint8_t
+mozilla
+:
+:
+StyleRubyPosition
 mRubyPosition
 ;
-/
-/
-NS_STYLE_RUBY_POSITION_
-*
 mozilla
 :
 :
