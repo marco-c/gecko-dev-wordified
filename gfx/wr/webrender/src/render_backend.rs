@@ -6695,7 +6695,7 @@ clear
 )
 ;
 let
-pending_update
+resource_updates
 =
 self
 .
@@ -6713,9 +6713,7 @@ ResultMsg
 :
 UpdateResources
 {
-updates
-:
-pending_update
+resource_updates
 memory_pressure
 :
 true
@@ -11629,7 +11627,7 @@ ResultMsg
 :
 UpdateResources
 {
-updates
+resource_updates
 :
 self
 .

@@ -2684,6 +2684,7 @@ resource_cache
 &
 '
 a
+mut
 ResourceCache
 /
 /
@@ -6868,9 +6869,9 @@ take
 {
 state
 .
-composite_state
+resource_cache
 .
-destroy_surface
+destroy_compositor_surface
 (
 id
 )
@@ -11733,6 +11734,9 @@ tiles
 values
 (
 )
+frame_state
+.
+resource_cache
 )
 ;
 self
@@ -13120,6 +13124,9 @@ old_tiles
 values
 (
 )
+frame_state
+.
+resource_cache
 )
 ;
 world_culling_rect
@@ -23816,9 +23823,9 @@ take
 {
 frame_state
 .
-composite_state
+resource_cache
 .
-destroy_surface
+destroy_compositor_surface
 (
 id
 )
@@ -24406,9 +24413,9 @@ Some
 (
 frame_state
 .
-composite_state
+resource_cache
 .
-create_surface
+create_compositor_surface
 (
 *
 size
@@ -33196,6 +33203,11 @@ self
 tiles_iter
 :
 I
+resource_cache
+:
+&
+mut
+ResourceCache
 )
 {
 /
@@ -33356,9 +33368,9 @@ id
 =
 id
 {
-self
+resource_cache
 .
-destroy_surface
+destroy_compositor_surface
 (
 id
 )
