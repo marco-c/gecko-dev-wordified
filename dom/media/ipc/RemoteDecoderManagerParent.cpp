@@ -967,7 +967,7 @@ Open
 VideoBridgeChild
 :
 :
-OpenToParentProcess
+Open
 std
 :
 :
