@@ -5824,13 +5824,6 @@ drawn
 .
 *
 /
-void
-SetIgnoreViewportScrolling
-(
-bool
-aIgnore
-)
-;
 bool
 IgnoringViewportScrolling
 (

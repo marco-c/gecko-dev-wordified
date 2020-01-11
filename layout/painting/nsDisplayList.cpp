@@ -9055,10 +9055,6 @@ mFirstClipChainToDestroy
 (
 nullptr
 )
-mActiveScrolledRootForRootScrollframe
-(
-nullptr
-)
 mMode
 (
 aMode
