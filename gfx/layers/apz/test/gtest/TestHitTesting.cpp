@@ -173,9 +173,9 @@ manager
 GetTargetAPZC
 (
 aPoint
-nullptr
-nullptr
 )
+.
+mTargetApzc
 ;
 if
 (
