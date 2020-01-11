@@ -311,6 +311,9 @@ GetFrame
 if
 (
 frame
+&
+&
+frame
 -
 >
 StyleEffects
