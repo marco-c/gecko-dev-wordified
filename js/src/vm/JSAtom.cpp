@@ -8014,6 +8014,8 @@ xdr
 -
 >
 hasAtomTable
+(
+)
 )
 ;
 if
@@ -8276,6 +8278,8 @@ xdr
 -
 >
 hasAtomTable
+(
+)
 )
 {
 return
@@ -8309,6 +8313,8 @@ xdr
 -
 >
 atomTable
+(
+)
 [
 atomIndex
 ]
