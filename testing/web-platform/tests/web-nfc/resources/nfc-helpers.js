@@ -833,14 +833,12 @@ function
 createNDEFPushOptions
 (
 target
-timeout
 ignoreRead
 )
 {
 return
 {
 target
-timeout
 ignoreRead
 }
 ;
