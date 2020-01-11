@@ -324,6 +324,11 @@ MaybeUpdateDebug
 (
 )
 ;
+void
+WaitForCommitCompletion
+(
+)
+;
 /
 /
 Interface
@@ -914,6 +919,12 @@ aSwapChain
 }
 void
 MaybeUpdateDebug
+(
+)
+{
+}
+void
+WaitForCommitCompletion
 (
 )
 {
