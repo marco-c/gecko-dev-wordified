@@ -340,8 +340,8 @@ a
 shared
 proxy
 and
-a
-SOCKS
+an
+SSL
 backup
 Services
 .
@@ -422,7 +422,7 @@ network
 .
 proxy
 .
-socks
+ssl
 "
 "
 example
@@ -442,7 +442,7 @@ network
 .
 proxy
 .
-socks_port
+ssl_port
 "
 1200
 )
@@ -460,7 +460,7 @@ proxy
 .
 backup
 .
-socks
+ssl
 "
 "
 127
@@ -486,7 +486,7 @@ proxy
 .
 backup
 .
-socks_port
+ssl_port
 "
 9050
 )
@@ -634,7 +634,7 @@ closed
 /
 /
 The
-SOCKS
+SSL
 backup
 should
 not
@@ -659,7 +659,7 @@ proxy
 .
 backup
 .
-socks
+ssl
 "
 )
 "
@@ -698,7 +698,7 @@ proxy
 .
 backup
 .
-socks_port
+ssl_port
 "
 )
 9050
