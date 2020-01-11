@@ -283,6 +283,11 @@ border
 image
 area
 .
+from
+__future__
+import
+print_function
+absolute_import
 import
 sys
 class
@@ -524,6 +529,7 @@ tok
 )
   
 print
+(
 "
 Whoops
 not
@@ -531,8 +537,8 @@ a
 pixel
 value
 "
-+
 tok
+)
 def
 parse_np
 (
@@ -1175,6 +1181,7 @@ source
 :
     
 print
+(
 "
 missing
 border
@@ -1183,6 +1190,7 @@ image
 -
 source
 "
+)
     
 return
 False
@@ -1201,10 +1209,12 @@ width
 :
     
 print
+(
 "
 missing
 width
 "
+)
     
 return
 False
@@ -1223,10 +1233,12 @@ height
 :
     
 print
+(
 "
 missing
 height
 "
+)
     
 return
 False
@@ -1243,12 +1255,14 @@ width
 :
     
 print
+(
 "
 missing
 border
 -
 width
 "
+)
     
 return
 False
@@ -1265,6 +1279,7 @@ image_width
 :
     
 print
+(
 "
 missing
 border
@@ -1273,6 +1288,7 @@ image
 -
 width
 "
+)
     
 return
 False
@@ -1289,6 +1305,7 @@ slice
 :
     
 print
+(
 "
 missing
 border
@@ -1297,6 +1314,7 @@ image
 -
 slice
 "
+)
     
 return
 False
@@ -1332,6 +1350,7 @@ round
 :
     
 print
+(
 "
 missing
 or
@@ -1351,6 +1370,7 @@ repeat
 "
 '
 "
+)
     
 return
 False
@@ -1367,6 +1387,7 @@ outset
 :
     
 print
+(
 "
 missing
 border
@@ -1375,6 +1396,7 @@ image
 -
 outset
 "
+)
     
 return
 False
@@ -1400,6 +1422,7 @@ source
 :
     
 print
+(
 "
 missing
 border
@@ -1408,6 +1431,7 @@ image
 -
 source
 "
+)
     
 return
 False
@@ -1426,10 +1450,12 @@ width
 :
     
 print
+(
 "
 missing
 width
 "
+)
     
 return
 False
@@ -1448,10 +1474,12 @@ height
 :
     
 print
+(
 "
 missing
 height
 "
+)
     
 return
 False
@@ -1468,6 +1496,7 @@ slice
 :
     
 print
+(
 "
 missing
 border
@@ -1476,6 +1505,7 @@ image
 -
 slice
 "
+)
     
 return
 False
@@ -1511,6 +1541,7 @@ round
 :
     
 print
+(
 "
 missing
 or
@@ -1530,6 +1561,7 @@ repeat
 "
 '
 "
+)
     
 return
 False
@@ -2544,6 +2576,7 @@ else
 :
     
 print
+(
 "
 Whoops
 invalid
@@ -2554,6 +2587,7 @@ image
 repeat
 value
 "
+)
   
 #
 catch
@@ -3964,11 +3998,13 @@ the
 border
   
 print
+(
 "
 <
 table
 >
 "
+)
   
 for
 i
@@ -3980,6 +4016,7 @@ tiles_h
 :
     
 print
+(
 "
 <
 col
@@ -4010,6 +4047,7 @@ px
 "
 >
 "
+)
   
 for
 i
@@ -4021,6 +4059,7 @@ tiles_v
 :
     
 print
+(
 "
 <
 tr
@@ -4053,6 +4092,7 @@ px
 "
 >
 "
+)
     
 for
 j
@@ -4134,6 +4174,7 @@ height
 :
         
 print
+(
 "
 <
 td
@@ -4153,11 +4194,13 @@ white
 td
 >
 "
+)
       
 else
 :
         
 print
+(
 "
 <
 td
@@ -4253,22 +4296,27 @@ px
 td
 >
 "
+)
     
 print
+(
 "
 <
 /
 tr
 >
 "
+)
   
 print
+(
 "
 <
 /
 table
 >
 "
+)
 #
 start
 here
@@ -4292,6 +4340,7 @@ args
 :
   
 print
+(
 "
 whoops
 :
@@ -4299,6 +4348,7 @@ no
 source
 file
 "
+)
   
 exit
 (
@@ -4322,9 +4372,11 @@ props
 :
   
 print
+(
 dir
 (
 props
+)
 )
   
 exit
