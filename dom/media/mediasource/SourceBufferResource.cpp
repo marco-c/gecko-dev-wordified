@@ -246,10 +246,7 @@ __VA_ARGS__
 namespace
 mozilla
 {
-RefPtr
-<
-GenericPromise
->
+nsresult
 SourceBufferResource
 :
 :
@@ -276,14 +273,7 @@ mClosed
 true
 ;
 return
-GenericPromise
-:
-:
-CreateAndResolve
-(
-true
-__func__
-)
+NS_OK
 ;
 }
 nsresult
