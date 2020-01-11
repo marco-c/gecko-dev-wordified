@@ -5743,7 +5743,7 @@ hasLazyScript
 ;
 }
 void
-initSelfHostLazyScript
+initSelfHostedLazyScript
 (
 js
 :

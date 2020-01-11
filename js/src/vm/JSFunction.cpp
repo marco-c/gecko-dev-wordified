@@ -15173,7 +15173,7 @@ selfHostedLazyScript
 clone
 -
 >
-initSelfHostLazyScript
+initSelfHostedLazyScript
 (
 lazy
 )
