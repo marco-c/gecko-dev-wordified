@@ -954,7 +954,7 @@ SECStatus
 1
 -
 !
-PORT_Memcmp
+NSS_SecureMemcmp
 (
 tmp
 sig
