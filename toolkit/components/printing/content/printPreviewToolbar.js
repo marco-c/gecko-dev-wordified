@@ -2431,10 +2431,7 @@ this
 .
 mPPBrowser
 .
-outerWindowID
-this
-.
-mPPBrowser
+browsingContext
 )
 ;
 }
