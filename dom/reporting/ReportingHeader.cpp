@@ -1794,8 +1794,14 @@ return
 nullptr
 ;
 }
+RootedDictionary
+<
 ReportingEndpoint
+>
 endpoint
+(
+cx
+)
 ;
 if
 (
