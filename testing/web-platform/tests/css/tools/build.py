@@ -1200,6 +1200,9 @@ isTest
                 
 continue
             
+try
+:
+                
 metaData
 =
 source
@@ -1208,6 +1211,37 @@ getMetadata
 (
 True
 )
+            
+except
+Exception
+as
+error
+:
+                
+self
+.
+ui
+.
+warn
+(
+"
+Exception
+parsing
+'
+"
+filePath
+"
+'
+:
+"
+error
+"
+\
+n
+"
+)
+                
+continue
             
 if
 not
