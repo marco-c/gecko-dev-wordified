@@ -5623,6 +5623,12 @@ aName
 ;
 }
 }
+aName
+.
+CompressWhitespace
+(
+)
+;
 }
 void
 Accessible
