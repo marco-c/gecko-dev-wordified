@@ -783,6 +783,10 @@ const
 bool
 &
 stickDocument
+const
+CookieSettingsArgs
+&
+aCookieSettingsArgs
 )
 {
 LOG
@@ -1008,6 +1012,14 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+update
+-
+>
+SetCookieSettingsArgs
+(
+aCookieSettingsArgs
 )
 ;
 /
