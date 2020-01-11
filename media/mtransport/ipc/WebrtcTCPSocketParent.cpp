@@ -733,6 +733,10 @@ WebrtcTCPSocketParent
 :
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 {
 LOG
@@ -760,6 +764,7 @@ mChannel
 !
 SendOnConnected
 (
+aProxyType
 )
 )
 {

@@ -1338,9 +1338,6 @@ aResult
 aProxyinfo
 )
 {
-nsCString
-proxyType
-;
 rv
 =
 aProxyinfo
@@ -1348,7 +1345,7 @@ aProxyinfo
 >
 GetType
 (
-proxyType
+mProxyType
 )
 ;
 if
@@ -1373,7 +1370,7 @@ rv
 }
 if
 (
-proxyType
+mProxyType
 =
 =
 "
@@ -1381,7 +1378,7 @@ http
 "
 |
 |
-proxyType
+mProxyType
 =
 =
 "
@@ -1399,7 +1396,7 @@ OpenWithHttpProxy
 else
 if
 (
-proxyType
+mProxyType
 =
 =
 "
@@ -1407,7 +1404,7 @@ socks
 "
 |
 |
-proxyType
+mProxyType
 =
 =
 "
@@ -1415,7 +1412,7 @@ socks4
 "
 |
 |
-proxyType
+mProxyType
 =
 =
 "
@@ -2699,6 +2696,7 @@ mProxyCallbacks
 >
 OnConnected
 (
+mProxyType
 )
 ;
 }

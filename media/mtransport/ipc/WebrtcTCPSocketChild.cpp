@@ -257,6 +257,10 @@ WebrtcTCPSocketChild
 :
 RecvOnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 {
 LOG
@@ -296,6 +300,7 @@ mProxyCallbacks
 >
 OnConnected
 (
+aProxyType
 )
 ;
 return

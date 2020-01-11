@@ -1344,6 +1344,10 @@ NrTcpSocket
 :
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 {
 r_log
@@ -1362,6 +1366,10 @@ n
 "
 this
 )
+;
+mProxyType
+=
+aProxyType
 ;
 DoCallbacks
 (

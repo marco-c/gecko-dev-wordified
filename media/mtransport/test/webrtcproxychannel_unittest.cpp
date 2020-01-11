@@ -2210,6 +2210,12 @@ mProxyCallbacks
 >
 OnConnected
 (
+NS_LITERAL_CSTRING
+(
+"
+http
+"
+)
 )
 ;
 }
@@ -2308,6 +2314,10 @@ aReason
 void
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 ;
 void
@@ -2475,6 +2485,10 @@ override
 void
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 override
 ;
@@ -2659,6 +2673,10 @@ WebrtcTCPSocketTest
 :
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 {
 mOnConnectedCalled
@@ -2957,6 +2975,10 @@ WebrtcTCPSocketTestCallback
 :
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 {
 mTest
@@ -2964,6 +2986,7 @@ mTest
 >
 OnConnected
 (
+aProxyType
 )
 ;
 }

@@ -153,6 +153,10 @@ virtual
 void
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 =
 0

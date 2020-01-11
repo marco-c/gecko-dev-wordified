@@ -895,6 +895,10 @@ WebrtcTCPSocketWrapper
 :
 OnConnected
 (
+const
+nsCString
+&
+aProxyType
 )
 {
 MOZ_ASSERT
@@ -933,6 +937,9 @@ mSocketThread
 Dispatch
 (
 NewRunnableMethod
+<
+nsCString
+>
 (
 "
 WebrtcTCPSocketWrapper
@@ -946,6 +953,7 @@ WebrtcTCPSocketCallback
 :
 :
 OnConnected
+aProxyType
 )
 )
 )
