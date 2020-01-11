@@ -523,6 +523,10 @@ fine
 return
 ;
 }
+MarkActive
+(
+)
+;
 MediaTrackGraph
 *
 graph
