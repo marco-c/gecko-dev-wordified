@@ -756,7 +756,6 @@ createNFCPushOptions
 target
 timeout
 ignoreRead
-compatibility
 )
 {
 return
@@ -764,7 +763,6 @@ return
 target
 timeout
 ignoreRead
-compatibility
 }
 ;
 }
@@ -1245,9 +1243,6 @@ mockNFC
 setReadingMessage
 (
 message
-scanOptions
-.
-compatibility
 )
 ;
 /
@@ -1393,7 +1388,6 @@ testReadingMultiMessages
 message
 scanOptions
 unmatchedMessage
-unmatchedCompatibility
 desc
 )
 {
@@ -1521,7 +1515,6 @@ mockNFC
 setReadingMessage
 (
 unmatchedMessage
-unmatchedCompatibility
 )
 ;
 mockNFC
