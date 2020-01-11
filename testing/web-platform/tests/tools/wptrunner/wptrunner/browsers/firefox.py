@@ -86,6 +86,12 @@ noqa
 F401
                                             
 MarionetteWdspecExecutor
+#
+noqa
+:
+F401
+                                            
+MarionetteCrashtestExecutor
 )
 #
 noqa
@@ -143,6 +149,14 @@ executor
 "
 :
 {
+"
+crashtest
+"
+:
+"
+MarionetteCrashtestExecutor
+"
+                              
 "
 testharness
 "
