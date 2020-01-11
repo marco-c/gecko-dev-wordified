@@ -472,7 +472,8 @@ Database
 )
 const
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileHandle
 >
@@ -485,7 +486,8 @@ ErrorResult
 aError
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 DOMRequest
 >
