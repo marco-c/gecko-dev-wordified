@@ -844,13 +844,6 @@ bool
 aStartMacSandbox
 )
 {
-Unused
-<
-<
-SendInitComplete
-(
-)
-;
 for
 (
 const
