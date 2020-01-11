@@ -114,6 +114,10 @@ clang
 -
 cl
 yet
+extern
+"
+C
+"
 const
 char
 *
