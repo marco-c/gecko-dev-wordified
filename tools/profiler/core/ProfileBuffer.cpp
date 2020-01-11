@@ -177,7 +177,7 @@ backtrace
 static
 constexpr
 auto
-DuplicationBufferBytes
+WorkerBufferBytes
 =
 MakePowerOfTwo32
 <
@@ -202,7 +202,7 @@ mEntries
 (
 aBuffer
 )
-mDuplicationBuffer
+mWorkerBuffer
 (
 MakeUnique
 <
@@ -214,7 +214,7 @@ Byte
 ]
 >
 (
-DuplicationBufferBytes
+WorkerBufferBytes
 .
 Value
 (
