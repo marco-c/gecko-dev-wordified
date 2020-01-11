@@ -9755,7 +9755,7 @@ into
 what
 the
 editor
-things
+thinks
 is
 its
 own
@@ -10067,6 +10067,7 @@ getTokenFromPosition
 dbg
 pos
 )
+;
 if
 (
 !
@@ -10160,6 +10161,7 @@ getTokenFromPosition
 dbg
 pos
 )
+;
 if
 (
 !
