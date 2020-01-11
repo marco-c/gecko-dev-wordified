@@ -226,7 +226,7 @@ h
 "
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -258,7 +258,7 @@ h
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -1164,7 +1164,7 @@ Initialize
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 if
 !
@@ -1268,7 +1268,7 @@ failed
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API
 RETURN_IF_FAIL
 (
 js
@@ -1686,7 +1686,7 @@ PRMJ_NowShutdown
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 u_cleanup
 (
 )
@@ -1695,7 +1695,7 @@ u_cleanup
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 ifdef
 MOZ_VTUNE
@@ -1810,7 +1810,7 @@ JS_Init
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 UErrorCode
 status
 =

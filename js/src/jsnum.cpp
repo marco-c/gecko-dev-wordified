@@ -251,7 +251,7 @@ h
 #
 if
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -5755,7 +5755,7 @@ args
 #
 if
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 MOZ_ALWAYS_INLINE
 bool
 num_toLocaleString_impl
@@ -6682,7 +6682,7 @@ endif
 /
 *
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 *
 /
 MOZ_ALWAYS_INLINE
@@ -7979,7 +7979,7 @@ num_toString
 )
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 JS_SELF_HOSTED_FN
 (
 js_toLocaleString_str
@@ -8169,7 +8169,7 @@ rt
 /
 XXX
 If
-ENABLE_INTL_API
+JS_HAS_INTL_API
 becomes
 true
 all
@@ -8201,7 +8201,7 @@ type
 #
 if
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 /
 *
 Copy
@@ -8471,7 +8471,7 @@ endif
 /
 *
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 *
 /
 return
@@ -8492,7 +8492,7 @@ rt
 #
 if
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 /
 *
 *
@@ -8541,7 +8541,7 @@ endif
 /
 /
 !
-ENABLE_INTL_API
+JS_HAS_INTL_API
 }
 JSObject
 *
