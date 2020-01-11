@@ -1305,6 +1305,7 @@ composite
 :
 :
 {
+CompositorConfig
 Compositor
 NativeSurfaceId
 }
@@ -1411,7 +1412,6 @@ SceneBuilderHooks
 ThreadListener
 ShaderPrecacheFlags
 MAX_VERTEX_TEXTURE_WIDTH
-PresentConfig
 }
 ;
 pub
