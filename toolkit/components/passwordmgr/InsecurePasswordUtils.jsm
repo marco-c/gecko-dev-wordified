@@ -612,12 +612,9 @@ true
 ;
 if
 (
-gContentSecurityManager
-.
-isOriginPotentiallyTrustworthy
-(
 principal
-)
+.
+IsOriginPotentiallyTrustworthy
 |
 |
 /
