@@ -232,6 +232,9 @@ MutexIDs
 h
 "
 #
+ifdef
+ENABLE_WASM_CRANELIFT
+#
 include
 "
 wasm
@@ -242,6 +245,8 @@ clifapi
 .
 h
 "
+#
+endif
 #
 include
 "
