@@ -16,7 +16,7 @@ for
 running
 jobs
 in
-TaskCluster
+Taskcluster
 This
 is
 intended
@@ -25,7 +25,7 @@ running
 test
 jobs
 in
-TaskCluster
+Taskcluster
 .
 The
 script
