@@ -259,15 +259,6 @@ LogLevel
 Debug
 args
 )
-#
-ifdef
-__MINGW32__
-#
-define
-ASSOCF_NONE
-0x0
-#
-endif
 /
 /
 helper
