@@ -1879,12 +1879,11 @@ noticed
 .
 *
 /
-nsresult
+void
 SetSMILOverrideStyleDeclaration
 (
 DeclarationBlock
-*
-aDeclaration
+&
 )
 ;
 /
