@@ -120,7 +120,7 @@ Needed
 #
 include
 "
-nsWebShellWindow
+nsXULWindow
 .
 h
 "
@@ -243,7 +243,7 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-nsWebShellWindow
+nsXULWindow
 *
 *
 aResult
@@ -261,7 +261,7 @@ aChromeMask
 ;
 RefPtr
 <
-nsWebShellWindow
+nsXULWindow
 >
 mHiddenWindow
 ;
