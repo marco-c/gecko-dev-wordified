@@ -36,7 +36,7 @@ this
 test
 fails
 likely
-nsIHttpChannel
+nsIClassifiedChannel
 has
 added
 or
@@ -177,7 +177,7 @@ keys
 (
 Ci
 .
-nsIHttpChannel
+nsIClassifiedChannel
 )
 .
 filter

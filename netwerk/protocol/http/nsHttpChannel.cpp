@@ -8557,7 +8557,7 @@ mFirstPartyClassificationFlags
 using
 CF
 =
-nsIHttpChannel
+nsIClassifiedChannel
 :
 :
 ClassificationFlags
