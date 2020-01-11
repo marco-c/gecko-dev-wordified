@@ -1693,7 +1693,7 @@ noBypassCacheEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 "
 document
@@ -1766,7 +1766,7 @@ forceBypassCacheEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 "
 document
@@ -1890,7 +1890,7 @@ customUserAgentEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 "
 document
@@ -1961,7 +1961,7 @@ noCustomUserAgentEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 "
 document
@@ -2085,7 +2085,7 @@ injectedScriptEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 (
 {
@@ -2177,7 +2177,7 @@ noInjectedScriptEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 (
 {
@@ -2355,7 +2355,7 @@ customUserAgentEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 "
 document
@@ -2427,7 +2427,7 @@ noCustomUserAgentEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 "
 document
@@ -2628,7 +2628,7 @@ injectedScriptEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 (
 {
@@ -2757,7 +2757,7 @@ noInjectedScriptEval
 await
 webConsoleFront
 .
-evaluateJSAsync
+evaluateJS
 (
 (
 {
