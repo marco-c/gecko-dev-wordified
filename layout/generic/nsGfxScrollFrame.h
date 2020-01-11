@@ -791,11 +791,6 @@ FireScrolledAreaEvent
 (
 )
 ;
-bool
-IsSmoothScrollingEnabled
-(
-)
-;
 /
 *
 *
