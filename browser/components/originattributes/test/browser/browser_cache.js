@@ -947,6 +947,16 @@ prefetch
 "
 false
 ]
+[
+"
+browser
+.
+cache
+.
+cache_isolation
+"
+false
+]
 ]
 }
 )
