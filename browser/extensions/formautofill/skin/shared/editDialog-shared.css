@@ -346,7 +346,11 @@ events
 :
 none
 ;
-left
+inset
+-
+inline
+-
+start
 :
 10px
 ;
