@@ -1426,9 +1426,6 @@ event
 queue
 is
 running
-non
--
-idle
 tasks
 .
 bool
