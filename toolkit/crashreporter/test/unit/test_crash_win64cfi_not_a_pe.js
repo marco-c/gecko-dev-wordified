@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -115,6 +118,7 @@ unwind
 info
 parsing
 .
+await
 do_x64CFITest
 (
 "
@@ -162,3 +166,5 @@ path
 )
 ;
 }
+)
+;

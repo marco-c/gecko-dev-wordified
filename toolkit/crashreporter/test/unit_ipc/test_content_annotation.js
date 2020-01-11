@@ -29,6 +29,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -136,6 +139,7 @@ with
 a
 runtime
 abort
+await
 do_content_crash
 (
 function
@@ -255,3 +259,5 @@ foo
 )
 ;
 }
+)
+;

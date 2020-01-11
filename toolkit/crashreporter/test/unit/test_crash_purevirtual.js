@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -102,6 +105,7 @@ a
 pure
 virtual
 call
+await
 do_crash
 (
 function
@@ -160,3 +164,5 @@ true
 )
 ;
 }
+)
+;
