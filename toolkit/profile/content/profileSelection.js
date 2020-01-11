@@ -232,7 +232,12 @@ bundle_brand
 ;
 document
 .
-documentElement
+getElementById
+(
+"
+profileWindow
+"
+)
 .
 centerWindowOnScreen
 (
@@ -1011,7 +1016,12 @@ richlistitem
 {
 document
 .
-documentElement
+getElementById
+(
+"
+profileWindow
+"
+)
 .
 acceptDialog
 (

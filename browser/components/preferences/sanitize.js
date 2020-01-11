@@ -108,7 +108,12 @@ js
 /
 document
 .
-documentElement
+getElementById
+(
+"
+SanitizeDialog
+"
+)
 .
 addEventListener
 (

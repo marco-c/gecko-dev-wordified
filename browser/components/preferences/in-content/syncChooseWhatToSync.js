@@ -355,7 +355,12 @@ button
 .
 document
 .
-documentElement
+getElementById
+(
+"
+syncChooseOptions
+"
+)
 .
 getButton
 (

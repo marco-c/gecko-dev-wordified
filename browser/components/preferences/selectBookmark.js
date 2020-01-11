@@ -495,7 +495,12 @@ accept
 =
 document
 .
-documentElement
+getElementById
+(
+"
+selectBookmarkDialog
+"
+)
 .
 getButton
 (
@@ -634,7 +639,12 @@ dialog
 /
 document
 .
-documentElement
+getElementById
+(
+"
+selectBookmarkDialog
+"
+)
 .
 getButton
 (

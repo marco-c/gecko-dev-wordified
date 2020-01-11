@@ -152,7 +152,12 @@ dialog
 =
 document
 .
-documentElement
+getElementById
+(
+"
+commonDialog
+"
+)
 ;
 let
 ui

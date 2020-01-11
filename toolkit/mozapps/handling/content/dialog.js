@@ -817,7 +817,12 @@ _okButton
 =
 document
 .
-documentElement
+getElementById
+(
+"
+handling
+"
+)
 .
 getButton
 (

@@ -231,7 +231,12 @@ jsm
 ;
 document
 .
-documentElement
+getElementById
+(
+"
+BrowserLanguagesDialog
+"
+)
 .
 addEventListener
 (
@@ -2363,7 +2368,12 @@ onLoad
 {
 document
 .
-documentElement
+getElementById
+(
+"
+BrowserLanguagesDialog
+"
+)
 .
 addEventListener
 (

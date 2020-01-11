@@ -132,7 +132,12 @@ jsm
 ;
 document
 .
-documentElement
+getElementById
+(
+"
+LanguagesDialog
+"
+)
 .
 addEventListener
 (

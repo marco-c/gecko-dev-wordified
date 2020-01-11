@@ -83,7 +83,12 @@ js
 /
 document
 .
-documentElement
+getElementById
+(
+"
+ColorsDialog
+"
+)
 .
 addEventListener
 (

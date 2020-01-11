@@ -146,7 +146,12 @@ js
 /
 document
 .
-documentElement
+getElementById
+(
+"
+ConnectionsDialog
+"
+)
 .
 addEventListener
 (
@@ -914,7 +919,12 @@ registerSyncPrefListeners
 ;
 document
 .
-documentElement
+getElementById
+(
+"
+ConnectionsDialog
+"
+)
 .
 addEventListener
 (

@@ -301,7 +301,12 @@ macosx
 {
 document
 .
-documentElement
+getElementById
+(
+"
+SetDesktopBackgroundDialog
+"
+)
 .
 getButton
 (
