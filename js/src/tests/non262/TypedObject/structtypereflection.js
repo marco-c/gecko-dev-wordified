@@ -190,6 +190,15 @@ prototype
 prototype
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 assertEq
 (
 S
@@ -216,6 +225,7 @@ float64
 "
 )
 ;
+}
 assertEq
 (
 S

@@ -358,6 +358,13 @@ a
 i
 ]
 ;
+if
+(
+x
+.
+toSource
+)
+{
 var
 expectedSource
 =
@@ -367,6 +374,7 @@ toSource
 (
 )
 ;
+}
 var
 expectedPrimitive
 =
@@ -420,6 +428,13 @@ x
 )
 )
 ;
+if
+(
+x
+.
+toSource
+)
+{
 assertEq
 (
 y
@@ -430,6 +445,7 @@ toSource
 expectedSource
 )
 ;
+}
 assertEq
 (
 primitive

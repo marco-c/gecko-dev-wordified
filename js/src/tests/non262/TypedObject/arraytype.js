@@ -267,6 +267,15 @@ byteLength
 10
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 assertEq
 (
 A
@@ -284,6 +293,7 @@ uint8
 "
 )
 ;
+}
 /
 /
 assertEq
