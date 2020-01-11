@@ -802,6 +802,8 @@ resolve
 }
 else
 {
+content
+.
 setTimeout
 (
 (

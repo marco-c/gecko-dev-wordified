@@ -168,6 +168,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -204,6 +206,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -433,6 +437,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -470,6 +476,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -735,6 +743,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -971,6 +981,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -1007,6 +1019,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -1056,6 +1070,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -1341,6 +1357,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
@@ -1377,6 +1395,8 @@ Promise
 resolve
 =
 >
+content
+.
 setTimeout
 (
 resolve
