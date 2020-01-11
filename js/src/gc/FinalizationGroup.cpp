@@ -639,14 +639,9 @@ group
 group
 -
 >
-queueHoldingsToBeCleanedUp
+queueRecordToBeCleanedUp
 (
 record
--
->
-holdings
-(
-)
 )
 ;
 queueFinalizationGroupForCleanup
@@ -869,7 +864,7 @@ ok
 FinalizationGroupObject
 :
 :
-cleanupQueuedHoldings
+cleanupQueuedRecords
 (
 cx
 group

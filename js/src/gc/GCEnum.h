@@ -789,7 +789,7 @@ ICUObject
 \
 _
 (
-FinalizationGroupHoldingsVector
+FinalizationGroupRecordVector
 )
 \
 _
