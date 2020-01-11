@@ -33173,7 +33173,8 @@ null
 .
 *
 /
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIInputStream
 >
@@ -33375,7 +33376,7 @@ AssertIsOnBackgroundThread
 }
 }
 ;
-already_AddRefed
+nsCOMPtr
 <
 nsIInputStream
 >
@@ -33460,10 +33461,6 @@ nullptr
 }
 return
 inputStream
-.
-forget
-(
-)
 ;
 }
 class
