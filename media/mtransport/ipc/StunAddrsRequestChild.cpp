@@ -168,7 +168,10 @@ nsCString
 &
 hostname
 const
+Maybe
+<
 nsCString
+>
 &
 address
 )
