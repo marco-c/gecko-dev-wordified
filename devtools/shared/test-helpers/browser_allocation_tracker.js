@@ -272,6 +272,12 @@ file
 js
 "
 1
+/
+*
+enforceFilenameRestrictions
+*
+/
+false
 )
 ;
 /
@@ -412,6 +418,12 @@ file
 js
 "
 7
+/
+*
+enforceFilenameRestrictions
+*
+/
+false
 )
 ;
 Cu
