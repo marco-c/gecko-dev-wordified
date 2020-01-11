@@ -2192,14 +2192,6 @@ display
 :
 block
 ;
-inset
--
-inline
--
-start
-:
-0
-;
 height
 :
 1
@@ -4194,6 +4186,12 @@ top
 width
 :
 auto
+;
+unicode
+-
+bidi
+:
+plaintext
 ;
 }
 .
