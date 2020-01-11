@@ -14149,13 +14149,6 @@ trackCached
 true
 )
 ;
-if
-(
-data
-.
-paintData
-)
-{
 RecordReplayControl
 .
 hadRepaint
@@ -14165,7 +14158,6 @@ data
 paintData
 )
 ;
-}
 }
 return
 data
@@ -14187,11 +14179,6 @@ point
 if
 (
 data
-&
-&
-data
-.
-paintData
 )
 {
 RecordReplayControl
