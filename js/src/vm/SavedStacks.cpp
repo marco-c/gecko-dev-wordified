@@ -3709,7 +3709,7 @@ savedStacks
 )
 )
 ;
-RootedNativeObject
+RootedObject
 proto
 (
 cx
