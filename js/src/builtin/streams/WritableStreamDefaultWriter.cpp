@@ -3657,7 +3657,7 @@ JS_FS_END
 JS_STREAMS_CLASS_SPEC
 (
 WritableStreamDefaultWriter
-0
+1
 SlotCount
 ClassSpec
 :
