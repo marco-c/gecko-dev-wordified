@@ -658,6 +658,17 @@ mozilla
 /
 dom
 /
+UserActivation
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ChildSHistory
 .
 h
@@ -82606,7 +82617,7 @@ LOAD_CMD_HISTORY
 )
 |
 |
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput

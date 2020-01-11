@@ -258,6 +258,17 @@ mozilla
 /
 dom
 /
+BrowserParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLFormElement
 .
 h
@@ -291,7 +302,7 @@ mozilla
 /
 dom
 /
-BrowserParent
+UserActivation
 .
 h
 "
@@ -9121,7 +9132,7 @@ CAUSE_UNKNOWN_CHROME
 )
 &
 &
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -9133,7 +9144,7 @@ aAction
 .
 mCause
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingKeyboardInput
