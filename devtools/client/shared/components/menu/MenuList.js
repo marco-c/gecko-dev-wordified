@@ -771,6 +771,15 @@ onBlur
 this
 .
 onMouseOutOrBlur
+className
+:
+"
+menu
+-
+standard
+-
+padding
+"
 }
 ;
 if
@@ -858,6 +867,11 @@ className
 checkbox
 -
 container
+menu
+-
+standard
+-
+padding
 "
 ;
 }
