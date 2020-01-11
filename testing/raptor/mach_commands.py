@@ -375,6 +375,17 @@ cpu_test
 '
 ]
         
+self
+.
+device_name
+=
+kwargs
+[
+'
+device_name
+'
+]
+        
 if
 Conditions
 .
@@ -1228,6 +1239,14 @@ is_release_build
 self
 .
 is_release_build
+            
+'
+device_name
+'
+:
+self
+.
+device_name
         
 }
         
