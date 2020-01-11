@@ -3850,7 +3850,10 @@ nsIURI
 *
 aURI
 const
+Maybe
+<
 ReplacementChannelConfigInit
+>
 &
 aConfig
 const
