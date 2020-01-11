@@ -4135,7 +4135,10 @@ speaker
 .
 *
 /
+Atomic
+<
 bool
+>
 mNeedsPanning
 ;
 #
