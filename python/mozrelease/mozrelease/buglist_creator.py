@@ -1487,15 +1487,11 @@ task_group_id
 }
 ]
 (
-https
-:
+{
+root_url
+}
 /
-/
-tools
-.
-taskcluster
-.
-net
+tasks
 /
 groups
 /
@@ -1518,6 +1514,17 @@ repo
 revision
 =
 revision
+           
+root_url
+=
+os
+.
+environ
+[
+'
+TASKCLUSTER_ROOT_URL
+'
+]
            
 task_group_id
 =
