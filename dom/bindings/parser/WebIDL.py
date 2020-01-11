@@ -3551,16 +3551,6 @@ return
 False
     
 def
-isSerializable
-(
-self
-)
-:
-        
-return
-False
-    
-def
 _getDependentObjects
 (
 self

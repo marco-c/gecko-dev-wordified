@@ -9039,14 +9039,6 @@ desc
 .
 interface
 .
-isExternal
-(
-)
-or
-desc
-.
-interface
-.
 isIteratorInterface
 (
 )
