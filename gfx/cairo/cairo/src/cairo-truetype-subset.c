@@ -6861,11 +6861,8 @@ tt_segment_map_t
 *
 map
 ;
-char
+tt_segment_map_t
 buf
-[
-4
-]
 ;
 unsigned
 int
@@ -6956,10 +6953,7 @@ words
 /
 map
 =
-(
-tt_segment_map_t
-*
-)
+&
 buf
 ;
 if
