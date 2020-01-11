@@ -9144,6 +9144,7 @@ entangled
 .
 *
 /
+const
 HeapPtr
 <
 JSObject
@@ -9236,6 +9237,7 @@ property
 .
 *
 /
+const
 HeapPtr
 <
 JSObject
@@ -9471,6 +9473,7 @@ BreakpointSite
 {
 public
 :
+const
 HeapPtr
 <
 JSScript
@@ -9565,6 +9568,7 @@ BreakpointSite
 {
 public
 :
+const
 HeapPtr
 <
 WasmInstanceObject
