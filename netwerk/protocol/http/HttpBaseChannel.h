@@ -1359,15 +1359,6 @@ aTransferSize
 override
 ;
 NS_IMETHOD
-GetRequestSize
-(
-uint64_t
-*
-aRequestSize
-)
-override
-;
-NS_IMETHOD
 GetDecodedBodySize
 (
 uint64_t
@@ -4063,9 +4054,6 @@ mStartPos
 ;
 uint64_t
 mTransferSize
-;
-uint64_t
-mRequestSize
 ;
 uint64_t
 mDecodedBodySize
