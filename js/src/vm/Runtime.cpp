@@ -1179,8 +1179,6 @@ JSContext
 cx
 uint32_t
 maxbytes
-uint32_t
-maxNurseryBytes
 )
 {
 #
@@ -1236,7 +1234,6 @@ gc
 init
 (
 maxbytes
-maxNurseryBytes
 )
 )
 {
