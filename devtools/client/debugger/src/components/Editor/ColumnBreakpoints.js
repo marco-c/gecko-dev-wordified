@@ -85,6 +85,7 @@ import
 getSelectedSource
 visibleColumnBreakpoints
 getContext
+getCanRewind
 }
 from
 "
@@ -240,6 +241,9 @@ ColumnBreakpointType
 breakpointActions
 :
 BreakpointItemActions
+canRewind
+:
+boolean
 }
 ;
 class
@@ -265,6 +269,7 @@ editor
 columnBreakpoints
 selectedSource
 breakpointActions
+canRewind
 }
 =
 this
@@ -356,6 +361,11 @@ breakpointActions
 {
 breakpointActions
 }
+canRewind
+=
+{
+canRewind
+}
 /
 >
 )
@@ -401,6 +411,12 @@ state
 columnBreakpoints
 :
 visibleColumnBreakpoints
+(
+state
+)
+canRewind
+:
+getCanRewind
 (
 state
 )

@@ -1141,13 +1141,13 @@ traits
 Object
 chrome
 :
-Boolean
+boolean
 url
 :
 string
 isAddon
 :
-Boolean
+boolean
 }
 ;
 /

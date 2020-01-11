@@ -84,6 +84,7 @@ import
 {
 getSelectedSource
 getFirstVisibleBreakpoints
+getCanRewind
 }
 from
 "
@@ -243,6 +244,9 @@ BreakpointItemActions
 editorActions
 :
 EditorItemActions
+canRewind
+:
+boolean
 }
 ;
 class
@@ -265,6 +269,7 @@ selectedSource
 editor
 breakpointActions
 editorActions
+canRewind
 }
 =
 this
@@ -348,6 +353,11 @@ editorActions
 {
 editorActions
 }
+canRewind
+=
+{
+canRewind
+}
 /
 >
 )
@@ -410,6 +420,12 @@ state
 selectedSource
 :
 getSelectedSource
+(
+state
+)
+canRewind
+:
+getCanRewind
 (
 state
 )
