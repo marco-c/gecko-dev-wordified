@@ -256,7 +256,6 @@ mem_ip1
 =
 (
 data
-passive
 "
 \
 \
@@ -278,7 +277,6 @@ mem_ip2
 =
 (
 data
-passive
 "
 \
 \
@@ -468,7 +466,7 @@ tab_ip1
 =
 (
 elem
-passive
+func
 2
 7
 1
@@ -480,7 +478,7 @@ tab_ip2
 =
 (
 elem
-passive
+func
 5
 9
 2

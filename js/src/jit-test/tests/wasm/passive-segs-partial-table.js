@@ -134,7 +134,7 @@ funcref
 )
 (
 elem
-passive
+func
 f0
 f1
 f2

@@ -15338,7 +15338,7 @@ case
 ElemSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithTableIndex
 :
 {
 return
@@ -15655,7 +15655,7 @@ kind
 ElemSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithTableIndex
 )
 {
 if
@@ -15702,7 +15702,7 @@ kind
 ElemSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithTableIndex
 &
 &
 !
@@ -15922,16 +15922,16 @@ payload
 ;
 /
 /
-ActiveWithIndex
+ActiveWithTableIndex
 Declared
 and
 Passive
 element
 segments
 encode
+/
+/
 the
-/
-/
 type
 or
 definition
@@ -17740,7 +17740,7 @@ uint32_t
 DataSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithMemoryIndex
 )
 :
 break
@@ -17821,7 +17821,7 @@ initializerKind
 DataSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithMemoryIndex
 )
 {
 if
@@ -17892,7 +17892,7 @@ initializerKind
 DataSegmentKind
 :
 :
-ActiveWithIndex
+ActiveWithMemoryIndex
 )
 {
 InitExpr
