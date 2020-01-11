@@ -507,8 +507,6 @@ MOZ_MUST_USE
 bool
 emitThenInternal
 (
-SrcNoteType
-type
 )
 ;
 void

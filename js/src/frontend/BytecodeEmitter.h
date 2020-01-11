@@ -3138,6 +3138,14 @@ ParseNode
 nextpn
 )
 ;
+enum
+class
+GotoKind
+{
+Break
+Continue
+}
+;
 MOZ_MUST_USE
 bool
 emitGoto
@@ -3148,10 +3156,8 @@ target
 JumpList
 *
 jumplist
-SrcNoteType
-noteType
-=
-SRC_NULL
+GotoKind
+kind
 )
 ;
 MOZ_MUST_USE
