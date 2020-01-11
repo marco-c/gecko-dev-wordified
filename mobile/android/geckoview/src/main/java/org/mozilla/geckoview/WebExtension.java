@@ -3482,7 +3482,7 @@ event
 {
 runtime
 .
-getWebExtensionDispatcher
+getWebExtensionController
 (
 )
 .
