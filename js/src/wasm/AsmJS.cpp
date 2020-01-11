@@ -38553,6 +38553,9 @@ if
 tree
 )
 {
+if
+(
+!
 m
 .
 parser
@@ -38563,7 +38566,12 @@ publishDeferredItems
 (
 tree
 )
+)
+{
+return
+false
 ;
+}
 tree
 -
 >

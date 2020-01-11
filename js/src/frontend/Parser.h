@@ -2294,6 +2294,7 @@ return
 treeHolder_
 ;
 }
+MOZ_MUST_USE
 bool
 publishDeferredItems
 (
@@ -2312,6 +2313,7 @@ getFunctionTree
 )
 ;
 }
+MOZ_MUST_USE
 bool
 publishDeferredItems
 (
