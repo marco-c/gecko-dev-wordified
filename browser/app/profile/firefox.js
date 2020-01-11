@@ -5608,7 +5608,7 @@ remote
 .
 separatePrivilegedMozillaWebContentProcess
 "
-false
+true
 )
 ;
 /
