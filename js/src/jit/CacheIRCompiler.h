@@ -3672,8 +3672,11 @@ ensureDoubleRegister
 (
 MacroAssembler
 &
-ValOperandId
+masm
+NumberOperandId
+op
 FloatRegister
+dest
 )
 ;
 /
