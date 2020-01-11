@@ -5165,7 +5165,6 @@ is
 not
 None
 ]
-                        
 )
                         
 item_expected
