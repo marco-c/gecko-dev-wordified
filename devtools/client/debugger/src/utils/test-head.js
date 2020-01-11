@@ -824,6 +824,9 @@ extensionName
 :
 null
 }
+isServiceWorker
+:
+false
 }
 ;
 }
