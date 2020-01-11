@@ -1352,7 +1352,6 @@ about
 pages
 .
 return
-(
 nodePrincipal
 .
 isNullPrincipal
@@ -1360,14 +1359,11 @@ isNullPrincipal
 |
 nodePrincipal
 .
-URI
-.
 schemeIs
 (
 "
 about
 "
-)
 )
 ;
 }
