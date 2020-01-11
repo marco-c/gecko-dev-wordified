@@ -3344,9 +3344,9 @@ node
 await
 this
 .
-inspector
+node
 .
-walker
+walkerFront
 .
 documentElement
 (
@@ -5891,9 +5891,9 @@ node
 :
 this
 .
-inspector
+node
 .
-walker
+walkerFront
 .
 rootNode
 ;
