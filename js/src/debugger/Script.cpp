@@ -7524,7 +7524,7 @@ frontOffset
 (
 )
 +
-1
+JSOP_TRY_LENGTH
 )
 {
 uint32_t
