@@ -2915,10 +2915,6 @@ StaticMutexAutoLock
 lock
 ProcessID
 processType
-const
-EventKey
-&
-eventKey
 )
 {
 EventRecordArray
@@ -3631,8 +3627,6 @@ GetEventRecordsForProcess
 (
 lock
 processType
-*
-eventKey
 )
 ;
 eventRecords
