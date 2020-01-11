@@ -500,7 +500,7 @@ refine
 these
 .
 let
-narrow
+narrow_flags
 =
 shared_defs
 .
@@ -509,7 +509,7 @@ transform_groups
 by_name
 (
 "
-narrow
+narrow_flags
 "
 )
 ;
@@ -517,14 +517,14 @@ a32
 .
 legalize_default
 (
-narrow
+narrow_flags
 )
 ;
 t32
 .
 legalize_default
 (
-narrow
+narrow_flags
 )
 ;
 let

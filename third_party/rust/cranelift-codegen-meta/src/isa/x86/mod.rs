@@ -235,7 +235,7 @@ expand_flags
 )
 ;
 let
-narrow
+narrow_flags
 =
 shared_defs
 .
@@ -244,7 +244,7 @@ transform_groups
 by_name
 (
 "
-narrow
+narrow_flags
 "
 )
 ;
@@ -301,7 +301,7 @@ x86_32
 .
 legalize_default
 (
-narrow
+narrow_flags
 )
 ;
 x86_32
