@@ -379,9 +379,14 @@ true
 ;
 document
 .
-body
+getElementById
+(
+"
+eBrowserContainer
+"
+)
 .
-append
+appendChild
 (
 browser
 )
