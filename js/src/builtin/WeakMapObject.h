@@ -156,7 +156,7 @@ NativeObject
 {
 public
 :
-ObjectValueMap
+ObjectValueWeakMap
 *
 getMap
 (
@@ -165,7 +165,7 @@ getMap
 return
 static_cast
 <
-ObjectValueMap
+ObjectValueWeakMap
 *
 >
 (
@@ -185,7 +185,7 @@ MallocSizeOf
 aMallocSizeOf
 )
 {
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =

@@ -240,7 +240,7 @@ HandleValue
 value
 )
 {
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -265,7 +265,7 @@ cx
 >
 make_unique
 <
-ObjectValueMap
+ObjectValueWeakMap
 >
 (
 cx

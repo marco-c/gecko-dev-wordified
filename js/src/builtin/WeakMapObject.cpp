@@ -289,7 +289,7 @@ true
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -486,7 +486,7 @@ true
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -528,7 +528,7 @@ toObject
 ;
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Ptr
@@ -694,7 +694,7 @@ true
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -736,7 +736,7 @@ toObject
 ;
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Ptr
@@ -1076,7 +1076,7 @@ false
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -1110,7 +1110,7 @@ cx
 ;
 for
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Base
@@ -1311,7 +1311,7 @@ obj
 {
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -1364,7 +1364,7 @@ maybeOnHelperThread
 ;
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -1482,7 +1482,7 @@ setUndefined
 (
 )
 ;
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -1512,7 +1512,7 @@ true
 }
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Ptr

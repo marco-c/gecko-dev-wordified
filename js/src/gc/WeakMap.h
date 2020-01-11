@@ -1885,7 +1885,7 @@ This
 is
 overridden
 by
-ObjectValueMap
+ObjectValueWeakMap
 and
 DebuggerWeakMap
 .
@@ -1976,7 +1976,7 @@ endif
 }
 ;
 class
-ObjectValueMap
+ObjectValueWeakMap
 :
 public
 WeakMap
@@ -1994,7 +1994,7 @@ Value
 {
 public
 :
-ObjectValueMap
+ObjectValueWeakMap
 (
 JSContext
 *
@@ -2044,7 +2044,7 @@ objects
 class
 ObjectWeakMap
 {
-ObjectValueMap
+ObjectValueWeakMap
 map
 ;
 public
@@ -2175,7 +2175,7 @@ DeletePolicy
 js
 :
 :
-ObjectValueMap
+ObjectValueWeakMap
 >
 :
 public
@@ -2187,7 +2187,7 @@ GCManagedDeletePolicy
 js
 :
 :
-ObjectValueMap
+ObjectValueWeakMap
 >
 {
 }

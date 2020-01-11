@@ -605,7 +605,7 @@ Steps
 .
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
@@ -647,7 +647,7 @@ toObject
 ;
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 :
 :
 Ptr
@@ -860,7 +860,7 @@ Steps
 .
 if
 (
-ObjectValueMap
+ObjectValueWeakMap
 *
 map
 =
