@@ -2027,11 +2027,6 @@ droppedFrames
 =
 0
 ;
-uint32_t
-corruptedFrames
-=
-0
-;
 if
 (
 IsVideoStatsEnabled
@@ -2129,10 +2124,6 @@ VideoHeight
 (
 )
 )
-;
-corruptedFrames
-=
-0
 ;
 }
 else
@@ -2308,10 +2299,6 @@ ratio
 ;
 }
 }
-corruptedFrames
-=
-0
-;
 }
 }
 }
@@ -2328,7 +2315,6 @@ this
 creationTime
 totalFrames
 droppedFrames
-corruptedFrames
 )
 ;
 return
