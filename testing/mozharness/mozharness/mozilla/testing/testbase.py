@@ -96,12 +96,22 @@ import
 os
 import
 platform
+from
+six
+.
+moves
 import
-urllib2
+urllib
 import
 json
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlparse
 ParseResult
@@ -1008,7 +1018,9 @@ test_packages_url
         
 reference_url
 =
-urllib2
+urllib
+.
+parse
 .
 unquote
 (
@@ -1826,7 +1838,7 @@ self
 .
 config
 .
-iteritems
+items
 (
 )
 :
@@ -2037,7 +2049,9 @@ manager
             
 passman
 =
-urllib2
+urllib
+.
+request
 .
 HTTPPasswordMgrWithDefaultRealm
 (
@@ -2082,7 +2096,9 @@ https_password
             
 authhandler
 =
-urllib2
+urllib
+.
+request
 .
 HTTPBasicAuthHandler
 (
@@ -2090,7 +2106,9 @@ passman
 )
             
 return
-urllib2
+urllib
+.
+request
 .
 build_opener
 (
@@ -2159,7 +2177,9 @@ else
 :
             
 return
-urllib2
+urllib
+.
+request
 .
 urlopen
 (
