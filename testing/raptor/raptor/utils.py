@@ -735,9 +735,9 @@ return
 command
 =
 [
-'
-python
-'
+sys
+.
+executable
                
 view_gp
                
