@@ -9090,7 +9090,7 @@ MOZ_ASSERT
 fun
 -
 >
-nonLazyScript
+baseScript
 (
 )
 -

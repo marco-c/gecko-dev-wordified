@@ -2964,7 +2964,7 @@ funHasExtensibleScope
 )
 |
 |
-nonLazyScript
+baseScript
 (
 )
 -
