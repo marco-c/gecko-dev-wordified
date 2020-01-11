@@ -635,6 +635,13 @@ RenderCompositorOGL
 :
 EndFrame
 (
+const
+FfiVec
+<
+DeviceIntRect
+>
+&
+aDirtyRects
 )
 {
 InsertFrameDoneSync

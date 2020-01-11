@@ -818,6 +818,13 @@ RenderCompositorEGL
 :
 EndFrame
 (
+const
+FfiVec
+<
+DeviceIntRect
+>
+&
+aDirtyRects
 )
 {
 if

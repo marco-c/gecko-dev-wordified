@@ -217,6 +217,13 @@ override
 void
 EndFrame
 (
+const
+FfiVec
+<
+DeviceIntRect
+>
+&
+aDirtyRects
 )
 override
 ;
