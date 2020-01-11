@@ -2888,6 +2888,15 @@ MemoryUse
 :
 :
 ForOfPICStub
+|
+|
+use
+=
+=
+MemoryUse
+:
+:
+ICUObject
 ;
 }
 void
