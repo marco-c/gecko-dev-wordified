@@ -711,9 +711,8 @@ PDocumentChannelParent
 >
 AllocPDocumentChannelParent
 (
-const
-PBrowserOrId
-&
+PBrowserParent
+*
 aBrowser
 const
 SerializedLoadContext
@@ -738,9 +737,8 @@ RecvPDocumentChannelConstructor
 PDocumentChannelParent
 *
 aActor
-const
-PBrowserOrId
-&
+PBrowserParent
+*
 aBrowser
 const
 SerializedLoadContext
