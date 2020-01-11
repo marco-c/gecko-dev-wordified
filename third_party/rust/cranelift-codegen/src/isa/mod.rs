@@ -263,15 +263,6 @@ target_lexicon
 /
 /
 !
-#
-fn
-main
-(
-)
-{
-/
-/
-!
 use
 cranelift_codegen
 :
@@ -443,11 +434,6 @@ shared_flags
 /
 /
 !
-}
-/
-/
-!
-#
 }
 /
 /

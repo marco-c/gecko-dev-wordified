@@ -634,10 +634,6 @@ Type
 =
 header_args_values
 .
-clone
-(
-)
-.
 into_iter
 (
 )

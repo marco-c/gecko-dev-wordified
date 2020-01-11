@@ -338,10 +338,12 @@ Signature
 :
 new
 (
-environ
-.
+ModuleEnvironment
+:
+:
 target_config
 (
+environ
 )
 .
 default_call_conv
@@ -377,6 +379,7 @@ type_to_type
 (
 *
 ty
+environ
 )
 .
 expect
@@ -434,6 +437,7 @@ type_to_type
 (
 *
 ty
+environ
 )
 .
 expect
@@ -696,6 +700,7 @@ type_to_type
 ty
 .
 content_type
+environ
 )
 .
 unwrap
@@ -744,6 +749,7 @@ tabletype_to_type
 tab
 .
 element_type
+environ
 )
 ?
 {
@@ -953,6 +959,7 @@ tabletype_to_type
 table
 .
 element_type
+environ
 )
 ?
 {
@@ -1297,6 +1304,16 @@ as_slice
 Operator
 :
 :
+RefNull
+=
+>
+GlobalInit
+:
+:
+RefNullConst
+Operator
+:
+:
 GetGlobal
 {
 global_index
@@ -1359,6 +1376,7 @@ ty
 type_to_type
 (
 content_type
+environ
 )
 .
 unwrap

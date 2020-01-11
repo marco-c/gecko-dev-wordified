@@ -409,6 +409,7 @@ FuncEnvironment
 GlobalVariable
 ModuleEnvironment
 ReturnMode
+TargetEnvironment
 WasmError
 WasmResult
 }
