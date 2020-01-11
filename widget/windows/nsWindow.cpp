@@ -51135,6 +51135,9 @@ gfxConfig
 :
 IsEnabled
 (
+gfx
+:
+:
 Feature
 :
 :
@@ -51148,6 +51151,9 @@ gfxConfig
 :
 IsEnabled
 (
+gfx
+:
+:
 Feature
 :
 :
@@ -51215,6 +51221,9 @@ gfxConfig
 :
 IsForcedOnByUser
 (
+gfx
+:
+:
 Feature
 :
 :
