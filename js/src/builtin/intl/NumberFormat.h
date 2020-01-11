@@ -409,17 +409,6 @@ obj
 ;
 }
 ;
-extern
-bool
-CreateNumberFormat
-(
-JSContext
-*
-cx
-HandleObject
-Intl
-)
-;
 /
 *
 *
