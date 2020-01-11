@@ -126,7 +126,7 @@ ImportError
 import
 urllib
 .
-urlparse
+parse
 as
 urlparse
 from
