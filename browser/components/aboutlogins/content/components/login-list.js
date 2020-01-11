@@ -1163,6 +1163,14 @@ render
 (
 )
 ;
+this
+.
+_list
+.
+scrollTop
+=
+0
+;
 const
 extra
 =
