@@ -841,6 +841,13 @@ _selectedContainer
 .
 node
 ;
+const
+walkerFront
+=
+node
+.
+walkerFront
+;
 if
 (
 node
@@ -848,9 +855,7 @@ node
 hidden
 )
 {
-markupView
-.
-walker
+walkerFront
 .
 unhideNode
 (
@@ -860,9 +865,7 @@ node
 }
 else
 {
-markupView
-.
-walker
+walkerFront
 .
 hideNode
 (
