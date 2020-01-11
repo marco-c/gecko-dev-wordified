@@ -577,7 +577,7 @@ nsAString
 aEventName
 )
 ;
-nsresult
+void
 UpdateAdded
 (
 nsIOfflineCacheUpdate
