@@ -2865,9 +2865,7 @@ this
 .
 contentWindow
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 getActor
 (

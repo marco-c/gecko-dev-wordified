@@ -1279,11 +1279,10 @@ likely
 was
 )
 .
+void
 window
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 getActor
 (
