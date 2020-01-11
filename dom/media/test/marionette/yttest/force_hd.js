@@ -66,8 +66,6 @@ for
 ytb
 "
 type
-:
-function
 (
 t
 )
@@ -98,8 +96,6 @@ lq
 ;
 }
 quality
-:
-function
 (
 )
 {
