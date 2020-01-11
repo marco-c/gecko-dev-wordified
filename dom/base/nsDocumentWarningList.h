@@ -179,3 +179,7 @@ DOCUMENT_WARNING
 (
 SVGRefChainLengthExceeded
 )
+DOCUMENT_WARNING
+(
+NotificationsRequireUserGestureDeprecation
+)
