@@ -1413,7 +1413,7 @@ parseInterfaceArrayBinding
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1436,7 +1436,7 @@ parseInterfaceBindingIdentifier
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1459,7 +1459,7 @@ parseInterfaceObjectBinding
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1677,7 +1677,7 @@ parseInterfaceArrayExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1700,7 +1700,7 @@ parseInterfaceAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1723,7 +1723,7 @@ parseInterfaceAwaitExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1746,7 +1746,7 @@ parseInterfaceBinaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1769,7 +1769,7 @@ parseInterfaceCallExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1792,7 +1792,7 @@ parseInterfaceClassExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1815,7 +1815,7 @@ parseInterfaceCompoundAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1838,7 +1838,7 @@ parseInterfaceComputedMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1861,7 +1861,7 @@ parseInterfaceConditionalExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1884,7 +1884,7 @@ parseInterfaceEagerArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1907,7 +1907,7 @@ parseInterfaceEagerArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1930,7 +1930,7 @@ parseInterfaceEagerFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1953,7 +1953,7 @@ parseInterfaceIdentifierExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1976,7 +1976,7 @@ parseInterfaceLazyArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -1999,7 +1999,7 @@ parseInterfaceLazyArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2022,7 +2022,7 @@ parseInterfaceLazyFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2045,7 +2045,7 @@ parseInterfaceLiteralBooleanExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2068,7 +2068,7 @@ parseInterfaceLiteralInfinityExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2091,7 +2091,7 @@ parseInterfaceLiteralNullExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2114,7 +2114,7 @@ parseInterfaceLiteralNumericExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2137,7 +2137,7 @@ parseInterfaceLiteralRegExpExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2160,7 +2160,7 @@ parseInterfaceLiteralStringExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2183,7 +2183,7 @@ parseInterfaceNewExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2206,7 +2206,7 @@ parseInterfaceNewTargetExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2229,7 +2229,7 @@ parseInterfaceObjectExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2252,7 +2252,7 @@ parseInterfaceStaticMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2275,7 +2275,7 @@ parseInterfaceTemplateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2298,7 +2298,7 @@ parseInterfaceThisExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2321,7 +2321,7 @@ parseInterfaceUnaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2344,7 +2344,7 @@ parseInterfaceUpdateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2367,7 +2367,7 @@ parseInterfaceYieldExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2390,7 +2390,7 @@ parseInterfaceYieldStarExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2609,7 +2609,7 @@ parseInterfaceArrayExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2632,7 +2632,7 @@ parseInterfaceAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2655,7 +2655,7 @@ parseInterfaceAwaitExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2678,7 +2678,7 @@ parseInterfaceBinaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2701,7 +2701,7 @@ parseInterfaceCallExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2724,7 +2724,7 @@ parseInterfaceClassExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2747,7 +2747,7 @@ parseInterfaceCompoundAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2770,7 +2770,7 @@ parseInterfaceComputedMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2793,7 +2793,7 @@ parseInterfaceConditionalExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2816,7 +2816,7 @@ parseInterfaceEagerArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2839,7 +2839,7 @@ parseInterfaceEagerArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2862,7 +2862,7 @@ parseInterfaceEagerFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2885,7 +2885,7 @@ parseInterfaceIdentifierExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2908,7 +2908,7 @@ parseInterfaceLazyArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2931,7 +2931,7 @@ parseInterfaceLazyArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2954,7 +2954,7 @@ parseInterfaceLazyFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -2977,7 +2977,7 @@ parseInterfaceLiteralBooleanExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3000,7 +3000,7 @@ parseInterfaceLiteralInfinityExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3023,7 +3023,7 @@ parseInterfaceLiteralNullExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3046,7 +3046,7 @@ parseInterfaceLiteralNumericExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3069,7 +3069,7 @@ parseInterfaceLiteralRegExpExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3092,7 +3092,7 @@ parseInterfaceLiteralStringExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3115,7 +3115,7 @@ parseInterfaceNewExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3138,7 +3138,7 @@ parseInterfaceNewTargetExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3161,7 +3161,7 @@ parseInterfaceObjectExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3204,7 +3204,7 @@ parseInterfaceStaticMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3227,7 +3227,7 @@ parseInterfaceTemplateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3250,7 +3250,7 @@ parseInterfaceThisExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3273,7 +3273,7 @@ parseInterfaceUnaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3296,7 +3296,7 @@ parseInterfaceUpdateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3319,7 +3319,7 @@ parseInterfaceYieldExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3342,7 +3342,7 @@ parseInterfaceYieldStarExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3561,7 +3561,7 @@ parseInterfaceArrayExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3584,7 +3584,7 @@ parseInterfaceAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3607,7 +3607,7 @@ parseInterfaceAwaitExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3630,7 +3630,7 @@ parseInterfaceBinaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3653,7 +3653,7 @@ parseInterfaceCallExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3676,7 +3676,7 @@ parseInterfaceClassExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3699,7 +3699,7 @@ parseInterfaceCompoundAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3722,7 +3722,7 @@ parseInterfaceComputedMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3745,7 +3745,7 @@ parseInterfaceConditionalExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3768,7 +3768,7 @@ parseInterfaceEagerArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3791,7 +3791,7 @@ parseInterfaceEagerArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3814,7 +3814,7 @@ parseInterfaceEagerFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3837,7 +3837,7 @@ parseInterfaceIdentifierExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3860,7 +3860,7 @@ parseInterfaceLazyArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3883,7 +3883,7 @@ parseInterfaceLazyArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3906,7 +3906,7 @@ parseInterfaceLazyFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3929,7 +3929,7 @@ parseInterfaceLiteralBooleanExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3952,7 +3952,7 @@ parseInterfaceLiteralInfinityExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3975,7 +3975,7 @@ parseInterfaceLiteralNullExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -3998,7 +3998,7 @@ parseInterfaceLiteralNumericExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4021,7 +4021,7 @@ parseInterfaceLiteralRegExpExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4044,7 +4044,7 @@ parseInterfaceLiteralStringExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4067,7 +4067,7 @@ parseInterfaceNewExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4090,7 +4090,7 @@ parseInterfaceNewTargetExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4113,7 +4113,7 @@ parseInterfaceObjectExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4136,7 +4136,7 @@ parseInterfaceStaticMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4179,7 +4179,7 @@ parseInterfaceTemplateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4202,7 +4202,7 @@ parseInterfaceThisExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4225,7 +4225,7 @@ parseInterfaceUnaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4248,7 +4248,7 @@ parseInterfaceUpdateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4271,7 +4271,7 @@ parseInterfaceYieldExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4294,7 +4294,7 @@ parseInterfaceYieldStarExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4379,7 +4379,7 @@ parseInterfaceArrayExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4402,7 +4402,7 @@ parseInterfaceAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4425,7 +4425,7 @@ parseInterfaceAwaitExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4448,7 +4448,7 @@ parseInterfaceBinaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4471,7 +4471,7 @@ parseInterfaceCallExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4494,7 +4494,7 @@ parseInterfaceClassExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4517,7 +4517,7 @@ parseInterfaceCompoundAssignmentExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4540,7 +4540,7 @@ parseInterfaceComputedMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4563,7 +4563,7 @@ parseInterfaceConditionalExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4586,7 +4586,7 @@ parseInterfaceEagerArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4609,7 +4609,7 @@ parseInterfaceEagerArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4632,7 +4632,7 @@ parseInterfaceEagerFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4655,7 +4655,7 @@ parseInterfaceIdentifierExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4678,7 +4678,7 @@ parseInterfaceLazyArrowExpressionWithExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4701,7 +4701,7 @@ parseInterfaceLazyArrowExpressionWithFunctionBody
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4724,7 +4724,7 @@ parseInterfaceLazyFunctionExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4747,7 +4747,7 @@ parseInterfaceLiteralBooleanExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4770,7 +4770,7 @@ parseInterfaceLiteralInfinityExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4793,7 +4793,7 @@ parseInterfaceLiteralNullExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4816,7 +4816,7 @@ parseInterfaceLiteralNumericExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4839,7 +4839,7 @@ parseInterfaceLiteralRegExpExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4862,7 +4862,7 @@ parseInterfaceLiteralStringExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4885,7 +4885,7 @@ parseInterfaceNewExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4908,7 +4908,7 @@ parseInterfaceNewTargetExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4931,7 +4931,7 @@ parseInterfaceObjectExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4954,7 +4954,7 @@ parseInterfaceStaticMemberExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -4977,7 +4977,7 @@ parseInterfaceTemplateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5000,7 +5000,7 @@ parseInterfaceThisExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5023,7 +5023,7 @@ parseInterfaceUnaryExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5046,7 +5046,7 @@ parseInterfaceUpdateExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5069,7 +5069,7 @@ parseInterfaceVariableDeclaration
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5092,7 +5092,7 @@ parseInterfaceYieldExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5115,7 +5115,7 @@ parseInterfaceYieldStarExpression
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -5505,7 +5505,7 @@ Tok
 parseParameter
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -5608,7 +5608,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -6466,7 +6466,7 @@ Tok
 parseStatement
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -6569,7 +6569,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -7205,7 +7205,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -7262,7 +7262,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -10481,7 +10481,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -10809,7 +10809,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -10866,7 +10866,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -11517,7 +11517,7 @@ Tok
 parseBindingIdentifier
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -11641,7 +11641,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -11790,7 +11790,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -11858,7 +11858,7 @@ Tok
 parseBlock
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -11982,7 +11982,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -12183,7 +12183,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -12450,7 +12450,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -13122,7 +13122,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseBlock
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -13216,7 +13216,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -13273,7 +13273,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -13330,7 +13330,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -13839,7 +13839,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -14051,7 +14051,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -14218,7 +14218,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -14727,7 +14727,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -15059,7 +15059,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -15161,7 +15161,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -15229,7 +15229,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -15288,7 +15288,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -15347,7 +15347,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -15525,7 +15525,7 @@ BINJS_MOZ_TRY_DECL
 name
 parseBindingIdentifier
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -15735,7 +15735,7 @@ length
 params
 &
 body
-Context
+FieldOrRootContext
 (
 FieldContext
 (
@@ -15858,7 +15858,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -16243,7 +16243,7 @@ length
 params
 &
 body
-Context
+FieldOrRootContext
 (
 FieldContext
 (
@@ -17196,7 +17196,7 @@ length
 params
 &
 body
-Context
+FieldOrRootContext
 (
 FieldContext
 (
@@ -17784,7 +17784,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -17873,7 +17873,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -18269,7 +18269,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -18459,7 +18459,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -18591,7 +18591,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -18648,7 +18648,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -18865,7 +18865,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -19317,7 +19317,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -19453,7 +19453,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -19812,7 +19812,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -19948,7 +19948,7 @@ ListNode
 *
 bodyOut
 const
-Context
+FieldOrRootContext
 &
 context
 )
@@ -20582,7 +20582,7 @@ Tok
 parseIdentifierExpression
 (
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -20706,7 +20706,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -20883,7 +20883,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -20976,7 +20976,7 @@ BINJS_MOZ_TRY_DECL
 consequent
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -21054,7 +21054,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -21181,7 +21181,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -21248,7 +21248,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -21307,7 +21307,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -21366,7 +21366,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -21548,7 +21548,7 @@ BINJS_MOZ_TRY_DECL
 name
 parseBindingIdentifier
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -21760,7 +21760,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -22322,7 +22322,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -22459,7 +22459,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -22518,7 +22518,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -22607,7 +22607,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -22936,7 +22936,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -23251,7 +23251,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -23451,7 +23451,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -23614,7 +23614,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -23732,7 +23732,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -23789,7 +23789,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -23910,7 +23910,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -24603,7 +24603,7 @@ BINJS_MOZ_TRY_DECL
 param
 parseParameter
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -24799,7 +24799,7 @@ BINJS_MOZ_TRY_DECL
 name
 parseIdentifierExpression
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -25166,7 +25166,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -25956,7 +25956,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -26136,7 +26136,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -26411,7 +26411,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -26470,7 +26470,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -26670,7 +26670,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -26804,7 +26804,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -26917,7 +26917,7 @@ MOZ_TRY_VAR
 body
 parseBlock
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -27002,7 +27002,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -27119,7 +27119,7 @@ MOZ_TRY_VAR
 body
 parseBlock
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -27192,7 +27192,7 @@ MOZ_TRY_VAR
 finalizer
 parseBlock
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -27256,7 +27256,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -27628,7 +27628,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -27851,7 +27851,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -28530,7 +28530,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -28632,7 +28632,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -28694,7 +28694,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -28796,7 +28796,7 @@ BINJS_MOZ_TRY_DECL
 body
 parseStatement
 (
-Context
+FieldOrListContext
 (
 FieldContext
 (
@@ -28870,7 +28870,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -28927,7 +28927,7 @@ BinASTFields
 &
 fields
 const
-Context
+FieldOrListContext
 &
 context
 )
@@ -30502,7 +30502,7 @@ BINJS_MOZ_TRY_DECL
 item
 parseStatement
 (
-Context
+FieldOrListContext
 (
 childContext
 )
@@ -31608,7 +31608,7 @@ BINJS_MOZ_TRY_DECL
 item
 parseParameter
 (
-Context
+FieldOrListContext
 (
 childContext
 )
@@ -31763,7 +31763,7 @@ BINJS_MOZ_TRY_DECL
 item
 parseStatement
 (
-Context
+FieldOrListContext
 (
 childContext
 )
@@ -32313,7 +32313,7 @@ parseInterfaceBindingIdentifier
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )
@@ -32930,7 +32930,7 @@ parseSumStatement
 start
 kind
 fields
-Context
+FieldOrListContext
 (
 context
 )

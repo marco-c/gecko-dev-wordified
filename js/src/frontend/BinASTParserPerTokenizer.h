@@ -410,12 +410,12 @@ BinASTTokenReaderBase
 RootContext
 ;
 using
-Context
+FieldOrRootContext
 =
 BinASTTokenReaderBase
 :
 :
-Context
+FieldOrRootContext
 ;
 public
 :
