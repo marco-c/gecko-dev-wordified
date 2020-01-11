@@ -15616,9 +15616,6 @@ theme_name
 )
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GTK
 /
 /
 A
@@ -15657,8 +15654,6 @@ skip_display_close
 =
 true
 ;
-#
-endif
 bool
 buggyCairoShutdown
 =
