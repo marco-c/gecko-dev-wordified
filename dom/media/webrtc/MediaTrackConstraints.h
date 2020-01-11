@@ -119,17 +119,6 @@ mozilla
 /
 dom
 /
-MediaTrackConstraintSetBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 MediaTrackSupportedConstraintsBinding
 .
 h
