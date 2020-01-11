@@ -1640,10 +1640,7 @@ p
 >
 uc_mcontext
 .
-regs
-[
-31
-]
+sp
 )
 #
 endif
