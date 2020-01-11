@@ -176,8 +176,6 @@ require
 /
 modules
 /
-application
--
 services
 "
 )

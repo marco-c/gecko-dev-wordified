@@ -99,8 +99,6 @@ src
 /
 modules
 /
-application
--
 services
 "
 )
