@@ -3612,6 +3612,17 @@ CleanupWindowEffects
 override
 ;
 virtual
+bool
+WidgetPaintsBackground
+(
+)
+override
+{
+return
+true
+;
+}
+virtual
 void
 AddWindowOverlayWebRenderCommands
 (
