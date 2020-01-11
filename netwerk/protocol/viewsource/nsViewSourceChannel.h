@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsICrossProcessSwitchChannel
-.
-h
-"
-#
-include
-"
 nsIFormPOSTActionChannel
 .
 h
@@ -214,8 +207,6 @@ public
 nsIApplicationCacheChannel
 public
 nsIFormPOSTActionChannel
-public
-nsIProcessSwitchRequestor
 {
 public
 :
@@ -227,7 +218,6 @@ NS_DECL_NSIVIEWSOURCECHANNEL
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIHTTPCHANNEL
-NS_DECL_NSIPROCESSSWITCHREQUESTOR
 NS_FORWARD_SAFE_NSICACHEINFOCHANNEL
 (
 mCacheInfoChannel
@@ -511,14 +501,6 @@ mOpened
 ;
 bool
 mIsSrcdocChannel
-;
-private
-:
-bool
-IsNsHttpChannel
-(
-)
-const
 ;
 }
 ;
