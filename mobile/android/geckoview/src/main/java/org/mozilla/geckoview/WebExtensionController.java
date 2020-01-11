@@ -395,7 +395,7 @@ Port
 DisconnectDelegate
 WebExtension
 .
-DelegateObserver
+DelegateController
 {
 private
 boolean
@@ -510,7 +510,7 @@ Override
 /
 WebExtension
 .
-DelegateObserver
+DelegateController
 public
 void
 onMessageDelegate
@@ -587,7 +587,7 @@ Override
 /
 WebExtension
 .
-DelegateObserver
+DelegateController
 public
 void
 onActionDelegate
@@ -2823,7 +2823,7 @@ webExtension
 {
 webExtension
 .
-setDelegateObserver
+setDelegateController
 (
 mInternals
 )
@@ -3844,7 +3844,7 @@ id
 ;
 webExtension
 .
-setDelegateObserver
+setDelegateController
 (
 null
 )
