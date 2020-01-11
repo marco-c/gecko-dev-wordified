@@ -27532,6 +27532,7 @@ mInsertStatement
 ;
 UpdateRefcountFunction
 *
+const
 mFunction
 ;
 nsresult
