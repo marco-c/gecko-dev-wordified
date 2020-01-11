@@ -56,7 +56,7 @@ TrustedTypePolicyFactory
 '
 window
 .
-TrustedTypes
+trustedTypes
 '
 ]
 TrustedTypePolicy
@@ -65,7 +65,7 @@ TrustedTypePolicy
 '
 window
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -89,7 +89,7 @@ TrustedHTML
 '
 window
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -121,7 +121,7 @@ TrustedScript
 '
 window
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -153,7 +153,7 @@ TrustedScriptURL
 '
 window
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
@@ -185,7 +185,7 @@ TrustedURL
 '
 window
 .
-TrustedTypes
+trustedTypes
 .
 createPolicy
 (
