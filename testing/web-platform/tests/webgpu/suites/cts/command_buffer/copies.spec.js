@@ -208,9 +208,7 @@ t
 .
 device
 .
-getQueue
-(
-)
+defaultQueue
 .
 submit
 (
@@ -480,9 +478,7 @@ t
 .
 device
 .
-getQueue
-(
-)
+defaultQueue
 .
 submit
 (
@@ -828,9 +824,7 @@ t
 .
 device
 .
-getQueue
-(
-)
+defaultQueue
 .
 submit
 (

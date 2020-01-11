@@ -116,9 +116,7 @@ t
 .
 device
 .
-getQueue
-(
-)
+defaultQueue
 .
 submit
 (
