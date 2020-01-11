@@ -734,10 +734,6 @@ mAlwaysOnTop
 (
 false
 )
-mPIPWindow
-(
-false
-)
 {
 }
 nsWindowType
@@ -913,14 +909,6 @@ mHasRemoteContent
 ;
 bool
 mAlwaysOnTop
-;
-/
-/
-Is
-PictureInPicture
-window
-bool
-mPIPWindow
 ;
 }
 ;
