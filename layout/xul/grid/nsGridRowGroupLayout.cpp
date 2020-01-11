@@ -1170,10 +1170,6 @@ GetNextXULBox
 child
 )
 ;
-deepChild
-=
-child
-;
 continue
 ;
 }
@@ -1348,10 +1344,6 @@ GetNextXULBox
 (
 child
 )
-;
-deepChild
-=
-child
 ;
 continue
 ;
