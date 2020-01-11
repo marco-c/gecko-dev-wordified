@@ -134,7 +134,8 @@ code
 generated
 from
 the
-XBL
+XUL
+.
 let
 scriptLines
 =
