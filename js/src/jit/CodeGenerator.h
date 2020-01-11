@@ -393,6 +393,9 @@ class
 OutOfLineZeroIfNaN
 ;
 class
+OutOfLineTypedArrayIndexToInt32
+;
+class
 CodeGenerator
 final
 :
@@ -816,6 +819,14 @@ void
 visitOutOfLineNewObject
 (
 OutOfLineNewObject
+*
+ool
+)
+;
+void
+visitOutOfLineTypedArrayIndexToInt32
+(
+OutOfLineTypedArrayIndexToInt32
 *
 ool
 )
