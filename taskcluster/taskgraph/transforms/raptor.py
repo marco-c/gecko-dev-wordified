@@ -323,6 +323,12 @@ optionally_keyed_by
 app
 '
         
+'
+test
+-
+name
+'
+        
 test_description_schema
 [
 '
