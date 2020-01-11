@@ -704,7 +704,7 @@ aStride
 *
 aSize
 .
-width
+height
 )
 /
 1024
