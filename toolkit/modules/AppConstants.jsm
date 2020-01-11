@@ -712,17 +712,6 @@ else
 false
 #
 endif
-MOZ_GRAPHENE
-:
-#
-ifdef
-MOZ_GRAPHENE
-true
-#
-else
-false
-#
-endif
 MOZ_SYSTEM_NSS
 :
 #
