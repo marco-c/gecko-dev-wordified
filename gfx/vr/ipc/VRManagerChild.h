@@ -526,6 +526,12 @@ IsCreated
 (
 )
 ;
+static
+bool
+IsPresenting
+(
+)
+;
 PVRLayerChild
 *
 CreateVRLayer

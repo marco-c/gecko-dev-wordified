@@ -316,6 +316,11 @@ TimeDuration
 aTimeout
 )
 ;
+bool
+IsPresenting
+(
+)
+;
 protected
 :
 virtual
