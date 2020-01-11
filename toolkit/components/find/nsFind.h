@@ -245,9 +245,6 @@ mFindBackward
 bool
 mCaseSensitive
 ;
-bool
-mMatchDiacritics
-;
 /
 /
 Use

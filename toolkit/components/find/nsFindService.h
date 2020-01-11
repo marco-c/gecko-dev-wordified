@@ -220,8 +220,5 @@ mEntireWord
 bool
 mMatchCase
 ;
-bool
-mMatchDiacritics
-;
 }
 ;

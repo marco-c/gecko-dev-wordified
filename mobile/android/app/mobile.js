@@ -2763,16 +2763,6 @@ enabled
 false
 )
 ;
-pref
-(
-"
-findbar
-.
-matchdiacritics
-"
-0
-)
-;
 /
 /
 Whether

@@ -1754,16 +1754,6 @@ wholeWord
 ;
 finder
 .
-matchDiacritics
-=
-!
-!
-aData
-.
-matchDiacritics
-;
-finder
-.
 addResultListener
 (
 this
