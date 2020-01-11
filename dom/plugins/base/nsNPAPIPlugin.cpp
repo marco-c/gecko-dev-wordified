@@ -8241,7 +8241,11 @@ result
 =
 nullptr
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

@@ -3633,7 +3633,11 @@ GetProducerId
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

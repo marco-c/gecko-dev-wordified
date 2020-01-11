@@ -1547,7 +1547,11 @@ pos
 -
 -
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

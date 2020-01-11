@@ -10743,7 +10743,11 @@ id
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /
@@ -26618,7 +26622,11 @@ rhsId
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /

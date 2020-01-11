@@ -24321,7 +24321,11 @@ click
 .
 .
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -24447,7 +24451,11 @@ isMovingBack
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 NS_VK_DOWN

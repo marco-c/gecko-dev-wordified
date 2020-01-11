@@ -683,7 +683,11 @@ int64_t
 case
 otherwise
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -758,7 +762,11 @@ double
 case
 otherwise
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

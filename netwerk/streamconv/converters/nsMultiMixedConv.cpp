@@ -3291,7 +3291,11 @@ mParserState
 =
 BODY
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 BODY

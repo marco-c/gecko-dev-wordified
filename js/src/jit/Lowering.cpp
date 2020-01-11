@@ -15042,7 +15042,11 @@ MToFPInstruction
 NumbersOnly
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 MIRType
@@ -15332,7 +15336,11 @@ MToFPInstruction
 NumbersOnly
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 MIRType

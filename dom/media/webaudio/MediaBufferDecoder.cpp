@@ -4026,7 +4026,11 @@ runtime
 case
 UnknownError
 :
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

@@ -733,7 +733,11 @@ mState
 MANY
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 MANY

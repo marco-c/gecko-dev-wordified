@@ -5689,7 +5689,11 @@ type
 TYPE_LONG
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 '

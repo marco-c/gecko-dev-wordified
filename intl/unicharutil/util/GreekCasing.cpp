@@ -1038,7 +1038,11 @@ to
 strip
 the
 accent
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 GREEK_LOWER_ETA_OXIA

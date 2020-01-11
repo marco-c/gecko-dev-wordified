@@ -957,7 +957,11 @@ Append
 '
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

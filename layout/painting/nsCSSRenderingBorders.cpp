@@ -10839,7 +10839,11 @@ k
 =
 1
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 BorderColorStyleDark

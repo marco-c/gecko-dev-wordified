@@ -25518,7 +25518,11 @@ fall
 through
 to
 solid
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 StyleBorderStyle

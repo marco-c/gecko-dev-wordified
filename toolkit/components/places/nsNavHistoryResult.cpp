@@ -13861,7 +13861,11 @@ will
 still
 match
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -14024,7 +14028,11 @@ QUERYUPDATE_SIMPLE
 case
 below
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

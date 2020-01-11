@@ -12521,7 +12521,11 @@ break
 }
 #
 endif
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

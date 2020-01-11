@@ -1146,7 +1146,11 @@ return
 false
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 PARTIAL_CLOCK_VALUE

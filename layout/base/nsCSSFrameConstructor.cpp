@@ -29938,7 +29938,11 @@ return
 data
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

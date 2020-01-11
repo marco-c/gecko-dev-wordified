@@ -11805,7 +11805,11 @@ mPreserveStream
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /

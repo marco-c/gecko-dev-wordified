@@ -7528,7 +7528,11 @@ RemovePrefForDriverVersion
 )
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 nsIGfxInfo

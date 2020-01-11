@@ -15189,7 +15189,11 @@ nullptr
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 #
 endif
@@ -15474,7 +15478,11 @@ through
 to
 RETURN
 case
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 KeyboardEvent_Binding

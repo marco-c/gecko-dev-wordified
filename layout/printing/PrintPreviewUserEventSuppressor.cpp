@@ -1110,7 +1110,11 @@ result
 }
 }
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eEventAction_Suppress

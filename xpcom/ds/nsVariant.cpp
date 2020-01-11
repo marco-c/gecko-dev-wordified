@@ -2167,7 +2167,11 @@ aOutIID
 aInIID
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 nsIDataType
@@ -4586,7 +4590,11 @@ logic
 "
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /

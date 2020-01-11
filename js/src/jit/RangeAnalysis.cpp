@@ -2188,7 +2188,11 @@ same
 as
 JSOP_EQ
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 JSOP_EQ
@@ -2247,7 +2251,11 @@ same
 as
 JSOP_NE
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 JSOP_NE

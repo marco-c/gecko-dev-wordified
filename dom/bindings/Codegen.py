@@ -64934,7 +64934,11 @@ append
 CGGeneric
 (
 "
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 \
 n

@@ -1033,7 +1033,11 @@ break
 case
 NS_STYLE_ALIGN_STRETCH
 :
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /

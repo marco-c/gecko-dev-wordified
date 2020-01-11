@@ -17646,7 +17646,11 @@ behave
 like
 ROUND
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ff_round_w_fmt
@@ -18529,7 +18533,11 @@ behave
 like
 ROUND
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ff_round_w_fmt

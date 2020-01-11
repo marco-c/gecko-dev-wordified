@@ -1559,7 +1559,11 @@ p
 :
 0
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -1734,7 +1738,11 @@ p
 :
 0
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

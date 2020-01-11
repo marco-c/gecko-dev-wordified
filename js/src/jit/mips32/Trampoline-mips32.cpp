@@ -5444,7 +5444,11 @@ uint32_t
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 Type_Pointer
@@ -6136,7 +6140,11 @@ uint32_t
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 Type_Pointer

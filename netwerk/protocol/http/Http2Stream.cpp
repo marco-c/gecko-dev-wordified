@@ -10157,7 +10157,11 @@ ChangeState
 SENDING_BODY
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 SENDING_BODY

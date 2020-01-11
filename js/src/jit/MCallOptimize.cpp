@@ -21153,7 +21153,11 @@ return
 InliningStatus_NotInlined
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 TemporaryTypeSet

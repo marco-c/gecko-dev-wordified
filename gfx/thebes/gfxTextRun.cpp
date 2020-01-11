@@ -13363,7 +13363,11 @@ to
 the
 default
 case
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

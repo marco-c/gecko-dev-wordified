@@ -2281,7 +2281,11 @@ Fall
 through
 to
 abort
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 NS_ASSERT_ABORT

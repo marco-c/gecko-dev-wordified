@@ -14350,7 +14350,11 @@ into
 binary
 string
 case
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 kMsgTypeBinaryString

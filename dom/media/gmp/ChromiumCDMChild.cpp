@@ -5688,7 +5688,11 @@ kDecodeError
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 cdm
@@ -5732,7 +5736,11 @@ as
 an
 error
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

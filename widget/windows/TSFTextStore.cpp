@@ -32211,7 +32211,11 @@ return
 false
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 TextInputProcessorID

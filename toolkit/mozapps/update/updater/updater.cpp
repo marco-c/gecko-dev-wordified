@@ -27088,7 +27088,11 @@ remove
 as
 a
 file
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /
@@ -27375,7 +27379,11 @@ OK
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 FTS_ERR

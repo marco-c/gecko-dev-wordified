@@ -49364,7 +49364,11 @@ sLastKeyDownEventTargetElement
 nullptr
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :
@@ -52591,7 +52595,11 @@ aEvent
 mTimeStamp
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ePointerDown

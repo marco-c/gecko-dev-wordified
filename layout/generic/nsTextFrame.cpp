@@ -55503,7 +55503,11 @@ return
 false
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 HB_UNICODE_GENERAL_CATEGORY_DASH_PUNCTUATION

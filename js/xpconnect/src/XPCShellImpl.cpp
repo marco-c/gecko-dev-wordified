@@ -5566,7 +5566,11 @@ toggleWerror
 (
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /

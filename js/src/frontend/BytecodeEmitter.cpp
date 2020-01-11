@@ -7973,7 +7973,11 @@ empty
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /
@@ -59254,7 +59258,11 @@ return
 false
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ParseNodeKind

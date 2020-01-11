@@ -3170,7 +3170,11 @@ yuv
 >
 mCbCrStride
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 2
@@ -3219,7 +3223,11 @@ yuv
 >
 mCbCrStride
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 1

@@ -21918,7 +21918,11 @@ visibleRect
 =
 dirtyRect
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /
@@ -61983,7 +61987,11 @@ the
 eSelectWord
 case
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eSelectWord

@@ -3905,7 +3905,11 @@ to
 start
 alignment
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 StyleVerticalAlignKeyword

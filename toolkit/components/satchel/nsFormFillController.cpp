@@ -6179,7 +6179,11 @@ break
 ;
 }
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 KeyboardEvent_Binding

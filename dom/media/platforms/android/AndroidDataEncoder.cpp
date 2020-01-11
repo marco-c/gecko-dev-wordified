@@ -2540,7 +2540,11 @@ DrainState
 :
 DRAINING
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 DrainState
@@ -2571,7 +2575,11 @@ Pending
 promise
 .
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 DrainState

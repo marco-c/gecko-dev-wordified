@@ -25792,7 +25792,11 @@ chars
 ok
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 3

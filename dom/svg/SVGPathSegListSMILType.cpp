@@ -2572,7 +2572,11 @@ aResult
 aState
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 PATHSEG_CURVETO_QUADRATIC_ABS
@@ -2615,7 +2619,11 @@ aResult
 aState
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 PATHSEG_MOVETO_ABS

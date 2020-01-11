@@ -23289,7 +23289,11 @@ center
 per
 spec
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -24688,7 +24692,11 @@ fill
 the
 space
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

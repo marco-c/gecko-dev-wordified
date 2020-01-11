@@ -678,7 +678,11 @@ fGetInteger64v
 *
 *
 /
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 LOCAL_GL_MAX_COMBINED_FRAGMENT_UNIFORM_COMPONENTS

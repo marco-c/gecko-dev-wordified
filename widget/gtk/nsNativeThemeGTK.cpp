@@ -8709,7 +8709,11 @@ aFrame
 )
 break
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :
@@ -11515,7 +11519,11 @@ return
 false
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 StyleAppearance

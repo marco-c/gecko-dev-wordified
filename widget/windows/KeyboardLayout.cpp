@@ -12935,7 +12935,11 @@ eAllow
 )
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eKeyDownOnPlugin

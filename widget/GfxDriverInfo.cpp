@@ -1273,7 +1273,11 @@ clang
 -
 format
 on
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 IntelHDGraphicsToSandyBridge

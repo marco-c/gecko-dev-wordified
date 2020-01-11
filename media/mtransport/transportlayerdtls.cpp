@@ -4782,7 +4782,11 @@ messages
 so
 fall
 through
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 PR_WOULD_BLOCK_ERROR

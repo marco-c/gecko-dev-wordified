@@ -624,7 +624,11 @@ aIsSession
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 nsICookiePermission

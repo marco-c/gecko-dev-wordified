@@ -5478,7 +5478,11 @@ return
 nbytes
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 UD_OP_REG

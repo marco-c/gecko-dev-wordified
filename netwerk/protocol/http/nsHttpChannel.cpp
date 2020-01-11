@@ -18110,7 +18110,11 @@ CloseCacheEntry
 false
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 /
 /
