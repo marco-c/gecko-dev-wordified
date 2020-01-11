@@ -474,13 +474,6 @@ _run_pip
 install
 '
 '
--
--
-use
--
-wheel
-'
-'
 ipython
 '
 ]
