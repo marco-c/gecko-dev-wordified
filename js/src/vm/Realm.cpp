@@ -3568,15 +3568,12 @@ lazy
 fun
 -
 >
-maybeLazyScript
+lazyScript
 (
 )
 ;
 if
 (
-lazy
-&
-&
 lazy
 -
 >
