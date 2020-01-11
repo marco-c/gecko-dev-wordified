@@ -142,11 +142,12 @@ org
 ;
 Assert
 .
-greater
+ok
 (
 providers
 .
 length
+>
 1
 "
 There

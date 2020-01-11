@@ -4132,9 +4132,10 @@ SYSTEM_ADDON_ID
 }
 Assert
 .
-greater
+ok
 (
 num
+>
 1
 "
 should

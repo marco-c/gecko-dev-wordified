@@ -297,11 +297,12 @@ dateTImeFormatStyleNone
 {
 Assert
 .
-greater
+ok
 (
 pattern
 .
 length
+>
 0
 "
 pattern
