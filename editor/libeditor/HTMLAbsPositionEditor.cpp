@@ -89,13 +89,6 @@ h
 #
 include
 "
-TextEditUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 EditAction

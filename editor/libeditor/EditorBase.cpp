@@ -297,17 +297,6 @@ SplitNodeTransaction
 #
 include
 "
-TextEditUtils
-.
-h
-"
-/
-/
-for
-TextEditUtils
-#
-include
-"
 mozilla
 /
 CheckedInt
