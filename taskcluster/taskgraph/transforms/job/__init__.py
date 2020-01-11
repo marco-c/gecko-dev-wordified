@@ -1435,11 +1435,15 @@ if
 config
 .
 kind
-=
-=
+in
+(
 '
 toolchain
 '
+'
+fetch
+'
+)
 :
         
 jobs
@@ -1470,22 +1474,12 @@ run
             
 label
 =
-'
-toolchain
--
-{
-}
-'
-.
-format
-(
 job
 [
 '
-name
+label
 '
 ]
-)
             
 get_attribute
 (
@@ -1507,10 +1501,18 @@ run
 get
 (
 '
-toolchain
+{
+}
 -
 alias
 '
+.
+format
+(
+config
+.
+kind
+)
 )
             
 if
@@ -1520,7 +1522,8 @@ value
 aliases
 [
 '
-toolchain
+{
+}
 -
 {
 }
@@ -1528,6 +1531,9 @@ toolchain
 .
 format
 (
+config
+.
+kind
 value
 )
 ]
