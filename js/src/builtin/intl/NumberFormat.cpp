@@ -2709,9 +2709,10 @@ version
 expected
 #
 if
-__GLIBCXX__
+_GLIBCXX_RELEASE
 >
-20181026
+=
+7
 size_t
 length
 =
