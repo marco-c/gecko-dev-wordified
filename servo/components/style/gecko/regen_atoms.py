@@ -1088,7 +1088,7 @@ string_cache
 Atom
 :
 :
-from_index
+from_index_unchecked
 (
 {
 index
