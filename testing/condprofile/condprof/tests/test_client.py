@@ -16,22 +16,16 @@ condprof
 client
 import
 get_profile
+ROOT_URL
 PROFILE
 =
 re
 .
 compile
 (
+ROOT_URL
++
 "
-https
-:
-/
-/
-index
-.
-taskcluster
-.
-net
 /
 .
 *
@@ -487,9 +481,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 try
