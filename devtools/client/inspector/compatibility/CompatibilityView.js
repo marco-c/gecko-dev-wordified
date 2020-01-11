@@ -669,9 +669,6 @@ safari_ios
 "
 edge
 "
-"
-edge_mobile
-"
 ]
 ;
 const
