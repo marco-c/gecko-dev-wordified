@@ -9087,11 +9087,6 @@ frame
 .
 environment
 )
-generator
-:
-frame
-.
-generator
 constructing
 :
 frame

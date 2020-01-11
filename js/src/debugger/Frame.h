@@ -1070,14 +1070,6 @@ result
 )
 ;
 static
-bool
-getIsGenerator
-(
-HandleDebuggerFrame
-frame
-)
-;
-static
 MOZ_MUST_USE
 bool
 getOffset

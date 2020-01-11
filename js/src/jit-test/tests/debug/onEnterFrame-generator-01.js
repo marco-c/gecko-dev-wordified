@@ -373,14 +373,6 @@ assertEq
 (
 frame
 .
-generator
-true
-)
-;
-assertEq
-(
-frame
-.
 onStack
 true
 )

@@ -3,9 +3,6 @@
 Test
 .
 type
-and
-.
-generator
 fields
 of
 topmost
@@ -77,7 +74,9 @@ assertEq
 (
 f
 .
-generator
+script
+.
+isGeneratorFunction
 expected
 .
 generator
