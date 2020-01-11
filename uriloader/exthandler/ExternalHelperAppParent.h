@@ -190,6 +190,9 @@ URI
 /
 namespace
 IPC
+class
+nsExternalAppHandler
+;
 namespace
 mozilla
 {
@@ -342,9 +345,6 @@ const
 nsCString
 &
 entityID
-PBrowserParent
-*
-aBrowser
 )
 override
 ;
@@ -400,9 +400,6 @@ RecvDivertToParentUsing
 PChannelDiverterParent
 *
 diverter
-PBrowserParent
-*
-aBrowser
 )
 override
 ;
@@ -490,9 +487,13 @@ URIParams
 >
 &
 aReferrer
-PBrowserParent
+BrowsingContext
 *
-aBrowser
+aContext
+const
+bool
+&
+aShouldCloseWindow
 )
 ;
 protected
@@ -519,9 +520,9 @@ Delete
 ;
 private
 :
-nsCOMPtr
+RefPtr
 <
-nsIStreamListener
+nsExternalAppHandler
 >
 mListener
 ;

@@ -234,9 +234,6 @@ divertable
 nsIRequest
 *
 request
-BrowserChild
-*
-browserChild
 )
 ;
 RefPtr
