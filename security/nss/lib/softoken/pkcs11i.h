@@ -1583,9 +1583,6 @@ prev
 CK_SESSION_HANDLE
 handle
 ;
-int
-refCount
-;
 PZLock
 *
 objectLock
@@ -4301,6 +4298,15 @@ handle
 extern
 void
 sftk_FreeSession
+(
+SFTKSession
+*
+session
+)
+;
+extern
+void
+sftk_DestroySession
 (
 SFTKSession
 *
