@@ -34595,7 +34595,7 @@ JSFunction
 (
 )
 .
-nonLazyScript
+baseScript
 (
 )
 -
