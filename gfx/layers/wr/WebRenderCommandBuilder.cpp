@@ -9514,7 +9514,6 @@ filters
 >
 CanCreateWebRenderCommands
 (
-aDisplayListBuilder
 )
 ;
 }
