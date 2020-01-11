@@ -22998,6 +22998,8 @@ LazyScript
 *
 >
 lazy
+bool
+hasFieldInitializer
 )
 ;
 void
