@@ -710,7 +710,13 @@ offset
 (
 )
 const
+{
+return
+current_
+-
+start_
 ;
+}
 /
 /
 Set
