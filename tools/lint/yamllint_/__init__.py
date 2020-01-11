@@ -166,7 +166,7 @@ re
 .
 compile
 (
-r
+b
 '
 (
 .
@@ -343,7 +343,10 @@ path
 .
 relpath
 (
+str
+(
 abspath
+)
 self
 .
 config
@@ -358,7 +361,10 @@ root
 message
 '
 :
+str
+(
 message
+)
                
 '
 level
