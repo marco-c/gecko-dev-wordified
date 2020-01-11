@@ -106,7 +106,7 @@ enableApplicationPanel
 const
 {
 panel
-target
+toolbox
 }
 =
 await
@@ -248,7 +248,7 @@ worker
 await
 navigate
 (
-target
+toolbox
 OTHER_SCOPE_URL
 )
 ;
@@ -348,6 +348,8 @@ displayed
 await
 unregisterAllWorkers
 (
+toolbox
+.
 target
 .
 client
