@@ -2290,6 +2290,14 @@ window
 document
 )
 ;
+if
+(
+!
+window
+.
+closed
+)
+{
 runSafeSyncWithoutClone
 (
 winUtils
@@ -2299,6 +2307,7 @@ url
 type
 )
 ;
+}
 }
 const
 {
@@ -2320,6 +2329,14 @@ has
 (
 cssCodeHash
 )
+)
+{
+if
+(
+!
+window
+.
+closed
 )
 {
 this
@@ -2353,6 +2370,7 @@ type
 }
 )
 ;
+}
 this
 .
 cssCodeCache
