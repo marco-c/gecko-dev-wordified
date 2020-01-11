@@ -65,6 +65,7 @@ const
 {
 openToolboxAndLog
 closeToolboxAndLog
+isFissionEnabled
 testSetup
 testTeardown
 COMPLICATED_URL
@@ -99,6 +100,12 @@ helpers
 const
 EXPECTED_MESSAGES
 =
+isFissionEnabled
+(
+)
+?
+3
+:
 7
 ;
 module
