@@ -3044,6 +3044,11 @@ rv
 NS_ERROR_PORT_ACCESS_NOT_ALLOWED
 ;
 }
+void
+ReportContentTypeTelemetryForCrossOriginStylesheets
+(
+)
+;
 /
 /
 Report
