@@ -16369,7 +16369,7 @@ aContent
 aContent
 -
 >
-GetBindingParent
+GetClosestNativeAnonymousSubtreeRootParent
 (
 )
 ;
