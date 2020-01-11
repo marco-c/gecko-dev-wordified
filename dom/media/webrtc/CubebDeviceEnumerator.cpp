@@ -1272,6 +1272,12 @@ Clear
 (
 )
 ;
+MutexAutoUnlock
+unlock
+(
+mMutex
+)
+;
 GetDeviceCollection
 (
 devices
