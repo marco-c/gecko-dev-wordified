@@ -1851,6 +1851,15 @@ DocumentChannelRedirect
 >
 mRedirects
 ;
+nsString
+mSrcdocData
+;
+nsCOMPtr
+<
+nsIURI
+>
+mBaseURI
+;
 /
 /
 Flags
