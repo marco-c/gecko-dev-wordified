@@ -163,14 +163,14 @@ namespace
 mozilla
 {
 class
-DOMSVGTransformList
-;
-class
 SVGAnimatedTransformList
 ;
 namespace
 dom
 {
+class
+DOMSVGTransformList
+;
 /
 *
 *
@@ -300,9 +300,6 @@ nsWrapperCache
 {
 friend
 class
-mozilla
-:
-:
 DOMSVGTransformList
 ;
 public

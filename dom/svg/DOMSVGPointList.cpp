@@ -190,13 +190,6 @@ include
 <
 algorithm
 >
-using
-namespace
-mozilla
-:
-:
-dom
-;
 /
 /
 See
@@ -222,6 +215,9 @@ UpdateListIndicesFromIndex
 FallibleTArray
 <
 mozilla
+:
+:
+dom
 :
 :
 nsISVGPoint
@@ -286,6 +282,9 @@ i
 namespace
 namespace
 mozilla
+{
+namespace
+dom
 {
 static
 inline
@@ -3022,6 +3021,11 @@ aIndex
 )
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

@@ -150,6 +150,13 @@ keep
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+DOMSVGStringList
+;
+}
 /
 *
 *
@@ -172,6 +179,9 @@ SVGStringList
 {
 friend
 class
+dom
+:
+:
 DOMSVGStringList
 ;
 public

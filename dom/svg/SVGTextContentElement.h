@@ -158,14 +158,14 @@ SVGTextFrame
 namespace
 mozilla
 {
-class
-nsISVGPoint
-;
 namespace
 dom
 {
 struct
 DOMPointInit
+;
+class
+nsISVGPoint
 ;
 class
 SVGRect

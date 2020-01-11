@@ -414,9 +414,6 @@ global
 namespace
 NS_INTERFACE_MAP_ENTRY
 (
-mozilla
-:
-:
 nsISVGPoint
 )
 NS_INTERFACE_MAP_ENTRY

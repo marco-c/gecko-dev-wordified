@@ -188,11 +188,6 @@ SVGMatrix
 class
 DOMSVGTransform
 ;
-}
-/
-/
-namespace
-dom
 /
 *
 *
@@ -1119,6 +1114,11 @@ mAList
 ;
 }
 ;
+}
+/
+/
+namespace
+dom
 }
 /
 /

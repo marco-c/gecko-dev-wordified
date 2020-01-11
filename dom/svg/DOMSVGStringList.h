@@ -161,6 +161,9 @@ ErrorResult
 class
 SVGStringList
 ;
+namespace
+dom
+{
 /
 *
 *
@@ -784,6 +787,11 @@ mIsConditionalProcessingAttribute
 ;
 }
 ;
+}
+/
+/
+namespace
+dom
 }
 /
 /

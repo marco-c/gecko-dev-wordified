@@ -192,10 +192,9 @@ header
 namespace
 mozilla
 {
-using
 namespace
 dom
-;
+{
 static
 inline
 SVGAttrTearoffTable
@@ -1220,6 +1219,11 @@ mAttrEnum
 ]
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

@@ -189,11 +189,6 @@ SVGElement
 class
 SVGMatrix
 ;
-}
-/
-/
-namespace
-dom
 /
 *
 *
@@ -571,9 +566,6 @@ nsISVGPoint
 >
 MatrixTransform
 (
-dom
-:
-:
 SVGMatrix
 &
 matrix
@@ -609,9 +601,6 @@ this
 }
 protected
 :
-dom
-:
-:
 SVGElement
 *
 Element
@@ -629,6 +618,11 @@ Element
 }
 }
 ;
+}
+/
+/
+namespace
+dom
 }
 /
 /

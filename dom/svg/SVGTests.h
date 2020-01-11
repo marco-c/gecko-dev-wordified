@@ -157,9 +157,13 @@ nsStaticAtom
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
 DOMSVGStringList
 ;
+}
 #
 define
 MOZILLA_DOMSVGTESTS_IID
@@ -207,7 +211,7 @@ SVGTests
 ;
 friend
 class
-mozilla
+dom
 :
 :
 DOMSVGStringList

@@ -187,13 +187,6 @@ RefPtr
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 /
 /
 See
@@ -208,6 +201,9 @@ header
 .
 namespace
 mozilla
+{
+namespace
+dom
 {
 static
 inline
@@ -4160,6 +4156,11 @@ i
 }
 }
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

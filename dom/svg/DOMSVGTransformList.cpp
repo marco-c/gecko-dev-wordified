@@ -261,10 +261,9 @@ namespace
 namespace
 mozilla
 {
-using
 namespace
 dom
-;
+{
 /
 /
 We
@@ -2967,6 +2966,11 @@ aIndex
 )
 ;
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

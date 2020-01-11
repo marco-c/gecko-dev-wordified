@@ -146,12 +146,12 @@ h
 namespace
 mozilla
 {
-class
-DOMSVGPointList
-;
 namespace
 dom
 {
+class
+DOMSVGPointList
+;
 typedef
 SVGGeometryElement
 SVGPolyElementBase
@@ -329,9 +329,6 @@ override
 WebIDL
 already_AddRefed
 <
-mozilla
-:
-:
 DOMSVGPointList
 >
 Points
@@ -340,9 +337,6 @@ Points
 ;
 already_AddRefed
 <
-mozilla
-:
-:
 DOMSVGPointList
 >
 AnimatedPoints

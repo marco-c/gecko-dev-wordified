@@ -241,10 +241,6 @@ algorithm
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -259,6 +255,9 @@ mozilla
 :
 gfx
 ;
+namespace
+mozilla
+{
 static
 inline
 bool
@@ -8346,3 +8345,8 @@ aMallocSizeOf
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

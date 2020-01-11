@@ -163,6 +163,9 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 using
 namespace
 dom
@@ -3323,6 +3326,11 @@ nullptr
 ;
 }
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

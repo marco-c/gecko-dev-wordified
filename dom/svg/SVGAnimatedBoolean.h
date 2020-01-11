@@ -308,9 +308,6 @@ SVGElement
 aSVGElement
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 SMILAttr
@@ -429,9 +426,6 @@ nsAString
 &
 aStr
 const
-mozilla
-:
-:
 dom
 :
 :

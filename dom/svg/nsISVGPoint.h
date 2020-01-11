@@ -198,11 +198,6 @@ dom
 class
 SVGMatrix
 ;
-}
-/
-/
-namespace
-dom
 /
 *
 *
@@ -881,9 +876,6 @@ nsISVGPoint
 >
 MatrixTransform
 (
-dom
-:
-:
 SVGMatrix
 &
 matrix
@@ -912,9 +904,6 @@ aGivenProto
 override
 {
 return
-dom
-:
-:
 SVGPoint_Binding
 :
 :
@@ -1122,6 +1111,11 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsISVGPoint
 MOZILLA_NSISVGPOINT_IID
 )
+}
+/
+/
+namespace
+dom
 }
 /
 /

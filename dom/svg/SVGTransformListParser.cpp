@@ -158,10 +158,9 @@ nsAtom
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 /
 /
 -
@@ -1276,3 +1275,8 @@ return
 true
 ;
 }
+}
+/
+/
+namespace
+mozilla

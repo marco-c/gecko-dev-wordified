@@ -323,6 +323,9 @@ DOMSVGTransform
 ;
 friend
 class
+dom
+:
+:
 DOMSVGTransformList
 ;
 public

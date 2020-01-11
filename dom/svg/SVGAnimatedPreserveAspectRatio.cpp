@@ -176,14 +176,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 /
 /
 /
@@ -1206,3 +1205,8 @@ return
 NS_OK
 ;
 }
+}
+/
+/
+namespace
+mozilla
