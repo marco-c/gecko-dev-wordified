@@ -433,7 +433,9 @@ the
 target
 for
 "
-target
+descriptor
+.
+actorID
 )
 ;
 return
@@ -700,6 +702,8 @@ target
 for
 "
 frame
+.
+actorID
 )
 ;
 continue
@@ -1575,6 +1579,8 @@ the
 TargetList
 "
 targetFront
+.
+actorID
 )
 ;
 }
