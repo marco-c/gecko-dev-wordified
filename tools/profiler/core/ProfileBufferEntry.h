@@ -3142,7 +3142,7 @@ number
 /
 /
 "
-responsiveness
+eventDelay
 "
 :
 2
@@ -3185,7 +3185,7 @@ time
 0
 .
 0
-responsiveness
+eventDelay
 :
 0
 .

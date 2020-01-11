@@ -21243,7 +21243,7 @@ localProfileBuffer
 /
 For
 "
-responsiveness
+eventDelay
 "
 we
 want
@@ -23561,15 +23561,17 @@ currentEventRunning
 /
 Note
 :
+eventDelay
+is
 a
 different
 definition
 of
+/
+/
 responsiveness
 than
 the
-/
-/
 16ms
 event
 injection
@@ -23642,7 +23644,7 @@ ToMilliseconds
 If
 we
 got
-responsiveness
+eventDelay
 data
 store
 it
