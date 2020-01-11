@@ -989,12 +989,15 @@ RasterizedBlobImage
 {
 data
 :
+Some
+(
 Arc
 :
 :
 new
 (
 texels
+)
 )
 rasterized_rect
 }
