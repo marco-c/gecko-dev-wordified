@@ -243,7 +243,7 @@ void
 SerializedStackHolder
 :
 :
-SerializeMainThreadStack
+SerializeMainThreadOrWorkletStack
 (
 JSContext
 *
@@ -257,7 +257,8 @@ aStack
 {
 MOZ_ASSERT
 (
-NS_IsMainThread
+!
+IsCurrentThreadRunningWorker
 (
 )
 )
@@ -424,7 +425,7 @@ NS_IsMainThread
 )
 )
 {
-SerializeMainThreadStack
+SerializeMainThreadOrWorkletStack
 (
 aCx
 stack
