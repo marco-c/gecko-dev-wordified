@@ -122,10 +122,7 @@ checkInvalid
 (
 invalidRefBlockType
 /
-invalid
-inline
-block
-type
+ref
 /
 )
 ;
@@ -157,10 +154,7 @@ checkInvalid
 (
 invalidTooBigRefType
 /
-invalid
-inline
-block
-type
+ref
 /
 )
 ;
