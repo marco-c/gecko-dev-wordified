@@ -2425,10 +2425,10 @@ WINDOW
 "
 window
 "
-CUSTOM
+BROWSERTOOLBOX
 :
 "
-custom
+browsertoolbox
 "
 /
 /
@@ -8686,7 +8686,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 :
 return
 3
@@ -8803,7 +8803,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 :
 return
 "
@@ -10793,7 +10793,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 |
 |
 position

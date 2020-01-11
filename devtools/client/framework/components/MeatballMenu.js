@@ -421,11 +421,9 @@ e
 .
 g
 .
-when
-it
-is
+for
 "
-custom
+browsertoolbox
 "
 )
 .

@@ -38,7 +38,7 @@ text
 /
 html
 test
-custom
+browsertoolbox
 host
 "
 ;
@@ -237,7 +237,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 options
 )
 ;
