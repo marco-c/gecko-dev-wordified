@@ -6572,6 +6572,13 @@ group
 =
 g
 ;
+AutoRealm
+ar
+(
+cx
+group
+)
+;
 {
 AutoReportException
 are
