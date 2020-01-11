@@ -379,7 +379,7 @@ GetProperty
 (
 cx
 iterableObj
-iterableObj
+iterable
 iteratorId
 &
 callee
