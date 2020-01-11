@@ -5154,7 +5154,7 @@ time
 expected
 :
 '
-visible
+hidden
 '
 }
 ]
