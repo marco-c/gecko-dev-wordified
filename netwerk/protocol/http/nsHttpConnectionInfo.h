@@ -523,10 +523,6 @@ bool
 endToEndSSL
 =
 false
-bool
-aIsHttp3
-=
-false
 )
 ;
 /
@@ -589,8 +585,6 @@ nsACString
 routedHost
 int32_t
 routedPort
-bool
-aIsHttp3
 )
 ;
 private
@@ -1704,16 +1698,6 @@ mLessThanTls13
 aLessThanTls13
 ;
 }
-bool
-IsHttp3
-(
-)
-const
-{
-return
-mIsHttp3
-;
-}
 private
 :
 /
@@ -1763,8 +1747,6 @@ bool
 endToEndSSL
 bool
 isolated
-bool
-aIsHttp3
 )
 ;
 nsHttpConnectionInfo
@@ -1802,8 +1784,6 @@ int32_t
 routedPort
 bool
 isolated
-bool
-aIsHttp3
 )
 ;
 void
@@ -1836,8 +1816,6 @@ OriginAttributes
 originAttributes
 bool
 EndToEndSSL
-bool
-aIsHttp3
 )
 ;
 void
@@ -1979,9 +1957,6 @@ will
 be
 false
 .
-bool
-mIsHttp3
-;
 /
 /
 for
