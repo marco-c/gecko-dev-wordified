@@ -13956,6 +13956,7 @@ browserBridge
 new
 BrowserBridgeChild
 (
+aFrameLoader
 aBrowsingContext
 tabId
 )
@@ -13986,7 +13987,6 @@ browserBridge
 >
 FinishInit
 (
-aFrameLoader
 )
 ;
 }

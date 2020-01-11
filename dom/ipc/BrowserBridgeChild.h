@@ -356,9 +356,6 @@ BrowserBridgeHost
 >
 FinishInit
 (
-nsFrameLoader
-*
-aFrameLoader
 )
 ;
 #
@@ -410,6 +407,9 @@ aContent
 ;
 BrowserBridgeChild
 (
+nsFrameLoader
+*
+aFrameLoader
 BrowsingContext
 *
 aBrowsingContext
