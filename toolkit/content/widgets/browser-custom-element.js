@@ -2433,10 +2433,10 @@ popupAnchor
 =
 document
 .
-createXULElement
+createElement
 (
 "
-hbox
+div
 "
 )
 ;
