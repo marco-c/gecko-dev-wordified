@@ -198,6 +198,13 @@ context
 )
 {
 }
+pickResult
+(
+result
+details
+)
+{
+}
 }
 add_task
 (

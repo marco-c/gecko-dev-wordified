@@ -848,4 +848,11 @@ context
 )
 {
 }
+pickResult
+(
+result
+details
+)
+{
+}
 }

@@ -632,4 +632,11 @@ context
 )
 {
 }
+pickResult
+(
+result
+details
+)
+{
+}
 }
