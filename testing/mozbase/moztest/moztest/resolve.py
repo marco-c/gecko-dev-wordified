@@ -88,15 +88,6 @@ MozbuildObject
 from
 mozbuild
 .
-frontend
-.
-reader
-import
-BuildReader
-EmptyConfig
-from
-mozbuild
-.
 util
 import
 OrderedDefaultDict
@@ -6179,20 +6170,17 @@ if
 changed_files
 :
             
-config
-=
-EmptyConfig
-(
-self
-.
-topsrcdir
-)
-            
 reader
 =
-BuildReader
+self
+.
+mozbuild_reader
 (
-config
+config_mode
+=
+'
+empty
+'
 )
             
 files_info
