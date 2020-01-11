@@ -1363,7 +1363,7 @@ aEvent
 nsIRunnablePriority
 :
 :
-PRIORITY_INPUT
+PRIORITY_INPUT_HIGH
 )
 {
 }
