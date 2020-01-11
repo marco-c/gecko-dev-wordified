@@ -794,6 +794,16 @@ entry
 StackCheck
 /
 /
+A
+callVM
+for
+an
+interrupt
+check
+.
+InterruptCheck
+/
+/
 DebugTrapHandler
 (
 for
