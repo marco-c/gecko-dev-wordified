@@ -170,10 +170,6 @@ accelerator
 Accelerator
 *
 -
-icon
-NativeImage
-*
--
 position
 String
 -
@@ -321,6 +317,9 @@ radio
 String
 label
 *
+String
+image
+*
 Boolean
 enabled
 *
@@ -459,6 +458,9 @@ label
 =
 "
 "
+image
+=
+null
 submenu
 =
 null
@@ -529,6 +531,12 @@ this
 label
 =
 label
+;
+this
+.
+image
+=
+image
 ;
 this
 .
