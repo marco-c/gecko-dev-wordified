@@ -1768,13 +1768,6 @@ uploadStream
 uploadStreamContentLength
 )
 ;
-internalRequest
--
->
-SetCreatedByFetchEvent
-(
-)
-;
 nsAutoCString
 alternativeDataType
 ;
