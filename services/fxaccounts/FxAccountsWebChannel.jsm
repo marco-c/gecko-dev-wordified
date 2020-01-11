@@ -3076,6 +3076,7 @@ getFxaStatus
 service
 sendingContext
 isPairing
+context
 )
 {
 let
@@ -3092,6 +3093,7 @@ shouldAllowFxaStatus
 service
 sendingContext
 isPairing
+context
 )
 )
 {
