@@ -3043,7 +3043,7 @@ config
 ;
 config
 .
-mBalanceColCount
+mUsedColCount
 =
 numColumns
 ;
@@ -3111,7 +3111,7 @@ this
 =
 %
 p
-mBalanceColCount
+mUsedColCount
 =
 %
 d
@@ -3142,7 +3142,7 @@ __func__
 this
 config
 .
-mBalanceColCount
+mUsedColCount
 config
 .
 mColISize
@@ -4160,7 +4160,7 @@ RTL
 =
 %
 d
-mBalanceColCount
+mUsedColCount
 =
 %
 d
@@ -4183,7 +4183,7 @@ mColMaxBSize
 isRTL
 aConfig
 .
-mBalanceColCount
+mUsedColCount
 aConfig
 .
 mColISize
@@ -4794,7 +4794,7 @@ columnCount
 =
 aConfig
 .
-mBalanceColCount
+mUsedColCount
 -
 1
 ;
@@ -6793,7 +6793,7 @@ columnCount
 =
 aConfig
 .
-mBalanceColCount
+mUsedColCount
 -
 1
 )
@@ -8511,7 +8511,7 @@ GetLength
 =
 aConfig
 .
-mBalanceColCount
+mUsedColCount
 )
 {
 aConfig
@@ -9001,7 +9001,7 @@ mSumBSize
 /
 aConfig
 .
-mBalanceColCount
+mUsedColCount
 +
 600
 ;
