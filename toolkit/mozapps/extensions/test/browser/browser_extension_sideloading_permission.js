@@ -135,6 +135,8 @@ enable
 addon
 -
 button
+-
+label
 "
 "
 Addon
@@ -202,6 +204,8 @@ enable
 addon
 -
 button
+-
+label
 "
 "
 Addon
