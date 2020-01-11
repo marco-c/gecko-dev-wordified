@@ -487,7 +487,7 @@ content
 docshell
 this
 .
-listenForNewDocShells
+watchNewDocShells
 =
 true
 ;
