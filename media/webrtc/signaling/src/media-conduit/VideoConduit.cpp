@@ -2438,7 +2438,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStsThread
 )
@@ -2559,7 +2559,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStsThread
 )

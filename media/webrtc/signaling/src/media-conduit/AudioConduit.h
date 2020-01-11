@@ -1214,7 +1214,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStsThread
 )
@@ -2306,7 +2306,7 @@ thread
 const
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mStsThread
 ;

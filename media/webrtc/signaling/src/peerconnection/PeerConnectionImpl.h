@@ -1328,7 +1328,7 @@ Get
 the
 STS
 thread
-nsISerialEventTarget
+nsIEventTarget
 *
 GetSTSThread
 (
@@ -1771,9 +1771,6 @@ SdpMediaSection
 :
 MediaType
 type
-nsIPrincipal
-*
-aPrincipal
 )
 ;
 bool
@@ -2693,8 +2690,13 @@ once
 nsresult
 OnAlpnNegotiated
 (
-bool
-aPrivacyRequested
+const
+std
+:
+:
+string
+&
+aAlpn
 )
 ;
 bool

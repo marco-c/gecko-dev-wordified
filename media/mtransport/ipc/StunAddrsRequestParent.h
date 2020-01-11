@@ -249,7 +249,7 @@ mMainThread
 ;
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mSTSThread
 ;

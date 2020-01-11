@@ -1592,7 +1592,7 @@ WebRtcCallWrapper
 aCall
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStsThread
 )
@@ -1995,7 +1995,7 @@ CallStatistics
 (
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStatsThread
 )
@@ -2035,7 +2035,7 @@ protected
 const
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mStatsThread
 ;
@@ -2082,7 +2082,7 @@ StreamStatistics
 (
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStatsThread
 )
@@ -2224,7 +2224,7 @@ protected
 const
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mStatsThread
 ;
@@ -2276,7 +2276,7 @@ SendStreamStatistics
 (
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStatsThread
 )
@@ -2290,7 +2290,7 @@ forward
 <
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 >
 (
@@ -2505,7 +2505,7 @@ ReceiveStreamStatistics
 (
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 aStatsThread
 )
@@ -2519,7 +2519,7 @@ forward
 <
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 >
 (
@@ -2920,7 +2920,7 @@ thread
 const
 nsCOMPtr
 <
-nsISerialEventTarget
+nsIEventTarget
 >
 mStsThread
 ;
