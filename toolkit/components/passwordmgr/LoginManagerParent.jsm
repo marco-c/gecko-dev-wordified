@@ -850,6 +850,7 @@ site
 *
 /
 static
+async
 searchAndDedupeLogins
 (
 formOrigin
@@ -930,9 +931,12 @@ try
 {
 logins
 =
-LoginHelper
+await
+Services
 .
-searchLoginsWithObject
+logins
+.
+searchLoginsAsync
 (
 matchData
 )
@@ -1143,6 +1147,9 @@ getRootBrowser
 (
 )
 ;
+let
+submitPromise
+=
 this
 .
 onFormSubmit
@@ -1156,12 +1163,24 @@ if
 gListenerForTests
 )
 {
+submitPromise
+.
+then
+(
+(
+)
+=
+>
+{
 gListenerForTests
 (
 "
 FormSubmit
 "
 data
+)
+;
+}
 )
 ;
 }
@@ -2021,6 +2040,7 @@ else
 {
 logins
 =
+await
 LoginManagerParent
 .
 searchAndDedupeLogins
@@ -2098,6 +2118,7 @@ recipes
 }
 ;
 }
+async
 doAutocompleteSearch
 (
 {
@@ -2407,6 +2428,7 @@ origin
 .
 logins
 =
+await
 LoginManagerParent
 .
 searchAndDedupeLogins
@@ -3019,6 +3041,7 @@ return
 prompterSvc
 ;
 }
+async
 onFormSubmit
 (
 browser
@@ -3365,6 +3388,7 @@ preferred
 let
 logins
 =
+await
 LoginManagerParent
 .
 searchAndDedupeLogins
@@ -4059,6 +4083,7 @@ dismissedPrompt
 )
 ;
 }
+async
 _onGeneratedPasswordFilledOrEdited
 (
 {
@@ -4691,6 +4716,7 @@ matches
 let
 logins
 =
+await
 LoginManagerParent
 .
 searchAndDedupeLogins

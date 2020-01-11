@@ -843,6 +843,7 @@ loaded
 let
 results
 =
+await
 loginManagerParent
 .
 doAutocompleteSearch
