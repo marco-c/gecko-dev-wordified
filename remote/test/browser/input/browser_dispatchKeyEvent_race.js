@@ -273,7 +273,9 @@ test
 /
 browser
 /
-doc_input_dispatchKeyEvent_race
+input
+/
+doc_dispatchKeyEvent_race
 .
 html
 "
