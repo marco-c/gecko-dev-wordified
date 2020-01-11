@@ -2916,6 +2916,7 @@ const
 {
 getSelectedScope
 getCurrentThread
+getCurrentThreadFrames
 }
 =
 dbg
@@ -2946,6 +2947,17 @@ getCurrentThread
 "
 paused
 "
+)
+;
+await
+waitForState
+(
+dbg
+getCurrentThreadFrames
+'
+fetched
+frames
+'
 )
 ;
 await

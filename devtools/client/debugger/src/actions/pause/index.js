@@ -98,6 +98,17 @@ commands
 ;
 export
 {
+fetchFrames
+}
+from
+"
+.
+/
+fetchFrames
+"
+;
+export
+{
 fetchScopes
 }
 from
