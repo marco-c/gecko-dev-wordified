@@ -5446,6 +5446,7 @@ RemoveListeners
 ;
 CheckForProcessCrashExpectation
 (
+contentRootElement
 )
 ;
 setTimeout
