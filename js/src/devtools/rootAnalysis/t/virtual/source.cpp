@@ -363,6 +363,11 @@ asm
 "
 )
 ;
+return
+1
+.
+1
+;
 }
 double
 Base
@@ -380,6 +385,11 @@ asm
 "
 "
 )
+;
+return
+1
+.
+2
 ;
 }
 class

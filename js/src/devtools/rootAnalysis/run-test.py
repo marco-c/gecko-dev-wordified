@@ -62,6 +62,10 @@ MPL
 0
 /
 .
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -850,22 +854,22 @@ unlink
 xdb
 )
     
-if
-cfg
-.
-verbose
-:
-        
 print
 (
 "
-Running
-test
-%
-s
+START
+TEST
+{
+}
 "
-%
+.
+format
+(
 name
+)
+flush
+=
+True
 )
     
 testpath
