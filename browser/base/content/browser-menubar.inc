@@ -1856,7 +1856,9 @@ full
 -
 zoom
 -
-reset
+actual
+-
+size
 "
 /
 >
