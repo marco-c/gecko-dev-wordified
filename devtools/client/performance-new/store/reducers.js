@@ -868,6 +868,11 @@ getSymbolTableGetter
 action
 .
 getSymbolTableGetter
+supportedFeatures
+:
+action
+.
+supportedFeatures
 }
 ;
 default
