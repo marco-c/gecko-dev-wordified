@@ -143,7 +143,7 @@ database
 /
 Get
 the
-sessionCookies
+sessionEnumerator
 to
 join
 the
@@ -155,7 +155,7 @@ Services
 .
 cookiemgr
 .
-sessionCookies
+sessionEnumerator
 ;
 /
 /

@@ -573,7 +573,7 @@ Services
 .
 cookiemgr
 .
-cookies
+enumerator
 )
 {
 if
@@ -899,10 +899,10 @@ nsICookieManager
 1
 )
 '
-cookies
+enumerator
 '
 an
-array
+enumerator
 of
 all
 cookies
@@ -940,7 +940,7 @@ getCookiesFromHost
 which
 returns
 an
-array
+enumerator
 of
 2
 )
@@ -966,10 +966,10 @@ aBaseDomain
 '
 using
 the
-cookies
+cookie
 /
 /
-array
+enumerator
 .
 let
 cookies
@@ -986,7 +986,7 @@ Services
 .
 cookiemgr
 .
-cookies
+enumerator
 )
 {
 if
@@ -1224,7 +1224,7 @@ not
 found
 in
 master
-cookies
+enumerator
 "
 )
 ;

@@ -1040,7 +1040,7 @@ Services
 .
 cookies
 .
-sessionCookies
+sessionEnumerator
 )
 {
 this

@@ -1169,7 +1169,7 @@ Services
 .
 cookies
 .
-cookies
+enumerator
 )
 {
 let

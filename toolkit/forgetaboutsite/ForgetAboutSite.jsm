@@ -162,13 +162,13 @@ aDomain
 )
 ;
 let
-cookies
+enumerator
 =
 Services
 .
 cookies
 .
-cookies
+enumerator
 ;
 let
 hosts
@@ -183,7 +183,7 @@ for
 let
 cookie
 of
-cookies
+enumerator
 )
 {
 if
