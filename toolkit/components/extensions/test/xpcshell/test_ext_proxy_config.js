@@ -87,6 +87,12 @@ init
 this
 )
 ;
+AddonTestUtils
+.
+overrideCertDB
+(
+)
+;
 createAppInfo
 (
 "
