@@ -67,6 +67,7 @@ HitTestFlags
 HitTestItem
 HitTestResult
 ItemTag
+PrimitiveFlags
 }
 ;
 use
@@ -680,7 +681,15 @@ is_backface_visible
 :
 info
 .
-is_backface_visible
+flags
+.
+contains
+(
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
+)
 spatial_node_index
 clip_chain_range
 }
