@@ -688,8 +688,9 @@ Handshake
 var
 CLIENT_PRELUDE
 =
-new
 Buffer
+.
+from
 (
 '
 PRI

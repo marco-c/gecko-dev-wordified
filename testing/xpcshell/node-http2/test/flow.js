@@ -958,8 +958,9 @@ function
 var
 buffer
 =
-new
 Buffer
+.
+alloc
 (
 10
 )
@@ -1351,8 +1352,9 @@ callback
 var
 buffer
 =
-new
 Buffer
+.
+alloc
 (
 util
 .
@@ -1620,8 +1622,9 @@ true
 }
 data
 :
-new
 Buffer
+.
+alloc
 (
 0
 )
@@ -1641,8 +1644,9 @@ else
 var
 buffer
 =
-new
 Buffer
+.
+allocUnsafe
 (
 util
 .
@@ -1932,8 +1936,9 @@ true
 }
 data
 :
-new
 Buffer
+.
+alloc
 (
 0
 )
@@ -1953,8 +1958,9 @@ else
 var
 buffer
 =
-new
 Buffer
+.
+allocUnsafe
 (
 util
 .

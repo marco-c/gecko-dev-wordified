@@ -9655,8 +9655,9 @@ authorization
 Basic
 '
 +
-new
 Buffer
+.
+from
 (
 options
 .

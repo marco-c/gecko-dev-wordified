@@ -65,8 +65,9 @@ result
 buff
 |
 |
-new
 Buffer
+.
+alloc
 (
 offset
 +
@@ -402,8 +403,9 @@ result
 buff
 |
 |
-new
 Buffer
+.
+alloc
 (
 offset
 +
@@ -913,8 +915,9 @@ len
 var
 buff
 =
-new
 Buffer
+.
+alloc
 (
 len
 )
@@ -1019,8 +1022,9 @@ mask
 var
 result
 =
-new
 Buffer
+.
+alloc
 (
 Math
 .

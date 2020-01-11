@@ -2964,8 +2964,9 @@ optimization
 var
 emptyBuffer
 =
-new
 Buffer
+.
+alloc
 (
 0
 )

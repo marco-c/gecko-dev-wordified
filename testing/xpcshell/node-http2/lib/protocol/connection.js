@@ -4344,8 +4344,9 @@ _generatePingId
 var
 data
 =
-new
 Buffer
+.
+from
 (
 id
 '
