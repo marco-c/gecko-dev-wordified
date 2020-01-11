@@ -1310,6 +1310,11 @@ baseURL
 extension
 .
 resourceURL
+isPrivileged
+:
+extension
+.
+isPrivileged
 permissions
 :
 extension

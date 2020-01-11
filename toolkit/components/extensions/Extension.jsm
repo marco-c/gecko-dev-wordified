@@ -11764,6 +11764,11 @@ optionalPermissions
 this
 .
 optionalPermissions
+isPrivileged
+:
+this
+.
+isPrivileged
 }
 ;
 }
@@ -13250,6 +13255,11 @@ baseURL
 this
 .
 resourceURL
+isPrivileged
+:
+this
+.
+isPrivileged
 allowedOrigins
 :
 new
@@ -13315,6 +13325,11 @@ baseURL
 this
 .
 resourceURL
+isPrivileged
+:
+this
+.
+isPrivileged
 }
 )
 ;
