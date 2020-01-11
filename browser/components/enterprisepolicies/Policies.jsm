@@ -2347,6 +2347,16 @@ toolbox
 "
 )
 ;
+blockAboutPage
+(
+manager
+"
+about
+:
+profiling
+"
+)
+;
 }
 }
 }
