@@ -2431,6 +2431,11 @@ number
 >
 void
 ;
+gIsDarkMode
+?
+:
+boolean
+;
 }
 /
 *
