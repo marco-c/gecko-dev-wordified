@@ -386,6 +386,8 @@ length
         
 c
 =
+(
+            
 lldb_value
 .
 CreateValueFromAddress
@@ -405,8 +407,11 @@ GetValueAsUnsigned
 (
 0
 )
+            
 &
 mask
+        
+)
         
 if
 c

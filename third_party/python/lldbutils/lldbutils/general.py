@@ -655,6 +655,7 @@ ThreadSafeAutoRefCnt
         
 print
 (
+            
 field
 .
 GetChildMemberWithName
@@ -663,6 +664,7 @@ GetChildMemberWithName
 mValue
 "
 )
+            
 .
 GetChildMemberWithName
 (
@@ -670,11 +672,13 @@ GetChildMemberWithName
 mValue
 "
 )
+            
 .
 GetValueAsUnsigned
 (
 0
 )
+        
 )
     
 elif
@@ -805,12 +809,12 @@ by
 getting
 its
 address
+       
 from
 the
 symbol
 table
 .
-       
 The
 function
 is
@@ -974,7 +978,8 @@ debugger
 .
 HandleCommand
 (
-'
+        
+"
 print
 (
 (
@@ -992,7 +997,7 @@ s
 (
 %
 s
-'
+"
 %
 (
 arg_types
@@ -1006,6 +1011,7 @@ target
 )
 args
 )
+    
 )
 def
 init
@@ -1151,6 +1157,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 synthetic
@@ -1171,12 +1178,14 @@ general
 .
 TArraySyntheticChildrenProvider
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 synthetic
@@ -1197,12 +1206,18 @@ general
 .
 TArraySyntheticChildrenProvider
 "
+#
+NOQA
+:
+E501
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 synthetic
@@ -1223,12 +1238,18 @@ general
 .
 TArraySyntheticChildrenProvider
 "
+#
+NOQA
+:
+E501
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 command
 script
@@ -1249,12 +1270,14 @@ general
 prefcnt
 prefcnt
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 command
 script
@@ -1275,4 +1298,5 @@ general
 callfunc
 callfunc
 "
+    
 )
