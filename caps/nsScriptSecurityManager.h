@@ -464,6 +464,10 @@ nsIURI
 aTarget
 bool
 aFromPrivateWindow
+uint64_t
+aInnerWindowID
+=
+0
 )
 ;
 static
