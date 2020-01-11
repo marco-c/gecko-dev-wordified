@@ -358,6 +358,12 @@ aDevice
 nullptr
 )
 ;
+virtual
+~
+D3D11TextureData
+(
+)
+;
 bool
 UpdateFromSurface
 (
@@ -488,7 +494,7 @@ override
 void
 GetSubDescriptor
 (
-GPUVideoSubDescriptor
+RemoteDecoderVideoSubDescriptor
 *
 aOutDesc
 )
@@ -602,12 +608,6 @@ SurfaceFormat
 aFormat
 TextureAllocationFlags
 aFlags
-)
-;
-virtual
-~
-D3D11TextureData
-(
 )
 ;
 void
@@ -941,7 +941,7 @@ override
 void
 GetSubDescriptor
 (
-GPUVideoSubDescriptor
+RemoteDecoderVideoSubDescriptor
 *
 aOutDesc
 )
