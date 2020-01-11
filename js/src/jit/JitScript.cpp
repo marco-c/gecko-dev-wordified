@@ -1186,6 +1186,14 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+!
+hasJitScript
+(
+)
+)
+;
 prepareForDestruction
 .
 release
@@ -1194,7 +1202,7 @@ release
 ;
 warmUpData_
 .
-initJitScript
+setJitScript
 (
 jitScript
 .
