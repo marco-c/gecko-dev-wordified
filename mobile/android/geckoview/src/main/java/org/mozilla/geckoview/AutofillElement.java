@@ -162,6 +162,13 @@ java
 .
 util
 .
+Collection
+;
+import
+java
+.
+util
+.
 Collections
 ;
 import
@@ -555,7 +562,7 @@ dimensions
 *
 *
 The
-list
+collection
 of
 child
 elements
@@ -568,7 +575,7 @@ element
 public
 final
 NonNull
-Iterable
+Collection
 <
 AutofillElement
 >
