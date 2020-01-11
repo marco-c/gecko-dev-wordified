@@ -390,51 +390,6 @@ mozilla
 {
 #
 ifdef
-LOG
-#
-undef
-LOG
-#
-endif
-#
-define
-LOGD
-(
-msg
-)
-MOZ_LOG
-(
-GetGMPLog
-(
-)
-mozilla
-:
-:
-LogLevel
-:
-:
-Debug
-msg
-)
-#
-define
-LOG
-(
-level
-msg
-)
-MOZ_LOG
-(
-GetGMPLog
-(
-)
-(
-level
-)
-msg
-)
-#
-ifdef
 __CLASS__
 #
 undef
@@ -1419,8 +1374,7 @@ char16_t
 aSomeData
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -1452,7 +1406,6 @@ aSomeData
 .
 get
 (
-)
 )
 )
 ;
@@ -1693,8 +1646,7 @@ if
 gmpThread
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -1717,7 +1669,6 @@ shutdown
 "
 __CLASS__
 __FUNCTION__
-)
 )
 ;
 gmpThread
@@ -2362,8 +2313,7 @@ api
 tags
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -2394,7 +2344,6 @@ api
 .
 get
 (
-)
 )
 )
 ;
@@ -2859,8 +2808,7 @@ SendBeginShutdown
 ;
 }
 }
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -2882,7 +2830,6 @@ Length
 (
 )
 )
-)
 ;
 #
 ifdef
@@ -2897,8 +2844,7 @@ plugin
 plugins
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -2925,7 +2871,6 @@ GetDisplayName
 .
 get
 (
-)
 )
 )
 ;
@@ -3018,8 +2963,7 @@ CrashPlugins
 (
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -3031,7 +2975,6 @@ s
 "
 __CLASS__
 __FUNCTION__
-)
 )
 ;
 MOZ_ASSERT
@@ -3999,8 +3942,7 @@ bool
 aVal
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 GeckoMediaPluginServiceParent
@@ -4020,7 +3962,6 @@ dir
 .
 get
 (
-)
 )
 )
 ;
@@ -4057,8 +3998,7 @@ nsresult
 aResult
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 GeckoMediaPluginServiceParent
@@ -4078,7 +4018,6 @@ dir
 .
 get
 (
-)
 )
 )
 ;
@@ -5304,8 +5243,7 @@ if
 thread
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -5329,7 +5267,6 @@ get
 (
 )
 )
-)
 ;
 return
 GenericPromise
@@ -5342,8 +5279,7 @@ __func__
 )
 ;
 }
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -5362,7 +5298,6 @@ dir
 .
 get
 (
-)
 )
 )
 ;
@@ -5396,8 +5331,7 @@ rv
 )
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -5434,7 +5368,6 @@ uint32_t
 >
 (
 rv
-)
 )
 )
 ;
@@ -5522,8 +5455,7 @@ bool
 aVal
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -5543,7 +5475,6 @@ dir
 .
 get
 (
-)
 )
 )
 ;
@@ -5587,8 +5518,7 @@ nsresult
 aResult
 )
 {
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -5608,7 +5538,6 @@ dir
 .
 get
 (
-)
 )
 )
 ;
@@ -5659,8 +5588,7 @@ IsOnCurrentThread
 )
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -5682,7 +5610,6 @@ aDirectory
 .
 get
 (
-)
 )
 )
 ;
@@ -6303,8 +6230,7 @@ IsOnCurrentThread
 )
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -6324,7 +6250,6 @@ void
 *
 )
 aOld
-)
 )
 ;
 RefPtr
@@ -7133,8 +7058,7 @@ IsOnCurrentThread
 )
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -7168,7 +7092,6 @@ aTopLevelOrigin
 .
 get
 (
-)
 )
 )
 ;
@@ -9318,8 +9241,7 @@ IsOnCurrentThread
 )
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -9340,7 +9262,6 @@ aSite
 .
 Data
 (
-)
 )
 )
 ;
@@ -9449,8 +9370,7 @@ IsOnCurrentThread
 )
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -9471,7 +9391,6 @@ __FUNCTION__
 int64_t
 )
 aSince
-)
 )
 ;
 struct
@@ -10321,8 +10240,7 @@ IsOnCurrentThread
 )
 )
 ;
-LOGD
-(
+GMP_LOG_DEBUG
 (
 "
 %
@@ -10334,7 +10252,6 @@ s
 "
 __CLASS__
 __FUNCTION__
-)
 )
 ;
 /
@@ -11714,3 +11631,6 @@ mozilla
 #
 undef
 NS_DispatchToMainThread
+#
+undef
+__CLASS__
