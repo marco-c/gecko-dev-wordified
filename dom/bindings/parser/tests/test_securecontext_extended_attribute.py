@@ -2783,39 +2783,9 @@ interface
 #
 Test
 '
-implements
+includes
 '
 .
-The
-behavior
-tested
-here
-may
-have
-to
-change
-depending
-    
-#
-on
-the
-resolution
-of
-https
-:
-/
-/
-github
-.
-com
-/
-heycam
-/
-webidl
-/
-issues
-/
-118
     
 parser
 =
@@ -2838,7 +2808,7 @@ SecureContext
 ]
         
 interface
-TestSecureContextInterfaceThatImplementsNonSecureContextInterface
+TestSecureContextInterfaceThatIncludesNonSecureContextMixin
 {
           
 const
@@ -2852,7 +2822,8 @@ TEST_CONSTANT
 ;
         
 interface
-TestNonSecureContextInterface
+mixin
+TestNonSecureContextMixin
 {
           
 const
@@ -2879,9 +2850,9 @@ foo
 }
 ;
         
-TestSecureContextInterfaceThatImplementsNonSecureContextInterface
-implements
-TestNonSecureContextInterface
+TestSecureContextInterfaceThatIncludesNonSecureContextMixin
+includes
+TestNonSecureContextMixin
 ;
      
 "
@@ -2915,7 +2886,7 @@ members
 TestSecureContextInterfaceThatImplementsNonSecureContextInterface
 should
 have
-two
+four
 members
 "
 )
@@ -3029,7 +3000,7 @@ non
 [
 SecureContext
 ]
-interface
+mixin
 should
 not
 be
@@ -3071,7 +3042,7 @@ non
 [
 SecureContext
 ]
-interface
+mixin
 should
 not
 be
@@ -3113,7 +3084,7 @@ non
 [
 SecureContext
 ]
-interface
+mixin
 should
 not
 be
