@@ -148,12 +148,9 @@ scache
 nsresult
 NewObjectInputStreamFromBuffer
 (
-UniquePtr
-<
+const
 char
-[
-]
->
+*
 buffer
 uint32_t
 len
