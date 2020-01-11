@@ -372,7 +372,10 @@ aIndex
 nsresult
 *
 aResult
-MaybeNewPSHEntry
+RefPtr
+<
+CrossProcessSHEntry
+>
 *
 aEntry
 )
@@ -522,7 +525,10 @@ RecvGetAllEntries
 (
 nsTArray
 <
-MaybeNewPSHEntry
+RefPtr
+<
+CrossProcessSHEntry
+>
 >
 *
 aEntries
@@ -539,7 +545,10 @@ const
 bool
 &
 aIncludeCurrentEntry
-MaybeNewPSHEntry
+RefPtr
+<
+CrossProcessSHEntry
+>
 *
 aEntry
 int32_t
