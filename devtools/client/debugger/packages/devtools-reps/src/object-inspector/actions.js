@@ -286,7 +286,7 @@ will
 call
 the
 appropriate
-ObjectClient
+ObjectFront
 *
 functions
 .
@@ -971,11 +971,11 @@ ThunkArg
 try
 {
 const
-objectClient
+objectFront
 =
 client
 .
-createObjectClient
+createObjectFront
 (
 targetGrip
 )
@@ -984,7 +984,7 @@ const
 result
 =
 await
-objectClient
+objectFront
 .
 getPropertyValue
 (

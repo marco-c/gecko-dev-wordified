@@ -335,7 +335,7 @@ const
 objFront
 =
 new
-ObjectClient
+ObjectFront
 (
 gClient
 pauseGrip
@@ -352,7 +352,7 @@ const
 objFront2
 =
 new
-ObjectClient
+ObjectFront
 (
 gClient
 pauseGrip

@@ -1286,7 +1286,7 @@ Promise
 <
 *
 >
-createObjectClient
+createObjectFront
 :
 (
 grip
@@ -1295,7 +1295,7 @@ Grip
 )
 =
 >
-ObjectClient
+ObjectFront
 release
 :
 (
@@ -1688,7 +1688,7 @@ number
 *
 *
 *
-ObjectClient
+ObjectFront
 *
 memberof
 firefox
@@ -1698,7 +1698,7 @@ static
 /
 export
 type
-ObjectClient
+ObjectFront
 =
 {
 getPrototypeAndProperties
@@ -1850,7 +1850,7 @@ Function
 )
 =
 >
-ObjectClient
+ObjectFront
 pauseOnExceptions
 :
 (

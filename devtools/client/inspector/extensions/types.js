@@ -117,7 +117,7 @@ exports
 serviceContainer
 =
 {
-createObjectClient
+createObjectFront
 :
 PropTypes
 .

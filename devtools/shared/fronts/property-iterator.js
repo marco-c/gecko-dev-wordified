@@ -144,7 +144,7 @@ the
 PropertyIteratorFront
 *
 from
-ObjectClient
+ObjectFront
 .
 enumProperties
 .

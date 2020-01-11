@@ -142,7 +142,7 @@ protocol
 *
 /
 class
-ObjectClient
+ObjectFront
 extends
 FrontClassWithSpec
 (
@@ -1068,10 +1068,10 @@ module
 .
 exports
 =
-ObjectClient
+ObjectFront
 ;
 registerFront
 (
-ObjectClient
+ObjectFront
 )
 ;

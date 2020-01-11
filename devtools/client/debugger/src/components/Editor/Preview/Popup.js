@@ -200,7 +200,7 @@ PreviewFunction
 ;
 import
 {
-createObjectClient
+createObjectFront
 }
 from
 "
@@ -700,13 +700,13 @@ openLink
 {
 openLink
 }
-createObjectClient
+createObjectFront
 =
 {
 grip
 =
 >
-createObjectClient
+createObjectFront
 (
 grip
 )

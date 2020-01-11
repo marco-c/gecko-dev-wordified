@@ -82,7 +82,7 @@ utils
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -94,7 +94,7 @@ __mocks__
 /
 object
 -
-client
+front
 "
 )
 ;
@@ -180,11 +180,11 @@ const
 client
 =
 {
-createObjectClient
+createObjectFront
 :
 overrides
 .
-createObjectClient
+createObjectFront
 |
 |
 jest
@@ -194,7 +194,7 @@ fn
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 )
@@ -214,7 +214,7 @@ props
 describe
 (
 "
-createObjectClient
+createObjectFront
 "
 (
 )
@@ -287,7 +287,7 @@ expect
 (
 client
 .
-createObjectClient
+createObjectFront
 .
 mock
 .
@@ -385,7 +385,7 @@ expect
 (
 client
 .
-createObjectClient
+createObjectFront
 .
 mock
 .
@@ -490,7 +490,7 @@ expect
 (
 client
 .
-createObjectClient
+createObjectFront
 .
 mock
 .
@@ -607,7 +607,7 @@ expect
 (
 client
 .
-createObjectClient
+createObjectFront
 .
 mock
 .
@@ -636,7 +636,7 @@ doesn
 t
 fail
 when
-ObjectClient
+ObjectFront
 doesn
 '
 t
@@ -716,7 +716,7 @@ error
 }
 ;
 const
-createObjectClient
+createObjectFront
 =
 x
 =
@@ -739,7 +739,7 @@ root
 ]
 }
 {
-createObjectClient
+createObjectFront
 }
 )
 ;

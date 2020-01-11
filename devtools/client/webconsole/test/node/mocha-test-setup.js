@@ -1127,11 +1127,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 object
--
-client
 "
 :
 (

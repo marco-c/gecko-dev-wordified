@@ -106,7 +106,7 @@ constants
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -118,7 +118,7 @@ __mocks__
 /
 object
 -
-client
+front
 "
 )
 ;
@@ -307,12 +307,12 @@ testProxy
 }
 }
 ]
-createObjectClient
+createObjectFront
 :
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 )
@@ -363,12 +363,12 @@ const
 client
 =
 {
-createObjectClient
+createObjectFront
 :
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 {

@@ -167,7 +167,7 @@ map
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -179,7 +179,7 @@ __mocks__
 /
 object
 -
-client
+front
 "
 )
 ;
@@ -194,12 +194,12 @@ return
 autoExpandDepth
 :
 0
-createObjectClient
+createObjectFront
 :
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 )
@@ -226,9 +226,6 @@ fn
 >
 (
 {
-iterator
-:
-{
 slice
 :
 (
@@ -245,7 +242,6 @@ get
 entries
 "
 )
-}
 }
 )
 )
@@ -271,12 +267,12 @@ const
 client
 =
 {
-createObjectClient
+createObjectFront
 :
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 {
@@ -516,7 +512,7 @@ it
 (
 "
 calls
-ObjectClient
+ObjectFront
 .
 enumEntries
 when

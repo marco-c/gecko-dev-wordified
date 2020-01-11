@@ -62,7 +62,7 @@ strict
 "
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -71,11 +71,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 object
--
-client
 "
 )
 ;
@@ -157,14 +155,14 @@ options
 )
 ;
 }
-createObjectClient
+createObjectFront
 (
 object
 )
 {
 return
 new
-ObjectClient
+ObjectFront
 (
 this
 .
@@ -279,7 +277,7 @@ const
 client
 =
 new
-ObjectClient
+ObjectFront
 (
 this
 .
@@ -332,7 +330,7 @@ const
 client
 =
 new
-ObjectClient
+ObjectFront
 (
 this
 .

@@ -142,7 +142,7 @@ function
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -154,7 +154,7 @@ __mocks__
 /
 object
 -
-client
+front
 "
 )
 ;
@@ -186,12 +186,12 @@ const
 client
 =
 {
-createObjectClient
+createObjectFront
 :
 grip
 =
 >
-ObjectClient
+ObjectFront
 (
 grip
 )

@@ -36,7 +36,7 @@ strict
 /
 Test
 that
-ObjectClient
+ObjectFront
 .
 prototype
 .

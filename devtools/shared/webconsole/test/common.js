@@ -64,7 +64,7 @@ strict
 /
 *
 exported
-ObjectClient
+ObjectFront
 attachConsole
 attachConsoleToTab
 attachConsoleToWorker
@@ -143,7 +143,7 @@ client
 )
 ;
 const
-ObjectClient
+ObjectFront
 =
 require
 (
@@ -152,11 +152,9 @@ devtools
 /
 shared
 /
-client
+fronts
 /
 object
--
-client
 "
 )
 ;

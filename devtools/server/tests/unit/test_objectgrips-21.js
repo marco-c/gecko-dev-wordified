@@ -1922,11 +1922,9 @@ function
 -
 related
 methods
+the
 object
--
-client
-.
-js
+front
 checks
 that
 the
