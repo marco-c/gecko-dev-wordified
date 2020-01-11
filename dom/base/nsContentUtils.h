@@ -13017,13 +13017,15 @@ Determine
 whether
 the
 principal
+or
+document
 is
 allowed
 access
 to
 the
-localization
 *
+localization
 system
 .
 We
@@ -13041,9 +13043,9 @@ but
 all
 our
 UI
+*
 including
 in
-*
 content
 pages
 should
@@ -13060,6 +13062,9 @@ PrincipalAllowsL10n
 nsIPrincipal
 *
 aPrincipal
+nsIURI
+*
+aDocumentURI
 )
 ;
 /
