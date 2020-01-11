@@ -2897,7 +2897,7 @@ MOZ_MUST_USE
 bool
 emitBigIntOp
 (
-BigInt
+BigIntLiteral
 *
 bigint
 )

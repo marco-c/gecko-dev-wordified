@@ -19764,8 +19764,9 @@ BigIntLiteral
 (
 )
 .
-value
+getOrCreateBigInt
 (
+cx
 )
 ;
 cx

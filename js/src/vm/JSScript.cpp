@@ -24960,6 +24960,9 @@ if
 ngcthings
 )
 {
+if
+(
+!
 bce
 -
 >
@@ -24973,6 +24976,7 @@ gcThingList
 .
 finish
 (
+cx
 data
 -
 >
@@ -24980,7 +24984,12 @@ gcthings
 (
 )
 )
+)
+{
+return
+false
 ;
+}
 }
 return
 true

@@ -31337,7 +31337,7 @@ BytecodeEmitter
 :
 emitBigIntOp
 (
-BigInt
+BigIntLiteral
 *
 bigint
 )
@@ -58221,6 +58221,7 @@ if
 !
 emitBigIntOp
 (
+&
 pn
 -
 >
@@ -58228,10 +58229,6 @@ as
 <
 BigIntLiteral
 >
-(
-)
-.
-value
 (
 )
 )
