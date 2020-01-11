@@ -400,6 +400,9 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
+const
+bool
+aInitializing
 )
 {
 AssertIsOnIOThread
@@ -698,6 +701,12 @@ BodyTraverseFiles
 dummy
 bodyDir
 getUsage
+/
+*
+aCanRemoveFiles
+*
+/
+aInitializing
 /
 *
 aTrackQuota
@@ -2779,6 +2788,7 @@ GetBodyUsage
 file
 aCanceled
 aUsageInfo
+aInitializing
 )
 ;
 if
