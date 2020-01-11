@@ -225,11 +225,9 @@ install_requires
 [
 '
 mozlog
-~
+>
 =
-4
-.
-2
+5
 .
 0
 '
