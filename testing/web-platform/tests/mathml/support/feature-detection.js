@@ -2349,12 +2349,12 @@ mo
 lspace
 =
 '
-8px
+20px
 '
 rspace
 =
 '
-8px
+20px
 '
 >
 +
@@ -2411,7 +2411,7 @@ lspace
 rspace
 will
 add
-16px
+40px
 per
 MathML
 and
@@ -2446,7 +2446,7 @@ getBoundingClientRect
 .
 width
 >
-10
+30
 ;
 document
 .
