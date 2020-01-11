@@ -524,7 +524,7 @@ this
 .
 this
 .
-uiIndex
+rowIndex
 =
 -
 1

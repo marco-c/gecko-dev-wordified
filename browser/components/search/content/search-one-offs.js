@@ -2384,7 +2384,7 @@ this
 .
 _view
 .
-selectedRowIndex
+selectedElementIndex
 ;
 }
 set
@@ -2419,7 +2419,7 @@ this
 .
 _view
 .
-selectedRowIndex
+selectedElementIndex
 =
 val
 )

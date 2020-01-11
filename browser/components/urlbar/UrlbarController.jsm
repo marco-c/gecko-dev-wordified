@@ -1930,7 +1930,7 @@ this
 .
 view
 .
-visibleRowCount
+visibleElementCount
 this
 .
 view
@@ -2902,7 +2902,7 @@ result
 ?
 result
 .
-uiIndex
+rowIndex
 :
 -
 1
