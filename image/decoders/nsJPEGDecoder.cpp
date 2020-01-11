@@ -2350,6 +2350,10 @@ SurfaceFormat
 :
 :
 B8G8R8X8
+SurfaceFormat
+:
+:
+B8G8R8X8
 Nothing
 (
 )
