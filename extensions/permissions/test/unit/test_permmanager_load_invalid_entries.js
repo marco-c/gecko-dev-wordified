@@ -975,7 +975,7 @@ should
 be
 upgraded
 to
-10
+11
 and
 a
 '
@@ -1002,7 +1002,7 @@ equal
 connection
 .
 schemaVersion
-10
+11
 )
 ;
 let
