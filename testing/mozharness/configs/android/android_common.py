@@ -1604,6 +1604,14 @@ device_serial
 )
 s
 "
+                
+"
+-
+-
+topsrcdir
+=
+tests
+"
             
 ]
             
@@ -1857,6 +1865,14 @@ deviceSerial
 device_serial
 )
 s
+"
+                
+"
+-
+-
+topsrcdir
+=
+tests
 "
             
 ]
@@ -2167,6 +2183,12 @@ jsreftest
 /
 tests
 /
+js
+/
+src
+/
+tests
+/
 user
 .
 js
@@ -2251,6 +2273,19 @@ device_serial
 )
 s
 "
+                
+"
+-
+-
+topsrcdir
+=
+.
+.
+/
+jsreftest
+/
+tests
+"
             
 ]
             
@@ -2264,6 +2299,12 @@ tests
 .
 /
 jsreftest
+/
+tests
+/
+js
+/
+src
 /
 tests
 /
