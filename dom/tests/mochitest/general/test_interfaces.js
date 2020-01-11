@@ -4502,9 +4502,6 @@ FormDataEvent
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
