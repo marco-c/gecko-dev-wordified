@@ -1131,14 +1131,11 @@ mInvalidRegion
 ;
 }
 ;
-std
-:
-:
-vector
+Maybe
 <
 SurfaceWithInvalidRegion
 >
-RemoveExcessUnusedSurfaces
+GetUnusedSurfaceAndCleanUp
 (
 const
 MutexAutoLock
@@ -1882,7 +1879,7 @@ recently
 std
 :
 :
-deque
+vector
 <
 SurfaceWithInvalidRegion
 >
