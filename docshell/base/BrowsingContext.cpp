@@ -6388,6 +6388,14 @@ ErrorResult
 aError
 )
 {
+if
+(
+mIsDiscarded
+)
+{
+return
+;
+}
 /
 /
 FIXME
