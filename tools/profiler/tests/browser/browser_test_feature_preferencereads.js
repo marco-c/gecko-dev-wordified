@@ -363,7 +363,7 @@ contentThread
 }
 =
 await
-stopProfilerAndGetThreads
+stopProfilerNowAndGetThreads
 (
 contentPid
 )
@@ -523,7 +523,7 @@ contentThread
 }
 =
 await
-stopProfilerAndGetThreads
+stopProfilerNowAndGetThreads
 (
 contentPid
 )
