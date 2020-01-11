@@ -647,7 +647,7 @@ testMalwareTable
 +
 =
 "
-test
+moztest
 -
 unwanted
 -
@@ -953,7 +953,7 @@ malwareTable
 includes
 (
 "
-test
+moztest
 -
 unwanted
 -
@@ -969,7 +969,7 @@ doesn
 '
 t
 include
-test
+moztest
 -
 unwanted
 -

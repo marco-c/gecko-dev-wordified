@@ -11959,7 +11959,7 @@ x
 =
 =
 "
-test
+moztest
 -
 unwanted
 -
@@ -12025,7 +12025,7 @@ malware
 push
 (
 "
-test
+moztest
 -
 unwanted
 -
