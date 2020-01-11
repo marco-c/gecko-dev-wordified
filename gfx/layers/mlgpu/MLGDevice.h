@@ -1080,6 +1080,12 @@ virtual
 TextureFactoryIdentifier
 GetTextureFactoryIdentifier
 (
+widget
+:
+:
+CompositorWidget
+*
+aWidget
 )
 const
 =

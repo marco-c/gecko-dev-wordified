@@ -1229,6 +1229,9 @@ bool
 mCompositorUseDComp
 ;
 bool
+mUseCompositorWnd
+;
+bool
 mSupportsTextureBlitting
 ;
 bool
@@ -1274,6 +1277,10 @@ aCompositorUseDComp
 =
 false
 bool
+aUseCompositorWnd
+=
+false
+bool
 aSupportsTextureBlitting
 =
 false
@@ -1314,6 +1321,10 @@ aCompositorUseANGLE
 mCompositorUseDComp
 (
 aCompositorUseDComp
+)
+mUseCompositorWnd
+(
+aUseCompositorWnd
 )
 mSupportsTextureBlitting
 (
@@ -1396,6 +1407,14 @@ mCompositorUseDComp
 aOther
 .
 mCompositorUseDComp
+&
+&
+mUseCompositorWnd
+=
+=
+aOther
+.
+mUseCompositorWnd
 &
 &
 mSupportsTextureBlitting
