@@ -306,7 +306,6 @@ const
 Simulate
 findRenderedDOMComponentWithClass
 findRenderedDOMComponentWithTag
-scryRenderedDOMComponentsWithTag
 }
 =
 browserRequire
@@ -1887,7 +1886,6 @@ tests
 const
 {
 action
-condition
 event
 props
 name
@@ -1992,6 +1990,18 @@ test
 .
 activeElement
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+debugger
 if
 (
 document
