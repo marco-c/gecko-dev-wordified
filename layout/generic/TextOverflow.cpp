@@ -2125,10 +2125,9 @@ case
 .
 mAdjustForPixelSnapping
 =
-!
 mBlockWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 ;

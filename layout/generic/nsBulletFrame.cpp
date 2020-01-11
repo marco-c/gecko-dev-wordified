@@ -5296,10 +5296,10 @@ if
 (
 aWritingMode
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
-!
+=
 =
 isRTL
 )

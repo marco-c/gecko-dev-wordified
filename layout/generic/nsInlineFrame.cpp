@@ -973,10 +973,9 @@ flags
 .
 if
 (
-!
 wm
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

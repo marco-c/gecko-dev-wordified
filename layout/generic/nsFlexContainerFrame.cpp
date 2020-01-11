@@ -30403,10 +30403,9 @@ direction
 )
 if
 (
-!
 mWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

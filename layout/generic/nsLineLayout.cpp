@@ -24697,10 +24697,9 @@ NS_STYLE_TEXT_ALIGN_MOZ_LEFT
 :
 if
 (
-!
 lineWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )
@@ -24790,10 +24789,9 @@ IsVisualMode
 )
 |
 |
-!
 lineWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

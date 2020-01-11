@@ -51648,12 +51648,11 @@ here
 .
 if
 (
-!
 aIter
 .
 mTableWM
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )

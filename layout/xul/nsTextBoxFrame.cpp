@@ -6218,10 +6218,9 @@ mTextAlign
 NS_STYLE_TEXT_ALIGN_LEFT
 &
 &
-!
 wm
 .
-IsBidiLTR
+IsBidiRTL
 (
 )
 )
