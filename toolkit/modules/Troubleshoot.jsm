@@ -600,6 +600,11 @@ privacy
 .
 "
 "
+remote
+.
+enabled
+"
+"
 security
 .
 "
