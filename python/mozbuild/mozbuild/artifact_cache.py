@@ -240,7 +240,7 @@ large
 !
 MIN_CACHED_ARTIFACTS
 =
-6
+12
 #
 Maximum
 size
@@ -255,11 +255,13 @@ cache
 in
 bytes
 (
-1GiB
+2GiB
 )
 .
 MAX_CACHED_ARTIFACTS_SIZE
 =
+2
+*
 1024
 *
 1024
