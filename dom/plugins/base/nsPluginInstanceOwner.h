@@ -1619,6 +1619,12 @@ mSentStartComposition
 bool
 mPluginDidNotHandleIMEComposition
 ;
+uint32_t
+mWheelScrollLines
+;
+uint32_t
+mWheelScrollChars
+;
 #
 endif
 nsPluginNativeWindow
