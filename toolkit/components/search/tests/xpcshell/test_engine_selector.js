@@ -337,6 +337,8 @@ Assert
 equal
 (
 privateDefault
+.
+engineName
 "
 altavista
 "
@@ -653,6 +655,8 @@ Assert
 equal
 (
 privateDefault
+.
+engineName
 "
 altavista
 "
