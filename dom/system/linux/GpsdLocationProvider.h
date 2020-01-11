@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsGeolocation
+Geolocation
 .
 h
 "

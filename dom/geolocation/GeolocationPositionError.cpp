@@ -152,7 +152,7 @@ nsAutoMicroTask
 #
 include
 "
-nsGeolocation
+Geolocation
 .
 h
 "

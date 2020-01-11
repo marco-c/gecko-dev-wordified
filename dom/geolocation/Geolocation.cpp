@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsGeolocation
+Geolocation
 .
 h
 "

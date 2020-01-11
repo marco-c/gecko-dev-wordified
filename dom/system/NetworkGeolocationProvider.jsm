@@ -123,7 +123,7 @@ XMLHttpRequest
 ;
 /
 /
-PositionError
+GeolocationPositionError
 has
 no
 interface

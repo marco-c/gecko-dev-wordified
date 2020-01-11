@@ -117,14 +117,14 @@ MPL
 #
 include
 "
-nsGeolocation
+Geolocation
 .
 h
 "
 #
 include
 "
-nsGeoPosition
+GeolocationPosition
 .
 h
 "

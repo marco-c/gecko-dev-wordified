@@ -47,7 +47,7 @@ err
 {
 /
 /
-PositionError
+GeolocationPositionError
 has
 no
 interface

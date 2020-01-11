@@ -230,7 +230,7 @@ it
 safe
 *
 for
-nsGeolocation
+Geolocation
 .
 cpp
 which

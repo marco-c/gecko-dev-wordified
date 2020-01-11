@@ -183,7 +183,7 @@ h
 #
 include
 "
-nsGeoPosition
+GeolocationPosition
 .
 h
 "

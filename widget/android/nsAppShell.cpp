@@ -245,7 +245,11 @@ h
 #
 include
 "
-nsGeoPosition
+mozilla
+/
+dom
+/
+GeolocationPosition
 .
 h
 "
