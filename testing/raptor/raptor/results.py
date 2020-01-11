@@ -1660,7 +1660,9 @@ self
 raw_btresults
 page_cycles
 cold
+                               
 browser_cycles
+measure
 )
 :
         
@@ -2975,6 +2977,15 @@ in
 conversion
 :
                     
+if
+bt
+not
+in
+measure
+:
+                        
+continue
+                    
 #
 chrome
 we
@@ -3931,6 +3942,13 @@ test
 [
 '
 browser_cycles
+'
+]
+                                                          
+test
+[
+'
+measure
 '
 ]
 )
