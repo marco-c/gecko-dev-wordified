@@ -8613,7 +8613,7 @@ aBrowserParent
 )
 -
 >
-bool
+CallState
 {
 aBrowserParent
 -
@@ -8623,7 +8623,10 @@ ThemeChanged
 )
 ;
 return
-false
+CallState
+:
+:
+Continue
 ;
 }
 )
@@ -10275,7 +10278,7 @@ aBrowserParent
 )
 -
 >
-bool
+CallState
 {
 aBrowserParent
 -
@@ -10286,7 +10289,10 @@ aSizeMode
 )
 ;
 return
-false
+CallState
+:
+:
+Continue
 ;
 }
 )

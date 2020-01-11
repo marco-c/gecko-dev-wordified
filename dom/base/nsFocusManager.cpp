@@ -7257,7 +7257,7 @@ aBrowserParent
 )
 -
 >
-bool
+CallState
 {
 Unused
 <
@@ -7271,7 +7271,10 @@ aActive
 )
 ;
 return
-false
+CallState
+:
+:
+Stop
 ;
 }
 )
