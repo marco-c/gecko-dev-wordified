@@ -1939,8 +1939,7 @@ any
 length
 representable
 in
-an
-int
+ssize_t
 .
 Based
 on
@@ -1988,7 +1987,7 @@ d
 =
 0
 ;
-int
+ssize_t
 l
 =
 len
