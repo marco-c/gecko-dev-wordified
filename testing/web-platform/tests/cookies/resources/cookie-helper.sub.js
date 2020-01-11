@@ -1056,6 +1056,9 @@ e
 {
 if
 (
+origin
+&
+&
 e
 .
 origin
