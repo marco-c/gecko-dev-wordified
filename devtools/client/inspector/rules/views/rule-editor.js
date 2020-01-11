@@ -1807,8 +1807,7 @@ addEventListener
 "
 click
 "
-(
-)
+event
 =
 >
 {
