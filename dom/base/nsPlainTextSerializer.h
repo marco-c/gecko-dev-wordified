@@ -764,6 +764,15 @@ nsAtom
 aTag
 )
 ;
+void
+CloseContainerForOutputFormatted
+(
+const
+nsAtom
+*
+aTag
+)
+;
 nsresult
 DoAddLeaf
 (
