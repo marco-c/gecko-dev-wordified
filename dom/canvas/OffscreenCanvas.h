@@ -186,6 +186,9 @@ AsyncCanvasRenderer
 class
 CanvasClient
 ;
+class
+ImageContainer
+;
 }
 /
 /
@@ -769,6 +772,15 @@ return
 mCompositorBackendType
 ;
 }
+layers
+:
+:
+ImageContainer
+*
+GetImageContainer
+(
+)
+;
 private
 :
 ~
