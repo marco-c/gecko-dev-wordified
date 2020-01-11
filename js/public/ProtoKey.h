@@ -558,7 +558,7 @@ Math
 REAL
 (
 Number
-InitNumberClass
+InitViaClassSpec
 OCLASP
 (
 Number
