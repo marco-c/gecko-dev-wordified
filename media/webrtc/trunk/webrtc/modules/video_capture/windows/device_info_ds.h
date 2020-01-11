@@ -405,6 +405,9 @@ _wndClass
 HINSTANCE
 _hInstance
 ;
+HDEVNOTIFY
+_hdevnotify
+;
 }
 ;
 }
