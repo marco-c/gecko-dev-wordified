@@ -717,6 +717,10 @@ if
 (
 !
 target
+|
+|
+!
+target
 .
 id
 )
