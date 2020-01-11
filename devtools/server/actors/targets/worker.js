@@ -718,6 +718,7 @@ then
 (
 (
 {
+workerName
 threadActor
 transport
 consoleActor
@@ -726,6 +727,12 @@ consoleActor
 =
 >
 {
+this
+.
+_workerName
+=
+workerName
+;
 this
 .
 _threadActor
@@ -751,6 +758,11 @@ type
 "
 connected
 "
+workerName
+:
+this
+.
+_workerName
 threadActor
 :
 this
