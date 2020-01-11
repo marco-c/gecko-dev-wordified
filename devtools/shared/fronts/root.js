@@ -1599,6 +1599,8 @@ ContentProcessTargetFront
 this
 .
 _client
+null
+this
 )
 ;
 }
@@ -1633,6 +1635,8 @@ BrowsingContextTargetFront
 this
 .
 _client
+null
+this
 )
 ;
 }
@@ -1783,6 +1787,8 @@ ProcessDescriptorFront
 this
 .
 _client
+null
+this
 )
 ;
 front
@@ -2325,6 +2331,8 @@ LocalTabTargetFront
 this
 .
 _client
+null
+this
 filter
 .
 tab
@@ -2341,6 +2349,8 @@ BrowsingContextTargetFront
 this
 .
 _client
+null
+this
 )
 ;
 }

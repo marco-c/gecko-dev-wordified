@@ -526,13 +526,8 @@ BrowsingContextTargetFront
 this
 .
 conn
-{
-actor
-:
-form
-.
-actor
-}
+null
+this
 )
 ;
 front
