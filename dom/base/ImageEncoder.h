@@ -828,7 +828,7 @@ and
 *
 ExtractDataFromLayersImageAsync
 .
-ReceiveBlob
+ReceiveBlobImpl
 (
 )
 is
@@ -836,8 +836,8 @@ called
 on
 main
 thread
-when
 *
+when
 encoding
 is
 complete
@@ -856,13 +856,13 @@ EncodeCompleteCallback
 MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
-ReceiveBlob
+ReceiveBlobImpl
 (
 already_AddRefed
 <
-Blob
+BlobImpl
 >
-aBlob
+aBlobImpl
 )
 =
 0

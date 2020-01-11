@@ -283,11 +283,6 @@ Impl
 )
 )
 ;
-MOZ_ASSERT
-(
-file
-)
-;
 mCallback
 -
 >

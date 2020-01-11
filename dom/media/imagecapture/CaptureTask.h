@@ -146,7 +146,7 @@ namespace
 dom
 {
 class
-Blob
+BlobImpl
 ;
 class
 ImageCapture
@@ -387,9 +387,9 @@ already_AddRefed
 dom
 :
 :
-Blob
+BlobImpl
 >
-aBlob
+aBlobImpl
 nsresult
 aRv
 )
