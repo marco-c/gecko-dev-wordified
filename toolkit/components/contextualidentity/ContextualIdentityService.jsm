@@ -3164,7 +3164,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 {
 /

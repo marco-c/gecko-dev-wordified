@@ -1414,7 +1414,7 @@ Services
 .
 cookiemgr
 .
-enumerator
+cookies
 )
 {
 +

@@ -190,7 +190,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 {
 i
@@ -258,7 +258,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 {
 if

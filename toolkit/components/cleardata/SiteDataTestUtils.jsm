@@ -1003,7 +1003,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 {
 if

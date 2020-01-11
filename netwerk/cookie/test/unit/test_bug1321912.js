@@ -396,7 +396,7 @@ table
 /
 /
 Get
-sessionEnumerator
+sessionCookies
 to
 wait
 for
@@ -406,13 +406,13 @@ in
 cookie
 thread
 const
-enumerator
+cookies
 =
 Services
 .
 cookies
 .
-sessionEnumerator
+sessionCookies
 ;
 Assert
 .
