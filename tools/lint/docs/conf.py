@@ -309,8 +309,9 @@ copyright
 u
 '
 2015
-Andrew
-Halberstadt
+-
+Today
+Mozilla
 '
 author
 =
@@ -318,6 +319,8 @@ u
 '
 Andrew
 Halberstadt
+and
+others
 '
 #
 The
@@ -332,7 +335,7 @@ version
 '
 0
 .
-1
+2
 .
 0
 '
@@ -353,7 +356,7 @@ release
 '
 0
 .
-1
+2
 .
 0
 '
