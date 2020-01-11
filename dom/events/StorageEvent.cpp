@@ -414,9 +414,6 @@ const
 StorageEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

@@ -1868,9 +1868,6 @@ const
 EventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

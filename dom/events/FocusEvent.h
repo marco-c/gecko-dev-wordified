@@ -242,9 +242,6 @@ const
 FocusEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 protected

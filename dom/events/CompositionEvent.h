@@ -235,9 +235,6 @@ const
 CompositionEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

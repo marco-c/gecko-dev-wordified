@@ -630,9 +630,6 @@ const
 InputEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

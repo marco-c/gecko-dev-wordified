@@ -230,9 +230,6 @@ const
 AnimationEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

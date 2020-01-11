@@ -292,9 +292,6 @@ const
 UIEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 virtual

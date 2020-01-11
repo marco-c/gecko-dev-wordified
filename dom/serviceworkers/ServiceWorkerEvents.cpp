@@ -1009,9 +1009,6 @@ const
 FetchEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -7051,9 +7048,6 @@ const
 ExtendableMessageEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
@@ -7077,7 +7071,6 @@ Constructor
 t
 aType
 aOptions
-aRv
 )
 ;
 }
@@ -7112,9 +7105,6 @@ const
 ExtendableMessageEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 RefPtr

@@ -694,9 +694,6 @@ const
 TouchEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 protected

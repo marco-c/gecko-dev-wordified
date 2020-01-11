@@ -357,9 +357,6 @@ const
 MessageEventInit
 &
 aEventInit
-ErrorResult
-&
-aRv
 )
 ;
 static

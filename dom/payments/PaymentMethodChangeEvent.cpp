@@ -351,9 +351,6 @@ const
 PaymentMethodChangeEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

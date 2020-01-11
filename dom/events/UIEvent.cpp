@@ -502,9 +502,6 @@ const
 UIEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

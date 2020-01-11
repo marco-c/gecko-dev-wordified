@@ -1902,9 +1902,6 @@ const
 KeyboardEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
@@ -1944,7 +1941,6 @@ InitWithKeyboardEventInit
 target
 aType
 aParam
-aRv
 )
 ;
 return
@@ -1972,9 +1968,6 @@ const
 KeyboardEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 bool
@@ -2280,9 +2273,6 @@ bool
 aShiftKey
 bool
 aMetaKey
-ErrorResult
-&
-aRv
 )
 {
 NS_ENSURE_TRUE_VOID

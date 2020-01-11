@@ -589,9 +589,6 @@ const
 DeviceMotionEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

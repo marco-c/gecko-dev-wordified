@@ -314,9 +314,6 @@ const
 PaymentRequestUpdateEventInit
 &
 aEventInitDict
-ErrorResult
-&
-aRv
 )
 ;
 void

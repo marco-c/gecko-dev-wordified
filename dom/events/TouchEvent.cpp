@@ -2284,9 +2284,6 @@ const
 TouchEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

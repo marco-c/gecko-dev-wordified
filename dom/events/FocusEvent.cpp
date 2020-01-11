@@ -313,9 +313,6 @@ const
 FocusEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

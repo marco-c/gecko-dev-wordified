@@ -263,9 +263,6 @@ const
 NotificationEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 RefPtr
@@ -372,9 +369,6 @@ const
 NotificationEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
@@ -398,7 +392,6 @@ Constructor
 owner
 aType
 aOptions
-aRv
 )
 ;
 }

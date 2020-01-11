@@ -317,9 +317,6 @@ const
 CustomEventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr

@@ -577,9 +577,6 @@ const
 EventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 {
 nsCOMPtr
@@ -798,9 +795,6 @@ const
 FetchEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 bool
@@ -1380,9 +1374,6 @@ const
 ExtendableMessageEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 static
@@ -1404,9 +1395,6 @@ const
 ExtendableMessageEventInit
 &
 aOptions
-ErrorResult
-&
-aRv
 )
 ;
 void

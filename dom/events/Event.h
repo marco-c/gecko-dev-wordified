@@ -1005,9 +1005,6 @@ const
 EventInit
 &
 aParam
-ErrorResult
-&
-aRv
 )
 ;
 void
