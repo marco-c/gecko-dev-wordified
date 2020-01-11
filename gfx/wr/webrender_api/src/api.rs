@@ -2461,7 +2461,7 @@ pinch_zoom
 /
 pub
 fn
-set_is_transform_pinch_zooming
+set_is_transform_async_zooming
 (
 &
 mut
@@ -2483,7 +2483,7 @@ push
 FrameMsg
 :
 :
-SetIsTransformPinchZooming
+SetIsTransformAsyncZooming
 (
 is_zooming
 animation_id
@@ -5672,7 +5672,7 @@ ZoomFactor
 /
 /
 /
-SetIsTransformPinchZooming
+SetIsTransformAsyncZooming
 (
 bool
 PropertyBindingId
@@ -6015,7 +6015,7 @@ SetPinchZoom
 FrameMsg
 :
 :
-SetIsTransformPinchZooming
+SetIsTransformAsyncZooming
 (
 .
 .
@@ -6026,7 +6026,7 @@ SetIsTransformPinchZooming
 FrameMsg
 :
 :
-SetIsTransformPinchZooming
+SetIsTransformAsyncZooming
 "
 }
 )

@@ -3322,7 +3322,7 @@ false
 FrameMsg
 :
 :
-SetIsTransformPinchZooming
+SetIsTransformAsyncZooming
 (
 is_zooming
 animation_id
@@ -3370,14 +3370,14 @@ node
 if
 node
 .
-is_pinch_zooming
+is_async_zooming
 !
 =
 is_zooming
 {
 node
 .
-is_pinch_zooming
+is_async_zooming
 =
 is_zooming
 ;

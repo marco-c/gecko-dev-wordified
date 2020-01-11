@@ -5316,14 +5316,14 @@ scale
 ;
 aTxn
 .
-UpdateIsTransformPinchZooming
+UpdateIsTransformAsyncZooming
 (
 *
 zoomAnimationId
 apzc
 -
 >
-IsPinchZooming
+IsAsyncZooming
 (
 )
 )

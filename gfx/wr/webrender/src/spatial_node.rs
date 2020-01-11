@@ -574,7 +574,7 @@ node
 is
 currently
 being
-pinch
+async
 zoomed
 .
 /
@@ -585,13 +585,13 @@ be
 set
 when
 a
-SetIsTransformPinchZooming
+SetIsTransformAsyncZooming
 FrameMsg
 is
 received
 .
 pub
-is_pinch_zooming
+is_async_zooming
 :
 bool
 /
@@ -1066,7 +1066,7 @@ node_type
 invertible
 :
 true
-is_pinch_zooming
+is_async_zooming
 :
 false
 is_ancestor_or_self_zooming
@@ -1844,7 +1844,7 @@ is_ancestor_or_self_zooming
 =
 self
 .
-is_pinch_zooming
+is_async_zooming
 |
 is_parent_zooming
 ;
