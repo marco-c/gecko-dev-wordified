@@ -10373,10 +10373,11 @@ counter
 var
 assertionLabel
 =
-msgs
+JSON
 .
-toSource
+stringify
 (
+msgs
 )
 ;
 function
