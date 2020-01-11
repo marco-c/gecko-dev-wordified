@@ -150,7 +150,9 @@ chooseFileSystemEntries
 type
 :
 '
-openDirectory
+open
+-
+directory
 '
 }
 )
