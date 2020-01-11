@@ -911,7 +911,7 @@ active
 "
 "
 }
-doc
+toolboxDoc
 :
 document
 label

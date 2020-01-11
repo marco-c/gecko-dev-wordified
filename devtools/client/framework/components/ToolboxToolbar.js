@@ -1855,7 +1855,7 @@ id
 -
 panel
 "
-doc
+toolboxDoc
 :
 toolbox
 .
@@ -2661,7 +2661,7 @@ meatballMenuButtonId
 -
 panel
 "
-doc
+toolboxDoc
 :
 toolbox
 .

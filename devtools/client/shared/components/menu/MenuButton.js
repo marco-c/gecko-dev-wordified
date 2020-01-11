@@ -324,8 +324,10 @@ return
 /
 /
 The
+toolbox
 document
-to
+that
+will
 be
 used
 for
@@ -334,7 +336,7 @@ the
 menu
 popup
 .
-doc
+toolboxDoc
 :
 PropTypes
 .
@@ -640,7 +642,7 @@ win
 :
 props
 .
-doc
+toolboxDoc
 .
 defaultView
 .
@@ -801,7 +803,7 @@ win
 =
 nextProps
 .
-doc
+toolboxDoc
 .
 defaultView
 .
@@ -811,7 +813,7 @@ if
 (
 nextProps
 .
-doc
+toolboxDoc
 !
 =
 =
@@ -819,7 +821,7 @@ this
 .
 props
 .
-doc
+toolboxDoc
 |
 |
 this
@@ -1003,7 +1005,7 @@ this
 .
 props
 .
-doc
+toolboxDoc
 tooltipProps
 )
 ;
@@ -2486,14 +2488,14 @@ this
 .
 props
 .
-doc
+toolboxDoc
 &
 &
 this
 .
 props
 .
-doc
+toolboxDoc
 .
 activeElement
 =
