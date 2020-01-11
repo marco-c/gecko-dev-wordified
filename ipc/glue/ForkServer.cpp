@@ -1921,6 +1921,10 @@ server
 )
 )
 ;
+NS_LogTerm
+(
+)
+;
 return
 true
 ;
