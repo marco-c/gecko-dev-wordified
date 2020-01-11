@@ -1329,15 +1329,6 @@ CookieBehavior
 ACCEPT_NON_TRACKERS
 )
 .
-etpLevel
-(
-ContentBlocking
-.
-EtpLevel
-.
-DEFAULT
-)
-.
 build
 (
 )
