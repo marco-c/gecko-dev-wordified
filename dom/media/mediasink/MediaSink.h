@@ -1018,13 +1018,6 @@ aSecondary
 }
 virtual
 void
-ClearSecondaryVideoContainer
-(
-)
-{
-}
-virtual
-void
 GetDebugInfo
 (
 dom

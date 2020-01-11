@@ -397,12 +397,6 @@ aSecondary
 override
 ;
 void
-ClearSecondaryVideoContainer
-(
-)
-override
-;
-void
 GetDebugInfo
 (
 dom
