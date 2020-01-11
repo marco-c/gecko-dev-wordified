@@ -56,8 +56,6 @@ MPL
 from
 __future__
 import
-absolute_import
-unicode_literals
 print_function
 import
 sys
@@ -99,10 +97,8 @@ from
 collections
 import
 OrderedDict
-import
-six
 from
-six
+StringIO
 import
 StringIO
 import
@@ -340,15 +336,11 @@ f
 .
 open
 (
-'
-rb
-'
 )
 .
 read
 md5_chunk_size
 )
-                        
 b
 '
 '
@@ -359,12 +351,7 @@ md5
 .
 update
 (
-six
-.
-ensure_binary
-(
 buf
-)
 )
             
 content_size
@@ -372,12 +359,7 @@ content_size
 =
 len
 (
-six
-.
-ensure_binary
-(
 buf
-)
 )
         
 m
@@ -470,11 +452,10 @@ paths
 in
 sorted
 (
-six
+md5s
 .
 iteritems
 (
-md5s
 )
                                                
 key

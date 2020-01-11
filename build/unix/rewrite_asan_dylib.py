@@ -53,12 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
-unicode_literals
 import
 re
 import
@@ -156,10 +150,6 @@ l
 '
 filename
 ]
-                                       
-universal_newlines
-=
-True
 )
     
 currentCmd
@@ -507,9 +497,6 @@ L
 '
 filename
 ]
-universal_newlines
-=
-True
 )
             
 except
