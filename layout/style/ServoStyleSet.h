@@ -257,6 +257,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsIMemoryReporter
+.
+h
+"
 namespace
 mozilla
 {

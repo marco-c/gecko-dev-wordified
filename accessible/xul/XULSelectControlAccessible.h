@@ -124,13 +124,6 @@ AccessibleWrap
 .
 h
 "
-#
-include
-"
-nsIDOMXULSelectCntrlEl
-.
-h
-"
 namespace
 mozilla
 {

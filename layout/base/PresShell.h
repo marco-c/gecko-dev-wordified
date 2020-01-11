@@ -183,6 +183,13 @@ h
 #
 include
 "
+Visibility
+.
+h
+"
+#
+include
+"
 ZoomConstraintsClient
 .
 h
@@ -402,13 +409,6 @@ h
 include
 "
 nsIContent
-.
-h
-"
-#
-include
-"
-nsIImageLoadingContent
 .
 h
 "

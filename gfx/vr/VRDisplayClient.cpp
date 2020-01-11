@@ -204,13 +204,6 @@ nsServiceManagerUtils
 h
 "
 #
-include
-"
-nsIScreenManager
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

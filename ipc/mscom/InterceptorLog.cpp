@@ -250,13 +250,6 @@ h
 #
 include
 "
-nsIFileStreams
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -265,6 +258,13 @@ h
 include
 "
 nsIObserverService
+.
+h
+"
+#
+include
+"
+nsIOutputStream
 .
 h
 "

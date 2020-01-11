@@ -139,13 +139,6 @@ h
 #
 include
 "
-imgIContainer
-.
-h
-"
-#
-include
-"
 nsRect
 .
 h

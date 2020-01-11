@@ -478,17 +478,6 @@ NS_WARNING
 #
 include
 "
-nsIObserver
-.
-h
-"
-/
-/
-for
-nsIObserver
-#
-include
-"
 nsISupportsImpl
 .
 h

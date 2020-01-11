@@ -254,13 +254,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

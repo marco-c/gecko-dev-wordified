@@ -194,13 +194,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsBoxLayout
 .
 h

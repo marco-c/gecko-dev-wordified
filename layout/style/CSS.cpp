@@ -172,13 +172,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsStyleUtil
 .
 h

@@ -606,13 +606,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsBoxLayout
 .
 h
@@ -734,13 +727,6 @@ Needed
 for
 Print
 Preview
-#
-include
-"
-nsIURI
-.
-h
-"
 #
 include
 "

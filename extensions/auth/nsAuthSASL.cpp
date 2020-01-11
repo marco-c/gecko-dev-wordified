@@ -89,14 +89,14 @@ h
 #
 include
 "
-nsIServiceManager
+nsIPrefService
 .
 h
 "
 #
 include
 "
-nsIPrefService
+nsServiceManagerUtils
 .
 h
 "

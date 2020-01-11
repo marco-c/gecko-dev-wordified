@@ -233,13 +233,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -294,13 +287,6 @@ h
 include
 "
 nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
-nsIServiceManager
 .
 h
 "

@@ -167,13 +167,6 @@ h
 #
 include
 "
-nsIAccessibleTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PresShell

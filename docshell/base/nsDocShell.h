@@ -343,13 +343,6 @@ h
 #
 include
 "
-nsIRemoteTab
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

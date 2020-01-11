@@ -268,13 +268,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeOwner
 .
 h
@@ -330,13 +323,6 @@ h
 include
 "
 nsIPropertyBag2
-.
-h
-"
-#
-include
-"
-nsIServiceManager
 .
 h
 "

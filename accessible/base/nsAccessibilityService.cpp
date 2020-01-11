@@ -251,13 +251,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h
@@ -320,13 +313,6 @@ h
 include
 "
 xpcAccessibleApplication
-.
-h
-"
-#
-include
-"
-xpcAccessibleDocument
 .
 h
 "

@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -178,13 +171,6 @@ h
 include
 "
 nsMemory
-.
-h
-"
-#
-include
-"
-nsIStringStream
 .
 h
 "

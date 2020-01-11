@@ -207,17 +207,6 @@ etc
 #
 include
 "
-nsIDocShell
-.
-h
-"
-/
-/
-for
-nsIDocShell
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

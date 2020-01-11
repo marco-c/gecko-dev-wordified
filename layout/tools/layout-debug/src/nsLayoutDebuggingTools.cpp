@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsAtom
 .
 h
@@ -197,13 +190,6 @@ h
 include
 "
 nsLayoutCID
-.
-h
-"
-#
-include
-"
-nsISelectionController
 .
 h
 "

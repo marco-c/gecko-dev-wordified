@@ -142,13 +142,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsWindowSizes
 .
 h

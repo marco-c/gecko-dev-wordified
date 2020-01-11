@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsIFile
-.
-h
-"
-#
-include
-"
 nsSimpleEnumerator
 .
 h

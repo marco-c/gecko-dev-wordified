@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsICookieService
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

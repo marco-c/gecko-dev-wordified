@@ -264,17 +264,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-/
-/
-for
-NS_DISPATCH_NORMAL
-#
-include
-"
 nsIObserver
 .
 h

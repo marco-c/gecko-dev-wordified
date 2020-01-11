@@ -326,17 +326,6 @@ already_AddRefed
 #
 include
 "
-nsIObserver
-.
-h
-"
-/
-/
-for
-nsIObserver
-#
-include
-"
 nsISupportsImpl
 .
 h

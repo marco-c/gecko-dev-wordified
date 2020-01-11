@@ -146,13 +146,6 @@ h
 #
 include
 "
-xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
 xpcAccessibleTextRange
 .
 h

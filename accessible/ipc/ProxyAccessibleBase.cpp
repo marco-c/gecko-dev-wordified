@@ -222,13 +222,6 @@ RelationType
 .
 h
 "
-#
-include
-"
-xpcAccessibleDocument
-.
-h
-"
 namespace
 mozilla
 {

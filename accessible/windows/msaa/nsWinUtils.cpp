@@ -174,13 +174,6 @@ h
 #
 include
 "
-nsIArray
-.
-h
-"
-#
-include
-"
 nsICSSDeclaration
 .
 h
@@ -193,13 +186,6 @@ mozilla
 dom
 /
 Document
-.
-h
-"
-#
-include
-"
-nsIDocShellTreeItem
 .
 h
 "

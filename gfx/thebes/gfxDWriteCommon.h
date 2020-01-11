@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -166,13 +159,6 @@ h
 include
 "
 gfxWindowsPlatform
-.
-h
-"
-#
-include
-"
-nsIUUIDGenerator
 .
 h
 "

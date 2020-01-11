@@ -296,13 +296,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsLayoutStatics
 .
 h

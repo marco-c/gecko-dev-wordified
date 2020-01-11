@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsIPluginInstanceOwner
-.
-h
-"
-#
-include
-"
 nsNPAPIPluginInstance
 .
 h

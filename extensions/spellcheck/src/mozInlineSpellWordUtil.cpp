@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsUnicodeProperties
 .
 h

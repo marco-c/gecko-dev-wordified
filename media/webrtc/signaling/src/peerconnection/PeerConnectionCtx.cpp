@@ -175,17 +175,6 @@ h
 #
 include
 "
-nsIIOService
-.
-h
-"
-/
-/
-NS_IOSERVICE_
-*
-#
-include
-"
 mozilla
 /
 Services

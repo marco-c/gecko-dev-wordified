@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-nsIDirectoryService
-.
-h
-"
-#
-include
-"
 DirectoryProvider
 .
 h
@@ -192,13 +185,6 @@ h
 include
 "
 nsXULAppAPI
-.
-h
-"
-#
-include
-"
-nsIPrefLocalizedString
 .
 h
 "

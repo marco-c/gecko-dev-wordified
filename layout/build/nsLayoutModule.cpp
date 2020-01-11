@@ -333,13 +333,6 @@ nsIEventListenerService
 .
 h
 "
-#
-include
-"
-nsIMessageManager
-.
-h
-"
 /
 /
 view

@@ -616,13 +616,6 @@ h
 #
 include
 "
-nsIDOMChromeWindow
-.
-h
-"
-#
-include
-"
 nsFrameLoader
 .
 h

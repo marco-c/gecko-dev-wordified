@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIMathMLFrame
 .
 h

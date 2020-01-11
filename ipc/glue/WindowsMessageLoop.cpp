@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsIXULAppInfo
-.
-h
-"
-#
-include
-"
 WinUtils
 .
 h

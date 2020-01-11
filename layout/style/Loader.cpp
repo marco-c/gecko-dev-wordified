@@ -318,13 +318,6 @@ h
 #
 include
 "
-nsIProtocolHandler
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -559,13 +552,6 @@ endif
 include
 "
 nsError
-.
-h
-"
-#
-include
-"
-nsIContentSecurityPolicy
 .
 h
 "

@@ -151,13 +151,6 @@ Clipboard
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h

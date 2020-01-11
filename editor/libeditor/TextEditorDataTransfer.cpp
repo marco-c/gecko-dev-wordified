@@ -246,13 +246,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -275,13 +268,6 @@ h
 include
 "
 nsIFormControl
-.
-h
-"
-#
-include
-"
-nsIPlaintextEditor
 .
 h
 "

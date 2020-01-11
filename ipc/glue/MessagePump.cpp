@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIRunnable
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h

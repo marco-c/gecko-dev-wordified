@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -183,13 +176,6 @@ h
 include
 "
 nsIPromptService
-.
-h
-"
-#
-include
-"
-nsIServiceManager
 .
 h
 "

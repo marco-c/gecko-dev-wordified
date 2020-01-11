@@ -229,13 +229,6 @@ h
 #
 include
 "
-nsITooltipListener
-.
-h
-"
-#
-include
-"
 nsITooltipTextProvider
 .
 h
@@ -244,13 +237,6 @@ h
 include
 "
 nsCTooltipTextProvider
-.
-h
-"
-#
-include
-"
-nsIDroppedLinkHandler
 .
 h
 "
@@ -276,6 +262,9 @@ dom
 /
 namespace
 mozilla
+class
+nsIDocShellTreeItem
+;
 class
 nsWebBrowser
 ;

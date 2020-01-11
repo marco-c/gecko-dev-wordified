@@ -724,13 +724,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h

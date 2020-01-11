@@ -163,13 +163,6 @@ Document
 .
 h
 "
-#
-include
-"
-nsIServiceManager
-.
-h
-"
 using
 namespace
 mozilla

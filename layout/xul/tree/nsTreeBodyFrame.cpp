@@ -403,13 +403,6 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
 nsBoxLayoutState
 .
 h
@@ -453,13 +446,6 @@ h
 include
 "
 imgIContainer
-.
-h
-"
-#
-include
-"
-imgILoader
 .
 h
 "

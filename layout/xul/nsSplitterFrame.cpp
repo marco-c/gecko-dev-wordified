@@ -236,13 +236,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsContainerFrame
 .
 h

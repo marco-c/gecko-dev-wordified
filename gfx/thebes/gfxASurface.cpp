@@ -296,13 +296,6 @@ h
 #
 include
 "
-imgIEncoder
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -332,13 +325,6 @@ h
 include
 "
 nsString
-.
-h
-"
-#
-include
-"
-nsIClipboardHelper
 .
 h
 "

@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

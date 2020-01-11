@@ -217,13 +217,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 ContentPrincipal
 .
 h

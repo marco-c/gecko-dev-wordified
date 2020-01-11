@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h

@@ -108,13 +108,6 @@ h
 #
 include
 "
-IPeerConnection
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -307,13 +300,6 @@ mozilla
 dom
 /
 RTCStatsReportBinding
-.
-h
-"
-#
-include
-"
-nsIPrincipal
 .
 h
 "

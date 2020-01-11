@@ -265,13 +265,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h

@@ -244,13 +244,6 @@ endif
 #
 include
 "
-nsIPropertyBag2
-.
-h
-"
-#
-include
-"
 nsIThreadManager
 .
 h

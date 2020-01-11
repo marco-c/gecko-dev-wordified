@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

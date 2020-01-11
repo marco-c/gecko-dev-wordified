@@ -115,14 +115,14 @@ h
 #
 include
 "
-nsDirectoryServiceDefs
+imgITools
 .
 h
 "
 #
 include
 "
-nsIDirectoryService
+nsDirectoryServiceDefs
 .
 h
 "

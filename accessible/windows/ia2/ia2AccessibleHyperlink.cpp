@@ -112,13 +112,6 @@ MPL
 #
 include
 "
-Accessible2
-.
-h
-"
-#
-include
-"
 AccessibleHyperlink
 .
 h

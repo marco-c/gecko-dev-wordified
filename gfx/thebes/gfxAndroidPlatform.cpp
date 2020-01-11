@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsIScreenManager
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

@@ -180,13 +180,6 @@ h
 #
 include
 "
-nsIAsyncShutdown
-.
-h
-"
-#
-include
-"
 nsICrashService
 .
 h

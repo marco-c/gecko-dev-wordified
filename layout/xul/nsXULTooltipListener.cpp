@@ -156,13 +156,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIDragService
 .
 h

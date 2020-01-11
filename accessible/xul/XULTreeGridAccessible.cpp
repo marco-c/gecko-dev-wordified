@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsPersistentProperties
 .
 h

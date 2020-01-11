@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIIconURI
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

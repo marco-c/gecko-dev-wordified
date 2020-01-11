@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

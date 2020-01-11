@@ -103,14 +103,14 @@ h
 #
 include
 "
-nsReadableUtils
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsIServiceManager
+nsReadableUtils
 .
 h
 "

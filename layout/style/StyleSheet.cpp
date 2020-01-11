@@ -297,13 +297,6 @@ SheetLoadData
 .
 h
 "
-#
-include
-"
-nsIReferrerInfo
-.
-h
-"
 namespace
 mozilla
 {

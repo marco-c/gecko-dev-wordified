@@ -180,13 +180,6 @@ RootAccessibleWrap
 h
 "
 #
-include
-"
-xpcAccessibleDocument
-.
-h
-"
-#
 ifdef
 A11Y_LOG
 #

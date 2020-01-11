@@ -149,13 +149,6 @@ h
 #
 include
 "
-xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

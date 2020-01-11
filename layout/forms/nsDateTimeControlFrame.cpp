@@ -224,13 +224,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

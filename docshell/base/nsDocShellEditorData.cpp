@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsEditingSession
 .
 h

@@ -168,13 +168,6 @@ h
 #
 include
 "
-imgITools
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

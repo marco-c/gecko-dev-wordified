@@ -226,13 +226,6 @@ h
 #
 include
 "
-imgIRequest
-.
-h
-"
-#
-include
-"
 imgRequestProxy
 .
 h
@@ -245,13 +238,6 @@ mozilla
 dom
 /
 Document
-.
-h
-"
-#
-include
-"
-nsIURIMutator
 .
 h
 "

@@ -123,13 +123,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

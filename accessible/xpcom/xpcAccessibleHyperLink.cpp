@@ -123,13 +123,6 @@ h
 #
 include
 "
-xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

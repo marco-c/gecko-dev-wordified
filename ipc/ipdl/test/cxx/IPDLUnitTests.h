@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsIAppShell
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

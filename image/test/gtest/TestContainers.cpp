@@ -89,13 +89,6 @@ h
 #
 include
 "
-imgITools
-.
-h
-"
-#
-include
-"
 ImageFactory
 .
 h

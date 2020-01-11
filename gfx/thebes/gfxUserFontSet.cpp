@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsIProtocolHandler
-.
-h
-"
-#
-include
-"
 gfxFontConstants
 .
 h

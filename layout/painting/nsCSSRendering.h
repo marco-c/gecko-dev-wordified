@@ -148,13 +148,6 @@ h
 #
 include
 "
-imgIContainer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

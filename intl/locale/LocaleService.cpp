@@ -200,13 +200,6 @@ h
 #
 include
 "
-nsIToolkitChromeRegistry
-.
-h
-"
-#
-include
-"
 nsStringEnumerator
 .
 h

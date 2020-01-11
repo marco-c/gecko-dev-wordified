@@ -116,10 +116,3 @@ this
 header
 file
 .
-#
-include
-"
-nsITransactionManager
-.
-h
-"

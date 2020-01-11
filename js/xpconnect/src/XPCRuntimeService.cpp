@@ -138,13 +138,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

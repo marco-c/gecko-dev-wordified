@@ -130,13 +130,6 @@ h
 #
 include
 "
-xpcAccessibleDocument
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h

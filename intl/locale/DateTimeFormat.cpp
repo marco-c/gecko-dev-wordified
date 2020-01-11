@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 intl

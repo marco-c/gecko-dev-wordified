@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsIXULAppInfo
 .
 h

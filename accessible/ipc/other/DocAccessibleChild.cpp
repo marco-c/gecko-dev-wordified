@@ -195,13 +195,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsAccUtils
 .
 h

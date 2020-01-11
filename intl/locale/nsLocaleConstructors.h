@@ -125,13 +125,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 LocaleService
 .
 h

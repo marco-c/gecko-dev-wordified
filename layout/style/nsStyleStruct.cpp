@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsIAppShellService
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

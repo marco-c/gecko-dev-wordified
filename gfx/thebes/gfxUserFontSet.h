@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsIRunnable
 .
 h
@@ -177,13 +170,6 @@ h
 include
 "
 nsIScriptError
-.
-h
-"
-#
-include
-"
-nsIURI
 .
 h
 "

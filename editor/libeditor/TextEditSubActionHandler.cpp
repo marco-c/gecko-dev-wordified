@@ -291,13 +291,6 @@ h
 #
 include
 "
-nsIDocumentEncoder
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h

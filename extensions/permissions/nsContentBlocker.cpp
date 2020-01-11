@@ -80,13 +80,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h
@@ -123,13 +116,6 @@ h
 include
 "
 nsContentPolicyUtils
-.
-h
-"
-#
-include
-"
-nsIObjectLoadingContent
 .
 h
 "

@@ -247,13 +247,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
