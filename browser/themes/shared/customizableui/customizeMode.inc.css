@@ -3416,6 +3416,10 @@ panel
 -
 arrowbox
 {
+display
+:
+block
+;
 position
 :
 relative
