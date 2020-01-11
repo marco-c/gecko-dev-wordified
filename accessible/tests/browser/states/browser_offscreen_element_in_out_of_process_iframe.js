@@ -493,9 +493,6 @@ target
 nsIAccessibleStates
 .
 STATE_OFFSCREEN
-nsIAccessibleStates
-.
-STATE_INVISIBLE
 )
 ;
 /
@@ -539,9 +536,6 @@ target
 nsIAccessibleStates
 .
 STATE_OFFSCREEN
-nsIAccessibleStates
-.
-STATE_INVISIBLE
 )
 ;
 /
@@ -572,9 +566,6 @@ iframe
 target
 "
 0
-nsIAccessibleStates
-.
-STATE_OFFSCREEN
 )
 ;
 /
@@ -602,9 +593,6 @@ target
 nsIAccessibleStates
 .
 STATE_OFFSCREEN
-nsIAccessibleStates
-.
-STATE_INVISIBLE
 )
 ;
 }
