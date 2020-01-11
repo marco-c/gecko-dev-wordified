@@ -2025,7 +2025,7 @@ aRenderingContext
 )
 override
 ;
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 IntrinsicISizeOffsets
 (
 nscoord

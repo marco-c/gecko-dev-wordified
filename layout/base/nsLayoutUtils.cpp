@@ -35418,7 +35418,7 @@ const
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 &
 aOffsets
 nsLayoutUtils
@@ -35491,7 +35491,7 @@ coordOutsideSize
 =
 aOffsets
 .
-hPadding
+padding
 ;
 }
 coordOutsideSize
@@ -35499,7 +35499,7 @@ coordOutsideSize
 =
 aOffsets
 .
-hBorder
+border
 ;
 if
 (
@@ -35535,7 +35535,7 @@ coordOutsideSize
 =
 aOffsets
 .
-hMargin
+margin
 ;
 min
 +
@@ -35836,7 +35836,7 @@ themeSize
 =
 aOffsets
 .
-hMargin
+margin
 ;
 if
 (
@@ -38120,7 +38120,7 @@ childWM
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 offsets
 =
 MOZ_LIKELY
@@ -39180,7 +39180,7 @@ childWM
 nsIFrame
 :
 :
-IntrinsicISizeOffsetData
+IntrinsicSizeOffsetData
 offsets
 =
 ourInlineAxis
