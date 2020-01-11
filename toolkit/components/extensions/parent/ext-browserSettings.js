@@ -1365,9 +1365,6 @@ fire
 async
 (
 {
-details
-:
-{
 levelOfControl
 :
 "
@@ -1383,7 +1380,6 @@ getStringPref
 (
 HOMEPAGE_URL_PREF
 )
-}
 }
 )
 ;
@@ -1591,9 +1587,6 @@ fire
 async
 (
 {
-details
-:
-{
 levelOfControl
 :
 "
@@ -1604,7 +1597,6 @@ value
 aboutNewTabService
 .
 newTabURL
-}
 }
 )
 ;

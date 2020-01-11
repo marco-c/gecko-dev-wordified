@@ -3412,9 +3412,6 @@ fire
 .
 async
 (
-{
-details
-:
 await
 settingsAPI
 .
@@ -3423,7 +3420,6 @@ get
 {
 }
 )
-}
 )
 ;
 }
