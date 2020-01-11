@@ -261,7 +261,7 @@ title
 .
 textContent
 "
-Delete
+Remove
 this
 login
 ?
@@ -336,10 +336,10 @@ confirmDeleteButton
 .
 textContent
 "
-Delete
+Remove
 "
 "
-Delete
+Remove
 button
 contents
 should
