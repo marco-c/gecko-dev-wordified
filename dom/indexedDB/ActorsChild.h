@@ -311,6 +311,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -1289,7 +1298,7 @@ BackgroundFactoryRequestChild
 friend
 IDBDatabase
 ;
-nsAutoPtr
+UniquePtr
 <
 DatabaseSpec
 >
@@ -1340,6 +1349,10 @@ AssertIsOnOwningThread
 ;
 return
 mSpec
+.
+get
+(
+)
 ;
 }
 IDBDatabase
