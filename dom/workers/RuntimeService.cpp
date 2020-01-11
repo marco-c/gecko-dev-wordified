@@ -5663,7 +5663,10 @@ PreserveWrapper
 JS_InitDestroyPrincipalsCallback
 (
 cx
-DestroyWorkerPrincipals
+WorkerPrincipal
+:
+:
+Destroy
 )
 ;
 JS_SetWrapObjectCallbacks
