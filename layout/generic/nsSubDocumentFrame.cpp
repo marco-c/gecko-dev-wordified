@@ -6776,7 +6776,7 @@ get
 }
 }
 static
-bool
+CallState
 BeginSwapDocShellsForDocument
 (
 Document
@@ -6863,7 +6863,10 @@ nullptr
 )
 ;
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 static
@@ -7275,7 +7278,7 @@ NS_OK
 ;
 }
 static
-bool
+CallState
 EndSwapDocShellsForDocument
 (
 Document
@@ -7486,7 +7489,10 @@ nullptr
 )
 ;
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 static
