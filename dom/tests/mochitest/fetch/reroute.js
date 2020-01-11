@@ -83,6 +83,10 @@ headers
 =
 "
 +
+JSON
+.
+stringify
+(
 {
 Referer
 :
@@ -92,9 +96,6 @@ location
 .
 href
 }
-.
-toSource
-(
 )
 ;
 e
