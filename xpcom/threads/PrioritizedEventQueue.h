@@ -699,6 +699,17 @@ aProofOfLock
 )
 final
 ;
+IdlePeriodState
+*
+GetIdlePeriodState
+(
+)
+{
+return
+&
+mIdlePeriodState
+;
+}
 size_t
 SizeOfExcludingThis
 (

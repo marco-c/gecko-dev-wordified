@@ -151,6 +151,9 @@ nsIRunnable
 namespace
 mozilla
 {
+class
+IdlePeriodState
+;
 namespace
 detail
 {
@@ -446,6 +449,17 @@ aProofOfLock
 )
 final
 {
+}
+IdlePeriodState
+*
+GetIdlePeriodState
+(
+)
+const
+{
+return
+nullptr
+;
 }
 size_t
 SizeOfExcludingThis
