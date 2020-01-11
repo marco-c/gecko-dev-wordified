@@ -2535,6 +2535,12 @@ javascript
 return
 ;
 }
+match
+.
+provider
+=
+provider
+;
 this
 .
 context
