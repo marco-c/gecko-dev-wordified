@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIScriptElement
 .
 h

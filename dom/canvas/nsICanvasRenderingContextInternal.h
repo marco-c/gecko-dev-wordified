@@ -127,6 +127,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h
