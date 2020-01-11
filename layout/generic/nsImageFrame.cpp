@@ -10656,7 +10656,7 @@ wrBounds
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 bounds
 )
@@ -10974,6 +10974,12 @@ factor
 )
 )
 ;
+destRect
+.
+Round
+(
+)
+;
 Maybe
 <
 SVGImageContext
@@ -11223,7 +11229,7 @@ dest
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 devPxRect
 )
@@ -11388,7 +11394,7 @@ dest
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 devPxRect
 )
@@ -12910,6 +12916,12 @@ GetDestRect
 )
 factor
 )
+)
+;
+destRect
+.
+Round
+(
 )
 ;
 Maybe

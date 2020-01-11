@@ -2639,6 +2639,12 @@ mDest
 appUnitsPerDevPixel
 )
 ;
+destRect
+.
+Round
+(
+)
+;
 Maybe
 <
 SVGImageContext
@@ -2885,7 +2891,7 @@ dest
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 mPathRect
 )
