@@ -3888,6 +3888,13 @@ userContextId
 options
 .
 userContextId
+|
+|
+Ci
+.
+nsIScriptSecurityManager
+.
+DEFAULT_USER_CONTEXT_ID
 ;
 }
 /
