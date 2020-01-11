@@ -48101,7 +48101,7 @@ void
 nsContentUtils
 :
 :
-FirePageHideEventForFrameLoaderSwap
+FirePageHideEvent
 (
 nsIDocShellTreeItem
 *
@@ -48113,16 +48113,6 @@ bool
 aOnlySystemGroup
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-aItem
-)
-;
-MOZ_DIAGNOSTIC_ASSERT
-(
-aChromeEventHandler
-)
-;
 RefPtr
 <
 Document
@@ -48248,7 +48238,7 @@ i
 ]
 )
 {
-FirePageHideEventForFrameLoaderSwap
+FirePageHideEvent
 (
 kids
 [
@@ -48323,7 +48313,7 @@ void
 nsContentUtils
 :
 :
-FirePageShowEventForFrameLoaderSwap
+FirePageShowEvent
 (
 nsIDocShellTreeItem
 *
@@ -48428,7 +48418,7 @@ i
 ]
 )
 {
-FirePageShowEventForFrameLoaderSwap
+FirePageShowEvent
 (
 kids
 [
