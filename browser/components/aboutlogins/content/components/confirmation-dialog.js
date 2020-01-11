@@ -395,7 +395,7 @@ button
 |
 event
 .
-target
+currentTarget
 .
 classList
 .
