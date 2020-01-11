@@ -197,5 +197,11 @@ T
 rlbox_gr_sandbox_type
 >
 ;
+using
+rlbox
+:
+:
+tainted_boolean_hint
+;
 #
 endif
