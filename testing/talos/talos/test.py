@@ -1795,6 +1795,9 @@ pdfpaint
 '
 webextensions_folder
 '
+'
+a11y
+'
 ]
 class
 QuantumPageloadTest
@@ -5854,6 +5857,10 @@ alert_threshold
 5
 .
 0
+    
+a11y
+=
+True
 class
 WebkitBenchmark
 (
