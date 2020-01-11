@@ -3129,6 +3129,8 @@ Args
 void
 HandleIndividualCursorResponse
 (
+bool
+aUseAsCurrentResult
 Args
 &
 &
