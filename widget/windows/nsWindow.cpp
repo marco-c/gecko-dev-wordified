@@ -27936,14 +27936,6 @@ PlatformCompositorWidgetDelegate
 "
 )
 ;
-mCompositorWidgetDelegate
--
->
-SetParentWnd
-(
-mWnd
-)
-;
 }
 else
 {

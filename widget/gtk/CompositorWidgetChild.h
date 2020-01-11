@@ -157,6 +157,9 @@ RefPtr
 CompositorWidgetVsyncObserver
 >
 aVsyncObserver
+const
+CompositorWidgetInitData
+&
 )
 ;
 ~

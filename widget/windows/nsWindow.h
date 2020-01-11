@@ -392,7 +392,7 @@ class
 NativeKey
 ;
 class
-WinCompositorWidget
+InProcessWinCompositorWidget
 ;
 struct
 MSGResult
@@ -3969,7 +3969,7 @@ mozilla
 widget
 :
 :
-WinCompositorWidget
+InProcessWinCompositorWidget
 >
 mBasicLayersSurface
 ;

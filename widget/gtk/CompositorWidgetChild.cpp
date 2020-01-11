@@ -137,6 +137,9 @@ RefPtr
 CompositorWidgetVsyncObserver
 >
 aVsyncObserver
+const
+CompositorWidgetInitData
+&
 )
 :
 mVsyncDispatcher
