@@ -134,11 +134,12 @@ js
 namespace
 jit
 {
-typedef
+using
+InstrCallback
+=
 void
 (
 *
-InstrCallback
 )
 (
 const
