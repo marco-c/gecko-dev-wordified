@@ -169,10 +169,7 @@ gdb
 parse_and_eval
 (
 '
-js
-:
-:
-Class
+JSClass
 :
 :
 NON_NATIVE
