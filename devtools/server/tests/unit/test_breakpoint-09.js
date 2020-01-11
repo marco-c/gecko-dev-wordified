@@ -482,7 +482,7 @@ n
 +
 /
 /
-line1
+line0
 +
 7
 "
@@ -495,7 +495,7 @@ n
 "
 /
 /
-line1
+line0
 +
 8
 debuggee
