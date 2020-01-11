@@ -6154,6 +6154,7 @@ state
 .
 *
 /
+virtual
 void
 QueueSetAutoend
 (
