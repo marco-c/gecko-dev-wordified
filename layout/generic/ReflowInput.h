@@ -1640,7 +1640,7 @@ ComputedBSize
 (
 )
 were
-NS_INTRINSIC_ISIZE
+NS_UNCONSTRAINEDSIZE
 when
 doing
 /
