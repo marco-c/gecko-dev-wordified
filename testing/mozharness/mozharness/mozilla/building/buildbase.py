@@ -2792,6 +2792,27 @@ py
 '
         
 '
+x86_64
+-
+fuzzing
+-
+asan
+'
+:
+'
+builds
+/
+releng_sub_
+%
+s_configs
+/
+%
+s_x86_64_fuzzing_asan
+.
+py
+'
+        
+'
 api
 -
 16
