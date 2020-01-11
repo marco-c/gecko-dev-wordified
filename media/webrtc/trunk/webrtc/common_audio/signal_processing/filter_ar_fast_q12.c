@@ -217,8 +217,14 @@ j
 *
 data_out
 [
+(
+ptrdiff_t
+)
 i
 -
+(
+ptrdiff_t
+)
 j
 ]
 ;

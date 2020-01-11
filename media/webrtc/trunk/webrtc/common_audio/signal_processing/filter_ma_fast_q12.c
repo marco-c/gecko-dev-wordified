@@ -236,8 +236,14 @@ j
 *
 in_ptr
 [
+(
+ptrdiff_t
+)
 i
 -
+(
+ptrdiff_t
+)
 j
 ]
 ;
