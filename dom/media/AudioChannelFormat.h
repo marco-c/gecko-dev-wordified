@@ -1344,7 +1344,7 @@ mono
 {
 {
 0
-IGNORE
+0
 IGNORE
 }
 }
@@ -1359,7 +1359,7 @@ IGNORE
 {
 {
 0
-IGNORE
+0
 IGNORE
 IGNORE
 IGNORE
