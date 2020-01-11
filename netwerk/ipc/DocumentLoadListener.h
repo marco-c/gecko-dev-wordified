@@ -934,8 +934,6 @@ virtual
 DocumentLoadListener
 (
 )
-=
-default
 ;
 /
 /
