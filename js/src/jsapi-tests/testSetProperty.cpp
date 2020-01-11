@@ -341,11 +341,11 @@ noResolveGlobalClassOps
 nullptr
 /
 /
-add
+addProperty
 nullptr
 /
 /
-delete
+delProperty
 nullptr
 /
 /
@@ -379,6 +379,9 @@ nullptr
 /
 construct
 JS_GlobalObjectTraceHook
+/
+/
+trace
 }
 ;
 static
