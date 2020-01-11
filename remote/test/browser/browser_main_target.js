@@ -97,8 +97,9 @@ targetURL
 }
 )
 ;
-info
+ok
 (
+true
 "
 CDP
 client
