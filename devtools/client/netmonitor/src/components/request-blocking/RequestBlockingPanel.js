@@ -1256,6 +1256,19 @@ this
 renderEnableBar
 (
 )
+div
+(
+{
+className
+:
+"
+request
+-
+blocking
+-
+contents
+"
+}
 this
 .
 renderBlockedList
@@ -1265,6 +1278,7 @@ this
 .
 renderAddForm
 (
+)
 )
 )
 ;
