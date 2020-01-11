@@ -4150,14 +4150,6 @@ false
 #
 endif
 }
-enum
-class
-MessageDirection
-{
-eSending
-eReceiving
-}
-;
 MOZ_NEVER_INLINE
 void
 LogMessageForProtocol
