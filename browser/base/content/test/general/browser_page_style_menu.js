@@ -100,10 +100,9 @@ PAGE
 )
 ;
 await
-promiseStylesheetsLoaded
+promiseStylesheetsUpdated
 (
-tab
-17
+browser
 )
 ;
 let
