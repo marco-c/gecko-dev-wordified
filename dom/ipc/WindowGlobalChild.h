@@ -711,6 +711,8 @@ RecvLoadURIInChild
 nsDocShellLoadState
 *
 aLoadState
+bool
+aSetNavigating
 )
 ;
 mozilla
