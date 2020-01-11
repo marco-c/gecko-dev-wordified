@@ -670,11 +670,14 @@ _cache
         
 ]
     
+try
+:
+        
 proc
 =
 ProcessHandler
 (
-        
+            
 command
 processOutputLine
 =
@@ -685,17 +688,14 @@ False
 cwd
 =
 raptor_dir
-    
+        
 )
-    
+        
 proc
 .
 run
 (
 )
-    
-try
-:
         
 proc
 .
@@ -705,7 +705,35 @@ wait
     
 except
 Exception
+as
+e
 :
+        
+LOG
+.
+critical
+(
+"
+Error
+while
+downloading
+the
+hostutils
+from
+tooltool
+:
+{
+}
+"
+.
+format
+(
+str
+(
+e
+)
+)
+)
         
 if
 proc
@@ -725,6 +753,8 @@ signal
 .
 SIGTERM
 )
+        
+raise
 def
 archive_type
 (
