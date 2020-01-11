@@ -181,9 +181,6 @@ CreateSurface
 size
 :
 DeviceIntSize
-is_opaque
-:
-bool
 }
 DestroySurface
 }
@@ -1192,9 +1189,6 @@ NativeSurfaceId
 size
 :
 DeviceIntSize
-is_opaque
-:
-bool
 )
 -
 >
@@ -1217,7 +1211,6 @@ NativeSurfaceOperationDetails
 CreateSurface
 {
 size
-is_opaque
 }
 }
 )
@@ -1681,9 +1674,6 @@ NativeSurfaceId
 size
 :
 DeviceIntSize
-is_opaque
-:
-bool
 )
 ;
 /
