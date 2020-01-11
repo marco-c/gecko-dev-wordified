@@ -5291,6 +5291,17 @@ kNetAddrMaxCStrBufSize
 PRNetAddr
 addr
 ;
+memset
+(
+&
+addr
+0
+sizeof
+(
+addr
+)
+)
+;
 if
 (
 currentName
