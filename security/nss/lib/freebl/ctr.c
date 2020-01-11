@@ -114,6 +114,9 @@ h
 ifdef
 USE_HW_AES
 #
+ifdef
+NSS_X86_OR_X64
+#
 include
 "
 intel
@@ -122,6 +125,8 @@ aes
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1278,6 +1283,12 @@ USE_HW_AES
 defined
 (
 _MSC_VER
+)
+&
+&
+defined
+(
+NSS_X86_OR_X64
 )
 SECStatus
 CTR_Update_HW_AES
