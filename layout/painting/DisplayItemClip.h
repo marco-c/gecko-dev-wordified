@@ -143,13 +143,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-nsStyleConsts
-.
-h
-"
 class
 gfxContext
 ;

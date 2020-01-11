@@ -163,13 +163,6 @@ h
 #
 include
 "
-gfxFontFamilyList
-.
-h
-"
-#
-include
-"
 gfxBlur
 .
 h
@@ -281,6 +274,9 @@ FT_Library
 namespace
 mozilla
 {
+class
+FontFamilyList
+;
 namespace
 layers
 {

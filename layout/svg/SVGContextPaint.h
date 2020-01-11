@@ -212,6 +212,13 @@ ImgDrawResult
 .
 h
 "
+#
+include
+"
+nsRefPtrHashtable
+.
+h
+"
 class
 gfxContext
 ;
