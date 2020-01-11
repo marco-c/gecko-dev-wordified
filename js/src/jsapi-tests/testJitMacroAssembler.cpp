@@ -389,7 +389,7 @@ if
 ExecutableAllocator
 :
 :
-makeExecutable
+makeExecutableAndFlushICache
 (
 code
 -

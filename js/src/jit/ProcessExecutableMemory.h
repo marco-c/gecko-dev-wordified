@@ -647,6 +647,14 @@ Writable
 Executable
 }
 ;
+enum
+class
+MustFlushICache
+{
+No
+Yes
+}
+;
 extern
 MOZ_MUST_USE
 bool
@@ -659,6 +667,8 @@ size_t
 size
 ProtectionSetting
 protection
+MustFlushICache
+flushICache
 )
 ;
 /
