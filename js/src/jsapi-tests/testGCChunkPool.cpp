@@ -219,12 +219,16 @@ Chunk
 :
 allocate
 (
+&
 cx
 -
 >
 runtime
 (
 )
+-
+>
+gc
 )
 ;
 CHECK

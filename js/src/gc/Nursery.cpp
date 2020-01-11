@@ -543,9 +543,9 @@ Chunk
 *
 toChunk
 (
-JSRuntime
+GCRuntime
 *
-rt
+gc
 )
 ;
 }
@@ -909,9 +909,9 @@ NurseryChunk
 :
 toChunk
 (
-JSRuntime
+GCRuntime
 *
-rt
+gc
 )
 {
 auto
@@ -931,7 +931,7 @@ chunk
 >
 init
 (
-rt
+gc
 )
 ;
 return
@@ -978,9 +978,13 @@ nchunk
 >
 toChunk
 (
+&
 runtime
 (
 )
+-
+>
+gc
 )
 ;
 chunk
