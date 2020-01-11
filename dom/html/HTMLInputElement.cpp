@@ -13576,6 +13576,17 @@ nsTextControlFrame
 aFrame
 )
 {
+MOZ_ASSERT
+(
+!
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
 TextControlState
 *
 state

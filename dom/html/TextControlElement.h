@@ -809,6 +809,17 @@ content
 node
 .
 *
+Be
+aware
+this
+must
+be
+called
+with
+script
+blocker
+.
+*
 /
 virtual
 nsresult
@@ -850,7 +861,7 @@ destroyed
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 UnbindFromFrame

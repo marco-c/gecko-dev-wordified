@@ -2671,6 +2671,17 @@ aElements
 {
 MOZ_ASSERT
 (
+!
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
+MOZ_ASSERT
+(
 mContent
 "
 We

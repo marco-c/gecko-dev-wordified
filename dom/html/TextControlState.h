@@ -1467,7 +1467,7 @@ nsTextControlFrame
 aFrame
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 UnbindFromFrame
 (
@@ -1476,7 +1476,7 @@ nsTextControlFrame
 aFrame
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 PrepareEditor
 (
