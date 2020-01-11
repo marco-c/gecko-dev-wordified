@@ -2368,9 +2368,9 @@ type
 {
 this
 .
-docShell
+win
 .
-browsingContext
+document
 .
 setRDMPaneOrientation
 (
