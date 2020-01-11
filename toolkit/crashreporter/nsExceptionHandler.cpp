@@ -18873,6 +18873,9 @@ uint32_t
 aChildPid
 GeckoProcessType
 aType
+nsString
+*
+aDumpId
 )
 {
 AnnotationTable
@@ -18917,6 +18920,17 @@ id
 {
 return
 false
+;
+}
+if
+(
+aDumpId
+)
+{
+*
+aDumpId
+=
+id
 ;
 }
 annotations
