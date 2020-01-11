@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-MediaHardwareKeysManager
+MediaControlKeysManager
 .
 h
 "

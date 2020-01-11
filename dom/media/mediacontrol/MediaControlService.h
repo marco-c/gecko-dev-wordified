@@ -88,7 +88,7 @@ h
 #
 include
 "
-MediaHardwareKeysManager
+MediaControlKeysManager
 .
 h
 "

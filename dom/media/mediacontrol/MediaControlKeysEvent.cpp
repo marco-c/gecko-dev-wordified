@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-MediaHardwareKeysEvent
+MediaControlKeysEvent
 .
 h
 "

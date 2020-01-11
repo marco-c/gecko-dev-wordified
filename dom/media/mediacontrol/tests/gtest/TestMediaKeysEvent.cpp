@@ -68,7 +68,7 @@ h
 #
 include
 "
-MediaHardwareKeysEvent
+MediaControlKeysEvent
 .
 h
 "

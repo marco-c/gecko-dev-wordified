@@ -65,7 +65,7 @@ mozilla_dom_mediahardwarekeysobservice_h__
 #
 include
 "
-MediaHardwareKeysEvent
+MediaControlKeysEvent
 .
 h
 "
