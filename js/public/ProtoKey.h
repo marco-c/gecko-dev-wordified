@@ -990,8 +990,7 @@ RelativeTimeFormat
 REAL_IF_BDATA
 (
 TypedObject
-InitTypedObjectModuleObject
-\
+InitViaClassSpec
 OCLASP
 (
 TypedObjectModule
