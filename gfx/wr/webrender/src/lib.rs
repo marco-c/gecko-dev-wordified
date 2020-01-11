@@ -1396,11 +1396,7 @@ renderer
 AsyncPropertySampler
 CpuProfile
 DebugFlags
-OutputImageHandler
 RendererKind
-ExternalImage
-ExternalImageHandler
-ExternalImageSource
 GpuProfile
 GraphicsApi
 GraphicsApiInfo

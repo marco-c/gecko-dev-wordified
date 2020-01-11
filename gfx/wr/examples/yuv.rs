@@ -455,9 +455,6 @@ texture_ids
 }
 }
 impl
-webrender
-:
-:
 ExternalImageHandler
 for
 YuvImageProvider
@@ -480,9 +477,6 @@ ImageRendering
 )
 -
 >
-webrender
-:
-:
 ExternalImage
 {
 let
@@ -499,9 +493,6 @@ as
 usize
 ]
 ;
-webrender
-:
-:
 ExternalImage
 {
 uv
@@ -525,9 +516,6 @@ new
 0
 )
 source
-:
-webrender
-:
 :
 ExternalImageSource
 :
@@ -1100,9 +1088,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 ExternalImageHandler
 >
 >
@@ -1111,9 +1096,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 OutputImageHandler
 >
 >

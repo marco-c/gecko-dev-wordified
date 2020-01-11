@@ -567,9 +567,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 ExternalImageHandler
 >
 >
@@ -578,9 +575,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 OutputImageHandler
 >
 >

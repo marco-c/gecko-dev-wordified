@@ -386,9 +386,6 @@ new
 }
 }
 impl
-webrender
-:
-:
 ExternalImageHandler
 for
 ImageGenerator
@@ -411,9 +408,6 @@ ImageRendering
 )
 -
 >
-webrender
-:
-:
 ExternalImage
 {
 self
@@ -425,9 +419,6 @@ as
 i32
 )
 ;
-webrender
-:
-:
 ExternalImage
 {
 uv
@@ -451,9 +442,6 @@ new
 0
 )
 source
-:
-webrender
-:
 :
 ExternalImageSource
 :
@@ -1582,9 +1570,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 ExternalImageHandler
 >
 >
@@ -1593,9 +1578,6 @@ Option
 Box
 <
 dyn
-webrender
-:
-:
 OutputImageHandler
 >
 >
