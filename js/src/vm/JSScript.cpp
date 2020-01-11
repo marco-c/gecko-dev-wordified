@@ -1900,7 +1900,7 @@ See
 JSFunction
 :
 :
-createScriptForLazilyInterpretedFunction
+delazifyLazilyInterpretedFunction
 .
 MOZ_ASSERT
 (
