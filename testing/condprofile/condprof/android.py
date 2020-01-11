@@ -1662,6 +1662,9 @@ self
 )
 :
         
+try
+:
+            
 logcat
 =
 self
@@ -1671,6 +1674,21 @@ device
 get_logcat
 (
 )
+        
+except
+ADBError
+:
+            
+ERROR
+(
+"
+logcat
+call
+failure
+"
+)
+            
+return
         
 if
 logcat
@@ -1719,7 +1737,7 @@ open
 (
 logfile
 "
-w
+wb
 "
 )
 as
@@ -1737,7 +1755,15 @@ f
 write
 (
 line
+.
+encode
+(
+"
+utf8
+"
+)
 +
+b
 "
 \
 n
