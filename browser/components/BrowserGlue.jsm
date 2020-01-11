@@ -825,6 +825,11 @@ SendFavicons
 "
 AboutLogins
 :
+SetBreaches
+"
+"
+AboutLogins
+:
 Setup
 "
 "

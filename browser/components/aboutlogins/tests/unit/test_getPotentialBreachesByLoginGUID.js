@@ -1372,7 +1372,7 @@ add_task
 (
 async
 function
-test_updateBreachesFromRemoteSettingsSync
+test_setBreachesFromRemoteSettingsSync
 (
 )
 {

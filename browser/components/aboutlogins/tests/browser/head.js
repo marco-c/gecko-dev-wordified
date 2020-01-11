@@ -152,6 +152,8 @@ https
 /
 breached
 .
+example
+.
 com
 "
 "
@@ -160,6 +162,8 @@ https
 /
 /
 breached
+.
+example
 .
 com
 "
