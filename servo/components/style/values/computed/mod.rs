@@ -2591,10 +2591,6 @@ inside
 the
 Context
 .
-#
-[
-inline
-]
 fn
 to_computed_value
 (
@@ -2612,10 +2608,6 @@ Self
 :
 ComputedValue
 ;
-#
-[
-inline
-]
 /
 /
 /
