@@ -4914,11 +4914,6 @@ rv
 )
 )
 {
-FailDiversion
-(
-NS_ERROR_UNEXPECTED
-)
-;
 return
 rv
 ;
@@ -4973,11 +4968,6 @@ Delete
 )
 )
 {
-FailDiversion
-(
-NS_ERROR_UNEXPECTED
-)
-;
 return
 NS_ERROR_UNEXPECTED
 ;
