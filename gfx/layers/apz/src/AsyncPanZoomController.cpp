@@ -14610,6 +14610,17 @@ CancelAnimation
 (
 )
 ;
+ParentLayerPoint
+startPoint
+endPoint
+;
+{
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 /
 /
 CallDispatchScroll
@@ -14637,7 +14648,6 @@ to
 be
 reversed
 .
-ParentLayerPoint
 startPoint
 =
 destination
@@ -14650,7 +14660,6 @@ GetZoom
 (
 )
 ;
-ParentLayerPoint
 endPoint
 =
 Metrics
@@ -14669,6 +14678,7 @@ GetZoom
 (
 )
 ;
+}
 ParentLayerPoint
 delta
 =
