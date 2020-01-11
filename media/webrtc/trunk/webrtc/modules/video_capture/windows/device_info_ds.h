@@ -396,6 +396,15 @@ VideoCaptureCapabilityWindows
 >
 _captureCapabilitiesWindows
 ;
+HWND
+_hwnd
+;
+WNDCLASS
+_wndClass
+;
+HINSTANCE
+_hInstance
+;
 }
 ;
 }
