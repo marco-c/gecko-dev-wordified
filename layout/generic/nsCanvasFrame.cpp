@@ -2536,12 +2536,12 @@ wr
 :
 :
 LayoutRect
-r
+roundedRect
 =
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 rect
 )
@@ -2550,8 +2550,8 @@ aBuilder
 .
 PushRect
 (
-r
-r
+roundedRect
+roundedRect
 !
 BackfaceIsHidden
 (

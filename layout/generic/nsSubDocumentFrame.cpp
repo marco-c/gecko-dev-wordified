@@ -10115,7 +10115,7 @@ mozilla
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 rect
 )
