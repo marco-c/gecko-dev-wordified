@@ -134,7 +134,7 @@ Exception
 :
     
 pass
-_PREFS
+DEFAULT_PREFS
 =
 {
     
@@ -208,7 +208,7 @@ extensions
 autoDisableScopes
 "
 :
-0
+10
     
 "
 devtools
@@ -218,6 +218,30 @@ debugger
 remote
 -
 enabled
+"
+:
+True
+    
+"
+devtools
+.
+console
+.
+stdout
+.
+content
+"
+:
+True
+    
+"
+devtools
+.
+console
+.
+stdout
+.
+chrome
 "
 :
 True
@@ -613,7 +637,7 @@ prefs
 .
 update
 (
-_PREFS
+DEFAULT_PREFS
 )
     
 new_profile

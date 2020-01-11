@@ -98,7 +98,7 @@ util
 import
 write_yml_file
 LOG
-_PREFS
+DEFAULT_PREFS
 ERROR
 BaseEnv
 #
@@ -762,7 +762,7 @@ remote_profile
 prefs
 "
 :
-_PREFS
+DEFAULT_PREFS
             
 "
 env
@@ -1477,22 +1477,37 @@ port
 pargs
 =
 [
+            
 self
 .
 binary
+            
 "
 -
 vv
 "
+            
+"
+-
+-
+log
+"
+            
+"
+trace
+"
+            
 "
 -
 -
 port
 "
+            
 str
 (
 port
 )
+            
 "
 -
 -
@@ -1500,9 +1515,11 @@ marionette
 -
 port
 "
+            
 "
 2828
 "
+        
 ]
         
 LOG
@@ -1801,6 +1818,9 @@ get_browser_args
 (
 self
 headless
+prefs
+=
+None
 )
 :
         
@@ -1823,6 +1843,17 @@ headless
 "
 )
         
+if
+prefs
+is
+None
+:
+            
+prefs
+=
+{
+}
+        
 return
 {
 "
@@ -1837,6 +1868,11 @@ args
 "
 :
 options
+"
+prefs
+"
+:
+prefs
 }
 }
     
