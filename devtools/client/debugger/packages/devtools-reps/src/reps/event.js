@@ -67,6 +67,16 @@ PropTypes
 require
 (
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
+react
+-
 prop
 -
 types
