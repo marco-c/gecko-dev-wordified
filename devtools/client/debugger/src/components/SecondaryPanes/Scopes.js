@@ -632,6 +632,14 @@ item
 parent
 .
 contents
+|
+|
+!
+item
+.
+contents
+.
+configurable
 )
 {
 return
