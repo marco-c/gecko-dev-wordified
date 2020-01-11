@@ -996,17 +996,6 @@ innermostEmitterScope_
 /
 Script
 contains
-JSOP_CALLSITEOBJ
-.
-bool
-hasCallSiteObj
-=
-false
-;
-/
-/
-Script
-contains
 finally
 block
 .

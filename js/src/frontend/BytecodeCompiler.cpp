@@ -5510,17 +5510,6 @@ BaseScript
 ImmutableFlags
 :
 :
-HasCallSiteObj
-)
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
 FunctionHasExtraBodyVarScope
 )
 |
