@@ -766,10 +766,10 @@ JS
 :
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
-flat
+linear
 (
 cx
 buffer
@@ -784,7 +784,7 @@ CHECK
 equalStrings
 (
 cx
-flat
+linear
 gLatestMessage
 )
 )
@@ -945,10 +945,10 @@ JS
 :
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
-flat
+linear
 (
 cx
 buffer
@@ -965,7 +965,7 @@ js
 :
 StringEqualsAscii
 (
-flat
+linear
 TO_STRING
 [
 i
