@@ -3510,7 +3510,7 @@ baseScript
 )
 -
 >
-hasThisBinding
+functionHasThisBinding
 (
 )
 ;

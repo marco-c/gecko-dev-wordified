@@ -11376,7 +11376,7 @@ isLikelyConstructorWrapper
 lazy
 -
 >
-setLikelyConstructorWrapper
+setIsLikelyConstructorWrapper
 (
 )
 ;
@@ -11446,7 +11446,7 @@ hasThisBinding
 lazy
 -
 >
-setHasThisBinding
+setFunctionHasThisBinding
 (
 )
 ;
@@ -41968,7 +41968,7 @@ baseScript
 )
 -
 >
-setHasThisBinding
+setFunctionHasThisBinding
 (
 )
 ;
