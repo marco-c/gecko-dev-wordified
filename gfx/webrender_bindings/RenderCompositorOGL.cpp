@@ -947,6 +947,14 @@ gfxVars
 UseWebRenderCompositor
 (
 )
+&
+&
+StaticPrefs
+:
+:
+gfx_webrender_picture_caching
+(
+)
 ;
 }
 uint32_t
