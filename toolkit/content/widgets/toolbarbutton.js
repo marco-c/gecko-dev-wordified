@@ -450,16 +450,6 @@ toolbarbutton
 -
 badge
 "
-top
-=
-"
-0
-"
-end
-=
-"
-0
-"
 crop
 =
 "
