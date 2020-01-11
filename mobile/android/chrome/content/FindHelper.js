@@ -935,6 +935,7 @@ _finder
 .
 findAgain
 (
+searchString
 findBackwards
 false
 false

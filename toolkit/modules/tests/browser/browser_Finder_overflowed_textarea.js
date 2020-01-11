@@ -342,6 +342,7 @@ finder
 .
 findAgain
 (
+TARGET_TEXT
 false
 false
 false
@@ -396,6 +397,7 @@ finder
 .
 findAgain
 (
+TARGET_TEXT
 false
 false
 false

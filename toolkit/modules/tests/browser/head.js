@@ -560,6 +560,8 @@ in
 let
 timeout
 =
+content
+.
 setTimeout
 (
 (
@@ -636,6 +638,8 @@ stubbed
 {
 }
 ;
+content
+.
 clearTimeout
 (
 timeout
@@ -1372,6 +1376,8 @@ node
 ;
 }
 }
+content
+.
 clearTimeout
 (
 timeout
@@ -1379,6 +1385,8 @@ timeout
 ;
 timeout
 =
+content
+.
 setTimeout
 (
 (

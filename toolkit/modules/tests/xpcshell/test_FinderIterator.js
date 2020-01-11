@@ -22,6 +22,14 @@ jsm
 "
 )
 ;
+let
+finderIterator
+=
+new
+FinderIterator
+(
+)
+;
 var
 gFindResults
 =
@@ -51,7 +59,7 @@ be
 searched
 through
 .
-FinderIterator
+finderIterator
 .
 _iterateDocument
 =
@@ -77,7 +85,7 @@ range
 }
 }
 ;
-FinderIterator
+finderIterator
 .
 _rangeStartsInLink
 =
@@ -252,7 +260,7 @@ count
 0
 ;
 await
-FinderIterator
+finderIterator
 .
 start
 (
@@ -326,7 +334,7 @@ Assert
 ok
 (
 !
-FinderIterator
+finderIterator
 .
 running
 "
@@ -341,7 +349,7 @@ Assert
 .
 equal
 (
-FinderIterator
+finderIterator
 .
 _previousRanges
 .
@@ -355,7 +363,7 @@ match
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -396,7 +404,7 @@ count
 0
 ;
 await
-FinderIterator
+finderIterator
 .
 start
 (
@@ -473,7 +481,7 @@ Assert
 ok
 (
 !
-FinderIterator
+finderIterator
 .
 running
 "
@@ -488,7 +496,7 @@ Assert
 .
 equal
 (
-FinderIterator
+finderIterator
 .
 _previousRanges
 .
@@ -502,7 +510,7 @@ match
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -543,7 +551,7 @@ count
 0
 ;
 await
-FinderIterator
+finderIterator
 .
 start
 (
@@ -580,7 +588,7 @@ findText
 let
 params
 =
-FinderIterator
+finderIterator
 .
 _previousParams
 ;
@@ -645,7 +653,7 @@ throws
 )
 =
 >
-FinderIterator
+finderIterator
 .
 start
 (
@@ -690,7 +698,7 @@ argument
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -704,7 +712,7 @@ throws
 )
 =
 >
-FinderIterator
+finderIterator
 .
 start
 (
@@ -749,7 +757,7 @@ argument
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -763,7 +771,7 @@ throws
 )
 =
 >
-FinderIterator
+finderIterator
 .
 start
 (
@@ -811,7 +819,7 @@ argument
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -825,7 +833,7 @@ throws
 )
 =
 >
-FinderIterator
+finderIterator
 .
 start
 (
@@ -863,7 +871,7 @@ argument
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -877,7 +885,7 @@ throws
 )
 =
 >
-FinderIterator
+finderIterator
 .
 start
 (
@@ -925,7 +933,7 @@ argument
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -985,7 +993,7 @@ count
 let
 whenDone
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1019,7 +1027,7 @@ findText
 }
 )
 ;
-FinderIterator
+finderIterator
 .
 stop
 (
@@ -1044,7 +1052,7 @@ be
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -1087,7 +1095,7 @@ count
 let
 whenDone
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1125,7 +1133,7 @@ Assert
 .
 ok
 (
-FinderIterator
+finderIterator
 .
 running
 "
@@ -1156,7 +1164,7 @@ Assert
 .
 equal
 (
-FinderIterator
+finderIterator
 .
 ranges
 .
@@ -1172,7 +1180,7 @@ match
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -1183,7 +1191,7 @@ Assert
 ok
 (
 !
-FinderIterator
+finderIterator
 .
 running
 "
@@ -1199,7 +1207,7 @@ Assert
 .
 equal
 (
-FinderIterator
+finderIterator
 .
 ranges
 .
@@ -1217,7 +1225,7 @@ Assert
 .
 equal
 (
-FinderIterator
+finderIterator
 .
 _previousRanges
 .
@@ -1294,7 +1302,7 @@ count
 let
 whenDone
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1348,7 +1356,7 @@ Assert
 .
 ok
 (
-FinderIterator
+finderIterator
 .
 running
 "
@@ -1369,7 +1377,7 @@ count2
 let
 whenDone2
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1436,7 +1444,7 @@ resolve
 )
 )
 ;
-FinderIterator
+finderIterator
 .
 stop
 (
@@ -1447,7 +1455,7 @@ Assert
 ok
 (
 !
-FinderIterator
+finderIterator
 .
 running
 "
@@ -1468,7 +1476,7 @@ Assert
 greater
 (
 count
-FinderIterator
+finderIterator
 .
 kIterationSizeMax
 "
@@ -1507,7 +1515,7 @@ Assert
 greater
 (
 count2
-FinderIterator
+finderIterator
 .
 kIterationSizeMax
 "
@@ -1561,7 +1569,7 @@ up
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
@@ -1611,7 +1619,7 @@ count
 let
 whenDone
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1653,7 +1661,7 @@ count2
 let
 whenDone2
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1697,7 +1705,7 @@ count3
 let
 whenDone3
 =
-FinderIterator
+finderIterator
 .
 start
 (
@@ -1802,7 +1810,7 @@ results
 "
 )
 ;
-FinderIterator
+finderIterator
 .
 reset
 (
