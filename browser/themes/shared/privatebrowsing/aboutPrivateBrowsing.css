@@ -983,6 +983,16 @@ width
 ;
 }
 .
+dummy
+-
+input
+{
+display
+:
+none
+;
+}
+.
 search
 -
 banner
