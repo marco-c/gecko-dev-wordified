@@ -2118,10 +2118,6 @@ NS_INTERFACE_MAP_ENTRY
 (
 nsIRedirectResultListener
 )
-NS_INTERFACE_MAP_ENTRY
-(
-nsICrossProcessSwitchChannel
-)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
