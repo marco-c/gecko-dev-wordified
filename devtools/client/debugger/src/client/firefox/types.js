@@ -515,10 +515,6 @@ displayName
 :
 string
 +
-environment
-:
-any
-+
 this
 :
 any
@@ -618,9 +614,6 @@ displayName
 :
 string
 this
-:
-any
-environment
 :
 any
 }
