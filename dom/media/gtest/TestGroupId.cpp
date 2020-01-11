@@ -324,12 +324,7 @@ MediaTrackConstraints
 const
 MediaEnginePrefs
 &
-const
-ipc
-:
-:
-PrincipalInfo
-&
+uint64_t
 const
 char
 *
