@@ -168,7 +168,7 @@ gSSBBrowser
 =
 null
 ;
-var
+let
 gSSB
 =
 null

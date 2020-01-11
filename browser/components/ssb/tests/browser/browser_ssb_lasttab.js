@@ -156,7 +156,7 @@ html
 )
 ;
 let
-ssbwin
+ssb
 =
 await
 openSSBFromBrowserWindow
@@ -213,7 +213,7 @@ equal
 (
 getBrowser
 (
-ssbwin
+ssb
 )
 .
 currentURI
@@ -226,16 +226,6 @@ test_page
 .
 html
 "
-)
-;
-await
-getSSB
-(
-ssbwin
-)
-.
-uninstall
-(
 )
 ;
 Assert
@@ -261,7 +251,7 @@ BrowserTestUtils
 .
 closeWindow
 (
-ssbwin
+ssb
 )
 ;
 await
