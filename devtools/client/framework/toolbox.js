@@ -2494,7 +2494,7 @@ NodePicker
 (
 this
 .
-target
+targetList
 this
 .
 selection

@@ -4013,8 +4013,6 @@ _lastQuery
 this
 .
 inspector
-.
-inspectorFront
 /
 /
 Get
