@@ -873,7 +873,7 @@ e
 displayError
 (
 "
-getLDAPAttibutes
+getLDAPAttributes
 "
 e
 )
