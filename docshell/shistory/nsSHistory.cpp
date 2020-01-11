@@ -480,7 +480,6 @@ gTouchCounter
 =
 0
 ;
-static
 LazyLogModule
 gSHistoryLog
 (
