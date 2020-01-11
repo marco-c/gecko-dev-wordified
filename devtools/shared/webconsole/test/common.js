@@ -662,15 +662,9 @@ resume
 const
 webConsoleFront
 =
-await
 target
 .
-getFront
-(
-"
-console
-"
-)
+activeConsole
 ;
 /
 /

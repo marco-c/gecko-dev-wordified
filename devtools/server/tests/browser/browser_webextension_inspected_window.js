@@ -161,15 +161,9 @@ target
 const
 webConsoleFront
 =
-await
 target
 .
-getFront
-(
-"
-console
-"
-)
+activeConsole
 ;
 const
 inspectedWindowFront
