@@ -1046,6 +1046,8 @@ toolbar
 private
 int
 mFixedBottomOffset
+=
+0
 ;
 /
 /
@@ -33108,6 +33110,14 @@ onCompositorReady
 )
 ;
 }
+if
+(
+mFixedBottomOffset
+!
+=
+0
+)
+{
 mCompositor
 .
 setFixedBottomOffset
@@ -33115,6 +33125,7 @@ setFixedBottomOffset
 mFixedBottomOffset
 )
 ;
+}
 }
 /
 *
