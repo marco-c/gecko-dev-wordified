@@ -798,8 +798,8 @@ quickcheck
 :
 :
 {
-TestResult
 Arbitrary
+TestResult
 }
 ;
 pub
@@ -938,6 +938,7 @@ map_err
 |
 err
 |
+{
 format
 !
 (
@@ -977,6 +978,7 @@ name2
 re2
 err
 )
+}
 )
 }
 struct
@@ -1214,6 +1216,7 @@ input
 _
 =
 >
+{
 return
 TestResult
 :
@@ -1236,6 +1239,7 @@ input
 input
 )
 )
+}
 }
 let
 fi1
@@ -1477,6 +1481,7 @@ true
 /
 mod
 }
+;
 /
 /
 rule

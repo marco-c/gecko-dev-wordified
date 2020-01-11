@@ -1,10 +1,10 @@
 extern
 crate
-regex
+quickcheck
 ;
 extern
 crate
-quickcheck
+regex
 ;
 /
 *
@@ -309,6 +309,7 @@ err
 }
 }
 }
+;
 }
 include
 !

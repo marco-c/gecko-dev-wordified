@@ -546,7 +546,7 @@ b0
 0b110_00000
 .
 .
-.
+=
 0b110_11111
 =
 >
@@ -618,7 +618,7 @@ cp
 0x80
 .
 .
-.
+=
 0x7FF
 =
 >
@@ -649,7 +649,7 @@ None
 0b1110_0000
 .
 .
-.
+=
 0b1110_1111
 =
 >
@@ -767,7 +767,7 @@ codepoints
 0x800
 .
 .
-.
+=
 0xFFFF
 =
 >
@@ -798,7 +798,7 @@ None
 0b11110_000
 .
 .
-.
+=
 0b11110_111
 =
 >
@@ -936,7 +936,7 @@ cp
 0x10000
 .
 .
-.
+=
 0x10FFFF
 =
 >
@@ -1192,12 +1192,12 @@ super
 :
 :
 {
-TAG_CONT
-TAG_TWO
-TAG_THREE
-TAG_FOUR
-decode_utf8
 decode_last_utf8
+decode_utf8
+TAG_CONT
+TAG_FOUR
+TAG_THREE
+TAG_TWO
 }
 ;
 #
