@@ -2328,17 +2328,6 @@ MaxTables
 =
 100000
 ;
-/
-/
-TODO
-:
-get
-this
-into
-the
-shared
-limits
-spec
 static
 const
 unsigned

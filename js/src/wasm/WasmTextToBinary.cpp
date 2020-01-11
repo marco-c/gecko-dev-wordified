@@ -28759,9 +28759,9 @@ of
 this
 section
 should
+/
+/
 always
-/
-/
 be
 1
 byte
@@ -28775,9 +28775,9 @@ varint7
 carrying
 the
 version
+/
+/
 number
-/
-/
 being
 opted
 into
@@ -31512,9 +31512,9 @@ allowing
 null
 .
 Note
+/
+/
 the
-/
-/
 parens
 are
 required
@@ -31811,9 +31811,9 @@ matters
 because
 ParseInitializerExpression
 changes
+/
+/
 the
-/
-/
 state
 of
 the
@@ -38191,6 +38191,7 @@ fail
 (
 "
 duplicate
+function
 import
 "
 )
@@ -38250,6 +38251,7 @@ fail
 (
 "
 duplicate
+global
 import
 "
 )
@@ -38312,6 +38314,7 @@ fail
 (
 "
 duplicate
+memory
 import
 "
 )
@@ -38351,6 +38354,7 @@ fail
 (
 "
 duplicate
+table
 import
 "
 )
@@ -38466,6 +38470,7 @@ fail
 (
 "
 duplicate
+global
 import
 "
 )
@@ -38566,6 +38571,7 @@ fail
 (
 "
 duplicate
+table
 import
 "
 )
@@ -38620,6 +38626,7 @@ fail
 (
 "
 duplicate
+memory
 import
 "
 )
@@ -46623,9 +46630,9 @@ an
 element
 segment
 for
+/
+/
 up
-/
-/
 to
 eight
 possible
@@ -46639,9 +46646,9 @@ the
 encoding
 for
 an
+/
+/
 element
-/
-/
 segment
 that
 takes
