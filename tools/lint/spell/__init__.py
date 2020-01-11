@@ -690,6 +690,15 @@ lintargs
 )
 :
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 binary
 =
 get_codespell_binary
@@ -862,6 +871,29 @@ write
 -
 changes
 '
+)
+    
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmd_args
+)
+)
 )
     
 base_command

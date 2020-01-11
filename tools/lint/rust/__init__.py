@@ -807,6 +807,7 @@ run_rustfmt
 (
 config
 paths
+log
 fix
 =
 None
@@ -889,6 +890,29 @@ cmd_args
 +
 paths
     
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmd_args
+)
+)
+)
+    
 return
 parse_issues
 (
@@ -913,6 +937,15 @@ None
 lintargs
 )
 :
+    
+log
+=
+lintargs
+[
+'
+log
+'
+]
     
 files
 =
@@ -944,6 +977,7 @@ run_rustfmt
 (
 config
 files
+log
 fix
 =
 False

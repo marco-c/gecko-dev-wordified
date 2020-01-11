@@ -436,6 +436,15 @@ lintargs
 )
 :
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 config
 [
 '
@@ -498,6 +507,29 @@ paths
 :
 chunk_size
 ]
+        
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmdargs
+)
+)
+)
         
 proc
 =

@@ -787,6 +787,15 @@ lintargs
 )
 :
     
+log
+=
+lintargs
+[
+'
+log
+'
+]
+    
 if
 not
 reinstall_yamllint
@@ -823,6 +832,29 @@ parsable
 '
     
 ]
+    
+log
+.
+debug
+(
+"
+Command
+:
+{
+}
+"
+.
+format
+(
+'
+'
+.
+join
+(
+cmdargs
+)
+)
+)
     
 config
 =
