@@ -30,9 +30,9 @@ of
 this
 distribution
 .
-'
-'
-'
+"
+"
+"
 PackageSymbolDumper
 .
 py
@@ -141,9 +141,9 @@ Apr
 author
 :
 mrmiller
-'
-'
-'
+"
+"
+"
 import
 argparse
 import
@@ -180,9 +180,9 @@ out_path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Expands
 the
@@ -221,14 +221,15 @@ the
 package
 contents
     
-'
-'
-'
+"
+"
+"
     
 subprocess
 .
 check_call
 (
+        
 '
 cd
 "
@@ -259,9 +260,11 @@ dest
 =
 out_path
 )
+        
 shell
 =
 True
+    
 )
 def
 filter_files
@@ -271,9 +274,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Yield
 file
@@ -322,9 +325,9 @@ hierarchy
 to
 traverse
     
-'
-'
-'
+"
+"
+"
     
 for
 root
@@ -369,9 +372,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Returns
 a
@@ -406,9 +409,9 @@ for
 pkg
 files
     
-'
-'
-'
+"
+"
+"
     
 return
 filter_files
@@ -416,7 +419,6 @@ filter_files
 lambda
 filename
 :
-                            
 os
 .
 path
@@ -430,11 +432,10 @@ filename
 ]
 =
 =
-'
+"
 .
 pkg
-'
-                        
+"
 path
 )
 def
@@ -444,9 +445,9 @@ paths
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Yield
 installer
@@ -473,9 +474,9 @@ for
 pkg
 files
     
-'
-'
-'
+"
+"
+"
     
 for
 path
@@ -487,12 +488,12 @@ logging
 .
 info
 (
-'
+"
 find_all_packages
 :
 {
 }
-'
+"
 .
 format
 (
@@ -518,9 +519,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Returns
 a
@@ -543,33 +544,33 @@ an
 installer
 package
     
-'
-'
-'
+"
+"
+"
     
 return
 filter_files
 (
+        
 lambda
 filename
 :
-                            
-'
+"
 Payload
-'
+"
 in
 filename
 or
-'
+"
 .
 pax
 .
 gz
-'
+"
 in
 filename
-                        
 path
+    
 )
 def
 extract_payload
@@ -579,9 +580,9 @@ output_path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Extracts
 the
@@ -630,18 +631,18 @@ for
 failure
 .
     
-'
-'
-'
+"
+"
+"
     
 header
 =
 open
 (
 payload_path
-'
+"
 rb
-'
+"
 )
 .
 read
@@ -656,32 +657,33 @@ if
 header
 =
 =
-'
+"
 BZ
-'
+"
 :
             
 logging
 .
 info
 (
-'
+"
 Extracting
 bzip2
 payload
-'
+"
 )
             
 extract
 =
-'
+"
 bzip2
-'
+"
             
 subprocess
 .
 check_call
 (
+                
 '
 cd
 {
@@ -716,6 +718,7 @@ s
 .
 format
 (
+                    
 extract
 =
 extract
@@ -725,10 +728,13 @@ payload_path
 dest
 =
 output_path
+                
 )
+                
 shell
 =
 True
+            
 )
             
 return
@@ -738,35 +744,36 @@ elif
 header
 =
 =
-'
+"
 \
 x1f
 \
 x8b
-'
+"
 :
             
 logging
 .
 info
 (
-'
+"
 Extracting
 gzip
 payload
-'
+"
 )
             
 extract
 =
-'
+"
 gzip
-'
+"
             
 subprocess
 .
 check_call
 (
+                
 '
 cd
 {
@@ -801,6 +808,7 @@ s
 .
 format
 (
+                    
 extract
 =
 extract
@@ -810,10 +818,13 @@ payload_path
 dest
 =
 output_path
+                
 )
+                
 shell
 =
 True
+            
 )
             
 return
@@ -823,29 +834,29 @@ elif
 header
 =
 =
-'
+"
 pb
-'
+"
 :
             
 logging
 .
 info
 (
-'
+"
 Extracting
 pbzx
 payload
-'
+"
 )
             
 extract
 =
-'
+"
 parse_pbzx
 .
 py
-'
+"
             
 payload_dir
 =
@@ -873,11 +884,11 @@ subprocess
 check_call
 (
 [
-'
+"
 parse_pbzx
 .
 py
-'
+"
 payload_path
 ]
 cwd
@@ -908,38 +919,42 @@ subprocess
 .
 Popen
 (
+                
 [
-'
+"
 pax
-'
-'
+"
+"
 -
 r
-'
-'
+"
+"
 -
 k
-'
-'
+"
+"
 -
 s
-'
-'
+"
+"
 :
 ^
 /
 :
 :
-'
+"
 ]
+                
 stdin
 =
 subprocess
 .
 PIPE
+                
 cwd
 =
 output_path
+            
 )
             
 for
@@ -958,12 +973,12 @@ path
 join
 (
 payload_dir
-'
+"
 Payload
 .
 part
 *
-'
+"
 )
 )
 )
@@ -974,10 +989,10 @@ part
 .
 endswith
 (
-'
+"
 .
 xz
-'
+"
 )
 :
                     
@@ -985,13 +1000,13 @@ logging
 .
 info
 (
-'
+"
 Extracting
 xz
 part
 {
 }
-'
+"
 .
 format
 (
@@ -1021,14 +1036,15 @@ subprocess
 .
 Popen
 (
+                        
 [
-'
+"
 xz
-'
-'
+"
+"
 -
 dc
-'
+"
 part
 ]
 stdout
@@ -1039,6 +1055,7 @@ PIPE
 cwd
 =
 payload_dir
+                    
 )
                     
 shutil
@@ -1066,14 +1083,14 @@ logging
 .
 info
 (
-'
+"
 Copying
 plain
 cpio
 part
 {
 }
-'
+"
 .
 format
 (
@@ -1085,9 +1102,9 @@ with
 open
 (
 part
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -1131,7 +1148,8 @@ logging
 .
 error
 (
-'
+                
+"
 Unknown
 payload
 format
@@ -1147,10 +1165,11 @@ x
 :
 x
 }
-'
+"
 .
 format
 (
+                    
 ord
 (
 header
@@ -1165,7 +1184,9 @@ header
 1
 ]
 )
+                
 )
+            
 )
             
 return
@@ -1258,9 +1279,9 @@ full_path
 open
 (
 full_path
-'
+"
 wb
-'
+"
 )
 .
 write
@@ -1298,9 +1319,9 @@ dest
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Dumps
 all
@@ -1345,9 +1366,9 @@ path
 for
 symbols
     
-'
-'
-'
+"
+"
+"
     
 temp_dir
 =
@@ -1357,13 +1378,13 @@ logging
 .
 info
 (
-'
+"
 Dumping
 symbols
 from
 payload
 :
-'
+"
 +
 payload_path
 )
@@ -1383,7 +1404,7 @@ logging
 .
 info
 (
-'
+"
 Extracting
 payload
 to
@@ -1391,7 +1412,7 @@ to
 path
 }
 .
-'
+"
 .
 format
 (
@@ -1414,13 +1435,13 @@ logging
 .
 error
 (
-'
+"
 Could
 not
 extract
 payload
 :
-'
+"
 +
 payload_path
 )
@@ -1444,17 +1465,18 @@ path
 .
 join
 (
-'
+"
 System
-'
-'
+"
+"
 Library
-'
+"
 )
         
 subdirectories
 =
 [
+            
 os
 .
 path
@@ -1462,10 +1484,11 @@ path
 join
 (
 system_library
-'
+"
 Frameworks
-'
+"
 )
+            
 os
 .
 path
@@ -1473,23 +1496,25 @@ path
 join
 (
 system_library
-'
+"
 PrivateFrameworks
-'
+"
 )
+            
 os
 .
 path
 .
 join
 (
-'
+"
 usr
-'
-'
+"
+"
 lib
-'
+"
 )
+        
 ]
         
 paths_to_dump
@@ -1517,15 +1542,17 @@ contents
 in
 process_paths
 (
+            
 paths_to_dump
 executor
 dump_syms
 False
 platform
 =
-'
+"
 darwin
-'
+"
+        
 )
 :
             
@@ -1539,11 +1566,11 @@ logging
 .
 info
 (
-'
+"
 Added
 symbol
 file
-'
+"
 +
 filename
 )
@@ -1584,9 +1611,9 @@ dest
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Dumps
 all
@@ -1625,9 +1652,9 @@ path
 for
 symbols
     
-'
-'
-'
+"
+"
+"
     
 temp_dir
 =
@@ -1637,13 +1664,13 @@ logging
 .
 info
 (
-'
+"
 Dumping
 symbols
 from
 package
 :
-'
+"
 +
 pkg
 )
@@ -1684,14 +1711,14 @@ logging
 .
 warning
 (
-'
+"
 UNTESTED
 :
 Found
 subpackage
 at
 :
-'
+"
 +
 subpackage
 )
@@ -1815,14 +1842,14 @@ logging
 .
 info
 (
-'
+"
 Reading
 processed
 packages
 from
 {
 }
-'
+"
 .
 format
 (
@@ -1836,9 +1863,9 @@ set
 open
 (
 tracking_file
-'
+"
 rb
-'
+"
 )
 .
 read
@@ -1869,7 +1896,8 @@ logging
 .
 info
 (
-'
+        
+"
 Writing
 {
 }
@@ -1878,32 +1906,35 @@ packages
 to
 {
 }
-'
+"
 .
 format
 (
+            
 len
 (
 processed_packages
 )
 tracking_file
+        
 )
+    
 )
     
 open
 (
 tracking_file
-'
+"
 wb
-'
+"
 )
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1957,7 +1988,7 @@ logging
 .
 info
 (
-'
+"
 Skipping
 already
 -
@@ -1966,7 +1997,7 @@ package
 :
 {
 }
-'
+"
 .
 format
 (
@@ -2012,7 +2043,7 @@ ArgumentParser
         
 description
 =
-'
+"
 Extracts
 Breakpad
 symbols
@@ -2024,57 +2055,64 @@ X
 support
 update
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 dump_syms
-'
+"
+        
 default
 =
-'
+"
 dump_syms
-'
+"
+        
 type
 =
 str
-                        
+        
 help
 =
-'
+"
 path
 to
 the
 Breakpad
 dump_syms
 executable
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 tracking
 -
 file
-'
+"
+        
 type
 =
 str
-                        
+        
 help
 =
-'
+"
 Path
 to
 a
@@ -2084,62 +2122,64 @@ which
 to
 store
 information
-'
+"
+        
 +
-                        
-'
+"
 about
 already
 -
 processed
 packages
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 search
-'
+"
 nargs
 =
-'
+"
 +
-'
-                        
+"
 help
 =
-'
+"
 Paths
 to
 search
 recursively
 for
 packages
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 to
-'
+"
 type
 =
 str
 help
 =
-'
+"
 destination
 path
 for
 the
 symbols
-'
+"
 )
     
 args
@@ -2154,14 +2194,16 @@ logging
 .
 basicConfig
 (
+        
 level
 =
 logging
 .
 DEBUG
+        
 format
 =
-'
+"
 %
 (
 asctime
@@ -2185,14 +2227,15 @@ s
 message
 )
 s
-'
+"
+    
 )
     
 for
 p
 in
 (
-'
+"
 requests
 .
 packages
@@ -2200,10 +2243,10 @@ packages
 urllib3
 .
 connectionpool
-'
-'
+"
+"
 urllib3
-'
+"
 )
 :
         
@@ -2255,11 +2298,11 @@ logging
 .
 error
 (
-'
+"
 Invalid
 search
 path
-'
+"
 )
         
 return
@@ -2282,12 +2325,12 @@ logging
 .
 error
 (
-'
+"
 Invalid
 path
 to
 destination
-'
+"
 )
         
 return
@@ -2323,9 +2366,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

@@ -41,7 +41,7 @@ re
 compile
 (
 r
-'
+"
 10
 \
 .
@@ -59,7 +59,7 @@ r
 9
 ]
 +
-'
+"
 )
 def
 extract_dmg
@@ -73,7 +73,7 @@ logging
 .
 info
 (
-'
+"
 extract_dmg
 (
 {
@@ -81,7 +81,7 @@ extract_dmg
 {
 }
 )
-'
+"
 .
 format
 (
@@ -104,13 +104,14 @@ subprocess
 .
 check_call
 (
+            
 [
-'
+"
 dmg
-'
-'
+"
+"
 extract
-'
+"
 dmg_path
 f
 .
@@ -123,10 +124,11 @@ open
 os
 .
 devnull
-'
+"
 wb
-'
+"
 )
+        
 )
         
 subprocess
@@ -134,15 +136,15 @@ subprocess
 check_call
 (
 [
-'
+"
 hfsplus
-'
+"
 f
 .
 name
-'
+"
 extractall
-'
+"
 ]
 cwd
 =
@@ -167,11 +169,11 @@ logging
 .
 info
 (
-'
+"
 get_update_packages
 :
 page
-'
+"
 +
 str
 (
@@ -181,7 +183,9 @@ i
         
 url
 =
-'
+(
+            
+"
 https
 :
 /
@@ -222,9 +226,12 @@ offset
 =
 %
 d
-'
+"
+            
 %
 i
+        
+)
         
 res
 =
@@ -260,9 +267,9 @@ data
 .
 get
 (
-'
+"
 downloads
-'
+"
 [
 ]
 )
@@ -286,11 +293,11 @@ d
 .
 get
 (
-'
+"
 title
-'
-'
-'
+"
+"
+"
 )
             
 if
@@ -301,9 +308,9 @@ search
 title
 )
 and
-'
+"
 Combo
-'
+"
 not
 in
 title
@@ -313,18 +320,18 @@ logging
 .
 info
 (
-'
+"
 Title
 :
-'
+"
 +
 title
 )
                 
 if
-'
+"
 fileurl
-'
+"
 in
 d
 :
@@ -332,9 +339,9 @@ d
 yield
 d
 [
-'
+"
 fileurl
-'
+"
 ]
                 
 else
@@ -344,13 +351,13 @@ log
 .
 warn
 (
-'
+"
 No
 fileurl
 in
 download
 !
-'
+"
 )
 def
 fetch_url_to_file
@@ -405,13 +412,13 @@ logging
 .
 info
 (
-'
+"
 {
 }
 already
 exists
 skipping
-'
+"
 .
 format
 (
@@ -444,14 +451,14 @@ headers
 .
 get
 (
-'
+"
 content
 -
 length
-'
-'
+"
+"
 0
-'
+"
 )
 )
     
@@ -459,7 +466,7 @@ logging
 .
 info
 (
-'
+"
 Downloading
 {
 }
@@ -472,7 +479,7 @@ Downloading
 }
 bytes
 )
-'
+"
 .
 format
 (
@@ -486,9 +493,9 @@ with
 open
 (
 local_filename
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -540,10 +547,10 @@ logging
 .
 info
 (
-'
+"
 fetch_and_extract_dmg
 :
-'
+"
 +
 url
 )
@@ -604,7 +611,8 @@ logging
 .
 info
 (
-'
+        
+"
 fetch_and_extract_dmg
 (
 {
@@ -616,7 +624,7 @@ packages
 :
 {
 }
-'
+"
 .
 format
 (
@@ -626,6 +634,7 @@ str
 packages
 )
 )
+    
 )
     
 return
@@ -641,9 +650,9 @@ logging
 .
 info
 (
-'
+"
 find_update_packages
-'
+"
 )
     
 #
@@ -675,6 +684,7 @@ jobs
 =
 dict
 (
+            
 (
 executor
 .
@@ -686,12 +696,14 @@ tmpdir
 )
 url
 )
+            
 for
 url
 in
 get_update_packages
 (
 )
+        
 )
         
 for
@@ -729,7 +741,8 @@ logging
 .
 error
 (
-'
+                    
+"
 exception
 downloading
 {
@@ -737,7 +750,7 @@ downloading
 :
 {
 }
-'
+"
 .
 format
 (
@@ -748,6 +761,7 @@ exception
 (
 )
 )
+                
 )
             
 else
@@ -780,7 +794,7 @@ ArgumentParser
         
 description
 =
-'
+"
 Download
 OS
 X
@@ -791,58 +805,63 @@ dump
 symbols
 from
 them
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 dump_syms
-'
+"
+        
 default
 =
-'
+"
 dump_syms
-'
+"
+        
 type
 =
 str
-                        
+        
 help
 =
-'
+"
 path
 to
 the
 Breakpad
 dump_syms
 executable
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 to
-'
+"
 type
 =
 str
 help
 =
-'
+"
 destination
 path
 for
 the
 symbols
-'
+"
 )
     
 args
@@ -857,14 +876,16 @@ logging
 .
 basicConfig
 (
+        
 level
 =
 logging
 .
 DEBUG
+        
 format
 =
-'
+"
 %
 (
 asctime
@@ -888,14 +909,15 @@ s
 message
 )
 s
-'
+"
+    
 )
     
 for
 p
 in
 (
-'
+"
 requests
 .
 packages
@@ -903,10 +925,10 @@ packages
 urllib3
 .
 connectionpool
-'
-'
+"
+"
 urllib3
-'
+"
 )
 :
         
@@ -939,10 +961,10 @@ mkdtemp
 (
 suffix
 =
-'
+"
 .
 osxupdates
-'
+"
 )
         
 def
@@ -982,9 +1004,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

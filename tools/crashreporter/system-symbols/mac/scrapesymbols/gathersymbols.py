@@ -34,6 +34,10 @@ zero
 .
 0
 /
+from
+__future__
+import
+print_function
 import
 argparse
 import
@@ -62,48 +66,48 @@ sys
 platform
 =
 =
-'
+"
 darwin
-'
+"
 :
     
 SYSTEM_DIRS
 =
 [
         
-'
+"
 /
 usr
 /
 lib
-'
+"
         
-'
+"
 /
 System
 /
 Library
 /
 Frameworks
-'
+"
         
-'
+"
 /
 System
 /
 Library
 /
 PrivateFrameworks
-'
+"
         
-'
+"
 /
 System
 /
 Library
 /
 Extensions
-'
+"
     
 ]
 else
@@ -112,23 +116,22 @@ else
 SYSTEM_DIRS
 =
 [
-        
-'
+"
 /
 lib
-'
-        
-'
+"
+"
 /
 usr
 /
 lib
-'
-    
+"
 ]
 SYMBOL_SERVER_URL
 =
-'
+(
+    
+"
 https
 :
 /
@@ -159,7 +162,8 @@ public
 /
 v1
 /
-'
+"
+)
 def
 should_process
 (
@@ -172,9 +176,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
 Determine
 if
 a
@@ -183,22 +187,22 @@ is
 a
 platform
 binary
-'
-'
-'
+"
+"
+"
     
 if
 platform
 =
 =
-'
+"
 darwin
-'
+"
 :
         
-'
-'
-'
+"
+"
+"
         
 The
 '
@@ -252,9 +256,9 @@ this
 happens
 .
         
-'
-'
-'
+"
+"
+"
         
 try
 :
@@ -266,13 +270,13 @@ subprocess
 check_output
 (
 [
-'
+"
 file
-'
-'
+"
+"
 -
 Lb
-'
+"
 f
 ]
 )
@@ -286,21 +290,21 @@ CalledProcessError
 return
 False
         
-'
-'
-'
+"
+"
+"
 Skip
 kernel
 extensions
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 kext
 bundle
-'
+"
 in
 filetype
 :
@@ -313,11 +317,11 @@ filetype
 .
 startswith
 (
-'
+"
 Mach
 -
 O
-'
+"
 )
     
 else
@@ -329,22 +333,22 @@ subprocess
 check_output
 (
 [
-'
+"
 file
-'
-'
+"
+"
 -
 Lb
-'
+"
 f
 ]
 )
 .
 startswith
 (
-'
+"
 ELF
-'
+"
 )
     
 return
@@ -361,9 +365,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Find
 the
@@ -391,52 +395,59 @@ OS
 X
 .
     
-'
-'
-'
+"
+"
+"
     
 if
 platform
 =
 =
-'
+"
 darwin
-'
+"
 :
         
 return
+(
+            
 subprocess
 .
 check_output
 (
 [
-'
+"
 lipo
-'
-'
+"
+"
 -
 info
-'
+"
 filename
 ]
 )
+            
 .
 split
 (
-'
+"
 :
-'
+"
 )
 [
 2
 ]
+            
 .
 strip
 (
 )
+            
 .
 split
 (
+)
+        
 )
     
 return
@@ -450,9 +461,9 @@ filename
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Send
 the
@@ -471,9 +482,9 @@ symbol
 file
 .
     
-'
-'
-'
+"
+"
+"
     
 try
 :
@@ -533,18 +544,18 @@ sys
 platform
 =
 =
-'
+"
 darwin
-'
+"
 :
         
 arch_arg
 =
 [
-'
+"
 -
 a
-'
+"
 arch
 ]
     
@@ -570,9 +581,9 @@ open
 os
 .
 devnull
-'
+"
 wb
-'
+"
 )
         
 stdout
@@ -590,7 +601,6 @@ arch_arg
 [
 path
 ]
-                                         
 stderr
 =
 stderr
@@ -607,7 +617,8 @@ verbose
 :
             
 print
-'
+(
+"
 Processing
 %
 s
@@ -618,23 +629,24 @@ s
 .
 failed
 .
-'
+"
 %
 (
 path
-'
+"
 [
 %
 s
 ]
-'
+"
 %
 arch
 if
 arch
 else
-'
-'
+"
+"
+)
 )
         
 return
@@ -658,8 +670,8 @@ module
 .
 split
 (
-'
-'
+"
+"
 4
 )
     
@@ -695,7 +707,7 @@ stdout
 .
 write
 (
-'
+"
 Processing
 %
 s
@@ -706,7 +718,7 @@ s
 .
 .
 .
-'
+"
 %
 (
 path
@@ -726,10 +738,10 @@ debug_file
 debug_id
 debug_file
 +
-'
+"
 .
 sym
-'
+"
 )
     
 #
@@ -760,12 +772,14 @@ verbose
 :
                 
 print
-'
+(
+"
 already
 on
 server
 .
-'
+"
+)
             
 return
 None
@@ -781,10 +795,12 @@ verbose
 :
         
 print
-'
+(
+"
 done
 .
-'
+"
+)
     
 return
 filename
@@ -801,9 +817,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 For
 each
@@ -841,9 +857,9 @@ be
 processed
 .
     
-'
-'
-'
+"
+"
+"
     
 for
 path
@@ -921,15 +937,14 @@ path
 def
 process_paths
 (
+    
 paths
 executor
 dump_syms
 verbose
-                  
 write_all
 =
 False
-                  
 platform
 =
 sys
@@ -983,7 +998,6 @@ dirname
 (
 fullpath
 )
-                                    
 os
 .
 readlink
@@ -996,9 +1010,9 @@ if
 platform
 =
 =
-'
+"
 linux
-'
+"
 :
             
 #
@@ -1020,14 +1034,14 @@ instead
             
 dbgpath
 =
-'
+"
 /
 usr
 /
 lib
 /
 debug
-'
+"
 +
 fullpath
             
@@ -1062,17 +1076,21 @@ jobs
 .
 add
 (
+                
 executor
 .
 submit
 (
+                    
 process_file
 dump_syms
 fullpath
 arch
 verbose
 write_all
+                
 )
+            
 )
     
 for
@@ -1105,21 +1123,23 @@ e
 :
             
 print
->
->
-sys
-.
-stderr
-'
+(
+"
 Error
 :
 %
 s
-'
+"
 %
 str
 (
 e
+)
+file
+=
+sys
+.
+stderr
 )
 def
 main
@@ -1139,48 +1159,51 @@ parser
 .
 add_argument
 (
-'
+        
+"
 -
 v
-'
-'
+"
+"
 -
 -
 verbose
-'
+"
 action
 =
-'
+"
 store_true
-'
-                        
+"
 help
 =
-'
+"
 Produce
 verbose
 output
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 all
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                        
+"
+        
 help
 =
-'
+"
 Gather
 all
 system
@@ -1190,42 +1213,43 @@ just
 missing
 ones
 .
-'
+"
+    
 )
     
 parser
 .
 add_argument
 (
-'
+"
 dump_syms
-'
+"
 help
 =
-'
+"
 Path
 to
 dump_syms
 binary
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 files
-'
+"
 nargs
 =
-'
+"
 *
-'
-                        
+"
 help
 =
-'
+"
 Specific
 files
 from
@@ -1234,7 +1258,8 @@ to
 gather
 symbols
 .
-'
+"
+    
 )
     
 args
@@ -1268,6 +1293,8 @@ dump_syms
 binary
     
 if
+(
+        
 not
 os
 .
@@ -1279,6 +1306,7 @@ args
 .
 dump_syms
 )
+        
 or
 not
 os
@@ -1291,6 +1319,7 @@ args
 .
 dump_syms
 )
+        
 or
 not
 os
@@ -1304,19 +1333,17 @@ os
 .
 X_OK
 )
+    
+)
 :
         
 print
->
->
-sys
-.
-stderr
-'
+(
+            
+"
 Error
 :
 can
-\
 '
 t
 find
@@ -1326,11 +1353,19 @@ at
 %
 s
 !
-'
+"
 %
 args
 .
 dump_syms
+            
+file
+=
+sys
+.
+stderr
+        
+)
         
 return
 1
@@ -1359,11 +1394,11 @@ path
 .
 abspath
 (
-'
+"
 symbols
 .
 zip
-'
+"
 )
     
 with
@@ -1372,9 +1407,9 @@ zipfile
 ZipFile
 (
 zip_path
-'
+"
 w
-'
+"
 zipfile
 .
 ZIP_DEFLATED
@@ -1389,6 +1424,7 @@ contents
 in
 process_paths
 (
+            
 args
 .
 files
@@ -1398,16 +1434,21 @@ args
 files
 else
 SYSTEM_DIRS
+            
 executor
+            
 args
 .
 dump_syms
+            
 args
 .
 verbose
+            
 args
 .
 all
+        
 )
 :
             
@@ -1441,7 +1482,8 @@ zf
 .
 writestr
 (
-'
+            
+"
 ossyms
 -
 1
@@ -1459,10 +1501,11 @@ date
 symbols
 .
 txt
-'
+"
 .
 format
 (
+                
 platform
 =
 sys
@@ -1472,6 +1515,7 @@ platform
 title
 (
 )
+                
 date
 =
 datetime
@@ -1484,7 +1528,7 @@ now
 .
 strftime
 (
-'
+"
 %
 Y
 %
@@ -1497,19 +1541,21 @@ H
 M
 %
 S
-'
+"
 )
+            
 )
-                
-'
+            
+"
 \
 n
-'
+"
 .
 join
 (
 file_list
 )
+        
 )
     
 if
@@ -1523,7 +1569,8 @@ verbose
 :
             
 print
-'
+(
+"
 Generated
 %
 s
@@ -1531,13 +1578,14 @@ with
 %
 d
 symbols
-'
+"
 %
 (
 zip_path
 len
 (
 file_list
+)
 )
 )
     
@@ -1548,19 +1596,19 @@ os
 .
 unlink
 (
-'
+"
 symbols
 .
 zip
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main
