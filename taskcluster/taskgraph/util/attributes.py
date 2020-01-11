@@ -173,7 +173,7 @@ central
 }
 |
 RELEASE_PROJECTS
-_OPTIONAL_ATTRIBUTES
+_COPYABLE_ATTRIBUTES
 =
 (
     
@@ -193,6 +193,14 @@ artifact_map
     
 '
 artifact_prefix
+'
+    
+'
+build_platform
+'
+    
+'
+build_type
 '
     
 '
@@ -759,46 +767,7 @@ dep_job
 )
 :
     
-attributes
-=
-{
-        
-'
-build_platform
-'
-:
-dep_job
-.
-attributes
-.
-get
-(
-'
-build_platform
-'
-)
-        
-'
-build_type
-'
-:
-dep_job
-.
-attributes
-.
-get
-(
-'
-build_type
-'
-)
-    
-}
-    
-attributes
-.
-update
-(
+return
 {
         
 attr
@@ -813,7 +782,7 @@ attr
 for
 attr
 in
-_OPTIONAL_ATTRIBUTES
+_COPYABLE_ATTRIBUTES
 if
 attr
 in
@@ -822,10 +791,6 @@ dep_job
 attributes
     
 }
-)
-    
-return
-attributes
 def
 sorted_unique_list
 (
