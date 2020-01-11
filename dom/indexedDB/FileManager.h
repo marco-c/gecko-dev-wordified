@@ -259,7 +259,8 @@ mInvalidated
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIFile
 >
@@ -273,7 +274,8 @@ aId
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIFile
 >
@@ -433,7 +435,8 @@ Invalidate
 (
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIFile
 >
@@ -441,7 +444,8 @@ GetDirectory
 (
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIFile
 >
@@ -449,7 +453,8 @@ GetCheckedDirectory
 (
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIFile
 >
@@ -457,7 +462,8 @@ GetJournalDirectory
 (
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+nsCOMPtr
 <
 nsIFile
 >
@@ -465,7 +471,8 @@ EnsureJournalDirectory
 (
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 FileInfo
 >
@@ -476,7 +483,8 @@ aId
 )
 const
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 FileInfo
 >
