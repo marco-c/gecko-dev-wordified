@@ -1483,7 +1483,7 @@ CurrentFrame
 (
 )
 )
-*
+/
 SampleRate
 (
 )
