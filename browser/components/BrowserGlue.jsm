@@ -5936,7 +5936,7 @@ onverified
 :
 this
 .
-_showSyncStartedDoorhanger
+_onThisDeviceConnected
 (
 )
 ;
@@ -16762,7 +16762,7 @@ user
 closes
 it
 }
-_showSyncStartedDoorhanger
+_onThisDeviceConnected
 (
 )
 {
@@ -16810,9 +16810,7 @@ bundle
 GetStringFromName
 (
 "
-syncStartNotification
-.
-title
+deviceConnDisconnTitle
 "
 )
 ;
@@ -16821,16 +16819,11 @@ body
 =
 bundle
 .
-formatStringFromName
+GetStringFromName
 (
 "
-syncStartNotification
-.
-body2
+thisDeviceConnectedBody
 "
-[
-productName
-]
 )
 ;
 let
@@ -22612,7 +22605,7 @@ accountsBundle
 GetStringFromName
 (
 "
-deviceConnectedTitle
+deviceConnDisconnTitle
 "
 )
 ;
@@ -22624,7 +22617,7 @@ accountsBundle
 formatStringFromName
 (
 "
-deviceConnectedBody
+otherDeviceConnectedBody
 "
 +
 (
@@ -22807,9 +22800,7 @@ bundle
 GetStringFromName
 (
 "
-deviceDisconnectedNotification
-.
-title
+deviceConnDisconnTitle
 "
 )
 ;
@@ -22821,9 +22812,7 @@ bundle
 GetStringFromName
 (
 "
-deviceDisconnectedNotification
-.
-body
+thisDeviceDisconnectedBody
 "
 )
 ;
