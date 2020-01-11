@@ -2398,10 +2398,14 @@ format
         
 #
 Try
-one
+reading
+a
+single
+json
+object
+in
 wptreport
-file
-first
+format
         
 self
 .
@@ -2429,11 +2433,15 @@ success
 return
         
 #
-Now
-try
-multiple
+Try
+line
+-
+separated
+json
+objects
+in
 wptreport
-files
+format
         
 log_file
 .
@@ -2468,6 +2476,15 @@ else
 :
             
 return
+        
+#
+Assume
+the
+file
+is
+a
+raw
+log
         
 log_file
 .
