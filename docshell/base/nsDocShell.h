@@ -2981,6 +2981,8 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
+bool
+aHasNonEmptySandboxingFlags
 nsresult
 &
 rv
@@ -3008,6 +3010,8 @@ uint32_t
 aLoadType
 uint32_t
 aCacheKey
+bool
+aHasNonEmptySandboxingFlags
 )
 ;
 /
