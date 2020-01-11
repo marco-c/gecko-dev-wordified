@@ -21909,6 +21909,13 @@ break
 ;
 default
 :
+await
+this
+.
+dismissDialog
+(
+)
+;
 throw
 new
 UnsupportedOperationError
