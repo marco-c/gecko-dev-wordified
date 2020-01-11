@@ -297,6 +297,17 @@ return
 false
 ;
 }
+if
+(
+aFont
+-
+>
+SetupCairoFont
+(
+aDrawTarget
+)
+)
+{
 #
 ifdef
 DEBUG_TEXT_RUN_STORAGE_METRICS
@@ -326,6 +337,7 @@ GetEntry
 aGlyphID
 )
 ;
+}
 if
 (
 !

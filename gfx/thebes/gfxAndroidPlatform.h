@@ -310,6 +310,12 @@ RequiresLinearZoom
 )
 override
 ;
+FT_Library
+GetFTLibrary
+(
+)
+override
+;
 already_AddRefed
 <
 mozilla

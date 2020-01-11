@@ -1445,6 +1445,8 @@ NativeFontType
 int8_t
 {
 GDI_LOGFONT
+FREETYPE_FACE
+FONTCONFIG_PATTERN
 }
 ;
 enum
