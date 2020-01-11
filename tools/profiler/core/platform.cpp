@@ -10286,6 +10286,9 @@ jsFrame
 label
 script
 pc
+jsFrame
+.
+realmID
 )
 ;
 aCollector
@@ -16436,6 +16439,7 @@ frameNameString
 get
 (
 )
+0
 0
 Nothing
 (

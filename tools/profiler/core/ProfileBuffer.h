@@ -424,6 +424,8 @@ char
 aStr
 uint32_t
 aFrameFlags
+uint64_t
+aInnerWindowID
 const
 mozilla
 :
