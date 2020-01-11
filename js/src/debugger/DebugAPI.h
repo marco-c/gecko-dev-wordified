@@ -1826,7 +1826,8 @@ ness
 /
 static
 inline
-ResumeMode
+MOZ_MUST_USE
+bool
 onDebuggerStatement
 (
 JSContext
@@ -2977,7 +2978,8 @@ reason
 )
 ;
 static
-ResumeMode
+MOZ_MUST_USE
+bool
 slowPathOnDebuggerStatement
 (
 JSContext
