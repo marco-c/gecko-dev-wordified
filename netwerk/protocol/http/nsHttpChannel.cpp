@@ -12446,6 +12446,10 @@ mCompressListener
 =
 listener
 ;
+mHasAppliedConversion
+=
+true
+;
 }
 }
 /
