@@ -327,12 +327,6 @@ StringType
 h
 "
 using
-mozilla
-:
-:
-IsAsciiLowercaseAlpha
-;
-using
 js
 :
 :
@@ -362,6 +356,9 @@ c
 )
 {
 return
+mozilla
+:
+:
 IsAsciiLowercaseAlpha
 (
 c
@@ -369,8 +366,7 @@ c
 ?
 (
 c
-&
-~
+-
 0x20
 )
 :
