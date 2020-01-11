@@ -3187,7 +3187,7 @@ handler
 .
 subcommand_handlers
 .
-iteritems
+items
 (
 )
 )
@@ -3261,12 +3261,15 @@ args
 .
 intersection
 (
+list
+(
 handler
 .
 subcommand_handlers
 .
 keys
 (
+)
 )
 )
         
@@ -3722,7 +3725,7 @@ indent
 =
 sys
 .
-maxint
+maxsize
     
 for
 line
@@ -3780,7 +3783,7 @@ indent
 <
 sys
 .
-maxint
+maxsize
 :
         
 for
