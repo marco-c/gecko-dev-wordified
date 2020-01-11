@@ -1271,6 +1271,11 @@ popup
 opens
 .
 await
+Promise
+.
+all
+(
+[
 SpecialPowers
 .
 spawn
@@ -1280,7 +1285,6 @@ gBrowser
 selectedBrowser
 [
 ]
-async
 (
 )
 =
@@ -1308,8 +1312,6 @@ click
 ;
 }
 )
-;
-await
 BrowserTestUtils
 .
 waitForEvent
@@ -1320,6 +1322,8 @@ tabContainer
 "
 TabOpen
 "
+)
+]
 )
 ;
 await
