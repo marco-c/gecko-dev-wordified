@@ -56090,12 +56090,6 @@ now
 :
 prompt
 .
-ensureXBLBindingAttached
-(
-)
-;
-prompt
-.
 Dialog
 .
 setDefaultFocus
