@@ -5058,6 +5058,8 @@ ObjectUtils
 deepEqual
 (
 addons
+.
+activeAddons
 this
 .
 _environment
@@ -5065,6 +5067,8 @@ _environment
 _currentEnvironment
 .
 addons
+.
+activeAddons
 )
 }
 ;
@@ -5107,6 +5111,7 @@ _currentEnvironment
 myScope
 )
 ;
+}
 this
 .
 _environment
@@ -5117,7 +5122,6 @@ addons
 =
 addons
 ;
-}
 return
 result
 ;
