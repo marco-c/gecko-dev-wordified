@@ -9441,11 +9441,6 @@ BinASTInterfaceAndField
 &
 )
 ;
-template
-<
-typename
-Table
->
 MOZ_MUST_USE
 JS
 :

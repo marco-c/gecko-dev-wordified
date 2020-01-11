@@ -9486,11 +9486,6 @@ toKind
 )
 ;
 }
-template
-<
-typename
-Table
->
 JS
 :
 :
@@ -9539,7 +9534,7 @@ table
 .
 is
 <
-Table
+GenericHuffmanTable
 >
 (
 )
@@ -9578,7 +9573,7 @@ table
 .
 as
 <
-Table
+GenericHuffmanTable
 >
 (
 )
@@ -9654,9 +9649,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
@@ -9694,9 +9686,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
@@ -9735,9 +9724,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
@@ -9776,9 +9762,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
@@ -9928,9 +9911,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
@@ -9968,9 +9948,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
@@ -10008,9 +9985,6 @@ BINJS_MOZ_TRY_DECL
 (
 result
 readFieldFromTable
-<
-GenericHuffmanTable
->
 (
 context
 .
