@@ -6874,6 +6874,18 @@ mozbuild
 test
 '
             
+'
+testing
+/
+mozbase
+/
+moztest
+/
+tests
+/
+data
+'
+            
 #
 Ignore
 object
