@@ -680,9 +680,13 @@ profile
 createMultiModalGetSymbolTableFn
 (
 profile
+(
+)
+=
+>
 selectors
 .
-getPerfFront
+getObjdirs
 (
 store
 .
@@ -692,7 +696,7 @@ getState
 )
 selectors
 .
-getObjdirs
+getPerfFront
 (
 store
 .
