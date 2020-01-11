@@ -604,7 +604,7 @@ topPrincipal
 innerWindow
 -
 >
-GetTopLevelPrincipal
+GetTopLevelAntiTrackingPrincipal
 (
 )
 ;
