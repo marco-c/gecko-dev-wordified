@@ -10805,7 +10805,7 @@ sUserInteractionObserver
 )
 ;
 }
-HTMLInputElement
+TextControlState
 :
 :
 Shutdown
