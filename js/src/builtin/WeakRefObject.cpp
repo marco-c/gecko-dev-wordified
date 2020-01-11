@@ -943,7 +943,7 @@ WeakRefObject
 :
 :
 construct
-0
+1
 gc
 :
 :
@@ -1102,7 +1102,7 @@ JS_FN
 deref
 "
 deref
-2
+0
 0
 )
 JS_FS_END
