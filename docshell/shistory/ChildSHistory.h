@@ -594,14 +594,6 @@ mPendingNavigations
 ;
 }
 ;
-already_AddRefed
-<
-nsISHEntry
->
-CreateSHEntry
-(
-)
-;
 }
 /
 /

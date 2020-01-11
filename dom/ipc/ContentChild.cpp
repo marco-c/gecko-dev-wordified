@@ -22306,6 +22306,9 @@ ContentChild
 :
 AllocPSHEntryChild
 (
+PSHistoryChild
+*
+aSHistory
 const
 PSHEntryOrSharedID
 &
