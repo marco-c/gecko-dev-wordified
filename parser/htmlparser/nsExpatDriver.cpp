@@ -2258,10 +2258,10 @@ static_assert
 sMaxXMLTreeDepth
 <
 =
-mozilla
+std
 :
 :
-MaxValue
+numeric_limits
 <
 decltype
 (
@@ -2273,7 +2273,9 @@ mTagDepth
 >
 :
 :
-value
+max
+(
+)
 )
 ;
 if
