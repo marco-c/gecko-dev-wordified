@@ -774,7 +774,7 @@ HAVE_64BIT_BUILD
 #
 ifdef
 MOZ_PHC
-char
+uint8_t
 *
 GetPHCAllocation
 (
@@ -811,12 +811,12 @@ i
 +
 )
 {
-char
+uint8_t
 *
 p
 =
 (
-char
+uint8_t
 *
 )
 malloc
@@ -1161,7 +1161,7 @@ triggering
 a
 crash
 .
-char
+uint8_t
 *
 p
 =
@@ -1199,7 +1199,7 @@ triggering
 a
 crash
 .
-char
+uint8_t
 *
 p
 =
