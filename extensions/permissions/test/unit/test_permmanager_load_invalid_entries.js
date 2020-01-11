@@ -1140,10 +1140,9 @@ migrated
 .
 Assert
 .
-ok
+greater
 (
 numMigrated
->
 0
 "
 we

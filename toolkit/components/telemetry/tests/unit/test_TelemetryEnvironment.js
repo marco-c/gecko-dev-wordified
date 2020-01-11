@@ -4517,15 +4517,13 @@ gIsLinux
 {
 Assert
 .
-ok
+greaterEqual
 (
 gfxData
 .
 monitors
 .
 length
->
-=
 1
 "
 There
