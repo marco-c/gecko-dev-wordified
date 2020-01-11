@@ -27397,10 +27397,12 @@ Decrement
 ;
 DatabaseConnection
 *
+const
 mConnection
 ;
 FileManager
 *
+const
 mFileManager
 ;
 nsClassHashtable
@@ -29630,8 +29632,9 @@ uint32_t
 aDataIndex
 uint32_t
 aFileIdsIndex
+const
 FileManager
-*
+&
 aFileManager
 StructuredCloneReadInfo
 *
@@ -29767,8 +29770,9 @@ uint32_t
 aDataIndex
 uint32_t
 aFileIdsIndex
+const
 FileManager
-*
+&
 aFileManager
 StructuredCloneReadInfo
 *
@@ -29995,8 +29999,9 @@ uint32_t
 aDataIndex
 uint32_t
 aFileIdsIndex
+const
 FileManager
-*
+&
 aFileManager
 StructuredCloneReadInfo
 *
@@ -30013,8 +30018,9 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
+const
 FileManager
-*
+&
 aFileManager
 const
 nsAString
@@ -30031,8 +30037,9 @@ GetStructuredCloneReadInfoFromExternalBlob
 (
 uint64_t
 aIntData
+const
 FileManager
-*
+&
 aFileManager
 const
 nsAString
@@ -37217,6 +37224,7 @@ UniqueIndexTable
 >
 mMaybeUniqueIndexTable
 ;
+const
 RefPtr
 <
 FileManager
@@ -44187,8 +44195,9 @@ false
 nsresult
 DeserializeStructuredCloneFile
 (
+const
 FileManager
-*
+&
 aFileManager
 const
 nsString
@@ -44381,8 +44390,7 @@ FileInfo
 fileInfo
 =
 aFileManager
--
->
+.
 GetFileInfo
 (
 id
@@ -44510,8 +44518,9 @@ NS_OK
 nsresult
 DeserializeStructuredCloneFiles
 (
+const
 FileManager
-*
+&
 aFileManager
 const
 nsAString
@@ -49468,6 +49477,7 @@ const
 aStmt
 *
 /
+const
 Cursor
 *
 const
@@ -49528,6 +49538,7 @@ mozIStorageStatement
 *
 const
 aStmt
+const
 Cursor
 *
 const
@@ -49560,6 +49571,7 @@ offset
 1
 +
 offset
+*
 aCursor
 -
 >
@@ -54761,9 +54773,11 @@ UpdateRefcountFunction
 (
 DatabaseConnection
 *
+const
 aConnection
 FileManager
 *
+const
 aFileManager
 )
 :
@@ -55877,6 +55891,7 @@ rv
 =
 DeserializeStructuredCloneFiles
 (
+*
 mFileManager
 ids
 files
@@ -83204,6 +83219,7 @@ GetFileInfo
 int64_t
 aId
 )
+const
 {
 if
 (
@@ -97245,6 +97261,7 @@ GetStructuredCloneReadInfoFromValueArray
 aArguments
 1
 0
+*
 mFileManager
 &
 cloneInfo
@@ -97658,8 +97675,9 @@ uint32_t
 aDataIndex
 uint32_t
 aFileIdsIndex
+const
 FileManager
-*
+&
 aFileManager
 StructuredCloneReadInfo
 *
@@ -97677,11 +97695,6 @@ IsOnBackgroundThread
 MOZ_ASSERT
 (
 aSource
-)
-;
-MOZ_ASSERT
-(
-aFileManager
 )
 ;
 MOZ_ASSERT
@@ -97959,8 +97972,9 @@ uint8_t
 aBlobData
 uint32_t
 aBlobDataLength
+const
 FileManager
-*
+&
 aFileManager
 const
 nsAString
@@ -97977,11 +97991,6 @@ MOZ_ASSERT
 IsOnBackgroundThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aFileManager
 )
 ;
 MOZ_ASSERT
@@ -98192,8 +98201,9 @@ GetStructuredCloneReadInfoFromExternalBlob
 (
 uint64_t
 aIntData
+const
 FileManager
-*
+&
 aFileManager
 const
 nsAString
@@ -98210,11 +98220,6 @@ MOZ_ASSERT
 IsOnBackgroundThread
 (
 )
-)
-;
-MOZ_ASSERT
-(
-aFileManager
 )
 ;
 MOZ_ASSERT
@@ -123574,6 +123579,14 @@ MOZ_ASSERT
 mOp
 )
 ;
+MOZ_ASSERT
+(
+mOp
+-
+>
+mFileManager
+)
+;
 AUTO_PROFILER_LABEL
 (
 "
@@ -123780,6 +123793,7 @@ aFileIdsIndex
 *
 /
 2
+*
 mOp
 -
 >
@@ -132269,6 +132283,7 @@ GetStructuredCloneReadInfoFromStatement
 stmt
 1
 0
+*
 mDatabase
 -
 >
@@ -135322,6 +135337,7 @@ GetStructuredCloneReadInfoFromStatement
 stmt
 1
 0
+*
 mDatabase
 -
 >
