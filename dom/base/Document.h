@@ -12095,6 +12095,10 @@ UniquePtr
 FullscreenRequest
 >
 aRequest
+bool
+applyFullScreenDirectly
+=
+false
 )
 ;
 /

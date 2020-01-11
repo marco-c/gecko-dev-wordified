@@ -83922,6 +83922,9 @@ move
 (
 request
 )
+XRE_IsContentProcess
+(
+)
 )
 ;
 return
@@ -84999,6 +85002,8 @@ UniquePtr
 FullscreenRequest
 >
 aRequest
+bool
+applyFullScreenDirectly
 )
 {
 nsCOMPtr
@@ -85030,6 +85035,9 @@ return
 }
 if
 (
+applyFullScreenDirectly
+|
+|
 ShouldApplyFullscreenDirectly
 (
 this
