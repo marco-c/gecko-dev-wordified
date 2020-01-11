@@ -3170,7 +3170,7 @@ doc
 =
 gXULDOMParser
 .
-parseFromString
+parseFromSafeString
 (
 {
 entities
