@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-ModuleVersionInfo_windows
+ModuleVersionInfo
 .
 h
 "
