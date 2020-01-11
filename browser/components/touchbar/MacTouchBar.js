@@ -276,7 +276,9 @@ param
 {
 string
 }
+[
 telemetryKey
+]
 *
 A
 string
@@ -345,6 +347,15 @@ command
 doCommand
 (
 )
+;
+}
+if
+(
+!
+telemetryKey
+)
+{
+return
 ;
 }
 let
