@@ -559,6 +559,9 @@ xevent
 {
 GdkEvent
 event
+=
+{
+}
 ;
 event
 .
@@ -683,6 +686,9 @@ GDK_PROPERTY_CHANGE_MASK
 {
 GdkEvent
 event
+=
+{
+}
 ;
 event
 .
