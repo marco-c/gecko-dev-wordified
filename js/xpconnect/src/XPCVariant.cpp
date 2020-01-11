@@ -1279,6 +1279,13 @@ val
 isSymbol
 (
 )
+|
+|
+val
+.
+isBigInt
+(
+)
 )
 {
 state
@@ -1320,7 +1327,7 @@ tStr
 }
 else
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1843,6 +1850,8 @@ can
 t
 represent
 symbol
+or
+BigInt
 on
 C
 +
@@ -1866,6 +1875,13 @@ isUndefined
 val
 .
 isSymbol
+(
+)
+|
+|
+val
+.
+isBigInt
 (
 )
 )
@@ -2067,7 +2083,7 @@ JSObject
 .
 .
 .
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
