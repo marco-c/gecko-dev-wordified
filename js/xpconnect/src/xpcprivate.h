@@ -16658,10 +16658,6 @@ freshZone
 (
 false
 )
-isContentXBLScope
-(
-false
-)
 isUAWidgetScope
 (
 false
@@ -16730,9 +16726,6 @@ freshCompartment
 ;
 bool
 freshZone
-;
-bool
-isContentXBLScope
 ;
 bool
 isUAWidgetScope
