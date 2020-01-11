@@ -2263,6 +2263,13 @@ isEnabled
 )
 )
 {
+MOZ_ASSERT
+(
+isEmpty
+(
+)
+)
+;
 if
 (
 isSubChunkMode

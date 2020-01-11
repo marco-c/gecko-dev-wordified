@@ -7384,6 +7384,17 @@ ZealMode
 GenerationalGC
 )
 {
+evictNursery
+(
+JS
+:
+:
+GCReason
+:
+:
+DEBUG_GC
+)
+;
 nursery
 (
 )
