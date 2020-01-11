@@ -3077,10 +3077,10 @@ IsRelevant
 )
 )
 {
-nsNodeUtils
+MutationObservers
 :
 :
-AnimationChanged
+NotifyAnimationChanged
 (
 &
 aOld
