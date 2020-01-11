@@ -1799,6 +1799,20 @@ self
 try
 :
             
+from
+mozfile
+import
+which
+            
+exe_name
+=
+which
+(
+'
+jsdoc
+'
+)
+            
 out
 =
 subprocess
@@ -1806,9 +1820,7 @@ subprocess
 check_output
 (
 [
-'
-jsdoc
-'
+exe_name
 '
 -
 -
