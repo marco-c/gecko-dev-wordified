@@ -740,7 +740,10 @@ if
 (
 result
 >
+double
+(
 INT64_MAX
+)
 )
 {
 return
@@ -752,7 +755,10 @@ if
 (
 result
 <
+double
+(
 INT64_MIN
+)
 )
 {
 return
