@@ -1795,9 +1795,6 @@ types
 ]
 ;
 }
-#
-ifdef
-DEBUG
 void
 js
 :
@@ -1854,8 +1851,6 @@ ap
 )
 ;
 }
-#
-endif
 MOZ_NORETURN
 MOZ_COLD
 static
