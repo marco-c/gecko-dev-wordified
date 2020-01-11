@@ -103,6 +103,12 @@ to
 use
 another
 button
+/
+/
+that
+should
+be
+visible
 .
 let
 dragSrcElement
@@ -112,7 +118,7 @@ document
 getElementById
 (
 "
-downloads
+sidebar
 -
 button
 "
@@ -122,7 +128,7 @@ ok
 (
 dragSrcElement
 "
-Downloads
+Sidebar
 button
 exists
 "
