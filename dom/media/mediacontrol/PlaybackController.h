@@ -65,7 +65,7 @@ DOM_MEDIA_MEDIACONTROL_PLAYBACKCONTROLLER_H_
 #
 include
 "
-MediaController
+MediaControlKeysEvent
 .
 h
 "
@@ -376,13 +376,13 @@ public
 :
 static
 void
-UpdateMediaAction
+HandleMediaControlKeysEvent
 (
 BrowsingContext
 *
 aContext
-MediaControlActions
-aAction
+MediaControlKeysEvent
+aEvent
 )
 ;
 }

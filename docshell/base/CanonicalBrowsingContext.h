@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-MediaController
+MediaControlKeysEvent
 .
 h
 "
@@ -634,10 +634,10 @@ content
 processes
 .
 void
-UpdateMediaAction
+UpdateMediaControlKeysEvent
 (
-MediaControlActions
-aAction
+MediaControlKeysEvent
+aEvent
 )
 ;
 /
