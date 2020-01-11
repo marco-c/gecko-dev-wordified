@@ -1344,6 +1344,7 @@ ex
 ;
 }
 }
+async
 extensionById
 (
 aId
@@ -1377,6 +1378,7 @@ scope
 extension
 ;
 }
+async
 onEvent
 (
 aEvent
@@ -1411,6 +1413,7 @@ Click
 const
 extension
 =
+await
 this
 .
 extensionById
@@ -1472,6 +1475,7 @@ Click
 const
 extension
 =
+await
 this
 .
 extensionById
@@ -1770,6 +1774,7 @@ Attached
 const
 extension
 =
+await
 this
 .
 extensionById
