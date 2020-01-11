@@ -122,6 +122,13 @@ h
 #
 include
 "
+ImageContainer
+.
+h
+"
+#
+include
+"
 MediaInfo
 .
 h
