@@ -294,8 +294,10 @@ Event
 >
 event
 =
-new
+MakeAndAddRef
+<
 Event
+>
 (
 aOwner
 nullptr
