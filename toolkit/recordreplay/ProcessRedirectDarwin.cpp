@@ -16379,6 +16379,8 @@ RR_sysctl
 >
 >
 Preamble_sysctlbyname
+nullptr
+Preamble_SetError
 }
 {
 "
@@ -17250,6 +17252,12 @@ clock_serv_t
 host_info
 "
 RR_host_info_or_statistics
+nullptr
+nullptr
+Preamble_Veto
+<
+KERN_FAILURE
+>
 }
 {
 "
@@ -17271,6 +17279,12 @@ Preamble_PassThrough
 mach_host_self
 "
 RR_ScalarRval
+nullptr
+nullptr
+Preamble_Veto
+<
+0
+>
 }
 {
 "
@@ -17487,6 +17501,9 @@ RR_OutParam
 utsname
 >
 >
+nullptr
+nullptr
+Preamble_SetError
 }
 {
 "
