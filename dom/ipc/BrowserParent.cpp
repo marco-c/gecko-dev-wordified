@@ -22158,15 +22158,6 @@ nsresult
 NO_IMPL
 ;
 NS_IMETHOD
-GetCanceled
-(
-bool
-*
-aCanceled
-)
-NO_IMPL
-;
-NS_IMETHOD
 Suspend
 (
 )
@@ -22684,9 +22675,8 @@ protected
 FakeChannel
 (
 )
-=
-default
-;
+{
+}
 nsCOMPtr
 <
 nsIURI

@@ -2331,9 +2331,6 @@ mContentLength
 bool
 mWasOpened
 ;
-bool
-mCanceled
-;
 friend
 class
 mozilla

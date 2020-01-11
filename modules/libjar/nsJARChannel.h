@@ -443,9 +443,6 @@ mSpec
 bool
 mOpened
 ;
-bool
-mCanceled
-;
 RefPtr
 <
 nsJARProtocolHandler
