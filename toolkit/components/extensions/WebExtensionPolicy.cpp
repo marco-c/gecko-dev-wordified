@@ -1096,7 +1096,7 @@ EPS
 (
 )
 .
-DefaultCSP
+GetDefaultCSP
 (
 mExtensionPageCSP
 )
@@ -1115,7 +1115,7 @@ EPS
 (
 )
 .
-DefaultCSP
+GetDefaultCSP
 (
 mContentScriptCSP
 )
