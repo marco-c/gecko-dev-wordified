@@ -2011,6 +2011,16 @@ StopTasks
 (
 )
 ;
+self
+-
+>
+mState
+=
+VRManagerState
+:
+:
+Idle
+;
 }
 }
 void
