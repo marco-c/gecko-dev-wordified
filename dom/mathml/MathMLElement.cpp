@@ -7628,9 +7628,6 @@ body
 "
 )
 ;
-nsresult
-rv
-=
 SetEventHandler
 (
 aName
@@ -7640,12 +7637,6 @@ aValue
 GetStringValue
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }

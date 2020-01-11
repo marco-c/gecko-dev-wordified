@@ -13471,7 +13471,7 @@ OnLeaveLink
 )
 ;
 }
-nsresult
+void
 Element
 :
 :
@@ -13532,7 +13532,6 @@ the
 attribute
 .
 return
-NS_OK
 ;
 }
 MOZ_ASSERT
@@ -13570,7 +13569,6 @@ manager
 )
 {
 return
-NS_OK
 ;
 }
 defer
@@ -13608,9 +13606,6 @@ ownerDoc
 )
 this
 )
-;
-return
-NS_OK
 ;
 }
 /

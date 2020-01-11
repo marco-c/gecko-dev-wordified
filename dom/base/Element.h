@@ -8511,7 +8511,7 @@ is
 allowed
 *
 /
-nsresult
+void
 SetEventHandler
 (
 nsAtom
