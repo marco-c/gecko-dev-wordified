@@ -4110,7 +4110,8 @@ self
 .
 _tests
 =
-None
+[
+]
         
 self
 .
@@ -4138,6 +4139,12 @@ handling
 self
 .
 _puppeteer_loaded
+=
+False
+        
+self
+.
+_tests_loaded
 =
 False
         
@@ -4193,8 +4200,14 @@ if
 not
 self
 .
-_tests
+_tests_loaded
 :
+            
+self
+.
+_reset_state
+(
+)
             
 self
 .
@@ -4208,6 +4221,12 @@ load_tests
 (
 )
 )
+            
+self
+.
+_tests_loaded
+=
+True
         
 return
 self
