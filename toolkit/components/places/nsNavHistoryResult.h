@@ -1060,7 +1060,7 @@ const
 char
 *
 prefName
-nsNavHistoryResult
+void
 *
 self
 )

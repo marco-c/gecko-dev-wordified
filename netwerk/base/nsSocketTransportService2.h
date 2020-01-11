@@ -2414,13 +2414,13 @@ UpdatePrefs
 ;
 static
 void
-PrefCallback
+UpdatePrefs
 (
 const
 char
 *
 aPref
-nsSocketTransportService
+void
 *
 aSelf
 )

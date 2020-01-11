@@ -27187,7 +27187,7 @@ const
 char
 *
 prefName
-nsNavHistoryResult
+void
 *
 self
 )
@@ -27212,7 +27212,14 @@ change
 "
 )
 ;
+static_cast
+<
+nsNavHistoryResult
+*
+>
+(
 self
+)
 -
 >
 OnMobilePrefChanged
