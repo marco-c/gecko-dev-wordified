@@ -15925,16 +15925,6 @@ JSObject
 obj
 )
 ;
-extern
-JS_FRIEND_API
-bool
-IsSavedFrame
-(
-JSObject
-*
-obj
-)
-;
 /
 /
 Matches
