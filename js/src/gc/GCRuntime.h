@@ -3583,6 +3583,14 @@ int64_t
 millis
 )
 ;
+void
+maybeIncreaseSliceBudget
+(
+SliceBudget
+&
+budget
+)
+;
 IncrementalResult
 budgetIncrementalGC
 (
