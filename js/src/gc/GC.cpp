@@ -14159,8 +14159,9 @@ trc
 r
 -
 >
-sweepVarNames
+tracekWeakVarNames
 (
+trc
 )
 ;
 r
@@ -33631,6 +33632,12 @@ sweep
 (
 )
 ;
+SweepingTracer
+trc
+(
+rt
+)
+;
 for
 (
 RealmsIter
@@ -33656,8 +33663,10 @@ next
 realm
 -
 >
-sweepVarNames
+tracekWeakVarNames
 (
+&
+trc
 )
 ;
 }
