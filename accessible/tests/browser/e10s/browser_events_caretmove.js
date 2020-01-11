@@ -153,5 +153,10 @@ offset
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;

@@ -259,5 +259,10 @@ sibling
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;

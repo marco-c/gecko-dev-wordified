@@ -221,5 +221,10 @@ matches
 )
 ;
 }
+{
+iframe
+:
+true
+}
 )
 ;
