@@ -5725,7 +5725,7 @@ false
 }
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5742,7 +5742,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5759,7 +5759,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5776,7 +5776,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5793,7 +5793,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5810,7 +5810,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5827,7 +5827,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5844,7 +5844,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5861,7 +5861,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5878,7 +5878,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5895,7 +5895,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5912,7 +5912,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5929,7 +5929,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5946,7 +5946,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5963,7 +5963,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5980,7 +5980,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -5997,7 +5997,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6014,7 +6014,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6031,7 +6031,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6048,7 +6048,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6065,7 +6065,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6082,7 +6082,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6099,7 +6099,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6116,7 +6116,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6133,7 +6133,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6150,7 +6150,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6167,7 +6167,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6184,7 +6184,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "
@@ -6204,7 +6204,7 @@ MOZ_WEBRTC
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 nameStr
 "

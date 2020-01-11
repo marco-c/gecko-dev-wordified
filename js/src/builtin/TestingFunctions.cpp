@@ -2634,7 +2634,7 @@ isString
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 arg
@@ -2726,7 +2726,7 @@ isString
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 arg
@@ -5509,7 +5509,7 @@ false
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 option
@@ -5522,7 +5522,7 @@ stableTier
 |
 |
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 option
@@ -5535,7 +5535,7 @@ bestTier
 |
 |
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 option
@@ -5548,7 +5548,7 @@ baselineTier
 |
 |
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 option
@@ -6831,7 +6831,7 @@ false
 }
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 flat
 "
@@ -9042,7 +9042,7 @@ isString
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 arg
@@ -36767,7 +36767,7 @@ isString
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 val
@@ -36790,7 +36790,7 @@ false
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 val

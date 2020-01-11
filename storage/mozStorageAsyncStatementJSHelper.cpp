@@ -824,7 +824,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 JSID_TO_FLAT_STRING
 (

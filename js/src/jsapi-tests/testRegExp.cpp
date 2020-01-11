@@ -427,7 +427,7 @@ source
 ;
 CHECK
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 JS_ASSERT_STRING_IS_FLAT
 (

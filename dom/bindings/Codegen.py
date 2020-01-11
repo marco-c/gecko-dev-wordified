@@ -112985,27 +112985,6 @@ WebIDLNameTableEntry
 *
 '
             
-#
-XXX
-(
-nika
-)
-:
-It
-would
-be
-nice
-to
-have
-a
-length
-overload
-for
-            
-#
-JS_FlatStringEqualsAscii
-.
-            
 return_entry
 =
 dedent
@@ -113024,6 +113003,9 @@ sNames
 entry
 .
 mNameOffset
+entry
+.
+mNameLength
 )
 )
 {

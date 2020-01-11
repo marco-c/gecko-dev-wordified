@@ -344,7 +344,7 @@ false
 ;
 CHECK
 (
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 root
