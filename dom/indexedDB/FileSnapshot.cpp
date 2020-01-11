@@ -1654,8 +1654,11 @@ NS_OK
 ;
 }
 callback
-.
-swap
+=
+std
+:
+:
+move
 (
 mAsyncWaitCallback
 )
