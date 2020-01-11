@@ -1503,7 +1503,6 @@ ContentTask
 .
 jsm
 "
-null
 )
 .
 ContentTask
@@ -1529,7 +1528,6 @@ BrowserTestUtils
 .
 jsm
 "
-null
 )
 .
 BrowserTestUtils
@@ -1555,7 +1553,6 @@ TestUtils
 .
 jsm
 "
-null
 )
 .
 TestUtils
@@ -1581,7 +1578,6 @@ Promise
 .
 jsm
 "
-null
 )
 .
 Promise
@@ -1607,7 +1603,6 @@ PromiseTestUtils
 .
 jsm
 "
-null
 )
 .
 PromiseTestUtils
@@ -1633,7 +1628,6 @@ Assert
 .
 jsm
 "
-null
 )
 .
 Assert
@@ -1659,7 +1653,6 @@ PerTestCoverageUtils
 .
 jsm
 "
-null
 )
 .
 PerTestCoverageUtils
