@@ -4917,9 +4917,16 @@ ProcessSelector
 ProcessSelector
 }
     
-execfile
+exec
+(
+open
 (
 filename
+)
+.
+read
+(
+)
 glbl
 )
     

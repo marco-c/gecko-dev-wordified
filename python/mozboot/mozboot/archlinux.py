@@ -141,6 +141,8 @@ version_info
 input
 =
 raw_input
+#
+noqa
 class
 ArchlinuxBootstrapper
 (

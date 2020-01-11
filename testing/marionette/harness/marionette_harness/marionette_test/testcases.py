@@ -920,8 +920,6 @@ except
 KeyboardInterrupt
 UnresponsiveInstanceException
 )
-as
-e
 :
                 
 raise
@@ -1039,8 +1037,6 @@ except
 KeyboardInterrupt
 UnresponsiveInstanceException
 )
-as
-e
 :
                     
 raise
@@ -1219,8 +1215,6 @@ except
 KeyboardInterrupt
 UnresponsiveInstanceException
 )
-as
-e
 :
                     
 raise

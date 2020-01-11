@@ -9678,8 +9678,6 @@ location
         
 except
 TypeError
-as
-e
 :
             
 raise
@@ -9774,8 +9772,6 @@ location
         
 except
 TypeError
-as
-e
 :
             
 raise

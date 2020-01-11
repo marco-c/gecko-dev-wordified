@@ -131,6 +131,8 @@ RawConfigParser
 input
 =
 raw_input
+#
+noqa
 else
 :
     

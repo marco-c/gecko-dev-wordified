@@ -1261,8 +1261,6 @@ publicCount
         
 except
 Exception
-as
-e
 :
             
 LogError

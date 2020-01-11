@@ -89,11 +89,7 @@ shutil
 import
 tempfile
 import
-time
-import
 requests
-import
-sh
 from
 distutils
 .

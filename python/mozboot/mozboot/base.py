@@ -135,6 +135,8 @@ urlopen
 input
 =
 raw_input
+#
+noqa
 else
 :
     

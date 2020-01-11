@@ -86,8 +86,6 @@ RIGHT
 PENCIL
 except
 ValueError
-as
-exc
 :
 #
 yuck

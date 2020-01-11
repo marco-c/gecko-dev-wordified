@@ -638,6 +638,8 @@ errno
 strerror
 )
 :
+#
+noqa
     
 if
 errno
