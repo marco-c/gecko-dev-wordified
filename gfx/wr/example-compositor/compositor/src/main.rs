@@ -331,7 +331,10 @@ NativeSurfaceId
 )
 -
 >
-DeviceIntPoint
+webrender
+:
+:
+NativeSurfaceInfo
 {
 let
 (
@@ -352,6 +355,13 @@ id
 0
 )
 ;
+webrender
+:
+:
+NativeSurfaceInfo
+{
+origin
+:
 DeviceIntPoint
 :
 :
@@ -360,6 +370,10 @@ new
 x
 y
 )
+fbo_id
+:
+0
+}
 }
 fn
 unbind

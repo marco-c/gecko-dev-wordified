@@ -451,6 +451,9 @@ wr
 DeviceIntPoint
 *
 aOffset
+uint32_t
+*
+aFboId
 )
 {
 }

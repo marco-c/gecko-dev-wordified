@@ -312,6 +312,9 @@ wr
 DeviceIntPoint
 *
 aOffset
+uint32_t
+*
+aFboId
 )
 {
 RenderCompositor
@@ -334,6 +337,7 @@ Bind
 (
 aId
 aOffset
+aFboId
 )
 ;
 }
