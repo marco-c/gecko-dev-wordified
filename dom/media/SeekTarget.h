@@ -492,6 +492,16 @@ return
 mVideoOnly
 ;
 }
+Type
+GetType
+(
+)
+const
+{
+return
+mType
+;
+}
 private
 :
 /
