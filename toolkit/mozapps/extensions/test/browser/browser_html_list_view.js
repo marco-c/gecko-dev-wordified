@@ -729,7 +729,9 @@ disableToggle
 .
 id
 "
-disable
+extension
+-
+enable
 -
 addon
 -
@@ -742,7 +744,7 @@ The
 toggle
 has
 the
-disable
+enable
 label
 "
 )
@@ -861,6 +863,8 @@ disableToggle
 .
 id
 "
+extension
+-
 enable
 -
 addon
@@ -874,6 +878,7 @@ The
 button
 has
 the
+same
 enable
 label
 "
