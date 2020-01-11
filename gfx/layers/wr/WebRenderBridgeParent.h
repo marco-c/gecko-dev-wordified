@@ -616,16 +616,6 @@ return
 mCompositorBridge
 ;
 }
-void
-UpdateQualitySettings
-(
-)
-;
-void
-UpdateDebugFlags
-(
-)
-;
 mozilla
 :
 :

@@ -495,13 +495,6 @@ UseGLSwizzle
 bool
 true
 )
-\
-_
-(
-AllowSacrificingSubpixelAA
-bool
-false
-)
 /
 *
 Add
