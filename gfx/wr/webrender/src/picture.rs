@@ -5158,7 +5158,7 @@ abs
 >
 0
 .
-001
+01
 |
 |
 (
@@ -5181,7 +5181,7 @@ abs
 >
 0
 .
-001
+01
 ;
 if
 fract_changed
@@ -22526,9 +22526,12 @@ min
 let
 rounded_up
 =
-1
-<
-<
+2
+.
+0f32
+.
+powf
+(
 scale
 .
 log2
@@ -22538,8 +22541,7 @@ log2
 ceil
 (
 )
-as
-u32
+)
 ;
 RasterSpace
 :
@@ -22547,8 +22549,6 @@ RasterSpace
 Local
 (
 rounded_up
-as
-f32
 )
 }
 else
