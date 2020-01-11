@@ -108,9 +108,6 @@ createStore
 (
 reducers
 {
-disableTask
-:
-true
 /
 /
 Enable

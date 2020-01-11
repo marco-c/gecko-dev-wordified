@@ -104,6 +104,9 @@ createStore
 (
 reducers
 {
+enableTaskMiddleware
+:
+true
 /
 /
 Uncomment

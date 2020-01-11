@@ -278,13 +278,10 @@ opts
 :
 *
 -
-disableTask
+enableTaskMiddleware
 :
 if
 true
-don
-'
-t
 include
 the
 task
@@ -380,10 +377,9 @@ middleware
 ;
 if
 (
-!
 opts
 .
-disableTask
+enableTaskMiddleware
 )
 {
 middleware
@@ -554,7 +550,7 @@ initialState
 =
 undefined
 thunkOptions
-disableTask
+enableTaskMiddleware
 =
 false
 }
@@ -627,7 +623,7 @@ store
 createStoreWithMiddleware
 (
 {
-disableTask
+enableTaskMiddleware
 log
 :
 flags
