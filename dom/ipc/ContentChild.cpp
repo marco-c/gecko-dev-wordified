@@ -22382,6 +22382,14 @@ child
 new
 SHEntryChild
 (
+static_cast
+<
+SHistoryChild
+*
+>
+(
+aSHistory
+)
 aEntryOrSharedID
 .
 get_uint64_t

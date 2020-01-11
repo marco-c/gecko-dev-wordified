@@ -257,6 +257,9 @@ SHEntryChildShared
 *
 GetOrCreate
 (
+SHistoryChild
+*
+aSHistory
 uint64_t
 aSharedID
 )
@@ -352,9 +355,11 @@ static
 uint64_t
 sNextSharedID
 ;
-explicit
 SHEntryChildShared
 (
+SHistoryChild
+*
+aSHistory
 uint64_t
 aID
 )
@@ -474,9 +479,11 @@ false
 )
 {
 }
-explicit
 SHEntryChild
 (
+SHistoryChild
+*
+aSHistory
 uint64_t
 aSharedID
 )
@@ -488,6 +495,7 @@ SHEntryChildShared
 :
 GetOrCreate
 (
+aSHistory
 aSharedID
 )
 )

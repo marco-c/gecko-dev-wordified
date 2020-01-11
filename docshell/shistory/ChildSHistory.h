@@ -594,6 +594,17 @@ mPendingNavigations
 ;
 }
 ;
+already_AddRefed
+<
+nsISHEntry
+>
+CreateSHEntryForDocShell
+(
+nsISHistory
+*
+aSHistory
+)
+;
 }
 /
 /

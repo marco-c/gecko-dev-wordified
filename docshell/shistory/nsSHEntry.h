@@ -447,7 +447,7 @@ public
 explicit
 nsLegacySHEntry
 (
-nsSHistory
+nsISHistory
 *
 aHistory
 uint64_t

@@ -188,6 +188,9 @@ LegacySHistory
 :
 LegacySHistory
 (
+SHistoryParent
+*
+aSHistoryParent
 CanonicalBrowsingContext
 *
 aRootBC
@@ -201,6 +204,10 @@ nsSHistory
 (
 aRootBC
 aDocShellID
+)
+mSHistoryParent
+(
+aSHistoryParent
 )
 {
 mIsRemote
@@ -298,6 +305,7 @@ mHistory
 new
 LegacySHistory
 (
+this
 aContext
 nsID
 (
@@ -314,6 +322,13 @@ SHistoryParent
 (
 )
 {
+mHistory
+-
+>
+mSHistoryParent
+=
+nullptr
+;
 }
 SHEntryParent
 *

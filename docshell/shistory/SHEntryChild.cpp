@@ -266,6 +266,9 @@ SHEntryChildShared
 :
 GetOrCreate
 (
+SHistoryChild
+*
+aSHistory
 uint64_t
 aSharedID
 )
@@ -313,6 +316,7 @@ shared
 new
 SHEntryChildShared
 (
+aSHistory
 aSharedID
 )
 ;
@@ -588,6 +592,9 @@ SHEntryChildShared
 :
 SHEntryChildShared
 (
+SHistoryChild
+*
+aSHistory
 uint64_t
 aID
 )
@@ -595,6 +602,10 @@ aID
 mID
 (
 aID
+)
+mSHistory
+(
+aSHistory
 )
 {
 }
@@ -759,6 +770,7 @@ newEntry
 new
 SHEntryChildShared
 (
+mSHistory
 mozilla
 :
 :
