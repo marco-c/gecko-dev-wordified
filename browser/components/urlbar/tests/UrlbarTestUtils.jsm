@@ -291,6 +291,10 @@ typing
 sets
 *
 userTypedValued
+triggers
+engagement
+event
+telemetry
 etc
 .
 )
