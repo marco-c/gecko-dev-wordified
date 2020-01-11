@@ -643,6 +643,7 @@ running
 )
 ;
 }
+async
 function
 callGUM
 (
@@ -710,7 +711,7 @@ fake
 =
 true
 ;
-return
+await
 content
 .
 navigator
@@ -723,6 +724,8 @@ testParameters
 .
 constraints
 )
+;
+return
 ;
 }
 /
@@ -841,13 +844,6 @@ getUserMedia
 testParameters
 .
 constraints
-)
-;
-return
-Promise
-.
-resolve
-(
 )
 ;
 }
