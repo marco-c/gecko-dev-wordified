@@ -1243,6 +1243,12 @@ SurfaceDescriptor
 :
 TSurfaceDescriptorSharedGLTexture
 :
+case
+SurfaceDescriptor
+:
+:
+TSurfaceDescriptorDMABuf
+:
 result
 =
 CreateTextureHostOGL
