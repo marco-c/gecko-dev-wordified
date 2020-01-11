@@ -1285,6 +1285,17 @@ no
 drag
 ;
 }
+titlebar
+{
+pointer
+-
+events
+:
+auto
+!
+important
+;
+}
 /
 *
 *

@@ -63,6 +63,12 @@ display
 :
 none
 ;
+pointer
+-
+events
+:
+none
+;
 }
 #
 downloadsRichListBox
