@@ -5862,10 +5862,9 @@ JSContext
 cx
 HandleObject
 obj
-HandleValue
-val
-HandlePropertyName
-kind
+Value
+*
+stackValues
 MutableHandleValue
 rval
 )
@@ -5900,7 +5899,7 @@ AbstractGeneratorObject
 genObj
 HandleValue
 arg
-uint32_t
+int32_t
 resumeKindArg
 )
 ;
