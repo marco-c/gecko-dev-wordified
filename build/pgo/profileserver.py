@@ -951,6 +951,17 @@ MOZ_DISABLE_CONTENT_SANDBOX
 1
 "
         
+env
+[
+"
+MOZ_DISABLE_RDD_SANDBOX
+"
+]
+=
+"
+1
+"
+        
 #
 Ensure
 different
