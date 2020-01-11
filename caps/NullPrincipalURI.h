@@ -305,11 +305,6 @@ NullPrincipalURI
 )
 {
 }
-nsresult
-Init
-(
-)
-;
 nsAutoCStringN
 <
 NSID_LENGTH
