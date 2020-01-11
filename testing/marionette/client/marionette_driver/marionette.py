@@ -12885,12 +12885,19 @@ partial
 link
 text
 "
-and
 "
 xpath
 "
-.
+"
+anon
+"
+and
+"
+anon
             
+attribute
+"
+.
 Note
 that
 the
@@ -12904,10 +12911,10 @@ text
 and
 "
 partial
+            
 link
 test
 "
-            
 methods
 are
 not
@@ -13196,12 +13203,19 @@ partial
 link
 text
 "
-and
 "
 xpath
 "
-.
+"
+anon
+"
+and
+"
+anon
             
+attribute
+"
+.
 Note
 that
 the
@@ -13216,9 +13230,9 @@ and
 "
 partial
 link
+            
 test
 "
-            
 methods
 are
 not
