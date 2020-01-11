@@ -806,6 +806,8 @@ nsCString
 >
 &
 aFilters
+uint64_t
+aActiveBrowsingContextID
 double
 aDuration
 )
@@ -936,6 +938,7 @@ filterStringVector
 length
 (
 )
+aActiveBrowsingContextID
 duration
 )
 ;
