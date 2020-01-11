@@ -1281,7 +1281,7 @@ DOMException
 '
 '
 '
-AbortError
+SyntaxError
 '
 )
 worklet
@@ -1349,7 +1349,7 @@ DOMException
 '
 '
 '
-AbortError
+SyntaxError
 '
 )
 worklet
@@ -1439,7 +1439,7 @@ DOMException
 '
 '
 '
-AbortError
+TypeError
 '
 )
 worklet
