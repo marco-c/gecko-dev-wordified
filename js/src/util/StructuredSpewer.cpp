@@ -604,8 +604,6 @@ emplace
 output_
 )
 ;
-return
-;
 }
 /
 /
