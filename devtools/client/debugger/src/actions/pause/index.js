@@ -87,6 +87,7 @@ stepOut
 resume
 rewind
 reverseStepOver
+seekToPosition
 }
 from
 "
@@ -238,5 +239,16 @@ from
 .
 /
 previewPausedLocation
+"
+;
+export
+{
+setFramePositions
+}
+from
+"
+.
+/
+setFramePositions
 "
 ;

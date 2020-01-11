@@ -862,6 +862,11 @@ location
 originalFrame
 .
 location
+index
+:
+frame
+.
+index
 source
 :
 null
