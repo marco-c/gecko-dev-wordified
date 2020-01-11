@@ -898,7 +898,7 @@ aDefaultRemapper
 ?
 int
 (
-buttons
+axes
 .
 Length
 (
@@ -989,7 +989,7 @@ aDefaultRemapper
 ?
 int
 (
-buttons
+axes
 .
 Length
 (
