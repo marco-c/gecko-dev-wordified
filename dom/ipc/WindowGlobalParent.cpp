@@ -1298,6 +1298,8 @@ aTargetBC
 nsDocShellLoadState
 *
 aLoadState
+bool
+aSetNavigating
 )
 {
 if
@@ -1498,6 +1500,7 @@ wgp
 SendLoadURIInChild
 (
 aLoadState
+aSetNavigating
 )
 ;
 return

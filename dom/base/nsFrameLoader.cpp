@@ -4772,6 +4772,7 @@ GetDocShell
 LoadURI
 (
 loadState
+false
 )
 ;
 mNeedsAsyncDestroy
