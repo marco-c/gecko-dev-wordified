@@ -252,6 +252,16 @@ nsIChannel
 >
 mIPv6Channel
 ;
+bool
+mCheckedNetworkId
+=
+false
+;
+bool
+mHasNetworkId
+=
+false
+;
 }
 ;
 }
