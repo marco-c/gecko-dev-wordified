@@ -1435,14 +1435,6 @@ WriteCollectedFrames
 (
 )
 ;
-Maybe
-<
-CollectedFrames
->
-GetCollectedFrames
-(
-)
-;
 protected
 :
 bool
