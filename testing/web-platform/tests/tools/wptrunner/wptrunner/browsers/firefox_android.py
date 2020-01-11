@@ -36,6 +36,12 @@ noqa
 F401
                                             
 MarionetteRefTestExecutor
+#
+noqa
+:
+F401
+                                            
+MarionetteCrashtestExecutor
 )
 #
 noqa
@@ -120,6 +126,14 @@ reftest
 :
 "
 MarionetteRefTestExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+MarionetteCrashtestExecutor
 "
 }
                  
