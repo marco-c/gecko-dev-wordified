@@ -157,13 +157,12 @@ override
 explicit
 DocumentChannelParent
 (
-const
 dom
 :
 :
-PBrowserOrId
-&
-aIframeEmbedding
+BrowserParent
+*
+aBrowser
 nsILoadContext
 *
 aLoadContext
@@ -174,6 +173,12 @@ aOverrideStatus
 bool
 Init
 (
+dom
+:
+:
+BrowserParent
+*
+aBrowser
 const
 DocumentChannelCreationArgs
 &
@@ -234,6 +239,8 @@ DisconnectChildListeners
 (
 nsresult
 aStatus
+nsresult
+aLoadGroupStatus
 )
 override
 {
@@ -250,6 +257,7 @@ Unused
 SendDisconnectChildListeners
 (
 aStatus
+aLoadGroupStatus
 )
 ;
 }
