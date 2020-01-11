@@ -409,7 +409,7 @@ h
 /
 /
 for
-ShmemAllocator
+IShmemAllocator
 #
 include
 "
@@ -699,7 +699,13 @@ PCompositorBridgeParent
 public
 HostIPCAllocator
 public
-ShmemAllocator
+mozilla
+:
+:
+ipc
+:
+:
+IShmemAllocator
 public
 MetricsSharingController
 {
@@ -950,7 +956,7 @@ aPayload
 )
 {
 }
-ShmemAllocator
+IShmemAllocator
 *
 AsShmemAllocator
 (
@@ -1059,7 +1065,7 @@ override
 ;
 /
 /
-ShmemAllocator
+IShmemAllocator
 bool
 AllocShmem
 (
@@ -1116,7 +1122,7 @@ aShmem
 )
 override
 ;
-void
+bool
 DeallocShmem
 (
 mozilla

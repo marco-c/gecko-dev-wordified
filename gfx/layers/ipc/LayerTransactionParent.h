@@ -252,7 +252,13 @@ PLayerTransactionParent
 public
 CompositableParentManager
 public
-ShmemAllocator
+mozilla
+:
+:
+ipc
+:
+:
+IShmemAllocator
 {
 typedef
 nsTArray
@@ -360,7 +366,7 @@ ShouldParentObserveEpoch
 (
 )
 ;
-ShmemAllocator
+IShmemAllocator
 *
 AsShmemAllocator
 (
@@ -415,7 +421,7 @@ aShmem
 )
 override
 ;
-void
+bool
 DeallocShmem
 (
 ipc
