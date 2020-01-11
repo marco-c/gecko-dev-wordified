@@ -3851,11 +3851,15 @@ binary
         
 if
 browser_channel
-=
-=
+in
+(
 "
 dev
 "
+"
+canary
+"
+)
 :
             
 logger
@@ -3871,6 +3875,8 @@ features
 for
 Edge
 Dev
+/
+Canary
 "
 )
             
