@@ -990,6 +990,16 @@ return
 False
     
 def
+isInterfaceMixin
+(
+self
+)
+:
+        
+return
+False
+    
+def
 isEnum
 (
 self
@@ -4608,6 +4618,13 @@ return
 namespace
 "
         
+assert
+self
+.
+isInterfaceMixin
+(
+)
+        
 return
 "
 interface
@@ -5113,6 +5130,16 @@ self
 location
 ]
 )
+    
+def
+isExternal
+(
+self
+)
+:
+        
+return
+False
 class
 IDLInterfaceMixin
 (
@@ -5195,6 +5222,16 @@ self
 identifier
 .
 name
+    
+def
+isInterfaceMixin
+(
+self
+)
+:
+        
+return
+True
     
 def
 finish
@@ -10928,16 +10965,6 @@ indexedGetter
 location
 ]
 )
-    
-def
-isExternal
-(
-self
-)
-:
-        
-return
-False
     
 def
 setCallback
