@@ -2000,6 +2000,9 @@ false
 jsallocations
 :
 false
+nativeallocations
+:
+false
 }
 ;
 if
