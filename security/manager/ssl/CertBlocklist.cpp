@@ -194,6 +194,17 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+/
+/
+for
+do_CreateInstance
+#
+include
+"
 nsDependentString
 .
 h
