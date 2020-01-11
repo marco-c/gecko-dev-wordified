@@ -446,14 +446,7 @@ is_dir
 )
 )
 ;
-ShaderSourceParser
-:
-:
-new
-(
-)
-.
-parse
+parse_shader_source
 (
 Cow
 :
