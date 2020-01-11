@@ -69,7 +69,7 @@ import
 PerfectHash
 PHFSIZE
 =
-512
+1024
 from
 mozparsers
 import
