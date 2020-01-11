@@ -7106,13 +7106,12 @@ mozilla
 StyleFlexDirection
 mFlexDirection
 ;
-uint8_t
+mozilla
+:
+:
+StyleFlexWrap
 mFlexWrap
 ;
-/
-/
-NS_STYLE_FLEX_WRAP_
-*
 uint8_t
 mObjectFit
 ;

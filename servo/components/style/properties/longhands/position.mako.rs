@@ -728,6 +728,11 @@ servo_restyle_damage
 "
 reflow
 "
+gecko_enum_prefix
+=
+"
+StyleFlexWrap
+"
 )
 }
 %
