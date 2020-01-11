@@ -14543,14 +14543,10 @@ state
 .
 intersects
 (
-NonTSPseudoClass
+ElementState
 :
 :
-AnyLink
-.
-state_flag
-(
-)
+IN_VISITED_OR_UNVISITED_STATE
 )
 }
 #
