@@ -145,6 +145,13 @@ h
 #
 include
 "
+MmapFaultHandler
+.
+h
+"
+#
+include
+"
 nsEscape
 .
 h
@@ -1316,7 +1323,10 @@ rv
 =
 NS_OK
 ;
-MOZ_WIN_MEM_TRY_BEGIN
+MMAP_FAULT_HANDLER_BEGIN_HANDLE
+(
+mFd
+)
 switch
 (
 mMode
@@ -1528,10 +1538,8 @@ nullptr
 break
 ;
 }
-MOZ_WIN_MEM_TRY_CATCH
+MMAP_FAULT_HANDLER_CATCH
 (
-rv
-=
 NS_ERROR_FAILURE
 )
 return
