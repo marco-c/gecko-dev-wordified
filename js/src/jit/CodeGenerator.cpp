@@ -11064,7 +11064,7 @@ output
 using
 Fn
 =
-JSFlatString
+JSLinearString
 *
 (
 *

@@ -2141,7 +2141,7 @@ js
 :
 PropertyName
 *
-JSFlatString
+JSLinearString
 :
 :
 toPropertyName

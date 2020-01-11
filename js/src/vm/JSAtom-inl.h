@@ -869,7 +869,7 @@ idp
 }
 static
 MOZ_ALWAYS_INLINE
-JSFlatString
+JSLinearString
 *
 IdToString
 (
@@ -957,7 +957,7 @@ return
 str
 -
 >
-ensureFlat
+ensureLinear
 (
 cx
 )

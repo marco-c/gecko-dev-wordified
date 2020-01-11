@@ -419,7 +419,7 @@ AllowGC
 allowGC
 >
 extern
-JSFlatString
+JSLinearString
 *
 Int32ToString
 (
@@ -431,7 +431,7 @@ i
 )
 ;
 extern
-JSFlatString
+JSLinearString
 *
 Int32ToStringHelperPure
 (
@@ -521,7 +521,7 @@ sb
 )
 ;
 extern
-JSFlatString
+JSLinearString
 *
 IndexToString
 (

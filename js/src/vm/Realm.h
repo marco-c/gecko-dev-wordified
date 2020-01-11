@@ -429,7 +429,7 @@ d
 int
 base
 ;
-JSFlatString
+JSLinearString
 *
 s
 ;
@@ -468,7 +468,7 @@ s
 nullptr
 ;
 }
-JSFlatString
+JSLinearString
 *
 lookup
 (
@@ -517,7 +517,7 @@ int
 base
 double
 d
-JSFlatString
+JSLinearString
 *
 s
 )

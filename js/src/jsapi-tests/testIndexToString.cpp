@@ -507,7 +507,7 @@ i
 .
 num
 ;
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -581,7 +581,7 @@ i
 '
 }
 ;
-JSFlatString
+JSLinearString
 *
 hiStr
 =
@@ -663,7 +663,7 @@ maxChars
 '
 }
 ;
-JSFlatString
+JSLinearString
 *
 maxStr
 =
@@ -738,7 +738,7 @@ maxPlusOneChars
 '
 }
 ;
-JSFlatString
+JSLinearString
 *
 maxPlusOneStr
 =
@@ -790,7 +790,7 @@ size_t
 N
 >
 static
-JSFlatString
+JSLinearString
 *
 NewString
 (
