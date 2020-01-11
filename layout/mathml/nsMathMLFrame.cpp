@@ -1994,10 +1994,6 @@ mRect
 (
 aRect
 )
-mIndex
-(
-aIndex
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -2080,9 +2076,6 @@ private
 :
 nsRect
 mRect
-;
-uint16_t
-mIndex
 ;
 }
 ;

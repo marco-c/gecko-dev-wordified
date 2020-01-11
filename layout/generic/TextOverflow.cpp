@@ -1117,17 +1117,6 @@ mAscent
 (
 aAscent
 )
-mIndex
-(
-(
-aLineNumber
-<
-<
-1
-)
-+
-aIndex
-)
 {
 MOZ_COUNT_CTOR
 (
@@ -1448,9 +1437,6 @@ marker
 text
 in
 mRect
-uint16_t
-mIndex
-;
 }
 ;
 static

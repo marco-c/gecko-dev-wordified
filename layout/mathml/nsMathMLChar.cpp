@@ -13399,10 +13399,6 @@ mChar
 (
 aChar
 )
-mIndex
-(
-aIndex
-)
 mIsSelected
 (
 aIsSelected
@@ -13637,9 +13633,6 @@ private
 nsMathMLChar
 *
 mChar
-;
-uint16_t
-mIndex
 ;
 bool
 mIsSelected
