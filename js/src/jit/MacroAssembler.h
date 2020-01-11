@@ -24423,6 +24423,15 @@ MIRType
 :
 Int64
 ;
+case
+ArgType_Pointer
+:
+return
+MIRType
+:
+:
+Pointer
+;
 default
 :
 break

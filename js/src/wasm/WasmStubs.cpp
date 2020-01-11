@@ -9174,6 +9174,15 @@ MIRType
 :
 :
 RefOrNull
+|
+|
+type
+=
+=
+MIRType
+:
+:
+Pointer
 )
 {
 masm
