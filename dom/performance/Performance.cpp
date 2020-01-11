@@ -1641,6 +1641,12 @@ startTime
 DOMHighResTimeStamp
 endTime
 ;
+DOMHighResTimeStamp
+startTimeUnfuzzed
+;
+DOMHighResTimeStamp
+endTimeUnfuzzed
+;
 if
 (
 aStartMark
@@ -1650,7 +1656,7 @@ WasPassed
 )
 )
 {
-startTime
+startTimeUnfuzzed
 =
 ResolveTimestampFromName
 (
@@ -1669,7 +1675,7 @@ nsRFPService
 :
 ReduceTimePrecisionAsMSecs
 (
-startTime
+startTimeUnfuzzed
 GetRandomTimelineSeed
 (
 )
@@ -1730,6 +1736,10 @@ startTime
 =
 0
 ;
+startTimeUnfuzzed
+=
+0
+;
 }
 if
 (
@@ -1740,7 +1750,7 @@ WasPassed
 )
 )
 {
-endTime
+endTimeUnfuzzed
 =
 ResolveTimestampFromName
 (
@@ -1759,7 +1769,7 @@ nsRFPService
 :
 ReduceTimePrecisionAsMSecs
 (
-endTime
+endTimeUnfuzzed
 GetRandomTimelineSeed
 (
 )
@@ -1784,6 +1794,12 @@ return
 else
 {
 endTime
+=
+Now
+(
+)
+;
+endTimeUnfuzzed
 =
 Now
 (
@@ -1834,7 +1850,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-startTime
+startTimeUnfuzzed
 )
 ;
 TimeStamp
@@ -1849,7 +1865,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-endTime
+endTimeUnfuzzed
 )
 ;
 /
