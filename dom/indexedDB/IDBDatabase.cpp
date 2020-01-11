@@ -5846,6 +5846,16 @@ CloseInternal
 (
 )
 ;
+ExpireFileActors
+(
+/
+*
+aExpireAll
+*
+/
+true
+)
+;
 if
 (
 mBackgroundActor
