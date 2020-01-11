@@ -23670,7 +23670,7 @@ toTest
 predecessorTest
 -
 >
-replaceSuccessor
+initSuccessor
 (
 0
 successorBlock
@@ -23755,7 +23755,7 @@ toTest
 predecessorTest
 -
 >
-replaceSuccessor
+initSuccessor
 (
 1
 successorBlock
@@ -23790,7 +23790,7 @@ toGoto
 )
 -
 >
-replaceSuccessor
+initSuccessor
 (
 0
 joinBlock
@@ -23824,7 +23824,7 @@ toGotoWithFake
 )
 -
 >
-replaceSuccessor
+initSuccessor
 (
 1
 joinBlock
