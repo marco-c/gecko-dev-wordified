@@ -849,7 +849,8 @@ the
 site
 *
 /
-_searchAndDedupeLogins
+static
+searchAndDedupeLogins
 (
 formOrigin
 {
@@ -2020,9 +2021,9 @@ else
 {
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 formOrigin
 {
@@ -2405,9 +2406,9 @@ origin
 .
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 formOrigin
 {
@@ -3384,9 +3385,9 @@ preferred
 let
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 origin
 {
@@ -4710,9 +4711,9 @@ matches
 let
 logins
 =
-this
+LoginManagerParent
 .
-_searchAndDedupeLogins
+searchAndDedupeLogins
 (
 formOrigin
 {
