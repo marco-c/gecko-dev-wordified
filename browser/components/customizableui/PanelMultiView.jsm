@@ -2920,7 +2920,9 @@ this
 ;
 this
 .
-window
+document
+.
+documentElement
 .
 removeEventListener
 (
@@ -8965,7 +8967,7 @@ keydown
 handler
 on
 the
-window
+root
 so
 that
 it
@@ -9050,7 +9052,9 @@ first
 .
 this
 .
-window
+document
+.
+documentElement
 .
 addEventListener
 (
@@ -9295,7 +9299,9 @@ _cleanupTransitionPhase
 ;
 this
 .
-window
+document
+.
+documentElement
 .
 removeEventListener
 (
@@ -12751,9 +12757,10 @@ we
 have
 a
 capturing
-window
+root
 /
 /
+element
 keydown
 listener
 our
