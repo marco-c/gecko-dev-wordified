@@ -609,12 +609,7 @@ ui
 .
 loginTextbox
 .
-getAttribute
-(
-"
 value
-"
-)
 ;
 state
 .
@@ -624,12 +619,7 @@ ui
 .
 password1Textbox
 .
-getAttribute
-(
-"
 value
-"
-)
 ;
 state
 .
@@ -856,8 +846,6 @@ isSameNode
 ui
 .
 loginTextbox
-.
-inputField
 )
 )
 {
@@ -880,8 +868,6 @@ isSameNode
 ui
 .
 password1Textbox
-.
-inputField
 )
 )
 {
