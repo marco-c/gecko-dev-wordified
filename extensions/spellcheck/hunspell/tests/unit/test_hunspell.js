@@ -1536,6 +1536,18 @@ iso
 ]
 ]
 ;
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+shadow
 function
 *
 do_get_file_by_line
@@ -1569,7 +1581,7 @@ dump
 (
 "
 using
-charset
+charset1
 "
 +
 charset
@@ -1676,7 +1688,7 @@ Ci
 nsIUnicharLineInputStream
 )
 ;
-var
+let
 val
 =
 {
@@ -1894,6 +1906,7 @@ good_counter
 ;
 for
 (
+const
 val
 of
 do_get_file_by_line
@@ -2004,6 +2017,7 @@ bad_counter
 ;
 for
 (
+const
 val
 of
 do_get_file_by_line
@@ -2185,6 +2199,7 @@ do_run_test_closure
 test
 )
 {
+let
 [
 name
 charset

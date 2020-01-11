@@ -23,6 +23,18 @@ jsm
 )
 ;
 /
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
+/
 /
 Chrome
 scripts
@@ -67,6 +79,7 @@ ww
 .
 activeWindow
 ;
+let
 contextMenu
 =
 chromeWin
