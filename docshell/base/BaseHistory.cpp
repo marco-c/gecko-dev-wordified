@@ -391,9 +391,9 @@ entry
 return
 ;
 }
-TrackedURI
+ObservingLinks
 &
-trackedURI
+links
 =
 entry
 .
@@ -436,7 +436,7 @@ ObserverArray
 BackwardIterator
 iter
 (
-trackedURI
+links
 .
 mLinks
 )
@@ -508,7 +508,7 @@ array
 .
 if
 (
-trackedURI
+links
 .
 mLinks
 .
@@ -800,9 +800,9 @@ return
 NS_OK
 ;
 }
-TrackedURI
+ObservingLinks
 &
-trackedURI
+links
 =
 entry
 .
@@ -812,7 +812,7 @@ OrInsert
 ]
 {
 return
-TrackedURI
+ObservingLinks
 {
 }
 ;
@@ -856,7 +856,7 @@ URIs
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-trackedURI
+links
 .
 mLinks
 .
@@ -881,7 +881,7 @@ tracking
 our
 Link
 .
-trackedURI
+links
 .
 mLinks
 .
@@ -928,9 +928,9 @@ us
 .
 if
 (
-trackedURI
+links
 .
-mVisited
+mKnownVisited
 )
 {
 DispatchNotifyVisited
@@ -1241,9 +1241,9 @@ return
 NS_OK
 ;
 }
-TrackedURI
+ObservingLinks
 &
-trackedURI
+links
 =
 entry
 .
@@ -1251,9 +1251,9 @@ Data
 (
 )
 ;
-trackedURI
+links
 .
-mVisited
+mKnownVisited
 =
 true
 ;
@@ -1275,7 +1275,7 @@ observer
 MOZ_ASSERT
 (
 !
-trackedURI
+links
 .
 mLinks
 .
@@ -1313,9 +1313,10 @@ DocGroup
 .
 /
 /
-FIXME
+TODO
 (
-emilio
+bug
+1591090
 )
 :
 Maybe
@@ -1352,7 +1353,7 @@ ObserverArray
 BackwardIterator
 iter
 (
-trackedURI
+links
 .
 mLinks
 )
