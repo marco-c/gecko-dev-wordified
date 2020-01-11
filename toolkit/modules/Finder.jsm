@@ -816,6 +816,9 @@ word
 options
 .
 searchString
+useSubFrames
+:
+true
 }
 )
 )
@@ -1269,6 +1272,9 @@ aDrawOutline
 linksOnly
 :
 aLinksOnly
+useSubFrames
+:
+true
 }
 )
 ;
@@ -1395,6 +1401,9 @@ aDrawOutline
 linksOnly
 :
 aLinksOnly
+useSubFrames
+:
+true
 }
 )
 ;
@@ -1486,6 +1495,9 @@ highlight
 aHighlight
 aWord
 aLinksOnly
+aUseSubFrames
+=
+true
 )
 {
 await
@@ -1498,6 +1510,8 @@ highlight
 aHighlight
 aWord
 aLinksOnly
+false
+aUseSubFrames
 )
 ;
 }
@@ -2441,6 +2455,9 @@ requestMatchesCount
 (
 aWord
 aLinksOnly
+aUseSubFrames
+=
+true
 )
 {
 if
@@ -2529,6 +2546,7 @@ aLinksOnly
 word
 :
 aWord
+aUseSubFrames
 }
 ;
 if
@@ -2579,6 +2597,7 @@ this
 useCache
 :
 true
+aUseSubFrames
 }
 )
 )
@@ -2762,6 +2781,7 @@ onIteratorRestart
 {
 word
 linksOnly
+useSubFrames
 }
 )
 {
@@ -2771,6 +2791,7 @@ requestMatchesCount
 (
 word
 linksOnly
+useSubFrames
 )
 ;
 }
