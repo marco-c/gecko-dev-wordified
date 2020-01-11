@@ -82,8 +82,6 @@ shutil
 import
 signal
 import
-six
-import
 sys
 import
 tempfile
@@ -4003,9 +4001,7 @@ if
 isinstance
 (
 new_path
-six
-.
-text_type
+unicode
 )
 :
                 
@@ -6043,7 +6039,7 @@ state
 return
 response
 .
-text
+content
     
 def
 control_server_wait_timeout
@@ -6106,7 +6102,7 @@ timeout
 return
 response
 .
-text
+content
     
 def
 control_server_wait_get
@@ -6169,7 +6165,7 @@ data
 return
 response
 .
-text
+content
     
 def
 control_server_wait_continue
@@ -6232,7 +6228,7 @@ data
 return
 response
 .
-text
+content
     
 def
 control_server_wait_clear
@@ -6295,7 +6291,7 @@ state
 return
 response
 .
-text
+content
 class
 RaptorDesktop
 (
@@ -13230,17 +13226,19 @@ url
 ]
             
 if
-_page
+raptor_test
 .
 get
 (
-'
-pending_metrics
-'
+"
+type
+"
 )
-is
-not
-None
+=
+=
+'
+pageload
+'
 :
                 
 message

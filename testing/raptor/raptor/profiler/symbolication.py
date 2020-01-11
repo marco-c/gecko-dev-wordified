@@ -58,6 +58,8 @@ __future__
 import
 absolute_import
 import
+cStringIO
+import
 hashlib
 import
 os
@@ -66,27 +68,13 @@ platform
 import
 subprocess
 import
+urllib2
+import
 zipfile
 from
 distutils
 import
 spawn
-from
-six
-.
-moves
-import
-cStringIO
-from
-six
-.
-moves
-.
-urllib
-.
-request
-import
-urlopen
 from
 .
 symFileManager
@@ -940,6 +928,8 @@ try
             
 io
 =
+urllib2
+.
 urlopen
 (
 symbol_zip_url
