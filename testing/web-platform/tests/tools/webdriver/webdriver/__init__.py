@@ -3,6 +3,7 @@ flake8
 :
 noqa
 from
+.
 client
 import
 (
@@ -22,6 +23,7 @@ Timeouts
 Window
 )
 from
+.
 error
 import
 (

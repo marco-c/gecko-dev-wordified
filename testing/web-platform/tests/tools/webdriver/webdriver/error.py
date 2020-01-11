@@ -2,6 +2,10 @@ import
 collections
 import
 json
+from
+six
+import
+itervalues
 class
 WebDriverException
 (
@@ -931,12 +935,14 @@ defaultdict
 for
 item
 in
+list
+(
+itervalues
+(
 locals
 (
 )
-.
-values
-(
+)
 )
 :
     
