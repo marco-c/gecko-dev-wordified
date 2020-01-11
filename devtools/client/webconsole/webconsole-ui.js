@@ -2877,6 +2877,7 @@ getLongString
 grip
 )
 {
+return
 this
 .
 getProxy
