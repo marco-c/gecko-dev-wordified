@@ -279,11 +279,6 @@ continueToHere
 (
 cx
 location
-.
-line
-location
-.
-column
 )
 id
 :
