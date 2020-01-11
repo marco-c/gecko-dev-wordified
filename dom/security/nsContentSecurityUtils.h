@@ -173,7 +173,7 @@ Maybe
 nsString
 >
 >
-FilenameType
+FilenameTypeAndDetails
 ;
 class
 nsContentSecurityUtils
@@ -181,7 +181,7 @@ nsContentSecurityUtils
 public
 :
 static
-FilenameType
+FilenameTypeAndDetails
 FilenameToEvalType
 (
 const
