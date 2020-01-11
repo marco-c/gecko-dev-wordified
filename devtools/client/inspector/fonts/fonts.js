@@ -2236,14 +2236,6 @@ out
 }
 /
 *
-eslint
--
-enable
-complexity
-*
-/
-/
-*
 *
 *
 Destruction
