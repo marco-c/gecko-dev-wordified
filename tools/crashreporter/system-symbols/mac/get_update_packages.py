@@ -159,7 +159,7 @@ get_update_packages
 for
 i
 in
-xrange
+range
 (
 16
 )
@@ -209,6 +209,9 @@ downloads_browse
 sort
 =
 recency
+"
+            
+"
 &
 facet
 =
@@ -227,7 +230,6 @@ offset
 %
 d
 "
-            
 %
 i
         
@@ -347,7 +349,7 @@ fileurl
 else
 :
                     
-log
+logging
 .
 warn
 (

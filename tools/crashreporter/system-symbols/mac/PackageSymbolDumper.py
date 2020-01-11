@@ -163,8 +163,6 @@ shutil
 import
 subprocess
 import
-sys
-import
 tempfile
 from
 scrapesymbols

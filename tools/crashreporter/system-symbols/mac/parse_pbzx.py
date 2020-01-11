@@ -21,6 +21,7 @@ the
 differences
 here
 :
+#
 https
 :
 /
@@ -49,6 +50,7 @@ extraction
 from
 pbzx
 file
+#
 payload
 originally
 here
@@ -114,6 +116,7 @@ bruienne
 029494bbcfb358098b41
 import
 struct
+import
 sys
 def
 seekread
@@ -133,8 +136,8 @@ True
     
 if
 offset
-!
-=
+is
+not
 None
 :
         
@@ -429,6 +432,8 @@ actually
 _raw
 decompressed
 cpio_
+            
+#
 chunk
 of
 16MB
@@ -541,6 +546,8 @@ hopefully
 be
 .
 xz
+            
+#
 (
 we
 '
@@ -690,6 +697,7 @@ close
 )
     
 except
+BaseException
 :
         
 pass
