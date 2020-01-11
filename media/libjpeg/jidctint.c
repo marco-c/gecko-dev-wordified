@@ -18,7 +18,7 @@ Group
 '
 s
 software
-.
+:
 *
 Copyright
 (
