@@ -907,6 +907,9 @@ attribute
 if
 (
 attribute
+&
+&
+attribute
 -
 >
 freeAttr
