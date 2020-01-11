@@ -11766,8 +11766,6 @@ if
 gUnsafePathsWithInvalidValuesForThisProcess
 .
 length
->
-0
 )
 {
 let

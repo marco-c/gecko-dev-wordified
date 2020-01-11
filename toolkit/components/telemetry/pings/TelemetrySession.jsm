@@ -4199,6 +4199,8 @@ this
 _slowSQLStartup
 &
 &
+!
+!
 Object
 .
 keys
@@ -4209,9 +4211,6 @@ _slowSQLStartup
 )
 .
 length
-!
-=
-0
 &
 &
 (
@@ -4372,8 +4371,6 @@ stacks
 captures
 .
 length
->
-0
 )
 {
 payloadObj
@@ -6333,6 +6330,7 @@ once
 .
 if
 (
+!
 Object
 .
 keys
@@ -6343,9 +6341,6 @@ _slowSQLStartup
 )
 .
 length
-=
-=
-0
 )
 {
 this

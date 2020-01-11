@@ -568,8 +568,6 @@ if
 expectedChildrenNodes
 .
 length
->
-0
 )
 {
 Assert
@@ -1252,13 +1250,13 @@ aNode
 bookmarkGuid
 &
 &
+!
+!
 aNode
 .
 bookmarkGuid
 .
 length
->
-0
 )
 ;
 let

@@ -281,6 +281,7 @@ aPrefBranch
 {
 if
 (
+!
 Services
 .
 prefs
@@ -297,9 +298,6 @@ getChildList
 )
 .
 length
-=
-=
-0
 )
 {
 return
@@ -353,12 +351,10 @@ getChildList
 ;
 if
 (
+!
 prefCertAttrs
 .
 length
-=
-=
-0
 )
 {
 break
@@ -556,12 +552,10 @@ if
 aCerts
 |
 |
+!
 aCerts
 .
 length
-=
-=
-0
 )
 {
 return

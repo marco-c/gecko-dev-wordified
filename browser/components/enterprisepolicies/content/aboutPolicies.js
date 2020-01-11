@@ -1152,8 +1152,6 @@ data
 )
 .
 length
->
-0
 )
 {
 let

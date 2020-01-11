@@ -1909,14 +1909,13 @@ this
 .
 isTextSelected
 =
+!
+!
 this
 .
 textSelected
 .
 length
-!
-=
-0
 ;
 this
 .

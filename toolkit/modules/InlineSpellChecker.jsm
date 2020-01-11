@@ -2088,8 +2088,6 @@ this
 mAddedWordStack
 .
 length
->
-0
 )
 {
 var
@@ -2150,13 +2148,13 @@ on
 the
 stack
 return
+!
+!
 this
 .
 mAddedWordStack
 .
 length
->
-0
 ;
 }
 ignoreWord

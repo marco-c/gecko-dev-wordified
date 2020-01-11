@@ -2249,11 +2249,11 @@ getAllActive
 ;
 ok
 (
+!
+!
 activeExperiments
 .
 length
->
-0
 )
 ;
 Assert

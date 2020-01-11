@@ -2444,13 +2444,13 @@ this
 version
 &
 &
+!
+!
 this
 .
 version
 .
 length
->
-0
 ;
 }
 _handleEnabledChanged

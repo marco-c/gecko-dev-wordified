@@ -4986,8 +4986,6 @@ if
 doorhangers
 .
 length
->
-0
 )
 {
 /

@@ -4478,12 +4478,10 @@ node
 ;
 if
 (
+!
 guids
 .
 length
-=
-=
-0
 |
 |
 !
@@ -4671,8 +4669,6 @@ childCount
 guids
 .
 length
->
-0
 ;
 child
 +

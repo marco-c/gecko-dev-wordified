@@ -1532,6 +1532,7 @@ anchor
 ;
 ok
 (
+!
 win
 .
 PopupNotifications
@@ -1541,9 +1542,6 @@ panel
 children
 .
 length
-=
-=
-0
 "
 no
 notification

@@ -6150,8 +6150,6 @@ if
 transactions
 .
 length
->
-0
 )
 {
 await
@@ -7241,8 +7239,6 @@ this
 cutNodes
 .
 length
->
-0
 )
 {
 /
@@ -7673,8 +7669,6 @@ content
 entries
 .
 length
->
-0
 )
 {
 hasData
@@ -8369,8 +8363,6 @@ if
 itemsToSelect
 .
 length
->
-0
 )
 {
 this

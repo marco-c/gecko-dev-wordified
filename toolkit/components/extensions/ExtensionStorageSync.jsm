@@ -5400,12 +5400,10 @@ extIds
 ;
 if
 (
+!
 extIds
 .
 length
-=
-=
-0
 )
 {
 /
@@ -6035,8 +6033,6 @@ changes
 )
 .
 length
->
-0
 )
 {
 this
@@ -6919,9 +6915,6 @@ result
 resolved
 .
 length
-!
-=
-0
 )
 {
 /
@@ -7672,8 +7665,6 @@ result
 resolved
 .
 length
->
-0
 )
 {
 /
@@ -8919,8 +8910,6 @@ changes
 )
 .
 length
->
-0
 )
 {
 this

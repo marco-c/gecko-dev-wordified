@@ -1460,12 +1460,10 @@ token
 {
 if
 (
+!
 token
 .
 length
-=
-=
-0
 )
 {
 return
@@ -2604,8 +2602,6 @@ if
 restrictions
 .
 length
->
-0
 )
 {
 /

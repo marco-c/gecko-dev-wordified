@@ -682,6 +682,7 @@ empty
 .
 if
 (
+!
 Object
 .
 keys
@@ -698,9 +699,6 @@ buildFormObject
 )
 .
 length
-=
-=
-0
 )
 {
 this

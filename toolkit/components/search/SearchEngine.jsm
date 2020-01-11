@@ -10811,14 +10811,12 @@ this
 name
 |
 |
+!
 this
 .
 _urls
 .
 length
-=
-=
-0
 )
 {
 SearchUtils

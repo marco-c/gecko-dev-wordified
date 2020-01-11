@@ -5359,16 +5359,12 @@ if
 eventModifiers
 .
 length
->
-0
 &
 &
+!
 keyModifiers
 .
 length
-=
-=
-0
 )
 {
 return

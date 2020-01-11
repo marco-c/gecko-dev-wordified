@@ -420,8 +420,6 @@ if
 conflictingPrefs
 .
 length
->
-0
 )
 {
 throw

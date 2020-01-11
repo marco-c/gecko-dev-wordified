@@ -4654,14 +4654,12 @@ clientItem
 ;
 if
 (
+!
 client
 .
 tabs
 .
 length
-=
-=
-0
 )
 {
 let

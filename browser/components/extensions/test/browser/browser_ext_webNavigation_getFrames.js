@@ -529,8 +529,6 @@ nonExistentFrameId
 )
 .
 length
->
-0
 )
 {
 nonExistentFrameId

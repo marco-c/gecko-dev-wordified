@@ -1095,8 +1095,6 @@ if
 frameAncestors
 .
 length
->
-0
 )
 {
 data

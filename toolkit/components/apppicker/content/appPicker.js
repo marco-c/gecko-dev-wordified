@@ -492,12 +492,10 @@ if
 fileList
 |
 |
+!
 fileList
 .
 length
-=
-=
-0
 )
 {
 /

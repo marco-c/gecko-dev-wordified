@@ -520,12 +520,10 @@ imported
 .
 if
 (
+!
 title
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -657,12 +655,10 @@ import
 .
 if
 (
+!
 pageInfos
 .
 length
-=
-=
-0
 )
 {
 aCallback
@@ -1567,8 +1563,6 @@ if
 logins
 .
 length
->
-0
 )
 {
 await

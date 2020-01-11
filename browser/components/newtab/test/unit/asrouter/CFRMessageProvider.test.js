@@ -472,6 +472,8 @@ assert
 .
 isTrue
 (
+!
+!
 pinTabMessage
 .
 trigger
@@ -495,8 +497,6 @@ www
 )
 .
 length
->
-0
 )
 ;
 }

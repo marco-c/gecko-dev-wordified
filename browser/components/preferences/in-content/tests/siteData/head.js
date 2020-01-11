@@ -1516,12 +1516,10 @@ getAllRegistrations
 ;
 if
 (
+!
 serviceWorkers
 .
 length
-=
-=
-0
 )
 {
 ok

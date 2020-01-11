@@ -2289,8 +2289,6 @@ placesResult
 results
 .
 length
->
-0
 )
 {
 do_throw
@@ -2467,8 +2465,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -2572,8 +2568,6 @@ placesResult
 results
 .
 length
->
-0
 )
 {
 do_throw
@@ -2753,8 +2747,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -3004,8 +2996,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -3275,8 +3265,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -3412,8 +3400,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -3654,8 +3640,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -3770,8 +3754,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -4158,8 +4140,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -4636,8 +4616,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -5180,8 +5158,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -5400,8 +5376,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -5719,8 +5693,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -5776,8 +5748,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -5893,8 +5863,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -5952,8 +5920,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -6018,8 +5984,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -6090,8 +6054,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -6212,8 +6174,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -6272,8 +6232,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -6442,8 +6400,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -7925,8 +7881,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw
@@ -8035,8 +7989,6 @@ placesResult
 results
 .
 length
->
-0
 )
 {
 do_throw
@@ -8392,8 +8344,6 @@ placesResult
 errors
 .
 length
->
-0
 )
 {
 do_throw

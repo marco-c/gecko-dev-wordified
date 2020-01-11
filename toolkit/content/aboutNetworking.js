@@ -2297,8 +2297,6 @@ if
 logPath
 .
 length
->
-0
 )
 {
 currentLogFile
@@ -2428,8 +2426,6 @@ if
 logModules
 .
 length
->
-0
 )
 {
 currentLogModules

@@ -1156,12 +1156,10 @@ aNode
 ;
 if
 (
+!
 ancestors
 .
 length
-=
-=
-0
 |
 |
 ancestors
@@ -3482,12 +3480,10 @@ aUpdatedContainer
 {
 if
 (
+!
 aNodesInfo
 .
 length
-=
-=
-0
 )
 {
 return
@@ -5717,8 +5713,6 @@ if
 nodesToReselect
 .
 length
->
-0
 )
 {
 this
@@ -5858,8 +5852,6 @@ if
 nodesToReselect
 .
 length
->
-0
 )
 {
 this
@@ -6834,8 +6826,6 @@ if
 nodesToReselect
 .
 length
->
-0
 &
 &
 nodesToReselect

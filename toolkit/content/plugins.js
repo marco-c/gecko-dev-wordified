@@ -215,8 +215,6 @@ if
 aPlugins
 .
 length
->
-0
 )
 {
 id

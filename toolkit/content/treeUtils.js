@@ -427,12 +427,10 @@ true
 ;
 if
 (
+!
 aDataSet
 .
 length
-=
-=
-0
 )
 {
 return

@@ -547,14 +547,12 @@ roots
 {
 if
 (
+!
 root
 .
 children
 .
 length
-=
-=
-0
 &
 &
 root
@@ -3495,8 +3493,6 @@ while
 visitStack
 .
 length
->
-0
 )
 {
 let

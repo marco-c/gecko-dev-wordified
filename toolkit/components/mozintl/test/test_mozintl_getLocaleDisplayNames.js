@@ -1106,11 +1106,11 @@ language
 ;
 equal
 (
+!
+!
 langCodes
 .
 length
->
-0
 true
 "
 There
@@ -1135,11 +1135,11 @@ region
 ;
 equal
 (
+!
+!
 regCodes
 .
 length
->
-0
 true
 "
 There

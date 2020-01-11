@@ -3108,12 +3108,10 @@ null
 {
 if
 (
+!
 filename
 .
 length
-=
-=
-0
 )
 {
 return
@@ -6054,8 +6052,6 @@ changes
 )
 .
 length
->
-0
 )
 {
 changes

@@ -846,8 +846,6 @@ while
 steps
 .
 length
->
-0
 )
 {
 let

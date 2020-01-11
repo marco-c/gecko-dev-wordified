@@ -4770,12 +4770,10 @@ gIsServiceTest
 {
 if
 (
+!
 gTestsToLog
 .
 length
-=
-=
-0
 |
 |
 gTestsToLog

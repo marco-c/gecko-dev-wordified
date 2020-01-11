@@ -2925,12 +2925,10 @@ isEnabled
 details
 |
 |
+!
 details
 .
 length
-=
-=
-0
 )
 {
 return

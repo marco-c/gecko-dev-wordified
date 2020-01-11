@@ -18225,14 +18225,12 @@ closeWindow
 closeWindowFastpath
 &
 &
+!
 this
 .
 _removingTabs
 .
 length
-=
-=
-0
 )
 {
 /
@@ -35524,6 +35522,7 @@ context_closeTabsToTheEnd
 .
 disabled
 =
+!
 gBrowser
 .
 getTabsToTheEndFrom
@@ -35534,9 +35533,6 @@ contextTab
 )
 .
 length
-=
-=
-0
 ;
 /
 /

@@ -3274,8 +3274,6 @@ oldPasswordField
 logins
 .
 length
->
-0
 )
 {
 let

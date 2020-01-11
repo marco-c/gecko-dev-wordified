@@ -348,8 +348,6 @@ while
 parts
 .
 length
->
-0
 )
 {
 path

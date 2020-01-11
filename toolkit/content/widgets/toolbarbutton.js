@@ -753,8 +753,6 @@ if
 moveChildren
 .
 length
->
-0
 )
 {
 let

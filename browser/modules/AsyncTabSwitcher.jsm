@@ -8581,8 +8581,6 @@ if
 subFlags
 .
 length
->
-0
 )
 {
 flag
@@ -9286,8 +9284,6 @@ if
 unloadedTabsStrings
 .
 length
->
-0
 )
 {
 accum
@@ -9332,8 +9328,6 @@ this
 _logFlags
 .
 length
->
-0
 )
 {
 accum

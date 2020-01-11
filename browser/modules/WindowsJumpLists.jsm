@@ -1210,6 +1210,8 @@ WTBJL__hasPendingStatements
 )
 {
 return
+!
+!
 Object
 .
 keys
@@ -1220,8 +1222,6 @@ _pendingStatements
 )
 .
 length
->
-0
 ;
 }
 async
@@ -1466,8 +1466,6 @@ if
 URIsToRemove
 .
 length
->
-0
 )
 {
 /
@@ -1649,8 +1647,6 @@ if
 items
 .
 length
->
-0
 )
 {
 this
@@ -1683,8 +1679,6 @@ if
 items
 .
 length
->
-0
 )
 {
 this
@@ -2313,9 +2307,6 @@ name
 name
 .
 length
-!
-=
-0
 )
 {
 handlerApp
@@ -2673,8 +2664,6 @@ if
 URIsToRemove
 .
 length
->
-0
 )
 {
 PlacesUtils

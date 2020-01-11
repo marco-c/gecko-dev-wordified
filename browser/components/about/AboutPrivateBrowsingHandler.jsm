@@ -310,8 +310,6 @@ searchAliases
 searchAliases
 .
 length
->
-0
 )
 {
 searchAlias

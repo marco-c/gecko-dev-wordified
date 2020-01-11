@@ -292,8 +292,6 @@ this
 _values
 .
 length
->
-0
 )
 {
 this

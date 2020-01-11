@@ -704,12 +704,10 @@ guid
 ;
 if
 (
+!
 guids
 .
 length
-=
-=
-0
 )
 {
 return
@@ -775,12 +773,10 @@ guid
 ;
 if
 (
+!
 guids
 .
 length
-=
-=
-0
 )
 {
 return

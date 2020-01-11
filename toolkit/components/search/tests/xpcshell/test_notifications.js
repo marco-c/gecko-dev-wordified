@@ -220,14 +220,12 @@ shift
 ;
 if
 (
+!
 this
 .
 expectedNotifications
 .
 length
-=
-=
-0
 )
 {
 this

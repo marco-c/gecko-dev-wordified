@@ -1853,8 +1853,6 @@ this
 stateTransitionTimeoutIDs
 .
 length
->
-0
 )
 {
 /

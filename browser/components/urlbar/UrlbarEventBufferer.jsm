@@ -1765,8 +1765,6 @@ this
 _eventsQueue
 .
 length
->
-0
 )
 {
 return

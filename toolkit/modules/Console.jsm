@@ -1693,8 +1693,6 @@ if
 keys
 .
 length
->
-0
 )
 {
 reply

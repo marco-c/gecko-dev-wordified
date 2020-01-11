@@ -850,14 +850,12 @@ i
 }
 if
 (
+!
 this
 .
 popupData
 .
 length
-=
-=
-0
 )
 {
 this

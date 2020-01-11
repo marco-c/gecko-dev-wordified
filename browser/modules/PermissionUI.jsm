@@ -5695,13 +5695,13 @@ this
 .
 isSysexPerm
 =
+!
+!
 perm
 .
 options
 .
 length
->
-0
 &
 &
 perm

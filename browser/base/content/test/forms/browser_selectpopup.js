@@ -5320,8 +5320,6 @@ if
 positions
 .
 length
->
-0
 )
 {
 let

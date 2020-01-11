@@ -549,8 +549,6 @@ result
 _values
 .
 length
->
-0
 )
 {
 result
@@ -592,8 +590,6 @@ result
 _values
 .
 length
->
-0
 )
 {
 result

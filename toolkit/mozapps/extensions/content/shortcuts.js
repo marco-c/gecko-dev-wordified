@@ -1089,8 +1089,6 @@ if
 modifiers
 .
 length
->
-0
 )
 {
 let
@@ -2246,12 +2244,10 @@ keyup
 "
 |
 |
+!
 shortcutString
 .
 length
-=
-=
-0
 )
 {
 return
@@ -3557,8 +3553,6 @@ if
 noShortcutAddons
 .
 length
->
-0
 )
 {
 frag
@@ -3666,8 +3660,6 @@ if
 addons
 .
 length
->
-0
 )
 {
 frag

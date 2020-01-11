@@ -1071,6 +1071,7 @@ removeSelectedBtn
 .
 disabled
 =
+!
 this
 .
 _list
@@ -1078,20 +1079,15 @@ _list
 selectedItems
 .
 length
-=
-=
-0
 ;
 removeAllBtn
 .
 disabled
 =
+!
 items
 .
 length
-=
-=
-0
 ;
 let
 l10nId
@@ -1805,8 +1801,6 @@ if
 removals
 .
 length
->
-0
 )
 {
 if
@@ -2142,8 +2136,6 @@ if
 siteItems
 .
 length
->
-0
 )
 {
 this

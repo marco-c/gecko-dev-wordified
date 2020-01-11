@@ -3855,8 +3855,6 @@ while
 lines
 .
 length
->
-0
 )
 {
 let
@@ -3945,12 +3943,10 @@ them
 .
 if
 (
+!
 value
 .
 length
-=
-=
-0
 )
 {
 continue
@@ -4070,8 +4066,6 @@ if
 host
 .
 length
->
-0
 )
 {
 /
@@ -5943,8 +5937,6 @@ if
 logins
 .
 length
->
-0
 )
 {
 await

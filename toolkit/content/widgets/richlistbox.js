@@ -1077,8 +1077,6 @@ this
 selectedItems
 .
 length
->
-0
 ?
 this
 .
@@ -1206,8 +1204,6 @@ this
 selectedItems
 .
 length
->
-0
 )
 {
 return
@@ -1291,8 +1287,6 @@ this
 selectedItems
 .
 length
->
-0
 )
 {
 return
@@ -3045,8 +3039,6 @@ this
 selectedItems
 .
 length
->
-0
 )
 {
 let
@@ -3378,12 +3370,10 @@ itemChildren
 ;
 if
 (
+!
 children
 .
 length
-=
-=
-0
 )
 {
 return

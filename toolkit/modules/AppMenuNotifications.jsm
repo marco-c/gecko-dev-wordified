@@ -293,9 +293,6 @@ this
 _notifications
 .
 length
-!
-=
-0
 )
 {
 Services
@@ -332,8 +329,6 @@ this
 _notifications
 .
 length
->
-0
 )
 {
 const

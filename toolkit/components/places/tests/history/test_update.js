@@ -1237,8 +1237,8 @@ Assert
 .
 ok
 (
-0
-<
+!
+!
 descriptionInDB
 .
 length

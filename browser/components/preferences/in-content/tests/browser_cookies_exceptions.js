@@ -2724,12 +2724,10 @@ return
 }
 if
 (
+!
 observances
 .
 length
-=
-=
-0
 )
 {
 /
@@ -2898,12 +2896,10 @@ equal
 }
 if
 (
+!
 observances
 .
 length
-=
-=
-0
 )
 {
 Services

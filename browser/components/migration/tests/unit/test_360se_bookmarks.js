@@ -281,8 +281,6 @@ if
 expectedParents
 .
 length
->
-0
 &
 &
 event

@@ -742,14 +742,12 @@ enough
 .
 if
 (
+!
 data
 .
 entries
 .
 length
-=
-=
-0
 &
 &
 (
@@ -1544,8 +1542,6 @@ if
 presStates
 .
 length
->
-0
 )
 {
 entry

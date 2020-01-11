@@ -1824,8 +1824,6 @@ this
 additionalDumps
 .
 length
->
-0
 )
 {
 let

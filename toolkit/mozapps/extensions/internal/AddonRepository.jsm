@@ -3415,12 +3415,10 @@ is
 disabled
 if
 (
+!
 ids
 .
 length
-=
-=
-0
 )
 {
 return
@@ -3609,12 +3607,10 @@ to
 cache
 if
 (
+!
 addonsToCache
 .
 length
-=
-=
-0
 )
 {
 logger
@@ -3992,8 +3988,6 @@ if
 authors
 .
 length
->
-0
 )
 {
 addon

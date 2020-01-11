@@ -1573,6 +1573,7 @@ browser
 tabModalPromptBox
 |
 |
+!
 browser
 .
 tabModalPromptBox
@@ -1582,9 +1583,6 @@ listPrompts
 )
 .
 length
-=
-=
-0
 )
 {
 browser

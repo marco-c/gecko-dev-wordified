@@ -374,12 +374,10 @@ function
 else
 if
 (
+!
 func
 .
 length
-=
-=
-0
 )
 {
 mesg

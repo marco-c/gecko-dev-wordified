@@ -1232,11 +1232,11 @@ return
 resources
 &
 &
+!
+!
 resources
 .
 length
->
-0
 ;
 }
 this
@@ -1452,8 +1452,6 @@ bookmark_bar
 children
 .
 length
->
-0
 )
 {
 /
@@ -1535,8 +1533,6 @@ other
 children
 .
 length
->
-0
 )
 {
 /
@@ -1991,8 +1987,6 @@ if
 pageInfos
 .
 length
->
-0
 )
 {
 await
@@ -3112,8 +3106,6 @@ if
 logins
 .
 length
->
-0
 )
 {
 await

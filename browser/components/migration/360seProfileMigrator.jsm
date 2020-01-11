@@ -1932,11 +1932,11 @@ return
 resources
 &
 &
+!
+!
 resources
 .
 length
->
-0
 ;
 }
 )

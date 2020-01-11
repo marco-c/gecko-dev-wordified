@@ -1064,8 +1064,6 @@ lineEl
 children
 .
 length
->
-0
 )
 {
 lineEl

@@ -496,11 +496,11 @@ bm
 ;
 ok
 (
+!
+!
 bookmarks
 .
 length
->
-0
 "
 bookmark
 exists

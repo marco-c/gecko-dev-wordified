@@ -230,11 +230,11 @@ called
 ;
 ok
 (
+!
+!
 certList
 .
 length
->
-0
 "
 Should
 have

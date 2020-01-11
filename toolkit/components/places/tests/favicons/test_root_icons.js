@@ -1020,9 +1020,6 @@ if
 rows
 .
 length
-!
-=
-0
 )
 {
 dump_table

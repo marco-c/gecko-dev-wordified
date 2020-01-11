@@ -2482,14 +2482,12 @@ context
 isPrivate
 |
 |
+!
 context
 .
 results
 .
 length
-=
-=
-0
 )
 {
 return

@@ -298,11 +298,11 @@ there
 .
 ok
 (
+!
+!
 elements
 .
 length
->
-0
 "
 have
 a
@@ -457,11 +457,11 @@ menuitem
 ;
 ok
 (
+!
+!
 elements
 .
 length
->
-0
 "
 have
 a

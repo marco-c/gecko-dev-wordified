@@ -317,13 +317,13 @@ snapshot
 parent
 &
 &
+!
+!
 snapshot
 .
 parent
 .
 length
->
-0
 "
 Got
 parent

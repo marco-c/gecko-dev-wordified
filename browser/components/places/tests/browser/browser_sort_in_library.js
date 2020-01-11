@@ -1242,11 +1242,11 @@ treecol
 ;
 ok
 (
+!
+!
 cols
 .
 length
->
-0
 "
 sanity
 check

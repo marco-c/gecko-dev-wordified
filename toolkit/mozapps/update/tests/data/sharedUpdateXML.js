@@ -2431,12 +2431,10 @@ length
 ;
 if
 (
+!
 bytes
 .
 length
-=
-=
-0
 )
 {
 throw

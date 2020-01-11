@@ -2184,8 +2184,6 @@ if
 aOrigins
 .
 length
->
-0
 )
 {
 return

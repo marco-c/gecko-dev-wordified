@@ -1607,6 +1607,8 @@ browser
 ;
 return
 (
+!
+!
 [
 .
 .
@@ -1615,8 +1617,6 @@ listItemElems
 ]
 .
 length
->
-0
 &
 &
 [
@@ -2180,11 +2180,11 @@ childNodes
 ;
 ok
 (
+!
+!
 notifications
 .
 length
->
-0
 "
 at
 least

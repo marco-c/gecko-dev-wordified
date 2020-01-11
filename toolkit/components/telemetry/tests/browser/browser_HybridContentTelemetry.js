@@ -318,12 +318,10 @@ slice
 ;
 if
 (
+!
 processEvents
 .
 length
-=
-=
-0
 )
 {
 return

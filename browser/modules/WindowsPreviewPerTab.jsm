@@ -5037,14 +5037,12 @@ gTaskbarTabGroup
 ;
 if
 (
+!
 this
 .
 windows
 .
 length
-=
-=
-0
 )
 {
 this

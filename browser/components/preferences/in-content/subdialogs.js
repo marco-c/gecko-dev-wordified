@@ -4200,8 +4200,6 @@ this
 _dialogs
 .
 length
->
-0
 ?
 this
 .
@@ -4330,14 +4328,12 @@ return
 }
 if
 (
+!
 this
 .
 _dialogs
 .
 length
-=
-=
-0
 )
 {
 /

@@ -9246,8 +9246,6 @@ if
 hidden
 .
 length
->
-0
 )
 {
 let
@@ -9397,12 +9395,10 @@ tabs
 else
 if
 (
+!
 tabs
 .
 length
-=
-=
-0
 )
 {
 throw

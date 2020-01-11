@@ -520,8 +520,6 @@ eTLDExtra
 eTLD
 .
 length
->
-0
 ?
 -
 (

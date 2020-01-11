@@ -2266,9 +2266,6 @@ expectedValue
 items
 .
 length
-!
-=
-0
 )
 {
 Assert

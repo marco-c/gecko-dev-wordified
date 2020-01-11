@@ -2050,12 +2050,10 @@ href
 ;
 if
 (
+!
 rows
 .
 length
-=
-=
-0
 )
 {
 return
@@ -9290,11 +9288,11 @@ mobileGuid
 let
 hasMobileBookmarks
 =
+!
+!
 mobileChildGuids
 .
 length
->
-0
 ;
 Services
 .
@@ -12394,8 +12392,6 @@ newTags
 newTags
 .
 length
->
-0
 )
 {
 PlacesUtils
@@ -12429,8 +12425,6 @@ newTags
 newTags
 .
 length
->
-0
 )
 {
 PlacesUtils

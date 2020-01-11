@@ -141,12 +141,10 @@ array
 }
 if
 (
+!
 filters
 .
 length
-=
-=
-0
 )
 {
 throw

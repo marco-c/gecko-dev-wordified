@@ -1299,8 +1299,6 @@ _activeLanguages
 childNodes
 .
 length
->
-0
 )
 {
 this

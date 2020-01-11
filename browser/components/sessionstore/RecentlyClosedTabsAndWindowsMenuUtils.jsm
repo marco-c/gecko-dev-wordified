@@ -590,9 +590,6 @@ if
 closedWindowData
 .
 length
-!
-=
-0
 )
 {
 let

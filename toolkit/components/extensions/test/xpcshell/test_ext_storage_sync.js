@@ -1234,8 +1234,6 @@ this
 conflicts
 .
 length
->
-0
 )
 {
 const

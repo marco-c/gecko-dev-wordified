@@ -1806,12 +1806,10 @@ case
 :
 if
 (
+!
 stack
 .
 length
-=
-=
-0
 )
 {
 if

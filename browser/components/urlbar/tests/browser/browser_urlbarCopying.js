@@ -1783,12 +1783,10 @@ shift
 ;
 if
 (
+!
 tests
 .
 length
-=
-=
-0
 )
 {
 runTest
@@ -2082,12 +2080,10 @@ replace
 }
 if
 (
+!
 offsets
 .
 length
-=
-=
-0
 |
 |
 copyVal

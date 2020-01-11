@@ -2934,8 +2934,6 @@ if
 notes
 .
 length
->
-0
 )
 {
 dump

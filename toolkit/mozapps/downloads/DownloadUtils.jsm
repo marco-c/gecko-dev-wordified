@@ -2878,12 +2878,10 @@ displayHost
 else
 if
 (
+!
 displayHost
 .
 length
-=
-=
-0
 )
 {
 /

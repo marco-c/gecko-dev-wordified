@@ -2670,13 +2670,13 @@ equal
 folder
 .
 hasChildren
+!
+!
 aExpected
 .
 children
 .
 length
->
-0
 )
 ;
 folder

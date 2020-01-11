@@ -2040,13 +2040,13 @@ hasSelection
 )
 {
 return
+!
+!
 this
 .
 selectedNodes
 .
 length
->
-0
 ;
 }
 get

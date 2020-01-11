@@ -1658,8 +1658,6 @@ _currentRequest
 pendingUrls
 .
 length
->
-0
 )
 {
 let

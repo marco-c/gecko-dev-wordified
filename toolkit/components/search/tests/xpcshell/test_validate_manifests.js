@@ -348,11 +348,11 @@ getSearchExtensions
 ;
 ok
 (
+!
+!
 searchExtensions
 .
 length
->
-0
 Found
 {
 searchExtensions

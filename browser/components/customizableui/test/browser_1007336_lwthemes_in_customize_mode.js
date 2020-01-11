@@ -876,8 +876,6 @@ if
 activeThemes
 .
 length
->
-0
 )
 {
 is
@@ -1074,8 +1072,6 @@ if
 activeThemes
 .
 length
->
-0
 )
 {
 is
@@ -1238,8 +1234,6 @@ if
 activeThemes
 .
 length
->
-0
 )
 {
 is
