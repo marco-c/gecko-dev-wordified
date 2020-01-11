@@ -2230,11 +2230,6 @@ redirectFlags
 )
 override
 ;
-nsresult
-StartCrossProcessRedirect
-(
-)
-;
 /
 /
 proxy
