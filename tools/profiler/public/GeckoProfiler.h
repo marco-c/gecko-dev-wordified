@@ -6961,6 +6961,8 @@ int
 aMainThreadId
 int64_t
 aSize
+uintptr_t
+aMemorySize
 )
 ;
 /

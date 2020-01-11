@@ -33903,6 +33903,8 @@ int
 aMainThreadId
 int64_t
 aSize
+uintptr_t
+aMemoryAddress
 )
 {
 if
@@ -33948,6 +33950,10 @@ Now
 (
 )
 aSize
+aMemoryAddress
+profiler_current_thread_id
+(
+)
 profiler_get_backtrace
 (
 )
