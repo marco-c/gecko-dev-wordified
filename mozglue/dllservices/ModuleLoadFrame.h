@@ -215,7 +215,13 @@ ModuleLoadFrame
 delete
 ;
 static
-void
+nt
+:
+:
+LoaderAPI
+:
+:
+InitDllBlocklistOOPFnPtr
 StaticInit
 (
 nt
