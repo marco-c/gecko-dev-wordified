@@ -111,14 +111,6 @@ NDEFMessage
 ;
 ndefMessage
 .
-url
-=
-message
-.
-url
-;
-ndefMessage
-.
 data
 =
 [
