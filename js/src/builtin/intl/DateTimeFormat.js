@@ -531,9 +531,6 @@ r
 .
 dataLocale
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Allow
@@ -565,8 +562,6 @@ r
 ca
 )
 ;
-#
-endif
 /
 /
 Step
