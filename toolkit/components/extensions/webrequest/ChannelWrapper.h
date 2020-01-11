@@ -1300,12 +1300,6 @@ aRv
 )
 const
 ;
-bool
-ThirdParty
-(
-)
-const
-;
 using
 EventTarget
 :
