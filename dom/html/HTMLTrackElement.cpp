@@ -2786,7 +2786,7 @@ aNullParent
 )
 ;
 }
-uint16_t
+TextTrackReadyState
 HTMLTrackElement
 :
 :
@@ -2823,7 +2823,7 @@ HTMLTrackElement
 :
 SetReadyState
 (
-uint16_t
+TextTrackReadyState
 aReadyState
 )
 {
@@ -2906,6 +2906,10 @@ error
 )
 )
 ;
+break
+;
+default
+:
 break
 ;
 }
