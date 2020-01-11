@@ -822,7 +822,7 @@ aOther
 )
 ;
 static
-nsresult
+void
 Init
 (
 )
