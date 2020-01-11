@@ -113,6 +113,9 @@ processTypes
 "
 tab
 "
+"
+gpu
+"
 ]
 ;
 /
