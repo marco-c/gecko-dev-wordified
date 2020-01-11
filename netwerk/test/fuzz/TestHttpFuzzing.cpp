@@ -180,9 +180,11 @@ cover
 all
 combinations
 .
+static
 nsAutoCString
-spec
+httpSpec
 ;
+static
 nsAutoCString
 proxyType
 ;
@@ -274,14 +276,14 @@ concurrent
 ;
 if
 (
-spec
+httpSpec
 .
 IsEmpty
 (
 )
 )
 {
-spec
+httpSpec
 =
 "
 http
@@ -317,7 +319,7 @@ char
 argv
 )
 {
-spec
+httpSpec
 =
 "
 https
@@ -559,7 +561,7 @@ getter_AddRefs
 (
 url
 )
-spec
+httpSpec
 )
 !
 =
