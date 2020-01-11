@@ -230,6 +230,9 @@ factories
 addonStudyFactory
 (
 attrs
+=
+{
+}
 )
 {
 for
@@ -384,6 +387,9 @@ attrs
 branchedAddonStudyFactory
 (
 attrs
+=
+{
+}
 )
 {
 return
@@ -412,6 +418,9 @@ attrs
 preferenceStudyFactory
 (
 attrs
+=
+{
+}
 )
 {
 const
