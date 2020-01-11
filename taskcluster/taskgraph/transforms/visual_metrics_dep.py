@@ -229,9 +229,11 @@ public
 /
 test_info
 /
-jobs
+browsertime
+-
+results
 .
-json
+tgz
 '
 ]
             

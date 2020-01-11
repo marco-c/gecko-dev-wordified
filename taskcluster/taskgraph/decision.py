@@ -173,7 +173,6 @@ voluptuous
 import
 Required
 Optional
-Url
 logger
 =
 logging
@@ -631,24 +630,20 @@ jobs
 Required
 (
 '
-browsertime_json_url
+json_location
 '
 )
 :
-Url
-(
-)
+str
                 
 Required
 (
 '
-video_url
+video_location
 '
 )
 :
-Url
-(
-)
+str
             
 }
         
