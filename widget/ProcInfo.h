@@ -210,6 +210,12 @@ VR
 RDD
 Socket
 RemoteSandboxBroker
+#
+ifdef
+MOZ_ENABLE_FORKSERVER
+ForkServer
+#
+endif
 /
 /
 Unknown
