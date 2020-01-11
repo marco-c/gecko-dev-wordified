@@ -3069,8 +3069,8 @@ true
 #
 endif
 #
-ifdef
-XP_WIN
+ifndef
+XP_MACOSX
 <
 key
 id
