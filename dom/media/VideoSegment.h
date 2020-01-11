@@ -477,9 +477,9 @@ VideoChunk
 void
 SliceTo
 (
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 {
@@ -515,7 +515,7 @@ aEnd
 aStart
 ;
 }
-StreamTime
+TrackTime
 GetDuration
 (
 )
@@ -562,7 +562,7 @@ GetImage
 void
 SetNull
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -634,7 +634,7 @@ GetPrincipalHandle
 )
 ;
 }
-StreamTime
+TrackTime
 mDuration
 ;
 VideoFrame
@@ -751,7 +751,7 @@ Now
 void
 ExtendLastFrameBy
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -818,7 +818,7 @@ VideoFrame
 *
 GetLastFrame
 (
-StreamTime
+TrackTime
 *
 aStart
 =
@@ -956,7 +956,7 @@ chunk
 return
 ;
 }
-StreamTime
+TrackTime
 duration
 =
 0

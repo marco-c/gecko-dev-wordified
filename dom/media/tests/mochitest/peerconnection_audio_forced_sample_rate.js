@@ -23,7 +23,7 @@ rate
 at
 which
 the
-MSG
+MTG
 runs
 is
 not
@@ -54,7 +54,7 @@ because
 we
 have
 an
-MSG
+MTG
 per
 document
 and

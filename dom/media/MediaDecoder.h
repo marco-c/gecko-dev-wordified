@@ -340,7 +340,7 @@ struct
 MediaPlaybackEvent
 ;
 struct
-SharedDummyStream
+SharedDummyTrack
 ;
 enum
 class
@@ -978,7 +978,7 @@ the
 input
 for
 each
-ProcessedMediaStream
+ProcessedMediaTrack
 created
 by
 calls
@@ -1071,7 +1071,7 @@ AddOutputStream
 DOMMediaStream
 *
 aStream
-SharedDummyStream
+SharedDummyTrack
 *
 aDummyStream
 )

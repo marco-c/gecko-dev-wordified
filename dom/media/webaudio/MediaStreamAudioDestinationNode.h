@@ -234,7 +234,7 @@ return
 ;
 }
 void
-DestroyMediaStream
+DestroyMediaTrack
 (
 )
 override

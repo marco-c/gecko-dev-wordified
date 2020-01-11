@@ -344,7 +344,7 @@ aGivenProto
 override
 ;
 void
-DestroyMediaStream
+DestroyMediaTrack
 (
 )
 override
@@ -503,7 +503,7 @@ MarkInactive
 mNode
 -
 >
-DestroyMediaStream
+DestroyMediaTrack
 (
 )
 ;

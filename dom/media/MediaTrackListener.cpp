@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-MediaStreamListener
+MediaTrackListener
 .
 h
 "
@@ -134,12 +134,12 @@ msg
 )
 MOZ_LOG
 (
-gMediaStreamGraphLog
+gMediaTrackGraphLog
 type
 msg
 )
 void
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 :
 :
 MirrorAndDisableSegment
@@ -165,7 +165,7 @@ GetDuration
 ;
 }
 void
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 :
 :
 MirrorAndDisableSegment
@@ -288,15 +288,15 @@ GetDuration
 }
 }
 void
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 :
 :
 NotifyRealtimeTrackDataAndApplyTrackDisabling
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
-StreamTime
+TrackTime
 aTrackOffset
 MediaSegment
 &
@@ -455,7 +455,7 @@ media
 ;
 }
 void
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 :
 :
 IncreaseDisabled
@@ -518,7 +518,7 @@ LogLevel
 Debug
 (
 "
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 %
 p
 increased
@@ -571,7 +571,7 @@ mDisabledBlackCount
 ;
 }
 void
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 :
 :
 DecreaseDisabled
@@ -658,7 +658,7 @@ LogLevel
 Debug
 (
 "
-DirectMediaStreamTrackListener
+DirectMediaTrackListener
 %
 p
 decreased

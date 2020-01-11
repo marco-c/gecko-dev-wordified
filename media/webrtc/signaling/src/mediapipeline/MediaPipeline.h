@@ -301,7 +301,7 @@ RTCRTPContributingSourceStats
 namespace
 dom
 class
-SourceMediaStream
+SourceMediaTrack
 ;
 /
 /
@@ -463,7 +463,7 @@ and
 RTCP
 /
 /
-MediaStreamGraph
+MediaTrackGraph
 /
 /
 *
@@ -472,7 +472,7 @@ outgoing
 data
 from
 the
-MediaStreamGraph
+MediaTrackGraph
 /
 /
 *
@@ -486,7 +486,7 @@ from
 the
 /
 /
-MediaStreamGraph
+MediaTrackGraph
 /
 /
 One

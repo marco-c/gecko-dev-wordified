@@ -143,7 +143,7 @@ Audio
 formats
 supported
 in
-MediaStreams
+MediaTracks
 and
 media
 elements

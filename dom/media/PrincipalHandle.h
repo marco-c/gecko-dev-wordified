@@ -126,7 +126,7 @@ the
 principal
 through
 the
-MediaStreamGraph
+MediaTrackGraph
 by
 wrapping
 it

@@ -117,7 +117,7 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
@@ -165,13 +165,13 @@ Graph
 )
 -
 >
-ConnectToCaptureStream
+ConnectToCaptureTrack
 (
 aWindowID
 aTrack
 -
 >
-GetStream
+GetTrack
 (
 )
 )

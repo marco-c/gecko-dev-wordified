@@ -211,8 +211,8 @@ e
 .
 g
 .
-*
 audio
+*
 sample
 rate
 )
@@ -226,9 +226,9 @@ that
 multiplying
 TrackTicks
 by
-*
 a
 TrackRate
+*
 doesn
 '
 t
@@ -241,7 +241,7 @@ max
 accordingly
 .
 *
-StreamTime
+TrackTime
 should
 be
 used
@@ -252,7 +252,7 @@ we
 re
 working
 with
-MediaStreamGraph
+MediaTrackGraph
 '
 s
 *
@@ -263,14 +263,14 @@ can
 be
 used
 outside
-MediaStreams
+MediaTracks
 when
 we
 have
 data
-*
 at
 a
+*
 different
 rate
 .
@@ -312,7 +312,7 @@ All
 tracks
 in
 a
-MediaStreamGraph
+MediaTrackGraph
 have
 the
 same
@@ -342,17 +342,17 @@ the
 start
 of
 a
-MediaStream
+MediaTrack
 .
 *
 /
 typedef
 MediaTime
-StreamTime
+TrackTime
 ;
 const
-StreamTime
-STREAM_TIME_MAX
+TrackTime
+TRACK_TIME_MAX
 =
 MEDIA_TIME_MAX
 ;
@@ -426,7 +426,7 @@ cases
 in
 the
 *
-MediaStreamGraph
+MediaTrackGraph
 (
 1
 with
@@ -494,7 +494,7 @@ data
 is
 timed
 using
-StreamTime
+TrackTime
 .
 The
 actual
@@ -644,7 +644,7 @@ segment
 .
 *
 /
-StreamTime
+TrackTime
 GetDuration
 (
 )
@@ -701,7 +701,7 @@ mLastPrincipalHandle
 Called
 by
 the
-MediaStreamGraph
+MediaTrackGraph
 as
 it
 appends
@@ -866,9 +866,9 @@ const
 MediaSegment
 &
 aSource
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 =
@@ -894,7 +894,7 @@ virtual
 void
 ForgetUpTo
 (
-StreamTime
+TrackTime
 aDuration
 )
 =
@@ -918,7 +918,7 @@ virtual
 void
 FlushAfter
 (
-StreamTime
+TrackTime
 aNewEnd
 )
 =
@@ -946,7 +946,7 @@ virtual
 void
 InsertNullDataAtStart
 (
-StreamTime
+TrackTime
 aDuration
 )
 =
@@ -974,7 +974,7 @@ virtual
 void
 AppendNullData
 (
-StreamTime
+TrackTime
 aDuration
 )
 =
@@ -1166,7 +1166,7 @@ MediaSegment
 )
 ;
 }
-StreamTime
+TrackTime
 mDuration
 ;
 /
@@ -1188,7 +1188,7 @@ principal
 handle
 that
 the
-MediaStreamGraph
+MediaTrackGraph
 has
 processed
 for
@@ -1389,9 +1389,9 @@ const
 MediaSegment
 &
 aSource
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 override
@@ -1440,9 +1440,9 @@ const
 C
 &
 aOther
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 {
@@ -1482,7 +1482,7 @@ again
 void
 ForgetUpTo
 (
-StreamTime
+TrackTime
 aDuration
 )
 override
@@ -1517,7 +1517,7 @@ IsNull
 )
 )
 {
-StreamTime
+TrackTime
 extraToForget
 =
 std
@@ -1598,7 +1598,7 @@ aDuration
 void
 FlushAfter
 (
-StreamTime
+TrackTime
 aNewEnd
 )
 override
@@ -1627,7 +1627,7 @@ IsNull
 )
 )
 {
-StreamTime
+TrackTime
 extraToKeep
 =
 aNewEnd
@@ -1727,7 +1727,7 @@ aNewEnd
 void
 InsertNullDataAtStart
 (
-StreamTime
+TrackTime
 aDuration
 )
 override
@@ -1799,7 +1799,7 @@ aDuration
 void
 AppendNullData
 (
-StreamTime
+TrackTime
 aDuration
 )
 override
@@ -1917,7 +1917,7 @@ ReplaceWithNull
 )
 override
 {
-StreamTime
+TrackTime
 duration
 =
 GetDuration
@@ -2173,7 +2173,7 @@ mIndex
 void
 RemoveLeading
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -2609,9 +2609,9 @@ Chunk
 >
 &
 aSource
-StreamTime
+TrackTime
 aStart
-StreamTime
+TrackTime
 aEnd
 )
 {
@@ -2656,7 +2656,7 @@ aEnd
 -
 aStart
 ;
-StreamTime
+TrackTime
 offset
 =
 0
@@ -2700,7 +2700,7 @@ mChunks
 i
 ]
 ;
-StreamTime
+TrackTime
 start
 =
 std
@@ -2712,7 +2712,7 @@ aStart
 offset
 )
 ;
-StreamTime
+TrackTime
 nextOffset
 =
 offset
@@ -2723,7 +2723,7 @@ GetDuration
 (
 )
 ;
-StreamTime
+TrackTime
 end
 =
 std
@@ -2846,7 +2846,7 @@ Chunk
 *
 AppendChunk
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -2887,7 +2887,7 @@ c
 void
 RemoveLeading
 (
-StreamTime
+TrackTime
 aDuration
 uint32_t
 aStartIndex
@@ -2909,7 +2909,7 @@ duration
 "
 )
 ;
-StreamTime
+TrackTime
 t
 =
 aDuration
@@ -3074,7 +3074,7 @@ chunks
 void
 RemoveTrailing
 (
-StreamTime
+TrackTime
 aKeep
 uint32_t
 aStartIndex
@@ -3096,7 +3096,7 @@ duration
 "
 )
 ;
-StreamTime
+TrackTime
 t
 =
 aKeep

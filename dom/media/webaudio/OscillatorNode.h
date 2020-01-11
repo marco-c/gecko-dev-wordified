@@ -169,7 +169,7 @@ final
 public
 AudioScheduledSourceNode
 public
-MainThreadMediaStreamListener
+MainThreadMediaTrackListener
 {
 public
 :
@@ -250,7 +250,7 @@ aGivenProto
 override
 ;
 void
-DestroyMediaStream
+DestroyMediaTrack
 (
 )
 override
@@ -349,7 +349,7 @@ mType
 =
 aType
 ;
-SendTypeToStream
+SendTypeToTrack
 (
 )
 ;
@@ -413,10 +413,10 @@ aPeriodicWave
 ;
 /
 /
-SendTypeToStream
+SendTypeToTrack
 will
 call
-SendPeriodicWaveToStream
+SendPeriodicWaveToTrack
 for
 us
 .
@@ -427,7 +427,7 @@ OscillatorType
 :
 Custom
 ;
-SendTypeToStream
+SendTypeToTrack
 (
 )
 ;
@@ -489,12 +489,12 @@ OscillatorNode
 default
 ;
 void
-SendTypeToStream
+SendTypeToTrack
 (
 )
 ;
 void
-SendPeriodicWaveToStream
+SendPeriodicWaveToTrack
 (
 )
 ;

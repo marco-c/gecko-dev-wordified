@@ -166,7 +166,7 @@ namespace
 mozilla
 {
 class
-AudioNodeStream
+AudioNodeTrack
 ;
 extern
 LazyLogModule
@@ -351,7 +351,7 @@ respect
 to
 a
 destination
-AudioNodeStream
+AudioNodeTrack
 .
 *
 *
@@ -394,7 +394,7 @@ of
 their
 *
 destination
-streams
+tracks
 as
 well
 .
@@ -406,7 +406,7 @@ ConvertAudioTimelineEventToTicks
 AudioTimelineEvent
 &
 aEvent
-AudioNodeStream
+AudioNodeTrack
 *
 aDest
 )

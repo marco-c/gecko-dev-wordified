@@ -3052,7 +3052,7 @@ so
 that
 the
 underlying
-stream
+track
 /
 /
 doesn
@@ -3194,7 +3194,7 @@ from
 the
 /
 /
-MSG
+MTG
 as
 it
 holds
@@ -5180,7 +5180,7 @@ SharedBuffer
 aSamples
 uint32_t
 aDuration
-MediaStreamTrackListener
+MediaTrackListener
 *
 aProvider
 TrackRate
