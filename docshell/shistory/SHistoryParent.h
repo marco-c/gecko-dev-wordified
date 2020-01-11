@@ -228,7 +228,7 @@ mozilla
 dom
 :
 :
-BrowsingContext
+CanonicalBrowsingContext
 *
 aRootBC
 const
@@ -236,18 +236,7 @@ nsID
 &
 aDocShellID
 )
-:
-nsSHistory
-(
-aRootBC
-aDocShellID
-)
-{
-mIsRemote
-=
-true
 ;
-}
 }
 ;
 /
