@@ -331,10 +331,8 @@ createFiles
 var
 filesToCreate
 =
-new
-Array
-(
-)
+[
+]
 ;
 extensions
 .
@@ -394,8 +392,8 @@ msg
 {
 testDOMFiles
 =
-new
-Array
+[
+]
 ;
 ok
 (
@@ -439,6 +437,7 @@ runTests
 (
 )
 {
+var
 xhr
 =
 new
@@ -467,6 +466,7 @@ send
 (
 )
 ;
+var
 testDoc1
 =
 xhr
@@ -489,6 +489,7 @@ encoding
 "
 )
 ;
+var
 testDoc2
 =
 document
@@ -615,7 +616,7 @@ longArray
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -711,6 +712,7 @@ longArray
 256
 128
 )
+var
 tests
 =
 [
@@ -1506,7 +1508,7 @@ arraybuffer
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -1555,6 +1557,7 @@ try
 {
 for
 (
+var
 test
 of
 tests
@@ -1916,6 +1919,7 @@ equal
 "
 )
 ;
+var
 u8v1
 =
 new
@@ -1924,6 +1928,7 @@ Uint8Array
 ab1
 )
 ;
+var
 u8v2
 =
 new

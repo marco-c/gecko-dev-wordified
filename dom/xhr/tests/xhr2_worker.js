@@ -30,6 +30,14 @@ zero
 /
 *
 /
+/
+*
+eslint
+-
+env
+worker
+*
+/
 onmessage
 =
 function
@@ -82,7 +90,6 @@ getResponse
 type
 )
 {
-var
 xhr
 =
 new
@@ -311,7 +318,6 @@ testResponseTextException
 type
 )
 {
-var
 xhr
 =
 new

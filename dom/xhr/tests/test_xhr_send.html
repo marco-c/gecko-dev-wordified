@@ -467,9 +467,13 @@ toString
 )
 {
 throw
+new
+Error
+(
 "
 dummy
 "
+)
 ;
 }
 }
@@ -484,6 +488,8 @@ ex
 is
 (
 ex
+.
+message
 "
 dummy
 "

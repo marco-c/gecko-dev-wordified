@@ -163,16 +163,8 @@ browser
 async
 function
 (
-browser
 )
 {
-let
-doc
-=
-content
-.
-document
-;
 let
 promise
 =
