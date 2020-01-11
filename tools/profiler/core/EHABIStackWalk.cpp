@@ -2248,9 +2248,9 @@ next
 )
 ;
 #
-if
+ifdef
 DEBUG_EHABI_UNWIND
-LOG
+NS_WARNING
 (
 "
 unwind
@@ -3298,7 +3298,7 @@ instruction
 #
 ifdef
 DEBUG_EHABI_UNWIND
-LOG
+NS_WARNING
 (
 "
 Unhandled
