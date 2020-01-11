@@ -91,7 +91,7 @@ doc_html_tooltip
 -
 02
 .
-xul
+xhtml
 "
 ;
 const

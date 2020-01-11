@@ -220,7 +220,7 @@ CHROME_URL_ROOT
 "
 head
 .
-xul
+xhtml
 "
 "
 _blank

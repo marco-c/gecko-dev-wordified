@@ -103,7 +103,7 @@ doc_html_tooltip_doorhanger
 -
 02
 .
-xul
+xhtml
 "
 ;
 const

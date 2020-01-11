@@ -99,7 +99,7 @@ doc_html_tooltip
 -
 04
 .
-xul
+xhtml
 "
 ;
 const

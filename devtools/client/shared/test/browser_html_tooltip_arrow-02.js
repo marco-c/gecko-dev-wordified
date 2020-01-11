@@ -103,7 +103,7 @@ doc_html_tooltip_arrow
 -
 02
 .
-xul
+xhtml
 "
 ;
 const

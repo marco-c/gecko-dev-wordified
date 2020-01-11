@@ -60,7 +60,7 @@ URL_ROOT
 "
 doc_markup_xul
 .
-xul
+xhtml
 "
 ;
 add_task

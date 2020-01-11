@@ -84,7 +84,7 @@ CHROME_URL_ROOT
 "
 doc_html_tooltip
 .
-xul
+xhtml
 "
 ;
 const

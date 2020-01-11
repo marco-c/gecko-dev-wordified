@@ -110,7 +110,7 @@ CHROME_URL_ROOT
 "
 doc_html_tooltip_rtl
 .
-xul
+xhtml
 "
 ;
 const

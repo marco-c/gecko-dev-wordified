@@ -58,7 +58,7 @@ TEST_BASE
 "
 doc_xulpage
 .
-xul
+xhtml
 "
 ;
 add_task
