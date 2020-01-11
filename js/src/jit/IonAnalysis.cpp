@@ -220,6 +220,15 @@ h
 #
 include
 "
+util
+/
+CheckedArithmetic
+.
+h
+"
+#
+include
+"
 vm
 /
 RegExpObject
