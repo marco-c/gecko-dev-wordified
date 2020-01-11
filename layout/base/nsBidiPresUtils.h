@@ -3733,7 +3733,7 @@ RemoveBidiContinuation
 /
 static
 inline
-nsresult
+void
 EnsureBidiContinuation
 (
 nsIFrame

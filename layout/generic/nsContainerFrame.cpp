@@ -3556,7 +3556,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -3903,7 +3903,6 @@ t
 need
 reparenting
 return
-NS_OK
 ;
 }
 /
@@ -4062,9 +4061,6 @@ oldParentView
 ;
 }
 }
-return
-NS_OK
-;
 }
 static
 nsIWidget

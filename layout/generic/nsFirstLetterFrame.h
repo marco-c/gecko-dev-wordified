@@ -535,7 +535,7 @@ fluid
 or
 not
 .
-nsresult
+void
 CreateContinuationForFloatingParent
 (
 nsPresContext

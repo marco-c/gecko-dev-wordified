@@ -2083,7 +2083,7 @@ return
 true
 ;
 }
-nsresult
+void
 nsFirstLetterFrame
 :
 :
@@ -2404,9 +2404,6 @@ temp
 aContinuation
 =
 continuation
-;
-return
-NS_OK
 ;
 }
 void
