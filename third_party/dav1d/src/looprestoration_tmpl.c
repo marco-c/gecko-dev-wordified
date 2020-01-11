@@ -5397,17 +5397,6 @@ c
 ;
 #
 elif
-ARCH_PPC64LE
-bitfn
-(
-dav1d_loop_restoration_dsp_init_ppc
-)
-(
-c
-)
-;
-#
-elif
 ARCH_X86
 bitfn
 (

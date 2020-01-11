@@ -534,15 +534,6 @@ Dav1dLoopRestorationDSPContext
 c
 )
 ;
-bitfn_decls
-(
-void
-dav1d_loop_restoration_dsp_init_ppc
-Dav1dLoopRestorationDSPContext
-*
-c
-)
-;
 #
 endif
 /

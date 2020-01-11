@@ -381,7 +381,7 @@ Dav1dFilmGrainData
 const
 data
 const
-intptr_t
+int
 uv
 HIGHBD_DECL_SUFFIX
 )
