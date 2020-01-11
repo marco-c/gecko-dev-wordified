@@ -429,11 +429,7 @@ nsISHistory
 GetSessionHistory
 (
 )
-{
-return
-mSessionHistory
 ;
-}
 void
 SetSessionHistory
 (
