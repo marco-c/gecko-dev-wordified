@@ -1991,7 +1991,7 @@ FunctionCreationData
 fcd
 (
 cx_
-GenerateFunctionCreationData
+FunctionCreationData
 (
 atom
 syntax
