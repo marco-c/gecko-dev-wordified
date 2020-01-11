@@ -1014,7 +1014,7 @@ case
 InlinableNative
 :
 :
-IntrinsicToInteger
+IntrinsicToIntegerPositiveZero
 :
 case
 InlinableNative
@@ -3260,10 +3260,10 @@ case
 InlinableNative
 :
 :
-IntrinsicToInteger
+IntrinsicToIntegerPositiveZero
 :
 return
-inlineToInteger
+inlineToIntegerPositiveZero
 (
 callInfo
 )
@@ -23805,7 +23805,7 @@ InliningResult
 IonBuilder
 :
 :
-inlineToInteger
+inlineToIntegerPositiveZero
 (
 CallInfo
 &

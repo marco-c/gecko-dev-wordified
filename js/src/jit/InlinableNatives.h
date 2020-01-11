@@ -605,7 +605,7 @@ IntrinsicIsCrossRealmArrayConstructor
 \
 _
 (
-IntrinsicToInteger
+IntrinsicToIntegerPositiveZero
 )
 \
 _
