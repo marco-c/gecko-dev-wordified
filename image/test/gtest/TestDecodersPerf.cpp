@@ -469,7 +469,7 @@ GetFormat
 SurfaceFormat
 :
 :
-B8G8R8X8
+OS_RGBX
 |
 |
 surface
@@ -483,7 +483,7 @@ GetFormat
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 )
 ;
 EXPECT_EQ
