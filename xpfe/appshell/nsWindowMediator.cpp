@@ -215,7 +215,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -229,7 +229,7 @@ nsWindowMediator
 :
 GetDOMWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 inWindow
 nsCOMPtr
@@ -410,7 +410,7 @@ nsWindowMediator
 :
 RegisterWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 inWindow
 )
@@ -537,7 +537,7 @@ nsWindowMediator
 :
 UnregisterWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 inWindow
 )
@@ -625,7 +625,7 @@ index
 +
 ;
 }
-nsIXULWindow
+nsIAppWindow
 *
 window
 =
@@ -751,7 +751,7 @@ nsWindowMediator
 :
 GetInfoFor
 (
-nsIXULWindow
+nsIAppWindow
 *
 aWindow
 )
@@ -989,7 +989,7 @@ NS_IMETHODIMP
 nsWindowMediator
 :
 :
-GetXULWindowEnumerator
+GetAppWindowEnumerator
 (
 const
 char16_t
@@ -1025,7 +1025,7 @@ nsAppShellWindowEnumerator
 enumerator
 =
 new
-nsASXULWindowEarlyToLateEnumerator
+nsASAppWindowEarlyToLateEnumerator
 (
 inType
 *
@@ -1047,7 +1047,7 @@ NS_IMETHODIMP
 nsWindowMediator
 :
 :
-GetZOrderXULWindowEnumerator
+GetZOrderAppWindowEnumerator
 (
 const
 char16_t
@@ -1091,7 +1091,7 @@ aFrontToBack
 enumerator
 =
 new
-nsASXULWindowFrontToBackEnumerator
+nsASAppWindowFrontToBackEnumerator
 (
 aWindowType
 *
@@ -1102,7 +1102,7 @@ else
 enumerator
 =
 new
-nsASXULWindowBackToFrontEnumerator
+nsASAppWindowBackToFrontEnumerator
 (
 aWindowType
 *
@@ -1861,7 +1861,7 @@ nsWindowMediator
 :
 UpdateWindowTimeStamp
 (
-nsIXULWindow
+nsIAppWindow
 *
 inWindow
 )
@@ -1988,7 +1988,7 @@ nsWindowMediator
 :
 CalculateZPosition
 (
-nsIXULWindow
+nsIAppWindow
 *
 inWindow
 uint32_t
@@ -2083,7 +2083,7 @@ info
 =
 mTopmostWindow
 ;
-nsIXULWindow
+nsIAppWindow
 *
 belowWindow
 =
@@ -2766,12 +2766,12 @@ nsWindowMediator
 :
 SetZPosition
 (
-nsIXULWindow
+nsIAppWindow
 *
 inWindow
 uint32_t
 inPosition
-nsIXULWindow
+nsIAppWindow
 *
 inBelow
 )
@@ -3092,7 +3092,7 @@ nsWindowMediator
 :
 GetZLevel
 (
-nsIXULWindow
+nsIAppWindow
 *
 aWindow
 uint32_t
@@ -3108,7 +3108,7 @@ _retval
 *
 _retval
 =
-nsIXULWindow
+nsIAppWindow
 :
 :
 normalZ
@@ -3155,7 +3155,7 @@ nsWindowMediator
 :
 SetZLevel
 (
-nsIXULWindow
+nsIAppWindow
 *
 aWindow
 uint32_t

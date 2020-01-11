@@ -173,7 +173,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -300,7 +300,7 @@ NS_APPSHELLSERVICE_CONTRACTID
 ;
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 hiddenWindow
 ;

@@ -120,7 +120,7 @@ Needed
 #
 include
 "
-nsXULWindow
+AppWindow
 .
 h
 "
@@ -223,7 +223,7 @@ EnsureHiddenWindow
 nsresult
 JustCreateTopWindow
 (
-nsIXULWindow
+nsIAppWindow
 *
 aParent
 nsIURI
@@ -243,7 +243,10 @@ aOpeningTab
 mozIDOMWindowProxy
 *
 aOpenerWindow
-nsXULWindow
+mozilla
+:
+:
+AppWindow
 *
 *
 aResult
@@ -252,7 +255,7 @@ aResult
 uint32_t
 CalculateWindowZLevel
 (
-nsIXULWindow
+nsIAppWindow
 *
 aParent
 uint32_t
@@ -261,7 +264,10 @@ aChromeMask
 ;
 RefPtr
 <
-nsXULWindow
+mozilla
+:
+:
+AppWindow
 >
 mHiddenWindow
 ;

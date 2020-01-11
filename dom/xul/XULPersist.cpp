@@ -154,7 +154,7 @@ endif
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -228,7 +228,7 @@ is
 /
 not
 an
-nsXULWindow
+AppWindow
 .
 Persist
 it
@@ -267,7 +267,7 @@ handled
 in
 /
 /
-nsXULWindow
+AppWindow
 :
 :
 SavePersistentAttributes
@@ -489,7 +489,7 @@ window
 is
 handled
 in
-nsXULWindow
+AppWindow
 .
 if
 (
@@ -900,7 +900,7 @@ windows
 is
 handled
 by
-nsXULWindow
+AppWindow
 .
 if
 (
@@ -914,14 +914,14 @@ if
 (
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 win
 =
 mDocument
 -
 >
-GetXULWindowIfToplevelChrome
+GetAppWindowIfToplevelChrome
 (
 )
 )
@@ -1767,7 +1767,7 @@ handled
 /
 /
 by
-nsXULWindow
+AppWindow
 .
 if
 (
@@ -1781,14 +1781,14 @@ if
 (
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 win
 =
 mDocument
 -
 >
-GetXULWindowIfToplevelChrome
+GetAppWindowIfToplevelChrome
 (
 )
 )

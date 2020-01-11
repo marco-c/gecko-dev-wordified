@@ -4866,12 +4866,12 @@ id
 *
 property
 {
-nsIXULWindow
+nsIAppWindow
 }
-xulWindow
+appWindow
 *
 The
-nsIXULWindow
+nsIAppWindow
 object
 for
 this
@@ -4883,7 +4883,7 @@ readonly
 *
 /
 get
-xulWindow
+appWindow
 (
 )
 {
@@ -4907,7 +4907,7 @@ getInterface
 (
 Ci
 .
-nsIXULWindow
+nsIAppWindow
 )
 ;
 }
@@ -5042,7 +5042,7 @@ chromeFlags
 =
 this
 .
-xulWindow
+appWindow
 ;
 if
 (

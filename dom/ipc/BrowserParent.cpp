@@ -702,7 +702,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -2537,7 +2537,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
 window
 =
@@ -4918,9 +4918,9 @@ height
 }
 nsCOMPtr
 <
-nsIXULWindow
+nsIAppWindow
 >
-xulWin
+appWin
 (
 do_GetInterface
 (
@@ -4930,13 +4930,13 @@ treeOwner
 ;
 NS_ENSURE_TRUE
 (
-xulWin
+appWin
 IPC_OK
 (
 )
 )
 ;
-xulWin
+appWin
 -
 >
 SizeShellToWithLimit

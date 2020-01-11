@@ -124,7 +124,7 @@ h
 #
 include
 "
-nsIXULWindow
+nsIAppWindow
 .
 h
 "
@@ -150,12 +150,12 @@ using
 namespace
 mozilla
 ;
-nsIXULWindow
+nsIAppWindow
 *
 nsIWidgetListener
 :
 :
-GetXULWindow
+GetAppWindow
 (
 )
 {
