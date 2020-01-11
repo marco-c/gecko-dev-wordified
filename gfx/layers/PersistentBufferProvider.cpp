@@ -640,6 +640,15 @@ aKnowsCompositor
 GetTextureForwarder
 (
 )
+|
+|
+!
+aKnowsCompositor
+-
+>
+GetTextureForwarder
+(
+)
 -
 >
 IPCOpen
