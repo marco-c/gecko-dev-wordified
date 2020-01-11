@@ -720,14 +720,14 @@ path
 "
 validation
 /
-vertex_input
+vertex_state
 "
 "
 description
 "
 :
 "
-vertexInput
+vertexState
 validation
 tests
 .
