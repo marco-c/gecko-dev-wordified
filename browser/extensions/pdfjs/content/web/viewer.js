@@ -13596,6 +13596,14 @@ curElementTagName
 '
 SELECT
 '
+|
+|
+curElement
+&
+&
+curElement
+.
+isContentEditable
 )
 {
 if
@@ -46718,6 +46726,11 @@ loadingParams
 disableAutoFetch
 '
 ]
+|
+|
+pagesCount
+>
+7500
 )
 {
 pagesCapability
