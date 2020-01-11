@@ -671,7 +671,7 @@ modules
 -
 dir
 =
-test
+tests
 /
 modules
 "
