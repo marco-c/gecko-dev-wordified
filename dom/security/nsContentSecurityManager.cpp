@@ -2039,6 +2039,7 @@ nsContentUtils
 :
 PrincipalAllowsL10n
 (
+*
 aLoadInfo
 -
 >

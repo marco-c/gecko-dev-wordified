@@ -10219,7 +10219,7 @@ nsContentUtils
 PrincipalAllowsL10n
 (
 nsIPrincipal
-*
+&
 aPrincipal
 nsIURI
 *
@@ -10250,8 +10250,7 @@ allowed
 if
 (
 aPrincipal
--
->
+.
 IsSystemPrincipal
 (
 )
@@ -10271,8 +10270,7 @@ nsresult
 rv
 =
 aPrincipal
--
->
+.
 GetURI
 (
 getter_AddRefs
@@ -10369,6 +10367,7 @@ true
 ;
 }
 auto
+&
 principal
 =
 BasePrincipal
@@ -10383,8 +10382,7 @@ auto
 policy
 =
 principal
--
->
+.
 AddonPolicy
 (
 )

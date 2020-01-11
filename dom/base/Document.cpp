@@ -22850,6 +22850,7 @@ nsContentUtils
 :
 PrincipalAllowsL10n
 (
+*
 callerPrincipal
 win
 ?
@@ -23514,6 +23515,7 @@ nsContentUtils
 :
 PrincipalAllowsL10n
 (
+*
 NodePrincipal
 (
 )

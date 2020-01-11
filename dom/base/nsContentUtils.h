@@ -13274,6 +13274,12 @@ pass
 this
 test
 .
+aDocumentURI
+may
+be
+*
+null
+.
 *
 /
 static
@@ -13281,7 +13287,7 @@ bool
 PrincipalAllowsL10n
 (
 nsIPrincipal
-*
+&
 aPrincipal
 nsIURI
 *
