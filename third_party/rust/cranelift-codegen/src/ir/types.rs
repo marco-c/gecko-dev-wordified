@@ -777,7 +777,7 @@ is_special
 )
 )
 ;
-Type
+Self
 (
 (
 lane
@@ -1985,7 +1985,7 @@ new_type
 {
 Some
 (
-Type
+Self
 (
 new_type
 as
@@ -2057,7 +2057,7 @@ is_vector
 {
 Some
 (
-Type
+Self
 (
 self
 .

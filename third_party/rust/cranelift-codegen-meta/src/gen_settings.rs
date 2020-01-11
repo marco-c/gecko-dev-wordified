@@ -1,3 +1,13 @@
+/
+/
+!
+Generate
+the
+ISA
+-
+specific
+settings
+.
 use
 std
 :
@@ -75,6 +85,9 @@ unique_table
 UniqueSeqTable
 ;
 pub
+(
+crate
+)
 enum
 ParentGroup
 {
@@ -634,8 +647,7 @@ fmtln
 (
 fmt
 "
-{
-}
+Self
 :
 :
 {
@@ -649,7 +661,6 @@ fmt
 \
 "
 "
-name
 camel_case
 (
 v
@@ -814,8 +825,7 @@ fmt
 >
 Ok
 (
-{
-}
+Self
 :
 :
 {
@@ -823,7 +833,6 @@ Ok
 )
 "
 v
-name
 camel_case
 (
 v
@@ -1732,15 +1741,14 @@ fmt
 )
 ;
 if
+!
 group
 .
 settings
 .
-len
+is_empty
 (
 )
->
-0
 {
 fmt
 .

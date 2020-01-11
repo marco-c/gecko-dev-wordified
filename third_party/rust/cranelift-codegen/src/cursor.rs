@@ -5327,8 +5327,8 @@ prev_op
 is_terminator
 (
 )
-{
-if
+&
+&
 !
 inst_op
 .
@@ -5356,8 +5356,6 @@ inst_op
 prev_op
 curr_op
 )
-}
-;
 }
 }
 ;
@@ -6220,8 +6218,8 @@ prev_op
 is_terminator
 (
 )
-{
-if
+&
+&
 !
 inst_op
 .
@@ -6264,8 +6262,6 @@ display_inst
 curr
 )
 )
-}
-;
 }
 }
 ;

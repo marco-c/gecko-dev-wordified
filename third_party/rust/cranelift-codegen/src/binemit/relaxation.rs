@@ -1819,13 +1819,8 @@ iter
 )
 )
 .
-map
+copied
 (
-|
-x
-|
-*
-x
 )
 .
 collect
@@ -2056,9 +2051,7 @@ the
 layout
 .
 }
-return
 true
-;
 }
 /
 /

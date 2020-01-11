@@ -214,6 +214,16 @@ in
 unused
 slots
 .
+#
+[
+allow
+(
+clippy
+:
+:
+float_arithmetic
+)
+]
 pub
 fn
 generate_table

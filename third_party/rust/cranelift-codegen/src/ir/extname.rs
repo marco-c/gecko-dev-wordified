@@ -541,7 +541,7 @@ len
 ]
 )
 ;
-ExternalName
+Self
 :
 :
 TestCase
@@ -657,7 +657,7 @@ u32
 >
 Self
 {
-ExternalName
+Self
 :
 :
 User
@@ -723,7 +723,7 @@ match
 *
 self
 {
-ExternalName
+Self
 :
 :
 User
@@ -748,7 +748,7 @@ u
 namespace
 index
 )
-ExternalName
+Self
 :
 :
 TestCase
@@ -803,7 +803,7 @@ Ok
 )
 )
 }
-ExternalName
+Self
 :
 :
 LibCall
@@ -888,7 +888,7 @@ lc
 >
 Ok
 (
-ExternalName
+Self
 :
 :
 LibCall

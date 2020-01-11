@@ -500,7 +500,7 @@ true
 ;
 }
 }
-Stackmap
+Self
 :
 :
 from_slice

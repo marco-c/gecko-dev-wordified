@@ -2446,10 +2446,6 @@ Ok
 }
 fn
 parse_function_name_subsection
-<
-'
-data
->
 (
 mut
 naming_reader
@@ -2457,7 +2453,7 @@ naming_reader
 NamingReader
 <
 '
-data
+_
 >
 )
 -
@@ -2568,10 +2564,8 @@ None
 ;
 }
 }
-return
 Some
 (
 function_names
 )
-;
 }

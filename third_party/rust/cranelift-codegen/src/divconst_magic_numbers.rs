@@ -581,8 +581,6 @@ q2
 +
 1
 do_add
-:
-do_add
 shift_by
 :
 p
@@ -917,8 +915,6 @@ mul_by
 q2
 +
 1
-do_add
-:
 do_add
 shift_by
 :

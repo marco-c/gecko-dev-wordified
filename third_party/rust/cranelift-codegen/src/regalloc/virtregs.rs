@@ -2093,7 +2093,7 @@ x
 <
 0
 {
-UFEntry
+Self
 :
 :
 Link
@@ -2114,7 +2114,7 @@ u32
 }
 else
 {
-UFEntry
+Self
 :
 :
 Rank

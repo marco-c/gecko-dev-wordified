@@ -225,7 +225,7 @@ all
 (
 )
 .
-into_iter
+iter
 (
 )
 .

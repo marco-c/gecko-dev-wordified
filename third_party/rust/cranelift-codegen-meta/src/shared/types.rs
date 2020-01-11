@@ -23,6 +23,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 Bool
 {
@@ -109,6 +112,9 @@ bool
 variants
 .
 pub
+(
+crate
+)
 struct
 BoolIterator
 {
@@ -261,6 +267,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 Int
 {
@@ -336,6 +345,9 @@ int
 variants
 .
 pub
+(
+crate
+)
 struct
 IntIterator
 {
@@ -478,6 +490,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 Float
 {
@@ -501,6 +516,9 @@ Float
 enum
 .
 pub
+(
+crate
+)
 struct
 FloatIterator
 {
@@ -652,6 +670,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 Flag
 {
@@ -692,6 +713,9 @@ Flag
 enum
 .
 pub
+(
+crate
+)
 struct
 FlagIterator
 {
@@ -804,6 +828,9 @@ Hash
 )
 ]
 pub
+(
+crate
+)
 enum
 Reference
 {
@@ -846,6 +873,9 @@ reference
 variants
 .
 pub
+(
+crate
+)
 struct
 ReferenceIterator
 {

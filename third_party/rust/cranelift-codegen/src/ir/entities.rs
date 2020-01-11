@@ -518,7 +518,7 @@ MAX
 {
 Some
 (
-Ebb
+Self
 (
 n
 )
@@ -810,7 +810,7 @@ MAX
 {
 Some
 (
-Value
+Self
 (
 n
 )
@@ -1275,7 +1275,7 @@ MAX
 {
 Some
 (
-StackSlot
+Self
 (
 n
 )
@@ -1644,7 +1644,7 @@ MAX
 {
 Some
 (
-GlobalValue
+Self
 (
 n
 )
@@ -1807,7 +1807,7 @@ MAX
 {
 Some
 (
-Constant
+Self
 (
 n
 )
@@ -1989,7 +1989,7 @@ MAX
 {
 Some
 (
-Immediate
+Self
 (
 n
 )
@@ -2277,7 +2277,7 @@ MAX
 {
 Some
 (
-JumpTable
+Self
 (
 n
 )
@@ -2668,7 +2668,7 @@ MAX
 {
 Some
 (
-FuncRef
+Self
 (
 n
 )
@@ -2993,7 +2993,7 @@ MAX
 {
 Some
 (
-SigRef
+Self
 (
 n
 )
@@ -3192,7 +3192,7 @@ MAX
 {
 Some
 (
-Heap
+Self
 (
 n
 )
@@ -3430,7 +3430,7 @@ MAX
 {
 Some
 (
-Table
+Self
 (
 n
 )
@@ -3630,7 +3630,7 @@ match
 *
 self
 {
-AnyEntity
+Self
 :
 :
 Function
@@ -3644,7 +3644,7 @@ f
 function
 "
 )
-AnyEntity
+Self
 :
 :
 Ebb
@@ -3659,7 +3659,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 Inst
@@ -3674,7 +3674,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 Value
@@ -3689,7 +3689,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 StackSlot
@@ -3704,7 +3704,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 GlobalValue
@@ -3719,7 +3719,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 JumpTable
@@ -3734,7 +3734,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 FuncRef
@@ -3749,7 +3749,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 SigRef
@@ -3764,7 +3764,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 Heap
@@ -3779,7 +3779,7 @@ fmt
 (
 f
 )
-AnyEntity
+Self
 :
 :
 Table
@@ -3862,7 +3862,7 @@ Ebb
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 Ebb
@@ -3890,7 +3890,7 @@ Inst
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 Inst
@@ -3918,7 +3918,7 @@ Value
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 Value
@@ -3946,7 +3946,7 @@ StackSlot
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 StackSlot
@@ -3974,7 +3974,7 @@ GlobalValue
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 GlobalValue
@@ -4002,7 +4002,7 @@ JumpTable
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 JumpTable
@@ -4030,7 +4030,7 @@ FuncRef
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 FuncRef
@@ -4058,7 +4058,7 @@ SigRef
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 SigRef
@@ -4086,7 +4086,7 @@ Heap
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 Heap
@@ -4114,7 +4114,7 @@ Table
 >
 Self
 {
-AnyEntity
+Self
 :
 :
 Table

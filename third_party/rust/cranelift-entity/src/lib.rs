@@ -537,10 +537,6 @@ clippy
 :
 :
 new_without_default
-clippy
-:
-:
-new_without_default_derive
 )
 )
 ]

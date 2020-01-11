@@ -212,7 +212,7 @@ Err
 )
 =
 >
-CallConv
+Self
 :
 :
 SystemV
@@ -225,7 +225,7 @@ WindowsFastcall
 )
 =
 >
-CallConv
+Self
 :
 :
 WindowsFastcall
@@ -308,7 +308,7 @@ LibcallCallConv
 Fast
 =
 >
-CallConv
+Self
 :
 :
 Fast
@@ -318,7 +318,7 @@ LibcallCallConv
 Cold
 =
 >
-CallConv
+Self
 :
 :
 Cold
@@ -328,7 +328,7 @@ LibcallCallConv
 SystemV
 =
 >
-CallConv
+Self
 :
 :
 SystemV
@@ -338,7 +338,7 @@ LibcallCallConv
 WindowsFastcall
 =
 >
-CallConv
+Self
 :
 :
 WindowsFastcall
@@ -348,7 +348,7 @@ LibcallCallConv
 BaldrdashSystemV
 =
 >
-CallConv
+Self
 :
 :
 BaldrdashSystemV
@@ -358,7 +358,7 @@ LibcallCallConv
 BaldrdashWindows
 =
 >
-CallConv
+Self
 :
 :
 BaldrdashWindows
@@ -368,7 +368,7 @@ LibcallCallConv
 Probestack
 =
 >
-CallConv
+Self
 :
 :
 Probestack
@@ -391,7 +391,6 @@ pub
 fn
 extends_windows_fastcall
 (
-&
 self
 )
 -
@@ -401,12 +400,12 @@ bool
 match
 self
 {
-CallConv
+Self
 :
 :
 WindowsFastcall
 |
-CallConv
+Self
 :
 :
 BaldrdashWindows
@@ -435,7 +434,6 @@ pub
 fn
 extends_baldrdash
 (
-&
 self
 )
 -
@@ -445,12 +443,12 @@ bool
 match
 self
 {
-CallConv
+Self
 :
 :
 BaldrdashSystemV
 |
-CallConv
+Self
 :
 :
 BaldrdashWindows
@@ -501,7 +499,7 @@ match
 *
 self
 {
-CallConv
+Self
 :
 :
 Fast
@@ -510,7 +508,7 @@ Fast
 "
 fast
 "
-CallConv
+Self
 :
 :
 Cold
@@ -519,7 +517,7 @@ Cold
 "
 cold
 "
-CallConv
+Self
 :
 :
 SystemV
@@ -528,7 +526,7 @@ SystemV
 "
 system_v
 "
-CallConv
+Self
 :
 :
 WindowsFastcall
@@ -537,7 +535,7 @@ WindowsFastcall
 "
 windows_fastcall
 "
-CallConv
+Self
 :
 :
 BaldrdashSystemV
@@ -546,7 +544,7 @@ BaldrdashSystemV
 "
 baldrdash_system_v
 "
-CallConv
+Self
 :
 :
 BaldrdashWindows
@@ -555,7 +553,7 @@ BaldrdashWindows
 "
 baldrdash_windows
 "
-CallConv
+Self
 :
 :
 Probestack
@@ -611,7 +609,7 @@ fast
 >
 Ok
 (
-CallConv
+Self
 :
 :
 Fast
@@ -623,7 +621,7 @@ cold
 >
 Ok
 (
-CallConv
+Self
 :
 :
 Cold
@@ -635,7 +633,7 @@ system_v
 >
 Ok
 (
-CallConv
+Self
 :
 :
 SystemV
@@ -647,7 +645,7 @@ windows_fastcall
 >
 Ok
 (
-CallConv
+Self
 :
 :
 WindowsFastcall
@@ -659,7 +657,7 @@ baldrdash_system_v
 >
 Ok
 (
-CallConv
+Self
 :
 :
 BaldrdashSystemV
@@ -671,7 +669,7 @@ baldrdash_windows
 >
 Ok
 (
-CallConv
+Self
 :
 :
 BaldrdashWindows
@@ -683,7 +681,7 @@ probestack
 >
 Ok
 (
-CallConv
+Self
 :
 :
 Probestack

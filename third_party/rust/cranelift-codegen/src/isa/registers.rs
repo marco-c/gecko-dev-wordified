@@ -1893,7 +1893,7 @@ usize
 >
 Self
 {
-RegClassIndex
+Self
 (
 idx
 as
@@ -1939,7 +1939,7 @@ RegClass
 >
 Self
 {
-RegClassIndex
+Self
 (
 rc
 .

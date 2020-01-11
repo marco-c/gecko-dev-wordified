@@ -180,7 +180,7 @@ as
 usize
 )
 ;
-ProgramPoint
+Self
 (
 (
 idx
@@ -237,7 +237,7 @@ as
 usize
 )
 ;
-ProgramPoint
+Self
 (
 (
 idx
@@ -394,7 +394,7 @@ Inst
 match
 self
 {
-ExpandedProgramPoint
+Self
 :
 :
 Inst
@@ -404,7 +404,7 @@ x
 =
 >
 x
-ExpandedProgramPoint
+Self
 :
 :
 Ebb
@@ -447,7 +447,7 @@ Inst
 >
 Self
 {
-ExpandedProgramPoint
+Self
 :
 :
 Inst
@@ -475,7 +475,7 @@ Ebb
 >
 Self
 {
-ExpandedProgramPoint
+Self
 :
 :
 Ebb
@@ -568,7 +568,7 @@ pp
 =
 0
 {
-ExpandedProgramPoint
+Self
 :
 :
 Inst
@@ -588,7 +588,7 @@ pp
 }
 else
 {
-ExpandedProgramPoint
+Self
 :
 :
 Ebb
@@ -641,7 +641,7 @@ match
 *
 self
 {
-ExpandedProgramPoint
+Self
 :
 :
 Inst
@@ -660,7 +660,7 @@ f
 "
 x
 )
-ExpandedProgramPoint
+Self
 :
 :
 Ebb

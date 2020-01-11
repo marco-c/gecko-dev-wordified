@@ -740,7 +740,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -750,7 +750,7 @@ num_return_values
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -760,7 +760,7 @@ num_return_values
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -789,7 +789,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -799,7 +799,7 @@ num_param_values
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -809,7 +809,7 @@ num_param_values
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -838,7 +838,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -848,7 +848,7 @@ destination
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -858,7 +858,7 @@ destination
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -887,7 +887,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -897,7 +897,7 @@ destination
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -909,7 +909,7 @@ destination
 =
 >
 destination
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -938,7 +938,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -948,7 +948,7 @@ original_stack_size
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -958,7 +958,7 @@ original_stack_size
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -987,7 +987,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -996,7 +996,7 @@ If
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -1007,7 +1007,7 @@ Block
 =
 >
 false
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -1035,7 +1035,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -1045,7 +1045,7 @@ exit_is_branched_to
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -1057,7 +1057,7 @@ exit_is_branched_to
 =
 >
 exit_is_branched_to
-ControlStackFrame
+Self
 :
 :
 Loop
@@ -1083,7 +1083,7 @@ match
 *
 self
 {
-ControlStackFrame
+Self
 :
 :
 If
@@ -1095,7 +1095,7 @@ exit_is_branched_to
 .
 }
 |
-ControlStackFrame
+Self
 :
 :
 Block
@@ -1112,7 +1112,7 @@ exit_is_branched_to
 exit_is_branched_to
 =
 true
-ControlStackFrame
+Self
 :
 :
 Loop

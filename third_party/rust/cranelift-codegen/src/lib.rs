@@ -172,7 +172,7 @@ code
 clippy
 :
 :
-cyclomatic_complexity
+cognitive_complexity
 clippy
 :
 :
@@ -218,10 +218,6 @@ new_without_default
 clippy
 :
 :
-new_without_default_derive
-clippy
-:
-:
 should_implement_trait
 clippy
 :
@@ -264,10 +260,6 @@ clippy
 :
 :
 option_map_unwrap_or_else
-clippy
-:
-:
-print_allocout
 clippy
 :
 :

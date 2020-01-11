@@ -881,7 +881,7 @@ github
 .
 com
 /
-CraneStation
+bytecodealliance
 /
 cranelift
 /
@@ -1498,7 +1498,7 @@ github
 .
 com
 /
-CraneStation
+bytecodealliance
 /
 cranelift
 /

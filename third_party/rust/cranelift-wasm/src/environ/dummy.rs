@@ -78,7 +78,7 @@ github
 .
 com
 /
-CraneStation
+bytecodealliance
 /
 wasmtime
 use
