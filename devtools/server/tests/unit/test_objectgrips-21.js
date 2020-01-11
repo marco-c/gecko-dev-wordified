@@ -718,6 +718,9 @@ trap
 was
 called
 .
+(
+function
+)
 "
 )
 ;
