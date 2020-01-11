@@ -170,11 +170,11 @@ The
 rest
 of
 the
-rest
+test
 runs
 once
-we
-receive
+this
+receives
 the
 above
 message
