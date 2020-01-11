@@ -1644,6 +1644,11 @@ ConnMgr
 {
 return
 mConnMgr
+-
+>
+AsHttpConnectionMgr
+(
+)
 ;
 }
 AltSvcCache
@@ -3022,7 +3027,7 @@ connection
 manager
 RefPtr
 <
-nsHttpConnectionMgr
+HttpConnectionMgrShell
 >
 mConnMgr
 ;
