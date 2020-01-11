@@ -646,7 +646,7 @@ js
 FatInlineAtom
 true
 false
-true
+false
 )
 \
 D
@@ -663,7 +663,7 @@ js
 NormalAtom
 true
 false
-true
+false
 )
 \
 D
