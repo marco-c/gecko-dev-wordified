@@ -2500,6 +2500,12 @@ ww
 openWindow
 (
 domWin
+.
+docShell
+.
+rootTreeItem
+.
+domWindow
 uri
 "
 _blank
