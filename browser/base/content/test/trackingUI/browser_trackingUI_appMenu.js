@@ -269,13 +269,13 @@ the
 tab
 .
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (
