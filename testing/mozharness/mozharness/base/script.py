@@ -166,6 +166,10 @@ io
 import
 BytesIO
 from
+six
+import
+binary_type
+from
 mozprocess
 import
 ProcessHandler
@@ -13787,6 +13791,14 @@ isspace
                             
 continue
                         
+if
+isinstance
+(
+line
+binary_type
+)
+:
+                            
 line
 =
 line
@@ -13910,6 +13922,14 @@ isspace
                     
 continue
                 
+if
+isinstance
+(
+line
+binary_type
+)
+:
+                    
 line
 =
 line
