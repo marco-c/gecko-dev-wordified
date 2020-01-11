@@ -2149,7 +2149,6 @@ const
 line
 column
 sourceUrl
-sourceId
 }
 =
 resolvedLocation
@@ -2186,7 +2185,6 @@ _prefValue
 sourceUrl
 line
 column
-sourceId
 )
 ;
 }
