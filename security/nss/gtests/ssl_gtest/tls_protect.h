@@ -212,6 +212,9 @@ plaintext
 DataBuffer
 *
 ciphertext
+TlsRecordHeader
+*
+out_header
 )
 ;
 bool
@@ -228,6 +231,9 @@ ciphertext
 DataBuffer
 *
 plaintext
+TlsRecordHeader
+*
+out_header
 )
 ;
 uint16_t
@@ -359,6 +365,9 @@ false
 ;
 ScopedSSLAeadContext
 aead_
+;
+ScopedSSLMaskingContext
+mask_
 ;
 }
 ;

@@ -100,7 +100,7 @@ h
 "
 /
 *
-HMACMechanismToHash
+sftk_HMACMechanismToHash
 converts
 a
 PKCS
@@ -117,9 +117,8 @@ type
 .
 *
 /
-static
 HASH_HashType
-HMACMechanismToHash
+sftk_HMACMechanismToHash
 (
 CK_MECHANISM_TYPE
 mech
@@ -256,7 +255,7 @@ NULL
 }
 alg
 =
-HMACMechanismToHash
+sftk_HMACMechanismToHash
 (
 params
 -
@@ -1266,7 +1265,7 @@ hashObj
 =
 HASH_GetRawHashObject
 (
-HMACMechanismToHash
+sftk_HMACMechanismToHash
 (
 mech
 )

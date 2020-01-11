@@ -431,6 +431,10 @@ output
 [
 kMaxSize
 ]
+=
+{
+0
+}
 ;
 unsigned
 int
@@ -1265,6 +1269,8 @@ AeadAes128Gcm
 SSLAeadContext
 *
 ctxInit
+=
+nullptr
 ;
 ASSERT_EQ
 (
@@ -1377,6 +1383,8 @@ AeadChaCha20Poly1305
 SSLAeadContext
 *
 ctxInit
+=
+nullptr
 ;
 ASSERT_EQ
 (
