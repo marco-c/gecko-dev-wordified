@@ -495,6 +495,10 @@ ipc
 IPCResult
 RecvConfirmRedirect
 (
+const
+LoadInfoArgs
+&
+aLoadInfo
 nsIURI
 *
 aNewUri
