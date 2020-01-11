@@ -6850,6 +6850,8 @@ behavior
 return
 value
 >
+double
+(
 std
 :
 :
@@ -6861,6 +6863,7 @@ int64_t
 :
 max
 (
+)
 )
 ?
 Max
