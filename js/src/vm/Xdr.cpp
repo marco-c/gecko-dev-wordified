@@ -3846,13 +3846,6 @@ JSTracer
 trc
 )
 {
-if
-(
-hasAtomMap
-(
-)
-)
-{
 atomMap
 (
 )
@@ -3862,5 +3855,4 @@ trace
 trc
 )
 ;
-}
 }
