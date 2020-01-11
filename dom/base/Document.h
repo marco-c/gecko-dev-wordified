@@ -12423,7 +12423,7 @@ document
 .
 *
 /
-nsresult
+void
 RemoteFrameFullscreenChanged
 (
 Element
@@ -12532,7 +12532,7 @@ boundaries
 .
 *
 /
-nsresult
+void
 RemoteFrameFullscreenReverted
 (
 )
