@@ -2244,6 +2244,10 @@ dom
 MediaStreamTrack
 *
 aTrack
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 void
@@ -2304,6 +2308,7 @@ counting
 class
 PipelineListener
 ;
+const
 RefPtr
 <
 PipelineListener
@@ -2370,6 +2375,10 @@ dom
 MediaStreamTrack
 *
 aTrack
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 ;
 /
@@ -2452,6 +2461,7 @@ PipelineRenderer
 >
 mRenderer
 ;
+const
 RefPtr
 <
 PipelineListener

@@ -1771,6 +1771,9 @@ SdpMediaSection
 :
 MediaType
 type
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 bool
