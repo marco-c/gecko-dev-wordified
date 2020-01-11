@@ -60,9 +60,9 @@ absolute_import
 __version__
 =
 '
-3
+2
 .
-0
+8
 .
 0
 '
