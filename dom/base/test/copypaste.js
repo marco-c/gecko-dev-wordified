@@ -3470,11 +3470,9 @@ SimpleTest
 .
 promiseClipboardChange
 (
-(
-)
-=
->
-true
+textarea
+.
+value
 (
 )
 =
