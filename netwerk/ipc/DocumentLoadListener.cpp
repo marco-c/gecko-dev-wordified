@@ -4586,6 +4586,14 @@ baseUri
 =
 mBaseURI
 ;
+aArgs
+.
+loadStateLoadFlags
+(
+)
+=
+mLoadStateLoadFlags
+;
 }
 void
 DocumentLoadListener
