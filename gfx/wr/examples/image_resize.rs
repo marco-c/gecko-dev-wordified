@@ -240,7 +240,10 @@ origin
 space_and_clip
 .
 spatial_id
-true
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
 )
 ;
 let
