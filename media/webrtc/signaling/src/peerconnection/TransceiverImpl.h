@@ -607,7 +607,7 @@ way
 .
 RefPtr
 <
-MediaPipeline
+MediaPipelineTransmit
 >
 GetSendPipeline
 (
@@ -615,7 +615,7 @@ GetSendPipeline
 ;
 RefPtr
 <
-MediaPipeline
+MediaPipelineReceive
 >
 GetReceivePipeline
 (

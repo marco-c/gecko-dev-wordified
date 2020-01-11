@@ -448,10 +448,6 @@ const
 double
 &
 now
-const
-RTCStatsReportInternal
-&
-reportIn
 GetIceStatsResolver
 &
 &

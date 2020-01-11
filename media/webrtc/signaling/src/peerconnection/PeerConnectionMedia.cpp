@@ -3611,6 +3611,12 @@ WebRtcCallWrapper
 :
 Create
 (
+mParent
+-
+>
+GetTimestampMaker
+(
+)
 )
 ;
 }
@@ -3785,7 +3791,7 @@ nsTArray
 <
 RefPtr
 <
-MediaPipeline
+MediaPipelineTransmit
 >
 >
 *
@@ -3845,7 +3851,7 @@ nsTArray
 <
 RefPtr
 <
-MediaPipeline
+MediaPipelineReceive
 >
 >
 *
@@ -3929,6 +3935,16 @@ transceiver
 -
 >
 HasReceiveTrack
+(
+&
+aTrack
+)
+|
+|
+transceiver
+-
+>
+HasSendTrack
 (
 &
 aTrack
