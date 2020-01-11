@@ -517,6 +517,14 @@ targetThread
 .
 actor
 ;
+if
+(
+sources
+[
+actor
+]
+)
+{
 return
 sources
 [
@@ -528,6 +536,7 @@ source
 id
 ]
 ;
+}
 }
 return
 source
