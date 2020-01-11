@@ -28351,7 +28351,10 @@ mNeedsCheckpoint
 bool
 mIdle
 ;
-bool
+FlippedOnce
+<
+false
+>
 mCloseOnIdle
 ;
 bool
@@ -62895,8 +62898,10 @@ dbInfo
 -
 >
 mCloseOnIdle
-=
-true
+.
+EnsureFlipped
+(
+)
 ;
 }
 return
@@ -63411,10 +63416,6 @@ mNeedsCheckpoint
 false
 )
 mIdle
-(
-false
-)
-mCloseOnIdle
 (
 false
 )
