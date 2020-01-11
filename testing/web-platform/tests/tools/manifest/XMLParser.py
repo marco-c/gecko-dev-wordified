@@ -121,10 +121,6 @@ code
 e
 .
 code
-#
-type
-:
-ignore
     
 err
 .
@@ -136,10 +132,6 @@ lineno
 e
 .
 offset
-#
-type
-:
-ignore
     
 raise
 err

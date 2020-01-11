@@ -216,11 +216,15 @@ Any
 )
 -
 >
-type
+ManifestItemMeta
         
 rv
 =
-ABCMeta
+super
+(
+ManifestItemMeta
+cls
+)
 .
 __new__
 (
@@ -265,6 +269,10 @@ rv
         
 return
 rv
+#
+type
+:
+ignore
 class
 ManifestItem
 (
