@@ -66,7 +66,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-Targets
+TargetList
 "
 ]
 ;
@@ -197,7 +197,7 @@ jsm
 )
 ;
 class
-Targets
+TargetList
 {
 constructor
 (
@@ -954,7 +954,7 @@ toString
 return
 [
 object
-Targets
+TargetList
 {
 this
 .
