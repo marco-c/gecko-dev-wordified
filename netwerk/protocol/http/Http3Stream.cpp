@@ -1771,6 +1771,10 @@ rv
 =
 NS_BASE_STREAM_CLOSED
 ;
+mState
+=
+DONE
+;
 break
 ;
 case
