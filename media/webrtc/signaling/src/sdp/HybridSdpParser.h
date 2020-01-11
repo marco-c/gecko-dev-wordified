@@ -244,6 +244,10 @@ override
 private
 :
 const
+bool
+mStrictSuccess
+;
+const
 UniquePtr
 <
 SdpParser
