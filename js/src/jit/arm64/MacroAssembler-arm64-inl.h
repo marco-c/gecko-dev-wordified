@@ -8174,6 +8174,7 @@ convertFloat32ToInt32
 src
 dest
 fail
+false
 )
 ;
 }
@@ -8409,6 +8410,7 @@ convertDoubleToInt32
 src
 dest
 fail
+false
 )
 ;
 }
