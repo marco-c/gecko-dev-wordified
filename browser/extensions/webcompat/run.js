@@ -70,6 +70,8 @@ AboutCompatBroker
 Injections
 UAOverrides
 CUSTOM_FUNCTIONS
+AVAILABLE_PIP_OVERRIDES
+PictureInPictureOverrides
 *
 /
 const
@@ -89,6 +91,15 @@ new
 UAOverrides
 (
 AVAILABLE_UA_OVERRIDES
+)
+;
+const
+pipOverrides
+=
+new
+PictureInPictureOverrides
+(
+AVAILABLE_PIP_OVERRIDES
 )
 ;
 const
@@ -116,6 +127,12 @@ bootup
 )
 ;
 uaOverrides
+.
+bootup
+(
+)
+;
+pipOverrides
 .
 bootup
 (
