@@ -5039,6 +5039,17 @@ return
         
 self
 .
+browser
+.
+stop
+(
+force
+=
+True
+)
+        
+self
+.
 logger
 .
 debug
