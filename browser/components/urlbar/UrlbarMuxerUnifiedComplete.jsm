@@ -537,10 +537,9 @@ r
 r
 .
 suggestedIndex
-!
+>
 =
--
-1
+0
 )
 .
 sort
@@ -764,10 +763,8 @@ if
 result
 .
 suggestedIndex
-=
-=
--
-1
+<
+0
 )
 {
 sortedResults
