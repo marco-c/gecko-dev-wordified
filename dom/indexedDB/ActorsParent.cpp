@@ -44262,7 +44262,7 @@ FileManager
 &
 aFileManager
 const
-nsString
+nsDependentSubstring
 &
 aText
 StructuredCloneFile
@@ -44615,9 +44615,6 @@ aText
 '
 )
 ;
-nsAutoString
-token
-;
 nsresult
 rv
 ;
@@ -44630,6 +44627,9 @@ hasMoreTokens
 )
 )
 {
+const
+auto
+&
 token
 =
 tokenizer
