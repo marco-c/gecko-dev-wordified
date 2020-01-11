@@ -2415,21 +2415,26 @@ test_defaults
 name
 )
         
+#
+Avoid
+loading
+wpt
+or
+puppeteer
+manifests
+.
+        
 rv
 .
 _wpt_loaded
 =
 True
-#
-Don
-'
-t
-try
-to
-load
-the
-wpt
-manifest
+        
+rv
+.
+_puppeteer_loaded
+=
+True
         
 return
 rv

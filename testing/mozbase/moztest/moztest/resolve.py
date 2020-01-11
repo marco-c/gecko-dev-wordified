@@ -88,18 +88,18 @@ MozbuildObject
 from
 mozbuild
 .
-util
-import
-OrderedDefaultDict
-from
-mozbuild
-.
 frontend
 .
 reader
 import
 BuildReader
 EmptyConfig
+from
+mozbuild
+.
+util
+import
+OrderedDefaultDict
 here
 =
 os
@@ -3651,6 +3651,12 @@ pardir
         
 self
 .
+_puppeteer_loaded
+=
+False
+        
+self
+.
 _wpt_loaded
 =
 False
@@ -4673,6 +4679,14 @@ self
 )
 :
         
+if
+self
+.
+_puppeteer_loaded
+:
+            
+return
+        
 test_path
 =
 os
@@ -4849,6 +4863,12 @@ path
                     
 }
 )
+        
+self
+.
+_puppeteer_loaded
+=
+True
     
 def
 is_wpt_path
