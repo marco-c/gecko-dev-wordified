@@ -51,13 +51,13 @@ github
 .
 com
 /
-w3c
-/
 web
 -
 platform
 -
 tests
+/
+wpt
 /
 issues
 /
