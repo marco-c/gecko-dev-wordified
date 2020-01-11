@@ -657,7 +657,7 @@ nsAString
 aResult
 )
 ;
-nsresult
+void
 OnLoadEnd
 (
 nsresult

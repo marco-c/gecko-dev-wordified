@@ -3183,11 +3183,13 @@ rv
 NS_OK
 ;
 }
-return
 OnLoadEnd
 (
 rv
 )
+;
+return
+NS_OK
 ;
 }
 mTransferred
@@ -3270,7 +3272,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 FileReader
 :
 :
@@ -3327,7 +3329,6 @@ aStatus
 )
 ;
 return
-NS_OK
 ;
 }
 /
@@ -3372,7 +3373,6 @@ NS_ERROR_FAILURE
 )
 ;
 return
-NS_OK
 ;
 }
 /
@@ -3396,7 +3396,6 @@ OnLoadEndArrayBuffer
 )
 ;
 return
-NS_OK
 ;
 }
 nsresult
@@ -3511,15 +3510,11 @@ rv
 )
 ;
 return
-NS_OK
 ;
 }
 FreeDataAndDispatchSuccess
 (
 )
-;
-return
-NS_OK
 ;
 }
 void
