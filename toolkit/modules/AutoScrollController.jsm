@@ -324,6 +324,8 @@ content
 XULElement
 &
 &
+(
+(
 mmScrollbarPosition
 &
 &
@@ -345,6 +347,18 @@ localName
 =
 "
 scrollcorner
+"
+)
+)
+|
+|
+node
+.
+localName
+=
+=
+"
+treechildren
 "
 )
 )
