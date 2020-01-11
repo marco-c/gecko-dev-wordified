@@ -11376,12 +11376,6 @@ thunderbird
 '
 mochitest
 -
-chrome
-'
-    
-'
-mochitest
--
 devtools
 -
 webreplay
@@ -11391,20 +11385,6 @@ webreplay
 mochitest
 -
 plain
-'
-    
-'
-mochitest
--
-plain
--
-gpu
-'
-    
-'
-mochitest
--
-remote
 '
     
 '
@@ -12059,18 +12039,14 @@ CHUNK_SUITES_BLACKLIST
 suite_definition
 =
 TEST_SUITES
-.
-get
-(
+[
 test
 [
 '
 suite
 '
 ]
-{
-}
-)
+]
             
 chunked_manifests
 =
