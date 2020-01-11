@@ -42608,7 +42608,7 @@ MTypedArrayIndexToInt32
 public
 MUnaryInstruction
 public
-NoTypePolicy
+TypedArrayIndexPolicy
 :
 :
 Data
@@ -42666,6 +42666,15 @@ Int32
 )
 ;
 setMovable
+(
+)
+;
+specialization_
+=
+def
+-
+>
+type
 (
 )
 ;
