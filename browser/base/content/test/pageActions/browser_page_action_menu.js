@@ -3204,7 +3204,7 @@ label
 Not
 Connected
 to
-Sync
+Firefox
 "
 }
 disabled
@@ -3222,7 +3222,7 @@ label
 Sign
 in
 to
-Sync
+Firefox
 .
 .
 .
