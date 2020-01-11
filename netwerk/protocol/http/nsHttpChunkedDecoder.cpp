@@ -1100,10 +1100,6 @@ nsHttpHeaderArray
 }
 nsHttpAtom
 hdr
-=
-{
-nullptr
-}
 ;
 nsAutoCString
 headerNameOriginal

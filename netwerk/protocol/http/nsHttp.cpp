@@ -285,10 +285,9 @@ _value
 )
 nsHttpAtom
 _name
-=
-{
+(
 _value
-}
+)
 ;
 #
 include
@@ -953,10 +952,6 @@ str
 {
 nsHttpAtom
 atom
-=
-{
-nullptr
-}
 ;
 if
 (

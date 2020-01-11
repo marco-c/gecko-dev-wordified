@@ -1767,10 +1767,6 @@ block
 ;
 nsHttpAtom
 hdr
-=
-{
-nullptr
-}
 ;
 nsAutoCString
 headerNameOriginal
@@ -3056,10 +3052,6 @@ originalFromNetHeaders
 {
 nsHttpAtom
 hdr
-=
-{
-nullptr
-}
 ;
 nsAutoCString
 headerNameOriginal

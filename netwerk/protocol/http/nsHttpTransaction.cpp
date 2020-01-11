@@ -17403,10 +17403,6 @@ end
 ;
 nsHttpAtom
 hdr
-=
-{
-nullptr
-}
 ;
 nsAutoCString
 hdrNameOriginal

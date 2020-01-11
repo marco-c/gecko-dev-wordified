@@ -2735,6 +2735,15 @@ ticks_
 )
 {
 }
+TimeTicks
+(
+const
+TimeTicks
+&
+)
+=
+default
+;
 /
 /
 Platform
