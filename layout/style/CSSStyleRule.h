@@ -399,6 +399,8 @@ nsAString
 &
 aPseudo
 bool
+aRelevantLinkVisited
+bool
 *
 aMatches
 )

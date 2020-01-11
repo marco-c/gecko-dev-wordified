@@ -2172,6 +2172,8 @@ const
 nsAString
 &
 aPseudo
+bool
+aRelevantLinkVisited
 ErrorResult
 &
 aRv
@@ -2192,6 +2194,7 @@ SelectorMatchesElement
 aElement
 aSelectorIndex
 aPseudo
+aRelevantLinkVisited
 &
 result
 )
