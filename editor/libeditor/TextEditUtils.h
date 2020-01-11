@@ -123,15 +123,6 @@ public
 :
 static
 bool
-IsBody
-(
-nsINode
-*
-aNode
-)
-;
-static
-bool
 IsBreak
 (
 nsINode
