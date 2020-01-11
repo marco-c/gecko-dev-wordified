@@ -1867,6 +1867,15 @@ return
 mSandboxFlags
 ;
 }
+bool
+InRDMPane
+(
+)
+{
+return
+mInRDMPane
+;
+}
 /
 /
 Using
