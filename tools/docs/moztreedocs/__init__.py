@@ -111,8 +111,6 @@ sphinx
 import
 sphinx
 .
-ext
-.
 apidoc
 here
 =
@@ -946,9 +944,6 @@ with
 open
 (
 markdown_file
-"
-r
-"
 )
 as
 f
@@ -996,9 +991,6 @@ tempfile
 .
 NamedTemporaryFile
 (
-"
-w
-"
 delete
 =
 False
@@ -1410,7 +1402,7 @@ self
 .
 index_path
 '
-r
+rb
 '
 )
 as
@@ -1761,7 +1753,7 @@ rst
 '
 )
 '
-w
+wb
 '
 )
 as
