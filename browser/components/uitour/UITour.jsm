@@ -2939,7 +2939,7 @@ FxAccounts
 .
 config
 .
-promiseSignUpURI
+promiseConnectAccountURI
 (
 "
 uitour
