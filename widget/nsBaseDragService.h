@@ -884,6 +884,15 @@ mDoingDrag
 /
 true
 if
+in
+EndDragSession
+bool
+mEndingSession
+;
+/
+/
+true
+if
 mImage
 should
 be
