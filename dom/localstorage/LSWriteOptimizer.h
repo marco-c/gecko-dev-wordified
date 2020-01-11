@@ -129,6 +129,13 @@ CheckedInt
 .
 h
 "
+#
+include
+"
+nsClassHashtable
+.
+h
+"
 namespace
 mozilla
 {
