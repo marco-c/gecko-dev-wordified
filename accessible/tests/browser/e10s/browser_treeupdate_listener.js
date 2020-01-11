@@ -180,9 +180,7 @@ onReorder
 waitForEvent
 (
 EVENT_REORDER
-"
-body
-"
+matchContentDoc
 )
 ;
 /
@@ -195,9 +193,7 @@ to
 parent
 .
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -271,6 +267,11 @@ parent
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

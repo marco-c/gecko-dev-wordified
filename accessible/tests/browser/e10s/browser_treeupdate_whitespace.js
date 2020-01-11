@@ -199,9 +199,7 @@ img1
 from
 container1
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -334,9 +332,7 @@ src
 to
 container2
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -460,6 +456,11 @@ container2Parent
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

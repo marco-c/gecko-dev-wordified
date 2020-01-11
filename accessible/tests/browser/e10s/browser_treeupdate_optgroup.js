@@ -154,9 +154,7 @@ and
 standalone
 options
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -428,9 +426,7 @@ grouping
 from
 combobox
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -538,9 +534,7 @@ options
 from
 combobox
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -606,6 +600,11 @@ select
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

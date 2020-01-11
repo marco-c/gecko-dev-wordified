@@ -210,9 +210,7 @@ table
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -346,6 +344,11 @@ table
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;
