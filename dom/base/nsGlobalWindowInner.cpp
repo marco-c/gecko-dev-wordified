@@ -12145,9 +12145,15 @@ Unused
 browserChild
 -
 >
-SendFireFrameLoadEvent
+SendMaybeFireEmbedderLoadEvents
 (
 aIsTrusted
+/
+*
+aFireLoadAtEmbeddingElement
+*
+/
+true
 )
 ;
 }

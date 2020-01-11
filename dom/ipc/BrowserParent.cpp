@@ -23809,10 +23809,12 @@ IPCResult
 BrowserParent
 :
 :
-RecvFireFrameLoadEvent
+RecvMaybeFireEmbedderLoadEvents
 (
 bool
 aIsTrusted
+bool
+aFireLoadAtEmbeddingElement
 )
 {
 BrowserBridgeParent
@@ -23854,9 +23856,10 @@ Unused
 bridge
 -
 >
-SendFireFrameLoadEvent
+SendMaybeFireEmbedderLoadEvents
 (
 aIsTrusted
+aFireLoadAtEmbeddingElement
 )
 ;
 return

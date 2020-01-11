@@ -491,10 +491,12 @@ ipc
 :
 :
 IPCResult
-RecvFireFrameLoadEvent
+RecvMaybeFireEmbedderLoadEvents
 (
 bool
 aIsTrusted
+bool
+aFireLoadAtEmbeddingElement
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -558,6 +560,11 @@ BrowserBridgeChild
 (
 )
 ;
+void
+UnblockOwnerDocsLoadEvent
+(
+)
+;
 TabId
 mId
 ;
@@ -566,6 +573,11 @@ mLayersId
 ;
 bool
 mIPCOpen
+;
+bool
+mHadInitialLoad
+=
+false
 ;
 RefPtr
 <
