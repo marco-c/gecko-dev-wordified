@@ -335,15 +335,6 @@ Iterator
 \
 MACRO
 (
-AsyncFunction
-AsyncFunction
-"
-AsyncFunction
-"
-)
-\
-MACRO
-(
 AsyncFunctionNext
 AsyncFunctionNext
 "
