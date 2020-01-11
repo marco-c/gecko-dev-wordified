@@ -10558,6 +10558,13 @@ docshell
 '
 s
 presentation
+aShell
+-
+>
+SynchronizeLayoutHistoryState
+(
+)
+;
 nsCOMPtr
 <
 nsIContentViewer
@@ -11457,6 +11464,13 @@ shEntry
 -
 >
 SyncPresentationState
+(
+)
+;
+shEntry
+-
+>
+SynchronizeLayoutHistoryState
 (
 )
 ;
