@@ -21538,7 +21538,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 true
 false
