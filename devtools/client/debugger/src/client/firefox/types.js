@@ -858,13 +858,13 @@ ActorId
 consoleActor
 :
 ActorId
+contentViewerActor
+:
+ActorId
 cssPropertiesActor
 :
 ActorId
 directorManagerActor
-:
-ActorId
-emulationActor
 :
 ActorId
 eventLoopLagActor
@@ -895,6 +895,9 @@ profilerActor
 :
 ActorId
 reflowActor
+:
+ActorId
+responsiveActor
 :
 ActorId
 storageActor

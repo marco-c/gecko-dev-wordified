@@ -1466,6 +1466,7 @@ ready
 to
 speak
 with
+responsive
 emulation
 actor
 debug
@@ -1512,7 +1513,7 @@ isBrowserUIEnabled
 await
 this
 .
-emulationFront
+responsiveFront
 .
 setDocumentInRDMPane
 (
@@ -2272,7 +2273,7 @@ isBrowserUIEnabled
 await
 this
 .
-emulationFront
+responsiveFront
 .
 setDocumentInRDMPane
 (
@@ -2660,6 +2661,7 @@ used
 to
 speak
 with
+responsive
 emulation
 actor
 .
@@ -2715,7 +2717,7 @@ client
 =
 this
 .
-emulationFront
+responsiveFront
 =
 null
 ;
@@ -2852,7 +2854,7 @@ getTab
 ;
 this
 .
-emulationFront
+responsiveFront
 =
 await
 targetFront
@@ -2860,7 +2862,7 @@ targetFront
 getFront
 (
 "
-emulation
+responsive
 "
 )
 ;
@@ -2877,6 +2879,7 @@ notification
 about
 reloads
 for
+responsive
 emulation
 .
 *
@@ -3981,7 +3984,7 @@ targetFront
 actorHasMethod
 (
 "
-emulation
+responsive
 "
 "
 captureScreenshot
@@ -3999,7 +4002,7 @@ data
 await
 this
 .
-emulationFront
+responsiveFront
 .
 captureScreenshot
 (
@@ -4477,7 +4480,7 @@ dppx
 await
 this
 .
-emulationFront
+responsiveFront
 .
 clearDPPXOverride
 (
@@ -4490,7 +4493,7 @@ false
 await
 this
 .
-emulationFront
+responsiveFront
 .
 setDPPXOverride
 (
@@ -4558,7 +4561,7 @@ enabled
 await
 this
 .
-emulationFront
+responsiveFront
 .
 clearNetworkThrottling
 (
@@ -4600,7 +4603,7 @@ data
 await
 this
 .
-emulationFront
+responsiveFront
 .
 setNetworkThrottling
 (
@@ -4662,7 +4665,7 @@ userAgent
 return
 this
 .
-emulationFront
+responsiveFront
 .
 clearUserAgentOverride
 (
@@ -4672,7 +4675,7 @@ clearUserAgentOverride
 return
 this
 .
-emulationFront
+responsiveFront
 .
 setUserAgentOverride
 (
@@ -4805,7 +4808,7 @@ reloadNeeded
 await
 this
 .
-emulationFront
+responsiveFront
 .
 setTouchEventsOverride
 (
@@ -4827,7 +4830,7 @@ reloadNeeded
 await
 this
 .
-emulationFront
+responsiveFront
 .
 setMetaViewportOverride
 (
@@ -4847,7 +4850,7 @@ reloadNeeded
 await
 this
 .
-emulationFront
+responsiveFront
 .
 clearTouchEventsOverride
 (
@@ -4859,7 +4862,7 @@ reloadNeeded
 await
 this
 .
-emulationFront
+responsiveFront
 .
 clearMetaViewportOverride
 (
@@ -5032,7 +5035,7 @@ targetFront
 actorHasMethod
 (
 "
-emulation
+responsive
 "
 "
 simulateScreenOrientationChange
@@ -5055,7 +5058,7 @@ simulateOrientationChangeSupported
 await
 this
 .
-emulationFront
+responsiveFront
 .
 simulateScreenOrientationChange
 (

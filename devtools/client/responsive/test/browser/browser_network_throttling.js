@@ -279,7 +279,7 @@ state
 await
 ui
 .
-emulationFront
+responsiveFront
 .
 getNetworkThrottling
 (

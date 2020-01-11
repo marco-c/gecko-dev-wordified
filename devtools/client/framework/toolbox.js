@@ -12541,7 +12541,7 @@ target
 actorHasMethod
 (
 "
-emulation
+responsive
 "
 "
 setElementPickerState
@@ -12566,7 +12566,7 @@ localTab
 await
 ui
 .
-emulationFront
+responsiveFront
 .
 setElementPickerState
 (
