@@ -1153,7 +1153,6 @@ aBodyId
 )
 ;
 }
-virtual
 void
 RunOnTarget
 (

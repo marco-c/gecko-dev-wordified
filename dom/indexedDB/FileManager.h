@@ -296,12 +296,6 @@ aDirectory
 nsIFile
 *
 aDatabaseFile
-PersistenceType
-aPersistenceType
-const
-nsACString
-&
-aGroup
 const
 nsACString
 &
