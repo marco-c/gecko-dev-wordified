@@ -4011,12 +4011,6 @@ NS_OS_TEMP_DIR
 #
 endif
 }
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
 /
 /
 /
@@ -4225,8 +4219,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 /
 /
 /
