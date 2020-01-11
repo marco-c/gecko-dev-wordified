@@ -238,7 +238,7 @@ theme
 images
 :
 {
-headerURL
+theme_frame
 :
 "
 example
@@ -1705,12 +1705,12 @@ theme
 colors
 :
 {
-accentcolor
+frame
 :
 "
 black
 "
-textcolor
+tab_background_text
 :
 "
 white

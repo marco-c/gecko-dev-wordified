@@ -543,7 +543,7 @@ theme
 images
 :
 {
-headerURL
+theme_frame
 :
 "
 example
@@ -623,7 +623,7 @@ theme
 images
 :
 {
-headerURL
+theme_frame
 :
 "
 example
