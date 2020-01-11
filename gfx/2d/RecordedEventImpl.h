@@ -17035,17 +17035,6 @@ mData
 mFontDetails
 .
 size
-aTranslator
--
->
-GetReferenceDrawTarget
-(
-)
--
->
-GetBackendType
-(
-)
 mType
 aTranslator
 -

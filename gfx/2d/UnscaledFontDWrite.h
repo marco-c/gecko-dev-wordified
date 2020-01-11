@@ -173,10 +173,6 @@ IDWriteFont
 >
 &
 aFont
-bool
-aNeedsCairo
-=
-false
 )
 :
 mFontFace
@@ -186,10 +182,6 @@ aFontFace
 mFont
 (
 aFont
-)
-mNeedsCairo
-(
-aNeedsCairo
 )
 {
 }
@@ -337,9 +329,6 @@ RefPtr
 IDWriteFont
 >
 mFont
-;
-bool
-mNeedsCairo
 ;
 }
 ;

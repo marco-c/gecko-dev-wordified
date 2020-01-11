@@ -1677,17 +1677,6 @@ mData
 data
 .
 mSize
-aTranslator
--
->
-GetReferenceDrawTarget
-(
-)
--
->
-GetBackendType
-(
-)
 type
 aTranslator
 -

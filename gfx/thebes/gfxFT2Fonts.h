@@ -108,13 +108,6 @@ h
 #
 include
 "
-cairo
-.
-h
-"
-#
-include
-"
 gfxTypes
 .
 h
@@ -184,9 +177,6 @@ UnscaledFontFreeType
 >
 &
 aUnscaledFont
-cairo_scaled_font_t
-*
-aCairoFont
 RefPtr
 <
 mozilla
@@ -209,8 +199,6 @@ gfxFontStyle
 aFontStyle
 int
 aLoadFlags
-bool
-aEmbolden
 )
 ;
 virtual
