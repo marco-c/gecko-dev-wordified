@@ -62,6 +62,12 @@ binary_type
 text_type
 BytesIO
 from
+six
+.
+moves
+import
+xrange
+from
 .
 node
 import
@@ -3822,12 +3828,11 @@ self
 .
 token
 =
+next
+(
 self
 .
 token_generator
-.
-next
-(
 )
     
 def
