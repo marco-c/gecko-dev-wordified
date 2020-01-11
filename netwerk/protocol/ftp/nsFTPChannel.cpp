@@ -1861,6 +1861,14 @@ this
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+Pending
+(
+)
+NS_ERROR_NOT_AVAILABLE
+)
+;
 +
 +
 mSuspendCount
