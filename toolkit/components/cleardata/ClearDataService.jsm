@@ -2915,7 +2915,7 @@ Services
 .
 qms
 .
-listInitializedOrigins
+listOrigins
 (
 aRequest
 =

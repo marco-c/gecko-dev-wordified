@@ -8312,7 +8312,7 @@ override
 }
 ;
 class
-ListInitializedOriginsOp
+ListOriginsOp
 final
 :
 public
@@ -8344,7 +8344,7 @@ mOrigins
 ;
 public
 :
-ListInitializedOriginsOp
+ListOriginsOp
 (
 )
 ;
@@ -8360,7 +8360,7 @@ override
 private
 :
 ~
-ListInitializedOriginsOp
+ListOriginsOp
 (
 )
 =
@@ -43968,7 +43968,7 @@ case
 RequestParams
 :
 :
-TListInitializedOriginsParams
+TListOriginsParams
 :
 break
 ;
@@ -44767,12 +44767,12 @@ case
 RequestParams
 :
 :
-TListInitializedOriginsParams
+TListOriginsParams
 :
 actor
 =
 new
-ListInitializedOriginsOp
+ListOriginsOp
 (
 )
 ;
@@ -51278,10 +51278,10 @@ aResponse
 estimateResponse
 ;
 }
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
-ListInitializedOriginsOp
+ListOriginsOp
 (
 )
 :
@@ -51304,7 +51304,7 @@ AssertIsOnOwningThread
 ;
 }
 bool
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
 Init
@@ -51332,7 +51332,7 @@ true
 ;
 }
 nsresult
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
 DoDirectoryWork
@@ -51354,7 +51354,7 @@ aQuotaManager
 AUTO_PROFILER_LABEL
 (
 "
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
 DoDirectoryWork
@@ -51466,7 +51466,7 @@ NS_OK
 ;
 }
 bool
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
 IsCanceled
@@ -51482,7 +51482,7 @@ mCanceled
 ;
 }
 nsresult
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
 ProcessOrigin
@@ -51591,7 +51591,7 @@ NS_OK
 ;
 }
 void
-ListInitializedOriginsOp
+ListOriginsOp
 :
 :
 GetResponse
@@ -51607,7 +51607,7 @@ AssertIsOnOwningThread
 ;
 aResponse
 =
-ListInitializedOriginsResponse
+ListOriginsResponse
 (
 )
 ;
@@ -51632,7 +51632,7 @@ origins
 =
 aResponse
 .
-get_ListInitializedOriginsResponse
+get_ListOriginsResponse
 (
 )
 .

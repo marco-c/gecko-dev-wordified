@@ -4900,7 +4900,7 @@ resolve
 {
 quotaManagerService
 .
-listInitializedOrigins
+listOrigins
 (
 request
 =
@@ -4917,7 +4917,7 @@ quota
 -
 manager
 -
-listInitializedOrigins
+listOrigins
 "
 ;
 if
