@@ -293,6 +293,7 @@ define
 PROTOKEY_AND_INITIALIZER
 (
 name
+init
 clasp
 )
 JSProto_

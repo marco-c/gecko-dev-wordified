@@ -232,8 +232,10 @@ define
 DECLARE_PROTO_STR
 (
 name
+init
 clasp
 )
+\
 extern
 const
 char
