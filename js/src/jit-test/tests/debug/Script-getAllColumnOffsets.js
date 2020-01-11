@@ -203,14 +203,6 @@ property
 in
 the
 object
-if
-OBJLITERAL
-optimization
-is
-not
-/
-/
-hit
 .
 "
 function
@@ -231,7 +223,7 @@ b
 2
 c
 :
-n
+3
 }
 }
 "
