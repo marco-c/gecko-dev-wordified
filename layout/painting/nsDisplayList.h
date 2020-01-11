@@ -10082,6 +10082,9 @@ ClearWillChangeBudget
 void
 EnterSVGEffectsContents
 (
+nsIFrame
+*
+aEffectsFrame
 nsDisplayList
 *
 aHoistedItemsStorage
@@ -11640,8 +11643,12 @@ mCurrentScrollbarDirection
 Preserves3DContext
 mPreserves3DCtx
 ;
-int32_t
-mSVGEffectsBuildingDepth
+nsTArray
+<
+nsIFrame
+*
+>
+mSVGEffectsFrames
 ;
 /
 /
