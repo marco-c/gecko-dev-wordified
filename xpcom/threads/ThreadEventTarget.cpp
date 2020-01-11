@@ -518,9 +518,9 @@ mIsMainThread
 aIsMainThread
 )
 {
-mVirtualThread
+mThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;
@@ -533,9 +533,9 @@ SetCurrentThread
 (
 )
 {
-mVirtualThread
+mThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;
@@ -548,7 +548,7 @@ ClearCurrentThread
 (
 )
 {
-mVirtualThread
+mThread
 =
 nullptr
 ;
@@ -1148,7 +1148,7 @@ IsOnCurrentThreadInfallible
 /
 Rely
 on
-mVirtualThread
+mThread
 being
 correct
 .

@@ -27376,7 +27376,7 @@ activated
 ;
 mMainThreadCheck
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;
