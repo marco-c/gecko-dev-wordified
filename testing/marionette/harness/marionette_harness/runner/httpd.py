@@ -94,8 +94,6 @@ import
 sys
 import
 time
-import
-urlparse
 from
 wptserve
 import
@@ -111,6 +109,16 @@ default_routes
     
 server
 )
+from
+six
+.
+moves
+.
+urllib
+import
+parse
+as
+urlparse
 root
 =
 os
