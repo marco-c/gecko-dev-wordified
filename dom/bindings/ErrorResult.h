@@ -1734,6 +1734,7 @@ typename
 Ts
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowTypeError
 (
 Ts
@@ -1795,6 +1796,7 @@ spot
 .
 inline
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowTypeError
 (
 const
@@ -1857,6 +1859,7 @@ int
 N
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowTypeError
 (
 const
@@ -1893,6 +1896,7 @@ typename
 Ts
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowRangeError
 (
 Ts
@@ -1954,6 +1958,7 @@ spot
 .
 inline
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowRangeError
 (
 const
@@ -2016,6 +2021,7 @@ int
 N
 >
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowRangeError
 (
 const
@@ -2193,6 +2199,7 @@ as
 needed
 .
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowJSException
 (
 JSContext
@@ -2295,6 +2302,7 @@ XPConnect
 Exception
 .
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ThrowDOMException
 (
 nsresult
@@ -2364,6 +2372,7 @@ uncatchable
 exception
 .
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 NoteJSContextException
 (
 JSContext
@@ -4879,6 +4888,7 @@ FastErrorResult
 public
 :
 void
+MOZ_MUST_RETURN_FROM_CALLER_IF_THIS_IS_ARG
 ReportOOM
 (
 )
