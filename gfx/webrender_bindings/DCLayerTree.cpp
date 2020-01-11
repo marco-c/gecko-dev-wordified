@@ -1099,6 +1099,11 @@ Some
 aId
 )
 ;
+*
+aFboId
+=
+0
+;
 }
 void
 DCLayerTree
