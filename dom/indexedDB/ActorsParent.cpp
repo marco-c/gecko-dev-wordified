@@ -35009,7 +35009,8 @@ mFileInfo
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 MutableFile
 >
@@ -102712,7 +102713,7 @@ this
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 MutableFile
 >
@@ -102768,10 +102769,6 @@ nullptr
 }
 return
 newMutableFile
-.
-forget
-(
-)
 ;
 }
 void
@@ -102864,6 +102861,7 @@ AssertIsOnBackgroundThread
 (
 )
 ;
+const
 PersistenceType
 persistenceType
 =
@@ -103019,14 +103017,13 @@ AssertIsOnBackgroundThread
 (
 )
 ;
-RefPtr
+auto
+blobImpl
+=
+MakeRefPtr
 <
 FileBlobImpl
 >
-blobImpl
-=
-new
-FileBlobImpl
 (
 mFile
 )
