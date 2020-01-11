@@ -4237,6 +4237,17 @@ aWrap
 }
 )
 ;
+if
+(
+newTab
+&
+&
+newTab
+!
+=
+startTab
+)
+{
 this
 .
 _selectNewTab
@@ -4246,6 +4257,7 @@ aDir
 aWrap
 )
 ;
+}
 }
 appendItem
 (
