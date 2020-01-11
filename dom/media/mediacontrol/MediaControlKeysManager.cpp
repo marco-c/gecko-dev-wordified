@@ -210,7 +210,7 @@ mEventSource
 AddListener
 (
 new
-MediaControlKeysEventListener
+MediaControlKeysHandler
 (
 )
 )
