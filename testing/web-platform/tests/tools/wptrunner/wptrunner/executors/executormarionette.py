@@ -7166,6 +7166,10 @@ data
 0
 ]
         
+extra
+=
+None
+        
 if
 self
 .
@@ -7209,12 +7213,7 @@ not
 None
 :
                 
-data
-[
-"
 extra
-"
-]
 =
 {
 "
@@ -7243,7 +7242,9 @@ test
 .
 result_cls
 (
-*
+extra
+=
+extra
 *
 data
 )
