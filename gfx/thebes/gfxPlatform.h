@@ -4498,6 +4498,12 @@ InitWebRenderConfig
 (
 )
 ;
+virtual
+void
+InitWebGPUConfig
+(
+)
+;
 /
 *
 *
