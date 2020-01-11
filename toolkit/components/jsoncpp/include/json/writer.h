@@ -175,14 +175,19 @@ Value
 /
 *
 *
+*
+*
 Usage
 :
+*
 \
 code
+*
 using
 namespace
 Json
 ;
+*
 void
 writeToStdout
 (
@@ -198,6 +203,7 @@ const
 &
 value
 )
+*
 {
 std
 :
@@ -216,6 +222,7 @@ newStreamWriter
 )
 )
 ;
+*
 writer
 -
 >
@@ -229,6 +236,7 @@ std
 cout
 )
 ;
+*
 std
 :
 :
@@ -246,7 +254,9 @@ add
 lf
 and
 flush
+*
 }
+*
 \
 endcode
 *
@@ -295,6 +305,7 @@ sub
 -
 class
 .
+*
 Do
 not
 take
@@ -308,12 +319,14 @@ reference
 during
 function
 .
+*
 \
 pre
 sout
 !
 =
 NULL
+*
 \
 return
 zero
@@ -329,6 +342,7 @@ zero
 so
 check
 the
+*
 stream
 instead
 .
@@ -342,6 +356,7 @@ exception
 possibly
 depending
 on
+*
 configuration
 *
 /
@@ -496,14 +511,18 @@ a
 StreamWriter
 implementation
 .
+*
 Usage
 :
+*
 \
 code
+*
 using
 namespace
 Json
 ;
+*
 Value
 value
 =
@@ -511,9 +530,11 @@ value
 .
 .
 ;
+*
 StreamWriterBuilder
 builder
 ;
+*
 builder
 [
 "
@@ -525,6 +546,7 @@ commentStyle
 None
 "
 ;
+*
 builder
 [
 "
@@ -541,6 +563,7 @@ or
 whatever
 you
 like
+*
 std
 :
 :
@@ -553,6 +576,7 @@ StreamWriter
 >
 writer
 (
+*
 builder
 .
 newStreamWriter
@@ -560,6 +584,7 @@ newStreamWriter
 )
 )
 ;
+*
 writer
 -
 >
@@ -573,6 +598,7 @@ std
 cout
 )
 ;
+*
 std
 :
 :
@@ -590,6 +616,7 @@ add
 lf
 and
 flush
+*
 \
 endcode
 *
@@ -644,6 +671,7 @@ of
 this
 builder
 .
+*
 Available
 settings
 (
@@ -652,6 +680,7 @@ case
 sensitive
 )
 :
+*
 -
 "
 commentStyle
@@ -664,6 +693,7 @@ or
 "
 All
 "
+*
 -
 "
 indentation
@@ -675,6 +705,7 @@ anything
 >
 "
 .
+*
 -
 Setting
 this
@@ -687,6 +718,7 @@ omits
 newline
 characters
 .
+*
 -
 "
 enableYAMLCompatibility
@@ -695,6 +727,7 @@ enableYAMLCompatibility
 false
 or
 true
+*
 -
 slightly
 change
@@ -702,6 +735,7 @@ the
 whitespace
 around
 colons
+*
 -
 "
 dropNullPlaceholders
@@ -710,6 +744,7 @@ dropNullPlaceholders
 false
 or
 true
+*
 -
 Drop
 the
@@ -726,6 +761,7 @@ output
 for
 nullValues
 .
+*
 Strictly
 speaking
 this
@@ -740,6 +776,7 @@ the
 output
 is
 being
+*
 fed
 to
 a
@@ -754,6 +791,7 @@ smaller
 output
 and
 the
+*
 browser
 can
 handle
@@ -762,6 +800,7 @@ output
 just
 fine
 .
+*
 -
 "
 useSpecialFloats
@@ -770,6 +809,7 @@ useSpecialFloats
 false
 or
 true
+*
 -
 If
 true
@@ -785,6 +825,7 @@ the
 following
 way
 :
+*
 NaN
 values
 as
@@ -799,6 +840,7 @@ Infinity
 "
 and
 negative
+*
 infinity
 as
 "
@@ -806,12 +848,14 @@ as
 Infinity
 "
 .
+*
 -
 "
 precision
 "
 :
 int
+*
 -
 Number
 of
@@ -823,6 +867,7 @@ of
 real
 values
 .
+*
 -
 "
 precisionType
@@ -838,6 +883,7 @@ or
 "
 decimal
 "
+*
 -
 Type
 of
@@ -848,12 +894,14 @@ of
 real
 values
 .
+*
 You
 can
 examine
 '
 settings_
 yourself
+*
 to
 see
 the
@@ -869,9 +917,11 @@ them
 just
 like
 any
+*
 JSON
 Value
 .
+*
 \
 sa
 setDefaults
