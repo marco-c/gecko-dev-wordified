@@ -821,6 +821,10 @@ CKM_FAKE_RANDOM
 define
 CKM_INVALID_MECHANISM
 0xffffffffUL
+#
+define
+CKT_INVALID_TYPE
+0xffffffffUL
 /
 *
 *

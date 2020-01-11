@@ -591,6 +591,12 @@ SECOidTag
 oid
 )
 ;
+SECOidTag
+HASH_HMACOidFromHash
+(
+HASH_HashType
+)
+;
 SEC_END_PROTOS
 #
 endif

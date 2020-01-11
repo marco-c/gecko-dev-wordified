@@ -2440,7 +2440,7 @@ sdb
 >
 version
 =
-0
+1
 ;
 sdb
 -
@@ -2522,6 +2522,13 @@ lg_PutMetaData
 sdb
 -
 >
+sdb_DestroyMetaData
+=
+lg_DestroyMetaData
+;
+sdb
+-
+>
 sdb_Begin
 =
 lg_Begin
@@ -2560,6 +2567,13 @@ sdb
 sdb_SetForkState
 =
 lg_SetForkState
+;
+sdb
+-
+>
+sdb_GetNewObjectID
+=
+lg_GetNewObjectID
 ;
 *
 pSdb
