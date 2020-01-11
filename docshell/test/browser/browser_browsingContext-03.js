@@ -964,7 +964,10 @@ findItemWithName
 target
 "
 null
-null
+docShells
+[
+i
+]
 false
 )
 ;
@@ -1062,7 +1065,10 @@ findItemWithName
 (
 target
 null
-null
+docShells
+[
+i
+]
 false
 )
 ;
