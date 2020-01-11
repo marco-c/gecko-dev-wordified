@@ -387,20 +387,6 @@ clobber_needed
 )
 )
         
-#
-Side
--
-effect
-is
-topobjdir
-is
-created
-with
-CLOBBER
-file
-touched
-.
-        
 required
 performed
 reason
@@ -440,7 +426,7 @@ reason
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -454,7 +440,7 @@ tmp
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -567,7 +553,7 @@ reason
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -861,7 +847,7 @@ dummy_path
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -872,33 +858,6 @@ exists
 c
 .
 obj_clobber
-)
-)
-        
-self
-.
-assertGreaterEqual
-(
-os
-.
-path
-.
-getmtime
-(
-c
-.
-obj_clobber
-)
-                                
-os
-.
-path
-.
-getmtime
-(
-c
-.
-src_clobber
 )
 )
     
