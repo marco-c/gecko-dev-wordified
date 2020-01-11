@@ -584,7 +584,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8X8
+OS_RGBX
 ;
 }
 else
@@ -597,7 +597,7 @@ gfx
 SurfaceFormat
 :
 :
-B8G8R8A8
+OS_RGBA
 ;
 }
 /
