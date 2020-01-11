@@ -3019,7 +3019,6 @@ content
 "
 dialog
 centerscreen
-alwaysOnTop
 height
 =
 700
