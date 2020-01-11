@@ -211,11 +211,6 @@ downloads
 .
 open
 "
-"
-downloads
-.
-shelf
-"
 ]
 }
 }

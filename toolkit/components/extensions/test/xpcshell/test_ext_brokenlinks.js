@@ -117,9 +117,6 @@ missing
 js
 "
 ]
-persistent
-:
-false
 }
 }
 }
