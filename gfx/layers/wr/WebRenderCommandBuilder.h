@@ -1519,6 +1519,12 @@ image
 bool
 mDoGrouping
 ;
+Maybe
+<
+nsRect
+>
+mClippedGroupBounds
+;
 /
 /
 True
