@@ -423,8 +423,9 @@ LOG_TEST
 )
 {
 \
-printf
+fprintf
 (
+stderr
 "
 [
 I
@@ -509,8 +510,9 @@ DEBUG_LOG_TEST
 )
 {
 \
-printf
+fprintf
 (
+stderr
 "
 [
 D
@@ -595,8 +597,9 @@ VERBOSE_LOG_TEST
 )
 {
 \
-printf
+fprintf
 (
+stderr
 "
 [
 V
