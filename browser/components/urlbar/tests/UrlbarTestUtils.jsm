@@ -1382,7 +1382,7 @@ gURLBar
 .
 view
 .
-selectedElement
+_selectedElement
 |
 |
 null
