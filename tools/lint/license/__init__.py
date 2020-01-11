@@ -646,26 +646,6 @@ not
 "
 "
     
-if
-"
-lint
-/
-test
-/
-"
-in
-f
-:
-        
-#
-For
-the
-unit
-tests
-        
-return
-False
-    
 return
 (
 "
