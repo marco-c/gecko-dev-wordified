@@ -399,11 +399,9 @@ aWidget
 WidgetGUIEvent
 &
 aEvent
-LayoutDeviceIntPoint
+LPARAM
 *
 aPoint
-=
-nullptr
 )
 ;
 /
@@ -1452,6 +1450,8 @@ const
 ModifierKeyState
 &
 aModKeyState
+LPARAM
+aLParam
 )
 ;
 private
