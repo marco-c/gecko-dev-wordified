@@ -41964,13 +41964,6 @@ mDatastore
 {
 MOZ_ASSERT
 (
-mDatastoreId
->
-0
-)
-;
-MOZ_ASSERT
-(
 !
 mDirectoryLock
 )
@@ -41989,6 +41982,11 @@ ResultCode
 (
 )
 )
+&
+&
+mDatastoreId
+>
+0
 )
 {
 /
