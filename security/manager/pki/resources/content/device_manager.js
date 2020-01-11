@@ -2084,6 +2084,12 @@ doLoad
 {
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 open
 (
 "
@@ -2283,6 +2289,12 @@ objects
 objects
 ;
 window
+.
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 openDialog
 (

@@ -2057,6 +2057,12 @@ selected_certs
 {
 window
 .
+docShell
+.
+rootTreeItem
+.
+domWindow
+.
 openDialog
 (
 "
@@ -2770,6 +2776,12 @@ false
 }
 ;
 window
+.
+docShell
+.
+rootTreeItem
+.
+domWindow
 .
 openDialog
 (
