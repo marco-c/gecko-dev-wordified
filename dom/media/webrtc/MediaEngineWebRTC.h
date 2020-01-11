@@ -550,15 +550,6 @@ threads
 Mutex
 mMutex
 ;
-RefPtr
-<
-mozilla
-:
-:
-CubebDeviceEnumerator
->
-mEnumerator
-;
 const
 bool
 mDelayAgnostic
