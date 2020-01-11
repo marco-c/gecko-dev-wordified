@@ -4060,15 +4060,6 @@ position
 =
 =
 "
-absolute
-"
-|
-|
-position
-=
-=
-=
-"
 fixed
 "
 |
