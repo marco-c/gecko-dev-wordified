@@ -259,7 +259,11 @@ withNewTab
 gBrowser
 url
 :
-TESTROOT
+"
+about
+:
+blank
+"
 }
 async
 function
