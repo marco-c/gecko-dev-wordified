@@ -44767,6 +44767,12 @@ nsDNSPrefetch
 (
 mURI
 originAttributes
+nsIRequest
+:
+:
+GetTRRMode
+(
+)
 this
 mTimingEnabled
 )
