@@ -11521,6 +11521,16 @@ setter
 Atom
 (
 "
+shadow
+"
+"
+shadow
+"
+)
+    
+Atom
+(
+"
 shape
 "
 "
