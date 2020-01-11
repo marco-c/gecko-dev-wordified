@@ -34656,15 +34656,8 @@ true
 unwrappedPromise
 -
 >
-setFixedSlot
+setHandled
 (
-PromiseSlot_Flags
-Int32Value
-(
-flags
-|
-PROMISE_FLAG_HANDLED
-)
 )
 ;
 return

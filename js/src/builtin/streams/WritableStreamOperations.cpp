@@ -468,7 +468,7 @@ RejectUnwrappedPromiseWithError
 js
 :
 :
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 #
 include
 "
@@ -6460,7 +6460,7 @@ return
 false
 ;
 }
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 unwrappedClosedPromise

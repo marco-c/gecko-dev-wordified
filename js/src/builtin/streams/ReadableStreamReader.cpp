@@ -355,7 +355,7 @@ h
 js
 :
 :
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 #
 include
 "
@@ -1077,7 +1077,7 @@ PromiseIsHandled
 to
 true
 .
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 promise
@@ -1769,7 +1769,7 @@ PromiseIsHandled
 to
 true
 .
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 unwrappedClosedPromise

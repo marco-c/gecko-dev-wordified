@@ -502,7 +502,7 @@ UnwrappedPromiseWithUndefined
 js
 :
 :
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 #
 include
 "
@@ -2999,7 +2999,7 @@ closedPromise
 )
 )
 ;
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 closedPromise

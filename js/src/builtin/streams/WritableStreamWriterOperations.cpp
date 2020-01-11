@@ -409,7 +409,7 @@ ResolveUnwrappedPromiseWithUndefined
 js
 :
 :
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 #
 include
 "
@@ -1593,7 +1593,7 @@ PromiseIsHandled
 to
 true
 .
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 unwrappedPromise
