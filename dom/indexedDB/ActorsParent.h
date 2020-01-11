@@ -158,13 +158,6 @@ PBrowserParent
 .
 h
 "
-template
-<
-class
->
-struct
-already_AddRefed
-;
 class
 nsIPrincipal
 ;
@@ -255,7 +248,7 @@ RecvFlushPendingFileDeletions
 (
 )
 ;
-already_AddRefed
+RefPtr
 <
 mozilla
 :
