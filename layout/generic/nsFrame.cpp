@@ -8948,6 +8948,14 @@ mInScrollAnchorChain
 &
 &
 needAnchorSuppression
+&
+&
+StaticPrefs
+:
+:
+layout_css_scroll_anchoring_suppressions_enabled
+(
+)
 )
 {
 ScrollAnchorContainer
