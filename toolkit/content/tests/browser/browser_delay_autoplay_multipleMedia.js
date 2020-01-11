@@ -137,8 +137,6 @@ play
 (
 )
 ;
-content
-.
 setTimeout
 (
 (

@@ -166,8 +166,6 @@ from
 DOM
 tree
 .
-content
-.
 setTimeout
 (
 function

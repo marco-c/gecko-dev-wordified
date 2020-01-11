@@ -518,8 +518,6 @@ reject
 =
 >
 {
-content
-.
 setTimeout
 (
 (
