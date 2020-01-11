@@ -710,6 +710,16 @@ return
 mIdlePeriodState
 ;
 }
+bool
+HasIdleRunnables
+(
+const
+MutexAutoLock
+&
+aProofOfLock
+)
+const
+;
 size_t
 SizeOfExcludingThis
 (
