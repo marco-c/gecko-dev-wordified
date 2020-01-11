@@ -324,14 +324,6 @@ AutoSuppressNurseryCellAlloc
 /
 namespace
 gc
-typedef
-HashSet
-<
-Shape
-*
->
-ShapeSet
-;
 /
 *
 Detects
