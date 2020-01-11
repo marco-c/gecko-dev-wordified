@@ -2691,7 +2691,11 @@ aProtFlags
 HANDLE
 aTargetProcess
 =
-nullptr
+:
+:
+GetCurrentProcess
+(
+)
 )
 :
 mAddress
