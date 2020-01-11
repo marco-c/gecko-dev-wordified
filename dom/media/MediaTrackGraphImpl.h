@@ -858,7 +858,7 @@ aDriver
 *
 /
 bool
-RunByGraphDriver
+InDriverIteration
 (
 GraphDriver
 *
@@ -3773,7 +3773,7 @@ mDriver
 ThreadRunning
 (
 )
-RunByGraphDriver
+InDriverIteration
 (
 mDriver
 )

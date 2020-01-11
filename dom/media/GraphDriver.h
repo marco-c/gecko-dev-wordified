@@ -1962,12 +1962,13 @@ the
 current
 thread
 is
-driving
+currently
+iterating
 the
 MTG
 .
 bool
-OnGraphThread
+InIteration
 (
 )
 ;

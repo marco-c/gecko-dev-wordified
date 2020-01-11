@@ -20398,7 +20398,7 @@ bool
 MediaTrackGraphImpl
 :
 :
-RunByGraphDriver
+InDriverIteration
 (
 GraphDriver
 *
@@ -20421,7 +20421,7 @@ mGraphRunner
 mGraphRunner
 -
 >
-RunByGraphDriver
+InDriverIteration
 (
 aDriver
 )
