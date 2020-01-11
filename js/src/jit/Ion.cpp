@@ -10539,6 +10539,14 @@ logger
 TraceLogger_IonCompilation
 )
 ;
+cx
+-
+>
+check
+(
+script
+)
+;
 /
 /
 Make
