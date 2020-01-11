@@ -854,7 +854,9 @@ height
 ;
 margin
 -
-right
+inline
+-
+end
 :
 8px
 ;
@@ -912,7 +914,9 @@ checkbox
 {
 margin
 -
-right
+inline
+-
+end
 :
 5px
 ;
