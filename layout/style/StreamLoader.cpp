@@ -491,10 +491,6 @@ return
 rv
 ;
 }
-rv
-=
-NS_OK
-;
 /
 /
 BOM
