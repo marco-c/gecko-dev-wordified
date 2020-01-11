@@ -6113,10 +6113,6 @@ GetResult
 (
 )
 ;
-rv
-=
-NS_OK
-;
 switch
 (
 printDialogResult
