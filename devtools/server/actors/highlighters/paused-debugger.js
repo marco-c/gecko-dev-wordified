@@ -216,14 +216,6 @@ highlighterEnv
 ;
 this
 .
-showOverlayStepButtons
-=
-options
-.
-showOverlayStepButtons
-;
-this
-.
 resume
 =
 options
@@ -423,13 +415,6 @@ prefix
 }
 )
 ;
-if
-(
-this
-.
-showOverlayStepButtons
-)
-{
 createNode
 (
 window
@@ -595,7 +580,6 @@ prefix
 }
 )
 ;
-}
 return
 container
 ;

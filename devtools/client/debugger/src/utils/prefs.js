@@ -1915,7 +1915,7 @@ log
 points
 "
 ]
-showOverlayStepButtons
+showOverlay
 :
 [
 "
@@ -1923,10 +1923,6 @@ Bool
 "
 "
 overlay
--
-step
--
-buttons
 "
 ]
 inlinePreview

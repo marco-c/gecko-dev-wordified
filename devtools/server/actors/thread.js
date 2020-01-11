@@ -2719,13 +2719,6 @@ PausedDebuggerOverlay
 (
 env
 {
-showOverlayStepButtons
-:
-this
-.
-_options
-.
-showOverlayStepButtons
 resume
 :
 (
@@ -2783,6 +2776,13 @@ showOverlay
 {
 if
 (
+this
+.
+_options
+.
+shouldShowOverlay
+&
+&
 this
 .
 isPaused
