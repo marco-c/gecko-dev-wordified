@@ -1418,6 +1418,9 @@ urlbar
 .
 onResultPicked
 "
+inputHandling
+:
+true
 register
 :
 (
