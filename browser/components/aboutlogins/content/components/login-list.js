@@ -2254,6 +2254,12 @@ _applySortAndScrollToTop
 (
 )
 ;
+this
+.
+_selectFirstVisibleLogin
+(
+)
+;
 }
 /
 *
