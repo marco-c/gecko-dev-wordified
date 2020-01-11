@@ -7318,26 +7318,6 @@ the
 filesystem
 .
         
-#
-The
-root
-doesn
-'
-t
-get
-picked
-up
-by
-FileFinder
-.
-        
-yield
-'
-moz
-.
-build
-'
-        
 for
 path
 f
