@@ -10996,7 +10996,12 @@ SDP_NE_BITS_PER_WORD
 ;
 bmap
 =
+(
+(
+unsigned
+)
 SDP_NE_BIT_0
+)
 <
 <
 (
