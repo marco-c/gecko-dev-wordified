@@ -189,6 +189,11 @@ bool
 )
 MOZ_BC_FIELD
 (
+IsActive
+bool
+)
+MOZ_BC_FIELD
+(
 EmbedderPolicy
 nsILoadInfo
 :

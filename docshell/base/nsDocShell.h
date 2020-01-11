@@ -8759,11 +8759,6 @@ mIsOffScreenBrowser
 1
 ;
 bool
-mIsActive
-:
-1
-;
-bool
 mDisableMetaRefreshWhenInactive
 :
 1
