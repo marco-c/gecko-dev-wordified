@@ -1265,9 +1265,6 @@ false
 ParentProcessMessageManager
 :
 false
-ParentSHistory
-:
-false
 Path2D
 :
 false

@@ -152,9 +152,6 @@ the
 actual
 history
 storage
-in
-*
-ParentSHistory
 .
 *
 *
@@ -290,9 +287,6 @@ namespace
 dom
 {
 class
-ParentSHistory
-;
-class
 ChildSHistory
 :
 public
@@ -302,10 +296,6 @@ nsWrapperCache
 {
 public
 :
-friend
-class
-ParentSHistory
-;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
@@ -467,12 +457,6 @@ EvictLocalContentViewers
 nsISHistory
 *
 LegacySHistory
-(
-)
-;
-ParentSHistory
-*
-GetParentIfSameProcess
 (
 )
 ;
