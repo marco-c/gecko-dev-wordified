@@ -18664,7 +18664,6 @@ target
 =
 GetAPZCAtPoint
 (
-mRootNode
 aPoint
 &
 hitResult
@@ -20112,9 +20111,6 @@ APZCTreeManager
 :
 GetAPZCAtPoint
 (
-HitTestingTreeNode
-*
-aNode
 const
 ScreenPoint
 &
@@ -20173,7 +20169,7 @@ HitTestingTreeNode
 *
 root
 =
-aNode
+mRootNode
 ;
 std
 :
