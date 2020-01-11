@@ -105,11 +105,6 @@ const
 TelemetryEvents
 =
 {
-NO_ENROLLMENT_ID_MARKER
-:
-"
-__NO_ENROLLMENT_ID__
-"
 init
 (
 )
