@@ -702,6 +702,11 @@ setAwaitFixEnabled
 (
 true
 )
+.
+setWeakRefsEnabled
+(
+true
+)
 ;
 newGlobal
 =

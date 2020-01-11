@@ -268,6 +268,11 @@ setAwaitFixEnabled
 (
 true
 )
+.
+setWeakRefsEnabled
+(
+true
+)
 ;
 return
 JS_NewGlobalObject
