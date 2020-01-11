@@ -740,11 +740,6 @@ DB_TITLE_LENGTH_MAX
 =
 4096
 ;
-const
-SQLITE_MAX_VARIABLE_NUMBER
-=
-999
-;
 /
 /
 The
@@ -6366,7 +6361,11 @@ PlacesUtils
 chunkArray
 (
 children
-SQLITE_MAX_VARIABLE_NUMBER
+this
+.
+db
+.
+variableLimit
 -
 1
 )
