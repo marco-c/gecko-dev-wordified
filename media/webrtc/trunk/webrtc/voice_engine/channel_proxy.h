@@ -967,6 +967,14 @@ RtpPacketObserver
 observer
 )
 ;
+void
+SetRtcpEventObserver
+(
+RtcpEventObserver
+*
+observer
+)
+;
 private
 :
 Channel

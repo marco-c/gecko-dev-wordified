@@ -439,6 +439,9 @@ receive_statistics
 Transport
 *
 outgoing_transport
+RtcpEventObserver
+*
+rtcp_event_observer
 RtcpRttStats
 *
 rtt_stats
@@ -479,6 +482,12 @@ configuration
 outgoing_transport
 =
 outgoing_transport
+;
+configuration
+.
+event_callback
+=
+rtcp_event_observer
 ;
 configuration
 .
@@ -710,6 +719,10 @@ CreateRtpRtcpModule
 (
 rtp_receive_statistics_
 transport
+config
+-
+>
+rtcp_event_observer
 rtt_stats
 receive_stats_proxy
 packet_router
