@@ -115,13 +115,6 @@ h
 "
 #
 include
-"
-StreamTracks
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -159,8 +152,8 @@ public
 explicit
 AudioCaptureStream
 (
-TrackID
-aTrackId
+TrackRate
+aRate
 )
 ;
 virtual
@@ -207,9 +200,6 @@ override
 ;
 AudioMixer
 mMixer
-;
-TrackID
-mTrackId
 ;
 bool
 mStarted

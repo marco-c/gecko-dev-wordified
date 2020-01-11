@@ -120,7 +120,7 @@ h
 #
 include
 "
-StreamTracks
+PrincipalHandle
 .
 h
 "
@@ -535,10 +535,6 @@ SourceMediaStream
 *
 aSourceStream
 const
-TrackID
-&
-aTrackId
-const
 PrincipalHandle
 &
 aPrincipalHandle
@@ -664,10 +660,6 @@ Forget
 {
 }
 const
-TrackID
-mTrackId
-;
-const
 RefPtr
 <
 SourceMediaStream
@@ -725,9 +717,6 @@ double
 >
 &
 aFPS
-const
-TrackID
-aTrackId
 nsIPrincipal
 *
 aPrincipal

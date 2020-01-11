@@ -114,13 +114,6 @@ VideoSegment
 .
 h
 "
-#
-include
-"
-StreamTracks
-.
-h
-"
 namespace
 mozilla
 {

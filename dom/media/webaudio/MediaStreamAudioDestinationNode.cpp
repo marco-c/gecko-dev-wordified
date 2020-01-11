@@ -608,6 +608,10 @@ Graph
 >
 CreateTrackUnionStream
 (
+MediaSegment
+:
+:
+AUDIO
 )
 principal
 )
@@ -627,10 +631,6 @@ source
 -
 >
 mStream
-AudioNodeStream
-:
-:
-AUDIO_TRACK
 source
 )
 ;

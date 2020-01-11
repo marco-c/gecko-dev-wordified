@@ -441,7 +441,7 @@ SendLoopParametersToStream
 ;
 }
 void
-NotifyMainThreadStreamFinished
+NotifyMainThreadTrackEnded
 (
 )
 override
