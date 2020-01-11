@@ -145,7 +145,9 @@ include
 "
 mozilla
 /
-EventStateManager
+dom
+/
+UserActivation
 .
 h
 "
@@ -798,7 +800,7 @@ aOriginatingElement
 )
 mInitiatedFromUserInput
 (
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput

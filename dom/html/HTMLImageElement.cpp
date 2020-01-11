@@ -304,6 +304,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UserActivation
+.
+h
+"
+#
+include
+"
 nsAttrValueOrString
 .
 h
@@ -1985,7 +1996,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -2129,7 +2140,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -2196,7 +2207,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -2506,7 +2517,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -3067,7 +3078,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -3545,7 +3556,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -3730,7 +3741,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -4913,7 +4924,7 @@ interaction
 .
 mUseUrgentStartForChannel
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput

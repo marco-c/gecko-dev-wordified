@@ -522,6 +522,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+UserActivation
+.
+h
+"
+#
+include
+"
 nsAnimationManager
 .
 h
@@ -50886,7 +50897,7 @@ aEvent
 AutoHandlingUserInputStatePusher
 userInpStatePusher
 (
-EventStateManager
+UserActivation
 :
 :
 IsUserInteractionEvent

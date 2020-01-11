@@ -158,7 +158,9 @@ include
 "
 mozilla
 /
-EventStateManager
+dom
+/
+Selection
 .
 h
 "
@@ -169,7 +171,7 @@ mozilla
 /
 dom
 /
-Selection
+UserActivation
 .
 h
 "
@@ -503,7 +505,10 @@ eAutoDetect
 )
 mIsFromUserInput
 =
-EventStateManager
+dom
+:
+:
+UserActivation
 :
 :
 IsHandlingUserInput
