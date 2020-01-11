@@ -716,6 +716,16 @@ CompareBigIntResult
 \
 _
 (
+CompareBigIntNumberResult
+)
+\
+_
+(
+CompareNumberBigIntResult
+)
+\
+_
+(
 CompareObjectUndefinedNullResult
 )
 \
