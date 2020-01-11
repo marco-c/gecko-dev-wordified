@@ -895,6 +895,7 @@ ClassFlags
 Reading
 iterators
 .
+constexpr
 const_char_iterator
 BeginReading
 (
@@ -905,6 +906,7 @@ return
 mData
 ;
 }
+constexpr
 const_char_iterator
 EndReading
 (
@@ -1091,6 +1093,7 @@ null
 -
 terminated
 )
+constexpr
 const
 typename
 raw_type
@@ -1110,6 +1113,7 @@ return
 mData
 ;
 }
+constexpr
 size_type
 Length
 (
@@ -1120,6 +1124,7 @@ return
 mLength
 ;
 }
+constexpr
 DataFlags
 GetDataFlags
 (
@@ -1130,6 +1135,7 @@ return
 mDataFlags
 ;
 }
+constexpr
 bool
 IsEmpty
 (
@@ -1143,6 +1149,7 @@ mLength
 0
 ;
 }
+constexpr
 bool
 IsLiteral
 (
@@ -1162,6 +1169,7 @@ LITERAL
 )
 ;
 }
+constexpr
 bool
 IsVoid
 (
@@ -1181,6 +1189,7 @@ VOIDED
 )
 ;
 }
+constexpr
 bool
 IsTerminated
 (
@@ -1200,6 +1209,7 @@ TERMINATED
 )
 ;
 }
+constexpr
 char_type
 CharAt
 (
@@ -1228,6 +1238,7 @@ aIndex
 ]
 ;
 }
+constexpr
 char_type
 operator
 [
@@ -2535,6 +2546,7 @@ typename
 T
 >
 inline
+constexpr
 bool
 operator
 !
@@ -2584,6 +2596,7 @@ typename
 T
 >
 inline
+constexpr
 bool
 operator
 !
