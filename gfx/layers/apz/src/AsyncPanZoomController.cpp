@@ -32730,17 +32730,6 @@ IsAutoDirRootContentRTL
 )
 )
 ;
-mScrollMetadata
-.
-SetUsesContainerScrolling
-(
-aScrollMetadata
-.
-UsesContainerScrolling
-(
-)
-)
-;
 Metrics
 (
 )
