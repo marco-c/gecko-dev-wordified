@@ -588,14 +588,14 @@ SystemAllocPolicy
 SourceCompressionTaskVector
 ;
 typedef
-Vector
+mozilla
+:
+:
+LinkedList
 <
 GCParallelTask
-*
-0
-SystemAllocPolicy
 >
-GCParallelTaskVector
+GCParallelTaskList
 ;
 typedef
 Vector
@@ -852,7 +852,7 @@ done
 in
 parallel
 .
-GCParallelTaskVector
+GCParallelTaskList
 gcParallelWorklist_
 ;
 /
@@ -1461,7 +1461,7 @@ return
 compressionFinishedList_
 ;
 }
-GCParallelTaskVector
+GCParallelTaskList
 &
 gcParallelWorklist
 (
