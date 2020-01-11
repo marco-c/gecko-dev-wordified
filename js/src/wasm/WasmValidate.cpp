@@ -9353,12 +9353,7 @@ if
 (
 numResults
 >
-env
--
->
-funcMaxResults
-(
-)
+MaxResults
 )
 {
 return
