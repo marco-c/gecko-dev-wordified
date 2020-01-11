@@ -53,10 +53,6 @@ protocol
 import
 Protocol
 BaseProtocolPart
-import
-webdriver
-as
-client
 here
 =
 os
@@ -4614,6 +4610,12 @@ implementation
 "
 "
     
+unimplemented_exc
+=
+(
+NotImplementedError
+)
+    
 def
 __init__
 (
@@ -5016,12 +5018,9 @@ payload
 )
         
 except
-(
-NotImplementedError
-client
+self
 .
-UnknownCommandException
-)
+unimplemented_exc
 :
             
 self
