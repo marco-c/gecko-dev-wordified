@@ -801,7 +801,6 @@ alias
     
 return
 worker_config
-memoize
 def
 worker_type_implementation
 (
@@ -877,7 +876,6 @@ get
 os
 '
 )
-memoize
 def
 get_worker_type
 (
