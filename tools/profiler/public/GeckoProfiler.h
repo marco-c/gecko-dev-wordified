@@ -6592,6 +6592,11 @@ int64_t
 aSize
 )
 ;
+bool
+profiler_could_be_locked_on_current_thread
+(
+)
+;
 /
 /
 Insert

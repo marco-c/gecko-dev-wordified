@@ -1318,6 +1318,11 @@ tlsIsBlocked
 get
 (
 )
+|
+|
+profiler_could_be_locked_on_current_thread
+(
+)
 ;
 }
 public
