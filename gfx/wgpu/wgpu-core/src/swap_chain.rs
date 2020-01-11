@@ -575,7 +575,6 @@ num_frames
 u32
 features
 :
-&
 Features
 )
 -
@@ -617,7 +616,6 @@ map_texture_format
 self
 .
 format
-*
 features
 )
 num_frames
@@ -1082,7 +1080,6 @@ to_hal
 sc
 .
 num_frames
-&
 device
 .
 features

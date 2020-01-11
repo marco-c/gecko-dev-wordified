@@ -966,6 +966,7 @@ empty
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1046,8 +1047,6 @@ PhantomData
 )
 )
 ;
-unsafe
-{
 callback
 (
 id
@@ -1064,7 +1063,6 @@ ERROR
 )
 userdata
 )
-}
 ;
 }
 #
@@ -1279,6 +1277,7 @@ PhantomData
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1317,6 +1316,12 @@ id
 :
 BufferId
 {
+let
+(
+id
+ptr
+)
+=
 gfx_select
 !
 (
@@ -1329,10 +1334,16 @@ device_create_buffer_mapped
 (
 device_id
 desc
-mapped_ptr_out
 PhantomData
 )
 )
+;
+*
+mapped_ptr_out
+=
+ptr
+;
+id
 }
 #
 [
@@ -1973,6 +1984,7 @@ device_id
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -2002,8 +2014,6 @@ usize
 let
 command_buffer_ids
 =
-unsafe
-{
 slice
 :
 :
@@ -2012,7 +2022,6 @@ from_raw_parts
 command_buffers
 command_buffers_length
 )
-}
 ;
 gfx_select
 !

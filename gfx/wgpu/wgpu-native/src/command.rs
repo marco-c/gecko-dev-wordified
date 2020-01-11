@@ -500,6 +500,7 @@ pass_id
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -544,8 +545,6 @@ offsets_length
 =
 0
 {
-unsafe
-{
 slice
 :
 :
@@ -554,7 +553,6 @@ from_raw_parts
 offsets
 offsets_length
 )
-}
 }
 else
 {
@@ -717,6 +715,7 @@ offset
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -757,8 +756,6 @@ usize
 let
 buffers
 =
-unsafe
-{
 slice
 :
 :
@@ -767,13 +764,10 @@ from_raw_parts
 buffers
 length
 )
-}
 ;
 let
 offsets
 =
-unsafe
-{
 slice
 :
 :
@@ -782,7 +776,6 @@ from_raw_parts
 offsets
 length
 )
-}
 ;
 gfx_select
 !
@@ -1374,6 +1367,7 @@ pass_id
 no_mangle
 ]
 pub
+unsafe
 extern
 "
 C
@@ -1418,8 +1412,6 @@ offsets_length
 =
 0
 {
-unsafe
-{
 slice
 :
 :
@@ -1428,7 +1420,6 @@ from_raw_parts
 offsets
 offsets_length
 )
-}
 }
 else
 {

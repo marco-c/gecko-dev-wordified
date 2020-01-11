@@ -1265,8 +1265,10 @@ is_valid
 )
 )
 .
-unwrap_or
+unwrap_or_else
 (
+|
+|
 self
 .
 entries
