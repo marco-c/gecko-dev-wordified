@@ -639,6 +639,7 @@ setupGetUserMediaTestPrefs
 (
 )
 {
+let
 prefRequests
 =
 {

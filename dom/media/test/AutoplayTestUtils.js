@@ -1,3 +1,15 @@
+/
+*
+import
+-
+globals
+-
+from
+manifest
+.
+js
+*
+/
 function
 playAndPostResult
 (
