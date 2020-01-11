@@ -73,6 +73,13 @@ h
 #
 include
 <
+string
+.
+h
+>
+#
+include
+<
 jni
 .
 h
@@ -103,7 +110,7 @@ h
 #
 include
 "
-ElfLoader
+Linker
 .
 h
 "

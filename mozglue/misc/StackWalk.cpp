@@ -203,7 +203,7 @@ MOZ_LINKER
 #
 include
 "
-ElfLoader
+Linker
 .
 h
 "
