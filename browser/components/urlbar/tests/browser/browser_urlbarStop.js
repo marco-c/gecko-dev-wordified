@@ -295,7 +295,6 @@ url
 gBrowser
 .
 selectedBrowser
-false
 )
 ;
 /
