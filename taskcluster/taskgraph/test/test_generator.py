@@ -695,6 +695,16 @@ try_task_config
 :
 {
 }
+            
+'
+tasks_for
+'
+:
+'
+hg
+-
+push
+'
         
 }
 )
