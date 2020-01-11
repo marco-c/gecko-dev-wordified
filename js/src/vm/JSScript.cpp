@@ -37870,17 +37870,6 @@ lazy
 /
 function
 .
-MOZ_ASSERT
-(
-!
-lazy
--
->
-hasEnclosingScope
-(
-)
-)
-;
 if
 (
 enclosingScope
