@@ -1126,6 +1126,12 @@ UseWebRender
 (
 )
 ;
+static
+bool
+CanMigrateMacGPUs
+(
+)
+;
 /
 *
 *
