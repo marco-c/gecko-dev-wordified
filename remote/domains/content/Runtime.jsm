@@ -1589,6 +1589,16 @@ isolated
 "
 *
 *
+return
+{
+number
+}
+ID
+of
+created
+context
+*
+*
 /
 _onContextCreated
 (
@@ -1714,6 +1724,7 @@ isDefault
 )
 {
 return
+null
 ;
 }
 }
@@ -1811,6 +1822,11 @@ contextType
 )
 ;
 }
+return
+context
+.
+id
+;
 }
 /
 *
