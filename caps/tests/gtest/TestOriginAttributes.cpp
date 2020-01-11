@@ -203,11 +203,6 @@ fpd
 )
 )
 ;
-TestSuffix
-(
-attrs
-)
-;
 }
 TEST
 (
