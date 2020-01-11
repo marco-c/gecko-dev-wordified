@@ -2954,7 +2954,7 @@ return
 unicode
 :
 :
-IsEastAsianWidthFWH
+IsEastAsianWidthFHWexcludingEmoji
 (
 u
 )
