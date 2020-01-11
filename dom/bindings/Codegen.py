@@ -35772,17 +35772,13 @@ isClamp
 =
 type
 .
-hasClamp
-(
-)
+clamp
     
 isEnforceRange
 =
 type
 .
-hasEnforceRange
-(
-)
+enforceRange
     
 #
 If
