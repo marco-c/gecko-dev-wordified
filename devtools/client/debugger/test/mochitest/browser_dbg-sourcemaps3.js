@@ -410,6 +410,9 @@ binaryLookup
 :
 o
 (
+n
+e
+r
 )
 "
 )
@@ -426,6 +429,8 @@ comparer
 :
 t
 (
+n
+e
 )
 "
 )

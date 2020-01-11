@@ -1489,6 +1489,7 @@ forOf
 "
 doThing
 (
+arg
 )
 "
 "
@@ -2675,6 +2676,7 @@ root
 "
 fn
 (
+arg
 )
 "
 "
@@ -2771,6 +2773,7 @@ away
 "
 arrow
 (
+argArrow
 )
 "
 "
@@ -2802,6 +2805,7 @@ root
 "
 fn
 (
+arg
 )
 "
 "
@@ -4025,6 +4029,7 @@ Block
 "
 inner
 (
+p2
 )
 "
 "
@@ -4208,6 +4213,7 @@ Body
 "
 arrow
 (
+p3
 )
 "
 "
@@ -4228,6 +4234,7 @@ Expression
 "
 inner
 (
+p2
 )
 "
 "
@@ -4260,6 +4267,7 @@ away
 "
 inner
 (
+p2
 )
 "
 "
@@ -4279,6 +4287,7 @@ root
 "
 decl
 (
+p1
 )
 "
 "
@@ -5337,6 +5346,7 @@ AppComponent
 "
 decoratorFactory
 (
+opts
 )
 "
 rollupOptimized
@@ -5386,6 +5396,7 @@ Foo
 "
 fn
 (
+arg
 )
 "
 /
@@ -6046,6 +6057,7 @@ callback
 "
 fn
 (
+inner
 )
 "
 [
