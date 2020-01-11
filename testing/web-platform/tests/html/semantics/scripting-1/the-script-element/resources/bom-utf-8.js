@@ -8,6 +8,8 @@ UTF
 8
 BOM
 .
+window
+.
 executed_utf8_bom
 =
 '
