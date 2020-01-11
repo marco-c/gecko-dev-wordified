@@ -4511,6 +4511,16 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+script
+-
+>
+hasBytecode
+(
+)
+)
+;
 /
 /
 Save
