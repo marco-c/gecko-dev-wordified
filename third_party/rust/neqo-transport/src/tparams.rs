@@ -213,7 +213,7 @@ Implement
 }
 pub
 mod
-consts
+tp_constants
 {
 pub
 type
@@ -310,7 +310,7 @@ use
 self
 :
 :
-consts
+tp_constants
 :
 :
 *
