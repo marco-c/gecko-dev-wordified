@@ -1364,12 +1364,6 @@ inline
 start
 "
 "
-rotate
-"
-"
-scale
-"
-"
 -
 moz
 -
@@ -1406,9 +1400,6 @@ transition
 timing
 -
 function
-"
-"
-translate
 "
 "
 -
@@ -1733,6 +1724,12 @@ perspective
 origin
 "
 "
+rotate
+"
+"
+scale
+"
+"
 shape
 -
 outside
@@ -1749,6 +1746,9 @@ transform
 transform
 -
 origin
+"
+"
+translate
 "
 "
 -
