@@ -2198,7 +2198,7 @@ MediaCacheStream
 aOriginal
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 OwnerThread
 (
@@ -2223,7 +2223,7 @@ be
 called
 (
 and
-return
+resolve
 )
 before
 the
@@ -2238,7 +2238,10 @@ MediaCacheStream
 is
 deleted
 .
-void
+RefPtr
+<
+GenericPromise
+>
 Close
 (
 )
