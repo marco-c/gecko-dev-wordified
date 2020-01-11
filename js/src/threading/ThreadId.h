@@ -120,13 +120,6 @@ threading_ThreadId_h
 #
 define
 threading_ThreadId_h
-#
-include
-"
-jsutil
-.
-h
-"
 namespace
 js
 {

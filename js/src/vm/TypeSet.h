@@ -196,16 +196,6 @@ JS_PUBLIC_API
 #
 include
 "
-jsutil
-.
-h
-"
-/
-/
-JS_CRASH_DIAGNOSTICS
-#
-include
-"
 jit
 /
 IonTypes

@@ -168,6 +168,9 @@ Compartment
 .
 h
 "
+struct
+JSRuntime
+;
 namespace
 JS
 {

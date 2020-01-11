@@ -210,13 +210,6 @@ XP_WIN
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 js
 /
 Date

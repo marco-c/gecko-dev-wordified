@@ -124,13 +124,6 @@ h
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 threading
 /
 LockGuard
@@ -155,6 +148,10 @@ ThreadId
 .
 h
 "
+struct
+JS_PUBLIC_API
+JSContext
+;
 namespace
 JS
 {

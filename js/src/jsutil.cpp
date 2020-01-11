@@ -120,13 +120,6 @@ functions
 #
 include
 "
-jsutil
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions
