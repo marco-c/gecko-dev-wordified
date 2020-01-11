@@ -4464,6 +4464,11 @@ GetPrimaryFrame
 )
 ;
 }
+/
+*
+static
+*
+/
 bool
 nsNativeTheme
 :

@@ -939,6 +939,7 @@ aFrame
 /
 /
 scrollbar
+static
 bool
 IsDarkBackground
 (
