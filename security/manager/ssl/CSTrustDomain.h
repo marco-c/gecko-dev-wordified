@@ -334,6 +334,14 @@ mozilla
 pkix
 :
 :
+Time
+validityPeriodBeginning
+mozilla
+:
+:
+pkix
+:
+:
 Duration
 validityDuration
 /
