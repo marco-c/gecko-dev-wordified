@@ -367,7 +367,9 @@ let
 computedStyle
 =
 await
-inspector
+highlightedNode
+.
+inspectorFront
 .
 pageStyle
 .
@@ -480,7 +482,9 @@ onRuleViewChanged
 computedStyle
 =
 await
-inspector
+highlightedNode
+.
+inspectorFront
 .
 pageStyle
 .

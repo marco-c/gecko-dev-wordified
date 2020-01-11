@@ -221,7 +221,9 @@ const
 computedStyle
 =
 await
-inspector
+highlightedNode
+.
+inspectorFront
 .
 pageStyle
 .
@@ -1972,7 +1974,9 @@ const
 computedStyle
 =
 await
-inspector
+highlightedNode
+.
+inspectorFront
 .
 pageStyle
 .
