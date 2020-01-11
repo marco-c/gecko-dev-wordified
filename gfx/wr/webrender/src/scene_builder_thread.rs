@@ -4278,17 +4278,14 @@ have_resources_updates
 }
 }
 else
-{
 if
 let
-&
 Some
 (
 ref
 hooks
 )
 =
-&
 self
 .
 hooks
@@ -4299,7 +4296,6 @@ post_empty_scene_build
 (
 )
 ;
-}
 }
 }
 /

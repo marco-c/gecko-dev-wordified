@@ -3019,8 +3019,8 @@ hit_tester
 is_some
 (
 )
-{
-if
+&
+&
 self
 .
 scroll_nearest_scrolling_ancestor
@@ -3041,7 +3041,6 @@ frame_is_valid
 =
 false
 ;
-}
 }
 return
 DocumentOps
