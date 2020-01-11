@@ -504,19 +504,13 @@ live
 across
 GC
 call
-(
 '
-?
-)
 (
 .
 *
 ?
 )
-(
 '
-?
-)
 at
 (
 \
@@ -539,30 +533,13 @@ if
 m
 :
                 
-#
-Function
-names
-are
-surrounded
-by
-single
-quotes
-.
-Field
-calls
-                
-#
-are
-unquoted
-.
-                
 current_gcFunction
 =
 m
 .
 group
 (
-2
+1
 )
                 
 hazardousGCFunctions
@@ -608,7 +585,7 @@ m
 .
 group
 (
-4
+2
 )
                 
 continue
