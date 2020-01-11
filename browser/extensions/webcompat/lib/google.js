@@ -61,6 +61,12 @@ use
 strict
 "
 ;
+/
+*
+globals
+module
+*
+/
 const
 GOOGLE_TLDS
 =
@@ -867,3 +873,9 @@ path
 )
 ;
 }
+module
+.
+exports
+=
+getMatchPatternsForGoogleURL
+;
