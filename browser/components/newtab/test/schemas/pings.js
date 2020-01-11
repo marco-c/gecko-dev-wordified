@@ -703,6 +703,9 @@ screenshot
 "
 no_image
 "
+"
+custom_screenshot
+"
 ]
 )
 card_type
@@ -726,6 +729,9 @@ pocket
 "
 "
 search
+"
+"
+spoc
 "
 ]
 )
