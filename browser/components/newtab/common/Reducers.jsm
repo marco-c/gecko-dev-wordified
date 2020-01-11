@@ -164,6 +164,17 @@ yet
 initialized
 :
 false
+/
+/
+Are
+we
+in
+permanentPrivateBrowsing
+mode
+?
+permanentPrivateBrowsing
+:
+false
 }
 ASRouter
 :
