@@ -2673,6 +2673,10 @@ aInsertion
 FrameConstructionItemList
 &
 aItems
+uint32_t
+aFlags
+=
+0
 )
 ;
 /
@@ -2765,6 +2769,10 @@ aParentFrame
 FrameConstructionItemList
 &
 aItems
+uint32_t
+aFlags
+=
+0
 )
 ;
 /
