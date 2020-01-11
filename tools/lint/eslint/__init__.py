@@ -635,9 +635,13 @@ environ
 stream
 =
 None
+                          
 shell
 =
 shell
+universal_newlines
+=
+True
 )
     
 proc
