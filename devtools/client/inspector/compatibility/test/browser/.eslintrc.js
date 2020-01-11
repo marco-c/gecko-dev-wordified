@@ -39,6 +39,9 @@ extends
 .
 /
 .
+.
+/
+.
 eslintrc
 .
 mochitests
