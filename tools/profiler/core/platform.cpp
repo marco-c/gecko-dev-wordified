@@ -33814,7 +33814,7 @@ IsLockedOnCurrentThread
 )
 ;
 }
-void
+bool
 profiler_add_native_allocation_marker
 (
 const
