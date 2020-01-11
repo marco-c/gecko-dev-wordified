@@ -276,6 +276,17 @@ compositor
 \
 _
 (
+WEBRENDER_PARTIAL
+Feature
+"
+WebRender
+partial
+present
+"
+)
+\
+_
+(
 OMTP
 Feature
 "
