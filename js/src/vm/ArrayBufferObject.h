@@ -4496,6 +4496,9 @@ including
 the
 header
 page
+uint32_t
+length_
+;
 protected
 :
 WasmArrayRawBuffer
@@ -4515,6 +4518,8 @@ uint32_t
 maxSize
 size_t
 mappedSize
+uint32_t
+length
 )
 :
 maxSize_
@@ -4524,6 +4529,10 @@ maxSize
 mappedSize_
 (
 mappedSize
+)
+length_
+(
+length
 )
 {
 MOZ_ASSERT
@@ -4648,6 +4657,16 @@ const
 {
 return
 maxSize_
+;
+}
+uint32_t
+byteLength
+(
+)
+const
+{
+return
+length_
 ;
 }
 MOZ_MUST_USE
