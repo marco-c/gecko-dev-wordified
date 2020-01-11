@@ -48,6 +48,9 @@ setupPolicyEngineWithJson
 policies
 :
 {
+DummyPolicy
+:
+true
 }
 }
 )
