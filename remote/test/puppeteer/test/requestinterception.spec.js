@@ -1789,7 +1789,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3405,7 +3405,7 @@ FAILED
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3544,7 +3544,7 @@ dataURL
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3719,7 +3719,7 @@ dataURL
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4085,7 +4085,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4263,7 +4263,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4531,7 +4531,7 @@ enabled
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4910,7 +4910,7 @@ bar
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -5064,7 +5064,7 @@ yellow
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -5186,7 +5186,7 @@ POST
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -5322,7 +5322,7 @@ doggo
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

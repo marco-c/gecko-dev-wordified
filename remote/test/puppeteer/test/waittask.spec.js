@@ -1262,7 +1262,7 @@ watchdog
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2393,7 +2393,7 @@ div
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4494,7 +4494,7 @@ anything
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -5059,7 +5059,7 @@ detached
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 hidden

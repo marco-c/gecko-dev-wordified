@@ -361,7 +361,7 @@ png
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -899,7 +899,7 @@ close
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -973,7 +973,7 @@ png
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

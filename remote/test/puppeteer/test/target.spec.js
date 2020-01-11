@@ -1491,7 +1491,7 @@ EMPTY_PAGE
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

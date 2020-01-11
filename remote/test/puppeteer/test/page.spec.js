@@ -4418,7 +4418,7 @@ warn
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4757,7 +4757,7 @@ puppeteer
 issues
 /
 3865
-it_fails_ffox
+it
 (
 '
 should
@@ -8100,7 +8100,7 @@ expectedOutput
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -8209,7 +8209,7 @@ TimeoutError
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -8322,7 +8322,7 @@ TimeoutError
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -12313,7 +12313,7 @@ blue
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -13479,7 +13479,7 @@ puppeteer
 issues
 /
 3327
-it_fails_ffox
+it
 (
 '
 should

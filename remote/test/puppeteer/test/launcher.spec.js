@@ -2642,7 +2642,7 @@ close
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2719,7 +2719,7 @@ close
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
