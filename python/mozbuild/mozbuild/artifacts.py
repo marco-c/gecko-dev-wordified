@@ -3982,6 +3982,12 @@ dylib
 '
         
 '
+minidump
+-
+analyzer
+'
+        
+'
 pingsender
 '
         
@@ -4342,31 +4348,6 @@ c
 paths_keep_path
 =
 [
-                
-(
-'
-Contents
-/
-MacOS
-'
-[
-                    
-'
-crashreporter
-.
-app
-/
-Contents
-/
-MacOS
-/
-minidump
--
-analyzer
-'
-                
-]
-)
                 
 (
 '
