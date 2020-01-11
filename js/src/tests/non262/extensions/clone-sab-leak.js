@@ -240,6 +240,15 @@ y
 serialize
 (
 sab
+[
+]
+{
+SharedArrayBuffer
+:
+'
+allow
+'
+}
 )
 /
 /

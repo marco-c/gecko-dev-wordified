@@ -144,6 +144,15 @@ y
 serialize
 (
 x
+[
+]
+{
+SharedArrayBuffer
+:
+'
+allow
+'
+}
 )
 ;
 x
