@@ -1251,7 +1251,7 @@ Extension_Signing
 ;
 /
 /
-Disable
+Enable
 extensionStorage
 storage
 actor
@@ -1268,7 +1268,7 @@ extensionStorage
 .
 enabled
 "
-false
+true
 )
 ;
 /
