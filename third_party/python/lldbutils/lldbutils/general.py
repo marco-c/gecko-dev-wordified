@@ -4,6 +4,10 @@ from
 lldbutils
 import
 utils
+from
+__future__
+import
+print_function
 def
 summarize_string
 (
@@ -427,12 +431,14 @@ Fail
 :
         
 print
+(
 "
 could
 not
 evaluate
 expression
 "
+)
         
 return
     
@@ -492,12 +498,14 @@ Fail
 :
         
 print
+(
 "
 not
 a
 refcounted
 object
 "
+)
         
 return
     
@@ -527,6 +535,7 @@ nsAutoRefCnt
 :
         
 print
+(
 field
 .
 GetChildMemberWithName
@@ -540,6 +549,7 @@ GetValueAsUnsigned
 (
 0
 )
+)
     
 elif
 refcnt_type
@@ -551,6 +561,7 @@ nsCycleCollectingAutoRefCnt
 :
         
 print
+(
 field
 .
 GetChildMemberWithName
@@ -567,6 +578,7 @@ GetValueAsUnsigned
 >
 >
 2
+)
     
 elif
 refcnt_type
@@ -581,6 +593,7 @@ ThreadSafeAutoRefCnt
 :
         
 print
+(
 field
 .
 GetChildMemberWithName
@@ -600,6 +613,7 @@ mValue
 GetValueAsUnsigned
 (
 0
+)
 )
     
 elif
@@ -621,11 +635,13 @@ RefCounted
 object
         
 print
+(
 field
 .
 GetValueAsUnsigned
 (
 0
+)
 )
     
 elif
@@ -651,6 +667,7 @@ RefCounted
 object
         
 print
+(
 field
 .
 GetChildMemberWithName
@@ -664,11 +681,13 @@ GetValueAsUnsigned
 (
 0
 )
+)
     
 else
 :
         
 print
+(
 "
 unknown
 mRefCnt
@@ -676,6 +695,7 @@ type
 "
 +
 refcnt_type
+)
 #
 Used
 to
@@ -752,6 +772,7 @@ command
 :
         
 print
+(
 '
 Usage
 :
@@ -761,6 +782,7 @@ your_function
 args
 )
 '
+)
         
 return
     
@@ -818,6 +840,7 @@ symbols
 :
         
 print
+(
 '
 Could
 not
@@ -836,6 +859,7 @@ s
 '
 %
 funcname
+)
         
 return
     
