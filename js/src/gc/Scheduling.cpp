@@ -312,10 +312,7 @@ GCMinNurseryBytes
 )
 gcMaxNurseryBytes_
 (
-JS
-:
-:
-DefaultNurseryMaxBytes
+0
 )
 gcZoneAllocThresholdBase_
 (
@@ -1447,7 +1444,7 @@ gcMaxNurseryBytes_
 JS
 :
 :
-DefaultNurseryMaxBytes
+DefaultNurseryBytes
 ;
 break
 ;

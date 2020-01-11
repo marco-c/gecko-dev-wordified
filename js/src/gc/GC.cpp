@@ -8493,6 +8493,8 @@ init
 (
 uint32_t
 maxbytes
+uint32_t
+maxNurseryBytes
 )
 {
 MOZ_ASSERT
@@ -8517,6 +8519,18 @@ setParameter
 (
 JSGC_MAX_BYTES
 maxbytes
+lock
+)
+)
+;
+MOZ_ALWAYS_TRUE
+(
+tunables
+.
+setParameter
+(
+JSGC_MAX_NURSERY_BYTES
+maxNurseryBytes
 lock
 )
 )
