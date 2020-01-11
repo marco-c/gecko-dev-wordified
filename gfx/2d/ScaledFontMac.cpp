@@ -1309,7 +1309,10 @@ aFont
 .
 setHinting
 (
-kNo_SkFontHinting
+SkFontHinting
+:
+:
+kNone
 )
 ;
 }
