@@ -216,6 +216,8 @@ if
 (
 window
 .
+document
+.
 fullscreen
 )
 {
