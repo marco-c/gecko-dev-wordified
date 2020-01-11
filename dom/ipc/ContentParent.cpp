@@ -7087,6 +7087,9 @@ if
 rdd
 )
 {
+bool
+rddOpened
+=
 rdd
 -
 >
@@ -7094,7 +7097,11 @@ LaunchRDDProcess
 (
 )
 ;
-bool
+if
+(
+rddOpened
+)
+{
 rddOpened
 =
 rdd
@@ -7108,6 +7115,7 @@ OtherPid
 aEndpoint
 )
 ;
+}
 if
 (
 NS_WARN_IF

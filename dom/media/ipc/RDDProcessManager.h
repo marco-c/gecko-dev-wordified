@@ -239,7 +239,7 @@ RDD
 process
 asynchronously
 .
-void
+bool
 LaunchRDDProcess
 (
 )
