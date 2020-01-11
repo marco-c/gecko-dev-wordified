@@ -9625,18 +9625,6 @@ nsIWebProgressListener
 >
 printProgressListener
 ;
-nsCOMPtr
-<
-nsIWebBrowserPrint
->
-wbp
-(
-do_QueryInterface
-(
-mDocViewerPrint
-)
-)
-;
 nsresult
 rv
 =
@@ -9646,7 +9634,6 @@ printPromptService
 ShowPrintProgressDialog
 (
 domWin
-wbp
 printData
 -
 >
