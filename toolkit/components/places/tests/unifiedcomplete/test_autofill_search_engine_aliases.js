@@ -280,9 +280,7 @@ TEST_ENGINE_ALIAS
 let
 completedURL
 =
-PlacesUtils
-.
-mozActionURI
+makeActionURI
 (
 "
 searchengine
@@ -303,6 +301,8 @@ searchQuery
 "
 }
 )
+.
+spec
 ;
 await
 check_autocomplete
@@ -516,9 +516,7 @@ alias
 let
 completedURL
 =
-PlacesUtils
-.
-mozActionURI
+makeActionURI
 (
 "
 searchengine
@@ -537,6 +535,8 @@ searchQuery
 "
 }
 )
+.
+spec
 ;
 await
 check_autocomplete
