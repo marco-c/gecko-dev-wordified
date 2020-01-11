@@ -910,7 +910,7 @@ SharedArrayBuffer
 REAL_IF_INTL
 (
 Intl
-InitIntlClass
+InitViaClassSpec
 CLASP
 (
 Intl
