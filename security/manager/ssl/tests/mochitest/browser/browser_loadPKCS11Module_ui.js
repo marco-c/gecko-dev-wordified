@@ -668,7 +668,7 @@ content
 /
 load_device
 .
-xul
+xhtml
 "
 "
 "

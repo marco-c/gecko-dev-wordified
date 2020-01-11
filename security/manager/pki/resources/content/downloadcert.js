@@ -84,7 +84,7 @@ functionality
 of
 downloadcert
 .
-xul
+xhtml
 :
 a
 dialog

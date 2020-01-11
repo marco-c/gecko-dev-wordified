@@ -2095,7 +2095,7 @@ open
 "
 load_device
 .
-xul
+xhtml
 "
 "
 loaddevice
@@ -2301,7 +2301,7 @@ openDialog
 "
 changepassword
 .
-xul
+xhtml
 "
 "
 "

@@ -94,7 +94,7 @@ functionality
 of
 load_device
 .
-xul
+xhtml
 :
 a
 dialog
