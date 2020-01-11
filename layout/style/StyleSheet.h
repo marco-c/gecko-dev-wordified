@@ -251,9 +251,6 @@ class
 nsIPrincipal
 ;
 struct
-nsLayoutStylesheetCacheShm
-;
-struct
 RawServoSharedMemoryBuilder
 ;
 class
