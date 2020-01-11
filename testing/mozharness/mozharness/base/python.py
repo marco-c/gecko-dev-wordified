@@ -3840,11 +3840,11 @@ register_virtualenv_module
 psutil
 >
 =
+5
+.
+6
+.
 3
-.
-1
-.
-1
 '
 method
 =
