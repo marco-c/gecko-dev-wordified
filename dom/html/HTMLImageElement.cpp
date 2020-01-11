@@ -598,6 +598,7 @@ image
 data
 class
 ImageLoadTask
+final
 :
 public
 MicroTaskRunnable
@@ -648,7 +649,6 @@ BlockOnload
 )
 ;
 }
-virtual
 void
 Run
 (
@@ -703,7 +703,6 @@ false
 )
 ;
 }
-virtual
 bool
 Suppressed
 (
@@ -5237,9 +5236,6 @@ LoadingEnabled
 |
 |
 !
-this
--
->
 OwnerDoc
 (
 )
