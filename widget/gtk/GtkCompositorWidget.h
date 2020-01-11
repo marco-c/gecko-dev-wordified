@@ -350,15 +350,6 @@ GetEGLNativeWindow
 (
 )
 ;
-void
-SetEGLNativeWindowSize
-(
-const
-LayoutDeviceIntSize
-&
-aEGLWindowSize
-)
-;
 /
 /
 PlatformCompositorWidgetDelegate
