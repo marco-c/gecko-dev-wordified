@@ -1015,7 +1015,7 @@ gtests
 static
 *
 /
-FilenameType
+FilenameTypeAndDetails
 nsContentSecurityUtils
 :
 :
@@ -1250,7 +1250,7 @@ chrome
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kChromeURI
 Some
@@ -1278,7 +1278,7 @@ resource
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kResourceURI
 Some
@@ -1315,7 +1315,7 @@ just
 report
 .
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kOtherWorker
 Nothing
@@ -1364,7 +1364,7 @@ rv
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kRegexFailure
 Nothing
@@ -1425,7 +1425,7 @@ extensions
 )
 ;
 return
-FilenameType
+FilenameTypeAndDetails
 (
 type
 Some
@@ -1467,7 +1467,7 @@ rv
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kRegexFailure
 Nothing
@@ -1482,7 +1482,7 @@ regexMatch
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kSingleString
 Some
@@ -1522,7 +1522,7 @@ rv
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kRegexFailure
 Nothing
@@ -1537,7 +1537,7 @@ regexMatch
 )
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kSuspectedUserChromeJS
 Nothing
@@ -1697,7 +1697,7 @@ strSanitizedPath
 ;
 }
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kSanitizedWindowsURL
 Some
@@ -1710,7 +1710,7 @@ sanitizedPathAndScheme
 else
 {
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kSanitizedWindowsPath
 Some
@@ -1724,7 +1724,7 @@ strSanitizedPath
 #
 endif
 return
-FilenameType
+FilenameTypeAndDetails
 (
 kOther
 Nothing
@@ -3266,8 +3266,8 @@ EventID
 :
 Security_Evalusage_Parentprocess
 ;
-FilenameType
-fileNameType
+FilenameTypeAndDetails
+fileNameTypeAndDetails
 =
 FilenameToEvalType
 (
@@ -3288,7 +3288,7 @@ extra
 ;
 if
 (
-fileNameType
+fileNameTypeAndDetails
 .
 second
 (
@@ -3320,7 +3320,7 @@ fileinfo
 )
 NS_ConvertUTF16toUTF8
 (
-fileNameType
+fileNameTypeAndDetails
 .
 second
 (
@@ -3385,7 +3385,7 @@ mozilla
 :
 Some
 (
-fileNameType
+fileNameTypeAndDetails
 .
 first
 (
