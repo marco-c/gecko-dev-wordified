@@ -228,7 +228,7 @@ of
 mGraph
 .
 Hands
-aStateEnd
+state
 over
 to
 mThread
@@ -246,6 +246,8 @@ OneIteration
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -351,6 +353,9 @@ IterationState
 GraphTime
 mStateEnd
 ;
+GraphTime
+mIterationEnd
+;
 AudioMixer
 *
 MOZ_NON_OWNING_REF
@@ -362,6 +367,8 @@ IterationState
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -370,6 +377,10 @@ aMixer
 mStateEnd
 (
 aStateEnd
+)
+mIterationEnd
+(
+aIterationEnd
 )
 mMixer
 (
@@ -394,6 +405,12 @@ aOther
 .
 mStateEnd
 ;
+mIterationEnd
+=
+aOther
+.
+mIterationEnd
+;
 mMixer
 =
 aOther
@@ -413,6 +430,16 @@ const
 {
 return
 mStateEnd
+;
+}
+GraphTime
+IterationEnd
+(
+)
+const
+{
+return
+mIterationEnd
 ;
 }
 AudioMixer
