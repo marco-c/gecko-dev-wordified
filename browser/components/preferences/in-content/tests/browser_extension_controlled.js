@@ -151,7 +151,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 ;
 let
@@ -5736,7 +5736,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 await

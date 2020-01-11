@@ -2564,7 +2564,7 @@ preferences
 /
 selectBookmark
 .
-xul
+xhtml
 "
 "
 resizable

@@ -180,7 +180,7 @@ preferences
 /
 siteDataRemoveSelected
 .
-xul
+xhtml
 "
 ;
 const
@@ -883,7 +883,7 @@ preferences
 /
 siteDataSettings
 .
-xul
+xhtml
 "
 )
 ;
@@ -1042,7 +1042,7 @@ preferences
 /
 siteDataSettings
 .
-xul
+xhtml
 "
 )
 {

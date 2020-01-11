@@ -560,7 +560,7 @@ preferences
 /
 applicationManager
 .
-xul
+xhtml
 "
 )
 ;

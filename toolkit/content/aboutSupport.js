@@ -10409,7 +10409,7 @@ update
 /
 history
 .
-xul
+xhtml
 "
 "
 Update

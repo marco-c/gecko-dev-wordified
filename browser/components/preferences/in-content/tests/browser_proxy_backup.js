@@ -330,7 +330,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 /

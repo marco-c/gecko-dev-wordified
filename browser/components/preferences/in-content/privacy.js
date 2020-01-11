@@ -7969,7 +7969,7 @@ preferences
 /
 sanitize
 .
-xul
+xhtml
 "
 "
 resizable
@@ -8686,7 +8686,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 null
 params
@@ -8729,7 +8729,7 @@ preferences
 /
 blocklists
 .
-xul
+xhtml
 "
 null
 )
@@ -9644,7 +9644,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 null
 params
@@ -9672,7 +9672,7 @@ preferences
 /
 siteDataSettings
 .
-xul
+xhtml
 "
 )
 ;
@@ -9851,7 +9851,7 @@ preferences
 /
 clearSiteData
 .
-xul
+xhtml
 "
 )
 ;
@@ -9912,7 +9912,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 "
 resizable
@@ -9979,7 +9979,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 "
 resizable
@@ -10046,7 +10046,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 "
 resizable
@@ -10115,7 +10115,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 "
 resizable
@@ -10163,7 +10163,7 @@ preferences
 /
 sitePermissions
 .
-xul
+xhtml
 "
 "
 resizable
@@ -10245,7 +10245,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 "
 resizable
@@ -10445,7 +10445,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 null
 params
@@ -10904,7 +10904,7 @@ preferences
 /
 removemp
 .
-xul
+xhtml
 "
 null
 null
@@ -10959,7 +10959,7 @@ preferences
 /
 changemp
 .
-xul
+xhtml
 "
 "
 resizable
@@ -12172,7 +12172,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 null
 params

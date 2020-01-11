@@ -72,7 +72,7 @@ preferences
 /
 siteDataRemoveSelected
 .
-xul
+xhtml
 "
 ;
 /

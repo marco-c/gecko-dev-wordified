@@ -264,7 +264,7 @@ preferences
 /
 selectBookmark
 .
-xul
+xhtml
 "
 )
 ;
@@ -462,7 +462,7 @@ preferences
 /
 selectBookmark
 .
-xul
+xhtml
 "
 )
 ;

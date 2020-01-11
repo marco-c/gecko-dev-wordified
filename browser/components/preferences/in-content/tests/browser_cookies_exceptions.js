@@ -2500,7 +2500,7 @@ preferences
 /
 permissions
 .
-xul
+xhtml
 "
 )
 ;

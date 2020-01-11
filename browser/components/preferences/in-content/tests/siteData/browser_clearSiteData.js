@@ -425,7 +425,7 @@ preferences
 /
 clearSiteData
 .
-xul
+xhtml
 "
 )
 ;

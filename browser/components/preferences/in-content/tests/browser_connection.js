@@ -219,7 +219,7 @@ preferences
 /
 connection
 .
-xul
+xhtml
 "
 ;
 /

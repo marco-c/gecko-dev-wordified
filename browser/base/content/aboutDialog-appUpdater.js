@@ -73,7 +73,7 @@ preferences
 /
 advanced
 .
-xul
+xhtml
 /
 /
 if

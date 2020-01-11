@@ -957,7 +957,7 @@ preferences
 /
 containers
 .
-xul
+xhtml
 "
 null
 params

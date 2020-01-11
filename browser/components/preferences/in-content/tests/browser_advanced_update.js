@@ -800,7 +800,7 @@ update
 /
 history
 .
-xul
+xhtml
 "
 )
 ;
