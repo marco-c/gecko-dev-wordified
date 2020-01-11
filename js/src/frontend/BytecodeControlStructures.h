@@ -636,8 +636,6 @@ jump
 /
 JSOP_GOTO
 /
-JSOP_IFEQ
-/
 JSOP_IFNE
 head
 /
