@@ -76,11 +76,6 @@ files
 "
 :
 [
-"
-*
-.
-xhtml
-"
 /
 /
 Bug
