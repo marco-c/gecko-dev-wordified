@@ -230,12 +230,6 @@ clear
 (
 )
 ;
-client
-.
-detachWorkers
-(
-)
-;
 const
 thread
 =
