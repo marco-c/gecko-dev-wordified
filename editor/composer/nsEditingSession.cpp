@@ -2170,17 +2170,6 @@ xul
 /
 obsolete
 type
-"
-application
-/
-vnd
-.
-mozilla
-.
-xul
-+
-xml
-"
 nullptr
 /
 /

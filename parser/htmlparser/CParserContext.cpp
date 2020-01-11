@@ -339,14 +339,6 @@ mMimeType
 .
 EqualsLiteral
 (
-TEXT_XUL
-)
-|
-|
-mMimeType
-.
-EqualsLiteral
-(
 IMAGE_SVG_XML
 )
 |

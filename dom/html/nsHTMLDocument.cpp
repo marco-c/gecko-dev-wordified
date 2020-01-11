@@ -2733,14 +2733,6 @@ EqualsLiteral
 (
 APPLICATION_WAPXHTML_XML
 )
-|
-|
-contentType
-.
-EqualsLiteral
-(
-TEXT_XUL
-)
 )
 ;
 mIsPlainText
