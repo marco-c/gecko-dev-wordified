@@ -358,6 +358,11 @@ uninstall
 -
 failed
 "
+enrollmentId
+:
+rollout
+.
+enrollmentId
 }
 )
 ;
@@ -414,6 +419,11 @@ reason
 "
 rollback
 "
+enrollmentId
+:
+rollout
+.
+enrollmentId
 }
 )
 ;
