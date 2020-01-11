@@ -3656,6 +3656,8 @@ mTargetedMicroTaskRecursionDepth
 &
 &
 mTargetedMicroTaskRecursionDepth
++
+mDebuggerRecursionDepth
 !
 =
 currentDepth
