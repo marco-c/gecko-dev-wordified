@@ -2232,14 +2232,15 @@ aChild
 Reallocates
 the
 child
-withing
+within
 its
 parent
 .
 *
 /
+virtual
 void
-MoveChild
+RelocateChild
 (
 uint32_t
 aNewIndex

@@ -15719,7 +15719,7 @@ void
 Accessible
 :
 :
-MoveChild
+RelocateChild
 (
 uint32_t
 aNewIndex
