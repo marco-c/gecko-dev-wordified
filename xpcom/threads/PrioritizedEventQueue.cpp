@@ -219,7 +219,10 @@ mInputQueue
 (
 MakeUnique
 <
-EventQueue
+EventQueueSized
+<
+32
+>
 >
 (
 EventQueuePriority
@@ -245,7 +248,10 @@ mNormalQueue
 (
 MakeUnique
 <
-EventQueue
+EventQueueSized
+<
+64
+>
 >
 (
 EventQueuePriority

@@ -891,7 +891,10 @@ when
 /
 emptied
 .
-EventQueue
+EventQueueSized
+<
+64
+>
 mEventQueue
 ;
 /

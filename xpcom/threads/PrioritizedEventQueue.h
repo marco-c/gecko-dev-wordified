@@ -765,7 +765,10 @@ mHighQueue
 ;
 UniquePtr
 <
-EventQueue
+EventQueueSized
+<
+32
+>
 >
 mInputQueue
 ;
@@ -777,7 +780,10 @@ mMediumHighQueue
 ;
 UniquePtr
 <
-EventQueue
+EventQueueSized
+<
+64
+>
 >
 mNormalQueue
 ;
