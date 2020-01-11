@@ -7790,13 +7790,6 @@ Run
 (
 )
 ;
-mEvents
--
->
-DidRunEvent
-(
-)
-;
 mozilla
 :
 :
