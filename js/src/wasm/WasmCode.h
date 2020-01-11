@@ -1411,7 +1411,7 @@ return
 !
 funcType_
 .
-temporarilyUnsupportedReftypeForEntry
+temporarilyUnsupportedAnyRef
 (
 )
 &
