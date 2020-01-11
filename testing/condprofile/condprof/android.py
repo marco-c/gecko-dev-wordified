@@ -1692,8 +1692,24 @@ get_logcat
 (
 )
         
+#
+ValueError
+will
+cover
+all
+cases
+of
+Unicode
+encode
+/
+decode
+errors
+        
 except
+(
 ADBError
+ValueError
+)
 :
             
 ERROR
