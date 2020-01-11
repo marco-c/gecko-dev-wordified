@@ -5655,9 +5655,6 @@ true
 ;
 #
 endif
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 allow_eval_
@@ -5695,6 +5692,9 @@ allow_eval_in_parent_process
 false
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
