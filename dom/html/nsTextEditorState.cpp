@@ -279,15 +279,6 @@ include
 "
 mozilla
 /
-TextEditRules
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EventListenerManager
 .
 h

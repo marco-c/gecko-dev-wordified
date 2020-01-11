@@ -173,15 +173,6 @@ include
 "
 mozilla
 /
-TextEditRules
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Selection
@@ -962,7 +953,7 @@ if
 NS_WARN_IF
 (
 !
-mRules
+mInitSucceeded
 )
 )
 {
@@ -8861,7 +8852,7 @@ if
 NS_WARN_IF
 (
 !
-mRules
+mInitSucceeded
 )
 )
 {

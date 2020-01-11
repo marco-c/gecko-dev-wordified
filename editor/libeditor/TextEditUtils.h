@@ -121,11 +121,6 @@ final
 {
 public
 :
-/
-/
-from
-TextEditRules
-:
 static
 bool
 IsBody

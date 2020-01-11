@@ -242,17 +242,6 @@ EditorEventListener
 #
 include
 "
-HTMLEditRules
-.
-h
-"
-/
-/
-for
-HTMLEditRules
-#
-include
-"
 InsertNodeTransaction
 .
 h
@@ -16033,7 +16022,7 @@ InsertTextWithTransaction
 /
 /
 in
-HTMLEditRules
+HTMLEditor
 .
 return
 aPoint
