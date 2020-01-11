@@ -9821,24 +9821,6 @@ SECURITY
 Error
 code
 for
-XFO
-    
-errors
-[
-"
-NS_ERROR_XFO_VIOLATION
-"
-]
-=
-FAILURE
-(
-96
-)
-    
-#
-Error
-code
-for
 CSP
     
 errors
