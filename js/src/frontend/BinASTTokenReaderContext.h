@@ -6323,7 +6323,6 @@ Part
 of
 variants
 HuffmanTableValue
-HuffmanTableListLength
 and
 /
 /
@@ -7026,8 +7025,6 @@ Part
 of
 variants
 HuffmanTableValue
-and
-HuffmanTableListLength
 .
 struct
 HuffmanTableInitializing
@@ -7061,11 +7058,6 @@ value
 HuffmanTableInitializing
 GenericHuffmanTable
 >
-;
-using
-HuffmanTableListLength
-=
-HuffmanTableValue
 ;
 /
 /
@@ -7134,7 +7126,7 @@ NormalizedInterfaceAndField
 index
 )
 ;
-HuffmanTableListLength
+HuffmanTableValue
 &
 tableForListLength
 (
@@ -7283,7 +7275,7 @@ mozilla
 :
 Array
 <
-HuffmanTableListLength
+HuffmanTableValue
 BINAST_NUMBER_OF_LIST_TYPES
 >
 listLengths_
