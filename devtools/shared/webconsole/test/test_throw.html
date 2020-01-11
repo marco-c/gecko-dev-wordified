@@ -146,6 +146,11 @@ text
 javascript
 "
 >
+"
+use
+strict
+"
+;
 SimpleTest
 .
 waitForExplicitFinish
@@ -177,7 +182,6 @@ function
 onAttach
 (
 aState
-aResponse
 )
 {
 const
@@ -231,7 +235,7 @@ function
 )
 {
 const
-aResponse
+response
 =
 await
 aState
@@ -253,7 +257,7 @@ value
 const
 type
 =
-aResponse
+response
 .
 exception
 .
@@ -311,7 +315,7 @@ function
 )
 {
 const
-aResponse
+response
 =
 await
 aState
@@ -333,7 +337,7 @@ value
 const
 exception
 =
-aResponse
+response
 .
 exception
 ;
@@ -402,7 +406,7 @@ function
 )
 {
 const
-aResponse
+response
 =
 await
 aState
@@ -425,7 +429,7 @@ longString
 )
 is
 (
-aResponse
+response
 .
 exception
 .
@@ -443,7 +447,7 @@ longString
 ;
 is
 (
-aResponse
+response
 .
 exceptionMessage
 .
@@ -537,7 +541,7 @@ function
 )
 {
 const
-aResponse
+response
 =
 await
 aState
@@ -559,7 +563,7 @@ expr
 ;
 is
 (
-aResponse
+response
 .
 exceptionMessage
 message
