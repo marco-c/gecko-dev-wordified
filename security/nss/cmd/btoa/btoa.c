@@ -1322,6 +1322,17 @@ outFile
 )
 ;
 }
+if
+(
+suffix
+)
+{
+PORT_Free
+(
+suffix
+)
+;
+}
 return
 exitCode
 ;
