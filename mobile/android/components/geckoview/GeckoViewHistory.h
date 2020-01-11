@@ -65,6 +65,8 @@ GECKOVIEWHISTORY_H
 #
 include
 "
+mozilla
+/
 IHistory
 .
 h

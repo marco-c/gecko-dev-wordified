@@ -12237,11 +12237,12 @@ nsCOMPtr
 IHistory
 >
 service
+=
+services
+:
+:
+GetHistoryService
 (
-do_GetService
-(
-NS_IHISTORY_CONTRACTID
-)
 )
 ;
 if
