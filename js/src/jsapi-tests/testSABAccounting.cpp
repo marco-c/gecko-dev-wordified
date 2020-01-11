@@ -100,7 +100,10 @@ lost
 CHECK
 (
 !
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
@@ -135,7 +138,10 @@ cx
 ;
 CHECK
 (
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
@@ -157,7 +163,10 @@ cx
 ;
 CHECK
 (
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
@@ -211,7 +220,10 @@ state
 CHECK
 (
 !
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
