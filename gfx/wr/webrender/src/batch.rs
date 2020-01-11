@@ -3061,7 +3061,7 @@ SegmentInstanceData
 textures
 :
 BatchTextures
-user_data
+specific_resource_address
 :
 i32
 }
@@ -4659,7 +4659,7 @@ cache_item
 .
 texture_id
 )
-user_data
+specific_resource_address
 :
 cache_item
 .
@@ -5557,7 +5557,7 @@ let
 batch_kind
 textures
 prim_user_data
-segment_user_data
+specific_resource_address
 )
 =
 match
@@ -5853,7 +5853,7 @@ BrushFlags
 :
 PERSPECTIVE_INTERPOLATION
 prim_header_index
-segment_user_data
+specific_resource_address
 prim_vis_mask
 )
 ;
@@ -11467,7 +11467,7 @@ get_shader_opacity
 ]
 ;
 let
-segment_user_data
+specific_resource_address
 =
 cache_item
 .
@@ -11552,7 +11552,7 @@ BrushFlags
 :
 PERSPECTIVE_INTERPOLATION
 prim_header_index
-segment_user_data
+specific_resource_address
 prim_vis_mask
 )
 ;
@@ -12531,7 +12531,7 @@ brush_flags
 prim_header_index
 segment_data
 .
-user_data
+specific_resource_address
 prim_vis_mask
 )
 ;
@@ -12923,7 +12923,7 @@ PERSPECTIVE_INTERPOLATION
 prim_header_index
 segment_data
 .
-user_data
+specific_resource_address
 prim_vis_mask
 )
 ;
@@ -13437,7 +13437,7 @@ i32
 ;
 4
 ]
-segment_user_data
+specific_resource_address
 :
 i32
 )
@@ -13459,9 +13459,7 @@ Shared
 SegmentInstanceData
 {
 textures
-user_data
-:
-segment_user_data
+specific_resource_address
 }
 )
 }
