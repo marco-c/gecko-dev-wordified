@@ -817,6 +817,12 @@ func
         
 self
 .
+logger
+=
+logger
+        
+self
+.
 result
 =
 None
