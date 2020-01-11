@@ -67,6 +67,9 @@ html
 '
 dom
 '
+'
+WebIDL
+'
 ]
 idl_array
 =
@@ -241,6 +244,10 @@ MediaRecorderErrorEvent
 type
 "
 {
+error
+:
+new
+DOMException
 }
 )
 ;
