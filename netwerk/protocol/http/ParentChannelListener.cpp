@@ -957,7 +957,7 @@ wait
 for
 /
 /
-AllPartsStopped
+OnAfterLastPart
 instead
 .
 nsCOMPtr
