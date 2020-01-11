@@ -418,7 +418,9 @@ sent
 from
 "
 +
-uneval
+JSON
+.
+stringify
 (
 packet
 .
@@ -448,7 +450,9 @@ sent
 to
 "
 +
-uneval
+JSON
+.
+stringify
 (
 packet
 .

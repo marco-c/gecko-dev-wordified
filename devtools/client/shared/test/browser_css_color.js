@@ -755,10 +755,11 @@ info
 target
 :
 {
-target
+JSON
 .
-toSource
+stringify
 (
+target
 )
 }
 color

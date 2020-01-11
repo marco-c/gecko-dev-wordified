@@ -266,7 +266,9 @@ set
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 display
 )
