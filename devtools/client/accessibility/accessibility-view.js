@@ -488,6 +488,21 @@ matrices
 in
 docShell
 *
+-
+toolboxDoc
+{
+Document
+}
+*
+toolbox
+document
+that
+will
+used
+by
+menus
+.
+*
 /
 async
 initialize
@@ -498,6 +513,7 @@ walker
 supports
 fluentBundles
 simulator
+toolboxDoc
 }
 )
 {
@@ -576,6 +592,7 @@ accessibilityWalker
 walker
 fluentBundles
 simulator
+toolboxDoc
 }
 )
 ;

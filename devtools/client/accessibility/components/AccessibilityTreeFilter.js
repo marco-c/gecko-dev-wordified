@@ -444,6 +444,13 @@ describedby
 PropTypes
 .
 string
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -598,6 +605,7 @@ const
 auditing
 filters
 describedby
+toolboxDoc
 }
 =
 this
@@ -1002,8 +1010,6 @@ filters
 menu
 "
 toolboxDoc
-:
-document
 className
 :
 devtools

@@ -38,6 +38,7 @@ strict
 global
 toggleMenuItem
 selectAccessibleForNode
+TREE_FILTERS_MENU_ID
 *
 /
 const
@@ -292,6 +293,7 @@ async
 (
 {
 doc
+toolbox
 }
 )
 =
@@ -301,7 +303,10 @@ await
 toggleMenuItem
 (
 doc
-0
+toolbox
+.
+doc
+TREE_FILTERS_MENU_ID
 1
 )
 ;

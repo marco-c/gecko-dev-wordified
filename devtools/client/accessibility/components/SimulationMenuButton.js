@@ -504,6 +504,13 @@ PropTypes
 func
 .
 isRequired
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -626,6 +633,7 @@ render
 const
 {
 simulation
+toolboxDoc
 }
 =
 this
@@ -912,8 +920,6 @@ active
 "
 }
 toolboxDoc
-:
-document
 label
 :
 L10N

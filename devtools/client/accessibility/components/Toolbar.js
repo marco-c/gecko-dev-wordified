@@ -310,6 +310,13 @@ simulator
 PropTypes
 .
 object
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -511,6 +518,7 @@ const
 canBeDisabled
 accessibilityWalker
 simulator
+toolboxDoc
 }
 =
 this
@@ -628,6 +636,7 @@ SimulationMenuButton
 (
 {
 simulator
+toolboxDoc
 }
 )
 ]
@@ -755,6 +764,7 @@ accessibilityWalker
 describedby
 :
 betaID
+toolboxDoc
 }
 )
 /
@@ -773,6 +783,9 @@ enabled
 optionalSimulationSection
 AccessibilityPrefs
 (
+{
+toolboxDoc
+}
 )
 )
 ;

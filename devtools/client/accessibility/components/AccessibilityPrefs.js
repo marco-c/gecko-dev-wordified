@@ -374,6 +374,13 @@ PropTypes
 bool
 .
 isRequired
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -463,7 +470,11 @@ menu
 "
 toolboxDoc
 :
-document
+this
+.
+props
+.
+toolboxDoc
 className
 :
 devtools
