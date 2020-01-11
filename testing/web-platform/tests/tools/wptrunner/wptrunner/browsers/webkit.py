@@ -38,6 +38,12 @@ noqa
 F401
                                            
 WebDriverRefTestExecutor
+#
+noqa
+:
+F401
+                                           
+WebDriverCrashtestExecutor
 )
 #
 noqa
@@ -123,6 +129,14 @@ wdspec
 :
 "
 WebKitDriverWdspecExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+WebDriverCrashtestExecutor
 "
 }
                  
