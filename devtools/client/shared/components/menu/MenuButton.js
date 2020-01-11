@@ -967,9 +967,6 @@ doorhanger
 useXulWrapper
 :
 true
-isMenuTooltip
-:
-true
 }
 ;
 if
