@@ -1205,6 +1205,9 @@ MapIteratorObject
 :
 :
 objectMoved
+/
+/
+objectMovedOp
 }
 ;
 const
@@ -6563,6 +6566,9 @@ SetIteratorObject
 :
 :
 objectMoved
+/
+/
+objectMovedOp
 }
 ;
 const

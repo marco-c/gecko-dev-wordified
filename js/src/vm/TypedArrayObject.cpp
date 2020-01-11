@@ -13459,6 +13459,9 @@ TypedArrayObject
 :
 :
 objectMoved
+/
+/
+objectMovedOp
 }
 ;
 static

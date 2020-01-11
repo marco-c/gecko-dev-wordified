@@ -6629,10 +6629,8 @@ ArgumentsObject
 :
 objectMoved
 /
-*
-objectMovedOp
-*
 /
+objectMovedOp
 }
 ;
 const
@@ -6818,10 +6816,8 @@ ArgumentsObject
 :
 objectMoved
 /
-*
-objectMovedOp
-*
 /
+objectMovedOp
 }
 ;
 const

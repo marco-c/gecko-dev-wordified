@@ -1330,6 +1330,9 @@ delegateClassExtension
 =
 {
 DelegateObjectMoved
+/
+/
+objectMovedOp
 }
 ;
 static

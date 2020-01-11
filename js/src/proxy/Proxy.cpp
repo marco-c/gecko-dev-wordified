@@ -5119,6 +5119,9 @@ ProxyClassExtension
 =
 {
 proxy_ObjectMoved
+/
+/
+objectMovedOp
 }
 ;
 const

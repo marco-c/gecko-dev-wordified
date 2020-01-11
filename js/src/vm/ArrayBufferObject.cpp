@@ -2007,6 +2007,9 @@ ArrayBufferObject
 :
 :
 objectMoved
+/
+/
+objectMovedOp
 }
 ;
 const

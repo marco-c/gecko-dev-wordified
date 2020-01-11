@@ -4752,6 +4752,9 @@ XPC_WN_JSClassExtension
 =
 {
 WrappedNativeObjectMoved
+/
+/
+objectMovedOp
 }
 ;
 const
@@ -7870,6 +7873,9 @@ XPC_WN_Proto_ClassExtension
 =
 {
 XPC_WN_Proto_ObjectMoved
+/
+/
+objectMovedOp
 }
 ;
 const
@@ -8406,6 +8412,9 @@ XPC_WN_Tearoff_JSClassExtension
 =
 {
 XPC_WN_TearOff_ObjectMoved
+/
+/
+objectMovedOp
 }
 ;
 const

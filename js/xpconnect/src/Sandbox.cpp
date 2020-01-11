@@ -2980,10 +2980,8 @@ SandboxClassExtension
 {
 sandbox_moved
 /
-*
-objectMovedOp
-*
 /
+objectMovedOp
 }
 ;
 static
