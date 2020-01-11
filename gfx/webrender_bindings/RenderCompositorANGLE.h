@@ -565,14 +565,14 @@ InitializeUsePartialPresent
 )
 ;
 void
-InsertPresentWaitQuery
+InsertGraphicsCommandsFinishedWaitQuery
 (
 RenderedFrameId
 aRenderedFrameId
 )
 ;
 bool
-WaitForPreviousPresentQuery
+WaitForPreviousGraphicsCommandsFinishedQuery
 (
 )
 ;

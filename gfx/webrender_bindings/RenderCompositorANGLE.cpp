@@ -2573,7 +2573,7 @@ GetNextRenderFrameId
 (
 )
 ;
-InsertPresentWaitQuery
+InsertGraphicsCommandsFinishedWaitQuery
 (
 frameId
 )
@@ -3169,7 +3169,7 @@ swapping
 buffers
 .
 return
-WaitForPreviousPresentQuery
+WaitForPreviousGraphicsCommandsFinishedQuery
 (
 )
 ;
@@ -4146,7 +4146,7 @@ void
 RenderCompositorANGLE
 :
 :
-InsertPresentWaitQuery
+InsertGraphicsCommandsFinishedWaitQuery
 (
 RenderedFrameId
 aFrameId
@@ -4194,7 +4194,7 @@ bool
 RenderCompositorANGLE
 :
 :
-WaitForPreviousPresentQuery
+WaitForPreviousGraphicsCommandsFinishedQuery
 (
 )
 {
