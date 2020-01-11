@@ -1142,6 +1142,11 @@ return
 EXIT_FAILURE
 ;
 }
+ChangeCurrentWorkingDirectory
+(
+pingPath
+)
+;
 string
 ping
 (
