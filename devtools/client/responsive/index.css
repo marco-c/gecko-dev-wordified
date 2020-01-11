@@ -647,7 +647,13 @@ content
 [
 throttling
 ]
+minmax
+(
 auto
+max
+-
+content
+)
 [
 separator
 ]
@@ -738,7 +744,13 @@ content
 [
 throttling
 ]
+minmax
+(
 auto
+max
+-
+content
+)
 [
 separator
 ]
