@@ -12171,6 +12171,9 @@ dom
 :
 MediaSession
 (
+GetWindow
+(
+)
 )
 ;
 }
