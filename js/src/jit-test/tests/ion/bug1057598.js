@@ -96,9 +96,10 @@ uceFault_str_split
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace

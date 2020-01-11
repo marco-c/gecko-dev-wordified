@@ -152,7 +152,9 @@ expected
 one
 of
 {
-uneval
+JSON
+.
+stringify
 (
 variations
 )
@@ -160,7 +162,7 @@ variations
 ;
 got
 {
-uneval
+String
 (
 e
 .

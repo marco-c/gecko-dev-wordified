@@ -317,9 +317,10 @@ uceFault_lambdaCall
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace

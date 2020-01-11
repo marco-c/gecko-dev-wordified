@@ -1371,9 +1371,10 @@ uceFault_arrayAlloc3
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace
@@ -1466,9 +1467,10 @@ top
 level
 eval
 (
-uneval
 (
+{
 resumeHere
+}
 )
 )
 ;

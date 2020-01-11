@@ -386,9 +386,10 @@ uceFault_notSoEmpty1
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace
@@ -684,9 +685,10 @@ uceFault_notSoEmpty2
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace
