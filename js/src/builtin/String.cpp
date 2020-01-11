@@ -23153,11 +23153,15 @@ elements
 cx
 -
 >
-make_pod_array
+make_pod_arena_array
 <
 char16_t
 >
 (
+js
+:
+:
+StringBufferArena
 args
 .
 length
@@ -23165,10 +23169,6 @@ length
 )
 *
 2
-js
-:
-:
-StringBufferArena
 )
 ;
 if
