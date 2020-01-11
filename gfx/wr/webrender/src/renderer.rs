@@ -30145,6 +30145,9 @@ compositor
 bind
 (
 id
+picture_target
+.
+dirty_rect
 )
 }
 CompositorConfig

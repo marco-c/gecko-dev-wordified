@@ -4650,6 +4650,10 @@ Option
 <
 ColorF
 >
+pub
+dirty_rect
+:
+DeviceIntRect
 }
 #
 [
