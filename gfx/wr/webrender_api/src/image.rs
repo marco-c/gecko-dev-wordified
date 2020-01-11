@@ -408,6 +408,7 @@ pub
 fn
 as_image
 (
+&
 self
 )
 -

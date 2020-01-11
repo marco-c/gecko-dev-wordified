@@ -982,6 +982,7 @@ pub
 fn
 combine
 (
+&
 self
 other
 :
@@ -2454,6 +2455,7 @@ pub
 fn
 as_int
 (
+&
 self
 gpu_cache
 :
@@ -2483,6 +2485,7 @@ pub
 fn
 as_int
 (
+&
 self
 )
 -
@@ -12101,8 +12104,8 @@ prim_instance
 is_chased
 (
 )
-&
-&
+{
+if
 pic
 .
 estimated_local_rect
@@ -12137,6 +12140,7 @@ pic
 precise_local_rect
 )
 ;
+}
 }
 let
 mut
@@ -13543,9 +13547,7 @@ DebugFlags
 OBSCURE_IMAGES
 )
 {
-let
-is_image
-=
+if
 matches
 !
 (
@@ -13570,9 +13572,6 @@ YuvImage
 .
 }
 )
-;
-if
-is_image
 {
 /
 /

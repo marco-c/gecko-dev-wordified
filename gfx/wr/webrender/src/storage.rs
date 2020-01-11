@@ -511,6 +511,7 @@ pub
 fn
 is_empty
 (
+&
 self
 )
 -
