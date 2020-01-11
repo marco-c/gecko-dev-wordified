@@ -638,7 +638,7 @@ result
 =
 aKey
 .
-ToLocaleBasedKey
+ToLocaleAwareKey
 (
 indexUpdateInfo
 .

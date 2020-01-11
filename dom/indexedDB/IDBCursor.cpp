@@ -2018,7 +2018,7 @@ result
 =
 key
 .
-ToLocaleBasedKey
+ToLocaleAwareKey
 (
 tmp
 mSourceIndex
@@ -2665,7 +2665,7 @@ result
 =
 key
 .
-ToLocaleBasedKey
+ToLocaleAwareKey
 (
 tmp
 mSourceIndex
