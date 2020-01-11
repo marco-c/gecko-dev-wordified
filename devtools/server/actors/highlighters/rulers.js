@@ -1560,7 +1560,7 @@ container
 const
 textContent
 =
-innerHeight
+innerWidth
 +
 "
 px
@@ -1568,7 +1568,7 @@ px
 u00D7
 "
 +
-innerWidth
+innerHeight
 +
 "
 px

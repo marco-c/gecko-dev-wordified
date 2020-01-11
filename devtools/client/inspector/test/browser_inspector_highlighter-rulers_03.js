@@ -423,7 +423,7 @@ width
 const
 windowText
 =
-windowHeight
+windowWidth
 +
 "
 px
@@ -431,7 +431,7 @@ px
 u00D7
 "
 +
-windowWidth
+windowHeight
 +
 "
 px
