@@ -7857,7 +7857,7 @@ LogBlockedRequest
 (
 aRequest
 "
-CORSPreflightDidNotSucceed
+CORSPreflightDidNotSucceed2
 "
 nullptr
 nsILoadInfo
@@ -8304,7 +8304,7 @@ LogBlockedRequest
 (
 aRequest
 "
-CORSMissingAllowHeaderFromPreflight
+CORSMissingAllowHeaderFromPreflight2
 "
 NS_ConvertUTF8toUTF16
 (
