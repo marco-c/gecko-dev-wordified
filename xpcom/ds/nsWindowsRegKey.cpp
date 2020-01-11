@@ -165,13 +165,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 /
 -

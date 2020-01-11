@@ -134,13 +134,6 @@ nsHashKeys
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 /
 *
 *

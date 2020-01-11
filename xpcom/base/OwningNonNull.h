@@ -141,7 +141,7 @@ mozilla_OwningNonNull_h
 #
 include
 "
-nsAutoPtr
+nsCOMPtr
 .
 h
 "

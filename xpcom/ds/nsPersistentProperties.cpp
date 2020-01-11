@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsPersistentProperties
 .
 h

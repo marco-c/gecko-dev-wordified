@@ -319,13 +319,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsMemory
 .
 h

@@ -136,13 +136,6 @@ nsDependentString
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 if
 defined
 (

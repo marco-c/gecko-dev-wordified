@@ -215,13 +215,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

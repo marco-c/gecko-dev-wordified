@@ -206,13 +206,6 @@ h
 "
 #
 include
-"
-nsAutoPtr
-.
-h
-"
-#
-include
 <
 windows
 .
