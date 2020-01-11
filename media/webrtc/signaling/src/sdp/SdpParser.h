@@ -140,6 +140,15 @@ Sdp
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Telemetry
+.
+h
+"
 namespace
 mozilla
 {
