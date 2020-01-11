@@ -4428,7 +4428,7 @@ FinalizationIteratorObject
 *
 iterator
 =
-NewObjectWithClassProto
+NewObjectWithGivenProto
 <
 FinalizationIteratorObject
 >
