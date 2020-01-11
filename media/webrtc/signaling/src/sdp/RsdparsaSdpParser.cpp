@@ -218,7 +218,7 @@ string
 WEBRTC_SDP_NAME
 =
 "
-WEBRTC_SDP_NAME
+WEBRTCSDP
 "
 ;
 const
