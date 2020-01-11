@@ -355,7 +355,7 @@ browser
 ;
 const
 {
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 }
 =
 ChromeUtils
@@ -592,7 +592,7 @@ await
 getRecordingPreferencesFromDebuggee
 (
 preferenceFront
-getDefaultRecordingSettings
+getDefaultRecordingPreferences
 (
 )
 )
