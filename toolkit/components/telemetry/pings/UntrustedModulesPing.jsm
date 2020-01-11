@@ -102,7 +102,9 @@ telemetry
 /
 data
 /
-untrusted
+third
+-
+party
 -
 modules
 -
@@ -303,7 +305,11 @@ const
 PING_SUBMISSION_NAME
 =
 "
-untrustedModules
+third
+-
+party
+-
+modules
 "
 ;
 var
