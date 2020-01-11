@@ -7476,6 +7476,21 @@ build_browser_profile
 (
 )
                 
+#
+Update
+runner
+profile
+                
+self
+.
+runner
+.
+profile
+=
+self
+.
+profile
+                
 self
 .
 run_test_setup
