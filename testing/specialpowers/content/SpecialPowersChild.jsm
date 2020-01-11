@@ -7437,11 +7437,11 @@ getFormFillController
 (
 )
 .
-attachPopupElementToBrowser
+attachPopupElementToDocument
 (
 window
 .
-docShell
+document
 this
 .
 _getAutoCompletePopup
@@ -7462,11 +7462,11 @@ getFormFillController
 (
 )
 .
-detachFromBrowser
+detachFromDocument
 (
 window
 .
-docShell
+document
 )
 ;
 }
