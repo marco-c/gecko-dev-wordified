@@ -18655,11 +18655,6 @@ LoadInfo
 (
 )
 ;
-if
-(
-loadInfo
-)
-{
 nsContentPolicyType
 type
 =
@@ -18717,7 +18712,6 @@ type
 return
 false
 ;
-}
 }
 return
 true
