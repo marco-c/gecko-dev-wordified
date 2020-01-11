@@ -1563,6 +1563,16 @@ MOZ_ASSERT
 aSurface
 )
 ;
+if
+(
+!
+mRecorder
+)
+{
+return
+nullptr
+;
+}
 return
 MakeAndAddRef
 <
