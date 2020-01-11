@@ -848,6 +848,13 @@ GetOwner
 )
 ;
 }
+nsISerialEventTarget
+*
+GetMainThread
+(
+)
+const
+;
 virtual
 void
 DisconnectFromOwner
