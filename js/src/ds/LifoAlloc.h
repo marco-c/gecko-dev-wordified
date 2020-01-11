@@ -189,6 +189,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 new
 >
 #
@@ -6783,7 +6788,10 @@ memcpy
 (
 n
 p
-Min
+std
+:
+:
+min
 (
 oldSize
 *

@@ -161,6 +161,11 @@ mozilla
 Utf8Unit
 #
 include
+<
+algorithm
+>
+#
+include
 "
 builtin
 /
@@ -751,7 +756,10 @@ for
 now
 .
 return
-Min
+std
+:
+:
+min
 <
 size_t
 >
@@ -806,7 +814,10 @@ the
 compilation
 .
 return
-Max
+std
+:
+:
+max
 <
 size_t
 >

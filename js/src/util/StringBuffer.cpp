@@ -146,6 +146,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 vm
 /
@@ -438,7 +443,10 @@ here
 size_t
 capacity
 =
-Max
+std
+:
+:
+max
 (
 reserved_
 latin1Chars

@@ -243,6 +243,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 math
 .
 h
@@ -5289,7 +5294,10 @@ ParseDigits
 result
 s
 i
-Min
+std
+:
+:
+min
 (
 limit
 init
@@ -5421,7 +5429,10 @@ ParseDigits
 result
 s
 i
-Min
+std
+:
+:
+min
 (
 limit
 init

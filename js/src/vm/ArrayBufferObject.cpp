@@ -212,6 +212,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -4963,7 +4968,10 @@ OneGiB
 uint32_t
 clamp
 =
-Max
+std
+:
+:
+max
 (
 OneGiB
 initialSize
@@ -4973,7 +4981,10 @@ clampedMaxSize
 =
 Some
 (
-Min
+std
+:
+:
+min
 (
 clamp
 *

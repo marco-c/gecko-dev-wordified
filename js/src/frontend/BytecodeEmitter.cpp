@@ -269,6 +269,11 @@ AsVariant
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -59437,7 +59442,10 @@ do
 ptrdiff_t
 xdelta
 =
-Min
+std
+:
+:
+min
 (
 delta
 SN_XDELTA_MASK

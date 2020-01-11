@@ -116,6 +116,11 @@ define
 jit_BaselineFrame_h
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -1502,7 +1507,10 @@ Size
 +
 offsetOfArg
 (
-Max
+std
+:
+:
+max
 (
 numFormalArgs
 (

@@ -206,6 +206,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -2657,7 +2662,10 @@ count
 uint32_t
 cores
 =
-Min
+std
+:
+:
+min
 (
 cpuCount
 workers
@@ -4195,7 +4203,10 @@ numBytes
 {
 numBytes
 =
-Min
+std
+:
+:
+min
 (
 numBytes
 d_

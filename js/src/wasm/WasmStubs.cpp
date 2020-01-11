@@ -197,6 +197,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -5212,7 +5217,10 @@ coerceArgTypes
 unsigned
 bytesNeeded
 =
-Max
+std
+:
+:
+max
 (
 normalBytesNeeded
 oolBytesNeeded
@@ -11118,7 +11126,10 @@ double
 unsigned
 argBytes
 =
-Max
+std
+:
+:
+max
 <
 size_t
 >

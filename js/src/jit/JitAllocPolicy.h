@@ -153,6 +153,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 utility
 >
 #
@@ -703,7 +708,10 @@ memcpy
 (
 n
 p
-Min
+std
+:
+:
+min
 (
 oldSize
 *

@@ -2325,7 +2325,10 @@ other
 uint32_t
 end
 =
-Max
+std
+:
+:
+max
 (
 start_
 +
@@ -2341,7 +2344,10 @@ count_
 ;
 start_
 =
-Min
+std
+:
+:
+min
 (
 start_
 other

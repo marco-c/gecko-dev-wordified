@@ -119,6 +119,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 gc
 /
@@ -1045,7 +1050,10 @@ length
 size_t
 bufferSize
 =
-Min
+std
+:
+:
+min
 (
 str
 -

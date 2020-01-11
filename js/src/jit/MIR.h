@@ -178,6 +178,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -23378,7 +23383,10 @@ kind
 {
 implicitTruncate_
 =
-Max
+std
+:
+:
+max
 (
 implicitTruncate_
 kind
@@ -29439,7 +29447,10 @@ kind
 {
 implicitTruncate_
 =
-Max
+std
+:
+:
+max
 (
 implicitTruncate_
 kind

@@ -171,6 +171,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 stddef
 .
 h
@@ -554,7 +559,10 @@ len2
 size_t
 n
 =
-Min
+std
+:
+:
+min
 (
 len1
 len2

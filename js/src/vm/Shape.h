@@ -179,6 +179,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsapi
 .
@@ -8185,7 +8190,10 @@ hasMissingSlot
 ?
 free
 :
-Max
+std
+:
+:
+max
 (
 free
 maybeSlot

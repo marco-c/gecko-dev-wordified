@@ -139,6 +139,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsutil
 .
@@ -5343,10 +5348,10 @@ fields
 .
 structAlignment
 =
-js
+std
 :
 :
-Max
+max
 (
 structAlignment
 fieldAlignment

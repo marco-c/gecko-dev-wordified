@@ -422,7 +422,10 @@ ArgumentsData
 *
 numArgs
 =
-Max
+std
+:
+:
+max
 (
 numFormalArgs
 numActualArgs

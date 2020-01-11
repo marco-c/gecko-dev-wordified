@@ -125,6 +125,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsfriendapi
 .
@@ -764,7 +769,10 @@ cur
 >
 gcLowLink
 =
-Min
+std
+:
+:
+min
 (
 cur
 -
@@ -794,7 +802,10 @@ cur
 >
 gcLowLink
 =
-Min
+std
+:
+:
+min
 (
 cur
 -

@@ -170,6 +170,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsutil
 .
@@ -4432,7 +4437,10 @@ isConstructing
 unsigned
 pushedArgs
 =
-Max
+std
+:
+:
+max
 (
 numFormalArgs
 (

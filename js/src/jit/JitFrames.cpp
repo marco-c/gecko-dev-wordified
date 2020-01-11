@@ -130,6 +130,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jsutil
 .
@@ -5616,7 +5621,10 @@ nargs
 size_t
 newTargetOffset
 =
-Max
+std
+:
+:
+max
 (
 nargs
 fun

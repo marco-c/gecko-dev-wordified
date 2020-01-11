@@ -137,6 +137,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 ds
 /
@@ -1111,7 +1116,10 @@ mb
 )
 {
 return
-Max
+std
+:
+:
+max
 (
 start
 used
@@ -2564,7 +2572,10 @@ curSize_
 ;
 peakSize_
 =
-Max
+std
+:
+:
+max
 (
 peakSize_
 other

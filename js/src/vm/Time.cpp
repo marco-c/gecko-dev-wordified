@@ -155,6 +155,11 @@ endif
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -362,10 +367,10 @@ going
 backwards
 .
 return
-js
+std
 :
 :
-Max
+max
 (
 PRMJ_NowImpl
 (

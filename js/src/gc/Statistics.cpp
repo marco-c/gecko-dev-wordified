@@ -156,6 +156,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 stdarg
 .
 h
@@ -1406,7 +1411,10 @@ i
 *
 maxPause
 =
-Max
+std
+:
+:
+max
 (
 *
 maxPause

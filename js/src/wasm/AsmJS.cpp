@@ -279,6 +279,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 new
 >
 #
@@ -35856,7 +35861,10 @@ false
 *
 low
 =
-Min
+std
+:
+:
+min
 (
 *
 low
@@ -35866,7 +35874,10 @@ i
 *
 high
 =
-Max
+std
+:
+:
+max
 (
 *
 high

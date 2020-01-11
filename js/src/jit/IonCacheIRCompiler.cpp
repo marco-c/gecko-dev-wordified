@@ -137,6 +137,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -12536,7 +12541,10 @@ Values
 size_t
 numArgs
 =
-Max
+std
+:
+:
+max
 <
 size_t
 >

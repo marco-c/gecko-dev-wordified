@@ -166,6 +166,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 debugger
 /
@@ -3694,7 +3699,10 @@ numDenseElements
 ;
 newInitializedLength
 =
-Max
+std
+:
+:
+max
 (
 newInitializedLength
 index
@@ -4728,7 +4736,10 @@ unusedCapacity
 .
 toShift
 =
-Min
+std
+:
+:
+min
 (
 toShift
 +

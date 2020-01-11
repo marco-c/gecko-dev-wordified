@@ -133,6 +133,11 @@ define
 gc_Verifier_h
 #
 include
+<
+algorithm
+>
+#
+include
 "
 gc
 /
@@ -295,7 +300,10 @@ mapColor
 )
 {
 return
-Min
+std
+:
+:
+min
 (
 keyColor
 mapColor
@@ -313,7 +321,10 @@ delegateColor
 )
 {
 return
-Min
+std
+:
+:
+min
 (
 mapColor
 delegateColor
@@ -331,7 +342,10 @@ delegateColor
 )
 {
 return
-Max
+std
+:
+:
+max
 (
 keyColor
 delegateColor

@@ -176,6 +176,11 @@ h
 #
 include
 <
+algorithm
+>
+#
+include
+<
 string
 .
 h
@@ -9681,7 +9686,10 @@ false
 }
 length
 =
-Max
+std
+:
+:
+max
 (
 0
 .
@@ -9809,7 +9817,10 @@ isNumber
 {
 length
 =
-Max
+std
+:
+:
+max
 (
 0
 .

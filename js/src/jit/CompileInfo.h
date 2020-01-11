@@ -125,6 +125,11 @@ h
 "
 #
 include
+<
+algorithm
+>
+#
+include
 "
 jit
 /
@@ -1299,7 +1304,10 @@ isGlobalCode
 ;
 nstack_
 =
-Max
+std
+:
+:
+max
 <
 unsigned
 >
