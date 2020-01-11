@@ -313,7 +313,7 @@ the
 results
 .
 await
-waitForDOM
+waitForDOMIfNeeded
 (
 document
 "
