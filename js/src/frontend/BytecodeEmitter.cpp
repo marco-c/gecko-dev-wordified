@@ -1065,6 +1065,7 @@ line
 perScriptData_
 (
 cx
+parseInfo
 )
 fieldInitializers_
 (
