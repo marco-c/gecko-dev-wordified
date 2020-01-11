@@ -2240,10 +2240,10 @@ BeginUpdate
 (
 )
 ;
-nsNodeUtils
+MutationObservers
 :
 :
-ContentInserted
+NotifyContentInserted
 (
 mDocument
 rootElement

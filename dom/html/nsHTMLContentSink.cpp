@@ -4961,10 +4961,10 @@ get
 true
 )
 ;
-nsNodeUtils
+MutationObservers
 :
 :
-ContentInserted
+NotifyContentInserted
 (
 NODE_FROM
 (
