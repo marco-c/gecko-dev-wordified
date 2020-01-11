@@ -4432,11 +4432,8 @@ return
 mShowPoster
 ;
 }
-AudioChannelService
-:
-:
-AudibleState
-GetAudibleState
+bool
+IsAudible
 (
 )
 const
