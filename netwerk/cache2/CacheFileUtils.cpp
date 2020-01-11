@@ -3311,6 +3311,12 @@ IsCacheSlow
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+sLock
+)
+;
 /
 /
 Compare
