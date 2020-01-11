@@ -7143,9 +7143,11 @@ CheckHashTablesOnMinorGC
 )
 )
 {
-CheckHashTablesAfterMovingGC
+gc
+-
+>
+checkHashTablesAfterMovingGC
 (
-rt
 )
 ;
 }
