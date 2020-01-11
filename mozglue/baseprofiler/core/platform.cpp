@@ -4253,7 +4253,7 @@ sInstance
 >
 mProfileBuffer
 .
-SizeOfIncludingThis
+SizeOfExcludingThis
 (
 aMallocSizeOf
 )
