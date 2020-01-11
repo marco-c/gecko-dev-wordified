@@ -191,7 +191,7 @@ size_t
 aSourceLen
 )
 {
-nsDependentString
+nsDependentSubstring
 unicode
 (
 aSource
