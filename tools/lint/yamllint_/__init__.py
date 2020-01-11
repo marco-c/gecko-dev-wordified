@@ -53,11 +53,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-absolute_import
-print_function
 import
 re
 import
@@ -88,10 +83,6 @@ from
 mozprocess
 import
 ProcessHandlerMixin
-from
-six
-import
-string_types
 here
 =
 os
@@ -738,7 +729,7 @@ if
 isinstance
 (
 paths
-string_types
+str
 )
 :
         
