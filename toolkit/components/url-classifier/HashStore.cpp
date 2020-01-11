@@ -2144,7 +2144,7 @@ aFileSize
 NS_WARNING
 (
 "
-SafeBrowing
+SafeBrowsing
 file
 not
 long
@@ -2257,7 +2257,7 @@ compareHash
 NS_WARNING
 (
 "
-Safebrowing
+SafeBrowsing
 file
 failed
 checksum
