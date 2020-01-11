@@ -1684,10 +1684,13 @@ JSObject
 *
 delegate
 =
-WeakMapBase
+gc
 :
 :
-getDelegate
+detail
+:
+:
+GetDelegate
 (
 key
 -
