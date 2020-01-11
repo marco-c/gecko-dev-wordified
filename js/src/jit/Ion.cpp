@@ -4103,9 +4103,6 @@ jitZone
 size_t
 *
 baselineStubsOptimized
-size_t
-*
-cachedCFG
 )
 const
 {
