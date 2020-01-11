@@ -11108,16 +11108,14 @@ return
 #
 ifdef
 MOZ_GECKO_PROFILER
-nsCString
-charAndName
-;
 if
 (
-profiler_is_active
+profiler_can_accept_markers
 (
 )
 )
 {
+nsCString
 charAndName
 =
 nsPrintfCString
@@ -11142,7 +11140,6 @@ get
 )
 )
 ;
-}
 AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
 (
 "
@@ -11155,6 +11152,7 @@ LAYOUT
 charAndName
 )
 ;
+}
 #
 endif
 AutoTArray

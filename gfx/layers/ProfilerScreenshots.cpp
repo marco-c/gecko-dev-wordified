@@ -603,6 +603,12 @@ the
 correct
 size
 .
+if
+(
+profiler_can_accept_markers
+(
+)
+)
 {
 DataSourceSurface
 :

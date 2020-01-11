@@ -38275,7 +38275,7 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
-profiler_is_active
+profiler_can_accept_markers
 (
 )
 )
@@ -41438,7 +41438,7 @@ AsyncOpen
 )
 if
 (
-profiler_is_active
+profiler_can_accept_markers
 (
 )
 )
@@ -54524,7 +54524,7 @@ ifdef
 MOZ_GECKO_PROFILER
 if
 (
-profiler_is_active
+profiler_can_accept_markers
 (
 )
 &

@@ -193,7 +193,7 @@ aDocShellHistoryId
 :
 mActive
 (
-profiler_is_active
+profiler_can_accept_markers
 (
 )
 )
