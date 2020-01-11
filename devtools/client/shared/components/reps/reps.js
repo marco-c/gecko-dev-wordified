@@ -22153,8 +22153,7 @@ function
 loadItemProperties
 (
 item
-createObjectClient
-createLongStringClient
+client
 loadedProperties
 )
 {
@@ -22219,6 +22218,8 @@ getObjectClient
 objectClient
 |
 |
+client
+.
 createObjectClient
 (
 value
@@ -22357,6 +22358,8 @@ push
 (
 getFullText
 (
+client
+.
 createLongStringClient
 (
 value
@@ -43617,11 +43620,6 @@ loadItemProperties
 (
 node
 client
-.
-createObjectClient
-client
-.
-createLongStringClient
 loadedProperties
 )
 ;

@@ -52,7 +52,7 @@ canRewind
 =
 >
 false
-emitNewMessage
+emitEvent
 :
 (
 )
