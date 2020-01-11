@@ -2228,7 +2228,7 @@ content
 /
 certViewer
 .
-xhtml
+xul
 "
 "
 "

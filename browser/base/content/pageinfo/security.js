@@ -340,7 +340,7 @@ content
 /
 certViewer
 .
-xhtml
+xul
 "
 "
 _blank

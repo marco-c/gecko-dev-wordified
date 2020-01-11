@@ -113,7 +113,7 @@ functionality
 of
 clientauthask
 .
-xhtml
+xul
 :
 a
 dialog

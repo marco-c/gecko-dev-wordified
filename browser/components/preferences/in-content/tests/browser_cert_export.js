@@ -294,7 +294,7 @@ content
 /
 certManager
 .
-xhtml
+xul
 "
 )
 ;

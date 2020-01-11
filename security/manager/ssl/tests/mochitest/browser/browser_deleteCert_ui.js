@@ -523,7 +523,7 @@ content
 /
 deletecert
 .
-xhtml
+xul
 "
 "
 "

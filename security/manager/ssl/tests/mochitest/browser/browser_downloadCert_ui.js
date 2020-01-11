@@ -353,7 +353,7 @@ content
 /
 downloadcert
 .
-xhtml
+xul
 "
 "
 "

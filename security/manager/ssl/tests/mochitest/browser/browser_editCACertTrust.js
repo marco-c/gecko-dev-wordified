@@ -177,7 +177,7 @@ content
 /
 editcacert
 .
-xhtml
+xul
 "
 "
 "

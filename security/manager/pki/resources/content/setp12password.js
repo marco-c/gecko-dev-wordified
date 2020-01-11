@@ -72,7 +72,7 @@ functionality
 of
 setp12password
 .
-xhtml
+xul
 :
 a
 dialog

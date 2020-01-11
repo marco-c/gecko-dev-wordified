@@ -12692,7 +12692,7 @@ content
 /
 certManager
 .
-xhtml
+xul
 "
 )
 ;
@@ -12735,7 +12735,7 @@ content
 /
 device_manager
 .
-xhtml
+xul
 "
 )
 ;

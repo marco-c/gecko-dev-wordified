@@ -118,7 +118,7 @@ content
 /
 exceptionDialog
 .
-xhtml
+xul
 "
 ;
 const

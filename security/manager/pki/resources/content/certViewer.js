@@ -83,7 +83,7 @@ functionality
 for
 certViewer
 .
-xhtml
+xul
 and
 its
 general
