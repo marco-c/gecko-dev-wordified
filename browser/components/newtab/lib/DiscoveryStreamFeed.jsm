@@ -8710,9 +8710,10 @@ subtitle
 link_text
 :
 "
-How
-it
-works
+What
+s
+Pocket
+?
 "
 link_url
 :
@@ -9158,9 +9159,10 @@ subtitle
 link_text
 :
 "
-How
-it
-works
+What
+s
+Pocket
+?
 "
 link_url
 :

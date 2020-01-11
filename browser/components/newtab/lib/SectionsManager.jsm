@@ -449,11 +449,9 @@ newtab
 -
 pocket
 -
-how
+whats
 -
-it
--
-works
+pocket
 "
 }
 }
