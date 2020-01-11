@@ -8478,10 +8478,6 @@ return
 true
 ;
 }
-#
-if
-!
-ENABLE_INTL_API
 void
 js
 :
@@ -8493,6 +8489,10 @@ JSRuntime
 rt
 )
 {
+#
+if
+!
+ENABLE_INTL_API
 /
 *
 *
@@ -8536,9 +8536,13 @@ js_free
 storage
 )
 ;
-}
 #
 endif
+/
+/
+!
+ENABLE_INTL_API
+}
 JSObject
 *
 NumberObject

@@ -114,12 +114,6 @@ js_BinASTFormat_h
 #
 define
 js_BinASTFormat_h
-#
-if
-defined
-(
-JS_BUILD_BINAST
-)
 namespace
 JS
 {
@@ -136,13 +130,6 @@ Context
 *
 namespace
 JS
-*
-/
-#
-endif
-/
-*
-JS_BUILD_BINAST
 *
 /
 #
