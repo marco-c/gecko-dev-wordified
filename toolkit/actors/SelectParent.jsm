@@ -3453,17 +3453,10 @@ ownerDocument
 createXULElement
 (
 "
-textbox
-"
-{
-is
-:
-"
 search
 -
 textbox
 "
-}
 )
 ;
 searchbox

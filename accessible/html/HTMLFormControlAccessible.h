@@ -632,11 +632,11 @@ el
 /
 /
 XUL
-textboxes
+search
+-
+textbox
 custom
-elements
-implementation
-.
+element
 ErrorResult
 rv
 ;
@@ -651,6 +651,8 @@ Closest
 NS_LITERAL_STRING
 (
 "
+search
+-
 textbox
 "
 )
