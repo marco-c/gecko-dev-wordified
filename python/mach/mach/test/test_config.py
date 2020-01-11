@@ -102,27 +102,10 @@ from
 mozunit
 import
 main
-if
-sys
-.
-version_info
-[
-0
-]
-=
-=
-3
-:
-    
-str_type
-=
-str
-else
-:
-    
-str_type
-=
-basestring
+from
+six
+import
+string_types
 CONFIG1
 =
 r
@@ -1101,7 +1084,7 @@ assertIsInstance
 a
 .
 string
-str_type
+string_types
 )
         
 self
@@ -1141,7 +1124,7 @@ assertIsInstance
 a
 .
 path
-str_type
+string_types
 )
     
 def

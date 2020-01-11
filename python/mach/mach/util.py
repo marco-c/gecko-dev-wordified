@@ -62,6 +62,10 @@ import
 os
 import
 sys
+from
+six
+import
+text_type
 def
 setenv
 (
@@ -138,7 +142,7 @@ if
 isinstance
 (
 key
-unicode
+text_type
 )
 :
             
@@ -155,7 +159,7 @@ if
 isinstance
 (
 value
-unicode
+text_type
 )
 :
             

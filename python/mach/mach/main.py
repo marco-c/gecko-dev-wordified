@@ -3455,8 +3455,6 @@ exit_code
         
 except
 Exception
-as
-e
 :
             
 exc_type
