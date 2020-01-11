@@ -830,10 +830,10 @@ detail
 :
 ProxyReleaseChooser
 <
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 nsISupports
 T

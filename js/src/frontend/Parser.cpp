@@ -852,10 +852,10 @@ asFinalParser
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 GeneralParser
 <
@@ -924,10 +924,10 @@ const
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 GeneralParser
 <

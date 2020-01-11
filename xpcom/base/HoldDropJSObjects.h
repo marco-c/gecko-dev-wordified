@@ -206,7 +206,10 @@ T
 bool
 isISupports
 =
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 nsISupports
 T

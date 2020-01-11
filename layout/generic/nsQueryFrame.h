@@ -912,10 +912,10 @@ mozilla
 :
 EnableIf
 <
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 nsIFrame
 Src
@@ -933,10 +933,10 @@ mozilla
 :
 EnableIf
 <
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 nsIFrame
 Dst

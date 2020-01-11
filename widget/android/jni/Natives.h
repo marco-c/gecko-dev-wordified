@@ -1026,7 +1026,10 @@ static
 typename
 EnableIf
 <
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 SupportsWeakPtr
 <

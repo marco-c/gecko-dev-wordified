@@ -1299,10 +1299,10 @@ cache
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 IonIC
 T

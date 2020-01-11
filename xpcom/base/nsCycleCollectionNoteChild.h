@@ -382,10 +382,10 @@ T
 bool
 IsXPCOM
 =
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 nsISupports
 T

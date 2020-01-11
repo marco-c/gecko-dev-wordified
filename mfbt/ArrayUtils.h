@@ -977,7 +977,10 @@ U
 value
 |
 |
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 T
 U

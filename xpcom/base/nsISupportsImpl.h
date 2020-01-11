@@ -802,10 +802,10 @@ _type
 static_assert
 (
 !
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 nsISupports
 _type

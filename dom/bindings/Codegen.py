@@ -3303,7 +3303,10 @@ protoChain
 }
 }
           
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 nsISupports
 {
@@ -29018,7 +29021,10 @@ fill
 static_assert
 (
 !
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 NonRefcountedDOMObject
 {
@@ -105874,7 +105880,10 @@ fill
                     
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 nsISupports
 {

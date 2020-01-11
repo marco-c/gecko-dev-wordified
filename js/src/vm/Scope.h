@@ -2241,10 +2241,10 @@ numBindings
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 BaseScopeData
 Data
