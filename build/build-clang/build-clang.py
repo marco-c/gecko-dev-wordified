@@ -4490,13 +4490,21 @@ if
 osx_cross_compile
 and
 name
-=
-=
+in
+[
 '
 libLLVM
 .
 dylib
 '
+'
+libclang
+-
+cpp
+.
+dylib
+'
+]
 :
             
 continue
@@ -4506,6 +4514,7 @@ is_linux
 (
 )
 and
+(
 fnmatch
 .
 fnmatch
@@ -4517,6 +4526,23 @@ libLLVM
 .
 so
 '
+)
+or
+                           
+fnmatch
+.
+fnmatch
+(
+name
+'
+libclang
+-
+cpp
+.
+so
+*
+'
+)
 )
 :
             
