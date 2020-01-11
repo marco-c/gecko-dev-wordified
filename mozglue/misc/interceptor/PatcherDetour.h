@@ -4376,6 +4376,15 @@ tramp
 =
 aTramp
 ;
+if
+(
+!
+tramp
+)
+{
+return
+;
+}
 /
 /
 The
