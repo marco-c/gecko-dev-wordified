@@ -332,6 +332,14 @@ GetControllersNum
 )
 const
 ;
+already_AddRefed
+<
+MediaController
+>
+GetLastAddedController
+(
+)
+;
 private
 :
 MediaControlService
@@ -381,6 +389,12 @@ MediaController
 >
 >
 mControllers
+;
+nsTArray
+<
+uint64_t
+>
+mControllerHistory
 ;
 AudioFocusManager
 mAudioFocusManager
