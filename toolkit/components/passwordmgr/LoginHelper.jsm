@@ -1525,6 +1525,16 @@ from
 JS
 .
 *
+deprecated
+Use
+Services
+.
+logins
+.
+searchLoginsAsync
+instead
+.
+*
 *
 param
 {
