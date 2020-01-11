@@ -251,7 +251,6 @@ return
 new
 Promise
 (
-async
 (
 resolve
 reject
