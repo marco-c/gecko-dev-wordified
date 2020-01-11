@@ -1087,6 +1087,10 @@ mojom
 SensorProvider
 .
 name
+"
+context
+"
+true
 )
 ;
 this
