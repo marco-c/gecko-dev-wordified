@@ -538,6 +538,7 @@ SetCertVerificationResult
 PRErrorCode
 errorCode
 )
+override
 ;
 /
 /
