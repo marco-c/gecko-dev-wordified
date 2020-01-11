@@ -536,6 +536,19 @@ bind
         
 self
 .
+host
+=
+self
+.
+config
+[
+'
+host
+'
+]
+        
+self
+.
 port
 =
 sock
@@ -566,12 +579,7 @@ d
 (
 self
 .
-config
-[
-'
 host
-'
-]
 self
 .
 port
