@@ -749,6 +749,14 @@ return
 }
 if
 (
+aOldPosition
+!
+=
+aNewPosition
+)
+{
+if
+(
 aReason
 =
 =
@@ -791,6 +799,7 @@ SendAccessibilityFocusedEvent
 wrapperForNewPosition
 )
 ;
+}
 }
 if
 (
