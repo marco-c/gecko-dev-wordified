@@ -510,15 +510,6 @@ aClipRect
 )
 {
 }
-void
-wr_compositor_unbind
-(
-void
-*
-aCompositor
-)
-{
-}
 /
 /
 Whether
