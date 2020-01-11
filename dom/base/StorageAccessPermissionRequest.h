@@ -269,6 +269,8 @@ aCancelCallback
 StorageAccessPermissionRequest
 (
 )
+=
+default
 ;
 unsigned
 CalculateSimulatedDelay
