@@ -27705,7 +27705,7 @@ if
 !
 marker
 .
-isWeakMarkingTracer
+isWeakMarking
 (
 )
 )
