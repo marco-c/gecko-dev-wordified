@@ -262,6 +262,8 @@ resources
 /
 common
 .
+sub
+.
 js
 :
 client
@@ -8469,6 +8471,8 @@ expose
 invokeRequest
 when
 common
+.
+sub
 .
 js
 is
