@@ -832,7 +832,7 @@ link
 "
 >
 &
-learnMore
+learnMoreNoEllipsis
 ;
 <
 /
