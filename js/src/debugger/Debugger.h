@@ -2515,6 +2515,12 @@ using
 Base
 :
 :
+lookupUnbarriered
+;
+using
+Base
+:
+:
 remove
 ;
 using

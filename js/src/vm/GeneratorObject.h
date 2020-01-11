@@ -1170,6 +1170,14 @@ op
 ;
 public
 :
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 static
 size_t
 offsetOfCalleeSlot
@@ -1259,6 +1267,11 @@ static
 const
 JSClass
 class_
+;
+static
+const
+JSClassOps
+classOps_
 ;
 static
 GeneratorObject
