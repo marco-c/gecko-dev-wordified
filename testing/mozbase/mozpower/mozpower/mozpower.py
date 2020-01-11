@@ -79,6 +79,8 @@ import
     
 average_summary
     
+frequency_summary
+    
 get_logger
     
 sum_summary
@@ -112,6 +114,30 @@ usage
 '
 :
 sum_summary
+    
+'
+power
+-
+watts
+'
+:
+frequency_summary
+    
+'
+frequency
+-
+cpu
+'
+:
+frequency_summary
+    
+'
+frequency
+-
+gpu
+'
+:
+frequency_summary
     
 '
 default
@@ -2555,7 +2581,10 @@ values
 .
 append
 (
+(
 value
+measure
+)
 )
                 
 subtests
