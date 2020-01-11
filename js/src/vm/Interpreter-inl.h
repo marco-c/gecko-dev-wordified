@@ -2690,7 +2690,7 @@ return
 BigInt
 :
 :
-neg
+negValue
 (
 cx
 val
@@ -2816,7 +2816,7 @@ return
 BigInt
 :
 :
-inc
+incValue
 (
 cx
 val
@@ -2926,7 +2926,7 @@ return
 BigInt
 :
 :
-dec
+decValue
 (
 cx
 val
@@ -5364,7 +5364,7 @@ return
 BigInt
 :
 :
-bitNot
+bitNotValue
 (
 cx
 in
@@ -5446,7 +5446,7 @@ return
 BigInt
 :
 :
-bitXor
+bitXorValue
 (
 cx
 lhs
@@ -5534,7 +5534,7 @@ return
 BigInt
 :
 :
-bitOr
+bitOrValue
 (
 cx
 lhs
@@ -5622,7 +5622,7 @@ return
 BigInt
 :
 :
-bitAnd
+bitAndValue
 (
 cx
 lhs
@@ -5710,7 +5710,7 @@ return
 BigInt
 :
 :
-lsh
+lshValue
 (
 cx
 lhs
@@ -5873,7 +5873,7 @@ return
 BigInt
 :
 :
-rsh
+rshValue
 (
 cx
 lhs

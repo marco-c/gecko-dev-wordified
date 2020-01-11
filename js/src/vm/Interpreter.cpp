@@ -10102,7 +10102,7 @@ return
 BigInt
 :
 :
-add
+addValue
 (
 cx
 lhs
@@ -10190,7 +10190,7 @@ return
 BigInt
 :
 :
-sub
+subValue
 (
 cx
 lhs
@@ -10278,7 +10278,7 @@ return
 BigInt
 :
 :
-mul
+mulValue
 (
 cx
 lhs
@@ -10366,7 +10366,7 @@ return
 BigInt
 :
 :
-div
+divValue
 (
 cx
 lhs
@@ -10521,7 +10521,7 @@ return
 BigInt
 :
 :
-mod
+modValue
 (
 cx
 lhs
@@ -10611,7 +10611,7 @@ return
 BigInt
 :
 :
-pow
+powValue
 (
 cx
 lhs

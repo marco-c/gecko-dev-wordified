@@ -18904,7 +18904,7 @@ bool
 BigInt
 :
 :
-add
+addValue
 (
 JSContext
 *
@@ -18993,7 +18993,7 @@ bool
 BigInt
 :
 :
-sub
+subValue
 (
 JSContext
 *
@@ -19082,7 +19082,7 @@ bool
 BigInt
 :
 :
-mul
+mulValue
 (
 JSContext
 *
@@ -19171,7 +19171,7 @@ bool
 BigInt
 :
 :
-div
+divValue
 (
 JSContext
 *
@@ -19260,7 +19260,7 @@ bool
 BigInt
 :
 :
-mod
+modValue
 (
 JSContext
 *
@@ -19349,7 +19349,7 @@ bool
 BigInt
 :
 :
-pow
+powValue
 (
 JSContext
 *
@@ -19438,7 +19438,7 @@ bool
 BigInt
 :
 :
-neg
+negValue
 (
 JSContext
 *
@@ -19507,7 +19507,7 @@ bool
 BigInt
 :
 :
-inc
+incValue
 (
 JSContext
 *
@@ -19576,7 +19576,7 @@ bool
 BigInt
 :
 :
-dec
+decValue
 (
 JSContext
 *
@@ -19645,7 +19645,7 @@ bool
 BigInt
 :
 :
-lsh
+lshValue
 (
 JSContext
 *
@@ -19734,7 +19734,7 @@ bool
 BigInt
 :
 :
-rsh
+rshValue
 (
 JSContext
 *
@@ -19823,7 +19823,7 @@ bool
 BigInt
 :
 :
-bitAnd
+bitAndValue
 (
 JSContext
 *
@@ -19912,7 +19912,7 @@ bool
 BigInt
 :
 :
-bitXor
+bitXorValue
 (
 JSContext
 *
@@ -20001,7 +20001,7 @@ bool
 BigInt
 :
 :
-bitOr
+bitOrValue
 (
 JSContext
 *
@@ -20090,7 +20090,7 @@ bool
 BigInt
 :
 :
-bitNot
+bitNotValue
 (
 JSContext
 *

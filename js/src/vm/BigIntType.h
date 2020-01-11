@@ -1309,7 +1309,7 @@ value
 .
 static
 bool
-add
+addValue
 (
 JSContext
 *
@@ -1333,7 +1333,7 @@ res
 ;
 static
 bool
-sub
+subValue
 (
 JSContext
 *
@@ -1357,7 +1357,7 @@ res
 ;
 static
 bool
-mul
+mulValue
 (
 JSContext
 *
@@ -1381,7 +1381,7 @@ res
 ;
 static
 bool
-div
+divValue
 (
 JSContext
 *
@@ -1405,7 +1405,7 @@ res
 ;
 static
 bool
-mod
+modValue
 (
 JSContext
 *
@@ -1429,7 +1429,7 @@ res
 ;
 static
 bool
-pow
+powValue
 (
 JSContext
 *
@@ -1453,7 +1453,7 @@ res
 ;
 static
 bool
-neg
+negValue
 (
 JSContext
 *
@@ -1472,7 +1472,7 @@ res
 ;
 static
 bool
-inc
+incValue
 (
 JSContext
 *
@@ -1491,7 +1491,7 @@ res
 ;
 static
 bool
-dec
+decValue
 (
 JSContext
 *
@@ -1510,7 +1510,7 @@ res
 ;
 static
 bool
-lsh
+lshValue
 (
 JSContext
 *
@@ -1534,7 +1534,7 @@ res
 ;
 static
 bool
-rsh
+rshValue
 (
 JSContext
 *
@@ -1558,7 +1558,7 @@ res
 ;
 static
 bool
-bitAnd
+bitAndValue
 (
 JSContext
 *
@@ -1582,7 +1582,7 @@ res
 ;
 static
 bool
-bitXor
+bitXorValue
 (
 JSContext
 *
@@ -1606,7 +1606,7 @@ res
 ;
 static
 bool
-bitOr
+bitOrValue
 (
 JSContext
 *
@@ -1630,7 +1630,7 @@ res
 ;
 static
 bool
-bitNot
+bitNotValue
 (
 JSContext
 *
