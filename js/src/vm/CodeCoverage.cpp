@@ -4999,6 +4999,17 @@ value
 (
 )
 ;
+if
+(
+!
+script
+-
+>
+isUncompleted
+(
+)
+)
+{
 source
 -
 >
@@ -5007,6 +5018,7 @@ writeScript
 script
 )
 ;
+}
 map
 -
 >
