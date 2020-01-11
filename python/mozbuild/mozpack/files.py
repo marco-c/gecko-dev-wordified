@@ -349,72 +349,6 @@ types
 !
 '
 )
-#
-Helper
-function
-;
-ensures
-we
-always
-open
-files
-with
-the
-correct
-encoding
-when
-#
-opening
-them
-in
-text
-mode
-.
-def
-_open
-(
-path
-mode
-=
-'
-r
-'
-)
-:
-    
-if
-six
-.
-PY3
-and
-'
-b
-'
-not
-in
-mode
-:
-        
-return
-open
-(
-path
-mode
-encoding
-=
-'
-utf
--
-8
-'
-)
-    
-return
-open
-(
-path
-mode
-)
 class
 Dest
 (
@@ -589,7 +523,7 @@ self
 .
 file
 =
-_open
+open
 (
 self
 .
@@ -643,7 +577,7 @@ self
 .
 file
 =
-_open
+open
 (
 self
 .
@@ -1769,7 +1703,7 @@ not
 None
         
 return
-_open
+open
 (
 self
 .
@@ -2073,7 +2007,7 @@ file
 '
         
 with
-_open
+open
 (
 self
 .
@@ -3900,7 +3834,7 @@ silence_missing_directive_warnings
 )
         
 with
-_open
+open
 (
 self
 .
@@ -3914,7 +3848,7 @@ input
 :
             
 with
-_open
+open
 (
 os
 .
@@ -4191,7 +4125,7 @@ name
 )
             
 with
-_open
+open
 (
 self
 .
@@ -4374,7 +4308,7 @@ silence_missing_directive_warnings
 )
         
 with
-_open
+open
 (
 self
 .
