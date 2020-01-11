@@ -216,7 +216,7 @@ undef
 FRAME_STATE_BIT
 }
 ;
-inline
+constexpr
 nsFrameState
 operator
 |
@@ -242,7 +242,7 @@ aRight
 )
 ;
 }
-inline
+constexpr
 nsFrameState
 operator
 &
@@ -268,7 +268,7 @@ aRight
 )
 ;
 }
-inline
+constexpr
 nsFrameState
 &
 operator
@@ -292,7 +292,7 @@ return
 aLeft
 ;
 }
-inline
+constexpr
 nsFrameState
 &
 operator
@@ -316,7 +316,7 @@ return
 aLeft
 ;
 }
-inline
+constexpr
 nsFrameState
 operator
 ~
@@ -336,7 +336,7 @@ aRight
 )
 ;
 }
-inline
+constexpr
 nsFrameState
 operator
 ^
@@ -362,7 +362,7 @@ aRight
 )
 ;
 }
-inline
+constexpr
 nsFrameState
 &
 operator
