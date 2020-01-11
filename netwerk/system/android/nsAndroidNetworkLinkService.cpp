@@ -873,6 +873,15 @@ void
 nsAndroidNetworkLinkService
 :
 :
+OnNetworkIDChanged
+(
+)
+{
+}
+void
+nsAndroidNetworkLinkService
+:
+:
 OnLinkUp
 (
 )
