@@ -2750,7 +2750,7 @@ s
 )
 "
 "
-IDBObjectStore
+IDBIndex
 .
 openCursor
 (
@@ -3106,7 +3106,7 @@ s
 )
 "
 "
-IDBObjectStore
+IDBIndex
 .
 count
 (
