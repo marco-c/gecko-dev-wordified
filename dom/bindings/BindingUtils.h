@@ -5541,12 +5541,8 @@ a
 [
 Global
 ]
-or
-*
-[
-PrimaryGlobal
-]
 interface
+*
 and
 hence
 shouldn
@@ -5555,7 +5551,6 @@ t
 define
 properties
 on
-*
 the
 prototype
 object
