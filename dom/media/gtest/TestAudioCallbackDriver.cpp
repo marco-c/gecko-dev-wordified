@@ -220,7 +220,6 @@ TEST
 TestAudioCallbackDriver
 StartStop
 )
-MOZ_CAN_RUN_SCRIPT_FOR_DEFINITION
 {
 MockCubeb
 *
@@ -409,14 +408,11 @@ have
 been
 executed
 .
-MOZ_KnownLive
-(
 driver
 -
 >
 AsAudioCallbackDriver
 (
-)
 )
 -
 >
