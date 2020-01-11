@@ -4527,6 +4527,11 @@ AreNonLocalConnectionsDisabled
 )
 ;
 }
+void
+InitializeJSContext
+(
+)
+;
 /
 *
 *
