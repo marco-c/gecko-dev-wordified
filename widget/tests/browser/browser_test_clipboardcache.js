@@ -82,7 +82,7 @@ tests
 /
 test_bug1123480
 .
-xul
+xhtml
 checks
 whether
 nsTransferable
