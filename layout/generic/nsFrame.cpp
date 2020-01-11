@@ -34010,6 +34010,16 @@ GetFrameSelection
 (
 )
 ;
+if
+(
+!
+frameselection
+)
+{
+return
+NS_OK
+;
+}
 bool
 mouseDown
 =
