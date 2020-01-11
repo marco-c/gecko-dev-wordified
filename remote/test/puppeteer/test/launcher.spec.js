@@ -1144,7 +1144,7 @@ Timeout
 }
 )
 ;
-describe
+describe_fails_ffox
 (
 '
 Puppeteer
@@ -3160,7 +3160,7 @@ close
 }
 )
 ;
-describe
+describe_fails_ffox
 (
 '
 Puppeteer
@@ -4259,7 +4259,7 @@ iPhone
 }
 )
 ;
-describe
+describe_fails_ffox
 (
 '
 Browser
@@ -4425,7 +4425,7 @@ close
 }
 )
 ;
-describe
+describe_fails_ffox
 (
 '
 Browser
