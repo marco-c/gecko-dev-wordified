@@ -548,7 +548,7 @@ Date
 REAL
 (
 Math
-InitMathClass
+InitViaClassSpec
 CLASP
 (
 Math
