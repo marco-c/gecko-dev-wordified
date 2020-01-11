@@ -160,10 +160,14 @@ valid_details_0
 measure
 '
 :
+[
 '
 fnbpaint
+'
+'
 fcp
 '
+]
     
 '
 page_cycles
