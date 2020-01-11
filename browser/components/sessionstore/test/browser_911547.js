@@ -312,8 +312,6 @@ browser
 ]
 function
 (
-{
-}
 )
 {
 /
@@ -427,8 +425,6 @@ browser
 ]
 function
 (
-{
-}
 )
 {
 /

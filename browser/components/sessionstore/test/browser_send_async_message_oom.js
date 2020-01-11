@@ -285,13 +285,12 @@ newTab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 frameScript
 )
 ;

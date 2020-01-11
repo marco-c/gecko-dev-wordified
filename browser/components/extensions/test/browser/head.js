@@ -1702,13 +1702,12 @@ awaitBrowserLoaded
 browser
 =
 >
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 (
 )
 =
