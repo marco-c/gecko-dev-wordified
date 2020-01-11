@@ -227,6 +227,8 @@ gfx
 VRSystemState
 &
 aSystemState
+bool
+aDetectRuntimesOnly
 )
 override
 ;
