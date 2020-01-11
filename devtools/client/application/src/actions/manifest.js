@@ -92,6 +92,8 @@ require
 /
 modules
 /
+application
+-
 services
 "
 )
