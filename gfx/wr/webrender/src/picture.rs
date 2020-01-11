@@ -9247,10 +9247,6 @@ r
 r
 .
 world_rect
-.
-clone
-(
-)
 )
 .
 collect
@@ -33330,8 +33326,6 @@ TileNodeKind
 :
 Node
 {
-children
-:
 children
 }
 ;
