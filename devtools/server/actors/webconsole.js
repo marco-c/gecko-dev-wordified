@@ -4114,11 +4114,6 @@ consoleProgressListener
 .
 startMonitor
 (
-this
-.
-consoleProgressListener
-.
-MONITOR_FILE_ACTIVITY
 )
 ;
 startedListeners
@@ -4644,11 +4639,6 @@ consoleProgressListener
 .
 stopMonitor
 (
-this
-.
-consoleProgressListener
-.
-MONITOR_FILE_ACTIVITY
 )
 ;
 this
