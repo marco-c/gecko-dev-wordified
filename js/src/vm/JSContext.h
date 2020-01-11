@@ -5457,7 +5457,6 @@ runningWithTrustedPrincipals
 (
 )
 ;
-JS_FRIEND_API
 size_t
 sizeOfExcludingThis
 (
