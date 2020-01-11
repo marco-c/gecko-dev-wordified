@@ -114,6 +114,10 @@ typedef
 uint64_t
 RawId
 ;
+typedef
+uint64_t
+BufferAddress
+;
 }
 /
 /
