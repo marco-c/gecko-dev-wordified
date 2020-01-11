@@ -532,8 +532,6 @@ mode
 ]
 =
 '
-nested
--
 navigate
 '
 ;
