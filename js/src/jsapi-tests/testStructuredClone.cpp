@@ -1334,6 +1334,16 @@ rank
 )
 ;
 }
+bool
+isSystemOrAddonPrincipal
+(
+)
+override
+{
+return
+true
+;
+}
 static
 bool
 read

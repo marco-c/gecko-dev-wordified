@@ -375,6 +375,12 @@ aWriter
 )
 final
 ;
+bool
+isSystemOrAddonPrincipal
+(
+)
+final
+;
 /
 *
 *

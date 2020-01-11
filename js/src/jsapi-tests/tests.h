@@ -3093,6 +3093,16 @@ return
 false
 ;
 }
+bool
+isSystemOrAddonPrincipal
+(
+)
+override
+{
+return
+true
+;
+}
 }
 ;
 /
