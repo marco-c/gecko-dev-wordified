@@ -168,6 +168,11 @@ CompositorWidgetChild
 )
 override
 ;
+bool
+Initialize
+(
+)
+;
 mozilla
 :
 :
