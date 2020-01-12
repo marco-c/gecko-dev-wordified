@@ -1333,6 +1333,14 @@ linux64
 -
 asan
 '
+        
+'
+linux64
+-
+stylo
+-
+sequential
+'
     
 ]
     
@@ -1350,6 +1358,14 @@ linux64
 linux64
 -
 asan
+'
+        
+'
+linux64
+-
+stylo
+-
+sequential
 '
     
 ]
