@@ -6640,6 +6640,19 @@ SharedFontList
 )
 )
 {
+bool
+allowHidden
+=
+bool
+(
+aFlags
+&
+FindFamiliesFlags
+:
+:
+eSearchHiddenFamilies
+)
+;
 fontlist
 :
 :
@@ -6655,6 +6668,7 @@ SharedFontList
 FindFamily
 (
 key
+allowHidden
 )
 ;
 if
