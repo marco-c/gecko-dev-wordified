@@ -98,7 +98,6 @@ util
 .
 partials
 import
-get_balrog_platform_name
 get_builds
 from
 taskgraph
@@ -764,15 +763,6 @@ reference
 :
 artifact_path
 }
-                
-'
-platform
-'
-:
-get_balrog_platform_name
-(
-dep_th_platform
-)
                 
 '
 branch
