@@ -1985,7 +1985,7 @@ out
 =
 six
 .
-BytesIO
+StringIO
 (
 )
         
