@@ -7235,12 +7235,11 @@ driver
 let
 use_upload_format
 =
-!
 self
 .
 swizzle
 .
-is_some
+is_none
 (
 )
 ;
