@@ -165,6 +165,12 @@ disabled
 '
     
 '
+stylo
+-
+sequential
+'
+    
+'
 qr
 '
     
