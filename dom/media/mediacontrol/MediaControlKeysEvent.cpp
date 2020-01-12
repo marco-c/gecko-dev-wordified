@@ -291,7 +291,7 @@ controller
 service
 -
 >
-GetLastAddedController
+GetMainController
 (
 )
 ;
