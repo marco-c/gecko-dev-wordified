@@ -17486,13 +17486,10 @@ undefined
 pc
 +
 =
-CodeSpec
-[
-*
+GetBytecodeLength
+(
 pc
-]
-.
-length
+)
 ;
 if
 (
