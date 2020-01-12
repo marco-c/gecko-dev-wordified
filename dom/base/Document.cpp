@@ -94839,7 +94839,8 @@ documents
 .
 if
 (
-GetSameTypeParentDocument
+!
+IsTopLevelContentDocument
 (
 )
 )
