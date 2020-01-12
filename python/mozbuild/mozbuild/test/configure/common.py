@@ -74,6 +74,10 @@ tempfile
 import
 unittest
 from
+StringIO
+import
+StringIO
+from
 mozbuild
 .
 configure
@@ -92,13 +96,9 @@ path
 as
 mozpath
 from
-StringIO
+six
 import
-StringIO
-from
-which
-import
-WhichError
+string_types
 from
 buildconfig
 import
@@ -771,7 +771,7 @@ what
 =
 =
 '
-which
+mozfile
 .
 which
 '
@@ -787,7 +787,7 @@ what
 =
 =
 '
-which
+mozfile
 '
 :
             
@@ -800,10 +800,6 @@ which
 self
 .
 which
-                
-WhichError
-=
-WhichError
             
 )
         
@@ -1164,6 +1160,9 @@ which
 (
 self
 command
+mode
+=
+None
 path
 =
 None
@@ -1172,6 +1171,25 @@ exts
 None
 )
 :
+        
+if
+isinstance
+(
+path
+string_types
+)
+:
+            
+path
+=
+path
+.
+split
+(
+os
+.
+pathsep
+)
         
 for
 parent
@@ -1228,10 +1246,8 @@ candidate
 return
 candidate
         
-raise
-WhichError
-(
-)
+return
+None
     
 def
 Popen
@@ -1253,9 +1269,6 @@ kargs
 )
 :
         
-try
-:
-            
 program
 =
 self
@@ -1268,8 +1281,9 @@ args
 ]
 )
         
-except
-WhichError
+if
+not
+program
 :
             
 raise
