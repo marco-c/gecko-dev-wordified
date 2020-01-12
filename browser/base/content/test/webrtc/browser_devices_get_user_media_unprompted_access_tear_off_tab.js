@@ -420,11 +420,6 @@ observerPromises
 await
 disableObserverVerification
 (
-win
-.
-gBrowser
-.
-selectedBrowser
 )
 ;
 observerPromises
