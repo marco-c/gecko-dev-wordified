@@ -21,7 +21,7 @@ page
 *
 *
 Copyright
-2019
+2020
 Mozilla
 Foundation
 *
@@ -1719,14 +1719,14 @@ pdfjsVersion
 .
 4
 .
-254
+264
 '
 ;
 const
 pdfjsBuild
 =
 '
-b833f843
+4729fdc0
 '
 ;
 const
@@ -2181,7 +2181,7 @@ workerVersion
 .
 4
 .
-254
+264
 '
 ;
 if
