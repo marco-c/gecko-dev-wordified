@@ -608,7 +608,7 @@ IDBCursor
 Direction
 :
 :
-EndGuard_
+Invalid
 >
 {
 }

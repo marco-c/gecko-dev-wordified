@@ -1831,7 +1831,7 @@ IDBTransaction
 :
 OpenCursor
 (
-PBackgroundIDBCursorChild
+BackgroundCursorChild
 *
 const
 aBackgroundActor
