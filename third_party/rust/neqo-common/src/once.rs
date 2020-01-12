@@ -125,6 +125,10 @@ OnceResult
 T
 >
 {
+#
+[
+must_use
+]
 pub
 const
 fn

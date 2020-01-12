@@ -169,6 +169,10 @@ into
 )
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 source
@@ -184,6 +188,10 @@ self
 .
 src
 }
+#
+[
+must_use
+]
 pub
 fn
 destination
@@ -213,6 +221,10 @@ Vec
 u8
 >
 ;
+#
+[
+must_use
+]
 fn
 deref
 (

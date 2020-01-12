@@ -391,6 +391,10 @@ the
 next
 entry
 .
+#
+[
+must_use
+]
 pub
 fn
 next_time
@@ -522,6 +526,10 @@ cast_possible_truncation
 guarded
 by
 assertion
+#
+[
+must_use
+]
 pub
 fn
 span

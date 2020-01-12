@@ -208,6 +208,10 @@ Type
 for
 SecretDirection
 {
+#
+[
+must_use
+]
 fn
 from
 (
@@ -231,7 +235,7 @@ SSLSecretDirection
 ssl_secret_read
 =
 >
-SecretDirection
+Self
 :
 :
 Read
@@ -241,7 +245,7 @@ SSLSecretDirection
 ssl_secret_write
 =
 >
-SecretDirection
+Self
 :
 :
 Write

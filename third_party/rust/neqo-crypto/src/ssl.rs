@@ -317,7 +317,7 @@ i
 match
 self
 {
-Opt
+Self
 :
 :
 Locking
@@ -327,7 +327,7 @@ SSLOption
 :
 :
 SSL_NO_LOCKS
-Opt
+Self
 :
 :
 Tickets
@@ -337,7 +337,7 @@ SSLOption
 :
 :
 SSL_ENABLE_SESSION_TICKETS
-Opt
+Self
 :
 :
 OcspStapling
@@ -347,7 +347,7 @@ SSLOption
 :
 :
 SSL_ENABLE_OCSP_STAPLING
-Opt
+Self
 :
 :
 Alpn
@@ -357,7 +357,7 @@ SSLOption
 :
 :
 SSL_ENABLE_ALPN
-Opt
+Self
 :
 :
 ExtendedMasterSecret
@@ -367,7 +367,7 @@ SSLOption
 :
 :
 SSL_ENABLE_EXTENDED_MASTER_SECRET
-Opt
+Self
 :
 :
 SignedCertificateTimestamps
@@ -377,7 +377,7 @@ SSLOption
 :
 :
 SSL_ENABLE_SIGNED_CERT_TIMESTAMPS
-Opt
+Self
 :
 :
 EarlyData
@@ -387,7 +387,7 @@ SSLOption
 :
 :
 SSL_ENABLE_0RTT_DATA
-Opt
+Self
 :
 :
 RecordSizeLimit
@@ -397,7 +397,7 @@ SSLOption
 :
 :
 SSL_RECORD_SIZE_LIMIT
-Opt
+Self
 :
 :
 Tls13CompatMode
@@ -407,7 +407,7 @@ SSLOption
 :
 :
 SSL_ENABLE_TLS13_COMPAT_MODE
-Opt
+Self
 :
 :
 HelloDowngradeCheck
@@ -457,7 +457,7 @@ v
 match
 self
 {
-Opt
+Self
 :
 :
 Locking

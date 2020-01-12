@@ -397,6 +397,10 @@ prefix
 )
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 expansion

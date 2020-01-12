@@ -109,6 +109,9 @@ mod
 connection_client
 ;
 mod
+connection_server
+;
+mod
 control_stream_local
 ;
 mod
@@ -117,6 +120,9 @@ control_stream_remote
 pub
 mod
 hframe
+;
+mod
+hsettings_frame
 ;
 pub
 mod
@@ -276,6 +282,7 @@ Error
 )
 Unavailable
 Unexpected
+InvalidResumptionToken
 }
 impl
 Error

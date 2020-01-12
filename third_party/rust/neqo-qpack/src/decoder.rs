@@ -5819,7 +5819,7 @@ decoder
 .
 set_capacity
 (
-60
+100
 )
 .
 is_ok

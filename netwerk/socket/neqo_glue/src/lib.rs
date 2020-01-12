@@ -2618,6 +2618,7 @@ u64
 }
 RequestsCreatable
 AuthenticationNeeded
+ZeroRttRejected
 ConnectionConnected
 GoawayReceived
 ConnectionClosing
@@ -2873,6 +2874,16 @@ Http3Event
 :
 :
 AuthenticationNeeded
+Http3ClientEvent
+:
+:
+ZeroRttRejected
+=
+>
+Http3Event
+:
+:
+ZeroRttRejected
 Http3ClientEvent
 :
 :
