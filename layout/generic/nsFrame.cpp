@@ -66937,10 +66937,11 @@ up
 absolutely
 -
 positioned
-and
 /
 /
 float
+and
+overflow
 ones
 .
 const
@@ -66971,6 +66972,10 @@ nsIFrame
 :
 :
 kFloatList
+nsIFrame
+:
+:
+kOverflowList
 }
 ;
 for
