@@ -463,6 +463,16 @@ bool
 aInChromeDoc
 )
 ;
+static
+const
+char
+*
+GetNameSpaceDisplayName
+(
+uint32_t
+aNameSpaceID
+)
+;
 bool
 HasElementCreator
 (
