@@ -112758,9 +112758,6 @@ in
 constructor
 "
 "
-toSource
-"
-"
 toString
 "
 "
