@@ -13524,9 +13524,11 @@ browser
 }
 webrtcUI
 .
-forgetStreamsFromBrowser
+forgetStreamsFromBrowserContext
 (
 browser
+.
+browsingContext
 )
 ;
 /

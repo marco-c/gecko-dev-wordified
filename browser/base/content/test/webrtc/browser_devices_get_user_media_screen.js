@@ -4847,6 +4847,17 @@ request
 "
 )
 ;
+promise
+=
+promisePopupNotificationShown
+(
+"
+webRTC
+-
+shareDevices
+"
+)
+;
 await
 promiseRequestDevice
 (

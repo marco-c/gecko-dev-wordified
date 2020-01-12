@@ -37325,13 +37325,6 @@ aBrowser
 )
 ;
 }
-webrtcUI
-.
-forgetStreamsFromBrowser
-(
-aBrowser
-)
-;
 gBrowser
 .
 getNotificationBox
