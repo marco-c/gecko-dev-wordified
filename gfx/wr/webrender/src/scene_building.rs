@@ -4735,8 +4735,6 @@ max
 println
 !
 (
-"
-"
 )
 ;
 }
@@ -19941,14 +19939,13 @@ full
 explanation
 .
 if
-!
 self
 .
 composite_ops
 .
 mix_blend_mode
 .
-is_none
+is_some
 (
 )
 &
@@ -21025,10 +21022,6 @@ map
 primitive
 |
 primitive
-.
-into
-(
-)
 )
 .
 collect

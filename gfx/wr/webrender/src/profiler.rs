@@ -5589,11 +5589,8 @@ value
 stats
 .
 mean_value
-=
-stats
-.
-mean_value
 +
+=
 *
 value
 ;
@@ -5625,11 +5622,8 @@ is_empty
 stats
 .
 mean_value
-=
-stats
-.
-mean_value
 /
+=
 self
 .
 values
