@@ -2994,6 +2994,7 @@ bce_
 >
 emitAtomOp
 (
+JSOP_GETPROP
 bce_
 -
 >
@@ -3005,7 +3006,6 @@ names
 )
 .
 prototype
-JSOP_GETPROP
 )
 )
 {
@@ -3755,6 +3755,7 @@ bce_
 >
 emitAtomOp
 (
+JSOP_INITLOCKEDPROP
 bce_
 -
 >
@@ -3766,7 +3767,6 @@ names
 )
 .
 prototype
-JSOP_INITLOCKEDPROP
 )
 )
 {
@@ -3792,6 +3792,7 @@ bce_
 >
 emitAtomOp
 (
+JSOP_INITHIDDENPROP
 bce_
 -
 >
@@ -3803,7 +3804,6 @@ names
 )
 .
 constructor
-JSOP_INITHIDDENPROP
 )
 )
 {

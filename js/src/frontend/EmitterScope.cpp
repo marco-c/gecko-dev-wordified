@@ -6371,12 +6371,12 @@ bce
 >
 emitAtomOp
 (
-name
 bi
 .
 bindingOp
 (
 )
+name
 )
 )
 {
@@ -7050,12 +7050,12 @@ bce
 >
 emitAtomOp
 (
+JSOP_DEFVAR
 bi
 .
 name
 (
 )
-JSOP_DEFVAR
 )
 )
 {

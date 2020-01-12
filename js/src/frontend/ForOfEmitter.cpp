@@ -801,6 +801,7 @@ bce_
 >
 emitAtomOp
 (
+JSOP_GETPROP
 bce_
 -
 >
@@ -812,7 +813,6 @@ names
 )
 .
 done
-JSOP_GETPROP
 )
 )
 {
@@ -951,6 +951,7 @@ bce_
 >
 emitAtomOp
 (
+JSOP_GETPROP
 bce_
 -
 >
@@ -962,7 +963,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
