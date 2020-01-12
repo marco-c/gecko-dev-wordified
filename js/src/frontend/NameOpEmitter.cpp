@@ -1052,7 +1052,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitAtomOp
 (
 JSOP_BINDNAME
 atomIndex_
@@ -1163,7 +1163,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitAtomOp
 (
 JSOP_BINDGNAME
 atomIndex_
@@ -1630,7 +1630,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitAtomOp
 (
 bce_
 -
@@ -1691,7 +1691,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitAtomOp
 (
 op
 atomIndex_

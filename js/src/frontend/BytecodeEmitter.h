@@ -3133,16 +3133,6 @@ kind
 ;
 MOZ_MUST_USE
 bool
-emitIndex32
-(
-JSOp
-op
-uint32_t
-index
-)
-;
-MOZ_MUST_USE
-bool
 emitIndexOp
 (
 JSOp

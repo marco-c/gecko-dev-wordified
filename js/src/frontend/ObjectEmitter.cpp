@@ -1864,7 +1864,7 @@ if
 bce_
 -
 >
-emitIndex32
+emitAtomOp
 (
 op
 index

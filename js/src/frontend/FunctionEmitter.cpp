@@ -1718,7 +1718,7 @@ if
 bce_
 -
 >
-emitIndex32
+emitIndexOp
 (
 JSOP_FUNWITHPROTO
 index
@@ -1783,7 +1783,7 @@ if
 bce_
 -
 >
-emitIndex32
+emitIndexOp
 (
 op
 index
@@ -2116,7 +2116,7 @@ if
 bce_
 -
 >
-emitIndex32
+emitIndexOp
 (
 JSOP_LAMBDA
 index
