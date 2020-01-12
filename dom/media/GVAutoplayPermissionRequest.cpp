@@ -1327,10 +1327,16 @@ request
 in
 parent
 process
+if
+we
+'
+re
+in
+e10s
 .
 if
 (
-XRE_IsParentProcess
+XRE_IsE10sParentProcess
 (
 )
 )
