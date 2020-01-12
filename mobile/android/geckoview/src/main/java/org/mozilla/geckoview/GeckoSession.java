@@ -3920,6 +3920,7 @@ ERROR_MALFORMED_URI
 WebRequestError
 .
 ERROR_CATEGORY_URI
+null
 )
 )
 ;
@@ -4120,6 +4121,7 @@ fromGeckoError
 errorCode
 errorModule
 errorClass
+null
 )
 ;
 final
