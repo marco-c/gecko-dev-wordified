@@ -45108,7 +45108,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -45424,7 +45424,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -46107,7 +46107,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -46527,7 +46527,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -47279,7 +47279,7 @@ expressions
 .
 if
 (
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -47546,7 +47546,7 @@ Ok
 }
 if
 (
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -47682,7 +47682,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -47962,7 +47962,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -48265,7 +48265,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )
@@ -48592,7 +48592,7 @@ bool
 canTrackOptimization
 =
 !
-IsCallPC
+IsInvokePC
 (
 pc
 )

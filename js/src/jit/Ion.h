@@ -1244,7 +1244,7 @@ setter
 .
 return
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )

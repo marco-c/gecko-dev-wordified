@@ -27207,7 +27207,7 @@ op
 {
 MOZ_ASSERT
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )
@@ -27313,7 +27313,7 @@ op
 {
 MOZ_ASSERT
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )
@@ -27473,7 +27473,7 @@ op
 {
 MOZ_ASSERT
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )

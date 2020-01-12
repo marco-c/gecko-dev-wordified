@@ -4007,7 +4007,7 @@ JOF_ELEM
 }
 inline
 bool
-IsCallOp
+IsInvokeOp
 (
 JSOp
 op
@@ -4026,7 +4026,7 @@ JOF_INVOKE
 }
 inline
 bool
-IsCallPC
+IsInvokePC
 (
 jsbytecode
 *
@@ -4034,7 +4034,7 @@ pc
 )
 {
 return
-IsCallOp
+IsInvokeOp
 (
 JSOp
 (

@@ -3120,7 +3120,7 @@ now
 .
 MOZ_ASSERT
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )
