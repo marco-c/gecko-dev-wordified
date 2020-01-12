@@ -16827,6 +16827,14 @@ GetPreferredEGLImageTextureTarget
 )
 const
 {
+#
+ifdef
+MOZ_WAYLAND
+return
+LOCAL_GL_TEXTURE_2D
+;
+#
+else
 return
 IsExtensionSupported
 (
@@ -16837,6 +16845,8 @@ LOCAL_GL_TEXTURE_EXTERNAL
 :
 LOCAL_GL_TEXTURE_2D
 ;
+#
+endif
 }
 virtual
 bool
