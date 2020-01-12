@@ -165,14 +165,6 @@ mozilla
 namespace
 dom
 {
-using
-PlaybackState
-=
-MediaControlKeysEventSource
-:
-:
-PlaybackState
-;
 bool
 MediaControlKeysManager
 :
