@@ -1,4 +1,16 @@
-const
+browser
+/
+base
+/
+content
+/
+test
+/
+webrtc
+/
+head
+.
+jsconst
 {
 AppConstants
 }
@@ -1985,6 +1997,7 @@ hasMicrophone
 hasScreenShare
 hasWindowShare
 hasBrowserShare
+true
 )
 ;
 let
