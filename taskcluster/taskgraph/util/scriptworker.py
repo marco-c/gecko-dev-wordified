@@ -490,12 +490,6 @@ release
 '
 mozilla
 -
-esr60
-'
-        
-'
-mozilla
--
 esr68
 '
         
@@ -508,7 +502,7 @@ beta
 '
 comm
 -
-esr60
+esr68
 '
     
 ]
@@ -717,12 +711,6 @@ release
 '
 mozilla
 -
-esr60
-'
-        
-'
-mozilla
--
 esr68
 '
         
@@ -730,12 +718,6 @@ esr68
 comm
 -
 beta
-'
-        
-'
-comm
--
-esr60
 '
         
 '
@@ -1009,31 +991,7 @@ release
 '
 comm
 -
-esr60
-'
-        
-'
-comm
--
 esr68
-'
-    
-]
-)
-]
-[
-    
-'
-esr60
-'
-set
-(
-[
-        
-'
-mozilla
--
-esr60
 '
     
 ]
@@ -1124,18 +1082,6 @@ balrog
 server
 :
 release
-'
-    
-'
-esr60
-'
-:
-'
-balrog
-:
-server
-:
-esr
 '
     
 '
