@@ -12104,8 +12104,8 @@ prim_instance
 is_chased
 (
 )
-{
-if
+&
+&
 pic
 .
 estimated_local_rect
@@ -12140,7 +12140,6 @@ pic
 precise_local_rect
 )
 ;
-}
 }
 let
 mut
@@ -13547,7 +13546,9 @@ DebugFlags
 OBSCURE_IMAGES
 )
 {
-if
+let
+is_image
+=
 matches
 !
 (
@@ -13572,6 +13573,9 @@ YuvImage
 .
 }
 )
+;
+if
+is_image
 {
 /
 /
