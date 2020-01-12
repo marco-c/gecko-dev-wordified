@@ -7105,6 +7105,15 @@ __builtin__
 .
 open
 '
+or
+what
+=
+=
+'
+builtins
+.
+open
+'
 :
             
 if
@@ -7433,6 +7442,25 @@ s
 '
 %
 _from
+        
+if
+what
+=
+=
+'
+__builtin__
+'
+:
+            
+what
+=
+'
+six
+.
+moves
+.
+builtins
+'
         
 import_line
 +
