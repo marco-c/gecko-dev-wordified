@@ -70,11 +70,9 @@ textwrap
 import
 unittest
 import
-six
-import
 sys
 from
-six
+StringIO
 import
 StringIO
 from
@@ -3095,14 +3093,19 @@ quote_char
 \
 u00B4
 '
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
         
 self
 .
 assertEquals
-(
-six
-.
-ensure_text
 (
 out
 .
@@ -3112,7 +3115,6 @@ getvalue
 .
 strip
 (
-)
 )
 quote_char
 )

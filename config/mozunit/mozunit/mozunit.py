@@ -1232,9 +1232,6 @@ r
 buffering
 =
 None
-encoding
-=
-None
 )
 :
         

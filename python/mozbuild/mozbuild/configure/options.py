@@ -2634,7 +2634,7 @@ maxargs
 =
 sys
 .
-maxsize
+maxint
 :
                 
 raise
@@ -3203,7 +3203,7 @@ nargs
 else
 sys
 .
-maxsize
+maxint
     
 def
 _validate_nargs
