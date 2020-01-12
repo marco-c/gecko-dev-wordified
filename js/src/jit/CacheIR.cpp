@@ -33098,7 +33098,7 @@ Specialized
 bool
 isConstructing
 =
-IsConstructorCallPC
+IsConstructPC
 (
 pc_
 )
@@ -33106,7 +33106,7 @@ pc_
 bool
 isSpread
 =
-IsSpreadCallPC
+IsSpreadPC
 (
 pc_
 )
@@ -34324,7 +34324,7 @@ Specialized
 bool
 isSpread
 =
-IsSpreadCallPC
+IsSpreadPC
 (
 pc_
 )
@@ -34353,7 +34353,7 @@ realm
 bool
 isConstructing
 =
-IsConstructorCallPC
+IsConstructPC
 (
 pc_
 )
@@ -34708,7 +34708,7 @@ result
 {
 MOZ_ASSERT
 (
-IsConstructorCallPC
+IsConstructPC
 (
 pc_
 )
@@ -34944,7 +34944,7 @@ NoAction
 bool
 isSpread
 =
-IsSpreadCallPC
+IsSpreadPC
 (
 pc_
 )
@@ -34952,7 +34952,7 @@ pc_
 bool
 isConstructing
 =
-IsConstructorCallPC
+IsConstructPC
 (
 pc_
 )

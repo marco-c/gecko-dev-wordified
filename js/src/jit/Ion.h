@@ -1251,7 +1251,7 @@ op
 &
 &
 !
-IsSpreadCallOp
+IsSpreadOp
 (
 op
 )

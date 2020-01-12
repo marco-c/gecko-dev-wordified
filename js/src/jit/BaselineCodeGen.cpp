@@ -27271,7 +27271,7 @@ FrameInfo
 bool
 construct
 =
-IsConstructorCallOp
+IsConstructOp
 (
 op
 )
@@ -27397,7 +27397,7 @@ scratchReg
 uint32_t
 extraValuesToPop
 =
-IsConstructorCallOp
+IsConstructOp
 (
 op
 )

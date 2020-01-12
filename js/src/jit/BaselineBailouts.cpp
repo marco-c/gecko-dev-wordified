@@ -3127,7 +3127,7 @@ op
 &
 &
 !
-IsSpreadCallOp
+IsSpreadOp
 (
 op
 )
@@ -3135,7 +3135,7 @@ op
 ;
 if
 (
-IsConstructorCallOp
+IsConstructOp
 (
 op
 )
@@ -7313,7 +7313,7 @@ supported
 .
 MOZ_ASSERT_IF
 (
-IsSpreadCallOp
+IsSpreadOp
 (
 op
 )
@@ -10115,7 +10115,7 @@ op
 bool
 pushedNewTarget
 =
-IsConstructorCallPC
+IsConstructPC
 (
 pc
 )
