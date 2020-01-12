@@ -1498,6 +1498,9 @@ true
 enableCodeFolding
 :
 false
+autoCloseBrackets
+:
+false
 lineNumbers
 :
 this
