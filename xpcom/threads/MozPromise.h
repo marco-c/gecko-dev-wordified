@@ -10459,13 +10459,13 @@ aFunction
 static_assert
 (
 !
-IsLvalueReference
+std
+:
+:
+is_lvalue_reference_v
 <
 Function
 >
-:
-:
-value
 "
 Function
 object
