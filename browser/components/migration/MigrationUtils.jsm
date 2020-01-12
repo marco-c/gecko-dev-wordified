@@ -463,6 +463,11 @@ ie
 chrome
 "
 "
+chrome
+-
+beta
+"
+"
 chromium
 "
 "
