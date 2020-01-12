@@ -73,6 +73,9 @@ assertEq
 err
 .
 message
+.
+endsWith
+(
 "
 [
 ]
@@ -82,6 +85,8 @@ j
 is
 undefined
 "
+)
+true
 )
 ;
 reportCompare

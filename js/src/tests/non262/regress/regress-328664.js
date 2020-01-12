@@ -194,6 +194,8 @@ expect
 /
 TypeError
 :
+.
+*
 value
 .
 parameters

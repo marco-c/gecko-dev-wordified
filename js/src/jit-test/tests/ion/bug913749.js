@@ -80,6 +80,17 @@ length
 "
 of
 undefined
+can
+'
+t
+access
+property
+"
+length
+"
+y
+is
+undefined
 undefined
 has
 no
