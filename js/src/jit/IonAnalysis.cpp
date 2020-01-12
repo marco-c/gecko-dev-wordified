@@ -33370,6 +33370,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 |
 |
@@ -35154,6 +35155,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 )
 {

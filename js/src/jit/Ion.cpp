@@ -12596,6 +12596,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 )
 ;
@@ -13146,6 +13147,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 )
 ;
@@ -13635,6 +13637,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 )
 ;
@@ -13818,6 +13821,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 )
 ;
@@ -14327,6 +14331,7 @@ MOZ_ASSERT
 (
 IsIonEnabled
 (
+cx
 )
 )
 ;

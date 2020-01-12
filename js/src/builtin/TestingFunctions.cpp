@@ -18947,6 +18947,7 @@ jit
 :
 IsIonEnabled
 (
+cx
 )
 )
 {

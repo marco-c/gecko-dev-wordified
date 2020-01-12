@@ -502,11 +502,9 @@ isDebuggee
 )
 ionCompileable_
 (
-jit
-:
-:
 IsIonEnabled
 (
+cx
 )
 &
 &
