@@ -713,17 +713,6 @@ mozilla
 /
 net
 /
-DocumentChannel
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 DocumentChannelChild
 .
 h
@@ -34257,7 +34246,7 @@ if
 (
 RefPtr
 <
-DocumentChannel
+DocumentChannelChild
 >
 docChannel
 =
@@ -34886,7 +34875,7 @@ if
 (
 RefPtr
 <
-DocumentChannel
+DocumentChannelChild
 >
 docChannel
 =
@@ -64102,7 +64091,7 @@ RefPtr
 net
 :
 :
-DocumentChannel
+DocumentChannelChild
 >
 docChannel
 =
@@ -64114,11 +64103,6 @@ aChannel
 if
 (
 docChannel
-&
-&
-XRE_IsContentProcess
-(
-)
 )
 {
 bool
