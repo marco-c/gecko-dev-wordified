@@ -167,15 +167,6 @@ algorithm
 #
 include
 "
-builtin
-/
-Promise
-.
-h
-"
-#
-include
-"
 frontend
 /
 BytecodeCompilation
