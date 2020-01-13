@@ -2994,11 +2994,8 @@ bool
 Show
 (
 const
-ScreenIntSize
+OwnerShowInfo
 &
-aSize
-bool
-aParentIsActive
 )
 ;
 void

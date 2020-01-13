@@ -220,6 +220,9 @@ BrowserHost
 class
 BrowserBridgeHost
 ;
+class
+OwnerShowInfo
+;
 /
 *
 *
@@ -474,11 +477,8 @@ bool
 Show
 (
 const
-ScreenIntSize
+OwnerShowInfo
 &
-aSize
-bool
-aParentIsActive
 )
 =
 0
