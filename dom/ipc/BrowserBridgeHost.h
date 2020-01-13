@@ -346,8 +346,11 @@ bool
 Show
 (
 const
-OwnerShowInfo
+ScreenIntSize
 &
+aSize
+bool
+aParentIsActive
 )
 override
 ;
