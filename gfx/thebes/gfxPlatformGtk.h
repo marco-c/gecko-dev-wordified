@@ -497,7 +497,12 @@ MOZ_X11
 ifdef
 MOZ_WAYLAND
 bool
-UseWaylandDMABufSurfaces
+UseWaylandDMABufTextures
+(
+)
+;
+bool
+UseWaylandDMABufWebGL
 (
 )
 ;

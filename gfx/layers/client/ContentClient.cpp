@@ -728,7 +728,7 @@ GetPlatform
 )
 -
 >
-UseWaylandDMABufSurfaces
+UseWaylandDMABufTextures
 (
 )
 )
