@@ -260,8 +260,7 @@ h
 "
 /
 /
-JSOP_
-*
+JSOp
 #
 include
 "

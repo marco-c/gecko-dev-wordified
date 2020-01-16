@@ -239,8 +239,8 @@ h
 "
 /
 /
-JSOP_
-*
+JSOp
+JSOP_TABLESWITCH_LENGTH
 #
 include
 "

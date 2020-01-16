@@ -2538,9 +2538,12 @@ is
 /
 specialized
 for
-JSOP_INIT
+JSOp
+:
+:
+Init
 *
-PROP
+Prop
 (
 it
 does

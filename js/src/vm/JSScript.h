@@ -18806,9 +18806,11 @@ Arguments
 access
 (
 via
-JSOP_
+JSOp
+:
+:
 *
-ARG
+Arg
 *
 opcodes
 )
@@ -18882,9 +18884,11 @@ script
 >
 formalIsAliased
 and
-JSOP_
+JSOp
+:
+:
 *
-ARG
+Arg
 *
 opcodes
 won

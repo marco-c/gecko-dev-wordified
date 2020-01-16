@@ -492,7 +492,10 @@ JOF_LOOPHEAD
 20
 /
 *
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 combines
 JOF_ICINDEX
 and

@@ -186,8 +186,7 @@ h
 "
 /
 /
-JSOP_
-*
+JSOp
 using
 namespace
 js

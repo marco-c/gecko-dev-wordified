@@ -421,8 +421,7 @@ h
 "
 /
 /
-JSOP_
-*
+JSOP_JUMPTARGET_LENGTH
 namespace
 js
 {

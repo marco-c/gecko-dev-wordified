@@ -31446,9 +31446,11 @@ JSOP_EQ
 ;
 /
 /
-JSOP_
+JSOp
+:
+:
 *
-NE
+Ne
 only
 removes
 undefined
@@ -31488,9 +31490,11 @@ return
 }
 /
 /
-JSOP_
+JSOp
+:
+:
 *
-EQ
+Eq
 only
 removes
 undefined

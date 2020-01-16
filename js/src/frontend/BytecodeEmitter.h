@@ -1056,9 +1056,11 @@ JSOp
 :
 GetName
 and
-JSOP_
+JSOp
+:
+:
 *
-GNAME
+GName
 don
 '
 t
@@ -1069,9 +1071,9 @@ emitted
 See
 the
 comment
+/
+/
 for
-/
-/
 the
 field
 |
