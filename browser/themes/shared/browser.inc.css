@@ -89,6 +89,11 @@ identityBoxMarginInlineEnd
 2px
 %
 define
+lwtPopupBrighttextLinkColor
+#
+45a1ff
+%
+define
 themeTransition
 background
 -
@@ -111,9 +116,8 @@ bezier
 )
 %
 define
-lwtPopupBrighttextLinkColor
-#
-45a1ff
+urlbarBreakoutExtend
+2px
 :
 root
 {
