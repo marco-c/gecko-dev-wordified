@@ -888,6 +888,14 @@ emit
 >
 {
 }
+emitForTests
+:
+(
+)
+=
+>
+{
+}
 hud
 proxy
 clearNetworkRequests

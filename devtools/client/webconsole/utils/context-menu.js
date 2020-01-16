@@ -2113,7 +2113,7 @@ open
 >
 webConsoleWrapper
 .
-emit
+emitForTests
 (
 "
 menu
