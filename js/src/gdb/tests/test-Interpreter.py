@@ -75,7 +75,10 @@ slots
 pc
 =
 (
-JSOP_TRUE
+JSOp
+:
+:
+True
 )
 }
 '

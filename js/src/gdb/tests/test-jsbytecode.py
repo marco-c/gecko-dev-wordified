@@ -52,7 +52,10 @@ code
 '
 '
 (
-JSOP_DEBUGGER
+JSOp
+:
+:
+Debugger
 )
 '
 )
