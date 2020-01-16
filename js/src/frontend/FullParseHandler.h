@@ -6816,6 +6816,17 @@ return
 lazyOuterFunction_
 ;
 }
+bool
+canSkipRegexpSyntaxParse
+(
+)
+{
+return
+!
+!
+lazyOuterFunction_
+;
+}
 JSFunction
 *
 nextLazyInnerFunction
