@@ -551,10 +551,13 @@ define
 MAKE_CODESPEC
 (
 op
+op_camel
+op_snake
 name
 token
 length
 nuses
+\
 ndefs
 format
 )
@@ -612,6 +615,8 @@ define
 TOKEN
 (
 op
+op_camel
+op_snake
 name
 token
 .
@@ -670,6 +675,8 @@ define
 OPNAME
 (
 op
+op_camel
+op_snake
 name
 .
 .
