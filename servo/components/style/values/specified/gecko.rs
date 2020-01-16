@@ -237,7 +237,7 @@ Ok
 LengthPercentage
 :
 :
-new
+new_length
 (
 Length
 :
@@ -246,7 +246,6 @@ new
 (
 value
 )
-None
 )
 )
 _
