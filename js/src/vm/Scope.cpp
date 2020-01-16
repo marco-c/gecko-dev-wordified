@@ -255,6 +255,13 @@ namespace
 js
 ;
 using
+namespace
+js
+:
+:
+frontend
+;
+using
 mozilla
 :
 :
