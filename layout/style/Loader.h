@@ -2439,6 +2439,10 @@ aTargetURI
 nsINode
 *
 aRequestingNode
+const
+nsAString
+&
+aNonce
 IsPreload
 )
 ;

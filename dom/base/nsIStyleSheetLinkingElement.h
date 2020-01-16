@@ -447,6 +447,9 @@ mMedia
 nsString
 mIntegrity
 ;
+nsString
+mNonce
+;
 bool
 mHasAlternateRel
 ;
@@ -496,6 +499,14 @@ const
 nsAString
 &
 aMedia
+const
+nsAString
+&
+aIntegrity
+const
+nsAString
+&
+aNonce
 HasAlternateRel
 IsInline
 IsExplicitlyEnabled
