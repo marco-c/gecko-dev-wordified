@@ -5143,10 +5143,7 @@ aExcludePassword
 GetEditor
 (
 )
-and
-HasEditor
-(
-)
+is
 for
 webidl
 bindings
@@ -5157,11 +5154,6 @@ MOZ_CAN_RUN_SCRIPT
 nsIEditor
 *
 GetEditor
-(
-)
-;
-bool
-HasEditor
 (
 )
 ;

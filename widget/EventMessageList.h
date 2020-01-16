@@ -2540,10 +2540,6 @@ NS_EVENT_MESSAGE
 (
 eEditorInput
 )
-NS_EVENT_MESSAGE
-(
-eEditorBeforeInput
-)
 /
 /
 selection
