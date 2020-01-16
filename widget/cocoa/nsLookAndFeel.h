@@ -286,12 +286,6 @@ bool
 mAllowOverlayScrollbarsOverlapCached
 ;
 int32_t
-mPrefersReducedMotion
-;
-bool
-mPrefersReducedMotionCached
-;
-int32_t
 mSystemUsesDarkTheme
 ;
 bool
