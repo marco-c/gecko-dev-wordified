@@ -1422,7 +1422,7 @@ ranges
 n
 -
 >
-GetExistingCommonAncestorRanges
+GetExistingClosestCommonInclusiveAncestorRanges
 (
 )
 ;
@@ -2912,7 +2912,7 @@ ranges
 aNode
 -
 >
-GetCommonAncestorRangesPtr
+GetClosestCommonInclusiveAncestorRangesPtr
 (
 )
 ;
@@ -3017,7 +3017,7 @@ ranges
 aNode
 -
 >
-GetExistingCommonAncestorRanges
+GetExistingClosestCommonInclusiveAncestorRanges
 (
 )
 ;

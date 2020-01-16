@@ -916,7 +916,7 @@ nsRange
 *
 ranges
 =
-GetExistingCommonAncestorRanges
+GetExistingClosestCommonInclusiveAncestorRanges
 (
 )
 ;

@@ -17621,7 +17621,7 @@ nsRange
 *
 ranges
 =
-GetExistingCommonAncestorRanges
+GetExistingClosestCommonInclusiveAncestorRanges
 (
 )
 ;
