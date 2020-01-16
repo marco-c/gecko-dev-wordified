@@ -11660,7 +11660,10 @@ CASE
 OP
 )
 case
+jsbytecode
+(
 OP
+)
 :
 #
 define
