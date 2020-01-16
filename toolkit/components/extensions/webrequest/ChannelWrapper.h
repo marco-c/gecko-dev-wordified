@@ -824,6 +824,8 @@ Cancel
 (
 uint32_t
 result
+uint32_t
+reason
 ErrorResult
 &
 aRv
