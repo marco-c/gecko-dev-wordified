@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsSandboxFlags
-.
-h
-"
-#
-include
-"
 FuzzingInterface
 .
 h
@@ -619,11 +612,11 @@ nsILoadInfo
 :
 :
 SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
-;
-uint32_t
-sandboxFlags
-=
-SANDBOXED_ORIGIN
+|
+nsILoadInfo
+:
+:
+SEC_SANDBOXED
 ;
 nsCOMPtr
 <
@@ -919,7 +912,6 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
-sandboxFlags
 )
 ;
 rv
@@ -1013,7 +1005,6 @@ nullptr
 /
 /
 aIoService
-sandboxFlags
 )
 ;
 if

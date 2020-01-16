@@ -3268,12 +3268,6 @@ GetSecurityFlags
 aLoadInfo
 -
 >
-GetSandboxFlags
-(
-)
-aLoadInfo
--
->
 InternalContentPolicyType
 (
 )
@@ -4426,11 +4420,6 @@ controller
 loadInfoArgs
 .
 securityFlags
-(
-)
-loadInfoArgs
-.
-sandboxFlags
 (
 )
 loadInfoArgs
