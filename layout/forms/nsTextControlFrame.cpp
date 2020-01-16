@@ -5300,13 +5300,10 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 already_AddRefed
 <
 TextEditor
 >
-)
 nsTextControlFrame
 :
 :
