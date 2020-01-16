@@ -580,6 +580,15 @@ html5ever
 Prefix
 )
 ;
+trivial_to_resolved_value
+!
+(
+computed
+:
+:
+LengthPercentage
+)
+;
 impl
 <
 A

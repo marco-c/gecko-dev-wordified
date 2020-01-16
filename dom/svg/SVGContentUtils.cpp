@@ -5541,7 +5541,6 @@ auto
 &
 calc
 =
-*
 aLength
 .
 AsCalc
