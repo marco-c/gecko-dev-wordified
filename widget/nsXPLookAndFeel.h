@@ -623,6 +623,8 @@ protected
 nsXPLookAndFeel
 (
 )
+=
+default
 ;
 static
 void
@@ -830,6 +832,17 @@ static
 bool
 sPrefersReducedMotionForTest
 ;
+int32_t
+mPrefersReducedMotion
+=
+-
+1
+;
+bool
+mPrefersReducedMotionCached
+=
+false
+;
 /
 /
 True
@@ -861,6 +874,8 @@ testing
 .
 bool
 mShouldRetainCacheForTest
+=
+false
 ;
 }
 ;
