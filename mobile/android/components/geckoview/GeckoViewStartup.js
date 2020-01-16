@@ -767,11 +767,6 @@ RemoveException
 "
 ContentBlocking
 :
-RemoveExceptionByPrincipal
-"
-"
-ContentBlocking
-:
 CheckException
 "
 "
