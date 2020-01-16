@@ -394,6 +394,9 @@ Clipboard
 :
 SetHTML
 (
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -427,6 +430,9 @@ Clipboard
 :
 SetText
 (
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -527,11 +533,17 @@ kHTMLMime
 auto
 text
 =
+java
+:
+:
 Clipboard
 :
 :
 GetData
 (
+java
+:
+:
 GeckoAppShell
 :
 :

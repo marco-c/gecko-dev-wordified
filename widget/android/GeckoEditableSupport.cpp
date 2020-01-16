@@ -2527,6 +2527,9 @@ eKeyPress
 (
 aFlags
 &
+java
+:
+:
 sdk
 :
 :
@@ -2702,6 +2705,9 @@ ObjectArray
 :
 New
 <
+java
+:
+:
 sdk
 :
 :
@@ -2748,6 +2754,9 @@ units
 auto
 rect
 =
+java
+:
+:
 sdk
 :
 :
@@ -3056,6 +3065,9 @@ if
 aAction
 =
 =
+java
+:
+:
 sdk
 :
 :
@@ -3076,6 +3088,9 @@ if
 aAction
 =
 =
+java
+:
+:
 sdk
 :
 :
@@ -3096,6 +3111,9 @@ if
 aAction
 =
 =
+java
+:
+:
 sdk
 :
 :

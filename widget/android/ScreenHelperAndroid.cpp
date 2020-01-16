@@ -170,13 +170,6 @@ namespace
 mozilla
 :
 :
-java
-;
-using
-namespace
-mozilla
-:
-:
 widget
 ;
 static
@@ -194,6 +187,9 @@ ScreenHelperSupport
 final
 :
 public
+java
+:
+:
 ScreenManagerHelper
 :
 :
@@ -205,6 +201,9 @@ ScreenHelperSupport
 public
 :
 typedef
+java
+:
+:
 ScreenManagerHelper
 :
 :
@@ -398,6 +397,9 @@ Rect
 LocalRef
 rect
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -439,6 +441,9 @@ Height
 uint32_t
 depth
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -449,6 +454,9 @@ GetScreenDepth
 float
 density
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -459,6 +467,9 @@ GetDensity
 float
 dpi
 =
+java
+:
+:
 GeckoAppShell
 :
 :

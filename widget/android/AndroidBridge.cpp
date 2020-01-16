@@ -380,13 +380,6 @@ mozilla
 :
 gfx
 ;
-using
-namespace
-mozilla
-:
-:
-java
-;
 AndroidBridge
 *
 AndroidBridge
@@ -1610,6 +1603,9 @@ GetHandlersForMimeType
 auto
 arr
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -1697,6 +1693,9 @@ HasHWVP8Encoder
 bool
 value
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -1729,6 +1728,9 @@ HasHWVP8Decoder
 bool
 value
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -1759,6 +1761,9 @@ HasHWH264
 )
 ;
 return
+java
+:
+:
 HardwareCodecCapabilityUtils
 :
 :
@@ -1803,6 +1808,9 @@ GetHandlersForURL
 auto
 arr
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -1893,6 +1901,9 @@ GetMimeTypeFromExtensions
 auto
 jstrType
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -1945,6 +1956,9 @@ GetExtensionFromMimeType
 auto
 jstrExt
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -2002,6 +2016,9 @@ Rect
 LocalRef
 screenrect
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -2093,6 +2110,9 @@ IsAvailable
 {
 sDepth
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -2228,6 +2248,9 @@ duration
 return
 ;
 }
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -2419,6 +2442,9 @@ elts
 0
 )
 ;
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -2507,6 +2533,9 @@ return
 auto
 arr
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -3300,6 +3329,9 @@ boolean
 auto
 arr
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -3478,6 +3510,9 @@ integer
 auto
 arr
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -3620,6 +3655,9 @@ time
 auto
 context
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -3960,6 +3998,9 @@ GetScreenOrientation
 int16_t
 orientation
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -3989,6 +4030,9 @@ GetScreenAngle
 )
 {
 return
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -4041,6 +4085,9 @@ NS_ERROR_FAILURE
 auto
 jstrRet
 =
+java
+:
+:
 GeckoAppShell
 :
 :
@@ -4236,6 +4283,9 @@ false
 ;
 }
 return
+java
+:
+:
 GeckoThread
 :
 :
