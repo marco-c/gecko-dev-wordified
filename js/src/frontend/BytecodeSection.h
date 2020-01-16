@@ -421,7 +421,7 @@ h
 "
 /
 /
-JSOpLength_JumpTarget
+JSOP_JUMPTARGET_LENGTH
 namespace
 js
 {
@@ -1574,7 +1574,7 @@ offset
 =
 BytecodeOffsetDiff
 (
-JSOpLength_JumpTarget
+JSOP_JUMPTARGET_LENGTH
 )
 ;
 }

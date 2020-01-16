@@ -18760,10 +18760,7 @@ if
 op
 =
 =
-JSOp
-:
-:
-GetIntrinsic
+JSOP_GETINTRINSIC
 )
 {
 PropertyName

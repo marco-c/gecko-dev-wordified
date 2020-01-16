@@ -13837,10 +13837,7 @@ JSOp
 pc
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 )
 ;
 /
@@ -14376,10 +14373,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 ;
 /
 /
@@ -15753,10 +15747,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 )
 ;
 if

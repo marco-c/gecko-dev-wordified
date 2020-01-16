@@ -438,10 +438,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 )
 ;
 /
@@ -481,10 +478,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 pc
 >
 script
@@ -773,10 +767,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 )
 ;
 uint32_t
@@ -797,10 +788,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 |
 |
 JitOptions

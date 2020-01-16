@@ -3105,10 +3105,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-Eval
+JSOP_EVAL
 |
 |
 JSOp
@@ -3122,10 +3119,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-StrictEval
+JSOP_STRICTEVAL
 |
 |
 JSOp
@@ -3139,10 +3133,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-SpreadEval
+JSOP_SPREADEVAL
 |
 |
 JSOp
@@ -3156,10 +3147,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-StrictSpreadEval
+JSOP_STRICTSPREADEVAL
 )
 ;
 MOZ_ASSERT

@@ -12785,10 +12785,7 @@ pc
 )
 {
 case
-JSOp
-:
-:
-InitialYield
+JSOP_INITIALYIELD
 :
 MOZ_ASSERT
 (
@@ -12811,10 +12808,7 @@ generatorObj
 )
 ;
 case
-JSOp
-:
-:
-Yield
+JSOP_YIELD
 :
 MOZ_ASSERT
 (
@@ -12842,10 +12836,7 @@ returnValue
 )
 ;
 case
-JSOp
-:
-:
-Await
+JSOP_AWAIT
 :
 MOZ_ASSERT
 (
@@ -14803,10 +14794,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-AfterYield
+JSOP_AFTERYIELD
 )
 {
 auto

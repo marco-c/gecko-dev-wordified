@@ -412,10 +412,7 @@ this
 >
 is
 (
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 )
 ;
@@ -458,10 +455,7 @@ this
 >
 is
 (
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 )
 ;

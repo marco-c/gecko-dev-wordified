@@ -1228,10 +1228,7 @@ op
 op
 =
 =
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 ;
 bool
 fallsthrough
@@ -1245,10 +1242,7 @@ op
 op
 !
 =
-JSOp
-:
-:
-Gosub
+JSOP_GOSUB
 ;
 /
 /
@@ -1896,10 +1890,7 @@ jump
 op
 =
 =
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 {
 /

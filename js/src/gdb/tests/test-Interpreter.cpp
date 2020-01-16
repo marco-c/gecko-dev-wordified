@@ -409,10 +409,7 @@ fakeOpcode
 =
 uint8_t
 (
-JSOp
-:
-:
-True
+JSOP_TRUE
 )
 ;
 js

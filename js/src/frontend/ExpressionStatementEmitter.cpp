@@ -307,15 +307,9 @@ ValueUsage
 :
 WantValue
 ?
-JSOp
+JSOP_SETRVAL
 :
-:
-SetRval
-:
-JSOp
-:
-:
-Pop
+JSOP_POP
 ;
 if
 (

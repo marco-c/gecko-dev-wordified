@@ -662,10 +662,7 @@ if
 bailOp
 =
 =
-JSOp
-:
-:
-FunCall
+JSOP_FUNCALL
 )
 {
 /
@@ -724,10 +721,7 @@ if
 bailOp
 !
 =
-JSOp
-:
-:
-FunApply
+JSOP_FUNAPPLY
 &
 &
 !
