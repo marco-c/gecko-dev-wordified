@@ -558,6 +558,16 @@ mEGLImage
 ;
 }
 ;
+GLuint
+GetGLTexture
+(
+)
+{
+return
+mTexture
+;
+}
+;
 void
 SetWLBuffer
 (
