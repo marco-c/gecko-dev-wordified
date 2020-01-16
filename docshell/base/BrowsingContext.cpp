@@ -4567,6 +4567,9 @@ GetParent
 if
 (
 bc
+-
+>
+mDocShell
 &
 &
 nsDocShell
@@ -4574,8 +4577,11 @@ nsDocShell
 :
 ValidateOrigin
 (
-this
+mDocShell
 bc
+-
+>
+mDocShell
 )
 )
 {
