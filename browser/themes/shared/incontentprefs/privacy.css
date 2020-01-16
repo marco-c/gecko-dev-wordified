@@ -2496,3 +2496,16 @@ end
 32px
 ;
 }
+#
+submitHealthReportBox
+{
+display
+:
+-
+moz
+-
+inline
+-
+box
+;
+}
