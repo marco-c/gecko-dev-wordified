@@ -3215,6 +3215,8 @@ class
 Data
 class
 UserData
+class
+Converter
 >
 static
 size_t
@@ -3226,6 +3228,7 @@ nsBaseHashtable
 Key
 Data
 UserData
+Converter
 >
 &
 aTable

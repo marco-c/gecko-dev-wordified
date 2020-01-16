@@ -250,13 +250,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -10799,7 +10792,10 @@ by
 one
 manually
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 CacheEntryTable
 >

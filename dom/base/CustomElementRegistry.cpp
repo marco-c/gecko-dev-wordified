@@ -1956,7 +1956,10 @@ removed
 "
 )
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTHashtable
 <
@@ -3627,7 +3630,10 @@ NS_ERROR_UNEXPECTED
 return
 ;
 }
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTHashtable
 <

@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h

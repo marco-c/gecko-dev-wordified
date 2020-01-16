@@ -3783,6 +3783,10 @@ nsRadioGroupStruct
 ;
 }
 )
+.
+get
+(
+)
 ;
 }
 void

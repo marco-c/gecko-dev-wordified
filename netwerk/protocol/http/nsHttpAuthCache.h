@@ -1327,7 +1327,10 @@ nsHttpAuthCache
 ;
 friend
 class
-nsAutoPtr
+mozilla
+:
+:
+DefaultDelete
 <
 nsHttpAuthNode
 >

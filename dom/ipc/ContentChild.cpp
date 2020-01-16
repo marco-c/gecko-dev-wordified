@@ -22922,7 +22922,10 @@ FileDescOrError
 aFDOrError
 )
 {
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 AnonymousTemporaryFileCallback
 >

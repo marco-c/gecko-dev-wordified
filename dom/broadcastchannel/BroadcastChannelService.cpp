@@ -331,12 +331,9 @@ MOZ_ASSERT
 aParent
 )
 ;
-nsTArray
-<
-BroadcastChannelParent
-*
->
-*
+const
+auto
+&
 parents
 =
 mAgents

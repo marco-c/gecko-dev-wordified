@@ -136,13 +136,6 @@ algorithm
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -13776,7 +13769,10 @@ new
 channel
 key
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 OutputData
 >
@@ -13839,7 +13835,7 @@ Put
 keyPtr
 outputData
 .
-forget
+release
 (
 )
 )

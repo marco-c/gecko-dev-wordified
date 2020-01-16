@@ -9516,8 +9516,9 @@ IsEmpty
 )
 )
 ;
-RegistrationDataPerPrincipal
-*
+const
+auto
+&
 data
 =
 swm

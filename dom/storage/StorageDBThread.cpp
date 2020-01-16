@@ -7320,10 +7320,8 @@ Next
 )
 )
 {
-nsAutoPtr
-<
-DBOperation
->
+const
+auto
 &
 pendingTask
 =
@@ -7647,7 +7645,7 @@ Data
 (
 )
 .
-forget
+release
 (
 )
 )
@@ -7694,7 +7692,7 @@ Data
 (
 )
 .
-forget
+release
 (
 )
 )

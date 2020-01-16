@@ -528,8 +528,9 @@ observers
 for
 that
 command
-ObserverList
-*
+const
+auto
+&
 commandObservers
 =
 mObserversTable

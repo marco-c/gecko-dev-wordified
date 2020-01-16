@@ -2317,6 +2317,10 @@ nsCounterList
 ;
 }
 )
+.
+get
+(
+)
 ;
 }
 void

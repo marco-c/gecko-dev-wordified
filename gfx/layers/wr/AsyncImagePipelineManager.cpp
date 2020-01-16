@@ -1012,8 +1012,9 @@ id
 )
 )
 {
-AsyncImagePipeline
-*
+const
+auto
+&
 holder
 =
 entry
@@ -2134,7 +2135,7 @@ pipeline
 =
 iter
 .
-Data
+UserData
 (
 )
 ;
@@ -4086,8 +4087,9 @@ aPipelineId
 )
 )
 {
-PipelineTexturesHolder
-*
+const
+auto
+&
 holder
 =
 entry
@@ -4512,8 +4514,9 @@ pipeline_id
 )
 )
 {
-PipelineTexturesHolder
-*
+const
+auto
+&
 holder
 =
 entry
