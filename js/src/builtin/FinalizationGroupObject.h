@@ -1747,6 +1747,14 @@ JSObject
 obj
 )
 ;
+static
+bool
+hasRegisteredRecordsToBeCleanedUp
+(
+HandleFinalizationGroupObject
+group
+)
+;
 }
 ;
 /
