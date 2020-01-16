@@ -352,7 +352,7 @@ bce_
 -
 >
 cx
-fun_
+funbox_
 -
 >
 explicitName
@@ -518,7 +518,7 @@ Start
 ;
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isInterpreted
@@ -529,7 +529,7 @@ isInterpreted
 MOZ_ASSERT
 (
 !
-fun_
+funbox_
 -
 >
 isInterpretedLazy
@@ -683,7 +683,7 @@ Start
 ;
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isInterpreted
@@ -693,7 +693,7 @@ isInterpreted
 ;
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isInterpretedLazy
@@ -779,12 +779,7 @@ condition
 until
 delazification
 .
-fun_
--
->
-baseScript
-(
-)
+funbox_
 -
 >
 setTreatAsRunOnce
@@ -1645,7 +1640,7 @@ below
 .
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isArrow
@@ -1666,7 +1661,7 @@ Arrow
 ;
 if
 (
-fun_
+funbox_
 -
 >
 isArrow
