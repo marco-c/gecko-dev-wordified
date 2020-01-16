@@ -508,6 +508,17 @@ features
 :
 GRADIENT_FEATURES
 }
+Shader
+{
+name
+:
+"
+brush_opacity
+"
+features
+:
+BRUSH_FEATURES
+}
 ]
 ;
 const

@@ -615,6 +615,9 @@ MixBlend
 Yuv
 =
 8
+Opacity
+=
+9
 }
 #
 [
