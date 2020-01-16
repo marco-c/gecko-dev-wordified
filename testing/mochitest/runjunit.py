@@ -833,6 +833,11 @@ merge_base_profiles
 self
 .
 options
+'
+geckoview
+-
+junit
+'
 )
         
 if

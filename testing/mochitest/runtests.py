@@ -15149,6 +15149,7 @@ merge_base_profiles
 (
 self
 options
+category
 )
 :
         
@@ -15291,9 +15292,7 @@ load
 fh
 )
 [
-'
-mochitest
-'
+category
 ]
         
 #
@@ -15711,6 +15710,9 @@ self
 merge_base_profiles
 (
 options
+'
+mochitest
+'
 )
         
 #
