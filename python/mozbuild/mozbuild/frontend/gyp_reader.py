@@ -111,6 +111,8 @@ util
 import
 (
     
+ensure_subprocess_env
+    
 expand_variables
 )
 #
@@ -3615,25 +3617,25 @@ gyp
 os
 .
 environ
-[
+.
+update
+(
+ensure_subprocess_env
+(
+{
+                
 '
 GYP_MSVS_OVERRIDE_PATH
 '
-]
-=
+:
 '
 fake_path
 '
-            
-os
-.
-environ
-[
+                
 '
 GYP_MSVS_VERSION
 '
-]
-=
+:
 config
 .
 substs
@@ -3642,6 +3644,10 @@ substs
 MSVS_VERSION
 '
 ]
+            
+}
+)
+)
         
 params
 =
