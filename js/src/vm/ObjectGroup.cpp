@@ -1559,7 +1559,7 @@ false
 pc
 +
 =
-JSOP_NEW_LENGTH
+JSOpLength_New
 ;
 if
 (

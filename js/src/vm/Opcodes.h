@@ -28711,9 +28711,8 @@ on
 /
 /
 Define
-JSOP_
+JSOpLength_
 *
-_LENGTH
 constants
 for
 all
@@ -28736,10 +28735,10 @@ len
 \
 constexpr
 size_t
-op
+JSOpLength_
 #
 #
-_LENGTH
+op_camel
 =
 len
 ;

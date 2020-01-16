@@ -14894,10 +14894,10 @@ name
 ;
 static_assert
 (
-JSOP_GETGNAME_LENGTH
+JSOpLength_GetGName
 =
 =
-JSOP_GETNAME_LENGTH
+JSOpLength_GetName
 "
 Otherwise
 our
@@ -14917,7 +14917,7 @@ JSOp
 (
 pc
 [
-JSOP_GETGNAME_LENGTH
+JSOpLength_GetGName
 ]
 )
 =
