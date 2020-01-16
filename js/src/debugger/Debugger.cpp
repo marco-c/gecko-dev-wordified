@@ -12771,8 +12771,11 @@ frame
 ;
 switch
 (
+JSOp
+(
 *
 pc
+)
 )
 {
 case
@@ -14774,11 +14777,14 @@ hasScript
 )
 &
 &
+JSOp
+(
 *
 iter
 .
 pc
 (
+)
 )
 =
 =
