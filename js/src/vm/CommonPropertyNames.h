@@ -3275,6 +3275,15 @@ RegExpTester
 \
 MACRO
 (
+RegExpToString
+RegExpToString
+"
+RegExpToString
+"
+)
+\
+MACRO
+(
 RegExp_prototype_Exec
 RegExp_prototype_Exec
 "
