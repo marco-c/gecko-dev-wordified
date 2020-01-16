@@ -41356,9 +41356,6 @@ CreateScriptSourceObject
 (
 cx
 options
-Nothing
-(
-)
 )
 )
 ;

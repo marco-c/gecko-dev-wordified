@@ -1904,12 +1904,6 @@ CreateScriptSourceObject
 (
 cx
 txtOptions
-mozilla
-:
-:
-Nothing
-(
-)
 )
 )
 ;
@@ -2225,12 +2219,6 @@ CreateScriptSourceObject
 (
 cx
 binOptions
-mozilla
-:
-:
-Nothing
-(
-)
 )
 )
 ;
