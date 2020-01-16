@@ -5046,10 +5046,6 @@ stylist
 device
 (
 )
-.
-environment
-(
-)
 )
 ;
 debug_assert
@@ -26510,10 +26506,6 @@ data
 stylist
 .
 device
-(
-)
-.
-environment
 (
 )
 )

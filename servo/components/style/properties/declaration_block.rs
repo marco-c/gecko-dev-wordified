@@ -94,10 +94,7 @@ crate
 custom_properties
 :
 :
-{
-CssEnvironment
 CustomPropertiesBuilder
-}
 ;
 use
 crate
@@ -5073,10 +5070,10 @@ Option
 &
 PropertyDeclarationBlock
 >
-environment
+device
 :
 &
-CssEnvironment
+Device
 )
 -
 >
@@ -5240,7 +5237,7 @@ cv
 custom_properties
 (
 )
-environment
+device
 )
 }
 else
@@ -5379,7 +5376,7 @@ QuirksMode
 :
 :
 NoQuirks
-environment
+device
 )
 .
 to_css
@@ -5684,10 +5681,6 @@ context
 device
 (
 )
-.
-environment
-(
-)
 )
 }
 /
@@ -5744,10 +5737,10 @@ custom_properties
 CustomPropertiesMap
 >
 >
-environment
+device
 :
 &
-CssEnvironment
+Device
 )
 -
 >
@@ -5775,7 +5768,7 @@ CustomPropertiesBuilder
 new
 (
 inherited_custom_properties
-environment
+device
 )
 ;
 for

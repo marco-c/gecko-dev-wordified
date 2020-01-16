@@ -3616,10 +3616,6 @@ context
 device
 (
 )
-.
-environment
-(
-)
 )
 }
 ;
