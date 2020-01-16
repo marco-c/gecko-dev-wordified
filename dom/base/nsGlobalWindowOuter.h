@@ -3464,7 +3464,7 @@ dom
 :
 Element
 *
-GetFrameElementOuter
+GetFrameElement
 (
 nsIPrincipal
 &
