@@ -68189,7 +68189,7 @@ commonAncestor
 nsContentUtils
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 possibleTarget
 realTargets

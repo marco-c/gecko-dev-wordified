@@ -7570,7 +7570,7 @@ aNotInsertedYet
 ;
 /
 /
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 is
 unreliable
 while
@@ -7578,10 +7578,10 @@ we
 '
 re
 unlinking
+/
+/
 (
 could
-/
-/
 return
 null
 if
@@ -7636,7 +7636,7 @@ nsINode
 *
 newCommonAncestor
 =
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -8028,7 +8028,7 @@ nsINode
 *
 commonAncestor
 =
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -11186,7 +11186,7 @@ commonAncestor
 aRange
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -13393,7 +13393,7 @@ commonAncestor
 nsContentUtils
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 node
 nextNode
@@ -15537,7 +15537,7 @@ commonAncestor
 nsContentUtils
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 node
 nextNode

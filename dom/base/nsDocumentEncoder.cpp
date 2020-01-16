@@ -5601,7 +5601,7 @@ mCommonAncestorOfRange
 aRange
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -7459,7 +7459,7 @@ commonParent
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -8539,7 +8539,7 @@ common
 inRange
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

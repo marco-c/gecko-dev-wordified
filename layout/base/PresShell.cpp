@@ -30319,7 +30319,7 @@ ancestor
 nsContentUtils
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 startContainer
 endContainer

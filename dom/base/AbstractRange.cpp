@@ -512,7 +512,7 @@ nsINode
 AbstractRange
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 const
@@ -523,7 +523,7 @@ mIsPositioned
 nsContentUtils
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 mStart
 .

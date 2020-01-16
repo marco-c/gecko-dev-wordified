@@ -1327,7 +1327,7 @@ mCommonParent
 nsContentUtils
 :
 :
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 aStart
 .
@@ -4676,7 +4676,7 @@ mCommonParent
 mRange
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

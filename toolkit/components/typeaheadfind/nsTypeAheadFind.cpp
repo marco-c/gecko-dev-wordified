@@ -8759,7 +8759,7 @@ do_QueryInterface
 aRange
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 )

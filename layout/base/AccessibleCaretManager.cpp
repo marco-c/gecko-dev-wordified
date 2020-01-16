@@ -8323,7 +8323,7 @@ commonAncestorNode
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

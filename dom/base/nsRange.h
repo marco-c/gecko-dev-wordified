@@ -1549,7 +1549,7 @@ nullptr
 ;
 }
 return
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -2960,15 +2960,15 @@ a
 faster
 version
 of
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 that
 only
 works
 for
+*
 ranges
 in
 a
-*
 Selection
 .
 The
@@ -2980,9 +2980,9 @@ the
 behavior
 is
 undefined
+*
 if
 called
-*
 on
 a
 range

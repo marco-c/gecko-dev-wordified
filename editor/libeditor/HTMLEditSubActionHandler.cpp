@@ -4282,7 +4282,7 @@ commonAncestor
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -46578,7 +46578,7 @@ GetBlock
 *
 aAbstractRange
 .
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 )
@@ -53560,7 +53560,7 @@ parent
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
