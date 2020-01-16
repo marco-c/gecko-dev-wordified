@@ -8177,6 +8177,16 @@ sp
 ]
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+!
+doneValue
+.
+isMagic
+(
+)
+)
+;
 bool
 done
 =
