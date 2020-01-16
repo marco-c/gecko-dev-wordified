@@ -4557,7 +4557,7 @@ fields
 inside
 the
 *
-ZydisFormattter
+ZydisFormatter
 struct
 .
 *

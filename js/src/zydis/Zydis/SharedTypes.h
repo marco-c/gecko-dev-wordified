@@ -4348,7 +4348,9 @@ brief
 Defines
 the
 ZydisOperandActions
-datatype
+data
+-
+type
 .
 *
 /

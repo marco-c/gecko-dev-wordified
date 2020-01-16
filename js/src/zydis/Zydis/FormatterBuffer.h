@@ -889,7 +889,9 @@ biref
 Defines
 the
 ZydisTokenType
-datatype
+data
+-
+type
 .
 *
 /
@@ -1847,7 +1849,9 @@ brief
 Defines
 the
 ZydisFormatterTokenConst
-datatype
+data
+-
+type
 .
 *
 /
@@ -2727,7 +2731,7 @@ token
 *
 return
 A
-zycore
+zyan
 status
 code
 .
@@ -2744,8 +2748,7 @@ token
 ZydisTokenType
 *
 type
-char
-*
+ZyanConstCharPointer
 *
 value
 )
@@ -2788,7 +2791,7 @@ one
 *
 return
 A
-zycore
+zyan
 status
 code
 .
@@ -3046,7 +3049,7 @@ token
 *
 return
 A
-zycore
+zyan
 status
 code
 .
@@ -3131,7 +3134,7 @@ buffer
 *
 return
 A
-zycore
+zyan
 status
 code
 .
@@ -3237,7 +3240,7 @@ token
 *
 return
 A
-zycore
+zyan
 status
 code
 .
@@ -3315,7 +3318,7 @@ state
 *
 return
 A
-zycore
+zyan
 status
 code
 .
@@ -3401,7 +3404,7 @@ restore
 *
 return
 A
-zycore
+zyan
 status
 code
 .

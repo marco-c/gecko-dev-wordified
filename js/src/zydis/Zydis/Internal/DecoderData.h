@@ -657,7 +657,9 @@ un
 signed
 int
 for
-bitfields
+bit
+-
+fields
 #
 ifdef
 ZYAN_MSVC
@@ -894,7 +896,9 @@ brief
 Defines
 the
 ZydisDecoderTreeNodeType
-datatype
+data
+-
+type
 .
 *
 /
@@ -1131,6 +1135,22 @@ brief
 Reference
 to
 a
+PrefixGroup1
+filter
+.
+*
+/
+ZYDIS_NODETYPE_FILTER_PREFIX_GROUP1
+=
+0x0B
+/
+*
+*
+*
+brief
+Reference
+to
+a
 mandatory
 -
 prefix
@@ -1140,7 +1160,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MANDATORY_PREFIX
 =
-0x0B
+0x0C
 /
 *
 *
@@ -1158,7 +1178,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_OPERAND_SIZE
 =
-0x0C
+0x0D
 /
 *
 *
@@ -1176,7 +1196,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_ADDRESS_SIZE
 =
-0x0D
+0x0E
 /
 *
 *
@@ -1194,7 +1214,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_VECTOR_LENGTH
 =
-0x0E
+0x0F
 /
 *
 *
@@ -1216,7 +1236,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_REX_W
 =
-0x0F
+0x10
 /
 *
 *
@@ -1238,7 +1258,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_REX_B
 =
-0x10
+0x11
 /
 *
 *
@@ -1256,7 +1276,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_EVEX_B
 =
-0x11
+0x12
 /
 *
 *
@@ -1274,7 +1294,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MVEX_E
 =
-0x12
+0x13
 /
 *
 *
@@ -1292,7 +1312,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_AMD
 =
-0x13
+0x14
 /
 *
 *
@@ -1310,7 +1330,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_KNC
 =
-0x14
+0x15
 /
 *
 *
@@ -1328,7 +1348,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_MPX
 =
-0x15
+0x16
 /
 *
 *
@@ -1346,7 +1366,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_CET
 =
-0x16
+0x17
 /
 *
 *
@@ -1364,7 +1384,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_LZCNT
 =
-0x17
+0x18
 /
 *
 *
@@ -1382,7 +1402,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_TZCNT
 =
-0x18
+0x19
 /
 *
 *
@@ -1400,7 +1420,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_WBNOINVD
 =
-0x19
+0x1A
 /
 *
 *
@@ -1418,7 +1438,7 @@ filter
 /
 ZYDIS_NODETYPE_FILTER_MODE_CLDEMOTE
 =
-0x1A
+0x1B
 }
 ;
 /
@@ -1527,7 +1547,9 @@ brief
 Defines
 the
 ZydisDecoderTreeNodeValue
-datatype
+data
+-
+type
 .
 *
 /
@@ -1985,7 +2007,9 @@ brief
 Defines
 the
 ZydisInstructionEncodingFlags
-datatype
+data
+-
+type
 .
 *
 /

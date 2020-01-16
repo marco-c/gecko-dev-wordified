@@ -690,7 +690,9 @@ un
 signed
 int
 for
-bitfields
+bit
+-
+fields
 #
 ifdef
 ZYAN_MSVC

@@ -1225,7 +1225,9 @@ ZyanU16
 )
 (
 (
+(
 version
+)
 &
 0xFFFF000000000000
 )
@@ -1269,7 +1271,9 @@ ZyanU16
 )
 (
 (
+(
 version
+)
 &
 0x0000FFFF00000000
 )
@@ -1313,7 +1317,9 @@ ZyanU16
 )
 (
 (
+(
 version
+)
 &
 0x00000000FFFF0000
 )
@@ -1356,7 +1362,9 @@ version
 ZyanU16
 )
 (
+(
 version
+)
 &
 0x000000000000FFFF
 )
@@ -1677,6 +1685,8 @@ typedef
 enum
 ZydisFeature_
 {
+ZYDIS_FEATURE_DECODER
+ZYDIS_FEATURE_FORMATTER
 ZYDIS_FEATURE_AVX512
 ZYDIS_FEATURE_KNC
 /

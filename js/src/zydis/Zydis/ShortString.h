@@ -413,7 +413,7 @@ immutable
 and
 storage
 -
-efficent
+efficient
 ZydisShortString
 struct
 which
@@ -758,7 +758,9 @@ contains
 the
 actual
 (
-nullterminated
+null
+-
+terminated
 )
 string
 .

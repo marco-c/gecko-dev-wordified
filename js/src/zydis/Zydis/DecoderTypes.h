@@ -1412,6 +1412,7 @@ operands
 *
 /
 struct
+ZydisDecodedOperandReg_
 {
 /
 *
@@ -1452,6 +1453,7 @@ operands
 *
 /
 struct
+ZydisDecodedOperandMem_
 {
 /
 *
@@ -1543,6 +1545,7 @@ displacement
 *
 /
 struct
+ZydisDecodedOperandMemDisp_
 {
 /
 *
@@ -1596,6 +1599,7 @@ operands
 *
 /
 struct
+ZydisDecodedOperandPtr_
 {
 ZyanU16
 segment
@@ -1621,6 +1625,7 @@ operands
 *
 /
 struct
+ZydisDecodedOperandImm_
 {
 /
 *
@@ -1684,6 +1689,7 @@ value
 *
 /
 union
+ZydisDecodedOperandImmValue_
 {
 ZyanU64
 u
@@ -2210,7 +2216,9 @@ brief
 Defines
 the
 ZydisInstructionAttributes
-datatype
+data
+-
+type
 .
 *
 /
@@ -3919,7 +3927,9 @@ brief
 Defines
 the
 ZydisCPUFlags
-datatype
+data
+-
+type
 .
 *
 /
@@ -4312,7 +4322,7 @@ is
 tested
 and
 modified
-aferwards
+afterwards
 (
 read
 -
@@ -4731,7 +4741,9 @@ is
 a
 far
 (
-intersegment
+inter
+-
+segment
 )
 branch
 instruction
@@ -7480,6 +7492,7 @@ flags
 *
 /
 struct
+ZydisDecodedInstructionAccessedFlags_
 {
 /
 *
@@ -7536,6 +7549,7 @@ instructions
 *
 /
 struct
+ZydisDecodedInstructionAvx_
 {
 /
 *
@@ -7577,6 +7591,7 @@ only
 *
 /
 struct
+ZydisDecodedInstructionAvxMask_
 {
 /
 *
@@ -7624,6 +7639,7 @@ broadcast
 *
 /
 struct
+ZydisDecodedInstructionAvxBroadcast_
 {
 /
 *
@@ -7648,7 +7664,7 @@ case
 for
 instructions
 with
-inbuild
+inbuilt
 broadcast
 functionality
 which
@@ -7707,6 +7723,7 @@ rounding
 *
 /
 struct
+ZydisDecodedInstructionAvxRounding_
 {
 /
 *
@@ -7748,6 +7765,7 @@ only
 *
 /
 struct
+ZydisDecodedInstructionAvxSwizzle_
 {
 /
 *
@@ -7790,6 +7808,7 @@ only
 *
 /
 struct
+ZydisDecodedInstructionAvxConversion_
 {
 /
 *
@@ -7892,6 +7911,7 @@ info
 *
 /
 struct
+ZydisDecodedInstructionMeta_
 {
 /
 *
@@ -7993,6 +8013,7 @@ prefixes
 *
 /
 struct
+ZydisDecodedInstructionRaw_
 {
 /
 *
@@ -8029,6 +8050,7 @@ REX
 *
 /
 struct
+ZydisDecodedInstructionRawPrefixes_
 {
 /
 *
@@ -8079,6 +8101,7 @@ prefix
 *
 /
 struct
+ZydisDecodedInstructionRawRex_
 {
 /
 *
@@ -8277,6 +8300,7 @@ prefix
 *
 /
 struct
+ZydisDecodedInstructionRawXop_
 {
 /
 *
@@ -8489,6 +8513,7 @@ prefix
 *
 /
 struct
+ZydisDecodedInstructionRawVex_
 {
 /
 *
@@ -8720,6 +8745,7 @@ prefix
 *
 /
 struct
+ZydisDecodedInstructionRawEvex_
 {
 /
 *
@@ -9049,6 +9075,7 @@ prefix
 *
 /
 struct
+ZydisDecodedInstructionRawMvex_
 {
 /
 *
@@ -9343,6 +9370,7 @@ byte
 *
 /
 struct
+ZydisDecodedInstructionModRm_
 {
 /
 *
@@ -9437,6 +9465,7 @@ byte
 *
 /
 struct
+ZydisDecodedInstructionRawSib_
 {
 /
 *
@@ -9529,6 +9558,7 @@ bytes
 *
 /
 struct
+ZydisDecodedInstructionRawDisp_
 {
 /
 *
@@ -9612,6 +9642,7 @@ bytes
 *
 /
 struct
+ZydisDecodedInstructionRawImm_
 {
 /
 *
@@ -9675,6 +9706,7 @@ value
 *
 /
 union
+ZydisDecodedInstructionRawImmValue_
 {
 ZyanU64
 u

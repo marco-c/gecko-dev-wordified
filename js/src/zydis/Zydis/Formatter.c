@@ -3842,7 +3842,6 @@ ZYAN_STATUS_SUCCESS
 }
 ZYAN_MEMCPY
 (
-(
 &
 formatter
 -
@@ -3850,7 +3849,6 @@ formatter
 func_pre_instruction
 +
 type
-)
 &
 temp
 sizeof
