@@ -59,7 +59,9 @@ async
 function
 testBringToFrontUpdatesSelectedTab
 (
+{
 client
+}
 )
 {
 const
@@ -211,7 +213,9 @@ async
 function
 testBringToFrontUpdatesFocusedWindow
 (
+{
 client
+}
 )
 {
 const

@@ -285,7 +285,9 @@ add_task
 async
 function
 (
+{
 client
+}
 )
 {
 await

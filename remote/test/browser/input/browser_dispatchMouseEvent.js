@@ -39,7 +39,9 @@ async
 function
 testDispatchMouseEvent
 (
+{
 client
+}
 )
 {
 await

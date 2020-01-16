@@ -100,7 +100,9 @@ add_task
 async
 function
 (
+{
 client
+}
 )
 {
 const

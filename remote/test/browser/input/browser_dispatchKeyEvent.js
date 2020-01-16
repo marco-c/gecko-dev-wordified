@@ -39,7 +39,9 @@ async
 function
 testTypingPrintableCharacters
 (
+{
 client
+}
 )
 {
 await
@@ -171,7 +173,9 @@ async
 function
 testArrowKeys
 (
+{
 client
+}
 )
 {
 await
@@ -435,7 +439,9 @@ async
 function
 testBackspace
 (
+{
 client
+}
 )
 {
 await
@@ -532,7 +538,9 @@ async
 function
 testShiftSelect
 (
+{
 client
+}
 )
 {
 await
@@ -760,7 +768,9 @@ async
 function
 testSelectWord
 (
+{
 client
+}
 )
 {
 await
@@ -926,7 +936,9 @@ async
 function
 testSelectDelete
 (
+{
 client
+}
 )
 {
 await
@@ -1135,7 +1147,9 @@ async
 function
 testCtrlShiftArrows
 (
+{
 client
+}
 )
 {
 await

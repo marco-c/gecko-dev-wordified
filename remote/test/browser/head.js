@@ -458,9 +458,11 @@ Target
 await
 taskFn
 (
+{
 client
 CDP
 tab
+}
 )
 ;
 if

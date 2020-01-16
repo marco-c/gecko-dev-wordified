@@ -47,7 +47,9 @@ async
 function
 testCDP
 (
+{
 client
+}
 )
 {
 const

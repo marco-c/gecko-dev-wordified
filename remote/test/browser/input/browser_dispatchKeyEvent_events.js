@@ -66,7 +66,9 @@ async
 function
 testShiftEvents
 (
+{
 client
+}
 )
 {
 await
@@ -375,7 +377,9 @@ async
 function
 testAltEvents
 (
+{
 client
+}
 )
 {
 await
@@ -489,7 +493,9 @@ async
 function
 testControlEvents
 (
+{
 client
+}
 )
 {
 await
@@ -582,7 +588,9 @@ async
 function
 testMetaEvents
 (
+{
 client
+}
 )
 {
 if
@@ -686,7 +694,9 @@ async
 function
 testShiftClick
 (
+{
 client
+}
 )
 {
 await
