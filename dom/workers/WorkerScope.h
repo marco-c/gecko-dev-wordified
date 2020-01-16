@@ -815,6 +815,10 @@ offline
 )
 IMPL_EVENT_HANDLER
 (
+languagechange
+)
+IMPL_EVENT_HANDLER
+(
 rejectionhandled
 )
 IMPL_EVENT_HANDLER
