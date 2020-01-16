@@ -1049,6 +1049,13 @@ gc
 CellColor
 mapColor
 ;
+friend
+class
+JS
+:
+:
+Zone
+;
 }
 ;
 namespace

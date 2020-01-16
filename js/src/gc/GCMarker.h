@@ -1816,7 +1816,7 @@ MarkColor
 newColor
 )
 ;
-void
+bool
 enterWeakMarkingMode
 (
 )
