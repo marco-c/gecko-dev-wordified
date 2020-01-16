@@ -167,7 +167,7 @@ TreeViewClass
 *
 *
 The
-ObjectTreeView
+ExpressionResultView
 React
 Component
 is
@@ -177,8 +177,8 @@ the
 ExtensionSidebar
 component
 to
-provide
 *
+provide
 a
 UI
 viewMode
@@ -196,7 +196,7 @@ object
 *
 /
 class
-ObjectTreeView
+ExpressionResultView
 extends
 PureComponent
 {
@@ -350,5 +350,5 @@ module
 .
 exports
 =
-ObjectTreeView
+ExpressionResultView
 ;

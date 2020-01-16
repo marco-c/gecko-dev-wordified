@@ -147,7 +147,7 @@ const
 {
 updateExtensionPage
 updateObjectTreeView
-updateObjectValueGripView
+updateExpressionResultView
 removeExtensionSidebar
 }
 =
@@ -883,9 +883,9 @@ sidebar
 .
 *
 /
-setObjectValueGrip
+setExpressionResult
 (
-objectValueGrip
+expressionResult
 rootTitle
 )
 {
@@ -921,12 +921,12 @@ store
 .
 dispatch
 (
-updateObjectValueGripView
+updateExpressionResultView
 (
 this
 .
 id
-objectValueGrip
+expressionResult
 rootTitle
 )
 )

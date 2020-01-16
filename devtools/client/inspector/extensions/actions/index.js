@@ -104,13 +104,11 @@ extension
 sidebar
 with
 an
-object
-value
-grip
-preview
+expression
+result
 .
 "
-EXTENSION_SIDEBAR_OBJECT_GRIP_VIEW_UPDATE
+EXTENSION_SIDEBAR_EXPRESSION_RESULT_VIEW_UPDATE
 "
 /
 /
