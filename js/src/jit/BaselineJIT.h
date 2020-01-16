@@ -1363,7 +1363,7 @@ JIT
 at
 /
 /
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 ops
 .
 class

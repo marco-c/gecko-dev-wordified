@@ -4156,14 +4156,16 @@ the
 last
 element
 initialiser
-*
 because
+*
 it
 may
 be
 followed
 by
-JSOP_SPREAD
+a
+SpreadElement
+loop
 which
 will
 not
@@ -4203,7 +4205,7 @@ JSOP_INITELEM_ARRAY
 *
 cannot
 follow
-JSOP_SPREAD
+SpreadElements
 .
 *
 /

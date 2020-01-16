@@ -1787,7 +1787,7 @@ offsets
 for
 OSR
 at
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 ops
 .
 using

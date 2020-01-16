@@ -11392,8 +11392,9 @@ use
 DUP
 followed
 by
-ONE
-ADD
+INC
+/
+DEC
 .
 Push
 R0
