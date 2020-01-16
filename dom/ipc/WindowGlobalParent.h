@@ -725,6 +725,11 @@ IsProcessRoot
 (
 )
 ;
+uint32_t
+ContentBlockingEvents
+(
+)
+;
 bool
 IsInitialDocument
 (
