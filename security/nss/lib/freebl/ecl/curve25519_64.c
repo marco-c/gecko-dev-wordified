@@ -73,7 +73,7 @@ include
 /
 verified
 /
-Hacl_Curve25519_51
+Hacl_Curve25519
 .
 h
 "
@@ -117,7 +117,7 @@ mypublic
 "
 changed
 .
-Hacl_Curve25519_51_ecdh
+Hacl_Curve25519_crypto_scalarmult
 (
 mypublic
 (

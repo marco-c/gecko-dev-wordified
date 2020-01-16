@@ -107,7 +107,13 @@ h
 if
 defined
 (
-IS_LITTLE_ENDIAN
+__ARM_NEON__
+)
+|
+|
+defined
+(
+__ARM_NEON
 )
 #
 include
@@ -1473,6 +1479,9 @@ SECSuccess
 endif
 /
 *
-IS_LITTLE_ENDIAN
+__ARM_NEON__
+|
+|
+__ARM_NEON
 *
 /
