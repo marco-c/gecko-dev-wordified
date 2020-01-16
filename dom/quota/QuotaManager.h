@@ -2573,7 +2573,7 @@ MaybeUpgradeFromIndexedDBDirectoryToPersistentStorageDirectory
 )
 ;
 nsresult
-MaybeUpgradePersistentStorageDirectory
+MaybeUpgradeFromPersistentStorageDirectoryToDefaultStorageDirectory
 (
 )
 ;
