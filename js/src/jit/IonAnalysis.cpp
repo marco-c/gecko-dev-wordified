@@ -8552,12 +8552,15 @@ MResumePoint
 ResumeAt
 |
 |
+JSOp
+(
 *
 rp
 -
 >
 pc
 (
+)
 )
 !
 =
@@ -34700,6 +34703,8 @@ isCall
 {
 if
 (
+JSOp
+(
 *
 ins
 -
@@ -34716,6 +34721,7 @@ resumePoint
 >
 pc
 (
+)
 )
 =
 =

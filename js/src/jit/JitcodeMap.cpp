@@ -9064,9 +9064,9 @@ JitSpew_Profiling
 s
 "
 CodeName
-[
+(
 op
-]
+)
 )
 ;
 #
