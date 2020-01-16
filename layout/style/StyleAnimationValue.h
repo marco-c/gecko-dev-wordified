@@ -671,6 +671,10 @@ SerializeSpecifiedValue
 (
 nsCSSPropertyID
 aProperty
+const
+RawServoStyleSet
+*
+aRawSet
 nsAString
 &
 aString
