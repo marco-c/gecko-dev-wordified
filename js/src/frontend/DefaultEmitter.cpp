@@ -250,7 +250,10 @@ bce_
 >
 emit1
 (
-JSOP_DUP
+JSOp
+:
+:
+Dup
 )
 )
 {
@@ -273,7 +276,10 @@ bce_
 >
 emit1
 (
-JSOP_UNDEFINED
+JSOp
+:
+:
+Undefined
 )
 )
 {
@@ -297,7 +303,10 @@ bce_
 >
 emit1
 (
-JSOP_STRICTEQ
+JSOp
+:
+:
+StrictEq
 )
 )
 {
@@ -342,7 +351,10 @@ bce_
 >
 emit1
 (
-JSOP_POP
+JSOp
+:
+:
+Pop
 )
 )
 {

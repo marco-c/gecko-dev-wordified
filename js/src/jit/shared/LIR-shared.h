@@ -12246,7 +12246,10 @@ bitop
 )
 =
 =
-JSOP_URSH
+JSOp
+:
+:
+Ursh
 &
 &
 mir_

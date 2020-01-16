@@ -18292,7 +18292,10 @@ MOZ_TRY
 (
 jsop_compare
 (
-JSOP_STRICTEQ
+JSOp
+:
+:
+StrictEq
 left
 right
 )

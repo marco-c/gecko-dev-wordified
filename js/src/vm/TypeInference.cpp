@@ -22315,7 +22315,10 @@ pc
 )
 =
 =
-JSOP_CHECKTHIS
+JSOp
+:
+:
+CheckThis
 |
 |
 JSOp
@@ -22328,7 +22331,10 @@ pc
 )
 =
 =
-JSOP_CHECKTHISREINIT
+JSOp
+:
+:
+CheckThisReinit
 |
 |
 JSOp
@@ -22341,7 +22347,10 @@ pc
 )
 =
 =
-JSOP_CHECKRETURN
+JSOp
+:
+:
+CheckReturn
 )
 ;
 MonitorBytecodeType
