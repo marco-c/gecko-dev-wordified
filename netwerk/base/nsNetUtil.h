@@ -1157,6 +1157,10 @@ nsIIOService
 aIoService
 =
 nullptr
+uint32_t
+aSandboxFlags
+=
+0
 )
 ;
 /
@@ -1508,6 +1512,10 @@ nsIIOService
 aIoService
 =
 nullptr
+uint32_t
+aSandboxFlags
+=
+0
 )
 ;
 /
@@ -1574,6 +1582,10 @@ nsIIOService
 aIoService
 =
 nullptr
+uint32_t
+aSandboxFlags
+=
+0
 )
 ;
 /
@@ -1666,6 +1678,10 @@ nsIIOService
 aIoService
 =
 nullptr
+uint32_t
+aSandboxFlags
+=
+0
 )
 ;
 nsresult
