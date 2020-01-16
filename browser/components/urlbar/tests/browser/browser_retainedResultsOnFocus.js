@@ -425,9 +425,9 @@ win
 .
 gURLBar
 .
-openViewOnFocusForCurrentTab
+openViewOnFocus
 "
-openViewOnFocusForCurrentTab
+openViewOnFocus
 should
 be
 false
