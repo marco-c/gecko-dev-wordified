@@ -50,9 +50,6 @@ scope
 of
 [
 "
-SameProcessSameThread
-"
-"
 SameProcessDifferentThread
 "
 "
