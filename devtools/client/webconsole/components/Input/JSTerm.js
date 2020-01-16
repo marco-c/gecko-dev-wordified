@@ -7219,6 +7219,14 @@ cancel
 (
 )
 ;
+this
+.
+terminalInputChanged
+.
+cancel
+(
+)
+;
 if
 (
 this
