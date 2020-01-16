@@ -1408,12 +1408,7 @@ java
 SessionAccessibility
 :
 :
-CLASSNAME_VIEW
-/
-/
-A
-composite
-widget
+CLASSNAME_EDITTEXT
 eNameFromValueRule
 )
 ROLE

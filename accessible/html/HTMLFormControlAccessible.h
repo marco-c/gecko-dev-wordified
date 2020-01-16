@@ -395,7 +395,6 @@ controls
 /
 class
 HTMLTextFieldAccessible
-final
 :
 public
 HyperTextAccessibleWrap
@@ -590,16 +589,6 @@ example
 search
 -
 textbox
-*
-or
-HTML
-:
-input
-type
-=
-"
-number
-"
 .
 *
 *
@@ -760,9 +749,10 @@ number
 /
 class
 HTMLSpinnerAccessible
+final
 :
 public
-AccessibleWrap
+HTMLTextFieldAccessible
 {
 public
 :
@@ -776,7 +766,7 @@ DocAccessible
 aDoc
 )
 :
-AccessibleWrap
+HTMLTextFieldAccessible
 (
 aContent
 aDoc
