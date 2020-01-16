@@ -182,6 +182,11 @@ ellipsis
 -
 text
 "
+dir
+:
+"
+ltr
+"
 }
 this
 .
