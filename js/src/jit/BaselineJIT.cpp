@@ -2743,11 +2743,8 @@ code
 )
 |
 |
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_LOOPHEAD
@@ -2800,11 +2797,8 @@ Method_Compiled
 {
 if
 (
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_LOOPHEAD

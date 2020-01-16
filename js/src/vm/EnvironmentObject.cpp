@@ -23420,11 +23420,8 @@ it
 {
 if
 (
-JSOp
-(
 *
 it
-)
 =
 =
 JSOP_FUNCTIONTHIS

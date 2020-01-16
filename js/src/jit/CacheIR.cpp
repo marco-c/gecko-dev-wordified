@@ -3188,11 +3188,8 @@ if
 pc
 &
 &
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_GETBOUNDNAME

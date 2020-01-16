@@ -17975,11 +17975,8 @@ JSOP_RETRVAL_LENGTH
 ;
 MOZ_ASSERT
 (
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_RETRVAL
@@ -20701,11 +20698,8 @@ pc
 ;
 MOZ_ASSERT
 (
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_TABLESWITCH
