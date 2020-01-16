@@ -9389,7 +9389,13 @@ nsGkAtoms
 onendEvent
 ;
 return
+SVGElementBase
+:
+:
+GetEventNameForAttr
+(
 aAttr
+)
 ;
 }
 SVGViewportElement

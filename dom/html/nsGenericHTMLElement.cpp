@@ -3843,7 +3843,10 @@ manager
 >
 RemoveEventHandler
 (
+GetEventNameForAttr
+(
 aName
+)
 )
 ;
 }
@@ -3933,7 +3936,10 @@ body
 ;
 SetEventHandler
 (
+GetEventNameForAttr
+(
 aName
+)
 aValue
 -
 >
@@ -15557,7 +15563,10 @@ value
 ;
 SetEventHandler
 (
+GetEventNameForAttr
+(
 attr
+)
 value
 true
 )
