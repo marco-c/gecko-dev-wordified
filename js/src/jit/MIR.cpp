@@ -8676,11 +8676,11 @@ printf
 s
 "
 CodeName
-[
+(
 jsop
 (
 )
-]
+)
 )
 ;
 }

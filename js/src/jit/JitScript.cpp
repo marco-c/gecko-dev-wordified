@@ -4799,10 +4799,13 @@ property
 op
 "
 CodeName
-[
+(
+JSOp
+(
 *
 pc
-]
+)
+)
 )
 ;
 spew
