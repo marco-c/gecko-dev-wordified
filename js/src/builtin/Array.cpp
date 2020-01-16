@@ -12640,7 +12640,7 @@ pc
 pc
 +
 =
-JSOP_GETARG_LENGTH
+JSOpLength_GetArg
 ;
 if
 (
@@ -12668,7 +12668,7 @@ pc
 pc
 +
 =
-JSOP_GETARG_LENGTH
+JSOpLength_GetArg
 ;
 if
 (
@@ -12689,7 +12689,7 @@ Match_None
 pc
 +
 =
-JSOP_SUB_LENGTH
+JSOpLength_Sub
 ;
 if
 (

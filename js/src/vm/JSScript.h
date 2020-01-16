@@ -17977,7 +17977,7 @@ codeEnd
 js
 :
 :
-JSOP_RETRVAL_LENGTH
+JSOpLength_RetRval
 ;
 MOZ_ASSERT
 (

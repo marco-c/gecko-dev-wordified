@@ -11327,7 +11327,7 @@ ec
 pc
 +
 =
-JSOP_GETALIASEDVAR_LENGTH
+JSOpLength_GetAliasedVar
 ;
 /
 *
@@ -11375,7 +11375,7 @@ true
 pc
 +
 =
-JSOP_GETARG_LENGTH
+JSOpLength_GetArg
 ;
 /
 *
@@ -11406,7 +11406,7 @@ true
 pc
 +
 =
-JSOP_GETELEM_LENGTH
+JSOpLength_GetElem
 ;
 /
 *
