@@ -32821,6 +32821,11 @@ nsITheme
 eOpaque
 )
 {
+*
+aSnap
+=
+true
+;
 result
 =
 mBackgroundRect
