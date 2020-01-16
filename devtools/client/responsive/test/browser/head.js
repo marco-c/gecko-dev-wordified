@@ -3790,7 +3790,9 @@ document
 =
 ui
 .
-toolWindow
+getBrowserWindow
+(
+)
 ;
 const
 touchButton
