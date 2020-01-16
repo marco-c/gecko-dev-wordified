@@ -1355,7 +1355,15 @@ char
 WMFDecoderDllName
 (
 )
+{
+return
+"
+msmpeg2vdec
+.
+dll
+"
 ;
+}
 /
 /
 Returns
