@@ -2546,6 +2546,13 @@ processing
 helpers
 *
 /
+HWND
+GetTopLevelForFocus
+(
+HWND
+aCurWnd
+)
+;
 void
 DispatchFocusToTopLevelWindow
 (
@@ -3435,6 +3442,9 @@ mIconSmall
 ;
 HICON
 mIconBig
+;
+HWND
+mLastKillFocusWindow
 ;
 static
 bool
