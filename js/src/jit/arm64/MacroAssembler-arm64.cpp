@@ -1451,7 +1451,10 @@ two
 values
 expected
 by
-JSOP_RETSUB
+JSOp
+:
+:
+Retsub
 :
 BooleanValue
 (

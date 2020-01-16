@@ -211,7 +211,10 @@ if
 !
 emitJump
 (
-JSOP_IFEQ
+JSOp
+:
+:
+IfEq
 &
 brList
 )
@@ -267,7 +270,10 @@ if
 !
 emitJump
 (
-JSOP_GOTO
+JSOp
+:
+:
+Goto
 &
 brList
 )

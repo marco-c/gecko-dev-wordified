@@ -18131,7 +18131,10 @@ NullValue
 Handle
 funapply
 with
-JSOP_ARGUMENTS
+JSOp
+:
+:
+Arguments
 if
 (
 op
@@ -18239,7 +18242,10 @@ bother
 to
 try
 optimizing
-JSOP_CALL
+JSOp
+:
+:
+Call
 with
 CacheIR
 if

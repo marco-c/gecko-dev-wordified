@@ -182,7 +182,10 @@ will
 emit
 /
 /
-JSOP_EVAL
+JSOp
+:
+:
+Eval
 which
 in
 turn

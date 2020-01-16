@@ -315,7 +315,10 @@ it
 s
 CheckTDZ
 a
-JSOP_CHECKLEXICAL
+JSOp
+:
+:
+CheckLexical
 is
 emitted
 and

@@ -2343,7 +2343,10 @@ emitted
 Does
 not
 include
-JSOP_AWAIT
+JSOp
+:
+:
+Await
 .
 uint32_t
 numYields_

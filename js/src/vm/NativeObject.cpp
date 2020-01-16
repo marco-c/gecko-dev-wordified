@@ -12343,9 +12343,15 @@ redundant
 In
 cases
 involving
-JSOP_NEWOBJECT
+JSOp
+:
+:
+NewObject
 and
-JSOP_INITPROP
+JSOp
+:
+:
+InitProp
 obj
 can
 have

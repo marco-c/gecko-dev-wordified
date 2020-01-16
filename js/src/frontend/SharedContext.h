@@ -2711,7 +2711,10 @@ only
 looks
 at
 how
-JSOP_ARGUMENTS
+JSOp
+:
+:
+Arguments
 is
 used
 so
@@ -2783,7 +2786,10 @@ to
 emit
 /
 /
-JSOP_FUNCTIONTHIS
+JSOp
+:
+:
+FunctionThis
 in
 the
 prologue

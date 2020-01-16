@@ -1623,7 +1623,10 @@ stack
 ]
 /
 /
-JSOP_LAMBDA_ARROW
+JSOp
+:
+:
+LambdaArrow
 is
 always
 preceded
@@ -3803,7 +3806,10 @@ undefined
 The
 /
 /
-JSOP_RETRVAL
+JSOp
+:
+:
+RetRval
 emitted
 below
 will
@@ -4127,7 +4133,10 @@ the
 script
 with
 a
-JSOP_RETRVAL
+JSOp
+:
+:
+RetRval
 .
 Some
 other

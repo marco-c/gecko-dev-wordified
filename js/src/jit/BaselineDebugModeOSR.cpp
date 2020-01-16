@@ -1516,7 +1516,10 @@ H
 .
 From
 a
-JSOP_AFTERYIELD
+JSOp
+:
+:
+AfterYield
 instruction
 .
 /

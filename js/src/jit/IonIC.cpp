@@ -2510,7 +2510,10 @@ This
 might
 be
 a
-JSOP_INITELEM
+JSOp
+:
+:
+InitElem
 op
 with
 a

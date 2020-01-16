@@ -4165,7 +4165,10 @@ over
 is
 accessed
 via
-JSOP_CALLEE
+JSOp
+:
+:
+Callee
 and
 /
 /

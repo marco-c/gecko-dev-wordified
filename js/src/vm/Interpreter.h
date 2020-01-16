@@ -1277,7 +1277,10 @@ as
 set
 up
 by
-JSOP_NEW
+JSOp
+:
+:
+New
 this
 comes
 for

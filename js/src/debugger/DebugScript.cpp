@@ -1927,7 +1927,10 @@ the
 necessary
 /
 /
-JSOP_AFTERYIELD
+JSOp
+:
+:
+AfterYield
 instrumentation
 by
 calling

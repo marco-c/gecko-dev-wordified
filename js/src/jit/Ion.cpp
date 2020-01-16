@@ -12006,7 +12006,10 @@ prev
 /
 /
 Additionally
-JSOP_DEFVAR
+JSOp
+:
+:
+DefVar
 support
 will
 require

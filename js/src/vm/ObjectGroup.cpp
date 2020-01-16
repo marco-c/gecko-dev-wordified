@@ -1380,7 +1380,10 @@ at
 a
 use
 of
-JSOP_NEW
+JSOp
+:
+:
+New
 that
 the
 constructed

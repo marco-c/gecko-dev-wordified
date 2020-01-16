@@ -5041,7 +5041,10 @@ later
 when
 we
 hit
-JSOP_GENERATOR
+JSOp
+:
+:
+Generator
 .
 }
 if
@@ -7907,7 +7910,10 @@ This
 is
 called
 from
-JSOP_GENERATOR
+JSOp
+:
+:
+Generator
 after
 default
 parameter
@@ -17499,7 +17505,10 @@ be
 stepping
 over
 a
-JSOP_EXCEPTION
+JSOp
+:
+:
+Exception
 that
 pushes
 the

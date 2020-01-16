@@ -7823,9 +7823,15 @@ in
 reverse
 order
 for
-JSOP_LE
+JSOp
+:
+:
+Le
 and
-JSOP_GT
+JSOp
+:
+:
+Gt
 :
 /
 /

@@ -7429,7 +7429,10 @@ one
 by
 copying
 the
-JSOP_TRY
+JSOp
+:
+:
+Try
 location
 as
 -

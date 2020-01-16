@@ -1354,7 +1354,10 @@ isIndexOrComputed_
 /
 /
 /
-JSOP_INITHOMEOBJECT
+JSOp
+:
+:
+InitHomeObject
 uses
 one
 of

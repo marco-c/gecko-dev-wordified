@@ -2228,7 +2228,10 @@ frontend
 should
 have
 emitted
-JSOP_GETALIASEDVAR
+JSOp
+:
+:
+GetAliasedVar
 )
 .
 *

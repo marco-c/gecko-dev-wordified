@@ -14144,7 +14144,10 @@ FunHasExtensibleScope
 /
 Bytecode
 contains
-JSOP_CALLSITEOBJ
+JSOp
+:
+:
+CallSiteObj
 /
 /
 (
@@ -17803,7 +17806,10 @@ const
 {
 /
 /
-JSOP_FORCEINTERPRETER
+JSOp
+:
+:
+ForceInterpreter
 if
 present
 must

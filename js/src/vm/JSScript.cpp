@@ -7276,7 +7276,10 @@ emitted
 for
 /
 /
-JSOP_OBJECT
+JSOp
+:
+:
+Object
 that
 then
 got
@@ -7293,7 +7296,10 @@ not
 /
 cloning
 in
-JSOP_OBJECT
+JSOp
+:
+:
+Object
 or
 if
 we
@@ -30311,7 +30317,10 @@ must
 be
 to
 a
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 op
 .
 This
@@ -30369,7 +30378,10 @@ must
 be
 to
 a
-JSOP_JUMPTARGET
+JSOp
+:
+:
+JumpTarget
 op
 .
 MOZ_ASSERT_IF

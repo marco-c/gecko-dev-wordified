@@ -521,7 +521,10 @@ false
 /
 Patch
 the
-JSOP_TRY
+JSOp
+:
+:
+Try
 offset
 .
 jsbytecode

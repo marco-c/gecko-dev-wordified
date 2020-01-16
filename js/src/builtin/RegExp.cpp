@@ -11182,7 +11182,10 @@ code
 /
 *
 *
-JSOP_GETALIASEDVAR
+JSOp
+:
+:
+GetAliasedVar
 tells
 us
 exactly

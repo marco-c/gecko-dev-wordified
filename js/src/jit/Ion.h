@@ -1180,7 +1180,10 @@ CALLPROP
 LENGTH
 GETELEM
 and
-JSOP_CALLELEM
+JSOp
+:
+:
+CallElem
 .
 (
 Inlined

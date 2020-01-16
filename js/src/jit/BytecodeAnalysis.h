@@ -195,7 +195,10 @@ true
 this
 is
 a
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 op
 inside
 a

@@ -306,7 +306,10 @@ line
 note
 for
 the
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 so
 that
 "

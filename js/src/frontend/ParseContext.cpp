@@ -3449,7 +3449,10 @@ Derived
 class
 constructors
 emit
-JSOP_CHECKRETURN
+JSOp
+:
+:
+CheckReturn
 which
 requires
 /

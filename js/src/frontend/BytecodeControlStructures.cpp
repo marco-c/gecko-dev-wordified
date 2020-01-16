@@ -466,7 +466,10 @@ with
 a
 /
 /
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 .
 This
 avoids

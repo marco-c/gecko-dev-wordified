@@ -1652,7 +1652,10 @@ interpreter
 calls
 it
 from
-JSOP_RESUME
+JSOp
+:
+:
+Resume
 *
 immediately
 after
@@ -1667,7 +1670,10 @@ calls
 it
 from
 *
-JSOP_AFTERYIELD
+JSOp
+:
+:
+AfterYield
 just
 after
 the
@@ -2554,7 +2560,10 @@ been
 created
 *
 via
-JSOP_GENERATOR
+JSOp
+:
+:
+Generator
 .
 *
 *

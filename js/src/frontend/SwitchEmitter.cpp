@@ -1689,7 +1689,10 @@ Case
 For
 cond
 switch
-JSOP_DEFAULT
+JSOp
+:
+:
+Default
 is
 always
 emitted
@@ -1972,7 +1975,10 @@ Case
 For
 cond
 switch
-JSOP_DEFAULT
+JSOp
+:
+:
+Default
 is
 always
 emitted

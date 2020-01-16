@@ -3858,7 +3858,10 @@ targetObj
 This
 environment
 intercepts
-JSOP_GLOBALTHIS
+JSOp
+:
+:
+GlobalThis
 .
 /
 /

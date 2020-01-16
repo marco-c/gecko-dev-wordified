@@ -653,7 +653,10 @@ call
 /
 /
 *
-JSOP_RESUME
+JSOp
+:
+:
+Resume
 (
 because
 this
@@ -1363,7 +1366,10 @@ JIT
 at
 /
 /
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 ops
 .
 class

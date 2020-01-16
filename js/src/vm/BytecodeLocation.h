@@ -1001,7 +1001,10 @@ default
 target
 of
 a
-JSOP_TABLESWITCH
+JSOp
+:
+:
+TableSwitch
 also
 follows
 this

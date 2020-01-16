@@ -1883,7 +1883,10 @@ decompilation
 /
 Used
 by
-JSOP_NOP_DESTRUCTURING
+JSOp
+:
+:
+NopDestructuring
 .
 See
 BytecodeParser
@@ -4899,7 +4902,10 @@ we
 parsed
 the
 target
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 .
 MOZ_ASSERT_IF
 (
@@ -13865,7 +13871,10 @@ e
 .
 g
 .
-JSOP_MOREITER
+JSOp
+:
+:
+MoreIter
 )
 so
 restore

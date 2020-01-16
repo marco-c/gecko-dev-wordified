@@ -2825,7 +2825,10 @@ when
 /
 evaluating
 the
-JSOP_SETFUNNAME
+JSOp
+:
+:
+SetFunName
 bytecode
 .
 /

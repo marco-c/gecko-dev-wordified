@@ -9794,7 +9794,10 @@ it
 is
 accessed
 via
-JSOP_CALLEE
+JSOp
+:
+:
+Callee
 .
 if
 (
