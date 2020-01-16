@@ -532,15 +532,6 @@ nsHttpAuthIdentity
 &
 )
 ;
-void
-RecordConfirmAuthTelemetry
-(
-const
-char
-*
-aType
-)
-;
 bool
 ConfirmAuth
 (
