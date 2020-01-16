@@ -903,7 +903,7 @@ GetFlags
 ;
 if
 (
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )

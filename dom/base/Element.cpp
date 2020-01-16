@@ -17608,7 +17608,7 @@ GetFlags
 ;
 if
 (
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
