@@ -5366,6 +5366,10 @@ HasDivergedFromRecording
 )
 )
 ;
+EnsureNonMainThreadsAreSpawned
+(
+)
+;
 /
 /
 Don
