@@ -1101,7 +1101,10 @@ osrPc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 ;
 /
@@ -1707,7 +1710,10 @@ pc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 ;
 return
