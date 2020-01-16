@@ -33942,6 +33942,10 @@ EditorBase
 aEditorBase
 )
 )
+mPrincipal
+(
+aPrincipal
+)
 mParentData
 (
 aEditorBase
