@@ -8048,11 +8048,6 @@ title
 )
 ;
 }
-onItemRemoved
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )
