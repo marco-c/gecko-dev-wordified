@@ -558,11 +558,8 @@ tryOpOffset_
 ;
 MOZ_ASSERT
 (
-JSOp
-(
 *
 trypc
-)
 =
 =
 JSOP_TRY

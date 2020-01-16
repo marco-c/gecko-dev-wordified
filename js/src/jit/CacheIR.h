@@ -12233,7 +12233,7 @@ rhs
 void
 compareStringResult
 (
-JSOp
+uint32_t
 op
 StringOperandId
 lhs
@@ -12259,7 +12259,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12269,7 +12269,7 @@ op
 void
 compareObjectResult
 (
-JSOp
+uint32_t
 op
 ObjOperandId
 lhs
@@ -12295,7 +12295,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12305,7 +12305,7 @@ op
 void
 compareObjectUndefinedNullResult
 (
-JSOp
+uint32_t
 op
 ObjOperandId
 object
@@ -12324,7 +12324,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12334,7 +12334,7 @@ op
 void
 compareSymbolResult
 (
-JSOp
+uint32_t
 op
 SymbolOperandId
 lhs
@@ -12360,7 +12360,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12370,7 +12370,7 @@ op
 void
 compareInt32Result
 (
-JSOp
+uint32_t
 op
 Int32OperandId
 lhs
@@ -12396,7 +12396,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12406,7 +12406,7 @@ op
 void
 compareDoubleResult
 (
-JSOp
+uint32_t
 op
 NumberOperandId
 lhs
@@ -12432,7 +12432,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12442,7 +12442,7 @@ op
 void
 compareBigIntResult
 (
-JSOp
+uint32_t
 op
 BigIntOperandId
 lhs
@@ -12468,7 +12468,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12478,7 +12478,7 @@ op
 void
 compareBigIntInt32Result
 (
-JSOp
+uint32_t
 op
 BigIntOperandId
 lhs
@@ -12504,7 +12504,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12514,7 +12514,7 @@ op
 void
 compareInt32BigIntResult
 (
-JSOp
+uint32_t
 op
 Int32OperandId
 lhs
@@ -12540,7 +12540,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12550,7 +12550,7 @@ op
 void
 compareBigIntNumberResult
 (
-JSOp
+uint32_t
 op
 BigIntOperandId
 lhs
@@ -12576,7 +12576,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12586,7 +12586,7 @@ op
 void
 compareNumberBigIntResult
 (
-JSOp
+uint32_t
 op
 NumberOperandId
 lhs
@@ -12612,7 +12612,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12622,7 +12622,7 @@ op
 void
 compareBigIntStringResult
 (
-JSOp
+uint32_t
 op
 BigIntOperandId
 lhs
@@ -12648,7 +12648,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
@@ -12658,7 +12658,7 @@ op
 void
 compareStringBigIntResult
 (
-JSOp
+uint32_t
 op
 StringOperandId
 lhs
@@ -12684,7 +12684,7 @@ buffer_
 .
 writeByte
 (
-uint8_t
+uint32_t
 (
 op
 )
