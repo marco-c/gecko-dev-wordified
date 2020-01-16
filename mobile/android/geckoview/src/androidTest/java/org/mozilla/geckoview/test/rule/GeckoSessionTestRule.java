@@ -451,11 +451,13 @@ annotation
 Nullable
 ;
 import
-android
-.
-support
+androidx
 .
 test
+.
+platform
+.
+app
 .
 InstrumentationRegistry
 ;
@@ -8427,6 +8429,10 @@ new
 TestServer
 (
 InstrumentationRegistry
+.
+getInstrumentation
+(
+)
 .
 getTargetContext
 (
