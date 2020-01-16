@@ -196,6 +196,9 @@ EvalScope
 class
 GCMarker
 ;
+class
+ScopeCreationData
+;
 namespace
 frontend
 {
@@ -204,9 +207,6 @@ ParseInfo
 ;
 class
 FunctionBox
-;
-class
-ScopeCreationData
 ;
 }
 /
@@ -658,9 +658,6 @@ ParseInfo
 .
 MutableHandle
 <
-frontend
-:
-:
 ScopeCreationData
 >
 scopeCreationData
