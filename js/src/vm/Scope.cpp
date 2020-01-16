@@ -8869,13 +8869,6 @@ instance
 data
 -
 >
-memoriesStart
-=
-0
-;
-data
--
->
 globalsStart
 =
 globalsStart
@@ -9220,13 +9213,6 @@ length
 =
 namesCount
 )
-;
-data
--
->
-funcIndex
-=
-funcIndex
 ;
 return
 Scope
