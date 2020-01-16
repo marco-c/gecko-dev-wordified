@@ -106,7 +106,7 @@ Run
 |
 self
 .
-specstring
+specfilename
 |
 through
 the
