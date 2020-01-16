@@ -8048,6 +8048,11 @@ title
 )
 ;
 }
+onItemRemoved
+(
+)
+{
+}
 onBeginUpdateBatch
 (
 )
