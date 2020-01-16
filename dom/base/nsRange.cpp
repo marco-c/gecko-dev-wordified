@@ -1002,7 +1002,7 @@ InvalidateFrameSubtree
 static
 nsINode
 *
-GetNextRangeCommonAncestor
+GetClosestCommonInclusiveAncestorForRangeInSelection
 (
 nsINode
 *
@@ -1340,7 +1340,7 @@ nsINode
 *
 n
 =
-GetNextRangeCommonAncestor
+GetClosestCommonInclusiveAncestorForRangeInSelection
 (
 aNode
 )
@@ -1401,7 +1401,7 @@ n
 ;
 n
 =
-GetNextRangeCommonAncestor
+GetClosestCommonInclusiveAncestorForRangeInSelection
 (
 n
 -
