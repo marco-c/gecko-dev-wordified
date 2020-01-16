@@ -264,7 +264,7 @@ aChannel
 ;
 static
 nsresult
-CheckSystemPrincipalLoads
+CheckAllowLoadInSystemPrivilegedContext
 (
 nsIChannel
 *
