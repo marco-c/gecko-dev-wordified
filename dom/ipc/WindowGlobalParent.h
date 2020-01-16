@@ -730,6 +730,14 @@ ContentBlockingEvents
 (
 )
 ;
+void
+GetContentBlockingLog
+(
+nsAString
+&
+aLog
+)
+;
 bool
 IsInitialDocument
 (
