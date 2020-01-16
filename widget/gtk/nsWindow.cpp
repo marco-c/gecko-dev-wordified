@@ -43742,6 +43742,8 @@ GetGtkWidget
 GtkWindow
 *
 topmostParentWindow
+=
+nullptr
 ;
 while
 (
