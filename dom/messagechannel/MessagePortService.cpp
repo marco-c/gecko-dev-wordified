@@ -925,7 +925,7 @@ mMessages
 ;
 FallibleTArray
 <
-MessageData
+ClonedMessageData
 >
 array
 ;
@@ -1424,7 +1424,7 @@ index
 ;
 FallibleTArray
 <
-MessageData
+ClonedMessageData
 >
 array
 ;
@@ -2133,7 +2133,7 @@ CanSendData
 {
 FallibleTArray
 <
-MessageData
+ClonedMessageData
 >
 messages
 ;

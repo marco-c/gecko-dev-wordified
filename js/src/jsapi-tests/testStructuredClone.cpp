@@ -898,6 +898,13 @@ BEGIN_TEST
 testStructuredClone_externalArrayBufferDifferentThreadOrProcess
 )
 {
+/
+/
+SameProcessSameThread
+is
+tested
+above
+.
 CHECK
 (
 testStructuredCloneCopy
@@ -908,7 +915,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcess
+SameProcessDifferentThread
 )
 )
 ;

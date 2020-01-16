@@ -170,7 +170,7 @@ StructuredCloneHolder
 StructuredCloneScope
 :
 :
-SameProcess
+SameProcessDifferentThread
 )
 {
 }
