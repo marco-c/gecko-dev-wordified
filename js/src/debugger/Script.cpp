@@ -9748,9 +9748,6 @@ JSOP_THROWMSG
 case
 JSOP_FORCEINTERPRETER
 :
-case
-JSOP_LIMIT
-:
 return
 false
 ;
