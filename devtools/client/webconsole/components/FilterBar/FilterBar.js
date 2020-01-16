@@ -501,6 +501,13 @@ PropTypes
 bool
 .
 isRequired
+eagerEvaluation
+:
+PropTypes
+.
+bool
+.
+isRequired
 showContentMessages
 :
 PropTypes
@@ -740,6 +747,7 @@ groupWarnings
 persistLogs
 showContentMessages
 timestampsVisible
+eagerEvaluation
 }
 =
 this
@@ -809,6 +817,15 @@ timestampsVisible
 =
 =
 timestampsVisible
+|
+|
+nextProps
+.
+eagerEvaluation
+!
+=
+=
+eagerEvaluation
 )
 {
 return
@@ -1848,6 +1865,7 @@ renderSettingsButton
 const
 {
 dispatch
+eagerEvaluation
 groupWarnings
 hidePersistLogsCheckbox
 hideShowContentMessagesCheckbox
@@ -1866,6 +1884,7 @@ ConsoleSettings
 (
 {
 dispatch
+eagerEvaluation
 groupWarnings
 hidePersistLogsCheckbox
 hideShowContentMessagesCheckbox
@@ -2239,6 +2258,11 @@ persistLogs
 uiState
 .
 persistLogs
+eagerEvaluation
+:
+prefsState
+.
+eagerEvaluation
 showContentMessages
 :
 uiState
