@@ -12722,7 +12722,7 @@ bool
 aReady
 )
 {
-AssertIsOnParentThread
+AssertIsOnMainThread
 (
 )
 ;
