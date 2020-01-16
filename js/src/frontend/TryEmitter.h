@@ -927,7 +927,7 @@ catches
 result
 in
 a
-GOSUB
+Gosub
 being
 written
 into

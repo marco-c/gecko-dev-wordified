@@ -3968,11 +3968,11 @@ JSOp
 :
 GetElem
 /
-CALLELEM
+CallElem
 /
-SETELEM
+SetElem
 /
-DELELEM
+DelElem
 /
 /
 opcode
@@ -3988,7 +3988,7 @@ In
 the
 case
 of
-SETELEM
+SetElem
 the
 /
 /

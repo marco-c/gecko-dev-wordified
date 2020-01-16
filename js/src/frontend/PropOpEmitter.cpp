@@ -721,7 +721,7 @@ isPropInit
 /
 For
 CompoundAssignment
-SUPERBASE
+SuperBase
 is
 already
 emitted

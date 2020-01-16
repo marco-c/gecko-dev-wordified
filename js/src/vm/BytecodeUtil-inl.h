@@ -163,9 +163,9 @@ extra
 pushed
 value
 for
-OR
+Or
 /
-AND
+And
 opcodes
 so
 that

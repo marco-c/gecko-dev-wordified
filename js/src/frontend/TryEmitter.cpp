@@ -479,7 +479,7 @@ stackDepth
 ;
 /
 /
-GOSUB
+Gosub
 to
 finally
 if

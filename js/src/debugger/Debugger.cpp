@@ -12727,11 +12727,11 @@ is
 paused
 between
 the
-GENERATOR
+Generator
 and
 /
 /
-SETALIASEDVAR
+SetAliasedVar
 opcodes
 .
 But

@@ -11182,7 +11182,7 @@ syncStack
 ;
 /
 /
-DUPAT
+DupAt
 takes
 a
 value
@@ -11203,7 +11203,7 @@ s
 like
 /
 /
-GETLOCAL
+GetLocal
 but
 it
 addresses
@@ -11389,12 +11389,12 @@ inc
 dec
 ops
 use
-DUP
+Dup
 followed
 by
-INC
+Inc
 /
-DEC
+Dec
 .
 Push
 R0
@@ -13572,9 +13572,9 @@ JSVAL_TYPE_BOOLEAN
 ;
 /
 /
-AND
+And
 and
-OR
+Or
 leave
 the
 original
@@ -13694,7 +13694,7 @@ emit_JSOP_COALESCE
 {
 /
 /
-COALESCE
+Coalesce
 leaves
 the
 original
@@ -22916,7 +22916,7 @@ If
 we
 have
 a
-BINDGNAME
+BindGName
 without
 a
 non
@@ -34973,7 +34973,7 @@ we
 can
 inline
 the
-YIELD
+Yield
 .
 Note
 that

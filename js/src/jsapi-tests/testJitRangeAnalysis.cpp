@@ -2369,7 +2369,7 @@ beta
 node
 insertion
 with
-STRICTEQ
+StrictEq
 and
 a
 non

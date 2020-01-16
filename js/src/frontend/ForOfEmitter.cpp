@@ -941,7 +941,7 @@ start
 JSTRY_ITERCLOSE
 after
 the
-GETPROP
+GetProp
 .
 if
 (

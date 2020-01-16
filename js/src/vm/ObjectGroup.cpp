@@ -1400,7 +1400,7 @@ do
 this
 when
 the
-NEW
+New
 is
 immediately
 *

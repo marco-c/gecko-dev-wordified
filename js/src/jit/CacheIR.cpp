@@ -23370,7 +23370,7 @@ Don
 '
 t
 optimize
-INITELEM
+InitElem
 (
 DefineProperty
 )
@@ -24309,7 +24309,7 @@ unless
 this
 is
 an
-INITELEM
+InitElem
 or
 we
 know
@@ -36947,9 +36947,9 @@ always
 be
 true
 for
-NE
+Ne
 /
-STRICTNE
+StrictNe
 /
 /
 and
@@ -37291,9 +37291,9 @@ true
 for
 /
 /
-NE
+Ne
 /
-STRICTNE
+StrictNe
 and
 always
 be
@@ -38063,9 +38063,9 @@ always
 be
 true
 for
-NE
+Ne
 /
-STRICTNE
+StrictNe
 and
 /
 /
@@ -41404,7 +41404,7 @@ with
 the
 exception
 of
-URSH
+Ursh
 produce
 Int32
 values

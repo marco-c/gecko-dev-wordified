@@ -1262,7 +1262,7 @@ for
 global
 scopes
 because
-INITGLEXICAL
+InitGLexical
 (
 stack
 /
@@ -1274,7 +1274,7 @@ is
 compiled
 as
 a
-SETPROP
+SetProp
 (
 stack
 depth

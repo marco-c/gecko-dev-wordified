@@ -18842,11 +18842,14 @@ a
 binding
 already
 looked
-/
-/
 up
+/
+/
 via
-BINDNAME
+JSOp
+:
+:
+BindName
 calling
 HasProperty
 on

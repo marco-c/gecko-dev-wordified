@@ -1119,7 +1119,7 @@ isInitialize
 {
 /
 /
-INITGLEXICAL
+InitGLexical
 always
 gets
 the
@@ -1135,7 +1135,7 @@ t
 /
 need
 a
-BINDGNAME
+BindGName
 .
 MOZ_ASSERT
 (
@@ -1428,12 +1428,12 @@ we
 need
 to
 emit
-GETBOUNDNAME
+GetBoundName
 instead
 of
 /
 /
-GETNAME
+GetName
 for
 correctness
 :
@@ -1465,7 +1465,7 @@ once
 /
 /
 /
-GETBOUNDNAME
+GetBoundName
 uses
 the
 environment
@@ -1479,7 +1479,7 @@ stack
 from
 the
 earlier
-BINDNAME
+BindName
 .
 if
 (

@@ -3285,7 +3285,7 @@ are
 resuming
 at
 a
-LOOPHEAD
+LoopHead
 op
 resume
 at
@@ -7241,7 +7241,7 @@ pc
 /
 Inlining
 of
-SPREADCALL
+SpreadCall
 -
 like
 frames
@@ -7962,7 +7962,7 @@ the
 result
 of
 the
-SETPROP
+SetProp
 .
 Value
 initialArg
@@ -10078,7 +10078,7 @@ needToSaveArgs
 /
 /
 For
-FUNAPPLY
+FunApply
 or
 an
 accessor

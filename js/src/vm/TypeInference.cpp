@@ -22265,7 +22265,7 @@ eval
 )
 /
 /
-GETALIASEDVAR
+GetAliasedVar
 can
 return
 the
@@ -26612,7 +26612,7 @@ numProperties
 Whether
 the
 current
-SETPROP
+SetProp
 is
 within
 an
@@ -26664,7 +26664,7 @@ being
 checked
 for
 a
-SETPROP
+SetProp
 .
 int
 setpropDepth

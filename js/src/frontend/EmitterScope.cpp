@@ -6341,7 +6341,7 @@ prologue
 Do
 not
 emit
-DEFVAR
+DefVar
 for
 /
 /
@@ -6351,7 +6351,7 @@ we
 '
 ll
 emit
-DEFFUN
+DefFun
 for
 .
 if
@@ -6906,7 +6906,7 @@ binding
 names
 and
 emit
-DEFVAR
+DefVar
 prologue
 ops
 if

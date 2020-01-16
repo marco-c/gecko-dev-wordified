@@ -450,7 +450,7 @@ not
 start
 with
 a
-LOOPHEAD
+LoopHead
 op
 or
 the

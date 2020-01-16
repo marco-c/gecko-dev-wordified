@@ -12117,7 +12117,7 @@ function
 to
 perform
 a
-BITNOT
+BitNot
 operation
 .
 class

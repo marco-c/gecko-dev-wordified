@@ -28649,7 +28649,7 @@ If
 this
 is
 a
-GETPROP
+GetProp
 the
 id
 is
@@ -30670,7 +30670,7 @@ If
 this
 is
 a
-SETPROP
+SetProp
 the
 id
 is
@@ -30785,11 +30785,11 @@ if
 this
 is
 a
-SETELEM
+SetElem
 /
 /
 or
-INITELEM
+InitElem
 op
 .
 LDefinition

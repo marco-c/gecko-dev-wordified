@@ -1268,11 +1268,11 @@ created
 -
 Between
 the
-GENERATOR
+Generator
 instruction
 and
 the
-SETALIASEDVAR
+SetAliasedVar
 .
 generator
 *

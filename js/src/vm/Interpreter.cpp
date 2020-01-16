@@ -22799,10 +22799,10 @@ method
 JIT
 and
 a
-GETLOCAL
+GetLocal
 followed
 by
-POP
+Pop
 is
 not
 considered
