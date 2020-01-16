@@ -219,13 +219,6 @@ StaticPrefs_media
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-java
-;
 namespace
 mozilla
 {
@@ -233,6 +226,9 @@ class
 HLSResourceCallbacksSupport
 :
 public
+java
+:
+:
 GeckoHLSResourceWrapper
 :
 :
@@ -251,6 +247,9 @@ HLSResourceCallbacksSupport
 public
 :
 typedef
+java
+:
+:
 GeckoHLSResourceWrapper
 :
 :
@@ -947,6 +946,9 @@ Init
 ;
 mJavaCallbacks
 =
+java
+:
+:
 GeckoHLSResourceWrapper
 :
 :

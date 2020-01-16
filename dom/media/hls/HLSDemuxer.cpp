@@ -166,13 +166,6 @@ nsPrintfCString
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-java
-;
 namespace
 mozilla
 {
@@ -430,6 +423,9 @@ HLSDemuxer
 HLSDemuxerCallbacksSupport
 :
 public
+java
+:
+:
 GeckoHLSDemuxerWrapper
 :
 :
@@ -448,6 +444,9 @@ HLSDemuxerCallbacksSupport
 public
 :
 typedef
+java
+:
+:
 GeckoHLSDemuxerWrapper
 :
 :
@@ -823,6 +822,9 @@ Init
 ;
 mJavaCallbacks
 =
+java
+:
+:
 GeckoHLSDemuxerWrapper
 :
 :
@@ -857,6 +859,9 @@ mCallbackSupport
 ;
 mHLSDemuxerWrapper
 =
+java
+:
+:
 GeckoHLSDemuxerWrapper
 :
 :
