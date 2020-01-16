@@ -11631,14 +11631,13 @@ define
 OPCODE_LABEL
 (
 op
-op_camel
 .
 .
 .
 )
 LABEL
 (
-op_camel
+op
 )
 FOR_EACH_OPCODE
 (

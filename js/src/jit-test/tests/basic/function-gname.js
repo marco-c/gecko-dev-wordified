@@ -114,7 +114,7 @@ b
 .
 includes
 (
-getgname
+GetGName
 "
 {
 v
@@ -130,7 +130,7 @@ b
 .
 includes
 (
-getname
+GetName
 "
 {
 v
