@@ -196,6 +196,9 @@ class
 SharedMessagePortMessage
 ;
 class
+RefMessageBodyService
+;
+class
 StrongWorkerRef
 ;
 /
@@ -1270,6 +1273,12 @@ RefPtr
 MessagePort
 >
 mUnshippedEntangledPort
+;
+RefPtr
+<
+RefMessageBodyService
+>
+mRefMessageBodyService
 ;
 nsTArray
 <
