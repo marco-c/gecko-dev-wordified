@@ -496,6 +496,9 @@ tabs
 DOM
 Cookies
 "
+"
+cookies
+"
 /
 /
 getDataCallback
@@ -586,6 +589,9 @@ tabs
 -
 Network
 Cookies
+"
+"
+cookies
 "
 /
 /

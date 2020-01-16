@@ -30064,15 +30064,9 @@ if
 aCookieSettings
 -
 >
-GetCookieBehavior
+GetLimitForeignContexts
 (
 )
-=
-=
-nsICookieService
-:
-:
-BEHAVIOR_LIMIT_FOREIGN
 &
 &
 !
