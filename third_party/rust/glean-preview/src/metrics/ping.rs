@@ -293,7 +293,7 @@ ping_type
 /
 /
 /
-Send
+Submit
 the
 ping
 .
@@ -327,7 +327,7 @@ otherwise
 .
 pub
 fn
-send
+submit
 (
 &
 self
@@ -339,7 +339,7 @@ bool
 crate
 :
 :
-send_ping
+submit_ping
 (
 self
 )
