@@ -95,6 +95,8 @@ prototype
 =
 {
 loadParser
+:
+function
 (
 window
 )
@@ -120,6 +122,8 @@ utf8
 ;
 }
 parse
+:
+function
 (
 data
 )
@@ -205,6 +209,8 @@ buffer
 ;
 }
 flush
+:
+function
 (
 )
 {
@@ -218,6 +224,8 @@ flush
 ;
 }
 watch
+:
+function
 (
 callback
 )
@@ -272,11 +280,13 @@ callback
 .
 onParsingError
 (
+(
 "
 code
 "
 in
 e
+)
 ?
 e
 .
@@ -290,6 +300,8 @@ code
 ;
 }
 cancel
+:
+function
 (
 )
 {
@@ -319,6 +331,8 @@ null
 ;
 }
 convertCueToDOMTree
+:
+function
 (
 window
 cue
@@ -337,6 +351,8 @@ text
 ;
 }
 processCues
+:
+function
 (
 window
 cues
