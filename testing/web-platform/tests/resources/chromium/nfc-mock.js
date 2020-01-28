@@ -602,7 +602,7 @@ data
 /
 /
 Compares
-NDEFPushOptions
+NDEFWriteOptions
 structures
 that
 were
@@ -620,7 +620,7 @@ mojo
 service
 .
 function
-assertNDEFPushOptionsEqual
+assertNDEFWriteOptionsEqual
 (
 provided
 received
@@ -1073,7 +1073,7 @@ null
 ;
 this
 .
-pending_push_options_
+pending_write_options_
 =
 null
 ;
@@ -1187,7 +1187,7 @@ message
 ;
 this
 .
-pending_push_options_
+pending_write_options_
 =
 options
 ;
@@ -1684,14 +1684,14 @@ this
 pushed_message_
 ;
 }
-pushOptions
+writeOptions
 (
 )
 {
 return
 this
 .
-pending_push_options_
+pending_write_options_
 ;
 }
 watchOptions
@@ -1830,7 +1830,7 @@ null
 ;
 this
 .
-pending_push_options_
+pending_write_options_
 =
 null
 ;
@@ -1891,7 +1891,7 @@ return
 Ignores
 reading
 if
-NDEFPushOptions
+NDEFWriteOptions
 .
 ignoreRead
 is
@@ -1901,12 +1901,12 @@ if
 (
 this
 .
-pending_push_options_
+pending_write_options_
 &
 &
 this
 .
-pending_push_options_
+pending_write_options_
 .
 ignoreRead
 )

@@ -862,7 +862,7 @@ test_record_id
 ;
 }
 function
-createNDEFPushOptions
+createNDEFWriteOptions
 (
 ignoreRead
 )
@@ -892,7 +892,7 @@ g
 .
 NDEFWriter
 .
-push
+write
 )
 and
 NDEFMessage
