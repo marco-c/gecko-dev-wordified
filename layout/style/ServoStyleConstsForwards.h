@@ -215,6 +215,15 @@ h
 #
 include
 "
+mozilla
+/
+Vector
+.
+h
+"
+#
+include
+"
 nsCSSPropertyID
 .
 h

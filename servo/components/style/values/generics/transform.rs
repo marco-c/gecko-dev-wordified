@@ -238,8 +238,10 @@ derive
 Clone
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToComputedValue
 ToCss
@@ -341,8 +343,10 @@ derive
 Clone
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToComputedValue
 ToCss
@@ -899,8 +903,10 @@ derive
 (
 Clone
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToComputedValue
 ToCss
@@ -1774,8 +1780,10 @@ derive
 (
 Clone
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToComputedValue
 ToCss
