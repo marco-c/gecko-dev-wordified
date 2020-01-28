@@ -777,7 +777,7 @@ content
 /
 aboutNetworking
 .
-xhtml
+html
 "
 nsIAboutModule
 :
