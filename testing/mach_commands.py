@@ -1077,6 +1077,9 @@ kwargs
 import
 addtest
         
+import
+io
+        
 from
 moztest
 .
@@ -1534,6 +1537,8 @@ OSError
 pass
                 
 with
+io
+.
 open
 (
 path
