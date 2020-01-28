@@ -176,6 +176,9 @@ mMaximumScale
 nsString
 mUserScalable
 ;
+nsString
+mViewportFit
+;
 bool
 operator
 =
@@ -235,6 +238,14 @@ mUserScalable
 aOther
 .
 mUserScalable
+&
+&
+mViewportFit
+=
+=
+aOther
+.
+mViewportFit
 ;
 }
 bool
