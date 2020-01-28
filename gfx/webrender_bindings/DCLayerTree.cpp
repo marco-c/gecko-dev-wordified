@@ -645,7 +645,13 @@ Set
 interporation
 mode
 to
-Linear
+nearest
+to
+ensure
+1
+:
+1
+sampling
 .
 /
 /
@@ -690,7 +696,7 @@ mRootVisual
 >
 SetBitmapInterpolationMode
 (
-DCOMPOSITION_BITMAP_INTERPOLATION_MODE_LINEAR
+DCOMPOSITION_BITMAP_INTERPOLATION_MODE_NEAREST_NEIGHBOR
 )
 ;
 return
