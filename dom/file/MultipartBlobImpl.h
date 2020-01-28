@@ -434,14 +434,6 @@ mName
 aName
 ;
 }
-virtual
-bool
-MayBeClonedToOtherThreads
-(
-)
-const
-override
-;
 size_t
 GetAllocationSize
 (

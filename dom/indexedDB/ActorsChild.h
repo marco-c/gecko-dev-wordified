@@ -3428,15 +3428,6 @@ void
 HandleResponse
 (
 const
-FileRequestGetFileResponse
-&
-aResponse
-)
-;
-void
-HandleResponse
-(
-const
 nsCString
 &
 aResponse
