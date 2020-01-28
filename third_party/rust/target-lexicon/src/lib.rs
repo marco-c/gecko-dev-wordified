@@ -141,6 +141,7 @@ Aarch64Architecture
 Architecture
 ArmArchitecture
 BinaryFormat
+CustomVendor
 Environment
 OperatingSystem
 Vendor

@@ -581,14 +581,14 @@ is_pic
 )
 ;
 let
-allones_funcaddrs
+emit_all_ones_funcaddrs
 =
 shared
 .
 get_bool
 (
 "
-allones_funcaddrs
+emit_all_ones_funcaddrs
 "
 )
 ;
@@ -631,7 +631,7 @@ all_ones_funcaddrs_and_not_is_pic
 predicate
 !
 (
-allones_funcaddrs
+emit_all_ones_funcaddrs
 &
 &
 !
@@ -650,7 +650,7 @@ predicate
 !
 (
 !
-allones_funcaddrs
+emit_all_ones_funcaddrs
 &
 &
 !

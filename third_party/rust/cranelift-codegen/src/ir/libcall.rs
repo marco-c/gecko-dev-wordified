@@ -241,7 +241,7 @@ need
 /
 when
 the
-probestack_enabled
+enable_probestack
 setting
 is
 true
@@ -1401,7 +1401,7 @@ flags
 (
 )
 .
-colocated_libcalls
+use_colocated_libcalls
 (
 )
 }

@@ -2987,7 +2987,7 @@ false
 \
 n
 \
-colocated_libcalls
+use_colocated_libcalls
 =
 false
 \
@@ -3041,13 +3041,13 @@ false
 \
 n
 \
-allones_funcaddrs
+emit_all_ones_funcaddrs
 =
 false
 \
 n
 \
-probestack_enabled
+enable_probestack
 =
 true
 \
@@ -3059,7 +3059,7 @@ false
 \
 n
 \
-jump_tables_enabled
+enable_jump_tables
 =
 true
 \

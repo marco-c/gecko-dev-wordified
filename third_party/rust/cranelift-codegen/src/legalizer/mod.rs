@@ -1511,7 +1511,7 @@ flags
 (
 )
 .
-jump_tables_enabled
+enable_jump_tables
 (
 )
 {
@@ -2112,7 +2112,7 @@ flags
 (
 )
 .
-jump_tables_enabled
+enable_jump_tables
 (
 )
 {

@@ -222,7 +222,7 @@ settings
 add_bool
 (
 "
-colocated_libcalls
+use_colocated_libcalls
 "
 r
 #
@@ -933,7 +933,7 @@ settings
 add_bool
 (
 "
-allones_funcaddrs
+emit_all_ones_funcaddrs
 "
 "
 Emit
@@ -966,7 +966,7 @@ settings
 add_bool
 (
 "
-probestack_enabled
+enable_probestack
 "
 r
 #
@@ -1086,7 +1086,7 @@ settings
 add_bool
 (
 "
-jump_tables_enabled
+enable_jump_tables
 "
 "
 Enable

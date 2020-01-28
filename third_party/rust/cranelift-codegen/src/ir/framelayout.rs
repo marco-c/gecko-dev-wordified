@@ -360,7 +360,7 @@ new
 >
 Self
 {
-FrameLayout
+Self
 {
 initial
 :
