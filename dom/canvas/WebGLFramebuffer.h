@@ -1227,6 +1227,14 @@ mColorAttachments
 ]
 ;
 }
+bool
+IsDrawBufferEnabled
+(
+uint32_t
+slotId
+)
+const
+;
 /
 /
 /
