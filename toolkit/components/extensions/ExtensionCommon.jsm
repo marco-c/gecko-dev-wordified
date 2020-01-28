@@ -2911,9 +2911,7 @@ this
 .
 contentWindow
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 ;
 let
 conduit
