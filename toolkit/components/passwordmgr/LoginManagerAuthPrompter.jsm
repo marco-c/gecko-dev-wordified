@@ -2841,9 +2841,11 @@ needed
 "
 )
 ;
-this
+Services
 .
-_updateLogin
+logins
+.
+recordPasswordUse
 (
 selectedLogin
 )
@@ -4752,9 +4754,11 @@ needed
 "
 )
 ;
-this
+Services
 .
-_updateLogin
+logins
+.
+recordPasswordUse
 (
 selectedLogin
 )
@@ -6228,8 +6232,6 @@ _updateLogin
 (
 login
 aNewLogin
-=
-null
 )
 {
 var
@@ -6268,11 +6270,6 @@ Ci
 nsIWritablePropertyBag
 )
 ;
-if
-(
-aNewLogin
-)
-{
 propBag
 .
 setProperty
@@ -6366,7 +6363,6 @@ timePasswordChanged
 now
 )
 ;
-}
 propBag
 .
 setProperty

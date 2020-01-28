@@ -2119,9 +2119,11 @@ loginToUpdate
 guid
 )
 ;
-this
+Services
 .
-_updateLogin
+logins
+.
+recordPasswordUse
 (
 loginToUpdate
 )
@@ -3944,8 +3946,6 @@ _updateLogin
 (
 login
 aNewLogin
-=
-null
 )
 {
 var
@@ -3984,11 +3984,6 @@ Ci
 nsIWritablePropertyBag
 )
 ;
-if
-(
-aNewLogin
-)
-{
 propBag
 .
 setProperty
@@ -4082,7 +4077,6 @@ timePasswordChanged
 now
 )
 ;
-}
 propBag
 .
 setProperty

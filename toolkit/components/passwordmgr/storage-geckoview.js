@@ -386,6 +386,17 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+recordPasswordUse
+(
+login
+)
+{
+throw
+Cr
+.
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 getAllLogins
 (
 )
