@@ -210,6 +210,11 @@ cursor_image
 void
 OnMouseCursorPosition
 (
+MouseCursorMonitor
+:
+:
+CursorState
+state
 const
 DesktopVector
 &
@@ -217,6 +222,10 @@ position
 )
 override
 {
+state_
+=
+state
+;
 position_
 =
 position
