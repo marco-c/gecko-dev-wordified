@@ -36,7 +36,7 @@ webxr
 test
 -
 api
-let
+const
 default_standing
 =
 new
@@ -91,7 +91,7 @@ getMatrixFromTransform
 transform
 )
 {
-let
+const
 x
 =
 transform
@@ -101,7 +101,7 @@ orientation
 0
 ]
 ;
-let
+const
 y
 =
 transform
@@ -111,7 +111,7 @@ orientation
 1
 ]
 ;
-let
+const
 z
 =
 transform
@@ -121,7 +121,7 @@ orientation
 2
 ]
 ;
-let
+const
 w
 =
 transform
@@ -131,7 +131,7 @@ orientation
 3
 ]
 ;
-let
+const
 m11
 =
 1
@@ -152,7 +152,7 @@ z
 z
 )
 ;
-let
+const
 m21
 =
 2
@@ -169,7 +169,7 @@ z
 w
 )
 ;
-let
+const
 m31
 =
 2
@@ -186,7 +186,7 @@ y
 w
 )
 ;
-let
+const
 m12
 =
 2
@@ -203,7 +203,7 @@ z
 w
 )
 ;
-let
+const
 m22
 =
 1
@@ -224,7 +224,7 @@ z
 z
 )
 ;
-let
+const
 m32
 =
 2
@@ -241,7 +241,7 @@ x
 w
 )
 ;
-let
+const
 m13
 =
 2
@@ -258,7 +258,7 @@ y
 w
 )
 ;
-let
+const
 m23
 =
 2
@@ -275,7 +275,7 @@ x
 w
 )
 ;
-let
+const
 m33
 =
 1
@@ -296,7 +296,7 @@ y
 y
 )
 ;
-let
+const
 m14
 =
 transform
@@ -306,7 +306,7 @@ position
 0
 ]
 ;
-let
+const
 m24
 =
 transform
@@ -316,7 +316,7 @@ position
 1
 ]
 ;
-let
+const
 m34
 =
 transform
@@ -363,7 +363,7 @@ composeGFXTransform
 fakeTransformInit
 )
 {
-let
+const
 transform
 =
 new
@@ -455,7 +455,7 @@ simulateUserActivation
 callback
 )
 {
-let
+const
 button
 =
 document
@@ -654,7 +654,7 @@ addRuntime
 fakeDeviceInit
 )
 {
-let
+const
 runtime
 =
 new
@@ -726,7 +726,7 @@ removeRuntime
 device
 )
 {
-let
+const
 index
 =
 this
@@ -814,7 +814,7 @@ sessionOptions
 was_activation
 )
 {
-let
+const
 requests
 =
 [
@@ -929,7 +929,7 @@ a
 dummy
 metrics
 recorder
-let
+const
 metricsRecorderPtr
 =
 new
@@ -941,7 +941,7 @@ XRSessionMetricsRecorderPtr
 (
 )
 ;
-let
+const
 metricsRecorderRequest
 =
 mojo
@@ -951,7 +951,7 @@ makeRequest
 metricsRecorderPtr
 )
 ;
-let
+const
 metricsRecorderBinding
 =
 new
@@ -971,7 +971,7 @@ MockXRSessionMetricsRecorder
 metricsRecorderRequest
 )
 ;
-let
+const
 success
 =
 {
@@ -1058,7 +1058,7 @@ supportsSession
 sessionOptions
 )
 {
-let
+const
 requests
 =
 [
@@ -1195,7 +1195,6 @@ false
 )
 ;
 }
-;
 }
 /
 /
@@ -1851,6 +1850,7 @@ MockRuntime
 .
 sessionModeToMojoMap
 )
+{
 return
 MockRuntime
 .
@@ -1859,6 +1859,7 @@ sessionModeToMojoMap
 sessionMode
 ]
 ;
+}
 throw
 new
 TypeError
@@ -2102,14 +2103,14 @@ emulatedPosition
 false
 )
 {
-let
+const
 p
 =
 origin
 .
 position
 ;
-let
+const
 q
 =
 origin
@@ -2619,7 +2620,7 @@ simulateInputSourceConnection
 fakeInputSourceInit
 )
 {
-let
+const
 index
 =
 this
@@ -2632,7 +2633,7 @@ next_input_source_index_
 +
 +
 ;
-let
+const
 source
 =
 new
@@ -2665,7 +2666,7 @@ getNonImmersiveDisplayInfo
 (
 )
 {
-let
+const
 displayInfo
 =
 this
@@ -2941,7 +2942,7 @@ rightDegrees
 }
 else
 {
-let
+const
 m
 =
 fakeXRViewInit
@@ -2969,7 +2970,7 @@ Math
 PI
 ;
 }
-let
+const
 leftTan
 =
 (
@@ -2986,7 +2987,7 @@ m
 0
 ]
 ;
-let
+const
 rightTan
 =
 (
@@ -3003,7 +3004,7 @@ m
 0
 ]
 ;
-let
+const
 upTan
 =
 (
@@ -3020,7 +3021,7 @@ m
 5
 ]
 ;
-let
+const
 downTan
 =
 (
@@ -3164,7 +3165,7 @@ i
 +
 )
 {
-let
+const
 feature
 =
 convertFeatureToMojom
@@ -3268,9 +3269,13 @@ source_id_
 }
 /
 /
-Mojo
-function
-implementations
+Extension
+point
+for
+non
+-
+standard
+modules
 .
 _injectAdditionalFrameData
 (
@@ -3281,6 +3286,12 @@ frameData
 }
 /
 /
+Mojo
+function
+implementations
+.
+/
+/
 XRFrameDataProvider
 implementation
 .
@@ -3289,7 +3300,7 @@ getFrameData
 options
 )
 {
-let
+const
 mojo_space_reset
 =
 this
@@ -3394,7 +3405,7 @@ input_state
 ;
 for
 (
-let
+const
 input_source
 of
 this
@@ -3444,7 +3455,7 @@ now
 .
 0
 ;
-let
+const
 diff
 =
 now
@@ -3466,7 +3477,7 @@ now
 =
 1000000
 ;
-let
+const
 frameData
 =
 {
@@ -3506,16 +3517,16 @@ bufferSize
 ;
 this
 .
-_injectAdditionalFrameData
+_calculateHitTestResults
 (
-options
 frameData
 )
 ;
 this
 .
-_calculateHitTestResults
+_injectAdditionalFrameData
 (
+options
 frameData
 )
 ;
@@ -3998,7 +4009,7 @@ to
 camelCase
 names
 .
-let
+const
 options
 =
 new
@@ -4071,7 +4082,7 @@ transportOptions
 options
 }
 ;
-let
+const
 dataProviderPtr
 =
 new
@@ -4083,7 +4094,7 @@ XRFrameDataProviderPtr
 (
 )
 ;
-let
+const
 dataProviderRequest
 =
 mojo
@@ -4111,7 +4122,7 @@ this
 dataProviderRequest
 )
 ;
-let
+const
 clientReceiver
 =
 mojo
@@ -4123,7 +4134,7 @@ this
 sessionClient_
 )
 ;
-let
+const
 enabled_features
 =
 [
@@ -4698,7 +4709,6 @@ distance
 )
 ;
 }
-;
 /
 /
 Hit
@@ -6922,7 +6932,7 @@ length
 return
 ;
 }
-let
+const
 supported_button_map
 =
 {
@@ -6956,7 +6966,7 @@ i
 +
 )
 {
-let
+const
 buttonType
 =
 supportedButtons
@@ -7185,6 +7195,7 @@ value
 :
 0
 }
+;
 }
 }
 for
@@ -7278,7 +7289,7 @@ button
 )
 ;
 }
-let
+const
 buttonIndex
 =
 this
@@ -7290,7 +7301,7 @@ buttonState
 buttonType
 )
 ;
-let
+const
 axesStartIndex
 =
 this
@@ -7439,7 +7450,7 @@ getInputSourceState
 (
 )
 {
-let
+const
 input_state
 =
 new
@@ -7548,7 +7559,7 @@ this
 desc_dirty_
 )
 {
-let
+const
 input_desc
 =
 new
@@ -7770,7 +7781,7 @@ tests
 can
 override
 .
-let
+const
 gamepad
 =
 new
@@ -7913,7 +7924,7 @@ null
 return
 ;
 }
-let
+const
 buttonIndex
 =
 this
@@ -7925,7 +7936,7 @@ buttonState
 buttonType
 )
 ;
-let
+const
 axesStartIndex
 =
 this
@@ -8220,7 +8231,7 @@ bindProvider
 request
 )
 {
-let
+const
 providerPtr
 =
 new
@@ -8232,7 +8243,7 @@ XRPresentationProviderPtr
 (
 )
 ;
-let
+const
 providerRequest
 =
 mojo
@@ -8480,7 +8491,7 @@ we
 query
 xr
 ;
-let
+const
 XRTest
 =
 new
