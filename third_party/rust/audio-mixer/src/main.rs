@@ -1,9 +1,9 @@
 extern
 crate
-mixer
+audio_mixer
 ;
 use
-mixer
+audio_mixer
 :
 :
 {
@@ -22,8 +22,6 @@ f32
 let
 input_channels
 =
-vec
-!
 [
 Channel
 :
@@ -46,8 +44,6 @@ FrontCenter
 let
 output_channels
 =
-vec
-!
 [
 Channel
 :
@@ -131,7 +127,9 @@ Mixer
 :
 new
 (
+&
 input_channels
+&
 output_channels
 )
 ;
@@ -180,8 +178,6 @@ i16
 let
 input_channels
 =
-vec
-!
 [
 Channel
 :
@@ -228,8 +224,6 @@ BackRight
 let
 output_channels
 =
-vec
-!
 [
 Channel
 :
@@ -313,7 +307,9 @@ Mixer
 :
 new
 (
+&
 input_channels
+&
 output_channels
 )
 ;
