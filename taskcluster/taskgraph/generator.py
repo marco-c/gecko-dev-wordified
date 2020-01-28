@@ -1392,6 +1392,12 @@ graph_config
 graph_config
 )
         
+graph_config
+.
+register
+(
+)
+        
 if
 callable
 (
