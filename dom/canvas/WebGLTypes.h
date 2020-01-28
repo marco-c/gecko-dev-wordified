@@ -3238,9 +3238,6 @@ bool
 hasAlpha
 ;
 bool
-supportsAlpha
-;
-bool
 isPremultAlpha
 ;
 }

@@ -5745,17 +5745,6 @@ DrawingBufferSize
 (
 )
 ;
-bool
-HasAlphaSupport
-(
-)
-{
-return
-mSurfaceInfo
-.
-supportsAlpha
-;
-}
 ICRData
 mSurfaceInfo
 ;
