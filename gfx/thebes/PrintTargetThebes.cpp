@@ -124,8 +124,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 /
@@ -588,9 +588,7 @@ Finish
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

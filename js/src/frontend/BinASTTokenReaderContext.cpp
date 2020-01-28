@@ -340,8 +340,8 @@ h
 ScriptSource
 namespace
 js
-{
-namespace
+:
+:
 frontend
 {
 #
@@ -22918,9 +22918,7 @@ last
 /
 /
 namespace
-frontend
-}
-/
-/
-namespace
 js
+:
+:
+frontend

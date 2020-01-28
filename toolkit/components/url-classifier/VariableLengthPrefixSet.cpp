@@ -256,8 +256,8 @@ Debug
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 safebrowsing
 {
 #
@@ -3333,9 +3333,7 @@ n
 /
 /
 namespace
-safebrowsing
-}
-/
-/
-namespace
 mozilla
+:
+:
+safebrowsing

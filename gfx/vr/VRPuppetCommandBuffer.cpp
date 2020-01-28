@@ -139,8 +139,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 static
@@ -3257,9 +3257,7 @@ purgeBuffer
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

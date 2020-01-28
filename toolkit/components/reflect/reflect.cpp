@@ -138,8 +138,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 reflect
 {
 NS_IMPL_ISUPPORTS
@@ -266,9 +266,7 @@ NS_OK
 /
 /
 namespace
-reflect
-}
-/
-/
-namespace
 mozilla
+:
+:
+reflect

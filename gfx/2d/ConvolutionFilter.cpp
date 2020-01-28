@@ -188,8 +188,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 ConvolutionFilter
@@ -1428,9 +1428,7 @@ aDstSize
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

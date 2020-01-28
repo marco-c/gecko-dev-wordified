@@ -149,8 +149,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 AppCacheStorage
@@ -942,9 +942,7 @@ NS_ERROR_NOT_IMPLEMENTED
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

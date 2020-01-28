@@ -173,8 +173,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 using
@@ -860,9 +860,7 @@ aProxyType
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

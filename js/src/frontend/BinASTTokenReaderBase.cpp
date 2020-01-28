@@ -139,8 +139,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 frontend
 {
 template
@@ -752,9 +752,7 @@ current_
 /
 /
 namespace
-frontend
-}
-/
-/
-namespace
 js
+:
+:
+frontend

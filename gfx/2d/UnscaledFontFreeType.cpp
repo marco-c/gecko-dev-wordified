@@ -205,8 +205,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 bool
@@ -1263,9 +1263,7 @@ problem
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

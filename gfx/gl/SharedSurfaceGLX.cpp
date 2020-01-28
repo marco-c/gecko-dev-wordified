@@ -202,8 +202,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gl
 {
 /
@@ -881,9 +881,7 @@ IsSameProcess
 /
 /
 namespace
-gl
-}
-/
-/
-namespace
 mozilla
+:
+:
+gl

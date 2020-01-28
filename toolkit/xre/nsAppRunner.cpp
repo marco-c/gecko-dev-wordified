@@ -21532,8 +21532,8 @@ disableWayland
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 startup
 {
 Result
@@ -21596,12 +21596,10 @@ crashFile
 /
 /
 namespace
-startup
-}
-/
-/
-namespace
 mozilla
+:
+:
+startup
 /
 /
 Check

@@ -182,8 +182,8 @@ JSDEBUGGER_CID
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 jsdebugger
 {
 NS_IMPL_ISUPPORTS
@@ -437,9 +437,7 @@ NS_OK
 /
 /
 namespace
-jsdebugger
-}
-/
-/
-namespace
 mozilla
+:
+:
+jsdebugger

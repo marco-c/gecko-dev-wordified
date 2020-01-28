@@ -167,8 +167,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ctypes
 {
 static
@@ -731,9 +731,7 @@ NS_OK
 /
 /
 namespace
-ctypes
-}
-/
-/
-namespace
 mozilla
+:
+:
+ctypes

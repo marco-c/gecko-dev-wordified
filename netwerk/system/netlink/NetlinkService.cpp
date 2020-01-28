@@ -332,8 +332,8 @@ x
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 /
@@ -12505,9 +12505,7 @@ mLinkUp
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

@@ -173,8 +173,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 SourceSurfaceSkia
@@ -1130,9 +1130,7 @@ nullptr
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

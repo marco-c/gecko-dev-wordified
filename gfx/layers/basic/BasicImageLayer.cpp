@@ -294,8 +294,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 class
@@ -767,9 +767,7 @@ forget
 /
 /
 namespace
-layers
-}
-/
-/
-namespace
 mozilla
+:
+:
+layers

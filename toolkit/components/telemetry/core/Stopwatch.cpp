@@ -444,8 +444,8 @@ get
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 telemetry
 {
 class
@@ -2735,9 +2735,7 @@ aTesting
 /
 /
 namespace
-telemetry
-}
-/
-/
-namespace
 mozilla
+:
+:
+telemetry

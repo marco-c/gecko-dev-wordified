@@ -961,8 +961,8 @@ Debug
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 safebrowsing
 {
 const
@@ -7572,9 +7572,7 @@ mSubChunks
 /
 /
 namespace
-safebrowsing
-}
-/
-/
-namespace
 mozilla
+:
+:
+safebrowsing

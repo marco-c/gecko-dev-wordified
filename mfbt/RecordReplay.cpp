@@ -207,8 +207,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 recordreplay
 {
 /
@@ -1194,9 +1194,7 @@ ENABLE_RECORD_REPLAY
 /
 /
 namespace
-recordreplay
-}
-/
-/
-namespace
 mozilla
+:
+:
+recordreplay

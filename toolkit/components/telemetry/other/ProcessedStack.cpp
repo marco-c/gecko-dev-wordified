@@ -233,8 +233,8 @@ endif
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 Telemetry
 {
 const
@@ -1282,9 +1282,7 @@ endif
 /
 /
 namespace
-Telemetry
-}
-/
-/
-namespace
 mozilla
+:
+:
+Telemetry
