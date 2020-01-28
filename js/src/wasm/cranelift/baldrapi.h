@@ -1035,6 +1035,10 @@ f32
 double
 f64
 ;
+void
+*
+r
+;
 }
 u
 ;
@@ -1103,6 +1107,8 @@ NearestF32
 NearestF64
 TruncF32
 TruncF64
+PreBarrier
+PostBarrier
 Limit
 }
 ;
