@@ -1207,7 +1207,6 @@ observer
 =
 expectNotifications
 (
-false
 true
 )
 ;

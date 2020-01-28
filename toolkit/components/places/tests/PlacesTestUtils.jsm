@@ -2524,14 +2524,6 @@ name
 "
 skipTags
 "
-|
-|
-name
-=
-=
-"
-skipDescendantsOnItemRemoval
-"
 )
 {
 return
