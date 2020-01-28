@@ -5701,6 +5701,14 @@ mFailIfMajorPerformanceCaveat
 ;
 newOpts
 .
+xrCompatible
+=
+attributes
+.
+mXrCompatible
+;
+newOpts
+.
 powerPreference
 =
 attributes
