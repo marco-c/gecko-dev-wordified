@@ -1117,7 +1117,7 @@ documentElement
 setAttribute
 (
 "
-windowtype
+windowType
 "
 windowType
 )
