@@ -1508,6 +1508,17 @@ c
 #
 ifdef
 NSS_USE_COMBA
+PR_STATIC_ASSERT
+(
+sizeof
+(
+mp_digit
+)
+=
+=
+8
+)
+;
 #
 define
 IS_POWER_OF_2
