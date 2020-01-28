@@ -2690,9 +2690,14 @@ aEnd
 {
 aRv
 .
-Throw
+ThrowTypeError
 (
-NS_ERROR_DOM_TYPE_ERR
+u
+"
+Invalid
+start
+value
+"
 )
 ;
 return
