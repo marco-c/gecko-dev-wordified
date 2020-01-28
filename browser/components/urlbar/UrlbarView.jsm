@@ -3501,14 +3501,7 @@ this
 .
 input
 .
-textbox
-.
-closest
-(
-"
-toolbar
-"
-)
+_toolbar
 )
 .
 bottom
