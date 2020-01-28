@@ -2202,6 +2202,16 @@ mContext
 ;
 }
 static
+bool
+IsISupportsDescendant
+(
+const
+nsXPTInterfaceInfo
+*
+info
+)
+;
+static
 nsIScriptSecurityManager
 *
 SecurityManager
