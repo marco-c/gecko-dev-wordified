@@ -449,12 +449,6 @@ mozrunner
 utils
 import
 get_stack_fixer_function
-from
-mozbuild
-.
-util
-import
-ensure_subprocess_env
 #
 -
 -
@@ -9616,13 +9610,9 @@ stderr
 PIPE
 env
 =
-ensure_subprocess_env
-(
 self
 .
 env
-)
-                                
 cwd
 =
 os
