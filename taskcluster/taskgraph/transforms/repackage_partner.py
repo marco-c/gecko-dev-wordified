@@ -78,6 +78,10 @@ unicode_literals
 import
 copy
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -329,7 +333,7 @@ build
 '
 )
 :
-basestring
+text_type
     
 #
 unique
@@ -347,7 +351,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 #
 Routes
@@ -366,7 +370,7 @@ routes
 )
 :
 [
-basestring
+text_type
 ]
     
 #
@@ -446,7 +450,7 @@ formats
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
     
@@ -485,7 +489,7 @@ config
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
         
@@ -523,7 +527,7 @@ paths
 )
 :
 [
-basestring
+text_type
 ]
         
 #

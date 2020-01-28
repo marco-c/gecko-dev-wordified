@@ -203,6 +203,10 @@ copy
 import
 logging
 from
+six
+import
+text_type
+from
 mozbuild
 .
 schedules
@@ -1764,7 +1768,7 @@ metadata
 description
 '
 :
-basestring
+text_type
     
 #
 test
@@ -1783,7 +1787,7 @@ suite
 Any
 (
         
-basestring
+text_type
         
 {
 Optional
@@ -1793,7 +1797,7 @@ category
 '
 )
 :
-basestring
+text_type
 Optional
 (
 '
@@ -1801,7 +1805,7 @@ name
 '
 )
 :
-basestring
+text_type
 }
     
 )
@@ -1836,7 +1840,7 @@ platform
         
 Any
 (
-basestring
+text_type
 '
 default
 '
@@ -1888,7 +1892,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 #
 additional
@@ -1909,7 +1913,7 @@ tags
 )
 :
 {
-basestring
+text_type
 :
 object
 }
@@ -1940,7 +1944,7 @@ treeherder
 symbol
 '
 :
-basestring
+text_type
     
 #
 the
@@ -1999,7 +2003,7 @@ platform
 '
 )
 :
-basestring
+text_type
     
 #
 attributes
@@ -2029,7 +2033,7 @@ attributes
 )
 :
 {
-basestring
+text_type
 :
 object
 }
@@ -2060,7 +2064,7 @@ from
 '
 )
 :
-basestring
+text_type
     
 #
 The
@@ -2167,7 +2171,7 @@ platform
 Any
 (
 [
-basestring
+text_type
 ]
 '
 built
@@ -2243,7 +2247,7 @@ platform
 Any
 (
 [
-basestring
+text_type
 ]
 '
 built
@@ -2458,7 +2462,7 @@ after
 '
 )
 :
-basestring
+text_type
     
 #
 The
@@ -2922,7 +2926,7 @@ image
 tag
 )
             
-basestring
+text_type
             
 #
 an
@@ -2950,7 +2954,7 @@ in
 tree
 '
 :
-basestring
+text_type
 }
             
 #
@@ -2964,7 +2968,7 @@ image
 indexed
 '
 :
-basestring
+text_type
 }
         
 )
@@ -3145,7 +3149,7 @@ test
 platform
 '
             
-basestring
+text_type
 )
         
 #
@@ -3174,7 +3178,7 @@ platform
 '
             
 [
-basestring
+text_type
 ]
 )
         
@@ -3194,7 +3198,7 @@ flavor
 '
 )
 :
-basestring
+text_type
         
 #
 any
@@ -3215,7 +3219,7 @@ actions
 )
 :
 [
-basestring
+text_type
 ]
         
 #
@@ -3252,7 +3256,7 @@ platform
 '
             
 [
-basestring
+text_type
 ]
 )
         
@@ -3295,7 +3299,7 @@ name
 '
 )
 :
-basestring
+text_type
         
 Optional
 (
@@ -3306,7 +3310,7 @@ url
 '
 )
 :
-basestring
+text_type
         
 #
 If
@@ -3581,7 +3585,7 @@ manifests
 )
 :
 [
-basestring
+text_type
 ]
     
 #
@@ -3644,7 +3648,7 @@ platform
 '
         
 [
-basestring
+text_type
 ]
 )
     
@@ -3700,7 +3704,7 @@ build
 platform
 '
 :
-basestring
+text_type
     
 #
 the
@@ -3721,7 +3725,7 @@ build
 label
 '
 :
-basestring
+text_type
     
 #
 the
@@ -3762,7 +3766,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 #
 the
@@ -3778,7 +3782,7 @@ attributes
 '
 :
 {
-basestring
+text_type
 :
 object
 }
@@ -3799,7 +3803,7 @@ test
 platform
 '
 :
-basestring
+text_type
     
 #
 limit
@@ -3843,7 +3847,7 @@ app
 '
         
 [
-basestring
+text_type
 ]
     
 )
@@ -3869,7 +3873,7 @@ test
 name
 '
 :
-basestring
+text_type
     
 #
 the
@@ -3886,7 +3890,7 @@ product
 '
 )
 :
-basestring
+text_type
     
 #
 conditional
@@ -3925,7 +3929,7 @@ changed
 )
 :
 [
-basestring
+text_type
 ]
     
 }
@@ -4015,7 +4019,7 @@ optimization
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -4037,7 +4041,7 @@ platform
         
 Any
 (
-basestring
+text_type
 None
 )
     
@@ -4165,19 +4169,19 @@ platform
         
 Any
 (
-basestring
+text_type
 None
 {
 '
 index
 '
 :
-basestring
+text_type
 '
 name
 '
 :
-basestring
+text_type
 }
 )
     
@@ -4206,7 +4210,7 @@ fetches
 :
 {
         
-basestring
+text_type
 :
 optionally_keyed_by
 (
@@ -4216,7 +4220,7 @@ test
 platform
 '
 [
-basestring
+text_type
 ]
 )
     
@@ -5315,7 +5319,7 @@ test
 suite
 '
 ]
-basestring
+text_type
 )
 :
             

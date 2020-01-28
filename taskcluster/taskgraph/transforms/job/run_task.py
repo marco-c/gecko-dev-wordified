@@ -350,7 +350,7 @@ profile
 :
 Any
 (
-basestring
+text_type
 None
 )
     
@@ -464,7 +464,7 @@ workdir
 '
 )
 :
-basestring
+text_type
     
 #
 If
@@ -1146,7 +1146,7 @@ task
 reference
 '
 :
-basestring
+text_type
 }
 .
     
@@ -1155,7 +1155,7 @@ isinstance
 (
 run_command
 (
-basestring
+text_type
 dict
 )
 )
@@ -1918,7 +1918,7 @@ if
 isinstance
 (
 run_command
-basestring
+text_type
 )
 :
         

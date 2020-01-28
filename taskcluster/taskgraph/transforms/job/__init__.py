@@ -124,6 +124,12 @@ logging
 import
 json
 import
+six
+from
+six
+import
+text_type
+import
 mozpack
 .
 path
@@ -270,7 +276,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -279,7 +285,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 #
 the
@@ -793,7 +799,7 @@ changed
 )
 :
 [
-basestring
+text_type
 ]
     
 }
@@ -821,10 +827,10 @@ fetches
 :
 {
         
-basestring
+text_type
 :
 [
-basestring
+text_type
 {
             
 Required
@@ -834,7 +840,7 @@ artifact
 '
 )
 :
-basestring
+text_type
             
 Optional
 (
@@ -843,7 +849,7 @@ dest
 '
 )
 :
-basestring
+text_type
             
 Optional
 (
@@ -895,7 +901,7 @@ one
 using
 '
 :
-basestring
+text_type
         
 #
 Base
@@ -916,7 +922,7 @@ workdir
 '
 )
 :
-basestring
+text_type
         
 #
 Any
@@ -2157,7 +2163,7 @@ if
 isinstance
 (
 artifact
-basestring
+text_type
 )
 :
                         
@@ -2482,21 +2488,29 @@ MOZ_FETCHES
 ]
 =
 {
+            
 '
 task
 -
 reference
 '
 :
+six
+.
+ensure_text
+(
 json
 .
 dumps
 (
 job_fetches
+                                                         
 sort_keys
 =
 True
 )
+)
+        
 }
         
 #

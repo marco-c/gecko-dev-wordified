@@ -70,6 +70,8 @@ os
 import
 shutil
 import
+six
+import
 sqlite3
 import
 subprocess
@@ -3048,6 +3050,11 @@ path_env
 MOZHARNESS_TEST_PATHS
 '
 :
+six
+.
+ensure_text
+(
+        
 json
 .
 dumps
@@ -3055,6 +3062,7 @@ dumps
 resolve_tests_by_suite
 (
 test_files
+)
 )
 )
 }
