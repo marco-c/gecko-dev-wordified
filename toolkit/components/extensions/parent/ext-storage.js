@@ -259,6 +259,13 @@ context
 =
 >
 {
+if
+(
+Services
+.
+policies
+)
+{
 let
 extensionPolicy
 =
@@ -284,6 +291,7 @@ _serializableMap
 extensionPolicy
 )
 ;
+}
 }
 let
 info
