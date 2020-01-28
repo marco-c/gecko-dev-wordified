@@ -6281,7 +6281,7 @@ LengthPercentage
 )
 IMPL_PARAMTRAITS_BY_SERDE
 (
-RayFunction
+StyleOffsetPath
 )
 IMPL_PARAMTRAITS_BY_SERDE
 (
