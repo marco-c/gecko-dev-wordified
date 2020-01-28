@@ -387,9 +387,8 @@ ExtendableEvent
 '
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
 function
 (
@@ -414,9 +413,8 @@ throws
 '
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
 function
 (
@@ -444,9 +442,8 @@ throws
 '
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
 function
 (
