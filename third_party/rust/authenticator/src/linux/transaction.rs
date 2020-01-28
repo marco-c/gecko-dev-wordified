@@ -145,7 +145,6 @@ Fn
 (
 OsString
 &
-dyn
 Fn
 (
 )
