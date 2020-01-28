@@ -2734,6 +2734,13 @@ const
 bool
 &
 aIsLastPartOfMultiPart
+const
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+&
+aOpenerPolicy
 )
 {
 AUTO_PROFILER_LABEL
@@ -2871,6 +2878,7 @@ aTiming
 aAllRedirectsSameOrigin
 aMultiPartID
 aIsLastPartOfMultiPart
+aOpenerPolicy
 ]
 (
 )
@@ -2905,6 +2913,7 @@ aTiming
 aAllRedirectsSameOrigin
 aMultiPartID
 aIsLastPartOfMultiPart
+aOpenerPolicy
 )
 ;
 }
@@ -3277,6 +3286,13 @@ const
 bool
 &
 aIsLastPartOfMultiPart
+const
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+&
+aOpenerPolicy
 )
 {
 LOG
@@ -3413,6 +3429,10 @@ mIPCActorDeleted
 return
 ;
 }
+mComputedCrossOriginOpenerPolicy
+=
+aOpenerPolicy
+;
 if
 (
 !
