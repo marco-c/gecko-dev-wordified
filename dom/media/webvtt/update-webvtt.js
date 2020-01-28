@@ -7,6 +7,14 @@ bin
 /
 env
 node
+/
+*
+eslint
+-
+env
+node
+*
+/
 var
 gift
 =
