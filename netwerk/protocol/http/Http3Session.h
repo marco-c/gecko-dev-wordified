@@ -799,6 +799,9 @@ mGoawayReceived
 bool
 mShouldClose
 ;
+bool
+mIsClosedByNeqo
+;
 nsresult
 mError
 ;
