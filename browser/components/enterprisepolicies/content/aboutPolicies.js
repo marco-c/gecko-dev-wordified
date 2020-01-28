@@ -1777,6 +1777,11 @@ SanitizeOnShutdown
 "
 SanitizeOnShutdown2
 "
+Permissions
+:
+"
+Permissions2
+"
 }
 ;
 for
