@@ -21123,7 +21123,7 @@ StringEqualsLiteral
 (
 scopeStr
 "
-SameProcessDifferentThread
+SameProcess
 "
 )
 )
@@ -21138,7 +21138,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 ;
 }
@@ -21525,7 +21525,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 nullptr
 nullptr
 )
@@ -21735,7 +21735,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 ;
 if
 (
@@ -43887,7 +43887,7 @@ n
 scope
 '
 -
-SameProcessDifferentThread
+SameProcess
 DifferentProcess
 or
 \
@@ -44053,7 +44053,7 @@ values
 :
 '
 '
-SameProcessDifferentThread
+SameProcess
 '
 '
 DifferentProcess
@@ -44090,7 +44090,7 @@ n
 "
 "
 a
-SameProcessDifferentThread
+SameProcess
 clone
 buffer
 cannot

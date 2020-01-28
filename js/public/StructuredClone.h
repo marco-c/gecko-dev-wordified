@@ -1264,7 +1264,7 @@ disk
 .
 *
 /
-SameProcessDifferentThread
+SameProcess
 =
 1
 /
@@ -1413,13 +1413,13 @@ means
 to
 treat
 legacy
-SameProcessDifferentThread
+SameProcess
 data
 as
 if
-*
 it
 were
+*
 DifferentProcess
 .
 *

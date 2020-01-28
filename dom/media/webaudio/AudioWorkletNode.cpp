@@ -3930,7 +3930,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 ;
 serializedOptions
