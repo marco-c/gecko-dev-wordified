@@ -570,7 +570,7 @@ NodePrincipal
 )
 true
 scriptHandlingObject
-DocumentFlavorLegacyGuess
+DocumentFlavorXML
 )
 ;
 NS_ENSURE_SUCCESS

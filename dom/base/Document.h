@@ -32789,6 +32789,10 @@ DocumentFlavorSVG
 /
 /
 SVGDocument
+DocumentFlavorXML
+/
+/
+XMLDocument
 DocumentFlavorPlain
 /
 /
