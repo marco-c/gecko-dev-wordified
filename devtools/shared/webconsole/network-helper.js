@@ -551,7 +551,7 @@ Strict
 "
 and
 "
-Unset
+None
 "
 are
 special
@@ -583,10 +583,10 @@ STRICT
 "
 Strict
 "
-UNSET
+NONE
 :
 "
-Unset
+None
 "
 }
 ;
@@ -2126,7 +2126,7 @@ default
 return
 COOKIE_SAMESITE
 .
-UNSET
+NONE
 ;
 }
 }

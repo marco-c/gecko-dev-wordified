@@ -271,12 +271,12 @@ is
 (
 sameSite1
 "
-Unset
+None
 "
 sameSite1
 is
 "
-Unset
+None
 "
 )
 ;

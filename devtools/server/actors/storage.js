@@ -346,7 +346,7 @@ Strict
 "
 and
 "
-Unset
+None
 "
 are
 special
@@ -377,10 +377,10 @@ STRICT
 "
 Strict
 "
-UNSET
+NONE
 :
 "
-Unset
+None
 "
 }
 ;
@@ -3857,7 +3857,7 @@ SAMESITE_NONE
 return
 COOKIE_SAMESITE
 .
-UNSET
+NONE
 ;
 }
 populateStoresForHost
