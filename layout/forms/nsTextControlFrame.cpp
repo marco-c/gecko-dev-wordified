@@ -154,7 +154,7 @@ h
 #
 include
 "
-nsIPlaintextEditor
+nsIEditor
 .
 h
 "
@@ -6889,7 +6889,7 @@ textEditor
 >
 AddFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -6936,7 +6936,7 @@ textEditor
 >
 RemoveFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -7065,7 +7065,7 @@ textEditor
 >
 AddFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorDisabledMask
@@ -7079,7 +7079,7 @@ textEditor
 >
 RemoveFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorDisabledMask

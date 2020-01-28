@@ -540,18 +540,6 @@ h
 /
 for
 XRE_GetProcessType
-#
-include
-"
-nsIPlaintextEditor
-.
-h
-"
-/
-/
-for
-editor
-flags
 namespace
 mozilla
 {
@@ -3045,7 +3033,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -3585,7 +3573,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -3679,7 +3667,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -4694,7 +4682,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask

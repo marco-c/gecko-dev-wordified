@@ -701,7 +701,7 @@ aTextEditor
 .
 AddFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -716,7 +716,7 @@ rv
 "
 AddFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -736,7 +736,7 @@ aTextEditor
 .
 RemoveFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -751,7 +751,7 @@ rv
 "
 RemoveFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask

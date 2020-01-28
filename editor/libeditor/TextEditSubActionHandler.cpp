@@ -305,13 +305,6 @@ h
 #
 include
 "
-nsIPlaintextEditor
-.
-h
-"
-#
-include
-"
 nsISupportsBase
 .
 h
@@ -2227,7 +2220,7 @@ mNewlineHandling
 )
 {
 case
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eNewlinesReplaceWithSpaces
@@ -2275,7 +2268,7 @@ kLF
 break
 ;
 case
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eNewlinesStrip
@@ -2290,7 +2283,7 @@ kLF
 break
 ;
 case
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eNewlinesPasteToFirst
@@ -2373,7 +2366,7 @@ break
 ;
 }
 case
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eNewlinesReplaceWithCommas
@@ -2405,7 +2398,7 @@ kLF
 break
 ;
 case
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eNewlinesStripSurroundingWhitespace
@@ -2560,7 +2553,7 @@ break
 ;
 }
 case
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eNewlinesPasteIntact
@@ -6321,7 +6314,7 @@ GetEchoPassword
 (
 mFlags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorDontEchoPassword

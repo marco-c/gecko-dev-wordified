@@ -1848,7 +1848,7 @@ flags
 =
 ~
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorDisabledMask
@@ -1859,7 +1859,7 @@ flags
 =
 ~
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -1868,7 +1868,7 @@ eEditorReadonlyMask
 flags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorDontEchoPassword
@@ -10823,7 +10823,7 @@ flags
 uint32_t
 editorFlags
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorPlaintextMask
@@ -10838,7 +10838,7 @@ IsSingleLineTextControl
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorSingleLineMask
@@ -10854,7 +10854,7 @@ IsPasswordTextControl
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorPasswordMask
@@ -10869,7 +10869,7 @@ widgets
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorWidgetMask
@@ -10899,7 +10899,7 @@ focus
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorSkipSpellCheck
@@ -11116,7 +11116,7 @@ IsMailEditor
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -11752,7 +11752,7 @@ readonly
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorReadonlyMask
@@ -11796,7 +11796,7 @@ disabled
 editorFlags
 |
 =
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorDisabledMask

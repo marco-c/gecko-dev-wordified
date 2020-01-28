@@ -1187,15 +1187,15 @@ and
 retrievd
 via
 the
-nsIPlaintextEditor
+nsIEditor
 interface
 and
 is
 internally
 managed
 by
-*
 the
+*
 editor
 as
 the
@@ -1209,7 +1209,6 @@ the
 control
 '
 s
-*
 frame
 .
 *
