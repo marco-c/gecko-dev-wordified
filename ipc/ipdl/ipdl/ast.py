@@ -1282,6 +1282,18 @@ pretty
 async
 '
 class
+TAINTED
+(
+PrettyPrinted
+)
+:
+    
+pretty
+=
+'
+tainted
+'
+class
 INTR
 (
 PrettyPrinted
@@ -1722,6 +1734,13 @@ compress
         
 self
 .
+tainted
+=
+'
+'
+        
+self
+.
 verify
 =
 '
@@ -1800,6 +1819,23 @@ verify
 self
 .
 verify
+=
+modifier
+            
+elif
+modifier
+.
+startswith
+(
+'
+tainted
+'
+)
+:
+                
+self
+.
+tainted
 =
 modifier
             

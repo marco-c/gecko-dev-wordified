@@ -1426,6 +1426,9 @@ compress
 =
 False
                  
+tainted
+=
+False
 verify
 =
 False
@@ -1523,6 +1526,12 @@ self
 compress
 =
 compress
+        
+self
+.
+tainted
+=
+tainted
         
 self
 .
@@ -7053,6 +7062,11 @@ compress
 md
 .
 compress
+tainted
+=
+md
+.
+tainted
 verify
 =
 md
