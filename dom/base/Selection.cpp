@@ -2968,7 +2968,7 @@ nsresult
 Selection
 :
 :
-AddTableCellRange
+MaybeAddTableCellRange
 (
 nsRange
 *
@@ -12798,7 +12798,7 @@ nullptr
 ;
 /
 /
-AddTableCellRange
+MaybeAddTableCellRange
 might
 flush
 frame
@@ -12848,7 +12848,7 @@ rangeIndex
 nsresult
 result
 =
-AddTableCellRange
+MaybeAddTableCellRange
 (
 range
 &

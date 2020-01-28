@@ -4541,7 +4541,7 @@ aCol
 )
 ;
 nsresult
-AddTableCellRange
+MaybeAddTableCellRange
 (
 nsRange
 *
