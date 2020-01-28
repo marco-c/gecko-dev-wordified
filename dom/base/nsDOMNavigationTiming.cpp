@@ -2152,7 +2152,10 @@ get
 PROFILER_ADD_MARKER_WITH_PAYLOAD
 (
 "
+TimeToFirstInteractive
+(
 TTFI
+)
 "
 DOM
 TextMarkerPayload
