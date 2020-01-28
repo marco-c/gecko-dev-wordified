@@ -13533,13 +13533,12 @@ mozilla
 StyleStrokeLinecap
 mStrokeLinecap
 ;
-uint8_t
+mozilla
+:
+:
+StyleStrokeLinejoin
 mStrokeLinejoin
 ;
-/
-/
-NS_STYLE_STROKE_LINEJOIN_
-*
 uint8_t
 mDominantBaseline
 ;

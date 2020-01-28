@@ -8912,7 +8912,10 @@ style
 mStrokeLinejoin
 =
 =
-NS_STYLE_STROKE_LINEJOIN_MITER
+StyleStrokeLinejoin
+:
+:
+Miter
 &
 &
 styleExpansionFactor
