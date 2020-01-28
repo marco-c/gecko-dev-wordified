@@ -2591,6 +2591,7 @@ pic
 .
 restore_context
 (
+ROOT_SURFACE_INDEX
 prim_list
 pic_context
 pic_state
