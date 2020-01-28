@@ -300,6 +300,17 @@ for
 recording
 *
 /
+WRAP_AND_RECORD
+/
+*
+Surface
+used
+for
+wrap
+and
+record
+*
+/
 TILED
 /
 *
