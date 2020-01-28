@@ -594,7 +594,7 @@ await
 defaultNotificationTest
 (
 true
-false
+true
 )
 ;
 }
