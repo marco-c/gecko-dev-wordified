@@ -245,7 +245,7 @@ exists
 var
 COOKIE_DATABASE_SCHEMA_CURRENT
 =
-10
+11
 ;
 var
 test_generator
