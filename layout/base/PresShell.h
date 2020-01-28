@@ -1857,6 +1857,7 @@ script
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 Initialize
 (
@@ -2678,6 +2679,7 @@ CancelAllPendingReflows
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 NotifyCounterStylesAreDirty
 (
@@ -11167,6 +11169,7 @@ WillCauseReflow
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 DidCauseReflow
 (

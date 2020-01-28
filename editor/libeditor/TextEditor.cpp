@@ -15272,8 +15272,10 @@ change
 .
 if
 (
+RefPtr
+<
 PresShell
-*
+>
 presShell
 =
 document
@@ -15284,6 +15286,9 @@ GetObservingPresShell
 )
 )
 {
+nsAutoScriptBlocker
+blockRunningScript
+;
 uint32_t
 valueLength
 =

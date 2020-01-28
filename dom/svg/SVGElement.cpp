@@ -8546,6 +8546,10 @@ WillChangeValue
 nsAtom
 *
 aName
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 /
@@ -9028,6 +9032,10 @@ aEmptyOrOldValue
 nsAttrValue
 &
 aNewValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 bool
@@ -9072,21 +9080,6 @@ MutationEvent_Binding
 :
 :
 ADDITION
-)
-;
-Document
-*
-document
-=
-GetComposedDoc
-(
-)
-;
-mozAutoDocUpdate
-updateBatch
-(
-document
-kNotifyDocumentObservers
 )
 ;
 /
@@ -9154,8 +9147,10 @@ modType
 hasListeners
 kNotifyDocumentObservers
 kCallAfterSetAttr
-document
-updateBatch
+GetComposedDoc
+(
+)
+aProofOfUpdate
 )
 ;
 }
@@ -9598,6 +9593,10 @@ WillChangeLength
 (
 uint8_t
 aAttrEnum
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -9613,6 +9612,7 @@ aAttrEnum
 ]
 .
 mName
+aProofOfUpdate
 )
 ;
 }
@@ -9628,6 +9628,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 LengthAttributesInfo
@@ -9698,6 +9702,7 @@ aAttrEnum
 mName
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -10118,6 +10123,10 @@ WillChangeLengthList
 (
 uint8_t
 aAttrEnum
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -10133,6 +10142,7 @@ aAttrEnum
 ]
 .
 mName
+aProofOfUpdate
 )
 ;
 }
@@ -10148,6 +10158,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 LengthListAttributesInfo
@@ -10223,6 +10237,7 @@ aAttrEnum
 mName
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -10518,6 +10533,10 @@ WillChangeNumberList
 (
 uint8_t
 aAttrEnum
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -10533,6 +10552,7 @@ aAttrEnum
 ]
 .
 mName
+aProofOfUpdate
 )
 ;
 }
@@ -10548,6 +10568,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 NumberListAttributesInfo
@@ -10623,6 +10647,7 @@ aAttrEnum
 mName
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -10827,6 +10852,10 @@ SVGElement
 :
 WillChangePointList
 (
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 MOZ_ASSERT
@@ -10851,6 +10880,7 @@ WillChangeValue
 GetPointListAttrName
 (
 )
+aProofOfUpdate
 )
 ;
 }
@@ -10864,6 +10894,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 MOZ_ASSERT
@@ -10907,6 +10941,7 @@ GetPointListAttrName
 )
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -10974,6 +11009,10 @@ SVGElement
 :
 WillChangePathSegList
 (
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 MOZ_ASSERT
@@ -10999,6 +11038,7 @@ WillChangeValue
 GetPathDataAttrName
 (
 )
+aProofOfUpdate
 )
 ;
 }
@@ -11012,6 +11052,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 MOZ_ASSERT
@@ -11056,6 +11100,7 @@ GetPathDataAttrName
 )
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -11475,6 +11520,15 @@ uint8_t
 aAttrEnum
 )
 {
+mozAutoDocUpdate
+updateBatch
+(
+GetComposedDoc
+(
+)
+kDontNotifyDocumentObservers
+)
+;
 return
 WillChangeValue
 (
@@ -11488,6 +11542,7 @@ aAttrEnum
 ]
 .
 mName
+updateBatch
 )
 ;
 }
@@ -11562,6 +11617,15 @@ aAttrEnum
 nullptr
 )
 ;
+mozAutoDocUpdate
+updateBatch
+(
+GetComposedDoc
+(
+)
+kNotifyDocumentObservers
+)
+;
 DidChangeValue
 (
 info
@@ -11574,6 +11638,7 @@ aAttrEnum
 mName
 aEmptyOrOldValue
 newValue
+updateBatch
 )
 ;
 }
@@ -11985,6 +12050,10 @@ WillChangeIntegerPair
 (
 uint8_t
 aAttrEnum
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -12000,6 +12069,7 @@ aAttrEnum
 ]
 .
 mName
+aProofOfUpdate
 )
 ;
 }
@@ -12015,6 +12085,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 IntegerPairAttributesInfo
@@ -12086,6 +12160,7 @@ aAttrEnum
 mName
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -12567,6 +12642,10 @@ SVGElement
 :
 WillChangeOrient
 (
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -12576,6 +12655,7 @@ nsGkAtoms
 :
 :
 orient
+aProofOfUpdate
 )
 ;
 }
@@ -12589,6 +12669,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 SVGAnimatedOrient
@@ -12633,6 +12717,7 @@ nsGkAtoms
 orient
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -12694,6 +12779,10 @@ SVGElement
 :
 WillChangeViewBox
 (
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -12703,6 +12792,7 @@ nsGkAtoms
 :
 :
 viewBox
+aProofOfUpdate
 )
 ;
 }
@@ -12716,6 +12806,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 SVGAnimatedViewBox
@@ -12760,6 +12854,7 @@ nsGkAtoms
 viewBox
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -12821,6 +12916,10 @@ SVGElement
 :
 WillChangePreserveAspectRatio
 (
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -12830,6 +12929,7 @@ nsGkAtoms
 :
 :
 preserveAspectRatio
+aProofOfUpdate
 )
 ;
 }
@@ -12843,6 +12943,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 SVGAnimatedPreserveAspectRatio
@@ -12889,6 +12993,7 @@ nsGkAtoms
 preserveAspectRatio
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -12937,6 +13042,10 @@ SVGElement
 :
 WillChangeTransformList
 (
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 return
@@ -12945,6 +13054,7 @@ WillChangeValue
 GetTransformListAttrName
 (
 )
+aProofOfUpdate
 )
 ;
 }
@@ -12958,6 +13068,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 MOZ_ASSERT
@@ -13025,6 +13139,7 @@ GetTransformListAttrName
 )
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 }
@@ -13518,6 +13633,10 @@ bool
 aIsConditionalProcessingAttribute
 uint8_t
 aAttrEnum
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 nsStaticAtom
@@ -13572,6 +13691,7 @@ return
 WillChangeValue
 (
 name
+aProofOfUpdate
 )
 ;
 }
@@ -13589,6 +13709,10 @@ const
 nsAttrValue
 &
 aEmptyOrOldValue
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 {
 nsStaticAtom
@@ -13709,6 +13833,7 @@ DidChangeValue
 name
 aEmptyOrOldValue
 newValue
+aProofOfUpdate
 )
 ;
 if
