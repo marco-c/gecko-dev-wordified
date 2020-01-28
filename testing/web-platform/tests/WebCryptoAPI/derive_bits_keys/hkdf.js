@@ -906,6 +906,11 @@ saltSize
 hash
 :
 badHash
+info
+:
+algorithm
+.
+info
 }
 ;
 return
@@ -1687,6 +1692,11 @@ saltSize
 hash
 :
 badHash
+info
+:
+algorithm
+.
+info
 }
 ;
 return
