@@ -1224,7 +1224,14 @@ terminalInput
 expression
 terminalEagerResult
 :
+!
+expression
+?
 null
+:
+state
+.
+terminalEagerResult
 }
 ;
 }
