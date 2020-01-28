@@ -11751,8 +11751,6 @@ pointer
 .
 *
 /
-/
-/
 hr
 =
 device
@@ -11764,11 +11762,7 @@ __uuidof
 (
 IAudioClient3
 )
-/
-/
 CLSCTX_INPROC_SERVER
-/
-/
 NULL
 audio_client
 .
@@ -11777,8 +11771,6 @@ receive_vpp
 )
 )
 ;
-/
-/
 if
 (
 hr
@@ -11807,8 +11799,6 @@ receive_vpp
 )
 )
 ;
-/
-/
 }
 if
 (
@@ -12324,8 +12314,6 @@ flags
 AUDCLNT_STREAMFLAGS_EVENTCALLBACK
 ;
 }
-/
-/
 if
 (
 initialize_iaudioclient3
@@ -12338,8 +12326,6 @@ direction
 )
 )
 {
-/
-/
 LOG
 (
 "
@@ -12349,8 +12335,6 @@ IAudioClient3
 "
 )
 ;
-/
-/
 }
 else
 {
@@ -12380,8 +12364,6 @@ get
 NULL
 )
 ;
-/
-/
 }
 if
 (

@@ -828,8 +828,8 @@ sndio_get_device
 )
 {
 #
-ifdef
-__linux__
+ifndef
+__OpenBSD__
 /
 *
 *
