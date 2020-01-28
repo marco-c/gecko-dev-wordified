@@ -100,8 +100,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 widget
 {
 WindowSurfaceX11SHM
@@ -205,7 +205,9 @@ aInvalidRegion
 /
 /
 namespace
-mozilla
-:
-:
 widget
+}
+/
+/
+namespace
+mozilla

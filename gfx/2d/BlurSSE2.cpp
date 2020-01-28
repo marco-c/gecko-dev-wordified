@@ -137,8 +137,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 MOZ_ALWAYS_INLINE
@@ -2725,7 +2725,9 @@ final
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

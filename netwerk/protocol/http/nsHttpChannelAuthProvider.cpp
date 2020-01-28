@@ -342,8 +342,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 #
@@ -10851,7 +10851,9 @@ nsIHttpAuthenticatorCallback
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

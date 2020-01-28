@@ -153,8 +153,8 @@ it
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 void
@@ -700,7 +700,9 @@ aK4
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

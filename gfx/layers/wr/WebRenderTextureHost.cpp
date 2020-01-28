@@ -183,8 +183,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 layers
 {
 WebRenderTextureHost
@@ -1455,7 +1455,9 @@ yFlip
 /
 /
 namespace
-mozilla
-:
-:
 layers
+}
+/
+/
+namespace
+mozilla

@@ -330,8 +330,8 @@ RegExpFlags
 ;
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 /
@@ -28026,7 +28026,9 @@ BinASTTokenReaderMultipart
 /
 /
 namespace
-js
-:
-:
 frontend
+}
+/
+/
+namespace
+js

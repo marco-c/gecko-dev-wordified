@@ -158,8 +158,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
@@ -413,7 +413,9 @@ GENERATE_COORDS_WRAPPED_GETTER_NULLABLE
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

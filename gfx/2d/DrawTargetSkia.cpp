@@ -383,8 +383,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 class
@@ -13055,7 +13055,9 @@ kRetain_ContentChangeMode
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

@@ -243,8 +243,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 layers
 {
 X11TextureData
@@ -902,7 +902,9 @@ texture
 /
 /
 namespace
-mozilla
-:
-:
 layers
+}
+/
+/
+namespace
+mozilla

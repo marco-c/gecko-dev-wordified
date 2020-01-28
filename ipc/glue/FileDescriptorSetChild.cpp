@@ -123,8 +123,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 FileDescriptorSetChild
@@ -227,7 +227,9 @@ IPC_OK
 /
 /
 namespace
-mozilla
-:
-:
 ipc
+}
+/
+/
+namespace
+mozilla

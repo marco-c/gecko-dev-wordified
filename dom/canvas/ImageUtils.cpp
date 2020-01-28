@@ -171,8 +171,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 static
@@ -1517,7 +1517,9 @@ GetBufferLength
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

@@ -620,8 +620,8 @@ NS_OK
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PrototypeDocumentContentSink
@@ -7103,7 +7103,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla

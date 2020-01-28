@@ -158,8 +158,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 PathBuilderSkia
@@ -1254,7 +1254,9 @@ path
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

@@ -115,8 +115,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 static
@@ -520,7 +520,9 @@ Close
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

@@ -224,8 +224,8 @@ fire_glxtest_process
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 widget
 {
 #
@@ -4244,8 +4244,12 @@ endif
 }
 /
 /
+end
+namespace
+widget
+}
+/
+/
+end
 namespace
 mozilla
-:
-:
-widget

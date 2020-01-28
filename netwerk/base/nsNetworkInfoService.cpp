@@ -208,8 +208,8 @@ build
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 NS_IMPL_ISUPPORTS
@@ -591,7 +591,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

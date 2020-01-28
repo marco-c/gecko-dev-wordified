@@ -1072,8 +1072,8 @@ end
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 plugins
 {
 class
@@ -1823,10 +1823,12 @@ sPendingBlocklistStateRequests
 /
 /
 namespace
-mozilla
-:
-:
 plugins
+}
+/
+/
+namespace
+mozilla
 nsPluginHost
 :
 :

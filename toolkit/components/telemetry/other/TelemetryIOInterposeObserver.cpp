@@ -147,8 +147,8 @@ JS
 NewArrayObject
 namespace
 mozilla
-:
-:
+{
+namespace
 Telemetry
 {
 TelemetryIOInterposeObserver
@@ -1171,7 +1171,9 @@ size
 /
 /
 namespace
-mozilla
-:
-:
 Telemetry
+}
+/
+/
+namespace
+mozilla

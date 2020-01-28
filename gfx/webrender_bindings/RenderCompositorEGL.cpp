@@ -248,8 +248,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 wr
 {
 /
@@ -1266,7 +1266,9 @@ endif
 /
 /
 namespace
-mozilla
-:
-:
 wr
+}
+/
+/
+namespace
+mozilla

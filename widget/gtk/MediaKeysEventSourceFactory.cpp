@@ -65,8 +65,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 widget
 {
 mozilla
@@ -100,7 +100,9 @@ nullptr
 /
 /
 namespace
-mozilla
-:
-:
 widget
+}
+/
+/
+namespace
+mozilla

@@ -6251,8 +6251,8 @@ mMessageCounter
 namespace
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -7091,10 +7091,12 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 already_AddRefed
 <
 ChromeMessageBroadcaster

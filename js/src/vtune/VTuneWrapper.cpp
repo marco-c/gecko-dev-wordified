@@ -182,8 +182,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 vtune
 {
 /
@@ -1286,7 +1286,9 @@ n
 /
 /
 namespace
-js
-:
-:
 vtune
+}
+/
+/
+namespace
+js

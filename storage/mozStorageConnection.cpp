@@ -545,8 +545,8 @@ while
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 storage
 {
 using
@@ -14212,7 +14212,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 storage
+}
+/
+/
+namespace
+mozilla

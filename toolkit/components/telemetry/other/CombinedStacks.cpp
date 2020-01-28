@@ -154,8 +154,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 Telemetry
 {
 /
@@ -1613,7 +1613,9 @@ ret
 /
 /
 namespace
-mozilla
-:
-:
 Telemetry
+}
+/
+/
+namespace
+mozilla

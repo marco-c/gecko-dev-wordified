@@ -141,8 +141,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 layers
 {
 using
@@ -719,7 +719,9 @@ true
 /
 /
 namespace
-mozilla
-:
-:
 layers
+}
+/
+/
+namespace
+mozilla

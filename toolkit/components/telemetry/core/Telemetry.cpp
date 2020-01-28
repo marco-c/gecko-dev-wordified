@@ -12126,8 +12126,8 @@ Telemetry
 h
 namespace
 mozilla
-:
-:
+{
+namespace
 Telemetry
 {
 /
@@ -13420,10 +13420,12 @@ ShutdownTelemetry
 /
 /
 namespace
-mozilla
-:
-:
 Telemetry
+}
+/
+/
+namespace
+mozilla
 NS_IMPL_COMPONENT_FACTORY
 (
 nsITelemetry

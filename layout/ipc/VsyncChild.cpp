@@ -148,8 +148,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 layout
 {
 VsyncChild
@@ -553,7 +553,9 @@ IPC_OK
 /
 /
 namespace
-mozilla
-:
-:
 layout
+}
+/
+/
+namespace
+mozilla

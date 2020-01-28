@@ -130,8 +130,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 BinASTParserBase
@@ -168,7 +168,9 @@ BinASTParser
 /
 /
 namespace
-js
-:
-:
 frontend
+}
+/
+/
+namespace
+js

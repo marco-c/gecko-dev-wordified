@@ -683,8 +683,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 static
@@ -829,10 +829,12 @@ WEB_SOCKET_HANDLER_CONSTRUCTOR
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla
 /
 /
 /

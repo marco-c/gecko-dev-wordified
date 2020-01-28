@@ -232,8 +232,8 @@ IPP_JOB_NAME_LIMIT_LENGTH
 255
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 PrintTarget
@@ -1139,7 +1139,9 @@ nullptr
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

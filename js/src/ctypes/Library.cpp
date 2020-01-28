@@ -181,8 +181,8 @@ AutoStableStringChars
 ;
 namespace
 js
-:
-:
+{
+namespace
 ctypes
 {
 /
@@ -2794,7 +2794,9 @@ true
 /
 /
 namespace
-js
-:
-:
 ctypes
+}
+/
+/
+namespace
+js

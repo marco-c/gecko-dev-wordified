@@ -220,8 +220,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -1457,10 +1457,12 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 dom
+}
+/
+/
+namespace
+mozilla
 nsresult
 NS_NewPluginDocument
 (

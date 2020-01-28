@@ -198,8 +198,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 static
@@ -599,7 +599,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 net
+}
+/
+/
+namespace
+mozilla

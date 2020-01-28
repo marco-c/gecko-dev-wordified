@@ -210,8 +210,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 /
@@ -3062,7 +3062,9 @@ Ok
 /
 /
 namespace
-js
-:
-:
 frontend
+}
+/
+/
+namespace
+js

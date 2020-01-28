@@ -172,8 +172,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 storage
 {
 /
@@ -3039,7 +3039,9 @@ value
 /
 /
 namespace
-mozilla
-:
-:
 storage
+}
+/
+/
+namespace
+mozilla

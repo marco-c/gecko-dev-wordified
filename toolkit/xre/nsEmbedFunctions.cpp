@@ -1457,8 +1457,8 @@ aProcessType
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 startup
 {
 GeckoProcessType
@@ -1470,10 +1470,12 @@ GeckoProcessType_Default
 /
 /
 namespace
-mozilla
-:
-:
 startup
+}
+/
+/
+namespace
+mozilla
 #
 if
 defined

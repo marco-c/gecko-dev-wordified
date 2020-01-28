@@ -238,8 +238,8 @@ for
 SyncObjectClient
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 VRLayerChild
@@ -946,7 +946,9 @@ Release
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

@@ -196,8 +196,8 @@ gfx
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 PuppetSession
@@ -705,7 +705,9 @@ StopAllHaptics
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

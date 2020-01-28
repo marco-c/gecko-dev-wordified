@@ -137,8 +137,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 NativeFontResourceFreeType
@@ -591,7 +591,9 @@ endif
 /
 /
 namespace
-mozilla
-:
-:
 gfx
+}
+/
+/
+namespace
+mozilla

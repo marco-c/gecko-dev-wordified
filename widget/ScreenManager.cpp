@@ -221,8 +221,8 @@ WidgetScreen
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 widget
 {
 NS_IMPL_ISUPPORTS
@@ -1580,7 +1580,9 @@ NS_OK
 /
 /
 namespace
-mozilla
-:
-:
 widget
+}
+/
+/
+namespace
+mozilla

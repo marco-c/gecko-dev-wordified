@@ -187,8 +187,8 @@ algorithm
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 SSE2
 {
 static
@@ -569,7 +569,9 @@ return
 /
 /
 namespace
-mozilla
-:
-:
 SSE2
+}
+/
+/
+namespace
+mozilla
