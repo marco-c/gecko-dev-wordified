@@ -1873,9 +1873,9 @@ methods
 FlexboxAxisTracker
 :
 :
-GetMainComponent
+MainComponent
 and
-GetCrossComponent
+CrossComponent
 are
 cleaner
 /
@@ -2440,7 +2440,7 @@ s
 WritingMode
 .
 nscoord
-GetMainComponent
+MainComponent
 (
 const
 LogicalSize
@@ -2470,7 +2470,7 @@ mWM
 ;
 }
 int32_t
-GetMainComponent
+MainComponent
 (
 const
 LayoutDeviceIntSize
@@ -2508,7 +2508,7 @@ s
 WritingMode
 .
 nscoord
-GetCrossComponent
+CrossComponent
 (
 const
 LogicalSize
@@ -2538,7 +2538,7 @@ mWM
 ;
 }
 int32_t
-GetCrossComponent
+CrossComponent
 (
 const
 LayoutDeviceIntSize
@@ -2578,7 +2578,7 @@ s
 WritingMode
 .
 nscoord
-GetMarginSizeInMainAxis
+MarginSizeInMainAxis
 (
 const
 LogicalMargin
@@ -2625,7 +2625,7 @@ mWM
 ;
 }
 nscoord
-GetMarginSizeInCrossAxis
+MarginSizeInCrossAxis
 (
 const
 LogicalMargin
@@ -10791,7 +10791,7 @@ DevPixelsToAppUnits
 (
 aAxisTracker
 .
-GetMainComponent
+MainComponent
 (
 widgetMinSize
 )
@@ -10807,7 +10807,7 @@ DevPixelsToAppUnits
 (
 aAxisTracker
 .
-GetCrossComponent
+CrossComponent
 (
 widgetMinSize
 )
@@ -10865,7 +10865,7 @@ widgetMainMinSize
 =
 aAxisTracker
 .
-GetMarginSizeInMainAxis
+MarginSizeInMainAxis
 (
 bpInFlexWM
 )
@@ -10875,7 +10875,7 @@ widgetCrossMinSize
 =
 aAxisTracker
 .
-GetMarginSizeInCrossAxis
+MarginSizeInCrossAxis
 (
 bpInFlexWM
 )
