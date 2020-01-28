@@ -81,10 +81,6 @@ absolute_import
 print_function
 unicode_literals
 from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -135,7 +131,7 @@ index_or_string
 Any
 (
     
-text_type
+basestring
     
 {
 Required
@@ -147,7 +143,7 @@ search
 '
 )
 :
-text_type
+basestring
 }
 )
 diff_description_schema
@@ -171,7 +167,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 #
 Treeherder
@@ -185,7 +181,7 @@ symbol
 '
 )
 :
-text_type
+basestring
     
 #
 relative
@@ -215,7 +211,7 @@ from
 '
 )
 :
-text_type
+basestring
     
 #
 Original
@@ -275,7 +271,7 @@ args
 '
 )
 :
-text_type
+basestring
     
 #
 Extra
@@ -301,7 +297,7 @@ args
 '
 )
 :
-text_type
+basestring
     
 #
 Fail
@@ -407,7 +403,7 @@ commands
 )
 :
 [
-text_type
+basestring
 ]
     
 #
@@ -527,7 +523,7 @@ if
 isinstance
 (
 value
-text_type
+basestring
 )
 :
                 

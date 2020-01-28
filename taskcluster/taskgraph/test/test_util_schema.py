@@ -59,10 +59,6 @@ import
 absolute_import
 print_function
 unicode_literals
-from
-six
-import
-text_type
 import
 unittest
 from
@@ -100,7 +96,7 @@ int
 y
 '
 :
-text_type
+basestring
 }
 )
 class

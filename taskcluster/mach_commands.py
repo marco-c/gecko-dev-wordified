@@ -79,10 +79,6 @@ import
 logging
 import
 os
-from
-six
-import
-text_type
 import
 sys
 import
@@ -1140,9 +1136,6 @@ root
 -
 r
 '
-type
-=
-text_type
                      
 help
 =
@@ -1167,9 +1160,7 @@ base
 -
 repository
 '
-type
-=
-text_type
+                     
 required
 =
 True
@@ -1197,9 +1188,7 @@ head
 -
 repository
 '
-type
-=
-text_type
+                     
 required
 =
 True
@@ -1229,9 +1218,7 @@ head
 -
 ref
 '
-type
-=
-text_type
+                     
 required
 =
 True
@@ -1262,9 +1249,7 @@ head
 -
 rev
 '
-type
-=
-text_type
+                     
 required
 =
 True
@@ -1293,9 +1278,7 @@ base
 -
 repository
 '
-type
-=
-text_type
+                     
 required
 =
 False
@@ -1328,9 +1311,7 @@ head
 -
 repository
 '
-type
-=
-text_type
+                     
 required
 =
 False
@@ -1365,9 +1346,7 @@ head
 -
 ref
 '
-type
-=
-text_type
+                     
 required
 =
 False
@@ -1403,9 +1382,7 @@ head
 -
 rev
 '
-type
-=
-text_type
+                     
 required
 =
 False
@@ -1428,19 +1405,16 @@ repository
     
 CommandArgument
 (
-        
 '
 -
 -
 project
 '
-type
-=
-text_type
+                     
 required
 =
 True
-        
+                     
 help
 =
 '
@@ -1471,9 +1445,7 @@ pushlog
 -
 id
 '
-type
-=
-text_type
+                     
 dest
 =
 '
@@ -1483,11 +1455,10 @@ pushlog_id
 required
 =
 True
+                     
 default
 =
-'
 0
-'
 )
     
 CommandArgument
@@ -1524,9 +1495,7 @@ CommandArgument
 -
 owner
 '
-type
-=
-text_type
+                     
 required
 =
 True
@@ -1551,9 +1520,7 @@ CommandArgument
 -
 level
 '
-type
-=
-text_type
+                     
 required
 =
 True
@@ -1580,9 +1547,6 @@ tasks
 -
 method
 '
-type
-=
-text_type
                      
 help
 =
@@ -1681,9 +1645,6 @@ config
 -
 file
 '
-type
-=
-text_type
                      
 help
 =
@@ -1706,12 +1667,6 @@ tasks
 -
 for
 '
-type
-=
-text_type
-required
-=
-True
                      
 help
 =
@@ -1725,6 +1680,10 @@ generate
 this
 task
 '
+                     
+required
+=
+True
 )
     
 CommandArgument

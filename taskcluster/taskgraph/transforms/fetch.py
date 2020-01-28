@@ -86,15 +86,9 @@ quote
 as
 shell_quote
 import
-io
-import
 os
 import
 re
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -176,7 +170,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 #
 Relative
@@ -208,7 +202,7 @@ from
 '
 )
 :
-text_type
+basestring
     
 #
 Description
@@ -224,7 +218,7 @@ description
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -262,7 +256,7 @@ url
 '
 )
 :
-text_type
+basestring
             
 #
 The
@@ -282,7 +276,7 @@ sha256
 '
 )
 :
-text_type
+basestring
             
 #
 Size
@@ -361,7 +355,7 @@ url
 '
 )
 :
-text_type
+basestring
                 
 #
 Path
@@ -391,7 +385,7 @@ path
 '
 )
 :
-text_type
+basestring
             
 }
             
@@ -452,7 +446,7 @@ name
 '
 )
 :
-text_type
+basestring
             
 #
 Strip
@@ -538,7 +532,7 @@ prefix
 '
 )
 :
-text_type
+basestring
             
 #
 IMPORTANT
@@ -591,7 +585,7 @@ script
 '
 )
 :
-text_type
+basestring
             
 #
 Platform
@@ -607,7 +601,7 @@ platform
 '
 )
 :
-text_type
+basestring
             
 #
 Chromium
@@ -622,7 +616,7 @@ revision
 '
 )
 :
-text_type
+basestring
             
 #
 The
@@ -644,7 +638,7 @@ name
 '
 )
 :
-text_type
+basestring
         
 }
         
@@ -665,7 +659,7 @@ repo
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -674,7 +668,7 @@ revision
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -685,7 +679,7 @@ name
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -696,7 +690,7 @@ prefix
 '
 )
 :
-text_type
+basestring
         
 }
     
@@ -1367,13 +1361,11 @@ path
 )
         
 with
-io
-.
 open
 (
 key_path
 '
-r
+rb
 '
 )
 as

@@ -76,10 +76,6 @@ absolute_import
 print_function
 unicode_literals
 from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -211,7 +207,7 @@ build
 '
 )
 :
-text_type
+basestring
     
 #
 attributes
@@ -234,7 +230,7 @@ attributes
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -264,7 +260,7 @@ label
 '
 )
 :
-text_type
+basestring
     
 #
 treeherder
@@ -330,7 +326,7 @@ description
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -348,7 +344,7 @@ release
 -
 level
 '
-text_type
+basestring
 )
     
 Required
@@ -381,7 +377,7 @@ locale
 '
 )
 :
-text_type
+basestring
     
 Optional
 (

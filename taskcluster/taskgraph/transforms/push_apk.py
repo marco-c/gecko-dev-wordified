@@ -80,10 +80,6 @@ unicode_literals
 import
 re
 from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -154,7 +150,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -268,7 +264,7 @@ release
 -
 level
 '
-text_type
+basestring
 )
     
 Required

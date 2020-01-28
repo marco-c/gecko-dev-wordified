@@ -64,10 +64,6 @@ copy
 import
 deepcopy
 from
-six
-import
-text_type
-from
 voluptuous
 import
 (
@@ -149,7 +145,7 @@ platform
 '
         
 [
-text_type
+basestring
 ]
     
 )
@@ -163,7 +159,7 @@ test
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -175,7 +171,7 @@ subtests
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -192,7 +188,7 @@ optionally_keyed_by
 app
 '
         
-text_type
+basestring
     
 )
     
@@ -212,7 +208,7 @@ optionally_keyed_by
 app
 '
         
-text_type
+basestring
     
 )
     

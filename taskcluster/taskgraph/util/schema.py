@@ -400,7 +400,7 @@ by
 field
 :
 {
-text_type
+basestring
 :
 schema
 }
@@ -967,7 +967,7 @@ if
 k
 in
 (
-text_type
+basestring
 text_type
 voluptuous
 .
@@ -981,7 +981,7 @@ elif
 isinstance
 (
 k
-text_type
+basestring
 )
 :
                 
@@ -1436,7 +1436,7 @@ search
 '
 :
 [
-text_type
+basestring
 ]
 }
     
@@ -1485,7 +1485,7 @@ changed
 '
 :
 [
-text_type
+basestring
 ]
 }
     
@@ -1592,7 +1592,7 @@ voluptuous
 Any
 (
     
-text_type
+basestring
     
 {
 voluptuous
@@ -1606,7 +1606,7 @@ reference
 '
 )
 :
-text_type
+basestring
 }
     
 {
@@ -1621,6 +1621,6 @@ reference
 '
 )
 :
-text_type
+basestring
 }
 )

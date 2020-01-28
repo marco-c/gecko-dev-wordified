@@ -471,7 +471,7 @@ label
 '
 )
 :
-text_type
+basestring
     
 #
 description
@@ -490,7 +490,7 @@ description
 '
 )
 :
-text_type
+basestring
     
 #
 attributes
@@ -506,7 +506,7 @@ attributes
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -537,7 +537,7 @@ from
 '
 )
 :
-text_type
+basestring
     
 #
 dependencies
@@ -579,7 +579,7 @@ dependencies
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -607,7 +607,7 @@ dependencies
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -673,7 +673,7 @@ after
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -684,7 +684,7 @@ after
 '
 )
 :
-text_type
+basestring
     
 #
 custom
@@ -712,7 +712,7 @@ routes
 )
 :
 [
-text_type
+basestring
 ]
     
 #
@@ -781,7 +781,7 @@ scopes
 )
 :
 [
-text_type
+basestring
 ]
     
 #
@@ -795,9 +795,9 @@ tags
 )
 :
 {
-text_type
+basestring
 :
-text_type
+basestring
 }
     
 #
@@ -817,7 +817,7 @@ extra
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -901,7 +901,7 @@ sym
 symbol
 '
 :
-text_type
+basestring
         
 #
 the
@@ -1057,7 +1057,7 @@ produces
 product
 '
 :
-text_type
+basestring
         
 #
 the
@@ -1078,7 +1078,7 @@ job
 name
 '
 :
-text_type
+basestring
         
 #
 Type
@@ -1387,7 +1387,7 @@ build
 platform
 '
 [
-text_type
+basestring
 ]
 )
     
@@ -1427,7 +1427,7 @@ optionally_keyed_by
 project
 '
 [
-text_type
+basestring
 ]
 )
     
@@ -1523,7 +1523,7 @@ Any
         
 None
         
-text_type
+basestring
     
 )
     
@@ -1646,7 +1646,7 @@ job
 identifier
 '
 :
-text_type
+basestring
         
 #
 The
@@ -1863,7 +1863,7 @@ worker
 type
 '
 :
-text_type
+basestring
     
 #
 Whether
@@ -1906,7 +1906,7 @@ artifacts
 )
 :
 [
-text_type
+basestring
 ]
     
 #
@@ -1938,7 +1938,7 @@ implementation
 '
 )
 :
-text_type
+basestring
         
 Extra
 :
@@ -1962,7 +1962,7 @@ priority
 '
 )
 :
-text_type
+basestring
 }
 )
 TC_TREEHERDER_SCHEMA_URL
@@ -3760,7 +3760,7 @@ image
 tag
 )
         
-text_type
+basestring
         
 #
 an
@@ -3788,7 +3788,7 @@ in
 tree
 '
 :
-text_type
+basestring
 }
         
 #
@@ -3802,7 +3802,7 @@ image
 indexed
 '
 :
-text_type
+basestring
 }
     
 )
@@ -4021,7 +4021,7 @@ volumes
 )
 :
 [
-text_type
+basestring
 ]
     
 #
@@ -4088,7 +4088,7 @@ cache
 name
 '
 :
-text_type
+basestring
         
 #
 location
@@ -4109,7 +4109,7 @@ mount
 point
 '
 :
-text_type
+basestring
         
 #
 Whether
@@ -4206,7 +4206,7 @@ artifact
 path
 '
 :
-text_type
+basestring
         
 #
 name
@@ -4231,7 +4231,7 @@ directory
 name
 '
 :
-text_type
+basestring
     
 }
 ]
@@ -4248,7 +4248,7 @@ env
 )
 :
 {
-text_type
+basestring
 :
 taskref_or_string
 }
@@ -5559,7 +5559,7 @@ docker
 image
 '
 )
-text_type
+basestring
 )
 :
         
@@ -6600,7 +6600,7 @@ artifact
 path
 '
 :
-text_type
+basestring
         
 #
 if
@@ -6620,7 +6620,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 }
 ]
@@ -6727,7 +6727,7 @@ name
 '
 )
 :
-text_type
+basestring
         
 #
 Optional
@@ -6816,7 +6816,7 @@ artifact
 '
 )
 :
-text_type
+basestring
             
 #
 Task
@@ -6866,7 +6866,7 @@ url
 '
 )
 :
-text_type
+basestring
         
 }
         
@@ -6927,7 +6927,7 @@ directory
 '
 )
 :
-text_type
+basestring
         
 #
 If
@@ -6965,7 +6965,7 @@ file
 '
 )
 :
-text_type
+basestring
         
 #
 Required
@@ -7055,7 +7055,7 @@ env
 )
 :
 {
-text_type
+basestring
 :
 taskref_or_string
 }
@@ -7101,7 +7101,7 @@ groups
 )
 :
 [
-text_type
+basestring
 ]
     
 #
@@ -8336,7 +8336,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 #
 Paths
@@ -8354,7 +8354,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
         
 #
@@ -8376,7 +8376,7 @@ formats
 )
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -8424,7 +8424,7 @@ url
 '
 )
 :
-text_type
+basestring
 }
 )
 def
@@ -8697,7 +8697,7 @@ locale
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -8727,7 +8727,7 @@ app
 name
 '
 :
-text_type
+basestring
         
 '
 app
@@ -8735,13 +8735,13 @@ app
 version
 '
 :
-text_type
+basestring
         
 '
 branch
 '
 :
-text_type
+basestring
         
 '
 build
@@ -8749,7 +8749,7 @@ build
 id
 '
 :
-text_type
+basestring
         
 '
 hash
@@ -8757,13 +8757,13 @@ hash
 type
 '
 :
-text_type
+basestring
         
 '
 platform
 '
 :
-text_type
+basestring
     
 }
     
@@ -8827,7 +8827,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 #
 Paths
@@ -8845,7 +8845,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
         
 #
@@ -8870,7 +8870,7 @@ locale
 '
 )
 :
-text_type
+basestring
     
 }
 ]
@@ -9214,7 +9214,7 @@ product
 '
 )
 :
-text_type
+basestring
 }
 )
 def
@@ -9377,7 +9377,7 @@ app
 name
 '
 :
-text_type
+basestring
         
 '
 app
@@ -9385,13 +9385,13 @@ app
 version
 '
 :
-text_type
+basestring
         
 '
 branch
 '
 :
-text_type
+basestring
         
 '
 build
@@ -9399,7 +9399,7 @@ build
 id
 '
 :
-text_type
+basestring
         
 '
 artifact
@@ -9407,7 +9407,7 @@ artifact
 id
 '
 :
-text_type
+basestring
         
 '
 hash
@@ -9415,13 +9415,13 @@ hash
 type
 '
 :
-text_type
+basestring
         
 '
 platform
 '
 :
-text_type
+basestring
     
 }
     
@@ -9453,7 +9453,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -9463,7 +9463,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
         
 Required
@@ -9652,7 +9652,7 @@ product
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -9662,7 +9662,7 @@ platforms
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -9674,7 +9674,7 @@ eta
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -9693,7 +9693,7 @@ release
 type
 '
 [
-text_type
+basestring
 ]
 )
     
@@ -9759,7 +9759,7 @@ release
 level
 '
 [
-text_type
+basestring
 ]
 )
     
@@ -9779,7 +9779,7 @@ release
 -
 level
 '
-text_type
+basestring
 )
     
 Optional
@@ -9798,7 +9798,7 @@ release
 -
 level
 '
-text_type
+basestring
 )
     
 Optional
@@ -9810,7 +9810,7 @@ suffix
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -9825,7 +9825,7 @@ pattern
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -9842,7 +9842,7 @@ pattern
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -9863,7 +9863,7 @@ suffixes
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -9984,7 +9984,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 #
 Paths
@@ -10002,7 +10002,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -10730,7 +10730,7 @@ products
 )
 :
 [
-text_type
+basestring
 ]
 }
 )
@@ -10825,7 +10825,7 @@ locales
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -10927,7 +10927,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -10937,7 +10937,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
         
 Optional
@@ -11146,7 +11146,7 @@ channel
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -11176,7 +11176,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -11186,7 +11186,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -11265,7 +11265,7 @@ name
 '
 )
 :
-text_type
+basestring
 }
 )
 def
@@ -11329,7 +11329,7 @@ phase
 '
 )
 :
-text_type
+basestring
 }
 )
 def
@@ -11532,7 +11532,7 @@ taskType
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -11542,7 +11542,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -11649,7 +11649,7 @@ files
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -11663,7 +11663,7 @@ prefix
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -11724,7 +11724,7 @@ repo
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -11746,7 +11746,7 @@ name
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -11755,7 +11755,7 @@ path
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -11766,7 +11766,7 @@ path
 '
 )
 :
-text_type
+basestring
         
 Optional
 (
@@ -11777,7 +11777,7 @@ url
 '
 )
 :
-text_type
+basestring
         
 Optional
 (
@@ -11810,7 +11810,7 @@ platforms
 )
 :
 [
-text_type
+basestring
 ]
             
 Required
@@ -11820,7 +11820,7 @@ path
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -11829,7 +11829,7 @@ format
 '
 )
 :
-text_type
+basestring
         
 }
 ]
@@ -12589,7 +12589,7 @@ context
 '
 )
 :
-text_type
+basestring
     
 #
 Tells
@@ -12666,7 +12666,7 @@ env
 )
 :
 {
-text_type
+basestring
 :
 taskref_or_string
 }
@@ -12738,7 +12738,7 @@ path
 '
 )
 :
-text_type
+basestring
         
 #
 name
@@ -12766,7 +12766,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 }
 ]
@@ -17795,7 +17795,7 @@ shipping_phase
         
 #
 A
-text_type
+basestring
 task
 [
 '
@@ -19151,7 +19151,7 @@ command
 [
 0
 ]
-text_type
+basestring
 )
 else
 '
@@ -19197,7 +19197,7 @@ not
 isinstance
 (
 arg
-text_type
+basestring
 )
 :
                     

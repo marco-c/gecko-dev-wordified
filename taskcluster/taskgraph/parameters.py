@@ -72,8 +72,6 @@ absolute_import
 print_function
 unicode_literals
 import
-io
-import
 os
 .
 path
@@ -119,12 +117,6 @@ Required
     
 Schema
 )
-import
-six
-from
-six
-import
-text_type
 from
 .
 import
@@ -169,17 +161,12 @@ get_head_ref
 :
     
 return
-six
-.
-ensure_text
-(
 get_repository_object
 (
 GECKO
 )
 .
 head_ref
-)
 def
 get_contents
 (
@@ -188,8 +175,6 @@ path
 :
     
 with
-io
-.
 open
 (
 path
@@ -300,7 +285,7 @@ app_version
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -309,7 +294,7 @@ base_repository
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -339,7 +324,7 @@ comm
 '
 )
 :
-text_type
+basestring
     
 Inclusive
 (
@@ -351,7 +336,7 @@ comm
 '
 )
 :
-text_type
+basestring
     
 Inclusive
 (
@@ -363,7 +348,7 @@ comm
 '
 )
 :
-text_type
+basestring
     
 Inclusive
 (
@@ -375,7 +360,7 @@ comm
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -385,7 +370,7 @@ do_not_optimize
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -396,9 +381,9 @@ existing_tasks
 )
 :
 {
-text_type
+basestring
 :
-text_type
+basestring
 }
     
 Required
@@ -409,7 +394,7 @@ filters
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -419,7 +404,7 @@ head_ref
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -428,7 +413,7 @@ head_repository
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -437,7 +422,7 @@ head_rev
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -446,7 +431,7 @@ hg_branch
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -455,7 +440,7 @@ level
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -464,7 +449,7 @@ message
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -473,7 +458,7 @@ moz_build_date
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -485,7 +470,7 @@ next_version
 Any
 (
 None
-text_type
+basestring
 )
     
 Required
@@ -504,7 +489,7 @@ owner
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -516,7 +501,7 @@ phabricator_diff
 Any
 (
 None
-text_type
+basestring
 )
     
 Required
@@ -526,7 +511,7 @@ project
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -544,7 +529,7 @@ pushlog_id
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -574,7 +559,7 @@ release_eta
 Any
 (
 None
-text_type
+basestring
 )
     
 Required
@@ -585,7 +570,7 @@ release_history
 )
 :
 {
-text_type
+basestring
 :
 dict
 }
@@ -601,7 +586,7 @@ Any
 (
 None
 [
-text_type
+basestring
 ]
 )
     
@@ -634,7 +619,7 @@ release_type
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -646,7 +631,7 @@ release_product
 Any
 (
 None
-text_type
+basestring
 )
     
 Required
@@ -657,7 +642,7 @@ required_signoffs
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -676,7 +661,7 @@ target_tasks_method
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -685,7 +670,7 @@ tasks_for
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -697,7 +682,7 @@ try_mode
 Any
 (
 None
-text_type
+basestring
 )
     
 Required
@@ -729,7 +714,7 @@ version
 '
 )
 :
-text_type
+basestring
 }
 COMM_PARAMETERS
 =
@@ -1002,10 +987,6 @@ message
 moz_build_date
 '
 :
-six
-.
-ensure_text
-(
 now
 .
 strftime
@@ -1024,7 +1005,6 @@ M
 %
 S
 "
-)
 )
             
 '
@@ -1469,7 +1449,7 @@ human
         
 :
 param
-text_type
+basestring
 path
 :
 The
@@ -1510,7 +1490,7 @@ version
         
 :
 return
-text_type
+basestring
 :
 The
 URL

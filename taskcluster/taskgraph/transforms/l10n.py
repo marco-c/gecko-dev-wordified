@@ -74,8 +74,6 @@ unicode_literals
 import
 copy
 import
-io
-import
 json
 from
 mozbuild
@@ -83,10 +81,6 @@ mozbuild
 chunkify
 import
 chunkify
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -217,7 +211,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 #
 build
@@ -239,7 +233,7 @@ platform
 '
 )
 :
-text_type
+basestring
     
 #
 max
@@ -282,7 +276,7 @@ locales
 _by_platform
 (
 [
-text_type
+basestring
 ]
 )
     
@@ -318,7 +312,7 @@ script
 :
 _by_platform
 (
-text_type
+basestring
 )
         
 #
@@ -340,7 +334,7 @@ config
 _by_platform
 (
 [
-text_type
+basestring
 ]
 )
         
@@ -378,7 +372,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
         
 #
@@ -400,7 +394,7 @@ options
 _by_platform
 (
 [
-text_type
+basestring
 ]
 )
         
@@ -423,7 +417,7 @@ actions
 _by_platform
 (
 [
-text_type
+basestring
 ]
 )
         
@@ -498,7 +492,7 @@ product
 :
 _by_platform
 (
-text_type
+basestring
 )
         
 #
@@ -523,7 +517,7 @@ name
 :
 _by_platform
 (
-text_type
+basestring
 )
         
 #
@@ -540,7 +534,7 @@ type
 :
 _by_platform
 (
-text_type
+basestring
 )
     
 }
@@ -561,7 +555,7 @@ description
 :
 _by_platform
 (
-text_type
+basestring
 )
     
 Optional
@@ -604,7 +598,7 @@ type
 :
 _by_platform
 (
-text_type
+basestring
 )
     
 #
@@ -626,7 +620,7 @@ file
 :
 _by_platform
 (
-text_type
+basestring
 )
     
 #
@@ -732,7 +726,7 @@ in
 tree
 '
 :
-text_type
+basestring
 }
         
 None
@@ -749,12 +743,12 @@ fetches
 :
 {
         
-text_type
+basestring
 :
 _by_platform
 (
 [
-text_type
+basestring
 ]
 )
     
@@ -853,7 +847,7 @@ Any
 (
 bool
 [
-text_type
+basestring
 ]
 )
 )
@@ -891,7 +885,7 @@ platform
 :
 _by_platform
 (
-text_type
+basestring
 )
         
 #
@@ -906,7 +900,7 @@ symbol
 '
 )
 :
-text_type
+basestring
         
 #
 Tier
@@ -948,7 +942,7 @@ env
 _by_platform
 (
 {
-text_type
+basestring
 :
 taskref_or_string
 }
@@ -1008,9 +1002,9 @@ dependencies
 )
 :
 {
-text_type
+basestring
 :
-text_type
+basestring
 }
     
 #
@@ -1044,7 +1038,7 @@ changed
 '
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -1169,8 +1163,6 @@ locales
 ]
     
 with
-io
-.
 open
 (
 locales_file
@@ -1224,6 +1216,7 @@ data
 revision
 '
 ]
+                
 for
 locale
 data
@@ -2006,7 +1999,7 @@ if
 isinstance
 (
 v1
-text_type
+basestring
 )
 :
                 

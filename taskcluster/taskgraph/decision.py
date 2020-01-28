@@ -85,8 +85,6 @@ from
 collections
 import
 defaultdict
-import
-six
 from
 six
 import
@@ -631,7 +629,7 @@ tasks
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -673,9 +671,9 @@ env
 )
 :
 {
-text_type
+basestring
 :
-text_type
+basestring
 }
     
 Optional
@@ -842,7 +840,7 @@ parameters
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -2138,11 +2136,6 @@ moz_build_date
 '
 ]
 =
-six
-.
-ensure_text
-(
-        
 time
 .
 strftime
@@ -2161,6 +2154,7 @@ M
 %
 S
 "
+                                                 
 time
 .
 gmtime
@@ -2171,7 +2165,6 @@ parameters
 build_date
 '
 ]
-)
 )
 )
     

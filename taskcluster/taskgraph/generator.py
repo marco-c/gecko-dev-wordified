@@ -68,10 +68,6 @@ copy
 import
 attr
 from
-six
-import
-text_type
-from
 .
 import
 filter_tasks
@@ -201,7 +197,7 @@ ib
 (
 type
 =
-text_type
+basestring
 )
     
 path
@@ -212,7 +208,7 @@ ib
 (
 type
 =
-text_type
+basestring
 )
     
 config
