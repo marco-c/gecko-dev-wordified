@@ -2720,6 +2720,10 @@ SizeItemInCrossAxis
 nsPresContext
 *
 aPresContext
+const
+FlexboxAxisTracker
+&
+aAxisTracker
 ReflowInput
 &
 aChildReflowInput
