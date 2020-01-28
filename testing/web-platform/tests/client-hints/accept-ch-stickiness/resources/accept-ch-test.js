@@ -320,11 +320,6 @@ set
 Accept
 -
 CH
--
-Lifetime
-for
-1
-second
 promise_test
 (
 t
