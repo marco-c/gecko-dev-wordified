@@ -366,7 +366,6 @@ bool
 IsInProcess
 (
 )
-override
 {
 return
 XRE_IsParentProcess
