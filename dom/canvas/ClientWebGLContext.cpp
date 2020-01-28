@@ -16345,12 +16345,12 @@ uint8_t
 (
 src
 .
-LengthAllowShared
+Length
 (
 )
 src
 .
-DataAllowShared
+Data
 (
 )
 )
@@ -16509,12 +16509,12 @@ uint8_t
 (
 src
 .
-LengthAllowShared
+Length
 (
 )
 src
 .
-DataAllowShared
+Data
 (
 )
 )
@@ -31969,7 +31969,7 @@ bytes
 =
 view
 .
-DataAllowShared
+Data
 (
 )
 ;
@@ -31979,7 +31979,7 @@ byteLen
 =
 view
 .
-LengthAllowShared
+Length
 (
 )
 ;
