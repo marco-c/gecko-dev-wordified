@@ -153,6 +153,7 @@ getPaneCollapse
 getActiveSearch
 getQuickOpenEnabled
 getOrientation
+getCanRewind
 }
 from
 "
@@ -471,6 +472,9 @@ activeSearch
 ?
 ActiveSearchType
 quickOpenEnabled
+:
+boolean
+canRewind
 :
 boolean
 setActiveSearch
@@ -1739,6 +1743,7 @@ render
 const
 {
 quickOpenEnabled
+canRewind
 }
 =
 this
@@ -1757,6 +1762,15 @@ classnames
 "
 debugger
 "
+{
+"
+can
+-
+rewind
+"
+:
+canRewind
+}
 )
 }
 >
@@ -1851,6 +1865,12 @@ state
 >
 (
 {
+canRewind
+:
+getCanRewind
+(
+state
+)
 selectedSource
 :
 getSelectedSource

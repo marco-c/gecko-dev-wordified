@@ -85,6 +85,8 @@ stepIn
 stepOver
 stepOut
 resume
+rewind
+reverseStepOver
 seekToPosition
 }
 from

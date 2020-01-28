@@ -190,6 +190,13 @@ whyPaused
 .
 interrupted
 "
+replayForcedPause
+:
+"
+whyPaused
+.
+replayForcedPause
+"
 /
 /
 V8
