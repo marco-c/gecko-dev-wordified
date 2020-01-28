@@ -64,6 +64,8 @@ os
 import
 subprocess
 import
+six
+import
 sys
 import
 psutil
@@ -606,7 +608,11 @@ choice
 =
 strtobool
 (
-raw_input
+six
+.
+moves
+.
+input
 (
 prompt
 +
@@ -752,22 +758,24 @@ result
             
 print
 (
+                
 '
-%
-s
+{
+}
 .
 .
 .
 \
 t
-%
-s
+{
+}
 \
 n
 '
-%
+.
+format
 (
-                   
+                    
 result
 .
 get
@@ -778,16 +786,16 @@ desc
 '
 '
 )
-                   
+                    
 status
                 
-)
-            
 )
 .
 expandtabs
 (
 40
+)
+            
 )
     
 property
