@@ -4078,16 +4078,11 @@ id
 "
 menu_pageInfo
 "
-#
-ifndef
-XP_WIN
 key
 =
 "
 key_viewInfo
 "
-#
-endif
 command
 =
 "
