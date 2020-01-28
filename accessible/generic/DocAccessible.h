@@ -3967,6 +3967,17 @@ NotificationController
 ;
 private
 :
+void
+SetRoleMapEntryForDoc
+(
+dom
+:
+:
+Element
+*
+aElement
+)
+;
 PresShell
 *
 mPresShell
