@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -1083,12 +1082,6 @@ linkCSSFile
 )
 ;
 }
-this
-.
-StyleSheetEditor
-=
-StyleSheetEditor
-;
 StyleSheetEditor
 .
 prototype

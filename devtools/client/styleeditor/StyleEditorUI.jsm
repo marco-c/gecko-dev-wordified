@@ -61,8 +61,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -973,12 +972,6 @@ _onNewDocument
 )
 ;
 }
-this
-.
-StyleEditorUI
-=
-StyleEditorUI
-;
 StyleEditorUI
 .
 prototype

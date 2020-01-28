@@ -146,8 +146,7 @@ loader
 .
 *
 /
-this
-.
+const
 requireRawId
 =
 function
@@ -376,8 +375,7 @@ data
 ;
 }
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

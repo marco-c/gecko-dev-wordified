@@ -275,8 +275,7 @@ Services
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -372,10 +371,6 @@ preferences
 .
 *
 /
-this
-.
-BrowserToolboxLauncher
-=
 function
 BrowserToolboxLauncher
 (
@@ -574,7 +569,6 @@ this
 )
 ;
 }
-;
 EventEmitter
 .
 decorate

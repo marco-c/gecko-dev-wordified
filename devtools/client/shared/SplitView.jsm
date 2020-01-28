@@ -103,8 +103,7 @@ keycodes
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -229,10 +228,6 @@ see
 appendItem
 *
 /
-this
-.
-SplitView
-=
 function
 SplitView
 (
@@ -641,7 +636,6 @@ false
 )
 ;
 }
-;
 SplitView
 .
 prototype

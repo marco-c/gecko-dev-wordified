@@ -167,8 +167,7 @@ jsm
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -394,10 +393,6 @@ debugging
 .
 *
 /
-this
-.
-DevToolsLoader
-=
 function
 DevToolsLoader
 (
@@ -1267,7 +1262,6 @@ oldHook
 ;
 }
 }
-;
 DevToolsLoader
 .
 prototype
@@ -1355,8 +1349,7 @@ by
 the
 tools
 .
-this
-.
+var
 loader
 =
 new
@@ -1471,12 +1464,9 @@ Firefox
 }
 )
 ;
-this
-.
+var
 require
 =
-this
-.
 loader
 .
 require

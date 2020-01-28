@@ -136,8 +136,7 @@ exported
 init
 *
 /
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [

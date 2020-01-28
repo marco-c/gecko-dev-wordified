@@ -267,8 +267,7 @@ policy
 disabled
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -383,8 +382,7 @@ instance
 .
 *
 /
-this
-.
+const
 DevToolsShim
 =
 {
@@ -1954,8 +1952,6 @@ of
 webExtensionsMethods
 )
 {
-this
-.
 DevToolsShim
 [
 method

@@ -43,8 +43,7 @@ use
 strict
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -53,8 +52,7 @@ Match
 "
 ]
 ;
-this
-.
+const
 Match
 =
 (
