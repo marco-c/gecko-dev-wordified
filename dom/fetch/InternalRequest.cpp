@@ -706,10 +706,6 @@ RequestRedirect
 :
 Follow
 )
-mAuthenticationFlag
-(
-false
-)
 mPreserveContentCodings
 (
 false
@@ -910,10 +906,6 @@ mIntegrity
 (
 aIntegrity
 )
-mAuthenticationFlag
-(
-false
-)
 mPreserveContentCodings
 (
 false
@@ -1076,12 +1068,6 @@ mFragment
 aOther
 .
 mFragment
-)
-mAuthenticationFlag
-(
-aOther
-.
-mAuthenticationFlag
 )
 mPreserveContentCodings
 (

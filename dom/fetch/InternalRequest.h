@@ -2308,10 +2308,6 @@ mFragment
 ;
 MOZ_INIT_OUTSIDE_CTOR
 bool
-mAuthenticationFlag
-;
-MOZ_INIT_OUTSIDE_CTOR
-bool
 mPreserveContentCodings
 ;
 MOZ_INIT_OUTSIDE_CTOR
