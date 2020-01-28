@@ -144,6 +144,10 @@ GPU_DECL_JS_WRAP
 (
 TextureView
 )
+const
+RawId
+mId
+;
 private
 :
 TextureView

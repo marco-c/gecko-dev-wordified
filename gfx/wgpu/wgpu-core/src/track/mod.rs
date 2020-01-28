@@ -1573,6 +1573,9 @@ Occupied
 (
 e
 )
+=
+>
+{
 if
 e
 .
@@ -1588,8 +1591,6 @@ load
 =
 =
 1
-=
->
 {
 let
 res
@@ -1610,6 +1611,11 @@ epoch
 )
 ;
 true
+}
+else
+{
+false
+}
 }
 _
 =

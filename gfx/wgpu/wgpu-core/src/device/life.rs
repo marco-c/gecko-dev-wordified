@@ -1647,8 +1647,10 @@ unwrap
 }
 )
 .
-unwrap_or
+unwrap_or_else
 (
+|
+|
 self
 .
 active

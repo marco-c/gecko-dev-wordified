@@ -77,7 +77,7 @@ BindGroupId
 BindGroupLayoutId
 PipelineLayoutId
 }
-BufferAddress
+DynamicOffset
 Stored
 }
 ;
@@ -154,7 +154,7 @@ BindGroupId
 '
 a
 [
-BufferAddress
+DynamicOffset
 ]
 )
 Mismatch
@@ -227,7 +227,7 @@ BindGroupId
 '
 a
 [
-BufferAddress
+DynamicOffset
 ]
 )
 ;
@@ -313,7 +313,7 @@ dynamic_offsets
 :
 Vec
 <
-BufferAddress
+DynamicOffset
 >
 }
 impl
@@ -344,7 +344,7 @@ offsets
 :
 &
 [
-BufferAddress
+DynamicOffset
 ]
 )
 -
@@ -970,7 +970,7 @@ offsets
 :
 &
 [
-BufferAddress
+DynamicOffset
 ]
 )
 -
