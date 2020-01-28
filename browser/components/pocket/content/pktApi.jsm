@@ -1809,7 +1809,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 data
 .
@@ -2528,7 +2528,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 =
 =
 =

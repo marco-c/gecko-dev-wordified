@@ -2045,7 +2045,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 const
 recordId
@@ -3434,7 +3434,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 }
 ;
 this
@@ -5685,7 +5685,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 if
 (

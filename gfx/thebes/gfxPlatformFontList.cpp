@@ -10632,7 +10632,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 (
 localeStr
 )

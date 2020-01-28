@@ -949,13 +949,13 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 "
 Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 exists
 "
 )
@@ -980,7 +980,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 }
 "
 }
@@ -1031,7 +1031,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 .
 substr
 (
@@ -1055,7 +1055,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ]
 )
 [
@@ -1065,7 +1065,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 "
 currentLanguageCode
 should

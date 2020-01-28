@@ -341,7 +341,7 @@ mozILocaleService
 )
                                  
 .
-getAppLocaleAsLangTag
+getAppLocaleAsBCP47
 (
 )
 ;

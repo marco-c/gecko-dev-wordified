@@ -996,7 +996,7 @@ use
 LocaleService
 :
 :
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 .
 *
 /
@@ -1040,7 +1040,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 (
 reqLocale
 )
@@ -1754,7 +1754,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 (
 appLocale
 )
@@ -1912,7 +1912,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 (
 appLocale
 )

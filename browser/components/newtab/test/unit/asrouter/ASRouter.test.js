@@ -5794,7 +5794,7 @@ Services
 .
 locale
 "
-appLocaleAsLangTag
+appLocaleAsBCP47
 "
 )
 .
@@ -5931,7 +5931,7 @@ Services
 .
 locale
 "
-appLocaleAsLangTag
+appLocaleAsBCP47
 "
 )
 .
@@ -24173,7 +24173,7 @@ Services
 .
 locale
 "
-appLocaleAsLangTag
+appLocaleAsBCP47
 "
 )
 .
@@ -24376,7 +24376,7 @@ Services
 .
 locale
 "
-appLocaleAsLangTag
+appLocaleAsBCP47
 "
 )
 .

@@ -1252,7 +1252,7 @@ locale
 :
 {
 get
-appLocaleAsLangTag
+appLocaleAsBCP47
 (
 )
 {
