@@ -566,9 +566,9 @@ is
 typeof
 docShell
 .
-hasTrackingContentBlocked
+getHasTrackingContentBlocked
 "
-boolean
+function
 "
 "
 docShell
