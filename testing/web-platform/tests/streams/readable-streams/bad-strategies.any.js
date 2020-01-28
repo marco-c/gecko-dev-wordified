@@ -276,12 +276,9 @@ highWaterMark
 }
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 RangeError
-(
-)
 (
 )
 =
@@ -566,12 +563,9 @@ foo
 ]
 )
 {
-assert_throws
+assert_throws_js
 (
-new
 RangeError
-(
-)
 (
 )
 =

@@ -3943,12 +3943,9 @@ freq
 =
 >
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =
@@ -4278,12 +4275,9 @@ refFrame
 =
 >
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =

@@ -186,12 +186,11 @@ PerformanceObserver
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
-new
+"
 SyntaxError
-(
-)
+"
 function
 (
 )

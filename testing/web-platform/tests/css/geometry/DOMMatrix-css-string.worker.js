@@ -60,12 +60,9 @@ should
 exist
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =
@@ -121,12 +118,9 @@ should
 exist
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =

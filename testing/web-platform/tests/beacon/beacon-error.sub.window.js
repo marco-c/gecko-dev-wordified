@@ -167,12 +167,9 @@ invalid
 url
 "
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 function
 (
 )
@@ -250,12 +247,9 @@ invalid
 url
 "
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 function
 (
 )
