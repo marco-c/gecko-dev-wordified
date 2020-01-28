@@ -9972,13 +9972,12 @@ mozilla
 StyleTouchAction
 mTouchAction
 ;
-uint8_t
+mozilla
+:
+:
+StyleScrollBehavior
 mScrollBehavior
 ;
-/
-/
-NS_STYLE_SCROLL_BEHAVIOR_
-*
 mozilla
 :
 :
