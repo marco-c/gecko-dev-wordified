@@ -1087,6 +1087,8 @@ aInitialSecurityCheckDone
 bool
 aIsThirdPartyRequest
 bool
+aIsDocshellReload
+bool
 aIsFormSubmission
 bool
 aSendCSPViolationEvents
@@ -1575,6 +1577,9 @@ mInitialSecurityCheckDone
 ;
 bool
 mIsThirdPartyContext
+;
+bool
+mIsDocshellReload
 ;
 bool
 mIsFormSubmission

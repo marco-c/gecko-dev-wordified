@@ -782,6 +782,9 @@ uint32_t
 mPreventDefaultColumnNumber
 ;
 bool
+mIsReload
+;
+bool
 mWaitToRespond
 ;
 protected
@@ -947,6 +950,16 @@ const
 aResultingClientId
 =
 mResultingClientId
+;
+}
+bool
+IsReload
+(
+)
+const
+{
+return
+mIsReload
 ;
 }
 void

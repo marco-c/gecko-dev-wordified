@@ -8418,6 +8418,16 @@ mCancelable
 =
 true
 ;
+fetchEventInit
+.
+mIsReload
+=
+args
+.
+isReload
+(
+)
+;
 /
 *
 *

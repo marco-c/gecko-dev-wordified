@@ -464,6 +464,8 @@ const
 nsAString
 &
 aResultingClientId
+bool
+aIsReload
 )
 override
 ;

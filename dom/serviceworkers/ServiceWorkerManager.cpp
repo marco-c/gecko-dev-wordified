@@ -10858,6 +10858,9 @@ nsILoadGroup
 >
 mLoadGroup
 ;
+bool
+mIsReload
+;
 public
 :
 ContinueDispatchFetchEventRunnable
@@ -10871,6 +10874,8 @@ aChannel
 nsILoadGroup
 *
 aLoadGroup
+bool
+aIsReload
 )
 :
 Runnable
@@ -10896,6 +10901,10 @@ aChannel
 mLoadGroup
 (
 aLoadGroup
+)
+mIsReload
+(
+aIsReload
 )
 {
 MOZ_ASSERT
@@ -11398,6 +11407,7 @@ mChannel
 mLoadGroup
 clientId
 resultingClientId
+mIsReload
 )
 ;
 if
@@ -12588,6 +12598,12 @@ WorkerPrivate
 )
 aChannel
 loadGroup
+loadInfo
+-
+>
+GetIsDocshellReload
+(
+)
 )
 ;
 /
