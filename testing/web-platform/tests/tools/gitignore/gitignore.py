@@ -2254,13 +2254,22 @@ dirnames
 keep_dirs
             
 assert
+not
+any
+(
 "
 .
 git
 "
-not
+=
+=
+name
+for
+name
+_
 in
 dirnames
+)
             
 yield
 orig_dirpath
