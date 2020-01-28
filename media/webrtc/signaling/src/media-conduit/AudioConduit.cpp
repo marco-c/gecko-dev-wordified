@@ -5890,14 +5890,6 @@ mRecvStream
 nullptr
 ;
 }
-mRecvChannelProxy
--
->
-SetRtcpEventObserver
-(
-nullptr
-)
-;
 /
 /
 Destroying
