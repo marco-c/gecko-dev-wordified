@@ -1489,8 +1489,6 @@ u32
 )
 >
 {
-unsafe
-{
 match
 *
 self
@@ -1516,7 +1514,7 @@ platform_handles
 0
 ]
 .
-into_raw
+as_raw
 (
 )
 data
@@ -1526,7 +1524,7 @@ platform_handles
 1
 ]
 .
-into_raw
+as_raw
 (
 )
 data
@@ -1536,7 +1534,7 @@ platform_handles
 2
 ]
 .
-into_raw
+as_raw
 (
 )
 ]
@@ -1566,7 +1564,7 @@ platform_handles
 0
 ]
 .
-into_raw
+as_raw
 (
 )
 data
@@ -1576,7 +1574,7 @@ platform_handles
 1
 ]
 .
-into_raw
+as_raw
 (
 )
 data
@@ -1586,7 +1584,7 @@ platform_handles
 2
 ]
 .
-into_raw
+as_raw
 (
 )
 ]
@@ -1599,7 +1597,6 @@ _
 =
 >
 None
-}
 }
 }
 fn
@@ -1632,15 +1629,6 @@ PlatformHandleType
 ]
 >
 {
-let
-owned
-=
-cfg
-!
-(
-unix
-)
-;
 match
 *
 self
@@ -1691,7 +1679,6 @@ handles
 [
 0
 ]
-owned
 )
 PlatformHandle
 :
@@ -1702,7 +1689,6 @@ handles
 [
 1
 ]
-owned
 )
 PlatformHandle
 :
@@ -1713,7 +1699,6 @@ handles
 [
 2
 ]
-owned
 )
 ]
 }
@@ -1763,7 +1748,6 @@ handles
 [
 0
 ]
-owned
 )
 PlatformHandle
 :
@@ -1774,7 +1758,6 @@ handles
 [
 1
 ]
-owned
 )
 PlatformHandle
 :
@@ -1785,7 +1768,6 @@ handles
 [
 2
 ]
-owned
 )
 ]
 }
