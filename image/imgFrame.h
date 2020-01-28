@@ -1203,6 +1203,10 @@ externalId
 (
 0
 )
+finished
+(
+false
+)
 {
 }
 size_t
@@ -1219,6 +1223,9 @@ index
 ;
 uint64_t
 externalId
+;
+bool
+finished
 ;
 }
 ;

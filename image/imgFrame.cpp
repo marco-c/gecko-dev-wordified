@@ -5798,6 +5798,12 @@ mMonitor
 AddSizeOfCbData
 metadata
 ;
+metadata
+.
+finished
+=
+mFinished
+;
 if
 (
 mLockedSurface

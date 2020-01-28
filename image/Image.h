@@ -617,6 +617,8 @@ bool
 aCannotSubstitute
 bool
 aIsFactor2
+bool
+aFinished
 SurfaceMemoryCounterType
 aType
 =
@@ -645,6 +647,10 @@ aCannotSubstitute
 mIsFactor2
 (
 aIsFactor2
+)
+mFinished
+(
+aFinished
 )
 {
 }
@@ -722,6 +728,16 @@ return
 mIsFactor2
 ;
 }
+bool
+IsFinished
+(
+)
+const
+{
+return
+mFinished
+;
+}
 private
 :
 const
@@ -746,6 +762,10 @@ mCannotSubstitute
 const
 bool
 mIsFactor2
+;
+const
+bool
+mFinished
 ;
 }
 ;
