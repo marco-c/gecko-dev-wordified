@@ -1846,6 +1846,10 @@ mPluginsDisabled
 (
 false
 )
+mFlashOnly
+(
+true
+)
 mDoReloadOnceFindingFinished
 (
 false
@@ -1905,6 +1909,16 @@ override_internal_types
 false
 )
 ;
+if
+(
+xpc
+:
+:
+IsInAutomation
+(
+)
+)
+{
 mFlashOnly
 =
 Preferences
@@ -1920,6 +1934,7 @@ load_flash_only
 true
 )
 ;
+}
 bool
 waylandBackend
 =
