@@ -308,7 +308,7 @@ self
 channel
 -
 >
-ClassificationFlags
+GetClassificationFlags
 (
 )
 )
