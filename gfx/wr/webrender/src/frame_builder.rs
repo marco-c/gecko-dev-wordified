@@ -588,6 +588,13 @@ pub
 compositor_kind
 :
 CompositorKind
+pub
+tile_size_override
+:
+Option
+<
+DeviceIntSize
+>
 }
 /
 /
@@ -907,9 +914,6 @@ SceneProperties
 pub
 config
 :
-&
-'
-a
 FrameBuilderConfig
 }
 pub
@@ -1720,6 +1724,9 @@ tile_cache_logger
 &
 mut
 TileCacheLogger
+config
+:
+FrameBuilderConfig
 )
 -
 >
@@ -2103,11 +2110,6 @@ global_screen_world_rect
 surfaces
 debug_flags
 scene_properties
-config
-:
-&
-scene
-.
 config
 }
 ;
@@ -2696,6 +2698,9 @@ tile_cache_logger
 &
 mut
 TileCacheLogger
+config
+:
+FrameBuilderConfig
 )
 -
 >
@@ -3067,6 +3072,7 @@ texture_cache
 mut
 composite_state
 tile_cache_logger
+config
 )
 ;
 let
