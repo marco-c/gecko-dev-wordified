@@ -764,10 +764,6 @@ mSameOriginDataURL
 (
 true
 )
-mSkipServiceWorker
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -903,10 +899,6 @@ constructor
 mSameOriginDataURL
 (
 true
-)
-mSkipServiceWorker
-(
-false
 )
 {
 MOZ_ASSERT
