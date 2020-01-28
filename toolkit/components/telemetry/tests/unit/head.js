@@ -1377,6 +1377,18 @@ bytes
 )
 ;
 }
+if
+(
+payload
+&
+&
+"
+clientId
+"
+in
+payload
+)
+{
 /
 /
 Check
@@ -1415,6 +1427,7 @@ server
 .
 )
 ;
+}
 return
 payload
 ;
