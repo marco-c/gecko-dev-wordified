@@ -3250,6 +3250,9 @@ bug
 if
 (
 updateManager
+&
+&
+updateManager
 .
 updateCount
 )
