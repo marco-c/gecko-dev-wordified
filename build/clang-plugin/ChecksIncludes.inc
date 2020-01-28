@@ -227,6 +227,13 @@ h
 #
 include
 "
+NoUsingNamespaceMozillaJavaChecker
+.
+h
+"
+#
+include
+"
 OverrideBaseCallChecker
 .
 h
