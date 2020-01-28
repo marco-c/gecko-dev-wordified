@@ -2215,11 +2215,6 @@ imgRequestProxy
 _retval
 )
 ;
-void
-ReadAcceptHeaderPref
-(
-)
-;
 nsresult
 EvictEntries
 (
@@ -2433,9 +2428,6 @@ static
 imgMemoryReporter
 *
 sMemReporter
-;
-nsCString
-mAcceptHeader
 ;
 mozilla
 :
