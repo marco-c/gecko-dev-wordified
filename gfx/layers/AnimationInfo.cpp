@@ -478,8 +478,12 @@ mPendingAnimations
 {
 mPendingAnimations
 =
-new
+MakeUnique
+<
 AnimationArray
+>
+(
+)
 ;
 }
 mPendingAnimations

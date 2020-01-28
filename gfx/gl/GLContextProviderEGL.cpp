@@ -580,13 +580,6 @@ MOZ_WAYLAND
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h

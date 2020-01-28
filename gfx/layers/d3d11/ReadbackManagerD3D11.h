@@ -137,14 +137,16 @@ h
 #
 include
 "
-nsTArray
+mozilla
+/
+UniquePtr
 .
 h
 "
 #
 include
 "
-nsAutoPtr
+nsTArray
 .
 h
 "
@@ -385,7 +387,7 @@ mTaskMutex
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ReadbackTask
 >

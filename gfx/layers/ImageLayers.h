@@ -176,17 +176,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-nsRefPtr
-#
-include
-"
 nscore
 .
 h
