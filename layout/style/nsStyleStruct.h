@@ -13538,13 +13538,12 @@ mozilla
 StyleStrokeLinejoin
 mStrokeLinejoin
 ;
-uint8_t
+mozilla
+:
+:
+StyleDominantBaseline
 mDominantBaseline
 ;
-/
-/
-NS_STYLE_DOMINANT_BASELINE_
-*
 mozilla
 :
 :

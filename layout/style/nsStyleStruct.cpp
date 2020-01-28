@@ -5174,7 +5174,10 @@ Miter
 )
 mDominantBaseline
 (
-NS_STYLE_DOMINANT_BASELINE_AUTO
+StyleDominantBaseline
+:
+:
+Auto
 )
 mTextAnchor
 (
