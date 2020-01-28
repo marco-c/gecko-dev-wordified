@@ -414,7 +414,7 @@ InvalidReg
 Registers
 :
 :
-Invalid
+invalid_reg
 }
 ;
 static
@@ -423,6 +423,14 @@ FloatRegister
 InvalidFloatReg
 =
 {
+FloatRegisters
+:
+:
+invalid_fpreg
+FloatRegisters
+:
+:
+Single
 }
 ;
 static

@@ -15322,13 +15322,7 @@ setRegisterLocation
 (
 FloatRegister
 (
-FloatRegisters
-:
-:
-Encoding
-(
 i
-)
 FloatRegisters
 :
 :
@@ -15347,13 +15341,7 @@ setRegisterLocation
 (
 FloatRegister
 (
-FloatRegisters
-:
-:
-Encoding
-(
 i
-)
 FloatRegisters
 :
 :
