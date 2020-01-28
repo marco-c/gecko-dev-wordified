@@ -108,14 +108,14 @@ utility
 #
 include
 "
-txStylesheet
+txInstructions
 .
 h
 "
 #
 include
 "
-txInstructions
+txStylesheet
 .
 h
 "

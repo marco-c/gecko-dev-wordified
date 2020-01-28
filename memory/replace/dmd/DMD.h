@@ -120,6 +120,13 @@ DMD_h___
 #
 include
 <
+stdarg
+.
+h
+>
+#
+include
+<
 string
 .
 h
@@ -127,9 +134,7 @@ h
 #
 include
 <
-stdarg
-.
-h
+utility
 >
 #
 include
@@ -140,11 +145,6 @@ DebugOnly
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

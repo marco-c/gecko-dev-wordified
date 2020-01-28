@@ -122,6 +122,11 @@ define
 MOZILLA_GFX_TILEDREGION_H_
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -140,11 +145,6 @@ Rect
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

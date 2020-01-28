@@ -122,6 +122,11 @@ define
 nsProxyRelease_h__
 #
 include
+<
+utility
+>
+#
+include
 "
 MainThreadUtils
 .
@@ -136,11 +141,6 @@ Likely
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

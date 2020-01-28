@@ -592,6 +592,11 @@ scope
 /
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -608,11 +613,6 @@ GuardObjects
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

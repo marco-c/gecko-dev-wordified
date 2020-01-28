@@ -511,6 +511,11 @@ define
 mozilla_LinkedList_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -536,11 +541,6 @@ MemoryReporting
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

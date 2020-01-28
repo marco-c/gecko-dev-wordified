@@ -110,6 +110,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 base
 /
@@ -124,11 +129,6 @@ nsXPCOM
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

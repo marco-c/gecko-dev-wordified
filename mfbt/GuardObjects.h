@@ -148,11 +148,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -160,6 +155,11 @@ Types
 .
 h
 "
+#
+include
+<
+utility
+>
 #
 ifdef
 __cplusplus

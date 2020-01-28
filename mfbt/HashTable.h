@@ -911,6 +911,11 @@ define
 mozilla_HashTable_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -990,11 +995,6 @@ MemoryReporting
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

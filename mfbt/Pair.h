@@ -140,6 +140,11 @@ define
 mozilla_Pair_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -147,11 +152,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

@@ -122,6 +122,11 @@ define
 mozilla_dom_MultipartBlobImpl_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -138,11 +143,6 @@ ErrorResult
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "
