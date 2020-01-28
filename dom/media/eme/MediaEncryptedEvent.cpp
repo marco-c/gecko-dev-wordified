@@ -574,7 +574,7 @@ Value
 ;
 a
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

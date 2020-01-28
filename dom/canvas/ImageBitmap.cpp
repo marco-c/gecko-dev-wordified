@@ -5312,7 +5312,7 @@ inited
 ;
 array
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

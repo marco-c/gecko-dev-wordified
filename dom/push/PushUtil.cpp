@@ -165,7 +165,7 @@ IsEmpty
 ;
 aBuffer
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -236,7 +236,7 @@ IsEmpty
 ;
 aView
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

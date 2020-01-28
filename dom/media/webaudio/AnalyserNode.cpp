@@ -1220,7 +1220,7 @@ return
 }
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1350,7 +1350,7 @@ mMinDecibels
 ;
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1497,7 +1497,7 @@ aArray
 {
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1550,7 +1550,7 @@ aArray
 {
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

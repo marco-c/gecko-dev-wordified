@@ -281,7 +281,7 @@ aRsa
 .
 mPublicExponent
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

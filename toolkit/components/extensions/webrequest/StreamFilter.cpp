@@ -1317,7 +1317,7 @@ aRv
 {
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

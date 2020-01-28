@@ -32048,7 +32048,7 @@ NS_OK
 aArray
 -
 >
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

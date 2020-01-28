@@ -16337,7 +16337,7 @@ Value
 ;
 src
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -16495,7 +16495,7 @@ bufferSubData
 ;
 src
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -31966,7 +31966,7 @@ const
 {
 view
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

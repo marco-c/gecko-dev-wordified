@@ -841,7 +841,7 @@ inited
 scopedArr
 -
 >
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

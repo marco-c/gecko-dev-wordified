@@ -1612,7 +1612,7 @@ Value
 ;
 array
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

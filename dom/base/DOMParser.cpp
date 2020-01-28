@@ -758,7 +758,7 @@ aRv
 {
 aBuf
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

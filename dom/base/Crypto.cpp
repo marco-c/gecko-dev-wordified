@@ -442,7 +442,7 @@ return
 }
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
