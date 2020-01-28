@@ -346,6 +346,10 @@ parse_args
 (
 argv
 commands
+=
+load_commands
+(
+)
 )
 :
     
@@ -456,6 +460,29 @@ case
 of
 an
 exception
+"
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
+py3
+"
+action
+=
+"
+store_true
+"
+help
+=
+"
+Run
+with
+python3
 "
 )
     
