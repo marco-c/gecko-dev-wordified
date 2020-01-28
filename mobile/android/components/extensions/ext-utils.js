@@ -94,12 +94,6 @@ jsm
 "
 )
 ;
-/
-*
-globals
-EventDispatcher
-*
-/
 var
 {
 EventDispatcher

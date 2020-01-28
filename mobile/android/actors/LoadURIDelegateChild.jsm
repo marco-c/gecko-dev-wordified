@@ -388,6 +388,7 @@ nothing
 to
 do
 return
+false
 ;
 }
 return
@@ -476,6 +477,7 @@ content
 window
 ;
 return
+null
 ;
 }
 if

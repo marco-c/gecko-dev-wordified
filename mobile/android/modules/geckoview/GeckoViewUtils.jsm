@@ -3321,7 +3321,6 @@ break
 ;
 }
 }
-return
 aLogger
 [
 aLevel
