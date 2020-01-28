@@ -8251,7 +8251,7 @@ bind
 LaneType
 :
 :
-IntType
+Int
 (
 I32
 )
@@ -8360,7 +8360,7 @@ Lane
 LaneType
 :
 :
-IntType
+Int
 (
 I32
 )
@@ -8465,7 +8465,7 @@ bind
 LaneType
 :
 :
-IntType
+Int
 (
 I32
 )
@@ -8476,7 +8476,7 @@ bind
 LaneType
 :
 :
-IntType
+Int
 (
 I64
 )

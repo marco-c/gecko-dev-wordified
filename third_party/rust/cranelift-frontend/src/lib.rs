@@ -872,14 +872,6 @@ Variable
 /
 /
 !
-fn
-main
-(
-)
-{
-/
-/
-!
 let
 mut
 sig
@@ -1779,10 +1771,6 @@ panic
 errors
 )
 ;
-/
-/
-!
-}
 /
 /
 !

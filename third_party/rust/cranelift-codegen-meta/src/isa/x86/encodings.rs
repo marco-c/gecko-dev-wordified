@@ -13628,6 +13628,16 @@ inline
 never
 )
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+cognitive_complexity
+)
+]
 fn
 define_simd
 (
