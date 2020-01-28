@@ -100,13 +100,6 @@ ProgrammablePassEncoder
 .
 h
 "
-#
-include
-"
-BindGroup
-.
-h
-"
 namespace
 mozilla
 {

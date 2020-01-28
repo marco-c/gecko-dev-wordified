@@ -245,10 +245,6 @@ JSObject
 aArrayBuffer
 )
 ;
-const
-RawId
-mId
-;
 private
 :
 virtual
@@ -261,6 +257,10 @@ void
 Cleanup
 (
 )
+;
+const
+RawId
+mId
 ;
 /
 /
