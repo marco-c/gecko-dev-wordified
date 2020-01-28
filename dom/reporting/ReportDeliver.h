@@ -147,9 +147,6 @@ namespace
 dom
 {
 class
-ReportBody
-;
-class
 ReportDeliver
 final
 :
