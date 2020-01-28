@@ -932,6 +932,10 @@ toolbar
 let
 defaultZoom
 =
+Math
+.
+round
+(
 (
 await
 ZoomUI
@@ -942,6 +946,7 @@ getGlobalValue
 )
 *
 100
+)
 ;
 if
 (
