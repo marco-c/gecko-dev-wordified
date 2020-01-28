@@ -165,8 +165,8 @@ h
 JSAtom
 namespace
 js
-{
-namespace
+:
+:
 frontend
 {
 BinASTSourceMetadata
@@ -724,9 +724,7 @@ nullptr
 /
 /
 namespace
-frontend
-}
-/
-/
-namespace
 js
+:
+:
+frontend

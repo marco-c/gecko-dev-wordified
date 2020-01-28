@@ -405,8 +405,8 @@ gl
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 /
@@ -9750,9 +9750,7 @@ nsIObserver
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

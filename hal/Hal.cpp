@@ -369,8 +369,8 @@ while
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 hal
 {
 static
@@ -2550,9 +2550,7 @@ false
 /
 /
 namespace
-hal
-}
-/
-/
-namespace
 mozilla
+:
+:
+hal

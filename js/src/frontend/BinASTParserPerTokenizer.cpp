@@ -681,8 +681,8 @@ bindings
 .
 namespace
 js
-{
-namespace
+:
+:
 frontend
 {
 using
@@ -5586,9 +5586,7 @@ BinASTTokenReaderMultipart
 /
 /
 namespace
-frontend
-}
-/
-/
-namespace
 js
+:
+:
+frontend

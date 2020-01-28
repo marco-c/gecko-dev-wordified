@@ -1342,8 +1342,8 @@ aFTLibrary
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 #
@@ -7903,9 +7903,7 @@ endif
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

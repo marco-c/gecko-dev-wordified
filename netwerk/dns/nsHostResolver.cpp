@@ -798,8 +798,8 @@ thread
 -
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 LazyLogModule
@@ -887,12 +887,10 @@ Debug
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net
 /
 /
 -

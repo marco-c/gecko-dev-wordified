@@ -149,8 +149,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 NS_IMPL_ISUPPORTS
@@ -1320,9 +1320,7 @@ NS_OK
 /
 /
 namespace
-net
-}
-/
-/
-namespace
 mozilla
+:
+:
+net

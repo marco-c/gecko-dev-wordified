@@ -1027,8 +1027,8 @@ override
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 ipc
 {
 using
@@ -6980,12 +6980,10 @@ aFD
 /
 /
 namespace
-ipc
-}
-/
-/
-namespace
 mozilla
+:
+:
+ipc
 void
 TestParent
 :

@@ -130,8 +130,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 /
@@ -2976,9 +2976,7 @@ IntSize
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

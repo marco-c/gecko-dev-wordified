@@ -204,8 +204,8 @@ include
 FT_MULTIPLE_MASTERS_H
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 ScaledFontFontconfig
@@ -2936,9 +2936,7 @@ forget
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

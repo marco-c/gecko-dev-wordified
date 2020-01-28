@@ -148,8 +148,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 wr
 {
 RenderWaylandDMABUFTextureHostOGL
@@ -551,9 +551,7 @@ mTextureHandle
 /
 /
 namespace
-wr
-}
-/
-/
-namespace
 mozilla
+:
+:
+wr

@@ -455,8 +455,8 @@ anonymous
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 Telemetry
 {
 void
@@ -1128,9 +1128,7 @@ n
 /
 /
 namespace
-Telemetry
-}
-/
-/
-namespace
 mozilla
+:
+:
+Telemetry

@@ -432,8 +432,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 namespace
@@ -16720,9 +16720,7 @@ m_nNumReprojectedFrames
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx

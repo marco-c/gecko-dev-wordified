@@ -188,8 +188,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 using
@@ -602,9 +602,7 @@ GetDataSurface
 /
 /
 namespace
-layers
-}
-/
-/
-namespace
 mozilla
+:
+:
+layers

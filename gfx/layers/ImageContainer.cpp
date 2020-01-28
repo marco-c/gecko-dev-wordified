@@ -444,8 +444,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 using
@@ -5086,9 +5086,7 @@ sProducerID
 /
 /
 namespace
-layers
-}
-/
-/
-namespace
 mozilla
+:
+:
+layers

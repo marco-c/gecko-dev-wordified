@@ -137,8 +137,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 template
@@ -747,9 +747,7 @@ int32_t
 /
 /
 namespace
-gfx
-}
-/
-/
-namespace
 mozilla
+:
+:
+gfx
