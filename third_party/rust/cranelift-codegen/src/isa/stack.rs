@@ -333,7 +333,7 @@ size
 =
 frame
 .
-frame_size
+layout_info
 .
 expect
 (
@@ -349,6 +349,8 @@ stack
 slots
 "
 )
+.
+frame_size
 ;
 let
 slot
