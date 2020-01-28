@@ -862,13 +862,16 @@ nullptr
 }
 already_AddRefed
 <
-nsINode
+nsIContent
 >
 UIEvent
 :
 :
-GetRangeParent
+GetRangeParentContentAndOffset
 (
+int32_t
+*
+aOffset
 )
 {
 if
@@ -927,7 +930,7 @@ getter_AddRefs
 (
 container
 )
-nullptr
+aOffset
 )
 ;
 return
