@@ -3768,9 +3768,14 @@ dbgObj
 =
 owner
 .
+preprocessDebuggerObject
+(
+owner
+.
 makeDebuggeeValue
 (
 object
+)
 )
 ;
 const
