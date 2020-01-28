@@ -8919,6 +8919,7 @@ aContent
 bool
 aSelected
 )
+const
 {
 nsIFrame
 *
@@ -9045,6 +9046,7 @@ aContent
 bool
 aSelected
 )
+const
 {
 /
 /
