@@ -146,11 +146,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -176,6 +171,11 @@ Vector
 .
 h
 "
+#
+include
+<
+utility
+>
 #
 include
 "

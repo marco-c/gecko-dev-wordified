@@ -148,11 +148,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -187,6 +182,11 @@ algorithm
 include
 <
 new
+>
+#
+include
+<
+utility
 >
 #
 include

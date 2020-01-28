@@ -125,11 +125,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -137,6 +132,11 @@ OperatorNewExtensions
 .
 h
 "
+#
+include
+<
+utility
+>
 #
 include
 "

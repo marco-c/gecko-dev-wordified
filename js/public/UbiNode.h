@@ -170,11 +170,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -200,6 +195,11 @@ Variant
 .
 h
 "
+#
+include
+<
+utility
+>
 #
 include
 "
