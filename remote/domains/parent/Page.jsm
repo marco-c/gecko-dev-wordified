@@ -1536,7 +1536,7 @@ this
 executeInChild
 (
 "
-_contentSize
+_contentRect
 "
 )
 }

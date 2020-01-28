@@ -1776,7 +1776,7 @@ break
 ;
 }
 }
-_contentSize
+_contentRect
 (
 )
 {
