@@ -141,7 +141,8 @@ is
 kept
 alive
 by
-MessagePorts
+other
+objects
 .
 /
 /
