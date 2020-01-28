@@ -508,6 +508,10 @@ BASIC_SERDE_FUNCS
 (
 StyleTranslate
 )
+BASIC_SERDE_FUNCS
+(
+StyleTransform
+)
 #
 undef
 BASIC_SERDE_FUNCS
