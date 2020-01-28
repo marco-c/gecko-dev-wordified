@@ -2813,7 +2813,7 @@ uuid4
 #
 Maintain
 a
-whitelist
+list
 of
 supported
 algorithms
@@ -2821,9 +2821,9 @@ restricted
 to
 those
 that
+are
     
 #
-are
 available
 on
 all
