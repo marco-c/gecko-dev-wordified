@@ -8258,6 +8258,7 @@ JSFunction
 isDerivedClassConstructor
 (
 )
+const
 {
 bool
 derived
