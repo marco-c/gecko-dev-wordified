@@ -208,7 +208,7 @@ IPCResult
 RecvPostMessage
 (
 const
-ClonedMessageData
+MessageData
 &
 aData
 )

@@ -794,6 +794,13 @@ mPort
 -
 >
 mRefMessageBodyService
+SharedMessageBody
+:
+:
+ReadMethod
+:
+:
+StealRefMessageBody
 rv
 )
 ;
@@ -1922,6 +1929,10 @@ data
 new
 SharedMessageBody
 (
+StructuredCloneHolder
+:
+:
+TransferringSupported
 )
 ;
 UniquePtr

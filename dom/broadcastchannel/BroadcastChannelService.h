@@ -159,7 +159,7 @@ class
 BroadcastChannelParent
 ;
 class
-ClonedMessageData
+MessageData
 ;
 class
 BroadcastChannelService
@@ -211,7 +211,7 @@ BroadcastChannelParent
 *
 aParent
 const
-ClonedMessageData
+MessageData
 &
 aData
 const

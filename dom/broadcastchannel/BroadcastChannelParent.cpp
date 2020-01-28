@@ -256,7 +256,7 @@ BroadcastChannelParent
 RecvPostMessage
 (
 const
-ClonedMessageData
+MessageData
 &
 aData
 )
