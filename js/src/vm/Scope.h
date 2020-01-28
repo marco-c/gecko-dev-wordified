@@ -2740,7 +2740,7 @@ nextFrameSlot
 const
 AbstractScope
 &
-start
+scope
 )
 ;
 public
