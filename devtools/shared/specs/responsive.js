@@ -453,6 +453,15 @@ Arg
 boolean
 "
 )
+pickerType
+:
+Arg
+(
+1
+"
+string
+"
+)
 }
 response
 :

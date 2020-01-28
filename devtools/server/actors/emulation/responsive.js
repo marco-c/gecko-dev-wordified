@@ -1327,10 +1327,17 @@ Boolean
 }
 state
 *
+param
+{
+String
+}
+pickerType
+*
 /
 setElementPickerState
 (
 state
+pickerType
 )
 {
 this
@@ -1340,6 +1347,7 @@ touchSimulator
 setElementPickerState
 (
 state
+pickerType
 )
 ;
 }
