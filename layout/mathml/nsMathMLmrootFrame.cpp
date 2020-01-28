@@ -1596,6 +1596,12 @@ StyleVisibility
 -
 >
 mDirection
+=
+=
+StyleDirection
+:
+:
+Rtl
 )
 ;
 /

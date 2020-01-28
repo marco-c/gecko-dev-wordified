@@ -710,7 +710,10 @@ NS_STYLE_UNICODE_BIDI_BIDI_OVERRIDE
 )
 {
 return
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 vis
@@ -871,7 +874,10 @@ NS_STYLE_UNICODE_BIDI_EMBED
 )
 {
 return
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 vis
@@ -937,7 +943,10 @@ return
 kFSI
 .
 return
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 vis
@@ -16484,7 +16493,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 {
 return

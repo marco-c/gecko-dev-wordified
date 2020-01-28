@@ -1567,7 +1567,7 @@ y
 )
 ;
 }
-uint8_t
+StyleDirection
 direction
 =
 cbFrame
@@ -1607,7 +1607,10 @@ NS_AUTOOFFSET
 direction
 =
 =
-NS_STYLE_DIRECTION_LTR
+StyleDirection
+:
+:
+Ltr
 |
 |
 rect
@@ -1679,7 +1682,10 @@ NS_AUTOOFFSET
 direction
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 |
 |
 rect

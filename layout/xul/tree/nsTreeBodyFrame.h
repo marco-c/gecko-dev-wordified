@@ -1008,7 +1008,6 @@ const
 override
 {
 return
-(
 StyleVisibility
 (
 )
@@ -1017,8 +1016,13 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_LTR
-)
+mozilla
+:
+:
+StyleDirection
+:
+:
+Ltr
 ;
 }
 virtual

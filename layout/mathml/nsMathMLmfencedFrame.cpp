@@ -2020,6 +2020,12 @@ StyleVisibility
 -
 >
 mDirection
+=
+=
+StyleDirection
+:
+:
+Rtl
 ;
 /
 /

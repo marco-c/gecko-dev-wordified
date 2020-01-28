@@ -627,7 +627,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 *
 aResult
@@ -1000,7 +1003,10 @@ vis
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 |
 |
@@ -1017,7 +1023,10 @@ vis
 mDirection
 =
 =
-NS_STYLE_DIRECTION_LTR
+StyleDirection
+:
+:
+Ltr
 )
 )
 {

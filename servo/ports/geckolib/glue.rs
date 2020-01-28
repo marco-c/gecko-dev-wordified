@@ -29034,6 +29034,10 @@ value
 Direction
 =
 >
+get_from_computed
+:
+:
+<
 longhands
 :
 :
@@ -29041,9 +29045,7 @@ direction
 :
 :
 SpecifiedValue
-:
-:
-from_gecko_keyword
+>
 (
 value
 )

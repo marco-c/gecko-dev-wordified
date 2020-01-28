@@ -23636,6 +23636,8 @@ GetComputedDirectionality
 )
 const
 {
+if
+(
 nsIFrame
 *
 frame
@@ -23643,10 +23645,6 @@ frame
 GetPrimaryFrame
 (
 )
-;
-if
-(
-frame
 )
 {
 return
@@ -23661,7 +23659,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_LTR
+StyleDirection
+:
+:
+Ltr
 ?
 eDir_LTR
 :

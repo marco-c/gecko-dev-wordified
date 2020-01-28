@@ -6018,7 +6018,7 @@ rtl
 ;
 static
 const
-int32_t
+StyleDirection
 dirValues
 [
 MOZ_ARRAY_LENGTH
@@ -6028,8 +6028,14 @@ dirs
 ]
 =
 {
-NS_STYLE_DIRECTION_LTR
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Ltr
+StyleDirection
+:
+:
+Rtl
 }
 ;
 for

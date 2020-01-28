@@ -4816,7 +4816,10 @@ HasBgAttachmentLocal
 )
 const
 ;
-uint8_t
+mozilla
+:
+:
+StyleDirection
 GetScrolledFrameDir
 (
 )

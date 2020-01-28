@@ -4714,14 +4714,6 @@ is
 aScrollPortSize
 .
 *
-aDirection
-is
-either
-NS_STYLE_DIRECTION_LTR
-or
-NS_STYLE_DIRECTION_RTL
-.
-*
 /
 static
 nsRect
@@ -4738,8 +4730,10 @@ const
 nsSize
 &
 aScrollPortSize
-uint8_t
-aDirection
+mozilla
+:
+:
+StyleDirection
 )
 ;
 /

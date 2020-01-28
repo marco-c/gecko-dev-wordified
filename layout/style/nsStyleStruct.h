@@ -8460,13 +8460,12 @@ mozilla
 StyleImageOrientation
 mImageOrientation
 ;
-uint8_t
+mozilla
+:
+:
+StyleDirection
 mDirection
 ;
-/
-/
-NS_STYLE_DIRECTION_
-*
 mozilla
 :
 :

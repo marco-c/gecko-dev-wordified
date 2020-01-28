@@ -1289,7 +1289,10 @@ h
 /
 /
 for
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 etc
 .
 #
@@ -30687,7 +30690,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 {
 mFlags
