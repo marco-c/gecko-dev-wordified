@@ -350,6 +350,8 @@ browser
 .
 urlbar
 .
+update1
+.
 searchTips
 "
 true

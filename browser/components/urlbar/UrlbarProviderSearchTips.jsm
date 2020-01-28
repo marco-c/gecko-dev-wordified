@@ -1503,6 +1503,8 @@ UrlbarPrefs
 get
 (
 "
+update1
+.
 searchTips
 "
 )
