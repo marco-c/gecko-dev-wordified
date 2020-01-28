@@ -4016,7 +4016,9 @@ aWindow
 ?
 aWindow
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 .
 getActor
 (
@@ -10364,7 +10366,9 @@ aWindow
 ?
 aWindow
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 .
 getActor
 (
