@@ -2157,7 +2157,6 @@ GetCurrentThreadSerialEventTarget
 __func__
 [
 isServiceWorker
-&
 principalInfo
 ]
 (
