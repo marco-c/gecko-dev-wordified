@@ -5837,6 +5837,9 @@ _quickFindTimeout
 "
 FindBar
 "
+"
+all
+"
 )
 ;
 }
