@@ -6138,6 +6138,16 @@ eager
 request
 .
 eager
+bindings
+:
+request
+.
+bindings
+lineNumber
+:
+request
+.
+lineNumber
 }
 ;
 const
