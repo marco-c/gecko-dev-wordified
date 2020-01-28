@@ -1337,11 +1337,6 @@ cookies
 .
 push
 (
-"
-a
-=
-"
-+
 Math
 .
 random
@@ -1357,11 +1352,6 @@ cookies
 .
 push
 (
-"
-b
-=
-"
-+
 Math
 .
 random

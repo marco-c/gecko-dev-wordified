@@ -240,8 +240,6 @@ is
 (
 short_name
 "
-=
-true
 "
 )
 ;
