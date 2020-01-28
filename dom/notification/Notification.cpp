@@ -1990,7 +1990,12 @@ ReleaseObject
 )
 ;
 return
-NS_OK
+NotificationWorkerRunnable
+:
+:
+Cancel
+(
+)
 ;
 }
 }
