@@ -375,6 +375,17 @@ literal
 )
 CHECK
 (
+TempRefPtrChecker
+"
+performance
+-
+temp
+-
+refptr
+"
+)
+CHECK
+(
 TrivialCtorDtorChecker
 "
 trivial
