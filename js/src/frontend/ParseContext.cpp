@@ -1668,13 +1668,6 @@ dies
 .
 if
 (
-parseInfo
-.
-isDeferred
-(
-)
-&
-&
 !
 this
 -
