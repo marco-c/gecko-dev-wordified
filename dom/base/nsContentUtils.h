@@ -10662,6 +10662,14 @@ Element
 aFrameElement
 bool
 aCanRaise
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 ;
 /

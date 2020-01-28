@@ -756,6 +756,8 @@ ClientHandle
 :
 Focus
 (
+CallerType
+aCallerType
 )
 {
 RefPtr
@@ -780,6 +782,7 @@ StartOp
 (
 ClientFocusArgs
 (
+aCallerType
 )
 [
 outerPromise

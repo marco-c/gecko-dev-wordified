@@ -923,6 +923,14 @@ SetFocus
 (
 Raise
 aRaise
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 {
 if
@@ -965,6 +973,7 @@ Raise
 :
 :
 Yes
+aCallerType
 )
 ;
 }

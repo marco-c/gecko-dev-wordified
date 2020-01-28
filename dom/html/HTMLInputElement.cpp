@@ -17455,6 +17455,8 @@ const
 FocusOptions
 &
 aOptions
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -17535,6 +17537,7 @@ nsGenericHTMLElement
 Focus
 (
 aOptions
+aCallerType
 aError
 )
 ;
@@ -23543,6 +23546,10 @@ selectedRadioButton
 Focus
 (
 options
+CallerType
+:
+:
+System
 error
 )
 ;

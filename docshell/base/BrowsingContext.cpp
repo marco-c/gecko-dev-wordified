@@ -6214,6 +6214,10 @@ nsFocusManager
 FocusWindow
 (
 domWin
+CallerType
+:
+:
+System
 )
 ;
 }
@@ -6702,6 +6706,8 @@ BrowsingContext
 :
 Focus
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -6727,6 +6733,7 @@ cc
 SendWindowFocus
 (
 this
+aCallerType
 )
 ;
 }
@@ -6756,6 +6763,7 @@ cp
 SendWindowFocus
 (
 this
+aCallerType
 )
 ;
 }

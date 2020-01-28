@@ -191,6 +191,16 @@ const
 bool
 &
 aRaise
+const
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+&
+aCallerType
 )
 override
 ;

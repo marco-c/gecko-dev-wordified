@@ -26140,6 +26140,8 @@ RecvWindowFocus
 BrowsingContext
 *
 aContext
+CallerType
+aCallerType
 )
 {
 if
@@ -26251,6 +26253,7 @@ window
 >
 FocusOuter
 (
+aCallerType
 )
 ;
 return
@@ -27211,6 +27214,10 @@ nsFocusManager
 FocusWindow
 (
 domWin
+CallerType
+:
+:
+System
 )
 ;
 }
