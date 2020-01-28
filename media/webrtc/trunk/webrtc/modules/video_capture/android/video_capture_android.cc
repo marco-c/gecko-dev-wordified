@@ -893,7 +893,7 @@ if
 nameLength
 >
 =
-kVideoCaptureUniqueNameLength
+kVideoCaptureUniqueNameSize
 )
 return
 -
