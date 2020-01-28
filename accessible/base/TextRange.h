@@ -119,13 +119,9 @@ define
 mozilla_a11y_TextRange_h__
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

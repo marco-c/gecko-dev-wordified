@@ -116,13 +116,9 @@ define
 gc_FindSCCs_h
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 <

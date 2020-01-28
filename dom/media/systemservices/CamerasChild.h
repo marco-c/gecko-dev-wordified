@@ -119,13 +119,9 @@ define
 mozilla_CamerasChild_h
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

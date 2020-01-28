@@ -186,13 +186,9 @@ for
 DocGroup
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

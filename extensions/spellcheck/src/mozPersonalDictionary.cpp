@@ -235,13 +235,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 define
 MOZ_PERSONAL_DICT_NAME
