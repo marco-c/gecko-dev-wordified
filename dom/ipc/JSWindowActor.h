@@ -210,6 +210,9 @@ EndGuard_
 }
 ;
 class
+WindowGlobalActor
+;
+class
 JSWindowActorMessageMeta
 ;
 class
@@ -357,6 +360,16 @@ virtual
 nsIGlobalObject
 *
 GetParentObject
+(
+)
+const
+=
+0
+;
+virtual
+WindowGlobalActor
+*
+GetManager
 (
 )
 const
