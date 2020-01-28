@@ -4449,6 +4449,11 @@ comp
 )
 ;
 void
+clearRootsForShutdownGC
+(
+)
+;
+void
 finishRoots
 (
 )

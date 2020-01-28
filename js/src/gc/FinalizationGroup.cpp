@@ -512,8 +512,6 @@ sweepFinalizationGroups
 Zone
 *
 zone
-bool
-isShuttingDown
 )
 {
 /
@@ -658,10 +656,6 @@ group
 if
 (
 group
-&
-&
-!
-isShuttingDown
 )
 {
 group
