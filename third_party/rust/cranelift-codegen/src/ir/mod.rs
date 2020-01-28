@@ -397,7 +397,6 @@ stackslot
 :
 :
 {
-StackLayoutInfo
 StackSlotData
 StackSlotKind
 StackSlots

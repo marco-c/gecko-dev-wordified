@@ -14642,7 +14642,6 @@ TableInit
 TableSet
 TableSize
 FuncRef
-PreBarrierFiltering
 PostBarrier
 PostBarrierFiltering
 StructNew
