@@ -16238,6 +16238,9 @@ static
 bool
 IsCutCopyAllowed
 (
+Document
+*
+aDocument
 nsIPrincipal
 &
 aSubjectPrincipal
