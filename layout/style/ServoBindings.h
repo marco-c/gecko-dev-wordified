@@ -512,6 +512,14 @@ BASIC_SERDE_FUNCS
 (
 StyleOffsetPath
 )
+BASIC_SERDE_FUNCS
+(
+StyleOffsetRotate
+)
+BASIC_SERDE_FUNCS
+(
+StylePositionOrAuto
+)
 #
 undef
 BASIC_SERDE_FUNCS
