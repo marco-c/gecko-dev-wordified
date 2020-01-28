@@ -302,9 +302,7 @@ set
 [
 [
 "
-dom
-.
-security
+domsecurity
 .
 skip_html_fragment_assertion
 "
@@ -598,9 +596,7 @@ set
 [
 [
 "
-dom
-.
-security
+domsecurity
 .
 skip_html_fragment_assertion
 "

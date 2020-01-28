@@ -187,9 +187,7 @@ false
 ]
 [
 "
-dom
-.
-security
+csp
 .
 skip_about_page_has_csp_assert
 "
@@ -658,9 +656,7 @@ false
 ]
 [
 "
-dom
-.
-security
+csp
 .
 skip_about_page_has_csp_assert
 "
