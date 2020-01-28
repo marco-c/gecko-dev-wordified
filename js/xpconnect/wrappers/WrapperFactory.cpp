@@ -693,12 +693,15 @@ scope
 >
 mWaiverWrapperMap
 =
+WrapUnique
+(
 JSObject2JSObjectMap
 :
 :
 newMap
 (
 XPC_WRAPPER_MAP_LENGTH
+)
 )
 ;
 }

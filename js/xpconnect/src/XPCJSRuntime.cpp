@@ -216,13 +216,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -4376,8 +4369,8 @@ current
 compartment
 private
 into
-an
-AutoPtr
+a
+UniquePtr
 (
 which
 will
@@ -4402,7 +4395,10 @@ be
 null
 )
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 CompartmentPrivate
 >
