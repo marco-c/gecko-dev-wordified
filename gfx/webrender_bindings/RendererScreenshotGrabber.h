@@ -221,9 +221,9 @@ MaybeGrabScreenshot
 void
 MaybeGrabScreenshot
 (
-RendererOGL
+Renderer
 *
-aRendererOGL
+aRenderer
 const
 gfx
 :
@@ -259,7 +259,7 @@ enabled
 void
 MaybeProcessQueue
 (
-RendererOGL
+Renderer
 *
 aRenderer
 )

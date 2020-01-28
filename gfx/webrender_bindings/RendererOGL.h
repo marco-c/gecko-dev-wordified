@@ -702,11 +702,6 @@ gl
 )
 const
 ;
-bool
-EnsureAsyncScreenshot
-(
-)
-;
 protected
 :
 RefPtr
@@ -743,9 +738,6 @@ mWindowId
 ;
 TimeStamp
 mFrameStartTime
-;
-bool
-mDisableNativeCompositor
 ;
 RendererScreenshotGrabber
 mScreenshotGrabber

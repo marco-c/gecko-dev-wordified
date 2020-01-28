@@ -2024,11 +2024,6 @@ GetCollectedFrames
 (
 )
 ;
-void
-DisableNativeCompositor
-(
-)
-;
 private
 :
 class

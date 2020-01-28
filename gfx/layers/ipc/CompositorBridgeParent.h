@@ -2970,11 +2970,6 @@ NotifyWebRenderContextPurge
 )
 ;
 void
-NotifyWebRenderDisableNativeCompositor
-(
-)
-;
-void
 NotifyPipelineRendered
 (
 const
