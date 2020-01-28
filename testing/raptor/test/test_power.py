@@ -59,23 +59,81 @@ import
 absolute_import
 unicode_literals
 import
-mozunit
+sys
 import
 os
 import
 mock
 import
 tempfile
-from
+import
+mozunit
+#
+need
+this
+so
 raptor
+imports
+work
+both
+from
+/
+raptor
+and
+via
+mach
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
+raptor_dir
+=
+os
+.
+path
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+here
+)
+"
+raptor
+"
+)
+sys
+.
+path
+.
+insert
+(
+0
+raptor_dir
+)
 import
 power
 from
-raptor
-.
-raptor
+webextension
 import
-RaptorAndroid
+WebExtensionAndroid
 def
 test_android7_power
 (
@@ -88,9 +146,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
 :
         
@@ -98,9 +156,9 @@ os
 .
 environ
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 =
 tempfile
@@ -114,13 +172,13 @@ mock
 .
 patch
 (
-'
+"
 mozdevice
 .
 adb
 .
 ADBDevice
-'
+"
 )
 as
 device
@@ -131,13 +189,11 @@ mock
 .
 patch
 (
-'
-raptor
-.
-raptor
+"
+control_server
 .
 RaptorControlServer
-'
+"
 )
 as
 control_server
@@ -172,11 +228,11 @@ __file__
 )
 )
 +
-'
+"
 /
 files
 /
-'
+"
             
 f
 =
@@ -184,7 +240,7 @@ open
 (
 filepath
 +
-'
+"
 batterystats
 -
 android
@@ -192,10 +248,10 @@ android
 7
 .
 txt
-'
-'
+"
+"
 r
-'
+"
 )
             
 batterystats_return_value
@@ -246,25 +302,25 @@ None
                 
 None
                 
-'
+"
 Test
 value
-'
+"
                 
-'
+"
 Test
 value
-'
+"
                 
 batterystats_return_value
                 
-'
+"
 7
 .
 0
 .
 0
-'
+"
             
 ]
             
@@ -296,11 +352,11 @@ control_server
 .
 test_name
 =
-'
+"
 gve
 -
 pytest
-'
+"
             
 control_server
 .
@@ -312,57 +368,59 @@ control_server
 .
 app_name
 =
-'
+"
 org
 .
 mozilla
 .
 geckoview_example
-'
+"
             
-raptor
+web_extension
 =
-RaptorAndroid
+WebExtensionAndroid
 (
-'
+                
+"
 geckoview
-'
-'
+"
+"
 org
 .
 mozilla
 .
 geckoview_example
-'
+"
 power_test
 =
 True
+            
 )
             
-raptor
+web_extension
 .
 device
 =
 device
             
-raptor
+web_extension
 .
 config
 [
-'
+"
 power_test
-'
+"
 ]
 =
 True
             
-raptor
+web_extension
 .
 control_server
 =
 control_server
             
-raptor
+web_extension
 .
 power_test_time
 =
@@ -370,81 +428,67 @@ power_test_time
 #
 minutes
             
-raptor
+web_extension
 .
 os_baseline_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 mAh
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
-                    
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
 5
 )
-                    
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
 5
 )
-                    
-u
-'
+"
 screen
-'
+"
 :
 float
 (
 5
 )
-                
 }
             
 }
@@ -472,49 +516,41 @@ power_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 mAh
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
                     
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
@@ -523,10 +559,9 @@ float
 5
 )
                     
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
@@ -535,10 +570,9 @@ float
 132
 )
                     
-u
-'
+"
 screen
-'
+"
 :
 float
 (
@@ -555,52 +589,44 @@ pc_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
 -
 %
 change
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 %
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
                     
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
@@ -609,10 +635,9 @@ float
 5
 )
                     
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
@@ -621,10 +646,9 @@ float
 132000000000005
 )
                     
-u
-'
+"
 screen
-'
+"
 :
 float
 (
@@ -641,15 +665,12 @@ power
 .
 finish_android_power_test
 (
-                
-raptor
-                
-'
+web_extension
+"
 gve
 -
 pytest
-'
-            
+"
 )
             
 control_server
@@ -658,6 +679,7 @@ submit_supporting_data
 .
 assert_has_calls
 (
+                
 [
                     
 mock
@@ -678,12 +700,13 @@ mock
 .
 call
 (
-raptor
+web_extension
 .
 os_baseline_data
 )
-            
+                
 ]
+            
 )
 def
 test_android8_power
@@ -697,9 +720,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
 :
         
@@ -707,9 +730,9 @@ os
 .
 environ
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 =
 tempfile
@@ -723,13 +746,13 @@ mock
 .
 patch
 (
-'
+"
 mozdevice
 .
 adb
 .
 ADBDevice
-'
+"
 )
 as
 device
@@ -740,13 +763,11 @@ mock
 .
 patch
 (
-'
-raptor
-.
-raptor
+"
+control_server
 .
 RaptorControlServer
-'
+"
 )
 as
 control_server
@@ -781,11 +802,11 @@ __file__
 )
 )
 +
-'
+"
 /
 files
 /
-'
+"
             
 f
 =
@@ -793,7 +814,7 @@ open
 (
 filepath
 +
-'
+"
 batterystats
 -
 android
@@ -801,10 +822,10 @@ android
 8
 .
 txt
-'
-'
+"
+"
 r
-'
+"
 )
             
 batterystats_return_value
@@ -863,25 +884,25 @@ None
                 
 None
                 
-'
+"
 Test
 value
-'
+"
                 
-'
+"
 Test
 value
-'
+"
                 
 batterystats_return_value
                 
-'
+"
 8
 .
 0
 .
 0
-'
+"
             
 ]
             
@@ -913,11 +934,11 @@ control_server
 .
 test_name
 =
-'
+"
 gve
 -
 pytest
-'
+"
             
 control_server
 .
@@ -929,57 +950,59 @@ control_server
 .
 app_name
 =
-'
+"
 org
 .
 mozilla
 .
 geckoview_example
-'
+"
             
-raptor
+web_extension
 =
-RaptorAndroid
+WebExtensionAndroid
 (
-'
+                
+"
 geckoview
-'
-'
+"
+"
 org
 .
 mozilla
 .
 geckoview_example
-'
+"
 power_test
 =
 True
+            
 )
             
-raptor
+web_extension
 .
 device
 =
 device
             
-raptor
+web_extension
 .
 config
 [
-'
+"
 power_test
-'
+"
 ]
 =
 True
             
-raptor
+web_extension
 .
 control_server
 =
 control_server
             
-raptor
+web_extension
 .
 power_test_time
 =
@@ -987,85 +1010,74 @@ power_test_time
 #
 minutes
             
-raptor
+web_extension
 .
 os_baseline_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 mAh
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
                     
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
 5
 )
                     
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
 5
 )
                     
-u
-'
+"
 screen
-'
+"
 :
 float
 (
 5
 )
                     
-u
-'
+"
 proportional
-'
+"
 :
 float
 (
@@ -1089,49 +1101,41 @@ power_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 mAh
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
                     
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
@@ -1140,10 +1144,9 @@ float
 7
 )
                     
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
@@ -1152,10 +1155,9 @@ float
 000556
 )
                     
-u
-'
+"
 screen
-'
+"
 :
 float
 (
@@ -1164,10 +1166,9 @@ float
 5
 )
                     
-u
-'
+"
 proportional
-'
+"
 :
 float
 (
@@ -1184,52 +1185,44 @@ pc_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
 -
 %
 change
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 %
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
                     
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
@@ -1238,10 +1231,9 @@ float
 700000000000017
 )
                     
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
@@ -1250,10 +1242,9 @@ float
 0005559999999888987
 )
                     
-u
-'
+"
 screen
-'
+"
 :
 float
 (
@@ -1262,10 +1253,9 @@ float
 5
 )
                     
-u
-'
+"
 proportional
-'
+"
 :
 float
 (
@@ -1282,15 +1272,12 @@ power
 .
 finish_android_power_test
 (
-                
-raptor
-                
-'
+web_extension
+"
 gve
 -
 pytest
-'
-            
+"
 )
             
 control_server
@@ -1299,6 +1286,7 @@ submit_supporting_data
 .
 assert_has_calls
 (
+                
 [
                     
 mock
@@ -1319,12 +1307,13 @@ mock
 .
 call
 (
-raptor
+web_extension
 .
 os_baseline_data
 )
-            
+                
 ]
+            
 )
 def
 test_androidos_baseline_power
@@ -1338,9 +1327,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
 :
         
@@ -1348,9 +1337,9 @@ os
 .
 environ
 [
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 ]
 =
 tempfile
@@ -1364,13 +1353,13 @@ mock
 .
 patch
 (
-'
+"
 mozdevice
 .
 adb
 .
 ADBDevice
-'
+"
 )
 as
 device
@@ -1381,13 +1370,11 @@ mock
 .
 patch
 (
-'
-raptor
-.
-raptor
+"
+control_server
 .
 RaptorControlServer
-'
+"
 )
 as
 control_server
@@ -1422,11 +1409,11 @@ __file__
 )
 )
 +
-'
+"
 /
 files
 /
-'
+"
             
 f
 =
@@ -1434,7 +1421,7 @@ open
 (
 filepath
 +
-'
+"
 batterystats
 -
 android
@@ -1442,10 +1429,10 @@ android
 8
 .
 txt
-'
-'
+"
+"
 r
-'
+"
 )
             
 batterystats_return_value
@@ -1496,25 +1483,25 @@ None
                 
 None
                 
-'
+"
 Test
 value
-'
+"
                 
-'
+"
 Test
 value
-'
+"
                 
 batterystats_return_value
                 
-'
+"
 8
 .
 0
 .
 0
-'
+"
             
 ]
             
@@ -1546,11 +1533,11 @@ control_server
 .
 test_name
 =
-'
+"
 gve
 -
 pytest
-'
+"
             
 control_server
 .
@@ -1562,51 +1549,53 @@ control_server
 .
 app_name
 =
-'
+"
 org
 .
 mozilla
 .
 geckoview_example
-'
+"
             
-raptor
+web_extension
 =
-RaptorAndroid
+WebExtensionAndroid
 (
-'
+                
+"
 geckoview
-'
-'
+"
+"
 org
 .
 mozilla
 .
 geckoview_example
-'
+"
 power_test
 =
 True
+            
 )
             
-raptor
+web_extension
 .
 device
 =
 device
             
-raptor
+web_extension
 .
 config
 [
-'
+"
 power_test
-'
+"
 ]
 =
 True
             
-raptor
+web_extension
 .
 control_server
 =
@@ -1623,49 +1612,41 @@ os_baseline_data
 =
 {
                 
-u
-'
+"
 type
-'
+"
 :
-u
-'
+"
 power
-'
+"
                 
-u
-'
+"
 test
-'
+"
 :
-u
-'
+"
 gve
 -
 pytest
-'
+"
                 
-u
-'
+"
 unit
-'
+"
 :
-u
-'
+"
 mAh
-'
+"
                 
-u
-'
+"
 values
-'
+"
 :
 {
                     
-u
-'
+"
 cpu
-'
+"
 :
 float
 (
@@ -1674,10 +1655,9 @@ float
 786654
 )
                     
-u
-'
+"
 wifi
-'
+"
 :
 float
 (
@@ -1686,10 +1666,9 @@ float
 26132
 )
                     
-u
-'
+"
 screen
-'
+"
 :
 float
 (
@@ -1698,10 +1677,9 @@ float
 66
 )
                     
-u
-'
+"
 proportional
-'
+"
 :
 float
 (
@@ -1728,14 +1706,12 @@ power
 finish_android_power_test
 (
                 
-raptor
-                
-'
+web_extension
+"
 gve
 -
 pytest
-'
-                
+"
 os_baseline
 =
 True
@@ -1743,7 +1719,7 @@ True
 )
             
 assert
-raptor
+web_extension
 .
 os_baseline_data
 =
@@ -1753,9 +1729,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

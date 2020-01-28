@@ -4,6 +4,37 @@ import
 mozunit
 import
 pytest
+#
+need
+this
+so
+raptor
+imports
+work
+both
+from
+/
+raptor
+and
+via
+mach
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
 from
 raptor
 import
@@ -117,6 +148,7 @@ manifest
 .
 write
 (
+        
 "
 "
 "
@@ -150,6 +182,7 @@ subtest
 "
 "
 "
+    
 )
     
 with
@@ -185,9 +218,12 @@ readouterr
 )
     
 assert
+(
+        
 captured
 .
 out
+        
 =
 =
 "
@@ -270,13 +306,15 @@ Done
 "
 "
 "
+    
+)
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit
