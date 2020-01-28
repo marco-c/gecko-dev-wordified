@@ -9937,6 +9937,10 @@ dumpmachine
 "
 )
 .
+decode
+(
+)
+.
 strip
 (
 )
@@ -10130,6 +10134,10 @@ binary
 -
 version
 "
+)
+.
+decode
+(
 )
 .
 strip
