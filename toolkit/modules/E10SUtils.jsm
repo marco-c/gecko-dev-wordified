@@ -4714,9 +4714,7 @@ aDocShell
 .
 domWindow
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 getActor
 (

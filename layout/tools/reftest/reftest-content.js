@@ -3502,9 +3502,7 @@ promise
 =
 content
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 getActor
 (
@@ -9364,9 +9362,7 @@ promise
 =
 content
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 getActor
 (
