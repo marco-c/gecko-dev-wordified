@@ -541,8 +541,6 @@ StyleSheetApplicableStateChanged
 (
 StyleSheet
 &
-bool
-aApplicable
 )
 ;
 /

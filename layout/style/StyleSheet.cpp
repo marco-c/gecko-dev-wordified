@@ -1998,7 +1998,6 @@ StyleSheetApplicableStateChanged
 (
 *
 this
-aApplicable
 )
 ;
 }
@@ -2011,11 +2010,10 @@ AsDocument
 )
 -
 >
-SetStyleSheetApplicableState
+StyleSheetApplicableStateChanged
 (
 *
 this
-aApplicable
 )
 ;
 }

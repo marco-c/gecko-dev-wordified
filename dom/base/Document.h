@@ -11204,7 +11204,6 @@ RemoveStyleSheet
 (
 StyleSheet
 *
-aSheet
 )
 ;
 /
@@ -11236,12 +11235,10 @@ updated
 *
 /
 void
-SetStyleSheetApplicableState
+StyleSheetApplicableStateChanged
 (
 StyleSheet
 &
-bool
-aApplicable
 )
 ;
 enum

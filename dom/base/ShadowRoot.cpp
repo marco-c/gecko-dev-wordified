@@ -2423,8 +2423,6 @@ StyleSheetApplicableStateChanged
 StyleSheet
 &
 aSheet
-bool
-aApplicable
 )
 {
 int32_t
@@ -2516,7 +2514,11 @@ return
 }
 if
 (
-aApplicable
+aSheet
+.
+IsApplicable
+(
+)
 )
 {
 InsertSheetIntoAuthorData
