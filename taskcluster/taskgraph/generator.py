@@ -71,6 +71,7 @@ from
 six
 import
 text_type
+ensure_text
 from
 .
 import
@@ -836,7 +837,10 @@ self
 .
 root_dir
 =
+ensure_text
+(
 root_dir
+)
         
 self
 .
