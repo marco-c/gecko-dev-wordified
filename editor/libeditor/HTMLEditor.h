@@ -23680,6 +23680,15 @@ HTMLEditor
 >
 mHTMLEditor
 ;
+RefPtr
+<
+dom
+:
+:
+DataTransfer
+>
+mDataTransfer
+;
 nsCOMPtr
 <
 Document
@@ -23697,6 +23706,9 @@ mIsSafe
 ;
 bool
 mDoDeleteSelection
+;
+bool
+mNeedsToDispatchBeforeInputEvent
 ;
 }
 ;
