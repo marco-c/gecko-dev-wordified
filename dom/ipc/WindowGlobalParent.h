@@ -399,7 +399,6 @@ bool
 IsInProcess
 (
 )
-override
 {
 return
 mInProcess
