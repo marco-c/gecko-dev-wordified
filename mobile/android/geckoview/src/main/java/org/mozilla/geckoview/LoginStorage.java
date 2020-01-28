@@ -429,11 +429,6 @@ pre
 >
 *
 <
-/
-p
->
-*
-<
 p
 >
 *
@@ -2082,6 +2077,8 @@ types
 for
 {
 link
+Delegate
+#
 onLoginUsed
 }
 .
