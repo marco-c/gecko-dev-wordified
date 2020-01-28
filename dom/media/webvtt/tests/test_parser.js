@@ -32,15 +32,11 @@ fakeWindow
 =
 {
 VTTCue
-:
-function
 (
 )
 {
 }
 VTTRegion
-:
-function
 (
 )
 {
@@ -965,6 +961,7 @@ accepted
 )
 ;
 }
+;
 test
 .
 input
