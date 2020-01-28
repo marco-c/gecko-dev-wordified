@@ -2555,9 +2555,6 @@ MaybeCreateThisForConstructor
 JSContext
 *
 cx
-JSScript
-*
-calleeScript
 const
 CallArgs
 &
@@ -2632,7 +2629,6 @@ CreateThis
 (
 cx
 callee
-calleeScript
 newTarget
 newKind
 args
@@ -4183,11 +4179,6 @@ if
 MaybeCreateThisForConstructor
 (
 cx
-state
-.
-script
-(
-)
 args
 createSingleton
 )
@@ -20293,7 +20284,6 @@ if
 MaybeCreateThisForConstructor
 (
 cx
-funScript
 args
 createSingleton
 )
