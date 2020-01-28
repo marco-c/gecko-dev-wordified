@@ -2056,7 +2056,6 @@ AppendElement
 LookAndFeelInt
 {
 id
-{
 .
 value
 =
@@ -2064,7 +2063,6 @@ GetInt
 (
 id
 )
-}
 }
 )
 ;

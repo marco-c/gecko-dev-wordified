@@ -6850,12 +6850,10 @@ LookAndFeelInt
 id
 =
 eIntID_PrefersReducedMotion
-{
 .
 value
 =
 value
-}
 }
 )
 ;
