@@ -870,12 +870,6 @@ aMayDelete
 )
 ;
 bool
-CanAcceptRequests
-(
-)
-const
-;
-bool
 IsCommittingOrFinished
 (
 )

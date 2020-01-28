@@ -1951,7 +1951,7 @@ if
 transaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -2441,7 +2441,7 @@ if
 transaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )

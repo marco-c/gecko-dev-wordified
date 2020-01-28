@@ -887,7 +887,7 @@ MOZ_ASSERT
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -1741,7 +1741,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -2291,7 +2291,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -2905,7 +2905,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -3203,7 +3203,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -3877,7 +3877,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
