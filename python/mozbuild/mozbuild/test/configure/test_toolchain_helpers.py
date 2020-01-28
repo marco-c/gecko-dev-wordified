@@ -64,15 +64,15 @@ copy
 import
 re
 import
-types
-import
 unittest
 from
 fnmatch
 import
 fnmatch
+import
+six
 from
-StringIO
+six
 import
 StringIO
 from
@@ -374,9 +374,9 @@ if
 isinstance
 (
 value
-types
+six
 .
-StringTypes
+string_types
 )
 :
                 
@@ -515,10 +515,11 @@ for
 k
 v
 in
-context
+six
 .
 iteritems
 (
+context
 )
         
 )
@@ -1510,10 +1511,11 @@ dict
 for
 d
 in
-definition
+six
 .
 itervalues
 (
+definition
 )
 )
 :
@@ -1530,10 +1532,11 @@ for
 key
 value
 in
-definition
+six
 .
 iteritems
 (
+definition
 )
 :
                 
@@ -1702,10 +1705,11 @@ for
 k
 v
 in
-defn
+six
 .
 iteritems
 (
+defn
 )
 :
                     
@@ -1747,10 +1751,11 @@ for
 glob
 defn
 in
-self
+six
 .
 iteritems
 (
+self
 )
 :
                 
@@ -3032,10 +3037,11 @@ for
 k
 v
 in
-other
+six
 .
 iteritems
 (
+other
 )
 :
             
