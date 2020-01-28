@@ -166,7 +166,7 @@ aId
 const
 Nullable
 <
-Date
+uint64_t
 >
 &
 aDate
@@ -291,7 +291,7 @@ mId
 }
 Nullable
 <
-Date
+uint64_t
 >
 DeprecationReportBody
 :
