@@ -96,11 +96,7 @@ child
 =
 content
 .
-window
-.
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 ;
 let
 actorChild
@@ -282,11 +278,7 @@ child
 =
 content
 .
-window
-.
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 ;
 let
 actorChild

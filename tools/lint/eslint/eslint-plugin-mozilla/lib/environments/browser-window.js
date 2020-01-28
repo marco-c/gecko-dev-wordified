@@ -474,6 +474,16 @@ writable
 :
 false
 }
+{
+name
+:
+"
+windowGlobalChild
+"
+writable
+:
+false
+}
 ]
 ;
 /
