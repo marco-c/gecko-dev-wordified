@@ -2430,7 +2430,9 @@ SwitchDocumentDirection
 '
 SwitchDocumentDirection
 '
-true
+'
+roots
+'
 )
 ;
 "

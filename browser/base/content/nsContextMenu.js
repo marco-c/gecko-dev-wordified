@@ -10963,7 +10963,9 @@ SwitchDocumentDirection
 "
 SwitchDocumentDirection
 "
-true
+"
+roots
+"
 )
 ;
 }
