@@ -17377,7 +17377,8 @@ scratch
 /
 /
 Call
-CreateThis
+CreateThisFromIC
+.
 using
 Fn
 =
@@ -17396,7 +17397,7 @@ MutableHandleValue
 callVM
 <
 Fn
-CreateThis
+CreateThisFromIC
 >
 (
 masm
