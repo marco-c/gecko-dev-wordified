@@ -18221,7 +18221,7 @@ tracking
 .
 inline
 nscoord
-GetPosition
+Position
 (
 )
 const
@@ -18232,7 +18232,7 @@ mPosition
 }
 inline
 LogicalAxis
-GetAxis
+Axis
 (
 )
 const
@@ -33103,7 +33103,7 @@ SetMainPosition
 (
 mainAxisPosnTracker
 .
-GetPosition
+Position
 (
 )
 )
@@ -34011,7 +34011,7 @@ aLineStartPosition
 +
 lineCrossAxisPosnTracker
 .
-GetPosition
+Position
 (
 )
 )
@@ -38471,7 +38471,7 @@ ComputePhysicalAscentFromFlexRelativeAscent
 (
 crossAxisPosnTracker
 .
-GetPosition
+Position
 (
 )
 +
@@ -38793,7 +38793,7 @@ mCrossStart
 =
 crossAxisPosnTracker
 .
-GetPosition
+Position
 (
 )
 ;
@@ -38867,7 +38867,7 @@ PositionItemsInCrossAxis
 (
 crossAxisPosnTracker
 .
-GetPosition
+Position
 (
 )
 aAxisTracker
@@ -39030,7 +39030,7 @@ ComputePhysicalAscentFromFlexRelativeAscent
 (
 crossAxisPosnTracker
 .
-GetPosition
+Position
 (
 )
 -
