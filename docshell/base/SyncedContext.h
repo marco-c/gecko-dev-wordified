@@ -1472,7 +1472,7 @@ clazz
 eachfield
 )
 \
-private
+protected
 :
 \
 friend

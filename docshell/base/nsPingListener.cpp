@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+Encoding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
