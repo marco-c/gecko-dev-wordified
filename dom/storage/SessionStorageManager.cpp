@@ -542,7 +542,7 @@ aRetVal
 return
 GetSessionStorageCacheHelper
 (
-aPrincipal
+aStoragePrincipal
 true
 nullptr
 aRetVal
@@ -972,7 +972,7 @@ rv
 =
 GetSessionStorageCacheHelper
 (
-aPrincipal
+aStoragePrincipal
 false
 nullptr
 &
@@ -1019,7 +1019,7 @@ new
 SessionStorage
 (
 inner
-aPrincipal
+aStoragePrincipal
 cache
 this
 EmptyString
@@ -1095,7 +1095,7 @@ GetSessionStorageCacheHelper
 aStorage
 -
 >
-Principal
+StoragePrincipal
 (
 )
 true
