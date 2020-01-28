@@ -188,11 +188,9 @@ t
 =
 >
 {
-assert_throws
+assert_throws_js
 (
 TypeError
-(
-)
 (
 )
 =
@@ -224,11 +222,9 @@ t
 =
 >
 {
-assert_throws
+assert_throws_js
 (
 TypeError
-(
-)
 (
 )
 =
