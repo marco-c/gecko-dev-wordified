@@ -136,7 +136,7 @@ getContext
 '
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR

@@ -181,7 +181,7 @@ this
 browsing
 context
 .
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -514,7 +514,7 @@ step_func_done
 =
 >
 {
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -789,7 +789,7 @@ step_func_done
 =
 >
 {
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -1120,7 +1120,7 @@ step_func_done
 =
 >
 {
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError

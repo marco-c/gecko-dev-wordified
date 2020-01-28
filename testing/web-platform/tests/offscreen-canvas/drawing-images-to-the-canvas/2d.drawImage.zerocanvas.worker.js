@@ -144,7 +144,7 @@ OffscreenCanvas
 10
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_STATE_ERR
@@ -177,7 +177,7 @@ height
 =
 0
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_STATE_ERR
@@ -210,7 +210,7 @@ height
 =
 0
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_STATE_ERR

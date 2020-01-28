@@ -149,7 +149,7 @@ createLinearGradient
 0
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -170,7 +170,7 @@ addColorStop
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -192,7 +192,7 @@ null
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -214,7 +214,7 @@ undefined
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -234,7 +234,7 @@ null
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR

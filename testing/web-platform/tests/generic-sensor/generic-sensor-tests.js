@@ -3792,7 +3792,7 @@ test
 {
 /
 /
-assert_throws
+assert_throws_dom
 (
 "
 NotSupportedError
@@ -3818,7 +3818,7 @@ invalid
 ;
 /
 /
-assert_throws
+assert_throws_dom
 (
 "
 NotSupportedError
@@ -3855,7 +3855,7 @@ expectedRemappedReadings
 {
 /
 /
-assert_throws
+assert_throws_dom
 (
 "
 NotSupportedError

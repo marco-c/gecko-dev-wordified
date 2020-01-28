@@ -739,7 +739,7 @@ crbug
 com
 /
 663298
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -911,7 +911,7 @@ crbug
 com
 /
 663298
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError

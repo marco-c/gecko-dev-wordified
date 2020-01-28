@@ -180,7 +180,7 @@ height
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_STATE_ERR
@@ -246,7 +246,7 @@ height
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_STATE_ERR
@@ -312,7 +312,7 @@ height
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_STATE_ERR

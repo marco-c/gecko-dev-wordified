@@ -18,7 +18,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -59,7 +59,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -105,7 +105,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -148,7 +148,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -189,7 +189,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
