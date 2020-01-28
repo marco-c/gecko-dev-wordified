@@ -937,7 +937,7 @@ size
 ;
 computed_calc
 .
-resolve
+percentage_relative_to
 (
 base
 )
