@@ -12123,9 +12123,16 @@ object
 )
 {
 return
+(
 content_security_policy
 .
 content_scripts
+|
+|
+content_security_policy
+.
+isolated_world
+)
 ;
 }
 }
