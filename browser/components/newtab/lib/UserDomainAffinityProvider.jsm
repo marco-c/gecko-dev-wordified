@@ -2302,6 +2302,16 @@ getNewQuery
 (
 )
 ;
+if
+(
+!
+query
+)
+{
+return
+visitCounts
+;
+}
 const
 wwwRegEx
 =
