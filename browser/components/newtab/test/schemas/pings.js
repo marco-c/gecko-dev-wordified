@@ -1344,6 +1344,17 @@ activity_stream_session
 required
 (
 )
+profile_creation_date
+:
+Joi
+.
+number
+(
+)
+.
+integer
+(
+)
 perf
 :
 Joi
@@ -1432,7 +1443,7 @@ number
 (
 )
 .
-positive
+integer
 (
 )
 .
@@ -1612,7 +1623,7 @@ number
 (
 )
 .
-positive
+integer
 (
 )
 .
@@ -1810,7 +1821,7 @@ number
 (
 )
 .
-positive
+integer
 (
 )
 .

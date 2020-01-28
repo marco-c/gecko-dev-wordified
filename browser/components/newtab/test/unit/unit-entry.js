@@ -2017,6 +2017,17 @@ setExperimentActive
 )
 {
 }
+currentEnvironment
+:
+{
+profile
+:
+{
+creationDate
+:
+16587
+}
+}
 }
 TelemetryStopwatch
 :
