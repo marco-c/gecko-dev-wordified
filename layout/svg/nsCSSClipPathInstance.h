@@ -241,7 +241,10 @@ aPoint
 )
 ;
 static
+Maybe
+<
 Rect
+>
 GetBoundingRectForBasicShapeOrPathClip
 (
 nsIFrame
