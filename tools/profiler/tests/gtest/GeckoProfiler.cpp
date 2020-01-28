@@ -3666,7 +3666,7 @@ filters
 0
 )
 ;
-profiler_tracing
+profiler_tracing_marker
 (
 "
 A
@@ -3685,7 +3685,7 @@ OTHER
 TRACING_EVENT
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_MARKER
 (
 "
 A
@@ -3698,7 +3698,7 @@ OTHER
 TRACING_INTERVAL_START
 )
 ;
-PROFILER_TRACING
+PROFILER_TRACING_MARKER
 (
 "
 A
@@ -3718,7 +3718,7 @@ profiler_get_backtrace
 (
 )
 ;
-profiler_tracing
+profiler_tracing_marker
 (
 "
 B
@@ -3747,7 +3747,7 @@ bt
 )
 ;
 {
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 C

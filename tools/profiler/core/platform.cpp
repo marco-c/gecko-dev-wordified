@@ -35821,7 +35821,7 @@ ToMilliseconds
 ;
 }
 void
-profiler_tracing
+profiler_tracing_marker
 (
 const
 char
@@ -35906,7 +35906,7 @@ aInnerWindowID
 ;
 }
 void
-profiler_tracing
+profiler_tracing_marker
 (
 const
 char
