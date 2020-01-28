@@ -1045,20 +1045,6 @@ shouldThrowSyntaxError
 '
 )
 ;
-/
-/
-Ignore
-these
-tests
-for
-now
-as
-they
-use
-optional
-chaining
-/
-/
 shouldBe
 (
 null
@@ -1071,8 +1057,6 @@ x
 3
 )
 ;
-/
-/
 shouldBe
 (
 (
@@ -1088,8 +1072,6 @@ x
 3
 )
 ;
-/
-/
 shouldBe
 (
 (
@@ -1108,8 +1090,6 @@ x
 0
 )
 ;
-/
-/
 shouldBe
 (
 null
@@ -1123,8 +1103,6 @@ null
 3
 )
 ;
-/
-/
 shouldBe
 (
 (
@@ -1144,8 +1122,6 @@ shouldBe
 0
 )
 ;
-/
-/
 shouldBe
 (
 (
@@ -1174,8 +1150,6 @@ x
 0
 )
 ;
-/
-/
 shouldBe
 (
 (

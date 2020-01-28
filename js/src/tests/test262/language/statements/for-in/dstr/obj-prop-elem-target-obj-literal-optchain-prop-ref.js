@@ -44,8 +44,6 @@ optchain
 prop
 -
 ref
--
-init
 .
 case
 /
@@ -61,7 +59,7 @@ syntax
 /
 for
 -
-of
+in
 .
 template
 /
@@ -102,7 +100,7 @@ Object
 For
 .
 .
-of
+in
 statement
 )
 esid
@@ -387,10 +385,8 @@ accessed
 ?
 .
 y
-=
-42
 }
-of
+in
 [
 {
 x

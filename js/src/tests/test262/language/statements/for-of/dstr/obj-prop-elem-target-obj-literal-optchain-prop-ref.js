@@ -44,8 +44,6 @@ optchain
 prop
 -
 ref
--
-init
 .
 case
 /
@@ -387,8 +385,6 @@ accessed
 ?
 .
 y
-=
-42
 }
 of
 [
