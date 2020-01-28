@@ -8097,7 +8097,10 @@ designMode
 or
 contentEditable
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDocShellEditorData
 >
