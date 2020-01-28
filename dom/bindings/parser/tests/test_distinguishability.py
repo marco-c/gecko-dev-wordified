@@ -1275,16 +1275,8 @@ long
 "
                  
 "
-Date
-"
-"
-Date
-?
-"
-"
 any
 "
-                 
 "
 Promise
 <
@@ -1335,33 +1327,6 @@ Dict
 "
     
 ]
-    
-#
-When
-we
-can
-parse
-Date
-we
-need
-to
-add
-it
-here
-.
-    
-#
-XXXbz
-we
-can
-and
-should
-really
-do
-that
-.
-.
-.
     
 #
 Try
@@ -1653,18 +1618,6 @@ Callback
 )
 )
     
-dates
-=
-[
-"
-Date
-"
-"
-Date
-?
-"
-]
-    
 sequences
 =
 [
@@ -1687,8 +1640,6 @@ nonUserObjects
 nonObjects
 +
 interfaces
-+
-dates
 +
 sequences
     
@@ -1719,8 +1670,6 @@ UnrelatedInterface
 +
                             
 otherObjects
-+
-dates
 +
 sequences
 +
@@ -2179,45 +2128,6 @@ long
 >
 "
 nonUserObjects
-)
-    
-setDistinguishable
-(
-"
-Date
-"
-allBut
-(
-argTypes
-dates
-+
-[
-"
-object
-"
-]
-)
-)
-    
-setDistinguishable
-(
-"
-Date
-?
-"
-allBut
-(
-argTypes
-dates
-+
-nullables
-+
-[
-"
-object
-"
-]
-)
 )
     
 setDistinguishable

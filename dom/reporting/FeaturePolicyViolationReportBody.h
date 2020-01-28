@@ -131,17 +131,6 @@ ReportBody
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Date
-.
-h
-"
 namespace
 mozilla
 {
