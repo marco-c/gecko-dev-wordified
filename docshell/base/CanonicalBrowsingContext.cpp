@@ -306,6 +306,10 @@ BrowsingContext
 :
 Type
 aType
+FieldTuple
+&
+&
+aFields
 )
 :
 BrowsingContext
@@ -314,6 +318,13 @@ aParent
 aGroup
 aBrowsingContextId
 aType
+std
+:
+:
+move
+(
+aFields
+)
 )
 mProcessId
 (
