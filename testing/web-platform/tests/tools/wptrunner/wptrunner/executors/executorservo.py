@@ -21,6 +21,7 @@ uuid
 from
 six
 import
+ensure_str
 iteritems
 from
 mozprocess
@@ -1560,6 +1561,9 @@ with
 open
 (
 output_path
+"
+rb
+"
 )
 as
 f
@@ -1586,11 +1590,14 @@ read
                 
 return
 True
+ensure_str
+(
 base64
 .
 b64encode
 (
 data
+)
 )
     
 def

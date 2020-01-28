@@ -1304,11 +1304,9 @@ route_builder
 .
 add_handler
 (
-b
 "
 GET
 "
-b
 "
 /
 resources
