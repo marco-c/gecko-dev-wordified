@@ -4476,7 +4476,7 @@ pcULL
 If
 the
 "
-MOZ_PROFILER_SYMBOLICATE
+MOZ_BASE_PROFILER_SYMBOLICATE
 "
 env
 -
@@ -4486,9 +4486,9 @@ set
 we
 add
 a
+/
+/
 local
-/
-/
 symbolication
 description
 to
@@ -4528,7 +4528,7 @@ symbolicate
 getenv
 (
 "
-MOZ_PROFILER_SYMBOLICATE
+MOZ_BASE_PROFILER_SYMBOLICATE
 "
 )
 ;
