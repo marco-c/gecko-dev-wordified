@@ -712,10 +712,9 @@ value
 uri
 )
 {
-NS_WARNING
-(
-"
-we
+/
+/
+We
 only
 accept
 nsIURI
@@ -723,9 +722,7 @@ interface
 type
 patch
 welcome
-"
-)
-;
+.
 variant
 .
 type
