@@ -67,6 +67,8 @@ import
 quote
 as
 shell_quote
+import
+six
 from
 taskgraph
 .
@@ -712,6 +714,11 @@ EXTRA_MOZHARNESS_CONFIG
 '
 ]
 =
+six
+.
+ensure_text
+(
+                
 json
 .
 dumps
@@ -729,6 +736,7 @@ extra
 config
 '
 ]
+)
 )
             
 del

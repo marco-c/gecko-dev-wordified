@@ -81,6 +81,10 @@ import
 Optional
 Required
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -180,7 +184,7 @@ build
 '
 )
 :
-basestring
+text_type
     
 #
 unique
@@ -207,7 +211,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 #
 treeherder
@@ -282,7 +286,7 @@ locale
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -1065,15 +1069,12 @@ app
 version
 '
 :
-str
-(
 params
 [
 '
 app_version
 '
 ]
-)
         
 '
 branch
@@ -1092,15 +1093,12 @@ build
 id
 '
 :
-str
-(
 params
 [
 '
 moz_build_date
 '
 ]
-)
         
 '
 hash

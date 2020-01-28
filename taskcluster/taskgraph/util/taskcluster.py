@@ -80,6 +80,8 @@ functools
 import
 requests
 import
+six
+import
 logging
 import
 taskcluster_urls
@@ -279,6 +281,10 @@ try
 :
             
 return
+six
+.
+ensure_text
+(
 os
 .
 environ
@@ -287,6 +293,7 @@ environ
 TASKCLUSTER_PROXY_URL
 '
 ]
+)
         
 except
 KeyError
@@ -450,6 +457,10 @@ else
 )
     
 return
+six
+.
+ensure_text
+(
 os
 .
 environ
@@ -458,6 +469,7 @@ environ
 TASKCLUSTER_ROOT_URL
 '
 ]
+)
 memoize
 def
 get_session
@@ -792,12 +804,17 @@ artifacts
     
 data
 =
+six
+.
+ensure_text
+(
 artifact_tmpl
 .
 format
 (
 task_id
 path
+)
 )
     
 if
@@ -897,9 +914,14 @@ False
 )
         
 return
+six
+.
+ensure_text
+(
 response
 .
 text
+)
     
 return
 data

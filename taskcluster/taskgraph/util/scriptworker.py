@@ -2252,8 +2252,6 @@ version
 '
 ]
 =
-str
-(
 config
 .
 params
@@ -2262,7 +2260,6 @@ params
 version
 '
 ]
-)
     
 release_config
 [
@@ -2271,8 +2268,6 @@ appVersion
 '
 ]
 =
-str
-(
 config
 .
 params
@@ -2281,7 +2276,6 @@ params
 app_version
 '
 ]
-)
     
 release_config
 [
@@ -2290,8 +2284,6 @@ next_version
 '
 ]
 =
-str
-(
 config
 .
 params
@@ -2300,7 +2292,6 @@ params
 next_version
 '
 ]
-)
     
 release_config
 [

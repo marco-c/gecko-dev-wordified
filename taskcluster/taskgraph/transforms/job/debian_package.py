@@ -78,6 +78,10 @@ os
 import
 re
 from
+six
+import
+text_type
+from
 taskgraph
 .
 util
@@ -179,7 +183,7 @@ url
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -188,7 +192,7 @@ sha256
 '
 )
 :
-basestring
+text_type
 }
 run_schema
 =
@@ -220,7 +224,7 @@ dist
 '
 )
 :
-basestring
+text_type
     
 #
 Date
@@ -273,7 +277,7 @@ snapshot
 '
 )
 :
-basestring
+text_type
     
 #
 URL
@@ -358,7 +362,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 #
 Patch
@@ -377,7 +381,7 @@ patch
 '
 )
 :
-basestring
+text_type
     
 #
 Command
@@ -400,7 +404,7 @@ command
 '
 )
 :
-basestring
+text_type
     
 #
 Architecture
@@ -418,7 +422,7 @@ arch
 '
 )
 :
-basestring
+text_type
     
 #
 List
@@ -440,7 +444,7 @@ packages
 )
 :
 [
-basestring
+text_type
 ]
     
 #
@@ -536,7 +540,7 @@ workdir
 '
 )
 :
-basestring
+text_type
 }
 )
 run_job_using

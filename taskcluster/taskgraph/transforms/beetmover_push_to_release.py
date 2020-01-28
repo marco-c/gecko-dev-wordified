@@ -81,6 +81,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 transforms
@@ -141,7 +145,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -150,7 +154,7 @@ product
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -161,7 +165,7 @@ platform
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -171,7 +175,7 @@ attributes
 )
 :
 {
-basestring
+text_type
 :
 object
 }
@@ -202,7 +206,7 @@ run
 )
 :
 {
-basestring
+text_type
 :
 object
 }
@@ -237,7 +241,7 @@ dependencies
 )
 :
 {
-basestring
+text_type
 :
 taskref_or_string
 }
@@ -250,9 +254,9 @@ index
 )
 :
 {
-basestring
+text_type
 :
-basestring
+text_type
 }
     
 Optional
@@ -263,7 +267,7 @@ routes
 )
 :
 [
-basestring
+text_type
 ]
     
 Required

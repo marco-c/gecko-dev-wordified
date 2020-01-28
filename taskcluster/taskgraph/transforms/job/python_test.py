@@ -80,6 +80,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 transforms
@@ -149,7 +153,7 @@ subsuite
 '
 )
 :
-basestring
+text_type
     
 #
 Base
@@ -170,7 +174,7 @@ workdir
 '
 )
 :
-basestring
+text_type
 }
 )
 defaults

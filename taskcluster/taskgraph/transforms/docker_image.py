@@ -67,6 +67,10 @@ from
 collections
 import
 deque
+from
+six
+import
+text_type
 import
 taskgraph
 from
@@ -180,7 +184,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 #
 Name
@@ -198,7 +202,7 @@ parent
 '
 )
 :
-basestring
+text_type
     
 #
 Treeherder
@@ -212,7 +216,7 @@ symbol
 '
 )
 :
-basestring
+text_type
     
 #
 relative
@@ -245,7 +249,7 @@ from
 '
 )
 :
-basestring
+text_type
     
 #
 Arguments
@@ -264,9 +268,9 @@ args
 )
 :
 {
-basestring
+text_type
 :
-basestring
+text_type
 }
     
 #
@@ -298,7 +302,7 @@ definition
 '
 )
 :
-basestring
+text_type
     
 #
 List
@@ -320,7 +324,7 @@ packages
 )
 :
 [
-basestring
+text_type
 ]
     
 Optional

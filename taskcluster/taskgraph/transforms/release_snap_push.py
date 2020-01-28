@@ -80,6 +80,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 transforms
@@ -131,7 +135,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -231,7 +235,7 @@ release
 -
 level
 '
-basestring
+text_type
 )
     
 Required
@@ -251,7 +255,7 @@ scopes
 )
 :
 [
-basestring
+text_type
 ]
     
 Required

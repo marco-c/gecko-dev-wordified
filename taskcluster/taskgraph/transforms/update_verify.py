@@ -209,12 +209,14 @@ env
 {
 }
 )
-.
-update
+[
+'
+CHANNEL
+'
+]
+=
 (
             
-CHANNEL
-=
 config_task
 .
 task
@@ -228,7 +230,6 @@ extra
 channel
 '
 ]
-        
 )
         
 task

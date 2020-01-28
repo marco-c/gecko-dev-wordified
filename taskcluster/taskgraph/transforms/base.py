@@ -62,6 +62,10 @@ unicode_literals
 import
 attr
 from
+six
+import
+text_type
+from
 .
 .
 config
@@ -159,7 +163,7 @@ ib
 (
 type
 =
-basestring
+text_type
 )
     
 #

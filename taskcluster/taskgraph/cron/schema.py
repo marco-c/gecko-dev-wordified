@@ -72,6 +72,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 voluptuous
 import
 Any
@@ -153,7 +157,7 @@ name
 '
 )
 :
-basestring
+text_type
         
 #
 what
@@ -212,7 +216,7 @@ symbol
 '
 )
 :
-basestring
+text_type
             
 #
 -
@@ -242,7 +246,7 @@ method
 '
 )
 :
-basestring
+text_type
             
 Optional
 (
@@ -365,7 +369,7 @@ graph
 )
 :
 [
-basestring
+text_type
 ]
         
 }
@@ -453,7 +457,7 @@ projects
 '
 :
 [
-basestring
+text_type
 ]
         
 #

@@ -78,6 +78,10 @@ unicode_literals
 import
 copy
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -190,7 +194,7 @@ build
 '
 )
 :
-basestring
+text_type
     
 #
 unique
@@ -208,7 +212,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -219,7 +223,7 @@ type
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -303,7 +307,7 @@ locale
 '
 )
 :
-basestring
+text_type
     
 #
 Routes
@@ -322,7 +326,7 @@ routes
 )
 :
 [
-basestring
+text_type
 ]
     
 #
@@ -434,7 +438,7 @@ release
 type
 '
 [
-basestring
+text_type
 ]
 )
     
@@ -482,7 +486,7 @@ build
 platform
 '
 [
-basestring
+text_type
 ]
 )
         
@@ -520,7 +524,7 @@ paths
 )
 :
 [
-basestring
+text_type
 ]
         
 #
@@ -2318,13 +2322,13 @@ env
 {
 }
 )
-.
-update
-(
+[
+'
 LOCALE
+'
+]
 =
 locale
-)
         
 worker
 [
