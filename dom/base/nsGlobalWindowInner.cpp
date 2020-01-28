@@ -16430,14 +16430,6 @@ nsIDOMRange
 Range
 "
 }
-{
-"
-nsIDOMSVGLength
-"
-"
-SVGLength
-"
-}
 /
 /
 Think
