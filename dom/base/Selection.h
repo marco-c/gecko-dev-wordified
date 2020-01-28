@@ -1174,6 +1174,15 @@ int32_t
 aOffset
 )
 ;
+/
+*
+*
+*
+See
+mRanges
+.
+*
+/
 nsRange
 *
 GetRangeAt
