@@ -758,7 +758,7 @@ IsSharedMemoryAllowed
 {
 clonePolicy
 .
-allowSharedMemory
+allowIntraClusterClonableSharedObjects
 (
 )
 ;
@@ -789,7 +789,7 @@ IsSharedMemoryAllowed
 {
 clonePolicy
 .
-allowSharedMemory
+allowIntraClusterClonableSharedObjects
 (
 )
 ;

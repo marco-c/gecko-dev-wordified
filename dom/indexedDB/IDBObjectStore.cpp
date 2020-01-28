@@ -3160,7 +3160,7 @@ aRetval
 {
 static_assert
 (
-SCTAG_DOM_WASM
+SCTAG_DOM_WASM_MODULE
 =
 =
 0xFFFF8006
@@ -4309,6 +4309,13 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+const
+JS
+:
+:
+CloneDataPolicy
+&
+aCloneDataPolicy
 uint32_t
 aTag
 uint32_t
@@ -4371,7 +4378,7 @@ SCTAG_DOM_FILE
 0xffff8005
 &
 &
-SCTAG_DOM_WASM
+SCTAG_DOM_WASM_MODULE
 =
 =
 0xffff8006
@@ -4432,7 +4439,7 @@ SCTAG_DOM_MUTABLEFILE
 aTag
 =
 =
-SCTAG_DOM_WASM
+SCTAG_DOM_WASM_MODULE
 )
 {
 auto
@@ -4467,7 +4474,7 @@ if
 aTag
 =
 =
-SCTAG_DOM_WASM
+SCTAG_DOM_WASM_MODULE
 )
 {
 WasmModuleData
@@ -4777,6 +4784,13 @@ aCx
 JSStructuredCloneReader
 *
 aReader
+const
+JS
+:
+:
+CloneDataPolicy
+&
+aCloneDataPolicy
 uint32_t
 aTag
 uint32_t
