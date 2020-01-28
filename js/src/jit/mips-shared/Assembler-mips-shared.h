@@ -2269,7 +2269,7 @@ for
 instruction
 fields
 enum
-Opcode
+OpcodeField
 {
 op_special
 =
@@ -8814,7 +8814,7 @@ the
 instruction
 encoding
 .
-Opcode
+OpcodeField
 OpcodeFieldRaw
 (
 )
@@ -8823,7 +8823,7 @@ const
 return
 static_cast
 <
-Opcode
+OpcodeField
 >
 (
 encode
@@ -8997,7 +8997,7 @@ public
 :
 InstReg
 (
-Opcode
+OpcodeField
 op
 Register
 rd
@@ -9020,7 +9020,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9050,7 +9050,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9087,7 +9087,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9131,7 +9131,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9172,7 +9172,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9213,7 +9213,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9254,7 +9254,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 uint32_t
 code
@@ -9279,7 +9279,7 @@ float
 point
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9309,7 +9309,7 @@ fs
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9339,7 +9339,7 @@ rd
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9380,7 +9380,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9421,7 +9421,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9462,7 +9462,7 @@ ff
 }
 InstReg
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9619,7 +9619,7 @@ dest
 ;
 InstImm
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9653,7 +9653,7 @@ encode
 }
 InstImm
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9684,7 +9684,7 @@ encode
 }
 InstImm
 (
-Opcode
+OpcodeField
 op
 RSField
 rs
@@ -9712,7 +9712,7 @@ encode
 }
 InstImm
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9768,7 +9768,7 @@ stores
 .
 InstImm
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -9820,7 +9820,7 @@ OpcodeShift
 void
 setOpcode
 (
-Opcode
+OpcodeField
 op
 )
 {
@@ -9988,7 +9988,7 @@ public
 :
 InstJump
 (
-Opcode
+OpcodeField
 op
 JOffImm26
 off
@@ -10051,7 +10051,7 @@ stores
 .
 InstGS
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -10097,7 +10097,7 @@ ff
 }
 InstGS
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -10153,7 +10153,7 @@ stores
 .
 InstGS
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -10199,7 +10199,7 @@ ff
 }
 InstGS
 (
-Opcode
+OpcodeField
 op
 Register
 rs
@@ -10268,7 +10268,7 @@ stores
 .
 InstGS
 (
-Opcode
+OpcodeField
 op
 Register
 rs

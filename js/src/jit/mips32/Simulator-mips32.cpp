@@ -929,7 +929,7 @@ MIPS
 encoding
 .
 inline
-Opcode
+OpcodeField
 opcodeValue
 (
 )
@@ -938,7 +938,7 @@ const
 return
 static_cast
 <
-Opcode
+OpcodeField
 >
 (
 bits
@@ -1298,7 +1298,7 @@ instruction
 encoding
 .
 inline
-Opcode
+OpcodeField
 opcodeFieldRaw
 (
 )
@@ -1307,7 +1307,7 @@ const
 return
 static_cast
 <
-Opcode
+OpcodeField
 >
 (
 instructionBits
@@ -1497,7 +1497,7 @@ secondaryValue
 )
 const
 {
-Opcode
+OpcodeField
 op
 =
 opcodeFieldRaw
@@ -15400,7 +15400,7 @@ Instruction
 fields
 .
 const
-Opcode
+OpcodeField
 op
 =
 instr
@@ -16858,7 +16858,7 @@ Instruction
 fields
 .
 const
-Opcode
+OpcodeField
 op
 =
 instr
@@ -20108,7 +20108,7 @@ instr
 Instruction
 fields
 .
-Opcode
+OpcodeField
 op
 =
 instr
