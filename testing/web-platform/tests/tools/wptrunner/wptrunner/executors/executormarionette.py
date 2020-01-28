@@ -9,9 +9,17 @@ time
 import
 traceback
 import
-urlparse
-import
 uuid
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+urljoin
 errors
 =
 None
@@ -673,8 +681,6 @@ _close_windows
         
 url
 =
-urlparse
-.
 urljoin
 (
 self
@@ -687,7 +693,6 @@ server_url
 (
 url_protocol
 )
-                               
 "
 /
 testharness_runner
@@ -6396,8 +6401,6 @@ urlCount
 ]
 =
 {
-urlparse
-.
 urljoin
 (
 self
