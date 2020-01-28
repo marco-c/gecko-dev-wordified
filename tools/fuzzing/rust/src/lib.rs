@@ -1750,7 +1750,7 @@ pop
 .
 unwrap_or
 (
-1
+0
 )
 as
 u32
