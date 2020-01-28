@@ -3813,6 +3813,14 @@ NS_IsMainThread
 )
 )
 ;
+MonitorAutoLock
+lock
+(
+GetMonitor
+(
+)
+)
+;
 mDriver
 =
 aDriver
