@@ -3,7 +3,7 @@ six
 .
 moves
 import
-xrange
+range
 class
 NodeVisitor
 (
@@ -463,7 +463,7 @@ index
 for
 i
 in
-xrange
+range
 (
 index
 )

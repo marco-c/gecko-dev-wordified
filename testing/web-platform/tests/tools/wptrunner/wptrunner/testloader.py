@@ -44,7 +44,7 @@ six
 .
 moves
 import
-xrange
+range
 from
 .
 import
@@ -1259,7 +1259,7 @@ sep
 for
 i
 in
-xrange
+range
 (
 len
 (
@@ -2117,7 +2117,7 @@ deque
 for
 _
 in
-xrange
+range
 (
 processes
 )
@@ -2135,7 +2135,7 @@ None
 for
 _
 in
-xrange
+range
 (
 processes
 )

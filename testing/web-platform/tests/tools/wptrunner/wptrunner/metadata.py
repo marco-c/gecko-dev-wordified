@@ -30,6 +30,7 @@ six
 moves
 import
 intern
+range
 from
 .
 import
@@ -1348,7 +1349,7 @@ self
 for
 i
 in
-xrange
+range
 (
 1
 len
