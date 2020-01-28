@@ -7,7 +7,7 @@ x86
 7
 .
 0
-unit
+wrench
 tests
 #
 #
@@ -266,20 +266,6 @@ linux
 platform
 -
 tools
-"
-        
-"
-MINIDUMP_SAVEPATH
-"
-:
-"
-%
-(
-abs_work_dir
-)
-s
-/
-minidumps
 "
     
 }

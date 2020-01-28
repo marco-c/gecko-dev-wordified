@@ -67,23 +67,6 @@ PATH
 )
 s
 "
-        
-"
-MINIDUMP_SAVEPATH
-"
-:
-"
-%
-(
-abs_work_dir
-)
-s
-/
-.
-.
-/
-minidumps
-"
     
 }
     
