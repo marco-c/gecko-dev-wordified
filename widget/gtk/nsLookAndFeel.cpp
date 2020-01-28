@@ -2055,6 +2055,9 @@ AppendElement
 (
 LookAndFeelInt
 {
+.
+id
+=
 id
 .
 value
