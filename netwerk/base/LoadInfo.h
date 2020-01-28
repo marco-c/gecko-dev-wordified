@@ -1138,8 +1138,6 @@ bool
 aDocumentHasUserInteracted
 bool
 aDocumentHasLoaded
-bool
-aAllowListFutureDocumentsCreatedFromThisRedirectChain
 const
 nsAString
 &
@@ -1637,9 +1635,6 @@ mDocumentHasUserInteracted
 ;
 bool
 mDocumentHasLoaded
-;
-bool
-mAllowListFutureDocumentsCreatedFromThisRedirectChain
 ;
 nsString
 mCspNonce
