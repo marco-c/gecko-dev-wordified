@@ -2576,6 +2576,11 @@ ProcessFirstMinidump
 )
 ;
 void
+HandleOrphanedMinidump
+(
+)
+;
+void
 AddCrashAnnotations
 (
 )

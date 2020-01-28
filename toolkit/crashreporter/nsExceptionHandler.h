@@ -1333,6 +1333,7 @@ dump
 ID
 *
 /
+MOZ_MUST_USE
 bool
 FinalizeOrphanedMinidump
 (
