@@ -543,7 +543,11 @@ to_computed_value
 context
 )
 .
-length_component
+to_length
+(
+)
+.
+unwrap
 (
 )
 }
