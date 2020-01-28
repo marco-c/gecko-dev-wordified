@@ -112,7 +112,9 @@ set
 [
 [
 "
-csp
+dom
+.
+security
 .
 skip_about_page_has_csp_assert
 "
@@ -378,7 +380,9 @@ level
 ]
 [
 "
-csp
+dom
+.
+security
 .
 skip_about_page_has_csp_assert
 "
@@ -667,7 +671,9 @@ level
 ]
 [
 "
-csp
+dom
+.
+security
 .
 skip_about_page_has_csp_assert
 "
