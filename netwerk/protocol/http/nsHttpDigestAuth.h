@@ -100,6 +100,13 @@ nsDigestAuth_h__
 #
 include
 "
+nsICryptoHash
+.
+h
+"
+#
+include
+"
 nsIHttpAuthenticator
 .
 h
@@ -136,9 +143,6 @@ StaticPtr
 .
 h
 "
-class
-nsICryptoHash
-;
 namespace
 mozilla
 {
