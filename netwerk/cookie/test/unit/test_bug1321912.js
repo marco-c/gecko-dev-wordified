@@ -421,7 +421,7 @@ equal
 conn
 .
 schemaVersion
-11
+10
 )
 ;
 let
@@ -521,6 +521,17 @@ moz_cookies
 +
 "
 WHERE
+baseDomain
+=
+'
+foo
+.
+com
+'
+AND
+"
++
+"
 host
 =
 '

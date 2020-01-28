@@ -1521,6 +1521,11 @@ aName
 )
 ;
 nsresult
+CreateIndex
+(
+)
+;
+nsresult
 CreateTable
 (
 )
