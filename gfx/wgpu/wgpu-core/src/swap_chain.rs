@@ -1151,9 +1151,7 @@ sc
 .
 life_guard
 .
-ref_count
-.
-clone
+add_ref
 (
 )
 }
@@ -1256,9 +1254,7 @@ view
 .
 life_guard
 .
-ref_count
-.
-clone
+add_ref
 (
 )
 ;

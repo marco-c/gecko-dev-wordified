@@ -113,16 +113,6 @@ mozilla
 namespace
 webgpu
 {
-ComputePipeline
-:
-:
-~
-ComputePipeline
-(
-)
-=
-default
-;
 GPU_IMPL_CYCLE_COLLECTION
 (
 ComputePipeline

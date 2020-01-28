@@ -158,6 +158,12 @@ RenderBundle
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

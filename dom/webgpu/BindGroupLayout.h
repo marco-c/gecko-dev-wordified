@@ -152,9 +152,15 @@ BindGroupLayout
 =
 delete
 ;
-virtual
 ~
 BindGroupLayout
+(
+)
+=
+default
+;
+void
+Cleanup
 (
 )
 ;

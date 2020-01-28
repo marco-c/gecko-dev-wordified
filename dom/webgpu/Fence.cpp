@@ -117,16 +117,6 @@ mozilla
 namespace
 webgpu
 {
-Fence
-:
-:
-~
-Fence
-(
-)
-=
-default
-;
 GPU_IMPL_CYCLE_COLLECTION
 (
 Fence

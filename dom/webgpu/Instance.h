@@ -229,6 +229,11 @@ Instance
 (
 )
 ;
+void
+Cleanup
+(
+)
+;
 nsCOMPtr
 <
 nsIGlobalObject

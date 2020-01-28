@@ -115,16 +115,6 @@ GPU_IMPL_JS_WRAP
 (
 DeviceLostInfo
 )
-DeviceLostInfo
-:
-:
-~
-DeviceLostInfo
-(
-)
-=
-default
-;
 }
 /
 /

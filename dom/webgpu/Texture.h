@@ -172,6 +172,12 @@ Texture
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 public
 :
 }

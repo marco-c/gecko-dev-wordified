@@ -158,6 +158,12 @@ RenderPipeline
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

@@ -158,6 +158,12 @@ TextureView
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

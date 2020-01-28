@@ -152,9 +152,15 @@ BindGroup
 =
 delete
 ;
-virtual
 ~
 BindGroup
+(
+)
+=
+default
+;
+void
+Cleanup
 (
 )
 ;

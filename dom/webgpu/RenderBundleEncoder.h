@@ -157,7 +157,6 @@ delete
 ;
 private
 :
-virtual
 ~
 RenderBundleEncoder
 (

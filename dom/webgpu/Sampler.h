@@ -158,6 +158,12 @@ Sampler
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

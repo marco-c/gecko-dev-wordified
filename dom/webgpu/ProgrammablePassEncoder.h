@@ -216,12 +216,9 @@ ProgrammablePassEncoder
 ProgrammablePassEncoder
 (
 )
-=
-delete
 ;
 protected
 :
-virtual
 ~
 ProgrammablePassEncoder
 (
@@ -229,6 +226,12 @@ ProgrammablePassEncoder
 =
 default
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

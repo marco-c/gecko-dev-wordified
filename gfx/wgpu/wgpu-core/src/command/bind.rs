@@ -463,9 +463,7 @@ bind_group
 .
 life_guard
 .
-ref_count
-.
-clone
+add_ref
 (
 )
 }

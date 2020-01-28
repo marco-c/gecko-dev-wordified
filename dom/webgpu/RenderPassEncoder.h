@@ -198,6 +198,12 @@ RenderPassEncoder
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 public
 :
 }
