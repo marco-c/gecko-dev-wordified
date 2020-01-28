@@ -93,6 +93,10 @@ urllib
 request
 import
 urlretrieve
+from
+redo
+import
+retriable
 try
 :
     
@@ -428,6 +432,12 @@ x64
     
 return
 str_to_transform
+retriable
+(
+sleeptime
+=
+2
+)
 def
 tooltool_download
 (
@@ -699,10 +709,24 @@ run
 (
 )
         
+if
 proc
 .
 wait
 (
+)
+!
+=
+0
+:
+            
+raise
+Exception
+(
+"
+Command
+failed
+"
 )
     
 except
@@ -719,8 +743,8 @@ critical
 Error
 while
 downloading
-the
-hostutils
+{
+}
 from
 tooltool
 :
@@ -730,6 +754,8 @@ tooltool
 .
 format
 (
+                     
+manifest
 str
 (
 e
