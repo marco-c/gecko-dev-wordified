@@ -5469,7 +5469,7 @@ margin
 const
 nsMargin
 &
-GetMargin
+GetPhysicalMargin
 (
 )
 const
@@ -17913,7 +17913,9 @@ ResolvedAscent
 aUseFirstLineBaseline
 )
 +
-mMargin
+GetPhysicalMargin
+(
+)
 .
 Side
 (
@@ -34139,7 +34141,7 @@ EnterMargin
 item
 -
 >
-GetMargin
+GetPhysicalMargin
 (
 )
 )
@@ -34177,7 +34179,7 @@ ExitMargin
 item
 -
 >
-GetMargin
+GetPhysicalMargin
 (
 )
 )
@@ -35046,7 +35048,7 @@ EnterMargin
 item
 -
 >
-GetMargin
+GetPhysicalMargin
 (
 )
 )
@@ -41106,7 +41108,7 @@ propValue
 item
 -
 >
-GetMargin
+GetPhysicalMargin
 (
 )
 ;
