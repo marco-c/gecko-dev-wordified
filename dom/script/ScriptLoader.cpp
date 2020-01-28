@@ -18041,7 +18041,7 @@ profilerLabelString
 AUTO_PROFILER_TEXT_MARKER_DOCSHELL
 (
 "
-Script
+ScriptEvaluation
 "
 profilerLabelString
 JS
