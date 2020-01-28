@@ -85,7 +85,6 @@ DER
 .
 jsm
 "
-null
 )
 ;
 const
@@ -876,7 +875,7 @@ _der
 new
 DER
 .
-DER
+DERDecoder
 (
 bytes
 )
@@ -963,7 +962,7 @@ return
 new
 DER
 .
-DER
+DERDecoder
 (
 der
 .
@@ -1052,7 +1051,7 @@ return
 new
 DER
 .
-DER
+DERDecoder
 (
 der
 .

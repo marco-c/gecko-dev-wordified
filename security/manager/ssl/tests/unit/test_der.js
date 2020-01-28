@@ -89,7 +89,6 @@ DER
 .
 jsm
 "
-null
 )
 ;
 function
@@ -106,7 +105,7 @@ throws
 new
 DER
 .
-DER
+DERDecoder
 (
 "
 this
@@ -140,7 +139,7 @@ throws
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0
@@ -179,7 +178,7 @@ throws
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 31
@@ -216,7 +215,7 @@ throws
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0
@@ -256,7 +255,7 @@ throws
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 1
@@ -294,7 +293,7 @@ throws
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 1
@@ -328,7 +327,7 @@ testReadByte
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x0a
@@ -399,7 +398,7 @@ testReadBytes
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x0c
@@ -437,7 +436,7 @@ testReadNegativeBytes
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0xff
@@ -480,7 +479,7 @@ testReadZeroBytes
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 ]
@@ -518,7 +517,7 @@ testReadTooManyBytes
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0xab
@@ -559,7 +558,7 @@ testSEQUENCE
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -662,7 +661,7 @@ truncatedSEQUENCE
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -723,7 +722,7 @@ extraDataSEQUENCE
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -857,7 +856,7 @@ invalidLengthSEQUENCE1
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -918,7 +917,7 @@ invalidLengthSEQUENCE2
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -976,7 +975,7 @@ unsupportedLengthSEQUENCE
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -1038,7 +1037,7 @@ unsupportedASN1SEQUENCE
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -1088,7 +1087,7 @@ unexpectedTag
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x31
@@ -1132,7 +1131,7 @@ readTLVTestcase
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x02
@@ -1182,7 +1181,7 @@ peekTagTestcase
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -1284,7 +1283,7 @@ tlvChoiceTestcase
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x31
@@ -1335,7 +1334,7 @@ tlvChoiceNoMatchTestcase
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x30
@@ -1392,7 +1391,7 @@ bitstringDER
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x03
@@ -1456,7 +1455,7 @@ bitstringTooManyUnusedBits
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x03
@@ -1525,7 +1524,7 @@ bitstringMissingUnusedBits
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x03
@@ -1597,7 +1596,7 @@ minimalBitstringDER
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x03
@@ -1683,7 +1682,7 @@ noContentsPaddedBitstringDER
 new
 DER
 .
-DER
+DERDecoder
 (
 [
 0x03
@@ -1799,7 +1798,7 @@ der
 new
 DER
 .
-DER
+DERDecoder
 (
 derBytes
 )
@@ -1810,7 +1809,7 @@ contents
 new
 DER
 .
-DER
+DERDecoder
 (
 der
 .
@@ -1887,7 +1886,7 @@ firstNested
 new
 DER
 .
-DER
+DERDecoder
 (
 contents
 .
@@ -1975,7 +1974,7 @@ secondNested
 new
 DER
 .
-DER
+DERDecoder
 (
 contents
 .
@@ -2112,7 +2111,7 @@ invalidDER
 new
 DER
 .
-DER
+DERDecoder
 (
 invalidDERBytes
 )
@@ -2123,7 +2122,7 @@ invalidContents
 new
 DER
 .
-DER
+DERDecoder
 (
 invalidDER
 .
@@ -2141,7 +2140,7 @@ invalidContentsContents
 new
 DER
 .
-DER
+DERDecoder
 (
 invalidContents
 .

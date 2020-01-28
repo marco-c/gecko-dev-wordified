@@ -150,7 +150,7 @@ der
 new
 DER
 .
-DER
+DERDecoder
 (
 bytes
 )
@@ -163,7 +163,7 @@ contents
 new
 DER
 .
-DER
+DERDecoder
 (
 der
 .
@@ -737,7 +737,7 @@ it
 *
 /
 class
-DER
+DERDecoder
 {
 /
 *
@@ -2214,8 +2214,7 @@ tag
 ;
 }
 }
-this
-.
+const
 DER
 =
 {
@@ -2234,11 +2233,10 @@ GeneralizedTime
 UTF8String
 SEQUENCE
 SET
-DER
+DERDecoder
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
