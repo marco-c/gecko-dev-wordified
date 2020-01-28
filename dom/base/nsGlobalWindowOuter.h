@@ -4264,7 +4264,7 @@ void
 SetCursorOuter
 (
 const
-nsAString
+nsACString
 &
 aCursor
 mozilla
