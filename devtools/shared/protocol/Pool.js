@@ -448,7 +448,7 @@ server
 /
 tests
 /
-unit
+xpcshell
 /
 test_addon_reload
 .
