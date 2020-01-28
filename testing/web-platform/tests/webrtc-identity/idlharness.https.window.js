@@ -51,6 +51,9 @@ html
 '
 dom
 '
+'
+WebIDL
+'
 ]
 async
 idlArray
