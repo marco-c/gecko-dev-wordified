@@ -6375,6 +6375,15 @@ SetIterator
 Arguments
 Error
 BigInt
+Function
+/
+/
+Note
+:
+Only
+JSFunction
+objects
+.
 /
 *
 *
