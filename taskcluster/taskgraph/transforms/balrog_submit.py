@@ -123,18 +123,6 @@ taskgraph
 .
 util
 .
-scriptworker
-import
-(
-    
-get_balrog_server_scope
-get_worker_type_for_scope
-)
-from
-taskgraph
-.
-util
-.
 treeherder
 import
 replace_group
@@ -872,13 +860,6 @@ json
 }
 ]
         
-server_scope
-=
-get_balrog_server_scope
-(
-config
-)
-        
 task
 =
 {
@@ -901,11 +882,9 @@ worker
 type
 '
 :
-get_worker_type_for_scope
-(
-config
-server_scope
-)
+'
+balrog
+'
             
 '
 worker

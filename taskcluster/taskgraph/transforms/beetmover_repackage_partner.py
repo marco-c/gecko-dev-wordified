@@ -151,8 +151,6 @@ import
 add_scope_prefix
     
 get_beetmover_bucket_scope
-    
-get_worker_type_for_scope
 )
 from
 taskgraph
@@ -1095,11 +1093,9 @@ type
 '
 ]
 =
-get_worker_type_for_scope
-(
-config
-bucket_scope
-)
+'
+beetmover
+'
     
 task
 [

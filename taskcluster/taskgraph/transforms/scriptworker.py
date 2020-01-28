@@ -86,8 +86,6 @@ import
 get_balrog_action_scope
     
 get_balrog_server_scope
-    
-get_worker_type_for_scope
 )
 def
 add_balrog_scopes
@@ -147,21 +145,6 @@ scopes
 server_scope
 action_scope
 ]
-        
-job
-[
-'
-worker
--
-type
-'
-]
-=
-get_worker_type_for_scope
-(
-config
-server_scope
-)
         
 yield
 job

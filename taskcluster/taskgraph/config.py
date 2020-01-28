@@ -598,33 +598,6 @@ prefix
 )
 :
 text_type
-        
-#
-Mapping
-of
-scriptworker
-types
-to
-scopes
-they
-accept
-        
-Required
-(
-'
-worker
--
-types
-'
-)
-:
-{
-text_type
-:
-[
-text_type
-]
-}
     
 }
     

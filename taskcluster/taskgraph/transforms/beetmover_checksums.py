@@ -127,8 +127,6 @@ generate_beetmover_upstream_artifacts
 get_beetmover_action_scope
                                          
 get_beetmover_bucket_scope
-                                         
-get_worker_type_for_scope
 )
 from
 voluptuous
@@ -747,11 +745,9 @@ worker
 type
 '
 :
-get_worker_type_for_scope
-(
-config
-bucket_scope
-)
+'
+beetmover
+'
             
 '
 scopes
