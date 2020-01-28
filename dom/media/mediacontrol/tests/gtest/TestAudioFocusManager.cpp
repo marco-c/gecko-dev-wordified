@@ -400,7 +400,7 @@ FIRST_CONTROLLER_ID
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 controller1
 )
@@ -464,7 +464,7 @@ SECOND_CONTROLLER_ID
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 controller2
 )
@@ -510,7 +510,7 @@ GetAudioFocusNums
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 controller1
 )
@@ -518,7 +518,7 @@ controller1
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 controller2
 )

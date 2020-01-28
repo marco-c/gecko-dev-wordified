@@ -916,7 +916,7 @@ service
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 this
 )
@@ -951,7 +951,7 @@ service
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 this
 )

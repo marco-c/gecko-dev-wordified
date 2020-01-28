@@ -118,7 +118,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -153,7 +153,7 @@ SECOND_CONTROLLER_ID
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 controller1
 )
@@ -163,7 +163,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -174,7 +174,7 @@ GetControllersNum
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 controller2
 )
@@ -184,7 +184,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -195,7 +195,7 @@ GetControllersNum
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 controller1
 )
@@ -205,7 +205,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -216,7 +216,7 @@ GetControllersNum
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 controller2
 )
@@ -226,7 +226,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -259,7 +259,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -282,7 +282,7 @@ FIRST_CONTROLLER_ID
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 controller1
 )
@@ -328,7 +328,7 @@ SECOND_CONTROLLER_ID
 service
 -
 >
-AddMediaController
+RegisterActiveMediaController
 (
 controller2
 )
@@ -358,7 +358,7 @@ SECOND_CONTROLLER_ID
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 controller2
 )
@@ -388,7 +388,7 @@ FIRST_CONTROLLER_ID
 service
 -
 >
-RemoveMediaController
+UnregisterActiveMediaController
 (
 controller1
 )
@@ -407,7 +407,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =

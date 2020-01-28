@@ -362,7 +362,7 @@ controller
 mService
 -
 >
-GetControllerById
+GetActiveControllerById
 (
 controllerId
 )

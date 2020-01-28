@@ -38470,7 +38470,7 @@ controller
 service
 -
 >
-GetControllerById
+GetActiveControllerById
 (
 aContext
 -

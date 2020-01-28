@@ -286,7 +286,7 @@ const
 ;
 MediaController
 *
-GetControllerById
+GetActiveControllerById
 (
 uint64_t
 aId
@@ -314,7 +314,7 @@ mMediaControlKeysManager
 ;
 }
 void
-AddMediaController
+RegisterActiveMediaController
 (
 MediaController
 *
@@ -322,7 +322,7 @@ aController
 )
 ;
 void
-RemoveMediaController
+UnregisterActiveMediaController
 (
 MediaController
 *
@@ -330,7 +330,7 @@ aController
 )
 ;
 uint64_t
-GetControllersNum
+GetActiveControllersNum
 (
 )
 const
