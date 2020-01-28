@@ -2004,6 +2004,11 @@ id
 ;
 }
 }
+FX_MONITOR_OAUTH_CLIENT_ID
+:
+"
+fake_client_id
+"
 TelemetryEnvironment
 :
 {
