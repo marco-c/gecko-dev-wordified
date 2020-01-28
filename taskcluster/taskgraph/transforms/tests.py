@@ -4447,24 +4447,6 @@ video
 =
 True
         
-else
-:
-            
-#
-all
-non
--
-android
-tests
-want
-to
-run
-the
-bits
-that
-require
-node
-            
 test
 [
 '
