@@ -92,5 +92,8 @@ assert
 false
 )
 ;
+return
+0
+;
 }
 }
