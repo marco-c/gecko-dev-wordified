@@ -712,6 +712,11 @@ compiler
 .
 compile
 (
+data
+.
+stackmaps
+(
+)
 )
 {
 error
