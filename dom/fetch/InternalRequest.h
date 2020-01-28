@@ -2285,9 +2285,13 @@ mMode
 RequestCredentials
 mCredentialsMode
 ;
-MOZ_INIT_OUTSIDE_CTOR
 LoadTainting
 mResponseTainting
+=
+LoadTainting
+:
+:
+Basic
 ;
 RequestCache
 mCacheMode

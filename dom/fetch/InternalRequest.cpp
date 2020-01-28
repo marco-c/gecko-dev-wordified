@@ -685,13 +685,6 @@ RequestCredentials
 :
 Omit
 )
-mResponseTainting
-(
-LoadTainting
-:
-:
-Basic
-)
 mCacheMode
 (
 RequestCache
@@ -878,13 +871,6 @@ aMode
 mCredentialsMode
 (
 aRequestCredentials
-)
-mResponseTainting
-(
-LoadTainting
-:
-:
-Basic
 )
 mCacheMode
 (
