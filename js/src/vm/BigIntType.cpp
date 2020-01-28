@@ -22719,10 +22719,10 @@ if
 xSign
 )
 {
-mozilla
+std
 :
 :
-Swap
+swap
 (
 x
 y

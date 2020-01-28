@@ -182,12 +182,6 @@ js
 :
 jit
 ;
-using
-mozilla
-:
-:
-Swap
-;
 MIRGenerator
 :
 :
@@ -8085,7 +8079,10 @@ element
 in
 predecessors_
 .
-Swap
+std
+:
+:
+swap
 (
 predecessors_
 [

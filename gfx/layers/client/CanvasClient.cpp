@@ -1541,7 +1541,10 @@ GG
 BB
 AA
 ]
-Swap
+std
+:
+:
+swap
 (
 pixel
 [

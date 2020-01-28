@@ -1430,7 +1430,10 @@ row
 rowEnd
 )
 {
-Swap
+std
+:
+:
+swap
 (
 row
 [

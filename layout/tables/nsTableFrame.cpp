@@ -48965,7 +48965,10 @@ IsVerticalRL
 )
 )
 {
-Swap
+std
+:
+:
+swap
 (
 result
 .
@@ -48975,7 +48978,10 @@ result
 mEndBevelSide
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 result
 .
@@ -51688,7 +51694,10 @@ IsBidiRTL
 )
 )
 {
-Swap
+std
+:
+:
+swap
 (
 result
 .
@@ -51698,7 +51707,10 @@ result
 mEndBevelSide
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 result
 .

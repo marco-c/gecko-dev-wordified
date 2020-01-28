@@ -190,12 +190,6 @@ mozilla
 :
 FloorLog2
 ;
-using
-mozilla
-:
-:
-Swap
-;
 LTableSwitch
 *
 LIRGeneratorX86Shared

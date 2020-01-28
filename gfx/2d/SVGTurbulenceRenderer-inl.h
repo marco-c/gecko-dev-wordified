@@ -1009,7 +1009,10 @@ Next
 %
 sBSize
 ;
-Swap
+std
+:
+:
+swap
 (
 mLatticeSelector
 [

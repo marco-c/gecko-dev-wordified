@@ -6505,7 +6505,10 @@ to
 physical
 coordinates
 .
-Swap
+std
+:
+:
+swap
 (
 fillInAppUnits
 .
@@ -6515,7 +6518,10 @@ fillInAppUnits
 y
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 fillInAppUnits
 .
@@ -30577,7 +30583,10 @@ IsVertical
 )
 )
 {
-Swap
+std
+:
+:
+swap
 (
 direction
 .

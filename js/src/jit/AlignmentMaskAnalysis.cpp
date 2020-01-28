@@ -457,10 +457,10 @@ isConstant
 )
 )
 {
-mozilla
+std
 :
 :
-Swap
+swap
 (
 lhs
 rhs
@@ -534,10 +534,10 @@ isConstant
 )
 )
 {
-mozilla
+std
 :
 :
-Swap
+swap
 (
 op0
 op1

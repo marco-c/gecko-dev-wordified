@@ -18480,7 +18480,10 @@ IsLineInverted
 )
 )
 {
-Swap
+std
+:
+:
+swap
 (
 ascent
 descent

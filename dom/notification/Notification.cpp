@@ -7230,10 +7230,10 @@ NotificationRef
 >
 ownership
 ;
-mozilla
+std
 :
 :
-Swap
+swap
 (
 ownership
 mTempRef
@@ -10465,10 +10465,10 @@ NotificationRef
 >
 ownership
 ;
-mozilla
+std
 :
 :
-Swap
+swap
 (
 ownership
 mTempRef

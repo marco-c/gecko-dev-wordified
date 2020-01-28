@@ -16730,10 +16730,10 @@ iend
 i
 )
 {
-mozilla
+std
 :
 :
-Swap
+swap
 (
 elements
 [

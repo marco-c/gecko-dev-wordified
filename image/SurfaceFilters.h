@@ -9557,7 +9557,10 @@ row
 save
 it
 .
-Swap
+std
+:
+:
+swap
 (
 mPreviousRow
 mCurrentRow
