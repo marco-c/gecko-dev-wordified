@@ -1249,9 +1249,6 @@ JSObject
 *
 >
 aObj
-bool
-*
-aSameProcessRequired
 void
 *
 aClosure
@@ -2193,9 +2190,6 @@ JSObject
 *
 >
 aObj
-bool
-*
-aSameProcessRequired
 void
 *
 aClosure

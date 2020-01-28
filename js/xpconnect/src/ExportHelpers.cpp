@@ -888,9 +888,6 @@ JSObject
 *
 >
 aObj
-bool
-*
-aSameProcessScopeRequired
 )
 override
 {
