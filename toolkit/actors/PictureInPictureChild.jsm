@@ -668,7 +668,7 @@ willDestroy
 {
 this
 .
-removeMouseButtonListeners
+stopTrackingMouseOverVideos
 (
 )
 ;
