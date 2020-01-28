@@ -96,6 +96,7 @@ resource
 :
 BufferUsage
 BufferAddress
+DynamicOffset
 }
 ;
 use
@@ -157,7 +158,7 @@ phantom_offsets
 :
 PhantomSlice
 <
-BufferAddress
+DynamicOffset
 >
 }
 SetPipeline
@@ -649,6 +650,8 @@ assert_eq
 (
 *
 off
+as
+BufferAddress
 %
 BIND_BUFFER_ALIGNMENT
 0
@@ -1285,6 +1288,7 @@ crate
 {
 id
 BufferAddress
+DynamicOffset
 RawString
 }
 ;
@@ -1331,7 +1335,7 @@ offsets
 :
 *
 const
-BufferAddress
+DynamicOffset
 offset_length
 :
 usize
