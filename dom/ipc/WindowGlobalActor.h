@@ -220,6 +220,14 @@ nsIPrincipal
 aPrincipal
 )
 ;
+virtual
+bool
+IsInProcess
+(
+)
+=
+0
+;
 protected
 :
 virtual
