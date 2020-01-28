@@ -38,6 +38,7 @@ tests
 import
 {
 TestGroup
+poptions
 }
 from
 '
@@ -60,7 +61,7 @@ js
 import
 {
 textureFormatInfo
-textureFormatParams
+textureFormats
 }
 from
 '
@@ -270,7 +271,7 @@ Uint32Array
 [
 119734787
 66304
-524295
+524296
 21
 0
 131089
@@ -800,13 +801,13 @@ t
 >
 {
 const
-{
 format
-}
 =
 t
 .
 params
+.
+format
 ;
 const
 info
@@ -903,7 +904,13 @@ descriptor
 .
 params
 (
-textureFormatParams
+poptions
+(
+'
+format
+'
+textureFormats
+)
 )
 ;
 g

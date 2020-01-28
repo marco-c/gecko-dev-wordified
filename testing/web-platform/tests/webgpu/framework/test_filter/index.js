@@ -29,6 +29,7 @@ cts
 export
 {
 loadFilter
+makeFilter
 }
 from
 '
