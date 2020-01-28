@@ -43,7 +43,7 @@ mark
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidModificationError
@@ -120,7 +120,7 @@ mark
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidModificationError
