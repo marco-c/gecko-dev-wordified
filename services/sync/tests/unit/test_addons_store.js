@@ -347,7 +347,7 @@ setBoolPref
 "
 extensions
 .
-legacy
+experiments
 .
 enabled
 "

@@ -2561,7 +2561,7 @@ pref
 "
 extensions
 .
-legacy
+experiments
 .
 enabled
 "

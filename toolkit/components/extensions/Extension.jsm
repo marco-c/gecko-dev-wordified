@@ -11871,9 +11871,9 @@ builtIn
 |
 |
 (
-AppConstants
+AddonSettings
 .
-MOZ_ALLOW_LEGACY_EXTENSIONS
+EXPERIMENTS_ENABLED
 &
 &
 this
@@ -11893,7 +11893,7 @@ experimentsAllowed
 return
 AddonSettings
 .
-ALLOW_LEGACY_EXTENSIONS
+EXPERIMENTS_ENABLED
 |
 |
 this
