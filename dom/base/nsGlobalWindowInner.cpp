@@ -36236,16 +36236,6 @@ profiler_can_accept_markers
 )
 )
 {
-nsCOMPtr
-<
-nsIDocShell
->
-docShell
-=
-GetDocShell
-(
-)
-;
 nsCString
 str
 ;
@@ -36328,7 +36318,7 @@ Append
 handlerDescription
 )
 ;
-AUTO_PROFILER_TEXT_MARKER_DOCSHELL_CAUSE
+AUTO_PROFILER_TEXT_MARKER_CAUSE
 (
 "
 setTimeout
@@ -36336,7 +36326,10 @@ callback
 "
 str
 JS
-docShell
+Some
+(
+mWindowID
+)
 timeout
 -
 >

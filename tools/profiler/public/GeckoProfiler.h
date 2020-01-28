@@ -518,6 +518,8 @@ AUTO_PROFILER_TEXT_MARKER_CAUSE
 markerName
 text
 categoryPair
+\
+innerWindowID
 cause
 )
 #
@@ -8027,6 +8029,7 @@ markerName
 text
 categoryPair
 \
+innerWindowID
 cause
 )
 \
@@ -8044,12 +8047,7 @@ ProfilingCategoryPair
 :
 categoryPair
 \
-mozilla
-:
-:
-Nothing
-(
-)
+innerWindowID
 cause
 )
 #
