@@ -1311,14 +1311,6 @@ originalTarget
 menuitem
 )
 {
-tree
-.
-columns
-.
-restoreNaturalOrder
-(
-)
-;
 this
 .
 style

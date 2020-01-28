@@ -1053,11 +1053,6 @@ InvalidateColumns
 (
 )
 ;
-void
-RestoreNaturalOrder
-(
-)
-;
 friend
 class
 nsTreeBodyFrame

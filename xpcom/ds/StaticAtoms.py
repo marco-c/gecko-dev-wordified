@@ -9840,16 +9840,6 @@ order
 Atom
 (
 "
-ordinal
-"
-"
-ordinal
-"
-)
-    
-Atom
-(
-"
 orient
 "
 "
