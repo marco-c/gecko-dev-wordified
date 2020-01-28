@@ -923,6 +923,17 @@ function
 will
 crash
 .
+The
+arena
+must
+be
+empty
+prior
+to
+calling
+this
+function
+.
 MALLOC_DECL
 (
 moz_dispose_arena
