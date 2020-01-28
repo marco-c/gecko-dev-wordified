@@ -1484,7 +1484,7 @@ should
 have
 thrown
 an
-TypeError
+OperationError
 "
 )
 ;
@@ -1500,7 +1500,7 @@ err
 .
 name
 "
-TypeError
+OperationError
 "
 "
 deriveBits
