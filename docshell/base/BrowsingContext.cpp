@@ -1369,10 +1369,10 @@ here
 ?
 (
 Bug
+/
+/
 1608448
 )
-/
-/
 Check
 if
 the
@@ -4669,11 +4669,8 @@ nsDocShell
 :
 ValidateOrigin
 (
-mDocShell
+this
 bc
--
->
-mDocShell
 )
 )
 {
