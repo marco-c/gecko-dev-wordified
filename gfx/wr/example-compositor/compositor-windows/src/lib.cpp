@@ -1211,6 +1211,9 @@ f
 LPCWSTR
 name
 ;
+DWORD
+style
+;
 if
 (
 enable_compositor
@@ -1228,6 +1231,10 @@ DirectComposition
 )
 "
 ;
+style
+=
+WS_EX_NOREDIRECTIONBITMAP
+;
 }
 else
 {
@@ -1243,6 +1250,10 @@ Simple
 )
 "
 ;
+style
+=
+0
+;
 }
 window
 -
@@ -1251,7 +1262,7 @@ hWnd
 =
 CreateWindowEx
 (
-WS_EX_NOREDIRECTIONBITMAP
+style
 CLASS_NAME
 name
 WS_OVERLAPPEDWINDOW
