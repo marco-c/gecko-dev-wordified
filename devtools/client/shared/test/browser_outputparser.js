@@ -611,6 +611,16 @@ name
 +
 '
 "
+tabindex
+=
+"
+0
+"
+role
+=
+"
+button
+"
 >
 <
 /
