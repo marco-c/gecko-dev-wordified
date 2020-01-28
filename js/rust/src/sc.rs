@@ -401,7 +401,7 @@ JS
 :
 CloneDataPolicy
 {
-sharedArrayBuffer_
+allowIntraClusterClonableSharedObjects_
 :
 false
 }
