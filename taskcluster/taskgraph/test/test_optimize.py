@@ -1462,7 +1462,7 @@ i
 for
 i
 in
-xrange
+range
 (
 1
 10
