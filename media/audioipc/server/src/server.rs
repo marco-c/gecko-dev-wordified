@@ -2833,8 +2833,8 @@ let
 Ok
 (
 (
-stm1
-stm2
+ipc_server
+ipc_client
 )
 )
 =
@@ -2865,8 +2865,8 @@ pair
 ?
 }
 "
-stm1
-stm2
+ipc_server
+ipc_client
 )
 ;
 /
@@ -2964,7 +2964,7 @@ default
 let
 stream
 =
-stm2
+ipc_server
 .
 into_tokio_ipc
 (
@@ -3152,7 +3152,7 @@ PlatformHandle
 :
 from
 (
-stm1
+ipc_client
 )
 PlatformHandle
 :
@@ -3749,8 +3749,8 @@ as_ref
 ;
 let
 (
-stm1
-stm2
+ipc_server
+ipc_client
 )
 =
 MessageStream
@@ -3779,8 +3779,8 @@ pair
 ?
 }
 "
-stm1
-stm2
+ipc_server
+ipc_client
 )
 ;
 let
@@ -3947,7 +3947,7 @@ default
 let
 stream
 =
-stm2
+ipc_server
 .
 into_tokio_ipc
 (
@@ -4427,7 +4427,7 @@ PlatformHandle
 :
 from
 (
-stm1
+ipc_client
 )
 PlatformHandle
 :
