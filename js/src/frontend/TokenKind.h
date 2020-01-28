@@ -566,6 +566,17 @@ operator
 \
 MACRO
 (
+OptionalChain
+"
+'
+?
+.
+'
+"
+)
+\
+MACRO
+(
 LeftBracket
 "
 '

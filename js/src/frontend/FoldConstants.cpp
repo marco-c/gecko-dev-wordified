@@ -2348,6 +2348,12 @@ case
 ParseNodeKind
 :
 :
+DeleteOptionalChainExpr
+:
+case
+ParseNodeKind
+:
+:
 DeleteExpr
 :
 case
