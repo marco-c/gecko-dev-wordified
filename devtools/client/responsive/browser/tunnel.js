@@ -3538,11 +3538,6 @@ browser
 .
 js
 "
-Browser
-:
-LoadURI
-"
-"
 PageStyle
 :
 StyleSheets
