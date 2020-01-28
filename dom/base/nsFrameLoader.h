@@ -2512,6 +2512,11 @@ return
 mDocShell
 ;
 }
+void
+AssertSafeToInit
+(
+)
+;
 /
 /
 Updates
