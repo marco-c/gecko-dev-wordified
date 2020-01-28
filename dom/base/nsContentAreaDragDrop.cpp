@@ -258,6 +258,13 @@ h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 nsIImageLoadingContent
 .
 h
@@ -836,6 +843,8 @@ inTriggeringPrincipal
 nsIFile
 *
 inDestFile
+nsContentPolicyType
+inContentPolicyType
 bool
 isPrivate
 )
@@ -984,6 +993,7 @@ nullptr
 nullptr
 nullptr
 inDestFile
+inContentPolicyType
 isPrivate
 )
 ;
@@ -2006,6 +2016,16 @@ GetRequestingPrincipal
 (
 )
 ;
+nsContentPolicyType
+contentPolicyType
+=
+aTransferable
+-
+>
+GetContentPolicyType
+(
+)
+;
 rv
 =
 SaveURIToFile
@@ -2013,6 +2033,7 @@ SaveURIToFile
 sourceURI
 principal
 file
+contentPolicyType
 isPrivate
 )
 ;

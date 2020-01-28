@@ -550,6 +550,8 @@ inTriggeringPrincipal
 nsIFile
 *
 inDestFile
+nsContentPolicyType
+inPolicyType
 bool
 isPrivate
 )

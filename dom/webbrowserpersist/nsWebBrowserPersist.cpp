@@ -2249,6 +2249,8 @@ aExtraHeaders
 nsISupports
 *
 aFile
+nsContentPolicyType
+aContentPolicyType
 nsILoadContext
 *
 aPrivacyContext
@@ -2277,6 +2279,7 @@ aReferrerInfo
 aPostData
 aExtraHeaders
 aFile
+aContentPolicyType
 isPrivate
 )
 ;
@@ -2308,6 +2311,8 @@ aExtraHeaders
 nsISupports
 *
 aFile
+nsContentPolicyType
+aContentPolicy
 bool
 aIsPrivate
 )
@@ -2378,10 +2383,7 @@ SaveURIInternal
 (
 aURI
 aPrincipal
-nsIContentPolicy
-:
-:
-TYPE_SAVEAS_DOWNLOAD
+aContentPolicy
 aCacheKey
 aReferrerInfo
 aPostData

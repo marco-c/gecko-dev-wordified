@@ -1042,6 +1042,10 @@ referrerInfo
 nullptr
 nullptr
 mBackgroundFile
+nsIContentPolicy
+:
+:
+TYPE_IMAGE
 loadContext
 )
 ;
