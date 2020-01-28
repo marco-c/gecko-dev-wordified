@@ -131,7 +131,11 @@ h
 #
 include
 "
-SharedMessagePortMessage
+mozilla
+/
+dom
+/
+SharedMessageBody
 .
 h
 "
@@ -307,7 +311,7 @@ FallibleTArray
 <
 RefPtr
 <
-SharedMessagePortMessage
+SharedMessageBody
 >
 >
 messages
@@ -317,7 +321,7 @@ if
 NS_WARN_IF
 (
 !
-SharedMessagePortMessage
+SharedMessageBody
 :
 :
 FromMessagesToSharedParent
@@ -456,7 +460,7 @@ FallibleTArray
 <
 RefPtr
 <
-SharedMessagePortMessage
+SharedMessageBody
 >
 >
 messages
@@ -466,7 +470,7 @@ if
 NS_WARN_IF
 (
 !
-SharedMessagePortMessage
+SharedMessageBody
 :
 :
 FromMessagesToSharedParent
