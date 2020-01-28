@@ -526,6 +526,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIEventTarget
 .
 h

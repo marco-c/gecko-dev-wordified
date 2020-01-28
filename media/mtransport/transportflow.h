@@ -173,6 +173,13 @@ m_cpp_utils
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 /
 /
 A
@@ -706,7 +713,7 @@ static
 void
 DestroyFinal
 (
-UniquePtr
+nsAutoPtr
 <
 std
 :
