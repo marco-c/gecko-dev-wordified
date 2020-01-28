@@ -494,10 +494,6 @@ LengthPercentage
 )
 BASIC_SERDE_FUNCS
 (
-RayFunction
-)
-BASIC_SERDE_FUNCS
-(
 StyleRotate
 )
 BASIC_SERDE_FUNCS
@@ -511,6 +507,10 @@ StyleTranslate
 BASIC_SERDE_FUNCS
 (
 StyleTransform
+)
+BASIC_SERDE_FUNCS
+(
+StyleOffsetPath
 )
 #
 undef
