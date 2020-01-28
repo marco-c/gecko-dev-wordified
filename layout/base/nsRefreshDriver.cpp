@@ -12005,6 +12005,11 @@ mResizeSuppressed
 =
 false
 ;
+bool
+oldInRefresh
+=
+mInRefresh
+;
 auto
 restoreInRefresh
 =
@@ -12016,7 +12021,7 @@ MakeScopeExit
 {
 mInRefresh
 =
-false
+oldInRefresh
 ;
 }
 )
