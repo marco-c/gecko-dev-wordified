@@ -606,7 +606,9 @@ context
                 
 result
 =
-str
+six
+.
+text_type
 (
 self
 .
@@ -849,9 +851,7 @@ bar
 )
 '
 :
-'
 1
-'
             
 '
 __has_warning
@@ -868,9 +868,7 @@ foo
 )
 '
 :
-'
 1
-'
         
 }
 )
@@ -1157,7 +1155,7 @@ IFDEF_A
 \
 nIF_A
 \
-nIF_B
+nIF_NOT_B
 \
 nIF_NOT_C
 \

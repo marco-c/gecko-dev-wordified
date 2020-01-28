@@ -63,8 +63,10 @@ import
 logging
 import
 os
+import
+six
 from
-StringIO
+six
 import
 StringIO
 from
@@ -1001,9 +1003,7 @@ diagnose_if
 )
 '
 :
-'
 1
-'
 }
 CLANGXX_4_0
 =
@@ -1029,9 +1029,7 @@ diagnose_if
 )
 '
 :
-'
 1
-'
 }
 CLANG_5_0
 =
@@ -1057,9 +1055,7 @@ diagnose_if
 )
 '
 :
-'
 1
-'
     
 '
 __has_warning
@@ -1073,9 +1069,7 @@ availability
 )
 '
 :
-'
 1
-'
 }
 CLANGXX_5_0
 =
@@ -1101,9 +1095,7 @@ diagnose_if
 )
 '
 :
-'
 1
-'
     
 '
 __has_warning
@@ -1117,9 +1109,7 @@ availability
 )
 '
 :
-'
 1
-'
 }
 DEFAULT_CLANG
 =
@@ -2391,6 +2381,15 @@ self
 out
 .
 truncate
+(
+0
+)
+                
+self
+.
+out
+.
+seek
 (
 0
 )
@@ -4601,12 +4600,13 @@ for
 k
 v
 in
-self
-.
-PATHS
+six
 .
 iteritems
 (
+self
+.
+PATHS
 )
             
 if
@@ -4903,12 +4903,13 @@ for
 k
 v
 in
-self
-.
-PATHS
+six
 .
 iteritems
 (
+self
+.
+PATHS
 )
             
 if
@@ -6617,12 +6618,13 @@ for
 k
 v
 in
-self
-.
-PATHS
+six
 .
 iteritems
 (
+self
+.
+PATHS
 )
             
 if
@@ -7779,12 +7781,13 @@ for
 k
 v
 in
-self
-.
-PATHS
+six
 .
 iteritems
 (
+self
+.
+PATHS
 )
             
 if
@@ -7922,12 +7925,13 @@ for
 k
 v
 in
-self
-.
-PATHS
+six
 .
 iteritems
 (
+self
+.
+PATHS
 )
             
 if

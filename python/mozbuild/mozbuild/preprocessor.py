@@ -186,6 +186,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 sys
 import
@@ -292,6 +293,79 @@ Preprocessor
 preprocess
 '
 ]
+def
+_to_text
+(
+a
+)
+:
+    
+#
+We
+end
+up
+converting
+a
+lot
+of
+different
+types
+(
+text_type
+binary_type
+    
+#
+int
+etc
+.
+)
+to
+Unicode
+in
+this
+script
+.
+This
+function
+handles
+all
+of
+those
+    
+#
+possibilities
+.
+    
+if
+isinstance
+(
+a
+(
+six
+.
+text_type
+six
+.
+binary_type
+)
+)
+:
+        
+return
+six
+.
+ensure_text
+(
+a
+)
+    
+return
+six
+.
+text_type
+(
+a
+)
 def
 path_starts_with
 (
@@ -4844,13 +4918,21 @@ args
 )
         
 if
-type
+isinstance
 (
 val
+six
+.
+text_type
 )
-=
-=
-str
+or
+isinstance
+(
+val
+six
+.
+binary_type
+)
 :
             
 #
@@ -4920,8 +5002,6 @@ self
 .
 disableLevel
 )
-        
-pass
     
 def
 do_ifdef
@@ -5038,8 +5118,6 @@ self
 .
 disableLevel
 )
-        
-pass
     
 def
 do_ifndef
@@ -5156,8 +5234,6 @@ self
 .
 disableLevel
 )
-        
-pass
     
 def
 do_else
@@ -5481,7 +5557,7 @@ context
 :
                 
 return
-str
+_to_text
 (
 self
 .
@@ -5957,7 +6033,7 @@ context
 :
                 
 return
-str
+_to_text
 (
 self
 .
@@ -6133,7 +6209,7 @@ try
                 
 args
 =
-str
+_to_text
 (
 args
 )
@@ -6208,7 +6284,7 @@ self
 '
 FILE_NOT_FOUND
 '
-str
+_to_text
 (
 args
 )
@@ -6621,7 +6697,7 @@ self
 Error
 :
 '
-str
+_to_text
 (
 args
 )
