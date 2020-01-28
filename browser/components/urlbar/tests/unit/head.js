@@ -800,7 +800,7 @@ return
 true
 ;
 }
-getPriority
+isRestricting
 (
 context
 )
@@ -820,7 +820,7 @@ in
 )
 ;
 return
-0
+false
 ;
 }
 async
