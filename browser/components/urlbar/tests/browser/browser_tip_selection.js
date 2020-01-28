@@ -133,13 +133,13 @@ return
 true
 ;
 }
-isRestricting
+getPriority
 (
 context
 )
 {
 return
-true
+1
 ;
 }
 async

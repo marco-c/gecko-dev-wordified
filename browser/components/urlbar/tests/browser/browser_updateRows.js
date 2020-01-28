@@ -1507,15 +1507,6 @@ return
 true
 ;
 }
-isRestricting
-(
-context
-)
-{
-return
-false
-;
-}
 async
 startQuery
 (
