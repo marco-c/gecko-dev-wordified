@@ -149,7 +149,11 @@ frame
 .
 contentWindow
 .
-windowGlobalChild
+window
+.
+getWindowGlobalChild
+(
+)
 ;
 let
 actorChild
@@ -547,7 +551,11 @@ frame
 .
 contentWindow
 .
-windowGlobalChild
+window
+.
+getWindowGlobalChild
+(
+)
 ;
 let
 actorChild

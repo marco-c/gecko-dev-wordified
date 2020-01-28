@@ -678,7 +678,9 @@ windowGlobal
 =
 window
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 ;
 try
 {
