@@ -233,11 +233,8 @@ class
 MediaControlService
 ;
 void
-HandleAudioCompetition
+ClearFocusControllersIfNeeded
 (
-MediaController
-*
-aController
 )
 ;
 nsTArray
