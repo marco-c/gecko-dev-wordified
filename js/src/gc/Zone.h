@@ -1938,12 +1938,8 @@ gcState
 prev
 )
 ;
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
-next
-!
-=
-NoGC
 canCollect
 (
 )

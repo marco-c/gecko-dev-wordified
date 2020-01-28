@@ -2478,6 +2478,12 @@ FULL_CELL_PTR_BIGINT_BUFFER
 30
 )
 \
+D
+(
+INIT_SELF_HOSTING
+31
+)
+\
 \
 /
 *
@@ -2490,12 +2496,6 @@ use
 .
 *
 /
-\
-D
-(
-RESERVED7
-31
-)
 \
 D
 (

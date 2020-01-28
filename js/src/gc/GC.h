@@ -880,6 +880,14 @@ Realm
 target
 )
 ;
+void
+CollectSelfHostingZone
+(
+JSContext
+*
+cx
+)
+;
 enum
 VerifierType
 {
