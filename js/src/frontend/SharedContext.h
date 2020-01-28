@@ -649,6 +649,10 @@ Module
 Kind
 kind_
 ;
+ParseInfo
+&
+parseInfo_
+;
 ThisBinding
 thisBinding_
 ;
@@ -1009,6 +1013,9 @@ JSContext
 cx
 Kind
 kind
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -1022,6 +1029,10 @@ cx
 kind_
 (
 kind
+)
+parseInfo_
+(
+parseInfo
 )
 thisBinding_
 (
@@ -1267,6 +1278,17 @@ FunctionBox
 ;
 return
 false
+;
+}
+ParseInfo
+&
+parseInfo
+(
+)
+const
+{
+return
+parseInfo_
 ;
 }
 ThisBinding
@@ -1533,6 +1555,9 @@ JSContext
 cx
 ScopeKind
 scopeKind
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -1546,6 +1571,7 @@ Kind
 :
 :
 Global
+parseInfo
 directives
 extraWarnings
 )
@@ -1668,6 +1694,9 @@ cx
 JSObject
 *
 enclosingEnv
+ParseInfo
+&
+parseInfo
 Scope
 *
 enclosingScope
@@ -1948,6 +1977,9 @@ TraceListNode
 traceListHead
 uint32_t
 toStringStart
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -2941,6 +2973,9 @@ JSFunction
 fun
 uint32_t
 toStringStart
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -2966,6 +3001,9 @@ FunctionCreationData
 data
 uint32_t
 toStringStart
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool

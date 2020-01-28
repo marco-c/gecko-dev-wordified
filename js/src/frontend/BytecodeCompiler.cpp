@@ -3475,6 +3475,9 @@ modulesc
 (
 cx
 module
+info
+.
+parseInfo
 enclosingScope
 builder
 )
@@ -4472,6 +4475,7 @@ ScopeKind
 :
 :
 Global
+parseInfo
 directives
 options
 .

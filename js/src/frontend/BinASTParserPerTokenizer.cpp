@@ -2092,6 +2092,9 @@ toStringStart
 *
 /
 0
+getParseInfo
+(
+)
 *
 directives
 /

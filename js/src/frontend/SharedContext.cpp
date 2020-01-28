@@ -532,6 +532,9 @@ cx
 JSObject
 *
 enclosingEnv
+ParseInfo
+&
+parseInfo
 Scope
 *
 enclosingScope
@@ -548,6 +551,7 @@ Kind
 :
 :
 Eval
+parseInfo
 directives
 extraWarnings
 )
@@ -864,6 +868,9 @@ TraceListNode
 traceListHead
 uint32_t
 toStringStart
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -898,6 +905,7 @@ Kind
 :
 :
 FunctionBox
+parseInfo
 directives
 extraWarnings
 )
@@ -1082,6 +1090,9 @@ JSFunction
 fun
 uint32_t
 toStringStart
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -1097,6 +1108,7 @@ FunctionBox
 cx
 traceListHead
 toStringStart
+parseInfo
 directives
 extraWarnings
 generatorKind
@@ -1193,6 +1205,9 @@ FunctionCreationData
 data
 uint32_t
 toStringStart
+ParseInfo
+&
+parseInfo
 Directives
 directives
 bool
@@ -1208,6 +1223,7 @@ FunctionBox
 cx
 traceListHead
 toStringStart
+parseInfo
 directives
 extraWarnings
 generatorKind
@@ -2043,6 +2059,9 @@ cx
 ModuleObject
 *
 module
+ParseInfo
+&
+parseInfo
 Scope
 *
 enclosingScope
@@ -2058,6 +2077,7 @@ Kind
 :
 :
 Module
+parseInfo
 Directives
 (
 true

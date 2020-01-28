@@ -795,6 +795,7 @@ globalsc_
 (
 cx
 scopeKind
+parseInfo
 directives
 options
 .
@@ -948,6 +949,7 @@ evalsc_
 (
 cx
 environment_
+parseInfo
 enclosingScope
 directives
 options
