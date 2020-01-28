@@ -1417,7 +1417,7 @@ ref
 {
 cloneDataPolicy
 .
-allowIntraClusterClonableSharedObjects
+allowSharedMemory
 (
 )
 ;

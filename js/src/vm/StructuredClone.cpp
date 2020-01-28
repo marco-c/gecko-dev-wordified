@@ -7734,7 +7734,7 @@ if
 !
 cloneDataPolicy
 .
-areIntraClusterClonableSharedObjectsAllowed
+isSharedArrayBufferAllowed
 (
 )
 )
@@ -8075,7 +8075,7 @@ if
 !
 cloneDataPolicy
 .
-areIntraClusterClonableSharedObjectsAllowed
+isSharedArrayBufferAllowed
 (
 )
 )
@@ -13799,7 +13799,7 @@ if
 !
 cloneDataPolicy
 .
-areIntraClusterClonableSharedObjectsAllowed
+isSharedArrayBufferAllowed
 (
 )
 )
@@ -14155,7 +14155,7 @@ if
 !
 cloneDataPolicy
 .
-areIntraClusterClonableSharedObjectsAllowed
+isSharedArrayBufferAllowed
 (
 )
 )
@@ -15987,7 +15987,6 @@ context
 (
 )
 this
-cloneDataPolicy
 tag
 data
 closure

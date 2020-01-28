@@ -489,7 +489,7 @@ AgentClusterId
 {
 cloneDataPolicy
 .
-allowIntraClusterClonableSharedObjects
+allowSharedMemory
 (
 )
 ;
