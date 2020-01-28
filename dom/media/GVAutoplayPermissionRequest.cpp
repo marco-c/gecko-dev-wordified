@@ -1075,6 +1075,7 @@ eUNKNOWN
 ;
 if
 (
+(
 status
 =
 =
@@ -1082,6 +1083,16 @@ RStatus
 :
 :
 ePENDING
+)
+&
+&
+!
+mContext
+-
+>
+IsDiscarded
+(
+)
 )
 {
 SetRequestStatus
