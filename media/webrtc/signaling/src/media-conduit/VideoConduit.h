@@ -101,7 +101,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -3280,7 +3282,7 @@ reads
 on
 main
 .
-nsAutoPtr
+UniquePtr
 <
 VideoCodecConfig
 >

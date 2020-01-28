@@ -1438,6 +1438,7 @@ std
 string
 &
 aTransportId
+const
 MediaPacket
 &
 packet
@@ -1460,6 +1461,7 @@ aPrivacyRequested
 void
 RtpPacketReceived
 (
+const
 MediaPacket
 &
 packet
@@ -1468,6 +1470,7 @@ packet
 void
 RtcpPacketReceived
 (
+const
 MediaPacket
 &
 packet
@@ -1483,6 +1486,7 @@ std
 string
 &
 aTransportId
+const
 MediaPacket
 &
 aPacket

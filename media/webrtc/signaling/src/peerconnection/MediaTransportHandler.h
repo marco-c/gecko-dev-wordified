@@ -939,6 +939,7 @@ std
 :
 string
 &
+const
 MediaPacket
 &
 >
@@ -955,6 +956,7 @@ std
 :
 string
 &
+const
 MediaPacket
 &
 >
@@ -1078,6 +1080,7 @@ std
 string
 &
 aTransportId
+const
 MediaPacket
 &
 aPacket
@@ -1093,6 +1096,7 @@ std
 string
 &
 aTransportId
+const
 MediaPacket
 &
 aPacket
