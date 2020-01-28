@@ -143,28 +143,6 @@ open_page_info_window
         
 self
 .
-assertNotEqual
-(
-page_info
-.
-dtds
-[
-]
-)
-        
-self
-.
-assertNotEqual
-(
-page_info
-.
-properties
-[
-]
-)
-        
-self
-.
 assertEqual
 (
 page_info
@@ -318,7 +296,7 @@ localName
 '
 )
 '
-textbox
+input
 '
 )
         
@@ -337,7 +315,7 @@ localName
 '
 )
 '
-textbox
+input
 '
 )
         
@@ -356,7 +334,7 @@ localName
 '
 )
 '
-textbox
+input
 '
 )
         
@@ -667,17 +645,9 @@ win
 .
 send_shortcut
 (
-win
-.
-localize_entity
-(
 '
-closeWindow
-.
-key
+w
 '
-)
-                              
 accel
 =
 True

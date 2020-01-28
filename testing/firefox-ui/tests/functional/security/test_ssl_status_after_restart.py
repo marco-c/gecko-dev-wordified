@@ -959,14 +959,16 @@ else
             
 owner
 =
-page_info
+'
+This
+website
+does
+not
+supply
+ownership
+information
 .
-localize_property
-(
 '
-securityNoOwner
-'
-)
         
 self
 .
