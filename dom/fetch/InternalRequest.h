@@ -2318,9 +2318,10 @@ MOZ_INIT_OUTSIDE_CTOR
 bool
 mSkipServiceWorker
 ;
-MOZ_INIT_OUTSIDE_CTOR
 bool
 mSynchronous
+=
+false
 ;
 MOZ_INIT_OUTSIDE_CTOR
 bool
