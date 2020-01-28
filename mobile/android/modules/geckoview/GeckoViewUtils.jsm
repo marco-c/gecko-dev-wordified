@@ -645,8 +645,6 @@ once
 *
 /
 addLazyGetter
-:
-function
 (
 scope
 name
@@ -1074,8 +1072,6 @@ ged
 }
 }
 _addLazyListeners
-:
-function
 (
 events
 handler
@@ -1322,8 +1318,6 @@ addEventListener
 *
 /
 addLazyEventListener
-:
-function
 (
 target
 events
@@ -1570,8 +1564,6 @@ once
 *
 /
 registerLazyWindowEventListener
-:
-function
 (
 window
 events
@@ -1825,8 +1817,6 @@ once
 *
 /
 addLazyPrefObserver
-:
-function
 (
 aPrefs
 {
@@ -2089,8 +2079,6 @@ args
 ;
 }
 getRootDocShell
-:
-function
 (
 aWin
 )
@@ -2184,8 +2172,6 @@ window
 *
 /
 getChromeWindow
-:
-function
 (
 aWin
 )
@@ -2249,8 +2235,6 @@ window
 *
 /
 getContentFrameMessageManager
-:
-function
 (
 aWin
 )
@@ -2318,8 +2302,6 @@ window
 *
 /
 getDispatcherForWindow
-:
-function
 (
 aWin
 )
@@ -2410,8 +2392,6 @@ null
 ;
 }
 getActiveDispatcherAndWindow
-:
-function
 (
 )
 {
@@ -2661,8 +2641,6 @@ to
 *
 /
 initLogging
-:
-function
 (
 aTag
 aScope
@@ -2918,8 +2896,6 @@ _rootLogger
 ;
 }
 _log
-:
-function
 (
 aLogger
 aLevel

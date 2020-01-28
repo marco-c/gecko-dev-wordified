@@ -679,8 +679,6 @@ deferred
 .
 promise
 observe
-:
-function
 (
 subject
 topic
@@ -699,13 +697,7 @@ msg
 =
 {
 subject
-:
-subject
 topic
-:
-topic
-data
-:
 data
 }
 ;

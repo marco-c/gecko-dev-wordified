@@ -1822,8 +1822,6 @@ GeckoView
 HideSelectionAction
 "
 reason
-:
-reason
 }
 )
 ;

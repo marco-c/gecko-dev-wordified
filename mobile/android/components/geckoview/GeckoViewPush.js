@@ -285,8 +285,6 @@ PushSubscription
 (
 {
 endpoint
-:
-endpoint
 scope
 p256dhKey
 :

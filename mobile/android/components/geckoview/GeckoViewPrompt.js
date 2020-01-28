@@ -309,8 +309,6 @@ nsIPromptService
 ]
 )
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -367,8 +365,6 @@ break
 }
 }
 _handleClick
-:
-function
 (
 aEvent
 )
@@ -547,8 +543,6 @@ preventDefault
 }
 }
 _handleSelect
-:
-function
 (
 aElement
 )
@@ -1091,8 +1085,6 @@ aElement
 ;
 }
 _handleDateTime
-:
-function
 (
 aElement
 aType
@@ -1202,8 +1194,6 @@ aElement
 ;
 }
 _dispatchEvents
-:
-function
 (
 aElement
 )
@@ -1281,8 +1271,6 @@ true
 ;
 }
 _handleContextMenu
-:
-function
 (
 aEvent
 )
@@ -1391,8 +1379,6 @@ items
 /
 nsIMenuBuilder
 openContainer
-:
-function
 (
 aLabel
 )
@@ -1472,8 +1458,6 @@ newCursor
 ;
 }
 addItemFor
-:
-function
 (
 aElement
 aCanLoadIcon
@@ -1550,8 +1534,6 @@ aElement
 ;
 }
 addSeparator
-:
-function
 (
 )
 {
@@ -1585,8 +1567,6 @@ true
 ;
 }
 undoAddSeparator
-:
-function
 (
 )
 {
@@ -1633,8 +1613,6 @@ pop
 }
 }
 closeContainer
-:
-function
 (
 )
 {
@@ -1736,8 +1714,6 @@ childItems
 }
 }
 toJSONString
-:
-function
 (
 )
 {
@@ -1753,8 +1729,6 @@ items
 ;
 }
 click
-:
-function
 (
 aId
 )
@@ -1900,8 +1874,6 @@ preventDefault
 ;
 }
 _handlePopupBlocked
-:
-function
 (
 aEvent
 )
@@ -2017,8 +1989,6 @@ nsIPromptFactory
 *
 /
 getPrompt
-:
-function
 (
 aDOMWin
 aIID
@@ -2179,8 +2149,6 @@ our
 Prompt
 class
 callProxy
-:
-function
 (
 aMethod
 aArguments
@@ -2247,8 +2215,6 @@ nsIPromptService
 *
 /
 alert
-:
-function
 (
 )
 {
@@ -2265,8 +2231,6 @@ arguments
 ;
 }
 alertCheck
-:
-function
 (
 )
 {
@@ -2283,8 +2247,6 @@ arguments
 ;
 }
 confirm
-:
-function
 (
 )
 {
@@ -2301,8 +2263,6 @@ arguments
 ;
 }
 confirmCheck
-:
-function
 (
 )
 {
@@ -2319,8 +2279,6 @@ arguments
 ;
 }
 confirmEx
-:
-function
 (
 )
 {
@@ -2337,8 +2295,6 @@ arguments
 ;
 }
 prompt
-:
-function
 (
 )
 {
@@ -2355,8 +2311,6 @@ arguments
 ;
 }
 promptUsernameAndPassword
-:
-function
 (
 )
 {
@@ -2373,8 +2327,6 @@ arguments
 ;
 }
 promptPassword
-:
-function
 (
 )
 {
@@ -2391,8 +2343,6 @@ arguments
 ;
 }
 select
-:
-function
 (
 )
 {
@@ -2409,8 +2359,6 @@ arguments
 ;
 }
 promptAuth
-:
-function
 (
 )
 {
@@ -2427,8 +2375,6 @@ arguments
 ;
 }
 asyncPromptAuth
-:
-function
 (
 )
 {
@@ -2553,8 +2499,6 @@ methods
 *
 /
 _changeModalState
-:
-function
 (
 aEntering
 )
@@ -2735,8 +2679,6 @@ response
 *
 /
 _showPrompt
-:
-function
 (
 aMsg
 )
@@ -2844,8 +2786,6 @@ result
 ;
 }
 asyncShowPrompt
-:
-function
 (
 aMsg
 aCallback
@@ -3012,8 +2952,6 @@ null
 ;
 }
 _addText
-:
-function
 (
 aTitle
 aText
@@ -3038,8 +2976,6 @@ aText
 ;
 }
 _addCheck
-:
-function
 (
 aCheckMsg
 aCheckState
@@ -3099,8 +3035,6 @@ nsIPrompt
 *
 /
 alert
-:
-function
 (
 aTitle
 aText
@@ -3116,8 +3050,6 @@ aText
 ;
 }
 alertCheck
-:
-function
 (
 aTitle
 aText
@@ -3176,8 +3108,6 @@ checkValue
 }
 }
 confirm
-:
-function
 (
 aTitle
 aText
@@ -3201,8 +3131,6 @@ aText
 ;
 }
 confirmCheck
-:
-function
 (
 aTitle
 aText
@@ -3258,8 +3186,6 @@ aCheckState
 ;
 }
 confirmEx
-:
-function
 (
 aTitle
 aText
@@ -3646,10 +3572,6 @@ type
 button
 "
 btnTitle
-:
-btnTitle
-btnCustomTitle
-:
 btnCustomTitle
 }
 )
@@ -3697,8 +3619,6 @@ button
 ;
 }
 prompt
-:
-function
 (
 aTitle
 aText
@@ -3831,8 +3751,6 @@ true
 ;
 }
 promptPassword
-:
-function
 (
 aTitle
 aText
@@ -3861,8 +3779,6 @@ aCheckState
 ;
 }
 promptUsernameAndPassword
-:
-function
 (
 aTitle
 aText
@@ -4054,8 +3970,6 @@ true
 ;
 }
 select
-:
-function
 (
 aTitle
 aText
@@ -4127,8 +4041,6 @@ mode
 single
 "
 choices
-:
-choices
 }
 )
 )
@@ -4182,8 +4094,6 @@ true
 ;
 }
 _getAuthMsg
-:
-function
 (
 aChannel
 aLevel
@@ -4301,8 +4211,6 @@ level
 :
 aLevel
 username
-:
-username
 password
 :
 aAuthInfo
@@ -4314,8 +4222,6 @@ password
 ;
 }
 _fillAuthInfo
-:
-function
 (
 aAuthInfo
 aCheckState
@@ -4485,8 +4391,6 @@ true
 ;
 }
 promptAuth
-:
-function
 (
 aChannel
 aLevel
@@ -4565,8 +4469,6 @@ result
 ;
 }
 asyncPromptAuth
-:
-function
 (
 aChannel
 aCallback
@@ -4711,8 +4613,6 @@ nsICancelable
 ]
 )
 cancel
-:
-function
 (
 )
 {
@@ -4746,8 +4646,6 @@ false
 ;
 }
 _getAuthText
-:
-function
 (
 aChannel
 aAuthInfo
@@ -5016,8 +4914,6 @@ text
 ;
 }
 _getAuthTarget
-:
-function
 (
 aChannel
 aAuthInfo
@@ -5386,8 +5282,6 @@ nsIFilePicker
 *
 /
 init
-:
-function
 (
 aParent
 aTitle
@@ -5500,8 +5394,6 @@ _mode
 ;
 }
 appendRawFilter
-:
-function
 (
 aFilter
 )
@@ -5517,8 +5409,6 @@ aFilter
 ;
 }
 show
-:
-function
 (
 )
 {
@@ -5529,8 +5419,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 open
-:
-function
 (
 aFilePickerShownCallback
 )
@@ -6039,8 +5927,6 @@ nsIColorPicker
 ]
 )
 init
-:
-function
 (
 aParent
 aTitle
@@ -6077,8 +5963,6 @@ aInitialColor
 ;
 }
 open
-:
-function
 (
 aColorPickerShownCallback
 )
@@ -6175,8 +6059,6 @@ nsISharePicker
 ]
 )
 init
-:
-function
 (
 aParent
 )

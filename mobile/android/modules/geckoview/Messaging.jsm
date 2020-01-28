@@ -265,8 +265,6 @@ to
 *
 /
 registerListener
-:
-function
 (
 aListener
 aEvents
@@ -344,8 +342,6 @@ to
 *
 /
 unregisterListener
-:
-function
 (
 aListener
 aEvents
@@ -457,8 +453,6 @@ nsIAndroidEventFinalizer
 *
 /
 dispatch
-:
-function
 (
 aEvent
 aData
@@ -612,8 +606,6 @@ nsIAndroidEventCallback
 *
 /
 sendRequest
-:
-function
 (
 aMsg
 aCallback
@@ -689,8 +681,6 @@ response
 *
 /
 sendRequestForResult
-:
-function
 (
 aMsg
 )
@@ -835,8 +825,6 @@ callback
 ;
 }
 finalize
-:
-function
 (
 )
 {
@@ -912,8 +900,6 @@ clear
 ;
 }
 receiveMessage
-:
-function
 (
 aMsg
 )
@@ -1164,8 +1150,6 @@ window
 *
 /
 for
-:
-function
 (
 aWindow
 )
@@ -1302,8 +1286,6 @@ manager
 *
 /
 forMessageManager
-:
-function
 (
 aMessageManager
 )
@@ -1318,8 +1300,6 @@ aMessageManager
 ;
 }
 receiveMessage
-:
-function
 (
 aMsg
 )

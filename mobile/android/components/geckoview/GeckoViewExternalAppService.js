@@ -319,8 +319,6 @@ channel
 .
 contentLength
 filename
-:
-filename
 }
 )
 ;

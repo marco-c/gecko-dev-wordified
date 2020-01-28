@@ -1044,8 +1044,6 @@ WebExtension
 CloseTab
 "
 extensionId
-:
-extensionId
 }
 )
 ;

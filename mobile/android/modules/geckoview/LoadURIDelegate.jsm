@@ -216,8 +216,6 @@ been
 handled
 .
 load
-:
-function
 (
 aWindow
 aEventDispatcher
@@ -383,8 +381,6 @@ false
 ;
 }
 handleLoadError
-:
-function
 (
 aWindow
 aEventDispatcher

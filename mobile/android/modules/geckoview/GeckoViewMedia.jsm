@@ -613,8 +613,6 @@ GeckoView
 MediaRecordingStatusChanged
 "
 devices
-:
-devices
 }
 )
 ;
