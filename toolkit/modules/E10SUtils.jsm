@@ -731,10 +731,8 @@ also
 be
 made
 in
-SchemeUsesDocChannel
+URIUsesDocChannel
 in
-/
-/
 nsDocShell
 .
 cpp
