@@ -598,6 +598,13 @@ over
 the
 limit
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Config

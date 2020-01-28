@@ -28,7 +28,7 @@ ISO
 week
 .
 use
-std
+core
 :
 :
 fmt

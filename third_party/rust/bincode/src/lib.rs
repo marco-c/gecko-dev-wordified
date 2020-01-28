@@ -234,7 +234,15 @@ to
 26
 .
 0
-.
+and
+disabled
+for
+targets
+which
+do
+not
+support
+it
 #
 !
 [
@@ -257,7 +265,7 @@ bincode
 .
 2
 .
-0
+1
 "
 )
 ]

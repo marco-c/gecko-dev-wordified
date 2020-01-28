@@ -101,6 +101,7 @@ _temp
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -208,7 +209,7 @@ assert
 (
 ping
 .
-send
+submit
 (
 &
 glean
@@ -260,6 +261,7 @@ _
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -367,7 +369,7 @@ assert
 (
 ping
 .
-send
+submit
 (
 &
 glean
@@ -545,7 +547,7 @@ assert
 (
 ping
 .
-send
+submit
 (
 &
 glean
@@ -597,6 +599,7 @@ _
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -674,7 +677,7 @@ assert_eq
 true
 ping1
 .
-send
+submit
 (
 &
 glean
@@ -720,7 +723,7 @@ assert_eq
 false
 ping2
 .
-send
+submit
 (
 &
 glean

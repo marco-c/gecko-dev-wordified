@@ -35,7 +35,7 @@ from
 UTC
 .
 use
-std
+core
 :
 :
 ops
@@ -47,7 +47,7 @@ Sub
 }
 ;
 use
-std
+core
 :
 :
 fmt
@@ -765,6 +765,10 @@ the
 local
 time
 .
+#
+[
+inline
+]
 pub
 fn
 local_minus_utc
@@ -799,6 +803,10 @@ time
 to
 UTC
 .
+#
+[
+inline
+]
 pub
 fn
 utc_minus_local

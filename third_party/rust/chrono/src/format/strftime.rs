@@ -183,6 +183,7 @@ to
 digits
 .
 [
+^
 1
 ]
 |
@@ -207,6 +208,7 @@ to
 digits
 .
 [
+^
 2
 ]
 |
@@ -230,6 +232,7 @@ to
 digits
 .
 [
+^
 2
 ]
 |
@@ -461,6 +464,7 @@ to
 digits
 .
 [
+^
 3
 ]
 |
@@ -514,6 +518,7 @@ week
 date
 .
 [
+^
 4
 ]
 |
@@ -539,6 +544,7 @@ week
 date
 .
 [
+^
 4
 ]
 |
@@ -570,6 +576,7 @@ date
 )
 .
 [
+^
 4
 ]
 |
@@ -902,6 +909,7 @@ to
 digits
 .
 [
+^
 5
 ]
 |
@@ -924,6 +932,7 @@ whole
 second
 .
 [
+^
 8
 ]
 |
@@ -953,6 +962,7 @@ leading
 dot
 .
 [
+^
 8
 ]
 |
@@ -982,6 +992,7 @@ of
 3
 .
 [
+^
 8
 ]
 |
@@ -1011,6 +1022,7 @@ of
 6
 .
 [
+^
 8
 ]
 |
@@ -1040,6 +1052,7 @@ of
 9
 .
 [
+^
 8
 ]
 |
@@ -1061,6 +1074,7 @@ leading
 dot
 .
 [
+^
 8
 ]
 |
@@ -1082,6 +1096,7 @@ leading
 dot
 .
 [
+^
 8
 ]
 |
@@ -1103,6 +1118,7 @@ leading
 dot
 .
 [
+^
 8
 ]
 |
@@ -1402,6 +1418,7 @@ time
 format
 .
 [
+^
 6
 ]
 |
@@ -1433,6 +1450,7 @@ since
 UTC
 .
 [
+^
 7
 ]
 |
@@ -1617,8 +1635,11 @@ e
 )
 Notes
 :
+[
+^
 1
-.
+]
+:
 %
 Y
 :
@@ -1633,8 +1654,11 @@ not
 in
 parsing
 .
+[
+^
 2
-.
+]
+:
 %
 C
 %
@@ -1661,8 +1685,11 @@ and
 99
 respectively
 .
+[
+^
 3
-.
+]
+:
 %
 U
 :
@@ -1691,8 +1718,11 @@ the
 first
 Sunday
 .
+[
+^
 4
-.
+]
+:
 %
 G
 %
@@ -1732,8 +1762,11 @@ or
 %
 g
 .
+[
+^
 5
-.
+]
+:
 %
 S
 :
@@ -1747,13 +1780,16 @@ so
 is
 possible
 .
+[
+^
 6
-.
+]
+:
 %
 +
 :
 Same
-to
+as
 %
 Y
 -
@@ -1797,6 +1833,12 @@ time
 zone
 offset
 .
+<
+br
+>
+<
+br
+>
 The
 typical
 strftime
@@ -1842,8 +1884,11 @@ the
 exact
 output
 .
+[
+^
 7
-.
+]
+:
 %
 s
 :
@@ -1879,8 +1924,11 @@ C
 strftime
 behavior
 .
+[
+^
 8
-.
+]
+:
 %
 f
 %
@@ -1902,6 +1950,9 @@ f
 %
 9f
 :
+<
+br
+>
 The
 default
 %
@@ -1959,6 +2010,12 @@ yield
 the
 same
 .
+<
+br
+>
+<
+br
+>
 The
 variant
 %
@@ -2041,6 +2098,12 @@ is
 not
 .
 .
+<
+br
+>
+<
+br
+>
 The
 variant
 %
@@ -2136,6 +2199,12 @@ the
 specified
 length
 .
+<
+br
+>
+<
+br
+>
 The
 variant
 %
