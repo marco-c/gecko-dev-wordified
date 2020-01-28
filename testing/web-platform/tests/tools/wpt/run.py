@@ -5272,16 +5272,20 @@ wptrunner
 import
 wptcommandline
     
+from
+six
+import
+iteritems
+    
 kwargs
 =
 utils
 .
 Kwargs
 (
-kwargs
-.
 iteritems
 (
+kwargs
 )
 )
     
