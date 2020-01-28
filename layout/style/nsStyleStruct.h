@@ -14204,13 +14204,12 @@ mVectorEffect
 /
 NS_STYLE_VECTOR_EFFECT_
 *
-uint8_t
+mozilla
+:
+:
+StyleMaskType
 mMaskType
 ;
-/
-/
-NS_STYLE_MASK_TYPE_
-*
 }
 ;
 struct

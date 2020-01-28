@@ -7004,7 +7004,10 @@ NS_STYLE_VECTOR_EFFECT_NONE
 )
 mMaskType
 (
-NS_STYLE_MASK_TYPE_LUMINANCE
+StyleMaskType
+:
+:
+Luminance
 )
 {
 MOZ_COUNT_CTOR
