@@ -78,11 +78,11 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
-ClipScrollTree
+SpatialTree
 ROOT_SPATIAL_NODE_INDEX
 SpatialNodeIndex
 }
@@ -3235,10 +3235,10 @@ SpatialNodeIndex
 parent_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -3316,7 +3316,7 @@ or_insert_with
 let
 transform
 =
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -3414,10 +3414,10 @@ SpatialNodeIndex
 to_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -3432,7 +3432,7 @@ get_index
 (
 from_index
 to_index
-clip_scroll_tree
+spatial_tree
 )
 ;
 let

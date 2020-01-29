@@ -115,11 +115,11 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
-ClipScrollTree
+SpatialTree
 SpatialNodeIndex
 }
 ;
@@ -1405,9 +1405,9 @@ config
 :
 FrameBuilderConfig
 pub
-clip_scroll_tree
+spatial_tree
 :
-ClipScrollTree
+SpatialTree
 pub
 hit_testing_scene
 :
@@ -1492,9 +1492,9 @@ ClipStore
 new
 (
 )
-clip_scroll_tree
+spatial_tree
 :
-ClipScrollTree
+SpatialTree
 :
 :
 new
@@ -1673,7 +1673,7 @@ hit_testing_scene
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 &
 self
 .

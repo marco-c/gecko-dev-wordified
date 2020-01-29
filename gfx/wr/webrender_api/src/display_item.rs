@@ -9160,7 +9160,7 @@ between
 different
 sets
 of
-ClipScrollNodes
+SpatialNodes
 which
 are
 ScrollFrames

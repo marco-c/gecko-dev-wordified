@@ -93,7 +93,7 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
@@ -292,7 +292,7 @@ among
 all
 types
 of
-ClipScrollTree
+SpatialTree
 nodes
 .
 #
@@ -5920,10 +5920,10 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
-ClipScrollTree
+SpatialTree
 ;
 use
 euclid
@@ -5938,7 +5938,7 @@ let
 mut
 cst
 =
-ClipScrollTree
+SpatialTree
 :
 :
 new

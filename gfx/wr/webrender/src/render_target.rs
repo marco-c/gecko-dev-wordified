@@ -108,11 +108,11 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
-ClipScrollTree
+SpatialTree
 ROOT_SPATIAL_NODE_INDEX
 }
 ;
@@ -652,12 +652,12 @@ batch_lookback_count
 :
 usize
 pub
-clip_scroll_tree
+spatial_tree
 :
 &
 '
 a
-ClipScrollTree
+SpatialTree
 pub
 data_stores
 :
@@ -4374,7 +4374,7 @@ gpu_cache
 clip_store
 ctx
 .
-clip_scroll_tree
+spatial_tree
 transforms
 &
 ctx

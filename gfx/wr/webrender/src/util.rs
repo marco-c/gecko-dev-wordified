@@ -943,9 +943,7 @@ the
 way
 the
 current
-clip
--
-scroll
+spatial
 tree
 works
 .

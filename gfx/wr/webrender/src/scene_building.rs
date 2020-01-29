@@ -210,12 +210,12 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
 ROOT_SPATIAL_NODE_INDEX
-ClipScrollTree
+SpatialTree
 SpatialNodeIndex
 }
 ;
@@ -1276,8 +1276,7 @@ or
 defers
 to
 the
-clip
-scroll
+spatial
 tree
 to
 build
@@ -1293,10 +1292,10 @@ self
 spatial_node_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -1320,7 +1319,7 @@ self
 .
 current_offset
 =
-clip_scroll_tree
+spatial_tree
 .
 external_scroll_offset
 (
@@ -1361,7 +1360,7 @@ used
 internally
 in
 the
-ClipScrollTree
+SpatialTree
 to
 avoid
 having
@@ -2178,7 +2177,7 @@ index
 types
 that
 the
-ClipScrollTree
+SpatialTree
 uses
 .
 id_to_index_mapper
@@ -2242,7 +2241,7 @@ ClipChainId
 /
 /
 The
-ClipScrollTree
+SpatialTree
 that
 we
 are
@@ -2252,9 +2251,9 @@ during
 building
 .
 pub
-clip_scroll_tree
+spatial_tree
 :
-ClipScrollTree
+SpatialTree
 /
 /
 /
@@ -2737,9 +2736,9 @@ builder
 SceneBuilder
 {
 scene
-clip_scroll_tree
+spatial_tree
 :
-ClipScrollTree
+SpatialTree
 :
 :
 new
@@ -3173,11 +3172,11 @@ builder
 .
 hit_testing_scene
 )
-clip_scroll_tree
+spatial_tree
 :
 builder
 .
-clip_scroll_tree
+spatial_tree
 prim_store
 :
 builder
@@ -3318,7 +3317,7 @@ spatial_node_index
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 rf_offset
@@ -4949,7 +4948,7 @@ index
 =
 self
 .
-clip_scroll_tree
+spatial_tree
 .
 add_sticky_frame
 (
@@ -5765,7 +5764,7 @@ spatial_node_index
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -6166,7 +6165,7 @@ spatial_node_index
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -6361,7 +6360,7 @@ target_spatial_node
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 snap_to_device
@@ -10584,7 +10583,7 @@ init_picture_caching
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 &
 self
 .
@@ -10785,7 +10784,7 @@ init_picture_caching
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 &
 self
 .
@@ -12144,7 +12143,7 @@ index
 =
 self
 .
-clip_scroll_tree
+spatial_tree
 .
 add_reference_frame
 (
@@ -12336,7 +12335,7 @@ device_pixel_scale
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -12565,7 +12564,7 @@ spatial_node_index
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -12972,7 +12971,7 @@ node_index
 =
 self
 .
-clip_scroll_tree
+spatial_tree
 .
 add_scroll_frame
 (
@@ -14153,7 +14152,7 @@ spatial_node_index
 &
 self
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 /
@@ -19000,10 +18999,10 @@ init_picture_caching
 &
 mut
 self
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 clip_store
 :
 &
@@ -19092,7 +19091,7 @@ enumerate
 let
 scroll_root
 =
-clip_scroll_tree
+spatial_tree
 .
 find_scroll_root
 (
@@ -19439,9 +19438,9 @@ handle
 ]
 ;
 let
-clip_scroll_root
+spatial_root
 =
-clip_scroll_tree
+spatial_tree
 .
 find_scroll_root
 (
@@ -19451,7 +19450,7 @@ spatial_node_index
 )
 ;
 if
-clip_scroll_root
+spatial_root
 !
 =
 ROOT_SPATIAL_NODE_INDEX

@@ -107,11 +107,11 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
-ClipScrollTree
+SpatialTree
 ROOT_SPATIAL_NODE_INDEX
 SpatialNodeIndex
 CoordinateSystemId
@@ -4232,7 +4232,7 @@ prim_spatial_node_index
 root_spatial_node_index
 ctx
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 /
@@ -6384,7 +6384,7 @@ spatial_node_index
 root_spatial_node_index
 ctx
 .
-clip_scroll_tree
+spatial_tree
 )
 }
 ;
@@ -6809,7 +6809,7 @@ ctx
 screen_world_rect
 ctx
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -14203,10 +14203,10 @@ LayoutRect
 clip_spatial_node_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 world_rect
 :
 &
@@ -14262,7 +14262,7 @@ let
 clip_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -14372,7 +14372,7 @@ mask
 let
 transform
 =
-clip_scroll_tree
+spatial_tree
 .
 get_world_transform
 (
@@ -14856,10 +14856,10 @@ clip_store
 :
 &
 ClipStore
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 transforms
 :
 &
@@ -14939,7 +14939,7 @@ item
 .
 spatial_node_index
 ROOT_SPATIAL_NODE_INDEX
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -14951,7 +14951,7 @@ get_id
 (
 root_spatial_node_index
 ROOT_SPATIAL_NODE_INDEX
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -15498,7 +15498,7 @@ clip_node
 item
 .
 spatial_node_index
-clip_scroll_tree
+spatial_tree
 world_rect
 device_pixel_scale
 gpu_address
