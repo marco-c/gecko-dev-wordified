@@ -1094,15 +1094,10 @@ fails
 .
 if
 (
-NS_WARN_IF
-(
 !
 mIOThread
-)
 |
 |
-NS_WARN_IF
-(
 NS_FAILED
 (
 mIOThread
@@ -1114,7 +1109,6 @@ r
 .
 forget
 (
-)
 )
 )
 )
