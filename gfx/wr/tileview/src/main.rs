@@ -1625,7 +1625,6 @@ height
 /
 >
 "
-svg
 rect_world
 .
 origin
