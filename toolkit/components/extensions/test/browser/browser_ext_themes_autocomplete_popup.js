@@ -105,7 +105,7 @@ POPUP_URL_COLOR_BRIGHT
 =
 "
 #
-45a1ff
+74c0ff
 "
 ;
 const
