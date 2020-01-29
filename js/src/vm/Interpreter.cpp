@@ -6929,12 +6929,6 @@ case
 ScopeKind
 :
 :
-ParameterExpressionVar
-:
-case
-ScopeKind
-:
-:
 StrictEval
 :
 if

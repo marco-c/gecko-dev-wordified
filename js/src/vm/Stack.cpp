@@ -1024,12 +1024,6 @@ ScopeKind
 :
 FunctionBodyVar
 :
-case
-ScopeKind
-:
-:
-ParameterExpressionVar
-:
 MOZ_ASSERT
 (
 &

@@ -3550,12 +3550,6 @@ ScopeKind
 :
 FunctionBodyVar
 :
-case
-ScopeKind
-:
-:
-ParameterExpressionVar
-:
 MOZ_TRY
 (
 VarScope

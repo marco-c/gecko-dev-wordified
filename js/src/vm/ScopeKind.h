@@ -138,7 +138,6 @@ Function
 /
 VarScope
 FunctionBodyVar
-ParameterExpressionVar
 /
 /
 LexicalScope

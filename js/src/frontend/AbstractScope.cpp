@@ -899,12 +899,6 @@ ScopeKind
 :
 FunctionBodyVar
 :
-case
-ScopeKind
-:
-:
-ParameterExpressionVar
-:
 return
 scope
 (
