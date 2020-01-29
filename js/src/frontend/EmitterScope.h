@@ -748,15 +748,6 @@ funbox
 ;
 MOZ_MUST_USE
 bool
-enterParameterExpressionVar
-(
-BytecodeEmitter
-*
-bce
-)
-;
-MOZ_MUST_USE
-bool
 enterGlobal
 (
 BytecodeEmitter
