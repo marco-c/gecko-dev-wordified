@@ -327,15 +327,6 @@ eAttemptQuit
 still
 trying
 bool
-mRestart
-;
-/
-/
-Quit
-(
-eRestart
-)
-bool
 mInterrupted
 ;
 /
