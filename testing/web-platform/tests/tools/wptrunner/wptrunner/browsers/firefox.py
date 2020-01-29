@@ -414,6 +414,20 @@ aarch64
 return
 4
     
+elif
+run_info_data
+.
+get
+(
+"
+ccov
+"
+)
+:
+        
+return
+2
+    
 return
 1
 def
