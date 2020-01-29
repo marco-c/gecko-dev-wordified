@@ -16051,10 +16051,10 @@ HasRest
 /
 /
 See
-ContextFlags
+FunctionBox
 :
 :
-funArgumentsHasLocalBinding
+argumentsHasLocalBinding_
 comment
 .
 /
