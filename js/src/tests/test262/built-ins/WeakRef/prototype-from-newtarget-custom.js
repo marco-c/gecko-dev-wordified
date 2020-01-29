@@ -1,17 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-WeakRef
-is
-not
-supported
-/
-/
 Copyright
 (
 C
