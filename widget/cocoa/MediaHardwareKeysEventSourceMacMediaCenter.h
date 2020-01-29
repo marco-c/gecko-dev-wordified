@@ -160,7 +160,6 @@ CreatePauseHandler
 (
 )
 ;
-virtual
 bool
 Open
 (
@@ -173,7 +172,6 @@ Close
 )
 override
 ;
-virtual
 bool
 IsOpened
 (
