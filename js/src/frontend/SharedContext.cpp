@@ -984,10 +984,6 @@ hasParameterExprs
 (
 false
 )
-hasDirectEvalInParameterExpr
-(
-false
-)
 hasDuplicateParameters
 (
 false
