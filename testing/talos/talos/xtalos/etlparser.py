@@ -81,6 +81,10 @@ import
 subprocess
 import
 sys
+from
+talos
+.
+xtalos
 import
 xtalos
 EVENTNAME_INDEX
