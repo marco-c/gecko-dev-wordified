@@ -391,12 +391,6 @@ Ci
 nsIRequest
 .
 INHIBIT_CACHING
-|
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_BYPASS_HISTORY
 ;
 docShell
 .
