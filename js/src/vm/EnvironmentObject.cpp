@@ -1892,12 +1892,6 @@ FunctionScope
 getEmptyEnvironmentShape
 (
 cx
-scope
--
->
-hasParameterExprs
-(
-)
 )
 )
 ;

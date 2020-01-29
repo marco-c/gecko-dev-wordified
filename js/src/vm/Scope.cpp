@@ -4019,15 +4019,10 @@ scope
 )
 ;
 static
-inline
+constexpr
 uint32_t
 FunctionScopeEnvShapeFlags
-(
-bool
-hasParameterExprs
-)
-{
-return
+=
 BaseShape
 :
 :
@@ -4038,7 +4033,6 @@ BaseShape
 :
 DELEGATE
 ;
-}
 bool
 FunctionScope
 :
@@ -4080,9 +4074,6 @@ uint32_t
 shapeFlags
 =
 FunctionScopeEnvShapeFlags
-(
-hasParameterExprs
-)
 ;
 if
 (
@@ -4203,7 +4194,6 @@ set
 getEmptyEnvironmentShape
 (
 cx
-hasParameterExprs
 )
 )
 ;
@@ -4442,8 +4432,6 @@ getEmptyEnvironmentShape
 JSContext
 *
 cx
-bool
-hasParameterExprs
 )
 {
 const
@@ -4461,9 +4449,6 @@ uint32_t
 shapeFlags
 =
 FunctionScopeEnvShapeFlags
-(
-hasParameterExprs
-)
 ;
 return
 EmptyEnvironmentShape
