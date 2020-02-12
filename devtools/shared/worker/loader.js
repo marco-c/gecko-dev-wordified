@@ -3722,9 +3722,6 @@ globals
 isWorker
 :
 true
-isReplaying
-:
-false
 dump
 :
 dump

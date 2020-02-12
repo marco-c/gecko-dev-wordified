@@ -385,7 +385,6 @@ export
 getSelectedFrame
 getSelectedFrames
 getVisibleSelectedFrame
-getFramePositions
 }
 from
 "
