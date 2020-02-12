@@ -523,7 +523,12 @@ netlocs
 =
 defaultdict
 (
+lambda
+:
+defaultdict
+(
 int
+)
 )
         
 self
@@ -538,6 +543,18 @@ self
 _done
 =
 False
+        
+self
+.
+_replayed
+=
+0
+        
+self
+.
+_not_replayed
+=
+0
     
 def
 load
@@ -1259,6 +1276,26 @@ upload_dir
             
 return
         
+confidence
+=
+float
+(
+self
+.
+_replayed
+)
+/
+float
+(
+self
+.
+_replayed
++
+self
+.
+_not_replayed
+)
+        
 stats
 =
 {
@@ -1280,6 +1317,33 @@ calls
 self
 .
 calls
+                 
+"
+replayed
+"
+:
+self
+.
+_replayed
+                 
+"
+not_replayed
+"
+:
+self
+.
+_not_replayed
+                 
+"
+confidence
+"
+:
+int
+(
+confidence
+*
+100
+)
 }
         
 path
@@ -1430,6 +1494,13 @@ f
 response
 =
 response
+                
+self
+.
+_replayed
++
+=
+1
             
 else
 :
@@ -1509,6 +1580,13 @@ plain
 }
                 
 )
+                
+self
+.
+_not_replayed
++
+=
+1
             
 #
 collecting
@@ -1562,6 +1640,13 @@ netlocs
 parsed_url
 .
 netloc
+]
+[
+f
+.
+response
+.
+status_code
 ]
 +
 =
