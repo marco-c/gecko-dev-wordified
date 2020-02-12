@@ -12,11 +12,11 @@ mac
 cyrillic
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 const

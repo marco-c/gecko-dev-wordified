@@ -12,11 +12,11 @@ ISO
 JP
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 const
@@ -52,11 +52,10 @@ u3053
 const
 expectedString
 =
-"
+'
 \
 x1B
 B
-\
 "
 &
 (
@@ -81,7 +80,7 @@ B
 x1B
 (
 B
-"
+'
 ;
 const
 charset

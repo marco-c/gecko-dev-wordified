@@ -42,11 +42,11 @@ byte
 characters
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 const

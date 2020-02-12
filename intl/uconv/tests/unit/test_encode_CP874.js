@@ -10,11 +10,11 @@ windows
 874
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 const

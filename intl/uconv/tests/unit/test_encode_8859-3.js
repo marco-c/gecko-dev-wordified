@@ -12,11 +12,11 @@ ISO
 3
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 const

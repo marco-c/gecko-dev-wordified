@@ -286,7 +286,7 @@ ConverterInputStream
 testInputStream
 charset
 bufferLength
-0xFFFD
+0xfffd
 )
 ;
 if
@@ -300,6 +300,7 @@ Ci
 nsIUnicharLineInputStream
 )
 )
+{
 throw
 "
 not
@@ -308,6 +309,7 @@ input
 stream
 "
 ;
+}
 var
 outStr
 =

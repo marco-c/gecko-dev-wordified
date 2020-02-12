@@ -928,8 +928,7 @@ sampleUTF16LE
 const
 expected
 =
-"
-\
+'
 "
 \
 u0412
@@ -1087,9 +1086,8 @@ u043C
 \
 u0443
 .
-\
 "
-"
+'
 ;
 Services
 .
@@ -1283,7 +1281,7 @@ ConverterInputStream
 testInputStream
 decoder
 bufferLength
-0xFFFD
+0xfffd
 )
 ;
 if
@@ -1297,6 +1295,7 @@ Ci
 nsIUnicharLineInputStream
 )
 )
+{
 throw
 "
 not
@@ -1305,6 +1304,7 @@ input
 stream
 "
 ;
+}
 var
 outStr
 =

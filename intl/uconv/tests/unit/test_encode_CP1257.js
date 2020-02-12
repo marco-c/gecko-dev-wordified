@@ -10,11 +10,11 @@ windows
 1257
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 const
