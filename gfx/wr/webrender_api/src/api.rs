@@ -80,7 +80,6 @@ self
 MsgSender
 Payload
 PayloadSender
-PayloadSenderHelperMethods
 }
 ;
 use
@@ -11309,7 +11308,7 @@ self
 .
 payload_sender
 .
-send_payload
+send
 (
 Payload
 :
@@ -11557,7 +11556,7 @@ self
 .
 payload_sender
 .
-send_payload
+send
 (
 payload
 )
@@ -11745,7 +11744,7 @@ self
 .
 payload_sender
 .
-send_payload
+send
 (
 payload
 )
