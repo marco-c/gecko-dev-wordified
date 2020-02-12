@@ -220,13 +220,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsEscape
 .
 h

@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIRunnable
 .
 h
@@ -191,6 +184,15 @@ include
 mozilla
 /
 SHA1
+.
+h
+"
+#
+include
+"
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -612,8 +614,12 @@ public
 explicit
 LinkInfo
 (
+UniquePtr
+<
 NetlinkLink
-*
+>
+&
+&
 aLink
 )
 ;
@@ -656,7 +662,7 @@ structure
 for
 this
 link
-nsAutoPtr
+UniquePtr
 <
 NetlinkLink
 >
@@ -674,7 +680,7 @@ this
 link
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 NetlinkAddress
 >
@@ -708,7 +714,7 @@ IPv6
 routes
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 NetlinkRoute
 >
@@ -763,7 +769,7 @@ Route
 for
 mRouteCheckIPv4
 address
-nsAutoPtr
+UniquePtr
 <
 NetlinkRoute
 >
@@ -775,7 +781,7 @@ Route
 for
 mRouteCheckIPv6
 address
-nsAutoPtr
+UniquePtr
 <
 NetlinkRoute
 >
@@ -783,7 +789,7 @@ mIPv6RouteCheckResult
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 NetlinkMsg
 >

@@ -73,13 +73,6 @@ alphabetical
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -237,8 +230,10 @@ mWinWifiScanner
 {
 mWinWifiScanner
 =
-new
+MakeUnique
+<
 WinWifiScanner
+>
 (
 )
 ;

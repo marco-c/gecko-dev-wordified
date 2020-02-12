@@ -9494,12 +9494,15 @@ loadedFromApplicationCache
 )
 {
 mOfflineForeignMarker
-=
+.
+reset
+(
 httpChannelImpl
 -
 >
 GetOfflineCacheEntryAsForeignMarker
 (
+)
 )
 ;
 nsCOMPtr

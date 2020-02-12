@@ -507,6 +507,7 @@ uint16_t
 Status
 (
 )
+const
 ;
 void
 StatusText
@@ -679,6 +680,7 @@ HasHeader
 nsHttpAtom
 h
 )
+const
 ;
 void
 SetContentType
@@ -1449,6 +1451,7 @@ while
 under
 lock
 .
+mutable
 RecursiveMutex
 mRecursiveMutex
 ;

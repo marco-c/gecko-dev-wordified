@@ -238,7 +238,7 @@ when
 synthesizing
 Maybe
 <
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >

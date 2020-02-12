@@ -7472,8 +7472,9 @@ Length
 )
 )
 {
-HostInfo
-*
+const
+auto
+&
 hinfo
 =
 mHostFiltersArray

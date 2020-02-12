@@ -141,9 +141,8 @@ net
 {
 /
 /
-Like
-an
-nsAutoPtr
+A
+container
 for
 XPCOM
 streams

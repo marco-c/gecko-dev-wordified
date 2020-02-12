@@ -637,13 +637,13 @@ nsISupports
 >
 mSecurityInfo
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >
 mResponseHead
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpHeaderArray
 >

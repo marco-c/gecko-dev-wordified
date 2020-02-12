@@ -187,13 +187,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIURLParser
 .
 h

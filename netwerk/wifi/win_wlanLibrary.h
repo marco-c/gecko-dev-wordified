@@ -348,8 +348,9 @@ public
 :
 ScopedWLANObject
 (
+const
 WinWLANLibrary
-*
+&
 library
 void
 *
@@ -375,8 +376,7 @@ ScopedWLANObject
 *
 (
 mLibrary
--
->
+.
 GetWlanFreeMemoryPtr
 (
 )
@@ -389,8 +389,9 @@ mObject
 }
 private
 :
+const
 WinWLANLibrary
-*
+&
 mLibrary
 ;
 void

@@ -507,7 +507,7 @@ place
 bool
 mInterceptCanceled
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >

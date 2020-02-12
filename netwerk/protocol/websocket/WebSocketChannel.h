@@ -1462,7 +1462,7 @@ kCopyBreak
 16
 ]
 ;
-nsAutoPtr
+UniquePtr
 <
 PMCECompression
 >

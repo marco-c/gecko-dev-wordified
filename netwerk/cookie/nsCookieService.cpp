@@ -373,13 +373,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h

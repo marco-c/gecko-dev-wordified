@@ -382,12 +382,15 @@ edge
 case
 .
 mWlanLibrary
-=
+.
+reset
+(
 WinWLANLibrary
 :
 :
 Load
 (
+)
 )
 ;
 if
@@ -541,6 +544,7 @@ interface_list
 ScopedWLANObject
 scopedInterfaceList
 (
+*
 mWlanLibrary
 interface_list
 )
@@ -888,6 +892,7 @@ bss_list
 ScopedWLANObject
 scopedBssList
 (
+*
 mWlanLibrary
 bss_list
 )

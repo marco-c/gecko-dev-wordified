@@ -114,13 +114,6 @@ MPL
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -414,7 +407,7 @@ uint32_t
 >
 mBlockingTransactionCount
 ;
-nsAutoPtr
+UniquePtr
 <
 SpdyPushCache
 >
@@ -1081,6 +1074,10 @@ GetSpdyPushCache
 {
 return
 mSpdyCache
+.
+get
+(
+)
 ;
 }
 void
@@ -1096,7 +1093,10 @@ aSpdyPushCache
 {
 mSpdyCache
 =
+WrapUnique
+(
 aSpdyPushCache
+)
 ;
 }
 uint64_t

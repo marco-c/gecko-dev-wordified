@@ -93,13 +93,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

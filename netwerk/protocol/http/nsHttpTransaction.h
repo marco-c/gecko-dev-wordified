@@ -2179,7 +2179,7 @@ GetLock
 bool
 mResponseHeadTaken
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpHeaderArray
 >

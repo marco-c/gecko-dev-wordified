@@ -2356,8 +2356,10 @@ WRITING
 ;
 mWritingStateHandle
 =
-new
+MakeUnique
+<
 CacheFileChunkReadHandle
+>
 (
 mBuf
 )

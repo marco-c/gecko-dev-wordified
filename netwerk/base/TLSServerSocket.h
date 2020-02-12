@@ -81,13 +81,6 @@ mozilla_net_TLSServerSocket_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsITLSServerSocket
 .
 h

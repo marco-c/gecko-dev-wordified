@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -2009,7 +2002,7 @@ HostInfo
 objects
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 HostInfo
 >

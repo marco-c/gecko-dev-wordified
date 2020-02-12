@@ -193,13 +193,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -18724,8 +18717,10 @@ NS_ERROR_FAILURE
 }
 mBindAddr
 =
-new
+MakeUnique
+<
 NetAddr
+>
 (
 )
 ;

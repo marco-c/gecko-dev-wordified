@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIContentPolicy
 .
 h

@@ -2803,8 +2803,10 @@ mBrotli
 {
 mBrotli
 =
-new
+MakeUnique
+<
 BrotliWrapper
+>
 (
 )
 ;

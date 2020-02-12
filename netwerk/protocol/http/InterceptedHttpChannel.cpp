@@ -914,6 +914,7 @@ nsHttpChannel
 :
 WillRedirect
 (
+*
 mResponseHead
 )
 &
@@ -1397,6 +1398,10 @@ newChannel
 CreateForSynthesis
 (
 mResponseHead
+.
+get
+(
+)
 mBodyReader
 bodyCallback
 mChannelCreationTime
@@ -2795,8 +2800,10 @@ ref
 >
 mResponseHead
 =
-new
+MakeUnique
+<
 nsHttpResponseHead
+>
 (
 *
 aHead
@@ -4205,10 +4212,12 @@ nsHttpResponseHead
 }
 mResponseHead
 =
-mSynthesizedResponseHead
-.
-release
+std
+:
+:
+move
 (
+mSynthesizedResponseHead
 )
 ;
 if

@@ -93,7 +93,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+Mutex
 .
 h
 "
@@ -102,7 +104,7 @@ include
 "
 mozilla
 /
-Mutex
+UniquePtr
 .
 h
 "
@@ -1166,7 +1168,7 @@ to
 the
 disk
 .
-nsAutoPtr
+UniquePtr
 <
 CacheFileChunkReadHandle
 >

@@ -625,6 +625,10 @@ mEntries
 [
 i
 ]
+.
+get
+(
+)
 ;
 break
 ;
@@ -785,7 +789,10 @@ mEntries
 .
 AppendElement
 (
+WrapUnique
+(
 entry
+)
 )
 ;
 }
@@ -1354,8 +1361,9 @@ Length
 i
 )
 {
-CacheFileContextEvictorEntry
-*
+const
+auto
+&
 entry
 =
 mEntries

@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics
@@ -481,7 +474,7 @@ mOutBufferLen
 uint32_t
 mInpBufferLen
 ;
-nsAutoPtr
+UniquePtr
 <
 BrotliWrapper
 >

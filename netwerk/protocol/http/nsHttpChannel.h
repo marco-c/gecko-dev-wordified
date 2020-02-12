@@ -870,8 +870,9 @@ static
 bool
 WillRedirect
 (
+const
 nsHttpResponseHead
-*
+&
 response
 )
 ;
@@ -3896,7 +3897,7 @@ nsInputStreamPump
 >
 mCachePump
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >
