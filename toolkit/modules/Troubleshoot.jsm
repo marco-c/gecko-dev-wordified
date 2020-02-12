@@ -3516,6 +3516,9 @@ targetFrameRate
 windowProtocol
 :
 null
+desktopEnvironment
+:
+null
 }
 ;
 for
