@@ -10,6 +10,13 @@ source
 repo
 .
 h
+#
+include
+TOPOBJDIR
+/
+buildid
+.
+h
 /
 *
 This
@@ -840,6 +847,11 @@ MOZ_APP_VERSION_DISPLAY
 :
 "
 MOZ_APP_VERSION_DISPLAY
+"
+MOZ_BUILDID
+:
+"
+MOZ_BUILDID
 "
 MOZ_BUILD_APP
 :
