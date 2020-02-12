@@ -242,6 +242,7 @@ OptimizationInfo
 ;
 class
 MIRGenerator
+final
 {
 public
 :
@@ -847,7 +848,7 @@ CompileRuntime
 *
 runtime
 ;
-protected
+private
 :
 const
 CompileInfo

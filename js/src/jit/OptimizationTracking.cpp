@@ -6921,6 +6921,8 @@ pc
 .
 MOZ_ASSERT
 (
+mirGen_
+.
 isOptimizationTrackingEnabled
 (
 )
@@ -7009,6 +7011,8 @@ startTrackingOptimizations
 {
 if
 (
+mirGen_
+.
 isOptimizationTrackingEnabled
 (
 )
