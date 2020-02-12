@@ -37706,15 +37706,15 @@ jit
 :
 CreateMIRRootList
 (
-IonBuilder
+IonCompileTask
 &
-builder
+task
 )
 {
 MOZ_ASSERT
 (
 !
-builder
+task
 .
 mirGen
 (
@@ -37733,7 +37733,7 @@ TempAllocator
 &
 alloc
 =
-builder
+task
 .
 alloc
 (
@@ -37743,7 +37743,7 @@ MIRGraph
 &
 graph
 =
-builder
+task
 .
 mirGen
 (
@@ -37907,7 +37907,7 @@ false
 }
 }
 }
-builder
+task
 .
 setRootList
 (
