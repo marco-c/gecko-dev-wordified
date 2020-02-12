@@ -29373,7 +29373,7 @@ IsApzForceDisabled
 return
 mLastContentPaintMetrics
 .
-GetScrollOffset
+GetVisualViewportOffset
 (
 )
 ;
