@@ -1168,7 +1168,7 @@ Anim
 )
 ;
 }
-nsresult
+void
 nsDOMCSSAttributeDeclaration
 :
 :
@@ -1184,6 +1184,9 @@ aValue
 nsIPrincipal
 *
 aSubjectPrincipal
+ErrorResult
+&
+aRv
 )
 {
 /
@@ -1392,7 +1395,6 @@ this
 ;
 }
 }
-return
 nsDOMCSSDeclaration
 :
 :
@@ -1401,6 +1403,7 @@ SetPropertyValue
 aPropID
 aValue
 aSubjectPrincipal
+aRv
 )
 ;
 }

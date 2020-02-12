@@ -463,7 +463,7 @@ aValue
 )
 override
 ;
-nsresult
+void
 SetPropertyValue
 (
 const
@@ -476,6 +476,12 @@ aValue
 nsIPrincipal
 *
 aSubjectPrincipal
+mozilla
+:
+:
+ErrorResult
+&
+aRv
 )
 override
 ;

@@ -774,6 +774,9 @@ EmptyCString
 (
 )
 nullptr
+IgnoreErrors
+(
+)
 )
 ;
 }
