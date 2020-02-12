@@ -2854,7 +2854,7 @@ style
 minWidth
 =
 "
-100px
+200px
 "
 ;
 }

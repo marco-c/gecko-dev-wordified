@@ -245,14 +245,6 @@ height
 :
 350
 }
-{
-width
-:
-300
-height
-:
-170
-}
 ]
 ;
 function
