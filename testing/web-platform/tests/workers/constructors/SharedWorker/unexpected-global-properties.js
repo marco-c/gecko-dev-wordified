@@ -1,4 +1,4 @@
-var
+const
 unexpected
 =
 '
@@ -76,7 +76,7 @@ and
 removed
 expected
 ones
-var
+let
 log
 =
 '
@@ -84,7 +84,7 @@ log
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -123,10 +123,9 @@ i
 }
 onconnect
 =
-function
-(
 e
-)
+=
+>
 {
 e
 .
