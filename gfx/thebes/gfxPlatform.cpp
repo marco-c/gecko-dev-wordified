@@ -19012,7 +19012,7 @@ kMaxPixelsBattery
 {
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 /
 /
 Battery
@@ -19818,7 +19818,7 @@ kMaxPixelsBattery
 {
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 /
 /
 Battery
@@ -19833,6 +19833,10 @@ by
 default
 in
 nightly
+and
+/
+/
+beta
 .
 *
 aOutGuardedByQualifiedPref
