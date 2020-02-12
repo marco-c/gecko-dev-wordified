@@ -689,6 +689,7 @@ case
 disabled
 "
 :
+await
 rollout
 .
 setSetting
@@ -704,6 +705,7 @@ case
 manuallyDisabled
 "
 :
+await
 browser
 .
 experiments
@@ -722,6 +724,7 @@ case
 UIOk
 "
 :
+await
 rollout
 .
 setSetting
@@ -737,6 +740,7 @@ case
 enabled
 "
 :
+await
 rollout
 .
 setSetting
@@ -745,6 +749,7 @@ TRR_MODE_PREF
 2
 )
 ;
+await
 rollout
 .
 setSetting
@@ -760,6 +765,7 @@ case
 UIDisabled
 "
 :
+await
 rollout
 .
 setSetting
@@ -768,6 +774,7 @@ TRR_MODE_PREF
 5
 )
 ;
+await
 browser
 .
 experiments
