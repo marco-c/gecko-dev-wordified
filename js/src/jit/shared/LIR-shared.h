@@ -42622,7 +42622,7 @@ LCheckIsObj
 public
 LInstructionHelper
 <
-BOX_PIECES
+0
 BOX_PIECES
 0
 >
@@ -42685,7 +42685,7 @@ LCheckIsCallable
 public
 LInstructionHelper
 <
-BOX_PIECES
+0
 BOX_PIECES
 1
 >
@@ -42771,7 +42771,7 @@ LCheckObjCoercible
 public
 LCallInstructionHelper
 <
-BOX_PIECES
+0
 BOX_PIECES
 0
 >
@@ -42818,7 +42818,7 @@ LDebugCheckSelfHosted
 public
 LCallInstructionHelper
 <
-BOX_PIECES
+0
 BOX_PIECES
 0
 >
