@@ -27010,7 +27010,7 @@ OK
 NS_tchar
 foundpath
 [
-MAXPATHLEN
+PATH_MAX
 ]
 ;
 struct
@@ -27021,7 +27021,7 @@ dent_buffer
 char
 chars
 [
-MAXNAMLEN
+NAME_MAX
 ]
 ;
 }
