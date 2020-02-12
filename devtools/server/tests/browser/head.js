@@ -776,13 +776,6 @@ accessibility
 "
 )
 ;
-await
-accessibility
-.
-bootstrap
-(
-)
-;
 return
 {
 inspector
