@@ -9740,12 +9740,7 @@ a
 >
 *
 /
-/
-/
-TODO
-:
-Bug
-1598792
+public
 final
 Nullable
 String
@@ -9823,12 +9818,7 @@ a
 >
 *
 /
-/
-/
-TODO
-:
-Bug
-1598792
+public
 final
 boolean
 openOptionsPageInTab
@@ -10369,7 +10359,7 @@ bundle
 getString
 (
 "
-optionsPageUrl
+optionsPageURL
 "
 )
 ;
