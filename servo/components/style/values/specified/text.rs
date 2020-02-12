@@ -6137,7 +6137,7 @@ TextDecorationLength
 =
 GenericTextDecorationLength
 <
-Length
+LengthPercentage
 >
 ;
 impl

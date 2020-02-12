@@ -373,7 +373,7 @@ TextDecorationLength
 =
 GenericTextDecorationLength
 <
-Length
+LengthPercentage
 >
 ;
 /
