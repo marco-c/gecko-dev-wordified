@@ -119,6 +119,7 @@ search
 .
 init
 (
+true
 )
 ;
 await
@@ -387,7 +388,7 @@ all
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -535,7 +536,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -613,7 +614,7 @@ all
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -676,7 +677,7 @@ all
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -836,7 +837,7 @@ all
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1006,7 +1007,7 @@ reInitPromise
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1177,7 +1178,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1314,7 +1315,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1443,7 +1444,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1517,7 +1518,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1555,7 +1556,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1629,7 +1630,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }
@@ -1727,7 +1728,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }

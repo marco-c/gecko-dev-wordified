@@ -93,6 +93,7 @@ search
 .
 init
 (
+true
 )
 ;
 equal

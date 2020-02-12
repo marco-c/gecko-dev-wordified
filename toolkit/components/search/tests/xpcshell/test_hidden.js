@@ -215,6 +215,7 @@ search
 .
 init
 (
+true
 )
 ;
 let
@@ -478,7 +479,7 @@ await
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 :
 true
 }

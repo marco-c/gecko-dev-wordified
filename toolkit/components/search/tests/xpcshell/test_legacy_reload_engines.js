@@ -149,6 +149,7 @@ search
 .
 init
 (
+true
 )
 SearchTestUtils
 .
