@@ -6095,7 +6095,7 @@ aPropertyValue
 *
 *
 *
-Destroys
+Removes
 a
 property
 associated
@@ -6107,8 +6107,8 @@ The
 value
 is
 destroyed
-*
 using
+*
 the
 destruction
 function
@@ -6132,7 +6132,7 @@ destroy
 *
 /
 void
-DeleteProperty
+RemoveProperty
 (
 const
 nsAtom

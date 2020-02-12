@@ -608,7 +608,7 @@ IsEmpty
 parentContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

@@ -1241,10 +1241,6 @@ mDocument
 /
 This
 will
-remove
-the
-property
-and
 call
 our
 DestroyPropertyCallback
@@ -1252,7 +1248,7 @@ DestroyPropertyCallback
 mDocument
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

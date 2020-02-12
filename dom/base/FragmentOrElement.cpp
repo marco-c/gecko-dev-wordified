@@ -8349,7 +8349,7 @@ i
 tmp
 -
 >
-DeleteProperty
+RemoveProperty
 (
 props
 [
@@ -8401,7 +8401,7 @@ i
 tmp
 -
 >
-DeleteProperty
+RemoveProperty
 (
 effectProps
 [

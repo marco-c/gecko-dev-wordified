@@ -350,7 +350,7 @@ GetParent
 )
 -
 >
-DeleteProperty
+RemoveProperty
 (
 property
 )

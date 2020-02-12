@@ -13468,12 +13468,12 @@ mDefaultElementType
 ;
 }
 void
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;
 void
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 nsINode
 *

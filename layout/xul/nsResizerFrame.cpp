@@ -3330,7 +3330,7 @@ nullptr
 aContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

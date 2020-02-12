@@ -3034,7 +3034,7 @@ IsEmpty
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -3090,7 +3090,7 @@ LockedStyleStates
 (
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11614,7 +11614,7 @@ MayHaveAnimations
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11622,7 +11622,7 @@ nsGkAtoms
 transitionsOfBeforeProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11630,7 +11630,7 @@ nsGkAtoms
 transitionsOfAfterProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11638,7 +11638,7 @@ nsGkAtoms
 transitionsOfMarkerProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11646,7 +11646,7 @@ nsGkAtoms
 transitionsProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11654,7 +11654,7 @@ nsGkAtoms
 animationsOfBeforeProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11662,7 +11662,7 @@ nsGkAtoms
 animationsOfAfterProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -11670,7 +11670,7 @@ nsGkAtoms
 animationsOfMarkerProperty
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

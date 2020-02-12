@@ -344,7 +344,7 @@ the
 property
 value
 bool
-DeletePropertyFor
+RemovePropertyFor
 (
 nsPropertyOwner
 aObject
@@ -445,7 +445,7 @@ transfer
 in
 /
 /
-TransferOrDeleteAllPropertiesFor
+TransferOrRemoveAllPropertiesFor
 PropertyList
 *
 mNext
@@ -456,7 +456,7 @@ void
 nsPropertyTable
 :
 :
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 {
@@ -494,7 +494,7 @@ void
 nsPropertyTable
 :
 :
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 nsPropertyOwner
 aObject
@@ -521,7 +521,7 @@ mNext
 prop
 -
 >
-DeletePropertyFor
+RemovePropertyFor
 (
 aObject
 )
@@ -532,7 +532,7 @@ nsresult
 nsPropertyTable
 :
 :
-TransferOrDeleteAllPropertiesFor
+TransferOrRemoveAllPropertiesFor
 (
 nsPropertyOwner
 aObject
@@ -634,14 +634,14 @@ rv
 )
 )
 {
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 aObject
 )
 ;
 aOtherTable
 .
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 aObject
 )
@@ -666,7 +666,7 @@ else
 prop
 -
 >
-DeletePropertyFor
+RemovePropertyFor
 (
 aObject
 )
@@ -1316,7 +1316,7 @@ nsresult
 nsPropertyTable
 :
 :
-DeleteProperty
+RemoveProperty
 (
 nsPropertyOwner
 aObject
@@ -1358,14 +1358,16 @@ if
 propertyList
 -
 >
-DeletePropertyFor
+RemovePropertyFor
 (
 aObject
 )
 )
+{
 return
 NS_OK
 ;
+}
 }
 return
 NS_PROPTABLE_PROP_NOT_THERE
@@ -1669,7 +1671,7 @@ nsPropertyTable
 PropertyList
 :
 :
-DeletePropertyFor
+RemovePropertyFor
 (
 nsPropertyOwner
 aObject

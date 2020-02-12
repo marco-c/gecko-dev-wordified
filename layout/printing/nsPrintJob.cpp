@@ -24092,7 +24092,7 @@ NS_PROPTABLE_PROP_NOT_THERE
 doc
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

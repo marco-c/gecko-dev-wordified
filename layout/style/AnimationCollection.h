@@ -381,7 +381,7 @@ destructor
 mElement
 -
 >
-DeleteProperty
+RemoveProperty
 (
 mElementProperty
 )
@@ -673,7 +673,7 @@ directly
 /
 /
 calling
-DeleteProperty
+RemoveProperty
 on
 an
 element

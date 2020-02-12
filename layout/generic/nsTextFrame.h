@@ -1634,7 +1634,7 @@ GetContent
 )
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -1811,7 +1811,7 @@ GetContent
 )
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

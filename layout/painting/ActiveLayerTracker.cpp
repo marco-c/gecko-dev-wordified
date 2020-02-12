@@ -1138,7 +1138,7 @@ else
 c
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

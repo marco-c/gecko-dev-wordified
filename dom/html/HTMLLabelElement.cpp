@@ -743,7 +743,7 @@ dragDistance
 *
 mouseDownPoint
 ;
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

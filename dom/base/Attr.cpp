@@ -836,7 +836,7 @@ SetOwnerDocument
 doc
 -
 >
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 this
 )

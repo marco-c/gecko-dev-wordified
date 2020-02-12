@@ -711,7 +711,7 @@ aTransfer
 *
 *
 *
-Delete
+Remove
 the
 property
 |
@@ -741,7 +741,7 @@ called
 *
 /
 nsresult
-DeleteProperty
+RemoveProperty
 (
 nsPropertyOwner
 aObject
@@ -824,7 +824,7 @@ aStatus
 *
 *
 *
-Deletes
+Removes
 all
 of
 the
@@ -836,8 +836,8 @@ aObject
 |
 calling
 the
-*
 destructor
+*
 function
 for
 each
@@ -846,7 +846,7 @@ property
 *
 /
 void
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 nsPropertyOwner
 aObject
@@ -881,12 +881,12 @@ to
 aTable
 |
 .
-Deletes
+Removes
 the
 other
 properties
-*
 for
+*
 object
 |
 aObject
@@ -911,8 +911,8 @@ all
 the
 properties
 for
-*
 object
+*
 |
 aObject
 |
@@ -920,7 +920,7 @@ aObject
 *
 /
 nsresult
-TransferOrDeleteAllPropertiesFor
+TransferOrRemoveAllPropertiesFor
 (
 nsPropertyOwner
 aObject
@@ -1035,7 +1035,7 @@ aData
 *
 *
 *
-Deletes
+Removes
 all
 of
 the
@@ -1046,8 +1046,8 @@ objects
 in
 the
 property
-*
 table
+*
 calling
 the
 destructor
@@ -1059,7 +1059,7 @@ property
 *
 /
 void
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;
@@ -1078,7 +1078,7 @@ nsPropertyTable
 (
 )
 {
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;
