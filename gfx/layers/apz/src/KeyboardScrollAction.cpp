@@ -136,9 +136,6 @@ layers
 static
 *
 /
-nsIScrollableFrame
-:
-:
 ScrollUnit
 KeyboardScrollAction
 :
@@ -164,7 +161,7 @@ KeyboardScrollAction
 eScrollCharacter
 :
 return
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -176,7 +173,7 @@ KeyboardScrollAction
 eScrollLine
 :
 return
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -188,7 +185,7 @@ KeyboardScrollAction
 eScrollPage
 :
 return
-nsIScrollableFrame
+ScrollUnit
 :
 :
 PAGES
@@ -200,7 +197,7 @@ KeyboardScrollAction
 eScrollComplete
 :
 return
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -213,7 +210,7 @@ an
 overzealous
 warning
 return
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE

@@ -22314,7 +22314,7 @@ nsIntPoint
 0
 numLines
 )
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -22427,7 +22427,7 @@ nsIntPoint
 0
 numPages
 )
-nsIScrollableFrame
+ScrollUnit
 :
 :
 PAGES

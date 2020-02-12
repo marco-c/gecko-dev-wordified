@@ -209,9 +209,6 @@ public
 :
 CalcSnapPoints
 (
-nsIScrollableFrame
-:
-:
 ScrollUnit
 aUnit
 const
@@ -340,9 +337,6 @@ y
 }
 protected
 :
-nsIScrollableFrame
-:
-:
 ScrollUnit
 mUnit
 ;
@@ -458,9 +452,6 @@ CalcSnapPoints
 :
 CalcSnapPoints
 (
-nsIScrollableFrame
-:
-:
 ScrollUnit
 aUnit
 const
@@ -717,7 +708,7 @@ aEdgeFound
 {
 /
 /
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -783,7 +774,7 @@ if
 mUnit
 !
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -837,7 +828,7 @@ return
 }
 /
 /
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -904,7 +895,7 @@ if
 mUnit
 !
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -1099,7 +1090,7 @@ if
 mUnit
 =
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -1108,7 +1099,7 @@ DEVICE_PIXELS
 mUnit
 =
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -1162,7 +1153,7 @@ if
 mUnit
 =
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 PAGES
@@ -1337,7 +1328,7 @@ if
 mUnit
 =
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -1748,9 +1739,6 @@ const
 ScrollSnapInfo
 &
 aSnapInfo
-nsIScrollableFrame
-:
-:
 ScrollUnit
 aUnit
 const
