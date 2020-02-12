@@ -807,12 +807,37 @@ in
 fileobj
 :
             
+#
+Explicitly
+strip
+on
+\
+n
+so
+we
+don
+'
+t
+strip
+out
+the
+FIELD_SEPARATOR
+            
+#
+as
+well
+.
+            
 line
 =
 line
 .
 rstrip
 (
+'
+\
+n
+'
 )
             
 fields
