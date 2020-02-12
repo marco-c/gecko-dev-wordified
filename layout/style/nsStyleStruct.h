@@ -12367,13 +12367,12 @@ aNewData
 )
 const
 ;
-uint8_t
+mozilla
+:
+:
+StyleTableLayout
 mLayoutStrategy
 ;
-/
-/
-NS_STYLE_TABLE_LAYOUT_
-*
 int32_t
 mXSpan
 ;
