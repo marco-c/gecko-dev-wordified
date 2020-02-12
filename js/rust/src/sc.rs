@@ -405,6 +405,9 @@ CloneDataPolicy
 allowIntraClusterClonableSharedObjects_
 :
 false
+allowSharedMemoryObjects_
+:
+false
 }
 callbacks
 ptr

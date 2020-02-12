@@ -493,6 +493,17 @@ allowIntraClusterClonableSharedObjects
 (
 )
 ;
+/
+/
+TODO
+:
+what
+about
+cloneDataPolicy
+.
+allowSharedMemoryObjects
+(
+)
 }
 Read
 (
