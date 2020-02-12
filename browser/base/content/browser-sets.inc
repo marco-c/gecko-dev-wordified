@@ -2597,6 +2597,11 @@ command
 "
 cmd_delete
 "
+reserved
+=
+"
+false
+"
 /
 >
 <
