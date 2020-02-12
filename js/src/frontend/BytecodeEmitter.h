@@ -2526,6 +2526,13 @@ pn
 OptionalEmitter
 &
 oe
+ValueUsage
+valueUsage
+=
+ValueUsage
+:
+:
+WantValue
 )
 ;
 /
@@ -4926,6 +4933,8 @@ emitOptionalChain
 UnaryNode
 *
 expr
+ValueUsage
+valueUsage
 )
 ;
 MOZ_MUST_USE
@@ -5025,6 +5034,8 @@ callNode
 OptionalEmitter
 &
 oe
+ValueUsage
+valueUsage
 )
 ;
 MOZ_MUST_USE
