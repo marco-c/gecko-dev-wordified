@@ -302,6 +302,15 @@ WhyPaused
 "
 ;
 import
+FrameTimeline
+from
+"
+.
+/
+FrameTimeline
+"
+;
+import
 Scopes
 from
 "
@@ -2524,6 +2533,10 @@ props
 .
 horizontal
 }
+/
+>
+<
+FrameTimeline
 /
 >
 <

@@ -11491,6 +11491,14 @@ thunderbird
 '
 mochitest
 -
+devtools
+-
+webreplay
+'
+    
+'
+mochitest
+-
 valgrind
 -
 plain
