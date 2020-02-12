@@ -12495,6 +12495,9 @@ th
 )
 ;
 }
+/
+/
+static
 nsITableCellLayout
 *
 nsFrameSelection
@@ -12506,14 +12509,7 @@ nsIContent
 *
 aCellContent
 )
-const
 {
-NS_ENSURE_TRUE
-(
-mPresShell
-nullptr
-)
-;
 nsITableCellLayout
 *
 cellLayoutObject
@@ -16612,6 +16608,9 @@ return
 range
 ;
 }
+/
+/
+static
 nsresult
 nsFrameSelection
 :

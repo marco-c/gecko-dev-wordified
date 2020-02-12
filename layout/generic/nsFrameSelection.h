@@ -5070,6 +5070,7 @@ Table
 selection
 support
 .
+static
 nsITableCellLayout
 *
 GetCellLayout
@@ -5078,7 +5079,6 @@ nsIContent
 *
 aCellContent
 )
-const
 ;
 nsresult
 SelectBlockOfCells
@@ -5122,6 +5122,7 @@ bool
 aRemoveOutsideOfCellRange
 )
 ;
+static
 nsresult
 GetCellIndexes
 (
