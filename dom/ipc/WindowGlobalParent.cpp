@@ -906,6 +906,17 @@ it
 /
 optimistically
 .
+if
+(
+!
+mBrowsingContext
+-
+>
+IsDiscarded
+(
+)
+)
+{
 mBrowsingContext
 -
 >
@@ -918,6 +929,7 @@ innerWindowId
 )
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService

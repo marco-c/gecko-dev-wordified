@@ -6263,9 +6263,9 @@ IPCResult
 BrowserChild
 :
 :
-RecvSkipBrowsingContextDetach
+RecvWillChangeProcess
 (
-SkipBrowsingContextDetachResolver
+WillChangeProcessResolver
 &
 &
 aResolve
@@ -6304,7 +6304,7 @@ docShell
 docshell
 -
 >
-SkipBrowsingContextDetach
+SetWillChangeProcess
 (
 )
 ;
