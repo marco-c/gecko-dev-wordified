@@ -3736,6 +3736,10 @@ mStartCalled
 (
 false
 )
+mBufferSet
+(
+false
+)
 {
 CreateAudioParam
 (
@@ -3865,6 +3869,9 @@ WasPassed
 )
 )
 {
+ErrorResult
+ignored
+;
 MOZ_ASSERT
 (
 aCx
@@ -3883,6 +3890,7 @@ mBuffer
 Value
 (
 )
+ignored
 )
 ;
 }
