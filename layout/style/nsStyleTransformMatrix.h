@@ -696,7 +696,7 @@ nsIFrame
 *
 aFrame
 const
-nsSize
+nsRect
 &
 aFallbackDimensions
 )
@@ -767,7 +767,7 @@ void
 Init
 (
 const
-nsSize
+nsRect
 &
 aDimensions
 )
