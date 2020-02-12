@@ -65,6 +65,7 @@ const
 {
 EAGER_EVALUATION_TOGGLE
 WARNING_GROUPS_TOGGLE
+AUTOCOMPLETE_TOGGLE
 }
 =
 require
@@ -104,6 +105,9 @@ false
 groupWarnings
 :
 false
+autocomplete
+:
+false
 eagerEvaluation
 :
 false
@@ -132,6 +136,13 @@ WARNING_GROUPS_TOGGLE
 :
 "
 groupWarnings
+"
+[
+AUTOCOMPLETE_TOGGLE
+]
+:
+"
+autocomplete
 "
 }
 ;

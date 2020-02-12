@@ -529,6 +529,13 @@ PropTypes
 object
 .
 isRequired
+autocomplete
+:
+PropTypes
+.
+bool
+.
+isRequired
 }
 ;
 }
@@ -748,6 +755,7 @@ persistLogs
 showContentMessages
 timestampsVisible
 eagerEvaluation
+autocomplete
 }
 =
 this
@@ -826,6 +834,15 @@ eagerEvaluation
 =
 =
 eagerEvaluation
+|
+|
+nextProps
+.
+autocomplete
+!
+=
+=
+autocomplete
 )
 {
 return
@@ -1873,6 +1890,7 @@ persistLogs
 showContentMessages
 timestampsVisible
 webConsoleUI
+autocomplete
 }
 =
 this
@@ -1892,6 +1910,7 @@ persistLogs
 showContentMessages
 timestampsVisible
 webConsoleUI
+autocomplete
 }
 )
 ;
@@ -2273,6 +2292,11 @@ timestampsVisible
 uiState
 .
 timestampsVisible
+autocomplete
+:
+prefsState
+.
+autocomplete
 }
 ;
 }
