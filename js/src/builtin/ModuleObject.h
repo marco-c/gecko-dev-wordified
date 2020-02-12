@@ -1478,6 +1478,11 @@ initialEnvironment
 )
 ;
 void
+initStatusSlot
+(
+)
+;
+void
 initImportExportData
 (
 HandleArrayObject
