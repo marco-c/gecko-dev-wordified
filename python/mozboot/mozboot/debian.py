@@ -653,15 +653,6 @@ distro
 =
 =
 '
-Debian
-'
-or
-self
-.
-distro
-=
-=
-'
 debian
 '
 :
