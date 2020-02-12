@@ -10,15 +10,6 @@ ISO
 2022
 -
 JP
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inString
 =

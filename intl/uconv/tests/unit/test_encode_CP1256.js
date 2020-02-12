@@ -8,15 +8,6 @@ to
 windows
 -
 1256
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inString
 =
@@ -633,6 +624,9 @@ run_test
 {
 testEncodeAliases
 (
+aliases
+inString
+expectedString
 )
 ;
 }

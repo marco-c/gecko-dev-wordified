@@ -16,15 +16,6 @@ to
 expose
 XSS
 vulnerabilities
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 function
 run_test
 (

@@ -12,15 +12,6 @@ UTF
 16
 to
 Unicode
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inString
 =

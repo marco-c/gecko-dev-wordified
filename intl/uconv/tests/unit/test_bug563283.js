@@ -13,15 +13,6 @@ JP
 with
 Hankaku
 characters
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inStrings
 =

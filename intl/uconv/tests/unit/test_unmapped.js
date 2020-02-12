@@ -5,15 +5,6 @@ encoding
 of
 unmapped
 characters
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inString
 =

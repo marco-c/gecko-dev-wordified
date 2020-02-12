@@ -10,15 +10,6 @@ ISO
 8859
 -
 2
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inString
 =
@@ -544,6 +535,9 @@ run_test
 {
 testEncodeAliases
 (
+aliases
+inString
+expectedString
 )
 ;
 }
