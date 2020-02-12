@@ -975,7 +975,7 @@ error
 }
 }
 ;
-assert_throws
+assert_throws_exactly
 (
 error
 (
@@ -1028,7 +1028,7 @@ writable
 }
 }
 ;
-assert_throws
+assert_throws_exactly
 (
 error
 (

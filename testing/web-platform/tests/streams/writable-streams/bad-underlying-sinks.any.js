@@ -69,7 +69,7 @@ test
 =
 >
 {
-assert_throws
+assert_throws_exactly
 (
 error1
 (
@@ -107,7 +107,7 @@ getter
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 error1
 (
@@ -529,7 +529,7 @@ test
 =
 >
 {
-assert_throws
+assert_throws_exactly
 (
 error1
 (
@@ -579,7 +579,7 @@ test
 =
 >
 {
-assert_throws
+assert_throws_exactly
 (
 error1
 (
@@ -1244,7 +1244,7 @@ test
 =
 >
 {
-assert_throws
+assert_throws_exactly
 (
 error1
 (
