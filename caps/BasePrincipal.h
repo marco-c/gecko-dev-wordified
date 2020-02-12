@@ -771,6 +771,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetHostPort
+(
+nsACString
+&
+aRes
+)
+override
+;
+NS_IMETHOD
 GetOriginSuffix
 (
 nsACString
