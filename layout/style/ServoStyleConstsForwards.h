@@ -529,6 +529,9 @@ Element
 class
 Document
 ;
+class
+ImageTracker
+;
 }
 /
 /
@@ -852,6 +855,14 @@ its
 /
 namespace
 .
+using
+StyleImageTracker
+=
+dom
+:
+:
+ImageTracker
+;
 using
 StyleLoader
 =
