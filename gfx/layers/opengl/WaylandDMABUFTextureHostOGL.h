@@ -200,12 +200,6 @@ WaylandDMABUFTextureHostOGL
 )
 ;
 void
-DeallocateDeviceData
-(
-)
-override
-;
-void
 SetTextureSourceProvider
 (
 TextureSourceProvider
