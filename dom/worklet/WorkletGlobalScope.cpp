@@ -243,6 +243,8 @@ nsID
 >
 &
 aAgentClusterId
+bool
+aSharedMemoryAllowed
 )
 :
 mCreationTimeStamp
@@ -257,6 +259,10 @@ Now
 mAgentClusterId
 (
 aAgentClusterId
+)
+mSharedMemoryAllowed
+(
+aSharedMemoryAllowed
 )
 {
 }

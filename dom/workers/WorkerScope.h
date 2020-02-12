@@ -1149,6 +1149,13 @@ Global
 )
 ;
 }
+bool
+IsSharedMemoryAllowed
+(
+)
+const
+override
+;
 Maybe
 <
 ClientInfo

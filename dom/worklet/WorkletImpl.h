@@ -458,6 +458,16 @@ return
 mAgentClusterId
 ;
 }
+bool
+IsSharedMemoryAllowed
+(
+)
+const
+{
+return
+mSharedMemoryAllowed
+;
+}
 protected
 :
 WorkletImpl
@@ -560,6 +570,9 @@ Maybe
 nsID
 >
 mAgentClusterId
+;
+bool
+mSharedMemoryAllowed
 ;
 }
 ;
