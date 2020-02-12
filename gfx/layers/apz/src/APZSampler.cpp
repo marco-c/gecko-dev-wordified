@@ -556,6 +556,13 @@ wr
 DocumentId
 &
 aRenderRootId
+const
+wr
+:
+:
+WrPipelineIdEpochs
+&
+aEpochsBeingRendered
 )
 {
 if
@@ -594,6 +601,7 @@ RenderRootFromId
 (
 aRenderRootId
 )
+aEpochsBeingRendered
 )
 ;
 }
@@ -648,6 +656,13 @@ wr
 :
 RenderRoot
 aRenderRoot
+const
+wr
+:
+:
+WrPipelineIdEpochs
+&
+aEpochsBeingRendered
 )
 {
 AssertOnSamplerThread
@@ -755,6 +770,7 @@ SampleForWebRender
 aTxn
 sampleTime
 aRenderRoot
+aEpochsBeingRendered
 )
 ;
 }
@@ -1742,6 +1758,14 @@ wr
 :
 DocumentId
 aDocumentId
+mozilla
+:
+:
+wr
+:
+:
+WrPipelineIdEpochs
+aEpochsBeingRendered
 )
 {
 mozilla
@@ -1758,6 +1782,7 @@ SampleForWebRender
 aWindowId
 aTransaction
 aDocumentId
+aEpochsBeingRendered
 )
 ;
 }
