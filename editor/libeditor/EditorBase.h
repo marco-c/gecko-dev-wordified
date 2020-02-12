@@ -17678,7 +17678,7 @@ is
 currently
 used
 by
-EditingSession
+FinderHighlighter
 and
 /
 /
@@ -17690,17 +17690,6 @@ only
 one
 is
 enough
-(
-although
-this
-is
-not
-/
-/
-necessary
-for
-TextEditor
-)
 .
 typedef
 AutoTArray
