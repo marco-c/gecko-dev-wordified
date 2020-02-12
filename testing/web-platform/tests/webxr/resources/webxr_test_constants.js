@@ -671,6 +671,11 @@ floor
 "
 unbounded
 "
+"
+hit
+-
+test
+"
 ]
 ;
 const
