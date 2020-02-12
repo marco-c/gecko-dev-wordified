@@ -419,14 +419,6 @@ default
 globals_size
 :
 globals_size
-.
-.
-Limits
-:
-:
-default
-(
-)
 }
 4
 *
