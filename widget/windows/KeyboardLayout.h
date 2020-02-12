@@ -3865,6 +3865,10 @@ IsTypingUnicodeScalarValue
 const
 {
 return
+!
+mIsExtended
+&
+&
 IsSysKeyDownOrKeyUpMessage
 (
 )
