@@ -1145,7 +1145,7 @@ hitTestInfoItem
 =
 static_cast
 <
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 *
 >
 (
