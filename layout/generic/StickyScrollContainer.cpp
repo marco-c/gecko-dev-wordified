@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsIScrollableFrame
 .
 h
