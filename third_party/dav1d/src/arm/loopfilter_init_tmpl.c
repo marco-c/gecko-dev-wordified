@@ -319,9 +319,6 @@ BITDEPTH
 =
 =
 8
-&
-&
-ARCH_AARCH64
 c
 -
 >

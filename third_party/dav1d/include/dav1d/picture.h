@@ -317,7 +317,7 @@ instructions
 #
 define
 DAV1D_PICTURE_ALIGNMENT
-32
+64
 typedef
 struct
 Dav1dPictureParameters

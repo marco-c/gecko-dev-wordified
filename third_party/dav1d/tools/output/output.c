@@ -1038,7 +1038,7 @@ const
 char
 *
 const
-md5_Str
+md5_str
 )
 {
 int
@@ -1070,7 +1070,7 @@ ctx
 -
 >
 data
-md5_Str
+md5_str
 )
 ;
 free

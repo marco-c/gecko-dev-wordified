@@ -288,6 +288,13 @@ h
 #
 include
 <
+stdlib
+.
+h
+>
+#
+include
+<
 stdio
 .
 h
@@ -343,11 +350,8 @@ h
 #
 endif
 #
-if
-defined
-(
-HAVE_MACH_ABSOLUTE_TIME
-)
+ifdef
+__APPLE__
 #
 include
 <
@@ -464,7 +468,7 @@ tv_nsec
 elif
 defined
 (
-HAVE_MACH_ABSOLUTE_TIME
+__APPLE__
 )
 mach_timebase_info_data_t
 info
@@ -967,8 +971,7 @@ DAV1D_VERSION
 )
 ;
 return
--
-1
+EXIT_FAILURE
 ;
 }
 init_demuxers
@@ -1015,7 +1018,7 @@ timebase
 )
 {
 return
-res
+EXIT_FAILURE
 ;
 }
 for
@@ -1059,7 +1062,7 @@ in
 )
 ;
 return
-res
+EXIT_FAILURE
 ;
 }
 if
@@ -1164,7 +1167,7 @@ in
 )
 ;
 return
-res
+EXIT_FAILURE
 ;
 }
 seq_skip
@@ -1246,7 +1249,7 @@ lib_settings
 )
 )
 return
-res
+EXIT_FAILURE
 ;
 if
 (
@@ -1526,7 +1529,7 @@ frametimes
 )
 ;
 return
-res
+EXIT_FAILURE
 ;
 }
 }
@@ -1768,7 +1771,7 @@ frametimes
 )
 ;
 return
-res
+EXIT_FAILURE
 ;
 }
 }
@@ -1921,6 +1924,15 @@ c
 )
 ;
 return
+(
 res
+=
+=
+0
+)
+?
+EXIT_SUCCESS
+:
+EXIT_FAILURE
 ;
 }
