@@ -163,11 +163,13 @@ findPopup
 ;
 ok
 (
+!
 popup
 "
 new
 tab
 should
+not
 have
 a
 popup
