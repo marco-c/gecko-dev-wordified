@@ -114,6 +114,18 @@ DEFAULT_CHROMEVERSION
 "
 77
 "
+BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
+=
+120
+#
+2
+minutes
+BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
+=
+900
+#
+15
+minutes
 class
 Browsertime
 (
@@ -2384,9 +2396,15 @@ timeout
                 
 outputTimeout
 =
-2
-*
-60
+BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
+                
+if
+self
+.
+benchmark
+                
+else
+BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
             
 )
             
