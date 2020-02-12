@@ -14706,7 +14706,10 @@ mPosition
 =
 =
 *
-NS_STYLE_POSITION_FIXED
+StylePositionProperty
+:
+:
+Fixed
 )
 are
 not
@@ -14778,7 +14781,10 @@ frame
 was
 created
 with
-NS_STYLE_POSITION_FIXED
+StylePositionProperty
+:
+:
+Fixed
 .
 *
 *

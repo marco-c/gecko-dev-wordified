@@ -4796,7 +4796,10 @@ display
 mPosition
 =
 =
-NS_STYLE_POSITION_STATIC
+StylePositionProperty
+:
+:
+Static
 )
 {
 return
@@ -5087,7 +5090,10 @@ display
 mPosition
 =
 =
-NS_STYLE_POSITION_STICKY
+StylePositionProperty
+:
+:
+Sticky
 )
 {
 /
@@ -5235,7 +5241,10 @@ else
 {
 MOZ_ASSERT
 (
-NS_STYLE_POSITION_RELATIVE
+StylePositionProperty
+:
+:
+Relative
 =
 =
 display
@@ -6948,7 +6957,10 @@ display
 mPosition
 =
 =
-NS_STYLE_POSITION_ABSOLUTE
+StylePositionProperty
+:
+:
+Absolute
 )
 ;
 /

@@ -17680,7 +17680,10 @@ None
 )
 mPosition
 (
-NS_STYLE_POSITION_STATIC
+StylePositionProperty
+:
+:
+Static
 )
 mFloat
 (

@@ -1248,7 +1248,10 @@ StyleDisplay
 mPosition
 =
 =
-NS_STYLE_POSITION_FIXED
+StylePositionProperty
+:
+:
+Fixed
 &
 &
 nsLayoutUtils
