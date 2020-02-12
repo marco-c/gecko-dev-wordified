@@ -177,6 +177,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+Point
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -4273,6 +4284,9 @@ imageTarget
 namespace
 dom
 {
+class
+Element
+;
 class
 ImageBitmap
 ;

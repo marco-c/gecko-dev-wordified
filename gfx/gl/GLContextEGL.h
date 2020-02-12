@@ -134,6 +134,13 @@ GLLibraryEGL
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 class
 gfxASurface
 ;
