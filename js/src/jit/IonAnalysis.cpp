@@ -33416,6 +33416,7 @@ jit
 :
 IsBaselineJitEnabled
 (
+cx
 )
 |
 |
