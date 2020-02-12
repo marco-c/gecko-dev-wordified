@@ -3467,6 +3467,19 @@ optional
 True
 )
                 
+Unicode
+(
+"
+java_stack
+"
+default
+=
+None
+optional
+=
+True
+)
+                
 List
 (
 Unicode
