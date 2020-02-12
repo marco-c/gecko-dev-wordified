@@ -123,9 +123,7 @@ offset
 *
 param
 sourceTabs
-Immutable
-.
-list
+Array
 *
 param
 sourceTabEls
@@ -133,9 +131,7 @@ HTMLCollection
 *
 *
 returns
-Immutable
-.
-list
+Array
 *
 /
 export
