@@ -420,6 +420,9 @@ BytecodeUtil
 .
 h
 "
+/
+/
+JSDVG_IGNORE_STACK
 #
 include
 "
@@ -5388,8 +5391,8 @@ JSContext
 cx
 HandleValue
 v
-bool
-reportScanStack
+int
+vIndex
 )
 {
 MOZ_ASSERT
@@ -5403,8 +5406,10 @@ isNullOrUndefined
 ;
 if
 (
-!
-reportScanStack
+vIndex
+=
+=
+JSDVG_IGNORE_STACK
 )
 {
 JS_ReportErrorNumberASCII
@@ -5431,7 +5436,7 @@ bytes
 DecompileValueGenerator
 (
 cx
-JSDVG_SEARCH_STACK
+vIndex
 v
 nullptr
 )
@@ -5521,10 +5526,10 @@ JSContext
 cx
 HandleValue
 v
+int
+vIndex
 HandleId
 key
-bool
-reportScanStack
 )
 {
 MOZ_ASSERT
@@ -5560,7 +5565,7 @@ ReportIsNullOrUndefinedForPropertyAccess
 (
 cx
 v
-reportScanStack
+vIndex
 )
 ;
 return
@@ -5617,8 +5622,10 @@ return
 }
 if
 (
-!
-reportScanStack
+vIndex
+=
+=
+JSDVG_IGNORE_STACK
 )
 {
 JS_ReportErrorNumberUTF8
@@ -5647,7 +5654,7 @@ bytes
 DecompileValueGenerator
 (
 cx
-JSDVG_SEARCH_STACK
+vIndex
 v
 nullptr
 )

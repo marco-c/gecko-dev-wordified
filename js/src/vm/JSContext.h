@@ -7409,8 +7409,8 @@ JSContext
 cx
 HandleValue
 v
-bool
-reportScanStack
+int
+vIndex
 )
 ;
 extern
@@ -7422,10 +7422,10 @@ JSContext
 cx
 HandleValue
 v
+int
+vIndex
 HandleId
 key
-bool
-reportScanStack
 )
 ;
 /
