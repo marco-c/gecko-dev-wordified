@@ -99,7 +99,7 @@ getToolbox
 (
 panel
 .
-currentTarget
+target
 )
 ;
 const
