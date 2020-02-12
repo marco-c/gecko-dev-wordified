@@ -377,7 +377,7 @@ unused
 .
 *
 /
-JS_STATIC_ASSERT
+static_assert
 (
 ObjectElements
 :

@@ -6706,7 +6706,7 @@ Value
 )
 const
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6723,7 +6723,7 @@ Value
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
