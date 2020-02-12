@@ -273,14 +273,6 @@ nsROCSSPrimitiveValue
 (
 )
 ;
-nsresult
-GetCssText
-(
-nsAString
-&
-aText
-)
-;
 void
 SetNumber
 (
