@@ -1431,6 +1431,9 @@ return
 NS_OK
 ;
 }
+#
+ifndef
+__MINGW32__
 struct
 HStringDeleter
 {
@@ -1516,6 +1519,9 @@ hr
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 hr
@@ -1529,9 +1535,6 @@ rawStr
 )
 ;
 }
-#
-ifndef
-__MINGW32__
 mozilla
 :
 :
@@ -1568,6 +1571,9 @@ IsWin10OrLater
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -1588,6 +1594,9 @@ hwnd
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -1652,6 +1661,9 @@ dtm
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -1731,6 +1743,9 @@ hwnd
 )
 {
 return
+mozilla
+:
+:
 Err
 (
 NS_ERROR_FAILURE
@@ -1765,6 +1780,9 @@ aUrl
 auto
 promiseHolder
 =
+mozilla
+:
+:
 MakeRefPtr
 <
 mozilla
@@ -1775,6 +1793,9 @@ media
 :
 Refcountable
 <
+mozilla
+:
+:
 MozPromiseHolder
 <
 SharePromise
