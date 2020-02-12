@@ -1617,6 +1617,12 @@ Write
 aCx
 scdMutationContent
 t
+JS
+:
+:
+CloneDataPolicy
+(
+)
 rv
 )
 ;
