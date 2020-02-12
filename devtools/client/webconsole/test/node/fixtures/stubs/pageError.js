@@ -74,6 +74,16 @@ parsePacketsWithFronts
 require
 (
 "
+chrome
+:
+/
+/
+mochitests
+/
+content
+/
+browser
+/
 devtools
 /
 client
