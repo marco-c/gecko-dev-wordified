@@ -686,6 +686,7 @@ image
 Gradient
 GradientItem
 Image
+ImageLayer
 LineDirection
 MozImageRect
 }
