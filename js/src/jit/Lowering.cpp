@@ -3601,7 +3601,7 @@ is
 already
 erased
 .
-MOZ_ASSERT
+static_assert
 (
 CallTempReg2
 !
@@ -3609,7 +3609,7 @@ CallTempReg2
 JSReturnReg_Type
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 CallTempReg2
 !
@@ -3787,7 +3787,7 @@ is
 already
 erased
 .
-MOZ_ASSERT
+static_assert
 (
 CallTempReg2
 !
@@ -3795,7 +3795,7 @@ CallTempReg2
 JSReturnReg_Type
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 CallTempReg2
 !

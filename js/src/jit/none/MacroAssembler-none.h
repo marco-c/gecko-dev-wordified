@@ -578,6 +578,17 @@ Registers
 invalid_reg
 }
 ;
+/
+/
+Uses
+|
+invalid_reg2
+|
+to
+avoid
+static_assert
+failures
+.
 static
 constexpr
 Register
@@ -586,7 +597,7 @@ JSReturnReg_Type
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 static
@@ -597,7 +608,7 @@ JSReturnReg_Data
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 static
@@ -608,7 +619,7 @@ JSReturnReg
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 #
