@@ -1530,7 +1530,7 @@ mUserInitiated
 ;
 nsTArray
 <
-RangeData
+StyledRange
 >
 &
 ranges
@@ -1576,7 +1576,7 @@ selection
 .
 for
 (
-RangeData
+StyledRange
 &
 entry
 :
