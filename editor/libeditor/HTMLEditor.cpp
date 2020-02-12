@@ -21934,8 +21934,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 aChild
 )

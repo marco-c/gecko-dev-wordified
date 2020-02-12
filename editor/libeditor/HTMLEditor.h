@@ -28928,8 +28928,10 @@ mChangedRangeForTopLevelEditSubAction
 {
 mChangedRangeForTopLevelEditSubAction
 =
-new
 nsRange
+:
+:
+Create
 (
 GetDocument
 (

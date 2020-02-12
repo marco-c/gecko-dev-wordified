@@ -2419,8 +2419,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 aNode
 )

@@ -315,8 +315,10 @@ mPreIterator
 ;
 mRange
 =
-new
 nsRange
+:
+:
+Create
 (
 aRoot
 )

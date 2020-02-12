@@ -1316,8 +1316,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 aStartBoundary
 .
@@ -14761,8 +14763,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 mOwner
 )
