@@ -9096,7 +9096,7 @@ see
 nsNSSComponent
 :
 :
-setEnabledTLSVersions
+SetEnabledTLSVersions
 for
 pref
 handling
