@@ -3778,11 +3778,6 @@ list
 .
 )
 ;
-addDevice
-(
-device
-)
-;
 registerCleanupFunction
 (
 (
@@ -3828,6 +3823,12 @@ list
 )
 ;
 }
+)
+;
+return
+addDevice
+(
+device
 )
 ;
 }
