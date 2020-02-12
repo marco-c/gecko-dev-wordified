@@ -2695,9 +2695,6 @@ name
 "
 SubtleCrypto
 "
-insecureContext
-:
-true
 }
 /
 /

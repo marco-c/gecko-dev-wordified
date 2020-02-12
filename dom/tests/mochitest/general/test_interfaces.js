@@ -2564,9 +2564,6 @@ name
 "
 CryptoKey
 "
-insecureContext
-:
-true
 }
 /
 /
@@ -12159,9 +12156,6 @@ name
 "
 SubtleCrypto
 "
-insecureContext
-:
-true
 }
 /
 /
