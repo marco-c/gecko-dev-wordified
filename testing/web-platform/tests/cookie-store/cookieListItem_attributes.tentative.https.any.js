@@ -1827,7 +1827,7 @@ strict
 lax
 '
 '
-unrestricted
+none
 '
 ]
 .
