@@ -410,8 +410,8 @@ tempLifoAlloc
 )
 )
 ;
-ParseInfo
-binParseInfo
+CompilationInfo
+binCompilationInfo
 (
 gCx
 allocScope
@@ -420,7 +420,7 @@ allocScope
 if
 (
 !
-binParseInfo
+binCompilationInfo
 .
 initFromOptions
 (
@@ -447,7 +447,7 @@ ScopeKind
 :
 :
 Global
-binParseInfo
+binCompilationInfo
 directives
 false
 )
@@ -465,9 +465,9 @@ BinASTTokenReaderMultipart
 reader
 (
 gCx
-binParseInfo
+binCompilationInfo
 options
-binParseInfo
+binCompilationInfo
 .
 sourceObject
 )

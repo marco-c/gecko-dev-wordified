@@ -41333,8 +41333,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -41343,7 +41343,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -41393,10 +41393,10 @@ foldConstants
 *
 /
 true
-parseInfo
+compilationInfo
 nullptr
 nullptr
-parseInfo
+compilationInfo
 .
 sourceObject
 )

@@ -271,9 +271,9 @@ cx
 ModuleObject
 *
 module
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 Scope
 *
 enclosingScope

@@ -200,7 +200,7 @@ namespace
 frontend
 {
 struct
-ParseInfo
+CompilationInfo
 ;
 class
 FunctionBox
@@ -327,7 +327,7 @@ hold
 index
 and
 the
-parseInfo
+compilationInfo
 together
 to
 avoid
@@ -337,7 +337,7 @@ a
 /
 potentially
 nullable
-parseInfo
+compilationInfo
 .
 struct
 Deferred
@@ -348,9 +348,9 @@ index
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ;
 }
 ;
@@ -512,9 +512,9 @@ AbstractScope
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScopeIndex
 scope
 )
@@ -524,7 +524,7 @@ scope_
 Deferred
 {
 scope
-parseInfo
+compilationInfo
 }
 )
 {
@@ -654,7 +654,7 @@ is
 rooted
 in
 the
-ParseInfo
+CompilationInfo
 .
 MutableHandle
 <

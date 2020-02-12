@@ -142,9 +142,9 @@ BinASTParserBase
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 HandleScriptSourceObject
 sourceObject
 )
@@ -152,7 +152,7 @@ sourceObject
 ParserSharedBase
 (
 cx
-parseInfo
+compilationInfo
 sourceObject
 ParserSharedBase
 :

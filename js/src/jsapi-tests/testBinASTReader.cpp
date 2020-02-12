@@ -1886,8 +1886,8 @@ begin
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -1896,7 +1896,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -1912,7 +1912,7 @@ Couldn
 '
 t
 initialize
-ParseInfo
+CompilationInfo
 "
 )
 ;
@@ -1958,10 +1958,10 @@ foldConstants
 *
 /
 false
-parseInfo
+compilationInfo
 nullptr
 nullptr
-parseInfo
+compilationInfo
 .
 sourceObject
 )
@@ -2171,8 +2171,8 @@ begin
 frontend
 :
 :
-ParseInfo
-binParseInfo
+CompilationInfo
+binCompilationInfo
 (
 cx
 allocScope
@@ -2181,7 +2181,7 @@ allocScope
 if
 (
 !
-binParseInfo
+binCompilationInfo
 .
 initFromOptions
 (
@@ -2215,7 +2215,7 @@ ScopeKind
 :
 :
 Global
-binParseInfo
+binCompilationInfo
 directives
 false
 )
@@ -2230,9 +2230,9 @@ Tok
 binParser
 (
 cx
-binParseInfo
+binCompilationInfo
 binOptions
-binParseInfo
+binCompilationInfo
 .
 sourceObject
 )

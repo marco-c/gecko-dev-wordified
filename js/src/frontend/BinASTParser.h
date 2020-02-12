@@ -475,9 +475,9 @@ BinASTParser
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 const
 JS
 :
@@ -503,7 +503,7 @@ Tok
 >
 (
 cx
-parseInfo
+compilationInfo
 options
 sourceObject
 lazyScript

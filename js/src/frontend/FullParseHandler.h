@@ -1117,9 +1117,9 @@ newBigInt
 (
 BigIntIndex
 index
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 const
 TokenPos
 &
@@ -1133,7 +1133,7 @@ BigIntLiteral
 >
 (
 index
-parseInfo
+compilationInfo
 pos
 )
 ;

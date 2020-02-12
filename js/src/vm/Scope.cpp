@@ -150,7 +150,7 @@ include
 "
 frontend
 /
-ParseInfo
+CompilationInfo
 .
 h
 "
@@ -10953,9 +10953,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 Handle
 <
 FunctionScope
@@ -11117,7 +11117,7 @@ false
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11126,7 +11126,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11171,9 +11171,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScopeKind
 kind
 Handle
@@ -11296,7 +11296,7 @@ false
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11305,7 +11305,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11341,9 +11341,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScopeKind
 kind
 Handle
@@ -11476,7 +11476,7 @@ false
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11485,7 +11485,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11526,9 +11526,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScopeKind
 kind
 Handle
@@ -11684,7 +11684,7 @@ cx
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11693,7 +11693,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11733,9 +11733,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScopeKind
 kind
 Handle
@@ -11864,7 +11864,7 @@ false
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11873,7 +11873,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -11914,9 +11914,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 Handle
 <
 ModuleScope
@@ -12095,7 +12095,7 @@ false
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -12104,7 +12104,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -12148,9 +12148,9 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 Handle
 <
 AbstractScope
@@ -12164,7 +12164,7 @@ index
 *
 index
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .
@@ -12173,7 +12173,7 @@ length
 )
 ;
 return
-parseInfo
+compilationInfo
 .
 scopeCreationData
 .

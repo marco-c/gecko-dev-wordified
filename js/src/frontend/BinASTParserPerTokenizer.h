@@ -440,9 +440,9 @@ BinASTParserPerTokenizer
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 const
 JS
 :
@@ -2451,7 +2451,7 @@ parser
 parser
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 newDirectives

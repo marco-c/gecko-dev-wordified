@@ -2943,7 +2943,7 @@ Deferred
 return
 deferred
 .
-parseInfo
+compilationInfo
 .
 bigIntData
 [
@@ -3011,7 +3011,7 @@ Deferred
 return
 deferred
 .
-parseInfo
+compilationInfo
 .
 bigIntData
 [
@@ -3157,9 +3157,9 @@ getOrCreate
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 )
 const
 {
@@ -3197,7 +3197,7 @@ RegExpObject
 ;
 }
 return
-parseInfo
+compilationInfo
 .
 regExpData
 [
