@@ -2688,6 +2688,8 @@ places
 .
 enum
 Side
+:
+uint8_t
 {
 eSideTop
 eSideRight
@@ -2784,6 +2786,8 @@ SideBits
 )
 enum
 Corner
+:
+uint8_t
 {
 /
 /
