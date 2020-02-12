@@ -205,7 +205,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 :
 HTMLFormSubmission
@@ -215,7 +215,7 @@ EmptyString
 (
 )
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 mOwner
 (
@@ -247,7 +247,7 @@ aFormData
 mEncoding
 aFormData
 .
-mOriginatingElement
+mSubmitter
 )
 {
 mOwner

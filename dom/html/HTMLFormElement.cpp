@@ -4341,11 +4341,11 @@ submissions
 /
 Get
 the
-originating
-frame
+submitter
+element
 nsGenericHTMLElement
 *
-originatingElement
+submitter
 =
 nullptr
 ;
@@ -4370,7 +4370,7 @@ if
 submitEvent
 )
 {
-originatingElement
+submitter
 =
 submitEvent
 -
@@ -4434,7 +4434,7 @@ GetOwnerGlobal
 (
 )
 encoding
-originatingElement
+submitter
 )
 ;
 rv
@@ -4528,7 +4528,7 @@ HTMLFormSubmission
 GetFromForm
 (
 this
-originatingElement
+submitter
 encoding
 aFormSubmission
 )

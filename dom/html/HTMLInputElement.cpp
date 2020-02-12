@@ -34514,7 +34514,7 @@ NS_FORM_INPUT_IMAGE
 aFormSubmission
 -
 >
-GetOriginatingElement
+GetSubmitterElement
 (
 )
 !

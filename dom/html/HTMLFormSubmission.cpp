@@ -610,7 +610,7 @@ Document
 aDocument
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 :
 EncodingFormSubmission
@@ -618,7 +618,7 @@ EncodingFormSubmission
 aActionURL
 aTarget
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 mMethod
 (
@@ -2218,7 +2218,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 :
 EncodingFormSubmission
@@ -2226,7 +2226,7 @@ EncodingFormSubmission
 aActionURL
 aTarget
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 {
 mPostData
@@ -3724,7 +3724,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 :
 EncodingFormSubmission
@@ -3732,7 +3732,7 @@ EncodingFormSubmission
 aActionURL
 aTarget
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 {
 }
@@ -4499,7 +4499,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 :
 HTMLFormSubmission
@@ -4507,7 +4507,7 @@ HTMLFormSubmission
 aActionURL
 aTarget
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 {
 if
@@ -4552,9 +4552,9 @@ AppendElement
 ;
 SendJSWarning
 (
-aOriginatingElement
+aSubmitter
 ?
-aOriginatingElement
+aSubmitter
 -
 >
 GetOwnerDocument
@@ -4850,7 +4850,7 @@ HTMLFormElement
 aForm
 nsGenericHTMLElement
 *
-aOriginatingElement
+aSubmitter
 NotNull
 <
 const
@@ -4923,7 +4923,7 @@ getter_AddRefs
 (
 actionURL
 )
-aOriginatingElement
+aSubmitter
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5065,7 +5065,7 @@ The
 target
 is
 the
-originating
+submitter
 element
 formtarget
 attribute
@@ -5163,10 +5163,10 @@ if
 (
 !
 (
-aOriginatingElement
+aSubmitter
 &
 &
-aOriginatingElement
+aSubmitter
 -
 >
 GetAttr
@@ -5222,10 +5222,10 @@ NS_FORM_ENCTYPE_URLENCODED
 ;
 if
 (
-aOriginatingElement
+aSubmitter
 &
 &
-aOriginatingElement
+aSubmitter
 -
 >
 HasAttr
@@ -5240,7 +5240,7 @@ formenctype
 {
 GetEnumAttr
 (
-aOriginatingElement
+aSubmitter
 nsGkAtoms
 :
 :
@@ -5280,10 +5280,10 @@ NS_FORM_METHOD_GET
 ;
 if
 (
-aOriginatingElement
+aSubmitter
 &
 &
-aOriginatingElement
+aSubmitter
 -
 >
 HasAttr
@@ -5298,7 +5298,7 @@ formmethod
 {
 GetEnumAttr
 (
-aOriginatingElement
+aSubmitter
 nsGkAtoms
 :
 :
@@ -5349,7 +5349,7 @@ FSMultipartFormData
 actionURL
 target
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 ;
 }
@@ -5377,7 +5377,7 @@ FSTextPlain
 actionURL
 target
 aEncoding
-aOriginatingElement
+aSubmitter
 )
 ;
 }
@@ -5428,10 +5428,10 @@ AppendElement
 ;
 if
 (
-aOriginatingElement
+aSubmitter
 &
 &
-aOriginatingElement
+aSubmitter
 -
 >
 HasAttr
@@ -5444,7 +5444,7 @@ formenctype
 )
 )
 {
-aOriginatingElement
+aSubmitter
 -
 >
 GetAttr
@@ -5495,7 +5495,7 @@ target
 aEncoding
 method
 doc
-aOriginatingElement
+aSubmitter
 )
 ;
 }
