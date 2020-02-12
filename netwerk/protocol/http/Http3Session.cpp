@@ -8024,9 +8024,15 @@ void
 (
 this
 )
+std
+:
+:
+move
+(
 certInfo
 .
 certs
+)
 stapledOCSPResponse
 sctsFromTLSExtension
 providerFlags
