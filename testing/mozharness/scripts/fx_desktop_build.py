@@ -363,19 +363,6 @@ mozilla
 org
 "
                 
-"
-graph_selector
-"
-:
-"
-/
-server
-/
-collect
-.
-cgi
-"
-                
 '
 build_resources_path
 '
@@ -453,8 +440,6 @@ virtualenv_path
 '
 venv
 '
-                
-#
             
 }
             
