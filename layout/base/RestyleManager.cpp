@@ -12196,10 +12196,7 @@ StyleDisplay
 mTransformStyle
 =
 =
-StyleTransformStyle
-:
-:
-Preserve3d
+NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
 )
 {
 hint

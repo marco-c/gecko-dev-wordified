@@ -17810,10 +17810,7 @@ NS_STYLE_BACKFACE_VISIBILITY_VISIBLE
 )
 mTransformStyle
 (
-StyleTransformStyle
-:
-:
-Flat
+NS_STYLE_TRANSFORM_STYLE_FLAT
 )
 mTransformBox
 (

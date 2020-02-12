@@ -9950,10 +9950,7 @@ mScale
 uint8_t
 mBackfaceVisibility
 ;
-mozilla
-:
-:
-StyleTransformStyle
+uint8_t
 mTransformStyle
 ;
 StyleGeometryBox
@@ -11532,13 +11529,7 @@ HasIndividualTransform
 mTransformStyle
 =
 =
-mozilla
-:
-:
-StyleTransformStyle
-:
-:
-Preserve3d
+NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
 |
 |
 (
