@@ -433,8 +433,9 @@ mServerCert
 nullptr
 ;
 }
-void
-SetCertificateTransparencyInfo
+static
+uint16_t
+ConvertCertificateTransparencyInfoToStatus
 (
 const
 mozilla
