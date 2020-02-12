@@ -1358,7 +1358,7 @@ failures
 Note
 /
 /
-podResizeToFit
+shrinkStorageToFit
 calls
 at
 the
@@ -6266,7 +6266,7 @@ metadataTier_
 >
 funcToCodeRange
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
@@ -6275,7 +6275,7 @@ metadataTier_
 >
 codeRanges
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
@@ -6284,7 +6284,7 @@ metadataTier_
 >
 callSites
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
@@ -6293,7 +6293,7 @@ metadataTier_
 >
 trapSites
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
@@ -6302,7 +6302,7 @@ metadataTier_
 >
 debugTrapFarJumpOffsets
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
@@ -6328,7 +6328,7 @@ trapSites
 trap
 ]
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;

@@ -781,7 +781,7 @@ call
 Vector
 :
 :
-podResizeToFit
+shrinkStorageToFit
 a
 type
 must
@@ -12400,7 +12400,7 @@ rhs
 )
 ;
 void
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;

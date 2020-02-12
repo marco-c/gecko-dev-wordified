@@ -629,7 +629,7 @@ memory
 .
 mBacktrace
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
