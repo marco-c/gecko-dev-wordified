@@ -435,6 +435,13 @@ const
 bool
 &
 aHasTransactionObserver
+const
+Maybe
+<
+H2PushedStreamArg
+>
+&
+aPushedStreamArg
 )
 ;
 mozilla
@@ -633,6 +640,13 @@ bool
 responseTimeoutEnabled
 uint64_t
 channelId
+const
+Maybe
+<
+H2PushedStreamArg
+>
+&
+aPushedStreamArg
 )
 ;
 bool
