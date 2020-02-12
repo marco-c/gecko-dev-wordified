@@ -748,7 +748,7 @@ return
 nullptr
 ;
 }
-JS_STATIC_ASSERT
+static_assert
 (
 JSFatInlineString
 :
@@ -761,7 +761,7 @@ TwoByteCharBuffer
 InlineLength
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JSFatInlineString
 :

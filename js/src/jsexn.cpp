@@ -977,7 +977,7 @@ padding
 .
 *
 /
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -995,7 +995,7 @@ char
 0
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
