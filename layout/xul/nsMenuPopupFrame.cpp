@@ -6533,11 +6533,6 @@ ReflowChildFlags
 :
 :
 NoMoveView
-|
-ReflowChildFlags
-:
-:
-NoVisibility
 ;
 }
 nsPoint

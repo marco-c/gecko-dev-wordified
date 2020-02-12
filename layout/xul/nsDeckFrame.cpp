@@ -1327,11 +1327,6 @@ ReflowChildFlags
 :
 :
 NoSizeView
-|
-ReflowChildFlags
-:
-:
-NoVisibility
 )
 ;
 /
