@@ -4106,7 +4106,7 @@ AlignJustifyFlags
 :
 IgnoreAutoMargins
 ;
-uint16_t
+StyleAlignFlags
 alignConst
 =
 aPlaceholderContainer
@@ -4197,7 +4197,10 @@ if
 (
 alignConst
 &
-NS_STYLE_ALIGN_SAFE
+StyleAlignFlags
+:
+:
+SAFE
 )
 {
 flags
@@ -4213,7 +4216,10 @@ alignConst
 &
 =
 ~
-NS_STYLE_ALIGN_FLAG_BITS
+StyleAlignFlags
+:
+:
+FLAG_BITS
 ;
 /
 /

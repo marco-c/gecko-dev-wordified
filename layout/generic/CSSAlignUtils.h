@@ -146,6 +146,9 @@ mozilla
 struct
 ReflowInput
 ;
+struct
+StyleAlignFlags
+;
 class
 CSSAlignUtils
 {
@@ -372,7 +375,9 @@ self
 The
 values
 *
-NS_STYLE_ALIGN_
+StyleAlignFlags
+:
+:
 {
 AUTO
 LEFT
@@ -482,7 +487,9 @@ static
 nscoord
 AlignJustifySelf
 (
-uint8_t
+const
+StyleAlignFlags
+&
 aAlignment
 LogicalAxis
 aAxis

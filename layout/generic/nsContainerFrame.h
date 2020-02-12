@@ -3454,7 +3454,10 @@ frame
 *
 /
 virtual
-uint16_t
+mozilla
+:
+:
+StyleAlignFlags
 CSSAlignmentForAbsPosChild
 (
 const
