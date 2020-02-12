@@ -626,6 +626,11 @@ UpdateDebugFlags
 (
 )
 ;
+void
+UpdateMultithreading
+(
+)
+;
 mozilla
 :
 :

@@ -403,6 +403,13 @@ false
 \
 _
 (
+UseWebRenderMultithreading
+bool
+false
+)
+\
+_
+(
 WebRenderMaxPartialPresentRects
 int32_t
 0
