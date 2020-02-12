@@ -12043,8 +12043,6 @@ JSTracer
 trc
 )
 {
-return
-;
 }
 template
 <
