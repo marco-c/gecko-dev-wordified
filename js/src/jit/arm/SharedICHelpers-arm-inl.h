@@ -174,7 +174,7 @@ is
 /
 unused
 .
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -336,7 +336,7 @@ on
 the
 stack
 .
-MOZ_ASSERT
+static_assert
 (
 ICTailCallReg
 =

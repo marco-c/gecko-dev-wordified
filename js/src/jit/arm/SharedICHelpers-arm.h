@@ -315,7 +315,7 @@ can
 use
 r0
 .
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -462,7 +462,7 @@ can
 use
 r0
 .
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -792,7 +792,7 @@ the
 next
 stubcode
 .
-MOZ_ASSERT
+static_assert
 (
 ICTailCallReg
 =

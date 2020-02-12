@@ -389,7 +389,7 @@ reg_argv
 =
 IntArgReg2
 ;
-MOZ_ASSERT
+static_assert
 (
 OsrFrameReg
 =
@@ -5976,7 +5976,7 @@ startTrampolineCode
 masm
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 PreBarrierReg
 =

@@ -167,7 +167,7 @@ R2
 is
 unused
 .
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -317,7 +317,7 @@ the
 tail
 call
 .
-MOZ_ASSERT
+static_assert
 (
 ICTailCallReg
 =

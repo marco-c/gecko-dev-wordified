@@ -4449,7 +4449,7 @@ if
 ENC3_INDEX_MAX
 changes
 .
-MOZ_ASSERT
+static_assert
 (
 ENC3_INDEX_MAX
 =
@@ -4592,7 +4592,7 @@ if
 ENC4_INDEX_MAX
 changes
 .
-MOZ_ASSERT
+static_assert
 (
 ENC4_INDEX_MAX
 =

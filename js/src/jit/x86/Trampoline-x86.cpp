@@ -6184,7 +6184,7 @@ startTrampolineCode
 masm
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 PreBarrierReg
 =

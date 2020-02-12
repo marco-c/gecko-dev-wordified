@@ -8249,7 +8249,7 @@ emit_TypeMonitor
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -11275,7 +11275,7 @@ emit_ToBool
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -12636,7 +12636,7 @@ bool
 hasReceiver
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -14314,7 +14314,7 @@ emit_SetElem
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -15315,7 +15315,7 @@ emit_GetName
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -15575,7 +15575,7 @@ emit_BindName
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -16525,7 +16525,7 @@ bool
 hasReceiver
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -18078,7 +18078,7 @@ emit_SetProp
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -20233,7 +20233,7 @@ bool
 isConstructing
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -20893,7 +20893,7 @@ if
 isConstructing
 )
 {
-MOZ_ASSERT
+static_assert
 (
 JSReturnOperand
 =
@@ -22400,7 +22400,7 @@ emit_UnaryArith
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -23063,7 +23063,7 @@ emit_BinaryArith
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =
@@ -23610,7 +23610,7 @@ emit_Compare
 (
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R0
 =

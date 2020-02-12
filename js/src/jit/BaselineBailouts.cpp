@@ -2644,7 +2644,7 @@ Rectifier
 /
 frame
 .
-MOZ_ASSERT
+static_assert
 (
 BaselineFrameReg
 =

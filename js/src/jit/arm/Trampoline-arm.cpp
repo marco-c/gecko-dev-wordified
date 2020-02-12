@@ -740,7 +740,7 @@ vp
 )
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 OsrFrameReg
 =
@@ -6514,7 +6514,7 @@ pushReturnAddress
 (
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 PreBarrierReg
 =

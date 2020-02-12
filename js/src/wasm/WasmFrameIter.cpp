@@ -3723,7 +3723,7 @@ currentOffset
 (
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 BeforePushRetAddr
 =
@@ -5521,7 +5521,7 @@ currentOffset
 (
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 BeforePushRetAddr
 =
@@ -5601,7 +5601,7 @@ currentOffset
 (
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 BeforePushRetAddr
 =
