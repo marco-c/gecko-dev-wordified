@@ -2303,10 +2303,6 @@ ReadOnlyCompileOptions
 options
 )
 :
-keepAtoms
-(
-cx
-)
 compilationInfo
 (
 compilationInfo
@@ -2951,6 +2947,8 @@ TokenStreamPosition
 startPosition
 (
 info
+.
+compilationInfo
 .
 keepAtoms
 parser
@@ -3720,6 +3718,8 @@ TokenStreamPosition
 startPosition
 (
 info
+.
+compilationInfo
 .
 keepAtoms
 parser
