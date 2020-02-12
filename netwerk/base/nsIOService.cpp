@@ -1475,6 +1475,11 @@ gCallbackPrefsForSocketProcess
 {
 WEBRTC_PREF_PREFIX
 NETWORK_DNS_PREF
+"
+network
+.
+ssl_tokens_cache_enabled
+"
 nullptr
 }
 ;
