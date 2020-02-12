@@ -978,8 +978,6 @@ Native2WrappedNativeMap
 :
 Native2WrappedNativeMap
 (
-int
-length
 )
 :
 mTable
@@ -994,7 +992,7 @@ sizeof
 (
 Entry
 )
-length
+XPC_NATIVE_MAP_LENGTH
 )
 {
 }
@@ -1203,8 +1201,6 @@ IID2NativeInterfaceMap
 :
 IID2NativeInterfaceMap
 (
-int
-length
 )
 :
 mTable
@@ -1218,7 +1214,7 @@ sizeof
 (
 Entry
 )
-length
+XPC_NATIVE_INTERFACE_MAP_LENGTH
 )
 {
 }
@@ -1525,8 +1521,6 @@ ClassInfo2NativeSetMap
 :
 ClassInfo2NativeSetMap
 (
-int
-length
 )
 :
 mTable
@@ -1543,7 +1537,7 @@ sizeof
 (
 Entry
 )
-length
+XPC_NATIVE_SET_MAP_LENGTH
 )
 {
 }
@@ -1671,8 +1665,6 @@ ClassInfo2WrappedNativeProtoMap
 :
 ClassInfo2WrappedNativeProtoMap
 (
-int
-length
 )
 :
 mTable
@@ -1687,7 +1679,7 @@ sizeof
 (
 Entry
 )
-length
+XPC_NATIVE_PROTO_MAP_LENGTH
 )
 {
 }
@@ -2253,8 +2245,6 @@ NativeSetMap
 :
 NativeSetMap
 (
-int
-length
 )
 :
 mTable
@@ -2268,7 +2258,7 @@ sizeof
 (
 Entry
 )
-length
+XPC_NATIVE_SET_MAP_LENGTH
 )
 {
 }
@@ -2456,8 +2446,6 @@ XPCWrappedNativeProtoMap
 :
 XPCWrappedNativeProtoMap
 (
-int
-length
 )
 :
 mTable
@@ -2472,7 +2460,7 @@ sizeof
 (
 PLDHashEntryStub
 )
-length
+XPC_DYING_NATIVE_PROTO_MAP_LENGTH
 )
 {
 }

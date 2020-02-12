@@ -701,7 +701,6 @@ MakeUnique
 JSObject2JSObjectMap
 >
 (
-XPC_WRAPPER_MAP_LENGTH
 )
 ;
 }
