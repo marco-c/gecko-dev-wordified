@@ -2164,6 +2164,8 @@ if
 !
 info
 .
+compilationInfo
+.
 assignSource
 (
 sourceBuffer_
