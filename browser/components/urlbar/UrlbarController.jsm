@@ -4275,11 +4275,6 @@ TabSelect
 "
 focus
 "
-"
-urlbar
--
-reopen
-"
 ]
 ;
 if
