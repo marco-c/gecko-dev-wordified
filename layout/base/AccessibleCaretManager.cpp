@@ -1477,7 +1477,13 @@ case
 PositionChangedResult
 :
 :
-Changed
+Position
+:
+case
+PositionChangedResult
+:
+:
+Zoom
 :
 if
 (
@@ -1743,7 +1749,7 @@ result
 PositionChangedResult
 :
 :
-Changed
+Position
 )
 ;
 if
@@ -1918,7 +1924,13 @@ case
 PositionChangedResult
 :
 :
-Changed
+Position
+:
+case
+PositionChangedResult
+:
+:
+Zoom
 :
 if
 (
@@ -2009,7 +2021,7 @@ firstCaretResult
 PositionChangedResult
 :
 :
-Changed
+Position
 |
 |
 secondCaretResult
@@ -2018,7 +2030,7 @@ secondCaretResult
 PositionChangedResult
 :
 :
-Changed
+Position
 ;
 if
 (
