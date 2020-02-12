@@ -1466,6 +1466,9 @@ HStringDeleter
 >
 HStringUniquePtr
 ;
+mozilla
+:
+:
 Result
 <
 HStringUniquePtr
@@ -1529,6 +1532,9 @@ rawStr
 #
 ifndef
 __MINGW32__
+mozilla
+:
+:
 Result
 <
 Ok
