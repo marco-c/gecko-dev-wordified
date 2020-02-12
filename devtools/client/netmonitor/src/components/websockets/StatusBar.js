@@ -626,7 +626,7 @@ ws
 .
 summary
 .
-tooltip
+label
 .
 framesTranferredSize
 "
