@@ -1049,17 +1049,6 @@ numExec
 scriptName
 )
 ;
-outFNDA_
-.
-put
-(
-"
-\
-n
-"
-1
-)
-;
 /
 /
 Set
