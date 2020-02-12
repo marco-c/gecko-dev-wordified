@@ -3998,9 +3998,12 @@ TestFileData
 (
 intern
 (
+ensure_str
+(
 test_manifest
 .
 url_base
+)
 )
                                           
 None
