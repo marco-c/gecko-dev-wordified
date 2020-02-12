@@ -19514,6 +19514,9 @@ void
 args
 )
 {
+#
+ifndef
+NSS_DISABLE_DBM
 char
 *
 secmod
@@ -19549,6 +19552,13 @@ success
 Success
 "
 ;
+#
+endif
+/
+*
+NSS_DISABLE_DBM
+*
+/
 char
 *
 *
@@ -19591,6 +19601,9 @@ return
 NULL
 ;
 }
+#
+ifndef
+NSS_DISABLE_DBM
 /
 *
 The
@@ -20062,6 +20075,13 @@ PORT_Free
 filename
 )
 ;
+#
+endif
+/
+*
+NSS_DISABLE_DBM
+*
+/
 return
 rvstr
 ;
