@@ -18497,7 +18497,9 @@ thread
 /
 ion
 -
-builder
+compile
+-
+task
 "
 )
 KIND_HEAP
@@ -18505,13 +18507,13 @@ gStats
 .
 helperThread
 .
-ionBuilder
+ionCompileTask
 "
 The
 memory
 used
 by
-IonBuilders
+IonCompileTasks
 waiting
 in
 HelperThreadState
