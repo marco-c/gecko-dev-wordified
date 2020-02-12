@@ -13191,7 +13191,7 @@ the
 right
 size
 .
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -13338,7 +13338,7 @@ i
 ;
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -13566,7 +13566,7 @@ offset
 }
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -13769,7 +13769,7 @@ dest
 ;
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -13880,7 +13880,7 @@ dest
 ;
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14223,7 +14223,7 @@ i
 ;
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

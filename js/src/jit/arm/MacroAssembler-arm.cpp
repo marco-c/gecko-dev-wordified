@@ -20199,7 +20199,7 @@ Label
 notInt32
 end
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 NUNBOX32_PAYLOAD_OFFSET
 =
@@ -22209,7 +22209,7 @@ the
 as_dtr
 call
 .
-JS_STATIC_ASSERT
+static_assert
 (
 NUNBOX32_PAYLOAD_OFFSET
 =
@@ -22416,7 +22416,7 @@ the
 as_dtr
 call
 .
-JS_STATIC_ASSERT
+static_assert
 (
 NUNBOX32_PAYLOAD_OFFSET
 =

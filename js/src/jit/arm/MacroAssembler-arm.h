@@ -191,7 +191,7 @@ defaultShift
 =
 3
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 1
 <

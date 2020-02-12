@@ -741,7 +741,7 @@ bound
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -1564,7 +1564,7 @@ isBranch
 false
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -1697,7 +1697,7 @@ Instr
 instruction
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

@@ -936,7 +936,7 @@ pcOffset_
 pcOffset
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 BaselineMaxScriptLength
 <

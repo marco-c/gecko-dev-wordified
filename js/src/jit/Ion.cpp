@@ -716,7 +716,7 @@ gc
 Cell
 aligned
 .
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

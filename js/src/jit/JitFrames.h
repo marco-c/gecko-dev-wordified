@@ -4157,7 +4157,7 @@ this
 static
 assert
 holding
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (

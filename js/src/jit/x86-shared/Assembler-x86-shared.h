@@ -2155,7 +2155,7 @@ x86
 condition
 codes
 .
-JS_STATIC_ASSERT
+static_assert
 (
 !
 (
