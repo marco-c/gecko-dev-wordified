@@ -770,9 +770,8 @@ containerType
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Unknown
 type
@@ -799,9 +798,8 @@ CANPLAY_NO
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -928,9 +926,8 @@ type
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -1084,9 +1081,8 @@ type
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -1178,9 +1174,8 @@ type
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -1197,9 +1192,8 @@ return
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Type
 not

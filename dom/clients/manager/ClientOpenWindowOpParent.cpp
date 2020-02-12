@@ -156,9 +156,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 "
 Client
 aborted

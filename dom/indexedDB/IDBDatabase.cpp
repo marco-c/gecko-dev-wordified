@@ -2076,9 +2076,8 @@ end
 {
 aRv
 .
-ThrowDOMException
+ThrowConstraintError
 (
-NS_ERROR_DOM_INDEXEDDB_CONSTRAINT_ERR
 nsPrintfCString
 (
 "

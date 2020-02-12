@@ -17398,9 +17398,8 @@ selector
 .
 aRv
 .
-ThrowDOMException
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
 NS_LITERAL_CSTRING
 (
 "
@@ -17537,9 +17536,8 @@ ret
 {
 aRv
 .
-ThrowDOMException
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
 NS_LITERAL_CSTRING
 (
 "

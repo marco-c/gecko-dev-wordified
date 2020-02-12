@@ -8657,9 +8657,8 @@ IDB_REPORT_INTERNAL_ERR
 ;
 aRv
 .
-ThrowDOMException
+ThrowUnknownError
 (
-NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 nsPrintfCString
 (
 "
@@ -11899,9 +11898,8 @@ end
 {
 aRv
 .
-ThrowDOMException
+ThrowConstraintError
 (
-NS_ERROR_DOM_INDEXEDDB_CONSTRAINT_ERR
 nsPrintfCString
 (
 "

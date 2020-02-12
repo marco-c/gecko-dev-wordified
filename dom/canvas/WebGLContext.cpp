@@ -11807,9 +11807,8 @@ global
 {
 aRv
 .
-ThrowDOMException
+ThrowInvalidAccessError
 (
-NS_ERROR_DOM_INVALID_ACCESS_ERR
 "
 Using
 a
@@ -11820,13 +11819,13 @@ is
 not
 attached
 to
-"
-"
 either
 a
 canvas
 or
 an
+"
+"
 OffscreenCanvas
 "
 )

@@ -744,9 +744,8 @@ window
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 CSSStyleSheet
 constructor
@@ -754,8 +753,6 @@ not
 supported
 when
 there
-"
-"
 is
 no
 document
@@ -785,9 +782,8 @@ constructorDocument
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 CSSStyleSheet
 constructor
@@ -795,8 +791,6 @@ not
 supported
 when
 there
-"
-"
 is
 no
 document
@@ -3723,9 +3717,8 @@ mConstructorDocument
 {
 aRv
 .
-ThrowDOMException
+ThrowNotAllowedError
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
 "
 The
 replace
@@ -3942,9 +3935,8 @@ mConstructorDocument
 return
 aRv
 .
-ThrowDOMException
+ThrowNotAllowedError
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
 "
 The
 replaceSync
@@ -3988,9 +3980,8 @@ ModificationDisallowed
 return
 aRv
 .
-ThrowDOMException
+ThrowNotAllowedError
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
 "
 The
 replaceSync
@@ -4215,9 +4206,8 @@ rawContent
 return
 aRv
 .
-ThrowDOMException
+ThrowNotAllowedError
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
 "
 The
 replaceSync
@@ -7887,9 +7877,8 @@ Length
 {
 aRv
 .
-ThrowDOMException
+ThrowIndexSizeError
 (
-NS_ERROR_DOM_INDEX_SIZE_ERR
 nsPrintfCString
 (
 "

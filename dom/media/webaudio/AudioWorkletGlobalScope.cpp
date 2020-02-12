@@ -440,9 +440,8 @@ IsEmpty
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Argument
 1
@@ -530,9 +529,8 @@ not
 allowed
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Argument
 1
@@ -1716,9 +1714,8 @@ mName
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 NS_LITERAL_CSTRING
 (
 "
@@ -1767,9 +1764,8 @@ mMaxValue
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 NS_LITERAL_CSTRING
 (
 "
@@ -1827,9 +1823,8 @@ mMaxValue
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 NS_LITERAL_CSTRING
 (
 "

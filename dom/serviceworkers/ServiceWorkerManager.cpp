@@ -14303,9 +14303,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Worker
 is
@@ -14365,9 +14364,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowSecurityError
 (
-NS_ERROR_DOM_SECURITY_ERR
 "
 Worker
 is

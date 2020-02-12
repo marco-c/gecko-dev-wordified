@@ -606,9 +606,8 @@ shmem
 {
 aRv
 .
-ThrowDOMException
+ThrowAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 nsPrintfCString
 (
 "
@@ -859,9 +858,8 @@ shmem
 {
 aRv
 .
-ThrowDOMException
+ThrowAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 nsPrintfCString
 (
 "

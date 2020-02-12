@@ -18134,9 +18134,8 @@ isAtom
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "
@@ -18325,9 +18324,8 @@ definition
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "
@@ -18397,9 +18395,8 @@ mDisableInternals
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "
@@ -18470,9 +18467,8 @@ HasAttachedInternals
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "

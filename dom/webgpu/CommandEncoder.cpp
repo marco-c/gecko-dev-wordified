@@ -363,9 +363,8 @@ mValid
 return
 aRv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Command
 encoder
@@ -413,9 +412,8 @@ shmem
 return
 aRv
 .
-ThrowDOMException
+ThrowAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 nsPrintfCString
 (
 "
