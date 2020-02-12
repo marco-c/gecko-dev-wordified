@@ -8535,7 +8535,7 @@ baselineScript
 )
 -
 >
-hasPendingIonBuilder
+hasPendingIonCompileTask
 (
 )
 )
