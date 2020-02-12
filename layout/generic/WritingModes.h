@@ -3299,14 +3299,9 @@ values
 )
 ;
 const
-auto
+uint8_t
 wm
 =
-static_cast
-<
-uint8_t
->
-(
 (
 (
 mWritingMode
@@ -3333,7 +3328,6 @@ VERTICAL
 )
 .
 bits
-)
 ;
 return
 PhysicalSideForBlockAxis
