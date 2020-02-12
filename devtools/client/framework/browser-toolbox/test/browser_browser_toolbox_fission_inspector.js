@@ -720,7 +720,7 @@ async
 =
 >
 {
-dump
+info
 (
 "
 #
@@ -728,8 +728,6 @@ Waiting
 for
 picker
 stop
-\
-n
 "
 )
 ;
@@ -738,7 +736,7 @@ this
 .
 onPickerStopped
 ;
-dump
+info
 (
 "
 #
@@ -747,8 +745,6 @@ for
 inspector
 -
 updated
-\
-n
 "
 )
 ;
