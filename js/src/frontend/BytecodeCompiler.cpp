@@ -954,9 +954,9 @@ MOZ_MUST_USE
 bool
 handleParseFailure
 (
-BytecodeCompiler
+CompilationInfo
 &
-compiler
+compilationInfo
 const
 Directives
 &
@@ -2599,9 +2599,9 @@ Unit
 :
 handleParseFailure
 (
-BytecodeCompiler
+CompilationInfo
 &
-info
+compilationInfo
 const
 Directives
 &
@@ -2672,8 +2672,6 @@ hadError
 )
 |
 |
-info
-.
 compilationInfo
 .
 directives
@@ -2717,8 +2715,6 @@ reparsing
 iloops
 MOZ_ASSERT_IF
 (
-info
-.
 compilationInfo
 .
 directives
@@ -2735,8 +2731,6 @@ strict
 ;
 MOZ_ASSERT_IF
 (
-info
-.
 compilationInfo
 .
 directives
@@ -2751,8 +2745,6 @@ asmJS
 )
 )
 ;
-info
-.
 compilationInfo
 .
 directives
@@ -3014,6 +3006,8 @@ if
 handleParseFailure
 (
 info
+.
+compilationInfo
 info
 .
 compilationInfo
@@ -3709,6 +3703,8 @@ fn
 handleParseFailure
 (
 info
+.
+compilationInfo
 newDirectives
 startPosition
 )
