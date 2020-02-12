@@ -163,6 +163,7 @@ num
 +
 +
 )
+{
 Assert
 .
 equal
@@ -192,6 +193,7 @@ words
 )
 )
 ;
+}
 /
 /
 Not

@@ -85,9 +85,7 @@ const
 data
 =
 {
-"
 filtering
-"
 :
 {
 "
@@ -1688,9 +1686,7 @@ en
 ]
 ]
 }
-"
 matching
-"
 :
 {
 "
@@ -1745,9 +1741,7 @@ en
 ]
 ]
 }
-"
 lookup
-"
 :
 {
 "
@@ -1787,11 +1781,11 @@ en
 fr
 "
 ]
-'
+"
 en
 -
 US
-'
+"
 localeService
 .
 langNegStrategyLookup
