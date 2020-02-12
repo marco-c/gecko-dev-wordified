@@ -4270,7 +4270,7 @@ this
 ;
 }
 }
-JS_STATIC_ASSERT
+static_assert
 (
 unsigned
 (
@@ -4290,7 +4290,7 @@ OWNER_SLOT
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 unsigned
 (
@@ -4310,7 +4310,7 @@ OWNER_SLOT
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 unsigned
 (
@@ -4327,7 +4327,7 @@ JSSLOT_DEBUGOBJECT_OWNER
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 unsigned
 (
