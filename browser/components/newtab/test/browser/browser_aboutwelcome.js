@@ -816,7 +816,7 @@ onboarding
 -
 benefit
 -
-products
+sync
 -
 text
 ]
@@ -834,7 +834,7 @@ onboarding
 -
 benefit
 -
-knowledge
+monitor
 -
 text
 ]
@@ -852,7 +852,7 @@ onboarding
 -
 benefit
 -
-privacy
+lockwise
 -
 text
 ]

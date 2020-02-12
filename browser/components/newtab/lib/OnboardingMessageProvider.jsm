@@ -583,13 +583,13 @@ benefits
 :
 [
 "
-products
+sync
 "
 "
-knowledge
+monitor
 "
 "
-privacy
+lockwise
 "
 ]
 .
@@ -682,7 +682,7 @@ string_id
 "
 onboarding
 -
-join
+welcome
 -
 form
 -
