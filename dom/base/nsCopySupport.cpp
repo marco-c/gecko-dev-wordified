@@ -2411,7 +2411,6 @@ selection
 new
 Selection
 (
-nullptr
 )
 ;
 RefPtr
