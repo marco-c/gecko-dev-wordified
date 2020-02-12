@@ -768,9 +768,6 @@ EGLImageKHR
 mEGLImage
 ;
 GLuint
-mGLFbo
-;
-GLuint
 mTexture
 ;
 bool
