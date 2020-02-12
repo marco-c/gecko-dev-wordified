@@ -1450,6 +1450,10 @@ const
 MOZ_ASSERT
 (
 data
+|
+|
+!
+dataLen
 )
 ;
 const
