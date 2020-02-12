@@ -628,6 +628,10 @@ gdk_window_set_events
 )
 STUB
 (
+gdk_window_set_geometry_hints
+)
+STUB
+(
 gdk_window_set_role
 )
 STUB
@@ -2209,10 +2213,6 @@ gtk_window_set_deletable
 STUB
 (
 gtk_window_set_destroy_with_parent
-)
-STUB
-(
-gtk_window_set_geometry_hints
 )
 STUB
 (
