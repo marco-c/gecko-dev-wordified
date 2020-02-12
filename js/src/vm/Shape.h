@@ -5396,7 +5396,7 @@ staticAsserts
 (
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -7440,7 +7440,7 @@ cx
 shape
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 allowGC
 =
@@ -7467,7 +7467,7 @@ nullptr
 shape
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 allowGC
 =
@@ -9314,7 +9314,7 @@ staticAsserts
 (
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -9336,7 +9336,7 @@ base
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -9358,7 +9358,7 @@ immutableFlags
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 FIXED_SLOTS_SHIFT
 =
@@ -9375,7 +9375,7 @@ Shape
 FIXED_SLOTS_SHIFT
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 FIXED_SLOTS_MASK
 =

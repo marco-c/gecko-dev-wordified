@@ -9451,7 +9451,7 @@ decompiler
 .
 *
 /
-JS_STATIC_ASSERT
+static_assert
 (
 JSOpLength_SetName
 =
@@ -9466,7 +9466,7 @@ TRY_BRANCH_AFTER_COND
 .
 *
 /
-JS_STATIC_ASSERT
+static_assert
 (
 JSOpLength_IfNe
 =
@@ -9474,7 +9474,7 @@ JSOpLength_IfNe
 JSOpLength_IfEq
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 uint8_t
 (

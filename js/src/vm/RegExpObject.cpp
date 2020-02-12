@@ -1879,7 +1879,7 @@ empty
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 LAST_INDEX_SLOT
 =

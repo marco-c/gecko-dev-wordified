@@ -586,7 +586,7 @@ staticAsserts
 (
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 NewObjectCache
 :
@@ -600,7 +600,7 @@ JSObject_Slots16
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 gc
 :

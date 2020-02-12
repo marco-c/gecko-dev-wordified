@@ -6242,7 +6242,7 @@ numBytecodeTypeSets
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6253,7 +6253,7 @@ jsbytecode
 1
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

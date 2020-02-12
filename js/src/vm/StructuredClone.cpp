@@ -1144,7 +1144,7 @@ Iter
 )
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 8
 %
@@ -2397,7 +2397,7 @@ staticAssertions
 (
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -2408,7 +2408,7 @@ char16_t
 2
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -3643,7 +3643,7 @@ uint64_t
 )
 ;
 }
-JS_STATIC_ASSERT
+static_assert
 (
 SCTAG_END_OF_BUILTIN_TYPES
 <
@@ -3651,7 +3651,7 @@ SCTAG_END_OF_BUILTIN_TYPES
 JS_SCTAG_USER_MIN
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JS_SCTAG_USER_MIN
 <
@@ -3659,7 +3659,7 @@ JS_SCTAG_USER_MIN
 JS_SCTAG_USER_MAX
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 Scalar
 :
@@ -4604,7 +4604,7 @@ return
 true
 ;
 }
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -5207,7 +5207,7 @@ size_t
 nelems
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 8
 %
@@ -5220,7 +5220,7 @@ T
 0
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -6135,7 +6135,7 @@ ownership
 }
 }
 }
-JS_STATIC_ASSERT
+static_assert
 (
 JSString
 :

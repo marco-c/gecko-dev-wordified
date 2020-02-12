@@ -3234,7 +3234,7 @@ RoundUpPow2
 length
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JSString
 :

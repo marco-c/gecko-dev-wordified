@@ -2345,7 +2345,7 @@ staticAsserts
 (
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -2362,7 +2362,7 @@ Value
 0
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
