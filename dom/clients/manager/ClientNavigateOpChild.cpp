@@ -1550,9 +1550,7 @@ ThrowTypeError
 (
 u
 "
-Client
-.
-navigate
+Navigation
 to
 \
 "
