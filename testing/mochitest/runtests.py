@@ -12076,6 +12076,17 @@ self
 tests_by_manifest
 [
 manifest_key
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
 ]
 .
 append
