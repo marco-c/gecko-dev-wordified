@@ -374,12 +374,6 @@ Page
 164
 const
 uint32_t
-kMinMaxColorAttachments
-=
-4
-;
-const
-uint32_t
 kMinMaxDrawBuffers
 =
 4
