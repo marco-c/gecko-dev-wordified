@@ -204,10 +204,12 @@ performance
 "
 button
 :
-"
+/
+^
 Refresh
-Nightly
-"
+.
++
+/
 awaitCallback
 (
 )
