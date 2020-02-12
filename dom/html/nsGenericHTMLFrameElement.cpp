@@ -2059,7 +2059,7 @@ mFrameLoader
 mFrameLoader
 -
 >
-GetBrowsingContext
+GetExtantBrowsingContext
 (
 )
 :
