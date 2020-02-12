@@ -5046,9 +5046,6 @@ use
 crate
 :
 :
-properties
-:
-:
 computed_value_flags
 :
 :

@@ -5314,9 +5314,6 @@ context
 =
 Context
 {
-is_root_element
-:
-false
 /
 /
 Note
