@@ -721,10 +721,6 @@ if
 (
 !
 proto
-|
-|
-!
-proto
 -
 >
 Init
