@@ -379,6 +379,10 @@ mStatus
 (
 NS_OK
 )
+mChannelId
+(
+0
+)
 {
 LOG
 (
@@ -1008,6 +1012,8 @@ uint32_t
 initialRwin
 bool
 responseTimeoutEnabled
+uint64_t
+channelId
 )
 {
 LOG
@@ -1100,6 +1106,7 @@ rc
 classOfService
 initialRwin
 responseTimeoutEnabled
+channelId
 )
 ;
 if
@@ -1389,6 +1396,10 @@ const
 bool
 &
 aResponseTimeoutEnabled
+const
+uint64_t
+&
+aChannelId
 )
 {
 mRequestHead
@@ -1421,6 +1432,10 @@ nsHttpTransaction
 (
 )
 ;
+mChannelId
+=
+aChannelId
+;
 nsresult
 rv
 =
@@ -1439,6 +1454,7 @@ aRequestContextID
 aClassOfService
 aInitialRwin
 aResponseTimeoutEnabled
+aChannelId
 )
 ;
 if

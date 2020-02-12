@@ -139,6 +139,9 @@ mObservers
 Mutex
 mLock
 ;
+bool
+mActivated
+;
 }
 ;
 }

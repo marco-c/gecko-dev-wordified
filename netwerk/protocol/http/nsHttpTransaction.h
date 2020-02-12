@@ -183,6 +183,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+NeckoChannelParams
+.
+h
+"
+#
+include
+"
 ARefBase
 .
 h
@@ -1456,6 +1467,9 @@ nsCOMPtr
 nsISupports
 >
 mChannel
+;
+uint64_t
+mChannelId
 ;
 nsCOMPtr
 <

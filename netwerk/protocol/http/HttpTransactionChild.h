@@ -427,6 +427,10 @@ const
 bool
 &
 aResponseTimeoutEnabled
+const
+uint64_t
+&
+aChannelId
 )
 ;
 mozilla
@@ -623,6 +627,8 @@ uint32_t
 initialRwin
 bool
 responseTimeoutEnabled
+uint64_t
+channelId
 )
 ;
 bool
@@ -630,6 +636,9 @@ mCanceled
 ;
 nsresult
 mStatus
+;
+uint64_t
+mChannelId
 ;
 nsHttpRequestHead
 mRequestHead
