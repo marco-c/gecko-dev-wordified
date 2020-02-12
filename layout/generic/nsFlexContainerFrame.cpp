@@ -35800,7 +35800,7 @@ AutoFlexItemMainSizeOverride
 mItemFrame
 -
 >
-TakeProperty
+DeleteProperty
 (
 nsIFrame
 :
