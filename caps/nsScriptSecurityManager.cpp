@@ -8021,7 +8021,7 @@ ContentPrincipal
 (
 )
 ;
-ContentPrincipal
+auto
 *
 contentPrincipal
 =

@@ -1075,12 +1075,6 @@ ThreadsafeIsCallerChrome
 ;
 static
 bool
-IsCallerContentXBL
-(
-)
-;
-static
-bool
 IsCallerUAWidget
 (
 )
