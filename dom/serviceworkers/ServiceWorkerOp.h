@@ -258,8 +258,8 @@ ServiceWorkerOp
 >
 Create
 (
-const
 ServiceWorkerOpArgs
+&
 &
 aArgs
 std
@@ -281,8 +281,8 @@ aCallback
 ;
 ServiceWorkerOp
 (
-const
 ServiceWorkerOpArgs
+&
 &
 aArgs
 std
