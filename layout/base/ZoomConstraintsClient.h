@@ -171,6 +171,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 EventTarget
 ;
 }
