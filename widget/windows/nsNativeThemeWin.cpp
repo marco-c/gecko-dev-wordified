@@ -5792,11 +5792,6 @@ inputState
 =
 UNCHECKED
 ;
-bool
-isXULCheckboxRadio
-=
-false
-;
 if
 (
 !
@@ -5846,15 +5841,6 @@ eventState
 =
 GetContentState
 (
-isXULCheckboxRadio
-?
-aFrame
--
->
-GetParent
-(
-)
-:
 aFrame
 aAppearance
 )
