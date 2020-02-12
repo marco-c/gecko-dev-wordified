@@ -11426,10 +11426,9 @@ surface
 .
 frame_state
 .
-clip_chain_stack
-.
 push_surface
 (
+surface_index
 &
 tile_cache
 .
@@ -11455,10 +11454,9 @@ is_composite
 {
 frame_state
 .
-clip_chain_stack
-.
 push_surface
 (
+surface_index
 &
 [
 ]
@@ -12745,8 +12743,6 @@ as_ref
 )
 prim_local_rect
 frame_context
-.
-spatial_tree
 frame_state
 .
 data_stores
@@ -12768,10 +12764,10 @@ opacity_bindings
 self
 .
 images
-surface_index
-surface
+&
+frame_state
 .
-surface_spatial_node_index
+surface_stack
 )
 {
 prim_instance
@@ -13752,8 +13748,6 @@ if
 is_composite
 {
 frame_state
-.
-clip_chain_stack
 .
 pop_surface
 (
