@@ -101,9 +101,6 @@ inspect
 keys
 "
 "
-pprint
-"
-"
 screenshot
 "
 "
