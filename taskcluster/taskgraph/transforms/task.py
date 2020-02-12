@@ -127,6 +127,8 @@ from
 copy
 import
 deepcopy
+import
+six
 from
 six
 import
@@ -5950,7 +5952,13 @@ hashlib
 .
 sha256
 (
+                    
+six
+.
+ensure_binary
+(
 out_of_tree_image
+)
 )
 .
 hexdigest
@@ -6244,6 +6252,16 @@ TASKCLUSTER_VOLUMES
 join
 (
             
+[
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
 sorted
 (
 worker
@@ -6253,6 +6271,7 @@ volumes
 '
 ]
 )
+]
 )
     
 if
@@ -18805,6 +18824,15 @@ volumes
 =
 set
 (
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
 task
 [
 '
@@ -18822,6 +18850,10 @@ paths
 =
 set
 (
+six
+.
+ensure_text
+(
 c
 [
 '
@@ -18830,6 +18862,8 @@ mount
 point
 '
 ]
+)
+                
 for
 c
 in

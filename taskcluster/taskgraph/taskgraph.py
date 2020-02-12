@@ -71,6 +71,8 @@ import
 Task
 import
 attr
+import
+six
 attr
 .
 s
@@ -268,12 +270,13 @@ order
 "
         
 return
-self
-.
-tasks
+six
 .
 itervalues
 (
+self
+.
+tasks
 )
     
 def

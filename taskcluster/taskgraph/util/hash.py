@@ -79,6 +79,10 @@ as
 mozpath
 import
 hashlib
+import
+io
+import
+six
 memoize
 def
 hash_path
@@ -112,9 +116,16 @@ form
 "
     
 with
+io
+.
 open
 (
 path
+mode
+=
+'
+rb
+'
 )
 as
 fh
@@ -288,6 +299,10 @@ h
 .
 update
 (
+six
+.
+ensure_binary
+(
 '
 {
 }
@@ -323,6 +338,7 @@ normsep
 path
 )
         
+)
 )
 )
     

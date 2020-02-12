@@ -6596,9 +6596,9 @@ fd
 open
 (
 logfile
-"
-wb
-"
+'
+wt
+'
 )
                 
 self

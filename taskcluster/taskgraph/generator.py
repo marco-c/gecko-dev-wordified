@@ -67,6 +67,8 @@ import
 copy
 import
 attr
+import
+six
 from
 six
 import
@@ -1568,10 +1570,11 @@ set
 for
 kind
 in
-kinds
+six
 .
 itervalues
 (
+kinds
 )
 :
             
@@ -1904,12 +1907,13 @@ for
 depname
 dep
 in
-t
-.
-dependencies
+six
 .
 iteritems
 (
+t
+.
+dependencies
 )
 :
                 
@@ -2171,12 +2175,13 @@ label
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                                  
 if
@@ -2231,12 +2236,13 @@ label
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                                       
 if
@@ -2525,12 +2531,11 @@ try
 k
 v
 =
+next
+(
 self
 .
 _run
-.
-next
-(
 )
             
 except
@@ -2611,10 +2616,9 @@ rst
             
 identifiers
 =
-parameters_dict
-.
-keys
+list
 (
+parameters_dict
 )
             
 appearing_as
@@ -2680,10 +2684,11 @@ for
 label
 task
 in
-all_tasks
+six
 .
 iteritems
 (
+all_tasks
 )
 :
             

@@ -62,6 +62,8 @@ unicode_literals
 import
 hashlib
 import
+io
+import
 json
 import
 os
@@ -1944,6 +1946,8 @@ include
 .
     
 with
+io
+.
 open
 (
 os
@@ -1958,7 +1962,7 @@ Dockerfile
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -2053,18 +2057,10 @@ format
 p
 )
 )
-                                
 args
 [
 p
 ]
-.
-encode
-(
-'
-ascii
-'
-)
 )
 )
                 
@@ -2371,6 +2367,15 @@ b
 .
 join
 (
+six
+.
+ensure_binary
+(
+s
+)
+for
+s
+in
 content
 )
 )
