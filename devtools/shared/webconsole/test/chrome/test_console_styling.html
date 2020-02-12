@@ -643,6 +643,7 @@ blue
 ]
 ;
 }
+async
 function
 startTest
 (
@@ -656,6 +657,13 @@ load
 startTest
 )
 ;
+const
+{
+state
+response
+}
+=
+await
 attachConsoleToTab
 (
 [
@@ -663,7 +671,12 @@ attachConsoleToTab
 ConsoleAPI
 "
 ]
+)
+;
 onAttach
+(
+state
+response
 )
 ;
 }

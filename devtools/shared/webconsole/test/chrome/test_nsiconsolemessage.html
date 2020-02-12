@@ -169,6 +169,7 @@ expectedMessages
 [
 ]
 ;
+async
 function
 startTest
 (
@@ -182,6 +183,12 @@ load
 startTest
 )
 ;
+const
+{
+state
+}
+=
+await
 attachConsole
 (
 [
@@ -189,7 +196,11 @@ attachConsole
 PageError
 "
 ]
+)
+;
 onAttach
+(
+state
 )
 ;
 }
@@ -197,7 +208,6 @@ function
 onAttach
 (
 aState
-aResponse
 )
 {
 onLogMessage

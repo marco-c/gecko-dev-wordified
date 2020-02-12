@@ -369,6 +369,7 @@ true
 }
 ]
 ;
+async
 function
 startTest
 (
@@ -517,6 +518,12 @@ load
 startTest
 )
 ;
+const
+{
+state
+}
+=
+await
 attachConsoleToTab
 (
 [
@@ -524,7 +531,11 @@ attachConsoleToTab
 NetworkActivity
 "
 ]
+)
+;
 onAttach
+(
+state
 )
 ;
 }
@@ -532,7 +543,6 @@ function
 onAttach
 (
 state
-response
 )
 {
 onNetworkEventUpdate

@@ -859,6 +859,7 @@ stmt
 ;
 }
 }
+async
 function
 startTest
 (
@@ -872,6 +873,12 @@ load
 startTest
 )
 ;
+const
+{
+state
+}
+=
+await
 attachConsole
 (
 [
@@ -879,7 +886,11 @@ attachConsole
 PageError
 "
 ]
+)
+;
 onAttach
+(
+state
 )
 ;
 }
@@ -887,7 +898,6 @@ function
 onAttach
 (
 state
-response
 )
 {
 onPageError

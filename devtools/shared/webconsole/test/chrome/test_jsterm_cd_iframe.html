@@ -207,6 +207,7 @@ waitForExplicitFinish
 let
 gState
 ;
+async
 function
 startTest
 (
@@ -220,11 +221,21 @@ load
 startTest
 )
 ;
+const
+{
+state
+}
+=
+await
 attachConsoleToTab
 (
 [
 ]
+)
+;
 onAttach
+(
+state
 )
 ;
 }
@@ -232,7 +243,6 @@ function
 onAttach
 (
 aState
-aResponse
 )
 {
 top

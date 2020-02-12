@@ -404,6 +404,7 @@ iframe
 )
 ;
 }
+async
 function
 startTest
 (
@@ -417,6 +418,12 @@ load
 startTest
 )
 ;
+const
+{
+state
+}
+=
+await
 attachConsole
 (
 [
@@ -424,7 +431,11 @@ attachConsole
 FileActivity
 "
 ]
+)
+;
 onAttach
+(
+state
 )
 ;
 }
@@ -432,7 +443,6 @@ function
 onAttach
 (
 aState
-aResponse
 )
 {
 gState

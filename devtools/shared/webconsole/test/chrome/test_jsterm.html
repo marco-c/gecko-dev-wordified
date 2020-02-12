@@ -248,6 +248,7 @@ options
 )
 ;
 }
+async
 function
 startTest
 (
@@ -261,6 +262,12 @@ load
 startTest
 )
 ;
+const
+{
+state
+}
+=
+await
 attachConsoleToTab
 (
 [
@@ -268,7 +275,11 @@ attachConsoleToTab
 PageError
 "
 ]
+)
+;
 onAttach
+(
+state
 )
 ;
 }
@@ -276,7 +287,6 @@ function
 onAttach
 (
 aState
-aResponse
 )
 {
 top
