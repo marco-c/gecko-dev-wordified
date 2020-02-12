@@ -1742,7 +1742,7 @@ kid
 Handle
 property
 deletion
-explictly
+explicitly
 .
 OptionalCall
 is
