@@ -2065,9 +2065,8 @@ SuppressException
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithTimeoutError
 (
-NS_ERROR_FAILURE
 "
 Message
 handler

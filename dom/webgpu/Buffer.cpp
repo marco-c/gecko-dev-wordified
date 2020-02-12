@@ -643,9 +643,8 @@ GetParentObject
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 "
 Owning
 page
@@ -787,9 +786,8 @@ ResponseRejectReason
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 "
 Internal
 communication
