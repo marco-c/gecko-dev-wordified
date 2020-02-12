@@ -3391,6 +3391,36 @@ test_platform
 return
 False
             
+if
+'
+-
+youtube
+-
+playback
+-
+'
+in
+attributes
+.
+get
+(
+'
+raptor_try_name
+'
+)
+\
+                    
+and
+'
+opt
+'
+in
+test_platform
+:
+                
+return
+False
+            
 return
 True
     
