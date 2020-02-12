@@ -13229,11 +13229,6 @@ this
 /
 /
 Unimplemented
-notifyDocumentCreated
-(
-)
-{
-}
 notifyDocumentStateChanged
 (
 aDirty
