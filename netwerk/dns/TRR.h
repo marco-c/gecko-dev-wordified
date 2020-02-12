@@ -822,6 +822,9 @@ aHost
 nsresult
 ReturnData
 (
+nsIChannel
+*
+aChannel
 )
 ;
 /
@@ -952,6 +955,9 @@ pushedRec
 nsresult
 On200Response
 (
+nsIChannel
+*
+aChannel
 )
 ;
 nsCOMPtr
