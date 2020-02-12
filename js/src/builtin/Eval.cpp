@@ -856,7 +856,7 @@ script
 JSScript
 :
 :
-initFromEmitter
+fullyInitFromStencil
 has
 already
 called

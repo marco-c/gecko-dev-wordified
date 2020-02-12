@@ -372,6 +372,9 @@ js
 namespace
 frontend
 {
+struct
+BytecodeEmitter
+;
 class
 EitherParser
 ;

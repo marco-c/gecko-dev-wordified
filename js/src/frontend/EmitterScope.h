@@ -211,6 +211,9 @@ Scope
 namespace
 frontend
 {
+struct
+BytecodeEmitter
+;
 /
 /
 A
