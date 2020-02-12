@@ -2816,11 +2816,11 @@ IsServiceWorker
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 mOwner
 )
-;
+{
 Unused
 <
 <
@@ -2837,6 +2837,7 @@ mOwner
 =
 nullptr
 ;
+}
 return
 true
 ;
