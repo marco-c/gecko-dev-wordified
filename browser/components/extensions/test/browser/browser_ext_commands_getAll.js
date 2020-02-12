@@ -695,7 +695,8 @@ test
 .
 assertEq
 (
-null
+"
+"
 command
 .
 shortcut
@@ -768,7 +769,8 @@ test
 .
 assertEq
 (
-null
+"
+"
 command
 .
 shortcut

@@ -399,7 +399,8 @@ g
 "
 )
 :
-null
+"
+"
 ;
 }
 /
@@ -806,6 +807,9 @@ description
 if
 (
 shortcut
+!
+=
+null
 &
 &
 shortcut
