@@ -3149,12 +3149,14 @@ dom
 :
 :
 ThrowErrorMessage
-(
-aCx
+<
 dom
 :
 :
 MSG_NOT_OBJECT
+>
+(
+aCx
 "
 Element
 of

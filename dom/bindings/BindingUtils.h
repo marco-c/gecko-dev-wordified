@@ -9933,9 +9933,11 @@ false
 }
 return
 ThrowErrorMessage
+<
+MSG_INVALID_ENUM_VALUE
+>
 (
 cx
-MSG_INVALID_ENUM_VALUE
 sourceDescription
 deflated
 .

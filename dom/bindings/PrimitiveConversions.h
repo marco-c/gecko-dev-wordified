@@ -1399,9 +1399,11 @@ d
 {
 return
 ThrowErrorMessage
+<
+MSG_ENFORCE_RANGE_NON_FINITE
+>
 (
 cx
-MSG_ENFORCE_RANGE_NON_FINITE
 TypeName
 <
 T
@@ -1475,9 +1477,11 @@ max
 {
 return
 ThrowErrorMessage
+<
+MSG_ENFORCE_RANGE_OUT_OF_RANGE
+>
 (
 cx
-MSG_ENFORCE_RANGE_OUT_OF_RANGE
 TypeName
 <
 T
