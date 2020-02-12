@@ -2563,6 +2563,8 @@ net
 :
 CacheDisposition
 aCacheDisposition
+uint64_t
+aInnerWindowID
 const
 mozilla
 :
@@ -2594,8 +2596,9 @@ aEndTime
 mozilla
 :
 :
-Nothing
+Some
 (
+aInnerWindowID
 )
 std
 :

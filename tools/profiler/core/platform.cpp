@@ -35426,6 +35426,8 @@ net
 :
 CacheDisposition
 aCacheDisposition
+uint64_t
+aInnerWindowID
 const
 mozilla
 :
@@ -35592,6 +35594,7 @@ aEnd
 aPriority
 aCount
 aCacheDisposition
+aInnerWindowID
 aTimings
 PromiseFlatCString
 (
