@@ -3098,12 +3098,6 @@ ReaderView
 #
 ifdef
 XP_WIN
-modifiers
-=
-"
-accel
-alt
-"
 data
 -
 l10n
@@ -3139,6 +3133,12 @@ toggle
 shortcut
 -
 other
+"
+modifiers
+=
+"
+accel
+alt
 "
 #
 endif
