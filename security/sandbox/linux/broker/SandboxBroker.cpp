@@ -4451,6 +4451,11 @@ SetName
 threadName
 )
 ;
+AUTO_PROFILER_REGISTER_THREAD
+(
+threadName
+)
+;
 /
 /
 Permissive
