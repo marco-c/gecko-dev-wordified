@@ -235,6 +235,16 @@ PropTypes
 func
 .
 isRequired
+alignRight
+:
+PropTypes
+.
+bool
+canVerticalSplit
+:
+PropTypes
+.
+bool
 }
 )
 activeTab
@@ -293,6 +303,8 @@ collapsed
 collapsePaneTitle
 expandPaneTitle
 onClick
+alignRight
+canVerticalSplit
 }
 =
 this
@@ -309,6 +321,8 @@ collapsed
 collapsePaneTitle
 expandPaneTitle
 onClick
+alignRight
+canVerticalSplit
 }
 )
 ;
