@@ -41,22 +41,6 @@ the
 script
     
 '
-app_ini_path
-'
-:
-'
-FAKE
-'
-#
-Not
-used
-but
-required
-by
-the
-script
-    
-'
 env
 '
 :
