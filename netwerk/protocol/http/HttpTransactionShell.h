@@ -138,6 +138,9 @@ nsHttpTransaction
 class
 TransactionObserverResult
 ;
+union
+NetAddr
+;
 /
 /
 -
