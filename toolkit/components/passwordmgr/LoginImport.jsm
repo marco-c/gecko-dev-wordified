@@ -298,8 +298,6 @@ aPath
 ;
 }
 ;
-this
-.
 LoginImport
 .
 prototype

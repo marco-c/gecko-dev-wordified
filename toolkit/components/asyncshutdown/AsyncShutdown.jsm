@@ -6922,8 +6922,6 @@ if
 isContent
 )
 {
-this
-.
 AsyncShutdown
 .
 profileChangeTeardown
@@ -6939,8 +6937,6 @@ teardown
 "
 )
 ;
-this
-.
 AsyncShutdown
 .
 profileBeforeChange
@@ -6956,8 +6952,6 @@ change
 "
 )
 ;
-this
-.
 AsyncShutdown
 .
 sendTelemetry
@@ -7005,8 +6999,6 @@ if
 isContent
 )
 {
-this
-.
 AsyncShutdown
 .
 quitApplicationGranted
@@ -7053,8 +7045,6 @@ hangs
 /
 All
 processes
-this
-.
 AsyncShutdown
 .
 webWorkersShutdown
@@ -7070,8 +7060,6 @@ shutdown
 "
 )
 ;
-this
-.
 AsyncShutdown
 .
 xpcomWillShutdown
@@ -7087,8 +7075,6 @@ shutdown
 "
 )
 ;
-this
-.
 AsyncShutdown
 .
 Barrier
@@ -7099,8 +7085,6 @@ Object
 .
 freeze
 (
-this
-.
 AsyncShutdown
 )
 ;

@@ -177,8 +177,6 @@ install
 a
 decoder
 .
-this
-.
 SessionWorker
 .
 ExceptionHandlers

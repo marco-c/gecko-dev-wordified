@@ -28993,8 +28993,6 @@ Object
 .
 freeze
 (
-this
-.
 CustomizableUI
 )
 ;
@@ -29002,8 +29000,6 @@ Object
 .
 freeze
 (
-this
-.
 CustomizableUI
 .
 windows

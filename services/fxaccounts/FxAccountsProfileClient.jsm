@@ -500,8 +500,6 @@ Initialized
 ;
 }
 ;
-this
-.
 FxAccountsProfileClient
 .
 prototype

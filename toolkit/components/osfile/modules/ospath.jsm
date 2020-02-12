@@ -348,8 +348,6 @@ in
 Path
 )
 {
-this
-.
 EXPORTED_SYMBOLS
 .
 push

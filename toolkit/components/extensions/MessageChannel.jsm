@@ -1011,16 +1011,12 @@ than
 you
 do
 .
-this
-.
 _deferredResult
 .
 resolve
 =
 resolve
 ;
-this
-.
 _deferredResult
 .
 reject
@@ -1202,8 +1198,6 @@ promise
 new
 Promise
 (
-this
-.
 _makeDeferred
 )
 ;

@@ -478,8 +478,6 @@ asyncLoadSettingsModules
 )
 ;
 return
-this
-.
 ExtensionPreferencesManager
 .
 removeAll
@@ -513,8 +511,6 @@ asyncLoadSettingsModules
 )
 ;
 return
-this
-.
 ExtensionPreferencesManager
 .
 disableAll
@@ -548,8 +544,6 @@ asyncLoadSettingsModules
 )
 ;
 return
-this
-.
 ExtensionPreferencesManager
 .
 enableAll

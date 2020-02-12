@@ -419,8 +419,6 @@ gOpen
 }
 )
 ;
-this
-.
 SelectContentHelper
 .
 prototype

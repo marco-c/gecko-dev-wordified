@@ -2703,8 +2703,6 @@ success
 }
 }
 ;
-this
-.
 TranslationTelemetry
 .
 init

@@ -1476,8 +1476,6 @@ Object
 .
 freeze
 (
-this
-.
 CrashMonitor
 )
 ;

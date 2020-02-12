@@ -946,8 +946,6 @@ null
 ;
 }
 ;
-this
-.
 BasePromiseWorker
 .
 prototype
@@ -2742,8 +2740,6 @@ copied
 constructor
 *
 /
-this
-.
 BasePromiseWorker
 .
 Meta

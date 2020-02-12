@@ -413,8 +413,6 @@ resolve
 ;
 }
 ;
-this
-.
 FxAccountsStorageManager
 .
 prototype

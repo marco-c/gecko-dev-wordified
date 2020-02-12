@@ -3663,8 +3663,6 @@ granted
 ;
 }
 ;
-this
-.
 DownloadHistoryList
 .
 prototype

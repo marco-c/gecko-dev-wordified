@@ -603,8 +603,6 @@ return
 submittedDir
 ;
 }
-this
-.
 CrashReports
 .
 pendingDir
@@ -613,8 +611,6 @@ CrashReports_pendingDir
 (
 )
 ;
-this
-.
 CrashReports
 .
 reportsDir
@@ -623,8 +619,6 @@ CrashReports_reportsDir
 (
 )
 ;
-this
-.
 CrashReports
 .
 submittedDir

@@ -370,8 +370,6 @@ channel
 }
 }
 ;
-this
-.
 FxAccountsProfile
 .
 prototype

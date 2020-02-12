@@ -876,8 +876,6 @@ defer
 ;
 }
 ;
-this
-.
 Download
 .
 prototype
@@ -8310,8 +8308,6 @@ function
 {
 }
 ;
-this
-.
 DownloadSource
 .
 prototype
@@ -9037,8 +9033,6 @@ object
 .
 *
 /
-this
-.
 DownloadSource
 .
 fromSerializable
@@ -9370,8 +9364,6 @@ function
 {
 }
 ;
-this
-.
 DownloadTarget
 .
 prototype
@@ -10060,8 +10052,6 @@ object
 .
 *
 /
-this
-.
 DownloadTarget
 .
 fromSerializable
@@ -10748,8 +10738,6 @@ serialized
 .
 *
 /
-this
-.
 DownloadError
 .
 BLOCK_VERDICT_MALWARE
@@ -10758,8 +10746,6 @@ BLOCK_VERDICT_MALWARE
 Malware
 "
 ;
-this
-.
 DownloadError
 .
 BLOCK_VERDICT_POTENTIALLY_UNWANTED
@@ -10768,8 +10754,6 @@ BLOCK_VERDICT_POTENTIALLY_UNWANTED
 PotentiallyUnwanted
 "
 ;
-this
-.
 DownloadError
 .
 BLOCK_VERDICT_UNCOMMON
@@ -10778,8 +10762,6 @@ BLOCK_VERDICT_UNCOMMON
 Uncommon
 "
 ;
-this
-.
 DownloadError
 .
 prototype
@@ -11227,8 +11209,6 @@ object
 .
 *
 /
-this
-.
 DownloadError
 .
 fromSerializable
@@ -11359,8 +11339,6 @@ function
 {
 }
 ;
-this
-.
 DownloadSaver
 .
 prototype
@@ -11982,8 +11960,6 @@ object
 .
 *
 /
-this
-.
 DownloadSaver
 .
 fromSerializable
@@ -12116,8 +12092,6 @@ function
 {
 }
 ;
-this
-.
 DownloadCopySaver
 .
 prototype
@@ -15184,8 +15158,6 @@ object
 .
 *
 /
-this
-.
 DownloadCopySaver
 .
 fromSerializable
@@ -15307,8 +15279,6 @@ defer
 ;
 }
 ;
-this
-.
 DownloadLegacySaver
 .
 prototype
@@ -17313,8 +17283,6 @@ disk
 .
 *
 /
-this
-.
 DownloadLegacySaver
 .
 fromSerializable
@@ -17434,8 +17402,6 @@ function
 {
 }
 ;
-this
-.
 DownloadPDFSaver
 .
 prototype
@@ -18120,8 +18086,6 @@ object
 .
 *
 /
-this
-.
 DownloadPDFSaver
 .
 fromSerializable

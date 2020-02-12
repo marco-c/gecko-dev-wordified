@@ -440,8 +440,6 @@ _translatedCharacterCount
 ;
 }
 ;
-this
-.
 GoogleTranslator
 .
 prototype

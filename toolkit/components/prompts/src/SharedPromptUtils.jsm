@@ -661,8 +661,6 @@ startOnFocusDelay
 ;
 }
 ;
-this
-.
 EnableDelayHelper
 .
 prototype

@@ -5103,8 +5103,6 @@ string
 }
 *
 /
-this
-.
 L10nRegistry
 .
 load
@@ -5225,8 +5223,6 @@ string
 }
 *
 /
-this
-.
 L10nRegistry
 .
 loadSync

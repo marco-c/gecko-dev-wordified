@@ -225,8 +225,6 @@ document
 ;
 }
 ;
-this
-.
 TranslationDocument
 .
 prototype

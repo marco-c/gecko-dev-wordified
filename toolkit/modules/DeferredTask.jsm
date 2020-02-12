@@ -1004,8 +1004,6 @@ aIdleTimeoutMs
 ;
 }
 ;
-this
-.
 DeferredTask
 .
 prototype

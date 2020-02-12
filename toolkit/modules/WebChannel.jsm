@@ -826,8 +826,6 @@ originOrPermission
 ;
 }
 ;
-this
-.
 WebChannel
 .
 prototype

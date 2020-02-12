@@ -25474,8 +25474,6 @@ err
 }
 }
 ;
-this
-.
 AddonManager
 .
 init
@@ -25493,8 +25491,6 @@ AddonManager
 has
 been
 started
-.
-this
 .
 AddonManager
 .

@@ -852,8 +852,6 @@ _setupChannel
 ;
 }
 ;
-this
-.
 FxAccountsWebChannel
 .
 prototype
@@ -2012,8 +2010,6 @@ PrivateBrowsingUtils
 ;
 }
 ;
-this
-.
 FxAccountsWebChannelHelpers
 .
 prototype
@@ -4244,8 +4240,6 @@ accordingly
 singleton
 =
 new
-this
-.
 FxAccountsWebChannel
 (
 {

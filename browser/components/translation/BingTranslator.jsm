@@ -455,8 +455,6 @@ _translatedCharacterCount
 ;
 }
 ;
-this
-.
 BingTranslator
 .
 prototype

@@ -1232,8 +1232,6 @@ ex
 ;
 }
 ;
-this
-.
 IntegrationPoint
 .
 prototype

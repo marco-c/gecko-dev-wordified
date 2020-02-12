@@ -12249,8 +12249,6 @@ detail
 }
 }
 ;
-this
-.
 UITour
 .
 init

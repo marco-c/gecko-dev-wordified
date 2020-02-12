@@ -773,8 +773,6 @@ unit
 }
 }
 ;
-this
-.
 DownloadsViewUI
 .
 BaseView
@@ -1040,8 +1038,6 @@ object
 .
 *
 /
-this
-.
 DownloadsViewUI
 .
 DownloadElementShell
@@ -1052,8 +1048,6 @@ function
 {
 }
 ;
-this
-.
 DownloadsViewUI
 .
 DownloadElementShell
