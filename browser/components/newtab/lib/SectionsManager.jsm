@@ -449,9 +449,9 @@ newtab
 -
 pocket
 -
-whats
+learn
 -
-pocket
+more
 "
 }
 }
