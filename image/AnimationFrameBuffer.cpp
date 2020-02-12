@@ -1117,7 +1117,7 @@ aMetadata
 {
 aMetadata
 .
-index
+mIndex
 =
 i
 ;
@@ -2110,7 +2110,7 @@ aMetadata
 {
 aMetadata
 .
-index
+mIndex
 =
 1
 ;
@@ -2235,7 +2235,7 @@ aMetadata
 {
 aMetadata
 .
-index
+mIndex
 =
 i
 ;
@@ -2421,7 +2421,7 @@ aMetadata
 {
 aMetadata
 .
-index
+mIndex
 =
 0
 ;
