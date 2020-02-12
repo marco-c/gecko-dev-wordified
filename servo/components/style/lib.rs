@@ -530,10 +530,6 @@ num_traits
 ;
 extern
 crate
-ordered_float
-;
-extern
-crate
 owning_ref
 ;
 extern
