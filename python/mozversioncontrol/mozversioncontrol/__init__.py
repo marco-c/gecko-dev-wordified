@@ -2001,32 +2001,6 @@ connect
 =
 False
 )
-        
-#
-Work
-around
-py3
-compat
-issues
-in
-python
--
-hglib
-        
-self
-.
-_client
-.
-_env
-=
-ensure_subprocess_env
-(
-self
-.
-_client
-.
-_env
-)
     
 property
     
