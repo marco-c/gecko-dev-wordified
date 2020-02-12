@@ -597,6 +597,12 @@ mPeerAddr
 TimingStruct
 mTimings
 ;
+TimeStamp
+mDomainLookupStart
+;
+TimeStamp
+mDomainLookupEnd
+;
 }
 ;
 }
