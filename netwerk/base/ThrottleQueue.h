@@ -233,7 +233,6 @@ choppy
 /
 class
 ThrottleQueue
-final
 :
 public
 nsIInputChannelThrottleQueue
@@ -244,7 +243,12 @@ nsINamed
 {
 public
 :
-ThrottleQueue
+static
+already_AddRefed
+<
+nsIInputChannelThrottleQueue
+>
+Create
 (
 )
 ;
@@ -268,8 +272,13 @@ ThrottleInputStream
 aStream
 )
 ;
-private
+protected
 :
+ThrottleQueue
+(
+)
+;
+virtual
 ~
 ThrottleQueue
 (
