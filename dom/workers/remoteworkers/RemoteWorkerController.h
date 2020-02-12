@@ -1006,6 +1006,12 @@ SetServiceWorkerSkipWaitingFlag
 )
 const
 ;
+bool
+IsTerminated
+(
+)
+const
+;
 private
 :
 RemoteWorkerController
