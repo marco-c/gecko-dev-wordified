@@ -234,6 +234,10 @@ nsICanvasRenderingContextInternal
 class
 nsITimerCallback
 ;
+enum
+class
+gfxAlphaType
+;
 namespace
 mozilla
 {
@@ -2227,10 +2231,7 @@ void
 HandlePrintCallback
 (
 nsPresContext
-:
-:
-nsPresContextType
-aType
+*
 )
 ;
 nsresult

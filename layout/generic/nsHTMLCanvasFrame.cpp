@@ -914,11 +914,6 @@ mFrame
 PresContext
 (
 )
--
->
-Type
-(
-)
 )
 ;
 switch
@@ -3069,11 +3064,6 @@ element
 HandlePrintCallback
 (
 presContext
--
->
-Type
-(
-)
 )
 ;
 if

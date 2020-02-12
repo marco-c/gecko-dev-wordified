@@ -165,6 +165,17 @@ mozilla
 /
 dom
 /
+URL
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PrototypeDocumentContentSink
 .
 h

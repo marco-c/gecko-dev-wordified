@@ -226,6 +226,12 @@ mozilla
 struct
 SVGMark
 ;
+enum
+class
+StyleStrokeLinecap
+:
+uint8_t
+;
 class
 SVGPathDataParser
 ;
