@@ -158,6 +158,15 @@ library
 usage
 "
 )
+CHECK
+(
+FopenUsageChecker
+"
+fopen
+-
+usage
+"
+)
 #
 endif
 CHECK

@@ -132,6 +132,13 @@ LoadLibraryUsageChecker
 h
 "
 #
+include
+"
+FopenUsageChecker
+.
+h
+"
+#
 endif
 #
 include
