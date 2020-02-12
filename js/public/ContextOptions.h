@@ -189,7 +189,7 @@ ifdef
 ENABLE_WASM_BIGINT
 enableWasmBigInt_
 (
-false
+true
 )
 #
 endif
