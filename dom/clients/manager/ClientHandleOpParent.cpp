@@ -412,9 +412,14 @@ rv
 ;
 rv
 .
-Throw
+ThrowDOMException
 (
 NS_ERROR_DOM_ABORT_ERR
+"
+Aborting
+client
+operation
+"
 )
 ;
 Unused
