@@ -2448,7 +2448,7 @@ rect
 aFloat
 -
 >
-DeleteProperty
+RemoveProperty
 (
 FloatRegionProperty
 (

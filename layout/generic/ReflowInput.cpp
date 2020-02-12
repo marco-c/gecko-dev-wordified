@@ -8551,7 +8551,7 @@ call
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -20169,7 +20169,7 @@ else
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 aProperty
 )
@@ -20262,7 +20262,7 @@ PresContext
 mFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :

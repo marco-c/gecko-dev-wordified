@@ -1244,7 +1244,7 @@ childFrame
 childFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 HTMLReflowOutputProperty
 (

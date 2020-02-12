@@ -7645,7 +7645,7 @@ RemoveStateBits
 BULLET_FRAME_HAS_FONT_INFLATION
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 FontSizeInflationProperty
 (

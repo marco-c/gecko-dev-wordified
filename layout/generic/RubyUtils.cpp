@@ -230,7 +230,7 @@ aFrame
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 ReservedISize
 (

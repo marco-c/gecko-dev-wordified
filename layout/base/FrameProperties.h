@@ -1686,8 +1686,8 @@ requires
 a
 linear
 search
-*
 through
+*
 the
 properties
 of
@@ -1700,9 +1700,9 @@ frame
 has
 no
 such
-*
 property
 nothing
+*
 happens
 .
 *
@@ -1713,7 +1713,7 @@ typename
 T
 >
 void
-Delete
+Remove
 (
 Descriptor
 <
@@ -1726,7 +1726,7 @@ nsIFrame
 aFrame
 )
 {
-DeleteInternal
+RemoveInternal
 (
 aProperty
 aFrame
@@ -1851,7 +1851,7 @@ frame
 *
 /
 void
-DeleteAll
+RemoveAll
 (
 const
 nsIFrame
@@ -2100,7 +2100,7 @@ aFoundResult
 ;
 inline
 void
-DeleteInternal
+RemoveInternal
 (
 UntypedDescriptor
 aProperty
@@ -2830,7 +2830,7 @@ void
 FrameProperties
 :
 :
-DeleteInternal
+RemoveInternal
 (
 UntypedDescriptor
 aProperty

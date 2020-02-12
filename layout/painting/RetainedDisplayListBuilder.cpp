@@ -9885,7 +9885,7 @@ false
 f
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsDisplayListBuilder
 :
@@ -9898,7 +9898,7 @@ DisplayListBuildingRect
 f
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsDisplayListBuilder
 :

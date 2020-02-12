@@ -1813,7 +1813,7 @@ FinishedInitializer
 (
 )
 {
-DeleteProperty
+RemoveProperty
 (
 TextControlInitializer
 (

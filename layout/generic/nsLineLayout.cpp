@@ -5469,7 +5469,7 @@ pfd
 mFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :

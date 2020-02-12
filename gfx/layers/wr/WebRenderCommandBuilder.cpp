@@ -1099,7 +1099,7 @@ anyways
 mFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 BlobGroupDataProperty
 (
