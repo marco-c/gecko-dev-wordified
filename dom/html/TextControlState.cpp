@@ -444,6 +444,15 @@ KeyboardEvent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ScrollTypes
+.
+h
+"
 namespace
 mozilla
 {
@@ -4471,7 +4480,7 @@ aForward
 -
 1
 )
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -4733,7 +4742,7 @@ aForward
 -
 1
 )
-nsIScrollableFrame
+ScrollUnit
 :
 :
 PAGES
@@ -4782,7 +4791,7 @@ aForward
 -
 1
 )
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -4831,7 +4840,7 @@ aRight
 1
 0
 )
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
