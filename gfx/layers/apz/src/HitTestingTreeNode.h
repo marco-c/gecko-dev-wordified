@@ -898,9 +898,9 @@ LayerIntRegion
 &
 aVisibleRegion
 const
-LayerIntRect
+LayerIntSize
 &
-aRemoteDocumentRect
+aRemoteDocumentSize
 const
 CSSTransformMatrix
 &
@@ -1664,7 +1664,7 @@ mVisibleRegion
 /
 *
 The
-rectangle
+size
 of
 remote
 iframe
@@ -1690,8 +1690,8 @@ iframe
 .
 *
 /
-LayerIntRect
-mRemoteDocumentRect
+LayerIntSize
+mRemoteDocumentSize
 ;
 /
 *

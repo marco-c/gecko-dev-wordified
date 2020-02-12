@@ -4369,7 +4369,7 @@ eventRegionsOverride
 refLayer
 -
 >
-SetRemoteDocumentRect
+SetRemoteDocumentSize
 (
 specific
 .
@@ -4377,7 +4377,7 @@ get_RefLayerAttributes
 (
 )
 .
-remoteDocumentRect
+remoteDocumentSize
 (
 )
 )

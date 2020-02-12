@@ -1997,8 +1997,8 @@ MovingDownToChildren
 )
 ;
 }
-LayerIntRect
-GetRemoteDocumentRect
+LayerIntSize
+GetRemoteDocumentSize
 (
 )
 const
@@ -2020,11 +2020,11 @@ AsRefLayer
 )
 -
 >
-GetRemoteDocumentRect
+GetRemoteDocumentSize
 (
 )
 :
-LayerIntRect
+LayerIntSize
 (
 )
 ;
