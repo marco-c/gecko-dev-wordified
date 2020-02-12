@@ -360,6 +360,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

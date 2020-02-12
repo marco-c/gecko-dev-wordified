@@ -250,6 +250,13 @@ nsAutoScriptBlocker
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimelineConsumers

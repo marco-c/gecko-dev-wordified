@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsMemory
 .
 h

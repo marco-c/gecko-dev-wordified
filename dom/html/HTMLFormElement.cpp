@@ -301,6 +301,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsError
 .
 h

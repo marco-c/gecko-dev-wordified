@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

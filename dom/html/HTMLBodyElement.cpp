@@ -219,6 +219,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsHTMLStyleSheet
 .
 h
