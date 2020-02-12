@@ -490,14 +490,9 @@ host
             
 b_port
 =
-int
-(
 self
 .
-benchmark
-.
-port
-)
+benchmark_port
             
 debug_mode
 =
@@ -1278,6 +1273,19 @@ self
 .
 config
 test
+)
+        
+self
+.
+benchmark_port
+=
+int
+(
+self
+.
+benchmark
+.
+port
 )
     
 def
