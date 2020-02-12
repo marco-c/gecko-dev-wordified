@@ -582,7 +582,7 @@ Pop
 [
 stack
 ]
-VAL
+THIS
 return
 false
 ;
