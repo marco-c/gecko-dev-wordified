@@ -981,10 +981,10 @@ nsresult
 SubtractRange
 (
 StyledRange
-*
+&
 aRange
 nsRange
-*
+&
 aSubtract
 nsTArray
 <
