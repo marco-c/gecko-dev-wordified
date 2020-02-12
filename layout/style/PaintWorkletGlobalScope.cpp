@@ -185,6 +185,12 @@ aImpl
 GetAgentClusterId
 (
 )
+aImpl
+-
+>
+IsSharedMemoryAllowed
+(
+)
 )
 mImpl
 (
