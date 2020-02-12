@@ -497,9 +497,8 @@ ipc
 IPCResult
 RecvPredOnPredictPrefetch
 (
-const
-URIParams
-&
+nsIURI
+*
 aURI
 const
 uint32_t
@@ -516,9 +515,8 @@ ipc
 IPCResult
 RecvPredOnPredictPreconnect
 (
-const
-URIParams
-&
+nsIURI
+*
 aURI
 )
 ;
@@ -531,9 +529,8 @@ ipc
 IPCResult
 RecvPredOnPredictDNS
 (
-const
-URIParams
-&
+nsIURI
+*
 aURI
 )
 ;
