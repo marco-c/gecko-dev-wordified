@@ -323,6 +323,7 @@ this
 MaybeExecute
 (
 [
+&
 aArgs
 kungFuGrip
 aRejectCallback
@@ -958,7 +959,13 @@ __func__
 ;
 StartOp
 (
+std
+:
+:
+move
+(
 args
+)
 [
 outerPromise
 ]

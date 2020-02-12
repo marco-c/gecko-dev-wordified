@@ -848,7 +848,13 @@ data
 (
 )
 =
+std
+:
+:
+move
+(
 clonedData
+)
 ;
 return
 ;
@@ -1535,7 +1541,13 @@ data
 (
 )
 =
+std
+:
+:
+move
+(
 clonedData
+)
 ;
 continue
 ;
