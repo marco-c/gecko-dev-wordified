@@ -3035,6 +3035,12 @@ view
 .
 close
 (
+/
+*
+elementPicked
+*
+/
+true
 )
 ;
 }
