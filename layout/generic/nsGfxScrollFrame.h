@@ -1924,7 +1924,9 @@ mozilla
 :
 ScrollUnit
 aUnit
+const
 nsPoint
+&
 aStartPos
 nsPoint
 &
