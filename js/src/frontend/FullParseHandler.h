@@ -6868,7 +6868,7 @@ pn
 >
 is
 <
-PropertyAccess
+PropertyAccessBase
 >
 (
 )
@@ -6879,7 +6879,7 @@ pn
 >
 as
 <
-PropertyAccess
+PropertyAccessBase
 >
 (
 )
