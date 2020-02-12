@@ -4424,10 +4424,7 @@ generics
 image
 :
 :
-{
-GenericImageLayer
 Image
-}
 ;
 use
 style_traits
@@ -4528,11 +4525,6 @@ match
 *
 image
 {
-GenericImageLayer
-:
-:
-Image
-(
 Image
 :
 :
@@ -4540,7 +4532,6 @@ PaintWorklet
 (
 ref
 worklet
-)
 )
 =
 >
