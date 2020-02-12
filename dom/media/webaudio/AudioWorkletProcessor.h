@@ -183,10 +183,6 @@ const
 GlobalObject
 &
 aGlobal
-const
-AudioWorkletNodeOptions
-&
-aOptions
 ErrorResult
 &
 aRv
