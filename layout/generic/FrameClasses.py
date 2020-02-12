@@ -412,17 +412,6 @@ NOT_LEAF
 Frame
 (
 "
-nsGroupBoxFrame
-"
-"
-Box
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsHTMLButtonControlFrame
 "
 "
