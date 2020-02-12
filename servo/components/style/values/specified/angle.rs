@@ -1053,6 +1053,14 @@ issues
 /
 1162
 .
+#
+[
+allow
+(
+missing_docs
+)
+]
+pub
 enum
 AllowUnitlessZeroAngle
 {
@@ -1334,6 +1342,10 @@ AllowUnitlessZeroAngle
 Yes
 )
 }
+pub
+(
+super
+)
 fn
 parse_internal
 <
