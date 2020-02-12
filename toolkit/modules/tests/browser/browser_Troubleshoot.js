@@ -1841,15 +1841,6 @@ type
 string
 "
 }
-desktopEnvironment
-:
-{
-type
-:
-"
-string
-"
-}
 }
 }
 media
