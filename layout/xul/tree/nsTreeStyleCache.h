@@ -141,7 +141,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -488,7 +490,10 @@ locate
 the
 ComputedStyle
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 TransitionTable
 >
@@ -533,7 +538,10 @@ ComputedStyle
 >
 ComputedStyleCache
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 ComputedStyleCache
 >

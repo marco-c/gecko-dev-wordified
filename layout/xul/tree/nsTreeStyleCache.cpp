@@ -361,8 +361,10 @@ the
 table
 mTransitionTable
 =
-new
+MakeUnique
+<
 TransitionTable
+>
 (
 )
 ;
@@ -801,8 +803,10 @@ mCache
 {
 mCache
 =
-new
+MakeUnique
+<
 ComputedStyleCache
+>
 (
 )
 ;

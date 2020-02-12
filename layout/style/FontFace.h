@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCSSPropertyID
 .
 h

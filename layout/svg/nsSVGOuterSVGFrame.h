@@ -132,7 +132,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1241,7 +1243,10 @@ comment
 20
 )
 .
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTHashtable
 <

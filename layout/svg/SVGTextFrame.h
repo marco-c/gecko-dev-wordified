@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

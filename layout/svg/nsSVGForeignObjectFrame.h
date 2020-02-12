@@ -141,7 +141,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -596,7 +598,10 @@ height
 0
 ;
 }
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxMatrix
 >

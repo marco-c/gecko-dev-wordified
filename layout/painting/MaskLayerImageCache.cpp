@@ -210,11 +210,8 @@ Next
 )
 {
 const
-MaskLayerImageCache
-:
-:
-MaskLayerImageKey
-*
+auto
+&
 key
 =
 iter

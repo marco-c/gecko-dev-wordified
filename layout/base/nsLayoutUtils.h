@@ -184,6 +184,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsBoundingMetrics
 .
 h
@@ -16155,7 +16164,10 @@ that
 typedef
 nsTArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :

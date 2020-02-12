@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -980,7 +989,10 @@ value
 .
 *
 /
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxMatrix
 >

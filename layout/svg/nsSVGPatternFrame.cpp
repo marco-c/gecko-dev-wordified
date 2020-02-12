@@ -2160,8 +2160,10 @@ patternWithChildren
 >
 mCTM
 =
-new
+MakeUnique
+<
 gfxMatrix
+>
 (
 ctm
 )
