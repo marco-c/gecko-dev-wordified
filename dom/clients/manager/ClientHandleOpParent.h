@@ -210,8 +210,8 @@ default
 void
 Init
 (
+const
 ClientOpConstructorArgs
-&
 &
 aArgs
 )

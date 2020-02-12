@@ -5658,13 +5658,7 @@ ServiceWorkerOp
 :
 Create
 (
-std
-:
-:
-move
-(
 aArgs
-)
 std
 :
 :

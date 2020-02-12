@@ -1817,8 +1817,8 @@ ClientSourceParent
 :
 StartOp
 (
+const
 ClientOpConstructorArgs
-&
 &
 aArgs
 )
@@ -1970,13 +1970,7 @@ actor
 new
 ClientSourceOpParent
 (
-std
-:
-:
-move
-(
 aArgs
-)
 promise
 )
 ;
@@ -1986,12 +1980,7 @@ Unused
 SendPClientSourceOpConstructor
 (
 actor
-actor
--
->
-Args
-(
-)
+aArgs
 )
 ;
 return
