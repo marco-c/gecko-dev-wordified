@@ -1133,9 +1133,6 @@ postContentMessage
 "
 selectAccessible
 "
-this
-.
-walker
 accessibleFront
 )
 ;
@@ -1176,9 +1173,6 @@ postContentMessage
 "
 selectNodeAccessible
 "
-this
-.
-walker
 nodeFront
 )
 ;
@@ -1195,9 +1189,6 @@ postContentMessage
 "
 highlightAccessible
 "
-this
-.
-walker
 accessibleFront
 )
 ;
