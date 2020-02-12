@@ -629,10 +629,6 @@ nsIObserverService
 >
 mObs
 ;
-static
-bool
-sRemoteExtensions
-;
 nsString
 mBaseCSP
 ;
