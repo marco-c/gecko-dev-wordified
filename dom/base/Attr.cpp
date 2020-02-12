@@ -1244,7 +1244,15 @@ GetBaseURI
 aTryUseXHRDocBaseURI
 )
 :
-nullptr
+OwnerDoc
+(
+)
+-
+>
+GetBaseURI
+(
+aTryUseXHRDocBaseURI
+)
 ;
 }
 void
