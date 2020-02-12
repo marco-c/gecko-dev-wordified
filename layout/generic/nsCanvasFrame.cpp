@@ -2672,9 +2672,6 @@ return
 true
 ;
 }
-#
-ifdef
-MOZ_DUMP_PAINTING
 void
 nsDisplayCanvasBackgroundColor
 :
@@ -2751,8 +2748,6 @@ mColor
 "
 ;
 }
-#
-endif
 void
 nsDisplayCanvasBackgroundImage
 :

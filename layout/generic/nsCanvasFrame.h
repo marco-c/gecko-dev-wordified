@@ -1090,9 +1090,6 @@ CanvasBackgroundColor
 "
 TYPE_CANVAS_BACKGROUND_COLOR
 )
-#
-ifdef
-MOZ_DUMP_PAINTING
 virtual
 void
 WriteDebugInfo
@@ -1106,8 +1103,6 @@ aStream
 )
 override
 ;
-#
-endif
 }
 ;
 class
