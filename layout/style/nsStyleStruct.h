@@ -12462,7 +12462,10 @@ mBorderCollapse
 uint8_t
 mCaptionSide
 ;
-uint8_t
+mozilla
+:
+:
+StyleEmptyCells
 mEmptyCells
 ;
 }
