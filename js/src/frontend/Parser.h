@@ -7873,8 +7873,6 @@ PossibleError
 possibleError
 InvokedPrediction
 invoked
-=
-PredictUninvoked
 )
 ;
 Node
@@ -7891,8 +7889,6 @@ PossibleError
 possibleError
 InvokedPrediction
 invoked
-=
-PredictUninvoked
 )
 ;
 Node
@@ -7944,17 +7940,11 @@ TokenKind
 tt
 bool
 allowCallSyntax
-=
-true
 PossibleError
 *
 possibleError
-=
-nullptr
 InvokedPrediction
 invoked
-=
-PredictUninvoked
 )
 ;
 Node
@@ -7971,8 +7961,6 @@ PossibleError
 possibleError
 InvokedPrediction
 invoked
-=
-PredictUninvoked
 )
 ;
 Node
