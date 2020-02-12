@@ -6362,7 +6362,7 @@ threadActor
 .
 insideClientEvaluation
 =
-true
+evalOptions
 ;
 const
 evalInfo
@@ -6382,7 +6382,7 @@ threadActor
 .
 insideClientEvaluation
 =
-false
+null
 ;
 const
 evalResult
