@@ -62,10 +62,6 @@ unicode_literals
 import
 os
 from
-StringIO
-import
-StringIO
-from
 buildconfig
 import
 topsrcdir
@@ -73,6 +69,10 @@ from
 common
 import
 BaseConfigureTest
+from
+six
+import
+StringIO
 from
 mozunit
 import
@@ -1122,6 +1122,13 @@ truncate
 0
 )
         
+out
+.
+seek
+(
+0
+)
+        
 with
 self
 .
@@ -1191,6 +1198,13 @@ n
 out
 .
 truncate
+(
+0
+)
+        
+out
+.
+seek
 (
 0
 )
@@ -1273,6 +1287,13 @@ n
 out
 .
 truncate
+(
+0
+)
+        
+out
+.
+seek
 (
 0
 )
@@ -1367,6 +1388,13 @@ truncate
 0
 )
         
+out
+.
+seek
+(
+0
+)
+        
 with
 self
 .
@@ -1442,6 +1470,13 @@ n
 out
 .
 truncate
+(
+0
+)
+        
+out
+.
+seek
 (
 0
 )
