@@ -16172,9 +16172,10 @@ aRequestData
 const
 bool
 aBlocked
-nsIURI
-*
-aHintURI
+const
+nsACString
+&
+aTrackingOrigin
 nsTArray
 <
 nsCString
@@ -16373,7 +16374,7 @@ NotifyContentBlockingEvent
 aEvent
 request
 aBlocked
-aHintURI
+aTrackingOrigin
 aTrackingFullHashes
 aReason
 )

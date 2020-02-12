@@ -24887,9 +24887,10 @@ nsIChannel
 aChannel
 bool
 aBlocked
-nsIURI
-*
-aHintURI
+const
+nsACString
+&
+aTrackingOrigin
 const
 nsTArray
 <
@@ -24956,7 +24957,10 @@ SendNotifyContentBlockingEvent
 aEvent
 requestData
 aBlocked
-aHintURI
+PromiseFlatCString
+(
+aTrackingOrigin
+)
 aTrackingFullHashes
 aReason
 )

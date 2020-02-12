@@ -910,9 +910,10 @@ nsIRequest
 aRequest
 bool
 aBlocked
-nsIURI
-*
-aURIHint
+const
+nsACString
+&
+aTrackingOrigin
 const
 nsTArray
 <

@@ -1795,9 +1795,10 @@ aRequestData
 const
 bool
 aBlocked
-nsIURI
-*
-aHintURI
+const
+nsACString
+&
+aTrackingOrigin
 nsTArray
 <
 nsCString
