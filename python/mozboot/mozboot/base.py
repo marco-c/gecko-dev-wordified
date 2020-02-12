@@ -3733,13 +3733,11 @@ copy
         
 env
 [
-b
 '
 HGPLAIN
 '
 ]
 =
-b
 '
 1
 '
@@ -3751,13 +3749,11 @@ load_hgrc
             
 env
 [
-b
 '
 HGRCPATH
 '
 ]
 =
-b
 '
 '
         
