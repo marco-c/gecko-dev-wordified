@@ -461,16 +461,6 @@ log_raw_level
 info
 "
     
-"
-minidump_stackwalk_path
-"
-:
-"
-linux64
--
-minidump_stackwalk
-"
-    
 #
 To
 take
