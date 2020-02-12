@@ -512,11 +512,17 @@ delimiters
 ;
 these
 delimiters
+(
+along
+with
+blank
+        
+#
+lines
+)
 are
 not
 recognized
-        
-#
 by
 selenium
 -
@@ -526,6 +532,8 @@ causing
 Firefox
 launch
 to
+        
+#
 fail
 .
 So
@@ -533,8 +541,6 @@ we
 must
 remove
 these
-        
-#
 delimiters
 from
 the
@@ -543,11 +549,14 @@ profile
 before
 passing
 into
+        
+#
 btime
 via
 firefox
 .
 profileTemplate
+.
         
 LOG
 .
@@ -606,11 +615,13 @@ readlines
 lines
 =
 [
+                
 line
 for
 line
 in
 lines
+                
 if
 not
 line
@@ -622,6 +633,13 @@ startswith
 MozRunner
 "
 )
+and
+line
+.
+strip
+(
+)
+            
 ]
             
 with
