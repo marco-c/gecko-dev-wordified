@@ -4579,6 +4579,7 @@ other
 )
 =
 >
+{
 ViewportPercentage
 (
 one
@@ -4589,6 +4590,7 @@ other
 )
 ?
 )
+}
 (
 &
 ServoCharacterWidth
@@ -4961,12 +4963,14 @@ other
 )
 =
 >
+{
 one
 .
 partial_cmp
 (
 other
 )
+}
 (
 &
 ServoCharacterWidth
@@ -4983,6 +4987,7 @@ other
 )
 =
 >
+{
 one
 .
 0
@@ -4994,6 +4999,7 @@ other
 .
 0
 )
+}
 /
 /
 See

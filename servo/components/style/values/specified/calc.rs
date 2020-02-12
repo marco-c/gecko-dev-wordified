@@ -257,9 +257,9 @@ parsing
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 )
 ]
 pub
@@ -436,9 +436,9 @@ children
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 Eq
 Ord
 PartialEq
@@ -480,8 +480,8 @@ function
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -1833,6 +1833,7 @@ Err
 )
 }
 }
+;
 }
 impl
 PartialOrd
@@ -2465,7 +2466,6 @@ l
 )
 =
 >
-{
 match
 *
 l
@@ -2494,7 +2494,6 @@ relative
 )
 =
 >
-{
 match
 *
 relative
@@ -2556,7 +2555,6 @@ SortKey
 :
 Rem
 }
-}
 NoCalcLength
 :
 :
@@ -2567,7 +2565,6 @@ vp
 )
 =
 >
-{
 match
 *
 vp
@@ -2629,7 +2626,6 @@ SortKey
 :
 Vmin
 }
-}
 NoCalcLength
 :
 :
@@ -2644,7 +2640,6 @@ unreachable
 !
 (
 )
-}
 }
 Self
 :
@@ -3053,6 +3048,7 @@ result
 ;
 }
 }
+;
 }
 match
 *
@@ -4528,7 +4524,6 @@ _
 )
 =
 >
-{
 input
 .
 parse_nested_block
@@ -4548,7 +4543,6 @@ expected_unit
 )
 }
 )
-}
 (
 &
 Token
@@ -6315,6 +6309,7 @@ Err
 (
 )
 )
+;
 }
 CalcNode
 :

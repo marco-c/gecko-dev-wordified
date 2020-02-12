@@ -204,8 +204,8 @@ euclid
 :
 {
 Scale
-Size2D
 SideOffsets2D
+Size2D
 }
 ;
 use
