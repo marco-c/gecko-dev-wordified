@@ -236,6 +236,13 @@ WorkletGlobalScope
 :
 WorkletGlobalScope
 (
+const
+Maybe
+<
+nsID
+>
+&
+aAgentClusterId
 )
 :
 mCreationTimeStamp
@@ -246,6 +253,10 @@ TimeStamp
 Now
 (
 )
+)
+mAgentClusterId
+(
+aAgentClusterId
 )
 {
 }

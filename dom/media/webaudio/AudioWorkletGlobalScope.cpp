@@ -289,6 +289,15 @@ AudioWorkletImpl
 aImpl
 )
 :
+WorkletGlobalScope
+(
+aImpl
+-
+>
+GetAgentClusterId
+(
+)
+)
 mImpl
 (
 aImpl
