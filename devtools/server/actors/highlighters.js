@@ -3354,6 +3354,13 @@ this
 _isPicking
 )
 {
+if
+(
+this
+.
+_highlighter
+)
+{
 this
 .
 _highlighter
@@ -3362,6 +3369,7 @@ hide
 (
 )
 ;
+}
 this
 .
 _stopPickerListeners
