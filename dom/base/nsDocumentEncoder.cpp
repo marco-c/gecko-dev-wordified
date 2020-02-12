@@ -7799,6 +7799,7 @@ mSelection
 new
 Selection
 (
+nullptr
 )
 ;
 /
