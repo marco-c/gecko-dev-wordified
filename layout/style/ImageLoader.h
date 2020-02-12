@@ -232,6 +232,9 @@ nsIPrincipal
 namespace
 mozilla
 {
+struct
+MediaFeatureChange
+;
 namespace
 dom
 {
