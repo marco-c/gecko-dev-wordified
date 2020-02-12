@@ -249,6 +249,7 @@ ensure
 this
 happens
 .
+static
 void
 EnsureCycleCollectedJSContext
 (
