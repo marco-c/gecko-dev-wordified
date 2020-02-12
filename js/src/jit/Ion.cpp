@@ -8115,7 +8115,7 @@ if
 mir
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -11060,6 +11060,7 @@ JSContext
 nullptr
 *
 mirGen
+info
 constraints
 inspector
 baselineFrameInspector

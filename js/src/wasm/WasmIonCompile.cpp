@@ -703,7 +703,7 @@ info_
 (
 mirGen
 .
-info
+outerInfo
 (
 )
 )

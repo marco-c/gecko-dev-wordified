@@ -1306,6 +1306,9 @@ analysisContext
 MIRGenerator
 &
 mirGen
+CompileInfo
+*
+info
 CompilerConstraintList
 *
 constraints

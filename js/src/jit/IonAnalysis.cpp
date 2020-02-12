@@ -33741,6 +33741,8 @@ builder
 (
 cx
 mirGen
+&
+info
 constraints
 &
 inspector
@@ -35531,6 +35533,8 @@ builder
 (
 nullptr
 mirGen
+&
+info
 constraints
 &
 inspector
@@ -37716,7 +37720,7 @@ mirGen
 (
 )
 .
-info
+outerInfo
 (
 )
 .
