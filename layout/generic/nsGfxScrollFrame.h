@@ -246,15 +246,6 @@ include
 "
 mozilla
 /
-ScrollTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PresState
 .
 h
@@ -1742,7 +1733,7 @@ ScrollBy
 (
 nsIntPoint
 aDelta
-mozilla
+nsIScrollableFrame
 :
 :
 ScrollUnit
@@ -1919,7 +1910,7 @@ position
 bool
 GetSnapPointForDestination
 (
-mozilla
+nsIScrollableFrame
 :
 :
 ScrollUnit
@@ -3219,7 +3210,7 @@ ScrollMode
 aMode
 int32_t
 aDirection
-mozilla
+nsIScrollableFrame
 :
 :
 ScrollUnit
@@ -6231,9 +6222,6 @@ ScrollBy
 (
 nsIntPoint
 aDelta
-mozilla
-:
-:
 ScrollUnit
 aUnit
 ScrollMode
@@ -8887,9 +8875,6 @@ ScrollBy
 (
 nsIntPoint
 aDelta
-mozilla
-:
-:
 ScrollUnit
 aUnit
 ScrollMode

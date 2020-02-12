@@ -591,15 +591,6 @@ include
 "
 mozilla
 /
-ScrollTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_apz
 .
 h
@@ -37035,6 +37026,9 @@ const
 CSSPoint
 &
 aDestination
+nsIScrollableFrame
+:
+:
 ScrollUnit
 aUnit
 )
@@ -37240,7 +37234,7 @@ snapPoint
 FindSnapPointNear
 (
 aDestination
-ScrollUnit
+nsIScrollableFrame
 :
 :
 DEVICE_PIXELS
@@ -37568,7 +37562,7 @@ if
 (
 MaybeAdjustDeltaForScrollSnapping
 (
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -37691,6 +37685,9 @@ AsyncPanZoomController
 :
 MaybeAdjustDeltaForScrollSnapping
 (
+nsIScrollableFrame
+:
+:
 ScrollUnit
 aUnit
 ParentLayerPoint
@@ -37879,6 +37876,9 @@ lock
 mRecursiveMutex
 )
 ;
+nsIScrollableFrame
+:
+:
 ScrollUnit
 unit
 =

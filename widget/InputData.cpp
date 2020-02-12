@@ -3443,6 +3443,9 @@ DOM_DELTA_PIXEL
 ;
 }
 }
+nsIScrollableFrame
+:
+:
 ScrollUnit
 ScrollWheelInput
 :
@@ -3462,7 +3465,7 @@ case
 SCROLLDELTA_LINE
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -3471,7 +3474,7 @@ case
 SCROLLDELTA_PAGE
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 PAGES
@@ -3480,7 +3483,7 @@ case
 SCROLLDELTA_PIXEL
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 DEVICE_PIXELS
@@ -3493,7 +3496,7 @@ MOZ_CRASH
 ;
 }
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES

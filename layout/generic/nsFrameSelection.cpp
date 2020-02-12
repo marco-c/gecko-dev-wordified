@@ -188,15 +188,6 @@ include
 "
 mozilla
 /
-ScrollTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_dom
 .
 h
@@ -11244,7 +11235,7 @@ aForward
 -
 1
 )
-ScrollUnit
+nsIScrollableFrame
 :
 :
 PAGES

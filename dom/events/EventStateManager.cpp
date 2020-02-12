@@ -18808,7 +18808,7 @@ aScrollableFrame
 ScrollBy
 (
 actualDevPixelScrollAmount
-ScrollUnit
+nsIScrollableFrame
 :
 :
 DEVICE_PIXELS
@@ -38620,6 +38620,9 @@ mAmount
 NS_ERROR_INVALID_ARG
 )
 ;
+nsIScrollableFrame
+:
+:
 ScrollUnit
 scrollUnit
 ;
@@ -38641,7 +38644,7 @@ eCmdScrollUnit_Line
 :
 scrollUnit
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -38656,7 +38659,7 @@ eCmdScrollUnit_Page
 :
 scrollUnit
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 PAGES
@@ -38671,7 +38674,7 @@ eCmdScrollUnit_Whole
 :
 scrollUnit
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 WHOLE
