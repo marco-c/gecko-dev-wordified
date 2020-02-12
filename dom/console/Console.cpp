@@ -9141,6 +9141,16 @@ aData
 callData
 )
 ;
+if
+(
+StaticPrefs
+:
+:
+dom_worker_console_dispatch_events_to_main_thread
+(
+)
+)
+{
 RefPtr
 <
 ConsoleCallDataWorkerRunnable
@@ -9169,6 +9179,7 @@ aCx
 )
 )
 ;
+}
 }
 /
 /
