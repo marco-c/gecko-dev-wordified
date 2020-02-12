@@ -1181,6 +1181,14 @@ HasContentCharset
 (
 )
 ;
+bool
+GetContentTypeOptionsHeader
+(
+nsACString
+&
+aOutput
+)
+;
 private
 :
 MOZ_MUST_USE
