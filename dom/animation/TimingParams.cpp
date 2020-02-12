@@ -377,7 +377,7 @@ error
 Duration
 value
 %
-f
+g
 is
 less
 than
