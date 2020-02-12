@@ -2387,13 +2387,11 @@ combiners
 }
 if
 (
-u_getCombiningClass
+!
+IsCombiningDiacritic
 (
 nextChar
 )
-=
-=
-0
 )
 {
 /
