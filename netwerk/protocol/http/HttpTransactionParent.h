@@ -264,6 +264,10 @@ const
 TimingStructArgs
 &
 aTimings
+const
+int32_t
+&
+aProxyConnectResponseCode
 )
 ;
 mozilla
@@ -367,6 +371,10 @@ const
 NetAddr
 &
 aPeerAddr
+const
+bool
+&
+aResolvedByTRR
 )
 ;
 mozilla
@@ -437,6 +445,10 @@ const
 TimingStructArgs
 &
 aTimings
+const
+int32_t
+&
+aProxyConnectResponseCode
 )
 ;
 void
@@ -587,6 +599,12 @@ mOnStartRequestCalled
 ;
 bool
 mOnStopRequestCalled
+;
+bool
+mResolvedByTRR
+;
+int32_t
+mProxyConnectResponseCode
 ;
 NetAddr
 mSelfAddr
