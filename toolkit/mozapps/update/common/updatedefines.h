@@ -508,13 +508,11 @@ h
 >
 #
 ifdef
-SOLARIS
+HAVE_FTS_H
 #
 include
 <
-sys
-/
-stat
+fts
 .
 h
 >
@@ -523,7 +521,9 @@ else
 #
 include
 <
-fts
+sys
+/
+stat
 .
 h
 >
