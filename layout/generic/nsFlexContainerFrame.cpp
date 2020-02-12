@@ -4120,10 +4120,6 @@ mozilla
 :
 Side
 aStartSide
-const
-FlexboxAxisTracker
-&
-aAxisTracker
 bool
 aUseFirstLineBaseline
 )
@@ -6811,10 +6807,6 @@ size
 bool
 CanMainSizeInfluenceCrossSize
 (
-const
-FlexboxAxisTracker
-&
-aAxisTracker
 )
 const
 ;
@@ -17531,10 +17523,6 @@ mozilla
 :
 Side
 aStartSide
-const
-FlexboxAxisTracker
-&
-aAxisTracker
 bool
 aUseFirstLineBaseline
 )
@@ -17927,10 +17915,6 @@ FlexItem
 :
 CanMainSizeInfluenceCrossSize
 (
-const
-FlexboxAxisTracker
-&
-aAxisTracker
 )
 const
 {
@@ -28088,7 +28072,6 @@ aAxisTracker
 CrossAxisPhysicalStartSide
 (
 )
-aAxisTracker
 useFirst
 )
 ;
@@ -29751,7 +29734,6 @@ aItem
 BaselineOffsetFromOuterCrossEdge
 (
 baselineAlignStartSide
-aAxisTracker
 useFirst
 )
 ;
@@ -38546,7 +38528,6 @@ item
 >
 CanMainSizeInfluenceCrossSize
 (
-aAxisTracker
 )
 )
 {
