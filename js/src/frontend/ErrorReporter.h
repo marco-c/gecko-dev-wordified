@@ -972,7 +972,7 @@ offset
 return
 ;
 }
-ReportCompileErrorLatin1
+ReportCompileError
 (
 getContext
 (
@@ -2437,7 +2437,7 @@ if
 strict
 )
 {
-ReportCompileErrorLatin1
+ReportCompileError
 (
 getContext
 (
@@ -2544,7 +2544,7 @@ flags
 ~
 JSREPORT_WARNING
 ;
-ReportCompileErrorLatin1
+ReportCompileError
 (
 getContext
 (
