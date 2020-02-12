@@ -141,13 +141,6 @@ ObjectModel
 .
 h
 "
-#
-include
-"
-ProgrammablePassEncoder
-.
-h
-"
 namespace
 mozilla
 {
@@ -168,7 +161,7 @@ ComputePassEncoder
 final
 :
 public
-ProgrammablePassEncoder
+ObjectBase
 public
 ChildOf
 <
@@ -177,11 +170,9 @@ CommandEncoder
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
+GPU_DECL_CYCLE_COLLECTION
 (
 ComputePassEncoder
-ProgrammablePassEncoder
 )
 GPU_DECL_JS_WRAP
 (
@@ -244,7 +235,6 @@ uint32_t
 &
 aDynamicOffsets
 )
-override
 ;
 void
 SetPipeline

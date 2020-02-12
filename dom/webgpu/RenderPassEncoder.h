@@ -106,13 +106,6 @@ ObjectModel
 .
 h
 "
-#
-include
-"
-RenderEncoderBase
-.
-h
-"
 namespace
 mozilla
 {
@@ -165,7 +158,7 @@ RenderPassEncoder
 final
 :
 public
-RenderEncoderBase
+ObjectBase
 public
 ChildOf
 <
@@ -174,11 +167,9 @@ CommandEncoder
 {
 public
 :
-NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
+GPU_DECL_CYCLE_COLLECTION
 (
 RenderPassEncoder
-RenderEncoderBase
 )
 GPU_DECL_JS_WRAP
 (
@@ -226,7 +217,6 @@ uint32_t
 &
 aDynamicOffsets
 )
-override
 ;
 }
 ;
