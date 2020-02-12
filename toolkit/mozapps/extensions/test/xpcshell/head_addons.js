@@ -6872,8 +6872,6 @@ file
 "
 +
 aFile
-.
-path
 )
 ;
 }
