@@ -175,6 +175,17 @@ etc
 #
 include
 "
+nsDocShell
+.
+h
+"
+/
+/
+for
+nsIDocShell
+#
+include
+"
 nsError
 .
 h

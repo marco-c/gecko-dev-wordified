@@ -269,6 +269,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsIObserverService
 .
 h
