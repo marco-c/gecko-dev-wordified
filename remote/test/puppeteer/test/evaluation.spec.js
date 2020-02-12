@@ -174,6 +174,7 @@ const
 describe
 xdescribe
 fdescribe
+describe_fails_ffox
 }
 =
 testRunner
@@ -255,7 +256,13 @@ toBe
 }
 )
 ;
-it
+(
+bigint
+?
+it_fails_ffox
+:
+xit
+)
 (
 '
 should
@@ -306,7 +313,7 @@ BigInt
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -357,7 +364,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -411,7 +418,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -462,7 +469,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -741,7 +748,7 @@ toBe
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -941,7 +948,7 @@ toBe
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1155,7 +1162,7 @@ toBe
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1563,7 +1570,13 @@ object
 }
 )
 ;
-it
+(
+bigint
+?
+it_fails_ffox
+:
+xit
+)
 (
 '
 should
@@ -1614,7 +1627,7 @@ BigInt
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1665,7 +1678,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1719,7 +1732,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1770,7 +1783,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1947,7 +1960,7 @@ toEqual
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -1992,7 +2005,7 @@ undefined
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2062,7 +2075,7 @@ undefined
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2318,7 +2331,7 @@ toBe
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2400,7 +2413,7 @@ toBe
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2514,7 +2527,7 @@ disposed
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2634,7 +2647,7 @@ created
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2717,7 +2730,7 @@ true
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2823,7 +2836,7 @@ navigation
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2913,7 +2926,7 @@ toEqual
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -3081,7 +3094,7 @@ promise
 }
 )
 ;
-describe
+describe_fails_ffox
 (
 '
 Page
@@ -3344,7 +3357,7 @@ function
 (
 )
 {
-it
+it_fails_ffox
 (
 '
 should
@@ -3518,7 +3531,7 @@ bar
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
