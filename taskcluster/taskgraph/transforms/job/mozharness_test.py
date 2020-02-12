@@ -165,12 +165,6 @@ stylo
 '
     
 '
-stylo
--
-disabled
-'
-    
-'
 qr
 '
     
