@@ -2561,12 +2561,6 @@ Write
 aCx
 v
 t
-JS
-:
-:
-CloneDataPolicy
-(
-)
 rv
 )
 ;

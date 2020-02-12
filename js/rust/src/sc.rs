@@ -393,7 +393,6 @@ get
 (
 )
 vp
-&
 jsapi
 :
 :
@@ -403,9 +402,6 @@ JS
 CloneDataPolicy
 {
 allowIntraClusterClonableSharedObjects_
-:
-false
-allowSharedMemoryObjects_
 :
 false
 }
