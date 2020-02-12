@@ -3886,6 +3886,7 @@ Deserialize
 derive
 (
 Debug
+Copy
 Clone
 MallocSizeOf
 PartialEq

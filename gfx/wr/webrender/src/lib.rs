@@ -1496,7 +1496,20 @@ picture
 TileDescriptor
 TileId
 InvalidationReason
+}
+;
+pub
+use
+crate
+:
+:
+picture
+:
+:
+{
 PrimitiveCompareResult
+PrimitiveCompareResultDetail
+CompareHelperResult
 }
 ;
 pub
@@ -1527,5 +1540,6 @@ intern
 {
 Update
 UpdateKind
+ItemUid
 }
 ;
