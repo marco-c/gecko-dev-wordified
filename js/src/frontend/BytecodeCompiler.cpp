@@ -3248,8 +3248,6 @@ modulesc
 (
 cx
 module
-info
-.
 compilationInfo
 enclosingScope
 builder
