@@ -8627,11 +8627,6 @@ item
 if
 (
 oldRecord
-&
-&
-oldRecord
-.
-data
 )
 {
 /
