@@ -800,6 +800,12 @@ if
 hud
 .
 toolbox
+&
+&
+!
+helperResult
+.
+forceExpandInConsole
 )
 {
 hud

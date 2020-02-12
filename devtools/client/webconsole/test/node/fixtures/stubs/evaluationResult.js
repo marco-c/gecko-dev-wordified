@@ -1017,6 +1017,11 @@ child1
 obj28
 "
 }
+"
+forceExpandInConsole
+"
+:
+false
 }
 "
 input
