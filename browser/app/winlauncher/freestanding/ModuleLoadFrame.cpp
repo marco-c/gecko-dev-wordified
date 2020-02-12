@@ -753,11 +753,11 @@ return
 STATUS_SUCCESS
 ;
 }
-MOZ_THREAD_LOCAL
-(
+SafeThreadLocal
+<
 ModuleLoadFrame
 *
-)
+>
 ModuleLoadFrame
 :
 :
