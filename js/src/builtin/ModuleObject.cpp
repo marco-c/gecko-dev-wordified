@@ -5712,7 +5712,7 @@ void
 ModuleObject
 :
 :
-init
+initScriptSlots
 (
 HandleScript
 script
@@ -12823,7 +12823,7 @@ XDR_DECODE
 module
 -
 >
-init
+initScriptSlots
 (
 script
 )
