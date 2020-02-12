@@ -516,7 +516,9 @@ mPromise
 >
 Resolve
 (
-NS_OK
+CopyableErrorResult
+(
+)
 __func__
 )
 ;
@@ -1764,7 +1766,9 @@ aResult
 listener
 ]
 (
-nsresult
+const
+CopyableErrorResult
+&
 aResult
 )
 {

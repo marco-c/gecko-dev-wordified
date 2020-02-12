@@ -459,7 +459,7 @@ completed
 .
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 Control
 (
@@ -602,7 +602,7 @@ rejecting
 .
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 PostMessage
 (

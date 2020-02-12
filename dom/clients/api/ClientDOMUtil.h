@@ -164,6 +164,15 @@ WorkerPrivate
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 class
 nsIGlobalObject
 ;
@@ -312,7 +321,9 @@ aReject
 holder
 ]
 (
-nsresult
+const
+CopyableErrorResult
+&
 aResult
 )
 {

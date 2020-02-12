@@ -322,7 +322,9 @@ aResult
 this
 ]
 (
-nsresult
+const
+CopyableErrorResult
+&
 aRv
 )
 {
