@@ -123,6 +123,13 @@ mozilla_InspectorFontFace_h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
