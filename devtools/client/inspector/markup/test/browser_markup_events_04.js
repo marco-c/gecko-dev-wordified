@@ -87,13 +87,6 @@ const
 TEST_DATA
 =
 [
-/
-/
-eslint
--
-disable
--
-line
 {
 selector
 :
@@ -115,7 +108,7 @@ TEST_URL
 +
 "
 :
-56
+59
 :
 67
 "
@@ -173,7 +166,7 @@ TEST_URL
 +
 "
 :
-52
+55
 :
 51
 "
@@ -428,9 +421,9 @@ TEST_URL
 +
 "
 :
-24
+26
 :
-57
+47
 "
 attributes
 :
@@ -617,7 +610,7 @@ TEST_URL
 +
 "
 :
-77
+80
 :
 29
 "

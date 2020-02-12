@@ -87,13 +87,6 @@ const
 TEST_DATA
 =
 [
-/
-/
-eslint
--
-disable
--
-line
 {
 selector
 :
@@ -172,7 +165,7 @@ TEST_URL
 +
 "
 :
-45
+48
 :
 31
 "
@@ -220,7 +213,7 @@ n
 '
 +
 '
-let
+const
 output
 =
 document
@@ -285,7 +278,7 @@ TEST_URL
 +
 "
 :
-52
+55
 :
 27
 "
@@ -313,7 +306,7 @@ n
 "
 +
 '
-let
+const
 output
 =
 document
@@ -358,7 +351,7 @@ TEST_URL
 +
 "
 :
-57
+60
 :
 29
 "
@@ -386,7 +379,7 @@ n
 "
 +
 '
-let
+const
 output
 =
 document
@@ -515,7 +508,7 @@ TEST_URL
 +
 "
 :
-72
+75
 :
 35
 "
@@ -699,7 +692,7 @@ TEST_URL
 +
 "
 :
-67
+70
 :
 29
 "
