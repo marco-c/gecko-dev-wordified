@@ -14926,7 +14926,7 @@ appropriate
 .
 if
 (
-IsMozBrowser
+IsMozBrowserElement
 (
 )
 )
@@ -17111,7 +17111,7 @@ appropriate
 .
 if
 (
-IsMozBrowser
+IsMozBrowserElement
 (
 )
 )
