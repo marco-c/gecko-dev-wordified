@@ -8073,7 +8073,7 @@ mozilla
 :
 ScreenRect
 &
-aRemoteDocumentRect
+aTopLevelViewportVisibleRectInBrowserCoords
 )
 {
 mChildToParentConversionMatrix
@@ -8086,9 +8086,9 @@ FromUnknownMatrix
 aMatrix
 )
 ;
-mRemoteDocumentRect
+mTopLevelViewportVisibleRectInBrowserCoords
 =
-aRemoteDocumentRect
+aTopLevelViewportVisibleRectInBrowserCoords
 ;
 /
 /
@@ -10030,13 +10030,13 @@ ScreenRect
 BrowserChild
 :
 :
-GetRemoteDocumentRect
+GetTopLevelViewportVisibleRectInBrowserCoords
 (
 )
 const
 {
 return
-mRemoteDocumentRect
+mTopLevelViewportVisibleRectInBrowserCoords
 ;
 }
 void

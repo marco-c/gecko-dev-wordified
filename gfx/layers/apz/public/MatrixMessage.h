@@ -199,7 +199,7 @@ aMatrix
 const
 ScreenRect
 &
-aRemoteDocumentRect
+aTopLevelViewportVisibleRectInBrowserCoords
 const
 LayersId
 &
@@ -213,9 +213,9 @@ ToUnknownMatrix
 aMatrix
 )
 )
-mRemoteDocumentRect
+mTopLevelViewportVisibleRectInBrowserCoords
 (
-aRemoteDocumentRect
+aTopLevelViewportVisibleRectInBrowserCoords
 )
 mLayersId
 (
@@ -245,13 +245,13 @@ mMatrix
 }
 inline
 ScreenRect
-GetRemoteDocumentRect
+GetTopLevelViewportVisibleRectInBrowserCoords
 (
 )
 const
 {
 return
-mRemoteDocumentRect
+mTopLevelViewportVisibleRectInBrowserCoords
 ;
 }
 inline
@@ -356,7 +356,7 @@ of
 view
 .
 ScreenRect
-mRemoteDocumentRect
+mTopLevelViewportVisibleRectInBrowserCoords
 ;
 LayersId
 mLayersId
