@@ -224,7 +224,7 @@ ok
 (
 e
 instanceof
-DOMException
+TypeError
 "
 got
 a
