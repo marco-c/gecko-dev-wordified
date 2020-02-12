@@ -8850,7 +8850,7 @@ pref
 in
 int_prefs
 .
-into_iter
+iter
 (
 )
 {
