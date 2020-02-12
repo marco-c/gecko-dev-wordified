@@ -1568,6 +1568,8 @@ requestViaSharedWorker
 test
 .
 url
+{
+}
 )
 test
 .
