@@ -3259,9 +3259,6 @@ FxA
 enabled
 targeting
 :
-isFxABadgeEnabled
-&
-&
 !
 hasAccessedFxAPanel
 &
