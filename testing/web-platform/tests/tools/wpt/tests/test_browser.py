@@ -54,6 +54,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 Included
 with
@@ -105,6 +106,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 Included
 with
@@ -207,6 +209,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 gibberish
 '
@@ -248,6 +251,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 dummy
 '
@@ -313,6 +317,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 WebKitGTK
 2
@@ -353,6 +358,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 WebKitGTK
 2
@@ -441,6 +447,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 gibberish
 '
@@ -484,6 +491,7 @@ mocked_check_output
 .
 return_value
 =
+b
 '
 dummy
 '
@@ -829,6 +837,7 @@ check_output
 '
 return_value
 =
+b
 '
 error
 '
@@ -926,6 +935,7 @@ check_output
 '
 return_value
 =
+b
 '
 aarch64
 -

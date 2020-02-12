@@ -1,16 +1,3 @@
-try
-:
-    
-import
-html
-except
-ImportError
-:
-    
-import
-cgi
-as
-html
 import
 json
 import
@@ -67,6 +54,21 @@ from
 utils
 import
 HTTPException
+try
+:
+    
+from
+html
+import
+escape
+except
+ImportError
+:
+    
+from
+cgi
+import
+escape
 __all__
 =
 [
@@ -510,8 +512,6 @@ ul
 path
 "
 :
-html
-.
 escape
 (
 url_path
@@ -775,8 +775,6 @@ items
             
 link
 =
-html
-.
 escape
 (
 quote
@@ -833,8 +831,6 @@ a
 link
 "
 :
-html
-.
 escape
 (
 quote
@@ -948,8 +944,6 @@ link
 name
 "
 :
-html
-.
 escape
 (
 item

@@ -1728,6 +1728,17 @@ fetch_ref
 )
 s
 ;
+sudo
+add
+-
+apt
+-
+repository
+ppa
+:
+deadsnakes
+/
+ppa
 %
 (
 install_str
