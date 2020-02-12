@@ -674,6 +674,11 @@ crisp
 -
 edges
 "
+gecko_enum_prefix
+=
+"
+StyleImageRendering
+"
 animation_value_type
 =
 "

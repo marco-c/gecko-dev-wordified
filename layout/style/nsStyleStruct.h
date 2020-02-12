@@ -8472,13 +8472,12 @@ mozilla
 StyleVisibility
 mVisible
 ;
-uint8_t
+mozilla
+:
+:
+StyleImageRendering
 mImageRendering
 ;
-/
-/
-NS_STYLE_IMAGE_RENDERING_
-*
 uint8_t
 mWritingMode
 ;
