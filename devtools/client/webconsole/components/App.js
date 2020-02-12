@@ -1795,13 +1795,6 @@ this
 props
 .
 eagerEvaluationEnabled
-|
-|
-this
-.
-props
-.
-editorMode
 )
 {
 return
