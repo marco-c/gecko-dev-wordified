@@ -410,6 +410,22 @@ repo
     
 }
     
+LOG
+(
+"
+Getting
+conditioned
+profile
+with
+arguments
+:
+%
+s
+"
+%
+params
+)
+    
 filename
 =
 ARTIFACT_NAME
@@ -440,6 +456,15 @@ DIRECT_LINK
 params
 +
 filename
+    
+LOG
+(
+"
+preparing
+download
+dir
+"
+)
     
 if
 not
@@ -508,6 +533,20 @@ join
 (
 download_dir
 filename
+)
+    
+LOG
+(
+"
+Downloaded
+archive
+path
+:
+%
+s
+"
+%
+downloaded_archive
 )
     
 retries
