@@ -2093,14 +2093,6 @@ compilationInfo
 (
 compilationInfo
 )
-directives
-(
-options
-.
-forceStrictMode
-(
-)
-)
 script
 (
 cx
@@ -2618,6 +2610,8 @@ hadError
 |
 info
 .
+compilationInfo
+.
 directives
 =
 =
@@ -2661,6 +2655,8 @@ MOZ_ASSERT_IF
 (
 info
 .
+compilationInfo
+.
 directives
 .
 strict
@@ -2677,6 +2673,8 @@ MOZ_ASSERT_IF
 (
 info
 .
+compilationInfo
+.
 directives
 .
 asmJS
@@ -2690,6 +2688,8 @@ asmJS
 )
 ;
 info
+.
+compilationInfo
 .
 directives
 =
@@ -2947,6 +2947,8 @@ handleParseFailure
 (
 info
 info
+.
+compilationInfo
 .
 directives
 startPosition
@@ -3592,6 +3594,8 @@ newDirectives
 =
 info
 .
+compilationInfo
+.
 directives
 ;
 fn
@@ -3607,6 +3611,8 @@ parameterListEnd
 generatorKind
 asyncKind
 info
+.
+compilationInfo
 .
 directives
 &
