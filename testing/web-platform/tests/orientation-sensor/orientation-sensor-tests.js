@@ -249,15 +249,11 @@ orientation
 data
 available
 .
-assert_throws
+assert_throws_dom
 (
-{
-name
-:
 '
 NotReadableError
 '
-}
 (
 )
 =

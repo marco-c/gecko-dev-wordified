@@ -651,7 +651,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 DOMException
 .
@@ -713,7 +713,7 @@ removeChild
 style
 )
 ;
-assert_throws
+assert_throws_dom
 (
 DOMException
 .
