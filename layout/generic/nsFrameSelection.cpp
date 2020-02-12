@@ -5583,6 +5583,9 @@ aJumpLines
 )
 ;
 }
+/
+/
+static
 nsPrevNextBidiLevels
 nsFrameSelection
 :
@@ -5599,7 +5602,6 @@ aHint
 bool
 aJumpLines
 )
-const
 {
 /
 /
@@ -9342,6 +9344,9 @@ IsDisplayContents
 )
 ;
 }
+/
+/
+static
 nsIFrame
 *
 nsFrameSelection
@@ -9360,7 +9365,6 @@ int32_t
 *
 aReturnOffset
 )
-const
 {
 if
 (
@@ -9370,10 +9374,6 @@ aNode
 |
 !
 aReturnOffset
-|
-|
-!
-mPresShell
 )
 return
 nullptr
@@ -16378,6 +16378,9 @@ return
 NS_OK
 ;
 }
+/
+/
+static
 nsIContent
 *
 nsFrameSelection
@@ -16389,7 +16392,6 @@ nsRange
 *
 aRange
 )
-const
 {
 if
 (
@@ -16677,6 +16679,9 @@ aColIndex
 )
 ;
 }
+/
+/
+static
 nsIContent
 *
 nsFrameSelection
@@ -16691,7 +16696,6 @@ nsIContent
 *
 aContent2
 )
-const
 {
 if
 (
@@ -16763,6 +16767,9 @@ tableNode1
 nullptr
 ;
 }
+/
+/
+static
 nsIContent
 *
 nsFrameSelection
@@ -16774,7 +16781,6 @@ nsIContent
 *
 aCell
 )
-const
 {
 if
 (
