@@ -41338,6 +41338,7 @@ compilationInfo
 (
 cx
 allocScope
+options
 )
 ;
 if
@@ -41345,10 +41346,9 @@ if
 !
 compilationInfo
 .
-initFromOptions
+init
 (
 cx
-options
 )
 )
 {
