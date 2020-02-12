@@ -1121,6 +1121,12 @@ MouseEventShim
 .
 capturing
 ;
+let
+oldtarget
+;
+let
+newtarget
+;
 if
 (
 tracking
@@ -1193,12 +1199,10 @@ touchleave
 events
 instead
 ?
-var
 oldtarget
 =
 target
 ;
-var
 newtarget
 =
 document
@@ -1775,7 +1779,7 @@ true
 (
 )
 ;
-var
+const
 MouseEventShim
 =
 {

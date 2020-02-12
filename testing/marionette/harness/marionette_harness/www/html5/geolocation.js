@@ -1,3 +1,15 @@
+/
+*
+eslint
+-
+disable
+no
+-
+unsanitized
+/
+property
+*
+/
 function
 success
 (
