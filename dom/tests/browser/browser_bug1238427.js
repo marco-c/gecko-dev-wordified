@@ -206,9 +206,11 @@ setCharPref
 "
 geo
 .
-wifi
+provider
 .
-uri
+network
+.
+url
 "
 BASE_GEO_URL
 +

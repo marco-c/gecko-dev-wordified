@@ -417,9 +417,11 @@ setCharPref
 "
 geo
 .
-wifi
+provider
 .
-uri
+network
+.
+url
 "
 "
 http
@@ -467,7 +469,9 @@ setBoolPref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 scan
 "

@@ -2222,7 +2222,9 @@ user_pref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 logging
 .
@@ -2236,7 +2238,9 @@ user_pref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 scan
 "
@@ -2248,7 +2252,9 @@ user_pref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 timeToWaitBeforeSending
 "
@@ -2260,9 +2266,11 @@ user_pref
 "
 geo
 .
-wifi
+provider
 .
-uri
+network
+.
+url
 "
 "
 http

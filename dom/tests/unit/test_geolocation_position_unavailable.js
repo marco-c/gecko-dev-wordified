@@ -164,7 +164,9 @@ setBoolPref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 scan
 "
@@ -180,9 +182,11 @@ setCharPref
 "
 geo
 .
-wifi
+provider
 .
-uri
+network
+.
+url
 "
 "
 UrlNotUsedHere
