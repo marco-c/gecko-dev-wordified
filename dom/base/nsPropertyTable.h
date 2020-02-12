@@ -755,7 +755,7 @@ aPropertyName
 *
 *
 *
-Unset
+Remove
 the
 property
 |
@@ -793,7 +793,7 @@ returned
 /
 void
 *
-UnsetProperty
+TakeProperty
 (
 const
 nsPropertyOwner

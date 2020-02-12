@@ -1432,7 +1432,7 @@ nsIFrame
 aFrame
 )
 {
-LayerActivity
+auto
 *
 layerActivity
 =
@@ -1445,7 +1445,7 @@ LayerActivity
 aContent
 -
 >
-UnsetProperty
+TakeProperty
 (
 nsGkAtoms
 :

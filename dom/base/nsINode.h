@@ -6144,7 +6144,7 @@ aPropertyName
 *
 *
 *
-Unset
+Take
 a
 property
 associated
@@ -6157,8 +6157,8 @@ value
 will
 not
 be
-*
 destroyed
+*
 but
 rather
 returned
@@ -6171,10 +6171,10 @@ caller
 s
 responsibility
 to
-*
 destroy
 the
 value
+*
 after
 that
 point
@@ -6255,7 +6255,7 @@ null
 /
 void
 *
-UnsetProperty
+TakeProperty
 (
 const
 nsAtom
