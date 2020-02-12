@@ -1728,6 +1728,9 @@ PropertiesView
 {
 object
 expandedNodes
+useQuotes
+:
+true
 filterPlaceHolder
 :
 JSON_FILTER_TEXT

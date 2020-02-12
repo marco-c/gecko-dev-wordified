@@ -1114,7 +1114,11 @@ values
 ]
 .
 textContent
+"
+{
 type
+}
+"
 "
 The
 third

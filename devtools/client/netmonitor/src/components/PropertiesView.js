@@ -621,6 +621,11 @@ resetTargetSearchResult
 PropTypes
 .
 func
+useQuotes
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -652,6 +657,9 @@ sectionNames
 cropLimit
 :
 1024
+useQuotes
+:
+false
 }
 ;
 }
@@ -1652,6 +1660,7 @@ sectionNames
 openLink
 provider
 selected
+useQuotes
 }
 =
 this
@@ -1760,8 +1769,6 @@ sectionNames
 enableInput
 expandableStrings
 useQuotes
-:
-false
 expandedNodes
 :
 expandedNodes
