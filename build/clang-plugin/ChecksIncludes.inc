@@ -234,6 +234,13 @@ h
 #
 include
 "
+NonTrivialTypeInFfiChecker
+.
+h
+"
+#
+include
+"
 NoUsingNamespaceMozillaJavaChecker
 .
 h
