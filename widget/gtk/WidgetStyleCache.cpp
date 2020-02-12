@@ -4329,7 +4329,7 @@ or
 implemented
 .
 Use
-GtkWindow
+GtkInvisible
 as
 a
 fallback
@@ -4368,7 +4368,7 @@ get
 ;
 widget
 =
-CreateWindowWidget
+gtk_invisible_new
 (
 )
 ;
