@@ -2021,12 +2021,10 @@ ThrowTypeError
 MSG_INVALID_REQUEST_MODE
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 navigate
 "
-)
 )
 ;
 return

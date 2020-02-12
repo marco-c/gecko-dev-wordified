@@ -14166,12 +14166,10 @@ NS_ConvertUTF8toUTF16
 (
 aScope
 )
-NS_LITERAL_STRING
-(
+u
 "
 uninstalled
 "
-)
 )
 ;
 aCallback

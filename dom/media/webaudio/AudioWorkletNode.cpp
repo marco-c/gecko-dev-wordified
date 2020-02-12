@@ -3642,12 +3642,10 @@ ThrowRangeError
 MSG_VALUE_OUT_OF_RANGE
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 numberOfInputs
 "
-)
 )
 ;
 return
@@ -3670,12 +3668,10 @@ ThrowRangeError
 MSG_VALUE_OUT_OF_RANGE
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 numberOfOutputs
 "
-)
 )
 ;
 return

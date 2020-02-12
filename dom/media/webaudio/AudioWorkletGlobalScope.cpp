@@ -684,8 +684,7 @@ ThrowTypeError
 MSG_NOT_CONSTRUCTOR
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 Argument
 2
@@ -694,7 +693,6 @@ AudioWorkletGlobalScope
 .
 registerProcessor
 "
-)
 )
 ;
 return
@@ -850,8 +848,7 @@ ThrowTypeError
 MSG_NOT_OBJECT
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 Argument
 2
@@ -860,12 +857,12 @@ AudioWorkletGlobalScope
 .
 registerProcessor
 "
+u
 "
 processorCtor
 .
 prototype
 "
-)
 )
 ;
 return
@@ -1094,8 +1091,7 @@ ThrowTypeError
 MSG_NOT_ARRAY_NOR_UNDEFINED
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 .
 constructor
@@ -1105,7 +1101,6 @@ of
 argument
 2
 "
-)
 )
 ;
 return
