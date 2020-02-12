@@ -4358,7 +4358,7 @@ panel
 {
 walker
 :
-accessibilityWalker
+accessibleWalkerFront
 }
 }
 selector
@@ -4396,7 +4396,7 @@ selector
 )
 ;
 return
-accessibilityWalker
+accessibleWalkerFront
 .
 getAccessibleFor
 (
