@@ -29644,7 +29644,7 @@ mousewheel
 .
 min_line_scroll_amount
 "
-5
+35
 )
 ;
 /
@@ -30114,7 +30114,7 @@ scrollbars
 .
 durationMinMS
 "
-150
+100
 )
 ;
 pref
@@ -30128,7 +30128,7 @@ scrollbars
 .
 durationMaxMS
 "
-150
+100
 )
 ;
 /
