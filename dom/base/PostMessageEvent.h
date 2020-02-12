@@ -399,10 +399,12 @@ JS
 Value
 >
 aTransfer
+const
 JS
 :
 :
 CloneDataPolicy
+&
 aClonePolicy
 ErrorResult
 &
