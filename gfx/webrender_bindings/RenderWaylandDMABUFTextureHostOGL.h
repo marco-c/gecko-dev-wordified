@@ -256,9 +256,6 @@ GLContext
 >
 mGL
 ;
-GLuint
-mTextureHandle
-;
 }
 ;
 }
