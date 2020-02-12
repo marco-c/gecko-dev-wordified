@@ -1790,8 +1790,6 @@ forget
 (
 )
 ;
-aRv
-=
 ServiceWorkerScopeAndScriptAreValid
 (
 clientInfo
@@ -1801,6 +1799,7 @@ ref
 )
 scopeURI
 scriptURI
+aRv
 )
 ;
 if
