@@ -2569,12 +2569,6 @@ nullptr
 canTransfer
 *
 /
-nullptr
-/
-*
-sabCloned
-*
-/
 }
 ;
 MOZ_ASSERT
@@ -6153,7 +6147,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 /
@@ -6947,7 +6940,6 @@ nullptr
 nullptr
 nullptr
 nullptr
-nullptr
 }
 ;
 if
@@ -7407,7 +7399,6 @@ callbacks
 =
 {
 CommonStructuredCloneReadCallback
-nullptr
 nullptr
 nullptr
 nullptr
@@ -14581,12 +14572,6 @@ nullptr
 /
 *
 canTransfer
-*
-/
-nullptr
-/
-*
-sabCloned
 *
 /
 }
