@@ -8872,13 +8872,7 @@ AsDragEvent
 )
 action
 dropEffect
-IPC
-:
-:
-Principal
-(
 principal
-)
 csp
 )
 ;
@@ -38149,13 +38143,7 @@ SendPasteTransferable
 (
 ipcDataTransfer
 isPrivateData
-IPC
-:
-:
-Principal
-(
 requestingPrincipal
-)
 contentPolicyType
 )
 ;

@@ -4382,12 +4382,6 @@ this
 )
 ;
 }
-IPC
-:
-:
-Principal
-principal
-;
 if
 (
 !
@@ -4403,7 +4397,7 @@ aActor
 >
 Init
 (
-principal
+nullptr
 aFilter
 )
 )

@@ -10814,13 +10814,7 @@ gNeckoChild
 SendSpeculativeConnect
 (
 params
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 aAnonymous
 )
 ;

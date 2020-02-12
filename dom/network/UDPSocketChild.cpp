@@ -525,13 +525,7 @@ gNeckoChild
 SendPUDPSocketConstructor
 (
 this
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 mFilterName
 )
 )

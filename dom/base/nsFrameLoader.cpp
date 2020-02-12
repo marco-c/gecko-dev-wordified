@@ -19424,13 +19424,7 @@ nsString
 aMessage
 )
 cpows
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 data
 )
 )
