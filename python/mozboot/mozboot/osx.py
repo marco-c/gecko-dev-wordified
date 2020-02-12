@@ -2983,11 +2983,6 @@ python
 '
             
 '
-python
-2
-'
-            
-'
 terminal
 -
 notifier
