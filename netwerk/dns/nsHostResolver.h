@@ -410,6 +410,10 @@ const
 nsCString
 host
 ;
+const
+nsCString
+mTrrServer
+;
 uint16_t
 type
 ;
@@ -433,6 +437,10 @@ const
 nsACString
 &
 host
+const
+nsACString
+&
+aTrrServer
 uint16_t
 type
 uint16_t
@@ -2359,6 +2367,10 @@ const
 nsACString
 &
 host
+const
+nsACString
+&
+aTrrServer
 uint16_t
 type
 uint16_t
@@ -2640,6 +2652,10 @@ const
 nsACString
 &
 hostname
+const
+nsACString
+&
+trrServer
 uint16_t
 type
 const
@@ -2719,6 +2735,10 @@ const
 nsACString
 &
 hostname
+const
+nsACString
+&
+trrServer
 uint16_t
 type
 const
@@ -2814,6 +2834,10 @@ const
 nsACString
 &
 host
+const
+nsACString
+&
+trrServer
 uint16_t
 type
 const
@@ -3042,6 +3066,10 @@ const
 nsACString
 &
 host
+const
+nsACString
+&
+trrServer
 uint16_t
 type
 uint16_t

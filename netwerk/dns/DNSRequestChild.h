@@ -193,6 +193,10 @@ nsACString
 &
 aHost
 const
+nsACString
+&
+aTrrServer
+const
 uint16_t
 &
 aType
@@ -350,6 +354,9 @@ mResultStatus
 ;
 nsCString
 mHost
+;
+nsCString
+mTrrServer
 ;
 uint16_t
 mType

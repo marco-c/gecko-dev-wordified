@@ -344,6 +344,10 @@ const
 nsACString
 &
 aHostname
+const
+nsACString
+&
+aTrrServer
 uint16_t
 type
 uint32_t
@@ -374,6 +378,10 @@ const
 nsACString
 &
 aHostname
+const
+nsACString
+&
+aTrrServer
 uint16_t
 aType
 uint32_t

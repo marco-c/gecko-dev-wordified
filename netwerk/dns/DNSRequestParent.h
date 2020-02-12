@@ -165,6 +165,12 @@ nsACString
 &
 hostname
 const
+nsACString
+&
+trrServer
+uint16_t
+type
+const
 OriginAttributes
 &
 originAttributes
@@ -212,6 +218,10 @@ const
 nsCString
 &
 hostName
+const
+nsCString
+&
+trrServer
 const
 uint16_t
 &

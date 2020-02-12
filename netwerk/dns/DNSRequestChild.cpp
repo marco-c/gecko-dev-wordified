@@ -1538,6 +1538,10 @@ mHost
 mDnsRequest
 -
 >
+mTrrServer
+mDnsRequest
+-
+>
 mType
 mDnsRequest
 -
@@ -1739,6 +1743,10 @@ nsACString
 &
 aHost
 const
+nsACString
+&
+aTrrServer
+const
 uint16_t
 &
 aType
@@ -1773,6 +1781,10 @@ NS_OK
 mHost
 (
 aHost
+)
+mTrrServer
+(
+aTrrServer
 )
 mType
 (
@@ -1938,6 +1950,8 @@ SendPDNSRequestConstructor
 (
 this
 mHost
+mTrrServer
+mType
 mOriginAttributes
 mFlags
 )
@@ -1983,6 +1997,8 @@ SendPDNSRequestConstructor
 (
 this
 mHost
+mTrrServer
+mType
 mOriginAttributes
 mFlags
 )
