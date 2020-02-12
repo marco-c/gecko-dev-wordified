@@ -23837,6 +23837,16 @@ defined
 (
 MOZ_WIDGET_UIKIT
 )
+if
+(
+!
+mPresContext
+)
+{
+return
+false
+;
+}
 /
 /
 On
