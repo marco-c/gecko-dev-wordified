@@ -274,7 +274,7 @@ Open
 mProcess
 -
 >
-GetChannel
+TakeChannel
 (
 )
 base

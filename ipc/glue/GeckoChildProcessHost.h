@@ -892,6 +892,12 @@ return
 true
 ;
 }
+using
+ChildProcessHost
+:
+:
+TakeChannel
+;
 IPC
 :
 :

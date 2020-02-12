@@ -160,7 +160,7 @@ IPDLUnitTestChildInit
 IOThreadChild
 :
 :
-channel
+TakeChannel
 (
 )
 ParentPid

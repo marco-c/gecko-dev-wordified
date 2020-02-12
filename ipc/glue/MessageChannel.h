@@ -746,8 +746,10 @@ ChannelConnected
 bool
 Open
 (
+UniquePtr
+<
 Transport
-*
+>
 aTransport
 MessageLoop
 *

@@ -904,7 +904,7 @@ mRDDChild
 >
 Open
 (
-GetChannel
+TakeChannel
 (
 )
 base

@@ -397,7 +397,7 @@ message_loop
 IOThreadChild
 :
 :
-channel
+TakeChannel
 (
 )
 )

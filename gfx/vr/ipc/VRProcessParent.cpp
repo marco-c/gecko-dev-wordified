@@ -1022,7 +1022,7 @@ mVRChild
 >
 Open
 (
-GetChannel
+TakeChannel
 (
 )
 base
