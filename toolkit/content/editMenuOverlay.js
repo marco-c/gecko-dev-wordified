@@ -793,7 +793,7 @@ needsContextMenu
 =
 e
 .
-target
+composedTarget
 .
 ownerDocument
 =
@@ -809,7 +809,7 @@ defaultPrevented
 &
 e
 .
-target
+composedTarget
 .
 parentNode
 .
@@ -840,7 +840,7 @@ includes
 (
 e
 .
-target
+composedTarget
 .
 localName
 )
@@ -848,7 +848,7 @@ localName
 &
 e
 .
-target
+composedTarget
 .
 namespaceURI
 =
@@ -859,7 +859,7 @@ HTML_NS
 |
 e
 .
-target
+composedTarget
 .
 closest
 (
