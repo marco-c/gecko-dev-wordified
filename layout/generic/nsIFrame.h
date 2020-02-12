@@ -26935,7 +26935,7 @@ PropertyType
 <
 T
 >
-RemoveProperty
+TakeProperty
 (
 FrameProperties
 :
@@ -26955,7 +26955,7 @@ nullptr
 return
 mProperties
 .
-Remove
+Take
 (
 aProperty
 aFoundResult

@@ -1497,7 +1497,7 @@ nsFrameList
 *
 prop
 =
-RemoveProperty
+TakeProperty
 (
 PopupListProperty
 (

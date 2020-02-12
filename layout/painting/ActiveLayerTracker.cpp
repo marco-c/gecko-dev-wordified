@@ -1354,7 +1354,7 @@ layerActivity
 aFrame
 -
 >
-RemoveProperty
+TakeProperty
 (
 LayerActivityProperty
 (

@@ -7807,7 +7807,7 @@ get
 )
 )
 ;
-RemoveProperty
+TakeProperty
 (
 ContentScrollPos
 (

@@ -1400,7 +1400,7 @@ aPostDestroyData
 }
 else
 {
-RemoveProperty
+TakeProperty
 (
 aProp
 )
@@ -9380,7 +9380,7 @@ IsEmpty
 aFrame
 -
 >
-RemoveProperty
+TakeProperty
 (
 aProp
 )
@@ -10638,7 +10638,7 @@ aProperty
 )
 {
 return
-RemoveProperty
+TakeProperty
 (
 aProperty
 )

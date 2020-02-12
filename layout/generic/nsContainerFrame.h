@@ -6800,7 +6800,7 @@ nsFrameList
 *
 list
 =
-RemoveProperty
+TakeProperty
 (
 OverflowProperty
 (
