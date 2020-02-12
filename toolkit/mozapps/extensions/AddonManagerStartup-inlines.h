@@ -340,7 +340,7 @@ begin
 const
 {
 return
-elem
+PropertyType
 (
 Self
 (
