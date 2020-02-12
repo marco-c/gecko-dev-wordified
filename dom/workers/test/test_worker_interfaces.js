@@ -346,7 +346,7 @@ Atomics
 insecureContext
 :
 true
-earlerBetaOrEarlier
+earlyBetaOrEarlier
 :
 true
 }
@@ -709,7 +709,7 @@ SharedArrayBuffer
 insecureContext
 :
 true
-earlerBetaOrEarlier
+earlyBetaOrEarlier
 :
 true
 }
