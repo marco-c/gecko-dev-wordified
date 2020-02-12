@@ -534,7 +534,7 @@ CreatePaymentRequest
 nsPIDOMWindowInner
 *
 aWindow
-nsresult
+ErrorResult
 &
 aRv
 )
@@ -551,6 +551,11 @@ JSObject
 aObj
 )
 ;
+/
+/
+Parameter
+validation
+methods
 static
 void
 IsValidStandardizedPMI
@@ -715,6 +720,10 @@ ErrorResult
 aRv
 )
 ;
+/
+/
+Webidl
+implementation
 static
 already_AddRefed
 <
@@ -810,7 +819,7 @@ nsAString
 aPayerPhone
 ErrorResult
 &
-aRv
+aResult
 )
 ;
 void
@@ -844,7 +853,7 @@ bool
 aResult
 )
 ;
-nsresult
+void
 RetryPayment
 (
 JSContext
@@ -854,6 +863,9 @@ const
 PaymentValidationErrors
 &
 aErrors
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -1037,7 +1049,7 @@ nsAString
 aShippingOption
 )
 ;
-nsresult
+void
 UpdatePayment
 (
 JSContext
@@ -1047,12 +1059,8 @@ const
 PaymentDetailsUpdate
 &
 aDetails
-)
-;
-void
-AbortUpdate
-(
-nsresult
+ErrorResult
+&
 aRv
 )
 ;
@@ -1061,7 +1069,7 @@ AbortUpdate
 (
 ErrorResult
 &
-aRv
+aReason
 )
 ;
 void

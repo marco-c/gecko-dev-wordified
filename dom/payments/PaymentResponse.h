@@ -765,13 +765,16 @@ PaymentResponse
 (
 )
 ;
-nsresult
+void
 ValidatePaymentValidationErrors
 (
 const
 PaymentValidationErrors
 &
 aErrors
+ErrorResult
+&
+aRv
 )
 ;
 void
