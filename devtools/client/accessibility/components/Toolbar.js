@@ -307,13 +307,6 @@ propTypes
 {
 return
 {
-accessibilityWalker
-:
-PropTypes
-.
-object
-.
-isRequired
 dispatch
 :
 PropTypes
@@ -345,6 +338,13 @@ toolboxDoc
 PropTypes
 .
 object
+.
+isRequired
+audit
+:
+PropTypes
+.
+func
 .
 isRequired
 }
@@ -546,9 +546,9 @@ render
 const
 {
 canBeDisabled
-accessibilityWalker
 simulator
 toolboxDoc
+audit
 }
 =
 this
@@ -790,7 +790,7 @@ beta
 AccessibilityTreeFilter
 (
 {
-accessibilityWalker
+audit
 describedby
 :
 betaID
