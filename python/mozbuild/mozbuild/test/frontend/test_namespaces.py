@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+six
+import
 unittest
 from
 mozunit
@@ -136,7 +138,9 @@ not
 isinstance
 (
 value
-unicode
+six
+.
+text_type
 )
 :
             
@@ -184,7 +188,7 @@ self
 value
     
 def
-__cmp__
+__eq__
 (
 self
 other
@@ -192,15 +196,98 @@ other
 :
         
 return
-cmp
-(
 self
 .
 value
-str
+=
+=
+six
+.
+text_type
 (
 other
 )
+    
+def
+__lt__
+(
+self
+other
+)
+:
+        
+return
+self
+.
+value
+<
+six
+.
+text_type
+(
+other
+)
+    
+def
+__le__
+(
+self
+other
+)
+:
+        
+return
+self
+.
+value
+<
+=
+six
+.
+text_type
+(
+other
+)
+    
+def
+__gt__
+(
+self
+other
+)
+:
+        
+return
+self
+.
+value
+>
+six
+.
+text_type
+(
+other
+)
+    
+def
+__ge__
+(
+self
+other
+)
+:
+        
+return
+self
+.
+value
+>
+=
+six
+.
+text_type
+(
+other
 )
     
 def
@@ -226,8 +313,12 @@ HOGE
 '
 :
 (
-unicode
-unicode
+six
+.
+text_type
+six
+.
+text_type
 None
 )
     
@@ -237,7 +328,9 @@ FUGA
 :
 (
 Fuga
-unicode
+six
+.
+text_type
 None
 )
     
@@ -247,7 +340,9 @@ PIYO
 :
 (
 Piyo
-unicode
+six
+.
+text_type
 None
 )
     
@@ -659,7 +754,9 @@ e
 [
 4
 ]
-unicode
+six
+.
+text_type
 )
     
 def
@@ -842,7 +939,9 @@ e
 [
 4
 ]
-unicode
+six
+.
+text_type
 )
         
 ns
@@ -1050,7 +1149,9 @@ e
 [
 4
 ]
-unicode
+six
+.
+text_type
 )
         
 ns
