@@ -1958,6 +1958,13 @@ ReleaseDummy
 )
 ;
 }
+nsRange
+:
+:
+Shutdown
+(
+)
+;
 Document
 :
 :
