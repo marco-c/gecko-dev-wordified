@@ -11019,6 +11019,9 @@ spec
 /
 TypeError
 :
+URL
+constructor
+:
 invalid
 uri
 spec
@@ -11066,6 +11069,9 @@ spec
 )
 /
 TypeError
+:
+URL
+constructor
 :
 invalid
 uri

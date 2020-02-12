@@ -614,6 +614,9 @@ encoding
 )
 {
 return
+TextDecoder
+constructor
+:
 The
 given
 encoding

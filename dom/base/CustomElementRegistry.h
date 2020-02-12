@@ -2968,8 +2968,8 @@ JSObject
 >
 aConstructor
 const
-char16_t
-*
+nsString
+&
 aName
 nsTArray
 <

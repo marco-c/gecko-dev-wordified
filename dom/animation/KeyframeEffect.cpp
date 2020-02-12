@@ -1512,6 +1512,12 @@ GetKeyframesFromObject
 aContext
 mDocument
 aKeyframes
+"
+KeyframeEffect
+.
+setKeyframes
+:
+"
 aRv
 )
 ;
