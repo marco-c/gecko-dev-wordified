@@ -1083,7 +1083,7 @@ enum
 GenericGradientItem
 <
 Color
-LengthPercentage
+T
 >
 {
 /
@@ -1136,7 +1136,7 @@ stop
 .
 position
 :
-LengthPercentage
+T
 }
 /
 /
@@ -1147,7 +1147,7 @@ hint
 .
 InterpolationHint
 (
-LengthPercentage
+T
 )
 }
 pub
@@ -1213,7 +1213,7 @@ struct
 ColorStop
 <
 Color
-LengthPercentage
+T
 >
 {
 /
@@ -1243,18 +1243,18 @@ position
 :
 Option
 <
-LengthPercentage
+T
 >
 }
 impl
 <
 Color
-LengthPercentage
+T
 >
 ColorStop
 <
 Color
-LengthPercentage
+T
 >
 {
 /
@@ -1284,7 +1284,7 @@ self
 GradientItem
 <
 Color
-LengthPercentage
+T
 >
 {
 match

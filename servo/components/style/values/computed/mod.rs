@@ -684,7 +684,6 @@ image
 :
 {
 Gradient
-GradientItem
 Image
 LineDirection
 MozImageRect
