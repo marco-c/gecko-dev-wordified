@@ -482,6 +482,9 @@ openNewBrowserWindow
 remote
 :
 false
+fission
+:
+false
 }
 )
 ;
