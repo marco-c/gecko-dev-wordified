@@ -195,8 +195,9 @@ Credential
 Credential
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 Credential
