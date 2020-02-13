@@ -1319,6 +1319,7 @@ gradient
 {
 LinearGradient
 RadialGradient
+ConicGradient
 }
 ;
 #
@@ -19584,6 +19585,15 @@ PrimitiveInstanceKind
 :
 :
 RadialGradient
+{
+.
+.
+}
+|
+PrimitiveInstanceKind
+:
+:
+ConicGradient
 {
 .
 .

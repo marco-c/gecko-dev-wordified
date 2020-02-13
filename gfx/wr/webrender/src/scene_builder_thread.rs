@@ -234,6 +234,7 @@ gradient
 {
 LinearGradient
 RadialGradient
+ConicGradient
 }
 ;
 use

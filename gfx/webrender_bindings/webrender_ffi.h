@@ -379,6 +379,12 @@ radial_grad
 \
 macro
 (
+conic_grad
+)
+;
+\
+macro
+(
 picture
 )
 ;

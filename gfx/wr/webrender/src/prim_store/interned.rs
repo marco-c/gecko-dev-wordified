@@ -141,6 +141,7 @@ gradient
 {
 LinearGradient
 RadialGradient
+ConicGradient
 }
 ;
 pub
