@@ -1215,10 +1215,6 @@ free
 }
 return
 surf
-.
-forget
-(
-)
 ;
 }
 already_AddRefed

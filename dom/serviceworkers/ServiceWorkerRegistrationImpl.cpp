@@ -1579,8 +1579,9 @@ private
 TimerCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 public
@@ -2615,10 +2616,12 @@ mMutex
 ;
 promise
 =
-mPromise
-.
-forget
+std
+:
+:
+move
 (
+mPromise
 )
 ;
 }

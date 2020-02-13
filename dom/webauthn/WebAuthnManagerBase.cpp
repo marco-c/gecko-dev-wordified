@@ -496,10 +496,12 @@ mgr
 ;
 mChild
 =
-mgr
-.
-forget
+std
+:
+:
+move
 (
+mgr
 )
 ;
 return

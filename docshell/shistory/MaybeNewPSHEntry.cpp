@@ -795,10 +795,12 @@ take
 *
 aEntry
 =
-entry
-.
-forget
+std
+:
+:
+move
 (
+entry
 )
 ;
 return

@@ -2363,10 +2363,12 @@ rv
 ;
 mBackgroundEventTarget
 =
-target
-.
-forget
+std
+:
+:
+move
 (
+target
 )
 ;
 mInitialized

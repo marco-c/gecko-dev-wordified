@@ -9860,10 +9860,12 @@ aLoadResult
 .
 mLoadState
 =
-loadState
-.
-forget
+std
+:
+:
+move
 (
+loadState
 )
 ;
 return

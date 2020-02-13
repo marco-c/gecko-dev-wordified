@@ -1755,10 +1755,12 @@ Layer
 >
 result
 =
-layer
-.
-forget
+std
+:
+:
+move
 (
+layer
 )
 ;
 return

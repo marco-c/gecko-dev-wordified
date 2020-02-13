@@ -2084,10 +2084,6 @@ aCondition
 ;
 return
 p
-.
-forget
-(
-)
 ;
 }
 /

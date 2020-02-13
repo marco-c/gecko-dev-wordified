@@ -758,12 +758,14 @@ OS_POSIX
 )
 file_descriptor_set_
 =
+std
+:
+:
+move
+(
 other
 .
 file_descriptor_set_
-.
-forget
-(
 )
 ;
 #

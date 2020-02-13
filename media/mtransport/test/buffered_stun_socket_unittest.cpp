@@ -344,10 +344,12 @@ r
 ;
 dummy_
 =
-dummy
-.
-forget
+std
+:
+:
+move
 (
+dummy
 )
 ;
 /

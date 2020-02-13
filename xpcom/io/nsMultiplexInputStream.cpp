@@ -520,8 +520,9 @@ private
 nsMultiplexInputStream
 (
 )
-{
-}
+=
+default
+;
 nsresult
 AsyncWaitInternal
 (
@@ -1268,10 +1269,12 @@ rv
 ;
 stream
 =
-bufferedStream
-.
-forget
+std
+:
+:
+move
 (
+bufferedStream
 )
 ;
 buffered

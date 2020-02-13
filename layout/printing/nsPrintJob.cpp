@@ -23310,10 +23310,12 @@ printData
 >
 mCurrentFocusWin
 =
-domWin
-.
-forget
+std
+:
+:
+move
 (
+domWin
 )
 ;
 SetPrintPO

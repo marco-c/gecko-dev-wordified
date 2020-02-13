@@ -320,10 +320,12 @@ false
 ;
 gDOMSecurityManager
 =
-service
-.
-forget
+std
+:
+:
+move
 (
+service
 )
 ;
 }

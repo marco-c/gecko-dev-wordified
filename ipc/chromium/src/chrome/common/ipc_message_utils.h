@@ -4032,10 +4032,12 @@ false
 *
 r
 =
-refptr
-.
-forget
+std
+:
+:
+move
 (
+refptr
 )
 ;
 return

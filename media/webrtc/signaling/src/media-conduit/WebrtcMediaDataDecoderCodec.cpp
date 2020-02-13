@@ -928,10 +928,12 @@ MediaDataDecoder
 >
 decoder
 =
-mDecoder
-.
-forget
+std
+:
+:
+move
 (
+mDecoder
 )
 ;
 decoder

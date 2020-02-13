@@ -160,8 +160,9 @@ mTaskQueue
 EventTargetWrapper
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit
@@ -642,10 +643,12 @@ mTasks
 push
 (
 {
-aRunnable
-.
-forget
+std
+:
+:
+move
 (
+aRunnable
 )
 retainFlags
 }

@@ -2913,10 +2913,12 @@ aFormat
 {
 retVal
 =
-newTarget
-.
-forget
+std
+:
+:
+move
 (
+newTarget
 )
 ;
 }

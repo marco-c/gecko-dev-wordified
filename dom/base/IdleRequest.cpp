@@ -384,10 +384,12 @@ IdleRequestCallback
 >
 callback
 (
-mCallback
-.
-forget
+std
+:
+:
+move
 (
+mCallback
 )
 )
 ;

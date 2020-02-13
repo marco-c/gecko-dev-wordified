@@ -752,10 +752,12 @@ EncodeCompleteCallback
 >
 callback
 (
-mEncodeCompleteCallback
-.
-forget
+std
+:
+:
+move
 (
+mEncodeCompleteCallback
 )
 )
 ;

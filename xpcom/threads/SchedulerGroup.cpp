@@ -308,8 +308,9 @@ private
 SchedulerEventTarget
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -1738,10 +1739,12 @@ nsIRunnable
 >
 runnable
 (
-mRunnable
-.
-forget
+std
+:
+:
+move
 (
+mRunnable
 )
 )
 ;

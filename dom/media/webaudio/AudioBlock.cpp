@@ -1138,10 +1138,12 @@ i
 }
 mBuffer
 =
-buffer
-.
-forget
+std
+:
+:
+move
 (
+buffer
 )
 ;
 mVolume
