@@ -1084,7 +1084,7 @@ arguments
 to
 the
 entry
-EBB
+block
 .
 /
 /

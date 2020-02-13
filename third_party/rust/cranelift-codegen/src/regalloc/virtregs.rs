@@ -92,7 +92,7 @@ is
 passed
 as
 an
-EBB
+block
 argument
 to
 a
@@ -102,7 +102,7 @@ the
 other
 is
 the
-EBB
+block
 parameter
 /
 /
@@ -152,7 +152,7 @@ is
 passed
 as
 an
-EBB
+block
 argument
 .
 use

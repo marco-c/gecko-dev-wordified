@@ -128,7 +128,7 @@ ir
 :
 :
 {
-Ebb
+Block
 FuncRef
 JumpTable
 SigRef
@@ -1260,7 +1260,7 @@ transfer
 control
 to
 another
-EBB
+block
 reveals
 its
 possible
@@ -1533,7 +1533,7 @@ self
 >
 Option
 <
-Ebb
+Block
 >
 {
 match
@@ -1695,7 +1695,7 @@ Option
 <
 &
 mut
-Ebb
+Block
 >
 {
 match
@@ -1987,7 +1987,7 @@ transfer
 control
 to
 another
-EBB
+block
 in
 the
 function
@@ -2020,7 +2020,7 @@ to
 a
 single
 destination
-EBB
+block
 possibly
 taking
 value
@@ -2028,7 +2028,7 @@ arguments
 .
 SingleDest
 (
-Ebb
+Block
 &
 '
 a
@@ -2050,19 +2050,19 @@ can
 have
 many
 destination
-EBBs
+blocks
 and
 maybe
 one
 default
-EBB
+block
 .
 Table
 (
 JumpTable
 Option
 <
-Ebb
+Block
 >
 )
 }

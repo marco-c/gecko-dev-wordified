@@ -110,7 +110,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Function
 Inst
 InstBuilder
@@ -290,7 +290,7 @@ works
 forwards
 through
 each
-Ebb
+Block
 .
 It
 carries
@@ -970,7 +970,7 @@ function
 )
 :
 finds
-Ebbs
+Blocks
 that
 have
 two
@@ -986,7 +986,7 @@ the
 /
 roots
 of
-Ebb
+Block
 trees
 .
 Also
@@ -1019,7 +1019,7 @@ finds
 a
 tree
 of
-Ebbs
+Blocks
 (
 "
 discovery
@@ -1066,7 +1066,7 @@ to
 find
 all
 the
-Ebbs
+Blocks
 /
 /
 in
@@ -1120,7 +1120,7 @@ In
 this
 way
 all
-Ebbs
+Blocks
 reachable
 from
 the
@@ -1221,7 +1221,7 @@ processing
 phase
 /
 /
-num_preds_per_ebb
+num_preds_per_block
 -
 -
 constant
@@ -1764,7 +1764,7 @@ number
 of
 predecessors
 an
-Ebb
+Block
 block
 has
 .
@@ -1788,7 +1788,7 @@ incoming
 graph
 has
 unreachable
-Ebbs
+Blocks
 .
 #
 [
@@ -2413,7 +2413,7 @@ within
 /
 /
 an
-Ebb
+Block
 .
 /
 /
@@ -2428,12 +2428,12 @@ lifetime
 of
 exactly
 one
-Ebb
+Block
 :
 once
 the
 current
-Ebb
+Block
 is
 /
 /
@@ -2486,7 +2486,7 @@ are
 in
 the
 current
-Ebb
+Block
 cannot
 be
 implicitly
@@ -2501,7 +2501,7 @@ the
 instructions
 in
 an
-Ebb
+Block
 in
 turn
 because
@@ -2513,7 +2513,7 @@ suspend
 processing
 the
 current
-Ebb
+Block
 /
 /
 at
@@ -2538,7 +2538,7 @@ later
 resume
 the
 current
-Ebb
+Block
 .
 struct
 ProcessingStackElem
@@ -2555,7 +2555,7 @@ current
 point
 in
 the
-Ebb
+Block
 .
 avail_env
 :
@@ -2570,7 +2570,7 @@ currently
 are
 inside
 the
-Ebb
+Block
 .
 cursor
 :
@@ -2751,7 +2751,7 @@ caches
 /
 num_regunits
 and
-num_preds_per_ebb
+num_preds_per_block
 which
 are
 computed
@@ -2836,7 +2836,7 @@ This
 stores
 for
 each
-Ebb
+Block
 a
 characterisation
 of
@@ -2847,11 +2847,11 @@ predecessors
 it
 has
 .
-num_preds_per_ebb
+num_preds_per_block
 :
 PrimaryMap
 <
-Ebb
+Block
 ZeroOneOrMany
 >
 /
@@ -2883,7 +2883,7 @@ for
 each
 currently
 unexplored
-Ebb
+Block
 in
 the
 tree
@@ -2894,7 +2894,7 @@ discovery_stack
 :
 Vec
 <
-Ebb
+Block
 >
 /
 /
@@ -2913,7 +2913,7 @@ nodes_in_tree
 :
 EntitySet
 <
-Ebb
+Block
 >
 /
 /
@@ -2978,7 +2978,7 @@ nodes_already_visited
 :
 EntitySet
 <
-Ebb
+Block
 >
 }
 /
@@ -3667,7 +3667,7 @@ cfg
 ControlFlowGraph
 node
 :
-Ebb
+Block
 )
 {
 for
@@ -3697,7 +3697,7 @@ Visit
 the
 tree
 of
-Ebbs
+Blocks
 rooted
 at
 starting_point
@@ -3713,7 +3713,7 @@ nodes_in_tree
 /
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 guides
 the
 process
@@ -3772,7 +3772,7 @@ cfg
 ControlFlowGraph
 starting_point
 :
-Ebb
+Block
 )
 {
 /
@@ -3937,7 +3937,7 @@ pop
 match
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 [
 node
 ]
@@ -6864,7 +6864,7 @@ exactly
 /
 /
 one
-Ebb
+Block
 .
 The
 diversions
@@ -6886,7 +6886,7 @@ are
 local
 to
 each
-Ebb
+Block
 .
 fn
 processing_stack_push
@@ -7029,7 +7029,7 @@ mut
 self
 dst
 :
-Ebb
+Block
 )
 {
 if
@@ -7147,7 +7147,7 @@ debug_assert
 (
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 [
 dst
 ]
@@ -7249,7 +7249,7 @@ dyn
 TargetIsa
 root
 :
-Ebb
+Block
 )
 {
 debug_assert
@@ -7575,7 +7575,7 @@ can
 branch
 outside
 this
-Ebb
+Block
 push
 work
 items
@@ -7587,7 +7587,7 @@ all
 /
 /
 target
-Ebbs
+Blocks
 that
 are
 part
@@ -7626,14 +7626,14 @@ the
 most
 recently
 pushed
-Ebb
+Block
 and
 will
 eventually
 continue
 in
 this
-Ebb
+Block
 /
 /
 when
@@ -7758,7 +7758,7 @@ work
 -
 item
 (
-Ebb
+Block
 )
 .
 We
@@ -7942,13 +7942,13 @@ Self
 num_regunits
 :
 None
-num_preds_per_ebb
+num_preds_per_block
 :
 PrimaryMap
 :
 :
 <
-Ebb
+Block
 ZeroOneOrMany
 >
 :
@@ -7963,7 +7963,7 @@ Vec
 :
 :
 <
-Ebb
+Block
 >
 :
 :
@@ -7977,7 +7977,7 @@ EntitySet
 :
 :
 <
-Ebb
+Block
 >
 :
 :
@@ -8004,7 +8004,7 @@ EntitySet
 :
 :
 <
-Ebb
+Block
 >
 :
 :
@@ -8049,7 +8049,7 @@ self
 {
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 .
 clear
 (
@@ -8155,13 +8155,13 @@ than
 )
 -
 1
-Ebbs
+Blocks
 in
 this
 function
 .
 let
-num_ebbs
+num_blocks
 :
 u32
 =
@@ -8169,7 +8169,7 @@ func
 .
 dfg
 .
-num_ebbs
+num_blocks
 (
 )
 .
@@ -8235,7 +8235,7 @@ predecessors
 .
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 .
 clear
 (
@@ -8243,11 +8243,11 @@ clear
 ;
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 .
 reserve
 (
-num_ebbs
+num_blocks
 as
 usize
 )
@@ -8258,7 +8258,7 @@ in
 0
 .
 .
-num_ebbs
+num_blocks
 {
 let
 mut
@@ -8268,7 +8268,7 @@ cfg
 .
 pred_iter
 (
-Ebb
+Block
 :
 :
 from_u32
@@ -8345,7 +8345,7 @@ now
 }
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 .
 push
 (
@@ -8358,14 +8358,14 @@ debug_assert
 (
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 .
 len
 (
 )
 =
 =
-num_ebbs
+num_blocks
 as
 usize
 )
@@ -8392,7 +8392,7 @@ reflect
 that
 .
 let
-entry_ebb
+entry_block
 =
 func
 .
@@ -8408,7 +8408,7 @@ expect
 do_redundant_fill_removal_on_function
 :
 entry
-ebb
+block
 unknown
 "
 )
@@ -8418,9 +8418,9 @@ debug_assert
 (
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 [
-entry_ebb
+entry_block
 ]
 =
 =
@@ -8432,9 +8432,9 @@ Zero
 ;
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 [
-entry_ebb
+entry_block
 ]
 =
 ZeroOneOrMany
@@ -8458,7 +8458,7 @@ in
 .
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 .
 len
 (
@@ -8467,7 +8467,7 @@ len
 let
 root
 =
-Ebb
+Block
 :
 :
 from_u32
@@ -8500,7 +8500,7 @@ nodes
 if
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 [
 root
 ]
@@ -8571,7 +8571,7 @@ debug_assert
 (
 self
 .
-num_preds_per_ebb
+num_preds_per_block
 [
 root
 ]

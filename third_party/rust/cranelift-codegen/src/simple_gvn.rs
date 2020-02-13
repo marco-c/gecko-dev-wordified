@@ -526,7 +526,7 @@ is_valid
 /
 /
 Visit
-EBBs
+blocks
 in
 a
 reverse
@@ -612,7 +612,7 @@ new
 ;
 for
 &
-ebb
+block
 in
 domtree
 .
@@ -675,7 +675,7 @@ dominates
 (
 *
 current
-ebb
+block
 layout
 )
 {
@@ -719,7 +719,7 @@ layout
 .
 first_inst
 (
-ebb
+block
 )
 .
 unwrap
@@ -742,7 +742,7 @@ borrow_mut
 .
 goto_top
 (
-ebb
+block
 )
 ;
 while

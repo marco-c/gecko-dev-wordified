@@ -783,7 +783,7 @@ For
 branches
 and
 jumps
-EBB
+block
 arguments
 must
 match
@@ -792,7 +792,7 @@ expectations
 of
 the
 destination
-EBB
+block
 .
 /
 /
@@ -1438,7 +1438,7 @@ offset
 of
 the
 destination
-EBB
+block
 header
 .
 /

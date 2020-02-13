@@ -879,7 +879,7 @@ func
 .
 layout
 .
-ebbs
+blocks
 (
 )
 .
@@ -3447,13 +3447,13 @@ call_conv
 )
 ;
 let
-ebb0
+block0
 =
 func
 .
 dfg
 .
-make_ebb
+make_block
 (
 )
 ;
@@ -3473,9 +3473,9 @@ func
 ;
 pos
 .
-insert_ebb
+insert_block
 (
-ebb0
+block0
 )
 ;
 pos

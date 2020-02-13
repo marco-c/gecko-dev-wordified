@@ -3980,7 +3980,7 @@ instructions
 that
 terminate
 the
-EBB
+block
 "
 fmt
 )

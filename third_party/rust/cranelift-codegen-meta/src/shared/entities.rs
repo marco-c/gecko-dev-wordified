@@ -90,8 +90,7 @@ EntityRefs
 A
 reference
 to
-an
-extended
+a
 basic
 block
 in
@@ -115,7 +114,7 @@ pub
 (
 crate
 )
-ebb
+block
 :
 OperandKind
 /
@@ -312,7 +311,7 @@ operands
 .
 Use
 for
-Ebb
+Block
 and
 function
 call
@@ -340,7 +339,7 @@ Self
 {
 Self
 {
-ebb
+block
 :
 new
 (
@@ -351,11 +350,10 @@ destination
 ir
 :
 :
-Ebb
+Block
 "
 "
-An
-extended
+a
 basic
 block
 in
@@ -549,8 +547,7 @@ call
 arguments
 passed
 to
-an
-extended
+a
 basic
 block
 or

@@ -1207,7 +1207,7 @@ imm
 &
 entities
 .
-ebb
+block
 )
 .
 varargs
@@ -1238,7 +1238,7 @@ imm
 &
 entities
 .
-ebb
+block
 )
 .
 varargs
@@ -1277,7 +1277,7 @@ imm
 &
 entities
 .
-ebb
+block
 )
 .
 varargs
@@ -1316,7 +1316,7 @@ imm
 &
 entities
 .
-ebb
+block
 )
 .
 varargs
@@ -1359,7 +1359,7 @@ imm
 &
 entities
 .
-ebb
+block
 )
 .
 varargs
@@ -1390,7 +1390,7 @@ imm
 &
 entities
 .
-ebb
+block
 )
 .
 imm

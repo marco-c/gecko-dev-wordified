@@ -995,7 +995,7 @@ block0
 =
 builder
 .
-create_ebb
+create_block
 (
 )
 ;
@@ -1007,7 +1007,7 @@ block1
 =
 builder
 .
-create_ebb
+create_block
 (
 )
 ;
@@ -1019,7 +1019,7 @@ block2
 =
 builder
 .
-create_ebb
+create_block
 (
 )
 ;
@@ -1031,7 +1031,7 @@ block3
 =
 builder
 .
-create_ebb
+create_block
 (
 )
 ;
@@ -1115,7 +1115,7 @@ I32
 !
 builder
 .
-append_ebb_params_for_function_params
+append_block_params_for_function_params
 (
 block0
 )
@@ -1155,7 +1155,7 @@ tmp
 =
 builder
 .
-ebb_params
+block_params
 (
 block0
 )

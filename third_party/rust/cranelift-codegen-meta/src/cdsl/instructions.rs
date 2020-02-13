@@ -832,7 +832,7 @@ instructions
 that
 terminate
 the
-EBB
+block
 .
 pub
 is_terminator

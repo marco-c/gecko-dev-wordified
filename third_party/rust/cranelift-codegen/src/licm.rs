@@ -50,7 +50,7 @@ flowgraph
 :
 :
 {
-BasicBlock
+BlockPredecessor
 ControlFlowGraph
 }
 ;
@@ -71,8 +71,8 @@ ir
 :
 :
 {
+Block
 DataFlowGraph
-Ebb
 Function
 Inst
 InstBuilder
@@ -571,7 +571,7 @@ dyn
 TargetIsa
 header
 :
-Ebb
+Block
 func
 :
 &
@@ -589,7 +589,7 @@ DominatorTree
 )
 -
 >
-Ebb
+Block
 {
 let
 pool
@@ -615,7 +615,7 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 header
 )
@@ -664,7 +664,7 @@ func
 .
 dfg
 .
-make_ebb
+make_block
 (
 )
 ;
@@ -697,7 +697,7 @@ func
 .
 dfg
 .
-append_ebb_param
+append_block_param
 (
 pre_header
 typ
@@ -707,7 +707,7 @@ pool
 ;
 }
 for
-BasicBlock
+BlockPredecessor
 {
 inst
 :
@@ -796,7 +796,7 @@ layout
 .
 pos
 .
-insert_ebb
+insert_block
 (
 pre_header
 )
@@ -876,7 +876,7 @@ the
 pre
 -
 header
-Ebb
+Block
 and
 the
 instruction
@@ -902,14 +902,14 @@ domtree
 DominatorTree
 header
 :
-Ebb
+Block
 )
 -
 >
 Option
 <
 (
-Ebb
+Block
 Inst
 )
 >
@@ -921,11 +921,11 @@ result
 None
 ;
 for
-BasicBlock
+BlockPredecessor
 {
-ebb
+block
 :
-pred_ebb
+pred_block
 inst
 :
 branch_inst
@@ -993,7 +993,7 @@ layout
 .
 last_inst
 (
-pred_ebb
+pred_block
 )
 .
 unwrap
@@ -1005,7 +1005,7 @@ cfg
 .
 succ_iter
 (
-pred_ebb
+pred_block
 )
 .
 nth
@@ -1042,7 +1042,7 @@ result
 Some
 (
 (
-pred_ebb
+pred_block
 branch_inst
 )
 )
@@ -1321,7 +1321,7 @@ order
 from
 a
 header
-EBB
+block
 and
 identify
 loop
@@ -1431,7 +1431,7 @@ We
 traverse
 the
 loop
-EBB
+block
 in
 reverse
 post
@@ -1439,9 +1439,9 @@ post
 order
 .
 for
-ebb
+block
 in
-postorder_ebbs_loop
+postorder_blocks_loop
 (
 loop_analysis
 cfg
@@ -1461,7 +1461,7 @@ rev
 Arguments
 of
 the
-EBB
+block
 are
 loop
 values
@@ -1474,10 +1474,10 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 *
-ebb
+block
 )
 {
 loop_values
@@ -1494,7 +1494,7 @@ pos
 goto_top
 (
 *
-ebb
+block
 )
 ;
 #
@@ -1645,7 +1645,7 @@ invariant_insts
 /
 /
 Return
-ebbs
+blocks
 from
 a
 loop
@@ -1663,7 +1663,7 @@ the
 block
 .
 fn
-postorder_ebbs_loop
+postorder_blocks_loop
 (
 loop_analysis
 :
@@ -1681,7 +1681,7 @@ Loop
 >
 Vec
 <
-Ebb
+Block
 >
 {
 let

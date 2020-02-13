@@ -402,7 +402,7 @@ num_values
 ;
 for
 &
-ebb
+block
 in
 domtree
 .
@@ -424,7 +424,7 @@ func
 .
 at_bottom
 (
-ebb
+block
 )
 ;
 while

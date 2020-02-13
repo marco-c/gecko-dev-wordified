@@ -401,7 +401,7 @@ locations
 before
 leaving
 the
-EBB
+block
 .
 /
 /
@@ -422,7 +422,7 @@ entry
 point
 of
 other
-EBBs
+blocks
 .
 /
 /
@@ -460,7 +460,7 @@ used
 in
 any
 other
-EBBs
+blocks
 .
 /
 /
@@ -507,7 +507,7 @@ used
 in
 a
 different
-EBB
+block
 .
 We
 need
@@ -565,7 +565,7 @@ previous
 instructions
 in
 the
-EBB
+block
 but
 not
 diversions

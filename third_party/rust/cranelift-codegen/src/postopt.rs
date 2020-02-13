@@ -94,7 +94,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Function
 Inst
 InstBuilder
@@ -168,7 +168,7 @@ branch
 .
 destination
 :
-Ebb
+Block
 /
 /
 /
@@ -2072,12 +2072,12 @@ while
 let
 Some
 (
-_ebb
+_block
 )
 =
 pos
 .
-next_ebb
+next_block
 (
 )
 {

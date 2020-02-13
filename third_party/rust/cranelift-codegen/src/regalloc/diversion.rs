@@ -65,7 +65,7 @@ are
 local
 to
 an
-EBB
+block
 .
 No
 values
@@ -79,7 +79,7 @@ new
 /
 /
 !
-EBB
+block
 .
 use
 crate
@@ -110,7 +110,7 @@ ir
 :
 :
 {
-Ebb
+Block
 StackSlot
 Value
 ValueLoc
@@ -332,7 +332,7 @@ of
 diversions
 in
 an
-EBB
+block
 .
 #
 [
@@ -364,7 +364,7 @@ at
 the
 entry
 of
-EBB
+block
 .
 #
 [
@@ -378,7 +378,7 @@ EntryRegDiversionsValue
 {
 key
 :
-Ebb
+Block
 divert
 :
 RegDiversions
@@ -387,7 +387,7 @@ RegDiversions
 /
 /
 Map
-EBB
+block
 to
 their
 matching
@@ -405,7 +405,7 @@ map
 :
 SparseMap
 <
-Ebb
+Block
 EntryRegDiversionsValue
 >
 }
@@ -1299,7 +1299,7 @@ the
 /
 /
 given
-ebb
+block
 .
 The
 recoded
@@ -1319,7 +1319,7 @@ field
 .
 pub
 fn
-at_ebb
+at_block
 (
 &
 mut
@@ -1328,9 +1328,9 @@ entry_diversions
 :
 &
 EntryRegDiversions
-ebb
+block
 :
-Ebb
+Block
 )
 {
 self
@@ -1352,7 +1352,7 @@ map
 .
 get
 (
-ebb
+block
 )
 {
 let
@@ -1397,7 +1397,7 @@ the
 entry
 of
 the
-ebb
+block
 given
 as
 /
@@ -1421,8 +1421,8 @@ be
 called
 once
 on
-an
-ebb
+a
+Block
 with
 a
 given
@@ -1438,7 +1438,7 @@ panic
 .
 pub
 fn
-save_for_ebb
+save_for_block
 (
 &
 mut
@@ -1450,7 +1450,7 @@ mut
 EntryRegDiversions
 target
 :
-Ebb
+Block
 )
 {
 /
@@ -1553,7 +1553,7 @@ entry
 for
 a
 given
-ebb
+block
 matches
 what
 is
@@ -1567,7 +1567,7 @@ entry_diversions
 .
 pub
 fn
-check_ebb_entry
+check_block_entry
 (
 &
 self
@@ -1577,7 +1577,7 @@ entry_diversions
 EntryRegDiversions
 target
 :
-Ebb
+Block
 )
 -
 >
@@ -1749,7 +1749,7 @@ associate
 diversions
 to
 each
-EBB
+block
 entry
 .
 pub
@@ -1883,12 +1883,12 @@ entry
 diversions
 for
 each
-EBB
+block
 .
 impl
 SparseMapValue
 <
-Ebb
+Block
 >
 for
 EntryRegDiversionsValue
@@ -1901,7 +1901,7 @@ self
 )
 -
 >
-Ebb
+Block
 {
 self
 .

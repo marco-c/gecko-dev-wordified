@@ -793,6 +793,9 @@ new
 one
 .
 pub
+(
+crate
+)
 fn
 get_libcall_funcref
 (

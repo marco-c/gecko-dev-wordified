@@ -59,7 +59,7 @@ ir
 entities
 :
 :
-Ebb
+Block
 ;
 use
 alloc
@@ -143,7 +143,7 @@ table
 :
 Vec
 <
-Ebb
+Block
 >
 }
 impl
@@ -265,7 +265,7 @@ mut
 self
 dest
 :
-Ebb
+Block
 )
 {
 self
@@ -288,7 +288,7 @@ the
 entries
 branch
 to
-ebb
+block
 .
 pub
 fn
@@ -296,9 +296,9 @@ branches_to
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 )
 -
 >
@@ -315,13 +315,13 @@ iter
 any
 (
 |
-target_ebb
+target_block
 |
 *
-target_ebb
+target_block
 =
 =
-ebb
+block
 )
 }
 /
@@ -346,7 +346,7 @@ self
 >
 &
 [
-Ebb
+Block
 ]
 {
 self
@@ -382,7 +382,7 @@ self
 &
 mut
 [
-Ebb
+Block
 ]
 {
 self
@@ -414,7 +414,7 @@ self
 >
 Iter
 <
-Ebb
+Block
 >
 {
 self
@@ -449,7 +449,7 @@ self
 >
 IterMut
 <
-Ebb
+Block
 >
 {
 self
@@ -528,7 +528,7 @@ first
 ?
 }
 for
-ebb
+block
 in
 self
 .
@@ -551,7 +551,7 @@ fmt
 {
 }
 "
-ebb
+block
 )
 ?
 ;
@@ -598,7 +598,7 @@ crate
 ir
 :
 :
-Ebb
+Block
 ;
 use
 alloc
@@ -705,7 +705,7 @@ insert
 let
 e1
 =
-Ebb
+Block
 :
 :
 new
@@ -716,7 +716,7 @@ new
 let
 e2
 =
-Ebb
+Block
 :
 :
 new
@@ -767,9 +767,9 @@ to_string
 "
 jump_table
 [
-ebb1
-ebb2
-ebb1
+block1
+block2
+block1
 ]
 "
 )

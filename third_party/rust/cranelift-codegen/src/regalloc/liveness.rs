@@ -75,7 +75,7 @@ each
 /
 /
 !
-EBB
+block
 and
 assigns
 a
@@ -109,7 +109,7 @@ the
 instructions
 in
 the
-EBB
+block
 .
 It
 asks
@@ -139,7 +139,7 @@ the
 entry
 to
 the
-EBB
+block
 ?
 /
 /
@@ -160,7 +160,7 @@ still
 alive
 in
 the
-EBB
+block
 or
 was
 that
@@ -221,7 +221,7 @@ The
 coloring
 algorithm
 visits
-EBBs
+blocks
 in
 a
 topological
@@ -247,7 +247,7 @@ the
 beginning
 of
 an
-EBB
+block
 by
 starting
 /
@@ -537,7 +537,7 @@ and
 those
 that
 do
-span
+spa
 basic
 blocks
 rarely
@@ -1957,7 +1957,7 @@ local
 interval
 for
 the
-EBB
+block
 .
 /
 /
@@ -1973,10 +1973,10 @@ live
 in
 to
 the
-EBB
+block
 add
 the
-EBB
+block
 to
 a
 work
@@ -2001,7 +2001,7 @@ a
 live
 -
 in
-EBB
+block
 and
 repeat
 the
@@ -2018,7 +2018,7 @@ the
 live
 -
 in
-EBB
+block
 '
 s
 CFG
@@ -2434,7 +2434,7 @@ flowgraph
 :
 :
 {
-BasicBlock
+BlockPredecessor
 ControlFlowGraph
 }
 ;
@@ -2458,7 +2458,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Function
 Inst
 Layout
@@ -2871,7 +2871,7 @@ ValueDef
 :
 Param
 (
-ebb
+block
 num
 )
 =
@@ -2879,7 +2879,7 @@ num
 {
 def
 =
-ebb
+block
 .
 into
 (
@@ -2897,7 +2897,7 @@ entry_block
 =
 Some
 (
-ebb
+block
 )
 {
 /
@@ -2944,7 +2944,7 @@ else
 /
 Give
 normal
-EBB
+block
 parameters
 a
 register
@@ -3032,7 +3032,7 @@ which
 must
 live
 in
-ebb
+block
 .
 fn
 extend_to_use
@@ -3042,9 +3042,9 @@ lr
 &
 mut
 LiveRange
-ebb
+block
 :
-Ebb
+Block
 to
 :
 Inst
@@ -3054,7 +3054,7 @@ worklist
 mut
 Vec
 <
-Ebb
+Block
 >
 func
 :
@@ -3102,7 +3102,7 @@ the
 range
 locally
 in
-ebb
+block
 .
 /
 /
@@ -3124,9 +3124,9 @@ done
 if
 lr
 .
-extend_in_ebb
+extend_in_block
 (
-ebb
+block
 to
 &
 func
@@ -3138,7 +3138,7 @@ worklist
 .
 push
 (
-ebb
+block
 )
 ;
 }
@@ -3149,7 +3149,7 @@ work
 list
 contains
 those
-EBBs
+blocks
 where
 we
 have
@@ -3195,7 +3195,7 @@ existing
 live
 range
 to
-ebb
+block
 .
 /
 /
@@ -3222,7 +3222,7 @@ set
 since
 /
 /
-extend_in_ebb
+extend_in_block
 will
 never
 return
@@ -3231,7 +3231,7 @@ twice
 for
 the
 same
-EBB
+block
 .
 /
 /
@@ -3266,7 +3266,7 @@ in
 to
 the
 livein
-EBB
+block
 .
 /
 /
@@ -3284,9 +3284,9 @@ to
 livein
 .
 for
-BasicBlock
+BlockPredecessor
 {
-ebb
+block
 :
 pred
 inst
@@ -3304,7 +3304,7 @@ livein
 if
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 pred
 branch
@@ -3318,7 +3318,7 @@ layout
 /
 This
 predecessor
-EBB
+block
 also
 became
 live
@@ -3433,7 +3433,7 @@ worklist
 :
 Vec
 <
-Ebb
+Block
 >
 }
 impl
@@ -3768,7 +3768,7 @@ be
 in
 the
 same
-EBB
+block
 and
 before
 the
@@ -3869,7 +3869,7 @@ live
 before
 user
 in
-ebb
+block
 .
 /
 /
@@ -3906,9 +3906,9 @@ self
 value
 :
 Value
-ebb
+block
 :
-Ebb
+Block
 user
 :
 Inst
@@ -3928,11 +3928,11 @@ debug_assert_eq
 (
 Some
 (
-ebb
+block
 )
 layout
 .
-inst_ebb
+inst_block
 (
 user
 )
@@ -3966,9 +3966,9 @@ livein
 =
 lr
 .
-extend_in_ebb
+extend_in_block
 (
-ebb
+block
 user
 layout
 )
@@ -3990,7 +3990,7 @@ in
 }
 "
 value
-ebb
+block
 )
 ;
 &
@@ -4223,13 +4223,13 @@ dominator
 tree
 ?
 for
-ebb
+block
 in
 func
 .
 layout
 .
-ebbs
+blocks
 (
 )
 {
@@ -4244,7 +4244,7 @@ live
 ranges
 for
 dead
-EBB
+block
 parameters
 .
 /
@@ -4283,9 +4283,9 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
-ebb
+block
 )
 {
 get_or_create
@@ -4310,9 +4310,9 @@ func
 .
 layout
 .
-ebb_insts
+block_insts
 (
-ebb
+block
 )
 {
 /
@@ -4520,7 +4520,7 @@ use
 extend_to_use
 (
 lr
-ebb
+block
 inst
 &
 mut
@@ -4556,7 +4556,7 @@ are
 either
 /
 /
-EBB
+block
 arguments
 or
 call

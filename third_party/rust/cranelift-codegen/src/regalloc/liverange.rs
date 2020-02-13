@@ -82,7 +82,6 @@ Ranges
 Inside
 a
 single
-extended
 basic
 block
 the
@@ -110,7 +109,7 @@ is
 live
 in
 the
-EBB
+block
 at
 all
 )
@@ -142,7 +141,7 @@ or
 2
 .
 The
-EBB
+block
 header
 because
 the
@@ -152,7 +151,7 @@ an
 argument
 to
 the
-EBB
+block
 or
 /
 /
@@ -160,7 +159,7 @@ or
 3
 .
 The
-EBB
+block
 header
 because
 the
@@ -169,7 +168,7 @@ is
 defined
 in
 another
-EBB
+block
 and
 live
 -
@@ -205,7 +204,7 @@ the
 /
 /
 !
-EBB
+block
 :
 /
 /
@@ -220,7 +219,7 @@ last
 use
 in
 the
-EBB
+block
 where
 a
 *
@@ -250,7 +249,7 @@ jump
 instruction
 in
 the
-EBB
+block
 that
 can
 reach
@@ -301,7 +300,7 @@ edges
 to
 the
 same
-EBB
+block
 .
 In
 general
@@ -353,7 +352,7 @@ in
 more
 than
 one
-EBB
+block
 have
 a
 *
@@ -376,14 +375,14 @@ of
 the
 per
 -
-EBB
+block
 local
 intervals
 for
 all
 of
 the
-EBBs
+blocks
 where
 the
 value
@@ -404,7 +403,7 @@ linear
 ordering
 of
 the
-EBBs
+blocks
 the
 global
 live
@@ -423,7 +422,7 @@ at
 most
 one
 per
-EBB
+block
 .
 /
 /
@@ -841,12 +840,12 @@ their
 !
 boundaries
 (
-Ebb
+Block
 Inst
 )
 sorted
 by
-Ebb
+Block
 .
 This
 is
@@ -901,7 +900,7 @@ bforest
 :
 Map
 <
-Ebb
+Block
 Inst
 >
 .
@@ -913,7 +912,7 @@ Inst
 !
 #
 #
-EBB
+block
 ordering
 /
 /
@@ -925,7 +924,7 @@ The
 relative
 order
 of
-EBBs
+blocks
 is
 used
 to
@@ -956,7 +955,7 @@ interval
 covers
 the
 whole
-EBB
+block
 .
 This
 doesn
@@ -988,7 +987,7 @@ possible
 1
 .
 The
-EBB
+block
 layout
 order
 .
@@ -1037,7 +1036,7 @@ A
 numerical
 order
 by
-EBB
+block
 number
 .
 Performant
@@ -1115,7 +1114,7 @@ has
 better
 performance
 because
-EBB
+block
 numbers
 can
 be
@@ -1134,7 +1133,7 @@ lookups
 !
 -
 If
-EBB
+block
 numbers
 are
 not
@@ -1145,7 +1144,7 @@ safe
 to
 allocate
 new
-EBBs
+blocks
 without
 getting
 spurious
@@ -1166,7 +1165,7 @@ to
 cross
 a
 new
-EBB
+block
 .
 /
 /
@@ -1213,7 +1212,7 @@ always
 begins
 at
 its
-EBB
+block
 header
 it
 is
@@ -1238,7 +1237,7 @@ to
 look
 up
 the
-EBB
+block
 containing
 the
 end
@@ -1292,7 +1291,7 @@ of
 /
 /
 !
-EBBs
+blocks
 .
 We
 can
@@ -1314,7 +1313,7 @@ where
 !
 an
 [
-Ebb
+Block
 Inst
 ]
 pair
@@ -1332,7 +1331,7 @@ preceding
 /
 /
 !
-Ebb
+Block
 entry
 represents
 a
@@ -1395,7 +1394,7 @@ switching
 to
 a
 numerical
-EBB
+block
 order
 only
 appears
@@ -1408,9 +1407,9 @@ doing
 /
 /
 !
-EBB
+block
 -
-EBB
+block
 comparisons
 .
 /
@@ -1422,7 +1421,7 @@ comparisons
 A
 BTreeMap
 <
-Ebb
+Block
 Inst
 >
 could
@@ -1475,7 +1474,7 @@ bforest
 :
 Map
 <
-Ebb
+Block
 Inst
 >
 implementation
@@ -1525,7 +1524,7 @@ ir
 :
 :
 {
-Ebb
+Block
 ExpandedProgramPoint
 Inst
 Layout
@@ -1631,7 +1630,7 @@ local
 to
 a
 single
-EBB
+block
 and
 with
 at
@@ -1642,7 +1641,7 @@ most
 one
 interval
 per
-EBB
+block
 .
 We
 further
@@ -1668,7 +1667,7 @@ local
 interval
 in
 the
-EBB
+block
 where
 the
 value
@@ -1694,7 +1693,7 @@ intervals
 in
 the
 remaining
-EBBs
+blocks
 .
 /
 /
@@ -1711,7 +1710,7 @@ always
 begins
 at
 the
-EBB
+block
 header
 while
 the
@@ -1729,11 +1728,11 @@ instruction
 or
 at
 the
-EBB
+block
 header
 for
 an
-EBB
+block
 argument
 value
 .
@@ -1813,13 +1812,13 @@ ordering
 instructions
 inside
 an
-EBB
+block
 *
 and
 *
 for
 ordering
-EBBs
+blocks
 .
 The
 methods
@@ -1870,11 +1869,11 @@ changing
 the
 order
 of
-EBBs
+blocks
 or
 inserting
 new
-EBBs
+blocks
 will
 invalidate
 live
@@ -1948,7 +1947,7 @@ Interval
 {
 begin
 :
-Ebb
+Block
 end
 :
 Inst
@@ -2061,7 +2060,7 @@ Affinity
 The
 instruction
 or
-EBB
+block
 header
 where
 this
@@ -2090,7 +2089,7 @@ belong
 to
 the
 same
-EBB
+block
 as
 def_begin
 .
@@ -2157,7 +2156,7 @@ only
 used
 in
 one
-EBB
+block
 .
 /
 /
@@ -2167,7 +2166,7 @@ EBB
 /
 An
 entry
-ebb
+block
 -
 >
 inst
@@ -2181,7 +2180,7 @@ live
 -
 in
 to
-ebb
+block
 continuing
 up
 to
@@ -2195,7 +2194,7 @@ belong
 to
 a
 later
-EBB
+block
 in
 the
 program
@@ -2219,7 +2218,7 @@ of
 them
 overlap
 the
-EBB
+block
 where
 the
 value
@@ -2435,7 +2434,7 @@ can
 be
 extended
 with
-extend_in_ebb
+extend_in_block
 (
 )
 .
@@ -2497,7 +2496,7 @@ in
 intervals
 that
 contains
-ebb
+block
 or
 return
 /
@@ -2514,13 +2513,13 @@ new
 entry
 .
 fn
-lookup_entry_containing_ebb
+lookup_entry_containing_block
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -2550,7 +2549,7 @@ cmp
 interval
 .
 begin
-ebb
+block
 )
 )
 .
@@ -2572,7 +2571,7 @@ might
 cover
 the
 searched
-ebb
+block
 .
 if
 n
@@ -2584,7 +2583,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 =
 self
@@ -2624,7 +2623,7 @@ the
 local
 interval
 for
-ebb
+block
 so
 it
 reaches
@@ -2633,7 +2632,7 @@ which
 must
 belong
 to
-ebb
+block
 .
 /
 /
@@ -2663,7 +2662,7 @@ a
 local
 interval
 in
-ebb
+block
 extend
 its
 end
@@ -2697,7 +2696,7 @@ a
 local
 interval
 in
-ebb
+block
 add
 one
 so
@@ -2711,7 +2710,7 @@ live
 -
 in
 to
-ebb
+block
 extending
 to
 to
@@ -2748,7 +2747,7 @@ to
 /
 /
 /
-ebb
+block
 .
 This
 can
@@ -2756,7 +2755,7 @@ trigger
 recursive
 extensions
 in
-ebb
+block
 '
 s
 CFG
@@ -2765,14 +2764,14 @@ blocks
 .
 pub
 fn
-extend_in_ebb
+extend_in_block
 (
 &
 mut
 self
-ebb
+block
 :
-Ebb
+Block
 inst
 :
 Inst
@@ -2815,7 +2814,7 @@ def_begin
 in
 the
 same
-EBB
+block
 but
 we
 can
@@ -2833,14 +2832,14 @@ getting
 inst
 '
 s
-EBB
+block
 .
 if
 cmp
 !
 (
 order
-ebb
+block
 <
 =
 self
@@ -2935,9 +2934,9 @@ intervals
 match
 self
 .
-lookup_entry_containing_ebb
+lookup_entry_containing_block
 (
-ebb
+block
 order
 )
 {
@@ -3072,7 +3071,7 @@ n
 if
 order
 .
-is_ebb_gap
+is_block_gap
 (
 inst
 next
@@ -3205,7 +3204,7 @@ found
 containing
 the
 current
-EBB
+block
 :
 we
 need
@@ -3249,7 +3248,7 @@ next
 |
 order
 .
-is_ebb_gap
+is_block_gap
 (
 inst
 next
@@ -3286,12 +3285,12 @@ prev
 |
 order
 .
-is_ebb_gap
+is_block_gap
 (
 prev
 .
 end
-ebb
+block
 )
 )
 .
@@ -3469,7 +3468,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 =
 self
@@ -3492,7 +3491,7 @@ n
 .
 begin
 =
-ebb
+block
 ;
 }
 (
@@ -3523,7 +3522,7 @@ Interval
 {
 begin
 :
-ebb
+block
 end
 :
 inst
@@ -3625,7 +3624,7 @@ used
 in
 the
 same
-EBB
+block
 where
 it
 was
@@ -3644,7 +3643,7 @@ basic
 blocks
 within
 that
-EBB
+block
 .
 pub
 fn
@@ -3689,14 +3688,14 @@ This
 will
 be
 an
-EBB
+block
 header
 when
 the
 value
 is
 an
-EBB
+block
 argument
 otherwise
 it
@@ -3755,7 +3754,7 @@ definition
 within
 the
 same
-EBB
+block
 and
 it
 can
@@ -3805,7 +3804,7 @@ live
 range
 in
 the
-EBB
+block
 where
 it
 is
@@ -3821,7 +3820,7 @@ This
 can
 be
 the
-EBB
+block
 header
 itself
 in
@@ -3830,7 +3829,7 @@ case
 of
 a
 dead
-EBB
+block
 argument
 .
 /
@@ -3884,7 +3883,7 @@ live
 range
 in
 an
-EBB
+block
 where
 it
 is
@@ -3908,7 +3907,7 @@ live
 -
 in
 to
-ebb
+block
 return
 None
 .
@@ -3930,7 +3929,7 @@ s
 local
 interval
 in
-ebb
+block
 .
 /
 /
@@ -3947,11 +3946,11 @@ live
 through
 all
 of
-ebb
+block
 the
 terminator
 of
-ebb
+block
 is
 a
 correct
@@ -3988,7 +3987,7 @@ Inst
 to
 belong
 to
-ebb
+block
 .
 pub
 fn
@@ -3996,9 +3995,9 @@ livein_local_end
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -4013,9 +4012,9 @@ Inst
 {
 self
 .
-lookup_entry_containing_ebb
+lookup_entry_containing_block
 (
-ebb
+block
 order
 )
 .
@@ -4042,7 +4041,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 inst
 )
@@ -4094,7 +4093,7 @@ live
 -
 in
 to
-ebb
+block
 ?
 /
 /
@@ -4103,7 +4102,7 @@ ebb
 /
 /
 An
-EBB
+block
 argument
 is
 not
@@ -4119,9 +4118,9 @@ is_livein
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -4135,7 +4134,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 .
@@ -4179,7 +4178,7 @@ multiple
 /
 /
 /
-EBBs
+blocks
 where
 the
 value
@@ -4208,7 +4207,7 @@ Iterator
 Item
 =
 (
-Ebb
+Block
 Inst
 )
 >
@@ -4251,7 +4250,7 @@ overlaps
 a
 definition
 in
-ebb
+block
 .
 pub
 fn
@@ -4262,9 +4261,9 @@ self
 def
 :
 ExpandedProgramPoint
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -4365,7 +4364,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 {
@@ -4403,7 +4402,7 @@ use
 at
 user
 in
-ebb
+block
 .
 pub
 fn
@@ -4414,9 +4413,9 @@ self
 user
 :
 Inst
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -4484,7 +4483,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 {
@@ -4522,7 +4521,7 @@ killed
 at
 user
 in
-ebb
+block
 .
 pub
 fn
@@ -4533,9 +4532,9 @@ self
 user
 :
 Inst
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -4563,7 +4562,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 =
@@ -4657,7 +4656,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Inst
 Value
 }
@@ -4708,7 +4707,7 @@ It
 is
 assumed
 that
-EBBs
+blocks
 have
 indexes
 that
@@ -4725,7 +4724,7 @@ indexes
 in
 between
 .
-is_ebb_gap
+is_block_gap
 assumes
 that
 terminator
@@ -4737,7 +4736,7 @@ the
 form
 /
 /
-ebb
+block
 *
 10
 +
@@ -4824,7 +4823,7 @@ index
 ExpandedProgramPoint
 :
 :
-Ebb
+Block
 (
 e
 )
@@ -4870,16 +4869,16 @@ ib
 )
 }
 fn
-is_ebb_gap
+is_block_gap
 (
 &
 self
 inst
 :
 Inst
-ebb
+block
 :
-Ebb
+Block
 )
 -
 >
@@ -4897,7 +4896,7 @@ index
 1
 &
 &
-ebb
+block
 .
 index
 (
@@ -4924,13 +4923,13 @@ ProgOrder
 /
 Get
 the
-EBB
+block
 corresponding
 to
 inst
 .
 fn
-inst_ebb
+inst_block
 (
 &
 self
@@ -4940,7 +4939,7 @@ Inst
 )
 -
 >
-Ebb
+Block
 {
 let
 i
@@ -4951,7 +4950,7 @@ index
 (
 )
 ;
-Ebb
+Block
 :
 :
 new
@@ -4967,14 +4966,14 @@ i
 /
 Get
 the
-EBB
+block
 of
 a
 program
 point
 .
 fn
-pp_ebb
+pp_block
 <
 PP
 :
@@ -4992,7 +4991,7 @@ PP
 )
 -
 >
-Ebb
+Block
 {
 match
 pp
@@ -5012,14 +5011,14 @@ i
 >
 self
 .
-inst_ebb
+inst_block
 (
 i
 )
 ExpandedProgramPoint
 :
 :
-Ebb
+Block
 (
 e
 )
@@ -5059,14 +5058,14 @@ must
 cover
 a
 single
-EBB
+block
 .
 let
-def_ebb
+def_block
 =
 self
 .
-pp_ebb
+pp_block
 (
 lr
 .
@@ -5076,10 +5075,10 @@ def_begin
 assert_eq
 !
 (
-def_ebb
+def_block
 self
 .
-pp_ebb
+pp_block
 (
 lr
 .
@@ -5294,7 +5293,7 @@ t
 overlap
 the
 def
-EBB
+block
 "
 )
 ;
@@ -5359,7 +5358,7 @@ new
 let
 e0
 =
-Ebb
+Block
 :
 :
 new
@@ -5392,7 +5391,7 @@ new
 let
 e2
 =
-Ebb
+Block
 :
 :
 new
@@ -5583,7 +5582,7 @@ new
 let
 e2
 =
-Ebb
+Block
 :
 :
 new
@@ -5670,7 +5669,7 @@ def
 interval
 of
 an
-EBB
+block
 argument
 does
 not
@@ -5725,7 +5724,7 @@ new
 let
 e10
 =
-Ebb
+Block
 :
 :
 new
@@ -5794,7 +5793,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i13
@@ -5880,7 +5879,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i12
@@ -5951,7 +5950,7 @@ new
 let
 e10
 =
-Ebb
+Block
 :
 :
 new
@@ -6020,7 +6019,7 @@ default
 Extending
 a
 dead
-EBB
+block
 argument
 in
 its
@@ -6045,7 +6044,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i12
@@ -6131,7 +6130,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i11
@@ -6188,7 +6187,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i13
@@ -6259,7 +6258,7 @@ new
 let
 e10
 =
-Ebb
+Block
 :
 :
 new
@@ -6292,7 +6291,7 @@ new
 let
 e20
 =
-Ebb
+Block
 :
 :
 new
@@ -6361,7 +6360,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i12
@@ -6384,7 +6383,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i22
@@ -6432,7 +6431,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i21
@@ -6471,7 +6470,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i23
@@ -6539,7 +6538,7 @@ new
 let
 e20
 =
-Ebb
+Block
 :
 :
 new
@@ -6561,7 +6560,7 @@ new
 let
 e30
 =
-Ebb
+Block
 :
 :
 new
@@ -6583,7 +6582,7 @@ new
 let
 e40
 =
-Ebb
+Block
 :
 :
 new
@@ -6630,7 +6629,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e30
 i31
@@ -6677,7 +6676,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e40
 i41
@@ -6724,7 +6723,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i21
@@ -6789,7 +6788,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e40
 i41
@@ -6831,7 +6830,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i21
@@ -6884,7 +6883,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e30
 i31

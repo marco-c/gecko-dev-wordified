@@ -4770,11 +4770,11 @@ recipes
 .
 macro_rules
 !
-ebb
+block
 {
 /
 /
-An
+a
 basic
 block
 definition
