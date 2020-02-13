@@ -535,6 +535,16 @@ password
 }
 )
 ;
+let
+formSubmittedPromise
+=
+listenForTestNotification
+(
+"
+FormSubmit
+"
+)
+;
 await
 SpecialPowers
 .
@@ -574,6 +584,9 @@ submit
 ;
 }
 )
+;
+await
+formSubmittedPromise
 ;
 /
 /
