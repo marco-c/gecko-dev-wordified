@@ -2780,7 +2780,13 @@ prefs
 .
 setIntPref
 (
+browser
+.
+urlbar
+.
+{
 shownCountPrefName
+}
 shownCount
 +
 1
