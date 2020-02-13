@@ -123,6 +123,7 @@ h
 #
 define
 AndroidJavaCaptureDeviceInfoClass
+\
 "
 org
 /
@@ -135,6 +136,7 @@ VideoCaptureDeviceInfoAndroid
 #
 define
 AndroidJavaCaptureCapabilityClass
+\
 "
 org
 /
