@@ -3103,6 +3103,13 @@ MessageFromFrontend
 message
 )
 ;
+const
+{
+requestId
+}
+=
+messageFromFrontend
+;
 switch
 (
 messageFromFrontend
@@ -3166,6 +3173,7 @@ ProfilerMenuButton
 isEnabled
 (
 )
+requestId
 }
 target
 )
@@ -3278,6 +3286,7 @@ type
 "
 ENABLE_MENU_BUTTON_DONE
 "
+requestId
 }
 target
 )
