@@ -233,9 +233,9 @@ new
 )
 -
 >
-ControlStreamRemote
+Self
 {
-ControlStreamRemote
+Self
 {
 stream_id
 :

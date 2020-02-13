@@ -370,7 +370,7 @@ tipe
 match
 self
 {
-TransportParameter
+Self
 :
 :
 Bytes
@@ -389,7 +389,7 @@ a
 )
 ;
 }
-TransportParameter
+Self
 :
 :
 Integer
@@ -420,7 +420,7 @@ a
 )
 ;
 }
-TransportParameter
+Self
 :
 :
 Empty
@@ -572,7 +572,7 @@ tipe
 ORIGINAL_CONNECTION_ID
 =
 >
-TransportParameter
+Self
 :
 :
 Bytes
@@ -619,7 +619,7 @@ TransportParameterError
 )
 ;
 }
-TransportParameter
+Self
 :
 :
 Bytes
@@ -673,7 +673,7 @@ v
 )
 =
 >
-TransportParameter
+Self
 :
 :
 Integer
@@ -713,7 +713,7 @@ v
 1200
 =
 >
-TransportParameter
+Self
 :
 :
 Integer
@@ -753,7 +753,7 @@ v
 20
 =
 >
-TransportParameter
+Self
 :
 :
 Integer
@@ -775,7 +775,7 @@ TransportParameterError
 DISABLE_MIGRATION
 =
 >
-TransportParameter
+Self
 :
 :
 Empty
@@ -2035,7 +2035,7 @@ u8
 >
 ExtensionHandlerResult
 {
-qdebug
+qtrace
 !
 (
 "
