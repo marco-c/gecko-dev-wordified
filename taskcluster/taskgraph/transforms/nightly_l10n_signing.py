@@ -166,7 +166,7 @@ symbol
 symbol
 =
 '
-Ns
+Bs
 {
 }
 '
