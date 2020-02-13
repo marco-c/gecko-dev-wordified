@@ -151,6 +151,15 @@ WinDllServices
 h
 "
 #
+else
+#
+include
+<
+unistd
+.
+h
+>
+#
 endif
 #
 include
