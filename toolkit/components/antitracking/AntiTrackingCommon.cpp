@@ -10563,7 +10563,7 @@ rv
 ssm
 -
 >
-GetChannelResultPrincipal
+GetChannelURIPrincipal
 (
 aChannel
 getter_AddRefs
