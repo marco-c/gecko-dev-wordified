@@ -125,9 +125,9 @@ new
 )
 -
 >
-Self
+NewStreamTypeReader
 {
-Self
+NewStreamTypeReader
 {
 reader
 :

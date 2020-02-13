@@ -231,7 +231,7 @@ u64
 >
 Self
 {
-Self
+HSetting
 {
 setting_type
 value
@@ -277,7 +277,7 @@ HSetting
 >
 Self
 {
-Self
+HSettings
 {
 settings
 :
