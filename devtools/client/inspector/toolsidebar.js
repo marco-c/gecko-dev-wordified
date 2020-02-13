@@ -928,7 +928,6 @@ tabpanel
 >
 *
 /
-async
 removeTab
 (
 tabId

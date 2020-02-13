@@ -2438,7 +2438,6 @@ the
 sidebar
 panels
 .
-await
 this
 .
 setupSidebar
@@ -4830,7 +4829,6 @@ setupToolbar
 (
 )
 ;
-await
 this
 .
 addRuleView
@@ -5479,7 +5477,6 @@ sidebar
 .
 *
 /
-async
 addRuleView
 (
 {
@@ -5599,7 +5596,6 @@ ruleview
 "
 )
 ;
-await
 this
 .
 sidebar
@@ -5832,7 +5828,6 @@ hide
 (
 )
 ;
-await
 this
 .
 ruleViewSideBar
@@ -6446,7 +6441,6 @@ sidebar
 .
 *
 /
-async
 setupSidebar
 (
 )
@@ -6668,7 +6662,6 @@ Append
 all
 side
 panels
-await
 this
 .
 addRuleView
