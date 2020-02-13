@@ -756,6 +756,10 @@ def
 copy_attributes_from_dependent_job
 (
 dep_job
+denylist
+=
+(
+)
 )
 :
     
@@ -781,6 +785,11 @@ in
 dep_job
 .
 attributes
+and
+attr
+not
+in
+denylist
     
 }
 def
