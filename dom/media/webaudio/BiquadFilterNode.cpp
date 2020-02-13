@@ -1868,9 +1868,14 @@ Length
 {
 aRv
 .
-Throw
+ThrowInvalidAccessError
 (
-NS_ERROR_DOM_INVALID_ACCESS_ERR
+"
+Parameter
+lengths
+must
+match
+"
 )
 ;
 return
