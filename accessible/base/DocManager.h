@@ -584,8 +584,9 @@ virtual
 DocManager
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
