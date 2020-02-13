@@ -2287,14 +2287,6 @@ str
 void
 eagerlyMarkChildren
 (
-LazyScript
-*
-thing
-)
-;
-void
-eagerlyMarkChildren
-(
 Shape
 *
 shape

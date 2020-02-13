@@ -3761,7 +3761,10 @@ stringp
 bool
 onScriptEdge
 (
-JSScript
+js
+:
+:
+BaseScript
 *
 *
 scriptp

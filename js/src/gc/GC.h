@@ -181,6 +181,9 @@ class
 NormalAtom
 ;
 class
+LazyScript
+;
+class
 Nursery
 ;
 namespace

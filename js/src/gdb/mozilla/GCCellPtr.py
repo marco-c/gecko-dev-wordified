@@ -241,7 +241,10 @@ kind
 Script
 '
 '
-JSScript
+js
+:
+:
+BaseScript
 '
 )
         
@@ -297,19 +300,6 @@ jit
 :
 :
 JitCode
-'
-)
-        
-kind
-(
-'
-LazyScript
-'
-'
-js
-:
-:
-LazyScript
 '
 )
         
