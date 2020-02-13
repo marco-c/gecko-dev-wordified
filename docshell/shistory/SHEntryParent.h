@@ -516,8 +516,9 @@ SHistoryParent
 LegacySHEntry
 (
 )
-{
-}
+=
+default
+;
 SHEntryParent
 *
 CreateActor
