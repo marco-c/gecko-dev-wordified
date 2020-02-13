@@ -6174,7 +6174,7 @@ nsresult
 CollapseAdjacentTextNodes
 (
 nsRange
-*
+&
 aRange
 )
 ;
