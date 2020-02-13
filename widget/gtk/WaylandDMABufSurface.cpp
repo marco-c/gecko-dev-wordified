@@ -880,6 +880,13 @@ int
 aWaylandDMABufSurfaceFlags
 )
 {
+MOZ_RELEASE_ASSERT
+(
+WaylandDisplayGet
+(
+)
+)
+;
 MOZ_ASSERT
 (
 mGbmBufferObject
@@ -1687,6 +1694,13 @@ SurfaceDescriptor
 aDesc
 )
 {
+MOZ_RELEASE_ASSERT
+(
+WaylandDisplayGet
+(
+)
+)
+;
 MOZ_ASSERT
 (
 mGbmBufferObject
