@@ -26191,9 +26191,6 @@ fennec
 "
 "
         
-try
-:
-            
 if
 self
 .
@@ -26204,11 +26201,11 @@ version_codes
 .
 M
 :
-                
+            
 permissions
 =
 [
-                    
+                
 '
 android
 .
@@ -26216,7 +26213,7 @@ permission
 .
 WRITE_EXTERNAL_STORAGE
 '
-                    
+                
 '
 android
 .
@@ -26224,7 +26221,7 @@ permission
 .
 READ_EXTERNAL_STORAGE
 '
-                    
+                
 '
 android
 .
@@ -26232,7 +26229,7 @@ permission
 .
 ACCESS_COARSE_LOCATION
 '
-                    
+                
 '
 android
 .
@@ -26240,7 +26237,7 @@ permission
 .
 ACCESS_FINE_LOCATION
 '
-                    
+                
 '
 android
 .
@@ -26248,7 +26245,7 @@ permission
 .
 CAMERA
 '
-                    
+                
 '
 android
 .
@@ -26256,9 +26253,9 @@ permission
 .
 RECORD_AUDIO
 '
-                
+            
 ]
-                
+            
 if
 self
 .
@@ -26269,7 +26266,7 @@ version_codes
 .
 P
 :
-                    
+                
 permissions
 .
 append
@@ -26282,7 +26279,7 @@ permission
 FOREGROUND_SERVICE
 '
 )
-                
+            
 self
 .
 _logger
@@ -26301,11 +26298,14 @@ s
 %
 app_name
 )
-                
+            
 for
 permission
 in
 permissions
+:
+                
+try
 :
                     
 self
@@ -26326,13 +26326,13 @@ app_name
 permission
 )
 )
-        
+                
 except
 ADBError
 as
 e
 :
-            
+                    
 self
 .
 _logger
@@ -26344,7 +26344,9 @@ Unable
 to
 grant
 runtime
-permissions
+permission
+%
+s
 to
 %
 s
@@ -26354,8 +26356,9 @@ to
 s
 "
 %
-                                 
+                                         
 (
+permission
 app_name
 e
 )
