@@ -1766,7 +1766,9 @@ notif
 getCaptureDoorhanger
 (
 "
-any
+password
+-
+save
 "
 PopupNotifications
 browser
@@ -2060,7 +2062,9 @@ notif
 getCaptureDoorhanger
 (
 "
-any
+password
+-
+save
 "
 PopupNotifications
 browser

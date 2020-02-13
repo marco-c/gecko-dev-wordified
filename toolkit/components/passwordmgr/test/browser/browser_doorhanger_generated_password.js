@@ -5303,7 +5303,7 @@ moves
 focus
 producing
 another
-onPasswordEditedOrGenerated
+onGeneratedPasswordFilledOrEdited
 message
 from
 content
