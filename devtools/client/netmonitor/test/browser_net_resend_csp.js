@@ -264,14 +264,6 @@ click
 (
 )
 ;
-await
-performRequests
-(
-monitor
-tab
-1
-)
-;
 /
 /
 Selects

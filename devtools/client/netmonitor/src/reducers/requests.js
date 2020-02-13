@@ -1114,11 +1114,6 @@ requestPostDataAvailable
 clonedRequest
 .
 requestPostDataAvailable
-requestHeadersAvailable
-:
-clonedRequest
-.
-requestHeadersAvailable
 isCustom
 :
 true
