@@ -6277,6 +6277,17 @@ sep
         
 ]
         
+path
+=
+os
+.
+path
+.
+relpath
+(
+path
+)
+        
 for
 prefix
 in
@@ -6304,6 +6315,21 @@ prefix
 ]
                 
 break
+        
+path
+=
+path
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
         
 return
 path
@@ -6349,19 +6375,12 @@ self
 .
 _fix_test_path
 (
-os
-.
-path
-.
-relpath
-(
 test
 [
 '
 path
 '
 ]
-)
 )
             
 self
@@ -6654,17 +6673,25 @@ self
 tests
 :
             
-tests_by_group
-[
+group
+=
+self
+.
+_fix_test_path
+(
 test
 [
 '
 group
 '
 ]
-]
+)
+            
+filepath
+=
+self
 .
-append
+_fix_test_path
 (
 test
 [
@@ -6672,6 +6699,16 @@ test
 filepath
 '
 ]
+)
+            
+tests_by_group
+[
+group
+]
+.
+append
+(
+filepath
 )
         
 self

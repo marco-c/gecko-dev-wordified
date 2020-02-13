@@ -1478,16 +1478,9 @@ self
 .
 _fix_test_path
 (
-os
-.
-path
-.
-relpath
-(
 self
 .
 filepath
-)
 )
         
 return
@@ -1820,6 +1813,17 @@ sep
         
 ]
         
+path
+=
+os
+.
+path
+.
+relpath
+(
+path
+)
+        
 for
 prefix
 in
@@ -1847,6 +1851,21 @@ prefix
 ]
                 
 break
+        
+path
+=
+path
+.
+replace
+(
+'
+\
+\
+'
+'
+/
+'
+)
         
 return
 path
