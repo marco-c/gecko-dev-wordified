@@ -1269,10 +1269,12 @@ rv
 ;
 stream
 =
-bufferedStream
-.
-forget
+std
+:
+:
+move
 (
+bufferedStream
 )
 ;
 buffered

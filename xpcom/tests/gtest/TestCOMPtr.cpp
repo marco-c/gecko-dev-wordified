@@ -1985,10 +1985,12 @@ IFoo
 >
 fooP2
 (
-fooP
-.
-forget
+std
+:
+:
+move
 (
+fooP
 )
 )
 ;

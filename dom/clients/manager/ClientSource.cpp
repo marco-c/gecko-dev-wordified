@@ -4486,10 +4486,6 @@ holder
 ;
 return
 outerPromise
-.
-forget
-(
-)
 ;
 }
 RefPtr

@@ -11136,10 +11136,12 @@ mLoadInfo
 .
 mChannel
 =
-channel
-.
-forget
+std
+:
+:
+move
 (
+channel
 )
 ;
 return

@@ -5694,10 +5694,12 @@ ComputedStyle
 >
 oldComputedStyle
 =
-mComputedStyle
-.
-forget
+std
+:
+:
+move
 (
+mComputedStyle
 )
 ;
 mComputedStyle

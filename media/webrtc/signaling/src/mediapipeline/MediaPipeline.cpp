@@ -10661,10 +10661,12 @@ return
 }
 image
 =
-yuvImage
-.
-forget
+std
+:
+:
+move
 (
+yuvImage
 )
 ;
 }

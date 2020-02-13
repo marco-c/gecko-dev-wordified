@@ -358,10 +358,6 @@ aEndpoint
 ;
 return
 vcp
-.
-forget
-(
-)
 ;
 }
 void

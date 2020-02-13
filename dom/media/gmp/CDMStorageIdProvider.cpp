@@ -257,9 +257,6 @@ CDMStorageIdProvider
 :
 kBrowserIdentifier
 ;
-nsAutoCString
-storageId
-;
 nsresult
 rv
 ;
@@ -470,6 +467,9 @@ EmptyCString
 )
 ;
 }
+nsCString
+storageId
+;
 rv
 =
 hasher
@@ -534,13 +534,7 @@ EmptyCString
 ;
 }
 return
-std
-:
-:
-move
-(
 storageId
-)
 ;
 #
 endif

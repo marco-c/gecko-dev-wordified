@@ -529,10 +529,12 @@ replacementStream
 {
 mInputStream
 =
-replacementStream
-.
-forget
+std
+:
+:
+move
 (
+replacementStream
 )
 ;
 }

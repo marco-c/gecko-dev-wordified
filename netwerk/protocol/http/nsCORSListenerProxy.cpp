@@ -3769,10 +3769,12 @@ mMutex
 ;
 listener
 =
-mOuterListener
-.
-forget
+std
+:
+:
+move
 (
+mOuterListener
 )
 ;
 }

@@ -12168,10 +12168,12 @@ runnable
 ;
 mFinishNotificationTask
 =
-runnable
-.
-forget
+std
+:
+:
+move
 (
+runnable
 )
 ;
 }

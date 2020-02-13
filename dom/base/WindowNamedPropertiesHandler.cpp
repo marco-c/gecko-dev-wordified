@@ -1077,10 +1077,12 @@ ToJSValue
 aCx
 WindowProxyHolder
 (
-child
-.
-forget
+std
+:
+:
+move
 (
+child
 )
 )
 &

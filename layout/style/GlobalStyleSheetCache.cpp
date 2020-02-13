@@ -2552,10 +2552,12 @@ URLData
 *
 aSheet
 =
-sheet
-.
-forget
+std
+:
+:
+move
 (
+sheet
 )
 ;
 }

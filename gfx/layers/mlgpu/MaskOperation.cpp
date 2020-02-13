@@ -648,10 +648,6 @@ nullptr
 }
 return
 source
-.
-forget
-(
-)
 ;
 }
 MaskCombineOperation

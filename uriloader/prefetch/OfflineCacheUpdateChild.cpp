@@ -2306,10 +2306,12 @@ nsPIDOMWindowInner
 >
 window
 =
-mWindow
-.
-forget
+std
+:
+:
+move
 (
+mWindow
 )
 ;
 nsCOMPtr

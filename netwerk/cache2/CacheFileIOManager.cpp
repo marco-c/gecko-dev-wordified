@@ -6407,10 +6407,12 @@ rv
 ;
 gInstance
 =
-ioMan
-.
-forget
+std
+:
+:
+move
 (
+ioMan
 )
 ;
 return

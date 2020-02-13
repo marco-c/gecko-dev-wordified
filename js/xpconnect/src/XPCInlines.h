@@ -1741,10 +1741,12 @@ Member
 *
 pInterface
 =
-Interface
-.
-forget
+std
+:
+:
+move
 (
+Interface
 )
 ;
 return

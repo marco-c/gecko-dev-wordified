@@ -9753,10 +9753,12 @@ PromiseWorkerProxy
 >
 proxy
 =
-mPromiseProxy
-.
-forget
+std
+:
+:
+move
 (
+mPromiseProxy
 )
 ;
 MutexAutoLock

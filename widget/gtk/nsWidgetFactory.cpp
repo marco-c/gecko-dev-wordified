@@ -363,10 +363,12 @@ nullptr
 }
 inst
 =
-clipboard
-.
-forget
+std
+:
+:
+move
 (
+clipboard
 )
 ;
 }

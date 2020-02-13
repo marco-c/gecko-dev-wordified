@@ -865,10 +865,12 @@ nsCOMPtr
 nsIInputStream
 >
 (
-aOptionalStream
-.
-forget
+std
+:
+:
+move
 (
+aOptionalStream
 )
 )
 )

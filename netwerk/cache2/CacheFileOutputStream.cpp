@@ -1994,10 +1994,12 @@ mFile
 >
 ReleaseOutsideLock
 (
-mChunk
-.
-forget
+std
+:
+:
+move
 (
+mChunk
 )
 )
 ;

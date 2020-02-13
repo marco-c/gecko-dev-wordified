@@ -1730,12 +1730,7 @@ derCert
 *
 signedCert
 ;
-RefPtr
-<
-DtlsIdentity
->
-identity
-=
+return
 new
 DtlsIdentity
 (
@@ -1754,13 +1749,6 @@ move
 certificate
 )
 ssl_kea_ecdh
-)
-;
-return
-identity
-.
-forget
-(
 )
 ;
 }

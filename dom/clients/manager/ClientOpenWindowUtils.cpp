@@ -2805,10 +2805,6 @@ __func__
 ;
 return
 promise
-.
-forget
-(
-)
 ;
 }
 MOZ_DIAGNOSTIC_ASSERT
@@ -2825,10 +2821,6 @@ promise
 ;
 return
 promise
-.
-forget
-(
-)
 ;
 }
 }
