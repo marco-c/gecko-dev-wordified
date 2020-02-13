@@ -1176,8 +1176,9 @@ private
 CryptoKey
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsIGlobalObject
