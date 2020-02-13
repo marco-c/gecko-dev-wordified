@@ -1051,7 +1051,7 @@ expected_kinds
 build
 '
 '
-nightly
+shippable
 -
 l10n
 '
