@@ -3384,12 +3384,10 @@ cv
 {
 cv
 =
-std
-:
-:
-move
-(
 parentContentViewer
+.
+forget
+(
 )
 ;
 }

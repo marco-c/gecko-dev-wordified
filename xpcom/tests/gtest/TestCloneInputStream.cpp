@@ -809,12 +809,10 @@ get
 ;
 stream
 =
-std
-:
-:
-move
-(
 replacement
+.
+forget
+(
 )
 ;
 /

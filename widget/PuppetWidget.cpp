@@ -3727,12 +3727,10 @@ DestroyLayerManager
 ;
 mLayerManager
 =
-std
-:
-:
-move
-(
 lm
+.
+forget
+(
 )
 ;
 return

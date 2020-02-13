@@ -17861,12 +17861,10 @@ mozIStorageCompletionCallback
 >
 connectionShutdown
 =
-std
-:
-:
-move
-(
 mConnectionShutdown
+.
+forget
+(
 )
 ;
 if

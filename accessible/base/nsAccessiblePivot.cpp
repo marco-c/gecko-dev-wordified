@@ -2190,12 +2190,10 @@ Accessible
 >
 oldPosition
 =
-std
-:
-:
-move
-(
 mPosition
+.
+forget
+(
 )
 ;
 mPosition

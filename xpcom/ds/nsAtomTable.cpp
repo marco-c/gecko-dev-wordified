@@ -5236,12 +5236,10 @@ newAtom
 ;
 retVal
 =
-std
-:
-:
-move
-(
 newAtom
+.
+forget
+(
 )
 ;
 }

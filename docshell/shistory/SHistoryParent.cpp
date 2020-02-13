@@ -1567,12 +1567,10 @@ else
 *
 aEntry
 =
-std
-:
-:
-move
-(
 shEntry
+.
+forget
+(
 )
 ;
 *

@@ -688,12 +688,10 @@ Code
 ;
 exn
 =
-std
-:
-:
-move
-(
 domExn
+.
+forget
+(
 )
 ;
 }

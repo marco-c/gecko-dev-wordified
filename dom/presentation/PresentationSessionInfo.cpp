@@ -5342,12 +5342,10 @@ nsIPresentationServiceCallback
 >
 callback
 =
-std
-:
-:
-move
-(
 mReconnectCallback
+.
+forget
+(
 )
 ;
 if

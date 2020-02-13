@@ -1168,12 +1168,10 @@ TimeStamp
 Now
 (
 )
-std
-:
-:
-move
-(
 buffer
+.
+forget
+(
 )
 scaledSize
 windowTarget

@@ -2414,12 +2414,10 @@ mozIStorageStatementCallback
 >
 callback
 =
-std
-:
-:
-move
-(
 mCallback
+.
+forget
+(
 )
 ;
 if

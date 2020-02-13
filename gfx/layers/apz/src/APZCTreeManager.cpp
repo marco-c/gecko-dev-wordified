@@ -21487,12 +21487,10 @@ hit
 .
 mTargetApzc
 =
-std
-:
-:
-move
-(
 scrollTarget
+.
+forget
+(
 )
 ;
 RefPtr

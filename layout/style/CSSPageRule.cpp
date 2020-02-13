@@ -498,12 +498,10 @@ Raw
 ;
 mDecls
 =
-std
-:
-:
-move
-(
 decls
+.
+forget
+(
 )
 ;
 mDecls

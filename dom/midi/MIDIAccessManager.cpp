@@ -713,12 +713,10 @@ mgr
 ;
 mChild
 =
-std
-:
-:
-move
-(
 mgr
+.
+forget
+(
 )
 ;
 /

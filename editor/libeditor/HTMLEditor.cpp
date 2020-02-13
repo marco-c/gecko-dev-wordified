@@ -29162,12 +29162,10 @@ NS_ERROR_FAILURE
 *
 aNewBrElement
 =
-std
-:
-:
-move
-(
 brElement
+.
+forget
+(
 )
 ;
 return

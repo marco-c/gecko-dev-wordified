@@ -980,12 +980,10 @@ GetParent
 }
 target
 =
-std
-:
-:
-move
-(
 root
+.
+forget
+(
 )
 ;
 }

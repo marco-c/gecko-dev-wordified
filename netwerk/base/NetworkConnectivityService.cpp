@@ -199,12 +199,10 @@ Init
 ;
 gConnService
 =
-std
-:
-:
-move
-(
 service
+.
+forget
+(
 )
 ;
 ClearOnShutdown

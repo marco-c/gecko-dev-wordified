@@ -5636,12 +5636,10 @@ nullptr
 }
 gInstance
 =
-std
-:
-:
-move
-(
 service
+.
+forget
+(
 )
 ;
 ClearOnShutdown

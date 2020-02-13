@@ -739,12 +739,10 @@ browser
 .
 mBrowserParent
 =
-std
-:
-:
-move
-(
 browserParent
+.
+forget
+(
 )
 ;
 mBrowserParent

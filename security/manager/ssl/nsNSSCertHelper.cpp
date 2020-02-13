@@ -985,12 +985,10 @@ rv
 }
 retItem
 =
-std
-:
-:
-move
-(
 printableItem
+.
+forget
+(
 )
 ;
 return

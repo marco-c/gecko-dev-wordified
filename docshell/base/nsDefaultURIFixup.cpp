@@ -2971,12 +2971,10 @@ info
 >
 mPreferredURI
 =
-std
-:
-:
-move
-(
 temp
+.
+forget
+(
 )
 ;
 return

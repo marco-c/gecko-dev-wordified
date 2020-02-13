@@ -1769,12 +1769,10 @@ missing
 .
 m
 =
-std
-:
-:
-move
-(
 h
+.
+forget
+(
 )
 ;
 }

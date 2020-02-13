@@ -232,12 +232,10 @@ aBrowsingContext
 :
 mBrowsingContext
 (
-std
-:
-:
-move
-(
 aBrowsingContext
+.
+forget
+(
 )
 )
 {

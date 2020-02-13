@@ -3650,12 +3650,10 @@ TextEditor
 >
 textEditor
 =
-std
-:
-:
-move
-(
 mTextEditor
+.
+forget
+(
 )
 ;
 if

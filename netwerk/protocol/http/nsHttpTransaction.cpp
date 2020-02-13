@@ -1374,7 +1374,7 @@ public
 explicit
 ReleaseH2WSTrans
 (
-RefPtr
+already_AddRefed
 <
 SpdyConnectTransaction
 >
@@ -1573,12 +1573,10 @@ r
 new
 ReleaseH2WSTrans
 (
-std
-:
-:
-move
-(
 mH2WSTransaction
+.
+forget
+(
 )
 )
 ;

@@ -795,12 +795,10 @@ take
 *
 aEntry
 =
-std
-:
-:
-move
-(
 entry
+.
+forget
+(
 )
 ;
 return

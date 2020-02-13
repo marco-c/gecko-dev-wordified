@@ -2999,12 +2999,10 @@ GetOriginAttributes
 ;
 cbAllowListPrincipal
 =
-std
-:
-:
-move
-(
 bp
+.
+forget
+(
 )
 ;
 }

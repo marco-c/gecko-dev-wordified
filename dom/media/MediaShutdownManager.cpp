@@ -445,6 +445,10 @@ barrier
 ;
 return
 barrier
+.
+forget
+(
+)
 ;
 }
 void

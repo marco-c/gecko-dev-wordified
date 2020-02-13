@@ -4231,12 +4231,10 @@ Inner
 .
 mContents
 =
-std
-:
-:
-move
-(
 rawContent
+.
+forget
+(
 )
 ;
 FinishParse

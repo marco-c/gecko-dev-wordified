@@ -1283,12 +1283,10 @@ mSharedChannels
 .
 mBuffer
 =
-std
-:
-:
-move
-(
 buffer
+.
+forget
+(
 )
 ;
 mSharedChannels

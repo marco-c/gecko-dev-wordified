@@ -2354,11 +2354,6 @@ nsIRunnable
 >
 task
 =
-std
-:
-:
-move
-(
 deferred_non_nestable_work_queue_
 .
 front
@@ -2366,6 +2361,9 @@ front
 )
 .
 task
+.
+forget
+(
 )
 ;
 deferred_non_nestable_work_queue_

@@ -2616,12 +2616,10 @@ mMutex
 ;
 promise
 =
-std
-:
-:
-move
-(
 mPromise
+.
+forget
+(
 )
 ;
 }

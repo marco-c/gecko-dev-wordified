@@ -1627,7 +1627,7 @@ WorkerSyncRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-nsCOMPtr
+already_AddRefed
 <
 nsIEventTarget
 >
@@ -1745,7 +1745,7 @@ MainThreadWorkerSyncRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-nsCOMPtr
+already_AddRefed
 <
 nsIEventTarget
 >
@@ -2799,7 +2799,7 @@ MainThreadStopSyncLoopRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-nsCOMPtr
+already_AddRefed
 <
 nsIEventTarget
 >

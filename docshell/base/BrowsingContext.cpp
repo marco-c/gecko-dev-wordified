@@ -10235,12 +10235,10 @@ Release
 *
 aResult
 =
-std
-:
-:
-move
-(
 browsingContext
+.
+forget
+(
 )
 ;
 return

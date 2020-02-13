@@ -2334,12 +2334,10 @@ nsIChannel
 >
 channel
 =
-std
-:
-:
-move
-(
 mChannel
+.
+forget
+(
 )
 )
 {

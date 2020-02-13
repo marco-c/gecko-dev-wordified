@@ -15147,12 +15147,10 @@ ready
 .
 mTransfer
 =
-std
-:
-:
-move
-(
 transfer
+.
+forget
+(
 )
 ;
 return

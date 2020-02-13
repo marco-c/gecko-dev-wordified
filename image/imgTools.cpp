@@ -2203,12 +2203,10 @@ rv
 ;
 stream
 =
-std
-:
-:
-move
-(
 bufStream
+.
+forget
+(
 )
 ;
 }

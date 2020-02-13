@@ -1035,14 +1035,12 @@ mListener
 )
 mTypeAtom
 (
-std
-:
-:
-move
-(
 aOther
 .
 mTypeAtom
+.
+forget
+(
 )
 )
 mEventMessage

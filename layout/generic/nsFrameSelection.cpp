@@ -16029,12 +16029,10 @@ curCellContent
 ;
 lastCell
 =
-std
-:
-:
-move
-(
 curCellContent
+.
+forget
+(
 )
 ;
 /

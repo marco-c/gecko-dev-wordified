@@ -1688,12 +1688,10 @@ rv
 ;
 gInstance
 =
-std
-:
-:
-move
-(
 idx
+.
+forget
+(
 )
 ;
 return

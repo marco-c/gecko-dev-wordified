@@ -2559,12 +2559,10 @@ T
 :
 mURI
 =
-std
-:
-:
-move
-(
 uri
+.
+forget
+(
 )
 ;
 return

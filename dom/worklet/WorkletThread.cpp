@@ -901,12 +901,10 @@ GetMicroTaskQueue
 .
 push
 (
-std
-:
-:
-move
-(
 runnable
+.
+forget
+(
 )
 )
 ;

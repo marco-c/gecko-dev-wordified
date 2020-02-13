@@ -534,7 +534,13 @@ EmptyCString
 ;
 }
 return
+std
+:
+:
+move
+(
 storageId
+)
 ;
 #
 endif

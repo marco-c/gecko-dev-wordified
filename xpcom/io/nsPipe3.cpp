@@ -6765,12 +6765,10 @@ nsIAsyncInputStream
 >
 downcast
 =
-std
-:
-:
-move
-(
 ref
+.
+forget
+(
 )
 ;
 downcast

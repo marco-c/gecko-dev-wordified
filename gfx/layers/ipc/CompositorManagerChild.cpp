@@ -425,12 +425,10 @@ true
 ;
 sInstance
 =
-std
-:
-:
-move
-(
 child
+.
+forget
+(
 )
 ;
 }

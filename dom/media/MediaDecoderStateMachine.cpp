@@ -11369,6 +11369,10 @@ VideoOnlySeekBegin
 ;
 return
 p
+.
+forget
+(
+)
 ;
 }
 void
@@ -25269,6 +25273,10 @@ rv
 ;
 return
 p
+.
+forget
+(
+)
 ;
 }
 class
