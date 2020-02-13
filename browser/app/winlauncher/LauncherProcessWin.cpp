@@ -375,7 +375,7 @@ return
 mozilla
 :
 :
-InitializeDllBlocklistOOP
+InitializeDllBlocklistOOPFromLauncher
 (
 aFullImagePath
 aChildProcess
