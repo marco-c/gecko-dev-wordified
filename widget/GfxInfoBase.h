@@ -1064,7 +1064,17 @@ nsACString
 aFailureId
 OperatingSystem
 os
+bool
+aForAllowing
 )
+;
+bool
+IsFeatureAllowlisted
+(
+int32_t
+aFeature
+)
+const
 ;
 void
 EvaluateDownloadedBlacklist
