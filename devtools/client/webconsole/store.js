@@ -734,6 +734,16 @@ UI
 .
 MESSAGE_TIMESTAMP
 )
+showEvaluationSelector
+:
+getBoolPref
+(
+PREFS
+.
+UI
+.
+CONTEXT_SELECTOR
+)
 }
 )
 }
