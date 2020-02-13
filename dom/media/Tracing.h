@@ -249,6 +249,11 @@ StartAudioCallbackTracing
 (
 )
 ;
+void
+StopAudioCallbackTracing
+(
+)
+;
 #
 ifdef
 TRACING

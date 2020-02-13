@@ -531,6 +531,10 @@ MediaTrackGraphImpl
 )
 )
 ;
+StopAudioCallbackTracing
+(
+)
+;
 }
 void
 MediaTrackGraphImpl
