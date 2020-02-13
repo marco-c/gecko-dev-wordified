@@ -5,7 +5,7 @@
 Test
 LoginManagerParent
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 )
 *
@@ -849,11 +849,11 @@ ok
 (
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 "
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 exists
 "
 )
@@ -1078,7 +1078,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited
+test_onPasswordEditedOrGenerated_generatedPassword
 (
 )
 {
@@ -1165,7 +1165,7 @@ test
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -1192,6 +1192,9 @@ username
 "
 someusername
 "
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -1393,7 +1396,7 @@ modifyLogin
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -1420,6 +1423,9 @@ someusername
 password
 :
 newPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -1606,7 +1612,7 @@ modifyLogin
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -1633,6 +1639,9 @@ someusername
 password
 :
 newerPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -1813,7 +1822,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited_editToEmpty
+test_onPasswordEditedOrGenerated_editToEmpty_generatedPassword
 (
 )
 {
@@ -1900,7 +1909,7 @@ test
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -1927,6 +1936,9 @@ username
 "
 someusername
 "
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -2102,7 +2114,7 @@ newPassword
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -2129,6 +2141,9 @@ someusername
 password
 :
 newPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -2342,7 +2357,7 @@ test
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -2369,6 +2384,9 @@ username
 "
 someusername
 "
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -2606,7 +2624,7 @@ modifyLogin
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -2633,6 +2651,9 @@ someusername
 password
 :
 newPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -2826,7 +2847,7 @@ modifyLogin
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -2853,6 +2874,9 @@ someusername
 password
 :
 newerPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -3040,7 +3064,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited_withDisabledLogin
+test_onPasswordEditedOrGenerated_generatedPassword_withDisabledLogin
 (
 )
 {
@@ -3103,7 +3127,7 @@ false
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -3125,6 +3149,9 @@ org
 password
 :
 generatedPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -3233,7 +3260,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited_withSavedEmptyUsername
+test_onPasswordEditedOrGenerated_generatedPassword_withSavedEmptyUsername
 (
 )
 {
@@ -3344,7 +3371,7 @@ stubPrompter
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -3366,6 +3393,9 @@ org
 password
 :
 password1
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -3510,7 +3540,7 @@ password1
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -3537,6 +3567,9 @@ someusername
 password
 :
 newPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -3737,7 +3770,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited_withSavedEmptyUsernameAndUsernameValue
+test_onPasswordEditedOrGenerated_generatedPassword_withSavedEmptyUsernameAndUsernameValue
 (
 )
 {
@@ -3866,7 +3899,7 @@ stubPrompter
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -3897,6 +3930,9 @@ username
 password
 :
 password1
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -4056,7 +4092,7 @@ password1
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -4087,6 +4123,9 @@ username
 password
 :
 newPassword
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -4371,7 +4410,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited_withEmptyUsernameDifferentFormActionOrigin
+test_onPasswordEditedOrGenerated_generatedPassword_withEmptyUsernameDifferentFormActionOrigin
 (
 )
 {
@@ -4436,7 +4475,7 @@ stubPrompter
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -4458,6 +4497,9 @@ com
 password
 :
 password1
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
@@ -4654,7 +4696,7 @@ add_task
 (
 async
 function
-test_onGeneratedPasswordFilledOrEdited_withSavedUsername
+test_onPasswordEditedOrGenerated_generatedPassword_withSavedUsername
 (
 )
 {
@@ -4720,7 +4762,7 @@ stubPrompter
 await
 LMP
 .
-_onGeneratedPasswordFilledOrEdited
+_onPasswordEditedOrGenerated
 (
 {
 browsingContextId
@@ -4742,6 +4784,9 @@ org
 password
 :
 password1
+triggeredByFillingGenerated
+:
+true
 }
 )
 ;
