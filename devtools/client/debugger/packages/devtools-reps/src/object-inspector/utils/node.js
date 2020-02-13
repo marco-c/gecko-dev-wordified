@@ -5570,6 +5570,7 @@ getChildren
 getChildrenWithEvaluations
 getClosestGripNode
 getClosestNonBucketNode
+getEvaluatedItem
 getFront
 getPathExpression
 getParent
