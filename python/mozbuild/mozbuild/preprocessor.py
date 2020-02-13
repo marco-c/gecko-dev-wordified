@@ -188,19 +188,21 @@ absolute_import
 print_function
 unicode_literals
 import
-sys
+errno
+import
+io
+from
+optparse
+import
+OptionParser
 import
 os
 import
 re
 import
 six
-from
-optparse
 import
-OptionParser
-import
-errno
+sys
 from
 mozbuild
 .
@@ -3635,11 +3637,20 @@ EEXIST
 raise
             
 return
+io
+.
 open
 (
 path
 '
-wb
+w
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
         
@@ -3789,11 +3800,20 @@ args
 :
                 
 with
+io
+.
 open
 (
 f
 '
 rU
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
@@ -6255,11 +6275,20 @@ args
                 
 args
 =
+io
+.
 open
 (
 args
 '
 rU
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
             
@@ -6751,11 +6780,20 @@ includes
 :
         
 with
+io
+.
 open
 (
 f
 '
 rU
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
