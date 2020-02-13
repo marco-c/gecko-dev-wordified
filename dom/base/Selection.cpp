@@ -2433,6 +2433,7 @@ static
 nsresult
 GetTableSelectionType
 (
+const
 nsRange
 *
 aRange
@@ -2741,6 +2742,7 @@ Selection
 :
 GetTableCellLocationFromRange
 (
+const
 nsRange
 *
 aRange
