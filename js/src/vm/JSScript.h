@@ -14226,16 +14226,6 @@ the
 /
 script
 .
-Note
-:
-This
-is
-only
-valid
-for
-function
-scripts
-.
 HasInnerFunctions
 =
 1

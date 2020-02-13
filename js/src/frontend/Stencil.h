@@ -2628,6 +2628,11 @@ hasModuleGoal
 =
 false
 ;
+bool
+hasInnerFunctions
+=
+false
+;
 /
 /
 FIXME
