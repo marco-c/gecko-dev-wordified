@@ -1061,7 +1061,6 @@ PRIORITY_NORMAL
 )
 {
 }
-explicit
 nsPipeInputStream
 (
 const
