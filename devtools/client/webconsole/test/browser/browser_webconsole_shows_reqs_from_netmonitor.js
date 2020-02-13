@@ -231,6 +231,9 @@ TEST_PATH
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_PATH
 )
 ;

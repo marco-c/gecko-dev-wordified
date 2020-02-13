@@ -198,6 +198,9 @@ CSP_VIOLATION_MSG
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;
@@ -334,6 +337,9 @@ html
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;
@@ -599,6 +605,9 @@ html
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;
@@ -824,6 +833,9 @@ html
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;
@@ -987,6 +999,9 @@ ancestors
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;

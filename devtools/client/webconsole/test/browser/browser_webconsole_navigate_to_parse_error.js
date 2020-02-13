@@ -172,6 +172,9 @@ CSP_VIOLATION_MSG
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;

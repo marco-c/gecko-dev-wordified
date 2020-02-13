@@ -524,13 +524,12 @@ warn
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+loadDocument
 (
-gBrowser
+hud
 .
-selectedBrowser
+toolbox
 url
 )
 ;

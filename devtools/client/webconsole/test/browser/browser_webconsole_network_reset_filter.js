@@ -214,6 +214,9 @@ load
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_PATH
 +
 "

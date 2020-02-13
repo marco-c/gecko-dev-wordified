@@ -242,13 +242,12 @@ loadBrowser
 browser
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+loadDocument
 (
-gBrowser
+hud
 .
-selectedBrowser
+toolbox
 uri
 .
 spec

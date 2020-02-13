@@ -779,6 +779,9 @@ file
 await
 loadDocument
 (
+hud
+.
+toolbox
 TESTS_PATH
 +
 file

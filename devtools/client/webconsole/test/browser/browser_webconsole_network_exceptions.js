@@ -182,6 +182,9 @@ bug618078exception
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_URI2
 )
 ;
