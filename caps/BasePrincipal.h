@@ -780,6 +780,15 @@ aRes
 override
 ;
 NS_IMETHOD
+GetPrepath
+(
+nsACString
+&
+aResult
+)
+override
+;
+NS_IMETHOD
 GetOriginSuffix
 (
 nsACString
