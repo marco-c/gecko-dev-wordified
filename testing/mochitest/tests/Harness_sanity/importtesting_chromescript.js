@@ -1,3 +1,15 @@
+/
+*
+eslint
+-
+env
+mozilla
+/
+frame
+-
+script
+*
+/
 addMessageListener
 (
 "
