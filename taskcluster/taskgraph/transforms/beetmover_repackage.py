@@ -682,7 +682,7 @@ locale
 signing_name
 =
 "
-nightly
+shippable
 -
 l10n
 -
