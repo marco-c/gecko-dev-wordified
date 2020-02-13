@@ -5222,7 +5222,7 @@ func
 ;
 pos
 .
-next_ebb
+next_block
 (
 )
 .
