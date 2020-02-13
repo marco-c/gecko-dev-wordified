@@ -2464,7 +2464,9 @@ return
 zone
 -
 >
-isSystem
+isSystemZone
+(
+)
 ;
 }
 JS_FRIEND_API
@@ -2486,14 +2488,8 @@ return
 zone
 -
 >
-runtimeFromAnyThread
-(
-)
--
->
 isAtomsZone
 (
-zone
 )
 ;
 }

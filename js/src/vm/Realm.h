@@ -3644,16 +3644,7 @@ void
 setIsSelfHostingRealm
 (
 )
-{
-isSelfHostingRealm_
-=
-true
 ;
-isSystem_
-=
-true
-;
-}
 /
 *
 The

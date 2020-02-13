@@ -168,6 +168,9 @@ TypeDecls
 .
 h
 "
+class
+JSRope
+;
 namespace
 js
 {
