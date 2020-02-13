@@ -3606,6 +3606,16 @@ change
 await
 inputEventPromise
 ;
+info
+(
+"
+Waiting
+for
+the
+passwordGeneratedPromise
+"
+)
+;
 await
 passwordGeneratedPromise
 ;
