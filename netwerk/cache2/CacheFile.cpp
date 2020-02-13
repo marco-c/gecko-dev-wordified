@@ -12353,10 +12353,8 @@ nsresult
 aStatus
 )
 {
-CacheFileAutoLock
-lock
+AssertOwnsLock
 (
-this
 )
 ;
 LOG
