@@ -9557,7 +9557,11 @@ final
 boolean
 isRemote
 =
-mSettings
+runtime
+.
+getSettings
+(
+)
 .
 getUseMultiprocess
 (
