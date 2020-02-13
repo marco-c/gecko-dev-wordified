@@ -22394,6 +22394,12 @@ NotifyIntersectionObservers
 (
 )
 ;
+DOMIntersectionObserver
+*
+GetLazyLoadImageObserver
+(
+)
+;
 /
 /
 Dispatch
@@ -29986,6 +29992,12 @@ DOMIntersectionObserver
 >
 >
 mIntersectionObservers
+;
+RefPtr
+<
+DOMIntersectionObserver
+>
+mLazyLoadImageObserver
 ;
 /
 /
