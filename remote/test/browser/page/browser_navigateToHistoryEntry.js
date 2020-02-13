@@ -375,9 +375,8 @@ userTypedURL
 )
 ;
 }
-gBrowser
-.
-gotoIndex
+await
+gotoHistoryIndex
 (
 0
 )
@@ -617,9 +616,8 @@ userTypedURL
 )
 ;
 }
-gBrowser
-.
-gotoIndex
+await
+gotoHistoryIndex
 (
 0
 )
