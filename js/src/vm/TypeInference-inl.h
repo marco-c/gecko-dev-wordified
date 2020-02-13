@@ -10159,7 +10159,7 @@ AutoSweepJitScript
 :
 AutoSweepJitScript
 (
-JSScript
+BaseScript
 *
 script
 )

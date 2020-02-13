@@ -2790,7 +2790,7 @@ iter
 =
 cellIter
 <
-JSScript
+BaseScript
 >
 (
 )
@@ -2922,7 +2922,7 @@ base
 =
 cellIterUnsafe
 <
-JSScript
+BaseScript
 >
 (
 )

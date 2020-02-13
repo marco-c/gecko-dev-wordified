@@ -6024,7 +6024,7 @@ handle
 JSObject
 *
 and
-JSScript
+BaseScript
 *
 keys
 but

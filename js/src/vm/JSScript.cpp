@@ -28232,7 +28232,7 @@ script
 =
 Allocate
 <
-JSScript
+BaseScript
 >
 (
 cx
@@ -36422,7 +36422,7 @@ res
 =
 Allocate
 <
-LazyScript
+BaseScript
 >
 (
 cx
