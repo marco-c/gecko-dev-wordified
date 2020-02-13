@@ -23985,8 +23985,13 @@ charnum
 charnum
 +
 nchars
-false
-false
+nsFrameSelection
+:
+:
+FocusMode
+:
+:
+kCollapseToNewPoint
 CARET_ASSOCIATE_BEFORE
 )
 ;
