@@ -332,8 +332,9 @@ public
 EnumeratedArray
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

@@ -1808,8 +1808,9 @@ constexpr
 extent_type
 (
 )
-{
-}
+=
+default
+;
 template
 <
 index_type

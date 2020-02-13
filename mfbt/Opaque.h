@@ -225,8 +225,9 @@ public
 Opaque
 (
 )
-{
-}
+=
+default
+;
 explicit
 Opaque
 (

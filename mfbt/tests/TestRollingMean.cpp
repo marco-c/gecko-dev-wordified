@@ -254,8 +254,9 @@ public
 RollingMeanSuite
 (
 )
-{
-}
+=
+default
+;
 void
 runTests
 (

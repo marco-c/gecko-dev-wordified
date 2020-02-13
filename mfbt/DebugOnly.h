@@ -360,8 +360,9 @@ value
 DebugOnly
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 DebugOnly
 (
@@ -550,8 +551,9 @@ else
 DebugOnly
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 DebugOnly
 (
@@ -692,6 +694,9 @@ must
 always
 have
 a
+user
+-
+defined
 destructor
 or
 else

@@ -1029,8 +1029,9 @@ virtual
 JSONWriteFunc
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
