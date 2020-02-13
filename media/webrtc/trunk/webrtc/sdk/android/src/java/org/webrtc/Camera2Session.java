@@ -92,6 +92,13 @@ android
 .
 annotation
 .
+SuppressLint
+;
+import
+android
+.
+annotation
+.
 TargetApi
 ;
 import
@@ -2151,6 +2158,12 @@ captureFormat
 )
 ;
 }
+SuppressLint
+(
+"
+MissingPermission
+"
+)
 private
 void
 openCamera
