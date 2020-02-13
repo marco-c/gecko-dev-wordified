@@ -403,7 +403,7 @@ else
 {
 variants
 .
-sort
+sort_unstable
 (
 )
 ;

@@ -265,7 +265,7 @@ assert_eq
 (
 li
 .
-get_language
+language
 (
 )
 "
@@ -281,7 +281,7 @@ assert_eq
 (
 li
 .
-get_script
+script
 (
 )
 None
@@ -295,7 +295,7 @@ assert_eq
 (
 li
 .
-get_region
+region
 (
 )
 Some
@@ -314,7 +314,7 @@ assert_eq
 (
 li
 .
-get_variants
+variants
 (
 )
 .
@@ -539,7 +539,7 @@ assert_eq
 (
 li
 .
-get_language
+language
 (
 )
 "
@@ -555,7 +555,7 @@ assert_eq
 (
 li
 .
-get_script
+script
 (
 )
 Some
@@ -574,7 +574,7 @@ assert_eq
 (
 li
 .
-get_region
+region
 (
 )
 Some
@@ -593,7 +593,7 @@ assert_eq
 (
 li
 .
-get_variants
+variants
 (
 )
 .
@@ -1165,7 +1165,7 @@ ParserError
 ;
 vars
 .
-sort
+sort_unstable
 (
 )
 ;
@@ -1329,8 +1329,6 @@ via
 /
 /
 /
-an
-unsafe
 from_raw_parts_unchecked
 .
 /
@@ -1430,8 +1428,6 @@ into_raw_parts
 let
 li2
 =
-unsafe
-{
 LanguageIdentifier
 :
 :
@@ -1447,6 +1443,8 @@ map
 |
 l
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -1454,6 +1452,7 @@ new_unchecked
 (
 l
 )
+}
 )
 /
 /
@@ -1465,6 +1464,8 @@ map
 |
 s
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -1472,6 +1473,7 @@ new_unchecked
 (
 s
 )
+}
 )
 /
 /
@@ -1483,6 +1485,8 @@ map
 |
 r
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -1490,6 +1494,7 @@ new_unchecked
 (
 r
 )
+}
 )
 /
 /
@@ -1512,6 +1517,8 @@ map
 |
 v
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -1520,6 +1527,7 @@ new_unchecked
 *
 v
 )
+}
 )
 .
 collect
@@ -1530,7 +1538,6 @@ collect
 /
 /
 )
-}
 ;
 /
 /
@@ -1776,8 +1783,6 @@ into_raw_parts
 let
 li2
 =
-unsafe
-{
 LanguageIdentifier
 :
 :
@@ -1793,6 +1798,8 @@ map
 |
 l
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -1800,6 +1807,7 @@ new_unchecked
 (
 l
 )
+}
 )
 /
 /
@@ -1811,6 +1819,8 @@ map
 |
 s
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -1818,6 +1828,7 @@ new_unchecked
 (
 s
 )
+}
 )
 /
 /
@@ -1829,6 +1840,8 @@ map
 |
 r
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -1836,6 +1849,7 @@ new_unchecked
 (
 r
 )
+}
 )
 /
 /
@@ -1858,6 +1872,8 @@ map
 |
 v
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -1866,6 +1882,7 @@ new_unchecked
 *
 v
 )
+}
 )
 .
 collect
@@ -1876,7 +1893,6 @@ collect
 /
 /
 )
-}
 ;
 /
 /
@@ -2490,7 +2506,7 @@ assert_eq
 (
 li1
 .
-get_language
+language
 (
 )
 "
@@ -2542,7 +2558,7 @@ assert_eq
 (
 li2
 .
-get_language
+language
 (
 )
 "
@@ -2555,7 +2571,7 @@ und
 /
 pub
 fn
-get_language
+language
 (
 &
 self
@@ -2989,7 +3005,7 @@ assert_eq
 (
 li1
 .
-get_script
+script
 (
 )
 Some
@@ -3044,7 +3060,7 @@ assert_eq
 (
 li2
 .
-get_script
+script
 (
 )
 None
@@ -3055,7 +3071,7 @@ None
 /
 pub
 fn
-get_script
+script
 (
 &
 self
@@ -3463,7 +3479,7 @@ assert_eq
 (
 li1
 .
-get_region
+region
 (
 )
 Some
@@ -3516,7 +3532,7 @@ assert_eq
 (
 li2
 .
-get_region
+region
 (
 )
 None
@@ -3527,7 +3543,7 @@ None
 /
 pub
 fn
-get_region
+region
 (
 &
 self
@@ -3935,7 +3951,7 @@ assert_eq
 (
 li1
 .
-get_variants
+variants
 (
 )
 .
@@ -4000,7 +4016,7 @@ assert_eq
 (
 li2
 .
-get_variants
+variants
 (
 )
 .
@@ -4015,7 +4031,7 @@ len
 /
 pub
 fn
-get_variants
+variants
 (
 &
 self
@@ -4303,7 +4319,7 @@ else
 {
 v
 .
-sort
+sort_unstable
 (
 )
 ;
@@ -4735,7 +4751,7 @@ assert_eq
 (
 li
 .
-add_likely_subtags
+maximize
 (
 )
 true
@@ -4777,7 +4793,7 @@ likelysubtags
 ]
 pub
 fn
-add_likely_subtags
+maximize
 (
 &
 mut
@@ -4797,7 +4813,7 @@ new_li
 likelysubtags
 :
 :
-add_likely_subtags
+maximize
 (
 self
 .
@@ -4930,7 +4946,7 @@ assert_eq
 (
 li
 .
-remove_likely_subtags
+minimize
 (
 )
 true
@@ -4968,7 +4984,7 @@ likelysubtags
 ]
 pub
 fn
-remove_likely_subtags
+minimize
 (
 &
 mut
@@ -4988,7 +5004,7 @@ new_li
 likelysubtags
 :
 :
-remove_likely_subtags
+minimize
 (
 self
 .
@@ -5140,7 +5156,7 @@ assert_eq
 (
 li1
 .
-get_character_direction
+character_direction
 (
 )
 CharacterDirection
@@ -5157,7 +5173,7 @@ assert_eq
 (
 li2
 .
-get_character_direction
+character_direction
 (
 )
 CharacterDirection
@@ -5171,7 +5187,7 @@ RTL
 /
 pub
 fn
-get_character_direction
+character_direction
 (
 &
 self

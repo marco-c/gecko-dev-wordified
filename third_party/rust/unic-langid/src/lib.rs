@@ -131,7 +131,7 @@ assert_eq
 (
 li
 .
-get_language
+language
 (
 )
 "
@@ -147,7 +147,7 @@ assert_eq
 (
 li
 .
-get_script
+script
 (
 )
 None
@@ -161,7 +161,7 @@ assert_eq
 (
 li
 .
-get_region
+region
 (
 )
 Some
@@ -180,7 +180,7 @@ assert_eq
 (
 li
 .
-get_variants
+variants
 (
 )
 .
