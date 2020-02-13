@@ -2278,6 +2278,14 @@ aProcessType
 =
 =
 GeckoProcessType_Content
+&
+&
+ForkServiceChild
+:
+:
+Get
+(
+)
 )
 {
 mLaunchOptions
