@@ -175,8 +175,9 @@ public
 OriginAttributes
 (
 )
-{
-}
+=
+default
+;
 explicit
 OriginAttributes
 (
@@ -852,8 +853,9 @@ failure
 OriginAttributesPattern
 (
 )
-{
-}
+=
+default
+;
 explicit
 OriginAttributesPattern
 (
