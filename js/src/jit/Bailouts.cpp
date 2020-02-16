@@ -503,6 +503,7 @@ MOZ_ASSERT
 (
 IsBaselineJitEnabled
 (
+cx
 )
 )
 ;
@@ -1149,6 +1150,7 @@ MOZ_ASSERT
 (
 IsBaselineJitEnabled
 (
+cx
 )
 )
 ;

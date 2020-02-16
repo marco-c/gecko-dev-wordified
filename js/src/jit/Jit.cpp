@@ -1281,6 +1281,7 @@ jit
 :
 IsBaselineJitEnabled
 (
+cx
 )
 )
 {

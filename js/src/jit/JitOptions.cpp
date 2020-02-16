@@ -903,8 +903,10 @@ true
 Whether
 the
 IonMonkey
-JIT
-is
+and
+Baseline
+JITs
+are
 enabled
 for
 Trusted
@@ -916,6 +918,8 @@ Principals
 Ignored
 if
 ion
+or
+baselineJit
 is
 set
 to
@@ -924,7 +928,7 @@ true
 )
 SET_DEFAULT
 (
-ionForTrustedPrincipals
+jitForTrustedPrincipals
 false
 )
 ;
