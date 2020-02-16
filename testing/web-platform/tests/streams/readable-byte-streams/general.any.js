@@ -1421,7 +1421,7 @@ getReader
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1554,7 +1554,7 @@ byob
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -12947,7 +12947,7 @@ getReader
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13028,7 +13028,7 @@ getReader
 const
 promise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13140,7 +13140,7 @@ byob
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13234,7 +13234,7 @@ byob
 const
 promise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13359,7 +13359,7 @@ getReader
 const
 promise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 testError
@@ -13378,7 +13378,7 @@ fail
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 testError
@@ -13495,7 +13495,7 @@ getReader
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13519,7 +13519,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13652,7 +13652,7 @@ byob
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 testError
@@ -13682,7 +13682,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 testError
@@ -13813,7 +13813,7 @@ byob
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -13843,7 +13843,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

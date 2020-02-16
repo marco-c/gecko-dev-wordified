@@ -102,7 +102,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -128,7 +128,7 @@ thrown
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -151,7 +151,7 @@ thrown
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -173,7 +173,7 @@ thrown
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -282,7 +282,7 @@ write
 a
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -305,7 +305,7 @@ thrown
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -328,7 +328,7 @@ thrown
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -350,7 +350,7 @@ thrown
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -568,7 +568,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -588,7 +588,7 @@ with
 thrownError
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -607,7 +607,7 @@ with
 thrownError
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -784,7 +784,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 controllerError
@@ -804,7 +804,7 @@ with
 controllerError
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 controllerError
@@ -822,7 +822,7 @@ same
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 controllerError
@@ -1195,7 +1195,7 @@ cancel
 (
 thrownError
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1309,7 +1309,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1324,7 +1324,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1335,7 +1335,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1449,7 +1449,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1462,7 +1462,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1593,7 +1593,7 @@ all
 [
 abortPromise
 cancelPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1767,7 +1767,7 @@ all
 writePromise
 abortPromise
 cancelPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1877,7 +1877,7 @@ ignoredError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -1973,7 +1973,7 @@ all
 (
 [
 cancelPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2070,7 +2070,7 @@ ignoredError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2171,7 +2171,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2203,7 +2203,7 @@ error
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2393,7 +2393,7 @@ can
 proceed
 .
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2581,7 +2581,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2594,7 +2594,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError
@@ -2670,7 +2670,7 @@ getReader
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 thrownError

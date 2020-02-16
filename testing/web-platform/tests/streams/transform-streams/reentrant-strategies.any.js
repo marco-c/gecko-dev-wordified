@@ -610,7 +610,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -861,7 +861,7 @@ then
 =
 >
 {
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2477,7 +2477,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

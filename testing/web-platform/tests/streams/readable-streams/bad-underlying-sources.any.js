@@ -250,7 +250,7 @@ theError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -596,7 +596,7 @@ correct
 ;
 }
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -720,7 +720,7 @@ theError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -1084,7 +1084,7 @@ getReader
 closed
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2274,7 +2274,7 @@ reader
 read
 (
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

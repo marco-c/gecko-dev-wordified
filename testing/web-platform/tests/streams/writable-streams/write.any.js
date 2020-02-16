@@ -933,7 +933,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -978,7 +978,7 @@ closedPromise
 '
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1023,7 +1023,7 @@ writePromise
 '
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1152,7 +1152,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1278,7 +1278,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -1324,7 +1324,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1346,7 +1346,7 @@ the
 controller
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1960,7 +1960,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1974,7 +1974,7 @@ be
 rejected
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

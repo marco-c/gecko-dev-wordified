@@ -119,7 +119,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -237,7 +237,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -270,7 +270,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -305,7 +305,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -450,7 +450,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -483,7 +483,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -518,7 +518,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -694,7 +694,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -727,7 +727,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -762,7 +762,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -924,7 +924,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -957,7 +957,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -992,7 +992,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1130,7 +1130,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1163,7 +1163,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1198,7 +1198,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1337,7 +1337,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1370,7 +1370,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1405,7 +1405,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1553,7 +1553,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1696,7 +1696,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -1831,7 +1831,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2010,7 +2010,7 @@ undefined
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2211,7 +2211,7 @@ undefined
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2404,7 +2404,7 @@ undefined
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2517,7 +2517,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2647,7 +2647,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2767,7 +2767,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2955,7 +2955,7 @@ undefined
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3151,7 +3151,7 @@ undefined
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3286,7 +3286,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3435,7 +3435,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -3574,7 +3574,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3841,7 +3841,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -3999,7 +3999,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4166,7 +4166,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

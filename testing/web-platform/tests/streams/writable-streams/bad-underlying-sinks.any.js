@@ -279,7 +279,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -308,7 +308,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -334,7 +334,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -433,7 +433,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -462,7 +462,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -660,7 +660,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -689,7 +689,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -826,7 +826,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -842,7 +842,7 @@ same
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1045,7 +1045,7 @@ writer
 ready
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1111,7 +1111,7 @@ transitioned
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1337,7 +1337,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1364,7 +1364,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 abortReason

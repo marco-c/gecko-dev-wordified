@@ -171,7 +171,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -186,7 +186,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -302,7 +302,7 @@ change
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -462,7 +462,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -483,7 +483,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -597,7 +597,7 @@ write
 (
 1
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -618,7 +618,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -655,7 +655,7 @@ results
 .
 push
 (
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -676,7 +676,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -890,7 +890,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1006,7 +1006,7 @@ same
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1074,7 +1074,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1221,7 +1221,7 @@ resolveWritePromise
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1436,7 +1436,7 @@ all
 (
 [
 abortPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1453,7 +1453,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1470,7 +1470,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1485,7 +1485,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1581,7 +1581,7 @@ getWriter
 const
 writePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1681,7 +1681,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1696,7 +1696,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2036,7 +2036,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2294,7 +2294,7 @@ write
 '
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2426,7 +2426,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2462,7 +2462,7 @@ write
 '
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2610,7 +2610,7 @@ push
 1
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2645,7 +2645,7 @@ push
 2
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2797,7 +2797,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2833,7 +2833,7 @@ push
 1
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2868,7 +2868,7 @@ push
 2
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -3012,7 +3012,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3041,7 +3041,7 @@ write
 )
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -3599,7 +3599,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3623,7 +3623,7 @@ then
 >
 {
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3879,7 +3879,7 @@ completes
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4022,7 +4022,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4297,7 +4297,7 @@ a
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4519,7 +4519,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4535,7 +4535,7 @@ from
 abort
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4602,7 +4602,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -4626,7 +4626,7 @@ method
 '
 )
 abortPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4706,7 +4706,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -4722,7 +4722,7 @@ from
 abort
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5033,7 +5033,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5049,7 +5049,7 @@ from
 abort
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5157,7 +5157,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5173,7 +5173,7 @@ from
 abort
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5256,7 +5256,7 @@ all
 [
 writePromise
 abortPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5337,7 +5337,7 @@ all
 (
 [
 writePromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5353,7 +5353,7 @@ from
 abort
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5681,7 +5681,7 @@ already
 closing
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5777,7 +5777,7 @@ already
 closing
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -5936,7 +5936,7 @@ already
 closing
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -6250,7 +6250,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6273,7 +6273,7 @@ error
 method
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6385,7 +6385,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6462,7 +6462,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6487,7 +6487,7 @@ error
 method
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6602,7 +6602,7 @@ all
 (
 [
 writePromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6625,7 +6625,7 @@ error
 method
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -6974,7 +6974,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -7056,7 +7056,7 @@ all
 (
 [
 closePromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -8064,7 +8064,7 @@ all
 (
 [
 writerReady1
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -8245,7 +8245,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -8260,7 +8260,7 @@ reject
 '
 )
 abortPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -8274,7 +8274,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -8488,7 +8488,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -8636,7 +8636,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -8651,7 +8651,7 @@ with
 error2
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -8786,7 +8786,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -8798,7 +8798,7 @@ reject
 '
 )
 abortPromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -9241,7 +9241,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -9424,7 +9424,7 @@ all
 (
 [
 writePromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

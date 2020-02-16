@@ -325,7 +325,7 @@ getWriter
 const
 p1
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -351,7 +351,7 @@ error
 const
 p2
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

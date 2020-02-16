@@ -79,7 +79,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -215,7 +215,7 @@ error2
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

@@ -2062,7 +2062,7 @@ promiseAsserts
 .
 push
 (
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2070,7 +2070,7 @@ reader1
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2133,7 +2133,7 @@ promiseAsserts
 .
 push
 (
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2141,7 +2141,7 @@ reader2
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2439,7 +2439,7 @@ c
 const
 promise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2554,7 +2554,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2945,7 +2945,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 myError
@@ -2955,7 +2955,7 @@ read
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 myError
@@ -2965,7 +2965,7 @@ read
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 myError
@@ -3045,7 +3045,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 myError
@@ -3055,7 +3055,7 @@ read
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 myError
@@ -3065,7 +3065,7 @@ read
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 myError

@@ -675,7 +675,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -738,7 +738,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -906,7 +906,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -919,7 +919,7 @@ should
 fail
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

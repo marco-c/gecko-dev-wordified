@@ -1219,7 +1219,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 abortError
@@ -1243,7 +1243,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 abortError

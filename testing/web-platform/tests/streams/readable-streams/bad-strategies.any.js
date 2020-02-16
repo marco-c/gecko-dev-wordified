@@ -185,7 +185,7 @@ error
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 controllerError
@@ -301,7 +301,7 @@ RangeError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
