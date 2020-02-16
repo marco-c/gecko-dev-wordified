@@ -610,7 +610,13 @@ mPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 aRv
+)
 )
 ;
 mPromise

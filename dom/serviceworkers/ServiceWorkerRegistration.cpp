@@ -1674,6 +1674,7 @@ self
 (
 ErrorResult
 &
+&
 aRv
 )
 {
@@ -1682,7 +1683,13 @@ outer
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 aRv
+)
 )
 ;
 }
@@ -1819,6 +1826,7 @@ outer
 (
 ErrorResult
 &
+&
 aRv
 )
 {
@@ -1842,6 +1850,12 @@ in
 most
 cases
 .
+aRv
+.
+SuppressException
+(
+)
+;
 outer
 -
 >

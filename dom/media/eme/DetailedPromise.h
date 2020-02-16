@@ -330,6 +330,7 @@ MaybeReject
 (
 ErrorResult
 &
+&
 aArg
 )
 =
@@ -339,6 +340,7 @@ void
 MaybeReject
 (
 ErrorResult
+&
 &
 aArg
 const
@@ -506,7 +508,13 @@ aMessage
 ;
 MaybeReject
 (
+std
+:
+:
+move
+(
 res
+)
 NS_ConvertUTF16toUTF8
 (
 aMessage
@@ -588,7 +596,13 @@ aMessage
 ;
 MaybeReject
 (
+std
+:
+:
+move
+(
 res
+)
 NS_ConvertUTF16toUTF8
 (
 aMessage

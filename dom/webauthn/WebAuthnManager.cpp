@@ -1905,7 +1905,13 @@ promise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 return
@@ -3420,7 +3426,13 @@ promise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 return

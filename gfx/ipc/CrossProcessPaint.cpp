@@ -2537,7 +2537,13 @@ mPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 }

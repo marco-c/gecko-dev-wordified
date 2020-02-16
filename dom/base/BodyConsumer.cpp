@@ -3858,7 +3858,13 @@ localPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 error
+)
 )
 ;
 }

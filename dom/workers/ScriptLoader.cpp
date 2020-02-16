@@ -13034,9 +13034,15 @@ if
 ToJSValue
 (
 aCx
+std
+:
+:
+move
+(
 mScriptLoader
 .
 mRv
+)
 &
 exn
 )

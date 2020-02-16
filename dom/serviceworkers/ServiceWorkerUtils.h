@@ -245,6 +245,7 @@ void
 (
 ErrorResult
 &
+&
 )
 >
 ServiceWorkerFailureCallback

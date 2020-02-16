@@ -1251,7 +1251,13 @@ mPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 errorResult
+)
 )
 ;
 return
@@ -1398,7 +1404,13 @@ mPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 result
+)
 )
 ;
 return

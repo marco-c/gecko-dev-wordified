@@ -752,6 +752,7 @@ reg
 (
 ErrorResult
 &
+&
 aRv
 )
 {

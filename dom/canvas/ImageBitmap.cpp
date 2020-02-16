@@ -9878,7 +9878,13 @@ mPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 return

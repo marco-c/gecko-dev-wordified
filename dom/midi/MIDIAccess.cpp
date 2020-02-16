@@ -1461,9 +1461,6 @@ MIDIPortList
 aEvent
 )
 {
-ErrorResult
-rv
-;
 for
 (
 auto
@@ -1488,6 +1485,9 @@ Warn
 and
 return
 .
+ErrorResult
+rv
+;
 MaybeCreateMIDIPort
 (
 port
@@ -1517,7 +1517,13 @@ mAccessPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 mAccessPromise

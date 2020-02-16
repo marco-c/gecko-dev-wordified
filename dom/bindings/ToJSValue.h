@@ -2288,6 +2288,7 @@ JSContext
 aCx
 ErrorResult
 &
+&
 aArgument
 JS
 :
