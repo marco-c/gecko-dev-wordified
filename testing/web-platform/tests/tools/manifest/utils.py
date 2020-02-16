@@ -793,26 +793,5 @@ func
 obj
 )
         
-obj
-.
-__dict__
-.
-setdefault
-(
-"
-__cached_properties__
-"
-set
-(
-)
-)
-.
-add
-(
-self
-.
-name
-)
-        
 return
 rv
