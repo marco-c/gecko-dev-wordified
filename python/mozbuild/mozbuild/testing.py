@@ -404,27 +404,6 @@ ui
 False
 )
     
-PUPPETEER_FIREFOX
-=
-(
-'
-firefox
--
-ui
--
-functional
-'
-'
-firefox
--
-ui
-'
-'
-.
-'
-False
-)
-    
 PYTHON_UNITTEST
 =
 (

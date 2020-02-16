@@ -686,13 +686,6 @@ harness
 '
                 
 '
-puppeteer
-/
-*
-*
-'
-                
-'
 mach_test_package_commands
 .
 py
@@ -726,14 +719,6 @@ harness
 marionette_harness
 /
 tests
-'
-                
-'
-puppeteer
-/
-firefox
-/
-docs
 '
             
 ]
