@@ -4622,16 +4622,6 @@ nsISelectionListener
 NO_REASON
 )
 ;
-/
-*
-unsafe
-*
-/
-nsresult
-DeleteFromDocument
-(
-)
-;
 mozilla
 :
 :
