@@ -118,15 +118,12 @@ wasm
 )
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 t
-new
 WebAssembly
 .
 CompileError
-(
-)
 WebAssembly
 [
 method
