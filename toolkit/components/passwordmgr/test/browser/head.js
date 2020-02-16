@@ -3579,7 +3579,7 @@ passwordGeneratedPromise
 listenForTestNotification
 (
 "
-PasswordFilledOrEdited
+PasswordEditedOrGenerated
 "
 )
 ;
@@ -3989,7 +3989,7 @@ just
 submitted
 .
 *
-PasswordFilledOrEdited
+PasswordEditedOrGenerated
 -
 a
 password
