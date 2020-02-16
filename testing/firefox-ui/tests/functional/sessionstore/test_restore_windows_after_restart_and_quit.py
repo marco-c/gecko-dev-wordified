@@ -474,11 +474,9 @@ len
 (
 self
 .
-puppeteer
+marionette
 .
-windows
-.
-all
+chrome_window_handles
 )
 1
                          
@@ -506,15 +504,9 @@ len
 (
 self
 .
-puppeteer
+marionette
 .
-windows
-.
-current
-.
-tabbar
-.
-tabs
+window_handles
 )
 1
                          
@@ -590,8 +582,13 @@ current_windows_set
         
 self
 .
+marionette
+.
 restart
 (
+in_app
+=
+True
 )
         
 current_windows_set
