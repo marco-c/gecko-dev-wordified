@@ -1132,14 +1132,6 @@ aMallocSizeOf
 )
 const
 ;
-static
-bool
-sSameSiteEnabled
-;
-/
-/
-cached
-pref
 public
 :
 NS_DECL_ISUPPORTS
