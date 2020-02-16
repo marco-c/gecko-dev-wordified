@@ -1811,6 +1811,9 @@ None
 capture_stdio
 =
 True
+recording
+=
+None
 )
 :
         
@@ -2052,6 +2055,18 @@ next_manager_number
 (
 )
         
+assert
+recording
+is
+not
+None
+        
+self
+.
+recording
+=
+recording
+        
 self
 .
 command_queue
@@ -2230,6 +2245,22 @@ spins
 "
 "
 "
+        
+self
+.
+recording
+.
+set
+(
+[
+"
+testrunner
+"
+"
+startup
+"
+]
+)
         
 self
 .
@@ -3144,6 +3175,22 @@ get_next_test
 (
 )
         
+self
+.
+recording
+.
+set
+(
+[
+"
+testrunner
+"
+"
+init
+"
+]
+)
+        
 if
 test
 is
@@ -3813,6 +3860,41 @@ self
 state
 .
 group_metadata
+)
+        
+self
+.
+recording
+.
+set
+(
+[
+"
+testrunner
+"
+"
+test
+"
+]
++
+self
+.
+state
+.
+test
+.
+id
+.
+split
+(
+"
+/
+"
+)
+[
+1
+:
+]
 )
         
 self
@@ -4849,6 +4931,24 @@ restart_on_unexpected
 )
 )
         
+self
+.
+recording
+.
+set
+(
+[
+"
+testrunner
+"
+"
+after
+-
+test
+"
+]
+)
+        
 if
 (
 not
@@ -5238,6 +5338,22 @@ binary
 "
 "
         
+self
+.
+recording
+.
+set
+(
+[
+"
+testrunner
+"
+"
+stop_runner
+"
+]
+)
+        
 if
 self
 .
@@ -5348,6 +5464,14 @@ self
 remote_queue
 =
 None
+        
+self
+.
+recording
+.
+pause
+(
+)
     
 def
 ensure_runner_stopped
@@ -6037,6 +6161,10 @@ None
 capture_stdio
 =
 True
+                 
+recording
+=
+None
 )
 :
         
@@ -6123,6 +6251,18 @@ self
 capture_stdio
 =
 capture_stdio
+        
+self
+.
+recording
+=
+recording
+        
+assert
+recording
+is
+not
+None
         
 self
 .
@@ -6355,6 +6495,12 @@ debug_info
 self
 .
 capture_stdio
+                                        
+recording
+=
+self
+.
+recording
 )
             
 manager

@@ -27,6 +27,10 @@ env
 from
 .
 import
+instruments
+from
+.
+import
 products
 from
 .
@@ -955,7 +959,46 @@ tests
 "
 "
     
+if
+kwargs
+[
+"
+instrument_to_file
+"
+]
+is
+None
+:
+        
+recorder
+=
+instruments
+.
+NullInstrument
+(
+)
+    
+else
+:
+        
+recorder
+=
+instruments
+.
+Instrument
+(
+kwargs
+[
+"
+instrument_to_file
+"
+]
+)
+    
 with
+recorder
+as
+recording
 capture
 .
 CaptureIO
@@ -970,6 +1013,17 @@ no_capture_stdio
 ]
 )
 :
+        
+recording
+.
+set
+(
+[
+"
+startup
+"
+]
+)
         
 env
 .
@@ -1068,6 +1122,20 @@ ttf
 )
             
 )
+)
+        
+recording
+.
+set
+(
+[
+"
+startup
+"
+"
+load_tests
+"
+]
 )
         
 run_info
@@ -1384,6 +1452,20 @@ run_info
 kwargs
 )
         
+recording
+.
+set
+(
+[
+"
+startup
+"
+"
+start_environment
+"
+]
+)
+        
 with
 env
 .
@@ -1418,6 +1500,20 @@ env_extras
 as
 test_environment
 :
+            
+recording
+.
+set
+(
+[
+"
+startup
+"
+"
+ensure_environment
+"
+]
+)
             
 try
 :
@@ -1456,6 +1552,17 @@ message
 )
                 
 raise
+            
+recording
+.
+set
+(
+[
+"
+startup
+"
+]
+)
             
 repeat
 =
@@ -1927,6 +2034,12 @@ test_loader
 .
 tests
                     
+recording
+.
+pause
+(
+)
+                    
 with
 ManagerGroup
 (
@@ -1999,6 +2112,10 @@ kwargs
 no_capture_stdio
 "
 ]
+                                      
+recording
+=
+recording
 )
 as
 manager_group
@@ -2055,6 +2172,19 @@ manager_group
 .
 unexpected_count
 (
+)
+                
+recording
+.
+set
+(
+[
+"
+after
+-
+end
+"
+]
 )
                 
 test_total
