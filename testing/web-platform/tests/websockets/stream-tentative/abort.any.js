@@ -170,7 +170,7 @@ signal
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -187,7 +187,7 @@ reject
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -352,7 +352,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -369,7 +369,7 @@ reject
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

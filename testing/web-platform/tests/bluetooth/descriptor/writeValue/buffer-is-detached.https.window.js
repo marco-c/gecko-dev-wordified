@@ -120,7 +120,7 @@ buffer
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -153,7 +153,7 @@ array_buffer
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

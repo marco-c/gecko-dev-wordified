@@ -362,7 +362,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -402,7 +402,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -799,7 +799,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -904,7 +904,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -1021,7 +1021,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -1202,7 +1202,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -1481,7 +1481,7 @@ resolveWrite
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -2070,7 +2070,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -2163,7 +2163,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -2290,7 +2290,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -2406,7 +2406,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 t
 '

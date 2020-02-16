@@ -614,7 +614,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -630,7 +630,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_dom
 (
 t
 '

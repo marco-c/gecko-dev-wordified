@@ -2096,7 +2096,7 @@ txt
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -2341,7 +2341,7 @@ circle
 ]
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -2823,7 +2823,7 @@ omit
 ]
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -2870,7 +2870,7 @@ order
 now
 .
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '

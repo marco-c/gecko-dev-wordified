@@ -193,7 +193,7 @@ rejects
 appropriately
 .
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -521,7 +521,7 @@ rejects
 appropriately
 .
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "

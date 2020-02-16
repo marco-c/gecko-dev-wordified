@@ -266,7 +266,7 @@ t
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -350,7 +350,7 @@ t
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -434,7 +434,7 @@ AbortController
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -517,7 +517,7 @@ AbortController
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

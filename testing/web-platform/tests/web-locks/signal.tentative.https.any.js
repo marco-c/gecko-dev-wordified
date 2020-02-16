@@ -205,7 +205,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -436,7 +436,7 @@ locks
 const
 rejected
 =
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -645,7 +645,7 @@ locks
 const
 rejected
 =
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -873,7 +873,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
