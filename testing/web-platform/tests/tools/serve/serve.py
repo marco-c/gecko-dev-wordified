@@ -4201,7 +4201,7 @@ scheme
 =
 =
 '
-http2
+h2
 '
 and
 not
@@ -4291,7 +4291,7 @@ https
 start_https_server
                          
 "
-http2
+h2
 "
 :
 start_http2_server
@@ -5406,7 +5406,8 @@ ConfigBuilder
 (
 )
     
-if
+enable_http2
+=
 kwargs
 .
 get
@@ -5415,6 +5416,19 @@ get
 h2
 "
 )
+    
+if
+enable_http2
+is
+None
+:
+        
+enable_http2
+=
+True
+    
+if
+enable_http2
 :
         
 rv
@@ -5427,7 +5441,7 @@ ports
 ]
 [
 "
-http2
+h2
 "
 ]
 =
@@ -6555,13 +6569,46 @@ dest
 "
 h2
 "
+default
+=
+None
+                        
+help
+=
+argparse
+.
+SUPPRESS
+)
+    
+parser
+.
+add_argument
+(
+"
+-
+-
+no
+-
+h2
+"
+action
+=
+"
+store_false
+"
+dest
+=
+"
+h2
+"
+default
+=
+None
                         
 help
 =
 "
-Flag
-for
-enabling
+Disable
 the
 HTTP
 /
@@ -6570,15 +6617,6 @@ HTTP
 0
 server
 "
-)
-    
-parser
-.
-set_defaults
-(
-h2
-=
-False
 )
     
 return
