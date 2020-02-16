@@ -3485,9 +3485,6 @@ const
 StyleRotate
 &
 aRotate
-TransformReferenceBox
-&
-aRefBox
 )
 {
 switch
@@ -3600,9 +3597,6 @@ const
 StyleScale
 &
 aScale
-TransformReferenceBox
-&
-aRefBox
 )
 {
 switch
@@ -3718,14 +3712,12 @@ ProcessRotate
 (
 result
 aRotate
-aRefBox
 )
 ;
 ProcessScale
 (
 result
 aScale
-aRefBox
 )
 ;
 if
