@@ -4495,6 +4495,10 @@ target_dir
 '
 output_category
 '
+        
+'
+is_gkrust
+'
     
 )
     
@@ -4510,8 +4514,15 @@ dependencies
              
 features
 target_dir
+is_gkrust
 )
 :
+        
+self
+.
+is_gkrust
+=
+is_gkrust
         
 self
 .
@@ -4847,6 +4858,9 @@ dependencies
                  
 features
 target_dir
+is_gkrust
+=
+False
 link_into
 =
 None
@@ -4903,6 +4917,8 @@ crate_type
 dependencies
 features
 target_dir
+                             
+is_gkrust
 )
 class
 SharedLibrary
@@ -5716,6 +5732,7 @@ dependencies
                  
 features
 target_dir
+is_gkrust
 )
 :
         
@@ -5741,6 +5758,8 @@ crate_type
 dependencies
 features
 target_dir
+                             
+is_gkrust
 )
 class
 TestManifest
@@ -7725,6 +7744,10 @@ localized
 '
 force
 '
+        
+'
+py2
+'
     
 )
     
@@ -7746,6 +7769,10 @@ localized
 =
 False
 force
+=
+False
+                 
+py2
 =
 False
 )
@@ -7810,6 +7837,12 @@ self
 force
 =
 force
+        
+self
+.
+py2
+=
+py2
         
 suffixes
 =
