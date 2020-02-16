@@ -229,10 +229,6 @@ Units
 .
 h
 "
-using
-namespace
-mozilla
-;
 /
 *
 mingw
@@ -714,6 +710,10 @@ token
 endif
 #
 endif
+using
+namespace
+mozilla
+;
 WindowsUIUtils
 :
 :
