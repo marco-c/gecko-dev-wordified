@@ -803,10 +803,6 @@ mInDocResponsiveContent
 (
 false
 )
-mLazyLoading
-(
-false
-)
 mCurrentDensity
 (
 1
@@ -8245,6 +8241,11 @@ this
 mLazyLoading
 =
 true
+;
+UpdateImageState
+(
+true
+)
 ;
 }
 }
