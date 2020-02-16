@@ -137,9 +137,9 @@ is
 passed
 a
 '
-holdings
-'
+held
 value
+'
 (
 that
 *
@@ -773,7 +773,8 @@ v
 *
 |
 |
-Holdings
+Held
+value
 |
 |
 |
@@ -907,7 +908,7 @@ the
 group
 and
 the
-holdings
+heldValue
 .
 This
 is
@@ -1111,7 +1112,7 @@ for
 each
 record
 the
-holdings
+heldValue
 is
 queued
 on
@@ -1280,7 +1281,7 @@ of
 finalization
 group
 and
-holdings
+held
 value
 .
 class
@@ -1294,7 +1295,7 @@ enum
 GroupSlot
 =
 0
-HoldingsSlot
+HeldValueSlot
 SlotCount
 }
 ;
@@ -1328,7 +1329,7 @@ cx
 HandleFinalizationGroupObject
 group
 HandleValue
-holdings
+heldValue
 )
 ;
 FinalizationGroupObject
@@ -1339,7 +1340,7 @@ group
 const
 ;
 Value
-holdings
+heldValue
 (
 )
 const
@@ -1768,15 +1769,16 @@ group
 '
 s
 queued
-holdings
+held
+values
 .
 In
 the
 spec
 this
+/
+/
 is
-/
-/
 called
 FinalizationGroupCleanupIterator
 .
