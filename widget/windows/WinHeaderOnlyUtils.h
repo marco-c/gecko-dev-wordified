@@ -2832,6 +2832,16 @@ return
 mError
 ;
 }
+DWORD
+PrevProt
+(
+)
+const
+{
+return
+mPrevProt
+;
+}
 AutoVirtualProtect
 (
 const
