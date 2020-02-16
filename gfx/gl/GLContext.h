@@ -270,6 +270,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 plstr
 .
 h
