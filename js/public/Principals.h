@@ -481,8 +481,8 @@ cx
 JS
 :
 :
-HandleString
-code
+HandleValue
+value
 )
 ;
 struct

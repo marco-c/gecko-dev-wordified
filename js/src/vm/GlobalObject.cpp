@@ -5319,7 +5319,7 @@ isRuntimeCodeGenEnabled
 JSContext
 *
 cx
-HandleString
+HandleValue
 code
 Handle
 <

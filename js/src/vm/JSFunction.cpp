@@ -12807,6 +12807,16 @@ global
 (
 )
 ;
+RootedValue
+v
+(
+cx
+StringValue
+(
+functionText
+)
+)
+;
 if
 (
 !
@@ -12816,7 +12826,7 @@ GlobalObject
 isRuntimeCodeGenEnabled
 (
 cx
-functionText
+v
 global
 )
 )

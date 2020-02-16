@@ -569,8 +569,8 @@ cx
 JS
 :
 :
-HandleString
-aCode
+HandleValue
+aValue
 )
 ;
 static
