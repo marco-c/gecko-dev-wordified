@@ -275,7 +275,7 @@ return
 state
 ;
 }
-void
+uint32_t
 ProxyAccessible
 :
 :
@@ -287,6 +287,9 @@ aName
 )
 const
 {
+uint32_t
+flag
+;
 Unused
 <
 <
@@ -298,7 +301,12 @@ SendName
 mID
 &
 aName
+&
+flag
 )
+;
+return
+flag
 ;
 }
 void

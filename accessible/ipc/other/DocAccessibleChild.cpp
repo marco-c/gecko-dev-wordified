@@ -739,6 +739,9 @@ aID
 nsString
 *
 aName
+uint32_t
+*
+aFlag
 )
 {
 Accessible
@@ -760,6 +763,9 @@ IPC_OK
 (
 )
 ;
+*
+aFlag
+=
 acc
 -
 >

@@ -349,6 +349,9 @@ aID
 nsString
 *
 aName
+uint32_t
+*
+aFlag
 )
 override
 ;
