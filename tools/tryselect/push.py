@@ -961,6 +961,10 @@ check_working_directory
 push
 )
     
+if
+try_task_config
+:
+        
 display_push_estimates
 (
 try_task_config
