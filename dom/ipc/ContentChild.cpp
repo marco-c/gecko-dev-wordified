@@ -10896,7 +10896,7 @@ gfx
 VRManagerChild
 :
 :
-ReinitForContent
+InitForContent
 (
 std
 :
