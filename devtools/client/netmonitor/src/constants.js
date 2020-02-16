@@ -1265,16 +1265,6 @@ true
 name
 :
 "
-initiator
-"
-canFilter
-:
-true
-}
-{
-name
-:
-"
 type
 "
 canFilter
