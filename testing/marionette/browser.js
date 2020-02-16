@@ -2020,6 +2020,9 @@ openBrowserWindow
 focus
 =
 false
+isPrivate
+=
+false
 )
 {
 switch
@@ -2087,6 +2090,11 @@ window
 .
 OpenBrowserWindow
 (
+{
+private
+:
+isPrivate
+}
 )
 ;
 let

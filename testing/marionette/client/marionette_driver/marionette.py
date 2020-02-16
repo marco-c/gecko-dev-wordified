@@ -9582,6 +9582,9 @@ None
 focus
 =
 False
+private
+=
+False
 )
 :
         
@@ -9661,6 +9664,17 @@ be
 focused
         
 :
+param
+private
+:
+If
+true
+open
+a
+private
+window
+        
+:
 returns
 :
 Dict
@@ -9691,6 +9705,11 @@ focus
 "
 :
 focus
+"
+private
+"
+:
+private
 }
         
 return
