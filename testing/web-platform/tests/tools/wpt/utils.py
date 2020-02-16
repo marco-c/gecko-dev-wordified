@@ -278,6 +278,13 @@ check_output
 (
 args
 )
+.
+decode
+(
+'
+utf8
+'
+)
     
 except
 subprocess
