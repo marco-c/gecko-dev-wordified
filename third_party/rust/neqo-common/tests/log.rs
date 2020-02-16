@@ -98,6 +98,17 @@ warnings
 )
 )
 ]
+#
+!
+[
+warn
+(
+clippy
+:
+:
+use_self
+)
+]
 use
 neqo_common
 :

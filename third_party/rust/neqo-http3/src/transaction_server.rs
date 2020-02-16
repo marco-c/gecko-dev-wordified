@@ -278,7 +278,7 @@ Http3ServerConnEvents
 )
 -
 >
-TransactionServer
+Self
 {
 qinfo
 !
@@ -295,7 +295,7 @@ stream_id
 stream_id
 )
 ;
-TransactionServer
+Self
 {
 recv_state
 :

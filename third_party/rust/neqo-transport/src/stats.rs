@@ -114,7 +114,7 @@ received
 pub
 packets_rx
 :
-u64
+usize
 /
 /
 /
@@ -124,7 +124,7 @@ sent
 pub
 packets_tx
 :
-u64
+usize
 /
 /
 /
@@ -134,5 +134,17 @@ received
 pub
 dups_rx
 :
-u64
+usize
+/
+/
+/
+Dropped
+datagrams
+or
+parts
+thereof
+pub
+dropped_rx
+:
+usize
 }
