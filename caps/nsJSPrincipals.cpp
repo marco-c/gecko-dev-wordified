@@ -2293,6 +2293,12 @@ isSystemOrAddonPrincipal
 (
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 return
 this
 -
