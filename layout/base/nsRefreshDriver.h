@@ -2682,7 +2682,7 @@ EnsureTimerStarted
 ;
 }
 void
-IntersectionObservationAdded
+EnsureIntersectionObservationsUpdateHappens
 (
 )
 {
