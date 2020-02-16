@@ -1018,7 +1018,7 @@ RefreshDriver
 )
 -
 >
-EnsureIntersectionObservationsUpdateHappens
+IntersectionObservationAdded
 (
 )
 ;
