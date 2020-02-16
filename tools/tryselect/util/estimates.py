@@ -1097,10 +1097,22 @@ in
 tasklist
 ]
     
+#
+Default
+in
+case
+there
+are
+no
+tasks
+    
 return
 max
 (
 longest_paths
+default
+=
+0
 )
 def
 determine_quantile
