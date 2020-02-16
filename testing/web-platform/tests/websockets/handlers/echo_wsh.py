@@ -6,6 +6,8 @@ usr
 bin
 /
 python
+import
+six
 from
 mod_pywebsocket
 import
@@ -111,7 +113,9 @@ if
 isinstance
 (
 line
-unicode
+six
+.
+text_type
 )
 :
             

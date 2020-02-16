@@ -81,7 +81,7 @@ connection
 .
 write
 (
-            
+b
 '
 HTTP
 /
@@ -95,7 +95,8 @@ x0d
 \
 x0a
 '
-            
+                                 
+b
 '
 Content
 -
@@ -107,7 +108,8 @@ x0d
 \
 x0a
 '
-            
+                                 
+b
 '
 WWW
 -
@@ -124,7 +126,8 @@ x0d
 \
 x0a
 '
-            
+                                 
+b
 '
 \
 x0d

@@ -29,6 +29,7 @@ connection
 .
 write
 (
+b
 '
 x
 '
@@ -47,6 +48,7 @@ connection
 .
 write
 (
+b
 '
 x
 '
@@ -65,6 +67,7 @@ connection
 .
 write
 (
+b
 '
 x
 '
@@ -83,6 +86,7 @@ connection
 .
 write
 (
+b
 '
 x
 '
@@ -101,6 +105,7 @@ connection
 .
 write
 (
+b
 '
 x
 '
