@@ -964,6 +964,9 @@ return
 error
 :
 type
+!
+=
+null
 ?
 new
 device
