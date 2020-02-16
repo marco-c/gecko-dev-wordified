@@ -805,7 +805,7 @@ also
 the
 method
 in
-Element
+nsINode
 .
 virtual
 void
