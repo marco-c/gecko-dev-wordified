@@ -120,13 +120,10 @@ self
 )
 {
 await
-promise_rejects
+promise_rejects_js
 (
 t
-new
 TypeError
-(
-)
 navigator
 .
 locks

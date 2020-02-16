@@ -138,12 +138,10 @@ expectPreflight
 )
 {
 await
-promise_rejects
+promise_rejects_js
 (
 t
 TypeError
-(
-)
 request
 (
 )

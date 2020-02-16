@@ -660,13 +660,10 @@ is
 now
 detached
 return
-promise_rejects
+promise_rejects_js
 (
 t
-new
 TypeError
-(
-)
 reader
 .
 read

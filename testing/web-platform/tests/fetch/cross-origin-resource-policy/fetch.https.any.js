@@ -382,10 +382,9 @@ origin
 "
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 test
-new
 TypeError
 fetch
 (
@@ -460,10 +459,9 @@ site
 "
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 test
-new
 TypeError
 fetch
 (
@@ -538,10 +536,9 @@ origin
 "
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 test
-new
 TypeError
 fetch
 (
@@ -743,10 +740,9 @@ cors
 )
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 test
-new
 TypeError
 fetch
 (
