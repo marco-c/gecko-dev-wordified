@@ -1527,6 +1527,14 @@ if
 (
 aEvent
 .
+target
+.
+value
+&
+&
+(
+aEvent
+.
 keyCode
 =
 =
@@ -1543,6 +1551,7 @@ keyCode
 aEvent
 .
 DOM_VK_RETURN
+)
 )
 {
 LoginManagerChild
