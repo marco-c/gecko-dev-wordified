@@ -248,8 +248,19 @@ browsingContext
 let
 sourceHost
 ;
+let
+sourceURL
+;
 try
 {
+sourceURL
+=
+triggeringPrincipal
+.
+URI
+.
+spec
+;
 sourceHost
 =
 triggeringPrincipal
@@ -330,6 +341,7 @@ method
 link
 "
 sourceHost
+sourceURL
 browsingContext
 }
 ;
