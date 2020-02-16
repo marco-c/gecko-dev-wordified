@@ -1913,9 +1913,24 @@ None
 )
 :
         
+#
+XXX
+merge
+with
+DesktopEnv
+.
+get_browser_args
+        
 options
 =
 [
+"
+-
+-
+allow
+-
+downgrade
+"
 ]
         
 if

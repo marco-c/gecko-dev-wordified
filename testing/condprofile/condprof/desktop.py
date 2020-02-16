@@ -363,6 +363,13 @@ options
 [
 "
 -
+-
+allow
+-
+downgrade
+"
+"
+-
 profile
 "
 self
