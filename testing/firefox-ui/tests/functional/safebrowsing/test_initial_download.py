@@ -60,10 +60,6 @@ absolute_import
 import
 os
 from
-firefox_puppeteer
-import
-PuppeteerMixin
-from
 marionette_driver
 import
 Wait
@@ -74,7 +70,6 @@ MarionetteTestCase
 class
 TestSafeBrowsingInitialDownload
 (
-PuppeteerMixin
 MarionetteTestCase
 )
 :
@@ -651,6 +646,8 @@ fresh
 profile
             
 self
+.
+marionette
 .
 restart
 (
