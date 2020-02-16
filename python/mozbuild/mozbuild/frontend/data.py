@@ -4353,9 +4353,17 @@ to
 work
         
 #
-on
-the
-below
+with
+Linux
+but
+it
+would
+need
+to
+be
+extended
+for
+other
 platforms
 .
         
@@ -4370,15 +4378,11 @@ substs
 OS_TARGET
 '
 ]
-in
-(
+=
+=
 '
 Linux
 '
-'
-Darwin
-'
-)
         
 self
 .
