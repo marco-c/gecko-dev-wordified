@@ -944,6 +944,11 @@ RenderLayer
 )
 override
 {
+RenderMaskLayers
+(
+this
+)
+;
 }
 void
 ComputeEffectiveTransforms
