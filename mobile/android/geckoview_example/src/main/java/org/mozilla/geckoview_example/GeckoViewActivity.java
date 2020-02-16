@@ -2245,11 +2245,6 @@ extras
 }
 runtimeSettingsBuilder
 .
-useContentProcessHint
-(
-useMultiprocess
-)
-.
 useMultiprocess
 (
 useMultiprocess
