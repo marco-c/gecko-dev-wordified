@@ -111,7 +111,7 @@ wasm
 )
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 t
 error
