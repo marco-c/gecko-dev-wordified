@@ -26446,6 +26446,19 @@ Element
 aArrayOfListAndTableRelatedElements
 )
 ;
+/
+*
+*
+*
+TODO
+:
+Document
+what
+this
+does
+.
+*
+/
 enum
 class
 StartOrEnd
@@ -26454,6 +26467,7 @@ start
 end
 }
 ;
+static
 void
 ReplaceOrphanedStructure
 (
@@ -26467,7 +26481,7 @@ nsINode
 >
 >
 &
-aNodeArray
+aArrayOfNodes
 Element
 &
 aListOrTableElement
