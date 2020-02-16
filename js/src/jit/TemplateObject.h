@@ -315,13 +315,6 @@ const
 ;
 inline
 bool
-isInlineTypedObject
-(
-)
-const
-;
-inline
-bool
 isCallObject
 (
 )
