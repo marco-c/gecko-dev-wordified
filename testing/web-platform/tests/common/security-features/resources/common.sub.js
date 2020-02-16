@@ -3421,7 +3421,7 @@ Y
 requestViaSharedWorker
 2
 Y
--
+Y
 Y
 requestViaVideo
 3
