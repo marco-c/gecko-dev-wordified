@@ -3145,7 +3145,11 @@ d
         
 latest_release
 =
+(
 0
+0
+0
+)
         
 for
 item
@@ -3176,7 +3180,8 @@ m
                 
 version
 =
-[
+tuple
+(
 int
 (
 item
@@ -3189,7 +3194,7 @@ m
 groups
 (
 )
-]
+)
                 
 if
 version
@@ -3205,7 +3210,11 @@ assert
 latest_release
 !
 =
+(
 0
+0
+0
+)
         
 return
 "
