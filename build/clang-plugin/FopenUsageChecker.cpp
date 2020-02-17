@@ -407,6 +407,12 @@ HANDLE
 )
 )
 )
+unless
+(
+isInWhitelistForFopenUsage
+(
+)
+)
 )
 )
 .
