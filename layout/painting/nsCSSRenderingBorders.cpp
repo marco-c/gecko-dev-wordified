@@ -32087,8 +32087,6 @@ if
 (
 gradient
 .
-kind
-.
 IsLinear
 (
 )

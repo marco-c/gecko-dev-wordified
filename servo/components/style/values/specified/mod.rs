@@ -711,7 +711,6 @@ image
 :
 :
 {
-GradientKind
 Image
 MozImageRect
 }
