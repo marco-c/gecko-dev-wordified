@@ -407,12 +407,6 @@ HANDLE
 )
 )
 )
-unless
-(
-isInWhitelistForFopenUsage
-(
-)
-)
 )
 )
 .
