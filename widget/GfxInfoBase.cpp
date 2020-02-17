@@ -7580,13 +7580,7 @@ aFeature
 const
 {
 return
-aFeature
-=
-=
-nsIGfxInfo
-:
-:
-FEATURE_WEBRENDER
+false
 ;
 }
 nsresult

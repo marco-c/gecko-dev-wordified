@@ -1191,6 +1191,12 @@ mRenderMode
 ;
 private
 :
+bool
+HasBattery
+(
+)
+override
+;
 void
 Init
 (
