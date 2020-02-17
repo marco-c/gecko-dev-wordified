@@ -9573,9 +9573,9 @@ HTMLEditor
 :
 GetBetterInsertionPointFor
 (
-nsINode
+nsIContent
 &
-aNodeToInsert
+aContentToInsert
 const
 EditorRawDOMPoint
 &
@@ -9626,7 +9626,7 @@ IsSet
 /
 Cannot
 insert
-aNodeToInsert
+aContentToInsert
 into
 this
 DOM
@@ -9667,7 +9667,7 @@ if
 IsBlockNode
 (
 &
-aNodeToInsert
+aContentToInsert
 )
 )
 {
