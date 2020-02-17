@@ -197,7 +197,7 @@ MOZ_DIAGNOSTIC_ASSERT
 mOnStopRequestCalled
 |
 |
-mAsyncOpenFailed
+mChannelOpenFailed
 )
 ;
 }
