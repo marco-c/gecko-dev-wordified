@@ -26599,9 +26599,16 @@ nsINode
 >
 &
 aArrayOfNodes
+const
+nsTArray
+<
+OwningNonNull
+<
 Element
+>
+>
 &
-aListOrTableElement
+aArrayOfListAndTableRelatedElements
 )
 const
 ;
