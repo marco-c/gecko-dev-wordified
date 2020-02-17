@@ -3075,7 +3075,12 @@ void
 AfterGLDrawCall
 (
 )
+{
+mHeavyGLCallsSinceLastFlush
+=
+true
 ;
+}
 /
 /
 Do
@@ -3101,7 +3106,8 @@ void
 BeforeGLReadCall
 (
 )
-;
+{
+}
 /
 /
 Do
@@ -17538,11 +17544,6 @@ return
 mWorkAroundDriverBugs
 ;
 }
-bool
-IsDrawingToDefaultFramebuffer
-(
-)
-;
 bool
 IsOffscreenSizeAllowed
 (
