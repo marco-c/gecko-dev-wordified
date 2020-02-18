@@ -506,6 +506,8 @@ resolve
 (
 )
 ;
+return
+;
 }
 this
 .
