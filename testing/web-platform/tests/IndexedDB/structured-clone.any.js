@@ -1774,12 +1774,6 @@ DOMException
 /
 /
 *
-DetectedText
-DetectedFace
-DetectedBarcode
-/
-/
-*
 RTCCertificate
 /
 /
