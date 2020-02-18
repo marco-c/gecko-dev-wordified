@@ -58,11 +58,6 @@ MPL
 /
 #
 include
-<
-algorithm
->
-#
-include
 "
 CustomAttributes
 .
@@ -86,6 +81,11 @@ FrontendPluginRegistry
 .
 h
 "
+#
+include
+<
+algorithm
+>
 /
 *
 Having
@@ -608,9 +608,11 @@ ATTR
 (
 a
 )
+\
 case
 a
 :
+\
 return
 attrs
 .
