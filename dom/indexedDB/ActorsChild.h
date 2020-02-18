@@ -123,6 +123,20 @@ mozilla_dom_indexeddb_actorschild_h__
 #
 include
 "
+IDBCursorType
+.
+h
+"
+#
+include
+"
+IDBTransaction
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI
@@ -135,28 +149,6 @@ include
 mozilla
 /
 Attributes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-IDBCursorType
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
-IDBTransaction
 .
 h
 "
@@ -815,8 +807,6 @@ SendDeleteMeInternal
 (
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -844,6 +834,7 @@ FactoryRequestParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundIDBFactoryRequestChild
@@ -852,6 +843,7 @@ PBackgroundIDBFactoryRequestChild
 *
 aActor
 )
+override
 ;
 PBackgroundIDBDatabaseChild
 *
@@ -865,6 +857,7 @@ PBackgroundIDBFactoryRequestChild
 *
 aRequest
 )
+override
 ;
 bool
 DeallocPBackgroundIDBDatabaseChild
@@ -873,6 +866,7 @@ PBackgroundIDBDatabaseChild
 *
 aActor
 )
+override
 ;
 mozilla
 :
@@ -1225,8 +1219,6 @@ DeleteDatabaseRequestResponse
 aResponse
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -1275,6 +1267,7 @@ PrincipalInfo
 &
 aPrincipalInfo
 )
+override
 ;
 mozilla
 :
@@ -1290,6 +1283,7 @@ uint64_t
 &
 aCurrentVersion
 )
+override
 ;
 }
 ;
@@ -1437,8 +1431,6 @@ ReleaseDOMObject
 (
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -1466,6 +1458,7 @@ IPCBlob
 &
 aIPCBlob
 )
+override
 ;
 bool
 DeallocPBackgroundIDBDatabaseFileChild
@@ -1474,6 +1467,7 @@ PBackgroundIDBDatabaseFileChild
 *
 aActor
 )
+override
 ;
 PBackgroundIDBDatabaseRequestChild
 *
@@ -1484,6 +1478,7 @@ DatabaseRequestParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundIDBDatabaseRequestChild
@@ -1492,6 +1487,7 @@ PBackgroundIDBDatabaseRequestChild
 *
 aActor
 )
+override
 ;
 PBackgroundIDBTransactionChild
 *
@@ -1509,6 +1505,7 @@ Mode
 &
 aMode
 )
+override
 ;
 bool
 DeallocPBackgroundIDBTransactionChild
@@ -1517,6 +1514,7 @@ PBackgroundIDBTransactionChild
 *
 aActor
 )
+override
 ;
 PBackgroundIDBVersionChangeTransactionChild
 *
@@ -1539,6 +1537,7 @@ int64_t
 &
 aNextIndexId
 )
+override
 ;
 mozilla
 :
@@ -1578,6 +1577,7 @@ PBackgroundIDBVersionChangeTransactionChild
 *
 aActor
 )
+override
 ;
 PBackgroundMutableFileChild
 *
@@ -1592,6 +1592,7 @@ nsString
 &
 aType
 )
+override
 ;
 bool
 DeallocPBackgroundMutableFileChild
@@ -1600,6 +1601,7 @@ PBackgroundMutableFileChild
 *
 aActor
 )
+override
 ;
 mozilla
 :
@@ -1622,6 +1624,7 @@ uint64_t
 &
 aNewVersion
 )
+override
 ;
 mozilla
 :
@@ -1633,6 +1636,7 @@ IPCResult
 RecvInvalidate
 (
 )
+override
 ;
 mozilla
 :
@@ -1644,6 +1648,7 @@ IPCResult
 RecvCloseAfterInvalidationComplete
 (
 )
+override
 ;
 }
 ;
@@ -1716,8 +1721,6 @@ CreateFileRequestResponse
 aResponse
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -1981,8 +1984,6 @@ BackgroundTransactionChild
 (
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -2015,6 +2016,7 @@ nsresult
 &
 aResult
 )
+override
 ;
 PBackgroundIDBRequestChild
 *
@@ -2025,6 +2027,7 @@ RequestParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundIDBRequestChild
@@ -2033,6 +2036,7 @@ PBackgroundIDBRequestChild
 *
 aActor
 )
+override
 ;
 PBackgroundIDBCursorChild
 *
@@ -2043,6 +2047,7 @@ OpenCursorParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundIDBCursorChild
@@ -2051,6 +2056,7 @@ PBackgroundIDBCursorChild
 *
 aActor
 )
+override
 ;
 }
 ;
@@ -2152,8 +2158,6 @@ aDOMObject
 )
 ;
 }
-public
-:
 /
 /
 IPDL
@@ -2186,6 +2190,7 @@ nsresult
 &
 aResult
 )
+override
 ;
 PBackgroundIDBRequestChild
 *
@@ -2196,6 +2201,7 @@ RequestParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundIDBRequestChild
@@ -2204,6 +2210,7 @@ PBackgroundIDBRequestChild
 *
 aActor
 )
+override
 ;
 PBackgroundIDBCursorChild
 *
@@ -2214,6 +2221,7 @@ OpenCursorParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundIDBCursorChild
@@ -2222,6 +2230,7 @@ PBackgroundIDBCursorChild
 *
 aActor
 )
+override
 ;
 }
 ;
@@ -2342,8 +2351,6 @@ SendDeleteMeInternal
 (
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -2371,6 +2378,7 @@ FileMode
 &
 aMode
 )
+override
 ;
 bool
 DeallocPBackgroundFileHandleChild
@@ -2379,6 +2387,7 @@ PBackgroundFileHandleChild
 *
 aActor
 )
+override
 ;
 }
 ;
@@ -2605,8 +2614,6 @@ PreprocessInfo
 aPreprocessInfos
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -2655,6 +2662,7 @@ PreprocessParams
 &
 aParams
 )
+override
 ;
 }
 ;
@@ -3069,8 +3077,6 @@ Args
 aArgs
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -3103,7 +3109,10 @@ CursorResponse
 &
 aResponse
 )
+override
 ;
+public
+:
 /
 /
 Force
@@ -3277,8 +3286,6 @@ NoteComplete
 (
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -3311,6 +3318,7 @@ bool
 &
 aAborted
 )
+override
 ;
 PBackgroundFileRequestChild
 *
@@ -3321,6 +3329,7 @@ FileRequestParams
 &
 aParams
 )
+override
 ;
 bool
 DeallocPBackgroundFileRequestChild
@@ -3329,6 +3338,7 @@ PBackgroundFileRequestChild
 *
 aActor
 )
+override
 ;
 }
 ;
@@ -3448,8 +3458,6 @@ Value
 aResponse
 )
 ;
-public
-:
 /
 /
 IPDL
@@ -3502,6 +3510,7 @@ uint64_t
 &
 aProgressMax
 )
+override
 ;
 }
 ;
@@ -3591,8 +3600,6 @@ SendDeleteMeInternal
 (
 )
 ;
-public
-:
 /
 /
 IPDL
