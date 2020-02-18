@@ -157,15 +157,6 @@ h
 #
 include
 "
-js
-/
-TrackedOptimizationInfo
-.
-h
-"
-#
-include
-"
 mozilla
 /
 HashFunctions

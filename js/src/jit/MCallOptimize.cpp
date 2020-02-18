@@ -463,12 +463,6 @@ JS
 :
 RegExpFlags
 ;
-using
-JS
-:
-:
-TrackedOutcome
-;
 namespace
 js
 {
