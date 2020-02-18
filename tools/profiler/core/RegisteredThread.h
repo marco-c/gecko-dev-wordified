@@ -1846,15 +1846,6 @@ mContext
 true
 )
 ;
-JS_SetGlobalJitCompilerOption
-(
-mContext
-JSJITCOMPILER_TRACK_OPTIMIZATIONS
-TrackOptimizationsEnabled
-(
-)
-)
-;
 if
 (
 JSTracerEnabled
