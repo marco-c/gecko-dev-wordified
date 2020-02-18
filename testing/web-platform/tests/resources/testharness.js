@@ -4216,7 +4216,7 @@ function
 e
 )
 {
-assert_throws
+assert_throws_DO_NOT_USE
 (
 expected
 function
@@ -10023,7 +10023,7 @@ thrown
 *
 /
 function
-assert_throws
+assert_throws_DO_NOT_USE
 (
 code
 func
@@ -10902,14 +10902,6 @@ prop
 }
 }
 }
-expose
-(
-assert_throws
-"
-assert_throws
-"
-)
-;
 /
 *
 *

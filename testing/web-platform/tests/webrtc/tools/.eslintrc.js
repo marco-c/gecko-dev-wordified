@@ -83,9 +83,6 @@ true
 assert_unreached
 :
 true
-assert_throws
-:
-true
 assert_idl_attribute
 :
 true

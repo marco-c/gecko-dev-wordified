@@ -33,9 +33,7 @@ to
 be
 passed
 to
-assert_throws
-or
-similar
+assert_throws_js
 )
 ;
 *

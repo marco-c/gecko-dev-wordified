@@ -14,7 +14,7 @@ global
 assert_equals
 assert_true
 assert_own_property
-assert_throws
+assert_throws_js
 assert_less_than
 *
 /
