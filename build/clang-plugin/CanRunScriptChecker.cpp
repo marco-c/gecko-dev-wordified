@@ -781,9 +781,9 @@ because
 it
 itself
 should
-/
-/
 be
+/
+/
 MOZ_CAN_RUN_SCRIPT
 .
 Note
