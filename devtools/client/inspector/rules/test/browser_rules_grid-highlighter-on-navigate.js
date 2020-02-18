@@ -288,7 +288,6 @@ shown
 await
 navigateTo
 (
-inspector
 TEST_URI_2
 )
 ;

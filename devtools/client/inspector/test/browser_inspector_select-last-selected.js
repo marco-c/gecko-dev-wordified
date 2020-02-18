@@ -549,7 +549,6 @@ else
 await
 navigateTo
 (
-inspector
 url
 )
 ;

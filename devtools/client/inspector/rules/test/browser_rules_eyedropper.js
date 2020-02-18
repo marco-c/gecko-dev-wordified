@@ -327,7 +327,6 @@ state
 await
 navigateTo
 (
-inspector
 url
 )
 ;

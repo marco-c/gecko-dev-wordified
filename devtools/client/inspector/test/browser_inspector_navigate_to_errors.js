@@ -215,8 +215,12 @@ port
 await
 navigateTo
 (
-inspector
 TEST_URL_2
+{
+isErrorPage
+:
+true
+}
 )
 ;
 const
@@ -423,8 +427,12 @@ domain
 await
 navigateTo
 (
-inspector
 TEST_URL_3
+{
+isErrorPage
+:
+true
+}
 )
 ;
 domain
@@ -504,7 +512,6 @@ url
 await
 navigateTo
 (
-inspector
 TEST_URL_4
 )
 ;
