@@ -181,11 +181,8 @@ TEST_URI
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_FILE
 )
 ;

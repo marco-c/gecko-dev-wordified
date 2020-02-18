@@ -165,11 +165,8 @@ TEST_PATH
 TEST_FILE
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 documentUrl
 )
 ;

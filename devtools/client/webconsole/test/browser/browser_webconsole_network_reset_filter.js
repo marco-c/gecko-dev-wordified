@@ -227,11 +227,8 @@ load
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_PATH
 +
 "

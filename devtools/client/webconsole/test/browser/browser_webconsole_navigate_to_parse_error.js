@@ -185,11 +185,8 @@ CSP_VIOLATION_MSG
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_VIOLATION
 )
 ;

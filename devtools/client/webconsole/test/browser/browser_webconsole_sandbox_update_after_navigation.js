@@ -198,11 +198,8 @@ load
 second
 url
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_URI2
 )
 ;

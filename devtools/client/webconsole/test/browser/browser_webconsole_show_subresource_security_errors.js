@@ -158,11 +158,8 @@ hud
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_DOC
 )
 ;

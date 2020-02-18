@@ -195,11 +195,8 @@ bug618078exception
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_URI2
 )
 ;

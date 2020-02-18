@@ -486,11 +486,8 @@ same
 value
 .
 await
-loadDocument
+navigateTo
 (
-hud2
-.
-toolbox
 TEST_URI3
 )
 ;
@@ -696,11 +693,8 @@ are
 not
 related
 await
-loadDocument
+navigateTo
 (
-hud2
-.
-toolbox
 TEST_URI4
 )
 ;

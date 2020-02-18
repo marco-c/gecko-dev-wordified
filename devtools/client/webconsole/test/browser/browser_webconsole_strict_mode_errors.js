@@ -79,7 +79,6 @@ page
 await
 loadScriptURI
 (
-hud
 "
 '
 use
@@ -120,7 +119,6 @@ code
 await
 loadScriptURI
 (
-hud
 "
 '
 use
@@ -156,7 +154,6 @@ a
 await
 loadScriptURI
 (
-hud
 "
 '
 use
@@ -205,7 +202,6 @@ p
 await
 loadScriptURI
 (
-hud
 "
 '
 use
@@ -280,7 +276,6 @@ message
 function
 loadScriptURI
 (
-hud
 script
 )
 {
@@ -346,11 +341,8 @@ script
 "
 ;
 return
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 uri
 )
 ;
