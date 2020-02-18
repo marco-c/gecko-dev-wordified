@@ -2124,6 +2124,13 @@ JSContext
 cx
 uint32_t
 errorid
+void
+*
+closure
+const
+char
+*
+errorMessage
 )
 ;
 /
