@@ -103,7 +103,6 @@ const
 {
 panel
 tab
-toolbox
 }
 =
 await
@@ -217,9 +216,8 @@ html
 "
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 url
 )
 ;
@@ -304,9 +302,8 @@ html
 "
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 url
 )
 ;
@@ -372,9 +369,8 @@ Reloading
 )
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 url
 )
 ;

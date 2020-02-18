@@ -115,15 +115,11 @@ true
 ]
 )
 ;
-toolbox
-.
-target
-.
+await
 navigateTo
 (
-{
-url
-:
+EXAMPLE_URL
++
 "
 doc
 -
@@ -133,7 +129,6 @@ statements
 .
 html
 "
-}
 )
 ;
 await

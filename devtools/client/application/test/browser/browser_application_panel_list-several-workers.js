@@ -246,9 +246,8 @@ worker
 )
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 OTHER_SCOPE_URL
 )
 ;
