@@ -435,8 +435,9 @@ private
 MessagePumpForChildProcess
 (
 )
-{
-}
+=
+default
+;
 bool
 mFirstRun
 ;
@@ -487,8 +488,9 @@ private
 MessagePumpForNonMainThreads
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

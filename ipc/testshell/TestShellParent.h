@@ -235,8 +235,9 @@ public
 TestShellCommandParent
 (
 )
-{
-}
+=
+default
+;
 bool
 SetCallback
 (

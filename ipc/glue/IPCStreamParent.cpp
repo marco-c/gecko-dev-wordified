@@ -695,8 +695,9 @@ Initialize
 IPCStreamDestinationParent
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /

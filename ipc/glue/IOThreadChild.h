@@ -274,8 +274,9 @@ size
 IOThreadChild
 (
 )
-{
-}
+=
+default
+;
 static
 MessageLoop
 *

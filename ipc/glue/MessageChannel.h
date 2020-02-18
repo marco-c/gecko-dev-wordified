@@ -310,8 +310,9 @@ private
 RefCountedMonitor
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 enum
@@ -511,8 +512,9 @@ virtual
 UntypedCallbackHolder
 (
 )
-{
-}
+=
+default
+;
 void
 Reject
 (
@@ -3574,8 +3576,9 @@ delete
 MessageTask
 (
 )
-{
-}
+=
+default
+;
 MessageChannel
 *
 mChannel
