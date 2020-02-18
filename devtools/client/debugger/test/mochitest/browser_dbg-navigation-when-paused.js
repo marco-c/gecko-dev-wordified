@@ -233,7 +233,7 @@ sent
 it
 to
 the
-debugger
+devtools
 client
 yet
 as

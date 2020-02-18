@@ -287,7 +287,7 @@ API
 *
 /
 function
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -454,7 +454,7 @@ will
 register
 itself
 to
-DebuggerClient
+DevToolsClient
 as
 a
 Pool
@@ -505,7 +505,7 @@ trouble
 of
 importing
 DebuggerSocket
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 =
@@ -543,7 +543,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerClient
+DevToolsClient
 "
 Authenticators
 "
@@ -564,7 +564,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerClient
+DevToolsClient
 "
 AuthenticationResult
 "
@@ -581,7 +581,7 @@ AuthenticationResult
 }
 )
 ;
-DebuggerClient
+DevToolsClient
 .
 prototype
 =
@@ -3059,7 +3059,7 @@ request
 .
 *
 *
-DebuggerClient
+DevToolsClient
 .
 prototype
 .
@@ -5514,7 +5514,7 @@ object
 front
 for
 this
-DebuggerClient
+DevToolsClient
 and
 the
 grip
@@ -5578,7 +5578,7 @@ EventEmitter
 .
 decorate
 (
-DebuggerClient
+DevToolsClient
 .
 prototype
 )
@@ -5630,6 +5630,6 @@ module
 exports
 =
 {
-DebuggerClient
+DevToolsClient
 }
 ;

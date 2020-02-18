@@ -2145,7 +2145,7 @@ ctx
 conn
 is
 a
-DebuggerClient
+DevToolsClient
 let
 front
 =
@@ -3810,11 +3810,11 @@ form
 *
 *
 param
-DebuggerClient
+DevToolsClient
 client
 *
 The
-DebuggerClient
+DevToolsClient
 instance
 to
 use

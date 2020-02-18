@@ -499,7 +499,7 @@ addon
 data
 as
 the
-DebuggerClient
+DevToolsClient
 would
 return
 it

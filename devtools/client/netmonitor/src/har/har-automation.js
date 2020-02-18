@@ -441,7 +441,7 @@ return
 }
 this
 .
-debuggerClient
+devToolsClient
 =
 client
 ;
@@ -556,11 +556,11 @@ webConsoleFront
 this
 .
 webConsoleFront
-debuggerClient
+devToolsClient
 :
 this
 .
-debuggerClient
+devToolsClient
 }
 )
 ;

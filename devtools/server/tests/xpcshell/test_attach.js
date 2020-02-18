@@ -182,7 +182,7 @@ ok
 (
 client
 instanceof
-DebuggerClient
+DevToolsClient
 "
 Client
 is

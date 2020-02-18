@@ -156,7 +156,7 @@ Front
 and
 instead
 use
-DebuggerClient
+DevToolsClient
 directly
 .
 *

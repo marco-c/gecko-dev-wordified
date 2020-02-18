@@ -94,7 +94,7 @@ object
 that
 get
 from
-DebuggerClient
+DevToolsClient
 .
 listTabs
 (

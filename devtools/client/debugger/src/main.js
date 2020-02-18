@@ -147,7 +147,7 @@ bootstrap
 (
 {
 targetList
-debuggerClient
+devToolsClient
 workers
 panel
 }
@@ -169,7 +169,7 @@ firefox
 "
 }
 targetList
-debuggerClient
+devToolsClient
 }
 workers
 panel

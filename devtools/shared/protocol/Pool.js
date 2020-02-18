@@ -130,7 +130,7 @@ a
 DevToolsServerConnection
 or
 a
-DebuggerClient
+DevToolsClient
 .
 Must
 have

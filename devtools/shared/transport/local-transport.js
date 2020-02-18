@@ -174,7 +174,7 @@ data
 transfers
 between
 the
-debugger
+devtools
 client
 and
 *

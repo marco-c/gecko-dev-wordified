@@ -267,7 +267,7 @@ this
 toolbox
 .
 targetList
-debuggerClient
+devToolsClient
 :
 this
 .

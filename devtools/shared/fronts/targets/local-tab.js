@@ -730,7 +730,7 @@ we
 do
 close
 the
-DebuggerClient
+DevToolsClient
 when
 the
 target

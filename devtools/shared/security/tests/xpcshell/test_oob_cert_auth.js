@@ -378,7 +378,7 @@ const
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -431,7 +431,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -737,7 +737,7 @@ const
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -790,7 +790,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -1221,7 +1221,7 @@ socket
 try
 {
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -1563,7 +1563,7 @@ socket
 try
 {
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (

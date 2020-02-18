@@ -790,7 +790,7 @@ an
 empty
 object
 as
-debugger
+devtools
 client
 calling
 any
@@ -829,7 +829,7 @@ status
 too
 old
 if
-debugger
+devtools
 client
 is
 not

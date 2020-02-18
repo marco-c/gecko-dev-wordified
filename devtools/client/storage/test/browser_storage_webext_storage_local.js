@@ -86,7 +86,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerClient
+DevToolsClient
 "
 "
 devtools
@@ -95,7 +95,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -130,7 +130,7 @@ connect
 a
 DevToolsServer
 and
-DebuggerClient
+DevToolsClient
 .
 Note
 :
@@ -151,7 +151,7 @@ the
 DevToolsServer
 and
 *
-DebuggerClient
+DevToolsClient
 on
 its
 own
@@ -167,7 +167,7 @@ an
 instance
 of
 the
-DebuggerClient
+DevToolsClient
 class
 *
 /
@@ -193,7 +193,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

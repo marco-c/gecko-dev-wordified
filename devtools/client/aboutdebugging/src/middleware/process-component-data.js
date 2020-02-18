@@ -127,7 +127,7 @@ object
 that
 get
 from
-DebuggerClient
+DevToolsClient
 .
 listProcesses
 (

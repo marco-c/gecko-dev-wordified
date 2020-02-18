@@ -2806,7 +2806,7 @@ the
 following
 option
 from
-debugger
+devtools
 client
 .
 *

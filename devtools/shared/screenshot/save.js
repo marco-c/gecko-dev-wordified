@@ -721,7 +721,7 @@ object
 window
 *
 The
-Debugger
+DevTools
 Client
 window
 .
@@ -850,7 +850,7 @@ object
 document
 *
 The
-Debugger
+DevTools
 Client
 document
 .

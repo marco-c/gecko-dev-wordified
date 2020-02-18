@@ -427,7 +427,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -439,7 +439,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -789,7 +789,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -2366,7 +2366,7 @@ global
 /
 List
 the
-DebuggerClient
+DevToolsClient
 |
 client
 |
@@ -2967,7 +2967,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -4018,7 +4018,7 @@ event
 *
 *
 param
-DebuggerClient
+DevToolsClient
 client
 *
 param
@@ -4229,7 +4229,7 @@ taken
 *
 *
 param
-DebuggerClient
+DevToolsClient
 client
 *
 param
@@ -5029,10 +5029,10 @@ global
 )
 ;
 const
-debuggerClient
+devToolsClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -5044,7 +5044,7 @@ connectPipe
 await
 connect
 (
-debuggerClient
+devToolsClient
 )
 ;
 const
@@ -5053,7 +5053,7 @@ tabs
 await
 listTabs
 (
-debuggerClient
+devToolsClient
 )
 ;
 const
@@ -5135,7 +5135,7 @@ source
 return
 {
 global
-debuggerClient
+devToolsClient
 threadFront
 sourceFront
 }
@@ -5242,14 +5242,14 @@ debuggee
 .
 *
 -
-DebuggerClient
+DevToolsClient
 client
 *
 A
 reference
 to
 the
-DebuggerClient
+DevToolsClient
 used
 to
 communicated
@@ -5490,7 +5490,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 server
 .

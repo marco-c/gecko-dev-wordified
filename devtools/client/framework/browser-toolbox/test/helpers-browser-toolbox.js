@@ -80,7 +80,7 @@ jsm
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -92,7 +92,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -489,7 +489,7 @@ try
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -537,7 +537,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

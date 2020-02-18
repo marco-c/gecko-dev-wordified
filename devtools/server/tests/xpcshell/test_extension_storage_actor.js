@@ -254,7 +254,7 @@ and
 connects
 a
 new
-Debugger
+DevTools
 client
 .
 *
@@ -308,7 +308,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

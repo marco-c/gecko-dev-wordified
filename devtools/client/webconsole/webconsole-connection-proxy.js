@@ -365,7 +365,7 @@ this
 *
 Initialize
 a
-debugger
+devtools
 client
 and
 connect

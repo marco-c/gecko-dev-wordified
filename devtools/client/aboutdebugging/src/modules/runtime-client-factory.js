@@ -83,7 +83,7 @@ index
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -95,7 +95,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -217,7 +217,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -253,7 +253,7 @@ const
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -267,7 +267,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

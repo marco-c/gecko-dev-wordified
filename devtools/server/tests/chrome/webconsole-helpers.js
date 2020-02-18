@@ -269,7 +269,7 @@ tab
 and
 disconnect
 its
-debugger
+devtools
 client
 .
 *

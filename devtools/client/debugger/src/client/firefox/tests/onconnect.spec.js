@@ -207,7 +207,7 @@ threadFront
 }
 ;
 const
-debuggerClient
+devToolsClient
 =
 {
 mainRoot
@@ -317,7 +317,7 @@ onConnect
 (
 {
 targetList
-debuggerClient
+devToolsClient
 }
 actions
 )

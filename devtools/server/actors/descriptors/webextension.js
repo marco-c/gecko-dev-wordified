@@ -982,7 +982,7 @@ in
 case
 that
 the
-debugger
+devtools
 client
 /
 /

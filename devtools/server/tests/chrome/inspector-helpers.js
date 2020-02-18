@@ -371,7 +371,7 @@ ta
 and
 disconnect
 its
-debugger
+devtools
 client
 .
 *

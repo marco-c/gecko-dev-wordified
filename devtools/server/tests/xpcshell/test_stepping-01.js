@@ -81,14 +81,14 @@ testFinish
 (
 {
 threadFront
-debuggerClient
+devToolsClient
 }
 )
 {
 await
 close
 (
-debuggerClient
+devToolsClient
 )
 ;
 do_test_finished

@@ -138,10 +138,10 @@ script
 *
 param
 client
-DebuggerClient
+DevToolsClient
 *
 The
-Debugger
+DevTools
 Client
 instance
 .

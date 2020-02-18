@@ -161,7 +161,7 @@ fronts
 *
 param
 [
-DebuggerClient
+DevToolsClient
 |
 null
 ]
@@ -172,7 +172,7 @@ conn
 must
 either
 be
-DebuggerClient
+DevToolsClient
 or
 null
 .

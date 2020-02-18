@@ -96,7 +96,7 @@ object
 that
 get
 from
-DebuggerClient
+DevToolsClient
 .
 listAllWorkers
 (

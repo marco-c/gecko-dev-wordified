@@ -425,7 +425,7 @@ will
 be
 linked
 to
-DebuggerClient
+DevToolsClient
 connected
 to
 *

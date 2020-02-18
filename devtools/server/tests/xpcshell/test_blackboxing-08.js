@@ -47,7 +47,7 @@ testFinish
 (
 {
 threadFront
-debuggerClient
+devToolsClient
 }
 )
 {
@@ -61,7 +61,7 @@ resume
 await
 close
 (
-debuggerClient
+devToolsClient
 )
 ;
 do_test_finished

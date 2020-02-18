@@ -136,7 +136,7 @@ Create
 and
 connect
 the
-DebuggerClient
+DevToolsClient
 "
 )
 ;
@@ -153,7 +153,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

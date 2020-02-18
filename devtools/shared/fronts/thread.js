@@ -218,7 +218,7 @@ API
 *
 param
 client
-DebuggerClient
+DevToolsClient
 *
 param
 actor

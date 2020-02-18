@@ -149,11 +149,11 @@ webConsoleFront
 ;
 this
 .
-debuggerClient
+devToolsClient
 =
 options
 .
-debuggerClient
+devToolsClient
 ;
 this
 .
@@ -309,7 +309,7 @@ onNetworkEvent
 ;
 this
 .
-debuggerClient
+devToolsClient
 .
 on
 (
@@ -344,7 +344,7 @@ onNetworkEvent
 ;
 this
 .
-debuggerClient
+devToolsClient
 .
 off
 (
@@ -1310,7 +1310,7 @@ one
 connection
 (
 one
-DebuggerClient
+DevToolsClient
 object
 )
 .

@@ -36,7 +36,7 @@ strict
 /
 Test
 the
-DebuggerClient
+DevToolsClient
 .
 request
 API
@@ -220,7 +220,7 @@ init
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -388,7 +388,7 @@ test_client_request_callback
 /
 Test
 that
-DebuggerClient
+DevToolsClient
 .
 request
 accepts
@@ -462,7 +462,7 @@ test_client_request_promise
 /
 Test
 that
-DebuggerClient
+DevToolsClient
 .
 request
 returns
@@ -547,7 +547,7 @@ test_client_request_promise_error
 /
 Test
 that
-DebuggerClient
+DevToolsClient
 .
 request
 returns
@@ -672,7 +672,7 @@ test_client_request_event_emitter
 /
 Test
 that
-DebuggerClient
+DevToolsClient
 .
 request
 returns
@@ -1129,7 +1129,7 @@ test_client_request_after_close
 /
 Test
 that
-DebuggerClient
+DevToolsClient
 .
 request
 fails
@@ -1270,7 +1270,7 @@ test_client_request_after_close_callback
 /
 Test
 that
-DebuggerClient
+DevToolsClient
 .
 request
 fails

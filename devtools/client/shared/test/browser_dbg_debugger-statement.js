@@ -226,7 +226,7 @@ attached
 /
 using
 the
-DebuggerClient
+DevToolsClient
 to
 listen
 to

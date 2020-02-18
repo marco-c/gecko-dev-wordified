@@ -94,7 +94,7 @@ const
 firstClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -128,7 +128,7 @@ const
 secondClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

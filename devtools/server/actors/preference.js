@@ -180,7 +180,7 @@ actor
 allows
 *
 a
-debugger
+devtools
 client
 to
 set

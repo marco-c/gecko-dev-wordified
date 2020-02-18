@@ -179,7 +179,7 @@ object
 client
 *
 The
-DebuggerClient
+DevToolsClient
 instance
 we
 live

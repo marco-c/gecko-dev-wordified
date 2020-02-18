@@ -115,10 +115,10 @@ actors
 *
 param
 client
-DebuggerClient
+DevToolsClient
 *
 The
-debugger
+devtools
 client
 parent
 .

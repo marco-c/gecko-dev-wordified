@@ -1169,7 +1169,7 @@ static
 *
 *
 *
-DebuggerClient
+DevToolsClient
 *
 memberof
 firefox
@@ -1179,7 +1179,7 @@ static
 /
 export
 type
-DebuggerClient
+DevToolsClient
 =
 {
 _activeRequests

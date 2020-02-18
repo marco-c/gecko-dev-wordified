@@ -594,11 +594,11 @@ Firefox
 *
 param
 {
-DebuggerClient
+DevToolsClient
 }
-debuggerClient
+devToolsClient
 *
-DebuggerClient
+DevToolsClient
 instance
 connected
 to
@@ -714,7 +714,7 @@ async
 function
 checkVersionCompatibility
 (
-debuggerClient
+devToolsClient
 )
 {
 const
@@ -741,7 +741,7 @@ const
 deviceFront
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .

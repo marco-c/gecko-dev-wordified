@@ -161,7 +161,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerClient
+DevToolsClient
 "
 "
 devtools
@@ -170,7 +170,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -2999,7 +2999,7 @@ null
 /
 Close
 the
-debugger
+devtools
 client
 used
 to
@@ -3164,7 +3164,7 @@ this
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

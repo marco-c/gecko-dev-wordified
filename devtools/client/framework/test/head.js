@@ -230,7 +230,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -242,7 +242,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -270,7 +270,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

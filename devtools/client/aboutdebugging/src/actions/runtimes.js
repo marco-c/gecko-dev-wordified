@@ -422,7 +422,7 @@ svg
 ;
 }
 function
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 (
 )
 {
@@ -1116,7 +1116,7 @@ once
 "
 closed
 "
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 )
 ;
 }
@@ -1366,7 +1366,7 @@ off
 "
 closed
 "
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 )
 ;
 }
@@ -2197,7 +2197,7 @@ connection
 of
 the
 associated
-DebuggerClient
+DevToolsClient
 is
 still
 valid
@@ -2991,7 +2991,7 @@ off
 "
 closed
 "
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 )
 ;
 }

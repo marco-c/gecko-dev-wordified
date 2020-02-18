@@ -119,7 +119,7 @@ actor
 pool
 that
 the
-DebuggerClient
+DevToolsClient
 uses
 to
 route
@@ -244,7 +244,7 @@ target
 creates
 its
 own
-DebuggerClient
+DevToolsClient
 for
 the
 local
@@ -282,7 +282,7 @@ do
 not
 destroy
 the
-DebuggerClient
+DevToolsClient
 on
 toolbox
 close

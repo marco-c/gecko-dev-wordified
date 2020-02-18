@@ -300,7 +300,7 @@ when
 calling
 /
 /
-DebuggerClient
+DevToolsClient
 .
 connect
 (

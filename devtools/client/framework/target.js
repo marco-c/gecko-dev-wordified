@@ -87,7 +87,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerClient
+DevToolsClient
 "
 "
 devtools
@@ -96,7 +96,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -173,7 +173,7 @@ target
 *
 param
 {
-DebuggerClient
+DevToolsClient
 }
 client
 *
@@ -340,7 +340,7 @@ process
 and
 create
 a
-DebuggerClient
+DevToolsClient
 and
 connect
 it
@@ -391,7 +391,7 @@ target
 *
 param
 {
-DebuggerClient
+DevToolsClient
 }
 client
 *
@@ -570,7 +570,7 @@ createLocalServer
 ;
 return
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

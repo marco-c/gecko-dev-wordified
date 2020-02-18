@@ -110,7 +110,7 @@ url
 import
 type
 {
-DebuggerClient
+DevToolsClient
 Target
 }
 from
@@ -150,9 +150,9 @@ Args
 currentTarget
 :
 Target
-debuggerClient
+devToolsClient
 :
-DebuggerClient
+DevToolsClient
 targets
 :
 {
@@ -459,7 +459,7 @@ Args
 const
 {
 currentTarget
-debuggerClient
+devToolsClient
 }
 =
 args
@@ -508,7 +508,7 @@ currentTarget
 workers
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .
@@ -576,7 +576,7 @@ registrations
 }
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .
@@ -619,7 +619,7 @@ windowlessServiceWorkers
 allWorkers
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .
@@ -633,7 +633,7 @@ registrations
 }
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .
@@ -795,7 +795,7 @@ args
 {
 const
 {
-debuggerClient
+devToolsClient
 }
 =
 args
@@ -806,7 +806,7 @@ processes
 }
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .

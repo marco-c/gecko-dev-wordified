@@ -454,7 +454,7 @@ ClientWrapper
 built
 using
 a
-DebuggerClient
+DevToolsClient
 for
 the
 runtime

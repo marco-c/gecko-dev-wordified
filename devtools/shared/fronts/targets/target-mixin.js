@@ -417,7 +417,7 @@ default
 we
 close
 the
-DebuggerClient
+DevToolsClient
 of
 local
 tabs
@@ -452,7 +452,7 @@ for
 which
 a
 dedicated
-DebuggerClient
+DevToolsClient
 is
 also
 created

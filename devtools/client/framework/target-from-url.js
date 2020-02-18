@@ -81,7 +81,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -93,7 +93,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -1141,7 +1141,7 @@ front
 *
 Create
 a
-DebuggerClient
+DevToolsClient
 for
 a
 given
@@ -1248,7 +1248,7 @@ promise
 that
 resolves
 a
-DebuggerClient
+DevToolsClient
 object
 *
 /
@@ -1387,7 +1387,7 @@ port
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -1438,7 +1438,7 @@ connectPipe
 }
 return
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

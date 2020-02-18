@@ -215,7 +215,7 @@ types
 *
 param
 {
-DebuggerClient
+DevToolsClient
 }
 client
 *

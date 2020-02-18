@@ -148,7 +148,7 @@ import
 type
 {
 Target
-DebuggerClient
+DevToolsClient
 Grip
 ThreadFront
 ObjectFront
@@ -203,9 +203,9 @@ currentTarget
 Target
 ;
 let
-debuggerClient
+devToolsClient
 :
-DebuggerClient
+DevToolsClient
 ;
 let
 sourceActors
@@ -244,9 +244,9 @@ type
 Dependencies
 =
 {
-debuggerClient
+devToolsClient
 :
-DebuggerClient
+DevToolsClient
 }
 ;
 function
@@ -257,11 +257,11 @@ dependencies
 Dependencies
 )
 {
-debuggerClient
+devToolsClient
 =
 dependencies
 .
-debuggerClient
+devToolsClient
 ;
 targets
 =
@@ -329,7 +329,7 @@ missing
 ;
 }
 return
-debuggerClient
+devToolsClient
 .
 createObjectFront
 (
@@ -367,7 +367,7 @@ loadProperties
 loadItemProperties
 (
 root
-debuggerClient
+devToolsClient
 )
 ;
 return
@@ -419,7 +419,7 @@ return
 const
 objFront
 =
-debuggerClient
+devToolsClient
 .
 getFrontByID
 (
@@ -459,7 +459,7 @@ Object
 )
 {
 return
-debuggerClient
+devToolsClient
 .
 request
 (
@@ -2462,7 +2462,7 @@ updateTargets
 (
 {
 currentTarget
-debuggerClient
+devToolsClient
 targets
 options
 }
@@ -2757,7 +2757,7 @@ String
 )
 {
 return
-debuggerClient
+devToolsClient
 .
 getFrontByID
 (

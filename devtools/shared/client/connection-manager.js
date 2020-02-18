@@ -111,7 +111,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -123,7 +123,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -237,7 +237,7 @@ a
 wrapper
 around
 a
-debugger
+devtools
 client
 .
 It
@@ -279,7 +279,7 @@ re
 -
 create
 a
-debugger
+devtools
 client
 .
 *
@@ -1366,7 +1366,7 @@ return
 const
 AuthenticatorType
 =
-DebuggerClient
+DevToolsClient
 .
 Authenticators
 .
@@ -1999,7 +1999,7 @@ const
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -2042,7 +2042,7 @@ this
 _client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -2151,7 +2151,7 @@ call
 in
 /
 /
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 may

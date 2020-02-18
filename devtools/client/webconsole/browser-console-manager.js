@@ -129,7 +129,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerClient
+DevToolsClient
 "
 "
 devtools
@@ -138,7 +138,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -248,7 +248,7 @@ false
 ;
 this
 .
-_debuggerClient
+_devToolsClient
 =
 null
 ;
@@ -438,7 +438,7 @@ null
 await
 this
 .
-_debuggerClient
+_devToolsClient
 .
 close
 (
@@ -446,7 +446,7 @@ close
 ;
 this
 .
-_debuggerClient
+_devToolsClient
 =
 null
 ;
@@ -807,10 +807,10 @@ true
 ;
 this
 .
-_debuggerClient
+_devToolsClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -822,7 +822,7 @@ connectPipe
 await
 this
 .
-_debuggerClient
+_devToolsClient
 .
 connect
 (
@@ -831,7 +831,7 @@ connect
 return
 this
 .
-_debuggerClient
+_devToolsClient
 .
 mainRoot
 .

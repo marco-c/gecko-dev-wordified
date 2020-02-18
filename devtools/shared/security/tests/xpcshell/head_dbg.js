@@ -36,7 +36,7 @@ strict
 *
 exported
 defer
-DebuggerClient
+DevToolsClient
 initTestDevToolsServer
 *
 /
@@ -119,7 +119,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -131,7 +131,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
