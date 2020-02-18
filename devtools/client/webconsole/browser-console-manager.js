@@ -699,7 +699,7 @@ and
 /
 so
 distinct
-DebuggerServer
+DevToolsServer
 and
 actor
 modules
@@ -719,7 +719,7 @@ true
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 loader
@@ -731,13 +731,13 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -763,7 +763,7 @@ on
 /
 /
 the
-DebuggerServer
+DevToolsServer
 so
 that
 the
@@ -785,7 +785,7 @@ for
 rationale
 )
 .
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -799,7 +799,7 @@ true
 }
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -812,7 +812,7 @@ _debuggerClient
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

@@ -158,7 +158,7 @@ js
 ;
 /
 /
-_setupDebuggerServer
+_setupDevToolsServer
 is
 from
 xpcshell
@@ -172,7 +172,7 @@ js
 /
 *
 global
-_setupDebuggerServer
+_setupDevToolsServer
 *
 /
 let
@@ -182,10 +182,10 @@ false
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
-_setupDebuggerServer
+_setupDevToolsServer
 (
 [
 testFile
@@ -207,7 +207,7 @@ true
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

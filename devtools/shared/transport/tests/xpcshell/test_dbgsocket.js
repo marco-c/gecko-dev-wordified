@@ -61,7 +61,7 @@ toTimeString
 )
 )
 ;
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -95,7 +95,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -104,7 +104,7 @@ listeningSockets
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -135,7 +135,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -160,7 +160,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -181,7 +181,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -189,7 +189,7 @@ listeningSockets
 ;
 gPort
 =
-DebuggerServer
+DevToolsServer
 .
 _listeners
 [
@@ -201,7 +201,7 @@ port
 info
 (
 "
-Debugger
+DevTools
 server
 port
 is
@@ -222,7 +222,7 @@ gExtraListener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -236,7 +236,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 2
@@ -247,7 +247,7 @@ Assert
 ok
 (
 !
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -312,7 +312,7 @@ Assert
 .
 ok
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -368,7 +368,7 @@ gPort
 const
 onDebuggerConnectionClosed
 =
-DebuggerServer
+DevToolsServer
 .
 once
 (
@@ -530,7 +530,7 @@ Assert
 ok
 (
 !
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -548,7 +548,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 2
@@ -564,7 +564,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -574,7 +574,7 @@ Assert
 .
 ok
 (
-DebuggerServer
+DevToolsServer
 .
 closeAllSocketListeners
 (
@@ -585,7 +585,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -607,7 +607,7 @@ Assert
 ok
 (
 !
-DebuggerServer
+DevToolsServer
 .
 closeAllSocketListeners
 (
@@ -618,7 +618,7 @@ Assert
 .
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -761,7 +761,7 @@ test_pipe_conn
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

@@ -83,7 +83,7 @@ run_test
 (
 )
 {
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -170,7 +170,7 @@ bulk
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -1149,7 +1149,7 @@ catch
 do_throw
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 on
 (
@@ -1396,7 +1396,7 @@ catch
 do_throw
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 on
 (

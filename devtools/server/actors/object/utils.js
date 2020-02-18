@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -73,7 +73,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -977,7 +977,7 @@ str
 length
 >
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 ;

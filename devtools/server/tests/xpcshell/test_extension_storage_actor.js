@@ -248,7 +248,7 @@ EXTENSION_STORAGE_ENABLED_PREF
 *
 Starts
 up
-Debugger
+DevTools
 server
 and
 connects
@@ -283,13 +283,13 @@ startDebugger
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -298,7 +298,7 @@ registerAllActors
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

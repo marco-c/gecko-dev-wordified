@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -73,7 +73,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -875,7 +875,7 @@ a
 remote
 chrome
 actor
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -979,7 +979,7 @@ a
 remote
 window
 actor
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -1415,13 +1415,13 @@ have
 one
 already
 running
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -1429,7 +1429,7 @@ registerAllActors
 ;
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

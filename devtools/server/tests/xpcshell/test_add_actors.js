@@ -54,7 +54,7 @@ actorID
 )
 {
 return
-DebuggerServer
+DevToolsServer
 .
 _connections
 [
@@ -93,7 +93,7 @@ before
 and
 after
 the
-DebuggerServer
+DevToolsServer
 has
 been
 initialized
@@ -223,7 +223,7 @@ const
 client
 =
 await
-startTestDebuggerServer
+startTestDevToolsServer
 (
 "
 example
@@ -500,7 +500,7 @@ Object
 .
 keys
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )

@@ -155,13 +155,13 @@ test
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -222,7 +222,7 @@ gClient
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

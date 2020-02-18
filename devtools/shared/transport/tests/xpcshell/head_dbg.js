@@ -39,7 +39,7 @@ Cr
 CC
 NetUtil
 errorCount
-initTestDebuggerServer
+initTestDevToolsServer
 writeTestTempFile
 socket_transport
 local_transport
@@ -271,7 +271,7 @@ registry
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -281,7 +281,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -622,7 +622,7 @@ finish
 .
 while
 (
-DebuggerServer
+DevToolsServer
 .
 xpcInspector
 .
@@ -631,7 +631,7 @@ eventLoopNestLevel
 0
 )
 {
-DebuggerServer
+DevToolsServer
 .
 xpcInspector
 .
@@ -709,13 +709,13 @@ listener
 Initialize
 the
 testing
-debugger
+devtools
 server
 .
 *
 /
 function
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 {
@@ -772,7 +772,7 @@ testactors
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
@@ -785,7 +785,7 @@ Allow
 incoming
 connections
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -1020,7 +1020,7 @@ function
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 )
@@ -1028,7 +1028,7 @@ listeningSockets
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -1059,7 +1059,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -1084,7 +1084,7 @@ debuggerListener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -1099,7 +1099,7 @@ open
 const
 port
 =
-DebuggerServer
+DevToolsServer
 .
 _listeners
 [
@@ -1111,7 +1111,7 @@ port
 info
 (
 "
-Debugger
+DevTools
 server
 port
 is
@@ -1153,7 +1153,7 @@ Promise
 .
 resolve
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

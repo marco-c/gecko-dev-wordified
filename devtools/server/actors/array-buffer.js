@@ -111,7 +111,7 @@ ArrayBuffer
 *
 param
 {
-DebuggerServerConnection
+DevToolsServerConnection
 }
 conn
 *

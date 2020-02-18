@@ -157,7 +157,7 @@ properties
 connection
 :
 the
-DebuggerServerConnection
+DevToolsServerConnection
 itself
 /
 /
@@ -360,7 +360,7 @@ prefix
 {
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 this
@@ -374,7 +374,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -426,7 +426,7 @@ frame
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -480,7 +480,7 @@ without
 being
 one
 .
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -491,7 +491,7 @@ true
 }
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 on
 (
@@ -506,7 +506,7 @@ _onConnectionChange
 const
 connection
 =
-DebuggerServer
+DevToolsServer
 .
 connectToParentWindowActor
 (
@@ -614,7 +614,7 @@ _onConnectionChange
 {
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 this
@@ -628,7 +628,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -667,14 +667,14 @@ process
 .
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
 )
 |
 |
-DebuggerServer
+DevToolsServer
 .
 keepAlive
 )
@@ -698,7 +698,7 @@ _destroyed
 =
 true
 ;
-DebuggerServer
+DevToolsServer
 .
 off
 (
@@ -710,7 +710,7 @@ this
 _onConnectionChange
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -771,7 +771,7 @@ return
 /
 /
 Call
-DebuggerServerConnection
+DevToolsServerConnection
 .
 close
 to
@@ -787,7 +787,7 @@ should
 end
 up
 calling
-DebuggerServerConnection
+DevToolsServerConnection
 .
 onClosed
 that

@@ -83,7 +83,7 @@ requests
 to
 start
 a
-DebuggerServer
+DevToolsServer
 for
 a
 frame
@@ -338,7 +338,7 @@ DevToolsUtils
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -348,7 +348,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -372,7 +372,7 @@ common
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -426,7 +426,7 @@ without
 being
 one
 .
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -495,7 +495,7 @@ addonId
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 connectToParent
 (
@@ -688,7 +688,7 @@ process
 See
 also
 :
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (
@@ -1016,7 +1016,7 @@ onDisconnect
 /
 /
 Call
-DebuggerServerConnection
+DevToolsServerConnection
 .
 close
 to
@@ -1032,7 +1032,7 @@ up
 /
 /
 calling
-DebuggerServerConnection
+DevToolsServerConnection
 .
 onClosed
 that
@@ -1223,14 +1223,14 @@ process
 .
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
 )
 |
 |
-DebuggerServer
+DevToolsServer
 .
 keepAlive
 )
@@ -1238,7 +1238,7 @@ keepAlive
 return
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 off
 (
@@ -1248,7 +1248,7 @@ connectionchange
 destroyServer
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -1281,7 +1281,7 @@ destroy
 ;
 }
 }
-DebuggerServer
+DevToolsServer
 .
 on
 (

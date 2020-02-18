@@ -63,7 +63,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -73,7 +73,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -414,7 +414,7 @@ Observer
 ;
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -643,7 +643,7 @@ onPageHide
 }
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -695,7 +695,7 @@ messageManager
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -827,7 +827,7 @@ data
 {
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )

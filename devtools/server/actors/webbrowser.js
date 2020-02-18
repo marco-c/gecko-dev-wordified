@@ -85,7 +85,7 @@ Services
 ;
 var
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -95,7 +95,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -426,7 +426,7 @@ wm
 .
 getEnumerator
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -548,7 +548,7 @@ exits
 *
 param
 connection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 conection
@@ -700,7 +700,7 @@ interface
 *
 param
 connection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 connection
@@ -1884,7 +1884,7 @@ wm
 .
 getEnumerator
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -2057,7 +2057,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -2831,7 +2831,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -3839,7 +3839,7 @@ wm
 .
 getEnumerator
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -4002,7 +4002,7 @@ wm
 .
 getEnumerator
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -4834,7 +4834,7 @@ window
 !
 =
 =
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -5123,7 +5123,7 @@ window
 !
 =
 =
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )

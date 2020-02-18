@@ -67,7 +67,7 @@ try
 to
 interact
 with
-DebuggerServer
+DevToolsServer
 /
 /
 before
@@ -83,7 +83,7 @@ socketListener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 {
 }
 )
@@ -96,14 +96,14 @@ throws
 )
 =
 >
-DebuggerServer
+DevToolsServer
 .
 addSocketListener
 (
 socketListener
 )
 /
-DebuggerServer
+DevToolsServer
 has
 not
 been
@@ -125,7 +125,7 @@ Assert
 .
 throws
 (
-DebuggerServer
+DevToolsServer
 .
 closeAllSocketListeners
 /
@@ -149,7 +149,7 @@ Assert
 .
 throws
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 /
@@ -175,7 +175,7 @@ Allow
 incoming
 connections
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -204,7 +204,7 @@ Assert
 .
 throws
 (
-DebuggerServer
+DevToolsServer
 .
 closeAllSocketListeners
 /
@@ -230,7 +230,7 @@ Assert
 .
 throws
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 /
@@ -268,7 +268,7 @@ testactors
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
@@ -282,14 +282,14 @@ they
 should
 work
 .
-DebuggerServer
+DevToolsServer
 .
 addSocketListener
 (
 socketListener
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 closeAllSocketListeners
 (
@@ -314,7 +314,7 @@ up
 const
 client1
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -379,7 +379,7 @@ actor
 const
 client2
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

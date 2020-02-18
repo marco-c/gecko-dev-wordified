@@ -119,7 +119,7 @@ ChromeUtils
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -129,7 +129,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -432,7 +432,7 @@ isParentInterceptEnabled
 |
 |
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )

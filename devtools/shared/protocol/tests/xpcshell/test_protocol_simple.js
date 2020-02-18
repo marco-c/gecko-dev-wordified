@@ -745,7 +745,7 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 =
@@ -761,7 +761,7 @@ conn
 ;
 }
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (

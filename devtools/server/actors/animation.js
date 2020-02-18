@@ -113,7 +113,7 @@ be
 one
 instance
 per
-debugger
+devtools
 server
 .
 *

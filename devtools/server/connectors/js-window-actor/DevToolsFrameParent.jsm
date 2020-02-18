@@ -167,7 +167,7 @@ false
 /
 Map
 of
-DebuggerServerConnection
+DevToolsServerConnection
 '
 s
 used
@@ -270,7 +270,7 @@ form
 connection
 :
 the
-DebuggerServerConnection
+DevToolsServerConnection
 used
 to
 communicate
@@ -321,7 +321,7 @@ about
 prefixes
 :
 all
-DebuggerServerConnections
+DevToolsServerConnections
 have
 a
 prefix
@@ -345,7 +345,7 @@ parent
 process
 /
 /
-DebuggerServerConnections
+DevToolsServerConnections
 also
 have
 forwarding
@@ -411,7 +411,7 @@ that
 s
 used
 by
-DebuggerServerConnection
+DevToolsServerConnection
 when
 /
 /

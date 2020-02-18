@@ -92,7 +92,7 @@ chrome
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -102,7 +102,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -1833,7 +1833,7 @@ toolboxSelectedNodeActorID
 const
 actor
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (
@@ -1982,7 +1982,7 @@ object
 const
 consoleActor
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (
@@ -3854,7 +3854,7 @@ toolboxConsoleActorID
 const
 consoleActor
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (

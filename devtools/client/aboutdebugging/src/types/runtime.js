@@ -603,7 +603,7 @@ networkRuntimeConnectionParameter
 host
 name
 of
-debugger
+devtools
 server
 to
 connect
@@ -619,7 +619,7 @@ isRequired
 port
 number
 of
-debugger
+devtools
 server
 to
 connect
@@ -653,7 +653,7 @@ socket
 path
 to
 connect
-debugger
+devtools
 server
 socketPath
 :
@@ -674,7 +674,7 @@ parameter
 to
 connect
 to
-debugger
+devtools
 server
 /
 /

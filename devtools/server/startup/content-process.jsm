@@ -72,7 +72,7 @@ requests
 to
 start
 a
-DebuggerServer
+DevToolsServer
 for
 an
 entire
@@ -227,7 +227,7 @@ Init
 a
 custom
 invisible
-DebuggerServer
+DevToolsServer
 in
 order
 to
@@ -270,7 +270,7 @@ true
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 gLoader
@@ -282,13 +282,13 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -340,7 +340,7 @@ the
 browser
 toolbox
 .
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -420,7 +420,7 @@ client
 .
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -430,7 +430,7 @@ hasConnection
 return
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 off
 (
@@ -440,7 +440,7 @@ connectionchange
 destroyServer
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -457,7 +457,7 @@ gLoader
 null
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 on
 (
@@ -518,7 +518,7 @@ parent
 /
 child
 processes
-debugger
+devtools
 servers
 RDP
 via
@@ -528,7 +528,7 @@ message
 managers
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 loader
@@ -540,7 +540,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -549,7 +549,7 @@ server
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 connectToParent
 (
@@ -775,7 +775,7 @@ onDestroy
 /
 /
 Call
-DebuggerServerConnection
+DevToolsServerConnection
 .
 close
 to
@@ -791,7 +791,7 @@ up
 /
 /
 calling
-DebuggerServerConnection
+DevToolsServerConnection
 .
 onClosed
 that

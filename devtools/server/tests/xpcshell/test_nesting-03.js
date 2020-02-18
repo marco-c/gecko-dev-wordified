@@ -65,7 +65,7 @@ test
 nesting1
 "
 ;
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -96,7 +96,7 @@ firstClient
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -130,7 +130,7 @@ secondClient
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

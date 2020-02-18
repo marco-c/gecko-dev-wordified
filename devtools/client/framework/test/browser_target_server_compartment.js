@@ -35,7 +35,7 @@ Bug
 -
 Ensure
 that
-DebuggerServer
+DevToolsServer
 runs
 in
 its
@@ -526,7 +526,7 @@ dedicated
 loader
 used
 for
-DebuggerServer
+DevToolsServer
 to
 be
 destroyed
@@ -600,7 +600,7 @@ true
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 customLoader
@@ -612,7 +612,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -638,19 +638,19 @@ client
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -662,7 +662,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -959,7 +959,7 @@ ensure
 cleaning
 up
 the
-DebuggerServer
+DevToolsServer
 /
 /
 spawn
@@ -994,7 +994,7 @@ manually
 here
 :
 await
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

@@ -169,7 +169,7 @@ conn
 *
 Either
 a
-DebuggerServerConnection
+DevToolsServerConnection
 or
 a
 DebuggerClient

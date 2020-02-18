@@ -359,7 +359,7 @@ finish
 .
 while
 (
-DebuggerServer
+DevToolsServer
 .
 xpcInspector
 .
@@ -368,7 +368,7 @@ eventLoopNestLevel
 0
 )
 {
-DebuggerServer
+DevToolsServer
 .
 xpcInspector
 .

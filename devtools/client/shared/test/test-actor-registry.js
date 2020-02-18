@@ -498,7 +498,7 @@ tab
 {
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -508,7 +508,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -557,13 +557,13 @@ a
 server
 is
 running
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -575,7 +575,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -613,7 +613,7 @@ getTab
 will
 spawn
 a
-DebuggerServer
+DevToolsServer
 and
 ActorRegistry
 in

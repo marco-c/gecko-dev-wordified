@@ -141,7 +141,7 @@ CommonJS
 module
 with
 the
-debugger
+devtools
 server
 .
 *
@@ -668,7 +668,7 @@ CommonJS
 module
 from
 the
-debugger
+devtools
 server
 .
 *
@@ -2158,7 +2158,7 @@ _connections
 {
 /
 /
-DebuggerServerConnection
+DevToolsServerConnection
 in
 child
 process
@@ -2620,7 +2620,7 @@ _connections
 {
 /
 /
-DebuggerServerConnection
+DevToolsServerConnection
 in
 child
 process

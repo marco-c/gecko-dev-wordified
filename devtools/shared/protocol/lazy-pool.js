@@ -159,7 +159,7 @@ conn
 *
 Is
 a
-DebuggerServerConnection
+DevToolsServerConnection
 .
 Must
 have
@@ -533,7 +533,7 @@ ActorPool
 conn
 *
 The
-DebuggerServerConnection
+DevToolsServerConnection
 in
 which
 the
@@ -997,7 +997,7 @@ ActorPool
 conn
 *
 The
-DebuggerServerConnection
+DevToolsServerConnection
 in
 which
 the

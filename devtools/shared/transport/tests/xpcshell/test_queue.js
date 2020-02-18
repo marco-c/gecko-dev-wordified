@@ -86,7 +86,7 @@ run_test
 (
 )
 {
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -109,7 +109,7 @@ test_transport
 local_transport
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -222,7 +222,7 @@ Object
 .
 keys
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -665,7 +665,7 @@ Object
 .
 keys
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -680,7 +680,7 @@ Object
 .
 keys
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -691,12 +691,12 @@ for
 const
 connId
 in
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
 {
-DebuggerServer
+DevToolsServer
 .
 _connections
 [
@@ -708,7 +708,7 @@ onBulkPacket
 on_bulk_packet
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 on
 (

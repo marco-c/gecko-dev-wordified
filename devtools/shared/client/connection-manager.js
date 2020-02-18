@@ -93,7 +93,7 @@ emitter
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -103,7 +103,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -252,7 +252,7 @@ a
 connection
 to
 a
-debugger
+devtools
 server
 .
 Once
@@ -1981,7 +1981,7 @@ host
 )
 {
 return
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

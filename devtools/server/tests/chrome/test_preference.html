@@ -176,7 +176,7 @@ client
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -186,7 +186,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -208,13 +208,13 @@ waitForExplicitFinish
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -226,7 +226,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -630,7 +630,7 @@ then
 =
 >
 {
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

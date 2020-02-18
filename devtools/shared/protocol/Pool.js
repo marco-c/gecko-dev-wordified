@@ -127,7 +127,7 @@ conn
 *
 Either
 a
-DebuggerServerConnection
+DevToolsServerConnection
 or
 a
 DebuggerClient
@@ -989,7 +989,7 @@ getting
 along
 with
 the
-debugger
+devtools
 server
 pools
 should

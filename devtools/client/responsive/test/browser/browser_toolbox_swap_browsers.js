@@ -117,7 +117,7 @@ jsm
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -127,7 +127,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -136,7 +136,7 @@ server
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -150,7 +150,7 @@ Object
 .
 getOwnPropertyNames
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )

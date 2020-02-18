@@ -113,7 +113,7 @@ ArrayBuffer
 from
 the
 *
-debugger
+devtools
 server
 .
 *

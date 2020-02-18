@@ -394,7 +394,7 @@ request
 *
 param
 {
-DebuggerServerConnection
+DevToolsServerConnection
 }
 conn
 *

@@ -73,7 +73,7 @@ Services
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -83,7 +83,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -784,7 +784,7 @@ getTarget
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 )

@@ -43,13 +43,13 @@ Allow
 incoming
 connections
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -256,7 +256,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -568,7 +568,7 @@ cleanup
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

@@ -35,7 +35,7 @@ strict
 /
 /
 Test
-DebuggerServerConnection
+DevToolsServerConnection
 .
 spawnActorInParentProcess
 .
@@ -451,7 +451,7 @@ contructor
 argument
 is
 a
-DebuggerServerConnection
+DevToolsServerConnection
 instance
 "
 )

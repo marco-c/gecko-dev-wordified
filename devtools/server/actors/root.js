@@ -152,7 +152,7 @@ pool
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -162,7 +162,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -298,7 +298,7 @@ param
 conn
 *
 The
-DebuggerServerConnection
+DevToolsServerConnection
 whose
 root
 actor
@@ -1296,7 +1296,7 @@ allowChromeProcess
 )
 {
 return
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 ;
@@ -2034,7 +2034,7 @@ script
 start
 a
 *
-debugger
+devtools
 server
 and
 read
@@ -2618,7 +2618,7 @@ outerWindowID
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 )
@@ -3699,7 +3699,7 @@ id
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 )
@@ -4560,7 +4560,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )
@@ -5024,7 +5024,7 @@ request
 so
 that
 *
-DebuggerServerConnection
+DevToolsServerConnection
 .
 onPacket
 can

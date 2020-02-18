@@ -161,7 +161,7 @@ ChangesActor
 *
 param
 {
-DebuggerServerConnection
+DevToolsServerConnection
 }
 conn
 *

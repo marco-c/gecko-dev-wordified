@@ -37,7 +37,7 @@ getService
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -47,7 +47,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -95,11 +95,11 @@ function
 Hack
 !
 Fetch
-DebuggerServerConnection
+DevToolsServerConnection
 objects
 directly
 within
-DebuggerServer
+DevToolsServer
 guts
 .
 for
@@ -107,7 +107,7 @@ for
 const
 id
 in
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -115,7 +115,7 @@ _connections
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 _connections
 [

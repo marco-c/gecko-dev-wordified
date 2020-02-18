@@ -285,7 +285,7 @@ the
 ServiceWorkerRegistrationActor
 *
 param
-DebuggerServerConnection
+DevToolsServerConnection
 conn
 *
 The

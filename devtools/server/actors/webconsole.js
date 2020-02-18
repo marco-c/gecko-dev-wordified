@@ -129,7 +129,7 @@ chrome
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -139,7 +139,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -916,7 +916,7 @@ connection
 to
 the
 client
-DebuggerServerConnection
+DevToolsServerConnection
 .
 *
 param
@@ -1305,7 +1305,7 @@ null
 *
 *
 The
-debugger
+devtools
 server
 connection
 instance
@@ -7053,7 +7053,7 @@ is
 encountered
 that
 the
-debugger
+devtools
 server
 doesn
 '
@@ -9556,7 +9556,7 @@ lineText
 .
 length
 >
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 )
@@ -9568,7 +9568,7 @@ lineText
 substr
 (
 0
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 )

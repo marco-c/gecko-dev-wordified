@@ -491,7 +491,7 @@ DebuggerSocket
 Connects
 to
 a
-debugger
+devtools
 server
 socket
 .
@@ -509,7 +509,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -522,7 +522,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -837,7 +837,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -850,7 +850,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -1263,7 +1263,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -1276,7 +1276,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -2561,7 +2561,7 @@ remote
 connections
 to
 the
-DebuggerServer
+DevToolsServer
 .
 *
 This
@@ -2620,9 +2620,9 @@ thrown
 *
 param
 {
-DebuggerServer
+DevToolsServer
 }
-debuggerServer
+devToolsServer
 *
 param
 {
@@ -2807,15 +2807,15 @@ false
 function
 SocketListener
 (
-debuggerServer
+devToolsServer
 socketOptions
 )
 {
 this
 .
-_debuggerServer
+_devToolsServer
 =
-debuggerServer
+devToolsServer
 ;
 /
 /
@@ -3114,7 +3114,7 @@ _validateOptions
 ;
 this
 .
-_debuggerServer
+_devToolsServer
 .
 addSocketListener
 (
@@ -3688,7 +3688,7 @@ null
 }
 this
 .
-_debuggerServer
+_devToolsServer
 .
 removeSocketListener
 (
@@ -4093,7 +4093,7 @@ to
 *
 the
 |
-DebuggerServer
+DevToolsServer
 |
 .
 *
@@ -4354,7 +4354,7 @@ off
 to
 the
 |
-DebuggerServer
+DevToolsServer
 |
 .
 *
@@ -5062,7 +5062,7 @@ this
 .
 _listener
 .
-_debuggerServer
+_devToolsServer
 .
 closeAllSocketListeners
 (

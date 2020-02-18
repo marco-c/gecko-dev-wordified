@@ -2710,7 +2710,7 @@ this
 /
 /
 {
-DebuggerServerConnectionPrefix
+DevToolsServerConnectionPrefix
 }
 .
 {

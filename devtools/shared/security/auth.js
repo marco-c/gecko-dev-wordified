@@ -716,7 +716,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -729,7 +729,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -846,7 +846,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -859,7 +859,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -1711,7 +1711,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -1724,7 +1724,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -1943,7 +1943,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -1956,7 +1956,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -2535,7 +2535,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -2548,7 +2548,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *

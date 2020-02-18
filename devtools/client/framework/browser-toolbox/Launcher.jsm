@@ -734,7 +734,7 @@ prototype
 *
 Initializes
 the
-debugger
+devtools
 server
 .
 *
@@ -749,7 +749,7 @@ if
 (
 this
 .
-debuggerServer
+devToolsServer
 )
 {
 dumpn
@@ -868,7 +868,7 @@ true
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 this
@@ -882,7 +882,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -912,9 +912,9 @@ socket
 ;
 this
 .
-debuggerServer
+devToolsServer
 =
-DebuggerServer
+DevToolsServer
 ;
 dumpn
 (
@@ -926,14 +926,14 @@ loader
 instance
 for
 the
-DebuggerServer
+DevToolsServer
 .
 "
 )
 ;
 this
 .
-debuggerServer
+devToolsServer
 .
 init
 (
@@ -985,7 +985,7 @@ actors
 .
 this
 .
-debuggerServer
+devToolsServer
 .
 registerAllActors
 (
@@ -993,7 +993,7 @@ registerAllActors
 ;
 this
 .
-debuggerServer
+devToolsServer
 .
 allowChromeProcess
 =
@@ -1010,7 +1010,7 @@ browser
 actors
 for
 the
-DebuggerServer
+DevToolsServer
 .
 "
 )
@@ -1058,7 +1058,7 @@ SocketListener
 (
 this
 .
-debuggerServer
+devToolsServer
 socketOptions
 )
 ;
@@ -1096,7 +1096,7 @@ Error
 (
 "
 No
-debugger
+devtools
 server
 port
 "
@@ -1118,7 +1118,7 @@ server
 ;
 dump
 (
-Debugger
+DevTools
 Server
 for
 Browser
@@ -2170,12 +2170,12 @@ if
 (
 this
 .
-debuggerServer
+devToolsServer
 )
 {
 this
 .
-debuggerServer
+devToolsServer
 .
 destroy
 (
@@ -2183,7 +2183,7 @@ destroy
 ;
 this
 .
-debuggerServer
+devToolsServer
 =
 null
 ;

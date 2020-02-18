@@ -372,7 +372,7 @@ connect
 it
 to
 the
-debugger
+devtools
 server
 .
 *

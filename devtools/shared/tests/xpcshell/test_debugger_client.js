@@ -38,7 +38,7 @@ DebuggerClient
 tests
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -48,7 +48,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -99,13 +99,13 @@ createClient
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -117,7 +117,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

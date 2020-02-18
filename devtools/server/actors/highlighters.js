@@ -4271,7 +4271,7 @@ used
 outside
 of
 the
-debugger
+devtools
 server
 context
 .

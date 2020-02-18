@@ -66,7 +66,7 @@ info
 "
 Initialising
 the
-debugger
+devtools
 server
 and
 client

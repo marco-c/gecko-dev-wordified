@@ -1308,7 +1308,7 @@ WalkerActor
 *
 param
 {
-DebuggerServerConnection
+DevToolsServerConnection
 }
 conn
 *

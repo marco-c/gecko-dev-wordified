@@ -57,7 +57,7 @@ bulk
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
@@ -70,7 +70,7 @@ Allow
 incoming
 connections
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -95,7 +95,7 @@ test_bulk_send_error
 local_transport
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

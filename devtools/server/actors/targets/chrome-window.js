@@ -421,7 +421,7 @@ getWindow
 *
 param
 connection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 connection

@@ -98,14 +98,14 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServer
+DevToolsServer
 "
 "
 devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -188,7 +188,7 @@ object
 connection
 *
 The
-debugger
+devtools
 server
 connection
 to
@@ -420,7 +420,7 @@ onActorCreated
 )
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 _childMessageManagers
 .
@@ -504,7 +504,7 @@ onActorCreated
 )
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 _childMessageManagers
 .
@@ -542,7 +542,7 @@ that
 s
 used
 by
-DebuggerServerConnection
+DevToolsServerConnection
 const
 connPrefix
 =
@@ -1625,7 +1625,7 @@ add
 -
 ons
 .
-DebuggerServer
+DevToolsServer
 .
 emit
 (

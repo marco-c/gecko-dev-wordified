@@ -1568,7 +1568,7 @@ onAccessibilityInspectorUpdated
 Older
 versions
 of
-debugger
+devtools
 server
 do
 not

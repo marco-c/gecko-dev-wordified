@@ -36,7 +36,7 @@ jsm
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -46,7 +46,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -134,18 +134,18 @@ log
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 initialized
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -159,7 +159,7 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -184,7 +184,7 @@ the
 tab
 with
 the
-debugger
+devtools
 server
 *
 and

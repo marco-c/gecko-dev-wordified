@@ -42,7 +42,7 @@ tabs
 /
 var
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -52,7 +52,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -122,13 +122,13 @@ async
 =
 >
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -156,7 +156,7 @@ TAB_URL_2
 /
 Connect
 to
-debugger
+devtools
 server
 to
 fetch
@@ -173,7 +173,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

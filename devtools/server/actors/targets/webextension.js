@@ -652,7 +652,7 @@ process
 *
 param
 {
-DebuggerServerConnection
+DevToolsServerConnection
 }
 conn
 *

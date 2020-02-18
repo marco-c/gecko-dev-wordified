@@ -67,14 +67,14 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServer
+DevToolsServer
 "
 "
 devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -331,7 +331,7 @@ is
 passed
 spawn
 a
-DebuggerServer
+DevToolsServer
 in
 the
 parent
@@ -347,7 +347,7 @@ it
 to
 this
 local
-DebuggerServer
+DevToolsServer
 *
 -
 call
@@ -441,7 +441,7 @@ start
 the
 /
 /
-DebuggerServer
+DevToolsServer
 here
 once
 and
@@ -449,7 +449,7 @@ for
 all
 tools
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -536,7 +536,7 @@ See
 Bug
 1420134
 .
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -552,7 +552,7 @@ get
 child
 process
 actors
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -572,7 +572,7 @@ return
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

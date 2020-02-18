@@ -257,7 +257,7 @@ it
 !
 "
 ;
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 =
@@ -340,7 +340,7 @@ longString
 substr
 (
 0
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 )

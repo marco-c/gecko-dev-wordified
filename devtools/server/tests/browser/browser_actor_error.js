@@ -85,13 +85,13 @@ test
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -126,7 +126,7 @@ true
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

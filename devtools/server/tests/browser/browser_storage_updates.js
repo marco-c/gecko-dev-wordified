@@ -1014,7 +1014,7 @@ destroy
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

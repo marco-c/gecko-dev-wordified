@@ -305,7 +305,7 @@ exits
 *
 param
 aConnection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 conection
@@ -461,7 +461,7 @@ interface
 *
 param
 aConnection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 connection

@@ -123,14 +123,14 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServer
+DevToolsServer
 "
 "
 devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -143,7 +143,7 @@ true
 *
 Creates
 a
-DebuggerServerConnection
+DevToolsServerConnection
 .
 *
 *
@@ -237,7 +237,7 @@ SocketListener
 *
 /
 function
-DebuggerServerConnection
+DevToolsServerConnection
 (
 prefix
 transport
@@ -480,11 +480,11 @@ this
 }
 exports
 .
-DebuggerServerConnection
+DevToolsServerConnection
 =
-DebuggerServerConnection
+DevToolsServerConnection
 ;
-DebuggerServerConnection
+DevToolsServerConnection
 .
 prototype
 =
@@ -2094,7 +2094,7 @@ is
 needed
 :
 in
-DebuggerServerConnection
+DevToolsServerConnection
 instances
 in
 child
@@ -3058,7 +3058,7 @@ _transport
 =
 null
 ;
-DebuggerServer
+DevToolsServer
 .
 _connectionClosed
 (
@@ -3339,7 +3339,7 @@ child
 process
 ask
 the
-DebuggerServer
+DevToolsServer
 in
 the
 parent

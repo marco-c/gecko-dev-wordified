@@ -1048,7 +1048,7 @@ by
 the
 /
 /
-debugger
+devtools
 server
 .
 function

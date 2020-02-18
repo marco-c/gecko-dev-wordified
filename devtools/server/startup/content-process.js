@@ -80,7 +80,7 @@ requests
 to
 start
 a
-DebuggerServer
+DevToolsServer
 for
 an
 entire

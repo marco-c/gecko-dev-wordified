@@ -110,7 +110,7 @@ string
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -120,7 +120,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -3347,7 +3347,7 @@ mode
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -4887,7 +4887,7 @@ this
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -11598,7 +11598,7 @@ a
 LongStringActor
 string
 reaches
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 we
@@ -11628,7 +11628,7 @@ here
 const
 maxLength
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 -
@@ -15156,7 +15156,7 @@ a
 LongStringActor
 string
 reaches
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 we
@@ -15186,7 +15186,7 @@ here
 const
 maxLength
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 -
@@ -15385,7 +15385,7 @@ maybeSetupChildProcess
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )

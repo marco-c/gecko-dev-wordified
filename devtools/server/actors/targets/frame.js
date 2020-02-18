@@ -272,7 +272,7 @@ process
 *
 param
 connection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 conection

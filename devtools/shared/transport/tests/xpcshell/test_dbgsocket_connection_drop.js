@@ -109,7 +109,7 @@ toTimeString
 )
 )
 ;
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -307,7 +307,7 @@ payload
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -338,7 +338,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -363,7 +363,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;

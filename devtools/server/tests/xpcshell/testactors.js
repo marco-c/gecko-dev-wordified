@@ -91,7 +91,7 @@ thread
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -101,7 +101,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -213,7 +213,7 @@ Set
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 addTestGlobal
 =
@@ -231,7 +231,7 @@ global
 ;
 }
 ;
-DebuggerServer
+DevToolsServer
 .
 removeTestGlobal
 =
@@ -249,7 +249,7 @@ global
 ;
 }
 ;
-DebuggerServer
+DevToolsServer
 .
 getTestGlobal
 =
@@ -291,7 +291,7 @@ gAllowNewThreadGlobals
 =
 false
 ;
-DebuggerServer
+DevToolsServer
 .
 allowNewThreadGlobals
 =
@@ -305,7 +305,7 @@ true
 ;
 }
 ;
-DebuggerServer
+DevToolsServer
 .
 disallowNewThreadGlobals
 =
@@ -422,7 +422,7 @@ added
 with
 /
 /
-DebuggerServer
+DevToolsServer
 .
 addTestGlobal
 .

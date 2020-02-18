@@ -169,7 +169,7 @@ client
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -179,7 +179,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -197,13 +197,13 @@ Instantiate
 a
 minimal
 server
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -212,12 +212,12 @@ true
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 )
 {
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -227,7 +227,7 @@ registerAllActors
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

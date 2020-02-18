@@ -91,7 +91,7 @@ actors
 to
 spawn
 a
-DebuggerServer
+DevToolsServer
 in
 the
 content
@@ -109,12 +109,12 @@ the
 parent
 process
 *
-DebuggerServer
+DevToolsServer
 and
 the
 content
 process
-DebuggerServer
+DevToolsServer
 will
 also
 rely

@@ -131,7 +131,7 @@ Services
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -141,7 +141,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -367,7 +367,7 @@ BrowsingContextTargetActor
 *
 param
 connection
-DebuggerServerConnection
+DevToolsServerConnection
 *
 The
 connection
@@ -516,7 +516,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )

@@ -324,13 +324,13 @@ disabled
 return
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 =
 RootActor
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (

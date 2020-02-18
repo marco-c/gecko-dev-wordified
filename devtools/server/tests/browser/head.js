@@ -191,7 +191,7 @@ registry
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -201,7 +201,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -793,7 +793,7 @@ target
 ;
 }
 function
-initDebuggerServer
+initDevToolsServer
 (
 )
 {
@@ -802,7 +802,7 @@ try
 /
 /
 Sometimes
-debugger
+devtools
 server
 does
 not
@@ -815,7 +815,7 @@ previous
 /
 tests
 .
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -829,7 +829,7 @@ e
 {
 info
 (
-DebuggerServer
+DevToolsServer
 destroy
 error
 :
@@ -846,13 +846,13 @@ stack
 )
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -865,7 +865,7 @@ initPerfFront
 (
 )
 {
-initDebuggerServer
+initDevToolsServer
 (
 )
 ;
@@ -875,7 +875,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

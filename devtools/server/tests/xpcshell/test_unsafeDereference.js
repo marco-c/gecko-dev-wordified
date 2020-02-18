@@ -66,7 +66,7 @@ is
 not
 really
 a
-debugger
+devtools
 server
 test
 ;

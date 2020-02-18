@@ -76,7 +76,7 @@ chrome
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -86,7 +86,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -209,7 +209,7 @@ any
 child
 processes
 return
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (
@@ -436,7 +436,7 @@ in
 any
 child
 processes
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (

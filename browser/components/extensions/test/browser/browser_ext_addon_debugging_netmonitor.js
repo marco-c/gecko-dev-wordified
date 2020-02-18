@@ -94,7 +94,7 @@ client
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -104,7 +104,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -153,13 +153,13 @@ setupToolboxTest
 extensionId
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -168,7 +168,7 @@ registerAllActors
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

@@ -418,7 +418,7 @@ jsm
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -428,7 +428,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -574,7 +574,7 @@ actorID
 const
 serverWalker
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (

@@ -253,7 +253,7 @@ IP
 address
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -266,7 +266,7 @@ port
 number
 of
 the
-debugger
+devtools
 server
 .
 *
@@ -731,7 +731,7 @@ that
 products
 embedding
 the
-debugger
+devtools
 server
 may
 *

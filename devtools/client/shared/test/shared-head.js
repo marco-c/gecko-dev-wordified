@@ -1297,7 +1297,7 @@ ends
 .
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -1307,7 +1307,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -1316,7 +1316,7 @@ server
 ok
 (
 !
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -1325,7 +1325,7 @@ hasConnection
 The
 main
 process
-DebuggerServer
+DevToolsServer
 has
 no
 pending
@@ -1360,7 +1360,7 @@ pass
 .
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -1376,7 +1376,7 @@ Object
 .
 values
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -5157,7 +5157,7 @@ to
 be
 passed
 to
-DebuggerServer
+DevToolsServer
 .
 registerModule
 *

@@ -1310,7 +1310,7 @@ in
 its
 own
 *
-Debugger
+DevTools
 Server
 instance
 .
@@ -1324,7 +1324,7 @@ it
 uses
 a
 different
-DebuggerServer
+DevToolsServer
 .
 Therefore
 it

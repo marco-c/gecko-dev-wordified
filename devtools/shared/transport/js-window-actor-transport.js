@@ -108,7 +108,7 @@ communicate
 between
 *
 the
-DebuggerServer
+DevToolsServer
 living
 in
 the
@@ -116,7 +116,7 @@ parent
 process
 and
 the
-DebuggerServer
+DevToolsServer
 *
 living
 in

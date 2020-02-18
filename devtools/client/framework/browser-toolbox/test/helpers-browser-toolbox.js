@@ -457,7 +457,7 @@ The
 port
 of
 the
-DebuggerServer
+DevToolsServer
 installed
 in
 the

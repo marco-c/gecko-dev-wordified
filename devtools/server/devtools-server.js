@@ -133,7 +133,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServerConnection
+DevToolsServerConnection
 "
 "
 devtools
@@ -362,7 +362,7 @@ emitter
 *
 *
 *
-DebuggerServer
+DevToolsServer
 is
 a
 singleton
@@ -392,7 +392,7 @@ can
 also
 create
 other
-DebuggerServer
+DevToolsServer
 that
 will
 live
@@ -430,7 +430,7 @@ connected
 to
 *
 a
-DebuggerServer
+DevToolsServer
 running
 in
 the
@@ -447,7 +447,7 @@ process
 *
 But
 another
-DebuggerServer
+DevToolsServer
 will
 be
 created
@@ -471,7 +471,7 @@ being
 a
 singleton
 the
-DebuggerServer
+DevToolsServer
 still
 has
 a
@@ -488,7 +488,7 @@ needs
 to
 spawn
 a
-DebuggerServer
+DevToolsServer
 the
 init
 (
@@ -532,7 +532,7 @@ called
 *
 /
 var
-DebuggerServer
+DevToolsServer
 =
 {
 _listeners
@@ -689,7 +689,7 @@ runs
 a
 single
 shared
-DebuggerServer
+DevToolsServer
 and
 should
 not
@@ -747,7 +747,7 @@ root
 actor
 registered
 on
-DebuggerServer
+DevToolsServer
 .
 *
 /
@@ -769,7 +769,7 @@ createRootActor
 *
 Initialize
 the
-debugger
+devtools
 server
 .
 *
@@ -894,7 +894,7 @@ before
 shutting
 down
 the
-debugger
+devtools
 server
 .
 Such
@@ -917,7 +917,7 @@ be
 called
 whenever
 a
-debugger
+devtools
 server
 is
 no
@@ -934,7 +934,7 @@ this
 method
 returns
 the
-debugger
+devtools
 server
 must
 be
@@ -1009,7 +1009,7 @@ false
 dumpn
 (
 "
-Debugger
+DevTools
 server
 is
 shut
@@ -1054,7 +1054,7 @@ new
 Error
 (
 "
-DebuggerServer
+DevToolsServer
 has
 not
 been
@@ -1084,7 +1084,7 @@ Error
 (
 "
 Use
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
@@ -1276,7 +1276,7 @@ possible
 actors
 for
 this
-DebuggerServer
+DevToolsServer
 .
 *
 /
@@ -2705,7 +2705,7 @@ const
 conn
 =
 new
-DebuggerServerConnection
+DevToolsServerConnection
 (
 connID
 transport
@@ -2876,7 +2876,7 @@ connection
 }
 /
 /
-DebuggerServer
+DevToolsServer
 extension
 API
 .
@@ -3194,7 +3194,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerServer
+DevToolsServer
 "
 Authenticators
 "
@@ -3215,7 +3215,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerServer
+DevToolsServer
 "
 AuthenticationResult
 "
@@ -3236,12 +3236,12 @@ EventEmitter
 .
 decorate
 (
-DebuggerServer
+DevToolsServer
 )
 ;
 exports
 .
-DebuggerServer
+DevToolsServer
 =
-DebuggerServer
+DevToolsServer
 ;
