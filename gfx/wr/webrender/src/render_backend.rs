@@ -3363,7 +3363,7 @@ property_bindings
 FrameMsg
 :
 :
-AppendDynamicProperties
+AppendDynamicTransformProperties
 (
 property_bindings
 )
@@ -3374,7 +3374,7 @@ self
 .
 dynamic_properties
 .
-add_properties
+add_transforms
 (
 property_bindings
 )
