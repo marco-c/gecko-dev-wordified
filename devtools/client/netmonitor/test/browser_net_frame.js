@@ -848,7 +848,6 @@ request
 .
 const
 {
-tab
 monitor
 }
 =
@@ -925,13 +924,9 @@ false
 )
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-tab
-.
-linkedBrowser
 TOP_URL
 )
 ;

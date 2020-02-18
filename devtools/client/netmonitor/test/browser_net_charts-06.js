@@ -80,7 +80,6 @@ l10n
 const
 {
 monitor
-tab
 }
 =
 await
@@ -139,13 +138,8 @@ monitor
 1
 )
 ;
-BrowserTestUtils
-.
-loadURI
+navigateTo
 (
-tab
-.
-linkedBrowser
 SIMPLE_URL
 )
 ;
