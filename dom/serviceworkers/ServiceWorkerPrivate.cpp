@@ -2613,9 +2613,8 @@ deserializationFailed
 =
 rv
 .
-ErrorCodeIs
+Failed
 (
-NS_ERROR_DOM_DATA_CLONE_ERR
 )
 ;
 if
