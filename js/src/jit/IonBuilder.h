@@ -5472,6 +5472,14 @@ jsop_checkthisreinit
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_superfun
+(
+)
+;
 /
 *
 Inlining

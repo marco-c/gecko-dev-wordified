@@ -1089,6 +1089,15 @@ Opcode
 :
 IsPackedArray
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+SuperFunction
+:
 object
 =
 ins
