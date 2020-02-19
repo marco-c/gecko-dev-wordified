@@ -12940,9 +12940,11 @@ mEndSelectedCell
 =
 childContent
 )
+{
 return
 NS_OK
 ;
+}
 #
 ifdef
 DEBUG_TABLE_SELECTION
@@ -13221,7 +13223,6 @@ mSelectingTableCellMode
 )
 ;
 }
-else
 if
 (
 mSelectingTableCellMode
@@ -13785,7 +13786,6 @@ return
 NS_OK
 ;
 }
-else
 if
 (
 aTarget
@@ -13878,7 +13878,6 @@ aContentOffset
 )
 ;
 }
-else
 if
 (
 aTarget
@@ -14115,10 +14114,12 @@ if
 (
 mDragSelectingCells
 )
+{
 mAppendStartSelectedCell
 =
 mStartSelectedCell
 ;
+}
 mDragSelectingCells
 =
 false
@@ -14684,10 +14685,12 @@ childContent
 =
 mAppendStartSelectedCell
 )
+{
 mAppendStartSelectedCell
 =
 nullptr
 ;
+}
 /
 /
 Deselect
@@ -15951,10 +15954,12 @@ TableSelection
 :
 Row
 )
+{
 colIndex
 =
 0
 ;
+}
 if
 (
 aTarget
@@ -15965,10 +15970,12 @@ TableSelection
 :
 Column
 )
+{
 rowIndex
 =
 0
 ;
+}
 nsCOMPtr
 <
 nsIContent
@@ -16058,6 +16065,7 @@ TableSelection
 :
 Row
 )
+{
 colIndex
 +
 =
@@ -16070,7 +16078,9 @@ rowIndex
 colIndex
 )
 ;
+}
 else
+{
 rowIndex
 +
 =
@@ -16083,6 +16093,7 @@ rowIndex
 colIndex
 )
 ;
+}
 }
 /
 /
