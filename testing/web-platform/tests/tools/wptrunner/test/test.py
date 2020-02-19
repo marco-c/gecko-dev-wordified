@@ -27,6 +27,10 @@ import
 MachFormatter
 from
 six
+import
+iteritems
+from
+six
 .
 moves
 .
@@ -649,10 +653,9 @@ for
 name
 value
 in
-settings
-.
 iteritems
 (
+settings
 )
 :
         
@@ -826,15 +829,14 @@ for
 product
 product_settings
 in
+iteritems
+(
 config
 [
 "
 products
 "
 ]
-.
-iteritems
-(
 )
 :
         

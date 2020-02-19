@@ -937,10 +937,9 @@ for
 path
 tests
 in
-type_tests
-.
 iteritems
 (
+type_tests
 )
 :
                 
