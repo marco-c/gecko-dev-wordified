@@ -760,11 +760,8 @@ KeyframeEffect
 Document
 *
 aDocument
-const
-Maybe
-<
 OwningAnimationTarget
->
+&
 &
 aTarget
 TimingParams
@@ -972,7 +969,6 @@ result
 .
 emplace
 (
-*
 mTarget
 )
 ;
@@ -2498,10 +2494,7 @@ override
 default
 ;
 static
-Maybe
-<
 OwningAnimationTarget
->
 ConvertTarget
 (
 const
@@ -2864,10 +2857,7 @@ ComputedStyle
 aBaseComputedValues
 )
 ;
-Maybe
-<
 OwningAnimationTarget
->
 mTarget
 ;
 KeyframeEffectParams
