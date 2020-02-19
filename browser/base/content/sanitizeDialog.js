@@ -617,6 +617,12 @@ Preferences
 if
 (
 !
+window
+.
+opener
+|
+|
+!
 (
 "
 gSubDialog
