@@ -256,7 +256,6 @@ IPCBlobOrError
 &
 aBlobOrError
 )
-override
 ;
 void
 ActorDestroy

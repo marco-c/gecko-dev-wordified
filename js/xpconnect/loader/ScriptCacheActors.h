@@ -190,7 +190,6 @@ wantCacheData
 }
 protected
 :
-virtual
 IPCResult
 Recv__delete__
 (
@@ -202,7 +201,6 @@ ScriptData
 &
 scripts
 )
-override
 ;
 virtual
 void

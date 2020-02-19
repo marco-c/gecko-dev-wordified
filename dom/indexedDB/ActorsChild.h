@@ -1259,7 +1259,6 @@ FactoryRequestResponse
 &
 aResponse
 )
-override
 ;
 mozilla
 :
@@ -1742,7 +1741,6 @@ DatabaseRequestResponse
 &
 aResponse
 )
-override
 ;
 }
 ;
@@ -2639,7 +2637,6 @@ RequestResponse
 &
 aResponse
 )
-override
 ;
 mozilla
 :
@@ -3501,7 +3498,6 @@ FileRequestResponse
 &
 aResponse
 )
-override
 ;
 mozilla
 :

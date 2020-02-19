@@ -345,7 +345,6 @@ ServiceWorkerFetchEventOpResult
 &
 aResult
 )
-override
 ;
 void
 ActorDestroy

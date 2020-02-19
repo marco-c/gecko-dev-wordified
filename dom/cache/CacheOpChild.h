@@ -263,7 +263,6 @@ aReason
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -282,7 +281,6 @@ CacheOpResult
 &
 aResult
 )
-override
 ;
 /
 /
