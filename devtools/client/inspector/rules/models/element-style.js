@@ -1228,6 +1228,8 @@ id
 param
 {
 String
+|
+null
 }
 id
 *
@@ -1266,6 +1268,8 @@ id
 )
 {
 return
+id
+?
 this
 .
 rules
@@ -1285,6 +1289,8 @@ actorID
 =
 id
 )
+:
+undefined
 ;
 }
 /
@@ -3582,7 +3588,7 @@ param
 {
 String
 }
-ruleID
+ruleId
 *
 The
 Rule
@@ -3625,7 +3631,7 @@ name
 async
 modifyDeclarationName
 (
-ruleID
+ruleId
 declarationId
 name
 )
@@ -3637,7 +3643,7 @@ this
 .
 getRule
 (
-ruleID
+ruleId
 )
 ;
 if

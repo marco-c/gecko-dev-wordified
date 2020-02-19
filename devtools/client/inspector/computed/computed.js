@@ -1995,11 +1995,6 @@ new
 StyleInspectorMenu
 (
 this
-{
-isRuleView
-:
-false
-}
 )
 ;
 }

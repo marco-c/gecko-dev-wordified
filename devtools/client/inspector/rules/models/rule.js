@@ -1440,6 +1440,8 @@ found
 param
 {
 String
+|
+null
 }
 id
 *
@@ -1479,6 +1481,8 @@ id
 )
 {
 return
+id
+?
 this
 .
 textProps
@@ -1496,6 +1500,8 @@ id
 =
 id
 )
+:
+undefined
 ;
 }
 /
