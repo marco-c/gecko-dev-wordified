@@ -1335,6 +1335,13 @@ outStream
 static
 StartupCache
 *
+GetSingletonNoInit
+(
+)
+;
+static
+StartupCache
+*
 GetSingleton
 (
 )
