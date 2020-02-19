@@ -66,7 +66,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 -
