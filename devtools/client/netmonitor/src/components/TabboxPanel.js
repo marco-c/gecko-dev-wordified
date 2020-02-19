@@ -300,6 +300,10 @@ src
 /
 components
 /
+request
+-
+details
+/
 ParamsPanel
 "
 )
