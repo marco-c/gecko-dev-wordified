@@ -400,7 +400,7 @@ fefd
 .
 3
 (
-fefc
+0304
 )
 *
 /
@@ -450,16 +450,7 @@ SSL_LIBRARY_VERSION_DTLS_1_3_WIRE
 /
 *
 Anything
-other
-than
-TLS
-1
-.
-1
-or
-1
-.
-2
+else
 is
 an
 error

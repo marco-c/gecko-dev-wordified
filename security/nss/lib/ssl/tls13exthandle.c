@@ -4452,7 +4452,7 @@ version
 PRUint16
 wire
 =
-tls13_EncodeDraftVersion
+tls13_EncodeVersion
 (
 version
 ss
@@ -4580,7 +4580,7 @@ fd
 PRUint16
 ver
 =
-tls13_EncodeDraftVersion
+tls13_EncodeVersion
 (
 SSL_LIBRARY_VERSION_TLS_1_3
 ss

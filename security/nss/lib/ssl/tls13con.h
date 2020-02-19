@@ -711,7 +711,7 @@ sid
 )
 ;
 PRUint16
-tls13_EncodeDraftVersion
+tls13_EncodeVersion
 (
 SSL3ProtocolVersion
 version
