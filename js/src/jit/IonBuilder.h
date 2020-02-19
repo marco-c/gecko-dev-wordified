@@ -5440,6 +5440,14 @@ jsop_objwithproto
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_builtinproto
+(
+)
+;
 /
 *
 Inlining
