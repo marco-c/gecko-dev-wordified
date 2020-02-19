@@ -744,6 +744,11 @@ StringVector
 )
 )
 ;
+bool
+WaitForProcessHandle
+(
+)
+;
 /
 /
 Block
