@@ -106,7 +106,7 @@ async_test
 promise_test
 '
 '
-promise_rejects
+promise_rejects_js
 '
 '
 generate_tests

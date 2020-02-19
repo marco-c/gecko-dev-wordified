@@ -133,7 +133,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -146,7 +146,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -159,7 +159,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -175,7 +175,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

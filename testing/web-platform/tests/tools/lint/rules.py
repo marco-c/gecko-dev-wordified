@@ -3331,6 +3331,10 @@ pattern
 =
 br
 "
+[
+^
+.
+]
 assert_throws
 \
 (
@@ -3399,6 +3403,8 @@ with
 assert_throws_dom
 or
 assert_throws_js
+or
+assert_throws_exactly
 "
 "
 "
@@ -3481,6 +3487,8 @@ with
 promise_rejects_dom
 or
 promise_rejects_js
+or
+promise_rejects_exactly
 "
 "
 "
