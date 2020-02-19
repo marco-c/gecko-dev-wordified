@@ -3126,6 +3126,14 @@ MissingDepsRegexp
 rules
 .
 SpecialPowersRegexp
+            
+rules
+.
+AssertThrowsRegexp
+            
+rules
+.
+PromiseRejectsRegexp
 ]
 ]
 def
