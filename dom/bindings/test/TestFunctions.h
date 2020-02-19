@@ -754,6 +754,15 @@ aBuffer
 )
 ;
 void
+TestNotAllowShared
+(
+const
+nsAString
+&
+aBuffer
+)
+;
+void
 TestAllowShared
 (
 const
@@ -784,7 +793,7 @@ void
 TestUnionOfBuffferSource
 (
 const
-ArrayBufferOrArrayBufferView
+ArrayBufferOrArrayBufferViewOrString
 &
 aUnion
 )
