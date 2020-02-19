@@ -554,6 +554,11 @@ LaunchGPUProcess
 (
 )
 ;
+bool
+IsGPUProcessLaunching
+(
+)
+;
 /
 /
 Ensure

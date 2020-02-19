@@ -248,6 +248,11 @@ LaunchRDDProcess
 (
 )
 ;
+bool
+IsRDDProcessLaunching
+(
+)
+;
 /
 /
 Ensure
