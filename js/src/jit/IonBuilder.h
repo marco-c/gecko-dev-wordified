@@ -5488,6 +5488,14 @@ jsop_superfun
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_inithomeobject
+(
+)
+;
 /
 *
 Inlining

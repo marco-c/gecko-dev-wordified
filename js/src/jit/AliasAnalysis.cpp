@@ -1098,6 +1098,15 @@ Opcode
 :
 SuperFunction
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+InitHomeObject
+:
 object
 =
 ins
