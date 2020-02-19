@@ -474,6 +474,8 @@ pub
 type
 GLDEBUGPROC
 =
+Option
+<
 extern
 "
 system
@@ -515,11 +517,14 @@ raw
 :
 c_void
 )
+>
 ;
 pub
 type
 GLDEBUGPROCARB
 =
+Option
+<
 extern
 "
 system
@@ -561,11 +566,14 @@ raw
 :
 c_void
 )
+>
 ;
 pub
 type
 GLDEBUGPROCKHR
 =
+Option
+<
 extern
 "
 system
@@ -607,6 +615,7 @@ raw
 :
 c_void
 )
+>
 ;
 /
 /
@@ -872,6 +881,8 @@ pub
 type
 GLDEBUGPROCAMD
 =
+Option
+<
 extern
 "
 system
@@ -910,6 +921,7 @@ raw
 :
 c_void
 )
+>
 ;
 pub
 type
