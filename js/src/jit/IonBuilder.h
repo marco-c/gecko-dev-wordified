@@ -5350,6 +5350,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_checkclassheritage
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_pushcallobj
 (
 )
