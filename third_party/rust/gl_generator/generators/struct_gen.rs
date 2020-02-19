@@ -1376,7 +1376,6 @@ loadfn
 :
 &
 mut
-dyn
 FnMut
 (
 &
