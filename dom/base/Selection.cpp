@@ -3155,6 +3155,8 @@ Cell
 mFrameSelection
 -
 >
+mTableSelection
+.
 mSelectingTableCellMode
 =
 tableMode
@@ -3230,6 +3232,8 @@ if
 mFrameSelection
 -
 >
+mTableSelection
+.
 mSelectingTableCellMode
 =
 =
@@ -3242,6 +3246,8 @@ None
 mFrameSelection
 -
 >
+mTableSelection
+.
 mSelectingTableCellMode
 =
 tableMode
