@@ -2271,7 +2271,7 @@ tmp
 >
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -7902,7 +7902,7 @@ selection
 data
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -13096,7 +13096,7 @@ if
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -13107,7 +13107,7 @@ Row
 |
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -13215,7 +13215,7 @@ if
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -13234,7 +13234,7 @@ curRowIndex
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -13287,7 +13287,7 @@ SelectRowOrColumn
 childContent
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 )
 ;
 }
@@ -13295,7 +13295,7 @@ if
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -13474,7 +13474,7 @@ curRowIndex
 )
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -13484,7 +13484,7 @@ Row
 else
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -13497,7 +13497,7 @@ SelectRowOrColumn
 childContent
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 )
 ;
 }
@@ -13725,7 +13725,7 @@ cell
 selection
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 aTarget
 ;
@@ -13870,7 +13870,7 @@ in
 RemoveAllRanges
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 aTarget
 ;
@@ -14097,7 +14097,7 @@ AFTER
 RemoveAllRanges
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 aTarget
 ;
