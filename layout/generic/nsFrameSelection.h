@@ -1304,7 +1304,7 @@ selected
 /
 enum
 class
-TableSelection
+TableSelectionMode
 :
 uint32_t
 {
@@ -1916,7 +1916,7 @@ to
 select
 *
 *
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -1935,7 +1935,7 @@ cell
 )
 *
 *
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -1956,7 +1956,7 @@ row
 )
 *
 *
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -1977,7 +1977,7 @@ column
 )
 *
 *
-TableSelection
+TableSelectionMode
 :
 :
 Table
@@ -1996,7 +1996,7 @@ table
 )
 *
 *
-TableSelection
+TableSelectionMode
 :
 :
 AllCells
@@ -2052,7 +2052,7 @@ aContentOffset
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 aTarget
 mozilla
 :
@@ -2708,7 +2708,7 @@ mSelectingTableCellMode
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 :
 :
 None
@@ -2724,7 +2724,7 @@ mSelectingTableCellMode
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 :
 :
 None
@@ -5005,7 +5005,7 @@ aCellContent
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 aTarget
 )
 ;
@@ -5284,13 +5284,13 @@ mUnselectCellOnMouseUp
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 mSelectingTableCellMode
 =
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 :
 :
 None

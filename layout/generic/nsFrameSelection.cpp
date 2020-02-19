@@ -2269,7 +2269,7 @@ tmp
 >
 mSelectingTableCellMode
 =
-TableSelection
+TableSelectionMode
 :
 :
 None
@@ -7880,7 +7880,7 @@ selection
 data
 mSelectingTableCellMode
 =
-TableSelection
+TableSelectionMode
 :
 :
 None
@@ -8506,7 +8506,7 @@ HandleTableSelection
 (
 parent
 offset
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -8603,7 +8603,7 @@ HandleTableSelection
 (
 parent
 offset
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -12713,7 +12713,7 @@ nsINode
 aParentContent
 int32_t
 aContentOffset
-TableSelection
+TableSelectionMode
 aTarget
 WidgetMouseEvent
 *
@@ -12743,7 +12743,7 @@ mDragSelectingCells
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Table
@@ -12914,7 +12914,7 @@ if
 aTarget
 !
 =
-TableSelection
+TableSelectionMode
 :
 :
 Table
@@ -13034,7 +13034,7 @@ even
 if
 aTarget
 =
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -13043,7 +13043,7 @@ if
 mSelectingTableCellMode
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -13052,7 +13052,7 @@ Row
 mSelectingTableCellMode
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -13154,7 +13154,7 @@ if
 mSelectingTableCellMode
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -13171,7 +13171,7 @@ curRowIndex
 mSelectingTableCellMode
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -13228,7 +13228,7 @@ if
 mSelectingTableCellMode
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -13398,7 +13398,7 @@ curRowIndex
 )
 mSelectingTableCellMode
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -13406,7 +13406,7 @@ Row
 else
 mSelectingTableCellMode
 =
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -13511,7 +13511,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -13791,7 +13791,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Table
@@ -13883,7 +13883,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -13892,7 +13892,7 @@ Row
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -15785,7 +15785,7 @@ SelectRowOrColumn
 nsIContent
 *
 aCellContent
-TableSelection
+TableSelectionMode
 aTarget
 )
 {
@@ -15949,7 +15949,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -15965,7 +15965,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -16060,7 +16060,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -16402,7 +16402,7 @@ if
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row

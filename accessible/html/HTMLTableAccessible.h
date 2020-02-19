@@ -131,7 +131,7 @@ mozilla
 {
 enum
 class
-TableSelection
+TableSelectionMode
 :
 uint32_t
 ;
@@ -1083,7 +1083,7 @@ AddRowOrColumnToSelection
 (
 int32_t
 aIndex
-TableSelection
+TableSelectionMode
 aTarget
 )
 ;
@@ -1165,7 +1165,7 @@ RemoveRowsOrColumnsFromSelection
 (
 int32_t
 aIndex
-TableSelection
+TableSelectionMode
 aTarget
 bool
 aIsOuter

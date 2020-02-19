@@ -278,7 +278,7 @@ PostContentIterator
 ;
 enum
 class
-TableSelection
+TableSelectionMode
 :
 uint32_t
 ;
@@ -4536,7 +4536,7 @@ const
 nsRange
 *
 aRange
-TableSelection
+TableSelectionMode
 *
 aSelectionType
 int32_t

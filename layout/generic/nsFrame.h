@@ -201,7 +201,7 @@ mozilla
 {
 enum
 class
-TableSelection
+TableSelectionMode
 :
 uint32_t
 ;
@@ -4982,7 +4982,7 @@ aContentOffset
 mozilla
 :
 :
-TableSelection
+TableSelectionMode
 *
 aTarget
 )
