@@ -3743,7 +3743,7 @@ mojom
 .
 SubscribeToHitTestResult
 .
-FAILED
+FAILURE_GENERIC
 subscriptionId
 :
 0
@@ -3807,7 +3807,7 @@ mojom
 .
 SubscribeToHitTestResult
 .
-FAILED
+FAILURE_GENERIC
 subscriptionId
 :
 0
@@ -3893,7 +3893,7 @@ mojom
 .
 SubscribeToHitTestResult
 .
-FAILED
+FAILURE_GENERIC
 subscriptionId
 :
 0
@@ -3932,7 +3932,7 @@ mojom
 .
 SubscribeToHitTestResult
 .
-FAILED
+FAILURE_GENERIC
 subscriptionId
 :
 0
