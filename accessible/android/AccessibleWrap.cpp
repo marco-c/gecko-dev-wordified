@@ -846,13 +846,7 @@ case
 nsIAccessibleEvent
 :
 :
-EVENT_SHOW
-:
-case
-nsIAccessibleEvent
-:
-:
-EVENT_HIDE
+EVENT_REORDER
 :
 {
 if
@@ -875,6 +869,7 @@ topContentDoc
 >
 CacheViewport
 (
+true
 )
 ;
 }

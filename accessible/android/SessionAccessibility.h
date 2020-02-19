@@ -650,6 +650,17 @@ BatchData
 )
 )
 ;
+void
+UpdateAccessibleFocusBoundaries
+(
+AccessibleWrap
+*
+aFirst
+AccessibleWrap
+*
+aLast
+)
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 SessionAccessibility
