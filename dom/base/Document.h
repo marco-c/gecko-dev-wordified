@@ -1317,6 +1317,16 @@ HAS_USED_VR
 /
 Status
 10
+CONTAINS_REMOTE_SUBFRAMES
+=
+1
+<
+<
+11
+/
+/
+Status
+11
 }
 ;
 }
