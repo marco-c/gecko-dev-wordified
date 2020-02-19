@@ -5456,6 +5456,14 @@ jsop_checkreturn
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_checkthis
+(
+)
+;
 /
 *
 Inlining
