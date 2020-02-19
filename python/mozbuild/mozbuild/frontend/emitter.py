@@ -6208,6 +6208,9 @@ symbols_file
 symbols_file
 ]
 defines
+py2
+=
+True
 )
             
 if
@@ -11753,6 +11756,9 @@ in
 '
 )
 ]
+py2
+=
+True
 )
         
 generated_files
@@ -12107,6 +12113,12 @@ force
 flags
 .
 force
+                                    
+py2
+=
+flags
+.
+py2
 )
     
 def
