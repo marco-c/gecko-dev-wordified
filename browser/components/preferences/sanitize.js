@@ -108,10 +108,10 @@ js
 /
 document
 .
-getElementById
+querySelector
 (
 "
-SanitizeDialog
+dialog
 "
 )
 .

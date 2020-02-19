@@ -3866,10 +3866,10 @@ win
 .
 document
 .
-getElementById
+querySelector
 (
 "
-SanitizeDialog
+dialog
 "
 )
 ;
@@ -3932,10 +3932,10 @@ win
 .
 document
 .
-getElementById
+querySelector
 (
 "
-SanitizeDialog
+dialog
 "
 )
 .
