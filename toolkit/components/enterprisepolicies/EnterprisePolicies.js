@@ -2697,6 +2697,7 @@ hasPolicies
 {
 return
 (
+!
 this
 .
 _failed
