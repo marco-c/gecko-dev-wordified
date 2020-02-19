@@ -2298,16 +2298,13 @@ keyframeEffect
 return
 ;
 }
-Maybe
-<
 NonOwningAnimationTarget
->
 animationTarget
 =
 keyframeEffect
 -
 >
-GetTarget
+GetAnimationTarget
 (
 )
 ;
@@ -2325,8 +2322,7 @@ Element
 elem
 =
 animationTarget
--
->
+.
 mElement
 ;
 if
@@ -2382,8 +2378,7 @@ true
 if
 (
 animationTarget
--
->
+.
 mPseudoType
 !
 =

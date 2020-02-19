@@ -421,10 +421,7 @@ animation
 .
 *
 /
-Maybe
-<
 NonOwningAnimationTarget
->
 GetTargetForAnimation
 (
 )

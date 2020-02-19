@@ -1519,10 +1519,7 @@ MOZ_ASSERT
 aAnimation
 )
 ;
-Maybe
-<
 NonOwningAnimationTarget
->
 target
 =
 aAnimation
@@ -1561,8 +1558,7 @@ Document
 doc
 =
 target
--
->
+.
 mElement
 -
 >
@@ -1601,8 +1597,7 @@ Element
 elem
 =
 target
--
->
+.
 mElement
 ;
 switch

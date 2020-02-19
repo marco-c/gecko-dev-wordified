@@ -508,7 +508,7 @@ AsKeyframeEffect
 )
 -
 >
-GetTarget
+GetAnimationTarget
 (
 )
 )
@@ -522,11 +522,10 @@ AsKeyframeEffect
 )
 -
 >
-GetTarget
+GetAnimationTarget
 (
 )
--
->
+.
 mElement
 -
 >
