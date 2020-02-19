@@ -6341,7 +6341,9 @@ RejectPromise
 (
 uint32_t
 aPromiseId
-nsresult
+ErrorResult
+&
+&
 aError
 const
 nsCString

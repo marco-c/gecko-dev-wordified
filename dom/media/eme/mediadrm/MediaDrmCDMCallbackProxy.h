@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DecryptorProxyCallback
 .
 h
@@ -236,7 +245,9 @@ RejectPromise
 (
 uint32_t
 aPromiseId
-nsresult
+ErrorResult
+&
+&
 aException
 const
 nsCString
