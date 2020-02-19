@@ -151,6 +151,7 @@ h
 #
 define
 PIPE_NAME
+L
 "
 \
 \
@@ -938,7 +939,7 @@ parameters
 *
 aPipe
 =
-CreateNamedPipeA
+CreateNamedPipeW
 (
 PIPE_NAME
 PIPE_ACCESS_DUPLEX
@@ -1150,7 +1151,7 @@ NS_ERROR_FAILURE
 *
 aClient
 =
-CreateFileA
+CreateFileW
 (
 PIPE_NAME
 GENERIC_READ
