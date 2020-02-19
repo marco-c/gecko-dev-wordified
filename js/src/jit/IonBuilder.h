@@ -5432,6 +5432,14 @@ jsop_coalesce
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_objwithproto
+(
+)
+;
 /
 *
 Inlining
