@@ -6816,6 +6816,9 @@ MDefinition
 *
 patchInlinedReturn
 (
+JSFunction
+*
+target
 CallInfo
 &
 callInfo
@@ -6831,6 +6834,9 @@ MDefinition
 *
 patchInlinedReturns
 (
+JSFunction
+*
+target
 CallInfo
 &
 callInfo
