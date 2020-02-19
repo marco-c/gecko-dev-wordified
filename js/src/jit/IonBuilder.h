@@ -5144,6 +5144,17 @@ AbortReasonOr
 <
 Ok
 >
+jsop_funwithproto
+(
+JSFunction
+*
+fun
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_setfunname
 (
 uint8_t

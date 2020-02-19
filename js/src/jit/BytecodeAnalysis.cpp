@@ -1577,6 +1577,12 @@ JSOp
 :
 ImplicitThis
 :
+case
+JSOp
+:
+:
+FunWithProto
+:
 result
 .
 usesEnvironmentChain
