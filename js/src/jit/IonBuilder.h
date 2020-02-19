@@ -5448,6 +5448,14 @@ jsop_builtinproto
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_checkreturn
+(
+)
+;
 /
 *
 Inlining

@@ -35734,7 +35734,7 @@ MIRType
 Value
 )
 ;
-LCheckReturn
+auto
 *
 lir
 =
@@ -35762,16 +35762,10 @@ lir
 Bailout_BadDerivedConstructorReturn
 )
 ;
-add
+defineBox
 (
 lir
 ins
-)
-;
-redefine
-(
-ins
-retVal
 )
 ;
 }

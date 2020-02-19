@@ -42009,7 +42009,7 @@ class
 LCheckReturn
 :
 public
-LCallInstructionHelper
+LInstructionHelper
 <
 BOX_PIECES
 2
@@ -42036,7 +42036,7 @@ LBoxAllocation
 thisVal
 )
 :
-LCallInstructionHelper
+LInstructionHelper
 (
 classOpcode
 )
