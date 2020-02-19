@@ -12272,7 +12272,7 @@ agentClusterCoop
 nsILoadInfo
 :
 :
-OPENER_POLICY_NULL
+OPENER_POLICY_UNSAFE_NONE
 ;
 nsID
 agentClusterId
