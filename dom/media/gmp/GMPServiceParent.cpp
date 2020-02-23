@@ -6050,7 +6050,6 @@ RefPtr
 <
 GMPParent
 >
-&
 aOnDeathsDoor
 )
 {

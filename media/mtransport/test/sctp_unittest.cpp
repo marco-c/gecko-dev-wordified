@@ -1262,7 +1262,7 @@ static
 TransportResult
 SendPacket_s
 (
-nsAutoPtr
+UniquePtr
 <
 MediaPacket
 >
@@ -1302,7 +1302,7 @@ size_t
 len
 )
 {
-nsAutoPtr
+UniquePtr
 <
 MediaPacket
 >
@@ -1427,7 +1427,13 @@ TransportTestPeer
 :
 :
 SendPacket_s
+std
+:
+:
+move
+(
 packet
+)
 flow_
 loopback_
 )
