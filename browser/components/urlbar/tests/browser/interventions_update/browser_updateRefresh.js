@@ -201,7 +201,9 @@ SEARCH_STRINGS
 UPDATE
 tip
 :
-TIPS
+UrlbarProviderInterventions
+.
+TIP_TYPE
 .
 UPDATE_REFRESH
 title
