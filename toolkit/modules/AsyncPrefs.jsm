@@ -235,6 +235,15 @@ enable
 -
 deprecated
 "
+"
+browser
+.
+contentblocking
+.
+report
+.
+hide_lockwise_app
+"
 ]
 )
 ;
