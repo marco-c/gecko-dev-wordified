@@ -1299,12 +1299,19 @@ None
 :
             
 if
+not
+self
+.
+sauce_init_timeout
+or
+(
 tot_wait
 >
 =
 self
 .
 sauce_init_timeout
+)
 :
                 
 self
