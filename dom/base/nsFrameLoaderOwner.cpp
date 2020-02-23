@@ -318,8 +318,6 @@ mFrameLoader
 aNewFrameLoader
 ;
 }
-already_AddRefed
-<
 mozilla
 :
 :
@@ -327,7 +325,7 @@ dom
 :
 :
 BrowsingContext
->
+*
 nsFrameLoaderOwner
 :
 :
