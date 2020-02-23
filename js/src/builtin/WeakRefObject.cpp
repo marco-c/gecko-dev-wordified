@@ -1853,8 +1853,8 @@ mutableKey
 {
 for
 (
-HeapPtrObject
-&
+JSObject
+*
 obj
 :
 e
