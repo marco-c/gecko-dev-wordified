@@ -249,8 +249,9 @@ TypeErrorOnInvalidScheme
 TypeUtils
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsIGlobalObject
 *

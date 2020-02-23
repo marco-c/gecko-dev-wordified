@@ -4694,8 +4694,9 @@ private
 CachePutAllAction
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 RunWithDBOnTarget

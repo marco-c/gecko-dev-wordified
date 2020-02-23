@@ -1036,8 +1036,9 @@ private
 NoteClosedRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ReadStream
@@ -1309,8 +1310,9 @@ private
 ForgetRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ReadStream
