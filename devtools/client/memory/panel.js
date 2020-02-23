@@ -244,16 +244,6 @@ this
 .
 panelWin
 .
-gTarget
-=
-this
-.
-target
-;
-this
-.
-panelWin
-.
 gFront
 =
 await
