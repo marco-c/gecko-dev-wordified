@@ -148,6 +148,7 @@ kAdditionalWordChars
 "
 _
 -
+.
 "
 ;
 namespace
