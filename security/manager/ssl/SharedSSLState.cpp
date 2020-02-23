@@ -594,7 +594,10 @@ runnable
 mShouldClearSessionCache
 )
 {
-SSL_ClearSessionCache
+nsNSSComponent
+:
+:
+ClearSSLExternalAndInternalSessionCacheNative
 (
 )
 ;

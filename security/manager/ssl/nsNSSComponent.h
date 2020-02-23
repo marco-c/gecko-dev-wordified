@@ -421,6 +421,12 @@ SetEnabledTLSVersions
 (
 )
 ;
+static
+void
+ClearSSLExternalAndInternalSessionCacheNative
+(
+)
+;
 protected
 :
 virtual
