@@ -72,6 +72,8 @@ absolute_import
 print_function
 unicode_literals
 import
+argparse
+import
 json
 import
 os
@@ -575,6 +577,11 @@ category
 =
 '
 build
+'
+order
+=
+'
+declaration
 '
              
 description
@@ -1843,20 +1850,11 @@ hazards
 '
 compile
 '
-                
 description
 =
-'
-(
-Internal
-:
-perform
-the
-monitored
-hazard
-build
-)
-'
+argparse
+.
+SUPPRESS
 )
     
 CommandArgument
