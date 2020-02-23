@@ -2458,6 +2458,11 @@ aEnd
 )
 ;
 void
+DumpSerializedDisplayList
+(
+)
+;
+void
 Finalize
 (
 wr
