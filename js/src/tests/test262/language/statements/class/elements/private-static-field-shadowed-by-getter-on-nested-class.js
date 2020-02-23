@@ -15,13 +15,6 @@ fields
 private
 class
 -
-static
--
-fields
--
-public
-class
--
 methods
 -
 private

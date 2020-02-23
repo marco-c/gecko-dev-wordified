@@ -132,16 +132,6 @@ optimization
 "
 class
 -
-static
--
-fields
--
-public
-"
-    
-"
-class
--
 fields
 -
 private
