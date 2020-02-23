@@ -7885,7 +7885,7 @@ lastSlashPos
 {
 name
 .
-ReplaceASCII
+ReplaceLiteral
 (
 pathPos
 lastSlashPos
