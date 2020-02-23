@@ -497,66 +497,6 @@ repos
 }
     
 ]
-[
-        
-[
-"
--
--
-l10n
--
-dir
-"
-]
-        
-{
-"
-action
-"
-:
-"
-store
-"
-         
-"
-dest
-"
-:
-"
-l10n_dir
-"
-         
-"
-type
-"
-:
-"
-string
-"
-         
-"
-default
-"
-:
-"
-l10n
-"
-         
-"
-help
-"
-:
-"
-Specify
-the
-l10n
-dir
-name
-"
-         
-}
-    
-]
 ]
     
 def
@@ -639,25 +579,6 @@ query_abs_dirs
 (
 )
         
-topsrcdir
-=
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_work_dir
-'
-]
-'
-src
-'
-)
-        
 mach
 =
 [
@@ -696,7 +617,12 @@ args
             
 cwd
 =
-topsrcdir
+dirs
+[
+'
+abs_src_dir
+'
+]
         
 )
         
@@ -759,7 +685,7 @@ objdir
 dirs
 [
 '
-abs_objdir
+abs_obj_dir
 '
 ]
         
