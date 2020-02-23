@@ -618,9 +618,14 @@ IsEmpty
 {
 aRv
 .
-Throw
+ThrowTypeError
 (
-NS_ERROR_DOM_TYPE_ERR
+u
+"
+Empty
+message
+array
+"
 )
 ;
 return
