@@ -555,14 +555,6 @@ nsACString
 aPath
 )
 ;
-void
-SanitizeForBCP47
-(
-nsACString
-&
-aLocale
-)
-;
 public
 :
 static

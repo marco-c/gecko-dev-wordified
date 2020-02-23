@@ -925,7 +925,6 @@ locale
 GetSelectedLocale
 (
 package
-false
 locale
 )
 ;
@@ -1010,8 +1009,6 @@ const
 nsACString
 &
 aPackage
-bool
-aAsBCP47
 nsACString
 &
 aLocale
@@ -1147,17 +1144,6 @@ IsEmpty
 return
 NS_ERROR_FAILURE
 ;
-if
-(
-aAsBCP47
-)
-{
-SanitizeForBCP47
-(
-aLocale
-)
-;
-}
 return
 NS_OK
 ;
