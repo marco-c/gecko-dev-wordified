@@ -300,6 +300,8 @@ nsFrameLoader
 aNewFrameLoader
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -307,7 +309,7 @@ dom
 :
 :
 BrowsingContext
-*
+>
 GetBrowsingContext
 (
 )

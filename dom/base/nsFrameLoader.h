@@ -843,6 +843,8 @@ LoadContext
 (
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -850,11 +852,13 @@ dom
 :
 :
 BrowsingContext
-*
+>
 GetBrowsingContext
 (
 )
 ;
+already_AddRefed
+<
 mozilla
 :
 :
@@ -862,7 +866,7 @@ dom
 :
 :
 BrowsingContext
-*
+>
 GetExtantBrowsingContext
 (
 )
@@ -2792,7 +2796,7 @@ dom
 :
 BrowsingContext
 >
-mPendingBrowsingContext
+mBrowsingContext
 ;
 nsCOMPtr
 <
