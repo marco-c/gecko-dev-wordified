@@ -5055,16 +5055,6 @@ nsIContent
 aCellNode
 )
 ;
-nsresult
-CreateAndAddRange
-(
-nsINode
-*
-aContainer
-int32_t
-aOffset
-)
-;
 /
 /
 /
