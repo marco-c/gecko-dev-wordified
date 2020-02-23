@@ -712,6 +712,15 @@ lintargs
 )
 :
         
+logger
+.
+setLevel
+(
+logging
+.
+DEBUG
+)
+        
 lintargs
 [
 '
