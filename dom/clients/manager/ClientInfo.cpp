@@ -388,8 +388,9 @@ ClientInfo
 ClientInfo
 (
 )
-{
-}
+=
+default
+;
 bool
 ClientInfo
 :
