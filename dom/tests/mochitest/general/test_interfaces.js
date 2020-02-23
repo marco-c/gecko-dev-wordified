@@ -2983,9 +2983,9 @@ CSSPseudoElement
 insecureContext
 :
 true
-release
+disabled
 :
-false
+true
 }
 /
 /
