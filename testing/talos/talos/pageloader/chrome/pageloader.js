@@ -1517,7 +1517,7 @@ updateBrowserRemoteness
 (
 tabbrowser
 .
-initialBrowser
+selectedBrowser
 {
 remoteType
 }
@@ -1532,7 +1532,7 @@ updateBrowserRemoteness
 (
 tabbrowser
 .
-initialBrowser
+selectedBrowser
 {
 remoteType
 :
