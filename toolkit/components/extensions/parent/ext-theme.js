@@ -156,6 +156,15 @@ emptyTheme
 details
 :
 {
+colors
+:
+null
+images
+:
+null
+properties
+:
+null
 }
 }
 ;
