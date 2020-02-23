@@ -18812,6 +18812,16 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+aDest
+-
+>
+mBrowsingContext
+-
+>
+EnsureAttached
+(
+)
+;
 /
 /
 Ensure
