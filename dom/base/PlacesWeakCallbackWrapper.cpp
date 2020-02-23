@@ -252,8 +252,9 @@ PlacesWeakCallbackWrapper
 PlacesWeakCallbackWrapper
 (
 )
-{
-}
+=
+default
+;
 nsISupports
 *
 PlacesWeakCallbackWrapper

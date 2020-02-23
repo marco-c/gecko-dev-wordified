@@ -420,8 +420,9 @@ virtual
 VisibilityChangeListener
 (
 )
-{
-}
+=
+default
+;
 nsWeakPtr
 mWindow
 ;
@@ -1201,8 +1202,9 @@ ContentPermissionType
 ContentPermissionType
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 ContentPermissionType
 :

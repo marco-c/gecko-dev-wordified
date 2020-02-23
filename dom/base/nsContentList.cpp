@@ -336,8 +336,9 @@ nsBaseContentList
 nsBaseContentList
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsBaseContentList

@@ -338,8 +338,9 @@ DOMParser
 DOMParser
 (
 )
-{
-}
+=
+default
+;
 /
 /
 QueryInterface

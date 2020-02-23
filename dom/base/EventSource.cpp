@@ -10466,8 +10466,9 @@ EventSource
 EventSource
 (
 )
-{
-}
+=
+default
+;
 nsresult
 EventSource
 :

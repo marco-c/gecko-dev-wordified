@@ -310,8 +310,9 @@ nsDOMNavigationTiming
 nsDOMNavigationTiming
 (
 )
-{
-}
+=
+default
+;
 void
 nsDOMNavigationTiming
 :

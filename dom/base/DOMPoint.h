@@ -435,8 +435,9 @@ virtual
 DOMPointReadOnly
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Shared

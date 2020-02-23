@@ -956,8 +956,9 @@ virtual
 nsContentPermissionRequesterProxy
 (
 )
-{
-}
+=
+default
+;
 ContentPermissionRequestParent
 *
 mParent

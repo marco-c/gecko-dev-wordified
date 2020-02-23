@@ -247,8 +247,9 @@ Crypto
 Crypto
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

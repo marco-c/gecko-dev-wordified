@@ -556,8 +556,9 @@ nsTextNode
 nsTextNode
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Use

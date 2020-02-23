@@ -399,8 +399,9 @@ Location
 Location
 (
 )
-{
-}
+=
+default
+;
 /
 /
 QueryInterface

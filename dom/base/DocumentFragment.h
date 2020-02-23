@@ -517,8 +517,9 @@ virtual
 DocumentFragment
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Clone
 (

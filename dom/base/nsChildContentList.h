@@ -318,8 +318,9 @@ virtual
 nsAttrChildContentList
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /
@@ -435,8 +436,9 @@ private
 nsParentNodeChildContentList
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Return

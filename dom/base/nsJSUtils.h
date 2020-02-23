@@ -2364,8 +2364,9 @@ below
 nsTAutoJSString
 (
 )
-{
-}
+=
+default
+;
 bool
 init
 (

@@ -1602,8 +1602,9 @@ virtual
 DOMMatrixReadOnly
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -2155,8 +2156,9 @@ virtual
 DOMMatrix
 (
 )
-{
-}
+=
+default
+;
 private
 :
 DOMMatrix

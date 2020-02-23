@@ -249,8 +249,9 @@ nsStructuredCloneContainer
 nsStructuredCloneContainer
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsStructuredCloneContainer
 :

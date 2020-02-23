@@ -1324,8 +1324,9 @@ aEvent
 NativeInputRunnable
 (
 )
-{
-}
+=
+default
+;
 public
 :
 static

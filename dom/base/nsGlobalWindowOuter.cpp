@@ -27373,8 +27373,9 @@ FullscreenTransitionTask
 (
 )
 override
-{
-}
+=
+default
+;
 /
 *
 *
@@ -50092,5 +50093,6 @@ nsPIDOMWindowOuter
 nsPIDOMWindowOuter
 (
 )
-{
-}
+=
+default
+;

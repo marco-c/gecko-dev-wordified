@@ -531,8 +531,9 @@ private
 UnlinkHostObjectURIsRunnable
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 nsCString

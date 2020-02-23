@@ -707,8 +707,9 @@ nsQueryContentEventResult
 nsQueryContentEventResult
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsQueryContentEventResult
 :

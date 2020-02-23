@@ -874,8 +874,9 @@ virtual
 EncodeCompleteCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

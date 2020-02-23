@@ -466,8 +466,9 @@ PostMessageEvent
 PostMessageEvent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PostMessageEvent
 :

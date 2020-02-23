@@ -532,8 +532,9 @@ virtual
 nsContentAreaDragDropDataProvider
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

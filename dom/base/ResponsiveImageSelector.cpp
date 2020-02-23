@@ -761,8 +761,9 @@ ResponsiveImageSelector
 ResponsiveImageSelector
 (
 )
-{
-}
+=
+default
+;
 /
 /
 http

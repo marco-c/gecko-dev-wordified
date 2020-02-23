@@ -328,8 +328,9 @@ private
 nsNodeSupportsWeakRefTearoff
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsINode

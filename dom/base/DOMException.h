@@ -959,8 +959,9 @@ virtual
 DOMException
 (
 )
-{
-}
+=
+default
+;
 uint16_t
 mCode
 ;

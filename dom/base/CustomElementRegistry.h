@@ -841,8 +841,9 @@ virtual
 CustomElementData
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Custom
@@ -1365,8 +1366,9 @@ private
 CustomElementDefinition
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1976,8 +1978,9 @@ private
 CustomElementReactionsStack
 (
 )
-{
-}
+=
+default
+;
 ;
 /
 *

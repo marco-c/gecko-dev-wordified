@@ -637,8 +637,9 @@ virtual
 EncodingCompleteEvent
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit
@@ -900,8 +901,9 @@ virtual
 EncodingRunnable
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_REFCOUNTING_INHERITED

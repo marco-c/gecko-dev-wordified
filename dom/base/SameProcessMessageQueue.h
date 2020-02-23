@@ -194,8 +194,9 @@ virtual
 Runnable
 (
 )
-{
-}
+=
+default
+;
 private
 :
 bool

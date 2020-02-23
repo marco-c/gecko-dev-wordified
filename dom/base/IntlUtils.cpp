@@ -198,8 +198,9 @@ IntlUtils
 IntlUtils
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 IntlUtils

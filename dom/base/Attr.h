@@ -233,8 +233,9 @@ virtual
 Attr
 (
 )
-{
-}
+=
+default
+;
 public
 :
 Attr

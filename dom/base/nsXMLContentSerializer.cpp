@@ -505,8 +505,9 @@ nsXMLContentSerializer
 nsXMLContentSerializer
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsXMLContentSerializer

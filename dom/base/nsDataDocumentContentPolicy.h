@@ -233,8 +233,9 @@ nsIContentPolicy
 nsDataDocumentContentPolicy
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -242,8 +243,9 @@ NS_DECL_NSICONTENTPOLICY
 nsDataDocumentContentPolicy
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

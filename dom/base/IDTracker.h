@@ -911,8 +911,9 @@ virtual
 Notification
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 explicit
@@ -1100,8 +1101,9 @@ virtual
 ChangeNotification
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 Element
@@ -1172,8 +1174,9 @@ virtual
 DocumentLoadNotification
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetTo

@@ -541,8 +541,8 @@ aNameSpaceID
 nsNameSpaceManager
 (
 )
-{
-}
+=
+default
 ;
 nsDataHashtable
 <

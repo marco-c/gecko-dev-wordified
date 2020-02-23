@@ -178,8 +178,9 @@ DOMStringList
 DOMStringList
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 DOMStringList

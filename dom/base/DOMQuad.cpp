@@ -307,8 +307,9 @@ DOMQuad
 DOMQuad
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 DOMQuad

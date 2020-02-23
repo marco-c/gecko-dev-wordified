@@ -388,8 +388,9 @@ virtual
 TimeoutHandler
 (
 )
-{
-}
+=
+default
+;
 /
 /
 filename
@@ -521,8 +522,9 @@ virtual
 ScriptTimeoutHandler
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIGlobalObject

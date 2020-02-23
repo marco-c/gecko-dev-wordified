@@ -318,8 +318,9 @@ nsScreen
 nsScreen
 (
 )
-{
-}
+=
+default
+;
 /
 /
 QueryInterface

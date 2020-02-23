@@ -278,8 +278,9 @@ virtual
 ScreenLuminance
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsScreen

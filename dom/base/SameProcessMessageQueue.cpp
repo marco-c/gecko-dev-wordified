@@ -152,8 +152,9 @@ SameProcessMessageQueue
 SameProcessMessageQueue
 (
 )
-{
-}
+=
+default
+;
 SameProcessMessageQueue
 :
 :

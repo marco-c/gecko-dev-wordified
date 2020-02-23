@@ -221,8 +221,9 @@ virtual
 DOMRectReadOnly
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -825,8 +826,9 @@ private
 DOMRect
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -842,8 +844,9 @@ nsWrapperCache
 DOMRectList
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

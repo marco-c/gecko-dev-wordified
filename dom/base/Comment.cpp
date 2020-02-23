@@ -187,8 +187,9 @@ Comment
 Comment
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 CharacterData

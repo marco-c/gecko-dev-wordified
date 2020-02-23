@@ -1827,8 +1827,9 @@ BodyStream
 BodyStream
 (
 )
-{
-}
+=
+default
+;
 void
 BodyStream
 :
