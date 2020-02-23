@@ -1089,6 +1089,7 @@ int32_t
 MaxLength
 (
 )
+const
 {
 return
 GetIntAttr
@@ -1099,6 +1100,19 @@ nsGkAtoms
 maxlength
 -
 1
+)
+;
+}
+int32_t
+UsedMaxLength
+(
+)
+const
+final
+{
+return
+MaxLength
+(
 )
 ;
 }
@@ -1165,6 +1179,7 @@ int32_t
 MinLength
 (
 )
+const
 {
 return
 GetIntAttr
