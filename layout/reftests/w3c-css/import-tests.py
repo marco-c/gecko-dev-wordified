@@ -282,19 +282,6 @@ join
 "
 css
 -
-values
-"
-)
-    
-os
-.
-path
-.
-join
-(
-"
-css
--
 writing
 -
 modes
@@ -403,10 +390,7 @@ None
 #
 Map
 of
-about
-:
-config
-prefs
+settings
 that
 need
 toggling
@@ -446,7 +430,7 @@ was
 behind
 a
 pref
-gDefaultPreferences
+gDefaults
 had
 :
 #
@@ -471,7 +455,7 @@ enabled
 true
 )
 "
-gDefaultPreferences
+gDefaults
 =
 {
 }
@@ -3039,7 +3023,6 @@ n
 "
 "
 "
-\
         
 .
 format
@@ -3055,7 +3038,7 @@ __file__
 )
 )
     
-lastDefaultPreferences
+lastDefaults
 =
 None
     
@@ -3065,9 +3048,9 @@ in
 tests
 :
         
-defaultPreferences
+defaults
 =
-gDefaultPreferences
+gDefaults
 .
 get
 (
@@ -3089,14 +3072,14 @@ None
 )
         
 if
-defaultPreferences
+defaults
 !
 =
-lastDefaultPreferences
+lastDefaults
 :
             
 if
-defaultPreferences
+defaults
 is
 None
 :
@@ -3107,9 +3090,7 @@ write
 (
 "
 \
-ndefault
--
-preferences
+ndefaults
 \
 n
 \
@@ -3126,9 +3107,7 @@ write
 (
 "
 \
-ndefault
--
-preferences
+ndefaults
 {
 0
 }
@@ -3140,13 +3119,13 @@ n
 .
 format
 (
-defaultPreferences
+defaults
 )
 )
             
-lastDefaultPreferences
+lastDefaults
 =
-defaultPreferences
+defaults
         
 key
 =
@@ -3178,25 +3157,6 @@ key
 key
 +
 1
-        
-testType
-=
-test
-[
-key
--
-1
-]
-        
-testFlags
-=
-gTestFlags
-[
-test
-[
-key
-]
-]
         
 #
 Replace
