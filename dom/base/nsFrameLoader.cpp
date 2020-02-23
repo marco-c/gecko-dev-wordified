@@ -1177,7 +1177,7 @@ MAX_DEPTH_CONTENT_FRAMES
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 nsFrameLoader
-mBrowsingContext
+mPendingBrowsingContext
 mMessageManager
 mChildMessageManager
 mRemoteBrowser
@@ -1228,7 +1228,7 @@ bool
 aNetworkCreated
 )
 :
-mBrowsingContext
+mPendingBrowsingContext
 (
 aBrowsingContext
 )
@@ -13060,7 +13060,7 @@ if
 mWillChangeProcess
 &
 &
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 EverAttached
@@ -13068,7 +13068,7 @@ EverAttached
 )
 )
 {
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 Detach
@@ -13076,7 +13076,7 @@ Detach
 )
 ;
 }
-mBrowsingContext
+mPendingBrowsingContext
 =
 nullptr
 ;
@@ -13765,7 +13765,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 EnsureAttached
@@ -13805,7 +13805,7 @@ nsDocShell
 :
 Create
 (
-mBrowsingContext
+mPendingBrowsingContext
 )
 ;
 NS_ENSURE_TRUE
@@ -13818,7 +13818,7 @@ mDocShell
 =
 docShell
 ;
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 SetEmbedderElement
@@ -13826,7 +13826,7 @@ SetEmbedderElement
 mOwnerContent
 )
 ;
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 Embed
@@ -13835,7 +13835,7 @@ Embed
 ;
 mIsTopLevelContent
 =
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 IsContent
@@ -13844,7 +13844,7 @@ IsContent
 &
 &
 !
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 GetParent
@@ -14716,7 +14716,7 @@ FRAME_TYPE_BROWSER
 else
 if
 (
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 GetParent
@@ -17042,7 +17042,7 @@ return
 false
 ;
 }
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 EnsureAttached
@@ -17600,7 +17600,7 @@ BrowsingContext
 >
 openerBC
 =
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 GetOpener
@@ -17883,7 +17883,7 @@ CreateBrowser
 context
 ownerElement
 mRemoteType
-mBrowsingContext
+mPendingBrowsingContext
 openerContentParent
 sameTabGroupAs
 nextRemoteTabId
@@ -17953,7 +17953,7 @@ browser
 .
 if
 (
-mBrowsingContext
+mPendingBrowsingContext
 !
 =
 mRemoteBrowser
@@ -17969,14 +17969,14 @@ MOZ_DIAGNOSTIC_ASSERT
 nextRemoteTabId
 )
 ;
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 Detach
 (
 )
 ;
-mBrowsingContext
+mPendingBrowsingContext
 =
 mRemoteBrowser
 -
@@ -18232,7 +18232,7 @@ frameName
 )
 )
 {
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 SetName
@@ -18836,7 +18836,7 @@ correctly
 aDest
 -
 >
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 SetEmbedderElement
@@ -18850,7 +18850,7 @@ mOwnerContent
 aDest
 -
 >
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 Embed
@@ -20004,7 +20004,7 @@ BrowserHost
 aBrowserParent
 )
 ;
-mBrowsingContext
+mPendingBrowsingContext
 =
 aBrowserParent
 -
@@ -21323,7 +21323,7 @@ browsingContext
 browsingContext
 =
 =
-mBrowsingContext
+mPendingBrowsingContext
 )
 ;
 return
@@ -22476,7 +22476,7 @@ solution
 .
 MOZ_DIAGNOSTIC_ASSERT
 (
-mBrowsingContext
+mPendingBrowsingContext
 =
 =
 GetBrowsingContext
@@ -22490,7 +22490,7 @@ CanonicalBrowsingContext
 >
 bc
 (
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 Canonical
@@ -22642,7 +22642,7 @@ return
 }
 if
 (
-mBrowsingContext
+mPendingBrowsingContext
 =
 =
 aBrowsingContext
