@@ -238,8 +238,9 @@ virtual
 XULTooltipElement
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

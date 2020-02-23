@@ -215,8 +215,9 @@ virtual
 XULMenuElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WrapNode

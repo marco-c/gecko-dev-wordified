@@ -294,8 +294,9 @@ virtual
 XULTextElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WrapNode

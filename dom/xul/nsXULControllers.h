@@ -181,8 +181,9 @@ inController
 nsXULControllerData
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 GetControllerID
 (

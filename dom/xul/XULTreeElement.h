@@ -636,8 +636,9 @@ virtual
 XULTreeElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WrapNode

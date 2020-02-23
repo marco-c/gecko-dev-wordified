@@ -371,8 +371,9 @@ XULPersist
 XULPersist
 (
 )
-{
-}
+=
+default
+;
 void
 XULPersist
 :

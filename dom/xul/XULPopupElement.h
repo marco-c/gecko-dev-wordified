@@ -512,8 +512,9 @@ virtual
 XULPopupElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WrapNode
