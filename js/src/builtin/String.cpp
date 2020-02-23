@@ -5785,10 +5785,8 @@ linear
 )
 ;
 }
+static
 bool
-js
-:
-:
 str_toLowerCase
 (
 JSContext
@@ -8580,10 +8578,8 @@ linear
 )
 ;
 }
+static
 bool
-js
-:
-:
 str_toUpperCase
 (
 JSContext
@@ -15142,10 +15138,8 @@ searchString
 position
 ]
 )
+static
 bool
-js
-:
-:
 str_lastIndexOf
 (
 JSContext

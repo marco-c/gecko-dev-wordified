@@ -11441,10 +11441,8 @@ getOwnPropertyNames
 (
 O
 )
+static
 bool
-js
-:
-:
 obj_getOwnPropertyNames
 (
 JSContext
