@@ -814,6 +814,12 @@ options
 disableIon
 (
 )
+|
+|
+!
+IsTypeInferenceEnabled
+(
+)
 )
 )
 {
