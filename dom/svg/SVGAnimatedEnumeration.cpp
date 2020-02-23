@@ -253,7 +253,7 @@ mAttrEnum
 mMapping
 ;
 }
-nsresult
+bool
 SVGAnimatedEnumeration
 :
 :
@@ -383,7 +383,7 @@ notifying
 .
 }
 return
-NS_OK
+true
 ;
 }
 mapping
@@ -392,7 +392,7 @@ mapping
 ;
 }
 return
-NS_ERROR_DOM_TYPE_ERR
+false
 ;
 }
 nsAtom

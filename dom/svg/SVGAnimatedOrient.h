@@ -403,7 +403,7 @@ bool
 aDoSetAttr
 )
 ;
-nsresult
+void
 SetBaseType
 (
 SVGEnumValue
@@ -411,6 +411,9 @@ aValue
 SVGElement
 *
 aSVGElement
+ErrorResult
+&
+aRv
 )
 ;
 void
@@ -741,8 +744,6 @@ aRv
 )
 override
 {
-aRv
-=
 mVal
 -
 >
@@ -750,6 +751,7 @@ SetBaseType
 (
 aBaseVal
 mSVGElement
+aRv
 )
 ;
 }

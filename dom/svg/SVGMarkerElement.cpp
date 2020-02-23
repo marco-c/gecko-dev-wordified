@@ -966,6 +966,9 @@ SetBaseType
 (
 SVG_MARKER_ORIENT_AUTO
 this
+IgnoreErrors
+(
+)
 )
 ;
 }
