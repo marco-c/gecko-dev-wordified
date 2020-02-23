@@ -6024,6 +6024,8 @@ keywords
 auto
 |
 none
+|
+all
 /
 /
 /
@@ -6112,6 +6114,7 @@ TextDecorationSkipInk
 {
 Auto
 None
+All
 }
 /
 /
