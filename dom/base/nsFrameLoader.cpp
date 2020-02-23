@@ -20254,7 +20254,18 @@ SANDBOXED_AUXILIARY_NAVIGATION
 ;
 }
 }
-mBrowsingContext
+if
+(
+BrowsingContext
+*
+context
+=
+GetBrowsingContext
+(
+)
+)
+{
+context
 -
 >
 SetSandboxFlags
@@ -20262,6 +20273,7 @@ SetSandboxFlags
 sandboxFlags
 )
 ;
+}
 }
 /
 *
