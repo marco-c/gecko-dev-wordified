@@ -197,6 +197,7 @@ super
 RawPass
 {
 pub
+unsafe
 fn
 new_compute
 (
