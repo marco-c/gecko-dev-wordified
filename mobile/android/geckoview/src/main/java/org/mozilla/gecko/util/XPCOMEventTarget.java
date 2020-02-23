@@ -172,7 +172,7 @@ IXPCOMEventTarget
 Override
 public
 void
-dispatch
+execute
 (
 final
 Runnable
@@ -481,7 +481,7 @@ getTarget
 name
 )
 .
-dispatch
+execute
 (
 runnable
 )
@@ -574,7 +574,7 @@ targetName
 Override
 public
 void
-dispatch
+execute
 (
 final
 Runnable
@@ -607,7 +607,7 @@ XPCOMEventTarget
 {
 target
 .
-dispatch
+execute
 (
 runnable
 )

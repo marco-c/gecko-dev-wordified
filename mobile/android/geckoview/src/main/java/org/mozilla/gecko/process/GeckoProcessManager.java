@@ -1597,7 +1597,7 @@ launcherThread
 (
 )
 .
-dispatch
+execute
 (
 (
 )
@@ -1629,7 +1629,7 @@ launcherThread
 (
 )
 .
-dispatch
+execute
 (
 (
 )
@@ -1657,7 +1657,7 @@ launcherThread
 (
 )
 .
-dispatch
+execute
 (
 (
 )
@@ -1771,7 +1771,7 @@ launcherThread
 (
 )
 .
-dispatch
+execute
 (
 (
 )
@@ -1865,7 +1865,7 @@ launcherThread
 (
 )
 .
-dispatch
+execute
 (
 (
 )
@@ -2060,7 +2060,7 @@ launcherThread
 (
 )
 .
-dispatch
+execute
 (
 (
 )
