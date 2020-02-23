@@ -13107,6 +13107,9 @@ ClassField
 public
 BinaryNode
 {
+bool
+isStatic_
+;
 public
 :
 ClassField
@@ -13117,6 +13120,8 @@ name
 ParseNode
 *
 initializer
+bool
+isStatic
 )
 :
 BinaryNode
@@ -13141,6 +13146,10 @@ pn_pos
 )
 name
 initializer
+)
+isStatic_
+(
+isStatic
 )
 {
 }
@@ -13218,6 +13227,16 @@ FunctionNode
 >
 (
 )
+;
+}
+bool
+isStatic
+(
+)
+const
+{
+return
+isStatic_
 ;
 }
 }
