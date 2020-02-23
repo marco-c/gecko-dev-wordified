@@ -406,7 +406,13 @@ panel
 .
 panelWin
 .
-gFront
+gStore
+.
+getState
+(
+)
+.
+front
 ;
 const
 startWindows
