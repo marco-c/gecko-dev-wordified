@@ -292,6 +292,13 @@ Get
 (
 )
 ;
+static
+VRManager
+*
+MaybeGet
+(
+)
+;
 void
 AddVRManagerParent
 (
@@ -389,6 +396,11 @@ aTimeout
 ;
 void
 Shutdown
+(
+)
+;
+void
+ShutdownVRManagerParents
 (
 )
 ;
