@@ -1027,7 +1027,7 @@ menu
 .
 item
 .
-eagerEvaluation
+instantEvaluation
 .
 label
 "
@@ -1049,7 +1049,7 @@ menu
 .
 item
 .
-eagerEvaluation
+instantEvaluation
 .
 tooltip
 "
