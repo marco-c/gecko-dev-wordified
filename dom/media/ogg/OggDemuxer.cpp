@@ -4203,14 +4203,12 @@ return
 false
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 OggCodecState
 >
 codecState
-;
-codecState
-=
+(
 OggCodecState
 :
 :
@@ -4218,6 +4216,7 @@ Create
 (
 &
 page
+)
 )
 ;
 if
@@ -4360,7 +4359,7 @@ Add
 serial
 codecState
 .
-forget
+release
 (
 )
 )
@@ -4872,7 +4871,7 @@ move
 (
 tags
 )
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >

@@ -269,13 +269,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -996,7 +989,7 @@ return
 nullptr
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 WMFVideoMFTManager
 >
@@ -1076,7 +1069,7 @@ WMFMediaDataDecoder
 (
 manager
 .
-forget
+release
 (
 )
 aParams
@@ -1107,7 +1100,7 @@ CreateDecoderParams
 aParams
 )
 {
-nsAutoPtr
+UniquePtr
 <
 WMFAudioMFTManager
 >
@@ -1150,7 +1143,7 @@ WMFMediaDataDecoder
 (
 manager
 .
-forget
+release
 (
 )
 aParams

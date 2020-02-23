@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 MediaSpan
 .
 h
@@ -614,8 +623,10 @@ MediaSegmentRange
 )
 ;
 static
+UniquePtr
+<
 ContainerParser
-*
+>
 CreateForMIMEType
 (
 const

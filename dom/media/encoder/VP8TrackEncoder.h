@@ -603,7 +603,7 @@ Codec
 context
 structure
 .
-nsAutoPtr
+UniquePtr
 <
 vpx_codec_ctx_t
 >
@@ -614,7 +614,7 @@ mVPXContext
 Image
 Descriptor
 .
-nsAutoPtr
+UniquePtr
 <
 vpx_image_t
 >

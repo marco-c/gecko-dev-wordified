@@ -134,14 +134,14 @@ WebMWriter
 ContainerWriter
 (
 )
-{
 mEbmlComposer
-=
+(
 new
 EbmlComposer
 (
 )
-;
+)
+{
 }
 WebMWriter
 :
@@ -161,7 +161,7 @@ line
 dtor
 so
 mEbmlComposer
-nsAutoPtr
+UniquePtr
 can
 delete
 a

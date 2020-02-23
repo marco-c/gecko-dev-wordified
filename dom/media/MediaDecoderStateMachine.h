@@ -937,13 +937,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -1647,7 +1640,7 @@ mMetadataLoadedEvent
 }
 MediaEventSourceExc
 <
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
@@ -4584,7 +4577,7 @@ mMetadataLoadedEvent
 ;
 MediaEventProducerExc
 <
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >

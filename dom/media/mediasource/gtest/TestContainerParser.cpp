@@ -125,13 +125,6 @@ ArrayUtils
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 using
 namespace
 mozilla
@@ -177,7 +170,7 @@ aac
 "
 }
 ;
-nsAutoPtr
+UniquePtr
 <
 ContainerParser
 >
@@ -304,7 +297,7 @@ ContainerParser
 ADTSHeader
 )
 {
-nsAutoPtr
+UniquePtr
 <
 ContainerParser
 >
@@ -910,7 +903,7 @@ ContainerParser
 ADTSBlankMedia
 )
 {
-nsAutoPtr
+UniquePtr
 <
 ContainerParser
 >

@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -1616,7 +1609,7 @@ bool
 aReuseInitData
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 ContainerParser
 >

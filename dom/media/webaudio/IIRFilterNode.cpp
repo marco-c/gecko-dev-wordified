@@ -545,11 +545,13 @@ mIIRFilters
 i
 ]
 =
-new
+MakeUnique
+<
 blink
 :
 :
 IIRFilter
+>
 (
 &
 mFeedforward
@@ -785,7 +787,7 @@ mDestination
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 blink
 :

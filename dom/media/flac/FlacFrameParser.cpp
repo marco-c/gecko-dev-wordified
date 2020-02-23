@@ -1007,8 +1007,12 @@ Zero
 ;
 mParser
 =
-new
+MakeUnique
+<
 OpusParser
+>
+(
+)
 ;
 break
 ;

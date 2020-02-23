@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 AlignmentUtils
 .
 h
@@ -883,8 +876,11 @@ Always
 ;
 }
 mReverb
-=
+.
+reset
+(
 aReverb
+)
 ;
 }
 void
@@ -1161,7 +1157,7 @@ reallocation
 AudioBlock
 mReverbInput
 ;
-nsAutoPtr
+UniquePtr
 <
 WebCore
 :
@@ -3487,7 +3483,7 @@ allocationFailure
 =
 false
 ;
-nsAutoPtr
+UniquePtr
 <
 WebCore
 :
@@ -3538,7 +3534,7 @@ SetReverb
 (
 reverb
 .
-forget
+release
 (
 )
 data

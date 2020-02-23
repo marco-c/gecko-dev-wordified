@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 MediaEventSource
 .
 h
@@ -241,7 +234,7 @@ MetadataTags
 &
 &
 aTags
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
@@ -420,7 +413,7 @@ the
 main
 thread
 .
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >

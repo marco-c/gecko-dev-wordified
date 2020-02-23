@@ -193,13 +193,6 @@ HRTFDatabaseLoader
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 using
 WebCore
 :
@@ -620,8 +613,10 @@ SampleRate
 ;
 mHRTFPanner
 =
-new
+MakeUnique
+<
 HRTFPanner
+>
 (
 NodeMainThread
 (
@@ -1412,7 +1407,7 @@ a
 MediaTrackGraph
 ControlMessage
 .
-nsAutoPtr
+UniquePtr
 <
 HRTFPanner
 >

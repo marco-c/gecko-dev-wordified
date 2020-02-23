@@ -1000,8 +1000,12 @@ true
 ;
 mOpusParser
 =
-new
+MakeUnique
+<
 OpusParser
+>
+(
+)
 ;
 if
 (

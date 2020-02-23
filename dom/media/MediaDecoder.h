@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -2764,7 +2757,7 @@ virtual
 void
 FirstFrameLoaded
 (
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
@@ -3760,7 +3753,7 @@ from
 main
 thread
 .
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >

@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 MediaDecoder
 .
 h
@@ -469,7 +462,7 @@ vorbis
 comment
 metadata
 .
-nsAutoPtr
+UniquePtr
 <
 OpusParser
 >

@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -384,7 +377,7 @@ mTaskQueue
 Opus
 decoder
 state
-nsAutoPtr
+UniquePtr
 <
 OpusParser
 >

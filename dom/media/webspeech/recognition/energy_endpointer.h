@@ -669,7 +669,9 @@ vector
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1126,7 +1128,7 @@ speech
 activity
 history
 .
-nsAutoPtr
+UniquePtr
 <
 HistoryRing
 >

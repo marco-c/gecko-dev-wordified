@@ -143,13 +143,6 @@ MediaResource
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -663,7 +656,7 @@ extract
 side
 info
 .
-nsAutoPtr
+UniquePtr
 <
 flac
 :

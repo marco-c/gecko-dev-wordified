@@ -1030,7 +1030,7 @@ length
 =
 impulseResponseBufferLength
 ;
-nsAutoPtr
+UniquePtr
 <
 ReverbConvolver
 >
@@ -1051,10 +1051,12 @@ m_convolvers
 .
 AppendElement
 (
-convolver
-.
-forget
+std
+:
+:
+move
 (
+convolver
 )
 )
 ;

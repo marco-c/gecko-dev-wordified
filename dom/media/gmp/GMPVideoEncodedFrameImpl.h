@@ -328,13 +328,6 @@ Shmem
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {

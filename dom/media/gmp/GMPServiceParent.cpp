@@ -274,13 +274,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -11278,7 +11271,7 @@ rv
 false
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 GMPServiceParent
 >
@@ -11305,6 +11298,10 @@ new
 OpenPGMPServiceParent
 (
 serviceParent
+.
+get
+(
+)
 std
 :
 :
@@ -11361,7 +11358,7 @@ Unused
 <
 serviceParent
 .
-forget
+release
 (
 )
 ;

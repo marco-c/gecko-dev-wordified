@@ -2963,7 +2963,7 @@ override
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 OpusParser
 >

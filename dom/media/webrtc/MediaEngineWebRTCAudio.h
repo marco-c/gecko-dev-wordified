@@ -1436,7 +1436,7 @@ processing
 is
 bypassed
 .
-nsAutoPtr
+UniquePtr
 <
 AudioPacketizer
 <
@@ -1473,7 +1473,7 @@ processing
 is
 bypassed
 .
-nsAutoPtr
+UniquePtr
 <
 AudioPacketizer
 <

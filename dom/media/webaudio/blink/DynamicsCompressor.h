@@ -308,13 +308,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MemoryReporting
@@ -349,6 +342,12 @@ mozilla
 :
 :
 AudioBlock
+;
+using
+mozilla
+:
+:
+UniquePtr
 ;
 /
 /
@@ -641,7 +640,7 @@ filters
 .
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ZeroPoleFilterPack4
 >
@@ -650,7 +649,7 @@ m_preFilterPacks
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ZeroPoleFilterPack4
 >

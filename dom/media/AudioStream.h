@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -612,7 +605,7 @@ each
 DataCallback
 .
 const
-nsAutoPtr
+UniquePtr
 <
 FrameHistory
 >

@@ -311,13 +311,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCharSeparatedTokenizer
 .
 h

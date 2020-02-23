@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -247,7 +240,7 @@ IPC_OK
 nsresult
 rv
 ;
-nsAutoPtr
+UniquePtr
 <
 Context
 >
@@ -276,6 +269,10 @@ GMPTimerParent
 :
 GMPTimerExpired
 ctx
+.
+get
+(
+)
 aTimeoutMs
 nsITimer
 :
@@ -321,7 +318,7 @@ PutEntry
 (
 ctx
 .
-forget
+release
 (
 )
 )
@@ -500,7 +497,7 @@ MOZ_ASSERT
 aClosure
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Context
 >
@@ -541,6 +538,10 @@ mParent
 TimerExpired
 (
 ctx
+.
+get
+(
+)
 )
 ;
 }

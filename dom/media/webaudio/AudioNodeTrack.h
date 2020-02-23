@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 AlignedTArray
 .
 h
@@ -995,6 +988,10 @@ Engine
 {
 return
 mEngine
+.
+get
+(
+)
 ;
 }
 size_t
@@ -1323,7 +1320,7 @@ this
 node
 .
 const
-nsAutoPtr
+UniquePtr
 <
 AudioNodeEngine
 >
