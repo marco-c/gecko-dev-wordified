@@ -79,12 +79,6 @@ json
 import
 os
 from
-distutils
-.
-util
-import
-strtobool
-from
 abc
 import
 ABCMeta
@@ -4297,9 +4291,7 @@ get
 "
 subtest_lower_is_better
 "
-"
 True
-"
 )
                     
 new_result
@@ -4309,22 +4301,6 @@ subtest_lower_is_better
 "
 ]
 =
-bool
-(
-                        
-strtobool
-(
-subtest_lower_is_better
-)
-                    
-)
-if
-isinstance
-(
-subtest_lower_is_better
-str
-)
-else
 subtest_lower_is_better
                     
 new_result
