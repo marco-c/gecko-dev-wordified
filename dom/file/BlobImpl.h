@@ -236,8 +236,9 @@ NS_DECL_THREADSAFE_ISUPPORTS
 BlobImpl
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 GetName
@@ -640,8 +641,9 @@ virtual
 BlobImpl
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

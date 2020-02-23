@@ -555,8 +555,9 @@ virtual
 MultipartBlobImpl
 (
 )
-{
-}
+=
+default
+;
 void
 SetLengthAndModifiedDate
 (

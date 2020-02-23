@@ -183,8 +183,9 @@ Release
 FileReaderSync
 (
 )
-{
-}
+=
+default
+;
 nsresult
 ConvertStream
 (

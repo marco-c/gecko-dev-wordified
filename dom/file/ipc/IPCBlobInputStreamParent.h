@@ -166,8 +166,9 @@ virtual
 IPCBlobInputStreamParentCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

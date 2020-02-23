@@ -799,8 +799,9 @@ virtual
 BaseBlobImpl
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

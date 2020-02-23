@@ -869,8 +869,9 @@ IPCBlobInputStreamChild
 IPCBlobInputStreamChild
 (
 )
-{
-}
+=
+default
+;
 void
 IPCBlobInputStreamChild
 :

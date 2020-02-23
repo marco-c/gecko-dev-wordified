@@ -2254,8 +2254,9 @@ private
 BlobURLsReporter
 (
 )
-{
-}
+=
+default
+;
 static
 void
 BuildPath
@@ -2800,8 +2801,9 @@ aURI
 ReleasingTimerHolder
 (
 )
-{
-}
+=
+default
+;
 void
 RevokeURI
 (

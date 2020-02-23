@@ -217,8 +217,9 @@ IPCBlobInputStreamStorage
 IPCBlobInputStreamStorage
 (
 )
-{
-}
+=
+default
+;
 IPCBlobInputStreamStorage
 :
 :
@@ -226,8 +227,9 @@ IPCBlobInputStreamStorage
 IPCBlobInputStreamStorage
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static

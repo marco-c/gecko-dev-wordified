@@ -256,8 +256,9 @@ private
 EmptyBlobImpl
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

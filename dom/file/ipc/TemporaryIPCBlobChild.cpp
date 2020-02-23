@@ -179,8 +179,9 @@ TemporaryIPCBlobChild
 TemporaryIPCBlobChild
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :
