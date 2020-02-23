@@ -958,8 +958,9 @@ ConsoleReportCollector
 ConsoleReportCollector
 (
 )
-{
-}
+=
+default
+;
 }
 /
 /
