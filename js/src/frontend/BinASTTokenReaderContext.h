@@ -7860,6 +7860,10 @@ each
 tables
 .
 class
+alignas
+(
+uintptr_t
+)
 HuffmanDictionaryForMetadata
 {
 static
