@@ -1007,6 +1007,7 @@ StructuredCloneCallbacksReadTransfer
 StructuredCloneCallbacksWriteTransfer
 StructuredCloneCallbacksFreeTransfer
 StructuredCloneCallbacksCanTransfer
+nullptr
 }
 ;
 /
