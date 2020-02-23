@@ -15318,16 +15318,6 @@ to
 the
 actual
 expression
-if
-(
-classField
--
->
-initializer
-(
-)
-)
-{
 ParseNode
 *
 value
@@ -15500,7 +15490,6 @@ setNull
 (
 )
 ;
-}
 }
 return
 propertyName
