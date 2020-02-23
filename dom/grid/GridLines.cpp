@@ -232,8 +232,9 @@ GridLines
 GridLines
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 GridLines

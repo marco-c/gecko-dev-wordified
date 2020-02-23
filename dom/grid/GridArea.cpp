@@ -228,8 +228,9 @@ GridArea
 GridArea
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 GridArea
