@@ -524,6 +524,11 @@ GeckoMediaPluginServiceParent
 mInitPromiseMonitor
 "
 )
+mInitPromise
+(
+&
+mInitPromiseMonitor
+)
 mLoadPluginsFromDiskComplete
 (
 false
@@ -547,14 +552,6 @@ MOZ_ASSERT
 NS_IsMainThread
 (
 )
-)
-;
-mInitPromise
-.
-SetMonitor
-(
-&
-mInitPromiseMonitor
 )
 ;
 }

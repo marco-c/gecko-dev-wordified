@@ -685,7 +685,7 @@ mMonitor
 ReorderQueue
 mReorderQueue
 ;
-MozPromiseHolder
+MozMonitoredPromiseHolder
 <
 DecodePromise
 >

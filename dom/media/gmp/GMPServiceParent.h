@@ -1015,7 +1015,7 @@ proceed
 Monitor
 mInitPromiseMonitor
 ;
-MozPromiseHolder
+MozMonitoredPromiseHolder
 <
 GenericPromise
 >
