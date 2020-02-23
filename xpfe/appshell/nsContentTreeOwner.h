@@ -239,6 +239,16 @@ AppWindow
 (
 )
 ;
+private
+:
+already_AddRefed
+<
+nsIWebBrowserChrome3
+>
+GetWebBrowserChrome
+(
+)
+;
 protected
 :
 mozilla
