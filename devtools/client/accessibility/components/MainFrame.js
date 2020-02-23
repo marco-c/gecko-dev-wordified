@@ -421,13 +421,6 @@ PropTypes
 array
 .
 isRequired
-accessibilityWalker
-:
-PropTypes
-.
-object
-.
-isRequired
 enabled
 :
 PropTypes
@@ -481,6 +474,13 @@ func
 .
 isRequired
 stopListeningForAccessibilityEvents
+:
+PropTypes
+.
+func
+.
+isRequired
+audit
 :
 PropTypes
 .
@@ -819,7 +819,6 @@ render
 const
 {
 accessibility
-accessibilityWalker
 fluentBundles
 enabled
 auditing
@@ -828,6 +827,7 @@ toolbox
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
+audit
 }
 =
 this
@@ -891,7 +891,7 @@ Toolbar
 (
 {
 accessibility
-accessibilityWalker
+audit
 simulator
 toolboxDoc
 :
