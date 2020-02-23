@@ -205,8 +205,9 @@ virtual
 URLSearchParamsObserver
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 URLSearchParamsUpdated
@@ -265,8 +266,9 @@ public
 URLParams
 (
 )
-{
-}
+=
+default
+;
 ~
 URLParams
 (
