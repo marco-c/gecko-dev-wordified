@@ -17605,10 +17605,12 @@ js
 :
 HandleScriptSourceObject
 sourceObject
+const
 js
 :
 :
 SourceExtent
+&
 extent
 )
 ;
@@ -17639,10 +17641,12 @@ js
 :
 HandleScriptSourceObject
 sourceObject
+const
 js
 :
 :
 SourceExtent
+&
 extent
 )
 ;
@@ -22772,7 +22776,9 @@ HandleFunction
 fun
 HandleScriptSourceObject
 sourceObject
+const
 SourceExtent
+&
 extent
 )
 ;
@@ -22841,7 +22847,9 @@ frontend
 FunctionBoxVector
 &
 innerFunctionBoxes
+const
 SourceExtent
+&
 extent
 )
 ;
