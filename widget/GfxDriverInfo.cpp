@@ -3594,8 +3594,8 @@ APPEND_DEVICE
 )
 ;
 #
-if
-0
+ifdef
+MOZ_WIDGET_GTK
 /
 /
 Gen7
