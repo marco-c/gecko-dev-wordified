@@ -1055,7 +1055,7 @@ is
 (
 data
 .
-isTrackingResource
+isThirdPartyTrackingResource
 expectedTrackingResource
 "
 Tracking
@@ -1224,11 +1224,11 @@ classificationFlags
 classifiedChannel
 .
 classificationFlags
-isTrackingResource
+isThirdPartyTrackingResource
 :
 classifiedChannel
 .
-isTrackingResource
+isThirdPartyTrackingResource
 (
 )
 }

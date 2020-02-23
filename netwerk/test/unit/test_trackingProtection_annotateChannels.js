@@ -373,7 +373,7 @@ Ci
 nsIClassifiedChannel
 )
 .
-isTrackingResource
+isThirdPartyTrackingResource
 (
 )
 this
