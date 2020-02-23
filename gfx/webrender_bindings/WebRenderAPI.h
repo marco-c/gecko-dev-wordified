@@ -1397,6 +1397,13 @@ aEnable
 )
 ;
 void
+SetBatchingLookback
+(
+uint32_t
+aCount
+)
+;
+void
 Pause
 (
 )
