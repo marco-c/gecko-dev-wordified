@@ -504,7 +504,11 @@ PRIu64
 n
 "
 aRootLayerTreeId
+.
+mId
 aOriginatingLayersId
+.
+mId
 aState
 .
 Type
@@ -657,6 +661,8 @@ PRIu64
 n
 "
 mFocusLayersId
+.
+mId
 )
 ;
 return
@@ -949,6 +955,8 @@ n
 mFocusState
 .
 mFocusLayersId
+.
+mId
 )
 ;
 return
@@ -972,6 +980,8 @@ PRIu64
 n
 "
 aRefLayerId
+.
+mId
 )
 ;
 /
