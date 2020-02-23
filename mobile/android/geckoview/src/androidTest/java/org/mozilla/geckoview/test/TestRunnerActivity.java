@@ -1305,13 +1305,6 @@ remoteDebuggingEnabled
 (
 true
 )
-.
-autoplayDefault
-(
-GeckoRuntimeSettings
-.
-AUTOPLAY_DEFAULT_ALLOWED
-)
 ;
 final
 Bundle
