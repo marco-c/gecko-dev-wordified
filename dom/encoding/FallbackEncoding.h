@@ -428,8 +428,8 @@ virtual
 FallbackEncoding
 (
 )
-{
-}
+=
+default
 ;
 /
 *
