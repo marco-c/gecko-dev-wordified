@@ -4098,6 +4098,13 @@ allow
 missing_docs
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 CalcLengthPercentageLeaf
