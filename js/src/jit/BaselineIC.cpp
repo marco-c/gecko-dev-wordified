@@ -9088,6 +9088,13 @@ HandleValue
 val
 )
 {
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 EnsureTrackPropertyTypes
 (
 cx
@@ -10040,6 +10047,13 @@ JS
 :
 AutoCheckCannotGC
 nogc
+;
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
 ;
 FallbackICSpew
 (

@@ -30821,8 +30821,11 @@ assumption
 becomes
 false
 .
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+IsTypeInferenceEnabled
+(
+)
 typeCheckInfo_
 .
 needsTypeBarrier

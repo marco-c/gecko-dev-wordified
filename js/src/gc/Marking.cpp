@@ -13948,6 +13948,13 @@ return
 true
 ;
 }
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 /
 /
 This

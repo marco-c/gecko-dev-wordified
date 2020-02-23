@@ -11220,6 +11220,11 @@ if
 NeedsTypeBarrier
 &
 &
+IsTypeInferenceEnabled
+(
+)
+&
+&
 !
 HasTypePropertyId
 (
