@@ -161,7 +161,10 @@ tpp
 for
 tpp
 in
+sorted
+(
 tpp_list
+)
 ]
 )
     
