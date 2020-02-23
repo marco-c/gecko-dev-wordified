@@ -14930,7 +14930,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -14939,7 +14939,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
@@ -15545,7 +15545,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -15554,7 +15554,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
@@ -15589,9 +15589,9 @@ aHostURI
 bool
 aIsForeign
 bool
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 bool
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t
@@ -15866,8 +15866,8 @@ CheckPrefs
 cookieSettings
 aHostURI
 aIsForeign
-aIsTrackingResource
-aIsSocialTrackingResource
+aIsThirdPartyTrackingResource
+aIsThirdPartySocialTrackingResource
 aFirstPartyStorageAccessGranted
 aCookieHeader
 priorCookieCount
@@ -21522,9 +21522,9 @@ aChannel
 bool
 aIsForeign
 bool
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 bool
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t
@@ -21822,8 +21822,8 @@ CheckPrefs
 cookieSettings
 aHostURI
 aIsForeign
-aIsTrackingResource
-aIsSocialTrackingResource
+aIsThirdPartyTrackingResource
+aIsThirdPartySocialTrackingResource
 aFirstPartyStorageAccessGranted
 VoidCString
 (
@@ -22666,9 +22666,9 @@ aChannel
 bool
 aIsForeign
 bool
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 bool
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t
@@ -22701,8 +22701,8 @@ GetCookiesForURI
 aHostURI
 aChannel
 aIsForeign
-aIsTrackingResource
-aIsSocialTrackingResource
+aIsThirdPartyTrackingResource
+aIsThirdPartySocialTrackingResource
 aFirstPartyStorageAccessGranted
 aRejectedReason
 aIsSafeTopLevelNav
@@ -29772,9 +29772,9 @@ aHostURI
 bool
 aIsForeign
 bool
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 bool
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 const
@@ -30072,7 +30072,7 @@ if
 aIsForeign
 &
 &
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 &
 &
 !
@@ -30202,7 +30202,7 @@ trackers
 ;
 if
 (
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 )
 {
 *

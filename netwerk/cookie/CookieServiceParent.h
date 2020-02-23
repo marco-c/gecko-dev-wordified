@@ -299,11 +299,11 @@ aIsForeign
 const
 bool
 &
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 const
 bool
 &
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 const
 bool
 &
@@ -350,11 +350,11 @@ aIsForeign
 const
 bool
 &
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 const
 bool
 &
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 const
 bool
 &

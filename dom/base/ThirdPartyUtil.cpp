@@ -3222,7 +3222,7 @@ if
 classifiedChannel
 -
 >
-IsTrackingResource
+IsThirdPartyTrackingResource
 (
 )
 )
@@ -3233,7 +3233,7 @@ result
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 ;
 }
 if
@@ -3241,7 +3241,7 @@ if
 classifiedChannel
 -
 >
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 (
 )
 )
@@ -3252,7 +3252,7 @@ result
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 ;
 }
 /
