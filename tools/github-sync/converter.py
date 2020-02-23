@@ -287,33 +287,38 @@ changes
     
 sync_tags
 =
-downstream_git_repo
-.
-describe
+filter
 (
         
-describe_strategy
-=
-pygit2
+lambda
+ref
+:
+ref
 .
-GIT_DESCRIBE_TAGS
-pattern
-=
+startswith
+(
 '
+refs
+/
+tags
+/
 mozilla
 -
-*
 '
+)
+        
+list
+(
+downstream_git_repo
+.
+references
+)
 )
     
 for
 desc
 in
 sync_tags
-.
-splitlines
-(
-)
 :
         
 commit
@@ -322,18 +327,7 @@ downstream_git_repo
 .
 lookup_reference
 (
-'
-refs
-/
-tags
-/
-'
-+
 desc
-[
-:
-48
-]
 )
 .
 peel
@@ -354,9 +348,8 @@ hg_rev
 =
 desc
 [
-8
+18
 :
-48
 ]
         
 commit_map
@@ -3404,7 +3397,9 @@ desc
 =
 "
 touches
-WR
+code
+to
+sync
 :
 %
 s
@@ -3412,7 +3407,7 @@ s
 %
 cset
 .
-touches_wr_code
+touches_sync_code
         
 desc
 +
