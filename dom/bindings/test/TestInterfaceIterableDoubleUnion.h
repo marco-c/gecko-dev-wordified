@@ -272,8 +272,9 @@ virtual
 TestInterfaceIterableDoubleUnion
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

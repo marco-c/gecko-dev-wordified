@@ -358,8 +358,9 @@ IterableIteratorType
 IterableIteratorBase
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -367,8 +368,9 @@ virtual
 IterableIteratorBase
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 UnlinkHelper
@@ -1507,8 +1509,9 @@ virtual
 IterableIterator
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Since

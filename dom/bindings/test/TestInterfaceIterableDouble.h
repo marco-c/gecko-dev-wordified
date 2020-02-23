@@ -268,8 +268,9 @@ virtual
 TestInterfaceIterableDouble
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

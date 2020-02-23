@@ -445,8 +445,9 @@ public
 nsScriptError
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 private
 :
@@ -455,8 +456,9 @@ virtual
 nsScriptError
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

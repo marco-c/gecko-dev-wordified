@@ -244,8 +244,9 @@ virtual
 TestInterfaceSetlike
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

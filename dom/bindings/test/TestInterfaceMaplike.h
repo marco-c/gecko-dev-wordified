@@ -287,8 +287,9 @@ virtual
 TestInterfaceMaplike
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

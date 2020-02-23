@@ -198,8 +198,9 @@ public
 WrapperCachedNonISupportsTestInterface
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <
@@ -219,8 +220,9 @@ protected
 WrapperCachedNonISupportsTestInterface
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsISupports

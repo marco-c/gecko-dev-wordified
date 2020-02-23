@@ -205,8 +205,9 @@ public
 RecordEntry
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Move
@@ -422,8 +423,9 @@ SelfType
 Record
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Move
