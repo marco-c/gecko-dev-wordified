@@ -15942,6 +15942,11 @@ Document
 1
 ;
 bool
+DOMException
+:
+1
+;
+bool
 DOMParser
 :
 1
