@@ -447,11 +447,6 @@ supports
 PropTypes
 .
 object
-simulator
-:
-PropTypes
-.
-object
 toolbox
 :
 PropTypes
@@ -487,6 +482,11 @@ PropTypes
 func
 .
 isRequired
+simulate
+:
+PropTypes
+.
+func
 }
 ;
 }
@@ -822,7 +822,7 @@ accessibility
 fluentBundles
 enabled
 auditing
-simulator
+simulate
 toolbox
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
@@ -892,7 +892,7 @@ Toolbar
 {
 accessibility
 audit
-simulator
+simulate
 toolboxDoc
 :
 toolbox

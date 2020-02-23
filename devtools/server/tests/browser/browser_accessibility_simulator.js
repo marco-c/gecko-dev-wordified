@@ -408,12 +408,9 @@ html
 const
 simulator
 =
-await
 accessibility
 .
-getSimulator
-(
-)
+simulatorFront
 ;
 if
 (

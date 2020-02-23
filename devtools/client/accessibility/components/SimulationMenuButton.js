@@ -489,13 +489,11 @@ propTypes
 {
 return
 {
-simulator
+simulate
 :
 PropTypes
 .
-object
-.
-isRequired
+func
 simulation
 :
 PropTypes
@@ -551,7 +549,9 @@ disableSimulation
 const
 {
 dispatch
-simulator
+simulate
+:
+simulateFunc
 }
 =
 this
@@ -564,7 +564,7 @@ actions
 .
 simulate
 (
-simulator
+simulateFunc
 )
 )
 ;
@@ -578,7 +578,9 @@ const
 {
 dispatch
 simulation
-simulator
+simulate
+:
+simulateFunc
 }
 =
 this
@@ -615,7 +617,7 @@ actions
 .
 simulate
 (
-simulator
+simulateFunc
 [
 simKey
 ]
