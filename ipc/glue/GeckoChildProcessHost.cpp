@@ -7201,6 +7201,12 @@ mProcessType
 GeckoProcessType_GMPlugin
 )
 {
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 if
 (
 Omnijar
@@ -7342,6 +7348,8 @@ get
 ;
 }
 }
+#
+endif
 /
 /
 Add
@@ -8749,6 +8757,12 @@ it
 )
 ;
 }
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 if
 (
 Omnijar
@@ -8900,6 +8914,8 @@ get
 ;
 }
 }
+#
+endif
 #
 if
 defined
