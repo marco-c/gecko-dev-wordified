@@ -3307,15 +3307,6 @@ aPrompt
 )
 override
 ;
-RefPtr
-<
-mozilla
-:
-:
-ThrottledEventQueue
->
-mPostMessageEventQueue
-;
 protected
 :
 mozilla
