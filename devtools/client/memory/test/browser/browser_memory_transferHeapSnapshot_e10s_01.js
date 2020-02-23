@@ -129,13 +129,7 @@ panel
 .
 panelWin
 .
-gStore
-.
-getState
-(
-)
-.
-front
+gFront
 ;
 ok
 (
