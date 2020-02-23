@@ -3750,7 +3750,7 @@ MOZ_ASSERT_IF
 static_cast
 <
 const
-LinearGradientPattern
+RadialGradientPattern
 *
 >
 (
