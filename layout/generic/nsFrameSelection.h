@@ -2046,6 +2046,11 @@ cell
 to
 the
 selection
+with
+SelectionType
+:
+:
+eNormal
 .
 *
 *
