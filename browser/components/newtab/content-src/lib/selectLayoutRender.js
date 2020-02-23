@@ -74,7 +74,7 @@ rollCache
 =
 [
 ]
-lang
+locale
 =
 "
 "
@@ -397,7 +397,7 @@ TopSites
 if
 (
 !
-lang
+locale
 .
 startsWith
 (
