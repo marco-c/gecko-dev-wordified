@@ -6,10 +6,12 @@ value
 other
 than
 undefined
-causes
+does
+not
+cause
+/
+/
 further
-/
-/
 hooks
 to
 be
@@ -163,7 +165,7 @@ assertEq
 (
 log
 "
-012
+012345
 "
 )
 ;

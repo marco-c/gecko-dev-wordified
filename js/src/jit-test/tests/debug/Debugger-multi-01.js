@@ -127,12 +127,10 @@ abc
 Calling
 debugger
 hooks
-stops
-as
-soon
-as
-any
-hook
+continues
+even
+if
+one
 returns
 a
 resumption
@@ -196,7 +194,7 @@ assertEq
 (
 log
 '
-a
+abc
 '
 )
 ;

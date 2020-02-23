@@ -448,6 +448,12 @@ f
 "
 )
 {
+dbg
+.
+onEnterFrame
+=
+undefined
+;
 frame
 .
 script
@@ -852,6 +858,12 @@ f
 "
 )
 {
+dbg
+.
+onEnterFrame
+=
+undefined
+;
 frame
 .
 script
