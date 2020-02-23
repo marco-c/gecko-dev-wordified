@@ -3580,6 +3580,15 @@ emitInitializeInstanceFields
 (
 )
 ;
+MOZ_MUST_USE
+bool
+emitInitializeStaticFields
+(
+ListNode
+*
+classMembers
+)
+;
 /
 /
 To
