@@ -1624,6 +1624,10 @@ mRuntime
 =
 runtime
 ;
+refreshExtensionList
+(
+)
+;
 }
 }
 public
