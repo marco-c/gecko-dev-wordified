@@ -1991,7 +1991,7 @@ requested
 *
 /
 void
-updateForNextHandler
+updateFromHookResult
 (
 ResumeMode
 resumeMode
