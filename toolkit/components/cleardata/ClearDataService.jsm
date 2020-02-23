@@ -3029,6 +3029,10 @@ qms
 .
 listOrigins
 (
+)
+.
+callback
+=
 aRequest
 =
 >
@@ -3070,8 +3074,8 @@ promises
 ;
 for
 (
-let
-item
+const
+origin
 of
 aRequest
 .
@@ -3087,8 +3091,6 @@ scriptSecurityManager
 .
 createContentPrincipalFromOrigin
 (
-item
-.
 origin
 )
 ;
@@ -3232,7 +3234,6 @@ aResolve
 )
 ;
 }
-)
 ;
 }
 )
