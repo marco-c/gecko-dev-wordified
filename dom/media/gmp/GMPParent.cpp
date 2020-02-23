@@ -2778,7 +2778,7 @@ mVersion
 ;
 }
 }
-bool
+void
 GMPParent
 :
 :
@@ -2793,7 +2793,6 @@ AddCrashAnnotations
 (
 )
 ;
-return
 GenerateCrashReport
 (
 OtherPid
@@ -3019,15 +3018,11 @@ gmplugin
 nsString
 dumpID
 ;
-if
-(
-!
 GetCrashID
 (
 dumpID
 )
-)
-{
+;
 if
 (
 dumpID
@@ -3065,7 +3060,6 @@ mVersion
 dumpID
 )
 ;
-}
 }
 /
 /
