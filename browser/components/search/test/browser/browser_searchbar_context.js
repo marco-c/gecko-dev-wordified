@@ -170,12 +170,6 @@ function
 (
 )
 {
-gCUITestUtils
-.
-removeSearchBar
-(
-)
-;
 await
 Services
 .
@@ -202,6 +196,12 @@ BrowserTestUtils
 closeWindow
 (
 win
+)
+;
+gCUITestUtils
+.
+removeSearchBar
+(
 )
 ;
 }
