@@ -1680,10 +1680,6 @@ ES
 25
 spec
 .
-mColorWriteMask
-=
-0x0f
-;
 mDriverColorMask
 =
 mColorWriteMask

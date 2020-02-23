@@ -7124,7 +7124,7 @@ mStencilWriteMaskBack
 uint8_t
 mColorWriteMask
 =
-0
+0xf
 ;
 /
 /
