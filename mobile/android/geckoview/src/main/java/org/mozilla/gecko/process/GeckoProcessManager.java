@@ -950,7 +950,7 @@ intent
 setClassName
 (
 context
-GeckoServiceChildProcess
+GeckoChildProcessServices
 .
 class
 .
