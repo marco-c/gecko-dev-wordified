@@ -1182,8 +1182,9 @@ InternalRequest
 InternalRequest
 (
 )
-{
-}
+=
+default
+;
 template
 void
 InternalRequest

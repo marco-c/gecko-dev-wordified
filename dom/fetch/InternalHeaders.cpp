@@ -1635,8 +1635,9 @@ InternalHeaders
 InternalHeaders
 (
 )
-{
-}
+=
+default
+;
 /
 /
 static
