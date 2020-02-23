@@ -2411,7 +2411,7 @@ Promise
 Replace
 (
 const
-nsAString
+nsACString
 &
 aText
 ErrorResult
