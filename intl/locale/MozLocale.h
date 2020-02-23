@@ -905,7 +905,7 @@ en
 "
 )
 .
-AddLikelySubtags
+Maximize
 (
 )
 .
@@ -925,7 +925,7 @@ US
 *
 /
 bool
-AddLikelySubtags
+Maximize
 (
 )
 ;

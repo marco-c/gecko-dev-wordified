@@ -604,7 +604,7 @@ use
 Locale
 :
 :
-AddLikelySubtags
+Maximize
 to
 get
 a
@@ -628,7 +628,7 @@ if
 (
 locale
 .
-AddLikelySubtags
+Maximize
 (
 )
 &

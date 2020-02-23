@@ -947,7 +947,7 @@ extern
 C
 "
 fn
-unic_langid_add_likely_subtags
+unic_langid_maximize
 (
 langid
 :
