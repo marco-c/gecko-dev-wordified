@@ -3253,8 +3253,9 @@ LinkedProgramInfo
 LinkedProgramInfo
 (
 )
-{
-}
+=
+default
+;
 webgl
 :
 :

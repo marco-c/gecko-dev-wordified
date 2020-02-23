@@ -1662,8 +1662,9 @@ private
 FormatUsageAuthority
 (
 )
-{
-}
+=
+default
+;
 public
 :
 FormatUsageInfo

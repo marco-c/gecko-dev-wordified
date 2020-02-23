@@ -369,8 +369,9 @@ virtual
 CanvasGradient
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

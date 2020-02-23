@@ -961,6 +961,9 @@ end
 )
 {
 }
+/
+/
+NOLINT
 WebGLContext
 :
 :

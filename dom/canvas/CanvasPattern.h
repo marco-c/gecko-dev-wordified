@@ -150,8 +150,9 @@ nsWrapperCache
 CanvasPattern
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING

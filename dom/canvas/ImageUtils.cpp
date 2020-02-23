@@ -1029,8 +1029,9 @@ protected
 Impl
 (
 )
-{
-}
+=
+default
+;
 DataSourceSurface
 *
 Surface

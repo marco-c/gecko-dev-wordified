@@ -131,8 +131,9 @@ WebGLVertexArrayFake
 (
 )
 override
-{
-}
+=
+default
+;
 virtual
 void
 BindVertexArray

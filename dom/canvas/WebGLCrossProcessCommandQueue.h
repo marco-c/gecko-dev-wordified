@@ -298,8 +298,9 @@ PCompositorBridgeParent
 HostWebGLCommandSink
 (
 )
-{
-}
+=
+default
+;
 bool
 DispatchCommand
 (
