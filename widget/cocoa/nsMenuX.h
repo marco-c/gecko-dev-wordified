@@ -684,9 +684,6 @@ mConstructed
 bool
 mVisible
 ;
-bool
-mXBLAttached
-;
 }
 ;
 #
