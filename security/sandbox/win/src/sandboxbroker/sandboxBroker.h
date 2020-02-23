@@ -280,6 +280,14 @@ SetSecurityLevelForRDDProcess
 ;
 virtual
 bool
+SetSecurityLevelForSocketProcess
+(
+)
+=
+0
+;
+virtual
+bool
 SetSecurityLevelForPluginProcess
 (
 int32_t
@@ -526,6 +534,12 @@ override
 ;
 bool
 SetSecurityLevelForRDDProcess
+(
+)
+override
+;
+bool
+SetSecurityLevelForSocketProcess
 (
 )
 override
