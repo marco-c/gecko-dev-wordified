@@ -429,6 +429,13 @@ wr
 DocumentId
 &
 aRenderRootId
+const
+wr
+:
+:
+WrPipelineIdEpochs
+*
+aEpochsBeingRendered
 )
 ;
 void
@@ -454,6 +461,13 @@ wr
 :
 RenderRoot
 aRenderRoot
+const
+wr
+:
+:
+WrPipelineIdEpochs
+*
+aEpochsBeingRendered
 )
 ;
 bool
