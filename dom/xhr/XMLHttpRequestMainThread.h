@@ -3024,8 +3024,9 @@ virtual
 nsHeaderVisitor
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 HeaderEntry
@@ -4409,8 +4410,9 @@ virtual
 nsXHRParseEndListener
 (
 )
-{
-}
+=
+default
+;
 XMLHttpRequestMainThread
 *
 mXHR

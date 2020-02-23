@@ -205,8 +205,9 @@ virtual
 XMLHttpRequestUpload
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
