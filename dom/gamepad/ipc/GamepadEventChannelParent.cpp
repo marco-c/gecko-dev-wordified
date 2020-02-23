@@ -174,8 +174,9 @@ private
 SendGamepadUpdateRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 GamepadEventChannelParent

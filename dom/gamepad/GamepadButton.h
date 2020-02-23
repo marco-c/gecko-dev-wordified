@@ -292,8 +292,9 @@ virtual
 GamepadButton
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsCOMPtr

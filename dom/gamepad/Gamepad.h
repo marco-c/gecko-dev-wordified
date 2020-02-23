@@ -724,8 +724,9 @@ virtual
 Gamepad
 (
 )
-{
-}
+=
+default
+;
 void
 UpdateTimestamp
 (
