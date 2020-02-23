@@ -1225,7 +1225,10 @@ slug
 *
 returns
 {
+Promise
+<
 boolean
+>
 }
 *
 /
