@@ -128,6 +128,15 @@ gio
 .
 h
 "
+#
+include
+"
+unicode
+/
+uloc
+.
+h
+"
 using
 namespace
 mozilla
