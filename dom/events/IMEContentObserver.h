@@ -1041,8 +1041,9 @@ private
 IMEContentObserver
 (
 )
-{
-}
+=
+default
+;
 enum
 State
 {

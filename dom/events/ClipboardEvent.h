@@ -270,8 +270,9 @@ protected
 ClipboardEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

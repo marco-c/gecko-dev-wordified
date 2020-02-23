@@ -350,8 +350,9 @@ protected
 WheelEvent
 (
 )
-{
-}
+=
+default
+;
 private
 :
 int32_t

@@ -297,8 +297,9 @@ public
 RawRange
 (
 )
-{
-}
+=
+default
+;
 void
 Clear
 (
@@ -1156,12 +1157,9 @@ true
 NodePosition
 (
 )
-:
-RangeBoundary
-(
-)
-{
-}
+=
+default
+;
 NodePosition
 (
 nsINode

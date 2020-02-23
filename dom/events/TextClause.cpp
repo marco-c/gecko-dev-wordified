@@ -306,8 +306,9 @@ TextClause
 TextClause
 (
 )
-{
-}
+=
+default
+;
 }
 /
 /

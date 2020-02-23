@@ -1535,8 +1535,9 @@ DataTransfer
 DataTransfer
 (
 )
-{
-}
+=
+default
+;
 /
 /
 static

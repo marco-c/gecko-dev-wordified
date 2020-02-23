@@ -673,8 +673,9 @@ protected
 DeviceMotionEvent
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DeviceAcceleration

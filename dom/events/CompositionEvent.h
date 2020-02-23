@@ -323,8 +323,9 @@ protected
 CompositionEvent
 (
 )
-{
-}
+=
+default
+;
 nsString
 mData
 ;

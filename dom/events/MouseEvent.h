@@ -531,8 +531,9 @@ protected
 MouseEvent
 (
 )
-{
-}
+=
+default
+;
 void
 InitMouseEvent
 (

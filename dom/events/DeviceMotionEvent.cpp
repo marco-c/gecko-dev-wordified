@@ -988,8 +988,9 @@ DeviceAcceleration
 DeviceAcceleration
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -1220,8 +1221,9 @@ DeviceRotationRate
 DeviceRotationRate
 (
 )
-{
-}
+=
+default
+;
 }
 /
 /

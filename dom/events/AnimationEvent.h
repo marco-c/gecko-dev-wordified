@@ -270,8 +270,9 @@ protected
 AnimationEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

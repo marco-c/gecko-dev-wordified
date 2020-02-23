@@ -302,8 +302,9 @@ protected
 SimpleGestureEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

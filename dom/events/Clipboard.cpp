@@ -267,8 +267,9 @@ Clipboard
 Clipboard
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 Promise

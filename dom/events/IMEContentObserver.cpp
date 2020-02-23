@@ -629,8 +629,9 @@ virtual
 WritingModeToString
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -838,8 +839,9 @@ virtual
 SelectionChangeDataToString
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -960,8 +962,9 @@ virtual
 TextChangeDataToString
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

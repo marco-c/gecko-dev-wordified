@@ -358,8 +358,9 @@ protected
 ScrollAreaEvent
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DOMRect

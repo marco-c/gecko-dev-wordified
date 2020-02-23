@@ -280,8 +280,9 @@ private
 PaintRequest
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 Event
@@ -445,8 +446,9 @@ private
 PaintRequestList
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 RefPtr

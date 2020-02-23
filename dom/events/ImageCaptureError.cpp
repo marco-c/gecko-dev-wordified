@@ -202,8 +202,9 @@ ImageCaptureError
 ImageCaptureError
 (
 )
-{
-}
+=
+default
+;
 nsISupports
 *
 ImageCaptureError

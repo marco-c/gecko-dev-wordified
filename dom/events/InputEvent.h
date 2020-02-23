@@ -288,8 +288,9 @@ protected
 InputEvent
 (
 )
-{
-}
+=
+default
+;
 /
 /
 mInputTypeValue
