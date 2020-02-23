@@ -542,6 +542,7 @@ wr
 :
 WrWindowId
 aWindowId
+const
 mozilla
 :
 :
@@ -549,6 +550,7 @@ wr
 :
 :
 WrPipelineInfo
+*
 aInfo
 )
 ;

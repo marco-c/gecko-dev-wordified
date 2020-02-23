@@ -98,6 +98,10 @@ thread_profiler
 ;
 extern
 crate
+thin_vec
+;
+extern
+crate
 bincode
 ;
 extern

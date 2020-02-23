@@ -198,7 +198,7 @@ RenderedFrameId
 EndFrame
 (
 const
-FfiVec
+nsTArray
 <
 DeviceIntRect
 >

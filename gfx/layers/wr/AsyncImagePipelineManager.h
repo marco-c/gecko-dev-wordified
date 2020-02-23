@@ -442,6 +442,7 @@ NotifyPipelinesUpdated
 (
 RefPtr
 <
+const
 wr
 :
 :
@@ -1525,6 +1526,7 @@ vector
 <
 RefPtr
 <
+const
 wr
 :
 :

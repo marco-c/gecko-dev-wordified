@@ -632,7 +632,7 @@ RenderCompositorEGL
 EndFrame
 (
 const
-FfiVec
+nsTArray
 <
 DeviceIntRect
 >

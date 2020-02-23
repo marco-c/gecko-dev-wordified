@@ -372,6 +372,7 @@ wr
 Renderer
 *
 aRenderer
+const
 wr
 :
 :
@@ -398,6 +399,7 @@ updated
 bool
 DidPaintContent
 (
+const
 wr
 :
 :
