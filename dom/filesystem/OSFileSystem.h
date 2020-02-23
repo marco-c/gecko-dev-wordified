@@ -294,8 +294,9 @@ virtual
 OSFileSystem
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIGlobalObject
@@ -566,8 +567,9 @@ virtual
 OSFileSystemParent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

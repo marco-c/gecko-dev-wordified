@@ -658,8 +658,9 @@ private
 PromiseHandler
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 FileSystemDirectoryEntry
@@ -773,8 +774,9 @@ FileSystemDirectoryReader
 FileSystemDirectoryReader
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 FileSystemDirectoryReader

@@ -395,8 +395,9 @@ FileSystemRootDirectoryReader
 FileSystemRootDirectoryReader
 (
 )
-{
-}
+=
+default
+;
 void
 FileSystemRootDirectoryReader
 :

@@ -591,8 +591,9 @@ Directory
 Directory
 (
 )
-{
-}
+=
+default
+;
 nsIGlobalObject
 *
 Directory

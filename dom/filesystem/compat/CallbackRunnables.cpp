@@ -573,8 +573,9 @@ GetEntryHelper
 GetEntryHelper
 (
 )
-{
-}
+=
+default
+;
 namespace
 {
 nsresult

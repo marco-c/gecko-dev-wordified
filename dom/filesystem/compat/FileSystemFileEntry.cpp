@@ -390,8 +390,9 @@ FileSystemFileEntry
 FileSystemFileEntry
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 FileSystemFileEntry
