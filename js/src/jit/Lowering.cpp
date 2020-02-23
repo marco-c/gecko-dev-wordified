@@ -36029,7 +36029,7 @@ MIRType
 Value
 )
 ;
-LCheckObjCoercible
+auto
 *
 lir
 =
