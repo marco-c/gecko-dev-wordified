@@ -411,8 +411,12 @@ ipc
 IPCResult
 CommitFromIPC
 (
+const
+MaybeDiscarded
+<
 Context
-*
+>
+&
 aOwner
 ContentParent
 *
@@ -442,8 +446,12 @@ ipc
 IPCResult
 CommitFromIPC
 (
+const
+MaybeDiscarded
+<
 Context
-*
+>
+&
 aOwner
 uint64_t
 aEpoch
