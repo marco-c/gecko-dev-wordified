@@ -308,6 +308,7 @@ mWnd
 OtherPid
 (
 )
+mTransparencyMode
 )
 )
 {
@@ -426,6 +427,18 @@ nsTransparencyMode
 aMode
 )
 {
+mTransparencyMode
+=
+aMode
+;
+mRemoteBackbufferProvider
+-
+>
+UpdateTransparencyMode
+(
+aMode
+)
+;
 Unused
 <
 <
