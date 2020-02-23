@@ -154,13 +154,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -3343,7 +3336,7 @@ NS_IsMainThread
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 PathRunnablesParametersWrapper
 >
@@ -4406,7 +4399,7 @@ NS_IsMainThread
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 PathRunnablesParametersWrapper
 >

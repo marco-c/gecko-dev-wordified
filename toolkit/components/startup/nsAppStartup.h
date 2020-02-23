@@ -165,13 +165,6 @@ perfprobe
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 endif
 /
 /
