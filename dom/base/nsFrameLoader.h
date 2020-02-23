@@ -2792,7 +2792,7 @@ dom
 :
 BrowsingContext
 >
-mBrowsingContext
+mPendingBrowsingContext
 ;
 nsCOMPtr
 <
