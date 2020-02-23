@@ -457,6 +457,13 @@ next
 ;
 }
 }
+mSurface
+-
+>
+FenceWait
+(
+)
+;
 return
 true
 ;
