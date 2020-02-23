@@ -3571,11 +3571,6 @@ return
 hasExtensibleScope
 (
 )
-|
-|
-needsDotGeneratorName
-(
-)
 ;
 }
 bool
