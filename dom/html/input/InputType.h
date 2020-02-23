@@ -308,8 +308,9 @@ virtual
 InputType
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Float

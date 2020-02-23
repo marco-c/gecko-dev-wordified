@@ -215,8 +215,9 @@ HTMLBRElement
 HTMLBRElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLBRElement

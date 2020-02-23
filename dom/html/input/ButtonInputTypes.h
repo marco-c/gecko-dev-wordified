@@ -142,8 +142,9 @@ ButtonInputTypeBase
 (
 )
 override
-{
-}
+=
+default
+;
 protected
 :
 explicit

@@ -179,8 +179,9 @@ HTMLFontElement
 HTMLFontElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLFontElement

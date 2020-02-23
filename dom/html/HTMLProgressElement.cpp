@@ -239,8 +239,9 @@ HTMLProgressElement
 HTMLProgressElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLProgressElement

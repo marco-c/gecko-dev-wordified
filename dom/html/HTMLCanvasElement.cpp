@@ -1324,8 +1324,9 @@ HTMLCanvasPrintState
 HTMLCanvasPrintState
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual
@@ -3763,8 +3764,9 @@ virtual
 CanvasCaptureTrackSource
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 CanvasCaptureMediaStream

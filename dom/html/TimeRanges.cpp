@@ -391,8 +391,9 @@ TimeRanges
 TimeRanges
 (
 )
-{
-}
+=
+default
+;
 double
 TimeRanges
 :

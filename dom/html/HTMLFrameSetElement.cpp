@@ -183,8 +183,9 @@ HTMLFrameSetElement
 HTMLFrameSetElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLFrameSetElement

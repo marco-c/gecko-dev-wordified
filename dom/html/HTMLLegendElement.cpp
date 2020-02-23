@@ -167,8 +167,9 @@ HTMLLegendElement
 HTMLLegendElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLLegendElement

@@ -501,8 +501,9 @@ HTMLButtonElement
 HTMLButtonElement
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsISupports

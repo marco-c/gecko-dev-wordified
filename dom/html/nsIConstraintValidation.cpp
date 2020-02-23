@@ -283,8 +283,9 @@ nsIConstraintValidation
 nsIConstraintValidation
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

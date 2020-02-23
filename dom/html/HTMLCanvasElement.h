@@ -598,8 +598,9 @@ virtual
 FrameCaptureListener
 (
 )
-{
-}
+=
+default
+;
 bool
 mFrameCaptureRequested
 ;

@@ -254,8 +254,9 @@ HTMLAreaElement
 HTMLAreaElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLAreaElement

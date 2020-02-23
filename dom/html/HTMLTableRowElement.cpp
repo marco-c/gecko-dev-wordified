@@ -212,8 +212,9 @@ HTMLTableRowElement
 HTMLTableRowElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLTableRowElement

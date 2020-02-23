@@ -219,8 +219,9 @@ HTMLSharedListElement
 HTMLSharedListElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (
 HTMLSharedListElement

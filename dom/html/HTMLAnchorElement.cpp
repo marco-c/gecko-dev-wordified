@@ -354,8 +354,9 @@ HTMLAnchorElement
 HTMLAnchorElement
 (
 )
-{
-}
+=
+default
+;
 bool
 HTMLAnchorElement
 :

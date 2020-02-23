@@ -176,8 +176,9 @@ HTMLTableCaptionElement
 HTMLTableCaptionElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLTableCaptionElement

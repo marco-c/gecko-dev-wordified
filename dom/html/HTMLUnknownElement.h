@@ -242,8 +242,9 @@ virtual
 HTMLUnknownElement
 (
 )
-{
-}
+=
+default
+;
 virtual
 JSObject
 *

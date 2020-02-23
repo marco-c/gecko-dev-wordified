@@ -142,8 +142,9 @@ CheckableInputTypeBase
 (
 )
 override
-{
-}
+=
+default
+;
 protected
 :
 explicit

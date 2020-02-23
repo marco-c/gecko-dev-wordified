@@ -188,8 +188,9 @@ HTMLFrameElement
 HTMLFrameElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLFrameElement

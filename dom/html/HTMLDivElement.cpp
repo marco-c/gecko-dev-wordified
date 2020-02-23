@@ -170,8 +170,9 @@ HTMLDivElement
 HTMLDivElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLDivElement

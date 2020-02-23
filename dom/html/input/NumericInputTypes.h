@@ -142,8 +142,9 @@ NumericInputTypeBase
 (
 )
 override
-{
-}
+=
+default
+;
 bool
 IsRangeOverflow
 (

@@ -1584,8 +1584,9 @@ virtual
 nsGenericHTMLElement
 (
 )
-{
-}
+=
+default
+;
 public
 :
 /

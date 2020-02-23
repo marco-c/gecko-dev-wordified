@@ -215,8 +215,9 @@ HTMLTableColElement
 HTMLTableColElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLTableColElement

@@ -533,8 +533,9 @@ nsSupportsWeakReference
 UploadLastDir
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -684,8 +685,9 @@ virtual
 ContentPrefCallback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 ContentPrefCallback
@@ -10283,8 +10285,9 @@ virtual
 nsFilePickerShownCallback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsFilePickerShownCallback
