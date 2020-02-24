@@ -87,6 +87,8 @@ is
 (
 docshell
 .
+browsingContext
+.
 customUserAgent
 "
 "
@@ -101,6 +103,8 @@ customUserAgent
 )
 ;
 docshell
+.
+browsingContext
 .
 customUserAgent
 =

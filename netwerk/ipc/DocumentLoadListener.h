@@ -572,10 +572,6 @@ PrincipalInfo
 &
 aContentBlockingAllowListPrincipal
 const
-nsString
-&
-aCustomUserAgent
-const
 uint64_t
 &
 aChannelId
