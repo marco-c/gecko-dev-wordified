@@ -26383,7 +26383,7 @@ false
 for
 (
 const
-nsCursorImage
+auto
 &
 image
 :
@@ -26394,7 +26394,13 @@ StyleUI
 )
 -
 >
-mCursorImages
+mCursor
+.
+images
+.
+AsSpan
+(
+)
 )
 {
 uint32_t
@@ -26405,6 +26411,8 @@ imgRequestProxy
 req
 =
 image
+.
+url
 .
 GetImage
 (
@@ -26502,7 +26510,7 @@ specifiedHotspot
 =
 image
 .
-mHaveHotspot
+has_hotspot
 ?
 Some
 (
@@ -26513,10 +26521,10 @@ Point
 {
 image
 .
-mHotspotX
+hotspot_x
 image
 .
-mHotspotY
+hotspot_y
 }
 )
 :
