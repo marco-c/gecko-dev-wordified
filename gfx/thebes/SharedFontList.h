@@ -100,7 +100,7 @@ include
 atomic
 >
 class
-gfxSparseBitSet
+gfxCharacterMap
 ;
 struct
 gfxFontStyle
@@ -1044,8 +1044,7 @@ SetCharacterMap
 FontList
 *
 aList
-const
-gfxSparseBitSet
+gfxCharacterMap
 *
 aCharMap
 )

@@ -14594,6 +14594,13 @@ gfxSparseBitSet
 aMap
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 auto
 list
 =
@@ -14663,9 +14670,10 @@ face
 face
 -
 >
-SetCharacterMap
+mCharacterMap
+=
+GetShmemCharMap
 (
-list
 &
 aMap
 )
