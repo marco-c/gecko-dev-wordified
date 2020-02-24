@@ -4469,7 +4469,7 @@ StyleUIReset
 )
 -
 >
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 )
 {
 return

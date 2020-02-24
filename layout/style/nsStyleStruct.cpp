@@ -21905,7 +21905,7 @@ StyleScrollbarWidth
 :
 Auto
 )
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 (
 0
 )
@@ -21991,11 +21991,11 @@ aSource
 .
 mScrollbarWidth
 )
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 (
 aSource
 .
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 )
 mIMEMode
 (
@@ -22077,12 +22077,12 @@ nsChangeHint
 ;
 if
 (
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 !
 =
 aNewData
 .
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 )
 {
 hint
