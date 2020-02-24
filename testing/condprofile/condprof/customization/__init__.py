@@ -58,15 +58,15 @@ HERE
 f
 )
 def
-get_customization
+find_customization
 (
-path
+path_or_name
 )
 :
     
 if
 not
-path
+path_or_name
 .
 endswith
 (
@@ -77,7 +77,7 @@ json
 )
 :
         
-path
+path_or_name
 +
 =
 "
@@ -93,7 +93,7 @@ path
 .
 exists
 (
-path
+path_or_name
 )
 :
         
@@ -110,7 +110,7 @@ path
 join
 (
 HERE
-path
+path_or_name
 )
         
 if
@@ -125,6 +125,35 @@ rpath
 )
 :
             
+return
+None
+        
+path_or_name
+=
+rpath
+    
+return
+path_or_name
+def
+get_customization
+(
+path_or_name
+)
+:
+    
+path
+=
+find_customization
+(
+path_or_name
+)
+    
+if
+path
+is
+None
+:
+        
 raise
 IOError
 (
@@ -140,12 +169,8 @@ file
 r
 "
 %
-path
+path_or_name
 )
-        
-path
-=
-rpath
     
 with
 open
