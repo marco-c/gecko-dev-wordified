@@ -170,7 +170,7 @@ aCallback
 args
 -
 >
-mChannel
+mLoadState
 std
 :
 :
@@ -181,10 +181,6 @@ args
 >
 mRedirects
 )
-args
--
->
-mLoadStateLoadFlags
 args
 -
 >
@@ -216,9 +212,9 @@ ChildProcessChannelListener
 :
 OnChannelReady
 (
-nsIChannel
+nsDocShellLoadState
 *
-aChannel
+aLoadState
 uint64_t
 aIdentifier
 nsTArray
@@ -231,8 +227,6 @@ DocumentChannelRedirect
 &
 &
 aRedirects
-uint32_t
-aLoadStateLoadFlags
 nsDOMNavigationTiming
 *
 aTiming
@@ -256,7 +250,7 @@ aIdentifier
 callback
 )
 (
-aChannel
+aLoadState
 std
 :
 :
@@ -264,7 +258,6 @@ move
 (
 aRedirects
 )
-aLoadStateLoadFlags
 aTiming
 )
 ;
@@ -277,7 +270,7 @@ Put
 (
 aIdentifier
 {
-aChannel
+aLoadState
 std
 :
 :
@@ -285,7 +278,6 @@ move
 (
 aRedirects
 )
-aLoadStateLoadFlags
 aTiming
 }
 )

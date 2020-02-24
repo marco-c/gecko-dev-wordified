@@ -181,7 +181,7 @@ function
 <
 void
 (
-nsIChannel
+nsDocShellLoadState
 *
 nsTArray
 <
@@ -192,7 +192,6 @@ DocumentChannelRedirect
 >
 &
 &
-uint32_t
 nsDOMNavigationTiming
 *
 )
@@ -212,9 +211,9 @@ aCallback
 void
 OnChannelReady
 (
-nsIChannel
+nsDocShellLoadState
 *
-aChannel
+aLoadState
 uint64_t
 aIdentifier
 nsTArray
@@ -227,8 +226,6 @@ DocumentChannelRedirect
 &
 &
 aRedirects
-uint32_t
-aLoadStateLoadFlags
 nsDOMNavigationTiming
 *
 aTiming
@@ -261,11 +258,11 @@ default
 struct
 CallbackArgs
 {
-nsCOMPtr
+RefPtr
 <
-nsIChannel
+nsDocShellLoadState
 >
-mChannel
+mLoadState
 ;
 nsTArray
 <
@@ -275,9 +272,6 @@ net
 DocumentChannelRedirect
 >
 mRedirects
-;
-uint32_t
-mLoadStateLoadFlags
 ;
 RefPtr
 <
