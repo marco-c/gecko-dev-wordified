@@ -3355,6 +3355,7 @@ Format4Cmap
 ;
 typedef
 struct
+Format14Cmap
 {
 AutoSwap_PRUint16
 format
@@ -3391,6 +3392,7 @@ Format14Cmap
 ;
 typedef
 struct
+NonDefUVSTable
 {
 AutoSwap_PRUint32
 numUVSMappings
