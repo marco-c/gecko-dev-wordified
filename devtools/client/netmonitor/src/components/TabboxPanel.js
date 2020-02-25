@@ -327,6 +327,10 @@ src
 /
 components
 /
+request
+-
+details
+/
 CachePanel
 "
 )

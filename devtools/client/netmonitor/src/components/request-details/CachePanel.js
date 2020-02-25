@@ -213,6 +213,10 @@ src
 /
 components
 /
+request
+-
+details
+/
 PropertiesView
 "
 )
@@ -678,7 +682,6 @@ render
 const
 {
 request
-openLink
 }
 =
 this
@@ -871,7 +874,6 @@ getExpandedNodes
 (
 object
 )
-openLink
 }
 )
 )
