@@ -4228,7 +4228,7 @@ e
 }
 description
 "
-promise_reject_js
+promise_rejects_js
 "
 )
 ;
