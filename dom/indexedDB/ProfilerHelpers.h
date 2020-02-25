@@ -372,8 +372,8 @@ threadLocal
 )
 {
 const
-ThreadLocal
-*
+auto
+&
 idbThreadLocal
 =
 threadLocal

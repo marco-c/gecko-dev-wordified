@@ -335,13 +335,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -463,7 +456,7 @@ ThreadLocal
 {
 friend
 class
-nsAutoPtr
+DefaultDelete
 <
 ThreadLocal
 >

@@ -296,13 +296,6 @@ h
 "
 #
 endif
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 using
 namespace
 IPC

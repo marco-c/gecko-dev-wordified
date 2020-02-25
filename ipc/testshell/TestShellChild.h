@@ -99,7 +99,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -178,7 +180,7 @@ aCommand
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 XPCShellEnvironment
 >

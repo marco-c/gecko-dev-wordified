@@ -770,8 +770,9 @@ MOZ_ASSERT
 threadLocal
 )
 ;
-ThreadLocal
-*
+const
+auto
+&
 idbThreadLocal
 =
 threadLocal
