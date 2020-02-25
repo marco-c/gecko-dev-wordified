@@ -149,7 +149,7 @@ mozilla
 /
 layers
 /
-CanvasParent
+CanvasTranslator
 .
 h
 "
@@ -882,7 +882,7 @@ Shutdown
 (
 )
 ;
-CanvasParent
+CanvasTranslator
 :
 :
 Shutdown
