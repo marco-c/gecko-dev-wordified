@@ -786,7 +786,7 @@ dumps
 (
 c
 .
-as_dict
+as_dict_for_wd_env_variable
 (
 )
 )
