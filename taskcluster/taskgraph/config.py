@@ -858,7 +858,12 @@ behavior
 optionally_keyed_by
 (
 '
-project
+platform
+'
+'
+release
+-
+type
 '
                                 
 Any
