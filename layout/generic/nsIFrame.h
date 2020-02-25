@@ -30946,11 +30946,6 @@ uint32_t
 aKey
 )
 ;
-void
-DiscardOldItems
-(
-)
-;
 bool
 ForceDescendIntoIfVisible
 (
