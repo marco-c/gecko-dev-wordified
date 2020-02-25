@@ -136,7 +136,7 @@ aFileURI
 *
 /
 function
-ConsoleProgressListener
+ConsoleFileActivityListener
 (
 window
 owner
@@ -157,11 +157,11 @@ owner
 }
 exports
 .
-ConsoleProgressListener
+ConsoleFileActivityListener
 =
-ConsoleProgressListener
+ConsoleFileActivityListener
 ;
-ConsoleProgressListener
+ConsoleFileActivityListener
 .
 prototype
 =
@@ -215,7 +215,7 @@ nsISupportsWeakReference
 *
 Initialize
 the
-ConsoleProgressListener
+ConsoleFileActivityListener
 .
 *
 private
@@ -547,7 +547,7 @@ spec
 *
 Destroy
 the
-ConsoleProgressListener
+ConsoleFileActivityListener
 .
 *
 /
