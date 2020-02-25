@@ -780,6 +780,15 @@ aRes
 override
 ;
 NS_IMETHOD
+GetHost
+(
+nsACString
+&
+aRes
+)
+override
+;
+NS_IMETHOD
 GetPrepath
 (
 nsACString
