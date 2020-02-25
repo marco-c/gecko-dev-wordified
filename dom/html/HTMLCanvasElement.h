@@ -377,12 +377,12 @@ UnregisterVisibilityChangeEvent
 )
 ;
 void
-RegisterMemoryPressureEvent
+RegisterObserverEvents
 (
 )
 ;
 void
-UnregisterMemoryPressureEvent
+UnregisterObserverEvents
 (
 )
 ;
@@ -1795,6 +1795,11 @@ OnVisibilityChange
 ;
 void
 OnMemoryPressure
+(
+)
+;
+void
+OnDeviceReset
 (
 )
 ;

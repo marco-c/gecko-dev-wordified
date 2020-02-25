@@ -219,6 +219,14 @@ PCanvasChild
 aEndpoint
 )
 ;
+ipc
+:
+:
+IPCResult
+RecvNotifyDeviceChanged
+(
+)
+;
 /
 *
 *
