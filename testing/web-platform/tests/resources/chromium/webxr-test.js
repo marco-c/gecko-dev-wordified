@@ -7799,6 +7799,12 @@ this
 .
 overlay_pointer_position_
 ;
+this
+.
+overlay_pointer_position_
+=
+null
+;
 }
 return
 input_state
