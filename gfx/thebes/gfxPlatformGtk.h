@@ -506,6 +506,11 @@ UseWaylandDMABufWebGL
 (
 )
 ;
+bool
+UseWaylandHardwareVideoDecoding
+(
+)
+;
 #
 endif
 bool

@@ -632,6 +632,12 @@ IsDMABufWebGLEnabled
 (
 )
 ;
+static
+bool
+IsDMABufVAAPIEnabled
+(
+)
+;
 /
 /
 See
@@ -749,6 +755,10 @@ sIsDMABufPrefBasicCompositorState
 static
 int
 sIsDMABufPrefWebGLState
+;
+static
+int
+sIsDMABufPrefVAAPIState
 ;
 static
 bool
