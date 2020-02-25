@@ -143,6 +143,12 @@ AppShutdown
 {
 public
 :
+static
+bool
+IsShuttingDown
+(
+)
+;
 /
 *
 *
