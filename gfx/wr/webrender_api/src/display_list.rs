@@ -10908,11 +10908,13 @@ len
 }
 /
 /
+/
 Returns
-the
-amount
-of
+true
+if
+any
 bytes
+were
 written
 to
 extra
@@ -10929,7 +10931,7 @@ self
 )
 -
 >
-usize
+bool
 {
 self
 .
@@ -10937,6 +10939,7 @@ writing_extra_data_chunk
 =
 false
 ;
+(
 self
 .
 extra_data
@@ -10948,6 +10951,9 @@ len
 self
 .
 extra_data_chunk_len
+)
+>
+0
 }
 pub
 fn
