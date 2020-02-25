@@ -327,9 +327,9 @@ addonAppDir
 .
 append
 (
-gAppInfo
-.
-ID
+"
+extensions
+"
 )
 ;
 registerDirectory

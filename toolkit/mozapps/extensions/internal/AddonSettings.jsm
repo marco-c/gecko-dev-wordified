@@ -666,10 +666,6 @@ SCOPE_ALL
 AddonManager
 .
 SCOPE_PROFILE
-|
-AddonManager
-.
-SCOPE_APPLICATION
 )
 ;
 }
@@ -683,10 +679,6 @@ SCOPES_SIDELOAD
 AddonManager
 .
 SCOPE_PROFILE
-|
-AddonManager
-.
-SCOPE_APPLICATION
 )
 ;
 }
