@@ -702,10 +702,6 @@ mWindow
 (
 aWindow
 )
-mAddedObservers
-(
-false
-)
 {
 MOZ_ASSERT
 (
