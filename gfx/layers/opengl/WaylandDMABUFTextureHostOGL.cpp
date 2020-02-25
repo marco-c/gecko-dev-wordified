@@ -349,7 +349,7 @@ buffer
 mSurface
 -
 >
-GetFormat
+GetFormatGL
 (
 )
 )
