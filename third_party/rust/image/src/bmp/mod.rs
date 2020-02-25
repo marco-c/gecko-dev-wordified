@@ -100,7 +100,7 @@ self
 decoder
 :
 :
-BMPDecoder
+BmpDecoder
 ;
 pub
 use

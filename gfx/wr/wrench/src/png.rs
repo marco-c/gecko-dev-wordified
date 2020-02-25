@@ -404,10 +404,7 @@ height
 ColorType
 :
 :
-RGBA
-(
-8
-)
+Rgba8
 )
 .
 expect

@@ -3,7 +3,7 @@
 !
 Decoding
 of
-Webp
+WebP
 Images
 pub
 use
@@ -13,7 +13,7 @@ self
 decoder
 :
 :
-WebpDecoder
+WebPDecoder
 ;
 mod
 decoder

@@ -66,7 +66,7 @@ self
 decoder
 :
 :
-TGADecoder
+TgaDecoder
 ;
 /
 /

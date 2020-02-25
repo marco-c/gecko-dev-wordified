@@ -303,6 +303,9 @@ huffcode
 )
 }
 pub
+(
+crate
+)
 fn
 build_huff_lut
 (

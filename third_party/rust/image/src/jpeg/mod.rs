@@ -89,7 +89,7 @@ self
 decoder
 :
 :
-JPEGDecoder
+JpegDecoder
 ;
 pub
 use
@@ -99,7 +99,11 @@ self
 encoder
 :
 :
+{
 JPEGEncoder
+PixelDensity
+PixelDensityUnit
+}
 ;
 mod
 decoder

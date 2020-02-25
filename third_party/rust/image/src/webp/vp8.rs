@@ -58,7 +58,7 @@ the
 underpinning
 of
 the
-Webp
+WebP
 image
 format
 /
@@ -195,6 +195,7 @@ super
 transform
 ;
 use
+crate
 :
 :
 {
@@ -203,6 +204,9 @@ ImageResult
 }
 ;
 use
+crate
+:
+:
 math
 :
 :
@@ -4894,11 +4898,10 @@ u8
 ;
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 static
 DC_QUANT
@@ -5042,11 +5045,10 @@ i16
 ;
 #
 [
-cfg_attr
-(
 rustfmt
-rustfmt_skip
-)
+:
+:
+skip
 ]
 static
 AC_QUANT
@@ -5242,6 +5244,9 @@ impl
 BoolReader
 {
 pub
+(
+crate
+)
 fn
 new
 (
@@ -5275,6 +5280,9 @@ index
 }
 }
 pub
+(
+crate
+)
 fn
 init
 (
@@ -5410,6 +5418,9 @@ Ok
 )
 }
 pub
+(
+crate
+)
 fn
 read_bool
 (
@@ -5620,6 +5631,9 @@ index
 retval
 }
 pub
+(
+crate
+)
 fn
 read_literal
 (
@@ -5679,6 +5693,9 @@ n
 v
 }
 pub
+(
+crate
+)
 fn
 read_magnitude_and_sign
 (
@@ -5740,6 +5757,9 @@ magnitude
 }
 }
 pub
+(
+crate
+)
 fn
 read_with_tree
 (
@@ -5828,6 +5848,9 @@ as
 i8
 }
 pub
+(
+crate
+)
 fn
 read_flag
 (
@@ -6091,7 +6114,7 @@ decodes
 keyframes
 pub
 struct
-VP8Decoder
+Vp8Decoder
 <
 R
 >
@@ -6196,7 +6219,7 @@ R
 :
 Read
 >
-VP8Decoder
+Vp8Decoder
 <
 R
 >
@@ -6233,7 +6256,7 @@ R
 )
 -
 >
-VP8Decoder
+Vp8Decoder
 <
 R
 >
@@ -6268,7 +6291,7 @@ default
 (
 )
 ;
-VP8Decoder
+Vp8Decoder
 {
 r
 b
@@ -7975,9 +7998,6 @@ ImageError
 :
 FormatError
 (
-format
-!
-(
 "
 Only
 YUV
@@ -7987,6 +8007,9 @@ is
 specified
 .
 "
+.
+to_string
+(
 )
 )
 )

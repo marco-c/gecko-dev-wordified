@@ -77,6 +77,9 @@ a
 token
 .
 pub
+(
+crate
+)
 struct
 AutoBreak
 <

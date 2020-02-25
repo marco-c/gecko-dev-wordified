@@ -566,6 +566,9 @@ i32
 25_172
 ;
 pub
+(
+crate
+)
 fn
 fdct
 (
