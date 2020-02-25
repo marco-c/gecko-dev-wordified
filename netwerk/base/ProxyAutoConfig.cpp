@@ -4802,6 +4802,10 @@ cx
 setDisableIon
 (
 )
+.
+setDisableEvalSecurityChecks
+(
+)
 ;
 JSContextWrapper
 *
