@@ -387,17 +387,7 @@ object
 :
 PropTypes
 .
-oneOfType
-(
-[
-PropTypes
-.
 object
-PropTypes
-.
-array
-]
-)
 provider
 :
 PropTypes
