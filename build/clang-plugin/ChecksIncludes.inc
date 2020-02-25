@@ -213,13 +213,6 @@ h
 #
 include
 "
-NoNewThreadsChecker
-.
-h
-"
-#
-include
-"
 NonMemMovableMemberChecker
 .
 h
