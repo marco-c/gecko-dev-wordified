@@ -1550,6 +1550,11 @@ aType
 )
 ;
 bool
+CreateReferenceTexture
+(
+)
+;
+bool
 CheckForFreshCanvasDevice
 (
 int
