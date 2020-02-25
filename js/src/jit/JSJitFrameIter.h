@@ -184,10 +184,11 @@ ArgumentsObject
 namespace
 jit
 {
-typedef
+using
+CalleeToken
+=
 void
 *
-CalleeToken
 ;
 enum
 class

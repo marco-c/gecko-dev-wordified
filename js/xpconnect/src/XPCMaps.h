@@ -2337,9 +2337,10 @@ XPCWrappedNativeProtoMap
 {
 public
 :
-typedef
-PLDHashEntryStub
+using
 Entry
+=
+PLDHashEntryStub
 ;
 XPCWrappedNativeProtoMap
 (

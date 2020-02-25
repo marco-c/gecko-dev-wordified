@@ -317,9 +317,10 @@ index
 into
 registers
 .
-typedef
-uint32_t
+using
 RegisterIndex
+=
+uint32_t
 ;
 /
 /

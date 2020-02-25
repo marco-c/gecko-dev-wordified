@@ -1707,7 +1707,9 @@ cycleSlot
 }
 }
 ;
-typedef
+using
+PendingMoveIterator
+=
 InlineList
 <
 MoveResolver
@@ -1718,7 +1720,6 @@ PendingMove
 :
 :
 iterator
-PendingMoveIterator
 ;
 js
 :

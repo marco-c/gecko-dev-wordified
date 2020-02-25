@@ -1958,12 +1958,13 @@ we
 use
 ValueToNonNullObject
 .
-typedef
+using
+SingleObjectPolicy
+=
 ObjectPolicy
 <
 0
 >
-SingleObjectPolicy
 ;
 template
 <

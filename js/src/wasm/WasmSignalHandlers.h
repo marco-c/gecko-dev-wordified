@@ -216,14 +216,15 @@ js
 namespace
 wasm
 {
-typedef
+using
+RegisterState
+=
 JS
 :
 :
 ProfilingFrameIterator
 :
 :
-RegisterState
 RegisterState
 ;
 /

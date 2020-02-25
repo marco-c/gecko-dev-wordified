@@ -284,9 +284,10 @@ public
 struct
 Hasher
 {
-typedef
-HashableValue
+using
 Lookup
+=
+HashableValue
 ;
 static
 HashNumber

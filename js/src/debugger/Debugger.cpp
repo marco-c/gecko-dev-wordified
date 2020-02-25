@@ -22600,14 +22600,15 @@ observing
 )
 ;
 }
-typedef
+using
+ZoneRange
+=
 DebugAPI
 :
 :
 ExecutionObservableSet
 :
 :
-ZoneRange
 ZoneRange
 ;
 for
@@ -39457,7 +39458,9 @@ NodeData
 {
 }
 ;
-typedef
+using
+Traversal
+=
 JS
 :
 :
@@ -39468,7 +39471,6 @@ BreadthFirst
 <
 ObjectQuery
 >
-Traversal
 ;
 bool
 operator

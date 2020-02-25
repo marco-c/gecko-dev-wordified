@@ -383,9 +383,10 @@ mod
 ;
 }
 ;
-typedef
-LIRGeneratorX64
+using
 LIRGeneratorSpecific
+=
+LIRGeneratorX64
 ;
 }
 /

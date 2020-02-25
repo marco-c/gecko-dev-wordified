@@ -493,10 +493,11 @@ endif
 /
 /
 DEBUG
-typedef
+using
+Lookup
+=
 const
 CharSlice
-Lookup
 ;
 static
 js

@@ -461,11 +461,12 @@ format
 on
 }
 ;
-typedef
+using
+UnaryMathFunctionType
+=
 double
 (
 *
-UnaryMathFunctionType
 )
 (
 double
@@ -3355,7 +3356,9 @@ x
 )
 )
 ;
-typedef
+using
+Bits
+=
 typename
 mozilla
 :
@@ -3366,7 +3369,6 @@ T
 >
 :
 :
-Bits
 Bits
 ;
 Bits

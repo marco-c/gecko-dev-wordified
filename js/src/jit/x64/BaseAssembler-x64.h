@@ -6985,9 +6985,10 @@ dst
 }
 }
 ;
-typedef
-BaseAssemblerX64
+using
 BaseAssemblerSpecific
+=
+BaseAssemblerX64
 ;
 }
 /

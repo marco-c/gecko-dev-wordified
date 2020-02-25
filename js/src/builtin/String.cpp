@@ -11344,9 +11344,10 @@ PatChar
 struct
 MemCmp
 {
-typedef
-uint32_t
+using
 Extent
+=
+uint32_t
 ;
 static
 MOZ_ALWAYS_INLINE
@@ -11428,11 +11429,12 @@ PatChar
 struct
 ManualCmp
 {
-typedef
+using
+Extent
+=
 const
 PatChar
 *
-Extent
 ;
 static
 MOZ_ALWAYS_INLINE

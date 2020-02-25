@@ -256,9 +256,10 @@ T
 struct
 Constant
 {
-typedef
-T
+using
 Pod
+=
+T
 ;
 T
 value

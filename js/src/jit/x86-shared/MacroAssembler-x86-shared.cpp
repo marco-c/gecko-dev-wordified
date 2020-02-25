@@ -845,12 +845,13 @@ SystemAllocPolicy
 vec
 )
 {
-typedef
+using
+AddPtr
+=
 typename
 Map
 :
 :
-AddPtr
 AddPtr
 ;
 size_t

@@ -2489,12 +2489,13 @@ this
 }
 }
 ;
-typedef
+using
+MutableAsmJSMetadata
+=
 RefPtr
 <
 AsmJSMetadata
 >
-MutableAsmJSMetadata
 ;
 /
 *

@@ -1196,12 +1196,13 @@ ExclusiveData
 T
 >
 {
-typedef
+using
+Base
+=
 ExclusiveData
 <
 T
 >
-Base
 ;
 mutable
 ConditionVariable
@@ -1299,7 +1300,9 @@ T
 :
 Guard
 {
-typedef
+using
+Base
+=
 typename
 ExclusiveData
 <
@@ -1308,7 +1311,6 @@ T
 :
 :
 Guard
-Base
 ;
 public
 :

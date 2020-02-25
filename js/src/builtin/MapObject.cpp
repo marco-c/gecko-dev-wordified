@@ -3428,9 +3428,10 @@ js
 :
 UnbarrieredHashPolicy
 {
-typedef
-Value
+using
 Lookup
+=
+Value
 ;
 static
 HashNumber

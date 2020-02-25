@@ -693,9 +693,10 @@ sorting
 uint32_t
 index
 ;
-typedef
-IntegrityItem
+using
 Lookup
+=
+IntegrityItem
 ;
 static
 HashNumber

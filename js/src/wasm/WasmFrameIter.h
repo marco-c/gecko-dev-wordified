@@ -264,14 +264,15 @@ FuncOffsets
 struct
 Frame
 ;
-typedef
+using
+RegisterState
+=
 JS
 :
 :
 ProfilingFrameIterator
 :
 :
-RegisterState
 RegisterState
 ;
 /

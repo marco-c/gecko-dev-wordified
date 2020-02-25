@@ -6674,12 +6674,13 @@ js
 AbstractFramePtr
 >
 {
-typedef
+using
+Lookup
+=
 js
 :
 :
 AbstractFramePtr
-Lookup
 ;
 static
 js

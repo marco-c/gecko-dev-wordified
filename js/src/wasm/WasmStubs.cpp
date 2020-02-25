@@ -310,7 +310,9 @@ SystemAllocPolicy
 >
 MIRTypeVector
 ;
-typedef
+using
+ABIArgMIRTypeIter
+=
 jit
 :
 :
@@ -318,7 +320,6 @@ ABIArgIter
 <
 MIRTypeVector
 >
-ABIArgMIRTypeIter
 ;
 /
 *
@@ -11295,9 +11296,10 @@ type
 ;
 }
 }
-typedef
-bool
+using
 ToValue
+=
+bool
 ;
 /
 /

@@ -248,9 +248,10 @@ ins
 ;
 }
 ;
-typedef
-CodeGeneratorX64
+using
 CodeGeneratorSpecific
+=
+CodeGeneratorX64
 ;
 }
 /

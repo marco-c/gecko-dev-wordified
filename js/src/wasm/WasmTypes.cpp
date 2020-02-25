@@ -1715,9 +1715,10 @@ mallocSizeOf
 )
 ;
 }
-typedef
-uint32_t
+using
 ImmediateType
+=
+uint32_t
 ;
 /
 /

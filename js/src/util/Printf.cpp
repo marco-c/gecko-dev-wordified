@@ -159,7 +159,9 @@ using
 namespace
 js
 ;
-typedef
+using
+JSSmprintfPointer
+=
 mozilla
 :
 :
@@ -170,7 +172,6 @@ js
 :
 SystemAllocPolicy
 >
-JSSmprintfPointer
 ;
 JS_PUBLIC_API
 JS

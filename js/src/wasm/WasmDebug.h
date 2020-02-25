@@ -933,12 +933,13 @@ const
 ;
 }
 ;
-typedef
+using
+UniqueDebugState
+=
 UniquePtr
 <
 DebugState
 >
-UniqueDebugState
 ;
 }
 /

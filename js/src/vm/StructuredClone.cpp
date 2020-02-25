@@ -1112,7 +1112,9 @@ AllocPolicy
 struct
 BufferIterator
 {
-typedef
+using
+BufferList
+=
 mozilla
 :
 :
@@ -1120,7 +1122,6 @@ BufferList
 <
 AllocPolicy
 >
-BufferList
 ;
 explicit
 BufferIterator

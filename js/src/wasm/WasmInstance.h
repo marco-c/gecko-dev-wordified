@@ -1913,12 +1913,13 @@ maybeNullPtr
 ;
 }
 ;
-typedef
+using
+UniqueInstance
+=
 UniquePtr
 <
 Instance
 >
-UniqueInstance
 ;
 }
 /
