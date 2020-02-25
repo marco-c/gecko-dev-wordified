@@ -462,8 +462,8 @@ Identifying
 key
 for
 a
-line
-decoration
+linear
+gradient
 .
 #
 [
@@ -2307,8 +2307,8 @@ Identifying
 key
 for
 a
-line
-decoration
+radial
+gradient
 .
 #
 [
