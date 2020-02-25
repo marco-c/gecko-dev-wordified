@@ -1745,13 +1745,6 @@ wr
 :
 RenderRoot
 aRenderRoot
-const
-wr
-:
-:
-WrPipelineIdEpochs
-*
-aEpochsBeingRendered
 )
 ;
 /
