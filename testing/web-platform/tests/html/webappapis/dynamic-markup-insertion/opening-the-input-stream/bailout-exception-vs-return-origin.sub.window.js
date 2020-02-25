@@ -186,6 +186,11 @@ assert_throws_dom
 "
 InvalidStateError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =
@@ -519,6 +524,11 @@ assert_throws_dom
 "
 InvalidStateError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =
@@ -794,6 +804,11 @@ assert_throws_dom
 "
 SecurityError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =
@@ -1125,6 +1140,11 @@ assert_throws_dom
 "
 SecurityError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =

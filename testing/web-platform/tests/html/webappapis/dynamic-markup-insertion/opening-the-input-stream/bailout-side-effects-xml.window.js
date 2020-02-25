@@ -106,6 +106,11 @@ assert_throws_dom
 "
 InvalidStateError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =
