@@ -1020,6 +1020,12 @@ initializer
 /
 /
 IDX_INITIALIZER
+"
+print
+"
+/
+/
+IDX_PRINT
 }
 ;
 /

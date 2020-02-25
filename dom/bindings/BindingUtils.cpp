@@ -1253,7 +1253,6 @@ return
 false
 ;
 }
-static
 bool
 ThrowInvalidThis
 (
