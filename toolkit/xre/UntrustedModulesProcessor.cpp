@@ -5548,12 +5548,10 @@ modMap
 Put
 (
 resolvedNtPath
-std
-:
-:
-move
-(
 module
+.
+forget
+(
 )
 )
 ;

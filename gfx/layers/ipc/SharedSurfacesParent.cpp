@@ -1494,12 +1494,10 @@ mSurfaces
 Put
 (
 id
-std
-:
-:
-move
-(
 surface
+.
+forget
+(
 )
 )
 ;

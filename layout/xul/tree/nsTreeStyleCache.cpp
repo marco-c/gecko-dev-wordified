@@ -825,12 +825,10 @@ mCache
 Put
 (
 currState
-std
-:
-:
-move
-(
 newResult
+.
+forget
+(
 )
 )
 ;

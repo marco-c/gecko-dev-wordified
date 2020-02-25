@@ -2003,12 +2003,10 @@ aResult
 Put
 (
 key
-std
-:
-:
-move
-(
 rec
+.
+forget
+(
 )
 )
 ;
