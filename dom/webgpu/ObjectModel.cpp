@@ -266,13 +266,6 @@ ChildOf
 Instance
 >
 ;
-template
-class
-ChildOf
-<
-Texture
->
-;
 }
 /
 /
