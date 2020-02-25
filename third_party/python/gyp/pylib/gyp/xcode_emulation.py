@@ -63,6 +63,10 @@ ninja
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 copy
 import
@@ -540,6 +544,7 @@ e
 :
           
 print
+(
 '
 Warning
 :
@@ -554,6 +559,7 @@ s
 '
 %
 variable
+)
       
 elif
 arch
@@ -1357,7 +1363,7 @@ config
 in
 configs
 .
-iteritems
+items
 (
 )
 :
@@ -1639,6 +1645,7 @@ else
 :
         
 print
+(
 '
 Warning
 :
@@ -1657,6 +1664,7 @@ ignoring
 join
 (
 conditional_keys
+)
 )
       
 del
@@ -1790,6 +1798,7 @@ _Settings
 :
       
 print
+(
 '
 Warning
 :
@@ -1806,6 +1815,7 @@ s
 '
 %
 test_key
+)
   
 def
 IsBinaryOutputFormat
@@ -8763,6 +8773,9 @@ if
 XcodeVersion
 (
 )
+[
+0
+]
 <
 '
 0900
@@ -9052,7 +9065,7 @@ xcode_settings
 configname
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -10150,6 +10163,7 @@ unimpl
 :
       
 print
+(
 '
 Warning
 :
@@ -10174,6 +10188,7 @@ join
 sorted
 (
 unimpl
+)
 )
 )
 )
@@ -10720,15 +10735,28 @@ splitlines
 )
 :
         
+line_decoded
+=
+line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+        
 if
 identity
 in
-line
+line_decoded
 :
           
 fingerprint
 =
-line
+line_decoded
 .
 split
 (
@@ -13783,6 +13811,7 @@ write
 (
 out
 +
+b
 '
 \
 n
@@ -13817,9 +13846,19 @@ out
 .
 rstrip
 (
+b
 '
 \
 n
+'
+)
+.
+decode
+(
+'
+utf
+-
+8
 '
 )
 def
@@ -15609,6 +15648,9 @@ if
 XcodeVersion
 (
 )
+[
+0
+]
 >
 =
 '
@@ -16418,6 +16460,7 @@ gyp
 common
 .
 CycleError
+as
 e
 :
     
@@ -16728,7 +16771,7 @@ target_dict
 in
 targets
 .
-itervalues
+values
 (
 )
 :
@@ -16760,7 +16803,7 @@ dict
 configs
 )
 .
-iteritems
+items
 (
 )
 :

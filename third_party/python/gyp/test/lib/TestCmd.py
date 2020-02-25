@@ -1,3 +1,40 @@
+#
+Copyright
+(
+c
+)
+2018
+Google
+Inc
+.
+All
+rights
+reserved
+.
+#
+Use
+of
+this
+source
+code
+is
+governed
+by
+a
+BSD
+-
+style
+license
+that
+can
+be
+#
+found
+in
+the
+LICENSE
+file
+.
 "
 "
 "
@@ -1471,6 +1508,10 @@ ENHANCEMENTS
 OR
 MODIFICATIONS
 .
+from
+__future__
+import
+print_function
 __author__
 =
 "
@@ -1529,8 +1570,6 @@ shutil
 import
 stat
 import
-string
-import
 sys
 import
 tempfile
@@ -1538,8 +1577,19 @@ import
 time
 import
 traceback
+try
+:
+    
+from
+UserList
 import
-types
+UserList
+except
+ImportError
+:
+    
+from
+collections
 import
 UserList
 __all__
@@ -1607,22 +1657,18 @@ e
 :
     
 return
+(
 type
 (
 e
 )
 is
-types
-.
-ListType
-\
-        
+list
+)
 or
 isinstance
 (
 e
-UserList
-.
 UserList
 )
 try
@@ -1636,75 +1682,55 @@ except
 ImportError
 :
     
+try
+:
+        
+from
+collections
+import
+UserString
+    
+except
+ImportError
+:
+        
 class
 UserString
 :
-        
+            
 pass
-if
-hasattr
-(
-types
-'
-UnicodeType
-'
-)
+try
 :
-    
+  
+#
+basestring
+was
+removed
+in
+python3
+.
+  
+basestring
+except
+NameError
+:
+  
+basestring
+=
+str
 def
 is_String
 (
 e
 )
 :
-        
+    
 return
-type
-(
-e
-)
-is
-types
-.
-StringType
-\
-            
-or
-type
-(
-e
-)
-is
-types
-.
-UnicodeType
-\
-            
-or
 isinstance
 (
 e
-UserString
+basestring
 )
-else
-:
-    
-def
-is_String
-(
-e
-)
-:
-        
-return
-type
-(
-e
-)
-is
-types
-.
-StringType
 or
 isinstance
 (
@@ -1793,12 +1819,23 @@ _clean
 global
 _Cleanup
     
-cleanlist
-=
-filter
+for
+test
+in
+reversed
 (
-None
 _Cleanup
+)
+:
+        
+if
+test
+:
+            
+test
+.
+cleanup
+(
 )
     
 del
@@ -1806,24 +1843,6 @@ _Cleanup
 [
 :
 ]
-    
-cleanlist
-.
-reverse
-(
-)
-    
-for
-test
-in
-cleanlist
-:
-        
-test
-.
-cleanup
-(
-)
     
 if
 _chain_to_exitfunc
@@ -1914,7 +1933,7 @@ result
 for
 i
 in
-xrange
+range
 (
 min
 (
@@ -2739,11 +2758,10 @@ lines
         
 lines
 =
-string
+lines
 .
 split
 (
-lines
 "
 \
 n
@@ -2760,11 +2778,10 @@ matches
         
 matches
 =
-string
+matches
 .
 split
 (
-matches
 "
 \
 n
@@ -2845,11 +2862,10 @@ lines
         
 lines
 =
-string
+lines
 .
 split
 (
-lines
 "
 \
 n
@@ -2866,11 +2882,10 @@ res
         
 res
 =
-string
+res
 .
 split
 (
-res
 "
 \
 n
@@ -2934,6 +2949,7 @@ except
 re
 .
 error
+as
 e
 :
             
@@ -2955,6 +2971,7 @@ raise
 re
 .
 error
+(
 msg
 %
 (
@@ -2966,6 +2983,7 @@ e
 [
 0
 ]
+)
 )
         
 if
@@ -3021,15 +3039,14 @@ type
         
 lines
 =
-string
-.
-join
-(
-lines
 "
 \
 n
 "
+.
+join
+(
+lines
 )
     
 if
@@ -3048,15 +3065,14 @@ type
         
 res
 =
-string
-.
-join
-(
-res
 "
 \
 n
 "
+.
+join
+(
+res
 )
     
 s
@@ -3089,6 +3105,7 @@ except
 re
 .
 error
+as
 e
 :
         
@@ -3110,6 +3127,7 @@ raise
 re
 .
 error
+(
 msg
 %
 (
@@ -3121,6 +3139,7 @@ e
 [
 0
 ]
+)
 )
     
 if
@@ -3703,6 +3722,7 @@ except
 re
 .
 error
+as
 e
 :
             
@@ -3724,6 +3744,7 @@ raise
 re
 .
 error
+(
 msg
 %
 (
@@ -3735,6 +3756,7 @@ e
 [
 0
 ]
+)
 )
         
 if
@@ -3909,11 +3931,10 @@ path
             
 path
 =
-string
+path
 .
 split
 (
-path
 os
 .
 pathsep
@@ -3945,11 +3966,10 @@ pathext
             
 pathext
 =
-string
+pathext
 .
 split
 (
-pathext
 os
 .
 pathsep
@@ -3962,18 +3982,13 @@ pathext
 :
             
 if
-string
+ext
 .
 lower
 (
-ext
 )
 =
 =
-string
-.
-lower
-(
 file
 [
 -
@@ -3983,6 +3998,9 @@ ext
 )
 :
 ]
+.
+lower
+(
 )
 :
                 
@@ -4083,11 +4101,10 @@ path
             
 path
 =
-string
+path
 .
 split
 (
-path
 os
 .
 pathsep
@@ -4153,7 +4170,7 @@ ST_MODE
 ]
 )
 &
-0111
+0o111
 :
                     
 return
@@ -4739,8 +4756,6 @@ STDOUT
 '
 :
                     
-apply
-(
 popen2
 .
 Popen4
@@ -4751,13 +4766,10 @@ self
 command
 1
 )
-)
                 
 else
 :
                     
-apply
-(
 popen2
 .
 Popen3
@@ -4767,7 +4779,6 @@ __init__
 self
 command
 1
-)
 )
                 
 self
@@ -4808,8 +4819,6 @@ kw
                 
 resultcode
 =
-apply
-(
 popen2
 .
 Popen3
@@ -4817,9 +4826,10 @@ Popen3
 wait
 (
 self
-)
-+
+*
 args
+*
+*
 kw
 )
                 
@@ -4915,9 +4925,14 @@ subprocess
 .
 PIPE
 if
-subprocess
+sys
 .
-mswindows
+platform
+=
+=
+'
+win32
+'
 :
     
 from
@@ -5119,9 +5134,14 @@ None
 )
     
 if
-subprocess
+sys
 .
-mswindows
+platform
+=
+=
+'
+win32
+'
 :
         
 def
@@ -5194,6 +5214,7 @@ pywintypes
 error
 Exception
 )
+as
 why
 :
                 
@@ -5332,6 +5353,7 @@ pywintypes
 error
 Exception
 )
+as
 why
 :
                 
@@ -5446,6 +5468,7 @@ input
             
 except
 OSError
+as
 why
 :
                 
@@ -5806,19 +5829,6 @@ join
 (
 y
 )
-#
-TODO
-(
-3
-.
-0
-:
-rewrite
-to
-use
-memoryview
-(
-)
 def
 send_all
 (
@@ -5826,6 +5836,13 @@ p
 data
 )
 :
+    
+data
+=
+memoryview
+(
+data
+)
     
 while
 len
@@ -5857,24 +5874,11 @@ disconnect_message
         
 data
 =
-buffer
-(
 data
+[
 sent
-)
-try
 :
-    
-object
-except
-NameError
-:
-    
-class
-object
-:
-        
-pass
+]
 class
 TestCmd
 (
@@ -6132,18 +6136,14 @@ no_result
 }
         
 if
-os
-.
-environ
-.
-has_key
-(
 '
 PRESERVE
 '
-)
+in
+os
+.
+environ
 and
-not
 os
 .
 environ
@@ -6153,6 +6153,7 @@ PRESERVE
 '
 ]
 is
+not
 '
 '
 :
@@ -6458,11 +6459,10 @@ special
             
 arg
 =
-string
+arg
 .
 replace
 (
-arg
 slash
 slash
 +
@@ -6477,11 +6477,10 @@ special
                 
 arg
 =
-string
+arg
 .
 replace
 (
-arg
 c
 slash
 +
@@ -6594,17 +6593,14 @@ path
             
 path
 =
-apply
-(
 os
 .
 path
 .
 join
-tuple
 (
+*
 path
-)
 )
         
 if
@@ -6872,11 +6868,13 @@ _dirlist
 :
                 
 print
+(
 "
 Preserved
 directory
 "
 dir
+)
         
 else
 :
@@ -7123,11 +7121,10 @@ type
                 
 arguments
 =
-string
+arguments
 .
 split
 (
-arguments
 )
             
 cmd
@@ -7196,6 +7193,7 @@ kw
 :
             
 print
+(
 self
 .
 banner
@@ -7208,11 +7206,15 @@ s
 %
 name
 )
+)
             
 print
+(
 a
+)
             
 print
+(
 self
 .
 banner
@@ -7225,9 +7227,12 @@ s
 %
 name
 )
+)
             
 print
+(
 b
+)
     
 else
 :
@@ -7248,11 +7253,13 @@ kw
 :
             
 print
+(
 self
 .
 banner
 (
 name
+)
 )
             
 args
@@ -7274,12 +7281,14 @@ args
             
 lines
 =
-apply
-(
 self
 .
 diff_function
+(
+*
 args
+*
+*
 kw
 )
             
@@ -7290,7 +7299,9 @@ lines
 :
                 
 print
+(
 l
+)
     
 def
 fail_test
@@ -7806,7 +7817,7 @@ file
 mode
 =
 '
-rb
+r
 '
 )
 :
@@ -7900,10 +7911,10 @@ default
 is
         
 '
-rb
+r
 '
 (
-binary
+string
 read
 )
 .
@@ -7935,6 +7946,7 @@ r
             
 raise
 ValueError
+(
 "
 mode
 must
@@ -7944,6 +7956,7 @@ with
 r
 '
 "
+)
         
 with
 open
@@ -8138,7 +8151,8 @@ arguments
         
 cmd_string
 =
-string
+'
+'
 .
 join
 (
@@ -8149,8 +8163,6 @@ self
 escape
 cmd
 )
-'
-'
 )
         
 if
@@ -9459,17 +9471,14 @@ sub
                 
 sub
 =
-apply
-(
 os
 .
 path
 .
 join
-tuple
 (
+*
 sub
-)
 )
             
 new
@@ -9821,11 +9830,10 @@ drive
             
 path
 =
-string
+drive
 .
 upper
 (
-drive
 )
 +
 rest
@@ -10113,17 +10121,14 @@ file
             
 file
 =
-apply
-(
 os
 .
 path
 .
 join
-tuple
 (
+*
 file
-)
 )
         
 if
@@ -10292,8 +10297,6 @@ method
 "
         
 return
-apply
-(
 os
 .
 path
@@ -10303,12 +10306,8 @@ join
 self
 .
 workdir
-)
-+
-tuple
-(
+*
 args
-)
 )
     
 def
@@ -10572,8 +10571,6 @@ tree
 Because
 os
 .
-path
-.
 walk
 (
 )
@@ -10600,8 +10597,6 @@ disabled
 #
 before
 os
-.
-path
 .
 walk
 (
@@ -10650,8 +10645,6 @@ n
 )
             
 os
-.
-path
 .
 walk
 (
@@ -10728,8 +10721,6 @@ tree
 But
 os
 .
-path
-.
 walk
 (
 )
@@ -10785,8 +10776,6 @@ top
 )
             
 os
-.
-path
 .
 walk
 (
@@ -10970,7 +10959,7 @@ stat
 ST_MODE
 ]
 |
-0200
+0o200
 )
 )
             
@@ -11019,7 +11008,7 @@ ST_MODE
 ]
 &
 ~
-0200
+0o200
 )
 )
         
@@ -11050,8 +11039,6 @@ top
 )
             
 os
-.
-path
 .
 walk
 (
@@ -11333,8 +11320,6 @@ tree
 Because
 os
 .
-path
-.
 walk
 (
 )
@@ -11361,8 +11346,6 @@ disabled
 #
 before
 os
-.
-path
 .
 walk
 (
@@ -11411,8 +11394,6 @@ n
 )
             
 os
-.
-path
 .
 walk
 (
@@ -11489,8 +11470,6 @@ tree
 But
 os
 .
-path
-.
 walk
 (
 )
@@ -11547,8 +11526,6 @@ top
             
 os
 .
-path
-.
 walk
 (
 top
@@ -11585,7 +11562,7 @@ content
 mode
 =
 '
-wb
+w
 '
 )
 :
@@ -11687,7 +11664,7 @@ The
 default
 is
 '
-wb
+w
 '
 (
 binary
@@ -11722,6 +11699,7 @@ w
             
 raise
 ValueError
+(
 "
 mode
 must
@@ -11731,6 +11709,7 @@ with
 w
 '
 "
+)
         
 with
 open

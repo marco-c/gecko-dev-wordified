@@ -66,6 +66,10 @@ solibs
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -260,7 +264,9 @@ contents2
 :
       
 print
+(
 base2
+)
       
 test
 .

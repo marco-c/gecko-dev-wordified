@@ -68,6 +68,10 @@ variable
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 sys
 import
@@ -84,6 +88,7 @@ darwin
 :
   
 print
+(
 "
 This
 test
@@ -102,6 +107,7 @@ com
 483696
 .
 "
+)
   
 sys
 .

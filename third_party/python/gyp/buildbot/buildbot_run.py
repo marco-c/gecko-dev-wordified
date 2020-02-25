@@ -63,6 +63,10 @@ buildbots
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -212,9 +216,11 @@ retcode
 :
     
 print
+(
 '
 STEP_EXCEPTION
 '
+)
     
 sys
 .
@@ -271,12 +277,14 @@ BUILDBOT_CLOBBER
 :
     
 print
+(
 '
 BUILD_STEP
 Clobber
 CMake
 checkout
 '
+)
     
 shutil
 .
@@ -324,12 +332,14 @@ CMAKE_DIR
 return
   
 print
+(
 '
 BUILD_STEP
 Initialize
 CMake
 checkout
 '
+)
   
 os
 .
@@ -339,11 +349,13 @@ CMAKE_DIR
 )
   
 print
+(
 '
 BUILD_STEP
 Sync
 CMake
 '
+)
   
 CallSubProcess
 (
@@ -414,11 +426,13 @@ CMAKE_DIR
 )
   
 print
+(
 '
 BUILD_STEP
 Build
 CMake
 '
+)
   
 CallSubProcess
 (
@@ -571,6 +585,7 @@ format
 title
   
 print
+(
 '
 BUILD_STEP
 '
@@ -579,6 +594,7 @@ title
 +
 '
 '
+)
   
 sys
 .
@@ -702,9 +718,11 @@ going
 .
     
 print
+(
 '
 STEP_FAILURE
 '
+)
     
 return
 1
@@ -725,12 +743,15 @@ directory
 .
   
 print
+(
 '
 BUILD_STEP
 cleanup
 '
+)
   
 print
+(
 '
 Removing
 %
@@ -741,6 +762,7 @@ s
 '
 %
 OUT_DIR
+)
   
 shutil
 .
@@ -753,10 +775,12 @@ True
 )
   
 print
+(
 '
 Done
 .
 '
+)
   
 retcode
 =
@@ -1063,10 +1087,12 @@ stage
 .
     
 print
+(
 '
 BUILD_STEP
 failures
 '
+)
     
 sys
 .

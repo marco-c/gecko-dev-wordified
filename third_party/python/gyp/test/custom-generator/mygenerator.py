@@ -77,7 +77,7 @@ open
 MyBuildFile
 "
 "
-wb
+w
 "
 )
   

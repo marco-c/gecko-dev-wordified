@@ -73,6 +73,10 @@ com
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -97,6 +101,7 @@ win32
 :
   
 print
+(
 "
 This
 test
@@ -115,6 +120,7 @@ com
 483696
 .
 "
+)
   
 sys
 .

@@ -44,6 +44,10 @@ the
 LICENSE
 file
 .
+from
+__future__
+import
+print_function
 import
 copy
 import
@@ -70,6 +74,25 @@ gyp
 common
 import
 GypError
+try
+:
+  
+#
+basestring
+was
+removed
+in
+python3
+.
+  
+basestring
+except
+NameError
+:
+  
+basestring
+=
+str
 #
 Default
 debug
@@ -193,6 +216,7 @@ message
 args
     
 print
+(
 '
 %
 s
@@ -236,6 +260,7 @@ ctx
 2
 ]
 message
+)
 )
 def
 FindBuildFiles
@@ -1622,7 +1647,7 @@ options
 .
 _regeneration_metadata
 .
-iteritems
+items
 (
 )
 :
@@ -1838,11 +1863,7 @@ env_name
 :
         
 print
->
->
-sys
-.
-stderr
+(
 (
 '
 Warning
@@ -1871,16 +1892,19 @@ opt
 env_name
 )
 )
+                                                             
+file
+=
+sys
+.
+stderr
+)
     
 else
 :
       
 print
->
->
-sys
-.
-stderr
+(
 (
 '
 Warning
@@ -1903,6 +1927,12 @@ r
 action
 opt
 )
+)
+file
+=
+sys
+.
+stderr
 )
   
 return
@@ -3971,33 +4001,17 @@ path
 sep
 )
       
-components_len
-=
-len
+for
+component
+in
+reversed
 (
 build_file_dir_components
-)
-      
-for
-index
-in
-xrange
-(
-components_len
--
-1
--
-1
--
-1
 )
 :
         
 if
-build_file_dir_components
-[
-index
-]
+component
 =
 =
 '
@@ -4025,7 +4039,8 @@ break
 del
 build_file_dir_components
 [
-index
+-
+1
 ]
       
 #
@@ -4345,6 +4360,7 @@ default_include
 :
       
 print
+(
 '
 Using
 overrides
@@ -4353,6 +4369,7 @@ in
 '
 +
 default_include
+)
       
 includes
 .
@@ -4460,10 +4477,6 @@ in
 gyp
 .
 debug
-.
-keys
-(
-)
 :
     
 DebugOutput
@@ -4767,10 +4780,6 @@ flat_list
 configurations
 '
 ]
-.
-keys
-(
-)
       
 for
 conf
@@ -4840,6 +4849,7 @@ args
   
 except
 GypError
+as
 e
 :
     

@@ -53,14 +53,14 @@ tests
 "
 "
 "
+from
+__future__
 import
-errno
+print_function
 import
 collections
-from
-contextlib
 import
-contextmanager
+errno
 import
 itertools
 import
@@ -75,6 +75,10 @@ import
 sys
 import
 tempfile
+from
+contextlib
+import
+contextmanager
 import
 TestCmd
 import
@@ -2182,6 +2186,7 @@ method
 "
     
 print
+(
 "
 Build
 is
@@ -2193,8 +2198,10 @@ to
 date
 :
 "
+)
     
 print
+(
 self
 .
 banner
@@ -2203,12 +2210,15 @@ banner
 STDOUT
 '
 )
+)
     
 print
+(
 self
 .
 stdout
 (
+)
 )
     
 stderr
@@ -2224,6 +2234,7 @@ stderr
 :
       
 print
+(
 self
 .
 banner
@@ -2232,9 +2243,12 @@ banner
 STDERR
 '
 )
+)
       
 print
+(
 stderr
+)
   
 def
 run_gyp
@@ -2609,14 +2623,11 @@ code
 "
     
 if
-kw
-.
-has_key
-(
 '
 SYMROOT
 '
-)
+in
+kw
 :
       
 del
@@ -4453,6 +4464,7 @@ Makefile
 :
       
 print
+(
 "
 NO
 Makefile
@@ -4469,6 +4481,7 @@ chdir
 '
 Makefile
 '
+)
 )
       
 arguments
@@ -4605,6 +4618,7 @@ to
 be
 done
 for
+'
 %
 s
 '
@@ -5333,6 +5347,19 @@ keychain
 ]
 )
 .
+decode
+(
+      
+'
+utf
+-
+8
+'
+'
+ignore
+'
+)
+.
 strip
 (
 )
@@ -5496,6 +5523,7 @@ msbuild_basekey
 :
     
 print
+(
 '
 Error
 :
@@ -5507,6 +5535,7 @@ base
 registry
 entry
 '
+)
     
 return
 None
@@ -5565,7 +5594,7 @@ specifies
 s
 "
 '
-             
+            
 '
 but
 corresponding
@@ -5580,7 +5609,7 @@ found
 .
 '
 %
-             
+            
 (
 msvs_version
 msbuild_version
@@ -5639,6 +5668,7 @@ msbuild_version
 :
     
 print
+(
 '
 Error
 :
@@ -5649,6 +5679,7 @@ MSBuild
 registry
 entry
 '
+)
     
 return
 None
@@ -5679,6 +5710,7 @@ msbuild_path
 :
     
 print
+(
 '
 Error
 :
@@ -5690,6 +5722,7 @@ registry
 entry
 value
 '
+)
     
 return
 None
@@ -6207,8 +6240,19 @@ check_output
 (
 args1
 )
-\
-          
+.
+decode
+(
+            
+'
+utf
+-
+8
+'
+'
+ignore
+'
+)
 .
 strip
 (
@@ -6216,6 +6260,7 @@ strip
 .
 split
 (
+b
 '
 \
 r
@@ -6230,12 +6275,26 @@ pop
 .
 split
 (
+b
 '
 '
 )
 .
 pop
 (
+)
+        
+build_tool
+=
+build_tool
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
       
 if
@@ -6304,6 +6363,7 @@ strip
 .
 split
 (
+b
 '
 \
 r
@@ -6311,6 +6371,25 @@ r
 n
 '
 )
+        
+msbuild_exes
+=
+[
+m
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+for
+m
+in
+msbuild_exes
+]
       
 if
 len
@@ -6474,7 +6553,7 @@ specifies
 s
 "
 '
-              
+            
 '
 but
 corresponding
@@ -6586,6 +6665,7 @@ uses_msbuild
 msbuild_path
   
 print
+(
 '
 Error
 :
@@ -6594,6 +6674,7 @@ not
 find
 devenv
 '
+)
   
 sys
 .
@@ -6660,6 +6741,84 @@ devenv_path
 0
 ]
     
+#
+Check
+for
+location
+of
+Community
+install
+(
+in
+VS2017
+at
+least
+)
+.
+    
+vcvars_path
+=
+os
+.
+path
+.
+join
+(
+devenv_path
+'
+.
+.
+'
+'
+.
+.
+'
+'
+.
+.
+'
+'
+.
+.
+'
+'
+VC
+'
+                               
+'
+Auxiliary
+'
+'
+Build
+'
+'
+vcvars32
+.
+bat
+'
+)
+    
+if
+os
+.
+path
+.
+exists
+(
+vcvars_path
+)
+:
+      
+return
+os
+.
+path
+.
+abspath
+(
+vcvars_path
+)
+    
 vsvars_path
 =
 os
@@ -6672,12 +6831,16 @@ devenv_path
 '
 .
 .
-/
+'
+'
 .
 .
-/
+'
+'
 Tools
-/
+'
+                               
+'
 vsvars32
 .
 bat
@@ -6685,7 +6848,14 @@ bat
 )
     
 return
+os
+.
+path
+.
+abspath
+(
 vsvars_path
+)
   
 def
 initialize_build_tool
@@ -6865,6 +7035,18 @@ communicate
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+ignore
+'
+)
     
 assert
 not
@@ -7984,6 +8166,7 @@ kw
 )
 :
     
+r
 "
 "
 "
@@ -9170,8 +9353,9 @@ to
 be
 done
 for
+.
 all
-'
+.
 \
 \
 .
@@ -10816,6 +11000,7 @@ kw
   
 raise
 Exception
+(
 "
 unknown
 format
@@ -10824,3 +11009,4 @@ r
 "
 %
 format
+)

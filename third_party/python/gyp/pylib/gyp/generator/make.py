@@ -200,6 +200,10 @@ the
 files
 readable
 .
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -6204,7 +6208,7 @@ files
 in
 basenames
 .
-iteritems
+items
 (
 )
 :
@@ -7396,11 +7400,18 @@ Pchify
       
 sources
 =
-filter
-(
-Compilable
+[
+x
+for
+x
+in
 all_sources
+if
+Compilable
+(
+x
 )
+]
       
 if
 sources
@@ -8615,13 +8626,18 @@ WriteLn
       
 outputs
 =
-map
-(
+[
 self
 .
 Absolutify
-outputs
+(
+o
 )
+for
+o
+in
+outputs
+]
       
 #
 The
@@ -9506,13 +9522,18 @@ inputs
         
 outputs
 =
-map
-(
+[
 self
 .
 Absolutify
-outputs
+(
+o
 )
+for
+o
+in
+outputs
+]
         
 all_outputs
 +
@@ -11584,17 +11605,21 @@ includes
         
 includes
 =
-map
-(
+[
 Sourceify
-map
 (
 self
 .
 Absolutify
+(
+include
+)
+)
+for
+include
+in
 includes
-)
-)
+]
       
 self
 .
@@ -11626,23 +11651,26 @@ sources
     
 objs
 =
-map
-(
+[
 self
 .
 Objectify
-map
 (
 self
 .
 Absolutify
-map
 (
 Target
+(
+x
+)
+)
+)
+for
+x
+in
 compilable
-)
-)
-)
+]
     
 self
 .
@@ -12335,11 +12363,18 @@ output
 extra_link_deps
 +
 =
-filter
-(
-Linkable
+[
+source
+for
+source
+in
 sources
+if
+Linkable
+(
+source
 )
+]
     
 self
 .
@@ -12914,6 +12949,7 @@ executable
       
 print
 (
+(
 "
 ERROR
 :
@@ -12936,6 +12972,7 @@ type
 target
 "
 target
+)
 )
     
 target_prefix
@@ -14446,22 +14483,17 @@ path
       
 for
 i
+postbuild
 in
-xrange
-(
-len
+enumerate
 (
 postbuilds
-)
 )
 :
         
 if
 not
-postbuilds
-[
-i
-]
+postbuild
 .
 startswith
 (
@@ -14477,10 +14509,7 @@ i
 =
 EscapeShellArgument
 (
-postbuilds
-[
-i
-]
+postbuild
 )
       
 self
@@ -15434,6 +15463,7 @@ else
 :
       
 print
+(
 "
 WARNING
 :
@@ -15444,7 +15474,10 @@ for
 self
 .
 type
+self
+.
 target
+)
     
 #
 Add
@@ -16522,11 +16555,16 @@ labels
     
 outputs
 =
-map
-(
+[
 QuoteSpaces
-outputs
+(
+o
 )
+for
+o
+in
+outputs
+]
     
 inputs
 =
@@ -16843,11 +16881,8 @@ overlong
 filenames
 .
       
-cmddigest
+cmdstring
 =
-hashlib
-.
-sha1
 (
 command
 if
@@ -16856,6 +16891,24 @@ else
 self
 .
 target
+)
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
+      
+cmddigest
+=
+hashlib
+.
+sha1
+(
+cmdstring
 )
 .
 hexdigest
@@ -18832,6 +18885,7 @@ config
 )
     
 print
+(
 '
 Building
 [
@@ -18846,6 +18900,7 @@ s
 (
 config
 arguments
+)
 )
     
 subprocess

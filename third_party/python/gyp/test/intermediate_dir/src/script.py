@@ -152,16 +152,6 @@ append
 (
 fourth
 )
-#
-print
->
->
-sys
-.
-stderr
-sys
-.
-argv
 with
 open
 (

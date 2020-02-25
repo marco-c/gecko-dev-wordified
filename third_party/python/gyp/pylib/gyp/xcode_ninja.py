@@ -228,6 +228,7 @@ workspace_path
   
 except
 OSError
+as
 e
 :
     
@@ -746,7 +747,7 @@ configurations
 '
 ]
 .
-iterkeys
+keys
 (
 )
 :
@@ -1459,7 +1460,7 @@ gyp_dict
 in
 data
 .
-iteritems
+items
 (
 )
 :
@@ -2064,7 +2065,7 @@ target_dict
 in
 target_dicts
 .
-iteritems
+items
 (
 )
 :

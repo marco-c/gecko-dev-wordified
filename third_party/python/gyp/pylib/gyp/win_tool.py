@@ -72,6 +72,10 @@ generator
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -1278,7 +1282,9 @@ code
 :
         
 print
+(
 line
+)
     
 return
 link
@@ -1966,7 +1972,7 @@ open
 (
 our_manifest
 '
-rb
+r
 '
 )
 as
@@ -1978,7 +1984,7 @@ open
 (
 assert_manifest
 '
-rb
+r
 '
 )
 as
@@ -2038,27 +2044,30 @@ filename
 )
 :
           
+print
+(
+filename
+file
+=
 sys
 .
 stderr
-.
-write
+)
+          
+print
 (
 '
-%
-s
-\
-n
 -
 -
 -
 -
 -
-\
-n
 '
-%
-filename
+file
+=
+sys
+.
+stderr
 )
           
 with
@@ -2066,36 +2075,41 @@ open
 (
 filename
 '
-rb
+r
 '
 )
 as
 f
 :
             
-sys
-.
-stderr
-.
-write
+print
 (
 f
 .
 read
 (
 )
-+
+file
+=
+sys
+.
+stderr
+)
+            
+print
+(
 '
-\
-n
 -
 -
 -
 -
 -
-\
-n
 '
+file
+=
+sys
+.
+stderr
 )
         
 dump
@@ -2290,7 +2304,9 @@ line
 :
         
 print
+(
 line
+)
     
 return
 popen
@@ -2373,7 +2389,7 @@ open
 (
 resource_path
 '
-wb
+w
 '
 )
 as
@@ -2702,7 +2718,9 @@ processing
 :
         
 print
+(
 line
+)
     
 return
 popen
@@ -2841,7 +2859,9 @@ line
 :
         
 print
+(
 line
+)
     
 return
 popen
@@ -2986,7 +3006,9 @@ line
 :
         
 print
+(
 line
+)
     
 return
 popen
@@ -3099,7 +3121,7 @@ os
 .
 environ
 .
-iteritems
+items
 (
 )
 :

@@ -167,7 +167,7 @@ self
 .
 nodes
 .
-iteritems
+items
 (
 )
 :
@@ -266,7 +266,7 @@ self
 .
 nodes
 .
-iteritems
+items
 (
 )
 :
@@ -365,7 +365,7 @@ self
 .
 nodes
 .
-iteritems
+items
 (
 )
 :

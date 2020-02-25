@@ -109,6 +109,19 @@ subprocess
 STDOUT
 )
   
+stdout
+=
+stdout
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+  
 return
 stdout
 .

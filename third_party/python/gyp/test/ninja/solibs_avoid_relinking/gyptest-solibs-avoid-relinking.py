@@ -74,6 +74,10 @@ changed
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -199,6 +203,7 @@ scottmg
 )
   
 print
+(
 '
 Skipping
 test
@@ -214,6 +219,7 @@ com
 /
 365833
 '
+)
   
 test
 .

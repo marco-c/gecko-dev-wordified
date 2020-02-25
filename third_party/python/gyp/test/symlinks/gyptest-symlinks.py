@@ -272,6 +272,12 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
++
+'
 )
 as
 gyp_file
@@ -282,6 +288,12 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+'
+w
++
+'
 )
 as
 c_file

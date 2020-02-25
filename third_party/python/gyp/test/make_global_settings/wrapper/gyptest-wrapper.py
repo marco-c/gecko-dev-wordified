@@ -56,6 +56,10 @@ make_global_settings
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -63,6 +67,7 @@ sys
 import
 TestGyp
 print
+(
 "
 This
 test
@@ -81,6 +86,7 @@ com
 483696
 .
 "
+)
 sys
 .
 exit
@@ -98,15 +104,22 @@ if
 sys
 .
 platform
-in
+.
+startswith
 (
 '
-linux2
+linux
 '
+)
+or
+sys
+.
+platform
+=
+=
 '
 darwin
 '
-)
 :
   
 test_format

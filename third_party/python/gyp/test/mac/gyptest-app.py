@@ -58,6 +58,10 @@ correctly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -86,6 +90,7 @@ win32
 :
   
 print
+(
 "
 This
 test
@@ -104,6 +109,7 @@ com
 483696
 .
 "
+)
   
 sys
 .
@@ -154,6 +160,7 @@ output
 :
     
 print
+(
 '
 File
 :
@@ -167,6 +174,7 @@ s
 '
 %
 output
+)
     
 test
 .
@@ -189,11 +197,7 @@ actual
 :
     
 print
->
->
-sys
-.
-stderr
+(
 '
 Expected
 "
@@ -210,6 +214,12 @@ s
 (
 expected
 actual
+)
+file
+=
+sys
+.
+stderr
 )
     
 test

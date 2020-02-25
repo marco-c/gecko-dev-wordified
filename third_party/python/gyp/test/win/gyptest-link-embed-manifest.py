@@ -246,9 +246,22 @@ win32api
 .
 LoadResource
 (
+            
 handle
 RT_MANIFEST
 resource_name
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+ignore
+'
 )
       
 except

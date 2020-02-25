@@ -510,6 +510,21 @@ linux3
 }
 )
 ;
+    
+self
+.
+assertFlavor
+(
+'
+linux
+'
+'
+linux
+'
+{
+}
+)
+;
   
 def
 test_param

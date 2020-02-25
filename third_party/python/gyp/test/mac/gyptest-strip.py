@@ -55,6 +55,10 @@ works
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -68,6 +72,7 @@ sys
 import
 time
 print
+(
 "
 This
 test
@@ -86,6 +91,7 @@ com
 483696
 .
 "
+)
 sys
 .
 exit
@@ -268,6 +274,7 @@ n_expected
 :
       
 print
+(
 '
 Stripping
 :
@@ -283,6 +290,7 @@ d
 (
 n_expected
 n
+)
 )
       
 test

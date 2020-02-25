@@ -70,8 +70,6 @@ ninja
 import
 unittest
 import
-StringIO
-import
 sys
 import
 TestCommon

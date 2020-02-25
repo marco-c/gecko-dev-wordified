@@ -58,6 +58,10 @@ toolchain
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -103,6 +107,7 @@ exit
 0
 )
 print
+(
 "
 This
 test
@@ -121,6 +126,7 @@ com
 483696
 .
 "
+)
 sys
 .
 exit

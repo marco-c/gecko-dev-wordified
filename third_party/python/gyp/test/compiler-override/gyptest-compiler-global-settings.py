@@ -62,6 +62,10 @@ settings
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -113,6 +117,7 @@ exit
 0
 )
 print
+(
 "
 This
 test
@@ -131,6 +136,7 @@ com
 483696
 .
 "
+)
 sys
 .
 exit

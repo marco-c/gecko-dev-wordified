@@ -776,6 +776,10 @@ b2
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 gyp
 .
@@ -1522,6 +1526,7 @@ debug
 :
       
 print
+(
 '
 AddSource
 '
@@ -1535,6 +1540,7 @@ result
 -
 1
 ]
+)
 def
 _ExtractSourcesFromAction
 (
@@ -1765,11 +1771,13 @@ debug
 :
     
 print
+(
 '
 ExtractSources
 '
 target
 base_path
+)
   
 results
 =
@@ -2583,12 +2591,14 @@ debug
 :
       
 print
+(
 '
 gyp
 file
 modified
 '
 build_file
+)
     
 return
 True
@@ -2691,6 +2701,7 @@ debug
 :
         
 print
+(
 '
 included
 gyp
@@ -2708,6 +2719,7 @@ file
 =
 '
 rel_include_file
+)
       
 return
 True
@@ -3303,6 +3315,7 @@ build_file
 :
       
 print
+(
 '
 matching
 target
@@ -3312,6 +3325,7 @@ build
 file
 '
 target_name
+)
       
 target
 .
@@ -3365,6 +3379,7 @@ files
 :
           
 print
+(
 '
 target
 '
@@ -3373,6 +3388,7 @@ target_name
 matches
 '
 source
+)
           
 target
 .
@@ -3754,6 +3770,7 @@ match_status
 MATCH_STATUS_MATCHES_BY_DEPENDENCY
       
 print
+(
 '
 \
 t
@@ -3769,6 +3786,7 @@ dep
 dep
 .
 name
+)
       
 return
 True
@@ -3844,6 +3862,7 @@ found
 ]
   
 print
+(
 '
 Targets
 that
@@ -3852,6 +3871,7 @@ by
 dependency
 :
 '
+)
   
 for
 target
@@ -4174,6 +4194,7 @@ is_or_has_linked_ancestor
 :
     
 print
+(
 '
 \
 t
@@ -4189,7 +4210,6 @@ name
 '
 executable
 '
-\
            
 target
 .
@@ -4197,7 +4217,6 @@ is_executable
 '
 added_to_compile_targets
 '
-\
            
 target
 .
@@ -4205,7 +4224,6 @@ added_to_compile_targets
 '
 add_if_no_ancestor
 '
-\
            
 add_if_no_ancestor
 '
@@ -4214,7 +4232,6 @@ requires_build
 target
 .
 requires_build
-\
            
 '
 is_static_library
@@ -4222,7 +4239,6 @@ is_static_library
 target
 .
 is_static_library
-\
            
 '
 is_or_has_linked_ancestor
@@ -4230,6 +4246,8 @@ is_or_has_linked_ancestor
 target
 .
 is_or_has_linked_ancestor
+           
+)
     
 result
 .
@@ -4306,6 +4324,7 @@ matching_targets
 :
     
 print
+(
 '
 finding
 compile
@@ -4316,6 +4335,7 @@ match
 target
 .
 name
+)
     
 _AddCompileTargets
 (
@@ -4365,6 +4385,7 @@ values
 :
     
 print
+(
 '
 Error
 :
@@ -4375,6 +4396,7 @@ values
 error
 '
 ]
+)
   
 if
 '
@@ -4385,12 +4407,14 @@ values
 :
     
 print
+(
 values
 [
 '
 status
 '
 ]
+)
   
 if
 '
@@ -4412,6 +4436,7 @@ sort
 )
     
 print
+(
 '
 Supplied
 targets
@@ -4422,6 +4447,7 @@ changed
 files
 :
 '
+)
     
 for
 target
@@ -4435,11 +4461,13 @@ targets
 :
       
 print
+(
 '
 \
 t
 '
 target
+)
   
 if
 '
@@ -4461,6 +4489,7 @@ sort
 )
     
 print
+(
 '
 The
 following
@@ -4470,6 +4499,7 @@ not
 found
 :
 '
+)
     
 for
 target
@@ -4483,11 +4513,13 @@ invalid_targets
 :
       
 print
+(
 '
 \
 t
 '
 target
+)
   
 if
 '
@@ -4509,6 +4541,7 @@ sort
 )
     
 print
+(
 '
 Targets
 that
@@ -4517,6 +4550,7 @@ a
 build
 :
 '
+)
     
 for
 target
@@ -4530,11 +4564,13 @@ build_targets
 :
       
 print
+(
 '
 \
 t
 '
 target
+)
   
 if
 '
@@ -4556,6 +4592,7 @@ sort
 )
     
 print
+(
 '
 Targets
 that
@@ -4565,6 +4602,7 @@ be
 built
 :
 '
+)
     
 for
 target
@@ -4578,11 +4616,13 @@ compile_targets
 :
       
 print
+(
 '
 \
 t
 '
 target
+)
   
 if
 '
@@ -4604,11 +4644,13 @@ sort
 )
     
 print
+(
 '
 Test
 targets
 :
 '
+)
     
 for
 target
@@ -4622,11 +4664,13 @@ test_targets
 :
       
 print
+(
 '
 \
 t
 '
 target
+)
   
 output_path
 =
@@ -4656,11 +4700,13 @@ output_path
 :
     
 print
+(
 json
 .
 dumps
 (
 values
+)
 )
     
 return
@@ -4708,6 +4754,7 @@ e
 :
     
 print
+(
 '
 Error
 writing
@@ -4719,6 +4766,7 @@ output_path
 str
 (
 e
+)
 )
 def
 _WasGypIncludeFileModified
@@ -4796,6 +4844,7 @@ files
 :
         
 print
+(
 '
 Include
 file
@@ -4805,6 +4854,7 @@ all
 changed
 '
 include
+)
         
 return
 True
@@ -5468,10 +5518,12 @@ test_targets_no_all
 ]
     
 print
+(
 '
 supplied
 test_targets
 '
+)
     
 for
 target_name
@@ -5482,17 +5534,21 @@ _test_target_names
 :
       
 print
+(
 '
 \
 t
 '
 target_name
+)
     
 print
+(
 '
 found
 test_targets
 '
+)
     
 for
 target
@@ -5501,6 +5557,7 @@ test_targets
 :
       
 print
+(
 '
 \
 t
@@ -5508,8 +5565,10 @@ t
 target
 .
 name
+)
     
 print
+(
 '
 searching
 for
@@ -5517,6 +5576,7 @@ matching
 test
 targets
 '
+)
     
 matching_test_targets
 =
@@ -5599,10 +5659,12 @@ test_targets_no_all
 ]
     
 print
+(
 '
 matched
 test_targets
 '
+)
     
 for
 target
@@ -5611,6 +5673,7 @@ matching_test_targets
 :
       
 print
+(
 '
 \
 t
@@ -5618,6 +5681,7 @@ t
 target
 .
 name
+)
     
 matching_target_names
 =
@@ -5656,10 +5720,12 @@ all
 )
       
 print
+(
 '
 \
 tall
 '
+)
     
 return
 matching_target_names
@@ -5723,7 +5789,7 @@ self
 .
 _name_to_target
 .
-itervalues
+values
 (
 )
 :
@@ -5785,12 +5851,14 @@ _root_targets
 ]
     
 print
+(
 '
 Supplied
 test_targets
 &
 compile_targets
 '
+)
     
 for
 target
@@ -5799,6 +5867,7 @@ supplied_targets
 :
       
 print
+(
 '
 \
 t
@@ -5806,13 +5875,16 @@ t
 target
 .
 name
+)
     
 print
+(
 '
 Finding
 compile
 targets
 '
+)
     
 compile_targets
 =
@@ -5942,10 +6014,12 @@ debug
 :
       
 print
+(
 '
 toplevel_dir
 '
 toplevel_dir
+)
     
 if
 _WasGypIncludeFileModified

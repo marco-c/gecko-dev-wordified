@@ -349,7 +349,7 @@ O_NOCTTY
 os
 .
 O_CREAT
-0666
+0o666
 )
     
 if

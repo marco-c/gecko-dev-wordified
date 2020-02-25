@@ -59,6 +59,10 @@ correctly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -97,6 +101,7 @@ p
 :
     
 print
+(
 expected
 +
 "
@@ -108,6 +113,7 @@ stripped
 out
 .
 "
+)
     
 test
 .
@@ -140,6 +146,7 @@ p
 :
     
 print
+(
 expected
 +
 "
@@ -147,6 +154,7 @@ not
 found
 .
 "
+)
     
 test
 .

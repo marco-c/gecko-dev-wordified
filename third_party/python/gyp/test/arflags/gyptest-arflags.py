@@ -60,6 +60,10 @@ fails
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -78,6 +82,7 @@ darwin
 :
   
 print
+(
 "
 This
 test
@@ -96,6 +101,7 @@ com
 483696
 .
 "
+)
   
 sys
 .

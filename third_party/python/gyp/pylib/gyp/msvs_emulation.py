@@ -59,6 +59,8 @@ ninja
 "
 "
 import
+collections
+import
 os
 import
 re
@@ -80,6 +82,25 @@ import
 gyp
 .
 MSVSVersion
+try
+:
+  
+#
+basestring
+was
+removed
+in
+python3
+.
+  
+basestring
+except
+NameError
+:
+  
+basestring
+=
+str
 windows_quoter_regex
 =
 re
@@ -829,34 +850,23 @@ None
 return
 element
   
-#
-Note
-not
-Iterable
-because
-we
-don
-'
-t
-want
-to
-handle
-strings
-like
-that
-.
-  
 if
+(
 isinstance
 (
 element
-list
+collections
+.
+Iterable
 )
-or
+and
+      
+not
 isinstance
 (
 element
-tuple
+basestring
+)
 )
 :
     
@@ -969,16 +979,22 @@ remap
 .
     
 if
+(
 isinstance
 (
 element
-list
+collections
+.
+Iterable
 )
-or
+and
+        
+not
 isinstance
 (
 element
-tuple
+basestring
+)
 )
 :
       
@@ -1083,16 +1099,22 @@ None
 :
     
 if
+(
 isinstance
 (
 element
-list
+collections
+.
+Iterable
 )
-or
+and
+        
+not
 isinstance
 (
 element
-tuple
+basestring
+)
 )
 :
       
@@ -2021,7 +2043,7 @@ config
 in
 configs
 .
-iteritems
+items
 (
 )
 :
@@ -5183,11 +5205,13 @@ too
     
 cflags
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+cflags
+if
 not
 x
 .
@@ -5198,8 +5222,7 @@ startswith
 MP
 '
 )
-cflags
-)
+]
     
 return
 cflags
@@ -7069,33 +7092,28 @@ by
 default
 .
     
-base_flags
-=
-filter
+if
+not
+any
 (
-lambda
-x
-:
 '
 DYNAMICBASE
 '
 in
-x
+flag
 or
-x
+flag
 =
 =
 '
 /
 FIXED
 '
-                        
+for
+flag
+in
 ldflags
 )
-    
-if
-not
-base_flags
 :
       
 ldflags
@@ -7166,16 +7184,16 @@ off
     
 if
 not
-filter
+any
 (
-lambda
-x
-:
 '
 NXCOMPAT
 '
 in
-x
+flag
+for
+flag
+in
 ldflags
 )
 :
@@ -7192,12 +7210,9 @@ NXCOMPAT
     
 have_def_file
 =
-filter
+any
 (
-lambda
-x
-:
-x
+flag
 .
 startswith
 (
@@ -7207,6 +7222,9 @@ DEF
 :
 '
 )
+for
+flag
+in
 ldflags
 )
     
@@ -10082,7 +10100,7 @@ new
 in
 expansions
 .
-iteritems
+items
 (
 )
 :
@@ -10532,7 +10550,7 @@ value
 in
 envvar_dict
 .
-iteritems
+items
 (
 )
 :
@@ -11122,7 +11140,7 @@ environment
 arch
 )
 '
-wb
+w
 '
 )
     
@@ -11381,11 +11399,13 @@ no_specials
     
 missing
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+relative
+if
 not
 os
 .
@@ -11395,8 +11415,7 @@ exists
 (
 x
 )
-relative
-)
+]
     
 if
 missing

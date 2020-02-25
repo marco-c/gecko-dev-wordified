@@ -53,6 +53,10 @@ analyzer
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 json
 import
@@ -566,6 +570,7 @@ result
 :
     
 print
+(
 '
 unexpected
 error
@@ -577,6 +582,7 @@ get
 '
 error
 '
+)
 )
     
 test
@@ -594,6 +600,7 @@ result
 :
     
 print
+(
 '
 unexpected
 invalid_targets
@@ -606,6 +613,7 @@ get
 invalid_targets
 '
 )
+)
     
 test
 .
@@ -633,13 +641,13 @@ compile_targets
 :
     
 print
+(
 '
 actual
 compile_targets
 :
 '
 actual_compile_targets
-\
            
 '
 \
@@ -648,6 +656,7 @@ compile_targets
 :
 '
 compile_targets
+)
     
 test
 .
@@ -675,13 +684,13 @@ test_targets
 :
     
 print
+(
 '
 actual
 test_targets
 :
 '
 actual_test_targets
-\
            
 '
 \
@@ -690,6 +699,7 @@ test_targets
 :
 '
 test_targets
+)
     
 test
 .
@@ -712,6 +722,7 @@ found
 :
     
 print
+(
 '
 expected
 '
@@ -725,6 +736,7 @@ result
 status
 '
 ]
+)
     
 test
 .
@@ -748,6 +760,7 @@ not_found
 :
     
 print
+(
 '
 expected
 '
@@ -761,6 +774,7 @@ result
 status
 '
 ]
+)
     
 test
 .
@@ -794,6 +808,7 @@ result
 :
     
 print
+(
 '
 unexpected
 error
@@ -805,6 +820,7 @@ get
 '
 error
 '
+)
 )
     
 test
@@ -822,6 +838,7 @@ result
 :
     
 print
+(
 '
 unexpected
 invalid_targets
@@ -833,6 +850,7 @@ get
 '
 invalid_targets
 '
+)
 )
     
 test
@@ -854,6 +872,7 @@ found_all
 :
     
 print
+(
 '
 expected
 '
@@ -867,6 +886,7 @@ result
 status
 '
 ]
+)
     
 test
 .
@@ -1009,6 +1029,7 @@ expected_error_string
 :
     
 print
+(
 '
 actual
 error
@@ -1030,9 +1051,9 @@ nexpected
 error
 :
 '
-\
         
 expected_error_string
+)
     
 test
 .
@@ -1064,6 +1085,7 @@ expected_error_string
 :
     
 print
+(
 '
 actual
 stdout
@@ -1080,9 +1102,9 @@ nexpected
 stdout
 :
 '
-\
         
 expected_error_string
+)
     
 test
 .
@@ -1134,13 +1156,13 @@ expected_invalid_targets
 :
     
 print
+(
 '
 actual
 invalid_targets
 :
 '
 actual_invalid_targets
-\
         
 '
 \
@@ -1148,6 +1170,7 @@ nexpected
 :
 '
 expected_invalid_targets
+)
     
 test
 .

@@ -746,6 +746,16 @@ arch
 result_file
 ]
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+        
 for
 arch
 in

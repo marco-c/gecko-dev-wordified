@@ -1907,7 +1907,7 @@ configurations
 '
 )
 .
-iteritems
+items
 (
 )
 :

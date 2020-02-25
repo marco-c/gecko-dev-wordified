@@ -340,6 +340,15 @@ file
 p
 ]
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
     
 objtype
 =

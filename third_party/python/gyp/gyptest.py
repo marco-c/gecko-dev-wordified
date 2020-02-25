@@ -543,7 +543,7 @@ p
 for
 p
 in
-opts
+args
 .
 path
 ]

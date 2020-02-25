@@ -68,6 +68,10 @@ length
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 sys
 if
@@ -82,6 +86,7 @@ win32
 :
   
 print
+(
 "
 This
 test
@@ -100,6 +105,7 @@ com
 483696
 .
 "
+)
   
 sys
 .

@@ -58,6 +58,10 @@ X
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 re
 import
@@ -137,6 +141,15 @@ communicate
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 .
 strip
 (
@@ -231,6 +244,7 @@ None
 :
     
 print
+(
 '
 Ouput
 does
@@ -247,6 +261,7 @@ s
 pattern
 .
 pattern
+)
 )
     
 test
@@ -290,6 +305,7 @@ archs
 :
       
 print
+(
 '
 Expected
 file
@@ -320,6 +336,7 @@ archs
 )
 found_file
 found_archs
+)
 )
       
 test
@@ -400,6 +417,15 @@ lines
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 .
 split
 (
@@ -609,6 +635,33 @@ sdk
 ProductBuildVersion
 '
 ]
+)
+      
+self
+.
+_cache
+[
+'
+SDKBuild
+'
+]
+=
+self
+.
+_cache
+[
+'
+SDKBuild
+'
+]
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
       
 self

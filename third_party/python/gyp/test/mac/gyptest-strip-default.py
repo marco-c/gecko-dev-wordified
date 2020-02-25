@@ -60,6 +60,10 @@ generators
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -211,6 +215,15 @@ communicate
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
     
 #
 Filter
@@ -345,6 +358,7 @@ o_expected
 :
       
 print
+(
 '
 Stripping
 :
@@ -377,6 +391,7 @@ s
           
 o_expected
 o
+)
 )
       
 test

@@ -35,6 +35,10 @@ the
 LICENSE
 file
 .
+from
+__future__
+import
+print_function
 import
 collections
 import
@@ -83,8 +87,19 @@ import
 gyp
 .
 xcode_emulation
+try
+:
+  
 from
 cStringIO
+import
+StringIO
+except
+ImportError
+:
+  
+from
+io
 import
 StringIO
 from
@@ -3055,11 +3070,15 @@ assert
 targets
 =
 =
-filter
-(
-None
+[
+t
+for
+t
+in
 targets
-)
+if
+t
+]
 targets
     
 if
@@ -3796,19 +3815,27 @@ True
       
 actions_depends
 =
-filter
-(
-None
+[
+d
+for
+d
+in
 actions_depends
-)
+if
+d
+]
       
 compile_depends
 =
-filter
-(
-None
+[
+d
+for
+d
+in
 compile_depends
-)
+if
+d
+]
       
 actions_depends
 =
@@ -4021,6 +4048,7 @@ TypeError
 :
       
 print
+(
 '
 extra_sources
 :
@@ -4028,9 +4056,11 @@ extra_sources
 str
 (
 extra_sources
+)
 )
       
 print
+(
 '
 spec
 .
@@ -4051,6 +4081,7 @@ get
 '
 sources
 '
+)
 )
 )
       
@@ -4320,6 +4351,7 @@ else
 :
           
 print
+(
 "
 Warning
 :
@@ -4349,12 +4381,14 @@ s
 )
 "
 %
+                
 spec
 [
 '
 target_name
 '
 ]
+)
     
 elif
 self
@@ -5440,9 +5474,6 @@ self
 ExpandSpecial
 (
 depfile
-self
-.
-base_to_build
 )
       
 pool
@@ -7462,7 +7493,7 @@ arg_name
 in
 settings_to_arg
 .
-iteritems
+items
 (
 )
 :
@@ -16002,6 +16033,7 @@ stat
 .
 ullTotalPhys
 /
+/
 (
 5
 *
@@ -16168,6 +16200,7 @@ group
 )
 )
 /
+/
 (
 8
 *
@@ -16257,6 +16290,7 @@ max
 (
 1
 avail_bytes
+/
 /
 (
 4
@@ -17633,7 +17667,7 @@ os
 .
 environ
 .
-iteritems
+items
 (
 )
 :
@@ -17824,7 +17858,7 @@ sorted
 (
 cl_paths
 .
-iteritems
+items
 (
 )
 )
@@ -21623,6 +21657,19 @@ name
 toolset
 )
     
+qualified_target_for_hash
+=
+qualified_target_for_hash
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
+    
 hash_for_rules
 =
 hashlib
@@ -22175,6 +22222,7 @@ builddir
 ]
     
 print
+(
 '
 Building
 [
@@ -22189,6 +22237,7 @@ s
 (
 config
 arguments
+)
 )
     
 subprocess
@@ -22378,10 +22427,6 @@ target_list
 configurations
 '
 ]
-.
-keys
-(
-)
     
 if
 params
@@ -22442,6 +22487,7 @@ arglists
       
 except
 KeyboardInterrupt
+as
 e
 :
         

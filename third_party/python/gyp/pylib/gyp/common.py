@@ -2756,7 +2756,7 @@ fdopen
 (
 tmp_fd
 '
-wb
+w
 '
 )
       
@@ -2862,6 +2862,7 @@ False
         
 except
 OSError
+as
 e
 :
           
@@ -3048,7 +3049,7 @@ os
 .
 umask
 (
-077
+0o77
 )
           
 os
@@ -3065,7 +3066,7 @@ chmod
 self
 .
 tmp_path
-0666
+0o666
 &
 ~
 umask
@@ -3775,7 +3776,7 @@ os
 chmod
 (
 tool_path
-0755
+0o755
 )
 #
 From
@@ -4651,6 +4652,7 @@ node
 )
     
 print
+(
 TopologicallySorted
 (
 graph
@@ -4659,6 +4661,7 @@ keys
 (
 )
 GetEdges
+)
 )
     
 =

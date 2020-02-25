@@ -35,6 +35,10 @@ the
 LICENSE
 file
 .
+from
+__future__
+import
+print_function
 import
 filecmp
 import
@@ -932,6 +936,7 @@ True
     
 except
 OSError
+as
 e
 :
       
@@ -1486,7 +1491,7 @@ xcode_settings
 }
 )
 .
-iteritems
+items
 (
 )
 :
@@ -1602,7 +1607,7 @@ xcode_settings
 }
 )
 .
-iteritems
+items
 (
 )
 :
@@ -2257,7 +2262,7 @@ environment
 '
 )
 .
-iteritems
+items
 (
 )
 ]
@@ -3879,7 +3884,7 @@ fdopen
 (
 output_fd
 '
-wb
+w
 '
 )
       
@@ -3936,6 +3941,7 @@ False
       
 except
 OSError
+as
 e
 :
         
@@ -4120,7 +4126,7 @@ os
 .
 umask
 (
-077
+0o77
 )
         
 os
@@ -4135,7 +4141,7 @@ os
 chmod
 (
 new_pbxproj_path
-0666
+0o666
 &
 ~
 umask
@@ -4913,7 +4919,7 @@ build_file_dict
 in
 data
 .
-iteritems
+items
 (
 )
 :
@@ -5008,6 +5014,7 @@ config
 ]
     
 print
+(
 "
 Building
 [
@@ -5022,6 +5029,7 @@ s
 (
 config
 arguments
+)
 )
     
 subprocess
@@ -5412,7 +5420,7 @@ build_file_dict
 in
 data
 .
-iteritems
+items
 (
 )
 :
@@ -6236,6 +6244,8 @@ mac_bundle
 )
 or
 is_xctest
+or
+is_xcuitest
     
 is_app_extension
 =
@@ -6521,6 +6531,7 @@ type_bundle_key
       
 except
 KeyError
+as
 e
 :
         
@@ -9042,7 +9053,7 @@ open
 (
 makefile_path
 '
-wb
+w
 '
 )
         
@@ -9116,16 +9127,13 @@ n
         
 for
 concrete_output_index
+concrete_output_by_rule_source
 in
 \
             
-xrange
-(
-0
-len
+enumerate
 (
 concrete_outputs_by_rule_source
-)
 )
 :
           
@@ -9196,12 +9204,7 @@ concrete_outputs_all
           
 concrete_output
 =
-\
-              
-concrete_outputs_by_rule_source
-[
-concrete_output_index
-]
+concrete_output_by_rule_source
 [
 0
 ]
@@ -9326,23 +9329,15 @@ concrete_output_dirs
           
 for
 concrete_output_index
+concrete_output
 in
-xrange
-(
-0
-len
+\
+              
+enumerate
 (
 concrete_outputs
-)
 )
 :
-            
-concrete_output
-=
-concrete_outputs
-[
-concrete_output_index
-]
             
 if
 concrete_output_index
@@ -9474,23 +9469,13 @@ inputs
           
 for
 prerequisite_index
+prerequisite
 in
-xrange
-(
-0
-len
+enumerate
 (
 prerequisites
-)
 )
 :
-            
-prerequisite
-=
-prerequisites
-[
-prerequisite_index
-]
             
 if
 prerequisite_index
@@ -9729,143 +9714,6 @@ position
 .
         
 #
-Don
-'
-t
-declare
-any
-inputPaths
-or
-outputPaths
-.
-If
-they
-'
-re
-present
-        
-#
-Xcode
-will
-provide
-a
-slight
-optimization
-by
-only
-running
-the
-script
-        
-#
-phase
-if
-any
-output
-is
-missing
-or
-outdated
-relative
-to
-any
-input
-.
-        
-#
-Unfortunately
-it
-will
-also
-assume
-that
-all
-outputs
-are
-touched
-by
-        
-#
-the
-script
-and
-if
-the
-outputs
-serve
-as
-files
-in
-a
-compilation
-        
-#
-phase
-they
-will
-be
-unconditionally
-rebuilt
-.
-Since
-make
-might
-not
-        
-#
-rebuild
-everything
-that
-could
-be
-declared
-here
-as
-an
-output
-this
-        
-#
-extra
-compilation
-activity
-is
-unnecessary
-.
-With
-inputPaths
-and
-        
-#
-outputPaths
-not
-supplied
-make
-will
-always
-be
-called
-but
-it
-knows
-        
-#
-enough
-to
-not
-do
-anything
-when
-everything
-is
-up
--
-to
--
-date
-.
-        
-#
 To
 help
 speed
@@ -10040,6 +9888,17 @@ PBXShellScriptBuildPhase
 {
               
 '
+inputPaths
+'
+:
+rule
+[
+'
+rule_sources
+'
+]
+              
+'
 name
 '
 :
@@ -10058,6 +9917,12 @@ rule_name
 '
 "
 '
+              
+'
+outputPaths
+'
+:
+concrete_outputs_all
               
 '
 shellScript
@@ -11602,7 +11467,7 @@ xcode_settings
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -11656,7 +11521,7 @@ build_file_dict
 in
 data
 .
-iteritems
+items
 (
 )
 :
