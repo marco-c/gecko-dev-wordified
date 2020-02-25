@@ -752,7 +752,17 @@ name
 :
 device
 .
+rawName
+/
+/
+unfiltered
+device
 name
+to
+show
+to
+the
+user
 mediaSource
 :
 device
