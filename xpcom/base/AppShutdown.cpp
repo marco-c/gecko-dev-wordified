@@ -357,6 +357,15 @@ ShutdownPhase
 :
 ShutdownPostLastCycleCollection
 ;
+case
+2
+:
+return
+ShutdownPhase
+:
+:
+ShutdownThreads
+;
 /
 /
 NOTE
