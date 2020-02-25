@@ -561,6 +561,9 @@ inputValue
 :
 "
 "
+focused
+:
+false
 }
 ;
 }
