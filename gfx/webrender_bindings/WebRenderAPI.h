@@ -3945,7 +3945,7 @@ ItemKey
 aKey
 )
 ;
-bool
+void
 EndCachedItem
 (
 wr
