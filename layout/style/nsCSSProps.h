@@ -1979,13 +1979,6 @@ tables
 static
 const
 KTableEntry
-kFontSmoothingKTable
-[
-]
-;
-static
-const
-KTableEntry
 kTextAlignKTable
 [
 ]
