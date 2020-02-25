@@ -158,7 +158,7 @@ UTF
 )
 hybi
 .
-compute_accept
+compute_accept_from_unicode
 (
 request
 .
@@ -170,19 +170,7 @@ common
 .
 SEC_WEBSOCKET_KEY_HEADER
 )
-.
-encode
-(
-'
-UTF
--
-8
-'
 )
-)
-[
-0
-]
 )
     
 request
