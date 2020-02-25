@@ -948,6 +948,7 @@ text
 :
 {
 TextAlign
+TextAlignLast
 TextEmphasisPosition
 TextEmphasisStyle
 }
