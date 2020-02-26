@@ -580,6 +580,13 @@ PrincipalHandle
 >
 mPrincipalHandle
 ;
+AbstractCanonical
+<
+PrincipalHandle
+>
+*
+mCanonicalOutputPrincipal
+;
 const
 nsTArray
 <
