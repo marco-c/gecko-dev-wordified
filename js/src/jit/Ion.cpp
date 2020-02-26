@@ -8681,7 +8681,6 @@ integrity
 .
 check
 (
-false
 )
 )
 {
