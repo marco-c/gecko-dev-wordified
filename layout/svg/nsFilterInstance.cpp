@@ -1979,17 +1979,11 @@ wrShadow
 offset
 =
 {
-(
-float
-)
 shadow
 .
 mOffset
 .
 x
-(
-float
-)
 shadow
 .
 mOffset
