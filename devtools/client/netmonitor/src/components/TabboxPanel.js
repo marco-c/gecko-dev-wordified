@@ -377,6 +377,10 @@ src
 /
 components
 /
+request
+-
+details
+/
 SecurityPanel
 "
 )
