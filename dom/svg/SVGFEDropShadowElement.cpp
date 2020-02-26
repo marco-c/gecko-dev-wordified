@@ -680,8 +680,10 @@ FilterPrimitiveDescription
 )
 ;
 }
-Point
+IntPoint
 offset
+(
+int32_t
 (
 aInstance
 -
@@ -698,6 +700,9 @@ mNumberAttributes
 DX
 ]
 )
+)
+int32_t
+(
 aInstance
 -
 >
@@ -712,6 +717,7 @@ mNumberAttributes
 [
 DY
 ]
+)
 )
 )
 ;

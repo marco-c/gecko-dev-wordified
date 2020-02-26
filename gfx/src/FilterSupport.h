@@ -1137,7 +1137,7 @@ DropShadowAttributes
 Size
 mStdDeviation
 ;
-Point
+IntPoint
 mOffset
 ;
 Color
