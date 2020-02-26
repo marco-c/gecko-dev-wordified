@@ -2674,6 +2674,14 @@ addActorPool
 >
 {
 }
+getFrontByID
+:
+(
+)
+=
+>
+{
+}
 }
 manage
 :

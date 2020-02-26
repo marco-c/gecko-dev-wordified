@@ -2215,6 +2215,13 @@ actor
 ;
 }
 }
+await
+objClient
+.
+release
+(
+)
+;
 }
 await
 threadFront
