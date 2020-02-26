@@ -856,6 +856,9 @@ const
 nsACString
 &
 aRequestString
+HttpTransactionShell
+*
+aTransaction
 )
 ;
 static

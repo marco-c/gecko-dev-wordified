@@ -395,6 +395,8 @@ nsACString
 const
 nsACString
 &
+HttpTransactionShell
+*
 )
 >
 ;
