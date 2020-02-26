@@ -115,6 +115,9 @@ no_mangle
 ]
 pub
 extern
+"
+C
+"
 fn
 rust_demangle
 (
@@ -228,6 +231,9 @@ no_mangle
 ]
 pub
 extern
+"
+C
+"
 fn
 free_rust_demangled_name
 (
