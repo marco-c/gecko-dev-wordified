@@ -853,8 +853,11 @@ Ci
 nsICrashReporter
 )
 .
-setTelemetrySessionId
+annotateCrashReport
 (
+"
+TelemetrySessionId
+"
 sessionId
 )
 ;

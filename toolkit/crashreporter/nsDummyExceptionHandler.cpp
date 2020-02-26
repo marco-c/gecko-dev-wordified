@@ -724,16 +724,6 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void
-SetTelemetrySessionId
-(
-const
-nsACString
-&
-id
-)
-{
-}
-void
 DeleteMinidumpFilesForID
 (
 const

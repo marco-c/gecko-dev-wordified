@@ -497,15 +497,6 @@ nsIFile
 aFile
 )
 ;
-void
-SetTelemetrySessionId
-(
-const
-nsACString
-&
-id
-)
-;
 /
 *
 *
