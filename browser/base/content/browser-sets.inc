@@ -1541,9 +1541,6 @@ undoCloseWindow
 "
 /
 >
-#
-ifdef
-NIGHTLY_BUILD
 <
 command
 id
@@ -1561,8 +1558,16 @@ webrenderCapture
 )
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
+#
+ifdef
+NIGHTLY_BUILD
 <
 command
 id
@@ -4736,9 +4741,6 @@ __NUM_SELECT_TAB_MODIFIER__
 "
 /
 >
-#
-ifdef
-NIGHTLY_BUILD
 <
 key
 id
@@ -4781,6 +4783,9 @@ wrCaptureCmd
 "
 /
 >
+#
+ifdef
+NIGHTLY_BUILD
 <
 key
 id
