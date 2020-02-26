@@ -36194,7 +36194,7 @@ alloc
 )
 LCheckThis
 (
-useBox
+useBoxAtStart
 (
 thisValue
 )
@@ -36269,7 +36269,7 @@ alloc
 )
 LCheckThisReinit
 (
-useBox
+useBoxAtStart
 (
 thisValue
 )
