@@ -5,9 +5,7 @@ crate
 capabilities
 :
 :
-{
 AndroidOptions
-}
 ;
 use
 mozdevice
@@ -1568,13 +1566,13 @@ String
 =
 vec
 !
-(
+[
 CONFIG_FILE_HEADING
 .
 to_owned
 (
 )
-)
+]
 ;
 contents
 .

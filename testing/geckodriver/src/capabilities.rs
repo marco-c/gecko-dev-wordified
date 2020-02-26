@@ -2403,6 +2403,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -2426,6 +2427,7 @@ an
 object
 "
 )
+}
 )
 ?
 ;
@@ -2566,6 +2568,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -2583,6 +2586,7 @@ a
 string
 "
 )
+}
 )
 ?
 ;
@@ -2714,6 +2718,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -2732,6 +2737,7 @@ an
 array
 "
 )
+}
 )
 ?
 ;
@@ -2787,6 +2793,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -2805,6 +2812,7 @@ all
 strings
 "
 )
+}
 )
 ?
 ;
@@ -2878,6 +2886,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -2895,6 +2904,7 @@ an
 object
 "
 )
+}
 )
 ?
 ;
@@ -2946,6 +2956,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -2964,6 +2975,7 @@ a
 string
 "
 )
+}
 )
 ?
 .
@@ -3034,6 +3046,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3052,6 +3065,7 @@ an
 object
 "
 )
+}
 )
 ?
 ;
@@ -3088,6 +3102,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3106,6 +3121,7 @@ a
 string
 "
 )
+}
 )
 ?
 ;
@@ -3127,6 +3143,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3143,6 +3160,7 @@ is
 unknown
 "
 )
+}
 )
 ?
 )
@@ -3225,6 +3243,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3242,6 +3261,7 @@ an
 object
 "
 )
+}
 )
 ?
 ;
@@ -3356,6 +3376,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3373,6 +3394,7 @@ a
 string
 "
 )
+}
 )
 ?
 .
@@ -3412,7 +3434,6 @@ json
 )
 =
 >
-{
 Some
 (
 json
@@ -3425,6 +3446,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3442,6 +3464,7 @@ a
 string
 "
 )
+}
 )
 ?
 .
@@ -3449,7 +3472,6 @@ to_owned
 (
 )
 )
-}
 None
 =
 >
@@ -3476,7 +3498,6 @@ json
 )
 =
 >
-{
 Some
 (
 json
@@ -3489,6 +3510,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3506,6 +3528,7 @@ a
 string
 "
 )
+}
 )
 ?
 .
@@ -3513,7 +3536,6 @@ to_owned
 (
 )
 )
-}
 None
 =
 >
@@ -3554,6 +3576,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3571,6 +3594,7 @@ an
 array
 "
 )
+}
 )
 ?
 ;
@@ -3626,6 +3650,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -3644,6 +3669,7 @@ all
 strings
 "
 )
+}
 )
 ?
 ;
@@ -5774,7 +5800,6 @@ sort
 (
 )
 }
-;
 assert_eq
 !
 (
