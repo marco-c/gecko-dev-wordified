@@ -8568,6 +8568,9 @@ nullptr
 ;
 }
 }
+#
+ifdef
+DEBUG
 AllocationIntegrityState
 integrity
 (
@@ -8575,6 +8578,8 @@ integrity
 lir
 )
 ;
+#
+endif
 {
 AutoTraceLog
 log

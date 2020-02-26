@@ -180,6 +180,9 @@ jit
 class
 LIRGenerator
 ;
+#
+ifdef
+DEBUG
 /
 /
 Structure
@@ -884,6 +887,11 @@ dump
 ;
 }
 ;
+#
+endif
+/
+/
+DEBUG
 /
 /
 Represents

@@ -128,6 +128,9 @@ js
 :
 jit
 ;
+#
+ifdef
+DEBUG
 bool
 AllocationIntegrityState
 :
@@ -805,9 +808,6 @@ dump
 }
 #
 endif
-#
-ifdef
-DEBUG
 for
 (
 size_t
@@ -1143,8 +1143,6 @@ getReusedInput
 }
 }
 }
-#
-endif
 /
 /
 Check
@@ -3877,6 +3875,11 @@ n
 #
 endif
 }
+#
+endif
+/
+/
+DEBUG
 const
 CodePosition
 CodePosition
