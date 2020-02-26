@@ -2181,6 +2181,7 @@ SCInput
 JSContext
 *
 cx
+const
 JSStructuredCloneData
 &
 data
@@ -4089,6 +4090,7 @@ ReadStructuredClone
 JSContext
 *
 cx
+const
 JSStructuredCloneData
 &
 data
@@ -4235,6 +4237,7 @@ SCInput
 JSContext
 *
 cx
+const
 JSStructuredCloneData
 &
 data
@@ -18905,6 +18908,7 @@ JS_ReadStructuredClone
 JSContext
 *
 cx
+const
 JSStructuredCloneData
 &
 buf
