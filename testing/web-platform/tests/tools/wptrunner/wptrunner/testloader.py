@@ -130,6 +130,9 @@ __init__
 self
 total_chunks
 chunk_number
+*
+*
+kwargs
 )
 :
         
@@ -169,6 +172,12 @@ assert
 self
 .
 logger
+        
+self
+.
+kwargs
+=
+kwargs
     
 def
 __call__
@@ -224,6 +233,9 @@ __call__
 (
 self
 manifest
+*
+*
+kwargs
 )
 :
         
@@ -358,6 +370,19 @@ chunk_number
 -
 1
         
+depth
+=
+self
+.
+kwargs
+.
+get
+(
+"
+depth
+"
+)
+        
 for
 test_type
 test_path
@@ -365,6 +390,58 @@ tests
 in
 manifest
 :
+            
+if
+depth
+:
+                
+hash_path
+=
+os
+.
+path
+.
+sep
+.
+join
+(
+os
+.
+path
+.
+dirname
+(
+test_path
+)
+.
+split
+(
+os
+.
+path
+.
+sep
+depth
+)
+[
+:
+depth
+]
+)
+            
+else
+:
+                
+hash_path
+=
+os
+.
+path
+.
+dirname
+(
+test_path
+)
             
 h
 =
@@ -376,14 +453,7 @@ md5
 (
 ensure_binary
 (
-os
-.
-path
-.
-dirname
-(
-test_path
-)
+hash_path
 )
 )
 .
@@ -978,6 +1048,10 @@ True
 skip_timeout
 =
 False
+                 
+chunker_kwargs
+=
+None
 )
 :
         
@@ -1055,6 +1129,17 @@ chunk_number
 =
 chunk_number
         
+if
+chunker_kwargs
+is
+None
+:
+            
+chunker_kwargs
+=
+{
+}
+        
 self
 .
 chunker
@@ -1085,6 +1170,10 @@ chunk_type
 total_chunks
                                                                       
 chunk_number
+                                                                      
+*
+*
+chunker_kwargs
 )
         
 self
