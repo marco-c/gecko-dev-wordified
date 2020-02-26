@@ -2440,12 +2440,11 @@ sp
 )
 ;
 }
-static
-const
 Register
 getStackPointer
 (
 )
+const
 {
 return
 StackPointer
