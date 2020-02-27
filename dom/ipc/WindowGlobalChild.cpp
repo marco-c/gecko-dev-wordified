@@ -451,7 +451,7 @@ browsingContext
 (
 )
 .
-get
+GetMaybeDiscarded
 (
 )
 )
@@ -494,16 +494,7 @@ mBeforeUnloadListeners
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
-!
-aInit
-.
-browsingContext
-(
-)
-.
-IsNullOrDiscarded
-(
-)
+mBrowsingContext
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
