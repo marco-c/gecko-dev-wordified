@@ -785,10 +785,6 @@ type
 PageContext
 =
 "
-popup
-"
-|
-"
 devtools
 "
 |
