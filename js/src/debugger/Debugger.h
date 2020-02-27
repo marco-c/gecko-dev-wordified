@@ -3302,9 +3302,7 @@ mozilla
 :
 Variant
 <
-JSScript
-*
-LazyScript
+BaseScript
 *
 WasmInstanceObject
 *
