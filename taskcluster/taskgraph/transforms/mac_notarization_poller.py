@@ -615,6 +615,18 @@ on
 projects
 '
 :
+job
+.
+get
+(
+'
+run
+-
+on
+-
+projects
+'
+                                       
 dep_job
 .
 attributes
@@ -624,6 +636,7 @@ get
 '
 run_on_projects
 '
+)
 )
             
 '

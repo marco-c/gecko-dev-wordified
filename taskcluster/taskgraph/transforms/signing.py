@@ -478,6 +478,28 @@ text_type
 object
 }
     
+Optional
+(
+'
+run
+-
+on
+-
+projects
+'
+)
+:
+task_description_schema
+[
+'
+run
+-
+on
+-
+projects
+'
+]
+    
 #
 Optional
 control
@@ -1368,6 +1390,18 @@ on
 projects
 '
 :
+job
+.
+get
+(
+'
+run
+-
+on
+-
+projects
+'
+                                       
 dep_job
 .
 attributes
@@ -1377,6 +1411,7 @@ get
 '
 run_on_projects
 '
+)
 )
             
 '
