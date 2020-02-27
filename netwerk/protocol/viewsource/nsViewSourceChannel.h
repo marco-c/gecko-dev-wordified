@@ -185,13 +185,6 @@ h
 #
 include
 "
-nsIWrapperChannel
-.
-h
-"
-#
-include
-"
 nsIChildChannel
 .
 h
@@ -224,8 +217,6 @@ nsIFormPOSTActionChannel
 public
 nsIChildChannel
 public
-nsIWrapperChannel
-public
 nsIInterfaceRequestor
 public
 nsIChannelEventSink
@@ -241,7 +232,6 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIHTTPCHANNEL
 NS_DECL_NSICHILDCHANNEL
-NS_DECL_NSIWRAPPERCHANNEL
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 NS_FORWARD_SAFE_NSICACHEINFOCHANNEL
@@ -292,6 +282,10 @@ false
 mIsSrcdocChannel
 (
 false
+)
+mReplaceRequest
+(
+true
 )
 {
 }
@@ -539,6 +533,9 @@ mOpened
 ;
 bool
 mIsSrcdocChannel
+;
+bool
+mReplaceRequest
 ;
 }
 ;
