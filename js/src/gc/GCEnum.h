@@ -794,6 +794,11 @@ FinalizationGroupRecordVector
 \
 _
 (
+FinalizationGroupRecordSet
+)
+\
+_
+(
 FinalizationGroupRegistrations
 )
 \
