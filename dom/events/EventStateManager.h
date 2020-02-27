@@ -5817,15 +5817,6 @@ adjustment
 )
 ;
 nsresult
-GetContentViewer
-(
-nsIContentViewer
-*
-*
-aCv
-)
-;
-nsresult
 ChangeZoom
 (
 int32_t
