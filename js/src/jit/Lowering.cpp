@@ -35825,13 +35825,13 @@ thisVal
 )
 )
 ;
-assignSnapshot
+defineBox
 (
 lir
-Bailout_BadDerivedConstructorReturn
+ins
 )
 ;
-defineBox
+assignSafepoint
 (
 lir
 ins
