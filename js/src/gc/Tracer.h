@@ -1074,13 +1074,10 @@ traceChildren
 and
 /
 /
-js
+GCRuntime
 :
 :
-gc
-:
-:
-SweepLazyScripts
+sweepLazyScripts
 .
 /
 /
