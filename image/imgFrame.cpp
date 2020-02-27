@@ -5959,11 +5959,17 @@ aSurface
 :
 mParent
 (
+WrapNotNull
+(
 aParent
+)
 )
 mSurface
 (
+WrapNotNull
+(
 aSurface
+)
 )
 mType
 (
