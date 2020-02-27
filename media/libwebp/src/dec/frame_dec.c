@@ -7091,6 +7091,14 @@ if
 dec
 -
 >
+filter_type_
+>
+0
+&
+&
+dec
+-
+>
 mt_method_
 >
 0

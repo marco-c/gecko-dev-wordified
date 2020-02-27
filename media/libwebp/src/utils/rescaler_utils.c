@@ -892,6 +892,11 @@ width
 =
 =
 0
+&
+&
+src_height
+>
+0
 )
 {
 width
@@ -909,8 +914,8 @@ src_width
 height
 +
 src_height
-/
-2
+-
+1
 )
 /
 src_height
@@ -936,6 +941,11 @@ height
 =
 =
 0
+&
+&
+src_width
+>
+0
 )
 {
 height
@@ -953,8 +963,8 @@ src_height
 width
 +
 src_width
-/
-2
+-
+1
 )
 /
 src_width
