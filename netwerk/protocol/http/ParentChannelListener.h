@@ -120,6 +120,13 @@ mozilla_net_ParentChannelListener_h
 #
 include
 "
+nsIAuthPromptProvider
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -239,6 +246,8 @@ public
 nsIMultiPartChannelListener
 public
 nsINetworkInterceptController
+private
+nsIAuthPromptProvider
 {
 public
 :
@@ -248,6 +257,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
+NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 PARENT_CHANNEL_LISTENER
