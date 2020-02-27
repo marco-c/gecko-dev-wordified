@@ -968,7 +968,7 @@ MOZ_ASSERT
 aPrincipal
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >
@@ -987,6 +987,10 @@ PrincipalToPrincipalInfo
 (
 aPrincipal
 principalInfo
+.
+get
+(
+)
 )
 ;
 if

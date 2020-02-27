@@ -1096,10 +1096,12 @@ mHasOtherProcessObservers
 {
 mWriteAndNotifyInfos
 =
-new
+MakeUnique
+<
 nsTArray
 <
 LSWriteAndNotifyInfo
+>
 >
 (
 )
@@ -1109,8 +1111,10 @@ else
 {
 mWriteOptimizer
 =
-new
+MakeUnique
+<
 SnapshotWriteOptimizer
+>
 (
 )
 ;

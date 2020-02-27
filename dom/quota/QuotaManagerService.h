@@ -145,7 +145,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -381,10 +383,7 @@ EnsureBackgroundActor
 nsresult
 InitiateRequest
 (
-nsAutoPtr
-<
 PendingRequestInfo
->
 &
 aInfo
 )

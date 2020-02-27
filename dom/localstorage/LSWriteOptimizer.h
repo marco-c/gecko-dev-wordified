@@ -172,7 +172,7 @@ DeleteItemInfo
 class
 TruncateInfo
 ;
-nsAutoPtr
+UniquePtr
 <
 WriteInfo
 >

@@ -219,7 +219,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -949,7 +951,7 @@ for
 optimization
 purposes
 only
-nsAutoPtr
+UniquePtr
 <
 nsTHashtable
 <
@@ -1528,8 +1530,9 @@ virtual
 CacheParentBridge
 (
 )
-{
-}
+=
+default
+;
 /
 /
 LocalStorageCacheBridge
@@ -1715,8 +1718,9 @@ virtual
 UsageParentBridge
 (
 )
-{
-}
+=
+default
+;
 /
 /
 StorageUsageBridge

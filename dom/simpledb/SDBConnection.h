@@ -123,7 +123,9 @@ mozilla_dom_simpledb_SDBConnection_h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -222,7 +224,7 @@ nsISDBCloseCallback
 >
 mCloseCallback
 ;
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >
