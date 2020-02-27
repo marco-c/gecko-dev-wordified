@@ -3308,6 +3308,11 @@ Settings
 ;
 case
 "
+popup
+"
+:
+case
+"
 devtools
 "
 :
@@ -3881,6 +3886,11 @@ switch
 pageContext
 )
 {
+case
+"
+popup
+"
+:
 case
 "
 devtools
