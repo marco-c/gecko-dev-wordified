@@ -807,6 +807,15 @@ aOriginSuffix
 final
 ;
 NS_IMETHOD
+GetIsIpAddress
+(
+bool
+*
+aIsIpAddress
+)
+override
+;
+NS_IMETHOD
 GetIsOnion
 (
 bool
