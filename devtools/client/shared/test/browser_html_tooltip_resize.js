@@ -357,7 +357,7 @@ height
 ;
 tooltip
 .
-show
+updateContainerBounds
 (
 box1
 {
