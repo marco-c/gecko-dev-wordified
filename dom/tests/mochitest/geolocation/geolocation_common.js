@@ -531,7 +531,6 @@ dump
 (
 timestamp
 =
-{
 timestamp
 }
 \
