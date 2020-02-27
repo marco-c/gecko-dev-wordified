@@ -5119,9 +5119,6 @@ DebuggerScript
 ScriptWeakMap
 scripts
 ;
-ScriptWeakMap
-lazyScripts
-;
 using
 BaseScriptVector
 =
