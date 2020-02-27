@@ -170,13 +170,6 @@ WebGLVertexArray
 .
 h
 "
-#
-include
-"
-WebGLVertexAttribData
-.
-h
-"
 namespace
 mozilla
 {

@@ -117,13 +117,6 @@ h
 #
 include
 "
-WebGLVertexAttribData
-.
-h
-"
-#
-include
-"
 WebGLShader
 .
 h

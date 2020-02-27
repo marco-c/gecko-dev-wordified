@@ -582,16 +582,6 @@ mutable
 CachedDrawFetchLimits
 mScratchFetchLimits
 ;
-mutable
-CacheWeakMap
-<
-const
-WebGLVertexArray
-*
-CachedDrawFetchLimits
->
-mDrawFetchCache
-;
 public
 :
 const
