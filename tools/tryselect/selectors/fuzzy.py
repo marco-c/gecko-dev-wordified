@@ -88,6 +88,12 @@ base
 import
 MozbuildObject
 from
+mozbuild
+.
+util
+import
+ensure_subprocess_env
+from
 mozboot
 .
 util
@@ -2119,6 +2125,7 @@ subprocess
 .
 Popen
 (
+        
 cmd
 stdout
 =
@@ -2132,7 +2139,11 @@ subprocess
 PIPE
 env
 =
+ensure_subprocess_env
+(
 env
+)
+    
 )
     
 out
