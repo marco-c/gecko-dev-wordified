@@ -2956,6 +2956,7 @@ browser
 let
 ssb
 =
+await
 SiteSpecificBrowser
 .
 createFromManifest
