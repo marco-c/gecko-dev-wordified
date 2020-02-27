@@ -165,7 +165,7 @@ TimelineConsumers
 nsIObserver
 )
 ;
-StaticMutexNotRecorded
+StaticMutex
 TimelineConsumers
 :
 :

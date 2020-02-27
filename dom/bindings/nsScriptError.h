@@ -394,9 +394,6 @@ mInnerWindowID
 int64_t
 mTimeStamp
 ;
-uint64_t
-mTimeWarpTarget
-;
 /
 /
 mInitializedOnMainThread

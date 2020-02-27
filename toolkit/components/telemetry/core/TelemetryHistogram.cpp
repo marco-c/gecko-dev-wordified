@@ -351,13 +351,13 @@ using
 mozilla
 :
 :
-StaticMutexAutoLock
+StaticMutex
 ;
 using
 mozilla
 :
 :
-StaticMutexNotRecorded
+StaticMutexAutoLock
 ;
 using
 mozilla
@@ -1257,7 +1257,7 @@ in
 BloatView
 .
 static
-StaticMutexNotRecorded
+StaticMutex
 gTelemetryHistogramMutex
 ;
 /

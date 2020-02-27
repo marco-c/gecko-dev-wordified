@@ -861,7 +861,7 @@ data
 structures
 .
 static
-StaticMutexNotRecorded
+StaticMutex
 sMutex
 ;
 }

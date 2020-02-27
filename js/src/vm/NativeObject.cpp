@@ -1247,16 +1247,6 @@ mozilla
 :
 :
 Relaxed
-mozilla
-:
-:
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 gShapeConsistencyChecksEnabled
 (
