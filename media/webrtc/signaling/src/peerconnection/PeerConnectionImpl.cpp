@@ -16059,15 +16059,6 @@ ssrcval
 )
 ;
 }
-RTCInboundRtpStreamStats
-mInboundRtp
-;
-nsTArray
-<
-RTCRTPContributingSourceStats
->
-mCsrcs
-;
 /
 /
 First
