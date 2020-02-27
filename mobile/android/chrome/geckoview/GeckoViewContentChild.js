@@ -1555,6 +1555,14 @@ removeEventListener
 pageshow
 "
 scrollRestore
+{
+capture
+:
+true
+mozSystemGroup
+:
+true
+}
 )
 ;
 }
