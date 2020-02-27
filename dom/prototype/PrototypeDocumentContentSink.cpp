@@ -6959,7 +6959,10 @@ mL10nProtoElements
 Put
 (
 result
+RefPtr
+{
 aPrototype
+}
 )
 ;
 result

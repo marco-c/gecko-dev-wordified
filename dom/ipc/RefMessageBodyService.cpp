@@ -351,7 +351,13 @@ mMessages
 Put
 (
 uuid
+std
+:
+:
+move
+(
 body
+)
 )
 ;
 return

@@ -2992,7 +2992,15 @@ aRequest
 -
 >
 mURI
-nullptr
+RefPtr
+<
+GenericNonExclusivePromise
+:
+:
+Private
+>
+{
+}
 )
 ;
 }
@@ -3171,7 +3179,10 @@ aRequest
 -
 >
 mURI
+RefPtr
+{
 moduleScript
+}
 )
 ;
 if

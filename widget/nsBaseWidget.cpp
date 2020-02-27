@@ -14927,7 +14927,10 @@ sPluginWidgetList
 Put
 (
 id
+RefPtr
+{
 this
+}
 )
 ;
 #

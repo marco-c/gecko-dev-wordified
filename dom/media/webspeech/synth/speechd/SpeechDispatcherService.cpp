@@ -2197,8 +2197,10 @@ mVoices
 Put
 (
 uri
-new
+MakeRefPtr
+<
 SpeechDispatcherVoice
+>
 (
 NS_ConvertUTF8toUTF16
 (
@@ -2859,7 +2861,13 @@ mCallbacks
 Put
 (
 msg_id
+std
+:
+:
+move
+(
 callback
+)
 )
 ;
 }

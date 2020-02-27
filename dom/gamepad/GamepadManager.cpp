@@ -1375,7 +1375,13 @@ mGamepads
 Put
 (
 newIndex
+std
+:
+:
+move
+(
 gamepad
+)
 )
 ;
 NewConnectionEvent

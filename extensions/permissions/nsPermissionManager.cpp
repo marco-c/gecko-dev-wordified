@@ -20043,7 +20043,15 @@ mPermissionKeyPromiseMap
 Put
 (
 aPermissionKey
-nullptr
+RefPtr
+<
+GenericNonExclusivePromise
+:
+:
+Private
+>
+{
+}
 )
 ;
 /
@@ -21273,7 +21281,10 @@ pair
 first
 (
 )
+RefPtr
+{
 promise
+}
 )
 ;
 }

@@ -21614,7 +21614,10 @@ mGetFilesPendingRequests
 Put
 (
 aUUID
+RefPtr
+{
 aChild
+}
 )
 ;
 }

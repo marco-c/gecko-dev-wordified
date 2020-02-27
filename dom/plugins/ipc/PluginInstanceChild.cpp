@@ -15169,7 +15169,13 @@ mDirectBitmaps
 Put
 (
 surface
+std
+:
+:
+move
+(
 holder
+)
 )
 ;
 return

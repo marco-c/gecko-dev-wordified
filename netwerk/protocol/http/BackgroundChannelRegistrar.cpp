@@ -450,7 +450,10 @@ mChannels
 Put
 (
 aKey
+RefPtr
+{
 aChannel
+}
 )
 ;
 return
@@ -524,7 +527,10 @@ mBgChannels
 Put
 (
 aKey
+RefPtr
+{
 aBgChannel
+}
 )
 ;
 return

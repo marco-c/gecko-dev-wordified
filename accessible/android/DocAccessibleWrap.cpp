@@ -964,7 +964,10 @@ acc
 UniqueID
 (
 )
+RefPtr
+{
 acc
+}
 )
 ;
 }
@@ -1837,7 +1840,10 @@ acc
 UniqueID
 (
 )
+RefPtr
+{
 acc
+}
 )
 ;
 }
@@ -1929,7 +1935,10 @@ acc
 UniqueID
 (
 )
+RefPtr
+{
 acc
+}
 )
 ;
 }

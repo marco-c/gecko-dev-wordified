@@ -607,7 +607,13 @@ mDiscoveryMap
 Put
 (
 aListener
+std
+:
+:
+move
+(
 browserOp
+)
 )
 ;
 req
@@ -806,7 +812,13 @@ mRegisterMap
 Put
 (
 aListener
+std
+:
+:
+move
+(
 registerOp
+)
 )
 ;
 req

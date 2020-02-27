@@ -6887,7 +6887,10 @@ mTempGMPStorage
 Put
 (
 aNodeId
+RefPtr
+{
 s
+}
 )
 ;
 }

@@ -1816,8 +1816,11 @@ mAttributeCache
 Put
 (
 attrkey
+RefPtr
+{
 &
 aAttr
+}
 )
 ;
 aAttr

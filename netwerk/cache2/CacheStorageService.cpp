@@ -5952,7 +5952,10 @@ aEntries
 Put
 (
 aKey
+RefPtr
+{
 aEntry
+}
 )
 ;
 return
@@ -8955,7 +8958,10 @@ entries
 Put
 (
 entryKey
+RefPtr
+{
 entry
+}
 )
 ;
 LOG

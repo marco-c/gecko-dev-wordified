@@ -3579,7 +3579,10 @@ mStreamTransactionHash
 Put
 (
 aHttpTransaction
+RefPtr
+{
 stream
+}
 )
 ;
 mReadyForWrite
@@ -4288,7 +4291,10 @@ Put
 (
 *
 aStreamId
+RefPtr
+{
 aStream
+}
 )
 ;
 mHttp3Connection

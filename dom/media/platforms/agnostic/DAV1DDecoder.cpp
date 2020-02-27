@@ -795,7 +795,10 @@ aSample
 Data
 (
 )
+RefPtr
+{
 aSample
+}
 )
 ;
 Dav1dData

@@ -576,7 +576,10 @@ mDrawTargets
 Put
 (
 aRefPtr
+RefPtr
+{
 aDT
+}
 )
 ;
 }
@@ -596,7 +599,10 @@ mPaths
 Put
 (
 aRefPtr
+RefPtr
+{
 aPath
+}
 )
 ;
 }
@@ -616,7 +622,10 @@ mSourceSurfaces
 Put
 (
 aRefPtr
+RefPtr
+{
 aSurface
+}
 )
 ;
 }
@@ -636,7 +645,10 @@ mFilterNodes
 Put
 (
 aRefPtr
+RefPtr
+{
 aFilter
+}
 )
 ;
 }
@@ -656,7 +668,10 @@ mGradientStops
 Put
 (
 aRefPtr
+RefPtr
+{
 aStops
+}
 )
 ;
 }
@@ -676,7 +691,10 @@ mScaledFonts
 Put
 (
 aRefPtr
+RefPtr
+{
 aScaledFont
+}
 )
 ;
 }
@@ -696,7 +714,10 @@ mUnscaledFonts
 Put
 (
 aRefPtr
+RefPtr
+{
 aUnscaledFont
+}
 )
 ;
 }
@@ -716,7 +737,10 @@ mNativeFontResources
 Put
 (
 aKey
+RefPtr
+{
 aScaledFontResouce
+}
 )
 ;
 }

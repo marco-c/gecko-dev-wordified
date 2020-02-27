@@ -3908,7 +3908,10 @@ mFontSubstitutes
 Put
 (
 substitute
+RefPtr
+{
 ff
+}
 )
 ;
 }
@@ -4044,7 +4047,10 @@ mFontSubstitutes
 Put
 (
 substitute
+RefPtr
+{
 ff
+}
 )
 ;
 }
@@ -4273,7 +4279,10 @@ mFontFamilies
 Put
 (
 key
+RefPtr
+{
 family
+}
 )
 ;
 /

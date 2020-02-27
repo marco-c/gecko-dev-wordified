@@ -2725,7 +2725,10 @@ mImportHandlers
 Put
 (
 aURI
+RefPtr
+{
 aHandler
+}
 )
 ;
 }

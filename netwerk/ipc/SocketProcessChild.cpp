@@ -1153,8 +1153,10 @@ mSocketProcessBridgeParentMap
 Put
 (
 aContentProcessId
-new
+MakeRefPtr
+<
 SocketProcessBridgeParent
+>
 (
 aContentProcessId
 std

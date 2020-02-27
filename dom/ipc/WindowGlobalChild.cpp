@@ -3253,7 +3253,10 @@ mWindowActors
 Put
 (
 aName
+RefPtr
+{
 actor
+}
 )
 ;
 return

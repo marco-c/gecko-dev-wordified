@@ -10282,7 +10282,10 @@ mFontFamilies
 Put
 (
 name
+RefPtr
+{
 fam
+}
 )
 ;
 /
@@ -10915,7 +10918,10 @@ mFontSubstitutes
 Put
 (
 substituteName
+RefPtr
+{
 ff
+}
 )
 ;
 }
@@ -11221,7 +11227,10 @@ mFontSubstitutes
 Put
 (
 substituteName
+RefPtr
+{
 ff
+}
 )
 ;
 }
