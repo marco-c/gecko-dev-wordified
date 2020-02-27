@@ -411,6 +411,9 @@ CodeGenerator
 class
 LazyLinkExitFrameLayout
 ;
+class
+WarpSnapshot
+;
 MOZ_MUST_USE
 bool
 OptimizeMIR
@@ -448,6 +451,9 @@ CompileBackEnd
 MIRGenerator
 *
 mir
+WarpSnapshot
+*
+snapshot
 )
 ;
 void
