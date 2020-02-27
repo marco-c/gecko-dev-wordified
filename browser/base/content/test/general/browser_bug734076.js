@@ -763,9 +763,7 @@ browsingContext
 =
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 test
 .

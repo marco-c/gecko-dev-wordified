@@ -764,9 +764,7 @@ linkedBrowser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]
@@ -872,9 +870,7 @@ linkedBrowser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]
@@ -981,9 +977,7 @@ linkedBrowser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]

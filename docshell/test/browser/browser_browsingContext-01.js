@@ -643,9 +643,7 @@ is
 (
 browsingContext1
 .
-getChildren
-(
-)
+children
 .
 indexOf
 (
@@ -1243,9 +1241,7 @@ docShell
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]
