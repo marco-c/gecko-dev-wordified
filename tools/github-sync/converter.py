@@ -1374,10 +1374,21 @@ touch
 the
 target
 code
-and
 are
 not
 merges
+#
+and
+are
+not
+referenced
+by
+mozilla
+tags
+in
+the
+git
+repo
 .
 #
 We
@@ -1472,6 +1483,14 @@ parents
 )
 >
 1
+:
+                
+continue
+            
+if
+parent_rev
+in
+hg_to_git_commit_map
 :
                 
 continue
