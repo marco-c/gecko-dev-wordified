@@ -169,6 +169,17 @@ dependency
 job
 [
 '
+depname
+'
+]
+=
+dep_job
+.
+label
+        
+job
+[
+'
 attributes
 '
 ]
@@ -213,6 +224,31 @@ kind
         
 )
         
+task_type
+=
+'
+build
+'
+        
+if
+'
+notarization
+'
+in
+job
+[
+'
+depname
+'
+]
+:
+            
+task_type
+=
+'
+scriptworker
+'
+        
 job
 [
 '
@@ -245,12 +281,9 @@ reference
 .
 format
 (
-job
-[
-'
-depname
-'
-]
+dep_job
+.
+kind
 )
 }
             
@@ -258,9 +291,7 @@ depname
 taskType
 '
 :
-'
-build
-'
+task_type
             
 '
 paths
