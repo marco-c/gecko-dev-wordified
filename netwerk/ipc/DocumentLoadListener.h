@@ -249,6 +249,9 @@ mozilla
 namespace
 net
 {
+class
+LoadInfo
+;
 /
 *
 *
@@ -531,14 +534,9 @@ aBrowser
 nsDocShellLoadState
 *
 aLoadState
-class
 LoadInfo
 *
 aLoadInfo
-const
-nsString
-*
-aInitiatorType
 nsLoadFlags
 aLoadFlags
 uint32_t

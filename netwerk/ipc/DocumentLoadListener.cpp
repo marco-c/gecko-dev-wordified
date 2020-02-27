@@ -1704,14 +1704,9 @@ aBrowser
 nsDocShellLoadState
 *
 aLoadState
-class
 LoadInfo
 *
 aLoadInfo
-const
-nsString
-*
-aInitiatorType
 nsLoadFlags
 aLoadFlags
 uint32_t
@@ -1811,7 +1806,6 @@ aLoadState
 aLoadInfo
 mParentChannelListener
 nullptr
-aInitiatorType
 aLoadFlags
 aLoadType
 aCacheKey

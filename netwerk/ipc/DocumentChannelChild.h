@@ -207,10 +207,6 @@ class
 LoadInfo
 *
 aLoadInfo
-const
-nsString
-*
-aInitiatorType
 nsLoadFlags
 aLoadFlags
 uint32_t

@@ -3225,10 +3225,6 @@ aCallbacks
 nsDocShell
 *
 aDocShell
-const
-nsString
-*
-aInitiatorType
 nsLoadFlags
 aLoadFlags
 uint32_t

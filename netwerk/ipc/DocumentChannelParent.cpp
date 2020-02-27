@@ -343,16 +343,6 @@ loadState
 loadInfo
 aArgs
 .
-initiatorType
-(
-)
-.
-ptrOr
-(
-nullptr
-)
-aArgs
-.
 loadFlags
 (
 )
