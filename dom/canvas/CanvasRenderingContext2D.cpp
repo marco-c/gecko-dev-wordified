@@ -17070,6 +17070,8 @@ return
 false
 ;
 }
+if
+(
 nsFocusManager
 *
 fm
@@ -17080,10 +17082,6 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
 /

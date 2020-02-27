@@ -4457,6 +4457,8 @@ nsIContent
 aContentToFocus
 bool
 aWindowShouldShowFocusRing
+int32_t
+aFlags
 bool
 aGettingFocus
 )

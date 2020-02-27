@@ -374,6 +374,17 @@ _
 )
 (
 "
+focus
+-
+visible
+"
+FocusVisible
+focusVisible
+IN_FOCUS_VISIBLE_STATE
+_
+)
+(
+"
 hover
 "
 Hover
