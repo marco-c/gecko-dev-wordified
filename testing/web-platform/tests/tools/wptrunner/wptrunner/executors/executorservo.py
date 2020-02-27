@@ -2002,6 +2002,26 @@ run
 (
 )
         
+#
+Ensure
+that
+no
+processes
+hang
+around
+if
+they
+timeout
+.
+        
+self
+.
+proc
+.
+kill
+(
+)
+        
 if
 success
 :
