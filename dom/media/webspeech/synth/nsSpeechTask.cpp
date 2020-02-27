@@ -195,14 +195,13 @@ dom
 /
 /
 nsSpeechTask
-NS_IMPL_CYCLE_COLLECTION
+NS_IMPL_CYCLE_COLLECTION_WEAK
 (
 nsSpeechTask
 mSpeechSynthesis
 mUtterance
 mCallback
 )
-;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsSpeechTask

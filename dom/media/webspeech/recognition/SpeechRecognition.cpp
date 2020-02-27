@@ -773,7 +773,7 @@ recognitionService
 /
 /
 namespace
-NS_IMPL_CYCLE_COLLECTION_INHERITED
+NS_IMPL_CYCLE_COLLECTION_WEAK_PTR_INHERITED
 (
 SpeechRecognition
 DOMEventTargetHelper
