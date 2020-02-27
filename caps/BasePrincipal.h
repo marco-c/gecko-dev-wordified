@@ -921,17 +921,6 @@ aAsciiHost
 )
 override
 ;
-NS_IMETHOD
-AllowsRelaxStrictFileOriginPolicy
-(
-nsIURI
-*
-aURI
-bool
-*
-aRes
-)
-;
 nsresult
 ToJSON
 (
