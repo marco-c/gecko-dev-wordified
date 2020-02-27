@@ -5141,9 +5141,7 @@ push
 .
 bc
 .
-getChildren
-(
-)
+children
 )
 ;
 if

@@ -367,9 +367,7 @@ selectedBrowser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]
@@ -772,9 +770,7 @@ selectedBrowser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]
