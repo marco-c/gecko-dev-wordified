@@ -453,10 +453,7 @@ class
 NurseryDecommitTask
 :
 public
-GCParallelTaskHelper
-<
-NurseryDecommitTask
->
+GCParallelTask
 {
 public
 :
@@ -471,7 +468,7 @@ GCRuntime
 gc
 )
 :
-GCParallelTaskHelper
+GCParallelTask
 (
 gc
 )
@@ -526,6 +523,7 @@ void
 run
 (
 )
+override
 ;
 void
 decommitChunk

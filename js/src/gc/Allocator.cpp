@@ -5912,7 +5912,7 @@ ChunkPool
 pool
 )
 :
-GCParallelTaskHelper
+GCParallelTask
 (
 gc
 )
