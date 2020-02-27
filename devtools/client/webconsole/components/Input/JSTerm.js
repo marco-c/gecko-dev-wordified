@@ -8049,9 +8049,6 @@ container
 devtools
 -
 input
-devtools
--
-monospace
 "
 key
 :
