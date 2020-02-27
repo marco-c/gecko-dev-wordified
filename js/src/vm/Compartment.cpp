@@ -1799,6 +1799,12 @@ IsWindowProxy
 (
 obj
 )
+|
+|
+IsDOMRemoteProxyObject
+(
+obj
+)
 )
 ;
 /
