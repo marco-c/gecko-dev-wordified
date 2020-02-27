@@ -159,7 +159,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1441,7 +1443,7 @@ removed
 or
 retargeted
 )
-nsAutoPtr
+UniquePtr
 <
 SMILCompositorTable
 >

@@ -123,13 +123,6 @@ __NS_SVGCLASS_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -312,7 +305,7 @@ aSVGElement
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 nsString
 >

@@ -123,13 +123,6 @@ SVGTransformableElement_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGAnimatedTransformList
 .
 h
@@ -169,6 +162,15 @@ mozilla
 gfx
 /
 Matrix
+.
+h
+"
+#
+include
+"
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -530,7 +532,7 @@ SVGAnimatedTransformList
 aTransforms
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGAnimatedTransformList
 >
@@ -554,7 +556,7 @@ un
 animated
 elems
 ?
-nsAutoPtr
+UniquePtr
 <
 gfx
 :

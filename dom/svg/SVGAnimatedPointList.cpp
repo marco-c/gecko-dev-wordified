@@ -915,8 +915,10 @@ mAnimVal
 {
 mAnimVal
 =
-new
+MakeUnique
+<
 SVGPointList
+>
 (
 )
 ;

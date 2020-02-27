@@ -3044,7 +3044,7 @@ Create
 the
 compositor
 table
-nsAutoPtr
+UniquePtr
 <
 SMILCompositorTable
 >
@@ -3124,6 +3124,10 @@ AddAnimationToCompositorTable
 (
 animElem
 currentCompositorTable
+.
+get
+(
+)
 isStyleFlushNeeded
 )
 ;
@@ -3647,10 +3651,12 @@ compositor
 table
 mLastCompositorTable
 =
-currentCompositorTable
-.
-forget
+std
+:
+:
+move
 (
+currentCompositorTable
 )
 ;
 mMightHavePendingStyleUpdates

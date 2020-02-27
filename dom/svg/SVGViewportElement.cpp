@@ -2280,6 +2280,10 @@ userToParent
 GetUserToParentTransform
 (
 mAnimateMotionTransform
+.
+get
+(
+)
 GetTransformInternal
 (
 )

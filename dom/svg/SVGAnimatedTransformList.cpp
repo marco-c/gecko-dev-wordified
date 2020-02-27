@@ -886,8 +886,10 @@ mAnimVal
 {
 mAnimVal
 =
-new
+MakeUnique
+<
 SVGTransformList
+>
 (
 )
 ;

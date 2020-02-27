@@ -864,8 +864,10 @@ mAnimVal
 {
 mAnimVal
 =
-new
+MakeUnique
+<
 SVGPathData
+>
 (
 )
 ;

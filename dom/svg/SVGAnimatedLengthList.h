@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGLengthList
 .
 h
@@ -572,7 +565,7 @@ to
 SVGLengthList
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGLengthList
 >

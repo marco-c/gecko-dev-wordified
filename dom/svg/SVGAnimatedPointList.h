@@ -150,13 +150,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGPointList
 .
 h
@@ -682,7 +675,7 @@ to
 SVGPointList
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGPointList
 >

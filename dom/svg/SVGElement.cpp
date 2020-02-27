@@ -980,8 +980,10 @@ mClassAnimAttr
 {
 mClassAnimAttr
 =
-new
+MakeUnique
+<
 nsAttrValue
+>
 (
 )
 ;

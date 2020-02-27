@@ -228,7 +228,7 @@ mViewBox
 SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGAnimatedTransformList
 >
@@ -1493,7 +1493,7 @@ svg
 elements
 )
 .
-nsAutoPtr
+UniquePtr
 <
 SMILTimeContainer
 >
@@ -1629,13 +1629,13 @@ non
 -
 null
 .
-nsAutoPtr
+UniquePtr
 <
 nsString
 >
 mCurrentViewID
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGView
 >

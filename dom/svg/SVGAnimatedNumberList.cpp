@@ -711,8 +711,10 @@ mAnimVal
 {
 mAnimVal
 =
-new
+MakeUnique
+<
 SVGNumberList
+>
 (
 )
 ;

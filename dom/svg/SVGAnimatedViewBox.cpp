@@ -662,6 +662,10 @@ SVGViewBox
 rect
 =
 mAnimVal
+.
+get
+(
+)
 ;
 if
 (
@@ -764,8 +768,10 @@ reporting
 that
 mAnimVal
 =
-new
+MakeUnique
+<
 SVGViewBox
+>
 (
 aRect
 )
