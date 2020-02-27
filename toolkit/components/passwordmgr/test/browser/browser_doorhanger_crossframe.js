@@ -513,7 +513,9 @@ innerFrameBC
 =
 outerFrameBC
 .
-children
+getChildren
+(
+)
 [
 0
 ]
@@ -814,7 +816,9 @@ innerFrameBC2
 =
 outerFrameBC2
 .
-children
+getChildren
+(
+)
 [
 0
 ]
@@ -1094,7 +1098,9 @@ innerFrameBC3
 =
 outerFrameBC3
 .
-children
+getChildren
+(
+)
 [
 0
 ]

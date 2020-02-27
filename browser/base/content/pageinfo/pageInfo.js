@@ -2689,7 +2689,9 @@ push
 .
 currContext
 .
-children
+getChildren
+(
+)
 )
 ;
 }

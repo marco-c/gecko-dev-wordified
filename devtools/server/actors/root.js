@@ -4121,7 +4121,9 @@ return
 (
 parentBrowsingContext
 .
-children
+getChildren
+(
+)
 /
 /
 For
@@ -4312,7 +4314,9 @@ push
 .
 currentContext
 .
-children
+getChildren
+(
+)
 )
 ;
 }
