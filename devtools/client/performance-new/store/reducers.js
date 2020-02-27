@@ -1034,11 +1034,6 @@ setRecordingPreferences
 action
 .
 setRecordingPreferences
-presets
-:
-action
-.
-presets
 pageContext
 :
 action

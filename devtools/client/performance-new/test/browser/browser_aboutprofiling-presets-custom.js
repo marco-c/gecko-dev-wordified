@@ -128,7 +128,7 @@ return
 ;
 }
 await
-withAboutProfiling
+openAboutProfiling
 (
 async
 document

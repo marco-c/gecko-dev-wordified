@@ -503,7 +503,6 @@ browser
 const
 {
 getDefaultRecordingPreferencesForOlderFirefox
-presets
 }
 =
 ChromeUtils
@@ -886,7 +885,6 @@ initializeStore
 perfFront
 receiveProfile
 recordingPreferences
-presets
 supportedFeatures
 pageContext
 :

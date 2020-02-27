@@ -140,7 +140,6 @@ makeSureProfilerPopupIsEnabled
 (
 )
 ;
-await
 toggleOpenProfilerPopup
 (
 )
@@ -150,12 +149,11 @@ const
 button
 =
 await
-getElementByLabel
+getElementFromPopupByText
 (
-document
 "
 Start
-Recording
+recording
 "
 )
 ;
@@ -184,11 +182,11 @@ const
 button
 =
 await
-getElementByLabel
+getElementFromPopupByText
 (
-document
 "
 Capture
+recording
 "
 )
 ;
