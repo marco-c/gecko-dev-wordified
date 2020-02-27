@@ -188,6 +188,8 @@ const
 nsString
 &
 fileName
+bool
+collectAdditionalExtensionData
 )
 ;
 static
