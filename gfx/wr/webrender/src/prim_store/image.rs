@@ -2916,6 +2916,9 @@ SegmentInstanceIndex
 :
 :
 INVALID
+is_compositor_surface
+:
+false
 }
 }
 }
