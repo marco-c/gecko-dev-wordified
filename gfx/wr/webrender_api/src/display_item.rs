@@ -2269,6 +2269,9 @@ LayoutVector2D
 /
 A
 solid
+or
+an
+animating
 color
 to
 draw
@@ -2309,7 +2312,10 @@ CommonItemProperties
 pub
 color
 :
+PropertyBinding
+<
 ColorF
+>
 }
 /
 /
