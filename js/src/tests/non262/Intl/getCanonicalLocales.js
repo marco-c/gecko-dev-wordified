@@ -236,7 +236,9 @@ u
 -
 ca
 -
-islamicc
+islamic
+-
+civil
 '
 ]
 )
