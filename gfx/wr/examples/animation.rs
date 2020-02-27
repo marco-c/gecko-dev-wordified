@@ -1167,12 +1167,6 @@ self
 opacity
 }
 ]
-colors
-:
-vec
-!
-[
-]
 }
 )
 ;
