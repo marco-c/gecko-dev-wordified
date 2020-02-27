@@ -209,9 +209,9 @@ ValueError
 parse
 (
 '
-defaults
--
 invalid
+-
+defaults
 .
 list
 '
