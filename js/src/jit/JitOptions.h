@@ -317,6 +317,9 @@ typeInference
 #
 endif
 bool
+warpBuilder
+;
+bool
 jitForTrustedPrincipals
 ;
 bool
