@@ -202,17 +202,6 @@ Vector
 #
 include
 <
-functional
->
-/
-/
-std
-:
-:
-function
-#
-include
-<
 stddef
 .
 h

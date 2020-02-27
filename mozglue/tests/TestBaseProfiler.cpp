@@ -15059,6 +15059,13 @@ Atomic
 <
 bool
 Relaxed
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 sStopFibonacci
 ;

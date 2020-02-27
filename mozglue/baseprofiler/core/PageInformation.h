@@ -514,6 +514,13 @@ MemoryOrdering
 :
 :
 ReleaseAcquire
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 mRefCnt
 ;

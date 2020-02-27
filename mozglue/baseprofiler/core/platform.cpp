@@ -6358,6 +6358,13 @@ MemoryOrdering
 :
 :
 Relaxed
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 RacyFeatures
 :

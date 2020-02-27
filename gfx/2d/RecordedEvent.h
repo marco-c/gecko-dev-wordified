@@ -145,11 +145,6 @@ cstring
 #
 include
 <
-functional
->
-#
-include
-<
 vector
 >
 #

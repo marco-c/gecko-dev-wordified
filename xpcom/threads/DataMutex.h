@@ -753,7 +753,7 @@ class
 StaticMutexNameless
 :
 public
-StaticMutex
+StaticMutexNotRecorded
 {
 public
 :
@@ -766,7 +766,7 @@ char
 aName
 )
 :
-StaticMutex
+StaticMutexNotRecorded
 (
 )
 {

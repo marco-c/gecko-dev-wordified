@@ -2013,6 +2013,13 @@ MemoryOrdering
 :
 :
 Relaxed
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 sActiveAndFeatures
 ;
@@ -9119,6 +9126,13 @@ MemoryOrdering
 :
 :
 ReleaseAcquire
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 mRefCnt
 ;

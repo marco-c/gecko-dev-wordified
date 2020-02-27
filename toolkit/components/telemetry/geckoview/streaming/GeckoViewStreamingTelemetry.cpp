@@ -220,13 +220,13 @@ using
 mozilla
 :
 :
-StaticMutex
+StaticMutexAutoLock
 ;
 using
 mozilla
 :
 :
-StaticMutexAutoLock
+StaticMutexNotRecorded
 ;
 using
 mozilla
@@ -337,7 +337,7 @@ background
 "
 ;
 static
-StaticMutex
+StaticMutexNotRecorded
 gMutex
 ;
 /

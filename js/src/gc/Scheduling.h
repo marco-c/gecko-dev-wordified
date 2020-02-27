@@ -5041,6 +5041,16 @@ mozilla
 :
 :
 ReleaseAcquire
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 ;
 /

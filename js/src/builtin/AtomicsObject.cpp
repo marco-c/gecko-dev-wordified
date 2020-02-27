@@ -5467,6 +5467,16 @@ mozilla
 :
 :
 SequentiallyConsistent
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 FutexThread
 :
