@@ -356,7 +356,9 @@ push
 .
 currentBC
 .
-children
+getChildren
+(
+)
 )
 ;
 }
@@ -659,7 +661,9 @@ push
 .
 currentBC
 .
-children
+getChildren
+(
+)
 )
 ;
 }
