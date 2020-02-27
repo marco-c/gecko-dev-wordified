@@ -4098,7 +4098,7 @@ reason
 *
 outVisNode
 =
-mStartReasonNode
+mStartReasonContent
 ;
 }
 if
@@ -4115,7 +4115,7 @@ isn
 t
 meaningful
 if
-mStartReasonNode
+mStartReasonContent
 !
 =
 mStartNode
@@ -4415,7 +4415,7 @@ reason
 *
 outVisNode
 =
-mEndReasonNode
+mEndReasonContent
 ;
 }
 if
@@ -4432,7 +4432,7 @@ isn
 t
 meaningful
 if
-mEndReasonNode
+mEndReasonContent
 !
 =
 mEndNode
@@ -5251,7 +5251,7 @@ WSType
 :
 text
 ;
-mStartReasonNode
+mStartReasonContent
 =
 textNode
 ;
@@ -5389,7 +5389,7 @@ WSType
 :
 otherBlock
 ;
-mStartReasonNode
+mStartReasonContent
 =
 priorNode
 ;
@@ -5615,7 +5615,7 @@ WSType
 :
 text
 ;
-mStartReasonNode
+mStartReasonContent
 =
 textNode
 ;
@@ -5764,7 +5764,7 @@ WSType
 special
 ;
 }
-mStartReasonNode
+mStartReasonContent
 =
 priorNode
 ;
@@ -5808,7 +5808,7 @@ thisBlock
 ;
 /
 /
-mStartReasonNode
+mStartReasonContent
 can
 be
 either
@@ -5827,7 +5827,7 @@ in
 this
 case
 .
-mStartReasonNode
+mStartReasonContent
 =
 editableBlockParentOrTopmotEditableInlineContent
 ;
@@ -6007,7 +6007,7 @@ WSType
 :
 text
 ;
-mEndReasonNode
+mEndReasonContent
 =
 textNode
 ;
@@ -6154,7 +6154,7 @@ WSType
 :
 otherBlock
 ;
-mEndReasonNode
+mEndReasonContent
 =
 nextNode
 ;
@@ -6371,7 +6371,7 @@ WSType
 :
 text
 ;
-mEndReasonNode
+mEndReasonContent
 =
 textNode
 ;
@@ -6523,7 +6523,7 @@ WSType
 special
 ;
 }
-mEndReasonNode
+mEndReasonContent
 =
 nextNode
 ;
@@ -6567,7 +6567,7 @@ thisBlock
 ;
 /
 /
-mEndReasonNode
+mEndReasonContent
 can
 be
 either
@@ -6586,7 +6586,7 @@ in
 this
 case
 .
-mEndReasonNode
+mEndReasonContent
 =
 editableBlockParentOrTopmotEditableInlineContent
 ;
