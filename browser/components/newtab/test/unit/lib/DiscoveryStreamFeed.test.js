@@ -2659,12 +2659,12 @@ equal
 (
 layout
 [
-2
+0
 ]
 .
 components
 [
-0
+2
 ]
 .
 properties
