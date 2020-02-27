@@ -16015,7 +16015,6 @@ requested_composite_mode
 None
 ;
 }
-pub
 fn
 prepare_prim_for_render
 (
