@@ -11528,6 +11528,14 @@ StyleSheet
 )
 ;
 void
+RemoveSheet
+(
+StyleOrigin
+StyleSheet
+*
+)
+;
+void
 RemovePreferenceStyles
 (
 )

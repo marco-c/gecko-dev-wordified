@@ -1895,12 +1895,8 @@ append
 and
 remove
 a
-/
-/
 stylesheet
 .
-/
-/
 /
 /
 See
