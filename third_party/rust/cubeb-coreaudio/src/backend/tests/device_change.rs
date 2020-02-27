@@ -2248,6 +2248,8 @@ test
 "
 )
 ;
+return
+;
 }
 let
 changed_count
