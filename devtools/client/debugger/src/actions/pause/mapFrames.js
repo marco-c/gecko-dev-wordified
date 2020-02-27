@@ -921,7 +921,14 @@ originalFrame
 variables
 asyncCause
 :
-null
+frame
+.
+asyncCause
+state
+:
+frame
+.
+state
 }
 )
 ;

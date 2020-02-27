@@ -617,6 +617,10 @@ stack
 "
 suspended
 "
+|
+"
+dead
+"
 }
 ;
 /
