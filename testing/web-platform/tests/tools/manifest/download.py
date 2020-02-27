@@ -88,6 +88,11 @@ from
 typing
 import
 Optional
+    
+from
+typing
+import
+Text
 here
 =
 os
@@ -272,7 +277,7 @@ int
 >
 List
 [
-str
+Text
 ]
     
 gitfunc
@@ -291,7 +296,7 @@ type
 :
 List
 [
-str
+Text
 ]
     
 if
@@ -534,7 +539,7 @@ type
 (
 List
 [
-str
+Text
 ]
 )
 -
@@ -543,7 +548,7 @@ Optional
 [
 List
 [
-str
+Text
 ]
 ]
     
@@ -773,7 +778,7 @@ Callable
 ]
 List
 [
-str
+Text
 ]
 ]
         
@@ -786,14 +791,14 @@ Callable
 [
 List
 [
-str
+Text
 ]
 ]
 Optional
 [
 List
 [
-str
+Text
 ]
 ]
 ]

@@ -179,7 +179,6 @@ path
 join
 (
 tests_root
-b
 "
 .
 wptcache
@@ -313,7 +312,7 @@ type
 >
 Set
 [
-bytes
+Text
 ]
         
 "
@@ -438,7 +437,6 @@ data
 .
 split
 (
-b
 "
 \
 0
@@ -462,10 +460,10 @@ type
 >
 Dict
 [
-bytes
+Text
 Optional
 [
-bytes
+Text
 ]
 ]
         
@@ -505,10 +503,10 @@ type
 :
 Dict
 [
-bytes
+Text
 Optional
 [
-bytes
+Text
 ]
 ]
         
@@ -600,7 +598,6 @@ cmd
 .
 split
 (
-b
 "
 \
 0
@@ -615,7 +612,7 @@ b
 #
 type
 :
-bytes
+Text
             
 data
 rel_path
@@ -624,7 +621,6 @@ result
 .
 rsplit
 (
-b
 "
 \
 t
@@ -647,7 +643,6 @@ data
 .
 split
 (
-b
 "
 "
 3
@@ -1330,7 +1325,6 @@ CacheFile
     
 file_name
 =
-b
 "
 mtime
 .
@@ -1733,7 +1727,6 @@ ignore
     
 file_name
 =
-b
 "
 gitignore
 .
@@ -2259,7 +2252,6 @@ deque
 [
 (
 root
-b
 "
 "
 )

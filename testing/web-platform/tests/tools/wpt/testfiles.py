@@ -2655,7 +2655,7 @@ bool
 if
 len
 (
-interfaces_changed_names
+interfaces_changed
 )
 >
 0
@@ -2861,6 +2861,7 @@ raw_file_contents
 .
 startswith
 (
+b
 "
 \
 xfe
@@ -2895,6 +2896,7 @@ raw_file_contents
 .
 startswith
 (
+b
 "
 \
 xff

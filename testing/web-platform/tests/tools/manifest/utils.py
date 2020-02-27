@@ -411,7 +411,7 @@ Callable
 .
 .
 .
-bytes
+Text
 ]
 ]
     
@@ -434,7 +434,7 @@ bytes
 )
 -
 >
-bytes
+Text
         
 full_cmd
 =
@@ -467,6 +467,13 @@ stderr
 subprocess
 .
 STDOUT
+)
+.
+decode
+(
+'
+utf8
+'
 )
         
 except
@@ -522,6 +529,13 @@ stderr
 subprocess
 .
 STDOUT
+)
+.
+decode
+(
+'
+utf8
+'
 )
             
 else
