@@ -379,9 +379,6 @@ expr
 name
 :
 ident
-gecko_type
-:
-tt
 state
 :
 tt
@@ -595,9 +592,6 @@ expr
 name
 :
 ident
-gecko_type
-:
-tt
 state
 :
 tt
@@ -1059,9 +1053,6 @@ expr
 name
 :
 ident
-gecko_type
-:
-tt
 state
 :
 tt
@@ -1202,9 +1193,6 @@ expr
 name
 :
 ident
-gecko_type
-:
-tt
 state
 :
 tt
@@ -1426,9 +1414,6 @@ expr
 name
 :
 ident
-gecko_type
-:
-tt
 state
 :
 tt
