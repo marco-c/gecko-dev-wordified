@@ -22099,10 +22099,9 @@ template
 class
 T
 >
-struct
+using
 StrongPtrForMember
-{
-typedef
+=
 typename
 Conditional
 <
@@ -22125,9 +22124,6 @@ T
 :
 :
 Type
-Type
-;
-}
 ;
 namespace
 binding_detail
