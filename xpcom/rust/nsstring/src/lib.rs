@@ -10557,6 +10557,9 @@ non_snake_case
 ]
 pub
 extern
+"
+C
+"
 fn
 fname
 (
@@ -10638,6 +10641,9 @@ non_snake_case
 ]
 pub
 extern
+"
+C
+"
 fn
 fname
 (
@@ -10760,6 +10766,7 @@ V
 }
 }
 }
+;
 }
 size_align_check
 !
@@ -10897,6 +10904,9 @@ non_snake_case
 ]
 pub
 extern
+"
+C
+"
 fn
 method
 (
@@ -11272,6 +11282,7 @@ usize
 }
 }
 }
+;
 }
 member_check
 !
@@ -11398,6 +11409,9 @@ non_snake_case
 ]
 pub
 extern
+"
+C
+"
 fn
 Rust_Test_NsStringFlags
 (
@@ -11556,6 +11570,9 @@ non_snake_case
 ]
 pub
 extern
+"
+C
+"
 fn
 Rust_InlineCapacityFromRust
 (

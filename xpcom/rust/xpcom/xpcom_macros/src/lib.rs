@@ -1507,12 +1507,6 @@ proc_macro
 TokenStream
 ;
 use
-quote
-:
-:
-ToTokens
-;
-use
 proc_macro2
 :
 :
@@ -1522,6 +1516,12 @@ TokenStream
 as
 TokenStream2
 }
+;
+use
+quote
+:
+:
+ToTokens
 ;
 use
 syn
@@ -3071,6 +3071,7 @@ map_err
 |
 reason
 |
+{
 format
 !
 (
@@ -3097,6 +3098,7 @@ iface
 name
 reason
 )
+}
 )
 ?
 ;
@@ -3421,6 +3423,7 @@ map_err
 |
 reason
 |
+{
 format
 !
 (
@@ -3447,6 +3450,7 @@ iface
 name
 reason
 )
+}
 )
 ?
 ;

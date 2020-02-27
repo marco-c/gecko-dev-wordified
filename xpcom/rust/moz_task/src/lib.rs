@@ -148,6 +148,10 @@ std
 :
 :
 {
+ffi
+:
+:
+CStr
 marker
 :
 :
@@ -164,10 +168,6 @@ atomic
 AtomicBool
 Ordering
 }
-ffi
-:
-:
-CStr
 }
 ;
 use

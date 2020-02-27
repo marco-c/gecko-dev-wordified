@@ -73,8 +73,8 @@ ptr
 ;
 use
 {
-RefPtr
 GetterAddrefs
+RefPtr
 XpCom
 }
 ;
@@ -84,8 +84,8 @@ interfaces
 :
 {
 nsIComponentManager
-nsIServiceManager
 nsIComponentRegistrar
+nsIServiceManager
 }
 ;
 macro_rules
@@ -117,6 +117,7 @@ return
 None
 }
 }
+;
 }
 /
 /
