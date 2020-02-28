@@ -1262,8 +1262,8 @@ ipc
 IPCResult
 RecvPermissionChallenge
 (
-const
 PrincipalInfo
+&
 &
 aPrincipalInfo
 )

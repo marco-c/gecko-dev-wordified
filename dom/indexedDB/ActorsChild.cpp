@@ -4803,8 +4803,8 @@ aActor
 IDBFactory
 *
 aFactory
-const
 PrincipalInfo
+&
 &
 aPrincipalInfo
 )
@@ -4832,7 +4832,13 @@ aFactory
 )
 mPrincipalInfo
 (
+std
+:
+:
+move
+(
 aPrincipalInfo
+)
 )
 {
 MOZ_ASSERT
@@ -9337,8 +9343,8 @@ BackgroundFactoryRequestChild
 :
 RecvPermissionChallenge
 (
-const
 PrincipalInfo
+&
 &
 aPrincipalInfo
 )
@@ -9391,7 +9397,13 @@ WorkerPermissionChallenge
 workerPrivate
 this
 mFactory
+std
+:
+:
+move
+(
 aPrincipalInfo
+)
 )
 ;
 if
