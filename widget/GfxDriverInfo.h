@@ -1018,7 +1018,6 @@ All
 IntelAll
 NvidiaAll
 AtiAll
-AmdAll
 MicrosoftAll
 ParallelsAll
 QualcommAll
@@ -1036,7 +1035,7 @@ IntelHD520
 IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
 RadeonX1000
-AmdRadeonCaicos
+RadeonCaicos
 Geforce7300GT
 Nvidia310M
 Nvidia8800GTS
@@ -1073,7 +1072,6 @@ first
 enum
 Intel
 NVIDIA
-AMD
 ATI
 Microsoft
 Parallels
