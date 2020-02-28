@@ -593,7 +593,7 @@ Step
 .
 v
 =
-ToIntegerPositiveZero
+ToInteger
 (
 v
 )
