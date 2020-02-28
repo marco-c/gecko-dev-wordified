@@ -590,6 +590,9 @@ void
 >
 initial_draw_cbs
 ;
+gboolean
+is_accelerated
+;
 #
 endif
 gboolean
@@ -759,6 +762,14 @@ MozContainer
 container
 bool
 aSubtractCorners
+)
+;
+void
+moz_container_set_accelerated
+(
+MozContainer
+*
+container
 )
 ;
 #
