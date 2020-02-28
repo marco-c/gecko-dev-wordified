@@ -1385,3 +1385,15 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+NS_IMETHODIMP
+CommonSocketControl
+:
+:
+SetResumptionTokenFromExternalCache
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}

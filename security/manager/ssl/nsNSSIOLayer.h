@@ -478,6 +478,12 @@ aResult
 )
 override
 ;
+NS_IMETHOD
+SetResumptionTokenFromExternalCache
+(
+)
+override
+;
 PRStatus
 CloseSocketAndDestroy
 (
