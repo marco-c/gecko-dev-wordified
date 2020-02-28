@@ -97,7 +97,7 @@ class
 nsHttpConnectionInfo
 ;
 class
-nsHttpConnection
+HttpConnectionBase
 ;
 class
 nsHttpConnectionMgr
@@ -752,7 +752,7 @@ virtual
 nsresult
 ReclaimConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 )
@@ -1331,7 +1331,7 @@ virtual
 nsresult
 ReclaimConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 )

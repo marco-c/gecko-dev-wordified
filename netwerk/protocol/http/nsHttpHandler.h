@@ -1666,9 +1666,9 @@ ConnMgr
 {
 MOZ_ASSERT_IF
 (
-gIOService
--
->
+nsIOService
+:
+:
 UseSocketProcess
 (
 )
@@ -1989,7 +1989,7 @@ MOZ_MUST_USE
 nsresult
 ReclaimConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 )

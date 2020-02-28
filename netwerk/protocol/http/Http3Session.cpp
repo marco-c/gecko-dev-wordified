@@ -6205,7 +6205,7 @@ len
 }
 already_AddRefed
 <
-nsHttpConnection
+HttpConnectionBase
 >
 Http3Session
 :
@@ -6230,7 +6230,7 @@ nullptr
 }
 already_AddRefed
 <
-nsHttpConnection
+HttpConnectionBase
 >
 Http3Session
 :

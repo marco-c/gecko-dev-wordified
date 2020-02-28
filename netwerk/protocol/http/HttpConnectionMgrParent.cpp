@@ -783,7 +783,7 @@ HttpConnectionMgrParent
 :
 ReclaimConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 )
 {
