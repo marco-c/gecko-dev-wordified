@@ -22690,6 +22690,11 @@ aNewData
 mOpacity
 )
 {
+hint
+|
+=
+nsChangeHint_UpdateOpacityLayer
+;
 /
 /
 If
@@ -22802,11 +22807,6 @@ nsChangeHint_RepaintFrame
 }
 else
 {
-hint
-|
-=
-nsChangeHint_UpdateOpacityLayer
-;
 if
 (
 (
