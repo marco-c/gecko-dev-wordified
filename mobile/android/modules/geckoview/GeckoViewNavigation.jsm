@@ -778,7 +778,7 @@ Ci
 .
 nsIWebNavigation
 .
-LOAD_FLAGS_EXTERNAL
+LOAD_FLAGS_FROM_EXTERNAL
 ;
 }
 if
