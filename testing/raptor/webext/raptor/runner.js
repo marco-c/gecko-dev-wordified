@@ -2214,7 +2214,7 @@ to
 the
 control
 server
-let
+const
 fileName
 =
 {
@@ -2385,7 +2385,7 @@ pageCycle
 1
 )
 {
-let
+const
 text
 =
 running
@@ -2765,7 +2765,7 @@ error
 "
 )
 ;
-var
+const
 pendingMetrics
 =
 {
@@ -2795,7 +2795,7 @@ time
 isLoadTimePending
 }
 ;
-var
+let
 msgData
 =
 [
@@ -2871,7 +2871,7 @@ NOT
 performance
 .
 now
-var
+const
 now
 =
 Date
@@ -2894,7 +2894,7 @@ avoid
 Date
 -
 timing
-var
+const
 timeout_when
 =
 now
@@ -3338,7 +3338,7 @@ request
 value
 )
 ;
-var
+const
 _found
 =
 request
@@ -3356,7 +3356,7 @@ hero
 1
 ]
 ;
-var
+const
 index
 =
 pendingHeroes
@@ -3616,7 +3616,7 @@ results
 measurements
 )
 {
-let
+const
 count
 =
 results
@@ -4094,7 +4094,7 @@ raptorRunner
 "
 )
 ;
-let
+const
 config
 =
 getTestConfig
