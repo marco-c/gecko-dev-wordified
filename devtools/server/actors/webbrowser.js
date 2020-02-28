@@ -163,7 +163,7 @@ lazyRequireGetter
 (
 this
 "
-FrameTargetActorProxy
+TabDescriptorActor
 "
 "
 devtools
@@ -172,11 +172,9 @@ server
 /
 actors
 /
-targets
+descriptors
 /
-frame
--
-proxy
+tab
 "
 true
 )
@@ -631,7 +629,7 @@ A
 live
 list
 of
-FrameTargetActorProxys
+TabDescriptorActors
 representing
 the
 current
@@ -2403,7 +2401,7 @@ see
 options
 argument
 of
-FrameTargetActorProxy
+TabDescriptorActor
 constructor
 .
 *
@@ -2472,7 +2470,7 @@ browserActorOptions
 actor
 =
 new
-FrameTargetActorProxy
+TabDescriptorActor
 (
 this
 .
@@ -3120,7 +3118,7 @@ new
 Error
 (
 "
-FrameTargetActorProxy
+TabDescriptorActor
 not
 stored
 in
