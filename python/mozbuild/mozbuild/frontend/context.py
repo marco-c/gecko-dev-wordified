@@ -4163,7 +4163,9 @@ all
 isinstance
 (
 v
-basestring
+six
+.
+string_types
 )
 for
 v
