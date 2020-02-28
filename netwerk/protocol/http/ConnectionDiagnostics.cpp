@@ -1512,10 +1512,6 @@ log
 AppendPrintf
 (
 "
-iskeepalive
-=
-%
-d
 dontReuse
 =
 %
@@ -1527,9 +1523,6 @@ d
 \
 n
 "
-IsKeepAlive
-(
-)
 mDontReuse
 mIsReused
 )
