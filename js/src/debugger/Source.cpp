@@ -2679,7 +2679,11 @@ HandleScriptSourceObject
 sourceObject
 )
 {
-RootedScript
+Rooted
+<
+BaseScript
+*
+>
 script
 (
 cx_

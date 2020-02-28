@@ -25261,7 +25261,7 @@ dst
 .
 is
 <
-JSScript
+BaseScript
 >
 (
 )
@@ -25335,7 +25335,7 @@ dst
 .
 as
 <
-JSScript
+BaseScript
 >
 (
 )
