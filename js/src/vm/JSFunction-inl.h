@@ -348,7 +348,7 @@ cx
 HandleFunction
 fun
 HandleObject
-parent
+enclosingEnv
 HandleObject
 proto
 =
@@ -674,7 +674,7 @@ fun
 >
 setEnvironment
 (
-parent
+enclosingEnv
 )
 ;
 return
@@ -756,7 +756,7 @@ realm
 (
 )
 fun
-parent
+enclosingEnv
 )
 )
 {
@@ -765,7 +765,7 @@ CloneFunctionReuseScript
 (
 cx
 fun
-parent
+enclosingEnv
 kind
 newKind
 proto
@@ -829,7 +829,7 @@ CloneFunctionAndScript
 (
 cx
 fun
-parent
+enclosingEnv
 enclosingScope
 sourceObject
 kind

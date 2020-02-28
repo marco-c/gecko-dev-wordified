@@ -14411,7 +14411,7 @@ realm
 HandleFunction
 fun
 HandleObject
-newParent
+newEnclosingEnv
 )
 {
 MOZ_ASSERT
@@ -14460,7 +14460,7 @@ false
 }
 if
 (
-newParent
+newEnclosingEnv
 -
 >
 is
@@ -14486,14 +14486,14 @@ clone
 the
 script
 if
-newParent
+newEnclosingEnv
 is
 a
 syntactic
 scope
+/
+/
 since
-/
-/
 in
 that
 case
@@ -14548,7 +14548,7 @@ if
 (
 IsSyntacticEnvironment
 (
-newParent
+newEnclosingEnv
 )
 )
 {
