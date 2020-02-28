@@ -3539,8 +3539,6 @@ sanNameList
 /
 double
 linked
-return
-;
 }
 NS_IMETHODIMP
 nsNSSCertificate
