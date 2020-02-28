@@ -40338,6 +40338,9 @@ it
 with
 the
 right
+content
+-
+box
 size
 and
 there
@@ -40348,10 +40351,10 @@ to
 do
 a
 reflow
+/
+/
 to
 clear
-/
-/
 out
 a
 -
@@ -40366,6 +40369,8 @@ can
 just
 reposition
 it
+/
+/
 as
 -
 needed
@@ -40396,7 +40401,7 @@ HadMeasuringReflow
 )
 {
 LogicalSize
-finalFlexItemCBSize
+finalFlexItemSize
 =
 aAxisTracker
 .
@@ -40454,7 +40459,7 @@ size
 ?
 if
 (
-finalFlexItemCBSize
+finalFlexItemSize
 =
 =
 LogicalSize
