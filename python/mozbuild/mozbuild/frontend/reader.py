@@ -209,6 +209,8 @@ from
 multiprocessing
 import
 cpu_count
+import
+six
 from
 six
 import
@@ -320,19 +322,10 @@ process
 import
 ProcessPoolExecutor
 if
-sys
+six
 .
-version_info
-.
-major
-=
-=
-2
+PY2
 :
-    
-text_type
-=
-unicode
     
 type_type
 =
@@ -341,10 +334,6 @@ types
 TypeType
 else
 :
-    
-text_type
-=
-str
     
 type_type
 =
@@ -1864,7 +1853,7 @@ name
 =
 func
 .
-func_name
+__name__
         
 if
 name
@@ -2623,7 +2612,7 @@ path
 =
 func
 .
-func_code
+__code__
 .
 co_filename
         
@@ -2633,13 +2622,13 @@ name
 =
 func
 .
-func_name
+__name__
         
 code
 =
 func
 .
-func_code
+__code__
         
 firstlineno
 =
@@ -2875,23 +2864,37 @@ to
 a
 dict
 .
+AST
+wants
+binary_type
+for
+this
+in
+Py2
+and
+text_type
+for
+        
+#
+this
+in
+Py3
+so
+cast
+to
+str
+.
         
 self
 .
 _global_name
 =
-b
+str
+(
 '
 _data
 '
-#
-AST
-wants
-str
-for
-this
-not
-unicode
+)
         
 #
 In
@@ -2949,9 +2952,12 @@ self
 _global_name
 +
 =
+str
+(
 '
 _
 '
+)
         
 func_ast
 =
@@ -3075,11 +3081,11 @@ name
             
 func
 .
-func_defaults
+__defaults__
             
 func
 .
-func_closure
+__closure__
         
 )
         
@@ -3170,7 +3176,7 @@ self
 .
 _func
 .
-func_code
+__code__
             
 glob
             
@@ -3182,13 +3188,13 @@ self
 .
 _func
 .
-func_defaults
+__defaults__
             
 self
 .
 _func
 .
-func_closure
+__closure__
         
 )
         
@@ -3268,35 +3274,13 @@ node
 )
 :
             
-#
-String
-nodes
-we
-got
-from
-the
-AST
-parser
-are
-str
-but
-we
-want
-            
-#
-unicode
-literals
-everywhere
-so
-transform
-them
-.
-            
 node
 .
 s
 =
-unicode
+six
+.
+ensure_text
 (
 node
 .
@@ -4435,7 +4419,9 @@ s
 .
 write
 (
-unicode
+six
+.
+ensure_text
 (
 l
 )
