@@ -3549,7 +3549,7 @@ GetD3D11YCbCrRecycleAllocator
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 ;
 #

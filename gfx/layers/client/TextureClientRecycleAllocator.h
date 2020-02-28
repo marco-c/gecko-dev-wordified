@@ -293,7 +293,7 @@ Allocate
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 =
 0
@@ -373,7 +373,7 @@ Allocate
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 override
 ;
@@ -471,7 +471,7 @@ TextureClientRecycleAllocator
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 ;
 void
@@ -536,6 +536,16 @@ Destroy
 (
 )
 ;
+KnowsCompositor
+*
+GetKnowsCompositor
+(
+)
+{
+return
+mKnowsCompositor
+;
+}
 protected
 :
 virtual
@@ -567,7 +577,7 @@ RefPtr
 <
 KnowsCompositor
 >
-mSurfaceAllocator
+mKnowsCompositor
 ;
 friend
 class

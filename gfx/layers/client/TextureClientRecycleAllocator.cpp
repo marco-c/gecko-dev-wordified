@@ -375,7 +375,7 @@ Allocate
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 override
 {
@@ -639,7 +639,7 @@ Allocate
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 {
 return
@@ -648,7 +648,7 @@ TextureClient
 :
 CreateForYCbCr
 (
-aAllocator
+aKnowsCompositor
 mData
 .
 mYSize
@@ -684,12 +684,12 @@ TextureClientRecycleAllocator
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 :
-mSurfaceAllocator
+mKnowsCompositor
 (
-aAllocator
+aKnowsCompositor
 )
 mMaxPooledSize
 (
@@ -986,7 +986,7 @@ textureHolder
 =
 nullptr
 ;
-mSurfaceAllocator
+mKnowsCompositor
 -
 >
 GetTextureForwarder
@@ -1050,7 +1050,7 @@ aHelper
 .
 Allocate
 (
-mSurfaceAllocator
+mKnowsCompositor
 )
 ;
 if
@@ -1208,7 +1208,7 @@ TextureClient
 :
 CreateForDrawing
 (
-mSurfaceAllocator
+mKnowsCompositor
 aFormat
 aSize
 aSelector
