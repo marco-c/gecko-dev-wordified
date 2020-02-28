@@ -1132,7 +1132,7 @@ different
 void
 ReportSpdyConnection
 (
-HttpConnectionBase
+nsHttpConnection
 *
 bool
 usingSpdy
@@ -4400,6 +4400,8 @@ Total
 number
 of
 spdy
+or
+http3
 connections
 which
 are
@@ -4408,9 +4410,11 @@ subset
 of
 the
 active
+/
+/
 conns
 uint16_t
-mNumSpdyActiveConns
+mNumSpdyHttp3ActiveConns
 ;
 /
 /
