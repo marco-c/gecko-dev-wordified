@@ -39389,9 +39389,6 @@ line
 getNext
 (
 )
-+
-+
-lineIndex
 )
 {
 line
