@@ -10274,9 +10274,6 @@ nsFlexContainerFrame
 :
 GenerateFlexItemForChild
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChildFrame
@@ -10341,7 +10338,9 @@ reflow
 ReflowInput
 childRI
 (
-aPresContext
+PresContext
+(
+)
 aParentReflowInput
 aChildFrame
 aParentReflowInput
@@ -10927,7 +10926,9 @@ canOverride
 =
 true
 ;
-aPresContext
+PresContext
+(
+)
 -
 >
 GetTheme
@@ -10937,7 +10938,9 @@ GetTheme
 >
 GetMinimumWidgetSize
 (
-aPresContext
+PresContext
+(
+)
 aChildFrame
 disp
 -
@@ -10952,7 +10955,9 @@ canOverride
 nscoord
 widgetMainMinSize
 =
-aPresContext
+PresContext
+(
+)
 -
 >
 DevPixelsToAppUnits
@@ -10968,7 +10973,9 @@ widgetMinSize
 nscoord
 widgetCrossMinSize
 =
-aPresContext
+PresContext
+(
+)
 -
 >
 DevPixelsToAppUnits
@@ -11452,7 +11459,6 @@ height
 )
 ResolveAutoFlexBasisAndMinSize
 (
-aPresContext
 *
 item
 childRI
@@ -13059,9 +13065,6 @@ nsFlexContainerFrame
 :
 ResolveAutoFlexBasisAndMinSize
 (
-nsPresContext
-*
-aPresContext
 FlexItem
 &
 aFlexItem
@@ -14157,7 +14160,6 @@ contentBSize
 =
 MeasureFlexItemContentBSize
 (
-aPresContext
 aFlexItem
 forceBResizeForMeasuringReflow
 aHasLineClampEllipsis
@@ -14957,9 +14959,6 @@ MeasureAscentAndBSizeForFlexItem
 FlexItem
 &
 aItem
-nsPresContext
-*
-aPresContext
 ReflowInput
 &
 aChildReflowInput
@@ -15099,7 +15098,9 @@ aItem
 Frame
 (
 )
-aPresContext
+PresContext
+(
+)
 childDesiredSize
 aChildReflowInput
 outerWM
@@ -15221,7 +15222,9 @@ aItem
 Frame
 (
 )
-aPresContext
+PresContext
+(
+)
 childDesiredSize
 &
 aChildReflowInput
@@ -15296,9 +15299,6 @@ nsFlexContainerFrame
 :
 MeasureFlexItemContentBSize
 (
-nsPresContext
-*
-aPresContext
 FlexItem
 &
 aFlexItem
@@ -15366,7 +15366,9 @@ NS_UNCONSTRAINEDSIZE
 ReflowInput
 childRIForMeasuringBSize
 (
-aPresContext
+PresContext
+(
+)
 aParentReflowInput
 aFlexItem
 .
@@ -15423,7 +15425,9 @@ childRIForMeasuringBSize
 .
 Init
 (
-aPresContext
+PresContext
+(
+)
 )
 ;
 if
@@ -15498,7 +15502,6 @@ reflowResult
 MeasureAscentAndBSizeForFlexItem
 (
 aFlexItem
-aPresContext
 childRIForMeasuringBSize
 )
 ;
@@ -30930,9 +30933,6 @@ nsFlexContainerFrame
 :
 GenerateFlexLines
 (
-nsPresContext
-*
-aPresContext
 const
 ReflowInput
 &
@@ -31766,7 +31766,6 @@ item
 =
 GenerateFlexItemForChild
 (
-aPresContext
 childFrame
 aReflowInput
 aAxisTracker
@@ -34003,9 +34002,6 @@ nsFlexContainerFrame
 :
 SizeItemInCrossAxis
 (
-nsPresContext
-*
-aPresContext
 ReflowInput
 &
 aChildReflowInput
@@ -34284,7 +34280,6 @@ reflowResult
 MeasureAscentAndBSizeForFlexItem
 (
 aItem
-aPresContext
 aChildReflowInput
 )
 ;
@@ -34838,6 +34833,16 @@ reflow
 status
 !
 "
+)
+;
+MOZ_ASSERT
+(
+aPresContext
+=
+=
+PresContext
+(
+)
 )
 ;
 FLEX_LOG
@@ -35461,7 +35466,6 @@ struts
 ;
 DoFlexLayout
 (
-aPresContext
 aDesiredSize
 aReflowInput
 aStatus
@@ -35507,7 +35511,6 @@ Reset
 ;
 DoFlexLayout
 (
-aPresContext
 aDesiredSize
 aReflowInput
 aStatus
@@ -37935,9 +37938,6 @@ nsFlexContainerFrame
 :
 DoFlexLayout
 (
-nsPresContext
-*
-aPresContext
 ReflowOutput
 &
 aDesiredSize
@@ -38004,7 +38004,6 @@ placeholderKids
 ;
 GenerateFlexLines
 (
-aPresContext
 aReflowInput
 aContentBoxMainSize
 aAvailableBSizeForContent
@@ -38739,7 +38738,9 @@ NS_UNCONSTRAINEDSIZE
 ReflowInput
 childReflowInput
 (
-aPresContext
+PresContext
+(
+)
 aReflowInput
 item
 -
@@ -38843,7 +38844,6 @@ true
 }
 SizeItemInCrossAxis
 (
-aPresContext
 childReflowInput
 *
 item
@@ -40646,7 +40646,6 @@ itemNeedsReflow
 {
 ReflowFlexItem
 (
-aPresContext
 aAxisTracker
 aReflowInput
 *
@@ -40967,7 +40966,6 @@ IsEmpty
 {
 ReflowPlaceholders
 (
-aPresContext
 aReflowInput
 placeholderKids
 containerContentBoxOrigin
@@ -41715,7 +41713,9 @@ childFrame
 }
 FinishReflowWithAbsoluteFrames
 (
-aPresContext
+PresContext
+(
+)
 aDesiredSize
 aReflowInput
 aStatus
@@ -41939,9 +41939,6 @@ nsFlexContainerFrame
 :
 ReflowFlexItem
 (
-nsPresContext
-*
-aPresContext
 const
 FlexboxAxisTracker
 &
@@ -42010,7 +42007,9 @@ NS_UNCONSTRAINEDSIZE
 ReflowInput
 childReflowInput
 (
-aPresContext
+PresContext
+(
+)
 aReflowInput
 aItem
 .
@@ -42842,7 +42841,9 @@ aItem
 Frame
 (
 )
-aPresContext
+PresContext
+(
+)
 childDesiredSize
 childReflowInput
 outerWM
@@ -43169,7 +43170,9 @@ aItem
 Frame
 (
 )
-aPresContext
+PresContext
+(
+)
 childDesiredSize
 &
 childReflowInput
@@ -43200,9 +43203,6 @@ nsFlexContainerFrame
 :
 ReflowPlaceholders
 (
-nsPresContext
-*
-aPresContext
 const
 ReflowInput
 &
@@ -43316,7 +43316,9 @@ wm
 ReflowInput
 childReflowInput
 (
-aPresContext
+PresContext
+(
+)
 aReflowInput
 placeholder
 availSize
@@ -43356,7 +43358,9 @@ childReflowStatus
 ReflowChild
 (
 placeholder
-aPresContext
+PresContext
+(
+)
 childDesiredSize
 childReflowInput
 outerWM
@@ -43372,7 +43376,9 @@ childReflowStatus
 FinishReflowChild
 (
 placeholder
-aPresContext
+PresContext
+(
+)
 childDesiredSize
 &
 childReflowInput
