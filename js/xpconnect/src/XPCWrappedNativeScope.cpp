@@ -134,6 +134,13 @@ scope
 #
 include
 "
+AccessCheck
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
