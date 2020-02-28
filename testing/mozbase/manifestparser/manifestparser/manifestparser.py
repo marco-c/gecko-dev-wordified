@@ -59,9 +59,11 @@ import
 absolute_import
 print_function
 import
-json
-import
 fnmatch
+import
+io
+import
+json
 import
 os
 import
@@ -1201,15 +1203,33 @@ get
 (
 filename
 )
+.
+open
+(
+mode
+=
+'
+r
+'
+)
             
 else
 :
                 
 fp
 =
+io
+.
 open
 (
 filename
+encoding
+=
+'
+utf
+-
+8
+'
 )
             
 here

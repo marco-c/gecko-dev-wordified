@@ -58,6 +58,8 @@ __future__
 import
 absolute_import
 import
+io
+import
 os
 import
 sys
@@ -367,9 +369,18 @@ string_types
         
 fp
 =
+io
+.
 open
 (
 fp
+encoding
+=
+'
+utf
+-
+8
+'
 )
     
 #
