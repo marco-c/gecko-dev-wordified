@@ -19574,7 +19574,7 @@ alloc
 )
 LHomeObjectSuperBase
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
