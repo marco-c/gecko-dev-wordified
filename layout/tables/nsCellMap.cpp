@@ -14523,6 +14523,12 @@ rows
 if
 (
 !
+spansCauseRebuild
+)
+{
+if
+(
+!
 aCellFrame
 -
 >
@@ -14539,10 +14545,13 @@ GetColSpan
 (
 )
 )
+{
 spansCauseRebuild
 =
 true
 ;
+}
+}
 if
 (
 spansCauseRebuild
