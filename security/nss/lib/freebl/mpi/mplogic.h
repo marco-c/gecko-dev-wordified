@@ -83,6 +83,7 @@ mpi
 .
 h
 "
+SEC_BEGIN_PROTOS
 /
 *
 The
@@ -397,6 +398,7 @@ mp_int
 a
 )
 ;
+SEC_END_PROTOS
 #
 endif
 /

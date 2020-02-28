@@ -1393,6 +1393,7 @@ session_hash
 session_hash_len
 label
 label_len
+ssl_variant_stream
 &
 output
 [

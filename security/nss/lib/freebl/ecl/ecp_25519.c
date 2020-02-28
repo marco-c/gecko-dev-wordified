@@ -209,7 +209,7 @@ PRUint8
 *
 p
 ;
-int
+PRUint64
 i
 ;
 PRUint8

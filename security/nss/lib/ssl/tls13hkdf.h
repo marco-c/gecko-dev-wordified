@@ -170,6 +170,8 @@ label
 unsigned
 int
 labelLen
+SSLProtocolVariant
+variant
 unsigned
 char
 *
@@ -206,6 +208,8 @@ algorithm
 unsigned
 int
 keySize
+SSLProtocolVariant
+variant
 PK11SymKey
 *
 *
