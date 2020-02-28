@@ -206,13 +206,6 @@ nsITimer
 .
 h
 "
-#
-include
-"
-Http3Session
-.
-h
-"
 class
 nsISocketTransport
 ;

@@ -72,13 +72,6 @@ h
 #
 include
 "
-HttpConnectionBase
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -116,7 +109,7 @@ class
 nsHttpConnectionInfo
 ;
 class
-nsHttpConnection
+HttpConnectionBase
 ;
 class
 nsHttpRequestHead

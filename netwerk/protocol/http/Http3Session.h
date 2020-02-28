@@ -191,6 +191,9 @@ namespace
 net
 {
 class
+HttpConnectionUDP
+;
+class
 Http3Stream
 ;
 class
@@ -270,7 +273,7 @@ aOrigin
 nsISocketTransport
 *
 aSocketTransport
-nsHttpConnection
+HttpConnectionUDP
 *
 readerWriter
 )
@@ -819,7 +822,7 @@ mPacketToSend
 ;
 RefPtr
 <
-nsHttpConnection
+HttpConnectionUDP
 >
 mSegmentReaderWriter
 ;

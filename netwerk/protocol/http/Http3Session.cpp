@@ -227,12 +227,10 @@ SSLServerCertVerification
 .
 h
 "
-/
-/
 #
 include
 "
-cert
+HttpConnectionUDP
 .
 h
 "
@@ -487,7 +485,7 @@ aOrigin
 nsISocketTransport
 *
 aSocketTransport
-nsHttpConnection
+HttpConnectionUDP
 *
 readerWriter
 )
@@ -2424,7 +2422,7 @@ return
 here
 and
 let
-nsHttpConnection
+HttpConnectionUDP
 close
 the
 session
