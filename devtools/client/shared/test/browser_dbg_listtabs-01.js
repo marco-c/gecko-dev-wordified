@@ -563,8 +563,10 @@ reject
 ;
 gTab2Front
 .
-attach
+reconfigure
 (
+{
+}
 )
 .
 then
