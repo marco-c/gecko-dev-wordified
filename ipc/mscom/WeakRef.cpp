@@ -428,6 +428,12 @@ nullptr
 namespace
 detail
 typedef
+mozilla
+:
+:
+detail
+:
+:
 BaseAutoLock
 <
 detail
@@ -439,6 +445,12 @@ SharedRef
 SharedRefAutoLock
 ;
 typedef
+mozilla
+:
+:
+detail
+:
+:
 BaseAutoUnlock
 <
 detail

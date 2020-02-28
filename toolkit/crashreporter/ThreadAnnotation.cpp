@@ -420,6 +420,9 @@ typedef
 mozilla
 :
 :
+detail
+:
+:
 BaseAutoLock
 <
 MacCrashReporterLock

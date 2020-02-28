@@ -618,6 +618,9 @@ mStaticMutex
 }
 ;
 typedef
+detail
+:
+:
 BaseAutoLock
 <
 AnyStaticMutex
@@ -625,6 +628,9 @@ AnyStaticMutex
 StaticMutexAutoLock
 ;
 typedef
+detail
+:
+:
 BaseAutoUnlock
 <
 AnyStaticMutex
