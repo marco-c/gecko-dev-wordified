@@ -215,9 +215,6 @@ def
 alphabetical_sorted
 (
 iterable
-cmp
-=
-None
 key
 =
 lambda
@@ -260,8 +257,11 @@ return
 sorted
 (
 iterable
-cmp
 key
+=
+key
+reverse
+=
 reverse
 )
 class
