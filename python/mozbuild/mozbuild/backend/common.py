@@ -65,8 +65,6 @@ import
 json
 import
 os
-import
-six
 from
 collections
 import
@@ -539,13 +537,12 @@ stems
 for
 m
 in
-six
-.
-itervalues
-(
 self
 .
 modules
+.
+itervalues
+(
 )
 ]
 )

@@ -209,8 +209,6 @@ from
 multiprocessing
 import
 cpu_count
-import
-six
 from
 six
 import
@@ -322,10 +320,19 @@ process
 import
 ProcessPoolExecutor
 if
-six
+sys
 .
-PY2
+version_info
+.
+major
+=
+=
+2
 :
+    
+text_type
+=
+unicode
     
 type_type
 =
@@ -334,6 +341,10 @@ types
 TypeType
 else
 :
+    
+text_type
+=
+str
     
 type_type
 =
@@ -1853,7 +1864,7 @@ name
 =
 func
 .
-__name__
+func_name
         
 if
 name
@@ -2612,7 +2623,7 @@ path
 =
 func
 .
-__code__
+func_code
 .
 co_filename
         
@@ -2622,13 +2633,13 @@ name
 =
 func
 .
-__name__
+func_name
         
 code
 =
 func
 .
-__code__
+func_code
         
 firstlineno
 =
@@ -2864,37 +2875,23 @@ to
 a
 dict
 .
-AST
-wants
-binary_type
-for
-this
-in
-Py2
-and
-text_type
-for
-        
-#
-this
-in
-Py3
-so
-cast
-to
-str
-.
         
 self
 .
 _global_name
 =
-str
-(
+b
 '
 _data
 '
-)
+#
+AST
+wants
+str
+for
+this
+not
+unicode
         
 #
 In
@@ -2952,12 +2949,9 @@ self
 _global_name
 +
 =
-str
-(
 '
 _
 '
-)
         
 func_ast
 =
@@ -3081,11 +3075,11 @@ name
             
 func
 .
-__defaults__
+func_defaults
             
 func
 .
-__closure__
+func_closure
         
 )
         
@@ -3176,7 +3170,7 @@ self
 .
 _func
 .
-__code__
+func_code
             
 glob
             
@@ -3188,13 +3182,13 @@ self
 .
 _func
 .
-__defaults__
+func_defaults
             
 self
 .
 _func
 .
-__closure__
+func_closure
         
 )
         
@@ -3274,13 +3268,35 @@ node
 )
 :
             
+#
+String
+nodes
+we
+got
+from
+the
+AST
+parser
+are
+str
+but
+we
+want
+            
+#
+unicode
+literals
+everywhere
+so
+transform
+them
+.
+            
 node
 .
 s
 =
-six
-.
-ensure_text
+unicode
 (
 node
 .
@@ -3653,7 +3669,6 @@ write
 .
 join
 (
-            
 '
 %
 s
@@ -3662,19 +3677,13 @@ n
 '
 %
 l
-            
+                        
 for
 l
 in
-super
-(
-SandboxValidationError
 self
-)
 .
-__str__
-(
-)
+message
 .
 splitlines
 (
@@ -4299,7 +4308,6 @@ write
 .
 join
 (
-                
 '
 %
 s
@@ -4308,18 +4316,15 @@ n
 '
 %
 l
-                
+                            
 for
 l
 in
-six
-.
-text_type
-(
 self
 .
 validation_error
-)
+.
+message
 .
 splitlines
 (
@@ -4430,9 +4435,7 @@ s
 .
 write
 (
-six
-.
-ensure_text
+unicode
 (
 l
 )
@@ -10546,13 +10549,8 @@ result
 path
 ]
 =
-six
-.
-moves
-.
 reduce
 (
-                
 lambda
 x
 y

@@ -58,7 +58,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 collections
 import
@@ -74,11 +73,11 @@ json
 import
 os
 import
-six
-import
 subprocess
 import
 sys
+import
+types
 from
 mozbuild
 .
@@ -1539,11 +1538,10 @@ for
 target_fullname
 spec
 in
-six
+targets
 .
 iteritems
 (
-targets
 )
 :
         
@@ -1631,11 +1629,15 @@ LIBRARY_NAME
 '
 ]
 =
-six
-.
-ensure_text
-(
 name
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
         
 else
@@ -2507,9 +2509,9 @@ if
 isinstance
 (
 f
-six
+types
 .
-string_types
+StringTypes
 )
 :
                         
@@ -3214,14 +3216,10 @@ for
 k
 input_value
 in
-list
-(
-six
-.
-iteritems
-(
 input_attrs
-)
+.
+items
+(
 )
 :
             
@@ -3742,7 +3740,10 @@ cond
 for
 cond
 in
+sorted
+(
 conditions
+)
 :
                     
 common_attrs
@@ -4259,11 +4260,10 @@ k
 v
                                       
 in
-six
+input_variables
 .
 iteritems
 (
-input_variables
 )
 ]
 )

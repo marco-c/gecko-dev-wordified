@@ -176,8 +176,6 @@ unicode_literals
 import
 os
 import
-six
-import
 sys
 import
 weakref
@@ -215,6 +213,9 @@ def
 alphabetical_sorted
 (
 iterable
+cmp
+=
+None
 key
 =
 lambda
@@ -257,11 +258,8 @@ return
 sorted
 (
 iterable
+cmp
 key
-=
-key
-reverse
-=
 reverse
 )
 class
@@ -1022,10 +1020,6 @@ try
             
 source
 =
-six
-.
-ensure_text
-(
 self
 .
 _finder
@@ -1037,7 +1031,6 @@ path
 .
 read
 (
-)
 )
         
 except
@@ -2151,6 +2144,22 @@ key
 default
 =
 None
+)
+:
+        
+raise
+NotImplementedError
+(
+'
+Not
+supported
+'
+)
+    
+def
+__len__
+(
+self
 )
 :
         

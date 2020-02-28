@@ -75,8 +75,6 @@ itertools
 import
 os
 import
-six
-import
 time
 from
 contextlib
@@ -2226,15 +2224,14 @@ for
 k
 v
 in
-six
-.
-iteritems
-(
 obj
 .
 config
 .
 substs
+.
+iteritems
+(
 )
         
 }

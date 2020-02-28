@@ -60,10 +60,6 @@ absolute_import
 print_function
 unicode_literals
 import
-six
-.
-moves
-.
 cPickle
 as
 pickle
@@ -71,8 +67,6 @@ from
 collections
 import
 defaultdict
-import
-six
 import
 mozpack
 .
@@ -759,13 +753,12 @@ dest
 _
 )
 in
-six
-.
-iteritems
-(
 obj
 .
 installs
+.
+iteritems
+(
 )
 :
             

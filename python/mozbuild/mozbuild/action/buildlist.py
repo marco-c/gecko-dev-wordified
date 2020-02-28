@@ -100,9 +100,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
-import
-io
 import
 sys
 import
@@ -173,10 +170,10 @@ lock_file
 (
 listFile
 +
-'
+"
 .
 lck
-'
+"
 )
     
 try
@@ -195,8 +192,6 @@ listFile
             
 f
 =
-io
-.
 open
 (
 listFile
@@ -257,19 +252,11 @@ e
 )
         
 with
-io
-.
 open
 (
 listFile
 '
-w
-'
-newline
-=
-'
-\
-n
+wb
 '
 )
 as
@@ -280,10 +267,10 @@ f
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -293,10 +280,10 @@ existing
 )
 )
 +
-'
+"
 \
 n
-'
+"
 )
     
 finally
