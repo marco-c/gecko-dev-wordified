@@ -428,9 +428,6 @@ nullptr
 namespace
 detail
 typedef
-detail
-:
-:
 BaseAutoLock
 <
 detail
@@ -442,9 +439,6 @@ SharedRef
 SharedRefAutoLock
 ;
 typedef
-detail
-:
-:
 BaseAutoUnlock
 <
 detail
