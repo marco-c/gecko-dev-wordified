@@ -5267,6 +5267,13 @@ MovEaxJump
 "
 NoStubAddressCheck
 )
+TestCase
+(
+"
+Opcode83
+"
+NoStubAddressCheck
+)
 #
 endif
 #
