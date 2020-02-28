@@ -2062,7 +2062,7 @@ loads
 (
 cot
 .
-content
+text
 )
                 
 for
