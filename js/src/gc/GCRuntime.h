@@ -4021,6 +4021,11 @@ unmarkCollectedZones
 (
 )
 ;
+void
+unmarkWeakMaps
+(
+)
+;
 bool
 shouldPreserveJITCode
 (
