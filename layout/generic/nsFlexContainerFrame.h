@@ -145,7 +145,11 @@ nsFlexContainerFrame_h___
 #
 include
 "
-nsContainerFrame
+mozilla
+/
+dom
+/
+FlexBinding
 .
 h
 "
@@ -161,11 +165,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-FlexBinding
+nsContainerFrame
 .
 h
 "
