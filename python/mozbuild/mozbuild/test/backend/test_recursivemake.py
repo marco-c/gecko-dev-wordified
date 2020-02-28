@@ -60,11 +60,19 @@ absolute_import
 print_function
 unicode_literals
 import
+io
+import
+os
+import
+six
+.
+moves
+.
 cPickle
 as
 pickle
 import
-os
+six
 import
 unittest
 from
@@ -7364,7 +7372,7 @@ open
 (
 test_installs_path
 '
-r
+rb
 '
 )
 as
@@ -10187,10 +10195,11 @@ for
 key
 expected_rules
 in
-expected
+six
 .
 iteritems
 (
+expected
 )
 :
             
@@ -10971,7 +10980,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11037,7 +11046,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11136,7 +11145,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11204,7 +11213,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11280,7 +11289,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11346,7 +11355,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11665,7 +11674,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -11921,7 +11930,7 @@ topobjdir
 name
 )
 '
-rb
+r
 '
 )
 as
@@ -12041,7 +12050,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -12123,7 +12132,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
@@ -12621,6 +12630,8 @@ expected
 :
             
 with
+io
+.
 open
 (
 os
@@ -12640,7 +12651,7 @@ mk
 '
 )
 '
-rb
+r
 '
 )
 as
