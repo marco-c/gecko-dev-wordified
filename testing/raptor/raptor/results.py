@@ -1199,6 +1199,19 @@ add
 to
 results
         
+if
+new_result_json
+.
+get
+(
+"
+extra_options
+"
+)
+is
+None
+:
+            
 new_result_json
 [
 "
