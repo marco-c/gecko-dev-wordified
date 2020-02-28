@@ -365,6 +365,10 @@ PBackgroundSDBConnectionParent
 AllocPBackgroundSDBConnectionParent
 (
 const
+PersistenceType
+&
+aPersistenceType
+const
 PrincipalInfo
 &
 aPrincipalInfo
@@ -384,6 +388,10 @@ RecvPBackgroundSDBConnectionConstructor
 PBackgroundSDBConnectionParent
 *
 aActor
+const
+PersistenceType
+&
+aPersistenceType
 const
 PrincipalInfo
 &
