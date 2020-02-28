@@ -866,16 +866,6 @@ mozilla
 :
 :
 Relaxed
-mozilla
-:
-:
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 cancelBuild_
 ;

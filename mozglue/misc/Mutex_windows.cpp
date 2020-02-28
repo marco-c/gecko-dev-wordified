@@ -166,11 +166,6 @@ MutexImpl
 :
 MutexImpl
 (
-recordreplay
-:
-:
-Behavior
-aRecorded
 )
 {
 InitializeSRWLock

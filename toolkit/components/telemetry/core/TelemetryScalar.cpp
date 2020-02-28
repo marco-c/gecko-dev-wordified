@@ -367,12 +367,6 @@ using
 mozilla
 :
 :
-StaticMutexNotRecorded
-;
-using
-mozilla
-:
-:
 Telemetry
 :
 :
@@ -16437,7 +16431,7 @@ this
 point
 .
 static
-StaticMutexNotRecorded
+StaticMutex
 gTelemetryScalarsMutex
 ;
 void

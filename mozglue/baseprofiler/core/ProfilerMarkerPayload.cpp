@@ -212,13 +212,6 @@ ProfilerMarkerPayload
 :
 DeserializerTagAtomic
 ReleaseAcquire
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 ProfilerMarkerPayload
 :
