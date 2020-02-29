@@ -165,12 +165,6 @@ keys
 (
 )
     
-keys
-.
-sort
-(
-)
-    
 header
 .
 write
@@ -251,7 +245,10 @@ key
 for
 key
 in
+sorted
+(
 keys
+)
 ]
     
 header
