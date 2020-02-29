@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_FILTER_H_
+VPX_VP8_COMMON_FILTER_H_
 #
 define
-VP8_COMMON_FILTER_H_
+VPX_VP8_COMMON_FILTER_H_
 #
 include
 "
@@ -168,4 +168,4 @@ endif
 endif
 /
 /
-VP8_COMMON_FILTER_H_
+VPX_VP8_COMMON_FILTER_H_

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_COMMON_VP9_MVREF_COMMON_H_
+VPX_VP9_COMMON_VP9_MVREF_COMMON_H_
 #
 define
-VP9_COMMON_VP9_MVREF_COMMON_H_
+VPX_VP9_COMMON_VP9_MVREF_COMMON_H_
 #
 include
 "
@@ -1595,7 +1595,9 @@ ref_frame
 ]
 !
 =
+(
 ref_frame
+)
 )
 \
 ADD_MV_REF_LIST
@@ -1635,7 +1637,9 @@ ref_frame
 ]
 !
 =
+(
 ref_frame
+)
 &
 &
 \
@@ -2086,4 +2090,4 @@ endif
 endif
 /
 /
-VP9_COMMON_VP9_MVREF_COMMON_H_
+VPX_VP9_COMMON_VP9_MVREF_COMMON_H_

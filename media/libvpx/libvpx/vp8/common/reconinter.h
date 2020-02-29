@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_RECONINTER_H_
+VPX_VP8_COMMON_RECONINTER_H_
 #
 define
-VP8_COMMON_RECONINTER_H_
+VPX_VP8_COMMON_RECONINTER_H_
 #
 ifdef
 __cplusplus
@@ -101,16 +101,14 @@ C
 {
 #
 endif
-extern
 void
 vp8_build_inter_predictors_mb
 (
 MACROBLOCKD
 *
-x
+xd
 )
 ;
-extern
 void
 vp8_build_inter16x16_predictors_mb
 (
@@ -135,7 +133,6 @@ int
 dst_uvstride
 )
 ;
-extern
 void
 vp8_build_inter16x16_predictors_mby
 (
@@ -150,7 +147,6 @@ int
 dst_ystride
 )
 ;
-extern
 void
 vp8_build_inter_predictors_b
 (
@@ -169,7 +165,6 @@ vp8_subpix_fn_t
 sppf
 )
 ;
-extern
 void
 vp8_build_inter16x16_predictors_mbuv
 (
@@ -178,7 +173,6 @@ MACROBLOCKD
 x
 )
 ;
-extern
 void
 vp8_build_inter4x4_predictors_mbuv
 (
@@ -203,4 +197,4 @@ endif
 endif
 /
 /
-VP8_COMMON_RECONINTER_H_
+VPX_VP8_COMMON_RECONINTER_H_

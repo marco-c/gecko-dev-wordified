@@ -95,6 +95,15 @@ h
 #
 include
 "
+.
+/
+vp8_rtcd
+.
+h
+"
+#
+include
+"
 vpx_ports
 /
 arm

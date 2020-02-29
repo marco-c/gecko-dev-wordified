@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_ENCODER_PICKLPF_H_
+VPX_VP8_ENCODER_PICKLPF_H_
 #
 define
-VP8_ENCODER_PICKLPF_H_
+VPX_VP8_ENCODER_PICKLPF_H_
 #
 ifdef
 __cplusplus
@@ -153,4 +153,4 @@ endif
 endif
 /
 /
-VP8_ENCODER_PICKLPF_H_
+VPX_VP8_ENCODER_PICKLPF_H_

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_POSTPROC_H_
+VPX_VPX_DSP_POSTPROC_H_
 #
 define
-VPX_DSP_POSTPROC_H_
+VPX_VPX_DSP_POSTPROC_H_
 #
 ifdef
 __cplusplus
@@ -137,4 +137,4 @@ endif
 endif
 /
 /
-VPX_DSP_POSTPROC_H_
+VPX_VPX_DSP_POSTPROC_H_

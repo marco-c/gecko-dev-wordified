@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_ENCODER_VP9_RDOPT_H_
+VPX_VP9_ENCODER_VP9_RDOPT_H_
 #
 define
-VP9_ENCODER_VP9_RDOPT_H_
+VPX_VP9_ENCODER_VP9_RDOPT_H_
 #
 include
 "
@@ -170,6 +170,10 @@ int64_t
 best_rd
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 void
 vp9_rd_pick_inter_mode_sb
 (
@@ -230,6 +234,8 @@ int64_t
 best_rd_so_far
 )
 ;
+#
+endif
 int
 vp9_internal_image_edge
 (
@@ -278,6 +284,10 @@ int
 mi_col
 )
 ;
+#
+if
+!
+CONFIG_REALTIME_ONLY
 void
 vp9_rd_pick_inter_mode_sub8x8
 (
@@ -311,6 +321,8 @@ best_rd_so_far
 )
 ;
 #
+endif
+#
 ifdef
 __cplusplus
 }
@@ -326,4 +338,4 @@ endif
 endif
 /
 /
-VP9_ENCODER_VP9_RDOPT_H_
+VPX_VP9_ENCODER_VP9_RDOPT_H_

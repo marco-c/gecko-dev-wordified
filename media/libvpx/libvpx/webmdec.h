@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBMDEC_H_
+VPX_WEBMDEC_H_
 #
 define
-WEBMDEC_H_
+VPX_WEBMDEC_H_
 #
 include
 "
@@ -438,4 +438,4 @@ endif
 endif
 /
 /
-WEBMDEC_H_
+VPX_WEBMDEC_H_

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_ONYXC_INT_H_
+VPX_VP8_COMMON_ONYXC_INT_H_
 #
 define
-VP8_COMMON_ONYXC_INT_H_
+VPX_VP8_COMMON_ONYXC_INT_H_
 #
 include
 "
@@ -839,4 +839,4 @@ endif
 endif
 /
 /
-VP8_COMMON_ONYXC_INT_H_
+VPX_VP8_COMMON_ONYXC_INT_H_

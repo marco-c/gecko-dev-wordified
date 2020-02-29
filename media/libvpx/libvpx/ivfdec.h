@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-IVFDEC_H_
+VPX_IVFDEC_H_
 #
 define
-IVFDEC_H_
+VPX_IVFDEC_H_
 #
 include
 "
@@ -155,4 +155,4 @@ endif
 endif
 /
 /
-IVFDEC_H_
+VPX_IVFDEC_H_

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_QUANTIZE_H_
+VPX_VPX_DSP_QUANTIZE_H_
 #
 define
-VPX_DSP_QUANTIZE_H_
+VPX_VPX_DSP_QUANTIZE_H_
 #
 include
 "
@@ -136,7 +136,7 @@ int16_t
 round_ptr
 const
 int16_t
-quant_ptr
+quant
 tran_low_t
 *
 qcoeff_ptr
@@ -145,7 +145,7 @@ tran_low_t
 dqcoeff_ptr
 const
 int16_t
-dequant_ptr
+dequant
 uint16_t
 *
 eob_ptr
@@ -166,7 +166,7 @@ int16_t
 round_ptr
 const
 int16_t
-quant_ptr
+quant
 tran_low_t
 *
 qcoeff_ptr
@@ -175,7 +175,7 @@ tran_low_t
 dqcoeff_ptr
 const
 int16_t
-dequant_ptr
+dequant
 uint16_t
 *
 eob_ptr
@@ -201,7 +201,7 @@ int16_t
 round_ptr
 const
 int16_t
-quant_ptr
+quant
 tran_low_t
 *
 qcoeff_ptr
@@ -210,7 +210,7 @@ tran_low_t
 dqcoeff_ptr
 const
 int16_t
-dequant_ptr
+dequant
 uint16_t
 *
 eob_ptr
@@ -231,7 +231,7 @@ int16_t
 round_ptr
 const
 int16_t
-quant_ptr
+quant
 tran_low_t
 *
 qcoeff_ptr
@@ -240,7 +240,7 @@ tran_low_t
 dqcoeff_ptr
 const
 int16_t
-dequant_ptr
+dequant
 uint16_t
 *
 eob_ptr
@@ -264,4 +264,4 @@ endif
 endif
 /
 /
-VPX_DSP_QUANTIZE_H_
+VPX_VPX_DSP_QUANTIZE_H_

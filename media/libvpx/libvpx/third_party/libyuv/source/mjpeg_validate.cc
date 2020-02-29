@@ -135,7 +135,7 @@ LIBYUV_BOOL
 ScanEOI
 (
 const
-uint8
+uint8_t
 *
 sample
 size_t
@@ -151,7 +151,7 @@ sample_size
 )
 {
 const
-uint8
+uint8_t
 *
 end
 =
@@ -162,7 +162,7 @@ sample_size
 1
 ;
 const
-uint8
+uint8_t
 *
 it
 =
@@ -189,12 +189,11 @@ instead
 .
 it
 =
-static_cast
-<
+(
 const
-uint8
+uint8_t
 *
->
+)
 (
 memchr
 (
@@ -284,7 +283,7 @@ LIBYUV_BOOL
 ValidateJpeg
 (
 const
-uint8
+uint8_t
 *
 sample
 size_t

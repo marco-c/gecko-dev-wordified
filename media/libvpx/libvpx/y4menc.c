@@ -143,17 +143,6 @@ color
 fmt
 =
 =
-VPX_IMG_FMT_444A
-?
-"
-C444alpha
-\
-n
-"
-:
-fmt
-=
-=
 VPX_IMG_FMT_I444
 ?
 "

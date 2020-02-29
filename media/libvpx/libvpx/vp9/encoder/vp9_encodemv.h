@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_ENCODER_VP9_ENCODEMV_H_
+VPX_VP9_ENCODER_VP9_ENCODEMV_H_
 #
 define
-VP9_ENCODER_VP9_ENCODEMV_H_
+VPX_VP9_ENCODER_VP9_ENCODEMV_H_
 #
 include
 "
@@ -180,7 +180,7 @@ mvcost
 const
 nmv_context
 *
-mvctx
+ctx
 int
 usehp
 )
@@ -209,4 +209,4 @@ endif
 endif
 /
 /
-VP9_ENCODER_VP9_ENCODEMV_H_
+VPX_VP9_ENCODER_VP9_ENCODEMV_H_

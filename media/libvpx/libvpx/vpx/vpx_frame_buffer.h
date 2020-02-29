@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_VPX_FRAME_BUFFER_H_
+VPX_VPX_VPX_FRAME_BUFFER_H_
 #
 define
-VPX_VPX_FRAME_BUFFER_H_
+VPX_VPX_VPX_FRAME_BUFFER_H_
 /
 *
 !
@@ -429,12 +429,12 @@ passed
 back
 in
 the
-ximage
+vpx_image_t
 and
 the
 release
-function
 *
+function
 call
 .
 |
@@ -451,8 +451,8 @@ On
 success
 the
 callback
-must
 *
+must
 return
 0
 .
@@ -487,7 +487,7 @@ param
 [
 in
 ]
-new_size
+min_size
 Size
 in
 bytes
@@ -645,4 +645,4 @@ endif
 endif
 /
 /
-VPX_VPX_FRAME_BUFFER_H_
+VPX_VPX_VPX_FRAME_BUFFER_H_

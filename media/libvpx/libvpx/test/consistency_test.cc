@@ -108,6 +108,11 @@ h
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -909,9 +914,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 int
@@ -1436,9 +1438,6 @@ endif
 CONFIG_VP9_ENCODER
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

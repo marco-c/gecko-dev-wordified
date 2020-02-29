@@ -108,6 +108,11 @@ h
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -260,9 +265,6 @@ motion_magnitude
 ;
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -757,9 +759,6 @@ w
 }
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

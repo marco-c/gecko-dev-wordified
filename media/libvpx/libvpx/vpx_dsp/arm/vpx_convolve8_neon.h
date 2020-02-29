@@ -86,6 +86,12 @@ tree
 *
 /
 #
+ifndef
+VPX_VPX_DSP_ARM_VPX_CONVOLVE8_NEON_H_
+#
+define
+VPX_VPX_DSP_ARM_VPX_CONVOLVE8_NEON_H_
+#
 include
 <
 arm_neon
@@ -996,3 +1002,8 @@ filter4
 )
 ;
 }
+#
+endif
+/
+/
+VPX_VPX_DSP_ARM_VPX_CONVOLVE8_NEON_H_

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_TXFM_COMMON_H_
+VPX_VPX_DSP_TXFM_COMMON_H_
 #
 define
-VPX_DSP_TXFM_COMMON_H_
+VPX_VPX_DSP_TXFM_COMMON_H_
 #
 include
 "
@@ -493,4 +493,4 @@ sinpi_4_9
 endif
 /
 /
-VPX_DSP_TXFM_COMMON_H_
+VPX_VPX_DSP_TXFM_COMMON_H_

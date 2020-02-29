@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_SCALE_YV12CONFIG_H_
+VPX_VPX_SCALE_YV12CONFIG_H_
 #
 define
-VPX_SCALE_YV12CONFIG_H_
+VPX_VPX_SCALE_YV12CONFIG_H_
 #
 ifdef
 __cplusplus
@@ -220,13 +220,13 @@ uint8_t
 *
 buffer_alloc
 ;
-int
+size_t
 buffer_alloc_sz
 ;
 int
 border
 ;
-int
+size_t
 frame_size
 ;
 int
@@ -487,4 +487,4 @@ endif
 endif
 /
 /
-VPX_SCALE_YV12CONFIG_H_
+VPX_VPX_SCALE_YV12CONFIG_H_

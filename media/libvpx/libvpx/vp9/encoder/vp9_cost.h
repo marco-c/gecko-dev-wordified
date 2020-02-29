@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_ENCODER_VP9_COST_H_
+VPX_VP9_ENCODER_VP9_COST_H_
 #
 define
-VP9_ENCODER_VP9_COST_H_
+VPX_VP9_ENCODER_VP9_COST_H_
 #
 include
 "
@@ -357,4 +357,4 @@ endif
 endif
 /
 /
-VP9_ENCODER_VP9_COST_H_
+VPX_VP9_ENCODER_VP9_COST_H_

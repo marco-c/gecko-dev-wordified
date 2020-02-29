@@ -603,7 +603,7 @@ MJpegDecoder
 LoadFrame
 (
 const
-uint8
+uint8_t
 *
 src
 size_t
@@ -789,7 +789,7 @@ i
 ]
 =
 new
-uint8
+uint8_t
 *
 [
 scanlines_size
@@ -930,7 +930,7 @@ i
 ]
 =
 new
-uint8
+uint8_t
 [
 databuf_size
 ]
@@ -1472,7 +1472,7 @@ MJpegDecoder
 :
 DecodeToBuffers
 (
-uint8
+uint8_t
 *
 *
 planes
@@ -2760,6 +2760,11 @@ j_decompress_ptr
 cinfo
 )
 {
+(
+void
+)
+cinfo
+;
 /
 /
 Nothing
@@ -2980,6 +2985,12 @@ setjmp_buffer
 )
 ;
 }
+/
+/
+Suppress
+fprintf
+warnings
+.
 void
 OutputHandler
 (
@@ -2987,12 +2998,11 @@ j_common_ptr
 cinfo
 )
 {
-/
-/
-Suppress
-fprintf
-warnings
-.
+(
+void
+)
+cinfo
+;
 }
 #
 endif
@@ -3058,7 +3068,7 @@ DestroyOutputBuffers
 scanlines_
 =
 new
-uint8
+uint8_t
 *
 *
 [
@@ -3076,7 +3086,7 @@ num_outbufs
 databuf_
 =
 new
-uint8
+uint8_t
 *
 [
 num_outbufs
@@ -3405,7 +3415,7 @@ MJpegDecoder
 :
 SetScanlinePointers
 (
-uint8
+uint8_t
 *
 *
 data
@@ -3427,7 +3437,7 @@ num_outbufs_
 i
 )
 {
-uint8
+uint8_t
 *
 data_i
 =
@@ -3610,7 +3620,6 @@ return
 kJpegYuv420
 ;
 }
-else
 if
 (
 subsample_x
@@ -3671,7 +3680,6 @@ return
 kJpegYuv422
 ;
 }
-else
 if
 (
 subsample_x

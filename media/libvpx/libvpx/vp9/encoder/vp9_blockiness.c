@@ -110,6 +110,17 @@ system_state
 .
 h
 "
+#
+include
+"
+vp9
+/
+encoder
+/
+vp9_blockiness
+.
+h
+"
 static
 int
 horizontal_filter

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-TEST_VIDEO_SOURCE_H_
+VPX_TEST_VIDEO_SOURCE_H_
 #
 define
-TEST_VIDEO_SOURCE_H_
+VPX_TEST_VIDEO_SOURCE_H_
 #
 if
 defined
@@ -1445,4 +1445,4 @@ libvpx_test
 endif
 /
 /
-TEST_VIDEO_SOURCE_H_
+VPX_TEST_VIDEO_SOURCE_H_

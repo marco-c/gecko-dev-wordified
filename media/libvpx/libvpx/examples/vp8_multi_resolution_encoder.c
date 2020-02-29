@@ -507,7 +507,7 @@ img
 ;
 static
 int
-read_frame
+mulres_read_frame
 (
 FILE
 *
@@ -603,7 +603,7 @@ res
 }
 static
 int
-read_frame_by_row
+mulres_read_frame_by_row
 (
 FILE
 *
@@ -3845,12 +3845,12 @@ d_w
 )
 read_frame_p
 =
-read_frame
+mulres_read_frame
 ;
 else
 read_frame_p
 =
-read_frame_by_row
+mulres_read_frame_by_row
 ;
 for
 (

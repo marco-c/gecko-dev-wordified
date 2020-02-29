@@ -1037,7 +1037,7 @@ int16_t
 input
 int16_t
 *
-mb_dq_coeff
+mb_dqcoeff
 )
 {
 v8i16
@@ -1242,7 +1242,7 @@ out1
 =
 3
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 0
 ]
@@ -1253,7 +1253,7 @@ out0
 0
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 16
 ]
@@ -1264,7 +1264,7 @@ out0
 4
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 32
 ]
@@ -1275,7 +1275,7 @@ out1
 0
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 48
 ]
@@ -1286,7 +1286,7 @@ out1
 4
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 64
 ]
@@ -1297,7 +1297,7 @@ out0
 1
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 80
 ]
@@ -1308,7 +1308,7 @@ out0
 5
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 96
 ]
@@ -1319,7 +1319,7 @@ out1
 1
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 112
 ]
@@ -1330,7 +1330,7 @@ out1
 5
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 128
 ]
@@ -1341,7 +1341,7 @@ out0
 2
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 144
 ]
@@ -1352,7 +1352,7 @@ out0
 6
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 160
 ]
@@ -1363,7 +1363,7 @@ out1
 2
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 176
 ]
@@ -1374,7 +1374,7 @@ out1
 6
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 192
 ]
@@ -1385,7 +1385,7 @@ out0
 3
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 208
 ]
@@ -1396,7 +1396,7 @@ out0
 7
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 224
 ]
@@ -1407,7 +1407,7 @@ out1
 3
 )
 ;
-mb_dq_coeff
+mb_dqcoeff
 [
 240
 ]
@@ -2926,10 +2926,10 @@ int16_t
 dq
 uint8_t
 *
-dstu
+dst_u
 uint8_t
 *
-dstv
+dst_v
 int32_t
 stride
 char
@@ -2969,7 +2969,7 @@ dequant_idct4x4_addblk_2x_msa
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -2980,7 +2980,7 @@ dequant_idct_addconst_2x_msa
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -2991,7 +2991,7 @@ q
 =
 32
 ;
-dstu
+dst_u
 +
 =
 (
@@ -3022,7 +3022,7 @@ dequant_idct4x4_addblk_2x_msa
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -3033,7 +3033,7 @@ dequant_idct_addconst_2x_msa
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -3066,7 +3066,7 @@ dequant_idct4x4_addblk_2x_msa
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;
@@ -3077,7 +3077,7 @@ dequant_idct_addconst_2x_msa
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;
@@ -3088,7 +3088,7 @@ q
 =
 32
 ;
-dstv
+dst_v
 +
 =
 (
@@ -3119,7 +3119,7 @@ dequant_idct4x4_addblk_2x_msa
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;
@@ -3130,7 +3130,7 @@ dequant_idct_addconst_2x_msa
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;

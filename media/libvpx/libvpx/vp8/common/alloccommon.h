@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_ALLOCCOMMON_H_
+VPX_VP8_COMMON_ALLOCCOMMON_H_
 #
 define
-VP8_COMMON_ALLOCCOMMON_H_
+VPX_VP8_COMMON_ALLOCCOMMON_H_
 #
 include
 "
@@ -149,7 +149,7 @@ vp8_setup_version
 (
 VP8_COMMON
 *
-oci
+cm
 )
 ;
 #
@@ -168,4 +168,4 @@ endif
 endif
 /
 /
-VP8_COMMON_ALLOCCOMMON_H_
+VPX_VP8_COMMON_ALLOCCOMMON_H_

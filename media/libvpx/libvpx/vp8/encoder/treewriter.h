@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_ENCODER_TREEWRITER_H_
+VPX_VP8_ENCODER_TREEWRITER_H_
 #
 define
-VP8_ENCODER_TREEWRITER_H_
+VPX_VP8_ENCODER_TREEWRITER_H_
 /
 *
 Trees
@@ -398,6 +398,8 @@ int
 v
 int
 n
+)
+{
 /
 *
 number
@@ -409,8 +411,6 @@ assumed
 nonzero
 *
 /
-)
-{
 vp8_tree_index
 i
 =
@@ -515,6 +515,8 @@ int
 v
 int
 n
+)
+{
 /
 *
 number
@@ -526,8 +528,6 @@ assumed
 nonzero
 *
 /
-)
-{
 int
 c
 =
@@ -642,7 +642,7 @@ vp8_cost_tokens
 (
 int
 *
-Costs
+c
 const
 vp8_prob
 *
@@ -654,7 +654,7 @@ vp8_cost_tokens2
 (
 int
 *
-Costs
+c
 const
 vp8_prob
 *
@@ -678,4 +678,4 @@ endif
 endif
 /
 /
-VP8_ENCODER_TREEWRITER_H_
+VPX_VP8_ENCODER_TREEWRITER_H_

@@ -383,6 +383,7 @@ frame_number
 =
 0
 )
+{
 ASSERT_EQ
 (
 VPX_CODEC_OK
@@ -403,6 +404,7 @@ vpx_codec_err_to_string
 res_peek
 )
 ;
+}
 }
 else
 {
@@ -721,6 +723,20 @@ decompressed
 data
 while
 (
+!
+:
+:
+testing
+:
+:
+Test
+:
+:
+HasFailure
+(
+)
+&
+&
 (
 img
 =

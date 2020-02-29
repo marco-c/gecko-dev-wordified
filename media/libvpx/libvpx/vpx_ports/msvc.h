@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_PORTS_MSVC_H_
+VPX_VPX_PORTS_MSVC_H_
 #
 define
-VPX_PORTS_MSVC_H_
+VPX_VPX_PORTS_MSVC_H_
 #
 ifdef
 _MSC_VER
@@ -194,4 +194,4 @@ _MSC_VER
 endif
 /
 /
-VPX_PORTS_MSVC_H_
+VPX_VPX_PORTS_MSVC_H_

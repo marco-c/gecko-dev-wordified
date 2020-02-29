@@ -450,6 +450,18 @@ a_i
 j
 )
 {
+if
+(
+next
++
+j
+>
+=
+256
+)
+goto
+set_noise
+;
 char_dist
 [
 next
@@ -504,6 +516,8 @@ next
 0
 ;
 }
+set_noise
+:
 for
 (
 i

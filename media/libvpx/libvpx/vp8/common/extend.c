@@ -182,6 +182,8 @@ border
 /
 int
 er
+)
+{
 /
 *
 extend
@@ -189,8 +191,6 @@ right
 border
 *
 /
-)
-{
 int
 i
 ;

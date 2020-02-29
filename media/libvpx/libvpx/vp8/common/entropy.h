@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_ENTROPY_H_
+VPX_VP8_COMMON_ENTROPY_H_
 #
 define
-VP8_COMMON_ENTROPY_H_
+VPX_VP8_COMMON_ENTROPY_H_
 #
 include
 "
@@ -789,4 +789,4 @@ endif
 endif
 /
 /
-VP8_COMMON_ENTROPY_H_
+VPX_VP8_COMMON_ENTROPY_H_

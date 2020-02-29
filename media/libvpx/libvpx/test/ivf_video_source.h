@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-TEST_IVF_VIDEO_SOURCE_H_
+VPX_TEST_IVF_VIDEO_SOURCE_H_
 #
 define
-TEST_IVF_VIDEO_SOURCE_H_
+VPX_TEST_IVF_VIDEO_SOURCE_H_
 #
 include
 <
@@ -129,6 +129,8 @@ int
 kCodeBufferSize
 =
 256
+*
+1024
 *
 1024
 ;
@@ -663,4 +665,4 @@ libvpx_test
 endif
 /
 /
-TEST_IVF_VIDEO_SOURCE_H_
+VPX_TEST_IVF_VIDEO_SOURCE_H_

@@ -251,10 +251,10 @@ family
 /
 #
 ifndef
-VPX_VPX_CODEC_H_
+VPX_VPX_VPX_CODEC_H_
 #
 define
-VPX_VPX_CODEC_H_
+VPX_VPX_VPX_CODEC_H_
 #
 ifdef
 __cplusplus
@@ -1533,7 +1533,9 @@ v
 \
 (
 (
+(
 v
+)
 >
 >
 16
@@ -1561,7 +1563,9 @@ v
 \
 (
 (
+(
 v
+)
 >
 >
 8
@@ -1589,7 +1593,9 @@ v
 \
 (
 (
+(
 v
+)
 >
 >
 0
@@ -2986,4 +2992,4 @@ endif
 endif
 /
 /
-VPX_VPX_CODEC_H_
+VPX_VPX_VPX_CODEC_H_

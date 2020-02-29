@@ -102,6 +102,15 @@ h
 #
 include
 "
+.
+/
+vp9_rtcd
+.
+h
+"
+#
+include
+"
 vp9
 /
 common
@@ -113,9 +122,11 @@ h
 int64_t
 vp9_highbd_block_error_sse2
 (
+const
 tran_low_t
 *
 coeff
+const
 tran_low_t
 *
 dqcoeff
@@ -125,7 +136,7 @@ int64_t
 *
 ssz
 int
-bps
+bd
 )
 {
 int
@@ -162,7 +173,7 @@ shift
 2
 *
 (
-bps
+bd
 -
 8
 )
@@ -216,6 +227,7 @@ mm_coeff
 _mm_load_si128
 (
 (
+const
 __m128i
 *
 )
@@ -232,6 +244,7 @@ mm_coeff2
 _mm_load_si128
 (
 (
+const
 __m128i
 *
 )
@@ -250,6 +263,7 @@ mm_dqcoeff
 _mm_load_si128
 (
 (
+const
 __m128i
 *
 )
@@ -266,6 +280,7 @@ mm_dqcoeff2
 _mm_load_si128
 (
 (
+const
 __m128i
 *
 )
@@ -300,6 +315,9 @@ min
 =
 _mm_set1_epi32
 (
+(
+int32_t
+)
 0xffffc000
 )
 ;

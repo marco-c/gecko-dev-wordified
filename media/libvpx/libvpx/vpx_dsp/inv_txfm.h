@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_INV_TXFM_H_
+VPX_VPX_DSP_INV_TXFM_H_
 #
 define
-VPX_DSP_INV_TXFM_H_
+VPX_VPX_DSP_INV_TXFM_H_
 #
 include
 <
@@ -974,4 +974,4 @@ endif
 endif
 /
 /
-VPX_DSP_INV_TXFM_H_
+VPX_VPX_DSP_INV_TXFM_H_

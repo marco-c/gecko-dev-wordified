@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-ARGS_H_
+VPX_ARGS_H_
 #
 define
-ARGS_H_
+VPX_ARGS_H_
 #
 include
 <
@@ -367,4 +367,4 @@ endif
 endif
 /
 /
-ARGS_H_
+VPX_ARGS_H_

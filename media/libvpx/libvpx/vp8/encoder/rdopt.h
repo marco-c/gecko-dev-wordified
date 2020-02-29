@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_ENCODER_RDOPT_H_
+VPX_VP8_ENCODER_RDOPT_H_
 #
 define
-VP8_ENCODER_RDOPT_H_
+VPX_VP8_ENCODER_RDOPT_H_
 #
 include
 "
@@ -418,7 +418,6 @@ tempi
 }
 }
 }
-extern
 void
 vp8_initialize_rd_consts
 (
@@ -432,7 +431,6 @@ int
 Qvalue
 )
 ;
-extern
 void
 vp8_rd_pick_inter_mode
 (
@@ -461,7 +459,6 @@ int
 mb_col
 )
 ;
-extern
 void
 vp8_rd_pick_intra_mode
 (
@@ -774,7 +771,6 @@ i
 1
 ;
 }
-extern
 void
 vp8_mv_pred
 (
@@ -875,4 +871,4 @@ endif
 endif
 /
 /
-VP8_ENCODER_RDOPT_H_
+VPX_VP8_ENCODER_RDOPT_H_

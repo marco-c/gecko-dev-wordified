@@ -108,6 +108,11 @@ h
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -2112,9 +2117,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 FdctFunc
@@ -2128,9 +2130,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 FhtFunc
@@ -2142,9 +2141,6 @@ Ht16x16Param
 ;
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -5586,9 +5582,6 @@ thresh_
 }
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

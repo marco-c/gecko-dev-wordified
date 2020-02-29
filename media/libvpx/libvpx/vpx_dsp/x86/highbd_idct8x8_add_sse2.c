@@ -1417,12 +1417,12 @@ io
 ]
 )
 ;
-idct8_sse2
+vpx_idct8_sse2
 (
 io_short
 )
 ;
-idct8_sse2
+vpx_idct8_sse2
 (
 io_short
 )

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_PPFLAGS_H_
+VPX_VP8_COMMON_PPFLAGS_H_
 #
 define
-VP8_COMMON_PPFLAGS_H_
+VPX_VP8_COMMON_PPFLAGS_H_
 #
 ifdef
 __cplusplus
@@ -175,4 +175,4 @@ endif
 endif
 /
 /
-VP8_COMMON_PPFLAGS_H_
+VPX_VP8_COMMON_PPFLAGS_H_

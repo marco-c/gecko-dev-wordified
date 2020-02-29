@@ -92,6 +92,11 @@ string
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 test
 /
@@ -193,9 +198,6 @@ using
 std
 :
 :
-tr1
-:
-:
 make_tuple
 ;
 namespace
@@ -247,9 +249,6 @@ with
 /
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -1126,7 +1125,7 @@ frame
 )
 =
 =
-1
+0
 )
 {
 encoder

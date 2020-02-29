@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_RECONINTRA4X4_H_
+VPX_VP8_COMMON_RECONINTRA4X4_H_
 #
 define
-VP8_COMMON_RECONINTRA4X4_H_
+VPX_VP8_COMMON_RECONINTRA4X4_H_
 #
 include
 "
@@ -243,7 +243,7 @@ vp8_intra4x4_predict
 unsigned
 char
 *
-Above
+above
 unsigned
 char
 *
@@ -285,4 +285,4 @@ endif
 endif
 /
 /
-VP8_COMMON_RECONINTRA4X4_H_
+VPX_VP8_COMMON_RECONINTRA4X4_H_

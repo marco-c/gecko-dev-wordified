@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_DECODER_EC_TYPES_H_
+VPX_VP8_DECODER_EC_TYPES_H_
 #
 define
-VP8_DECODER_EC_TYPES_H_
+VPX_VP8_DECODER_EC_TYPES_H_
 #
 ifdef
 __cplusplus
@@ -283,4 +283,4 @@ endif
 endif
 /
 /
-VP8_DECODER_EC_TYPES_H_
+VPX_VP8_DECODER_EC_TYPES_H_

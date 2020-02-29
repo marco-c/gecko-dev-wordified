@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_DECODER_TREEREADER_H_
+VPX_VP8_DECODER_TREEREADER_H_
 #
 define
-VP8_DECODER_TREEREADER_H_
+VPX_VP8_DECODER_TREEREADER_H_
 #
 include
 "
@@ -200,7 +200,6 @@ const
 p
 )
 {
-register
 vp8_tree_index
 i
 =
@@ -254,4 +253,4 @@ endif
 endif
 /
 /
-VP8_DECODER_TREEREADER_H_
+VPX_VP8_DECODER_TREEREADER_H_

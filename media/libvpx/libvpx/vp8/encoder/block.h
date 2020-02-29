@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_ENCODER_BLOCK_H_
+VPX_VP8_ENCODER_BLOCK_H_
 #
 define
-VP8_ENCODER_BLOCK_H_
+VPX_VP8_ENCODER_BLOCK_H_
 #
 include
 "
@@ -861,4 +861,4 @@ endif
 endif
 /
 /
-VP8_ENCODER_BLOCK_H_
+VPX_VP8_ENCODER_BLOCK_H_

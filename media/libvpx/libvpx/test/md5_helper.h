@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-TEST_MD5_HELPER_H_
+VPX_TEST_MD5_HELPER_H_
 #
 define
-TEST_MD5_HELPER_H_
+VPX_TEST_MD5_HELPER_H_
 #
 include
 "
@@ -545,4 +545,4 @@ libvpx_test
 endif
 /
 /
-TEST_MD5_HELPER_H_
+VPX_TEST_MD5_HELPER_H_

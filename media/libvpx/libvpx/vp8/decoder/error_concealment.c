@@ -1279,8 +1279,9 @@ overlap
 }
 }
 }
+static
 void
-vp8_calculate_overlaps
+calculate_overlaps
 (
 MB_OVERLAP
 *
@@ -2460,7 +2461,7 @@ sub_col
 sub_col
 )
 {
-vp8_calculate_overlaps
+calculate_overlaps
 (
 overlaps
 mb_rows

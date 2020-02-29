@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_PORTS_VPX_ONCE_H_
+VPX_VPX_PORTS_VPX_ONCE_H_
 #
 define
-VPX_PORTS_VPX_ONCE_H_
+VPX_VPX_PORTS_VPX_ONCE_H_
 #
 include
 "
@@ -885,4 +885,4 @@ endif
 endif
 /
 /
-VPX_PORTS_VPX_ONCE_H_
+VPX_VPX_PORTS_VPX_ONCE_H_

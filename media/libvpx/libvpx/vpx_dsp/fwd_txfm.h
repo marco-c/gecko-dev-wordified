@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_FWD_TXFM_H_
+VPX_VPX_DSP_FWD_TXFM_H_
 #
 define
-VPX_DSP_FWD_TXFM_H_
+VPX_VPX_DSP_FWD_TXFM_H_
 #
 include
 "
@@ -180,4 +180,4 @@ round
 endif
 /
 /
-VPX_DSP_FWD_TXFM_H_
+VPX_VPX_DSP_FWD_TXFM_H_

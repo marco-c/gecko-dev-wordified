@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_ENCODER_VP9_ETHREAD_H_
+VPX_VP9_ENCODER_VP9_ETHREAD_H_
 #
 define
-VP9_ENCODER_VP9_ETHREAD_H_
+VPX_VP9_ENCODER_VP9_ETHREAD_H_
 #
 ifdef
 __cplusplus
@@ -167,11 +167,11 @@ if
 CONFIG_MULTITHREAD
 pthread_mutex_t
 *
-mutex_
+mutex
 ;
 pthread_cond_t
 *
-cond_
+cond
 ;
 #
 endif
@@ -362,4 +362,4 @@ endif
 endif
 /
 /
-VP9_ENCODER_VP9_ETHREAD_H_
+VPX_VP9_ENCODER_VP9_ETHREAD_H_

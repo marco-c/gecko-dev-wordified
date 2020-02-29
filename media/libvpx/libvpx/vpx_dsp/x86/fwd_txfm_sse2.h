@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_X86_FWD_TXFM_SSE2_H_
+VPX_VPX_DSP_X86_FWD_TXFM_SSE2_H_
 #
 define
-VPX_DSP_X86_FWD_TXFM_SSE2_H_
+VPX_VPX_DSP_X86_FWD_TXFM_SSE2_H_
 #
 ifdef
 __cplusplus
@@ -270,6 +270,9 @@ min_overflow
 =
 _mm_set1_epi16
 (
+(
+short
+)
 0x8000
 )
 ;
@@ -364,6 +367,9 @@ min_overflow
 =
 _mm_set1_epi16
 (
+(
+short
+)
 0x8000
 )
 ;
@@ -2956,4 +2962,4 @@ endif
 endif
 /
 /
-VPX_DSP_X86_FWD_TXFM_SSE2_H_
+VPX_VPX_DSP_X86_FWD_TXFM_SSE2_H_

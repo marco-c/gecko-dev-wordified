@@ -217,6 +217,16 @@ bit
 }
 else
 {
+if
+(
+rb
+-
+>
+error_handler
+!
+=
+NULL
+)
 rb
 -
 >

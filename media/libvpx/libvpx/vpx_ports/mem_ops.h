@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_PORTS_MEM_OPS_H_
+VPX_VPX_PORTS_MEM_OPS_H_
 #
 define
-VPX_PORTS_MEM_OPS_H_
+VPX_VPX_PORTS_MEM_OPS_H_
 /
 *
 \
@@ -1548,4 +1548,4 @@ on
 endif
 /
 /
-VPX_PORTS_MEM_OPS_H_
+VPX_VPX_PORTS_MEM_OPS_H_

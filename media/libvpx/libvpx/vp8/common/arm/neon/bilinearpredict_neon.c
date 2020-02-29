@@ -111,6 +111,15 @@ h
 #
 include
 "
+.
+/
+vp8_rtcd
+.
+h
+"
+#
+include
+"
 vpx_dsp
 /
 arm

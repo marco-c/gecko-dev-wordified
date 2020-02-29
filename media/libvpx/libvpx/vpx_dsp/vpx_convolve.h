@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VPX_DSP_VPX_CONVOLVE_H_
+VPX_VPX_DSP_VPX_CONVOLVE_H_
 #
 define
-VPX_DSP_VPX_CONVOLVE_H_
+VPX_VPX_DSP_VPX_CONVOLVE_H_
 #
 include
 "
@@ -214,4 +214,4 @@ endif
 endif
 /
 /
-VPX_DSP_VPX_CONVOLVE_H_
+VPX_VPX_DSP_VPX_CONVOLVE_H_

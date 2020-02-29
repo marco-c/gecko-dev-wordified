@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_COMMON_VP9_MFQE_H_
+VPX_VP9_COMMON_VP9_MFQE_H_
 #
 define
-VP9_COMMON_VP9_MFQE_H_
+VPX_VP9_COMMON_VP9_MFQE_H_
 #
 ifdef
 __cplusplus
@@ -210,4 +210,4 @@ endif
 endif
 /
 /
-VP9_COMMON_VP9_MFQE_H_
+VPX_VP9_COMMON_VP9_MFQE_H_

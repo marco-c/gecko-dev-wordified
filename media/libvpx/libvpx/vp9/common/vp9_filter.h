@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_COMMON_VP9_FILTER_H_
+VPX_VP9_COMMON_VP9_FILTER_H_
 #
 define
-VP9_COMMON_VP9_FILTER_H_
+VPX_VP9_COMMON_VP9_FILTER_H_
 #
 include
 "
@@ -165,6 +165,10 @@ filters
 define
 BILINEAR
 3
+#
+define
+FOURTAP
+4
 /
 /
 The
@@ -231,7 +235,7 @@ InterpKernel
 *
 vp9_filter_kernels
 [
-4
+5
 ]
 ;
 #
@@ -250,4 +254,4 @@ endif
 endif
 /
 /
-VP9_COMMON_VP9_FILTER_H_
+VPX_VP9_COMMON_VP9_FILTER_H_

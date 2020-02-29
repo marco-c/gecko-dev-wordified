@@ -90,6 +90,15 @@ include
 "
 .
 /
+vpx_config
+.
+h
+"
+#
+include
+"
+.
+/
 vp9_rtcd
 .
 h
@@ -588,6 +597,10 @@ err
 ;
 \
 }
+#
+if
+!
+CONFIG_VP9_HIGHBITDEPTH
 BLOCK_ERROR_BLOCKSIZE_MSA
 (
 16
@@ -733,3 +746,9 @@ return
 err
 ;
 }
+#
+endif
+/
+/
+!
+CONFIG_VP9_HIGHBITDEPTH

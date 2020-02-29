@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_COMMON_VP9_RECONINTER_H_
+VPX_VP9_COMMON_VP9_RECONINTER_H_
 #
 define
-VP9_COMMON_VP9_RECONINTER_H_
+VPX_VP9_COMMON_VP9_RECONINTER_H_
 #
 include
 "
@@ -420,7 +420,7 @@ dst_stride
 const
 MV
 *
-mv_q3
+src_mv
 const
 struct
 scale_factors
@@ -431,7 +431,7 @@ w
 int
 h
 int
-do_avg
+ref
 const
 InterpKernel
 *
@@ -465,7 +465,7 @@ dst_stride
 const
 MV
 *
-mv_q3
+src_mv
 const
 struct
 scale_factors
@@ -476,7 +476,7 @@ w
 int
 h
 int
-do_avg
+ref
 const
 InterpKernel
 *
@@ -496,7 +496,7 @@ bd
 endif
 static
 INLINE
-int
+int64_t
 scaled_buffer_offset
 (
 int
@@ -547,6 +547,9 @@ sf
 y_offset
 ;
 return
+(
+int64_t
+)
 y
 *
 stride
@@ -690,4 +693,4 @@ endif
 endif
 /
 /
-VP9_COMMON_VP9_RECONINTER_H_
+VPX_VP9_COMMON_VP9_RECONINTER_H_

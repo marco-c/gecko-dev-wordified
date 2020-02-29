@@ -1472,6 +1472,8 @@ hang
 namespace
 impl
 {
+namespace
+{
 void
 Init
 (
@@ -1588,6 +1590,10 @@ worker
 )
 {
 }
+}
+/
+/
+namespace
 }
 /
 /

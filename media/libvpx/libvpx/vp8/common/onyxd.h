@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_ONYXD_H_
+VPX_VP8_COMMON_ONYXD_H_
 #
 define
-VP8_COMMON_ONYXD_H_
+VPX_VP8_COMMON_ONYXD_H_
 /
 *
 Create
@@ -230,13 +230,7 @@ vp8dx_receive_compressed_data
 struct
 VP8D_COMP
 *
-comp
-size_t
-size
-const
-uint8_t
-*
-dest
+pbi
 int64_t
 time_stamp
 )
@@ -247,7 +241,7 @@ vp8dx_get_raw_frame
 struct
 VP8D_COMP
 *
-comp
+pbi
 YV12_BUFFER_CONFIG
 *
 sd
@@ -279,7 +273,7 @@ vp8dx_get_reference
 struct
 VP8D_COMP
 *
-comp
+pbi
 enum
 vpx_ref_frame_type
 ref_frame_flag
@@ -294,7 +288,7 @@ vp8dx_set_reference
 struct
 VP8D_COMP
 *
-comp
+pbi
 enum
 vpx_ref_frame_type
 ref_frame_flag
@@ -310,7 +304,7 @@ const
 struct
 VP8D_COMP
 *
-c
+pbi
 )
 ;
 #
@@ -323,4 +317,4 @@ endif
 endif
 /
 /
-VP8_COMMON_ONYXD_H_
+VPX_VP8_COMMON_ONYXD_H_

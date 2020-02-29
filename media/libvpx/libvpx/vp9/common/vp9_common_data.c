@@ -297,11 +297,11 @@ VPXMIN
 3
 VPXMIN
 (
-b_width_log2
+b_width_log2_lookup
 (
 bsize
 )
-b_height_log2
+b_height_log2_lookup
 (
 bsize
 )

@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_ENCODER_MODECOSTS_H_
+VPX_VP8_ENCODER_MODECOSTS_H_
 #
 define
-VP8_ENCODER_MODECOSTS_H_
+VPX_VP8_ENCODER_MODECOSTS_H_
 #
 ifdef
 __cplusplus
@@ -110,7 +110,7 @@ vp8_init_mode_costs
 struct
 VP8_COMP
 *
-x
+c
 )
 ;
 #
@@ -129,4 +129,4 @@ endif
 endif
 /
 /
-VP8_ENCODER_MODECOSTS_H_
+VPX_VP8_ENCODER_MODECOSTS_H_

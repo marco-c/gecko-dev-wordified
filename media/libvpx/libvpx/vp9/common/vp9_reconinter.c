@@ -929,6 +929,10 @@ MV
 clamped_mv
 =
 {
+(
+short
+)
+(
 src_mv
 -
 >
@@ -944,6 +948,11 @@ row
 ss_y
 )
 )
+)
+(
+short
+)
+(
 src_mv
 -
 >
@@ -957,6 +966,7 @@ col
 1
 -
 ss_x
+)
 )
 )
 }
@@ -1358,6 +1368,9 @@ dst_buf
 >
 buf
 +
+(
+int64_t
+)
 dst_buf
 -
 >
@@ -1797,6 +1810,9 @@ pre_buf
 buf
 +
 (
+(
+int64_t
+)
 y
 *
 pre_buf

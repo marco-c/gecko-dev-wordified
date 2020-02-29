@@ -111,9 +111,9 @@ h
 #
 include
 "
-vpx_dsp
+vpx
 /
-vpx_filter
+vpx_integer
 .
 h
 "
@@ -128,6 +128,15 @@ types_vsx
 .
 h
 "
+#
+include
+"
+vpx_dsp
+/
+vpx_filter
+.
+h
+"
 /
 /
 TODO
@@ -137,7 +146,7 @@ lu_zero
 :
 unroll
 static
-inline
+VPX_FORCE_INLINE
 void
 copy_w16
 (
@@ -195,7 +204,7 @@ dst_stride
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 copy_w32
 (
@@ -264,7 +273,7 @@ dst_stride
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 copy_w64
 (
@@ -506,7 +515,7 @@ break
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 avg_w16
 (
@@ -578,7 +587,7 @@ dst_stride
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 avg_w32
 (
@@ -675,7 +684,7 @@ dst_stride
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 avg_w64
 (
@@ -930,7 +939,7 @@ break
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_line
 (
@@ -1027,7 +1036,7 @@ dst
 ;
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_line_h
 (
@@ -1092,7 +1101,7 @@ block
 special
 cases
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_horiz
 (
@@ -1209,7 +1218,7 @@ dst_stride
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_avg_horiz
 (
@@ -1449,7 +1458,7 @@ efgh
 ;
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_line_v
 (
@@ -1625,7 +1634,7 @@ f
 ;
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_vert
 (
@@ -1751,7 +1760,7 @@ dst
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve_avg_vert
 (
@@ -1897,7 +1906,7 @@ dst
 }
 }
 static
-inline
+VPX_FORCE_INLINE
 void
 convolve
 (

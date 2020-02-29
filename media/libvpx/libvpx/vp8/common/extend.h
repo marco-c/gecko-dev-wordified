@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP8_COMMON_EXTEND_H_
+VPX_VP8_COMMON_EXTEND_H_
 #
 define
-VP8_COMMON_EXTEND_H_
+VPX_VP8_COMMON_EXTEND_H_
 #
 include
 "
@@ -176,4 +176,4 @@ endif
 endif
 /
 /
-VP8_COMMON_EXTEND_H_
+VPX_VP8_COMMON_EXTEND_H_

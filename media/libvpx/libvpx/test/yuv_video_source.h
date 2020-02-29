@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-TEST_YUV_VIDEO_SOURCE_H_
+VPX_TEST_YUV_VIDEO_SOURCE_H_
 #
 define
-TEST_YUV_VIDEO_SOURCE_H_
+VPX_TEST_YUV_VIDEO_SOURCE_H_
 #
 include
 <
@@ -771,4 +771,4 @@ libvpx_test
 endif
 /
 /
-TEST_YUV_VIDEO_SOURCE_H_
+VPX_TEST_YUV_VIDEO_SOURCE_H_

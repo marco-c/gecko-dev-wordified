@@ -645,10 +645,8 @@ in
 ]
 ;
 }
-static
-INLINE
 void
-highbd_idct16_4col
+vpx_highbd_idct16_4col_sse4_1
 (
 __m128i
 *
@@ -2340,7 +2338,7 @@ in
 ]
 )
 ;
-highbd_idct16_4col
+vpx_highbd_idct16_4col_sse4_1
 (
 in
 )
@@ -2424,7 +2422,7 @@ out
 12
 )
 ;
-highbd_idct16_4col
+vpx_highbd_idct16_4col_sse4_1
 (
 out
 )

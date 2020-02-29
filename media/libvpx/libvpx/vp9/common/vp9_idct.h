@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-VP9_COMMON_VP9_IDCT_H_
+VPX_VP9_COMMON_VP9_IDCT_H_
 #
 define
-VP9_COMMON_VP9_IDCT_H_
+VPX_VP9_COMMON_VP9_IDCT_H_
 #
 include
 <
@@ -542,4 +542,4 @@ endif
 endif
 /
 /
-VP9_COMMON_VP9_IDCT_H_
+VPX_VP9_COMMON_VP9_IDCT_H_

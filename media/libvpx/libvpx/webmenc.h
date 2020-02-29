@@ -87,10 +87,10 @@ tree
 /
 #
 ifndef
-WEBMENC_H_
+VPX_WEBMENC_H_
 #
 define
-WEBMENC_H_
+VPX_WEBMENC_H_
 #
 include
 <
@@ -250,4 +250,4 @@ endif
 endif
 /
 /
-WEBMENC_H_
+VPX_WEBMENC_H_
