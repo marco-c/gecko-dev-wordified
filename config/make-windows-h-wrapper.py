@@ -63,10 +63,6 @@ import
 textwrap
 import
 string
-from
-system_header_util
-import
-header_path
 comment_re
 =
 re
@@ -754,18 +750,6 @@ args
 )
 )
     
-path
-=
-header_path
-(
-'
-windows
-.
-h
-'
-compiler
-)
-    
 #
 Write
 out
@@ -781,9 +765,6 @@ template
 .
 substitute
 (
-header_path
-=
-path
 decls
 =
 decls

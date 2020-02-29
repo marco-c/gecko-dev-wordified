@@ -71,10 +71,6 @@ mozbuild
 util
 import
 FileAvoidWrite
-from
-system_header_util
-import
-header_path
 #
 The
 '
@@ -131,14 +127,6 @@ in
 header_list
 :
         
-path
-=
-header_path
-(
-header
-compiler
-)
-        
 with
 FileAvoidWrite
 (
@@ -172,9 +160,5 @@ substitute
 HEADER
 =
 header
-                                                         
-HEADER_PATH
-=
-path
 )
 )
