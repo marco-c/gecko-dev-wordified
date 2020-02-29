@@ -1406,39 +1406,6 @@ num_procs
 )
 :
         
-def
-__get_current_paths
-(
-path
-=
-self
-.
-root
-)
-:
-            
-return
-[
-os
-.
-path
-.
-join
-(
-path
-p
-)
-for
-p
-in
-os
-.
-listdir
-(
-path
-)
-]
-        
 "
 "
 "
@@ -1517,9 +1484,11 @@ vcs_paths
                 
 lpaths
 =
-__get_current_paths
-(
-)
+[
+self
+.
+root
+]
                 
 print
 (
@@ -1578,14 +1547,13 @@ list
 lpaths
 )
 or
-__get_current_paths
-(
+[
 os
 .
 getcwd
 (
 )
-)
+]
             
 chunk_size
 =
