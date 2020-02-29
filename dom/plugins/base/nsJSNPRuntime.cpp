@@ -133,9 +133,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsAutoPtr
 .
 h
 "
@@ -1942,7 +1940,7 @@ free
 these
 objects
 .
-UniquePtr
+nsAutoPtr
 <
 nsTArray
 <

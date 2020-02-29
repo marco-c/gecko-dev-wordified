@@ -387,7 +387,7 @@ defined
 (
 MOZ_SANDBOX
 )
-UniquePtr
+nsAutoPtr
 <
 FunctionBrokerThread
 >
