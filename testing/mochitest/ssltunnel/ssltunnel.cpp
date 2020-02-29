@@ -975,8 +975,8 @@ on
 the
 thread
 pool
-typedef
 struct
+server_info_t
 {
 int32_t
 listen_port
@@ -1025,10 +1025,9 @@ PLHashTable
 host_failhandshake_table
 ;
 }
-server_info_t
 ;
-typedef
 struct
+connection_info_t
 {
 PRFileDesc
 *
@@ -1094,10 +1093,9 @@ bool
 iswebsocket
 ;
 }
-connection_info_t
 ;
-typedef
 struct
+server_match_t
 {
 string
 fullHost
@@ -1106,7 +1104,6 @@ bool
 matched
 ;
 }
-server_match_t
 ;
 const
 int32_t
