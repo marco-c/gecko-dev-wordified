@@ -6093,6 +6093,12 @@ State
 :
 DirectoryOpenPending
 ;
+RefPtr
+<
+DirectoryLock
+>
+pendingDirectoryLock
+=
 QuotaManager
 :
 :
