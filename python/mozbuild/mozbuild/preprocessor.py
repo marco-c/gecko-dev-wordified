@@ -209,6 +209,12 @@ mozbuild
 makeutil
 import
 Makefile
+from
+mozpack
+.
+path
+import
+normsep
 #
 hack
 around
@@ -6528,6 +6534,8 @@ abspath
 OBJDIR
 '
 +
+normsep
+(
 abspath
 [
 len
@@ -6538,6 +6546,7 @@ topobjdir
 )
 :
 ]
+)
             
 elif
 self
@@ -6559,6 +6568,8 @@ abspath
 SRCDIR
 '
 +
+normsep
+(
 abspath
 [
 len
@@ -6569,6 +6580,7 @@ topsrcdir
 )
 :
 ]
+)
             
 self
 .
