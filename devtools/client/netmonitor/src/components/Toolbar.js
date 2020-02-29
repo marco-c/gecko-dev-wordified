@@ -1114,8 +1114,6 @@ networkActionBarOpen
 PropTypes
 .
 bool
-.
-isRequired
 toggleRequestBlockingPanel
 :
 PropTypes
