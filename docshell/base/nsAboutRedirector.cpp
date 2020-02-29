@@ -438,7 +438,7 @@ content
 /
 aboutAbout
 .
-xhtml
+html
 "
 0
 }
