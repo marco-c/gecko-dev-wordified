@@ -34107,10 +34107,14 @@ sharedData
 Initialize
 trailing
 arrays
+if
+(
+!
 stencil
 .
 initAtomMap
 (
+cx
 data
 -
 >
@@ -34118,7 +34122,12 @@ atoms
 (
 )
 )
+)
+{
+return
+false
 ;
+}
 return
 ImmutableScriptData
 :
