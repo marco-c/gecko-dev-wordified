@@ -142,10 +142,7 @@ int32_t
 aLength
 )
 ;
-mozilla
-:
-:
-UniquePtr
+nsAutoPtr
 <
 nsHtml5Highlighter
 >

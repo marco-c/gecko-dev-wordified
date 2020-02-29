@@ -9103,10 +9103,7 @@ builder
 ;
 mViewSource
 =
-WrapUnique
-(
 aHighlighter
-)
 ;
 }
 void

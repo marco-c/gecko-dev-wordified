@@ -551,10 +551,7 @@ aHighlighter
 {
 mViewSource
 =
-WrapUnique
-(
 aHighlighter
-)
 ;
 }
 bool
