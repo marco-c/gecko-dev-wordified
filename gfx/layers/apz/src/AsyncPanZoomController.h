@@ -11814,10 +11814,8 @@ testing
 LayerToParentLayerScale
 mTestAsyncZoom
 ;
-int
+uint8_t
 mTestAttributeAppliers
-:
-8
 ;
 /
 /
@@ -11847,8 +11845,6 @@ frame
 .
 bool
 mAsyncTransformAppliedToContent
-:
-1
 ;
 /
 /
@@ -11868,8 +11864,6 @@ scrolled
 .
 bool
 mTestHasAsyncKeyScrolled
-:
-1
 ;
 /
 *
