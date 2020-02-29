@@ -12234,6 +12234,14 @@ ReftestFissionChild
 .
 jsm
 "
+events
+:
+{
+MozAfterPaint
+:
+{
+}
+}
 }
 allFrames
 :
