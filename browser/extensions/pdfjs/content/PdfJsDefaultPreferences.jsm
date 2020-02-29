@@ -1,7 +1,7 @@
 /
 *
 Copyright
-2019
+2020
 Mozilla
 Foundation
 *
@@ -207,6 +207,11 @@ externalLinkTarget
 0
 "
 historyUpdateUrl
+"
+:
+false
+"
+ignoreDestinationZoom
 "
 :
 false
