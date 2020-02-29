@@ -747,6 +747,18 @@ in
 OBJDIR
     
 '
+frontend
+/
+smoosh_generated
+.
+h
+'
+#
+generated
+in
+OBJDIR
+    
+'
 gc
 /
 StatsPhasesGenerated
