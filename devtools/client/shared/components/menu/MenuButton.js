@@ -1322,7 +1322,7 @@ this
 .
 tooltip
 .
-show
+updateContainerBounds
 (
 this
 .
