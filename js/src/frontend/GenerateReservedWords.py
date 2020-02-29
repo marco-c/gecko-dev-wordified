@@ -845,10 +845,10 @@ list
     
 columns
 =
+list
+(
 columns
-[
-:
-]
+)
     
 columns
 [
