@@ -1101,11 +1101,6 @@ Test
 search
 engine
 "
-"
-engine
--
-pref
-"
 /
 /
 Rest
@@ -1122,6 +1117,11 @@ resourceicon
 engine
 -
 chromeicon
+"
+"
+engine
+-
+pref
 "
 "
 engine
