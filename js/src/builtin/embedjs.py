@@ -401,6 +401,12 @@ from
 mozfile
 import
 which
+from
+mozbuild
+.
+util
+import
+ensure_bytes
 def
 ToCAsciiArray
 (
@@ -473,10 +479,7 @@ append
 (
 str
 (
-ord
-(
 chr
-)
 )
 )
     
@@ -854,7 +857,10 @@ zlib
 .
 compress
 (
+ensure_bytes
+(
 processed
+)
 )
     
 data
@@ -1078,7 +1084,10 @@ input
 .
 write
 (
+ensure_bytes
+(
 source
+)
 )
     
 print
