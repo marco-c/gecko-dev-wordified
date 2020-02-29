@@ -34100,6 +34100,9 @@ jitScript
 modifiesArguments
 (
 )
+&
+&
+argumentsContentsObserved
 )
 {
 return
