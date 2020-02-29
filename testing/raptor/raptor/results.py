@@ -1510,6 +1510,11 @@ and
 success
 and
 validate_success
+and
+not
+self
+.
+page_timeout_list
 class
 BrowsertimeResultsHandler
 (
