@@ -4961,6 +4961,16 @@ this
 if
 (
 mRootNode
+&
+&
+MOZ_LOG_TEST
+(
+sApzMgrLog
+LogLevel
+:
+:
+Debug
+)
 )
 {
 mRootNode
