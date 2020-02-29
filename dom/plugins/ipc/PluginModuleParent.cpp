@@ -317,7 +317,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1974,7 +1976,7 @@ PluginModuleMapping
 NotifyLoadingModule
 loadingModule
 ;
-nsAutoPtr
+UniquePtr
 <
 PluginModuleMapping
 >
@@ -2183,9 +2185,12 @@ forget
 it
 here
 .
+Unused
+<
+<
 mapping
 .
-forget
+release
 (
 )
 ;
@@ -2228,7 +2233,7 @@ PPluginModuleParent
 aEndpoint
 )
 {
-nsAutoPtr
+UniquePtr
 <
 PluginModuleMapping
 >
@@ -2398,9 +2403,12 @@ forget
 it
 here
 .
+Unused
+<
+<
 moduleMapping
 .
-forget
+release
 (
 )
 ;
@@ -2428,7 +2436,7 @@ aPluginTag
 {
 PLUGIN_LOG_DEBUG_FUNCTION
 ;
-nsAutoPtr
+UniquePtr
 <
 PluginModuleChromeParent
 >
@@ -2456,6 +2464,10 @@ new
 LaunchedTask
 (
 parent
+.
+get
+(
+)
 )
 )
 ;
@@ -2703,7 +2715,7 @@ endif
 return
 parent
 .
-forget
+release
 (
 )
 ;
