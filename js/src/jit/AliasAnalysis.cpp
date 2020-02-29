@@ -1207,15 +1207,6 @@ MDefinition
 Opcode
 :
 :
-GetFrameArgument
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 CompareExchangeTypedArrayElement
 :
 case
