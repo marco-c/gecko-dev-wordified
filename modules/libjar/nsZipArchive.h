@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -2348,7 +2341,7 @@ mozilla
 AutoFDClose
 mNSPRFileDesc
 ;
-nsAutoPtr
+UniquePtr
 <
 nsZipItemPtr
 <
