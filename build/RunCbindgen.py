@@ -116,7 +116,7 @@ toml
 as
 f
 :
-          
+            
 return
 pytoml
 .
@@ -136,6 +136,7 @@ name
 ]
     
 except
+Exception
 :
         
 return
