@@ -4433,6 +4433,16 @@ AbortReasonOr
 <
 Ok
 >
+jsop_getarg
+(
+uint32_t
+arg
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_setarg
 (
 uint32_t
