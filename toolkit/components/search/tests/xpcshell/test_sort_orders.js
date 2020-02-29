@@ -957,11 +957,6 @@ modernConfig
 ?
 [
 "
-Test
-search
-engine
-"
-"
 engine
 -
 pref
@@ -984,6 +979,11 @@ purpose
 engine
 -
 chromeicon
+"
+"
+Test
+search
+engine
 "
 "
 Test
@@ -1000,11 +1000,6 @@ nonbuiltin1
 :
 [
 "
-Test
-search
-engine
-"
-"
 engine
 -
 pref
@@ -1027,6 +1022,11 @@ purpose
 engine
 -
 chromeicon
+"
+"
+Test
+search
+engine
 "
 "
 nonbuiltin1
