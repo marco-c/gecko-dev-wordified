@@ -4439,6 +4439,13 @@ sel
 value
 )
 ;
+await
+TestUtils
+.
+waitForTick
+(
+)
+;
 }
 }
 async
