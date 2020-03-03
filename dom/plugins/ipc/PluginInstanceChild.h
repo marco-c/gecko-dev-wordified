@@ -241,7 +241,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -2068,7 +2070,7 @@ mPendingFlashThrottleMsgs
 endif
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 ChildTimer
 >
@@ -2112,7 +2114,7 @@ mObjectMap
 .
 *
 /
-nsAutoPtr
+UniquePtr
 <
 nsTHashtable
 <
