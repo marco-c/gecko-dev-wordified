@@ -600,8 +600,8 @@ m_lastAnchor
 float
 m_lastFilterStageGain
 ;
-typedef
 struct
+ZeroPoleFilterPack4
 {
 ZeroPole
 filters
@@ -628,7 +628,6 @@ this
 ;
 }
 }
-ZeroPoleFilterPack4
 ;
 /
 /
