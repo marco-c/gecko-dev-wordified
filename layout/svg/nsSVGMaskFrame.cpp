@@ -746,7 +746,10 @@ StyleSVG
 mColorInterpolation
 =
 =
-NS_STYLE_COLOR_INTERPOLATION_LINEARRGB
+StyleColorInterpolation
+:
+:
+Linearrgb
 )
 {
 luminanceType

@@ -321,6 +321,11 @@ html
 #
 ColorInterpolationProperty
 "
+gecko_enum_prefix
+=
+"
+StyleColorInterpolation
+"
 )
 }
 {
@@ -344,11 +349,6 @@ engines
 =
 "
 gecko
-"
-gecko_constant_prefix
-=
-"
-NS_STYLE_COLOR_INTERPOLATION
 "
 animation_value_type
 =
@@ -377,6 +377,11 @@ painting
 html
 #
 ColorInterpolationFiltersProperty
+"
+gecko_enum_prefix
+=
+"
+StyleColorInterpolation
 "
 )
 }
