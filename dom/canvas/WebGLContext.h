@@ -5099,6 +5099,11 @@ mDisableFragHighP
 false
 ;
 bool
+mForceResizeOnPresent
+=
+false
+;
+bool
 mVRReady
 =
 false
