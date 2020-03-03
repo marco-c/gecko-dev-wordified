@@ -2473,11 +2473,9 @@ repo_path
 )
 )
     
-interface_name
+interfaces_changed_names
 =
-lambda
-x
-:
+[
 os
 .
 path
@@ -2490,20 +2488,18 @@ path
 .
 basename
 (
-x
+interface
 )
 )
 [
 0
 ]
-    
-interfaces_changed_names
-=
-map
-(
-interface_name
+                                
+for
+interface
+in
 interfaces_changed
-)
+]
     
 def
 affected_by_wdspec
@@ -2655,7 +2651,7 @@ bool
 if
 len
 (
-interfaces_changed
+interfaces_changed_names
 )
 >
 0
