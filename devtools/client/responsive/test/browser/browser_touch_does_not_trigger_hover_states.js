@@ -167,6 +167,11 @@ false
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
 async

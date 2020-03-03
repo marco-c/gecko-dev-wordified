@@ -206,6 +206,11 @@ closeToolbox
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
 async

@@ -353,5 +353,10 @@ be
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
