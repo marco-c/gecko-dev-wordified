@@ -76,6 +76,12 @@ error
 KeyValueError
 ;
 use
+manager
+:
+:
+Manager
+;
+use
 moz_task
 :
 :
@@ -168,12 +174,6 @@ KeyValueEnumerator
 ;
 use
 KeyValuePairResult
-;
-use
-manager
-:
-:
-Manager
 ;
 /
 /

@@ -212,7 +212,10 @@ std
 collections
 :
 :
-HashMap
+hash_map
+:
+:
+Entry
 ;
 use
 std
@@ -221,10 +224,7 @@ std
 collections
 :
 :
-hash_map
-:
-:
-Entry
+HashMap
 ;
 use
 std
