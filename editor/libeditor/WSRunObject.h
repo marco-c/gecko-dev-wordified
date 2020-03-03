@@ -6029,8 +6029,8 @@ CT
 >
 Tuple
 <
-EditorDOMPoint
-EditorDOMPoint
+EditorDOMPointInText
+EditorDOMPointInText
 >
 GetASCIIWhitespacesBounds
 (
