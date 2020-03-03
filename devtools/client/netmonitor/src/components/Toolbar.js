@@ -3324,9 +3324,9 @@ networkActionBarOpen
 :
 state
 .
-search
+ui
 .
-panelOpen
+networkActionOpen
 networkActionBarSelectedPanel
 :
 state
