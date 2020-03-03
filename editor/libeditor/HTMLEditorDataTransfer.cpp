@@ -1795,7 +1795,6 @@ EditorRawDOMPoint
 :
 AtEndOf
 (
-*
 fragmentAsNode
 )
 ;
