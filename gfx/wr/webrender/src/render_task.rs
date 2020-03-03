@@ -1225,6 +1225,7 @@ SpatialNodeIndex
 uv_rect_kind
 :
 UvRectKind
+pub
 device_pixel_scale
 :
 DevicePixelScale
@@ -1258,6 +1259,13 @@ vis_mask
 PrimitiveVisibilityMask
 pub
 scissor_rect
+:
+Option
+<
+DeviceIntRect
+>
+pub
+valid_rect
 :
 Option
 <
@@ -2853,6 +2861,12 @@ Option
 <
 DeviceIntRect
 >
+valid_rect
+:
+Option
+<
+DeviceIntRect
+>
 )
 -
 >
@@ -2983,6 +2997,7 @@ surface_spatial_node_index
 device_pixel_scale
 vis_mask
 scissor_rect
+valid_rect
 }
 )
 clear_mode
