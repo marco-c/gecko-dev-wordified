@@ -813,14 +813,6 @@ GetPrintPreviewNumPages
 (
 )
 ;
-nsresult
-GetDocumentName
-(
-nsAString
-&
-aDocName
-)
-;
 already_AddRefed
 <
 nsIPrintSettings
