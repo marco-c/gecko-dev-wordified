@@ -290,9 +290,6 @@ LoadInfoArgs
 aLoadInfoArgs
 nsINode
 *
-aLoadingContext
-nsINode
-*
 aCspToInheritLoadingContext
 net
 :
@@ -1205,9 +1202,6 @@ LoadInfoArgs
 >
 &
 aLoadInfoArgs
-nsINode
-*
-aLoadingContext
 nsINode
 *
 aCspToInheritLoadingContext
