@@ -473,16 +473,6 @@ hasNonEmptySandboxingFlags
 )
 aArgs
 .
-topWindowURI
-(
-)
-aArgs
-.
-contentBlockingAllowListPrincipal
-(
-)
-aArgs
-.
 channelId
 (
 )
