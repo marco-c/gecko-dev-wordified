@@ -118,10 +118,10 @@ function
 )
 {
 const
-[
+{
 host
 doc
-]
+}
 =
 await
 createHost

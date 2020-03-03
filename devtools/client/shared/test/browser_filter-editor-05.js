@@ -117,9 +117,9 @@ function
 )
 {
 const
-[
+{
 doc
-]
+}
 =
 await
 createHost

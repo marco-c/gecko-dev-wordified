@@ -69,9 +69,9 @@ popup
 )
 ;
 const
-[
+{
 doc
-]
+}
 =
 await
 createHost

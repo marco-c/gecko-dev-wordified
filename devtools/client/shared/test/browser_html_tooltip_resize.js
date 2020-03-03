@@ -161,9 +161,9 @@ hang
 right
 .
 const
-[
+{
 doc
-]
+}
 =
 await
 createHost

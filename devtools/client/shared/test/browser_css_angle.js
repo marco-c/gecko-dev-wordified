@@ -82,9 +82,9 @@ blank
 )
 ;
 const
-[
+{
 host
-]
+}
 =
 await
 createHost

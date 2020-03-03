@@ -207,10 +207,10 @@ height
 )
 ;
 const
-[
+{
 win
 doc
-]
+}
 =
 await
 createHost

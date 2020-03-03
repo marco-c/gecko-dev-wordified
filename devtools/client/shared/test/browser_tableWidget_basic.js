@@ -91,10 +91,10 @@ blank
 )
 ;
 const
-[
+{
 host
 doc
-]
+}
 =
 await
 createHost

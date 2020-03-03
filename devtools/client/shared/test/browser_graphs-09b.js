@@ -419,10 +419,10 @@ performTest
 )
 {
 const
-[
+{
 host
 doc
-]
+}
 =
 await
 createHost

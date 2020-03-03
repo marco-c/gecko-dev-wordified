@@ -184,10 +184,10 @@ parser
 )
 ;
 const
-[
+{
 host
 doc
-]
+}
 =
 await
 createHost

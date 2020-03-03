@@ -343,10 +343,10 @@ autocomplete
 )
 ;
 const
-[
+{
 host
 doc
-]
+}
 =
 await
 createHost

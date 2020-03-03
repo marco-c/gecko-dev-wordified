@@ -185,11 +185,11 @@ blank
 )
 ;
 const
-[
+{
 host
 win
 doc
-]
+}
 =
 await
 createHost
