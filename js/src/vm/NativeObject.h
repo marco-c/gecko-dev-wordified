@@ -181,6 +181,15 @@ include
 "
 gc
 /
+MaybeRooted
+.
+h
+"
+#
+include
+"
+gc
+/
 ZoneAllocator
 .
 h
