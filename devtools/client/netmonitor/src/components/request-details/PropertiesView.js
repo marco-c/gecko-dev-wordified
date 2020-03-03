@@ -827,9 +827,13 @@ this
 .
 selectRow
 (
-evt
-.
-currentTarget
+{
+props
+:
+{
+member
+}
+}
 )
 ;
 /
