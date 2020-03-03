@@ -921,6 +921,13 @@ nsIAccessibleRole
 ROLE_STATUSBAR
 ;
 const
+ROLE_SUGGESTION
+=
+nsIAccessibleRole
+.
+ROLE_SUGGESTION
+;
+const
 ROLE_SUMMARY
 =
 nsIAccessibleRole
