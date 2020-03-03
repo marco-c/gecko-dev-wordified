@@ -420,6 +420,8 @@ host
 =
 principal
 .
+URI
+.
 asciiHost
 ;
 }
