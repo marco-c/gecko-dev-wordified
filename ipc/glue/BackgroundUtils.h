@@ -725,9 +725,6 @@ LoadInfoArgs
 aOptionalLoadInfoArgs
 nsINode
 *
-aLoadingContext
-nsINode
-*
 aCspToInheritLoadingContext
 nsILoadInfo
 *
@@ -773,9 +770,6 @@ LoadInfoArgs
 >
 &
 aOptionalLoadInfoArgs
-nsINode
-*
-aLoadingContext
 nsINode
 *
 aCspToInheritLoadingContext
