@@ -157,13 +157,6 @@ h
 #
 include
 "
-Downscaler
-.
-h
-"
-#
-include
-"
 ImageMetadata
 .
 h
@@ -3757,12 +3750,6 @@ aPreviousFrame
 ;
 protected
 :
-Maybe
-<
-Downscaler
->
-mDownscaler
-;
 /
 /
 /
