@@ -3743,7 +3743,6 @@ FileInfo
 :
 GetFileForFileInfo
 (
-*
 aFile
 .
 mFileInfo
