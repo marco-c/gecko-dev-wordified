@@ -221,6 +221,13 @@ nsIAccessibleRole
 ROLE_COMBOBOX_OPTION
 ;
 const
+ROLE_COMMENT
+=
+nsIAccessibleRole
+.
+ROLE_COMMENT
+;
+const
 ROLE_CONTENT_DELETION
 =
 nsIAccessibleRole
