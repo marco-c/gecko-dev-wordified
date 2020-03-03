@@ -82,6 +82,10 @@ result
 import
 Issue
 ResultSummary
+from
+itertools
+import
+chain
 here
 =
 os
@@ -1960,6 +1964,7 @@ lint
 linters
 filedir
 monkeypatch
+files
 )
 :
     
@@ -2071,6 +2076,12 @@ read
 linter_path
 )
     
+lint
+.
+root
+=
+filedir
+    
 #
 Modified
 support
@@ -2137,11 +2148,19 @@ roll
 path
 )
     
-assert
+actual_files
+=
+sorted
+(
+chain
+(
+*
 jobs
-[
-0
-]
+)
+)
+    
+assert
+actual_files
 =
 =
 [
@@ -2163,18 +2182,22 @@ workdir
 True
 )
     
-assert
+actual_files
+=
+sorted
+(
+chain
+(
+*
 jobs
-[
-0
-]
+)
+)
+    
+assert
+actual_files
 =
 =
-[
-lint
-.
-root
-]
+files
     
 jobs
 =
@@ -2191,18 +2214,22 @@ outgoing
 True
 )
     
-assert
+actual_files
+=
+sorted
+(
+chain
+(
+*
 jobs
-[
-0
-]
+)
+)
+    
+assert
+actual_files
 =
 =
-[
-lint
-.
-root
-]
+files
     
 #
 Lint
@@ -2243,18 +2270,22 @@ workdir
 True
 )
     
-assert
+actual_files
+=
+sorted
+(
+chain
+(
+*
 jobs
-[
-0
-]
+)
+)
+    
+assert
+actual_files
 =
 =
-[
-lint
-.
-root
-]
+files
 def
 test_setup
 (
