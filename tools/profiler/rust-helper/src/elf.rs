@@ -72,12 +72,6 @@ use
 object
 :
 :
-SymbolKind
-;
-use
-object
-:
-:
 read
 :
 :
@@ -85,6 +79,12 @@ read
 ElfFile
 Object
 }
+;
+use
+object
+:
+:
+SymbolKind
 ;
 use
 std
