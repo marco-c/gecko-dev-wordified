@@ -7231,10 +7231,7 @@ PatternType
 :
 :
 COLOR
-PatternType
-:
-:
-RADIAL_GRADIENT
+kHighestPatternType
 )
 ;
 switch
