@@ -1046,8 +1046,11 @@ value
 )
 {
 await
+UrlbarTestUtils
+.
 waitForAutocompleteResultAt
 (
+window
 0
 )
 ;

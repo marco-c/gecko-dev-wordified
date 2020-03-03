@@ -73,8 +73,19 @@ function
 )
 {
 await
+UrlbarTestUtils
+.
 promiseAutocompleteResultPopup
 (
+{
+window
+waitForFocus
+:
+SimpleTest
+.
+waitForFocus
+value
+:
 "
 This
 is
@@ -82,6 +93,7 @@ a
 generic
 sentence
 "
+}
 )
 ;
 await
