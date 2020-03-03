@@ -709,7 +709,7 @@ can
 be
 less
 than
-160px
+140px
 .
 *
 3
@@ -867,7 +867,7 @@ false
 const
 MIN_VIDEO_DIMENSION
 =
-160
+140
 ;
 /
 /
