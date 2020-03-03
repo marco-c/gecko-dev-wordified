@@ -715,8 +715,9 @@ FileInfo
 :
 GetFileForFileInfo
 (
+const
 FileInfo
-*
+&
 aFileInfo
 )
 {
@@ -726,8 +727,7 @@ const
 fileManager
 =
 aFileInfo
--
->
+.
 Manager
 (
 )
@@ -772,8 +772,7 @@ GetFileForId
 (
 directory
 aFileInfo
--
->
+.
 Id
 (
 )
