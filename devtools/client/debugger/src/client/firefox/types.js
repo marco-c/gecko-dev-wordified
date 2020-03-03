@@ -1225,11 +1225,10 @@ listProcesses
 >
 Promise
 <
-{
-processes
-:
+Array
+<
 ProcessDescriptor
-}
+>
 >
 listAllWorkerTargets
 :
