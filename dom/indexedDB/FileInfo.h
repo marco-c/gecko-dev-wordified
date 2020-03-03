@@ -322,8 +322,9 @@ nsIFile
 >
 GetFileForFileInfo
 (
+const
 FileInfo
-*
+&
 aFileInfo
 )
 ;
