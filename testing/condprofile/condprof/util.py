@@ -134,6 +134,9 @@ environ
 keys
 (
 )
+DOWNLOAD_TIMEOUT
+=
+30
 class
 ArchiveNotFound
 (
@@ -1367,6 +1370,9 @@ url
 stream
 =
 True
+timeout
+=
+DOWNLOAD_TIMEOUT
 )
     
 total_length
