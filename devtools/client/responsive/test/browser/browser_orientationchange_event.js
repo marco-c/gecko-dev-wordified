@@ -623,5 +623,10 @@ primary
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;

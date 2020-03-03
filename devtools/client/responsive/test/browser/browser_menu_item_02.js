@@ -104,7 +104,7 @@ true
 ;
 }
 ;
-add_task
+addRDMTask
 (
 async
 function

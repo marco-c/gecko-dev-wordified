@@ -334,6 +334,11 @@ enabled
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
 function
