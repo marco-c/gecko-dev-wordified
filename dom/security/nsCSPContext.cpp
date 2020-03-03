@@ -3609,8 +3609,9 @@ GetAllowsNavigateTo
 nsIURI
 *
 aURI
-bool
-aIsFormSubmission
+nsILoadInfo
+*
+aLoadInfo
 bool
 aWasRedirected
 bool
@@ -3865,7 +3866,12 @@ pre
 navigate
 if
 (
-aIsFormSubmission
+aLoadInfo
+-
+>
+GetIsFormSubmission
+(
+)
 )
 {
 for
