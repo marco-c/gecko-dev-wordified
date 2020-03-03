@@ -369,7 +369,7 @@ the
 other
 .
 const
-target
+targetDescriptor
 =
 await
 tabTarget
@@ -379,6 +379,16 @@ client
 mainRoot
 .
 getMainProcess
+(
+)
+;
+const
+target
+=
+await
+targetDescriptor
+.
+getTarget
 (
 )
 ;

@@ -762,7 +762,7 @@ instantiated
 )
 ;
 const
-target
+targetDescriptor
 =
 await
 client
@@ -770,6 +770,16 @@ client
 mainRoot
 .
 getMainProcess
+(
+)
+;
+const
+target
+=
+await
+targetDescriptor
+.
+getTarget
 (
 )
 ;

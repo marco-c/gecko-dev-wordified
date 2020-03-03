@@ -828,7 +828,10 @@ connect
 (
 )
 ;
-return
+const
+descriptor
+=
+await
 this
 .
 _devToolsClient
@@ -836,6 +839,13 @@ _devToolsClient
 mainRoot
 .
 getMainProcess
+(
+)
+;
+return
+descriptor
+.
+getTarget
 (
 )
 ;

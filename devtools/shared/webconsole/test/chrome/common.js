@@ -385,7 +385,8 @@ if
 attachToTab
 )
 {
-target
+const
+targetDescriptor
 =
 await
 client
@@ -393,6 +394,15 @@ client
 mainRoot
 .
 getMainProcess
+(
+)
+;
+target
+=
+await
+targetDescriptor
+.
+getTarget
 (
 )
 ;

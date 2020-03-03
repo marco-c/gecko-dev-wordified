@@ -805,7 +805,7 @@ toolbox
 )
 ;
 const
-mainProcessTargetFront
+mainProcessDescriptor
 =
 await
 gClient
@@ -813,6 +813,16 @@ gClient
 mainRoot
 .
 getMainProcess
+(
+)
+;
+const
+mainProcessTargetFront
+=
+await
+mainProcessDescriptor
+.
+getTarget
 (
 )
 ;
