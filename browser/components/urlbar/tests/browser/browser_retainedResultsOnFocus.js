@@ -639,16 +639,6 @@ browser
 .
 urlbar
 .
-clickSelectsAll
-"
-true
-]
-[
-"
-browser
-.
-urlbar
-.
 openViewOnFocus
 "
 true
