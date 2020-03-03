@@ -2432,13 +2432,10 @@ aReader
 .
 At
 (
-BlocksRingBuffer
+ProfileBufferBlockIndex
 :
 :
-BlockIndex
-:
-:
-ConvertFromU64
+CreateFromProfileBufferIndex
 (
 aInitialReadPos
 )
@@ -2606,10 +2603,7 @@ entry
 .
 }
 }
-ProfileBuffer
-:
-:
-BlockIndex
+ProfileBufferBlockIndex
 CurBlockIndex
 (
 )
@@ -2634,7 +2628,7 @@ CurBlockIndex
 (
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
@@ -9488,7 +9482,7 @@ aTime
 )
 {
 const
-BlockIndex
+ProfileBufferBlockIndex
 firstBlockToKeep
 =
 mEntries
@@ -9536,7 +9530,7 @@ aReader
 )
 ;
 const
-BlockIndex
+ProfileBufferBlockIndex
 bufferStartPos
 =
 e
@@ -9717,7 +9711,7 @@ IsThreadId
 )
 ;
 const
-BlockIndex
+ProfileBufferBlockIndex
 sampleStartPos
 =
 e

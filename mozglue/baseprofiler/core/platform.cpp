@@ -15901,7 +15901,7 @@ state
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 -
@@ -15909,7 +15909,7 @@ previousState
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 )
@@ -15923,7 +15923,7 @@ state
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 -
@@ -15931,7 +15931,7 @@ previousState
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 >
@@ -15974,7 +15974,7 @@ state
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 -
@@ -15982,7 +15982,7 @@ previousState
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 )

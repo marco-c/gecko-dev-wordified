@@ -376,10 +376,7 @@ isNothing
 static
 *
 /
-BlocksRingBuffer
-:
-:
-BlockIndex
+ProfileBufferBlockIndex
 ProfileBuffer
 :
 :
@@ -460,7 +457,7 @@ KIND
 )
 ;
 return
-BlockIndex
+ProfileBufferBlockIndex
 {
 }
 ;
@@ -494,7 +491,7 @@ mEntries
 aEntry
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
@@ -504,10 +501,7 @@ ConvertToU64
 static
 *
 /
-BlocksRingBuffer
-:
-:
-BlockIndex
+ProfileBufferBlockIndex
 ProfileBuffer
 :
 :
@@ -551,7 +545,7 @@ mEntries
 aThreadId
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
