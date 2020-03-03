@@ -248,6 +248,7 @@ pub
 struct
 ZBufferId
 (
+pub
 i32
 )
 ;
