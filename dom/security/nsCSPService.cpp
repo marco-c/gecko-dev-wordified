@@ -1953,6 +1953,11 @@ GetAllowsNavigateTo
 (
 aNewURI
 aLoadInfo
+-
+>
+GetIsFormSubmission
+(
+)
 true
 /
 *
