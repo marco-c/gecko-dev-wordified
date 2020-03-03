@@ -205,6 +205,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 current_
 =
 ABIArg

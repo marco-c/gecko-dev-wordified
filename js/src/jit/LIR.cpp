@@ -2505,6 +2505,17 @@ return
 simd128float
 "
 ;
+case
+LDefinition
+:
+:
+STACKRESULTS
+:
+return
+"
+stackresults
+"
+;
 #
 ifdef
 JS_NUNBOX32

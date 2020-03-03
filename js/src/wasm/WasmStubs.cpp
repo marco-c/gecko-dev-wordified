@@ -2188,7 +2188,7 @@ type
 MIRType
 :
 :
-Pointer
+StackResults
 )
 {
 MOZ_ASSERT
@@ -2597,7 +2597,7 @@ case
 MIRType
 :
 :
-Pointer
+StackResults
 :
 {
 MOZ_ASSERT
@@ -9698,7 +9698,7 @@ case
 MIRType
 :
 :
-Pointer
+StackResults
 :
 MOZ_ASSERT
 (
@@ -10224,7 +10224,7 @@ case
 MIRType
 :
 :
-Pointer
+StackResults
 :
 {
 MOZ_CRASH

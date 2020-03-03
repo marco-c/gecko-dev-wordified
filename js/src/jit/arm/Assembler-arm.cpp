@@ -426,6 +426,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 if
 (
 intRegIndex_
@@ -820,6 +826,12 @@ MIRType
 :
 :
 RefOrNull
+:
+case
+MIRType
+:
+:
+StackResults
 :
 if
 (

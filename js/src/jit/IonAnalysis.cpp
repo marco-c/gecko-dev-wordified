@@ -22493,6 +22493,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 return
 false
 ;

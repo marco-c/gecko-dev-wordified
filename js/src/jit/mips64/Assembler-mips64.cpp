@@ -215,6 +215,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 {
 Register
 destReg
