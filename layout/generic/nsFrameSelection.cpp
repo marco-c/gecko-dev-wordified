@@ -17755,6 +17755,9 @@ mPresShell
 nullptr
 ;
 }
+#
+ifdef
+XP_MACOSX
 /
 *
 *
@@ -17921,10 +17924,8 @@ OnSelectionChange
 .
 *
 /
+static
 nsresult
-nsFrameSelection
-:
-:
 UpdateSelectionCacheOnRepaintSelection
 (
 Selection
@@ -18003,6 +18004,11 @@ return
 NS_OK
 ;
 }
+#
+endif
+/
+/
+XP_MACOSX
 /
 /
 mozilla
