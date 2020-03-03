@@ -2291,7 +2291,7 @@ CharKind
 Digit
 ;
 const
-C_HASH
+C_HASH_
 :
 CharKind
 =
@@ -2301,7 +2301,7 @@ CharKind
 Hash
 ;
 const
-C_CR
+C_CR___
 :
 CharKind
 =
@@ -2376,7 +2376,7 @@ C_SPCNL
 C_SPCNL
 C_SPCNL
 C_SPCNL
-C_CR
+C_CR___
 C______
 C______
 C______
@@ -2410,7 +2410,7 @@ C______
 C_SPCNL
 C______
 C_QUOTE
-C_HASH
+C_HASH_
 C______
 C______
 C______
