@@ -260,7 +260,7 @@ expr
 )
 =
 >
-(
+{
 {
 let
 needed
@@ -274,9 +274,7 @@ needed
 )
 =
 >
-{
 needed
-}
 None
 =
 >
@@ -317,12 +315,11 @@ handle
 )
 =
 >
-{
 handle
 }
 }
 }
-)
+;
 }
 #
 [
