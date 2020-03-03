@@ -4968,10 +4968,12 @@ data_
 1
 ]
 ;
+public
+:
 static
 const
 size_t
-MaximumSize
+MaxInlineBytes
 =
 JSObject
 :
@@ -5028,7 +5030,7 @@ return
 size
 <
 =
-MaximumSize
+MaxInlineBytes
 ;
 }
 static
@@ -5049,7 +5051,7 @@ size
 )
 <
 =
-MaximumSize
+MaxInlineBytes
 ;
 }
 uint8_t
