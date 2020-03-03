@@ -1167,6 +1167,11 @@ value
 ;
 private
 :
+void
+EnsureStorageInited
+(
+)
+;
 already_AddRefed
 <
 AltSvcMapping
