@@ -2538,6 +2538,7 @@ visible
 WSRunObject
 wsObj
 (
+*
 this
 pointToInsert
 )
