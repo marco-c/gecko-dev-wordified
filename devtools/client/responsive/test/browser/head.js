@@ -4098,9 +4098,7 @@ document
 =
 ui
 .
-getBrowserWindow
-(
-)
+toolWindow
 ;
 const
 touchButton
