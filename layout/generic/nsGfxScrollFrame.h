@@ -3433,6 +3433,9 @@ viewport
 nsSize
 TrueOuterSize
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 const
 ;
