@@ -283,7 +283,7 @@ https
 :
 /
 /
-www
+*
 .
 udemy
 .
