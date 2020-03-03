@@ -1468,7 +1468,7 @@ Callback
 aCallback
 )
 {
-AdoptedStyleSheetSet
+StyleSheetSet
 set
 (
 mAdoptedStyleSheets
@@ -1518,7 +1518,7 @@ sheet
 protected
 :
 using
-AdoptedStyleSheetSet
+StyleSheetSet
 =
 nsTHashtable
 <
