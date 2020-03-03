@@ -178,9 +178,7 @@ util
 import
 (
     
-LOG
-    
-ERROR
+logger
     
 get_version
     
@@ -818,7 +816,9 @@ not
 None
 :
         
-LOG
+logger
+.
+info
 (
 "
 Verifying
@@ -945,7 +945,9 @@ args
 firefox
 )
         
-LOG
+logger
+.
+info
 (
 "
 Working
@@ -958,7 +960,9 @@ s
 version
 )
     
-LOG
+logger
+.
+info
 (
 os
 .
@@ -980,7 +984,9 @@ args
 archive
 )
     
-LOG
+logger
+.
+info
 (
 "
 Archives
@@ -1021,7 +1027,9 @@ exist_ok
 True
 )
     
-LOG
+logger
+.
+info
 (
 "
 Verifying
@@ -1129,7 +1137,9 @@ read_changelog
 plat
 )
         
-LOG
+logger
+.
+info
 (
 "
 Got
@@ -1144,7 +1154,9 @@ except
 ProfileNotFoundError
 :
         
-LOG
+logger
+.
+info
 (
 "
 changelog
@@ -1346,6 +1358,37 @@ failures
 =
 0
         
+def
+display_error
+(
+scenario
+customization
+)
+:
+            
+logger
+.
+error
+(
+"
+%
+s
+x
+%
+s
+failed
+.
+"
+%
+(
+scenario
+customization
+)
+exc_info
+=
+True
+)
+        
 for
 scenario
 in
@@ -1389,17 +1432,12 @@ failures
 =
 1
                     
-ERROR
+display_error
 (
-"
-Something
-went
-wrong
-on
-this
-one
+scenario
+args
 .
-"
+customization
 )
                     
 if
@@ -1421,7 +1459,9 @@ get_customizations
 )
 :
                     
-LOG
+logger
+.
+info
 (
 "
 Customization
@@ -1456,17 +1496,10 @@ failures
 =
 1
                         
-ERROR
+display_error
 (
-"
-Something
-went
-wrong
-on
-this
-one
-.
-"
+scenario
+customization
 )
                         
 if
@@ -1505,7 +1538,9 @@ args
 )
 )
         
-LOG
+logger
+.
+info
 (
 "
 Saving

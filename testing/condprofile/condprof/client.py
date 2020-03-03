@@ -99,8 +99,7 @@ util
 import
 download_file
 TASK_CLUSTER
-LOG
-ERROR
+logger
 ArchiveNotFound
 from
 condprof
@@ -410,7 +409,9 @@ repo
     
 }
     
-LOG
+logger
+.
+info
 (
 "
 Getting
@@ -457,7 +458,9 @@ params
 +
 filename
     
-LOG
+logger
+.
+info
 (
 "
 preparing
@@ -535,7 +538,9 @@ download_dir
 filename
 )
     
-LOG
+logger
+.
+info
 (
 "
 Downloaded
@@ -562,7 +567,9 @@ RETRIES
 try
 :
             
-LOG
+logger
+.
+info
 (
 "
 Getting
@@ -615,7 +622,9 @@ as
 tar
 :
                     
-LOG
+logger
+.
+info
 (
 "
 Extracting
@@ -731,7 +740,9 @@ as
 e
 :
                 
-LOG
+logger
+.
+info
 (
 "
 Failed
@@ -755,7 +766,9 @@ archive
 )
 :
                     
-LOG
+logger
+.
+info
 (
 "
 Removing
@@ -800,7 +813,9 @@ rmtree
 download_dir
 )
             
-LOG
+logger
+.
+info
 (
 "
 Success
@@ -821,7 +836,9 @@ except
 Exception
 :
             
-LOG
+logger
+.
+info
 (
 "
 Failed
@@ -863,7 +880,9 @@ except
 Exception
 :
                     
-ERROR
+logger
+.
+error
 (
 "
 Could
@@ -893,7 +912,9 @@ all
 attempts
 failed
     
-ERROR
+logger
+.
+error
 (
 "
 All
@@ -942,7 +963,9 @@ CHANGELOG_LINK
 %
 params
     
-LOG
+logger
+.
+info
 (
 "
 Getting

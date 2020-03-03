@@ -78,11 +78,9 @@ BaseEnv
     
 latest_nightly
     
-LOG
+logger
     
 get_version
-    
-ERROR
     
 get_current_platform
     
@@ -119,7 +117,9 @@ _check_version
 (
 )
         
-LOG
+logger
+.
+info
 (
 "
 Running
@@ -133,7 +133,9 @@ d
 port
 )
         
-LOG
+logger
+.
+info
 (
 "
 Running
@@ -499,11 +501,11 @@ firefox
         
 except
 Exception
-as
-e
 :
             
-ERROR
+logger
+.
+error
 (
 "
 Could
@@ -511,14 +513,10 @@ not
 get
 Firefox
 version
-%
-s
 "
-%
-str
-(
-e
-)
+exc_info
+=
+True
 )
             
 return

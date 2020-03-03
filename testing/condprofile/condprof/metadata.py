@@ -81,7 +81,7 @@ condprof
 .
 util
 import
-LOG
+logger
 METADATA_NAME
 =
 "
@@ -137,7 +137,9 @@ profile_dir
 METADATA_NAME
 )
         
-LOG
+logger
+.
+info
 (
 "
 Reading
@@ -167,7 +169,9 @@ metadata_file
 )
 :
             
-LOG
+logger
+.
+info
 (
 "
 Could
@@ -478,7 +482,9 @@ extras
 writing
 metadata
         
-LOG
+logger
+.
+info
 (
 "
 Creating
@@ -626,7 +632,9 @@ android
 ?
 ?
         
-LOG
+logger
+.
+info
 (
 "
 Saving

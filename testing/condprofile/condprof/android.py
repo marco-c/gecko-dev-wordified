@@ -97,9 +97,8 @@ condprof
 util
 import
 write_yml_file
-LOG
+logger
 DEFAULT_PREFS
-ERROR
 BaseEnv
 #
 XXX
@@ -273,7 +272,9 @@ None
             
 return
         
-LOG
+logger
+.
+info
 (
 "
 Setting
@@ -540,7 +541,9 @@ except
 Exception
 :
             
-ERROR
+logger
+.
+error
 (
 "
 Cannot
@@ -603,7 +606,9 @@ app_name
 debug
 flag
         
-LOG
+logger
+.
+info
 (
 "
 Setting
@@ -645,9 +650,12 @@ s
 self
 .
 app_name
+            
 stdout_callback
 =
-LOG
+logger
+.
+info
         
 )
         
@@ -659,7 +667,9 @@ on
 the
 device
         
-LOG
+logger
+.
+info
 (
 "
 Creating
@@ -697,7 +707,9 @@ profile
 "
 )
         
-LOG
+logger
+.
+info
 (
 "
 The
@@ -761,7 +773,9 @@ recursive
 True
 )
         
-LOG
+logger
+.
+info
 (
 "
 Pushing
@@ -1002,7 +1016,9 @@ except
 Exception
 :
             
-LOG
+logger
+.
+info
 (
 "
 could
@@ -1235,7 +1251,9 @@ self
 app_name
 )
         
-LOG
+logger
+.
+info
 (
 "
 Creating
@@ -1318,7 +1336,9 @@ just
 wait
 30s
         
-LOG
+logger
+.
+info
 (
 "
 Sleeping
@@ -1341,7 +1361,9 @@ self
 )
 :
         
-LOG
+logger
+.
+info
 (
 "
 Stopping
@@ -1375,7 +1397,9 @@ except
 ADBError
 :
             
-LOG
+logger
+.
+info
 (
 "
 Could
@@ -1410,7 +1434,9 @@ app_name
 )
 :
             
-LOG
+logger
+.
+info
 (
 "
 %
@@ -1482,7 +1508,9 @@ sleep
 1
 )
         
-LOG
+logger
+.
+info
 (
 "
 %
@@ -1502,7 +1530,9 @@ self
 )
 :
         
-LOG
+logger
+.
+info
 (
 "
 Collecting
@@ -1579,7 +1609,9 @@ except
 ADBError
 :
             
-LOG
+logger
+.
+warning
 (
 "
 Could
@@ -1663,7 +1695,9 @@ _check_version
 (
 )
         
-LOG
+logger
+.
+info
 (
 "
 Running
@@ -1677,7 +1711,9 @@ d
 port
 )
         
-LOG
+logger
+.
+info
 (
 "
 Running
@@ -1731,7 +1767,9 @@ port
         
 ]
         
-LOG
+logger
+.
+info
 (
 "
 Connecting
@@ -1888,7 +1926,9 @@ self
 )
 :
         
-LOG
+logger
+.
+info
 (
 "
 Dumping
@@ -1939,7 +1979,9 @@ log
 "
 )
                 
-LOG
+logger
+.
+info
 (
 "
 Writing
@@ -1998,7 +2040,9 @@ n
 else
 :
                 
-LOG
+logger
+.
+info
 (
 "
 logcat
@@ -2012,7 +2056,9 @@ except
 Exception
 :
             
-ERROR
+logger
+.
+error
 (
 "
 Could
@@ -2021,6 +2067,9 @@ extract
 the
 logcat
 "
+exc_info
+=
+True
 )
     
 contextlib

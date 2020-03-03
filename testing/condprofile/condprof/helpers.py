@@ -68,8 +68,7 @@ condprof
 .
 util
 import
-ERROR
-LOG
+logger
 _SUPPORTED_MOBILE_BROWSERS
 =
 "
@@ -363,7 +362,9 @@ except
 Exception
 :
             
-ERROR
+logger
+.
+error
 (
 "
 Could
@@ -436,7 +437,9 @@ except
 Exception
 :
             
-ERROR
+logger
+.
+error
 (
 "
 Could
@@ -514,7 +517,9 @@ chrome
 "
 :
         
-LOG
+logger
+.
+info
 (
 "
 Switching
@@ -568,7 +573,9 @@ switch_back
 =
 False
     
-LOG
+logger
+.
+info
 (
 "
 Setting
@@ -618,7 +625,9 @@ while
 True
 :
             
-LOG
+logger
+.
+info
 (
 "
 Running
@@ -684,7 +693,9 @@ attempts
 =
 1
                 
-LOG
+logger
+.
+error
 (
 "
 The
@@ -692,19 +703,9 @@ script
 failed
 .
 "
-)
-                
-LOG
-(
-"
-Error
-:
-"
-+
-str
-(
-e
-)
+exc_info
+=
+True
 )
                 
 if
