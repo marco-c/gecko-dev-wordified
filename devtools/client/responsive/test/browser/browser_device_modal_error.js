@@ -238,5 +238,10 @@ disabled
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
