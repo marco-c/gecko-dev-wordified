@@ -4012,7 +4012,7 @@ const
 return
 flags_
 .
-isInterpreted
+hasBaseScript
 (
 )
 ;
@@ -4031,7 +4031,7 @@ setFlags
 FunctionFlags
 :
 :
-INTERPRETED
+BASESCRIPT
 interpreted
 )
 ;

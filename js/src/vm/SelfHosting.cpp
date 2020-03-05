@@ -21418,7 +21418,7 @@ nargs
 FunctionFlags
 :
 :
-INTERPRETED
+BASESCRIPT
 funName
 proto
 gc

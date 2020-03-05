@@ -12766,12 +12766,7 @@ flags
 FunctionFlags
 :
 :
-INTERPRETED
-|
-FunctionFlags
-:
-:
-INTERPRETED_LAZY
+BASESCRIPT
 ;
 branchTestFunctionFlags
 (
@@ -19335,7 +19330,7 @@ FlagsToCheck
 FunctionFlags
 :
 :
-INTERPRETED_LAZY
+SELFHOSTLAZY
 |
 FunctionFlags
 :
@@ -19442,7 +19437,7 @@ Imm32
 FunctionFlags
 :
 :
-INTERPRETED
+BASESCRIPT
 )
 &
 isInterpreted

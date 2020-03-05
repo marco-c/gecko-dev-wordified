@@ -8569,7 +8569,7 @@ cx_
 FunctionFlags
 :
 :
-INTERPRETED
+BASESCRIPT
 nullptr
 /
 *
