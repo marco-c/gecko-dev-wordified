@@ -377,6 +377,12 @@ mExtraData
 AVCodecID
 mCodecID
 ;
+protected
+:
+static
+StaticMutex
+sMonitor
+;
 private
 :
 RefPtr
@@ -463,10 +469,6 @@ media
 :
 TimeUnit
 mLastInputDts
-;
-static
-StaticMutex
-sMonitor
 ;
 }
 ;
