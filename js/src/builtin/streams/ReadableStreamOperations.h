@@ -166,6 +166,10 @@ JS
 :
 :
 Value
+class
+JS_PUBLIC_API
+JSObject
+;
 namespace
 js
 {
@@ -321,10 +325,8 @@ JS
 :
 Handle
 <
-JS
-:
-:
-Value
+JSObject
+*
 >
 signal
 )
