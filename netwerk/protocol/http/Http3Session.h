@@ -694,7 +694,7 @@ ResetRecvd
 (
 uint64_t
 aStreamId
-Http3AppError
+uint64_t
 aError
 )
 ;
@@ -726,6 +726,16 @@ CallCertVerification
 void
 SetSecInfo
 (
+)
+;
+void
+CloseConnectionTelemetry
+(
+CloseError
+&
+aError
+bool
+aClosing
 )
 ;
 RefPtr
