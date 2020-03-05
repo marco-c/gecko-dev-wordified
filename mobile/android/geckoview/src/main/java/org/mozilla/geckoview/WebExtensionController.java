@@ -6475,6 +6475,10 @@ sender
 .
 session
 .
+getWebExtensionController
+(
+)
+.
 getMessageDelegate
 (
 sender
@@ -7202,7 +7206,11 @@ extension
 return
 session
 .
-getWebExtensionActionDelegate
+getWebExtensionController
+(
+)
+.
+getActionDelegate
 (
 extension
 )
