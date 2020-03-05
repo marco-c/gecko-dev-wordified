@@ -146,6 +146,9 @@ mod
 packet
 ;
 mod
+path
+;
+mod
 recovery
 ;
 mod
@@ -164,6 +167,7 @@ stats
 mod
 stream_id
 ;
+pub
 mod
 tparams
 ;
@@ -229,19 +233,6 @@ frame
 :
 StreamType
 ;
-pub
-use
-self
-:
-:
-tparams
-:
-:
-{
-tp_constants
-TransportParameter
-}
-;
 /
 /
 /
@@ -267,7 +258,7 @@ Version
 =
 0xff00_0000
 +
-25
+27
 ;
 const
 LOCAL_IDLE_TIMEOUT

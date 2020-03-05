@@ -240,7 +240,7 @@ kHttp3VersionHEX
 ]
 =
 "
-ff00000019
+ff0000001b
 "
 ;
 /
@@ -248,7 +248,7 @@ ff00000019
 this
 is
 draft
-25
+27
 .
 /
 /
