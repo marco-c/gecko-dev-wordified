@@ -7727,14 +7727,11 @@ IsCurrentThreadIn
 )
 )
 ;
-MOZ_ASSERT
-(
 mEncoder
 -
 >
-IsShutdown
+AssertShutdownCalled
 (
-)
 )
 ;
 mMainThread
