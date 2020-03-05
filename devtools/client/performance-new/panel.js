@@ -392,16 +392,6 @@ this
 .
 toolbox
 ;
-this
-.
-panelWin
-.
-gTarget
-=
-this
-.
-target
-;
 const
 [
 perfFront
