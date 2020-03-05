@@ -21759,7 +21759,7 @@ MOZ_ASSERT
 targetFun
 -
 >
-hasScript
+hasBytecode
 (
 )
 )

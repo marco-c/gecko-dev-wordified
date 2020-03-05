@@ -2661,7 +2661,7 @@ if
 (
 getter
 .
-hasScript
+hasBytecode
 (
 )
 |
@@ -2681,7 +2681,7 @@ if
 (
 getter
 .
-isInterpretedLazy
+isInterpreted
 (
 )
 )
@@ -11706,10 +11706,11 @@ length
 .
 if
 (
+!
 fun
 -
 >
-isInterpretedLazy
+hasBytecode
 (
 )
 )
@@ -16671,7 +16672,7 @@ if
 fun
 -
 >
-hasScript
+hasBytecode
 (
 )
 |
@@ -22600,7 +22601,7 @@ if
 !
 setter
 .
-hasScript
+hasBytecode
 (
 )
 )

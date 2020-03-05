@@ -1430,7 +1430,7 @@ if
 importFun
 -
 >
-hasScript
+hasBytecode
 (
 )
 )
