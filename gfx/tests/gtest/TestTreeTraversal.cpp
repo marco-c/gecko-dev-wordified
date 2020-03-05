@@ -353,8 +353,8 @@ T
 >
 (
 )
-{
-}
+=
+default
 ;
 }
 ;
@@ -480,8 +480,8 @@ T
 >
 (
 )
-{
-}
+=
+default
 ;
 }
 ;
@@ -644,8 +644,8 @@ T
 >
 (
 )
-{
-}
+=
+default
 ;
 }
 ;
@@ -1182,8 +1182,9 @@ T
 TestNodeBase
 (
 )
-{
-}
+=
+default
+;
 template
 <
 class

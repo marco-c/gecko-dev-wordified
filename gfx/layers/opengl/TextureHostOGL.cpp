@@ -5100,8 +5100,9 @@ EGLImageTextureHost
 EGLImageTextureHost
 (
 )
-{
-}
+=
+default
+;
 gl
 :
 :
@@ -5833,8 +5834,9 @@ GLTextureHost
 GLTextureHost
 (
 )
-{
-}
+=
+default
+;
 gl
 :
 :

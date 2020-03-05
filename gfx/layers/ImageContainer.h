@@ -1006,8 +1006,9 @@ protected
 ImageBackendData
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -1767,8 +1768,9 @@ Release
 BufferRecycleBin
 (
 )
-{
-}
+=
+default
+;
 /
 /
 This
@@ -2023,8 +2025,9 @@ ImageContainer
 ImageFactory
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 ImageFactory

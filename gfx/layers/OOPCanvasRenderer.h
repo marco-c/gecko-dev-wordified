@@ -299,8 +299,9 @@ private
 OOPCanvasRenderer
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

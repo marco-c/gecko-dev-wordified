@@ -376,8 +376,9 @@ FPSCounter
 FPSCounter
 (
 )
-{
-}
+=
+default
+;
 void
 FPSCounter
 :

@@ -245,8 +245,9 @@ WebRenderLayerScrollData
 WebRenderLayerScrollData
 (
 )
-{
-}
+=
+default
+;
 void
 WebRenderLayerScrollData
 :

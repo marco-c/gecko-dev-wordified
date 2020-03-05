@@ -828,8 +828,9 @@ ImageContainerListener
 ImageContainerListener
 (
 )
-{
-}
+=
+default
+;
 void
 ImageContainerListener
 :

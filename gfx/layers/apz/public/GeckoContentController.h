@@ -1394,8 +1394,9 @@ aIsRootContent
 GeckoContentController
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

@@ -701,8 +701,9 @@ kMaxCacheEntries
 nsFontCache
 (
 )
-{
-}
+=
+default
+;
 nsDeviceContext
 *
 mContext

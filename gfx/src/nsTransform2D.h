@@ -246,8 +246,9 @@ nsTransform2D
 (
 void
 )
-{
-}
+=
+default
+;
 /
 *
 *

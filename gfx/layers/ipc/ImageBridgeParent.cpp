@@ -666,8 +666,9 @@ ImageBridgeParent
 ImageBridgeParent
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static

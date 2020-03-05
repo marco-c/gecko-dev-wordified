@@ -397,8 +397,9 @@ ChromeProcessController
 ChromeProcessController
 (
 )
-{
-}
+=
+default
+;
 void
 ChromeProcessController
 :

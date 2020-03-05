@@ -150,8 +150,9 @@ RectType
 RegionBuilder
 (
 )
-{
-}
+=
+default
+;
 void
 OrWith
 (

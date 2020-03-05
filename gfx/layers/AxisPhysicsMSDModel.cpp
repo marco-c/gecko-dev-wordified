@@ -353,8 +353,9 @@ AxisPhysicsMSDModel
 AxisPhysicsMSDModel
 (
 )
-{
-}
+=
+default
+;
 double
 AxisPhysicsMSDModel
 :

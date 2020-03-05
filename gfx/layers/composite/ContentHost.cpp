@@ -320,8 +320,9 @@ ContentHostBase
 ContentHostBase
 (
 )
-{
-}
+=
+default
+;
 void
 ContentHostTexture
 :

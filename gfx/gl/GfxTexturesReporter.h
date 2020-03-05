@@ -160,8 +160,9 @@ nsIMemoryReporter
 GfxTexturesReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

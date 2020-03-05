@@ -9683,8 +9683,9 @@ gfxPlatform
 gfxPlatform
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static

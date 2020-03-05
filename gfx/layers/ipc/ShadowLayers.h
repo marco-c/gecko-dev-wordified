@@ -3144,8 +3144,9 @@ protected
 ShadowableLayer
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RefPtr

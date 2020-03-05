@@ -270,8 +270,9 @@ nsThebesFontEnumerator
 nsThebesFontEnumerator
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsThebesFontEnumerator
 :

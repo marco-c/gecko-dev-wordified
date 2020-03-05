@@ -1044,8 +1044,9 @@ TempImageLayerMLGPU
 TempImageLayerMLGPU
 (
 )
-{
-}
+=
+default
+;
 void
 TempImageLayerMLGPU
 :

@@ -568,8 +568,9 @@ WebRenderUserData
 WebRenderUserData
 (
 )
-{
-}
+=
+default
+;
 void
 WebRenderUserData
 :
@@ -2525,8 +2526,9 @@ WebRenderRenderRootData
 WebRenderRenderRootData
 (
 )
-{
-}
+=
+default
+;
 void
 DestroyWebRenderUserDataTable
 (

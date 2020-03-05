@@ -253,8 +253,8 @@ virtual
 GenericRefCountedBase
 (
 )
-{
-}
+=
+default
 ;
 public
 :

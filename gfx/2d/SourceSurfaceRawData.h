@@ -202,8 +202,9 @@ SourceSurfaceMappedData
 (
 )
 final
-{
-}
+=
+default
+;
 uint8_t
 *
 GetData
@@ -635,8 +636,9 @@ SourceSurfaceAlignedRawData
 (
 )
 override
-{
-}
+=
+default
+;
 bool
 Init
 (

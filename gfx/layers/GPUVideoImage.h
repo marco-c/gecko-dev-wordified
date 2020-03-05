@@ -192,8 +192,8 @@ virtual
 IGPUVideoSurfaceManager
 (
 )
-{
-}
+=
+default
 ;
 public
 :

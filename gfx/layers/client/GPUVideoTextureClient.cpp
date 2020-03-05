@@ -191,8 +191,9 @@ GPUVideoTextureData
 GPUVideoTextureData
 (
 )
-{
-}
+=
+default
+;
 bool
 GPUVideoTextureData
 :

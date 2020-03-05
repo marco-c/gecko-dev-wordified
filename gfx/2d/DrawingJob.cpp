@@ -151,8 +151,9 @@ DrawingJobBuilder
 DrawingJobBuilder
 (
 )
-{
-}
+=
+default
+;
 DrawingJobBuilder
 :
 :

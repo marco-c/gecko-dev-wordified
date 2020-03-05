@@ -187,8 +187,9 @@ RecordedTextureData
 RecordedTextureData
 (
 )
-{
-}
+=
+default
+;
 void
 RecordedTextureData
 :

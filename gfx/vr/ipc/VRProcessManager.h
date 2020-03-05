@@ -453,8 +453,9 @@ protected
 Observer
 (
 )
-{
-}
+=
+default
+;
 VRProcessManager
 *
 mManager

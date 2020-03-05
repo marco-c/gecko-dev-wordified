@@ -427,8 +427,9 @@ TextRenderer
 TextRenderer
 (
 )
-{
-}
+=
+default
+;
 TextRenderer
 :
 :

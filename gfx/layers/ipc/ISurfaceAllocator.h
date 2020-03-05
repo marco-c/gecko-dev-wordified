@@ -453,8 +453,9 @@ ISurfaceAllocator
 ISurfaceAllocator
 (
 )
-{
-}
+=
+default
+;
 /
 /
 down
@@ -643,8 +644,9 @@ public
 ClientIPCAllocator
 (
 )
-{
-}
+=
+default
+;
 ClientIPCAllocator
 *
 AsClientAllocator
@@ -715,8 +717,9 @@ public
 HostIPCAllocator
 (
 )
-{
-}
+=
+default
+;
 HostIPCAllocator
 *
 AsHostIPCAllocator
@@ -1085,8 +1088,9 @@ nsIMemoryReporter
 GfxMemoryImageReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

@@ -4039,8 +4039,9 @@ AlphaBoxBlur
 AlphaBoxBlur
 (
 )
-{
-}
+=
+default
+;
 IntSize
 AlphaBoxBlur
 :

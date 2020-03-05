@@ -226,8 +226,9 @@ ImageLayer
 ImageLayer
 (
 )
-{
-}
+=
+default
+;
 void
 ImageLayer
 :

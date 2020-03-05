@@ -178,8 +178,9 @@ VsyncBridgeChild
 VsyncBridgeChild
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static

@@ -262,8 +262,9 @@ SoftwareDisplay
 SoftwareDisplay
 (
 )
-{
-}
+=
+default
+;
 void
 SoftwareDisplay
 :

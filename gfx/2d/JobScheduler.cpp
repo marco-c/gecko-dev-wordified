@@ -753,8 +753,9 @@ SetEventJob
 SetEventJob
 (
 )
-{
-}
+=
+default
+;
 SyncObject
 :
 :

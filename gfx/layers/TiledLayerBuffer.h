@@ -1147,8 +1147,9 @@ TileSize
 TiledLayerBuffer
 (
 )
-{
-}
+=
+default
+;
 gfx
 :
 :

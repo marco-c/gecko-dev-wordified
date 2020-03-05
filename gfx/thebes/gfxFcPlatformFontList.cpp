@@ -8039,8 +8039,9 @@ gfxFontconfigFont
 gfxFontconfigFont
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 ScaledFont

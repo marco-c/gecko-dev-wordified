@@ -212,8 +212,9 @@ APZInputBridgeParent
 APZInputBridgeParent
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

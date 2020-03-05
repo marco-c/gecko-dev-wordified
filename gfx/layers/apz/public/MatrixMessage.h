@@ -185,8 +185,9 @@ directly
 MatrixMessage
 (
 )
-{
-}
+=
+default
+;
 MatrixMessage
 (
 const

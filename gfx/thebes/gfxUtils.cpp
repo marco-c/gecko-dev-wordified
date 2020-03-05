@@ -9958,8 +9958,9 @@ protected
 GetFeatureStatusWorkerRunnable
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsCOMPtr

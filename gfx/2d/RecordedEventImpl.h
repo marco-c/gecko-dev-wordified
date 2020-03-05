@@ -4345,8 +4345,9 @@ aKey
 RecordedExternalSurfaceCreation
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 PlayEvent
@@ -16897,8 +16898,9 @@ RecordedFilterNodeCreation
 RecordedFilterNodeCreation
 (
 )
-{
-}
+=
+default
+;
 inline
 bool
 RecordedFilterNodeCreation
@@ -18606,8 +18608,9 @@ RecordedFontDescriptor
 RecordedFontDescriptor
 (
 )
-{
-}
+=
+default
+;
 inline
 bool
 RecordedFontDescriptor

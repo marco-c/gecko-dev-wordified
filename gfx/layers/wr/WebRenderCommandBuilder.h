@@ -251,12 +251,9 @@ public
 WebRenderScrollDataCollection
 (
 )
-:
-mSeenRenderRoot
-{
-}
-{
-}
+=
+default
+;
 std
 :
 :

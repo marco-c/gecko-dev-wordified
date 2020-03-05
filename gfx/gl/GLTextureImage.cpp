@@ -1431,8 +1431,9 @@ TiledTextureImage
 TiledTextureImage
 (
 )
-{
-}
+=
+default
+;
 bool
 TiledTextureImage
 :

@@ -207,8 +207,9 @@ MaskOperation
 MaskOperation
 (
 )
-{
-}
+=
+default
+;
 static
 gfx
 :
@@ -677,8 +678,9 @@ MaskCombineOperation
 MaskCombineOperation
 (
 )
-{
-}
+=
+default
+;
 void
 MaskCombineOperation
 :

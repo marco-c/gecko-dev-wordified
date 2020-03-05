@@ -209,8 +209,9 @@ LayerTransforms
 LayerTransforms
 (
 )
-{
-}
+=
+default
+;
 gfx
 :
 :
@@ -257,8 +258,9 @@ public
 LayerTransformRecorder
 (
 )
-{
-}
+=
+default
+;
 ~
 LayerTransformRecorder
 (

@@ -218,8 +218,9 @@ AnimationInfo
 AnimationInfo
 (
 )
-{
-}
+=
+default
+;
 void
 AnimationInfo
 :

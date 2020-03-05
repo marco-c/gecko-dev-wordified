@@ -147,8 +147,9 @@ DrawTargetTiled
 DrawTargetTiled
 (
 )
-{
-}
+=
+default
+;
 bool
 DrawTargetTiled
 :

@@ -3681,8 +3681,9 @@ aContext
 BufferAlphaColor
 (
 )
-{
-}
+=
+default
+;
 void
 PushSolidColor
 (

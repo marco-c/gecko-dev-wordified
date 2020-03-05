@@ -3476,8 +3476,9 @@ CanvasClientOOP
 CanvasClientOOP
 (
 )
-{
-}
+=
+default
+;
 void
 CanvasClientOOP
 :

@@ -541,8 +541,9 @@ Release
 gfxPattern
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

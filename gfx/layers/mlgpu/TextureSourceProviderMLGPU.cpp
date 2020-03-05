@@ -187,8 +187,9 @@ TextureSourceProviderMLGPU
 TextureSourceProviderMLGPU
 (
 )
-{
-}
+=
+default
+;
 int32_t
 TextureSourceProviderMLGPU
 :

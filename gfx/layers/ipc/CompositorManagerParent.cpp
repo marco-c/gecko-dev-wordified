@@ -933,8 +933,9 @@ CompositorManagerParent
 CompositorManagerParent
 (
 )
-{
-}
+=
+default
+;
 void
 CompositorManagerParent
 :

@@ -372,8 +372,9 @@ public
 gfxSparseBitSet
 (
 )
-{
-}
+=
+default
+;
 gfxSparseBitSet
 (
 const
@@ -4354,8 +4355,9 @@ private
 AutoSwap_PRUint24
 (
 )
-{
-}
+=
+default
+;
 uint8_t
 value
 [

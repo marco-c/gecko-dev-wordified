@@ -226,8 +226,9 @@ APZCTreeManagerChild
 APZCTreeManagerChild
 (
 )
-{
-}
+=
+default
+;
 void
 APZCTreeManagerChild
 :

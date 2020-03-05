@@ -240,8 +240,9 @@ protected
 SyncObjectHost
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -339,8 +340,9 @@ protected
 SyncObjectClient
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

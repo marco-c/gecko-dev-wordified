@@ -223,8 +223,9 @@ ProfilerScreenshots
 ProfilerScreenshots
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static

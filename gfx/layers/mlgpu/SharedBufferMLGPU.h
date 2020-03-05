@@ -1003,8 +1003,9 @@ public
 AutoBufferUpload
 (
 )
-{
-}
+=
+default
+;
 T
 *
 operator

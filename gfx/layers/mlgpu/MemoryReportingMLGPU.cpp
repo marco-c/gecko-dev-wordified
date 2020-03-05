@@ -285,8 +285,9 @@ private
 MemoryReportingMLGPU
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

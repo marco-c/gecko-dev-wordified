@@ -597,8 +597,9 @@ public
 BasicImageFactory
 (
 )
-{
-}
+=
+default
+;
 virtual
 RefPtr
 <

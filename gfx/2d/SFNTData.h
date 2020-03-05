@@ -588,8 +588,9 @@ private
 SFNTData
 (
 )
-{
-}
+=
+default
+;
 bool
 AddFont
 (

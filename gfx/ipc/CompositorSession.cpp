@@ -265,8 +265,9 @@ CompositorSession
 CompositorSession
 (
 )
-{
-}
+=
+default
+;
 CompositorBridgeChild
 *
 CompositorSession

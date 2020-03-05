@@ -502,8 +502,9 @@ gfxVars
 gfxVars
 (
 )
-{
-}
+=
+default
+;
 void
 gfxVars
 :

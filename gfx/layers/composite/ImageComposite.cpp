@@ -192,8 +192,9 @@ ImageComposite
 ImageComposite
 (
 )
-{
-}
+=
+default
+;
 TimeStamp
 ImageComposite
 :

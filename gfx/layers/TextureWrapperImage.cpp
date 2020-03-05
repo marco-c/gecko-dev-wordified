@@ -173,8 +173,9 @@ TextureWrapperImage
 TextureWrapperImage
 (
 )
-{
-}
+=
+default
+;
 gfx
 :
 :

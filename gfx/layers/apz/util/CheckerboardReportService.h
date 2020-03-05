@@ -376,8 +376,9 @@ singleton
 CheckerboardEventStorage
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 CheckerboardEventStorage
