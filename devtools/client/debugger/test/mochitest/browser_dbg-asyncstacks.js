@@ -65,7 +65,9 @@ that
 async
 stacks
 include
-awaitees
+the
+async
+separator
 add_task
 (
 async
@@ -84,7 +86,7 @@ features
 .
 async
 -
-live
+captured
 -
 stacks
 "
@@ -161,7 +163,7 @@ frame
 .
 innerText
 "
-await
+async
 \
 nmain
 \
