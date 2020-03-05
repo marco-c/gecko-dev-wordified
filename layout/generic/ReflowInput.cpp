@@ -20452,7 +20452,7 @@ isThemed
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -20835,7 +20835,7 @@ border
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -

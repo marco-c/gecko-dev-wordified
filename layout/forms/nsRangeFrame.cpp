@@ -1803,7 +1803,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -3571,7 +3571,7 @@ size
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -5310,7 +5310,7 @@ PresContext
 pc
 -
 >
-GetTheme
+Theme
 (
 )
 -

@@ -2115,7 +2115,7 @@ disp
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -2277,7 +2277,7 @@ disp
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -

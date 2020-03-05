@@ -10922,7 +10922,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 -

@@ -1413,7 +1413,13 @@ NS_ITHEME_IID
 /
 Singleton
 accessor
-function
+functions
+these
+should
+never
+return
+null
+.
 /
 /
 /
@@ -1426,7 +1432,7 @@ use
 nsPresContext
 :
 :
-GetTheme
+Theme
 instead
 .
 extern
