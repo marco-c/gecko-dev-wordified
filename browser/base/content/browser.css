@@ -7317,8 +7317,6 @@ opacity
 ease
 -
 out
-visibility
-120ms
 ;
 }
 #
@@ -7353,10 +7351,6 @@ opacity
 :
 0
 ;
-visibility
-:
-hidden
-;
 }
 #
 statuspanel
@@ -7376,8 +7370,6 @@ opacity
 ease
 -
 out
-visibility
-200ms
 ;
 }
 #
