@@ -206,6 +206,11 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 MemoryBlobImpl
 BaseBlobImpl
 )
+/
+/
+File
+constructor
+.
 MemoryBlobImpl
 (
 void
@@ -265,6 +270,11 @@ data
 )
 ;
 }
+/
+/
+Blob
+constructor
+.
 MemoryBlobImpl
 (
 void
