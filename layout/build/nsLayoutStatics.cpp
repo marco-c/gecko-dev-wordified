@@ -2139,13 +2139,6 @@ Shutdown
 (
 )
 ;
-nsBox
-:
-:
-Shutdown
-(
-)
-;
 #
 ifdef
 MOZ_XUL
