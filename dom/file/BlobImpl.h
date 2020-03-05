@@ -566,15 +566,6 @@ const
 ;
 virtual
 bool
-IsSizeUnknown
-(
-)
-const
-=
-0
-;
-virtual
-bool
 IsFile
 (
 )
