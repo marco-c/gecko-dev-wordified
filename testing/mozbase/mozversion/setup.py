@@ -227,7 +227,7 @@ install_requires
 mozlog
 >
 =
-5
+6
 .
 0
 '
