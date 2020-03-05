@@ -169,8 +169,9 @@ virtual
 PerformanceStorage
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

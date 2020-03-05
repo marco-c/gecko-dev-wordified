@@ -196,8 +196,9 @@ PerformanceNavigation
 PerformanceNavigation
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 PerformanceNavigation

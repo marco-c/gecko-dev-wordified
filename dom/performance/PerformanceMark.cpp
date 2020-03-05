@@ -186,8 +186,9 @@ PerformanceMark
 PerformanceMark
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 PerformanceMark

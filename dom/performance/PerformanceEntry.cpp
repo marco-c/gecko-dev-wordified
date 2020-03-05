@@ -197,8 +197,9 @@ PerformanceEntry
 PerformanceEntry
 (
 )
-{
-}
+=
+default
+;
 size_t
 PerformanceEntry
 :

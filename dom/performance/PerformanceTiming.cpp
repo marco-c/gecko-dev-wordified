@@ -1542,8 +1542,9 @@ PerformanceTiming
 PerformanceTiming
 (
 )
-{
-}
+=
+default
+;
 DOMHighResTimeStamp
 PerformanceTimingData
 :
