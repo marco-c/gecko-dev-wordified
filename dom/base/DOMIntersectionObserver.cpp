@@ -780,7 +780,7 @@ thresh
 {
 aRv
 .
-ThrowTypeError
+ThrowRangeError
 <
 dom
 :
@@ -846,7 +846,7 @@ thresh
 {
 aRv
 .
-ThrowTypeError
+ThrowRangeError
 <
 dom
 :
