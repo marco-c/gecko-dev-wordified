@@ -2810,7 +2810,6 @@ primary
 0
 )
 ;
-}
 if
 (
 this
@@ -2838,6 +2837,7 @@ setFloatingScrollbars
 false
 )
 ;
+}
 }
 this
 .
