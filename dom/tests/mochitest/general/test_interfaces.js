@@ -1406,9 +1406,6 @@ AnimationTimeline
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
@@ -3570,9 +3567,6 @@ DocumentTimeline
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
