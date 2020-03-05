@@ -472,6 +472,8 @@ NotEqual
 {
 max_difference
 count_different
+.
+.
 }
 =
 >
