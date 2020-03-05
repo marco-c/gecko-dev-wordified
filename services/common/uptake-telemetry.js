@@ -943,6 +943,16 @@ custom_5_error
 }
 ;
 }
+static
+get
+Policy
+(
+)
+{
+return
+Policy
+;
+}
 /
 *
 *
@@ -1174,6 +1184,8 @@ const
 hash
 =
 await
+UptakeTelemetry
+.
 Policy
 .
 getClientIDHash
@@ -1183,6 +1195,8 @@ getClientIDHash
 const
 channel
 =
+UptakeTelemetry
+.
 Policy
 .
 getChannel
