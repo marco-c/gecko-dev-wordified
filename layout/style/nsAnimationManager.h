@@ -579,7 +579,15 @@ mAnimationName
 Animation
 interface
 overrides
-virtual
+void
+SetEffect
+(
+AnimationEffect
+*
+aEffect
+)
+override
+;
 Promise
 *
 GetReady
@@ -590,7 +598,6 @@ aRv
 )
 override
 ;
-virtual
 void
 Play
 (
@@ -602,7 +609,6 @@ aLimitBehavior
 )
 override
 ;
-virtual
 void
 Pause
 (
