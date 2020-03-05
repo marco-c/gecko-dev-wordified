@@ -12174,6 +12174,11 @@ ClearHostMapping
 mConnInfo
 )
 ;
+mCaps
+|
+=
+NS_HTTP_REFRESH_DNS
+;
 /
 /
 retry
