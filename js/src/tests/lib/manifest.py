@@ -32,6 +32,7 @@ import
 Popen
 PIPE
 from
+.
 tests
 import
 RefTestCase
@@ -803,6 +804,9 @@ PIPE
 stderr
 =
 PIPE
+universal_newlines
+=
+True
 )
             
 out

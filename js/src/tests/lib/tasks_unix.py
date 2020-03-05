@@ -52,10 +52,12 @@ import
 datetime
 timedelta
 from
+.
 progressbar
 import
 ProgressBar
 from
+.
 results
 import
 NullTestOutput
@@ -1211,6 +1213,7 @@ ended
 .
 cmd
                 
+b
 '
 '
 .
@@ -1220,7 +1223,12 @@ ended
 .
 out
 )
+.
+decode
+(
+)
                 
+b
 '
 '
 .
@@ -1229,6 +1237,10 @@ join
 ended
 .
 err
+)
+.
+decode
+(
 )
                 
 returncode
