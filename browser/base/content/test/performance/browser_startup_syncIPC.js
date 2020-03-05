@@ -894,9 +894,6 @@ Msg_ProcessUnhandledEvent
 condition
 :
 WIN
-&
-&
-WEBRENDER
 ignoreIfUnused
 :
 true
@@ -926,9 +923,6 @@ Msg_ReceiveMouseInputEvent
 condition
 :
 WIN
-&
-&
-WEBRENDER
 ignoreIfUnused
 :
 true
