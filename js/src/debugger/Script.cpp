@@ -9893,12 +9893,6 @@ case
 JSOp
 :
 :
-PopVarEnv
-:
-case
-JSOp
-:
-:
 GetBoundName
 :
 case
