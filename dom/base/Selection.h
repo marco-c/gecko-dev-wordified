@@ -4586,7 +4586,7 @@ nsresult
 MaybeAddTableCellRange
 (
 nsRange
-*
+&
 aRange
 bool
 *
