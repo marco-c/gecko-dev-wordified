@@ -106,6 +106,9 @@ props
 )
 )
 ;
+let
+sideEffectVar
+;
 window
 .
 foo
@@ -118,6 +121,13 @@ bar
 (
 )
 {
+sideEffectVar
+=
+"
+from
+bar
+"
+;
 return
 obj
 (
@@ -127,6 +137,13 @@ baz
 (
 )
 {
+sideEffectVar
+=
+"
+from
+baz
+"
+;
 return
 obj
 (
