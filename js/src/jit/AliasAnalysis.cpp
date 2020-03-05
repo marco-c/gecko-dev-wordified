@@ -1192,15 +1192,6 @@ MDefinition
 Opcode
 :
 :
-Compare
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 GetArgumentsObjectArg
 :
 case
