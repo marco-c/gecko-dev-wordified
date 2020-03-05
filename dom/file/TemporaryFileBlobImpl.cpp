@@ -645,12 +645,6 @@ EmptyString
 (
 )
 aContentType
-NS_LITERAL_STRING
-(
-"
-TemporaryBlobImpl
-"
-)
 )
 #
 ifdef
