@@ -1319,6 +1319,12 @@ _captivePortalGone
 {
 this
 .
+_captivePortalTab
+=
+null
+;
+this
+.
 _cancelDelayedCaptivePortal
 (
 )
