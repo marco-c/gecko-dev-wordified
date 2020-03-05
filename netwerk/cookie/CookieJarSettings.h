@@ -967,7 +967,7 @@ already_AddRefed
 <
 nsICookieJarSettings
 >
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;

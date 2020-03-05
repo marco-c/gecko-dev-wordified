@@ -27626,7 +27626,7 @@ net
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;

@@ -757,7 +757,7 @@ Create
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;
@@ -10419,7 +10419,7 @@ using
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 .

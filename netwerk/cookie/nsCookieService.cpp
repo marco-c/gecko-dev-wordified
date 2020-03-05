@@ -15044,7 +15044,7 @@ cookieJarSettings
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;
