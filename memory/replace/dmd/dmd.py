@@ -1689,46 +1689,22 @@ True
     
 elif
 sysname
-=
-=
+in
+(
 '
 Linux
 '
-:
-        
-import
-fix_linux_stack
-as
-fixModule
-        
-def
-fix
-(
-line
-)
-:
-return
-fixModule
-.
-fixSymbols
-(
-line
-jsonEscape
-=
-True
-)
-    
-elif
-sysname
-=
-=
 '
 Darwin
 '
+'
+Windows
+'
+)
 :
         
 import
-fix_macosx_stack
+fix_stacks
 as
 fixModule
         
@@ -1744,7 +1720,7 @@ fixModule
 fixSymbols
 (
 line
-jsonEscape
+jsonMode
 =
 True
 )
@@ -1755,14 +1731,6 @@ else
 fix
 =
 None
-#
-there
-is
-no
-fix
-script
-for
-Windows
     
 if
 fix
