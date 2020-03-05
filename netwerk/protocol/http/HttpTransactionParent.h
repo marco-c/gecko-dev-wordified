@@ -386,11 +386,11 @@ const
 bool
 &
 aHasStickyConn
-const
 Maybe
 <
 TransactionObserverResult
 >
+&
 &
 aTransactionObserverResult
 )
@@ -599,11 +599,11 @@ const
 bool
 &
 aHasStickyConn
-const
 Maybe
 <
 TransactionObserverResult
 >
+&
 &
 aTransactionObserverResult
 )
@@ -717,9 +717,6 @@ mDomainLookupEnd
 ;
 TransactionObserverFunc
 mTransactionObserver
-;
-TransactionObserverResult
-mTransactionObserverResult
 ;
 OnPushCallback
 mOnPushCallback

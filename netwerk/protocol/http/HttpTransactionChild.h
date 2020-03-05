@@ -664,6 +664,8 @@ bool
 responseTimeoutEnabled
 uint64_t
 channelId
+bool
+aHasTransactionObserver
 const
 Maybe
 <
@@ -702,17 +704,6 @@ nsCOMPtr
 nsIRequest
 >
 mTransactionPump
-;
-std
-:
-:
-function
-<
-void
-(
-)
->
-mTransactionObserver
 ;
 Maybe
 <
