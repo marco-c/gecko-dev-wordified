@@ -148,12 +148,6 @@ gfx
 struct
 PathOp
 {
-PathOp
-(
-)
-=
-default
-;
 ~
 PathOp
 (
@@ -201,6 +195,11 @@ defined
 (
 __clang__
 )
+PathOp
+(
+)
+{
+}
 union
 {
 struct
@@ -233,6 +232,12 @@ mAntiClockwise
 ;
 #
 else
+PathOp
+(
+)
+=
+default
+;
 Point
 mP2
 ;
