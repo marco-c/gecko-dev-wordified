@@ -221,6 +221,7 @@ eRootType
 eXULLabelType
 eXULListItemType
 eXULTabpanelsType
+eXULTooltipType
 eXULTreeType
 eLastAccType
 =

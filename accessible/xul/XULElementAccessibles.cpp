@@ -1400,6 +1400,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eXULTooltipType
+;
 }
 uint64_t
 XULTooltipAccessible
