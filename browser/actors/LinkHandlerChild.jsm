@@ -123,12 +123,10 @@ JSWindowActorChild
 {
 constructor
 (
-dispatcher
 )
 {
 super
 (
-dispatcher
 )
 ;
 this
