@@ -2737,13 +2737,9 @@ return
 NS_OK
 ;
 }
-/
-/
+MOZ_CAN_RUN_SCRIPT
 static
 nsresult
-Selection
-:
-:
 GetTableCellLocationFromRange
 (
 const
