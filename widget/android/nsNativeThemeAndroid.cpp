@@ -1877,7 +1877,7 @@ already_AddRefed
 <
 nsITheme
 >
-do_GetNativeTheme
+do_GetNativeThemeDoNotUseDirectly
 (
 )
 {
