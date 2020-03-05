@@ -1213,6 +1213,10 @@ funcData
 index
 ]
 .
+get
+(
+)
+.
 atom
 compilationInfo
 .
@@ -1220,6 +1224,10 @@ funcData
 [
 index
 ]
+.
+get
+(
+)
 .
 flags
 )
@@ -2029,8 +2037,10 @@ hasModuleGoal_
 true
 ;
 }
+MutableHandle
+<
 FunctionCreationData
-*
+>
 FunctionBox
 :
 :
@@ -2046,11 +2056,7 @@ hasFunctionCreationIndex
 )
 )
 ;
-FunctionCreationData
-*
-fcd
-=
-&
+return
 compilationInfo_
 .
 funcData
@@ -2058,9 +2064,6 @@ funcData
 *
 funcDataIndex_
 ]
-;
-return
-fcd
 ;
 }
 }
