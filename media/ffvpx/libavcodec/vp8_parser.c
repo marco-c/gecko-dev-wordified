@@ -444,16 +444,6 @@ height
 )
 ;
 }
-*
-poutbuf
-=
-buf
-;
-*
-poutbuf_size
-=
-buf_size
-;
 return
 buf_size
 ;

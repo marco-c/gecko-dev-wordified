@@ -180,7 +180,6 @@ h
 Add
 an
 element
-of
 to
 a
 dynamic

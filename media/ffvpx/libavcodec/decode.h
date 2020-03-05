@@ -465,6 +465,14 @@ AVPacket
 pkt
 )
 ;
+int
+ff_decode_bsfs_init
+(
+AVCodecContext
+*
+avctx
+)
+;
 void
 ff_decode_bsfs_uninit
 (

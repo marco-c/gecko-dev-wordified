@@ -456,7 +456,7 @@ Assert
 that
 floating
 point
-opperations
+operations
 can
 be
 executed

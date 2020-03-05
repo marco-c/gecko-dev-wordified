@@ -338,6 +338,9 @@ define
 emms_c
 (
 )
+do
+{
+}
 while
 (
 0

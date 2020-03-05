@@ -189,7 +189,7 @@ inline
 struct
 tm
 *
-gmtime_r
+ff_gmtime_r
 (
 const
 time_t
@@ -230,6 +230,10 @@ result
 ;
 }
 #
+define
+gmtime_r
+ff_gmtime_r
+#
 endif
 #
 if
@@ -247,7 +251,7 @@ inline
 struct
 tm
 *
-localtime_r
+ff_localtime_r
 (
 const
 time_t
@@ -287,6 +291,10 @@ return
 result
 ;
 }
+#
+define
+localtime_r
+ff_localtime_r
 #
 endif
 #

@@ -320,7 +320,7 @@ align
 16
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -346,7 +346,7 @@ align
 4
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -372,7 +372,7 @@ align
 16
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -402,7 +402,7 @@ h264_v_loop_filter_luma_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -419,7 +419,7 @@ h264_h_loop_filter_luma_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -442,7 +442,7 @@ align
 16
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -465,7 +465,7 @@ align
 8
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -491,7 +491,7 @@ align
 4
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -517,7 +517,7 @@ align
 8
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -543,7 +543,7 @@ align
 8
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -566,7 +566,7 @@ align
 8
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -589,7 +589,7 @@ align
 8
 *
 /
-int
+ptrdiff_t
 stride
 int
 alpha

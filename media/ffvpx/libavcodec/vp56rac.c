@@ -502,6 +502,13 @@ buf
 +
 buf_size
 ;
+c
+-
+>
+end_reached
+=
+0
+;
 if
 (
 buf_size
