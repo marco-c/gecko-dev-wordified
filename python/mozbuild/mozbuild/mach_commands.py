@@ -2939,7 +2939,7 @@ sorted
 (
 type_counts
 .
-iteritems
+items
 (
 )
                                
