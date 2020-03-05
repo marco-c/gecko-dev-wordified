@@ -150,8 +150,9 @@ OSPreferences
 OSPreferences
 (
 )
-{
-}
+=
+default
+;
 OSPreferences
 :
 :
@@ -159,8 +160,9 @@ OSPreferences
 OSPreferences
 (
 )
-{
-}
+=
+default
+;
 bool
 OSPreferences
 :

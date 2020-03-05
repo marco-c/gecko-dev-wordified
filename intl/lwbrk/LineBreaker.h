@@ -350,8 +350,9 @@ private
 LineBreaker
 (
 )
-{
-}
+=
+default
+;
 int32_t
 WordMove
 (

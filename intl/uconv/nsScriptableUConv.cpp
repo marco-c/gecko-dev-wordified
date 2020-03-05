@@ -163,8 +163,9 @@ nsScriptableUnicodeConverter
 nsScriptableUnicodeConverter
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsScriptableUnicodeConverter
 :

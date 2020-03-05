@@ -228,8 +228,9 @@ private
 WordBreaker
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

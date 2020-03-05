@@ -147,8 +147,9 @@ nsICollationFactory
 nsCollationFactory
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -156,8 +157,9 @@ NS_DECL_NSICOLLATIONFACTORY
 nsCollationFactory
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
