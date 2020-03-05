@@ -18781,10 +18781,6 @@ slot
 *
 Stack
 :
-v
-=
->
-v
 *
 /
 \
@@ -18794,8 +18790,8 @@ ThrowSetAliasedConst
 throw_set_aliased_const
 NULL
 5
-1
-1
+0
+0
 JOF_ENVCOORD
 |
 JOF_NAME
@@ -18883,10 +18879,6 @@ Operands
 *
 Stack
 :
-v
-=
->
-v
 *
 /
 \
@@ -18896,8 +18888,8 @@ ThrowSetCallee
 throw_set_callee
 NULL
 1
-1
-1
+0
+0
 JOF_BYTE
 )
 \
@@ -18950,10 +18942,6 @@ localno
 *
 Stack
 :
-v
-=
->
-v
 *
 /
 \
@@ -18963,8 +18951,8 @@ ThrowSetConst
 throw_set_const
 NULL
 4
-1
-1
+0
+0
 JOF_LOCAL
 |
 JOF_NAME
