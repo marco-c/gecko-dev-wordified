@@ -184,12 +184,10 @@ events
 /
 constructor
 (
-dispatcher
 )
 {
 super
 (
-dispatcher
 )
 ;
 this
