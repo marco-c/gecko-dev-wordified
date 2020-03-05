@@ -1922,6 +1922,9 @@ mCachedRelations
 long
 mCachedNRelations
 ;
+bool
+mIsEmulatedWindow
+;
 }
 ;
 inline
