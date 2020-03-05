@@ -976,7 +976,7 @@ function
 (
 )
 {
-it
+it_fails_ffox
 (
 '
 should
@@ -1154,7 +1154,7 @@ function
 (
 )
 {
-it
+it_fails_ffox
 (
 '
 should
@@ -1343,7 +1343,7 @@ launch
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 userDataDir
@@ -1490,7 +1490,7 @@ e
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 userDataDir
@@ -1679,7 +1679,7 @@ e
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 userDataDir
@@ -2773,7 +2773,7 @@ close
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -2990,7 +2990,7 @@ close
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -3100,7 +3100,7 @@ close
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -3302,7 +3302,7 @@ function
 (
 )
 {
-it
+it_fails_ffox
 (
 '
 should
@@ -3443,7 +3443,7 @@ close
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
@@ -4569,7 +4569,7 @@ function
 (
 )
 {
-it
+it_fails_ffox
 (
 '
 should
