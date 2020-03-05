@@ -2629,8 +2629,9 @@ private
 nsProgressNotificationProxy
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIInterfaceRequestor
