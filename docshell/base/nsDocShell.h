@@ -9002,11 +9002,6 @@ mUseErrorPages
 1
 ;
 bool
-mUseStrictSecurityChecks
-:
-1
-;
-bool
 mObserveErrorPages
 :
 1
