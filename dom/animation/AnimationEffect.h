@@ -310,6 +310,7 @@ Forever
 /
 AnimationEffect
 interface
+virtual
 void
 GetTiming
 (
@@ -319,6 +320,7 @@ aRetVal
 )
 const
 ;
+virtual
 void
 GetComputedTimingAsDict
 (
