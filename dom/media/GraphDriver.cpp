@@ -2284,12 +2284,7 @@ mStateComputedTime
 )
 ;
 }
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-FallbackWrapper
-override
-)
-;
+NS_DECL_THREADSAFE_ISUPPORTS
 /
 *
 Proxied
@@ -3043,6 +3038,13 @@ mStateComputedTime
 ;
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+AudioCallbackDriver
+:
+:
+FallbackWrapper
+)
 AudioCallbackDriver
 :
 :

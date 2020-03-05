@@ -497,6 +497,9 @@ AudioContextOperation
 }
 struct
 GraphInterface
+:
+public
+nsISupports
 {
 /
 *
@@ -1187,7 +1190,6 @@ Switched
 }
 }
 ;
-NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 /
 *
 Called
