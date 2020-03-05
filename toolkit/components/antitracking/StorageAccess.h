@@ -135,7 +135,7 @@ class
 nsIChannel
 ;
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 class
 nsIPrincipal
@@ -652,9 +652,9 @@ StorageAllowedForServiceWorker
 nsIPrincipal
 *
 aPrincipal
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 )
 ;
 /
@@ -880,9 +880,9 @@ StoragePartitioningEnabled
 (
 StorageAccess
 aAccess
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 )
 ;
 bool
@@ -890,9 +890,9 @@ StoragePartitioningEnabled
 (
 uint32_t
 aRejectedReason
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 )
 ;
 }

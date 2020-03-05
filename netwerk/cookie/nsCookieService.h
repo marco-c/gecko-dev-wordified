@@ -282,7 +282,7 @@ class
 nsICookiePermission
 ;
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 class
 nsIEffectiveTLDService
@@ -1322,9 +1322,9 @@ static
 CookieStatus
 CheckPrefs
 (
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 nsIURI
 *
 aHostURI
@@ -1365,9 +1365,9 @@ aServerTime
 static
 already_AddRefed
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-GetCookieSettings
+GetCookieJarSettings
 (
 nsIChannel
 *

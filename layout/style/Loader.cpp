@@ -10186,9 +10186,9 @@ loadGroup
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 ;
 if
 (
@@ -10258,12 +10258,12 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-cookieSettings
+cookieJarSettings
 =
 mDocument
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 ;
@@ -10549,7 +10549,7 @@ GetSystemPrincipal
 )
 securityFlags
 contentPolicyType
-cookieSettings
+cookieJarSettings
 /
 *
 aPerformanceStorage

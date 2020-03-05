@@ -351,9 +351,9 @@ mLoadingPrincipal
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-mCookieSettings
+mCookieJarSettings
 ;
 nsCOMPtr
 <

@@ -548,7 +548,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "

@@ -145,7 +145,7 @@ clearUserPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -330,7 +330,7 @@ cookiesEnabled
 thirdPartyCookiesEnabled
 cookiesExpireAfterSession
 rejectTrackers
-cookieSettingsLocked
+cookieJarSettingsLocked
 }
 )
 {
@@ -673,7 +673,7 @@ cookie
 cookieBehavior
 "
 )
-cookieSettingsLocked
+cookieJarSettingsLocked
 "
 Cookie
 behavior
@@ -704,7 +704,7 @@ cookie
 lifetimePolicy
 "
 )
-cookieSettingsLocked
+cookieJarSettingsLocked
 "
 Cookie
 lifetime
@@ -760,7 +760,7 @@ linkedBrowser
 [
 {
 cookiesEnabled
-cookieSettingsLocked
+cookieJarSettingsLocked
 }
 ]
 /
@@ -780,7 +780,7 @@ function
 (
 {
 cookiesEnabled
-cookieSettingsLocked
+cookieJarSettingsLocked
 }
 )
 {
@@ -819,7 +819,7 @@ expectControlsDisabled
 cookiesEnabled
 |
 |
-cookieSettingsLocked
+cookieJarSettingsLocked
 ;
 is
 (
@@ -1241,7 +1241,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1261,7 +1261,7 @@ true
 cookiesExpireAfterSession
 :
 false
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 false
 }
@@ -1323,7 +1323,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1435,7 +1435,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1473,7 +1473,7 @@ true
 cookiesExpireAfterSession
 :
 false
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 false
 }
@@ -1503,7 +1503,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1543,7 +1543,7 @@ false
 cookiesExpireAfterSession
 :
 false
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 false
 }
@@ -1573,7 +1573,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1616,7 +1616,7 @@ false
 cookiesExpireAfterSession
 :
 false
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 false
 }
@@ -1646,7 +1646,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1692,7 +1692,7 @@ false
 cookiesExpireAfterSession
 :
 false
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 true
 }
@@ -1722,7 +1722,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1760,7 +1760,7 @@ true
 cookiesExpireAfterSession
 :
 false
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 true
 }
@@ -1790,7 +1790,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1828,7 +1828,7 @@ true
 cookiesExpireAfterSession
 :
 true
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 false
 }
@@ -1858,7 +1858,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1899,7 +1899,7 @@ false
 rejectTrackers
 :
 true
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 false
 }
@@ -1929,7 +1929,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -1970,7 +1970,7 @@ true
 cookiesExpireAfterSession
 :
 true
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 true
 }
@@ -2000,7 +2000,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -2049,7 +2049,7 @@ false
 cookiesExpireAfterSession
 :
 true
-cookieSettingsLocked
+cookieJarSettingsLocked
 :
 true
 }

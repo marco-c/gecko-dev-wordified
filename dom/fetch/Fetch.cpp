@@ -376,7 +376,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -2056,7 +2056,7 @@ MainThreadEventTarget
 workerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 workerPrivate
@@ -2539,9 +2539,9 @@ loadGroup
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 ;
 nsIPrincipal
 *
@@ -2601,12 +2601,12 @@ GetDocumentLoadGroup
 (
 )
 ;
-cookieSettings
+cookieJarSettings
 =
 doc
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 ;
@@ -2652,7 +2652,7 @@ return
 nullptr
 ;
 }
-cookieSettings
+cookieJarSettings
 =
 mozilla
 :
@@ -2660,7 +2660,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -2751,7 +2751,7 @@ TaskCategory
 :
 Other
 )
-cookieSettings
+cookieJarSettings
 nullptr
 /
 /

@@ -532,7 +532,7 @@ GetExtantDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 )

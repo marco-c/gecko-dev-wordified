@@ -1016,7 +1016,7 @@ TYPE_INTERNAL_XMLHTTPREQUEST
 nullptr
 /
 /
-aCookieSettings
+aCookieJarSettings
 nullptr
 /
 /

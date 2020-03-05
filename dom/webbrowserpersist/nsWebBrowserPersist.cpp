@@ -400,7 +400,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -7860,7 +7860,7 @@ LOAD_FROM_CACHE
 Create
 a
 new
-cookieSettings
+cookieJarSettings
 for
 this
 download
@@ -7884,9 +7884,9 @@ permissions
 .
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 =
 mozilla
 :
@@ -7894,7 +7894,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -7930,7 +7930,7 @@ nsILoadInfo
 :
 SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 aContentPolicyType
-cookieSettings
+cookieJarSettings
 nullptr
 /
 /

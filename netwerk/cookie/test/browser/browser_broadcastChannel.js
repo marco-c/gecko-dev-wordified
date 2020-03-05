@@ -23,6 +23,7 @@ windows
 with
 different
 cookie
+jar
 settings
 .
 CookiePolicyHelper

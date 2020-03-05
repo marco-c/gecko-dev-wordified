@@ -207,7 +207,7 @@ class
 nsIGlobalObject
 ;
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 namespace
 mozilla
@@ -388,9 +388,9 @@ EventSource
 nsIGlobalObject
 *
 aGlobal
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 bool
 aWithCredentials
 )

@@ -139,7 +139,7 @@ t
 want
 to
 have
-CookieSettings
+CookieJarSettings
 blocking
 this
 test
@@ -153,7 +153,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "

@@ -232,7 +232,7 @@ member
 #
 include
 "
-nsICookieSettings
+nsICookieJarSettings
 .
 h
 "
@@ -8249,6 +8249,7 @@ const
 Returns
 the
 cookie
+jar
 settings
 for
 this
@@ -8256,9 +8257,9 @@ and
 sub
 contexts
 .
-nsICookieSettings
+nsICookieJarSettings
 *
-CookieSettings
+CookieJarSettings
 (
 )
 ;
@@ -31078,9 +31079,9 @@ mPendingInitialTranslation
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-mCookieSettings
+mCookieJarSettings
 ;
 /
 /

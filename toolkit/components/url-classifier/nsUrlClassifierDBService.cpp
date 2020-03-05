@@ -11600,7 +11600,7 @@ TYPE_OTHER
 nullptr
 /
 /
-nsICookieSettings
+nsICookieJarSettings
 nullptr
 /
 /

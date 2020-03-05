@@ -151,7 +151,7 @@ class
 nsIChannel
 ;
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 namespace
 mozilla
@@ -205,9 +205,9 @@ ClientInfo
 aClientInfo
 nsContentPolicyType
 aContentPolicyType
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 nsIReferrerInfo
 *
 aReferrerInfo

@@ -2693,7 +2693,7 @@ access
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 )

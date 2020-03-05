@@ -178,7 +178,7 @@ nsIReferrerInfo
 h
 "
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 class
 nsIInputStream
@@ -344,9 +344,9 @@ aSecurityFlags
 nsILoadGroup
 *
 aLoadGroup
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 bool
 aForceToXML
 mozilla

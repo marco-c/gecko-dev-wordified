@@ -6173,7 +6173,7 @@ aPolicyType
 nullptr
 /
 /
-nsICookieSettings
+nsICookieJarSettings
 nullptr
 /
 /

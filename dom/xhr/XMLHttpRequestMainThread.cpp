@@ -14014,7 +14014,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
-mCookieSettings
+mCookieJarSettings
 mPerformanceStorage
 /
 /
@@ -14054,7 +14054,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_XMLHTTPREQUEST
-mCookieSettings
+mCookieJarSettings
 mPerformanceStorage
 /
 /

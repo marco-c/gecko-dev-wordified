@@ -801,9 +801,9 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 }
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 =
 mozilla
 :
@@ -811,7 +811,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -820,7 +820,7 @@ Create
 ;
 MOZ_ASSERT
 (
-cookieSettings
+cookieJarSettings
 )
 ;
 StorageAccess
@@ -829,7 +829,7 @@ storageAccess
 StorageAllowedForServiceWorker
 (
 principal
-cookieSettings
+cookieJarSettings
 )
 ;
 ServiceWorkerData

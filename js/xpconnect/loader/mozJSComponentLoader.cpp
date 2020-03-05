@@ -1499,7 +1499,7 @@ TYPE_SCRIPT
 nullptr
 /
 /
-nsICookieSettings
+nsICookieJarSettings
 nullptr
 /
 /

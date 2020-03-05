@@ -212,7 +212,7 @@ ServiceWorkerDescriptor
 h
 "
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 class
 nsINode
@@ -1007,9 +1007,9 @@ aTopLevelStorageAreaPrincipal
 nsIURI
 *
 aResultPrincipalURI
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 nsIContentSecurityPolicy
 *
 aCspToInherit
@@ -1439,9 +1439,9 @@ mCSPEventListener
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-mCookieSettings
+mCookieJarSettings
 ;
 nsCOMPtr
 <

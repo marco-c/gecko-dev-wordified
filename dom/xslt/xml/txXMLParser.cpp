@@ -316,7 +316,7 @@ loadGroup
 loaderDocument
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 true

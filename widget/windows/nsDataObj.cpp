@@ -909,7 +909,7 @@ aContentPolicyType
 nullptr
 /
 /
-nsICookieSettings
+nsICookieJarSettings
 nullptr
 /
 /

@@ -3855,7 +3855,7 @@ nullptr
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 true

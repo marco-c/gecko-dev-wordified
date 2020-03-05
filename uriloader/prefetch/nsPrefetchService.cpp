@@ -1008,7 +1008,7 @@ OwnerDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 nullptr

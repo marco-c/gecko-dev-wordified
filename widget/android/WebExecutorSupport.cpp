@@ -223,7 +223,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -2874,11 +2874,11 @@ LOAD_ANONYMOUS
 }
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 =
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -2887,7 +2887,7 @@ Create
 ;
 MOZ_ASSERT
 (
-cookieSettings
+cookieJarSettings
 )
 ;
 nsCOMPtr
@@ -2906,9 +2906,9 @@ LoadInfo
 loadInfo
 -
 >
-SetCookieSettings
+SetCookieJarSettings
 (
-cookieSettings
+cookieJarSettings
 )
 ;
 nsCOMPtr

@@ -202,9 +202,9 @@ LoadInfo
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cs
+cjs
 ;
 if
 (
@@ -213,11 +213,11 @@ NS_FAILED
 loadInfo
 -
 >
-GetCookieSettings
+GetCookieJarSettings
 (
 getter_AddRefs
 (
-cs
+cjs
 )
 )
 )
@@ -337,7 +337,7 @@ rejectedReason
 StoragePartitioningEnabled
 (
 rejectedReason
-cs
+cjs
 )
 )
 {

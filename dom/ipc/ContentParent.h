@@ -2703,9 +2703,9 @@ bool
 &
 aStickDocument
 const
-CookieSettingsArgs
+CookieJarSettingsArgs
 &
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 ;
 virtual
@@ -2738,9 +2738,9 @@ bool
 &
 stickDocument
 const
-CookieSettingsArgs
+CookieJarSettingsArgs
 &
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 override
 ;

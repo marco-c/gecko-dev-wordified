@@ -3058,7 +3058,7 @@ OwnerDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 :

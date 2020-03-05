@@ -264,7 +264,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -3666,13 +3666,13 @@ TYPE_INTERNAL_WORKER_IMPORT_SCRIPTS
 Create
 a
 new
-cookieSettings
+cookieJarSettings
 .
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 =
 mozilla
 :
@@ -3680,7 +3680,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -3730,7 +3730,7 @@ uri
 aPrincipal
 secFlags
 contentPolicyType
-cookieSettings
+cookieJarSettings
 nullptr
 /
 *

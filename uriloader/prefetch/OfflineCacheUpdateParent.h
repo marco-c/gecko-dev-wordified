@@ -168,7 +168,7 @@ namespace
 net
 {
 class
-CookieSettingsArgs
+CookieJarSettingsArgs
 ;
 }
 namespace
@@ -232,9 +232,9 @@ const
 net
 :
 :
-CookieSettingsArgs
+CookieJarSettingsArgs
 &
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 ;
 void
