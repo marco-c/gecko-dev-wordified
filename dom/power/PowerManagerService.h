@@ -221,8 +221,9 @@ NS_DECL_NSIPOWERMANAGERSERVICE
 PowerManagerService
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <
