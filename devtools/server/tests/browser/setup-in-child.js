@@ -152,7 +152,7 @@ mochitests
 /
 content
 /
-chrome
+browser
 /
 devtools
 /
@@ -160,7 +160,7 @@ server
 /
 tests
 /
-chrome
+browser
 /
 setup
 -
