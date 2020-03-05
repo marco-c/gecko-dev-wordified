@@ -17180,6 +17180,18 @@ while
 true
 )
 {
+/
+/
+Gets
+the
+data
+from
+the
+java
+main
+thread
+only
+.
 double
 sampleTime
 =
@@ -17191,7 +17203,6 @@ GeckoJavaSampler
 :
 GetSampleTime
 (
-0
 sampleId
 )
 ;
@@ -17262,7 +17273,6 @@ GeckoJavaSampler
 :
 GetFrameName
 (
-0
 sampleId
 frameId
 +
