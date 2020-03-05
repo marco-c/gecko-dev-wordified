@@ -178,6 +178,13 @@ h
 #
 include
 "
+NoPrincipalGetURI
+.
+h
+"
+#
+include
+"
 NeedsNoVTableTypeChecker
 .
 h
