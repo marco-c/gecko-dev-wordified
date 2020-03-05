@@ -285,7 +285,7 @@ branch2Stream
 ;
 extern
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 ReadableStreamPipeTo
 (

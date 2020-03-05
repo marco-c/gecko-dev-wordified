@@ -4781,7 +4781,7 @@ signal
 )
 *
 /
-JSObject
+PromiseObject
 *
 js
 :
