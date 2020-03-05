@@ -4095,9 +4095,6 @@ SetCookieString
 nsIURI
 *
 aHostURI
-nsIPrompt
-*
-aPrompt
 const
 nsACString
 &
@@ -4132,9 +4129,6 @@ aHostURI
 nsIURI
 *
 aFirstURI
-nsIPrompt
-*
-aPrompt
 const
 nsACString
 &

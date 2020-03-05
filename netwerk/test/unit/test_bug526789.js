@@ -1054,7 +1054,6 @@ cs
 setCookieString
 (
 uri
-null
 "
 foo
 =
@@ -1414,7 +1413,6 @@ cs
 setCookieString
 (
 emptyuri
-null
 "
 foo2
 =
@@ -1438,7 +1436,6 @@ cs
 setCookieString
 (
 emptyuri
-null
 "
 foo3
 =
@@ -1465,7 +1462,6 @@ cs
 setCookieString
 (
 emptyuri
-null
 "
 foo4
 =
@@ -1493,7 +1489,6 @@ cs
 setCookieString
 (
 emptyuri
-null
 "
 foo5
 =
@@ -2139,7 +2134,6 @@ cs
 setCookieString
 (
 uri
-null
 "
 foo
 =
@@ -2198,7 +2192,6 @@ cs
 setCookieString
 (
 uri
-null
 "
 foo
 =
@@ -2327,7 +2320,6 @@ cs
 setCookieString
 (
 uri
-null
 "
 foo
 =
@@ -2399,7 +2391,6 @@ cs
 setCookieString
 (
 uri
-null
 "
 foo
 =

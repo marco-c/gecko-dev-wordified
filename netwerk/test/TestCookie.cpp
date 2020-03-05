@@ -542,7 +542,6 @@ SetCookieStringFromHttp
 (
 uri1
 uri2
-nullptr
 nsDependentCString
 (
 aCookieString
@@ -797,7 +796,6 @@ SetCookieStringFromHttp
 (
 uri1
 uri2
-nullptr
 nsDependentCString
 (
 aCookieString
@@ -864,7 +862,6 @@ aCookieService
 SetCookieString
 (
 uri
-nullptr
 nsDependentCString
 (
 aCookieString

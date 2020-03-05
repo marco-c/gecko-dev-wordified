@@ -517,7 +517,6 @@ setCookieString
 chan
 .
 URI
-null
 cookie2
 chan
 )
