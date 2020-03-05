@@ -1225,7 +1225,6 @@ nsIFrame
 :
 AddXULMinSize
 (
-aBoxLayoutState
 this
 min
 widthSet
