@@ -28291,9 +28291,6 @@ static
 bool
 AddXULMinSize
 (
-nsBoxLayoutState
-&
-aState
 nsIFrame
 *
 aBox
