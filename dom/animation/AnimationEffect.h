@@ -328,6 +328,7 @@ aRetVal
 )
 const
 ;
+virtual
 void
 UpdateTiming
 (
