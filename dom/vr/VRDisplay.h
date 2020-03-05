@@ -396,8 +396,9 @@ virtual
 VRFieldOfView
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports
@@ -526,8 +527,9 @@ protected
 VRDisplayCapabilities
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports
