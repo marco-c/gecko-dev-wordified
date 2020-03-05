@@ -316,6 +316,13 @@ const
 nsHttpHeaderArray
 &
 aResponseTrailers
+const
+nsTArray
+<
+ConsoleReportCollected
+>
+&
+aConsoleReports
 )
 ;
 IPCResult

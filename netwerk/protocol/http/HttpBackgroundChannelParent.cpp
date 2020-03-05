@@ -1075,6 +1075,13 @@ const
 nsHttpHeaderArray
 &
 aResponseTrailers
+const
+nsTArray
+<
+ConsoleReportCollected
+>
+&
+aConsoleReports
 )
 {
 LOG
@@ -1160,6 +1167,11 @@ const
 ResourceTimingStructArgs
 const
 nsHttpHeaderArray
+const
+nsTArray
+<
+ConsoleReportCollected
+>
 >
 (
 "
@@ -1180,6 +1192,7 @@ OnStopRequest
 aChannelStatus
 aTiming
 aResponseTrailers
+aConsoleReports
 )
 NS_DISPATCH_NORMAL
 )
@@ -1228,6 +1241,7 @@ aChannelStatus
 aTiming
 lastActTabOpt
 aResponseTrailers
+aConsoleReports
 )
 ;
 }
