@@ -16,28 +16,13 @@ tarfile
 import
 requests
 import
-six
-import
 vcs
-import
-logging
-try
-:
-    
 from
 cStringIO
 import
 StringIO
-as
-BytesIO
-except
-ImportError
-:
-    
-from
-io
 import
-BytesIO
+logging
 HEADERS
 =
 {
@@ -893,11 +878,10 @@ manifest_path
 for
 item
 in
-six
+test_paths
 .
 itervalues
 (
-test_paths
 )
 ]
     
@@ -1047,7 +1031,7 @@ gz
 "
 fileobj
 =
-BytesIO
+StringIO
 (
 req
 .
@@ -1058,11 +1042,10 @@ content
 for
 paths
 in
-six
+test_paths
 .
 itervalues
 (
-test_paths
 )
 :
         
@@ -1172,7 +1155,7 @@ manifest_path
 "
 ]
 "
-wb
+w
 "
 )
 as

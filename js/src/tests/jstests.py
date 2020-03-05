@@ -97,6 +97,8 @@ sys
 import
 tempfile
 import
+textwrap
+import
 platform
 from
 os
@@ -570,28 +572,35 @@ CLI
 "
     
 from
-argparse
+optparse
 import
-ArgumentParser
+OptionParser
+OptionGroup
     
 op
 =
-ArgumentParser
+OptionParser
 (
-        
-description
+usage
 =
-'
-Run
-jstests
-JS
-shell
-tests
-'
+textwrap
+.
+dedent
+(
+"
+"
+"
         
-epilog
-=
-'
+%
+prog
+[
+OPTIONS
+]
+JS_SHELL
+[
+TESTS
+]
+        
 Shell
 output
 format
@@ -608,12 +617,20 @@ skip
 progress
 |
 time
-'
+        
+"
+"
+"
+)
+.
+strip
+(
+)
 )
     
 op
 .
-add_argument
+add_option
 (
 '
 -
@@ -627,7 +644,7 @@ dest
 '
 xul_info_src
 '
-                    
+                  
 help
 =
 '
@@ -636,7 +653,7 @@ data
 for
 xulRuntime
 '
-                    
+                  
 '
 (
 avoids
@@ -653,14 +670,14 @@ mk
     
 harness_og
 =
-op
-.
-add_argument_group
+OptionGroup
 (
+op
 "
 Harness
 Controls
 "
+                             
 "
 Control
 how
@@ -673,7 +690,7 @@ run
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -689,7 +706,7 @@ count
 type
 =
 int
-                            
+                          
 default
 =
 max
@@ -699,7 +716,7 @@ get_cpu_count
 (
 )
 )
-                            
+                          
 help
 =
 '
@@ -711,22 +728,19 @@ run
 in
 parallel
 '
-                            
+                          
 '
 (
 default
 %
-(
 default
-)
-s
 )
 '
 )
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -745,7 +759,7 @@ default
 150
 .
 0
-                            
+                          
 help
 =
 '
@@ -759,7 +773,7 @@ allows
 to
 run
 '
-                            
+                          
 '
 (
 in
@@ -771,7 +785,7 @@ seconds
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -785,7 +799,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -798,7 +812,7 @@ a
 minimum
 time
 '
-                            
+                          
 '
 (
 in
@@ -810,7 +824,7 @@ seconds
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -829,7 +843,7 @@ default
 5
 .
 0
-                            
+                          
 help
 =
 '
@@ -844,17 +858,14 @@ until
 it
 is
 '
-                            
+                          
 '
 considered
 slow
 (
 default
 %
-(
 default
-)
-s
 )
 .
 '
@@ -862,7 +873,7 @@ s
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -882,7 +893,7 @@ default
 =
 '
 '
-                            
+                          
 help
 =
 '
@@ -900,7 +911,7 @@ shell
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -918,7 +929,7 @@ default
 =
 '
 '
-                            
+                          
 help
 =
 '
@@ -941,7 +952,7 @@ testing
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -958,11 +969,13 @@ default
 '
 none
 '
-                            
+                          
 type
 =
-str
-                            
+'
+string
+'
+                          
 help
 =
 '
@@ -974,7 +987,7 @@ One
 of
 all
 '
-                            
+                          
 '
 debug
 ion
@@ -983,10 +996,7 @@ none
 (
 default
 %
-(
 default
-)
-s
 )
 .
 '
@@ -994,7 +1004,7 @@ s
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1006,7 +1016,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1018,7 +1028,7 @@ all
 configurations
 tbpl
 '
-                            
+                          
 '
 tests
 .
@@ -1027,7 +1037,7 @@ tests
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1041,7 +1051,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1053,7 +1063,7 @@ some
 faster
 configurations
 '
-                            
+                          
 '
 tbpl
 tests
@@ -1063,7 +1073,7 @@ tests
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1079,7 +1089,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1094,7 +1104,7 @@ debugger
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1111,7 +1121,7 @@ q
 -
 args
 '
-                            
+                          
 help
 =
 '
@@ -1123,7 +1133,7 @@ command
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1139,7 +1149,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1153,7 +1163,7 @@ debugger
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1165,7 +1175,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1178,7 +1188,7 @@ stdout
 attached
 to
 '
-                            
+                          
 '
 caller
 .
@@ -1187,7 +1197,7 @@ caller
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1203,7 +1213,7 @@ dest
 "
 test_reflect_stringify
 "
-                            
+                          
 help
 =
 "
@@ -1217,7 +1227,7 @@ to
 test
 the
 "
-                            
+                          
 "
 Reflect
 .
@@ -1231,7 +1241,7 @@ file
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1243,7 +1253,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1257,7 +1267,7 @@ valgrind
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1270,7 +1280,7 @@ default
 =
 '
 '
-                            
+                          
 help
 =
 '
@@ -1286,7 +1296,7 @@ valgrind
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1298,7 +1308,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1318,7 +1328,7 @@ debugger
     
 harness_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1336,7 +1346,7 @@ action
 '
 store_true
 '
-                            
+                          
 help
 =
 '
@@ -1353,12 +1363,18 @@ flags
 '
 )
     
-input_og
-=
 op
 .
-add_argument_group
+add_option_group
 (
+harness_og
+)
+    
+input_og
+=
+OptionGroup
+(
+op
 "
 Inputs
 "
@@ -1374,7 +1390,7 @@ run
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1395,7 +1411,7 @@ action
 '
 append
 '
-                          
+                        
 help
 =
 '
@@ -1411,7 +1427,7 @@ file
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1429,7 +1445,7 @@ action
 '
 append
 '
-                          
+                        
 help
 =
 '
@@ -1445,7 +1461,7 @@ file
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1457,7 +1473,13 @@ dest
 '
 wpt
 '
-                          
+                        
+type
+=
+'
+choice
+'
+                        
 choices
 =
 [
@@ -1475,7 +1497,7 @@ running
 everything
 '
 ]
-                          
+                        
 default
 =
 '
@@ -1485,7 +1507,7 @@ running
 -
 everything
 '
-                          
+                        
 help
 =
 "
@@ -1499,7 +1521,7 @@ platform
 -
 tests
 "
-                          
+                        
 "
 (
 default
@@ -1518,7 +1540,7 @@ specified
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1539,7 +1561,7 @@ default
 =
 [
 ]
-                          
+                        
 help
 =
 '
@@ -1556,7 +1578,7 @@ directory
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1577,7 +1599,7 @@ default
 =
 [
 ]
-                          
+                        
 help
 =
 '
@@ -1594,7 +1616,7 @@ directory
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1612,13 +1634,13 @@ dest
 '
 random
 '
-                          
+                        
 action
 =
 '
 store_false
 '
-                          
+                        
 help
 =
 '
@@ -1635,7 +1657,7 @@ random
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1649,7 +1671,7 @@ action
 '
 store_true
 '
-                          
+                        
 help
 =
 '
@@ -1666,7 +1688,7 @@ skip
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1682,7 +1704,7 @@ action
 '
 store_true
 '
-                          
+                        
 help
 =
 '
@@ -1700,7 +1722,7 @@ skip
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1716,7 +1738,7 @@ action
 '
 store_true
 '
-                          
+                        
 help
 =
 '
@@ -1735,7 +1757,7 @@ slow
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1749,7 +1771,7 @@ action
 '
 store_true
 '
-                          
+                        
 help
 =
 '
@@ -1762,7 +1784,7 @@ the
 ECMAScript
 5
 '
-                          
+                        
 '
 standard
 .
@@ -1771,7 +1793,7 @@ standard
     
 input_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1784,7 +1806,7 @@ int
 default
 =
 1
-                          
+                        
 help
 =
 '
@@ -1799,15 +1821,22 @@ times
 '
 )
     
-output_og
-=
 op
 .
-add_argument_group
+add_option_group
 (
+input_og
+)
+    
+output_og
+=
+OptionGroup
+(
+op
 "
 Output
 "
+                            
 "
 Modify
 the
@@ -1821,7 +1850,7 @@ output
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1839,7 +1868,7 @@ action
 '
 store_true
 '
-                           
+                         
 help
 =
 '
@@ -1857,7 +1886,7 @@ test
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1875,7 +1904,7 @@ action
 '
 store_true
 '
-                           
+                         
 help
 =
 "
@@ -1891,7 +1920,7 @@ file
 given
 by
 "
-                           
+                         
 "
 -
 -
@@ -1904,7 +1933,7 @@ file
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1922,7 +1951,7 @@ action
 '
 store_true
 '
-                           
+                         
 help
 =
 "
@@ -1939,7 +1968,7 @@ given
 only
 print
 "
-                           
+                         
 "
 output
 for
@@ -1951,7 +1980,7 @@ tests
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -1967,7 +1996,7 @@ action
 '
 store_true
 '
-                           
+                         
 help
 =
 "
@@ -1980,7 +2009,7 @@ for
 failed
 tests
 "
-                           
+                         
 "
 (
 no
@@ -1999,7 +2028,7 @@ output
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2012,7 +2041,7 @@ output
 -
 file
 '
-                           
+                         
 help
 =
 '
@@ -2024,7 +2053,7 @@ the
 given
 file
 '
-                           
+                         
 '
 (
 default
@@ -2037,7 +2066,7 @@ stdout
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2046,7 +2075,7 @@ failure
 -
 file
 '
-                           
+                         
 help
 =
 '
@@ -2066,7 +2095,7 @@ file
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2080,13 +2109,13 @@ dest
 '
 hide_progress
 '
-                           
+                         
 action
 =
 '
 store_true
 '
-                           
+                         
 help
 =
 '
@@ -2102,7 +2131,7 @@ bar
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2119,13 +2148,13 @@ action
 '
 store_const
 '
-                           
+                         
 const
 =
 '
 automation
 '
-                           
+                         
 help
 =
 '
@@ -2141,7 +2170,7 @@ format
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2158,7 +2187,12 @@ default
 '
 none
 '
-                           
+                         
+type
+=
+'
+choice
+'
 choices
 =
 [
@@ -2169,7 +2203,7 @@ automation
 none
 '
 ]
-                           
+                         
 help
 =
 '
@@ -2181,15 +2215,12 @@ automation
 or
 none
 '
-                           
+                         
 '
 (
 default
 %
-(
 default
-)
-s
 )
 .
 '
@@ -2197,7 +2228,7 @@ s
     
 output_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2216,7 +2247,7 @@ action
 '
 store
 '
-                           
+                         
 help
 =
 '
@@ -2234,15 +2265,22 @@ wptreport
 '
 )
     
-special_og
-=
 op
 .
-add_argument_group
+add_option_group
 (
+output_og
+)
+    
+special_og
+=
+OptionGroup
+(
+op
 "
 Special
 "
+                             
 "
 Special
 modes
@@ -2257,7 +2295,7 @@ tests
     
 special_og
 .
-add_argument
+add_option
 (
 '
 -
@@ -2271,7 +2309,7 @@ metavar
 '
 BASE_TEST_PATH
 '
-                            
+                          
 help
 =
 '
@@ -2281,6 +2319,13 @@ manifest
 files
 .
 '
+)
+    
+op
+.
+add_option_group
+(
+special_og
 )
     
 options
