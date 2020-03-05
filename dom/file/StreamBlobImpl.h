@@ -157,11 +157,6 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIMEMORYREPORTER
-/
-/
-Blob
-constructor
-.
 static
 already_AddRefed
 <
@@ -186,11 +181,6 @@ nsAString
 aBlobImplType
 )
 ;
-/
-/
-File
-constructor
-.
 static
 already_AddRefed
 <
@@ -383,11 +373,6 @@ override
 ;
 private
 :
-/
-/
-Blob
-constructor
-.
 StreamBlobImpl
 (
 already_AddRefed
@@ -407,11 +392,6 @@ nsAString
 aBlobImplType
 )
 ;
-/
-/
-File
-constructor
-.
 StreamBlobImpl
 (
 already_AddRefed

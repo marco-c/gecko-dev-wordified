@@ -1797,7 +1797,7 @@ file
 File
 :
 :
-CreateMemoryFileWithCustomLastModified
+CreateMemoryFile
 (
 mParentObject
 reinterpret_cast
