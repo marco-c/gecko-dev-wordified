@@ -2504,8 +2504,8 @@ aResponse
 void
 HandleResponse
 (
-const
 SerializedStructuredCloneReadInfo
+&
 &
 aResponse
 )
@@ -2513,11 +2513,11 @@ aResponse
 void
 HandleResponse
 (
-const
 nsTArray
 <
 SerializedStructuredCloneReadInfo
 >
+&
 &
 aResponse
 )
@@ -2607,8 +2607,8 @@ ipc
 IPCResult
 Recv__delete__
 (
-const
 RequestResponse
+&
 &
 aResponse
 )
