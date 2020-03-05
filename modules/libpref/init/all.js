@@ -49037,7 +49037,7 @@ passwordEditCapture
 .
 enabled
 "
-true
+false
 )
 ;
 pref
