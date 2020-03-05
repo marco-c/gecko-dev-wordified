@@ -440,7 +440,6 @@ point
 at
 mDeletedSpec
 .
-const
 ObjectStoreSpec
 *
 mSpec
@@ -593,7 +592,6 @@ Create
 IDBTransaction
 *
 aTransaction
-const
 ObjectStoreSpec
 &
 aSpec
@@ -1324,7 +1322,6 @@ IDBObjectStore
 IDBTransaction
 *
 aTransaction
-const
 ObjectStoreSpec
 *
 aSpec

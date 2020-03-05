@@ -1336,7 +1336,6 @@ IDBObjectStore
 >
 CreateObjectStore
 (
-const
 indexedDB
 :
 :
