@@ -657,8 +657,9 @@ MP4Metadata
 MP4Metadata
 (
 )
-{
-}
+=
+default
+;
 nsresult
 MP4Metadata
 :

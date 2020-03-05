@@ -371,8 +371,9 @@ VideoFrameContainer
 VideoFrameContainer
 (
 )
-{
-}
+=
+default
+;
 PrincipalHandle
 VideoFrameContainer
 :

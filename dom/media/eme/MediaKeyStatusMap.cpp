@@ -222,8 +222,9 @@ MediaKeyStatusMap
 MediaKeyStatusMap
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 MediaKeyStatusMap

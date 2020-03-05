@@ -221,8 +221,9 @@ AudioProcessingEvent
 AudioProcessingEvent
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 AudioProcessingEvent

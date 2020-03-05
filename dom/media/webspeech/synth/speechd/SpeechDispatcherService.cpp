@@ -739,8 +739,9 @@ private
 SpeechDispatcherVoice
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -792,8 +793,9 @@ private
 SpeechDispatcherCallback
 (
 )
-{
-}
+=
+default
+;
 /
 /
 This

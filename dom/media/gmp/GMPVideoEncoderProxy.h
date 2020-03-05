@@ -170,8 +170,9 @@ virtual
 GMPVideoEncoderCallbackProxy
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Encoded

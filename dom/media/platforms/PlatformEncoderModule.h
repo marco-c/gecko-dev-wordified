@@ -299,8 +299,9 @@ virtual
 PlatformEncoderModule
 (
 )
-{
-}
+=
+default
+;
 ;
 }
 ;
@@ -1104,8 +1105,9 @@ virtual
 BaseConfig
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template
@@ -1257,8 +1259,9 @@ virtual
 MediaDataEncoder
 (
 )
-{
-}
+=
+default
+;
 public
 :
 using

@@ -274,8 +274,9 @@ virtual
 TrackEncoderListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

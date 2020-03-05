@@ -408,8 +408,8 @@ virtual
 GMPVideoEncoderParent
 (
 )
-{
-}
+=
+default
 ;
 /
 /

@@ -562,8 +562,9 @@ virtual
 FakeDecryptor
 (
 )
-{
-}
+=
+default
+;
 void
 TestStorage
 (

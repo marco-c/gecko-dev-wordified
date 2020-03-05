@@ -959,8 +959,9 @@ virtual
 BaseMediaResource
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Set

@@ -516,8 +516,9 @@ protected
 ChromiumCDMParent
 (
 )
-{
-}
+=
+default
+;
 ipc
 :
 :

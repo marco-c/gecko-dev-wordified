@@ -206,8 +206,9 @@ virtual
 TrackMetadataBase
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

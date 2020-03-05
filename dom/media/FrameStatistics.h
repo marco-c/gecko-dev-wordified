@@ -981,8 +981,9 @@ private
 FrameStatistics
 (
 )
-{
-}
+=
+default
+;
 /
 /
 ReentrantMonitor

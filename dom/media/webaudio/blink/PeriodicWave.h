@@ -652,8 +652,9 @@ disableNormalization
 PeriodicWave
 (
 )
-{
-}
+=
+default
+;
 void
 generateBasicWaveform
 (

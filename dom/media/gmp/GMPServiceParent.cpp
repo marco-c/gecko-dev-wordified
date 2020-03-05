@@ -3407,8 +3407,9 @@ private
 NotifyObserversTask
 (
 )
-{
-}
+=
+default
+;
 const
 char
 *

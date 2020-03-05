@@ -164,8 +164,9 @@ aSize
 FileMediaResource
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Main

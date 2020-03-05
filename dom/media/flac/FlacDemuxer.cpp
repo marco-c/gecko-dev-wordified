@@ -4060,8 +4060,9 @@ FlacTrackDemuxer
 FlacTrackDemuxer
 (
 )
-{
-}
+=
+default
+;
 bool
 FlacTrackDemuxer
 :

@@ -363,8 +363,9 @@ Biquad
 Biquad
 (
 )
-{
-}
+=
+default
+;
 void
 Biquad
 :

@@ -332,8 +332,9 @@ private
 MediaMgrError
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 namespace
@@ -479,8 +480,9 @@ virtual
 MediaStreamError
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsPIDOMWindowInner

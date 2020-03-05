@@ -228,8 +228,8 @@ virtual
 VideoEngine
 (
 )
-{
-}
+=
+default
 ;
 /
 /

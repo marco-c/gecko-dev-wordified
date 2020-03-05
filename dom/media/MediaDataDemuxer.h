@@ -769,8 +769,9 @@ virtual
 MediaDataDemuxer
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -908,8 +909,9 @@ private
 SamplesHolder
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 RefPtr
@@ -1607,8 +1609,9 @@ virtual
 MediaTrackDemuxer
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

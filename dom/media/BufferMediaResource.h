@@ -210,8 +210,9 @@ virtual
 BufferMediaResource
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /

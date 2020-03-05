@@ -1106,8 +1106,9 @@ nsIThreadRetargetableStreamListener
 Listener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 Listener

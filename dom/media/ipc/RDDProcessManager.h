@@ -591,8 +591,9 @@ protected
 Observer
 (
 )
-{
-}
+=
+default
+;
 RDDProcessManager
 *
 mManager

@@ -178,8 +178,9 @@ virtual
 SandboxStarter
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Start
@@ -216,8 +217,9 @@ virtual
 GMPAdapter
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Sets

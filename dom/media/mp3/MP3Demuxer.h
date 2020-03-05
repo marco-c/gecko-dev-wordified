@@ -514,8 +514,9 @@ Destructor
 MP3TrackDemuxer
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Fast

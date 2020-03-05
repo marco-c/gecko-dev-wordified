@@ -365,8 +365,9 @@ virtual
 GMPTask
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Run
@@ -387,8 +388,9 @@ virtual
 GMPThread
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Post
@@ -461,8 +463,9 @@ virtual
 GMPMutex
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Acquire

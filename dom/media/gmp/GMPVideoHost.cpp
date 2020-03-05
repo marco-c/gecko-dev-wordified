@@ -152,8 +152,9 @@ GMPVideoHostImpl
 GMPVideoHostImpl
 (
 )
-{
-}
+=
+default
+;
 GMPErr
 GMPVideoHostImpl
 :

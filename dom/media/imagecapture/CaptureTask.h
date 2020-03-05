@@ -470,8 +470,9 @@ virtual
 CaptureTask
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Post

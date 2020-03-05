@@ -133,8 +133,9 @@ public
 NullVideoDataCreator
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 MediaData

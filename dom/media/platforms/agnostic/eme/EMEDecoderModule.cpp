@@ -2394,8 +2394,9 @@ EMEDecoderModule
 EMEDecoderModule
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <

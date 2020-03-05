@@ -290,8 +290,9 @@ MediaSystemResourceService
 MediaSystemResourceService
 (
 )
-{
-}
+=
+default
+;
 void
 MediaSystemResourceService
 :

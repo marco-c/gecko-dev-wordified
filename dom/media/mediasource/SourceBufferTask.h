@@ -288,8 +288,9 @@ virtual
 SourceBufferTask
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

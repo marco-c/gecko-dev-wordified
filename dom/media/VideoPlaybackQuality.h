@@ -250,8 +250,9 @@ private
 VideoPlaybackQuality
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 HTMLMediaElement

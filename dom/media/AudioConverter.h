@@ -318,8 +318,9 @@ public
 AudioDataBuffer
 (
 )
-{
-}
+=
+default
+;
 AudioDataBuffer
 (
 Value

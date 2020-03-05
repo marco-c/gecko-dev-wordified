@@ -1700,8 +1700,9 @@ VideoData
 VideoData
 (
 )
-{
-}
+=
+default
+;
 size_t
 VideoData
 :
@@ -3527,8 +3528,9 @@ MediaRawData
 MediaRawData
 (
 )
-{
-}
+=
+default
+;
 size_t
 MediaRawData
 :

@@ -791,8 +791,9 @@ public
 MediaCodecs
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Construction

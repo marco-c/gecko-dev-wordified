@@ -258,8 +258,9 @@ GMPVideoi420FrameImpl
 GMPVideoi420FrameImpl
 (
 )
-{
-}
+=
+default
+;
 bool
 GMPVideoi420FrameImpl
 :

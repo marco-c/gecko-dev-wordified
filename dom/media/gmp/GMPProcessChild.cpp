@@ -175,8 +175,9 @@ GMPProcessChild
 GMPProcessChild
 (
 )
-{
-}
+=
+default
+;
 bool
 GMPProcessChild
 :

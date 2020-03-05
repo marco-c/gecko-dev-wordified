@@ -679,8 +679,9 @@ AOMDecoder
 AOMDecoder
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 ShutdownPromise

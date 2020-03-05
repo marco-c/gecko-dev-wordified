@@ -229,8 +229,9 @@ virtual
 FFmpegDecoderModule
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 MediaDataDecoder

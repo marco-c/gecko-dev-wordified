@@ -833,8 +833,9 @@ GeckoMediaPluginService
 GeckoMediaPluginService
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 GeckoMediaPluginService
 :

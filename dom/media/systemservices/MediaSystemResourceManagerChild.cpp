@@ -137,8 +137,9 @@ MediaSystemResourceManagerChild
 MediaSystemResourceManagerChild
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

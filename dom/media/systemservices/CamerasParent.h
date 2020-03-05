@@ -398,8 +398,9 @@ private
 InputObserver
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 CamerasParent

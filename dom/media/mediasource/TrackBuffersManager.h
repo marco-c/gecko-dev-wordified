@@ -268,8 +268,9 @@ public
 SourceBufferTaskQueue
 (
 )
-{
-}
+=
+default
+;
 ~
 SourceBufferTaskQueue
 (

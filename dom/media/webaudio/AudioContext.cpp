@@ -8209,8 +8209,9 @@ BasicWaveFormCache
 BasicWaveFormCache
 (
 )
-{
-}
+=
+default
+;
 WebCore
 :
 :

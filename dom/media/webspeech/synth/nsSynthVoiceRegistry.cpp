@@ -514,8 +514,9 @@ Release
 VoiceData
 (
 )
-{
-}
+=
+default
+;
 public
 :
 VoiceData
@@ -620,8 +621,9 @@ Release
 GlobalQueueItem
 (
 )
-{
-}
+=
+default
+;
 public
 :
 GlobalQueueItem

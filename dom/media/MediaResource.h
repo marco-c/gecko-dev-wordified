@@ -1167,8 +1167,8 @@ virtual
 MediaResource
 (
 )
-{
-}
+=
+default
 ;
 private
 :

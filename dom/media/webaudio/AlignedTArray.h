@@ -253,8 +253,9 @@ index_type
 AlignedAutoTArray
 (
 )
-{
-}
+=
+default
+;
 explicit
 AlignedAutoTArray
 (
@@ -653,8 +654,9 @@ index_type
 AlignedTArray
 (
 )
-{
-}
+=
+default
+;
 explicit
 AlignedTArray
 (

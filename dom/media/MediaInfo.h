@@ -2804,8 +2804,9 @@ private
 TrackInfoSharedPtr
 (
 )
-{
-}
+=
+default
+;
 UniquePtr
 <
 TrackInfo

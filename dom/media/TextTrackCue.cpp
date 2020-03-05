@@ -604,8 +604,9 @@ TextTrackCue
 TextTrackCue
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

@@ -250,8 +250,9 @@ private
 GMPStorageParent
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 GMPStorage

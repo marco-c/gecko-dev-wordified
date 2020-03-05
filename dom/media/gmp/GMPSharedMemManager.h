@@ -266,8 +266,9 @@ virtual
 GMPSharedMem
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Parent
@@ -341,8 +342,9 @@ virtual
 GMPSharedMemManager
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 MgrAllocShmem

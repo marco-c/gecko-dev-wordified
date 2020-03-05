@@ -2216,8 +2216,9 @@ private
 RefCounter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

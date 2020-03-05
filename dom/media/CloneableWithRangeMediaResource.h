@@ -156,8 +156,9 @@ mStream
 CloneableWithRangeMediaResource
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Main

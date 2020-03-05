@@ -371,8 +371,9 @@ BitWriter
 BitWriter
 (
 )
-{
-}
+=
+default
+;
 void
 BitWriter
 :

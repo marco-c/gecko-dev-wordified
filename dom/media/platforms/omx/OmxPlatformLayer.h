@@ -405,8 +405,9 @@ virtual
 OmxPlatformLayer
 (
 )
-{
-}
+=
+default
+;
 /
 /
 For

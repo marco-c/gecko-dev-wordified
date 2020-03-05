@@ -266,8 +266,9 @@ virtual
 ThreadSharedObject
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

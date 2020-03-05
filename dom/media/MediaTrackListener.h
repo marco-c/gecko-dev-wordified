@@ -737,8 +737,9 @@ virtual
 MediaTrackListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -1197,8 +1198,9 @@ virtual
 DirectMediaTrackListener
 (
 )
-{
-}
+=
+default
+;
 void
 MirrorAndDisableSegment
 (

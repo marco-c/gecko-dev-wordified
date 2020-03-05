@@ -225,8 +225,9 @@ ChromiumCDMVideoDecoder
 ChromiumCDMVideoDecoder
 (
 )
-{
-}
+=
+default
+;
 static
 uint32_t
 ToCDMH264Profile

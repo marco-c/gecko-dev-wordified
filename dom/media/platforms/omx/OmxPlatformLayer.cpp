@@ -277,8 +277,9 @@ virtual
 OmxConfig
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Subclasses

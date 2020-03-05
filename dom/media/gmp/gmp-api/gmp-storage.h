@@ -601,8 +601,9 @@ virtual
 GMPRecord
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -972,8 +973,9 @@ virtual
 GMPRecordClient
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

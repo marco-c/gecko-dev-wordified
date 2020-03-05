@@ -326,8 +326,9 @@ GMPVideoDecoderParent
 GMPVideoDecoderParent
 (
 )
-{
-}
+=
+default
+;
 GMPVideoHostImpl
 &
 GMPVideoDecoderParent

@@ -205,8 +205,9 @@ virtual
 NonE10s
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -323,8 +324,9 @@ virtual
 RefCountedParent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

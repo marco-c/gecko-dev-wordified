@@ -283,8 +283,9 @@ private
 GMPRunnable
 (
 )
-{
-}
+=
+default
+;
 GMPTask
 *
 mTask
@@ -498,8 +499,9 @@ private
 GMPSyncRunnable
 (
 )
-{
-}
+=
+default
+;
 bool
 mDone
 ;
@@ -1403,8 +1405,9 @@ Task
 (
 )
 override
-{
-}
+=
+default
+;
 void
 Run
 (

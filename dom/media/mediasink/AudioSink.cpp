@@ -551,8 +551,9 @@ AudioSink
 AudioSink
 (
 )
-{
-}
+=
+default
+;
 nsresult
 AudioSink
 :

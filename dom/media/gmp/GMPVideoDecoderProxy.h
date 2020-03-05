@@ -172,8 +172,9 @@ virtual
 GMPVideoDecoderCallbackProxy
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

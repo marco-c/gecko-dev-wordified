@@ -192,8 +192,9 @@ MediaKeyError
 MediaKeyError
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 MediaKeyError
 :

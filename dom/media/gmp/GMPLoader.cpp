@@ -894,8 +894,9 @@ private
 LinuxSandboxStarter
 (
 )
-{
-}
+=
+default
+;
 friend
 mozilla
 :

@@ -227,8 +227,9 @@ virtual
 Creator
 (
 )
-{
-}
+=
+default
+;
 virtual
 AudioSink
 *

@@ -197,8 +197,9 @@ SpeechSynthesisVoice
 SpeechSynthesisVoice
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 SpeechSynthesisVoice

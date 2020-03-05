@@ -3041,8 +3041,9 @@ ScriptProcessorNode
 ScriptProcessorNode
 (
 )
-{
-}
+=
+default
+;
 size_t
 ScriptProcessorNode
 :

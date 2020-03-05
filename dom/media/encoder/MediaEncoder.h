@@ -264,8 +264,9 @@ virtual
 MediaEncoderListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

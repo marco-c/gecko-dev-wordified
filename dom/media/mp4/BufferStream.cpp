@@ -136,8 +136,9 @@ BufferStream
 BufferStream
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

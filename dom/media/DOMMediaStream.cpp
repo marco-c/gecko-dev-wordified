@@ -578,8 +578,9 @@ virtual
 PlaybackTrackListener
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DOMMediaStream

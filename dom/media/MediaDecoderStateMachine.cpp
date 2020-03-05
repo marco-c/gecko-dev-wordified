@@ -1327,8 +1327,9 @@ virtual
 StateObject
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Exit

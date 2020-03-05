@@ -109,8 +109,9 @@ virtual
 GMPCallbackBase
 (
 )
-{
-}
+=
+default
+;
 /
 /
 The

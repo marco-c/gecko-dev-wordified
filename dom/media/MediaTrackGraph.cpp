@@ -16065,8 +16065,9 @@ private
 NotifyRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 MediaTrack
@@ -19358,8 +19359,9 @@ SourceMediaTrack
 SourceMediaTrack
 (
 )
-{
-}
+=
+default
+;
 void
 MediaInputPort
 :
@@ -21774,8 +21776,9 @@ private
 FinishCollectRunnable
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Avoiding

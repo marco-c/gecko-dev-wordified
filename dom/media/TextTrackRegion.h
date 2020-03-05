@@ -636,8 +636,9 @@ private
 TextTrackRegion
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports

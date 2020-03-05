@@ -568,6 +568,8 @@ const
 XMLHttpRequestStringSnapshot
 &
 )
+=
+delete
 ;
 void
 Reset

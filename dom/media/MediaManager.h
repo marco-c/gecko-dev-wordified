@@ -1923,8 +1923,9 @@ aMediaThread
 MediaManager
 (
 )
-{
-}
+=
+default
+;
 void
 Shutdown
 (

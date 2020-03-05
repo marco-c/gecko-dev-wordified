@@ -217,8 +217,9 @@ private
 GMPTimerParent
 (
 )
-{
-}
+=
+default
+;
 static
 void
 GMPTimerExpired

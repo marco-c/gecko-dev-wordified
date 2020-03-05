@@ -150,8 +150,9 @@ DummyDataCreator
 DummyDataCreator
 (
 )
-{
-}
+=
+default
+;
 DummyMediaDataDecoder
 :
 :

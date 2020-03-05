@@ -8622,8 +8622,9 @@ OggTrackDemuxer
 OggTrackDemuxer
 (
 )
-{
-}
+=
+default
+;
 UniquePtr
 <
 TrackInfo

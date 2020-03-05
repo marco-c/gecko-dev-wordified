@@ -292,8 +292,9 @@ virtual
 OmxPromiseLayer
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
@@ -613,8 +614,9 @@ virtual
 BufferData
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

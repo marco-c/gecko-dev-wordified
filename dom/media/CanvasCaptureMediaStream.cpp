@@ -663,8 +663,9 @@ virtual
 TimerDriver
 (
 )
-{
-}
+=
+default
+;
 private
 :
 const
@@ -861,8 +862,9 @@ virtual
 AutoDriver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

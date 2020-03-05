@@ -655,8 +655,9 @@ TextTrack
 TextTrack
 (
 )
-{
-}
+=
+default
+;
 void
 TextTrack
 :

@@ -448,8 +448,9 @@ virtual
 MediaBlockCacheBase
 (
 )
-{
-}
+=
+default
+;
 public
 :
 /

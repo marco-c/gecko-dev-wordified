@@ -309,8 +309,9 @@ public
 RemoteDecoderManagerThreadHolder
 (
 )
-{
-}
+=
+default
+;
 private
 :
 ~
