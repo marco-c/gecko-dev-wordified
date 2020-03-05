@@ -207,8 +207,9 @@ NS_DECL_NSICHANNELEVENTSINK
 nsContentSecurityManager
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 doContentSecurityCheck
@@ -276,8 +277,9 @@ virtual
 nsContentSecurityManager
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
