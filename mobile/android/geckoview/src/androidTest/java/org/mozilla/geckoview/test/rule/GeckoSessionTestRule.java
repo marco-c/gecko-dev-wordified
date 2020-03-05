@@ -7272,10 +7272,6 @@ session
 {
 session
 .
-getWebExtensionController
-(
-)
-.
 setMessageDelegate
 (
 RuntimeCreator
