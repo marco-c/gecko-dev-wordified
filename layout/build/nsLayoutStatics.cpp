@@ -2448,11 +2448,4 @@ Shutdown
 (
 )
 ;
-gfxUserFontEntry
-:
-:
-Shutdown
-(
-)
-;
 }
