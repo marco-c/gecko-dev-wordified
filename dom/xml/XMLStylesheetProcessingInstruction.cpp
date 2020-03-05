@@ -195,8 +195,9 @@ XMLStylesheetProcessingInstruction
 XMLStylesheetProcessingInstruction
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsIContent

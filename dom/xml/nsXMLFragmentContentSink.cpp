@@ -747,8 +747,9 @@ nsXMLFragmentContentSink
 nsXMLFragmentContentSink
 (
 )
-{
-}
+=
+default
+;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 nsXMLFragmentContentSink

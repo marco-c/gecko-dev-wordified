@@ -258,8 +258,9 @@ virtual
 nsXMLElement
 (
 )
-{
-}
+=
+default
+;
 virtual
 JSObject
 *

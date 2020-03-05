@@ -438,8 +438,9 @@ ProcessingInstruction
 ProcessingInstruction
 (
 )
-{
-}
+=
+default
+;
 /
 /
 If
