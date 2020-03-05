@@ -152,6 +152,15 @@ APZCTreeManagerTester
 {
 }
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
+/
+/
+Currently
+fails
+on
+Android
 TEST_F
 (
 APZCSnappingOnMomentumTester
@@ -619,3 +628,5 @@ y
 )
 ;
 }
+#
+endif

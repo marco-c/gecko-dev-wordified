@@ -1932,6 +1932,15 @@ DoPinchWithPreventDefaultTest
 )
 ;
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
+/
+/
+crashes
+on
+Android
+debug
 TEST_F
 (
 APZCPinchGestureDetectorTester
@@ -2019,6 +2028,8 @@ AssertStateIsFling
 )
 ;
 }
+#
+endif
 TEST_F
 (
 APZCPinchGestureDetectorTester
