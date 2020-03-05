@@ -76,6 +76,8 @@ import
     
 ClangStaticAnalysisInstall
     
+FixStacksInstall
+    
 LucetcInstall
     
 NasmInstall
@@ -92,13 +94,20 @@ class
 CentOSFedoraBootstrapper
 (
         
+ClangStaticAnalysisInstall
+        
+FixStacksInstall
+        
+LucetcInstall
+        
 NasmInstall
+        
 NodeInstall
-StyloInstall
+        
 SccacheInstall
         
-ClangStaticAnalysisInstall
-LucetcInstall
+StyloInstall
+        
 WasiSysrootInstall
         
 BaseBootstrapper

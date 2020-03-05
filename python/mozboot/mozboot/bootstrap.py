@@ -2659,6 +2659,16 @@ ensure_dump_syms_packages
 state_dir
 checkout_root
 )
+            
+self
+.
+instance
+.
+ensure_fix_stacks_packages
+(
+state_dir
+checkout_root
+)
     
 def
 check_telemetry_opt_in

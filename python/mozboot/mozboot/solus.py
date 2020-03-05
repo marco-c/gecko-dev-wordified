@@ -78,6 +78,8 @@ import
     
 ClangStaticAnalysisInstall
     
+FixStacksInstall
+    
 LucetcInstall
     
 NodeInstall
@@ -145,13 +147,20 @@ class
 SolusBootstrapper
 (
         
-NodeInstall
-StyloInstall
-SccacheInstall
 ClangStaticAnalysisInstall
         
+FixStacksInstall
+        
 LucetcInstall
+        
+NodeInstall
+        
+SccacheInstall
+        
+StyloInstall
+        
 WasiSysrootInstall
+        
 BaseBootstrapper
 )
 :
