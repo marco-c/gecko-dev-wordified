@@ -6035,7 +6035,7 @@ aRun
 *
 *
 *
-ReplacePreviousNBSPIfUnncessary
+ReplacePreviousNBSPIfUnnecessary
 (
 )
 replaces
@@ -6093,7 +6093,7 @@ checked
 /
 MOZ_CAN_RUN_SCRIPT
 nsresult
-ReplacePreviousNBSPIfUnncessary
+ReplacePreviousNBSPIfUnnecessary
 (
 WSFragment
 *
