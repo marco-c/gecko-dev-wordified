@@ -772,6 +772,12 @@ mStreamTransactionHash
 nsDeque
 mReadyForWrite
 ;
+nsTArray
+<
+uint64_t
+>
+mReadyForWriteButBlocked
+;
 nsDeque
 mQueuedStreams
 ;
