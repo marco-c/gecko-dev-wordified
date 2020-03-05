@@ -1050,13 +1050,11 @@ win
 .
 gBrowser
 ;
-Services
+win
 .
 focus
-.
-activeWindow
-=
-win
+(
+)
 ;
 /
 /
