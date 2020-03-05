@@ -31595,6 +31595,14 @@ mDoc
 ;
 }
 ;
+bool
+IsInActiveTab
+(
+Document
+*
+aDoc
+)
+;
 }
 /
 /
