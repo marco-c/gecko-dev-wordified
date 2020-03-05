@@ -214,6 +214,14 @@ ui
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+waitForDeviceList
+:
+true
+}
 )
 ;
 async
