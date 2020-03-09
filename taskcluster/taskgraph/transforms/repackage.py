@@ -2990,6 +2990,8 @@ windows
 local_prefix
 =
 '
+workspace
+/
 '
     
 else
@@ -3048,8 +3050,6 @@ path
 '
 {
 }
-build
-/
 outputs
 /
 {
