@@ -5757,6 +5757,11 @@ JSContext
 aContext
 JSGCStatus
 aStatus
+JS
+:
+:
+GCReason
+aReason
 void
 *
 aData
@@ -5818,6 +5823,7 @@ OnGC
 (
 aContext
 aStatus
+aReason
 )
 ;
 }
@@ -9364,6 +9370,11 @@ JSContext
 aContext
 JSGCStatus
 aStatus
+JS
+:
+:
+GCReason
+aReason
 )
 {
 switch

@@ -2412,6 +2412,11 @@ callGCCallback
 (
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 )
 const
 ;
@@ -3977,6 +3982,11 @@ maybeCallGCCallback
 (
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 )
 ;
 void
