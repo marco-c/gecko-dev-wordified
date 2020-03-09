@@ -161,7 +161,7 @@ document
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .
@@ -691,7 +691,7 @@ document
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .
@@ -917,7 +917,7 @@ document
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .

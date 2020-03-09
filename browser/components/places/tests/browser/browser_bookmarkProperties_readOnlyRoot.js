@@ -179,7 +179,7 @@ document
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .

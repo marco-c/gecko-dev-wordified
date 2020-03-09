@@ -1522,7 +1522,7 @@ doc
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .
