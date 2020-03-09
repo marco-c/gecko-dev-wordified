@@ -528,8 +528,10 @@ nsACString
 aFunctionName
 int32_t
 aNumArguments
+nsCOMPtr
+<
 mozIStorageFunction
-*
+>
 aFunction
 )
 {
