@@ -1601,8 +1601,9 @@ virtual
 has_slots_interface
 (
 )
-{
-}
+=
+default
+;
 public
 :
 void
@@ -1719,8 +1720,9 @@ dupl
 _signal_base_interface
 (
 )
-{
-}
+=
+default
+;
 public
 :
 void
@@ -3409,8 +3411,9 @@ public
 signal_with_thread_policy
 (
 )
-{
-}
+=
+default
+;
 template
 <
 class

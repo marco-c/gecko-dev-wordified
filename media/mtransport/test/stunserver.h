@@ -656,8 +656,9 @@ protected
 TestStunTcpServer
 (
 )
-{
-}
+=
+default
+;
 static
 void
 accept_cb

@@ -226,8 +226,9 @@ virtual
 TimerTest
 (
 )
-{
-}
+=
+default
+;
 int
 ArmTimer
 (

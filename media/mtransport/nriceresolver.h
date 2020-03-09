@@ -719,8 +719,8 @@ virtual
 PendingResolution
 (
 )
-{
-}
+=
+default
 ;
 nsCOMPtr
 <

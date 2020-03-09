@@ -623,8 +623,9 @@ virtual
 nrappkitCallback
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Cancel
@@ -830,8 +831,9 @@ virtual
 nrappkitTimerCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -976,8 +978,9 @@ nullptr
 nrappkitScheduledCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

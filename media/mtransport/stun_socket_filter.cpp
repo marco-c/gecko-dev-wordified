@@ -593,8 +593,9 @@ virtual
 STUNUDPSocketFilter
 (
 )
-{
-}
+=
+default
+;
 bool
 filter_incoming_packet
 (
@@ -1502,8 +1503,9 @@ virtual
 STUNTCPSocketFilter
 (
 )
-{
-}
+=
+default
+;
 bool
 filter_incoming_packet
 (

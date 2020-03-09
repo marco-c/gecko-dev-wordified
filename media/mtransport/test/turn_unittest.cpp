@@ -638,8 +638,9 @@ IPPROTO_UDP
 TurnClient
 (
 )
-{
-}
+=
+default
+;
 static
 void
 SetUpTestCase

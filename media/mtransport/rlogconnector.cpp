@@ -485,8 +485,9 @@ RLogConnector
 RLogConnector
 (
 )
-{
-}
+=
+default
+;
 void
 RLogConnector
 :

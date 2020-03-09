@@ -478,8 +478,9 @@ virtual
 Deliverer
 (
 )
-{
-}
+=
+default
+;
 DISALLOW_COPY_ASSIGN
 (
 Deliverer

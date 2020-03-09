@@ -532,8 +532,9 @@ virtual
 Inspector
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Inspect
@@ -594,8 +595,9 @@ nullptr
 TransportLayerLossy
 (
 )
-{
-}
+=
+default
+;
 TransportResult
 SendPacket
 (

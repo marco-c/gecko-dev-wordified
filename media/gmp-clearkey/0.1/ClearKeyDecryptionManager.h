@@ -195,8 +195,9 @@ public
 CryptoMetaData
 (
 )
-{
-}
+=
+default
+;
 explicit
 CryptoMetaData
 (

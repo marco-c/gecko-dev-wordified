@@ -173,8 +173,8 @@ virtual
 TransportLayerSrtp
 (
 )
-{
-}
+=
+default
 ;
 /
 /

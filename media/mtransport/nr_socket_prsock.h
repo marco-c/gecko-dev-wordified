@@ -661,8 +661,9 @@ virtual
 NrSocketBase
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Factory
@@ -1341,8 +1342,9 @@ private
 nr_udp_message
 (
 )
-{
-}
+=
+default
+;
 DISALLOW_COPY_ASSIGN
 (
 nr_udp_message
@@ -1427,8 +1429,8 @@ virtual
 NrSocketIpc
 (
 )
-{
-}
+=
+default
 ;
 private
 :

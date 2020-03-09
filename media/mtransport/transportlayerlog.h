@@ -161,8 +161,9 @@ public
 TransportLayerLogging
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Overrides

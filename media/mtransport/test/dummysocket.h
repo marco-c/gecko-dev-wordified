@@ -1149,8 +1149,9 @@ private
 DummySocket
 (
 )
-{
-}
+=
+default
+;
 DISALLOW_COPY_ASSIGN
 (
 DummySocket

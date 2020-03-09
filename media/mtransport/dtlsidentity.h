@@ -695,8 +695,9 @@ private
 DtlsIdentity
 (
 )
-{
-}
+=
+default
+;
 DISALLOW_COPY_ASSIGN
 (
 DtlsIdentity
