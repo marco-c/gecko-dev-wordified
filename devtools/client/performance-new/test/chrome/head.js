@@ -1233,7 +1233,7 @@ new
 /
 components
 /
-DevToolsAndPopup
+DevToolsPanel
 "
 )
 )
