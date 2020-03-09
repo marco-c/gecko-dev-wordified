@@ -22222,9 +22222,10 @@ CASE
 ThrowSetConst
 )
 {
-ReportRuntimeConstAssignment
+ReportRuntimeLexicalError
 (
 cx
+JSMSG_BAD_CONST_ASSIGN
 script
 REGS
 .
@@ -22260,9 +22261,10 @@ JS_UNINITIALIZED_LEXICAL
 )
 )
 {
-ReportUninitializedLexical
+ReportRuntimeLexicalError
 (
 cx
+JSMSG_UNINITIALIZED_LEXICAL
 script
 REGS
 .
