@@ -936,9 +936,6 @@ Register
 argcreg
 Register
 extraStackSpace
-Label
-*
-end
 )
 ;
 void
