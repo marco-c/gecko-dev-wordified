@@ -556,6 +556,15 @@ aMetadata
 )
 ;
 }
+mMetadataChangedEvent
+.
+Notify
+(
+GetCurrentMediaMetadata
+(
+)
+)
+;
 }
 void
 MediaSessionController
