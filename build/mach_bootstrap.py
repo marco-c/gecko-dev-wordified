@@ -480,6 +480,16 @@ py
 '
 testing
 /
+condprofile
+/
+mach_commands
+.
+py
+'
+    
+'
+testing
+/
 firefox
 -
 ui
