@@ -466,6 +466,8 @@ virtual
 ChangeStyleTransaction
 (
 )
+=
+default
 ;
 /
 *

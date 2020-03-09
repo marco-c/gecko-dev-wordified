@@ -192,6 +192,8 @@ protected
 EditAggregateTransaction
 (
 )
+=
+default
 ;
 public
 :
@@ -316,6 +318,8 @@ virtual
 EditAggregateTransaction
 (
 )
+=
+default
 ;
 nsTArray
 <

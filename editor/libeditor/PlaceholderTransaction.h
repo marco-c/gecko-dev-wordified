@@ -517,6 +517,8 @@ virtual
 PlaceholderTransaction
 (
 )
+=
+default
 ;
 /
 /

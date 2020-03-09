@@ -401,6 +401,8 @@ virtual
 ChangeAttributeTransaction
 (
 )
+=
+default
 ;
 /
 /

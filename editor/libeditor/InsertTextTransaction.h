@@ -378,6 +378,8 @@ virtual
 InsertTextTransaction
 (
 )
+=
+default
 ;
 /
 /

@@ -334,15 +334,6 @@ GetContainerAsContent
 )
 ;
 }
-SplitNodeTransaction
-:
-:
-~
-SplitNodeTransaction
-(
-)
-{
-}
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 SplitNodeTransaction

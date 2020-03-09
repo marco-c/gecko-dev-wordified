@@ -359,6 +359,8 @@ virtual
 InsertNodeTransaction
 (
 )
+=
+default
 ;
 /
 /

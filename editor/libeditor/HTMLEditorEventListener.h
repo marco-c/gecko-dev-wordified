@@ -149,13 +149,6 @@ false
 )
 {
 }
-virtual
-~
-HTMLEditorEventListener
-(
-)
-{
-}
 /
 /
 nsIDOMEventListener

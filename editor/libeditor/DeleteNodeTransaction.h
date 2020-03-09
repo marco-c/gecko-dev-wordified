@@ -304,6 +304,8 @@ virtual
 DeleteNodeTransaction
 (
 )
+=
+default
 ;
 /
 /

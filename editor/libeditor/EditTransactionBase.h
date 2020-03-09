@@ -193,6 +193,8 @@ virtual
 EditTransactionBase
 (
 )
+=
+default
 ;
 }
 ;

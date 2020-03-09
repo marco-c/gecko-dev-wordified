@@ -397,15 +397,6 @@ GetChild
 )
 ;
 }
-InsertNodeTransaction
-:
-:
-~
-InsertNodeTransaction
-(
-)
-{
-}
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 InsertNodeTransaction

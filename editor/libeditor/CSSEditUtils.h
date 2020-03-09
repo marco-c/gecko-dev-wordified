@@ -228,11 +228,6 @@ HTMLEditor
 aEditor
 )
 ;
-~
-CSSEditUtils
-(
-)
-;
 enum
 nsCSSEditableProperty
 {

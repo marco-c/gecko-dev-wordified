@@ -211,15 +211,6 @@ mName
 aName
 ;
 }
-PlaceholderTransaction
-:
-:
-~
-PlaceholderTransaction
-(
-)
-{
-}
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 PlaceholderTransaction
