@@ -1853,7 +1853,7 @@ rv
 aWorkerConnection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2131,7 +2131,7 @@ rv
 aWorkerConnection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2309,7 +2309,7 @@ rv
 aWorkerConnection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2348,7 +2348,7 @@ rv
 aWorkerConnection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2472,7 +2472,7 @@ rv
 aWorkerConnection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2485,7 +2485,7 @@ GET_ORIGIN_SUFFIX
 aWorkerConnection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2539,7 +2539,7 @@ rv
 aWorkerConnection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -2600,7 +2600,7 @@ rv
 aWorkerConnection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (

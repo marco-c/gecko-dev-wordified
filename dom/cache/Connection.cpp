@@ -520,7 +520,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-RegisterFunction
+CreateFunction
 (
 const
 nsACString
@@ -528,10 +528,8 @@ nsACString
 aFunctionName
 int32_t
 aNumArguments
-nsCOMPtr
-<
 mozIStorageFunction
->
+*
 aFunction
 )
 {
@@ -579,7 +577,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-UnregisterFunction
+RemoveFunction
 (
 const
 nsACString
@@ -591,7 +589,7 @@ return
 mBase
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 aFunctionName
 )
