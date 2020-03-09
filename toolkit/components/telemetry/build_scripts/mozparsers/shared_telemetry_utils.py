@@ -522,9 +522,10 @@ print_eventuals
         
 print
 (
+str
+(
 self
-.
-message
+)
 file
 =
 sys
@@ -556,6 +557,8 @@ eventual_errors
             
 print
 (
+str
+(
 cls
 .
 eventual_errors
@@ -564,8 +567,7 @@ pop
 (
 0
 )
-.
-message
+)
 file
 =
 sys
@@ -1128,21 +1130,6 @@ items
 (
 )
         
-entries
-.
-sort
-(
-key
-=
-lambda
-x
-:
-x
-[
-1
-]
-)
-        
 #
 Avoid
 null
@@ -1320,7 +1307,19 @@ string
 offset
 )
 in
+sorted
+(
 entries
+key
+=
+lambda
+x
+:
+x
+[
+1
+]
+)
 :
             
 if
