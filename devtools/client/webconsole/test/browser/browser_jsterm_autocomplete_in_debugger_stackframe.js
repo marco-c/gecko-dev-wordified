@@ -447,6 +447,12 @@ expected
 suggestions
 )
 ;
+await
+closeAutocompletePopup
+(
+hud
+)
+;
 info
 (
 "

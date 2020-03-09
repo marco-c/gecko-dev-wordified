@@ -123,8 +123,7 @@ props
 let
 sideEffect
 ;
-window
-.
+var
 foo
 =
 obj
@@ -294,8 +293,6 @@ setInputValueForGetterConfirmDialog
 toolbox
 hud
 "
-window
-.
 foo
 .
 bar
@@ -326,8 +323,6 @@ textContent
 "
 Invoke
 getter
-window
-.
 foo
 .
 bar
@@ -431,8 +426,6 @@ checkInputValueAndCursorPosition
 (
 hud
 "
-window
-.
 foo
 .
 bar
@@ -487,8 +480,6 @@ checkInputValueAndCursorPosition
 (
 hud
 "
-window
-.
 foo
 .
 bar
@@ -567,8 +558,6 @@ textContent
 "
 Invoke
 getter
-window
-.
 foo
 .
 bar
@@ -673,8 +662,6 @@ checkInputValueAndCursorPosition
 (
 hud
 "
-window
-.
 foo
 .
 bar
@@ -729,8 +716,6 @@ onPopUpClose
 checkInputValueAndCursorPosition
 (
 hud
-window
-.
 foo
 .
 bar
@@ -822,8 +807,6 @@ setInputValueForGetterConfirmDialog
 toolbox
 hud
 "
-window
-.
 foo
 .
 rab
@@ -853,8 +836,6 @@ textContent
 "
 Invoke
 getter
-window
-.
 foo
 .
 rab
@@ -963,8 +944,6 @@ checkInputValueAndCursorPosition
 (
 hud
 "
-window
-.
 foo
 .
 rab
@@ -987,6 +966,21 @@ is
 now
 closed
 "
+)
+;
+info
+(
+"
+Close
+autocomplete
+popup
+"
+)
+;
+await
+closeAutocompletePopup
+(
+hud
 )
 ;
 }
