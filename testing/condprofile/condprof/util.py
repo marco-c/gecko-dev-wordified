@@ -1079,6 +1079,21 @@ archive
 try
 :
         
+logger
+.
+info
+(
+"
+Getting
+headers
+at
+%
+s
+"
+%
+archive
+)
+        
 resp
 =
 requests
@@ -1086,6 +1101,9 @@ requests
 head
 (
 archive
+timeout
+=
+DOWNLOAD_TIMEOUT
 )
     
 except
@@ -1107,6 +1125,15 @@ in
 303
 )
 :
+        
+logger
+.
+info
+(
+"
+Redirected
+"
+)
         
 return
 check_exists
@@ -1152,12 +1179,42 @@ Type
 ]
 :
         
+logger
+.
+info
+(
+"
+Got
+an
+html
+page
+back
+"
+)
+        
 exists
 =
 False
     
 else
 :
+        
+logger
+.
+info
+(
+"
+Response
+code
+is
+%
+d
+"
+%
+resp
+.
+status_code
+)
         
 exists
 =
