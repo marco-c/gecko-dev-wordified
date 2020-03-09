@@ -744,7 +744,7 @@ PBackgroundIDBDatabaseFileChild
 GetOrCreateFileActorForBlob
 (
 Blob
-*
+&
 aBlob
 )
 ;
