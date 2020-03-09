@@ -1184,7 +1184,7 @@ fold
 a
 branch
 to
-an
+a
 block
 that
 is

@@ -2371,10 +2371,11 @@ this
 function
 assume
 it
-may
-call
+is
+not
+a
+leaf
 .
-!
 self
 .
 dfg

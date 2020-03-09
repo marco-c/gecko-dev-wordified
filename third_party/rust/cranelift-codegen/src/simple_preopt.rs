@@ -6379,7 +6379,7 @@ fallthroughs
 /
 /
 When
-an
+a
 block
 ends
 with

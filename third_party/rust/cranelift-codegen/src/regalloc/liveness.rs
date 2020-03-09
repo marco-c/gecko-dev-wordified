@@ -246,7 +246,7 @@ at
 the
 beginning
 of
-an
+a
 block
 by
 starting

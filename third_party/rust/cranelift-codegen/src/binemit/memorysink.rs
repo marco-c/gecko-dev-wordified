@@ -707,7 +707,7 @@ Add
 a
 relocation
 referencing
-an
+a
 block
 at
 the

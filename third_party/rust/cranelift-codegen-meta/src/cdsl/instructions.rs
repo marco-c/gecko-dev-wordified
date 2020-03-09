@@ -2167,7 +2167,7 @@ output
 operands
 whether
 an
-instruciton
+instruction
 clobbers
 CPU
 flags

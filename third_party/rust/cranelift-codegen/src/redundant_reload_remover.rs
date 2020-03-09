@@ -1763,7 +1763,7 @@ the
 number
 of
 predecessors
-an
+a
 Block
 block
 has
@@ -2412,7 +2412,7 @@ navigate
 within
 /
 /
-an
+a
 Block
 .
 /
@@ -2500,7 +2500,7 @@ all
 the
 instructions
 in
-an
+a
 Block
 in
 turn

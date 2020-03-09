@@ -150,7 +150,7 @@ instructions
 but
 only
 inside
-an
+a
 block
 .
 /

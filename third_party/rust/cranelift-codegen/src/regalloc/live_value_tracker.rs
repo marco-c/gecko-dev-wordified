@@ -7,7 +7,7 @@ values
 are
 live
 in
-an
+a
 block
 with
 instruction
@@ -34,7 +34,7 @@ at
 each
 instruction
 in
-an
+a
 block
 .
 /
@@ -185,7 +185,7 @@ track
 live
 values
 throughout
-an
+a
 block
 .
 pub
@@ -235,7 +235,7 @@ immediate
 /
 dominator
 of
-an
+a
 block
 .
 /

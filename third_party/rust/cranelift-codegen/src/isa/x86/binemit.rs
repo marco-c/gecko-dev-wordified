@@ -67,10 +67,12 @@ ir
 {
 Block
 Constant
+ExternalName
 Function
 Inst
 InstructionData
 JumpTable
+LibCall
 Opcode
 TrapCode
 }

@@ -91,7 +91,7 @@ value
 is
 passed
 as
-an
+a
 block
 argument
 to
@@ -151,7 +151,7 @@ value
 is
 passed
 as
-an
+a
 block
 argument
 .

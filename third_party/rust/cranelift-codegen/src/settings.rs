@@ -2953,6 +2953,16 @@ none
 \
 n
 \
+tls_model
+=
+\
+"
+none
+\
+"
+\
+n
+\
 libcall_call_conv
 =
 \

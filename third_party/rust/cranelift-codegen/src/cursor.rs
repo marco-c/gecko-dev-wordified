@@ -122,7 +122,7 @@ before
 the
 beginning
 of
-an
+a
 block
 .
 No
@@ -165,7 +165,7 @@ after
 the
 end
 of
-an
+a
 block
 .
 /
@@ -2973,7 +2973,7 @@ cursor
 was
 positioned
 before
-an
+a
 block
 go
 to
@@ -3073,7 +3073,7 @@ over
 the
 instructions
 in
-an
+a
 block
 like
 /
@@ -3556,7 +3556,7 @@ cursor
 was
 positioned
 after
-an
+a
 block
 go
 to
@@ -4001,7 +4001,7 @@ at
 the
 bottom
 of
-an
+a
 block
 the
 new
@@ -4331,7 +4331,7 @@ inst
 /
 /
 Insert
-an
+a
 block
 at
 the
@@ -4425,7 +4425,7 @@ at
 the
 bottom
 of
-an
+a
 block
 the
 new
@@ -4466,7 +4466,7 @@ to
 the
 top
 of
-an
+a
 block
 the
 new
