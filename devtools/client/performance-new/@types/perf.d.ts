@@ -130,6 +130,12 @@ gReportReady
 )
 :
 void
+;
+gIsPanelDestroyed
+?
+:
+boolean
+;
 }
 /
 *
