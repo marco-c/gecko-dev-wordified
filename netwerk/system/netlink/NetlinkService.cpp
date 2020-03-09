@@ -503,8 +503,9 @@ public
 NetlinkAddress
 (
 )
-{
-}
+=
+default
+;
 uint8_t
 Family
 (
@@ -1647,8 +1648,9 @@ public
 NetlinkLink
 (
 )
-{
-}
+=
+default
+;
 bool
 IsUp
 (
@@ -3936,8 +3938,9 @@ LinkInfo
 LinkInfo
 (
 )
-{
-}
+=
+default
+;
 bool
 NetlinkService
 :

@@ -242,8 +242,9 @@ virtual
 WaitForCondition
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (

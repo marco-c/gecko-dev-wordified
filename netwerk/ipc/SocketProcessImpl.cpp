@@ -224,8 +224,9 @@ SocketProcessImpl
 SocketProcessImpl
 (
 )
-{
-}
+=
+default
+;
 bool
 SocketProcessImpl
 :

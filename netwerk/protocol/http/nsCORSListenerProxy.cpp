@@ -1504,6 +1504,8 @@ comparator
 const
 nsCaseInsensitiveCStringComparator
 comparator
+{
+}
 ;
 }
 checker

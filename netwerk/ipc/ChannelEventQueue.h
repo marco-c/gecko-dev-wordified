@@ -1215,8 +1215,9 @@ Release
 ChannelEventQueue
 (
 )
-{
-}
+=
+default
+;
 void
 SuspendInternal
 (
