@@ -1519,6 +1519,7 @@ aKeyframes
 KeyframeEffect
 .
 setKeyframes
+:
 "
 aRv
 )
@@ -7342,6 +7343,7 @@ GetKeyframes
 (
 JSContext
 *
+&
 aCx
 nsTArray
 <

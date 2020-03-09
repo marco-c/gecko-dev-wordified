@@ -260,9 +260,6 @@ mozilla
 namespace
 dom
 {
-class
-BindingCallContext
-;
 /
 /
 Struct
