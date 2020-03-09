@@ -5653,7 +5653,7 @@ stored
 .
 HIGH_WATER_DAILY_THRESHOLD
 :
-100
+500
 /
 *
 *
