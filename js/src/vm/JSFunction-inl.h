@@ -307,7 +307,7 @@ hasBytecode
 {
 if
 (
-LazyScript
+BaseScript
 *
 lazy
 =

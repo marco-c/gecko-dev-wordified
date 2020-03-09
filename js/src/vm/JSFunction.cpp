@@ -11903,7 +11903,7 @@ cleared
 "
 )
 ;
-LazyScript
+BaseScript
 *
 lazy
 =
@@ -15210,14 +15210,14 @@ compartment
 )
 )
 ;
-LazyScript
+BaseScript
 *
 lazy
 =
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 ;
