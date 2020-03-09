@@ -500,15 +500,9 @@ aSessionContextId
 ;
 mMetadataMap
 .
-GetValue
+Put
 (
 aSessionContextId
-)
--
->
-emplace
-(
-*
 aMetadata
 )
 ;
