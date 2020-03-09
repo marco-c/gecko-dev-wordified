@@ -8523,13 +8523,11 @@ JSScript
 *
 script
 =
-static_cast
-<
-JSScript
-*
->
-(
 this
+-
+>
+asJSScript
+(
 )
 ;
 if

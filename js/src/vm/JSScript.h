@@ -15850,6 +15850,13 @@ data_
 )
 ;
 }
+inline
+JSScript
+*
+asJSScript
+(
+)
+;
 /
 /
 JIT
