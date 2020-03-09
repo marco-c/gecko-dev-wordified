@@ -323,16 +323,15 @@ switchToTab
 let
 tab
 =
-await
 BrowserTestUtils
 .
-openNewForegroundTab
+addTab
 (
 gBrowser
 "
 about
 :
-about
+robots
 "
 )
 ;
@@ -352,7 +351,7 @@ value
 :
 "
 %
-about
+robots
 "
 }
 )
@@ -413,7 +412,7 @@ element
 "
 about
 :
-about
+robots
 Switch
 to
 Tab

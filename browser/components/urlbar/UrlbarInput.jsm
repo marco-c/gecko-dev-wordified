@@ -5694,6 +5694,17 @@ getAttribute
 usercontextid
 "
 )
+currentPage
+:
+this
+.
+window
+.
+gBrowser
+.
+currentURI
+.
+spec
 }
 )
 )

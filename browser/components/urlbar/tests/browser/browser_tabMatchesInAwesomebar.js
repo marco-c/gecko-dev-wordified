@@ -306,6 +306,13 @@ removeCurrentTab
 (
 )
 ;
+gBrowser
+.
+selectTabAtIndex
+(
+0
+)
+;
 let
 promises
 =
