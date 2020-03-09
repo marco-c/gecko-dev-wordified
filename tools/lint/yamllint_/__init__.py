@@ -497,6 +497,9 @@ python
 '
 yamllint
 '
+'
+yamllint
+'
 )
 def
 _run_pip
