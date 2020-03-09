@@ -330,6 +330,10 @@ eDefault
 (
 aCx
 aValue
+"
+Resolution
+value
+"
 &
 value
 )
