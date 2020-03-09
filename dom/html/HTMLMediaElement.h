@@ -4289,12 +4289,6 @@ ComputedMuted
 )
 const
 ;
-nsSuspendedTypes
-ComputedSuspended
-(
-)
-const
-;
 void
 SetMediaInfo
 (
