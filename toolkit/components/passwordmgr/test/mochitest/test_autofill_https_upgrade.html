@@ -1308,7 +1308,13 @@ basic
 "
 )
 ;
-return
+let
+{
+login
+:
+filledLogin
+}
+=
 LMC
 .
 stateForDocument
@@ -1322,6 +1328,12 @@ get
 (
 form
 )
+;
+return
+filledLogin
+&
+&
+filledLogin
 .
 guid
 ;
