@@ -75,6 +75,7 @@ const
 {
 ACTIVITY_TYPE
 EVENTS
+TEST_EVENTS
 }
 =
 require
@@ -1857,7 +1858,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 TIMELINE_EVENT
 event
@@ -2992,7 +2993,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 THROTTLING_CHANGED
 {

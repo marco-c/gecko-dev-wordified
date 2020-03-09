@@ -76,6 +76,7 @@ strict
 const
 {
 EVENTS
+TEST_EVENTS
 }
 =
 require
@@ -1769,7 +1770,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 LONGSTRING_RESOLVED
 {
@@ -1861,7 +1862,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 actor
@@ -2025,7 +2026,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 STARTED_RECEIVING_RESPONSE
 actor
@@ -2220,7 +2221,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT_UPDATED
 actor
@@ -3649,7 +3650,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_HEADERS
 response
@@ -3722,7 +3723,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_HEADERS
 response
@@ -3795,7 +3796,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_COOKIES
 response
@@ -3868,7 +3869,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_POST_DATA
 response
@@ -3943,7 +3944,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_SECURITY_INFO
 response
@@ -4016,7 +4017,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_COOKIES
 response
@@ -4088,7 +4089,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_CACHE
 response
@@ -4201,7 +4202,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_CONTENT
 response
@@ -4413,7 +4414,7 @@ this
 .
 emitForTests
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_EVENT_STACKTRACE
 response

@@ -223,6 +223,7 @@ utils
 const
 {
 EVENTS
+TEST_EVENTS
 }
 =
 require
@@ -2265,7 +2266,7 @@ api
 .
 off
 (
-EVENTS
+TEST_EVENTS
 .
 TIMELINE_EVENT
 handleTimelineEvent
@@ -2298,7 +2299,7 @@ api
 .
 on
 (
-EVENTS
+TEST_EVENTS
 .
 TIMELINE_EVENT
 handleTimelineEvent
@@ -2724,7 +2725,7 @@ api
 .
 off
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 onRequest
@@ -2762,7 +2763,7 @@ api
 .
 on
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 onRequest
@@ -3721,7 +3722,7 @@ networkEvent
 ;
 maybeResolve
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 actor
@@ -3880,7 +3881,7 @@ api
 .
 off
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 onNetworkEvent
@@ -3911,7 +3912,7 @@ api
 .
 on
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 onNetworkEvent
@@ -7199,7 +7200,7 @@ api
 .
 once
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_CONTENT
 )

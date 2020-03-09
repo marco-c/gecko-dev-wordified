@@ -474,7 +474,7 @@ monitor
 panelWin
 .
 api
-EVENTS
+TEST_EVENTS
 .
 LONGSTRING_RESOLVED
 )

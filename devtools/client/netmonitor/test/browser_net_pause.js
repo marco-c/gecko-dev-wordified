@@ -197,7 +197,7 @@ api
 .
 once
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 (
@@ -220,7 +220,7 @@ api
 .
 once
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT_UPDATED
 (

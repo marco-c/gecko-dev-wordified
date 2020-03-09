@@ -270,7 +270,7 @@ monitor
 panelWin
 .
 api
-EVENTS
+TEST_EVENTS
 .
 THROTTLING_CHANGED
 )
