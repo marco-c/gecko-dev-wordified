@@ -318,7 +318,7 @@ bool
 wasm
 :
 :
-CraneliftCanCompile
+CraneliftPlatformSupport
 (
 )
 {
@@ -2693,7 +2693,7 @@ error
 {
 MOZ_RELEASE_ASSERT
 (
-CraneliftCanCompile
+CraneliftPlatformSupport
 (
 )
 )
