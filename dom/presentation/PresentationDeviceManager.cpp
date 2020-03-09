@@ -220,8 +220,9 @@ PresentationDeviceManager
 PresentationDeviceManager
 (
 )
-{
-}
+=
+default
+;
 PresentationDeviceManager
 :
 :

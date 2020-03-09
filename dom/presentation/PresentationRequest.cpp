@@ -731,8 +731,9 @@ PresentationRequest
 PresentationRequest
 (
 )
-{
-}
+=
+default
+;
 bool
 PresentationRequest
 :

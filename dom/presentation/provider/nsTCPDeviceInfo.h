@@ -185,8 +185,9 @@ virtual
 TCPDeviceInfo
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mId
 ;

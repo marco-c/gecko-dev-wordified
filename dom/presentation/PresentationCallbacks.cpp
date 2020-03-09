@@ -277,8 +277,9 @@ PresentationRequesterCallback
 PresentationRequesterCallback
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsIPresentationServiceCallback
@@ -466,8 +467,9 @@ PresentationReconnectCallback
 PresentationReconnectCallback
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PresentationReconnectCallback
 :

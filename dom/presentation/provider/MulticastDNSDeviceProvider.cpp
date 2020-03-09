@@ -604,8 +604,9 @@ MulticastDNSDeviceProvider
 MulticastDNSDeviceProvider
 (
 )
-{
-}
+=
+default
+;
 MulticastDNSDeviceProvider
 :
 :

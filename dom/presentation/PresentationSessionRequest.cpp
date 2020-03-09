@@ -185,8 +185,9 @@ PresentationSessionRequest
 PresentationSessionRequest
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsIPresentationSessionRequest

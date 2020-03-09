@@ -183,8 +183,9 @@ PresentationTerminateRequest
 PresentationTerminateRequest
 (
 )
-{
-}
+=
+default
+;
 /
 /
 nsIPresentationTerminateRequest

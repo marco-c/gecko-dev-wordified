@@ -618,8 +618,9 @@ private
 TCPPresentationChannelDescription
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mAddress
 ;

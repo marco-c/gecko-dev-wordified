@@ -440,8 +440,9 @@ PresentationParent
 PresentationParent
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual
@@ -454,8 +455,9 @@ PresentationParent
 PresentationParent
 (
 )
-{
-}
+=
+default
+;
 bool
 PresentationParent
 :
@@ -1861,8 +1863,9 @@ PresentationRequestParent
 PresentationRequestParent
 (
 )
-{
-}
+=
+default
+;
 void
 PresentationRequestParent
 :
