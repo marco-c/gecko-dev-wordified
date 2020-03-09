@@ -184,8 +184,9 @@ WebBrowserPersistDocumentChild
 WebBrowserPersistDocumentChild
 (
 )
-{
-}
+=
+default
+;
 WebBrowserPersistDocumentChild
 :
 :
