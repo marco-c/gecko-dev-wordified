@@ -476,6 +476,9 @@ getDeps
 '
 name
 '
+'
+prettyName
+'
 ]
 or
 \
