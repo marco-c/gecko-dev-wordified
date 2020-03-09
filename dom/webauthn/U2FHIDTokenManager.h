@@ -691,8 +691,9 @@ private
 U2FHIDTokenManager
 (
 )
-{
-}
+=
+default
+;
 void
 ClearPromises
 (

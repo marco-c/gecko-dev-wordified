@@ -202,8 +202,9 @@ U2FTokenTransport
 U2FTokenTransport
 (
 )
-{
-}
+=
+default
+;
 virtual
 RefPtr
 <
