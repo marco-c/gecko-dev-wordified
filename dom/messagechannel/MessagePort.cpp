@@ -993,8 +993,9 @@ private
 PostMessageRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 MessagePort

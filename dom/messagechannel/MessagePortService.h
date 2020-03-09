@@ -280,8 +280,9 @@ private
 MessagePortService
 (
 )
-{
-}
+=
+default
+;
 void
 CloseAll
 (
