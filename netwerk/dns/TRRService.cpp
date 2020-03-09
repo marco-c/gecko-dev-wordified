@@ -730,16 +730,6 @@ RebuildSuffixList
 nls
 )
 ;
-if
-(
-StaticPrefs
-:
-:
-network_trr_fetch_off_main_thread
-(
-)
-)
-{
 nsCOMPtr
 <
 nsIThread
@@ -781,7 +771,6 @@ sTRRBackgroundThread
 =
 thread
 ;
-}
 LOG
 (
 (
