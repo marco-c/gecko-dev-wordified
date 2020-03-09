@@ -259,11 +259,6 @@ setStreamsEnabled
 true
 )
 .
-setFieldsEnabled
-(
-false
-)
-.
 setWeakRefsEnabled
 (
 true

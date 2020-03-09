@@ -693,11 +693,6 @@ setStreamsEnabled
 true
 )
 .
-setFieldsEnabled
-(
-true
-)
-.
 setWeakRefsEnabled
 (
 true

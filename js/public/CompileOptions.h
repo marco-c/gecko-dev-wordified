@@ -994,11 +994,6 @@ hideScriptFromDebugger
 =
 false
 ;
-bool
-fieldsEnabledOption
-=
-true
-;
 /
 *
 *
