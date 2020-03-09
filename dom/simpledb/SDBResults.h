@@ -167,8 +167,9 @@ virtual
 SDBResult
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISDBRESULT
 }
