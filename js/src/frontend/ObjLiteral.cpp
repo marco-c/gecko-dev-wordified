@@ -522,13 +522,10 @@ if
 !
 properties
 .
-append
-(
-IdValuePair
+emplaceBack
 (
 propId
 propVal
-)
 )
 )
 {

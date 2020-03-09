@@ -9347,16 +9347,13 @@ JS_ELEMENTS_HOLE
 !
 properties
 .
-append
-(
-IdValuePair
+emplaceBack
 (
 INT_TO_JSID
 (
 i
 )
 v
-)
 )
 )
 {
