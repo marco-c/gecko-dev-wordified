@@ -2482,6 +2482,9 @@ StackTraces
 TelemetryClientId
 "
 "
+TelemetrySessionId
+"
+"
 TelemetryServerURL
 "
 ]
