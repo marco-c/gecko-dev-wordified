@@ -35,6 +35,13 @@ file_autoplay
 html
 "
 ;
+const
+testVideoId
+=
+"
+autoplay
+"
+;
 /
 *
 *
@@ -140,6 +147,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -164,6 +172,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -188,6 +197,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -212,6 +222,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -259,6 +270,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -283,6 +295,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -307,6 +320,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info

@@ -37,6 +37,7 @@ function
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+elementId
 )
 {
 return
@@ -48,9 +49,9 @@ tab
 .
 linkedBrowser
 [
+elementId
 ]
-(
-)
+Id
 =
 >
 {
@@ -71,9 +72,7 @@ document
 .
 getElementById
 (
-"
-autoplay
-"
+Id
 )
 ;
 if
@@ -169,6 +168,7 @@ function
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+elementId
 )
 {
 return
@@ -180,9 +180,9 @@ tab
 .
 linkedBrowser
 [
+elementId
 ]
-(
-)
+Id
 =
 >
 {
@@ -203,9 +203,7 @@ document
 .
 getElementById
 (
-"
-autoplay
-"
+Id
 )
 ;
 if
