@@ -819,7 +819,7 @@ Vconcat
 /
 After
 splitting
-a
+an
 block
 argument
 we
@@ -2132,7 +2132,7 @@ num
 /
 This
 is
-a
+an
 block
 parameter
 .

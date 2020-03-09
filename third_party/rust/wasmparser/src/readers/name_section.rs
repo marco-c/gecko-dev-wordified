@@ -1093,10 +1093,9 @@ return
 Err
 (
 BinaryReaderError
+{
+message
 :
-:
-new
-(
 "
 Name
 entry
@@ -1108,6 +1107,8 @@ the
 code
 section
 "
+offset
+:
 self
 .
 reader
@@ -1123,7 +1124,7 @@ buffer
 len
 (
 )
-)
+}
 )
 ;
 }

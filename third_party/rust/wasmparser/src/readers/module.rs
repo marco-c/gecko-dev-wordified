@@ -2499,10 +2499,9 @@ return
 Err
 (
 BinaryReaderError
+{
+message
 :
-:
-new
-(
 "
 Section
 body
@@ -2512,6 +2511,8 @@ end
 of
 file
 "
+offset
+:
 self
 .
 reader
@@ -2521,7 +2522,7 @@ buffer
 len
 (
 )
-)
+}
 )
 ;
 }
@@ -2538,10 +2539,9 @@ return
 Err
 (
 BinaryReaderError
+{
+message
 :
-:
-new
-(
 "
 Section
 header
@@ -2554,8 +2554,10 @@ into
 section
 body
 "
+offset
+:
 end
-)
+}
 )
 ;
 }

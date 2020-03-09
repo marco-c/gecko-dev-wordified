@@ -2814,7 +2814,7 @@ predecessors
 so
 we
 append
-a
+an
 Block
 parameter
 that
@@ -3425,7 +3425,7 @@ header
 block
 corresponding
 to
-a
+an
 Block
 panics
 if
@@ -4237,7 +4237,7 @@ the
 predecessors
 and
 create
-a
+an
 block
 parameter
 /
@@ -4429,7 +4429,7 @@ of
 a
 Variable
 in
-a
+an
 Block
 perform
 a
@@ -4489,7 +4489,7 @@ the
 original
 Value
 was
-a
+an
 Block
 parameter
 /
@@ -4522,7 +4522,7 @@ up
 a
 Value
 for
-a
+an
 Block
 that
 is
@@ -5267,7 +5267,7 @@ to
 have
 it
 as
-a
+an
 block
 argument
 .
@@ -5760,7 +5760,7 @@ as
 a
 predecessor
 to
-a
+an
 block
 "
 )

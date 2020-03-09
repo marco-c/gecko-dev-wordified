@@ -205,7 +205,7 @@ in
 /
 /
 !
-a
+an
 block
 or
 be
@@ -270,7 +270,7 @@ block
 All
 branches
 to
-a
+an
 block
 must
 be
@@ -6076,7 +6076,7 @@ instruction
 is
 inserted
 in
-a
+an
 block
 .
 if

@@ -199,10 +199,6 @@ formats
 shared_defs
 .
 imm
-&
-shared_defs
-.
-entities
 )
 ;
 legalize
@@ -272,7 +268,7 @@ expand_flags
 )
 ;
 let
-x86_widen
+narrow_flags
 =
 shared_defs
 .
@@ -281,7 +277,21 @@ transform_groups
 by_name
 (
 "
-x86_widen
+narrow_flags
+"
+)
+;
+let
+widen
+=
+shared_defs
+.
+transform_groups
+.
+by_name
+(
+"
+widen
 "
 )
 ;
@@ -324,7 +334,7 @@ x86_32
 .
 legalize_default
 (
-x86_narrow
+narrow_flags
 )
 ;
 x86_32
@@ -340,7 +350,7 @@ x86_32
 legalize_type
 (
 I8
-x86_widen
+widen
 )
 ;
 x86_32
@@ -348,7 +358,7 @@ x86_32
 legalize_type
 (
 I16
-x86_widen
+widen
 )
 ;
 x86_32
@@ -413,7 +423,7 @@ x86_64
 legalize_type
 (
 I8
-x86_widen
+widen
 )
 ;
 x86_64
@@ -421,7 +431,7 @@ x86_64
 legalize_type
 (
 I16
-x86_widen
+widen
 )
 ;
 x86_64

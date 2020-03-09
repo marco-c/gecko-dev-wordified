@@ -9,7 +9,6 @@ Cranelift
 intermediate
 language
 .
-pub
 mod
 entities
 ;
@@ -185,10 +184,6 @@ pub
 transform_groups
 :
 TransformGroups
-pub
-entities
-:
-EntityRefs
 }
 pub
 (
@@ -297,7 +292,6 @@ imm
 immediates
 formats
 transform_groups
-entities
 }
 }
 impl

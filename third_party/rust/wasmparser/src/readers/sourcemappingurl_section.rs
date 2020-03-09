@@ -202,10 +202,9 @@ return
 Err
 (
 BinaryReaderError
+{
+message
 :
-:
-new
-(
 "
 Unexpected
 content
@@ -215,11 +214,13 @@ sourceMappingURL
 section
 "
 offset
+:
+offset
 +
 reader
 .
 position
-)
+}
 )
 ;
 }

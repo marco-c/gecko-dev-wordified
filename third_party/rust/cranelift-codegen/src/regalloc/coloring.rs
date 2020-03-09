@@ -305,7 +305,7 @@ arguments
 when
 branching
 to
-a
+an
 block
 must
 belong
@@ -434,7 +434,7 @@ see
 a
 branch
 to
-a
+an
 block
 the
 block
@@ -1960,7 +1960,7 @@ a
 single
 target
 and
-a
+an
 block
 with
 a

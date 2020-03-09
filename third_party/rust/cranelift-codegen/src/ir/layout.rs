@@ -24,7 +24,7 @@ order
 of
 instructions
 in
-a
+an
 block
 is
 /
@@ -218,7 +218,7 @@ order
 of
 instructions
 with
-a
+an
 block
 .
 /
@@ -601,7 +601,7 @@ numbers
 /
 /
 within
-a
+an
 block
 .
 The
@@ -2581,7 +2581,7 @@ inserted
 blocks
 .
 Once
-a
+an
 block
 has
 been
@@ -2594,7 +2594,7 @@ can
 be
 added
 .
-A
+An
 block
 /
 /
@@ -3857,7 +3857,7 @@ into
 /
 /
 /
-a
+an
 block
 at
 a
@@ -4191,7 +4191,7 @@ inst
 /
 /
 Fetch
-a
+an
 block
 '
 s
@@ -4232,7 +4232,7 @@ into
 /
 /
 Fetch
-a
+an
 block
 '
 s
@@ -4355,7 +4355,7 @@ the
 first
 instruction
 in
-a
+an
 block
 '
 s
@@ -5449,7 +5449,7 @@ Iterate
 over
 instructions
 in
-a
+an
 block
 in
 layout

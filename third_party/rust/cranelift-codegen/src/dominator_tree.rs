@@ -2314,7 +2314,7 @@ the
 BB
 .
 (
-A
+An
 block
 is
 a
@@ -2344,7 +2344,7 @@ We
 want
 to
 compute
-a
+an
 block
 post
 -
@@ -2498,7 +2498,7 @@ keep
 an
 edge
 to
-a
+an
 block
 the
 first
@@ -2545,7 +2545,7 @@ the
 first
 edge
 to
-a
+an
 block
 /
 /
@@ -2599,7 +2599,7 @@ about
 the
 progress
 through
-a
+an
 block
 .
 /
@@ -2881,7 +2881,7 @@ invariant
 means
 that
 if
-a
+an
 block
 is
 split
@@ -4547,7 +4547,7 @@ the
 direct
 children
 of
-a
+an
 block
 in
 the
@@ -4810,7 +4810,7 @@ points
 /
 /
 /
-A
+An
 block
 is
 considered

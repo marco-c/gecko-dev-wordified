@@ -68,7 +68,7 @@ argument
 values
 passed
 to
-a
+an
 block
 /
 /
@@ -1841,7 +1841,7 @@ never
 be
 used
 as
-a
+an
 block
 argument
 .
@@ -6811,7 +6811,7 @@ iterator
 /
 /
 /
-A
+An
 block
 =
 >
@@ -7387,7 +7387,7 @@ when
 all
 parameters
 at
-a
+an
 block
 have
 been
