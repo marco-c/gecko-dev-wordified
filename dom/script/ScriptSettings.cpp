@@ -4185,8 +4185,9 @@ AutoEntryScript
 AutoEntryScript
 (
 )
-{
-}
+=
+default
+;
 AutoEntryScript
 :
 :

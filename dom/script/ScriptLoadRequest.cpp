@@ -387,8 +387,9 @@ ScriptFetchOptions
 ScriptFetchOptions
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /
