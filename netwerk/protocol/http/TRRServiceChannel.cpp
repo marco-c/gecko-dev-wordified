@@ -114,11 +114,7 @@ MPL
 #
 include
 "
-mozilla
-/
-net
-/
-SimpleHttpChannel
+TRRServiceChannel
 .
 h
 "
@@ -223,15 +219,15 @@ net
 {
 NS_IMPL_ADDREF
 (
-SimpleHttpChannel
+TRRServiceChannel
 )
 NS_IMPL_RELEASE
 (
-SimpleHttpChannel
+TRRServiceChannel
 )
 NS_INTERFACE_MAP_BEGIN
 (
-SimpleHttpChannel
+TRRServiceChannel
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -287,22 +283,22 @@ nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
-SimpleHttpChannel
+TRRServiceChannel
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
 HttpBaseChannel
 )
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
-SimpleHttpChannel
+TRRServiceChannel
 (
 )
 :
 HttpAsyncAborter
 <
-SimpleHttpChannel
+TRRServiceChannel
 >
 (
 this
@@ -326,7 +322,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 ctor
 [
 this
@@ -342,11 +338,11 @@ this
 )
 ;
 }
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ~
-SimpleHttpChannel
+TRRServiceChannel
 (
 )
 {
@@ -354,7 +350,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 dtor
 [
 this
@@ -371,7 +367,7 @@ this
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Cancel
@@ -384,7 +380,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Cancel
@@ -501,7 +497,7 @@ NS_OK
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 CancelNetworkRequest
@@ -566,7 +562,7 @@ aStatus
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Suspend
@@ -577,7 +573,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SuspendInternal
@@ -613,7 +609,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Resume
@@ -624,7 +620,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Resume
@@ -660,7 +656,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetSecurityInfo
@@ -692,7 +688,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 AsyncOpen
@@ -884,7 +880,7 @@ NS_OK
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 MaybeResolveProxyAndBeginConnect
@@ -1024,7 +1020,7 @@ NS_OK
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ResolveProxy
@@ -1035,7 +1031,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ResolveProxy
@@ -1066,14 +1062,14 @@ NS_DispatchToMainThread
 NewRunnableMethod
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ResolveProxy
 "
 this
 &
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ResolveProxy
@@ -1273,14 +1269,14 @@ nsresult
 >
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 AsyncAbort
 "
 this
 &
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 AsyncAbort
@@ -1296,7 +1292,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnProxyAvailable
@@ -1318,7 +1314,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnProxyAvailable
@@ -1385,7 +1381,7 @@ IsOnCurrentThread
 {
 RefPtr
 <
-SimpleHttpChannel
+TRRServiceChannel
 >
 self
 =
@@ -1408,7 +1404,7 @@ Dispatch
 NS_NewRunnableFunction
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnProxyAvailable
@@ -1609,7 +1605,7 @@ rv
 const
 nsCString
 &
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetTopWindowOrigin
@@ -1652,7 +1648,7 @@ mTopWindowOrigin
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 BeginConnect
@@ -1663,7 +1659,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 BeginConnect
@@ -2037,7 +2033,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 %
 p
 Alt
@@ -2194,7 +2190,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 %
 p
 Using
@@ -2259,7 +2255,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 %
 p
 Using
@@ -2291,7 +2287,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 %
 p
 Using
@@ -2645,7 +2641,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 BeginConnect
@@ -2713,7 +2709,7 @@ NS_OK
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ContinueOnBeforeConnect
@@ -2724,7 +2720,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ContinueOnBeforeConnect
@@ -2915,7 +2911,7 @@ Connect
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Connect
@@ -2926,7 +2922,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 Connect
@@ -3000,7 +2996,7 @@ mTransactionPump
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetupTransaction
@@ -3011,7 +3007,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetupTransaction
@@ -3561,7 +3557,7 @@ no
 cache
 header
 for
-SimpleHttpChannel
+TRRServiceChannel
 .
 /
 /
@@ -3756,7 +3752,7 @@ LOG1
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 %
 p
 created
@@ -3915,7 +3911,7 @@ weakPtrThis
 return
 static_cast
 <
-SimpleHttpChannel
+TRRServiceChannel
 *
 >
 (
@@ -4010,7 +4006,7 @@ rv
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetPushedStreamTransactionAndId
@@ -4032,7 +4028,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetPushedStreamTransaction
@@ -4062,7 +4058,7 @@ aPushedStreamId
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnPush
@@ -4091,7 +4087,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnPush
@@ -4150,7 +4146,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnPush
@@ -4231,7 +4227,7 @@ rv
 gHttpHandler
 -
 >
-CreateSimpleHttpChannel
+CreateTRRServiceChannel
 (
 pushResource
 nullptr
@@ -4268,7 +4264,7 @@ rv
 ;
 RefPtr
 <
-SimpleHttpChannel
+TRRServiceChannel
 >
 channel
 ;
@@ -4373,7 +4369,7 @@ rv
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 MaybeStartDNSPrefetch
@@ -4414,7 +4410,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 MaybeStartDNSPrefetch
@@ -4479,7 +4475,7 @@ NS_HTTP_REFRESH_DNS
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnTransportStatus
@@ -4500,7 +4496,7 @@ NS_OK
 ;
 }
 nsresult
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 CallOnStartRequest
@@ -4511,7 +4507,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 CallOnStartRequest
@@ -4803,7 +4799,7 @@ NS_OK
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ProcessAltService
@@ -5155,7 +5151,7 @@ OriginAttributes
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnStartRequest
@@ -5169,7 +5165,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnStartRequest
@@ -5483,7 +5479,7 @@ CallOnStartRequest
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnDataAvailable
@@ -5504,7 +5500,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnDataAvailable
@@ -5600,7 +5596,7 @@ NS_ERROR_ABORT
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnStopRequest
@@ -5616,7 +5612,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnStopRequest
@@ -5691,7 +5687,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 %
 p
 calling
@@ -5777,7 +5773,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnLookupComplete
@@ -5796,7 +5792,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnLookupComplete
@@ -6046,7 +6042,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnLookupByTypeComplete
@@ -6066,7 +6062,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 LogBlockedCORSRequest
@@ -6086,7 +6082,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 LogMimeTypeMismatch
@@ -6112,7 +6108,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetupFallbackChannel
@@ -6128,7 +6124,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetNotificationCallbacks
@@ -6147,7 +6143,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetPriority
@@ -6161,7 +6157,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnClassOfServiceUpdated
@@ -6172,7 +6168,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 OnClassOfServiceUpdated
@@ -6207,7 +6203,7 @@ mClassOfService
 }
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetClassFlags
@@ -6243,7 +6239,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 AddClassFlags
@@ -6280,7 +6276,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ClearClassFlags
@@ -6318,7 +6314,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 ResumeAt
@@ -6336,7 +6332,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 DoAsyncAbort
@@ -6355,7 +6351,7 @@ aStatus
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetProxyInfo
@@ -6398,7 +6394,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetHttpProxyConnectResponseCode
@@ -6424,7 +6420,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetLoadFlags
@@ -6445,7 +6441,7 @@ aLoadFlags
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 SetLoadFlags
@@ -6504,7 +6500,7 @@ aLoadFlags
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetURI
@@ -6526,7 +6522,7 @@ aURI
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetNotificationCallbacks
@@ -6548,7 +6544,7 @@ aCallbacks
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetLoadGroup
@@ -6570,7 +6566,7 @@ aLoadGroup
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetRequestMethod
@@ -6591,7 +6587,7 @@ aMethod
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 DoNotifyListener
@@ -6602,7 +6598,7 @@ LOG
 (
 (
 "
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 DoNotifyListener
@@ -6807,7 +6803,7 @@ DoNotifyListenerCleanup
 ;
 }
 void
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 DoNotifyListenerCleanup
@@ -6816,7 +6812,7 @@ DoNotifyListenerCleanup
 {
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetDomainLookupStart
@@ -6853,7 +6849,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetDomainLookupEnd
@@ -6890,7 +6886,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetConnectStart
@@ -6927,7 +6923,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetTcpConnectEnd
@@ -6964,7 +6960,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetSecureConnectionStart
@@ -7001,7 +6997,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetConnectEnd
@@ -7038,7 +7034,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetRequestStart
@@ -7075,7 +7071,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetResponseStart
@@ -7112,7 +7108,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-SimpleHttpChannel
+TRRServiceChannel
 :
 :
 GetResponseEnd

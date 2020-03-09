@@ -643,7 +643,7 @@ h
 #
 include
 "
-SimpleHttpChannel
+TRRServiceChannel
 .
 h
 "
@@ -15614,7 +15614,7 @@ rv
 ;
 /
 /
-SimpleHttpChannel
+TRRServiceChannel
 doesn
 '
 t
@@ -15780,7 +15780,7 @@ nsresult
 nsHttpHandler
 :
 :
-CreateSimpleHttpChannel
+CreateTRRServiceChannel
 (
 nsIURI
 *
@@ -15807,7 +15807,7 @@ HttpBaseChannel
 httpChannel
 =
 new
-SimpleHttpChannel
+TRRServiceChannel
 (
 )
 ;
@@ -15818,7 +15818,7 @@ LOG
 nsHttpHandler
 :
 :
-CreateSimpleHttpChannel
+CreateTRRServiceChannel
 [
 proxyInfo
 =
