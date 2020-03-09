@@ -5145,6 +5145,17 @@ Selection
 aNormalSelection
 )
 ;
+/
+/
+TODO
+:
+annotate
+this
+with
+MOZ_CAN_RUN_SCRIPT
+instead
+.
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleSelection
 (
@@ -5222,6 +5233,7 @@ mark
 as
 MOZ_CAN_RUN_SCRIPT
 .
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 UnselectCells
 (

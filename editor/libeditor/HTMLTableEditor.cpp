@@ -16952,8 +16952,11 @@ if
 deletedCell
 )
 {
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
