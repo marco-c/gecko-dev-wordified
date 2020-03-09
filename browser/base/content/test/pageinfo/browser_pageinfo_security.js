@@ -1736,7 +1736,7 @@ infra
 machines
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1835,7 +1835,7 @@ be
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2043,7 +2043,7 @@ filled
 in
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -2162,7 +2162,7 @@ cleared
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
