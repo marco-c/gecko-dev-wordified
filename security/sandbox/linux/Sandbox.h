@@ -532,6 +532,14 @@ int
 aBroker
 )
 ;
+MOZ_EXPORT
+void
+SetSocketProcessSandbox
+(
+int
+aBroker
+)
+;
 }
 /
 /
