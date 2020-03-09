@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+AntiTrackingCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Atomics
 .
 h

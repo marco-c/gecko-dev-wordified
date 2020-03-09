@@ -78,6 +78,8 @@ include
 "
 mozilla
 /
+dom
+/
 ContentBlockingLog
 .
 h
@@ -338,6 +340,9 @@ TelemetryTest_Test1
 mozilla
 :
 :
+dom
+:
+:
 ContentBlockingLog
 :
 :
@@ -466,6 +471,9 @@ JS_GetProperty
 aCx
 originsObj
 mozilla
+:
+:
+dom
 :
 :
 ContentBlockingLog

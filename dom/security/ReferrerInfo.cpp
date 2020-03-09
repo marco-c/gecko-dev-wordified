@@ -203,7 +203,7 @@ include
 "
 mozilla
 /
-BasePrincipal
+AntiTrackingCommon
 .
 h
 "
@@ -212,7 +212,7 @@ include
 "
 mozilla
 /
-ContentBlocking
+BasePrincipal
 .
 h
 "
@@ -1315,10 +1315,10 @@ rejectedReason
 thirdPartyTrackerIsolated
 =
 !
-ContentBlocking
+AntiTrackingCommon
 :
 :
-ShouldAllowAccessFor
+IsFirstPartyStorageAccessGrantedFor
 (
 aChannel
 aURI
