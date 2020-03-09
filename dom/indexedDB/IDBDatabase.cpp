@@ -4531,17 +4531,12 @@ IDBDatabase
 GetOrCreateFileActorForBlob
 (
 Blob
-*
+&
 aBlob
 )
 {
 AssertIsOnOwningThread
 (
-)
-;
-MOZ_ASSERT
-(
-aBlob
 )
 ;
 MOZ_ASSERT
@@ -4612,6 +4607,7 @@ weakRef
 =
 do_GetWeakReference
 (
+&
 aBlob
 )
 ;
@@ -4644,8 +4640,7 @@ BlobImpl
 blobImpl
 =
 aBlob
--
->
+.
 Impl
 (
 )
