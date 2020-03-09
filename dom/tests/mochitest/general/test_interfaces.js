@@ -2639,9 +2639,6 @@ CSSAnimation
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
@@ -3165,9 +3162,6 @@ CSSTransition
 insecureContext
 :
 true
-release
-:
-false
 }
 /
 /
