@@ -142,7 +142,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlockingAllowList
 .
 h
 "
@@ -269,10 +269,10 @@ nsIPrincipal
 >
 contentBlockingAllowListPrincipal
 ;
-AntiTrackingCommon
+ContentBlockingAllowList
 :
 :
-ComputeContentBlockingAllowListPrincipal
+ComputePrincipal
 (
 aPrincipal
 getter_AddRefs
