@@ -490,15 +490,6 @@ exposed_on_getcs
 properties
 )
     
-properties
-.
-sort
-(
-key
-=
-order_key
-)
-    
 TEMPLATE
 =
 "
@@ -522,7 +513,13 @@ n
 for
 p
 in
+sorted
+(
 properties
+key
+=
+order_key
+)
 :
         
 output
