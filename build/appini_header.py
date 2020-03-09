@@ -81,7 +81,7 @@ file
 '
 '
 import
-ConfigParser
+configparser
 import
 sys
 def
@@ -94,7 +94,7 @@ file
     
 config
 =
-ConfigParser
+configparser
 .
 RawConfigParser
 (
