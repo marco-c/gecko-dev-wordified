@@ -381,7 +381,6 @@ NS_GetFilenameFromDisposition
 (
 mContentDispositionFilename
 mContentDispositionHeader
-mURI
 )
 ;
 mContentDisposition

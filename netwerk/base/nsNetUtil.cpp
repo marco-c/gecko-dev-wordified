@@ -15643,15 +15643,6 @@ const
 nsACString
 &
 aDisposition
-nsIURI
-*
-aURI
-/
-*
-=
-nullptr
-*
-/
 )
 {
 aFilename
