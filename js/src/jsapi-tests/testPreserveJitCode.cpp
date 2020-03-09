@@ -170,7 +170,10 @@ rt
 void
 *
 data
-JSScript
+js
+:
+:
+BaseScript
 *
 script
 const
@@ -199,6 +202,11 @@ data
 if
 (
 script
+-
+>
+asJSScript
+(
+)
 -
 >
 hasIonScript
