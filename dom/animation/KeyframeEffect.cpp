@@ -7343,7 +7343,6 @@ GetKeyframes
 (
 JSContext
 *
-&
 aCx
 nsTArray
 <
