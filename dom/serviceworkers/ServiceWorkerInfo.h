@@ -756,13 +756,6 @@ Enabled
 :
 Disabled
 ;
-mDescriptor
-.
-SetHandlesFetch
-(
-aHandlesFetch
-)
-;
 }
 void
 SetRegistrationVersion
