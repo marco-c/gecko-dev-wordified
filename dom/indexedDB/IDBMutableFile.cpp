@@ -667,6 +667,7 @@ static
 void
 AbortFileHandles
 (
+const
 nsTHashtable
 <
 nsPtrHashKey
@@ -718,7 +719,7 @@ iter
 =
 aTable
 .
-Iter
+ConstIter
 (
 )
 ;
@@ -738,6 +739,7 @@ Next
 {
 IDBFileHandle
 *
+const
 fileHandle
 =
 iter
@@ -822,10 +824,8 @@ return
 }
 for
 (
-RefPtr
-<
-IDBFileHandle
->
+const
+auto
 &
 fileHandle
 :
