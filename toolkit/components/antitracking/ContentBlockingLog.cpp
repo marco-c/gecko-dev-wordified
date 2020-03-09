@@ -285,9 +285,6 @@ Telemetry
 OriginMetricID
 OriginMetricID
 ;
-namespace
-dom
-{
 /
 /
 sync
@@ -1731,11 +1728,6 @@ break
 }
 }
 }
-}
-/
-/
-namespace
-dom
 }
 /
 /

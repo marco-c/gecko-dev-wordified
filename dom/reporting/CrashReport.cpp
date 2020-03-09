@@ -161,6 +161,15 @@ h
 #
 include
 "
+mozilla
+/
+JSONWriter
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
