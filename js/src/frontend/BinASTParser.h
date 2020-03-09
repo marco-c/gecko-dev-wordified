@@ -489,7 +489,7 @@ HandleScriptSourceObject
 sourceObject
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript

@@ -566,7 +566,7 @@ h
 /
 /
 JSScript
-LazyScript
+BaseScript
 FieldInitializers
 JSTryNoteKind
 #
@@ -729,7 +729,7 @@ JS
 :
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1293,7 +1293,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1416,7 +1416,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1468,7 +1468,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1528,7 +1528,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript

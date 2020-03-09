@@ -993,9 +993,6 @@ namespace
 js
 {
 class
-LazyScript
-;
-class
 ModuleObject
 ;
 class
@@ -1061,7 +1058,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy

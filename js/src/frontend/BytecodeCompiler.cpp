@@ -5301,7 +5301,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -5956,7 +5956,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -5989,7 +5989,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -6028,7 +6028,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -6407,7 +6407,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy

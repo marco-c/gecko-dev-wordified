@@ -5810,7 +5810,7 @@ clearLazyScript
 js
 :
 :
-LazyScript
+BaseScript
 :
 :
 writeBarrierPre

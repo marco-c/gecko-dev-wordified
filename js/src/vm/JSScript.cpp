@@ -28171,7 +28171,7 @@ JSContext
 cx
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy

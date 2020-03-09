@@ -3447,7 +3447,7 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 ScriptSourceObject
@@ -3489,7 +3489,7 @@ Unit
 >
 *
 syntaxParser
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 ScriptSourceObject
@@ -6246,7 +6246,7 @@ compilationInfo
 SyntaxParser
 *
 syntaxParser
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 ScriptSourceObject

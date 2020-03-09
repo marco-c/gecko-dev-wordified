@@ -1296,7 +1296,7 @@ cx
 LifoAlloc
 &
 alloc
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 )
