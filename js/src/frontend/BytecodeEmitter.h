@@ -3484,6 +3484,15 @@ flags
 ;
 MOZ_MUST_USE
 bool
+emitDestructuringRestExclusionSetObjLiteral
+(
+ListNode
+*
+pattern
+)
+;
+MOZ_MUST_USE
+bool
 emitObjLiteralArray
 (
 ParseNode
