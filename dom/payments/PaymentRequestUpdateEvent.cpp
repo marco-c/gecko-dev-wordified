@@ -877,8 +877,9 @@ PaymentRequestUpdateEvent
 PaymentRequestUpdateEvent
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 PaymentRequestUpdateEvent
