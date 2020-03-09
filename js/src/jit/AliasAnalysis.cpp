@@ -1356,6 +1356,15 @@ Opcode
 :
 WasmStoreRef
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+WasmStoreStackResult
+:
 return
 nullptr
 ;
