@@ -592,13 +592,3 @@ unit
 )
 ;
 }
-.
-worker__status
-{
-text
--
-transform
-:
-capitalize
-;
-}
