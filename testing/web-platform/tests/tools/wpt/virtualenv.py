@@ -205,6 +205,26 @@ self
 )
 :
         
+#
+We
+need
+to
+check
+also
+for
+lib_path
+because
+different
+python
+versions
+        
+#
+create
+different
+library
+paths
+.
+        
 return
 os
 .
@@ -215,6 +235,17 @@ isdir
 self
 .
 path
+)
+and
+os
+.
+path
+.
+isdir
+(
+self
+.
+lib_path
 )
     
 property
