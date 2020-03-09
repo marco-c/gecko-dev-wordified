@@ -16247,8 +16247,8 @@ true
 bool
 GetContentGlobalForJSImplementedObject
 (
-JSContext
-*
+BindingCallContext
+&
 cx
 JS
 :
@@ -16371,12 +16371,13 @@ isObject
 )
 )
 {
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_OBJECT
 >
 (
-cx
 "
 Value
 "
