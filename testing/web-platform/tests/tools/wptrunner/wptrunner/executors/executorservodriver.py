@@ -688,8 +688,6 @@ break
             
 except
 Exception
-as
-e
 :
                 
 self
@@ -702,7 +700,6 @@ traceback
 .
 format_exc
 (
-e
 )
 )
                 
@@ -833,7 +830,6 @@ traceback
 .
 format_exc
 (
-e
 )
             
 self
@@ -1537,7 +1533,6 @@ traceback
 .
 format_exc
 (
-e
 )
             
 return
