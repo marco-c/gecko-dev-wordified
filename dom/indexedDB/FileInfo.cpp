@@ -482,13 +482,12 @@ return
 mFileManager
 -
 >
-mFileInfos
-.
-Remove
+RemoveFileInfo
 (
 Id
 (
 )
+lock
 )
 ;
 needsCleanup
