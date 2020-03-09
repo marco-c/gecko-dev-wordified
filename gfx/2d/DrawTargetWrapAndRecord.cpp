@@ -1623,6 +1623,14 @@ conGradPat
 -
 >
 mAngle
+conGradPat
+-
+>
+mStartOffset
+conGradPat
+-
+>
+mEndOffset
 GetGradientStops
 (
 conGradPat

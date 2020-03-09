@@ -307,6 +307,10 @@ gfxFloat
 cy
 gfxFloat
 angle
+gfxFloat
+startOffset
+gfxFloat
+endOffset
 )
 :
 mExtend
@@ -327,6 +331,8 @@ cx
 cy
 )
 angle
+startOffset
+endOffset
 nullptr
 )
 ;

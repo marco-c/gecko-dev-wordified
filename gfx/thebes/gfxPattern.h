@@ -230,6 +230,10 @@ gfxFloat
 cy
 gfxFloat
 angle
+gfxFloat
+startOffset
+gfxFloat
+endOffset
 )
 ;
 /
