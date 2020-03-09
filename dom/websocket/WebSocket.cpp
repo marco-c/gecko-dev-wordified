@@ -5268,8 +5268,9 @@ WebSocket
 WebSocket
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 WebSocket
