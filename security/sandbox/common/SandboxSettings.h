@@ -157,6 +157,11 @@ GetEffectiveContentSandboxLevel
 (
 )
 ;
+int
+GetEffectiveSocketProcessSandboxLevel
+(
+)
+;
 /
 /
 Checks
