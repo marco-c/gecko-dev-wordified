@@ -2327,8 +2327,12 @@ if
 bce_
 -
 >
-emitNewInit
+emit1
 (
+JSOp
+:
+:
+NewInit
 )
 )
 {
@@ -2775,8 +2779,12 @@ if
 bce_
 -
 >
-emitNewInit
+emit1
 (
+JSOp
+:
+:
+NewInit
 )
 )
 {

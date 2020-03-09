@@ -3851,12 +3851,6 @@ offset
 ;
 MOZ_MUST_USE
 bool
-emitNewInit
-(
-)
-;
-MOZ_MUST_USE
-bool
 emitPrepareIteratorResult
 (
 )
