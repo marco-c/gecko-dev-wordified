@@ -341,14 +341,6 @@ GetMediaConfig
 )
 const
 ;
-bool
-IsDisposableSuspend
-(
-nsSuspendedTypes
-aSuspend
-)
-const
-;
 /
 /
 Returns
