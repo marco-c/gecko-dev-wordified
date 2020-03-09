@@ -356,10 +356,13 @@ for
 category
 indexed
 in
+sorted
+(
 grouped
 .
-iteritems
+items
 (
+)
 )
 :
         
