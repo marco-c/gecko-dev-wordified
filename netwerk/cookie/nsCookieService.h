@@ -2194,6 +2194,8 @@ aChannel
 nsIURI
 *
 aURI
+uint32_t
+aErrorFlags
 const
 nsACString
 &
@@ -2202,6 +2204,14 @@ const
 nsACString
 &
 aCookieName
+const
+nsAString
+&
+aMDNURL
+=
+VoidString
+(
+)
 )
 ;
 /
