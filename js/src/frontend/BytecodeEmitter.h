@@ -641,6 +641,14 @@ TDZCheckCache
 class
 TryEmitter
 ;
+enum
+class
+ValueIsOnStack
+{
+Yes
+No
+}
+;
 struct
 MOZ_STACK_CLASS
 BytecodeEmitter
@@ -3789,6 +3797,8 @@ const
 NameLocation
 &
 loc
+ValueIsOnStack
+isOnStack
 )
 ;
 MOZ_MUST_USE

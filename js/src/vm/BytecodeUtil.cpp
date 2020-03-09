@@ -4543,6 +4543,12 @@ JSOp
 :
 IterNext
 :
+case
+JSOp
+:
+:
+CheckLexical
+:
 /
 /
 Keep

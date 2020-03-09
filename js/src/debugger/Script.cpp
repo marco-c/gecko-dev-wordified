@@ -9161,12 +9161,6 @@ case
 JSOp
 :
 :
-CheckAliasedLexical
-:
-case
-JSOp
-:
-:
 Uninitialized
 :
 case
