@@ -394,7 +394,7 @@ accessibility
 }
 =
 await
-initAccessibilityFrontForUrl
+initAccessibilityFrontsForUrl
 (
 MAIN_DOMAIN
 +
@@ -403,6 +403,11 @@ doc_accessibility
 .
 html
 "
+{
+enableByDefault
+:
+false
+}
 )
 ;
 const
