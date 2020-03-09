@@ -693,10 +693,6 @@ u
 "
 Argument
 2
-of
-AudioWorkletGlobalScope
-.
-registerProcessor
 "
 )
 ;
@@ -853,15 +849,6 @@ ThrowTypeError
 MSG_NOT_OBJECT
 >
 (
-u
-"
-Argument
-2
-of
-AudioWorkletGlobalScope
-.
-registerProcessor
-"
 u
 "
 processorCtor

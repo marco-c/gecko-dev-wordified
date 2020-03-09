@@ -3237,11 +3237,9 @@ MSG_NOT_OBJECT
 >
 (
 aCx
-nsPrintfCString
-(
+aContext
 "
-%
-sElement
+Element
 of
 sequence
 <
@@ -3249,12 +3247,6 @@ Keyframe
 >
 argument
 "
-aContext
-)
-.
-get
-(
-)
 )
 ;
 return

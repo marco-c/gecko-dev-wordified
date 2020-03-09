@@ -280,12 +280,13 @@ get
 )
 )
 ;
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_CALLABLE
 >
 (
-cx
 description
 .
 get
