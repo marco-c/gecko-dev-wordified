@@ -8830,7 +8830,7 @@ mDefaultDBState
 syncConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 convertToOriginAttrsName
 2
@@ -8922,7 +8922,7 @@ mDefaultDBState
 syncConn
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 convertToOriginAttrsName
 )
@@ -9171,7 +9171,7 @@ mDefaultDBState
 syncConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 setAppIdName
 1
@@ -9205,7 +9205,7 @@ mDefaultDBState
 syncConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 setInBrowserName
 1
@@ -9272,7 +9272,7 @@ mDefaultDBState
 syncConn
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 setAppIdName
 )
@@ -9291,7 +9291,7 @@ mDefaultDBState
 syncConn
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 setInBrowserName
 )

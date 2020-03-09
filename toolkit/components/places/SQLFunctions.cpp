@@ -2736,7 +2736,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -4038,7 +4038,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -5627,7 +5627,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -5814,7 +5814,7 @@ return
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -6022,7 +6022,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -6282,7 +6282,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -6601,7 +6601,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -6940,7 +6940,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -7292,7 +7292,7 @@ return
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -7526,7 +7526,7 @@ return
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -7824,7 +7824,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -8064,7 +8064,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -8314,7 +8314,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -8565,7 +8565,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -8814,7 +8814,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -9057,7 +9057,7 @@ rv
 aDBConn
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
