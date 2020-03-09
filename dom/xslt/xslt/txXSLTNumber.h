@@ -304,8 +304,9 @@ virtual
 txFormattedCounter
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 appendNumber

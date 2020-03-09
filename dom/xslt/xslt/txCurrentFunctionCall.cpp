@@ -110,8 +110,9 @@ CurrentFunctionCall
 CurrentFunctionCall
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

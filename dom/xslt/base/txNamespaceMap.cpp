@@ -120,8 +120,9 @@ txNamespaceMap
 txNamespaceMap
 (
 )
-{
-}
+=
+default
+;
 txNamespaceMap
 :
 :

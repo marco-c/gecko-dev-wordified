@@ -191,8 +191,9 @@ virtual
 txAXMLEventHandler
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -951,8 +952,9 @@ virtual
 txAOutputHandlerFactory
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

@@ -172,8 +172,9 @@ GenerateIdFunctionCall
 GenerateIdFunctionCall
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

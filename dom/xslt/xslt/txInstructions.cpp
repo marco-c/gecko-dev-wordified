@@ -3251,8 +3251,9 @@ txPushNewContext
 txPushNewContext
 (
 )
-{
-}
+=
+default
+;
 nsresult
 txPushNewContext
 :

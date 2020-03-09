@@ -168,8 +168,9 @@ virtual
 txXPathResultComparator
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

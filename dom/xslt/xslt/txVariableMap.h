@@ -202,8 +202,9 @@ protected
 txVariableMapBase
 (
 )
-{
-}
+=
+default
+;
 ~
 txVariableMapBase
 (
@@ -323,8 +324,9 @@ private
 txParameterMap
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 inline

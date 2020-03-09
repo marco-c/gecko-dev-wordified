@@ -214,8 +214,9 @@ virtual
 txAExprResult
 (
 )
-{
-}
+=
+default
+;
 void
 AddRef
 (

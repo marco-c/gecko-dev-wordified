@@ -1035,8 +1035,9 @@ Release
 txStylesheetCompiler
 (
 )
-{
-}
+=
+default
+;
 nsresult
 startElementInternal
 (

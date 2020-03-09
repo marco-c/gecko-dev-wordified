@@ -583,8 +583,9 @@ protected
 txStylesheetSink
 (
 )
-{
-}
+=
+default
+;
 /
 /
 This
@@ -1795,8 +1796,9 @@ Release
 txCompileObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 txCompileObserver
@@ -2836,8 +2838,9 @@ Release
 txSyncCompileObserver
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 txMozillaXSLTProcessor

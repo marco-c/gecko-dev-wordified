@@ -190,8 +190,9 @@ virtual
 txIParseContext
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
@@ -411,8 +412,9 @@ virtual
 txIMatchContext
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
