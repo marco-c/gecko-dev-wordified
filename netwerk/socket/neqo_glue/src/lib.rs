@@ -2402,7 +2402,6 @@ stream_id
 }
 =
 >
-{
 Http3Event
 :
 :
@@ -2410,7 +2409,6 @@ DataWritable
 {
 stream_id
 }
-}
 Http3ClientEvent
 :
 :
@@ -2440,14 +2438,12 @@ stream_id
 }
 =
 >
-{
 Http3Event
 :
 :
 HeaderReady
 {
 stream_id
-}
 }
 Http3ClientEvent
 :
@@ -2458,14 +2454,12 @@ stream_id
 }
 =
 >
-{
 Http3Event
 :
 :
 DataReadable
 {
 stream_id
-}
 }
 Http3ClientEvent
 :
