@@ -3424,8 +3424,6 @@ isPropertyListObjLiteralCompatible
 ListNode
 *
 obj
-PropListType
-type
 bool
 *
 withValues
