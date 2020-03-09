@@ -1910,9 +1910,7 @@ uri
 )
 &
 &
-this
-.
-window
+BrowserUtils
 .
 checkEmptyPageOrigin
 (
@@ -2011,9 +2009,7 @@ value
 )
 &
 &
-this
-.
-window
+BrowserUtils
 .
 checkEmptyPageOrigin
 (
