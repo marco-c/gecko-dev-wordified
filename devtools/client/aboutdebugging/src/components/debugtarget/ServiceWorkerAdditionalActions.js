@@ -322,8 +322,6 @@ disabled
 PropTypes
 .
 bool
-.
-isRequired
 disabledTitle
 :
 PropTypes
