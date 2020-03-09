@@ -208,8 +208,9 @@ MIDIPlatformService
 MIDIPlatformService
 (
 )
-{
-}
+=
+default
+;
 void
 MIDIPlatformService
 :

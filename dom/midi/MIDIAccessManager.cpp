@@ -280,8 +280,9 @@ MIDIAccessManager
 MIDIAccessManager
 (
 )
-{
-}
+=
+default
+;
 /
 /
 static
