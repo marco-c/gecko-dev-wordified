@@ -1159,9 +1159,9 @@ PlaybackState
 eStopped
 )
 ;
-return
-;
 }
+else
+{
 LOG_MAINCONTROLLER
 (
 "
@@ -1187,6 +1187,7 @@ ConnectToMainControllerEvents
 (
 )
 ;
+}
 if
 (
 StaticPrefs
