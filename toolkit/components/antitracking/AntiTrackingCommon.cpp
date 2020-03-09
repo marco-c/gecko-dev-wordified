@@ -12190,7 +12190,7 @@ IsOnContentBlockingAllowList
 (
 nsIPrincipal
 *
-aTopWinPrincipal
+aContentBlockingAllowListPrincipal
 bool
 aIsPrivateBrowsing
 bool
@@ -12205,7 +12205,7 @@ false
 if
 (
 !
-aTopWinPrincipal
+aContentBlockingAllowListPrincipal
 )
 {
 /
@@ -12236,7 +12236,7 @@ s
 "
 _spec
 )
-aTopWinPrincipal
+aContentBlockingAllowListPrincipal
 )
 ;
 nsPermissionManager
@@ -12359,7 +12359,7 @@ permManager
 >
 TestPermissionFromPrincipal
 (
-aTopWinPrincipal
+aContentBlockingAllowListPrincipal
 types
 [
 i
