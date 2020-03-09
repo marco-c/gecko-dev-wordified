@@ -2645,14 +2645,6 @@ RestyleHint
 )
 ;
 void
-PostRebuildAllStyleDataEvent
-(
-nsChangeHint
-aExtraHint
-RestyleHint
-)
-;
-void
 ProcessPendingRestyles
 (
 )
