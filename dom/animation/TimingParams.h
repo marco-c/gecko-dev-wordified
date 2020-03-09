@@ -706,10 +706,7 @@ aRv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 err
-)
 )
 ;
 }
@@ -742,10 +739,13 @@ dom
 MSG_INVALID_DURATION_ERROR
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aDuration
 .
 GetAsString
 (
+)
 )
 )
 ;
@@ -794,10 +794,7 @@ aRv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 err
-)
 )
 ;
 }
@@ -865,10 +862,7 @@ aRv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 err
-)
 )
 ;
 }

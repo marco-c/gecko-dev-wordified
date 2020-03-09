@@ -904,12 +904,6 @@ aSchemeAction
 TypeErrorOnInvalidScheme
 )
 {
-NS_ConvertUTF8toUTF16
-urlUTF16
-(
-url
-)
-;
 aRv
 .
 ThrowTypeError
@@ -920,7 +914,7 @@ MSG_INVALID_URL_SCHEME
 "
 Request
 "
-urlUTF16
+url
 )
 ;
 return

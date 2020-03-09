@@ -1845,10 +1845,7 @@ rv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 err
-)
 )
 ;
 RejectPromise
@@ -3267,10 +3264,7 @@ rv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 aErrorMessage
-)
 )
 ;
 break

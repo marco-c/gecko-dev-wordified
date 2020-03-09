@@ -403,13 +403,10 @@ dom
 MSG_TIME_VALUE_OUT_OF_RANGE
 >
 (
-NS_LITERAL_STRING
-(
 "
 Origin
 time
 "
-)
 )
 ;
 return

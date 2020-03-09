@@ -14599,10 +14599,7 @@ ThrowTypeError
 MSG_SW_UPDATE_BAD_REGISTRATION
 >
 (
-NS_ConvertUTF8toUTF16
-(
 aScope
-)
 "
 uninstalled
 "

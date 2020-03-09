@@ -4017,7 +4017,10 @@ ThrowTypeError
 MSG_NOT_SEQUENCE
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aName
+)
 )
 ;
 return
@@ -4079,7 +4082,10 @@ ThrowTypeError
 MSG_NOT_SEQUENCE
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aName
+)
 )
 ;
 return

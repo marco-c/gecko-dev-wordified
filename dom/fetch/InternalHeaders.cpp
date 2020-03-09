@@ -2002,12 +2002,6 @@ aName
 )
 )
 {
-NS_ConvertUTF8toUTF16
-label
-(
-aName
-)
-;
 aRv
 .
 ThrowTypeError
@@ -2015,7 +2009,7 @@ ThrowTypeError
 MSG_INVALID_HEADER_NAME
 >
 (
-label
+aName
 )
 ;
 return
@@ -2053,12 +2047,6 @@ aValue
 )
 )
 {
-NS_ConvertUTF8toUTF16
-label
-(
-aValue
-)
-;
 aRv
 .
 ThrowTypeError
@@ -2066,7 +2054,7 @@ ThrowTypeError
 MSG_INVALID_HEADER_VALUE
 >
 (
-label
+aValue
 )
 ;
 return

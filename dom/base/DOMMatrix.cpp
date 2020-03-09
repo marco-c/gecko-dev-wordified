@@ -549,15 +549,8 @@ field
 (
 alias
 )
-NS_LITERAL_STRING
-(
 fieldName
-)
-\
-NS_LITERAL_STRING
-(
 aliasName
-)
 )
 ;
 \
@@ -793,11 +786,7 @@ ThrowTypeError
 MSG_MATRIX_INIT_EXCEEDS_2D
 >
 (
-\
-NS_LITERAL_STRING
-(
 fieldName
-)
 )
 ;
 \
@@ -5611,7 +5600,7 @@ aData
 }
 else
 {
-nsAutoString
+nsAutoCString
 lengthStr
 ;
 lengthStr
