@@ -800,7 +800,7 @@ nullptr
 struct
 ColorPatternStorage
 {
-Color
+DeviceColor
 mColor
 ;
 }

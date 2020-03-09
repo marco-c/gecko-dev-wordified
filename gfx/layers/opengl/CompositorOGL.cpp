@@ -2507,7 +2507,7 @@ effect
 new
 EffectSolidColor
 (
-Color
+DeviceColor
 (
 0
 0
@@ -6265,7 +6265,7 @@ mPrimaryEffect
 new
 EffectSolidColor
 (
-Color
+DeviceColor
 (
 r
 g
@@ -10304,7 +10304,7 @@ an
 opacity
 uniform
 .
-Color
+DeviceColor
 color
 ;
 if

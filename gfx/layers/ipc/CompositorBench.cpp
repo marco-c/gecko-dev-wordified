@@ -706,7 +706,7 @@ EffectSolidColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 red
 0
@@ -871,7 +871,7 @@ EffectSolidColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 red
 0
@@ -991,7 +991,7 @@ EffectSolidColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 red
 0

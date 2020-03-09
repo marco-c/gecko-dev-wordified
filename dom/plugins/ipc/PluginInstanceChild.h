@@ -2488,7 +2488,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )

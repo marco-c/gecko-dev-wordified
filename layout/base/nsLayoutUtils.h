@@ -820,8 +820,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 typedef
 mozilla

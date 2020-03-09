@@ -523,7 +523,7 @@ ColorPattern
 InitColorPattern
 (
 const
-Color
+DeviceColor
 &
 aColor
 )

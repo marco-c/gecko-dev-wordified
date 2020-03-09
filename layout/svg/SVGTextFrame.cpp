@@ -16811,7 +16811,7 @@ GetPath
 ColorPattern
 white
 (
-Color
+DeviceColor
 (
 1
 .

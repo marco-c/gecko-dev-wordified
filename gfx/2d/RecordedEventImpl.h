@@ -3425,7 +3425,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -3547,7 +3547,7 @@ mRefSource
 Point
 mDest
 ;
-Color
+DeviceColor
 mColor
 ;
 Point
@@ -8753,7 +8753,7 @@ COLOR
 :
 {
 const
-Color
+DeviceColor
 color
 =
 reinterpret_cast
@@ -8776,7 +8776,7 @@ aOutput
 <
 <
 "
-Color
+DeviceColor
 :
 (
 "
@@ -11319,7 +11319,7 @@ mColPat
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -15658,7 +15658,7 @@ mRefSource
 <
 "
 )
-Color
+DeviceColor
 :
 (
 "
@@ -20318,7 +20318,7 @@ POINT3D
 ;
 REPLAY_SET_ATTRIBUTE
 (
-Color
+DeviceColor
 COLOR
 )
 ;

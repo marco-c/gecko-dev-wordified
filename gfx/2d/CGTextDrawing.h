@@ -279,7 +279,7 @@ ColorToCGColor
 CGColorSpaceRef
 aColorSpace
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -322,7 +322,7 @@ aCGContext
 CGColorSpaceRef
 aColorSpace
 const
-Color
+DeviceColor
 &
 aFontSmoothingBackgroundColor
 )

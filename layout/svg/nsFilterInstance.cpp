@@ -1912,7 +1912,7 @@ return
 false
 ;
 }
-Color
+sRGBColor
 color
 =
 shadow
@@ -1927,7 +1927,7 @@ primNeedsSrgb
 {
 color
 =
-Color
+sRGBColor
 (
 gsRGBToLinearRGBMap
 [

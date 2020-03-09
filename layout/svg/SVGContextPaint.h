@@ -1469,8 +1469,8 @@ typedef
 gfx
 :
 :
-Color
-Color
+DeviceColor
+DeviceColor
 ;
 public
 :
@@ -1618,7 +1618,7 @@ aFill
 const
 Maybe
 <
-Color
+DeviceColor
 >
 &
 GetFill
@@ -1654,7 +1654,7 @@ aStroke
 const
 Maybe
 <
-Color
+DeviceColor
 >
 &
 GetStroke
@@ -1807,13 +1807,13 @@ private
 :
 Maybe
 <
-Color
+DeviceColor
 >
 mFill
 ;
 Maybe
 <
-Color
+DeviceColor
 >
 mStroke
 ;

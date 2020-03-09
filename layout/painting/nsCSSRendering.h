@@ -234,7 +234,7 @@ namespace
 gfx
 {
 struct
-Color
+sRGBColor
 ;
 class
 DrawTarget
@@ -380,7 +380,10 @@ nsIFrame
 *
 aForFrame
 const
-nsStyleImage
+mozilla
+:
+:
+StyleImage
 *
 aImage
 uint32_t
@@ -562,8 +565,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 typedef
 mozilla
@@ -854,7 +857,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 GetShadowColor
 (
 const
@@ -4976,8 +4979,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 typedef
 mozilla
@@ -5802,7 +5805,7 @@ aCornerRadii
 nscoord
 aBlurRadius
 const
-Color
+sRGBColor
 &
 aShadowColor
 const
@@ -6043,7 +6046,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 &
 aShadowColor
 nscoord

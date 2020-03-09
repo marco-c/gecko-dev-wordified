@@ -4980,7 +4980,7 @@ do_AddRef
 new
 gfxPattern
 (
-Color
+DeviceColor
 (
 )
 )

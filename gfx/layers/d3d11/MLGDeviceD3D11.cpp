@@ -9608,7 +9608,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -9749,7 +9749,7 @@ MLGRenderTarget
 *
 aRT
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -12106,7 +12106,7 @@ false
 *
 reinterpret_cast
 <
-Color
+DeviceColor
 *
 >
 (
@@ -12115,7 +12115,7 @@ map
 mData
 )
 =
-Color
+DeviceColor
 (
 1
 .
@@ -12134,7 +12134,7 @@ Color
 *
 reinterpret_cast
 <
-Color
+DeviceColor
 *
 >
 (
@@ -12147,7 +12147,7 @@ kConstantSize
 kMinConstants
 )
 =
-Color
+DeviceColor
 (
 0
 .
@@ -12166,7 +12166,7 @@ Color
 *
 reinterpret_cast
 <
-Color
+DeviceColor
 *
 >
 (
@@ -12183,7 +12183,7 @@ kMinConstants
 2
 )
 =
-Color
+DeviceColor
 (
 0
 .
@@ -12208,7 +12208,7 @@ buffer
 Clear
 (
 rt
-Color
+DeviceColor
 (
 0
 .

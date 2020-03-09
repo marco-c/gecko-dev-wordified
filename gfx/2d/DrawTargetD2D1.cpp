@@ -1290,7 +1290,7 @@ aOptions
 mCompositionOp
 ColorPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -1749,7 +1749,7 @@ aOptions
 mCompositionOp
 ColorPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -1821,7 +1821,7 @@ aOptions
 mCompositionOp
 ColorPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -2013,7 +2013,7 @@ aOptions
 mCompositionOp
 ColorPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -2034,7 +2034,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -12295,7 +12295,7 @@ PatternType
 COLOR
 )
 {
-Color
+DeviceColor
 color
 =
 static_cast

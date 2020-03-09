@@ -6240,7 +6240,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 GetBackgroundColor
 (
@@ -6258,16 +6258,11 @@ const
 gfx
 :
 :
-Color
+sRGBColor
 &
 aBackgroundColor
 )
-{
-mBackgroundColor
-=
-aBackgroundColor
 ;
-}
 const
 nsCString
 &
@@ -6719,7 +6714,7 @@ overscrolling
 gfx
 :
 :
-Color
+DeviceColor
 mBackgroundColor
 ;
 /

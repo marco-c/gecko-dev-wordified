@@ -1086,9 +1086,11 @@ appUnitsPerDevPixel
 gfx
 :
 :
-Color
+DeviceColor
 shadowColor
 =
+ToDeviceColor
+(
 nsCSSRendering
 :
 :
@@ -1101,6 +1103,7 @@ mFrame
 1
 .
 0
+)
 )
 ;
 LayoutDevicePoint

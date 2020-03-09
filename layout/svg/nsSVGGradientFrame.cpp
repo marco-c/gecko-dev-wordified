@@ -1916,7 +1916,7 @@ pattern
 new
 gfxPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -1927,7 +1927,7 @@ do_AddRef
 new
 gfxPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -2015,10 +2015,10 @@ CalcColor
 lastStopFrame
 )
 ;
-Color
+sRGBColor
 stopColor2
 =
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -2041,7 +2041,10 @@ do_AddRef
 new
 gfxPattern
 (
+ToDeviceColor
+(
 stopColor2
+)
 )
 )
 ;
@@ -2335,10 +2338,10 @@ lastOffset
 =
 offset
 ;
-Color
+sRGBColor
 stopColor2
 =
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -2361,7 +2364,10 @@ gradient
 AddColorStop
 (
 offset
+ToDeviceColor
+(
 stopColor2
+)
 )
 ;
 }

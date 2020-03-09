@@ -1534,7 +1534,7 @@ SetColor
 gfx
 :
 :
-Color
+sRGBColor
 :
 :
 FromABGR

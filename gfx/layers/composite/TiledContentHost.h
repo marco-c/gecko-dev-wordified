@@ -1586,7 +1586,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 *
 aBackgroundColor
 EffectChain

@@ -243,8 +243,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 typedef
 mozilla
@@ -813,7 +813,7 @@ attribute
 .
 *
 /
-Color
+sRGBColor
 ToAttributeColor
 (
 nscolor

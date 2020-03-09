@@ -9775,10 +9775,10 @@ coords
 html
 #
 ObjectBoundingBox
-Color
+sRGBColor
 color
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -10224,10 +10224,10 @@ coords
 html
 #
 ObjectBoundingBox
-Color
+sRGBColor
 color
 (
-Color
+sRGBColor
 :
 :
 FromABGR

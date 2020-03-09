@@ -359,7 +359,7 @@ Matrix5x4
 Point3D
 Size
 IntSize
-Color
+DeviceColor
 Rect
 IntRect
 bool
@@ -516,7 +516,7 @@ SetAttribute
 uint32_t
 aIndex
 const
-Color
+DeviceColor
 &
 aValue
 )

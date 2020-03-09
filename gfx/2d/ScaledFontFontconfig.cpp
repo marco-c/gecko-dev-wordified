@@ -2015,7 +2015,7 @@ wr
 :
 ToColorU
 (
-Color
+DeviceColor
 (
 )
 )

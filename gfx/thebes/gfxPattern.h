@@ -180,7 +180,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -274,7 +274,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 c
 )
@@ -521,7 +521,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColorOut
 )

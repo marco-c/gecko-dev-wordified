@@ -202,7 +202,7 @@ namespace
 gfx
 {
 struct
-Color
+sRGBColor
 ;
 }
 }
@@ -1296,7 +1296,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 aColor
 )
 :
@@ -1334,7 +1334,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 mColor
 ;
 }

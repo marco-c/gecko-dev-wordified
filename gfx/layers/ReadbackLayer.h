@@ -1183,7 +1183,7 @@ mBackgroundColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 )
 ;
@@ -1233,7 +1233,7 @@ mBackgroundColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 )
 )
@@ -1452,7 +1452,7 @@ area
 gfx
 :
 :
-Color
+DeviceColor
 mBackgroundColor
 ;
 }

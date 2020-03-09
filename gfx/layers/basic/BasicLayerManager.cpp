@@ -4878,9 +4878,9 @@ RAND_MAX
 aContext
 -
 >
-SetColor
+SetDeviceColor
 (
-Color
+DeviceColor
 (
 r
 g
@@ -6496,7 +6496,7 @@ GetDebugColorIndex
 0
 )
 {
-Color
+DeviceColor
 color
 (
 (

@@ -1021,7 +1021,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -1058,7 +1058,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 MakeVertexData
 (
@@ -1076,7 +1076,7 @@ mColor
 gfx
 :
 :
-Color
+DeviceColor
 mColor
 ;
 }

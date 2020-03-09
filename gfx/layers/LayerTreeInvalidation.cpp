@@ -4152,7 +4152,7 @@ return
 true
 ;
 }
-Color
+DeviceColor
 mColor
 ;
 IntRect

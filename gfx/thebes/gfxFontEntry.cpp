@@ -6690,7 +6690,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aDefaultColor
 nsTArray
@@ -6707,7 +6707,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 >
 &
 aLayerColors

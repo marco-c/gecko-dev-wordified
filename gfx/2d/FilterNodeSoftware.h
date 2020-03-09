@@ -2126,7 +2126,7 @@ SetAttribute
 uint32_t
 aIndex
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -2189,7 +2189,7 @@ override
 ;
 private
 :
-Color
+DeviceColor
 mColor
 ;
 }
@@ -4491,7 +4491,7 @@ SetAttribute
 uint32_t
 aIndex
 const
-Color
+DeviceColor
 &
 )
 override
@@ -4594,7 +4594,7 @@ mSurfaceScale
 Size
 mKernelUnitLength
 ;
-Color
+DeviceColor
 mColor
 ;
 #

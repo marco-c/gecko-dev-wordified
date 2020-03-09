@@ -913,7 +913,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 eSheetBackground
 eDialogBackground
 eMenuBackground
@@ -1055,7 +1055,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 &
 aParams
 )
@@ -1909,7 +1909,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 MenuBackgroundParams
 MenuIconParams
 MenuItemParams

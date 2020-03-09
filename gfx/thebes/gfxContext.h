@@ -1615,7 +1615,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -1672,7 +1672,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColorOut
 )
@@ -1726,7 +1726,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColorOut
 )
@@ -1813,7 +1813,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 &
 aColor
 )
@@ -3059,8 +3059,18 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
+;
+typedef
+mozilla
+:
+:
+gfx
+:
+:
+DeviceColor
+DeviceColor
 ;
 typedef
 mozilla
@@ -3158,7 +3168,7 @@ gfx
 CompositionOp
 op
 ;
-Color
+DeviceColor
 color
 ;
 RefPtr
@@ -3223,7 +3233,7 @@ patternTransformChanged
 Matrix
 patternTransform
 ;
-Color
+DeviceColor
 fontSmoothingBackgroundColor
 ;
 /

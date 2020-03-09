@@ -3120,10 +3120,10 @@ StyleSVGReset
 (
 )
 ;
-Color
+sRGBColor
 color
 (
-Color
+sRGBColor
 :
 :
 FromABGR

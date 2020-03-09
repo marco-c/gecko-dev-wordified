@@ -2920,7 +2920,7 @@ just
 looks
 wrong
 .
-Color
+DeviceColor
 backgroundColor
 ;
 if
@@ -3605,7 +3605,7 @@ Compositor
 *
 aCompositor
 const
-Color
+DeviceColor
 *
 aBackgroundColor
 EffectChain

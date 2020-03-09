@@ -619,7 +619,7 @@ wr
 :
 ToColorU
 (
-Color
+DeviceColor
 (
 )
 )

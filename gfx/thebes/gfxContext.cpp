@@ -4209,7 +4209,7 @@ gfxContext
 SetColor
 (
 const
-Color
+sRGBColor
 &
 aColor
 )
@@ -4244,7 +4244,7 @@ gfxContext
 SetDeviceColor
 (
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -4275,7 +4275,7 @@ gfxContext
 :
 GetDeviceColor
 (
-Color
+DeviceColor
 &
 aColorOut
 )

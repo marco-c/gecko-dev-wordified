@@ -5223,7 +5223,7 @@ white
 (
 ToDeviceColor
 (
-Color
+sRGBColor
 (
 1
 .

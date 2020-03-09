@@ -16603,7 +16603,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -16706,7 +16706,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 GetColor
 (
@@ -16825,7 +16825,7 @@ mBounds
 gfx
 :
 :
-Color
+DeviceColor
 mColor
 ;
 }

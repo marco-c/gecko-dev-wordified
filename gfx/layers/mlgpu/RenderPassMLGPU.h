@@ -2126,7 +2126,7 @@ mView
 gfx
 :
 :
-Color
+DeviceColor
 mColor
 ;
 nsTArray

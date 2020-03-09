@@ -788,7 +788,7 @@ mRadii
 struct
 FloodAttributes
 {
-Color
+sRGBColor
 mColor
 ;
 bool
@@ -1140,7 +1140,7 @@ mStdDeviation
 Point
 mOffset
 ;
-Color
+sRGBColor
 mColor
 ;
 bool
@@ -1805,7 +1805,7 @@ mSurfaceScale
 Size
 mKernelUnitLength
 ;
-Color
+sRGBColor
 mColor
 ;
 float

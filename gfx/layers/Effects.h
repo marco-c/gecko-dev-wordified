@@ -1272,7 +1272,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -1309,7 +1309,7 @@ override
 gfx
 :
 :
-Color
+DeviceColor
 mColor
 ;
 }

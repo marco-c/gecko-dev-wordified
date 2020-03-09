@@ -992,13 +992,10 @@ dt
 ColorPattern
 color
 (
-ToDeviceColor
-(
 aLayer
 -
 >
 mBackgroundColor
-)
 )
 ;
 IntSize
@@ -1138,7 +1135,7 @@ aLayer
 >
 mBackgroundColor
 =
-Color
+DeviceColor
 (
 )
 ;

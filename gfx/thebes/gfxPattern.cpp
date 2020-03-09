@@ -175,7 +175,7 @@ gfxPattern
 gfxPattern
 (
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -192,10 +192,7 @@ mGfxPattern
 .
 InitColorPattern
 (
-ToDeviceColor
-(
 aColor
-)
 )
 ;
 }
@@ -406,7 +403,7 @@ AddColorStop
 gfxFloat
 offset
 const
-Color
+DeviceColor
 &
 c
 )
@@ -487,10 +484,7 @@ stop
 .
 color
 =
-ToDeviceColor
-(
 c
-)
 ;
 mStopsList
 .
@@ -1311,7 +1305,7 @@ gfxPattern
 :
 GetSolidColor
 (
-Color
+DeviceColor
 &
 aColorOut
 )

@@ -1181,10 +1181,12 @@ TransactionBuilder
 :
 SetDisplayList
 (
+const
 gfx
 :
 :
-Color
+DeviceColor
+&
 aBgColor
 Epoch
 aEpoch

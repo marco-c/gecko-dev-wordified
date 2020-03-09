@@ -5612,7 +5612,7 @@ EffectTypes
 SOLID_COLOR
 :
 {
-Color
+DeviceColor
 color
 =
 static_cast

@@ -374,10 +374,10 @@ StyleSVGReset
 (
 )
 ;
-Color
+sRGBColor
 color
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -417,7 +417,7 @@ atts
 .
 mColor
 =
-Color
+sRGBColor
 (
 )
 ;

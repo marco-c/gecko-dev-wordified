@@ -964,7 +964,7 @@ SetDefaultClearColor
 gfx
 :
 :
-Color
+DeviceColor
 :
 :
 UnusualFromARGB

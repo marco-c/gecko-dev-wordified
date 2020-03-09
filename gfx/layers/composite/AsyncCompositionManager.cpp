@@ -4386,10 +4386,7 @@ SetColor
 gfx
 :
 :
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 color
 )

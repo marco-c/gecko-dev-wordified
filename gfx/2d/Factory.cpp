@@ -3584,7 +3584,7 @@ aUnscaledFont
 Float
 aSize
 const
-Color
+DeviceColor
 &
 aFontSmoothingBackgroundColor
 bool

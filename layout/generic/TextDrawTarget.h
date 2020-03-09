@@ -1898,7 +1898,7 @@ LayoutDeviceRect
 &
 aRect
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -2110,7 +2110,7 @@ const
 bool
 aVertical
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -2422,7 +2422,7 @@ const
 bool
 aVertical
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -3454,7 +3454,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const

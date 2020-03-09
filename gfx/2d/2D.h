@@ -1311,7 +1311,7 @@ explicit
 ColorPattern
 (
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -1336,7 +1336,7 @@ PatternType
 COLOR
 ;
 }
-Color
+DeviceColor
 mColor
 ;
 }
@@ -7692,7 +7692,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -11908,7 +11908,7 @@ aUnscaledFont
 Float
 aSize
 const
-Color
+DeviceColor
 &
 aFontSmoothingBackgroundColor
 bool

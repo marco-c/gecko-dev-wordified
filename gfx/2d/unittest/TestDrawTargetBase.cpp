@@ -199,7 +199,7 @@ DT_HEIGHT
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 0
 0
@@ -219,7 +219,7 @@ RefreshSnapshot
 ;
 VerifyAllPixels
 (
-Color
+DeviceColor
 (
 0
 0
@@ -255,7 +255,7 @@ DT_HEIGHT
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 0
 0
@@ -283,7 +283,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 0
 .
@@ -308,7 +308,7 @@ IntPoint
 49
 49
 )
-Color
+DeviceColor
 (
 0
 0
@@ -328,7 +328,7 @@ IntPoint
 50
 50
 )
-Color
+DeviceColor
 (
 0
 .
@@ -348,7 +348,7 @@ IntPoint
 99
 99
 )
-Color
+DeviceColor
 (
 0
 .
@@ -368,7 +368,7 @@ IntPoint
 100
 100
 )
-Color
+DeviceColor
 (
 0
 0
@@ -420,7 +420,7 @@ TestDrawTargetBase
 VerifyAllPixels
 (
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -540,7 +540,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -813,7 +813,7 @@ TestDrawTargetBase
 RGBAPixelFromColor
 (
 const
-Color
+DeviceColor
 &
 aColor
 )

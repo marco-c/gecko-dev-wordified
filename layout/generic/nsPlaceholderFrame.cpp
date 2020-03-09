@@ -1581,7 +1581,7 @@ cyan
 (
 ToDeviceColor
 (
-Color
+sRGBColor
 (
 0
 .

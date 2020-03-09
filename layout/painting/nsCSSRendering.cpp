@@ -9684,7 +9684,7 @@ false
 gfx
 :
 :
-Color
+sRGBColor
 nsCSSRendering
 :
 :
@@ -9727,10 +9727,10 @@ CalcColor
 aFrame
 )
 ;
-Color
+sRGBColor
 color
 =
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -10572,7 +10572,7 @@ aDrawTarget
 true
 )
 ;
-Color
+sRGBColor
 gfxShadowColor
 =
 GetShadowColor
@@ -12549,7 +12549,7 @@ Round
 (
 )
 ;
-Color
+sRGBColor
 shadowColor
 =
 GetShadowColor
@@ -17801,7 +17801,7 @@ aRenderingCtx
 .
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -29387,7 +29387,7 @@ height
 0
 )
 ;
-Color
+DeviceColor
 color
 =
 ToDeviceColor
@@ -33995,7 +33995,7 @@ aCornerRadii
 nscoord
 aBlurRadius
 const
-Color
+sRGBColor
 &
 aShadowColor
 const
@@ -34590,7 +34590,7 @@ Rect
 aDestinationRect
 Rect
 aShadowClipRect
-Color
+sRGBColor
 &
 aShadowColor
 nscoord
