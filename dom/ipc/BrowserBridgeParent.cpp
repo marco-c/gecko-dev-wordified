@@ -251,8 +251,9 @@ BrowserBridgeParent
 BrowserBridgeParent
 (
 )
-{
-}
+=
+default
+;
 BrowserBridgeParent
 :
 :

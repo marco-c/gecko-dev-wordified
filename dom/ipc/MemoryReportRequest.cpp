@@ -584,8 +584,9 @@ MemoryReportRequestClient
 MemoryReportRequestClient
 (
 )
-{
-}
+=
+default
+;
 class
 HandleReportCallback
 final

@@ -1561,8 +1561,9 @@ BrowserParent
 BrowserParent
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static
@@ -10313,8 +10314,9 @@ virtual
 SynthesizedEventObserver
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 BrowserParent

@@ -2728,8 +2728,9 @@ private
 CycleCollectWithLogsChild
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

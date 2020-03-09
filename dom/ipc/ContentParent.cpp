@@ -3038,8 +3038,9 @@ nsIMemoryReporter
 ContentParentsMemoryReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

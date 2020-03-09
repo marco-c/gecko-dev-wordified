@@ -9035,8 +9035,9 @@ virtual
 ParentIdleListener
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 mozilla
