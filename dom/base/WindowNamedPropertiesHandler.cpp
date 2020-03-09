@@ -1324,7 +1324,6 @@ rv
 .
 ThrowTypeError
 (
-u
 "
 Not
 allowed

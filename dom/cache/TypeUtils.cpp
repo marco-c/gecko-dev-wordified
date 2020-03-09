@@ -917,7 +917,6 @@ ThrowTypeError
 MSG_INVALID_URL_SCHEME
 >
 (
-u
 "
 Request
 "
@@ -1357,7 +1356,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Invalid
 Response

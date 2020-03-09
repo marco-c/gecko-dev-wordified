@@ -1969,7 +1969,6 @@ rv
 .
 ThrowTypeError
 (
-u
 "
 Error
 in

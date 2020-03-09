@@ -742,7 +742,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Empty
 type
@@ -3036,7 +3035,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Invalid
 start

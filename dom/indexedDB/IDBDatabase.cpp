@@ -2802,16 +2802,13 @@ ThrowTypeError
 MSG_INVALID_ENUM_VALUE
 >
 (
-u
 "
 argument
 2
 "
-u
 "
 readwriteflush
 "
-u
 "
 IDBTransactionMode
 "
@@ -3440,7 +3437,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Invalid
 transaction

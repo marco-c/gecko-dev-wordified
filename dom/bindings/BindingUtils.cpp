@@ -26502,7 +26502,6 @@ rv
 .
 ThrowTypeError
 (
-u
 "
 Cannot
 instantiate
@@ -26514,7 +26513,6 @@ its
 own
 constructor
 "
-u
 "
 during
 upgrades

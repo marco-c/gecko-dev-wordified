@@ -4216,7 +4216,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Notification
 constructor
@@ -4227,7 +4226,6 @@ in
 ServiceWorkerGlobalScope
 .
 "
-u
 "
 Use
 registration

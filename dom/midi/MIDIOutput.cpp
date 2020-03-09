@@ -620,7 +620,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Empty
 message

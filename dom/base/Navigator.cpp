@@ -7044,7 +7044,6 @@ ThrowTypeError
 MSG_INVALID_URL_SCHEME
 >
 (
-u
 "
 Beacon
 "
@@ -8740,7 +8739,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Must
 have

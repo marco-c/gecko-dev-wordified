@@ -631,7 +631,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Script
 URL
@@ -754,7 +753,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Scope
 URL

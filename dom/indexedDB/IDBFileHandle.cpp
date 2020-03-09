@@ -1396,7 +1396,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Either
 size
@@ -1631,7 +1630,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 UINT64_MAX
 is
@@ -2027,7 +2025,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 0
 (
@@ -2058,7 +2055,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Data
 size

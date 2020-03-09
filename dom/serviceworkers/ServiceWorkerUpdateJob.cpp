@@ -544,8 +544,9 @@ mJob
 CompareCallback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit
@@ -930,8 +931,9 @@ ServiceWorkerUpdateJob
 ServiceWorkerUpdateJob
 (
 )
-{
-}
+=
+default
+;
 void
 ServiceWorkerUpdateJob
 :
@@ -1390,7 +1392,6 @@ NS_ConvertUTF8toUTF16
 (
 mScope
 )
-u
 "
 uninstalled
 "
@@ -1531,7 +1532,6 @@ NS_ConvertUTF8toUTF16
 (
 mScope
 )
-u
 "
 changed
 "

@@ -2022,7 +2022,6 @@ ThrowTypeError
 MSG_INVALID_REQUEST_MODE
 >
 (
-u
 "
 navigate
 "
@@ -3492,7 +3491,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 HEAD
 or

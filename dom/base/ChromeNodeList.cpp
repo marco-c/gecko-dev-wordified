@@ -293,7 +293,6 @@ aError
 .
 ThrowTypeError
 (
-u
 "
 The
 node
@@ -347,7 +346,6 @@ aError
 .
 ThrowTypeError
 (
-u
 "
 The
 node

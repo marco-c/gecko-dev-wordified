@@ -1548,7 +1548,6 @@ result
 .
 ThrowTypeError
 (
-u
 "
 Navigation
 to

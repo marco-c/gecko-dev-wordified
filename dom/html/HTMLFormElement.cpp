@@ -2098,7 +2098,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 The
 submitter

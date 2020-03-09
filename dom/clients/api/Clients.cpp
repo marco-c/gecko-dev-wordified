@@ -1540,7 +1540,6 @@ rv
 .
 ThrowTypeError
 (
-u
 "
 Passing
 \

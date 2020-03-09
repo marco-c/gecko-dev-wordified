@@ -1146,7 +1146,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Payment
 method
@@ -2222,7 +2221,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 At
 least

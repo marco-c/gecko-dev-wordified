@@ -3750,7 +3750,6 @@ ThrowRangeError
 MSG_VALUE_OUT_OF_RANGE
 >
 (
-u
 "
 numberOfInputs
 "
@@ -3776,7 +3775,6 @@ ThrowRangeError
 MSG_VALUE_OUT_OF_RANGE
 >
 (
-u
 "
 numberOfOutputs
 "
