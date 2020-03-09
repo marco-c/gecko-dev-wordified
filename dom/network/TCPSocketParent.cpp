@@ -364,8 +364,9 @@ TCPSocketParentBase
 TCPSocketParentBase
 (
 )
-{
-}
+=
+default
+;
 void
 TCPSocketParentBase
 :
