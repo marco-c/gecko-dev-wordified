@@ -329,15 +329,6 @@ in
 the
 case
 below
-(
-following
-the
-original
-XULDocument
-:
-:
-persist
-)
 :
 *
 If
