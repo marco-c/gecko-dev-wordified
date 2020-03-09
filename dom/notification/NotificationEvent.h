@@ -197,8 +197,9 @@ aOwner
 NotificationEvent
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
