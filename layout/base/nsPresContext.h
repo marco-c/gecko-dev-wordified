@@ -1001,6 +1001,7 @@ nsPresContext
 GetParentPresContext
 (
 )
+const
 ;
 /
 *
@@ -1230,6 +1231,7 @@ nsRootPresContext
 GetRootPresContext
 (
 )
+const
 ;
 virtual
 bool
