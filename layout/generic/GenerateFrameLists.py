@@ -167,10 +167,10 @@ values
 (
 )
     
-groups
-.
-sort
+return
+sorted
 (
+groups
 key
 =
 lambda
@@ -204,9 +204,6 @@ x
 cls
 )
 )
-    
-return
-groups
 def
 generate_frame_id_list_h
 (
