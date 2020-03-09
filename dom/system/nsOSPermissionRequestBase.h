@@ -219,8 +219,8 @@ NS_DECL_NSIOSPERMISSIONREQUEST
 nsOSPermissionRequestBase
 (
 )
-{
-}
+=
+default
 ;
 protected
 :
