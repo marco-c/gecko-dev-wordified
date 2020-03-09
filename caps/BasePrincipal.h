@@ -969,14 +969,6 @@ _retval
 )
 override
 ;
-NS_IMETHOD
-GetIsScriptAllowedByPolicy
-(
-bool
-*
-aIsScriptAllowedByPolicy
-)
-;
 nsresult
 ToJSON
 (
