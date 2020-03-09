@@ -2235,7 +2235,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 {
 aState
@@ -3207,7 +3207,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 {
 bool
@@ -3307,7 +3307,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 &
 &
@@ -4350,7 +4350,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 aGtkWidgetType
 =
@@ -8837,7 +8837,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -9804,7 +9804,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 {
 moz_gtk_get_combo_box_entry_button_size
@@ -12084,7 +12084,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 if
 (
@@ -12204,7 +12204,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 |
 |
 aAppearance

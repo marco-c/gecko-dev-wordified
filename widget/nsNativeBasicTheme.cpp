@@ -2474,7 +2474,7 @@ aDpi
 }
 static
 void
-PaintMenulistButton
+PaintMenulistArrowButton
 (
 nsIFrame
 *
@@ -3904,7 +3904,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 {
 bool
@@ -4159,9 +4159,9 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
-PaintMenulistButton
+PaintMenulistArrowButton
 (
 aFrame
 dt
@@ -4624,7 +4624,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 aResult
 -
@@ -5390,7 +5390,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -5439,7 +5439,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance

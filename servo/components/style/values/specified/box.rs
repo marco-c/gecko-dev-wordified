@@ -11677,7 +11677,7 @@ in_ua_or_chrome_sheet
 "
 )
 ]
-MozMenulistButton
+MozMenulistArrowButton
 /
 /
 /
