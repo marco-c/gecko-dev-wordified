@@ -1549,13 +1549,6 @@ assertEqual
 (
 config
 {
-'
-FOO
-'
-:
-'
-:
-'
 }
 )
         
@@ -5553,14 +5546,6 @@ JAVA
 '
 :
 java
-            
-'
-JARSIGNER
-'
-:
-'
-:
-'
         
 }
 )
