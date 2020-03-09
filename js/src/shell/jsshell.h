@@ -709,10 +709,6 @@ enableFields
 ;
 extern
 bool
-enableAwaitFix
-;
-extern
-bool
 enableWeakRefs
 ;
 extern

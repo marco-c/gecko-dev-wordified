@@ -809,7 +809,7 @@ if
 onPromiseSettledCount
 =
 =
-3
+2
 )
 {
 assertEq

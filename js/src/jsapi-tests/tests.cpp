@@ -698,11 +698,6 @@ setFieldsEnabled
 true
 )
 .
-setAwaitFixEnabled
-(
-true
-)
-.
 setWeakRefsEnabled
 (
 true
