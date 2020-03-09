@@ -115,8 +115,6 @@ common
 import
 (
     
-docker_worker_add_workspace_cache
-    
 setup_secrets
     
 docker_worker_add_artifacts
@@ -372,11 +370,35 @@ job
 taskdesc
 )
     
-docker_worker_add_workspace_cache
+worker
+.
+setdefault
 (
-config
-job
-taskdesc
+'
+required
+-
+volumes
+'
+[
+]
+)
+.
+append
+(
+'
+{
+workdir
+}
+/
+workspace
+'
+.
+format
+(
+*
+*
+run
+)
 )
     
 add_tooltool
