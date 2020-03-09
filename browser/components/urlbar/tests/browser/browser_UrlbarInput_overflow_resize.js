@@ -46,7 +46,9 @@ url
 ;
 win
 .
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 makeURI
 (

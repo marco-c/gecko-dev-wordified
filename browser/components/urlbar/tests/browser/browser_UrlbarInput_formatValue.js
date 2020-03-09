@@ -487,7 +487,9 @@ clearUserPref
 prefname
 )
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;

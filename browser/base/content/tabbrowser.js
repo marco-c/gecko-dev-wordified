@@ -33547,14 +33547,13 @@ mTab
 selected
 &
 &
-gURLBar
-&
-&
 !
 isNavigating
 )
 {
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;

@@ -47,7 +47,9 @@ aExpected
 }
 )
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 makeURI
 (
@@ -666,7 +668,9 @@ function
 (
 )
 {
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;

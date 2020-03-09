@@ -1291,9 +1291,9 @@ null
 ;
 this
 .
-window
+urlbarInput
 .
-URLBarSetURI
+setURI
 (
 uriInfo
 .

@@ -319,7 +319,9 @@ is
 stopped
 tabbrowser
 calls
-URLBarSetURI
+gURLBar
+.
+setURI
 and
 then
 calls

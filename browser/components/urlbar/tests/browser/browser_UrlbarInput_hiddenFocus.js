@@ -59,7 +59,9 @@ removeTab
 tab
 )
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;

@@ -401,7 +401,9 @@ focus
 Update
 the
 urlbar
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;
