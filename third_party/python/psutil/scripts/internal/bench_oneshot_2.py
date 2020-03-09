@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -72,13 +72,13 @@ precise
 import
 sys
 import
-perf
+pyperf
 #
 requires
 "
 pip
 install
-perf
+pyperf
 "
 import
 psutil
@@ -168,7 +168,7 @@ main
     
 runner
 =
-perf
+pyperf
 .
 Runner
 (

@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -704,8 +704,6 @@ p
 .
 as_dict
 (
-attrs
-=
 [
 "
 cmdline

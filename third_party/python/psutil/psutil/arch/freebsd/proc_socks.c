@@ -1025,7 +1025,7 @@ opened
 by
 process
 .
-long
+pid_t
 pid
 ;
 int
@@ -1139,8 +1139,9 @@ if
 PyArg_ParseTuple
 (
 args
+_Py_PARSE_PID
 "
-lOO
+OO
 "
 &
 pid
@@ -1150,9 +1151,11 @@ py_af_filter
 py_type_filter
 )
 )
+{
 goto
 error
 ;
+}
 if
 (
 !

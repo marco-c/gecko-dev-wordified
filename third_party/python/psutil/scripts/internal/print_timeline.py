@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -247,7 +247,7 @@ sh
 (
 "
 git
-tags
+tag
 "
 )
     

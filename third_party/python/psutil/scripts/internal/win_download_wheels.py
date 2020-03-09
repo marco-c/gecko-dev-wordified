@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -131,6 +131,8 @@ import
 requests
 import
 shutil
+import
+sys
 from
 psutil
 import
@@ -144,10 +146,11 @@ _common
 import
 bytes2human
 from
-scriptutils
+psutil
+.
+_common
 import
-printerr
-exit
+print_color
 BASE_URL
 =
 '
@@ -185,6 +188,11 @@ PY_VERSIONS
 3
 .
 7
+'
+'
+3
+.
+8
 '
 ]
 TIMEOUT
@@ -565,13 +573,23 @@ not
 urls
 :
             
-exit
+print_color
 (
 "
 no
 artifacts
 found
 "
+'
+ret
+'
+)
+            
+sys
+.
+exit
+(
+1
 )
         
 else
@@ -857,7 +875,7 @@ except
 Exception
 :
                 
-printerr
+print_color
 (
 "
 error
@@ -870,6 +888,9 @@ s
 (
 url
 )
+'
+red
+'
 )
                 
 raise

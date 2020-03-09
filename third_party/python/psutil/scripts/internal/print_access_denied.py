@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -377,11 +377,15 @@ collections
 import
 defaultdict
 import
+time
+import
 psutil
 from
-scriptutils
+psutil
+.
+_common
 import
-hilite
+print_color
 def
 main
 (
@@ -414,6 +418,14 @@ d
 defaultdict
 (
 int
+)
+    
+start
+=
+time
+.
+time
+(
 )
     
 for
@@ -486,6 +498,16 @@ methname
 =
 0
     
+elapsed
+=
+time
+.
+time
+(
+)
+-
+start
+    
 #
 print
     
@@ -524,18 +546,15 @@ Outcome
 "
 )
     
-print
-(
-hilite
+print_color
 (
 s
-ok
+color
 =
 None
 bold
 =
 True
-)
 )
     
 for
@@ -554,10 +573,16 @@ key
 lambda
 x
 :
+(
 x
 [
 1
 ]
+x
+[
+0
+]
+)
 )
 :
         
@@ -605,20 +630,30 @@ perc
 outcome
 )
         
-s
-=
-hilite
+print_color
 (
 s
-ok
-=
-not
+"
+red
+"
+if
 ads
+else
+None
 )
-        
-print
+    
+tot_perc
+=
+round
 (
-s
+(
+tot_ads
+/
+tot_calls
+)
+*
+100
+1
 )
     
 print
@@ -641,6 +676,12 @@ denied
 =
 %
 s
+(
+%
+s
+%
+%
+)
 calls
 =
 %
@@ -650,12 +691,25 @@ processes
 %
 s
 "
+          
+"
+elapsed
+=
+%
+ss
+"
 %
 (
-        
 tot_ads
+tot_perc
 tot_calls
 tot_procs
+                           
+round
+(
+elapsed
+2
+)
 )
 )
 if

@@ -55,10 +55,6 @@ environ
 /
 #
 define
-NEW_MIB_COMPLIANT
-1
-#
-define
 _STRUCTURED_PROC
 1
 #

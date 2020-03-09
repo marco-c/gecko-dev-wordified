@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -1338,6 +1338,14 @@ with
 open
 (
 fname
+'
+rt
+'
+errors
+=
+'
+ignore
+'
 )
 as
 f
@@ -1453,6 +1461,14 @@ with
 open
 (
 fname
+'
+rt
+'
+errors
+=
+'
+ignore
+'
 )
 as
 f
@@ -1480,7 +1496,7 @@ usr
 bin
 /
 env
-python
+python3
 '
 )
 :

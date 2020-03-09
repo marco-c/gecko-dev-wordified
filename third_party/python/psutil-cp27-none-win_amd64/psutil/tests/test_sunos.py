@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -64,12 +64,6 @@ from
 psutil
 import
 SUNOS
-from
-psutil
-.
-tests
-import
-run_test_module_by_name
 from
 psutil
 .
@@ -333,7 +327,16 @@ __main__
 '
 :
     
-run_test_module_by_name
+from
+psutil
+.
+tests
+.
+runner
+import
+run
+    
+run
 (
 __file__
 )

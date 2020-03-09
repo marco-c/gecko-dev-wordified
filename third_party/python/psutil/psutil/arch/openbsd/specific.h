@@ -71,7 +71,7 @@ kinfo_file
 *
 kinfo_getfile
 (
-long
+pid_t
 pid
 int
 *
@@ -96,7 +96,7 @@ char
 *
 _psutil_get_argv
 (
-long
+pid_t
 pid
 )
 ;
@@ -104,7 +104,7 @@ PyObject
 *
 psutil_get_cmdline
 (
-long
+pid_t
 pid
 )
 ;

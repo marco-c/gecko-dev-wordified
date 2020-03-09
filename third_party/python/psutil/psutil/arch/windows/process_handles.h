@@ -60,9 +60,9 @@ PyObject
 *
 psutil_get_open_files
 (
-long
+DWORD
 pid
 HANDLE
-processHandle
+hProcess
 )
 ;

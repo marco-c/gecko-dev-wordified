@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -356,8 +356,6 @@ psutil
 .
 process_iter
 (
-attrs
-=
 [
 '
 pid

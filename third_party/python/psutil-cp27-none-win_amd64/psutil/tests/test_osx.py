@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 Copyright
 (
@@ -48,7 +48,7 @@ file
 "
 "
 "
-OSX
+MACOS
 specific
 tests
 .
@@ -66,7 +66,7 @@ psutil
 from
 psutil
 import
-OSX
+MACOS
 from
 psutil
 .
@@ -102,13 +102,7 @@ psutil
 .
 tests
 import
-retry_before_failing
-from
-psutil
-.
-tests
-import
-run_test_module_by_name
+retry_on_failure
 from
 psutil
 .
@@ -132,7 +126,7 @@ SC_PAGE_SIZE
 "
 )
 if
-OSX
+MACOS
 else
 None
 def
@@ -542,9 +536,9 @@ unittest
 skipIf
 (
 not
-OSX
+MACOS
 "
-OSX
+MACOS
 only
 "
 )
@@ -734,9 +728,9 @@ unittest
 skipIf
 (
 not
-OSX
+MACOS
 "
-OSX
+MACOS
 only
 "
 )
@@ -1111,35 +1105,14 @@ p
 .
 threads
 )
-    
-def
-test_memory_maps
-(
-self
-)
-:
-        
-self
-.
-assertRaises
-(
-psutil
-.
-ZombieProcess
-self
-.
-p
-.
-memory_maps
-)
 unittest
 .
 skipIf
 (
 not
-OSX
+MACOS
 "
-OSX
+MACOS
 only
 "
 )
@@ -1640,7 +1613,7 @@ virtual_memory
 total
 )
     
-retry_before_failing
+retry_on_failure
 (
 )
     
@@ -1681,55 +1654,7 @@ delta
 MEMORY_TOLERANCE
 )
     
-retry_before_failing
-(
-)
-    
-def
-test_vmem_available
-(
-self
-)
-:
-        
-vmstat_val
-=
-vm_stat
-(
-"
-inactive
-"
-)
-+
-vm_stat
-(
-"
-free
-"
-)
-        
-psutil_val
-=
-psutil
-.
-virtual_memory
-(
-)
-.
-available
-        
-self
-.
-assertAlmostEqual
-(
-psutil_val
-vmstat_val
-delta
-=
-MEMORY_TOLERANCE
-)
-    
-retry_before_failing
+retry_on_failure
 (
 )
     
@@ -1770,7 +1695,7 @@ delta
 MEMORY_TOLERANCE
 )
     
-retry_before_failing
+retry_on_failure
 (
 )
     
@@ -1811,7 +1736,7 @@ delta
 MEMORY_TOLERANCE
 )
     
-retry_before_failing
+retry_on_failure
 (
 )
     
@@ -1859,7 +1784,7 @@ MEMORY_TOLERANCE
 swap
 mem
     
-retry_before_failing
+retry_on_failure
 (
 )
     
@@ -1897,7 +1822,7 @@ psutil_val
 vmstat_val
 )
     
-retry_before_failing
+retry_on_failure
 (
 )
     
@@ -2197,6 +2122,7 @@ re
 .
 search
 (
+r
 "
 (
 \
@@ -2290,7 +2216,16 @@ __main__
 '
 :
     
-run_test_module_by_name
+from
+psutil
+.
+tests
+.
+runner
+import
+run
+    
+run
 (
 __file__
 )

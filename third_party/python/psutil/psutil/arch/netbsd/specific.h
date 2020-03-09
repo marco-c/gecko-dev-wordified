@@ -230,3 +230,15 @@ PyObject
 args
 )
 ;
+PyObject
+*
+psutil_proc_cwd
+(
+PyObject
+*
+self
+PyObject
+*
+args
+)
+;

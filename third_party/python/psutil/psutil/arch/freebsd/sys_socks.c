@@ -1261,10 +1261,9 @@ py_tuple
 Py_BuildValue
 (
 "
-(
-iiiNNii
-)
+iiiNNi
 "
+_Py_PARSE_PID
 xf
 -
 >
@@ -1296,11 +1295,11 @@ xf
 -
 >
 xf_pid
-)
-;
 /
 /
 pid
+)
+;
 if
 (
 !
@@ -1320,7 +1319,7 @@ py_tuple
 goto
 error
 ;
-Py_DECREF
+Py_CLEAR
 (
 py_tuple
 )

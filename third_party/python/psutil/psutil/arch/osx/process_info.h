@@ -63,14 +63,14 @@ void
 int
 psutil_is_zombie
 (
-long
+pid_t
 pid
 )
 ;
 int
 psutil_get_kinfo_proc
 (
-long
+pid_t
 pid
 struct
 kinfo_proc
@@ -93,7 +93,7 @@ procCount
 int
 psutil_proc_pidinfo
 (
-long
+pid_t
 pid
 int
 flavor
@@ -110,7 +110,7 @@ PyObject
 *
 psutil_get_cmdline
 (
-long
+pid_t
 pid
 )
 ;
@@ -118,7 +118,7 @@ PyObject
 *
 psutil_get_environ
 (
-long
+pid_t
 pid
 )
 ;
