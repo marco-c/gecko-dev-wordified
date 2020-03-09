@@ -21,9 +21,7 @@ globals
 for
 mochitests
 .
-"
 extends
-"
 :
 "
 .
@@ -45,9 +43,7 @@ xpcshell
 .
 js
 "
-"
 rules
-"
 :
 {
 "
@@ -63,9 +59,7 @@ vars
 error
 "
 {
-"
 vars
-"
 :
 "
 local

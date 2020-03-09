@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 overrides
-"
 :
 [
 {
@@ -137,9 +135,7 @@ syntax
 error
 "
 {
-"
 selector
-"
 :
 CallExpression
 >
@@ -158,9 +154,7 @@ debug
 warn
 /
 ]
-"
 message
-"
 :
 "
 Use
@@ -180,9 +174,7 @@ foo
 "
 }
 {
-"
 selector
-"
 :
 BinaryExpression
 [
@@ -213,9 +205,7 @@ debug
 warn
 /
 ]
-"
 message
-"
 :
 "
 Use
@@ -262,9 +252,7 @@ bar
 "
 }
 {
-"
 selector
-"
 :
 TaggedTemplateExpression
 [
@@ -330,9 +318,7 @@ name
 stringify
 '
 ]
-"
 message
-"
 :
 "
 Don

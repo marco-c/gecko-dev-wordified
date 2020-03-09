@@ -56,10 +56,10 @@ MPL
 .
 *
 /
-'
+"
 use
 strict
-'
+"
 ;
 module
 .
@@ -79,11 +79,9 @@ globals
 for
 mochitests
 .
-'
 extends
-'
 :
-'
+"
 .
 .
 /
@@ -102,6 +100,6 @@ eslintrc
 mochitests
 .
 js
-'
+"
 }
 ;

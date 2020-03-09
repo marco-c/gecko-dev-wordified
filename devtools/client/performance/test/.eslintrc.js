@@ -21,9 +21,7 @@ globals
 for
 mochitests
 .
-"
 extends
-"
 :
 "
 .

@@ -21,9 +21,7 @@ globals
 for
 xpcshell
 .
-"
 extends
-"
 :
 "
 .

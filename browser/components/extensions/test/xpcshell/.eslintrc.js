@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 env
-"
 :
 {
 /
@@ -36,9 +34,7 @@ webextensions
 environment
 here
 .
-"
 webextensions
-"
 :
 true
 }

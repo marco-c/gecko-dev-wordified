@@ -22,9 +22,7 @@ for
 xpcshell
 tests
 .
-"
 extends
-"
 :
 "
 .

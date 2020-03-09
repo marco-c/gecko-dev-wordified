@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 globals
-"
 :
 {
 /
@@ -37,9 +35,7 @@ the
 global
 scope
 .
-"
 arguments
-"
 :
 false
 }

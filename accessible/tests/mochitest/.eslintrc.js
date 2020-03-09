@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 rules
-"
 :
 {
 /
@@ -65,15 +63,11 @@ ternary
 off
 "
 }
-"
 overrides
-"
 :
 [
 {
-"
 files
-"
 :
 [
 /
@@ -122,9 +116,7 @@ test_ariaowns
 html
 "
 ]
-"
 rules
-"
 :
 {
 "

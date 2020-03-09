@@ -79,9 +79,7 @@ globals
 for
 mochitests
 .
-"
 extends
-"
 :
 "
 .

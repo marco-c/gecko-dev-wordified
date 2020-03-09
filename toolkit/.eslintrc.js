@@ -41,9 +41,7 @@ mozilla
 recommended
 value
 .
-"
 complexity
-"
 :
 [
 "

@@ -16,9 +16,7 @@ the
 devtools
 eslintrc
 .
-"
 extends
-"
 :
 "
 .
@@ -35,9 +33,7 @@ eslintrc
 .
 js
 "
-"
 rules
-"
 :
 {
 /

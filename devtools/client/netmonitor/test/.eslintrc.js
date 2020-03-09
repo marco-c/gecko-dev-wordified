@@ -79,9 +79,7 @@ globals
 for
 mochitests
 .
-"
 extends
-"
 :
 "
 .
@@ -100,14 +98,10 @@ mochitests
 .
 js
 "
-"
 env
-"
 :
 {
-"
 jest
-"
 :
 true
 }

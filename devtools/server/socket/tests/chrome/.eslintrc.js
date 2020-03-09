@@ -19,9 +19,7 @@ mochitest
 eslintrc
 config
 .
-"
 extends
-"
 :
 "
 .

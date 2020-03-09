@@ -19,9 +19,7 @@ xpcshell
 eslintrc
 config
 .
-"
 extends
-"
 :
 "
 .
@@ -40,9 +38,7 @@ xpcshell
 .
 js
 "
-"
 rules
-"
 :
 {
 "

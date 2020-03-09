@@ -19,9 +19,7 @@ xpcshell
 eslintrc
 config
 .
-"
 extends
-"
 :
 "
 .

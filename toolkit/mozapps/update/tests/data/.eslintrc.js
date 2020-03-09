@@ -53,9 +53,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "

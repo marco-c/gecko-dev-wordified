@@ -14,9 +14,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -29,9 +27,7 @@ xpcshell
 test
 "
 ]
-"
 rules
-"
 :
 {
 /
@@ -50,9 +46,7 @@ produce
 a
 warning
 .
-"
 camelcase
-"
 :
 "
 off
@@ -160,3 +154,4 @@ off
 "
 }
 }
+;

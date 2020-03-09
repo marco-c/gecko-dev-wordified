@@ -66,9 +66,7 @@ module
 exports
 =
 {
-"
 rules
-"
 :
 {
 /
