@@ -1333,6 +1333,16 @@ CONTAINS_REMOTE_SUBFRAMES
 /
 Status
 11
+NOT_ONLY_TOPLEVEL_IN_BCG
+=
+1
+<
+<
+12
+/
+/
+Status
+12
 }
 ;
 }
