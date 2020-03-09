@@ -3464,7 +3464,7 @@ IsWow64Process2
 BOOL
 isWow64
 =
-false
+FALSE
 ;
 USHORT
 processMachine
@@ -3502,8 +3502,6 @@ if
 gotWow64Value
 )
 {
-info
-.
 isWow64
 =
 (
@@ -3565,8 +3563,6 @@ if
 gotWow64Value
 &
 &
-info
-.
 isWow64
 )
 {
@@ -3609,6 +3605,14 @@ on
 arm64
 case
 .
+info
+.
+isWow64
+=
+!
+!
+isWow64
+;
 /
 /
 Additional
