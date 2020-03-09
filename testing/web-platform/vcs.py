@@ -154,6 +154,13 @@ CalledProcessError
 return
 False
         
+except
+OSError
+:
+            
+return
+False
+        
 #
 TODO
 :
@@ -320,6 +327,13 @@ except
 subprocess
 .
 CalledProcessError
+:
+            
+return
+False
+        
+except
+OSError
 :
             
 return
