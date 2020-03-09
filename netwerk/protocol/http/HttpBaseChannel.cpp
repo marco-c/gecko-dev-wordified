@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+AntiTrackingUtils
 .
 h
 "
@@ -12139,7 +12139,7 @@ nsIURI
 >
 uriBeingLoaded
 =
-AntiTrackingCommon
+AntiTrackingUtils
 :
 :
 MaybeGetDocumentURIBeingLoaded

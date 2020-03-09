@@ -2343,7 +2343,7 @@ nsIURI
 >
 uriBeingLoaded
 =
-AntiTrackingCommon
+AntiTrackingUtils
 :
 :
 MaybeGetDocumentURIBeingLoaded
