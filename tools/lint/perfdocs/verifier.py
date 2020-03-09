@@ -799,7 +799,7 @@ tests
 ]
                 
 for
-mnf_pth
+test_name
 in
 ytests
 :
@@ -851,7 +851,7 @@ tb
 )
                         
 if
-mnf_pth
+test_name
 =
 =
 tb
@@ -864,7 +864,7 @@ exact
 match
 for
 the
-mnf_pth
+test_name
                             
 foundtest
 =
@@ -873,7 +873,7 @@ True
 break
                         
 if
-mnf_pth
+test_name
 in
 tb
 :
@@ -887,7 +887,7 @@ fuzzy
 match
 for
 the
-mnf_pth
+test_name
                             
 #
 i
@@ -912,7 +912,7 @@ suite
 .
 append
 (
-mnf_pth
+test_name
 )
                             
 foundtest
@@ -951,7 +951,7 @@ name
 format
 (
                                 
-mnf_pth
+test_name
                             
 )
                             
@@ -1014,7 +1014,7 @@ suites
         
 for
 suite
-manifest_paths
+test_list
 in
 framework_info
 [
@@ -1159,9 +1159,14 @@ test_to_manifest
 }
             
 for
-mnf_pth
+test_name
+manifest_path
 in
-manifest_paths
+test_list
+.
+items
+(
+)
 :
                 
 tb
@@ -1172,7 +1177,7 @@ path
 .
 basename
 (
-mnf_pth
+manifest_path
 )
                 
 tb
@@ -1204,7 +1209,7 @@ stests
 .
 get
 (
-mnf_pth
+test_name
 )
 :
                     
@@ -1227,16 +1232,16 @@ continue
                 
 test_to_manifest
 [
-tb
+test_name
 ]
 =
-mnf_pth
+manifest_path
                 
 missing_tests
 .
 append
 (
-tb
+test_name
 )
             
 #
@@ -1281,7 +1286,7 @@ found
 False
                 
 for
-mnf_pth
+test_name
 in
 global_descriptions
 [
@@ -1289,12 +1294,6 @@ suite
 ]
 :
                     
-if
-mnf_pth
-in
-mt
-:
-                        
 #
 Global
 test
@@ -1303,6 +1302,27 @@ for
 this
 missing
 test
+                    
+if
+mt
+.
+startswith
+(
+test_name
+)
+:
+                        
+found
+=
+True
+                        
+break
+                    
+if
+test_name
+in
+mt
+:
                         
 found
 =
@@ -1345,7 +1365,7 @@ test
 description
                 
 for
-mnf_pth
+test_name
 in
 new_mtests
 :
@@ -1369,17 +1389,15 @@ for
 .
 format
 (
-mnf_pth
+test_name
 )
                         
 test_to_manifest
 [
-mnf_pth
+test_name
 ]
                     
 )
-                
-continue
     
 def
 validate_yaml
@@ -2079,6 +2097,52 @@ matched_rst
             
 }
             
+#
+Log
+independently
+the
+errors
+found
+for
+the
+matched
+files
+            
+for
+file_format
+valid
+in
+_valid_files
+.
+items
+(
+)
+:
+                
+if
+not
+valid
+:
+                    
+logger
+.
+log
+(
+"
+File
+validation
+error
+:
+{
+}
+"
+.
+format
+(
+file_format
+)
+)
+            
 if
 not
 all
@@ -2090,46 +2154,6 @@ values
 )
 )
 :
-                
-#
-Don
-'
-t
-check
-the
-descriptions
-if
-the
-YAML
-or
-RST
-is
-bad
-                
-logger
-.
-log
-(
-"
-Bad
-perfdocs
-directory
-found
-in
-{
-}
-"
-.
-format
-(
-matched
-[
-'
-path
-'
-]
-)
-)
                 
 continue
             
