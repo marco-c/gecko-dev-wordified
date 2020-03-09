@@ -293,8 +293,9 @@ virtual
 PluginLibrary
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

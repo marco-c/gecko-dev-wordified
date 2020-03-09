@@ -282,8 +282,9 @@ virtual
 PluginProcessChild
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Init

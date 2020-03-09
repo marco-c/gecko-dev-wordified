@@ -442,8 +442,9 @@ nsPluginFile
 nsPluginFile
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsPluginFile
 :

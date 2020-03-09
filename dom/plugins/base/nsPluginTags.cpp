@@ -1020,8 +1020,9 @@ nsIInternalPluginTag
 nsIInternalPluginTag
 (
 )
-{
-}
+=
+default
+;
 nsIInternalPluginTag
 :
 :
@@ -1144,8 +1145,9 @@ nsIInternalPluginTag
 nsIInternalPluginTag
 (
 )
-{
-}
+=
+default
+;
 bool
 nsIInternalPluginTag
 :
@@ -4174,8 +4176,9 @@ nsFakePluginTag
 nsFakePluginTag
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ADDREF
 (
 nsFakePluginTag

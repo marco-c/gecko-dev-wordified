@@ -3084,8 +3084,9 @@ newChannel
 ChannelRedirectProxyCallback
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_IMETHOD
 OnRedirectVerifyCallback
@@ -3156,8 +3157,9 @@ virtual
 ChannelRedirectProxyCallback
 (
 )
-{
-}
+=
+default
+;
 nsWeakPtr
 mWeakListener
 ;
