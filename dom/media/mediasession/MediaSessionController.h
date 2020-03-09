@@ -528,6 +528,12 @@ CreateDefaultMetadata
 )
 const
 ;
+bool
+IsInPrivateBrowsing
+(
+)
+const
+;
 void
 FillMissingTitleAndArtworkIfNeeded
 (
