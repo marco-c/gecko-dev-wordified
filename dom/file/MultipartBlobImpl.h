@@ -299,12 +299,6 @@ aName
 :
 BaseBlobImpl
 (
-NS_LITERAL_STRING
-(
-"
-MultipartBlobImpl
-"
-)
 aName
 EmptyString
 (
@@ -330,12 +324,6 @@ MultipartBlobImpl
 :
 BaseBlobImpl
 (
-NS_LITERAL_STRING
-(
-"
-MultipartBlobImpl
-"
-)
 EmptyString
 (
 )
@@ -375,7 +363,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 already_AddRefed
 <
 BlobImpl
@@ -396,7 +383,6 @@ aRv
 )
 override
 ;
-virtual
 uint64_t
 GetSize
 (
@@ -410,7 +396,6 @@ return
 mLength
 ;
 }
-virtual
 void
 CreateInputStream
 (
@@ -424,7 +409,6 @@ aRv
 )
 override
 ;
-virtual
 const
 nsTArray
 <
@@ -536,12 +520,6 @@ aContentType
 :
 BaseBlobImpl
 (
-NS_LITERAL_STRING
-(
-"
-MultipartBlobImpl
-"
-)
 aName
 aContentType
 MULTIPARTBLOBIMPL_UNKNOWN_LENGTH
@@ -584,12 +562,6 @@ aContentType
 :
 BaseBlobImpl
 (
-NS_LITERAL_STRING
-(
-"
-MultipartBlobImpl
-"
-)
 aContentType
 MULTIPARTBLOBIMPL_UNKNOWN_LENGTH
 )
@@ -605,7 +577,6 @@ aBlobImpls
 )
 {
 }
-virtual
 ~
 MultipartBlobImpl
 (

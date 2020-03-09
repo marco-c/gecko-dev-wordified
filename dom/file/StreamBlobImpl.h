@@ -221,7 +221,6 @@ nsAString
 aBlobImplType
 )
 ;
-virtual
 void
 CreateInputStream
 (
@@ -235,7 +234,6 @@ aRv
 )
 override
 ;
-virtual
 already_AddRefed
 <
 BlobImpl
@@ -256,7 +254,6 @@ aRv
 )
 override
 ;
-virtual
 bool
 IsMemoryFile
 (
@@ -452,6 +449,9 @@ nsCOMPtr
 nsIInputStream
 >
 mInputStream
+;
+nsString
+mBlobImplType
 ;
 nsString
 mFullPath

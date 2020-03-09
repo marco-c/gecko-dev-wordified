@@ -225,7 +225,6 @@ aContentType
 /
 /
 Overrides
-virtual
 void
 CreateInputStream
 (
@@ -261,7 +260,6 @@ TemporaryFileBlobImpl
 }
 protected
 :
-virtual
 ~
 TemporaryFileBlobImpl
 (
@@ -269,7 +267,6 @@ TemporaryFileBlobImpl
 ;
 private
 :
-virtual
 already_AddRefed
 <
 BlobImpl

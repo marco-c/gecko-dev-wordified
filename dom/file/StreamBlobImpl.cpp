@@ -369,7 +369,6 @@ aBlobImplType
 :
 BaseBlobImpl
 (
-aBlobImplType
 aContentType
 aLength
 )
@@ -382,6 +381,10 @@ move
 (
 aInputStream
 )
+)
+mBlobImplType
+(
+aBlobImplType
 )
 mIsDirectory
 (
@@ -424,7 +427,6 @@ aBlobImplType
 :
 BaseBlobImpl
 (
-aBlobImplType
 aName
 aContentType
 aLength
@@ -439,6 +441,10 @@ move
 (
 aInputStream
 )
+)
+mBlobImplType
+(
+aBlobImplType
 )
 mIsDirectory
 (
