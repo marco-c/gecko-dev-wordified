@@ -815,6 +815,9 @@ action
 -
 unregister
 "
+disabled
+:
+false
 onClick
 :
 this
