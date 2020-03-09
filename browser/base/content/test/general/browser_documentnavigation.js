@@ -2151,7 +2151,7 @@ window
 windowUtils
 ;
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
