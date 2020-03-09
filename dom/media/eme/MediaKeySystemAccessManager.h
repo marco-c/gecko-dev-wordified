@@ -979,7 +979,7 @@ void
 RejectPromiseWithInvalidAccessError
 (
 const
-nsAString
+nsACString
 &
 aReason
 )
@@ -988,7 +988,7 @@ void
 RejectPromiseWithNotSupportedError
 (
 const
-nsAString
+nsACString
 &
 aReason
 )
