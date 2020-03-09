@@ -1622,7 +1622,7 @@ DocumentLoadListener
 (
 CanonicalBrowsingContext
 *
-aProcessTopBrowsingContext
+aBrowsingContext
 nsILoadContext
 *
 aLoadContext
@@ -1665,7 +1665,7 @@ new
 ParentChannelListener
 (
 this
-aProcessTopBrowsingContext
+aBrowsingContext
 aLoadContext
 -
 >
@@ -2260,12 +2260,6 @@ DocumentLoadListener
 :
 Open
 (
-CanonicalBrowsingContext
-*
-aBrowsingContext
-CanonicalBrowsingContext
-*
-aProcessTopBrowsingContext
 nsDocShellLoadState
 *
 aLoadState
@@ -2355,6 +2349,19 @@ get
 )
 )
 ;
+RefPtr
+<
+CanonicalBrowsingContext
+>
+browsingContext
+=
+mParentChannelListener
+-
+>
+GetBrowsingContext
+(
+)
+;
 OriginAttributes
 attrs
 ;
@@ -2442,7 +2449,7 @@ aLoadInfo
 if
 (
 !
-aBrowsingContext
+browsingContext
 -
 >
 GetParent
@@ -2504,7 +2511,7 @@ loadInfo
 =
 CreateLoadInfo
 (
-aBrowsingContext
+browsingContext
 aLoadState
 aOuterWindowId
 )
@@ -3064,7 +3071,7 @@ mParentChannelListener
 aPluginsAllowed
 *
 aDocumentOpenFlags
-aProcessTopBrowsingContext
+browsingContext
 )
 ;
 openInfo
