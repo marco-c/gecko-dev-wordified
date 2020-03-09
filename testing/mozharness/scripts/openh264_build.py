@@ -1023,7 +1023,7 @@ join
 dirs
 [
 '
-abs_src_dir
+abs_work_dir
 '
 ]
 )
@@ -3438,7 +3438,7 @@ join
 dirs
 [
 '
-abs_src_dir
+abs_work_dir
 '
 ]
 c
