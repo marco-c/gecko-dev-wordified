@@ -309,7 +309,7 @@ void
 MayRejectPromise
 (
 const
-nsAString
+nsACString
 &
 aMessage
 )
@@ -357,7 +357,7 @@ void
 MayRejectPromise
 (
 const
-char16_t
+char
 (
 &
 aMessage
@@ -369,7 +369,7 @@ N
 {
 MayRejectPromise
 (
-nsLiteralString
+nsLiteralCString
 (
 aMessage
 )
@@ -683,7 +683,6 @@ pendingEvent
 }
 MayRejectPromise
 (
-u
 "
 Fullscreen
 request

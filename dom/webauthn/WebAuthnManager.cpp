@@ -2009,7 +2009,6 @@ promise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 user
 .

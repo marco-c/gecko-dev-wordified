@@ -1220,7 +1220,6 @@ promise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 Empty
 certificate

@@ -428,8 +428,9 @@ private
 RequestResolver
 (
 )
-{
-}
+=
+default
+;
 nsresult
 GetStorageEstimate
 (
@@ -1580,7 +1581,6 @@ promise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 persisted
 (
@@ -1608,7 +1608,6 @@ promise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 persist
 (
@@ -1636,7 +1635,6 @@ promise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 estimate
 (
@@ -2378,7 +2376,6 @@ promise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 Internal
 error
@@ -3882,8 +3879,9 @@ StorageManager
 StorageManager
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 Promise
