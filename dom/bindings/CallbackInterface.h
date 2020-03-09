@@ -300,8 +300,8 @@ protected
 bool
 GetCallableProperty
 (
-JSContext
-*
+BindingCallContext
+&
 cx
 JS
 :
