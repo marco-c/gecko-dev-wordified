@@ -223,7 +223,7 @@ results
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
