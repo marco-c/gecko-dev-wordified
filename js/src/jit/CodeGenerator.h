@@ -961,6 +961,17 @@ extraStackSize
 )
 ;
 void
+emitPushElementsAsArguments
+(
+Register
+tmpArgc
+Register
+elementsAndArgc
+Register
+extraStackSpace
+)
+;
+void
 emitPushArguments
 (
 LApplyArgsGeneric
