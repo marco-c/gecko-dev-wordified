@@ -431,7 +431,7 @@ assert
 isinstance
 (
 group_type
-basestring
+str
 )
             
 assert
@@ -591,7 +591,7 @@ assert
 isinstance
 (
 group_type
-basestring
+str
 )
             
 print
@@ -650,10 +650,13 @@ key
 value
 )
 in
+sorted
+(
 seen_group_types
 .
 items
 (
+)
 )
 :
         
