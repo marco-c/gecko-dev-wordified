@@ -529,6 +529,15 @@ CreateDefaultMetadata
 const
 ;
 void
+FillMissingTitleAndArtworkIfNeeded
+(
+MediaMetadataBase
+&
+aMetadata
+)
+const
+;
+void
 UpdateActiveMediaSessionContextId
 (
 )
