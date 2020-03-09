@@ -119,6 +119,11 @@ engines
 "
 gecko
 "
+gecko_enum_prefix
+=
+"
+StyleVectorEffect
+"
 animation_value_type
 =
 "
@@ -548,7 +553,7 @@ path
 basic_shape
 :
 :
-ClippingShape
+ClipPath
 "
 "
 generics
@@ -557,7 +562,7 @@ generics
 basic_shape
 :
 :
-ShapeSource
+ClipPath
 :
 :
 None
@@ -573,7 +578,7 @@ animation_value_type
 basic_shape
 :
 :
-ClippingShape
+ClipPath
 "
 flags
 =
