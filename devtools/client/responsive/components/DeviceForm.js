@@ -414,8 +414,15 @@ height
 }
 onDeviceFormSave
 (
+e
 )
 {
+e
+.
+preventDefault
+(
+)
+;
 if
 (
 !
