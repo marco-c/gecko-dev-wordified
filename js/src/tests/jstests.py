@@ -5012,10 +5012,9 @@ return
         
 cmd
 =
-test_gen
-.
 next
 (
+test_gen
 )
 .
 get_command

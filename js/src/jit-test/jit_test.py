@@ -3673,10 +3673,9 @@ else
             
 tc
 =
-job_list
-.
 next
 (
+job_list
 )
         
 if
