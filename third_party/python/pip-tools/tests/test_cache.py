@@ -88,9 +88,6 @@ file
 "
 "
     
-try
-:
-        
 #
 Create
 the
@@ -99,7 +96,7 @@ and
 write
 to
 it
-        
+    
 cache_file
 =
 NamedTemporaryFile
@@ -113,6 +110,9 @@ delete
 =
 False
 )
+    
+try
+:
         
 cache_file
 .
