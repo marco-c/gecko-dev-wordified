@@ -536,6 +536,8 @@ self
 .
 host
 =
+(
+            
 "
 127
 .
@@ -546,9 +548,9 @@ host
 1
 "
 if
-'
+"
 localhost
-'
+"
 in
 self
 .
@@ -567,6 +569,8 @@ config
 host
 "
 ]
+        
+)
         
 self
 .
@@ -647,6 +651,7 @@ LOG
 .
 info
 (
+                
 "
 mitmproxy
 was
@@ -658,7 +663,7 @@ a
 playback_version
 '
 "
-                     
+                
 "
 Using
 default
@@ -671,6 +676,7 @@ version
 .
 4
 "
+            
 )
             
 self
@@ -709,6 +715,7 @@ LOG
 .
 info
 (
+                
 "
 mitmproxy
 was
@@ -720,12 +727,13 @@ a
 playback_binary_manifest
 '
 "
-                     
+                
 "
 Using
 default
 playback_binary_manifest
 "
+            
 )
             
 self
@@ -737,6 +745,8 @@ playback_binary_manifest
 "
 ]
 =
+(
+                
 "
 mitmproxy
 -
@@ -744,11 +754,8 @@ rel
 -
 bin
 -
-4
-.
-0
-.
-4
+%
+s
 -
 {
 platform
@@ -756,6 +763,18 @@ platform
 .
 manifest
 "
+                
+%
+self
+.
+config
+[
+"
+playback_version
+"
+]
+            
+)
         
 #
 mozproxy_dir
@@ -993,6 +1012,51 @@ MOZPROXY_DIR
 self
 .
 mozproxy_dir
+        
+LOG
+.
+info
+(
+"
+Playback
+tool
+:
+%
+s
+"
+%
+self
+.
+config
+[
+"
+playback_tool
+"
+]
+)
+        
+LOG
+.
+info
+(
+"
+Playback
+tool
+version
+:
+%
+s
+"
+%
+self
+.
+config
+[
+"
+playback_version
+"
+]
+)
     
 def
 start
@@ -1175,16 +1239,18 @@ path
 .
 normpath
 (
-                
+            
 os
 .
 path
 .
 join
 (
+                
 self
 .
 mozproxy_dir
+                
 "
 mitmdump
 -
@@ -1192,7 +1258,6 @@ mitmdump
 s
 "
 %
-                             
 self
 .
 config
@@ -1201,11 +1266,13 @@ config
 playback_version
 "
 ]
-                             
+                
 "
 mitmdump
 "
+            
 )
+        
 )
         
 #
@@ -1330,8 +1397,8 @@ config
 run_local
 "
 ]
-                
 download_path
+            
 )
         
 if
@@ -1709,7 +1776,6 @@ host
 self
 .
 host
-                        
 "
 -
 -
@@ -1799,6 +1865,7 @@ realpath
 __file__
 )
 )
+                
 "
 scripts
 "
@@ -1809,35 +1876,21 @@ alternate
 server
 -
 replay
--
-{
-}
 .
 py
 "
-.
-format
-(
-                    
-self
-.
-config
-[
-"
-playback_version
-"
-]
-)
+            
 )
             
 recording_paths
 =
 [
+                
 normalize_path
 (
 recording_path
 )
-                               
+                
 for
 recording_path
 in
@@ -1849,6 +1902,7 @@ config
 playback_files
 "
 ]
+            
 ]
             
 if
@@ -1860,8 +1914,8 @@ config
 playback_version
 "
 ]
-=
-=
+in
+[
 "
 4
 .
@@ -1869,6 +1923,14 @@ playback_version
 .
 4
 "
+"
+5
+.
+0
+.
+1
+"
+]
 :
                 
 args
@@ -1885,6 +1947,7 @@ v
 -
 set
 "
+                    
 "
 upstream_cert
 =
@@ -1896,6 +1959,7 @@ false
 -
 set
 "
+                    
 "
 upload_dir
 =
@@ -1913,6 +1977,7 @@ upload_dir
 -
 set
 "
+                    
 "
 websocket
 =
@@ -1924,6 +1989,7 @@ false
 -
 set
 "
+                    
 "
 server_replay_files
 =
@@ -1947,6 +2013,7 @@ recording_paths
 -
 scripts
 "
+                    
 normalize_path
 (
 script
@@ -1982,6 +2049,7 @@ else
 raise
 Exception
 (
+                
 "
 Mitmproxy
 can
@@ -1995,6 +2063,7 @@ settings
 missing
 .
 "
+            
 )
         
 LOG
@@ -2086,6 +2155,7 @@ ProcessHandler
 (
             
 command
+            
 logfile
 =
 os
@@ -2107,11 +2177,13 @@ log
 env
 =
 env
+            
 processStderrLine
 =
 LOG
 .
 error
+            
 storeOutput
 =
 False
@@ -2525,6 +2597,7 @@ LOG
 .
 info
 (
+                        
 "
 Successfully
 killed
@@ -2533,7 +2606,7 @@ mitmproxy
 playback
 process
 "
-                             
+                        
 "
 with
 exit
@@ -2543,6 +2616,7 @@ d
 "
 %
 exit_code
+                    
 )
                     
 return
@@ -3089,6 +3163,7 @@ policies_dir
 policies_content
 =
 POLICIES_CONTENT_ON
+            
 %
 {
 "
@@ -3098,7 +3173,6 @@ cert
 self
 .
 cert_path
-                                                    
 "
 host
 "
@@ -3106,7 +3180,6 @@ host
 self
 .
 host
-                                                    
 "
 port
 "
@@ -3359,9 +3432,9 @@ contents
             
 if
 (
-                    
+                
 POLICIES_CONTENT_ON
-                    
+                
 %
 {
 "
@@ -3731,7 +3804,7 @@ certutil
 if
 not
 (
-                    
+                
 os
 .
 path
@@ -3742,6 +3815,7 @@ self
 .
 certutil_path
 )
+                
 and
 os
 .
@@ -3761,6 +3835,7 @@ X_OK
 raise
 Exception
 (
+                    
 "
 Abort
 :
@@ -3779,6 +3854,7 @@ self
 .
 certutil_path
 )
+                
 )
             
 self
@@ -4663,7 +4739,6 @@ LOG
 .
 info
 (
-            
 "
 importing
 mitmproxy
@@ -4673,7 +4748,6 @@ db
 using
 command
 "
-        
 )
         
 self
@@ -5111,6 +5185,7 @@ subprocess
 .
 Popen
 (
+                
 cmd
 stdout
 =
@@ -5127,6 +5202,7 @@ environ
 copy
 (
 )
+            
 )
             
 cmd_output
