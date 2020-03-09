@@ -15035,8 +15035,11 @@ different
 table
 do
 nothing
+const
+RefPtr
+<
 nsIContent
-*
+>
 table
 =
 IsInSameTable
