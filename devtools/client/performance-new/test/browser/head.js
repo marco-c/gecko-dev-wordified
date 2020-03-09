@@ -2189,6 +2189,9 @@ configuration
 ;
 startProfiler
 (
+"
+aboutprofiling
+"
 )
 ;
 /

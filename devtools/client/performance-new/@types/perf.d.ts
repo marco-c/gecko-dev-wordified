@@ -110,10 +110,10 @@ gInit
 (
 perfFront
 :
-any
+PerfFront
 preferenceFront
 :
-any
+PageContext
 )
 :
 void
@@ -784,6 +784,12 @@ devtools
 "
 |
 "
+devtools
+-
+remote
+"
+|
+"
 aboutprofiling
 "
 ;
@@ -1091,10 +1097,7 @@ RecordingStateFromPreferences
 )
 =
 >
-MaybePromise
-<
 void
->
 ;
 /
 *
