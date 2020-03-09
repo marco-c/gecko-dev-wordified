@@ -5,7 +5,8 @@ usr
 /
 bin
 /
-python
+env
+python3
 -
 B
 #
@@ -63,10 +64,6 @@ MPL
 0
 /
 .
-from
-__future__
-import
-print_function
 import
 re
 quoted_pat
@@ -682,19 +679,13 @@ format
 MACRO
 (
 {
-name
-}
-{
-op_camel
+op
 }
 {
 op_snake
 }
 {
-display_name
-}
-{
-image
+token
 }
 {
 length
@@ -705,9 +696,8 @@ nuses
 {
 ndefs
 }
-#
 {
-flags
+format
 }
 )
 #
@@ -732,14 +722,7 @@ comment_info
         
 self
 .
-name
-=
-'
-'
-        
-self
-.
-op_camel
+op
 =
 '
 '
@@ -759,14 +742,7 @@ value
         
 self
 .
-display_name
-=
-'
-'
-        
-self
-.
-image
+token
 =
 '
 '
@@ -794,7 +770,7 @@ ndefs
         
 self
 .
-flags
+format_
 =
 '
 '
@@ -1165,24 +1141,6 @@ tag_pat
 '
 line
 )
-#
-Identifiers
-to
-avoid
-because
-they
-'
-re
-reserved
-words
-in
-either
-Rust
-or
-C
-+
-+
-.
 RUST_OR_CPP_KEYWORDS
 =
 {
@@ -1301,25 +1259,7 @@ r
 ?
 P
 <
-name
->
-[
-^
-]
-+
-)
-\
-s
-*
-"
-                          
-r
-"
-(
-?
-P
-<
-op_camel
+op
 >
 [
 ^
@@ -1355,25 +1295,7 @@ r
 ?
 P
 <
-display_name
->
-[
-^
-]
-+
-)
-\
-s
-*
-"
-                          
-r
-"
-(
-?
-P
-<
-image
+token
 >
 [
 ^
@@ -1457,7 +1379,7 @@ r
 ?
 P
 <
-flags
+format
 >
 [
 ^
@@ -1631,14 +1553,14 @@ group
 1
 )
         
-name
+op
 =
 m
 .
 group
 (
 '
-name
+op
 '
 )
         
@@ -2020,7 +1942,7 @@ else
 :
             
 assert
-name
+op
 is
 not
 None
@@ -2040,22 +1962,9 @@ next_opcode_value
             
 opcode
 .
-name
+op
 =
-name
-            
-opcode
-.
-op_camel
-=
-m
-.
-group
-(
-'
-op_camel
-'
-)
+op
             
 opcode
 .
@@ -2072,7 +1981,7 @@ op_snake
             
 opcode
 .
-display_name
+token
 =
 parse_name
 (
@@ -2081,23 +1990,7 @@ m
 group
 (
 '
-display_name
-'
-)
-)
-            
-opcode
-.
-image
-=
-parse_name
-(
-m
-.
-group
-(
-'
-image
+token
 '
 )
 )
@@ -2143,14 +2036,14 @@ ndefs
             
 opcode
 .
-flags
+format_
 =
 m
 .
 group
 (
 '
-flags
+format
 '
 )
 .
@@ -2190,7 +2083,7 @@ _
 '
 opcode
 .
-op_camel
+op
 )
 .
 lower
@@ -2273,7 +2166,7 @@ sort_key
 =
 opcode
 .
-name
+op
                 
 if
 opcode
@@ -2298,17 +2191,17 @@ for
                                     
 '
 {
-name
+op
 }
 '
 .
 format
 (
-name
+op
 =
 opcode
 .
-name
+op
 )
 )
                 
@@ -2358,7 +2251,7 @@ value1
 }
 (
 {
-name1
+op1
 }
 )
 !
@@ -2371,7 +2264,7 @@ value2
 }
 (
 {
-name2
+op2
 }
 )
 '
@@ -2379,11 +2272,11 @@ name2
 format
 (
                                         
-name1
+op1
 =
 group_head
 .
-name
+op
                                         
 value1
 =
@@ -2391,11 +2284,11 @@ group_head
 .
 length
                                         
-name2
+op2
 =
 opcode
 .
-name
+op
                                         
 value2
 =
@@ -2442,7 +2335,7 @@ value1
 }
 (
 {
-name1
+op1
 }
 )
 !
@@ -2455,7 +2348,7 @@ value2
 }
 (
 {
-name2
+op2
 }
 )
 '
@@ -2463,11 +2356,11 @@ name2
 format
 (
                                         
-name1
+op1
 =
 group_head
 .
-name
+op
                                         
 value1
 =
@@ -2475,11 +2368,11 @@ group_head
 .
 nuses
                                         
-name2
+op2
 =
 opcode
 .
-name
+op
                                         
 value2
 =
@@ -2526,7 +2419,7 @@ value1
 }
 (
 {
-name1
+op1
 }
 )
 !
@@ -2539,7 +2432,7 @@ value2
 }
 (
 {
-name2
+op2
 }
 )
 '
@@ -2547,11 +2440,11 @@ name2
 format
 (
                                         
-name1
+op1
 =
 group_head
 .
-name
+op
                                         
 value1
 =
@@ -2559,11 +2452,11 @@ group_head
 .
 ndefs
                                         
-name2
+op2
 =
 opcode
 .
-name
+op
                                         
 value2
 =
@@ -2585,11 +2478,11 @@ opcode
 if
 opcode
 .
-name
+op
 <
 group_head
 .
-name
+op
 :
                     
 group_head
@@ -2598,11 +2491,11 @@ sort_key
 =
 opcode
 .
-name
+op
             
 opcodes
 [
-name
+op
 ]
 =
 opcode
@@ -2679,7 +2572,7 @@ stack
 notation
 :
 {
-name
+op
 }
 :
 '
@@ -2704,9 +2597,9 @@ stack_nuses
 format
 (
                                     
-name
+op
 =
-name
+op
                                     
 nuses
 =
@@ -2754,7 +2647,7 @@ stack
 notation
 :
 {
-name
+op
 }
 :
 '
@@ -2779,9 +2672,9 @@ stack_ndefs
 format
 (
                                     
-name
+op
 =
-name
+op
                                     
 ndefs
 =

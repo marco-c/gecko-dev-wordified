@@ -134,10 +134,6 @@ Bytecode
 "
 "
 "
-from
-__future__
-import
-print_function
 import
 sys
 import
@@ -331,7 +327,7 @@ n
 "
               
 "
-pip
+pip3
 install
 markdown
 \
@@ -369,7 +365,7 @@ bin
 activate
 &
 &
-pip
+pip3
 install
 markdown
 "
@@ -542,13 +538,11 @@ exc
 SOURCE_BASE
 =
 '
-http
+https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -558,7 +552,7 @@ central
 /
 source
 '
-FLAGS_TO_IGNORE
+FORMAT_TO_IGNORE
 =
 {
     
@@ -611,31 +605,31 @@ JOF_BIGINT
 "
 }
 def
-format_flags
+format_format
 (
-flags
+format
 )
 :
     
-flags
+format
 =
 [
 flag
 for
 flag
 in
-flags
+format
 if
 flag
 not
 in
-FLAGS_TO_IGNORE
+FORMAT_TO_IGNORE
 ]
     
 if
 len
 (
-flags
+format
 )
 =
 =
@@ -651,10 +645,10 @@ return
 <
 div
 >
-Flags
+Format
 :
 {
-flags
+format
 }
 <
 /
@@ -666,14 +660,14 @@ n
 .
 format
 (
-flags
+format
 =
 '
 '
 .
 join
 (
-flags
+format
 )
 )
 def
@@ -741,7 +735,7 @@ stack
 desc
 }
 {
-flags
+format
 }
 <
 /
@@ -778,7 +772,7 @@ maybe_escape
 (
 code
 .
-name
+op
 "
 <
 code
@@ -927,7 +921,7 @@ opcodes
 0
 ]
 .
-name
+op
         
 names
 =
@@ -952,13 +946,13 @@ opcode
 desc
 )
         
-flags
+format
 =
-format_flags
+format_format
 (
 opcode
 .
-flags
+format_
 )
     
 )
