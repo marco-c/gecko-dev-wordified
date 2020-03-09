@@ -919,12 +919,12 @@ favicon
 :
 link
 .
-smallFavicon
+favicon
 |
 |
 link
 .
-favicon
+tippyTopIcon
 |
 |
 null
