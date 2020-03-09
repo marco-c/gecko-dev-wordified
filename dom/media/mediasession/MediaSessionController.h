@@ -516,6 +516,12 @@ GetDefaultFaviconURL
 )
 const
 ;
+nsString
+GetDefaultTitle
+(
+)
+const
+;
 MediaMetadataBase
 CreateDefaultMetadata
 (
