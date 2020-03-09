@@ -148,6 +148,9 @@ accessiblewalker
 "
 accessibility
 "
+"
+parentaccessibility
+"
 ]
 spec
 :
