@@ -1792,16 +1792,6 @@ RemoveObservers
 (
 )
 ;
-void
-UpdateAudioPlayingWindows
-(
-bool
-aPlaying
-)
-;
-int32_t
-mAudibleWindowsNum
-;
 nsCOMPtr
 <
 nsIAndroidEventDispatcher
