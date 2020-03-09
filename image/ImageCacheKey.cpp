@@ -110,7 +110,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlocking
 .
 h
 "
@@ -1318,10 +1318,10 @@ eTLD
 if
 (
 !
-AntiTrackingCommon
+ContentBlocking
 :
 :
-MaybeIsFirstPartyStorageAccessGrantedFor
+ApproximateAllowAccessForWithoutChannel
 (
 aDocument
 -

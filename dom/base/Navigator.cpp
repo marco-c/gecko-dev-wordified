@@ -163,7 +163,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlocking
 .
 h
 "
@@ -3148,10 +3148,10 @@ rejectedReason
 bool
 granted
 =
-AntiTrackingCommon
+ContentBlocking
 :
 :
-IsFirstPartyStorageAccessGrantedFor
+ShouldAllowAccessFor
 (
 mWindow
 contentURI

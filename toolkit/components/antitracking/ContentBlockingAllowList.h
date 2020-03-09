@@ -325,7 +325,7 @@ Cache
 Utility
 APIs
 for
-AntiTrackingCommon
+ContentBlocking
 .
 static
 bool
@@ -349,7 +349,7 @@ aWindow
 ;
 friend
 class
-AntiTrackingCommon
+ContentBlocking
 ;
 }
 ;
