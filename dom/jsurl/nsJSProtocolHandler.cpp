@@ -566,8 +566,9 @@ nsJSThunk
 nsJSThunk
 (
 )
-{
-}
+=
+default
+;
 nsJSThunk
 :
 :
@@ -575,8 +576,9 @@ nsJSThunk
 nsJSThunk
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsJSThunk
 :
@@ -2699,8 +2701,9 @@ nsJSChannel
 nsJSChannel
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsJSChannel
 :

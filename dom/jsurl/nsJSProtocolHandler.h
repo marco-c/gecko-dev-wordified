@@ -513,8 +513,9 @@ protected
 nsJSURI
 (
 )
-{
-}
+=
+default
+;
 explicit
 nsJSURI
 (
@@ -534,8 +535,9 @@ virtual
 nsJSURI
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 EqualsInternal
@@ -661,8 +663,9 @@ explicit
 Mutator
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual
@@ -670,8 +673,9 @@ virtual
 Mutator
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 nsJSURI
