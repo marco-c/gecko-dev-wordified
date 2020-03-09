@@ -588,12 +588,12 @@ varDecl
 hasAutomaticStorageDuration
 (
 )
-)
-)
 hasType
 (
 isSmartPtrToRefCounted
 (
+)
+)
 )
 )
 )
