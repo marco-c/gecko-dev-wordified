@@ -63,11 +63,14 @@ import
 itertools
 import
 string
+from
+.
 import
 shared_telemetry_utils
 as
 utils
 from
+.
 shared_telemetry_utils
 import
 ParserError
@@ -138,7 +141,7 @@ if
 issubclass
 (
 t
-basestring
+str
 )
 :
         
@@ -715,7 +718,7 @@ x
 in
 value
 .
-iterkeys
+keys
 (
 )
 :
@@ -791,7 +794,7 @@ v
 in
 value
 .
-iteritems
+items
 (
 )
 :
@@ -902,7 +905,7 @@ objects
 :
 ListTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -920,7 +923,7 @@ notification_emails
 :
 ListTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -929,7 +932,7 @@ record_in_processes
 :
 ListTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -938,7 +941,7 @@ description
 :
 AtomicTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -947,7 +950,7 @@ products
 :
 ListTypeChecker
 (
-basestring
+str
 )
     
 }
@@ -962,7 +965,7 @@ methods
 :
 ListTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -971,7 +974,7 @@ release_channel_collection
 :
 AtomicTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -980,7 +983,7 @@ expiry_version
 :
 AtomicTypeChecker
 (
-basestring
+str
 )
         
 '
@@ -989,8 +992,8 @@ extra_keys
 :
 DictTypeChecker
 (
-basestring
-basestring
+str
+str
 )
         
 '
@@ -999,7 +1002,7 @@ operating_systems
 :
 ListTypeChecker
 (
-basestring
+str
 )
     
 }
@@ -1157,7 +1160,7 @@ v
 in
 definition
 .
-iteritems
+items
 (
 )
 :
@@ -1849,7 +1852,7 @@ key
 in
 extra_keys
 .
-iterkeys
+keys
 (
 )
 :
@@ -2671,6 +2674,10 @@ self
 :
         
 return
+list
+(
+sorted
+(
 self
 .
 _definition
@@ -2686,6 +2693,8 @@ extra_keys
 .
 keys
 (
+)
+)
 )
 def
 load_events
@@ -2940,10 +2949,13 @@ for
 category_name
 category
 in
+sorted
+(
 events
 .
-iteritems
+items
 (
+)
 )
 :
         
@@ -3031,10 +3043,13 @@ for
 name
 entry
 in
+sorted
+(
 category
 .
-iteritems
+items
 (
+)
 )
 :
             
