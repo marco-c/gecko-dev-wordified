@@ -1117,7 +1117,9 @@ shutdown
 =
 panel
 .
-front
+accessibilityProxy
+.
+accessibilityFront
 .
 once
 (
@@ -4357,9 +4359,11 @@ target
 panel
 :
 {
-walker
+accessibilityProxy
 :
+{
 accessibleWalkerFront
+}
 }
 }
 selector

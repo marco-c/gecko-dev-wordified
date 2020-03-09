@@ -436,7 +436,9 @@ expectedSelected
 await
 panel
 .
-walker
+accessibilityProxy
+.
+accessibleWalkerFront
 .
 getAccessibleFor
 (
