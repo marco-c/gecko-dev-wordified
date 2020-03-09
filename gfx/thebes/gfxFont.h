@@ -12988,7 +12988,6 @@ bool
 *
 aEmittedGlyphs
 )
-const
 ;
 /
 /

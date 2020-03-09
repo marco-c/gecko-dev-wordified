@@ -13130,7 +13130,6 @@ bool
 *
 aEmittedGlyphs
 )
-const
 {
 const
 TextRunDrawParams
@@ -13298,9 +13297,14 @@ devPt
 .
 x
 +
-mVerticalMetrics
--
->
+GetMetrics
+(
+nsFontMetrics
+:
+:
+eVertical
+)
+.
 emHeight
 /
 2
