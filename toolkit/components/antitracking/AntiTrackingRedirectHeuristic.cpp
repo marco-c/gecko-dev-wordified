@@ -145,6 +145,13 @@ h
 #
 include
 "
+ContentBlockingUserInteraction
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -896,10 +903,10 @@ return
 if
 (
 !
-AntiTrackingCommon
+ContentBlockingUserInteraction
 :
 :
-HasUserInteraction
+Exists
 (
 trackingPrincipal
 )
