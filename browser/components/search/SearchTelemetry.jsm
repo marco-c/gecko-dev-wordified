@@ -4186,6 +4186,11 @@ if
 channel
 .
 loadInfo
+&
+&
+channel
+.
+loadInfo
 .
 externalContentPolicyType
 =
@@ -4271,6 +4276,11 @@ level
 resource
 if
 (
+channel
+.
+loadInfo
+&
+&
 channel
 .
 loadInfo
