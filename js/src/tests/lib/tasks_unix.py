@@ -52,15 +52,22 @@ import
 datetime
 timedelta
 from
+.
 progressbar
 import
 ProgressBar
 from
+.
 results
 import
+(
+    
 NullTestOutput
+    
 TestOutput
+    
 escape_cmdline
+)
 class
 Task
 (
@@ -1211,6 +1218,7 @@ ended
 .
 cmd
                 
+b
 '
 '
 .
@@ -1220,7 +1228,17 @@ ended
 .
 out
 )
+.
+decode
+(
+errors
+=
+'
+replace
+'
+)
                 
+b
 '
 '
 .
@@ -1229,6 +1247,15 @@ join
 ended
 .
 err
+)
+.
+decode
+(
+errors
+=
+'
+replace
+'
 )
                 
 returncode

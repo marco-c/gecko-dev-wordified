@@ -122,6 +122,7 @@ darwin
 :
     
 from
+.
 tasks_unix
 import
 run_all_tests
@@ -129,20 +130,24 @@ else
 :
     
 from
+.
 tasks_win
 import
 run_all_tests
 from
+.
 progressbar
 import
 ProgressBar
 NullProgressBar
 from
+.
 results
 import
 TestOutput
 escape_cmdline
 from
+.
 structuredlog
 import
 TestLogger
@@ -1558,6 +1563,7 @@ variants
     
 COOKIE
 =
+b
 '
 |
 jit
@@ -1617,6 +1623,9 @@ line
 open
 (
 file_name
+"
+rb
+"
 )
 .
 readline
@@ -1660,6 +1669,15 @@ COOKIE
 )
 :
 ]
+.
+decode
+(
+errors
+=
+'
+strict
+'
+)
 .
 strip
 (

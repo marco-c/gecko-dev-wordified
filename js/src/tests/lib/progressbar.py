@@ -8,15 +8,15 @@ curl
 or
 scp
 .
+import
+math
+import
+sys
 from
 datetime
 import
 datetime
 timedelta
-import
-math
-import
-sys
 if
 sys
 .
@@ -31,6 +31,7 @@ win
 :
     
 from
+.
 terminal_win
 import
 Terminal
@@ -38,6 +39,7 @@ else
 :
     
 from
+.
 terminal_unix
 import
 Terminal

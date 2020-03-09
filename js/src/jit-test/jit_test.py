@@ -84,7 +84,7 @@ sys
 import
 traceback
 def
-add_libdir_to_path
+add_tests_dir_to_path
 (
 )
 :
@@ -142,44 +142,34 @@ join
 (
 js_src_dir
 '
-lib
-'
-)
-)
-    
-sys
-.
-path
-.
-insert
-(
-0
-join
-(
-js_src_dir
-'
 tests
 '
-'
-lib
-'
 )
 )
-add_libdir_to_path
+add_tests_dir_to_path
 (
 )
+from
+lib
 import
 jittests
 from
+lib
+.
 tests
 import
+(
+    
 get_jitflags
+    
 valid_jitflags
+    
 get_cpu_count
+    
 get_environment_overlay
-\
     
 change_env
+)
 def
 which
 (
@@ -454,34 +444,31 @@ tests
 directory
 .
     
-from
-optparse
 import
-OptionParser
-SUPPRESS_HELP
+argparse
     
 op
 =
-OptionParser
+argparse
+.
+ArgumentParser
 (
-usage
+description
 =
 '
-%
-prog
-[
-options
-]
-JS_SHELL
-[
-TESTS
-]
+Run
+jit
+-
+test
+JS
+shell
+tests
 '
 )
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -504,7 +491,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -518,7 +505,7 @@ run
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -538,13 +525,13 @@ dest
 '
 show_failed
 '
-                  
+                    
 action
 =
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -559,7 +546,7 @@ tests
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -577,13 +564,13 @@ dest
 '
 show_output
 '
-                  
+                    
 action
 =
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -597,7 +584,7 @@ shell
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -615,13 +602,13 @@ dest
 '
 failed_only
 '
-                  
+                    
 action
 =
 '
 store_true
 '
-                  
+                    
 help
 =
 "
@@ -638,7 +625,7 @@ print
 output
 for
 "
-                  
+                    
 "
 failed
 tests
@@ -647,7 +634,7 @@ tests
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -663,13 +650,13 @@ dest
 '
 no_show_failed
 '
-                  
+                    
 action
 =
 '
 store_true
 '
-                  
+                    
 help
 =
 "
@@ -682,7 +669,7 @@ for
 failed
 tests
 "
-                  
+                    
 "
 (
 no
@@ -700,7 +687,7 @@ output
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -716,7 +703,7 @@ dest
 '
 exclude
 '
-                  
+                    
 default
 =
 [
@@ -726,7 +713,7 @@ action
 '
 append
 '
-                  
+                    
 help
 =
 '
@@ -741,7 +728,7 @@ path
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -758,7 +745,7 @@ exclude_from
 type
 =
 str
-                  
+                    
 help
 =
 '
@@ -775,7 +762,7 @@ FILE
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -792,7 +779,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -807,7 +794,7 @@ slow
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -826,7 +813,7 @@ action
 '
 store_false
 '
-                  
+                    
 help
 =
 '
@@ -846,7 +833,7 @@ default
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -870,7 +857,7 @@ default
 150
 .
 0
-                  
+                    
 help
 =
 '
@@ -884,7 +871,7 @@ seconds
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -903,7 +890,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -915,7 +902,7 @@ bar
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -932,13 +919,13 @@ action
 '
 store_const
 '
-                  
+                    
 const
 =
 '
 automation
 '
-                  
+                    
 help
 =
 '
@@ -953,7 +940,7 @@ format
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -970,40 +957,30 @@ default
 '
 none
 '
-type
-=
-'
-choice
-'
-                  
+                    
 choices
 =
-[
+(
 '
 automation
 '
 '
 none
 '
-]
-                  
+)
+                    
 help
 =
 '
 Output
 format
-.
-Either
-automation
-or
-none
-'
-                  
-'
 (
 default
 %
+(
 default
+)
+s
 )
 .
 '
@@ -1011,7 +988,7 @@ default
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1032,7 +1009,7 @@ default
 =
 '
 '
-                  
+                    
 help
 =
 '
@@ -1049,7 +1026,7 @@ shell
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1068,12 +1045,12 @@ metavar
 '
 ARGS
 '
-                  
+                    
 default
 =
 '
 '
-                  
+                    
 help
 =
 '
@@ -1087,7 +1064,7 @@ the
 JS
 shell
 '
-                       
+                    
 '
 (
 for
@@ -1102,7 +1079,7 @@ py
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1120,13 +1097,13 @@ dest
 '
 write_failures
 '
-                  
+                    
 metavar
 =
 '
 FILE
 '
-                  
+                    
 help
 =
 '
@@ -1145,7 +1122,7 @@ FILE
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1168,7 +1145,7 @@ dest
 '
 check_output
 '
-                  
+                    
 help
 =
 '
@@ -1187,7 +1164,7 @@ flags
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1210,7 +1187,7 @@ metavar
 '
 FILE
 '
-                  
+                    
 help
 =
 '
@@ -1227,7 +1204,7 @@ FILE
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1248,7 +1225,7 @@ metavar
 '
 FILE
 '
-                  
+                    
 help
 =
 '
@@ -1265,7 +1242,7 @@ FILE
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1291,7 +1268,7 @@ dest
 '
 debugger
 '
-                  
+                    
 help
 =
 '
@@ -1308,7 +1285,7 @@ debugger
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1336,7 +1313,7 @@ dest
 '
 debugger
 '
-                  
+                    
 help
 =
 '
@@ -1353,7 +1330,7 @@ debugger
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1362,10 +1339,8 @@ debugger
 '
 type
 =
-'
-string
-'
-                  
+str
+                    
 help
 =
 '
@@ -1382,7 +1357,7 @@ debugger
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1399,7 +1374,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -1420,7 +1395,7 @@ PATH
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1436,7 +1411,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -1456,7 +1431,7 @@ nonzero
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1475,7 +1450,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -1495,7 +1470,7 @@ PATH
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1514,7 +1489,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -1534,7 +1509,7 @@ stdio
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1550,13 +1525,13 @@ dest
 '
 write_failure_output
 '
-                  
+                    
 action
 =
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -1572,7 +1547,7 @@ additionally
 write
 the
 '
-                  
+                    
 '
 output
 of
@@ -1587,7 +1562,7 @@ FILE
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1604,41 +1579,34 @@ default
 '
 none
 '
-                  
+                    
 choices
 =
 valid_jitflags
 (
 )
-                  
+                    
 help
 =
 '
 IonMonkey
 option
 combinations
-.
-One
-of
+(
+default
 %
+(
+default
+)
 s
+)
 .
 '
-%
-'
-'
-.
-join
-(
-valid_jitflags
-(
-)
-)
 )
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1660,7 +1628,7 @@ const
 '
 ion
 '
-                  
+                    
 help
 =
 '
@@ -1677,7 +1645,7 @@ and
 once
 with
 '
-                  
+                    
 '
 -
 -
@@ -1698,7 +1666,7 @@ ion
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1720,7 +1688,7 @@ const
 '
 all
 '
-                  
+                    
 help
 =
 '
@@ -1732,7 +1700,7 @@ IonMonkey
 option
 combinations
 '
-                  
+                    
 '
 (
 equivalent
@@ -1748,7 +1716,7 @@ all
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1769,7 +1737,7 @@ max_jobs
 type
 =
 int
-                  
+                    
 default
 =
 max
@@ -1779,7 +1747,7 @@ get_cpu_count
 (
 )
 )
-                  
+                    
 help
 =
 '
@@ -1793,14 +1761,18 @@ parallel
 (
 default
 %
+(
 default
 )
+s
+)
+.
 '
 )
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1812,7 +1784,7 @@ action
 '
 store_true
 '
-                  
+                    
 help
 =
 '
@@ -1827,7 +1799,7 @@ device
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1839,18 +1811,16 @@ action
 '
 store
 '
-                  
+                    
 type
 =
-'
-string
-'
+str
 dest
 =
 '
 device_ip
 '
-                  
+                    
 help
 =
 '
@@ -1866,7 +1836,7 @@ test
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1878,7 +1848,7 @@ action
 '
 store
 '
-                  
+                    
 type
 =
 int
@@ -1890,7 +1860,7 @@ device_port
 default
 =
 20701
-                  
+                    
 help
 =
 '
@@ -1905,7 +1875,7 @@ test
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1917,12 +1887,10 @@ action
 '
 store
 '
-                  
+                    
 type
 =
-'
-string
-'
+str
 dest
 =
 '
@@ -1931,7 +1899,7 @@ device_serial
 default
 =
 None
-                  
+                    
 help
 =
 '
@@ -1949,7 +1917,7 @@ test
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -1966,12 +1934,10 @@ action
 '
 store
 '
-                  
+                    
 type
 =
-'
-string
-'
+str
 default
 =
 '
@@ -1982,7 +1948,7 @@ local
 /
 tests
 '
-                  
+                    
 help
 =
 '
@@ -1995,7 +1961,7 @@ as
 test
 root
 '
-                  
+                    
 '
 (
 eg
@@ -2012,7 +1978,7 @@ tests
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2029,13 +1995,11 @@ action
 '
 store
 '
-                  
+                    
 type
 =
-'
-string
-'
-                  
+str
+                    
 help
 =
 '
@@ -2049,7 +2013,7 @@ push
 -
 preferably
 '
-                  
+                    
 '
 stripped
 '
@@ -2057,7 +2021,7 @@ stripped
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2070,7 +2034,7 @@ int
 default
 =
 1
-                  
+                    
 help
 =
 '
@@ -2087,7 +2051,7 @@ times
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2102,7 +2066,7 @@ int
 default
 =
 1
-                  
+                    
 help
 =
 '
@@ -2117,7 +2081,7 @@ run
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2132,7 +2096,7 @@ int
 default
 =
 1
-                  
+                    
 help
 =
 '
@@ -2148,7 +2112,7 @@ chunks
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2167,7 +2131,7 @@ metavar
 '
 FILE
 '
-                  
+                    
 help
 =
 '
@@ -2185,7 +2149,7 @@ FILE
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2201,7 +2165,7 @@ dest
 "
 test_reflect_stringify
 "
-                  
+                    
 help
 =
 "
@@ -2215,7 +2179,7 @@ to
 test
 the
 "
-                  
+                    
 "
 Reflect
 .
@@ -2229,7 +2193,7 @@ file
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2243,13 +2207,13 @@ action
 '
 store_true
 '
-                  
+                    
 dest
 =
 "
 run_binast
 "
-                  
+                    
 help
 =
 "
@@ -2261,7 +2225,7 @@ encoded
 from
 JS
 "
-                  
+                    
 "
 testcases
 are
@@ -2272,7 +2236,7 @@ specified
 BinAST
 testcases
 "
-                  
+                    
 "
 are
 also
@@ -2309,7 +2273,7 @@ compatibility
     
 op
 .
-add_option
+add_argument
 (
 '
 -
@@ -2323,7 +2287,7 @@ action
 '
 store_true
 '
-                  
+                    
 dest
 =
 "
@@ -2332,59 +2296,56 @@ enable_webrender
 default
 =
 False
-                  
+                    
 help
 =
-SUPPRESS_HELP
+argparse
+.
+SUPPRESS
+)
+    
+op
+.
+add_argument
+(
+'
+js_shell
+'
+metavar
+=
+'
+JS_SHELL
+'
+help
+=
+'
+JS
+shell
+to
+run
+tests
+with
+'
 )
     
 options
-args
+test_args
 =
 op
 .
-parse_args
+parse_known_args
 (
 argv
-)
-    
-if
-len
-(
-args
-)
-<
-1
-:
-        
-op
-.
-error
-(
-'
-missing
-JS_SHELL
-argument
-'
 )
     
 js_shell
 =
 which
 (
-args
-[
-0
-]
+options
+.
+js_shell
 )
-    
-test_args
-=
-args
-[
-1
-:
-]
     
 test_environment
 =
