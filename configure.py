@@ -62,6 +62,8 @@ unicode_literals
 import
 codecs
 import
+io
+import
 itertools
 import
 logging
@@ -1099,6 +1101,8 @@ changes
 .
     
 with
+io
+.
 open
 (
 '
@@ -1108,6 +1112,20 @@ in
 '
 '
 w
+'
+encoding
+=
+'
+utf
+-
+8
+'
+                 
+newline
+=
+'
+\
+n
 '
 )
 as

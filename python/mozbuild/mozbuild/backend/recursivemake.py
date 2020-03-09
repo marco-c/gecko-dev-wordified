@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+io
+import
 logging
 import
 os
@@ -6928,11 +6930,20 @@ stub
 )
                 
 with
+io
+.
 open
 (
 obj
 .
 output_path
+encoding
+=
+'
+utf
+-
+8
+'
 )
 as
 fh

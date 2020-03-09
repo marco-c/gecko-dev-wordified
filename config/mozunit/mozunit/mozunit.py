@@ -1088,6 +1088,9 @@ None
 encoding
 =
 None
+newline
+=
+None
 )
 :
         
@@ -1167,6 +1170,9 @@ buffering
 encoding
 =
 encoding
+newline
+=
+newline
 )
         
 #

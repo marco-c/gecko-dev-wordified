@@ -2680,6 +2680,14 @@ w
 delay
 =
 True
+                                          
+encoding
+=
+'
+utf
+-
+8
+'
 )
             
 handler
