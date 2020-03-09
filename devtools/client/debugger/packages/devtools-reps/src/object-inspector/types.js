@@ -96,6 +96,7 @@ extensible
 :
 boolean
 location
+?
 :
 {
 url
