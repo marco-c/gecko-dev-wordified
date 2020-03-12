@@ -17048,6 +17048,10 @@ GetObserverService
 ;
 if
 (
+!
+mShuttingDown
+&
+&
 os
 )
 {
