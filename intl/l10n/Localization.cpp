@@ -1049,7 +1049,7 @@ JSContext
 *
 aCx
 const
-nsACString
+nsAString
 &
 aId
 const
