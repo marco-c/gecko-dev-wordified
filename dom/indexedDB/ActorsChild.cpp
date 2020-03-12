@@ -1597,13 +1597,13 @@ IDBMutableFile
 *
 mMutableFile
 ;
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 *
 mStructuredClone
 ;
 nsTArray
 <
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 >
 *
 mStructuredCloneArray
@@ -1789,7 +1789,7 @@ aRequest
 IDBTransaction
 *
 aTransaction
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 *
 aResult
 )
@@ -1834,7 +1834,7 @@ IDBTransaction
 aTransaction
 nsTArray
 <
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 >
 *
 aResult
@@ -2404,7 +2404,7 @@ GetResult
 JSContext
 *
 aCx
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 &
 aCloneInfo
@@ -2466,7 +2466,7 @@ JSContext
 aCx
 nsTArray
 <
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 >
 &
 &
@@ -3678,7 +3678,7 @@ template
 typename
 PreprocessInfoAccessor
 >
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 DeserializeStructuredCloneReadInfo
 (
 SerializedStructuredCloneReadInfo
@@ -3728,7 +3728,6 @@ Size
 )
 ;
 return
-StructuredCloneReadInfo
 {
 aSerialized
 .
@@ -3769,11 +3768,6 @@ aForPreprocess
 false
 )
 aDatabase
-aSerialized
-.
-hasPreprocessInfo
-(
-)
 }
 ;
 }
@@ -14821,7 +14815,7 @@ AssertIsOnOwningThread
 ;
 nsTArray
 <
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 >
 cloneReadInfos
 ;

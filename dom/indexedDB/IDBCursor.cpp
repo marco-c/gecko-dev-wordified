@@ -460,7 +460,7 @@ const
 aBackgroundActor
 Key
 aKey
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 &
 aCloneInfo
@@ -605,7 +605,7 @@ Key
 aSortKey
 Key
 aPrimaryKey
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 &
 aCloneInfo
