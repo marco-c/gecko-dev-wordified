@@ -11302,6 +11302,9 @@ create_compositor_surface
 &
 mut
 self
+virtual_offset
+:
+DeviceIntPoint
 tile_size
 :
 DeviceIntSize
@@ -11346,6 +11349,7 @@ NativeSurfaceOperationDetails
 CreateSurface
 {
 id
+virtual_offset
 tile_size
 is_opaque
 }

@@ -482,6 +482,11 @@ aId
 wr
 :
 :
+DeviceIntPoint
+aVirtualOffset
+wr
+:
+:
 DeviceIntSize
 aTileSize
 bool
@@ -553,6 +558,12 @@ EnableNativeCompositor
 (
 bool
 aEnable
+)
+override
+;
+CompositorCapabilities
+GetCompositorCapabilities
+(
 )
 override
 ;

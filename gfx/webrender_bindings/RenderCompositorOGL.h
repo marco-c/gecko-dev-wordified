@@ -410,6 +410,11 @@ aId
 wr
 :
 :
+DeviceIntPoint
+aVirtualOffset
+wr
+:
+:
 DeviceIntSize
 aTileSize
 bool
@@ -473,6 +478,12 @@ wr
 :
 DeviceIntRect
 aClipRect
+)
+override
+;
+CompositorCapabilities
+GetCompositorCapabilities
+(
 )
 override
 ;

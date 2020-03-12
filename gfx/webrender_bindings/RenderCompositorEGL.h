@@ -253,6 +253,12 @@ GetBufferSize
 )
 override
 ;
+CompositorCapabilities
+GetCompositorCapabilities
+(
+)
+override
+;
 protected
 :
 EGLSurface

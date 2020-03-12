@@ -609,6 +609,11 @@ aId
 wr
 :
 :
+DeviceIntPoint
+aVirtualOffset
+wr
+:
+:
 DeviceIntSize
 aTileSize
 bool
@@ -686,6 +691,14 @@ aEnable
 )
 {
 }
+virtual
+CompositorCapabilities
+GetCompositorCapabilities
+(
+)
+=
+0
+;
 /
 /
 Interface
