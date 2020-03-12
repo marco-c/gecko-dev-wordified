@@ -124,7 +124,7 @@ h
 #
 include
 "
-AntiTrackingCommon
+ContentBlockingUserInteraction
 .
 h
 "
