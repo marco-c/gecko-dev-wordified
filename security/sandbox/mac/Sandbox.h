@@ -114,6 +114,7 @@ MacSandboxType_Content
 MacSandboxType_Flash
 MacSandboxType_GMP
 MacSandboxType_Utility
+MacSandboxType_Socket
 MacSandboxType_Invalid
 }
 ;
