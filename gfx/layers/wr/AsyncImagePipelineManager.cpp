@@ -1736,12 +1736,6 @@ aMaybeFastTxn
 op
 keys
 externalImageKey
-/
-*
-aPreferCompositorSurface
-*
-/
-true
 )
 ;
 return
@@ -2767,6 +2761,12 @@ aPipeline
 >
 mFilter
 range_keys
+/
+*
+aPreferCompositorSurface
+*
+/
+true
 )
 ;
 HoldExternalImage

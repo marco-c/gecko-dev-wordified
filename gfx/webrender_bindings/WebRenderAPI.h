@@ -3378,6 +3378,10 @@ ColorF
 .
 0f
 }
+bool
+aPreferCompositorSurface
+=
+false
 )
 ;
 void
@@ -3509,6 +3513,10 @@ wr
 :
 ImageRendering
 aFilter
+bool
+aPreferCompositorSurface
+=
+false
 )
 ;
 void
@@ -3560,6 +3568,10 @@ wr
 :
 ImageRendering
 aFilter
+bool
+aPreferCompositorSurface
+=
+false
 )
 ;
 void
@@ -3606,6 +3618,10 @@ wr
 :
 ImageRendering
 aFilter
+bool
+aPreferCompositorSurface
+=
+false
 )
 ;
 void

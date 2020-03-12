@@ -860,9 +860,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 {
 MOZ_ASSERT
@@ -894,7 +891,6 @@ aResources
 aOp
 aImageKeys
 aExtID
-aPreferCompositorSurface
 )
 ;
 }
@@ -939,6 +935,9 @@ ImageKey
 >
 &
 aImageKeys
+const
+bool
+aPreferCompositorSurface
 )
 {
 MOZ_ASSERT
@@ -982,6 +981,7 @@ aBounds
 aClip
 aFilter
 aImageKeys
+aPreferCompositorSurface
 )
 ;
 }
