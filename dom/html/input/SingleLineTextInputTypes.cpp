@@ -117,6 +117,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 SingleLineTextInputTypes
 .
 h
@@ -301,12 +305,6 @@ mInputElement
 >
 InputTextLength
 (
-mozilla
-:
-:
-dom
-:
-:
 CallerType
 :
 :
@@ -375,12 +373,6 @@ mInputElement
 >
 InputTextLength
 (
-mozilla
-:
-:
-dom
-:
-:
 CallerType
 :
 :
