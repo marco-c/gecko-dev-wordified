@@ -713,6 +713,16 @@ ResolveProxy
 (
 )
 ;
+void
+AfterApplyContentConversions
+(
+nsresult
+aResult
+nsIStreamListener
+*
+aListener
+)
+;
 /
 /
 True
