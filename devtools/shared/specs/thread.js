@@ -426,14 +426,8 @@ json
 }
 response
 :
-RetVal
-(
-"
-nullable
-:
-json
-"
-)
+{
+}
 }
 detach
 :
