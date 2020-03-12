@@ -657,7 +657,7 @@ content
 /
 aboutMemory
 .
-html
+xhtml
 "
 nsIAboutModule
 :
