@@ -122,7 +122,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "

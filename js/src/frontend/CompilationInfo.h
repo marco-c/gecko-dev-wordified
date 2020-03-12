@@ -497,7 +497,7 @@ scopes
 are
 controlled
 via
-AbstractScope
+AbstractScopePtr
 which
 holds
 onto

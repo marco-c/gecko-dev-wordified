@@ -122,13 +122,13 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
 /
 /
-AbstractScope
+AbstractScopePtr
 #
 include
 "
@@ -537,7 +537,7 @@ needsCallObject
 js
 :
 :
-AbstractScope
+AbstractScopePtr
 bodyScope
 =
 bce_
@@ -590,7 +590,7 @@ maybeNamedLambdaScope
 js
 :
 :
-AbstractScope
+AbstractScopePtr
 outerScope
 =
 bce_

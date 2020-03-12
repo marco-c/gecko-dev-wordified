@@ -153,7 +153,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -1916,7 +1916,7 @@ completed
 successfully
 .
 )
-AbstractScope
+AbstractScopePtr
 enclosingScope_
 ;
 /
@@ -3270,7 +3270,7 @@ void
 setEnclosingScopeForInnerLazyFunction
 (
 const
-AbstractScope
+AbstractScopePtr
 &
 enclosingScope
 )

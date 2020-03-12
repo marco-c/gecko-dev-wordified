@@ -246,7 +246,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -1786,7 +1786,7 @@ varEmitterScope
 emitterScope
 ;
 }
-AbstractScope
+AbstractScopePtr
 outermostScope
 (
 )
@@ -1806,13 +1806,13 @@ firstScope
 )
 ;
 }
-AbstractScope
+AbstractScopePtr
 innermostScope
 (
 )
 const
 ;
-AbstractScope
+AbstractScopePtr
 bodyScope
 (
 )

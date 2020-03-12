@@ -202,13 +202,13 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
 /
 /
-AbstractScope
+AbstractScopePtr
 ScopeIndex
 #
 include
@@ -1977,7 +1977,7 @@ class
 js
 :
 :
-AbstractScope
+AbstractScopePtr
 ;
 friend
 class
@@ -1994,7 +1994,7 @@ scope
 if
 it
 exists
-AbstractScope
+AbstractScopePtr
 enclosing_
 ;
 /
@@ -2042,7 +2042,7 @@ still
 be
 /
 /
-AbstractScopes
+AbstractScopePtrs
 refering
 to
 this
@@ -2160,7 +2160,7 @@ ScopeKind
 kind
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 Handle
@@ -2230,7 +2230,7 @@ return
 kind_
 ;
 }
-AbstractScope
+AbstractScopePtr
 enclosing
 (
 )
@@ -2296,7 +2296,7 @@ FunctionBox
 funbox
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -2335,7 +2335,7 @@ uint32_t
 firstFrameSlot
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -2376,7 +2376,7 @@ bool
 needsEnvironment
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -2445,7 +2445,7 @@ Data
 dataArg
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -2482,7 +2482,7 @@ HandleModuleObject
 module
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -2508,7 +2508,7 @@ CompilationInfo
 compilationInfo
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex

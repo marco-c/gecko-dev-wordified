@@ -113,7 +113,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -177,7 +177,7 @@ MutableHandle
 <
 ScopeCreationData
 >
-AbstractScope
+AbstractScopePtr
 :
 :
 scopeCreationData
@@ -316,7 +316,7 @@ of
 OOM
 .
 bool
-AbstractScope
+AbstractScopePtr
 :
 :
 getOrCreateScope
@@ -415,7 +415,7 @@ true
 }
 Scope
 *
-AbstractScope
+AbstractScopePtr
 :
 :
 getExistingScope
@@ -524,7 +524,7 @@ getScope
 ;
 }
 ScopeKind
-AbstractScope
+AbstractScopePtr
 :
 :
 kind
@@ -572,8 +572,8 @@ kind
 )
 ;
 }
-AbstractScope
-AbstractScope
+AbstractScopePtr
+AbstractScopePtr
 :
 :
 enclosing
@@ -611,7 +611,7 @@ enclosing
 ;
 }
 return
-AbstractScope
+AbstractScopePtr
 (
 scope
 (
@@ -625,7 +625,7 @@ enclosing
 ;
 }
 bool
-AbstractScope
+AbstractScopePtr
 :
 :
 hasEnvironment
@@ -674,7 +674,7 @@ hasEnvironment
 ;
 }
 bool
-AbstractScope
+AbstractScopePtr
 :
 :
 isArrow
@@ -757,7 +757,7 @@ isArrow
 }
 JSFunction
 *
-AbstractScope
+AbstractScopePtr
 :
 :
 canonicalFunction
@@ -834,7 +834,7 @@ canonicalFunction
 ;
 }
 uint32_t
-AbstractScope
+AbstractScopePtr
 :
 :
 nextFrameSlot
@@ -1135,7 +1135,7 @@ scope
 ;
 }
 void
-AbstractScope
+AbstractScopePtr
 :
 :
 trace
@@ -1160,13 +1160,13 @@ trc
 &
 scope_
 "
-AbstractScope
+AbstractScopePtr
 "
 )
 ;
 }
 bool
-AbstractScopeIter
+AbstractScopePtrIter
 :
 :
 hasSyntacticEnvironment
@@ -1175,7 +1175,7 @@ hasSyntacticEnvironment
 const
 {
 return
-abstractScope
+abstractScopePtr
 (
 )
 .
@@ -1184,7 +1184,7 @@ hasEnvironment
 )
 &
 &
-abstractScope
+abstractScopePtr
 (
 )
 .

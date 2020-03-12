@@ -3903,7 +3903,7 @@ slot
 return
 nextFrameSlot
 (
-AbstractScope
+AbstractScopePtr
 (
 enclosing
 (
@@ -3964,14 +3964,14 @@ LexicalScope
 nextFrameSlot
 (
 const
-AbstractScope
+AbstractScopePtr
 &
 scope
 )
 {
 for
 (
-AbstractScopeIter
+AbstractScopePtrIter
 si
 (
 scope
@@ -4094,7 +4094,7 @@ WasmFunction
 return
 si
 .
-abstractScope
+abstractScopePtr
 (
 )
 .
@@ -4138,7 +4138,7 @@ uint32_t
 firstFrameSlot
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 MutableHandle
@@ -4281,9 +4281,9 @@ cx
 ;
 Rooted
 <
-AbstractScope
+AbstractScopePtr
 >
-abstractScope
+abstractScopePtr
 (
 cx
 enclosing
@@ -4297,7 +4297,7 @@ prepareForScopeCreation
 cx
 kind
 firstFrameSlot
-abstractScope
+abstractScopePtr
 data
 &
 envShape
@@ -12194,7 +12194,7 @@ FunctionBox
 funbox
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -12412,7 +12412,7 @@ uint32_t
 firstFrameSlot
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -12590,7 +12590,7 @@ bool
 needsEnvironment
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -12921,7 +12921,7 @@ cx
 ;
 Rooted
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 (
@@ -12997,7 +12997,7 @@ Data
 dataArg
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -13184,7 +13184,7 @@ HandleModuleObject
 module
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -13413,7 +13413,7 @@ CompilationInfo
 compilationInfo
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
