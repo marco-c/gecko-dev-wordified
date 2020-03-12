@@ -273,6 +273,11 @@ builder
 disable_name_namespacing
 (
 )
+.
+size_t_is_usize
+(
+true
+)
 /
 /
 We
