@@ -258,7 +258,6 @@ content
 js
 "
 true
-true
 )
 ;
 Services
