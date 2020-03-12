@@ -355,9 +355,7 @@ if
 threadFront
 )
 {
-[
 threadFront
-]
 =
 await
 targetFront

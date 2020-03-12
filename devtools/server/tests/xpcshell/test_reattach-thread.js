@@ -84,9 +84,7 @@ detached
 )
 ;
 const
-[
 newThreadFront
-]
 =
 await
 targetFront

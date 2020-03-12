@@ -306,9 +306,7 @@ resume
 .
 .
 const
-[
 threadFront
-]
 =
 await
 targetFront
