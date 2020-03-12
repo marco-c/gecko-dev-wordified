@@ -799,7 +799,7 @@ content
 /
 aboutPerformance
 .
-xhtml
+html
 "
 nsIAboutModule
 :
