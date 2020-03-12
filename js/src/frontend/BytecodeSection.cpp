@@ -1262,6 +1262,7 @@ JSContext
 *
 cx
 )
+const
 {
 return
 InterpretObjLiteral
