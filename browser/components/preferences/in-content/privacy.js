@@ -11151,6 +11151,7 @@ ensureLoggedIn
 messageText
 .
 value
+window
 false
 )
 ;

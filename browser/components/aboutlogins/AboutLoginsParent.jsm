@@ -1925,6 +1925,7 @@ ensureLoggedIn
 messageText
 .
 value
+ownerGlobal
 false
 )
 ;
