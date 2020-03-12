@@ -599,7 +599,7 @@ parseScriptCpp
 module
 :
 false
-rustFrontend
+smoosh
 :
 false
 }
@@ -611,7 +611,7 @@ parseScriptRust
 module
 :
 false
-rustFrontend
+smoosh
 :
 true
 }
@@ -623,7 +623,7 @@ parseModuleRust
 module
 :
 true
-rustFrontend
+smoosh
 :
 true
 }
@@ -635,7 +635,7 @@ parseModuleCpp
 module
 :
 true
-rustFrontend
+smoosh
 :
 false
 }
