@@ -2470,6 +2470,17 @@ GroupPosition
 }
 else
 {
+#
+if
+defined
+(
+XP_WIN
+)
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+else
 groupPos
 =
 IntlGeneric
@@ -2485,6 +2496,8 @@ GroupPosition
 (
 )
 ;
+#
+endif
 }
 *
 aGroupLevel
