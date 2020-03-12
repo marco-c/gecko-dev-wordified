@@ -467,11 +467,6 @@ isActive
 )
 aArgs
 .
-isTopLevelDoc
-(
-)
-aArgs
-.
 channelId
 (
 )

@@ -500,8 +500,6 @@ uint32_t
 aCacheKey
 bool
 aIsActive
-bool
-aIsTopLevelDoc
 const
 uint64_t
 &

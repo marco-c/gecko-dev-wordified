@@ -3238,8 +3238,6 @@ uint32_t
 aCacheKey
 bool
 aIsActive
-bool
-aIsTopLevelDoc
 nsresult
 &
 rv

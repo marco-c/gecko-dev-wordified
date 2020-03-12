@@ -335,8 +335,6 @@ uint32_t
 aCacheKey
 bool
 aIsActive
-bool
-aIsTopLevelDoc
 )
 ;
 const
@@ -490,10 +488,6 @@ mCacheKey
 const
 bool
 mIsActive
-;
-const
-bool
-mIsTopLevelDoc
 ;
 nsresult
 mStatus

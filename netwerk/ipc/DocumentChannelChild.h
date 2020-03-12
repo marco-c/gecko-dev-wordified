@@ -213,8 +213,6 @@ uint32_t
 aCacheKey
 bool
 aIsActive
-bool
-aIsTopLevelDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

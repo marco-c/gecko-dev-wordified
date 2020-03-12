@@ -494,8 +494,6 @@ uint32_t
 aCacheKey
 bool
 aIsActive
-bool
-aIsTopLevelDoc
 )
 :
 mAsyncOpenTime
@@ -518,10 +516,6 @@ aCacheKey
 mIsActive
 (
 aIsActive
-)
-mIsTopLevelDoc
-(
-aIsTopLevelDoc
 )
 mLoadFlags
 (
