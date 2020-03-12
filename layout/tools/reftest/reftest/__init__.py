@@ -60,9 +60,13 @@ unicode_literals
 absolute_import
 print_function
 import
+io
+import
 os
 import
 re
+import
+six
 RE_COMMENT
 =
 re
@@ -749,11 +753,20 @@ else
 :
             
 with
+io
+.
 open
 (
 path
 '
 r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
@@ -800,15 +813,11 @@ i
             
 line
 =
-line
+six
 .
-decode
+ensure_text
 (
-'
-utf
--
-8
-'
+line
 )
             
 #
