@@ -134,6 +134,13 @@ Unused
 .
 h
 "
+#
+include
+"
+nsSocketTransportService2
+.
+h
+"
 namespace
 mozilla
 {

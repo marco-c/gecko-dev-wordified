@@ -1714,6 +1714,14 @@ get
 )
 ;
 }
+void
+ClearHostMapping
+(
+nsHttpConnectionInfo
+*
+aConnInfo
+)
+;
 /
 /
 cache

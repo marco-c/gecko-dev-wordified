@@ -292,6 +292,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 nsPreloadedStream
 .
 h
@@ -6665,11 +6672,6 @@ NS_HTTP_ERROR_SOFTLY
 )
 {
 gHttpHandler
--
->
-AltServiceCache
-(
-)
 -
 >
 ClearHostMapping

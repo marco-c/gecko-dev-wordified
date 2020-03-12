@@ -628,6 +628,14 @@ PBackgroundParent
 aEndpoint
 )
 ;
+already_AddRefed
+<
+PAltServiceParent
+>
+AllocPAltServiceParent
+(
+)
+;
 private
 :
 SocketProcessHost
