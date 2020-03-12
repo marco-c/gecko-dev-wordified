@@ -316,8 +316,9 @@ private
 LookupCacheV4
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 Ver

@@ -156,8 +156,9 @@ private
 NativeOSFileInternalsService
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Avoid

@@ -119,8 +119,9 @@ private
 FinalizationWitnessService
 (
 )
-{
-}
+=
+default
+;
 void
 operator
 =

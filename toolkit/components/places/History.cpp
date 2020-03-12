@@ -3007,8 +3007,9 @@ false
 VisitedQuery
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIURI
@@ -9465,8 +9466,9 @@ private
 ConcurrentStatementsHolder
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 mozIStorageAsyncConnection

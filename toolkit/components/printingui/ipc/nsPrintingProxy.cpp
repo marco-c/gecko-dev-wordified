@@ -248,8 +248,9 @@ nsPrintingProxy
 nsPrintingProxy
 (
 )
-{
-}
+=
+default
+;
 nsPrintingProxy
 :
 :
@@ -257,8 +258,9 @@ nsPrintingProxy
 nsPrintingProxy
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static

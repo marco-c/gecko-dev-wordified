@@ -205,8 +205,9 @@ MAX_BUFFER_SIZE
 nsCheckSummedOutputStream
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Finish
 (

@@ -723,8 +723,9 @@ private
 StreamFilterChild
 (
 )
-{
-}
+=
+default
+;
 void
 SetNextState
 (

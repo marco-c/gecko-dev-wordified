@@ -2730,8 +2730,9 @@ constexpr
 nsXULAppInfo
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPLATFORMINFO
 NS_DECL_NSIXULAPPINFO
@@ -6684,8 +6685,9 @@ private
 nsSingletonFactory
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports

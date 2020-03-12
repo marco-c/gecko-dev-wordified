@@ -116,8 +116,9 @@ PrintProgressDialogParent
 PrintProgressDialogParent
 (
 )
-{
-}
+=
+default
+;
 void
 PrintProgressDialogParent
 :

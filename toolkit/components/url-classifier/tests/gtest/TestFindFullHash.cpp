@@ -1150,8 +1150,9 @@ mSecs
 MyParseCallback
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 &
 mCallbackCount

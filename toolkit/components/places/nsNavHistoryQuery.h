@@ -452,8 +452,9 @@ private
 nsNavHistoryQuery
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 /
@@ -710,8 +711,9 @@ private
 nsNavHistoryQueryOptions
 (
 )
-{
-}
+=
+default
+;
 /
 /
 IF

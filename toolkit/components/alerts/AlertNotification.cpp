@@ -227,8 +227,9 @@ AlertNotification
 AlertNotification
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 AlertNotification
 :

@@ -837,8 +837,9 @@ virtual
 PlacesShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -890,8 +891,9 @@ private
 ClientsShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -949,8 +951,9 @@ private
 ConnectionShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 /
 /
 The

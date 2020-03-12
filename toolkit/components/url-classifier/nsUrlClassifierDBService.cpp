@@ -8854,8 +8854,8 @@ errorCode
 nsUrlClassifierClassifyCallback
 (
 )
-{
-}
+=
+default
 ;
 nsCOMPtr
 <

@@ -176,8 +176,9 @@ private
 nsUrlClassifierPositiveCacheEntry
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsCString
@@ -209,8 +210,9 @@ private
 nsUrlClassifierCacheEntry
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsCString
@@ -251,8 +253,9 @@ private
 nsUrlClassifierCacheInfo
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsCString

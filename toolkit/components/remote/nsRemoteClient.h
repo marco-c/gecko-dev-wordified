@@ -146,8 +146,8 @@ virtual
 nsRemoteClient
 (
 )
-{
-}
+=
+default
 ;
 /
 *

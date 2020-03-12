@@ -1373,8 +1373,9 @@ virtual
 faviconAsyncLoader
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsCOMPtr

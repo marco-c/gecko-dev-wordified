@@ -190,8 +190,9 @@ virtual
 INativePlacesEventCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

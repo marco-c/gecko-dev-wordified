@@ -223,8 +223,9 @@ subclassing
 nsUrlClassifierStreamUpdater
 (
 )
-{
-}
+=
+default
+;
 /
 /
 When

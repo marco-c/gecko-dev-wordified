@@ -204,8 +204,9 @@ VisitInfo
 VisitInfo
 (
 )
-{
-}
+=
+default
+;
 /
 /
 /

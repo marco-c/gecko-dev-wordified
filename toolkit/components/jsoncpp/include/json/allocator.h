@@ -468,8 +468,9 @@ Boilerplate
 SecureAllocator
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

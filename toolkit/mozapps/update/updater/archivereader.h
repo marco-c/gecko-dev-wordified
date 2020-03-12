@@ -170,8 +170,9 @@ public
 ArchiveReader
 (
 )
-{
-}
+=
+default
+;
 ~
 ArchiveReader
 (

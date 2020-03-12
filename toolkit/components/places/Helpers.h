@@ -262,8 +262,9 @@ NS_DECL_MOZISTORAGESTATEMENTCALLBACK
 WeakAsyncStatementCallback
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -271,8 +272,9 @@ virtual
 WeakAsyncStatementCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -287,8 +289,9 @@ NS_DECL_ISUPPORTS
 AsyncStatementCallback
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -296,8 +299,9 @@ virtual
 AsyncStatementCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

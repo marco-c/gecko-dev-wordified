@@ -242,8 +242,9 @@ private
 nsAppStartup
 (
 )
-{
-}
+=
+default
+;
 void
 CloseAllWindows
 (

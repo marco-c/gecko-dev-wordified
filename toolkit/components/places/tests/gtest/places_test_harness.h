@@ -593,8 +593,9 @@ private
 WaitForTopicSpinner
 (
 )
-{
-}
+=
+default
+;
 bool
 mTopicReceived
 ;
@@ -653,8 +654,9 @@ protected
 PlacesAsyncStatementSpinner
 (
 )
-{
-}
+=
+default
+;
 volatile
 bool
 mCompleted
@@ -1678,8 +1680,9 @@ mSpinner
 WaitForConnectionClosed
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

@@ -393,8 +393,9 @@ RemovePidLockFilesExiting
 RemovePidLockFilesExiting
 (
 )
-{
-}
+=
+default
+;
 ~
 RemovePidLockFilesExiting
 (

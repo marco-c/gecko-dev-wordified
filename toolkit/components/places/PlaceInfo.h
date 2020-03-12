@@ -177,8 +177,9 @@ private
 PlaceInfo
 (
 )
-{
-}
+=
+default
+;
 const
 int64_t
 mId

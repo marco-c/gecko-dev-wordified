@@ -517,8 +517,9 @@ correctly
 MatchGlobSet
 (
 )
-{
-}
+=
+default
+;
 explicit
 MatchGlobSet
 (

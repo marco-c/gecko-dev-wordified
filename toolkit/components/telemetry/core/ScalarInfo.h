@@ -315,8 +315,9 @@ virtual
 BaseScalarInfo
 (
 )
-{
-}
+=
+default
+;
 virtual
 const
 char
