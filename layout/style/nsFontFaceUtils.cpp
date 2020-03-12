@@ -1056,10 +1056,7 @@ the
 font
 AutoTArray
 <
-std
-:
-:
-pair
+Pair
 <
 nsIFrame
 *
@@ -1073,10 +1070,7 @@ stack
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 subtreeRoot
 ReflowAlreadyScheduled
@@ -1104,6 +1098,8 @@ f
 pair
 .
 first
+(
+)
 ;
 ReflowAlreadyScheduled
 alreadyScheduled
@@ -1111,6 +1107,8 @@ alreadyScheduled
 pair
 .
 second
+(
+)
 ;
 /
 /
@@ -1409,10 +1407,7 @@ stack
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 kid
 alreadyScheduled

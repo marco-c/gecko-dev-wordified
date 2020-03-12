@@ -13226,6 +13226,8 @@ SetTag
 pair
 .
 first
+(
+)
 )
 ;
 message
@@ -13236,6 +13238,8 @@ SetCategory
 pair
 .
 second
+(
+)
 )
 ;
 aMessages
@@ -13432,10 +13436,7 @@ See
 TakeAllSecurityMessages
 (
 )
-std
-:
-:
-pair
+Pair
 <
 nsString
 nsString

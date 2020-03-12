@@ -3726,6 +3726,8 @@ if
 fileNameTypeAndDetails
 .
 second
+(
+)
 .
 isSome
 (
@@ -3756,6 +3758,8 @@ NS_ConvertUTF16toUTF8
 fileNameTypeAndDetails
 .
 second
+(
+)
 .
 value
 (
@@ -3819,6 +3823,8 @@ Some
 fileNameTypeAndDetails
 .
 first
+(
+)
 )
 extra
 )
@@ -5907,6 +5913,8 @@ if
 fileNameTypeAndDetails
 .
 second
+(
+)
 .
 isSome
 (
@@ -5937,6 +5945,8 @@ NS_ConvertUTF16toUTF8
 fileNameTypeAndDetails
 .
 second
+(
+)
 .
 value
 (
@@ -6000,6 +6010,8 @@ Some
 fileNameTypeAndDetails
 .
 first
+(
+)
 )
 extra
 )

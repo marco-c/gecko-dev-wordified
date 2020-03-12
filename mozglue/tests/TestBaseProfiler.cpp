@@ -282,11 +282,6 @@ include
 <
 type_traits
 >
-#
-include
-<
-utility
->
 using
 namespace
 mozilla
@@ -8297,10 +8292,7 @@ uint32_t
 )
 ;
 return
-std
-:
-:
-make_pair
+MakePair
 (
 aEW
 -
@@ -8326,6 +8318,8 @@ bi5
 bi5_6
 .
 first
+(
+)
 ;
 auto
 &
@@ -8334,6 +8328,8 @@ bi6
 bi5_6
 .
 second
+(
+)
 ;
 /
 /

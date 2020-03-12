@@ -11513,10 +11513,7 @@ aPlugins
 const
 nsTArray
 <
-std
-:
-:
-pair
+Pair
 <
 bool
 RefPtr
@@ -11636,6 +11633,8 @@ pluginTag
 pair
 .
 second
+(
+)
 ;
 bool
 shouldSoftblock
@@ -11643,6 +11642,8 @@ shouldSoftblock
 pair
 .
 first
+(
+)
 ;
 self
 -

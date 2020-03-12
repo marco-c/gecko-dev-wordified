@@ -188,7 +188,7 @@ include
 "
 mozilla
 /
-CompactPair
+Pair
 .
 h
 "
@@ -2644,7 +2644,7 @@ ControlStackEntry
 /
 Use
 a
-pair
+Pair
 to
 optimize
 away
@@ -2654,7 +2654,7 @@ ControlItem
 mozilla
 :
 :
-CompactPair
+Pair
 <
 BlockType
 ControlItem
@@ -2932,7 +2932,7 @@ Value
 mozilla
 :
 :
-CompactPair
+Pair
 <
 StackType
 Value

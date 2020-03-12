@@ -146,7 +146,7 @@ include
 "
 mozilla
 /
-CompactPair
+Pair
 .
 h
 "
@@ -1979,11 +1979,8 @@ as
 a
 generalization
 of
+Pair
 *
-std
-:
-:
-pair
 (
 which
 can
@@ -2584,7 +2581,7 @@ and
 assignment
 from
 a
-CompactPair
+Pair
 or
 *
 std
@@ -2797,7 +2794,7 @@ explicit
 Tuple
 (
 const
-CompactPair
+Pair
 <
 A
 B
@@ -2824,7 +2821,7 @@ second
 explicit
 Tuple
 (
-CompactPair
+Pair
 <
 A
 B
@@ -3098,7 +3095,7 @@ operator
 =
 (
 const
-CompactPair
+Pair
 <
 AArg
 BArg
@@ -3160,7 +3157,7 @@ Tuple
 operator
 =
 (
-CompactPair
+Pair
 <
 AArg
 BArg

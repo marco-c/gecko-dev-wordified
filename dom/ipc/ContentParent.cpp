@@ -35017,10 +35017,7 @@ process
 .
 nsTArray
 <
-std
-:
-:
-pair
+Pair
 <
 nsCString
 nsCString
@@ -35062,9 +35059,13 @@ EnsurePermissionsByKey
 pair
 .
 first
+(
+)
 pair
 .
 second
+(
+)
 )
 ;
 }

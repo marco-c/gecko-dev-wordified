@@ -113,6 +113,15 @@ h
 #
 include
 "
+mozilla
+/
+Pair
+.
+h
+"
+#
+include
+"
 GMPTimerChild
 .
 h
@@ -425,10 +434,7 @@ aDecryptorId
 ;
 nsTArray
 <
-std
-:
-:
-pair
+Pair
 <
 nsCString
 nsCString

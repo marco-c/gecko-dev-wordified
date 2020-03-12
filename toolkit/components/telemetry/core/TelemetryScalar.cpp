@@ -5469,10 +5469,10 @@ KeyedScalar
 public
 :
 typedef
-std
+mozilla
 :
 :
-pair
+Pair
 <
 nsCString
 nsCOMPtr
@@ -6646,10 +6646,10 @@ aValues
 .
 AppendElement
 (
-std
+mozilla
 :
 :
-make_pair
+MakePair
 (
 nsCString
 (
@@ -21442,6 +21442,8 @@ keyedScalarObj
 keyData
 .
 second
+(
+)
 &
 keyJsValue
 )
@@ -21475,6 +21477,8 @@ key
 keyData
 .
 first
+(
+)
 )
 ;
 if
@@ -25196,6 +25200,8 @@ aScalarType
 keyData
 .
 second
+(
+)
 /
 *
 aInputValue
@@ -25206,6 +25212,8 @@ PromiseFlatCString
 keyData
 .
 first
+(
+)
 )
 .
 get
@@ -25389,10 +25397,10 @@ NS_ERROR_FAILURE
 ;
 }
 typedef
-std
+mozilla
 :
 :
-pair
+Pair
 <
 nsCString
 nsCOMPtr
@@ -26132,10 +26140,10 @@ processScalars
 .
 AppendElement
 (
-std
+mozilla
 :
 :
-make_pair
+MakePair
 (
 nsCString
 (
@@ -26245,6 +26253,8 @@ i
 ]
 .
 first
+(
+)
 ScalarActionType
 :
 :
@@ -26255,6 +26265,8 @@ i
 ]
 .
 second
+(
+)
 ProcessID
 (
 iter

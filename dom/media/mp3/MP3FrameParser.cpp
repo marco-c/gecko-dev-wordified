@@ -154,6 +154,15 @@ include
 "
 mozilla
 /
+Pair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ResultExtensions
 .
 h
@@ -3379,10 +3388,7 @@ aReader
 auto
 res
 =
-std
-:
-:
-make_pair
+MakePair
 (
 ParseVBRI
 (
@@ -3402,6 +3408,8 @@ rv
 res
 .
 first
+(
+)
 .
 isOk
 (
@@ -3411,6 +3419,8 @@ isOk
 res
 .
 first
+(
+)
 .
 unwrap
 (
@@ -3422,6 +3432,8 @@ unwrap
 res
 .
 second
+(
+)
 .
 isOk
 (
@@ -3431,6 +3443,8 @@ isOk
 res
 .
 second
+(
+)
 .
 unwrap
 (

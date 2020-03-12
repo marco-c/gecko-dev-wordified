@@ -2169,10 +2169,10 @@ containers
 applied
 Maybe
 <
-std
+mozilla
 :
 :
-pair
+Pair
 <
 wr
 :
@@ -2421,6 +2421,8 @@ value
 )
 .
 second
+(
+)
 )
 ;
 mKey
@@ -4915,6 +4917,8 @@ value
 )
 .
 second
+(
+)
 ViewAs
 <
 ImagePixel
@@ -5578,10 +5582,7 @@ mKey
 =
 Some
 (
-std
-:
-:
-make_pair
+MakePair
 (
 aBuilder
 .
@@ -5724,6 +5725,8 @@ value
 )
 .
 second
+(
+)
 descriptor
 bytes
 ViewAs
@@ -5766,6 +5769,8 @@ value
 )
 .
 second
+(
+)
 ViewAs
 <
 ImagePixel
@@ -6033,6 +6038,8 @@ value
 )
 .
 second
+(
+)
 )
 )
 ;

@@ -910,10 +910,7 @@ override
 /
 permissions
 .
-std
-:
-:
-pair
+Pair
 <
 const
 nsLiteralCString
@@ -964,6 +961,8 @@ aIsPrivateBrowsing
 type
 .
 second
+(
+)
 )
 {
 continue
@@ -989,6 +988,8 @@ aContentBlockingAllowListPrincipal
 type
 .
 first
+(
+)
 &
 permissions
 )
@@ -1028,6 +1029,8 @@ s
 type
 .
 first
+(
+)
 .
 get
 (
