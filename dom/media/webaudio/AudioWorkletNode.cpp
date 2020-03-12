@@ -331,6 +331,7 @@ OutputCount
 ProcessBlocksOnPorts
 (
 aTrack
+aFrom
 MakeSpan
 (
 &
@@ -356,6 +357,8 @@ ProcessBlocksOnPorts
 AudioNodeTrack
 *
 aTrack
+GraphTime
+aFrom
 Span
 <
 const
@@ -2425,6 +2428,8 @@ ProcessBlocksOnPorts
 AudioNodeTrack
 *
 aTrack
+GraphTime
+aFrom
 Span
 <
 const

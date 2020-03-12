@@ -3295,6 +3295,7 @@ mEngine
 ProcessBlocksOnPorts
 (
 this
+aFrom
 MakeSpan
 (
 mInputChunks
