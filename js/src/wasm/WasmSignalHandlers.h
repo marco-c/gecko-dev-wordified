@@ -444,7 +444,7 @@ in
 wasm
 :
 :
-HasPlatformSupport
+HasCompilerSupport
 (
 )
 which
