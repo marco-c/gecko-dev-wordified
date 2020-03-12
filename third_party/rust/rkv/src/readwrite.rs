@@ -195,7 +195,7 @@ trait
 Readable
 <
 '
-env
+r
 >
 {
 type
@@ -209,7 +209,7 @@ RoCursor
 BackendRoCursor
 <
 '
-env
+r
 >
 ;
 fn
@@ -220,7 +220,7 @@ K
 (
 &
 '
-env
+r
 self
 db
 :
@@ -243,7 +243,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -263,7 +263,7 @@ open_ro_cursor
 (
 &
 '
-env
+r
 self
 db
 :
@@ -288,13 +288,13 @@ StoreError
 impl
 <
 '
-env
+r
 T
 >
 Readable
 <
 '
-env
+r
 >
 for
 Reader
@@ -307,7 +307,7 @@ T
 BackendRoCursorTransaction
 <
 '
-env
+r
 >
 {
 type
@@ -334,7 +334,7 @@ K
 (
 &
 '
-env
+r
 self
 db
 :
@@ -357,7 +357,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -411,7 +411,7 @@ open_ro_cursor
 (
 &
 '
-env
+r
 self
 db
 :
@@ -520,13 +520,13 @@ abort
 impl
 <
 '
-env
+r
 T
 >
 Readable
 <
 '
-env
+r
 >
 for
 Writer
@@ -539,7 +539,7 @@ T
 BackendRwCursorTransaction
 <
 '
-env
+r
 >
 {
 type
@@ -566,7 +566,7 @@ K
 (
 &
 '
-env
+r
 self
 db
 :
@@ -589,7 +589,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -643,7 +643,7 @@ open_ro_cursor
 (
 &
 '
-env
+r
 self
 db
 :

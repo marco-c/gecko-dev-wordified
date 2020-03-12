@@ -225,7 +225,7 @@ struct
 Iter
 <
 '
-env
+i
 I
 >
 {
@@ -238,7 +238,7 @@ PhantomData
 <
 &
 '
-env
+i
 (
 )
 >
@@ -284,7 +284,7 @@ fn
 get
 <
 '
-env
+r
 R
 K
 >
@@ -295,7 +295,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -310,7 +310,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -321,7 +321,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D
@@ -570,7 +570,7 @@ fn
 iter_start
 <
 '
-env
+r
 R
 I
 C
@@ -582,7 +582,7 @@ reader
 :
 &
 '
-env
+r
 R
 )
 -
@@ -592,7 +592,7 @@ Result
 Iter
 <
 '
-env
+r
 I
 >
 StoreError
@@ -603,7 +603,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D
@@ -616,14 +616,14 @@ I
 BackendIter
 <
 '
-env
+r
 >
 C
 :
 BackendRoCursor
 <
 '
-env
+r
 Iter
 =
 I
@@ -668,7 +668,7 @@ fn
 iter_from
 <
 '
-env
+r
 R
 I
 C
@@ -681,7 +681,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -694,7 +694,7 @@ Result
 Iter
 <
 '
-env
+r
 I
 >
 StoreError
@@ -705,7 +705,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D
@@ -718,14 +718,14 @@ I
 BackendIter
 <
 '
-env
+r
 >
 C
 :
 BackendRoCursor
 <
 '
-env
+r
 Iter
 =
 I
@@ -738,6 +738,9 @@ AsRef
 u8
 ]
 >
++
+'
+r
 {
 let
 cursor
@@ -822,7 +825,7 @@ db
 impl
 <
 '
-env
+i
 I
 >
 Iterator
@@ -830,7 +833,7 @@ for
 Iter
 <
 '
-env
+i
 I
 >
 where
@@ -839,7 +842,7 @@ I
 BackendIter
 <
 '
-env
+i
 >
 {
 type
@@ -850,7 +853,7 @@ Result
 (
 &
 '
-env
+i
 [
 u8
 ]
@@ -859,7 +862,7 @@ Option
 Value
 <
 '
-env
+i
 >
 >
 )

@@ -130,7 +130,7 @@ type
 Writer
 <
 '
-env
+w
 >
 =
 rkv
@@ -141,7 +141,7 @@ Writer
 LmdbRwTransaction
 <
 '
-env
+w
 >
 >
 ;
@@ -149,7 +149,7 @@ fn
 getput
 <
 '
-env
+w
 '
 s
 >
@@ -161,7 +161,7 @@ writer
 :
 &
 '
-env
+w
 mut
 Writer
 ids

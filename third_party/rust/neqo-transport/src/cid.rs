@@ -124,6 +124,14 @@ cmp
 :
 max
 ;
+pub
+const
+MAX_CONNECTION_ID_LEN
+:
+usize
+=
+20
+;
 #
 [
 derive
@@ -176,7 +184,7 @@ len
 .
 .
 =
-20
+MAX_CONNECTION_ID_LEN
 )
 )
 ;
@@ -1078,7 +1086,7 @@ len
 .
 .
 =
-20
+MAX_CONNECTION_ID_LEN
 )
 {
 panic

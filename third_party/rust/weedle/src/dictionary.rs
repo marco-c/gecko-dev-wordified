@@ -1,10 +1,16 @@
 use
+crate
+:
+:
 attribute
 :
 :
 ExtendedAttributeList
 ;
 use
+crate
+:
+:
 common
 :
 :
@@ -14,6 +20,9 @@ Identifier
 }
 ;
 use
+crate
+:
+:
 types
 :
 :
@@ -142,6 +151,9 @@ super
 *
 ;
 use
+crate
+:
+:
 Parse
 ;
 test

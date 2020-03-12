@@ -415,7 +415,7 @@ trait
 BackendEnvironmentBuilder
 <
 '
-env
+b
 >
 :
 Debug
@@ -439,7 +439,7 @@ Environment
 BackendEnvironment
 <
 '
-env
+b
 >
 ;
 type
@@ -562,7 +562,7 @@ trait
 BackendEnvironment
 <
 '
-env
+e
 >
 :
 Debug
@@ -598,7 +598,7 @@ RoTransaction
 BackendRoCursorTransaction
 <
 '
-env
+e
 Database
 =
 Self
@@ -613,7 +613,7 @@ RwTransaction
 BackendRwCursorTransaction
 <
 '
-env
+e
 Database
 =
 Self
@@ -687,7 +687,7 @@ begin_ro_txn
 (
 &
 '
-env
+e
 self
 )
 -
@@ -709,7 +709,7 @@ begin_rw_txn
 (
 &
 '
-env
+e
 self
 )
 -
@@ -1141,7 +1141,7 @@ trait
 BackendRoCursorTransaction
 <
 '
-env
+t
 >
 :
 BackendRoTransaction
@@ -1152,7 +1152,7 @@ RoCursor
 BackendRoCursor
 <
 '
-env
+t
 >
 ;
 fn
@@ -1160,7 +1160,7 @@ open_ro_cursor
 (
 &
 '
-env
+t
 self
 db
 :
@@ -1190,7 +1190,7 @@ trait
 BackendRwCursorTransaction
 <
 '
-env
+t
 >
 :
 BackendRwTransaction
@@ -1201,7 +1201,7 @@ RoCursor
 BackendRoCursor
 <
 '
-env
+t
 >
 ;
 fn
@@ -1209,7 +1209,7 @@ open_ro_cursor
 (
 &
 '
-env
+t
 self
 db
 :
@@ -1239,7 +1239,7 @@ trait
 BackendRoCursor
 <
 '
-env
+c
 >
 :
 Debug
@@ -1250,7 +1250,7 @@ Iter
 BackendIter
 <
 '
-env
+c
 >
 ;
 fn
@@ -1291,6 +1291,9 @@ AsRef
 u8
 ]
 >
++
+'
+c
 ;
 fn
 into_iter_dup_of
@@ -1318,6 +1321,9 @@ AsRef
 u8
 ]
 >
++
+'
+c
 ;
 }
 pub
@@ -1325,7 +1331,7 @@ trait
 BackendIter
 <
 '
-env
+i
 >
 {
 type
@@ -1359,13 +1365,13 @@ Result
 (
 &
 '
-env
+i
 [
 u8
 ]
 &
 '
-env
+i
 [
 u8
 ]

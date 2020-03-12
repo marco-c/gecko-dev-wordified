@@ -3156,7 +3156,7 @@ mode
 ffi
 :
 :
-mode_t
+mdb_mode_t
 )
 -
 >

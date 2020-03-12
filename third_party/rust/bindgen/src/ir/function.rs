@@ -2639,11 +2639,8 @@ enable_function_attribute_detection
 &
 cursor
 .
-has_simple_attr
+has_warn_unused_result_attr
 (
-"
-warn_unused_result
-"
 )
 ;
 let
