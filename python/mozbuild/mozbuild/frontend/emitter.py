@@ -6152,9 +6152,6 @@ symbols_file
 symbols_file
 ]
 defines
-py2
-=
-True
 )
             
 if
