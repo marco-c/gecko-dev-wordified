@@ -5514,7 +5514,7 @@ remote
 .
 separatePrivilegedContentProcess
 "
-false
+true
 )
 ;
 /
