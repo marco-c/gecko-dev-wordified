@@ -15007,12 +15007,9 @@ focusedNode
 &
 &
 focusedNode
--
->
-IsEqualNode
-(
+=
+=
 aElement
-)
 ;
 aWindow
 -
