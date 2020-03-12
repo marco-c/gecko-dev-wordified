@@ -2887,6 +2887,11 @@ asGlobalContext
 ;
 }
 }
+if
+(
+pn
+)
+{
 /
 /
 Successfully
@@ -2913,11 +2918,6 @@ ProfilingCategoryPair
 JS_Parsing
 )
 ;
-if
-(
-pn
-)
-{
 /
 /
 Publish
