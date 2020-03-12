@@ -1828,7 +1828,7 @@ by
 traceLink
 |
 .
-JSObject
+JSFunction
 *
 object_
 ;
@@ -3376,16 +3376,7 @@ function
 const
 {
 return
-&
 object_
--
->
-as
-<
-JSFunction
->
-(
-)
 ;
 }
 /
