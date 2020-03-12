@@ -2022,17 +2022,6 @@ of
 the
 pointer
 *
-param
-aTarget
-[
-IN
-]
-the
-element
-triggering
-the
-event
-*
 /
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -2042,9 +2031,6 @@ int32_t
 aX
 int32_t
 aY
-Element
-*
-aTarget
 )
 ;
 /
