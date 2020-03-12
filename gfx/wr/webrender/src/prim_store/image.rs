@@ -840,6 +840,7 @@ Deserialize
 [
 derive
 (
+Debug
 MallocSizeOf
 )
 ]
