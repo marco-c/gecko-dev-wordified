@@ -431,13 +431,6 @@ int32_t
 \
 _
 (
-UseSoftwareWebRender
-bool
-false
-)
-\
-_
-(
 ScreenDepth
 int32_t
 0
