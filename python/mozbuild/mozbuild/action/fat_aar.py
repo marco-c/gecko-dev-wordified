@@ -94,6 +94,8 @@ print_function
 import
 argparse
 import
+six
+import
 sys
 from
 collections
@@ -583,6 +585,10 @@ fingerprint
 =
 sha1
 (
+six
+.
+ensure_binary
+(
 fileobj
 .
 open
@@ -591,6 +597,7 @@ open
 .
 read
 (
+)
 )
 )
 .
@@ -906,7 +913,7 @@ archs
 in
 ds
 .
-iteritems
+items
 (
 )
 )
@@ -920,7 +927,7 @@ sorted
 (
 diffs
 .
-iteritems
+items
 (
 )
 )
@@ -1021,7 +1028,7 @@ ds
 in
 not_allowed
 .
-iteritems
+items
 (
 )
 :
