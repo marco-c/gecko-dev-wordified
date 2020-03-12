@@ -176,7 +176,10 @@ protected
 using
 FrameType
 =
-Pair
+std
+:
+:
+pair
 <
 webrtc
 :
@@ -382,7 +385,10 @@ mConvertedFrames
 .
 push_back
 (
-MakePair
+std
+:
+:
+make_pair
 (
 aVideoFrame
 TimeStamp
@@ -587,8 +593,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -604,8 +608,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -621,8 +623,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 TimeDuration
@@ -728,8 +728,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -745,8 +743,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -762,8 +758,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 future
@@ -896,8 +890,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -913,8 +905,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -930,8 +920,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 future1
@@ -947,8 +935,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -964,8 +950,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -981,8 +965,6 @@ frames
 ]
 .
 second
-(
-)
 future2
 )
 ;
@@ -994,8 +976,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 frames
@@ -1004,8 +984,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 )
@@ -1112,8 +1090,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -1129,8 +1105,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -1146,8 +1120,6 @@ frames
 ]
 .
 second
-(
-)
 future1
 )
 ;
@@ -1159,8 +1131,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -1176,8 +1146,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -1193,8 +1161,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 TimeDuration
@@ -1230,8 +1196,6 @@ frames
 ]
 .
 first
-(
-)
 .
 timestamp_us
 (
@@ -1242,8 +1206,6 @@ frames
 ]
 .
 first
-(
-)
 .
 timestamp_us
 (
@@ -1379,8 +1341,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -1396,8 +1356,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -1413,8 +1371,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 future2
@@ -1623,8 +1579,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -1640,8 +1594,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -1657,8 +1609,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 future1
@@ -1674,8 +1624,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -1691,8 +1639,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -1708,8 +1654,6 @@ frames
 ]
 .
 second
-(
-)
 -
 now
 future1
@@ -1749,8 +1693,6 @@ frames
 ]
 .
 first
-(
-)
 .
 timestamp_us
 (
@@ -1761,8 +1703,6 @@ frames
 ]
 .
 first
-(
-)
 .
 timestamp_us
 (
@@ -2084,8 +2024,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -2101,8 +2039,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -2118,8 +2054,6 @@ frames
 ]
 .
 second
-(
-)
 -
 start
 future1
@@ -2135,8 +2069,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -2152,8 +2084,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (
@@ -2169,8 +2099,6 @@ frames
 ]
 .
 second
-(
-)
 -
 start
 future3
@@ -2379,8 +2307,6 @@ frames
 ]
 .
 first
-(
-)
 .
 width
 (
@@ -2396,8 +2322,6 @@ frames
 ]
 .
 first
-(
-)
 .
 height
 (

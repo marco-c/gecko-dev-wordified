@@ -154,15 +154,6 @@ include
 "
 mozilla
 /
-Pair
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoStyleConsts
 .
 h

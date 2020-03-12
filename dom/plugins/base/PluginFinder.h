@@ -365,10 +365,10 @@ aNewPlugins
 /
 nsTArray
 <
-mozilla
+std
 :
 :
-Pair
+pair
 <
 bool
 RefPtr
@@ -758,10 +758,10 @@ checking
 .
 nsTArray
 <
-mozilla
+std
 :
 :
-Pair
+pair
 <
 bool
 RefPtr

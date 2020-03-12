@@ -321,6 +321,11 @@ h
 for
 PrincipalHandle
 GraphTime
+#
+include
+<
+utility
+>
 /
 /
 X
@@ -4487,8 +4492,6 @@ aSinkId
 mSink
 .
 first
-(
-)
 ;
 }
 /
@@ -12502,7 +12505,10 @@ main
 thread
 only
 .
-Pair
+std
+:
+:
+pair
 <
 nsString
 RefPtr
