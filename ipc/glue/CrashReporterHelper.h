@@ -74,17 +74,6 @@ include
 "
 mozilla
 /
-ipc
-/
-Shmem
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -157,8 +146,6 @@ IPDL
 async
 InitCrashReporter
 (
-Shmem
-shmem
 NativeThreadId
 threadId
 )
@@ -258,10 +245,6 @@ nullptr
 IPCResult
 RecvInitCrashReporter
 (
-Shmem
-&
-&
-aShmem
 const
 CrashReporter
 :
@@ -282,7 +265,6 @@ CrashReporterHost
 >
 (
 PT
-aShmem
 aThreadId
 )
 ;

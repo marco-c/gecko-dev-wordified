@@ -2406,10 +2406,6 @@ ipc
 IPCResult
 RecvInitCrashReporter
 (
-Shmem
-&
-&
-aShmem
 const
 NativeThreadId
 &
