@@ -417,8 +417,6 @@ name
 includes
 (
 "
-run_test
-/
 onConnect
 "
 )
