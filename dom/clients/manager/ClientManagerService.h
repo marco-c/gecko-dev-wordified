@@ -485,11 +485,6 @@ const
 ClientOpenWindowArgs
 &
 aArgs
-already_AddRefed
-<
-ContentParent
->
-aSourceProcess
 )
 ;
 bool
