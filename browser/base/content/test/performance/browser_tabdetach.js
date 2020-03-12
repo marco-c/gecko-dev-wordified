@@ -378,7 +378,7 @@ overflow
 as
 expected
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -515,7 +515,7 @@ overflowed
 as
 expected
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
