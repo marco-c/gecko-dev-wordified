@@ -10145,9 +10145,12 @@ GetPropertyAnimationGroups
 ;
 }
 const
-CompositorAnimationData
-*
-GetTransformLikeMetaData
+Maybe
+<
+TransformData
+>
+&
+GetTransformData
 (
 )
 const
@@ -10155,7 +10158,7 @@ const
 return
 mAnimationInfo
 .
-GetTransformLikeMetaData
+GetTransformData
 (
 )
 ;
