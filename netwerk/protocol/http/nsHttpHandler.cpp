@@ -556,7 +556,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+AntiTrackingRedirectHeuristic
 .
 h
 "
@@ -5836,10 +5836,7 @@ MOZ_ASSERT
 newURI
 )
 ;
-AntiTrackingCommon
-:
-:
-RedirectHeuristic
+AntiTrackingRedirectHeuristic
 (
 oldChan
 oldURI

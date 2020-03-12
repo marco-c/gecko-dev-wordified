@@ -120,6 +120,13 @@ mozilla_StoragePrincipalHelper_h
 #
 define
 mozilla_StoragePrincipalHelper_h
+#
+include
+"
+nsError
+.
+h
+"
 /
 *
 *
