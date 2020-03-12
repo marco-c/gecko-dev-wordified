@@ -208,6 +208,10 @@ command
 stderr
 =
 stderr
+                                           
+universal_newlines
+=
+True
 )
     
 except
