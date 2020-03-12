@@ -19991,7 +19991,7 @@ RegExpLiteral
 (
 )
 .
-getOrCreate
+create
 (
 cx
 parser
@@ -20106,7 +20106,7 @@ BigIntLiteral
 (
 )
 .
-getOrCreate
+create
 (
 cx
 )
