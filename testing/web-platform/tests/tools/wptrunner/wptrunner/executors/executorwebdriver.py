@@ -2109,14 +2109,6 @@ self
 )
 :
         
-socket_previous_timeout
-=
-socket
-.
-getdefaulttimeout
-(
-)
-        
 try
 :
             
@@ -2185,18 +2177,22 @@ testrunner
 triggers
 .
             
-socket
-.
-setdefaulttimeout
-(
-2
-)
-            
 self
 .
 webdriver
 .
-window_handle
+send_session_command
+(
+"
+GET
+"
+"
+window
+"
+timeout
+=
+2
+)
         
 except
 (
@@ -2214,16 +2210,6 @@ InvalidSessionIdException
             
 return
 False
-        
-finally
-:
-            
-socket
-.
-setdefaulttimeout
-(
-socket_previous_timeout
-)
         
 return
 True

@@ -2950,6 +2950,9 @@ url
 body
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -3108,6 +3111,9 @@ Decoder
 session
 =
 self
+timeout
+=
+timeout
 )
         
 if
@@ -3342,6 +3348,9 @@ uri
 body
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -3486,6 +3495,7 @@ send_command
 method
 url
 body
+timeout
 )
     
 property
