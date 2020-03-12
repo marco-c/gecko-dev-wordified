@@ -123,6 +123,15 @@ include
 "
 mozilla
 /
+AntiTrackingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ContentBlockingAllowList
 .
 h
@@ -2568,7 +2577,7 @@ nsIURI
 >
 uriBeingLoaded
 =
-AntiTrackingCommon
+AntiTrackingUtils
 :
 :
 MaybeGetDocumentURIBeingLoaded
