@@ -3393,7 +3393,7 @@ JSFunction
 function
 )
 {
-gcThing
+object_
 =
 function
 ;
