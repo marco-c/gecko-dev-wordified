@@ -6388,6 +6388,10 @@ mFrameLoader
 =
 nullptr
 ;
+ClearDisplayItems
+(
+)
+;
 nsContentUtils
 :
 :
