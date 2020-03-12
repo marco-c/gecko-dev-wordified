@@ -2979,13 +2979,9 @@ public
 ProfilingStack
 (
 )
-:
-stackPointer
-(
-0
-)
-{
-}
+=
+default
+;
 MFBT_API
 ~
 ProfilingStack
@@ -3773,6 +3769,9 @@ uint32_t
 ReleaseAcquire
 >
 stackPointer
+{
+0
+}
 ;
 }
 ;

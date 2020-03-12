@@ -874,8 +874,9 @@ virtual
 PrintfTarget
 (
 )
-{
-}
+=
+default
+;
 /
 *
 Subclasses
