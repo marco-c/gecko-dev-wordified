@@ -498,8 +498,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 const
 uint64_t
 &

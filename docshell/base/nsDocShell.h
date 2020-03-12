@@ -3236,8 +3236,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 nsresult
 &
 rv

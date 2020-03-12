@@ -2289,8 +2289,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 const
 uint64_t
 &
@@ -2544,7 +2542,6 @@ nullptr
 attrs
 aLoadFlags
 aCacheKey
-aIsActive
 *
 aRv
 getter_AddRefs
