@@ -346,8 +346,7 @@ resource
 :
 /
 /
-/
-modules
+formautofill
 /
 OSKeyStore
 .
@@ -1848,7 +1847,7 @@ if
 !
 (
 await
-FormAutofillUtils
+OSKeyStore
 .
 ensureLoggedIn
 (
@@ -3694,7 +3693,7 @@ if
 !
 (
 await
-FormAutofillUtils
+OSKeyStore
 .
 ensureLoggedIn
 (

@@ -181,14 +181,6 @@ the
 prompt
 string
 "
-"
-this
-is
-the
-caption
-string
-"
-null
 )
 )
 "
