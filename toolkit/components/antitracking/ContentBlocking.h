@@ -190,6 +190,13 @@ mozilla
 class
 OriginAttributes
 ;
+namespace
+dom
+{
+class
+BrowsingContext
+;
+}
 class
 ContentBlocking
 final
@@ -540,7 +547,7 @@ scenarios
 /
 /
 -
-aParentWindow
+aParentContext
 is
 a
 3rd
@@ -632,7 +639,7 @@ net
 /
 /
 -
-aParentWindow
+aParentContext
 is
 a
 first
@@ -643,6 +650,8 @@ a
 3rd
 party
 resource
+/
+/
 (
 probably
 /
@@ -777,9 +786,12 @@ AllowAccessFor
 nsIPrincipal
 *
 aPrincipal
-nsPIDOMWindowInner
+dom
+:
+:
+BrowsingContext
 *
-aParentWindow
+aParentContext
 ContentBlockingNotifier
 :
 :
