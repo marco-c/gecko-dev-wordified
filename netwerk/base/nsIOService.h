@@ -197,6 +197,15 @@ h
 #
 include
 "
+mozilla
+/
+Mutex
+.
+h
+"
+#
+include
+"
 prtime
 .
 h
@@ -834,6 +843,7 @@ char
 aName
 )
 ;
+static
 bool
 UseSocketProcess
 (
@@ -1383,6 +1393,9 @@ nsCategoryCache
 nsIChannelEventSink
 >
 mChannelEventSinks
+;
+Mutex
+mMutex
 ;
 nsTArray
 <
