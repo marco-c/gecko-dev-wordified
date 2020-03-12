@@ -1414,7 +1414,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 true

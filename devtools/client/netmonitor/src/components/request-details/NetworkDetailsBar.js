@@ -284,7 +284,7 @@ component
 *
 /
 function
-NetworkDetailsPanel
+NetworkDetailsBar
 (
 {
 connector
@@ -321,7 +321,7 @@ network
 -
 details
 -
-panel
+bar
 "
 }
 !
@@ -355,15 +355,15 @@ request
 )
 ;
 }
-NetworkDetailsPanel
+NetworkDetailsBar
 .
 displayName
 =
 "
-NetworkDetailsPanel
+NetworkDetailsBar
 "
 ;
-NetworkDetailsPanel
+NetworkDetailsBar
 .
 propTypes
 =
@@ -526,6 +526,6 @@ open
 )
 )
 (
-NetworkDetailsPanel
+NetworkDetailsBar
 )
 ;

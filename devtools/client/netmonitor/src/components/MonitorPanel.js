@@ -338,7 +338,7 @@ lazyGetter
 (
 this
 "
-NetworkDetailsPanel
+NetworkDetailsBar
 "
 function
 (
@@ -360,7 +360,11 @@ src
 /
 components
 /
-NetworkDetailsPanel
+request
+-
+details
+/
+NetworkDetailsBar
 "
 )
 )
@@ -1301,7 +1305,7 @@ endPanel
 networkDetailsOpen
 &
 &
-NetworkDetailsPanel
+NetworkDetailsBar
 (
 {
 ref

@@ -267,7 +267,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 ;

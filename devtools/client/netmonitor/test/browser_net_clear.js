@@ -363,7 +363,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 "

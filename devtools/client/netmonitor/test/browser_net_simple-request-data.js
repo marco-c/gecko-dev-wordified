@@ -406,7 +406,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false

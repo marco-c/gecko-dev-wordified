@@ -1558,7 +1558,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 ;

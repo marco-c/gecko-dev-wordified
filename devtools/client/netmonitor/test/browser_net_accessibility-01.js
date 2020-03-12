@@ -241,7 +241,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 panelVisibility
