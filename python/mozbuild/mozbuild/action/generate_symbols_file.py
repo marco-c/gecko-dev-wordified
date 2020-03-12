@@ -66,7 +66,7 @@ buildconfig
 import
 os
 from
-io
+StringIO
 import
 StringIO
 from

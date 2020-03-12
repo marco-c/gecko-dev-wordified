@@ -310,10 +310,7 @@ _inner
 .
 write
 (
-ensure_bytes
-(
 content
-)
 )
         
 return

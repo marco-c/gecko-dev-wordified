@@ -618,7 +618,7 @@ ALLDEFINES
 '
 ]
 .
-items
+iteritems
 (
 )
 )

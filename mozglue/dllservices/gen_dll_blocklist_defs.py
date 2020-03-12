@@ -1891,10 +1891,10 @@ so
 chooses
 .
         
-return
-sorted
-(
 filtered_list
+.
+sort
+(
 key
 =
 lambda
@@ -1906,6 +1906,9 @@ get_name
 (
 )
 )
+        
+return
+filtered_list
     
 staticmethod
     
@@ -2492,16 +2495,64 @@ ts
 )
 :
         
+#
+Since
+we
+can
+'
+t
+specify
+the
+long
+literal
+suffix
+in
+python
+3
+we
+'
+ll
+        
+#
+compute
+max_timestamp
+this
+way
+to
+ensure
+that
+it
+is
+defined
+as
+a
+        
+#
+long
+in
+python
+2
+        
 max_timestamp
 =
 (
+long
+(
 2
+)
 *
 *
 32
 )
 -
 1
+        
+assert
+isinstance
+(
+max_timestamp
+long
+)
         
 if
 ts
@@ -2732,7 +2783,7 @@ self
 .
 _ver
 =
-int
+long
 (
 args
 [
@@ -2885,7 +2936,7 @@ args
         
 return
 (
-int
+long
 (
 args
 [
@@ -2898,7 +2949,7 @@ args
 )
 |
 (
-int
+long
 (
 args
 [
@@ -2913,7 +2964,7 @@ args
 \
             
 (
-int
+long
 (
 args
 [
@@ -2925,7 +2976,7 @@ args
 16
 )
 |
-int
+long
 (
 args
 [
@@ -2962,7 +3013,7 @@ isinstance
 self
 .
 _ver
-int
+long
 )
 :
             

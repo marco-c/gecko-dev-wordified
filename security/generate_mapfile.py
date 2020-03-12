@@ -266,14 +266,7 @@ open
 (
 input
 '
-r
-'
-encoding
-=
-'
-utf
--
-8
+rb
 '
 )
 as
