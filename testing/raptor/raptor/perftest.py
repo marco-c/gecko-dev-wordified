@@ -1153,6 +1153,16 @@ self
 build_browser_profile
 (
 )
+        
+#
+Crashes
+counter
+        
+self
+.
+crashes
+=
+0
     
 property
     
@@ -2259,6 +2269,32 @@ as
 e
 :
                     
+#
+Check
+for
+crashes
+before
+showing
+the
+timeout
+error
+.
+                    
+self
+.
+check_for_crashes
+(
+)
+                    
+if
+self
+.
+crashes
+=
+=
+0
+:
+                        
 LOG
 .
 critical
@@ -2275,7 +2311,7 @@ out
 .
 "
 )
-                    
+                        
 LOG
 .
 error
