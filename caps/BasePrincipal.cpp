@@ -3381,7 +3381,6 @@ ssm
 return
 NS_ERROR_UNEXPECTED
 ;
-;
 }
 *
 aRes
