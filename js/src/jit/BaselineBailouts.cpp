@@ -3412,9 +3412,6 @@ static
 bool
 HasLiveStackValueAtDepth
 (
-JSContext
-*
-cx
 HandleScript
 script
 jsbytecode
@@ -3464,10 +3461,9 @@ stackDepth
 ;
 for
 (
-TryNoteIterAll
+TryNoteIterAllNoGC
 tni
 (
-cx
 script
 pc
 )
@@ -8297,7 +8293,6 @@ moreFrames
 |
 HasLiveStackValueAtDepth
 (
-cx
 script
 pc
 i
