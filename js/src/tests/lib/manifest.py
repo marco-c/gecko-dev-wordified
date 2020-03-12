@@ -25,8 +25,6 @@ os
 import
 re
 import
-six
-import
 sys
 from
 subprocess
@@ -2161,11 +2159,10 @@ for
 k
 test_list
 in
-six
-.
-iteritems
-(
 manifests
+.
+items
+(
 )
 :
         
