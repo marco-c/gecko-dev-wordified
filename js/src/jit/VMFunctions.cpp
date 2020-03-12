@@ -3826,7 +3826,7 @@ JSMSG_READ_ONLY
 return
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 obj
@@ -4269,7 +4269,7 @@ false
 return
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 obj

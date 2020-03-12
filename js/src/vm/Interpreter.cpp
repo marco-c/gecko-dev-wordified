@@ -2044,7 +2044,7 @@ result
 &
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 obj
@@ -11054,7 +11054,7 @@ result
 &
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 obj
@@ -34232,7 +34232,7 @@ false
 return
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 obj

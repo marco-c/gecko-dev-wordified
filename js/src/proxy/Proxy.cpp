@@ -2693,7 +2693,7 @@ false
 return
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 proxy
@@ -2784,7 +2784,7 @@ false
 return
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 proxy
