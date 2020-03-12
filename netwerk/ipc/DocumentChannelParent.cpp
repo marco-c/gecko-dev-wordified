@@ -477,11 +477,6 @@ isTopLevelDoc
 )
 aArgs
 .
-hasNonEmptySandboxingFlags
-(
-)
-aArgs
-.
 channelId
 (
 )

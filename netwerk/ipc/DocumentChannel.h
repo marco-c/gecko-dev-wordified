@@ -339,8 +339,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 )
 ;
 const
@@ -502,10 +500,6 @@ mIsActive
 const
 bool
 mIsTopLevelDoc
-;
-const
-bool
-mHasNonEmptySandboxingFlags
 ;
 nsresult
 mStatus

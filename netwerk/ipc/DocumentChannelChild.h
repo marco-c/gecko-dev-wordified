@@ -217,8 +217,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

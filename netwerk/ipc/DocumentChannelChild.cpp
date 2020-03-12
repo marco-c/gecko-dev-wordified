@@ -294,8 +294,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 )
 :
 DocumentChannel
@@ -307,7 +305,6 @@ aLoadType
 aCacheKey
 aIsActive
 aIsTopLevelDoc
-aHasNonEmptySandboxingFlags
 )
 {
 LOG
@@ -674,14 +671,6 @@ isTopLevelDoc
 )
 =
 mIsTopLevelDoc
-;
-args
-.
-hasNonEmptySandboxingFlags
-(
-)
-=
-mHasNonEmptySandboxingFlags
 ;
 args
 .

@@ -2295,8 +2295,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 const
 uint64_t
 &
@@ -2553,7 +2551,6 @@ aLoadType
 aCacheKey
 aIsActive
 aIsTopLevelDoc
-aHasNonEmptySandboxingFlags
 *
 aRv
 getter_AddRefs

@@ -3242,8 +3242,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 nsresult
 &
 rv
