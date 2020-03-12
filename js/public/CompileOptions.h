@@ -946,11 +946,6 @@ selfHostingMode
 =
 false
 ;
-bool
-werrorOption
-=
-false
-;
 AsmJSOption
 asmJSOption
 =

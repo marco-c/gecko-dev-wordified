@@ -3500,9 +3500,6 @@ optionName
 of
 [
 "
-werror
-"
-"
 strict_mode
 "
 ]

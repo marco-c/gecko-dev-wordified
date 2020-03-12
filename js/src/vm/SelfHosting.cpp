@@ -17958,12 +17958,6 @@ setForceFullParse
 ;
 options
 .
-werrorOption
-=
-true
-;
-options
-.
 setForceStrictMode
 (
 )
