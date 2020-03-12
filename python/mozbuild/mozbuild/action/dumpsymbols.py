@@ -721,6 +721,9 @@ subprocess
 check_output
 (
 args
+universal_newlines
+=
+True
 )
     
 with
@@ -729,6 +732,19 @@ open
 tracking_file
 '
 w
+'
+encoding
+=
+'
+utf
+-
+8
+'
+newline
+=
+'
+\
+n
 '
 )
 as
