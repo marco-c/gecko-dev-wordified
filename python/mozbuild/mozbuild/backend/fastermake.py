@@ -59,6 +59,10 @@ import
 absolute_import
 unicode_literals
 print_function
+from
+operator
+import
+itemgetter
 import
 six
 from
@@ -1521,12 +1525,15 @@ s
 .
 join
 (
+sorted
+(
 self
 .
 _install_manifests
 .
 keys
 (
+)
 )
 )
 )
@@ -1542,6 +1549,8 @@ for
 target
 deps
 in
+sorted
+(
 six
 .
 iteritems
@@ -1549,6 +1558,7 @@ iteritems
 self
 .
 _dependencies
+)
 )
 :
             
@@ -1577,7 +1587,10 @@ d
 for
 d
 in
+sorted
+(
 deps
+)
 )
         
 #
@@ -1676,6 +1689,8 @@ for
 target
 deps
 in
+sorted
+(
 six
 .
 iteritems
@@ -1683,6 +1698,7 @@ iteritems
 self
 .
 _l10n_dependencies
+)
 )
 :
             
@@ -1710,7 +1726,16 @@ d
 for
 d
 in
+sorted
+(
 deps
+key
+=
+itemgetter
+(
+0
+)
+)
 )
             
 for
