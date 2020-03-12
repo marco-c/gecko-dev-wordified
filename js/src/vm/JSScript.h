@@ -15049,11 +15049,6 @@ IsLazyScript
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-warnedAboutUndefinedProp
-WarnedAboutUndefinedProp
-)
-MUTABLE_FLAG_GETTER_SETTER
-(
 hasRunOnce
 HasRunOnce
 )
