@@ -1776,7 +1776,7 @@ aParam
 uint32_t
 aIndex
 const
-char
+char16_t
 *
 aName
 float

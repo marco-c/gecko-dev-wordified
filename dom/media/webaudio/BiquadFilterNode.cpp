@@ -1329,6 +1329,7 @@ BiquadFilterNodeEngine
 :
 :
 FREQUENCY
+u
 "
 frequency
 "
@@ -1363,6 +1364,7 @@ BiquadFilterNodeEngine
 :
 :
 DETUNE
+u
 "
 detune
 "
@@ -1378,6 +1380,7 @@ BiquadFilterNodeEngine
 :
 :
 Q
+u
 "
 Q
 "
@@ -1393,6 +1396,7 @@ BiquadFilterNodeEngine
 :
 :
 GAIN
+u
 "
 gain
 "

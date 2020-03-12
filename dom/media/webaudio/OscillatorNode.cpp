@@ -2057,6 +2057,7 @@ OscillatorNodeEngine
 :
 :
 FREQUENCY
+u
 "
 frequency
 "
@@ -2091,6 +2092,7 @@ OscillatorNodeEngine
 :
 :
 DETUNE
+u
 "
 detune
 "

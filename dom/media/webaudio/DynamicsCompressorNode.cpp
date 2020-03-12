@@ -958,6 +958,7 @@ DynamicsCompressorNodeEngine
 :
 :
 THRESHOLD
+u
 "
 threshold
 "
@@ -981,6 +982,7 @@ DynamicsCompressorNodeEngine
 :
 :
 KNEE
+u
 "
 knee
 "
@@ -1002,6 +1004,7 @@ DynamicsCompressorNodeEngine
 :
 :
 RATIO
+u
 "
 ratio
 "
@@ -1023,6 +1026,7 @@ DynamicsCompressorNodeEngine
 :
 :
 ATTACK
+u
 "
 attack
 "
@@ -1044,6 +1048,7 @@ DynamicsCompressorNodeEngine
 :
 :
 RELEASE
+u
 "
 release
 "

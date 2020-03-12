@@ -204,7 +204,7 @@ aNode
 uint32_t
 aIndex
 const
-char
+char16_t
 *
 aName
 float
@@ -918,7 +918,7 @@ aName
 {
 aName
 .
-AssignASCII
+Assign
 (
 mName
 )
@@ -1306,7 +1306,7 @@ InputNode
 mInputNodes
 ;
 const
-char
+char16_t
 *
 mName
 ;
