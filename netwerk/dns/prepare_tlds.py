@@ -914,24 +914,6 @@ bin
 "
 :
     
-if
-sys
-.
-version_info
-[
-0
-]
->
-=
-3
-:
-      
-output
-=
-output
-.
-buffer
-    
 output
 .
 write
