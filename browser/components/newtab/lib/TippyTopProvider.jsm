@@ -400,7 +400,7 @@ image_url
 ;
 site
 .
-smallFavicon
+favicon
 =
 TIPPYTOP_PATH
 +
