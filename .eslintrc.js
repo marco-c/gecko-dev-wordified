@@ -211,6 +211,7 @@ test
 *
 /
 browser
+*
 /
 "
 ]
