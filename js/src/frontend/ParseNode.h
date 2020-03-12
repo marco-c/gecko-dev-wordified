@@ -13982,7 +13982,7 @@ FunctionBox
 *
 traceLink
 ;
-ObjectBox
+FunctionBox
 *
 emitLink
 ;
