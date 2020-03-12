@@ -1433,6 +1433,9 @@ RenderRootStateManager
 >
 mStateManagers
 ;
+DisplayItemCache
+mDisplayItemCache
+;
 }
 ;
 }
