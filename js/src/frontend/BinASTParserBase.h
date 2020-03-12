@@ -273,7 +273,7 @@ JSTracer
 trc
 )
 {
-TraceListNode
+FunctionBox
 :
 :
 TraceList
