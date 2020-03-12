@@ -9102,13 +9102,15 @@ on
 :
 if
 (
-GetBatching
+IsBatching
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 /
 /
 Be

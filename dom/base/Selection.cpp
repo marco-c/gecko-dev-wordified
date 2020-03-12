@@ -18464,13 +18464,15 @@ if
 mFrameSelection
 -
 >
-GetBatching
+IsBatching
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 if
 (
 !
@@ -19551,7 +19553,7 @@ if
 frameSelection
 -
 >
-GetBatching
+IsBatching
 (
 )
 )

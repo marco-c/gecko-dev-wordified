@@ -4875,8 +4875,8 @@ the
 mDesiredPos
 .
 mValue
-uint32_t
-GetBatching
+bool
+IsBatching
 (
 )
 const
@@ -4885,6 +4885,8 @@ return
 mBatching
 .
 mCounter
+>
+0
 ;
 }
 void
