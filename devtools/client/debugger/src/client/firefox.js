@@ -64,7 +64,6 @@ flow
 import
 {
 setupCommands
-setupCommandsTopTarget
 clientCommands
 }
 from
@@ -280,11 +279,6 @@ threadFront
 return
 ;
 }
-setupCommandsTopTarget
-(
-targetFront
-)
-;
 setupEventsTopTarget
 (
 targetFront
