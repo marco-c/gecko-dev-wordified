@@ -7872,8 +7872,6 @@ wr
 ColorF
 &
 aColor
-bool
-aPreferCompositorSurface
 )
 {
 wr
@@ -7933,7 +7931,6 @@ aFilter
 aImage
 aPremultipliedAlpha
 aColor
-aPreferCompositorSurface
 )
 ;
 }
@@ -8137,8 +8134,6 @@ wr
 :
 ImageRendering
 aRendering
-bool
-aPreferCompositorSurface
 )
 {
 wr_dp_push_yuv_planar_image
@@ -8159,7 +8154,6 @@ aColorDepth
 aColorSpace
 aColorRange
 aRendering
-aPreferCompositorSurface
 )
 ;
 }
@@ -8215,8 +8209,6 @@ wr
 :
 ImageRendering
 aRendering
-bool
-aPreferCompositorSurface
 )
 {
 wr_dp_push_yuv_NV12_image
@@ -8236,7 +8228,6 @@ aColorDepth
 aColorSpace
 aColorRange
 aRendering
-aPreferCompositorSurface
 )
 ;
 }
@@ -8287,8 +8278,6 @@ wr
 :
 ImageRendering
 aRendering
-bool
-aPreferCompositorSurface
 )
 {
 wr_dp_push_yuv_interleaved_image
@@ -8307,7 +8296,6 @@ aColorDepth
 aColorSpace
 aColorRange
 aRendering
-aPreferCompositorSurface
 )
 ;
 }
