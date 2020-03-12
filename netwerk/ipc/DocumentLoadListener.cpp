@@ -2288,8 +2288,6 @@ aLoadInfo
 nsLoadFlags
 aLoadFlags
 uint32_t
-aLoadType
-uint32_t
 aCacheKey
 bool
 aIsActive
@@ -2547,7 +2545,6 @@ mParentChannelListener
 nullptr
 attrs
 aLoadFlags
-aLoadType
 aCacheKey
 aIsActive
 aIsTopLevelDoc

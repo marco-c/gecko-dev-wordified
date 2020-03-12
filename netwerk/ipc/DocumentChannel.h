@@ -332,8 +332,6 @@ aLoadInfo
 nsLoadFlags
 aLoadFlags
 uint32_t
-aLoadType
-uint32_t
 aCacheKey
 bool
 aIsActive
@@ -484,10 +482,6 @@ RefPtr
 nsDocShellLoadState
 >
 mLoadState
-;
-const
-uint32_t
-mLoadType
 ;
 const
 uint32_t

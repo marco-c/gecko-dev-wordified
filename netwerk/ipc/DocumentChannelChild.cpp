@@ -287,8 +287,6 @@ aLoadInfo
 nsLoadFlags
 aLoadFlags
 uint32_t
-aLoadType
-uint32_t
 aCacheKey
 bool
 aIsActive
@@ -301,7 +299,6 @@ DocumentChannel
 aLoadState
 aLoadInfo
 aLoadFlags
-aLoadType
 aCacheKey
 aIsActive
 aIsTopLevelDoc
@@ -639,14 +636,6 @@ loadFlags
 )
 =
 mLoadFlags
-;
-args
-.
-loadType
-(
-)
-=
-mLoadType
 ;
 args
 .

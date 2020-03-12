@@ -457,11 +457,6 @@ loadFlags
 )
 aArgs
 .
-loadType
-(
-)
-aArgs
-.
 cacheKey
 (
 )
