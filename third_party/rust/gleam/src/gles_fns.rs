@@ -185,6 +185,12 @@ Gl
 }
 }
 impl
+Sealed
+for
+GlesFns
+{
+}
+impl
 Gl
 for
 GlesFns
