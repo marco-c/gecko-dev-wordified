@@ -30,6 +30,12 @@ LICENSE
 for
 details
 use
+super
+:
+:
+tokio_named_pipes
+;
+use
 mio_named_pipes
 ;
 use
@@ -90,12 +96,6 @@ tokio_io
 AsyncRead
 AsyncWrite
 }
-;
-use
-super
-:
-:
-tokio_named_pipes
 ;
 use
 winapi
