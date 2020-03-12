@@ -24938,7 +24938,7 @@ Maybe
 mozilla
 :
 :
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
