@@ -557,7 +557,7 @@ content
 /
 crashes
 .
-xhtml
+html
 "
 0
 }
