@@ -2750,7 +2750,7 @@ gc
 Cell
 *
 gcThing
-TraceListNode
+FunctionBox
 *
 traceLink
 )
@@ -2784,7 +2784,7 @@ ObjectBox
 JSObject
 *
 obj
-TraceListNode
+FunctionBox
 *
 traceLink
 )
@@ -3060,14 +3060,14 @@ TraceList
 JSTracer
 *
 trc
-TraceListNode
+FunctionBox
 *
 listHead
 )
 {
 for
 (
-TraceListNode
+FunctionBox
 *
 node
 =
