@@ -1504,9 +1504,6 @@ wr
 usize
 mDumpIndent
 ;
-DisplayItemCache
-mDisplayItemCache
-;
 public
 :
 /
