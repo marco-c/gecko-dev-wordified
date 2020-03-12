@@ -402,6 +402,10 @@ extern
 crate
 fluent
 ;
+extern
+crate
+fluent_ffi
+;
 #
 [
 cfg
