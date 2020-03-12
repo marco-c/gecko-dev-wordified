@@ -519,7 +519,7 @@ input_stream_params
 >
 channels
 >
-8
+UINT8_MAX
 )
 {
 return
