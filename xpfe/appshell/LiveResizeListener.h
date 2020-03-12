@@ -136,8 +136,9 @@ virtual
 LiveResizeListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
