@@ -13871,6 +13871,7 @@ and
 blur
 .
 let
+mut
 blur_filter
 =
 Filter
@@ -13879,6 +13880,12 @@ Filter
 Blur
 (
 std_deviation
+)
+;
+blur_filter
+.
+sanitize
+(
 )
 ;
 let
@@ -18246,6 +18253,12 @@ in
 mut
 filter_ops
 {
+filter
+.
+sanitize
+(
+)
+;
 let
 composite_mode
 =

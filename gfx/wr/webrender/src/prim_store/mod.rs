@@ -14265,7 +14265,7 @@ inflate_picture_rect
 surface_rect
 surface
 .
-scale_factors
+inflation_factor
 )
 ;
 surface_rect
