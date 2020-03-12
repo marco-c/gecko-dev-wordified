@@ -941,6 +941,14 @@ liveSABs
 (
 0
 )
+beforeWaitCallback
+(
+nullptr
+)
+afterWaitCallback
+(
+nullptr
+)
 offthreadIonCompilationEnabled_
 (
 true
