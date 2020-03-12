@@ -7424,7 +7424,7 @@ header
 ;
 Vector
 <
-MDefinition
+MPhi
 *
 2
 JitAllocPolicy
