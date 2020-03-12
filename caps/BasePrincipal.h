@@ -771,6 +771,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetExposableSpec
+(
+nsACString
+&
+aSpec
+)
+override
+;
+NS_IMETHOD
 GetHostPort
 (
 nsACString
