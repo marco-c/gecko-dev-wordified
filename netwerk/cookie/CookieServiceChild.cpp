@@ -120,6 +120,15 @@ include
 "
 mozilla
 /
+AntiTrackingCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LoadInfo
 .
 h

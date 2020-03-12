@@ -222,15 +222,6 @@ include
 "
 mozilla
 /
-MozPromise
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TimeStamp
 .
 h

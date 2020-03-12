@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsIURIMutator
 .
 h

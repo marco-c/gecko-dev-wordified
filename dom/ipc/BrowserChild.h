@@ -4013,7 +4013,7 @@ aTrackingFullHashes
 const
 Maybe
 <
-ContentBlockingNotifier
+AntiTrackingCommon
 :
 :
 StorageAccessGrantedReason

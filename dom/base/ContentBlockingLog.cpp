@@ -285,6 +285,9 @@ Telemetry
 OriginMetricID
 OriginMetricID
 ;
+namespace
+dom
+{
 /
 /
 sync
@@ -808,7 +811,7 @@ aBlocked
 const
 Maybe
 <
-ContentBlockingNotifier
+AntiTrackingCommon
 :
 :
 StorageAccessGrantedReason
@@ -1728,6 +1731,11 @@ break
 }
 }
 }
+}
+/
+/
+namespace
+dom
 }
 /
 /

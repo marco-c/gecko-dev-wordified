@@ -264,6 +264,15 @@ include
 "
 mozilla
 /
+AntiTrackingCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ArrayUtils
 .
 h
