@@ -170,6 +170,9 @@ header
 startButton
 :
 {
+label
+:
+{
 string_id
 :
 "
@@ -183,6 +186,7 @@ button
 -
 label
 "
+}
 message_id
 :
 "
