@@ -761,9 +761,9 @@ DecoderFlags
 :
 :
 FIRST_FRAME_ONLY
-aTestCase
-.
-mSurfaceFlags
+DefaultSurfaceFlags
+(
+)
 )
 ;
 ASSERT_TRUE
@@ -1728,9 +1728,9 @@ get
 RasterSurfaceKey
 (
 imageSize
-testCase
-.
-mSurfaceFlags
+DefaultSurfaceFlags
+(
+)
 PlaybackType
 :
 :
