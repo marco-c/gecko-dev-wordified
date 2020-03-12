@@ -185,12 +185,6 @@ Gl
 }
 }
 impl
-Sealed
-for
-GlFns
-{
-}
-impl
 Gl
 for
 GlFns
