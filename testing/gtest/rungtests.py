@@ -67,10 +67,8 @@ from
 __future__
 import
 with_statement
-from
-optparse
 import
-OptionParser
+argparse
 import
 os
 import
@@ -1328,7 +1326,9 @@ env
 class
 gtestOptions
 (
-OptionParser
+argparse
+.
+ArgumentParser
 )
 :
     
@@ -1339,29 +1339,32 @@ self
 )
 :
         
-OptionParser
+super
+(
+gtestOptions
+self
+)
 .
 __init__
 (
-self
 )
         
 self
 .
-add_option
+add_argument
 (
 "
 -
 -
 cwd
 "
-                        
+                          
 dest
 =
 "
 cwd
 "
-                        
+                          
 default
 =
 os
@@ -1369,7 +1372,7 @@ os
 getcwd
 (
 )
-                        
+                          
 help
 =
 "
@@ -1380,7 +1383,7 @@ directory
 from
 which
 "
-                             
+                               
 "
 to
 run
@@ -1391,7 +1394,7 @@ binary
         
 self
 .
-add_option
+add_argument
 (
 "
 -
@@ -1400,17 +1403,17 @@ xre
 -
 path
 "
-                        
+                          
 dest
 =
 "
 xre_path
 "
-                        
+                          
 default
 =
 None
-                        
+                          
 help
 =
 "
@@ -1421,7 +1424,7 @@ directory
 containing
 XRE
 "
-                             
+                               
 "
 (
 probably
@@ -1432,7 +1435,7 @@ xulrunner
         
 self
 .
-add_option
+add_argument
 (
 "
 -
@@ -1441,17 +1444,17 @@ symbols
 -
 path
 "
-                        
+                          
 dest
 =
 "
 symbols_path
 "
-                        
+                          
 default
 =
 None
-                        
+                          
 help
 =
 "
@@ -1462,7 +1465,7 @@ directory
 containing
 breakpad
 "
-                             
+                               
 "
 symbols
 or
@@ -1474,7 +1477,7 @@ zip
 file
 containing
 "
-                             
+                               
 "
 symbols
 "
@@ -1482,7 +1485,7 @@ symbols
         
 self
 .
-add_option
+add_argument
 (
 "
 -
@@ -1491,17 +1494,17 @@ utility
 -
 path
 "
-                        
+                          
 dest
 =
 "
 utility_path
 "
-                        
+                          
 default
 =
 None
-                        
+                          
 help
 =
 "
@@ -1518,7 +1521,7 @@ binaries
         
 self
 .
-add_option
+add_argument
 (
 "
 -
@@ -1527,23 +1530,23 @@ enable
 -
 webrender
 "
-                        
+                          
 action
 =
 "
 store_true
 "
-                        
+                          
 dest
 =
 "
 enable_webrender
 "
-                        
+                          
 default
 =
 False
-                        
+                          
 help
 =
 "
@@ -1555,6 +1558,20 @@ in
 Gecko
 .
 "
+)
+        
+self
+.
+add_argument
+(
+"
+args
+"
+nargs
+=
+argparse
+.
+REMAINDER
 )
 def
 update_mozinfo
@@ -1676,13 +1693,18 @@ gtestOptions
 )
     
 options
-args
 =
 parser
 .
 parse_args
 (
 )
+    
+args
+=
+options
+.
+args
     
 if
 not
