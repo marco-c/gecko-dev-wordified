@@ -566,7 +566,7 @@ mitmproxy
 .
 version
 .
-MITMPROXY
+VERSION
         
 ctx
 .
