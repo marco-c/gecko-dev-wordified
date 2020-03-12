@@ -189,6 +189,20 @@ type
 reftest
 '
 }
+             
+{
+'
+test
+-
+type
+'
+:
+'
+geckoview
+-
+junit
+'
+}
 ]
     
 order
