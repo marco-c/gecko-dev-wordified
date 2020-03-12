@@ -484,8 +484,9 @@ virtual
 ProfilerMarkerPayload
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Compute
