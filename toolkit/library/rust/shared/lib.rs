@@ -398,6 +398,10 @@ extern
 crate
 fluent_langneg_ffi
 ;
+extern
+crate
+fluent
+;
 #
 [
 cfg
