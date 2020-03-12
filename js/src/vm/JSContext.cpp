@@ -4376,6 +4376,16 @@ efs
 exnType
 )
 ;
+reportp
+-
+>
+errorMessageName
+=
+efs
+-
+>
+name
+;
 MOZ_ASSERT_IF
 (
 argumentsType
