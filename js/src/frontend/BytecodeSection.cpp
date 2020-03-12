@@ -334,7 +334,7 @@ GCCellPtr
 funbox
 -
 >
-object
+function
 (
 )
 )
