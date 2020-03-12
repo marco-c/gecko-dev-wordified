@@ -811,7 +811,7 @@ aBlocked
 const
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
