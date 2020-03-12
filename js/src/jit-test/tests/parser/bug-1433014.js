@@ -26,13 +26,6 @@ oomTest
 in
 this
 )
-options
-(
-'
-strict
-'
-)
-;
 evaluate
 (
 oomTest

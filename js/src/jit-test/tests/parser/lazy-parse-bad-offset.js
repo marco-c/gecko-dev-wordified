@@ -8,13 +8,6 @@ Shouldn
 t
 assert
 .
-options
-(
-'
-strict
-'
-)
-;
 function
 eval
 (

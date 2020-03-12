@@ -3500,9 +3500,6 @@ optionName
 of
 [
 "
-strict
-"
-"
 werror
 "
 "

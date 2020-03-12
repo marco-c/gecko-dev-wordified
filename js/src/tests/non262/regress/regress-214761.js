@@ -202,13 +202,6 @@ printStatus
 summary
 )
 ;
-options
-(
-'
-strict
-'
-)
-;
 var
 code
 =

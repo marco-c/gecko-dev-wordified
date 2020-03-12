@@ -714,13 +714,6 @@ in
 with
 "
 statement
-options
-(
-"
-strict
-"
-)
-;
 eval
 (
 function
