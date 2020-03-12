@@ -363,6 +363,9 @@ hugeMemory
 bool
 bigIntEnabled
 ;
+bool
+multiValuesEnabled
+;
 /
 /
 CompileArgs
@@ -509,6 +512,10 @@ hugeMemory
 false
 )
 bigIntEnabled
+(
+false
+)
+multiValuesEnabled
 (
 false
 )

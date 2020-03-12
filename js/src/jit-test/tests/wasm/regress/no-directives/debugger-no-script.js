@@ -10,13 +10,7 @@ skip
 if
 :
 !
-wasmIsSupported
-(
-)
-|
-|
-!
-wasmDebugSupport
+wasmDebuggingIsSupported
 (
 )
 ;

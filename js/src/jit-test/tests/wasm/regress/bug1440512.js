@@ -10,7 +10,7 @@ skip
 if
 :
 !
-wasmDebugSupport
+wasmDebuggingIsSupported
 (
 )
 var
