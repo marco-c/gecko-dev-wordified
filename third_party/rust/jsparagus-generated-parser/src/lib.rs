@@ -40,7 +40,10 @@ use
 ast_builder
 :
 :
+{
 AstBuilder
+AstBuilderDelegate
+}
 ;
 pub
 use
@@ -65,10 +68,14 @@ parser_tables_generated
 :
 :
 {
-reduce
+actions
+noop_actions
 ErrorCode
 NonterminalId
-ParserTables
+ParseTable
+ParserTrait
+Term
+TermValue
 TerminalId
 START_STATE_MODULE
 START_STATE_SCRIPT
@@ -87,5 +94,8 @@ use
 token
 :
 :
+{
 Token
+TokenValue
+}
 ;

@@ -2071,6 +2071,7 @@ parser
 .
 can_accept_terminal
 (
+self
 '
 RegularExpressionLiteral
 '

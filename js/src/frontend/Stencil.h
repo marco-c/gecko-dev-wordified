@@ -3109,12 +3109,9 @@ of
 GCPtrAtom
 .
 virtual
-bool
+void
 initAtomMap
 (
-JSContext
-*
-cx
 GCPtrAtom
 *
 atoms

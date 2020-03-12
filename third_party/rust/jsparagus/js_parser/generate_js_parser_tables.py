@@ -600,6 +600,35 @@ them
 "
 )
     
+parser
+.
+add_argument
+(
+        
+'
+-
+-
+debug
+'
+action
+=
+'
+store_true
+'
+        
+help
+=
+"
+annotate
+the
+generated
+code
+with
+grammar
+productions
+"
+)
+    
 args
 =
 parser
@@ -825,7 +854,7 @@ jsparagus
 .
 gen
 .
-ParserStates
+ParseTable
 .
 load
 (
@@ -883,6 +912,12 @@ verbose
 args
 .
 verbose
+                                              
+debug
+=
+args
+.
+debug
                                               
 handler_info
 =

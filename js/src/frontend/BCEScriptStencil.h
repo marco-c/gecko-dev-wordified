@@ -260,12 +260,9 @@ gcthings
 const
 ;
 virtual
-bool
+void
 initAtomMap
 (
-JSContext
-*
-cx
 GCPtrAtom
 *
 atoms

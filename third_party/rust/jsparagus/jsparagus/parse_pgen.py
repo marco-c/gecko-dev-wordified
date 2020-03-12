@@ -1998,7 +1998,7 @@ jsparagus
 parse_pgen
 -
 -
-renegerate
+regenerate
 "
 )
         
