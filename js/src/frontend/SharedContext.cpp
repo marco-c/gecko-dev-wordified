@@ -901,11 +901,11 @@ object_
 (
 nullptr
 )
-traceLink
+traceLink_
 (
 traceListHead
 )
-emitLink
+emitLink_
 (
 nullptr
 )
@@ -2004,7 +2004,7 @@ node
 node
 -
 >
-traceLink
+traceLink_
 )
 {
 node

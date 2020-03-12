@@ -1825,7 +1825,7 @@ list
 represented
 by
 |
-traceLink
+traceLink_
 |
 .
 JSFunction
@@ -1834,11 +1834,11 @@ object_
 ;
 FunctionBox
 *
-traceLink
+traceLink_
 ;
 FunctionBox
 *
-emitLink
+emitLink_
 ;
 /
 /
