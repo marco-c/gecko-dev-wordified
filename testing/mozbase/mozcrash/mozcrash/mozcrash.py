@@ -1085,6 +1085,16 @@ mozalloc_abort
 "
     
 "
+mozalloc_abort
+(
+char
+const
+*
+const
+)
+"
+    
+"
 static
 void
 Abort
