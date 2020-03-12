@@ -4417,7 +4417,7 @@ descriptor
 map
 throw
 a
-NotSupportedError
+InvalidStateError
 exception
 *
 and
@@ -4459,7 +4459,7 @@ nulls
 .
 aRv
 .
-ThrowNotSupportedError
+ThrowInvalidStateError
 (
 NS_LITERAL_CSTRING
 (
