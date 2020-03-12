@@ -525,6 +525,9 @@ public
 explicit
 SmooshScriptStencil
 (
+JSContext
+*
+cx
 const
 SmooshResult
 &
@@ -534,6 +537,10 @@ CompilationInfo
 compilationInfo
 )
 :
+ScriptStencil
+(
+cx
+)
 result_
 (
 result
@@ -565,7 +572,7 @@ JS
 :
 GCCellPtr
 >
-gcthings
+output
 )
 const
 {
@@ -1356,6 +1363,7 @@ extent
 SmooshScriptStencil
 stencil
 (
+cx
 smoosh
 compilationInfo
 )
