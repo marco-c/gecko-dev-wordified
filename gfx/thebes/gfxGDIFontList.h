@@ -567,6 +567,7 @@ cpp
 .
 class
 GDIFontEntry
+final
 :
 public
 gfxFontEntry
@@ -1015,6 +1016,7 @@ more
 faces
 class
 GDIFontFamily
+final
 :
 public
 gfxFontFamily
@@ -1613,6 +1615,7 @@ data
 ;
 class
 gfxGDIFontList
+final
 :
 public
 gfxPlatformFontList

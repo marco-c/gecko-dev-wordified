@@ -163,6 +163,7 @@ namespace
 mozilla
 class
 gfxPlatformGtk
+final
 :
 public
 gfxPlatform

@@ -191,6 +191,7 @@ entry
 /
 class
 gfxDWriteFont
+final
 :
 public
 gfxFont

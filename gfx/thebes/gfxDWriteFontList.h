@@ -382,6 +382,7 @@ family
 /
 class
 gfxDWriteFontFamily
+final
 :
 public
 gfxFontFamily
@@ -643,6 +644,7 @@ family
 /
 class
 gfxDWriteFontEntry
+final
 :
 public
 gfxFontEntry
@@ -1937,6 +1939,7 @@ mFamilyName
 ;
 class
 gfxDWriteFontList
+final
 :
 public
 gfxPlatformFontList

@@ -508,6 +508,7 @@ enhancedContrast
 ;
 class
 gfxWindowsPlatform
+final
 :
 public
 gfxPlatform

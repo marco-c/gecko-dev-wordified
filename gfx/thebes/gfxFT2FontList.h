@@ -156,6 +156,7 @@ FTUserFontData
 ;
 class
 FT2FontEntry
+final
 :
 public
 gfxFT2FontEntryBase
@@ -700,6 +701,7 @@ false
 ;
 class
 FT2FontFamily
+final
 :
 public
 gfxFontFamily
@@ -759,6 +761,7 @@ aFontList
 ;
 class
 gfxFT2FontList
+final
 :
 public
 gfxPlatformFontList
