@@ -16995,10 +16995,7 @@ SerializeTagAndPayload
 mozilla
 :
 :
-BlocksRingBuffer
-:
-:
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEntryWriter
 )
@@ -17086,10 +17083,7 @@ Deserialize
 mozilla
 :
 :
-BlocksRingBuffer
-:
-:
-EntryReader
+ProfileBufferEntryReader
 &
 aEntryReader
 )

@@ -35168,7 +35168,7 @@ racyRegisteredThread
 ThreadId
 (
 )
-WrapBlocksRingBufferUnownedCString
+WrapProfileBufferUnownedCString
 (
 aMarkerName
 )
@@ -35869,7 +35869,7 @@ Kind
 :
 MarkerData
 aThreadId
-WrapBlocksRingBufferUnownedCString
+WrapProfileBufferUnownedCString
 (
 aMarkerName
 )

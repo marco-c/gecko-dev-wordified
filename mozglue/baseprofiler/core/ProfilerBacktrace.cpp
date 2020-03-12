@@ -416,7 +416,7 @@ baseprofiler
 ProfilerBacktrace
 Destructor
 >
-BlocksRingBuffer
+ProfileBufferEntryReader
 :
 :
 Deserializer
@@ -434,10 +434,7 @@ Destructor
 :
 Read
 (
-BlocksRingBuffer
-:
-:
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 )

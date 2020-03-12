@@ -543,10 +543,7 @@ ReadEach
 [
 ]
 (
-BlocksRingBuffer
-:
-:
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 )
@@ -3462,10 +3459,7 @@ GTestMarkerPayload
 :
 SerializeTagAndPayload
 (
-BlocksRingBuffer
-:
-:
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEntryWriter
 )
@@ -3511,10 +3505,7 @@ GTestMarkerPayload
 :
 Deserialize
 (
-BlocksRingBuffer
-:
-:
-EntryReader
+ProfileBufferEntryReader
 &
 aEntryReader
 )
