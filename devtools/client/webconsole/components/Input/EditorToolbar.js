@@ -132,7 +132,7 @@ types
 )
 ;
 const
-EvaluationSelector
+EvaluationContextSelector
 =
 createFactory
 (
@@ -149,7 +149,7 @@ components
 /
 Input
 /
-EvaluationSelector
+EvaluationContextSelector
 "
 )
 )
@@ -296,7 +296,7 @@ PropTypes
 object
 .
 isRequired
-showEvaluationSelector
+showEvaluationContextSelector
 :
 PropTypes
 .
@@ -368,7 +368,7 @@ getInputSelection
 )
 ;
 }
-renderEvaluationSelector
+renderEvaluationContextSelector
 (
 )
 {
@@ -391,7 +391,7 @@ this
 .
 props
 .
-showEvaluationSelector
+showEvaluationContextSelector
 )
 {
 return
@@ -399,7 +399,7 @@ null
 ;
 }
 return
-EvaluationSelector
+EvaluationContextSelector
 (
 {
 webConsoleUI
@@ -563,7 +563,7 @@ label
 )
 this
 .
-renderEvaluationSelector
+renderEvaluationContextSelector
 (
 )
 dom

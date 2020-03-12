@@ -415,7 +415,7 @@ index
 )
 ;
 const
-EvaluationSelector
+EvaluationContextSelector
 =
 createFactory
 (
@@ -432,7 +432,7 @@ components
 /
 Input
 /
-EvaluationSelector
+EvaluationContextSelector
 "
 )
 )
@@ -777,7 +777,7 @@ autocomplete
 PropTypes
 .
 bool
-showEvaluationSelector
+showEvaluationContextSelector
 :
 PropTypes
 .
@@ -7739,7 +7739,7 @@ editorToggle
 )
 ;
 }
-renderEvaluationSelector
+renderEvaluationContextSelector
 (
 )
 {
@@ -7769,7 +7769,7 @@ this
 .
 props
 .
-showEvaluationSelector
+showEvaluationContextSelector
 )
 {
 return
@@ -7777,7 +7777,7 @@ null
 ;
 }
 return
-EvaluationSelector
+EvaluationContextSelector
 (
 this
 .
@@ -8166,7 +8166,7 @@ buttons
 }
 this
 .
-renderEvaluationSelector
+renderEvaluationContextSelector
 (
 )
 this
@@ -8225,13 +8225,13 @@ state
 ui
 .
 showEditorOnboarding
-showEvaluationSelector
+showEvaluationContextSelector
 :
 state
 .
 ui
 .
-showEvaluationSelector
+showEvaluationContextSelector
 autocompletePopupPosition
 :
 state

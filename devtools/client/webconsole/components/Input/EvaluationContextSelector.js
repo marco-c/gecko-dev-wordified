@@ -305,7 +305,7 @@ MenuList
 )
 ;
 class
-EvaluationSelector
+EvaluationContextSelector
 extends
 Component
 {
@@ -1029,7 +1029,7 @@ store
 }
 )
 (
-EvaluationSelector
+EvaluationContextSelector
 )
 ;
 module
