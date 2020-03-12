@@ -31500,7 +31500,7 @@ js
 wasm
 :
 :
-IonCanCompile
+IonPlatformSupport
 (
 )
 {

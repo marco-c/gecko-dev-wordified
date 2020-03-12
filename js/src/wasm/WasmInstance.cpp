@@ -852,7 +852,7 @@ hasI64ArgOrRet
 &
 &
 !
-HasI64BigIntSupport
+I64BigIntConversionAvailable
 (
 cx
 )
@@ -970,7 +970,7 @@ ifdef
 ENABLE_WASM_BIGINT
 MOZ_ASSERT
 (
-HasI64BigIntSupport
+I64BigIntConversionAvailable
 (
 cx
 )
@@ -12256,7 +12256,7 @@ hasI64ArgOrRet
 &
 &
 !
-HasI64BigIntSupport
+I64BigIntConversionAvailable
 (
 cx
 )
@@ -12607,7 +12607,7 @@ ifdef
 ENABLE_WASM_BIGINT
 MOZ_ASSERT
 (
-HasI64BigIntSupport
+I64BigIntConversionAvailable
 (
 cx
 )
@@ -13562,7 +13562,7 @@ ifdef
 ENABLE_WASM_BIGINT
 MOZ_ASSERT
 (
-HasI64BigIntSupport
+I64BigIntConversionAvailable
 (
 cx
 )
