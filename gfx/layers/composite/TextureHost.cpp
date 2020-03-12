@@ -3851,9 +3851,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 {
 auto
@@ -3952,7 +3949,6 @@ width
 GetFormat
 (
 )
-aPreferCompositorSurface
 )
 ;
 (
@@ -4025,7 +4021,6 @@ colorDepth
 (
 )
 )
-aPreferCompositorSurface
 )
 ;
 wr
@@ -4052,7 +4047,6 @@ colorDepth
 (
 )
 )
-aPreferCompositorSurface
 )
 ;
 (
@@ -4149,6 +4143,9 @@ ImageKey
 >
 &
 aImageKeys
+const
+bool
+aPreferCompositorSurface
 )
 {
 if
@@ -4200,6 +4197,25 @@ TextureFlags
 :
 NON_PREMULTIPLIED
 )
+wr
+:
+:
+ColorF
+{
+1
+.
+0f
+1
+.
+0f
+1
+.
+0f
+1
+.
+0f
+}
+aPreferCompositorSurface
 )
 ;
 }
@@ -4281,6 +4297,7 @@ colorRange
 )
 )
 aFilter
+aPreferCompositorSurface
 )
 ;
 }

@@ -5790,9 +5790,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 {
 if
@@ -5922,7 +5919,6 @@ mSize
 GetFormat
 (
 )
-aPreferCompositorSurface
 )
 ;
 auto
@@ -6062,7 +6058,6 @@ SurfaceFormat
 :
 :
 A16
-aPreferCompositorSurface
 )
 ;
 wr
@@ -6100,7 +6095,6 @@ SurfaceFormat
 :
 :
 R16G16
-aPreferCompositorSurface
 )
 ;
 auto
@@ -6217,6 +6211,9 @@ ImageKey
 >
 &
 aImageKeys
+const
+bool
+aPreferCompositorSurface
 )
 {
 switch
@@ -6296,6 +6293,25 @@ TextureFlags
 :
 NON_PREMULTIPLIED
 )
+wr
+:
+:
+ColorF
+{
+1
+.
+0f
+1
+.
+0f
+1
+.
+0f
+1
+.
+0f
+}
+aPreferCompositorSurface
 )
 ;
 break
@@ -6399,6 +6415,7 @@ ToWrColorRange
 mColorRange
 )
 aFilter
+aPreferCompositorSurface
 )
 ;
 break
@@ -7494,9 +7511,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 {
 if
@@ -7703,7 +7717,6 @@ SurfaceFormat
 :
 :
 A8
-aPreferCompositorSurface
 )
 ;
 /
@@ -7725,7 +7738,6 @@ SurfaceFormat
 :
 :
 A8
-aPreferCompositorSurface
 )
 ;
 (
@@ -7821,6 +7833,9 @@ ImageKey
 >
 &
 aImageKeys
+const
+bool
+aPreferCompositorSurface
 )
 {
 MOZ_ASSERT
@@ -7876,6 +7891,7 @@ ToWrColorRange
 mColorRange
 )
 aFilter
+aPreferCompositorSurface
 )
 ;
 }

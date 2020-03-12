@@ -5199,12 +5199,6 @@ wrTexture
 GetExternalImageKey
 (
 )
-/
-*
-aPreferCompositorSurface
-*
-/
-false
 )
 ;
 auto
