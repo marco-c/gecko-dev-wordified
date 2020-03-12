@@ -231,6 +231,8 @@ Required
     
 Exclusive
 )
+import
+taskgraph
 from
 taskgraph
 .
@@ -11789,6 +11791,11 @@ chunked_manifests
 None
         
 if
+not
+taskgraph
+.
+fast
+and
 test
 [
 '
