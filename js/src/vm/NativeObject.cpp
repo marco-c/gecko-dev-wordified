@@ -18011,11 +18011,9 @@ return
 false
 ;
 }
-return
-JS_ReportErrorFlagsAndNumberUTF8
+JS_ReportErrorNumberUTF8
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 JSMSG_UNDECLARED_VAR
@@ -18025,6 +18023,9 @@ get
 (
 )
 )
+;
+return
+false
 ;
 }
 /
