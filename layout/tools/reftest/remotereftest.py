@@ -67,6 +67,8 @@ psutil
 import
 signal
 import
+subprocess
+import
 sys
 import
 tempfile
@@ -875,9 +877,7 @@ xpcshell
 )
         
 if
-self
-.
-automation
+RemoteAutomation
 .
 elf_arm
 (
@@ -931,11 +931,9 @@ self
 .
 _process
 =
-self
+subprocess
 .
-automation
-.
-Process
+Popen
 (
 [
 xpcshell
