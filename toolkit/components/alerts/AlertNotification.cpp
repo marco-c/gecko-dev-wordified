@@ -776,6 +776,9 @@ aListener
 aUserData
 )
 ;
+nsresult
+rv
+=
 request
 -
 >
@@ -791,7 +794,7 @@ aRequest
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMPL_CYCLE_COLLECTION
@@ -908,7 +911,7 @@ NS_BINDING_ABORTED
 ;
 }
 }
-void
+NS_IMETHODIMP
 AlertImageRequest
 :
 :
@@ -974,11 +977,10 @@ STATUS_ERROR
 )
 )
 {
+return
 NotifyMissing
 (
 )
-;
-return
 ;
 }
 /
@@ -1085,11 +1087,10 @@ image
 )
 )
 {
+return
 NotifyMissing
 (
 )
-;
-return
 ;
 }
 /
@@ -1151,6 +1152,7 @@ FLAG_HIGH_QUALITY_SCALING
 ;
 }
 return
+NS_OK
 ;
 }
 if
@@ -1170,6 +1172,9 @@ NotifyComplete
 )
 ;
 }
+return
+NS_OK
+;
 }
 NS_IMETHODIMP
 AlertImageRequest
@@ -1619,7 +1624,7 @@ return
 NS_OK
 ;
 }
-void
+nsresult
 AlertImageRequest
 :
 :
@@ -1661,6 +1666,9 @@ mListener
 )
 )
 {
+nsresult
+rv
+=
 listener
 -
 >
@@ -1674,7 +1682,13 @@ NS_RELEASE_THIS
 (
 )
 ;
+return
+rv
+;
 }
+return
+NS_OK
+;
 }
 }
 /

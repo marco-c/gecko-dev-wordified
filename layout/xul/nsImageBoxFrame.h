@@ -305,7 +305,7 @@ MarkIntrinsicISizesDirty
 )
 override
 ;
-void
+nsresult
 Notify
 (
 imgIRequest
@@ -661,7 +661,7 @@ GetImageSize
 ;
 private
 :
-void
+nsresult
 OnSizeAvailable
 (
 imgIRequest
@@ -672,7 +672,7 @@ imgIContainer
 aImage
 )
 ;
-void
+nsresult
 OnDecodeComplete
 (
 imgIRequest
@@ -680,7 +680,7 @@ imgIRequest
 aRequest
 )
 ;
-void
+nsresult
 OnLoadComplete
 (
 imgIRequest
@@ -690,7 +690,7 @@ nsresult
 aStatus
 )
 ;
-void
+nsresult
 OnImageIsAnimated
 (
 imgIRequest
@@ -698,7 +698,7 @@ imgIRequest
 aRequest
 )
 ;
-void
+nsresult
 OnFrameUpdate
 (
 imgIRequest

@@ -965,7 +965,7 @@ imgINotificationObserver
 impl
 *
 /
-void
+NS_IMETHODIMP
 nsImageLoadingContent
 :
 :
@@ -1049,6 +1049,7 @@ OnUnlockedDraw
 )
 ;
 return
+NS_OK
 ;
 }
 {
@@ -1447,8 +1448,11 @@ true
 )
 ;
 }
+return
+NS_OK
+;
 }
-void
+nsresult
 nsImageLoadingContent
 :
 :
@@ -1588,10 +1592,9 @@ STATUS_LOAD_COMPLETE
 )
 )
 )
-{
 return
+NS_OK
 ;
-}
 /
 /
 Our
@@ -1789,6 +1792,9 @@ AsElement
 MaybeResolveDecodePromises
 (
 )
+;
+return
+NS_OK
 ;
 }
 static
@@ -2076,7 +2082,7 @@ frame
 )
 ;
 }
-void
+nsresult
 nsImageLoadingContent
 :
 :
@@ -2114,6 +2120,9 @@ requestFlag
 )
 ;
 }
+return
+NS_OK
+;
 }
 /
 *

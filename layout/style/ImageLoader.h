@@ -598,7 +598,7 @@ the
 /
 GlobalImageObserver
 .
-void
+nsresult
 Notify
 (
 imgIRequest
@@ -979,7 +979,7 @@ imgIRequest
 aRequest
 )
 ;
-void
+nsresult
 OnSizeAvailable
 (
 imgIRequest
@@ -990,7 +990,7 @@ imgIContainer
 aImage
 )
 ;
-void
+nsresult
 OnFrameComplete
 (
 imgIRequest
@@ -998,7 +998,7 @@ imgIRequest
 aRequest
 )
 ;
-void
+nsresult
 OnImageIsAnimated
 (
 imgIRequest
@@ -1006,7 +1006,7 @@ imgIRequest
 aRequest
 )
 ;
-void
+nsresult
 OnFrameUpdate
 (
 imgIRequest
@@ -1014,7 +1014,7 @@ imgIRequest
 aRequest
 )
 ;
-void
+nsresult
 OnLoadComplete
 (
 imgIRequest

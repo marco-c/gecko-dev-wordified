@@ -171,7 +171,7 @@ aInner
 )
 {
 }
-void
+NS_IMETHODIMP
 ScriptedNotificationObserver
 :
 :
@@ -267,6 +267,7 @@ imgINotificationObserver
 SIZE_AVAILABLE
 )
 {
+return
 mInner
 -
 >
@@ -274,8 +275,6 @@ SizeAvailable
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -289,6 +288,7 @@ imgINotificationObserver
 FRAME_UPDATE
 )
 {
+return
 mInner
 -
 >
@@ -296,8 +296,6 @@ FrameUpdate
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -311,6 +309,7 @@ imgINotificationObserver
 FRAME_COMPLETE
 )
 {
+return
 mInner
 -
 >
@@ -318,8 +317,6 @@ FrameComplete
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -333,6 +330,7 @@ imgINotificationObserver
 DECODE_COMPLETE
 )
 {
+return
 mInner
 -
 >
@@ -340,8 +338,6 @@ DecodeComplete
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -355,6 +351,7 @@ imgINotificationObserver
 LOAD_COMPLETE
 )
 {
+return
 mInner
 -
 >
@@ -362,8 +359,6 @@ LoadComplete
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -377,6 +372,7 @@ imgINotificationObserver
 DISCARD
 )
 {
+return
 mInner
 -
 >
@@ -384,8 +380,6 @@ Discard
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -399,6 +393,7 @@ imgINotificationObserver
 IS_ANIMATED
 )
 {
+return
 mInner
 -
 >
@@ -406,8 +401,6 @@ IsAnimated
 (
 aRequest
 )
-;
-return
 ;
 }
 if
@@ -421,6 +414,7 @@ imgINotificationObserver
 HAS_TRANSPARENCY
 )
 {
+return
 mInner
 -
 >
@@ -429,9 +423,10 @@ HasTransparency
 aRequest
 )
 ;
-return
-;
 }
+return
+NS_OK
+;
 }
 }
 /
