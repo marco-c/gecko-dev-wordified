@@ -703,11 +703,6 @@ compilationInfo
 compilationInfo
 .
 directives
-compilationInfo
-.
-options
-.
-extraWarningsOption
 )
 ;
 return
@@ -3442,11 +3437,6 @@ compilationInfo
 compilationInfo
 .
 directives
-compilationInfo
-.
-options
-.
-extraWarningsOption
 )
 ;
 script

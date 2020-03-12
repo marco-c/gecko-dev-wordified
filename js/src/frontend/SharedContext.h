@@ -667,11 +667,6 @@ localStrict
 :
 1
 ;
-bool
-extraWarnings
-:
-1
-;
 protected
 :
 bool
@@ -1031,8 +1026,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 )
 :
 cx_
@@ -1065,10 +1058,6 @@ strict
 localStrict
 (
 false
-)
-extraWarnings
-(
-extraWarnings
 )
 allowNewTarget_
 (
@@ -1556,9 +1545,6 @@ return
 strict
 (
 )
-|
-|
-extraWarnings
 ;
 }
 }
@@ -1597,8 +1583,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 )
 :
 SharedContext
@@ -1610,7 +1594,6 @@ Kind
 Global
 compilationInfo
 directives
-extraWarnings
 )
 scopeKind_
 (
@@ -1739,8 +1722,6 @@ Scope
 enclosingScope
 Directives
 directives
-bool
-extraWarnings
 )
 ;
 Scope
@@ -2106,8 +2087,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 GeneratorKind
 generatorKind
 FunctionAsyncKind
@@ -3031,8 +3010,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 GeneratorKind
 generatorKind
 FunctionAsyncKind
@@ -3054,8 +3031,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 GeneratorKind
 generatorKind
 FunctionAsyncKind

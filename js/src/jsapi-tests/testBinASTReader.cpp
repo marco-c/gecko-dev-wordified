@@ -2217,7 +2217,6 @@ ScopeKind
 Global
 binCompilationInfo
 directives
-false
 )
 ;
 frontend

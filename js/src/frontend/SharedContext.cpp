@@ -540,8 +540,6 @@ Scope
 enclosingScope
 Directives
 directives
-bool
-extraWarnings
 )
 :
 SharedContext
@@ -553,7 +551,6 @@ Kind
 Eval
 compilationInfo
 directives
-extraWarnings
 )
 enclosingScope_
 (
@@ -873,8 +870,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 GeneratorKind
 generatorKind
 FunctionAsyncKind
@@ -895,7 +890,6 @@ Kind
 FunctionBox
 compilationInfo
 directives
-extraWarnings
 )
 object_
 (
@@ -1076,8 +1070,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 GeneratorKind
 generatorKind
 FunctionAsyncKind
@@ -1091,7 +1083,6 @@ traceListHead
 toStringStart
 compilationInfo
 directives
-extraWarnings
 generatorKind
 asyncKind
 fun
@@ -1186,8 +1177,6 @@ CompilationInfo
 compilationInfo
 Directives
 directives
-bool
-extraWarnings
 GeneratorKind
 generatorKind
 FunctionAsyncKind
@@ -1203,7 +1192,6 @@ traceListHead
 toStringStart
 compilationInfo
 directives
-extraWarnings
 generatorKind
 asyncKind
 compilationInfo
@@ -2112,7 +2100,6 @@ Directives
 (
 true
 )
-false
 )
 module_
 (

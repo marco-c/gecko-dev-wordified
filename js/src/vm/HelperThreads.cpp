@@ -4200,11 +4200,6 @@ compilationInfo
 compilationInfo
 .
 directives
-compilationInfo
-.
-options
-.
-extraWarningsOption
 )
 ;
 JSScript

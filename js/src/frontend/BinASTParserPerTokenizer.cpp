@@ -2097,13 +2097,6 @@ getCompilationInfo
 )
 *
 directives
-/
-*
-extraWarning
-=
-*
-/
-false
 generatorKind
 functionAsyncKind
 )
