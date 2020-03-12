@@ -570,7 +570,9 @@ attach
 )
 ;
 const
+[
 threadFront
+]
 =
 await
 target
