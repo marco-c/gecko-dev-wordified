@@ -3356,11 +3356,6 @@ RealmOptions
 options
 )
 ;
-bool
-ExtraWarningsForSystemJS
-(
-)
-;
 class
 ErrorBase
 {
