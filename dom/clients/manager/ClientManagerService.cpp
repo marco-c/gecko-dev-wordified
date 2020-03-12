@@ -3474,7 +3474,7 @@ aArgs
 )
 {
 return
-ClientOpenWindowInCurrentProcess
+ClientOpenWindow
 (
 aArgs
 )

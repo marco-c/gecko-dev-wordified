@@ -1414,7 +1414,7 @@ mozilla
 dom
 :
 :
-ClientOpenWindowInCurrentProcess
+ClientOpenWindow
 to
 retrieve
 the
