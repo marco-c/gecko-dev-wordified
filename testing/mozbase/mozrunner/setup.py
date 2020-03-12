@@ -72,7 +72,7 @@ PACKAGE_VERSION
 '
 7
 .
-7
+8
 .
 0
 '
