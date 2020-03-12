@@ -2279,7 +2279,12 @@ contentinfo
 }
 }
 return
-nullptr
+HyperTextAccessibleWrap
+:
+:
+LandmarkRole
+(
+)
 ;
 }
 /
@@ -2555,7 +2560,12 @@ IsEmpty
 (
 )
 ?
-nullptr
+HyperTextAccessibleWrap
+:
+:
+LandmarkRole
+(
+)
 :
 nsGkAtoms
 :
