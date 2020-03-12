@@ -2660,9 +2660,20 @@ revision
 "
 )
             
+self
+.
+suites
+=
+{
+}
+            
+self
+.
+tests_downloaded
+=
+True
+            
 return
-[
-]
         
 def
 get_automationrelevance
@@ -3269,19 +3280,31 @@ total_tests
             
 self
 .
-fatal
+warning
 (
 "
 No
 tests
 to
 verify
-:
-exiting
 .
 "
-0
 )
+            
+self
+.
+suites
+=
+{
+}
+            
+self
+.
+tests_downloaded
+=
+True
+            
+return
         
 files_per_chunk
 =
