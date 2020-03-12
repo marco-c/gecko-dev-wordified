@@ -1547,7 +1547,7 @@ bool
 aNullParent
 )
 ;
-nsresult
+void
 OnLoadComplete
 (
 imgIRequest
@@ -1562,7 +1562,7 @@ OnUnlockedDraw
 (
 )
 ;
-nsresult
+void
 OnImageIsAnimated
 (
 imgIRequest

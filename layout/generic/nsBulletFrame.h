@@ -316,7 +316,7 @@ nsBulletFrame
 (
 )
 ;
-NS_IMETHOD
+void
 Notify
 (
 imgIRequest
@@ -732,7 +732,7 @@ const
 ;
 protected
 :
-nsresult
+void
 OnSizeAvailable
 (
 imgIRequest

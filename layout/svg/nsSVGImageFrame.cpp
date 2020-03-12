@@ -4171,7 +4171,7 @@ aFrame
 )
 {
 }
-NS_IMETHODIMP
+void
 nsSVGImageListener
 :
 :
@@ -4195,7 +4195,6 @@ mFrame
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 if
@@ -4427,7 +4426,4 @@ mFrame
 )
 ;
 }
-return
-NS_OK
-;
 }

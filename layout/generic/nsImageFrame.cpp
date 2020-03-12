@@ -4720,7 +4720,7 @@ return
 false
 ;
 }
-nsresult
+void
 nsImageFrame
 :
 :
@@ -4887,11 +4887,8 @@ status
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsImageFrame
 :
 :
@@ -4912,7 +4909,6 @@ aImage
 )
 {
 return
-NS_ERROR_INVALID_ARG
 ;
 }
 /
@@ -4973,7 +4969,6 @@ don
 t
 care
 return
-NS_OK
 ;
 }
 UpdateImage
@@ -4981,9 +4976,6 @@ UpdateImage
 aRequest
 aImage
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -5277,7 +5269,7 @@ MaybeDecodeForPredictedSize
 }
 }
 }
-nsresult
+void
 nsImageFrame
 :
 :
@@ -5292,11 +5284,18 @@ nsIntRect
 aRect
 )
 {
-NS_ENSURE_ARG_POINTER
+if
 (
+NS_WARN_IF
+(
+!
 aRect
 )
+)
+{
+return
 ;
+}
 if
 (
 !
@@ -5323,7 +5322,6 @@ coming
 up
 !
 return
-NS_OK
 ;
 }
 if
@@ -5343,7 +5341,6 @@ IsVisible
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -5362,7 +5359,6 @@ don
 t
 care
 return
-NS_OK
 ;
 }
 nsIntRect
@@ -5408,7 +5404,6 @@ nullptr
 )
 ;
 return
-NS_OK
 ;
 }
 nsRect
@@ -5426,9 +5421,6 @@ layerInvalidRect
 &
 frameInvalidRect
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -5539,7 +5531,7 @@ aFrameInvalidRect
 ;
 }
 }
-nsresult
+void
 nsImageFrame
 :
 :
@@ -5557,9 +5549,6 @@ NotifyNewCurrentRequest
 aRequest
 aStatus
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -17586,7 +17575,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsImageFrame
 :
 :
@@ -17632,7 +17621,6 @@ FRAME_UPDATE
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -17670,7 +17658,6 @@ image
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 /
@@ -17784,9 +17771,6 @@ InvalidateFrame
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMPL_ISUPPORTS
 (
@@ -17819,7 +17803,7 @@ nsImageListener
 =
 default
 ;
-NS_IMETHODIMP
+void
 nsImageListener
 :
 :
@@ -17841,9 +17825,10 @@ if
 !
 mFrame
 )
+{
 return
-NS_ERROR_FAILURE
 ;
+}
 return
 mFrame
 -

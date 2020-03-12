@@ -6791,7 +6791,7 @@ isize
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsBulletFrame
 :
 :
@@ -7162,9 +7162,6 @@ parent
 }
 }
 }
-return
-NS_OK
-;
 }
 Document
 *
@@ -7202,7 +7199,7 @@ GetComposedDoc
 nullptr
 ;
 }
-nsresult
+void
 nsBulletFrame
 :
 :
@@ -7222,7 +7219,6 @@ if
 aImage
 )
 return
-NS_ERROR_INVALID_ARG
 ;
 if
 (
@@ -7230,7 +7226,6 @@ if
 aRequest
 )
 return
-NS_ERROR_INVALID_ARG
 ;
 uint32_t
 status
@@ -7255,7 +7250,6 @@ STATUS_ERROR
 )
 {
 return
-NS_OK
 ;
 }
 nscoord
@@ -7453,9 +7447,6 @@ aRequest
 IncrementAnimationConsumers
 (
 )
-;
-return
-NS_OK
 ;
 }
 void
@@ -8482,7 +8473,7 @@ nsBulletListener
 )
 {
 }
-NS_IMETHODIMP
+void
 nsBulletListener
 :
 :
@@ -8506,7 +8497,6 @@ mFrame
 )
 {
 return
-NS_ERROR_FAILURE
 ;
 }
 return
