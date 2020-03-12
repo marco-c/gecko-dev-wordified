@@ -98,6 +98,10 @@ rayon
 ;
 extern
 crate
+swgl
+;
+extern
+crate
 thin_vec
 ;
 extern
@@ -212,4 +216,7 @@ bindings
 pub
 mod
 moz2d_renderer
+;
+mod
+swgl_bindings
 ;
