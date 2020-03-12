@@ -2188,7 +2188,7 @@ creditCard
 |
 (
 await
-OSKeyStore
+FormAutofillUtils
 .
 ensureLoggedIn
 (
