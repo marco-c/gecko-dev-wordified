@@ -4165,6 +4165,10 @@ PluginModuleChild
 :
 AnswerInitCrashReporter
 (
+Shmem
+&
+&
+aShmem
 mozilla
 :
 :
@@ -4179,8 +4183,9 @@ aOutId
 CrashReporterClient
 :
 :
-InitSingleton
+InitSingletonWithShmem
 (
+aShmem
 )
 ;
 *
