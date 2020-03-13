@@ -576,7 +576,7 @@ output
 )
 const
 {
-gcthings
+output
 [
 0
 ]
