@@ -1120,13 +1120,10 @@ value
 )
         
 return
-sorted
-(
 flags
 .
 items
 (
-)
 )
 class
 XPIDLModule
