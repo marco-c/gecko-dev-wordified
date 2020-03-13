@@ -140,7 +140,7 @@ TEST_URI
 const
 {
 inspector
-panel
+selectedElementPane
 }
 =
 await
@@ -170,7 +170,7 @@ issue
 await
 assertIssueList
 (
-panel
+selectedElementPane
 [
 {
 property
@@ -239,7 +239,7 @@ textProps
 await
 assertIssueList
 (
-panel
+selectedElementPane
 [
 ]
 )
@@ -273,7 +273,7 @@ textProps
 await
 assertIssueList
 (
-panel
+selectedElementPane
 [
 {
 property
