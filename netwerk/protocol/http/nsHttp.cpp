@@ -3219,6 +3219,14 @@ StaleWhileRevalidate
 now
 expiration
 )
+&
+&
+StaticPrefs
+:
+:
+network_http_stale_while_revalidate_enabled
+(
+)
 )
 {
 LOG
