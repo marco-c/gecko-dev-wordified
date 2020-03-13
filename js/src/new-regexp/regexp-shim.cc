@@ -321,7 +321,7 @@ AsUC16
 c
 )
 {
-uint16_t
+uc16
 v
 =
 c
