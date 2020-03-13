@@ -94,8 +94,9 @@ tab
 See
 Bug
 1262806
-add_task
+addRDMTask
 (
+null
 async
 function
 (
@@ -277,6 +278,14 @@ closeWindow
 newWindow
 )
 ;
+}
+{
+usingBrowserUI
+:
+true
+onlyPrefAndTask
+:
+true
 }
 )
 ;
