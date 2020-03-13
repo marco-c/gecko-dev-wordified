@@ -5978,8 +5978,6 @@ HTMLTextAreaElement
 :
 OnValueChanged
 (
-bool
-aNotify
 ValueChangeKind
 aKind
 )
@@ -6043,7 +6041,6 @@ IsValid
 |
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6053,7 +6050,7 @@ placeholder
 {
 UpdateState
 (
-aNotify
+true
 )
 ;
 }
