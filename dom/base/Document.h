@@ -25509,6 +25509,7 @@ nsIURI
 aContentURI
 )
 ;
+static
 void
 AddToplevelLoadingDocument
 (
@@ -25517,6 +25518,7 @@ Document
 aDoc
 )
 ;
+static
 void
 RemoveToplevelLoadingDocument
 (
@@ -25534,6 +25536,10 @@ Document
 >
 *
 sLoadingForegroundTopLevelContentDocument
+;
+friend
+class
+cycleCollection
 ;
 nsCOMPtr
 <
