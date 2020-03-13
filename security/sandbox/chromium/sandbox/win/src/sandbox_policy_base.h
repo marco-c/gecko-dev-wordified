@@ -524,12 +524,6 @@ SetLockdownDefaultDacl
 override
 ;
 void
-AddRestrictingRandomSid
-(
-)
-override
-;
-void
 SetEnableOPMRedirection
 (
 )
@@ -1135,9 +1129,6 @@ dispatcher_
 ;
 bool
 lockdown_default_dacl_
-;
-bool
-add_restricting_random_sid_
 ;
 static
 HDESK

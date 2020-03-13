@@ -321,8 +321,6 @@ TokenType
 token_type
 bool
 lockdown_default_dacl
-PSID
-unique_restricted_sid
 bool
 use_restricting_sids
 base
