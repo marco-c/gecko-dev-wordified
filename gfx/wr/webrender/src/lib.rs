@@ -1465,6 +1465,16 @@ use
 crate
 :
 :
+internal_types
+:
+:
+FastHashMap
+;
+pub
+use
+crate
+:
+:
 screen_capture
 :
 :
