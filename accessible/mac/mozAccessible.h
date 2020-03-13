@@ -786,6 +786,12 @@ selectedTextDidChange
 (
 void
 )
+selectionDidChange
+;
+-
+(
+void
+)
 documentLoadComplete
 ;
 -
