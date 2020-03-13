@@ -3207,6 +3207,15 @@ static
 bool
 CreateAndConfigureRealChannelForLoadState
 (
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
 nsDocShellLoadState
 *
 aLoadState

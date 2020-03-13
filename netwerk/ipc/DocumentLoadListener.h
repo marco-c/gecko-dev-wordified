@@ -1181,15 +1181,6 @@ uint64_t
 aDestinationProcess
 )
 ;
-dom
-:
-:
-CanonicalBrowsingContext
-*
-GetBrowsingContext
-(
-)
-;
 /
 /
 Construct
