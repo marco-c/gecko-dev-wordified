@@ -17845,6 +17845,14 @@ true
 ;
 }
 return
+pobj
+-
+>
+isNative
+(
+)
+&
+&
 NativeGetPureInline
 (
 &
