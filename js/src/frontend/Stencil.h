@@ -801,6 +801,8 @@ cx
 CompilationInfo
 &
 compilationInfo
+HandleFunction
+function
 FunctionBox
 *
 funbox
