@@ -878,7 +878,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -3151,7 +3151,7 @@ ComputeFinalSize
 (
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
