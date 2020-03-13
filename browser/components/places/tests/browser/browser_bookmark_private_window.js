@@ -155,6 +155,14 @@ the
 bookmark
 panel
 .
+win
+.
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 let
 bookmarkPanel
 =

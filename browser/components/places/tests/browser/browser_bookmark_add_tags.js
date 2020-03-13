@@ -89,6 +89,12 @@ sidebar
 .
 *
 /
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 const
 bookmarkPanel
 =
