@@ -4543,6 +4543,12 @@ JSOp
 :
 CheckLexical
 :
+case
+JSOp
+:
+:
+CheckAliasedLexical
+:
 /
 /
 Keep
