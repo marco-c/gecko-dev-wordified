@@ -169,6 +169,14 @@ nsACString
 aAddr
 )
 ;
+bool
+rust_net_is_valid_scheme_char
+(
+const
+char
+aChar
+)
+;
 }
 #
 endif
