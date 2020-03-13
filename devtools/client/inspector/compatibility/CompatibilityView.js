@@ -433,7 +433,6 @@ _initTargetBrowsers
 )
 ;
 }
-async
 _initTargetBrowsers
 (
 )
