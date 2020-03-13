@@ -181,6 +181,7 @@ the
 prompt
 string
 "
+null
 )
 )
 "
