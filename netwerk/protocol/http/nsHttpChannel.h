@@ -5275,6 +5275,11 @@ mWaitingForProxy
 =
 false
 ;
+bool
+mStaleRevalidation
+=
+false
+;
 /
 /
 Will
