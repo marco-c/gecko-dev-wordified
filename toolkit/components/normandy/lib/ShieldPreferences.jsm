@@ -106,7 +106,7 @@ Services
 .
 jsm
 "
-AddonStudyAction
+BranchedAddonStudyAction
 :
 "
 resource
@@ -117,7 +117,7 @@ normandy
 /
 actions
 /
-AddonStudyAction
+BranchedAddonStudyAction
 .
 jsm
 "
@@ -359,7 +359,7 @@ const
 action
 =
 new
-AddonStudyAction
+BranchedAddonStudyAction
 (
 )
 ;
