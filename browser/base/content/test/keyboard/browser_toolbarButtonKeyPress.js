@@ -1904,6 +1904,12 @@ forceFocus
 button
 )
 ;
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 let
 panel
 =
