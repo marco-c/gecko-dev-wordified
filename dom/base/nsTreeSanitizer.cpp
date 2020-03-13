@@ -6939,6 +6939,10 @@ use_counters
 *
 /
 nullptr
+StyleAllowImportRules
+:
+:
+Yes
 sanitizationKind
 &
 aSanitized

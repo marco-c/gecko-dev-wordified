@@ -149,6 +149,7 @@ stylesheets
 {
 CssRule
 RulesMutateError
+AllowImportRules
 }
 ;
 #
@@ -944,6 +945,9 @@ Option
 dyn
 StylesheetLoader
 >
+allow_import_rules
+:
+AllowImportRules
 )
 -
 >
@@ -996,6 +1000,9 @@ Option
 dyn
 StylesheetLoader
 >
+allow_import_rules
+:
+AllowImportRules
 )
 -
 >
@@ -1151,6 +1158,7 @@ parent_stylesheet_contents
 lock
 state
 loader
+allow_import_rules
 )
 ?
 }
