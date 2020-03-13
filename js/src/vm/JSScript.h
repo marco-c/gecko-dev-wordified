@@ -15012,11 +15012,6 @@ IsDerivedClassConstructor
 )
 IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 (
-isDefaultClassConstructor
-IsDefaultClassConstructor
-)
-IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
-(
 isLikelyConstructorWrapper
 IsLikelyConstructorWrapper
 )

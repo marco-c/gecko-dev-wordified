@@ -658,12 +658,6 @@ IsDerivedClassConstructor
 <
 <
 14
-IsDefaultClassConstructor
-=
-1
-<
-<
-15
 /
 /
 '
@@ -696,7 +690,7 @@ IsLikelyConstructorWrapper
 1
 <
 <
-16
+15
 /
 /
 Set
@@ -716,7 +710,7 @@ IsGenerator
 1
 <
 <
-17
+16
 /
 /
 Set
@@ -736,7 +730,7 @@ IsAsync
 1
 <
 <
-18
+17
 /
 /
 Set
@@ -753,7 +747,7 @@ HasRest
 1
 <
 <
-19
+18
 /
 /
 See
@@ -765,7 +759,7 @@ ArgumentsHasVarBinding
 1
 <
 <
-20
+19
 /
 /
 Script
@@ -780,7 +774,7 @@ IsForEval
 1
 <
 <
-21
+20
 /
 /
 Whether
@@ -798,7 +792,7 @@ IsModule
 1
 <
 <
-22
+21
 /
 /
 Whether
@@ -818,7 +812,7 @@ NeedsFunctionEnvironmentObjects
 1
 <
 <
-23
+22
 /
 /
 Whether
@@ -834,7 +828,7 @@ ShouldDeclareArguments
 1
 <
 <
-24
+23
 /
 /
 Script
@@ -847,7 +841,7 @@ IsFunction
 1
 <
 <
-25
+24
 /
 /
 Whether
@@ -864,7 +858,7 @@ HasDirectEval
 1
 <
 <
-26
+25
 /
 /
 Whether
@@ -896,7 +890,7 @@ IsLazyScript
 1
 <
 <
-27
+26
 }
 ;
 class

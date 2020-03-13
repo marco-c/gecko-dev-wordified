@@ -9115,13 +9115,6 @@ compartment
 )
 )
 ;
-MOZ_ASSERT
-(
-isDefaultClassConstructor
-(
-)
-)
-;
 sourceObject_
 =
 sourceObject
