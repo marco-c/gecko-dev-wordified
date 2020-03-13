@@ -6547,9 +6547,6 @@ nsTableRowGroupFrame
 :
 CreateContinuingRowFrame
 (
-nsPresContext
-&
-aPresContext
 nsIFrame
 &
 aRowFrame
@@ -6601,8 +6598,6 @@ frames
 *
 aContRowFrame
 =
-aPresContext
-.
 PresShell
 (
 )
@@ -6615,8 +6610,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-&
-aPresContext
 &
 aRowFrame
 this
@@ -7284,7 +7277,6 @@ aContRow
 {
 CreateContinuingRowFrame
 (
-aPresContext
 aLastRow
 (
 nsIFrame
@@ -7340,8 +7332,6 @@ nsTableCellFrame
 *
 >
 (
-aPresContext
-.
 PresShell
 (
 )
@@ -7354,8 +7344,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-&
-aPresContext
 cell
 &
 aLastRow
@@ -8464,8 +8452,6 @@ page
 ;
 CreateContinuingRowFrame
 (
-*
-aPresContext
 *
 rowFrame
 (

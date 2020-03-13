@@ -2529,9 +2529,6 @@ aDesiredHeight
 void
 CreateContinuingRowFrame
 (
-nsPresContext
-&
-aPresContext
 nsIFrame
 &
 aRowFrame

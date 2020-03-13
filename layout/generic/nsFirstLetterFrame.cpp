@@ -2032,7 +2032,6 @@ continuation
 ;
 CreateContinuationForFloatingParent
 (
-aPresContext
 kid
 &
 continuation
@@ -2089,9 +2088,6 @@ nsFirstLetterFrame
 :
 CreateContinuationForFloatingParent
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChild
@@ -2142,9 +2138,6 @@ PresShell
 *
 presShell
 =
-aPresContext
--
->
 PresShell
 (
 )
@@ -2182,7 +2175,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aPresContext
 aChild
 parent
 aIsFluid

@@ -5290,7 +5290,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aPresContext
 kidFrame
 this
 )

@@ -4144,22 +4144,11 @@ nsIFrame
 aFrame
 )
 {
-nsPresContext
-*
-presContext
-=
-aParent
--
->
-PresContext
-(
-)
-;
 PresShell
 *
 presShell
 =
-presContext
+aParent
 -
 >
 PresShell
@@ -4272,7 +4261,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-presContext
 parent
 grandparent
 false
@@ -5126,7 +5114,6 @@ letterFrame
 >
 CreateContinuationForFloatingParent
 (
-presContext
 aFrame
 aNewFrame
 aIsFluid
@@ -5148,7 +5135,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-presContext
 aFrame
 parent
 aIsFluid

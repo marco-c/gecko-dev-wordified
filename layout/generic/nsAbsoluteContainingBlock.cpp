@@ -1511,7 +1511,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aPresContext
 kidFrame
 aDelegatingFrame
 )

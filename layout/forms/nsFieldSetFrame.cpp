@@ -6770,19 +6770,8 @@ nif
 {
 auto
 *
-pc
-=
-PresContext
-(
-)
-;
-auto
-*
 fc
 =
-pc
--
->
 PresShell
 (
 )
@@ -6799,7 +6788,6 @@ fc
 >
 CreateContinuingFrame
 (
-pc
 aChild
 this
 )

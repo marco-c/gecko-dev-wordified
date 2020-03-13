@@ -2253,9 +2253,6 @@ nsIFrame
 *
 continuingPage
 =
-aPresContext
--
->
 PresShell
 (
 )
@@ -2268,7 +2265,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aPresContext
 kidFrame
 this
 )
