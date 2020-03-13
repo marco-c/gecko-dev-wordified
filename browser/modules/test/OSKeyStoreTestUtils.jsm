@@ -140,9 +140,7 @@ OSKeyStoreTestUtils
 TEST_ONLY_REAUTH
 :
 "
-extensions
-.
-formautofill
+browser
 .
 osKeyStore
 .
