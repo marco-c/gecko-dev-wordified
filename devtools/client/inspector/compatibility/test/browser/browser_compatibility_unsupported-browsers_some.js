@@ -201,6 +201,7 @@ test
 "
 )
 ;
+await
 inspector
 .
 store
