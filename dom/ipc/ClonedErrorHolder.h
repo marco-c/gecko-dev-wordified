@@ -187,7 +187,7 @@ class
 nsIGlobalObject
 ;
 class
-nsQueryActor
+nsQueryActorChild
 ;
 namespace
 mozilla

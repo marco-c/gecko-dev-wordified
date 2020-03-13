@@ -2506,6 +2506,13 @@ IPCResult
 RecvEnableDisableCommands
 (
 const
+MaybeDiscarded
+<
+BrowsingContext
+>
+&
+aContext
+const
 nsString
 &
 aAction
