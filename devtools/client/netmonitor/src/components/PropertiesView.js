@@ -414,6 +414,8 @@ src
 /
 components
 /
+previews
+/
 HtmlPreview
 "
 )
