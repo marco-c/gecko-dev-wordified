@@ -5286,7 +5286,7 @@ mozilla
 :
 IsConvertible
 <
-JSScript
+BaseScript
 *
 gc
 :
@@ -5298,7 +5298,7 @@ TenuredCell
 :
 value
 "
-JSScript
+BaseScript
 must
 not
 be
@@ -5523,13 +5523,13 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
 const_cast
 <
-JSScript
+BaseScript
 *
 >
 (
@@ -5610,7 +5610,7 @@ entries
 are
 removed
 by
-JSScript
+BaseScript
 :
 :
 finalize
@@ -5665,7 +5665,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -5752,7 +5752,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -5831,7 +5831,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -5913,7 +5913,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -6006,7 +6006,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -6104,7 +6104,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -6202,7 +6202,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -6329,7 +6329,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -6431,7 +6431,7 @@ all
 hasScriptCounts_
 flags
 of
-JSScript
+BaseScript
 in
 order
 to
@@ -6472,7 +6472,7 @@ next
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -6561,7 +6561,7 @@ next
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
