@@ -1738,9 +1738,6 @@ CreateIncompleteCopy
 ResponseType
 mType
 ;
-nsCString
-mTerminationReason
-;
 /
 /
 A
