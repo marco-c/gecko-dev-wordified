@@ -354,10 +354,6 @@ src
 /
 components
 /
-request
--
-details
-/
 ResponsePanel
 "
 )
