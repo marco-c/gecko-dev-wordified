@@ -697,6 +697,11 @@ FunctionIndex
 innerFunctionIndexes
 ;
 bool
+forceStrict
+=
+false
+;
+bool
 strict
 =
 false
@@ -745,9 +750,15 @@ FunctionIndex
 &
 innerIndexes
 bool
+isForceStrict
+bool
 isStrict
 )
 {
+forceStrict
+=
+isForceStrict
+;
 strict
 =
 isStrict
