@@ -102,7 +102,11 @@ win
 window
 )
 {
-SetPageProxyState
+win
+.
+gURLBar
+.
+setPageProxyState
 (
 "
 valid

@@ -3514,7 +3514,11 @@ from
 getPageActionButton
 below
 .
-SetPageProxyState
+win
+.
+gURLBar
+.
+setPageProxyState
 (
 "
 valid
@@ -3834,7 +3838,11 @@ chrome
 /
 tests
 .
-SetPageProxyState
+win
+.
+gURLBar
+.
+setPageProxyState
 (
 "
 valid
@@ -3875,7 +3883,7 @@ to
 the
 /
 /
-SetPageProxyState
+setPageProxyState
 call
 above
 .
@@ -4025,7 +4033,11 @@ the
 comment
 at
 getPageActionButton
-SetPageProxyState
+win
+.
+gURLBar
+.
+setPageProxyState
 (
 "
 valid
