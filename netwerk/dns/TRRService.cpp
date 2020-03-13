@@ -3923,6 +3923,12 @@ Equals
 skip
 "
 )
+|
+|
+mMode
+=
+=
+MODE_TRRONLY
 )
 {
 LOG
