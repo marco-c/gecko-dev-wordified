@@ -186,6 +186,10 @@ selectedNodeIssues
 :
 [
 ]
+topLevelTargetIssues
+:
+[
+]
 }
 }
 )

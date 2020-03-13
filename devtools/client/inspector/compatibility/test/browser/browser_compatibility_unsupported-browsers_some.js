@@ -180,7 +180,7 @@ TEST_URI
 const
 {
 inspector
-panel
+selectedElementPane
 }
 =
 await
@@ -275,7 +275,7 @@ version
 await
 assertIssueList
 (
-panel
+selectedElementPane
 expectedIssues
 )
 ;
