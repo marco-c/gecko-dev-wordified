@@ -2727,6 +2727,12 @@ LazyScript
 Create
 (
 cx_
+this
+-
+>
+getCompilationInfo
+(
+)
 fun
 sourceObject_
 pc_
@@ -2738,7 +2744,7 @@ closedOverBindingsForLazy
 pc_
 -
 >
-innerFunctionBoxesForLazy
+innerFunctionIndexesForLazy
 extent
 )
 )
