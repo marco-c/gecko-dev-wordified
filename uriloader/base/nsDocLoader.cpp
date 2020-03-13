@@ -5354,12 +5354,6 @@ SendMaybeFireEmbedderLoadEvents
 (
 /
 *
-aIsTrusted
-*
-/
-true
-/
-*
 aFireLoadAtEmbeddingElement
 *
 /

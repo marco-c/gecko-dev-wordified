@@ -1110,8 +1110,6 @@ BrowserBridgeChild
 RecvMaybeFireEmbedderLoadEvents
 (
 bool
-aIsTrusted
-bool
 aFireLoadAtEmbeddingElement
 )
 {
@@ -1153,7 +1151,13 @@ nsEventStatus_eIgnore
 WidgetEvent
 event
 (
+/
+*
 aIsTrusted
+=
+*
+/
+true
 eLoad
 )
 ;

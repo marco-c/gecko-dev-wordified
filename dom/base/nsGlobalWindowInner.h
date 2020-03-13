@@ -8599,8 +8599,6 @@ iframe
 void
 FireFrameLoadEvent
 (
-bool
-aIsTrusted
 )
 ;
 public
