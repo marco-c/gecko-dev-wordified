@@ -408,12 +408,6 @@ checkBookmarksPanel
 phase
 )
 {
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 let
 popupElement
 =

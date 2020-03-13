@@ -89,12 +89,6 @@ panel
 .
 *
 /
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 let
 bookmarkPanel
 =

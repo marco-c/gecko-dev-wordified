@@ -126,14 +126,6 @@ _autoCloseTimeout
 =
 6000000
 ;
-win
-.
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 bookmarkPanel
 =
 win

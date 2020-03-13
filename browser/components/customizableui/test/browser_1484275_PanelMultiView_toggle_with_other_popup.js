@@ -442,12 +442,6 @@ managed
 by
 PanelMultiView
 .
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 let
 bookmarkPanel
 =
