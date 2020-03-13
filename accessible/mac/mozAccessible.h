@@ -824,6 +824,12 @@ uint32_t
 )
 i
 ;
+-
+(
+uint64_t
+)
+state
+;
 #
 pragma
 mark
