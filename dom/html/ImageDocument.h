@@ -531,7 +531,7 @@ eModeClasses
 mode
 )
 ;
-nsresult
+void
 OnSizeAvailable
 (
 imgIRequest
@@ -542,7 +542,7 @@ imgIContainer
 aImage
 )
 ;
-nsresult
+void
 OnLoadComplete
 (
 imgIRequest

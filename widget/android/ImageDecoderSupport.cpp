@@ -697,7 +697,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHOD
+void
 Notify
 (
 imgIRequest
@@ -728,9 +728,6 @@ SendBitmap
 )
 ;
 }
-return
-NS_OK
-;
 }
 private
 :

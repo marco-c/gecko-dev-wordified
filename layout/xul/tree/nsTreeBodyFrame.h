@@ -419,7 +419,7 @@ how
 nsImageFrame
 works
 .
-nsresult
+void
 OnImageIsAnimated
 (
 imgIRequest

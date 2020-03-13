@@ -191,7 +191,7 @@ NotifyMissing
 (
 )
 ;
-nsresult
+void
 NotifyComplete
 (
 )

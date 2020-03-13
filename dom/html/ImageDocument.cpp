@@ -2776,7 +2776,7 @@ aBoundTitleElement
 )
 ;
 }
-NS_IMETHODIMP
+void
 ImageDocument
 :
 :
@@ -2942,9 +2942,6 @@ status
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 ImageDocument
@@ -3155,7 +3152,7 @@ SuppressException
 )
 ;
 }
-nsresult
+void
 ImageDocument
 :
 :
@@ -3285,7 +3282,6 @@ mImageHeight
 )
 {
 return
-NS_OK
 ;
 }
 nsCOMPtr
@@ -3325,11 +3321,8 @@ UpdateTitleAndCharset
 (
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageDocument
 :
 :
@@ -3425,9 +3418,6 @@ false
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 ImageDocument
