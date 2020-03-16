@@ -440,9 +440,6 @@ TransactionWrapper
 class
 WebRenderAPI
 ;
-struct
-WrTransformProperty
-;
 }
 /
 /
