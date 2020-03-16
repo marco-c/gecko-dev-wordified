@@ -732,14 +732,9 @@ topNonPBWindow
 )
 {
 return
-Services
+mobileWindowTracker
 .
-wm
-.
-getMostRecentNonPBWindow
-(
-WINDOW_TYPE
-)
+topNonPBWindow
 ;
 }
 isBrowserWindow
