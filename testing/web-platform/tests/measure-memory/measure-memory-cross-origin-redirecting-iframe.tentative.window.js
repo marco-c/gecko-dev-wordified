@@ -98,7 +98,7 @@ iframe
 )
 ;
 const
-child
+redirecting_child
 =
 getUrl
 (
@@ -106,6 +106,8 @@ CROSS_ORIGIN
 '
 resources
 /
+redirecting
+-
 child
 .
 sub
@@ -118,7 +120,7 @@ frame
 .
 src
 =
-child
+redirecting_child
 ;
 document
 .
@@ -156,7 +158,7 @@ window
 location
 .
 href
-child
+redirecting_child
 ]
 }
 )
