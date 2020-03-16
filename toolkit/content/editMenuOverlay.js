@@ -194,7 +194,6 @@ if
 force
 &
 &
-(
 typeof
 gEditUIVisible
 !
@@ -206,7 +205,6 @@ undefined
 &
 !
 gEditUIVisible
-)
 )
 {
 return

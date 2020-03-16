@@ -450,7 +450,6 @@ preview
 stack
 &
 &
-(
 mode
 !
 =
@@ -467,7 +466,6 @@ mode
 MODE
 .
 SHORT
-)
 )
 {
 const

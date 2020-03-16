@@ -362,6 +362,7 @@ r
 =
 >
 !
+(
 /
 /
 We
@@ -415,6 +416,7 @@ x2
 menuButtonRect
 .
 right
+)
 )
 /
 /

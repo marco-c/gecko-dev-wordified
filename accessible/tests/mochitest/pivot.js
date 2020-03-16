@@ -424,7 +424,6 @@ STATE_FOCUSABLE
 )
 &
 &
-(
 role
 !
 =
@@ -435,7 +434,6 @@ role
 !
 =
 ROLE_INTERNAL_FRAME
-)
 )
 {
 rv

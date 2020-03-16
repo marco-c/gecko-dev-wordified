@@ -445,7 +445,6 @@ addonID2
 )
 &
 &
-(
 seenPostponed
 .
 includes
@@ -459,7 +458,6 @@ seenPostponed
 includes
 (
 addonID2
-)
 )
 )
 {

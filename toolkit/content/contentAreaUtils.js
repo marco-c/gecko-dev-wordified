@@ -1245,7 +1245,6 @@ if
 aShouldBypassCache
 &
 &
-(
 aDoc
 &
 &
@@ -1256,17 +1255,14 @@ isCrossProcessWrapper
 (
 aDoc
 )
-)
 &
 &
-(
 !
 aContentType
 &
 &
 !
 aContentDisp
-)
 )
 {
 try

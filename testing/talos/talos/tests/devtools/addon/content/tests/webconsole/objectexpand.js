@@ -466,9 +466,9 @@ new
 getBrowserWindow
 (
 )
-)
 .
 MutationObserver
+)
 (
 mutations
 =

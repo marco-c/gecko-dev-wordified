@@ -787,6 +787,7 @@ profiler
 )
 ;
 delete
+(
 /
 *
 *
@@ -798,9 +799,10 @@ any
 /
 (
 element
-)
 .
 _addedEventListeners
+)
+)
 ;
 }
 }

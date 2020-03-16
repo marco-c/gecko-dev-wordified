@@ -325,6 +325,7 @@ r
 =
 >
 !
+(
 /
 /
 We
@@ -467,6 +468,7 @@ gBrowser
 tabs
 .
 length
+)
 )
 )
 )

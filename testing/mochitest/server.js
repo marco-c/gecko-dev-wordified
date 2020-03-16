@@ -3841,7 +3841,6 @@ link
 )
 &
 &
-(
 value
 instanceof
 Object
@@ -3852,7 +3851,6 @@ test
 "
 in
 value
-)
 ?
 "
 non

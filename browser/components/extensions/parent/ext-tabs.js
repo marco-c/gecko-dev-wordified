@@ -2574,7 +2574,6 @@ filter
 urls
 &
 &
-(
 !
 extension
 .
@@ -2594,7 +2593,6 @@ hasPermission
 "
 activeTab
 "
-)
 )
 )
 {

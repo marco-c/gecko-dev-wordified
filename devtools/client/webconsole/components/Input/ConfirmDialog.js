@@ -724,7 +724,6 @@ hasError
 )
 |
 |
-(
 !
 this
 .
@@ -737,7 +736,6 @@ this
 props
 .
 getterPath
-)
 )
 {
 return

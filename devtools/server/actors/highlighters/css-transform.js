@@ -842,7 +842,6 @@ return
 style
 &
 &
-(
 style
 .
 transform
@@ -863,7 +862,6 @@ display
 "
 inline
 "
-)
 ;
 }
 _setPolygonPoints

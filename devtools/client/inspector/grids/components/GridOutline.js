@@ -933,7 +933,6 @@ rowEnd
 rowNumber
 &
 &
-(
 area
 .
 columnStart
@@ -947,7 +946,6 @@ area
 columnEnd
 >
 columnNumber
-)
 )
 ;
 if

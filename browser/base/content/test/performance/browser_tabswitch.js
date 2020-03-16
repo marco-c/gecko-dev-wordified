@@ -378,6 +378,7 @@ r
 =
 >
 !
+(
 /
 /
 We
@@ -497,6 +498,7 @@ origTab
 clientWidth
 *
 2
+)
 )
 )
 )

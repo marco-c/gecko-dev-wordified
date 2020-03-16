@@ -989,7 +989,6 @@ selectedSource
 id
 &
 &
-(
 !
 this
 .
@@ -1003,7 +1002,6 @@ this
 .
 isSourceSearchEnabled
 (
-)
 )
 ;
 const

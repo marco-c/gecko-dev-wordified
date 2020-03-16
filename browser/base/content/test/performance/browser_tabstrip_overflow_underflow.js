@@ -295,6 +295,7 @@ r
 =
 >
 !
+(
 /
 /
 We
@@ -347,6 +348,7 @@ x2
 tabStripRect
 .
 right
+)
 )
 )
 exceptions

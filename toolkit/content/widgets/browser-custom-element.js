@@ -8712,7 +8712,6 @@ this
 _AUTOSCROLL_SNAP
 |
 |
-(
 y
 >
 this
@@ -8726,7 +8725,6 @@ y
 this
 .
 _AUTOSCROLL_SNAP
-)
 )
 {
 this

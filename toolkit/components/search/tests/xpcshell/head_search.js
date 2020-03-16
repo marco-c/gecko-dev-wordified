@@ -1621,7 +1621,6 @@ if
 isUS
 &
 &
-(
 "
 US
 "
@@ -1634,7 +1633,6 @@ in
 searchSettings
 .
 US
-)
 )
 {
 defaultEngineName

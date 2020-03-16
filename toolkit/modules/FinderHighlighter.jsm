@@ -10569,7 +10569,6 @@ dict
 detectedGeometryChange
 |
 |
-(
 Math
 .
 abs
@@ -10592,7 +10591,6 @@ height
 )
 >
 kContentChangeThresholdPx
-)
 ;
 }
 dict
