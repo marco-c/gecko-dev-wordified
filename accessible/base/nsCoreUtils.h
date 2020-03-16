@@ -922,6 +922,7 @@ scrolled
 to
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 ScrollSubstringTo
@@ -1012,6 +1013,7 @@ when
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 ScrollSubstringTo
