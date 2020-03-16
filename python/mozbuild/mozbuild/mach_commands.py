@@ -4477,7 +4477,7 @@ no_install
 else
 InstallIntent
 .
-PROMPT
+YES
 )
         
 if
@@ -7954,7 +7954,7 @@ no_install
 else
 InstallIntent
 .
-PROMPT
+YES
 )
         
 device_serial

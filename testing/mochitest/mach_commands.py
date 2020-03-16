@@ -3100,7 +3100,7 @@ no_install
 else
 InstallIntent
 .
-PROMPT
+YES
             
 #
 verify
@@ -3466,7 +3466,7 @@ no_install
 else
 InstallIntent
 .
-PROMPT
+YES
                               
 xre
 =

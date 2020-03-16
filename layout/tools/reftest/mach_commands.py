@@ -1914,7 +1914,7 @@ no_install
 else
 InstallIntent
 .
-PROMPT
+YES
             
 verify_android_device
 (
