@@ -205,6 +205,13 @@ ipc
 :
 IsOnBackgroundThread
 ;
+using
+namespace
+mozilla
+:
+:
+pkix
+;
 namespace
 mozilla
 {
