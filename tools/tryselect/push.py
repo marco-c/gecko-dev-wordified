@@ -968,6 +968,18 @@ push
     
 if
 try_task_config
+and
+method
+not
+in
+(
+'
+auto
+'
+'
+empty
+'
+)
 :
         
 display_push_estimates
@@ -1039,11 +1051,19 @@ if
 push
 and
 method
-!
-=
+not
+in
+(
 '
 again
 '
+'
+auto
+'
+'
+empty
+'
+)
 :
             
 write_task_config_history
