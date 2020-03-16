@@ -602,7 +602,7 @@ flatpak
 .
 tar
 .
-gz
+xz
 '
 ]
     
