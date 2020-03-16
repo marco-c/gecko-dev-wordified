@@ -2993,8 +2993,10 @@ try_mode
 try_option_syntax
 '
         
-args
-=
+parameters
+.
+update
+(
 parse_message
 (
 parameters
@@ -3004,15 +3006,7 @@ message
 '
 ]
 )
-        
-parameters
-[
-'
-try_options
-'
-]
-=
-args
+)
     
 else
 :

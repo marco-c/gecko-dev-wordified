@@ -788,6 +788,9 @@ do
 -
 t
 all
+-
+-
+artifact
 '
         
 mock_get_hg_revision_branch
@@ -902,6 +905,25 @@ try_task_config
 '
 ]
 {
+            
+'
+gecko
+-
+profile
+'
+:
+False
+            
+'
+use
+-
+artifact
+-
+builds
+'
+:
+True
+        
 }
 )
     

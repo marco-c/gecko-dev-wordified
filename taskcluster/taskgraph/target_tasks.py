@@ -912,17 +912,6 @@ task_duplicates
 options
 .
 trigger_tests
-            
-task
-.
-attributes
-[
-'
-profile
-'
-]
-=
-False
         
 #
 If
@@ -979,19 +968,6 @@ task_duplicates
 options
 .
 talos_trigger_tests
-            
-task
-.
-attributes
-[
-'
-profile
-'
-]
-=
-options
-.
-profile
         
 #
 If
@@ -1048,19 +1024,6 @@ task_duplicates
 options
 .
 raptor_trigger_tests
-            
-task
-.
-attributes
-[
-'
-profile
-'
-]
-=
-options
-.
-profile
         
 task
 .
