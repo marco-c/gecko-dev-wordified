@@ -1591,10 +1591,6 @@ nextScriptId
 (
 )
 )
-isStandaloneFunctionBody_
-(
-false
-)
 superScopeNeedsHomeObject_
 (
 false
