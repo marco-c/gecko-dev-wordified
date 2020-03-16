@@ -275,6 +275,7 @@ hashchange
 )
 ;
 }
+true
 )
 ;
 addMessageListener

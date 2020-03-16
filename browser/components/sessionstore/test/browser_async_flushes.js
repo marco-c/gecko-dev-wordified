@@ -199,6 +199,9 @@ resolve
 once
 :
 true
+capture
+:
+true
 }
 )
 ;
@@ -455,6 +458,9 @@ resolve
 )
 {
 once
+:
+true
+capture
 :
 true
 }
@@ -781,6 +787,9 @@ resolve
 )
 {
 once
+:
+true
+capture
 :
 true
 }

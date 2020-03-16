@@ -152,7 +152,7 @@ this
 "
 hashchange
 "
-false
+true
 )
 ;
 }
