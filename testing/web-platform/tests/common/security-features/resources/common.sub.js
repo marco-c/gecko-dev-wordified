@@ -8864,7 +8864,7 @@ classic
 /
 /
 Classic
-dedicated
+shared
 worker
 loaded
 from
@@ -8899,7 +8899,7 @@ data
 /
 /
 Classic
-dedicated
+shared
 worker
 loaded
 from
@@ -8932,7 +8932,7 @@ module
 /
 /
 Module
-dedicated
+shared
 worker
 loaded
 from
@@ -8972,7 +8972,7 @@ data
 /
 /
 Module
-dedicated
+shared
 worker
 loaded
 from
