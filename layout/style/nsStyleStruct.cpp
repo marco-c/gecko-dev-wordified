@@ -13697,7 +13697,10 @@ Scroll
 )
 mBlendMode
 (
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 mComposite
 (
@@ -22311,7 +22314,10 @@ mOpacity
 )
 mMixBlendMode
 (
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 MOZ_COUNT_CTOR

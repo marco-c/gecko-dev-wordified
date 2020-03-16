@@ -16909,7 +16909,10 @@ BottomLayer
 mBlendMode
 =
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 aDrawBackgroundColor

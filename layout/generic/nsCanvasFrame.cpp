@@ -3642,7 +3642,10 @@ i
 mBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 needBlendContainer
@@ -3954,7 +3957,10 @@ i
 mBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 DisplayListClipState
