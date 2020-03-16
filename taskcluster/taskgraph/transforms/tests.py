@@ -14375,6 +14375,22 @@ optimization
 '
 ]
         
+#
+Pushes
+generated
+by
+mach
+try
+auto
+should
+use
+the
+non
+-
+try
+optimizations
+.
+        
 elif
 config
 .
@@ -14383,6 +14399,20 @@ params
 is_try
 (
 )
+and
+config
+.
+params
+[
+'
+try_mode
+'
+]
+!
+=
+'
+try_auto
+'
 :
             
 jobdesc
