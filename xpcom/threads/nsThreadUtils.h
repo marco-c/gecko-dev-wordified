@@ -12578,6 +12578,9 @@ thread
 *
 /
 extern
+"
+C
+"
 nsresult
 NS_CreateBackgroundTaskQueue
 (
