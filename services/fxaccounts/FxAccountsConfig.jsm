@@ -338,6 +338,13 @@ uri
 "
 ]
 ;
+const
+SYNC_PARAM
+=
+"
+sync
+"
+;
 var
 FxAccountsConfig
 =
@@ -366,6 +373,9 @@ extraParams
 {
 entrypoint
 email
+service
+:
+SYNC_PARAM
 .
 .
 .
@@ -402,6 +412,9 @@ action
 "
 email
 "
+service
+:
+SYNC_PARAM
 .
 .
 .
@@ -434,6 +447,9 @@ extraParams
 :
 {
 entrypoint
+service
+:
+SYNC_PARAM
 .
 .
 .
@@ -580,6 +596,9 @@ extraParams
 :
 {
 entrypoint
+service
+:
+SYNC_PARAM
 .
 .
 .
@@ -688,11 +707,6 @@ defaultParams
 {
 return
 {
-service
-:
-"
-sync
-"
 context
 :
 CONTEXT_PARAM

@@ -1475,10 +1475,6 @@ com
 /
 connect_another_device
 ?
-service
-=
-sync
-&
 context
 =
 "
@@ -1491,6 +1487,10 @@ entrypoint
 synced
 -
 tabs
+&
+service
+=
+sync
 &
 uid
 =
