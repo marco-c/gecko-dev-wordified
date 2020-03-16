@@ -218,7 +218,7 @@ aPath
 bool
 GetOpenVRControllerManifestPath
 (
-OpenVRControllerType
+VRControllerType
 aType
 nsCString
 *
@@ -344,7 +344,7 @@ IPCResult
 RecvOpenVRControllerManifestPathToVR
 (
 const
-OpenVRControllerType
+VRControllerType
 &
 aType
 const

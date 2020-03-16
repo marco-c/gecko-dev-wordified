@@ -165,7 +165,7 @@ h
 #
 include
 "
-gfxVR
+moz_external_vr
 .
 h
 "
@@ -337,7 +337,7 @@ IPCResult
 RecvOpenVRControllerManifestPathToParent
 (
 const
-OpenVRControllerType
+VRControllerType
 &
 aType
 const
