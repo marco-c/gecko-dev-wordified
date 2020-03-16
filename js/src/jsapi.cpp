@@ -8167,6 +8167,15 @@ zone
 (
 )
 ;
+MOZ_ASSERT
+(
+!
+IsInsideNursery
+(
+obj
+)
+)
+;
 zone
 -
 >
