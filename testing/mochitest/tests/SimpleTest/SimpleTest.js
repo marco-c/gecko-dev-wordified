@@ -9981,7 +9981,6 @@ number
 isScriptError
 isWarning
 isException
-isStrict
 :
 boolean
 *
