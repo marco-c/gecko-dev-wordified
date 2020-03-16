@@ -1825,7 +1825,7 @@ function
 in
 /
 /
-finishExtraFunctionScopes
+finishFunctionScopes
 the
 function
 box
