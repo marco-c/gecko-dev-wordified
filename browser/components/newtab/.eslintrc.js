@@ -20,13 +20,6 @@ sub
 -
 directories
 .
-parser
-:
-"
-babel
--
-eslint
-"
 parserOptions
 :
 {
