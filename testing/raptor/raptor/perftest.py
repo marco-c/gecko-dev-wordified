@@ -913,6 +913,12 @@ None
         
 self
 .
+runtime_error
+=
+None
+        
+self
+.
 profile_class
 =
 profile_class
@@ -2298,23 +2304,6 @@ crashes
 LOG
 .
 critical
-(
-"
-Tests
-failed
-to
-finish
-!
-Application
-timed
-out
-.
-"
-)
-                        
-LOG
-.
-error
 (
 e
 )
