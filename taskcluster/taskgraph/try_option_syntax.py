@@ -2427,6 +2427,36 @@ pop
 profile
 "
 )
+        
+"
+env
+"
+:
+dict
+(
+arg
+.
+split
+(
+"
+=
+"
+)
+for
+arg
+in
+try_options
+.
+pop
+(
+"
+env
+"
+)
+or
+[
+]
+)
     
 }
     
@@ -2611,18 +2641,6 @@ talos
 )
         
 -
-env
-:
-additional
-environment
-variables
-(
-ENV
-=
-value
-)
-        
--
 tag
 :
 restrict
@@ -2798,13 +2816,6 @@ self
 raptor_trigger_tests
 =
 0
-        
-self
-.
-env
-=
-[
-]
         
 self
 .
@@ -2998,17 +3009,6 @@ options
 [
 '
 raptor_trigger_tests
-'
-]
-        
-self
-.
-env
-=
-options
-[
-'
-env
 '
 ]
         
@@ -6172,18 +6172,6 @@ str
 self
 .
 raptor_trigger_tests
-)
-            
-"
-env
-:
-"
-+
-str
-(
-self
-.
-env
 )
             
 "
