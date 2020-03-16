@@ -11376,10 +11376,6 @@ UnaryArith_Fallback
 stubCode
 )
 {
-extra_
-=
-0
-;
 }
 public
 :
@@ -11557,10 +11553,6 @@ BinaryArith_Fallback
 stubCode
 )
 {
-extra_
-=
-0
-;
 }
 static
 const
