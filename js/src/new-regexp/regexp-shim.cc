@@ -1548,12 +1548,12 @@ false
 bool
 FLAG_regexp_optimization
 =
-false
+true
 ;
 bool
 FLAG_regexp_peephole_optimization
 =
-false
+true
 ;
 bool
 FLAG_regexp_possessive_quantifier
