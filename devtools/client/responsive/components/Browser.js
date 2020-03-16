@@ -1222,9 +1222,7 @@ iframe
 {
 allowFullScreen
 :
-"
 true
-"
 className
 :
 "
