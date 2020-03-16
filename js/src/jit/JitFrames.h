@@ -514,6 +514,14 @@ tag
 )
 ;
 }
+JSScript
+*
+MaybeForwardedScriptFromCalleeToken
+(
+CalleeToken
+token
+)
+;
 /
 /
 In
