@@ -471,7 +471,7 @@ apply
 /
 static
 inline
-bool
+void
 GuardFunApplyArgumentsOptimization
 (
 JSContext
@@ -559,9 +559,6 @@ argsObj
 ;
 }
 }
-return
-true
-;
 }
 /
 *
