@@ -77,12 +77,14 @@ files
 .
 import
 os
-import
-re
 from
 pathlib
 import
 *
+import
+re
+import
+shutil
 #
 All
 paths
@@ -3557,6 +3559,18 @@ str
 (
 file_dir
 )
+)
+    
+shutil
+.
+rmtree
+(
+file_dir
+/
+'
+generated
+'
+True
 )
     
 testEntryList
