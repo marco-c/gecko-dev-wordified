@@ -2131,12 +2131,12 @@ manually
 .
 if
 (
-AddDeclaredNamePtr
+DeclaredNamePtr
 p
 =
 funScope
 .
-lookupDeclaredNameForAdd
+lookupDeclaredName
 (
 name
 )
