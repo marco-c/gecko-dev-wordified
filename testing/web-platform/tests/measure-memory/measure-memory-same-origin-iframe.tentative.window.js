@@ -29,6 +29,13 @@ resources
 common
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
