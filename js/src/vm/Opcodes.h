@@ -23161,11 +23161,7 @@ to
 JSOp
 :
 :
-{
-Push
-Pop
-}
-VarEnv
+PushVarEnv
 and
 JSOp
 :
