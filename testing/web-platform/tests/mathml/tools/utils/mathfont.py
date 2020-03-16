@@ -238,16 +238,21 @@ mathFont
 def
 drawRectangleGlyph
 (
-aGlyph
-aWidth
-aAscent
-aDescent
+glyph
+width
+ascent
+descent
+=
+0
+padding_left
+=
+0
 )
 :
     
 p
 =
-aGlyph
+glyph
 .
 glyphPen
 (
@@ -257,34 +262,38 @@ p
 .
 moveTo
 (
-0
+padding_left
 -
-aDescent
+descent
 )
     
 p
 .
 lineTo
 (
-0
-aAscent
+padding_left
+ascent
 )
     
 p
 .
 lineTo
 (
-aWidth
-aAscent
+padding_left
++
+width
+ascent
 )
     
 p
 .
 lineTo
 (
-aWidth
+padding_left
++
+width
 -
-aDescent
+descent
 )
     
 p
@@ -294,11 +303,13 @@ closePath
 )
 ;
     
-aGlyph
+glyph
 .
 width
 =
-aWidth
+padding_left
++
+width
 def
 createSquareGlyph
 (
