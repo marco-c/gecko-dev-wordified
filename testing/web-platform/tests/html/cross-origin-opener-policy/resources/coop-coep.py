@@ -215,11 +215,11 @@ js
 script
 >
 <
-iframe
+body
 >
 <
 /
-iframe
+body
 >
 <
 script
@@ -536,12 +536,11 @@ close
 )
 ;
     
-const
 iframe
 =
 document
 .
-querySelector
+createElement
 (
 "
 iframe
@@ -649,6 +648,16 @@ channel
 {
 channelName
 }
+;
+    
+document
+.
+body
+.
+appendChild
+(
+iframe
+)
 ;
   
 }
