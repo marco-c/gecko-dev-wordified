@@ -749,7 +749,7 @@ const
 RawDateTimeFormatter
 input
 :
-usize
+f64
 out_count
 :
 &

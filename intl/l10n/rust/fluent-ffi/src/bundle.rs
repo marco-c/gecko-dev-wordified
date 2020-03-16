@@ -859,15 +859,6 @@ merge
 named
 )
 ;
-let
-epoch
-=
-n
-.
-value
-as
-usize
-;
 FluentValue
 :
 :
@@ -883,7 +874,9 @@ FluentDateTime
 :
 new
 (
-epoch
+n
+.
+value
 options
 )
 )
