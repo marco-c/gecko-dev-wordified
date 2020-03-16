@@ -2650,7 +2650,7 @@ open
 (
 manifest_path
 "
-wb
+w
 "
 )
 as

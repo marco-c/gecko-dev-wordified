@@ -6738,7 +6738,6 @@ World
 )
     
 assert
-b
 "
 b45ef6fec89518d314f546fd6c3025367b721684
 "
