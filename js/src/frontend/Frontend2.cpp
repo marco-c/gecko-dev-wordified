@@ -1083,7 +1083,6 @@ notes
 *
 /
 nullptr
-JSREPORT_ERROR
 errorNumber
 &
 args
