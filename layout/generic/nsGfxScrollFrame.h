@@ -2909,7 +2909,7 @@ aDestination
 const
 ;
 nsRect
-RestrictToRootCompositionBounds
+RestrictToRootDisplayPort
 (
 const
 nsRect
