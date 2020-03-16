@@ -1664,7 +1664,7 @@ bpsyms
 :
         
 import
-fix_stack_using_bpsyms
+fix_stacks
 as
 fixModule
         
@@ -1681,10 +1681,12 @@ fixModule
 fixSymbols
 (
 line
-bpsyms
-jsonEscape
+jsonMode
 =
 True
+breakpadSymsDir
+=
+bpsyms
 )
     
 elif
