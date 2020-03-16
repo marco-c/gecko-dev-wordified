@@ -901,9 +901,9 @@ data
 {
 aRv
 .
-Throw
+NoteJSContextException
 (
-NS_ERROR_DOM_SYNTAX_ERR
+aCx
 )
 ;
 return
