@@ -104,6 +104,13 @@ nsIEventTarget
 .
 h
 "
+#
+include
+"
+nsIMultiPartChannel
+.
+h
+"
 namespace
 mozilla
 {
@@ -117,6 +124,8 @@ public
 nsIStreamListenerTee
 public
 nsIThreadRetargetableStreamListener
+public
+nsIMultiPartChannelListener
 {
 public
 :
@@ -125,6 +134,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 NS_DECL_NSISTREAMLISTENERTEE
+NS_DECL_NSIMULTIPARTCHANNELLISTENER
 nsStreamListenerTee
 (
 )
@@ -170,6 +180,11 @@ nsCOMPtr
 nsIEventTarget
 >
 mEventTarget
+;
+bool
+mIsMultiPart
+=
+false
 ;
 }
 ;

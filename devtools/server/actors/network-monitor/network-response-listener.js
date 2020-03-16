@@ -1170,6 +1170,17 @@ function
 request
 )
 {
+request
+=
+request
+.
+QueryInterface
+(
+Ci
+.
+nsIChannel
+)
+;
 /
 /
 Converter
