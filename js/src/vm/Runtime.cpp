@@ -566,12 +566,6 @@ using
 mozilla
 :
 :
-PodZero
-;
-using
-mozilla
-:
-:
 PositiveInfinity
 ;
 /

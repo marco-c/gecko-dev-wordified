@@ -465,12 +465,6 @@ mozilla
 PodCopy
 ;
 using
-mozilla
-:
-:
-PodZero
-;
-using
 js
 :
 :
