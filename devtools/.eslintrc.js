@@ -1000,6 +1000,17 @@ plugin
 "
 mozilla
 /
+balanced
+-
+observers
+"
+:
+"
+error
+"
+"
+mozilla
+/
 no
 -
 aArgs
