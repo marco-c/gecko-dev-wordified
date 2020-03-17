@@ -1094,6 +1094,9 @@ brush_yuv_imageTEXTURE_2D_YUV_NV12
 brush_yuv_imageYUV
 "
 "
+brush_yuv_imageYUV_ALPHA_PASS
+"
+"
 brush_yuv_imageYUV_INTERLEAVED
 "
 "
@@ -1107,6 +1110,9 @@ brush_yuv_imageYUV_PLANAR
 "
 "
 composite
+"
+"
+compositeYUV
 "
 "
 cs_blurALPHA_TARGET
