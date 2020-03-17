@@ -392,11 +392,6 @@ allocID
 (
 actor
 .
-actorPrefix
-|
-|
-actor
-.
 typeName
 )
 ;

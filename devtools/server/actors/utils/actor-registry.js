@@ -1828,8 +1828,6 @@ Note
 that
 the
 name
-or
-actorPrefix
 of
 the
 request
@@ -1840,9 +1838,9 @@ allowed
 to
 clash
 with
-*
 existing
 protocol
+*
 packet
 properties
 like
@@ -1859,7 +1857,6 @@ actor
 since
 that
 would
-*
 break
 the
 protocol
@@ -2292,8 +2289,6 @@ Note
 that
 the
 name
-or
-actorPrefix
 of
 the
 request
@@ -2304,9 +2299,9 @@ allowed
 to
 clash
 with
-*
 existing
 protocol
+*
 packet
 properties
 like
@@ -2322,7 +2317,6 @@ selected
 '
 since
 that
-*
 would
 break
 the

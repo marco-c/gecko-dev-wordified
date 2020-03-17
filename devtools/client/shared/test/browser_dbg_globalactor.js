@@ -256,7 +256,7 @@ testOne
 testGlobalActor1
 '
 s
-actorPrefix
+typeName
 should
 be
 used
@@ -397,7 +397,7 @@ connID
 ]
 ;
 const
-actorPrefix
+computedPrefix
 =
 conn
 .
@@ -437,7 +437,7 @@ actorID
 .
 startsWith
 (
-actorPrefix
+computedPrefix
 )
 )
 {
