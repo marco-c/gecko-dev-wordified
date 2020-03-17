@@ -268,8 +268,9 @@ virtual
 BackstagePass
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIPrincipal

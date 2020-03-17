@@ -725,8 +725,8 @@ virtual
 CompileTask
 (
 )
-{
-}
+=
+default
 ;
 size_t
 sizeOfExcludingThis

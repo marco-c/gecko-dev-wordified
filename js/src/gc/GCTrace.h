@@ -170,8 +170,8 @@ public
 GCTrace
 (
 )
-{
-}
+=
+default
 ;
 #
 ifdef

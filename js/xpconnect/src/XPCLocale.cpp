@@ -224,8 +224,8 @@ virtual
 XPCLocaleObserver
 (
 )
-{
-}
+=
+default
 ;
 }
 ;

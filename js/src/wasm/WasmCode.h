@@ -2141,8 +2141,9 @@ virtual
 Metadata
 (
 )
-{
-}
+=
+default
+;
 MetadataCacheablePod
 &
 pod

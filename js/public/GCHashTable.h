@@ -4029,8 +4029,9 @@ settle
 Range
 (
 )
-{
-}
+=
+default
+;
 bool
 empty
 (
@@ -5247,8 +5248,9 @@ settle
 Range
 (
 )
-{
-}
+=
+default
+;
 bool
 empty
 (

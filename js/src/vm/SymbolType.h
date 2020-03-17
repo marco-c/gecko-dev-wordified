@@ -1080,8 +1080,9 @@ public
 SymbolRegistry
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
