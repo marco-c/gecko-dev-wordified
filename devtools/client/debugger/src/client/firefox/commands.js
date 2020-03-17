@@ -149,7 +149,6 @@ type
 {
 Target
 DevToolsClient
-TargetList
 Grip
 ThreadFront
 ObjectFront
@@ -209,11 +208,6 @@ devToolsClient
 DevToolsClient
 ;
 let
-targetList
-:
-TargetList
-;
-let
 sourceActors
 :
 {
@@ -253,9 +247,6 @@ Dependencies
 devToolsClient
 :
 DevToolsClient
-targetList
-:
-TargetList
 }
 ;
 function
@@ -271,12 +262,6 @@ devToolsClient
 dependencies
 .
 devToolsClient
-;
-targetList
-=
-dependencies
-.
-targetList
 ;
 targets
 =
@@ -601,7 +586,7 @@ listThreadFronts
 )
 {
 const
-list
+targetList
 =
 (
 Object
@@ -617,7 +602,7 @@ any
 )
 ;
 return
-list
+targetList
 .
 map
 (
@@ -2480,7 +2465,6 @@ currentTarget
 devToolsClient
 targets
 options
-targetList
 }
 )
 ;

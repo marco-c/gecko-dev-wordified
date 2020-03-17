@@ -324,7 +324,9 @@ getTarget
 )
 ;
 const
+[
 threadFront
+]
 =
 await
 front

@@ -320,7 +320,9 @@ attach
 )
 ;
 const
+[
 threadFront
+]
 =
 await
 target
@@ -789,7 +791,9 @@ attach
 )
 ;
 const
+[
 threadFront
+]
 =
 await
 target
