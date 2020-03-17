@@ -512,8 +512,8 @@ except
 Exception
 :
             
+exc_cls
 exc
-val
 tb
 =
 sys
@@ -524,7 +524,9 @@ exc_info
             
 reraise
 (
-exc
+exc_cls
+exc_cls
+(
 '
 Failed
 to
@@ -540,7 +542,8 @@ tab
 .
 format
 (
-val
+exc
+)
 )
 tb
 )
@@ -829,8 +832,8 @@ except
 Exception
 :
             
+exc_cls
 exc
-val
 tb
 =
 sys
@@ -841,7 +844,9 @@ exc_info
             
 reraise
 (
-exc
+exc_cls
+exc_cls
+(
 '
 Failed
 to
@@ -857,7 +862,8 @@ window
 .
 format
 (
-val
+exc
+)
 )
 tb
 )

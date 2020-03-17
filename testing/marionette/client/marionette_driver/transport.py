@@ -1338,6 +1338,16 @@ socket
 timeout
 :
             
+exc_cls
+exc
+tb
+=
+sys
+.
+exc_info
+(
+)
+            
 msg
 =
 "
@@ -1358,24 +1368,17 @@ socket
 }
 "
             
-exc
-val
-tb
-=
-sys
-.
-exc_info
-(
-)
-            
 reraise
 (
-exc
+exc_cls
+exc_cls
+(
 msg
 .
 format
 (
-val
+exc
+)
 )
 tb
 )
