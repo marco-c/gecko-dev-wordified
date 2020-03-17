@@ -364,8 +364,9 @@ virtual
 GetRectText
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -443,8 +444,9 @@ virtual
 GetWritingModeName
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

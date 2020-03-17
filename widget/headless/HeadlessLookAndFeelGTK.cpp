@@ -162,8 +162,9 @@ HeadlessLookAndFeel
 HeadlessLookAndFeel
 (
 )
-{
-}
+=
+default
+;
 HeadlessLookAndFeel
 :
 :
@@ -171,8 +172,9 @@ HeadlessLookAndFeel
 HeadlessLookAndFeel
 (
 )
-{
-}
+=
+default
+;
 nsresult
 HeadlessLookAndFeel
 :

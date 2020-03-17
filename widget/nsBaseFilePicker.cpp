@@ -832,8 +832,9 @@ nsBaseFilePicker
 nsBaseFilePicker
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsBaseFilePicker
 :

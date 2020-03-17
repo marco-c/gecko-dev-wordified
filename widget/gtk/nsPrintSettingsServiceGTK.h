@@ -133,8 +133,9 @@ public
 nsPrintSettingsServiceGTK
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 SerializeToPrintData
 (

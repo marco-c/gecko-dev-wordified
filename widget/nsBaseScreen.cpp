@@ -125,8 +125,9 @@ nsBaseScreen
 nsBaseScreen
 (
 )
-{
-}
+=
+default
+;
 nsBaseScreen
 :
 :
@@ -134,8 +135,9 @@ nsBaseScreen
 nsBaseScreen
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsBaseScreen
 :

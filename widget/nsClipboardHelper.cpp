@@ -329,8 +329,9 @@ nsClipboardHelper
 nsClipboardHelper
 (
 )
-{
-}
+=
+default
+;
 nsClipboardHelper
 :
 :
