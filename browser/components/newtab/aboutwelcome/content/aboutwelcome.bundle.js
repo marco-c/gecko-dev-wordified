@@ -1846,7 +1846,7 @@ div
 className
 :
 "
-trailheadCards
+welcomeContainer
 "
 }
 react__WEBPACK_IMPORTED_MODULE_0___default
@@ -1862,7 +1862,7 @@ div
 className
 :
 "
-trailheadCardsInner
+welcomeContainerInner
 "
 }
 react__WEBPACK_IMPORTED_MODULE_0___default
@@ -3501,7 +3501,7 @@ div
 {
 className
 :
-trailheadCardGrid
+welcomeCardGrid
 show
 }
 props
@@ -3539,7 +3539,7 @@ card
 className
 :
 "
-trailheadCard
+welcomeCard
 "
 sendUserActionTelemetry
 :
