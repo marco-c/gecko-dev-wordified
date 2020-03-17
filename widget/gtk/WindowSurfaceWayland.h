@@ -503,8 +503,8 @@ virtual
 WindowBackBuffer
 (
 )
-=
-default
+{
+}
 ;
 protected
 :

@@ -948,9 +948,8 @@ nsFilePicker
 nsFilePicker
 (
 )
-=
-default
-;
+{
+}
 void
 ReadMultipleFiles
 (

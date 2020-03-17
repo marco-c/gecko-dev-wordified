@@ -224,9 +224,8 @@ nsPKCS12Blob
 nsPKCS12Blob
 (
 )
-=
-default
-;
+{
+}
 /
 /
 PKCS

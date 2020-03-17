@@ -268,9 +268,8 @@ virtual
 WeakCacheBase
 (
 )
-=
-default
-;
+{
+}
 virtual
 size_t
 sweep

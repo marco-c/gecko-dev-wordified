@@ -8512,9 +8512,8 @@ aWidget
 WidgetGUIEvent
 (
 )
-=
-default
-;
+{
+}
 public
 :
 virtual

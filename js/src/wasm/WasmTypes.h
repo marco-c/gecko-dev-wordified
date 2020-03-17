@@ -16758,9 +16758,8 @@ public
 CalleeDesc
 (
 )
-=
-default
-;
+{
+}
 static
 CalleeDesc
 function

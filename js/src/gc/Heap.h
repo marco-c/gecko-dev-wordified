@@ -4289,9 +4289,8 @@ public
 ChunkBitmap
 (
 )
-=
-default
-;
+{
+}
 MOZ_ALWAYS_INLINE
 void
 getMarkWordAndMask

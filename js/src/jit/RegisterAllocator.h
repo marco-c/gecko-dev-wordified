@@ -467,9 +467,8 @@ outputs
 InstructionInfo
 (
 )
-=
-default
-;
+{
+}
 InstructionInfo
 (
 const
@@ -554,9 +553,8 @@ phis
 BlockInfo
 (
 )
-=
-default
-;
+{
+}
 BlockInfo
 (
 const

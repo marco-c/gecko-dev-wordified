@@ -153,9 +153,8 @@ nsNSSVersion
 nsNSSVersion
 (
 )
-=
-default
-;
+{
+}
 nsNSSVersion
 :
 :
@@ -163,9 +162,8 @@ nsNSSVersion
 nsNSSVersion
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsNSSVersion
 :

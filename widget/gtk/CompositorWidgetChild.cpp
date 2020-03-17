@@ -177,9 +177,8 @@ CompositorWidgetChild
 CompositorWidgetChild
 (
 )
-=
-default
-;
+{
+}
 bool
 CompositorWidgetChild
 :

@@ -2258,9 +2258,8 @@ AsmJSMetadata
 (
 )
 override
-=
-default
-;
+{
+}
 const
 AsmJSExport
 &

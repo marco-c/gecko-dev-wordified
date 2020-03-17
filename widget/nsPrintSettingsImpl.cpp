@@ -406,9 +406,8 @@ nsPrintSettings
 nsPrintSettings
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsPrintSettings
 :

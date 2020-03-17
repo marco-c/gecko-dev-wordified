@@ -3204,9 +3204,13 @@ public
 ProfilingStack
 (
 )
-=
-default
-;
+:
+stackPointer
+(
+0
+)
+{
+}
 ~
 ProfilingStack
 (
@@ -4011,9 +4015,6 @@ mozilla
 ReleaseAcquire
 >
 stackPointer
-{
-0
-}
 ;
 }
 ;

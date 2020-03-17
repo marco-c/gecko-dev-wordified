@@ -203,9 +203,8 @@ nsFilePickerProxy
 nsFilePickerProxy
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsFilePickerProxy
 :

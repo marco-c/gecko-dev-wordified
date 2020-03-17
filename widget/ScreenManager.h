@@ -210,9 +210,8 @@ virtual
 Helper
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 public

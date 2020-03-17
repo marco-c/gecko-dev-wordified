@@ -176,9 +176,8 @@ NS_DECL_NSIPRINTSETTINGSSERVICE
 nsPrintSettingsService
 (
 )
-=
-default
-;
+{
+}
 /
 *
 *
@@ -259,9 +258,8 @@ virtual
 nsPrintSettingsService
 (
 )
-=
-default
-;
+{
+}
 void
 ReadBitFieldPref
 (

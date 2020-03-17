@@ -1534,9 +1534,8 @@ public
 DictionaryShapeLink
 (
 )
-=
-default
-;
+{
+}
 explicit
 DictionaryShapeLink
 (

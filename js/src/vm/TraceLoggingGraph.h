@@ -1432,9 +1432,8 @@ public
 TraceLoggerGraph
 (
 )
-=
-default
-;
+{
+}
 ~
 TraceLoggerGraph
 (

@@ -143,9 +143,8 @@ virtual
 WindowSurface
 (
 )
-=
-default
-;
+{
+}
 /
 /
 Locks

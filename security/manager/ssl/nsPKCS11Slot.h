@@ -164,9 +164,8 @@ virtual
 nsPKCS11Slot
 (
 )
-=
-default
-;
+{
+}
 private
 :
 mozilla
@@ -282,9 +281,8 @@ virtual
 nsPKCS11Module
 (
 )
-=
-default
-;
+{
+}
 private
 :
 mozilla

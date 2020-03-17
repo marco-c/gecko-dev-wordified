@@ -7704,9 +7704,8 @@ addition
 XPCNativeSetKey
 (
 )
-=
-default
-;
+{
+}
 XPCNativeSet
 *
 GetBaseSet
@@ -15420,9 +15419,8 @@ virtual
 XPCVariant
 (
 )
-=
-default
-;
+{
+}
 bool
 InitializeData
 (

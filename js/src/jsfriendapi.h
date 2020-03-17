@@ -14834,9 +14834,8 @@ AllocationMetadataBuilder
 AllocationMetadataBuilder
 (
 )
-=
-default
-;
+{
+}
 /
 /
 Return

@@ -616,9 +616,8 @@ virtual
 SourceHook
 (
 )
-=
-default
-;
+{
+}
 /
 *
 *

@@ -1515,9 +1515,8 @@ mName
 WrappedJSNamed
 (
 )
-=
-default
-;
+{
+}
 public
 :
 NS_DECL_ISUPPORTS

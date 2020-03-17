@@ -22670,9 +22670,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 AutoProfilerCallInstrumentation
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 friend

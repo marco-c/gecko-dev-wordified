@@ -469,9 +469,13 @@ protected
 AtomicRefCounted
 (
 )
-=
-default
-;
+:
+mRefCnt
+(
+0
+)
+{
+}
 ~
 AtomicRefCounted
 (
@@ -578,9 +582,6 @@ Atomic
 MozRefCountType
 >
 mRefCnt
-{
-0
-}
 ;
 }
 ;

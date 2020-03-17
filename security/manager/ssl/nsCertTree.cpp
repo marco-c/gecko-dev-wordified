@@ -651,9 +651,8 @@ nsCertTreeDispInfo
 nsCertTreeDispInfo
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsCertTreeDispInfo
 :

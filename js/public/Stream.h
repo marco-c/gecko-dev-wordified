@@ -697,9 +697,8 @@ virtual
 ReadableStreamUnderlyingSource
 (
 )
-=
-default
-;
+{
+}
 /
 *
 *
@@ -3496,9 +3495,8 @@ virtual
 WritableStreamUnderlyingSink
 (
 )
-=
-default
-;
+{
+}
 /
 *
 *

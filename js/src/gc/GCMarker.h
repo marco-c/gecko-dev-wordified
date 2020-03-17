@@ -631,9 +631,8 @@ public
 TaggedPtr
 (
 )
-=
-default
-;
+{
+}
 TaggedPtr
 (
 Tag

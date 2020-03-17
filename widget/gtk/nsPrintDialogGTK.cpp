@@ -3308,9 +3308,8 @@ nsPrintDialogServiceGTK
 nsPrintDialogServiceGTK
 (
 )
-=
-default
-;
+{
+}
 nsPrintDialogServiceGTK
 :
 :
@@ -3318,9 +3317,8 @@ nsPrintDialogServiceGTK
 nsPrintDialogServiceGTK
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsPrintDialogServiceGTK
 :

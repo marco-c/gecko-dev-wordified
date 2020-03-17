@@ -139,9 +139,8 @@ HeadlessSound
 HeadlessSound
 (
 )
-=
-default
-;
+{
+}
 HeadlessSound
 :
 :
@@ -149,9 +148,8 @@ HeadlessSound
 HeadlessSound
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 HeadlessSound
 :

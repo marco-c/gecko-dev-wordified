@@ -134,9 +134,8 @@ private
 nsRandomGenerator
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 #

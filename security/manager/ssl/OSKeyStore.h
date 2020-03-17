@@ -289,9 +289,8 @@ virtual
 AbstractOSKeyStore
 (
 )
-=
-default
-;
+{
+}
 /
 /
 Returns

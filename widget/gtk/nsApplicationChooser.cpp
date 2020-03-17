@@ -182,9 +182,8 @@ nsApplicationChooser
 nsApplicationChooser
 (
 )
-=
-default
-;
+{
+}
 nsApplicationChooser
 :
 :
@@ -192,9 +191,8 @@ nsApplicationChooser
 nsApplicationChooser
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsApplicationChooser
 :

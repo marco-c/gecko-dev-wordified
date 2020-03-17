@@ -236,9 +236,8 @@ ScreenManager
 ScreenManager
 (
 )
-=
-default
-;
+{
+}
 ScreenManager
 :
 :
@@ -246,9 +245,8 @@ ScreenManager
 ScreenManager
 (
 )
-=
-default
-;
+{
+}
 static
 StaticRefPtr
 <

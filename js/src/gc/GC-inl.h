@@ -1032,9 +1032,8 @@ init
 ZoneAllCellIter
 (
 )
-=
-default
-;
+{
+}
 void
 init
 (

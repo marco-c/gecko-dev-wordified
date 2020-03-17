@@ -253,9 +253,8 @@ NSSErrorsService
 NSSErrorsService
 (
 )
-=
-default
-;
+{
+}
 nsresult
 NSSErrorsService
 :

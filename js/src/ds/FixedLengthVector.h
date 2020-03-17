@@ -245,9 +245,8 @@ public
 FixedLengthVector
 (
 )
-=
-default
-;
+{
+}
 FixedLengthVector
 (
 FixedLengthVector

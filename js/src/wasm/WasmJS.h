@@ -1868,9 +1868,8 @@ i64
 Cell
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 static

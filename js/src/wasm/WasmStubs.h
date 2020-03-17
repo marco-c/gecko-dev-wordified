@@ -408,6 +408,7 @@ ABIResult
 )
 {
 }
+;
 public
 :
 /

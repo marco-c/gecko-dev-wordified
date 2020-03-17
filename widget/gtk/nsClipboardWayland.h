@@ -236,8 +236,8 @@ virtual
 DataOffer
 (
 )
-=
-default
+{
+}
 ;
 private
 :
@@ -534,8 +534,8 @@ virtual
 nsWaylandDragContext
 (
 )
-=
-default
+{
+}
 ;
 nsAutoPtr
 <

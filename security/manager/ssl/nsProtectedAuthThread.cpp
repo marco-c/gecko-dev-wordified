@@ -252,9 +252,8 @@ nsProtectedAuthThread
 nsProtectedAuthThread
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 nsProtectedAuthThread
 :

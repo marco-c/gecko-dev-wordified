@@ -330,8 +330,8 @@ virtual
 nsRetrievalContext
 (
 )
-=
-default
+{
+}
 ;
 }
 ;

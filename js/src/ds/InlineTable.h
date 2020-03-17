@@ -1159,9 +1159,8 @@ public
 AddPtr
 (
 )
-=
-default
-;
+{
+}
 bool
 found
 (

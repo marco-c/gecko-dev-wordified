@@ -599,9 +599,8 @@ protected
 GlobalPrinters
 (
 )
-=
-default
-;
+{
+}
 static
 GlobalPrinters
 mGlobalPrinters
@@ -2519,9 +2518,8 @@ nsPrinterEnumeratorGTK
 nsPrinterEnumeratorGTK
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsPrinterEnumeratorGTK

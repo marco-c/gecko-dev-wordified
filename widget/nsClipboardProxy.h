@@ -230,9 +230,8 @@ private
 nsClipboardProxy
 (
 )
-=
-default
-;
+{
+}
 ClipboardCapabilities
 mClipboardCaps
 ;

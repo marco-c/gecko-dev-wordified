@@ -293,9 +293,8 @@ private
 nsDeviceContextSpecProxy
 (
 )
-=
-default
-;
+{
+}
 nsCOMPtr
 <
 nsIPrintSettings

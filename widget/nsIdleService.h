@@ -263,9 +263,8 @@ aIsIdle
 IdleListener
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 /
