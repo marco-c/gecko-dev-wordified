@@ -4577,6 +4577,10 @@ friend
 class
 TextureSourceProvider
 ;
+friend
+class
+GPUVideoTextureHost
+;
 }
 ;
 /
