@@ -4076,11 +4076,10 @@ IsLCovEnabled
 ;
 MOZ_ASSERT
 (
-!
 script
 -
 >
-isUncompleted
+hasBytecode
 (
 )
 "
@@ -4494,11 +4493,10 @@ value
 ;
 if
 (
-!
 script
 -
 >
-isUncompleted
+hasBytecode
 (
 )
 )
