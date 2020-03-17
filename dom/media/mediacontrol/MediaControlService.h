@@ -710,7 +710,7 @@ change
 void
 ControllerPlaybackStateChanged
 (
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 ;

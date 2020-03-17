@@ -1070,7 +1070,7 @@ ControllerManager
 :
 ControllerPlaybackStateChanged
 (
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 {
@@ -1245,10 +1245,10 @@ mSource
 >
 SetPlaybackState
 (
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-eStopped
+None
 )
 ;
 }

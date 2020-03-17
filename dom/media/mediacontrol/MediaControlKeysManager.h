@@ -187,12 +187,12 @@ override
 void
 SetPlaybackState
 (
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 override
 ;
-PlaybackState
+MediaSessionPlaybackState
 GetPlaybackState
 (
 )
