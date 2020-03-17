@@ -1281,7 +1281,7 @@ offThreadJobs
 /
 Queued
 finalization
-group
+registry
 cleanup
 jobs
 .
@@ -1303,7 +1303,7 @@ PersistentRooted
 <
 ObjectVector
 >
-finalizationGroupsToCleanUp
+finalizationRegistriesToCleanUp
 ;
 }
 ;

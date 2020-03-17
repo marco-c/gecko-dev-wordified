@@ -22593,7 +22593,7 @@ Clean
 up
 a
 finalization
-group
+registry
 in
 response
 to
@@ -22602,7 +22602,7 @@ engine
 calling
 the
 *
-HostCleanupFinalizationGroup
+HostCleanupFinalizationRegistry
 callback
 .
 *
@@ -22610,13 +22610,13 @@ callback
 extern
 JS_PUBLIC_API
 bool
-CleanupQueuedFinalizationGroup
+CleanupQueuedFinalizationRegistry
 (
 JSContext
 *
 cx
 HandleObject
-group
+registry
 )
 ;
 }

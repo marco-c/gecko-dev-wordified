@@ -2527,7 +2527,7 @@ A
 map
 from
 finalization
-group
+registry
 targets
 to
 a
@@ -2538,7 +2538,7 @@ records
 /
 /
 representing
-groups
+registries
 that
 the
 target
@@ -2547,9 +2547,9 @@ registered
 with
 and
 their
+/
+/
 associated
-/
-/
 held
 values
 .

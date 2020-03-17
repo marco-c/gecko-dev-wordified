@@ -1181,10 +1181,10 @@ WasmGlobal
 \
 REAL
 (
-FinalizationGroup
+FinalizationRegistry
 OCLASP
 (
-FinalizationGroup
+FinalizationRegistry
 )
 )
 \

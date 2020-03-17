@@ -4993,7 +4993,7 @@ Implemented
 in
 builtin
 /
-FinalizationGroup
+FinalizationRegistry
 .
 cpp
 static

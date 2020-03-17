@@ -2141,7 +2141,7 @@ NonGrayEdges
 )
 ;
 }
-markFinalizationGroupRoots
+markFinalizationRegistryRoots
 (
 trc
 )
