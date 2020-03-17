@@ -676,9 +676,11 @@ if
 (
 NS_FAILED
 (
+mFileManager
+-
+>
 AsyncDeleteFile
 (
-mFileManager
 id
 )
 )

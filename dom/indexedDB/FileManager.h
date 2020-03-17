@@ -553,6 +553,14 @@ int64_t
 aId
 )
 ;
+MOZ_MUST_USE
+nsresult
+AsyncDeleteFile
+(
+int64_t
+aFileId
+)
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 FileManager
