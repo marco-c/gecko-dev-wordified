@@ -738,6 +738,13 @@ this
 ;
 }
 }
+protocol
+.
+registerFront
+(
+RootFront
+)
+;
 add_task
 (
 async
@@ -1009,11 +1016,9 @@ tests
 const
 rootFront
 =
-new
-RootFront
-(
 client
-)
+.
+mainRoot
 ;
 let
 ret

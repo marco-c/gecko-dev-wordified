@@ -286,6 +286,13 @@ this
 ;
 }
 }
+protocol
+.
+registerFront
+(
+RootFront
+)
+;
 function
 run_test
 (
@@ -370,11 +377,9 @@ onConnect
 {
 rootFront
 =
-new
-RootFront
-(
 client
-)
+.
+mainRoot
 ;
 rootFront
 .
