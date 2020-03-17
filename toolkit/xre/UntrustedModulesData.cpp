@@ -1783,10 +1783,6 @@ if
 (
 !
 mModule
-|
-|
-!
-mLoadDurationMS
 )
 {
 return
