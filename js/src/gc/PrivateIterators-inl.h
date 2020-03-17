@@ -208,7 +208,7 @@ arena
 {
 MOZ_ASSERT
 (
-CurrentThreadIsGCSweeping
+CurrentThreadIsGCFinalizing
 (
 )
 )
@@ -368,7 +368,7 @@ gc
 atomsZone
 -
 >
-isCollectingFromAnyThread
+wasGCStarted
 (
 )
 !
