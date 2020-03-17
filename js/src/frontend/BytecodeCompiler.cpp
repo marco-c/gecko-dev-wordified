@@ -5635,7 +5635,7 @@ MOZ_ASSERT
 lazy
 -
 >
-enclosingScriptHasEverBeenCompiled
+isReadyForDelazification
 (
 )
 )
@@ -6356,7 +6356,7 @@ MOZ_ASSERT
 lazy
 -
 >
-enclosingScriptHasEverBeenCompiled
+isReadyForDelazification
 (
 )
 )

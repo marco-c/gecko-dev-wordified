@@ -1153,7 +1153,7 @@ if
 script
 -
 >
-enclosingScriptHasEverBeenCompiled
+isReadyForDelazification
 (
 )
 )

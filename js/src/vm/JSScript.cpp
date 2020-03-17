@@ -28800,7 +28800,7 @@ if
 script
 -
 >
-isLazyScript
+isReadyForDelazification
 (
 )
 )
@@ -28955,7 +28955,7 @@ MOZ_ASSERT
 script
 -
 >
-isLazyScript
+isReadyForDelazification
 (
 )
 )
