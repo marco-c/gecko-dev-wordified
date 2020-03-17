@@ -235,12 +235,12 @@ startswith
 "
 )
 or
-"
-.
-"
 not
-in
 line
+.
+strip
+(
+)
 :
       
 continue

@@ -261,6 +261,8 @@ nsCString
 aHostname
 int32_t
 aAdditionalParts
+bool
+aOnlyKnownPublicSuffix
 nsACString
 &
 aBaseDomain
