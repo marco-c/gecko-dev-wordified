@@ -28,7 +28,7 @@ queued
 /
 /
 by
-FinalizationGroup
+FinalizationRegistry
 callbacks
 .
 let
@@ -42,10 +42,10 @@ promiseRan
 false
 ;
 let
-fg
+fr
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 (
 )
@@ -79,7 +79,7 @@ true
 }
 )
 ;
-fg
+fr
 .
 register
 (

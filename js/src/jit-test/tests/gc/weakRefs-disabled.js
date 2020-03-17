@@ -20,7 +20,7 @@ false
 assertEq
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 in
 this

@@ -19,10 +19,10 @@ enableShellAllocationMetadataBuilder
 evaluate
 (
 var
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -36,7 +36,7 @@ gczeal
 3
 )
 ;
-group
+registry
 .
 register
 (

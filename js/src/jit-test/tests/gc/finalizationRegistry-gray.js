@@ -17,7 +17,7 @@ refs
 Test
 gray
 finalization
-group
+registry
 is
 correctly
 barrired
@@ -27,10 +27,10 @@ target
 {
 }
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -38,7 +38,7 @@ iterator
 undefined
 )
 ;
-group
+registry
 .
 register
 (
@@ -53,9 +53,9 @@ grayRoot
 0
 ]
 =
-group
+registry
 ;
-group
+registry
 =
 undefined
 ;
@@ -65,7 +65,7 @@ gc
 ;
 /
 /
-Group
+Registry
 is
 now
 marked
@@ -83,7 +83,7 @@ gc
 /
 Target
 dies
-group
+registry
 is
 queued
 .
