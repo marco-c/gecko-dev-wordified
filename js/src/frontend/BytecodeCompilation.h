@@ -333,7 +333,7 @@ Kind
 js
 :
 :
-LazyScript
+BaseScript
 JSScript
 js
 :
