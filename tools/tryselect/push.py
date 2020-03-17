@@ -678,10 +678,10 @@ graph_cache_file
 in
 [
 "
-full_task_graph
-"
-"
 target_task_graph
+"
+"
+full_task_graph
 "
 ]
 :
