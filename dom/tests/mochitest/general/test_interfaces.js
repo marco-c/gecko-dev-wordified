@@ -1773,6 +1773,9 @@ name
 "
 AuthenticatorAssertionResponse
 "
+android
+:
+false
 }
 /
 /
@@ -1796,6 +1799,9 @@ name
 "
 AuthenticatorAttestationResponse
 "
+android
+:
+false
 }
 /
 /
@@ -1819,6 +1825,9 @@ name
 "
 AuthenticatorResponse
 "
+android
+:
+false
 }
 /
 /
@@ -2489,6 +2498,9 @@ name
 "
 Credential
 "
+android
+:
+false
 }
 /
 /
@@ -2512,6 +2524,9 @@ name
 "
 CredentialsContainer
 "
+android
+:
+false
 }
 /
 /
@@ -10650,6 +10665,9 @@ name
 "
 PublicKeyCredential
 "
+android
+:
+false
 }
 /
 /
