@@ -4530,11 +4530,9 @@ ImageBufferKind
 >
 usize
 {
-(
 buffer_kind
 as
 usize
-)
 }
 pub
 fn
