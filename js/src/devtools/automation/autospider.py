@@ -599,7 +599,7 @@ TIMEOUT
                     
 default
 =
-10800
+12600
                     
 help
 =
