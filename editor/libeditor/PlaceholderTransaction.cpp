@@ -389,6 +389,7 @@ mStartSel
 .
 RestoreSelection
 (
+*
 selection
 )
 ;
@@ -511,6 +512,7 @@ mEndSel
 .
 RestoreSelection
 (
+*
 selection
 )
 ;
@@ -1375,9 +1377,8 @@ IsCollapsed
 &
 mStartSel
 .
-IsEqual
+Equals
 (
-&
 aSelectionState
 )
 ;
@@ -1573,6 +1574,7 @@ mEndSel
 .
 SaveSelection
 (
+*
 selection
 )
 ;
