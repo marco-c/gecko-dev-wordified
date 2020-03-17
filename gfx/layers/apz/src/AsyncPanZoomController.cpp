@@ -29952,6 +29952,12 @@ aProofOfLock
 )
 const
 {
+AutoApplyAsyncTestAttributes
+testAttributeApplier
+(
+this
+)
+;
 CSSPoint
 currentScrollOffset
 =
@@ -29962,8 +29968,6 @@ AsyncPanZoomController
 :
 eForCompositing
 )
-+
-mTestAsyncScrollOffset
 ;
 CSSRect
 visible
