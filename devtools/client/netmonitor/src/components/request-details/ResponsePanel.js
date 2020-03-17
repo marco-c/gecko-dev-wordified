@@ -1439,6 +1439,9 @@ opened
 !
 !
 targetSearchResult
+|
+|
+filterText
 shouldOpen
 :
 item
@@ -1812,7 +1815,7 @@ RESPONSE_PAYLOAD
 id
 :
 "
-paramsPostPayload
+responsePayload
 "
 opened
 :
@@ -2032,6 +2035,9 @@ filter
 placeholder
 :
 JSON_FILTER_TEXT
+value
+:
+filterText
 }
 )
 )
