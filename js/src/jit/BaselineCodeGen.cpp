@@ -19549,7 +19549,7 @@ if
 callVM
 <
 Fn
-DeleteElementJit
+DelElemOperation
 <
 true
 >
@@ -19571,7 +19571,7 @@ if
 callVM
 <
 Fn
-DeleteElementJit
+DelElemOperation
 <
 false
 >
@@ -21265,7 +21265,7 @@ if
 callVM
 <
 Fn
-DeletePropertyJit
+DelPropOperation
 <
 true
 >
@@ -21287,7 +21287,7 @@ if
 callVM
 <
 Fn
-DeletePropertyJit
+DelPropOperation
 <
 false
 >
