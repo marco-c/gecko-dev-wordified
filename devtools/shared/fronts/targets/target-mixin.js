@@ -2272,9 +2272,6 @@ thread
 "
 )
 ;
-const
-result
-=
 await
 this
 .
@@ -2330,12 +2327,9 @@ _resolveOnThreadAttached
 )
 ;
 return
-[
-result
 this
 .
 threadFront
-]
 ;
 }
 /
