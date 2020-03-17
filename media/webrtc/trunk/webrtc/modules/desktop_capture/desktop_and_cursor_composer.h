@@ -449,8 +449,6 @@ DesktopVector
 &
 )
 override
-{
-}
 ;
 void
 OnMouseCursorPosition
