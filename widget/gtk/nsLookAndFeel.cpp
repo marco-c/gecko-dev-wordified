@@ -520,8 +520,9 @@ nsLookAndFeel
 nsLookAndFeel
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Modifies

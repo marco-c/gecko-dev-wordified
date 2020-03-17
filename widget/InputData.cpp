@@ -202,8 +202,9 @@ InputData
 InputData
 (
 )
-{
-}
+=
+default
+;
 InputData
 :
 :

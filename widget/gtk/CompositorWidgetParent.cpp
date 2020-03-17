@@ -172,8 +172,9 @@ CompositorWidgetParent
 CompositorWidgetParent
 (
 )
-{
-}
+=
+default
+;
 void
 CompositorWidgetParent
 :

@@ -376,8 +376,9 @@ nsPrintSession
 nsPrintSession
 (
 )
-{
-}
+=
+default
+;
 /
 /
 -
@@ -464,8 +465,9 @@ nsPrintSession
 nsPrintSession
 (
 )
-{
-}
+=
+default
+;
 /
 /
 -

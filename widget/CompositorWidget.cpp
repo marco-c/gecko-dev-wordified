@@ -117,8 +117,9 @@ CompositorWidget
 CompositorWidget
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 gfx

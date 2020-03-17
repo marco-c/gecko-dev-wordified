@@ -235,8 +235,9 @@ virtual
 nsNativeTheme
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
@@ -386,6 +387,7 @@ nsIFrame
 aFrame
 )
 ;
+static
 bool
 IsHTMLContent
 (

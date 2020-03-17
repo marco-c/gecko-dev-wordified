@@ -477,8 +477,9 @@ protected
 GfxInfo
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 GetFeatureStatusImpl

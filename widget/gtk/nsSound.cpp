@@ -990,8 +990,9 @@ nsSound
 nsSound
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsSound
 :
