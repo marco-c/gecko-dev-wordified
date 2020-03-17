@@ -338,7 +338,7 @@ it
 (
 "
 returns
-false
+true
 for
 entries
 on
@@ -398,7 +398,7 @@ entriesNode
 )
 )
 .
-toBeFalsy
+toBeTruthy
 (
 )
 ;
@@ -409,7 +409,7 @@ it
 (
 "
 returns
-false
+true
 for
 entries
 on
@@ -478,7 +478,7 @@ entriesNode
 )
 )
 .
-toBeFalsy
+toBeTruthy
 (
 )
 ;
