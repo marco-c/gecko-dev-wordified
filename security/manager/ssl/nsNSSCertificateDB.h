@@ -212,8 +212,9 @@ virtual
 nsNSSCertificateDB
 (
 )
-{
-}
+=
+default
+;
 private
 :
 /

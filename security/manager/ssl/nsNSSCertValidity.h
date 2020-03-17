@@ -112,8 +112,9 @@ virtual
 nsX509CertValidity
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsresult
