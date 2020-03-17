@@ -17762,9 +17762,6 @@ const
 bool
 aIsFullStorage
 const
-bool
-aNeedCollectSHistory
-const
 uint32_t
 &
 aFlushId
@@ -18332,7 +18329,6 @@ aFlushId
 aIsFinal
 aEpoch
 dataVal
-aNeedCollectSHistory
 )
 ;
 NS_ENSURE_SUCCESS
