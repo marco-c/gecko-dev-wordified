@@ -801,21 +801,17 @@ process
             
 except
 Exception
+as
+e
 :
-                
-_
-value
-tb
-=
-sys
-.
-exc_info
-(
-)
                 
 reraise
 (
 RunnerNotStartedError
+                        
+RunnerNotStartedError
+(
+                            
 "
 Failed
 to
@@ -823,12 +819,24 @@ start
 the
 process
 :
-%
-s
+{
+}
 "
-%
-value
-tb
+.
+format
+(
+e
+)
+)
+                        
+sys
+.
+exc_info
+(
+)
+[
+2
+]
 )
         
 self
