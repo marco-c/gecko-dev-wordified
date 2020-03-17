@@ -312,7 +312,7 @@ Play
 "
 )
 ;
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 :
@@ -344,7 +344,7 @@ Pause
 "
 )
 ;
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 :
@@ -476,7 +476,7 @@ Stop
 "
 )
 ;
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 :
@@ -677,7 +677,7 @@ twice
 "
 )
 ;
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 :
@@ -1133,7 +1133,7 @@ mPlayingControlledMediaNum
 1
 )
 {
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 :
@@ -1192,7 +1192,7 @@ mPlayingControlledMediaNum
 0
 )
 {
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 :
@@ -1351,7 +1351,7 @@ void
 MediaController
 :
 :
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 aState
@@ -1362,7 +1362,7 @@ if
 mShutdown
 |
 |
-mState
+mGuessedPlaybackState
 =
 =
 aState
@@ -1374,7 +1374,7 @@ return
 LOG
 (
 "
-SetPlayState
+SetGuessedPlayState
 :
 '
 %
@@ -1387,7 +1387,7 @@ aState
 )
 )
 ;
-mState
+mGuessedPlaybackState
 =
 aState
 ;
@@ -1395,7 +1395,7 @@ mPlaybackStateChangedEvent
 .
 Notify
 (
-mState
+mGuessedPlaybackState
 )
 ;
 }
@@ -1409,7 +1409,7 @@ GetState
 const
 {
 return
-mState
+mGuessedPlaybackState
 ;
 }
 bool
@@ -1422,7 +1422,7 @@ IsAudible
 const
 {
 return
-mState
+mGuessedPlaybackState
 =
 =
 PlaybackState
