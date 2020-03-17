@@ -3878,7 +3878,7 @@ cx
 ;
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -4023,7 +4023,7 @@ lazy
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 ;
@@ -10330,7 +10330,7 @@ fun
 {
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -10339,7 +10339,7 @@ cx
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 )
@@ -10985,7 +10985,7 @@ fun
 ;
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -10994,7 +10994,7 @@ cx
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 )

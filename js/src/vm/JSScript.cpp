@@ -1558,10 +1558,10 @@ static
 *
 /
 XDRResult
-LazyScript
+BaseScript
 :
 :
-XDRScriptData
+XDRLazyScriptData
 (
 XDRState
 <
@@ -1573,7 +1573,7 @@ HandleScriptSourceObject
 sourceObject
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -8442,7 +8442,7 @@ HandleFunction
 fun
 MutableHandle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -8790,10 +8790,10 @@ isClassConstructor
 ;
 MOZ_TRY
 (
-LazyScript
+BaseScript
 :
 :
-XDRScriptData
+XDRLazyScriptData
 (
 xdr
 sourceObject
@@ -8825,7 +8825,7 @@ HandleScriptSourceObject
 HandleFunction
 MutableHandle
 <
-LazyScript
+BaseScript
 *
 >
 )
@@ -8847,7 +8847,7 @@ HandleScriptSourceObject
 HandleFunction
 MutableHandle
 <
-LazyScript
+BaseScript
 *
 >
 )
