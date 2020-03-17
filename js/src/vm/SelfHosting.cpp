@@ -18568,10 +18568,11 @@ next
 {
 if
 (
+!
 base
 -
 >
-isLazyScript
+hasBytecode
 (
 )
 )

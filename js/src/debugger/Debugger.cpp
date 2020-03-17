@@ -22006,10 +22006,11 @@ next
 {
 if
 (
+!
 base
 -
 >
-isLazyScript
+hasJitScript
 (
 )
 )

@@ -672,8 +672,7 @@ asJSScript
 {
 MOZ_ASSERT
 (
-!
-isLazyScript
+hasBytecode
 (
 )
 )
@@ -1377,7 +1376,10 @@ hasDebugScript
 }
 inline
 bool
-JSScript
+js
+:
+:
+BaseScript
 :
 :
 hasBaselineScript
@@ -1403,7 +1405,10 @@ hasBaselineScript
 }
 inline
 bool
-JSScript
+js
+:
+:
+BaseScript
 :
 :
 hasIonScript
