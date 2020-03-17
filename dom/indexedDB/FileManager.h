@@ -545,6 +545,14 @@ MutexAutoLock
 aFilesMutexLock
 )
 ;
+MOZ_MUST_USE
+nsresult
+SyncDeleteFile
+(
+int64_t
+aId
+)
+;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 FileManager
