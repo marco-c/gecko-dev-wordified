@@ -30092,8 +30092,9 @@ JSErrorNotes
 JSErrorNotes
 (
 )
-{
-}
+=
+default
+;
 static
 UniquePtr
 <

@@ -514,8 +514,9 @@ lazyScript
 BinASTParser
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 /

@@ -466,8 +466,9 @@ nullptr
 BinASTParserPerTokenizer
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

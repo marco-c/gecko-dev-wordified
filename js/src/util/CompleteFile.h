@@ -234,8 +234,9 @@ public
 AutoFile
 (
 )
-{
-}
+=
+default
+;
 ~
 AutoFile
 (

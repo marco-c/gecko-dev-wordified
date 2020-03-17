@@ -197,8 +197,9 @@ JSDebugger
 JSDebugger
 (
 )
-{
-}
+=
+default
+;
 JSDebugger
 :
 :
@@ -206,8 +207,9 @@ JSDebugger
 JSDebugger
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 JSDebugger
 :

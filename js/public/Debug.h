@@ -1748,13 +1748,9 @@ Object
 &
 rhs
 )
-:
-Base
-(
-rhs
-)
-{
-}
+=
+default
+;
 /
 /
 Our

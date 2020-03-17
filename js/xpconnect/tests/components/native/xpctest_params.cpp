@@ -90,8 +90,9 @@ nsXPCTestParams
 nsXPCTestParams
 (
 )
-{
-}
+=
+default
+;
 nsXPCTestParams
 :
 :
@@ -99,8 +100,9 @@ nsXPCTestParams
 nsXPCTestParams
 (
 )
-{
-}
+=
+default
+;
 #
 define
 GENERIC_METHOD_IMPL

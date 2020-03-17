@@ -2728,8 +2728,9 @@ public
 CodeLabel
 (
 )
-{
-}
+=
+default
+;
 explicit
 CodeLabel
 (

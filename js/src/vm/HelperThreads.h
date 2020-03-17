@@ -4754,8 +4754,9 @@ virtual
 SourceCompressionTask
 (
 )
-{
-}
+=
+default
+;
 bool
 runtimeMatches
 (
