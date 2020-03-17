@@ -8650,6 +8650,10 @@ computations
 void
 ApplyAsyncTestAttributes
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 ;
 /
