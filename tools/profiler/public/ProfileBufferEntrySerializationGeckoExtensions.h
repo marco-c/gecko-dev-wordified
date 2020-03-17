@@ -116,16 +116,16 @@ MPL
 /
 #
 ifndef
-BlocksRingBufferGeckoExtensions_h
+ProfileBufferEntrySerializationGeckoExtensions_h
 #
 define
-BlocksRingBufferGeckoExtensions_h
+ProfileBufferEntrySerializationGeckoExtensions_h
 #
 include
 "
 mozilla
 /
-BlocksRingBuffer
+ProfileBufferEntrySerialization
 .
 h
 "
@@ -1646,4 +1646,4 @@ mozilla
 endif
 /
 /
-BlocksRingBufferGeckoExtensions_h
+ProfileBufferEntrySerializationGeckoExtensions_h

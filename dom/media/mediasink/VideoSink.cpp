@@ -379,7 +379,7 @@ aVideoFrameTimeUs
 )
 {
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -394,7 +394,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
