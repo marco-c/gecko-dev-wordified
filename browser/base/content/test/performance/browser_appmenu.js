@@ -881,7 +881,7 @@ viewcontainer
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -963,7 +963,7 @@ be
 removed
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
