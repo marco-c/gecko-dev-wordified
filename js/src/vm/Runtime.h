@@ -1834,6 +1834,12 @@ return
 mainContext_
 ;
 }
+js
+:
+:
+Fprinter
+parserWatcherFile
+;
 inline
 JSContext
 *
