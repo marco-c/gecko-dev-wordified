@@ -2231,7 +2231,7 @@ toggle
 button
 "
 ATK_ROLE_TOGGLE_BUTTON
-NSAccessibilityButtonRole
+NSAccessibilityCheckBoxRole
 ROLE_SYSTEM_PUSHBUTTON
 IA2_ROLE_TOGGLE_BUTTON
 java
