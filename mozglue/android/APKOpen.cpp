@@ -267,13 +267,6 @@ h
 #
 include
 "
-SQLiteBridge
-.
-h
-"
-#
-include
-"
 Linker
 .
 h
@@ -1648,11 +1641,6 @@ FAILURE
 }
 #
 endif
-setup_sqlite_functions
-(
-sqlite_handle
-)
-;
 return
 SUCCESS
 ;
