@@ -319,6 +319,8 @@ Buffer
 aBuffer
 uint64_t
 aOffset
+uint64_t
+aSize
 )
 ;
 void
@@ -332,6 +334,8 @@ Buffer
 aBuffer
 uint64_t
 aOffset
+uint64_t
+aSize
 )
 ;
 void

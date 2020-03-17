@@ -356,10 +356,10 @@ RecvDeviceCreateSampler
 RawId
 aSelfId
 const
-ffi
+dom
 :
 :
-WGPUSamplerDescriptor
+GPUSamplerDescriptor
 &
 aDesc
 RawId

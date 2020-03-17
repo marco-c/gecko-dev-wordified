@@ -77,7 +77,6 @@ BindGroupId
 BindGroupLayoutId
 PipelineLayoutId
 }
-DynamicOffset
 Stored
 }
 ;
@@ -89,6 +88,12 @@ smallvec
 smallvec
 SmallVec
 }
+;
+use
+wgt
+:
+:
+DynamicOffset
 ;
 use
 std

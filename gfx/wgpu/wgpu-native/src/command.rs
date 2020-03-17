@@ -184,7 +184,7 @@ id
 BufferId
 source_offset
 :
-core
+wgt
 :
 :
 BufferAddress
@@ -196,13 +196,13 @@ id
 BufferId
 destination_offset
 :
-core
+wgt
 :
 :
 BufferAddress
 size
 :
-core
+wgt
 :
 :
 BufferAddress

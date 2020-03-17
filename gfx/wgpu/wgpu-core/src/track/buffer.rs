@@ -70,16 +70,16 @@ use
 crate
 :
 :
-{
 id
 :
 :
 BufferId
-resource
+;
+use
+wgt
 :
 :
 BufferUsage
-}
 ;
 /
 /
@@ -669,7 +669,6 @@ id
 :
 :
 TypedId
-Backend
 }
 ;
 #
@@ -714,6 +713,9 @@ zip
 (
 0
 0
+wgt
+:
+:
 Backend
 :
 :
