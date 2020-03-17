@@ -171,7 +171,7 @@ inspector
 =
 this
 .
-parent
+getParent
 (
 )
 ;

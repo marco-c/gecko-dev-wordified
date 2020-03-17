@@ -290,7 +290,7 @@ walker
 =
 nodeFront
 .
-parent
+getParent
 (
 )
 ;
@@ -377,7 +377,7 @@ walker
 =
 nodeFront
 .
-parent
+getParent
 (
 )
 ;
@@ -727,7 +727,7 @@ bp
 .
 nodeFront
 .
-parent
+getParent
 (
 )
 ;

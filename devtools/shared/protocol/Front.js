@@ -473,7 +473,7 @@ front
 .
 *
 /
-parent
+getParent
 (
 )
 {
