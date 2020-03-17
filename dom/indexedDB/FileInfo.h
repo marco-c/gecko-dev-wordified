@@ -143,9 +143,16 @@ class
 FileInfo
 final
 {
+template
+<
+typename
+FileManager
+typename
+IndexedDatabaseManager
+>
 friend
 class
-FileManager
+FileManagerBase
 ;
 const
 int64_t
