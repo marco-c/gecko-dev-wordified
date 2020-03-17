@@ -257,6 +257,13 @@ h
 #
 include
 "
+nsIOService
+.
+h
+"
+#
+include
+"
 nsIWebProgressListener
 .
 h

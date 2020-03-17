@@ -6617,7 +6617,7 @@ location
 =
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (

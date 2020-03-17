@@ -110,8 +110,6 @@ already
 *
 processed
 by
-nsIURIFixup
-.
 createExposableURI
 .
 *
@@ -2869,8 +2867,6 @@ already
 *
 processed
 by
-nsIURIFixup
-.
 createExposableURI
 .
 *

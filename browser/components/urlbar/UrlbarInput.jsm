@@ -1867,7 +1867,7 @@ uri
 =
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (
@@ -2251,7 +2251,7 @@ try
 return
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (
