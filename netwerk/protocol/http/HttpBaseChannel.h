@@ -2938,11 +2938,6 @@ aInit
 )
 ;
 uint32_t
-loadFlags
-=
-0
-;
-uint32_t
 redirectFlags
 =
 0
@@ -3050,10 +3045,6 @@ uint32_t
 aRedirectFlags
 ReplacementReason
 aReason
-uint32_t
-aExtraLoadFlags
-=
-0
 )
 ;
 static
