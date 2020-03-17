@@ -287,7 +287,7 @@ result
 =
 array
 .
-concat
+filter
 (
 function
 (

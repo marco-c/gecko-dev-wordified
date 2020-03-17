@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2019
+2020
 Mathias
 Bynens
 .
@@ -85,9 +85,9 @@ escapes
 -
 tests
 Unicode
-v12
+v13
 .
-1
+0
 .
 0
 esid
@@ -161,7 +161,7 @@ ranges
 ]
 [
 0x001AB0
-0x001ABE
+0x001AC0
 ]
 [
 0x001CD0
@@ -442,7 +442,7 @@ ranges
 0x001AAF
 ]
 [
-0x001ABF
+0x001AC1
 0x001CCF
 ]
 [

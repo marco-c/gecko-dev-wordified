@@ -1,19 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
--
-optional
--
-chaining
-is
-not
-supported
-/
-/
 Copyright
 2019
 Google
@@ -145,6 +131,7 @@ sameValue
 (
 44
 obj
+?
 .
 fn
 (

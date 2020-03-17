@@ -110,6 +110,7 @@ short
 "
 -
 987
+/
 "
 "
 narrow
@@ -118,6 +119,7 @@ narrow
 "
 -
 987
+/
 "
 "
 long
@@ -144,6 +146,7 @@ short
 0
 .
 001
+/
 "
 "
 narrow
@@ -154,6 +157,7 @@ narrow
 0
 .
 001
+/
 "
 "
 long
@@ -178,6 +182,7 @@ short
 "
 -
 0
+/
 "
 "
 narrow
@@ -186,6 +191,7 @@ narrow
 "
 -
 0
+/
 "
 "
 long
@@ -206,6 +212,7 @@ short
 :
 "
 0
+/
 "
 "
 narrow
@@ -213,6 +220,7 @@ narrow
 :
 "
 0
+/
 "
 "
 long
@@ -236,6 +244,7 @@ short
 0
 .
 001
+/
 "
 "
 narrow
@@ -245,6 +254,7 @@ narrow
 0
 .
 001
+/
 "
 "
 long
@@ -266,6 +276,7 @@ short
 :
 "
 987
+/
 "
 "
 narrow
@@ -273,6 +284,7 @@ narrow
 :
 "
 987
+/
 "
 "
 long
@@ -334,7 +346,11 @@ unit
 unit
 :
 "
-meter
+kilometer
+-
+per
+-
+hour
 "
 unitDisplay
 }

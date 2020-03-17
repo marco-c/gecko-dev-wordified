@@ -19,7 +19,7 @@ supported
 /
 /
 Copyright
-2019
+2020
 Mathias
 Bynens
 .
@@ -83,9 +83,9 @@ escapes
 -
 tests
 Unicode
-v12
+v13
 .
-1
+0
 .
 0
 esid
@@ -158,6 +158,8 @@ loneCodePoints
 0x00FF61
 0x0111CD
 0x0112A9
+0x011944
+0x011946
 0x016AF5
 0x016B44
 0x016E98
@@ -396,6 +398,7 @@ loneCodePoints
 [
 0x000838
 0x01123A
+0x011945
 ]
 ranges
 :
@@ -654,6 +657,10 @@ ranges
 ]
 [
 0x01173F
+0x011943
+]
+[
+0x011947
 0x011A41
 ]
 [
