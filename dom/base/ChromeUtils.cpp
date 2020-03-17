@@ -7679,7 +7679,7 @@ int
 MediaSessionPlaybackTestState
 :
 :
-None
+Stopped
 )
 &
 &
@@ -7763,7 +7763,7 @@ return
 MediaSessionPlaybackTestState
 :
 :
-None
+Stopped
 ;
 }
 }
