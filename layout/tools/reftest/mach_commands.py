@@ -530,6 +530,9 @@ self
 .
 topobjdir
 "
+dist
+"
+"
 crashreporter
 -
 symbols
