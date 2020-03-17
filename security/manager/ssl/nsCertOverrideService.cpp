@@ -565,8 +565,9 @@ nsCertOverrideService
 nsCertOverrideService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsCertOverrideService
 :

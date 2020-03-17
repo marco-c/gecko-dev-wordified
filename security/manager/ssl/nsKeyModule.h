@@ -179,8 +179,9 @@ private
 nsKeyObject
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Disallow
@@ -212,8 +213,9 @@ public
 nsKeyObjectFactory
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIKEYOBJECTFACTORY
 private
@@ -222,8 +224,9 @@ private
 nsKeyObjectFactory
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Disallow

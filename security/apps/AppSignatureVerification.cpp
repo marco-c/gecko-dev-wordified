@@ -5347,8 +5347,9 @@ mCertDERLen
 CoseVerificationContext
 (
 )
-{
-}
+=
+default
+;
 AppTrustedRoot
 GetTrustedRoot
 (
@@ -6785,8 +6786,9 @@ true
 SignaturePolicy
 (
 )
-{
-}
+=
+default
+;
 bool
 ProcessCOSE
 (

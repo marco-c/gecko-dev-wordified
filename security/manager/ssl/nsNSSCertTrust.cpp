@@ -277,8 +277,9 @@ nsNSSCertTrust
 nsNSSCertTrust
 (
 )
-{
-}
+=
+default
+;
 void
 nsNSSCertTrust
 :

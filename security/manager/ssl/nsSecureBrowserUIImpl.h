@@ -204,8 +204,8 @@ virtual
 nsSecureBrowserUIImpl
 (
 )
-{
-}
+=
+default
 ;
 already_AddRefed
 <

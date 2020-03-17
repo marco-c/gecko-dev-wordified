@@ -133,8 +133,9 @@ nsSSLSocketProvider
 nsSSLSocketProvider
 (
 )
-{
-}
+=
+default
+;
 nsSSLSocketProvider
 :
 :
@@ -142,8 +143,9 @@ nsSSLSocketProvider
 nsSSLSocketProvider
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsSSLSocketProvider

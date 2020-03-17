@@ -2173,8 +2173,9 @@ LocalCertService
 LocalCertService
 (
 )
-{
-}
+=
+default
+;
 LocalCertService
 :
 :
@@ -2182,8 +2183,9 @@ LocalCertService
 LocalCertService
 (
 )
-{
-}
+=
+default
+;
 nsresult
 LocalCertService
 :

@@ -1010,8 +1010,9 @@ LibSecret
 LibSecret
 (
 )
-{
-}
+=
+default
+;
 LibSecret
 :
 :

@@ -261,8 +261,9 @@ virtual
 CryptoTask
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *
