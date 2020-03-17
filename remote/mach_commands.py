@@ -1682,6 +1682,8 @@ error
 "
 TEST
 -
+UNEXPECTED
+-
 MISSING
 %
 s
