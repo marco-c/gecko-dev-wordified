@@ -106,7 +106,7 @@ thin_vec
 ;
 extern
 crate
-thread_profiler
+tracy_rs
 ;
 extern
 crate
