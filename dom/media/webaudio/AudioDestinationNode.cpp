@@ -2047,6 +2047,10 @@ aContext
 SampleRate
 (
 )
+MediaTrackGraph
+:
+:
+DEFAULT_OUTPUT_DEVICE
 )
 ;
 AudioNodeEngine

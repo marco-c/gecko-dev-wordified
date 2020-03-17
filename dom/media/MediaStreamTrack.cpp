@@ -1181,6 +1181,10 @@ mInputTrack
 -
 >
 mSampleRate
+MediaTrackGraph
+:
+:
+DEFAULT_OUTPUT_DEVICE
 )
 :
 mInputTrack

@@ -761,6 +761,11 @@ TrackRate
 aSampleRate
 uint32_t
 aChannelCount
+CubebUtils
+:
+:
+AudioDeviceID
+aOutputDeviceID
 AbstractThread
 *
 aWindow
