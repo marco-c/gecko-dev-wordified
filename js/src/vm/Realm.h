@@ -5401,10 +5401,10 @@ delazified
 .
 Called
 from
-LazyScript
+BaseScript
 :
 :
-Create
+CreateLazy
 .
 void
 scheduleDelazificationForDebugger

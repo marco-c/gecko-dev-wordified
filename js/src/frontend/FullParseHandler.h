@@ -744,7 +744,7 @@ kind
 /
 /
 The
-LazyScript
+BaseScript
 :
 :
 gcthings
@@ -804,10 +804,10 @@ types
 See
 also
 :
-LazyScript
+BaseScript
 :
 :
-Create
+CreateLazy
 .
 if
 (

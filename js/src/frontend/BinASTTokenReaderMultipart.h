@@ -929,7 +929,8 @@ FieldContext
 *
 *
 Register
-LazyScript
+lazy
+script
 for
 later
 modification

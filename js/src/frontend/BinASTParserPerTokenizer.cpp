@@ -2253,7 +2253,8 @@ funbox
 {
 /
 /
-LazyScript
+Lazy
+script
 compilation
 requires
 basically

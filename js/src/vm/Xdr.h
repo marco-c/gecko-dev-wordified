@@ -735,7 +735,9 @@ them
 /
 /
 as
-LazyScript
+a
+lazy
+BaseScript
 and
 later
 replaced
@@ -744,9 +746,9 @@ them
 by
 their
 corresponding
+/
+/
 bytecode
-/
-/
 once
 delazified
 .

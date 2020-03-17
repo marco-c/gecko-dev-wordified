@@ -32,7 +32,7 @@ then
 decoded
 the
 resulting
-LazyScript
+script
 is
 marked
 as
@@ -43,9 +43,9 @@ lazy
 so
 that
 when
-/
-/
 the
+/
+/
 debugger
 tries
 to
@@ -61,9 +61,9 @@ confused
 .
 We
 just
-/
-/
 use
+/
+/
 findScripts
 (
 )
@@ -78,9 +78,9 @@ don
 t
 really
 care
-/
-/
 about
+/
+/
 the
 scripts
 themselves

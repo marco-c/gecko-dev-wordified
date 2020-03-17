@@ -1885,10 +1885,10 @@ are
 declared
 here
 for
-LazyScript
+BaseScript
 :
 :
-Create
+CreateLazy
 .
 using
 AtomVector

@@ -858,7 +858,8 @@ callback
 only
 for
 the
-LazyScript
+lazy
+script
 that
 :
 /

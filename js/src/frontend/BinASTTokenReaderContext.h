@@ -11850,7 +11850,8 @@ FieldContext
 *
 *
 Register
-LazyScript
+lazy
+script
 for
 later
 modification
@@ -12831,7 +12832,8 @@ posBeforeTree_
 ;
 /
 /
-LazyScript
+Lazy
+script
 created
 while
 reading

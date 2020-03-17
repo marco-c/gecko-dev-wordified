@@ -1874,7 +1874,7 @@ child
 s
 /
 /
-LazyScript
+BaseScript
 .
 (
 Debugger
@@ -1882,7 +1882,8 @@ may
 become
 confused
 if
-LazyScripts
+lazy
+scripts
 refer
 to
 /
@@ -1902,7 +1903,7 @@ the
 scope
 in
 the
-LazyScript
+BaseScript
 until
 compilation
 has
