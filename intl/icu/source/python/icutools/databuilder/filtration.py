@@ -81,13 +81,6 @@ import
 utils
 from
 .
-locale_dependencies
-import
-data
-as
-DEPENDENCY_DATA
-from
-.
 request_types
 import
 *
@@ -156,8 +149,15 @@ def
 create_from_json
 (
 json_data
+io
 )
 :
+        
+assert
+io
+!
+=
+None
         
 if
 "
@@ -261,6 +261,7 @@ return
 UnionFilter
 (
 json_data
+io
 )
         
 elif
@@ -276,6 +277,7 @@ return
 LocaleFilter
 (
 json_data
+io
 )
         
 else
@@ -350,12 +352,11 @@ return
 request
 ]
     
-classmethod
+staticmethod
     
 def
 _file_to_file_stem
 (
-cls
 file
 )
 :
@@ -394,6 +395,48 @@ filename
 start
 +
 1
+:
+limit
+]
+    
+staticmethod
+    
+def
+_file_to_subdir
+(
+file
+)
+:
+        
+limit
+=
+file
+.
+filename
+.
+rfind
+(
+"
+/
+"
+)
+        
+if
+limit
+=
+=
+-
+1
+:
+            
+return
+None
+        
+return
+file
+.
+filename
+[
 :
 limit
 ]
@@ -841,6 +884,7 @@ __init__
 (
 self
 json_data
+io
 )
 :
         
@@ -881,6 +925,7 @@ Filter
 create_from_json
 (
 filter_json
+io
 )
 )
     
@@ -999,6 +1044,7 @@ __init__
 (
 self
 json_data
+io
 )
 :
         
@@ -1006,16 +1052,14 @@ self
 .
 locales_requested
 =
-set
+list
 (
-)
-        
-self
-.
-locales_required
-=
-set
-(
+json_data
+[
+"
+whitelist
+"
+]
 )
         
 self
@@ -1047,94 +1091,36 @@ False
 )
         
 #
-Compute
+Load
 the
-requested
-and
-required
-locales
-.
-        
-for
-locale
-in
-json_data
-[
-"
-whitelist
-"
-]
-:
-            
-self
-.
-_add_locale_and_parents
-(
-locale
-)
-    
-def
-_add_locale_and_parents
-(
-self
-locale
-)
-:
-        
-#
-Store
-the
-locale
-as
-*
-requested
-*
+dependency
+graph
+from
+disk
         
 self
 .
-locales_requested
-.
-add
-(
-locale
-)
-        
-#
-Store
-the
-locale
-and
-its
-dependencies
-as
-*
-required
-*
-        
-while
-locale
-is
-not
-None
-:
-            
-self
-.
-locales_required
-.
-add
-(
-locale
-)
-            
-locale
+dependency_data_by_tree
 =
-self
+{
+            
+tree
+:
+io
 .
-_get_parent_locale
+read_locale_deps
 (
-locale
+tree
 )
+            
+for
+tree
+in
+utils
+.
+ALL_TREES
+        
+}
     
 def
 match
@@ -1143,6 +1129,21 @@ self
 file
 )
 :
+        
+tree
+=
+self
+.
+_file_to_subdir
+(
+file
+)
+        
+assert
+tree
+is
+not
+None
         
 locale
 =
@@ -1184,7 +1185,10 @@ locale
 in
 self
 .
-locales_required
+_locales_required
+(
+tree
+)
 :
             
 return
@@ -1203,6 +1207,7 @@ self
 _match_recursive
 (
 locale
+tree
 )
     
 def
@@ -1210,6 +1215,7 @@ _match_recursive
 (
 self
 locale
+tree
 )
 :
         
@@ -1311,6 +1317,7 @@ group
 (
 1
 )
+tree
 )
 :
                 
@@ -1345,6 +1352,7 @@ self
 _get_parent_locale
 (
 locale
+tree
 )
             
 if
@@ -1353,6 +1361,7 @@ self
 _match_recursive
 (
 parent
+tree
 )
 :
                 
@@ -1367,20 +1376,54 @@ matches
 return
 False
     
-classmethod
-    
 def
 _get_parent_locale
 (
-cls
+self
 locale
+tree
 )
 :
         
-if
+"
+"
+"
+Gets
+the
+parent
 locale
 in
-DEPENDENCY_DATA
+the
+given
+tree
+according
+to
+dependency
+data
+.
+"
+"
+"
+        
+dependency_data
+=
+self
+.
+dependency_data_by_tree
+[
+tree
+]
+        
+if
+"
+parents
+"
+in
+dependency_data
+and
+locale
+in
+dependency_data
 [
 "
 parents
@@ -1389,7 +1432,7 @@ parents
 :
             
 return
-DEPENDENCY_DATA
+dependency_data
 [
 "
 parents
@@ -1400,9 +1443,15 @@ locale
 ]
         
 if
+"
+aliases
+"
+in
+dependency_data
+and
 locale
 in
-DEPENDENCY_DATA
+dependency_data
 [
 "
 aliases
@@ -1411,7 +1460,7 @@ aliases
 :
             
 return
-DEPENDENCY_DATA
+dependency_data
 [
 "
 aliases
@@ -1452,6 +1501,14 @@ i
 0
 :
             
+assert
+locale
+=
+=
+"
+root
+"
+            
 return
 None
         
@@ -1461,11 +1518,67 @@ locale
 :
 i
 ]
+    
+def
+_locales_required
+(
+self
+tree
+)
+:
+        
+"
+"
+"
+Returns
+a
+generator
+of
+all
+required
+locales
+in
+the
+given
+tree
+.
+"
+"
+"
+        
+for
+locale
+in
+self
+.
+locales_requested
+:
+            
+while
+locale
+is
+not
+None
+:
+                
+yield
+locale
+                
+locale
+=
+self
+.
+_get_parent_locale
+(
+locale
+tree
+)
 def
 apply_filters
 (
 requests
 config
+io
 )
 :
     
@@ -1493,6 +1606,7 @@ _apply_file_filters
 (
 requests
 config
+io
 )
     
 requests
@@ -1501,6 +1615,7 @@ _apply_resource_filters
 (
 requests
 config
+io
 )
     
 return
@@ -1510,6 +1625,7 @@ _apply_file_filters
 (
 old_requests
 config
+io
 )
 :
     
@@ -1531,6 +1647,7 @@ _preprocess_file_filters
 (
 old_requests
 config
+io
 )
     
 new_requests
@@ -1586,6 +1703,7 @@ _preprocess_file_filters
 (
 requests
 config
+io
 )
 :
     
@@ -1789,6 +1907,7 @@ Filter
 create_from_json
 (
 filter_json
+io
 )
     
 if
@@ -2558,12 +2677,11 @@ i
 return
 new_requests
     
-classmethod
+staticmethod
     
 def
 _generate_resource_filter_txt
 (
-cls
 rules
 )
 :
@@ -2605,6 +2723,7 @@ _apply_resource_filters
 (
 all_requests
 config
+io
 )
 :
     
@@ -2678,6 +2797,7 @@ entry
 files
 "
 ]
+io
 )
         
 else

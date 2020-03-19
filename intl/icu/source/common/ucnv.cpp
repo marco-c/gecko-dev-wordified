@@ -1458,7 +1458,13 @@ aligned_p
 stackBufferSize
 -
 =
+static_cast
+<
+int32_t
+>
+(
 pointerAdjustment
+)
 ;
 }
 else

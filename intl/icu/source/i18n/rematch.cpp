@@ -3024,6 +3024,11 @@ RIGHTBRACKET
 {
 groupNum
 =
+fPattern
+-
+>
+fNamedCaptureMap
+?
 uhash_geti
 (
 fPattern
@@ -3033,6 +3038,8 @@ fNamedCaptureMap
 &
 groupName
 )
+:
+0
 ;
 if
 (
