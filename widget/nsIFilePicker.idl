@@ -412,6 +412,10 @@ psd
 *
 .
 raw
+;
+*
+.
+webp
 const
 long
 filterXML
