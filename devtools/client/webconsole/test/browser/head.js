@@ -100,7 +100,6 @@ targets
 /
 *
 globals
-registerTestActor
 getTestActor
 Task
 openToolboxForTab

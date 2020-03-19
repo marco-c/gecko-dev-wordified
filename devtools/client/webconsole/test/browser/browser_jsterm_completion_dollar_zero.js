@@ -131,16 +131,6 @@ inspector
 "
 )
 ;
-await
-registerTestActor
-(
-toolbox
-.
-target
-.
-client
-)
-;
 const
 testActor
 =

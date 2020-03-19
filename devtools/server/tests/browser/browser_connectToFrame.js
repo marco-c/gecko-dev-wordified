@@ -278,7 +278,7 @@ Actor
 )
 ;
 class
-TestActor
+ConnectToFrameTestActor
 extends
 Actor
 {
@@ -309,7 +309,7 @@ this
 typeName
 =
 "
-test
+connectToFrameTest
 "
 ;
 this
@@ -365,14 +365,14 @@ addTargetScopedActor
 constructorName
 :
 "
-TestActor
+ConnectToFrameTestActor
 "
 constructorFun
 :
-TestActor
+ConnectToFrameTestActor
 }
 "
-testActor
+connectToFrameTestActor
 "
 )
 ;
@@ -461,7 +461,7 @@ ok
 (
 actor
 .
-testActor
+connectToFrameTestActor
 "
 Got
 the
@@ -506,7 +506,7 @@ to
 :
 actor
 .
-testActor
+connectToFrameTestActor
 type
 :
 "
@@ -541,7 +541,7 @@ initAndCloseSecondClient
 (
 actor
 .
-testActor
+connectToFrameTestActor
 )
 ;
 ok
@@ -774,7 +774,7 @@ ok
 (
 actor
 .
-testActor
+connectToFrameTestActor
 "
 Got
 a
@@ -791,7 +791,7 @@ isnot
 (
 actor
 .
-testActor
+connectToFrameTestActor
 firstActor
 "
 We

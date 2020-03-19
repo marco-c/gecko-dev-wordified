@@ -87,7 +87,6 @@ local
 /
 *
 globals
-registerTestActor
 getTestActor
 openToolboxForTab
 gBrowser
@@ -356,16 +355,6 @@ updated
 )
 ;
 }
-await
-registerTestActor
-(
-toolbox
-.
-target
-.
-client
-)
-;
 const
 testActor
 =
