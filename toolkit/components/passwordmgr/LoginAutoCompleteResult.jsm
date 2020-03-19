@@ -2897,11 +2897,16 @@ aPreviousResult
 searchString
 logins
 :
+LoginHelper
+.
+loginsToVanillaObjects
+(
 aPreviousResult
 .
 wrappedJSObject
 .
 logins
+)
 }
 ;
 }
