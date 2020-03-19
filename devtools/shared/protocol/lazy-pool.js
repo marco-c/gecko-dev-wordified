@@ -1215,8 +1215,6 @@ Actor
 definition
 registered
 by
-ActorRegistryActor
-or
 testing
 helpers
 return
