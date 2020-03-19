@@ -5908,7 +5908,10 @@ i32
 (
 loop
 in
+(
+result
 i32
+)
 (
 br
 1
@@ -5959,7 +5962,10 @@ i32
 (
 loop
 in
+(
+result
 i32
+)
 (
 br
 out
@@ -6130,7 +6136,10 @@ i32
 (
 loop
 in
+(
+result
 i32
+)
 (
 local
 .
@@ -6226,7 +6235,10 @@ i32
 (
 loop
 in
+(
+result
 i32
+)
 (
 local
 .
@@ -6702,7 +6714,10 @@ i32
 )
 (
 loop
+(
+result
 i32
+)
 (
 i32
 .
