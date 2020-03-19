@@ -686,10 +686,6 @@ UnEscapeURIForUI
 const
 nsACString
 &
-aCharset
-const
-nsACString
-&
 aURIFragment
 nsAString
 &
@@ -763,9 +759,13 @@ if
 (
 convertURItoUnicode
 (
-PromiseFlatCString
+NS_LITERAL_CSTRING
 (
-aCharset
+"
+UTF
+-
+8
+"
 )
 unescapedSpec
 _retval

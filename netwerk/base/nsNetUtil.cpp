@@ -15794,14 +15794,6 @@ textToSubURI
 >
 UnEscapeURIForUI
 (
-NS_LITERAL_CSTRING
-(
-"
-UTF
--
-8
-"
-)
 NS_ConvertUTF16toUTF8
 (
 aFilename

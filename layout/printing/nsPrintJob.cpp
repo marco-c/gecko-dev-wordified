@@ -10289,14 +10289,6 @@ textToSubURI
 >
 UnEscapeURIForUI
 (
-NS_LITERAL_CSTRING
-(
-"
-UTF
--
-8
-"
-)
 urlCStr
 aURLStr
 )

@@ -4716,11 +4716,6 @@ textToSubURI
 .
 unEscapeURIForUI
 (
-"
-UTF
--
-8
-"
 this
 .
 _trimmedOriginalSearchString
@@ -13738,11 +13733,6 @@ textToSubURI
 .
 unEscapeURIForUI
 (
-"
-UTF
--
-8
-"
 escapedURL
 )
 ;
