@@ -4361,6 +4361,7 @@ nsPoint
 &
 aRetPoint
 )
+const
 ;
 /
 *

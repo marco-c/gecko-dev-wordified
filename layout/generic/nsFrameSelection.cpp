@@ -3113,6 +3113,7 @@ nsPoint
 &
 aRetPoint
 )
+const
 {
 /
 /
@@ -3243,9 +3244,11 @@ aFrame
 !
 aRetFrame
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 *
 aRetFrame
 =
@@ -3293,9 +3296,11 @@ mDomSelections
 index
 ]
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 nsCOMPtr
 <
 nsIContent
@@ -3320,9 +3325,11 @@ if
 !
 anchorContent
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 /
 /
 /
@@ -3770,9 +3777,11 @@ if
 *
 aRetFrame
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 /
 /
 /
