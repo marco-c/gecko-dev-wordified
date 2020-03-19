@@ -607,7 +607,7 @@ false
 loop
 {
 if
-color
+width
 .
 is_none
 (
@@ -627,7 +627,7 @@ try
 |
 i
 |
-Color
+BorderSideWidth
 :
 :
 parse
@@ -637,7 +637,7 @@ i
 )
 )
 {
-color
+width
 =
 Some
 (
@@ -648,7 +648,6 @@ any
 =
 true
 ;
-continue
 }
 }
 if
@@ -690,7 +689,7 @@ continue
 }
 }
 if
-width
+color
 .
 is_none
 (
@@ -710,7 +709,7 @@ try
 |
 i
 |
-BorderSideWidth
+Color
 :
 :
 parse
@@ -720,7 +719,7 @@ i
 )
 )
 {
-width
+color
 =
 Some
 (
