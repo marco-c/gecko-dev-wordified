@@ -715,25 +715,29 @@ builds
 /
 worker
 /
-workspace
+checkouts
 /
-build
-/
-src
-/
+gecko
 '
             
 strip_count
 =
+len
+(
+filter
+(
+None
 self
 .
 prefix
 .
-count
+split
 (
 '
 /
 '
+)
+)
 )
         
 elif
