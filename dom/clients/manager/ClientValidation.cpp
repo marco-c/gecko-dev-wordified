@@ -124,9 +124,7 @@ h
 #
 include
 "
-mozilla
-/
-StaticPrefs_security
+ClientPrefs
 .
 h
 "
@@ -803,10 +801,7 @@ set
 if
 (
 !
-StaticPrefs
-:
-:
-security_data_uri_unique_opaque_origin
+ClientPrefsGetDataURLUniqueOpaqueOrigin
 (
 )
 &
@@ -1013,10 +1008,7 @@ source
 |
 (
 !
-StaticPrefs
-:
-:
-security_data_uri_unique_opaque_origin
+ClientPrefsGetDataURLUniqueOpaqueOrigin
 (
 )
 &

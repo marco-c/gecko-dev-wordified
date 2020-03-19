@@ -5819,6 +5819,13 @@ Now
 (
 )
 ;
+PointerEventHandler
+:
+:
+Initialize
+(
+)
+;
 }
 NS_INTERFACE_TABLE_HEAD
 (

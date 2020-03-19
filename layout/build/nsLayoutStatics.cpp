@@ -1203,6 +1203,13 @@ Init
 (
 )
 ;
+Navigator
+:
+:
+Init
+(
+)
+;
 rv
 =
 nsContentUtils
