@@ -2867,10 +2867,11 @@ if
 (
 NS_WARN_IF
 (
+!
+IsValidPersistenceType
+(
 aPersistenceType
-=
-=
-PERSISTENCE_TYPE_INVALID
+)
 )
 )
 {
