@@ -4136,8 +4136,14 @@ visible
 text
 .
 let
+{
 formHostname
+}
 =
+JSON
+.
+parse
+(
 this
 .
 getAttribute
@@ -4147,6 +4153,7 @@ ac
 -
 label
 "
+)
 )
 ;
 LoginHelper
