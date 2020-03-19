@@ -37670,6 +37670,10 @@ MNullaryInstruction
 classOpcode
 )
 {
+setGuard
+(
+)
+;
 }
 public
 :
