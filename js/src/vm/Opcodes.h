@@ -10698,10 +10698,7 @@ the
 stack
 is
 the
-(
-likely
 string
-)
 key
 in
 a
