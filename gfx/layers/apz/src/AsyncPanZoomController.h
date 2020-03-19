@@ -1859,6 +1859,10 @@ bool
 UpdateAnimation
 (
 const
+RecursiveMutexAutoLock
+&
+aProofOfLock
+const
 TimeStamp
 &
 aSampleTime
@@ -8308,6 +8312,10 @@ delay
 bool
 SampleCompositedAsyncTransform
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 ;
 /
@@ -8650,6 +8658,10 @@ computations
 void
 ApplyAsyncTestAttributes
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 ;
 /
@@ -8689,6 +8701,10 @@ ApplyAsyncTestAttributes
 void
 UnapplyAsyncTestAttributes
 (
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 const
 FrameMetrics
 &
