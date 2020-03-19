@@ -209,7 +209,7 @@ await
 reloaded
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
