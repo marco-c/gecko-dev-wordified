@@ -1905,7 +1905,7 @@ newExtension
 {
 registerExtension
 (
-extension
+newExtension
 )
 ;
 return
@@ -1913,7 +1913,7 @@ GeckoResult
 .
 fromValue
 (
-extension
+newExtension
 )
 ;
 }
