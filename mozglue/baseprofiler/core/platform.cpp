@@ -13037,7 +13037,7 @@ int
 aExitCode
 )
 {
-printf
+PrintToConsole
 (
 "
 \
@@ -13656,7 +13656,7 @@ Name_
 desc_
 )
 \
-printf
+PrintToConsole
 (
 "
 %
@@ -13685,11 +13685,11 @@ ProfilerFeature
 :
 Name_
 )
+\
 ProfilerFeature
 :
 :
 Name_
-\
 str_
 desc_
 )
@@ -13701,7 +13701,7 @@ PRINT_FEATURE
 #
 undef
 PRINT_FEATURE
-printf
+PrintToConsole
 (
 "
 -
@@ -16773,7 +16773,7 @@ PARSE_FEATURE_BIT
 #
 undef
 PARSE_FEATURE_BIT
-printf
+PrintToConsole
 (
 "
 \
@@ -17868,7 +17868,7 @@ Value
 }
 else
 {
-LOG
+PrintToConsole
 (
 "
 -
@@ -18018,7 +18018,7 @@ durationVal
 }
 else
 {
-LOG
+PrintToConsole
 (
 "
 -
@@ -18158,7 +18158,7 @@ interval
 }
 else
 {
-LOG
+PrintToConsole
 (
 "
 -
@@ -18263,7 +18263,7 @@ features
 }
 else
 {
-LOG
+PrintToConsole
 (
 "
 -
@@ -18275,8 +18275,6 @@ valid
 "
 integer
 :
-"
-"
 %
 s
 "
