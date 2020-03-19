@@ -139,6 +139,13 @@ h
 #
 include
 "
+HttpTrafficAnalyzer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc

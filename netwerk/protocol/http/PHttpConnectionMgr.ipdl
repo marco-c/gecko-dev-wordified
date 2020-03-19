@@ -116,6 +116,10 @@ MPL
 /
 include
 protocol
+PAltSvcTransaction
+;
+include
+protocol
 PSocketProcess
 ;
 include
@@ -238,6 +242,9 @@ SpeculativeConnectionOverriderArgs
 aOverriderArgs
 uint32_t
 aCaps
+PAltSvcTransaction
+?
+aTrans
 )
 ;
 }

@@ -327,6 +327,13 @@ h
 #
 include
 "
+nsITransportSecurityInfo
+.
+h
+"
+#
+include
+"
 mozpkix
 /
 pkixnss

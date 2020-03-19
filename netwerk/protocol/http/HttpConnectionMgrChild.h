@@ -343,6 +343,12 @@ SpeculativeConnectionOverriderArgs
 aOverriderArgs
 uint32_t
 aCaps
+Maybe
+<
+PAltSvcTransactionChild
+*
+>
+aTrans
 )
 ;
 private
