@@ -253,7 +253,7 @@ InsecurePasswordUtils
 jsm
 '
 '
-LoginAutoCompleteResult
+LoginAutoComplete
 .
 jsm
 '
