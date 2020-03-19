@@ -8428,9 +8428,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 URIParams
 ?
 aURIToLoad
@@ -8461,9 +8459,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 URIParams
 ?
 aURIToLoad
