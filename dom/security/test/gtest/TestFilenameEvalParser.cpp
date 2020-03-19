@@ -358,13 +358,9 @@ ASSERT_AND_PRINT
 ret
 .
 first
-(
-)
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -414,8 +410,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kChromeURI
@@ -424,8 +418,6 @@ kChromeURI
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -435,8 +427,6 @@ isSome
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -483,8 +473,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kResourceURI
@@ -493,8 +481,6 @@ kResourceURI
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -504,8 +490,6 @@ isSome
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -555,8 +539,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kBlobUri
@@ -566,8 +548,6 @@ kBlobUri
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -605,8 +585,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kBlobUri
@@ -616,8 +594,6 @@ kBlobUri
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -655,8 +631,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kDataUri
@@ -666,8 +640,6 @@ kDataUri
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -703,8 +675,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kDataUri
@@ -714,8 +684,6 @@ kDataUri
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -815,8 +783,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kMozillaExtension
@@ -825,8 +791,6 @@ kMozillaExtension
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -937,8 +901,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kMozillaExtension
@@ -947,8 +909,6 @@ kMozillaExtension
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1058,8 +1018,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kMozillaExtension
@@ -1068,8 +1026,6 @@ kMozillaExtension
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1140,8 +1096,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSuspectedUserChromeJS
@@ -1151,8 +1105,6 @@ kSuspectedUserChromeJS
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1195,8 +1147,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSuspectedUserChromeJS
@@ -1206,8 +1156,6 @@ kSuspectedUserChromeJS
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1253,8 +1201,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSuspectedUserChromeJS
@@ -1264,8 +1210,6 @@ kSuspectedUserChromeJS
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1321,8 +1265,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSuspectedUserChromeJS
@@ -1332,8 +1274,6 @@ kSuspectedUserChromeJS
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1380,8 +1320,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSingleString
@@ -1390,8 +1328,6 @@ kSingleString
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1401,8 +1337,6 @@ isSome
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1439,8 +1373,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSingleString
@@ -1449,8 +1381,6 @@ kSingleString
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1460,8 +1390,6 @@ isSome
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1508,8 +1436,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -1519,8 +1445,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1566,8 +1490,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -1576,8 +1498,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1599,8 +1519,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -1610,8 +1528,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1657,8 +1573,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -1667,8 +1581,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1690,8 +1602,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -1701,8 +1611,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1746,8 +1654,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsPath
@@ -1756,8 +1662,6 @@ kSanitizedWindowsPath
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1779,8 +1683,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -1790,8 +1692,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1836,8 +1736,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsPath
@@ -1846,8 +1744,6 @@ kSanitizedWindowsPath
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1869,8 +1765,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -1880,8 +1774,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -1930,8 +1822,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsPath
@@ -1940,8 +1830,6 @@ kSanitizedWindowsPath
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -1963,8 +1851,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -1974,8 +1860,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -2029,8 +1913,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -2039,8 +1921,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -2072,8 +1952,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -2083,8 +1961,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -2135,8 +2011,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsPath
@@ -2145,8 +2019,6 @@ kSanitizedWindowsPath
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -2170,8 +2042,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -2181,8 +2051,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -2231,8 +2099,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -2241,8 +2107,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -2264,8 +2128,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -2275,8 +2137,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -2328,8 +2188,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -2338,8 +2196,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -2361,8 +2217,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kOther
@@ -2372,8 +2226,6 @@ kOther
 ret
 .
 second
-(
-)
 .
 isSome
 (
@@ -2766,8 +2618,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -2776,8 +2626,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -2875,8 +2723,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -2885,8 +2731,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -2948,8 +2792,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -2958,8 +2800,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (
@@ -3045,8 +2885,6 @@ ASSERT_TRUE
 ret
 .
 first
-(
-)
 =
 =
 kSanitizedWindowsURL
@@ -3055,8 +2893,6 @@ kSanitizedWindowsURL
 ret
 .
 second
-(
-)
 .
 value
 (

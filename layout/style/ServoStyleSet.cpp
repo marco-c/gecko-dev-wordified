@@ -6061,7 +6061,10 @@ ShadowRoot
 ;
 AutoTArray
 <
-Pair
+std
+:
+:
+pair
 <
 StyleSheet
 *
@@ -6086,7 +6089,10 @@ queue
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 &
 aSheet
@@ -6132,7 +6138,10 @@ queue
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 aShadowRoot
 .
@@ -6183,8 +6192,6 @@ idx
 ]
 .
 first
-(
-)
 ;
 SheetOwner
 owner
@@ -6195,8 +6202,6 @@ idx
 ]
 .
 second
-(
-)
 ;
 queue
 .
@@ -6341,7 +6346,10 @@ queue
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 child
 owner

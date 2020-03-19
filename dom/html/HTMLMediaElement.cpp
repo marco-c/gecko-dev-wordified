@@ -24630,7 +24630,10 @@ this
 )
 mSink
 (
-MakePair
+std
+:
+:
+pair
 (
 nsString
 (
@@ -31114,8 +31117,6 @@ if
 mSink
 .
 second
-(
-)
 )
 {
 mDecoder
@@ -31126,8 +31127,6 @@ SetSink
 mSink
 .
 second
-(
-)
 )
 #
 ifdef
@@ -31494,8 +31493,6 @@ if
 mSink
 .
 second
-(
-)
 )
 {
 NS_WARNING
@@ -46585,8 +46582,6 @@ if
 mSink
 .
 first
-(
-)
 .
 Equals
 (
@@ -46881,7 +46876,10 @@ self
 >
 mSink
 =
-MakePair
+std
+:
+:
+pair
 (
 sinkId
 aValue

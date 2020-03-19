@@ -159,10 +159,10 @@ dom
 namespace
 mozilla
 typedef
-mozilla
+std
 :
 :
-Pair
+pair
 <
 nsCString
 mozilla

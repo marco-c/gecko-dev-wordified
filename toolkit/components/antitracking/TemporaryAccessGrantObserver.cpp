@@ -277,7 +277,10 @@ sObservers
 >
 LookupForAdd
 (
-MakePair
+std
+:
+:
+make_pair
 (
 nsCOMPtr
 <
@@ -509,7 +512,10 @@ sObservers
 >
 Remove
 (
-MakePair
+std
+:
+:
+make_pair
 (
 mPrincipal
 mType

@@ -282,7 +282,10 @@ ChromiumCDMAdapter
 (
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 nsCString
 nsCString
@@ -1911,7 +1914,10 @@ PopulateHostFiles
 (
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 nsCString
 nsCString
@@ -1946,8 +1952,6 @@ HostFile
 pair
 .
 first
-(
-)
 )
 mozilla
 :
@@ -1957,8 +1961,6 @@ HostFile
 pair
 .
 second
-(
-)
 )
 )
 )

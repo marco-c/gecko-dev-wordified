@@ -143,15 +143,6 @@ include
 "
 mozilla
 /
-Pair
-.
-h
-"
-#
-include
-"
-mozilla
-/
 camera
 /
 PCamerasChild

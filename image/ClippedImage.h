@@ -144,6 +144,11 @@ UniquePtr
 .
 h
 "
+#
+include
+<
+utility
+>
 namespace
 mozilla
 {
@@ -522,7 +527,10 @@ ClippedImage
 ;
 private
 :
-Pair
+std
+:
+:
+pair
 <
 ImgDrawResult
 RefPtr

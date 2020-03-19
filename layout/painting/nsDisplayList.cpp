@@ -67073,7 +67073,10 @@ Yes
 static
 Maybe
 <
-Pair
+std
+:
+:
+pair
 <
 wr
 :
@@ -67134,7 +67137,10 @@ aBuilder
 return
 Some
 (
-MakePair
+std
+:
+:
+make_pair
 (
 *
 clip
@@ -67215,7 +67221,10 @@ ptr
 return
 Some
 (
-MakePair
+std
+:
+:
+make_pair
 (
 clipId
 HandleOpacity
@@ -67310,7 +67319,10 @@ appUnitsPerDevPixel
 ;
 Maybe
 <
-Pair
+std
+:
+:
+pair
 <
 wr
 :
@@ -67409,8 +67421,6 @@ clip
 -
 >
 first
-(
-)
 ;
 Maybe
 <
@@ -67422,8 +67432,6 @@ clip
 -
 >
 second
-(
-)
 =
 =
 HandleOpacity

@@ -147,6 +147,11 @@ include
 <
 string
 >
+#
+include
+<
+utility
+>
 namespace
 mozilla
 {
@@ -330,7 +335,10 @@ vertex
 attributes
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 nsCString
 GLuint

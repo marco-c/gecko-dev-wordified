@@ -176,15 +176,6 @@ include
 "
 mozilla
 /
-Pair
-.
-h
-"
-#
-include
-"
-mozilla
-/
 places
 /
 INativePlacesEventCallback
