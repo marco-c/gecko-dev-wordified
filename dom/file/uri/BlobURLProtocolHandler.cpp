@@ -3801,11 +3801,12 @@ origin
 ;
 rv
 =
-aPrincipal
--
->
-GetAsciiOrigin
+nsContentUtils
+:
+:
+GetASCIIOrigin
 (
+aPrincipal
 origin
 )
 ;
