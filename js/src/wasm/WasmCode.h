@@ -1418,14 +1418,6 @@ temporarilyUnsupportedReftypeForEntry
 )
 &
 &
-!
-funcType_
-.
-temporarilyUnsupportedResultCountForEntry
-(
-)
-&
-&
 JitOptions
 .
 enableWasmJitEntry
