@@ -1834,7 +1834,7 @@ push
 mem
 :
 :
-replace
+take
 (
 &
 mut
@@ -1844,12 +1844,6 @@ items
 [
 idx
 ]
-Vec
-:
-:
-default
-(
-)
 )
 )
 ;
