@@ -3556,6 +3556,7 @@ recipes
 )
 ;
 }
+async
 _autoCompleteSearchAsync
 (
 aSearchString
@@ -3706,8 +3707,9 @@ init
 ;
 }
 let
-resultPromise
+result
 =
+await
 this
 .
 sendQuery
@@ -3720,15 +3722,6 @@ autoCompleteLogins
 messageData
 )
 ;
-return
-resultPromise
-.
-then
-(
-result
-=
->
-{
 return
 {
 generatedPassword
@@ -3752,9 +3745,6 @@ result
 .
 willAutoSaveGeneratedPassword
 }
-;
-}
-)
 ;
 }
 setupProgressListener
