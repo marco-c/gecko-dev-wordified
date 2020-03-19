@@ -1157,6 +1157,15 @@ flushed
 }
 ;
 let
+{
+force
+}
+=
+aMsg
+.
+data
+;
+let
 gotResize
 =
 false
@@ -1321,6 +1330,9 @@ if
 (
 !
 gotResize
+&
+&
+force
 )
 {
 onResize
