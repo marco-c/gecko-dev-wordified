@@ -3413,12 +3413,11 @@ mOriginHeaderPrincipal
 nsAutoCString
 origin
 ;
-nsContentUtils
-:
-:
-GetASCIIOrigin
-(
 mOriginHeaderPrincipal
+-
+>
+GetAsciiOrigin
+(
 origin
 )
 ;

@@ -9815,12 +9815,11 @@ asciiOrigin
 nsresult
 rv
 =
-nsContentUtils
-:
-:
-GetASCIIOrigin
-(
 aPrincipal
+-
+>
+GetAsciiOrigin
+(
 asciiOrigin
 )
 ;
