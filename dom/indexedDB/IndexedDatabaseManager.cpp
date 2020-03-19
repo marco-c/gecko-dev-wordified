@@ -1452,14 +1452,6 @@ IndexedDatabaseManager
 (
 )
 :
-mFileMutex
-(
-"
-IndexedDatabaseManager
-.
-mFileMutex
-"
-)
 mBackgroundActor
 (
 nullptr

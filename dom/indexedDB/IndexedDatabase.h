@@ -159,6 +159,13 @@ InitializedOnce
 .
 h
 "
+#
+include
+"
+FileInfoFwd
+.
+h
+"
 namespace
 mozilla
 {
@@ -177,9 +184,6 @@ IDBMutableFile
 namespace
 indexedDB
 {
-class
-FileInfo
-;
 class
 SerializedStructuredCloneReadInfo
 ;
