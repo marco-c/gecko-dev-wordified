@@ -47620,6 +47620,9 @@ Attr
 attribute
 =
 new
+(
+mNodeInfoManager
+)
 Attr
 (
 nullptr
@@ -47712,6 +47715,9 @@ Attr
 attribute
 =
 new
+(
+mNodeInfoManager
+)
 Attr
 (
 nullptr
