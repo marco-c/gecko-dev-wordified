@@ -672,7 +672,9 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aWidthSpecified
+aPositionSpecified
+bool
+aSizeSpecified
 nsIURI
 *
 aURI
