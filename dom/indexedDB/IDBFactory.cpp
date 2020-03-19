@@ -229,6 +229,17 @@ include
 "
 mozilla
 /
+dom
+/
+WorkerPrivate
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundChild
