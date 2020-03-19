@@ -100,10 +100,11 @@ nsString
 '
 '
 ^
-ns
+nsTString
+<
 .
 *
-String
+>
 '
 )
 class
