@@ -195,7 +195,7 @@ dom
 indexedDB
 :
 :
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 FileType
@@ -213,7 +213,7 @@ dom
 indexedDB
 :
 :
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 FileType
@@ -226,7 +226,7 @@ dom
 indexedDB
 :
 :
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -239,7 +239,7 @@ dom
 indexedDB
 :
 :
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eEndGuard

@@ -626,7 +626,7 @@ mCloneBuffer
 ;
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileChild
 >
 mFiles
 ;
@@ -863,7 +863,7 @@ StructuredCloneInfo
 {
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileChild
 >
 mFiles
 ;
@@ -1518,7 +1518,7 @@ false
 const
 DebugOnly
 <
-StructuredCloneFile
+StructuredCloneFileChild
 *
 >
 newFile
@@ -1896,7 +1896,7 @@ false
 const
 DebugOnly
 <
-StructuredCloneFile
+StructuredCloneFileChild
 *
 >
 newFile
@@ -1908,7 +1908,7 @@ mFiles
 .
 EmplaceBack
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -2117,7 +2117,7 @@ false
 const
 DebugOnly
 <
-StructuredCloneFile
+StructuredCloneFileChild
 *
 >
 newFile
@@ -2129,7 +2129,7 @@ mFiles
 .
 EmplaceBack
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -2235,7 +2235,7 @@ false
 const
 DebugOnly
 <
-StructuredCloneFile
+StructuredCloneFileChild
 *
 >
 newFile
@@ -2572,7 +2572,7 @@ return
 nullptr
 ;
 }
-StructuredCloneFile
+StructuredCloneFileChild
 &
 file
 =
@@ -2607,7 +2607,7 @@ Type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -2651,7 +2651,7 @@ Type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -2766,7 +2766,7 @@ Type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -3605,7 +3605,7 @@ IDBObjectStore
 :
 ClearCloneReadInfo
 (
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 aReadInfo
 )
@@ -4891,7 +4891,7 @@ FileAddInfo
 .
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileChild
 >
 &
 files
@@ -4977,7 +4977,7 @@ index
 +
 )
 {
-StructuredCloneFile
+StructuredCloneFileChild
 &
 file
 =
@@ -5013,7 +5013,7 @@ Type
 )
 {
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -5092,7 +5092,7 @@ type
 (
 )
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -5101,7 +5101,7 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -5178,7 +5178,7 @@ type
 (
 )
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -5187,13 +5187,13 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmBytecode
 :
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmCompiled
