@@ -647,12 +647,6 @@ IsDMABufVAAPIEnabled
 (
 )
 ;
-static
-int
-GetRenderingCacheModePref
-(
-)
-;
 private
 :
 bool

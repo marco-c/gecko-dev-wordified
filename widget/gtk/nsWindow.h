@@ -1793,6 +1793,11 @@ return
 mContainer
 ;
 }
+LayoutDeviceIntRect
+GetMozContainerSize
+(
+)
+;
 /
 /
 GetMozContainerWidget
