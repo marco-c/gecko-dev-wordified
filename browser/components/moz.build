@@ -278,9 +278,6 @@ extensions
 fxmonitor
 '
 '
-library
-'
-'
 migration
 '
 '
