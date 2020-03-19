@@ -226,10 +226,7 @@ the
 pass
 is
 recorded
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
@@ -239,10 +236,7 @@ BindGroup
 >
 mUsedBindGroups
 ;
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
@@ -252,10 +246,7 @@ Buffer
 >
 mUsedBuffers
 ;
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
@@ -265,10 +256,7 @@ RenderPipeline
 >
 mUsedPipelines
 ;
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <

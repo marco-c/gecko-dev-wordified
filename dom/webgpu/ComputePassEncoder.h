@@ -229,10 +229,7 @@ the
 pass
 is
 recorded
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
@@ -242,10 +239,7 @@ BindGroup
 >
 mUsedBindGroups
 ;
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <

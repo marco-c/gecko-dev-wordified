@@ -142,6 +142,10 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 RenderPassEncoder
 mParent
+mUsedBindGroups
+mUsedBuffers
+mUsedPipelines
+mUsedTextureViews
 )
 GPU_IMPL_JS_WRAP
 (
@@ -899,7 +903,7 @@ mColorAttachments
 {
 mUsedTextureViews
 .
-push_back
+AppendElement
 (
 at
 .
@@ -920,7 +924,7 @@ WasPassed
 {
 mUsedTextureViews
 .
-push_back
+AppendElement
 (
 aDesc
 .
@@ -993,7 +997,7 @@ mValid
 {
 mUsedBindGroups
 .
-push_back
+AppendElement
 (
 &
 aBindGroup
@@ -1043,7 +1047,7 @@ mValid
 {
 mUsedPipelines
 .
-push_back
+AppendElement
 (
 &
 aPipeline
@@ -1086,7 +1090,7 @@ mValid
 {
 mUsedBuffers
 .
-push_back
+AppendElement
 (
 &
 aBuffer
@@ -1133,7 +1137,7 @@ mValid
 {
 mUsedBuffers
 .
-push_back
+AppendElement
 (
 &
 aBuffer
