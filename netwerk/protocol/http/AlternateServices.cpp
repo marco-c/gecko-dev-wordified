@@ -7425,11 +7425,6 @@ rv
 gHttpHandler
 -
 >
-ConnMgr
-(
-)
--
->
 SpeculativeConnect
 (
 ci
