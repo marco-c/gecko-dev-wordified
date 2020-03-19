@@ -56,7 +56,13 @@ MPL
 import
 json
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urljoin
 requests

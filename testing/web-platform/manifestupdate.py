@@ -1380,6 +1380,10 @@ abspath
 (
 wpt_dir
 )
+.
+encode
+(
+)
 )
 .
 hexdigest
