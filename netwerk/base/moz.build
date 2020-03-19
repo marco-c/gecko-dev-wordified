@@ -1280,6 +1280,11 @@ TLSServerSocket
 .
 cpp
 '
+'
+TRRLoadInfo
+.
+cpp
+'
 ]
 if
 CONFIG
