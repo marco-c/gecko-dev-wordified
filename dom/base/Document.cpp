@@ -47229,6 +47229,9 @@ Comment
 comment
 =
 new
+(
+mNodeInfoManager
+)
 dom
 :
 :
