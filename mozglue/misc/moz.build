@@ -109,6 +109,13 @@ Decimal
 h
 '
 '
+decimal
+/
+DoubleConversion
+.
+h
+'
+'
 PlatformConditionVariable
 .
 h
