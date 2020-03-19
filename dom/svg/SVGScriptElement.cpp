@@ -545,6 +545,14 @@ SVGScriptElement
 it
 =
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 SVGScriptElement
 (
 do_AddRef
