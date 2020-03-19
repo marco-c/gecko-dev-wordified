@@ -512,6 +512,13 @@ bad
 .
 py
 '
+'
+subdir
+/
+exclude
+/
+exclude_subdir
+'
 )
     
 config
@@ -742,7 +749,7 @@ results
 )
 =
 =
-2
+4
 def
 test_lint_uses_custom_extensions
 (
