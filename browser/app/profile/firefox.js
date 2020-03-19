@@ -24855,11 +24855,6 @@ cause
 "
 \
 "
-initiator
-\
-"
-\
-"
 type
 \
 "
