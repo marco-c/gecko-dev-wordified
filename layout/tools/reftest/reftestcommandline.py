@@ -3660,9 +3660,16 @@ validate_remote
 (
 self
 options
-automation
 )
 :
+        
+DEFAULT_HTTP_PORT
+=
+8888
+        
+DEFAULT_SSL_PORT
+=
+4443
         
 if
 options
@@ -3754,8 +3761,6 @@ options
 .
 httpPort
 =
-automation
-.
 DEFAULT_HTTP_PORT
         
 if
@@ -3769,8 +3774,6 @@ options
 .
 sslPort
 =
-automation
-.
 DEFAULT_SSL_PORT
         
 if
