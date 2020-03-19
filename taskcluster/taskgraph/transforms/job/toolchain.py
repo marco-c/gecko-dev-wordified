@@ -1442,25 +1442,13 @@ worker
 '
 ]
     
-#
-Allow
-the
-job
-to
-specify
-where
-artifacts
-come
-from
-.
-    
 worker
-.
-setdefault
-(
+[
 '
 artifacts
 '
+]
+=
 [
 {
         
@@ -1485,7 +1473,6 @@ directory
     
 }
 ]
-)
     
 worker
 [
@@ -1548,15 +1535,11 @@ False
 env
 =
 worker
-.
-setdefault
-(
+[
 '
 env
 '
-{
-}
-)
+]
     
 env
 .
