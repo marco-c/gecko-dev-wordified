@@ -22188,6 +22188,12 @@ return
 mDocGroup
 ;
 }
+DocGroup
+*
+GetDocGroupOrCreate
+(
+)
+;
 /
 *
 *

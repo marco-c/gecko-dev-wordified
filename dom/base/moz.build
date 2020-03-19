@@ -907,6 +907,11 @@ DocumentType
 h
 '
 '
+DOMArena
+.
+h
+'
+'
 DOMException
 .
 h
