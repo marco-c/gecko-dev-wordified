@@ -9044,11 +9044,6 @@ mAllowSubframes
 1
 ;
 bool
-mAllowPlugins
-:
-1
-;
-bool
 mAllowJavascript
 :
 1
