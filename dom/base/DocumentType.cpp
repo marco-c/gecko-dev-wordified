@@ -278,6 +278,9 @@ DocumentType
 docType
 =
 new
+(
+aNodeInfoManager
+)
 mozilla
 :
 :
@@ -562,6 +565,14 @@ return
 do_AddRef
 (
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 DocumentType
 (
 do_AddRef
