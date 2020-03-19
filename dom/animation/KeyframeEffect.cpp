@@ -11838,11 +11838,10 @@ const
 {
 if
 (
-!
-AnimationUtils
+StaticPrefs
 :
 :
-IsOffscreenThrottlingEnabled
+dom_animations_offscreen_throttling
 (
 )
 )
