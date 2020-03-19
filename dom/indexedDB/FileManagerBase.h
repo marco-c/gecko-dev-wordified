@@ -230,7 +230,7 @@ MutexType
 >
 ;
 MOZ_MUST_USE
-RefPtr
+SafeRefPtr
 <
 FileInfo
 >
@@ -272,7 +272,7 @@ simply
 change
 this
 to
-RefPtr
+SafeRefPtr
 <
 FileInfo
 >
@@ -326,11 +326,16 @@ aId
 ;
 }
 return
+{
 fileInfo
+AcquireStrongRefFromRawPtr
+{
+}
+}
 ;
 }
 MOZ_MUST_USE
-RefPtr
+SafeRefPtr
 <
 FileInfo
 >
@@ -369,7 +374,7 @@ simply
 change
 this
 to
-RefPtr
+SafeRefPtr
 <
 FileInfo
 >
@@ -455,7 +460,12 @@ fileInfo
 ;
 }
 return
+{
 fileInfo
+AcquireStrongRefFromRawPtr
+{
+}
+}
 ;
 }
 void
