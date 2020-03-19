@@ -2388,9 +2388,8 @@ gcThingList
 (
 )
 .
-append
+appendEmptyGlobalScope
 (
-scope
 &
 scopeIndex_
 )
