@@ -15949,9 +15949,6 @@ aRefCnt
 int32_t
 *
 aDBRefCnt
-int32_t
-*
-aSliceRefCnt
 JSContext
 *
 aCx
@@ -16104,7 +16101,6 @@ aDatabaseName
 aId
 aRefCnt
 aDBRefCnt
-aSliceRefCnt
 aResult
 )
 ;
@@ -16122,9 +16118,6 @@ aRefCnt
 =
 *
 aDBRefCnt
-=
-*
-aSliceRefCnt
 =
 -
 1

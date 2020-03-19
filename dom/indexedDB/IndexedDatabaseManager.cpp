@@ -4201,9 +4201,6 @@ aRefCnt
 int32_t
 *
 aDBRefCnt
-int32_t
-*
-aSliceRefCnt
 bool
 *
 aResult
@@ -4387,7 +4384,6 @@ aDatabaseName
 aFileId
 aRefCnt
 aDBRefCnt
-aSliceRefCnt
 aResult
 )
 )

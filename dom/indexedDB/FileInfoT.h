@@ -211,13 +211,6 @@ aDelta
 )
 ;
 void
-UpdateSliceRefs
-(
-int32_t
-aDelta
-)
-;
-void
 GetReferences
 (
 int32_t
@@ -226,9 +219,6 @@ aRefCnt
 int32_t
 *
 aDBRefCnt
-int32_t
-*
-aSliceRefCnt
 )
 ;
 FileManager
@@ -296,9 +286,6 @@ mRefCnt
 ;
 ThreadSafeAutoRefCnt
 mDBRefCnt
-;
-ThreadSafeAutoRefCnt
-mSliceRefCnt
 ;
 const
 RefPtr
