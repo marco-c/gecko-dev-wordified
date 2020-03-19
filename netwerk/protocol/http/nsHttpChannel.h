@@ -2142,13 +2142,6 @@ ContinueProcessResponse2
 nsresult
 )
 ;
-private
-:
-void
-AssertNotDocumentChannel
-(
-)
-;
 public
 :
 void
