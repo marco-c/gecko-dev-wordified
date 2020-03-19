@@ -9074,16 +9074,6 @@ mAllowWindowControl
 1
 ;
 bool
-mAllowContentRetargeting
-:
-1
-;
-bool
-mAllowContentRetargetingOnChildren
-:
-1
-;
-bool
 mUseErrorPages
 :
 1
