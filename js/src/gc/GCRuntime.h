@@ -4028,11 +4028,6 @@ bufferGrayRoots
 )
 ;
 void
-unmarkCollectedZones
-(
-)
-;
-void
 unmarkWeakMaps
 (
 )
