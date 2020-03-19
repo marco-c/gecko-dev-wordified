@@ -2803,6 +2803,7 @@ aWhich
 )
 returns
 (
+nullable
 PDocAccessible
 aResultDoc
 uint64_t
