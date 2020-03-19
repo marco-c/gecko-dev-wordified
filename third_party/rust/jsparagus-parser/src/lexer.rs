@@ -3311,6 +3311,15 @@ TerminalId
 :
 Else
 "
+enum
+"
+=
+>
+TerminalId
+:
+:
+Enum
+"
 export
 "
 =

@@ -29,6 +29,10 @@ stack_value_generated
 mod
 token
 ;
+pub
+mod
+traits
+;
 extern
 crate
 jsparagus_ast
@@ -68,7 +72,7 @@ parser_tables_generated
 :
 :
 {
-actions
+full_actions
 noop_actions
 ErrorCode
 NonterminalId
