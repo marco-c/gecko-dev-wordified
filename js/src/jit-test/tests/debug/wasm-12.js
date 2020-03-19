@@ -100,7 +100,10 @@ func
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '
@@ -123,7 +126,10 @@ func
 export
 "
 "
+(
+func
 1
+)
 )
 )
 '
