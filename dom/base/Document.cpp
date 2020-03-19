@@ -47169,6 +47169,9 @@ DocumentFragment
 frag
 =
 new
+(
+mNodeInfoManager
+)
 DocumentFragment
 (
 mNodeInfoManager

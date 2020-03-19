@@ -827,6 +827,9 @@ document
 mRoot
 =
 new
+(
+mNodeInfoManager
+)
 DocumentFragment
 (
 mNodeInfoManager
