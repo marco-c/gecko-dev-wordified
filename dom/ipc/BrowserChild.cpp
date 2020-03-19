@@ -5245,9 +5245,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 nsIURI
 *
 aURI
@@ -5399,8 +5397,7 @@ aParent
 )
 aChromeFlags
 aCalledFromJS
-aPositionSpecified
-aSizeSpecified
+aWidthSpecified
 )
 ;
 /
@@ -5567,8 +5564,7 @@ aParent
 iframeMoz
 aChromeFlags
 aCalledFromJS
-aPositionSpecified
-aSizeSpecified
+aWidthSpecified
 aURI
 aName
 aFeatures

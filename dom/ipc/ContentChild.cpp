@@ -4951,9 +4951,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 nsIURI
 *
 aURI
@@ -4989,8 +4987,7 @@ aParent
 false
 aChromeFlags
 aCalledFromJS
-aPositionSpecified
-aSizeSpecified
+aWidthSpecified
 aURI
 aName
 aFeatures
@@ -5409,9 +5406,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 nsIURI
 *
 aURI
@@ -5947,8 +5942,7 @@ SendCreateWindowInDifferentProcess
 aTabOpener
 aChromeFlags
 aCalledFromJS
-aPositionSpecified
-aSizeSpecified
+aWidthSpecified
 uriToLoad
 features
 fullZoom
@@ -7703,8 +7697,7 @@ aTabOpener
 newChild
 aChromeFlags
 aCalledFromJS
-aPositionSpecified
-aSizeSpecified
+aWidthSpecified
 uriToLoad
 features
 fullZoom
