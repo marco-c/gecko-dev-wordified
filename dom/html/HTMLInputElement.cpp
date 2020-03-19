@@ -6353,6 +6353,14 @@ HTMLInputElement
 it
 =
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 HTMLInputElement
 (
 do_AddRef

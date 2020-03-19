@@ -924,6 +924,14 @@ HTMLMenuItemElement
 it
 =
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 HTMLMenuItemElement
 (
 do_AddRef

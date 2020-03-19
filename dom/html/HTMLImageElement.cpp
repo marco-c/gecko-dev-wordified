@@ -4616,6 +4616,17 @@ kNameSpaceID_XHTML
 ELEMENT_NODE
 )
 ;
+auto
+*
+nim
+=
+nodeInfo
+-
+>
+NodeInfoManager
+(
+)
+;
 RefPtr
 <
 HTMLImageElement
@@ -4623,6 +4634,9 @@ HTMLImageElement
 img
 =
 new
+(
+nim
+)
 HTMLImageElement
 (
 nodeInfo

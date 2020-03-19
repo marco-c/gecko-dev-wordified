@@ -718,6 +718,14 @@ HTMLTextAreaElement
 it
 =
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 HTMLTextAreaElement
 (
 do_AddRef
