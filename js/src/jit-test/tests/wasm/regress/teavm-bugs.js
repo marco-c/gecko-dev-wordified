@@ -69,7 +69,10 @@ tests
 =
 (
 if
+(
+result
 i64
+)
 (
 i64
 .
