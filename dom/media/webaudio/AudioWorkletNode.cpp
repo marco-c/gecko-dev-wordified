@@ -1397,6 +1397,7 @@ global
 >
 ConstructProcessor
 (
+cx
 aName
 aSerializedOptions
 aPortIdentifier
