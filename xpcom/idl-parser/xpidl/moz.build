@@ -124,4 +124,7 @@ entry_point
 '
 main
 '
+py2
+=
+True
 )
