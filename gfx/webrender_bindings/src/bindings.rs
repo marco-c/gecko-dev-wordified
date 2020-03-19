@@ -18881,9 +18881,6 @@ state
 &
 mut
 WrState
-key
-:
-ItemKey
 )
 {
 state
@@ -18894,7 +18891,6 @@ dl_builder
 .
 start_item_group
 (
-key
 )
 ;
 }

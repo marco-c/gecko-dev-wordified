@@ -5797,6 +5797,10 @@ bool
 aParentWithCurrentChain
 )
 {
+CancelGroup
+(
+)
+;
 const
 uint64_t
 *
@@ -5928,6 +5932,10 @@ ImageMask
 aMask
 )
 {
+CancelGroup
+(
+)
+;
 WrClipId
 clipId
 ;
@@ -9274,11 +9282,6 @@ mCurrentCacheSlot
 wr_dp_start_item_group
 (
 mWrState
-mCurrentCacheSlot
-.
-ref
-(
-)
 )
 ;
 }
