@@ -3159,7 +3159,7 @@ registerCleanupFunction
 {
 SpecialPowers
 .
-popPrefEnv
+flushPrefEnv
 (
 )
 ;

@@ -1401,6 +1401,15 @@ _clearRecipeCache
 (
 )
 {
+log
+.
+debug
+(
+"
+_clearRecipeCache
+"
+)
+;
 this
 .
 _recipeCache
@@ -2000,6 +2009,9 @@ filtered
 recipes
 :
 "
+recipes
+.
+size
 recipes
 )
 ;
