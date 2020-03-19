@@ -547,7 +547,7 @@ atomic
 :
 :
 {
-AtomicU64
+AtomicUsize
 Ordering
 }
 ;
@@ -607,9 +607,9 @@ ids
 static
 NEXT_NATIVE_SURFACE_ID
 :
-AtomicU64
+AtomicUsize
 =
-AtomicU64
+AtomicUsize
 :
 :
 new
@@ -11331,6 +11331,8 @@ Ordering
 :
 Relaxed
 )
+as
+u64
 )
 ;
 self
