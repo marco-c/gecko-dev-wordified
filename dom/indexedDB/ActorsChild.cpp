@@ -18858,7 +18858,7 @@ mStrongCursor
 ;
 mRequest
 .
-reset
+destroy
 (
 )
 ;
@@ -18885,7 +18885,7 @@ BackgroundCursorChildBase
 .
 mSource
 .
-reset
+destroy
 (
 )
 ;
@@ -20488,7 +20488,7 @@ ifdef
 DEBUG
 mRequest
 .
-maybeReset
+maybeDestroy
 (
 )
 ;
@@ -20498,7 +20498,7 @@ nullptr
 ;
 mSource
 .
-maybeReset
+maybeDestroy
 (
 )
 ;
