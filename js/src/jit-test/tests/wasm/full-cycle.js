@@ -547,7 +547,10 @@ export
 "
 mem
 "
+(
 memory
+0
+)
 )
 )
 0x050403
