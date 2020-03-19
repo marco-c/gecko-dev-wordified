@@ -3124,9 +3124,6 @@ default
 hit_info
 :
 None
-item_key
-:
-None
 }
 ;
 self
@@ -11934,9 +11931,6 @@ tag
 "
 ]
 )
-item_key
-:
-None
 flags
 }
 ;
