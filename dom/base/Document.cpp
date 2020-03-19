@@ -47347,6 +47347,9 @@ CDATASection
 cdata
 =
 new
+(
+mNodeInfoManager
+)
 CDATASection
 (
 mNodeInfoManager
