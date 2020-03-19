@@ -520,15 +520,6 @@ defined
 (
 MOZ_SANDBOX
 )
-static
-bool
-StaticFillMacSandboxInfo
-(
-MacSandboxInfo
-&
-aInfo
-)
-;
 /
 /
 Return
