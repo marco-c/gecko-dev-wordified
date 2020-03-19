@@ -1085,7 +1085,10 @@ i32
 )
 (
 call_indirect
+(
+type
 v2i
+)
 (
 local
 .
@@ -2781,7 +2784,10 @@ const
 )
 (
 call_indirect
+(
+type
 i2i
+)
 (
 local
 .
@@ -3169,7 +3175,10 @@ i32
 )
 (
 call_indirect
+(
+type
 v2i1
+)
 (
 local
 .
@@ -3746,7 +3755,10 @@ i32
 )
 (
 call_indirect
+(
+type
 A
+)
 (
 i32
 .
@@ -4204,7 +4216,10 @@ i32
 add
 (
 call_indirect
+(
+type
 v2i
+)
 (
 local
 .

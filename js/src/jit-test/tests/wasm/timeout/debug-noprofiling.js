@@ -195,7 +195,10 @@ i32
 .
 const0
 call_indirect
+(
+type
 v2v
+)
 )
 )
 )

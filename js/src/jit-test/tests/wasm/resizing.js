@@ -633,7 +633,10 @@ const
 )
 (
 call_indirect
+(
+type
 v2v
+)
 (
 i32
 .
@@ -1359,7 +1362,10 @@ i32
 add
 (
 call_indirect
+(
+type
 v2i
+)
 (
 i32
 .
@@ -1379,7 +1385,10 @@ grow
 )
 (
 call_indirect
+(
+type
 v2i
+)
 (
 i32
 .
@@ -1674,7 +1683,10 @@ i32
 add
 (
 call_indirect
+(
+type
 v2i
+)
 (
 i32
 .
@@ -1690,7 +1702,10 @@ i32
 )
 (
 call_indirect
+(
+type
 v2v
+)
 (
 i32
 .
@@ -1700,7 +1715,10 @@ const
 )
 (
 call_indirect
+(
+type
 v2i
+)
 (
 i32
 .
@@ -1955,7 +1973,10 @@ i32
 )
 (
 call_indirect
+(
+type
 v2i
+)
 (
 local
 .

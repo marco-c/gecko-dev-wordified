@@ -295,7 +295,10 @@ f64
 )
 (
 call_indirect
+(
+type
 f2
+)
 (
 local
 .
