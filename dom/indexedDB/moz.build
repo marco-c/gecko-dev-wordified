@@ -419,6 +419,11 @@ IDBTransaction
 cpp
 '
 '
+IndexedDatabase
+.
+cpp
+'
+'
 IndexedDatabaseManager
 .
 cpp
