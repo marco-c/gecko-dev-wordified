@@ -1161,7 +1161,7 @@ boxed_error
 =
 >
 {
-error
+println
 !
 (
 "
