@@ -118,12 +118,6 @@ interface
 nsISupports
 ;
 interface
-nsIContentChild
-;
-interface
-nsIContentParent
-;
-interface
 mixin
 JSWindowActor
 {
