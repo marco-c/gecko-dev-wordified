@@ -716,6 +716,9 @@ nsTextNode
 description
 =
 new
+(
+nodeInfoManager
+)
 nsTextNode
 (
 nodeInfoManager

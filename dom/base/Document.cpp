@@ -47078,6 +47078,9 @@ nsTextNode
 text
 =
 new
+(
+mNodeInfoManager
+)
 nsTextNode
 (
 mNodeInfoManager
@@ -47114,6 +47117,9 @@ nsTextNode
 text
 =
 new
+(
+mNodeInfoManager
+)
 nsTextNode
 (
 mNodeInfoManager

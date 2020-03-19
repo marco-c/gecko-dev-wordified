@@ -10681,6 +10681,14 @@ nsTextNode
 content
 =
 new
+(
+mDocument
+-
+>
+NodeInfoManager
+(
+)
+)
 nsTextNode
 (
 mDocument

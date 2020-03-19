@@ -18377,6 +18377,16 @@ nsTextNode
 textContent
 =
 new
+(
+NodeInfo
+(
+)
+-
+>
+NodeInfoManager
+(
+)
+)
 nsTextNode
 (
 NodeInfo
