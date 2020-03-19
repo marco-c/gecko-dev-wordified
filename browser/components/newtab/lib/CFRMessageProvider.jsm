@@ -4771,9 +4771,6 @@ cfr_urlbar_chiclet
 content
 :
 {
-delay
-:
-5000
 layout
 :
 "
