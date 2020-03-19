@@ -2372,7 +2372,7 @@ construction
 CallbackFunction
 :
 :
-eReportExceptions
+eRethrowExceptions
 )
 ;
 /
