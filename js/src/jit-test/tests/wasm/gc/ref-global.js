@@ -649,6 +649,7 @@ gc_feature_opt_in
 )
 (
 import
+g
 "
 "
 "
@@ -656,7 +657,6 @@ g
 "
 (
 global
-g
 anyref
 )
 )

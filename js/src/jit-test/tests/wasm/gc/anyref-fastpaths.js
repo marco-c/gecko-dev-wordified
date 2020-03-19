@@ -425,6 +425,7 @@ wasmTextToBinary
 module
 (
 import
+f
 "
 "
 "
@@ -432,7 +433,6 @@ f
 "
 (
 func
-f
 (
 param
 anyref
@@ -441,6 +441,7 @@ anyref
 )
 (
 import
+g
 "
 "
 "
@@ -448,7 +449,6 @@ g
 "
 (
 func
-g
 (
 param
 i32
@@ -881,6 +881,7 @@ wasmTextToBinary
 module
 (
 import
+f
 "
 "
 "
@@ -888,7 +889,6 @@ f
 "
 (
 func
-f
 (
 result
 anyref
@@ -897,6 +897,7 @@ anyref
 )
 (
 import
+g
 "
 "
 "
@@ -904,7 +905,6 @@ g
 "
 (
 func
-g
 (
 param
 anyref

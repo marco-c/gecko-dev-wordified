@@ -105,6 +105,7 @@ anyfunc
 )
 (
 import
+setNull
 "
 imports
 "
@@ -113,7 +114,6 @@ setNull
 "
 (
 func
-setNull
 )
 )
 (
@@ -178,10 +178,7 @@ i32
 const
 0
 call_indirect
-(
-type
 v2v
-)
 )
 )
 )

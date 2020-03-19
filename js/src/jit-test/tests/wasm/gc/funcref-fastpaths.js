@@ -458,6 +458,7 @@ wasmTextToBinary
 module
 (
 import
+f
 "
 "
 "
@@ -465,7 +466,6 @@ f
 "
 (
 func
-f
 (
 param
 funcref
@@ -474,6 +474,7 @@ funcref
 )
 (
 import
+g
 "
 "
 "
@@ -481,7 +482,6 @@ g
 "
 (
 func
-g
 (
 param
 i32

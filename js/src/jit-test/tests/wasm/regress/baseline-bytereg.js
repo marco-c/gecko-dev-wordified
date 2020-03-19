@@ -235,10 +235,7 @@ export
 "
 run
 "
-(
-func
 run
-)
 )
 )
 )

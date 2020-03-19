@@ -114,10 +114,7 @@ run
 drop
 (
 block
-(
-result
 f64
-)
 (
 drop
 (
@@ -169,10 +166,7 @@ export
 "
 run
 "
-(
-func
 run
-)
 )
 )
 )

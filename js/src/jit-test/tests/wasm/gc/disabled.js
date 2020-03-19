@@ -117,10 +117,7 @@ func
 test
 (
 block
-(
-result
 anyref
-)
 (
 unreachable
 )
