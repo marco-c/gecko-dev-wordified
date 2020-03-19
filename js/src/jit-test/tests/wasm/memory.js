@@ -224,7 +224,10 @@ maybeDrop
 export
 "
 "
+(
+func
 0
+)
 )
 )
 ;
@@ -476,7 +479,10 @@ export
 "
 store
 "
+(
+func
 0
+)
 )
 (
 func
@@ -534,7 +540,10 @@ export
 "
 load
 "
+(
+func
 1
+)
 )
 )
 ;
@@ -777,7 +786,10 @@ export
 "
 store
 "
+(
+func
 0
+)
 )
 (
 func
@@ -835,7 +847,10 @@ export
 "
 load
 "
+(
+func
 1
+)
 )
 )
 ;
@@ -1327,7 +1342,10 @@ get
 export
 "
 "
+(
+func
 0
+)
 )
 )
 /
@@ -1386,7 +1404,10 @@ const
 export
 "
 "
+(
+func
 0
+)
 )
 )
 /
@@ -3585,7 +3606,10 @@ get
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )

@@ -220,7 +220,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 expect
@@ -475,7 +478,10 @@ drop
 export
 "
 "
+(
+func
 1
+)
 )
 )
 )
@@ -5007,7 +5013,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 '
@@ -5107,7 +5116,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 '

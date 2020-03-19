@@ -68,7 +68,10 @@ export
 "
 f
 "
+(
+func
 func0
+)
 )
 (
 func

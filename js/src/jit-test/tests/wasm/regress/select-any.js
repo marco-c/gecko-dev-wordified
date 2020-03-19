@@ -47,7 +47,10 @@ drop
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )
@@ -137,7 +140,10 @@ drop
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )

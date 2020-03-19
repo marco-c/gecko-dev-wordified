@@ -190,7 +190,10 @@ export
 "
 foo
 "
+(
+func
 0
+)
 )
 )
 '
