@@ -20207,12 +20207,6 @@ null
 ;
 this
 .
-registeredPool
-=
-null
-;
-this
-.
 _pendingResponse
 =
 null
