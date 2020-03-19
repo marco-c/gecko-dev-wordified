@@ -313,13 +313,7 @@ FileInfo
 FileManagerGuard
 {
 }
-SafeRefPtr
-{
 this
-AcquireStrongRefFromRawPtr
-{
-}
-}
 id
 static_cast
 <
@@ -549,7 +543,6 @@ dbRefCnt
 ASSERT_EQ
 (
 fileManager
-&
 fileInfo
 -
 >
@@ -670,7 +663,6 @@ dbRefCnt
 ASSERT_EQ
 (
 fileManager
-&
 fileInfo
 -
 >
@@ -773,7 +765,7 @@ fileInfos
 =
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 TestFileInfo
 >

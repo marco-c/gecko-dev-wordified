@@ -174,13 +174,6 @@ nsHashKeys
 .
 h
 "
-#
-include
-"
-SafeRefPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -460,7 +453,7 @@ ClearBackgroundActor
 )
 ;
 MOZ_MUST_USE
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -481,10 +474,8 @@ aDatabaseName
 void
 AddFileManager
 (
-SafeRefPtr
-<
 FileManager
->
+*
 aFileManager
 )
 ;

@@ -288,7 +288,7 @@ IndexedDatabaseManager
 h
 '
 '
-SafeRefPtr
+InitializedOnce
 .
 h
 '
