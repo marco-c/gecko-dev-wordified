@@ -271,6 +271,9 @@ description
 Path
 of
 test
+(
+s
+)
 to
 retrigger
 '
@@ -318,7 +321,7 @@ default
 '
 :
 '
-debug
+info
 '
                 
 '
@@ -340,12 +343,13 @@ level
 for
 output
 (
-default
+INFO
 is
+normal
 DEBUG
-which
-is
-highest
+gives
+more
+detail
 )
 '
             
@@ -369,7 +373,7 @@ boolean
 default
 '
 :
-True
+False
                 
 '
 title
@@ -400,8 +404,9 @@ repeatedly
 until
 failure
 (
-or
-30
+up
+to
+REPEAT
 times
 )
 '
@@ -427,7 +432,7 @@ integer
 default
 '
 :
-30
+1
                 
 '
 minimum
@@ -440,8 +445,11 @@ title
 '
 :
 '
-Run
-tests
+Repeat
+test
+(
+s
+)
 N
 times
 '
@@ -453,7 +461,10 @@ description
 (
 '
 Run
-tests
+test
+(
+s
+)
 repeatedly
 (
 usually
@@ -559,13 +570,15 @@ default
 :
 {
 '
-mygeckopreferences
+marionette
 .
-pref
+log
+.
+level
 '
 :
 '
-myvalue2
+Info
 '
 }
                 
