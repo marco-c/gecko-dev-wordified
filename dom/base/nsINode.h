@@ -1279,6 +1279,12 @@ NODE_FLAG_BIT
 (
 16
 )
+NODE_KEEPS_DOMARENA
+=
+NODE_FLAG_BIT
+(
+17
+)
 /
 /
 Remaining
@@ -1290,7 +1296,7 @@ specific
 .
 NODE_TYPE_SPECIFIC_BITS_OFFSET
 =
-17
+18
 }
 ;
 /
