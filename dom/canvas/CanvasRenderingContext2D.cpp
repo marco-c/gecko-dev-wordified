@@ -7712,6 +7712,14 @@ RestoreClipsAndTransformToTarget
 if
 (
 mTarget
+&
+&
+mTarget
+-
+>
+IsValid
+(
+)
 )
 {
 return
