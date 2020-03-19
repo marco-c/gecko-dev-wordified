@@ -231,6 +231,8 @@ alloc
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -601,6 +603,8 @@ usize
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -802,6 +806,8 @@ Token
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -912,6 +918,8 @@ usize
 >
 Result
 <
+'
+alloc
 StackValue
 <
 '
@@ -1150,6 +1158,10 @@ Token
 -
 >
 ParseError
+<
+'
+alloc
+>
 {
 if
 t
@@ -1203,6 +1215,8 @@ alloc
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -1499,6 +1513,8 @@ ErrorCode
 >
 Result
 <
+'
+alloc
 (
 )
 >

@@ -4191,6 +4191,8 @@ Value
 >
 Result
 <
+'
+alloc
 bool
 >
 ;
@@ -4374,6 +4376,8 @@ usize
 >
 Result
 <
+'
+alloc
 bool
 >
 ;
@@ -5931,6 +5935,8 @@ usize
 >
 Result
 <
+'
+alloc
 bool
 >
 "
@@ -6456,6 +6462,8 @@ write
 >
 Result
 <
+'
+alloc
 NonterminalId
 >
 {

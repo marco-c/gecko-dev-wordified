@@ -173,6 +173,10 @@ ScopeDataMap
 Result
 <
 EmitResult
+<
+'
+alloc
+>
 EmitError
 >
 {

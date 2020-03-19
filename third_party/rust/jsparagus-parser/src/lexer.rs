@@ -521,6 +521,8 @@ parser
 >
 Result
 <
+'
+alloc
 Token
 >
 {
@@ -694,6 +696,10 @@ self
 -
 >
 ParseError
+<
+'
+alloc
+>
 {
 if
 let
@@ -1644,6 +1650,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -2378,6 +2386,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 bool
 &
@@ -2530,6 +2540,8 @@ alloc
 >
 Result
 <
+'
+alloc
 &
 '
 alloc
@@ -3007,6 +3019,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 SourceLocation
 Option
@@ -3778,6 +3792,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 SourceLocation
 Option
@@ -3864,6 +3880,8 @@ self
 >
 Result
 <
+'
+alloc
 char
 >
 {
@@ -3918,6 +3936,8 @@ self
 >
 Result
 <
+'
+alloc
 char
 >
 {
@@ -4206,6 +4226,8 @@ self
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -4271,6 +4293,8 @@ self
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -4462,6 +4486,8 @@ self
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -4612,6 +4638,8 @@ self
 >
 Result
 <
+'
+alloc
 u32
 >
 {
@@ -4752,6 +4780,8 @@ u32
 >
 Result
 <
+'
+alloc
 char
 >
 {
@@ -4838,6 +4868,8 @@ self
 >
 Result
 <
+'
+alloc
 char
 >
 {
@@ -4933,6 +4965,8 @@ self
 >
 Result
 <
+'
+alloc
 char
 >
 {
@@ -5240,6 +5274,8 @@ self
 >
 Result
 <
+'
+alloc
 NumericType
 >
 {
@@ -6484,6 +6520,8 @@ self
 >
 Result
 <
+'
+alloc
 NumericType
 >
 {
@@ -6625,6 +6663,8 @@ self
 >
 Result
 <
+'
+alloc
 NumericType
 >
 {
@@ -6652,6 +6692,8 @@ self
 >
 Result
 <
+'
+alloc
 NumericType
 >
 {
@@ -6759,6 +6801,8 @@ self
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -7153,6 +7197,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -7951,6 +7997,8 @@ char
 >
 Result
 <
+'
+alloc
 (
 SourceLocation
 Option
@@ -8285,6 +8333,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -8396,6 +8446,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 SourceLocation
 Option
@@ -9319,6 +9371,8 @@ TerminalId
 >
 Result
 <
+'
+alloc
 (
 SourceLocation
 Option
@@ -9744,6 +9798,8 @@ parser
 >
 Result
 <
+'
+alloc
 (
 SourceLocation
 Option

@@ -872,6 +872,8 @@ C
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -891,6 +893,8 @@ Item
 =
 Result
 <
+'
+alloc
 T
 >
 >
@@ -1029,6 +1033,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -1092,6 +1098,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -1168,6 +1176,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -1250,6 +1260,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -1331,6 +1343,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -1710,6 +1724,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -1991,6 +2007,8 @@ alloc
 >
 Result
 <
+'
+alloc
 Parameter
 <
 '
@@ -2082,6 +2100,8 @@ alloc
 >
 Result
 <
+'
+alloc
 BindingProperty
 <
 '
@@ -2200,6 +2220,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -2479,6 +2501,8 @@ alloc
 >
 Result
 <
+'
+alloc
 Binding
 <
 '
@@ -2715,6 +2739,8 @@ Option
 <
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -2742,6 +2768,8 @@ rest_target
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -2968,6 +2996,8 @@ alloc
 >
 Result
 <
+'
+alloc
 BindingProperty
 <
 '
@@ -3190,6 +3220,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -3438,6 +3470,8 @@ alloc
 >
 Result
 <
+'
+alloc
 ObjectBinding
 <
 '
@@ -3556,6 +3590,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -3816,6 +3852,8 @@ alloc
 >
 Result
 <
+'
+alloc
 Binding
 <
 '
@@ -4042,6 +4080,8 @@ alloc
 >
 Result
 <
+'
+alloc
 Parameter
 <
 '
@@ -4164,6 +4204,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -4369,6 +4411,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -4920,6 +4964,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -5014,6 +5060,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -5069,6 +5117,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -6986,6 +7036,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7095,6 +7147,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7204,6 +7258,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7301,6 +7357,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7469,6 +7527,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7677,6 +7737,8 @@ Void
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7753,6 +7815,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7821,6 +7885,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -7901,6 +7967,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -8496,6 +8564,8 @@ self
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -10761,6 +10831,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -10884,6 +10956,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -11007,6 +11081,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -11130,6 +11206,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -13369,6 +13447,8 @@ SourceLocation
 >
 Result
 <
+'
+alloc
 ArrayAssignmentTarget
 <
 '
@@ -13482,6 +13562,8 @@ Option
 <
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -13567,6 +13649,8 @@ alloc
 >
 Result
 <
+'
+alloc
 AssignmentTargetProperty
 <
 '
@@ -13770,6 +13854,8 @@ SourceLocation
 >
 Result
 <
+'
+alloc
 ObjectAssignmentTarget
 <
 '
@@ -13824,6 +13910,8 @@ Option
 <
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -13909,6 +13997,8 @@ alloc
 >
 Result
 <
+'
+alloc
 AssignmentTargetMaybeDefault
 <
 '
@@ -13999,6 +14089,8 @@ alloc
 >
 Result
 <
+'
+alloc
 AssignmentTarget
 <
 '
@@ -14134,6 +14226,8 @@ alloc
 >
 Result
 <
+'
+alloc
 SimpleAssignmentTarget
 <
 '
@@ -14622,6 +14716,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -15193,6 +15289,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -15413,6 +15511,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -15851,6 +15951,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -16128,6 +16230,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -18692,6 +18796,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -18888,6 +18994,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -19107,6 +19215,8 @@ self
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -19207,6 +19317,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -19325,6 +19437,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -19512,6 +19626,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -19642,6 +19758,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -19776,6 +19894,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -20202,6 +20322,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -20307,6 +20429,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -20413,6 +20537,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -20673,6 +20799,8 @@ alloc
 >
 Result
 <
+'
+alloc
 VariableDeclarationOrAssignmentTarget
 <
 '
@@ -20823,6 +20951,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -20928,6 +21058,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -21034,6 +21166,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -21178,6 +21312,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -21280,6 +21416,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -21382,6 +21520,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -22422,6 +22562,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -22659,6 +22801,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -23900,6 +24044,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -24049,6 +24195,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -24515,6 +24663,8 @@ Token
 >
 Result
 <
+'
+alloc
 Function
 <
 '
@@ -24799,6 +24949,8 @@ Token
 >
 Result
 <
+'
+alloc
 Function
 <
 '
@@ -25085,6 +25237,8 @@ Token
 >
 Result
 <
+'
+alloc
 Function
 <
 '
@@ -25374,6 +25528,8 @@ Token
 >
 Result
 <
+'
+alloc
 Function
 <
 '
@@ -26105,6 +26261,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -26310,6 +26468,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -26653,6 +26813,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -27072,6 +27234,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -27345,6 +27509,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -27828,6 +27994,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -29206,6 +29374,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -29413,6 +29583,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -29698,6 +29870,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -29835,6 +30009,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -29983,6 +30159,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 arena
 :
@@ -30253,6 +30431,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -30500,6 +30680,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -30761,6 +30943,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -30865,6 +31049,8 @@ Void
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -30918,6 +31104,8 @@ BindingIdentifier
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -30959,6 +31147,8 @@ self
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31027,6 +31217,8 @@ Void
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31078,6 +31270,8 @@ BindingIdentifier
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31142,6 +31336,8 @@ BindingIdentifier
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31193,6 +31389,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31247,6 +31445,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31312,6 +31512,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31365,6 +31567,8 @@ Void
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31421,6 +31625,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31477,6 +31683,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31534,6 +31742,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31591,6 +31801,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31659,6 +31871,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31700,6 +31914,8 @@ self
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31768,6 +31984,8 @@ Void
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31819,6 +32037,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31883,6 +32103,8 @@ Token
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -31947,6 +32169,8 @@ Token
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -32078,6 +32302,8 @@ Token
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -32137,6 +32363,8 @@ Token
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -32654,6 +32882,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -32932,6 +33162,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33015,6 +33247,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33172,6 +33406,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33283,6 +33519,8 @@ SourceLocation
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33395,6 +33633,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33480,6 +33720,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33566,6 +33808,8 @@ SourceLocation
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33692,6 +33936,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -33796,6 +34042,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -34054,6 +34302,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -34176,6 +34426,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -34277,6 +34529,8 @@ self
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -34334,6 +34588,8 @@ self
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -34587,6 +34843,8 @@ alloc
 >
 Result
 <
+'
+alloc
 (
 )
 >
