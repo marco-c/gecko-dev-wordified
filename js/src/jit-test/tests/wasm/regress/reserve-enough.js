@@ -52,11 +52,13 @@ nop
 ;
 return
 (
-loop
+block
 out
 {
 n
 }
+(
+loop
 in
 {
 n
@@ -69,6 +71,7 @@ n
 1
 )
 }
+)
 )
 ;
 }
