@@ -1019,7 +1019,7 @@ test
 Edit
 mode
 in
-official
+debug
 builds
 onDeletePromise
 =
