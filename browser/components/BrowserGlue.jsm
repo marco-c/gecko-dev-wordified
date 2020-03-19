@@ -4363,17 +4363,6 @@ AboutLoginsParent
 "
 AboutLogins
 :
-TestOnlyResetOSAuth
-"
-:
-[
-"
-AboutLoginsParent
-"
-]
-"
-AboutLogins
-:
 UpdateLogin
 "
 :
