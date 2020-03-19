@@ -477,11 +477,6 @@ documentOpenFlags
 )
 aArgs
 .
-pluginsAllowed
-(
-)
-aArgs
-.
 timing
 (
 )
