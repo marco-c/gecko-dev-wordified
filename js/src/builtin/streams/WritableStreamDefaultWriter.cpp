@@ -405,9 +405,7 @@ include
 "
 builtin
 /
-streams
-/
-MiscellaneousOperations
+Promise
 -
 inl
 .
@@ -1313,6 +1311,9 @@ PromiseIsHandled
 to
 true
 .
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
@@ -1515,6 +1516,9 @@ PromiseIsHandled
 to
 true
 .
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
@@ -1605,6 +1609,9 @@ PromiseIsHandled
 to
 true
 .
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
