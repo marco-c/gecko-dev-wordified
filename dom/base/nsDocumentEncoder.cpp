@@ -7800,6 +7800,10 @@ mSelection
 new
 Selection
 (
+SelectionType
+:
+:
+eNormal
 nullptr
 )
 ;
