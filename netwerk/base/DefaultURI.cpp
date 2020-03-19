@@ -135,12 +135,18 @@ ptrToMutator
 )
 {
 \
-NS_ADDREF
-(
 *
+(
 ptrToMutator
+)
 =
+do_AddRef
+(
 this
+)
+.
+take
+(
 )
 ;
 \
@@ -187,6 +193,7 @@ Equals
 kDefaultURICID
 )
 )
+{
 foundInterface
 =
 static_cast
@@ -198,6 +205,7 @@ nsIURI
 this
 )
 ;
+}
 else
 NS_INTERFACE_MAP_ENTRY
 (
