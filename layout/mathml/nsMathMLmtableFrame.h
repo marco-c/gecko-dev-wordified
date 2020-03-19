@@ -1584,8 +1584,9 @@ virtual
 nsMathMLmtdInnerFrame
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

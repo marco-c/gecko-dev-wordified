@@ -250,8 +250,9 @@ nsMathMLmoFrame
 nsMathMLmoFrame
 (
 )
-{
-}
+=
+default
+;
 static
 const
 char16_t

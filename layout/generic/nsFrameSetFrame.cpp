@@ -1634,8 +1634,9 @@ nsHTMLFramesetFrame
 nsHTMLFramesetFrame
 (
 )
-{
-}
+=
+default
+;
 NS_QUERYFRAME_HEAD
 (
 nsHTMLFramesetFrame

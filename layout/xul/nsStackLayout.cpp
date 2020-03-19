@@ -330,8 +330,9 @@ nsStackLayout
 nsStackLayout
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

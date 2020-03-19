@@ -278,8 +278,9 @@ nsCheckboxRadioFrame
 nsCheckboxRadioFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsCheckboxRadioFrame
 :

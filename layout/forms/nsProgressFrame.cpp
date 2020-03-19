@@ -314,8 +314,9 @@ nsProgressFrame
 nsProgressFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsProgressFrame
 :

@@ -226,8 +226,9 @@ FixedTableLayoutStrategy
 FixedTableLayoutStrategy
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

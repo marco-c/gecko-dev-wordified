@@ -252,8 +252,9 @@ BasicTableLayoutStrategy
 BasicTableLayoutStrategy
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

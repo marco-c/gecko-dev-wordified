@@ -218,8 +218,9 @@ nsHTMLCSSStyleSheet
 nsHTMLCSSStyleSheet
 (
 )
-{
-}
+=
+default
+;
 nsHTMLCSSStyleSheet
 :
 :

@@ -287,8 +287,9 @@ nsMathMLmunderoverFrame
 nsMathMLmunderoverFrame
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsMathMLmunderoverFrame
 :

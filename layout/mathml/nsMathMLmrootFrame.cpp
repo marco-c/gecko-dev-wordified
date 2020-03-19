@@ -268,8 +268,9 @@ nsMathMLmrootFrame
 nsMathMLmrootFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsMathMLmrootFrame
 :

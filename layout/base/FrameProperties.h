@@ -913,8 +913,9 @@ explicit
 FrameProperties
 (
 )
-{
-}
+=
+default
+;
 ~
 FrameProperties
 (

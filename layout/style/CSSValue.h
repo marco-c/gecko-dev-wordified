@@ -243,8 +243,8 @@ virtual
 CSSValue
 (
 )
-{
-}
+=
+default
 ;
 /
 /

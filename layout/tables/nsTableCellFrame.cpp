@@ -536,8 +536,9 @@ nsTableCellFrame
 nsTableCellFrame
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_FRAMEARENA_HELPERS
 (
 nsTableCellFrame
@@ -7091,8 +7092,9 @@ nsBCTableCellFrame
 nsBCTableCellFrame
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

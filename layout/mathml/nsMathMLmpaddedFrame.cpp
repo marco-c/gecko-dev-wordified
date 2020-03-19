@@ -279,8 +279,9 @@ nsMathMLmpaddedFrame
 nsMathMLmpaddedFrame
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsMathMLmpaddedFrame
 :

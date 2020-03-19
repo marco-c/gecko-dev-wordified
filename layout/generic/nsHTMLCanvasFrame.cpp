@@ -1923,8 +1923,9 @@ nsHTMLCanvasFrame
 nsHTMLCanvasFrame
 (
 )
-{
-}
+=
+default
+;
 nsIntSize
 nsHTMLCanvasFrame
 :

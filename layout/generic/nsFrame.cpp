@@ -81533,8 +81533,9 @@ CaretPosition
 CaretPosition
 (
 )
-{
-}
+=
+default
+;
 bool
 nsFrame
 :

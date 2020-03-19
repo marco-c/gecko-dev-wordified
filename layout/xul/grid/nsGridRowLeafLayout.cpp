@@ -243,8 +243,9 @@ nsGridRowLeafLayout
 nsGridRowLeafLayout
 (
 )
-{
-}
+=
+default
+;
 nsSize
 nsGridRowLeafLayout
 :

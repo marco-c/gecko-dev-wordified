@@ -285,8 +285,9 @@ nsTreeColFrame
 nsTreeColFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsTreeColFrame
 :

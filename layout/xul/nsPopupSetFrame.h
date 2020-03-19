@@ -208,8 +208,9 @@ kClassID
 nsPopupSetFrame
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Init

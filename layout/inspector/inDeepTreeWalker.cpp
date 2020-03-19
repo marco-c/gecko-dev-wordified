@@ -505,8 +505,9 @@ inDeepTreeWalker
 inDeepTreeWalker
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 inDeepTreeWalker

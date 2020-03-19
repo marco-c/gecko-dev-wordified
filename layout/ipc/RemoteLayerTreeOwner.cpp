@@ -414,8 +414,9 @@ RemoteLayerTreeOwner
 RemoteLayerTreeOwner
 (
 )
-{
-}
+=
+default
+;
 bool
 RemoteLayerTreeOwner
 :

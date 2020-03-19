@@ -5020,8 +5020,9 @@ private
 DependentBuiltinCounterStyle
 (
 )
-{
-}
+=
+default
+;
 CounterStyleManager
 *
 mManager
@@ -5587,8 +5588,9 @@ private
 CustomCounterStyle
 (
 )
-{
-}
+=
+default
+;
 Span
 <
 const

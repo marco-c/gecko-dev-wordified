@@ -513,8 +513,9 @@ virtual
 nsGenConNode
 (
 )
-{
-}
+=
+default
+;
 /
 /
 XXX

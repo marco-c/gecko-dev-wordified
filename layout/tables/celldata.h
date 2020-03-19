@@ -2489,8 +2489,9 @@ BCData
 BCData
 (
 )
-{
-}
+=
+default
+;
 inline
 nscoord
 BCData

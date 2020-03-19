@@ -254,8 +254,9 @@ virtual
 CSSRuleList
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

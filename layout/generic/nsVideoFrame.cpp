@@ -593,8 +593,9 @@ nsVideoFrame
 nsVideoFrame
 (
 )
-{
-}
+=
+default
+;
 NS_QUERYFRAME_HEAD
 (
 nsVideoFrame

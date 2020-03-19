@@ -263,8 +263,9 @@ virtual
 ScrollAnimationPhysics
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /

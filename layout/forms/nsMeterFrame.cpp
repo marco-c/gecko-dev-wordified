@@ -334,8 +334,9 @@ nsMeterFrame
 nsMeterFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsMeterFrame
 :

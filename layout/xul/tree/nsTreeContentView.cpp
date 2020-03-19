@@ -300,8 +300,9 @@ mFlags
 Row
 (
 )
-{
-}
+=
+default
+;
 void
 SetContainer
 (

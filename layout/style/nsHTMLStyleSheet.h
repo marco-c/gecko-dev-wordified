@@ -426,8 +426,9 @@ delete
 nsHTMLStyleSheet
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Implementation

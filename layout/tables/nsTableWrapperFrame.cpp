@@ -377,8 +377,9 @@ nsTableWrapperFrame
 nsTableWrapperFrame
 (
 )
-{
-}
+=
+default
+;
 NS_QUERYFRAME_HEAD
 (
 nsTableWrapperFrame

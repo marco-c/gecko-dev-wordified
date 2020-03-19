@@ -179,8 +179,9 @@ virtual
 nsITableLayoutStrategy
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

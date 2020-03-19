@@ -532,8 +532,9 @@ private
 CSSStyleRule
 (
 )
-{
-}
+=
+default
+;
 /
 /
 For

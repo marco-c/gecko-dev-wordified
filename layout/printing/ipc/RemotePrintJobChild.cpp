@@ -170,8 +170,9 @@ RemotePrintJobChild
 RemotePrintJobChild
 (
 )
-{
-}
+=
+default
+;
 nsresult
 RemotePrintJobChild
 :
@@ -748,8 +749,9 @@ RemotePrintJobChild
 RemotePrintJobChild
 (
 )
-{
-}
+=
+default
+;
 void
 RemotePrintJobChild
 :

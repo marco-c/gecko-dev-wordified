@@ -888,8 +888,8 @@ explicit
 DrawEventRecorderPRFileDesc
 (
 )
-{
-}
+=
+default
 ;
 ~
 DrawEventRecorderPRFileDesc

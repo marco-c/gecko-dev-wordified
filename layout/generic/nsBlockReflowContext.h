@@ -230,8 +230,9 @@ aParentRI
 nsBlockReflowContext
 (
 )
-{
-}
+=
+default
+;
 void
 ReflowBlock
 (

@@ -255,8 +255,9 @@ virtual
 nsSliderMediator
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

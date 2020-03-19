@@ -154,8 +154,9 @@ nsLeafFrame
 nsLeafFrame
 (
 )
-{
-}
+=
+default
+;
 /
 *
 virtual

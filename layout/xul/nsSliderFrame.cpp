@@ -5889,8 +5889,9 @@ virtual
 AsyncScrollbarDragStarter
 (
 )
-{
-}
+=
+default
+;
 void
 DidRefresh
 (

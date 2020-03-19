@@ -252,8 +252,9 @@ virtual
 ViewportFrame
 (
 )
-{
-}
+=
+default
+;
 /
 /
 useful

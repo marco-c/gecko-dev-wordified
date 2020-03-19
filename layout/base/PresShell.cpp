@@ -2562,8 +2562,9 @@ virtual
 IndiReflowCounter
 (
 )
-{
-}
+=
+default
+;
 nsAutoString
 mName
 ;
@@ -67288,8 +67289,9 @@ ReflowCounter
 ReflowCounter
 (
 )
-{
-}
+=
+default
+;
 /
 /
 -
@@ -68447,8 +68449,9 @@ ReflowCountMgr
 ReflowCountMgr
 (
 )
-{
-}
+=
+default
+;
 /
 /
 -

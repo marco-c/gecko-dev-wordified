@@ -546,8 +546,9 @@ BRFrame
 BRFrame
 (
 )
-{
-}
+=
+default
+;
 void
 BRFrame
 :

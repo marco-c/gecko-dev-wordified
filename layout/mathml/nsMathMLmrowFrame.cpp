@@ -204,8 +204,9 @@ nsMathMLmrowFrame
 nsMathMLmrowFrame
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsMathMLmrowFrame
 :

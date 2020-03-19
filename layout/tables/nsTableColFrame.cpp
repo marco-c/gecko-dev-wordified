@@ -317,8 +317,9 @@ nsTableColFrame
 nsTableColFrame
 (
 )
-{
-}
+=
+default
+;
 nsTableColType
 nsTableColFrame
 :

@@ -946,8 +946,9 @@ nsBoxFrame
 nsBoxFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsBoxFrame
 :

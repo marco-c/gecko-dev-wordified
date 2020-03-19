@@ -222,8 +222,9 @@ nsMathMLmsqrtFrame
 nsMathMLmsqrtFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsMathMLmsqrtFrame
 :

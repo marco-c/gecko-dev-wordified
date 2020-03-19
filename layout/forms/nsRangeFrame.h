@@ -1155,8 +1155,9 @@ private
 DummyTouchListener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

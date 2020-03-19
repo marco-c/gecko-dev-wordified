@@ -2748,8 +2748,9 @@ nsBlockFrame
 nsBlockFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsBlockFrame
 :

@@ -197,8 +197,9 @@ nsGridRowLayout
 nsGridRowLayout
 (
 )
-{
-}
+=
+default
+;
 void
 nsGridRowLayout
 :

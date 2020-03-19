@@ -244,8 +244,9 @@ virtual
 nsFrameIterator
 (
 )
-{
-}
+=
+default
+;
 void
 setCurrent
 (
@@ -962,8 +963,9 @@ nsFrameTraversal
 nsFrameTraversal
 (
 )
-{
-}
+=
+default
+;
 nsFrameTraversal
 :
 :
@@ -971,8 +973,9 @@ nsFrameTraversal
 nsFrameTraversal
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsFrameTraversal

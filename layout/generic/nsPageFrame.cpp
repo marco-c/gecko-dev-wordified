@@ -361,8 +361,9 @@ nsPageFrame
 nsPageFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsPageFrame
 :
@@ -5100,8 +5101,9 @@ nsPageBreakFrame
 nsPageBreakFrame
 (
 )
-{
-}
+=
+default
+;
 nscoord
 nsPageBreakFrame
 :

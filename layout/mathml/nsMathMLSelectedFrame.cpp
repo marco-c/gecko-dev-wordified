@@ -139,8 +139,9 @@ nsMathMLSelectedFrame
 nsMathMLSelectedFrame
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsMathMLSelectedFrame
 :

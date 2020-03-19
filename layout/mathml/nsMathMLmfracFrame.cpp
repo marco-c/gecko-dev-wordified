@@ -336,8 +336,9 @@ nsMathMLmfracFrame
 nsMathMLmfracFrame
 (
 )
-{
-}
+=
+default
+;
 eMathMLFrameType
 nsMathMLmfracFrame
 :

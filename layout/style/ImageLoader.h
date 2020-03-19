@@ -723,8 +723,9 @@ override
 ImageLoader
 (
 )
-{
-}
+=
+default
+;
 /
 /
 We

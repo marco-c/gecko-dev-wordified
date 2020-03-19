@@ -922,8 +922,9 @@ virtual
 nsGlyphTable
 (
 )
-{
-}
+=
+default
+;
 virtual
 const
 FontFamilyName
@@ -4469,8 +4470,9 @@ private
 nsGlyphTableList
 (
 )
-{
-}
+=
+default
+;
 nsPropertiesTable
 *
 PropertiesTableAt

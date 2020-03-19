@@ -224,8 +224,9 @@ protected
 nsILineIterator
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual

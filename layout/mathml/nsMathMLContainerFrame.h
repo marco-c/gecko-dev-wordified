@@ -3580,8 +3580,9 @@ virtual
 nsMathMLmathBlockFrame
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -3959,8 +3960,9 @@ virtual
 nsMathMLmathInlineFrame
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

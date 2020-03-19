@@ -982,8 +982,9 @@ virtual
 BidiProcessor
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

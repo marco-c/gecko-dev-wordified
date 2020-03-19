@@ -326,8 +326,9 @@ private
 nsTransformedCharStyle
 (
 )
-{
-}
+=
+default
+;
 nsTransformedCharStyle
 (
 const
@@ -363,8 +364,9 @@ virtual
 nsTransformingTextRunFactory
 (
 )
-{
-}
+=
+default
+;
 /
 /
 Default

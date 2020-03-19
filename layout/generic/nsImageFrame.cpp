@@ -1688,8 +1688,9 @@ nsImageFrame
 nsImageFrame
 (
 )
-{
-}
+=
+default
+;
 NS_QUERYFRAME_HEAD
 (
 nsImageFrame

@@ -8502,8 +8502,9 @@ nsMenuTimerMediator
 nsMenuTimerMediator
 (
 )
-{
-}
+=
+default
+;
 /
 *
 *

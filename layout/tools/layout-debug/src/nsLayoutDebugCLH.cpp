@@ -192,8 +192,9 @@ nsLayoutDebugCLH
 nsLayoutDebugCLH
 (
 )
-{
-}
+=
+default
+;
 nsLayoutDebugCLH
 :
 :
@@ -201,8 +202,9 @@ nsLayoutDebugCLH
 nsLayoutDebugCLH
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsLayoutDebugCLH

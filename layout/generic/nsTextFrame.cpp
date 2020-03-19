@@ -32040,8 +32040,9 @@ nsTextFrame
 nsTextFrame
 (
 )
-{
-}
+=
+default
+;
 Maybe
 <
 nsIFrame
