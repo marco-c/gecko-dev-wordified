@@ -3183,11 +3183,13 @@ MAX_MEMORY_PRESSURE_BYTES
 f64
 =
 (
-500
+300
 *
-1024
+512
 *
-1024
+512
+*
+4
 )
 as
 f64
@@ -3239,9 +3241,9 @@ MAX_MEMORY_PRESSURE_BYTES
 .
 min
 (
-1
-.
 0
+.
+98
 )
 }
 else
@@ -8085,7 +8087,7 @@ max_frames
 .
 max_time_s
 (
-3
+2
 )
 .
 scale_by_pressure
