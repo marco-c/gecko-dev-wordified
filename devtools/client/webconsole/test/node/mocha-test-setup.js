@@ -350,7 +350,7 @@ input
 .
 eagerEvaluation
 "
-false
+true
 )
 ;
 pref
