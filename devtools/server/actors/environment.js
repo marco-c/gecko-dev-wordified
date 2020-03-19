@@ -278,6 +278,17 @@ actor
 =
 null
 ;
+Actor
+.
+prototype
+.
+destroy
+.
+call
+(
+this
+)
+;
 }
 /
 *

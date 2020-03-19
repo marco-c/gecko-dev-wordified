@@ -689,6 +689,17 @@ _frameLifetimePool
 null
 ;
 }
+Actor
+.
+prototype
+.
+destroy
+.
+call
+(
+this
+)
+;
 }
 getEnvironment
 :
