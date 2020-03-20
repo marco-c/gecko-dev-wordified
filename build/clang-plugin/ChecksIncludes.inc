@@ -311,13 +311,6 @@ h
 #
 include
 "
-TempRefPtrChecker
-.
-h
-"
-#
-include
-"
 TrivialCtorDtorChecker
 .
 h

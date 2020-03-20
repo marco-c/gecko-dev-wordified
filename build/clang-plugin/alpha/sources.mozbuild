@@ -95,4 +95,9 @@ AlphaChecker
 .
 cpp
 '
+'
+TempRefPtrChecker
+.
+cpp
+'
 ]

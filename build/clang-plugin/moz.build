@@ -279,11 +279,6 @@ SprintfLiteralChecker
 cpp
 '
 '
-TempRefPtrChecker
-.
-cpp
-'
-'
 TrivialCtorDtorChecker
 .
 cpp

@@ -93,3 +93,14 @@ alpha
 checker
 "
 )
+CHECK
+(
+TempRefPtrChecker
+"
+performance
+-
+temp
+-
+refptr
+"
+)
