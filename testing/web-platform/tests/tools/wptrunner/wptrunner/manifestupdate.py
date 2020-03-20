@@ -6513,6 +6513,9 @@ with
 open
 (
 manifest_path
+"
+rb
+"
 )
 as
 f
