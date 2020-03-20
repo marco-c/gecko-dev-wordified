@@ -951,13 +951,6 @@ SearchEngineSelector
 (
 )
 ;
-await
-engineSelector
-.
-init
-(
-)
-;
 /
 /
 Note

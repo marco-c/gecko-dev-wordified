@@ -290,13 +290,6 @@ promiseStartupManager
 (
 )
 ;
-await
-engineSelector
-.
-init
-(
-)
-;
 }
 )
 ;
