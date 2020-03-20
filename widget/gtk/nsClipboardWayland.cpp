@@ -2472,7 +2472,10 @@ aWaylandDataOffer
 ;
 mClipboardOffer
 =
+WrapUnique
+(
 dataOffer
+)
 ;
 }
 }
@@ -2567,7 +2570,10 @@ aPrimaryDataOffer
 ;
 mPrimaryOffer
 =
+WrapUnique
+(
 dataOffer
+)
 ;
 }
 }
@@ -4222,8 +4228,9 @@ this
 }
 else
 {
-DataOffer
-*
+const
+auto
+&
 dataOffer
 =
 (
@@ -4363,8 +4370,9 @@ GetSelectionAtom
 aWhichClipboard
 )
 ;
-DataOffer
-*
+const
+auto
+&
 dataOffer
 =
 (

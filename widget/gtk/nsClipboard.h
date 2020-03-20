@@ -118,6 +118,15 @@ __nsClipboard_h_
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsIClipboard
 .
 h
@@ -502,7 +511,10 @@ nsITransferable
 >
 mGlobalTransferable
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsRetrievalContext
 >
