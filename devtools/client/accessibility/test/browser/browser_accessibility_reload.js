@@ -338,7 +338,9 @@ reload
 (
 panel
 .
-target
+accessibilityProxy
+.
+currentTarget
 )
 expected
 :
