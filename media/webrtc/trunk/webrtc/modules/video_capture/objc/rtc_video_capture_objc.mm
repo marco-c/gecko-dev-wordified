@@ -1303,6 +1303,10 @@ self
 directOutputToNil
 ]
 ;
+_owner
+=
+NULL
+;
 if
 (
 !
@@ -1721,6 +1725,11 @@ VideoType
 :
 kUYVY
 ;
+if
+(
+_owner
+)
+{
 _owner
 -
 >
@@ -1732,6 +1741,7 @@ tempCaptureCapability
 0
 )
 ;
+}
 CVPixelBufferUnlockBaseAddress
 (
 videoFrame
