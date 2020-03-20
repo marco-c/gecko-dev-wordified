@@ -75,7 +75,10 @@ drop
 (
 block
 label2
+(
+result
 i64
+)
 (
 br_table
 label2
