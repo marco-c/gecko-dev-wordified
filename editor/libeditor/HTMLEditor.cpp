@@ -4246,11 +4246,6 @@ if
 IsReadonly
 (
 )
-|
-|
-IsDisabled
-(
-)
 )
 {
 /
@@ -10980,11 +10975,6 @@ event
 if
 (
 IsReadonly
-(
-)
-|
-|
-IsDisabled
 (
 )
 )
@@ -34444,11 +34434,6 @@ DONT_CHANGE_OPEN_STATE
 if
 (
 IsReadonly
-(
-)
-|
-|
-IsDisabled
 (
 )
 )
