@@ -2297,6 +2297,15 @@ value
 .
 *
 /
+/
+/
+TODO
+:
+replace
+with
+MOZ_CAN_RUN_SCRIPT
+.
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Modify
 (
