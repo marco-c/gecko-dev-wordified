@@ -468,12 +468,8 @@ aEpochsBeingRendered
 )
 ;
 bool
-SampleAnimations
+AdvanceAnimations
 (
-const
-LayerMetricsWrapper
-&
-aLayer
 const
 TimeStamp
 &
