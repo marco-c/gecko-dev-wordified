@@ -2057,6 +2057,12 @@ _hosts
 =
 null
 ;
+this
+.
+_matchPatternSet
+=
+null
+;
 }
 }
 onLocationChange
