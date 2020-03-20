@@ -12840,6 +12840,17 @@ LOAD_ANONYMOUS
 return
 NS_OK
 ;
+if
+(
+IsBrowsingContextDiscarded
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 /
 /
 empty
