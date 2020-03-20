@@ -56,7 +56,7 @@ returns
 Promise
 that
 is
-fullfilled
+fulfilled
 when
 test
 completes
