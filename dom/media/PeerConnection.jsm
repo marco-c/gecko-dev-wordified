@@ -5178,7 +5178,7 @@ Ci
 .
 nsIScriptError
 .
-exceptionFlag
+errorFlag
 )
 ;
 /

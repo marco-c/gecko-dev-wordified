@@ -9980,7 +9980,6 @@ number
 *
 isScriptError
 isWarning
-isException
 :
 boolean
 *

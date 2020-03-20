@@ -709,12 +709,6 @@ nsIScriptError
 :
 errorFlag
 :
-case
-nsIScriptError
-:
-:
-exceptionFlag
-:
 level
 =
 ConsoleUtils

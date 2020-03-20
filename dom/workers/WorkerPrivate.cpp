@@ -24156,11 +24156,6 @@ nsIScriptError
 :
 :
 errorFlag
-|
-nsIScriptError
-:
-:
-exceptionFlag
 ;
 }
 JS

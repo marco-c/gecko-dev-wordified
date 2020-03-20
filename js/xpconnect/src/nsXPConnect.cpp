@@ -1676,7 +1676,7 @@ ColumnNumber
 ;
 mFlags
 =
-JSREPORT_EXCEPTION
+JSREPORT_ERROR
 ;
 }
 static
