@@ -3556,6 +3556,12 @@ MaybeFlushConsoleReports
 (
 )
 ;
+bool
+IsBrowsingContextDiscarded
+(
+)
+const
+;
 friend
 class
 PrivateBrowsingChannel
