@@ -395,11 +395,7 @@ if
 resource
 .
 urlDetails
-&
-&
-resource
-.
-urlDetails
+?
 .
 url
 )

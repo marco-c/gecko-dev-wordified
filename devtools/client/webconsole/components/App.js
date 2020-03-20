@@ -1337,9 +1337,7 @@ return
 if
 (
 webConsoleUI
-&
-&
-webConsoleUI
+?
 .
 jsterm
 )

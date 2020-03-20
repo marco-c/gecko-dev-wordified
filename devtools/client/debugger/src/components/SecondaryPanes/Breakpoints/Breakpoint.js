@@ -754,9 +754,7 @@ const
 isWasm
 =
 source
-&
-&
-source
+?
 .
 isWasm
 ;

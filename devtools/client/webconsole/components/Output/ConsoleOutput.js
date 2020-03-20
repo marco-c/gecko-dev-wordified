@@ -346,9 +346,7 @@ m
 return
 (
 m
-&
-&
-m
+?
 .
 executionPoint
 &
@@ -426,9 +424,7 @@ m
 =
 >
 m
-&
-&
-m
+?
 .
 executionPoint
 )

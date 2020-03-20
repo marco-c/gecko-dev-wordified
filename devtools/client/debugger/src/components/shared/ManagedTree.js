@@ -477,11 +477,7 @@ if
 parent
 .
 contents
-&
-&
-parent
-.
-contents
+?
 .
 length
 )

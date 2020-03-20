@@ -4080,14 +4080,10 @@ selStart
 const
 type
 =
-(
 range
-&
-&
-range
+?
 .
 type
-)
 |
 |
 "

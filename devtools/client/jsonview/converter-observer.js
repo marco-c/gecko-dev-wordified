@@ -495,9 +495,7 @@ loadInfo
 if
 (
 loadInfo
-&
-&
-loadInfo
+?
 .
 isTopLevelLoad
 )

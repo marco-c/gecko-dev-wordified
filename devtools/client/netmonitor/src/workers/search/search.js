@@ -983,9 +983,8 @@ curr
 =
 >
 prev
-&
-&
-prev
+?
+.
 [
 curr
 ]

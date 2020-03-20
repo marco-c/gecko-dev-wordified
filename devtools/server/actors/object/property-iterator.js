@@ -1410,9 +1410,7 @@ bug
 if
 (
 desc
-&
-&
-desc
+?
 .
 value
 &

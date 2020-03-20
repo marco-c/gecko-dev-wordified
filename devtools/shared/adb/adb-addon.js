@@ -748,9 +748,7 @@ PREPARING
 if
 (
 addon
-&
-&
-addon
+?
 .
 userDisabled
 )

@@ -473,9 +473,7 @@ minimize
 !
 (
 argv
-&
-&
-argv
+?
 .
 optimization
 &

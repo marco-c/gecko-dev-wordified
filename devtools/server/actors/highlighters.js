@@ -3950,9 +3950,7 @@ const
 rawNode
 =
 node
-&
-&
-node
+?
 .
 rawNode
 ;

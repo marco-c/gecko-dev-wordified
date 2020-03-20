@@ -96,11 +96,7 @@ mark
 window
 .
 performance
-&
-&
-window
-.
-performance
+?
 .
 mark
 ?
@@ -129,11 +125,7 @@ measure
 window
 .
 performance
-&
-&
-window
-.
-performance
+?
 .
 measure
 ?

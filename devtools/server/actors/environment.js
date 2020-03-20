@@ -989,14 +989,10 @@ false
 writable
 :
 !
-(
 value
-&
-&
-value
+?
 .
 optimizedOut
-)
 enumerable
 :
 true

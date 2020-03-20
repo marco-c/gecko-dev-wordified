@@ -746,9 +746,7 @@ rawOutput
 if
 (
 helperResult
-&
-&
-helperResult
+?
 .
 type
 )
@@ -1491,14 +1489,10 @@ user
 .
 if
 (
-(
 result
-&
-&
-result
+?
 .
 isSyntaxError
-)
 |
 |
 (

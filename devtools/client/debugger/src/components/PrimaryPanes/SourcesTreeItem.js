@@ -1664,9 +1664,7 @@ folder
 if
 (
 source
-&
-&
-source
+?
 .
 isBlackBoxed
 )

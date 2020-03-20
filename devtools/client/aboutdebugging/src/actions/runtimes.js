@@ -2607,9 +2607,7 @@ const
 isConnectionValid
 =
 existingRuntime
-&
-&
-existingRuntime
+?
 .
 runtimeDetails
 &

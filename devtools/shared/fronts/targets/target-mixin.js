@@ -982,9 +982,7 @@ desc
 if
 (
 desc
-&
-&
-desc
+?
 .
 methods
 )
@@ -1286,14 +1284,10 @@ actor
 ID
 if
 (
-(
 front
-&
-&
-front
+?
 .
 actorID
-)
 |
 |
 (
@@ -1417,9 +1411,7 @@ front
 if
 (
 front
-&
-&
-front
+?
 .
 actorID
 )

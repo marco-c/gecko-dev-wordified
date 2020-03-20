@@ -1226,9 +1226,7 @@ top
 if
 (
 flexItemContainer
-&
-&
-flexItemContainer
+?
 .
 actorID
 )

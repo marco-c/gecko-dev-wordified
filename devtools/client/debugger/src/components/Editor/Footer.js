@@ -669,9 +669,7 @@ const
 sourceLoaded
 =
 selectedSource
-&
-&
-selectedSource
+?
 .
 content
 ;

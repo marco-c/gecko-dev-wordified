@@ -2087,9 +2087,7 @@ steps
 if
 (
 activeSendDialog
-&
-&
-activeSendDialog
+?
 .
 close
 )

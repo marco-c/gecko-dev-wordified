@@ -476,9 +476,7 @@ form
 fetch
 =
 newestWorker
-&
-&
-newestWorker
+?
 .
 handlesFetchEvents
 ;

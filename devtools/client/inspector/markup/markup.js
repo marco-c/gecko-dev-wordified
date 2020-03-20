@@ -10317,9 +10317,8 @@ getChildContainers
 if
 (
 childContainers
-&
-&
-childContainers
+?
+.
 [
 childIndex
 ]
@@ -12322,9 +12321,7 @@ const
 expand
 =
 options
-&
-&
-options
+?
 .
 expand
 ;
@@ -12332,9 +12329,7 @@ const
 flash
 =
 options
-&
-&
-options
+?
 .
 flash
 ;

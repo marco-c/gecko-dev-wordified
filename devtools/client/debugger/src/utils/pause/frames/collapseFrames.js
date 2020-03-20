@@ -63,7 +63,6 @@ MPL
 flow
 import
 {
-get
 findIndex
 }
 from
@@ -336,13 +335,10 @@ frames
 const
 prevLibrary
 =
-get
-(
 prevItem
-"
+?
+.
 library
-"
-)
 ;
 if
 (

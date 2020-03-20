@@ -738,9 +738,7 @@ g
 if
 (
 unwrapped
-&
-&
-unwrapped
+?
 .
 isProxy
 )

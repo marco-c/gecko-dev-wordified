@@ -1279,7 +1279,7 @@ mappings
 1
 "
 :
-null
+undefined
 }
 original
 :
@@ -1294,7 +1294,7 @@ pending
 false
 scope
 :
-null
+undefined
 }
 }
 }

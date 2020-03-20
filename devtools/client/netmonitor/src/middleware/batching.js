@@ -257,11 +257,7 @@ if
 action
 .
 meta
-&
-&
-action
-.
-meta
+?
 .
 batch
 )

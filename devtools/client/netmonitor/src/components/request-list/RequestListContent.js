@@ -2277,14 +2277,10 @@ id
 =
 =
 =
-(
 selectedRequest
-&
-&
-selectedRequest
+?
 .
 id
-)
 isVisible
 :
 this

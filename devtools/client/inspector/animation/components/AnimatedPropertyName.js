@@ -195,9 +195,7 @@ name
 +
 (
 state
-&
-&
-state
+?
 .
 runningOnCompositor
 ?
@@ -211,9 +209,7 @@ compositor
 +
 (
 state
-&
-&
-state
+?
 .
 warning
 ?

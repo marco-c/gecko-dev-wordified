@@ -189,9 +189,7 @@ linenumbers
 ;
 return
 lineNumbers
-&
-&
-lineNumbers
+?
 .
 clientWidth
 ;

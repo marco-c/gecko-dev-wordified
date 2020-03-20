@@ -5032,11 +5032,7 @@ if
 win
 .
 gBrowserInit
-&
-&
-win
-.
-gBrowserInit
+?
 .
 delayedStartupFinished
 )

@@ -1451,9 +1451,7 @@ serialize
 if
 (
 value
-&
-&
-value
+?
 .
 getGrip
 )

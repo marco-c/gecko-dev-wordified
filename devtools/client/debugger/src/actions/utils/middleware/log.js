@@ -186,11 +186,7 @@ if
 action
 .
 source
-&
-&
-action
-.
-source
+?
 .
 text
 )
@@ -314,11 +310,7 @@ if
 action
 .
 value
-&
-&
-action
-.
-value
+?
 .
 text
 )
@@ -455,9 +447,7 @@ fronts
 if
 (
 value
-&
-&
-value
+?
 .
 getGrip
 )

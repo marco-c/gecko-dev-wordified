@@ -2278,11 +2278,8 @@ if
 actor
 .
 requestTypes
-&
-&
-actor
+?
 .
-requestTypes
 [
 packet
 .
@@ -2774,11 +2771,8 @@ if
 actor
 .
 requestTypes
-&
-&
-actor
+?
 .
-requestTypes
 [
 type
 ]

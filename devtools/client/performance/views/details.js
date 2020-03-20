@@ -1068,9 +1068,7 @@ const
 prefSupported
 =
 prefs
-&
-&
-prefs
+?
 .
 length
 ?

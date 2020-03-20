@@ -1802,11 +1802,7 @@ if
 domSheet
 .
 ownerNode
-&
-&
-domSheet
-.
-ownerNode
+?
 .
 ownerDocument
 )

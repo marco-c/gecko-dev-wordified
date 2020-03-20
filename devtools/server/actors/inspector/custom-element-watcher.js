@@ -847,11 +847,7 @@ ownerGlobal
 node
 .
 ownerDocument
-&
-&
-node
-.
-ownerDocument
+?
 .
 documentElement
 )

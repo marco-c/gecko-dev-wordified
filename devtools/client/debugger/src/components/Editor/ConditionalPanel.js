@@ -1173,14 +1173,10 @@ props
 const
 options
 =
-(
 breakpoint
-&
-&
-breakpoint
+?
 .
 options
-)
 |
 |
 {

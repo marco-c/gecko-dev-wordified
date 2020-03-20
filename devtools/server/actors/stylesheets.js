@@ -996,11 +996,7 @@ if
 sheet
 .
 ownerNode
-&
-&
-sheet
-.
-ownerNode
+?
 .
 getAttribute
 )
@@ -1044,11 +1040,7 @@ if
 sheet
 .
 ownerNode
-&
-&
-sheet
-.
-ownerNode
+?
 .
 ownerDocument
 .

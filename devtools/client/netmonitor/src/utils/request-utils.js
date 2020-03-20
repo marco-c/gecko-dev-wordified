@@ -1295,9 +1295,8 @@ input
 ;
 return
 url
-&
-&
-url
+?
+.
 [
 property
 ]

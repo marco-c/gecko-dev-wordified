@@ -704,11 +704,7 @@ inverted
 item
 .
 children
-&
-&
-item
-.
-children
+?
 .
 length
 )

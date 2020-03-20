@@ -9212,9 +9212,7 @@ rule
 if
 (
 rule
-&
-&
-rule
+?
 .
 parentStyleSheet
 &

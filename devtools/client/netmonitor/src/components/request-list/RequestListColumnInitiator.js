@@ -235,9 +235,7 @@ lineNumber
 if
 (
 cause
-&
-&
-cause
+?
 .
 lastFrame
 )

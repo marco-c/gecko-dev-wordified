@@ -527,9 +527,7 @@ const
 headers
 =
 headersGrip
-&
-&
-headersGrip
+?
 .
 preview
 ?
@@ -545,9 +543,7 @@ const
 data
 =
 valueGrip
-&
-&
-valueGrip
+?
 .
 ownProperties
 ;
@@ -677,9 +673,7 @@ const
 headersGrip
 =
 headersFront
-&
-&
-headersFront
+?
 .
 getGrip
 ?
@@ -695,9 +689,7 @@ const
 valueGrip
 =
 valueFront
-&
-&
-valueFront
+?
 .
 getGrip
 ?
@@ -1147,9 +1139,7 @@ const
 propertyValueGrip
 =
 propertyValue
-&
-&
-propertyValue
+?
 .
 getGrip
 ?
@@ -1164,9 +1154,7 @@ propertyValue
 if
 (
 propertyValueGrip
-&
-&
-propertyValueGrip
+?
 .
 ownProperties
 )
@@ -1210,9 +1198,7 @@ else
 if
 (
 propertyValueGrip
-&
-&
-propertyValueGrip
+?
 .
 preview
 &

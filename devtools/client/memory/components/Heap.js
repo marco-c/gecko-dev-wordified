@@ -2023,9 +2023,7 @@ individuals
 assert
 (
 dominatorTree
-&
-&
-dominatorTree
+?
 .
 root
 "

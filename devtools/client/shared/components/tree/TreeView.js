@@ -1741,9 +1741,7 @@ row
 ;
 return
 rowEl
-&
-&
-rowEl
+?
 .
 offsetParent
 ;
@@ -1974,9 +1972,7 @@ ArrowLeft
 if
 (
 row
-&
-&
-row
+?
 .
 props
 .
@@ -3662,9 +3658,7 @@ member
 if
 (
 decorator
-&
-&
-decorator
+?
 .
 renderRow
 )

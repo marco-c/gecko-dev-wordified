@@ -1914,9 +1914,7 @@ index
 op
 =
 op
-&
-&
-op
+?
 .
 parent
 )

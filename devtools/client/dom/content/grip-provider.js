@@ -329,9 +329,7 @@ const
 grip
 =
 value
-&
-&
-value
+?
 .
 getGrip
 ?
@@ -552,9 +550,7 @@ const
 grip
 =
 object
-&
-&
-object
+?
 .
 getGrip
 ?

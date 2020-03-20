@@ -386,14 +386,10 @@ roots
 {
 path
 :
-(
 expressionResult
-&
-&
-expressionResult
+?
 .
 actorID
-)
 |
 |
 JSON
@@ -438,9 +434,7 @@ openLink
 if
 (
 expressionResult
-&
-&
-expressionResult
+?
 .
 actorID
 )

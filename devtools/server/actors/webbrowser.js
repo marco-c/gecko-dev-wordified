@@ -2464,9 +2464,7 @@ getTab
 if
 (
 window
-&
-&
-window
+?
 .
 isChromeWindow
 )
@@ -2650,11 +2648,7 @@ if
 browser
 .
 frameLoader
-&
-&
-browser
-.
-frameLoader
+?
 .
 remoteTab
 &

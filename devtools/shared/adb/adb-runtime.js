@@ -243,9 +243,8 @@ n
 if
 (
 matches
-&
-&
-matches
+?
+.
 [
 1
 ]

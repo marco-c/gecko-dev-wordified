@@ -222,9 +222,7 @@ props
 if
 (
 treeMap
-&
-&
-treeMap
+?
 .
 report
 )

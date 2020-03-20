@@ -755,11 +755,8 @@ el
 )
 ;
 return
-(
 doc
-&
-&
-doc
+?
 .
 documentElement
 &
@@ -773,7 +770,6 @@ namespaceURI
 =
 =
 XUL_NS
-)
 ;
 }
 /

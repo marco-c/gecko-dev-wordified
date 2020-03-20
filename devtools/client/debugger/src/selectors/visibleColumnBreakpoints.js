@@ -394,12 +394,8 @@ breakpointMap
 [
 line
 ]
-&
-&
-breakpointMap
-[
-line
-]
+?
+.
 [
 column
 ]

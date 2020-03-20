@@ -876,9 +876,7 @@ stack
 if
 (
 frame
-&
-&
-frame
+?
 .
 caller
 )

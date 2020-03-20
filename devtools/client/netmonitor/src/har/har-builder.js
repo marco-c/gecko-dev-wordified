@@ -1389,11 +1389,7 @@ if
 request
 .
 postData
-&
-&
-request
-.
-postData
+?
 .
 text
 )
@@ -2457,9 +2453,7 @@ responseContent
 if
 (
 responseContent
-&
-&
-responseContent
+?
 .
 content
 )
@@ -2689,11 +2683,7 @@ if
 file
 .
 responseCache
-&
-&
-file
-.
-responseCache
+?
 .
 cache
 )

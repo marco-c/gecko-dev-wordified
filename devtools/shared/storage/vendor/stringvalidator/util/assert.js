@@ -583,9 +583,7 @@ message
 =
 (
 expected
-&
-&
-expected
+?
 .
 name
 ?
@@ -1300,9 +1298,8 @@ regex
 ;
 return
 match
-&
-&
-match
+?
+.
 [
 1
 ]

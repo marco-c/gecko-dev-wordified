@@ -421,9 +421,7 @@ reverse
 if
 (
 popup
-&
-&
-popup
+?
 .
 isOpen
 )
@@ -2073,9 +2071,7 @@ completer
 if
 (
 completer
-&
-&
-completer
+?
 .
 getInfoAt
 )
