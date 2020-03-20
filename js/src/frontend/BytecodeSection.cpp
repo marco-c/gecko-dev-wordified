@@ -470,7 +470,6 @@ Scope
 )
 ;
 }
-else
 if
 (
 elem
