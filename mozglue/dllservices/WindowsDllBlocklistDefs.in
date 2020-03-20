@@ -1476,7 +1476,7 @@ BLOCK_WIN8_ONLY
 )
 #
 Bug
-1579758
+1621804
 crashes
 with
 OpenSC
@@ -1484,11 +1484,11 @@ nightly
 version
 0
 .
-19
+20
 .
 0
 .
-448
+0
 and
 lower
 DllBlocklistEntry
@@ -1504,9 +1504,9 @@ dll
 "
 (
 0
-19
+20
 0
-448
+0
 )
 )
 #
