@@ -71,7 +71,7 @@ wasmFullPass
 module
 (
 elem
-declared
+declare
 run
 )
 (
@@ -122,7 +122,7 @@ wasmEvalText
 module
 (
 elem
-declared
+declare
 f1
 )
 (
@@ -183,7 +183,7 @@ wasmEvalText
 module
 (
 elem
-declared
+declare
 f1
 )
 (
@@ -257,7 +257,7 @@ wasmEvalText
 module
 (
 elem
-declared
+declare
 f1
 )
 (
@@ -286,7 +286,6 @@ wasmEvalText
 module
 (
 import
-f1
 "
 "
 "
@@ -294,11 +293,12 @@ f1
 "
 (
 func
+f1
 )
 )
 (
 elem
-declared
+declare
 f1
 )
 (
@@ -564,7 +564,7 @@ validFuncRefText
 '
 (
 elem
-declared
+declare
 referenced
 )
 '
@@ -1034,7 +1034,6 @@ wasmTextToBinary
 module
 (
 import
-f
 "
 m
 "
@@ -1043,6 +1042,7 @@ f
 "
 (
 func
+f
 (
 param
 i32
@@ -1055,7 +1055,7 @@ i32
 )
 (
 elem
-declared
+declare
 f
 )
 (
