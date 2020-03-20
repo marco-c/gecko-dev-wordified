@@ -66532,6 +66532,15 @@ GetPrevSibling
 {
 if
 (
+!
+current
+-
+>
+IsBlockOutside
+(
+)
+&
+&
 IsSelectable
 (
 current
