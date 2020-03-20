@@ -1161,6 +1161,11 @@ engines
 "
 gecko
 "
+gecko_enum_prefix
+=
+"
+StyleMaskComposite
+"
 vector
 =
 True
