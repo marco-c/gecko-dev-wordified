@@ -1731,19 +1731,8 @@ find_linters
 linters
 )
         
-print
-(
-"
-Available
 linters
-:
-{
-}
-"
-.
-format
-(
-            
+=
 [
 os
 .
@@ -1769,6 +1758,19 @@ in
 lint_paths
 ]
         
+print
+(
+"
+\
+n
+"
+.
+join
+(
+sorted
+(
+linters
+)
 )
 )
         
