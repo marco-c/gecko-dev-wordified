@@ -738,10 +738,7 @@ get
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )
@@ -1056,10 +1053,7 @@ addConst
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )
@@ -1375,10 +1369,7 @@ get
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )

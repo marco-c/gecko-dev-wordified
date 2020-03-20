@@ -15,9 +15,9 @@ wasmEvalText
 )
 SyntaxError
 /
+parsing
 wasm
 text
-error
 /
 )
 ;
@@ -165,10 +165,7 @@ export
 "
 a
 "
-(
-func
 0
-)
 )
 )
 '
@@ -351,10 +348,7 @@ export
 "
 a
 "
-(
-func
 0
-)
 )
 )
 '
@@ -472,9 +466,9 @@ comment
 )
 SyntaxError
 /
+parsing
 wasm
 text
-error
 /
 )
 ;
@@ -497,9 +491,9 @@ n
 )
 SyntaxError
 /
+parsing
 wasm
 text
-error
 /
 )
 ;
@@ -522,9 +516,9 @@ comment
 )
 SyntaxError
 /
+parsing
 wasm
 text
-error
 /
 )
 ;
@@ -547,9 +541,9 @@ n
 )
 SyntaxError
 /
+parsing
 wasm
 text
-error
 /
 )
 ;

@@ -136,6 +136,7 @@ wasmTextToBinary
 module
 (
 import
+imp
 "
 a
 "
@@ -143,12 +144,8 @@ a
 b
 "
 (
-func
-imp
-(
 result
 i32
-)
 )
 )
 (

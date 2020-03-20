@@ -24,10 +24,7 @@ i32
 export
 "
 "
-(
-func
 func0
-)
 )
 (
 func

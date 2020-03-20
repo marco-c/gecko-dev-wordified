@@ -220,10 +220,7 @@ export
 "
 run
 "
-(
-func
 0
-)
 )
 )
 expect
@@ -478,10 +475,7 @@ drop
 export
 "
 "
-(
-func
 1
-)
 )
 )
 )
@@ -2765,7 +2759,7 @@ trunc_s
 f64
 '
 "
-inf
+infinity
 "
 )
 ;
@@ -2782,7 +2776,7 @@ f64
 '
 "
 -
-inf
+infinity
 "
 )
 ;
@@ -2845,7 +2839,7 @@ trunc_u
 f64
 '
 "
-inf
+infinity
 "
 )
 ;
@@ -2862,7 +2856,7 @@ f64
 '
 "
 -
-inf
+infinity
 "
 )
 ;
@@ -2927,7 +2921,7 @@ trunc_s
 f32
 '
 "
-inf
+infinity
 "
 )
 ;
@@ -2944,7 +2938,7 @@ f32
 '
 "
 -
-inf
+infinity
 "
 )
 ;
@@ -3007,7 +3001,7 @@ trunc_u
 f32
 '
 "
-inf
+infinity
 "
 )
 ;
@@ -3024,7 +3018,7 @@ f32
 '
 "
 -
-inf
+infinity
 "
 )
 ;
@@ -3553,7 +3547,7 @@ sat
 f64
 '
 '
-inf
+infinity
 '
 s64max
 )
@@ -3573,7 +3567,7 @@ f64
 '
 '
 -
-inf
+infinity
 '
 s64min
 )
@@ -3652,7 +3646,7 @@ sat
 f64
 '
 '
-inf
+infinity
 '
 u64max
 )
@@ -3672,7 +3666,7 @@ f64
 '
 '
 -
-inf
+infinity
 '
 '
 0
@@ -3753,7 +3747,7 @@ sat
 f32
 '
 '
-inf
+infinity
 '
 s64max
 )
@@ -3773,7 +3767,7 @@ f32
 '
 '
 -
-inf
+infinity
 '
 s64min
 )
@@ -3852,7 +3846,7 @@ sat
 f32
 '
 '
-inf
+infinity
 '
 u64max
 )
@@ -3872,7 +3866,7 @@ f32
 '
 '
 -
-inf
+infinity
 '
 '
 0
@@ -4194,7 +4188,7 @@ trunc_s
 f32
 '
 '
-inf
+infinity
 '
 )
 ;
@@ -4211,7 +4205,7 @@ f32
 '
 '
 -
-inf
+infinity
 '
 )
 ;
@@ -4377,7 +4371,7 @@ trunc_s
 f64
 '
 '
-inf
+infinity
 '
 )
 ;
@@ -4394,7 +4388,7 @@ f64
 '
 '
 -
-inf
+infinity
 '
 )
 ;
@@ -4603,7 +4597,7 @@ trunc_u
 f32
 '
 '
-inf
+infinity
 '
 )
 ;
@@ -4620,7 +4614,7 @@ f32
 '
 '
 -
-inf
+infinity
 '
 )
 ;
@@ -4773,7 +4767,7 @@ trunc_u
 f64
 '
 '
-inf
+infinity
 '
 )
 ;
@@ -4790,7 +4784,7 @@ f64
 '
 '
 -
-inf
+infinity
 '
 )
 ;
@@ -5013,10 +5007,7 @@ export
 "
 run
 "
-(
-func
 0
-)
 )
 )
 '
@@ -5116,10 +5107,7 @@ export
 "
 run
 "
-(
-func
 0
-)
 )
 )
 '

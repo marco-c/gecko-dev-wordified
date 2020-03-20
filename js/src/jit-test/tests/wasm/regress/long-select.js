@@ -107,12 +107,12 @@ module
 func
 run
 (
-param
-f32
-)
-(
 result
 i64
+)
+(
+param
+f32
 )
 i64
 .

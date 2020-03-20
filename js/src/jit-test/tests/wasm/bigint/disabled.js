@@ -66,10 +66,7 @@ const
 export
 "
 "
-(
-func
 0
-)
 )
 )
 '
@@ -119,10 +116,7 @@ const
 export
 "
 "
-(
-func
 0
-)
 )
 )
 '
@@ -191,10 +185,7 @@ const
 export
 "
 "
-(
-func
 f
-)
 )
 )
 '
@@ -267,10 +258,7 @@ imp
 export
 "
 "
-(
-func
 f
-)
 )
 )
 '
@@ -619,10 +607,7 @@ export
 "
 f
 "
-(
-func
 0
-)
 )
 )
 '
@@ -713,10 +698,7 @@ export
 "
 f
 "
-(
-func
 0
-)
 )
 )
 '
@@ -804,10 +786,7 @@ export
 "
 f
 "
-(
-func
 0
-)
 )
 )
 '

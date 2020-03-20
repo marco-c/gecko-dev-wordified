@@ -256,7 +256,7 @@ WasmTable
 cpp
 '
 '
-WasmTesting
+WasmTextToBinary
 .
 cpp
 '

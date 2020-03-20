@@ -164,10 +164,7 @@ get
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )

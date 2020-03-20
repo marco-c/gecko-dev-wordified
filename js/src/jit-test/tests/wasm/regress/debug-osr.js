@@ -82,15 +82,12 @@ wasmEvalText
 module
 (
 import
+imp
 "
 "
 "
 inc
 "
-(
-func
-imp
-)
 )
 (
 func
@@ -111,10 +108,7 @@ start
 export
 "
 "
-(
-func
 start
-)
 )
 )
 {

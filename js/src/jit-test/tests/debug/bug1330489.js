@@ -96,6 +96,7 @@ wasmTextToBinary
 module
 (
 import
+imp
 "
 a
 "
@@ -103,12 +104,8 @@ a
 b
 "
 (
-func
-imp
-(
 result
 i32
-)
 )
 )
 (
@@ -176,10 +173,7 @@ i32
 )
 (
 call_indirect
-(
-type
 v2i
-)
 (
 get_local
 0
@@ -191,10 +185,7 @@ export
 "
 call
 "
-(
-func
 call
-)
 )
 )
 )
