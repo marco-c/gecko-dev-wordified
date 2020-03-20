@@ -39086,7 +39086,7 @@ mFileActorOrInputStream
 ifdef
 DEBUG
 const
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 FileType
@@ -39114,7 +39114,7 @@ eMutableFile
 .
 MOZ_ASSERT
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -39123,7 +39123,7 @@ eStructuredClone
 mType
 |
 |
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -39132,7 +39132,7 @@ eBlob
 mType
 |
 |
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -39266,7 +39266,7 @@ ReleaseInputStream
 .
 MOZ_ASSERT_IF
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -39367,7 +39367,7 @@ that
 .
 MOZ_ASSERT_IF
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -39431,7 +39431,7 @@ Nothing
 .
 MOZ_ASSERT_IF
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -39482,7 +39482,7 @@ ifdef
 DEBUG
 mType
 {
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -39546,7 +39546,7 @@ ifdef
 DEBUG
 mType
 {
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -39610,7 +39610,7 @@ ifdef
 DEBUG
 mType
 {
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -39955,7 +39955,7 @@ res
 =
 =
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -40069,7 +40069,7 @@ mFileActorOrInputStream
 {
 MOZ_ASSERT
 (
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -41066,7 +41066,7 @@ mOptionalKeyRange
 ;
 AutoTArray
 <
-StructuredCloneReadInfo
+StructuredCloneReadInfoParent
 1
 >
 mResponse
@@ -42174,7 +42174,7 @@ nsTArray
 <
 FallibleTArray
 <
-StructuredCloneFile
+StructuredCloneFileParent
 >
 >
 ;
@@ -47826,7 +47826,7 @@ false
 }
 Result
 <
-StructuredCloneFile
+StructuredCloneFileParent
 nsresult
 >
 DeserializeStructuredCloneFile
@@ -47851,7 +47851,7 @@ IsEmpty
 )
 )
 ;
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 FileType
@@ -47876,7 +47876,7 @@ char16_t
 :
 type
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -47893,7 +47893,7 @@ char16_t
 :
 type
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -47910,7 +47910,7 @@ char16_t
 :
 type
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmBytecode
@@ -47928,7 +47928,7 @@ char16_t
 :
 type
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmCompiled
@@ -47939,7 +47939,7 @@ default
 :
 type
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -47956,7 +47956,7 @@ if
 type
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -48129,7 +48129,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 ;
 }
 return
-StructuredCloneFile
+StructuredCloneFileParent
 {
 type
 std
@@ -48146,7 +48146,7 @@ Result
 <
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileParent
 >
 nsresult
 >
@@ -48183,7 +48183,7 @@ aText
 ;
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileParent
 >
 result
 ;
@@ -48402,7 +48402,7 @@ aDatabase
 const
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileParent
 >
 &
 aFiles
@@ -48522,7 +48522,7 @@ NS_ERROR_OUT_OF_MEMORY
 for
 (
 const
-StructuredCloneFile
+StructuredCloneFileParent
 &
 file
 :
@@ -48541,7 +48541,7 @@ Type
 )
 !
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -48625,7 +48625,7 @@ Type
 )
 {
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -48714,7 +48714,7 @@ result
 EmplaceBack
 (
 ipcBlob
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -48737,7 +48737,7 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -48760,7 +48760,7 @@ EmplaceBack
 null_t
 (
 )
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -48870,7 +48870,7 @@ actor
 get
 (
 )
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -48881,7 +48881,7 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -48900,7 +48900,7 @@ EmplaceBack
 null_t
 (
 )
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -48992,7 +48992,7 @@ result
 EmplaceBack
 (
 ipcBlob
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -49016,13 +49016,13 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmBytecode
 :
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmCompiled
@@ -53498,7 +53498,7 @@ dom
 indexedDB
 :
 :
-StructuredCloneFile
+StructuredCloneFileParent
 >
 temp
 ;
@@ -55386,7 +55386,7 @@ index
 )
 {
 const
-StructuredCloneFile
+StructuredCloneFileParent
 &
 file
 =
@@ -55438,7 +55438,7 @@ Type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -61379,7 +61379,7 @@ unwrapErr
 for
 (
 const
-StructuredCloneFile
+StructuredCloneFileParent
 &
 file
 :
@@ -79471,7 +79471,7 @@ type
 )
 {
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -79526,7 +79526,7 @@ false
 break
 ;
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -79656,25 +79656,25 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
 :
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmBytecode
 :
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eWasmCompiled
 :
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eEndGuard
@@ -103749,7 +103749,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileParent
 >
 files
 ;
@@ -103874,7 +103874,7 @@ rv
 ;
 nsTArray
 <
-StructuredCloneFile
+StructuredCloneFileParent
 >
 files
 ;
@@ -104039,7 +104039,7 @@ one
 here
 ?
 const
-StructuredCloneFile
+StructuredCloneFileParent
 &
 file
 =
@@ -104057,7 +104057,7 @@ Type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eStructuredClone
@@ -134937,7 +134937,7 @@ type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -134950,7 +134950,7 @@ type
 )
 =
 =
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -134977,7 +134977,7 @@ type
 )
 {
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eBlob
@@ -135044,7 +135044,7 @@ break
 ;
 }
 case
-StructuredCloneFile
+StructuredCloneFileBase
 :
 :
 eMutableFile
@@ -141270,7 +141270,7 @@ index
 +
 )
 {
-StructuredCloneReadInfo
+StructuredCloneReadInfoParent
 &
 info
 =
@@ -141430,7 +141430,7 @@ IsEmpty
 )
 )
 {
-StructuredCloneReadInfo
+StructuredCloneReadInfoParent
 &
 info
 =
