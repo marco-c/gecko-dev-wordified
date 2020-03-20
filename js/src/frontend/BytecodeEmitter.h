@@ -567,7 +567,7 @@ h
 JSScript
 BaseScript
 FieldInitializers
-JSTryNoteKind
+TryNoteKind
 #
 include
 "
@@ -2333,7 +2333,7 @@ MOZ_MUST_USE
 bool
 addTryNote
 (
-JSTryNoteKind
+TryNoteKind
 kind
 uint32_t
 stackDepth

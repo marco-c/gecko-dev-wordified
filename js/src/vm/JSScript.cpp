@@ -4699,7 +4699,7 @@ numTryNotes
 *
 sizeof
 (
-JSTryNote
+TryNote
 )
 ;
 return
@@ -5245,7 +5245,7 @@ ScopeNote
 =
 alignof
 (
-JSTryNote
+TryNote
 )
 "
 Incompatible
@@ -5255,7 +5255,7 @@ alignment
 ;
 initElements
 <
-JSTryNote
+TryNote
 >
 (
 cursor
@@ -5269,7 +5269,7 @@ numTryNotes
 *
 sizeof
 (
-JSTryNote
+TryNote
 )
 ;
 setOptionalOffset
@@ -6099,7 +6099,7 @@ parent
 }
 for
 (
-JSTryNote
+TryNote
 &
 elem
 :
@@ -26246,7 +26246,7 @@ scopeNotes
 (
 )
 *
-JSTryNote
+TryNote
 tryNotes
 (
 )
@@ -29889,7 +29889,7 @@ targets
 for
 (
 const
-JSTryNote
+TryNote
 &
 tn
 :
@@ -33913,7 +33913,7 @@ mozilla
 Span
 <
 const
-JSTryNote
+TryNote
 >
 tryNotes
 )
@@ -36856,7 +36856,7 @@ hasLoops
 for
 (
 const
-JSTryNote
+TryNote
 &
 tn
 :

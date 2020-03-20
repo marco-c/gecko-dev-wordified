@@ -18721,7 +18721,7 @@ char
 *
 TryNoteName
 (
-JSTryNoteKind
+TryNoteKind
 kind
 )
 {
@@ -18799,7 +18799,7 @@ MOZ_CRASH
 (
 "
 Bad
-JSTryNoteKind
+TryNoteKind
 "
 )
 ;
@@ -18850,7 +18850,7 @@ false
 for
 (
 const
-JSTryNote
+TryNote
 &
 tn
 :
@@ -18887,7 +18887,7 @@ TryNoteName
 (
 static_cast
 <
-JSTryNoteKind
+TryNoteKind
 >
 (
 tn
