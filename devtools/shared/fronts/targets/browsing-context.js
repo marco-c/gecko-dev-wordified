@@ -890,13 +890,8 @@ detach
 (
 )
 {
-let
-response
-;
 try
 {
-response
-=
 await
 super
 .
@@ -959,9 +954,6 @@ this
 .
 _onFrameUpdate
 )
-;
-return
-response
 ;
 }
 destroy
