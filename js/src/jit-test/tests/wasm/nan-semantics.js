@@ -143,7 +143,10 @@ nan
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '
@@ -250,7 +253,10 @@ nan
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '
@@ -316,7 +322,10 @@ nan
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '
@@ -373,7 +382,10 @@ nan
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '

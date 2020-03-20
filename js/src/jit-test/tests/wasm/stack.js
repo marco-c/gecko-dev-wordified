@@ -202,7 +202,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 33

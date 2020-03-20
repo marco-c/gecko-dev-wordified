@@ -153,7 +153,10 @@ const
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )

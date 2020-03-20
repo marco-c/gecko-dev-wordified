@@ -108,7 +108,10 @@ start
 export
 "
 "
+(
+func
 start
+)
 )
 )
 {
