@@ -12680,15 +12680,8 @@ tests
 )
 :
     
-for
-test
-in
-tests
-:
-        
-for
-test_type
-in
+types
+=
 [
 '
 mochitest
@@ -12707,7 +12700,21 @@ geckoview
 -
 junit
 '
+'
+gtest
+'
 ]
+    
+for
+test
+in
+tests
+:
+        
+for
+test_type
+in
+types
 :
             
 if
