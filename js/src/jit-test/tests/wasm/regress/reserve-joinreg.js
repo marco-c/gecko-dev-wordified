@@ -67,8 +67,10 @@ result
 i64
 )
 (
-loop
+block
 label1
+(
+loop
 label0
 (
 drop
@@ -117,6 +119,7 @@ local
 .
 get
 var0
+)
 )
 )
 )
