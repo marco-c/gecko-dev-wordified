@@ -422,7 +422,10 @@ i32
 )
 (
 loop
+(
+result
 i32
+)
 ;
 ;
 call

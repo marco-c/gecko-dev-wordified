@@ -1083,7 +1083,10 @@ assertJoin
 "
 (
 loop
+(
+result
 anyref
+)
 local
 .
 get
@@ -1101,7 +1104,10 @@ anyref
 (
 loop
 top
+(
+result
 anyref
+)
 local
 .
 get
