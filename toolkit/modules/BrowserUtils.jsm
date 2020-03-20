@@ -3305,9 +3305,11 @@ docShell
 return
 docShell
 .
-sameTypeRootTreeItem
+browsingContext
 .
-domWindow
+top
+.
+window
 ;
 }
 /
