@@ -5851,11 +5851,6 @@ _attach
 ;
 return
 {
-type
-:
-"
-tabAttached
-"
 threadActor
 :
 this
