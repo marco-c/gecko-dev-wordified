@@ -2008,13 +2008,20 @@ Run
 each
 line
 through
-fix_stacks
+a
+function
+in
+fix_stack_using_bpsyms
 .
 py
-using
+(
+uses
 breakpad
+        
+#
 symbol
 files
+)
 .
         
 #
@@ -2023,13 +2030,14 @@ method
 is
 preferred
 for
-automation
+Tinderbox
+builds
 since
 native
-symbols
-may
         
 #
+symbols
+may
 have
 been
 stripped
@@ -2039,8 +2047,9 @@ stack_fixer_module
 =
 import_stack_fixer_module
 (
+            
 '
-fix_stacks
+fix_stack_using_bpsyms
 '
 )
         
@@ -2056,13 +2065,7 @@ stack_fixer_module
 .
 fixSymbols
 (
-                
 line
-slowWarning
-=
-True
-breakpadSymsDir
-=
 symbolsPath
 )
     
