@@ -5687,7 +5687,10 @@ func
 func
 (
 call_indirect
+(
+type
 t
+)
 (
 i32
 .
@@ -5900,7 +5903,10 @@ i32
 )
 (
 call_indirect
+(
+type
 0
+)
 (
 local
 .
@@ -5925,7 +5931,10 @@ i32
 )
 (
 call_indirect
+(
+type
 1
+)
 (
 local
 .
@@ -5948,7 +5957,10 @@ i32
 )
 (
 call_indirect
+(
+type
 2
+)
 (
 i32
 .
@@ -6289,7 +6301,10 @@ func
 bar
 (
 call_indirect
+(
+type
 v2v
+)
 (
 i32
 .

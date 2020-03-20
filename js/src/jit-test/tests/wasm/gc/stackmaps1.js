@@ -475,7 +475,10 @@ indirect
 0
 (
 call_indirect
+(
+type
 typeOfFn0
+)
 (
 i32
 .

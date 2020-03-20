@@ -4364,7 +4364,10 @@ i32
 )
 (
 call_indirect
+(
+type
 0
+)
 (
 i32
 .
@@ -8956,7 +8959,10 @@ i32
 )
 (
 call_indirect
+(
+type
 v2i
+)
 (
 local
 .
