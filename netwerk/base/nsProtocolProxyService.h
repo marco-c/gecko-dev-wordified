@@ -2086,9 +2086,6 @@ mProxyOverTLS
 bool
 mWPADOverDHCPEnabled
 ;
-bool
-mAllowHijackingLocalhost
-;
 RefPtr
 <
 nsPACMan
