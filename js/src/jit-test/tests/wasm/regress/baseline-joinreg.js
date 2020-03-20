@@ -114,7 +114,10 @@ run
 drop
 (
 block
+(
+result
 f64
+)
 (
 drop
 (
