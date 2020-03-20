@@ -2219,6 +2219,13 @@ types
 "
 proposal
 -
+optional
+-
+chaining
+"
+"
+proposal
+-
 class
 -
 properties
