@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 This
 Source
@@ -119,6 +119,13 @@ python
 /
 mozbuild
 "
+"
+testing
+/
+mozbase
+/
+mozfile
+"
 )
 sys
 .
@@ -228,6 +235,10 @@ prettier
         
 if
 filename
+.
+decode
+(
+)
 .
 endswith
 (

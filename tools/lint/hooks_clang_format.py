@@ -6,7 +6,7 @@ usr
 bin
 /
 env
-python
+python3
 #
 This
 Source
@@ -118,6 +118,13 @@ mozversioncontrol
 python
 /
 mozbuild
+"
+"
+testing
+/
+mozbase
+/
+mozfile
 "
 )
 sys
@@ -310,6 +317,10 @@ format
         
 if
 filename
+.
+decode
+(
+)
 .
 endswith
 (
