@@ -338,7 +338,7 @@ lint
 roll
 (
 '
-no_foobar
+foobar
 .
 js
 '
@@ -353,7 +353,7 @@ issues
 )
 =
 =
-0
+1
         
 assert
 len
@@ -372,7 +372,7 @@ result
 returncode
 =
 =
-0
+1
         
 #
 Path
@@ -400,7 +400,7 @@ join
 files
 '
 '
-no_foobar
+foobar
 .
 js
 '
@@ -427,7 +427,7 @@ failed
 )
 =
 =
-3
+0
         
 assert
 result
@@ -435,7 +435,7 @@ result
 returncode
 =
 =
-1
+0
         
 #
 Paths
@@ -465,7 +465,7 @@ join
 files
 '
 '
-no_foobar
+foobar
 .
 js
 '
@@ -493,7 +493,7 @@ issues
 )
 =
 =
-0
+1
         
 assert
 len
@@ -512,7 +512,7 @@ result
 returncode
 =
 =
-0
+1
         
 result
 =
@@ -534,7 +534,7 @@ issues
 )
 =
 =
-0
+1
         
 assert
 len
@@ -553,7 +553,7 @@ result
 returncode
 =
 =
-0
+1
     
 finally
 :
