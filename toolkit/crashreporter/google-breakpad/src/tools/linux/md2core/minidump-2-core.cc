@@ -359,6 +359,13 @@ h
 #
 include
 <
+limits
+.
+h
+>
+#
+include
+<
 link
 .
 h
@@ -510,10 +517,10 @@ h
 "
 #
 if
-__WORDSIZE
+ULONG_MAX
 =
 =
-64
+0xffffffffffffffff
 #
 define
 ELF_CLASS

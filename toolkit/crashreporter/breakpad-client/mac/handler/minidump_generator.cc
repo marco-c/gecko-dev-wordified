@@ -3060,6 +3060,7 @@ AddGPR
 (
 a
 )
+\
 context_ptr
 -
 >
@@ -3068,14 +3069,11 @@ iregs
 a
 ]
 =
-\
-REGISTER_FROM_THREADSTATE
+ARRAY_REGISTER_FROM_THREADSTATE
 (
 machine_state
 x
-[
 a
-]
 )
 context_ptr
 -

@@ -2631,7 +2631,7 @@ cachePolicy
 NSURLRequestUseProtocolCachePolicy
 timeoutInterval
 :
-10
+60
 .
 0
 ]

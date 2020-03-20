@@ -394,6 +394,17 @@ common
 /
 linux
 /
+breakpad_getcontext
+.
+h
+"
+#
+include
+"
+common
+/
+linux
+/
 eintr_wrapper
 .
 h
@@ -1618,7 +1629,7 @@ crash_reason
 string
 crash_reason_str
 ;
-intptr_t
+uintptr_t
 crash_address
 ;
 crash_reason_tokens
@@ -1679,8 +1690,8 @@ crash_reason_str
 ;
 ASSERT_EQ
 (
-0xDEADDEADu
 kCrashAddress
+crash_address
 )
 ;
 did_find_crash_reason

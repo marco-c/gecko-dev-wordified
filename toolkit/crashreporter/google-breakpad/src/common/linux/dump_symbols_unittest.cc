@@ -442,6 +442,10 @@ string
 &
 obj_filename
 const
+string
+&
+obj_os
+const
 std
 :
 :
@@ -697,6 +701,9 @@ header
 "
 foo
 "
+"
+Linux
+"
 vector
 <
 string
@@ -922,6 +929,9 @@ this
 elfdata
 "
 foo
+"
+"
+Linux
 "
 vector
 <
@@ -1286,6 +1296,9 @@ this
 elfdata
 "
 foo
+"
+"
+Linux
 "
 vector
 <

@@ -547,7 +547,7 @@ result
 HTTPUpload
 :
 :
-SendRequest
+SendMultipartPostRequest
 (
 url
 parameters

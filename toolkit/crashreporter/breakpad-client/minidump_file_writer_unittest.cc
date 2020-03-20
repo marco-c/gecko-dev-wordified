@@ -327,7 +327,7 @@ common
 /
 convert_UTF
 .
-c
+cc
 \
 .
 .
