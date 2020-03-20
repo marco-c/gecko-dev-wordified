@@ -4355,7 +4355,7 @@ nasm_version
 '
 2
 .
-13
+14
 '
 :
 die
@@ -4364,7 +4364,7 @@ die
 nasm
 2
 .
-13
+14
 or
 greater
 is
