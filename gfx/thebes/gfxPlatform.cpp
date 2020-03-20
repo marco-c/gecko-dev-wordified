@@ -13984,7 +13984,7 @@ GetRenderingIntent
 {
 /
 /
-StaticPrefs
+StaticPrefList
 .
 yaml
 is

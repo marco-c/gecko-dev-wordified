@@ -1499,7 +1499,7 @@ values
 are
 provided
 in
-StaticPrefs
+StaticPrefList
 .
 yaml
 .
