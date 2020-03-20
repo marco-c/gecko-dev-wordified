@@ -3926,7 +3926,7 @@ if
 win
 )
 {
-return
+throw
 {
 error
 :
@@ -4098,7 +4098,7 @@ this
 attached
 )
 {
-return
+throw
 {
 error
 :
@@ -5925,7 +5925,7 @@ _detach
 )
 )
 {
-return
+throw
 {
 error
 :
