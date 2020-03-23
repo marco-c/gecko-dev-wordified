@@ -1618,11 +1618,11 @@ mStsThread
 )
 ;
 mRtpSourceObserver
--
->
+.
 OnRtpPacket
 (
 aHeader
+aTimestamp
 aJitter
 )
 ;
@@ -1787,6 +1787,9 @@ WebrtcAudioConduit
 :
 GetRtpSources
 (
+const
+int64_t
+aTimeNow
 nsTArray
 <
 dom
@@ -1807,10 +1810,10 @@ NS_IsMainThread
 ;
 return
 mRtpSourceObserver
--
->
+.
 GetRtpSources
 (
+aTimeNow
 outSources
 )
 ;
@@ -1940,7 +1943,6 @@ mozilla
 :
 InsertAudioLevelForContributingSource
 (
-*
 mRtpSourceObserver
 aCsrcSource
 aTimestamp

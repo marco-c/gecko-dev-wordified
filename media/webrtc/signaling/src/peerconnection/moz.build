@@ -278,11 +278,6 @@ PeerConnectionMedia
 cpp
 '
 '
-RTCRtpReceiver
-.
-cpp
-'
-'
 RTCStatsIdGenerator
 .
 cpp
