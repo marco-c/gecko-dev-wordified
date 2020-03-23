@@ -120,7 +120,7 @@ require
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

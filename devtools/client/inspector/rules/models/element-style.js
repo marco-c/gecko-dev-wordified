@@ -240,7 +240,7 @@ isCssVariable
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

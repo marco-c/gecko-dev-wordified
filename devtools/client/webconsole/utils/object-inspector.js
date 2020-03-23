@@ -229,7 +229,7 @@ LongStringFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /
@@ -249,7 +249,7 @@ ObjectFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

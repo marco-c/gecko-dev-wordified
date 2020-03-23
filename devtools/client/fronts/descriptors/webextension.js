@@ -109,7 +109,7 @@ BrowsingContextTargetFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

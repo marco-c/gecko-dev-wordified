@@ -91,7 +91,7 @@ require
 "
 devtools
 /
-shared
+client
 /
 fronts
 /
@@ -113,7 +113,7 @@ require
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

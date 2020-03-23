@@ -1136,7 +1136,7 @@ code
 in
 devtools
 /
-shared
+client
 /
 fronts
 /
