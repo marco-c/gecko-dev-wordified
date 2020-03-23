@@ -11163,17 +11163,6 @@ for
 current
 table
 version
-instanceCount
-=
-=
-0
-|
-|
-/
-/
-no
-instances
-?
 /
 /
 https
