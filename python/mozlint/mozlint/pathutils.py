@@ -2173,6 +2173,20 @@ extensions
 )
 ]
     
+find_dotfiles
+=
+config
+.
+get
+(
+'
+find
+-
+dotfiles
+'
+False
+)
+    
 def
 normalize
 (
@@ -2359,6 +2373,9 @@ path
 ignore
 =
 ignore
+find_dotfiles
+=
+find_dotfiles
 )
         
 _
