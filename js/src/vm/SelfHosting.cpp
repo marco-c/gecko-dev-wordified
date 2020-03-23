@@ -979,16 +979,10 @@ report
 MOZ_ASSERT
 (
 report
-)
-;
-MOZ_ASSERT
-(
-JSREPORT_IS_WARNING
-(
-report
 -
 >
-flags
+isWarning
+(
 )
 )
 ;
@@ -18348,8 +18342,6 @@ return
 MOZ_ASSERT
 (
 !
-JSREPORT_IS_WARNING
-(
 report
 .
 report
@@ -18357,7 +18349,8 @@ report
 )
 -
 >
-flags
+isWarning
+(
 )
 )
 ;
