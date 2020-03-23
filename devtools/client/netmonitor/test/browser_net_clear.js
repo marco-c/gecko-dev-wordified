@@ -168,11 +168,12 @@ in
 the
 list
 let
-onMonitorUpdated
+wait
 =
-waitForAllRequestsFinished
+waitForNetworkEvents
 (
 monitor
+1
 )
 ;
 tab
@@ -184,7 +185,7 @@ reload
 )
 ;
 await
-onMonitorUpdated
+wait
 ;
 assertSingleRequestState
 (
@@ -232,11 +233,12 @@ they
 still
 show
 up
-onMonitorUpdated
+wait
 =
-waitForAllRequestsFinished
+waitForNetworkEvents
 (
 monitor
+1
 )
 ;
 tab
@@ -248,7 +250,7 @@ reload
 )
 ;
 await
-onMonitorUpdated
+wait
 ;
 assertSingleRequestState
 (
