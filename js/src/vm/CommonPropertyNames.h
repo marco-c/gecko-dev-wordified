@@ -1077,15 +1077,6 @@ done
 \
 MACRO
 (
-dotAll
-dotAll
-"
-dotAll
-"
-)
-\
-MACRO
-(
 dotGenerator
 dotGenerator
 "
