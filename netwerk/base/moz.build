@@ -1588,11 +1588,6 @@ DIRS
 '
 mozurl
 '
-'
-rust
--
-helper
-'
 ]
 include
 (
