@@ -62,7 +62,10 @@ i64
 add
 (
 block
+(
+result
 i64
+)
 (
 loop
 label1
