@@ -4385,6 +4385,17 @@ UpdateLogin
 AboutLoginsParent
 "
 ]
+"
+AboutLogins
+:
+VulnerableLogins
+"
+:
+[
+"
+AboutLoginsParent
+"
+]
 ContentSearch
 :
 [
