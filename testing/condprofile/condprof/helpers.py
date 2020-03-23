@@ -78,7 +78,7 @@ fenix
 gecko
 "
 "
-fennec
+firefox
 "
 def
 is_mobile

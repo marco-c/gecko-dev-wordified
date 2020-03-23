@@ -143,7 +143,7 @@ self
 fennec
 =
 "
-fennec
+firefox
 "
 in
 app_name
