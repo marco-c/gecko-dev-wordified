@@ -139,6 +139,17 @@ include
 "
 mozilla
 /
+dom
+/
+PerformanceObserverBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -187,9 +198,6 @@ PerformanceEntry
 ;
 class
 PerformanceObserverCallback
-;
-struct
-PerformanceObserverInit
 ;
 class
 WorkerPrivate

@@ -209,6 +209,15 @@ KeyboardScrollAction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TextEvents
+.
+h
+"
 template
 <
 class

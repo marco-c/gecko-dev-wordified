@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsMathMLChar
+.
+h
+"
+#
+include
+"
 nsMathMLContainerFrame
 .
 h

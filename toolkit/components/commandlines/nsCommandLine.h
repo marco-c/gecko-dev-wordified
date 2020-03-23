@@ -86,6 +86,13 @@ h
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

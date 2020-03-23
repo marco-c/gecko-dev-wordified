@@ -137,6 +137,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLObjectElementBinding
+.
+h
+"
+#
+include
+"
 npapi
 .
 h
@@ -266,9 +277,6 @@ Element
 ;
 class
 Event
-;
-struct
-MozPluginParameter
 ;
 }
 /

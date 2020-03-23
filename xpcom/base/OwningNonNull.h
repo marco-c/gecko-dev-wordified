@@ -597,6 +597,11 @@ OwningNonNull
 {
 public
 :
+using
+element_type
+=
+T
+;
 OwningNonNull
 (
 )
