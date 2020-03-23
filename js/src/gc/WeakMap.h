@@ -2200,6 +2200,16 @@ mallocSizeOf
 )
 ;
 }
+ObjectValueWeakMap
+&
+valueMap
+(
+)
+{
+return
+map
+;
+}
 #
 ifdef
 JSGC_HASH_TABLE_CHECKS

@@ -2548,6 +2548,17 @@ callback
 )
 ;
 bool
+addFinalizationRegistry
+(
+JSContext
+*
+cx
+FinalizationRegistryObject
+*
+registry
+)
+;
+bool
 registerWithFinalizationRegistry
 (
 JSContext
