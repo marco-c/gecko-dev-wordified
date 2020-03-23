@@ -694,7 +694,7 @@ SendMsgCommon
 (
 const
 nsACString
-*
+&
 aMsg
 bool
 isBinary
