@@ -190,9 +190,7 @@ redirection
 "
 :
 "
-no
--
-redirect
+downgrade
 "
 "
 source_context_list
@@ -262,9 +260,7 @@ http
 downgrade
 origin
 and
-no
--
-redirect
+downgrade
 redirection
 from
 https
@@ -296,7 +292,9 @@ redirection
 "
 :
 "
-downgrade
+no
+-
+redirect
 "
 "
 source_context_list
@@ -366,7 +364,9 @@ http
 downgrade
 origin
 and
-downgrade
+no
+-
+redirect
 redirection
 from
 https
