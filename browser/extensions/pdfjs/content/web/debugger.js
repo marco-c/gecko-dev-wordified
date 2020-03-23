@@ -755,7 +755,7 @@ type
 ]
 )
 ;
-var
+const
 fontName
 =
 fontObj
@@ -945,7 +945,7 @@ fontObj
 }
 )
 ;
-var
+const
 select
 =
 document
@@ -984,14 +984,6 @@ addEventListener
 "
 click
 "
-(
-function
-(
-select
-fontName
-)
-{
-return
 function
 (
 )
@@ -1005,13 +997,6 @@ checked
 )
 ;
 }
-;
-}
-)
-(
-select
-fontName
-)
 )
 ;
 font
@@ -3289,7 +3274,7 @@ statsIndex
 false
 )
 {
-var
+const
 b
 =
 stats
