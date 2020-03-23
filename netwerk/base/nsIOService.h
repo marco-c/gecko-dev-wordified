@@ -897,10 +897,6 @@ static
 bool
 UseSocketProcess
 (
-bool
-aCheckAgain
-=
-false
 )
 ;
 bool
@@ -1000,11 +996,6 @@ aPref
 void
 *
 aSelf
-)
-;
-nsresult
-LaunchSocketProcess
-(
 )
 ;
 private
@@ -1279,6 +1270,11 @@ nsIInterfaceRequestor
 aCallbacks
 bool
 aAnonymous
+)
+;
+nsresult
+LaunchSocketProcess
+(
 )
 ;
 void
