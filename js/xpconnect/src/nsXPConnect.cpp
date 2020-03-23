@@ -1846,9 +1846,8 @@ JavaScript
 ;
 if
 (
-JSREPORT_IS_WARNING
+IsWarning
 (
-mFlags
 )
 )
 {
@@ -2025,9 +2024,8 @@ LogToStderr
 MOZ_LOG
 (
 gJSDiagnostics
-JSREPORT_IS_WARNING
+IsWarning
 (
-mFlags
 )
 ?
 LogLevel
@@ -2464,12 +2462,11 @@ Error
 if
 (
 !
-JSREPORT_IS_WARNING
-(
 aReport
 -
 >
-flags
+isWarning
+(
 )
 )
 {
