@@ -74,7 +74,10 @@ export
 "
 run
 "
+(
+func
 run
+)
 )
 )
 -
@@ -138,7 +141,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 43
@@ -334,7 +340,10 @@ export
 "
 run
 "
+(
+func
 get
+)
 )
 )
 13

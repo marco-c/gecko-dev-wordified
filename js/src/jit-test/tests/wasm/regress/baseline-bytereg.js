@@ -235,7 +235,10 @@ export
 "
 run
 "
+(
+func
 run
+)
 )
 )
 )
