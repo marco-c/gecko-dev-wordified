@@ -3669,14 +3669,10 @@ return
 nullptr
 ;
 }
-Rooted
-<
-JSObject
+PlainObject
 *
->
 readResultObj
-(
-cx
+=
 ReadableStreamCreateReadResult
 (
 cx
@@ -3687,7 +3683,6 @@ unwrappedReader
 >
 forAuthorCode
 (
-)
 )
 )
 ;

@@ -6310,7 +6310,7 @@ heldValue
 )
 )
 ;
-JSObject
+PlainObject
 *
 result
 =
@@ -6389,7 +6389,7 @@ undefined
 true
 )
 .
-JSObject
+PlainObject
 *
 result
 =

@@ -12367,7 +12367,7 @@ steps
 -
 2
 .
-JSObject
+PlainObject
 *
 resultObj
 =
@@ -30204,7 +30204,7 @@ value
 true
 )
 .
-JSObject
+PlainObject
 *
 resultObj
 =

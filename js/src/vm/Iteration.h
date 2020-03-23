@@ -171,6 +171,9 @@ namespace
 js
 {
 class
+PlainObject
+;
+class
 PropertyIteratorObject
 ;
 struct
@@ -2684,7 +2687,7 @@ draft
 *
 /
 extern
-JSObject
+PlainObject
 *
 CreateIterResultObject
 (

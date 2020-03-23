@@ -2005,10 +2005,10 @@ closed
 )
 )
 {
-RootedObject
+PlainObject
+*
 iterResult
-(
-cx
+=
 ReadableStreamCreateReadResult
 (
 cx
@@ -2019,7 +2019,6 @@ unwrappedReader
 >
 forAuthorCode
 (
-)
 )
 )
 ;
