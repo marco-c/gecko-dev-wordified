@@ -3483,6 +3483,11 @@ mDontReuse
 =
 true
 ;
+if
+(
+mHttp3Session
+)
+{
 mHttp3Session
 -
 >
@@ -3529,6 +3534,7 @@ frames
 .
 return
 ;
+}
 }
 mHttp3Session
 =
