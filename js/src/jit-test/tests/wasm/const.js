@@ -136,9 +136,9 @@ exports
 )
 Error
 /
-parsing
 wasm
 text
+error
 /
 )
 ;
@@ -745,7 +745,7 @@ testConst
 f32
 '
 '
-infinity
+inf
 '
 Infinity
 )
@@ -757,7 +757,7 @@ f32
 '
 '
 -
-infinity
+inf
 '
 -
 Infinity
@@ -770,7 +770,7 @@ f32
 '
 '
 +
-infinity
+inf
 '
 Infinity
 )
@@ -1216,7 +1216,7 @@ fffffep
 38
 )
 ;
-testConst
+testConstError
 (
 '
 f32
@@ -1228,10 +1228,9 @@ f32
 +
 127
 '
-Infinity
 )
 ;
-testConst
+testConstError
 (
 '
 f32
@@ -1243,7 +1242,6 @@ fffffep
 +
 128
 '
-Infinity
 )
 ;
 testConst
@@ -1407,7 +1405,7 @@ ffffffffffffffffp
 170141183460469231731687303715884105728
 )
 ;
-testConst
+testConstError
 (
 '
 f32
@@ -1419,7 +1417,6 @@ ffffffffffffffffp
 +
 124
 '
-Infinity
 )
 ;
 testConst
@@ -1847,7 +1844,7 @@ f32
 39
 )
 ;
-testConst
+testConstError
 (
 '
 f32
@@ -1859,7 +1856,6 @@ d50b969fbbfb3p
 +
 388
 '
-Infinity
 )
 ;
 testConst
@@ -2139,7 +2135,7 @@ testConst
 f64
 '
 '
-infinity
+inf
 '
 Infinity
 )
@@ -2151,7 +2147,7 @@ f64
 '
 '
 -
-infinity
+inf
 '
 -
 Infinity
@@ -2164,7 +2160,7 @@ f64
 '
 '
 +
-infinity
+inf
 '
 Infinity
 )

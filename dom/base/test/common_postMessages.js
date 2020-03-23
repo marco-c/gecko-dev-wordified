@@ -1089,7 +1089,10 @@ export
 "
 foo
 "
+(
+func
 foo
+)
 )
 )
 )
