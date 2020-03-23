@@ -4613,6 +4613,14 @@ Manually
 monitor
 here
 .
+if
+(
+!
+JitOptions
+.
+warpBuilder
+)
+{
 jsbytecode
 *
 pc
@@ -4641,6 +4649,7 @@ pc
 rval
 )
 ;
+}
 return
 true
 ;
