@@ -2030,7 +2030,7 @@ TextureFilter
 :
 :
 Linear
-16
+4
 )
 /
 /
@@ -5195,8 +5195,8 @@ Metal
 /
 /
 On
-all
-platforms
+other
+platform
 we
 also
 clamp
@@ -5206,8 +5206,6 @@ of
 textures
 per
 layer
-to
-16
 /
 /
 to
@@ -5374,7 +5372,7 @@ max_texture_layers
 .
 min
 (
-16
+32
 )
 ;
 let
