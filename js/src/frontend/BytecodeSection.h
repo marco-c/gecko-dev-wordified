@@ -454,13 +454,7 @@ CompilationInfo
 &
 compilationInfo
 ;
-JS
-:
-:
-Rooted
-<
 ScriptThingsVector
->
 vector
 ;
 /
@@ -847,10 +841,6 @@ std
 move
 (
 vector
-.
-get
-(
-)
 )
 ;
 }
