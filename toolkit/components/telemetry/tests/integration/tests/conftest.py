@@ -1784,9 +1784,9 @@ except
 Exception
 :
             
-exc
-val
-tb
+exc_type
+exc_value
+exc_traceback
 =
 sys
 .
@@ -1796,7 +1796,11 @@ exc_info
             
 reraise
 (
-exc
+                
+exc_type
+                
+exc_type
+(
 "
 Failed
 to
@@ -1812,9 +1816,12 @@ tab
 .
 format
 (
-val
+exc_value
 )
-tb
+)
+                
+exc_traceback
+            
 )
         
 else
