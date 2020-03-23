@@ -1210,8 +1210,9 @@ is
 None
 :
                 
-raise
-TalosError
+LOG
+.
+info
 (
                     
 "
@@ -1224,7 +1225,7 @@ after
 0
 }
 seconds
-terminating
+killing
 "
                     
 "
@@ -1243,6 +1244,35 @@ kill_and_get_minidump
 (
 context
 minidump_dir
+)
+                
+raise
+TalosError
+(
+                    
+"
+Browser
+shutdown
+timed
+out
+after
+{
+0
+}
+seconds
+killed
+"
+                    
+"
+process
+.
+"
+.
+format
+(
+wait_for_quit_timeout
+)
+                
 )
         
 elif
