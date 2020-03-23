@@ -1814,7 +1814,10 @@ i32
 )
 (
 call_indirect
+(
+type
 t
+)
 (
 i32
 .
