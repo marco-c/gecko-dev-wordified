@@ -4066,6 +4066,13 @@ ParsingComplete
 false
 )
 ;
+mScriptLoader
+-
+>
+DeferCheckpointReached
+(
+)
+;
 }
 StartLayout
 (
