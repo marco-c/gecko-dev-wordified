@@ -111,6 +111,7 @@ markup
 const
 {
 TEXT_NODE
+DOCUMENT_NODE
 }
 =
 require
@@ -1058,6 +1059,7 @@ is
 a
 valid
 element
+document
 or
 text
 node
@@ -1102,6 +1104,7 @@ node
 )
 {
 return
+(
 super
 .
 _isNodeValid
@@ -1114,6 +1117,14 @@ isNodeValid
 (
 node
 TEXT_NODE
+)
+|
+|
+isNodeValid
+(
+node
+DOCUMENT_NODE
+)
 )
 ;
 }
