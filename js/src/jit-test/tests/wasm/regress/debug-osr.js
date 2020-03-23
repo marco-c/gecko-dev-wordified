@@ -82,12 +82,15 @@ wasmEvalText
 module
 (
 import
-imp
 "
 "
 "
 inc
 "
+(
+func
+imp
+)
 )
 (
 func
