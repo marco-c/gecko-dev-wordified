@@ -92,6 +92,11 @@ await
 initNetMonitor
 (
 IMAGE_TOOLTIP_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

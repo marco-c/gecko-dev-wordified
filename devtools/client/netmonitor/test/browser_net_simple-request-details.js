@@ -88,6 +88,11 @@ await
 initNetMonitor
 (
 SIMPLE_SJS
+{
+requestCount
+:
+1
+}
 )
 ;
 info

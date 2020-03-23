@@ -80,6 +80,11 @@ await
 initNetMonitor
 (
 CSP_RESEND_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 const

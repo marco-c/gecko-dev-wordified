@@ -112,6 +112,11 @@ await
 initNetMonitor
 (
 WS_PAGE_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

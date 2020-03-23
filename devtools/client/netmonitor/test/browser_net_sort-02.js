@@ -87,6 +87,11 @@ await
 initNetMonitor
 (
 SORTING_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

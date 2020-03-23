@@ -104,6 +104,11 @@ await
 initNetMonitor
 (
 POST_RAW_WITH_HEADERS_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

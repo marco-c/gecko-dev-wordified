@@ -75,6 +75,11 @@ await
 initNetMonitor
 (
 CYRILLIC_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

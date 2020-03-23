@@ -88,6 +88,11 @@ await
 initNetMonitor
 (
 CUSTOM_GET_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

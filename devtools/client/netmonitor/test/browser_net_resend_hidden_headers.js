@@ -72,6 +72,11 @@ await
 initNetMonitor
 (
 SIMPLE_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

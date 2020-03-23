@@ -79,6 +79,11 @@ await
 initNetMonitor
 (
 CURL_UTILS_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

@@ -159,6 +159,11 @@ await
 initNetMonitor
 (
 EXAMPLE_COM_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 await

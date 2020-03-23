@@ -66,6 +66,11 @@ await
 initNetMonitor
 (
 SIMPLE_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 const
@@ -1514,6 +1519,11 @@ await
 restartNetMonitor
 (
 monitor
+{
+requestCount
+:
+1
+}
 )
 ;
 monitor

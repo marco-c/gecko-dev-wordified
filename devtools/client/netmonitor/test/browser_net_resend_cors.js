@@ -81,6 +81,11 @@ await
 initNetMonitor
 (
 CORS_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

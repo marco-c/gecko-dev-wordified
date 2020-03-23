@@ -327,6 +327,11 @@ await
 initNetMonitor
 (
 FILTERING_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

@@ -73,6 +73,11 @@ await
 initNetMonitor
 (
 API_CALLS_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

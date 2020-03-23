@@ -109,7 +109,14 @@ await
 initNetMonitor
 (
 TEST_URL
+{
+enableCache
+:
 true
+requestCount
+:
+1
+}
 )
 ;
 info

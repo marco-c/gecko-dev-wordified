@@ -62,6 +62,11 @@ await
 initNetMonitor
 (
 SEND_BEACON_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 const

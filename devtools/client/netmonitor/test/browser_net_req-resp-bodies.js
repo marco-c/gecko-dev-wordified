@@ -91,6 +91,11 @@ await
 initNetMonitor
 (
 JSON_LONG_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

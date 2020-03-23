@@ -70,6 +70,11 @@ await
 initNetMonitor
 (
 PARAMS_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

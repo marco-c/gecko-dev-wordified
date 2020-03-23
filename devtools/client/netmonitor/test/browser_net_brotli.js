@@ -107,6 +107,11 @@ await
 initNetMonitor
 (
 BROTLI_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

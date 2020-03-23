@@ -68,6 +68,11 @@ await
 initNetMonitor
 (
 POST_RAW_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info
