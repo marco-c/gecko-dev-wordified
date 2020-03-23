@@ -273,7 +273,7 @@ template
 <
 >
 struct
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 mozilla
 :
@@ -285,7 +285,7 @@ AnimationImageKeyData
 >
 {
 typedef
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 mozilla
 :

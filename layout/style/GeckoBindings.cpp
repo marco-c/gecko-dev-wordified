@@ -6882,7 +6882,7 @@ reinterpret_cast
 nsTArray_base
 <
 nsTArrayInfallibleAllocator
-nsTArray_CopyWithMemutils
+nsTArray_RelocateUsingMemutils
 >
 *
 >
@@ -6923,7 +6923,7 @@ reinterpret_cast
 nsTArray_base
 <
 nsTArrayInfallibleAllocator
-nsTArray_CopyWithMemutils
+nsTArray_RelocateUsingMemutils
 >
 *
 >

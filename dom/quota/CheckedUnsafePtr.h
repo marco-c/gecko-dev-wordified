@@ -2241,7 +2241,7 @@ typename
 T
 >
 struct
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 mozilla
 :
@@ -2276,7 +2276,7 @@ CheckingSupport
 :
 :
 Enabled
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 mozilla
 :
@@ -2286,7 +2286,7 @@ CheckedUnsafePtr
 T
 >
 >
-nsTArray_CopyWithMemutils
+nsTArray_RelocateUsingMemutils
 >
 ;
 }

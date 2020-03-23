@@ -169,11 +169,11 @@ but
 that
 prevented
 the
-DECLARE_USE_COPY_CONSTRUCTORS
+MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
+/
+/
 that
 is
-/
-/
 needed
 on
 the
@@ -409,7 +409,7 @@ plugins
 /
 namespace
 mozilla
-DECLARE_USE_COPY_CONSTRUCTORS
+MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (
 mozilla
 :
