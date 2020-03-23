@@ -1574,6 +1574,7 @@ nsIContent
 HasIndependentSelection
 (
 )
+const
 {
 nsIFrame
 *

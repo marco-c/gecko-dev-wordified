@@ -4489,6 +4489,7 @@ bool
 HasIndependentSelection
 (
 )
+const
 ;
 /
 *
