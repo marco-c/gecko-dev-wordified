@@ -24942,7 +24942,7 @@ GetContent
 )
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 )

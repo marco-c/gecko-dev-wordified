@@ -1834,7 +1834,7 @@ if
 aNode
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 )
@@ -4375,7 +4375,7 @@ if
 container
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 &
@@ -4661,7 +4661,7 @@ if
 container
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 &
@@ -5138,7 +5138,7 @@ if
 container
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 &

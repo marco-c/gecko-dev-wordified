@@ -9491,7 +9491,7 @@ returned
 *
 /
 bool
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 const

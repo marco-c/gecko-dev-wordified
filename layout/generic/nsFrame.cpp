@@ -33325,7 +33325,7 @@ GetContent
 )
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 )
@@ -58960,7 +58960,7 @@ GetContent
 )
 -
 >
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 "
