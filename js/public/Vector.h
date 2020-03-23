@@ -125,6 +125,11 @@ h
 "
 #
 include
+<
+type_traits
+>
+#
+include
 "
 js
 /
@@ -215,11 +220,10 @@ instead
 .
 typename
 =
-typename
-mozilla
+std
 :
 :
-EnableIf
+enable_if_t
 <
 !
 detail
@@ -233,9 +237,6 @@ T
 :
 value
 >
-:
-:
-Type
 >
 using
 Vector
