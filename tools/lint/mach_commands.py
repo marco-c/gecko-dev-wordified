@@ -464,12 +464,16 @@ root
 ]
 )
         
-cli
+lintargs
+[
+'
+config_paths
+'
+]
 .
-SEARCH_PATHS
-.
-append
+insert
 (
+0
 here
 )
         
