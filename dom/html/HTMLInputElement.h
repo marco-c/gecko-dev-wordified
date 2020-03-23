@@ -6753,6 +6753,14 @@ bool
 aNotify
 )
 ;
+enum
+class
+ForValueGetter
+{
+No
+Yes
+}
+;
 /
 *
 *
@@ -6807,6 +6815,12 @@ SanitizeValue
 nsAString
 &
 aValue
+ForValueGetter
+=
+ForValueGetter
+:
+:
+No
 )
 ;
 /
