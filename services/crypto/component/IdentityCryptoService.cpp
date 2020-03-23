@@ -640,8 +640,6 @@ mSignature
 /
 /
 out
-private
-:
 SignRunnable
 (
 const
