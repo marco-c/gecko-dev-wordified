@@ -121,6 +121,11 @@ h
 "
 #
 include
+<
+type_traits
+>
+#
+include
 "
 gc
 /
@@ -5249,10 +5254,10 @@ trc
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsConvertible
+is_convertible_v
 <
 BaseScript
 *
@@ -5262,9 +5267,6 @@ gc
 TenuredCell
 *
 >
-:
-:
-value
 "
 BaseScript
 must
