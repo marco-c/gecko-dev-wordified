@@ -215,7 +215,7 @@ ObjectFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

@@ -233,7 +233,7 @@ device
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

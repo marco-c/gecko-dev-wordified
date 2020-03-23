@@ -125,7 +125,7 @@ ObjectFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -145,7 +145,7 @@ FrameFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -164,7 +164,7 @@ SourceFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

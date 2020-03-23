@@ -118,7 +118,7 @@ RuleRewriter
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

@@ -1073,7 +1073,7 @@ object
 see
 devtools
 /
-client
+shared
 /
 fronts
 /

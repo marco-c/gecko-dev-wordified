@@ -2587,7 +2587,7 @@ on
 *
 devtools
 /
-client
+shared
 /
 fronts
 /

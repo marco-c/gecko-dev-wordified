@@ -168,7 +168,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -201,7 +201,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -240,7 +240,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -280,7 +280,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -313,7 +313,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -346,7 +346,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -379,7 +379,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -414,7 +414,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -449,7 +449,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -484,7 +484,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -519,7 +519,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -554,7 +554,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -587,7 +587,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -618,7 +618,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -649,7 +649,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -680,7 +680,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -754,7 +754,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -785,7 +785,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -822,7 +822,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -853,7 +853,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -884,7 +884,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -986,7 +986,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1045,7 +1045,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1076,7 +1076,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1111,7 +1111,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1144,7 +1144,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1177,7 +1177,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1210,7 +1210,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1241,7 +1241,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1272,7 +1272,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1303,7 +1303,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1334,7 +1334,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1380,7 +1380,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1451,7 +1451,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1485,7 +1485,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1522,7 +1522,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1578,7 +1578,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1615,7 +1615,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1783,7 +1783,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1816,7 +1816,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1847,7 +1847,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1878,7 +1878,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1909,7 +1909,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1944,7 +1944,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -1983,7 +1983,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
@@ -2024,7 +2024,7 @@ front
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

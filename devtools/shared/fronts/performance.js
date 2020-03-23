@@ -100,7 +100,7 @@ require
 "
 devtools
 /
-client
+shared
 /
 fronts
 /
