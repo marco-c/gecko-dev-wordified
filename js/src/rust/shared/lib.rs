@@ -166,3 +166,7 @@ extern
 crate
 smoosh
 ;
+extern
+crate
+wasm_rust
+;
