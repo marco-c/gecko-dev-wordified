@@ -1029,7 +1029,7 @@ int
 dir
 )
 {
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 c_dst_mem
@@ -1038,7 +1038,7 @@ c_dst_mem
 16
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 a_dst_mem

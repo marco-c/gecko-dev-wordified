@@ -395,7 +395,7 @@ const
 int
 x
 const
-int
+uint64_t
 shift
 )
 {

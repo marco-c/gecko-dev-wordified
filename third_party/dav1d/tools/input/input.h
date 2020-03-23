@@ -261,12 +261,6 @@ struct
 DemuxerContext
 DemuxerContext
 ;
-void
-init_demuxers
-(
-void
-)
-;
 int
 input_open
 (

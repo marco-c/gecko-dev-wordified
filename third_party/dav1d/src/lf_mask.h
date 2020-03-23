@@ -575,6 +575,9 @@ skip_inter
 enum
 BlockSize
 bs
+enum
+RectTxfmSize
+max_ytx
 const
 uint16_t
 *

@@ -261,12 +261,6 @@ struct
 MuxerContext
 MuxerContext
 ;
-void
-init_muxers
-(
-void
-)
-;
 int
 output_open
 (
