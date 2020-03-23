@@ -52,6 +52,9 @@ global
 "
 func
 "
+(
+func
+)
 )
 (
 func
