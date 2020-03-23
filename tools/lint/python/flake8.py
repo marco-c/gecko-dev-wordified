@@ -687,6 +687,26 @@ Application
 (
 )
     
+log
+.
+debug
+(
+"
+flake8
+version
+=
+{
+}
+"
+.
+format
+(
+app
+.
+version
+)
+)
+    
 output_file
 =
 mozfile
