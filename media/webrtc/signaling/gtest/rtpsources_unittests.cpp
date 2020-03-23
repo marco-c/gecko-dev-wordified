@@ -1736,12 +1736,6 @@ csrc
 ;
 constexpr
 int64_t
-timestamp
-=
-10000
-;
-constexpr
-int64_t
 jitter
 =
 0
@@ -1772,7 +1766,6 @@ observer
 OnRtpPacket
 (
 header
-timestamp
 jitter
 )
 ;
@@ -1980,12 +1973,6 @@ csrc1
 ;
 constexpr
 int64_t
-timestamp
-=
-10000
-;
-constexpr
-int64_t
 jitter
 =
 0
@@ -2025,7 +2012,6 @@ observer
 OnRtpPacket
 (
 header
-timestamp
 jitter
 )
 ;

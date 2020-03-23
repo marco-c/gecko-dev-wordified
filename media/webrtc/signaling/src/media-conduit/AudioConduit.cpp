@@ -1618,11 +1618,11 @@ mStsThread
 )
 ;
 mRtpSourceObserver
-.
+-
+>
 OnRtpPacket
 (
 aHeader
-aTimestamp
 aJitter
 )
 ;
@@ -1807,7 +1807,8 @@ NS_IsMainThread
 ;
 return
 mRtpSourceObserver
-.
+-
+>
 GetRtpSources
 (
 outSources
@@ -1939,6 +1940,7 @@ mozilla
 :
 InsertAudioLevelForContributingSource
 (
+*
 mRtpSourceObserver
 aCsrcSource
 aTimestamp
