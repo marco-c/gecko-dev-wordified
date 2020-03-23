@@ -373,12 +373,6 @@ using
 mozilla
 :
 :
-NumberIsInt32
-;
-using
-mozilla
-:
-:
 PositiveInfinity
 ;
 using

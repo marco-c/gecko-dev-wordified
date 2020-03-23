@@ -175,12 +175,6 @@ namespace
 mozilla
 {
 using
-base
-:
-:
-Thread
-;
-using
 namespace
 ipc
 ;

@@ -250,12 +250,6 @@ namespace
 mozilla
 {
 using
-base
-:
-:
-Thread
-;
-using
 dom
 :
 :

@@ -204,12 +204,6 @@ mozilla
 :
 TimeDuration
 ;
-using
-mozilla
-:
-:
-TimeStamp
-;
 static
 const
 long

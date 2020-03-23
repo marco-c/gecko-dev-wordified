@@ -972,15 +972,6 @@ mozilla
 gl
 :
 :
-GLContext
-;
-using
-mozilla
-:
-:
-gl
-:
-:
 GLContextGLX
 ;
 /

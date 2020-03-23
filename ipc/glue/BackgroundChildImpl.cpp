@@ -789,15 +789,6 @@ mozilla
 dom
 :
 :
-LocalStorage
-;
-using
-mozilla
-:
-:
-dom
-:
-:
 PServiceWorkerChild
 ;
 using

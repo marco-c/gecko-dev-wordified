@@ -206,12 +206,6 @@ mozilla
 :
 ToMaybe
 ;
-using
-mozilla
-:
-:
-UniquePtr
-;
 #
 define
 RUN_TEST

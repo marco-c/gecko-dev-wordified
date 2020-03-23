@@ -164,12 +164,6 @@ mozilla
 namespace
 devtools
 {
-using
-ipc
-:
-:
-FileDescriptor
-;
 static
 bool
 openFileFailure

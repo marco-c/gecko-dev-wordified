@@ -887,12 +887,6 @@ using
 namespace
 mozilla
 ;
-using
-base
-:
-:
-Thread
-;
 /
 /
 Async
