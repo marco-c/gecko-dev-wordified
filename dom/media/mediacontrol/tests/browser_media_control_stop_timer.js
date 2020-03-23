@@ -39,9 +39,6 @@ from
 .
 .
 /
-.
-.
-/
 toolkit
 /
 components
@@ -451,9 +448,6 @@ PIP
 mode
 )
 ;
-let
-pipWin
-=
 await
 triggerPictureInPicture
 (
