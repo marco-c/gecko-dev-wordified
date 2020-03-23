@@ -24910,11 +24910,6 @@ cause
 "
 \
 "
-initiator
-\
-"
-\
-"
 type
 \
 "

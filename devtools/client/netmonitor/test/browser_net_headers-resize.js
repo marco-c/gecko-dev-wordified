@@ -685,9 +685,6 @@ file
 cause
 "
 "
-initiator
-"
-"
 type
 "
 "
