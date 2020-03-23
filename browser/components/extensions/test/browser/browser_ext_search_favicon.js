@@ -362,14 +362,6 @@ net
 favicon_url
 :
 "
-moz
--
-extension
-:
-/
-/
-invalid
-/
 iDoNotExist
 .
 png
