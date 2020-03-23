@@ -524,6 +524,11 @@ FocusDeactivate
 (
 )
 ;
+void
+SetWillChangeProcess
+(
+)
+;
 static
 already_AddRefed
 <
@@ -718,6 +723,9 @@ mContentType
 ;
 bool
 mShouldEnableHistory
+;
+bool
+mWillChangeProcess
 ;
 nativeWindow
 mParentNativeWindow
