@@ -318,7 +318,7 @@ TYPE_INTERNAL_AUDIO
 *
 audioworklet
 |
-TODO
+TYPE_INTERNAL_AUDIOWORKLET
 *
 document
 |
@@ -357,7 +357,7 @@ TYPE_OBJECT
 paintworklet
 "
 |
-TODO
+TYPE_INTERNAL_PAINTWORKLET
 *
 report
 "
