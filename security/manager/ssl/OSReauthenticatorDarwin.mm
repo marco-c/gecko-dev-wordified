@@ -154,7 +154,7 @@ nsresult
 ReauthenticateUserMacOS
 (
 const
-nsACString
+nsAString
 &
 aPrompt
 /
@@ -242,10 +242,7 @@ nsCocoaUtils
 :
 ToNSString
 (
-NS_ConvertUTF8toUTF16
-(
 aPrompt
-)
 )
 ;
 dispatch_semaphore_t

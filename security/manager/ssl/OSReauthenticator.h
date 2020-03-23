@@ -171,7 +171,7 @@ nsresult
 ReauthenticateUserMacOS
 (
 const
-nsACString
+nsAString
 &
 aPrompt
 /

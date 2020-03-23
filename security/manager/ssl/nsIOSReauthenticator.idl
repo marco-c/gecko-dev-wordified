@@ -384,10 +384,10 @@ Promise
 asyncReauthenticateUser
 (
 in
-ACString
+AString
 prompt
 in
-ACString
+AString
 caption
 in
 mozIDOMWindow
