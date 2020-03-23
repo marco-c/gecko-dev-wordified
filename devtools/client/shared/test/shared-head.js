@@ -993,10 +993,11 @@ unload
 {
 Services
 .
-prefs
+obs
 .
 removeObserver
 (
+actorRegistryObserver
 "
 devtools
 -
@@ -1004,7 +1005,6 @@ server
 -
 initialized
 "
-actorRegistryObserver
 )
 ;
 Services
