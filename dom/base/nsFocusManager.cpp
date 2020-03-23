@@ -2994,6 +2994,7 @@ window
 aStartElement
 aType
 noParentTraversal
+true
 getter_AddRefs
 (
 newFocus
@@ -19552,6 +19553,8 @@ int32_t
 aType
 bool
 aNoParentTraversal
+bool
+aNavigateByKey
 nsIContent
 *
 *
@@ -20114,10 +20117,12 @@ if
 !
 aStartContent
 )
+{
 startContent
 =
 rootContent
 ;
+}
 return
 GetNextTabbableContent
 (
@@ -20129,6 +20134,7 @@ true
 1
 false
 false
+aNavigateByKey
 aNextContent
 )
 ;
@@ -20146,10 +20152,12 @@ if
 !
 aStartContent
 )
+{
 startContent
 =
 rootContent
 ;
+}
 return
 GetNextTabbableContent
 (
@@ -20161,6 +20169,7 @@ false
 0
 false
 false
+aNavigateByKey
 aNextContent
 )
 ;
@@ -21501,6 +21510,7 @@ forward
 tabIndex
 ignoreTabIndex
 forDocumentNavigation
+aNavigateByKey
 getter_AddRefs
 (
 nextFocus
@@ -22105,6 +22115,11 @@ node
 }
 else
 {
+if
+(
+aNavigateByKey
+)
+{
 /
 /
 There
@@ -22214,6 +22229,7 @@ nullptr
 return
 NS_OK
 ;
+}
 }
 /
 /
@@ -23391,6 +23407,8 @@ aIgnoreTabIndex
 bool
 aForDocumentNavigation
 bool
+aNavigateByKey
+bool
 aSkipOwner
 )
 {
@@ -23826,6 +23844,7 @@ iterContent
 aOriginalStartContent
 aForward
 aForDocumentNavigation
+aNavigateByKey
 getter_AddRefs
 (
 elementInFrame
@@ -23872,6 +23891,7 @@ aForward
 0
 aIgnoreTabIndex
 aForDocumentNavigation
+aNavigateByKey
 false
 /
 *
@@ -24099,6 +24119,8 @@ bool
 aIgnoreTabIndex
 bool
 aForDocumentNavigation
+bool
+aNavigateByKey
 )
 {
 MOZ_ASSERT
@@ -24232,6 +24254,7 @@ aForward
 tabIndex
 aIgnoreTabIndex
 aForDocumentNavigation
+aNavigateByKey
 false
 /
 *
@@ -24433,6 +24456,8 @@ bool
 aIgnoreTabIndex
 bool
 aForDocumentNavigation
+bool
+aNavigateByKey
 nsIContent
 *
 *
@@ -24542,6 +24567,7 @@ aForward
 0
 aIgnoreTabIndex
 aForDocumentNavigation
+aNavigateByKey
 true
 /
 *
@@ -24614,6 +24640,7 @@ aForward
 aCurrentTabIndex
 aIgnoreTabIndex
 aForDocumentNavigation
+aNavigateByKey
 )
 ;
 if
@@ -24927,6 +24954,7 @@ aForward
 0
 aIgnoreTabIndex
 aForDocumentNavigation
+aNavigateByKey
 true
 /
 *
@@ -25710,6 +25738,7 @@ true
 1
 false
 false
+aNavigateByKey
 aResultContent
 )
 ;
@@ -25914,6 +25943,7 @@ aForward
 0
 aIgnoreTabIndex
 aForDocumentNavigation
+aNavigateByKey
 true
 /
 *
@@ -26473,6 +26503,11 @@ if
 remote
 )
 {
+if
+(
+aNavigateByKey
+)
+{
 remote
 -
 >
@@ -26484,6 +26519,10 @@ aForDocumentNavigation
 ;
 return
 NS_SUCCESS_DOM_NO_OPERATION
+;
+}
+return
+NS_OK
 ;
 }
 /
@@ -26516,6 +26555,11 @@ if
 bbc
 )
 {
+if
+(
+aNavigateByKey
+)
+{
 bbc
 -
 >
@@ -26527,6 +26571,10 @@ aForDocumentNavigation
 ;
 return
 NS_SUCCESS_DOM_NO_OPERATION
+;
+}
+return
+NS_OK
 ;
 }
 /
@@ -26613,6 +26661,7 @@ currentContent
 aOriginalStartContent
 aForward
 aForDocumentNavigation
+aNavigateByKey
 aResultContent
 )
 )
@@ -27406,6 +27455,8 @@ bool
 aForward
 bool
 aForDocumentNavigation
+bool
+aNavigateByKey
 nsIContent
 *
 *
@@ -27582,6 +27633,7 @@ aForward
 )
 false
 aForDocumentNavigation
+aNavigateByKey
 aResultContent
 )
 ;
@@ -28577,6 +28629,7 @@ true
 1
 false
 false
+true
 aNextContent
 )
 ;
