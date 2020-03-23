@@ -959,9 +959,8 @@ ipc
 IPCResult
 RecvSpeculativeConnect
 (
-const
-URIParams
-&
+nsIURI
+*
 aURI
 nsIPrincipal
 *
@@ -1377,9 +1376,8 @@ ipc
 IPCResult
 RecvGetExtensionStream
 (
-const
-URIParams
-&
+nsIURI
+*
 aURI
 GetExtensionStreamResolver
 &
@@ -1396,9 +1394,8 @@ ipc
 IPCResult
 RecvGetExtensionFD
 (
-const
-URIParams
-&
+nsIURI
+*
 aURI
 GetExtensionFDResolver
 &

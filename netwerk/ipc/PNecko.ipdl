@@ -228,9 +228,6 @@ include
 IPCStream
 ;
 include
-URIParams
-;
-include
 NeckoChannelParams
 ;
 include
@@ -628,7 +625,7 @@ PredReset
 async
 SpeculativeConnect
 (
-URIParams
+nsIURI
 uri
 nsIPrincipal
 principal
@@ -881,7 +878,7 @@ loading
 async
 GetExtensionStream
 (
-URIParams
+nsIURI
 uri
 )
 returns
@@ -893,7 +890,7 @@ stream
 async
 GetExtensionFD
 (
-URIParams
+nsIURI
 uri
 )
 returns
