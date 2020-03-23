@@ -112,6 +112,16 @@ XPIDL_SOURCES
 =
 [
 '
+nsIContentChild
+.
+idl
+'
+'
+nsIContentParent
+.
+idl
+'
+'
 nsIHangReport
 .
 idl
