@@ -45,6 +45,12 @@ true
 }
 )
 ;
+if
+(
+!
+isContent
+)
+{
 let
 {
 ww
@@ -62,6 +68,7 @@ ww
 .
 activeWindow
 ;
+}
 /
 /
 The
@@ -485,6 +492,10 @@ else
 if
 (
 !
+isContent
+&
+&
+!
 item
 .
 startsWith
@@ -517,6 +528,10 @@ item
 ;
 if
 (
+!
+isContent
+&
+&
 !
 resisting
 )
