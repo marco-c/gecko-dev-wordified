@@ -1555,6 +1555,13 @@ onShapeEdge
 \
 n
 "
+"
+race
+:
+fixupShapeTreeAfterMovingGC
+\
+n
+"
 /
 /
 Bug
