@@ -221,9 +221,7 @@ skin
 /
 extensions
 /
-extensionGeneric
--
-16
+extension
 .
 svg
 "
