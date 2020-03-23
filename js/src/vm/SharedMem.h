@@ -470,10 +470,10 @@ mozilla
 :
 Conditional
 <
-mozilla
+std
 :
 :
-IsVoid
+is_void_v
 <
 std
 :
@@ -483,9 +483,6 @@ remove_pointer_t
 U
 >
 >
-:
-:
-value
 char
 std
 :
@@ -733,10 +730,10 @@ mozilla
 :
 Conditional
 <
-mozilla
+std
 :
 :
-IsVoid
+is_void_v
 <
 std
 :
@@ -746,9 +743,6 @@ remove_pointer_t
 T
 >
 >
-:
-:
-value
 char
 std
 :
