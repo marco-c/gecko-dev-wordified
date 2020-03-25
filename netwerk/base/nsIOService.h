@@ -1455,10 +1455,6 @@ mRestrictedPortList
 ;
 static
 bool
-sIsDataURIUniqueOpaqueOrigin
-;
-static
-bool
 sBlockToplevelDataUriNavigations
 ;
 uint32_t
