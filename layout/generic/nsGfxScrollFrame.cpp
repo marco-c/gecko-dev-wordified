@@ -28525,7 +28525,7 @@ GetDisplayPort
 content
 &
 displayPort
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollFrame
@@ -29265,7 +29265,7 @@ GetContent
 )
 &
 displayPort
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollFrame

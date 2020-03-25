@@ -642,7 +642,7 @@ For
 GetDisplayPort
 enum
 class
-RelativeTo
+DisplayportRelativeTo
 {
 ScrollPort
 ScrollFrame
@@ -1264,10 +1264,10 @@ aContent
 nsRect
 *
 aResult
-RelativeTo
+DisplayportRelativeTo
 aRelativeTo
 =
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollPort
@@ -1626,10 +1626,10 @@ aContent
 nsRect
 *
 aResult
-RelativeTo
+DisplayportRelativeTo
 aRelativeTo
 =
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollPort
