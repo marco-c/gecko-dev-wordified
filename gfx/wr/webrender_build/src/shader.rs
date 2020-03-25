@@ -153,6 +153,16 @@ hash_map
 :
 DefaultHasher
 ;
+pub
+use
+crate
+:
+:
+shader_features
+:
+:
+*
+;
 #
 [
 derive

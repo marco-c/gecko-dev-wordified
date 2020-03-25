@@ -58,6 +58,14 @@ MPL
 /
 #
 [
+macro_use
+]
+extern
+crate
+bitflags
+;
+#
+[
 cfg
 (
 any
@@ -81,4 +89,7 @@ serde
 pub
 mod
 shader
+;
+mod
+shader_features
 ;
