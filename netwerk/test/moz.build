@@ -169,6 +169,17 @@ TestUDPSocket
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+netwerk
+/
+cookie
+'
+]
 if
 CONFIG
 [
