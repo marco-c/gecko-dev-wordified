@@ -6845,6 +6845,7 @@ aAGR
 nsRect
 &
 aOverflow
+const
 nsIFrame
 *
 aStopAtFrame
@@ -7155,6 +7156,7 @@ function
 for
 this
 .
+const
 nsIFrame
 *
 ancestor
