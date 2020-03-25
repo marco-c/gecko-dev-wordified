@@ -511,11 +511,11 @@ expression
 {
 selectedThreadFront
 frameActor
-selectedNodeFront
+selectedNodeActor
 :
 webConsoleUI
 .
-getSelectedNodeFront
+getSelectedNodeActor
 (
 )
 mapped
@@ -1375,11 +1375,11 @@ expression
 {
 frameActor
 selectedThreadFront
-selectedNodeFront
+selectedNodeActor
 :
 webConsoleUI
 .
-getSelectedNodeFront
+getSelectedNodeActor
 (
 )
 mapped
