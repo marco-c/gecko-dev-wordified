@@ -2128,8 +2128,6 @@ int
 start_reg
 bool
 read_backward
-bool
-unicode
 Label
 *
 on_no_match
@@ -2144,8 +2142,6 @@ register
 =
 %
 d
-%
-s
 %
 s
 label
@@ -2168,17 +2164,6 @@ backward
 "
 forward
 "
-unicode
-?
-"
-unicode
-"
-:
-"
-non
--
-unicode
-"
 LabelToInt
 (
 on_no_match
@@ -2192,7 +2177,6 @@ CheckNotBackReferenceIgnoreCase
 (
 start_reg
 read_backward
-unicode
 on_no_match
 )
 ;

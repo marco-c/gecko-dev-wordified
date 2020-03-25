@@ -3087,12 +3087,6 @@ argument_mapping_
 nullptr
 )
 ;
-DCHECK_GE
-(
-index
-0
-)
-;
 DCHECK_LT
 (
 index
