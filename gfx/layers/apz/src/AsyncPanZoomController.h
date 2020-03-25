@@ -1305,11 +1305,6 @@ aInputQueue
 GeckoContentController
 *
 aController
-wr
-:
-:
-RenderRoot
-aRenderRoot
 GestureBehavior
 aGestures
 =

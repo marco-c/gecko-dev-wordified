@@ -1865,11 +1865,6 @@ aLayersId
 GeckoContentController
 *
 aController
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 override
 ;
@@ -1916,11 +1911,6 @@ aMcc
 TestAPZCTreeManager
 *
 aTreeManager
-wr
-:
-:
-RenderRoot
-aRenderRoot
 GestureBehavior
 aBehavior
 =
@@ -1938,7 +1928,6 @@ GetInputQueue
 (
 )
 aMcc
-aRenderRoot
 aBehavior
 )
 mWaitForMainThread
@@ -5841,11 +5830,6 @@ aLayersId
 GeckoContentController
 *
 aController
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 MockContentControllerDelayed
@@ -5868,7 +5852,6 @@ TestAsyncPanZoomController
 aLayersId
 mcc
 this
-aRenderRoot
 AsyncPanZoomController
 :
 :
