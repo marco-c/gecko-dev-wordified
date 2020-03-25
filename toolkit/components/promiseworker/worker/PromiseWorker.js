@@ -692,6 +692,7 @@ message
 .
 *
 /
+async
 handleMessage
 (
 msg
@@ -832,6 +833,7 @@ method
 ;
 result
 =
+await
 this
 .
 dispatch
