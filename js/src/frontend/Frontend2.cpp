@@ -1754,6 +1754,16 @@ result_
 }
 ;
 void
+InitSmoosh
+(
+)
+{
+init_smoosh
+(
+)
+;
+}
+void
 ReportSmooshCompileError
 (
 JSContext

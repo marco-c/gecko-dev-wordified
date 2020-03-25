@@ -64894,6 +64894,16 @@ setTrySmoosh
 true
 )
 ;
+js
+:
+:
+frontend
+:
+:
+InitSmoosh
+(
+)
+;
 }
 if
 (

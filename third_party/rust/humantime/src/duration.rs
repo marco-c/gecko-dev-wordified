@@ -481,6 +481,7 @@ Duration
 derive
 (
 Debug
+Clone
 )
 ]
 pub
