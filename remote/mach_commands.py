@@ -2589,10 +2589,6 @@ params
 write_results
 "
 ]
-and
-output_handler
-.
-has_unexpected
 :
             
 with
