@@ -191,6 +191,9 @@ TestFastBernoulliTrial
 TestFloatingPoint
 '
 '
+TestFunctionRef
+'
+'
 TestFunctionTypeTraits
 '
 '

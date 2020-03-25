@@ -302,6 +302,11 @@ FStream
 h
 '
 '
+FunctionRef
+.
+h
+'
+'
 FunctionTypeTraits
 .
 h
