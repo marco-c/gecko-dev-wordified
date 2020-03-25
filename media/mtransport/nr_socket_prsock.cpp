@@ -5185,6 +5185,16 @@ mCondition
 =
 NS_BASE_STREAM_CLOSED
 ;
+cancel
+(
+NR_ASYNC_WAIT_READ
+)
+;
+cancel
+(
+NR_ASYNC_WAIT_WRITE
+)
+;
 }
 int
 NrSocket
