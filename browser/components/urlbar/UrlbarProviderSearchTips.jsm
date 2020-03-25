@@ -2694,8 +2694,11 @@ notification
 .
 if
 (
+(
+await
 isBrowserShowingNotification
 (
+)
 )
 &
 &
@@ -3062,6 +3065,7 @@ SHOW_TIP_DELAY_MS
 ;
 }
 }
+async
 function
 isBrowserShowingNotification
 (
@@ -3384,6 +3388,7 @@ opening
 const
 willPrompt
 =
+await
 DefaultBrowserCheck
 .
 willCheckDefaultBrowser
