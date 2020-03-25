@@ -2057,6 +2057,7 @@ FlexboxAxisTracker
 constructor
 :
 enum
+class
 AxisTrackerFlags
 {
 eNoFlags
@@ -2177,6 +2178,9 @@ aWM
 AxisTrackerFlags
 aFlags
 =
+AxisTrackerFlags
+:
+:
 eNoFlags
 )
 ;
