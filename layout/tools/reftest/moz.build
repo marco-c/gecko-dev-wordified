@@ -112,6 +112,9 @@ exclusive
 '
 reftest
 '
+'
+crashtest
+'
 ]
 XPI_NAME
 =

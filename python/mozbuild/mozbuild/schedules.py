@@ -336,7 +336,8 @@ windows
     
 #
 test
-suites
+suite
+categories
     
 '
 awsy
@@ -354,10 +355,6 @@ cppunittest
 firefox
 -
 ui
-'
-    
-'
-geckoview
 '
     
 '
@@ -384,10 +381,6 @@ raptor
     
 '
 reftest
-'
-    
-'
-robocop
 '
     
 '
@@ -448,6 +441,45 @@ platform
 tests
 -
 wdspec
+'
+    
+#
+specific
+test
+suites
+via
+schedules
+-
+component
+    
+'
+mochitest
+-
+a11y
+'
+    
+'
+mochitest
+-
+browser
+-
+chrome
+'
+    
+'
+mochitest
+-
+chrome
+'
+    
+'
+mochitest
+-
+plain
+'
+    
+'
+crashtest
 '
 ]
 EXCLUSIVE_COMPONENTS
