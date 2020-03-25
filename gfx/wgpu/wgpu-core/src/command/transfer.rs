@@ -75,6 +75,7 @@ hub
 {
 GfxBackend
 Global
+GlobalIdentityHandlerFactory
 Token
 }
 id
@@ -473,11 +474,13 @@ layer
 }
 impl
 <
-F
+G
+:
+GlobalIdentityHandlerFactory
 >
 Global
 <
-F
+G
 >
 {
 pub

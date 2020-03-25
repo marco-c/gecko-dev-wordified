@@ -94,6 +94,7 @@ hub
 {
 GfxBackend
 Global
+GlobalIdentityHandlerFactory
 Token
 }
 id
@@ -1304,11 +1305,13 @@ render
 compute
 impl
 <
-F
+G
+:
+GlobalIdentityHandlerFactory
 >
 Global
 <
-F
+G
 >
 {
 pub

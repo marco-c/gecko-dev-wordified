@@ -136,7 +136,7 @@ namespace
 ffi
 {
 struct
-WGPUGlobal
+WGPUGlobal_IdentityRecyclerFactory
 ;
 }
 /
@@ -681,7 +681,7 @@ const
 ffi
 :
 :
-WGPUGlobal
+WGPUGlobal_IdentityRecyclerFactory
 *
 const
 mContext

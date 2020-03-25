@@ -235,7 +235,7 @@ false
 mBridge
 -
 >
-DestroyAdapter
+SendAdapterDestroy
 (
 mId
 )

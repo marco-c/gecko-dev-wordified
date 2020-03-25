@@ -57,6 +57,15 @@ MPL
 *
 /
 use
+crate
+:
+:
+identity
+:
+:
+IdentityRecyclerFactory
+;
+use
 core
 :
 :
@@ -83,8 +92,7 @@ hub
 :
 Global
 <
-(
-)
+IdentityRecyclerFactory
 >
 ;
 #
@@ -99,6 +107,9 @@ C
 fn
 wgpu_server_new
 (
+factory
+:
+IdentityRecyclerFactory
 )
 -
 >
@@ -137,6 +148,7 @@ new
 "
 wgpu
 "
+factory
 )
 )
 )

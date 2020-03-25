@@ -233,7 +233,7 @@ IsOpen
 bridge
 -
 >
-DestroyTexture
+SendTextureDestroy
 (
 mId
 )

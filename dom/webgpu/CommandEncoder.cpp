@@ -251,7 +251,7 @@ IsOpen
 bridge
 -
 >
-DestroyCommandEncoder
+SendCommandEncoderDestroy
 (
 mId
 )

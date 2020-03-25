@@ -225,7 +225,7 @@ IsOpen
 bridge
 -
 >
-DestroyCommandBuffer
+SendCommandBufferDestroy
 (
 mId
 )
