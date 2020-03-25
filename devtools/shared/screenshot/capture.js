@@ -589,10 +589,9 @@ full
 window
 if
 (
-!
 args
 .
-selector
+fullpage
 )
 {
 const
