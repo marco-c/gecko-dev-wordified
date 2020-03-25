@@ -1220,12 +1220,12 @@ populates
 the
 ConsoleEvent
 object
+/
+/
 (
-aValue
+aEventValue
 )
 in
-/
-/
 the
 aTargetScope
 .
@@ -1316,6 +1316,7 @@ is
 /
 called
 .
+static
 bool
 PopulateConsoleNotificationInTheTargetScope
 (
@@ -1351,7 +1352,7 @@ JS
 :
 Value
 >
-aValue
+aEventValue
 ConsoleCallData
 *
 aData
