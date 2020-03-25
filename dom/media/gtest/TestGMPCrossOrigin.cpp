@@ -532,8 +532,6 @@ aCallback
 )
 ;
 }
-protected
-:
 GMPTestMonitor
 &
 mMonitor
