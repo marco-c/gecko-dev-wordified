@@ -3733,7 +3733,7 @@ name
 break
 ;
 case
-CKA_NETSCAPE_EMAIL
+CKA_NSS_EMAIL
 :
 copy
 =
@@ -3750,7 +3750,7 @@ LG_CERT
 break
 ;
 case
-CKA_NETSCAPE_SMIME_TIMESTAMP
+CKA_NSS_SMIME_TIMESTAMP
 :
 classFlags
 &
@@ -3808,7 +3808,7 @@ LG_CERT
 break
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 classFlags
 &
@@ -3818,7 +3818,7 @@ LG_TRUST
 break
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 classFlags
 &
@@ -3828,7 +3828,7 @@ LG_CRL
 break
 ;
 case
-CKO_NETSCAPE_SMIME
+CKO_NSS_SMIME
 :
 classFlags
 &
@@ -4174,7 +4174,7 @@ LG_PUBLIC
 break
 ;
 case
-CKA_NETSCAPE_KRL
+CKA_NSS_KRL
 :
 if
 (

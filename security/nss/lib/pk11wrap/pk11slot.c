@@ -2558,7 +2558,7 @@ slot
 >
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 slot
 -
@@ -4637,7 +4637,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 ;
 if
@@ -4648,7 +4648,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 return
 slot
@@ -4685,7 +4685,7 @@ PORT_Assert
 rwsession
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 |
 |
 crv
@@ -4705,7 +4705,7 @@ CKR_OK
 rwsession
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 if
@@ -4737,7 +4737,7 @@ crv
 )
 ;
 return
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 }
 if
@@ -4807,7 +4807,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 )
 ;
@@ -4856,7 +4856,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 ;
 return
@@ -4922,7 +4922,7 @@ PORT_Assert
 rwsession
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 ;
 if
@@ -4930,7 +4930,7 @@ if
 rwsession
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PRBool
@@ -8083,7 +8083,7 @@ slot
 session
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 /
@@ -8360,7 +8360,7 @@ slot
 >
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 if
 (
@@ -8732,7 +8732,7 @@ readOnly
 CK_SESSION_HANDLE
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 /
 *
@@ -9232,7 +9232,7 @@ attrs
 CK_OBJECT_CLASS
 oclass
 =
-CKO_NETSCAPE_BUILTIN_ROOT_LIST
+CKO_NSS_BUILTIN_ROOT_LIST
 ;
 int
 tsize
@@ -10135,7 +10135,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 )
 {
@@ -10263,7 +10263,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PK11_GETTAB
@@ -10285,7 +10285,7 @@ slot
 >
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 }
 if
@@ -10335,7 +10335,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 if
@@ -10395,7 +10395,7 @@ slot
 >
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 }
 if
@@ -10446,7 +10446,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 return
 PR_TRUE
@@ -15621,7 +15621,7 @@ slot
 >
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 /
 *

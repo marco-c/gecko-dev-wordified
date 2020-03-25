@@ -267,13 +267,13 @@ AESContext
 context
 ;
 const
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 gcmParams
 =
 (
 const
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 )
 params

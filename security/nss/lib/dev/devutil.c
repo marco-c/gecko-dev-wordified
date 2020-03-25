@@ -1335,7 +1335,7 @@ cachedCerts
 break
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 haveIt
 =
@@ -1350,7 +1350,7 @@ cachedTrust
 break
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 haveIt
 =
@@ -2460,7 +2460,7 @@ CKA_VALUE
 CKA_ISSUER
 CKA_SERIAL_NUMBER
 CKA_SUBJECT
-CKA_NETSCAPE_EMAIL
+CKA_NSS_EMAIL
 }
 ;
 static
@@ -2579,8 +2579,8 @@ CKA_TOKEN
 CKA_LABEL
 CKA_VALUE
 CKA_SUBJECT
-CKA_NETSCAPE_KRL
-CKA_NETSCAPE_URL
+CKA_NSS_KRL
+CKA_NSS_URL
 }
 ;
 static
@@ -3648,7 +3648,7 @@ cachedCerts
 break
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 objectType
 =
@@ -3657,7 +3657,7 @@ cachedTrust
 break
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 objectType
 =
@@ -3924,7 +3924,7 @@ cachedCerts
 break
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 objectType
 =
@@ -3933,7 +3933,7 @@ cachedTrust
 break
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 objectType
 =
@@ -4435,7 +4435,7 @@ cachedCerts
 break
 ;
 case
-CKO_NETSCAPE_TRUST
+CKO_NSS_TRUST
 :
 objectType
 =
@@ -4444,7 +4444,7 @@ cachedTrust
 break
 ;
 case
-CKO_NETSCAPE_CRL
+CKO_NSS_CRL
 :
 objectType
 =

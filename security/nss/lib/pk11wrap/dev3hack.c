@@ -177,7 +177,7 @@ if
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 rvSession

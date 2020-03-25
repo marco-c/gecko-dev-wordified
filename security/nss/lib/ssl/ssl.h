@@ -2792,6 +2792,18 @@ credential
 DC
 )
 .
+Note
+that
+client
+-
+delegated
+credentials
+*
+are
+not
+currently
+supported
+.
 *
 *
 If
@@ -2914,7 +2926,7 @@ library
 implements
 draft
 -
-03
+07
 of
 the
 protocol

@@ -14013,7 +14013,7 @@ slot
 session
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 continue

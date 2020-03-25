@@ -362,7 +362,7 @@ if
 rwsession
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -681,7 +681,7 @@ rv
 PK11_CreateNewObject
 (
 targetSlot
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 copyTemplate
 copyTemplateCount
 PR_TRUE
