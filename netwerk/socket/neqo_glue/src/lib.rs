@@ -2754,8 +2754,6 @@ extend_from_slice
 HTTP
 /
 3
-.
-0
 "
 .
 as_bytes
