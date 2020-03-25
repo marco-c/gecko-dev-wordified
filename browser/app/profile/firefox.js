@@ -16334,9 +16334,6 @@ firstrun
 branches
 "
 "
-join
--
-dynamic
 "
 )
 ;
@@ -16354,7 +16351,7 @@ aboutwelcome
 .
 enabled
 "
-true
+false
 )
 ;
 /
