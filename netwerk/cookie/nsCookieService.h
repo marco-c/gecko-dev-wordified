@@ -2199,6 +2199,10 @@ aErrorFlags
 const
 nsACString
 &
+aCategory
+const
+nsACString
+&
 aMsg
 const
 nsACString
