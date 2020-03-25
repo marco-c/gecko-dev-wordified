@@ -2759,14 +2759,6 @@ return
 nullptr
 ;
 }
-PBOverrideStatus
-overrideStatus
-=
-PBOverrideStatusFromLoadContext
-(
-aSerialized
-)
-;
 RefPtr
 <
 DocumentChannelParent
@@ -2778,7 +2770,6 @@ DocumentChannelParent
 (
 context
 loadContext
-overrideStatus
 )
 ;
 return

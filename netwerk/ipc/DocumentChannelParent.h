@@ -173,8 +173,6 @@ aContext
 nsILoadContext
 *
 aLoadContext
-PBOverrideStatus
-aOverrideStatus
 )
 ;
 bool
