@@ -9489,8 +9489,6 @@ slotSpan
 break
 ;
 }
-else
-{
 uint32_t
 slot
 =
@@ -9515,7 +9513,6 @@ slotSpan
 {
 break
 ;
-}
 }
 if
 (
