@@ -179,11 +179,11 @@ false
 )
 {
 const
+{
 key
+}
 =
 node
-.
-key
 ;
 if
 (
@@ -321,11 +321,11 @@ computed
 )
 {
 const
+{
 key
+}
 =
 parent
-.
-key
 ;
 if
 (

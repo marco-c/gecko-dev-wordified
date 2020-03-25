@@ -747,11 +747,11 @@ return
 ;
 }
 let
+{
 input
+}
 =
 expression
-.
-input
 ;
 const
 frame

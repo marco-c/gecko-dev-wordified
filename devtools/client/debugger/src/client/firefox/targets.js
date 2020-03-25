@@ -320,11 +320,11 @@ it
 here
 .
 let
+{
 threadFront
+}
 =
 targetFront
-.
-threadFront
 ;
 /
 /

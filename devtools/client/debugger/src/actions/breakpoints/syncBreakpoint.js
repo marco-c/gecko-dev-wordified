@@ -343,11 +343,11 @@ a
 function
 .
 let
+{
 line
+}
 =
 location
-.
-line
 ;
 if
 (

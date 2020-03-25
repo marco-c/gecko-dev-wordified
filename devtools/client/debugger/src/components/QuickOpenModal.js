@@ -1942,13 +1942,13 @@ getResultCount
 >
 {
 const
+{
 results
+}
 =
 this
 .
 state
-.
-results
 ;
 return
 results

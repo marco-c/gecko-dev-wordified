@@ -684,13 +684,13 @@ SourceLocation
 )
 {
 const
+{
 inScopeLines
+}
 =
 state
 .
 ast
-.
-inScopeLines
 ;
 return
 inScopeLines

@@ -264,11 +264,11 @@ targetFront
 onThreadAttached
 ;
 const
+{
 threadFront
+}
 =
 targetFront
-.
-threadFront
 ;
 if
 (
