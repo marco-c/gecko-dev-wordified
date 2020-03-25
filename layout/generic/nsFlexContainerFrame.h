@@ -824,6 +824,9 @@ StrutInfo
 class
 CachedBAxisMeasurement
 ;
+class
+CachedFlexItemData
+;
 /
 /
 nsIFrame
