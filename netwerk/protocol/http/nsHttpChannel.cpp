@@ -54703,10 +54703,10 @@ is
 true
 if
 (
-nsMixedContentBlocker
+StaticPrefs
 :
 :
-ShouldUpgradeMixedDisplayContent
+security_mixed_content_upgrade_display_content
 (
 )
 )
@@ -54836,10 +54836,10 @@ t
 upgrade
 upgradeKey
 =
-nsMixedContentBlocker
+StaticPrefs
 :
 :
-ShouldUpgradeMixedDisplayContent
+security_mixed_content_upgrade_display_content
 (
 )
 ?
