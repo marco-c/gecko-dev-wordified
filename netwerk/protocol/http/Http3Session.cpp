@@ -4460,7 +4460,7 @@ error
 as
 epecial
 the
-res
+rest
 are
 just
 equivalent

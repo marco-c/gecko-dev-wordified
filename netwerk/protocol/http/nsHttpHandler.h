@@ -2231,6 +2231,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+aHttp3Allowed
 )
 {
 return
@@ -2246,6 +2248,7 @@ pb
 isolated
 topWindowOrigin
 originAttributes
+aHttp3Allowed
 )
 ;
 }
