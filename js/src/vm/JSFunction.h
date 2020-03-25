@@ -6459,7 +6459,7 @@ offsetOfNative
 }
 static
 unsigned
-offsetOfScriptOrLazyScript
+offsetOfBaseScript
 (
 )
 {
