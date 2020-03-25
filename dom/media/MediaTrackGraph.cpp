@@ -8338,10 +8338,6 @@ RunMessagesInQueue
 (
 )
 {
-TRACE_AUDIO_CALLBACK
-(
-)
-;
 MOZ_ASSERT
 (
 OnGraphThread
@@ -8443,6 +8439,10 @@ Length
 j
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 messages
 [
 j
@@ -10020,6 +10020,14 @@ mGraphRunner
 mRealtime
 )
 {
+TRACE_AUDIO_CALLBACK_COMMENT
+(
+"
+MessagePort
+events
+"
+)
+;
 NS_ProcessPendingEvents
 (
 nullptr

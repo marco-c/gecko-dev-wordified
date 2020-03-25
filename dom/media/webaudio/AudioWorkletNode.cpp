@@ -268,6 +268,13 @@ nsPrintfCString
 .
 h
 "
+#
+include
+"
+Tracing
+.
+h
+"
 namespace
 mozilla
 {
@@ -3041,6 +3048,10 @@ Value
 aCallable
 )
 {
+TRACE_AUDIO_CALLBACK
+(
+)
+;
 JS
 :
 :
@@ -3407,6 +3418,10 @@ Length
 OutputCount
 (
 )
+)
+;
+TRACE_AUDIO_CALLBACK
+(
 )
 ;
 bool
