@@ -3532,8 +3532,8 @@ mErrorMsgName
 uint64_t
 mWindowID
 ;
-uint32_t
-mFlags
+bool
+mIsWarning
 ;
 bool
 mIsMuted
@@ -3546,9 +3546,9 @@ mWindowID
 (
 0
 )
-mFlags
+mIsWarning
 (
-0
+false
 )
 mIsMuted
 (
@@ -3781,13 +3781,7 @@ IsWarning
 const
 {
 return
-!
-!
-(
-mFlags
-&
-JSREPORT_WARNING
-)
+mIsWarning
 ;
 }
 ;
