@@ -826,6 +826,7 @@ recordingPreferences
 getRecordingPreferences
 (
 pageContext
+supportedFeatures
 )
 /
 *

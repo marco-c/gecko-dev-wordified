@@ -88,9 +88,9 @@ changed
 "
 )
 ;
-if
-(
-!
+const
+supportedFeatures
+=
 Services
 .
 profiler
@@ -98,6 +98,11 @@ profiler
 GetFeatures
 (
 )
+;
+if
+(
+!
+supportedFeatures
 .
 includes
 (
@@ -166,6 +171,7 @@ web
 -
 developer
 "
+supportedFeatures
 )
 ;
 await
