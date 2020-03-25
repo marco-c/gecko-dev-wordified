@@ -664,6 +664,13 @@ h
 '
 public
 /
+ProfileBufferChunk
+.
+h
+'
+'
+public
+/
 ProfileBufferEntrySerialization
 .
 h
