@@ -1963,7 +1963,7 @@ TextureFilter
 :
 :
 Linear
-1
+4
 )
 /
 /
