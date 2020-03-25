@@ -13552,6 +13552,11 @@ return
 value
 ;
 }
+/
+*
+static
+*
+/
 bool
 Console
 :
@@ -13561,7 +13566,6 @@ ShouldIncludeStackTrace
 MethodName
 aMethodName
 )
-const
 {
 switch
 (
