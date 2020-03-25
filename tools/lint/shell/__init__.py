@@ -288,6 +288,7 @@ self
 .
 config
 *
+*
 res
 )
 )
