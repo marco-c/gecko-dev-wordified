@@ -114,15 +114,6 @@ MPL
 #
 include
 "
-necko
--
-config
-.
-h
-"
-#
-include
-"
 nsHttp
 .
 h

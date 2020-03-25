@@ -112,15 +112,6 @@ MPL
 *
 /
 #
-include
-"
-necko
--
-config
-.
-h
-"
-#
 define
 ALLOW_LATE_HTTPLOG_H_INCLUDE
 1
