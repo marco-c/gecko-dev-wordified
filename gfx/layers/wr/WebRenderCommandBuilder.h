@@ -340,17 +340,6 @@ aScrollDatas
 )
 ;
 void
-AppendWrapper
-(
-const
-RenderRootBoundary
-&
-aBoundary
-size_t
-aLayerCountBeforeRecursing
-)
-;
-void
 AppendScrollData
 (
 const
