@@ -117,12 +117,6 @@ MPL
 #
 include
 "
-mozilla
-/
-dom
-/
-cache
-/
 CacheStreamControlChild
 .
 h
