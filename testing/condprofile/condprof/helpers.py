@@ -517,18 +517,6 @@ chrome
 "
 :
         
-logger
-.
-info
-(
-"
-Switching
-to
-chrome
-context
-"
-)
-        
 await
 session
 .
@@ -573,18 +561,6 @@ switch_back
 =
 False
     
-logger
-.
-info
-(
-"
-Setting
-up
-script
-timeout
-"
-)
-    
 await
 session
 .
@@ -624,18 +600,6 @@ attempts
 while
 True
 :
-            
-logger
-.
-info
-(
-"
-Running
-triggerSync
-(
-)
-"
-)
             
 try
 :
