@@ -12741,6 +12741,11 @@ return
 eTimerDone
 ;
 }
+/
+*
+static
+*
+/
 JS
 :
 :
@@ -12760,7 +12765,6 @@ aTimerLabel
 TimerStatus
 aTimerStatus
 )
-const
 {
 MOZ_ASSERT
 (
@@ -13042,6 +13046,11 @@ return
 eTimerDone
 ;
 }
+/
+*
+static
+*
+/
 JS
 :
 :
@@ -13063,7 +13072,6 @@ aDuration
 TimerStatus
 aStatus
 )
-const
 {
 if
 (
@@ -13143,6 +13151,11 @@ return
 value
 ;
 }
+/
+*
+static
+*
+/
 JS
 :
 :
@@ -13162,7 +13175,6 @@ aLabel
 TimerStatus
 aStatus
 )
-const
 {
 MOZ_ASSERT
 (
