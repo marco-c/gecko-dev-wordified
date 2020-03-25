@@ -233,7 +233,7 @@ let
 notification
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -436,7 +436,7 @@ await
 pageHideHappened
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -592,7 +592,7 @@ blocked
 notification
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -665,7 +665,7 @@ remove
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
