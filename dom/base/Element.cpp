@@ -10503,17 +10503,6 @@ is
 updated
 .
 {
-BindContext
-:
-:
-NestingLevel
-level
-(
-aContext
-*
-this
-)
-;
 for
 (
 nsIContent
