@@ -3819,6 +3819,12 @@ isExceptionPending
 JSErrorReport
 report
 ;
+report
+.
+errorNumber
+=
+errorNumber
+;
 /
 /
 Get
