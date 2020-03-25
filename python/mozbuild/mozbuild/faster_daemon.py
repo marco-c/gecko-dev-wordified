@@ -181,7 +181,6 @@ utcnow
     
 print
 (
-b
 '
 [
 %
