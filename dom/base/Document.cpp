@@ -75150,6 +75150,15 @@ clonedSheet
 }
 }
 }
+clonedDoc
+-
+>
+CloneAdoptedSheetsFrom
+(
+*
+this
+)
+;
 for
 (
 int
