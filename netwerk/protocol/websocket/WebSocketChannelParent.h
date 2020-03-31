@@ -241,12 +241,8 @@ ipc
 IPCResult
 RecvAsyncOpen
 (
-const
-Maybe
-<
-URIParams
->
-&
+nsIURI
+*
 aURI
 const
 nsCString
