@@ -9937,6 +9937,12 @@ false
 #
 ifdef
 MOZ_SANDBOX
+if
+(
+!
+mUseSandbox
+)
+{
 /
 /
 We
@@ -10030,6 +10036,7 @@ peer
 }
 break
 ;
+}
 }
 #
 endif
