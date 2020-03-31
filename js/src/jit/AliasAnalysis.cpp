@@ -1201,6 +1201,15 @@ MDefinition
 Opcode
 :
 :
+ThrowRuntimeLexicalError
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 GetArgumentsObjectArg
 :
 case
