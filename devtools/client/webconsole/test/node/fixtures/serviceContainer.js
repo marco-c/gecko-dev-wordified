@@ -45,13 +45,6 @@ attachRefToWebConsoleUI
 >
 {
 }
-canRewind
-:
-(
-)
-=
->
-false
 emitForTests
 :
 (
