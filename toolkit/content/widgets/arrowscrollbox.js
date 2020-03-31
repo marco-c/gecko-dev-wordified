@@ -212,7 +212,7 @@ global
 /
 skin
 /
-scrollbox
+arrowscrollbox
 .
 css
 "
