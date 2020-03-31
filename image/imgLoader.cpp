@@ -3909,9 +3909,6 @@ OnProgress
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 int64_t
 progress
 int64_t
@@ -3972,7 +3969,6 @@ target
 OnProgress
 (
 mImageRequest
-ctxt
 progress
 progressMax
 )
@@ -3987,9 +3983,6 @@ OnStatus
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 const
@@ -4052,7 +4045,6 @@ target
 OnStatus
 (
 mImageRequest
-ctxt
 status
 statusArg
 )

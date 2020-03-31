@@ -2624,7 +2624,6 @@ mProgressSink
 OnStatus
 (
 this
-nullptr
 NS_NET_STATUS_READING
 mStatusHost
 .
@@ -2639,7 +2638,6 @@ mProgressSink
 OnProgress
 (
 this
-nullptr
 progress
 mSynthesizedStreamLength
 )
