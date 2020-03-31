@@ -63,17 +63,11 @@ MPL
 /
 .
 import
-concurrent
-.
-futures
-import
 mock
 import
 mozunit
 import
 os
-import
-platform
 import
 shutil
 import
@@ -670,8 +664,6 @@ path
 wb
 '
 )
-as
-f
 :
             
 pass
@@ -1119,6 +1111,7 @@ symbol_dir
 )
 :
 ]
+                          
 if
 filename
 .
@@ -1571,6 +1564,7 @@ join
 self
 .
 symbol_dir
+                                                    
 code_file
 code_id
 code_file
@@ -2168,7 +2162,13 @@ file
 EMPTY_SHA512
 =
 '
-cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
+cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff
+'
+EMPTY_SHA512
++
+=
+'
+8318d2877eec2f63b931bd47417a81a538327af927da3e
 '
 class
 TestGeneratedFilePath
@@ -2256,8 +2256,6 @@ g
 wb
 '
 )
-as
-f
 :
             
 pass
@@ -3010,6 +3008,7 @@ srcsrv_stream
 splitlines
 (
 )
+                        
 if
 x
 .
@@ -3687,8 +3686,6 @@ assertRaises
 (
 ValueError
 )
-as
-e
 :
             
 symbolstore
