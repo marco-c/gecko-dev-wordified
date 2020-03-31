@@ -2122,12 +2122,6 @@ GetLayersId
 )
 const
 ;
-WRRootId
-GetWRRootId
-(
-)
-const
-;
 void
 SetCompositionRecorder
 (

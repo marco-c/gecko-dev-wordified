@@ -1002,7 +1002,7 @@ void
 SetTestAsyncScrollOffset
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 const
@@ -1023,7 +1023,7 @@ void
 SetTestAsyncZoom
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 const
@@ -1044,7 +1044,7 @@ void
 FlushApzRepaints
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 )
@@ -1054,7 +1054,7 @@ void
 GetAPZTestData
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 APZTestData
