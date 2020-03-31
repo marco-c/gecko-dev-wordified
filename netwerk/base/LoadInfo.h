@@ -1167,8 +1167,8 @@ nsAString
 aCspNonce
 bool
 aSkipContentSniffing
-bool
-aHttpsOnlyNoUpgrade
+uint32_t
+aHttpsOnlyStatus
 uint32_t
 aRequestBlockingReason
 nsINode
@@ -1664,8 +1664,8 @@ mCspNonce
 bool
 mSkipContentSniffing
 ;
-bool
-mHttpsOnlyNoUpgrade
+uint32_t
+mHttpsOnlyStatus
 ;
 /
 /
