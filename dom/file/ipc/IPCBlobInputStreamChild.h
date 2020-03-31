@@ -136,6 +136,17 @@ include
 "
 mozilla
 /
+dom
+/
+IPCBlobInputStream
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
