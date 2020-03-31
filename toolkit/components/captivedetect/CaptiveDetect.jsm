@@ -392,14 +392,9 @@ channel
 .
 loadInfo
 .
-httpsOnlyStatus
-|
+httpsOnlyNoUpgrade
 =
-Ci
-.
-nsILoadInfo
-.
-HTTPS_ONLY_EXEMPT
+true
 ;
 /
 /

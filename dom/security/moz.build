@@ -175,11 +175,6 @@ nsCSPUtils
 h
 '
 '
-nsHTTPSOnlyStreamListener
-.
-h
-'
-'
 nsHTTPSOnlyUtils
 .
 h
@@ -296,11 +291,6 @@ cpp
 '
 '
 nsCSPUtils
-.
-cpp
-'
-'
-nsHTTPSOnlyStreamListener
 .
 cpp
 '
