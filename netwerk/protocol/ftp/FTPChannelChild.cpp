@@ -4233,9 +4233,6 @@ CompleteRedirectSetup
 nsIStreamListener
 *
 aListener
-nsISupports
-*
-aContext
 )
 {
 LOG

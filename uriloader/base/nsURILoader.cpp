@@ -4948,7 +4948,6 @@ childChannel
 CompleteRedirectSetup
 (
 loader
-nullptr
 )
 ;
 }

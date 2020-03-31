@@ -2153,7 +2153,6 @@ childChannel
 CompleteRedirectSetup
 (
 mListener
-nullptr
 )
 ;
 }

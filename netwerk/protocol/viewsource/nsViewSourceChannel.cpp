@@ -5349,9 +5349,6 @@ CompleteRedirectSetup
 nsIStreamListener
 *
 aListener
-nsISupports
-*
-aContext
 )
 {
 NS_ENSURE_TRUE
@@ -5454,7 +5451,6 @@ mChildChannel
 CompleteRedirectSetup
 (
 this
-aContext
 )
 ;
 if

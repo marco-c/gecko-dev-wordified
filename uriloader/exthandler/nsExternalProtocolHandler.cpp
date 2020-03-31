@@ -2154,9 +2154,6 @@ CompleteRedirectSetup
 nsIStreamListener
 *
 listener
-nsISupports
-*
-context
 )
 {
 /

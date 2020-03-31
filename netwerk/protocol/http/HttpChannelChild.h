@@ -2130,12 +2130,6 @@ nsIStreamListener
 >
 mInterceptedRedirectListener
 ;
-nsCOMPtr
-<
-nsISupports
->
-mInterceptedRedirectContext
-;
 /
 /
 Proxy
