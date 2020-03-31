@@ -1103,6 +1103,14 @@ return
 mToBeMerged
 ;
 }
+void
+UpdateIsOnContentBlockingAllowList
+(
+nsIChannel
+*
+aChannel
+)
+;
 private
 :
 enum
@@ -1172,6 +1180,9 @@ mCookieBehavior
 ;
 CookiePermissionList
 mCookiePermissions
+;
+bool
+mIsOnContentBlockingAllowList
 ;
 State
 mState

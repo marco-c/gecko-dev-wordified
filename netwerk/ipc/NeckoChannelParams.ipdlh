@@ -432,9 +432,8 @@ Copy
 of
 the
 cookie
-behavior
-and
-permissions
+jar
+settings
 for
 the
 top
@@ -444,6 +443,9 @@ document
 .
 uint32_t
 cookieBehavior
+;
+bool
+isOnContentBlockingAllowList
 ;
 CookiePermissionData
 [
