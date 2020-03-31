@@ -1665,7 +1665,7 @@ AudioParamMap
 "
 insecureContext
 :
-true
+false
 disabled
 :
 true
