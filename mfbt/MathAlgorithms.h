@@ -3274,13 +3274,13 @@ aMax
 {
 static_assert
 (
-IsIntegral
+std
+:
+:
+is_integral_v
 <
 T
 >
-:
-:
-value
 "
 Clamp
 accepts

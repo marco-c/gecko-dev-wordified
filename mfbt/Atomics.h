@@ -3090,13 +3090,13 @@ Order
 typename
 EnableIf
 <
-IsIntegral
+std
+:
+:
+is_integral_v
 <
 T
 >
-:
-:
-value
 &
 &
 !

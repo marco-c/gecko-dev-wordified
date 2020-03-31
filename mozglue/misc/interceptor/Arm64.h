@@ -784,13 +784,13 @@ aNumValidBits
 {
 static_assert
 (
-IsIntegral
+std
+:
+:
+is_integral_v
 <
 ResultT
 >
-:
-:
-value
 &
 &
 std
