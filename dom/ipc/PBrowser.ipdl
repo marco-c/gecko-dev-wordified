@@ -6261,10 +6261,9 @@ visit
 async
 VisitURI
 (
-URIParams
+nsIURI
 aURI
-URIParams
-?
+nsIURI
 aLastVisitedURI
 uint32_t
 aFlags
@@ -6293,7 +6292,7 @@ only
 async
 QueryVisitedState
 (
-URIParams
+nsIURI
 [
 ]
 aURIs
