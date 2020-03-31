@@ -363,6 +363,17 @@ h2
 h3
 "
         
+#
+Part
+:
+(
+glyphName
+isExtender
+startConnector
+endConnector
+fullAdvance
+)
+        
 aFont
 [
 codePoint
@@ -425,6 +436,17 @@ v1
 v2
 v3
 "
+        
+#
+Part
+:
+(
+glyphName
+isExtender
+startConnector
+endConnector
+fullAdvance
+)
         
 aFont
 [
