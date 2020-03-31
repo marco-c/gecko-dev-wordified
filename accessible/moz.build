@@ -292,6 +292,17 @@ tests
 /
 browser
 /
+mac
+/
+browser
+.
+ini
+'
+'
+tests
+/
+browser
+/
 scroll
 /
 browser
