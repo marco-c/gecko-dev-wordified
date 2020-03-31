@@ -1269,8 +1269,12 @@ signature
 not
 overridden
 here
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 Create
 (
@@ -1594,8 +1598,12 @@ return
 NS_OK
 ;
 }
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 GetAttention
 (
