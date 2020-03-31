@@ -28219,7 +28219,7 @@ prepareVMCall
 (
 )
 ;
-pushUint16BytecodeOperandArg
+pushUint8BytecodeOperandArg
 (
 R2
 .
