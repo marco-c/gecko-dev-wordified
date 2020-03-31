@@ -10678,9 +10678,9 @@ url
 )
 |
 |
-typeHint
+modeHint
 .
-equalsIgnoreCase
+equals
 (
 "
 mozAwesomebar
@@ -10791,7 +10791,7 @@ if
 (
 modeHint
 .
-equalsIgnoreCase
+equals
 (
 "
 tel
@@ -10813,7 +10813,7 @@ if
 (
 modeHint
 .
-equalsIgnoreCase
+equals
 (
 "
 url
@@ -10835,7 +10835,7 @@ if
 (
 modeHint
 .
-equalsIgnoreCase
+equals
 (
 "
 email
@@ -10858,7 +10858,7 @@ if
 (
 modeHint
 .
-equalsIgnoreCase
+equals
 (
 "
 numeric
@@ -10884,7 +10884,7 @@ if
 (
 modeHint
 .
-equalsIgnoreCase
+equals
 (
 "
 decimal
