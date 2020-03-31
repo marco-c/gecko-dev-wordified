@@ -860,8 +860,9 @@ FetchEvent
 FetchEvent
 (
 )
-{
-}
+=
+default
+;
 void
 FetchEvent
 :
@@ -1312,8 +1313,9 @@ mClosure
 BodyCopyHandle
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -5090,8 +5092,9 @@ mRejectValue
 WaitUntilHandler
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -6217,8 +6220,9 @@ PushMessageData
 PushMessageData
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 PushMessageData
@@ -7397,7 +7401,7 @@ aPorts
 mPorts
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_CLASS
+NS_IMPL_CYCLE_COLLECTION_MULTI_ZONE_JSHOLDER_CLASS
 (
 ExtendableMessageEvent
 )
