@@ -2631,10 +2631,10 @@ Type
 static_assert
 (
           
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 already_AddRefed
 <
@@ -2651,9 +2651,6 @@ s
 )
 )
 >
-:
-:
-value
           
 "
 Singleton
