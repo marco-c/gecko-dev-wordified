@@ -347,7 +347,7 @@ threads
 :
 PropTypes
 .
-object
+array
 webConsoleUI
 :
 PropTypes
