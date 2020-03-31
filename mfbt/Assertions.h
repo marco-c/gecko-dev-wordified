@@ -3385,13 +3385,13 @@ ValueT
 static_assert
 (
 !
-IsArray
+std
+:
+:
+is_array_v
 <
 ValueT
 >
-:
-:
-value
 "
 Expected
 boolean
