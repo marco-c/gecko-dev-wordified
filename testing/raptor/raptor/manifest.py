@@ -4792,25 +4792,5 @@ remove
 test
 )
     
-else
-:
-        
-LOG
-.
-critical
-(
-"
-abort
-:
-specified
-test
-name
-doesn
-'
-t
-exist
-"
-)
-    
 return
 tests_to_run
