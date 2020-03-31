@@ -3896,9 +3896,9 @@ false
 funbox
 -
 >
-declaredArguments
-=
-true
+setDeclaredArguments
+(
+)
 ;
 funbox
 -
