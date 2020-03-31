@@ -469,7 +469,11 @@ terminator
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Write
 (
@@ -509,7 +513,11 @@ file
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Write
 (

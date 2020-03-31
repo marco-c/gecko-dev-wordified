@@ -377,8 +377,9 @@ virtual
 nsDequeFunctor
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 /
@@ -801,7 +802,11 @@ as
 needed
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Push
 (
@@ -910,7 +915,11 @@ as
 needed
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 PushFront
 (

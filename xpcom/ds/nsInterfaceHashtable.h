@@ -250,8 +250,9 @@ base_type
 nsInterfaceHashtable
 (
 )
-{
-}
+=
+default
+;
 explicit
 nsInterfaceHashtable
 (
@@ -495,7 +496,11 @@ EntryCount
 ;
 }
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Put
 (

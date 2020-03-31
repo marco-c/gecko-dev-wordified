@@ -964,7 +964,11 @@ and
 do
 nothing
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 SetIsPaused
 (

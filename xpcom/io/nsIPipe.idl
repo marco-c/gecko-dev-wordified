@@ -1076,8 +1076,12 @@ value
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 nsresult
 NS_NewPipe2
 (
@@ -1294,8 +1298,12 @@ stream
 behavior
 *
 /
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 nsresult
 NS_NewPipe
 (

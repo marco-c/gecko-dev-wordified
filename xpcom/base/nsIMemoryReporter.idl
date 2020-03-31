@@ -3442,7 +3442,11 @@ t
 use
 /
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 because
 ignoring
 failures
@@ -3767,7 +3771,6 @@ tab
 measurement
 .
 typedef
-MOZ_MUST_USE
 nsresult
 (
 *
@@ -3792,7 +3795,6 @@ aJsOtherSize
 )
 ;
 typedef
-MOZ_MUST_USE
 nsresult
 (
 *

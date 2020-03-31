@@ -329,7 +329,11 @@ necessary
 because
 of
 the
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 annotation
 .
 )
@@ -409,8 +413,12 @@ __cplusplus
 #
 ifdef
 DEBUG
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 NS_warn_if_impl
 (

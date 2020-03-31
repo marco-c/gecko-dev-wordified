@@ -520,7 +520,11 @@ TailDispatcher
 )
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Dispatch
 (

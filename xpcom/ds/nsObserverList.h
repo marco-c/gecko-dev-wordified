@@ -246,7 +246,11 @@ MOZ_COUNTED_DTOR
 (
 nsObserverList
 )
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 AddObserver
 (
@@ -257,7 +261,11 @@ bool
 aOwnsWeak
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 RemoveObserver
 (

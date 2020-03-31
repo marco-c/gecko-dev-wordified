@@ -401,8 +401,12 @@ NS_WINDOWSREGKEY_CID
 }
 \
 }
+[
+[
+nodiscard
+]
+]
 extern
-MOZ_MUST_USE
 nsresult
 nsWindowsRegKeyConstructor
 (

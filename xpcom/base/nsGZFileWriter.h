@@ -213,8 +213,8 @@ overloads
 on
 a
 pointer
-to
 *
+to
 the
 concrete
 nsGZFileWriter
@@ -222,7 +222,11 @@ class
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Write
 (
@@ -242,7 +246,11 @@ aStr
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Write
 (
