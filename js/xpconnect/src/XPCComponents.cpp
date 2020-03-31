@@ -8817,6 +8817,9 @@ JavaScript
 "
 innerWindowID
 innerWindowID
+=
+=
+0
 ?
 true
 :
