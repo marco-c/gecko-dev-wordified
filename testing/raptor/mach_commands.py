@@ -163,7 +163,7 @@ BENCHMARK_REVISION
 '
 e19a0865c946ae2f9a64dd25614b1c275a3996b2
 '
-FIREFOX_ANDROID_BROWSERS
+ANDROID_BROWSERS
 =
 [
 "
@@ -177,6 +177,11 @@ refbrow
 "
 "
 fenix
+"
+"
+chrome
+-
+m
 "
 ]
 class
@@ -406,7 +411,7 @@ app
 "
 ]
 in
-FIREFOX_ANDROID_BROWSERS
+ANDROID_BROWSERS
 :
             
 self
@@ -1699,7 +1704,7 @@ app
 '
 ]
 in
-FIREFOX_ANDROID_BROWSERS
+ANDROID_BROWSERS
         
 if
 is_android
