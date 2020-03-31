@@ -263,14 +263,14 @@ UNIFIED_SOURCES
 '
 android
 /
-AndroidSensor
+AndroidProcessPriority
 .
 cpp
 '
 '
-fallback
+android
 /
-FallbackProcessPriority
+AndroidSensor
 .
 cpp
 '
