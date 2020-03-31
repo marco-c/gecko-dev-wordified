@@ -2582,7 +2582,9 @@ extId
 await
 gManagerWindow
 .
-htmlBrowserLoaded
+promiseHtmlBrowserLoaded
+(
+)
 ;
 const
 {
@@ -7289,7 +7291,9 @@ openAboutAddons
 await
 gManagerWindow
 .
-htmlBrowserLoaded
+promiseHtmlBrowserLoaded
+(
+)
 ;
 AbuseReportTestUtils
 .
@@ -7532,7 +7536,9 @@ theme
 await
 gManagerWindow
 .
-htmlBrowserLoaded
+promiseHtmlBrowserLoaded
+(
+)
 ;
 AbuseReportTestUtils
 .
@@ -9096,7 +9102,9 @@ type
 await
 gManagerWindow
 .
-htmlBrowserLoaded
+promiseHtmlBrowserLoaded
+(
+)
 ;
 const
 abuseReportFrameEl
