@@ -948,7 +948,7 @@ selectedNodeActor
 =
 webConsoleUI
 .
-getSelectedNodeActor
+getSelectedNodeActorID
 (
 )
 ;

@@ -3489,7 +3489,7 @@ getWebconsoleFront
 )
 ;
 }
-getSelectedNodeActor
+getSelectedNodeActorID
 (
 )
 {
