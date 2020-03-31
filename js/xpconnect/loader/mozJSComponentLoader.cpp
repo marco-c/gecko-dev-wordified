@@ -5321,7 +5321,7 @@ script
 =
 reuseGlobal
 ?
-CompileForNonSyntacticScopeDontInflate
+CompileForNonSyntacticScope
 (
 cx
 options
@@ -5403,7 +5403,7 @@ script
 =
 reuseGlobal
 ?
-CompileForNonSyntacticScopeDontInflate
+CompileForNonSyntacticScope
 (
 cx
 options

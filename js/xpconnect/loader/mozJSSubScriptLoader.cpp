@@ -220,7 +220,7 @@ JS
 :
 Compile
 {
-ForNonSyntacticScopeDontInflate
+ForNonSyntacticScope
 }
 #
 include
@@ -1120,7 +1120,7 @@ return
 JS
 :
 :
-CompileForNonSyntacticScopeDontInflate
+CompileForNonSyntacticScope
 (
 cx
 options

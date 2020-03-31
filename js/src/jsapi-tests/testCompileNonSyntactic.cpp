@@ -88,9 +88,6 @@ JS
 Compile
 {
 ForNonSyntacticScope
-{
-DontInflate
-}
 }
 #
 include
@@ -556,7 +553,7 @@ Borrowed
 ;
 script
 =
-CompileForNonSyntacticScopeDontInflate
+CompileForNonSyntacticScope
 (
 cx
 options
