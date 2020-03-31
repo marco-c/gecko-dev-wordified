@@ -161,7 +161,7 @@ dbg
 "
 frame
 "
-2
+3
 )
 ;
 /
@@ -189,6 +189,12 @@ countTabs
 dbg
 )
 1
+)
+;
+await
+resume
+(
+dbg
 )
 ;
 }
