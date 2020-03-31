@@ -278,6 +278,11 @@ PeerConnectionMedia
 cpp
 '
 '
+RTCDTMFSender
+.
+cpp
+'
+'
 RTCRtpReceiver
 .
 cpp
