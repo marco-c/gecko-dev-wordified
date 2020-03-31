@@ -2089,7 +2089,10 @@ T
 struct
 IsResult
 :
-FalseType
+std
+:
+:
+false_type
 {
 }
 ;

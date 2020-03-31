@@ -342,7 +342,10 @@ T
 struct
 AllowDeprecatedAbsFixed
 :
-FalseType
+std
+:
+:
+false_type
 {
 }
 ;

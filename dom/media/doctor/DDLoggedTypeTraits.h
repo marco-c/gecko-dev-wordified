@@ -120,6 +120,11 @@ define
 DDLoggedTypeTraits_h_
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -227,7 +232,10 @@ TYPE
 using
 HasBase
 =
-FalseType
+std
+:
+:
+false_type
 ;
 \
 using
@@ -372,7 +380,10 @@ NAME
 using
 HasBase
 =
-FalseType
+std
+:
+:
+false_type
 ;
 \
 using

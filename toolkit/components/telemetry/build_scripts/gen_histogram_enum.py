@@ -918,7 +918,10 @@ T
 struct
 IsCategoricalLabelEnum
 :
-FalseType
+std
+:
+:
+false_type
 {
 }
 ;
