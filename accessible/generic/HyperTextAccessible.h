@@ -1126,6 +1126,7 @@ nsRange
 *
 aRange
 )
+const
 ;
 /
 *
@@ -1187,6 +1188,7 @@ OffsetToDOMPoint
 int32_t
 aOffset
 )
+const
 ;
 /
 *
@@ -3342,6 +3344,7 @@ nsIContent
 *
 aElementContent
 )
+const
 ;
 /
 /
