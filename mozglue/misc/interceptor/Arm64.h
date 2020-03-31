@@ -826,8 +826,10 @@ aNumValidBits
 using
 UnsignedResultT
 =
-typename
-Decay
+std
+:
+:
+decay_t
 <
 std
 :
@@ -837,9 +839,6 @@ make_unsigned_t
 ResultT
 >
 >
-:
-:
-Type
 ;
 const
 uint8_t
