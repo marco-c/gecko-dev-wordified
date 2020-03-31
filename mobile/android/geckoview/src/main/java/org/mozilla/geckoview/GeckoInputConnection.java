@@ -2668,7 +2668,7 @@ event
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable

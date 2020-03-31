@@ -1551,7 +1551,7 @@ UI
 thread
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 (
 )
@@ -4517,7 +4517,7 @@ mNotificationDelegate
 ;
 }
 WrapForJNI
-UiThread
+AnyThread
 private
 void
 notifyOnShow
@@ -4529,11 +4529,7 @@ notification
 {
 ThreadUtils
 .
-getUiHandler
-(
-)
-.
-post
+runOnUiThread
 (
 (
 )
@@ -4561,7 +4557,7 @@ notification
 ;
 }
 WrapForJNI
-UiThread
+AnyThread
 private
 void
 notifyOnClose
@@ -4573,11 +4569,7 @@ notification
 {
 ThreadUtils
 .
-getUiHandler
-(
-)
-.
-post
+runOnUiThread
 (
 (
 )

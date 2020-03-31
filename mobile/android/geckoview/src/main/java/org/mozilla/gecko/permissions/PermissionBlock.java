@@ -738,7 +738,7 @@ isOnUiThread
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 runnable
 )

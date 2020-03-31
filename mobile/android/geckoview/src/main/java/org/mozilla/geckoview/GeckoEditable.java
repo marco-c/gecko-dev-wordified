@@ -10222,7 +10222,7 @@ assertOnIcThread
 }
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable
@@ -11277,7 +11277,7 @@ once
 .
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable
