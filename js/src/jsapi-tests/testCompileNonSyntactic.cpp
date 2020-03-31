@@ -88,9 +88,9 @@ JS
 Compile
 {
 ForNonSyntacticScope
-}
 {
 DontInflate
+}
 }
 #
 include
@@ -661,7 +661,7 @@ nonSyntactic
 ;
 script
 =
-CompileDontInflate
+Compile
 (
 cx
 options

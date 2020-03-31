@@ -204,9 +204,6 @@ JS
 :
 :
 Compile
-{
-DontInflate
-}
 #
 include
 "
@@ -5822,7 +5819,7 @@ return
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options

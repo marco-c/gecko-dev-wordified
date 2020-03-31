@@ -5328,7 +5328,7 @@ options
 srcBuf
 )
 :
-CompileDontInflate
+Compile
 (
 cx
 options
@@ -5410,7 +5410,7 @@ options
 srcBuf
 )
 :
-CompileDontInflate
+Compile
 (
 cx
 options
