@@ -9974,7 +9974,7 @@ clobber_output
 =
 io
 .
-BytesIO
+StringIO
 (
 )
         
