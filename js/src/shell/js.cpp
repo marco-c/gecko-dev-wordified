@@ -11331,7 +11331,7 @@ nullptr
 JS
 :
 :
-EvaluateUtf8PathDontInflate
+EvaluateUtf8Path
 (
 cx
 opts
