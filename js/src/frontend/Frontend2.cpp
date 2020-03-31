@@ -244,7 +244,7 @@ h
 "
 /
 /
-jssrcnote
+SrcNote
 #
 include
 "
@@ -725,7 +725,7 @@ mozilla
 Span
 <
 const
-jssrcnote
+SrcNote
 >
 (
 )

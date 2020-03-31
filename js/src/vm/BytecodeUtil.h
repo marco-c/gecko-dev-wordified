@@ -1532,7 +1532,10 @@ limit
 is
 determined
 by
-SN_4BYTE_OFFSET_FLAG
+SrcNote
+:
+:
+FourByteOffsetFlag
 see
 /
 /

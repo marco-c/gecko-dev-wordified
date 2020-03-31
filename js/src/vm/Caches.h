@@ -135,6 +135,9 @@ SourceNotes
 .
 h
 "
+/
+/
+SrcNote
 #
 include
 "
@@ -304,7 +307,8 @@ HashMap
 <
 jsbytecode
 *
-jssrcnote
+const
+SrcNote
 *
 PointerHasher
 <
