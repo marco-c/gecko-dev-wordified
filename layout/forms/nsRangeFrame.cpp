@@ -5889,9 +5889,12 @@ toDouble
 define
 STYLES_DISABLING_NATIVE_THEMING
 \
-NS_AUTHOR_SPECIFIED_BORDER_OR_BACKGROUND
+NS_AUTHOR_SPECIFIED_BACKGROUND
 |
 NS_AUTHOR_SPECIFIED_PADDING
+|
+\
+NS_AUTHOR_SPECIFIED_BORDER
 bool
 nsRangeFrame
 :
@@ -5935,6 +5938,7 @@ GetPrimaryFrame
 )
 ;
 return
+(
 StyleDisplay
 (
 )
@@ -5947,6 +5951,7 @@ StyleAppearance
 :
 :
 Range
+)
 &
 &
 trackFrame
