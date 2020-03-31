@@ -3140,9 +3140,6 @@ aLoadInfo
 nsIInterfaceRequestor
 *
 aCallbacks
-nsDocShell
-*
-aDocShell
 nsLoadFlags
 aLoadFlags
 const

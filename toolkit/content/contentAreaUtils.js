@@ -8906,15 +8906,6 @@ var
 uriListener
 =
 {
-onStartURIOpen
-(
-uri
-)
-{
-return
-false
-;
-}
 doContent
 (
 ctype

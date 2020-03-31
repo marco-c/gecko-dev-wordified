@@ -124,15 +124,6 @@ nsISupportsWeakReference
 "
 ]
 )
-onStartURIOpen
-(
-uri
-)
-{
-return
-false
-;
-}
 doContent
 (
 contentType
