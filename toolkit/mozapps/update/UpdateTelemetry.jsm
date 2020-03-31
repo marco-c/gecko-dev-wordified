@@ -717,15 +717,8 @@ CHK_NO_OS_ABI
 /
 /
 Invalid
-url
-for
-app
-.
 update
-.
 url
-default
-preference
 (
 no
 notification
