@@ -131,6 +131,11 @@ type_traits
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -6163,7 +6168,10 @@ aArgs
 >
 decltype
 (
-DeclVal
+std
+:
+:
+declval
 <
 PromiseType
 >

@@ -125,6 +125,11 @@ type_traits
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -633,7 +638,10 @@ F
 &
 decltype
 (
-DeclVal
+std
+:
+:
+declval
 <
 F
 >
@@ -664,7 +672,10 @@ decltype
 (
 test
 (
-DeclVal
+std
+:
+:
+declval
 <
 T
 >

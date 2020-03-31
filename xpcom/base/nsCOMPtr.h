@@ -1378,10 +1378,10 @@ decltype
 (
 &
 *
-mozilla
+std
 :
 :
-DeclVal
+declval
 <
 T
 >

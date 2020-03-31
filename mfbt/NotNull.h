@@ -1618,7 +1618,10 @@ remove_reference_t
 decltype
 (
 *
-DeclVal
+std
+:
+:
+declval
 <
 Pointer
 >
@@ -1673,7 +1676,10 @@ above
 decltype
 (
 *
-DeclVal
+std
+:
+:
+declval
 <
 Pointer
 >
@@ -1683,6 +1689,8 @@ Pointer
 trick
 for
 raw
+/
+/
 pointers
 .
 /

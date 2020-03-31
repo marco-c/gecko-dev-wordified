@@ -1777,7 +1777,10 @@ Promise
 >
 decltype
 (
-DeclVal
+std
+:
+:
+declval
 <
 Callback
 >
@@ -1791,7 +1794,10 @@ JSContext
 (
 nullptr
 )
-DeclVal
+std
+:
+:
+declval
 <
 JS
 :
@@ -1806,7 +1812,10 @@ Value
 >
 (
 )
-DeclVal
+std
+:
+:
+declval
 <
 Args
 >

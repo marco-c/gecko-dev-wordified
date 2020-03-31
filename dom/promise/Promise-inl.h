@@ -127,6 +127,11 @@ type_traits
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -625,7 +630,10 @@ T
 >
 decltype
 (
-DeclVal
+std
+:
+:
+declval
 <
 SmartPtr
 <
