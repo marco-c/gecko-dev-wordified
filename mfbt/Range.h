@@ -154,6 +154,11 @@ stddef
 .
 h
 >
+#
+include
+<
+type_traits
+>
 namespace
 mozilla
 {
@@ -333,7 +338,10 @@ class
 typename
 EnableIf
 <
-IsConvertible
+std
+:
+:
+is_convertible_v
 <
 U
 (
@@ -348,9 +356,6 @@ T
 [
 ]
 >
-:
-:
-value
 int
 >
 :
@@ -417,7 +422,10 @@ class
 typename
 EnableIf
 <
-IsConvertible
+std
+:
+:
+is_convertible_v
 <
 U
 (
@@ -432,9 +440,6 @@ T
 [
 ]
 >
-:
-:
-value
 int
 >
 :
