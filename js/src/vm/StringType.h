@@ -2205,10 +2205,13 @@ GC
 .
 static_assert
 (
-Base
+js
 :
 :
-NumFlagBitsReservedForGC
+gc
+:
+:
+CellFlagBitsReservedForGC
 <
 =
 3

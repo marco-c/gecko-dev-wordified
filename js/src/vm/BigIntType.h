@@ -366,7 +366,7 @@ private
 /
 The
 low
-NumFlagBitsReservedForGC
+CellFlagBitsReservedForGC
 flag
 bits
 are
@@ -382,10 +382,13 @@ js
 :
 Bit
 (
-Base
+js
 :
 :
-NumFlagBitsReservedForGC
+gc
+:
+:
+CellFlagBitsReservedForGC
 )
 ;
 static
