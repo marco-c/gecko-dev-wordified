@@ -279,11 +279,21 @@ shutil
 import
 textwrap
 import
+fnmatch
+import
 subprocess
 import
 time
 import
 ctypes
+import
+urlparse
+import
+concurrent
+.
+futures
+import
+multiprocessing
 from
 optparse
 import
@@ -1177,9 +1187,9 @@ corrupt
 "
 "
 )
-                  
 %
 path
+                  
 sys
 .
 stderr
@@ -1527,7 +1537,6 @@ corrupt
 "
 "
 )
-                  
 %
 (
 path
@@ -1880,13 +1889,13 @@ not
 isinstance
 (
 path
-str
+unicode
 )
 :
             
 path
 =
-str
+unicode
 (
 path
 sys
@@ -3008,7 +3017,6 @@ pdbStreamFile
 .
 write
 (
-        
 '
 '
 '
@@ -3071,12 +3079,14 @@ nVERSION
 2
 \
 r
-INDEXVERSION
+\
+nINDEXVERSION
 =
 2
 \
 r
-VERCTRL
+\
+nVERCTRL
 =
 http
 \
@@ -3129,7 +3139,8 @@ variables
 -
 \
 r
-HGSERVER
+\
+nHGSERVER
 =
 '
 '
@@ -3147,7 +3158,6 @@ pdbStreamFile
 .
 write
 (
-        
 '
 '
 '
@@ -3179,14 +3189,16 @@ var2
 %
 \
 r
-SRCSRVTRG
+\
+nSRCSRVTRG
 =
 %
 http_extract_target
 %
 \
 r
-SRCSRV
+\
+nSRCSRV
 :
 source
 files
@@ -3242,10 +3254,8 @@ pdbStreamFile
 .
 write
 (
-        
 fileStream
 )
-    
 #
 can
 '
@@ -3260,8 +3270,7 @@ server
 also
 uses
 this
-    
-#
+and
 so
 there
 are
@@ -4629,7 +4638,6 @@ filename
 =
 get_generated_file_s3_path
 (
-                                    
 filename
 gen_path
 self
@@ -4670,8 +4678,6 @@ files
 were
 to
 end
-                            
-#
 on
 an
 empty
@@ -4682,11 +4688,11 @@ vcs_root
 is
 None
 :
-                                
+                              
 if
 rootname
 :
-                                    
+                                 
 vcs_root
 =
 rootname
@@ -4714,7 +4720,6 @@ hg
 (
 ver
 checkout
-                             
 source_file
 revision
 )
@@ -4739,10 +4744,7 @@ sourcepath
 "
 +
 source_file
-                            
-sourceFileStream
 +
-=
 '
 *
 '
@@ -5299,7 +5301,7 @@ dumps
 (
 perfherder_data
 )
-                      
+                    
 file
 =
 sys
@@ -6244,7 +6246,7 @@ basename
 (
 debug_file
 )
-                                   
+                             
 "
 -
 i
@@ -6763,9 +6765,9 @@ t
 [
 1
 ]
+;
         
 except
-Exception
 :
             
 return
@@ -7939,7 +7941,7 @@ join
 self
 .
 symbol_path
-                                                 
+                                                  
 rel_path
 )
 )
@@ -8036,7 +8038,6 @@ parser
 =
 OptionParser
 (
-        
 usage
 =
 "
@@ -8095,8 +8096,6 @@ False
 help
 =
 "
-"
-"
 Copy
 debug
 info
@@ -8109,8 +8108,6 @@ structure
 as
 symbol
 files
-"
-"
 "
 )
     
@@ -8142,8 +8139,6 @@ archs
 help
 =
 "
-"
-"
 Run
 dump_syms
 -
@@ -8165,8 +8160,6 @@ on
 OS
 X
 )
-"
-"
 "
 )
     
@@ -8292,8 +8285,6 @@ False
 help
 =
 "
-"
-"
 Add
 source
 index
@@ -8311,8 +8302,6 @@ a
 source
 server
 .
-"
-"
 "
 )
     
