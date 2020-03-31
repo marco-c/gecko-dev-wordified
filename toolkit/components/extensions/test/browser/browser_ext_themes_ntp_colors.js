@@ -664,11 +664,6 @@ about
 :
 home
 "
-"
-about
-:
-welcome
-"
 ]
 )
 {

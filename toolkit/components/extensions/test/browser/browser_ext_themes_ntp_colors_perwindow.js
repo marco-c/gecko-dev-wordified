@@ -1081,11 +1081,6 @@ about
 :
 home
 "
-"
-about
-:
-welcome
-"
 ]
 )
 {
