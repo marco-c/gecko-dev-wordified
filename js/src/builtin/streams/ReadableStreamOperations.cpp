@@ -317,6 +317,10 @@ CreateReadableStreamDefaultReader
 js
 :
 :
+ForAuthorCodeBool
+js
+:
+:
 ReadableStream
 {
 Default
@@ -4150,6 +4154,10 @@ CreateReadableStreamDefaultReader
 (
 cx
 unwrappedStream
+ForAuthorCodeBool
+:
+:
+No
 )
 )
 ;

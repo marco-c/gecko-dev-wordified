@@ -216,6 +216,10 @@ js
 :
 :
 CreateReadableStreamDefaultReader
+js
+:
+:
+ForAuthorCodeBool
 #
 include
 "
@@ -695,6 +699,10 @@ CreateReadableStreamDefaultReader
 (
 cx
 unwrappedSource
+ForAuthorCodeBool
+:
+:
+No
 )
 ;
 if

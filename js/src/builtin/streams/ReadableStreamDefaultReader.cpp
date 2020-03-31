@@ -214,6 +214,10 @@ h
 js
 :
 :
+ForAuthorCodeBool
+js
+:
+:
 ReadableStream
 {
 Default
@@ -478,9 +482,6 @@ CreateReadableStreamDefaultReader
 JSContext
 *
 cx
-JS
-:
-:
 Handle
 <
 ReadableStream
@@ -489,9 +490,6 @@ ReadableStream
 unwrappedStream
 ForAuthorCodeBool
 forAuthorCode
-JS
-:
-:
 Handle
 <
 JSObject

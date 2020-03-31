@@ -2328,6 +2328,7 @@ return
 AcquireReadableStreamDefaultReader
 (
 this
+true
 )
 .
 Rooted
@@ -2491,6 +2492,7 @@ return
 AcquireReadableStreamBYOBReader
 (
 this
+true
 )
 .
 reader
