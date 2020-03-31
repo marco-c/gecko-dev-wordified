@@ -43685,7 +43685,7 @@ prototype
 }
 ;
 class
-LBuiltinProto
+LFunctionProto
 :
 public
 LCallInstructionHelper
@@ -43699,9 +43699,9 @@ public
 :
 LIR_HEADER
 (
-BuiltinProto
+FunctionProto
 )
-LBuiltinProto
+LFunctionProto
 (
 )
 :
@@ -43711,7 +43711,7 @@ classOpcode
 )
 {
 }
-MBuiltinProto
+MFunctionProto
 *
 mir
 (
@@ -43722,7 +43722,7 @@ return
 mir_
 -
 >
-toBuiltinProto
+toFunctionProto
 (
 )
 ;
