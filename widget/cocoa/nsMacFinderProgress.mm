@@ -183,9 +183,7 @@ mProgress
 {
 [
 mProgress
-.
-cancellationHandler
-release
+unpublish
 ]
 ;
 [
@@ -423,15 +421,6 @@ mProgress
 mProgress
 unpublish
 ]
-;
-[
-mProgress
-release
-]
-;
-mProgress
-=
-nil
 ;
 }
 return
