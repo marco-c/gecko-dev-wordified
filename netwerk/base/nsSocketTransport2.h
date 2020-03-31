@@ -2748,11 +2748,9 @@ nsSocketOutputStream
 socket
 timeouts
 are
-not
 protected
 by
-any
-lock
+mLock
 .
 uint16_t
 mTimeouts
