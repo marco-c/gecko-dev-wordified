@@ -3439,6 +3439,19 @@ push
 script
 )
 ;
+if
+(
+script
+.
+format
+=
+=
+=
+"
+js
+"
+)
+{
 addMatchingScripts
 (
 script
@@ -3448,6 +3461,7 @@ getChildScripts
 )
 )
 ;
+}
 }
 }
 }
