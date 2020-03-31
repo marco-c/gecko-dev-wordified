@@ -72,7 +72,13 @@ adb
 "
 devtools
 /
+client
+/
 shared
+/
+remote
+-
+debugging
 /
 adb
 /

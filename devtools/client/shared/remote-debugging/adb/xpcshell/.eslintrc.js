@@ -79,6 +79,12 @@ extends
 .
 /
 .
+.
+/
+.
+.
+/
+.
 eslintrc
 .
 xpcshell
