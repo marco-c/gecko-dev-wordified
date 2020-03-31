@@ -29691,6 +29691,12 @@ the
 transfer
 *
 param
+context
+*
+Additional
+data
+*
+param
 progress
 *
 The
@@ -29720,6 +29726,7 @@ function
 Downloader_onProgress
 (
 request
+context
 progress
 maxProgress
 )
@@ -29993,6 +30000,7 @@ listener
 onProgress
 (
 request
+context
 progress
 maxProgress
 )
@@ -30030,6 +30038,12 @@ the
 transfer
 *
 param
+context
+*
+Additional
+data
+*
+param
 status
 *
 A
@@ -30054,6 +30068,7 @@ function
 Downloader_onStatus
 (
 request
+context
 status
 statusText
 )
@@ -30148,6 +30163,7 @@ listener
 onStatus
 (
 request
+context
 status
 statusText
 )

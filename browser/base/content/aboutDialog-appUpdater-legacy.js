@@ -2631,6 +2631,7 @@ idl
 onStatus
 (
 aRequest
+aContext
 aStatus
 aStatusArg
 )
@@ -2649,6 +2650,7 @@ idl
 onProgress
 (
 aRequest
+aContext
 aProgress
 aProgressMax
 )

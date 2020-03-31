@@ -311,6 +311,7 @@ NS_ERROR_NO_INTERFACE
 onProgress
 (
 request
+context
 progress
 progressMax
 )
@@ -348,6 +349,7 @@ true
 onStatus
 (
 request
+context
 status
 statusArg
 )
