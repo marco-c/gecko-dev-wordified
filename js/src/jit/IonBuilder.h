@@ -4060,6 +4060,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_checkGlobalOrEvalDecl
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_notearg
 (
 )
