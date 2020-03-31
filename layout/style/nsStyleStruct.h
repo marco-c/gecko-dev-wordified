@@ -5884,13 +5884,12 @@ mTextCombineUpright
 /
 NS_STYLE_TEXT_COMBINE_UPRIGHT_
 *
-uint8_t
+mozilla
+:
+:
+StyleControlCharacterVisibility
 mControlCharacterVisibility
 ;
-/
-/
-NS_STYLE_CONTROL_CHARACTER_VISIBILITY_
-*
 uint8_t
 mTextEmphasisPosition
 ;

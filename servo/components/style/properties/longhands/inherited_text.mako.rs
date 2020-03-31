@@ -2725,10 +2725,10 @@ engines
 "
 gecko
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_CONTROL_CHARACTER_VISIBILITY
+StyleControlCharacterVisibility
 "
 animation_value_type
 =

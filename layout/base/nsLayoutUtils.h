@@ -21074,7 +21074,10 @@ from
 preferences
 .
 static
-uint8_t
+mozilla
+:
+:
+StyleControlCharacterVisibility
 ControlCharVisibilityDefault
 (
 )
