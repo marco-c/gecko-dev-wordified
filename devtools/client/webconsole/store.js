@@ -749,13 +749,13 @@ CONTEXT_SELECTOR
 }
 ;
 const
+{
 toolbox
+}
 =
 options
 .
 thunkArgs
-.
-toolbox
 ;
 const
 sessionId

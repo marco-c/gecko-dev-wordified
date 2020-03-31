@@ -153,11 +153,11 @@ action
 )
 ;
 const
+{
 type
+}
 =
 action
-.
-type
 ;
 if
 (

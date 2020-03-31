@@ -1165,15 +1165,15 @@ webConsoleUI
 document
 ;
 const
+{
 toolbox
+}
 =
 this
 .
 webConsoleUI
 .
 wrapper
-.
-toolbox
 ;
 const
 tooltipDoc

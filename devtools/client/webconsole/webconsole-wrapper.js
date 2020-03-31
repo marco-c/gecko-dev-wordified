@@ -1922,13 +1922,13 @@ queuedMessageAdds
 )
 ;
 const
+{
 length
+}
 =
 this
 .
 queuedMessageAdds
-.
-length
 ;
 /
 /
