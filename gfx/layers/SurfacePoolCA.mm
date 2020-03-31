@@ -440,8 +440,9 @@ entry
 .
 mGLResources
 =
-{
-}
+Nothing
+(
+)
 ;
 }
 }
