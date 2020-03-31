@@ -180,6 +180,7 @@ overflowing
 ;
 ok
 (
+!
 win
 .
 gBrowser
@@ -191,7 +192,7 @@ arrowScrollbox
 hasAttribute
 (
 "
-notoverflowing
+overflowing
 "
 )
 "
@@ -271,6 +272,7 @@ overflowing
 ;
 ok
 (
+!
 win
 .
 gBrowser
@@ -282,7 +284,7 @@ arrowScrollbox
 hasAttribute
 (
 "
-notoverflowing
+overflowing
 "
 )
 "
