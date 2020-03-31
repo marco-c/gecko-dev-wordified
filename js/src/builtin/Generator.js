@@ -451,7 +451,10 @@ containing
 the
 resumeGenerator
 /
-JSOP_RESUME
+JSOp
+:
+:
+Resume
 also
 has
 to
