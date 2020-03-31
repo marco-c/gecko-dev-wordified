@@ -135,6 +135,11 @@ ChromeWorker
 h
 '
 '
+JSExecutionManager
+.
+h
+'
+'
 Worker
 .
 h
@@ -266,6 +271,11 @@ cpp
 '
 '
 ChromeWorkerScope
+.
+cpp
+'
+'
+JSExecutionManager
 .
 cpp
 '

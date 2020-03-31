@@ -393,6 +393,17 @@ mozilla
 /
 dom
 /
+JSExecutionManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerGlobalScopeBinding
 .
 h
