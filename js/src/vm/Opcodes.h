@@ -18588,7 +18588,7 @@ Exceptions
 *
 Operands
 :
-uint16_t
+ThrowMsgKind
 msgNumber
 *
 Stack
@@ -18603,10 +18603,10 @@ MACRO
 ThrowMsg
 throw_msg
 NULL
-3
+2
 0
 0
-JOF_UINT16
+JOF_UINT8
 )
 \
 /

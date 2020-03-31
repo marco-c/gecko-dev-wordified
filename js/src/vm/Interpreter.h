@@ -4177,7 +4177,7 @@ JSContext
 cx
 const
 unsigned
-errorNum
+throwMsgKind
 )
 ;
 bool
