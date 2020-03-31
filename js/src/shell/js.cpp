@@ -61305,6 +61305,7 @@ ErrorReport
 :
 :
 WithSideEffects
+stack
 )
 )
 {
