@@ -2780,7 +2780,7 @@ searchBox
 =
 doc
 .
-getElementById
+querySelector
 (
 "
 search
@@ -2788,6 +2788,10 @@ search
 addons
 "
 )
+.
+input
+.
+inputField
 ;
 searchBox
 .
