@@ -946,13 +946,13 @@ seems
 clearer
 .
 return
-IsSigned
+std
+:
+:
+is_signed_v
 <
 T
 >
-:
-:
-value
 ?
 WrapToSigned
 (
