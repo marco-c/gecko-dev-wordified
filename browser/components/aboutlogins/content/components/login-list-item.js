@@ -610,5 +610,15 @@ icon
 )
 ;
 }
+else
+{
+alertIcon
+.
+src
+=
+"
+"
+;
+}
 }
 }
