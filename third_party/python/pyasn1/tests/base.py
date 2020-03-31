@@ -16,7 +16,7 @@ c
 )
 2005
 -
-2017
+2019
 Ilya
 Etingof
 <
@@ -32,18 +32,16 @@ http
 :
 /
 /
+snmplabs
+.
+com
+/
 pyasn1
-.
-sf
-.
-net
 /
 license
 .
 html
 #
-import
-sys
 try
 :
     

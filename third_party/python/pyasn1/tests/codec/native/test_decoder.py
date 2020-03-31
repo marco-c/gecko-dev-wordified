@@ -16,7 +16,7 @@ c
 )
 2005
 -
-2017
+2019
 Ilya
 Etingof
 <
@@ -32,11 +32,11 @@ http
 :
 /
 /
+snmplabs
+.
+com
+/
 pyasn1
-.
-sf
-.
-net
 /
 license
 .
@@ -69,6 +69,11 @@ pyasn1
 type
 import
 namedtype
+from
+pyasn1
+.
+type
+import
 univ
 from
 pyasn1
@@ -386,6 +391,8 @@ univ
 .
 Null
 (
+'
+'
 )
 class
 ObjectIdentifierDecoderTestCase
@@ -593,6 +600,8 @@ univ
 .
 Null
 (
+'
+'
 )
         
 s
