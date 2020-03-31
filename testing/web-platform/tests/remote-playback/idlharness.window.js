@@ -34,6 +34,13 @@ common
 media
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
