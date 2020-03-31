@@ -287,11 +287,9 @@ arrowscrollbox
 class
 =
 "
-popup
+menupopup
 -
-internal
--
-box
+arrowscrollbox
 "
 flex
 =
@@ -3655,11 +3653,9 @@ arrowscrollbox
 class
 =
 "
-popup
+menupopup
 -
-internal
--
-box
+arrowscrollbox
 "
 flex
 =
