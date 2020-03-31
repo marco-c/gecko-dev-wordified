@@ -541,9 +541,6 @@ click
 (
 )
 ;
-const
-size
-=
 await
 onRDMOpened
 ;
@@ -557,16 +554,7 @@ getResponsiveUIForTab
 tab
 )
 ;
-rdmUI
-.
-setViewportSize
-(
-size
-)
-;
-const
-onContentResize
-=
+await
 waitForResizeTo
 (
 rdmUI
@@ -595,9 +583,6 @@ update
 ;
 await
 onMediaChange
-;
-await
-onContentResize
 ;
 ok
 (
