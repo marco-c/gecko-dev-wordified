@@ -121,6 +121,11 @@ iostream
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 gtest
 /
@@ -163,7 +168,10 @@ expression_
 \
 static_assert
 (
-IsSame
+std
+:
+:
+is_same_v
 <
 type_
 decltype
@@ -174,9 +182,6 @@ expression_
 )
 )
 >
-:
-:
-value
 \
 "
 MOZ_DBG
@@ -200,7 +205,10 @@ expression_
 static_assert
 (
 \
-IsSame
+std
+:
+:
+is_same_v
 <
 decltype
 (
@@ -216,9 +224,6 @@ expression_
 )
 )
 >
-:
-:
-value
 \
 "
 MOZ_DBG
