@@ -493,6 +493,17 @@ NotifyAutoCopy
 (
 )
 {
+MOZ_ASSERT
+(
+mSelectionType
+=
+=
+SelectionType
+:
+:
+eNormal
+)
+;
 mNotifyAutoCopy
 =
 true
