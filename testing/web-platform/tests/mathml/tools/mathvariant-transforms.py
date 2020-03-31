@@ -574,6 +574,15 @@ s
 "
 %
 mathvariant
+"
+Copyright
+(
+c
+)
+2016
+MathML
+Association
+"
 )
     
 for

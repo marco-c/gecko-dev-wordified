@@ -49,6 +49,16 @@ d
 v1
 v2
 )
+                    
+"
+Copyright
+(
+c
+)
+2016
+MathML
+Association
+"
 )
 f
 .
