@@ -2406,6 +2406,7 @@ rv
 =
 NS_OK
 ;
+const
 Selection
 *
 selection
