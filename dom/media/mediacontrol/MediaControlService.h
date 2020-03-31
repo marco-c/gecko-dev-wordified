@@ -751,7 +751,7 @@ DisconnectMainControllerEvents
 (
 )
 ;
-nsTArray
+LinkedList
 <
 RefPtr
 <
