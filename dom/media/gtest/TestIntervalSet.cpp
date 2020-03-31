@@ -135,6 +135,11 @@ algorithm
 #
 include
 <
+type_traits
+>
+#
+include
+<
 vector
 >
 using
@@ -5766,10 +5771,10 @@ i
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 nsTArray_RelocationStrategy
 <
@@ -5783,9 +5788,6 @@ nsTArray_RelocateUsingMoveConstructor
 IntIntervals
 >
 >
-:
-:
-value
 "
 Must
 use
@@ -5796,10 +5798,10 @@ constructor
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 nsTArray_RelocationStrategy
 <
@@ -5819,9 +5821,6 @@ media
 TimeIntervals
 >
 >
-:
-:
-value
 "
 Must
 use

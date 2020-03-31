@@ -160,6 +160,11 @@ gtest
 .
 h
 >
+#
+include
+<
+type_traits
+>
 using
 mozilla
 :
@@ -1882,10 +1887,10 @@ MultiWriterMultiReader
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 MultiWriterQueue
 <
@@ -1899,9 +1904,6 @@ int
 MultiWriterQueueReaderLocking_Mutex
 >
 >
-:
-:
-value
 "
 MultiWriterQueue
 reader

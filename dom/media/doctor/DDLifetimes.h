@@ -120,6 +120,11 @@ define
 DDLifetimes_h_
 #
 include
+<
+type_traits
+>
+#
+include
 "
 DDLifetime
 .
@@ -492,7 +497,10 @@ continue
 }
 static_assert
 (
-IsSame
+std
+:
+:
+is_same_v
 <
 decltype
 (
@@ -503,9 +511,6 @@ lifetime
 )
 void
 >
-:
-:
-value
 "
 "
 )
@@ -663,7 +668,10 @@ aMediaElement
 {
 static_assert
 (
-IsSame
+std
+:
+:
+is_same_v
 <
 decltype
 (
@@ -674,9 +682,6 @@ lifetime
 )
 bool
 >
-:
-:
-value
 "
 "
 )

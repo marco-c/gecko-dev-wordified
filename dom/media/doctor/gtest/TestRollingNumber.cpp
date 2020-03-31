@@ -153,6 +153,11 @@ gtest
 .
 h
 >
+#
+include
+<
+type_traits
+>
 using
 RN8
 =
@@ -181,10 +186,10 @@ argument
 .
 static_assert
 (
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 RN8
 :
@@ -192,9 +197,6 @@ RN8
 ValueType
 uint8_t
 >
-:
-:
-value
 "
 "
 )

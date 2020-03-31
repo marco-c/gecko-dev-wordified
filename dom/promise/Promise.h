@@ -1769,7 +1769,10 @@ Args
 using
 IsHandlerCallback
 =
-IsSame
+std
+:
+:
+is_same
 <
 already_AddRefed
 <
