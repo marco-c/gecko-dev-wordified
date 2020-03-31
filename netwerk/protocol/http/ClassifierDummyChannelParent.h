@@ -176,9 +176,6 @@ aURI
 nsIURI
 *
 aTopWindowURI
-nsIPrincipal
-*
-aContentBlockingAllowListPrincipal
 nsresult
 aTopWindowURIResult
 nsILoadInfo

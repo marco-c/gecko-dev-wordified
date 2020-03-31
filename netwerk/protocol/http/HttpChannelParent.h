@@ -781,9 +781,6 @@ URIParams
 >
 &
 topWindowUri
-nsIPrincipal
-*
-aContentBlockingAllowListPrincipal
 const
 uint32_t
 &
