@@ -155,6 +155,11 @@ new
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
@@ -700,10 +705,10 @@ fallible_t
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-IsPointer
+is_pointer_v
 <
 typename
 EntryType
@@ -711,9 +716,6 @@ EntryType
 :
 KeyTypePointer
 >
-:
-:
-value
 "
 KeyTypePointer
 should
