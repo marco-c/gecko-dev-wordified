@@ -3886,6 +3886,7 @@ RecordEvent
 (
 RecordedCreateClippedDrawTarget
 (
+this
 similarDT
 .
 get
