@@ -3425,6 +3425,7 @@ ErrorReport
 :
 :
 WithSideEffects
+exnStack
 )
 )
 {
