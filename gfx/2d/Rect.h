@@ -1502,7 +1502,11 @@ Nothing
 is
 returned
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Maybe
 <
 Self
@@ -1603,7 +1607,11 @@ Nothing
 is
 returned
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Maybe
 <
 Self

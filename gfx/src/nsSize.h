@@ -293,7 +293,11 @@ scale
 to
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 nsSize
 ScaleToOtherAppUnits

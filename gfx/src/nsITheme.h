@@ -589,8 +589,12 @@ pixels
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 LayoutDeviceIntMargin
 GetWidgetBorder
 (

@@ -11392,7 +11392,11 @@ empty
 region
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsRegion
 ScaleToOtherAppUnitsRoundOut
 (
@@ -11403,7 +11407,11 @@ aToAPP
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsRegion
 ScaleToOtherAppUnitsRoundIn
 (
