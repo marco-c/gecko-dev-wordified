@@ -205,10 +205,6 @@ from
 itertools
 import
 chain
-from
-multiprocessing
-import
-cpu_count
 import
 six
 from
@@ -6977,11 +6973,30 @@ path
 )
 )
         
-max_workers
-=
-cpu_count
-(
-)
+#
+ProcessPoolExecutor
+will
+naturally
+default
+to
+the
+number
+of
+CPUs
+        
+#
+on
+the
+machine
+and
+will
+also
+handle
+edge
+cases
+on
+Windows
+.
         
 self
 .
@@ -6989,9 +7004,6 @@ _gyp_worker_pool
 =
 ProcessPoolExecutor
 (
-max_workers
-=
-max_workers
 )
         
 self
