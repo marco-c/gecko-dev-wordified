@@ -1975,13 +1975,13 @@ PackingStrategy
 value
 =
 (
-IsEmpty
+std
+:
+:
+is_empty_v
 <
 V
 >
-:
-:
-value
 &
 &
 UnusedZero
