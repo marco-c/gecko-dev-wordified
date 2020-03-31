@@ -648,7 +648,7 @@ moz_xmalloc
 size_t
 size
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 MFBT_API
 void
@@ -660,7 +660,7 @@ nmemb
 size_t
 size
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 MFBT_API
 void
@@ -673,7 +673,7 @@ ptr
 size_t
 size
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 MFBT_API
 char
@@ -685,7 +685,7 @@ char
 *
 str
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 #
 if
@@ -705,7 +705,7 @@ str
 size_t
 strsize
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 #
 endif
@@ -730,7 +730,7 @@ ptr
 size_t
 size
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 MFBT_API
 void
@@ -742,7 +742,7 @@ boundary
 size_t
 size
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 MFBT_API
 size_t
