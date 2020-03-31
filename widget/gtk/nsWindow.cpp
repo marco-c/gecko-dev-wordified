@@ -25581,6 +25581,7 @@ mCSDSupportLevel
 =
 GetSystemCSDSupportLevel
 (
+mIsPIPWindow
 )
 ;
 /
@@ -46936,6 +46937,8 @@ nsWindow
 :
 GetSystemCSDSupportLevel
 (
+bool
+aIsPIPWindow
 )
 {
 if
@@ -47151,7 +47154,11 @@ nullptr
 {
 sCSDSupportLevel
 =
+aIsPIPWindow
+?
 CSD_SUPPORT_CLIENT
+:
+CSD_SUPPORT_SYSTEM
 ;
 /
 /
@@ -47176,7 +47183,11 @@ nullptr
 {
 sCSDSupportLevel
 =
+aIsPIPWindow
+?
 CSD_SUPPORT_CLIENT
+:
+CSD_SUPPORT_SYSTEM
 ;
 }
 else
