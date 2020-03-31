@@ -89,7 +89,7 @@ CompileFunction
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 #
 include
 "
@@ -276,7 +276,7 @@ our
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 call
 opts
 .
@@ -299,7 +299,7 @@ CHECK
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 opts
