@@ -4524,9 +4524,7 @@ fromTypeCode
 (
 TypeCode
 (
-uncheckedReadVarU32
-(
-)
+code
 )
 )
 ;
