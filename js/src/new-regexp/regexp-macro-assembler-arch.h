@@ -606,6 +606,17 @@ on_bit_set
 )
 ;
 virtual
+bool
+CheckSpecialCharacterClass
+(
+uc16
+type
+Label
+*
+on_no_match
+)
+;
+virtual
 void
 LoadCurrentCharacterImpl
 (
