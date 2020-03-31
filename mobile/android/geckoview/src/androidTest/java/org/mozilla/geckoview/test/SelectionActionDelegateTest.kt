@@ -1485,8 +1485,8 @@ try
 {
 clipboard
 .
-setPrimaryClip
-(
+primaryClip
+=
 ClipData
 .
 newPlainText
@@ -1494,7 +1494,6 @@ newPlainText
 "
 "
 content
-)
 )
 sessionRule
 .
@@ -1528,8 +1527,8 @@ finally
 {
 clipboard
 .
-setPrimaryClip
-(
+primaryClip
+=
 oldClip
 ?
 :
@@ -1541,7 +1540,6 @@ newPlainText
 "
 "
 "
-)
 )
 }
 }
