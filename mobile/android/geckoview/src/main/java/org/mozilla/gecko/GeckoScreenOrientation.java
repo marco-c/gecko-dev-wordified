@@ -1160,7 +1160,7 @@ else
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 notifier
 )
