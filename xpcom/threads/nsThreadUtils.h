@@ -3801,7 +3801,10 @@ override
 {
 static_assert
 (
-IsVoid
+std
+:
+:
+is_void_v
 <
 decltype
 (
@@ -3810,9 +3813,6 @@ mFunction
 )
 )
 >
-:
-:
-value
 "
 The
 lambda
