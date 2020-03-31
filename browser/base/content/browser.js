@@ -35772,6 +35772,13 @@ false
 aBrowser
 )
 ;
+CaptivePortalWatcher
+.
+onLocationChange
+(
+aBrowser
+)
+;
 }
 onLinkIconAvailable
 (
