@@ -1518,7 +1518,9 @@ self
 _replayed
                  
 "
-not_replayed
+not
+-
+replayed
 "
 :
 self
@@ -1536,6 +1538,48 @@ confidence
 100
 )
 }
+        
+file_name
+=
+"
+mitm_netlocs_
+%
+s
+.
+json
+"
+%
+\
+                    
+os
+.
+path
+.
+splitext
+(
+                        
+os
+.
+path
+.
+basename
+(
+                            
+ctx
+.
+options
+.
+server_replay_files
+[
+0
+]
+                        
+)
+                    
+)
+[
+0
+]
         
 path
 =
@@ -1557,11 +1601,7 @@ options
 .
 upload_dir
                                              
-"
-mitm_netlocs
-.
-json
-"
+file_name
 )
 )
         
