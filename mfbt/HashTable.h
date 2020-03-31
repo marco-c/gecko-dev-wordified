@@ -9225,7 +9225,10 @@ V
 >
 >
 :
-IntegralConstant
+std
+:
+:
+integral_constant
 <
 bool
 IsPod

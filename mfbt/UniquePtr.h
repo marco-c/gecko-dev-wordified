@@ -272,7 +272,10 @@ class
 HasPointerType
 :
 public
-IntegralConstant
+std
+:
+:
+integral_constant
 <
 bool
 sizeof

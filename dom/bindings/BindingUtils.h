@@ -20521,7 +20521,10 @@ T
 using
 IsGlobalWithXPConnect
 =
-IntegralConstant
+std
+:
+:
+integral_constant
 <
 bool
 std

@@ -438,7 +438,10 @@ TargetTypes
 true
 >
 :
-IntegralConstant
+std
+:
+:
+integral_constant
 <
 bool
 tl
