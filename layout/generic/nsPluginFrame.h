@@ -1125,8 +1125,6 @@ BeginSwapDocShells
 nsISupports
 *
 aSupports
-void
-*
 )
 ;
 /
@@ -1163,8 +1161,6 @@ EndSwapDocShells
 nsISupports
 *
 aSupports
-void
-*
 )
 ;
 nsIWidget
