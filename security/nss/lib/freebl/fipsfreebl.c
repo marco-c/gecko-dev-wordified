@@ -2631,7 +2631,7 @@ unsigned
 int
 aes_bytes_decrypted
 ;
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 gcmParams
 ;
 SECStatus

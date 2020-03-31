@@ -417,7 +417,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -1120,7 +1120,7 @@ slot
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 return
 CKR_SESSION_HANDLE_INVALID
@@ -1734,7 +1734,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -2117,7 +2117,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 rwsession
@@ -2132,7 +2132,7 @@ if
 rwsession
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 PK11_EnterSlotMonitor
 (
@@ -2145,7 +2145,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -2225,7 +2225,7 @@ if
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PK11_ExitSlotMonitor
@@ -6902,7 +6902,7 @@ slot
 PK11_SETATTRS
 (
 attrs
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 idValue
 -
 >
@@ -7091,7 +7091,7 @@ if
 rwsession
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 PK11_EnterSlotMonitor
 (
@@ -7139,7 +7139,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -9470,7 +9470,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -9790,7 +9790,7 @@ slot
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 crv
@@ -10057,7 +10057,7 @@ if
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 crv
@@ -11190,7 +11190,7 @@ slot
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 crv

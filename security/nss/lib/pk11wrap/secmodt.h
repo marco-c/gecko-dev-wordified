@@ -658,16 +658,6 @@ this
 library
 *
 /
-CK_FLAGS
-flags
-;
-/
-*
-pkcs11
-v3
-flags
-*
-/
 }
 ;
 /

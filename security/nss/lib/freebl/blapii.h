@@ -385,11 +385,6 @@ avx_support
 )
 ;
 PRBool
-avx2_support
-(
-)
-;
-PRBool
 ssse3_support
 (
 )

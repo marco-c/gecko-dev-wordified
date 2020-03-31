@@ -6993,7 +6993,7 @@ unsigned
 int
 ivlen
 ;
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 params
 ;
 SECStatus

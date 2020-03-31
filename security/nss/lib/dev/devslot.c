@@ -1057,7 +1057,7 @@ session
 handle
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 /
@@ -1090,7 +1090,7 @@ session
 >
 handle
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 ;
 }
 nssSession_ExitMonitor
@@ -1260,7 +1260,7 @@ session
 handle
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 CK_SESSION_INFO
@@ -1322,7 +1322,7 @@ session
 >
 handle
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 ;
 }
 }
@@ -1335,7 +1335,7 @@ session
 handle
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 ;
 nssSession_ExitMonitor

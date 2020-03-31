@@ -10249,18 +10249,9 @@ unsigned
 int
 uOutLen
 ;
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 gcmParams
 ;
-/
-*
-future
-use
-CK_GCM_PARAMS_V3
-with
-fallback
-*
-/
 const
 int
 tagSize
@@ -69954,7 +69945,7 @@ SSL_LIBRARY_VERSION_TLS_1_2
 {
 tls_mac_params
 .
-prfHashMechanism
+prfMechanism
 =
 CKM_TLS_PRF
 ;
@@ -69963,7 +69954,7 @@ else
 {
 tls_mac_params
 .
-prfHashMechanism
+prfMechanism
 =
 ssl3_GetPrfHashMechanism
 (

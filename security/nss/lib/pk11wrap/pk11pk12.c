@@ -2456,7 +2456,7 @@ slot
 PK11_SETATTRS
 (
 attrs
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 publicValue
 -
 >
@@ -2772,7 +2772,7 @@ slot
 PK11_SETATTRS
 (
 attrs
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 publicValue
 -
 >
@@ -3000,7 +3000,7 @@ slot
 PK11_SETATTRS
 (
 attrs
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 lpk
 -
 >
@@ -3370,7 +3370,7 @@ rv
 PK11_CreateNewObject
 (
 slot
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 theTemplate
 templateCount
 isPerm
