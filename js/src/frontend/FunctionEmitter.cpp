@@ -4311,6 +4311,10 @@ cx
 bce_
 -
 >
+compilationInfo
+bce_
+-
+>
 script
 stencil
 )

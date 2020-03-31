@@ -370,7 +370,9 @@ isFunction
 )
 )
 {
-functionBox
+FunctionBox
+*
+funbox
 =
 bce_
 .
@@ -379,6 +381,18 @@ sc
 >
 asFunctionBox
 (
+)
+;
+functionIndex
+.
+emplace
+(
+funbox
+-
+>
+index
+(
+)
 )
 ;
 /
@@ -407,7 +421,7 @@ ImmutableScriptFlagsEnum
 :
 :
 HasMappedArgsObj
-functionBox
+funbox
 -
 >
 hasMappedArgsObj
@@ -423,7 +437,7 @@ ImmutableScriptFlagsEnum
 :
 :
 FunctionHasExtraBodyVarScope
-functionBox
+funbox
 -
 >
 hasExtraBodyVarScope
@@ -439,7 +453,7 @@ ImmutableScriptFlagsEnum
 :
 :
 AlwaysNeedsArgsObj
-functionBox
+funbox
 -
 >
 definitelyNeedsArgsObj
@@ -455,7 +469,7 @@ ImmutableScriptFlagsEnum
 :
 :
 ArgumentsHasVarBinding
-functionBox
+funbox
 -
 >
 argumentsHasLocalBinding

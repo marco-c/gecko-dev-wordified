@@ -14152,6 +14152,15 @@ cx
 js
 :
 :
+frontend
+:
+:
+CompilationInfo
+&
+compilationInfo
+js
+:
+:
 HandleScript
 script
 js

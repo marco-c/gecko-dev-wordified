@@ -2279,6 +2279,7 @@ JSScript
 fullyInitFromStencil
 (
 cx
+compilationInfo
 script
 stencil
 )
