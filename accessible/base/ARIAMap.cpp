@@ -2912,7 +2912,7 @@ _empty
 roles
 :
 :
-NOTHING
+TEXT_CONTAINER
 kUseMapRole
 eNoValue
 eNoAction
