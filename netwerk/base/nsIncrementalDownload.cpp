@@ -839,6 +839,12 @@ mObserver
 ;
 nsCOMPtr
 <
+nsISupports
+>
+mObserverContext
+;
+nsCOMPtr
+<
 nsIProgressEventSink
 >
 mProgressSink
@@ -1105,6 +1111,7 @@ mProgressSink
 OnProgress
 (
 this
+mObserverContext
 mCurrentSize
 +
 mChunkLen
@@ -1204,6 +1211,10 @@ mStatus
 )
 ;
 mObserver
+=
+nullptr
+;
+mObserverContext
 =
 nullptr
 ;
@@ -2625,6 +2636,10 @@ rv
 mObserver
 =
 observer
+;
+mObserverContext
+=
+context
 ;
 mProgressSink
 =

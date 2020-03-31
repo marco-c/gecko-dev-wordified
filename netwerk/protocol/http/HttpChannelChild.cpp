@@ -662,6 +662,9 @@ OnStatus
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 status
 const
@@ -698,6 +701,9 @@ OnProgress
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 int64_t
 aProgress
 int64_t
@@ -808,6 +814,7 @@ host
 OnStatus
 (
 mOwner
+nullptr
 NS_NET_STATUS_READING
 NS_ConvertUTF8toUTF16
 (
@@ -829,6 +836,7 @@ aCount
 OnProgress
 (
 mOwner
+nullptr
 progress
 mOwner
 -
@@ -5940,6 +5948,7 @@ mProgressSink
 OnStatus
 (
 aRequest
+nullptr
 status
 NS_ConvertUTF8toUTF16
 (
@@ -6085,6 +6094,7 @@ mProgressSink
 OnProgress
 (
 aRequest
+nullptr
 progress
 progressMax
 )

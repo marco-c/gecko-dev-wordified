@@ -19213,6 +19213,9 @@ OnProgress
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 int64_t
 aProgress
 int64_t
@@ -19344,6 +19347,7 @@ mProgressEventSink
 OnProgress
 (
 aRequest
+aContext
 aProgress
 aProgressMax
 )
@@ -19362,6 +19366,9 @@ OnStatus
 nsIRequest
 *
 aRequest
+nsISupports
+*
+aContext
 nsresult
 aStatus
 const
@@ -19381,6 +19388,7 @@ mProgressEventSink
 OnStatus
 (
 aRequest
+aContext
 aStatus
 aStatusArg
 )
