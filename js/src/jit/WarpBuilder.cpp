@@ -12394,7 +12394,7 @@ bool
 WarpBuilder
 :
 :
-build_BuiltinProto
+build_FunctionProto
 (
 BytecodeLocation
 loc
@@ -12408,7 +12408,7 @@ snapshot
 =
 getOpSnapshot
 <
-WarpBuiltinProto
+WarpFunctionProto
 >
 (
 loc
@@ -12443,17 +12443,12 @@ auto
 *
 ins
 =
-MBuiltinProto
+MFunctionProto
 :
 :
 New
 (
 alloc
-(
-)
-loc
-.
-toRawBytecode
 (
 )
 )

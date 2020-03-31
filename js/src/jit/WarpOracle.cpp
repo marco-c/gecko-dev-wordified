@@ -1726,7 +1726,7 @@ case
 JSOp
 :
 :
-BuiltinProto
+FunctionProto
 :
 {
 /
@@ -1743,15 +1743,6 @@ bake
 it
 in
 .
-JSProtoKey
-key
-=
-loc
-.
-getProtoKey
-(
-)
-;
 if
 (
 JSObject
@@ -1768,7 +1759,7 @@ global
 >
 maybeGetPrototype
 (
-key
+JSProto_Function
 )
 )
 {
@@ -1777,7 +1768,7 @@ if
 !
 AddOpSnapshot
 <
-WarpBuiltinProto
+WarpFunctionProto
 >
 (
 alloc_
