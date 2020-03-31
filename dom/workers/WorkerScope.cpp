@@ -1169,6 +1169,10 @@ NoteTerminating
 (
 )
 {
+DisconnectEventTargetObjects
+(
+)
+;
 StartDying
 (
 )
