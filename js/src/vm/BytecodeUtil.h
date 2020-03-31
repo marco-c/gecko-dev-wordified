@@ -2630,6 +2630,12 @@ case
 JSOp
 :
 :
+ThrowSetConst
+:
+case
+JSOp
+:
+:
 TableSwitch
 :
 return
