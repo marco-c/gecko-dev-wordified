@@ -4230,8 +4230,14 @@ EndOffset
 )
 ;
 }
+/
+/
+static
 int32_t
 Selection
+:
+:
+StyledRanges
 :
 :
 FindInsertionPoint
@@ -6511,6 +6517,9 @@ container
 int32_t
 insertionPoint
 {
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 &
@@ -7453,6 +7462,9 @@ discarded
 int32_t
 endsBeforeIndex
 {
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 &
@@ -7640,6 +7652,9 @@ endsBeforeIndex
 int32_t
 beginsAfterIndex
 {
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 &
