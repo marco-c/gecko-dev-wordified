@@ -1465,7 +1465,6 @@ to
 debuggers
 .
 static
-inline
 void
 onNewScript
 (
@@ -2735,17 +2734,6 @@ script
 jsbytecode
 *
 pc
-)
-;
-static
-void
-slowPathOnNewScript
-(
-JSContext
-*
-cx
-HandleScript
-script
 )
 ;
 static
