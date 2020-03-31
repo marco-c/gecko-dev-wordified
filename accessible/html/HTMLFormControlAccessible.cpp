@@ -5476,6 +5476,12 @@ legendContent
 aName
 )
 ;
+aName
+.
+CompressWhitespace
+(
+)
+;
 return
 eNameOK
 ;
