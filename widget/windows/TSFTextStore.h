@@ -4366,9 +4366,7 @@ mRanges
 /
 For
 eKeyboardEvent
-const
 MSG
-*
 mKeyMsg
 ;
 /
