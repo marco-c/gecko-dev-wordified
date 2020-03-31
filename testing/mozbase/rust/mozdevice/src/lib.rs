@@ -2696,6 +2696,7 @@ write_all
 (
 encode_message
 (
+&
 command
 )
 ?
@@ -3115,6 +3116,13 @@ format
 !
 (
 "
+host
+-
+serial
+:
+{
+}
+:
 forward
 :
 tcp
@@ -3127,6 +3135,9 @@ tcp
 {
 }
 "
+self
+.
+serial
 local
 remote
 )
@@ -3138,7 +3149,7 @@ self
 .
 host
 .
-execute_host_command
+execute_command
 (
 &
 command
@@ -3213,8 +3224,6 @@ local
 ;
 self
 .
-host
-.
 execute_host_command
 (
 &
@@ -3248,8 +3257,6 @@ Result
 >
 {
 self
-.
-host
 .
 execute_host_command
 (
