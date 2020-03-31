@@ -346,13 +346,7 @@ u8
 assert
 !
 (
-(
 as_num
--
-self
-.
-first_unit
-)
 <
 self
 .
@@ -378,13 +372,7 @@ self
 units
 )
 ;
-(
 as_num
--
-self
-.
-first_unit
-)
 as
 usize
 }

@@ -471,7 +471,7 @@ func
 .
 layout
 .
-block_insts
+block_likely_branches
 (
 block
 )

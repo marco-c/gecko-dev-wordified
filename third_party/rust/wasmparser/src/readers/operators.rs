@@ -295,9 +295,10 @@ Ok
 Err
 (
 BinaryReaderError
-{
-message
 :
+:
+new
+(
 "
 Unexpected
 data
@@ -307,8 +308,6 @@ end
 of
 operators
 "
-offset
-:
 self
 .
 reader
@@ -316,7 +315,7 @@ reader
 original_position
 (
 )
-}
+)
 )
 }
 pub

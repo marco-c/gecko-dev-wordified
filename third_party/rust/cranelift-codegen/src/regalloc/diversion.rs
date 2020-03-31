@@ -64,7 +64,7 @@ diversions
 are
 local
 to
-an
+a
 block
 .
 No
@@ -331,7 +331,7 @@ track
 of
 diversions
 in
-an
+a
 block
 .
 #

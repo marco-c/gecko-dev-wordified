@@ -1731,7 +1731,7 @@ the
 block
 header
 for
-an
+a
 block
 argument
 value
@@ -1811,7 +1811,7 @@ for
 ordering
 instructions
 inside
-an
+a
 block
 *
 and
@@ -3687,14 +3687,14 @@ defined
 This
 will
 be
-an
+a
 block
 header
 when
 the
 value
 is
-an
+a
 block
 argument
 otherwise
@@ -3882,7 +3882,7 @@ this
 live
 range
 in
-an
+a
 block
 where
 it
@@ -4101,7 +4101,7 @@ block
 /
 /
 /
-An
+A
 block
 argument
 is
@@ -5668,7 +5668,7 @@ The
 def
 interval
 of
-an
+a
 block
 argument
 does
