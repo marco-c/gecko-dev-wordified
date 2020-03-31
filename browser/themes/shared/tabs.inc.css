@@ -3531,8 +3531,6 @@ scrolledtostart
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 start
@@ -3554,8 +3552,6 @@ scrolledtoend
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 end
@@ -3739,8 +3735,6 @@ rtl
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 start
@@ -3765,8 +3759,6 @@ ltr
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 end
@@ -3798,8 +3790,6 @@ scrolledtostart
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 start
@@ -3841,8 +3831,6 @@ scrolledtoend
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 end
@@ -3880,8 +3868,6 @@ scrolledtostart
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 start
@@ -3899,8 +3885,6 @@ scrolledtoend
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 end
@@ -3921,8 +3905,6 @@ arrowscrollbox
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 start
@@ -3937,8 +3919,6 @@ arrowscrollbox
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 end

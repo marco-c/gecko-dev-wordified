@@ -625,8 +625,6 @@ box
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 start
@@ -651,8 +649,6 @@ box
 :
 part
 (
-arrowscrollbox
--
 overflow
 -
 end
