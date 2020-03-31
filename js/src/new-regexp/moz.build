@@ -227,6 +227,17 @@ cc
 '
 regexp
 -
+native
+-
+macro
+-
+assembler
+.
+cc
+'
+'
+regexp
+-
 parser
 .
 cc
