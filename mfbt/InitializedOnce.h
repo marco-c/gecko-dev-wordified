@@ -400,6 +400,7 @@ Dummy
 void
 >
 explicit
+constexpr
 InitializedOnce
 (
 std
@@ -467,6 +468,7 @@ typename
 Args
 >
 explicit
+constexpr
 InitializedOnce
 (
 Arg0
@@ -710,6 +712,7 @@ Dummy
 =
 void
 >
+constexpr
 std
 :
 :
@@ -794,6 +797,7 @@ mMaybe
 )
 ;
 }
+constexpr
 explicit
 operator
 bool
@@ -807,6 +811,7 @@ isSome
 )
 ;
 }
+constexpr
 bool
 isSome
 (
@@ -821,6 +826,7 @@ isSome
 )
 ;
 }
+constexpr
 bool
 isNothing
 (
@@ -835,6 +841,7 @@ isNothing
 )
 ;
 }
+constexpr
 T
 &
 operator
@@ -848,6 +855,7 @@ return
 mMaybe
 ;
 }
+constexpr
 T
 *
 operator
