@@ -1264,7 +1264,7 @@ insertFrameAndAwaitLoad
 (
 test
 iframe
-document
+doc
 )
 {
 const
@@ -1294,7 +1294,7 @@ load
 '
 )
 ;
-document
+doc
 .
 body
 .
@@ -1312,7 +1312,7 @@ add_cleanup
 =
 >
 {
-document
+doc
 .
 body
 .
