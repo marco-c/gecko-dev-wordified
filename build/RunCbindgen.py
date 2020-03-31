@@ -201,6 +201,25 @@ CARGO
 ]
 )
     
+env
+[
+'
+RUSTC
+'
+]
+=
+str
+(
+buildconfig
+.
+substs
+[
+'
+RUSTC
+'
+]
+)
+    
 p
 =
 subprocess
