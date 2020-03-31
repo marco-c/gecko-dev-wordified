@@ -352,6 +352,10 @@ override
 ;
 protected
 :
+friend
+class
+xpcAccessibleMacInterface
+;
 /
 *
 *
