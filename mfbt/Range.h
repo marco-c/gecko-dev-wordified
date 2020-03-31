@@ -335,8 +335,10 @@ typename
 U
 class
 =
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 std
 :
@@ -358,9 +360,6 @@ T
 >
 int
 >
-:
-:
-Type
 >
 MOZ_IMPLICIT
 Range
@@ -419,8 +418,10 @@ typename
 U
 class
 =
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 std
 :
@@ -442,9 +443,6 @@ T
 >
 int
 >
-:
-:
-Type
 >
 MOZ_IMPLICIT
 Range

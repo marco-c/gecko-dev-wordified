@@ -3544,8 +3544,10 @@ T
 :
 :
 Type
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 std
 :
@@ -3561,9 +3563,6 @@ nonCV
 value
 int
 >
-:
-:
-Type
 =
 0
 >

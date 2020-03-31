@@ -123,6 +123,11 @@ mozilla_dom_Promise_h
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
@@ -1827,8 +1832,10 @@ Args
 using
 ThenResult
 =
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 IsHandlerCallback
 <
@@ -1850,9 +1857,6 @@ Promise
 nsresult
 >
 >
-:
-:
-Type
 ;
 /
 /

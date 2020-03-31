@@ -145,6 +145,11 @@ queue
 #
 include
 <
+type_traits
+>
+#
+include
+<
 unistd
 .
 h
@@ -1211,8 +1216,10 @@ Instance
 class
 Impl
 >
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 jni
 :
@@ -1238,9 +1245,6 @@ detail
 REFPTR
 void
 >
-:
-:
-Type
 CallAttachNative
 (
 Instance
@@ -1277,8 +1281,10 @@ Instance
 class
 Impl
 >
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 jni
 :
@@ -1304,9 +1310,6 @@ detail
 OWNING
 void
 >
-:
-:
-Type
 CallAttachNative
 (
 Instance
