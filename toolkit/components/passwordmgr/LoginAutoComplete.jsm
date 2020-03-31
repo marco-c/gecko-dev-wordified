@@ -820,7 +820,7 @@ AutocompleteItem
 constructor
 (
 login
-isPasswordField
+hasBeenTypePassword
 duplicateUsernames
 actor
 isOriginMatched
@@ -976,7 +976,7 @@ value
 >
 {
 return
-isPasswordField
+hasBeenTypePassword
 ?
 login
 .
@@ -1318,7 +1318,7 @@ generatedPassword
 willAutoSaveGeneratedPassword
 isSecure
 actor
-isPasswordField
+hasBeenTypePassword
 hostname
 telemetryEventData
 }
@@ -1421,7 +1421,7 @@ filled
 .
 if
 (
-isPasswordField
+hasBeenTypePassword
 &
 &
 aSearchString
@@ -1463,7 +1463,7 @@ length
 generatedPassword
 &
 &
-isPasswordField
+hasBeenTypePassword
 &
 &
 formFillController
@@ -1625,7 +1625,7 @@ new
 LoginAutocompleteItem
 (
 login
-isPasswordField
+hasBeenTypePassword
 duplicateUsernames
 actor
 LoginHelper
@@ -2697,16 +2697,11 @@ form
 ;
 }
 let
-isPasswordField
+{
+hasBeenTypePassword
+}
 =
 aElement
-.
-type
-=
-=
-"
-password
-"
 ;
 let
 hostname
@@ -2909,7 +2904,7 @@ actor
 :
 loginManagerActor
 isSecure
-isPasswordField
+hasBeenTypePassword
 hostname
 telemetryEventData
 }
@@ -2982,7 +2977,7 @@ return
 }
 if
 (
-isPasswordField
+hasBeenTypePassword
 &
 &
 aSearchString
@@ -3116,7 +3111,7 @@ inputElement
 aElement
 form
 formOrigin
-isPasswordField
+hasBeenTypePassword
 }
 )
 ;
@@ -3158,7 +3153,7 @@ previousResult
 inputElement
 form
 formOrigin
-isPasswordField
+hasBeenTypePassword
 }
 )
 {
@@ -3205,7 +3200,7 @@ false
 ;
 if
 (
-isPasswordField
+hasBeenTypePassword
 )
 {
 forcePasswordGeneration
@@ -3274,6 +3269,7 @@ actionOrigin
 searchString
 previousResult
 forcePasswordGeneration
+hasBeenTypePassword
 isSecure
 :
 InsecurePasswordUtils
@@ -3282,7 +3278,6 @@ isFormSecure
 (
 form
 )
-isPasswordField
 isProbablyANewPasswordField
 }
 ;
@@ -3316,11 +3311,11 @@ isSecure
 messageData
 .
 isSecure
-isPasswordField
+hasBeenTypePassword
 isProbablyANewPasswordField
 searchString
 :
-isPasswordField
+hasBeenTypePassword
 ?
 "
 *

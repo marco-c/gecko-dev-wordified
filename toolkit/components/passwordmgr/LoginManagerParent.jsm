@@ -2333,8 +2333,8 @@ actionOrigin
 searchString
 previousResult
 forcePasswordGeneration
+hasBeenTypePassword
 isSecure
-isPasswordField
 isProbablyANewPasswordField
 }
 )
@@ -2710,7 +2710,7 @@ fields
 .
 if
 (
-isPasswordField
+hasBeenTypePassword
 )
 {
 return

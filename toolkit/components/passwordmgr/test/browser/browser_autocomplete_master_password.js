@@ -804,12 +804,12 @@ searchString
 previousResult
 :
 null
+hasBeenTypePassword
+:
+true
 isSecure
 :
 false
-isPasswordField
-:
-true
 isProbablyANewPasswordField
 :
 true
