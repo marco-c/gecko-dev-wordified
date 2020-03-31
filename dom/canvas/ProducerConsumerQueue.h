@@ -12292,7 +12292,10 @@ IsTriviallySerializable
 PcqStatus
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
@@ -15789,7 +15792,10 @@ base
 SharedMemoryHandle
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

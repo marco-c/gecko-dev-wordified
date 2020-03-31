@@ -163,6 +163,11 @@ div
 )
 #
 include
+<
+type_traits
+>
+#
+include
 "
 gfxContext
 .
@@ -2234,7 +2239,10 @@ nsGridContainerFrame
 TrackSize
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

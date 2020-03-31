@@ -133,6 +133,11 @@ for
 uint32_t
 #
 include
+<
+type_traits
+>
+#
+include
 "
 gfxTypes
 .
@@ -223,7 +228,10 @@ IsPixel
 ExternalPixel
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

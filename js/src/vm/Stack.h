@@ -712,7 +712,10 @@ js
 MaybeCheckTDZ
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

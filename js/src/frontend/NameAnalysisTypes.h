@@ -116,6 +116,11 @@ define
 frontend_NameAnalysisTypes_h
 #
 include
+<
+type_traits
+>
+#
+include
 "
 vm
 /
@@ -1960,7 +1965,10 @@ frontend
 DeclaredNameInfo
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
@@ -1979,7 +1987,10 @@ frontend
 NameLocation
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

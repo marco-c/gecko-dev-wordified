@@ -671,10 +671,10 @@ Extent
 >
 >
 :
-mozilla
+std
 :
 :
-TrueType
+true_type
 {
 }
 ;
@@ -735,10 +735,10 @@ Extent
 >
 >
 :
-mozilla
+std
 :
 :
-TrueType
+true_type
 {
 }
 ;

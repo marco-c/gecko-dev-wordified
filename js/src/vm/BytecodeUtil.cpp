@@ -210,6 +210,11 @@ h
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 jsapi
 .
@@ -2199,7 +2204,10 @@ IsPod
 OffsetAndDefIndex
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
