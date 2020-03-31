@@ -3624,8 +3624,6 @@ into
 (
 )
 width
-:
-width
 }
 )
 }
@@ -3921,6 +3919,8 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -3964,6 +3964,8 @@ Debug
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]

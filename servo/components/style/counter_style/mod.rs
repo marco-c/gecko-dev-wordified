@@ -3036,6 +3036,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToResolvedValue
 ToCss
 ToShmem
 )
@@ -4182,6 +4183,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToComputedValue
+ToResolvedValue
 ToCss
 ToShmem
 )

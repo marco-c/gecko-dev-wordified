@@ -1659,7 +1659,9 @@ MallocSizeOf
 Parse
 PartialEq
 SpecifiedValueInfo
+ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]

@@ -3244,6 +3244,7 @@ Eq
 MallocSizeOf
 PartialEq
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]

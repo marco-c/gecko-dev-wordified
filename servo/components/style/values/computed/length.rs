@@ -1304,6 +1304,7 @@ PartialOrd
 Serialize
 ToAnimatedValue
 ToAnimatedZero
+ToComputedValue
 ToResolvedValue
 ToShmem
 )

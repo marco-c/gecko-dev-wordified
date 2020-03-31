@@ -225,6 +225,8 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]

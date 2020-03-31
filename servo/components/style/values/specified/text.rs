@@ -1095,7 +1095,9 @@ Eq
 MallocSizeOf
 PartialEq
 SpecifiedValueInfo
+ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -4375,6 +4377,8 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -4465,6 +4469,8 @@ Parse
 PartialEq
 SpecifiedValueInfo
 ToCss
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]

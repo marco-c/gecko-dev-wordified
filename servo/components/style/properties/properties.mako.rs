@@ -7475,6 +7475,8 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -9561,6 +9563,8 @@ Eq
 Hash
 MallocSizeOf
 PartialEq
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
