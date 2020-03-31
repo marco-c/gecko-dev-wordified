@@ -216,6 +216,9 @@ aFunc
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -277,6 +280,9 @@ aFrameRect
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -336,6 +342,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -425,6 +434,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -531,6 +543,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -637,6 +652,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -742,6 +760,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -847,6 +868,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -952,6 +976,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1097,6 +1124,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1242,6 +1272,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1386,6 +1419,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1530,6 +1566,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1676,6 +1715,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1783,6 +1825,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1889,6 +1934,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1995,6 +2043,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2100,6 +2151,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2205,6 +2259,9 @@ IntRect
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

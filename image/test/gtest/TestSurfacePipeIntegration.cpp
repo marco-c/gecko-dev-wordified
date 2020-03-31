@@ -264,6 +264,9 @@ CheckSurfacePipeMethodResults
 SurfacePipe
 *
 aPipe
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -684,6 +687,9 @@ pipeline
 .
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1306,6 +1312,9 @@ DeinterlaceDownscaleWritePixels
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1328,6 +1337,9 @@ test
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1575,6 +1587,9 @@ rect
 +
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1875,6 +1890,9 @@ test
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2174,6 +2192,9 @@ rect
 +
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -2196,6 +2217,9 @@ test
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2336,6 +2360,9 @@ DeinterlaceRemoveFrameRectWritePixels
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -2387,6 +2414,9 @@ test
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2519,6 +2549,9 @@ DeinterlaceRemoveFrameRectDownscaleWritePixels
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -2541,6 +2574,9 @@ test
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2692,6 +2728,9 @@ ConfiguringHugeDeinterlacingBufferFails
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder

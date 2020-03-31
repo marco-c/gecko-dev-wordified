@@ -368,6 +368,9 @@ mMimeType
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder

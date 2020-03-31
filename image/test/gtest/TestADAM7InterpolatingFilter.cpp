@@ -243,6 +243,9 @@ aFunc
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -299,6 +302,9 @@ aSize
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1801,6 +1807,9 @@ result
 bool
 CheckHorizontallyInterpolatedImage
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1985,6 +1994,9 @@ aSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2388,6 +2400,9 @@ result
 bool
 CheckVerticallyInterpolatedImage
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2834,6 +2849,9 @@ aSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3087,6 +3105,9 @@ aSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

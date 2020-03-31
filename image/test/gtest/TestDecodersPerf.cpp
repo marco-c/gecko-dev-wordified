@@ -153,6 +153,9 @@ const
 ImageTestCase
 &
 aTestCase
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -164,6 +167,9 @@ aOutputSize
 {
 /
 /
+image
+:
+:
 Decoder
 should
 match
@@ -560,6 +566,9 @@ mMimeType
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -666,6 +675,9 @@ Nothing
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -716,6 +728,9 @@ outputSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

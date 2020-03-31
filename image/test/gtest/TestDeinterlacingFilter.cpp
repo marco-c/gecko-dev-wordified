@@ -214,6 +214,9 @@ aFunc
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -274,6 +277,9 @@ aSize
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -360,6 +366,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -433,6 +442,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -506,6 +518,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -579,6 +594,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -652,6 +670,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -725,6 +746,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -798,6 +822,9 @@ false
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1701,6 +1728,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2316,6 +2346,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2831,6 +2864,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3241,6 +3277,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3410,6 +3449,9 @@ Red
 void
 WriteRowAndCheckInterlacerOutput
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3719,6 +3761,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -4467,6 +4512,9 @@ false
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

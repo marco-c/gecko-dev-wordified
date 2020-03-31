@@ -214,6 +214,9 @@ image
 static
 already_AddRefed
 <
+image
+:
+:
 Decoder
 >
 CreateTrivialBlendingDecoder
@@ -286,6 +289,9 @@ Func
 RawAccessFrameRef
 WithBlendAnimationFilter
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -357,6 +363,9 @@ func
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -427,6 +436,9 @@ aOutputSize
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -544,6 +556,9 @@ WriteFullFirstFrame
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -608,6 +623,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -661,6 +679,9 @@ WritePartialFirstFrame
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -725,6 +746,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -803,6 +827,9 @@ aBlendMethod
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -867,6 +894,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -985,6 +1015,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1173,6 +1206,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1350,6 +1386,9 @@ KeepWithSource
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1414,6 +1453,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1532,6 +1574,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1684,6 +1729,9 @@ KeepWithOver
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1758,6 +1806,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1881,6 +1932,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2049,6 +2103,9 @@ RestorePreviousWithOver
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -2123,6 +2180,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2247,6 +2307,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2370,6 +2433,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2538,6 +2604,9 @@ RestorePreviousWithSource
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -2612,6 +2681,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2736,6 +2808,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2859,6 +2934,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2991,6 +3069,9 @@ RestorePreviousClearWithSource
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -3066,6 +3147,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3190,6 +3274,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3314,6 +3401,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3438,6 +3528,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3586,6 +3679,9 @@ PartialOverlapFrameRect
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -3663,6 +3759,9 @@ IntSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

@@ -216,6 +216,9 @@ aFunc
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -281,6 +284,9 @@ aOutputSize
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -342,6 +348,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -397,6 +406,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -452,6 +464,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -507,6 +522,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -562,6 +580,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -617,6 +638,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -672,6 +696,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -915,6 +942,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1292,6 +1322,9 @@ IntSize
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

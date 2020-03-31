@@ -211,6 +211,9 @@ aFunc
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -281,6 +284,9 @@ false
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -336,6 +342,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -412,6 +421,9 @@ false
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -470,6 +482,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -528,6 +543,9 @@ false
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -586,6 +604,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -644,6 +665,9 @@ false
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -702,6 +726,9 @@ true
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
