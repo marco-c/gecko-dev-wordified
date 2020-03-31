@@ -2613,6 +2613,7 @@ subprocess
 .
 check_output
 (
+            
 [
 js_shell
 '
@@ -2621,6 +2622,16 @@ e
 '
 code
 ]
+        
+)
+.
+decode
+(
+errors
+=
+'
+replace
+'
 )
         
 if
