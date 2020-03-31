@@ -807,7 +807,7 @@ window
 mManager
 -
 >
-WindowGlobal
+GetWindowGlobal
 (
 )
 ;

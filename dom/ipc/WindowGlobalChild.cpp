@@ -1939,7 +1939,7 @@ GetOwnerGlobal
 )
 !
 =
-WindowGlobal
+GetWindowGlobal
 (
 )
 )
@@ -2349,7 +2349,7 @@ GetOwnerGlobal
 )
 !
 =
-WindowGlobal
+GetWindowGlobal
 (
 )
 )

@@ -305,7 +305,7 @@ mWindowContext
 }
 nsGlobalWindowInner
 *
-WindowGlobal
+GetWindowGlobal
 (
 )
 {

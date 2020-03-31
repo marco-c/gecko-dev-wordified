@@ -39688,7 +39688,7 @@ GetOwnerGlobal
 aWindowActor
 -
 >
-WindowGlobal
+GetWindowGlobal
 (
 )
 "
