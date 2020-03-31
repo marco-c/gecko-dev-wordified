@@ -787,7 +787,10 @@ sharedApplication
 ]
 ;
 [
+[
 NSBundle
+mainBundle
+]
 loadNibNamed
 :
 "
@@ -796,6 +799,9 @@ MainMenu
 owner
 :
 NSApp
+topLevelObjects
+:
+nil
 ]
 ;
 [
