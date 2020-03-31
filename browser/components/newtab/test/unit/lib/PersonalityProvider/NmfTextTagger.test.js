@@ -6,6 +6,8 @@ from
 "
 lib
 /
+PersonalityProvider
+/
 NmfTextTagger
 .
 jsm
@@ -14,10 +16,13 @@ jsm
 import
 {
 tokenize
+toksToTfIdfVector
 }
 from
 "
 lib
+/
+PersonalityProvider
 /
 Tokenize
 .
@@ -4316,6 +4321,7 @@ new
 NmfTextTagger
 (
 model
+toksToTfIdfVector
 )
 ;
 let
