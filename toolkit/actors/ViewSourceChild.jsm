@@ -181,9 +181,6 @@ outerWindowID
 data
 .
 lineNumber
-data
-.
-shouldWrap
 )
 ;
 break
