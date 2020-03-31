@@ -390,6 +390,16 @@ aAttributes
 final
 ;
 NS_IMETHOD
+GetNativeInterface
+(
+nsISupports
+*
+*
+aNativeInterface
+)
+final
+;
+NS_IMETHOD
 GetBounds
 (
 int32_t
