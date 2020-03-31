@@ -6211,7 +6211,10 @@ aNow
 )
 {
 return
-InvokeAsync
+mInitPromise
+-
+>
+Then
 (
 mStsThread
 __func__
