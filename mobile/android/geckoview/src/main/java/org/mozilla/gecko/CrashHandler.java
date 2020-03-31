@@ -99,6 +99,13 @@ gecko
 import
 android
 .
+annotation
+.
+SuppressLint
+;
+import
+android
+.
 app
 .
 Service
@@ -2385,6 +2392,12 @@ successfully
 reported
 *
 /
+SuppressLint
+(
+"
+SdCardPath
+"
+)
 protected
 boolean
 reportException
