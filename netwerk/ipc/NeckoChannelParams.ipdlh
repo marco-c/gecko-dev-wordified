@@ -1163,6 +1163,9 @@ CSPInfo
 ?
 cspToInheritInfo
 ;
+bool
+hasStoragePermission
+;
 }
 ;
 /
@@ -1468,6 +1471,9 @@ cookieJarSettings
 ;
 uint32_t
 requestBlockingReason
+;
+bool
+hasStoragePermission
 ;
 /
 /
