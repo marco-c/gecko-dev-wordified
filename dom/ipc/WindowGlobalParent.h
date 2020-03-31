@@ -615,6 +615,16 @@ return
 mDocumentPrincipal
 ;
 }
+nsIPrincipal
+*
+ContentBlockingAllowListPrincipal
+(
+)
+{
+return
+mDocContentBlockingAllowListPrincipal
+;
+}
 /
 /
 The

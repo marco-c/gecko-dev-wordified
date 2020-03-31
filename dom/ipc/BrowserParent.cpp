@@ -16652,12 +16652,6 @@ contentStoragePrincipal
 aLocationChangeData
 -
 >
-contentBlockingAllowListPrincipal
-(
-)
-aLocationChangeData
--
->
 csp
 (
 )
