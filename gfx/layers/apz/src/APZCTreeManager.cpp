@@ -7974,7 +7974,7 @@ APZCTreeManager
 StartScrollbarDrag
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -7999,8 +7999,6 @@ apzc
 GetTargetAPZC
 (
 aGuid
-.
-mScrollableLayerGuid
 )
 ;
 if
@@ -8012,8 +8010,6 @@ apzc
 NotifyScrollbarDragRejected
 (
 aGuid
-.
-mScrollableLayerGuid
 )
 ;
 return
@@ -8044,7 +8040,7 @@ APZCTreeManager
 StartAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -8069,8 +8065,6 @@ apzc
 GetTargetAPZC
 (
 aGuid
-.
-mScrollableLayerGuid
 )
 ;
 if
@@ -8137,8 +8131,6 @@ content
 NotifyAutoscrollRejected
 (
 aGuid
-.
-mScrollableLayerGuid
 )
 ;
 }
@@ -8165,7 +8157,7 @@ APZCTreeManager
 StopAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )
@@ -8188,8 +8180,6 @@ apzc
 GetTargetAPZC
 (
 aGuid
-.
-mScrollableLayerGuid
 )
 )
 {
@@ -17306,7 +17296,7 @@ APZCTreeManager
 ZoomToRect
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -17375,8 +17365,6 @@ apzc
 GetTargetAPZC
 (
 aGuid
-.
-mScrollableLayerGuid
 )
 ;
 if
@@ -17435,7 +17423,7 @@ aInputBlockId
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets
@@ -17475,8 +17463,6 @@ aTargets
 [
 0
 ]
-.
-mScrollableLayerGuid
 )
 ;
 }
@@ -17512,8 +17498,6 @@ aTargets
 [
 i
 ]
-.
-mScrollableLayerGuid
 )
 ;
 target
@@ -17542,7 +17526,7 @@ APZCTreeManager
 UpdateZoomConstraints
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -17664,12 +17648,10 @@ RunOnUpdaterThread
 (
 aGuid
 .
-mScrollableLayerGuid
-.
 mLayersId
 NewRunnableMethod
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 Maybe
 <
 ZoomConstraints
@@ -17700,13 +17682,6 @@ AssertOnUpdaterThread
 (
 )
 ;
-ScrollableLayerGuid
-guid
-=
-aGuid
-.
-mScrollableLayerGuid
-;
 RecursiveMutexAutoLock
 lock
 (
@@ -17721,7 +17696,7 @@ node
 =
 GetTargetNode
 (
-guid
+aGuid
 nullptr
 )
 ;
@@ -17810,7 +17785,7 @@ c_str
 )
 Stringify
 (
-guid
+aGuid
 )
 .
 c_str
@@ -17820,7 +17795,7 @@ c_str
 ;
 mZoomConstraints
 [
-guid
+aGuid
 ]
 =
 aConstraints
@@ -17846,7 +17821,7 @@ n
 "
 Stringify
 (
-guid
+aGuid
 )
 .
 c_str
@@ -17858,7 +17833,7 @@ mZoomConstraints
 .
 erase
 (
-guid
+aGuid
 )
 ;
 }

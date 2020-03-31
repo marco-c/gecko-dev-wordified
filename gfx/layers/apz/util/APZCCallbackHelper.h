@@ -129,17 +129,6 @@ mozilla
 /
 layers
 /
-APZTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 APZUtils
 .
 h
@@ -266,7 +255,7 @@ aInputBlockId
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets
@@ -308,7 +297,7 @@ mInputBlockId
 ;
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 mTargets
 ;

@@ -153,13 +153,6 @@ h
 #
 include
 "
-APZTypes
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

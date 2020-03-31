@@ -8894,7 +8894,7 @@ aInputBlockId
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets
@@ -8939,7 +8939,7 @@ uint64_t
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 )
@@ -8963,7 +8963,7 @@ StoreCopyPassByConstLRef
 <
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 >
 >

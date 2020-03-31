@@ -379,7 +379,7 @@ APZCTreeManagerParent
 RecvZoomToRect
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -415,12 +415,10 @@ RunOnControllerThread
 (
 aGuid
 .
-mScrollableLayerGuid
-.
 mLayersId
 NewRunnableMethod
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 CSSRect
 uint32_t
 >
@@ -530,7 +528,7 @@ uint64_t
 aInputBlockId
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 &
@@ -550,7 +548,7 @@ StoreCopyPassByRRef
 <
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 >
 >
@@ -594,7 +592,7 @@ APZCTreeManagerParent
 RecvUpdateZoomConstraints
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -776,7 +774,7 @@ APZCTreeManagerParent
 RecvStartScrollbarDrag
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -808,12 +806,10 @@ RunOnControllerThread
 (
 aGuid
 .
-mScrollableLayerGuid
-.
 mLayersId
 NewRunnableMethod
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 AsyncDragMetrics
 >
 (
@@ -856,7 +852,7 @@ APZCTreeManagerParent
 RecvStartAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -961,7 +957,7 @@ RunOnControllerThread
 mLayersId
 NewRunnableMethod
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 ScreenPoint
 >
 (
@@ -1004,7 +1000,7 @@ APZCTreeManagerParent
 RecvStopAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )
@@ -1034,7 +1030,7 @@ RunOnControllerThread
 mLayersId
 NewRunnableMethod
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 (
 "
@@ -1123,7 +1119,7 @@ APZCTreeManagerParent
 IsGuidValid
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )
@@ -1131,8 +1127,6 @@ aGuid
 if
 (
 aGuid
-.
-mScrollableLayerGuid
 .
 mLayersId
 !
