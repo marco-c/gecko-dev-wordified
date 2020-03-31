@@ -128,15 +128,6 @@ CompactPair
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
 using
 mozilla
 :

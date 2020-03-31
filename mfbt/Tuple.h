@@ -164,15 +164,6 @@ TemplateLib
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
 namespace
 mozilla
 {

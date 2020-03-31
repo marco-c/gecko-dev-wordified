@@ -4287,15 +4287,6 @@ include
 "
 mozilla
 /
-TypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingUtils

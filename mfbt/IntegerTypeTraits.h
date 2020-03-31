@@ -140,13 +140,11 @@ define
 mozilla_IntegerTypeTraits_h
 #
 include
-"
-mozilla
-/
-TypeTraits
+<
+stddef
 .
 h
-"
+>
 #
 include
 <

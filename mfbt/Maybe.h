@@ -215,15 +215,6 @@ Poison
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
 class
 nsCycleCollectionTraversalCallback
 ;

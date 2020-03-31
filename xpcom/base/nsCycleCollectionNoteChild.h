@@ -167,15 +167,6 @@ Likely
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
 enum
 {
 CycleCollectionEdgeNameArrayFlag
