@@ -1631,6 +1631,8 @@ if
 aSelection
 -
 >
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -1683,6 +1685,8 @@ ranges
 aSelection
 -
 >
+mStyledRanges
+.
 mRanges
 ;
 if
@@ -2080,6 +2084,8 @@ range
 aSelection
 -
 >
+mStyledRanges
+.
 mRanges
 [
 i
@@ -2117,6 +2123,8 @@ false
 aSelection
 -
 >
+mStyledRanges
+.
 mRanges
 .
 RemoveElementAt
