@@ -629,7 +629,10 @@ mozPoisonValue
 (
 )
 ;
-Conditional
+std
+:
+:
+conditional_t
 <
 (
 sizeof
@@ -666,9 +669,6 @@ T
 )
 >
 >
-:
-:
-Type
 :
 :
 poison
