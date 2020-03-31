@@ -16650,6 +16650,10 @@ const
 nsCString
 &
 sourceURL
+const
+nsCString
+&
+updateURL
 )
 {
 mAppInfo
@@ -16713,6 +16717,15 @@ sourceURL
 Assign
 (
 sourceURL
+)
+;
+mAppInfo
+.
+updateURL
+.
+Assign
+(
+updateURL
 )
 ;
 return

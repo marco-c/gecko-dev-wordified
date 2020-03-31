@@ -15762,6 +15762,15 @@ gAppData
 sourceURL
 )
 ;
+nsCString
+updateURL
+(
+gAppData
+-
+>
+updateURL
+)
+;
 /
 /
 Sending
@@ -15783,6 +15792,7 @@ UAName
 ID
 vendor
 sourceURL
+updateURL
 )
 ;
 }

@@ -338,6 +338,11 @@ Gecko
 :
 maxversion
 '
+'
+AppUpdate
+:
+url
+'
 )
     
 missing
@@ -637,6 +642,16 @@ App
 sourceurl
 )
 s
+                 
+"
+%
+(
+AppUpdate
+:
+url
+)
+s
+"
              
 }
 ;
