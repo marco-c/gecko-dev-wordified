@@ -326,6 +326,7 @@ Source
 Context
 Thread
 SourceContent
+URL
 }
 from
 "
@@ -382,7 +383,7 @@ source
 Source
 debuggeeUrl
 :
-string
+URL
 projectRoot
 :
 string
@@ -425,7 +426,7 @@ cx
 Context
 debuggeeUrl
 :
-string
+URL
 projectRoot
 :
 string

@@ -168,6 +168,12 @@ boolean
 ;
 export
 type
+URL
+=
+string
+;
+export
+type
 Mode
 =
 |
@@ -298,7 +304,7 @@ id
 string
 url
 :
-string
+URL
 |
 }
 ;
@@ -1569,7 +1575,7 @@ SourceId
 +
 url
 :
-string
+URL
 +
 isBlackBoxed
 :
@@ -1581,12 +1587,12 @@ boolean
 +
 relativeUrl
 :
-string
+URL
 +
 introductionUrl
 :
 ?
-string
+URL
 +
 introductionType
 :
@@ -1820,7 +1826,7 @@ ThreadId
 +
 url
 :
-string
+URL
 +
 type
 :

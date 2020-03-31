@@ -244,7 +244,7 @@ getWasmText
 (
 sourceId
 :
-string
+SourceId
 data
 :
 Uint8Array
@@ -445,7 +445,7 @@ getWasmLineNumberFormatter
 (
 sourceId
 :
-string
+SourceId
 )
 {
 const
@@ -628,7 +628,7 @@ isWasm
 (
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -655,7 +655,7 @@ lineToWasmOffset
 (
 sourceId
 :
-string
+SourceId
 number
 :
 number
@@ -740,7 +740,7 @@ wasmOffsetToLine
 (
 sourceId
 :
-string
+SourceId
 offset
 :
 number

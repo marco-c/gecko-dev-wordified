@@ -80,7 +80,9 @@ ThreadList
 Thread
 Context
 ThreadId
+SourceId
 SourceLocation
+URL
 }
 from
 "
@@ -452,7 +454,7 @@ ProjectTextSearchResult
 {
 sourceId
 :
-string
+SourceId
 filepath
 :
 string
@@ -477,7 +479,7 @@ ADD_TAB
 +
 url
 :
-string
+URL
 +
 framework
 ?
@@ -491,7 +493,7 @@ boolean
 +
 sourceId
 :
-string
+SourceId
 |
 }
 ;
@@ -509,7 +511,7 @@ UPDATE_TAB
 +
 url
 :
-string
+URL
 +
 framework
 ?
@@ -523,7 +525,7 @@ boolean
 +
 sourceId
 :
-string
+SourceId
 |
 }
 ;

@@ -98,6 +98,7 @@ type
 {
 Source
 Thread
+URL
 }
 from
 "
@@ -206,7 +207,7 @@ pathPart
 string
 debuggeeUrl
 :
-string
+URL
 )
 {
 /
@@ -915,7 +916,7 @@ getRelativePath
 (
 url
 :
-string
+URL
 )
 {
 const

@@ -144,6 +144,7 @@ type
 XHRBreakpoint
 Breakpoint
 BreakpointId
+SourceId
 SourceLocation
 }
 from
@@ -960,7 +961,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 line
 :
 ?

@@ -187,6 +187,7 @@ import
 type
 {
 Context
+SourceId
 }
 from
 "
@@ -277,7 +278,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 filepath
 :
 string
@@ -697,7 +698,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 query
 :
 string

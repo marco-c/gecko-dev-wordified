@@ -77,6 +77,7 @@ import
 type
 {
 Grip
+URL
 }
 from
 "
@@ -104,7 +105,7 @@ openLink
 (
 url
 :
-string
+URL
 )
 {
 return

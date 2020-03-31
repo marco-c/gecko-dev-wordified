@@ -284,6 +284,7 @@ type
 Source
 Context
 Thread
+URL
 }
 from
 "
@@ -373,7 +374,7 @@ selectedSource
 Source
 debuggeeUrl
 :
-string
+URL
 projectRoot
 :
 string

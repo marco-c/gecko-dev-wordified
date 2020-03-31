@@ -226,7 +226,11 @@ findExpressionMatch
 (
 state
 codeMirror
+:
+any
 tokenPos
+:
+Object
 )
 {
 const

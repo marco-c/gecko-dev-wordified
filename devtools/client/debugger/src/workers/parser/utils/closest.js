@@ -102,6 +102,7 @@ import
 type
 {
 AstPosition
+SourceId
 }
 from
 "
@@ -117,7 +118,7 @@ getClosestPath
 (
 sourceId
 :
-string
+SourceId
 location
 :
 AstPosition

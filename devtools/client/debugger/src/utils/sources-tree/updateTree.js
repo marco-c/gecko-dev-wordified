@@ -129,6 +129,7 @@ type
 {
 Thread
 Source
+URL
 }
 from
 "
@@ -232,7 +233,7 @@ uncollapsedTree
 TreeDirectory
 debuggeeUrl
 :
-string
+URL
 threads
 :
 Thread
@@ -249,7 +250,7 @@ sources
 SourcesMapByThread
 debuggeeUrl
 :
-string
+URL
 threads
 :
 Thread

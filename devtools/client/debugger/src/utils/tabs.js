@@ -94,6 +94,19 @@ reducers
 types
 "
 ;
+import
+type
+{
+URL
+}
+from
+"
+.
+.
+/
+types
+"
+;
 /
 *
 *
@@ -298,7 +311,7 @@ tabs
 TabList
 url
 :
-string
+URL
 )
 {
 const
@@ -756,7 +769,7 @@ tab
 Tab
 url
 :
-string
+URL
 isOriginal
 :
 boolean

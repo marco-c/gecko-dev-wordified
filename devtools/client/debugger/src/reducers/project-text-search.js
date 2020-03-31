@@ -102,6 +102,7 @@ import
 type
 {
 Cancellable
+SourceId
 }
 from
 "
@@ -119,7 +120,7 @@ Search
 +
 sourceId
 :
-string
+SourceId
 +
 filepath
 :

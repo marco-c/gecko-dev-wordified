@@ -173,6 +173,7 @@ type
 SourceLocation
 Context
 Source
+SourceId
 }
 from
 "
@@ -483,7 +484,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -691,7 +692,7 @@ end
 number
 sourceId
 :
-string
+SourceId
 }
 )
 {
@@ -721,7 +722,7 @@ end
 number
 sourceId
 :
-string
+SourceId
 }
 )
 {

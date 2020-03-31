@@ -81,6 +81,7 @@ type
 {
 SourceId
 ThreadId
+URL
 }
 from
 "
@@ -232,7 +233,7 @@ one
 +
 sourceMapURL
 :
-string
+URL
 |
 null
 /
@@ -270,7 +271,7 @@ known
 +
 url
 :
-string
+URL
 |
 null
 /
@@ -301,7 +302,7 @@ evaluation
 +
 introductionUrl
 :
-string
+URL
 |
 null
 /

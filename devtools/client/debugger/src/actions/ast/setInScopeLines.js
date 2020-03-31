@@ -161,6 +161,7 @@ import
 type
 {
 Context
+SourceLocation
 }
 from
 "
@@ -227,12 +228,18 @@ function
 getInScopeLines
 (
 cx
+:
+Context
 location
+:
+SourceLocation
 {
 dispatch
 getState
 parser
 }
+:
+ThunkArgs
 )
 {
 const

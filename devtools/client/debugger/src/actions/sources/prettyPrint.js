@@ -251,6 +251,7 @@ import
 type
 {
 Source
+SourceId
 SourceContent
 SourceActor
 Context
@@ -447,7 +448,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -764,7 +765,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return

@@ -321,6 +321,8 @@ type
 {
 Source
 SourceActorId
+SourceId
+ThreadId
 Context
 OriginalSourceData
 GeneratedSourceData
@@ -919,7 +921,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -1102,7 +1104,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -2248,6 +2250,8 @@ function
 addSources
 (
 cx
+:
+Context
 sources
 :
 Array
@@ -2288,6 +2292,8 @@ function
 checkNewSources
 (
 cx
+:
+Context
 sources
 :
 Source
@@ -2349,7 +2355,7 @@ ensureSourceActor
 (
 thread
 :
-string
+ThreadId
 sourceActor
 :
 SourceActorId
