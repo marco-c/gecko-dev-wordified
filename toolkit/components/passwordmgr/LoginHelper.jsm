@@ -5430,6 +5430,17 @@ return
 false
 ;
 }
+if
+(
+element
+.
+hasBeenTypePassword
+)
+{
+return
+false
+;
+}
 let
 fieldType
 =
