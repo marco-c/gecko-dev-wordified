@@ -2518,6 +2518,16 @@ tagName
 "
 menulist
 "
+|
+|
+nodeObject
+.
+tagName
+=
+=
+"
+menuitem
+"
 )
 {
 let
