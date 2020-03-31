@@ -13054,6 +13054,9 @@ mWillChangeProcess
 &
 &
 mPendingBrowsingContext
+&
+&
+mPendingBrowsingContext
 -
 >
 EverAttached
