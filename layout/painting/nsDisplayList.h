@@ -39654,11 +39654,12 @@ TransformReferenceBox
 public
 :
 enum
+class
 PrerenderDecision
 {
-NoPrerender
-FullPrerender
-PartialPrerender
+No
+Full
+Partial
 }
 ;
 /
