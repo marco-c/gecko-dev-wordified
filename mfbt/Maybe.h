@@ -1322,7 +1322,6 @@ T
 >
 &
 &
-(
 std
 :
 :
@@ -1330,17 +1329,6 @@ is_trivially_copy_constructible_v
 <
 T
 >
-|
-|
-!
-std
-:
-:
-is_copy_constructible_v
-<
-T
->
-)
 >
 struct
 MaybeStorage
@@ -3360,7 +3348,6 @@ ptr
 (
 )
 ;
-constexpr
 const
 T
 *
@@ -3425,7 +3412,6 @@ return
 aDefault
 ;
 }
-constexpr
 const
 T
 *
@@ -4869,7 +4855,6 @@ template
 typename
 T
 >
-constexpr
 const
 T
 *
