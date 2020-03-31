@@ -3721,16 +3721,6 @@ mIVLength
 ;
 gcm_params
 .
-ulIvBits
-=
-gcm_params
-.
-ulIvLen
-*
-8
-;
-gcm_params
-.
 ulTagBits
 =
 128
