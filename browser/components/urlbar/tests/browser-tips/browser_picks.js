@@ -776,10 +776,10 @@ doTest
 click
 buttonUrl
 =
-null
+undefined
 helpUrl
 =
-null
+undefined
 }
 )
 {

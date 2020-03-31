@@ -1338,6 +1338,11 @@ remote_tab
 -
 tabs
 "
+device
+:
+"
+device
+"
 }
 }
 {
@@ -1902,6 +1907,11 @@ remote_tab
 -
 tabs
 "
+device
+:
+"
+device
+"
 }
 }
 {
@@ -2071,6 +2081,11 @@ com
 tip
 -
 help
+"
+type
+:
+"
+extension
 "
 }
 }

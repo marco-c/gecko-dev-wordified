@@ -421,6 +421,11 @@ buttonText
 "
 OK
 "
+type
+:
+"
+test
+"
 }
 )
 {

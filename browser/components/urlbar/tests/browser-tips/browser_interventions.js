@@ -1172,11 +1172,6 @@ buttonText
 "
 Done
 "
-data
-:
-"
-test
-"
 helpUrl
 }
 )
