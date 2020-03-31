@@ -133,9 +133,7 @@ child
 cdm
 :
 :
-ContentDecryptionModule9
-+
-10
+ContentDecryptionModule_10
 async
 Init
 (
@@ -294,9 +292,7 @@ __delete__
 cdm
 :
 :
-Host9
-+
-10
+Host_10
 async
 OnResolvePromiseWithKeyStatus
 (
@@ -392,7 +388,7 @@ of
 cdm
 :
 :
-ContentDecryptionModule9
+ContentDecryptionModule_10
 :
 :
 Decrypt
@@ -431,7 +427,7 @@ of
 cdm
 :
 :
-ContentDecryptionModule9
+ContentDecryptionModule_10
 :
 :
 DecryptAndDecodeFrame
