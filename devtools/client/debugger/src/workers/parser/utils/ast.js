@@ -169,6 +169,12 @@ plugins
 "
 objectRestSpread
 "
+"
+optionalChaining
+"
+"
+nullishCoalescingOperator
+"
 ]
 }
 original
@@ -193,6 +199,12 @@ flow
 "
 "
 doExpressions
+"
+"
+optionalChaining
+"
+"
+nullishCoalescingOperator
 "
 "
 decorators
