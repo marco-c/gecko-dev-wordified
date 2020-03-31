@@ -1784,6 +1784,8 @@ on
 Py2
     
 if
+fzf_bin
+and
 update
 and
 not
