@@ -116,6 +116,11 @@ DoubleConversion
 h
 '
 '
+MmapFaultHandler
+.
+h
+'
+'
 PlatformConditionVariable
 .
 h
@@ -196,6 +201,11 @@ SOURCES
 [
 '
 AutoProfilerLabel
+.
+cpp
+'
+'
+MmapFaultHandler
 .
 cpp
 '
