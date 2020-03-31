@@ -11459,6 +11459,17 @@ StopAutoScrollTimer
 (
 )
 {
+MOZ_ASSERT
+(
+mSelectionType
+=
+=
+SelectionType
+:
+:
+eNormal
+)
+;
 if
 (
 mAutoScrollTimer
