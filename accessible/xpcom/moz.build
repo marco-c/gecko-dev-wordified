@@ -302,6 +302,16 @@ xpcAccessibleMacInterface
 mm
 '
 ]
+EXPORTS
++
+=
+[
+'
+xpcAccessibleMacInterface
+.
+h
+'
+]
 elif
 CONFIG
 [
