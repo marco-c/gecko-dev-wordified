@@ -7913,16 +7913,6 @@ onAppCommand
 Atom
 (
 "
-onappinstalled
-"
-"
-onappinstalled
-"
-)
-    
-Atom
-(
-"
 onaudioprocess
 "
 "
