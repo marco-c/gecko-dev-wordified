@@ -1192,6 +1192,15 @@ MDefinition
 Opcode
 :
 :
+Throw
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 GetArgumentsObjectArg
 :
 case
