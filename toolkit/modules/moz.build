@@ -1118,6 +1118,15 @@ tests
 /
 modules
 /
+OSKeyStoreTestUtils
+.
+jsm
+'
+'
+tests
+/
+modules
+/
 PromiseTestUtils
 .
 jsm
@@ -1382,6 +1391,11 @@ jsm
 '
 '
 offlineAppCache
+.
+jsm
+'
+'
+OSKeyStore
 .
 jsm
 '

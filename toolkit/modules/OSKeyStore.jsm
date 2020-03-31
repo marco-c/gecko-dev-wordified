@@ -243,7 +243,7 @@ const
 TEST_ONLY_REAUTH
 =
 "
-browser
+toolkit
 .
 osKeyStore
 .
