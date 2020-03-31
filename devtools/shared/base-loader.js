@@ -3493,8 +3493,8 @@ Define
 pseudo
 modules
 .
-let
-modules
+const
+builtinModuleExports
 =
 {
 "
@@ -3534,10 +3534,6 @@ ChromeWorker
 }
 ;
 const
-builtinModuleExports
-=
-modules
-;
 modules
 =
 {
