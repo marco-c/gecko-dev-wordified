@@ -3302,7 +3302,7 @@ ipc
 :
 :
 IPCResult
-RecvAccessibleAtPoint
+RecvChildAtPoint
 (
 const
 uint64_t
@@ -3316,10 +3316,6 @@ const
 int32_t
 &
 aY
-const
-bool
-&
-aNeedsScreenCoords
 const
 uint32_t
 &
