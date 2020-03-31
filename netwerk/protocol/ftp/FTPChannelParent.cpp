@@ -1219,7 +1219,7 @@ s
 n
 "
 this
-aURI
+uri
 -
 >
 GetSpecOrDefault
@@ -3114,6 +3114,9 @@ lastModified
 )
 ;
 }
+URIParams
+uriparam
+;
 nsCOMPtr
 <
 nsIURI
@@ -3131,6 +3134,12 @@ uri
 )
 )
 ;
+SerializeURI
+(
+uri
+uriparam
+)
+;
 if
 (
 mIPCClosed
@@ -3144,7 +3153,7 @@ contentLength
 contentType
 lastModified
 entityID
-uri
+uriparam
 )
 )
 {
