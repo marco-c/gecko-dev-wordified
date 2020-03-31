@@ -6532,9 +6532,6 @@ OnProgress
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 int64_t
 aProgress
 int64_t
@@ -6721,7 +6718,6 @@ mEventSink
 OnProgress
 (
 request
-ctxt
 aProgress
 aProgressMax
 )
@@ -6740,9 +6736,6 @@ OnStatus
 nsIRequest
 *
 request
-nsISupports
-*
-ctxt
 nsresult
 status
 const
@@ -6877,7 +6870,6 @@ mEventSink
 OnStatus
 (
 request
-ctxt
 status
 statusArg
 )
