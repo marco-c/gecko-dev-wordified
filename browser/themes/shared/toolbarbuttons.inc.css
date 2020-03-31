@@ -641,7 +641,7 @@ buttons
 :
 *
 /
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -658,7 +658,7 @@ scrollbutton
 -
 up
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -803,7 +803,7 @@ TabsToolbar
 toolbarbutton
 -
 1
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -815,7 +815,7 @@ scrollbutton
 -
 up
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -848,7 +848,7 @@ size
 important
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -860,7 +860,7 @@ scrollbutton
 -
 up
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -907,7 +907,7 @@ not
 :
 hover
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -938,7 +938,7 @@ ease
 out
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -1547,7 +1547,7 @@ active
 )
 :
 hover
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -1570,7 +1570,7 @@ up
 )
 :
 hover
-.
+#
 tabbrowser
 -
 arrowscrollbox
