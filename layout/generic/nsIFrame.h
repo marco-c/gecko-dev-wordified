@@ -15985,6 +15985,12 @@ mIsPrimaryFrame
 aIsPrimary
 ;
 }
+bool
+IsPrimaryFrameOfRootOrBodyElement
+(
+)
+const
+;
 /
 *
 *
