@@ -1554,9 +1554,8 @@ card
 querySelector
 (
 '
-named
--
-deck
+.
+tab
 -
 button
 [
@@ -1777,9 +1776,8 @@ card
 querySelector
 (
 '
-named
--
-deck
+.
+tab
 -
 button
 [
@@ -2929,9 +2927,8 @@ card
 querySelector
 (
 '
-named
--
-deck
+.
+tab
 -
 button
 [
@@ -3347,9 +3344,8 @@ card
 querySelector
 (
 '
-named
--
-deck
+.
+tab
 -
 button
 [

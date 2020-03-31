@@ -1425,9 +1425,8 @@ document
 querySelector
 (
 "
-named
--
-deck
+.
+tab
 -
 button
 [

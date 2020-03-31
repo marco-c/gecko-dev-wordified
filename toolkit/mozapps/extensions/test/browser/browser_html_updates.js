@@ -2945,9 +2945,8 @@ tabGroup
 querySelector
 (
 '
-named
--
-deck
+.
+tab
 -
 button
 [
@@ -3629,9 +3628,8 @@ tabGroup
 querySelector
 (
 '
-named
--
-deck
+.
+tab
 -
 button
 [

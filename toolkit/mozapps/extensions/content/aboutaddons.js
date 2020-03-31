@@ -14039,9 +14039,8 @@ tabGroup
 querySelectorAll
 (
 "
-named
--
-deck
+.
+tab
 -
 button
 "
@@ -14291,8 +14290,6 @@ querySelector
 (
 "
 .
-deck
--
 tab
 -
 group
