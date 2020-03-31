@@ -172,7 +172,7 @@ WarpRegExp
 \
 _
 (
-WarpFunctionProto
+WarpBuiltinProto
 )
 \
 _
@@ -531,7 +531,7 @@ for
 JSOp
 :
 :
-FunctionProto
+BuiltinProto
 if
 it
 exists
@@ -541,7 +541,7 @@ compile
 time
 .
 class
-WarpFunctionProto
+WarpBuiltinProto
 :
 public
 WarpOpSnapshot
@@ -567,9 +567,9 @@ ThisKind
 Kind
 :
 :
-WarpFunctionProto
+WarpBuiltinProto
 ;
-WarpFunctionProto
+WarpBuiltinProto
 (
 uint32_t
 offset

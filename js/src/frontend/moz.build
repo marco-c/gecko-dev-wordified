@@ -385,11 +385,6 @@ SharedContext
 cpp
 '
 '
-SourceNotes
-.
-cpp
-'
-'
 Stencil
 .
 cpp

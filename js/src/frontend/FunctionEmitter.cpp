@@ -242,7 +242,7 @@ include
 "
 vm
 /
-AsyncFunctionResolveKind
+AsyncFunction
 .
 h
 "
