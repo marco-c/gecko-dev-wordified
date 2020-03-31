@@ -1725,6 +1725,10 @@ MakeScopeExit
 (
 )
 {
+WaitOnPrefetchThread
+(
+)
+;
 mTable
 .
 clear
@@ -3721,6 +3725,10 @@ memoryOnly
 )
 {
 WaitOnWriteThread
+(
+)
+;
+WaitOnPrefetchThread
 (
 )
 ;
