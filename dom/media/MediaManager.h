@@ -462,6 +462,10 @@ const
 nsString
 &
 aRawID
+const
+nsString
+&
+aRawGroupID
 )
 ;
 MediaDevice
@@ -485,6 +489,10 @@ const
 nsString
 &
 aRawID
+const
+nsString
+&
+aRawGroupID
 const
 nsString
 &
@@ -715,6 +723,10 @@ mGroupID
 const
 nsString
 mRawID
+;
+const
+nsString
+mRawGroupID
 ;
 const
 nsString
