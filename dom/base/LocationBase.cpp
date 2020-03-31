@@ -898,10 +898,10 @@ GetBrowsingContext
 ;
 if
 (
-bc
-&
-&
 !
+bc
+|
+|
 bc
 -
 >
@@ -910,6 +910,9 @@ IsDiscarded
 )
 )
 {
+return
+;
+}
 RefPtr
 <
 nsDocShellLoadState
@@ -1071,7 +1074,6 @@ Throw
 rv
 )
 ;
-}
 }
 }
 void
