@@ -525,9 +525,16 @@ NULLHandle
 uint32_t
 size
 ;
-MOZ_ASSERT
+ipc
+:
+:
+URIParams
+params
+;
+SerializeURI
 (
 aURI
+params
 )
 ;
 if
@@ -546,7 +553,7 @@ GetSingleton
 >
 SendGetHyphDict
 (
-aURI
+params
 &
 handle
 &
