@@ -1175,10 +1175,6 @@ clone
 )
 true
 false
-vec
-!
-[
-]
 )
 )
 ;
