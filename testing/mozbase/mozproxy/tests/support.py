@@ -49,9 +49,15 @@ mkdtemp
 (
 )
     
+try
+:
+        
 yield
 dest_dir
     
+finally
+:
+        
 shutil
 .
 rmtree
