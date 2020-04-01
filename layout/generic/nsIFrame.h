@@ -6275,6 +6275,12 @@ return
 mParent
 ;
 }
+bool
+CanBeDynamicReflowRoot
+(
+)
+const
+;
 /
 *
 *
