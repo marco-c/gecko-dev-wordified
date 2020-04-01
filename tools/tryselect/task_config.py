@@ -1999,6 +1999,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 {
 }
 "
