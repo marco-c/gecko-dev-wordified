@@ -127,6 +127,7 @@ Clone
 Debug
 Deserialize
 Serialize
+PartialEq
 )
 ]
 #
