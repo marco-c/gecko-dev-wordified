@@ -109,7 +109,7 @@ terms
 .
 /
 /
-/
+!
 Utilities
 for
 testing
@@ -121,7 +121,7 @@ true
 for
 /
 /
-/
+!
 floating
 point
 types
