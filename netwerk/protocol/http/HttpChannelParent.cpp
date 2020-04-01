@@ -5932,7 +5932,10 @@ uint32_t
 &
 aSourceRequestBlockingReason
 const
+Maybe
+<
 ChildLoadInfoForwarderArgs
+>
 &
 aTargetLoadInfoForwarder
 const
@@ -6423,6 +6426,15 @@ setChooseAppCache
 )
 ;
 }
+if
+(
+aTargetLoadInfoForwarder
+.
+isSome
+(
+)
+)
+{
 nsCOMPtr
 <
 nsILoadInfo
@@ -6441,6 +6453,10 @@ rv
 MergeChildLoadInfoForwarder
 (
 aTargetLoadInfoForwarder
+.
+ref
+(
+)
 newLoadInfo
 )
 ;
@@ -6462,6 +6478,7 @@ result
 =
 rv
 ;
+}
 }
 }
 }

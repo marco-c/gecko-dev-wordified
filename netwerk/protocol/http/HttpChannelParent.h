@@ -1103,7 +1103,10 @@ uint32_t
 &
 aSourceRequestBlockingReason
 const
+Maybe
+<
 ChildLoadInfoForwarderArgs
+>
 &
 aTargetLoadInfoForwarder
 const
