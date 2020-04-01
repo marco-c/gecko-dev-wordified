@@ -532,6 +532,7 @@ Serialize
 Deserialize
 Clone
 Debug
+PartialEq
 )
 ]
 pub
@@ -1418,10 +1419,10 @@ e
 )
 =
 >
-json
-!
-(
 e
+.
+as_json
+(
 )
 Metric
 :
