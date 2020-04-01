@@ -1707,6 +1707,15 @@ IsGenericHyperText
 &
 !
 roleMapEntry
+&
+&
+!
+table
+-
+>
+IsTable
+(
+)
 )
 )
 {
