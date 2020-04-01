@@ -10436,17 +10436,6 @@ childElementCount
 return
 ;
 }
-this
-.
-classList
-.
-add
-(
-"
-category
-"
-)
-;
 /
 /
 Make
