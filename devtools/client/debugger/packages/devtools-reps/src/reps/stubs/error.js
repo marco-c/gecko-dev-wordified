@@ -1090,8 +1090,6 @@ resource
 /
 devtools
 /
-shared
-/
 client
 /
 debugger

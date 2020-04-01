@@ -2659,8 +2659,6 @@ resource
 /
 devtools
 /
-shared
-/
 client
 /
 debugger
@@ -2747,8 +2745,6 @@ resource
 /
 /
 devtools
-/
-shared
 /
 client
 /

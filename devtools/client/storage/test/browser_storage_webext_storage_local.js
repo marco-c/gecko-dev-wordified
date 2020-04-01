@@ -91,8 +91,6 @@ DevToolsClient
 "
 devtools
 /
-shared
-/
 client
 /
 devtools
