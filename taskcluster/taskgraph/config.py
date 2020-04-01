@@ -602,7 +602,7 @@ text_type
 :
 {
             
-Required
+Optional
 (
 '
 from
@@ -624,7 +624,7 @@ branch
 :
 text_type
             
-Required
+Optional
 (
 '
 from
@@ -726,7 +726,20 @@ head
 :
 bool
             
-Required
+Optional
+(
+'
+incr
+-
+major
+-
+version
+'
+)
+:
+bool
+            
+Optional
 (
 '
 base
