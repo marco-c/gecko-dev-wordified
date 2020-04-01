@@ -4599,7 +4599,7 @@ aB
 template
 <
 bool
-IsPod
+IsTriviallyCopyConstructible
 bool
 IsSameType
 >
@@ -17855,16 +17855,13 @@ aValues
 {
 AssignRangeAlgorithm
 <
-mozilla
+std
 :
 :
-IsPod
+is_trivially_copy_constructible_v
 <
 Item
 >
-:
-:
-value
 std
 :
 :
