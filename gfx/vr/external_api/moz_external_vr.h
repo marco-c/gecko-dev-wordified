@@ -881,6 +881,9 @@ ValveIndex
 OculusGo
 OculusTouch
 OculusTouch2
+PicoGaze
+PicoG2
+PicoNeo2
 _end
 }
 ;
