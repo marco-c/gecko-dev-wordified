@@ -298,7 +298,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2715,7 +2715,7 @@ watchdog
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 Page
@@ -3209,7 +3209,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3387,7 +3387,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3580,7 +3580,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 hidden
@@ -3737,7 +3737,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 hidden
@@ -3894,7 +3894,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 hidden
@@ -4033,7 +4033,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4186,7 +4186,7 @@ TimeoutError
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4297,7 +4297,7 @@ timeout
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4414,7 +4414,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -5059,7 +5059,7 @@ detached
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 hidden
@@ -5220,7 +5220,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
