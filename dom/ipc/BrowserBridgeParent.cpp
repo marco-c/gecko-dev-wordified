@@ -617,7 +617,7 @@ PWindowGlobalChild
 >
 windowChildEp
 =
-aContentParent
+browserParent
 -
 >
 OpenPWindowGlobalEndpoint
@@ -792,7 +792,6 @@ windowParent
 Init
 (
 aWindowInit
-mBrowserParent
 )
 ;
 /
