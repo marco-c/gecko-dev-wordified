@@ -57,7 +57,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -88,7 +88,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 benignPage
 .

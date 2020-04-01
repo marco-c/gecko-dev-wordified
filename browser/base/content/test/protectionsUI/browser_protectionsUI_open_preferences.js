@@ -79,7 +79,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -110,7 +110,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookiePage
 .
@@ -418,7 +418,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -711,7 +711,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;

@@ -196,7 +196,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 benignPage
 .
@@ -227,7 +227,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -260,7 +260,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookiePage
 .

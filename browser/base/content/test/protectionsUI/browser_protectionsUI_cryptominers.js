@@ -55,7 +55,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -597,7 +597,7 @@ await
 promise
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;

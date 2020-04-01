@@ -153,7 +153,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookieServer
 .
@@ -258,7 +258,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookieServer
 .
@@ -340,7 +340,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookieServer
 .
@@ -382,7 +382,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookieServer
 .
@@ -418,7 +418,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookieServer
 .
@@ -470,7 +470,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookieServer
 .
