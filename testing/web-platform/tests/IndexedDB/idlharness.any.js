@@ -30,6 +30,13 @@ resources
 idlharness
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 idl_test
 (
 [
