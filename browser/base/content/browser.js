@@ -31817,6 +31817,8 @@ UrlbarProviderSearchTips
 onLocationChange
 (
 aLocationURI
+aWebProgress
+aFlags
 )
 ;
 gTabletModePageCounter
