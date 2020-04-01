@@ -1191,10 +1191,6 @@ NS_OK
 }
 MOZ_ASSERT
 (
-!
-mLoadInfo
-|
-|
 mLoadInfo
 -
 >

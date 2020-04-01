@@ -9738,10 +9738,6 @@ mLoadGroup
 ;
 }
 else
-if
-(
-mLoadInfo
-)
 {
 RefPtr
 <
@@ -12717,11 +12713,6 @@ rv
 )
 )
 {
-if
-(
-mLoadInfo
-)
-{
 nsCString
 remoteAddress
 ;
@@ -12779,7 +12770,6 @@ entry
 false
 )
 ;
-}
 }
 else
 {
@@ -14705,11 +14695,6 @@ sourceRequestBlockingReason
 =
 0
 ;
-if
-(
-mLoadInfo
-)
-{
 mLoadInfo
 -
 >
@@ -14719,7 +14704,6 @@ GetRequestBlockingReason
 sourceRequestBlockingReason
 )
 ;
-}
 Maybe
 <
 ChildLoadInfoForwarderArgs
@@ -15873,11 +15857,6 @@ blockingReason
 =
 0
 ;
-if
-(
-mLoadInfo
-)
-{
 mLoadInfo
 -
 >
@@ -15887,7 +15866,6 @@ GetRequestBlockingReason
 blockingReason
 )
 ;
-}
 LOG
 (
 (
@@ -15998,10 +15976,6 @@ rv
 }
 MOZ_ASSERT
 (
-!
-mLoadInfo
-|
-|
 mLoadInfo
 -
 >
@@ -25090,9 +25064,6 @@ SchemeIs
 https
 "
 )
-&
-&
-mLoadInfo
 )
 {
 nsContentUtils
@@ -25559,11 +25530,6 @@ nsACString
 aCategory
 )
 {
-if
-(
-mLoadInfo
-)
-{
 uint64_t
 innerWindowID
 =
@@ -25615,7 +25581,6 @@ aMessage
 aCategory
 )
 ;
-}
 return
 NS_OK
 ;
@@ -25695,11 +25660,6 @@ Document
 >
 doc
 ;
-if
-(
-mLoadInfo
-)
-{
 mLoadInfo
 -
 >
@@ -25711,7 +25671,6 @@ doc
 )
 )
 ;
-}
 AutoTArray
 <
 nsString

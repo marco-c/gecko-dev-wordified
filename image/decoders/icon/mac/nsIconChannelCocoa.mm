@@ -298,11 +298,6 @@ nsIconChannel
 (
 )
 {
-if
-(
-mLoadInfo
-)
-{
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
@@ -318,7 +313,6 @@ forget
 )
 )
 ;
-}
 }
 NS_IMPL_ISUPPORTS
 (
@@ -1198,10 +1192,6 @@ rv
 }
 MOZ_ASSERT
 (
-!
-mLoadInfo
-|
-|
 mLoadInfo
 -
 >
