@@ -210,17 +210,12 @@ optimize
 -
 strategies
 '
-                          
 '
 taskgraph
 .
 optimize
 :
-experimental
-.
-bugbug
-.
-all
+bugbug_push_schedules
 '
 )
     
