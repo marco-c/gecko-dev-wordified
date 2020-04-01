@@ -1823,15 +1823,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-URIParams
-uri
-;
-SerializeURI
-(
-documentURI
-uri
-)
-;
 if
 (
 !
@@ -1840,7 +1831,7 @@ content
 >
 SendPLoginReputationConstructor
 (
-uri
+documentURI
 )
 )
 {

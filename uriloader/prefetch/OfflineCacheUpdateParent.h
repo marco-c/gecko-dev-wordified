@@ -212,13 +212,11 @@ NS_DECL_NSILOADCONTEXT
 nsresult
 Schedule
 (
-const
-URIParams
-&
+nsIURI
+*
 manifestURI
-const
-URIParams
-&
+nsIURI
+*
 documentURI
 const
 PrincipalInfo
