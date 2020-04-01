@@ -3773,6 +3773,8 @@ JSContext
 cx
 )
 ;
+public
+:
 bool
 getUnclonedSelfHostedValue
 (
@@ -3805,8 +3807,6 @@ HandlePropertyName
 name
 )
 ;
-public
-:
 MOZ_MUST_USE
 bool
 createJitRuntime
