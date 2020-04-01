@@ -4924,8 +4924,12 @@ aPoint
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 static
 nsresult
 Scrub
@@ -4982,8 +4986,12 @@ removed
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 static
 nsresult
 PrepareToJoinBlocks

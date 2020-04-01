@@ -645,7 +645,11 @@ true
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 EnsureCommitComposition
 (
