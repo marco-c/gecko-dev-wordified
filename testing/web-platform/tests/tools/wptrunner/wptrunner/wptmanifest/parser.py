@@ -427,6 +427,13 @@ self
 line_number
 =
 0
+        
+self
+.
+filename
+=
+"
+"
     
 def
 tokenize
