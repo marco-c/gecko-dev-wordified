@@ -72,6 +72,7 @@ client_info
 derive
 (
 Debug
+Clone
 )
 ]
 pub
