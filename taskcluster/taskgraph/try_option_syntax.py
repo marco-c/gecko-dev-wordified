@@ -1068,7 +1068,7 @@ platform
 -
 tests
 -
-crashtests
+crashtest
 '
 )
     
@@ -1091,7 +1091,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 '
 )
     
@@ -1116,7 +1116,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 -
 e10s
 '

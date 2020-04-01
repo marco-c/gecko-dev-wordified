@@ -6648,14 +6648,14 @@ platform
 -
 tests
 -
-reftests
+reftest
 "
 :
 (
 self
 .
 path_mod_wpt
-                                            
+                                           
 [
 {
 "
@@ -6680,7 +6680,7 @@ css
 "
 }
 }
-                                             
+                                            
 {
 "
 not
@@ -6803,7 +6803,7 @@ platform
 -
 tests
 -
-crashtests
+crashtest
 "
 :
 (

@@ -161,7 +161,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 '
 '
 web

@@ -420,7 +420,7 @@ platform
 -
 tests
 -
-crashtests
+crashtest
 '
     
 '
@@ -430,7 +430,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 '
     
 '
