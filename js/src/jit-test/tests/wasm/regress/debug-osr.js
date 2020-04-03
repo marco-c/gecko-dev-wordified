@@ -150,7 +150,11 @@ assertErrorMessage
 func
 TypeError
 /
+(
 is
+|
+of
+)
 undefined
 /
 )
