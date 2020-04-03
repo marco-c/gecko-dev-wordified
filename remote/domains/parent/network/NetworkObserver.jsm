@@ -1399,6 +1399,14 @@ loadContext
 .
 topFrameElement
 )
+|
+|
+!
+loadContext
+.
+topFrameElement
+.
+currentURI
 )
 {
 return
