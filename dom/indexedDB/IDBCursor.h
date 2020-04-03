@@ -137,13 +137,6 @@ h
 #
 include
 "
-InitializedOnce
-.
-h
-"
-#
-include
-"
 js
 /
 RootingAPI
@@ -204,6 +197,15 @@ dom
 quota
 /
 CheckedUnsafePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
+InitializedOnce
 .
 h
 "
@@ -314,7 +316,7 @@ IDBCursorType
 ;
 protected
 :
-InitializedOnceMustBeTrue
+InitializedOnceNotNull
 <
 indexedDB
 :
@@ -900,7 +902,7 @@ AssertIsOnOwningThread
 ;
 mBackgroundActor
 .
-reset
+destroy
 (
 )
 ;

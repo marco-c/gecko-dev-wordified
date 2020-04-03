@@ -328,6 +328,15 @@ include
 "
 mozilla
 /
+InitializedOnce
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -2674,7 +2683,7 @@ private
 NS_DECL_OWNINGTHREAD
 protected
 :
-InitializedOnceMustBeTrue
+InitializedOnceNotNull
 <
 IDBRequest
 *
@@ -2847,7 +2856,7 @@ friend
 class
 BackgroundVersionChangeTransactionChild
 ;
-InitializedOnceMustBeTrue
+InitializedOnceNotNull
 <
 SourceType
 *
