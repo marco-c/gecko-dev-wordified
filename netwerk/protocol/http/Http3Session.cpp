@@ -1374,6 +1374,9 @@ Http3Session
 :
 ProcessInput
 (
+uint32_t
+*
+aCountRead
 )
 {
 MOZ_ASSERT
@@ -1433,11 +1436,6 @@ packet
 UDP_MAX_PACKET_SIZE
 ]
 ;
-uint32_t
-read
-=
-0
-;
 nsresult
 rv
 =
@@ -1456,6 +1454,11 @@ error
 .
 do
 {
+uint32_t
+read
+=
+0
+;
 rv
 =
 mSegmentReaderWriter
@@ -1489,6 +1492,12 @@ ProcessInput
 packet
 read
 )
+;
+*
+aCountRead
++
+=
+read
 ;
 }
 }
@@ -1939,9 +1948,6 @@ ProcessEvents
 (
 uint32_t
 count
-uint32_t
-*
-countWritten
 )
 {
 MOZ_ASSERT
@@ -2103,6 +2109,11 @@ data_readable
 stream_id
 ;
 }
+uint32_t
+read
+=
+0
+;
 nsresult
 rv
 =
@@ -2110,7 +2121,8 @@ ProcessTransactionRead
 (
 id
 count
-countWritten
+&
+read
 )
 ;
 if
@@ -3162,11 +3174,6 @@ ProcessHttp3
 (
 )
 ;
-uint32_t
-n
-=
-0
-;
 return
 ProcessEvents
 (
@@ -3174,8 +3181,6 @@ nsIOService
 :
 :
 gDefaultSegmentSize
-&
-n
 )
 ;
 }
@@ -5498,9 +5503,6 @@ Http3Session
 :
 ProcessSlowConsumers
 (
-uint32_t
-*
-countWritten
 )
 {
 if
@@ -5536,6 +5538,11 @@ PopFront
 )
 )
 ;
+uint32_t
+countRead
+=
+0
+;
 nsresult
 rv
 =
@@ -5546,7 +5553,8 @@ nsIOService
 :
 :
 gDefaultSegmentSize
-countWritten
+&
+countRead
 )
 ;
 if
@@ -5558,8 +5566,7 @@ rv
 &
 &
 (
-*
-countWritten
+countRead
 >
 0
 )
@@ -5693,7 +5700,6 @@ rv
 =
 ProcessSlowConsumers
 (
-countWritten
 )
 ;
 if
@@ -5740,6 +5746,7 @@ rv
 =
 ProcessInput
 (
+countWritten
 )
 ;
 if
@@ -5787,7 +5794,6 @@ rv
 ProcessEvents
 (
 count
-countWritten
 )
 ;
 if

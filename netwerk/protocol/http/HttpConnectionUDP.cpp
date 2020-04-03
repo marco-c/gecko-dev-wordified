@@ -4262,6 +4262,8 @@ now
 ;
 uint32_t
 n
+=
+0
 ;
 bool
 again
