@@ -1347,7 +1347,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 const
 {
@@ -1419,7 +1419,7 @@ false
 ;
 }
 *
-defined
+done
 =
 true
 ;

@@ -901,7 +901,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 const
 ;

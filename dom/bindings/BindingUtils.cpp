@@ -11415,7 +11415,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 {
 if
@@ -11453,7 +11453,7 @@ wrapper
 id
 desc
 result
-defined
+done
 )
 ;
 }

@@ -1132,7 +1132,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 ;
 virtual

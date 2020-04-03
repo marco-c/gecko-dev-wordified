@@ -11497,7 +11497,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 {
 /
@@ -11521,10 +11521,10 @@ do
 /
 nothing
 but
-claim
-we
-defined
-it
+set
+done
+to
+tru
 so
 it
 won
@@ -11557,7 +11557,7 @@ id
 )
 {
 *
-defined
+done
 =
 true
 ;
@@ -11596,7 +11596,7 @@ obj
 id
 desc
 result
-defined
+done
 )
 ;
 }
@@ -13779,7 +13779,7 @@ succeed
 }
 }
 bool
-defined
+done
 =
 false
 ;
@@ -13800,7 +13800,7 @@ desc
 existing_desc
 result
 &
-defined
+done
 )
 )
 {
@@ -13810,7 +13810,7 @@ false
 }
 if
 (
-defined
+done
 )
 {
 return
