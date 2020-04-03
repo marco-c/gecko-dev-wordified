@@ -2991,6 +2991,8 @@ aLegacyName
 gfxFontEntry
 *
 aFontEntry
+FontVisibility
+aVisibility
 )
 ;
 static
@@ -4452,6 +4454,8 @@ const
 nsACString
 &
 aName
+FontVisibility
+aVisibility
 )
 const
 =

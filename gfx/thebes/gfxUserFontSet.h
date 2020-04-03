@@ -989,6 +989,10 @@ aName
 gfxFontFamily
 (
 aName
+FontVisibility
+:
+:
+Unknown
 )
 {
 }
