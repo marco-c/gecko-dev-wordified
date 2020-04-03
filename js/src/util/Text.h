@@ -1123,7 +1123,7 @@ public
 InflatedChar16Sequence
 (
 const
-char16_t
+CharT
 *
 units
 size_t
