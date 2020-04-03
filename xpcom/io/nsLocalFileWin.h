@@ -405,6 +405,11 @@ working
 on
 this
 file
+bool
+mUseDOSDevicePathSyntax
+=
+false
+;
 /
 /
 this
