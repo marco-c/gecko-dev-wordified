@@ -197,6 +197,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+SafeRefPtr
+.
+h
+"
 namespace
 mozilla
 {
