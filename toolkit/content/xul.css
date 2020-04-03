@@ -895,6 +895,16 @@ decoration
 :
 underline
 ;
+text
+-
+decoration
+-
+skip
+-
+ink
+:
+none
+;
 }
 /
 *
