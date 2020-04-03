@@ -460,6 +460,14 @@ DisconnectHandlerRemotes
 )
 override
 ;
+STDMETHODIMP
+IsInterfaceMaybeSupported
+(
+REFIID
+aIid
+)
+override
+;
 /
 /
 ICallFrameWalker
