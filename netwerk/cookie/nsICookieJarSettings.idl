@@ -226,7 +226,7 @@ rejecting
 third
 -
 party
-trackers
+contexts
 .
 *
 /
@@ -236,7 +236,7 @@ infallible
 readonly
 attribute
 boolean
-rejectThirdPartyTrackers
+rejectThirdPartyContexts
 ;
 [
 infallible
