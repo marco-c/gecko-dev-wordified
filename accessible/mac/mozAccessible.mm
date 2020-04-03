@@ -6625,6 +6625,17 @@ return
 AXToggle
 "
 ;
+case
+roles
+:
+:
+PAGETAB
+:
+return
+"
+AXTabButton
+"
+;
 default
 :
 break

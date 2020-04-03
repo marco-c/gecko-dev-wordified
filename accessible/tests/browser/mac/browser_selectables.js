@@ -267,11 +267,7 @@ tab
 "
 )
 ;
-/
-/
-Bug
-1626638
-todo_is
+is
 (
 tab
 .
