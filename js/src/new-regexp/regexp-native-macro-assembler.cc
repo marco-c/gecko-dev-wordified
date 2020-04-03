@@ -388,9 +388,6 @@ SMRegExpMacroAssembler
 JSContext
 *
 cx
-Isolate
-*
-isolate
 StackMacroAssembler
 &
 masm
@@ -405,7 +402,14 @@ num_capture_registers
 :
 NativeRegExpMacroAssembler
 (
+cx
+-
+>
 isolate
+.
+ref
+(
+)
 zone
 )
 cx_
