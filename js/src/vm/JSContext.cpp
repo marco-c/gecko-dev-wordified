@@ -816,6 +816,9 @@ ThisThreadId
 (
 )
 ;
+#
+ifndef
+ENABLE_NEW_REGEXP
 if
 (
 !
@@ -834,6 +837,8 @@ return
 false
 ;
 }
+#
+endif
 if
 (
 !
@@ -5229,10 +5234,15 @@ jitActivation
 this
 nullptr
 )
+#
+ifndef
+ENABLE_NEW_REGEXP
 regexpStack
 (
 this
 )
+#
+endif
 activation_
 (
 this

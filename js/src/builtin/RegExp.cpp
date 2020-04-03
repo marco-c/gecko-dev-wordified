@@ -154,6 +154,9 @@ TokenStream
 h
 "
 #
+ifndef
+ENABLE_NEW_REGEXP
+#
 include
 "
 irregexp
@@ -162,6 +165,8 @@ RegExpParser
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -1297,6 +1302,18 @@ nullptr
 nullptr
 )
 ;
+#
+ifdef
+ENABLE_NEW_REGEXP
+MOZ_CRASH
+(
+"
+TODO
+"
+)
+;
+#
+else
 return
 irregexp
 :
@@ -1317,6 +1334,8 @@ unicode
 )
 )
 ;
+#
+endif
 }
 static
 RegExpShared

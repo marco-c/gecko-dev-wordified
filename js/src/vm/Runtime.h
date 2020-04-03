@@ -285,6 +285,9 @@ Tracer
 h
 "
 #
+ifndef
+ENABLE_NEW_REGEXP
+#
 include
 "
 irregexp
@@ -293,6 +296,8 @@ RegExpStack
 .
 h
 "
+#
+endif
 #
 include
 "

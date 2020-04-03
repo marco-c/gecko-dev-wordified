@@ -2985,6 +2985,9 @@ JitActivation
 >
 jitActivation
 ;
+#
+ifndef
+ENABLE_NEW_REGEXP
 /
 /
 Information
@@ -3017,6 +3020,8 @@ RegExpStack
 >
 regexpStack
 ;
+#
+endif
 /
 *
 *

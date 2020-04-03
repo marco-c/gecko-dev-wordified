@@ -279,6 +279,9 @@ SharedContext
 h
 "
 #
+ifndef
+ENABLE_NEW_REGEXP
+#
 include
 "
 irregexp
@@ -287,6 +290,8 @@ RegExpParser
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -19626,6 +19631,18 @@ tempLifoAlloc
 )
 )
 ;
+#
+ifdef
+ENABLE_NEW_REGEXP
+MOZ_CRASH
+(
+"
+TODO
+"
+)
+;
+#
+else
 BINJS_TRY
 (
 irregexp
@@ -19648,6 +19665,8 @@ unicode
 )
 )
 ;
+#
+endif
 }
 RegExpIndex
 index
