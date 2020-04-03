@@ -2783,8 +2783,6 @@ toRead
 )
 ;
 }
-else
-{
 /
 /
 Make
@@ -2852,7 +2850,6 @@ ReadBIH
 aData
 )
 ;
-}
 }
 LexerTransition
 <
