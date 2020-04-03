@@ -2518,8 +2518,6 @@ CleanupStrongRefs
 (
 )
 ;
-protected
-:
 nsCOMPtr
 <
 nsIChannel
