@@ -1988,6 +1988,16 @@ InitSharedFontListForPlatform
 )
 override
 ;
+FontVisibility
+GetVisibilityForFamily
+(
+const
+nsACString
+&
+aName
+)
+const
+;
 gfxFontFamily
 *
 CreateFontFamily
