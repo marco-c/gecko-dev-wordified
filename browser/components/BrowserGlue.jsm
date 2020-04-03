@@ -18207,7 +18207,7 @@ _extensionID
 |
 currentEngine
 .
-_isDefault
+isAppProvided
 |
 |
 !
@@ -18217,9 +18217,7 @@ search
 .
 originalDefaultEngine
 .
-wrappedJSObject
-.
-_isDefault
+isAppProvided
 )
 {
 return
