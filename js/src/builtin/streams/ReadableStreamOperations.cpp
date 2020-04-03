@@ -2768,7 +2768,7 @@ reader
 .
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 readerReadResultPromise
