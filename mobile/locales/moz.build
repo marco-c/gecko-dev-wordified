@@ -98,15 +98,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
-for
-Android
+GeckoView
 '
 '
-Locale
-switching
-and
-selection
+General
 '
 )
 JAR_MANIFESTS

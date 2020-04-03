@@ -104,12 +104,10 @@ BUG_COMPONENT
 =
 (
 '
-Firefox
-for
-Android
+GeckoView
 '
 '
-Testing
+General
 '
 )
 TEST_DIRS
