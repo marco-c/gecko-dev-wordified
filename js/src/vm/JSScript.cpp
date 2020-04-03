@@ -26698,14 +26698,6 @@ ImmutableFlags
 NeedsFunctionEnvironmentObjects
 )
 ;
-clearFlag
-(
-ImmutableFlags
-:
-:
-AlwaysNeedsArgsObj
-)
-;
 /
 /
 We

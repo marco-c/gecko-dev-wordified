@@ -5390,17 +5390,6 @@ ImmutableFlags
 :
 NeedsFunctionEnvironmentObjects
 )
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
-AlwaysNeedsArgsObj
-)
 ;
 /
 /

@@ -3981,7 +3981,7 @@ ContextFlags
 funbox
 -
 >
-setArgumentsHasLocalBinding
+setArgumentsHasVarBinding
 (
 )
 ;
@@ -4011,7 +4011,7 @@ bindingsAccessedDynamically
 funbox
 -
 >
-setDefinitelyNeedsArgsObj
+setAlwaysNeedsArgsObj
 (
 )
 ;
