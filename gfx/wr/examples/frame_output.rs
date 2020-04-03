@@ -644,6 +644,9 @@ document
 content_rect
 space_and_clip
 )
+document
+.
+content_rect
 ColorF
 :
 :

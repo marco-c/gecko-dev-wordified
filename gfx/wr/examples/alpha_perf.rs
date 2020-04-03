@@ -237,6 +237,7 @@ new
 bounds
 space_and_clip
 )
+bounds
 ColorF
 :
 :

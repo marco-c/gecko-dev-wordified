@@ -366,6 +366,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :
@@ -440,6 +443,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :
@@ -541,6 +547,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :
@@ -713,6 +722,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :
@@ -794,6 +806,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :
@@ -994,6 +1009,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :
@@ -1081,6 +1099,9 @@ push_rect
 (
 &
 info
+info
+.
+clip_rect
 ColorF
 :
 :

@@ -2264,6 +2264,10 @@ common
 :
 CommonItemProperties
 pub
+bounds
+:
+LayoutRect
+pub
 color
 :
 PropertyBinding
@@ -2328,6 +2332,10 @@ pub
 common
 :
 CommonItemProperties
+pub
+bounds
+:
+LayoutRect
 }
 /
 /

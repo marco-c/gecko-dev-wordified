@@ -1120,6 +1120,7 @@ pipeline_id
 clip_id
 }
 )
+rect
 self
 .
 color
