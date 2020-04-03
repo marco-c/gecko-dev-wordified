@@ -2275,7 +2275,6 @@ true
 }
 update
 :
-async
 function
 (
 windowId
@@ -2511,7 +2510,6 @@ updateInfo
 titlePreface
 )
 ;
-await
 win
 .
 window
@@ -2538,10 +2536,15 @@ false
 .
 .
 return
+Promise
+.
+resolve
+(
 win
 .
 convert
 (
+)
 )
 ;
 }
