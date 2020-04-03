@@ -1259,13 +1259,6 @@ SourceSurfaceCairo
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-gfx
-;
 /
 *
 Class
@@ -12946,6 +12939,9 @@ aStyle
 gfxTextPerfMetrics
 *
 aTextPerf
+FontMatchingStats
+*
+aFontMatchingStats
 gfxUserFontSet
 *
 aUserFontSet
@@ -12961,6 +12957,7 @@ gfxFontGroup
 aFontFamilyList
 aStyle
 aTextPerf
+aFontMatchingStats
 aUserFontSet
 aDevToCssSize
 )

@@ -1364,6 +1364,9 @@ const
 gfxFontStyle
 *
 aStyle
+FontVisibility
+*
+aVisibility
 )
 ;
 /

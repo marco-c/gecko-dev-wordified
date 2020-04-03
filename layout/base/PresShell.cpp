@@ -69295,6 +69295,17 @@ GetTextPerfMetrics
 ;
 params
 .
+fontStats
+=
+nullptr
+;
+/
+/
+not
+interested
+here
+params
+.
 featureValueLookup
 =
 aPresContext
