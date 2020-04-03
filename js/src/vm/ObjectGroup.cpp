@@ -489,7 +489,7 @@ ObjectGroupFlags
 initialFlags
 )
 :
-headerAndClasp_
+clasp_
 (
 clasp
 )
@@ -2613,10 +2613,9 @@ JSFunction
 obj
 -
 >
-setGroupRaw
-(
+group_
+=
 group
-)
 ;
 return
 group

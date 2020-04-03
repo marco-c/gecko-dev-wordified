@@ -6035,7 +6035,7 @@ RegExpFlags
 flags
 )
 :
-headerAndSource
+source
 (
 source
 )
@@ -6106,7 +6106,7 @@ TraceNullableEdge
 (
 trc
 &
-headerAndSource
+source
 "
 RegExpShared
 source
@@ -6290,9 +6290,7 @@ cx
 re
 -
 >
-getSource
-(
-)
+source
 )
 ;
 return
@@ -7028,9 +7026,7 @@ sourceLength
 re
 -
 >
-getSource
-(
-)
+source
 -
 >
 length
@@ -7084,9 +7080,7 @@ input
 re
 -
 >
-getSource
-(
-)
+source
 start
 )
 )
@@ -7162,9 +7156,7 @@ input
 re
 -
 >
-getSource
-(
-)
+source
 start
 )
 ;

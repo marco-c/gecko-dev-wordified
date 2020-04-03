@@ -15451,10 +15451,9 @@ false
 obj
 -
 >
-setGroupRaw
-(
+group_
+=
 group
-)
 ;
 return
 true
@@ -28182,7 +28181,7 @@ TraceEdge
 (
 trc
 &
-headerAndGroup_
+group_
 "
 group
 "
@@ -28198,9 +28197,7 @@ JSClass
 *
 clasp
 =
-groupRaw
-(
-)
+group_
 -
 >
 clasp

@@ -606,7 +606,7 @@ js
 BaseScript
 :
 :
-jitCodeRaw
+jitCodeRaw_
 mechanism
 .
 WASM_JIT_ENTRY
