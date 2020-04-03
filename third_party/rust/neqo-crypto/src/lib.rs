@@ -210,6 +210,9 @@ mod
 hp
 ;
 mod
+once
+;
+mod
 prio
 ;
 mod
@@ -329,7 +332,7 @@ auth
 AuthenticationStatus
 ;
 use
-neqo_common
+self
 :
 :
 once
