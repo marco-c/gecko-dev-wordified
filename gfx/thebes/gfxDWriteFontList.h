@@ -450,8 +450,6 @@ const
 nsACString
 &
 aName
-FontVisibility
-aVisibility
 IDWriteFontFamily
 *
 aFamily
@@ -464,7 +462,6 @@ false
 gfxFontFamily
 (
 aName
-aVisibility
 )
 mDWFamily
 (
@@ -1988,16 +1985,6 @@ InitSharedFontListForPlatform
 )
 override
 ;
-FontVisibility
-GetVisibilityForFamily
-(
-const
-nsACString
-&
-aName
-)
-const
-;
 gfxFontFamily
 *
 CreateFontFamily
@@ -2006,8 +1993,6 @@ const
 nsACString
 &
 aName
-FontVisibility
-aVisibility
 )
 const
 override

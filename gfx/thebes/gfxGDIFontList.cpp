@@ -4259,17 +4259,6 @@ lf
 lfFaceName
 )
 ;
-FontVisibility
-visibility
-=
-FontVisibility
-:
-:
-Unknown
-;
-/
-/
-TODO
 RefPtr
 <
 GDIFontFamily
@@ -4280,7 +4269,6 @@ new
 GDIFontFamily
 (
 faceName
-visibility
 )
 ;
 fontList
@@ -6993,8 +6981,6 @@ const
 nsACString
 &
 aName
-FontVisibility
-aVisibility
 )
 const
 {
@@ -7003,7 +6989,6 @@ new
 GDIFontFamily
 (
 aName
-aVisibility
 )
 ;
 }

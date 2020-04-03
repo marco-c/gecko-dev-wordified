@@ -13592,7 +13592,6 @@ AddWithLegacyFamilyName
 (
 legacyName
 fe
-mVisibility
 )
 )
 {
