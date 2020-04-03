@@ -2956,6 +2956,15 @@ MDefinition
 right
 )
 ;
+MDefinition
+*
+maybeConvertToNumber
+(
+MDefinition
+*
+def
+)
+;
 /
 /
 jsop_bitop

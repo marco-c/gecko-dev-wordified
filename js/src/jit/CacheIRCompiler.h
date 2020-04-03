@@ -356,6 +356,11 @@ GuardAndGetIndexFromString
 \
 _
 (
+GuardAndGetInt32FromNumber
+)
+\
+_
+(
 GuardIndexIsNonNegative
 )
 \
