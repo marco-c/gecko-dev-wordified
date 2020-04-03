@@ -1222,7 +1222,7 @@ bool
 aClipIsComplex
 )
 ;
-void
+bool
 PrepareForDrawing
 (
 CompositionOp
