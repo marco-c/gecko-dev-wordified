@@ -819,6 +819,16 @@ exitHandler
 (
 )
 ;
+void
+backtrackHandler
+(
+)
+;
+void
+stackOverflowHandler
+(
+)
+;
 /
 /
 Push
