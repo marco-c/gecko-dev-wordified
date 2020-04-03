@@ -2733,7 +2733,7 @@ forAuthorCode
 /
 static
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 ReadableByteStreamControllerPullSteps
 (
