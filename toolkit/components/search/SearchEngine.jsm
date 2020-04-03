@@ -3008,7 +3008,7 @@ moz
 &
 engine
 .
-isAppProvided
+_isDefault
 )
 {
 /
@@ -3402,7 +3402,7 @@ if
 !
 engine
 .
-isAppProvided
+_isDefault
 )
 {
 return
@@ -9440,7 +9440,7 @@ purpose
 !
 this
 .
-isAppProvided
+_isDefault
 )
 {
 continue
@@ -10406,7 +10406,7 @@ search
 engines
 this
 .
-isAppProvided
+_isDefault
 )
 {
 let
@@ -12081,7 +12081,7 @@ provided
 return
 this
 .
-isAppProvided
+_isDefault
 ?
 this
 .
@@ -13022,7 +13022,7 @@ _extensionID
 ;
 }
 get
-isAppProvided
+_isDefault
 (
 )
 {
