@@ -2341,7 +2341,7 @@ label
 :
 child
 .
-label
+text
 ;
 if
 (
