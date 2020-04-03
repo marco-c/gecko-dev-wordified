@@ -196,11 +196,6 @@ enableWebGL
 :
 false
 "
-eventBusDispatchToDOM
-"
-:
-false
-"
 externalLinkTarget
 "
 :

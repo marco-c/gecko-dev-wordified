@@ -1719,14 +1719,14 @@ pdfjsVersion
 .
 5
 .
-42
+49
 '
 ;
 const
 pdfjsBuild
 =
 '
-c12ea21c1
+7ed71a0d7
 '
 ;
 const
@@ -2181,7 +2181,7 @@ workerVersion
 .
 5
 .
-42
+49
 '
 ;
 if
