@@ -1911,7 +1911,7 @@ for
 TypeCode
 :
 :
-Ref
+OptRef
 )
 .
 PackedTypeCode
@@ -2075,7 +2075,7 @@ tc
 TypeCode
 :
 :
-Ref
+OptRef
 refTypeIndex
 =
 =
@@ -2090,7 +2090,7 @@ tc
 TypeCode
 :
 :
-Ref
+OptRef
 refTypeIndex
 <
 =
@@ -2345,7 +2345,7 @@ ptc
 TypeCode
 :
 :
-Ref
+OptRef
 )
 ;
 return
@@ -2387,7 +2387,7 @@ return
 TypeCode
 :
 :
-Ref
+OptRef
 for
 any
 reference
@@ -2425,13 +2425,13 @@ to
 TypeCode
 :
 :
-Ref
+OptRef
 has
 been
 distilled
+/
+/
 into
-/
-/
 a
 simple
 comparison
@@ -2544,7 +2544,7 @@ LowestPrimitiveTypeCode
 TypeCode
 :
 :
-Ref
+OptRef
 :
 c
 ;
@@ -2568,7 +2568,7 @@ ptc
 TypeCode
 :
 :
-Ref
+OptRef
 ;
 }
 /
@@ -2635,7 +2635,7 @@ uint8_t
 TypeCode
 :
 :
-Ref
+OptRef
 )
 }
 ;
@@ -2697,7 +2697,7 @@ case
 TypeCode
 :
 :
-Ref
+OptRef
 :
 MOZ_ASSERT
 (
@@ -2777,7 +2777,7 @@ PackTypeCode
 TypeCode
 :
 :
-Ref
+OptRef
 refTypeIndex
 )
 )
@@ -2828,7 +2828,7 @@ tc
 TypeCode
 :
 :
-Ref
+OptRef
 )
 ;
 return
@@ -3073,7 +3073,7 @@ case
 TypeCode
 :
 :
-Ref
+OptRef
 :
 return
 true
@@ -3135,7 +3135,7 @@ uint8_t
 TypeCode
 :
 :
-Ref
+OptRef
 )
 }
 ;
@@ -3164,7 +3164,7 @@ c
 TypeCode
 :
 :
-Ref
+OptRef
 )
 ;
 MOZ_ASSERT
@@ -3631,7 +3631,7 @@ tc_
 TypeCode
 :
 :
-Ref
+OptRef
 ;
 }
 bool
