@@ -53,6 +53,7 @@ set
 with
 (
 ref
+opt
 T
 )
 -
@@ -84,10 +85,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 table
 (
@@ -206,6 +203,7 @@ narrow
 anyref
 (
 ref
+opt
 dummy
 )
 (
@@ -409,10 +407,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 S

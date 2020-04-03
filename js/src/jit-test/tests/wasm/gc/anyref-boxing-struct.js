@@ -324,10 +324,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 S
 (
@@ -425,10 +421,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 S
 (
@@ -499,6 +491,7 @@ narrow
 anyref
 (
 ref
+opt
 S
 )
 (
@@ -571,10 +564,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 S
 (
@@ -645,6 +634,7 @@ narrow
 anyref
 (
 ref
+opt
 S
 )
 (
@@ -860,10 +850,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 S
 (
@@ -964,10 +950,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 S
@@ -1213,10 +1195,6 @@ txt
 =
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 S

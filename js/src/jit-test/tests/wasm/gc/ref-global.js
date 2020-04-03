@@ -57,10 +57,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 point
 (
@@ -84,6 +80,7 @@ g1
 mut
 (
 ref
+opt
 point
 )
 )
@@ -100,6 +97,7 @@ g2
 mut
 (
 ref
+opt
 point
 )
 )
@@ -114,6 +112,7 @@ global
 g3
 (
 ref
+opt
 point
 )
 (
@@ -295,10 +294,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 point
 (
@@ -322,6 +317,7 @@ glob
 mut
 (
 ref
+opt
 point
 )
 )
@@ -644,10 +640,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 import
 "
 "
@@ -802,10 +794,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -831,6 +819,7 @@ global
 mut
 (
 ref
+opt
 box
 )
 )
@@ -937,10 +926,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -965,6 +950,7 @@ box
 mut
 (
 ref
+opt
 box
 )
 )

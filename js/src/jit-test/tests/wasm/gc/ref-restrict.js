@@ -458,10 +458,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -485,6 +481,7 @@ f
 param
 (
 ref
+opt
 box
 )
 )
@@ -562,10 +559,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -589,6 +582,7 @@ f
 result
 (
 ref
+opt
 box
 )
 )
@@ -670,10 +664,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -699,6 +689,7 @@ func
 param
 (
 ref
+opt
 box
 )
 )
@@ -774,10 +765,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -807,6 +794,7 @@ i32
 result
 (
 ref
+opt
 box
 )
 )
@@ -892,10 +880,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -921,6 +905,7 @@ global
 mut
 (
 ref
+opt
 box
 )
 )
@@ -951,10 +936,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -978,6 +959,7 @@ g
 global
 (
 ref
+opt
 box
 )
 )
@@ -1085,10 +1067,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -1113,6 +1091,7 @@ box
 mut
 (
 ref
+opt
 box
 )
 )
@@ -1147,10 +1126,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -1173,6 +1148,7 @@ box
 )
 (
 ref
+opt
 box
 )
 (
@@ -1286,10 +1262,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -1329,6 +1301,7 @@ f1
 param
 (
 ref
+opt
 box
 )
 )
@@ -1360,10 +1333,6 @@ wasmCompile
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 box
@@ -1404,6 +1373,7 @@ f1
 result
 (
 ref
+opt
 box
 )
 )
@@ -1549,10 +1519,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -1595,6 +1561,7 @@ f1
 param
 (
 ref
+opt
 box
 )
 )
@@ -1626,10 +1593,6 @@ wasmCompile
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 box
@@ -1673,6 +1636,7 @@ f1
 result
 (
 ref
+opt
 box
 )
 )
@@ -1828,10 +1792,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -1852,6 +1812,7 @@ func
 param
 (
 ref
+opt
 box
 )
 )
@@ -1918,10 +1879,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -1942,6 +1899,7 @@ func
 result
 (
 ref
+opt
 box
 )
 )
@@ -1968,6 +1926,7 @@ i32
 result
 (
 ref
+opt
 box
 )
 )
@@ -2152,10 +2111,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -2176,6 +2131,7 @@ func
 param
 (
 ref
+opt
 box
 )
 )
@@ -2245,10 +2201,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -2269,6 +2221,7 @@ func
 result
 (
 ref
+opt
 box
 )
 )
@@ -2298,6 +2251,7 @@ i32
 result
 (
 ref
+opt
 box
 )
 )
@@ -2483,10 +2437,6 @@ wasmCompile
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 box
 (
@@ -2507,6 +2457,7 @@ func
 param
 (
 ref
+opt
 box
 )
 )
@@ -2538,6 +2489,7 @@ f1
 param
 (
 ref
+opt
 box
 )
 )

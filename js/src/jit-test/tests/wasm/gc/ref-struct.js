@@ -89,10 +89,6 @@ Module
 moduleWithSections
 (
 [
-gcFeatureOptInSection
-(
-3
-)
 v2vSigSection
 declSection
 (
@@ -147,10 +143,6 @@ wasmTextToBinary
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 import
 "
@@ -211,6 +203,7 @@ left
 mut
 (
 ref
+opt
 wabbit
 )
 )
@@ -222,6 +215,7 @@ right
 mut
 (
 ref
+opt
 wabbit
 )
 )
@@ -235,6 +229,7 @@ g
 mut
 (
 ref
+opt
 wabbit
 )
 )
@@ -300,6 +295,7 @@ i32
 result
 (
 ref
+opt
 wabbit
 )
 )
@@ -349,6 +345,7 @@ if
 result
 (
 ref
+opt
 wabbit
 )
 )
@@ -397,6 +394,7 @@ block
 result
 (
 ref
+opt
 wabbit
 )
 )
@@ -488,6 +486,7 @@ param
 w
 (
 ref
+opt
 wabbit
 )
 )
@@ -604,6 +603,7 @@ param
 w
 (
 ref
+opt
 wabbit
 )
 )
@@ -612,6 +612,7 @@ local
 tmp
 (
 ref
+opt
 wabbit
 )
 )
@@ -800,6 +801,7 @@ param
 w
 (
 ref
+opt
 wabbit
 )
 )
@@ -1192,12 +1194,14 @@ store
 a
 (
 ref
+opt
 T
 )
 into
 a
 (
 ref
+opt
 U
 )
 field
@@ -1232,10 +1236,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -1246,6 +1246,7 @@ field
 mut
 (
 ref
+opt
 node
 )
 )
@@ -1263,6 +1264,7 @@ field
 mut
 (
 ref
+opt
 node
 )
 )
@@ -1281,6 +1283,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -1289,6 +1292,7 @@ param
 q
 (
 ref
+opt
 nix
 )
 )
@@ -1337,10 +1341,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -1374,6 +1374,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -1381,6 +1382,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -1390,10 +1392,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -1459,10 +1463,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -1496,6 +1496,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -1503,6 +1504,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -1512,10 +1514,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -1543,6 +1547,7 @@ local
 n
 (
 ref
+opt
 node
 )
 )
@@ -1618,10 +1623,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -1661,6 +1662,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -1668,6 +1670,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -1677,10 +1680,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -1708,6 +1713,7 @@ local
 n
 (
 ref
+opt
 node
 )
 )
@@ -1878,10 +1884,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -1905,6 +1907,7 @@ i32
 field
 (
 ref
+opt
 node
 )
 )
@@ -1923,6 +1926,7 @@ i32
 field
 (
 ref
+opt
 node
 )
 )
@@ -1936,6 +1940,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -1943,6 +1948,7 @@ node
 result
 (
 ref
+opt
 node2b
 )
 )
@@ -1952,10 +1958,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2b
 )
 (
@@ -1983,6 +1991,7 @@ local
 n
 (
 ref
+opt
 node
 )
 )
@@ -2049,10 +2058,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -2087,6 +2092,7 @@ i32
 field
 (
 ref
+opt
 node
 )
 )
@@ -2105,6 +2111,7 @@ i32
 field
 (
 ref
+opt
 nodeCopy
 )
 )
@@ -2118,6 +2125,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -2125,6 +2133,7 @@ node
 result
 (
 ref
+opt
 node2b
 )
 )
@@ -2134,10 +2143,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2b
 )
 (
@@ -2165,6 +2176,7 @@ local
 n
 (
 ref
+opt
 node
 )
 )
@@ -2263,10 +2275,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -2319,6 +2327,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -2326,6 +2335,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -2335,10 +2345,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -2366,6 +2378,7 @@ local
 n
 (
 ref
+opt
 node
 )
 )
@@ -2452,10 +2465,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -2504,6 +2513,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -2511,6 +2521,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -2520,10 +2531,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -2613,10 +2626,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -2639,6 +2648,7 @@ anyref
 result
 (
 ref
+opt
 node
 )
 )
@@ -2649,6 +2659,7 @@ narrow
 anyref
 (
 ref
+opt
 node
 )
 (
@@ -2676,6 +2687,7 @@ local
 n
 (
 ref
+opt
 node
 )
 )
@@ -2755,10 +2767,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -2793,6 +2801,7 @@ narrow
 anyref
 (
 ref
+opt
 node
 )
 (
@@ -2842,10 +2851,6 @@ txt
 =
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 node
@@ -2915,6 +2920,7 @@ narrow
 anyref
 (
 ref
+opt
 node
 )
 (
@@ -3024,10 +3030,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3046,6 +3048,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3107,10 +3110,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3132,6 +3131,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3194,10 +3194,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3216,6 +3212,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3274,10 +3271,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3299,6 +3292,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3362,10 +3356,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3395,6 +3385,7 @@ param
 p
 (
 ref
+opt
 snort
 )
 )
@@ -3460,10 +3451,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3496,6 +3483,7 @@ param
 p
 (
 ref
+opt
 snort
 )
 )
@@ -3567,10 +3555,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3615,6 +3599,7 @@ param
 p
 (
 ref
+opt
 snort
 )
 )
@@ -3622,6 +3607,7 @@ snort
 result
 (
 ref
+opt
 node2
 )
 )
@@ -3631,10 +3617,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -3685,10 +3673,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3725,6 +3709,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3732,6 +3717,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -3741,10 +3727,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -3778,10 +3766,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3818,6 +3802,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3825,6 +3810,7 @@ node
 result
 (
 ref
+opt
 node2
 )
 )
@@ -3834,10 +3820,12 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 (
 ref
+opt
 node2
 )
 (
@@ -3884,10 +3872,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3906,6 +3890,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -3950,10 +3935,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -3972,6 +3953,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -4031,7 +4013,7 @@ body
 :
 [
 RefNullCode
-MiscPrefix
+GcPrefix
 StructNarrow
 I32Code
 AnyrefCode
@@ -4063,7 +4045,7 @@ body
 :
 [
 RefNullCode
-MiscPrefix
+GcPrefix
 StructNarrow
 AnyrefCode
 I32Code
@@ -4111,10 +4093,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -4133,6 +4111,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -4146,6 +4125,7 @@ struct
 narrow
 (
 ref
+opt
 node
 )
 anyref
@@ -4198,10 +4178,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -4235,6 +4211,7 @@ param
 p
 (
 ref
+opt
 node2
 )
 )
@@ -4248,10 +4225,12 @@ struct
 narrow
 (
 ref
+opt
 node2
 )
 (
 ref
+opt
 node
 )
 (
@@ -4297,10 +4276,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -4340,6 +4315,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
@@ -4406,10 +4382,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -4449,6 +4421,7 @@ param
 p
 (
 ref
+opt
 node
 )
 )
