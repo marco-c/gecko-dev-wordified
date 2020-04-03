@@ -203,6 +203,17 @@ this
 shadowRoot
 )
 ;
+document
+.
+l10n
+.
+translateFragment
+(
+this
+.
+shadowRoot
+)
+;
 this
 .
 infoGroupsContainers

@@ -141,7 +141,7 @@ document
 .
 l10n
 .
-translateFragment
+connectRoot
 (
 this
 .
@@ -152,7 +152,7 @@ document
 .
 l10n
 .
-connectRoot
+translateFragment
 (
 this
 .
