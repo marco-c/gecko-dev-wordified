@@ -324,6 +324,17 @@ chunk
 right
 now
 .
+May
+return
+null
+in
+case
+of
+allocation
+/
+/
+failure
+.
 /
 /
 Note
