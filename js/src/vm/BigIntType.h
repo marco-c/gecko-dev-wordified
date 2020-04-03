@@ -1122,6 +1122,17 @@ mallocSizeOf
 )
 const
 ;
+size_t
+sizeOfExcludingThisInNursery
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 static
 BigInt
 *
