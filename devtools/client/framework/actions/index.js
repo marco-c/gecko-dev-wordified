@@ -101,7 +101,7 @@ framework
 /
 actions
 /
-threads
+targets
 "
 )
 }
