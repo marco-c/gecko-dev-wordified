@@ -237,7 +237,7 @@ removeLineClass
 (
 lineHandle
 "
-wrapClass
+line
 "
 "
 empty
@@ -325,7 +325,7 @@ removeLineClass
 (
 lineHandle
 "
-wrapClass
+line
 "
 "
 empty
@@ -345,7 +345,7 @@ addLineClass
 (
 lineHandle
 "
-wrapClass
+line
 "
 "
 empty
