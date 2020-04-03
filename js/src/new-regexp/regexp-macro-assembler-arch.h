@@ -809,6 +809,16 @@ initFrameAndRegs
 (
 )
 ;
+void
+successHandler
+(
+)
+;
+void
+exitHandler
+(
+)
+;
 /
 /
 Push
