@@ -47489,6 +47489,8 @@ deviceName
 ;
 UINT
 dataSize
+=
+0
 ;
 /
 /
@@ -47518,6 +47520,11 @@ if
 (
 !
 dataSize
+|
+|
+dataSize
+>
+0x10000
 )
 {
 return
