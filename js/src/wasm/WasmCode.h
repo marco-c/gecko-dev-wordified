@@ -1421,7 +1421,7 @@ temporarilyUnsupportedReftypeForEntry
 !
 funcType_
 .
-temporarilyUnsupportedResultCountForEntry
+temporarilyUnsupportedResultCountForJitEntry
 (
 )
 &
