@@ -1577,6 +1577,7 @@ printing
 void
 CloneAdoptedSheetsFrom
 (
+const
 DocumentOrShadowRoot
 &
 )

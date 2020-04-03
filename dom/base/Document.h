@@ -2648,6 +2648,19 @@ dom
 ReferrerPolicy
 ReferrerPolicyEnum
 ;
+using
+AdoptedStyleSheetCloneCache
+=
+nsRefPtrHashtable
+<
+nsPtrHashKey
+<
+const
+StyleSheet
+>
+StyleSheet
+>
+;
 /
 /
 nsINode
@@ -17402,6 +17415,7 @@ bool
 IsStaticDocument
 (
 )
+const
 {
 return
 mIsStaticDocument
