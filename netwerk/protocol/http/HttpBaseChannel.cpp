@@ -26575,6 +26575,15 @@ loadGroup
 ;
 }
 }
+void
+HttpBaseChannel
+:
+:
+DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
+(
+)
+{
+}
 }
 /
 /
