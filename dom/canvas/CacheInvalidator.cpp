@@ -149,9 +149,10 @@ invalidators
 .
 while
 (
+!
 mCaches
 .
-size
+empty
 (
 )
 )
