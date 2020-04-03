@@ -8140,13 +8140,6 @@ compilerEnv_
 .
 computeParameters
 (
-/
-*
-gc
-types
-*
-/
-false
 )
 ;
 env_
