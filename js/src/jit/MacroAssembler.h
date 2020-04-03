@@ -22787,7 +22787,7 @@ dest
 )
 ;
 void
-loadJitCodeMaybeNoArgCheck
+loadJitCodeNoArgCheck
 (
 Register
 func
