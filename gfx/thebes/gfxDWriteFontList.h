@@ -450,6 +450,8 @@ const
 nsACString
 &
 aName
+FontVisibility
+aVisibility
 IDWriteFontFamily
 *
 aFamily
@@ -462,6 +464,7 @@ false
 gfxFontFamily
 (
 aName
+aVisibility
 )
 mDWFamily
 (
@@ -1993,6 +1996,8 @@ const
 nsACString
 &
 aName
+FontVisibility
+aVisibility
 )
 const
 override
