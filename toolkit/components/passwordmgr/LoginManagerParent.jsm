@@ -4313,6 +4313,7 @@ false
 /
 notifySaved
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -4369,6 +4370,7 @@ false
 /
 notifySaved
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -4404,6 +4406,11 @@ promptToSavePassword
 promptBrowser
 formLogin
 dismissedPrompt
+false
+/
+/
+notifySaved
+autoFilledLoginGuid
 )
 ;
 }
@@ -6170,6 +6177,7 @@ autoSavedStorageGUID
 /
 /
 autoSavedLoginGuid
+autoFilledLoginGuid
 )
 ;
 }
@@ -6223,6 +6231,7 @@ autoSavedStorageGUID
 /
 /
 autoSavedLoginGuid
+autoFilledLoginGuid
 )
 ;
 }
@@ -6320,6 +6329,7 @@ autoSavedStorageGUID
 /
 /
 autoSavedLoginGuid
+autoFilledLoginGuid
 )
 ;
 }
@@ -6357,6 +6367,7 @@ shouldAutoSaveLogin
 /
 /
 notifySaved
+autoFilledLoginGuid
 )
 ;
 }

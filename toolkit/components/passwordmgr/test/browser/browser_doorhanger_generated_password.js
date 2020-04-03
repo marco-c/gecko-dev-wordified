@@ -652,7 +652,7 @@ info
 "
 verifyConfirmationHint
 hintElem
-poup
+popup
 is
 hidden
 "
