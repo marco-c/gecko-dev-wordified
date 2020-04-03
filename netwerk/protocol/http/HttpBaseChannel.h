@@ -2144,12 +2144,6 @@ aListener
 )
 override
 ;
-void
-DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
-(
-)
-override
-;
 /
 /
 nsISupportsPriority

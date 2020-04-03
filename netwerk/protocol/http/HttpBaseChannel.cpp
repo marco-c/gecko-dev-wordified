@@ -26575,15 +26575,6 @@ loadGroup
 ;
 }
 }
-void
-HttpBaseChannel
-:
-:
-DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
-(
-)
-{
-}
 }
 /
 /
