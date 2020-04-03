@@ -1325,15 +1325,11 @@ cx
 {
 if
 (
-analyzedArgsUsage
+needsArgsAnalysis
 (
 )
 )
 {
-return
-true
-;
-}
 return
 js
 :
@@ -1346,6 +1342,10 @@ AnalyzeArgumentsUsage
 cx
 this
 )
+;
+}
+return
+true
 ;
 }
 inline

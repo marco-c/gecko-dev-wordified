@@ -18956,10 +18956,11 @@ object
 /
 if
 (
+!
 script
 -
 >
-analyzedArgsUsage
+needsArgsAnalysis
 (
 )
 &
