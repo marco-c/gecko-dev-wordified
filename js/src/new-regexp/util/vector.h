@@ -500,6 +500,7 @@ MOZ_ASSERT
 (
 from
 <
+=
 to
 )
 ;
@@ -507,6 +508,7 @@ MOZ_ASSERT
 (
 to
 <
+=
 length_
 )
 ;
