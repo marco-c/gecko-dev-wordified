@@ -276,10 +276,7 @@ parameterNames
 .
 filter
 (
-i
-=
->
-i
+Boolean
 )
 .
 map
