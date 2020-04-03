@@ -573,7 +573,10 @@ printf
 *
 s
 "
+int
+(
 startColno
+)
 "
 "
 )
@@ -752,9 +755,12 @@ s
 *
 s
 "
+int
+(
 startColno
 +
 indent
+)
 "
 "
 int
@@ -873,7 +879,10 @@ n
 *
 s
 "
+int
+(
 startColno
+)
 "
 "
 )

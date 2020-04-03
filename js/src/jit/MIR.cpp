@@ -7336,8 +7336,11 @@ printf
 %
 x
 "
+uint32_t
+(
 toInt32
 (
+)
 )
 )
 ;
@@ -7358,8 +7361,11 @@ printf
 %
 "
 PRIx64
+uint64_t
+(
 toInt64
 (
+)
 )
 )
 ;

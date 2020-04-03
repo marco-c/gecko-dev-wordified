@@ -1521,7 +1521,10 @@ mode
 %
 x
 "
+uint32_t
+(
 mode
+)
 )
 ;
 }
@@ -2960,7 +2963,10 @@ kind
 %
 u
 "
+uint32_t
+(
 bailoutKind_
+)
 )
 ;
 #
@@ -3604,7 +3610,10 @@ kind
 u
 "
 recoverOffset
+uint32_t
+(
 kind
+)
 )
 ;
 MOZ_ASSERT
