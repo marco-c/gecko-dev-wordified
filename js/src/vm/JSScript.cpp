@@ -17580,7 +17580,7 @@ JS
 :
 Handle
 <
-JSScript
+BaseScript
 *
 >
 script
