@@ -112,7 +112,6 @@ namespace
 gmp
 {
 intr
-refcounted
 protocol
 PGMPContent
 {
