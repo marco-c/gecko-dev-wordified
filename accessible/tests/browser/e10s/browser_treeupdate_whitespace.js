@@ -100,6 +100,8 @@ MOCHITESTS_DIR
 addAccessibleTask
 (
 "
+e10s
+/
 doc_treeupdate_whitespace
 .
 html

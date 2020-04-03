@@ -105,6 +105,8 @@ Dialog
 addAccessibleTask
 (
 "
+e10s
+/
 doc_treeupdate_ariadialog
 .
 html

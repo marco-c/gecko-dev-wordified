@@ -2148,8 +2148,6 @@ file
 {
 CURRENT_FILE_DIR
 }
-e10s
-/
 {
 doc
 }
@@ -2265,8 +2263,6 @@ loadHTMLFromFile
 {
 CURRENT_FILE_DIR
 }
-e10s
-/
 {
 doc
 }
@@ -2633,8 +2629,6 @@ url
 {
 CURRENT_CONTENT_DIR
 }
-e10s
-/
 {
 doc
 }
