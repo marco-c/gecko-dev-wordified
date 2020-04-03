@@ -886,6 +886,12 @@ StartupCache
 :
 gIgnoreDiskCache
 ;
+bool
+StartupCache
+:
+:
+gFoundDiskCacheOnInit
+;
 NS_IMPL_ISUPPORTS
 (
 StartupCache
@@ -1297,6 +1303,13 @@ unwrapErr
 )
 :
 NS_OK
+;
+gFoundDiskCacheOnInit
+=
+rv
+!
+=
+NS_ERROR_FILE_NOT_FOUND
 ;
 /
 /

@@ -1410,6 +1410,10 @@ StartupCache
 (
 )
 ;
+friend
+class
+StartupCacheInfo
+;
 Result
 <
 Ok
@@ -1675,6 +1679,10 @@ gShutdownInitiated
 static
 bool
 gIgnoreDiskCache
+;
+static
+bool
+gFoundDiskCacheOnInit
 ;
 PRThread
 *
