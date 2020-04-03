@@ -450,6 +450,10 @@ js
 :
 :
 PromiseObject
+js
+:
+:
+PromiseResolvedWithUndefined
 #
 include
 "
@@ -1322,13 +1326,9 @@ closed
 )
 {
 return
-PromiseObject
-:
-:
-unforgeableResolveWithNonPromise
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 ;
 }

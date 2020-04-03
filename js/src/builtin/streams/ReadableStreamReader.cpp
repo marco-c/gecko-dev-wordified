@@ -325,6 +325,10 @@ js
 :
 :
 PromiseObject
+js
+:
+:
+PromiseResolvedWithUndefined
 #
 include
 "
@@ -919,13 +923,9 @@ undefined
 .
 promise
 =
-PromiseObject
-:
-:
-unforgeableResolveWithNonPromise
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 ;
 }
@@ -2053,7 +2053,7 @@ return
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 iterResultVal

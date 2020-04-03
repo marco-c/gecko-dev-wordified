@@ -412,6 +412,10 @@ js
 :
 :
 PromiseObject
+js
+:
+:
+PromiseResolvedWithUndefined
 #
 include
 "
@@ -2376,13 +2380,9 @@ PromiseObject
 startPromise
 (
 cx
-PromiseObject
-:
-:
-unforgeableResolveWithNonPromise
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 )
 ;
@@ -3446,7 +3446,11 @@ return
 nullptr
 ;
 }
-RootedObject
+Rooted
+<
+PlainObject
+*
+>
 readResult
 (
 cx
@@ -3486,7 +3490,7 @@ return
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 val

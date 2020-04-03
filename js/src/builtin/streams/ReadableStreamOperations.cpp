@@ -482,6 +482,10 @@ js
 :
 :
 PromiseObject
+js
+:
+:
+PromiseResolvedWithUndefined
 #
 include
 "
@@ -3074,13 +3078,9 @@ with
 undefined
 .
 return
-PromiseObject
-:
-:
-unforgeableResolveWithNonPromise
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 ;
 }

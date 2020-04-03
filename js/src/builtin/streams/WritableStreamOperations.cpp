@@ -419,6 +419,10 @@ js
 :
 :
 PromiseObject
+js
+:
+:
+PromiseResolvedWithUndefined
 #
 include
 "
@@ -1351,13 +1355,9 @@ errored
 )
 {
 return
-PromiseObject
-:
-:
-unforgeableResolve
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 ;
 }

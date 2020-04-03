@@ -502,6 +502,10 @@ js
 :
 :
 PromiseObject
+js
+:
+:
+PromiseResolvedWithUndefined
 #
 include
 "
@@ -3085,13 +3089,9 @@ step
 .
 result
 =
-PromiseObject
-:
-:
-unforgeableResolveWithNonPromise
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 ;
 }
@@ -3714,7 +3714,7 @@ return
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 readResult
