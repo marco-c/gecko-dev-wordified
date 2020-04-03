@@ -926,6 +926,16 @@ true
 allFrames
 :
 true
+messageManagerGroups
+:
+[
+"
+browsers
+"
+"
+test
+"
+]
 }
 /
 /
