@@ -521,6 +521,15 @@ ReentrantMonitor
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_layers
+.
+h
+"
 namespace
 mozilla
 {
