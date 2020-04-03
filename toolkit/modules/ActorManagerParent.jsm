@@ -1185,6 +1185,15 @@ DOMInputPasswordAdded
 allFrames
 :
 true
+messageManagerGroups
+:
+[
+"
+browsers
+"
+"
+"
+]
 }
 PictureInPicture
 :
