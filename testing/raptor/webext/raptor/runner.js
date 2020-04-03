@@ -299,7 +299,7 @@ newTabDelay
 1000
 ;
 var
-reuseTab
+newTabPerCycle
 =
 false
 ;
@@ -977,7 +977,7 @@ newtab_per_cycle
 undefined
 )
 {
-reuseTab
+newTabPerCycle
 =
 settings
 .
@@ -2536,7 +2536,7 @@ break
 }
 if
 (
-reuseTab
+newTabPerCycle
 &
 &
 testTabID
