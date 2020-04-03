@@ -1381,8 +1381,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-aHadSlowFrame
 )
 ;
 void
@@ -1619,16 +1617,6 @@ thread
 .
 void
 DecPendingFrameBuildCount
-(
-wr
-:
-:
-WindowId
-aWindowId
-)
-;
-void
-NotifySlowFrame
 (
 wr
 :
@@ -2183,11 +2171,6 @@ mPendingFrameBuild
 ;
 bool
 mIsDestroyed
-=
-false
-;
-bool
-mHadSlowFrame
 =
 false
 ;

@@ -3511,9 +3511,6 @@ i32
 height
 :
 i32
-had_slow_frame
-:
-bool
 out_stats
 :
 &
@@ -3532,16 +3529,6 @@ DeviceIntRect
 >
 bool
 {
-if
-had_slow_frame
-{
-renderer
-.
-notify_slow_frame
-(
-)
-;
-}
 match
 renderer
 .
