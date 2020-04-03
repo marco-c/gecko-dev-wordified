@@ -159,6 +159,9 @@ namespace
 js
 {
 class
+PromiseObject
+;
+class
 ReadableByteStreamController
 ;
 class
@@ -204,7 +207,7 @@ unwrappedController
 ;
 extern
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 ReadableStreamControllerPullSteps
 (
