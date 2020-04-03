@@ -5436,7 +5436,7 @@ true
 }
 profile_counters
 .
-ipc
+txn
 .
 set
 (
