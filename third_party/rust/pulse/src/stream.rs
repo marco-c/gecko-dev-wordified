@@ -2494,9 +2494,7 @@ self
 >
 Result
 <
-(
 USec
-)
 >
 {
 let
