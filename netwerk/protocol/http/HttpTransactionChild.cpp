@@ -2321,6 +2321,8 @@ contentTypeOptionsHeader
 ;
 if
 (
+!
+(
 head
 -
 >
@@ -2337,6 +2339,7 @@ EqualsIgnoreCase
 "
 nosniff
 "
+)
 )
 )
 {
