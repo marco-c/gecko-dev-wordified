@@ -35286,6 +35286,10 @@ fun
 compilationInfo
 .
 sourceObject
+funbox
+-
+>
+extent
 ImmutableScriptFlags
 :
 :
@@ -35293,10 +35297,6 @@ fromCompileOptions
 (
 transitiveOptions
 )
-funbox
--
->
-extent
 )
 )
 ;
