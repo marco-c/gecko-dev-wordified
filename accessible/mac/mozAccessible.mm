@@ -1418,6 +1418,11 @@ states
 :
 :
 CURRENT
+|
+states
+:
+:
+SELECTED
 ;
 static
 const
