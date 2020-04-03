@@ -20805,6 +20805,7 @@ destroy_compositor_tile
 id
 )
 ;
+}
 tile
 .
 surface
@@ -20833,7 +20834,6 @@ InvalidationReason
 CompositorKindChanged
 )
 ;
-}
 }
 }
 if
