@@ -407,8 +407,6 @@ this
 file
 bool
 mUseDOSDevicePathSyntax
-=
-false
 ;
 /
 /
