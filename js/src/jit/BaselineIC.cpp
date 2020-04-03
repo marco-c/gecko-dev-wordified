@@ -790,11 +790,11 @@ zu
 line
 =
 %
-d
+u
 uses
 =
 %
-d
+u
 stubs
 =
 %
@@ -963,11 +963,11 @@ zu
 line
 =
 %
-d
+u
 uses
 =
 %
-d
+u
 stubs
 =
 %

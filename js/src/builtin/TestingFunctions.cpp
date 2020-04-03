@@ -14059,7 +14059,7 @@ stderr
 "
 thread
 %
-d
+u
 \
 n
 "
@@ -14090,7 +14090,7 @@ stderr
 "
 iteration
 %
-d
+u
 \
 n
 "
@@ -14534,7 +14534,7 @@ stderr
 finished
 after
 %
-d
+u
 iterations
 \
 n

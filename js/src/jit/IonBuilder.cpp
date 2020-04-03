@@ -1659,7 +1659,7 @@ s
 s
 :
 %
-d
+u
 "
 message
 script

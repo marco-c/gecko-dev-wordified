@@ -2318,7 +2318,7 @@ actual
 args
 :
 %
-d
+u
 \
 n
 "
@@ -3052,7 +3052,7 @@ location
 of
 depth
 %
-d
+u
 :
 "
 depth

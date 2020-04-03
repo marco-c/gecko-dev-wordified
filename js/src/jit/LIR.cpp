@@ -2771,7 +2771,7 @@ JS_smprintf
 "
 v
 %
-d
+u
 :
 r
 "
@@ -2795,7 +2795,7 @@ JS_smprintf
 "
 v
 %
-d
+u
 :
 %
 s
@@ -2836,7 +2836,7 @@ JS_smprintf
 "
 v
 %
-d
+u
 :
 r
 ?
@@ -2861,7 +2861,7 @@ JS_smprintf
 "
 v
 %
-d
+u
 :
 *
 "
@@ -2885,7 +2885,7 @@ JS_smprintf
 "
 v
 %
-d
+u
 :
 s
 "
@@ -2909,7 +2909,7 @@ JS_smprintf
 "
 v
 %
-d
+u
 :
 *
 *
@@ -3073,7 +3073,7 @@ JS_smprintf
 stack
 :
 %
-d
+u
 "
 toStackSlot
 (
@@ -3101,7 +3101,7 @@ JS_smprintf
 arg
 :
 %
-d
+u
 "
 toArgument
 (
@@ -3129,10 +3129,10 @@ JS_smprintf
 stackarea
 :
 %
-d
+u
 +
 %
-d
+u
 "
 toStackArea
 (

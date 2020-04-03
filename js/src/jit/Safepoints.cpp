@@ -1276,7 +1276,7 @@ elements
 slot
 :
 %
-d
+u
 "
 slots
 [
@@ -2540,7 +2540,7 @@ entry
 ended
 at
 %
-d
+u
 "
 uint32_t
 (

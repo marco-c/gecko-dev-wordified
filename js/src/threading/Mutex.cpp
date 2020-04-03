@@ -251,7 +251,7 @@ s
 with
 order
 %
-d
+u
 while
 holding
 %
@@ -261,7 +261,7 @@ with
 "
 order
 %
-d
+u
 \
 n
 "

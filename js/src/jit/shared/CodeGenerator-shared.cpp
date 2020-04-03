@@ -2111,7 +2111,7 @@ JitSpew_Profiling
 +
 %
 -
-6d
+6u
 ]
 =
 >
@@ -2121,7 +2121,7 @@ JitSpew_Profiling
 [
 %
 -
-4d
+4u
 ]
 {
 %

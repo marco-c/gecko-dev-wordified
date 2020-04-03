@@ -469,7 +469,7 @@ stderr
 "
 (
 %
-d
+u
 )
 "
 byteLen_

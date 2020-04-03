@@ -1342,7 +1342,7 @@ formal
 (
 arg
 %
-d
+u
 )
 :
 "
@@ -1360,7 +1360,7 @@ overflown
 (
 arg
 %
-d
+u
 )
 :
 "
@@ -1425,7 +1425,7 @@ stderr
 "
 local
 %
-d
+u
 :
 "
 i

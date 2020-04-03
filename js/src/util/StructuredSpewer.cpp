@@ -476,7 +476,7 @@ s
 d
 .
 %
-d
+u
 "
 path
 getpid
@@ -645,10 +645,10 @@ signature
 s
 :
 %
-d
+u
 :
 %
-d
+u
 "
 script
 -
