@@ -22051,6 +22051,14 @@ NS_OK
 }
 MOZ_ASSERT
 (
+bc
+-
+>
+IsInProcess
+(
+)
+|
+|
 NodePrincipal
 (
 )
