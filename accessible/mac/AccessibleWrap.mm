@@ -1210,6 +1210,12 @@ roles
 :
 TOGGLE_BUTTON
 :
+case
+roles
+:
+:
+RADIOBUTTON
+:
 return
 [
 mozCheckboxAccessible
