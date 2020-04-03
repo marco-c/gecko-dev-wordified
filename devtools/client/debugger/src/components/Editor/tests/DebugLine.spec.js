@@ -560,7 +560,7 @@ foo
 line
 )
 "
-line
+wrapClass
 "
 "
 new
@@ -741,7 +741,7 @@ foo
 firstLine
 )
 "
-line
+wrapClass
 "
 "
 new
@@ -777,7 +777,7 @@ foo
 firstLine
 )
 "
-line
+wrapClass
 "
 "
 new
@@ -796,7 +796,7 @@ foo
 secondLine
 )
 "
-line
+wrapClass
 "
 "
 new
