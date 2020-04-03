@@ -110,6 +110,11 @@ SOURCES
 =
 [
 '
+TestAlgorithm
+.
+cpp
+'
+'
 TestInitializedOnce
 .
 cpp
