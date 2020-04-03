@@ -3365,7 +3365,12 @@ fetchState
 )
 {
 return
+Array
+.
+from
+(
 gPendingWriteOperations
+)
 .
 map
 (
