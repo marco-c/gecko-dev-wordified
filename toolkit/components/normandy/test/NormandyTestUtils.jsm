@@ -1232,13 +1232,6 @@ lastModified
 1
 )
 ;
-await
-db
-.
-close
-(
-)
-;
 }
 }
 ;
@@ -1290,13 +1283,6 @@ saveLastModified
 lastModified
 +
 1
-)
-;
-await
-db
-.
-close
-(
 )
 ;
 }

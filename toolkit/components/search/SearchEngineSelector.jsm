@@ -916,17 +916,6 @@ clear
 (
 )
 ;
-await
-this
-.
-_remoteConfig
-.
-db
-.
-close
-(
-)
-;
 /
 /
 Now

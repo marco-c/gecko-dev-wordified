@@ -1828,12 +1828,6 @@ saveLastModified
 42
 )
 ;
-db
-.
-close
-(
-)
-;
 let
 recipesFromRS
 =
@@ -2209,12 +2203,6 @@ db
 saveLastModified
 (
 42
-)
-;
-db
-.
-close
-(
 )
 ;
 await

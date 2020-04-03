@@ -2664,15 +2664,6 @@ clear
 (
 )
 ;
-await
-client
-.
-db
-.
-close
-(
-)
-;
 /
 /
 Remove

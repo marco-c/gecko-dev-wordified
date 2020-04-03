@@ -505,17 +505,6 @@ clear
 (
 )
 ;
-await
-this
-.
-_ignoreListSettings
-.
-db
-.
-close
-(
-)
-;
 /
 /
 Now
