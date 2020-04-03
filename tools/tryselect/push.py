@@ -559,6 +559,9 @@ labels
 try_config
 =
 None
+routes
+=
+None
 )
 :
     
@@ -610,6 +613,19 @@ labels
     
 }
 )
+    
+if
+routes
+:
+        
+try_task_config
+[
+"
+routes
+"
+]
+=
+routes
     
 return
 try_task_config
