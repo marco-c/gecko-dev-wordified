@@ -166,6 +166,13 @@ FileInfoFwd
 .
 h
 "
+#
+include
+"
+SafeRefPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -675,7 +682,7 @@ StructuredCloneFileParent
 (
 FileType
 aType
-RefPtr
+SafeRefPtr
 <
 FileInfo
 >
@@ -768,7 +775,7 @@ In
 IndexedDatabaseInlines
 .
 h
-RefPtr
+SafeRefPtr
 <
 indexedDB
 :
@@ -787,7 +794,7 @@ InitializedOnce
 const
 Maybe
 <
-RefPtr
+SafeRefPtr
 <
 indexedDB
 :

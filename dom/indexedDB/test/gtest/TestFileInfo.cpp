@@ -773,7 +773,7 @@ fileInfos
 =
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 TestFileInfo
 >
