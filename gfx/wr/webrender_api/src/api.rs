@@ -8594,6 +8594,10 @@ pub
 interning
 :
 InterningMemoryReport
+pub
+display_list
+:
+usize
 /
 /
 /
