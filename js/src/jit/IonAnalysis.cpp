@@ -2892,11 +2892,11 @@ Remove
 block
 edge
 %
-d
+u
 -
 >
 %
-d
+u
 .
 "
 block
@@ -3191,7 +3191,7 @@ JitSpew_Prune
 Investigate
 Block
 %
-d
+u
 :
 "
 block
@@ -3247,7 +3247,7 @@ JitSpew_Prune
 "
 Block
 %
-d
+u
 is
 an
 entry
@@ -4479,7 +4479,7 @@ info
 :
 block
 %
-d
+u
 "
 "
 predCount
@@ -4605,7 +4605,7 @@ JitSpew_Prune
 Mark
 block
 %
-d
+u
 as
 unreachable
 .
@@ -4661,7 +4661,7 @@ JitSpew_Prune
 Mark
 block
 %
-d
+u
 as
 bailing
 block
@@ -4728,7 +4728,7 @@ JitSpew_Prune
 Mark
 block
 %
-d
+u
 as
 bailing
 block
@@ -5040,7 +5040,7 @@ Remove
 Replace
 block
 %
-d
+u
 .
 "
 block
@@ -5130,7 +5130,7 @@ JitSpew_Prune
 Convert
 Block
 %
-d
+u
 to
 a
 bailing
@@ -5204,7 +5204,7 @@ JitSpew_Prune
 Remove
 Block
 %
-d
+u
 .
 "
 block

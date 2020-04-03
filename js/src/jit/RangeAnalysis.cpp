@@ -1342,7 +1342,7 @@ Looking
 at
 block
 %
-d
+u
 "
 block
 -
@@ -1794,7 +1794,7 @@ node
 for
 smaller
 %
-d
+u
 "
 smaller
 -
@@ -1862,7 +1862,7 @@ node
 for
 greater
 %
-d
+u
 "
 greater
 -
@@ -2396,7 +2396,7 @@ beta
 node
 for
 %
-d
+u
 with
 range
 "
@@ -2587,10 +2587,10 @@ Removing
 beta
 node
 %
-d
+u
 for
 %
-d
+u
 "
 def
 -
@@ -10124,7 +10124,7 @@ Ignoring
 unreachable
 input
 %
-d
+u
 "
 getOperand
 (
@@ -10294,7 +10294,7 @@ block
 for
 inst
 %
-d
+u
 unreachable
 "
 id
@@ -17362,7 +17362,7 @@ symbolic
 range
 on
 %
-d
+u
 "
 phi
 -
@@ -18479,7 +18479,7 @@ computing
 range
 on
 %
-d
+u
 "
 def
 -
@@ -26550,7 +26550,7 @@ Update
 condition
 of
 %
-d
+u
 to
 reflect
 unreachable
