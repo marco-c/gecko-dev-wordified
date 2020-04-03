@@ -644,6 +644,12 @@ using
 js
 :
 :
+PromiseObject
+;
+using
+js
+:
+:
 ReadableStream
 ;
 using
@@ -3323,7 +3329,7 @@ forAuthorCode
 )
 *
 /
-JSObject
+PromiseObject
 *
 js
 :
