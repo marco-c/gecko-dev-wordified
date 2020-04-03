@@ -1184,7 +1184,7 @@ if
 nsContentUtils
 :
 :
-IsThirdPartyTrackingResourceWindow
+IsThirdPartyWindowOrChannel
 (
 aDocument
 -
@@ -1192,6 +1192,8 @@ aDocument
 GetInnerWindow
 (
 )
+nullptr
+nullptr
 )
 )
 {
