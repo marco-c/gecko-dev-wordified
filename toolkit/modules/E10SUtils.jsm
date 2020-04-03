@@ -697,11 +697,6 @@ about
 :
 printpreview
 "
-"
-about
-:
-privatebrowsing
-"
 ]
 ;
 /
