@@ -4697,6 +4697,17 @@ GetTextPerfMetrics
 ;
 params
 .
+fontStats
+=
+pc
+-
+>
+GetFontMatchingStats
+(
+)
+;
+params
+.
 featureValueLookup
 =
 pc
