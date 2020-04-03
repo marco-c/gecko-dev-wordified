@@ -9598,7 +9598,7 @@ the
 JIT
 code
 in
-scratch
+scratch1
 .
 Label
 noUnderflow
