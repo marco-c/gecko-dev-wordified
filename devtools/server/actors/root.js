@@ -2078,7 +2078,6 @@ listTabs
 async
 function
 (
-options
 )
 {
 const
@@ -2250,7 +2249,6 @@ tabList
 .
 getList
 (
-options
 )
 ;
 for
@@ -2441,7 +2439,10 @@ getTab
 async
 function
 (
-options
+{
+outerWindowID
+tabId
+}
 )
 {
 const
@@ -2514,7 +2515,10 @@ tabList
 .
 getTab
 (
-options
+{
+outerWindowID
+tabId
+}
 )
 ;
 }

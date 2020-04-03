@@ -2044,7 +2044,6 @@ getList
 async
 function
 (
-browserActorOptions
 )
 {
 const
@@ -2163,7 +2162,6 @@ this
 _getActorForBrowser
 (
 browser
-browserActorOptions
 )
 ;
 /
@@ -2290,21 +2288,6 @@ actors
 ;
 }
 ;
-/
-*
-*
-*
-param
-browserActorOptions
-see
-options
-argument
-of
-TabDescriptorActor
-constructor
-.
-*
-/
 BrowserTabList
 .
 prototype
@@ -2315,7 +2298,6 @@ async
 function
 (
 browser
-browserActorOptions
 )
 {
 /
@@ -2378,7 +2360,6 @@ this
 .
 _connection
 browser
-browserActorOptions
 )
 ;
 this
@@ -2414,7 +2395,6 @@ function
 outerWindowID
 tabId
 }
-browserActorOptions
 )
 {
 if
@@ -2528,7 +2508,6 @@ this
 _getActorForBrowser
 (
 iframe
-browserActorOptions
 )
 ;
 }
@@ -2581,7 +2560,6 @@ this
 _getActorForBrowser
 (
 browser
-browserActorOptions
 )
 ;
 }
@@ -2675,7 +2653,6 @@ this
 _getActorForBrowser
 (
 browser
-browserActorOptions
 )
 ;
 }
@@ -2747,7 +2724,6 @@ this
 _getActorForBrowser
 (
 selectedBrowser
-browserActorOptions
 )
 ;
 }
