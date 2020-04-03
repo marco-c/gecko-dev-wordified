@@ -122,6 +122,15 @@ define
 mozilla_layers_KeyboardScrollAction_h
 #
 include
+<
+cstdint
+>
+/
+/
+for
+uint8_t
+#
+include
 "
 mozilla
 /
