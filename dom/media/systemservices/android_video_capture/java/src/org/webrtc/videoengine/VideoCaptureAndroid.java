@@ -1092,6 +1092,14 @@ VideoFrame
 frame
 )
 {
+if
+(
+native_capturer
+!
+=
+0
+)
+{
 I420Buffer
 i420Buffer
 =
@@ -1168,5 +1176,6 @@ release
 (
 )
 ;
+}
 }
 }
