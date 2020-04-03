@@ -362,6 +362,14 @@ DisconnectHandlerRemotes
 )
 override
 ;
+STDMETHODIMP
+IsInterfaceMaybeSupported
+(
+REFIID
+aIid
+)
+override
+;
 STDMETHODIMP_
 (
 REFIID
