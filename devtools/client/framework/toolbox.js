@@ -562,7 +562,7 @@ lazyRequireGetter
 (
 this
 "
-clearTarget
+unregisterTarget
 "
 "
 devtools
@@ -4410,7 +4410,7 @@ store
 .
 dispatch
 (
-clearTarget
+unregisterTarget
 (
 targetFront
 )

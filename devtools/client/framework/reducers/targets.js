@@ -231,7 +231,7 @@ target
 }
 case
 "
-CLEAR_TARGET
+UNREGISTER_TARGET
 "
 :
 {
