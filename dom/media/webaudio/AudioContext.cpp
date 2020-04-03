@@ -8268,7 +8268,6 @@ return
 mSawtooth
 ;
 }
-else
 if
 (
 aType
@@ -8304,7 +8303,6 @@ return
 mSquare
 ;
 }
-else
 if
 (
 aType
@@ -8340,8 +8338,6 @@ return
 mTriangle
 ;
 }
-else
-{
 MOZ_ASSERT
 (
 false
@@ -8354,7 +8350,6 @@ reached
 return
 nullptr
 ;
-}
 }
 }
 /
