@@ -2515,11 +2515,6 @@ tabList
 getTab
 (
 options
-{
-forceUnzombify
-:
-true
-}
 )
 ;
 }
