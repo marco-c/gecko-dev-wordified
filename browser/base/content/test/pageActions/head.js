@@ -55,6 +55,10 @@ jsm
 function
 promisePageActionPanelOpen
 (
+eventDict
+=
+{
+}
 )
 {
 let
@@ -249,8 +253,7 @@ synthesizeMouseAtCenter
 BrowserPageActions
 .
 mainButtonNode
-{
-}
+eventDict
 )
 ;
 return
