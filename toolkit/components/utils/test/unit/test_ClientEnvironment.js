@@ -148,15 +148,12 @@ async
 const
 os
 =
-await
 ClientEnvironmentBase
 .
 os
 ;
 ok
 (
-ClientEnvironmentBase
-.
 os
 !
 =
