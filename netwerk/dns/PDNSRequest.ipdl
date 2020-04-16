@@ -168,7 +168,7 @@ PNecko
 or
 PSocketProcess
 ;
-both
+parent
 :
 /
 /
@@ -230,6 +230,8 @@ __delete__
 (
 )
 ;
+child
+:
 async
 LookupCompleted
 (
