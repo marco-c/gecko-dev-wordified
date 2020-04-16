@@ -221,7 +221,6 @@ ErrorResult
 aRv
 )
 ;
-const
 RefPtr
 <
 WebGPUChild
