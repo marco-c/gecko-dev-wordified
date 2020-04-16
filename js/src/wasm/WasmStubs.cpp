@@ -13559,7 +13559,7 @@ funcType
 )
 )
 .
-length
+lengthWithStackResults
 (
 )
 ;
