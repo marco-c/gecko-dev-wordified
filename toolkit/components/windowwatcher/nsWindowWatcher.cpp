@@ -8268,7 +8268,6 @@ newBC
 >
 LoadURI
 (
-parentBC
 loadState
 )
 ;
