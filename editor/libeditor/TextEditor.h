@@ -1214,6 +1214,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
+const
 override
 ;
 /
@@ -5492,6 +5493,7 @@ Element
 GetInputEventTargetElement
 (
 )
+const
 override
 ;
 /

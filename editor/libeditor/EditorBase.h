@@ -2711,6 +2711,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
+const
 =
 0
 ;
@@ -3529,6 +3530,7 @@ nsIContent
 GetFocusedContent
 (
 )
+const
 ;
 /
 *
@@ -3552,13 +3554,12 @@ methods
 *
 /
 virtual
-already_AddRefed
-<
 nsIContent
->
+*
 GetFocusedContentForIME
 (
 )
+const
 ;
 /
 *
@@ -14503,6 +14504,7 @@ bool
 IsActiveInDOMWindow
 (
 )
+const
 ;
 /
 *
@@ -16166,6 +16168,7 @@ Element
 GetInputEventTargetElement
 (
 )
+const
 =
 0
 ;

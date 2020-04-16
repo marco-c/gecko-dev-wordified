@@ -990,16 +990,16 @@ nsIContent
 GetFocusedContent
 (
 )
+const
 override
 ;
 virtual
-already_AddRefed
-<
 nsIContent
->
+*
 GetFocusedContentForIME
 (
 )
+const
 override
 ;
 virtual
@@ -1007,6 +1007,7 @@ bool
 IsActiveInDOMWindow
 (
 )
+const
 override
 ;
 virtual
@@ -1018,6 +1019,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
+const
 override
 ;
 virtual
@@ -7038,6 +7040,7 @@ SkipWhitespace
 :
 No
 )
+const
 ;
 /
 *
@@ -7085,6 +7088,7 @@ SkipWhitespace
 :
 No
 )
+const
 ;
 /
 /
@@ -7179,6 +7183,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousHTMLElementOrTextInternal
@@ -7196,6 +7201,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousHTMLElementOrTextInternal
@@ -7225,6 +7231,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetPreviousHTMLElementOrTextInternal
@@ -7254,6 +7261,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetPreviousHTMLElementOrTextInternal
@@ -7300,6 +7308,7 @@ aNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 template
 <
@@ -7323,6 +7332,7 @@ aPoint
 bool
 aNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -7366,6 +7376,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousEditableHTMLNodeInternal
@@ -7383,6 +7394,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetPreviousEditableHTMLNodeInternal
@@ -7412,6 +7424,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetPreviousEditableHTMLNodeInternal
@@ -7441,6 +7454,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetPreviousEditableHTMLNodeInternal
@@ -7487,6 +7501,7 @@ aNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 template
 <
@@ -7510,6 +7525,7 @@ aPoint
 bool
 aNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -7607,6 +7623,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextHTMLElementOrTextInternal
@@ -7624,6 +7641,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextHTMLElementOrTextInternal
@@ -7653,6 +7671,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextHTMLElementOrTextInternal
@@ -7682,6 +7701,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextHTMLElementOrTextInternal
@@ -7728,6 +7748,7 @@ aNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 template
 <
@@ -7751,6 +7772,7 @@ aPoint
 bool
 aNoBlockCrossing
 )
+const
 ;
 /
 *
@@ -8044,6 +8066,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 nsIContent
 *
@@ -8053,6 +8076,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 [
 [
@@ -24453,6 +24477,7 @@ bool
 ShouldReplaceRootElement
 (
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 void
@@ -24465,6 +24490,7 @@ Element
 GetBodyElement
 (
 )
+const
 ;
 /
 *
@@ -24498,13 +24524,12 @@ null
 .
 *
 /
-already_AddRefed
-<
 nsINode
->
+*
 GetFocusedNode
 (
 )
+const
 ;
 virtual
 already_AddRefed
@@ -24514,6 +24539,7 @@ Element
 GetInputEventTargetElement
 (
 )
+const
 override
 ;
 /
@@ -28245,6 +28271,7 @@ bool
 OurWindowHasFocus
 (
 )
+const
 ;
 /
 *

@@ -9643,6 +9643,7 @@ TextEditor
 GetInputEventTargetElement
 (
 )
+const
 {
 nsCOMPtr
 <
@@ -14148,6 +14149,7 @@ TextEditor
 GetDOMEventTarget
 (
 )
+const
 {
 return
 mEventTarget
