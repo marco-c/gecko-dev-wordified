@@ -1453,6 +1453,7 @@ end_time
 :
             
 failed
+pending
 =
 self
 .
@@ -1461,8 +1462,14 @@ test_servers
 )
             
 if
-not
 failed
+:
+                
+break
+            
+if
+not
+pending
 :
                 
 return
@@ -1521,6 +1528,11 @@ failed
 [
 ]
         
+pending
+=
+[
+]
+        
 host
 =
 self
@@ -1552,9 +1564,50 @@ servers
 :
                 
 if
+not
+server
+.
+is_alive
+(
+)
+:
+                    
+failed
+.
+append
+(
+(
+scheme
+port
+)
+)
+        
+if
+not
+failed
+and
 self
 .
 test_server_port
+:
+            
+for
+scheme
+servers
+in
+iteritems
+(
+self
+.
+servers
+)
+:
+                
+for
+port
+server
+in
+servers
 :
                     
 s
@@ -1593,7 +1646,7 @@ socket
 error
 :
                         
-failed
+pending
 .
 append
 (
@@ -1611,25 +1664,7 @@ s
 close
 (
 )
-                
-if
-not
-server
-.
-is_alive
-(
-)
-:
-                    
-failed
-.
-append
-(
-(
-scheme
-port
-)
-)
         
 return
 failed
+pending
