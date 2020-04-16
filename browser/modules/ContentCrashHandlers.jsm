@@ -6396,12 +6396,13 @@ the
 "
 SubmittedFromInfobar
 "
-extra
-key
+annotation
 set
 *
 to
-true
+"
+1
+"
 .
 *
 *
@@ -6447,7 +6448,9 @@ extraExtraKeyVals
 {
 SubmittedFromInfobar
 :
-true
+"
+1
+"
 }
 }
 )
