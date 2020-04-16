@@ -23068,7 +23068,7 @@ const
 void
 InitializeLocalization
 (
-nsTArray
+Sequence
 <
 nsString
 >
@@ -23267,7 +23267,7 @@ DocumentFlashClassificationInternal
 (
 )
 ;
-nsTArray
+Sequence
 <
 nsString
 >
