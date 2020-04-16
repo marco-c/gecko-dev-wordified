@@ -719,6 +719,7 @@ CustomElementDefinition
 GetCustomElementDefinition
 (
 )
+const
 ;
 nsAtom
 *
