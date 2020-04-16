@@ -649,9 +649,9 @@ uri
 *
 param
 {
-Window
+nsIOpenWindowInfo
 }
-opener
+openWindowInfo
 *
 param
 {
@@ -696,7 +696,7 @@ in
 createContentWindow
 (
 uri
-opener
+openWindowInfo
 where
 flags
 triggeringPrincipal
@@ -754,9 +754,9 @@ uri
 *
 param
 {
-Window
+nsIOpenWindowInfo
 }
-opener
+openWindowInfo
 *
 param
 {
@@ -801,7 +801,7 @@ in
 openURI
 (
 uri
-opener
+openWindowInfo
 where
 flags
 triggeringPrincipal
@@ -874,12 +874,6 @@ flags
 *
 param
 {
-Number
-}
-nextRemoteTabId
-*
-param
-{
 string
 }
 name
@@ -919,7 +913,6 @@ uri
 params
 where
 flags
-nextRemoteTabId
 name
 shouldOpen
 )
@@ -1060,7 +1053,6 @@ null
 params
 where
 flags
-nextRemoteTabId
 name
 )
 ;
@@ -1153,12 +1145,6 @@ flags
 *
 param
 {
-Number
-}
-nextRemoteTabId
-*
-param
-{
 string
 }
 name
@@ -1185,7 +1171,6 @@ uri
 params
 where
 flags
-nextRemoteTabId
 name
 )
 {
@@ -1198,7 +1183,6 @@ uri
 params
 where
 flags
-nextRemoteTabId
 name
 false
 )
@@ -1247,12 +1231,6 @@ flags
 *
 param
 {
-Number
-}
-nextRemoteTabId
-*
-param
-{
 string
 }
 name
@@ -1278,7 +1256,6 @@ uri
 params
 where
 flags
-nextRemoteTabId
 name
 )
 {
@@ -1291,7 +1268,6 @@ uri
 params
 where
 flags
-nextRemoteTabId
 name
 true
 )
