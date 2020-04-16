@@ -34373,6 +34373,12 @@ DumpFrameTree
 )
 const
 ;
+void
+DumpFrameTreeInCSSPixels
+(
+)
+const
+;
 /
 *
 *
@@ -34389,6 +34395,12 @@ ourselves
 /
 void
 DumpFrameTreeLimited
+(
+)
+const
+;
+void
+DumpFrameTreeLimitedInCSSPixels
 (
 )
 const
