@@ -4050,7 +4050,13 @@ weak
 marking
 mode
 .
-void
+js
+:
+:
+gc
+:
+:
+IncrementalProgress
 enterWeakMarkingMode
 (
 js
@@ -4059,6 +4065,12 @@ js
 GCMarker
 *
 marker
+js
+:
+:
+SliceBudget
+&
+budget
 )
 ;
 void

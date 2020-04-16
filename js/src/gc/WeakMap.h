@@ -2671,12 +2671,6 @@ addWeakEntry
 GCMarker
 *
 marker
-JS
-:
-:
-Zone
-*
-keyZone
 gc
 :
 :
