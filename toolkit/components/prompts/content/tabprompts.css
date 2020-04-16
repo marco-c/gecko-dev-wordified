@@ -278,9 +278,9 @@ height
 *
 By
 setting
-left
-&
-right
+inset
+-
+inline
 to
 auto
 with
@@ -329,7 +329,9 @@ Values
 .
 *
 /
-left
+inset
+-
+inline
 :
 auto
 ;
@@ -438,10 +440,6 @@ calc
 position
 :
 absolute
-;
-right
-:
-auto
 ;
 /
 *
