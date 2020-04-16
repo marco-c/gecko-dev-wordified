@@ -1012,6 +1012,15 @@ nsIAccessibleEvent
 :
 :
 EVENT_TEXT_SELECTION_CHANGED
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
+EVENT_REORDER
 )
 return
 ;

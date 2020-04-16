@@ -677,6 +677,12 @@ nsIAccessibleEvent
 :
 EVENT_MENUPOPUP_END
 :
+case
+nsIAccessibleEvent
+:
+:
+EVENT_REORDER
+:
 if
 (
 Accessible
