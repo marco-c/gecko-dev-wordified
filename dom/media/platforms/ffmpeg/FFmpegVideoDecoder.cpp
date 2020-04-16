@@ -1088,8 +1088,11 @@ FFMPEG_LOG
 "
 libva
 library
-is
+or
+symbols
+are
 missing
+.
 "
 )
 ;
