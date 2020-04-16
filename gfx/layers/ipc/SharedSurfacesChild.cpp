@@ -206,7 +206,7 @@ include
 "
 mozilla
 /
-StaticPrefs_image
+SchedulerGroup
 .
 h
 "
@@ -215,14 +215,10 @@ include
 "
 mozilla
 /
-SystemGroup
+StaticPrefs_image
 .
 h
 "
-/
-/
-for
-SystemGroup
 namespace
 mozilla
 {
@@ -637,7 +633,7 @@ IsEmpty
 )
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -2178,7 +2174,7 @@ mSurface
 ;
 }
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -3566,7 +3562,7 @@ SharedSurfacesAnimation
 Destroy
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

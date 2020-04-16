@@ -281,7 +281,7 @@ include
 "
 mozilla
 /
-ScopeExit
+SchedulerGroup
 .
 h
 "
@@ -290,7 +290,7 @@ include
 "
 mozilla
 /
-SystemGroup
+ScopeExit
 .
 h
 "
@@ -2201,7 +2201,7 @@ true
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

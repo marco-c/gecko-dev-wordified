@@ -147,7 +147,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -867,7 +867,7 @@ up
 .
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

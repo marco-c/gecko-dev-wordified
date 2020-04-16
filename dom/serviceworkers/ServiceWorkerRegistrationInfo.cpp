@@ -142,6 +142,15 @@ ServiceWorkerRegistrationListener
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SchedulerGroup
+.
+h
+"
 namespace
 mozilla
 {
@@ -3559,7 +3568,7 @@ CheckPendingReadyPromises
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

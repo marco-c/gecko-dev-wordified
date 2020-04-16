@@ -262,7 +262,7 @@ include
 "
 mozilla
 /
-Services
+SchedulerGroup
 .
 h
 "
@@ -271,7 +271,7 @@ include
 "
 mozilla
 /
-SystemGroup
+Services
 .
 h
 "
@@ -2242,7 +2242,7 @@ if
 mainThread
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

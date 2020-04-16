@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -420,7 +429,7 @@ principal
 }
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -551,7 +560,7 @@ Run
 }
 else
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

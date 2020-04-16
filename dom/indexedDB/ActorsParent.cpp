@@ -377,6 +377,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SnappyCompressOutputStream
 .
 h
@@ -54871,7 +54880,7 @@ const
 nsresult
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -55382,7 +55391,7 @@ const
 nsresult
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

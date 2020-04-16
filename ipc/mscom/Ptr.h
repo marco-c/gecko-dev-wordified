@@ -154,7 +154,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -321,7 +321,7 @@ nsresult
 >
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

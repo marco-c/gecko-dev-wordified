@@ -151,7 +151,9 @@ include
 "
 mozilla
 /
-SystemGroup
+dom
+/
+ScriptSettings
 .
 h
 "
@@ -160,9 +162,7 @@ include
 "
 mozilla
 /
-dom
-/
-ScriptSettings
+SchedulerGroup
 .
 h
 "
@@ -238,7 +238,7 @@ NS_IsMainThread
 )
 {
 return
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

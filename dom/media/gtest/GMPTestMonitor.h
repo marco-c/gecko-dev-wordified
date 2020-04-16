@@ -132,7 +132,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -214,7 +214,7 @@ SetFinished
 mozilla
 :
 :
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

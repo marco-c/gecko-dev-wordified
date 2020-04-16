@@ -269,6 +269,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h
@@ -4749,7 +4758,7 @@ a
 single
 thread
 .
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -8228,7 +8237,7 @@ LaunchRDDProcess
 "
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

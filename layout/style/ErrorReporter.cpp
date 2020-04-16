@@ -179,7 +179,7 @@ include
 "
 mozilla
 /
-Services
+SchedulerGroup
 .
 h
 "
@@ -188,7 +188,7 @@ include
 "
 mozilla
 /
-SystemGroup
+Services
 .
 h
 "
@@ -868,7 +868,7 @@ sSpecCache
 nsresult
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

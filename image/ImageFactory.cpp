@@ -187,6 +187,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_image
 .
 h
@@ -539,7 +548,7 @@ uri
 }
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

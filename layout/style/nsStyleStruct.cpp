@@ -335,6 +335,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPresData
 .
 h
@@ -1489,7 +1498,7 @@ is
 not
 set
 .
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

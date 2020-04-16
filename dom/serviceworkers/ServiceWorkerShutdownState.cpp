@@ -159,6 +159,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -681,7 +690,7 @@ else
 {
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

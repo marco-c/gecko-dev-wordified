@@ -184,6 +184,15 @@ h
 #
 include
 "
+mozilla
+/
+SchedulerGroup
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -1110,7 +1119,7 @@ TrackEndRunnable
 this
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

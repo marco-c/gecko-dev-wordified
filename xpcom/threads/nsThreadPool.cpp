@@ -177,7 +177,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -1204,7 +1204,7 @@ the
 main
 thread
 .
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

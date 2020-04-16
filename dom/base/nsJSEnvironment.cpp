@@ -445,6 +445,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_javascript
 .
 h
@@ -13554,7 +13563,7 @@ json
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

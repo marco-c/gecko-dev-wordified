@@ -117,7 +117,9 @@ h
 #
 include
 "
-SystemGroup
+mozilla
+/
+SchedulerGroup
 .
 h
 "
@@ -172,10 +174,10 @@ up
 releasing
 after
 the
-detele
+delete
 runs
 !
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

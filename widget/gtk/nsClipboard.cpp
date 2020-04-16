@@ -240,6 +240,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -762,7 +771,7 @@ dedicated
 runnable
 .
 return
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

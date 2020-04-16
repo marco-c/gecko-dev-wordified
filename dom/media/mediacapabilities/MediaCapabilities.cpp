@@ -210,6 +210,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_media
 .
 h
@@ -2149,7 +2158,7 @@ taskQueue
 (
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

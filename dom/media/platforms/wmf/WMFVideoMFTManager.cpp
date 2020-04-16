@@ -282,6 +282,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_media
 .
 h
@@ -921,7 +930,7 @@ aObject
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-StaticMutex
+SchedulerGroup
 .
 h
 "
@@ -135,7 +135,7 @@ include
 "
 mozilla
 /
-SystemGroup
+StaticMutex
 .
 h
 "
@@ -659,7 +659,7 @@ ThreadInitializeRunnable
 (
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

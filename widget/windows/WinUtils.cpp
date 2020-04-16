@@ -258,6 +258,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WindowsVersion
 .
 h
@@ -12820,7 +12829,7 @@ setClearFn
 }
 else
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

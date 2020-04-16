@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ChannelInfo
@@ -2360,7 +2369,7 @@ MaybeCallStatusAndProgress
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

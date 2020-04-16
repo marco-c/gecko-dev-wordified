@@ -197,7 +197,7 @@ include
 "
 mozilla
 /
-Services
+SchedulerGroup
 .
 h
 "
@@ -206,7 +206,7 @@ include
 "
 mozilla
 /
-SystemGroup
+Services
 .
 h
 "
@@ -1331,7 +1331,7 @@ aSamplingState
 )
 mutable
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -5249,7 +5249,7 @@ get
 symbolTable
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

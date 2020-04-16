@@ -192,6 +192,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -2006,7 +2015,7 @@ break
 nsresult
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

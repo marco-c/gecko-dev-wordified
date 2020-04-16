@@ -327,6 +327,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScopeExit
 .
 h
@@ -19553,7 +19562,7 @@ fileCopy
 mFile
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
