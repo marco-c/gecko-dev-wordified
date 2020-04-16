@@ -688,10 +688,6 @@ move
 windowChildEp
 )
 aTabId
-TabId
-(
-0
-)
 tabContext
 .
 AsIPCTabContext

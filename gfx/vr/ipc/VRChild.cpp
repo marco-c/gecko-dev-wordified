@@ -160,15 +160,6 @@ include
 "
 mozilla
 /
-SystemGroup
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Telemetry
 .
 h

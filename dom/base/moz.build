@@ -1277,11 +1277,6 @@ SyncMessageSender
 h
 '
 '
-TabGroup
-.
-h
-'
-'
 Text
 .
 h
@@ -2115,11 +2110,6 @@ cpp
 '
 '
 SubtleCrypto
-.
-cpp
-'
-'
-TabGroup
 .
 cpp
 '

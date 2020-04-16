@@ -372,11 +372,6 @@ SyncRunnable
 h
 '
 '
-SystemGroup
-.
-h
-'
-'
 TaskCategory
 .
 h
@@ -543,11 +538,6 @@ cpp
 '
 '
 SynchronizedEventQueue
-.
-cpp
-'
-'
-SystemGroup
 .
 cpp
 '

@@ -246,17 +246,6 @@ include
 "
 mozilla
 /
-dom
-/
-TabGroup
-.
-h
-"
-#
-include
-"
-mozilla
-/
 TaskCategory
 .
 h

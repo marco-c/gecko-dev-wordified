@@ -537,15 +537,6 @@ include
 "
 mozilla
 /
-SystemGroup
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h

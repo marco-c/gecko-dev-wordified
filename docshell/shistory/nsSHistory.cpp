@@ -295,17 +295,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-TabGroup
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

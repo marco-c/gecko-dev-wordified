@@ -165,15 +165,6 @@ include
 "
 mozilla
 /
-SystemGroup
-.
-h
-"
-#
-include
-"
-mozilla
-/
 extensions
 /
 StreamFilterChild

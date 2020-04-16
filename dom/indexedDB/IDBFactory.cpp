@@ -174,15 +174,6 @@ include
 "
 mozilla
 /
-SystemGroup
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 BindingDeclarations
