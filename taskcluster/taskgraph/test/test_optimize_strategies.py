@@ -367,6 +367,22 @@ test_manifests
 ]
 }
 }
+        
+{
+'
+attributes
+'
+:
+{
+'
+build_type
+'
+:
+'
+opt
+'
+}
+}
     
 )
 )
@@ -420,6 +436,9 @@ param
 platform
 .
 all
+0
+.
+1
 )
         
 {
@@ -447,6 +466,9 @@ param
 platform
 .
 all
+0
+.
+1
 )
         
 {
@@ -510,6 +532,9 @@ param
 platform
 .
 all
+0
+.
+1
 )
         
 {
@@ -563,6 +588,9 @@ param
 platform
 .
 all
+0
+.
+1
 )
         
 {
@@ -632,8 +660,22 @@ task
 )
     
 #
-old
-format
+tasks
+matching
+"
+tasks
+"
+or
+"
+groups
+"
+selected
+when
+they
+exceed
+the
+confidence
+threshold
     
 pytest
 .
@@ -644,25 +686,43 @@ param
 platform
 .
 all
+0
+.
+5
 )
         
 {
+            
 '
 tasks
 '
 :
-[
+{
 '
 task
 -
 2
 '
-]
+:
+0
+.
+2
+'
+task
+-
+4
+'
+:
+0
+.
+5
+}
+            
 '
 groups
 '
 :
-[
+{
 '
 foo
 /
@@ -670,6 +730,10 @@ test
 .
 ini
 '
+:
+0
+.
+65
 '
 bar
 /
@@ -677,7 +741,12 @@ test
 .
 ini
 '
-]
+:
+0
+.
+25
+}
+        
 }
         
 [
@@ -689,12 +758,7 @@ task
 '
 task
 -
-1
-'
-'
-task
--
-2
+4
 '
 ]
     
@@ -714,30 +778,43 @@ param
 platform
 .
 debug
+0
+.
+5
 )
         
 {
+            
 '
 tasks
 '
 :
-[
+{
 '
 task
 -
 2
 '
+:
+0
+.
+6
 '
 task
 -
 3
 '
-]
+:
+0
+.
+6
+}
+            
 '
 groups
 '
 :
-[
+{
 '
 foo
 /
@@ -745,6 +822,10 @@ test
 .
 ini
 '
+:
+0
+.
+6
 '
 bar
 /
@@ -752,7 +833,12 @@ test
 .
 ini
 '
-]
+:
+0
+.
+6
+}
+        
 }
         
 [
@@ -979,6 +1065,9 @@ BugBugPushSchedules
 platform
 .
 all
+0
+.
+5
 )
     
 with
