@@ -1144,6 +1144,21 @@ verbose
 True
 )
             
+if
+not
+self
+.
+config
+.
+get
+(
+"
+disable_perf_tuning
+"
+False
+)
+:
+                
 tune_performance
 (
 self
