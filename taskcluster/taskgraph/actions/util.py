@@ -431,6 +431,30 @@ e
 )
 )
         
+head_rev_param
+=
+'
+{
+}
+head_rev
+'
+.
+format
+(
+graph_config
+[
+'
+project
+-
+repo
+-
+param
+-
+prefix
+'
+]
+)
+        
 namespace
 =
 '
@@ -442,12 +466,12 @@ v2
 {
 }
 .
-pushlog
--
-id
+revision
 .
 {
 }
+.
+taskgraph
 .
 actions
 '
@@ -473,9 +497,7 @@ project
             
 parameters
 [
-'
-pushlog_id
-'
+head_rev_param
 ]
 )
         
@@ -658,9 +680,7 @@ project
             
 parameters
 [
-'
-head_rev
-'
+head_rev_param
 ]
 )
         

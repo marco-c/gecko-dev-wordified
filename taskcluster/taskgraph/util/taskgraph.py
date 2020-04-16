@@ -126,6 +126,30 @@ task
 "
 "
     
+head_rev_param
+=
+'
+{
+}
+head_rev
+'
+.
+format
+(
+graph_config
+[
+'
+project
+-
+repo
+-
+param
+-
+prefix
+'
+]
+)
+    
 return
 find_task_id
 (
@@ -138,12 +162,12 @@ v2
 {
 }
 .
-pushlog
--
-id
+revision
 .
 {
 }
+.
+taskgraph
 .
 decision
 '
@@ -169,9 +193,7 @@ project
         
 parameters
 [
-'
-pushlog_id
-'
+head_rev_param
 ]
 )
 )
