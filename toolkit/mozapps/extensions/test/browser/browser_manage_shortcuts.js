@@ -1342,7 +1342,7 @@ _execute_browser_action
 "
 shortcuts
 -
-browserAction
+browserAction2
 "
 )
 ;
