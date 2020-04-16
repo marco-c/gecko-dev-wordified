@@ -9192,6 +9192,9 @@ IsErrorPage
 #
 else
 return
+win
+&
+&
 IsAboutErrorPage
 (
 win
@@ -10170,6 +10173,9 @@ IsErrorPage
 #
 else
 return
+win
+&
+&
 IsAboutErrorPage
 (
 win
