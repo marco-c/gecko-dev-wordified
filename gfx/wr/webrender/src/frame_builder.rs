@@ -601,6 +601,10 @@ pub
 max_depth_ids
 :
 i32
+pub
+max_target_size
+:
+i32
 }
 /
 /

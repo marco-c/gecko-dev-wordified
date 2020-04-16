@@ -13042,6 +13042,9 @@ device
 max_depth_ids
 (
 )
+max_target_size
+:
+max_texture_size
 }
 ;
 info
