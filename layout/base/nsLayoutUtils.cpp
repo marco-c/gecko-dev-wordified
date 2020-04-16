@@ -21083,6 +21083,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
+const
 nsIFrame
 *
 aFrame
@@ -21164,6 +21165,7 @@ nsLayoutUtils
 :
 GetFramesForArea
 (
+const
 nsIFrame
 *
 aFrame
@@ -21196,10 +21198,23 @@ GetFramesForArea
 LAYOUT
 )
 ;
+nsIFrame
+*
+frame
+=
+const_cast
+<
+nsIFrame
+*
+>
+(
+aFrame
+)
+;
 nsDisplayListBuilder
 builder
 (
-aFrame
+frame
 nsDisplayListBuilderMode
 :
 :
@@ -21319,7 +21334,7 @@ builder
 .
 EnterPresShell
 (
-aFrame
+frame
 )
 ;
 builder
@@ -21336,7 +21351,7 @@ SetDirtyRect
 aRect
 )
 ;
-aFrame
+frame
 -
 >
 BuildDisplayListForStackingContext
@@ -21351,7 +21366,7 @@ builder
 .
 LeavePresShell
 (
-aFrame
+frame
 nullptr
 )
 ;
