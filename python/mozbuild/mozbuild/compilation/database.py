@@ -517,7 +517,7 @@ self
 .
 _db
 .
-iteritems
+items
 (
 )
 :
