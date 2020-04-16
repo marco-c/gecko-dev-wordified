@@ -501,11 +501,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -625,11 +626,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 Missing
@@ -770,11 +772,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 Missing
@@ -939,11 +942,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Missing
@@ -1053,11 +1057,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Missing
@@ -1164,11 +1169,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Missing
@@ -1338,7 +1344,7 @@ tmpl
 )
 :
                     
-False
+sorted
 =
 42
                     
@@ -1373,7 +1379,7 @@ value
 :
                         
 return
-False
+sorted
                     
 option
 (
@@ -1412,11 +1418,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Missing
@@ -1597,11 +1604,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1686,11 +1694,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1768,11 +1777,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1874,11 +1884,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -2008,11 +2019,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 -
@@ -2158,11 +2170,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 -
@@ -2308,11 +2321,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 -
@@ -2458,11 +2472,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 -
@@ -2678,11 +2693,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 help
@@ -2789,11 +2805,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 global

@@ -66,11 +66,15 @@ re
 import
 types
 from
+dis
+import
+Bytecode
+from
 functools
 import
 wraps
 from
-StringIO
+io
 import
 StringIO
 from
@@ -97,11 +101,6 @@ from
 help
 import
 HelpFormatter
-from
-.
-lint_util
-import
-disassemble_as_iter
 from
 mozbuild
 .
@@ -255,7 +254,7 @@ self
 .
 _depends
 .
-itervalues
+values
 (
 )
 :
@@ -420,7 +419,7 @@ filename
 =
 obj
 .
-func_code
+__code__
 .
 co_filename
             
@@ -428,7 +427,7 @@ firstline
 =
 obj
 .
-func_code
+__code__
 .
 co_firstlineno
             
@@ -608,34 +607,26 @@ it
         
 co_lnotab
 =
+bytes
 (
-chr
-(
+[
 0
-)
-+
-chr
-(
 255
-)
-)
+]
 *
 (
 offset
 /
+/
 255
 )
 +
-chr
-(
+[
 0
-)
-+
-chr
-(
 offset
 %
 255
+]
 )
         
 code
@@ -654,6 +645,10 @@ CodeType
 code
 .
 co_argcount
+            
+code
+.
+co_kwonlyargcount
             
 code
 .
@@ -836,18 +831,18 @@ set
 )
         
 for
-op
-arg
-_
+instr
 in
-disassemble_as_iter
+Bytecode
 (
 func
 )
 :
             
 if
-op
+instr
+.
+opname
 in
 (
 '
@@ -860,7 +855,9 @@ LOAD_CLOSURE
 :
                 
 if
-arg
+instr
+.
+argval
 in
 all_args
 :
@@ -869,7 +866,9 @@ used_args
 .
 add
 (
-arg
+instr
+.
+argval
 )
         
 for
@@ -1076,18 +1075,18 @@ return
 True
             
 for
-op
-arg
-_
+instr
 in
-disassemble_as_iter
+Bytecode
 (
 func
 )
 :
                 
 if
-op
+instr
+.
+opname
 in
 (
 '
@@ -1131,7 +1130,9 @@ dependency
 .
                     
 if
-arg
+instr
+.
+argval
 =
 =
 '
@@ -1155,7 +1156,9 @@ OS
 continue
                     
 if
-arg
+instr
+.
+argval
 in
 self
 .
@@ -1566,7 +1569,7 @@ table
 default
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -1755,11 +1758,8 @@ type
 (
 default
 )
-in
-(
+is
 str
-unicode
-)
 :
             
 return
@@ -2141,11 +2141,9 @@ what
 )
         
 for
-op
-arg
-line
+instr
 in
-disassemble_as_iter
+Bytecode
 (
 func
 )
@@ -2158,7 +2156,9 @@ func
 __code__
             
 if
-op
+instr
+.
+opname
 =
 =
 '
@@ -2167,21 +2167,27 @@ LOAD_GLOBAL
 and
 \
                     
-arg
+instr
+.
+argval
 not
 in
 glob
 and
 \
                     
-arg
+instr
+.
+argval
 not
 in
 imports
 and
 \
                     
-arg
+instr
+.
+argval
 not
 in
 glob
@@ -2193,7 +2199,9 @@ __builtins__
 and
 \
                     
-arg
+instr
+.
+argval
 not
 in
 code
@@ -2242,7 +2250,9 @@ defined
 .
 format
 (
-arg
+instr
+.
+argval
 )
 )
                 
@@ -2252,7 +2262,15 @@ _raise_from
 (
 e
 func
-line
+instr
+.
+starts_line
+-
+func
+.
+__code__
+.
+co_firstlineno
 )
         
 return

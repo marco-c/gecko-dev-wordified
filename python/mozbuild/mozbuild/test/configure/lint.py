@@ -84,6 +84,8 @@ configure
 lint
 import
 LintSandbox
+import
+six
 test_path
 =
 os
@@ -209,6 +211,27 @@ name
 bases
 attrs
 )
+#
+We
+don
+'
+t
+actually
+need
+python2
+compat
+but
+this
+makes
+flake8
+happy
+.
+six
+.
+add_metaclass
+(
+LintMeta
+)
 class
 Lint
 (
@@ -217,10 +240,6 @@ unittest
 TestCase
 )
 :
-    
-__metaclass__
-=
-LintMeta
     
 def
 setUp
