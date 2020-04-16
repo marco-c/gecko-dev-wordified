@@ -539,7 +539,7 @@ IsNumberType
 ins
 -
 >
-typePolicySpecialization
+type
 (
 )
 )

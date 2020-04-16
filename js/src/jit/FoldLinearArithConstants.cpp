@@ -395,7 +395,7 @@ if
 add
 -
 >
-specialization
+type
 (
 )
 !

@@ -11224,7 +11224,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -11233,7 +11235,9 @@ MIRType
 Int32
 &
 &
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -11491,7 +11495,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -11500,7 +11506,9 @@ MIRType
 Int32
 &
 &
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -11575,7 +11583,7 @@ alloc
 {
 if
 (
-specialization
+type
 (
 )
 !
@@ -11586,7 +11594,7 @@ MIRType
 Int32
 &
 &
-specialization
+type
 (
 )
 !
@@ -11668,7 +11676,7 @@ alloc
 {
 if
 (
-specialization
+type
 (
 )
 !
@@ -11679,7 +11687,7 @@ MIRType
 Int32
 &
 &
-specialization
+type
 (
 )
 !
@@ -11761,7 +11769,7 @@ alloc
 {
 if
 (
-specialization
+type
 (
 )
 !
@@ -11772,7 +11780,7 @@ MIRType
 Int32
 &
 &
-specialization
+type
 (
 )
 !
@@ -11900,7 +11908,7 @@ alloc
 {
 if
 (
-specialization
+type
 (
 )
 !
@@ -11911,7 +11919,7 @@ MIRType
 Int32
 &
 &
-specialization
+type
 (
 )
 !
@@ -12047,7 +12055,7 @@ mod
 .
 if
 (
-specialization
+type
 (
 )
 =
@@ -12994,7 +13002,7 @@ alloc
 {
 if
 (
-specialization
+type
 (
 )
 !
@@ -13005,7 +13013,7 @@ MIRType
 Int32
 &
 &
-specialization
+type
 (
 )
 !
@@ -22931,18 +22939,10 @@ isMod
 )
 &
 &
-static_cast
-<
-const
-MBinaryArithInstruction
-*
->
-(
 candidate
-)
 -
 >
-specialization
+type
 (
 )
 =
