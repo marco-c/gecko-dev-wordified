@@ -1984,10 +1984,7 @@ brand
 ftl
 "
 ]
-false
-{
 generateBundles
-}
 )
 ;
 }

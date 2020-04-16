@@ -549,7 +549,6 @@ brand
 ftl
 "
 ]
-false
 Services
 .
 prefs
@@ -560,12 +559,9 @@ USE_REMOTE_L10N_PREF
 true
 )
 ?
-{
 generateBundles
-}
 :
-{
-}
+undefined
 )
 ;
 }

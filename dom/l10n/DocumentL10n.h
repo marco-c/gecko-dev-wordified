@@ -252,7 +252,7 @@ aDocument
 void
 Init
 (
-Sequence
+nsTArray
 <
 nsString
 >
