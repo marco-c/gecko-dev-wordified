@@ -808,6 +808,9 @@ traits
 getFavicon
 :
 true
+hasTabInfo
+:
+true
 }
 selected
 :

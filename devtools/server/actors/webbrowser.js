@@ -2278,13 +2278,6 @@ _foundCount
 +
 +
 ;
-await
-actor
-.
-update
-(
-)
-;
 return
 actor
 ;
