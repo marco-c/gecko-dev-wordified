@@ -2220,6 +2220,16 @@ LayoutVector2D
 }
 /
 /
+IMPLICIT
+:
+complex_clips
+:
+Vec
+<
+ComplexClipRegion
+>
+/
+/
 /
 A
 solid
