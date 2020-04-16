@@ -5049,7 +5049,6 @@ ShouldLoad
 insecureRedirect
 aPolicyType
 contentLocation
-nullptr
 ToSupports
 (
 aLoadingDocument
