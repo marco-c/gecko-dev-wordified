@@ -160,6 +160,8 @@ results_handler
     
 error_handler
     
+startup_handler
+    
 shutdown_browser
     
 handle_gecko_profile
@@ -759,6 +761,12 @@ self
 error_handler
 =
 error_handler
+            
+self
+.
+startup_handler
+=
+startup_handler
             
 self
 .
@@ -2022,6 +2030,54 @@ type
 =
 =
 "
+webext_loaded
+"
+:
+                
+LOG
+.
+info
+(
+"
+received
+"
++
+data
+[
+"
+type
+"
+]
++
+"
+:
+raptor
+runner
+.
+js
+is
+loaded
+!
+"
+)
+                
+self
+.
+startup_handler
+(
+True
+)
+            
+elif
+data
+[
+"
+type
+"
+]
+=
+=
+"
 wait
 -
 set
@@ -2782,6 +2838,12 @@ self
 user_profile
 =
 None
+        
+self
+.
+is_webextension_loaded
+=
+False
     
 def
 start
@@ -2887,6 +2949,10 @@ results_handler
 self
 .
 error_handler
+            
+self
+.
+startup_handler
             
 self
 .
@@ -3007,6 +3073,20 @@ stack
 :
 stack
 }
+    
+def
+startup_handler
+(
+self
+value
+)
+:
+        
+self
+.
+is_webextension_loaded
+=
+value
     
 def
 shutdown_browser
