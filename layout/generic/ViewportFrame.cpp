@@ -849,7 +849,7 @@ dom
 Element
 *
 >
-fullscreenStack
+topLayer
 =
 PresContext
 (
@@ -861,7 +861,7 @@ Document
 )
 -
 >
-GetFullscreenStack
+GetTopLayer
 (
 )
 ;
@@ -874,7 +874,7 @@ Element
 *
 elem
 :
-fullscreenStack
+topLayer
 )
 {
 if

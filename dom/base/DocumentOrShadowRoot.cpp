@@ -2190,7 +2190,7 @@ OwnerDoc
 )
 -
 >
-FullscreenStackTop
+GetUnretargetedFullScreenElement
 (
 )
 ;
