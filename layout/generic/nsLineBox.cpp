@@ -4266,6 +4266,7 @@ nsLineIterator
 GetNumLines
 (
 )
+const
 {
 return
 mNumLines

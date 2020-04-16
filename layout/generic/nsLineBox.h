@@ -9637,6 +9637,7 @@ int32_t
 GetNumLines
 (
 )
+const
 override
 ;
 virtual
