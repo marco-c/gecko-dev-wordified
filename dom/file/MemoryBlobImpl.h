@@ -231,6 +231,8 @@ const
 nsAString
 &
 aContentType
+bool
+aCrossOriginIsolated
 )
 ;
 /
