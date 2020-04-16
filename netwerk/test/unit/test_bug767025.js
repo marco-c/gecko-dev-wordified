@@ -23,12 +23,6 @@ level
 -
 *
 /
-/
-*
-global
-_XPCSHELL_PROCESS
-*
-/
 "
 use
 strict

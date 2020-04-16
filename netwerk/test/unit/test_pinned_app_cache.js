@@ -193,12 +193,6 @@ pinned
 *
 *
 /
-/
-*
-global
-_XPCSHELL_PROCESS
-*
-/
 "
 use
 strict
