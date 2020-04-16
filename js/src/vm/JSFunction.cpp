@@ -2666,14 +2666,13 @@ RootedPlainObject
 proto
 (
 cx
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 objProto
-SingletonObject
 )
 )
 ;
