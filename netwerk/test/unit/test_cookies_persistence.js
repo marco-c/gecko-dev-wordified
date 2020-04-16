@@ -72,6 +72,11 @@ end
 of
 session
 )
+"
+use
+strict
+"
+;
 var
 test_generator
 =

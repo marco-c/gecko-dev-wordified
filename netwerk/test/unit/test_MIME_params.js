@@ -43,6 +43,11 @@ id
 609667
 *
 /
+"
+use
+strict
+"
+;
 var
 BS
 =

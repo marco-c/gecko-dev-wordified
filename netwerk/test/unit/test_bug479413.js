@@ -17,6 +17,11 @@ section
 )
 *
 /
+"
+use
+strict
+"
+;
 var
 idnService
 ;

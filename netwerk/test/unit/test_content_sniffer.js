@@ -8,6 +8,11 @@ introduced
 in
 bug
 324985
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

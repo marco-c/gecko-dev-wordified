@@ -257,6 +257,11 @@ jar
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

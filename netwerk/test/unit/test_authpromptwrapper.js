@@ -36,6 +36,11 @@ HTTPS
 /
 -
 Proxies
+"
+use
+strict
+"
+;
 const
 nsIAuthInformation
 =

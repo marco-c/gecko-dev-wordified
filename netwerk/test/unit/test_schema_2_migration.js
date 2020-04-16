@@ -59,6 +59,11 @@ Gecko
 0
 )
 .
+"
+use
+strict
+"
+;
 var
 test_generator
 =

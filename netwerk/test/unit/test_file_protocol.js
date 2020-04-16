@@ -13,6 +13,11 @@ protocol
 handler
 *
 /
+"
+use
+strict
+"
+;
 const
 PR_RDONLY
 =
@@ -1506,6 +1511,7 @@ n
 "
 )
 ;
+let
 file
 =
 do_get_file

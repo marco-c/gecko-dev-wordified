@@ -9,6 +9,11 @@ getRemoteHost
 /
 getRemotePort
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

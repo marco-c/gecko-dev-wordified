@@ -11,6 +11,11 @@ with
 HTTP
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

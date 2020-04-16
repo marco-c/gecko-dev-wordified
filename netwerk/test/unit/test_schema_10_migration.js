@@ -52,6 +52,11 @@ version
 presently
 11
 .
+"
+use
+strict
+"
+;
 var
 test_generator
 =

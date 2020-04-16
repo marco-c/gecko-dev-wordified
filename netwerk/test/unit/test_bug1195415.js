@@ -4,6 +4,11 @@ Test
 for
 bug
 1195415
+"
+use
+strict
+"
+;
 function
 run_test
 (

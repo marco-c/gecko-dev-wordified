@@ -154,6 +154,11 @@ iff
 both
 succeeds
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

@@ -26,6 +26,11 @@ cookie
 jar
 settings
 .
+"
+use
+strict
+"
+;
 CookiePolicyHelper
 .
 runTest

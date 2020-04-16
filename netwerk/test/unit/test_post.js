@@ -6,6 +6,11 @@ POST
 test
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

@@ -34,6 +34,11 @@ actually
 binds
 to
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

@@ -96,6 +96,11 @@ test_bug482601
 .
 js
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -882,10 +887,9 @@ n
 "
 )
 ;
-observers_called
+observerCalled
 =
-"
-"
+false
 ;
 var
 chan
@@ -1100,10 +1104,9 @@ n
 "
 )
 ;
-observers_called
+observerCalled
 =
-"
-"
+false
 ;
 var
 chan

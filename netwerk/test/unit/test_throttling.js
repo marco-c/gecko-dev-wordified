@@ -4,6 +4,11 @@ Test
 nsIThrottledInputChannel
 interface
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

@@ -36,6 +36,11 @@ asynchronous
 read
 operation
 .
+"
+use
+strict
+"
+;
 var
 test_generator
 =

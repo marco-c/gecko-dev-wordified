@@ -186,6 +186,11 @@ header
 sent
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

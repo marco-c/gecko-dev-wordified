@@ -119,6 +119,11 @@ order
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

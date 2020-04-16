@@ -5,6 +5,11 @@ file
 tests
 bug
 250375
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

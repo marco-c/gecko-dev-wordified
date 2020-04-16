@@ -169,6 +169,11 @@ alt
 data
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

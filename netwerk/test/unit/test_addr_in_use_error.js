@@ -26,6 +26,11 @@ Windows
 /
 machines
 .
+"
+use
+strict
+"
+;
 var
 CC
 =

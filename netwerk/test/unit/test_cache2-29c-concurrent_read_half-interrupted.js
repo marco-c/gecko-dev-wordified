@@ -160,6 +160,11 @@ o
 errors
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

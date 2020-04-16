@@ -49,6 +49,11 @@ bypassed
 by
 %
 00
+"
+use
+strict
+"
+;
 let
 reference
 =

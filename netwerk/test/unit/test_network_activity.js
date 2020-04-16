@@ -5,6 +5,11 @@ for
 networkactivity
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

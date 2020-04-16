@@ -102,6 +102,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 CC
 =

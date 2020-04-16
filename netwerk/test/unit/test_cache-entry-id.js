@@ -14,6 +14,11 @@ cases
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

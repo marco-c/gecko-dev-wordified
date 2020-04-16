@@ -68,6 +68,11 @@ properly
 .
 *
 /
+"
+use
+strict
+"
+;
 function
 run_test
 (

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 CC
 =
@@ -573,6 +578,7 @@ testNoConnectChannelCanceledEarly
 (
 )
 {
+let
 serv
 =
 new

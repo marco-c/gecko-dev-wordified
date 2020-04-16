@@ -56,6 +56,11 @@ with
 no
 docshell
 parent
+"
+use
+strict
+"
+;
 function
 run_test
 (

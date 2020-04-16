@@ -1448,7 +1448,6 @@ purged
 var
 hostNumber
 =
-new
 Number
 (
 cookie

@@ -64,6 +64,11 @@ by
 304
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

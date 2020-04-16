@@ -23,6 +23,11 @@ level
 -
 *
 /
+"
+use
+strict
+"
+;
 const
 SIMPLEURI_SPEC
 =

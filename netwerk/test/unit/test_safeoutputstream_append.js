@@ -30,6 +30,11 @@ PR_TRUNCATE
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 PR_WRONLY
 =

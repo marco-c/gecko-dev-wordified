@@ -28,6 +28,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 const
 ReferrerInfo
 =

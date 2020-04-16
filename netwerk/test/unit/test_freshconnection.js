@@ -33,6 +33,11 @@ assertions
 in
 necko
 .
+"
+use
+strict
+"
+;
 var
 listener
 =

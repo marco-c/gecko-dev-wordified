@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 We
@@ -803,7 +808,7 @@ fstream
 .
 init
 (
-aFile
+file
 -
 1
 0

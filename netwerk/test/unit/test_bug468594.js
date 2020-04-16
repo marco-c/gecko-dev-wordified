@@ -131,6 +131,11 @@ being
 used
 here
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

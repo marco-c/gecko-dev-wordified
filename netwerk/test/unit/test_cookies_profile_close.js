@@ -45,6 +45,11 @@ before
 change
 '
 .
+"
+use
+strict
+"
+;
 var
 test_generator
 =

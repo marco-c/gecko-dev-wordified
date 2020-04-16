@@ -138,6 +138,11 @@ entries
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 kENTRYCOUNT
 =

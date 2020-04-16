@@ -27,6 +27,11 @@ of
 bounds
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -615,6 +620,7 @@ if
 memDevice
 )
 {
+let
 cap
 =
 prefService
@@ -680,6 +686,7 @@ if
 diskDevice
 )
 {
+let
 cap
 =
 prefService
@@ -838,7 +845,6 @@ secondExpectedReply
 )
 ;
 }
-(
 this
 .
 start
@@ -878,8 +884,7 @@ this
 )
 ;
 }
-)
-(
+;
 this
 .
 initialLoad
@@ -935,8 +940,7 @@ ctx
 )
 ;
 }
-)
-(
+;
 this
 .
 testAndTriggerNext
@@ -962,7 +966,6 @@ nextTest
 )
 ;
 }
-)
 ;
 }
 function

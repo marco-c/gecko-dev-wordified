@@ -109,6 +109,17 @@ etc
 /
 Test
 infrastructure
+/
+*
+global
+globalThis
+*
+/
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -180,10 +191,8 @@ index
 var
 test_flags
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 testPathBase
@@ -222,6 +231,7 @@ run_test_number
 num
 )
 {
+let
 testPath
 =
 testPathBase
@@ -233,7 +243,7 @@ httpserver
 registerPathHandler
 (
 testPath
-this
+globalThis
 [
 "
 handler
@@ -251,6 +261,7 @@ setupChannel
 testPath
 )
 ;
+let
 flags
 =
 test_flags
@@ -273,7 +284,7 @@ asyncOpen
 new
 ChannelListener
 (
-this
+globalThis
 [
 "
 completeTest
@@ -1659,6 +1670,7 @@ ctx
 {
 try
 {
+let
 referer
 =
 request
@@ -2315,6 +2327,7 @@ nsIHttpChannel
 ;
 try
 {
+let
 referer
 =
 request
@@ -4745,6 +4758,7 @@ test_flags
 =
 CL_ALLOW_UNKNOWN_CL
 ;
+let
 reran16
 =
 false

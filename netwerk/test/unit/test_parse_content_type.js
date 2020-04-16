@@ -105,6 +105,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 var
 charset
 =

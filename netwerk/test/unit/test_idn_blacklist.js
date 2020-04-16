@@ -16,6 +16,11 @@ always
 displayed
 as
 punycode
+"
+use
+strict
+"
+;
 const
 testcases
 =

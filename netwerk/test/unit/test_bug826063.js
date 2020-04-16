@@ -54,6 +54,11 @@ and
 nsILoadContexts
 *
 /
+"
+use
+strict
+"
+;
 var
 URIs
 =

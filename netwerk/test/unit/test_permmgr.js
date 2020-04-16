@@ -2,6 +2,11 @@
 /
 tests
 nsIPermissionManager
+"
+use
+strict
+"
+;
 var
 hosts
 =

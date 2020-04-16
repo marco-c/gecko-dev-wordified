@@ -3,6 +3,11 @@
 Tests
 bug
 304414
+"
+use
+strict
+"
+;
 const
 PR_RDONLY
 =
@@ -413,9 +418,6 @@ numread
 avail
 ;
 }
-return
-numread
-;
 }
 function
 stream_for_file

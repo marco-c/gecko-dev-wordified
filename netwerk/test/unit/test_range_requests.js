@@ -248,6 +248,11 @@ Range
 -
 header
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

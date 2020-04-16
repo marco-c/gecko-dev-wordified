@@ -18,6 +18,11 @@ file
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 OS

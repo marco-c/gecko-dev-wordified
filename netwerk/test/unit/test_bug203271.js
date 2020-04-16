@@ -50,6 +50,11 @@ age
 /
 take
 precedence
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

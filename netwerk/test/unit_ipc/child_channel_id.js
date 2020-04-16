@@ -14,6 +14,13 @@ their
 channelId
 *
 /
+/
+*
+global
+NetUtil
+ChannelListener
+*
+/
 let
 shouldQuit
 =

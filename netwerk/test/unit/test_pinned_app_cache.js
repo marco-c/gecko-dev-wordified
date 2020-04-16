@@ -193,6 +193,17 @@ pinned
 *
 *
 /
+/
+*
+global
+_XPCSHELL_PROCESS
+*
+/
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -856,6 +867,7 @@ manifest2_handler
 ;
 for
 (
+let
 i
 =
 1
@@ -1246,7 +1258,7 @@ break
 }
 function
 (
-appcahe
+appcache
 )
 {
 info
@@ -1588,7 +1600,7 @@ break
 }
 function
 (
-appcahe
+appcache
 )
 {
 info

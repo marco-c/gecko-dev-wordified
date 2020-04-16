@@ -83,6 +83,11 @@ authentication
 as
 well
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

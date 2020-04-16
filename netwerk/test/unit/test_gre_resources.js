@@ -15,6 +15,11 @@ resources
 are
 still
 there
+"
+use
+strict
+"
+;
 var
 ios
 =

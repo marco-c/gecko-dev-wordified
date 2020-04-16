@@ -155,6 +155,11 @@ load
 was
 doomed
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

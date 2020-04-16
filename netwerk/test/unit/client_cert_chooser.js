@@ -79,6 +79,11 @@ MPL
 0
 /
 .
+"
+use
+strict
+"
+;
 const
 {
 XPCOMUtils

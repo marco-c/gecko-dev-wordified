@@ -65,6 +65,11 @@ thirdparty
 sessionOnly
 =
 true
+"
+use
+strict
+"
+;
 var
 test_generator
 =

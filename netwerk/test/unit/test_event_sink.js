@@ -12,6 +12,11 @@ bug
 et
 al
 )
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

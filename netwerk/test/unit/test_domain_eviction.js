@@ -55,6 +55,11 @@ before
 live
 cookies
 .
+"
+use
+strict
+"
+;
 var
 test_generator
 =

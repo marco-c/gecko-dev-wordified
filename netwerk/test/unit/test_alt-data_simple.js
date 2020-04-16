@@ -98,6 +98,11 @@ must
 arive
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

@@ -23,6 +23,11 @@ cache
 .
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

@@ -69,6 +69,9 @@ false
 do_check_instanceof
 :
 false
+do_check_throws_nsIException
+:
+false
 do_get_cwd
 :
 false

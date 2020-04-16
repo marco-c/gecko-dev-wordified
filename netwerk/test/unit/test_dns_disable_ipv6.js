@@ -22,6 +22,11 @@ addresses
 .
 /
 /
+"
+use
+strict
+"
+;
 var
 dns
 =

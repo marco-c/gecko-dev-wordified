@@ -19,6 +19,11 @@ Cc
 and
 Ci
 variables
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

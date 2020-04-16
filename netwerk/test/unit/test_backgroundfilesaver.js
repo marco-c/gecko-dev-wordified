@@ -170,6 +170,11 @@ nsIBackgroundFileSaver
 /
 /
 Globals
+"
+use
+strict
+"
+;
 ChromeUtils
 .
 defineModuleGetter
@@ -1249,7 +1254,7 @@ Components
 .
 Exception
 (
-aResult
+aStatusCode
 )
 )
 ;
@@ -1481,7 +1486,7 @@ Components
 .
 Exception
 (
-aResult
+aStatusCode
 )
 )
 ;
@@ -4258,7 +4263,7 @@ NS_ERROR_NOT_AVAILABLE
 )
 {
 throw
-e
+ex
 ;
 }
 }

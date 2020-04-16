@@ -13,6 +13,11 @@ RFC
 3454
 *
 /
+"
+use
+strict
+"
+;
 var
 idnService
 ;
@@ -265,7 +270,7 @@ expected_fail
 "
 foo
 \
-200ebar
+u200ebar
 .
 com
 "

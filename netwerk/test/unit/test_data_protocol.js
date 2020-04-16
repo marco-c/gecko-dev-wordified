@@ -45,6 +45,11 @@ escaped
 and
 unescaped
 spaces
+"
+use
+strict
+"
+;
 var
 urls
 =

@@ -23,6 +23,17 @@ level
 -
 *
 /
+/
+*
+global
+_XPCSHELL_PROCESS
+*
+/
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -648,6 +659,7 @@ app_handler
 ;
 for
 (
+let
 i
 =
 1

@@ -9,6 +9,11 @@ traversal
 problems
 *
 /
+"
+use
+strict
+"
+;
 const
 specs
 =

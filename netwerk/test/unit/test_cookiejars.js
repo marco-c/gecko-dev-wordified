@@ -79,6 +79,11 @@ jars
 )
 *
 /
+"
+use
+strict
+"
+;
 XPCOMUtils
 .
 defineLazyGetter
@@ -661,6 +666,7 @@ j
 .
 cookieName
 ;
+let
 found
 =
 cookiesSeen

@@ -297,6 +297,11 @@ again
 )
 *
 /
+"
+use
+strict
+"
+;
 const
 kENTRYCOUNT
 =

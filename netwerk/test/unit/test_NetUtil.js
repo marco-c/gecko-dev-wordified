@@ -107,6 +107,11 @@ jsm
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

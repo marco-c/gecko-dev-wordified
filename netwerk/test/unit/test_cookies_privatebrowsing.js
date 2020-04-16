@@ -34,6 +34,11 @@ private
 browsing
 mode
 .
+"
+use
+strict
+"
+;
 var
 test_generator
 =

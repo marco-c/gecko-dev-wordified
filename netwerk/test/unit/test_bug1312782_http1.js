@@ -255,6 +255,11 @@ id
 +
 2
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -770,10 +775,8 @@ maxWindowId
 var
 responseQueue
 =
-new
-Array
-(
-)
+[
+]
 ;
 function
 setup_http_server

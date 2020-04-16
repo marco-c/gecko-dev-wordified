@@ -1,3 +1,14 @@
+/
+*
+global
+arguments
+*
+/
+"
+use
+strict
+"
+;
 var
 CC
 =
@@ -304,6 +315,7 @@ test
 arg
 )
 ;
+let
 test
 =
 arg

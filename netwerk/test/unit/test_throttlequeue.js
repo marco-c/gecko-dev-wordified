@@ -4,6 +4,11 @@ Test
 ThrottleQueue
 initialization
 .
+"
+use
+strict
+"
+;
 function
 init
 (

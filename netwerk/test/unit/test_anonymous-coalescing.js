@@ -71,6 +71,11 @@ first
 )
 *
 /
+"
+use
+strict
+"
+;
 var
 h2Port
 ;

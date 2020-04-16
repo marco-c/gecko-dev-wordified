@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -1334,6 +1339,7 @@ file
 /
 host
 works
+let
 emptyuri
 =
 NetUtil

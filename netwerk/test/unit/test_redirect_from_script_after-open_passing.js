@@ -177,6 +177,11 @@ header
 *
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -199,17 +204,6 @@ httpd
 .
 js
 "
-)
-;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
 )
 ;
 /
@@ -239,6 +233,7 @@ for
 some
 purposes
 .
+let
 redirectHook
 =
 "

@@ -18,6 +18,11 @@ future
 notifications
 correctly
 .
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

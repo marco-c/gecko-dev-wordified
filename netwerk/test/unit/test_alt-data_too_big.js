@@ -71,6 +71,11 @@ be
 kept
 *
 /
+"
+use
+strict
+"
+;
 var
 data
 =
@@ -105,6 +110,7 @@ to
 1MB
 for
 (
+let
 i
 =
 0

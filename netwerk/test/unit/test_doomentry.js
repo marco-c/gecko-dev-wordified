@@ -36,6 +36,11 @@ active
 entry
 *
 /
+"
+use
+strict
+"
+;
 function
 doom
 (

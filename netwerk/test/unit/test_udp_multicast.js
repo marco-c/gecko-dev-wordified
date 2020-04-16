@@ -6,6 +6,11 @@ Bug
 UDP
 multicast
 options
+"
+use
+strict
+"
+;
 var
 {
 Constructor

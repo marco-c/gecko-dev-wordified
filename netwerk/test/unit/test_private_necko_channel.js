@@ -7,6 +7,11 @@ channel
 test
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

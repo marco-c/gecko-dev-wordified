@@ -40,6 +40,12 @@ is
 working
 properly
 .
+/
+*
+global
+my_defined_var
+*
+/
 "
 use
 strict

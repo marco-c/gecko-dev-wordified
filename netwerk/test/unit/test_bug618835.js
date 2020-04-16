@@ -178,6 +178,11 @@ times
 .
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

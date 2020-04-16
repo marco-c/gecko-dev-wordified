@@ -114,6 +114,11 @@ expected
 location
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

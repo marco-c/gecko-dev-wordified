@@ -683,9 +683,13 @@ NS_BINDING_ABORTED
 ;
 if
 (
+this
+.
 receivedSomeData
 )
 {
+this
+.
 receivedSomeData
 (
 )
@@ -1583,8 +1587,8 @@ response
 .
 write
 (
-str2
-str2
+str1
+str1
 .
 length
 )

@@ -99,6 +99,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 ROOT_URL
 =

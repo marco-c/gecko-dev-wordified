@@ -170,6 +170,11 @@ correctly
 fail
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

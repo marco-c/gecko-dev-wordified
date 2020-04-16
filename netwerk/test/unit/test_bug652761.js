@@ -19,6 +19,11 @@ port
 80
 000
 )
+"
+use
+strict
+"
+;
 function
 run_test
 (

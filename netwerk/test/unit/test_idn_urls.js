@@ -12,6 +12,11 @@ URL
 bug
 722299
 )
+"
+use
+strict
+"
+;
 const
 testcases
 =

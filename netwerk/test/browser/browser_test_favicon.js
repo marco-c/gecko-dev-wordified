@@ -24,6 +24,11 @@ considered
 third
 party
 .
+"
+use
+strict
+"
+;
 add_task
 (
 async

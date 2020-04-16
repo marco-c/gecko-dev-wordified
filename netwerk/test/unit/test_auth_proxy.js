@@ -122,6 +122,11 @@ js
 >
 *
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

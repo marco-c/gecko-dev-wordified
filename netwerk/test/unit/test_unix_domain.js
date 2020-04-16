@@ -5,6 +5,11 @@ Unix
 domain
 sockets
 .
+"
+use
+strict
+"
+;
 var
 CC
 =

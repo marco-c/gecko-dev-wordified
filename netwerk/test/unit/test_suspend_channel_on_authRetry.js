@@ -31,6 +31,11 @@ before
 connect
 observers
 .
+"
+use
+strict
+"
+;
 var
 CC
 =

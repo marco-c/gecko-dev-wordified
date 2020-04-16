@@ -26,6 +26,11 @@ section
 9
 /
 /
+"
+use
+strict
+"
+;
 const
 {
 HttpServer

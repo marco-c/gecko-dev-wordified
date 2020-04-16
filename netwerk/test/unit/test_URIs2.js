@@ -23,6 +23,11 @@ level
 -
 *
 /
+"
+use
+strict
+"
+;
 var
 gIoService
 =

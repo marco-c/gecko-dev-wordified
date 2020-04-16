@@ -18,6 +18,11 @@ modify
 -
 request
 .
+"
+use
+strict
+"
+;
 var
 CC
 =
