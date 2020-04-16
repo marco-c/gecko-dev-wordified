@@ -106,6 +106,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 /
 /
 Macros
