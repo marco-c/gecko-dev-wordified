@@ -415,7 +415,7 @@ true
 /
 /
 ES
-2017
+2021
 draft
 7
 .
@@ -423,7 +423,7 @@ draft
 .
 6
 step
-3
+5
 .
 /
 /
@@ -435,7 +435,7 @@ thrown
 value
 should
 be
-used
+ignored
 .
 test
 (
@@ -496,8 +496,7 @@ throws
 exceptionVal
 :
 "
-return
-getter
+defineProperty
 throws
 "
 closed
@@ -561,9 +560,12 @@ object
 )
 ;
 }
-exceptionType
+exceptionVal
 :
-TypeError
+"
+defineProperty
+throws
+"
 closed
 :
 true
@@ -628,9 +630,12 @@ return
 )
 ;
 }
-exceptionType
+exceptionVal
 :
-TypeError
+"
+defineProperty
+throws
+"
 closed
 :
 true
