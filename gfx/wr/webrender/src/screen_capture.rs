@@ -1005,6 +1005,11 @@ device
 optimal_pbo_stride
 (
 )
+.
+num_bytes
+(
+image_format
+)
 )
 ;
 let
