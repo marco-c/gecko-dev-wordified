@@ -325,7 +325,6 @@ mControlledDocument
 GetSpecialCaseDocumentToken
 (
 aDocument
-aURI
 )
 )
 mTopLevelBaseDomain
@@ -984,9 +983,6 @@ GetSpecialCaseDocumentToken
 Document
 *
 aDocument
-nsIURI
-*
-aURI
 )
 {
 /

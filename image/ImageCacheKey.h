@@ -434,9 +434,6 @@ dom
 Document
 *
 aDocument
-nsIURI
-*
-aURI
 )
 ;
 /
