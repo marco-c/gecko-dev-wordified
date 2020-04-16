@@ -598,7 +598,6 @@ proxyFilter
 {
 applyFilter
 (
-aProxyService
 aChannel
 aProxy
 aCallback

@@ -664,7 +664,6 @@ nsIProtocolProxyFilter
 )
 applyFilter
 (
-pps
 uri
 pi
 cb
@@ -753,7 +752,6 @@ nsIProtocolProxyFilter
 )
 applyFilter
 (
-pps
 uri
 pi
 cb
@@ -830,7 +828,6 @@ nsIProtocolProxyChannelFilter
 )
 applyFilter
 (
-pps
 channel
 pi
 cb
