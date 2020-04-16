@@ -2362,11 +2362,6 @@ imports
 _import
 =
 '
-_winreg
-'
-_as
-=
-'
 winreg
 '
 )
