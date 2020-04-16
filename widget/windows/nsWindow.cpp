@@ -31345,12 +31345,15 @@ eMouseDown
 Telemetry
 :
 :
-Accumulate
+ScalarAdd
 (
 Telemetry
 :
 :
-FX_TOUCH_USED
+ScalarID
+:
+:
+BROWSER_INPUT_TOUCH_EVENT_COUNT
 1
 )
 ;
