@@ -665,14 +665,6 @@ SQLITE_OMIT_BUILTIN_TEST
 ]
 =
 True
-DEFINES
-[
-'
-SQLITE_OMIT_DECLTYPE
-'
-]
-=
-True
 #
 Try
 to
