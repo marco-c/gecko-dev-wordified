@@ -1175,7 +1175,10 @@ mWindows
 .
 AppendElement
 (
+WrapUnique
+(
 winData
+)
 )
 ;
 }
@@ -1765,7 +1768,7 @@ return
 rv
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 AudioChannelWindow
 >
@@ -1774,7 +1777,7 @@ winData
 {
 nsTObserverArray
 <
-nsAutoPtr
+UniquePtr
 <
 AudioChannelWindow
 >
@@ -1796,10 +1799,7 @@ HasMore
 )
 )
 {
-nsAutoPtr
-<
-AudioChannelWindow
->
+auto
 &
 next
 =
@@ -1832,10 +1832,12 @@ next
 ;
 winData
 =
-next
-.
-forget
+std
+:
+:
+move
 (
+next
 )
 ;
 mWindows
@@ -2396,7 +2398,10 @@ mWindows
 .
 AppendElement
 (
+WrapUnique
+(
 winData
+)
 )
 ;
 }
@@ -2421,7 +2426,7 @@ const
 {
 nsTObserverArray
 <
-nsAutoPtr
+UniquePtr
 <
 AudioChannelWindow
 >
@@ -2450,6 +2455,10 @@ next
 iter
 .
 GetNext
+(
+)
+.
+get
 (
 )
 ;
