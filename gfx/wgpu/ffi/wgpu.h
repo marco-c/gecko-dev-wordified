@@ -66,7 +66,7 @@ cbindgen
 .
 14
 .
-1
+0
 *
 /
 /
@@ -264,7 +264,7 @@ WGPUMAX_MIP_LEVELS
 #
 define
 WGPUMAX_VERTEX_BUFFERS
-16
+8
 typedef
 enum
 {
