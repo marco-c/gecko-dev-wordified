@@ -2742,6 +2742,7 @@ gTabsPanel
 .
 showHiddenTabsPanel
 (
+event
 )
 ;
 "
