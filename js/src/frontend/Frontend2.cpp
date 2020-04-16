@@ -670,7 +670,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 Strict
@@ -683,7 +683,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 BindingsAccessedDynamically
@@ -696,7 +696,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 HasCallSiteObj
@@ -709,7 +709,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 IsForEval
@@ -722,7 +722,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 IsModule
@@ -735,7 +735,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 HasNonSyntacticScope
@@ -748,7 +748,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 NeedsFunctionEnvironmentObjects
@@ -761,7 +761,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 HasModuleGoal
