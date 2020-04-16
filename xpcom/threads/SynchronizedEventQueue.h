@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsTObserverArray
 .
 h

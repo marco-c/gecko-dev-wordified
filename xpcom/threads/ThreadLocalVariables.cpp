@@ -56,6 +56,15 @@ MPL
 .
 *
 /
+#
+include
+"
+mozilla
+/
+ThreadLocal
+.
+h
+"
 /
 /
 This

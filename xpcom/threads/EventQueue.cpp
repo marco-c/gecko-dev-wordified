@@ -126,6 +126,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h
