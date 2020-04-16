@@ -428,7 +428,7 @@ prev
 :
 usize
 ;
-llvm_asm
+asm
 !
 (
 "
@@ -545,7 +545,7 @@ prev
 :
 usize
 ;
-llvm_asm
+asm
 !
 (
 "
@@ -655,7 +655,7 @@ prev
 :
 usize
 ;
-llvm_asm
+asm
 !
 (
 "
@@ -742,7 +742,7 @@ prev
 :
 usize
 ;
-llvm_asm
+asm
 !
 (
 "
