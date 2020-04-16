@@ -2443,7 +2443,6 @@ False
         
 for
 instance
-skip_marionette
 in
 [
 self
@@ -2650,12 +2649,14 @@ self
 previous
 False
 )
+                                          
 (
 self
 .
 current
 False
 )
+                                          
 (
 self
 .
