@@ -758,6 +758,7 @@ eSelectWord
 eSelectLine
 eSelectParagraph
 .
+const
 nsDirection
 mDirection
 ;
