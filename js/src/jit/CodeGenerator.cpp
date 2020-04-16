@@ -76776,7 +76776,7 @@ refs
 to
 track
 .
-MOZ_ASSERT
+MOZ_ALWAYS_TRUE
 (
 functionEntryStackMap
 )
@@ -77125,7 +77125,7 @@ a
 stack
 map
 .
-MOZ_ASSERT
+MOZ_ALWAYS_TRUE
 (
 stackMap
 )
