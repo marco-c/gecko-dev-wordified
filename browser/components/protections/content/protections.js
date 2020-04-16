@@ -880,11 +880,6 @@ Date
 (
 )
 ;
-var
-hasData
-=
-false
-;
 for
 (
 let
@@ -1008,10 +1003,6 @@ dateString
 ]
 )
 {
-hasData
-=
-true
-;
 let
 content
 =
@@ -2041,10 +2032,6 @@ card
 if
 (
 notBlocking
-&
-&
-!
-hasData
 )
 {
 document
