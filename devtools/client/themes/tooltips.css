@@ -3723,6 +3723,16 @@ space
 :
 nowrap
 ;
+text
+-
+overflow
+:
+ellipsis
+;
+overflow
+:
+hidden
+;
 }
 .
 tooltip
