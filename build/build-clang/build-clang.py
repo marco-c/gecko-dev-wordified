@@ -3710,12 +3710,16 @@ LIB
 =
 old_lib
         
+if
+is_final_stage
+:
+            
 install_import_library
 (
 build_dir
 inst_dir
 )
-        
+            
 install_asan_symbols
 (
 build_dir
