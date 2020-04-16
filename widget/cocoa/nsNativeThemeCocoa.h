@@ -2021,7 +2021,11 @@ aRect
 )
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 LayoutDeviceIntMargin
 GetWidgetBorder
 (

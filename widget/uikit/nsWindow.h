@@ -158,8 +158,12 @@ Inherited
 nsIWidget
 /
 /
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 Create
 (
