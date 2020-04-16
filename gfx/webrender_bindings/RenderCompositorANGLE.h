@@ -710,11 +710,6 @@ ReleaseNativeCompositorResources
 (
 )
 ;
-HWND
-GetCompositorHwnd
-(
-)
-;
 EGLConfig
 mEGLConfig
 ;
