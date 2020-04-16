@@ -154,6 +154,17 @@ mozilla
 /
 dom
 /
+FetchTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 InternalRequest
 .
 h
