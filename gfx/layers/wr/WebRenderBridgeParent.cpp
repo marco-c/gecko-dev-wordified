@@ -12716,8 +12716,6 @@ aPipelineId
 )
 )
 ;
-return
-;
 }
 void
 WebRenderBridgeParent
