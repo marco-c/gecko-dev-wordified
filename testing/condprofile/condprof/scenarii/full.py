@@ -203,7 +203,7 @@ min
 self
 .
 max_urls
-30
+20
 )
         
 logger
@@ -747,6 +747,11 @@ bookmark_frequency
 =
 =
 0
+and
+not
+self
+.
+mobile
 :
             
 await
