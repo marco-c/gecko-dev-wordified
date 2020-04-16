@@ -1787,6 +1787,8 @@ double
 )
 (
 double
+JSContext
+*
 )
 ;
 /
