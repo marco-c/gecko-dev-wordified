@@ -515,6 +515,10 @@ aWindow
 aXRSystem
 driver
 nullptr
+gfx
+:
+:
+kVRGroupContent
 aEnabledReferenceSpaceTypes
 )
 ;
@@ -559,6 +563,8 @@ gfx
 VRDisplayClient
 *
 aClient
+uint32_t
+aPresentationGroup
 const
 nsTArray
 <
@@ -581,6 +587,7 @@ aWindow
 aXRSystem
 nullptr
 aClient
+aPresentationGroup
 aEnabledReferenceSpaceTypes
 )
 ;
@@ -612,6 +619,8 @@ gfx
 VRDisplayClient
 *
 aClient
+uint32_t
+aPresentationGroup
 const
 nsTArray
 <
@@ -702,10 +711,7 @@ BeginPresentation
 (
 {
 }
-gfx
-:
-:
-kVRGroupContent
+aPresentationGroup
 )
 ;
 }
