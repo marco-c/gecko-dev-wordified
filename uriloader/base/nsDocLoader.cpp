@@ -249,13 +249,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h
@@ -8067,8 +8060,10 @@ info
 >
 mLastStatus
 =
-new
+MakeUnique
+<
 nsStatusInfo
+>
 (
 aRequest
 )
@@ -8152,6 +8147,10 @@ info
 -
 >
 mLastStatus
+.
+get
+(
+)
 )
 ;
 }

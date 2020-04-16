@@ -127,13 +127,6 @@ nsIIOService
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 ifdef
 MOZ_ENABLE_DBUS
 #

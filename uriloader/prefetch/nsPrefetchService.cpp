@@ -258,13 +258,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 prtime
 .
 h

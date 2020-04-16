@@ -256,13 +256,6 @@ PR_GetEnv
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
