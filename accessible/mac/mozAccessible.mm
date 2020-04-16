@@ -8040,6 +8040,11 @@ room
 for
 new
 children
+if
+(
+mChildren
+)
+{
 [
 mChildren
 release
@@ -8049,6 +8054,7 @@ mChildren
 =
 nil
 ;
+}
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
