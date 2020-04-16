@@ -1488,16 +1488,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-SystemGroup
-:
-:
-EventTargetFor
-(
-TaskCategory
-:
-:
-Other
-)
 )
 ;
 mTimer
