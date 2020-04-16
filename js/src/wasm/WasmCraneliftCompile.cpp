@@ -918,7 +918,7 @@ refs
 to
 track
 .
-MOZ_ALWAYS_TRUE
+MOZ_ASSERT
 (
 functionEntryStackMap
 )
