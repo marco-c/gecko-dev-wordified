@@ -349,7 +349,9 @@ set_anyref
 10
 x
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 /
 index
 out
@@ -374,7 +376,9 @@ set_anyref
 1
 x
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 /
 index
 out

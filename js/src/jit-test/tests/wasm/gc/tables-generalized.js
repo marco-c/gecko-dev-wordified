@@ -2364,7 +2364,9 @@ f
 (
 10
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 /
 index
 out
@@ -2388,7 +2390,9 @@ f
 -
 5
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 /
 index
 out
@@ -2757,7 +2761,9 @@ set_ref
 10
 x
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 /
 index
 out
@@ -2782,7 +2788,9 @@ set_ref
 1
 x
 )
-RangeError
+WebAssembly
+.
+RuntimeError
 /
 index
 out
