@@ -1310,6 +1310,10 @@ bool
 aParserCreated
 )
 {
+EnsureIPCPoliciesRead
+(
+)
+;
 bool
 permits
 =
