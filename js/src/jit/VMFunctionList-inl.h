@@ -2307,15 +2307,6 @@ PopLexicalEnv
 \
 _
 (
-PowValues
-js
-:
-:
-PowValues
-)
-\
-_
-(
 ProcessCallSiteObjOperation
 js
 :
