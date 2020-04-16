@@ -7733,7 +7733,8 @@ editorBase
 >
 OnFocus
 (
-target
+*
+eventTargetNode
 )
 ;
 if

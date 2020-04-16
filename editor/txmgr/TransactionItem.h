@@ -223,11 +223,13 @@ TransactionItem
 aChild
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoTransaction
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 UndoTransaction
 (
@@ -236,6 +238,7 @@ TransactionManager
 aTransactionManager
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RedoTransaction
 (
@@ -259,6 +262,7 @@ mData
 }
 private
 :
+MOZ_CAN_RUN_SCRIPT
 nsresult
 UndoChildren
 (
@@ -267,6 +271,7 @@ TransactionManager
 aTransactionManager
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RedoChildren
 (
@@ -275,6 +280,7 @@ TransactionManager
 aTransactionManager
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RecoverFromUndoError
 (
@@ -283,6 +289,7 @@ TransactionManager
 aTransactionManager
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 RecoverFromRedoError
 (

@@ -373,6 +373,7 @@ EditTransactionBase
 )
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_EDITTRANSACTIONBASE
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction
 (
@@ -693,6 +694,7 @@ attribute
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetStyle
 (

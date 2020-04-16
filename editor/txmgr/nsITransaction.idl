@@ -167,6 +167,9 @@ transaction
 .
 *
 /
+[
+can_run_script
+]
 void
 doTransaction
 (
@@ -191,6 +194,9 @@ executed
 .
 *
 /
+[
+can_run_script
+]
 void
 undoTransaction
 (
@@ -248,6 +254,9 @@ again
 .
 *
 /
+[
+can_run_script
+]
 void
 redoTransaction
 (

@@ -5487,7 +5487,10 @@ aEditorBase
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
+MOZ_KnownLive
+(
 mEditorBase
+)
 .
 BeginTransaction
 (

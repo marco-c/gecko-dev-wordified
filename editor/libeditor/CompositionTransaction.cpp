@@ -626,7 +626,6 @@ NS_IMPL_RELEASE_INHERITED
 CompositionTransaction
 EditTransactionBase
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 CompositionTransaction
 :
@@ -1134,7 +1133,6 @@ return
 rv
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 CompositionTransaction
 :

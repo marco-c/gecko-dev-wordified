@@ -262,6 +262,9 @@ do
 .
 *
 /
+[
+can_run_script
+]
 void
 doTransaction
 (
@@ -299,6 +302,9 @@ stack
 .
 *
 /
+[
+can_run_script
+]
 void
 undoTransaction
 (
@@ -333,6 +339,9 @@ stack
 .
 *
 /
+[
+can_run_script
+]
 void
 redoTransaction
 (
@@ -486,6 +495,9 @@ stacks
 .
 *
 /
+[
+can_run_script
+]
 void
 beginBatch
 (

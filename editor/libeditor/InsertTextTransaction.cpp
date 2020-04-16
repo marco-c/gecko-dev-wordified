@@ -339,7 +339,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 EditTransactionBase
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 InsertTextTransaction
 :
@@ -576,7 +575,6 @@ return
 NS_OK
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 InsertTextTransaction
 :
