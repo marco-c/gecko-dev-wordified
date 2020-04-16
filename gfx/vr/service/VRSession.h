@@ -632,6 +632,16 @@ aTexture
 ;
 #
 endif
+void
+SetControllerSelectionAndSqueezeFrameId
+(
+VRControllerState
+&
+controllerState
+uint64_t
+aFrameId
+)
+;
 }
 ;
 }
