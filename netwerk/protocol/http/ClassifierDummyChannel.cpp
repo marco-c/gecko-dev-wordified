@@ -2597,15 +2597,6 @@ aIsForChild
 )
 {
 }
-void
-ClassifierDummyChannel
-:
-:
-DisableAltDataCache
-(
-)
-{
-}
 NS_IMETHODIMP
 ClassifierDummyChannel
 :
