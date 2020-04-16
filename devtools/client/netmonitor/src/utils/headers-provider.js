@@ -166,6 +166,9 @@ object
 if
 (
 object
+&
+&
+object
 .
 value
 instanceof

@@ -796,6 +796,9 @@ responseCookies
 )
 filterText
 targetSearchResult
+defaultSelectFirstNode
+:
+false
 }
 header
 :
@@ -843,6 +846,9 @@ requestCookies
 )
 filterText
 targetSearchResult
+defaultSelectFirstNode
+:
+false
 }
 header
 :

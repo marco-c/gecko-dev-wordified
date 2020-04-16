@@ -630,10 +630,9 @@ function
 "
 )
 {
-return
-notExist
-|
-|
+const
+currentState
+=
 this
 .
 state
@@ -644,6 +643,12 @@ item
 .
 id
 ]
+;
+return
+notExist
+|
+|
+currentState
 !
 =
 =
@@ -652,6 +657,7 @@ item
 shouldOpen
 (
 item
+currentState
 )
 ;
 }
@@ -731,6 +737,7 @@ item
 shouldOpen
 (
 item
+itemOpen
 )
 ;
 }

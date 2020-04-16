@@ -1420,6 +1420,9 @@ useQuotes
 true
 filterText
 targetSearchResult
+defaultSelectFirstNode
+:
+false
 mode
 :
 MODE
