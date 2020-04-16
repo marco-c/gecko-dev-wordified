@@ -71,6 +71,12 @@ mozilla
 prettyprinters
 import
 ptr_pretty_printer
+from
+mozilla
+.
+CellHeader
+import
+get_header_ptr
 #
 Forget
 any
@@ -176,14 +182,23 @@ desc
 =
 str
 (
+get_header_ptr
+(
 self
 .
 value
 [
 '
-description_
+headerAndDescription_
 '
 ]
+                                  
+self
+.
+cache
+.
+JSString_ptr_t
+)
 )
         
 if
