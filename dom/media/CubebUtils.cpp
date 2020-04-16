@@ -592,7 +592,7 @@ aFmt
 char
 buffer
 [
-256
+1024
 ]
 ;
 va_list
