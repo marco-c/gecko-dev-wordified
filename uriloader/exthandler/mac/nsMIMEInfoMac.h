@@ -138,8 +138,12 @@ override
 ;
 protected
 :
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 LoadUriInternal
 (
@@ -152,8 +156,12 @@ override
 #
 ifdef
 DEBUG
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 LaunchDefaultWithFile
 (

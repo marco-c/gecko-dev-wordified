@@ -328,7 +328,11 @@ platform
 application
 path
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 GetFileTokenForPath
 (
@@ -343,7 +347,11 @@ aFile
 )
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 OSProtocolHandlerExists
 (

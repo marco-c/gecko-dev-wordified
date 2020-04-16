@@ -224,7 +224,11 @@ ExternalHelperAppChild
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 DivertToParent
 (

@@ -6941,7 +6941,11 @@ it
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 MaybeInitTiming
 (

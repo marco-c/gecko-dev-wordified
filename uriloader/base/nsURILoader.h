@@ -242,7 +242,11 @@ already
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 OpenChannel
 (
