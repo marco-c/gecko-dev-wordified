@@ -458,10 +458,10 @@ experimentData
 =
 ExperimentAPI
 .
-getValue
+getExperiment
 (
 {
-category
+group
 :
 "
 aboutwelcome
