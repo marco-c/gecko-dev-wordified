@@ -1281,6 +1281,16 @@ mLazyLoading
 mPendingImageLoadTask
 ;
 }
+bool
+IsLazyLoading
+(
+)
+const
+{
+return
+mLazyLoading
+;
+}
 Loading
 LoadingState
 (
