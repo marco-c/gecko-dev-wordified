@@ -1923,15 +1923,34 @@ txt
 ]
         
 if
+(
 self
 .
 is_android
 or
+            
 "
 wdspec
 "
 in
 test_types
+or
+            
+"
+fission
+.
+autostart
+=
+true
+"
+in
+c
+[
+'
+extra_prefs
+'
+]
+)
 :
             
 processes
