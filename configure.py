@@ -538,7 +538,7 @@ now
 .
     
 def
-sanitized_bools
+sanitize_config
 (
 v
 )
@@ -565,6 +565,46 @@ return
 '
 '
         
+#
+Serialize
+types
+that
+look
+like
+lists
+and
+tuples
+as
+lists
+.
+        
+if
+not
+isinstance
+(
+v
+(
+bytes
+six
+.
+text_type
+dict
+)
+)
+and
+isinstance
+(
+v
+Iterable
+)
+:
+            
+return
+list
+(
+v
+)
+        
 return
 v
     
@@ -584,7 +624,7 @@ substs
         
 k
 :
-sanitized_bools
+sanitize_config
 (
 v
 )
@@ -635,7 +675,7 @@ defines
         
 k
 :
-sanitized_bools
+sanitize_config
 (
 v
 )
