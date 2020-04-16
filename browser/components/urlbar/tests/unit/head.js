@@ -1651,7 +1651,10 @@ data
 }
 )
 ;
-return
+let
+engine
+=
+await
 addTestEngine
 (
 "
@@ -1663,6 +1666,9 @@ xml
 "
 server
 )
+;
+return
+engine
 ;
 }
 /
