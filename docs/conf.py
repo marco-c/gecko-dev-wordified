@@ -427,7 +427,7 @@ project
 =
 u
 '
-Mozilla
+Firefox
 Source
 Tree
 Docs
