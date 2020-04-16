@@ -1648,9 +1648,9 @@ source
 /
 extensions
 /
-cookie
+permissions
 /
-nsPermissionManager
+PermissionManager
 .
 cpp
         
