@@ -484,6 +484,15 @@ tests
 "
                               
 "
+js
+"
+"
+src
+"
+"
+tests
+"
+"
 jstests
 .
 list
@@ -620,6 +629,16 @@ stage
 "
 "
 jsreftest
+"
+                                                       
+"
+tests
+"
+"
+js
+"
+"
+src
 "
                                                        
 "
