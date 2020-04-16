@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsTSubstringTuple
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CheckedInt
