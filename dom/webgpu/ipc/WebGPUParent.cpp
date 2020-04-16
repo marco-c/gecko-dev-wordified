@@ -3187,7 +3187,7 @@ totalAttributes
 =
 vertexBuffer
 .
-mAttributeSet
+mAttributes
 .
 Length
 (
@@ -3457,7 +3457,7 @@ attributes_length
 =
 vertexBuffer
 .
-mAttributeSet
+mAttributes
 .
 Length
 (
@@ -3472,7 +3472,7 @@ attribute
 :
 vertexBuffer
 .
-mAttributeSet
+mAttributes
 )
 {
 vertexAttributes

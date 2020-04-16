@@ -262,7 +262,7 @@ ffi
 :
 WGPUVertexAttributeDescriptor
 >
-mAttributeSet
+mAttributes
 ;
 }
 ;
