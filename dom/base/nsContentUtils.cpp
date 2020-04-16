@@ -51824,6 +51824,10 @@ current
 -
 >
 mNext
+.
+get
+(
+)
 )
 {
 uint32_t
@@ -52197,7 +52201,10 @@ mLast
 >
 mNext
 =
+WrapUnique
+(
 this
+)
 ;
 aFirst
 -
@@ -52622,7 +52629,10 @@ STRING_BUFFER_UNITS
 >
 mUnits
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 StringBuilder
 >

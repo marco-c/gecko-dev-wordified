@@ -731,7 +731,10 @@ mOwnsCallback
 {
 mOwnedCallback
 =
+WrapUnique
+(
 aCallback
+)
 ;
 }
 }
@@ -5362,7 +5365,10 @@ mOwnsCallback
 {
 mOwnedCallback
 =
+WrapUnique
+(
 aCallback
+)
 ;
 }
 }

@@ -175,17 +175,6 @@ FunctionRef
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-/
-/
-for
-member
-#
-include
-"
 nsCOMArray
 .
 h
@@ -25986,7 +25975,7 @@ they
 go
 away
 .
-nsAutoPtr
+UniquePtr
 <
 nsTHashtable
 <
