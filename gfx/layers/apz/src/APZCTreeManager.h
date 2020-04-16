@@ -5315,6 +5315,15 @@ RecursiveMutexAutoLock
 aProofOfTreeLock
 )
 ;
+HitTestingTreeNode
+*
+FindRootNodeForLayersId
+(
+LayersId
+aLayersId
+)
+const
+;
 AsyncPanZoomController
 *
 FindRootApzcForLayersId
