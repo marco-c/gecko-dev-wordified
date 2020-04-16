@@ -6917,8 +6917,6 @@ HandleObject
 obj
 NewObjectKind
 newKind
-=
-GenericObject
 )
 ;
 /
