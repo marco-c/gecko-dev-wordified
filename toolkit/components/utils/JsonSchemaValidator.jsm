@@ -446,7 +446,7 @@ param
 {
 boolean
 }
-allowObjectExplicitUndefinedProperties
+allowExplicitUndefinedProperties
 *
 When
 true
@@ -491,7 +491,7 @@ param
 {
 boolean
 }
-allowObjectNullAsUndefinedProperties
+allowNullAsUndefinedProperties
 *
 When
 true
@@ -550,7 +550,7 @@ param
 {
 boolean
 }
-allowObjectExtraProperties
+allowExtraProperties
 *
 When
 true
@@ -1068,7 +1068,7 @@ param
 {
 boolean
 }
-allowObjectExplicitUndefinedProperties
+allowExplicitUndefinedProperties
 *
 See
 the
@@ -1082,7 +1082,7 @@ param
 {
 boolean
 }
-allowObjectNullAsUndefinedProperties
+allowNullAsUndefinedProperties
 *
 See
 the
@@ -1096,7 +1096,7 @@ param
 {
 boolean
 }
-allowObjectExtraProperties
+allowExtraProperties
 *
 See
 the
