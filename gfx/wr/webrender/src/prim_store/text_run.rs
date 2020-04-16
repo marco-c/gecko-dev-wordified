@@ -160,7 +160,6 @@ prim_store
 :
 {
 PrimitiveOpacity
-PrimitiveSceneData
 PrimitiveScratchBuffer
 }
 ;
@@ -1091,7 +1090,8 @@ TextRunTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl

@@ -157,7 +157,6 @@ EdgeAaSegmentMask
 OpacityBindingIndex
 PrimitiveInstanceKind
 PrimitiveOpacity
-PrimitiveSceneData
 PrimKey
 PrimKeyCommonData
 PrimTemplate
@@ -1944,7 +1943,8 @@ ImageTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl
@@ -2846,7 +2846,8 @@ YuvImageTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl

@@ -120,7 +120,6 @@ PrimKeyCommonData
 PrimTemplate
 PrimTemplateCommonData
 PrimitiveStore
-PrimitiveSceneData
 RectangleKey
 }
 ;
@@ -421,7 +420,8 @@ BackdropTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl

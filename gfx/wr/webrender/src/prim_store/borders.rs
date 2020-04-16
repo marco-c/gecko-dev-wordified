@@ -160,7 +160,6 @@ PrimTemplate
 PrimTemplateCommonData
 PrimitiveInstanceKind
 PrimitiveOpacity
-PrimitiveSceneData
 PrimitiveStore
 InternablePrimitive
 }
@@ -801,7 +800,8 @@ NormalBorderTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl
@@ -1640,7 +1640,8 @@ ImageBorderTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl

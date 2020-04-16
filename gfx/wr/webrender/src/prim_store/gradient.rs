@@ -170,7 +170,6 @@ prim_store
 {
 PrimitiveInstanceKind
 PrimitiveOpacity
-PrimitiveSceneData
 }
 ;
 use
@@ -1807,7 +1806,8 @@ LinearGradientTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl
@@ -3028,7 +3028,8 @@ RadialGradientTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl
@@ -4197,7 +4198,8 @@ ConicGradientTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl

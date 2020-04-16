@@ -142,7 +142,6 @@ PrimKeyCommonData
 PrimTemplate
 PrimTemplateCommonData
 InternablePrimitive
-PrimitiveSceneData
 PrimitiveStore
 }
 ;
@@ -804,7 +803,8 @@ LineDecorationTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl
