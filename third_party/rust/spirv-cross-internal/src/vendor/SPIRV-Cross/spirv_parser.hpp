@@ -4,7 +4,7 @@
 Copyright
 2018
 -
-2019
+2020
 Arm
 Limited
 *
@@ -519,15 +519,6 @@ SPIRVariable
 v
 )
 const
-;
-void
-make_constant_null
-(
-uint32_t
-id
-uint32_t
-type
-)
 ;
 }
 ;

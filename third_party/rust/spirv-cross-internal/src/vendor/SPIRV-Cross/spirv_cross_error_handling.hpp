@@ -4,7 +4,7 @@
 Copyright
 2015
 -
-2019
+2020
 Arm
 Limited
 *
@@ -201,6 +201,16 @@ __clang__
 noreturn
 ]
 ]
+#
+elif
+defined
+(
+_MSC_VER
+)
+__declspec
+(
+noreturn
+)
 #
 endif
 inline
