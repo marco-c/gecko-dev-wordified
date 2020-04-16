@@ -3257,6 +3257,10 @@ aFunc
 /
 /
 infallible
+LaunchSocketProcess
+(
+)
+;
 }
 }
 int32_t
