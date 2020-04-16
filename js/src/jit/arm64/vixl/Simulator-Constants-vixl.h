@@ -427,9 +427,6 @@ instruction
 enum
 DebugHltOpcodes
 {
-kUnreachableOpcode
-=
-0xdeb0
 kPrintfOpcode
 kTraceOpcode
 kLogOpcode
@@ -439,7 +436,7 @@ Aliases
 .
 kDebugHltFirstOpcode
 =
-kUnreachableOpcode
+kPrintfOpcode
 kDebugHltLastOpcode
 =
 kLogOpcode
