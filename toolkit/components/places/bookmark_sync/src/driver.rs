@@ -145,7 +145,7 @@ interfaces
 :
 :
 {
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 mozISyncedBookmarksMirrorProgressListener
 }
 ;
@@ -644,7 +644,7 @@ Option
 <
 ThreadPtrHandle
 <
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 >
 >
 }
@@ -668,7 +668,7 @@ Option
 <
 ThreadPtrHandle
 <
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 >
 >
 )
@@ -925,7 +925,7 @@ logger
 :
 ThreadPtrHandle
 <
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 >
 level
 :
