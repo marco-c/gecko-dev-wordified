@@ -303,14 +303,6 @@ user32
 dll
 '
 ]
-OS_LIBS
-+
-=
-[
-'
-ntdll
-'
-]
 DELAYLOAD_DLLS
 +
 =
