@@ -246,7 +246,9 @@ tagged
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -268,7 +270,9 @@ tag1
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -293,7 +297,9 @@ tag2
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -318,7 +324,9 @@ tag3
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri

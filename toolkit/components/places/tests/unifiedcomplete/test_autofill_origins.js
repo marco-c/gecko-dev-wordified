@@ -2938,7 +2938,9 @@ and
 completed
 .
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -3300,7 +3302,9 @@ and
 completed
 .
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri

@@ -140,7 +140,9 @@ title
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri

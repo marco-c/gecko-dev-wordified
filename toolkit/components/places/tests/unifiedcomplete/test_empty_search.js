@@ -303,7 +303,9 @@ title
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -318,7 +320,9 @@ title
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -333,7 +337,9 @@ title
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -348,7 +354,9 @@ title
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri

@@ -110,7 +110,9 @@ test
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -230,7 +232,9 @@ test
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -346,7 +350,9 @@ test
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -472,7 +478,9 @@ test
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -597,7 +605,9 @@ test
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
@@ -732,7 +742,9 @@ com
 "
 )
 ;
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri

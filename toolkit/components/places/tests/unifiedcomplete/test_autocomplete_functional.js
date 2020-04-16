@@ -208,7 +208,9 @@ bookmark
 )
 ;
 await
-addBookmark
+PlacesTestUtils
+.
+addBookmarkWithDetails
 (
 {
 uri
