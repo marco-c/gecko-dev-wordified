@@ -1741,7 +1741,9 @@ endif
 #
 include
 "
-nsPermission
+mozilla
+/
+Permission
 .
 h
 "
