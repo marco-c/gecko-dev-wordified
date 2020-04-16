@@ -90,7 +90,7 @@ C
 )
 2001
 -
-2009
+2017
 #
 David
 M
@@ -825,23 +825,36 @@ risk
 -
 -
 -
+import
+re
+import
+types
+import
+sys
+import
+os
+.
+path
+import
+inspect
+import
+base64
+import
+warnings
 __version__
 =
-"
+'
 3
 .
-3
-"
+10
+'
 __tabversion__
 =
-"
+'
 3
 .
-2
-"
-#
-Table
-version
+10
+'
 #
 -
 -
@@ -1026,7 +1039,7 @@ wish
 -
 yaccdebug
 =
-1
+True
 #
 Debugging
 mode
@@ -1103,7 +1116,7 @@ recovery
 mode
 yaccdevel
 =
-0
+False
 #
 Set
 to
@@ -1148,25 +1161,12 @@ when
 writing
 pickle
 files
-import
-re
-types
-sys
-os
-.
-path
 #
-Compatibility
-function
-for
-python
-2
-.
-6
-/
-3
-.
-0
+String
+type
+-
+checking
+compatibility
 if
 sys
 .
@@ -1178,93 +1178,20 @@ version_info
 3
 :
     
-def
-func_code
-(
-f
-)
-:
-        
-return
-f
-.
-func_code
+string_types
+=
+basestring
 else
 :
     
-def
-func_code
-(
-f
-)
-:
-        
-return
-f
-.
-__code__
-#
-Compatibility
-try
-:
-    
-MAXINT
+string_types
 =
-sys
-.
-maxint
-except
-AttributeError
-:
-    
+str
 MAXINT
 =
 sys
 .
 maxsize
-#
-Python
-2
-.
-x
-/
-3
-.
-0
-compatibility
-.
-def
-load_ply_lex
-(
-)
-:
-    
-if
-sys
-.
-version_info
-[
-0
-]
-<
-3
-:
-        
-import
-lex
-    
-else
-:
-        
-import
-ply
-.
-lex
-as
-lex
-    
-return
-lex
 #
 This
 object
@@ -1370,10 +1297,10 @@ msg
 args
 )
 +
-"
+'
 \
 n
-"
+'
 )
     
 info
@@ -1399,10 +1326,10 @@ f
 .
 write
 (
-"
+'
 WARNING
 :
-"
+'
 +
 (
 msg
@@ -1410,10 +1337,10 @@ msg
 args
 )
 +
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -1435,10 +1362,10 @@ f
 .
 write
 (
-"
+'
 ERROR
 :
-"
+'
 +
 (
 msg
@@ -1446,10 +1373,10 @@ msg
 args
 )
 +
-"
+'
 \
 n
-"
+'
 )
     
 critical
@@ -1515,6 +1442,7 @@ YaccError
 Exception
 )
 :
+    
 pass
 #
 Format
@@ -1553,6 +1481,7 @@ n
 in
 repr_str
 :
+        
 repr_str
 =
 repr
@@ -1577,15 +1506,15 @@ repr_str
 resultlimit
 ]
 +
-"
+'
 .
 .
 .
-"
+'
     
 result
 =
-"
+'
 <
 %
 s
@@ -1597,7 +1526,7 @@ x
 %
 s
 )
-"
+'
 %
 (
 type
@@ -1649,6 +1578,7 @@ n
 in
 repr_str
 :
+        
 repr_str
 =
 repr
@@ -1672,7 +1602,7 @@ else
 :
         
 return
-"
+'
 <
 %
 s
@@ -1680,7 +1610,7 @@ s
 %
 x
 >
-"
+'
 %
 (
 type
@@ -1694,6 +1624,246 @@ id
 r
 )
 )
+#
+Panic
+mode
+error
+recovery
+support
+.
+This
+feature
+is
+being
+reworked
+-
+-
+much
+of
+the
+#
+code
+here
+is
+to
+offer
+a
+deprecation
+/
+backwards
+compatible
+transition
+_errok
+=
+None
+_token
+=
+None
+_restart
+=
+None
+_warnmsg
+=
+'
+'
+'
+PLY
+:
+Don
+'
+t
+use
+global
+functions
+errok
+(
+)
+token
+(
+)
+and
+restart
+(
+)
+in
+p_error
+(
+)
+.
+Instead
+invoke
+the
+methods
+on
+the
+associated
+parser
+instance
+:
+    
+def
+p_error
+(
+p
+)
+:
+        
+.
+.
+.
+        
+#
+Use
+parser
+.
+errok
+(
+)
+parser
+.
+token
+(
+)
+parser
+.
+restart
+(
+)
+        
+.
+.
+.
+    
+parser
+=
+yacc
+.
+yacc
+(
+)
+'
+'
+'
+def
+errok
+(
+)
+:
+    
+warnings
+.
+warn
+(
+_warnmsg
+)
+    
+return
+_errok
+(
+)
+def
+restart
+(
+)
+:
+    
+warnings
+.
+warn
+(
+_warnmsg
+)
+    
+return
+_restart
+(
+)
+def
+token
+(
+)
+:
+    
+warnings
+.
+warn
+(
+_warnmsg
+)
+    
+return
+_token
+(
+)
+#
+Utility
+function
+to
+call
+the
+p_error
+(
+)
+function
+with
+some
+deprecation
+hacks
+def
+call_errorfunc
+(
+errorfunc
+token
+parser
+)
+:
+    
+global
+_errok
+_token
+_restart
+    
+_errok
+=
+parser
+.
+errok
+    
+_token
+=
+parser
+.
+token
+    
+_restart
+=
+parser
+.
+restart
+    
+r
+=
+errorfunc
+(
+token
+)
+    
+try
+:
+        
+del
+_errok
+_token
+_restart
+    
+except
+NameError
+:
+        
+pass
+    
+return
+r
 #
 -
 -
@@ -1977,6 +2147,7 @@ __str__
 self
 )
 :
+        
 return
 self
 .
@@ -1988,6 +2159,7 @@ __repr__
 self
 )
 :
+        
 return
 str
 (
@@ -2145,11 +2317,36 @@ n
 :
         
 if
+isinstance
+(
+n
+slice
+)
+:
+            
+return
+[
+s
+.
+value
+for
+s
+in
+self
+.
+slice
+[
+n
+]
+]
+        
+elif
 n
 >
 =
 0
 :
+            
 return
 self
 .
@@ -2162,6 +2359,7 @@ value
         
 else
 :
+            
 return
 self
 .
@@ -2251,9 +2449,9 @@ slice
 [
 n
 ]
-"
+'
 lineno
-"
+'
 0
 )
     
@@ -2295,9 +2493,9 @@ slice
 [
 n
 ]
-"
+'
 lineno
-"
+'
 0
 )
         
@@ -2311,9 +2509,9 @@ slice
 [
 n
 ]
-"
+'
 endlineno
-"
+'
 startline
 )
         
@@ -2338,9 +2536,9 @@ slice
 [
 n
 ]
-"
+'
 lexpos
-"
+'
 0
 )
     
@@ -2362,9 +2560,9 @@ slice
 [
 n
 ]
-"
+'
 lexpos
-"
+'
 0
 )
         
@@ -2378,9 +2576,9 @@ slice
 [
 n
 ]
-"
+'
 endlexpos
-"
+'
 startpos
 )
         
@@ -2394,7 +2592,7 @@ error
 self
 )
 :
-       
+        
 raise
 SyntaxError
 #
@@ -2608,6 +2806,18 @@ self
 errorfunc
 =
 errorf
+        
+self
+.
+set_defaulted_states
+(
+)
+        
+self
+.
+errorok
+=
+True
     
 def
 errok
@@ -2620,7 +2830,7 @@ self
 .
 errorok
 =
-1
+True
     
 def
 restart
@@ -2677,6 +2887,215 @@ append
 0
 )
     
+#
+Defaulted
+state
+support
+.
+    
+#
+This
+method
+identifies
+parser
+states
+where
+there
+is
+only
+one
+possible
+reduction
+action
+.
+    
+#
+For
+such
+states
+the
+parser
+can
+make
+a
+choose
+to
+make
+a
+rule
+reduction
+without
+consuming
+    
+#
+the
+next
+look
+-
+ahead
+token
+.
+This
+delayed
+invocation
+of
+the
+tokenizer
+can
+be
+useful
+in
+    
+#
+certain
+kinds
+of
+advanced
+parsing
+situations
+where
+the
+lexer
+and
+parser
+interact
+with
+    
+#
+each
+other
+or
+change
+states
+(
+i
+.
+e
+.
+manipulation
+of
+scope
+lexer
+states
+etc
+.
+)
+.
+    
+#
+    
+#
+See
+:
+http
+:
+/
+/
+www
+.
+gnu
+.
+org
+/
+software
+/
+bison
+/
+manual
+/
+html_node
+/
+Default
+-
+Reductions
+.
+html
+#
+Default
+-
+Reductions
+    
+def
+set_defaulted_states
+(
+self
+)
+:
+        
+self
+.
+defaulted_states
+=
+{
+}
+        
+for
+state
+actions
+in
+self
+.
+action
+.
+items
+(
+)
+:
+            
+rules
+=
+list
+(
+actions
+.
+values
+(
+)
+)
+            
+if
+len
+(
+rules
+)
+=
+=
+1
+and
+rules
+[
+0
+]
+<
+0
+:
+                
+self
+.
+defaulted_states
+[
+state
+]
+=
+rules
+[
+0
+]
+    
+def
+disable_defaulted_states
+(
+self
+)
+:
+        
+self
+.
+defaulted_states
+=
+{
+}
+    
 def
 parse
 (
@@ -2689,10 +3108,10 @@ lexer
 None
 debug
 =
-0
+False
 tracking
 =
-0
+False
 tokenfunc
 =
 None
@@ -2878,33 +3297,38 @@ be
 made
 here
 .
-For
-the
-non
--
-debugging
-version
-    
-#
-copy
-this
-code
-to
-a
-method
-parseopt
-(
-)
-and
-delete
-all
+Optimized
+versions
 of
-the
-sections
+this
+function
     
 #
+are
+automatically
+created
+by
+the
+ply
+/
+ygen
+.
+py
+script
+.
+This
+script
+cuts
+out
+    
+#
+sections
 enclosed
 in
+markers
+such
+as
+this
 :
     
 #
@@ -3019,15 +3443,23 @@ lexer
 None
 debug
 =
-None
+False
 tracking
 =
-0
+False
 tokenfunc
 =
 None
 )
 :
+        
+#
+-
+-
+!
+parsedebug
+-
+start
         
 lookahead
 =
@@ -3107,6 +3539,18 @@ self
 .
 )
         
+defaulted_states
+=
+self
+.
+defaulted_states
+#
+Local
+reference
+to
+defaulted
+states
+        
 pslice
 =
 YaccProduction
@@ -3140,13 +3584,13 @@ debug
 .
 info
 (
-"
+'
 PLY
 :
 PARSE
 DEBUG
 START
-"
+'
 )
         
 #
@@ -3175,11 +3619,10 @@ not
 lexer
 :
             
+from
+.
+import
 lex
-=
-load_ply_lex
-(
-)
             
 lexer
 =
@@ -3238,11 +3681,11 @@ tokenfunc
 is
 None
 :
-           
+            
 #
 Tokenize
 function
-           
+            
 get_token
 =
 lexer
@@ -3251,10 +3694,32 @@ token
         
 else
 :
-           
+            
 get_token
 =
 tokenfunc
+        
+#
+Set
+the
+parser
+(
+)
+token
+method
+(
+sometimes
+used
+in
+error
+recovery
+)
+        
+self
+.
+token
+=
+get_token
         
 #
 Set
@@ -3345,9 +3810,9 @@ sym
 .
 type
 =
-"
+'
 end
-"
+'
         
 symstack
 .
@@ -3361,7 +3826,7 @@ state
 0
         
 while
-1
+True
 :
             
 #
@@ -3440,15 +3905,22 @@ state
 DEBUG
             
 if
+state
 not
-lookahead
+in
+defaulted_states
 :
                 
 if
 not
-lookaheadstack
+lookahead
 :
                     
+if
+not
+lookaheadstack
+:
+                        
 lookahead
 =
 get_token
@@ -3459,10 +3931,10 @@ Get
 the
 next
 token
-                
+                    
 else
 :
-                    
+                        
 lookahead
 =
 lookaheadstack
@@ -3470,25 +3942,91 @@ lookaheadstack
 pop
 (
 )
-                
+                    
 if
 not
 lookahead
 :
-                    
+                        
 lookahead
 =
 YaccSymbol
 (
 )
-                    
+                        
 lookahead
 .
 type
 =
-"
+'
 end
-"
+'
+                
+#
+Check
+the
+action
+table
+                
+ltype
+=
+lookahead
+.
+type
+                
+t
+=
+actions
+[
+state
+]
+.
+get
+(
+ltype
+)
+            
+else
+:
+                
+t
+=
+defaulted_states
+[
+state
+]
+                
+#
+-
+-
+!
+DEBUG
+                
+debug
+.
+debug
+(
+'
+Defaulted
+state
+%
+s
+:
+Reduce
+using
+%
+d
+'
+state
+-
+t
+)
+                
+#
+-
+-
+!
+DEBUG
             
 #
 -
@@ -3508,17 +4046,17 @@ s
 '
                         
 (
-"
+'
 %
 s
 .
 %
 s
-"
+'
 %
 (
-"
-"
+'
+'
 .
 join
 (
@@ -3553,30 +4091,6 @@ lstrip
 -
 !
 DEBUG
-            
-#
-Check
-the
-action
-table
-            
-ltype
-=
-lookahead
-.
-type
-            
-t
-=
-actions
-[
-state
-]
-.
-get
-(
-ltype
-)
             
 if
 t
@@ -3620,7 +4134,7 @@ debug
 .
 debug
 (
-"
+'
 Action
 :
 Shift
@@ -3629,7 +4143,7 @@ goto
 state
 %
 s
-"
+'
 t
 )
                     
@@ -3661,6 +4175,7 @@ shift
 if
 errorcount
 :
+                        
 errorcount
 -
 =
@@ -3745,7 +4260,7 @@ debug
 .
 info
 (
-"
+'
 Action
 :
 Reduce
@@ -3762,16 +4277,17 @@ goto
 state
 %
 d
-"
+'
 p
 .
 str
-"
+                                   
+'
 [
-"
+'
 +
-"
-"
+'
+'
 .
 join
 (
@@ -3794,11 +4310,23 @@ plen
 ]
 )
 +
-"
+'
 ]
-"
+'
+                                   
+goto
+[
+statestack
+[
 -
-t
+1
+-
+plen
+]
+]
+[
+pname
+]
 )
                     
 else
@@ -3808,7 +4336,7 @@ debug
 .
 info
 (
-"
+'
 Action
 :
 Reduce
@@ -3825,14 +4353,24 @@ goto
 state
 %
 d
-"
+'
 p
 .
 str
 [
 ]
+                                   
+goto
+[
+statestack
+[
 -
-t
+1
+]
+]
+[
+pname
+]
 )
                     
 #
@@ -3872,14 +4410,14 @@ TRACKING
 if
 tracking
 :
-                           
+                            
 t1
 =
 targ
 [
 1
 ]
-                           
+                            
 sym
 .
 lineno
@@ -3887,7 +4425,7 @@ lineno
 t1
 .
 lineno
-                           
+                            
 sym
 .
 lexpos
@@ -3895,7 +4433,7 @@ lexpos
 t1
 .
 lexpos
-                           
+                            
 t1
 =
 targ
@@ -3903,7 +4441,7 @@ targ
 -
 1
 ]
-                           
+                            
 sym
 .
 endlineno
@@ -3911,14 +4449,14 @@ endlineno
 getattr
 (
 t1
-"
+'
 endlineno
-"
+'
 t1
 .
 lineno
 )
-                           
+                            
 sym
 .
 endlexpos
@@ -3926,9 +4464,9 @@ endlexpos
 getattr
 (
 t1
-"
+'
 endlexpos
-"
+'
 t1
 .
 lexpos
@@ -4049,13 +4587,11 @@ plen
 :
 ]
                             
-del
-statestack
-[
--
-plen
-:
-]
+self
+.
+state
+=
+state
                             
 p
 .
@@ -4063,6 +4599,14 @@ callable
 (
 pslice
 )
+                            
+del
+statestack
+[
+-
+plen
+:
+]
                             
 #
 -
@@ -4074,12 +4618,12 @@ debug
 .
 info
 (
-"
+'
 Result
 :
 %
 s
-"
+'
 format_result
 (
 pslice
@@ -4145,17 +4689,49 @@ append
 (
 lookahead
 )
+#
+Save
+the
+current
+lookahead
+token
                             
 symstack
 .
-pop
+extend
 (
+targ
+[
+1
+:
+-
+1
+]
 )
+#
+Put
+the
+production
+slice
+back
+on
+the
+stack
                             
 statestack
 .
 pop
 (
+)
+#
+Pop
+back
+one
+state
+(
+before
+the
+reduce
 )
                             
 state
@@ -4174,6 +4750,14 @@ type
 error
 '
                             
+sym
+.
+value
+=
+'
+error
+'
+                            
 lookahead
 =
 sym
@@ -4186,7 +4770,7 @@ self
 .
 errorok
 =
-0
+False
                         
 continue
                         
@@ -4254,7 +4838,7 @@ TRACKING
 if
 tracking
 :
-                           
+                            
 sym
 .
 lineno
@@ -4262,7 +4846,7 @@ lineno
 lexer
 .
 lineno
-                           
+                            
 sym
 .
 lexpos
@@ -4384,6 +4968,12 @@ special
 slice
 object
                             
+self
+.
+state
+=
+state
+                            
 p
 .
 callable
@@ -4401,12 +4991,12 @@ debug
 .
 info
 (
-"
+'
 Result
 :
 %
 s
-"
+'
 format_result
 (
 pslice
@@ -4472,17 +5062,27 @@ append
 (
 lookahead
 )
-                            
-symstack
-.
-pop
-(
-)
+#
+Save
+the
+current
+lookahead
+token
                             
 statestack
 .
 pop
 (
+)
+#
+Pop
+back
+one
+state
+(
+before
+the
+reduce
 )
                             
 state
@@ -4501,6 +5101,14 @@ type
 error
 '
                             
+sym
+.
+value
+=
+'
+error
+'
+                            
 lookahead
 =
 sym
@@ -4513,7 +5121,7 @@ self
 .
 errorok
 =
-0
+False
                         
 continue
                         
@@ -4589,9 +5197,9 @@ result
 getattr
 (
 n
-"
+'
 value
-"
+'
 None
 )
                     
@@ -4605,13 +5213,13 @@ debug
 .
 info
 (
-"
+'
 Done
 :
 Returning
 %
 s
-"
+'
 format_result
 (
 result
@@ -4622,13 +5230,13 @@ debug
 .
 info
 (
-"
+'
 PLY
 :
 PARSE
 DEBUG
 END
-"
+'
 )
                     
 #
@@ -4642,8 +5250,7 @@ result
             
 if
 t
-=
-=
+is
 None
 :
                 
@@ -4665,17 +5272,17 @@ s
 '
                             
 (
-"
+'
 %
 s
 .
 %
 s
-"
+'
 %
 (
-"
-"
+'
+'
 .
 join
 (
@@ -4830,7 +5437,7 @@ self
 .
 errorok
 =
-0
+False
                     
 errtoken
 =
@@ -4842,9 +5449,9 @@ errtoken
 type
 =
 =
-"
+'
 end
-"
+'
 :
                         
 errtoken
@@ -4861,36 +5468,6 @@ self
 .
 errorfunc
 :
-                        
-global
-errok
-token
-restart
-                        
-errok
-=
-self
-.
-errok
-#
-Set
-some
-special
-functions
-available
-in
-error
-recovery
-                        
-token
-=
-get_token
-                        
-restart
-=
-self
-.
-restart
                         
 if
 errtoken
@@ -4911,23 +5488,22 @@ lexer
 =
 lexer
                         
+self
+.
+state
+=
+state
+                        
 tok
 =
+call_errorfunc
+(
 self
 .
 errorfunc
-(
 errtoken
+self
 )
-                        
-del
-errok
-token
-restart
-#
-Delete
-special
-functions
                         
 if
 self
@@ -4983,11 +5559,12 @@ if
 hasattr
 (
 errtoken
-"
+'
 lineno
-"
+'
 )
 :
+                                
 lineno
 =
 lookahead
@@ -4996,6 +5573,7 @@ lineno
                             
 else
 :
+                                
 lineno
 =
 0
@@ -5010,7 +5588,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Syntax
@@ -5025,7 +5603,7 @@ token
 s
 \
 n
-"
+'
 %
 (
 lineno
@@ -5044,7 +5622,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Syntax
@@ -5053,7 +5631,7 @@ token
 =
 %
 s
-"
+'
 %
 errtoken
 .
@@ -5069,7 +5647,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Parse
@@ -5080,7 +5658,7 @@ input
 EOF
 \
 n
-"
+'
 )
                             
 return
@@ -5155,9 +5733,9 @@ lookahead
 type
 !
 =
-"
+'
 end
-"
+'
 :
                     
 lookahead
@@ -5236,9 +5814,9 @@ lookahead
 type
 =
 =
-"
+'
 end
-"
+'
 :
                     
 #
@@ -5307,11 +5885,74 @@ symbol
 and
 continue
                         
+#
+-
+-
+!
+TRACKING
+                        
+if
+tracking
+:
+                            
+sym
+.
+endlineno
+=
+getattr
+(
+lookahead
+'
+lineno
+'
+sym
+.
+lineno
+)
+                            
+sym
+.
+endlexpos
+=
+getattr
+(
+lookahead
+'
+lexpos
+'
+sym
+.
+lexpos
+)
+                        
+#
+-
+-
+!
+TRACKING
+                        
 lookahead
 =
 None
                         
 continue
+                    
+#
+Create
+the
+error
+symbol
+for
+the
+first
+time
+and
+make
+it
+the
+new
+lookahead
+symbol
                     
 t
 =
@@ -5331,9 +5972,9 @@ if
 hasattr
 (
 lookahead
-"
+'
 lineno
-"
+'
 )
 :
                         
@@ -5341,9 +5982,35 @@ t
 .
 lineno
 =
+t
+.
+endlineno
+=
 lookahead
 .
 lineno
+                    
+if
+hasattr
+(
+lookahead
+'
+lexpos
+'
+)
+:
+                        
+t
+.
+lexpos
+=
+t
+.
+endlexpos
+=
+lookahead
+.
+lexpos
                     
 t
 .
@@ -5365,11 +6032,45 @@ t
 else
 :
                     
+sym
+=
 symstack
 .
 pop
 (
 )
+                    
+#
+-
+-
+!
+TRACKING
+                    
+if
+tracking
+:
+                        
+lookahead
+.
+lineno
+=
+sym
+.
+lineno
+                        
+lookahead
+.
+lexpos
+=
+sym
+.
+lexpos
+                    
+#
+-
+-
+!
+TRACKING
                     
 statestack
 .
@@ -5384,10 +6085,6 @@ statestack
 -
 1
 ]
-#
-Potential
-bug
-fix
                 
 continue
             
@@ -5401,7 +6098,7 @@ here
 raise
 RuntimeError
 (
-"
+'
 yacc
 :
 internal
@@ -5412,8 +6109,16 @@ error
 !
 \
 n
-"
+'
 )
+        
+#
+-
+-
+!
+parsedebug
+-
+end
     
 #
 !
@@ -5517,32 +6222,34 @@ EDIT
 THIS
 CODE
 DIRECTLY
-.
+!
     
 #
-Edit
+This
+code
+is
+automatically
+generated
+by
 the
-debug
-version
-above
-then
-copy
-any
-modifications
+ply
+/
+ygen
+.
+py
+script
+.
+Make
+    
+#
+changes
 to
 the
+parsedebug
+(
+)
 method
-    
-#
-below
-while
-removing
-#
--
--
-!
-DEBUG
-sections
+instead
 .
     
 #
@@ -5636,15 +6343,23 @@ lexer
 None
 debug
 =
-0
+False
 tracking
 =
-0
+False
 tokenfunc
 =
 None
 )
 :
+        
+#
+-
+-
+!
+parseopt
+-
+start
         
 lookahead
 =
@@ -5724,6 +6439,18 @@ self
 .
 )
         
+defaulted_states
+=
+self
+.
+defaulted_states
+#
+Local
+reference
+to
+defaulted
+states
+        
 pslice
 =
 YaccProduction
@@ -5767,11 +6494,10 @@ not
 lexer
 :
             
+from
+.
+import
 lex
-=
-load_ply_lex
-(
-)
             
 lexer
 =
@@ -5830,11 +6556,11 @@ tokenfunc
 is
 None
 :
-           
+            
 #
 Tokenize
 function
-           
+            
 get_token
 =
 lexer
@@ -5843,10 +6569,32 @@ token
         
 else
 :
-           
+            
 get_token
 =
 tokenfunc
+        
+#
+Set
+the
+parser
+(
+)
+token
+method
+(
+sometimes
+used
+in
+error
+recovery
+)
+        
+self
+.
+token
+=
+get_token
         
 #
 Set
@@ -5953,7 +6701,7 @@ state
 0
         
 while
-1
+True
 :
             
 #
@@ -5999,15 +6747,22 @@ the
 lexer
             
 if
+state
 not
-lookahead
+in
+defaulted_states
 :
                 
 if
 not
-lookaheadstack
+lookahead
 :
                     
+if
+not
+lookaheadstack
+:
+                        
 lookahead
 =
 get_token
@@ -6018,10 +6773,10 @@ Get
 the
 next
 token
-                
+                    
 else
 :
-                    
+                        
 lookahead
 =
 lookaheadstack
@@ -6029,18 +6784,18 @@ lookaheadstack
 pop
 (
 )
-                
+                    
 if
 not
 lookahead
 :
-                    
+                        
 lookahead
 =
 YaccSymbol
 (
 )
-                    
+                        
 lookahead
 .
 type
@@ -6048,19 +6803,19 @@ type
 '
 end
 '
-            
+                
 #
 Check
 the
 action
 table
-            
+                
 ltype
 =
 lookahead
 .
 type
-            
+                
 t
 =
 actions
@@ -6072,6 +6827,16 @@ get
 (
 ltype
 )
+            
+else
+:
+                
+t
+=
+defaulted_states
+[
+state
+]
             
 if
 t
@@ -6127,6 +6892,7 @@ shift
 if
 errorcount
 :
+                        
 errorcount
 -
 =
@@ -6228,14 +6994,14 @@ TRACKING
 if
 tracking
 :
-                           
+                            
 t1
 =
 targ
 [
 1
 ]
-                           
+                            
 sym
 .
 lineno
@@ -6243,7 +7009,7 @@ lineno
 t1
 .
 lineno
-                           
+                            
 sym
 .
 lexpos
@@ -6251,7 +7017,7 @@ lexpos
 t1
 .
 lexpos
-                           
+                            
 t1
 =
 targ
@@ -6259,7 +7025,7 @@ targ
 -
 1
 ]
-                           
+                            
 sym
 .
 endlineno
@@ -6267,14 +7033,14 @@ endlineno
 getattr
 (
 t1
-"
+'
 endlineno
-"
+'
 t1
 .
 lineno
 )
-                           
+                            
 sym
 .
 endlexpos
@@ -6282,9 +7048,9 @@ endlexpos
 getattr
 (
 t1
-"
+'
 endlexpos
-"
+'
 t1
 .
 lexpos
@@ -6405,13 +7171,11 @@ plen
 :
 ]
                             
-del
-statestack
-[
--
-plen
-:
-]
+self
+.
+state
+=
+state
                             
 p
 .
@@ -6419,6 +7183,14 @@ callable
 (
 pslice
 )
+                            
+del
+statestack
+[
+-
+plen
+:
+]
                             
 symstack
 .
@@ -6470,17 +7242,49 @@ append
 (
 lookahead
 )
+#
+Save
+the
+current
+lookahead
+token
                             
 symstack
 .
-pop
+extend
 (
+targ
+[
+1
+:
+-
+1
+]
 )
+#
+Put
+the
+production
+slice
+back
+on
+the
+stack
                             
 statestack
 .
 pop
 (
+)
+#
+Pop
+back
+one
+state
+(
+before
+the
+reduce
 )
                             
 state
@@ -6499,6 +7303,14 @@ type
 error
 '
                             
+sym
+.
+value
+=
+'
+error
+'
+                            
 lookahead
 =
 sym
@@ -6511,7 +7323,7 @@ self
 .
 errorok
 =
-0
+False
                         
 continue
                         
@@ -6579,7 +7391,7 @@ TRACKING
 if
 tracking
 :
-                           
+                            
 sym
 .
 lineno
@@ -6587,7 +7399,7 @@ lineno
 lexer
 .
 lineno
-                           
+                            
 sym
 .
 lexpos
@@ -6709,6 +7521,12 @@ special
 slice
 object
                             
+self
+.
+state
+=
+state
+                            
 p
 .
 callable
@@ -6766,17 +7584,27 @@ append
 (
 lookahead
 )
-                            
-symstack
-.
-pop
-(
-)
+#
+Save
+the
+current
+lookahead
+token
                             
 statestack
 .
 pop
 (
+)
+#
+Pop
+back
+one
+state
+(
+before
+the
+reduce
 )
                             
 state
@@ -6795,6 +7623,14 @@ type
 error
 '
                             
+sym
+.
+value
+=
+'
+error
+'
+                            
 lookahead
 =
 sym
@@ -6807,7 +7643,7 @@ self
 .
 errorok
 =
-0
+False
                         
 continue
                         
@@ -6878,20 +7714,23 @@ symstack
 1
 ]
                     
-return
+result
+=
 getattr
 (
 n
-"
+'
 value
-"
+'
 None
 )
+                    
+return
+result
             
 if
 t
-=
-=
+is
 None
 :
                 
@@ -7014,7 +7853,7 @@ self
 .
 errorok
 =
-0
+False
                     
 errtoken
 =
@@ -7046,36 +7885,6 @@ self
 errorfunc
 :
                         
-global
-errok
-token
-restart
-                        
-errok
-=
-self
-.
-errok
-#
-Set
-some
-special
-functions
-available
-in
-error
-recovery
-                        
-token
-=
-get_token
-                        
-restart
-=
-self
-.
-restart
-                        
 if
 errtoken
 and
@@ -7095,23 +7904,22 @@ lexer
 =
 lexer
                         
+self
+.
+state
+=
+state
+                        
 tok
 =
+call_errorfunc
+(
 self
 .
 errorfunc
-(
 errtoken
+self
 )
-                        
-del
-errok
-token
-restart
-#
-Delete
-special
-functions
                         
 if
 self
@@ -7167,11 +7975,12 @@ if
 hasattr
 (
 errtoken
-"
+'
 lineno
-"
+'
 )
 :
+                                
 lineno
 =
 lookahead
@@ -7180,6 +7989,7 @@ lineno
                             
 else
 :
+                                
 lineno
 =
 0
@@ -7194,7 +8004,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Syntax
@@ -7209,7 +8019,7 @@ token
 s
 \
 n
-"
+'
 %
 (
 lineno
@@ -7228,7 +8038,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Syntax
@@ -7237,7 +8047,7 @@ token
 =
 %
 s
-"
+'
 %
 errtoken
 .
@@ -7253,7 +8063,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Parse
@@ -7264,7 +8074,7 @@ input
 EOF
 \
 n
-"
+'
 )
                             
 return
@@ -7491,11 +8301,74 @@ symbol
 and
 continue
                         
+#
+-
+-
+!
+TRACKING
+                        
+if
+tracking
+:
+                            
+sym
+.
+endlineno
+=
+getattr
+(
+lookahead
+'
+lineno
+'
+sym
+.
+lineno
+)
+                            
+sym
+.
+endlexpos
+=
+getattr
+(
+lookahead
+'
+lexpos
+'
+sym
+.
+lexpos
+)
+                        
+#
+-
+-
+!
+TRACKING
+                        
 lookahead
 =
 None
                         
 continue
+                    
+#
+Create
+the
+error
+symbol
+for
+the
+first
+time
+and
+make
+it
+the
+new
+lookahead
+symbol
                     
 t
 =
@@ -7515,9 +8388,9 @@ if
 hasattr
 (
 lookahead
-"
+'
 lineno
-"
+'
 )
 :
                         
@@ -7525,9 +8398,35 @@ t
 .
 lineno
 =
+t
+.
+endlineno
+=
 lookahead
 .
 lineno
+                    
+if
+hasattr
+(
+lookahead
+'
+lexpos
+'
+)
+:
+                        
+t
+.
+lexpos
+=
+t
+.
+endlexpos
+=
+lookahead
+.
+lexpos
                     
 t
 .
@@ -7549,11 +8448,45 @@ t
 else
 :
                     
+sym
+=
 symstack
 .
 pop
 (
 )
+                    
+#
+-
+-
+!
+TRACKING
+                    
+if
+tracking
+:
+                        
+lookahead
+.
+lineno
+=
+sym
+.
+lineno
+                        
+lookahead
+.
+lexpos
+=
+sym
+.
+lexpos
+                    
+#
+-
+-
+!
+TRACKING
                     
 statestack
 .
@@ -7568,10 +8501,6 @@ statestack
 -
 1
 ]
-#
-Potential
-bug
-fix
                 
 continue
             
@@ -7585,7 +8514,7 @@ here
 raise
 RuntimeError
 (
-"
+'
 yacc
 :
 internal
@@ -7596,8 +8525,16 @@ error
 !
 \
 n
-"
+'
 )
+        
+#
+-
+-
+!
+parseopt
+-
+end
     
 #
 !
@@ -7708,23 +8645,32 @@ THIS
 CODE
 DIRECTLY
 .
-Copy
-the
-optimized
-version
-and
-remove
+This
+code
+is
+automatically
+generated
     
 #
-code
-in
+by
 the
-#
--
--
-!
-TRACKING
-sections
+ply
+/
+ygen
+.
+py
+script
+.
+Make
+changes
+to
+the
+parsedebug
+(
+)
+method
+instead
+.
     
 #
 !
@@ -7817,15 +8763,25 @@ lexer
 None
 debug
 =
-0
+False
 tracking
 =
-0
+False
 tokenfunc
 =
 None
 )
 :
+        
+#
+-
+-
+!
+parseopt
+-
+notrack
+-
+start
         
 lookahead
 =
@@ -7905,6 +8861,18 @@ self
 .
 )
         
+defaulted_states
+=
+self
+.
+defaulted_states
+#
+Local
+reference
+to
+defaulted
+states
+        
 pslice
 =
 YaccProduction
@@ -7948,11 +8916,10 @@ not
 lexer
 :
             
+from
+.
+import
 lex
-=
-load_ply_lex
-(
-)
             
 lexer
 =
@@ -8011,11 +8978,11 @@ tokenfunc
 is
 None
 :
-           
+            
 #
 Tokenize
 function
-           
+            
 get_token
 =
 lexer
@@ -8024,10 +8991,32 @@ token
         
 else
 :
-           
+            
 get_token
 =
 tokenfunc
+        
+#
+Set
+the
+parser
+(
+)
+token
+method
+(
+sometimes
+used
+in
+error
+recovery
+)
+        
+self
+.
+token
+=
+get_token
         
 #
 Set
@@ -8134,7 +9123,7 @@ state
 0
         
 while
-1
+True
 :
             
 #
@@ -8180,15 +9169,22 @@ the
 lexer
             
 if
+state
 not
-lookahead
+in
+defaulted_states
 :
                 
 if
 not
-lookaheadstack
+lookahead
 :
                     
+if
+not
+lookaheadstack
+:
+                        
 lookahead
 =
 get_token
@@ -8199,10 +9195,10 @@ Get
 the
 next
 token
-                
+                    
 else
 :
-                    
+                        
 lookahead
 =
 lookaheadstack
@@ -8210,18 +9206,18 @@ lookaheadstack
 pop
 (
 )
-                
+                    
 if
 not
 lookahead
 :
-                    
+                        
 lookahead
 =
 YaccSymbol
 (
 )
-                    
+                        
 lookahead
 .
 type
@@ -8229,19 +9225,19 @@ type
 '
 end
 '
-            
+                
 #
 Check
 the
 action
 table
-            
+                
 ltype
 =
 lookahead
 .
 type
-            
+                
 t
 =
 actions
@@ -8253,6 +9249,16 @@ get
 (
 ltype
 )
+            
+else
+:
+                
+t
+=
+defaulted_states
+[
+state
+]
             
 if
 t
@@ -8308,6 +9314,7 @@ shift
 if
 errorcount
 :
+                        
 errorcount
 -
 =
@@ -8509,13 +9516,11 @@ plen
 :
 ]
                             
-del
-statestack
-[
--
-plen
-:
-]
+self
+.
+state
+=
+state
                             
 p
 .
@@ -8523,6 +9528,14 @@ callable
 (
 pslice
 )
+                            
+del
+statestack
+[
+-
+plen
+:
+]
                             
 symstack
 .
@@ -8574,17 +9587,49 @@ append
 (
 lookahead
 )
+#
+Save
+the
+current
+lookahead
+token
                             
 symstack
 .
-pop
+extend
 (
+targ
+[
+1
+:
+-
+1
+]
 )
+#
+Put
+the
+production
+slice
+back
+on
+the
+stack
                             
 statestack
 .
 pop
 (
+)
+#
+Pop
+back
+one
+state
+(
+before
+the
+reduce
 )
                             
 state
@@ -8603,6 +9648,14 @@ type
 error
 '
                             
+sym
+.
+value
+=
+'
+error
+'
+                            
 lookahead
 =
 sym
@@ -8615,7 +9668,7 @@ self
 .
 errorok
 =
-0
+False
                         
 continue
                         
@@ -8781,6 +9834,12 @@ special
 slice
 object
                             
+self
+.
+state
+=
+state
+                            
 p
 .
 callable
@@ -8838,17 +9897,27 @@ append
 (
 lookahead
 )
-                            
-symstack
-.
-pop
-(
-)
+#
+Save
+the
+current
+lookahead
+token
                             
 statestack
 .
 pop
 (
+)
+#
+Pop
+back
+one
+state
+(
+before
+the
+reduce
 )
                             
 state
@@ -8867,6 +9936,14 @@ type
 error
 '
                             
+sym
+.
+value
+=
+'
+error
+'
+                            
 lookahead
 =
 sym
@@ -8879,7 +9956,7 @@ self
 .
 errorok
 =
-0
+False
                         
 continue
                         
@@ -8950,20 +10027,23 @@ symstack
 1
 ]
                     
-return
+result
+=
 getattr
 (
 n
-"
+'
 value
-"
+'
 None
 )
+                    
+return
+result
             
 if
 t
-=
-=
+is
 None
 :
                 
@@ -9086,7 +10166,7 @@ self
 .
 errorok
 =
-0
+False
                     
 errtoken
 =
@@ -9118,36 +10198,6 @@ self
 errorfunc
 :
                         
-global
-errok
-token
-restart
-                        
-errok
-=
-self
-.
-errok
-#
-Set
-some
-special
-functions
-available
-in
-error
-recovery
-                        
-token
-=
-get_token
-                        
-restart
-=
-self
-.
-restart
-                        
 if
 errtoken
 and
@@ -9167,23 +10217,22 @@ lexer
 =
 lexer
                         
+self
+.
+state
+=
+state
+                        
 tok
 =
+call_errorfunc
+(
 self
 .
 errorfunc
-(
 errtoken
+self
 )
-                        
-del
-errok
-token
-restart
-#
-Delete
-special
-functions
                         
 if
 self
@@ -9239,11 +10288,12 @@ if
 hasattr
 (
 errtoken
-"
+'
 lineno
-"
+'
 )
 :
+                                
 lineno
 =
 lookahead
@@ -9252,6 +10302,7 @@ lineno
                             
 else
 :
+                                
 lineno
 =
 0
@@ -9266,7 +10317,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Syntax
@@ -9281,7 +10332,7 @@ token
 s
 \
 n
-"
+'
 %
 (
 lineno
@@ -9300,7 +10351,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Syntax
@@ -9309,7 +10360,7 @@ token
 =
 %
 s
-"
+'
 %
 errtoken
 .
@@ -9325,7 +10376,7 @@ stderr
 .
 write
 (
-"
+'
 yacc
 :
 Parse
@@ -9336,7 +10387,7 @@ input
 EOF
 \
 n
-"
+'
 )
                             
 return
@@ -9569,6 +10620,23 @@ None
                         
 continue
                     
+#
+Create
+the
+error
+symbol
+for
+the
+first
+time
+and
+make
+it
+the
+new
+lookahead
+symbol
+                    
 t
 =
 YaccSymbol
@@ -9587,9 +10655,9 @@ if
 hasattr
 (
 lookahead
-"
+'
 lineno
-"
+'
 )
 :
                         
@@ -9597,9 +10665,35 @@ t
 .
 lineno
 =
+t
+.
+endlineno
+=
 lookahead
 .
 lineno
+                    
+if
+hasattr
+(
+lookahead
+'
+lexpos
+'
+)
+:
+                        
+t
+.
+lexpos
+=
+t
+.
+endlexpos
+=
+lookahead
+.
+lexpos
                     
 t
 .
@@ -9621,6 +10715,8 @@ t
 else
 :
                     
+sym
+=
 symstack
 .
 pop
@@ -9640,10 +10736,6 @@ statestack
 -
 1
 ]
-#
-Potential
-bug
-fix
                 
 continue
             
@@ -9657,7 +10749,7 @@ here
 raise
 RuntimeError
 (
-"
+'
 yacc
 :
 internal
@@ -9668,8 +10760,18 @@ error
 !
 \
 n
-"
+'
 )
+        
+#
+-
+-
+!
+parseopt
+-
+notrack
+-
+end
 #
 -
 -
@@ -9858,8 +10960,6 @@ grammar
 -
 -
 -
-import
-re
 #
 regex
 matching
@@ -10404,21 +11504,21 @@ self
 .
 str
 =
-"
+'
 %
 s
 -
 >
 %
 s
-"
+'
 %
 (
 self
 .
 name
-"
-"
+'
+'
 .
 join
 (
@@ -10435,7 +11535,7 @@ self
 .
 str
 =
-"
+'
 %
 s
 -
@@ -10443,7 +11543,7 @@ s
 <
 empty
 >
-"
+'
 %
 self
 .
@@ -10469,19 +11569,19 @@ self
 :
         
 return
-"
+'
 Production
 (
-"
+'
 +
 str
 (
 self
 )
 +
-"
+'
 )
-"
+'
     
 def
 __len__
@@ -10559,6 +11659,7 @@ self
 prod
 )
 :
+            
 return
 None
         
@@ -10579,10 +11680,6 @@ productions
 immediately
 following
 .
-Hack
-.
-Remove
-later
         
 try
 :
@@ -10800,13 +11897,13 @@ self
 :
         
 return
-"
+'
 MiniProduction
 (
 %
 s
 )
-"
+'
 %
 self
 .
@@ -11256,9 +12353,9 @@ prod
 insert
 (
 n
-"
+'
 .
-"
+'
 )
         
 self
@@ -11306,21 +12403,21 @@ prod
             
 s
 =
-"
+'
 %
 s
 -
 >
 %
 s
-"
+'
 %
 (
 self
 .
 name
-"
-"
+'
+'
 .
 join
 (
@@ -11335,7 +12432,7 @@ else
             
 s
 =
-"
+'
 %
 s
 -
@@ -11343,7 +12440,7 @@ s
 <
 empty
 >
-"
+'
 %
 self
 .
@@ -11360,19 +12457,19 @@ self
 :
         
 return
-"
+'
 LRItem
 (
-"
+'
 +
 str
 (
 self
 )
 +
-"
+'
 )
-"
+'
 #
 -
 -
@@ -11810,6 +12907,7 @@ GrammarError
 YaccError
 )
 :
+    
 pass
 class
 Grammar
@@ -12072,8 +13170,9 @@ self
 .
 UsedPrecedence
 =
-{
-}
+set
+(
+)
 #
 Precedence
 rules
@@ -12372,7 +13471,7 @@ Productions
 [
 None
 ]
-"
+'
 Must
 call
 set_precedence
@@ -12382,7 +13481,7 @@ before
 add_production
 (
 )
-"
+'
         
 if
 term
@@ -12395,17 +13494,15 @@ Precedence
 raise
 GrammarError
 (
-"
+'
 Precedence
 already
 specified
 for
 terminal
-'
 %
-s
+r
 '
-"
 %
 term
 )
@@ -12789,7 +13886,7 @@ Terminals
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -12799,17 +13896,15 @@ d
 Illegal
 rule
 name
-'
 %
-s
-'
+r
 .
 Already
 defined
 as
 a
 token
-"
+'
 %
 (
 file
@@ -12830,7 +13925,7 @@ error
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -12840,17 +13935,15 @@ d
 Illegal
 rule
 name
-'
 %
-s
-'
+r
 .
 error
 is
 a
 reserved
 word
-"
+'
 %
 (
 file
@@ -12872,7 +13965,7 @@ prodname
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -12882,11 +13975,9 @@ d
 Illegal
 rule
 name
-'
 %
-s
+r
 '
-"
 %
 (
 file
@@ -12923,17 +14014,17 @@ in
 "
 "
 :
-                 
+                
 try
 :
-                     
+                    
 c
 =
 eval
 (
 s
 )
-                     
+                    
 if
 (
 len
@@ -12944,11 +14035,11 @@ c
 1
 )
 :
-                          
+                        
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -12961,18 +14052,17 @@ token
 s
 in
 rule
-'
 %
-s
-'
+r
 may
 only
 be
 a
 single
 character
-"
+'
 %
+                                           
 (
 file
 line
@@ -12980,16 +14070,16 @@ s
 prodname
 )
 )
-                     
+                    
 if
-not
 c
+not
 in
 self
 .
 Terminals
 :
-                          
+                        
 self
 .
 Terminals
@@ -12999,20 +14089,20 @@ c
 =
 [
 ]
-                     
+                    
 syms
 [
 n
 ]
 =
 c
-                     
+                    
 continue
-                 
+                
 except
 SyntaxError
 :
-                     
+                    
 pass
             
 if
@@ -13036,7 +14126,7 @@ prec
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -13045,17 +14135,13 @@ d
 :
 Illegal
 name
-'
 %
-s
-'
+r
 in
 rule
-'
 %
-s
+r
 '
-"
 %
 (
 file
@@ -13097,7 +14183,7 @@ prec
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -13112,7 +14198,7 @@ follows
 %
 %
 prec
-"
+'
 %
 (
 file
@@ -13137,7 +14223,7 @@ prec
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -13160,8 +14246,9 @@ of
 a
 grammar
 rule
-"
+'
 %
+                                   
 (
 file
 line
@@ -13185,7 +14272,6 @@ Precedence
 get
 (
 precname
-None
 )
             
 if
@@ -13196,7 +14282,7 @@ prodprec
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -13209,11 +14295,9 @@ about
 the
 precedence
 of
-'
 %
-s
+r
 '
-"
 %
 (
 file
@@ -13228,11 +14312,11 @@ else
 self
 .
 UsedPrecedence
-[
+.
+add
+(
 precname
-]
-=
-1
+)
             
 del
 syms
@@ -13306,14 +14390,14 @@ rulemap
         
 map
 =
-"
+'
 %
 s
 -
 >
 %
 s
-"
+'
 %
 (
 prodname
@@ -13340,7 +14424,7 @@ map
 raise
 GrammarError
 (
-"
+'
 %
 s
 :
@@ -13352,7 +14436,7 @@ rule
 %
 s
 .
-"
+'
 %
 (
 file
@@ -13361,7 +14445,7 @@ m
 )
 +
                                
-"
+'
 Previous
 definition
 at
@@ -13370,7 +14454,7 @@ s
 :
 %
 d
-"
+'
 %
 (
 m
@@ -13407,8 +14491,8 @@ Productions
 )
         
 if
-not
 prodname
+not
 in
 self
 .
@@ -13465,8 +14549,8 @@ else
 :
                 
 if
-not
 t
+not
 in
 self
 .
@@ -13576,9 +14660,6 @@ prodname
 [
 p
 ]
-        
-return
-0
     
 #
 -
@@ -13813,13 +14894,13 @@ Nonterminals
 raise
 GrammarError
 (
-"
+'
 start
 symbol
 %
 s
 undefined
-"
+'
 %
 start
 )
@@ -14086,30 +15167,19 @@ s
 :
             
 if
+s
+in
 reachable
-[
-s
-]
 :
-                
-#
-We
-'
-ve
-already
-reached
-symbol
-s
-.
                 
 return
             
 reachable
-[
+.
+add
+(
 s
-]
-=
-1
+)
             
 for
 p
@@ -14141,33 +15211,9 @@ r
         
 reachable
 =
-{
-}
-        
-for
-s
-in
-list
+set
 (
-self
-.
-Terminals
 )
-+
-list
-(
-self
-.
-Nonterminals
-)
-:
-            
-reachable
-[
-s
-]
-=
-0
         
 mark_reachable_from
 (
@@ -14190,19 +15236,14 @@ s
 for
 s
 in
-list
-(
 self
 .
 Nonterminals
-)
-                        
 if
-not
-reachable
-[
 s
-]
+not
+in
+reachable
 ]
     
 #
@@ -14438,7 +15479,7 @@ terminates
 t
 ]
 =
-1
+True
         
 terminates
 [
@@ -14447,7 +15488,7 @@ end
 '
 ]
 =
-1
+True
         
 #
 Nonterminals
@@ -14472,7 +15513,7 @@ terminates
 n
 ]
 =
-0
+False
         
 #
 Then
@@ -14484,12 +15525,12 @@ change
 :
         
 while
-1
+True
 :
             
 some_change
 =
-0
+False
             
 for
 (
@@ -14572,7 +15613,7 @@ terminate
                             
 p_terminates
 =
-0
+False
                             
 break
                     
@@ -14604,7 +15645,7 @@ terminates
                         
 p_terminates
 =
-1
+True
                     
 if
 p_terminates
@@ -14629,11 +15670,11 @@ terminates
 n
 ]
 =
-1
+True
                             
 some_change
 =
-1
+True
                         
 #
 Don
@@ -14683,15 +15724,15 @@ term
 :
                 
 if
-not
 s
+not
 in
 self
 .
 Prodnames
 and
-not
 s
+not
 in
 self
 .
@@ -14994,6 +16035,7 @@ if
 not
 p
 :
+                
 continue
             
 for
@@ -15005,15 +16047,15 @@ prod
 :
                 
 if
-not
 s
+not
 in
 self
 .
 Prodnames
 and
-not
 s
+not
 in
 self
 .
@@ -16050,7 +17092,7 @@ beta
             
 x_produces_empty
 =
-0
+False
             
 #
 Add
@@ -16096,7 +17138,7 @@ empty
                     
 x_produces_empty
 =
-1
+True
                 
 else
 :
@@ -16107,6 +17149,7 @@ not
 in
 result
 :
+                        
 result
 .
 append
@@ -16476,12 +17519,12 @@ change
 :
         
 while
-1
+True
 :
             
 some_change
 =
-0
+False
             
 for
 n
@@ -16541,7 +17584,7 @@ f
                             
 some_change
 =
-1
+True
             
 if
 not
@@ -16868,12 +17911,12 @@ end
 ]
         
 while
-1
+True
 :
             
 didadd
 =
-0
+False
             
 for
 p
@@ -16896,26 +17939,15 @@ set
                 
 for
 i
+B
 in
-range
-(
-len
+enumerate
 (
 p
 .
 prod
-)
 )
 :
-                    
-B
-=
-p
-.
-prod
-[
-i
-]
                     
 if
 B
@@ -16957,7 +17989,7 @@ i
                         
 hasempty
 =
-0
+False
                         
 for
 f
@@ -17000,7 +18032,7 @@ f
                                 
 didadd
 =
-1
+True
                             
 if
 f
@@ -17015,7 +18047,7 @@ empty
                                 
 hasempty
 =
-1
+True
                         
 if
 hasempty
@@ -17088,12 +18120,13 @@ f
                                     
 didadd
 =
-1
+True
             
 if
 not
 didadd
 :
+                
 break
         
 return
@@ -17408,7 +18441,7 @@ lr_items
 ]
             
 while
-1
+True
 :
                 
 if
@@ -17515,6 +18548,7 @@ if
 not
 lri
 :
+                    
 break
                 
 lr_items
@@ -17742,6 +18776,7 @@ VersionError
 YaccError
 )
 :
+    
 pass
 class
 LRTable
@@ -17806,60 +18841,24 @@ module
 else
 :
             
-if
-sys
-.
-version_info
-[
-0
-]
-<
-3
-:
-                
 exec
 (
-"
+'
 import
 %
 s
-as
-parsetab
-"
+'
 %
 module
 )
             
-else
-:
-                
-env
-=
-{
-}
-                
-exec
-(
-"
-import
-%
-s
-as
-parsetab
-"
-%
-module
-env
-env
-)
-                
 parsetab
 =
-env
+sys
+.
+modules
 [
-'
-parsetab
-'
+module
 ]
         
 if
@@ -17874,7 +18873,7 @@ __tabversion__
 raise
 VersionError
 (
-"
+'
 yacc
 table
 file
@@ -17883,7 +18882,7 @@ is
 out
 of
 date
-"
+'
 )
         
 self
@@ -17966,14 +18965,29 @@ ImportError
 import
 pickle
         
+if
+not
+os
+.
+path
+.
+exists
+(
+filename
+)
+:
+          
+raise
+ImportError
+        
 in_f
 =
 open
 (
 filename
-"
+'
 rb
-"
+'
 )
         
 tabversion
@@ -17995,7 +19009,7 @@ __tabversion__
 raise
 VersionError
 (
-"
+'
 yacc
 table
 file
@@ -18004,7 +19018,7 @@ is
 out
 of
 date
-"
+'
 )
         
 self
@@ -18585,7 +19599,7 @@ x
 in
 X
 :
-       
+        
 N
 [
 x
@@ -18618,6 +19632,7 @@ x
 =
 0
 :
+            
 traverse
 (
 x
@@ -18717,7 +19732,7 @@ y
 =
 0
 :
-             
+            
 traverse
 (
 y
@@ -18768,6 +19783,7 @@ F
 x
 ]
 :
+                
 F
 [
 x
@@ -18787,7 +19803,7 @@ x
 =
 d
 :
-       
+        
 N
 [
 stack
@@ -18798,7 +19814,7 @@ stack
 ]
 =
 MAXINT
-       
+        
 F
 [
 stack
@@ -18812,7 +19828,7 @@ F
 [
 x
 ]
-       
+        
 element
 =
 stack
@@ -18820,14 +19836,14 @@ stack
 pop
 (
 )
-       
+        
 while
 element
 !
 =
 x
 :
-           
+            
 N
 [
 stack
@@ -18838,7 +19854,7 @@ stack
 ]
 =
 MAXINT
-           
+            
 F
 [
 stack
@@ -18852,7 +19868,7 @@ F
 [
 x
 ]
-           
+            
 element
 =
 stack
@@ -18866,6 +19882,7 @@ LALRError
 YaccError
 )
 :
+    
 pass
 #
 -
@@ -19091,12 +20108,12 @@ LALR
 raise
 LALRError
 (
-"
+'
 Unsupported
 method
 %
 s
-"
+'
 %
 method
 )
@@ -19348,7 +20365,7 @@ I
         
 didadd
 =
-1
+True
         
 while
 didadd
@@ -19356,7 +20373,7 @@ didadd
             
 didadd
 =
-0
+False
             
 for
 j
@@ -19376,9 +20393,9 @@ if
 getattr
 (
 x
-"
+'
 lr0_added
-"
+'
 0
 )
 =
@@ -19387,6 +20404,7 @@ self
 .
 _add_count
 :
+                        
 continue
                     
 #
@@ -19419,7 +20437,7 @@ _add_count
                     
 didadd
 =
-1
+True
         
 return
 J
@@ -19557,12 +20575,12 @@ I
 )
 x
 )
-None
 )
         
 if
 g
 :
+            
 return
 g
         
@@ -19594,7 +20612,6 @@ lr_goto_cache
 get
 (
 x
-None
 )
         
 if
@@ -19654,7 +20671,6 @@ id
 (
 n
 )
-None
 )
                 
 if
@@ -19697,7 +20713,6 @@ get
 '
 end
 '
-None
 )
         
 if
@@ -19926,10 +20941,7 @@ x
 if
 not
 g
-:
-continue
-                
-if
+or
 id
 (
 g
@@ -19939,6 +20951,7 @@ self
 .
 lr0_cidhash
 :
+                    
 continue
                 
 self
@@ -20516,17 +21529,18 @@ self
         
 nullable
 =
-{
-}
+set
+(
+)
         
 num_nullable
 =
 0
         
 while
-1
+True
 :
-           
+            
 for
 p
 in
@@ -20540,7 +21554,7 @@ Productions
 :
 ]
 :
-               
+                
 if
 p
 .
@@ -20551,16 +21565,16 @@ len
 :
                     
 nullable
-[
+.
+add
+(
 p
 .
 name
-]
-=
-1
+)
                     
 continue
-               
+                
 for
 t
 in
@@ -20570,25 +21584,26 @@ prod
 :
                     
 if
-not
 t
+not
 in
 nullable
 :
+                        
 break
-               
+                
 else
 :
                     
 nullable
-[
+.
+add
+(
 p
 .
 name
-]
-=
-1
-           
+)
+            
 if
 len
 (
@@ -20598,8 +21613,9 @@ nullable
 =
 num_nullable
 :
+                
 break
-           
+            
 num_nullable
 =
 len
@@ -20868,33 +21884,28 @@ self
 C
 )
 :
-         
+        
 trans
 =
 [
 ]
-         
+        
 for
+stateno
 state
 in
-range
-(
-len
+enumerate
 (
 C
 )
-)
 :
-             
+            
 for
 p
 in
-C
-[
 state
-]
 :
-                 
+                
 if
 p
 .
@@ -20906,11 +21917,11 @@ len
 -
 1
 :
-                      
+                    
 t
 =
 (
-state
+stateno
 p
 .
 prod
@@ -20922,7 +21933,7 @@ lr_index
 1
 ]
 )
-                      
+                    
 if
 t
 [
@@ -20935,26 +21946,21 @@ grammar
 .
 Nonterminals
 :
-                            
+                        
 if
 t
 not
 in
 trans
 :
+                            
 trans
 .
 append
 (
 t
 )
-             
-state
-=
-state
-+
-1
-         
+        
 return
 trans
     
@@ -21215,7 +22221,7 @@ p
 in
 g
 :
-           
+            
 if
 p
 .
@@ -21227,7 +22233,7 @@ len
 -
 1
 :
-               
+                
 a
 =
 p
@@ -21240,7 +22246,7 @@ lr_index
 +
 1
 ]
-               
+                
 if
 a
 in
@@ -21250,13 +22256,14 @@ grammar
 .
 Terminals
 :
-                   
+                    
 if
 a
 not
 in
 terms
 :
+                        
 terms
 .
 append
@@ -21298,7 +22305,7 @@ prod
 0
 ]
 :
-           
+            
 terms
 .
 append
@@ -21566,7 +22573,7 @@ len
 -
 1
 :
-                 
+                
 a
 =
 p
@@ -21579,13 +22586,13 @@ lr_index
 +
 1
 ]
-                 
+                
 if
 a
 in
 empty
 :
-                      
+                    
 rel
 .
 append
@@ -22097,6 +23104,7 @@ name
 =
 N
 :
+                    
 continue
                 
 #
@@ -22151,13 +23159,13 @@ len
 -
 1
 :
-                     
+                    
 lr_index
 =
 lr_index
 +
 1
-                     
+                    
 t
 =
 p
@@ -22166,7 +23174,7 @@ prod
 [
 lr_index
 ]
-                     
+                    
 #
 Check
 to
@@ -22182,7 +23190,7 @@ non
 -
 terminal
 transition
-                     
+                    
 if
 (
 j
@@ -22191,7 +23199,7 @@ t
 in
 dtrans
 :
-                           
+                        
 #
 Yes
 .
@@ -22206,7 +23214,7 @@ is
 an
 includes
 relation
-                           
+                        
 #
 the
 only
@@ -22221,18 +23229,18 @@ the
 rest
 of
 the
-                           
+                        
 #
 production
 derives
 empty
-                           
+                        
 li
 =
 lr_index
 +
 1
-                           
+                        
 while
 li
 <
@@ -22240,7 +23248,7 @@ p
 .
 len
 :
-                                
+                            
 if
 p
 .
@@ -22255,34 +23263,36 @@ grammar
 .
 Terminals
 :
+                                
 break
 #
 No
 forget
 it
-                                
+                            
 if
-not
 p
 .
 prod
 [
 li
 ]
+not
 in
 nullable
 :
-break
                                 
+break
+                            
 li
 =
 li
 +
 1
-                           
+                        
 else
 :
-                                
+                            
 #
 Appears
 to
@@ -22299,7 +23309,7 @@ and
 state
 N
 )
-                                
+                            
 includes
 .
 append
@@ -22309,7 +23319,7 @@ j
 t
 )
 )
-                     
+                    
 g
 =
 self
@@ -22327,7 +23337,7 @@ Go
 to
 next
 set
-                     
+                    
 j
 =
 self
@@ -22375,7 +23385,7 @@ C
 j
 ]
 :
-                     
+                    
 if
 r
 .
@@ -22386,8 +23396,9 @@ p
 .
 name
 :
+                        
 continue
-                     
+                    
 if
 r
 .
@@ -22398,12 +23409,13 @@ p
 .
 len
 :
+                        
 continue
-                     
+                    
 i
 =
 0
-                     
+                    
 #
 This
 look
@@ -22424,7 +23436,7 @@ B
 C
 .
 "
-                     
+                    
 while
 i
 <
@@ -22432,7 +23444,7 @@ r
 .
 lr_index
 :
-                          
+                        
 if
 r
 .
@@ -22451,17 +23463,18 @@ i
 1
 ]
 :
+                            
 break
-                          
+                        
 i
 =
 i
 +
 1
-                     
+                    
 else
 :
-                          
+                        
 lookb
 .
 append
@@ -22477,13 +23490,14 @@ i
 in
 includes
 :
-                 
+                
 if
-not
 i
+not
 in
 includedict
 :
+                    
 includedict
 [
 i
@@ -22491,7 +23505,7 @@ i
 =
 [
 ]
-                 
+                
 includedict
 [
 i
@@ -23080,7 +24094,7 @@ readsets
 inclsets
 )
 :
-         
+        
 FP
 =
 lambda
@@ -23090,7 +24104,7 @@ readsets
 [
 x
 ]
-         
+        
 R
 =
 lambda
@@ -23104,7 +24118,7 @@ x
 [
 ]
 )
-         
+        
 F
 =
 digraph
@@ -23113,7 +24127,7 @@ ntrans
 R
 FP
 )
-         
+        
 return
 F
     
@@ -23363,16 +24377,16 @@ p
 in
 lb
 :
-                 
+                
 if
-not
 state
+not
 in
 p
 .
 lookaheads
 :
-                      
+                    
 p
 .
 lookaheads
@@ -23382,7 +24396,7 @@ state
 =
 [
 ]
-                 
+                
 f
 =
 followset
@@ -23393,13 +24407,13 @@ trans
 [
 ]
 )
-                 
+                
 for
 a
 in
 f
 :
-                      
+                    
 if
 a
 not
@@ -23411,6 +24425,7 @@ lookaheads
 state
 ]
 :
+                        
 p
 .
 lookaheads
@@ -23960,13 +24975,13 @@ log
 .
 info
 (
-"
+'
 Parsing
 method
 :
 %
 s
-"
+'
 self
 .
 lr_method
@@ -24084,19 +25099,19 @@ log
 .
 info
 (
-"
-"
+'
+'
 )
             
 log
 .
 info
 (
-"
+'
 state
 %
 d
-"
+'
 st
 )
             
@@ -24104,8 +25119,8 @@ log
 .
 info
 (
-"
-"
+'
+'
 )
             
 for
@@ -24118,29 +25133,26 @@ log
 .
 info
 (
-"
+'
 (
 %
 d
 )
 %
 s
-"
+'
 p
 .
 number
-str
-(
 p
-)
 )
             
 log
 .
 info
 (
-"
-"
+'
+'
 )
             
 for
@@ -24183,18 +25195,18 @@ Accept
                             
 st_action
 [
-"
+'
 end
-"
+'
 ]
 =
 0
                             
 st_actionp
 [
-"
+'
 end
-"
+'
 ]
 =
 p
@@ -24264,7 +25276,7 @@ append
 (
 a
 p
-"
+'
 reduce
 using
 rule
@@ -24274,7 +25286,7 @@ d
 %
 s
 )
-"
+'
 %
 (
 p
@@ -24292,7 +25304,6 @@ st_action
 get
 (
 a
-None
 )
                                 
 if
@@ -24350,23 +25361,16 @@ rules
 here
 .
                                         
+#
+Shift
+precedence
+comes
+from
+the
+token
+                                        
 sprec
 slevel
-=
-Productions
-[
-st_actionp
-[
-a
-]
-.
-number
-]
-.
-prec
-                                        
-rprec
-rlevel
 =
 Precedence
 .
@@ -24380,6 +25384,30 @@ right
 0
 )
 )
+                                        
+#
+Reduce
+precedence
+comes
+from
+rule
+being
+reduced
+(
+p
+)
+                                        
+rprec
+rlevel
+=
+Productions
+[
+p
+.
+number
+]
+.
+prec
                                         
 if
 (
@@ -24445,7 +25473,7 @@ log
 .
 info
 (
-"
+'
 !
 shift
 /
@@ -24457,7 +25485,7 @@ s
 resolved
 as
 reduce
-"
+'
 a
 )
                                                 
@@ -24536,7 +25564,7 @@ log
 .
 info
 (
-"
+'
 !
 shift
 /
@@ -24548,7 +25576,7 @@ s
 resolved
 as
 shift
-"
+'
 a
 )
                                                 
@@ -24697,7 +25725,7 @@ log
 .
 info
 (
-"
+'
 !
 reduce
 /
@@ -24715,7 +25743,8 @@ d
 %
 s
 )
-"
+'
+                                                 
 a
 st_actionp
 [
@@ -24735,14 +25764,14 @@ else
 raise
 LALRError
 (
-"
+'
 Unknown
 conflict
 in
 state
 %
 d
-"
+'
 %
 st
 )
@@ -24866,7 +25895,7 @@ append
 (
 a
 p
-"
+'
 shift
 and
 go
@@ -24874,7 +25903,7 @@ to
 state
 %
 d
-"
+'
 %
 j
 )
@@ -24887,7 +25916,6 @@ st_action
 get
 (
 a
-None
 )
                                 
 if
@@ -24926,7 +25954,7 @@ j
 raise
 LALRError
 (
-"
+'
 Shift
 /
 shift
@@ -24935,7 +25963,7 @@ in
 state
 %
 d
-"
+'
 %
 st
 )
@@ -24987,20 +26015,13 @@ otherwise
 we
 shift
                                         
-rprec
-rlevel
-=
-Productions
-[
-st_actionp
-[
-a
-]
-.
-number
-]
-.
-prec
+#
+Shift
+precedence
+comes
+from
+the
+token
                                         
 sprec
 slevel
@@ -25017,6 +26038,34 @@ right
 0
 )
 )
+                                        
+#
+Reduce
+precedence
+comes
+from
+the
+rule
+that
+could
+have
+been
+reduced
+                                        
+rprec
+rlevel
+=
+Productions
+[
+st_actionp
+[
+a
+]
+.
+number
+]
+.
+prec
                                         
 if
 (
@@ -25096,7 +26145,7 @@ log
 .
 info
 (
-"
+'
 !
 shift
 /
@@ -25108,7 +26157,7 @@ s
 resolved
 as
 shift
-"
+'
 a
 )
                                                 
@@ -25178,7 +26227,7 @@ log
 .
 info
 (
-"
+'
 !
 shift
 /
@@ -25190,7 +26239,7 @@ s
 resolved
 as
 reduce
-"
+'
 a
 )
                                                 
@@ -25215,14 +26264,14 @@ else
 raise
 LALRError
 (
-"
+'
 Unknown
 conflict
 in
 state
 %
 d
-"
+'
 %
 st
 )
@@ -25285,13 +26334,13 @@ log
 .
 info
 (
-"
+'
 %
 -
 15s
 %
 s
-"
+'
 a
 m
 )
@@ -25310,8 +26359,8 @@ log
 .
 info
 (
-"
-"
+'
+'
 )
             
 #
@@ -25369,7 +26418,7 @@ log
 .
 debug
 (
-"
+'
 !
 %
 -
@@ -25378,7 +26427,7 @@ debug
 %
 s
 ]
-"
+'
 a
 m
 )
@@ -25405,8 +26454,8 @@ log
 .
 debug
 (
-"
-"
+'
+'
 )
             
 #
@@ -25504,7 +26553,7 @@ log
 .
 info
 (
-"
+'
 %
 -
 30s
@@ -25515,7 +26564,7 @@ to
 state
 %
 d
-"
+'
 n
 j
 )
@@ -25727,27 +26776,50 @@ def
 write_table
 (
 self
-modulename
+tabmodule
 outputdir
 =
 '
 '
 signature
 =
-"
-"
+'
+'
 )
 :
         
+if
+isinstance
+(
+tabmodule
+types
+.
+ModuleType
+)
+:
+            
+raise
+IOError
+(
+"
+Won
+'
+t
+overwrite
+existing
+tabmodule
+"
+)
+        
 basemodulename
 =
-modulename
+tabmodule
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 -
@@ -25766,10 +26838,10 @@ outputdir
 basemodulename
 )
 +
-"
+'
 .
 py
-"
+'
         
 try
 :
@@ -25779,18 +26851,18 @@ f
 open
 (
 filename
-"
+'
 w
-"
+'
 )
             
 f
 .
 write
 (
-"
-"
-"
+'
+'
+'
 #
 %
 s
@@ -25818,12 +26890,19 @@ _lr_signature
 %
 r
     
-"
-"
-"
+'
+'
+'
 %
 (
+os
+.
+path
+.
+basename
+(
 filename
+)
 __tabversion__
 self
 .
@@ -25879,7 +26958,7 @@ items
 (
 )
 :
-                   
+                    
 for
 name
 v
@@ -25890,7 +26969,7 @@ items
 (
 )
 :
-                      
+                        
 i
 =
 items
@@ -25899,12 +26978,12 @@ get
 (
 name
 )
-                      
+                        
 if
 not
 i
 :
-                         
+                            
 i
 =
 (
@@ -25913,14 +26992,14 @@ i
 [
 ]
 )
-                         
+                            
 items
 [
 name
 ]
 =
 i
-                      
+                        
 i
 [
 0
@@ -25930,7 +27009,7 @@ append
 (
 s
 )
-                      
+                        
 i
 [
 1
@@ -25945,12 +27024,12 @@ f
 .
 write
 (
-"
+'
 \
 n_lr_action_items
 =
 {
-"
+'
 )
                 
 for
@@ -25968,13 +27047,13 @@ f
 .
 write
 (
-"
+'
 %
 r
 :
 (
 [
-"
+'
 %
 k
 )
@@ -25992,10 +27071,10 @@ f
 .
 write
 (
-"
+'
 %
 r
-"
+'
 %
 i
 )
@@ -26004,10 +27083,10 @@ f
 .
 write
 (
-"
+'
 ]
 [
-"
+'
 )
                     
 for
@@ -26023,10 +27102,10 @@ f
 .
 write
 (
-"
+'
 %
 r
-"
+'
 %
 i
 )
@@ -26035,30 +27114,30 @@ f
 .
 write
 (
-"
+'
 ]
 )
-"
+'
 )
                 
 f
 .
 write
 (
-"
+'
 }
 \
 n
-"
+'
 )
                 
 f
 .
 write
 (
-"
-"
-"
+'
+'
+'
 _lr_action
 =
 {
@@ -26116,9 +27195,9 @@ _k
 _y
 del
 _lr_action_items
-"
-"
-"
+'
+'
+'
 )
             
 else
@@ -26128,14 +27207,13 @@ f
 .
 write
 (
-"
+'
 \
 n_lr_action
 =
 {
-"
+'
 )
-;
                 
 for
 k
@@ -26154,7 +27232,7 @@ f
 .
 write
 (
-"
+'
 (
 %
 r
@@ -26164,7 +27242,7 @@ r
 :
 %
 r
-"
+'
 %
 (
 k
@@ -26183,13 +27261,12 @@ f
 .
 write
 (
-"
+'
 }
 \
 n
-"
+'
 )
-;
             
 if
 smaller
@@ -26222,7 +27299,7 @@ items
 (
 )
 :
-                   
+                    
 for
 name
 v
@@ -26233,7 +27310,7 @@ items
 (
 )
 :
-                      
+                        
 i
 =
 items
@@ -26242,12 +27319,12 @@ get
 (
 name
 )
-                      
+                        
 if
 not
 i
 :
-                         
+                            
 i
 =
 (
@@ -26256,14 +27333,14 @@ i
 [
 ]
 )
-                         
+                            
 items
 [
 name
 ]
 =
 i
-                      
+                        
 i
 [
 0
@@ -26273,7 +27350,7 @@ append
 (
 s
 )
-                      
+                        
 i
 [
 1
@@ -26288,12 +27365,12 @@ f
 .
 write
 (
-"
+'
 \
 n_lr_goto_items
 =
 {
-"
+'
 )
                 
 for
@@ -26311,13 +27388,13 @@ f
 .
 write
 (
-"
+'
 %
 r
 :
 (
 [
-"
+'
 %
 k
 )
@@ -26335,10 +27412,10 @@ f
 .
 write
 (
-"
+'
 %
 r
-"
+'
 %
 i
 )
@@ -26347,10 +27424,10 @@ f
 .
 write
 (
-"
+'
 ]
 [
-"
+'
 )
                     
 for
@@ -26366,10 +27443,10 @@ f
 .
 write
 (
-"
+'
 %
 r
-"
+'
 %
 i
 )
@@ -26378,30 +27455,30 @@ f
 .
 write
 (
-"
+'
 ]
 )
-"
+'
 )
                 
 f
 .
 write
 (
-"
+'
 }
 \
 n
-"
+'
 )
                 
 f
 .
 write
 (
-"
-"
-"
+'
+'
+'
 _lr_goto
 =
 {
@@ -26459,9 +27536,9 @@ _k
 _y
 del
 _lr_goto_items
-"
-"
-"
+'
+'
+'
 )
             
 else
@@ -26471,14 +27548,13 @@ f
 .
 write
 (
-"
+'
 \
 n_lr_goto
 =
 {
-"
+'
 )
-;
                 
 for
 k
@@ -26497,7 +27573,7 @@ f
 .
 write
 (
-"
+'
 (
 %
 r
@@ -26507,7 +27583,7 @@ r
 :
 %
 r
-"
+'
 %
 (
 k
@@ -26526,13 +27602,12 @@ f
 .
 write
 (
-"
+'
 }
 \
 n
-"
+'
 )
-;
             
 #
 Write
@@ -26543,13 +27618,13 @@ f
 .
 write
 (
-"
+'
 _lr_productions
 =
 [
 \
 n
-"
+'
 )
             
 for
@@ -26570,7 +27645,7 @@ f
 .
 write
 (
-"
+'
 (
 %
 r
@@ -26587,7 +27662,7 @@ d
 )
 \
 n
-"
+'
 %
 (
 p
@@ -26599,12 +27674,20 @@ name
 p
 .
 len
+                                                          
 p
 .
 func
+os
+.
+path
+.
+basename
+(
 p
 .
 file
+)
 p
 .
 line
@@ -26618,7 +27701,7 @@ f
 .
 write
 (
-"
+'
 (
 %
 r
@@ -26632,7 +27715,7 @@ None
 )
 \
 n
-"
+'
 %
 (
 str
@@ -26652,11 +27735,11 @@ f
 .
 write
 (
-"
+'
 ]
 \
 n
-"
+'
 )
             
 f
@@ -26667,58 +27750,11 @@ close
         
 except
 IOError
+as
+e
 :
             
-e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
-            
-sys
-.
-stderr
-.
-write
-(
-"
-Unable
-to
-create
-'
-%
-s
-'
-\
-n
-"
-%
-filename
-)
-            
-sys
-.
-stderr
-.
-write
-(
-str
-(
-e
-)
-+
-"
-\
-n
-"
-)
-            
-return
+raise
     
 #
 -
@@ -26906,8 +27942,8 @@ self
 filename
 signature
 =
-"
-"
+'
+'
 )
 :
         
@@ -26926,16 +27962,18 @@ ImportError
 import
 pickle
         
-outf
-=
+with
 open
 (
 filename
-"
+'
 wb
-"
+'
 )
-        
+as
+outf
+:
+            
 pickle
 .
 dump
@@ -26944,7 +27982,7 @@ __tabversion__
 outf
 pickle_protocol
 )
-        
+            
 pickle
 .
 dump
@@ -26955,7 +27993,7 @@ lr_method
 outf
 pickle_protocol
 )
-        
+            
 pickle
 .
 dump
@@ -26964,7 +28002,7 @@ signature
 outf
 pickle_protocol
 )
-        
+            
 pickle
 .
 dump
@@ -26975,7 +28013,7 @@ lr_action
 outf
 pickle_protocol
 )
-        
+            
 pickle
 .
 dump
@@ -26986,12 +28024,12 @@ lr_goto
 outf
 pickle_protocol
 )
-        
+            
 outp
 =
 [
 ]
-        
+            
 for
 p
 in
@@ -26999,13 +28037,13 @@ self
 .
 lr_productions
 :
-            
+                
 if
 p
 .
 func
 :
-                
+                    
 outp
 .
 append
@@ -27023,18 +28061,25 @@ len
 p
 .
 func
+os
+.
+path
+.
+basename
+(
 p
 .
 file
+)
 p
 .
 line
 )
 )
-            
+                
 else
 :
-                
+                    
 outp
 .
 append
@@ -27055,7 +28100,7 @@ None
 None
 )
 )
-        
+            
 pickle
 .
 dump
@@ -27063,12 +28108,6 @@ dump
 outp
 outf
 pickle_protocol
-)
-        
-outf
-.
-close
-(
 )
 #
 -
@@ -27469,49 +28508,15 @@ levels
 )
 :
     
-try
-:
-        
-raise
-RuntimeError
-    
-except
-RuntimeError
-:
-        
-e
-b
-t
+f
 =
 sys
 .
-exc_info
+_getframe
 (
+levels
 )
-        
-f
-=
-t
-.
-tb_frame
-        
-while
-levels
->
-0
-:
-            
-f
-=
-f
-.
-f_back
-            
-levels
--
-=
-1
-        
+    
 ldict
 =
 f
@@ -27521,7 +28526,7 @@ f_globals
 copy
 (
 )
-        
+    
 if
 f
 .
@@ -27532,7 +28537,7 @@ f
 .
 f_locals
 :
-            
+        
 ldict
 .
 update
@@ -27541,7 +28546,7 @@ f
 .
 f_locals
 )
-        
+    
 return
 ldict
 #
@@ -27780,6 +28785,7 @@ if
 not
 p
 :
+            
 continue
         
 try
@@ -27943,7 +28949,7 @@ Exception
 raise
 SyntaxError
 (
-"
+'
 %
 s
 :
@@ -27954,11 +28960,9 @@ Syntax
 error
 in
 rule
-'
 %
-s
+r
 '
-"
 %
 (
 file
@@ -28202,10 +29206,11 @@ None
         
 self
 .
-files
+modules
 =
-{
-}
+set
+(
+)
         
 self
 .
@@ -28218,7 +29223,7 @@ self
 .
 error
 =
-0
+False
         
 if
 log
@@ -28337,7 +29342,7 @@ validate_pfunctions
         
 self
 .
-validate_files
+validate_modules
 (
 )
         
@@ -28361,31 +29366,13 @@ self
 )
 :
         
-try
-:
-            
-from
-hashlib
-import
-md5
-        
-except
-ImportError
-:
-            
-from
-md5
-import
-md5
-        
-try
-:
-            
-sig
+parts
 =
-md5
-(
-)
+[
+]
+        
+try
+:
             
 if
 self
@@ -28393,22 +29380,13 @@ self
 start
 :
                 
-sig
+parts
 .
-update
+append
 (
 self
 .
 start
-.
-encode
-(
-'
-latin
--
-1
-'
-)
 )
             
 if
@@ -28417,18 +29395,18 @@ self
 prec
 :
                 
-sig
+parts
 .
-update
+append
 (
-"
-"
+'
+'
 .
 join
 (
 [
-"
-"
+'
+'
 .
 join
 (
@@ -28442,15 +29420,6 @@ self
 prec
 ]
 )
-.
-encode
-(
-'
-latin
--
-1
-'
-)
 )
             
 if
@@ -28459,27 +29428,18 @@ self
 tokens
 :
                 
-sig
+parts
 .
-update
+append
 (
-"
-"
+'
+'
 .
 join
 (
 self
 .
 tokens
-)
-.
-encode
-(
-'
-latin
--
-1
-'
 )
 )
             
@@ -28498,23 +29458,14 @@ f
 ]
 :
                     
-sig
+parts
 .
-update
+append
 (
 f
 [
 3
 ]
-.
-encode
-(
-'
-latin
--
-1
-'
-)
 )
         
 except
@@ -28527,10 +29478,12 @@ ValueError
 pass
         
 return
-sig
+'
+'
 .
-digest
+join
 (
+parts
 )
     
 #
@@ -28613,7 +29566,7 @@ digest
 -
     
 #
-validate_file
+validate_modules
 (
 )
     
@@ -28790,7 +29743,7 @@ duplicates
 -
     
 def
-validate_files
+validate_modules
 (
 self
 )
@@ -28836,73 +29789,24 @@ Z_0
 )
         
 for
-filename
+module
 in
 self
 .
-files
-.
-keys
-(
-)
+modules
 :
-            
-base
-ext
-=
-os
-.
-path
-.
-splitext
-(
-filename
-)
-            
-if
-ext
-!
-=
-'
-.
-py
-'
-:
-return
-1
-#
-No
-idea
-.
-Assume
-it
-'
-s
-okay
-.
             
 try
 :
                 
-f
-=
-open
-(
-filename
-)
-                
 lines
+linen
 =
-f
+inspect
 .
-readlines
+getsourcelines
 (
-)
-                
-f
-.
-close
-(
+module
 )
             
 except
@@ -28918,7 +29822,7 @@ counthash
             
 for
 linen
-l
+line
 in
 enumerate
 (
@@ -28937,7 +29841,7 @@ fre
 .
 match
 (
-l
+line
 )
                 
 if
@@ -28977,13 +29881,22 @@ linen
 else
 :
                         
+filename
+=
+inspect
+.
+getsourcefile
+(
+module
+)
+                        
 self
 .
 log
 .
 warning
 (
-"
+'
 %
 s
 :
@@ -29001,7 +29914,8 @@ on
 line
 %
 d
-"
+'
+                                         
 filename
 linen
 name
@@ -29065,7 +29979,7 @@ isinstance
 self
 .
 start
-str
+string_types
 )
 :
                 
@@ -29193,57 +30107,67 @@ self
 .
 error
 =
-1
+True
                 
 return
             
 eline
 =
-func_code
-(
 self
 .
 error_func
-)
+.
+__code__
 .
 co_firstlineno
             
 efile
 =
-func_code
-(
 self
 .
 error_func
-)
+.
+__code__
 .
 co_filename
             
-self
-.
-files
-[
-efile
-]
+module
 =
-1
-            
-if
-(
-func_code
+inspect
+.
+getmodule
 (
 self
 .
 error_func
 )
+            
+self
+.
+modules
+.
+add
+(
+module
+)
+            
+argcount
+=
+self
+.
+error_func
+.
+__code__
 .
 co_argcount
+-
+ismethod
+            
+if
+argcount
 !
 =
 1
-+
-ismethod
-)
 :
                 
 self
@@ -29252,7 +30176,7 @@ log
 .
 error
 (
-"
+'
 %
 s
 :
@@ -29265,7 +30189,7 @@ p_error
 requires
 1
 argument
-"
+'
 efile
 eline
 )
@@ -29274,7 +30198,7 @@ self
 .
 error
 =
-1
+True
     
 #
 Get
@@ -29297,10 +30221,9 @@ pdict
 .
 get
 (
-"
+'
 tokens
-"
-None
+'
 )
         
 if
@@ -29314,20 +30237,20 @@ log
 .
 error
 (
-"
+'
 No
 token
 list
 is
 defined
-"
+'
 )
             
 self
 .
 error
 =
-1
+True
             
 return
         
@@ -29349,7 +30272,7 @@ log
 .
 error
 (
-"
+'
 tokens
 must
 be
@@ -29357,14 +30280,14 @@ a
 list
 or
 tuple
-"
+'
 )
             
 self
 .
 error
 =
-1
+True
             
 return
         
@@ -29379,18 +30302,18 @@ log
 .
 error
 (
-"
+'
 tokens
 is
 empty
-"
+'
 )
             
 self
 .
 error
 =
-1
+True
             
 return
         
@@ -29453,14 +30376,15 @@ self
 .
 error
 =
-1
+True
             
 return
         
 terminals
 =
-{
-}
+set
+(
+)
         
 for
 n
@@ -29482,24 +30406,22 @@ log
 .
 warning
 (
-"
+'
 Token
-'
 %
-s
-'
+r
 multiply
 defined
-"
+'
 n
 )
             
 terminals
-[
+.
+add
+(
 n
-]
-=
-1
+)
     
 #
 Get
@@ -29528,10 +30450,9 @@ pdict
 .
 get
 (
-"
+'
 precedence
-"
-None
+'
 )
     
 #
@@ -29580,7 +30501,7 @@ log
 .
 error
 (
-"
+'
 precedence
 must
 be
@@ -29588,14 +30509,14 @@ a
 list
 or
 tuple
-"
+'
 )
                 
 self
 .
 error
 =
-1
+True
                 
 return
             
@@ -29629,18 +30550,18 @@ log
 .
 error
 (
-"
+'
 Bad
 precedence
 table
-"
+'
 )
                     
 self
 .
 error
 =
-1
+True
                     
 return
                 
@@ -29659,7 +30580,7 @@ log
 .
 error
 (
-"
+'
 Malformed
 precedence
 entry
@@ -29676,7 +30597,7 @@ term
 .
 term
 )
-"
+'
 p
 )
                     
@@ -29684,7 +30605,7 @@ self
 .
 error
 =
-1
+True
                     
 return
                 
@@ -29700,7 +30621,7 @@ not
 isinstance
 (
 assoc
-str
+string_types
 )
 :
                     
@@ -29710,21 +30631,21 @@ log
 .
 error
 (
-"
+'
 precedence
 associativity
 must
 be
 a
 string
-"
+'
 )
                     
 self
 .
 error
 =
-1
+True
                     
 return
                 
@@ -29743,7 +30664,7 @@ not
 isinstance
 (
 term
-str
+string_types
 )
 :
                         
@@ -29753,20 +30674,20 @@ log
 .
 error
 (
-"
+'
 precedence
 items
 must
 be
 strings
-"
+'
 )
                         
 self
 .
 error
 =
-1
+True
                         
 return
                     
@@ -29823,20 +30744,16 @@ items
 :
             
 if
+not
 name
-[
-:
-2
-]
-!
-=
+.
+startswith
+(
 '
 p_
 '
-:
-continue
-            
-if
+)
+or
 name
 =
 =
@@ -29844,6 +30761,7 @@ name
 p_error
 '
 :
+                
 continue
             
 if
@@ -29863,21 +30781,27 @@ MethodType
                 
 line
 =
-func_code
+getattr
 (
 item
-)
+'
+co_firstlineno
+'
+item
+.
+__code__
 .
 co_firstlineno
+)
                 
-file
+module
 =
-func_code
+inspect
+.
+getmodule
 (
 item
 )
-.
-co_filename
                 
 p_functions
 .
@@ -29885,7 +30809,7 @@ append
 (
 (
 line
-file
+module
 name
 item
 .
@@ -29902,11 +30826,64 @@ actions
 by
 line
 number
+;
+make
+sure
+to
+stringify
+        
+#
+modules
+to
+make
+them
+sortable
+since
+line
+may
+not
+uniquely
+sort
+all
+        
+#
+p
+functions
         
 p_functions
 .
 sort
 (
+key
+=
+lambda
+p_function
+:
+(
+            
+p_function
+[
+0
+]
+            
+str
+(
+p_function
+[
+1
+]
+)
+            
+p_function
+[
+2
+]
+            
+p_function
+[
+3
+]
+)
 )
         
 self
@@ -29960,7 +30937,7 @@ log
 .
 error
 (
-"
+'
 no
 rules
 of
@@ -29969,20 +30946,20 @@ form
 p_rulename
 are
 defined
-"
+'
 )
             
 self
 .
 error
 =
-1
+True
             
 return
         
 for
 line
-file
+module
 name
 doc
 in
@@ -29990,6 +30967,15 @@ self
 .
 pfuncs
 :
+            
+file
+=
+inspect
+.
+getsourcefile
+(
+module
+)
             
 func
 =
@@ -30022,10 +31008,9 @@ reqargs
 1
             
 if
-func_code
-(
 func
-)
+.
+__code__
 .
 co_argcount
 >
@@ -30038,7 +31023,7 @@ log
 .
 error
 (
-"
+'
 %
 s
 :
@@ -30046,15 +31031,13 @@ s
 d
 :
 Rule
-'
 %
-s
-'
+r
 has
 too
 many
 arguments
-"
+'
 file
 line
 func
@@ -30066,13 +31049,12 @@ self
 .
 error
 =
-1
+True
             
 elif
-func_code
-(
 func
-)
+.
+__code__
 .
 co_argcount
 <
@@ -30085,7 +31067,7 @@ log
 .
 error
 (
-"
+'
 %
 s
 :
@@ -30093,14 +31075,12 @@ s
 d
 :
 Rule
-'
 %
-s
-'
+r
 requires
 an
 argument
-"
+'
 file
 line
 func
@@ -30112,7 +31092,7 @@ self
 .
 error
 =
-1
+True
             
 elif
 not
@@ -30127,7 +31107,7 @@ log
 .
 warning
 (
-"
+'
 %
 s
 :
@@ -30140,14 +31120,13 @@ string
 specified
 in
 function
-'
 %
-s
-'
+r
 (
 ignored
 )
-"
+'
+                                 
 file
 line
 func
@@ -30188,18 +31167,9 @@ g
                 
 except
 SyntaxError
-:
-                    
+as
 e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
                     
 self
 .
@@ -30217,7 +31187,7 @@ self
 .
 error
 =
-1
+True
                 
 #
 Looks
@@ -30238,12 +31208,12 @@ defined
                 
 self
 .
-files
-[
-file
-]
-=
-1
+modules
+.
+add
+(
+module
+)
         
 #
 Secondary
@@ -30287,16 +31257,13 @@ items
             
 if
 n
-[
-0
-:
-2
-]
-=
-=
+.
+startswith
+(
 '
 p_
 '
+)
 and
 isinstance
 (
@@ -30311,35 +31278,31 @@ MethodType
 )
 )
 :
+                
 continue
             
 if
 n
-[
-0
-:
-2
-]
-=
-=
+.
+startswith
+(
 '
 t_
 '
+)
 :
+                
 continue
             
 if
 n
-[
-0
-:
-2
-]
-=
-=
+.
+startswith
+(
 '
 p_
 '
+)
 and
 n
 !
@@ -30355,17 +31318,15 @@ log
 .
 warning
 (
-"
 '
 %
-s
-'
+r
 not
 defined
 as
 a
 function
-"
+'
 n
 )
             
@@ -30380,10 +31341,9 @@ types
 FunctionType
 )
 and
-func_code
-(
 v
-)
+.
+__code__
 .
 co_argcount
 =
@@ -30391,7 +31351,7 @@ co_argcount
 1
 )
 or
-                
+                   
 (
 isinstance
 (
@@ -30401,10 +31361,11 @@ types
 MethodType
 )
 and
-func_code
-(
 v
-)
+.
+__func__
+.
+__code__
 .
 co_argcount
 =
@@ -30414,9 +31375,15 @@ co_argcount
 )
 :
                 
-try
+if
+v
+.
+__doc__
 :
                     
+try
+:
+                        
 doc
 =
 v
@@ -30425,10 +31392,10 @@ __doc__
 .
 split
 (
-"
-"
+'
+'
 )
-                    
+                        
 if
 doc
 [
@@ -30440,14 +31407,14 @@ doc
 :
 '
 :
-                        
+                            
 self
 .
 log
 .
 warning
 (
-"
+'
 %
 s
 :
@@ -30457,35 +31424,31 @@ d
 Possible
 grammar
 rule
-'
 %
-s
-'
+r
 defined
 without
 p_
 prefix
-"
-                                         
-func_code
-(
+'
+                                             
 v
-)
+.
+__code__
 .
 co_filename
-func_code
-(
 v
-)
+.
+__code__
 .
 co_firstlineno
 n
 )
-                
-except
-Exception
-:
                     
+except
+IndexError
+:
+                        
 pass
         
 self
@@ -30682,21 +31645,20 @@ None
          
 check_recursion
 =
-1
+True
 optimize
 =
-0
+False
 write_tables
 =
-1
+True
 debugfile
 =
 debug_file
+         
 outputdir
 =
-'
-'
-         
+None
 debuglog
 =
 None
@@ -30709,8 +31671,16 @@ None
 )
 :
     
-global
-parse
+if
+tabmodule
+is
+None
+:
+        
+tabmodule
+=
+tab_module
+    
 #
 Reference
 to
@@ -30722,6 +31692,9 @@ the
 last
 built
 parser
+    
+global
+parse
     
 #
 If
@@ -30797,6 +31770,52 @@ dict
 (
 _items
 )
+        
+#
+If
+no
+__file__
+attribute
+is
+available
+try
+to
+obtain
+it
+from
+the
+__module__
+instead
+        
+if
+'
+__file__
+'
+not
+in
+pdict
+:
+            
+pdict
+[
+'
+__file__
+'
+]
+=
+sys
+.
+modules
+[
+pdict
+[
+'
+__module__
+'
+]
+]
+.
+__file__
     
 else
 :
@@ -30807,6 +31826,267 @@ get_caller_module_dict
 (
 2
 )
+    
+if
+outputdir
+is
+None
+:
+        
+#
+If
+no
+output
+directory
+is
+set
+the
+location
+of
+the
+output
+files
+        
+#
+is
+determined
+according
+to
+the
+following
+rules
+:
+        
+#
+-
+If
+tabmodule
+specifies
+a
+package
+files
+go
+into
+that
+package
+directory
+        
+#
+-
+Otherwise
+files
+go
+in
+the
+same
+directory
+as
+the
+specifying
+module
+        
+if
+isinstance
+(
+tabmodule
+types
+.
+ModuleType
+)
+:
+            
+srcfile
+=
+tabmodule
+.
+__file__
+        
+else
+:
+            
+if
+'
+.
+'
+not
+in
+tabmodule
+:
+                
+srcfile
+=
+pdict
+[
+'
+__file__
+'
+]
+            
+else
+:
+                
+parts
+=
+tabmodule
+.
+split
+(
+'
+.
+'
+)
+                
+pkgname
+=
+'
+.
+'
+.
+join
+(
+parts
+[
+:
+-
+1
+]
+)
+                
+exec
+(
+'
+import
+%
+s
+'
+%
+pkgname
+)
+                
+srcfile
+=
+getattr
+(
+sys
+.
+modules
+[
+pkgname
+]
+'
+__file__
+'
+'
+'
+)
+        
+outputdir
+=
+os
+.
+path
+.
+dirname
+(
+srcfile
+)
+    
+#
+Determine
+if
+the
+module
+is
+package
+of
+a
+package
+or
+not
+.
+    
+#
+If
+so
+fix
+the
+tabmodule
+setting
+so
+that
+tables
+load
+correctly
+    
+pkg
+=
+pdict
+.
+get
+(
+'
+__package__
+'
+)
+    
+if
+pkg
+and
+isinstance
+(
+tabmodule
+str
+)
+:
+        
+if
+'
+.
+'
+not
+in
+tabmodule
+:
+            
+tabmodule
+=
+pkg
++
+'
+.
+'
++
+tabmodule
+    
+#
+Set
+start
+symbol
+if
+it
+'
+s
+specified
+directly
+using
+an
+argument
+    
+if
+start
+is
+not
+None
+:
+        
+pdict
+[
+'
+start
+'
+]
+=
+start
     
 #
 Collect
@@ -30841,12 +32121,12 @@ error
 raise
 YaccError
 (
-"
+'
 Unable
 to
 build
 parser
-"
+'
 )
     
 #
@@ -30951,24 +32231,15 @@ parser
             
 except
 Exception
-:
-                
+as
 e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
                 
 errorlog
 .
 warning
 (
-"
+'
 There
 was
 a
@@ -30979,25 +32250,16 @@ table
 file
 :
 %
-s
-"
-repr
-(
+r
+'
 e
-)
 )
     
 except
 VersionError
-:
-        
+as
 e
-=
-sys
-.
-exc_info
-(
-)
+:
         
 errorlog
 .
@@ -31010,7 +32272,7 @@ e
 )
     
 except
-Exception
+ImportError
 :
         
 pass
@@ -31025,17 +32287,62 @@ if
 debug
 :
             
+try
+:
+                
 debuglog
 =
 PlyLogger
 (
 open
 (
+os
+.
+path
+.
+join
+(
+outputdir
 debugfile
-"
-w
-"
 )
+'
+w
+'
+)
+)
+            
+except
+IOError
+as
+e
+:
+                
+errorlog
+.
+warning
+(
+"
+Couldn
+'
+t
+open
+%
+r
+.
+%
+s
+"
+%
+(
+debugfile
+e
+)
+)
+                
+debuglog
+=
+NullLogger
+(
 )
         
 else
@@ -31051,7 +32358,7 @@ debuglog
 .
 info
 (
-"
+'
 Created
 by
 PLY
@@ -31071,13 +32378,13 @@ com
 /
 ply
 )
-"
+'
 __version__
 )
     
 errors
 =
-0
+False
     
 #
 Validate
@@ -31096,12 +32403,12 @@ validate_all
 raise
 YaccError
 (
-"
+'
 Unable
 to
 build
 parser
-"
+'
 )
     
 if
@@ -31115,7 +32422,7 @@ errorlog
 .
 warning
 (
-"
+'
 no
 p_error
 (
@@ -31123,7 +32430,7 @@ p_error
 function
 is
 defined
-"
+'
 )
     
 #
@@ -31172,31 +32479,19 @@ level
         
 except
 GrammarError
-:
-            
+as
 e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
             
 errorlog
 .
 warning
 (
-"
+'
 %
 s
-"
-str
-(
+'
 e
-)
 )
     
 #
@@ -31238,36 +32533,24 @@ line
         
 except
 GrammarError
-:
-            
+as
 e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
             
 errorlog
 .
 error
 (
-"
+'
 %
 s
-"
-str
-(
+'
 e
-)
 )
             
 errors
 =
-1
+True
     
 #
 Set
@@ -31306,18 +32589,9 @@ start
     
 except
 GrammarError
-:
-        
+as
 e
-=
-sys
-.
-exc_info
-(
-)
-[
-1
-]
+:
         
 errorlog
 .
@@ -31331,7 +32605,7 @@ e
         
 errors
 =
-1
+True
     
 if
 errors
@@ -31340,12 +32614,12 @@ errors
 raise
 YaccError
 (
-"
+'
 Unable
 to
 build
 parser
-"
+'
 )
     
 #
@@ -31373,7 +32647,7 @@ errorlog
 .
 error
 (
-"
+'
 %
 s
 :
@@ -31381,10 +32655,8 @@ s
 d
 :
 Symbol
-'
 %
-s
-'
+r
 used
 but
 not
@@ -31395,7 +32667,7 @@ token
 or
 a
 rule
-"
+'
 prod
 .
 file
@@ -31407,7 +32679,7 @@ sym
         
 errors
 =
-1
+True
     
 unused_terminals
 =
@@ -31425,27 +32697,27 @@ debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 debuglog
 .
 info
 (
-"
+'
 Unused
 terminals
 :
-"
+'
 )
         
 debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 for
@@ -31458,17 +32730,15 @@ errorlog
 .
 warning
 (
-"
+'
 Token
-'
 %
-s
-'
+r
 defined
 but
 not
 used
-"
+'
 term
 )
             
@@ -31476,10 +32746,10 @@ debuglog
 .
 info
 (
-"
+'
 %
 s
-"
+'
 term
 )
     
@@ -31501,25 +32771,25 @@ debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 debuglog
 .
 info
 (
-"
+'
 Grammar
-"
+'
 )
         
 debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 for
@@ -31538,14 +32808,14 @@ debuglog
 .
 info
 (
-"
+'
 Rule
 %
 -
 5d
 %
 s
-"
+'
 n
 p
 )
@@ -31575,7 +32845,7 @@ errorlog
 .
 warning
 (
-"
+'
 %
 s
 :
@@ -31583,15 +32853,13 @@ s
 d
 :
 Rule
-'
 %
-s
-'
+r
 defined
 but
 not
 used
-"
+'
 prod
 .
 file
@@ -31617,13 +32885,13 @@ errorlog
 .
 warning
 (
-"
+'
 There
 is
 1
 unused
 token
-"
+'
 )
     
 if
@@ -31639,14 +32907,14 @@ errorlog
 .
 warning
 (
-"
+'
 There
 are
 %
 d
 unused
 tokens
-"
+'
 len
 (
 unused_terminals
@@ -31667,13 +32935,13 @@ errorlog
 .
 warning
 (
-"
+'
 There
 is
 1
 unused
 rule
-"
+'
 )
     
 if
@@ -31689,14 +32957,14 @@ errorlog
 .
 warning
 (
-"
+'
 There
 are
 %
 d
 unused
 rules
-"
+'
 len
 (
 unused_rules
@@ -31711,30 +32979,30 @@ debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 debuglog
 .
 info
 (
-"
+'
 Terminals
 with
 rules
 where
 they
 appear
-"
+'
 )
         
 debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 terms
@@ -31762,17 +33030,17 @@ debuglog
 .
 info
 (
-"
+'
 %
 -
 20s
 :
 %
 s
-"
+'
 term
-"
-"
+'
+'
 .
 join
 (
@@ -31798,30 +33066,30 @@ debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 debuglog
 .
 info
 (
-"
+'
 Nonterminals
 with
 rules
 where
 they
 appear
-"
+'
 )
         
 debuglog
 .
 info
 (
-"
-"
+'
+'
 )
         
 nonterms
@@ -31849,17 +33117,17 @@ debuglog
 .
 info
 (
-"
+'
 %
 -
 20s
 :
 %
 s
-"
+'
 nonterm
-"
-"
+'
+'
 .
 join
 (
@@ -31885,8 +33153,8 @@ debuglog
 .
 info
 (
-"
-"
+'
+'
 )
     
 if
@@ -31911,15 +33179,13 @@ errorlog
 .
 warning
 (
-"
+'
 Symbol
-'
 %
-s
-'
+r
 is
 unreachable
-"
+'
 u
 )
         
@@ -31941,23 +33207,21 @@ errorlog
 .
 error
 (
-"
+'
 Infinite
 recursion
 detected
 for
 symbol
-'
 %
-s
+r
 '
-"
 inf
 )
             
 errors
 =
-1
+True
     
 unused_prec
 =
@@ -31978,29 +33242,25 @@ errorlog
 .
 error
 (
-"
+'
 Precedence
 rule
-'
 %
-s
-'
+r
 defined
 for
 unknown
 symbol
-'
 %
-s
+r
 '
-"
 assoc
 term
 )
         
 errors
 =
-1
+True
     
 if
 errors
@@ -32009,12 +33269,12 @@ errors
 raise
 YaccError
 (
-"
+'
 Unable
 to
 build
 parser
-"
+'
 )
     
 #
@@ -32033,12 +33293,12 @@ errorlog
 .
 debug
 (
-"
+'
 Generating
 %
 s
 tables
-"
+'
 method
 )
     
@@ -32086,13 +33346,13 @@ errorlog
 .
 warning
 (
-"
+'
 1
 shift
 /
 reduce
 conflict
-"
+'
 )
         
 elif
@@ -32105,14 +33365,14 @@ errorlog
 .
 warning
 (
-"
+'
 %
 d
 shift
 /
 reduce
 conflicts
-"
+'
 num_sr
 )
         
@@ -32136,13 +33396,13 @@ errorlog
 .
 warning
 (
-"
+'
 1
 reduce
 /
 reduce
 conflict
-"
+'
 )
         
 elif
@@ -32155,14 +33415,14 @@ errorlog
 .
 warning
 (
-"
+'
 %
 d
 reduce
 /
 reduce
 conflicts
-"
+'
 num_rr
 )
     
@@ -32193,26 +33453,26 @@ debuglog
 .
 warning
 (
-"
-"
+'
+'
 )
         
 debuglog
 .
 warning
 (
-"
+'
 Conflicts
 :
-"
+'
 )
         
 debuglog
 .
 warning
 (
-"
-"
+'
+'
 )
         
 for
@@ -32229,7 +33489,7 @@ debuglog
 .
 warning
 (
-"
+'
 shift
 /
 reduce
@@ -32245,7 +33505,7 @@ resolved
 as
 %
 s
-"
+'
 tok
 state
 resolution
@@ -32253,8 +33513,9 @@ resolution
         
 already_reported
 =
-{
-}
+set
+(
+)
         
 for
 state
@@ -32288,7 +33549,7 @@ debuglog
 .
 warning
 (
-"
+'
 reduce
 /
 reduce
@@ -32304,7 +33565,7 @@ rule
 %
 s
 )
-"
+'
 state
 rule
 )
@@ -32313,7 +33574,7 @@ debuglog
 .
 warning
 (
-"
+'
 rejected
 rule
 (
@@ -32324,7 +33585,7 @@ in
 state
 %
 d
-"
+'
 rejected
 state
 )
@@ -32333,7 +33594,7 @@ errorlog
 .
 warning
 (
-"
+'
 reduce
 /
 reduce
@@ -32349,7 +33610,7 @@ rule
 %
 s
 )
-"
+'
 state
 rule
 )
@@ -32358,7 +33619,7 @@ errorlog
 .
 warning
 (
-"
+'
 rejected
 rule
 (
@@ -32369,13 +33630,16 @@ in
 state
 %
 d
-"
+'
 rejected
 state
 )
             
 already_reported
-[
+.
+add
+(
+(
 state
 id
 (
@@ -32385,9 +33649,8 @@ id
 (
 rejected
 )
-]
-=
-1
+)
+)
         
 warned_never
 =
@@ -32422,7 +33685,7 @@ debuglog
 .
 warning
 (
-"
+'
 Rule
 (
 %
@@ -32431,7 +33694,7 @@ s
 is
 never
 reduced
-"
+'
 rejected
 )
                 
@@ -32439,7 +33702,7 @@ errorlog
 .
 warning
 (
-"
+'
 Rule
 (
 %
@@ -32448,7 +33711,7 @@ s
 is
 never
 reduced
-"
+'
 rejected
 )
                 
@@ -32471,6 +33734,9 @@ if
 write_tables
 :
         
+try
+:
+            
 lr
 .
 write_table
@@ -32478,6 +33744,34 @@ write_table
 tabmodule
 outputdir
 signature
+)
+        
+except
+IOError
+as
+e
+:
+            
+errorlog
+.
+warning
+(
+"
+Couldn
+'
+t
+create
+%
+r
+.
+%
+s
+"
+%
+(
+tabmodule
+e
+)
 )
     
 #
@@ -32493,12 +33787,43 @@ if
 picklefile
 :
         
+try
+:
+            
 lr
 .
 pickle_table
 (
 picklefile
 signature
+)
+        
+except
+IOError
+as
+e
+:
+            
+errorlog
+.
+warning
+(
+"
+Couldn
+'
+t
+create
+%
+r
+.
+%
+s
+"
+%
+(
+picklefile
+e
+)
 )
     
 #
