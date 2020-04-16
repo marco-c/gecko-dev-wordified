@@ -213,6 +213,11 @@ GuardToString
 \
 _
 (
+GuardToInt32Index
+)
+\
+_
+(
 LoadEnclosingEnvironment
 )
 \
@@ -244,6 +249,11 @@ LoadInt32ArrayLengthResult
 _
 (
 LoadStringLengthResult
+)
+\
+_
+(
+LoadDenseElementResult
 )
 \
 _
