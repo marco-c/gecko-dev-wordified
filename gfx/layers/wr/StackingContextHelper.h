@@ -1109,9 +1109,6 @@ Matrix4x4
 mDeferredAncestorTransform
 ;
 bool
-mIsPreserve3D
-;
-bool
 mRasterizeLocally
 ;
 }
