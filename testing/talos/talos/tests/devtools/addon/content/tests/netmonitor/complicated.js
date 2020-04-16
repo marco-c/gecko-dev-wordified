@@ -85,6 +85,7 @@ const
 {
 exportHar
 waitForNetworkRequests
+openResponseDetailsPanel
 }
 =
 require
@@ -164,6 +165,17 @@ requestsDone
 ;
 await
 exportHar
+(
+"
+complicated
+.
+netmonitor
+"
+toolbox
+)
+;
+await
+openResponseDetailsPanel
 (
 "
 complicated
