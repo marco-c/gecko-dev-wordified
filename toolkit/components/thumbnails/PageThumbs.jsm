@@ -647,7 +647,7 @@ staticHost
 {
 return
 "
-thumbnail
+thumbnails
 "
 ;
 }
