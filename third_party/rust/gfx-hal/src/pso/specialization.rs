@@ -777,13 +777,9 @@ spec_const_list
 (
 (
 tail_id
-:
-expr
 =
 >
 tail_constant
-:
-expr
 )
 *
 )

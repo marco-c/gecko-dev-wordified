@@ -684,10 +684,7 @@ GPUTextureDescriptor
 aDesc
 )
 {
-ffi
-:
-:
-WGPUTextureDescriptor
+SerialTextureDescriptor
 desc
 =
 {
@@ -719,7 +716,7 @@ GetAsUnsignedLongSequence
 ;
 desc
 .
-size
+mSize
 .
 width
 =
@@ -740,7 +737,7 @@ seq
 ;
 desc
 .
-size
+mSize
 .
 height
 =
@@ -761,7 +758,7 @@ seq
 ;
 desc
 .
-size
+mSize
 .
 depth
 =
@@ -808,7 +805,7 @@ GetAsGPUExtent3DDict
 ;
 desc
 .
-size
+mSize
 .
 width
 =
@@ -818,7 +815,7 @@ mWidth
 ;
 desc
 .
-size
+mSize
 .
 height
 =
@@ -828,7 +825,7 @@ mHeight
 ;
 desc
 .
-size
+mSize
 .
 depth
 =
@@ -850,7 +847,7 @@ union
 }
 desc
 .
-array_layer_count
+mArrayLayerCount
 =
 aDesc
 .
@@ -858,7 +855,7 @@ mArrayLayerCount
 ;
 desc
 .
-mip_level_count
+mMipLevelCount
 =
 aDesc
 .
@@ -866,7 +863,7 @@ mMipLevelCount
 ;
 desc
 .
-sample_count
+mSampleCount
 =
 aDesc
 .
@@ -874,7 +871,7 @@ mSampleCount
 ;
 desc
 .
-dimension
+mDimension
 =
 ffi
 :
@@ -888,7 +885,7 @@ mDimension
 ;
 desc
 .
-format
+mFormat
 =
 ffi
 :
@@ -902,7 +899,7 @@ mFormat
 ;
 desc
 .
-usage
+mUsage
 =
 aDesc
 .

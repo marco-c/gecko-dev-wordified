@@ -224,6 +224,16 @@ solaris
 >
 {
 }
+Ok
+(
+"
+haiku
+"
+)
+=
+>
+{
+}
 /
 /
 dependencies

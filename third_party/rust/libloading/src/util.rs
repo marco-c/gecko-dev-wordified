@@ -259,9 +259,10 @@ last
 byte
 and
 avoids
-alocatting
+allocating
 if
-its
+it
+is
 zero
 .
 /

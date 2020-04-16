@@ -697,7 +697,10 @@ SwapChainOutput
 pub
 view_id
 :
+Option
+<
 TextureViewId
+>
 }
 #
 [
@@ -1145,7 +1148,7 @@ add_ref
 )
 ;
 let
-view_id
+id
 =
 hub
 .
@@ -1190,7 +1193,7 @@ Stored
 {
 value
 :
-view_id
+id
 ref_count
 }
 )
@@ -1200,6 +1203,11 @@ Ok
 SwapChainOutput
 {
 view_id
+:
+Some
+(
+id
+)
 }
 )
 }

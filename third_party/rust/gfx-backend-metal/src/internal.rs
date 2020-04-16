@@ -2141,8 +2141,6 @@ attributes
 object_at
 (
 i
-as
-u64
 )
 .
 expect
@@ -2166,7 +2164,6 @@ mtl_attribute_desc
 .
 set_offset
 (
-(
 i
 *
 mem
@@ -2184,9 +2181,8 @@ f32
 >
 (
 )
-)
 as
-_
+u64
 )
 ;
 mtl_attribute_desc
@@ -2803,8 +2799,6 @@ attributes
 object_at
 (
 i
-as
-u64
 )
 .
 expect
@@ -2828,7 +2822,6 @@ mtl_attribute_desc
 .
 set_offset
 (
-(
 i
 *
 mem
@@ -2846,9 +2839,8 @@ f32
 >
 (
 )
-)
 as
-_
+u64
 )
 ;
 mtl_attribute_desc
