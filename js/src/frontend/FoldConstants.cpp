@@ -3725,6 +3725,8 @@ node
 *
 nodePtr
 ;
+if
+(
 Truthiness
 t
 =
@@ -3733,8 +3735,6 @@ Boolish
 node
 )
 ;
-if
-(
 t
 !
 =
