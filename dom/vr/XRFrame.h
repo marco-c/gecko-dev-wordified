@@ -215,6 +215,16 @@ EndAnimationFrame
 (
 )
 ;
+void
+StartInputSourceEvent
+(
+)
+;
+void
+EndInputSourceEvent
+(
+)
+;
 /
 /
 WebIDL
