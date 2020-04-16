@@ -64,6 +64,8 @@ import
 os
 import
 re
+import
+six
 from
 mach
 .
@@ -177,6 +179,13 @@ with
 open
 (
 path
+encoding
+=
+'
+utf
+-
+8
+'
 )
 as
 fh
@@ -1097,10 +1106,11 @@ for
 k
 v
 in
-chrome_mapping
+six
 .
 iteritems
 (
+chrome_mapping
 )
 }
                 
