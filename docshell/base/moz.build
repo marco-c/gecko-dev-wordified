@@ -512,6 +512,11 @@ nsAboutRedirector
 cpp
 '
 '
+nsDefaultURIFixup
+.
+cpp
+'
+'
 nsDocShell
 .
 cpp
@@ -706,15 +711,5 @@ Wno
 error
 =
 shadow
-'
-]
-EXTRA_JS_MODULES
-+
-=
-[
-'
-URIFixup
-.
-jsm
 '
 ]
