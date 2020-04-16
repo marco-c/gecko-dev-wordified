@@ -561,12 +561,12 @@ mozilla
 class
 CancelableRunnable
 ;
-namespace
-dom
-{
 class
 HostWebGLCommandSink
 ;
+namespace
+dom
+{
 class
 WebGLParent
 ;
