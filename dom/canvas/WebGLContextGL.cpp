@@ -4068,8 +4068,6 @@ pname
 pname
 )
 ;
-return
-;
 }
 bool
 WebGLContext
