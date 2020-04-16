@@ -34274,10 +34274,9 @@ res
 .
 set
 (
-NewArrayIteratorObject
+NewArrayIteratorTemplate
 (
 cx_
-TenuredObject
 )
 )
 ;
