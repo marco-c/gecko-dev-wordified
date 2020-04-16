@@ -1954,7 +1954,7 @@ view
 .
 oneOffSearchButtons
 .
-handleKeyPress
+handleKeyDown
 (
 event
 this
