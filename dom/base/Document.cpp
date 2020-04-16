@@ -88088,10 +88088,7 @@ return
 bool
 userInputOrSystemCaller
 =
-UserActivation
-:
-:
-IsHandlingUserInput
+HasValidTransientUserGestureActivation
 (
 )
 |
