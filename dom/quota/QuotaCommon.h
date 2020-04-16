@@ -821,6 +821,16 @@ key
 ;
 }
 }
+#
+ifdef
+XP_WIN
+void
+CacheUseDOSDevicePathSyntaxPrefValue
+(
+)
+;
+#
+endif
 Result
 <
 nsCOMPtr
