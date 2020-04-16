@@ -30121,12 +30121,13 @@ XDRBufferObject
 *
 bufObj
 =
-NewObjectWithNullTaggedProto
+NewObjectWithGivenProto
 <
 XDRBufferObject
 >
 (
 cx
+nullptr
 )
 ;
 if
