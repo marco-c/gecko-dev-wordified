@@ -593,17 +593,6 @@ new_window
 (
 )
 {
-/
-/
-The
-megabar
-works
-properly
-in
-a
-new
-window
-.
 let
 win
 =

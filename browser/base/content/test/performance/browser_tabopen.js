@@ -200,8 +200,9 @@ tab
 opening
 operation
 .
-await
-ensureFocusedUrlbar
+gURLBar
+.
+focus
 (
 )
 ;

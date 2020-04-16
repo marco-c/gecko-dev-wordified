@@ -582,16 +582,6 @@ UrlbarPrefs
 get
 (
 "
-update1
-"
-)
-&
-&
-UrlbarPrefs
-.
-get
-(
-"
 openViewOnFocus
 "
 )

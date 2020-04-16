@@ -2123,17 +2123,6 @@ reasons
 let
 allowTabbingThroughResults
 =
-!
-UrlbarPrefs
-.
-get
-(
-"
-update1
-"
-)
-|
-|
 this
 .
 input

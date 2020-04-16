@@ -111,16 +111,6 @@ browser
 .
 urlbar
 .
-update1
-"
-true
-]
-[
-"
-browser
-.
-urlbar
-.
 openViewOnFocus
 "
 true
