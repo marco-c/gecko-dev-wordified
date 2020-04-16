@@ -72,9 +72,7 @@ h
 #
 include
 "
-mozilla
-/
-PermissionManager
+nsPermissionManager
 .
 h
 "
@@ -144,10 +142,7 @@ Init
 ;
 RefPtr
 <
-mozilla
-:
-:
-PermissionManager
+nsPermissionManager
 >
 mPermMgr
 ;

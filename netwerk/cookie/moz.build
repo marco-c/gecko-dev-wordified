@@ -331,6 +331,12 @@ base
 '
 '
 /
+extensions
+/
+permissions
+'
+'
+/
 intl
 /
 uconv

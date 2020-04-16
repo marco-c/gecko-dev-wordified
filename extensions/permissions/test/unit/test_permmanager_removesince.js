@@ -266,7 +266,7 @@ the
 now
 recorded
 by
-PermissionManager
+nsPermissionManager
 .
 cpp
 /
