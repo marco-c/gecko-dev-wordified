@@ -144,7 +144,7 @@ h
 #
 include
 "
-nsCookieKey
+CookieKey
 .
 h
 "
@@ -327,9 +327,6 @@ namespace
 net
 {
 class
-nsCookieKey
-;
-class
 CookieServiceParent
 ;
 }
@@ -349,13 +346,13 @@ mozilla
 net
 :
 :
-nsCookieKey
+CookieKey
 ;
 /
 /
 Inherit
 from
-nsCookieKey
+CookieKey
 so
 this
 can
@@ -375,7 +372,7 @@ we
 using
 nsClassHashTable
 <
-nsCookieKey
+CookieKey
 ArrayType
 >
 ?
@@ -383,7 +380,7 @@ class
 nsCookieEntry
 :
 public
-nsCookieKey
+CookieKey
 {
 public
 :
@@ -421,7 +418,7 @@ KeyTypePointer
 aKey
 )
 :
-nsCookieKey
+CookieKey
 (
 aKey
 )
@@ -527,7 +524,7 @@ purposes
 struct
 CookieDomainTuple
 {
-nsCookieKey
+CookieKey
 key
 ;
 OriginAttributes
@@ -1302,7 +1299,7 @@ nsIURI
 *
 aHostURI
 const
-nsCookieKey
+CookieKey
 &
 aKey
 mozilla
@@ -1735,7 +1732,7 @@ nsIURI
 *
 aHostURI
 const
-nsCookieKey
+CookieKey
 &
 aKey
 bool
@@ -1758,7 +1755,7 @@ void
 AddInternal
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 mozilla
@@ -1801,7 +1798,7 @@ void
 AddCookieToList
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 mozilla
@@ -2019,7 +2016,7 @@ bool
 FindCookie
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 const
@@ -2043,7 +2040,7 @@ bool
 FindSecureCookie
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 mozilla

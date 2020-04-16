@@ -102,6 +102,13 @@ mozilla_net_CookieServiceChild_h__
 #
 include
 "
+CookieKey
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -114,13 +121,6 @@ h
 include
 "
 nsClassHashtable
-.
-h
-"
-#
-include
-"
-nsCookieKey
 .
 h
 "
@@ -224,7 +224,7 @@ CookiesList
 typedef
 nsClassHashtable
 <
-nsCookieKey
+CookieKey
 CookiesList
 >
 CookiesMap
