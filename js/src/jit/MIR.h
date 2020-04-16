@@ -26886,13 +26886,6 @@ classOpcode
 input
 )
 {
-specialization_
-=
-MIRType
-:
-:
-Int32
-;
 setResultType
 (
 MIRType
@@ -27411,10 +27404,6 @@ MIRType
 Double
 )
 )
-;
-specialization_
-=
-type
 ;
 setResultType
 (
@@ -29738,10 +29727,6 @@ type
 )
 )
 ;
-specialization_
-=
-type
-;
 setResultType
 (
 type
@@ -29892,10 +29877,6 @@ type
 )
 )
 ;
-specialization_
-=
-type
-;
 setResultType
 (
 type
@@ -30038,10 +30019,6 @@ IsIntType
 type
 )
 )
-;
-specialization_
-=
-type
 ;
 setResultType
 (

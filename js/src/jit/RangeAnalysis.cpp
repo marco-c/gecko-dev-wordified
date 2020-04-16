@@ -10476,7 +10476,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -10547,7 +10549,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -10618,7 +10622,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -10689,7 +10695,9 @@ alloc
 {
 MOZ_ASSERT
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
@@ -10740,7 +10748,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -10871,7 +10881,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -11002,7 +11014,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -25675,7 +25689,9 @@ collectRangeInfoPreTrunc
 {
 if
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
