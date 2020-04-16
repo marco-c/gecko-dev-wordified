@@ -43,6 +43,12 @@ noqa
 F401
                                            
 WebDriverRefTestExecutor
+#
+noqa
+:
+F401
+                                           
+WebDriverCrashtestExecutor
 )
 #
 noqa
@@ -114,6 +120,14 @@ wdspec
 :
 "
 SafariDriverWdspecExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+WebDriverCrashtestExecutor
 "
 }
                  
