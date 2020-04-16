@@ -323,6 +323,11 @@ PurgeSessionHistoryChild
 jsm
 '
 '
+RemotePageChild
+.
+jsm
+'
+'
 SelectChild
 .
 jsm
