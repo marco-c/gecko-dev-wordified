@@ -209,6 +209,13 @@ h
 #
 include
 "
+nsILayoutHistoryState
+.
+h
+"
+#
+include
+"
 nsNameSpaceManager
 .
 h
