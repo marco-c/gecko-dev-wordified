@@ -5110,13 +5110,12 @@ constructor
 properties
 .
 return
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 (
 cx
 &
 IntlClass
 proto
-SingletonObject
 )
 ;
 }
