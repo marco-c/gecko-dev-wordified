@@ -2091,9 +2091,6 @@ PSHistory
 manages
 PBenchmarkStorage
 ;
-manages
-PWindowGlobal
-;
 /
 /
 Depending

@@ -165,7 +165,7 @@ file
 is
 processed
 by
-make
+generate
 -
 windows
 -
@@ -178,8 +178,8 @@ to
 generate
 a
 wrapper
-for
 *
+for
 the
 header
 which
@@ -380,16 +380,4 @@ GENERIC_EXECUTE
 ;
 auto
 GENERIC_ALL
-;
-auto
-NO_ERROR
-;
-auto
-WAIT_FAILED
-;
-auto
-WAIT_ABANDONED
-;
-auto
-WAIT_TIMEOUT
 ;

@@ -147,7 +147,7 @@ file
 is
 processed
 by
-make
+generate
 -
 windows
 -
@@ -160,8 +160,8 @@ to
 generate
 a
 wrapper
-for
 *
+for
 the
 header
 which

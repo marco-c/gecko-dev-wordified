@@ -127,7 +127,7 @@ h
 ;
 include
 protocol
-PContent
+PBrowser
 ;
 include
 protocol
@@ -339,7 +339,7 @@ protocol
 PWindowGlobal
 {
 manager
-PContent
+PBrowser
 or
 PInProcess
 ;
