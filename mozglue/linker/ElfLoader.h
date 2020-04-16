@@ -457,6 +457,9 @@ Release
 )
 const
 ;
+#
+ifdef
+DEBUG
 template
 <
 >
@@ -482,6 +485,8 @@ mRefCnt
 )
 ;
 }
+#
+endif
 }
 /
 *
@@ -1433,9 +1438,9 @@ mRefCnt
 ;
 #
 else
++
++
 mRefCnt
-=
-1
 ;
 #
 endif
