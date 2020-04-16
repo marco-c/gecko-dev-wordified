@@ -327,8 +327,6 @@ virtual
 XRInputSource
 (
 )
-=
-default
 ;
 nsCOMPtr
 <
@@ -361,6 +359,12 @@ RefPtr
 XRSpace
 >
 mGripSpace
+;
+RefPtr
+<
+Gamepad
+>
+mGamepad
 ;
 int32_t
 mIndex
