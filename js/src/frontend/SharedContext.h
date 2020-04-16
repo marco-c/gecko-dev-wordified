@@ -676,6 +676,9 @@ localStrict
 :
 1
 ;
+SourceExtent
+extent
+;
 protected
 :
 bool
@@ -786,6 +789,8 @@ CompilationInfo
 compilationInfo
 Directives
 directives
+SourceExtent
+extent
 )
 :
 cx_
@@ -818,6 +823,10 @@ strict
 localStrict
 (
 false
+)
+extent
+(
+extent
 )
 allowNewTarget_
 (
@@ -1468,6 +1477,8 @@ CompilationInfo
 compilationInfo
 Directives
 directives
+SourceExtent
+extent
 )
 :
 SharedContext
@@ -1479,6 +1490,7 @@ Kind
 Global
 compilationInfo
 directives
+extent
 )
 scopeKind_
 (
@@ -1607,6 +1619,8 @@ Scope
 enclosingScope
 Directives
 directives
+SourceExtent
+extent
 )
 ;
 Scope
@@ -1947,8 +1961,8 @@ cx
 FunctionBox
 *
 traceListHead
-uint32_t
-toStringStart
+SourceExtent
+extent
 CompilationInfo
 &
 compilationInfo
@@ -1992,9 +2006,6 @@ Maybe
 FieldInitializers
 >
 fieldInitializers
-;
-SourceExtent
-extent
 ;
 uint16_t
 length

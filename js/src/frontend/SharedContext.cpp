@@ -549,6 +549,8 @@ Scope
 enclosingScope
 Directives
 directives
+SourceExtent
+extent
 )
 :
 SharedContext
@@ -560,6 +562,7 @@ Kind
 Eval
 compilationInfo
 directives
+extent
 )
 enclosingScope_
 (
@@ -872,8 +875,8 @@ cx
 FunctionBox
 *
 traceListHead
-uint32_t
-toStringStart
+SourceExtent
+extent
 CompilationInfo
 &
 compilationInfo
@@ -901,6 +904,7 @@ Kind
 FunctionBox
 compilationInfo
 directives
+extent
 )
 traceLink_
 (
@@ -933,15 +937,6 @@ functionNode
 (
 nullptr
 )
-extent
-{
-0
-0
-toStringStart
-0
-1
-0
-}
 length
 (
 0
@@ -2053,6 +2048,8 @@ enclosingScope
 ModuleBuilder
 &
 builder
+SourceExtent
+extent
 )
 :
 SharedContext
@@ -2067,6 +2064,7 @@ Directives
 (
 true
 )
+extent
 )
 module_
 (
