@@ -149,6 +149,11 @@ ensureNoPreloadedBrowser
 (
 )
 ;
+await
+disableFxaBadge
+(
+)
+;
 let
 tab
 =
