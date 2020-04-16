@@ -12966,6 +12966,7 @@ aFrame
 int32_t
 aLineNumber
 )
+const
 {
 NS_ENSURE_ARG_POINTER
 (

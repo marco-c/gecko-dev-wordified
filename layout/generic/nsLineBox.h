@@ -9709,6 +9709,7 @@ aFrame
 int32_t
 aLineNumber
 )
+const
 override
 ;
 NS_IMETHOD
