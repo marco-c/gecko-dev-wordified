@@ -875,9 +875,6 @@ aCSPEventListener
 nsIURI
 *
 aContentLocation
-nsISupports
-*
-aRequestContext
 const
 nsACString
 &
@@ -891,6 +888,8 @@ const
 nsAString
 &
 aNonce
+bool
+aParserCreated
 int16_t
 *
 outDecision
