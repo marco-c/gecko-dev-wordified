@@ -3662,9 +3662,6 @@ MMPolicyT
 >
 &
 aBytes
-const
-int
-aBytesIndex
 unsigned
 char
 *
@@ -3686,7 +3683,7 @@ eNoPrefixes
 int
 index
 =
-aBytesIndex
+0
 ;
 while
 (
@@ -3891,8 +3888,6 @@ default
 :
 return
 index
--
-aBytesIndex
 ;
 }
 }
@@ -4696,11 +4691,6 @@ numPrefixBytes
 CountPrefixBytes
 (
 origBytes
-origBytes
-.
-GetOffset
-(
-)
 &
 prefixGroups
 )
