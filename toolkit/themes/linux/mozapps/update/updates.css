@@ -184,9 +184,7 @@ box
 padding
 :
 5px
-0px
-5px
-0px
+0
 ;
 }
 .
@@ -229,7 +227,6 @@ padding
 6px
 10px
 10px
-10px
 ;
 }
 .
@@ -241,15 +238,7 @@ separator
 {
 margin
 -
-top
-:
-0
-!
-important
-;
-margin
--
-bottom
+block
 :
 0
 !
@@ -369,7 +358,6 @@ height
 margin
 :
 1px
-5px
 5px
 5px
 ;
