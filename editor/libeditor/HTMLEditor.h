@@ -8633,9 +8633,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlineStyles
 (
-nsINode
+nsIContent
 &
-aNode
+aContent
 AutoStyleCacheArray
 &
 aStyleCacheArray
@@ -8651,7 +8651,7 @@ CacheInlineStyles
 caches
 style
 of
-aNode
+aContent
 into
 mCachedInlineStyles
 of
@@ -8683,9 +8683,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 CacheInlineStyles
 (
-nsINode
+nsIContent
 &
-aNode
+aContent
 )
 ;
 /
