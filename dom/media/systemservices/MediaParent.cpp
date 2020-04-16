@@ -2567,7 +2567,7 @@ result
 ;
 if
 (
-IsPincipalInfoPrivate
+IsPrincipalInfoPrivate
 (
 aPrincipalInfo
 )

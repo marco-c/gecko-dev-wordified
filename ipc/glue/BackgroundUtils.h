@@ -571,7 +571,7 @@ OriginAttributes
 *
 /
 bool
-IsPincipalInfoPrivate
+IsPrincipalInfoPrivate
 (
 const
 PrincipalInfo
