@@ -3655,7 +3655,7 @@ nsCookieService
 CanSetCookie
 (
 aHostURI
-key
+baseDomain
 cookieData
 requireHostMatch
 cookieStatus
