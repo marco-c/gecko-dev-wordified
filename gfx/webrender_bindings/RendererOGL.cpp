@@ -124,6 +124,15 @@ h
 #
 include
 "
+base
+/
+task
+.
+h
+"
+#
+include
+"
 GLContext
 .
 h
@@ -1780,6 +1789,9 @@ height
 *
 BytesPerPixel
 (
+gfx
+:
+:
 SurfaceFormat
 :
 :

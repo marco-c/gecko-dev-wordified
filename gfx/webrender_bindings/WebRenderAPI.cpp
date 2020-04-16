@@ -2745,6 +2745,9 @@ aOutSideBits
 {
 static_assert
 (
+gfx
+:
+:
 DoesCompositorHitTestInfoFitIntoBits
 <
 12
@@ -9603,6 +9606,9 @@ aSideBits
 {
 static_assert
 (
+gfx
+:
+:
 DoesCompositorHitTestInfoFitIntoBits
 <
 12
@@ -9928,6 +9934,9 @@ mCachedContext
 >
 SetMatrix
 (
+gfx
+:
+:
 Matrix
 (
 )
