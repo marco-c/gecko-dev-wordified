@@ -1742,7 +1742,10 @@ Digital
 Guardian
 bug
 1318858
-DllBlocklistEntry
+and
+bug
+1603974
+RedirectToNoOpEntryPoint
 (
 "
 dgapi
@@ -1756,7 +1759,7 @@ dll
 0xffff
 )
 )
-DllBlocklistEntry
+RedirectToNoOpEntryPoint
 (
 "
 dgapi64
