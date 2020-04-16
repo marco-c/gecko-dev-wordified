@@ -180,6 +180,9 @@ class
 nsICookieTransactionCallback
 ;
 class
+nsIEffectiveTLDService
+;
+class
 nsIPrefBranch
 ;
 namespace

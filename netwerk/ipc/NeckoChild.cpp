@@ -1016,7 +1016,7 @@ allocate
 here
 :
 see
-nsCookieService
+CookieService
 :
 :
 GetSingleton

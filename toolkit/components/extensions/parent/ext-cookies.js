@@ -737,7 +737,7 @@ netwerk
 /
 cookie
 /
-nsCookieService
+CookieService
 .
 cpp
 in
@@ -1817,7 +1817,7 @@ host
 /
 Based
 on
-nsCookieService
+CookieService
 :
 :
 GetCookieStringInternal

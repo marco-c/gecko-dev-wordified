@@ -8864,7 +8864,7 @@ cookie
 /
 src
 /
-nsCookieService
+CookieService
 .
 cpp
 for
