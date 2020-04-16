@@ -649,6 +649,9 @@ threat_types
 (
 i
 )
+(
+int
+)
 expectedThreatType
 )
 ;
