@@ -6382,12 +6382,12 @@ we
 re
 focusable
 return
-HasAttr
+GetTabIndexAttrValue
 (
-nsGkAtoms
-:
-:
-tabindex
+)
+.
+isSome
+(
 )
 ;
 }

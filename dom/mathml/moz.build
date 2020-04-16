@@ -164,3 +164,17 @@ dom
 base
 '
 ]
+MOCHITEST_MANIFESTS
++
+=
+[
+'
+tests
+/
+mochitest
+/
+mochitest
+.
+ini
+'
+]
