@@ -1850,7 +1850,7 @@ asyncKind
 fun
 -
 >
-displayAtom
+explicitName
 (
 )
 fun
