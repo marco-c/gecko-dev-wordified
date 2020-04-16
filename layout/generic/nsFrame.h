@@ -1590,6 +1590,7 @@ is
 whitespace
 *
 /
+static
 bool
 BreakWordBetweenPunctuation
 (

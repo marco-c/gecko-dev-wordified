@@ -66478,6 +66478,9 @@ return
 CONTINUE
 ;
 }
+/
+/
+static
 bool
 nsFrame
 :
