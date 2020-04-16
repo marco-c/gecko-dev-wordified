@@ -651,7 +651,6 @@ this
 -
 >
 matches
-nullptr
 )
 ;
 if
