@@ -1014,12 +1014,12 @@ GetBrowsingContext
 loadState
 -
 >
-SetSourceDocShell
+SetSourceBrowsingContext
 (
 sourceWindow
 -
 >
-GetDocShell
+GetBrowsingContext
 (
 )
 )
