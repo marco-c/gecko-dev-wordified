@@ -181,6 +181,13 @@ Logging
 .
 h
 "
+#
+include
+"
+nsRegion
+.
+h
+"
 namespace
 mozilla
 {

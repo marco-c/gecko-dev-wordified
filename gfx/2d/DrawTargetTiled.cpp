@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsRegion
+.
+h
+"
+#
+include
+"
 PathHelpers
 .
 h
