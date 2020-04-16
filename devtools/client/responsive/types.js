@@ -288,7 +288,7 @@ os
 :
 PropTypes
 .
-String
+string
 /
 /
 Whether
