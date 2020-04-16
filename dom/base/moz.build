@@ -1337,11 +1337,6 @@ VisualViewport
 h
 '
 '
-WindowFeatures
-.
-h
-'
-'
 WindowOrientationObserver
 .
 h
@@ -2185,11 +2180,6 @@ cpp
 '
 '
 WindowDestroyedEvent
-.
-cpp
-'
-'
-WindowFeatures
 .
 cpp
 '
