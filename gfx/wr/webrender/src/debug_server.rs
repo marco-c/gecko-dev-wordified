@@ -70,15 +70,6 @@ use
 api
 :
 :
-channel
-:
-:
-MsgSender
-;
-use
-api
-:
-:
 units
 :
 :
@@ -252,7 +243,7 @@ DebugMsg
 >
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
@@ -967,7 +958,7 @@ new
 (
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >

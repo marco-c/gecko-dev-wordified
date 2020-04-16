@@ -198,18 +198,6 @@ units
 :
 *
 ;
-use
-api
-:
-:
-channel
-:
-:
-{
-MsgReceiver
-MsgSender
-}
-;
 #
 [
 cfg
@@ -1207,7 +1195,7 @@ ShutDown
 (
 Option
 <
-MsgSender
+Sender
 <
 (
 )
@@ -4715,7 +4703,7 @@ RenderBackend
 {
 api_rx
 :
-MsgReceiver
+Receiver
 <
 ApiMsg
 >
@@ -4831,7 +4819,7 @@ new
 (
 api_rx
 :
-MsgReceiver
+Receiver
 <
 ApiMsg
 >
@@ -10750,7 +10738,7 @@ mut
 self
 tx
 :
-MsgSender
+Sender
 <
 Box
 <

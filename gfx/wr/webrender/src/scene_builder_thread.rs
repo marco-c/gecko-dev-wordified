@@ -108,15 +108,6 @@ use
 api
 :
 :
-channel
-:
-:
-MsgSender
-;
-use
-api
-:
-:
 units
 :
 :
@@ -1081,7 +1072,7 @@ DocumentId
 WakeUp
 Flush
 (
-MsgSender
+Sender
 <
 (
 )
@@ -1110,7 +1101,7 @@ Box
 <
 MemoryReport
 >
-MsgSender
+Sender
 <
 Box
 <
@@ -1190,7 +1181,7 @@ ExternalEvent
 )
 FlushComplete
 (
-MsgSender
+Sender
 <
 (
 )
@@ -1682,7 +1673,7 @@ SceneBuilderResult
 >
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
@@ -1735,7 +1726,7 @@ SceneBuilderResult
 >
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
@@ -1749,7 +1740,7 @@ new
 (
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
