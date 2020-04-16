@@ -780,6 +780,17 @@ update
 append_env
 )
         
+use_env
+[
+'
+PYTHONUNBUFFERED
+'
+]
+=
+'
+1
+'
+        
 self
 .
 log
