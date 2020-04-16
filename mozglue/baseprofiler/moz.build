@@ -703,6 +703,13 @@ ProfileBufferIndex
 .
 h
 '
+'
+public
+/
+ProfileChunkedBuffer
+.
+h
+'
 ]
 if
 CONFIG
