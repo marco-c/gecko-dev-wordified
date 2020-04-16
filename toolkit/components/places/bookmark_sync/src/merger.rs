@@ -143,9 +143,9 @@ interfaces
 :
 {
 mozIPlacesPendingOperation
-mozIServicesLogger
 mozIStorageConnection
 mozISyncedBookmarksMirrorCallback
+mozISyncedBookmarksMirrorLogger
 mozISyncedBookmarksMirrorProgressListener
 }
 RefPtr
@@ -220,7 +220,7 @@ Option
 <
 RefPtr
 <
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 >
 >
 >
@@ -420,7 +420,7 @@ GetLogger
 >
 *
 const
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 )
 ;
 fn
@@ -435,7 +435,7 @@ Result
 <
 RefPtr
 <
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 >
 nsresult
 >
@@ -486,7 +486,7 @@ logger
 :
 *
 const
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 )
 )
 ;
@@ -500,7 +500,7 @@ logger
 Option
 <
 &
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 >
 )
 -
@@ -903,7 +903,7 @@ Option
 <
 ThreadPtrHandle
 <
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 >
 >
 local_time_millis
@@ -971,7 +971,7 @@ Option
 <
 RefPtr
 <
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 >
 >
 local_time_seconds
@@ -1060,7 +1060,7 @@ level
 as
 i64
 {
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 :
 :
 LEVEL_ERROR
@@ -1070,7 +1070,7 @@ LevelFilter
 :
 :
 Error
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 :
 :
 LEVEL_WARN
@@ -1080,7 +1080,7 @@ LevelFilter
 :
 :
 Warn
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 :
 :
 LEVEL_DEBUG
@@ -1090,7 +1090,7 @@ LevelFilter
 :
 :
 Debug
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 :
 :
 LEVEL_TRACE
@@ -1141,7 +1141,7 @@ cstr
 !
 (
 "
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 "
 )
 logger

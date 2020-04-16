@@ -786,12 +786,12 @@ jsm
 logger
 to
 a
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 .
 *
 /
 class
-LogAdapter
+MirrorLoggerAdapter
 {
 constructor
 (
@@ -834,7 +834,7 @@ All
 return
 Ci
 .
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 .
 LEVEL_TRACE
 ;
@@ -854,7 +854,7 @@ Info
 return
 Ci
 .
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 .
 LEVEL_DEBUG
 ;
@@ -874,7 +874,7 @@ Warn
 return
 Ci
 .
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 .
 LEVEL_WARN
 ;
@@ -894,7 +894,7 @@ Error
 return
 Ci
 .
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 .
 LEVEL_ERROR
 ;
@@ -902,7 +902,7 @@ LEVEL_ERROR
 return
 Ci
 .
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 .
 LEVEL_OFF
 ;
@@ -1922,7 +1922,7 @@ merger
 logger
 =
 new
-LogAdapter
+MirrorLoggerAdapter
 (
 MirrorLog
 )
