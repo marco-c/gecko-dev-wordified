@@ -2053,6 +2053,7 @@ retain
 |
 a
 |
+{
 a
 .
 queue_families
@@ -2090,6 +2091,7 @@ supports_queue_family
 qf
 )
 )
+}
 )
 ;
 }
@@ -2191,6 +2193,7 @@ retain
 |
 a
 |
+{
 a
 .
 queue_families
@@ -2230,6 +2233,7 @@ supports_queue_family
 qf
 )
 )
+}
 )
 ;
 }
@@ -2340,6 +2344,7 @@ retain
 |
 a
 |
+{
 a
 .
 queue_families
@@ -2377,6 +2382,7 @@ supports_queue_family
 qf
 )
 )
+}
 )
 ;
 }
@@ -2466,6 +2472,7 @@ retain
 |
 a
 |
+{
 a
 .
 queue_families
@@ -2505,6 +2512,7 @@ supports_queue_family
 qf
 )
 )
+}
 )
 ;
 }
@@ -2722,7 +2730,6 @@ PowerPreference
 Default
 =
 >
-{
 match
 power
 :
@@ -2819,7 +2826,6 @@ or
 (
 virt
 )
-}
 }
 }
 PowerPreference

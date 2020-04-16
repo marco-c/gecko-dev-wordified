@@ -359,12 +359,6 @@ Stored
 }
 ;
 use
-wgt
-:
-:
-SwapChainDescriptor
-;
-use
 hal
 :
 :
@@ -389,6 +383,12 @@ PresentationSurface
 as
 _
 }
+;
+use
+wgt
+:
+:
+SwapChainDescriptor
 ;
 const
 FRAME_TIMEOUT_MS

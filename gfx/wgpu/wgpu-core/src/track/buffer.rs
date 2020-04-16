@@ -664,12 +664,10 @@ use
 crate
 :
 :
-{
 id
 :
 :
 TypedId
-}
 ;
 #
 [

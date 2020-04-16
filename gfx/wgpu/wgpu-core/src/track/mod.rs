@@ -1331,7 +1331,6 @@ index
 res
 )
 |
-{
 (
 (
 index
@@ -1344,7 +1343,6 @@ res
 .
 state
 )
-}
 )
 .
 collect
@@ -1932,7 +1930,6 @@ e
 )
 =
 >
-{
 Err
 (
 &
@@ -1944,7 +1941,6 @@ into_mut
 .
 state
 )
-}
 }
 }
 /
