@@ -313,7 +313,7 @@ function
 let
 promiseOrigBrowserFocused
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
