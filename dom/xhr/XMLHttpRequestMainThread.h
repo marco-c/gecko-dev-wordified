@@ -128,13 +128,6 @@ bitset
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h
