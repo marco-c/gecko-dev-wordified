@@ -261,7 +261,9 @@ aBufferId
 Shmem
 &
 &
-shmem
+aShmem
+bool
+aFlush
 )
 ;
 ipc
@@ -275,11 +277,11 @@ aSelfId
 Shmem
 &
 &
-shmem
+aShmem
 BufferMapReadResolver
 &
 &
-resolver
+aResolver
 )
 ;
 ipc

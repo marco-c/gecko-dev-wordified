@@ -410,6 +410,8 @@ ipc
 Shmem
 >
 aShmem
+bool
+aFlush
 )
 ;
 already_AddRefed

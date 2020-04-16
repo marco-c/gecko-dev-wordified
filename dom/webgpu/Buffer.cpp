@@ -244,6 +244,8 @@ aShmem
 JSObject
 *
 aArrayBuffer
+bool
+aWrite
 )
 :
 mShmem
@@ -268,6 +270,10 @@ aShmem
 mArrayBuffer
 (
 aArrayBuffer
+)
+mWrite
+(
+aWrite
 )
 {
 }
@@ -398,6 +404,8 @@ aShmem
 JSObject
 *
 aArrayBuffer
+bool
+aWrite
 )
 {
 mMapping
@@ -412,6 +420,7 @@ move
 aShmem
 )
 aArrayBuffer
+aWrite
 )
 ;
 }
@@ -766,6 +775,7 @@ move
 aShmem
 )
 arrayBuffer
+false
 )
 ;
 promise
@@ -897,6 +907,10 @@ mMapping
 >
 mShmem
 )
+mMapping
+-
+>
+mWrite
 )
 ;
 mMapping

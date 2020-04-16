@@ -202,6 +202,10 @@ JSObject
 >
 mArrayBuffer
 ;
+const
+bool
+mWrite
+;
 Mapping
 (
 ipc
@@ -214,6 +218,8 @@ aShmem
 JSObject
 *
 aArrayBuffer
+bool
+aWrite
 )
 ;
 }
@@ -243,6 +249,8 @@ aShmem
 JSObject
 *
 aArrayBuffer
+bool
+aWrite
 )
 ;
 const

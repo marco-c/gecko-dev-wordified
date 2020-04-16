@@ -861,6 +861,7 @@ move
 shmem
 )
 arrayBuffer
+true
 )
 ;
 }
@@ -969,6 +970,8 @@ ipc
 Shmem
 >
 aShmem
+bool
+aFlush
 )
 {
 mBridge
@@ -986,6 +989,7 @@ move
 *
 aShmem
 )
+aFlush
 )
 ;
 }
