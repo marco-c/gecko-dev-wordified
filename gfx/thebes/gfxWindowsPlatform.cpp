@@ -3564,6 +3564,14 @@ ifdef
 CAIRO_HAS_WIN32_SURFACE
 if
 (
+!
+XRE_IsContentProcess
+(
+)
+)
+{
+if
+(
 mRenderMode
 =
 =
@@ -3575,6 +3583,7 @@ mRenderMode
 =
 RENDER_DIRECT2D
 )
+{
 surf
 =
 new
@@ -3584,6 +3593,8 @@ aSize
 aFormat
 )
 ;
+}
+}
 #
 endif
 if
