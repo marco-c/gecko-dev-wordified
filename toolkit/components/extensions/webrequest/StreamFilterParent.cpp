@@ -891,7 +891,7 @@ StreamFilterParent
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 StreamFilterParent
@@ -906,7 +906,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 StreamFilterParent
@@ -921,7 +921,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 StreamFilterParent
@@ -936,7 +936,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 StreamFilterParent

@@ -2998,7 +2998,7 @@ GetFilesHelperParent
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 GetFilesHelperParent

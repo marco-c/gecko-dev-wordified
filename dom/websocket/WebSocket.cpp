@@ -3249,7 +3249,7 @@ SuppressException
 )
 ;
 }
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketImpl
@@ -3264,7 +3264,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketImpl

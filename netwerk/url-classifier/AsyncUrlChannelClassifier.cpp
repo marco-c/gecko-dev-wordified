@@ -993,7 +993,7 @@ URIData
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 URIData
@@ -2016,7 +2016,7 @@ FeatureData
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 FeatureData
@@ -3979,7 +3979,7 @@ FeatureTask
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 FeatureTask
@@ -3994,7 +3994,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 FeatureTask

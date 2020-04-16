@@ -300,7 +300,7 @@ the
 main
 thread
 .
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 StatementData

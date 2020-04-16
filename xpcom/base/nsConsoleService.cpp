@@ -420,8 +420,9 @@ MessageElement
 MessageElement
 (
 )
-{
-}
+=
+default
+;
 nsConsoleService
 :
 :
@@ -2198,7 +2199,7 @@ the
 main
 thread
 .
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsConsoleService

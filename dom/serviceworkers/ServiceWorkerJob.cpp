@@ -1442,7 +1442,7 @@ complete
 as
 well
 .
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ServiceWorkerJobProxyRunnable

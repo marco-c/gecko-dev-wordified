@@ -1940,7 +1940,7 @@ if
 observer
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 TLSServerConnectionInfo

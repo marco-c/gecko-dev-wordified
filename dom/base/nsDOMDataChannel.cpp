@@ -3074,7 +3074,7 @@ event
 (
 always
 )
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsDOMDataChannel

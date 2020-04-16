@@ -1459,7 +1459,7 @@ featureData
 mFeatureData
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 FeatureHolder
@@ -1476,7 +1476,7 @@ forget
 )
 ;
 }
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 FeatureHolder
@@ -6896,7 +6896,7 @@ if
 mCallback
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsUrlClassifierLookupCallback

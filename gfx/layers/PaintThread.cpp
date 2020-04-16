@@ -1524,7 +1524,7 @@ on
 to
 UnscaledFonts
 .
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 PaintTask

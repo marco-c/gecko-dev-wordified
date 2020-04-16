@@ -3312,7 +3312,7 @@ EqualsLiteral
 FILE_REMOTE_TYPE
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ContentParent

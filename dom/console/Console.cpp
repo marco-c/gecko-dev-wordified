@@ -1665,7 +1665,7 @@ MainThreadConsoleData
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MainThreadConsoleData
@@ -1680,7 +1680,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MainThreadConsoleData

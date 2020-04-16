@@ -7830,7 +7830,7 @@ RequestListener
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 RequestListener

@@ -3385,7 +3385,7 @@ AsyncInitDatabase
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AsyncInitDatabase
@@ -3400,7 +3400,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AsyncInitDatabase
@@ -3452,7 +3452,7 @@ is
 released
 here
 .
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AsyncInitDatabase

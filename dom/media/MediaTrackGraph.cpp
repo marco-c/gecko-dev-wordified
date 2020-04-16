@@ -12448,7 +12448,7 @@ outside
 of
 StableState
 .
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MediaTrackGraphImpl

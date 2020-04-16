@@ -250,7 +250,7 @@ usable
 with
 /
 /
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 .
 class
 JSObjectHolder
@@ -295,8 +295,9 @@ private
 JSObjectHolder
 (
 )
-{
-}
+=
+default
+;
 JS
 :
 :
