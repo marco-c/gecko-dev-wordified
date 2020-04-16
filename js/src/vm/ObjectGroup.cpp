@@ -489,7 +489,7 @@ ObjectGroupFlags
 initialFlags
 )
 :
-clasp_
+headerAndClasp_
 (
 clasp
 )
