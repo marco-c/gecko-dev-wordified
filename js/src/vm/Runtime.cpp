@@ -629,10 +629,11 @@ void
 HelperThreadTaskCallback
 )
 (
-UniquePtr
-<
+js
+:
+:
 RunnableTask
->
+*
 )
 ;
 bool

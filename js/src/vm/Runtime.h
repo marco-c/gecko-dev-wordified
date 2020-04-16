@@ -7335,13 +7335,8 @@ HelperThreadTaskCallback
 js
 :
 :
-UniquePtr
-<
-js
-:
-:
 RunnableTask
->
+*
 )
 ;
 }
