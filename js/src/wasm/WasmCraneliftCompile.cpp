@@ -360,7 +360,7 @@ return
 SymbolicAddress
 :
 :
-FuncRef
+RefFunc
 ;
 case
 BD_SymbolicAddress

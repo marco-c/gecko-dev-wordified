@@ -68897,7 +68897,7 @@ return
 emitInstanceCall
 (
 lineOrBytecode
-SASigFuncRef
+SASigRefFunc
 )
 ;
 }

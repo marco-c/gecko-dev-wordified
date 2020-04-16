@@ -416,7 +416,7 @@ SASigTableSize
 extern
 const
 SymbolicAddressSignature
-SASigFuncRef
+SASigRefFunc
 ;
 extern
 const

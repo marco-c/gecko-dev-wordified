@@ -14761,7 +14761,7 @@ TableGrow
 TableInit
 TableSet
 TableSize
-FuncRef
+RefFunc
 PreBarrierFiltering
 PostBarrier
 PostBarrierFiltering
