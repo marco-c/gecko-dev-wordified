@@ -6001,6 +6001,12 @@ ScrollableLayerGuid
 aGuid
 )
 ;
+ScreenMargin
+GetCompositorFixedLayerMargins
+(
+)
+const
+;
 protected
 :
 /
