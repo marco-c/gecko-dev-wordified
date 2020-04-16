@@ -19090,8 +19090,18 @@ left
 MDefinition
 *
 right
+MIRType
+specialization
 )
 {
+MOZ_ASSERT
+(
+IsNumberType
+(
+specialization
+)
+)
+;
 switch
 (
 op
@@ -19112,6 +19122,7 @@ New
 alloc
 left
 right
+specialization
 )
 ;
 case
@@ -19129,6 +19140,7 @@ New
 alloc
 left
 right
+specialization
 )
 ;
 case
@@ -19146,6 +19158,7 @@ New
 alloc
 left
 right
+specialization
 )
 ;
 case
@@ -19163,6 +19176,7 @@ New
 alloc
 left
 right
+specialization
 )
 ;
 case
@@ -19180,6 +19194,7 @@ New
 alloc
 left
 right
+specialization
 )
 ;
 default
