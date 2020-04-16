@@ -4,6 +4,11 @@
 reftest
 |
 skip
+-
+if
+(
+release_or_beta
+)
 error
 :
 SyntaxError
@@ -16,7 +21,8 @@ assignment
 operators
 is
 not
-supported
+released
+yet
 /
 /
 Copyright

@@ -5,6 +5,11 @@ reftest
 |
 skip
 -
+if
+(
+release_or_beta
+)
+-
 -
 logical
 -
@@ -13,7 +18,8 @@ assignment
 operators
 is
 not
-supported
+released
+yet
 '
 use
 strict
