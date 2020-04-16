@@ -1902,13 +1902,14 @@ RootedObject
 obj
 (
 cx
-NewSingletonObjectWithGivenProto
+NewObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 proto
+SingletonObject
 )
 )
 ;

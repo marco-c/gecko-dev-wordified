@@ -9839,6 +9839,13 @@ setClass
 OuterWindowProxyClass
 )
 ;
+options
+.
+setSingleton
+(
+true
+)
+;
 JSObject
 *
 obj
@@ -9849,7 +9856,7 @@ js
 Wrapper
 :
 :
-NewSingleton
+New
 (
 cx
 global

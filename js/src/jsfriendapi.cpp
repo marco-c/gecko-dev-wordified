@@ -912,11 +912,12 @@ RootedObject
 obj
 (
 cx
-NewSingletonObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 clasp
 nullptr
+SingletonObject
 )
 )
 ;

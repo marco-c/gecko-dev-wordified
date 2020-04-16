@@ -201,12 +201,13 @@ MOZ_ASSERT
 obj
 -
 >
-is
-<
-DebuggerInstanceObject
->
+getClass
 (
 )
+=
+=
+&
+class_
 )
 ;
 return

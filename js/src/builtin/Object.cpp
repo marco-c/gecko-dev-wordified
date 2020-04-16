@@ -6537,7 +6537,7 @@ newKind
 ;
 }
 return
-NewObjectWithGivenProtoAndKinds
+NewObjectWithGivenProto
 <
 PlainObject
 >
@@ -13324,13 +13324,14 @@ RootedPlainObject
 objectProto
 (
 cx
-NewSingletonObjectWithGivenProto
+NewObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 nullptr
+SingletonObject
 )
 )
 ;

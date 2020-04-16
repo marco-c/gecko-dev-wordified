@@ -258,7 +258,7 @@ h
 js
 :
 :
-NewObjectWithGivenProto
+NewObjectWithNullTaggedProto
 #
 include
 "
@@ -344,13 +344,12 @@ ListObject
 *
 obj
 =
-NewObjectWithGivenProto
+NewObjectWithNullTaggedProto
 <
 ListObject
 >
 (
 cx
-nullptr
 )
 ;
 if

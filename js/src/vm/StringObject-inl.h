@@ -280,7 +280,7 @@ StringObject
 obj
 (
 cx
-NewObjectWithClassProtoAndKind
+NewObjectWithClassProto
 <
 StringObject
 >

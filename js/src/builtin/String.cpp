@@ -28108,7 +28108,7 @@ output
 /
 object
 .
-ArrayObject
+JSObject
 *
 templateObject
 =
