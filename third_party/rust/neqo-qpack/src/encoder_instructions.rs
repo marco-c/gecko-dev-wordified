@@ -938,7 +938,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 }
 }
@@ -1213,7 +1213,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 }
 EncoderInstructionReaderState
@@ -1402,7 +1402,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 }
 }
@@ -1545,7 +1545,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 }
 }
@@ -1621,7 +1621,12 @@ use
 super
 :
 :
-*
+{
+EncoderInstruction
+EncoderInstructionReader
+Error
+QPData
+}
 ;
 use
 crate
@@ -1640,6 +1645,7 @@ test_encoding_decoding
 (
 instruction
 :
+&
 EncoderInstruction
 use_huffman
 :
@@ -1718,6 +1724,7 @@ unwrap
 unwrap
 (
 )
+*
 instruction
 )
 ;
@@ -1733,6 +1740,7 @@ test_encoding_decoding_instructions
 {
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1747,6 +1755,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1761,6 +1770,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1784,6 +1794,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1807,6 +1818,7 @@ true
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1830,6 +1842,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1853,6 +1866,7 @@ true
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1876,6 +1890,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1899,6 +1914,7 @@ true
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1922,6 +1938,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1945,6 +1962,7 @@ true
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -1974,6 +1992,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -2003,6 +2022,7 @@ true
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -2017,6 +2037,7 @@ false
 ;
 test_encoding_decoding
 (
+&
 EncoderInstruction
 :
 :
@@ -2035,6 +2056,7 @@ test_encoding_decoding_slow_reader
 (
 instruction
 :
+&
 EncoderInstruction
 use_huffman
 :
@@ -2180,6 +2202,7 @@ unwrap
 unwrap
 (
 )
+*
 instruction
 )
 ;
@@ -2195,6 +2218,7 @@ test_encoding_decoding_instructions_slow_reader
 {
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2209,6 +2233,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2223,6 +2248,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2246,6 +2272,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2269,6 +2296,7 @@ true
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2292,6 +2320,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2315,6 +2344,7 @@ true
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2338,6 +2368,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2361,6 +2392,7 @@ true
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2384,6 +2416,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2407,6 +2440,7 @@ true
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2436,6 +2470,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2465,6 +2500,7 @@ true
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2479,6 +2515,7 @@ false
 ;
 test_encoding_decoding_slow_reader
 (
+&
 EncoderInstruction
 :
 :
@@ -2569,7 +2606,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 )
 ;
@@ -2647,7 +2684,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 )
 ;
@@ -2715,7 +2752,7 @@ Err
 Error
 :
 :
-EncoderStreamError
+EncoderStream
 )
 )
 ;
