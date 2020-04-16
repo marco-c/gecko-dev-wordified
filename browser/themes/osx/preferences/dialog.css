@@ -65,9 +65,6 @@ include
 .
 .
 /
-.
-.
-/
 shared
 /
 incontentprefs
@@ -77,6 +74,17 @@ dialog
 inc
 .
 css
+window
+{
+font
+:
+message
+-
+box
+!
+important
+;
+}
 :
 root
 >
@@ -88,6 +96,6 @@ size
 :
 1
 .
-05em
+18em
 ;
 }
