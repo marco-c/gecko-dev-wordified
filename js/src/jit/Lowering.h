@@ -439,16 +439,6 @@ ins
 )
 ;
 void
-lowerBinaryV
-(
-JSOp
-op
-MBinaryInstruction
-*
-ins
-)
-;
-void
 definePhis
 (
 )
