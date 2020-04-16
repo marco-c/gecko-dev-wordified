@@ -1904,12 +1904,9 @@ aMetadata
 .
 mIV
 .
-size
+empty
 (
 )
-=
-=
-0
 &
 &
 AllZero
