@@ -3929,6 +3929,14 @@ aConsiderOpener
 true
 )
 ;
+bool
+IsSandboxedFrom
+(
+BrowsingContext
+*
+aTarget
+)
+;
 /
 /
 The
