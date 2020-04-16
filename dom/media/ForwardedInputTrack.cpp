@@ -1027,7 +1027,7 @@ uint32_t
 aFlags
 )
 {
-TRACE_AUDIO_CALLBACK_COMMENT
+TRACE_COMMENT
 (
 "
 ForwardedInputTrack

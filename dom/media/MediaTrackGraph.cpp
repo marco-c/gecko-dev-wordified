@@ -8439,7 +8439,7 @@ Length
 j
 )
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -8472,7 +8472,7 @@ GraphTime
 aEndBlockingDecisions
 )
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -9163,7 +9163,7 @@ AudioMixer
 aMixer
 )
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -9887,7 +9887,7 @@ aMixer
 >
 IterationResult
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -10020,7 +10020,7 @@ mGraphRunner
 mRealtime
 )
 {
-TRACE_AUDIO_CALLBACK_COMMENT
+TRACE_COMMENT
 (
 "
 MessagePort
@@ -16811,7 +16811,7 @@ GraphTime
 aDesiredUpToTime
 )
 {
-TRACE_AUDIO_CALLBACK_COMMENT
+TRACE_COMMENT
 (
 "
 SourceMediaTrack

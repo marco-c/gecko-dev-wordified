@@ -7570,7 +7570,7 @@ listener
 return
 ;
 }
-TRACE_AUDIO_CALLBACK_COMMENT
+TRACE_COMMENT
 (
 "
 Audio
@@ -9077,7 +9077,7 @@ TrackTime
 aDesiredTime
 )
 {
-TRACE_AUDIO_CALLBACK_COMMENT
+TRACE_COMMENT
 (
 "
 Listener
