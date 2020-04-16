@@ -331,13 +331,6 @@ h
 #
 include
 "
-nsCookiePermission
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

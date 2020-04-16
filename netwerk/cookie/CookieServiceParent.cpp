@@ -1494,7 +1494,7 @@ have
 to
 worry
 about
-nsCookiePermission
+CookiePermission
 trying
 /
 /
