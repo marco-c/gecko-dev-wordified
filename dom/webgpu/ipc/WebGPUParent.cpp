@@ -1745,14 +1745,6 @@ mSize
 ;
 desc
 .
-array_layer_count
-=
-aDesc
-.
-mArrayLayerCount
-;
-desc
-.
 mip_level_count
 =
 aDesc
