@@ -239,10 +239,7 @@ pub
 type
 CGError
 =
-libc
-:
-:
-int32_t
+i32
 ;
 pub
 const

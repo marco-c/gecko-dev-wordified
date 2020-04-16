@@ -567,14 +567,14 @@ pixels_wide
 (
 )
 as
-f64
+_
 display
 .
 pixels_high
 (
 )
 as
-f64
+_
 )
 ;
 let

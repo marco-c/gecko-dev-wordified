@@ -244,8 +244,7 @@ u32
 ;
 /
 /
-OS
-X
+macOS
 built
 -
 in

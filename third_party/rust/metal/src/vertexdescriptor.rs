@@ -287,6 +287,18 @@ repr
 u64
 )
 ]
+#
+[
+derive
+(
+Copy
+Clone
+Debug
+Eq
+PartialEq
+Hash
+)
+]
 pub
 enum
 MTLVertexStepFunction
@@ -530,7 +542,7 @@ object_at
 self
 index
 :
-usize
+NSUInteger
 )
 -
 >
@@ -560,7 +572,7 @@ set_object_at
 self
 index
 :
-usize
+NSUInteger
 layout
 :
 Option
@@ -809,7 +821,7 @@ object_at
 self
 index
 :
-usize
+NSUInteger
 )
 -
 >
@@ -839,7 +851,7 @@ set_object_at
 self
 index
 :
-usize
+NSUInteger
 attribute
 :
 Option
