@@ -177,10 +177,10 @@ License
 /
 #
 ifndef
-wasm_testing_h
+shell_wasm_h
 #
 define
-wasm_testing_h
+shell_wasm_h
 #
 include
 "
@@ -342,4 +342,4 @@ js
 endif
 /
 /
-wasm_testing_h
+shell_wasm_h

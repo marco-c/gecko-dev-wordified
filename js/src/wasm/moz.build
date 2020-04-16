@@ -256,11 +256,6 @@ WasmTable
 cpp
 '
 '
-WasmTesting
-.
-cpp
-'
-'
 WasmTypes
 .
 cpp

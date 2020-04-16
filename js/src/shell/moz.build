@@ -205,6 +205,11 @@ OSObject
 .
 cpp
 '
+'
+WasmTesting
+.
+cpp
+'
 ]
 if
 CONFIG

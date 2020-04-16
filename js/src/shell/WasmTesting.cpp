@@ -180,7 +180,7 @@ License
 #
 include
 "
-wasm
+shell
 /
 WasmTesting
 .
