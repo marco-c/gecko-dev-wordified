@@ -2915,6 +2915,8 @@ GetFirstSensibleColumn
 XULTreeElement
 *
 aTree
+FlushType
+aFlushType
 )
 {
 if
@@ -2938,6 +2940,7 @@ aTree
 >
 GetColumns
 (
+aFlushType
 )
 ;
 if
