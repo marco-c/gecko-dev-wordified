@@ -209,6 +209,11 @@ nsTString
 h
 '
 '
+nsTStringHasher
+.
+h
+'
+'
 nsTStringRepr
 .
 h
