@@ -9697,6 +9697,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
+const
 override
 ;
 NS_IMETHOD

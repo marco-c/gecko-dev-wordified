@@ -591,6 +591,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
+const
 =
 0
 ;

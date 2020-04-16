@@ -1566,6 +1566,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
+const
 override
 ;
 /

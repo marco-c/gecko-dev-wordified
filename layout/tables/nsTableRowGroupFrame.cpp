@@ -12368,6 +12368,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
+const
 {
 nsTableFrame
 *
