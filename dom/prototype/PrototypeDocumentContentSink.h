@@ -576,6 +576,12 @@ mDocument
 ;
 RefPtr
 <
+nsNodeInfoManager
+>
+mNodeInfoManager
+;
+RefPtr
+<
 ScriptLoader
 >
 mScriptLoader
@@ -1123,9 +1129,8 @@ Element
 *
 *
 aResult
-nsIContent
-*
-aParent
+bool
+aIsRoot
 )
 ;
 /
