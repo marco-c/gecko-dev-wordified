@@ -7039,7 +7039,7 @@ PlacesSearchAutocompleteProvider
 await
 PlacesSearchAutocompleteProvider
 .
-ensureInitialized
+ensureReady
 (
 )
 ;
