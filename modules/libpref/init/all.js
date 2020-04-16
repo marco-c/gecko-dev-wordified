@@ -49192,7 +49192,7 @@ signon
 .
 showAutoCompleteFooter
 "
-true
+false
 )
 ;
 pref

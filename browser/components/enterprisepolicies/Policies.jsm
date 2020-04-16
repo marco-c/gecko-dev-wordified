@@ -6281,17 +6281,6 @@ logins
 true
 )
 ;
-gBlockedChromePages
-.
-push
-(
-"
-passwordManager
-.
-xhtml
-"
-)
-;
 setAndLockPref
 (
 "
