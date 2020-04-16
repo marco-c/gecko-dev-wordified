@@ -1366,6 +1366,7 @@ nsRect
 &
 aLineBounds
 )
+const
 override
 ;
 /
