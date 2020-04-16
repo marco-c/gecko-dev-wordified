@@ -506,6 +506,9 @@ the
 property
 *
 /
+[
+can_run_script
+]
 void
 getInlineProperty
 (
@@ -529,6 +532,9 @@ boolean
 aAll
 )
 ;
+[
+can_run_script
+]
 AString
 getInlinePropertyWithAttrValue
 (
@@ -1356,6 +1362,9 @@ none
 .
 *
 /
+[
+can_run_script
+]
 AString
 getFontFaceState
 (
@@ -1404,6 +1413,9 @@ none
 .
 *
 /
+[
+can_run_script
+]
 AString
 getHighlightColorState
 (
@@ -1689,6 +1701,9 @@ right
 )
 *
 /
+[
+can_run_script
+]
 void
 getAlignment
 (
