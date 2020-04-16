@@ -1446,6 +1446,11 @@ uint32_t
 aIndex
 )
 ;
+void
+RemoveFromTearoffTable
+(
+)
+;
 /
 /
 Weak
