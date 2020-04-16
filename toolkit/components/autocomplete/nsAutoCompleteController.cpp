@@ -2463,6 +2463,10 @@ KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_UP
+?
+true
+:
+false
 ;
 bool
 page
@@ -2489,6 +2493,10 @@ KeyboardEvent_Binding
 :
 :
 DOM_VK_PAGE_DOWN
+?
+true
+:
+false
 ;
 /
 /
