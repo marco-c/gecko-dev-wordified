@@ -3824,13 +3824,6 @@ setClass
 ShellWindowProxyClass
 )
 ;
-options
-.
-setSingleton
-(
-true
-)
-;
 JSAutoRealm
 ar
 (
@@ -3848,7 +3841,7 @@ js
 Wrapper
 :
 :
-New
+NewSingleton
 (
 cx
 global
