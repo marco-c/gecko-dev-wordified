@@ -878,7 +878,7 @@ e
 /
 throw
 the
-expections
+exceptions
 from
 pending
 functions

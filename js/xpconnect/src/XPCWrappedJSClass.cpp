@@ -4525,7 +4525,7 @@ JS
 might
 throw
 an
-expection
+exception
 whether
 the
 reporter

@@ -617,7 +617,7 @@ notification
 .
 The
 *
-expection
+exception
 for
 this
 is

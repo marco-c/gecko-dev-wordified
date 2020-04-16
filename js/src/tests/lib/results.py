@@ -2644,7 +2644,7 @@ test
 result
 x
 test
-expection
+expectation
 )
 to
 text
