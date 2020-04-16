@@ -6255,14 +6255,13 @@ else
 {
 intrinsicsHolder
 =
-NewObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 nullptr
-TenuredObject
 )
 ;
 if
