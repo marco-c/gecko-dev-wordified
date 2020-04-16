@@ -229,7 +229,11 @@ PProfilerChild
 aEndpoint
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsCString
 GrabShutdownProfileAndShutdown
 (

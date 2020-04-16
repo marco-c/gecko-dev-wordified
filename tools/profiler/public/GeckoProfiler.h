@@ -3807,7 +3807,11 @@ callback
 is
 allowed
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 profiler_callback_after_sampling
 (
