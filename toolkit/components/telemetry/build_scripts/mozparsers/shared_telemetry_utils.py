@@ -75,11 +75,13 @@ __future__
 import
 print_function
 import
+os
+import
 re
 import
-yaml
-import
 sys
+import
+yaml
 #
 This
 is
@@ -531,11 +533,14 @@ file
 sys
 .
 stderr
+flush
+=
+True
 )
         
-sys
+os
 .
-exit
+_exit
 (
 1
 )
