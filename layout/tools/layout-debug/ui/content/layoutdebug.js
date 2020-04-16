@@ -308,6 +308,9 @@ dumpContent
 dumpFrames
 "
 "
+dumpFramesInCSSPixels
+"
+"
 dumpViews
 "
 "
