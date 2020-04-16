@@ -2557,6 +2557,7 @@ mInputSources
 >
 Clear
 (
+this
 )
 ;
 }
