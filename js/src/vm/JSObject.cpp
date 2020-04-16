@@ -7366,7 +7366,7 @@ else
 {
 res
 =
-NewBuiltinClassInstance
+NewBuiltinClassInstanceWithKind
 <
 PlainObject
 >

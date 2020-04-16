@@ -6506,13 +6506,12 @@ WithObjectPrototype
 :
 Yes
 ?
-NewBuiltinClassInstance
+NewTenuredBuiltinClassInstance
 <
 PlainObject
 >
 (
 cx
-TenuredObject
 )
 :
 NewObjectWithGivenProto
