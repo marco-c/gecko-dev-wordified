@@ -475,10 +475,6 @@ in
 /
 ThreadParkerT
 .
-#
-[
-inline
-]
 unsafe
 fn
 unpark
@@ -495,9 +491,6 @@ if
 [
 cfg
 (
-all
-(
-has_sized_atomics
 any
 (
 target_os
@@ -510,7 +503,6 @@ target_os
 "
 android
 "
-)
 )
 )
 ]
@@ -585,15 +577,11 @@ if
 [
 cfg
 (
-all
-(
-has_sized_atomics
 target_os
 =
 "
 redox
 "
-)
 )
 ]
 {
