@@ -963,7 +963,10 @@ initialEnvironment
 return
 WarpEnvironment
 (
+ConstantObjectEnvironment
+(
 obj
+)
 )
 ;
 }
@@ -1048,7 +1051,10 @@ lexicalEnvironment
 return
 WarpEnvironment
 (
+ConstantObjectEnvironment
+(
 obj
+)
 )
 ;
 }
