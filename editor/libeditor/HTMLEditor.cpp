@@ -33298,7 +33298,6 @@ rvIgnored
 =
 InitializeSelection
 (
-*
 node
 )
 ;
