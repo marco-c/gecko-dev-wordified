@@ -156,6 +156,12 @@ aHolder
 nsScriptObjectTracer
 *
 aTracer
+JS
+:
+:
+Zone
+*
+aZone
 )
 {
 CycleCollectedJSRuntime
@@ -189,6 +195,7 @@ AddJSHolder
 (
 aHolder
 aTracer
+aZone
 )
 ;
 }

@@ -17621,6 +17621,7 @@ Zone
 *
 GetObjectZoneFromAnyThread
 (
+const
 JSObject
 *
 obj
