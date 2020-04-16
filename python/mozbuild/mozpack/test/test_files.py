@@ -199,6 +199,8 @@ mozunit
 import
 os
 import
+platform
+import
 random
 import
 six
@@ -256,6 +258,16 @@ hardlink_supported
 =
 False
         
+#
+See
+comment
+in
+mozpack
+.
+files
+.
+AbsoluteSymlinkFile
+        
 if
 hasattr
 (
@@ -264,6 +276,17 @@ os
 symlink
 '
 )
+and
+platform
+.
+system
+(
+)
+!
+=
+'
+Windows
+'
 :
             
 dummy_path
