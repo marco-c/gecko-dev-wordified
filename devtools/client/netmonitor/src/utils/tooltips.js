@@ -67,7 +67,7 @@ strict
 *
 Returns
 first
-1024
+128
 characters
 of
 value
@@ -98,14 +98,14 @@ object
 .
 length
 >
-1024
+128
 ?
 object
 .
 substring
 (
 0
-1024
+128
 )
 +
 "
