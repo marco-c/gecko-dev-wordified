@@ -158,11 +158,6 @@ array
 :
 tabDescriptor
 "
-selected
-:
-"
-number
-"
 }
 )
 ;
