@@ -479,7 +479,7 @@ popup
 block
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -544,7 +544,7 @@ openIdentityPopup
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -757,7 +757,7 @@ popup
 block
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -892,7 +892,7 @@ TabOpen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1097,7 +1097,7 @@ popup
 block
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1327,7 +1327,7 @@ TabOpen
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
