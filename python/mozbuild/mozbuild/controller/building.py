@@ -9818,7 +9818,6 @@ def
 install_tests
 (
 self
-test_objs
 )
 :
         
@@ -9890,7 +9889,6 @@ topobjdir
 '
 _tests
 '
-test_objs
 )
     
 def

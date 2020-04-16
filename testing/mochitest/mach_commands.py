@@ -2374,7 +2374,6 @@ driver
 .
 install_tests
 (
-tests
 )
         
 subsuite
