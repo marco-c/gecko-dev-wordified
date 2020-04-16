@@ -1582,6 +1582,16 @@ will
 navigate
 "
 ;
+packet
+.
+timeStamp
+=
+Date
+.
+now
+(
+)
+;
 this
 .
 dispatchMessageAdd
