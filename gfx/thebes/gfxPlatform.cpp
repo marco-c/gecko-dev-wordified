@@ -20148,6 +20148,8 @@ CheckHardwareStretchingSupport
 )
 )
 {
+/
+*
 featureComp
 .
 Disable
@@ -20170,6 +20172,8 @@ FEATURE_FAILURE_NO_HARDWARE_STRETCHING
 )
 )
 ;
+*
+/
 }
 #
 endif
