@@ -361,7 +361,6 @@ NS_INTERFACE_MAP_END_INHERITING
 (
 EditTransactionBase
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 SplitNodeTransaction
 :
@@ -791,7 +790,6 @@ StealNSResult
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 SplitNodeTransaction
 :
@@ -979,7 +977,6 @@ state
 .
 *
 /
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 SplitNodeTransaction
 :

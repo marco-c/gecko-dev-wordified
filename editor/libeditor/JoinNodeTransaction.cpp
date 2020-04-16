@@ -392,7 +392,6 @@ right
 node
 remains
 .
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 JoinNodeTransaction
 :
@@ -625,7 +624,6 @@ re
 inserted
 mLeft
 ?
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 JoinNodeTransaction
 :
