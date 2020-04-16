@@ -503,16 +503,6 @@ should
 be
 used
 .
-Use
-aProxyService
-.
-newProxyInfo
-to
-*
-construct
-nsIProxyInfo
-objects
-.
 *
 /
 void
