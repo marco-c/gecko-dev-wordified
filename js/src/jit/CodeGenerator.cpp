@@ -48977,7 +48977,6 @@ RegExpStringIteratorObject
 (
 JSContext
 *
-NewObjectKind
 )
 ;
 ool
@@ -48985,16 +48984,12 @@ ool
 oolCallVM
 <
 Fn
-NewRegExpStringIteratorObject
+NewRegExpStringIterator
 >
 (
 lir
 ArgList
 (
-Imm32
-(
-GenericObject
-)
 )
 StoreRegisterTo
 (

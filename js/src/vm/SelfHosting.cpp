@@ -6306,7 +6306,7 @@ JSObject
 *
 obj
 =
-NewRegExpStringIteratorObject
+NewRegExpStringIterator
 (
 cx
 )
