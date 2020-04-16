@@ -774,9 +774,9 @@ BookmarkAllTabs
 oncommand
 =
 "
-PlacesCommandHook
+PlacesUIUtils
 .
-bookmarkPages
+showBookmarkPagesDialog
 (
 PlacesCommandHook
 .
@@ -3694,9 +3694,9 @@ shortcut
 oncommand
 =
 "
-PlacesCommandHook
+PlacesUIUtils
 .
-bookmarkPages
+showBookmarkPagesDialog
 (
 PlacesCommandHook
 .
