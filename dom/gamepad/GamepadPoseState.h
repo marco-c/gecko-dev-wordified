@@ -244,7 +244,7 @@ Cap_LinearAcceleration
 *
 *
 *
-Cap_GripSpacePosition
+Cap_TargetRaySpacePosition
 is
 set
 if
@@ -252,13 +252,14 @@ the
 Gamepad
 has
 a
-grip
+target
+ray
 space
 position
 .
 *
 /
-Cap_GripSpacePosition
+Cap_TargetRaySpacePosition
 =
 1
 <
