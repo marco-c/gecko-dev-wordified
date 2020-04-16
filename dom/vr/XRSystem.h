@@ -550,6 +550,12 @@ OnXRPermissionRequestCancel
 (
 )
 ;
+bool
+HasActiveImmersiveSession
+(
+)
+const
+;
 /
 /
 WebIDL

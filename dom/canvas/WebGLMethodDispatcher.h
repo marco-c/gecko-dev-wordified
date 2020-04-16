@@ -244,6 +244,13 @@ HostWebGLContext
 :
 CreateFramebuffer
 )
+DEFINE_SYNC
+(
+HostWebGLContext
+:
+:
+CreateOpaqueFramebuffer
+)
 DEFINE_ASYNC
 (
 HostWebGLContext
@@ -1174,6 +1181,13 @@ HostWebGLContext
 :
 :
 GetQueryParameter
+)
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
+SetFramebufferIsInOpaqueRAF
 )
 #
 undef

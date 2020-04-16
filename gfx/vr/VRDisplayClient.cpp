@@ -459,6 +459,10 @@ PresentationCreated
 (
 )
 ;
+MakePresentationGenerationCurrent
+(
+)
+;
 mSessions
 .
 AppendElement

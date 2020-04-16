@@ -204,6 +204,10 @@ SharedSurfaceTextureClient
 >
 GetVRFrame
 (
+webgl
+:
+:
+ObjectId
 )
 ;
 private

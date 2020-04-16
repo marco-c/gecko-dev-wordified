@@ -163,6 +163,9 @@ gfx
 class
 VRDisplayClient
 ;
+class
+VRDisplayPresentation
+;
 }
 /
 /
@@ -517,6 +520,11 @@ StartFrame
 (
 )
 ;
+void
+ExitPresent
+(
+)
+;
 /
 /
 nsARefreshObserver
@@ -593,6 +601,15 @@ gfx
 VRDisplayClient
 >
 mDisplayClient
+;
+RefPtr
+<
+gfx
+:
+:
+VRDisplayPresentation
+>
+mDisplayPresentation
 ;
 RefPtr
 <
