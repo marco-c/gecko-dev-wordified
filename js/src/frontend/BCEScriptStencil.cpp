@@ -395,6 +395,13 @@ index
 )
 )
 ;
+fieldInitializers
+=
+funbox
+-
+>
+fieldInitializers
+;
 /
 /
 Set
