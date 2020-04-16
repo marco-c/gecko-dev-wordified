@@ -1666,9 +1666,6 @@ AudioParamMap
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -1747,9 +1744,6 @@ AudioWorklet
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -1776,9 +1770,6 @@ AudioWorkletNode
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
@@ -16424,9 +16415,6 @@ Worklet
 insecureContext
 :
 false
-nightly
-:
-true
 }
 /
 /
