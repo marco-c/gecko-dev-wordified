@@ -168,6 +168,8 @@ h
 #
 include
 "
+mozilla
+/
 PermissionDelegateHandler
 .
 h
