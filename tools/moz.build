@@ -610,13 +610,6 @@ python
 ini
 '
 '
-rb
-/
-python
-.
-ini
-'
-'
 tryselect
 /
 test

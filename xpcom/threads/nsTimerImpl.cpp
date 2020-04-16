@@ -1169,13 +1169,11 @@ post
 -
 processing
 with
-/
-/
 tools
 /
 rb
 /
-fix_linux_stack
+fix_stacks
 .
 py
 .
@@ -4311,7 +4309,7 @@ prefix
 is
 necessary
 for
-fix_linux_stack
+fix_stacks
 .
 py
 to
@@ -4970,8 +4968,9 @@ nsTimer
 nsTimer
 (
 )
-{
-}
+=
+default
+;
 size_t
 nsTimer
 :
