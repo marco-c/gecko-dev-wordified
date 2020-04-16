@@ -268,6 +268,14 @@ level
 -
 await
 "
+    
+"
+logical
+-
+assignment
+-
+operators
+"
 ]
 )
 FEATURE_CHECK_NEEDED
