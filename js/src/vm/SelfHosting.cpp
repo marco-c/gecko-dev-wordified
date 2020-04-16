@@ -5646,7 +5646,7 @@ JSObject
 *
 obj
 =
-NewArrayIteratorObject
+NewArrayIterator
 (
 cx
 )

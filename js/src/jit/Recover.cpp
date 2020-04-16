@@ -8065,7 +8065,7 @@ ArrayIterator
 :
 resultObject
 =
-NewArrayIteratorObject
+NewArrayIterator
 (
 cx
 )

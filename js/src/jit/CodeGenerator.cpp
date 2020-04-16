@@ -48895,7 +48895,6 @@ ArrayIteratorObject
 (
 JSContext
 *
-NewObjectKind
 )
 ;
 ool
@@ -48903,16 +48902,12 @@ ool
 oolCallVM
 <
 Fn
-NewArrayIteratorObject
+NewArrayIterator
 >
 (
 lir
 ArgList
 (
-Imm32
-(
-GenericObject
-)
 )
 StoreRegisterTo
 (
