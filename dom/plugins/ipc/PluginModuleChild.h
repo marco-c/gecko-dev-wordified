@@ -620,10 +620,6 @@ ipc
 IPCResult
 AnswerInitCrashReporter
 (
-Shmem
-&
-&
-aShmem
 mozilla
 :
 :

@@ -170,17 +170,6 @@ MemoryReportRequestHost
 namespace
 dom
 namespace
-ipc
-{
-class
-CrashReporterHost
-;
-}
-/
-/
-namespace
-ipc
-namespace
 net
 {
 class

@@ -361,8 +361,6 @@ parent
 async
 InitCrashReporter
 (
-Shmem
-shmem
 NativeThreadId
 threadId
 )
