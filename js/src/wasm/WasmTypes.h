@@ -7894,7 +7894,7 @@ length
 (
 )
 >
-1
+MaxResultsForJitEntry
 ;
 }
 /
@@ -7930,7 +7930,7 @@ length
 (
 )
 >
-1
+MaxResultsForJitExit
 ;
 }
 /
