@@ -132,6 +132,13 @@ CompositorThread
 .
 h
 "
+#
+include
+"
+VRManager
+.
+h
+"
 namespace
 mozilla
 {

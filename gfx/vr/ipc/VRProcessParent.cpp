@@ -140,6 +140,17 @@ include
 "
 mozilla
 /
+dom
+/
+MemoryReportRequest
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 GPUProcessManager
