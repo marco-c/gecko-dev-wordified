@@ -489,6 +489,11 @@ aArgs
 outerWindowId
 (
 )
+aArgs
+.
+hasValidTransientUserAction
+(
+)
 &
 rv
 )

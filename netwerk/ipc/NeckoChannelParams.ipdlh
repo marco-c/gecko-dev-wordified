@@ -2597,6 +2597,9 @@ initialClientInfo
 uint64_t
 outerWindowId
 ;
+bool
+hasValidTransientUserAction
+;
 }
 ;
 struct
