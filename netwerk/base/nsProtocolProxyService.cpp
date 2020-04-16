@@ -2906,6 +2906,7 @@ AsyncGetProxyForURI
 (
 proxyURI
 newRequest
+mResolveFlags
 true
 )
 ;
@@ -10272,6 +10273,7 @@ AsyncGetProxyForURI
 (
 uri
 ctx
+flags
 true
 )
 ;
