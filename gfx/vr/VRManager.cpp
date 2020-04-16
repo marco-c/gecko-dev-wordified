@@ -5042,6 +5042,11 @@ VRDisplayCapabilityFlags
 :
 :
 Cap_ImmersiveAR
+|
+VRDisplayCapabilityFlags
+:
+:
+Cap_Inline
 )
 ;
 mRuntimeDetectionCompleted

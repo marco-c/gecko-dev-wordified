@@ -1093,6 +1093,7 @@ T
 &
 aPoint
 )
+const
 {
 T
 uvx
