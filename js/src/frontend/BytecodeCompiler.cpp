@@ -2702,13 +2702,6 @@ sharedContext
 compilationInfo
 .
 script
-/
-*
-lazyScript
-=
-*
-/
-nullptr
 compilationInfo
 .
 options
@@ -4667,7 +4660,6 @@ parser
 &
 globalsc
 script
-nullptr
 0
 0
 compilationInfo
@@ -6029,7 +6021,6 @@ funbox
 )
 script
 lazy
-lazy
 -
 >
 lineno
@@ -6480,7 +6471,6 @@ funbox
 (
 )
 script
-lazy
 lazy
 -
 >
