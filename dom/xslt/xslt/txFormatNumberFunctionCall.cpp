@@ -1462,6 +1462,9 @@ bufsize
 auto
 buf
 =
+mozilla
+:
+:
 MakeUnique
 <
 char
@@ -1658,9 +1661,15 @@ t
 filled
 in
 .
+mozilla
+:
+:
 CheckedUint32
 resRemain
 =
+mozilla
+:
+:
 CheckedUint32
 (
 res

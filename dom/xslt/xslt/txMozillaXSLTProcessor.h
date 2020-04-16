@@ -184,6 +184,17 @@ mozilla
 /
 dom
 /
+ReferrerPolicyBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 XSLTProcessorBinding
 .
 h
@@ -193,6 +204,9 @@ nsINode
 ;
 class
 nsIURI
+;
+class
+nsIVariant
 ;
 class
 txStylesheet
