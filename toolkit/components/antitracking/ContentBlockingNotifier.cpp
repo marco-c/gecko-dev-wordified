@@ -1376,6 +1376,8 @@ BlockingDecision
 eAllow
 )
 ;
+return
+;
 }
 }
 nsAutoCString
