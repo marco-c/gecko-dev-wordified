@@ -15465,11 +15465,6 @@ raw
 :
 swapchain_raw
 functor
-vendor_id
-:
-self
-.
-vendor_id
 }
 ;
 let

@@ -426,9 +426,9 @@ argument_encoder
 .
 set_buffer
 (
-0
 &
 buffer
+0
 0
 )
 ;
@@ -436,10 +436,10 @@ argument_encoder
 .
 set_buffer
 (
-1
 &
 sum
 0
+1
 )
 ;
 let

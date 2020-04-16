@@ -170,10 +170,6 @@ bundle
 ;
 pub
 mod
-characterset
-;
-pub
-mod
 data
 ;
 pub
