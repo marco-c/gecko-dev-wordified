@@ -131,6 +131,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 GPUProcessHost
 .
 h

@@ -145,6 +145,9 @@ Units
 .
 h
 "
+class
+nsIWidget
+;
 namespace
 mozilla
 {
@@ -153,6 +156,9 @@ layers
 {
 class
 CompositorOptions
+;
+class
+LayerManager
 ;
 /
 /
