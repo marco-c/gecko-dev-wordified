@@ -726,6 +726,16 @@ LoadObjectResult
 \
 _
 (
+LoadInt32Result
+)
+\
+_
+(
+LoadDoubleResult
+)
+\
+_
+(
 LoadTypeOfObjectResult
 )
 \

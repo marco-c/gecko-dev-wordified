@@ -1216,6 +1216,10 @@ EMIT_OP
 JSOp
 :
 :
+Pos
+JSOp
+:
+:
 Neg
 JSOp
 :

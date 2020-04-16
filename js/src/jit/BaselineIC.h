@@ -11340,6 +11340,12 @@ BitNot
 JSOp
 :
 :
+Pos
+/
+/
+JSOp
+:
+:
 Neg
 /
 /
