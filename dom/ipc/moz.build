@@ -950,6 +950,12 @@ storage
 /
 extensions
 /
+permissions
+'
+'
+/
+extensions
+/
 spellcheck
 /
 src

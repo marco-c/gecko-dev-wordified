@@ -707,9 +707,7 @@ h
 #
 include
 "
-mozilla
-/
-PermissionManager
+nsPermissionManager
 .
 h
 "
@@ -1610,7 +1608,7 @@ Init
 (
 )
 ;
-PermissionManager
+nsPermissionManager
 :
 :
 Startup

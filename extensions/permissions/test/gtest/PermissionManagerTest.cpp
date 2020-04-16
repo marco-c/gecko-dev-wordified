@@ -124,9 +124,7 @@ h
 #
 include
 "
-mozilla
-/
-OriginAttributes
+nsPermissionManager
 .
 h
 "
@@ -135,7 +133,7 @@ include
 "
 mozilla
 /
-PermissionManager
+OriginAttributes
 .
 h
 "
@@ -180,7 +178,7 @@ namespace
 mozilla
 ;
 class
-PermissionManagerTester
+PermissionManager
 :
 public
 :
@@ -192,7 +190,7 @@ Test
 {
 protected
 :
-PermissionManagerTester
+PermissionManager
 (
 )
 :
@@ -215,7 +213,7 @@ override
 {
 mPermissionManager
 =
-PermissionManager
+nsPermissionManager
 :
 :
 GetInstance
@@ -311,7 +309,7 @@ mNonExistentType
 ;
 RefPtr
 <
-PermissionManager
+nsPermissionManager
 >
 mPermissionManager
 ;
@@ -325,7 +323,7 @@ mPrincipal
 ;
 MOZ_GTEST_BENCH_F
 (
-PermissionManagerTester
+PermissionManager
 TestNonExistentPermissionFromPrincipal
 [
 this

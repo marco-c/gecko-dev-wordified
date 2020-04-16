@@ -1626,7 +1626,7 @@ Force
 initialization
 of
 the
-PermissionManager
+nsPermissionManager
 for
 (
 let
