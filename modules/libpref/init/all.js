@@ -42176,6 +42176,8 @@ CN
 "
 "
 Times
+New
+Roman
 Songti
 SC
 STSong
@@ -42202,7 +42204,7 @@ zh
 CN
 "
 "
-Helvetica
+Arial
 PingFang
 SC
 STHeiti
@@ -42274,6 +42276,8 @@ TW
 "
 "
 Times
+New
+Roman
 Songti
 TC
 LiSong
@@ -42301,7 +42305,7 @@ zh
 TW
 "
 "
-Helvetica
+Arial
 PingFang
 TC
 Heiti
@@ -42375,6 +42379,8 @@ HK
 "
 "
 Times
+New
+Roman
 Songti
 TC
 LiSong
@@ -42402,7 +42408,7 @@ zh
 HK
 "
 "
-Helvetica
+Arial
 PingFang
 TC
 Heiti
