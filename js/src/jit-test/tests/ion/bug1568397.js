@@ -7,9 +7,13 @@ test
 |
 error
 :
-tmp
-is
-undefined
+TypeError
+:
+can
+'
+t
+access
+property
 let
 obj
 =
