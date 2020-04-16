@@ -666,6 +666,10 @@ selectedSource
 Source
 selectedContent
 )
+:
+BreakpointPosition
+[
+]
 {
 return
 positions

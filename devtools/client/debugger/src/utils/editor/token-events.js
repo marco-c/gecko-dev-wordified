@@ -86,6 +86,8 @@ target
 :
 HTMLElement
 )
+:
+boolean
 {
 if
 (
@@ -312,6 +314,9 @@ true
 ;
 }
 return
+!
+!
+(
 invalidTarget
 |
 |
@@ -319,6 +324,7 @@ invalidToken
 |
 |
 invalidType
+)
 ;
 }
 function
@@ -383,6 +389,8 @@ codeMirror
 :
 any
 )
+:
+any
 {
 let
 prevTokenPos

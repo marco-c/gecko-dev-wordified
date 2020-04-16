@@ -121,6 +121,8 @@ err
 :
 any
 )
+:
+void
 {
 console
 .
@@ -247,6 +249,8 @@ size
 :
 number
 )
+:
+string
 {
 if
 (
@@ -316,6 +320,8 @@ fileName
 :
 string
 )
+:
+void
 {
 if
 (

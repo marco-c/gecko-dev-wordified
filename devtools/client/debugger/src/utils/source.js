@@ -678,6 +678,8 @@ source
 :
 Source
 )
+:
+boolean
 {
 const
 {
@@ -839,6 +841,8 @@ boolean
 =
 true
 )
+:
+string
 {
 url
 =
@@ -885,6 +889,8 @@ id
 :
 string
 )
+:
+string
 {
 const
 firstIndex
@@ -985,6 +991,8 @@ source
 url
 )
 )
+:
+string
 {
 const
 {
@@ -1062,6 +1070,8 @@ number
 =
 30
 )
+:
+string
 {
 return
 truncateMiddleText
@@ -1128,6 +1138,10 @@ Source
 |
 TabsSources
 )
+:
+string
+|
+void
 {
 const
 rawSourceURL
@@ -1554,6 +1568,8 @@ boolean
 =
 true
 )
+:
+string
 {
 const
 {
@@ -1752,6 +1768,8 @@ url
 :
 URL
 )
+:
+string
 {
 if
 (
@@ -2730,6 +2748,8 @@ location
 :
 SourceLocation
 )
+:
+string
 {
 const
 {
@@ -2780,6 +2800,8 @@ symbols
 ?
 Symbols
 )
+:
+string
 {
 /
 /
@@ -2908,6 +2930,8 @@ root
 :
 string
 )
+:
+string
 {
 const
 {
@@ -2984,6 +3008,8 @@ Array
 ThreadId
 >
 )
+:
+boolean
 {
 /
 /
@@ -3088,6 +3114,8 @@ root
 ;
 }
 return
+!
+!
 source
 .
 url
@@ -3111,6 +3139,8 @@ source
 :
 Source
 )
+:
+boolean
 {
 /
 /
@@ -3146,6 +3176,8 @@ source
 :
 Source
 )
+:
+boolean
 {
 return
 !
@@ -3196,6 +3228,8 @@ url
 :
 URL
 )
+:
+boolean
 {
 return
 url
@@ -3231,6 +3265,9 @@ url
 :
 URL
 )
+:
+?
+boolean
 {
 if
 (

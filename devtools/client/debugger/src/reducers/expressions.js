@@ -515,6 +515,10 @@ function
 restoreExpressions
 (
 )
+:
+Expression
+[
+]
 {
 const
 exprs
@@ -549,6 +553,8 @@ storeExpressions
 expressions
 }
 )
+:
+void
 {
 prefs
 .
@@ -581,6 +587,8 @@ value
 :
 any
 )
+:
+ExpressionState
 {
 const
 newState
@@ -625,6 +633,8 @@ value
 :
 any
 )
+:
+ExpressionState
 {
 const
 list
@@ -695,6 +705,8 @@ input
 :
 string
 )
+:
+ExpressionState
 {
 const
 list
@@ -820,6 +832,9 @@ input
 :
 string
 )
+:
+?
+Expression
 {
 return
 getExpressions

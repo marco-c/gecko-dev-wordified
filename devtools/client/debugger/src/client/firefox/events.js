@@ -227,6 +227,8 @@ thread
 :
 ThreadFront
 )
+:
+void
 {
 const
 removeListeners
@@ -302,6 +304,8 @@ thread
 :
 ThreadFront
 )
+:
+void
 {
 const
 removeListeners
@@ -338,6 +342,8 @@ currentTarget
 :
 Target
 )
+:
+boolean
 {
 return
 prefs
@@ -357,6 +363,8 @@ dependencies
 :
 Dependencies
 )
+:
+void
 {
 const
 {
@@ -415,6 +423,8 @@ targetFront
 :
 Target
 )
+:
+void
 {
 targetFront
 .
@@ -462,6 +472,8 @@ targetFront
 :
 Target
 )
+:
+void
 {
 targetFront
 .
@@ -498,6 +510,11 @@ packet
 :
 PausedPacket
 )
+:
+Promise
+<
+*
+>
 {
 /
 /
@@ -717,6 +734,8 @@ threadFront
 :
 ThreadFront
 )
+:
+void
 {
 /
 /
@@ -791,6 +810,8 @@ source
 :
 SourcePacket
 )
+:
+void
 {
 sourceQueue
 .
@@ -817,6 +838,8 @@ function
 threadListChanged
 (
 )
+:
+void
 {
 actions
 .

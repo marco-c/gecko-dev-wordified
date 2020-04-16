@@ -69,6 +69,8 @@ path
 :
 string
 )
+:
+string
 {
 return
 path
@@ -93,6 +95,8 @@ path
 :
 string
 )
+:
+string
 {
 const
 idx
@@ -124,6 +128,8 @@ str
 :
 string
 )
+:
+boolean
 {
 return
 str
@@ -146,6 +152,8 @@ str
 :
 string
 )
+:
+boolean
 {
 return
 str
@@ -171,6 +179,8 @@ dir
 :
 string
 )
+:
+string
 {
 return
 {

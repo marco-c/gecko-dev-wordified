@@ -70,6 +70,8 @@ line
 ?
 string
 )
+:
+number
 {
 if
 (
@@ -119,7 +121,13 @@ function
 getMaxIndentation
 (
 lines
+:
+string
+[
+]
 )
+:
+number
 {
 const
 firstLine
@@ -187,6 +195,8 @@ text
 :
 string
 )
+:
+string
 {
 const
 lines

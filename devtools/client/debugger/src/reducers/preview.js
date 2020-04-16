@@ -328,6 +328,9 @@ state
 :
 OuterState
 )
+:
+?
+Preview
 {
 return
 state
@@ -345,6 +348,8 @@ state
 :
 OuterState
 )
+:
+number
 {
 return
 state

@@ -114,6 +114,8 @@ function
 isVisible
 (
 )
+:
+boolean
 {
 const
 el
@@ -129,6 +131,9 @@ mount
 )
 ;
 return
+!
+!
+(
 el
 &
 &
@@ -139,6 +144,9 @@ getBoundingClientRect
 )
 .
 width
+>
+0
+)
 ;
 }
 /
@@ -162,6 +170,8 @@ editor
 :
 Object
 )
+:
+number
 {
 const
 {
@@ -251,6 +261,8 @@ editor
 :
 Object
 )
+:
+void
 {
 const
 {
@@ -329,6 +341,8 @@ editor
 :
 Object
 )
+:
+void
 {
 const
 toggleButton

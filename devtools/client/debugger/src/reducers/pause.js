@@ -3264,11 +3264,8 @@ any
 return
 frame
 ?
-frame
 .
 scopeChain
-:
-undefined
 ;
 }
 export

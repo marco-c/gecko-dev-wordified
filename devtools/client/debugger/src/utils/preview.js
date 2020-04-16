@@ -69,6 +69,8 @@ expression
 :
 string
 )
+:
+boolean
 {
 return
 /

@@ -110,6 +110,7 @@ type
 Breakpoint
 BreakpointPosition
 PartialPosition
+SourceLocation
 }
 from
 "
@@ -140,6 +141,9 @@ getColumn
 column
 selectedSource
 )
+:
+?
+number
 {
 if
 (
@@ -167,6 +171,8 @@ getLocation
 bp
 selectedSource
 )
+:
+SourceLocation
 {
 return
 isGenerated
@@ -267,6 +273,9 @@ column
 :
 LineColumn
 )
+:
+?
+Breakpoint
 {
 return
 breakpoints
@@ -524,6 +533,9 @@ location
 :
 LineColumn
 )
+:
+?
+Breakpoint
 {
 const
 selectedSource

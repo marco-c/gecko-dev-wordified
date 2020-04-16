@@ -145,9 +145,9 @@ isVisible
 )
 )
 .
-toBeGreaterThanOrEqual
+toBe
 (
-0
+false
 )
 ;
 }

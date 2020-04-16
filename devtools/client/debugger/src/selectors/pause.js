@@ -260,6 +260,9 @@ thread
 :
 ThreadId
 )
+:
+?
+Frame
 {
 const
 selectedFrames

@@ -407,6 +407,8 @@ item
 :
 Object
 )
+:
+string
 {
 /
 /

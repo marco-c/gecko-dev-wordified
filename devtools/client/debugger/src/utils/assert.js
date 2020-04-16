@@ -84,6 +84,8 @@ message
 :
 string
 )
+:
+void
 {
 if
 (

@@ -222,6 +222,10 @@ Frame
 [
 ]
 )
+:
+Frame
+[
+]
 {
 const
 babelFrameIndexes

@@ -107,6 +107,8 @@ string
 :
 string
 )
+:
+void
 {
 const
 doCopy

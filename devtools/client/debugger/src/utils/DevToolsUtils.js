@@ -83,6 +83,8 @@ any
 [
 ]
 )
+:
+void
 {
 const
 msg
@@ -112,6 +114,8 @@ fn
 :
 Function
 )
+:
+void
 {
 setTimeout
 (

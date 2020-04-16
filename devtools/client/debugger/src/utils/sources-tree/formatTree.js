@@ -92,6 +92,8 @@ string
 "
 "
 )
+:
+string
 {
 const
 whitespace

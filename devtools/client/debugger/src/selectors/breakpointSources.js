@@ -218,6 +218,10 @@ Breakpoint
 [
 ]
 )
+:
+Breakpoint
+[
+]
 {
 return
 sortSelectedBreakpoints
