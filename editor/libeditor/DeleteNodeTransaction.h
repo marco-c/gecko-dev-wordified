@@ -183,9 +183,9 @@ DeleteNodeTransaction
 EditorBase
 &
 aEditorBase
-nsINode
+nsIContent
 &
-aNodeToDelete
+aContentToDelete
 )
 ;
 public
@@ -224,7 +224,7 @@ editor
 .
 *
 param
-aNodeToDelete
+aContentToDelete
 The
 node
 to
@@ -247,9 +247,9 @@ MaybeCreate
 EditorBase
 &
 aEditorBase
-nsINode
+nsIContent
 &
-aNodeToDelete
+aContentToDelete
 )
 ;
 /
@@ -330,9 +330,9 @@ delete
 .
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
-mNodeToDelete
+mContentToDelete
 ;
 /
 /
@@ -364,7 +364,7 @@ nsCOMPtr
 <
 nsIContent
 >
-mRefNode
+mRefContent
 ;
 }
 ;
