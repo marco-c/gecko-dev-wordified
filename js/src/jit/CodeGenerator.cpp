@@ -26755,14 +26755,6 @@ lir
 {
 pushArg
 (
-ImmWord
-(
-TenuredObject
-)
-)
-;
-pushArg
-(
 ToRegister
 (
 lir
@@ -26786,7 +26778,6 @@ JSObject
 JSContext
 *
 HandleObject
-NewObjectKind
 )
 ;
 callVM
