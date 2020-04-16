@@ -848,6 +848,7 @@ contents
 derive
 (
 Debug
+PartialEq
 )
 ]
 pub
