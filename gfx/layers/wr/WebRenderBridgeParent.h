@@ -4129,6 +4129,9 @@ mIsFirstPaint
 bool
 mSkippedComposite
 ;
+bool
+mDisablingNativeCompositor
+;
 /
 /
 These
