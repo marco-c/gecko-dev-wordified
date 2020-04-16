@@ -5239,6 +5239,18 @@ Principal
 (
 )
 ;
+auto
+*
+basePrin
+=
+BasePrincipal
+:
+:
+Cast
+(
+prin
+)
+;
 nsCOMPtr
 <
 nsIURI
@@ -5249,7 +5261,7 @@ if
 (
 NS_SUCCEEDED
 (
-prin
+basePrin
 -
 >
 GetURI
