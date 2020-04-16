@@ -78,7 +78,9 @@ contentTypeImage
 {
 margin
 -
-right
+inline
+-
+end
 :
 3px
 ;
@@ -117,14 +119,6 @@ container
 small
 -
 indent
-{
-margin
--
-left
-:
-0
-;
-}
 .
 small
 -
@@ -133,7 +127,9 @@ label
 {
 margin
 -
-left
+inline
+-
+start
 :
 0
 ;
