@@ -534,8 +534,6 @@ in
 socket
 process
 .
-return
-;
 }
 nsresult
 HttpConnectionMgrParent
