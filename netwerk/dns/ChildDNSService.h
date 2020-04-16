@@ -159,13 +159,6 @@ h
 #
 include
 "
-DNSRequestParent
-.
-h
-"
-#
-include
-"
 nsHashKeys
 .
 h
@@ -227,7 +220,7 @@ GetSingleton
 void
 NotifyRequestDone
 (
-DNSRequestSender
+DNSRequestChild
 *
 aDnsRequest
 )
@@ -356,7 +349,7 @@ nsTArray
 <
 RefPtr
 <
-DNSRequestSender
+DNSRequestChild
 >
 >
 >
