@@ -965,6 +965,26 @@ install_fonts
 =
 False
         
+if
+kwargs
+[
+"
+preload_browser
+"
+]
+is
+None
+:
+            
+kwargs
+[
+"
+preload_browser
+"
+]
+=
+False
+        
 kwargs
 =
 wptcommandline
