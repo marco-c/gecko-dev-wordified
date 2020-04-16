@@ -188,7 +188,7 @@ ChannelOpenFailed
 {
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+NIGHTLY_BUILD
 mChannelOpenFailed
 =
 true
@@ -311,7 +311,7 @@ mBOMBytes
 ;
 #
 ifdef
-MOZ_DIAGNOSTIC_ASSERT_ENABLED
+NIGHTLY_BUILD
 bool
 mChannelOpenFailed
 =
