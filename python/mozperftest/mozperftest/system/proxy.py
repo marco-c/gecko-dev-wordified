@@ -362,18 +362,8 @@ localhost
 "
             
 metadata
-[
-"
-browser
-"
-]
-[
-"
-prefs
-"
-]
 .
-update
+update_browser_prefs
 (
 prefs
 )

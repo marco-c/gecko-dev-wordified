@@ -274,12 +274,7 @@ flavor
 =
 metadata
 .
-get
-(
-"
 flavor
-"
-)
         
 if
 not
@@ -369,19 +364,10 @@ cm
 CommonMetrics
 (
 metadata
-[
-"
-results
-"
-]
-*
-*
-metadata
-[
-"
-mach_args
-"
-]
+.
+get_result
+(
+)
 )
         
 #
@@ -491,12 +477,9 @@ file
 )
         
 metadata
-[
-"
-output
-"
-]
-=
+.
+set_output
+(
 write_json
 (
 proc
@@ -504,6 +487,7 @@ cm
 .
 output
 file
+)
 )
         
 return
