@@ -7789,7 +7789,7 @@ aIndex
 optionElement
 -
 >
-GetText
+GetRenderLabel
 (
 aStr
 )
@@ -16203,7 +16203,7 @@ text
 optionElement
 -
 >
-GetText
+GetRenderLabel
 (
 text
 )
