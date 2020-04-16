@@ -1493,7 +1493,7 @@ loadingPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;
@@ -1590,7 +1590,7 @@ loadingPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;

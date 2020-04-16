@@ -2154,7 +2154,7 @@ LoadingNode
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 loadInfo

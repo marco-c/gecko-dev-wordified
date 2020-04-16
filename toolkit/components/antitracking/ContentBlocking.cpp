@@ -5022,7 +5022,7 @@ toplevelPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;

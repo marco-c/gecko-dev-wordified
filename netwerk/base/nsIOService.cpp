@@ -10922,7 +10922,7 @@ principal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;

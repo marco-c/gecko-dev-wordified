@@ -1010,7 +1010,7 @@ forget
 aLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 nsILoadInfo

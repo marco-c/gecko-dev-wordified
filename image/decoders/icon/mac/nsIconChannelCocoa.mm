@@ -1229,7 +1229,7 @@ SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 mLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 &
@@ -1237,7 +1237,7 @@ LoadingPrincipal
 mLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 -
