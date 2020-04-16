@@ -2130,7 +2130,6 @@ index
 removeValueAt
 (
 index
-removeFromDB
 )
 {
 if
@@ -2197,18 +2196,12 @@ defaultIndex
 -
 ;
 }
-if
-(
-removeFromDB
-)
-{
 removedItem
 .
 removeFromStorage
 (
 )
 ;
-}
 }
 }
 ;

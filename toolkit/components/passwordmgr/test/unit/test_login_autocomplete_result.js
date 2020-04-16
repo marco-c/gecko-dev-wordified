@@ -5674,7 +5674,6 @@ pattern
 items
 .
 length
-true
 )
 /
 Index

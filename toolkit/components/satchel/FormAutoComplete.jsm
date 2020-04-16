@@ -3980,7 +3980,6 @@ index
 removeValueAt
 (
 index
-removeFromDB
 )
 {
 this
@@ -4005,11 +4004,6 @@ index
 1
 )
 ;
-if
-(
-removeFromDB
-)
-{
 this
 .
 client
@@ -4024,7 +4018,6 @@ removedEntry
 guid
 )
 ;
-}
 }
 }
 ;

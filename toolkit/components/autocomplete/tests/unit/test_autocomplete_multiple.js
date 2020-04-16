@@ -429,7 +429,6 @@ aIndex
 removeValueAt
 (
 aRowIndex
-aRemoveFromDb
 )
 {
 }

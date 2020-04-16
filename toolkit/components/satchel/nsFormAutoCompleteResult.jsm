@@ -809,17 +809,10 @@ result
 to
 remove
 *
-param
-{
-boolean
-}
-removeFromDatabase
-*
 /
 removeValueAt
 (
 index
-removeFromDatabase
 )
 {
 this
@@ -867,9 +860,6 @@ arrays
 .
 if
 (
-removeFromDatabase
-&
-&
 this
 .
 _formHistResult
@@ -900,7 +890,6 @@ _formHistResult
 removeValueAt
 (
 index
-true
 )
 ;
 }
