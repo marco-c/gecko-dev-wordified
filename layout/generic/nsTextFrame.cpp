@@ -73049,6 +73049,7 @@ nsTextFrame
 HasNonSuppressedText
 (
 )
+const
 {
 if
 (

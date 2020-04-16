@@ -3269,6 +3269,7 @@ bool
 HasNonSuppressedText
 (
 )
+const
 ;
 /
 *
