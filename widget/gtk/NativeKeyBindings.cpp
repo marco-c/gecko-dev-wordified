@@ -560,9 +560,6 @@ count
 >
 0
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 /
 /
 Ignore
@@ -683,8 +680,6 @@ array
 )
 ;
 }
-#
-endif
 gHandled
 =
 true

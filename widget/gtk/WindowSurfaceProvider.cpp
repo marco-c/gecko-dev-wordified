@@ -437,9 +437,6 @@ SHM
 3
 .
 XPutImage
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 !
@@ -487,11 +484,6 @@ mXDepth
 )
 ;
 }
-#
-endif
-/
-/
-MOZ_WIDGET_GTK
 #
 ifdef
 MOZ_HAVE_SHMIMAGE

@@ -165,9 +165,6 @@ dlfcn
 h
 >
 #
-ifdef
-MOZ_WIDGET_GTK
-#
 include
 <
 gdk
@@ -178,8 +175,6 @@ compat
 .
 h
 >
-#
-endif
 #
 include
 <

@@ -468,9 +468,6 @@ return
 result
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GTK
 /
 /
 For
@@ -725,8 +722,6 @@ object
 )
 ;
 }
-#
-endif
 /
 *
 static
@@ -1254,9 +1249,6 @@ get
 }
 }
 }
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 !
@@ -1522,6 +1514,7 @@ gtk_check_version
 =
 nullptr
 )
+{
 unsetenv
 (
 "
@@ -1529,8 +1522,7 @@ GTK_CSD
 "
 )
 ;
-#
-endif
+}
 if
 (
 PR_GetEnv
@@ -1540,11 +1532,13 @@ MOZ_DEBUG_PAINTS
 "
 )
 )
+{
 gdk_window_set_debug_updates
 (
 TRUE
 )
 ;
+}
 /
 /
 Whitelist

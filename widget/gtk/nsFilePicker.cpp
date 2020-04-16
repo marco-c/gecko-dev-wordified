@@ -910,15 +910,10 @@ mAllowURLs
 (
 false
 )
-#
-ifdef
-MOZ_WIDGET_GTK
 mFileChooserDelegate
 (
 nullptr
 )
-#
-endif
 {
 nsCOMPtr
 <
@@ -2109,9 +2104,6 @@ GetNativePath
 directory
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 /
 /
 Workaround
@@ -2284,8 +2276,6 @@ mFileChooserDelegate
 ;
 }
 }
-#
-endif
 gtk_file_chooser_set_current_folder
 (
 GTK_FILE_CHOOSER
@@ -2952,9 +2942,6 @@ GtkFileChooserDestroy
 file_chooser
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 mFileChooserDelegate
@@ -3046,8 +3033,6 @@ mFileChooserDelegate
 nullptr
 ;
 }
-#
-endif
 if
 (
 mCallback
