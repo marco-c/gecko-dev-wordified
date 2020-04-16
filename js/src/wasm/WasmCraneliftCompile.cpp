@@ -2308,6 +2308,16 @@ FuncImportTls
 realm
 )
 )
+size_of_wasm_frame
+(
+sizeof
+(
+wasm
+:
+:
+Frame
+)
+)
 {
 }
 /
@@ -2371,6 +2381,8 @@ pointing
 to
 the
 TlsData
+/
+/
 struct
 .
 /
@@ -3214,9 +3226,9 @@ have
 been
 added
 in
+/
+/
 the
-/
-/
 same
 order
 as

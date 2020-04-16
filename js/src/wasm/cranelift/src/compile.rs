@@ -266,7 +266,10 @@ crate
 isa
 :
 :
+{
 make_isa
+POINTER_SIZE
+}
 ;
 use
 crate
@@ -287,7 +290,6 @@ wasm2clif
 {
 init_sig
 TransEnv
-POINTER_SIZE
 TRAP_THROW_REPORTED
 }
 ;
