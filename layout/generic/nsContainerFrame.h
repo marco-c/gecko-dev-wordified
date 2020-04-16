@@ -525,6 +525,16 @@ aPrefix
 const
 override
 ;
+virtual
+void
+ExtraContainerFrameInfo
+(
+nsACString
+&
+aTo
+)
+const
+;
 #
 endif
 /
