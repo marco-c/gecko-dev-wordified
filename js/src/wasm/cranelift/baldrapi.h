@@ -726,6 +726,7 @@ when
 compiling
 this
 function
+.
 BD_Stackmaps
 *
 stackmaps
@@ -836,7 +837,6 @@ Which
 DirectCall
 IndirectCall
 Trap
-MemoryAccess
 SymbolicAccess
 }
 which
