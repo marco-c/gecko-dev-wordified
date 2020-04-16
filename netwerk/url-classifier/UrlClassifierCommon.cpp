@@ -446,7 +446,7 @@ loadingPrincipal
 channelLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;

@@ -233,7 +233,7 @@ nsIPrincipal
 TRRLoadInfo
 :
 :
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 {
