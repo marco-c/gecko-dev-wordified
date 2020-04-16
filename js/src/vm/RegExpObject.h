@@ -1394,6 +1394,8 @@ RegExpObject
 *
 >
 regexp
+bool
+match_only
 HandleLinearString
 input
 )
