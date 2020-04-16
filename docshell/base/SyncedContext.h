@@ -354,7 +354,7 @@ will
 call
 the
 correct
-MaySet
+CanSet
 and
 DidSet
 methods
