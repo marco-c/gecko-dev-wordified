@@ -1535,7 +1535,7 @@ new_custom_error
 StyleParseErrorKind
 :
 :
-UnexpectedImportRule
+DisallowedImportRule
 )
 )
 }
