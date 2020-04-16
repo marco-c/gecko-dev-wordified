@@ -595,14 +595,9 @@ args
 =
 (
 [
-buildconfig
+sys
 .
-substs
-[
-'
-PYTHON
-'
-]
+executable
              
 os
 .

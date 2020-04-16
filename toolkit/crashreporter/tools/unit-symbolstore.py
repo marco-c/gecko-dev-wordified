@@ -879,10 +879,9 @@ provided
             
 stdout_
 =
-stdout_iter
-.
 next
 (
+stdout_iter
 )
             
 #
@@ -3362,7 +3361,7 @@ self
 .
 canonical_mapping
 .
-iteritems
+items
 (
 )
 :
@@ -3590,7 +3589,7 @@ open
 (
 bad_manifest
 '
-wb
+w
 '
 )
 as
@@ -4181,7 +4180,7 @@ open
 (
 f
 '
-wb
+w
 '
 )
 .
@@ -4756,6 +4755,10 @@ self
 target_bin
 ]
                                          
+universal_newlines
+=
+True
+                                         
 stderr
 =
 None
@@ -4767,22 +4770,23 @@ browser_app
         
 lines
 =
-filter
-(
-lambda
-x
-:
-x
-.
-strip
-(
-)
+[
+l
+for
+l
+in
 output
 .
 splitlines
 (
 )
+if
+l
+.
+strip
+(
 )
+]
         
 self
 .
