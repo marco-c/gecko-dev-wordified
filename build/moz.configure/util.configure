@@ -769,7 +769,7 @@ argtypes
 wintypes
 .
 LPWSTR
-wintypes
+ctypes
 .
 POINTER
 (
