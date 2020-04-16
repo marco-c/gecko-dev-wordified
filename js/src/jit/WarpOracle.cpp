@@ -2667,6 +2667,12 @@ JSOp
 :
 GetGName
 :
+case
+JSOp
+:
+:
+GetProp
+:
 MOZ_TRY
 (
 maybeInlineIC
@@ -3338,12 +3344,6 @@ JSOp
 :
 :
 BindGName
-:
-case
-JSOp
-:
-:
-GetProp
 :
 case
 JSOp
