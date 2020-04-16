@@ -1889,8 +1889,10 @@ info
 .
 mPrincipalInfo
 =
-new
+MakeUnique
+<
 PrincipalInfo
+>
 (
 aData
 .
@@ -1903,8 +1905,10 @@ info
 .
 mStoragePrincipalInfo
 =
-new
+MakeUnique
+<
 PrincipalInfo
+>
 (
 aData
 .
@@ -2179,8 +2183,10 @@ info
 .
 mCSPInfo
 =
-new
+MakeUnique
+<
 CSPInfo
+>
 (
 )
 ;
@@ -2194,6 +2200,10 @@ mCSP
 info
 .
 mCSPInfo
+.
+get
+(
+)
 )
 ;
 if

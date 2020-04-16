@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ChannelInfo
@@ -460,7 +469,7 @@ PreRun
 (
 )
 .
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :
@@ -638,7 +647,7 @@ InterfaceRequestor
 >
 mInterfaceRequestor
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :
@@ -650,7 +659,7 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

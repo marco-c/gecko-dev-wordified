@@ -210,6 +210,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UseCounter
 .
 h
@@ -5249,7 +5258,7 @@ builds
 .
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 SyncLoopInfo
 >
@@ -5574,7 +5583,7 @@ mWorkerRefs
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 TimeoutInfo
 >
