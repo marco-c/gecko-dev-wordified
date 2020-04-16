@@ -2353,7 +2353,6 @@ label
 "
 )
 :
-(
 child
 .
 label
@@ -2362,7 +2361,6 @@ label
 child
 .
 text
-)
 ;
 if
 (
