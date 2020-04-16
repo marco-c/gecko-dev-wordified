@@ -2788,6 +2788,11 @@ OriginAttributes
 aAttr
 )
 ;
+bool
+EnsureBrowsingContextAttached
+(
+)
+;
 RefPtr
 <
 mozilla
