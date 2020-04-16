@@ -1050,7 +1050,7 @@ setBoolPref
 "
 devtools
 .
-preference
+performance
 .
 new
 -
