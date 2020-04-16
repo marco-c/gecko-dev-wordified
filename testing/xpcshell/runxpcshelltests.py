@@ -6825,12 +6825,11 @@ True
 else
 :
             
-print
->
->
-sys
+self
 .
-stderr
+log
+.
+error
 (
 "
 Failed
@@ -6846,7 +6845,7 @@ use
 -
 manifest
 "
-                                  
+                           
 "
 to
 set
@@ -6855,9 +6854,7 @@ explicitly
 .
 "
 %
-(
 ini_path
-)
 )
             
 sys
@@ -11434,12 +11431,12 @@ failure_manifest
 else
 :
                 
-print
->
->
-sys
+self
 .
-stderr
+log
+.
+error
+(
 "
 No
 failures
@@ -11451,6 +11448,7 @@ re
 run
 .
 "
+)
                 
 sys
 .
