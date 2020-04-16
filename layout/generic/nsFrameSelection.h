@@ -828,6 +828,7 @@ with
 :
 eSelectLine
 .
+const
 nsPoint
 mDesiredPos
 ;
@@ -902,6 +903,7 @@ with
 eSelectCharacter
 eSelectWord
 .
+const
 bool
 mJumpLines
 ;
@@ -920,6 +922,7 @@ begin
 end
 of
 content
+const
 bool
 mTrimSpaces
 ;
@@ -946,6 +949,7 @@ eSelectCharacter
 eSelectWord
 eSelectLine
 .
+const
 bool
 mScrollViewStop
 ;
@@ -972,6 +976,7 @@ with
 :
 eSelectWord
 .
+const
 bool
 mIsKeyboardSelect
 ;
@@ -1004,6 +1009,7 @@ eSelectWord
 eSelectBeginLine
 eSelectEndLine
 .
+const
 bool
 mVisual
 ;
@@ -1018,6 +1024,7 @@ extended
 or
 moved
 .
+const
 bool
 mExtend
 ;
