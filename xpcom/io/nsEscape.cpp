@@ -3944,6 +3944,9 @@ aPartLen
 return
 NS_EscapeURLSpan
 (
+mozilla
+:
+:
 MakeSpan
 (
 aPart
@@ -4192,6 +4195,9 @@ aResult
 Assign
 (
 aStr
+mozilla
+:
+:
 fallible
 )
 )

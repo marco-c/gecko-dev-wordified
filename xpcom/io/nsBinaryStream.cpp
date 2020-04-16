@@ -4265,6 +4265,9 @@ aResult
 SetLength
 (
 aLength
+mozilla
+:
+:
 fallible
 )
 )

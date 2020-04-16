@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SimpleEnumerator
@@ -793,8 +800,9 @@ nsDirectoryService
 nsDirectoryService
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsDirectoryService

@@ -131,6 +131,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsIFile
+.
+h
+"
 /
 *
 *

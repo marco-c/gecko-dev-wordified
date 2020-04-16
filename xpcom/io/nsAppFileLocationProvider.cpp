@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsIDirectoryService
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -605,8 +612,9 @@ nsAppFileLocationProvider
 nsAppFileLocationProvider
 (
 )
-{
-}
+=
+default
+;
 /
 /
 *
