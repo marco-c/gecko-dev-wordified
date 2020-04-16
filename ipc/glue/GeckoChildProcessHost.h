@@ -1333,6 +1333,10 @@ friend
 class
 PosixProcessLauncher
 ;
+friend
+class
+WindowsProcessLauncher
+;
 protected
 :
 ~
@@ -1886,8 +1890,8 @@ mTmpDirName
 /
 /
 Mac
--
-Only
+and
+Windows
 .
 Set
 this

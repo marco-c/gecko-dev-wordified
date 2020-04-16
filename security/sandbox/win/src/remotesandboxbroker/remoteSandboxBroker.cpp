@@ -953,6 +953,13 @@ SetSecurityLevelForGPUProcess
 (
 int32_t
 aSandboxLevel
+const
+nsCOMPtr
+<
+nsIFile
+>
+&
+aProfileDir
 )
 {
 MOZ_CRASH
