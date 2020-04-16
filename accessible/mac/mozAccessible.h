@@ -793,7 +793,7 @@ notification
 (
 void
 )
-firePlatformEvent
+handleAccessibleEvent
 :
 (
 uint32_t

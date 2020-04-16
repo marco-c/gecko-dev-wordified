@@ -1170,7 +1170,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK
 (
 void
 )
-firePlatformEvent
+handleAccessibleEvent
 :
 (
 uint32_t
@@ -1201,7 +1201,7 @@ default
 :
 [
 super
-firePlatformEvent
+handleAccessibleEvent
 :
 eventType
 ]
