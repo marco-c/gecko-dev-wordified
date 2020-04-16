@@ -384,7 +384,7 @@ reader
 )
 ;
 void
-CacheIRArgs
+CacheIRArg
 (
 JSONPrinter
 &
@@ -416,11 +416,6 @@ j
 CacheIRReader
 &
 r
-CacheIROpFormat
-:
-:
-ArgType
-arg
 Args
 .
 .
