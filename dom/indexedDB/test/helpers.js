@@ -2424,6 +2424,12 @@ type
 "
 )
 ;
+event
+.
+stopPropagation
+(
+)
+;
 resolve
 (
 event
