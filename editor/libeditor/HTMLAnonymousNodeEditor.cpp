@@ -2395,7 +2395,7 @@ table
 cell
 cellElement
 =
-GetElementOrParentByTagNameAtSelection
+GetInclusiveAncestorByTagNameAtSelection
 (
 *
 nsGkAtoms

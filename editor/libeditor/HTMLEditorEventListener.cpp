@@ -2165,13 +2165,14 @@ linkElement
 htmlEditor
 -
 >
-GetElementOrParentByTagName
+GetInclusiveAncestorByTagName
 (
 *
 nsGkAtoms
 :
 :
 href
+*
 originalEventTargetContent
 )
 ;
