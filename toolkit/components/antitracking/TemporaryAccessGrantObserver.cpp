@@ -124,14 +124,16 @@ h
 #
 include
 "
-nsIObserverService
+mozilla
+/
+PermissionManager
 .
 h
 "
 #
 include
 "
-nsPermissionManager
+nsIObserverService
 .
 h
 "
@@ -170,7 +172,7 @@ TemporaryAccessGrantObserver
 :
 TemporaryAccessGrantObserver
 (
-nsPermissionManager
+PermissionManager
 *
 aPM
 nsIPrincipal
@@ -234,7 +236,7 @@ TemporaryAccessGrantObserver
 :
 Create
 (
-nsPermissionManager
+PermissionManager
 *
 aPM
 nsIPrincipal

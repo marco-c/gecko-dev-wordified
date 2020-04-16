@@ -96,7 +96,7 @@ per
 array
 kStripOAPermissions
 in
-nsPermissionManager
+PermissionManager
 .
 cpp
 const
