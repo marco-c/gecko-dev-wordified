@@ -1533,7 +1533,11 @@ documents
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 IAccessible
@@ -1714,7 +1718,11 @@ ID
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 IAccessible
