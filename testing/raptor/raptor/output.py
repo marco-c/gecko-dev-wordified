@@ -2494,6 +2494,15 @@ raptor
 speedometer
 "
 )
+or
+testname
+.
+startswith
+(
+"
+speedometer
+"
+)
 :
             
 correctionFactor
