@@ -1775,9 +1775,14 @@ LOAD_STOP_CONTENT
 loadState
 -
 >
-SetSourceDocShell
+SetSourceBrowsingContext
 (
 docShell
+-
+>
+GetBrowsingContext
+(
+)
 )
 ;
 loadState
