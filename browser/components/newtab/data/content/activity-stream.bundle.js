@@ -79834,6 +79834,9 @@ Navigation
 CardGrid
 "
 "
+CollectionCardGrid
+"
+"
 Hero
 "
 "
