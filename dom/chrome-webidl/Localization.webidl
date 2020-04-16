@@ -762,6 +762,7 @@ NewObject
 Promise
 <
 UTF8String
+?
 >
 formatValue
 (
@@ -867,6 +868,7 @@ Promise
 sequence
 <
 UTF8String
+?
 >
 >
 formatValues
@@ -1007,6 +1009,7 @@ Promise
 sequence
 <
 L10nMessage
+?
 >
 >
 formatMessages

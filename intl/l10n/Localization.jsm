@@ -1609,8 +1609,10 @@ Promise
 Array
 <
 string
+?
 |
 Object
+?
 >
 >
 }
@@ -1634,6 +1636,11 @@ Array
 keys
 .
 length
+)
+.
+fill
+(
+null
 )
 ;
 let
@@ -1906,6 +1913,11 @@ Array
 keys
 .
 length
+)
+.
+fill
+(
+null
 )
 ;
 let
@@ -2240,6 +2252,7 @@ attributes
 :
 Object
 }
+?
 >
 >
 }
@@ -2304,6 +2317,7 @@ attributes
 :
 Object
 }
+?
 >
 }
 *
@@ -2469,6 +2483,7 @@ Promise
 Array
 <
 string
+?
 >
 >
 }
@@ -2524,6 +2539,7 @@ returns
 Array
 <
 string
+?
 >
 }
 *
@@ -2698,6 +2714,7 @@ returns
 Promise
 <
 string
+?
 >
 }
 *
@@ -2761,7 +2778,7 @@ keys
 returns
 {
 string
->
+?
 }
 *
 private
@@ -3250,8 +3267,7 @@ args
 returns
 {
 string
-|
-null
+?
 }
 *
 private
@@ -3810,7 +3826,7 @@ i
 !
 =
 =
-undefined
+null
 )
 {
 return
