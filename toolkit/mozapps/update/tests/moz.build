@@ -657,7 +657,9 @@ Files
 "
 browser
 /
-browser_telemetry_updatePing_ready
+browser_telemetry_updatePing_
+*
+_ready
 .
 js
 "

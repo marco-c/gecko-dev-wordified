@@ -598,9 +598,10 @@ e
 :
             
 if
+str
+(
 e
-.
-message
+)
 =
 =
 '
