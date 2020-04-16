@@ -181,6 +181,13 @@ h
 #
 include
 "
+gfxGraphiteShaper
+.
+h
+"
+#
+include
+"
 gfxHarfBuzzShaper
 .
 h
