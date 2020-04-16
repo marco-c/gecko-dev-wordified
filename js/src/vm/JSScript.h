@@ -1646,7 +1646,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 SourceData
 :
@@ -1661,9 +1661,6 @@ Unit
 :
 DeleterType
 >
-:
-:
-value
 "
 EntryUnits
 and

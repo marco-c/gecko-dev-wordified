@@ -1211,13 +1211,10 @@ static_assert
 std
 :
 :
-is_pod
+is_pod_v
 <
 LitValPOD
 >
-:
-:
-value
 "
 must
 be

@@ -2203,14 +2203,11 @@ constexpr
 std
 :
 :
-is_same
+is_same_v
 <
 T
 JSErrorReport
 >
-:
-:
-value
 )
 {
 reportp

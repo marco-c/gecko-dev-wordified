@@ -3162,7 +3162,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 BaseStackFrame
 ConcreteStackFrame
@@ -3170,9 +3170,6 @@ ConcreteStackFrame
 T
 >
 >
-:
-:
-value
 "
 ConcreteStackFrame
 <
@@ -6672,7 +6669,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 Base
 Concrete
@@ -6680,9 +6677,6 @@ Concrete
 T
 >
 >
-:
-:
-value
 "
 ubi
 :

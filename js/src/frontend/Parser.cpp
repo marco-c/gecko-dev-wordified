@@ -854,7 +854,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 GeneralParser
 <
@@ -863,9 +863,6 @@ Unit
 >
 FinalParser
 >
-:
-:
-value
 "
 inheritance
 relationship
@@ -926,7 +923,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 GeneralParser
 <
@@ -935,9 +932,6 @@ Unit
 >
 FinalParser
 >
-:
-:
-value
 "
 inheritance
 relationship

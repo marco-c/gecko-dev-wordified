@@ -10446,7 +10446,6 @@ typename
 EmitDouble
 >
 static
-typename
 std
 :
 :
@@ -10514,7 +10513,6 @@ typename
 EmitDouble
 >
 static
-typename
 std
 :
 :
@@ -29231,7 +29229,7 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 BigInt
 :
@@ -29239,9 +29237,6 @@ BigInt
 Digit
 uintptr_t
 >
-:
-:
-value
 "
 BigInt
 digit
@@ -38587,14 +38582,11 @@ conditional_t
 std
 :
 :
-is_same
+is_same_v
 <
 R
 bool
 >
-:
-:
-value
 LastArgument
 R
 >

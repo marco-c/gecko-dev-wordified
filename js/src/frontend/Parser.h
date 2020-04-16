@@ -10746,14 +10746,11 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 GeneralTokenStreamChars
 TokenStreamSpecific
 >
-:
-:
-value
 "
 the
 static_cast

@@ -501,7 +501,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 gc
 :
@@ -509,9 +509,6 @@ gc
 TenuredCell
 BaseScript
 >
-:
-:
-value
 "
 BaseScript
 must
@@ -587,7 +584,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 gc
 :
@@ -595,9 +592,6 @@ gc
 TenuredCell
 Scope
 >
-:
-:
-value
 "
 Scope
 must

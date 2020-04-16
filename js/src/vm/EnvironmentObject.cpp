@@ -804,14 +804,11 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 EnvironmentObject
 T
 >
-:
-:
-value
 "
 T
 must
