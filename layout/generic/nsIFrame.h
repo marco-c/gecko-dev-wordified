@@ -15400,7 +15400,11 @@ frame
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 AssociateImage
 (
@@ -27244,7 +27248,11 @@ template
 typename
 T
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 FrameProperties
 :
 :

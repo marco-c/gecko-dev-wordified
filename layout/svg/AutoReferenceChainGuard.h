@@ -977,7 +977,11 @@ once
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Reference
 (

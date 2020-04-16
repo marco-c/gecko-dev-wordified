@@ -320,7 +320,11 @@ height
 width
 ratio
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 AspectRatio
 Inverted
 (
