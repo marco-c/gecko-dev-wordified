@@ -2348,11 +2348,6 @@ ScrollFlags
 :
 :
 ScrollOverflowHidden
-|
-ScrollFlags
-:
-:
-IgnoreMarginAndPadding
 )
 ;
 /
