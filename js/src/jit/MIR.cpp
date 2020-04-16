@@ -19094,14 +19094,6 @@ MIRType
 specialization
 )
 {
-MOZ_ASSERT
-(
-IsNumberType
-(
-specialization
-)
-)
-;
 switch
 (
 op
