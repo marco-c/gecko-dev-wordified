@@ -5945,13 +5945,12 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 (
 cx
 &
 MathClass
 proto
-SingletonObject
 )
 ;
 }

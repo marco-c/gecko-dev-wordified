@@ -6965,7 +6965,7 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 (
 cx
 &
@@ -6974,7 +6974,6 @@ AtomicsObject
 :
 class_
 proto
-SingletonObject
 )
 ;
 }
