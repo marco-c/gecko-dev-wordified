@@ -9738,6 +9738,15 @@ IPCDoc
 *
 aResultID
 =
+result
+-
+>
+IsDoc
+(
+)
+?
+0
+:
 reinterpret_cast
 <
 uint64_t

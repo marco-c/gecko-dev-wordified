@@ -292,6 +292,17 @@ tests
 /
 browser
 /
+hittest
+/
+browser
+.
+ini
+'
+'
+tests
+/
+browser
+/
 mac
 /
 browser
