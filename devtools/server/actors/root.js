@@ -3855,9 +3855,7 @@ processDescriptor
 ;
 }
 return
-{
 processDescriptor
-}
 ;
 }
 /
