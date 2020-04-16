@@ -2997,7 +2997,7 @@ ins
 MBitNot
 :
 :
-NewInt32
+New
 (
 alloc
 (
