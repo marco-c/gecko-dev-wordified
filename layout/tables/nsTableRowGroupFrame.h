@@ -674,6 +674,7 @@ int32_t
 GetRowCount
 (
 )
+const
 ;
 /
 *
@@ -710,6 +711,7 @@ int32_t
 GetStartRowIndex
 (
 )
+const
 ;
 /
 *

@@ -5055,10 +5055,12 @@ methods
 int32_t
 GetStartRowIndex
 (
+const
 nsTableRowGroupFrame
 *
 aRowGroupFrame
 )
+const
 ;
 /
 *

@@ -6087,10 +6087,12 @@ nsTableFrame
 :
 GetStartRowIndex
 (
+const
 nsTableRowGroupFrame
 *
 aRowGroupFrame
 )
+const
 {
 RowGroupArray
 orderedRowGroups
