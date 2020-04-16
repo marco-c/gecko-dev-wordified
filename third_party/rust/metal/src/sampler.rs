@@ -115,6 +115,10 @@ derive
 (
 Copy
 Clone
+Debug
+Eq
+PartialEq
+Hash
 )
 ]
 pub
@@ -141,6 +145,10 @@ derive
 (
 Copy
 Clone
+Debug
+Eq
+PartialEq
+Hash
 )
 ]
 pub
@@ -170,6 +178,10 @@ derive
 (
 Copy
 Clone
+Debug
+Eq
+PartialEq
+Hash
 )
 ]
 pub
@@ -208,6 +220,10 @@ derive
 (
 Copy
 Clone
+Debug
+Eq
+PartialEq
+Hash
 )
 ]
 pub

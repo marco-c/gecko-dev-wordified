@@ -294,9 +294,9 @@ encoder
 .
 set_sampler_state
 (
+1
 &
 sampler
-1
 )
 ;
 println
