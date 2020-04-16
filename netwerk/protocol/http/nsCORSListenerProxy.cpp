@@ -8426,7 +8426,7 @@ principal
 originalLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 ;

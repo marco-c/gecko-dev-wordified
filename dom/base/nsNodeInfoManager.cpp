@@ -2311,7 +2311,7 @@ IsSystemOrAddonPrincipal
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 )

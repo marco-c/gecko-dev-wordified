@@ -9537,7 +9537,7 @@ isSystemPrincipal
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 &
@@ -9545,7 +9545,7 @@ GetLoadingPrincipal
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
@@ -10515,7 +10515,7 @@ false
 aLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
@@ -10659,7 +10659,7 @@ false
 aLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
@@ -41976,7 +41976,7 @@ SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 &
@@ -41984,7 +41984,7 @@ GetLoadingPrincipal
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
@@ -50177,7 +50177,7 @@ MOZ_ASSERT
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 "
@@ -50447,7 +50447,7 @@ Equals
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 )
@@ -50484,7 +50484,7 @@ resourceBaseDomain
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
@@ -50533,7 +50533,7 @@ if
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -

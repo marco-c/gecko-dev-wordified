@@ -16723,7 +16723,7 @@ if
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 &
@@ -16731,7 +16731,7 @@ GetLoadingPrincipal
 mLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
@@ -18966,7 +18966,7 @@ principal
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 ;

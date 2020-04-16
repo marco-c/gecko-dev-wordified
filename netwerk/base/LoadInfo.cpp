@@ -4595,7 +4595,7 @@ nsIPrincipal
 LoadInfo
 :
 :
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 {

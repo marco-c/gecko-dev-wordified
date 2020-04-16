@@ -4570,7 +4570,7 @@ aLoadInfo
 aLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 |
@@ -4579,7 +4579,7 @@ GetLoadingPrincipal
 aLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -
