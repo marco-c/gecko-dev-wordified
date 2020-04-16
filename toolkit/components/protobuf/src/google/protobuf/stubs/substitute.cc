@@ -354,6 +354,19 @@ protobuf
 /
 stubs
 /
+logging
+.
+h
+>
+#
+include
+<
+google
+/
+protobuf
+/
+stubs
+/
 strutil
 .
 h
@@ -431,7 +444,7 @@ count
 ]
 !
 =
-NULL
+nullptr
 &
 &
 args_array
@@ -612,7 +625,7 @@ arg7
 arg8
 &
 arg9
-NULL
+nullptr
 }
 ;
 /

@@ -408,7 +408,7 @@ contained
 pointer
 to
 be
-NULL
+nullptr
 .
 /
 /
@@ -855,6 +855,17 @@ status
 .
 h
 >
+#
+include
+<
+google
+/
+protobuf
+/
+port_def
+.
+inc
+>
 namespace
 google
 {
@@ -1061,7 +1072,7 @@ value
 must
 not
 be
-NULL
+nullptr
 .
 After
 calling
@@ -1154,7 +1165,7 @@ pointer
 value
 !
 =
-NULL
+nullptr
 .
 This
 requirement
@@ -1168,7 +1179,7 @@ optimized
 builds
 passing
 a
-NULL
+null
 pointer
 here
 will
@@ -1492,7 +1503,7 @@ namespace
 internal
 {
 class
-LIBPROTOBUF_EXPORT
+PROTOBUF_EXPORT
 StatusOrHelper
 {
 public
@@ -1572,7 +1583,7 @@ reference
 can
 never
 be
-NULL
+nullptr
 .
 static
 inline
@@ -1621,7 +1632,7 @@ return
 t
 =
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1768,7 +1779,7 @@ error
 :
 INTERNAL
 "
-NULL
+nullptr
 is
 not
 a
@@ -2103,6 +2114,17 @@ protobuf
 /
 namespace
 google
+#
+include
+<
+google
+/
+protobuf
+/
+port_undef
+.
+inc
+>
 #
 endif
 /

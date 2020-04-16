@@ -1204,7 +1204,7 @@ it
 /
 exists
 or
-NULL
+nullptr
 otherwise
 .
 template
@@ -1386,7 +1386,7 @@ is
 found
 /
 /
-NULL
+nullptr
 is
 returned
 .
@@ -1427,9 +1427,7 @@ mapped
 /
 /
 to
-a
-NULL
-value
+nullptr
 .
 template
 <
@@ -1650,7 +1648,7 @@ are
 linked_ptrs
 .
 Returns
-NULL
+nullptr
 if
 key
 is
@@ -1919,7 +1917,7 @@ if
 not
 /
 /
-NULL
+nullptr
 )
 .
 Returns
@@ -3785,7 +3783,7 @@ value_type
 second_type
 >
 (
-NULL
+nullptr
 )
 )
 )
@@ -3941,7 +3939,7 @@ value_type
 second_type
 >
 (
-NULL
+nullptr
 )
 )
 )
@@ -5272,7 +5270,7 @@ the
 collection
 .
 Returns
-NULL
+nullptr
 if
 /
 /
@@ -5361,7 +5359,6 @@ value_type
 :
 second_type
 *
-const
 InsertOrReturnExisting
 (
 Collection
@@ -5408,7 +5405,7 @@ second
 )
 {
 return
-NULL
+nullptr
 ;
 /
 /
@@ -5467,7 +5464,6 @@ value_type
 :
 second_type
 *
-const
 InsertOrReturnExisting
 (
 Collection
@@ -5557,7 +5553,7 @@ a
 pointer
 .
 Returns
-NULL
+nullptr
 if
 the
 key
@@ -5616,12 +5612,17 @@ value
 :
 /
 /
-scoped_ptr
+std
+:
+:
+unique_ptr
 <
 MyType
 >
 value_ptr
 (
+/
+/
 EraseKeyReturnValuePtr
 (
 &
@@ -5714,7 +5715,7 @@ end
 )
 {
 return
-NULL
+nullptr
 ;
 }
 typename
@@ -5807,7 +5808,7 @@ GOOGLE_CHECK
 key_container
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -5915,7 +5916,7 @@ GOOGLE_CHECK
 key_container
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -6068,6 +6069,9 @@ const
 MapContainer
 &
 map_container
+std
+:
+:
 vector
 <
 KeyType
@@ -6081,7 +6085,7 @@ GOOGLE_CHECK
 key_container
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -6388,7 +6392,7 @@ GOOGLE_CHECK
 value_container
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -6541,6 +6545,9 @@ const
 MapContainer
 &
 map_container
+std
+:
+:
 vector
 <
 ValueType
@@ -6554,7 +6561,7 @@ GOOGLE_CHECK
 value_container
 !
 =
-NULL
+nullptr
 )
 ;
 /

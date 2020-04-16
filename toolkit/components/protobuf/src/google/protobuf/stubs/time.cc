@@ -642,7 +642,7 @@ year
 return
 time
 .
-month
+day
 <
 =
 kDaysInMonth
@@ -660,7 +660,7 @@ else
 return
 time
 .
-month
+day
 <
 =
 kDaysInMonth
@@ -1132,7 +1132,7 @@ consumed
 /
 integer
 or
-NULL
+nullptr
 if
 the
 data
@@ -1191,7 +1191,7 @@ data
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int
@@ -1275,7 +1275,7 @@ data
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -1330,7 +1330,7 @@ data
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int
@@ -1482,11 +1482,11 @@ hour
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 if
@@ -1503,7 +1503,7 @@ data
 )
 {
 return
-NULL
+nullptr
 ;
 }
 int
@@ -1526,11 +1526,11 @@ minute
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
-NULL
+nullptr
 ;
 }
 *
@@ -1924,7 +1924,7 @@ seconds
 =
 time
 (
-NULL
+nullptr
 )
 ;
 *
@@ -2140,7 +2140,7 @@ year
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2191,7 +2191,7 @@ month
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2242,7 +2242,7 @@ day
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2293,7 +2293,7 @@ hour
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2344,7 +2344,7 @@ minute
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2395,7 +2395,7 @@ second
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2454,7 +2454,7 @@ nanos
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2525,7 +2525,7 @@ offset
 )
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -2572,7 +2572,7 @@ offset
 )
 =
 =
-NULL
+nullptr
 )
 {
 return

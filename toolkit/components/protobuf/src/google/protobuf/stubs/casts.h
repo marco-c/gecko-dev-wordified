@@ -329,15 +329,7 @@ GOOGLE_PROTOBUF_CASTS_H__
 #
 include
 <
-google
-/
-protobuf
-/
-stubs
-/
-common
-.
-h
+type_traits
 >
 #
 include
@@ -348,7 +340,7 @@ protobuf
 /
 stubs
 /
-type_traits
+common
 .
 h
 >
@@ -946,7 +938,7 @@ assert
 f
 =
 =
-NULL
+nullptr
 |
 |
 dynamic_cast
@@ -958,7 +950,7 @@ f
 )
 !
 =
-NULL
+nullptr
 )
 ;
 /
@@ -1014,6 +1006,9 @@ f
 {
 typedef
 typename
+std
+:
+:
 remove_reference
 <
 To
@@ -1125,7 +1120,7 @@ f
 )
 !
 =
-NULL
+nullptr
 )
 ;
 #
