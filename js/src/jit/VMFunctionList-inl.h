@@ -2140,11 +2140,11 @@ NewObjectOperationWithTemplate
 \
 _
 (
-NewRegExpStringIteratorObject
+NewRegExpStringIterator
 js
 :
 :
-NewRegExpStringIteratorObject
+NewRegExpStringIterator
 )
 \
 _

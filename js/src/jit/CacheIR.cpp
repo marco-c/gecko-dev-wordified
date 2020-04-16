@@ -34320,10 +34320,9 @@ res
 .
 set
 (
-NewRegExpStringIteratorObject
+NewRegExpStringIteratorTemplate
 (
 cx_
-TenuredObject
 )
 )
 ;
