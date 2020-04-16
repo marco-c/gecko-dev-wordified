@@ -1626,9 +1626,6 @@ bool
 fullscreenAllowed
 ;
 bool
-isPrivate
-;
-bool
 fakeShowInfo
 ;
 bool
