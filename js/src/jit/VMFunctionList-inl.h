@@ -1452,9 +1452,6 @@ GreaterThan
 js
 :
 :
-jit
-:
-:
 GreaterThan
 )
 \
@@ -1462,9 +1459,6 @@ _
 (
 GreaterThanOrEqual
 js
-:
-:
-jit
 :
 :
 GreaterThanOrEqual
@@ -1942,9 +1936,6 @@ LessThan
 js
 :
 :
-jit
-:
-:
 LessThan
 )
 \
@@ -1952,9 +1943,6 @@ _
 (
 LessThanOrEqual
 js
-:
-:
-jit
 :
 :
 LessThanOrEqual
