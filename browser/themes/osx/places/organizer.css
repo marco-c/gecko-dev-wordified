@@ -1216,7 +1216,9 @@ column
 {
 border
 -
-right
+inline
+-
+end
 :
 1px
 solid
