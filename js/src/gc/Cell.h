@@ -915,8 +915,6 @@ header_
 BIGINT_BIT
 ;
 }
-protected
-:
 uintptr_t
 flags
 (
@@ -929,6 +927,8 @@ header_
 RESERVED_MASK
 ;
 }
+protected
+:
 /
 /
 NOTE
