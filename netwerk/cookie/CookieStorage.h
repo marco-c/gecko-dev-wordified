@@ -135,6 +135,12 @@ nsWeakReference
 h
 "
 class
+nsIArray
+;
+class
+nsICookie
+;
+class
 nsIPrefBranch
 ;
 namespace
@@ -143,6 +149,9 @@ mozilla
 namespace
 net
 {
+class
+Cookie
+;
 /
 /
 Inherit

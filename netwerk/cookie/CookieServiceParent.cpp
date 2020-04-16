@@ -169,6 +169,13 @@ h
 #
 include
 "
+mozIThirdPartyUtil
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h
