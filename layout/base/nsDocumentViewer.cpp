@@ -536,6 +536,13 @@ h
 #
 include
 "
+nsIScreen
+.
+h
+"
+#
+include
+"
 nsCharsetSource
 .
 h
