@@ -81,12 +81,6 @@ layout
 js
 *
 /
-/
-*
-global
-getContentDPR
-*
-/
 async
 function
 runTests
