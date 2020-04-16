@@ -129,7 +129,6 @@ SOFTWARE
 \
 "
 MOZ_APP_VENDOR
-\
 "
 \
 \

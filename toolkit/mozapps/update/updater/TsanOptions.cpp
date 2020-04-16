@@ -148,6 +148,12 @@ __tsan_default_suppressions
 (
 )
 {
+/
+/
+clang
+-
+format
+off
 return
 "
 #
@@ -196,6 +202,12 @@ keep
 this
 semicolon
 .
+/
+/
+clang
+-
+format
+on
 }
 #
 endif

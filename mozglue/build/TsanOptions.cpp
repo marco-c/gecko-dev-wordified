@@ -345,6 +345,12 @@ intermittently
 .
 /
 /
+/
+/
+clang
+-
+format
+off
 extern
 "
 C
@@ -2180,6 +2186,12 @@ this
 semicolon
 .
 }
+/
+/
+clang
+-
+format
+on
 #
 endif
 /
