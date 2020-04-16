@@ -8823,6 +8823,8 @@ logger
 debug
 (
 err
+.
+message
 )
 ;
 AddonManagerPrivate
