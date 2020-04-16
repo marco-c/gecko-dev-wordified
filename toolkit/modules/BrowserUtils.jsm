@@ -5849,13 +5849,11 @@ context
 The
 keyword
 lookup
-is
-only
+will
 /
 /
-used
-to
-differentiate
+also
+distinguish
 between
 whitelisted
 and

@@ -1205,7 +1205,9 @@ org
 /
 docshell
 /
-urifixup
+uri
+-
+fixup
 ;
 1
 "
