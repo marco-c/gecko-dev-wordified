@@ -2149,11 +2149,11 @@ NewRegExpStringIteratorObject
 \
 _
 (
-NewStringIteratorObject
+NewStringIterator
 js
 :
 :
-NewStringIteratorObject
+NewStringIterator
 )
 \
 _

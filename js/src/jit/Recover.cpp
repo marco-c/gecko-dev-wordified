@@ -8080,7 +8080,7 @@ StringIterator
 :
 resultObject
 =
-NewStringIteratorObject
+NewStringIterator
 (
 cx
 )
