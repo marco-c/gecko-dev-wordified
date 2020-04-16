@@ -6135,10 +6135,6 @@ OnStartRequest
 this
 )
 ;
-mRequest
-=
-nullptr
-;
 if
 (
 NS_FAILED
@@ -6361,6 +6357,10 @@ this
 nullptr
 status
 )
+;
+mRequest
+=
+nullptr
 ;
 mPump
 =
