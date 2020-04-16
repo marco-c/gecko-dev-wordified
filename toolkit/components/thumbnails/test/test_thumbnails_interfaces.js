@@ -252,7 +252,7 @@ badhost
 dummyLoadInfo
 )
 /
-NS_ERROR_MALFORMED_URI
+NS_ERROR_NOT_AVAILABLE
 /
 i
 "
@@ -392,7 +392,7 @@ noURL
 dummyLoadInfo
 )
 /
-NS_ERROR_MALFORMED_URI
+NS_ERROR_NOT_AVAILABLE
 /
 i
 "
