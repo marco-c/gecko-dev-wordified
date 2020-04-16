@@ -849,6 +849,7 @@ reverseSearchInputToggle
 (
 {
 initialValue
+access
 }
 =
 {
@@ -861,6 +862,7 @@ type
 :
 REVERSE_SEARCH_INPUT_TOGGLE
 initialValue
+access
 }
 ;
 }

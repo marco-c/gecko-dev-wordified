@@ -978,6 +978,11 @@ reverseSearchInputToggle
 (
 {
 initialValue
+access
+:
+"
+keyboard
+"
 }
 )
 )
