@@ -6515,12 +6515,13 @@ cx
 TenuredObject
 )
 :
-NewObjectWithNullTaggedProto
+NewObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
+nullptr
 )
 )
 ;
