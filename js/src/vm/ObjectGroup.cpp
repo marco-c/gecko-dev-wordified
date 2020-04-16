@@ -10957,6 +10957,13 @@ jsbytecode
 pc
 )
 {
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 /
 /
 Make
