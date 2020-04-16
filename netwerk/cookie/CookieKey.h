@@ -301,9 +301,6 @@ suffix
 )
 ;
 return
-mozilla
-:
-:
 HashString
 (
 temp
@@ -313,9 +310,6 @@ temp
 size_t
 SizeOfExcludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )

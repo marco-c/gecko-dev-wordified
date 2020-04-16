@@ -1959,9 +1959,6 @@ CookieStorage
 GetCookiesWithOriginAttributes
 (
 const
-mozilla
-:
-:
 OriginAttributesPattern
 &
 aPattern
@@ -2205,9 +2202,6 @@ CookieStorage
 RemoveCookiesWithOriginAttributes
 (
 const
-mozilla
-:
-:
 OriginAttributesPattern
 &
 aPattern
@@ -2421,9 +2415,6 @@ nsACString
 &
 aBaseDomain
 const
-mozilla
-:
-:
 OriginAttributesPattern
 &
 aPattern
@@ -2804,9 +2795,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :

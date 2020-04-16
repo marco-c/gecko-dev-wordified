@@ -682,17 +682,11 @@ nsIEventTarget
 >
 systemGroupEventTarget
 =
-mozilla
-:
-:
 SystemGroup
 :
 :
 EventTargetFor
 (
-mozilla
-:
-:
 TaskCategory
 :
 :

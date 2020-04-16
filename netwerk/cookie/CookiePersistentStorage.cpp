@@ -1869,9 +1869,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -2902,9 +2899,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -3078,12 +3072,6 @@ const
 OriginAttributes
 &
 aOriginAttributes
-mozilla
-:
-:
-net
-:
-:
 Cookie
 *
 aCookie
@@ -3438,9 +3426,6 @@ CookiePersistentStorage
 RemoveCookiesWithOriginAttributes
 (
 const
-mozilla
-:
-:
 OriginAttributesPattern
 &
 aPattern
@@ -3502,9 +3487,6 @@ nsACString
 &
 aBaseDomain
 const
-mozilla
-:
-:
 OriginAttributesPattern
 &
 aPattern
@@ -10959,9 +10941,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -11076,9 +11055,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -11584,9 +11560,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -12247,9 +12220,6 @@ create
 an
 Cookie
 .
-mozilla
-:
-:
 UniquePtr
 <
 CookieStruct
@@ -12445,9 +12415,6 @@ the
 data
 .
 return
-mozilla
-:
-:
 MakeUnique
 <
 CookieStruct
@@ -13090,9 +13057,6 @@ true
 ;
 mEndInitDBConn
 =
-mozilla
-:
-:
 TimeStamp
 :
 :
@@ -13106,9 +13070,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
