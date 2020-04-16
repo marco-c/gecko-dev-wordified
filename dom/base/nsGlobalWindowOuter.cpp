@@ -12747,13 +12747,12 @@ logic
 in
 sync
 with
-AppWindow
+/
+/
+nsAppShellService
 :
 :
-Initialize
-(
-)
-.
+JustCreateTopWindow
 if
 (
 nsContentUtils
