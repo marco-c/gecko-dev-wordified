@@ -5376,6 +5376,8 @@ let
 mut
 stmt
 =
+unsafe
+{
 RawStatement
 :
 :
@@ -5389,6 +5391,7 @@ null_mut
 )
 false
 )
+}
 ;
 mem
 :
@@ -6047,6 +6050,8 @@ let
 mut
 stmt
 =
+unsafe
+{
 RawStatement
 :
 :
@@ -6060,6 +6065,7 @@ null_mut
 )
 false
 )
+}
 ;
 mem
 :

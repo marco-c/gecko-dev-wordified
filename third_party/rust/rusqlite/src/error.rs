@@ -190,6 +190,9 @@ Error
 Send
 +
 Sync
++
+'
+static
 >
 )
 /
@@ -677,6 +680,9 @@ Error
 Send
 +
 Sync
++
+'
+static
 >
 )
 /
@@ -705,6 +711,9 @@ Error
 Send
 +
 Sync
++
+'
+static
 >
 )
 /
@@ -2954,7 +2963,7 @@ provided
 }
 }
 fn
-cause
+source
 (
 &
 self
@@ -2964,11 +2973,16 @@ self
 Option
 <
 &
+(
 dyn
 error
 :
 :
 Error
++
+'
+static
+)
 >
 {
 match
@@ -3329,6 +3343,7 @@ message
 )
 }
 pub
+unsafe
 fn
 error_from_handle
 (
@@ -3364,8 +3379,6 @@ else
 {
 Some
 (
-unsafe
-{
 errmsg_to_string
 (
 ffi
@@ -3376,7 +3389,6 @@ sqlite3_errmsg
 db
 )
 )
-}
 )
 }
 ;

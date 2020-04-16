@@ -80,6 +80,7 @@ impl
 RawStatement
 {
 pub
+unsafe
 fn
 new
 (
@@ -449,6 +450,8 @@ self
 }
 ;
 if
+unsafe
+{
 !
 unlock_notify
 :
@@ -458,12 +461,15 @@ is_locked
 db
 rc
 )
+}
 {
 break
 ;
 }
 rc
 =
+unsafe
+{
 unlock_notify
 :
 :
@@ -471,6 +477,7 @@ wait_for_unlock_notify
 (
 db
 )
+}
 ;
 if
 rc

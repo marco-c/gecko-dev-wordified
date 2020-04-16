@@ -723,6 +723,8 @@ Busy
 >
 Err
 (
+unsafe
+{
 error_from_handle
 (
 ptr
@@ -736,12 +738,15 @@ ffi
 :
 SQLITE_BUSY
 )
+}
 )
 Locked
 =
 >
 Err
 (
+unsafe
+{
 error_from_handle
 (
 ptr
@@ -755,6 +760,7 @@ ffi
 :
 SQLITE_LOCKED
 )
+}
 )
 More
 =
@@ -1088,6 +1094,8 @@ Busy
 >
 Err
 (
+unsafe
+{
 error_from_handle
 (
 ptr
@@ -1101,12 +1109,15 @@ ffi
 :
 SQLITE_BUSY
 )
+}
 )
 Locked
 =
 >
 Err
 (
+unsafe
+{
 error_from_handle
 (
 ptr
@@ -1120,6 +1131,7 @@ ffi
 :
 SQLITE_LOCKED
 )
+}
 )
 More
 =
