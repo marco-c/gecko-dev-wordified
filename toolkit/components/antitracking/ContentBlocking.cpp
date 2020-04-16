@@ -2476,7 +2476,6 @@ ContentBlockingNotifier
 :
 OnEvent
 (
-topOuterWindow
 channel
 parentInnerWindow
 -
