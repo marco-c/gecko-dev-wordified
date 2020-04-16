@@ -692,7 +692,7 @@ Force
 initialization
 of
 the
-nsPermissionManager
+PermissionManager
 for
 (
 let

@@ -326,12 +326,6 @@ composer
 '
 '
 /
-extensions
-/
-permissions
-'
-'
-/
 js
 /
 xpconnect

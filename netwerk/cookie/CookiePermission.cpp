@@ -496,7 +496,7 @@ Init
 /
 /
 Initialize
-nsPermissionManager
+PermissionManager
 and
 fetch
 relevant
@@ -524,7 +524,7 @@ lazily
 .
 mPermMgr
 =
-nsPermissionManager
+PermissionManager
 :
 :
 GetInstance
