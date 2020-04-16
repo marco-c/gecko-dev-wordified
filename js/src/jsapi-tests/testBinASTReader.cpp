@@ -219,6 +219,15 @@ include
 "
 js
 /
+Exception
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h
@@ -2006,7 +2015,7 @@ out
 of
 scope
 .
-RootedValue
+ExceptionStack
 txtExn
 (
 cx
@@ -2033,10 +2042,7 @@ necessary
 if
 (
 !
-js
-:
-:
-GetAndClearException
+StealPendingExceptionStack
 (
 cx
 &
@@ -2260,7 +2266,7 @@ out
 of
 scope
 .
-RootedValue
+ExceptionStack
 binExn
 (
 cx
@@ -2290,10 +2296,7 @@ necessary
 if
 (
 !
-js
-:
-:
-GetAndClearException
+StealPendingExceptionStack
 (
 cx
 &
