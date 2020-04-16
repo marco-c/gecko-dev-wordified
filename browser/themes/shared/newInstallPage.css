@@ -63,7 +63,6 @@ margin
 0
 0
 40px
-0
 ;
 }
 h3
@@ -86,7 +85,6 @@ margin
 0
 0
 20px
-0
 ;
 }
 #
@@ -103,7 +101,6 @@ margin
 40px
 auto
 0
-auto
 ;
 padding
 :
@@ -433,12 +430,6 @@ bottom
 :
 0
 ;
-text
--
-align
-:
-start
-;
 margin
 -
 inline
@@ -454,4 +445,10 @@ and
 button
 *
 /
+text
+-
+align
+:
+start
+;
 }
