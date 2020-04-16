@@ -4151,7 +4151,7 @@ const
 char
 *
 aPrefix
-uint32_t
+ListFlags
 aFlags
 )
 const
@@ -4185,8 +4185,14 @@ get
 if
 (
 aFlags
-&
-TRAVERSE_SUBDOCUMENT_FRAMES
+.
+contains
+(
+ListFlag
+:
+:
+TraverseSubdocumentFrames
+)
 )
 {
 nsSubDocumentFrame

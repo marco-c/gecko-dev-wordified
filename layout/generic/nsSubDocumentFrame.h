@@ -403,10 +403,12 @@ aPrefix
 =
 "
 "
-uint32_t
+ListFlags
 aFlags
 =
-0
+ListFlags
+(
+)
 )
 const
 override
