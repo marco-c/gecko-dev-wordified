@@ -298,7 +298,7 @@ login
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -372,7 +372,7 @@ abort
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -629,7 +629,7 @@ recheck
 completed
 .
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
