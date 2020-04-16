@@ -8190,7 +8190,7 @@ windowArray
 =
 CGWindowListCopyWindowInfo
 (
-kCGWindowListOptionOnScreenOnly
+kCGWindowListOptionAll
 kCGNullWindowID
 )
 ;
@@ -9549,6 +9549,15 @@ MaybeRequestScreenCapturePermission
 (
 )
 {
+LOG
+(
+"
+MaybeRequestScreenCapturePermission
+(
+)
+"
+)
+;
 AutoCFRelease
 <
 CGImageRef
