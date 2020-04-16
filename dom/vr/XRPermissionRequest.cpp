@@ -122,7 +122,7 @@ h
 #
 include
 "
-nsIGlobalObject
+nsGlobalWindowInner
 .
 h
 "
