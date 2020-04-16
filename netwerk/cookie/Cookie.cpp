@@ -96,6 +96,13 @@ MPL
 #
 include
 "
+Cookie
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Encoding
@@ -125,13 +132,6 @@ h
 #
 include
 "
-nsCookie
-.
-h
-"
-#
-include
-"
 nsIURLParser
 .
 h
@@ -150,6 +150,12 @@ stdlib
 .
 h
 >
+namespace
+mozilla
+{
+namespace
+net
+{
 /
 *
 *
@@ -230,7 +236,7 @@ h
 *
 *
 *
-nsCookie
+Cookie
 :
 *
 creation
@@ -337,7 +343,7 @@ we
 create
 a
 new
-nsCookie
+Cookie
 .
 This
 is
@@ -406,9 +412,9 @@ be
 created
 at
 the
+/
+/
 same
-/
-/
 time
 or
 that
@@ -425,7 +431,7 @@ int64_t
 gLastCreationTime
 ;
 int64_t
-nsCookie
+Cookie
 :
 :
 GenerateUniqueCreationTime
@@ -494,9 +500,9 @@ gLastCreationTime
 static
 already_AddRefed
 <
-nsCookie
+Cookie
 >
-nsCookie
+Cookie
 :
 :
 Create
@@ -584,9 +590,9 @@ aOriginAttributes
 }
 already_AddRefed
 <
-nsCookie
+Cookie
 >
-nsCookie
+Cookie
 :
 :
 Create
@@ -609,12 +615,12 @@ aOriginAttributes
 {
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
 new
-nsCookie
+Cookie
 (
 aCookieData
 aOriginAttributes
@@ -784,7 +790,7 @@ sameSite
 if
 (
 !
-nsCookie
+Cookie
 :
 :
 ValidateRawSame
@@ -820,7 +826,7 @@ forget
 ;
 }
 size_t
-nsCookie
+Cookie
 :
 :
 SizeOfIncludingThis
@@ -892,7 +898,7 @@ MallocSizeOf
 ;
 }
 bool
-nsCookie
+Cookie
 :
 :
 IsStale
@@ -1007,7 +1013,7 @@ PR_USEC_PER_SEC
 *
 *
 *
-nsCookie
+Cookie
 :
 *
 xpcom
@@ -1096,7 +1102,7 @@ impl
 xpcom
 getters
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetName
@@ -1117,7 +1123,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetValue
@@ -1138,7 +1144,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetHost
@@ -1159,7 +1165,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetRawHost
@@ -1180,7 +1186,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetPath
@@ -1201,7 +1207,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetExpiry
@@ -1223,7 +1229,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetIsSession
@@ -1245,7 +1251,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetIsDomain
@@ -1267,7 +1273,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetIsSecure
@@ -1289,7 +1295,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetIsHttpOnly
@@ -1311,7 +1317,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetCreationTime
@@ -1333,7 +1339,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetLastAccessed
@@ -1355,7 +1361,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetSameSite
@@ -1401,7 +1407,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetOriginAttributes
@@ -1447,7 +1453,7 @@ NS_OK
 const
 nsCString
 &
-nsCookie
+Cookie
 :
 :
 GetFilePath
@@ -1648,7 +1654,7 @@ session
 cookie
 .
 NS_IMETHODIMP
-nsCookie
+Cookie
 :
 :
 GetExpires
@@ -1697,7 +1703,7 @@ NS_OK
 /
 static
 bool
-nsCookie
+Cookie
 :
 :
 ValidateRawSame
@@ -1744,6 +1750,16 @@ SAMESITE_NONE
 }
 NS_IMPL_ISUPPORTS
 (
-nsCookie
+Cookie
 nsICookie
 )
+}
+/
+/
+namespace
+net
+}
+/
+/
+namespace
+mozilla
