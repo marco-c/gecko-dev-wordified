@@ -48558,10 +48558,10 @@ constantInt
 (
 1
 )
-MIRType
+MDefinition
 :
 :
-Int32
+Truncate
 )
 ;
 current
