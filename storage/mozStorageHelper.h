@@ -102,13 +102,6 @@ MOZSTORAGEHELPER_H
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

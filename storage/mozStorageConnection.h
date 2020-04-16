@@ -121,13 +121,6 @@ mozilla_storage_Connection_h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

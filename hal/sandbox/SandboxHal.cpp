@@ -221,13 +221,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 WindowIdentifier
 .
 h

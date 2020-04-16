@@ -126,17 +126,6 @@ h
 "
 /
 /
-Helper
-Classes
-#
-include
-"
-nsAutoPtr
-.
-h
-"
-/
-/
 Interfaces
 needed
 to

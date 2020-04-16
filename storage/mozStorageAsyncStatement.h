@@ -121,13 +121,6 @@ mozilla_storage_mozStorageAsyncStatement_h_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
