@@ -823,6 +823,12 @@ disable_perf_tuning
 args
 .
 disable_perf_tuning
+            
+conditioned_profile_scenario
+=
+args
+.
+conditioned_profile_scenario
         
 )
     

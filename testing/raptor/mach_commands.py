@@ -398,6 +398,17 @@ disable_perf_tuning
         
 self
 .
+conditioned_profile_scenario
+=
+kwargs
+[
+'
+conditioned_profile_scenario
+'
+]
+        
+self
+.
 device_name
 =
 kwargs
@@ -1260,6 +1271,14 @@ disable_perf_tuning
 self
 .
 disable_perf_tuning
+            
+'
+conditioned_profile_scenario
+'
+:
+self
+.
+conditioned_profile_scenario
             
 '
 is_release_build
