@@ -27711,6 +27711,11 @@ aBuilder
 CurrentActiveScrolledRoot
 (
 )
+clipState
+.
+IsClippedToDisplayPort
+(
+)
 )
 ;
 ct
