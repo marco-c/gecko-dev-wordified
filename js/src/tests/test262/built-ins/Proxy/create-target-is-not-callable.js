@@ -35,13 +35,11 @@ file
 -
 -
 -
-es6id
+esid
 :
-9
-.
-5
-.
-15
+sec
+-
+proxycreate
 description
 :
 >
@@ -165,8 +163,6 @@ function
 )
 {
 p
-.
-call
 (
 )
 ;
