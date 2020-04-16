@@ -2292,7 +2292,7 @@ nsACString
 aScope
 )
 {
-MOZ_DIAGNOSTIC_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 RemoveElement
 (
