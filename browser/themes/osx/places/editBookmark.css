@@ -212,18 +212,11 @@ expander
 down
 {
 margin
--
-block
 :
 0
-1px
-;
-margin
--
-inline
-:
-8px
 4px
+1px
+8px
 ;
 padding
 :
@@ -282,6 +275,7 @@ margin
 6px
 4px
 0
+4px
 ;
 }
 /
@@ -357,7 +351,7 @@ center
 ;
 margin
 :
-0
+0px
 2px
 ;
 min

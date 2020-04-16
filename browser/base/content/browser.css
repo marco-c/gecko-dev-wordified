@@ -8724,7 +8724,15 @@ dragover
 {
 border
 -
-inline
+left
+-
+color
+:
+transparent
+;
+border
+-
+right
 -
 color
 :
