@@ -9855,9 +9855,6 @@ endif
 /
 !
 JS_HAS_INTL_API
-#
-ifdef
-DEBUG
 JS_FRIEND_API
 JS
 :
@@ -9886,5 +9883,3 @@ zoneFromAnyThread
 )
 ;
 }
-#
-endif
