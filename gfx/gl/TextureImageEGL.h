@@ -106,6 +106,17 @@ GLTextureImage
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Types
+.
+h
+"
 namespace
 mozilla
 {
@@ -156,6 +167,9 @@ TextureImage
 ImageFormat
 aImageFormat
 =
+gfx
+:
+:
 SurfaceFormat
 :
 :

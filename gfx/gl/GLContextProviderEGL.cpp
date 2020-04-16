@@ -489,6 +489,15 @@ include
 "
 mozilla
 /
+Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 gfxVars
