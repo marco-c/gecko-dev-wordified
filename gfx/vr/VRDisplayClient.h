@@ -369,6 +369,15 @@ aType
 )
 const
 ;
+gfx
+:
+:
+VRAPIMode
+GetXRAPIMode
+(
+)
+const
+;
 void
 SetXRAPIMode
 (
