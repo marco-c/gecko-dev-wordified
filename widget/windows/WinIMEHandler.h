@@ -1284,6 +1284,9 @@ static
 void
 MaybeShowOnScreenKeyboard
 (
+nsWindow
+*
+aWindow
 )
 ;
 static
@@ -1375,6 +1378,9 @@ static
 void
 ShowOnScreenKeyboard
 (
+nsWindow
+*
+aWindow
 )
 ;
 /
@@ -1404,6 +1410,9 @@ static
 void
 DismissOnScreenKeyboard
 (
+nsWindow
+*
+aWindow
 )
 ;
 /
