@@ -9529,7 +9529,7 @@ len
 CK_AES_CTR_PARAMS
 ctrParams
 ;
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 gcmParams
 ;
 params

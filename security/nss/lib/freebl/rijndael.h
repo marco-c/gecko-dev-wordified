@@ -518,6 +518,9 @@ iv
 AES_BLOCK_SIZE
 ]
 ;
+freeblAeadFunc
+worker_aead
+;
 freeblDestroyFunc
 destroy
 ;

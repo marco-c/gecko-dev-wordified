@@ -725,7 +725,7 @@ false
 }
 ;
 const
-EcdhTestVectorStr
+EcdhTestVector
 kCurve25519WycheproofVectors
 [
 ]

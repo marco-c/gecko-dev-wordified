@@ -129,7 +129,7 @@ structs
 h
 "
 const
-EcdhTestVectorStr
+EcdhTestVector
 kP384EcdhWycheproofVectors
 [
 ]

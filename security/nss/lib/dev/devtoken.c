@@ -1227,7 +1227,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 ckrv
@@ -5611,7 +5611,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -5987,7 +5987,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -6226,7 +6226,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -6608,7 +6608,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -6735,7 +6735,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -6887,7 +6887,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -7368,7 +7368,7 @@ session
 handle
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError

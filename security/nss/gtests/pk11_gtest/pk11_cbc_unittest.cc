@@ -1760,7 +1760,7 @@ AES_BLOCK_SIZE
 ;
 /
 /
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 is
 the
 largest
@@ -1775,7 +1775,7 @@ param_buf
 [
 sizeof
 (
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 )
 ]
 ;
@@ -1966,14 +1966,14 @@ GCM
 should
 have
 a
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 param
 .
 len
 =
 sizeof
 (
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 )
 -
 1
@@ -2015,7 +2015,7 @@ len
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -2031,7 +2031,7 @@ param_buf
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -2047,7 +2047,7 @@ ulIvLen
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -2063,7 +2063,7 @@ nullptr
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -2079,7 +2079,7 @@ ulAADLen
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (

@@ -670,13 +670,13 @@ false
 GCM
 params
 .
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 gcm_params
 =
 static_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -685,7 +685,7 @@ PORT_Malloc
 sizeof
 (
 struct
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 )
 )
 )
