@@ -357,6 +357,9 @@ nsDocShellLoadState
 class
 nsFrameLoader
 ;
+class
+nsIOpenWindowInfo
+;
 namespace
 mozilla
 {
@@ -656,9 +659,9 @@ ProvideWindowCommon
 BrowserChild
 *
 aTabOpener
-mozIDOMWindowProxy
+nsIOpenWindowInfo
 *
-aParent
+aOpenWindowInfo
 bool
 aIframeMoz
 uint32_t
