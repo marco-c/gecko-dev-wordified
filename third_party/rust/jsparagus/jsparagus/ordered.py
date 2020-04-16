@@ -8,8 +8,76 @@ structures
 "
 "
 "
+from
+__future__
+import
+annotations
+import
+typing
+#
+Type
+parameter
+for
+OrderedSet
+[
+T
+]
+and
+OrderedFrozenSet
+[
+T
+]
+.
+#
+#
+This
+should
+be
+bound
+=
+Hashable
+but
+I
+gather
+MyPy
+has
+some
+issues
+with
+#
+hashability
+.
+It
+doesn
+'
+t
+enforce
+hashability
+on
+Dict
+and
+Set
+.
+T
+=
+typing
+.
+TypeVar
+(
+'
+T
+'
+)
 class
 OrderedSet
+(
+typing
+.
+Generic
+[
+T
+]
+)
 :
     
 "
@@ -60,11 +128,28 @@ elements
 "
 "
     
+_data
+:
+typing
+.
+Dict
+[
+T
+int
+]
+    
 def
 __init__
 (
 self
 values
+:
+typing
+.
+Iterable
+[
+T
+]
 =
 (
 )
@@ -96,6 +181,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -126,7 +214,12 @@ add
 (
 self
 v
+:
+T
 )
+-
+>
+None
 :
         
 self
@@ -143,7 +236,17 @@ extend
 (
 self
 iterable
+:
+typing
+.
+Iterable
+[
+T
+]
 )
+-
+>
+None
 :
         
 for
@@ -164,7 +267,12 @@ remove
 (
 self
 v
+:
+T
 )
+-
+>
+None
 :
         
 del
@@ -180,7 +288,12 @@ __eq__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -204,6 +317,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 raise
@@ -227,6 +343,9 @@ __len__
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -242,6 +361,9 @@ __bool__
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -257,7 +379,12 @@ __contains__
 (
 self
 v
+:
+T
 )
+-
+>
+bool
 :
         
 return
@@ -272,6 +399,14 @@ __iter__
 (
 self
 )
+-
+>
+typing
+.
+Iterator
+[
+T
+]
 :
         
 return
@@ -287,7 +422,18 @@ __ior__
 (
 self
 other
+:
+OrderedSet
+[
+T
+]
 )
+-
+>
+OrderedSet
+[
+T
+]
 :
         
 for
@@ -311,7 +457,18 @@ __or__
 (
 self
 other
+:
+OrderedSet
+[
+T
+]
 )
+-
+>
+OrderedSet
+[
+T
+]
 :
         
 u
@@ -336,7 +493,18 @@ __iand__
 (
 self
 other
+:
+OrderedSet
+[
+T
+]
 )
+-
+>
+OrderedSet
+[
+T
+]
 :
         
 self
@@ -365,7 +533,18 @@ __sub__
 (
 self
 other
+:
+OrderedSet
+[
+T
+]
 )
+-
+>
+OrderedSet
+[
+T
+]
 :
         
 return
@@ -388,7 +567,18 @@ __isub__
 (
 self
 other
+:
+OrderedSet
+[
+T
+]
 )
+-
+>
+OrderedSet
+[
+T
+]
 :
         
 for
@@ -414,6 +604,14 @@ return
 self
 class
 OrderedFrozenSet
+(
+typing
+.
+Generic
+[
+T
+]
+)
 :
     
 "
@@ -475,11 +673,37 @@ _hash
 '
 ]
     
+_data
+:
+typing
+.
+Dict
+[
+T
+int
+]
+    
+_hash
+:
+typing
+.
+Optional
+[
+int
+]
+    
 def
 __init__
 (
 self
 values
+:
+typing
+.
+Iterable
+[
+T
+]
 =
 (
 )
@@ -511,6 +735,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -541,6 +768,9 @@ __len__
 (
 self
 )
+-
+>
+int
 :
         
 return
@@ -556,6 +786,9 @@ __bool__
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -571,7 +804,12 @@ __contains__
 (
 self
 v
+:
+T
 )
+-
+>
+bool
 :
         
 return
@@ -586,6 +824,14 @@ __iter__
 (
 self
 )
+-
+>
+typing
+.
+Iterator
+[
+T
+]
 :
         
 return
@@ -601,7 +847,12 @@ __eq__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 return
@@ -625,6 +876,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 if
@@ -659,7 +913,18 @@ __and__
 (
 self
 other
+:
+OrderedFrozenSet
+[
+T
+]
 )
+-
+>
+OrderedFrozenSet
+[
+T
+]
 :
         
 return
@@ -683,7 +948,18 @@ __or__
 (
 self
 other
+:
+OrderedFrozenSet
+[
+T
+]
 )
+-
+>
+OrderedFrozenSet
+[
+T
+]
 :
         
 return
@@ -705,7 +981,18 @@ __sub__
 (
 self
 other
+:
+OrderedFrozenSet
+[
+T
+]
 )
+-
+>
+OrderedFrozenSet
+[
+T
+]
 :
         
 return

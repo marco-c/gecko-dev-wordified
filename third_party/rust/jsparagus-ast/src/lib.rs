@@ -26,6 +26,10 @@ pub
 mod
 source_location
 ;
+pub
+mod
+source_slice_list
+;
 mod
 source_location_accessor_generated
 ;

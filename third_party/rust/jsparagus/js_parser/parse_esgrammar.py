@@ -2213,7 +2213,10 @@ types
 Type
 (
 name
+tuple
+(
 args
+)
 )
     
 def
@@ -2428,9 +2431,14 @@ args
 or
 (
 )
+types
+.
+Type
+(
 self
 .
 method_trait
+)
                                   
 fallible
 is

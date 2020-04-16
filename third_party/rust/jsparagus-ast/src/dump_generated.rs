@@ -47,6 +47,18 @@ use
 crate
 :
 :
+source_slice_list
+:
+:
+{
+SourceSliceList
+SourceSliceIndex
+}
+;
+use
+crate
+:
+:
 types
 :
 :
@@ -155,6 +167,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 )
 where
 W
@@ -170,6 +186,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 0
 )
 ;
@@ -208,6 +225,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -251,6 +272,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -282,6 +307,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -302,6 +328,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -339,6 +366,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -414,6 +445,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -465,6 +497,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -540,6 +576,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -591,6 +628,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -666,6 +707,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -717,6 +759,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -792,6 +838,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -843,6 +890,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -918,6 +969,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -969,6 +1021,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -1103,6 +1159,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -1507,6 +1567,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -2331,6 +2395,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -2585,6 +2653,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -2693,6 +2765,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -2759,6 +2835,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -2799,6 +2876,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -2839,6 +2917,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -2879,6 +2958,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -2919,6 +2999,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -2974,6 +3055,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -3005,6 +3090,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -3025,6 +3111,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -3062,6 +3149,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -3128,6 +3219,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3168,6 +3260,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3208,6 +3301,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3263,6 +3357,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -3351,6 +3449,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3448,6 +3547,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3545,6 +3645,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3664,6 +3765,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3702,6 +3804,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3772,6 +3875,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -3842,6 +3946,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3880,6 +3985,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -3918,6 +4024,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4008,6 +4115,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4046,6 +4154,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4084,6 +4193,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4175,6 +4285,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4213,6 +4324,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4251,6 +4363,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4289,6 +4402,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4329,6 +4443,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -4398,6 +4513,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4436,6 +4552,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4533,6 +4650,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4622,6 +4740,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4660,6 +4779,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4751,6 +4871,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4789,6 +4910,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4827,6 +4949,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4865,6 +4988,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -4962,6 +5086,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5051,6 +5176,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5089,6 +5215,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5179,6 +5306,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5217,6 +5345,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5255,6 +5384,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5344,6 +5474,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5382,6 +5513,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5471,6 +5603,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5509,6 +5642,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5549,6 +5683,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -5569,6 +5704,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -5589,6 +5725,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -5626,6 +5763,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -5657,6 +5798,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -5677,6 +5819,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -5754,6 +5897,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5854,6 +5998,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -5867,6 +6012,7 @@ pattern
 global
 ignore_case
 multi_line
+dot_all
 sticky
 unicode
 .
@@ -5927,6 +6073,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -5965,6 +6112,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6003,6 +6151,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6041,6 +6190,46 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
+depth
++
+1
+)
+;
+newline
+(
+out
+depth
++
+1
+)
+;
+write
+!
+(
+out
+"
+dot_all
+=
+"
+)
+.
+expect
+(
+"
+failed
+to
+dump
+"
+)
+;
+dot_all
+.
+dump_with_atoms_at
+(
+out
+atoms
+slices
 depth
 +
 1
@@ -6079,6 +6268,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6117,6 +6307,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6214,6 +6405,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6254,6 +6446,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -6324,6 +6517,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6362,6 +6556,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6400,6 +6595,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6489,6 +6685,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6527,6 +6724,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6617,6 +6815,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6655,6 +6854,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6693,6 +6893,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6733,6 +6934,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -6803,6 +7005,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6841,6 +7044,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6879,6 +7083,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -6969,6 +7174,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7007,6 +7213,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7045,6 +7252,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7085,6 +7293,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -7105,6 +7314,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -7174,6 +7384,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7212,6 +7423,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7282,6 +7494,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -7351,6 +7564,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7389,6 +7603,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7429,6 +7644,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -7498,6 +7714,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7536,6 +7753,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7576,6 +7794,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -7676,6 +7895,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7714,6 +7934,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7752,6 +7973,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7849,6 +8071,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -7946,6 +8169,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8043,6 +8267,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8140,6 +8365,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8197,6 +8423,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -8228,6 +8458,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8248,6 +8479,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8268,6 +8500,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8305,6 +8538,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -8393,6 +8630,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8490,6 +8728,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8587,6 +8826,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8627,6 +8867,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8647,6 +8888,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8667,6 +8909,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8704,6 +8947,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -8735,6 +8982,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8755,6 +9003,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8775,6 +9024,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -8812,6 +9062,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -8878,6 +9132,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8918,6 +9173,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -8973,6 +9229,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9004,6 +9264,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9024,6 +9285,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9044,6 +9306,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9064,6 +9327,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9101,6 +9365,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9132,6 +9400,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9152,6 +9421,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9172,6 +9442,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9209,6 +9480,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9240,6 +9515,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9260,6 +9536,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9297,6 +9574,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9328,6 +9609,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9348,6 +9630,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9368,6 +9651,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9405,6 +9689,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9436,6 +9724,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9456,6 +9745,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9493,6 +9783,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9524,6 +9818,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9544,6 +9839,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9564,6 +9860,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9584,6 +9881,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9604,6 +9902,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9637,6 +9936,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9668,6 +9971,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9688,6 +9992,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9725,6 +10030,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9756,6 +10065,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9776,6 +10086,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9813,6 +10124,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9844,6 +10159,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9864,6 +10180,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9901,6 +10218,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -9932,6 +10253,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9952,6 +10274,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -9989,6 +10312,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10020,6 +10347,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10040,6 +10368,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10077,6 +10406,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10108,6 +10441,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10128,6 +10462,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10165,6 +10500,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10196,6 +10535,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10216,6 +10556,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10253,6 +10594,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10319,6 +10664,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -10359,6 +10705,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -10410,6 +10757,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10485,6 +10836,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -10536,6 +10888,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10611,6 +10967,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -10666,6 +11023,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10697,6 +11058,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10764,6 +11126,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10795,6 +11161,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10815,6 +11182,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -10852,6 +11220,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -10918,6 +11290,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -10958,6 +11331,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11013,6 +11387,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11079,6 +11457,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11119,6 +11498,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11174,6 +11554,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11240,6 +11624,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11280,6 +11665,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11335,6 +11721,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11401,6 +11791,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11441,6 +11832,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11496,6 +11888,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11527,6 +11923,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -11547,6 +11944,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -11584,6 +11982,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11650,6 +12052,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11690,6 +12093,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11745,6 +12149,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11811,6 +12219,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11851,6 +12260,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -11906,6 +12316,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -11972,6 +12386,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12012,6 +12427,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12067,6 +12483,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12098,6 +12518,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -12118,6 +12539,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -12155,6 +12577,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12221,6 +12647,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12261,6 +12688,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12316,6 +12744,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12382,6 +12814,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12422,6 +12855,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12477,6 +12911,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12508,6 +12946,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -12528,6 +12967,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -12565,6 +13005,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12631,6 +13075,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12671,6 +13116,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12726,6 +13172,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12792,6 +13242,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12832,6 +13283,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12887,6 +13339,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -12953,6 +13409,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -12993,6 +13450,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13033,6 +13491,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13088,6 +13547,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -13154,6 +13617,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13194,6 +13658,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13234,6 +13699,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13289,6 +13755,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -13369,6 +13839,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13407,6 +13878,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13496,6 +13968,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13534,6 +14007,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13591,6 +14065,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -13622,6 +14100,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -13642,6 +14121,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -13662,6 +14142,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -13699,6 +14180,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -13765,6 +14250,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13805,6 +14291,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13860,6 +14347,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -13926,6 +14417,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -13966,6 +14458,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14006,6 +14499,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14057,6 +14551,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14123,6 +14621,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14163,6 +14662,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14203,6 +14703,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14254,6 +14755,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14320,6 +14825,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14360,6 +14866,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14411,6 +14918,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14486,6 +14997,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14541,6 +15053,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14607,6 +15123,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14647,6 +15164,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14702,6 +15220,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14777,6 +15299,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -14832,6 +15355,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14863,6 +15390,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -14883,6 +15411,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -14903,6 +15432,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -14940,6 +15470,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -14971,6 +15505,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -14991,6 +15526,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -15011,6 +15547,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -15044,6 +15581,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -15110,6 +15651,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15150,6 +15692,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15201,6 +15744,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -15267,6 +15814,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15307,6 +15855,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15362,6 +15911,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -15428,6 +15981,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15468,6 +16022,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15508,6 +16063,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15548,6 +16104,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15588,6 +16145,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15643,6 +16201,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -15709,6 +16271,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15749,6 +16312,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15804,6 +16368,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -15870,6 +16438,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15910,6 +16479,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -15950,6 +16520,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16005,6 +16576,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16071,6 +16646,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16111,6 +16687,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16162,6 +16739,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16237,6 +16818,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16292,6 +16874,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16367,6 +16953,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16418,6 +17005,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16493,6 +17084,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16544,6 +17136,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16619,6 +17215,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16674,6 +17271,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16705,6 +17306,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -16725,6 +17327,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -16792,6 +17395,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16867,6 +17474,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -16922,6 +17530,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -16953,6 +17565,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -16973,6 +17586,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -17010,6 +17624,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17076,6 +17694,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17116,6 +17735,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17167,6 +17787,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17242,6 +17866,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17297,6 +17922,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17372,6 +18001,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17427,6 +18057,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17493,6 +18127,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17533,6 +18168,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17588,6 +18224,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17654,6 +18294,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17694,6 +18335,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17749,6 +18391,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17780,6 +18426,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -17800,6 +18447,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -17837,6 +18485,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -17903,6 +18555,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17943,6 +18596,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -17998,6 +18652,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18029,6 +18687,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -18049,6 +18708,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -18086,6 +18746,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18117,6 +18781,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -18137,6 +18802,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -18174,6 +18840,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18240,6 +18910,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18280,6 +18951,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18335,6 +19007,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18401,6 +19077,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18441,6 +19118,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18492,6 +19170,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18567,6 +19249,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18622,6 +19305,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18688,6 +19375,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18728,6 +19416,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18783,6 +19472,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -18849,6 +19542,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18889,6 +19583,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -18944,6 +19639,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19010,6 +19709,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19050,6 +19750,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19105,6 +19806,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19171,6 +19876,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19211,6 +19917,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19266,6 +19973,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19341,6 +20052,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19392,6 +20104,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19467,6 +20183,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19522,6 +20239,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19588,6 +20309,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19628,6 +20350,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19683,6 +20406,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19749,6 +20476,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19789,6 +20517,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19844,6 +20573,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -19932,6 +20665,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -19972,6 +20706,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -20018,6 +20753,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -20076,6 +20815,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 +
 1
@@ -20141,6 +20881,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -20169,6 +20913,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -20238,6 +20983,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -20260,6 +21009,7 @@ dump_with_atoms_at
 (
 out
 atoms
+slices
 depth
 )
 ;
@@ -20287,6 +21037,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -20367,6 +21121,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize
@@ -20415,6 +21173,77 @@ dump
 impl
 ASTDump
 for
+SourceSliceIndex
+{
+fn
+dump_with_atoms_at
+<
+W
+>
+(
+&
+self
+out
+:
+&
+mut
+W
+atoms
+:
+&
+SourceAtomSet
+slices
+:
+&
+SourceSliceList
+depth
+:
+usize
+)
+where
+W
+:
+io
+:
+:
+Write
+{
+write
+!
+(
+out
+"
+{
+:
+?
+}
+"
+slices
+.
+get
+(
+self
+.
+clone
+(
+)
+)
+)
+.
+expect
+(
+"
+failed
+to
+dump
+"
+)
+;
+}
+}
+impl
+ASTDump
+for
 f64
 {
 fn
@@ -20434,6 +21263,10 @@ atoms
 :
 &
 SourceAtomSet
+slices
+:
+&
+SourceSliceList
 depth
 :
 usize

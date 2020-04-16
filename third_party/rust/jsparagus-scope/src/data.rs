@@ -142,6 +142,9 @@ new
 name
 :
 SourceAtomSetIndex
+is_closed_over
+:
+bool
 )
 -
 >
@@ -151,8 +154,6 @@ Self
 {
 name
 is_closed_over
-:
-false
 is_top_level_function
 :
 false
@@ -165,6 +166,9 @@ new_top_level_function
 name
 :
 SourceAtomSetIndex
+is_closed_over
+:
+bool
 )
 -
 >
@@ -174,8 +178,6 @@ Self
 {
 name
 is_closed_over
-:
-false
 is_top_level_function
 :
 true

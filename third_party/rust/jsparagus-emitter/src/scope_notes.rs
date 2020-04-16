@@ -11,10 +11,10 @@ use
 crate
 :
 :
-scope
+gcthings
 :
 :
-ScopeIndex
+GCThingIndex
 ;
 /
 /
@@ -53,9 +53,9 @@ struct
 ScopeNote
 {
 pub
-scope_index
+index
 :
-ScopeIndex
+GCThingIndex
 pub
 start
 :
@@ -78,9 +78,9 @@ ScopeNote
 fn
 new
 (
-scope_index
+index
 :
-ScopeIndex
+GCThingIndex
 start
 :
 BytecodeOffset
@@ -97,7 +97,7 @@ Self
 {
 Self
 {
-scope_index
+index
 start
 :
 start
@@ -257,9 +257,9 @@ enter_scope
 &
 mut
 self
-scope_index
+index
 :
-ScopeIndex
+GCThingIndex
 offset
 :
 BytecodeOffset
@@ -275,7 +275,7 @@ ScopeNoteIndex
 ScopeNoteIndex
 {
 let
-index
+note_index
 =
 self
 .
@@ -296,7 +296,7 @@ ScopeNote
 :
 new
 (
-scope_index
+index
 offset
 parent
 )
@@ -307,7 +307,7 @@ ScopeNoteIndex
 :
 new
 (
-index
+note_index
 )
 }
 pub

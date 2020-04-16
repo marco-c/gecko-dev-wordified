@@ -33,6 +33,15 @@ source_atom_set
 :
 SourceAtomSetIndex
 ;
+use
+crate
+:
+:
+source_slice_list
+:
+:
+SourceSliceIndex
+;
 #
 [
 derive
@@ -1387,7 +1396,7 @@ LiteralRegExpExpression
 {
 pattern
 :
-SourceAtomSetIndex
+SourceSliceIndex
 global
 :
 bool
@@ -1395,6 +1404,9 @@ ignore_case
 :
 bool
 multi_line
+:
+bool
+dot_all
 :
 bool
 sticky

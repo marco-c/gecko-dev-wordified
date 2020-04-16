@@ -8,10 +8,6 @@ bin
 python
 import
 json
-import
-os
-.
-path
 from
 datetime
 import
@@ -162,8 +158,7 @@ days
     
 if
 days_since
-=
-=
+is
 None
 or
 days_since
@@ -225,8 +220,8 @@ days_since
 )
 if
 days_since
-!
-=
+is
+not
 None
 else
 "

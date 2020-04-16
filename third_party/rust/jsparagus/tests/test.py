@@ -98,10 +98,6 @@ body
 )
 )
 )
-"
-AstBuilder
-"
-False
 )
 )
 class
@@ -4828,6 +4824,7 @@ stmt_0
 (
 )
 :
+            
 return
 (
 '
@@ -4847,6 +4844,7 @@ stmt_1
 t
 )
 :
+            
 return
 (
 '
@@ -4874,6 +4872,7 @@ t
 e
 )
 :
+            
 return
 (
 '
@@ -7300,10 +7299,6 @@ yield_stmt
 [
 1
 ]
-"
-AstBuilder
-"
-False
 )
                            
 condition
@@ -7379,10 +7374,6 @@ yield_as_name
 "
 [
 ]
-"
-AstBuilder
-"
-False
 )
                            
 condition
@@ -9514,16 +9505,8 @@ g
 [
 0
 ]
-"
-AstBuilder
-"
-False
 )
 ]
-"
-AstBuilder
-"
-False
 )
         
 #
