@@ -2496,6 +2496,9 @@ Keyboard
 "
 Autoscroll
 "
+"
+Zooming
+"
 ]
 )
 {

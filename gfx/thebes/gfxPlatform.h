@@ -4042,6 +4042,12 @@ SupportsApzAutoscrolling
 )
 const
 ;
+bool
+SupportsApzZooming
+(
+)
+const
+;
 virtual
 void
 FlushContentDrawing
