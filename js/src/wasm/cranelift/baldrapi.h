@@ -550,6 +550,9 @@ realm_tls_offset
 size_t
 realm_func_import_tls_offset
 ;
+size_t
+size_of_wasm_frame
+;
 /
 /
 Not
