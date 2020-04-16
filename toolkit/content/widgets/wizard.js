@@ -3212,11 +3212,14 @@ this
 .
 appendChild
 (
+MozXULElement
+.
+parseXULToFragment
+(
 this
 .
-constructor
-.
-fragment
+_markup
+)
 )
 ;
 MozXULElement
@@ -3444,7 +3447,6 @@ lastpage
 null
 ;
 }
-static
 get
 _markup
 (

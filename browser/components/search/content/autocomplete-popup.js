@@ -645,9 +645,8 @@ this
 _oneOffButtons
 ;
 }
-static
 get
-markup
+_markup
 (
 )
 {
