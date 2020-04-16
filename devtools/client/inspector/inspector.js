@@ -1021,14 +1021,6 @@ toolbox
 ;
 this
 .
-_target
-=
-toolbox
-.
-target
-;
-this
-.
 panelDoc
 =
 window
@@ -10206,7 +10198,7 @@ true
 ;
 this
 .
-_target
+currentTarget
 .
 threadFront
 .
@@ -10222,7 +10214,7 @@ handleThreadPaused
 ;
 this
 .
-_target
+currentTarget
 .
 threadFront
 .
@@ -10597,12 +10589,6 @@ null
 this
 .
 _markupFrame
-=
-null
-;
-this
-.
-_target
 =
 null
 ;
