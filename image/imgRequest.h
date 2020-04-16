@@ -338,15 +338,9 @@ aChannel
 imgCacheEntry
 *
 aCacheEntry
-mozilla
-:
-:
-dom
-:
-:
-Document
+nsISupports
 *
-aLoadingDocument
+aCX
 nsIPrincipal
 *
 aTriggeringPrincipal
