@@ -2533,6 +2533,16 @@ of
 mapByLoginGUID
 )
 {
+if
+(
+this
+.
+_logins
+[
+loginGuid
+]
+)
+{
 let
 {
 login
@@ -2554,6 +2564,7 @@ listItem
 login
 )
 ;
+}
 }
 if
 (
