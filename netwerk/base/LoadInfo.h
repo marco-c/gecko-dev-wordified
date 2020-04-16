@@ -1170,6 +1170,8 @@ aSkipContentSniffing
 uint32_t
 aHttpsOnlyStatus
 bool
+aAllowDeprecatedSystemRequests
+bool
 aHasStoragePermission
 uint32_t
 aRequestBlockingReason
@@ -1668,6 +1670,9 @@ mSkipContentSniffing
 ;
 uint32_t
 mHttpsOnlyStatus
+;
+bool
+mAllowDeprecatedSystemRequests
 ;
 bool
 mHasStoragePermission
