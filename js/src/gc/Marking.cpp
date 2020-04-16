@@ -10502,7 +10502,7 @@ TraceNullableEdge
 (
 trc
 &
-enclosing_
+headerAndEnclosingScope_
 "
 scope
 enclosing
@@ -10565,7 +10565,9 @@ if
 scope
 -
 >
-environmentShape_
+environmentShape
+(
+)
 )
 {
 traverseEdge
@@ -10574,9 +10576,7 @@ scope
 scope
 -
 >
-environmentShape_
-.
-get
+environmentShape
 (
 )
 )
@@ -11129,7 +11129,9 @@ scope
 scope
 -
 >
-enclosing_
+enclosing
+(
+)
 ;
 }
 while
