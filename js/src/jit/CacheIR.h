@@ -16528,6 +16528,16 @@ tryAttachBigInt
 (
 )
 ;
+AttachDecision
+tryAttachStringInt32
+(
+)
+;
+AttachDecision
+tryAttachStringNumber
+(
+)
+;
 void
 trackAttached
 (
