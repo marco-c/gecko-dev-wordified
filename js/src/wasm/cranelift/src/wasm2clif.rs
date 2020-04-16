@@ -3199,7 +3199,7 @@ self
 .
 static_env
 .
-instanceTlsOffset
+instance_tls_offset
 )
 global_type
 :
@@ -3362,7 +3362,7 @@ self
 .
 static_env
 .
-interruptTlsOffset
+interrupt_tls_offset
 )
 global_type
 :
@@ -3711,7 +3711,7 @@ self
 .
 static_env
 .
-cxTlsOffset
+cx_tls_offset
 )
 global_type
 :
@@ -3776,7 +3776,7 @@ self
 .
 static_env
 .
-realmTlsOffset
+realm_tls_offset
 )
 global_type
 :
@@ -3900,7 +3900,7 @@ self
 .
 static_env
 .
-realmCxOffset
+realm_cx_offset
 )
 )
 ;
@@ -3987,7 +3987,7 @@ self
 .
 static_env
 .
-cxTlsOffset
+cx_tls_offset
 )
 )
 ;
@@ -4011,7 +4011,7 @@ self
 .
 static_env
 .
-realmTlsOffset
+realm_tls_offset
 )
 )
 ;
@@ -4032,7 +4032,7 @@ self
 .
 static_env
 .
-realmCxOffset
+realm_cx_offset
 )
 )
 ;
@@ -4124,7 +4124,7 @@ self
 .
 static_env
 .
-cxTlsOffset
+cx_tls_offset
 )
 )
 ;
@@ -4148,7 +4148,7 @@ self
 .
 static_env
 .
-realmFuncImportTlsOffset
+realm_func_import_tls_offset
 )
 )
 ;
@@ -4169,7 +4169,7 @@ self
 .
 static_env
 .
-realmCxOffset
+realm_cx_offset
 )
 )
 ;
@@ -4240,7 +4240,7 @@ self
 .
 static_env
 .
-memoryBaseTlsOffset
+memory_base_tls_offset
 as
 i32
 )
@@ -5434,7 +5434,7 @@ self
 .
 static_env
 .
-staticMemoryBound
+static_memory_bound
 as
 u64
 ;
@@ -5613,7 +5613,7 @@ self
 .
 static_env
 .
-memoryGuardSize
+memory_guard_size
 as
 u64
 )
