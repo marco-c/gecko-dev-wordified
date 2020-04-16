@@ -160,11 +160,6 @@ ensureNoPreloadedBrowser
 (
 )
 ;
-await
-disableFxaBadge
-(
-)
-;
 /
 /
 Compute

@@ -235,11 +235,6 @@ focus
 (
 )
 ;
-await
-disableFxaBadge
-(
-)
-;
 let
 tabStripRect
 =
