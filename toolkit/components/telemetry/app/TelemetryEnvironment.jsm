@@ -1954,7 +1954,7 @@ autostart
 {
 what
 :
-RECORD_PREF_VALUE
+RECORD_DEFAULTPREF_VALUE
 }
 ]
 [
