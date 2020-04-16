@@ -1284,9 +1284,6 @@ redirect
 nsIContentSecurityPolicy
 Csp
 ;
-MaybeDiscardedBrowsingContext
-SourceBrowsingContext
-;
 nsCString
 ?
 OriginalURIString
