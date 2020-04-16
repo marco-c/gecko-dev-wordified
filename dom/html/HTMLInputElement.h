@@ -9406,7 +9406,7 @@ details
 .
 *
 /
-nsAutoPtr
+UniquePtr
 <
 DateTimeValue
 >

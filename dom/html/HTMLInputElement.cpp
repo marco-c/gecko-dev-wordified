@@ -12861,8 +12861,10 @@ return
 }
 mDateTimeInputBoxValue
 =
-new
+MakeUnique
+<
 DateTimeValue
+>
 (
 aInitialValue
 )
@@ -12929,8 +12931,10 @@ return
 }
 mDateTimeInputBoxValue
 =
-new
+MakeUnique
+<
 DateTimeValue
+>
 (
 aValue
 )

@@ -141,7 +141,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -3576,7 +3578,7 @@ submission
 object
 *
 /
-nsAutoPtr
+UniquePtr
 <
 HTMLFormSubmission
 >
