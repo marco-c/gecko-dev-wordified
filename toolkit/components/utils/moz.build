@@ -154,6 +154,11 @@ Sampling
 .
 jsm
 '
+'
+WindowsVersionInfo
+.
+jsm
+'
 ]
 XPCOM_MANIFESTS
 +
