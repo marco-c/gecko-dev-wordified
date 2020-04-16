@@ -508,6 +508,8 @@ dom
 Selection
 &
 aSelection
+int16_t
+aReason
 )
 ;
 void

@@ -1943,6 +1943,7 @@ OnSelectionChange
 (
 *
 aSelection
+aReason
 )
 ;
 /
