@@ -54368,16 +54368,19 @@ bool
 IsWhitespace
 (
 )
+const
 ;
 bool
 IsPunctuation
 (
 )
+const
 ;
 bool
 HaveWordBreakBefore
 (
 )
+const
 {
 return
 mHaveWordBreak
@@ -54446,6 +54449,7 @@ int32_t
 GetBeforeOffset
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -54507,6 +54511,7 @@ int32_t
 GetAfterOffset
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -54562,6 +54567,7 @@ int32_t
 GetAfterInternal
 (
 )
+const
 ;
 gfxSkipCharsIterator
 mIterator
@@ -55503,6 +55509,7 @@ ClusterIterator
 IsWhitespace
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -55532,6 +55539,7 @@ ClusterIterator
 IsPunctuation
 (
 )
+const
 {
 NS_ASSERTION
 (
@@ -55792,6 +55800,7 @@ ClusterIterator
 GetAfterInternal
 (
 )
+const
 {
 if
 (
