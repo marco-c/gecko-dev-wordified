@@ -12780,7 +12780,7 @@ return
 AppendElements
 <
 Item
-FallibleAlloc
+ActualAlloc
 >
 (
 aSpan
