@@ -19221,6 +19221,13 @@ MarkingState
 :
 NotActive
 )
+incrementalWeakMapMarkingEnabled
+(
+TuningDefaults
+:
+:
+IncrementalWeakMapMarkingEnabled
+)
 #
 ifdef
 DEBUG
@@ -19242,13 +19249,6 @@ queuePos
 )
 #
 endif
-incrementalWeakMapMarkingEnabled
-(
-TuningDefaults
-:
-:
-IncrementalWeakMapMarkingEnabled
-)
 {
 setTraceWeakEdges
 (
