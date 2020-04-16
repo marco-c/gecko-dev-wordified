@@ -3261,6 +3261,13 @@ thisContent
 AsElement
 (
 )
+/
+*
+aOpener
+=
+*
+/
+nullptr
 mNetworkCreated
 )
 ;
@@ -16870,6 +16877,7 @@ content
 AsElement
 (
 )
+nullptr
 false
 )
 ;
