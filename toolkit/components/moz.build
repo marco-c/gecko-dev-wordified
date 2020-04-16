@@ -546,6 +546,11 @@ DIRS
 '
 normandy
 '
+'
+messaging
+-
+system
+'
 ]
 #
 This
