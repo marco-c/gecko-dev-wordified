@@ -101,10 +101,10 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+Storage
 :
-Service
-Workers
+Cache
+API
 "
 )
 EXPORTS
