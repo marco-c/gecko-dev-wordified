@@ -12909,6 +12909,18 @@ GeckoBundle
 bundle
 )
 {
+/
+/
+We
+only
+expose
+permissions
+that
+the
+embedder
+should
+prompt
+for
 permissions
 =
 bundle
@@ -12916,7 +12928,7 @@ bundle
 getStringArray
 (
 "
-permissions
+promptPermissions
 "
 )
 ;
