@@ -44557,7 +44557,7 @@ isInterpreted
 funbox
 -
 >
-clobberFunction
+setAsmJSModule
 (
 moduleFun
 )
