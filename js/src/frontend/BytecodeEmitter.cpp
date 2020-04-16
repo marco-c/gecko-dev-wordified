@@ -49023,6 +49023,15 @@ kind
 ParseNodeKind
 :
 :
+TemplateStringListExpr
+|
+|
+kind
+=
+=
+ParseNodeKind
+:
+:
 RawUndefinedExpr
 |
 |
