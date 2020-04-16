@@ -58,6 +58,8 @@ os
 import
 signal
 import
+six
+import
 re
 import
 subprocess
@@ -278,15 +280,11 @@ output
         
 line
 =
-line
+six
 .
-decode
+ensure_text
 (
-"
-utf
--
-8
-"
+line
 )
         
 match

@@ -3692,6 +3692,7 @@ subprocess
 .
 check_output
 (
+                    
 [
 ccache
 '
@@ -3699,6 +3700,9 @@ ccache
 s
 '
 ]
+universal_newlines
+=
+True
 )
                 
 ccache_stats
@@ -5849,6 +5853,15 @@ self
 line
 )
 :
+        
+line
+=
+six
+.
+ensure_text
+(
+line
+)
         
 if
 line
