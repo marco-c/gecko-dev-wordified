@@ -7421,8 +7421,10 @@ mSRIMetadata
 ;
 mSRIDataVerifier
 =
-new
+MakeUnique
+<
 SRICheckDataVerifier
+>
 (
 mSRIMetadata
 sourceUri
@@ -8061,6 +8063,10 @@ SRIVerifierAndOutputHolder
 holder
 (
 mSRIDataVerifier
+.
+get
+(
+)
 mPipeOutputStream
 )
 ;
