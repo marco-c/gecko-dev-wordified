@@ -158,6 +158,17 @@ GLScreenBuffer
 #
 include
 "
+OOPCanvasRenderer
+.
+h
+"
+/
+/
+for
+OOPCanvasRenderer
+#
+include
+"
 SharedSurface
 .
 h
