@@ -12770,11 +12770,6 @@ ScrollFlags
 :
 :
 ScrollFirstAncestorOnly
-|
-ScrollFlags
-:
-:
-IgnoreMarginAndPadding
 )
 ;
 }

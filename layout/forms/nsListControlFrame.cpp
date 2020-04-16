@@ -13180,6 +13180,8 @@ and
 scroll
 to
 it
+if
+(
 nsIFrame
 *
 childFrame
@@ -13189,10 +13191,6 @@ aOptElement
 GetPrimaryFrame
 (
 )
-;
-if
-(
-childFrame
 )
 {
 RefPtr
@@ -13243,11 +13241,6 @@ ScrollFlags
 :
 :
 ScrollFirstAncestorOnly
-|
-ScrollFlags
-:
-:
-IgnoreMarginAndPadding
 )
 ;
 }
