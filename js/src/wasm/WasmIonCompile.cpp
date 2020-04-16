@@ -1128,7 +1128,7 @@ i
 =
 args
 .
-length
+lengthWithoutStackResults
 (
 )
 ;
