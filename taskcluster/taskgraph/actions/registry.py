@@ -2472,6 +2472,12 @@ load_graph_config
 root
 )
     
+graph_config
+.
+register
+(
+)
+    
 callbacks
 =
 _get_callbacks
