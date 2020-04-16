@@ -152,7 +152,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1298,7 +1300,7 @@ SharedMessageBody
 >
 mMessagesForTheOtherPort
 ;
-nsAutoPtr
+UniquePtr
 <
 MessagePortIdentifier
 >
