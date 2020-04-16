@@ -3189,15 +3189,8 @@ SyncRunnable
 :
 DispatchToThread
 (
-SystemGroup
-:
-:
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 r
 )

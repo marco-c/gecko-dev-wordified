@@ -17678,15 +17678,8 @@ gScrollFrameActivityTracker
 new
 ScrollFrameActivityTracker
 (
-SystemGroup
-:
-:
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 )
 ;
