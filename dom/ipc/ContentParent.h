@@ -7346,10 +7346,8 @@ ipc
 IPCResult
 RecvFirstPartyStorageAccessGrantedForOrigin
 (
-const
-Principal
-&
-aParentPrincipal
+uint64_t
+aParentWindowId
 const
 Principal
 &
