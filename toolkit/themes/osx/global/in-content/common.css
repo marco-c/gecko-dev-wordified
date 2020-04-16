@@ -195,11 +195,13 @@ none
 }
 xul
 |
-*
-.
 menulist
--
+:
+:
+part
+(
 dropmarker
+)
 {
 display
 :

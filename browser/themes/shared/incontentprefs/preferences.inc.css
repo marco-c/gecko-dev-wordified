@@ -600,10 +600,12 @@ size
 ;
 }
 menulist
->
-hbox
->
+:
+:
+part
+(
 label
+)
 menuitem
 >
 label
