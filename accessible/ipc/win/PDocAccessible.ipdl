@@ -600,6 +600,13 @@ IDispatchHolder
 aEmulatedWindowCOMProxy
 )
 ;
+async
+TopLevelDocCOMProxy
+(
+IAccessibleHolder
+aCOMProxy
+)
+;
 /
 *
 *
