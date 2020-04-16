@@ -280,8 +280,6 @@ enclosingScope
 ModuleBuilder
 &
 builder
-SourceExtent
-extent
 )
 ;
 JS
