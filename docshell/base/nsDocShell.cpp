@@ -15579,7 +15579,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-GetSameTypeParentIgnoreBrowserBoundaries
+GetSameTypeInProcessParentIgnoreBrowserBoundaries
 (
 nsIDocShell
 *

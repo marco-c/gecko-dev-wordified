@@ -22068,7 +22068,7 @@ parent
 mDocShell
 -
 >
-GetSameTypeParentIgnoreBrowserBoundaries
+GetSameTypeInProcessParentIgnoreBrowserBoundaries
 (
 getter_AddRefs
 (
