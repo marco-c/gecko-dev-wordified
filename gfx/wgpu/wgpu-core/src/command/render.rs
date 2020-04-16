@@ -5237,6 +5237,8 @@ Some
 pipeline
 .
 layout_id
+.
+value
 )
 {
 let
@@ -5248,6 +5250,8 @@ pipeline_layout_guard
 pipeline
 .
 layout_id
+.
+value
 ]
 ;
 state
@@ -5261,6 +5265,8 @@ Some
 pipeline
 .
 layout_id
+.
+value
 )
 ;
 state

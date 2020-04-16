@@ -326,7 +326,10 @@ crate
 )
 layout_id
 :
+Stored
+<
 PipelineLayoutId
+>
 pub
 (
 crate
@@ -531,7 +534,10 @@ crate
 )
 layout_id
 :
+Stored
+<
 PipelineLayoutId
+>
 pub
 (
 crate
