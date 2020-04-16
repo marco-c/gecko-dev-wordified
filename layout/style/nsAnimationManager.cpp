@@ -1855,14 +1855,10 @@ elapsedTime
 nsRFPService
 :
 :
-ReduceTimePrecisionAsSecs
+ReduceTimePrecisionAsSecsRFP
 (
 elapsedTime
 0
-TimerPrecisionType
-:
-:
-RFPOnly
 )
 ;
 }

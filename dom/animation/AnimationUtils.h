@@ -315,7 +315,7 @@ SetValue
 nsRFPService
 :
 :
-ReduceTimePrecisionAsMSecs
+ReduceTimePrecisionAsMSecsRFP
 (
 aTime
 .
@@ -327,10 +327,6 @@ ToMilliseconds
 (
 )
 0
-TimerPrecisionType
-:
-:
-RFPOnly
 )
 )
 ;
