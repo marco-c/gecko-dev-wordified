@@ -9078,6 +9078,16 @@ kNumOculusAxes
 )
 ;
 }
+SetControllerSelectionAndSqueezeFrameId
+(
+controllerState
+aState
+.
+displayState
+.
+lastSubmittedFrameId
+)
+;
 }
 }
 void
