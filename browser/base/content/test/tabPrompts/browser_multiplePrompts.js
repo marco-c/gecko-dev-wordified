@@ -394,7 +394,9 @@ linkedBrowser
 .
 tabModalPromptBox
 .
-getPrompt
+prompts
+.
+get
 (
 promptElement
 )
