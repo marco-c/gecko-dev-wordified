@@ -2068,6 +2068,9 @@ fixSymbols
 line
 symbolsPath
 )
+        
+return
+stack_fixer_function
     
 elif
 mozinfo
@@ -2115,7 +2118,7 @@ buildsymbols
 "
 .
         
-stack_fixer_module
+fix_stacks
 =
 import_stack_fixer_module
 (
@@ -2124,29 +2127,22 @@ fix_stacks
 '
 )
         
-def
-stack_fixer_function
-(
-line
-)
-:
-            
-return
-stack_fixer_module
+fix_stacks
 .
-fixSymbols
+init
 (
-line
-slowWarning
+slow_warning
 =
 True
 )
+        
+return
+fix_stacks
+.
+fix
     
 else
 :
         
 return
 None
-    
-return
-stack_fixer_function
