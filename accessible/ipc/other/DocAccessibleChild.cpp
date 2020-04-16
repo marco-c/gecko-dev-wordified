@@ -9653,16 +9653,6 @@ acc
 IsDefunct
 (
 )
-&
-&
-!
-nsAccUtils
-:
-:
-MustPrune
-(
-acc
-)
 )
 {
 int32_t
