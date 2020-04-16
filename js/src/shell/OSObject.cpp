@@ -957,6 +957,8 @@ get
 (
 )
 PATH_MAX
++
+1
 )
 ;
 if
@@ -964,8 +966,6 @@ if
 buffer
 [
 PATH_MAX
--
-1
 ]
 !
 =
