@@ -337,10 +337,7 @@ OnEvent
 (
 nsIChannel
 *
-aReportingChannel
-nsIChannel
-*
-aTrackingChannel
+aChannel
 bool
 aBlocked
 uint32_t
