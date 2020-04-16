@@ -4689,7 +4689,7 @@ gecko_bit
 in
 bit_map
 .
-iteritems
+items
 (
 )
 :
@@ -4810,7 +4810,7 @@ gecko_bit
 in
 bit_map
 .
-iteritems
+items
 (
 )
 :
@@ -4993,7 +4993,7 @@ aliases_for
 engine
 )
 .
-iteritems
+items
 (
 )
 :

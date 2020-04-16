@@ -4604,13 +4604,7 @@ longhand
 .
 alias
 =
-list
-(
-map
-(
-lambda
-xp
-:
+[
 Alias
 (
 xp
@@ -4623,11 +4617,13 @@ xp
 1
 ]
 )
+for
+xp
+in
 longhand
 .
 alias
-)
-)
+]
         
 self
 .
@@ -4767,13 +4763,7 @@ shorthand
 .
 alias
 =
-list
-(
-map
-(
-lambda
-xp
-:
+[
 Alias
 (
 xp
@@ -4786,11 +4776,13 @@ xp
 1
 ]
 )
+for
+xp
+in
 shorthand
 .
 alias
-)
-)
+]
         
 self
 .
@@ -5158,21 +5150,20 @@ group
 :
         
 return
-map
-(
-lambda
-p
-:
+[
 p
 .
 name
+for
+p
+in
 data
 .
 longhands_by_logical_group
 [
 group
 ]
-)
+]
     
 staticmethod
     
@@ -5198,14 +5189,13 @@ return
 ]
         
 return
-map
-(
-lambda
-p
-:
+[
 p
 .
 name
+for
+p
+in
 data
 .
 shorthands_by_name
@@ -5214,7 +5204,7 @@ shorthand
 ]
 .
 sub_properties
-)
+]
     
 staticmethod
     
@@ -5227,29 +5217,23 @@ spec_path
 :
         
 return
-map
-(
-lambda
-p
-:
+[
 p
 .
 name
-filter
-(
-lambda
+for
 p
-:
+in
+data
+.
+longhands
+if
 spec_path
 in
 p
 .
 spec
-data
-.
-longhands
-)
-)
+]
     
 #
 https

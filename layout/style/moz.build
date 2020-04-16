@@ -1458,9 +1458,6 @@ entry_point
 '
 generate_data
 '
-py2
-=
-True
 inputs
 =
 [
