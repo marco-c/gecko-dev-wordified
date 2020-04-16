@@ -202,13 +202,6 @@ h
 #
 include
 "
-nsIProcessSwitchRequestor
-.
-h
-"
-#
-include
-"
 nsIRedirectResultListener
 .
 h
@@ -448,8 +441,6 @@ nsIChannelEventSink
 public
 HttpChannelSecurityWarningReporter
 public
-nsIProcessSwitchRequestor
-public
 nsIMultiPartChannelListener
 {
 public
@@ -531,7 +522,6 @@ NS_DECL_NSIPARENTCHANNEL
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
-NS_DECL_NSIPROCESSSWITCHREQUESTOR
 NS_DECL_NSIMULTIPARTCHANNELLISTENER
 /
 /
@@ -1217,6 +1207,11 @@ nsDocShellLoadState
 aLoadState
 uint64_t
 aOuterWindowId
+)
+;
+bool
+HasCrossOriginOpenerPolicyMismatch
+(
 )
 ;
 /
