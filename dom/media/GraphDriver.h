@@ -4322,7 +4322,7 @@ OutputChannelCount
 )
 {
 return
-mOutputChannels
+mOutputChannelCount
 ;
 }
 uint32_t
@@ -4871,7 +4871,7 @@ channels
 /
 const
 uint32_t
-mOutputChannels
+mOutputChannelCount
 ;
 /
 *
