@@ -3443,7 +3443,7 @@ T
 inline
 T
 *
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKinds
 (
 JSContext
 *
@@ -3457,8 +3457,6 @@ AllocKind
 allocKind
 NewObjectKind
 newKind
-=
-GenericObject
 )
 {
 JSObject
