@@ -11054,7 +11054,7 @@ timeStamp
 nsRFPService
 :
 :
-ReduceTimePrecisionAsMSecsRFP
+ReduceTimePrecisionAsMSecsRFPOnly
 (
 timeStamp
 0
