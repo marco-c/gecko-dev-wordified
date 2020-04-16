@@ -111,17 +111,6 @@ mozilla
 /
 net
 /
-CookieService
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 CookieServiceChild
 .
 h
@@ -239,6 +228,13 @@ h
 include
 "
 Cookie
+.
+h
+"
+#
+include
+"
+CookieCommons
 .
 h
 "
@@ -1141,7 +1137,7 @@ aAttrs
 nsCString
 baseDomain
 ;
-CookieService
+CookieCommons
 :
 :
 GetBaseDomainFromHost
@@ -1866,7 +1862,7 @@ attrs
 )
 ;
 }
-CookieService
+CookieCommons
 :
 :
 GetBaseDomain
@@ -2072,7 +2068,7 @@ conservative
 if
 (
 !
-CookieService
+CookieCommons
 :
 :
 DomainMatches
@@ -2278,7 +2274,7 @@ back
 if
 (
 !
-CookieService
+CookieCommons
 :
 :
 PathMatches
@@ -2749,7 +2745,7 @@ aAttrs
 nsAutoCString
 baseDomain
 ;
-CookieService
+CookieCommons
 :
 :
 GetBaseDomainFromHost
@@ -3503,7 +3499,7 @@ requireHostMatch
 nsCString
 baseDomain
 ;
-CookieService
+CookieCommons
 :
 :
 GetBaseDomain
