@@ -60,6 +60,8 @@ github
 .
 io
 /
+screen
+-
 wake
 -
 lock
@@ -142,14 +144,11 @@ set_permission
 name
 :
 '
+screen
+-
 wake
 -
 lock
-'
-type
-:
-'
-screen
 '
 }
 '

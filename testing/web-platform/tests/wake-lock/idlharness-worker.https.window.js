@@ -61,14 +61,11 @@ set_permission
 name
 :
 '
+system
+-
 wake
 -
 lock
-'
-type
-:
-'
-system
 '
 }
 '
