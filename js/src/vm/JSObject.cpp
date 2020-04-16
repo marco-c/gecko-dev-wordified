@@ -5711,7 +5711,7 @@ JSObject
 js
 :
 :
-NewObjectWithClassProtoCommon
+NewObjectWithClassProto
 (
 JSContext
 *
