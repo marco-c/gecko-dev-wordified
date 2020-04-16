@@ -2027,7 +2027,13 @@ bool
 initScript
 (
 const
+mozilla
+:
+:
+Maybe
+<
 FieldInitializers
+>
 &
 fieldInitializers
 )
