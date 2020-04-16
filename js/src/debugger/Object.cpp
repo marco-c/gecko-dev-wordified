@@ -910,6 +910,7 @@ h
 for
 GetObjectClassName
 InitClass
+NewObjectWithGivenProtoAndKind
 #
 include
 "
@@ -9886,7 +9887,7 @@ DebuggerObject
 *
 obj
 =
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 DebuggerObject
 >

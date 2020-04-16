@@ -493,6 +493,7 @@ h
 /
 for
 IsInternalFunctionObject
+NewObjectWithGivenProtoAndKind
 #
 include
 "
@@ -2421,7 +2422,7 @@ DebuggerEnvironment
 *
 obj
 =
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 DebuggerEnvironment
 >
