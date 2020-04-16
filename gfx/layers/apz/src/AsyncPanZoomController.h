@@ -10964,7 +10964,7 @@ out
 .
 *
 /
-void
+bool
 CallDispatchScroll
 (
 ParentLayerPoint
