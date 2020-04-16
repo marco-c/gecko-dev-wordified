@@ -190,6 +190,7 @@ GPU_DECL_JS_WRAP
 (
 Adapter
 )
+const
 RefPtr
 <
 WebGPUChild
