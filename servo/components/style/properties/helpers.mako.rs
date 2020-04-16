@@ -5028,7 +5028,10 @@ aliases
 .
 join
 (
+sorted
+(
 aliases
+)
 )
 }
 "
