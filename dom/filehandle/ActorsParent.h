@@ -156,7 +156,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -281,7 +283,7 @@ mDirectoryInfos
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 StoragesCompleteCallback
 >
