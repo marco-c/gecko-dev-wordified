@@ -436,6 +436,9 @@ CookiePermission
 gSingleton
 ;
 }
+/
+/
+namespace
 NS_IMPL_ISUPPORTS
 (
 CookiePermission
@@ -546,7 +549,11 @@ nsIURI
 aURI
 nsIChannel
 *
+/
+*
 aChannel
+*
+/
 nsICookie
 *
 aCookie
@@ -587,10 +594,12 @@ EnsureInitialized
 (
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
-Cookie
+}
+auto
 *
 cookie
 =

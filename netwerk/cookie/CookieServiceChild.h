@@ -341,10 +341,6 @@ const
 nsACString
 &
 aCookieString
-const
-nsACString
-&
-aServerTime
 bool
 aFromHttp
 )
@@ -372,14 +368,6 @@ const
 OriginAttributes
 &
 aAttrs
-nsIChannel
-*
-aChannel
-bool
-aFromHttp
-nsICookiePermission
-*
-aPermissionService
 )
 ;
 uint32_t

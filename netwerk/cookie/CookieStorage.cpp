@@ -230,6 +230,7 @@ CompareCookiesByAge
 {
 public
 :
+static
 bool
 Equals
 (
@@ -242,7 +243,6 @@ CookieListIter
 &
 b
 )
-const
 {
 return
 a
@@ -293,6 +293,7 @@ CreationTime
 )
 ;
 }
+static
 bool
 LessThan
 (
@@ -305,7 +306,6 @@ CookieListIter
 &
 b
 )
-const
 {
 /
 /
@@ -350,11 +350,13 @@ result
 =
 0
 )
+{
 return
 result
 <
 0
 ;
+}
 return
 a
 .
@@ -546,6 +548,7 @@ CompareCookiesByIndex
 {
 public
 :
+static
 bool
 Equals
 (
@@ -558,7 +561,6 @@ CookieListIter
 &
 b
 )
-const
 {
 NS_ASSERTION
 (
@@ -594,6 +596,7 @@ return
 false
 ;
 }
+static
 bool
 LessThan
 (
@@ -606,7 +609,6 @@ CookieListIter
 &
 b
 )
-const
 {
 /
 /
@@ -629,6 +631,7 @@ b
 .
 entry
 )
+{
 return
 a
 .
@@ -638,6 +641,7 @@ b
 .
 entry
 ;
+}
 return
 a
 .
@@ -1505,9 +1509,11 @@ if
 !
 entry
 )
+{
 return
 false
 ;
+}
 const
 CookieEntry
 :
@@ -1597,8 +1603,10 @@ Name
 )
 )
 )
+{
 continue
 ;
+}
 /
 /
 The
@@ -2785,8 +2793,6 @@ char16_t
 aData
 bool
 aOldCookieIsSession
-bool
-aFromHttp
 )
 {
 nsCOMPtr
@@ -3864,7 +3870,6 @@ u
 deleted
 "
 oldCookieIsSession
-aFromHttp
 )
 ;
 return
@@ -4475,7 +4480,6 @@ u
 added
 "
 oldCookieIsSession
-aFromHttp
 )
 ;
 }
@@ -4625,6 +4629,9 @@ aCookie
 )
 ;
 }
+/
+/
+static
 already_AddRefed
 <
 nsIArray
@@ -4688,6 +4695,9 @@ and
 lastAccessed
 time
 .
+/
+/
+static
 void
 CookieStorage
 :
@@ -4911,6 +4921,9 @@ count
 ;
 }
 }
+/
+/
+static
 void
 CookieStorage
 :
@@ -5145,12 +5158,13 @@ mCookieOldestTime
 )
 )
 ;
-typedef
+using
+PurgeList
+=
 nsTArray
 <
 CookieListIter
 >
-PurgeList
 ;
 PurgeList
 purgeList
@@ -5955,11 +5969,13 @@ val
 )
 )
 )
+{
 mMaxNumberOfCookies
 =
-(
+static_cast
+<
 uint16_t
-)
+>
 LIMIT
 (
 val
@@ -5968,6 +5984,7 @@ val
 kMaxNumberOfCookies
 )
 ;
+}
 if
 (
 NS_SUCCEEDED
@@ -5986,9 +6003,10 @@ val
 {
 mCookieQuotaPerHost
 =
-(
+static_cast
+<
 uint16_t
-)
+>
 LIMIT
 (
 val
@@ -6018,9 +6036,10 @@ val
 {
 mMaxCookiesPerHost
 =
-(
+static_cast
+<
 uint16_t
-)
+>
 LIMIT
 (
 val
@@ -6081,7 +6100,11 @@ aTopic
 const
 char16_t
 *
+/
+*
 aData
+*
+/
 )
 {
 if

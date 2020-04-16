@@ -270,6 +270,7 @@ PermissionComparator
 {
 public
 :
+static
 bool
 Equals
 (
@@ -280,7 +281,6 @@ nsIPermission
 *
 aB
 )
-const
 {
 nsCOMPtr
 <

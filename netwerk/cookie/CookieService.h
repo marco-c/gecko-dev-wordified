@@ -597,8 +597,6 @@ aStatus
 nsCString
 &
 aCookieHeader
-int64_t
-aServerTime
 bool
 aFromHttp
 nsIChannel
@@ -644,16 +642,6 @@ aOriginAttrs
 uint32_t
 *
 aRejectedReason
-)
-;
-static
-int64_t
-ParseServerTime
-(
-const
-nsACString
-&
-aServerTime
 )
 ;
 static
@@ -851,10 +839,6 @@ const
 nsACString
 &
 aCookieHeader
-const
-nsACString
-&
-aServerTime
 nsIChannel
 *
 aChannel
@@ -881,10 +865,6 @@ aRejectedReason
 nsCString
 &
 aCookieHeader
-const
-nsACString
-&
-aServerTime
 bool
 aFromHttp
 const
@@ -920,8 +900,6 @@ aStatus
 nsCString
 &
 aCookieHeader
-int64_t
-aServerTime
 bool
 aFromHttp
 nsIChannel
@@ -1047,8 +1025,6 @@ const
 nsACString
 &
 aMaxage
-int64_t
-aServerTime
 int64_t
 aCurrentTime
 bool

@@ -119,6 +119,9 @@ nsString
 h
 "
 class
+nsIChannel
+;
+class
 nsIEffectiveTLDService
 ;
 class

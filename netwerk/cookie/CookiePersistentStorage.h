@@ -453,6 +453,7 @@ CookiePersistentStorage
 (
 )
 ;
+static
 void
 UpdateCookieInList
 (
@@ -492,7 +493,7 @@ OpenDBResult
 TryInitDB
 (
 bool
-aDeleteExistingDB
+aRecreateDB
 )
 ;
 OpenDBResult
@@ -524,6 +525,7 @@ CreateTableForSchemaVersion5
 (
 )
 ;
+static
 UniquePtr
 <
 CookieStruct
