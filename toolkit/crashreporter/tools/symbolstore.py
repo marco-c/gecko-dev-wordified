@@ -258,6 +258,10 @@ generate
 relative
 filenames
 .
+from
+__future__
+import
+print_function
 import
 buildconfig
 import
@@ -282,6 +286,8 @@ import
 time
 import
 ctypes
+import
+urlparse
 import
 concurrent
 .
@@ -897,13 +903,9 @@ subprocess
 .
 Popen
 (
-        
 args
 =
 args
-universal_newlines
-=
-True
 stdout
 =
 subprocess
@@ -1882,6 +1884,27 @@ c_uint
 )
 )
         
+if
+not
+isinstance
+(
+path
+unicode
+)
+:
+            
+path
+=
+unicode
+(
+path
+sys
+.
+getfilesystemencoding
+(
+)
+)
+        
 handle
 =
 ctypes
@@ -2542,20 +2565,15 @@ target_dir
 manifest_file
 destination
 =
-[
+map
+(
 os
 .
 path
 .
 abspath
-(
-b
-)
-for
-b
-in
 bits
-]
+)
         
 if
 not
@@ -4304,9 +4322,6 @@ subprocess
 Popen
 (
 cmd
-universal_newlines
-=
-True
 stdout
 =
 subprocess
@@ -4328,11 +4343,12 @@ wb
             
 module_line
 =
-next
-(
 proc
 .
 stdout
+.
+next
+(
 )
             
 if
@@ -7340,15 +7356,12 @@ subprocess
 Popen
 (
 cmd
-universal_newlines
-=
-True
-                                         
 stdout
 =
 subprocess
 .
 PIPE
+                                         
 stderr
 =
 subprocess
@@ -7711,10 +7724,6 @@ files
 ]
 )
 ]
-                                            
-universal_newlines
-=
-True
 )
         
 if
