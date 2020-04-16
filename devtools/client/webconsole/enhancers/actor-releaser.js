@@ -209,8 +209,15 @@ has
 a
 release
 method
+if
+it
+isn
+'
+t
 /
 /
+already
+destroyed
 and
 if
 it
@@ -244,6 +251,11 @@ release
 "
 function
 "
+&
+&
+front
+.
+actorID
 &
 &
 (
