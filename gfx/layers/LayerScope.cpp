@@ -2084,12 +2084,12 @@ GetSocketManager
 return
 true
 ;
-uint32_t
+size_t
 size
 =
 aPacket
 .
-ByteSize
+ByteSizeLong
 (
 )
 ;

@@ -7305,7 +7305,7 @@ WriteVarint32
 (
 message
 .
-ByteSize
+ByteSizeLong
 (
 )
 )
