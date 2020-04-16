@@ -188,18 +188,6 @@ output_handler
 ]
 }
         
-firefox_args
-=
-[
-"
--
--
-allow
--
-downgrade
-"
-]
-        
 runner_cls
 =
 runners
@@ -235,10 +223,6 @@ profile
 self
 .
 profile
-            
-cmdargs
-=
-firefox_args
             
 process_args
 =
