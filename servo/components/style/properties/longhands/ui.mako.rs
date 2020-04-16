@@ -458,8 +458,8 @@ window
 shadow
 "
 "
-none
 default
+none
 menu
 tooltip
 sheet
