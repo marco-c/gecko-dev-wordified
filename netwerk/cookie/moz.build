@@ -187,6 +187,11 @@ CookieServiceParent
 .
 h
 '
+'
+CookieStorage
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -214,6 +219,11 @@ cpp
 '
 '
 CookieServiceParent
+.
+cpp
+'
+'
+CookieStorage
 .
 cpp
 '
