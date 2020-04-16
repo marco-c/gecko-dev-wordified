@@ -253,7 +253,7 @@ let
 notification
 =
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -417,7 +417,7 @@ let
 notification
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -588,7 +588,7 @@ doCommand
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
