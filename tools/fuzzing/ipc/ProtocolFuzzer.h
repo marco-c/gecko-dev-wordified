@@ -142,6 +142,15 @@ include
 "
 mozilla
 /
+UniquePtrExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ContentParent
@@ -627,7 +636,7 @@ is_sync
 )
 )
 {
-nsAutoPtr
+UniquePtr
 <
 IPC
 :
