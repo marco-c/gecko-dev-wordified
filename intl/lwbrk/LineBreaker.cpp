@@ -5805,7 +5805,7 @@ u
 {
 mHasCJKChar
 =
-1
+true
 ;
 if
 (
