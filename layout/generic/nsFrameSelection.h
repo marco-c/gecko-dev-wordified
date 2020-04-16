@@ -5716,10 +5716,6 @@ mAccessibleCaretEnabled
 =
 false
 ;
-static
-bool
-sSelectionEventsOnTextControlsEnabled
-;
 }
 ;
 #
