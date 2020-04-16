@@ -5072,9 +5072,12 @@ aMode
 0
 ;
 virtual
-int32_t
+void
 GetWorkspaceID
 (
+nsAString
+&
+workspaceID
 )
 =
 0
@@ -5083,7 +5086,9 @@ virtual
 void
 MoveToWorkspace
 (
-int32_t
+const
+nsAString
+&
 workspaceID
 )
 =
