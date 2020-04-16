@@ -363,6 +363,10 @@ adding
 a
 new
 engine
+let
+engine
+=
+await
 search
 .
 addEngineWithDetails
@@ -426,9 +430,7 @@ Assert
 .
 equal
 (
-metadata
-.
-foo
+engine
 .
 alias
 "
