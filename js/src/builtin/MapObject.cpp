@@ -1708,7 +1708,7 @@ true
 {
 iterobj
 =
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 MapIteratorObject
 >
@@ -7005,7 +7005,7 @@ true
 {
 iterobj
 =
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 SetIteratorObject
 >

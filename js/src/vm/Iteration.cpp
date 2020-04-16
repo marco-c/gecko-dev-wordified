@@ -7199,7 +7199,7 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 ArrayIteratorObject
 >
@@ -7336,7 +7336,7 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 StringIteratorObject
 >
@@ -7719,7 +7719,7 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 RegExpStringIteratorObject
 >
