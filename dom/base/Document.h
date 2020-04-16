@@ -868,9 +868,6 @@ class
 nsXULPrototypeElement
 ;
 class
-PermissionDelegateHandler
-;
-class
 nsIPermissionDelegateHandler
 ;
 struct
@@ -914,6 +911,9 @@ LangGroupFontPrefs
 ;
 class
 PendingAnimationTracker
+;
+class
+PermissionDelegateHandler
 ;
 class
 PresShell
