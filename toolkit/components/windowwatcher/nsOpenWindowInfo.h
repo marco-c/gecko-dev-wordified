@@ -172,10 +172,11 @@ mIsRemote
 =
 false
 ;
-uint64_t
-mNextRemoteBrowserId
-=
-0
+RefPtr
+<
+BrowserParent
+>
+mNextRemoteBrowser
 ;
 OriginAttributes
 mOriginAttributes
