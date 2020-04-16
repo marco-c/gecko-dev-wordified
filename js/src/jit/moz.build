@@ -529,11 +529,10 @@ cpp
 '
 ]
 if
-not
 CONFIG
 [
 '
-ENABLE_ION
+JS_CODEGEN_NONE
 '
 ]
 :
