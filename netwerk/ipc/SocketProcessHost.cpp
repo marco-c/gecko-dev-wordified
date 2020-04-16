@@ -117,6 +117,13 @@ h
 #
 include
 "
+nsIOService
+.
+h
+"
+#
+include
+"
 SocketProcessParent
 .
 h
