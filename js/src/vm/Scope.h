@@ -1617,6 +1617,8 @@ frontend
 :
 ScopeCreationData
 ;
+protected
+:
 /
 /
 The
@@ -1673,8 +1675,6 @@ const
 GCPtrShape
 environmentShape_
 ;
-protected
-:
 BaseScopeData
 *
 data_
