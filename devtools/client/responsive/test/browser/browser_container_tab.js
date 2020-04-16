@@ -108,6 +108,13 @@ correct
 "
 )
 ;
+const
+browser
+=
+tab
+.
+linkedBrowser
+;
 /
 /
 Open
@@ -134,10 +141,10 @@ ui
 )
 ;
 await
-navigateToNewDomain
+load
 (
+browser
 TEST_URL
-ui
 )
 ;
 ok
