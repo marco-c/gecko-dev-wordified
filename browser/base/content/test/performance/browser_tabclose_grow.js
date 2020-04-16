@@ -159,6 +159,11 @@ ensureNoPreloadedBrowser
 (
 )
 ;
+await
+disableFxaBadge
+(
+)
+;
 /
 /
 At
