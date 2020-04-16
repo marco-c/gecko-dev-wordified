@@ -9423,6 +9423,7 @@ MarkFrameForDisplay
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
@@ -9539,6 +9540,7 @@ MarkFrameForDisplayIfVisible
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
@@ -10694,6 +10696,7 @@ UnmarkFrameForDisplay
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
@@ -11257,6 +11260,7 @@ nsDisplayListBuilder
 :
 EnterPresShell
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -12082,6 +12086,7 @@ nsDisplayListBuilder
 :
 LeavePresShell
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -12523,6 +12528,7 @@ nsDisplayListBuilder
 :
 ResetMarkedFramesForDisplayList
 (
+const
 nsIFrame
 *
 aReferenceFrame

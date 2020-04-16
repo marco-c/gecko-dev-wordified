@@ -5158,6 +5158,7 @@ none
 void
 EnterPresShell
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -5229,6 +5230,7 @@ batches
 void
 ResetMarkedFramesForDisplayList
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -5256,6 +5258,7 @@ presshell
 void
 LeavePresShell
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -5903,6 +5906,7 @@ MarkFrameForDisplay
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
@@ -5914,6 +5918,7 @@ MarkFrameForDisplayIfVisible
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
