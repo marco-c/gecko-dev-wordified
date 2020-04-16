@@ -239,7 +239,7 @@ experimental
 .
 bugbug
 .
-all
+debug
 '
 )
     
