@@ -14098,7 +14098,7 @@ if
 childNode
 &
 &
-EditorBase
+EditorUtils
 :
 :
 IsPaddingBRElementForEmptyLastLine
@@ -14696,7 +14696,7 @@ brElement
 |
 |
 !
-EditorBase
+EditorUtils
 :
 :
 IsPaddingBRElementForEmptyLastLine

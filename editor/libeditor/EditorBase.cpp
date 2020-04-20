@@ -17652,7 +17652,7 @@ NS_WARN_IF
 !
 aPoint
 .
-IsSet
+IsInContentNode
 (
 )
 )
@@ -18177,7 +18177,7 @@ DIV
 .
 if
 (
-EditorBase
+EditorUtils
 :
 :
 IsPaddingBRElementForEmptyLastLine
@@ -18185,7 +18185,7 @@ IsPaddingBRElementForEmptyLastLine
 *
 aPoint
 .
-GetContainer
+ContainerAsContent
 (
 )
 )
@@ -18264,12 +18264,7 @@ parentOfContainer
 =
 aPoint
 .
-GetContainer
-(
-)
--
->
-GetParentNode
+GetContainerParent
 (
 )
 ;
@@ -18290,7 +18285,7 @@ EditorRawDOMPoint
 parentOfContainer
 aPoint
 .
-GetContainerAsContent
+ContainerAsContent
 (
 )
 0
