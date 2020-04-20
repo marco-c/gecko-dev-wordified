@@ -340,6 +340,11 @@ props
 ;
 if
 (
+event
+.
+shiftKey
+&
+&
 HIGHLIGHT_RULE_PREF
 )
 {
