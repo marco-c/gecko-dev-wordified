@@ -1629,6 +1629,8 @@ ImageContainer
 aImageContainer
 bool
 aLowLatency
+bool
+aDisableHardwareDecoding
 )
 :
 FFmpegDataDecoder
@@ -1648,6 +1650,10 @@ MOZ_WAYLAND_USE_VAAPI
 mVAAPIDeviceContext
 (
 nullptr
+)
+mDisableHardwareDecoding
+(
+aDisableHardwareDecoding
 )
 #
 endif
@@ -1725,6 +1731,12 @@ rv
 #
 ifdef
 MOZ_WAYLAND_USE_VAAPI
+if
+(
+!
+mDisableHardwareDecoding
+)
+{
 rv
 =
 InitVAAPIDecoder
@@ -1752,6 +1764,7 @@ kVideoTrack
 __func__
 )
 ;
+}
 }
 #
 endif
