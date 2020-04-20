@@ -505,7 +505,7 @@ JSWindowActorParent
 GetActor
 (
 const
-nsAString
+nsACString
 &
 aName
 ErrorResult
@@ -1514,7 +1514,7 @@ mDocumentTitle
 ;
 nsRefPtrHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 JSWindowActorParent
 >
 mWindowActors

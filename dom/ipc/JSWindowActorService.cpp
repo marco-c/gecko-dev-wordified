@@ -801,7 +801,7 @@ JSWindowActorProtocol
 FromWebIDLOptions
 (
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -2780,7 +2780,7 @@ JSWindowActorService
 RegisterWindowActor
 (
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -2838,7 +2838,7 @@ already
 registered
 .
 "
-NS_ConvertUTF16toUTF8
+PromiseFlatCString
 (
 aName
 )
@@ -3027,12 +3027,12 @@ JSWindowActorService
 UnregisterWindowActor
 (
 const
-nsAString
+nsACString
 &
 aName
 )
 {
-nsAutoString
+nsAutoCString
 name
 (
 aName
@@ -3522,7 +3522,7 @@ JSWindowActorService
 GetProtocol
 (
 const
-nsAString
+nsACString
 &
 aName
 )

@@ -267,7 +267,7 @@ JSWindowActorParent
 Init
 (
 const
-nsAString
+nsACString
 &
 aName
 WindowGlobalParent

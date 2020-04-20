@@ -2365,7 +2365,7 @@ IPCResult
 RecvUnregisterJSWindowActor
 (
 const
-nsString
+nsCString
 &
 aName
 )
