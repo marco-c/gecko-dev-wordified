@@ -268,16 +268,16 @@ true
 )
 ]
 def
-before_cycles
+before_runs
 (
-metadata
+env
 *
 *
 kw
 )
 :
     
-metadata
+env
 .
 set_arg
 (
@@ -292,13 +292,13 @@ sites
     
 add_options
 (
-metadata
+env
 options
 )
 def
 before_cycle
 (
-metadata
+env
 *
 *
 kw
@@ -314,7 +314,7 @@ get_site
     
 add_option
 (
-metadata
+env
 "
 browsertime
 .
