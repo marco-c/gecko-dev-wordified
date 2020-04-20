@@ -22755,9 +22755,6 @@ static
 void
 EmitCallSetterNoGuards
 (
-JSContext
-*
-cx
 CacheIRWriter
 &
 writer
@@ -22880,24 +22877,6 @@ hasJitEntry
 )
 )
 ;
-bool
-sameRealm
-=
-cx
--
->
-realm
-(
-)
-=
-=
-target
--
->
-realm
-(
-)
-;
 writer
 .
 callScriptedSetter
@@ -22905,7 +22884,6 @@ callScriptedSetter
 objId
 target
 rhsId
-sameRealm
 )
 ;
 writer
@@ -23110,7 +23088,6 @@ propShape
 }
 EmitCallSetterNoGuards
 (
-cx_
 writer
 obj
 holder
@@ -26154,7 +26131,6 @@ instead
 .
 EmitCallSetterNoGuards
 (
-cx_
 writer
 proto
 holder
@@ -26488,7 +26464,6 @@ expandoObj
 ;
 EmitCallSetterNoGuards
 (
-cx_
 writer
 expandoObj
 expandoObj
@@ -28604,9 +28579,9 @@ addAndStoreFixedSlot
 holderId
 offset
 rhsValId
+propShape
 changeGroup
 newGroup
-propShape
 )
 ;
 trackAttached
@@ -28677,9 +28652,9 @@ addAndStoreDynamicSlot
 holderId
 offset
 rhsValId
+propShape
 changeGroup
 newGroup
-propShape
 )
 ;
 trackAttached
@@ -28706,9 +28681,9 @@ allocateAndStoreDynamicSlot
 holderId
 offset
 rhsValId
+propShape
 changeGroup
 newGroup
-propShape
 numNewSlots
 )
 ;
@@ -42245,7 +42220,7 @@ BitXor
 :
 writer
 .
-int32BitXorResult
+int32BitXOrResult
 (
 lhsIntId
 rhsIntId
@@ -42258,7 +42233,7 @@ BinaryArith
 .
 Bitwise
 .
-BitXor
+BitXOr
 "
 )
 ;
