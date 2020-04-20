@@ -969,7 +969,11 @@ implementation
 details
 .
 )
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Freeze
 (
@@ -1151,7 +1155,11 @@ used
 instead
 .
 )
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ReadOnlyCopy
 (
