@@ -7205,7 +7205,7 @@ if
 any
 .
 Set
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 /
 /
 to
@@ -7231,7 +7231,7 @@ style
 .
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 true
 ;
@@ -7248,7 +7248,7 @@ conn
 ;
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 false
 ;
@@ -7272,7 +7272,8 @@ little
 between
 adding
 the
-heuristicFirstMatch
+heuristic
+result
 and
 matching
 /
@@ -9742,7 +9743,7 @@ true
 {
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 false
 ;
@@ -9755,7 +9756,7 @@ _matchCurrentSearchEngine
 ;
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 true
 ;
@@ -12955,7 +12956,7 @@ if
 (
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 )
 {
 match
@@ -13096,7 +13097,7 @@ if
 (
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 )
 {
 match
