@@ -547,6 +547,14 @@ false
 ]
 [
 "
+dom
+.
+mozBrowserFramesEnabled
+"
+true
+]
+[
+"
 network
 .
 disable

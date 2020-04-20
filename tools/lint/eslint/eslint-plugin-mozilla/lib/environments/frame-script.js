@@ -102,6 +102,9 @@ false
 docShell
 :
 false
+privateNoteIntentionalCrash
+:
+false
 processMessageManager
 :
 false
