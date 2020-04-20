@@ -56,9 +56,9 @@ MPL
 from
 mozperftest
 .
-base
+layers
 import
-MultipleMachEnvironment
+Layers
 from
 mozperftest
 .
@@ -68,8 +68,19 @@ proxy
 import
 ProxyRunner
 def
+get_layers
+(
+)
+:
+    
+return
+(
+ProxyRunner
+)
+def
 pick_system
 (
+env
 flavor
 mach_cmd
 )
@@ -85,11 +96,12 @@ script
 :
         
 return
-MultipleMachEnvironment
+Layers
 (
+env
 mach_cmd
+get_layers
 (
-ProxyRunner
 )
 )
     

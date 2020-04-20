@@ -56,9 +56,9 @@ MPL
 from
 mozperftest
 .
-base
+layers
 import
-MultipleMachEnvironment
+Layers
 from
 mozperftest
 .
@@ -76,8 +76,18 @@ consoleoutput
 import
 ConsoleOutput
 def
+get_layers
+(
+)
+:
+    
+return
+ConsoleOutput
+Perfherder
+def
 pick_metrics
 (
+env
 flavor
 mach_cmd
 )
@@ -93,12 +103,12 @@ script
 :
         
 return
-MultipleMachEnvironment
+Layers
 (
+env
 mach_cmd
+get_layers
 (
-ConsoleOutput
-Perfherder
 )
 )
     

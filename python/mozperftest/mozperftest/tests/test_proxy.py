@@ -12,17 +12,17 @@ mozunit
 from
 mozperftest
 .
-system
-import
-pick_system
-from
-mozperftest
-.
 tests
 .
 support
 import
 get_running_env
+from
+mozperftest
+.
+environment
+import
+SYSTEM
 def
 test_proxy
 (
@@ -31,10 +31,20 @@ test_proxy
     
 mach_cmd
 metadata
+env
 =
 get_running_env
 (
 )
+    
+system
+=
+env
+.
+layers
+[
+SYSTEM
+]
     
 #
 XXX
@@ -51,13 +61,7 @@ HTTP
 calls
     
 with
-pick_system
-(
-"
-script
-"
-mach_cmd
-)
+system
 as
 proxy
 :
