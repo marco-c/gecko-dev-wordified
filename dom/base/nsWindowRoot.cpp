@@ -1337,7 +1337,6 @@ controller
 =
 do_QueryActor
 (
-u
 "
 Controllers
 "
