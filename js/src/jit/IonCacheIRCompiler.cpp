@@ -5436,6 +5436,10 @@ IonCacheIRCompiler
 :
 emitGuardHasGetterSetter
 (
+ObjOperandId
+objId
+uint32_t
+shapeOffset
 )
 {
 JitSpew
@@ -5456,11 +5460,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 Shape
@@ -5469,11 +5469,7 @@ shape
 =
 shapeStubField
 (
-reader
-.
-stubOffset
-(
-)
+shapeOffset
 )
 ;
 AutoScratchRegister
