@@ -15647,7 +15647,7 @@ temp1
 RegExpShared
 :
 :
-offsetOfPairCount
+offsetOfParenCount
 (
 )
 )
@@ -15661,7 +15661,7 @@ branch32
 Assembler
 :
 :
-Above
+AboveOrEqual
 temp2
 Imm32
 (
@@ -15687,6 +15687,17 @@ on
 the
 stack
 .
+masm
+.
+add32
+(
+Imm32
+(
+1
+)
+temp2
+)
+;
 masm
 .
 store32
