@@ -3440,13 +3440,13 @@ aInfo
 .
 mSubSampling_x
 =
-1
+true
 ;
 aInfo
 .
 mSubSampling_y
 =
-1
+true
 ;
 aInfo
 .
