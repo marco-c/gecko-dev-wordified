@@ -197,7 +197,11 @@ windowId
 {
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 ReadSegments
 (
@@ -208,7 +212,11 @@ uint32_t
 *
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 WriteSegments
 (

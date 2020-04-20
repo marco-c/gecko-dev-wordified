@@ -23326,8 +23326,12 @@ mLen
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 bool
 FromIPCSegment
 (

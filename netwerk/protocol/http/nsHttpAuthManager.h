@@ -127,7 +127,11 @@ nsHttpAuthManager
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Init
 (

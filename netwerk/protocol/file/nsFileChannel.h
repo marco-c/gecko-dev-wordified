@@ -240,7 +240,11 @@ in
 that
 case
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 MakeFileInputStream
 (
@@ -260,8 +264,12 @@ bool
 async
 )
 ;
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 OpenContentStream
 (

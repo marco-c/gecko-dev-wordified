@@ -251,7 +251,11 @@ uint32_t
 caps
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Claim
 (

@@ -173,7 +173,11 @@ specified
 by
 srcdoc
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 NewSrcdocChannel
 (

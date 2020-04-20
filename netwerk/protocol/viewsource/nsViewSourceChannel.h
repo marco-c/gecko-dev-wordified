@@ -289,7 +289,11 @@ true
 )
 {
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Init
 (
@@ -301,7 +305,11 @@ nsILoadInfo
 aLoadInfo
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 InitSrcdoc
 (

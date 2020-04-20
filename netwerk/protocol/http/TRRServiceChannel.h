@@ -466,7 +466,11 @@ entityID
 )
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 OnPush
 (
@@ -751,8 +755,12 @@ uint32_t
 aHttpStatus
 )
 ;
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 SetupReplacementChannel
 (

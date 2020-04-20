@@ -534,7 +534,11 @@ is
 being
 loaded
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 virtual
 Init

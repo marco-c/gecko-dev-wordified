@@ -327,7 +327,11 @@ PageThumbProtocolHandler
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ResolveSpecialCases
 (
@@ -487,8 +491,12 @@ URI
 .
 *
 /
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 SubstituteChannel
 (

@@ -622,7 +622,11 @@ for
 the
 parameters
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 InitInternal
 (

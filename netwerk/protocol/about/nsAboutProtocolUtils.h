@@ -104,8 +104,12 @@ prtime
 .
 h
 "
+[
+[
+nodiscard
+]
+]
 inline
-MOZ_MUST_USE
 nsresult
 NS_GetAboutModuleName
 (

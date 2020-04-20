@@ -628,7 +628,11 @@ ExtensionProtocolHandler
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ResolveSpecialCases
 (
@@ -710,8 +714,12 @@ to
 *
 result
 .
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 SubstituteChannel
 (

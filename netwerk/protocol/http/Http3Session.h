@@ -345,7 +345,11 @@ CanReuse
 overload
 of
 nsAHttpTransaction
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 ReadSegmentsAgain
 (
@@ -359,7 +363,11 @@ bool
 )
 final
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 WriteSegmentsAgain
 (

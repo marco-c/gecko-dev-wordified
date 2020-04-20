@@ -3029,7 +3029,11 @@ behaviorFlags
 0
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 NS_NewBufferedInputStream
 (

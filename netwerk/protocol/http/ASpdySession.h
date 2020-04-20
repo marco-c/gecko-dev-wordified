@@ -151,8 +151,12 @@ ASpdySession
 =
 default
 ;
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 bool
 AddStream
 (
@@ -753,7 +757,11 @@ match
 is
 found
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 GetNPNIndex
 (

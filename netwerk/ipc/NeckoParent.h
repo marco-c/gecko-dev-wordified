@@ -226,7 +226,11 @@ NeckoParent
 =
 default
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 static
 const
 char
@@ -293,7 +297,11 @@ failed
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 static
 const
 char
