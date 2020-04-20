@@ -481,13 +481,6 @@ Closed
 ;
 }
 void
-RemoveSheet
-(
-StyleSheet
-&
-)
-;
-void
 RemoveSheetFromStyles
 (
 StyleSheet

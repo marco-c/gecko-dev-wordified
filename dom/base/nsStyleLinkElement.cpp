@@ -1771,7 +1771,7 @@ aOldShadowRoot
 aOldShadowRoot
 -
 >
-RemoveSheet
+RemoveStyleSheet
 (
 *
 mStyleSheet
@@ -2027,7 +2027,7 @@ containingShadow
 containingShadow
 -
 >
-RemoveSheet
+RemoveStyleSheet
 (
 *
 mStyleSheet
