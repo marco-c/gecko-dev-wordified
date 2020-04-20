@@ -249,3 +249,14 @@ crashtests
 list
 '
 ]
+SPHINX_TREES
+[
+'
+/
+layout
+'
+]
+=
+'
+docs
+'
