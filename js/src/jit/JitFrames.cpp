@@ -930,6 +930,15 @@ maybeRead
 recover
 )
 ;
+MOZ_RELEASE_ASSERT
+(
+v
+.
+isObject
+(
+)
+)
+;
 RootedObject
 iterObject
 (
