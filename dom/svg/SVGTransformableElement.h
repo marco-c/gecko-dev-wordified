@@ -290,10 +290,6 @@ GetBBox
 const
 SVGBoundingBoxOptions
 &
-aOptions
-ErrorResult
-&
-rv
 )
 ;
 already_AddRefed
