@@ -143,7 +143,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -155,7 +155,7 @@ h
 endif
 /
 /
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 ifdef
 XP_MACOSX
@@ -2483,7 +2483,7 @@ endif
 XP_MACOSX
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 GatherEnterpriseCertsAndroid
 (
@@ -2662,7 +2662,7 @@ cert
 endif
 /
 /
-ANDROID
+MOZ_WIDGET_ANDROID
 nsresult
 GatherEnterpriseCerts
 (
@@ -2742,7 +2742,7 @@ endif
 XP_MACOSX
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 GatherEnterpriseCertsAndroid
 (
 certs
@@ -2752,7 +2752,7 @@ certs
 endif
 /
 /
-ANDROID
+MOZ_WIDGET_ANDROID
 return
 NS_OK
 ;
