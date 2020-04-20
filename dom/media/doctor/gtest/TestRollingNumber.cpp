@@ -188,8 +188,6 @@ RN8
 ValueType
 uint8_t
 >
-"
-"
 )
 ;
 /
