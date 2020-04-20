@@ -2482,6 +2482,9 @@ testFn
 visibleDefaultEngines
 =
 null
+searchDefault
+=
+null
 geoLookupData
 =
 null
@@ -2556,6 +2559,9 @@ settings
 {
 searchDefault
 :
+searchDefault
+?
+?
 kTestEngineName
 }
 }
