@@ -453,9 +453,12 @@ aContentType
 nsIURI
 *
 aContentLocation
-nsIURI
+nsIPrincipal
 *
-aRequestingLocation
+aLoadingPrincipal
+nsIPrincipal
+*
+aTriggeringPrincipal
 nsISupports
 *
 aRequestingContext
@@ -463,9 +466,6 @@ const
 nsACString
 &
 aMimeGuess
-nsIPrincipal
-*
-aRequestPrincipal
 int16_t
 *
 aDecision

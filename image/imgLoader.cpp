@@ -5049,7 +5049,8 @@ ShouldLoad
 insecureRedirect
 aPolicyType
 contentLocation
-nullptr
+loadingPrincipal
+aTriggeringPrincipal
 ToSupports
 (
 aLoadingDocument
@@ -5061,7 +5062,6 @@ EmptyCString
 /
 mime
 guess
-aTriggeringPrincipal
 &
 decision
 )
