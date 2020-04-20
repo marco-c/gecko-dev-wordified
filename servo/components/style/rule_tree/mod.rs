@@ -56,6 +56,14 @@ MPL
 .
 *
 /
+#
+!
+[
+deny
+(
+unsafe_code
+)
+]
 /
 /
 !
@@ -134,6 +142,9 @@ map
 ;
 mod
 source
+;
+mod
+unsafe_box
 ;
 pub
 use
