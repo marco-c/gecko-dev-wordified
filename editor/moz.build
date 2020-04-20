@@ -137,11 +137,6 @@ nsIEditorSpellCheck
 idl
 '
 '
-nsIEditorStyleSheets
-.
-idl
-'
-'
 nsIHTMLAbsPosEditor
 .
 idl
