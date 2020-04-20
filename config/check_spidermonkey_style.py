@@ -785,7 +785,7 @@ OBJDIR
 '
 jit
 /
-LOpcodes
+LOpcodesGenerated
 .
 h
 '
@@ -797,7 +797,7 @@ OBJDIR
 '
 jit
 /
-MOpcodes
+MOpcodesGenerated
 .
 h
 '

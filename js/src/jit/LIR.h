@@ -203,7 +203,7 @@ include
 "
 jit
 /
-LOpcodes
+LOpcodesGenerated
 .
 h
 "
@@ -5211,12 +5211,14 @@ GenerateOpcodeFiles
 .
 py
 generates
-LOpcodes
+LOpcodesGenerated
 .
 h
 based
 on
 this
+/
+/
 macro
 .
 #

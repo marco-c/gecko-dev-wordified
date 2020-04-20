@@ -240,7 +240,7 @@ include
 "
 jit
 /
-MOpcodes
+MOpcodesGenerated
 .
 h
 "
@@ -7964,7 +7964,7 @@ GenerateOpcodeFiles
 .
 py
 generates
-MOpcodes
+MOpcodesGenerated
 .
 h
 based

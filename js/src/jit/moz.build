@@ -1812,7 +1812,7 @@ cpp
 Generate
 jit
 /
-MOpcodes
+MOpcodesGenerated
 .
 h
 from
@@ -1824,7 +1824,7 @@ h
 GeneratedFile
 (
 '
-MOpcodes
+MOpcodesGenerated
 .
 h
 '
@@ -1854,7 +1854,7 @@ h
 Generate
 jit
 /
-LOpcodes
+LOpcodesGenerated
 .
 h
 from
@@ -1883,7 +1883,7 @@ files
 GeneratedFile
 (
 '
-LOpcodes
+LOpcodesGenerated
 .
 h
 '
