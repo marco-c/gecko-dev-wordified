@@ -164,7 +164,6 @@ done
 =
 function
 (
-res
 )
 {
 client
@@ -180,9 +179,6 @@ finish
 context
 }
 )
-;
-return
-res
 ;
 }
 ;
@@ -200,15 +196,14 @@ the
 test
 .
 var
-result
+promise
 =
 runTest
 (
 )
 .
-then
+finally
 (
-done
 done
 )
 ;
@@ -225,7 +220,7 @@ event
 .
 waitUntil
 (
-result
+promise
 )
 ;
 }

@@ -214,9 +214,8 @@ PushService
 db
 )
 .
-then
+finally
 (
-run_next_test
 run_next_test
 )
 ;
@@ -1679,9 +1678,8 @@ tearDownServiceInParent
 db
 )
 .
-then
+finally
 (
-run_next_test
 run_next_test
 )
 ;

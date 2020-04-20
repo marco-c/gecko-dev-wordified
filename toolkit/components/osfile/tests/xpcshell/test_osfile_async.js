@@ -68,9 +68,8 @@ getCurrentDirectory
 (
 )
 .
-then
+finally
 (
-do_test_finished
 do_test_finished
 )
 ;

@@ -271,9 +271,8 @@ test
 ;
 result
 .
-then
+finally
 (
-next
 next
 )
 ;

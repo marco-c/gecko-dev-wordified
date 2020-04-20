@@ -6263,9 +6263,8 @@ promise
 ;
 promise
 .
-then
+finally
 (
-remove
 remove
 )
 ;

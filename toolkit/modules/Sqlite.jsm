@@ -4612,9 +4612,8 @@ shrink_memory
 "
 )
 .
-then
+finally
 (
-onShrunk
 onShrunk
 )
 ;
