@@ -26314,16 +26314,6 @@ SetSelectionAtDocumentStart
 (
 )
 ;
-static
-Element
-*
-GetEnclosingTable
-(
-nsINode
-*
-aNode
-)
-;
 /
 /
 Methods
