@@ -643,6 +643,16 @@ ClearCachedResources
 ;
 /
 /
+Invalidate
+rendered
+frame
+async
+InvalidateRenderedFrame
+(
+)
+;
+/
+/
 Schedule
 a
 composite
