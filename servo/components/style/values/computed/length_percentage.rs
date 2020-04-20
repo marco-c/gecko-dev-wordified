@@ -446,6 +446,15 @@ use
 std
 :
 :
+borrow
+:
+:
+Cow
+;
+use
+std
+:
+:
 fmt
 :
 :
@@ -453,15 +462,6 @@ fmt
 self
 Write
 }
-;
-use
-std
-:
-:
-borrow
-:
-:
-Cow
 ;
 use
 style_traits
@@ -1596,6 +1596,7 @@ p
 )
 =
 >
+{
 Cow
 :
 :
@@ -1615,6 +1616,7 @@ p
 )
 )
 )
+}
 Unpacked
 :
 :
@@ -2007,7 +2009,6 @@ p
 _
 =
 >
-{
 Self
 :
 :
@@ -2025,7 +2026,6 @@ node
 }
 )
 )
-}
 }
 }
 /
@@ -5313,7 +5313,6 @@ map_leaves
 |
 leaf
 |
-{
 match
 *
 leaf
@@ -5346,7 +5345,6 @@ l
 )
 =
 >
-{
 CalcLengthPercentageLeaf
 :
 :
@@ -5365,7 +5363,6 @@ abs
 )
 =
 >
-{
 zoom_fn
 (
 abs
@@ -5375,7 +5372,6 @@ to_computed_value
 context
 )
 )
-}
 NoCalcLength
 :
 :
@@ -5386,7 +5382,6 @@ fr
 )
 =
 >
-{
 fr
 .
 to_computed_value
@@ -5394,7 +5389,6 @@ to_computed_value
 context
 base_size
 )
-}
 other
 =
 >
@@ -5406,7 +5400,6 @@ context
 )
 }
 )
-}
 Leaf
 :
 :
@@ -5435,6 +5428,7 @@ Time
 )
 =
 >
+{
 unreachable
 !
 (
@@ -5788,7 +5782,6 @@ map_leaves
 |
 l
 |
-{
 match
 l
 {
@@ -5802,6 +5795,7 @@ l
 )
 =
 >
+{
 Leaf
 :
 :
@@ -5819,6 +5813,7 @@ px
 )
 )
 )
+}
 CalcLengthPercentageLeaf
 :
 :
@@ -5838,7 +5833,6 @@ p
 .
 0
 )
-}
 }
 )
 }
