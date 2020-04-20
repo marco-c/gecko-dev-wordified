@@ -201,12 +201,16 @@ Assert
 .
 equal
 (
+(
 await
 OSKeyStore
 .
 ensureLoggedIn
 (
 )
+)
+.
+authenticated
 true
 "
 Started
@@ -427,6 +431,7 @@ Assert
 .
 equal
 (
+(
 await
 OSKeyStore
 .
@@ -437,6 +442,9 @@ test
 message
 "
 )
+)
+.
+authenticated
 false
 "
 Reauth
@@ -527,6 +535,7 @@ Assert
 .
 equal
 (
+(
 await
 OSKeyStore
 .
@@ -537,6 +546,9 @@ test
 message
 "
 )
+)
+.
+authenticated
 true
 "
 Reauth

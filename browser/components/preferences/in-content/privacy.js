@@ -11359,6 +11359,8 @@ if
 (
 !
 loggedIn
+.
+authenticated
 )
 {
 return
