@@ -733,6 +733,15 @@ aReason
 ;
 virtual
 void
+RecordSourceSurfaceDestruction
+(
+SourceSurface
+*
+aSurface
+)
+;
+virtual
+void
 AddDependentSurface
 (
 uint64_t
