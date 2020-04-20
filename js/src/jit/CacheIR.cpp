@@ -28579,9 +28579,9 @@ addAndStoreFixedSlot
 holderId
 offset
 rhsValId
-propShape
 changeGroup
 newGroup
+propShape
 )
 ;
 trackAttached
@@ -28652,9 +28652,9 @@ addAndStoreDynamicSlot
 holderId
 offset
 rhsValId
-propShape
 changeGroup
 newGroup
+propShape
 )
 ;
 trackAttached
@@ -28681,9 +28681,9 @@ allocateAndStoreDynamicSlot
 holderId
 offset
 rhsValId
-propShape
 changeGroup
 newGroup
+propShape
 numNewSlots
 )
 ;
