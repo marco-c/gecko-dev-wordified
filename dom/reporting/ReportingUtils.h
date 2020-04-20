@@ -128,7 +128,7 @@ nsString
 h
 "
 class
-nsIPDOMWindowInner
+nsIGlobalObject
 ;
 namespace
 mozilla
@@ -149,9 +149,9 @@ static
 void
 Report
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 nsAtom
 *
 aType

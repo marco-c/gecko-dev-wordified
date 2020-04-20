@@ -148,9 +148,9 @@ public
 :
 DeprecationReportBody
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 const
 nsAString
 &
