@@ -3036,6 +3036,7 @@ def
 forget_add_remove_files
 (
 self
+*
 paths
 )
 :
@@ -4078,6 +4079,7 @@ def
 add_remove_files
 (
 self
+*
 paths
 )
 :
@@ -4097,6 +4099,7 @@ def
 forget_add_remove_files
 (
 self
+*
 paths
 )
 :
