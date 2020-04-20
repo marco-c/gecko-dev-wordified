@@ -6816,10 +6816,8 @@ HandleObject
 obj
 Handle
 <
-js
-:
-:
-TaggedProto
+JSObject
+*
 >
 proto
 )
