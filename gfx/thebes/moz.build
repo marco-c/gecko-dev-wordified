@@ -796,6 +796,11 @@ SOURCES
 =
 [
 '
+DisplayConfigWindows
+.
+cpp
+'
+'
 gfxDWriteCommon
 .
 cpp
