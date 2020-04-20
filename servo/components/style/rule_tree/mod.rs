@@ -775,10 +775,6 @@ self
 root
 (
 )
-.
-downgrade
-(
-)
 source
 level
 )
@@ -1075,10 +1071,6 @@ self
 root
 (
 )
-.
-downgrade
-(
-)
 source
 AuthorImportant
 {
@@ -1112,10 +1104,6 @@ self
 root
 (
 )
-.
-downgrade
-(
-)
 source
 UserImportant
 )
@@ -1143,10 +1131,6 @@ self
 root
 (
 )
-.
-downgrade
-(
-)
 source
 UAImportant
 )
@@ -1170,10 +1154,6 @@ ensure_child
 self
 .
 root
-(
-)
-.
-downgrade
 (
 )
 source
@@ -1384,10 +1364,6 @@ ensure_child
 self
 .
 root
-(
-)
-.
-downgrade
 (
 )
 source
@@ -2081,10 +2057,6 @@ self
 root
 (
 )
-.
-downgrade
-(
-)
 StyleSource
 :
 :
@@ -2134,10 +2106,6 @@ ensure_child
 self
 .
 root
-(
-)
-.
-downgrade
 (
 )
 StyleSource

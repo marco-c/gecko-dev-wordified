@@ -2745,10 +2745,6 @@ StrongRuleNode
 p
 }
 }
-pub
-(
-super
-)
 fn
 downgrade
 (
@@ -2823,7 +2819,8 @@ ensure_child
 self
 root
 :
-WeakRuleNode
+&
+StrongRuleNode
 source
 :
 StyleSource
@@ -3010,6 +3007,15 @@ move
 |
 |
 {
+let
+root
+=
+root
+.
+downgrade
+(
+)
+;
 let
 strong
 =
