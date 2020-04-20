@@ -5461,11 +5461,7 @@ data
 if
 kid
 .
-get_data
-(
-)
-.
-is_some
+has_data
 (
 )
 {
