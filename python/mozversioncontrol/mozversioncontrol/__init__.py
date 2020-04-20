@@ -1341,7 +1341,8 @@ def
 add_remove_files
 (
 self
-path
+*
+paths
 )
 :
         
@@ -1353,7 +1354,7 @@ and
 remove
 files
 under
-path
+paths
 in
 this
 repository
@@ -1375,7 +1376,8 @@ def
 forget_add_remove_files
 (
 self
-path
+*
+paths
 )
 :
         
@@ -1391,7 +1393,7 @@ previous
 add_remove_files
 call
 for
-path
+paths
 .
         
 '
@@ -2870,7 +2872,8 @@ def
 add_remove_files
 (
 self
-path
+*
+paths
 )
 :
         
@@ -2880,8 +2883,12 @@ args
 '
 addremove
 '
-path
 ]
++
+list
+(
+paths
+)
         
 m
 =
@@ -2960,7 +2967,7 @@ def
 forget_add_remove_files
 (
 self
-path
+paths
 )
 :
         
@@ -2971,7 +2978,8 @@ _run
 '
 forget
 '
-path
+*
+paths
 )
     
 def
@@ -3965,7 +3973,7 @@ def
 add_remove_files
 (
 self
-path
+paths
 )
 :
         
@@ -3976,14 +3984,15 @@ _run
 '
 add
 '
-path
+*
+paths
 )
     
 def
 forget_add_remove_files
 (
 self
-path
+paths
 )
 :
         
@@ -3994,7 +4003,8 @@ _run
 '
 reset
 '
-path
+*
+paths
 )
     
 def

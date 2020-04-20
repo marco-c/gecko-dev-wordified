@@ -1936,15 +1936,6 @@ glue_dir
         
 self
 .
-repository
-.
-add_remove_files
-(
-vendor_dir
-)
-        
-self
-.
 log
 (
 logging
@@ -1977,6 +1968,7 @@ repository
 add_remove_files
 (
 vendor_dir
+glue_dir
 )
         
 self
