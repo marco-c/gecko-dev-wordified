@@ -1091,7 +1091,7 @@ item
 ]
 ;
 const
-waitForPre
+waitForEditor
 =
 waitForDOMElement
 (
@@ -1102,8 +1102,13 @@ response
 -
 panel
 .
-responseTextContainer
-pre
+CodeMirror
+.
+cm
+-
+s
+-
+mozilla
 "
 win
 )
@@ -1115,7 +1120,7 @@ win
 )
 ;
 await
-waitForPre
+waitForEditor
 ;
 testEditor
 .

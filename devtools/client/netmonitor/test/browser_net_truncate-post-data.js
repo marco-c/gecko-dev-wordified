@@ -284,7 +284,13 @@ params
 -
 panel
 .
-responseTextContainer
+CodeMirror
+.
+cm
+-
+s
+-
+mozilla
 "
 )
 ;
