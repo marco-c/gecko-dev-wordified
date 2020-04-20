@@ -6896,12 +6896,6 @@ SdpRtpmapAttributeList
 :
 kTelephoneEvent
 :
-case
-SdpRtpmapAttributeList
-:
-:
-kRtx
-:
 return
 false
 ;
