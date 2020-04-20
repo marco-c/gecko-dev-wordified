@@ -634,15 +634,6 @@ to
 aOrientation
 .
 *
-*
-param
-aSize
-The
-size
-of
-aSurface
-.
-*
 /
 static
 already_AddRefed
@@ -656,10 +647,6 @@ aOrientation
 SourceSurface
 *
 aSurface
-const
-nsIntSize
-&
-aSize
 )
 ;
 protected
