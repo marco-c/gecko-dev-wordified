@@ -2179,14 +2179,9 @@ for
 any
 pending
 prompts
-in
-this
-window
 to
 complete
 before
-/
-/
 showing
 the
 next
@@ -2206,7 +2201,7 @@ pendingNotifications
 .
 get
 (
-window
+browser
 )
 )
 )
@@ -2668,7 +2663,7 @@ pendingNotifications
 .
 set
 (
-window
+browser
 promise
 )
 ;
@@ -2686,7 +2681,7 @@ pendingNotifications
 .
 delete
 (
-window
+browser
 )
 )
 ;
