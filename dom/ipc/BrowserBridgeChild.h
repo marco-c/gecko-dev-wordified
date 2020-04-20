@@ -509,8 +509,8 @@ ipc
 IPCResult
 RecvMaybeFireEmbedderLoadEvents
 (
-bool
-aFireLoadAtEmbeddingElement
+EmbedderElementEventType
+aFireEventAtEmbeddingElement
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY

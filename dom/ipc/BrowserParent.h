@@ -4567,8 +4567,8 @@ ipc
 IPCResult
 RecvMaybeFireEmbedderLoadEvents
 (
-bool
-aFireLoadAtEmbeddingElement
+EmbedderElementEventType
+aFireEventAtEmbeddingElement
 )
 ;
 private
