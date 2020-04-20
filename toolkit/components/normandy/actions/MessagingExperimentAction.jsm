@@ -144,6 +144,13 @@ MessagingExperimentAction
 "
 ]
 ;
+const
+RECIPE_SOURCE
+=
+"
+normandy
+"
+;
 class
 MessagingExperimentAction
 extends
@@ -203,6 +210,7 @@ onRecipe
 recipe
 .
 arguments
+RECIPE_SOURCE
 )
 ;
 }
@@ -218,6 +226,7 @@ manager
 .
 onFinalize
 (
+RECIPE_SOURCE
 )
 ;
 }

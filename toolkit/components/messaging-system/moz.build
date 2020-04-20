@@ -124,13 +124,6 @@ TESTING_JS_MODULES
 =
 [
 '
-experiments
-/
-ExperimentAPI
-.
-jsm
-'
-'
 test
 /
 MSTestUtils
