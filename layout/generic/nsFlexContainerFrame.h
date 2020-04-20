@@ -827,6 +827,9 @@ CachedBAxisMeasurement
 class
 CachedFlexItemData
 ;
+struct
+SharedFlexData
+;
 /
 /
 nsIFrame
