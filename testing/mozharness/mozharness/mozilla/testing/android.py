@@ -1207,12 +1207,12 @@ path
 .
 join
 (
-os
+self
 .
-environ
+abs_dirs
 [
 '
-MOZ_FETCHES_DIR
+abs_work_dir
 '
 ]
 '
