@@ -8376,16 +8376,6 @@ true
 if
 (
 enable
-&
-&
-UrlbarPrefs
-.
-get
-(
-"
-oneOffSearches
-"
-)
 )
 {
 this
