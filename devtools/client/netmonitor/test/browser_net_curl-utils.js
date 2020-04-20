@@ -854,6 +854,8 @@ includes
 -
 -
 data
+-
+raw
 "
 )
 "
@@ -866,6 +868,8 @@ with
 -
 -
 data
+-
+raw
 "
 )
 ;
@@ -882,6 +886,8 @@ paramsWin
 -
 -
 data
+-
+raw
 "
 {
 "
@@ -915,6 +921,8 @@ paramsPosix
 -
 -
 data
+-
+raw
 '
 {
 "
@@ -965,6 +973,8 @@ with
 -
 -
 data
+-
+raw
 escaped
 for
 Windows
@@ -1002,6 +1012,8 @@ with
 -
 -
 data
+-
+raw
 escaped
 for
 Posix
