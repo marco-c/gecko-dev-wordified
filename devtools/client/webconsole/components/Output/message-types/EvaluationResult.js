@@ -374,6 +374,9 @@ false
 type
 helperType
 maybeScrollToBottom
+customFormat
+:
+true
 }
 )
 ;

@@ -411,6 +411,9 @@ pathPrefix
 "
 WebConsoleSidebar
 "
+customFormat
+:
+false
 }
 )
 ;

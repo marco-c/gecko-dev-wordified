@@ -2782,10 +2782,6 @@ includes
 myThrowingGetter
 :
 Error
-:
-"
-myError
-"
 )
 "
 throwing

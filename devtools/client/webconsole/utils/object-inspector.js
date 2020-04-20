@@ -490,6 +490,15 @@ sourceMapService
 serviceContainer
 .
 sourceMapService
+customFormat
+:
+override
+.
+customFormat
+!
+=
+=
+false
 renderStacktrace
 :
 stacktrace
