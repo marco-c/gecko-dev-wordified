@@ -2718,6 +2718,8 @@ p
 ptr
 )
 ;
+unsafe
+{
 StrongRuleNode
 :
 :
@@ -2726,6 +2728,8 @@ from_ptr
 ptr
 )
 }
+}
+unsafe
 fn
 from_ptr
 (
@@ -3061,6 +3065,8 @@ weak
 }
 )
 ;
+unsafe
+{
 StrongRuleNode
 :
 :
@@ -3070,6 +3076,7 @@ weak
 .
 p
 )
+}
 }
 /
 /
@@ -4519,6 +4526,8 @@ Ordering
 Relaxed
 )
 ;
+unsafe
+{
 StrongRuleNode
 :
 :
@@ -4528,6 +4537,7 @@ self
 .
 p
 )
+}
 }
 }
 impl
@@ -5887,6 +5897,8 @@ Ordering
 Relaxed
 )
 ;
+unsafe
+{
 StrongRuleNode
 :
 :
@@ -5896,6 +5908,7 @@ self
 .
 p
 )
+}
 }
 fn
 from_ptr
