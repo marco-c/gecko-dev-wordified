@@ -4431,6 +4431,7 @@ int
 start
 int
 instance
+UNUSED
 int
 count
 )
@@ -8962,6 +8963,7 @@ data
 void
 GenerateMipmap
 (
+UNUSED
 GLenum
 target
 )
@@ -10042,6 +10044,7 @@ size
 void
 *
 data
+UNUSED
 GLenum
 usage
 )
@@ -10196,6 +10199,7 @@ MapBuffer
 (
 GLenum
 target
+UNUSED
 GLbitfield
 access
 )
@@ -10234,6 +10238,7 @@ GLintptr
 offset
 GLsizeiptr
 length
+UNUSED
 GLbitfield
 access
 )
