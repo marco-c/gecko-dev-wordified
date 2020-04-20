@@ -1616,6 +1616,9 @@ MediaPlayback
 "
 MediaDecoderStateMachine
 "
+"
+AsyncCubebTask
+"
 ]
 duration
 :
