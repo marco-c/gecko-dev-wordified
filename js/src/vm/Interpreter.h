@@ -178,6 +178,9 @@ js
 class
 EnvironmentIter
 ;
+class
+PlainObject
+;
 /
 *
 *
@@ -4786,7 +4789,7 @@ HandleValue
 heritage
 )
 ;
-JSObject
+PlainObject
 *
 ObjectWithProtoOperation
 (

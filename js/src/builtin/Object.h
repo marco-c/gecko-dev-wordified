@@ -142,6 +142,9 @@ h
 namespace
 js
 {
+class
+PlainObject
+;
 /
 /
 Object
@@ -201,7 +204,11 @@ ObjectCreateWithTemplate
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 templateObj
 )
 ;

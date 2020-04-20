@@ -513,7 +513,7 @@ include
 "
 vm
 /
-NativeObject
+PlainObject
 .
 h
 "

@@ -429,6 +429,9 @@ Maybe
 namespace
 js
 {
+class
+PlainObject
+;
 namespace
 jit
 {
@@ -38468,7 +38471,7 @@ R0
 using
 Fn
 =
-JSObject
+PlainObject
 *
 (
 *
