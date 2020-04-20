@@ -4535,6 +4535,7 @@ worklet
 )
 =
 >
+{
 (
 &
 worklet
@@ -4545,6 +4546,7 @@ worklet
 .
 arguments
 )
+}
 _
 =
 >
@@ -5459,7 +5461,11 @@ data
 if
 kid
 .
-has_data
+get_data
+(
+)
+.
+is_some
 (
 )
 {

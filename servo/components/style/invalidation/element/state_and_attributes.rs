@@ -678,10 +678,13 @@ E
 TElement
 {
 if
-!
 child
 .
-has_data
+get_data
+(
+)
+.
+is_none
 (
 )
 {
