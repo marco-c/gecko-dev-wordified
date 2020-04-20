@@ -15086,13 +15086,6 @@ CpowEntry
 &
 aCpows
 const
-IPC
-:
-:
-Principal
-&
-aPrincipal
-const
 ClonedMessageData
 &
 aData
@@ -15175,7 +15168,6 @@ false
 data
 &
 cpows
-aPrincipal
 nullptr
 IgnoreErrors
 (

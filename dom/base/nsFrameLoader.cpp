@@ -18580,9 +18580,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 {
 auto
@@ -18697,7 +18694,6 @@ nsString
 aMessage
 )
 cpows
-aPrincipal
 data
 )
 )
@@ -18760,7 +18756,6 @@ Init
 (
 aMessage
 aData
-aPrincipal
 )
 ;
 if

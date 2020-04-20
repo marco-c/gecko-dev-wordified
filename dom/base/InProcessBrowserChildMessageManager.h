@@ -468,9 +468,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -505,9 +502,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 override
 ;
