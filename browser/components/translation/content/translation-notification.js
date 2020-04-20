@@ -1621,6 +1621,14 @@ translationStates
 selectedIndex
 ;
 }
+/
+/
+aTranslation
+is
+the
+TranslationParent
+actor
+.
 init
 (
 aTranslation
