@@ -320,18 +320,6 @@ gfx
 PointDouble3D
 origin
 ;
-if
-(
-sensorState
-.
-flags
-&
-VRDisplayCapabilityFlags
-:
-:
-Cap_Position
-)
-{
 mInitialPosition
 .
 x
@@ -377,7 +365,6 @@ mStandingTransform
 =
 standing
 ;
-}
 }
 return
 mInitialPosition
