@@ -316,12 +316,7 @@ super
 image
 :
 :
-{
-EndingShape
-as
-GradientEndingShape
-Gradient
-}
+Image
 ;
 pub
 use
@@ -331,7 +326,12 @@ super
 image
 :
 :
-Image
+{
+EndingShape
+as
+GradientEndingShape
+Gradient
+}
 ;
 pub
 use
