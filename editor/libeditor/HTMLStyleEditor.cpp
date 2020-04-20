@@ -2819,9 +2819,11 @@ return
 CSSEditUtils
 :
 :
-ElementsSameStyle
+DoElementsHaveSameStyle
 (
+*
 newSpanElement
+*
 element
 )
 ;
