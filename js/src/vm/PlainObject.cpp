@@ -305,7 +305,7 @@ NewObjectGCKind
 js
 :
 :
-NewObjectWithGivenTaggedProto
+NewSingletonObjectWithGivenTaggedProtoAndKind
 #
 include
 "
@@ -399,13 +399,13 @@ using
 js
 :
 :
-NewObjectWithGivenTaggedProto
+NewObjectWithGroup
 ;
 using
 js
 :
 :
-NewObjectWithGroup
+NewSingletonObjectWithGivenTaggedProtoAndKind
 ;
 using
 js
@@ -858,7 +858,7 @@ proto
 )
 ;
 return
-NewObjectWithGivenTaggedProto
+NewSingletonObjectWithGivenTaggedProtoAndKind
 <
 PlainObject
 >
@@ -866,7 +866,6 @@ PlainObject
 cx
 protoRoot
 allocKind
-newKind
 )
 ;
 }
