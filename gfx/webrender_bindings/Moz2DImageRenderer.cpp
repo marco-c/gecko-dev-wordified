@@ -2246,7 +2246,6 @@ LayoutIntRect
 aRenderRect
 const
 uint16_t
-*
 aTileSize
 const
 mozilla
@@ -3213,7 +3212,6 @@ DeviceIntRect
 aVisibleRect
 const
 uint16_t
-*
 aTileSize
 const
 mozilla
