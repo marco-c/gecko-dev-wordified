@@ -7771,6 +7771,15 @@ SupportsSimd
 )
 {
 return
+js
+:
+:
+jit
+:
+:
+SupportsSimd
+&
+&
 CPUInfo
 :
 :
