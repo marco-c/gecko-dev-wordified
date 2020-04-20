@@ -234,6 +234,15 @@ include
 "
 mozilla
 /
+StaticPresData
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEditor
 .
 h
