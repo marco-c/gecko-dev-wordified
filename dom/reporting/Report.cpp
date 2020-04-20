@@ -147,13 +147,6 @@ ReportingBinding
 .
 h
 "
-#
-include
-"
-nsIGlobalObject
-.
-h
-"
 namespace
 mozilla
 {
@@ -163,7 +156,7 @@ dom
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 Report
-mGlobal
+mWindow
 mBody
 )
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -189,9 +182,9 @@ Report
 :
 Report
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 const
 nsAString
 &
@@ -205,9 +198,9 @@ ReportBody
 aBody
 )
 :
-mGlobal
+mWindow
 (
-aGlobal
+aWindow
 )
 mType
 (
@@ -224,7 +217,7 @@ aBody
 {
 MOZ_ASSERT
 (
-aGlobal
+aWindow
 )
 ;
 }
@@ -258,7 +251,7 @@ report
 new
 Report
 (
-mGlobal
+mWindow
 mType
 mURL
 mBody

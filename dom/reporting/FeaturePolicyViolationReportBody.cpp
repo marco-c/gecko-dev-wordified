@@ -147,9 +147,9 @@ FeaturePolicyViolationReportBody
 :
 FeaturePolicyViolationReportBody
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 const
 nsAString
 &
@@ -180,7 +180,7 @@ aDisposition
 :
 ReportBody
 (
-aGlobal
+aWindow
 )
 mFeatureId
 (

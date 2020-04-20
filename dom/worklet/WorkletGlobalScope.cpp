@@ -183,7 +183,7 @@ mConsole
 tmp
 -
 >
-UnlinkObjectsInGlobal
+UnlinkHostObjectURIs
 (
 )
 ;
@@ -199,7 +199,7 @@ mConsole
 tmp
 -
 >
-TraverseObjectsInGlobal
+TraverseHostObjectURIs
 (
 cb
 )
