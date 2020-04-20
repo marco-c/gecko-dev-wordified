@@ -1048,6 +1048,10 @@ alloc
 (
 )
 input
+IntConversionInputKind
+:
+:
+NumbersOnly
 )
 ;
 current
