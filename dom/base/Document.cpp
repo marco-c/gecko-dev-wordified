@@ -40603,10 +40603,6 @@ sheet
 SetAssociatedDocumentOrShadowRoot
 (
 this
-StyleSheet
-:
-:
-OwnedByDocumentOrShadowRoot
 )
 ;
 MOZ_ASSERT

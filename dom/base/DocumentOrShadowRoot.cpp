@@ -541,10 +541,6 @@ aSheet
 SetAssociatedDocumentOrShadowRoot
 (
 this
-StyleSheet
-:
-:
-OwnedByDocumentOrShadowRoot
 )
 ;
 mStyleSheets
