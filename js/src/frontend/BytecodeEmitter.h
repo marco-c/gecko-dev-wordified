@@ -1035,11 +1035,6 @@ emittingRunOnceLambda
 =
 false
 ;
-bool
-isRunOnceLambda
-(
-)
-;
 enum
 EmitterMode
 {
