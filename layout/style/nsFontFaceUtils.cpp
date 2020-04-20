@@ -1240,6 +1240,9 @@ RestyleManager
 >
 PostRestyleEvent
 (
+dom
+:
+:
 Element
 :
 :

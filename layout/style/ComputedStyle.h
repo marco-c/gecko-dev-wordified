@@ -191,6 +191,15 @@ include
 "
 mozilla
 /
+ServoComputedDataInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleConsts
 .
 h
