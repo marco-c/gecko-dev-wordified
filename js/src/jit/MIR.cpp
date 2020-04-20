@@ -10087,6 +10087,15 @@ isExtended
 (
 )
 )
+hasJitInfo_
+(
+fun
+-
+>
+hasJitInfo
+(
+)
+)
 {
 }
 MCall
