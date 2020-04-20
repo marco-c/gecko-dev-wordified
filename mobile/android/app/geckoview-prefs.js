@@ -679,6 +679,9 @@ Enable
 the
 extension
 process
+#
+ifndef
+RELEASE_OR_BETA
 pref
 (
 "
@@ -691,6 +694,8 @@ remote
 true
 )
 ;
+#
+endif
 /
 /
 Enable
