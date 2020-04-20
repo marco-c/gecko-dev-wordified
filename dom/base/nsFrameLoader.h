@@ -619,6 +619,8 @@ nsAString
 aRemoteType
 bool
 aNetworkCreated
+bool
+aPreserveContext
 )
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
