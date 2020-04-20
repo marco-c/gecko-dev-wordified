@@ -220,8 +220,8 @@ if
 p
 .
 pref
-is
-not
+!
+=
 "
 "
 :
