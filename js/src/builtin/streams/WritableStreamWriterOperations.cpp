@@ -2295,7 +2295,7 @@ chunk
 )
 *
 /
-JSObject
+PromiseObject
 *
 js
 :
@@ -2595,7 +2595,7 @@ unwrappedStream
 )
 -
 >
-JSObject
+PromiseObject
 *
 {
 Rooted
