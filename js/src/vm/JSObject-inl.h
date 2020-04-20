@@ -3175,7 +3175,7 @@ T
 inline
 T
 *
-NewObjectWithGivenTaggedProto
+NewSingletonObjectWithGivenTaggedProtoAndKind
 (
 JSContext
 *
@@ -3190,14 +3190,6 @@ gc
 :
 AllocKind
 allocKind
-NewObjectKind
-newKind
-=
-GenericObject
-uint32_t
-initialShapeFlags
-=
-0
 )
 {
 JSObject
@@ -3214,8 +3206,8 @@ T
 class_
 proto
 allocKind
-newKind
-initialShapeFlags
+SingletonObject
+0
 )
 ;
 return

@@ -858,7 +858,7 @@ proto
 )
 ;
 return
-NewObjectWithGivenTaggedProto
+NewSingletonObjectWithGivenTaggedProtoAndKind
 <
 PlainObject
 >
@@ -866,7 +866,6 @@ PlainObject
 cx
 protoRoot
 allocKind
-newKind
 )
 ;
 }
