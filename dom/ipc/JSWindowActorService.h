@@ -336,7 +336,7 @@ JSWindowActorProtocol
 FromWebIDLOptions
 (
 const
-nsACString
+nsAString
 &
 aName
 const
@@ -475,7 +475,7 @@ explicit
 JSWindowActorProtocol
 (
 const
-nsACString
+nsAString
 &
 aName
 )
@@ -519,7 +519,7 @@ JSWindowActorProtocol
 =
 default
 ;
-nsCString
+nsString
 mName
 ;
 bool
@@ -590,7 +590,7 @@ void
 RegisterWindowActor
 (
 const
-nsACString
+nsAString
 &
 aName
 const
@@ -606,7 +606,7 @@ void
 UnregisterWindowActor
 (
 const
-nsACString
+nsAString
 &
 aName
 )
@@ -718,7 +718,7 @@ JSWindowActorProtocol
 GetProtocol
 (
 const
-nsACString
+nsAString
 &
 aName
 )
@@ -743,7 +743,7 @@ mChromeEventTargets
 ;
 nsRefPtrHashtable
 <
-nsCStringHashKey
+nsStringHashKey
 JSWindowActorProtocol
 >
 mDescriptors

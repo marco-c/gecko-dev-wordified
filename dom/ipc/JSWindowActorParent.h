@@ -280,7 +280,7 @@ void
 Init
 (
 const
-nsACString
+nsAString
 &
 aName
 WindowGlobalParent

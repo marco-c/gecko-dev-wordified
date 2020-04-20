@@ -18296,6 +18296,7 @@ chrome
 =
 do_QueryActor
 (
+u
 "
 WebBrowserChrome
 "

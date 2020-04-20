@@ -172,7 +172,7 @@ public
 nsQueryActorChild
 (
 const
-nsLiteralCString
+nsLiteralString
 aActorName
 nsPIDOMWindowOuter
 *
@@ -315,7 +315,7 @@ aResult
 private
 :
 const
-nsLiteralCString
+nsLiteralString
 mActorName
 ;
 nsPIDOMWindowOuter
@@ -334,7 +334,7 @@ nsQueryActorChild
 do_QueryActor
 (
 const
-char
+char16_t
 (
 &
 aActorName
@@ -350,7 +350,7 @@ aWindow
 return
 nsQueryActorChild
 (
-nsLiteralCString
+nsLiteralString
 (
 aActorName
 )
@@ -395,7 +395,7 @@ public
 :
 nsQueryActorParent
 (
-nsLiteralCString
+nsLiteralString
 aActorName
 mozilla
 :
@@ -526,7 +526,7 @@ aResult
 private
 :
 const
-nsLiteralCString
+nsLiteralString
 mActorName
 ;
 mozilla
@@ -551,7 +551,7 @@ nsQueryActorParent
 do_QueryActor
 (
 const
-char
+char16_t
 (
 &
 aActorName
@@ -573,7 +573,7 @@ aBrowsingContext
 return
 nsQueryActorParent
 (
-nsLiteralCString
+nsLiteralString
 (
 aActorName
 )

@@ -2818,7 +2818,7 @@ WindowGlobalParent
 GetActor
 (
 const
-nsACString
+nsAString
 &
 aName
 ErrorResult
@@ -4390,7 +4390,7 @@ queries
 .
 nsRefPtrHashtable
 <
-nsCStringHashKey
+nsStringHashKey
 JSWindowActorParent
 >
 windowActors
