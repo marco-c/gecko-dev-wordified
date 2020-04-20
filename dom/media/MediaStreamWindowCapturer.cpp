@@ -189,6 +189,11 @@ CapturedTrack
 (
 )
 {
+if
+(
+mPort
+)
+{
 mPort
 -
 >
@@ -196,6 +201,7 @@ Destroy
 (
 )
 ;
+}
 }
 MediaStreamWindowCapturer
 :
