@@ -9438,14 +9438,11 @@ aRv
 return
 ;
 }
-else
-{
 ClearFiles
 (
 true
 )
 ;
-}
 }
 else
 {
