@@ -405,6 +405,14 @@ mWeakAsyncInputStream
 (
 nullptr
 )
+mWeakInputStreamLength
+(
+nullptr
+)
+mWeakAsyncInputStreamLength
+(
+nullptr
+)
 mStart
 (
 0
@@ -447,8 +455,9 @@ SlicedInputStream
 SlicedInputStream
 (
 )
-{
-}
+=
+default
+;
 void
 SlicedInputStream
 :
