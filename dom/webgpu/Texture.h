@@ -243,6 +243,11 @@ GPUTextureViewDescriptor
 aDesc
 )
 ;
+void
+Destroy
+(
+)
+;
 }
 ;
 }
