@@ -9547,6 +9547,13 @@ nsIWebNavigation
 .
 LOAD_FLAGS_NONE
 ;
+let
+hasValidUserGestureActivation
+=
+document
+.
+hasValidTransientUserGestureActivation
+;
 if
 (
 !
@@ -9730,6 +9737,7 @@ csp
 loadFlags
 referrerInfo
 postData
+hasValidUserGestureActivation
 }
 ;
 try
