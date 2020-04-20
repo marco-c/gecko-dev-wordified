@@ -1498,9 +1498,6 @@ mSyncRunFinished
 bool
 mSyncRunQuit
 ;
-bool
-mAllowCoalescingTouches
-;
 nsCOMPtr
 <
 nsIAndroidBrowserApp
