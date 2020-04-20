@@ -11770,7 +11770,7 @@ mBrowsingContext
 tmp
 -
 >
-TraverseHostObjectURIs
+TraverseObjectsInGlobal
 (
 cb
 )
@@ -11973,7 +11973,7 @@ nullptr
 tmp
 -
 >
-UnlinkHostObjectURIs
+UnlinkObjectsInGlobal
 (
 )
 ;

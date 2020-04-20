@@ -156,9 +156,9 @@ DeprecationReportBody
 :
 DeprecationReportBody
 (
-nsPIDOMWindowInner
+nsIGlobalObject
 *
-aWindow
+aGlobal
 const
 nsAString
 &
@@ -196,7 +196,7 @@ aColumnNumber
 :
 ReportBody
 (
-aWindow
+aGlobal
 )
 mId
 (
@@ -225,7 +225,7 @@ aColumnNumber
 {
 MOZ_ASSERT
 (
-aWindow
+aGlobal
 )
 ;
 }
