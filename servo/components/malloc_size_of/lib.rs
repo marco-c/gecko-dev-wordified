@@ -5805,14 +5805,12 @@ list
 )
 =
 >
-{
 list
 .
 size_of
 (
 ops
 )
-}
 Component
 :
 :
