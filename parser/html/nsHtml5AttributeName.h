@@ -2532,6 +2532,11 @@ ATTR_STANDBY
 static
 nsHtml5AttributeName
 *
+ATTR_TRANSFORM_ORIGIN
+;
+static
+nsHtml5AttributeName
+*
 ATTR_TRANSFORM
 ;
 static

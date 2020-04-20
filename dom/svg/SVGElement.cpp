@@ -6263,6 +6263,12 @@ text_rendering
 nsGkAtoms
 :
 :
+transform_origin
+}
+{
+nsGkAtoms
+:
+:
 visibility
 }
 {

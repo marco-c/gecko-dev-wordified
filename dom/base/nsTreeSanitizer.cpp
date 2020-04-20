@@ -3273,6 +3273,15 @@ transform
 nsGkAtoms
 :
 :
+transform_origin
+/
+/
+transform
+-
+origin
+nsGkAtoms
+:
+:
 type
 /
 /
