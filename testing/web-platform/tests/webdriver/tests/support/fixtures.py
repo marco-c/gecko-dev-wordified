@@ -5,11 +5,23 @@ json
 import
 os
 import
-urlparse
-import
 pytest
 import
 webdriver
+from
+six
+import
+string_types
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+urlunsplit
 from
 tests
 .
@@ -1131,8 +1143,6 @@ port
 )
         
 return
-urlparse
-.
 urlunsplit
 (
 (
@@ -1270,7 +1280,7 @@ assert
 isinstance
 (
 text
-basestring
+string_types
 )
 "
 text

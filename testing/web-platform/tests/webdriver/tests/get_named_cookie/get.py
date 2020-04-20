@@ -4,6 +4,11 @@ import
 datetime
 timedelta
 from
+six
+import
+integer_types
+text_type
+from
 tests
 .
 support
@@ -223,7 +228,7 @@ cookie
 name
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -242,7 +247,7 @@ cookie
 value
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -261,7 +266,7 @@ cookie
 path
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -280,7 +285,7 @@ cookie
 domain
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -514,7 +519,7 @@ cookie
 name
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -533,7 +538,7 @@ cookie
 value
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -552,10 +557,7 @@ cookie
 expiry
 "
 ]
-(
-int
-long
-)
+integer_types
 )
     
 assert
@@ -815,7 +817,7 @@ cookie
 name
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -834,7 +836,7 @@ cookie
 value
 "
 ]
-basestring
+text_type
 )
     
 assert
