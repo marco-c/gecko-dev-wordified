@@ -257,6 +257,31 @@ symbols_path
         
 )
         
+#
+Force
+Firefox
+to
+immediately
+exit
+for
+content
+crashes
+        
+self
+.
+runner
+.
+env
+[
+"
+MOZ_CRASHREPORTER_SHUTDOWN
+"
+]
+=
+"
+1
+"
+        
 if
 self
 .
