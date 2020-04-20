@@ -1516,7 +1516,7 @@ buf
 {
 nursery
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 buf
 )

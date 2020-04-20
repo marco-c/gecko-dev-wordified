@@ -24963,7 +24963,7 @@ nursery
 (
 )
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 src
 -
@@ -25215,7 +25215,7 @@ nursery
 (
 )
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 srcAllocatedHeader
 )
@@ -26177,7 +26177,7 @@ nursery
 (
 )
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 chars
 )
@@ -26375,7 +26375,7 @@ nursery
 (
 )
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 src
 -
