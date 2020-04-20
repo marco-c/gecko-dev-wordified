@@ -2990,8 +2990,9 @@ this
 .
 _sendTask
 .
-finally
+then
 (
+clear
 clear
 )
 ;
@@ -9448,8 +9449,9 @@ promise
 ;
 promise
 .
-finally
+then
 (
+clear
 clear
 )
 ;

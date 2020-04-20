@@ -454,8 +454,9 @@ then
 opus_disable
 )
 .
-finally
+then
 (
+unspported_ogg
 unspported_ogg
 )
 ;

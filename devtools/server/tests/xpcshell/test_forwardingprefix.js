@@ -691,16 +691,9 @@ name
 ;
 promise
 .
-catch
-(
-e
-=
->
-e
-)
-.
 then
 (
+callback
 callback
 )
 ;

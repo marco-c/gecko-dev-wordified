@@ -894,8 +894,9 @@ _deferred
 .
 promise
 .
-finally
+then
 (
+cleanup
 cleanup
 )
 ;

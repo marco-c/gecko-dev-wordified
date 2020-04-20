@@ -5414,8 +5414,9 @@ _cleanArchive
 (
 )
 .
-finally
+then
 (
+clear
 clear
 )
 ;
@@ -9739,8 +9740,9 @@ promise
 ;
 promise
 .
-finally
+then
 (
+clear
 clear
 )
 ;

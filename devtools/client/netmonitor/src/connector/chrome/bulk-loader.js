@@ -151,8 +151,7 @@ this
 const
 recursive
 =
-(
-)
+resolve
 =
 >
 {
@@ -190,8 +189,9 @@ next
 (
 )
 .
-finally
+then
 (
+recursive
 recursive
 )
 ;

@@ -11442,8 +11442,9 @@ selection
 nodeFront
 )
 .
-finally
+then
 (
+done
 done
 )
 ;
