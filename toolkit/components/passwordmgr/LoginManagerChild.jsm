@@ -5999,7 +5999,7 @@ or
 if
 more
 than
-3
+5
 are
 found
 then
@@ -6344,7 +6344,7 @@ pwFields
 .
 length
 >
-3
+5
 )
 {
 log
