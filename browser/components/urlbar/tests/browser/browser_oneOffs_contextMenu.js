@@ -113,6 +113,16 @@ pushPrefEnv
 set
 :
 [
+[
+"
+browser
+.
+urlbar
+.
+oneOffSearches
+"
+true
+]
 /
 /
 Avoid
