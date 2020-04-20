@@ -13619,9 +13619,11 @@ IsCollapsed
 )
 |
 |
-IsTextNode
-(
 startContainer
+-
+>
+IsText
+(
 )
 )
 {
@@ -14037,9 +14039,11 @@ Highlight
 button
 if
 (
-IsTextNode
-(
 contentToExamine
+-
+>
+IsText
+(
 )
 )
 {

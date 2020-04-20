@@ -10068,9 +10068,14 @@ GetCurrentNode
 ;
 if
 (
-IsTextNode
-(
 currentNode
+&
+&
+currentNode
+-
+>
+IsText
+(
 )
 &
 &

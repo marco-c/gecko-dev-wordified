@@ -4838,12 +4838,11 @@ it
 .
 if
 (
-EditorBase
-:
-:
-IsTextNode
-(
 containerContent
+-
+>
+IsText
+(
 )
 |
 |

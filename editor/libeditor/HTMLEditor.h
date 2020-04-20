@@ -29848,13 +29848,10 @@ aNode
 const
 {
 return
-EditorBase
-:
-:
-IsTextNode
-(
-&
 aNode
+.
+IsText
+(
 )
 &
 &
