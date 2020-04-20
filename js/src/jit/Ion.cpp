@@ -9675,6 +9675,12 @@ suppressGC
 cx
 )
 ;
+SpewBeginFunction
+(
+mirGen
+script
+)
+;
 WarpOracle
 oracle
 (
