@@ -553,7 +553,7 @@ info
 .
 addon
 .
-icon
+iconURL
 /
 /
 Reference
