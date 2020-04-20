@@ -182,6 +182,14 @@ out
 bool
 &
 aReauthenticated
+/
+*
+out
+*
+/
+bool
+&
+aIsBlankPassword
 )
 ;
 #
