@@ -9571,13 +9571,13 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
 /
-preferences
+icons
 /
-general
+settings
 .
 svg
 "
@@ -9608,9 +9608,7 @@ skin
 /
 extensions
 /
-category
--
-extensions
+extension
 .
 svg
 "
