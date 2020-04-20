@@ -306,6 +306,14 @@ mWeakAsyncInputStream
 (
 nullptr
 )
+mWeakInputStreamLength
+(
+nullptr
+)
+mWeakAsyncInputStreamLength
+(
+nullptr
+)
 mCachedBuffer
 (
 aClonedFrom
