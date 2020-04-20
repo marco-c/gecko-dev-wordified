@@ -1691,7 +1691,9 @@ StyleSheetList
 mDOMStyleSheets
 ;
 /
-/
+*
+*
+*
 Style
 sheets
 that
@@ -1702,8 +1704,7 @@ assinging
 to
 the
 adoptedStyleSheets
-/
-/
+*
 WebIDL
 atribute
 .
@@ -1714,6 +1715,8 @@ be
 constructed
 stylesheets
 .
+*
+/
 nsTArray
 <
 RefPtr
