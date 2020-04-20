@@ -260,6 +260,14 @@ Accessible
 aAccessible
 )
 ;
+uint16_t
+LandmarkMatch
+(
+Accessible
+*
+aAccessible
+)
+;
 int32_t
 mGranularity
 ;
