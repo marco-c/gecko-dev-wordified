@@ -167,6 +167,11 @@ bundle
 .
 js
 "
+library
+:
+"
+NewtabRenderUtils
+"
 }
 /
 /

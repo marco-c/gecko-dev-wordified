@@ -971,6 +971,7 @@ function
 initStore
 (
 reducers
+initialState
 )
 {
 const
@@ -985,6 +986,7 @@ combineReducers
 reducers
 )
 )
+initialState
 global
 .
 RPMAddMessageListener
