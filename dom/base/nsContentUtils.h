@@ -696,10 +696,6 @@ PresShell
 class
 TextEditor
 ;
-enum
-class
-StorageAccess
-;
 struct
 InputEventOptions
 ;
