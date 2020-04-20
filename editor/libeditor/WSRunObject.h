@@ -2983,6 +2983,14 @@ mEditingHost
 }
 protected
 :
+using
+EditorType
+=
+EditorBase
+:
+:
+EditorType
+;
 /
 /
 WSFragment
