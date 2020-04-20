@@ -1283,14 +1283,11 @@ cx
 frontend
 :
 :
-TokenStream
+DummyTokenStream
 dummyTokenStream
 (
 cx
 options
-nullptr
-0
-nullptr
 )
 ;
 #
