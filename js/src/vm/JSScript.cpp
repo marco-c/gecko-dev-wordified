@@ -26664,14 +26664,6 @@ clearFlag
 ImmutableFlags
 :
 :
-FunctionHasExtraBodyVarScope
-)
-;
-clearFlag
-(
-ImmutableFlags
-:
-:
 NeedsFunctionEnvironmentObjects
 )
 ;

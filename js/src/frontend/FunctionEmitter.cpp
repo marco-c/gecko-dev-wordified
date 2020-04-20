@@ -858,7 +858,7 @@ asFunctionBox
 )
 -
 >
-hasExtraBodyVarScope
+functionHasExtraBodyVarScope
 (
 )
 )
@@ -2927,7 +2927,7 @@ if
 funbox_
 -
 >
-hasExtraBodyVarScope
+functionHasExtraBodyVarScope
 (
 )
 )

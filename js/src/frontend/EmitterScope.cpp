@@ -4207,7 +4207,7 @@ if
 funbox
 -
 >
-hasExtraBodyVarScope
+functionHasExtraBodyVarScope
 (
 )
 )
