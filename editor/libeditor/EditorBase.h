@@ -12500,16 +12500,6 @@ nsITransaction
 aTxn
 )
 ;
-virtual
-bool
-IsBlockNode
-(
-nsINode
-*
-aNode
-)
-const
-;
 /
 *
 *
