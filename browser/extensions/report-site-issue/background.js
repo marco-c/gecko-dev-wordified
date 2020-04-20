@@ -493,6 +493,13 @@ browser
 .
 browserInfo
 .
+getGPUInfo
+(
+)
+browser
+.
+browserInfo
+.
 getGraphicsPrefs
 (
 )
@@ -575,6 +582,7 @@ then
 [
 blockList
 buildID
+GPUs
 graphicsPrefs
 channel
 hasTouchScreen
@@ -647,6 +655,7 @@ buildID
 channel
 consoleLog
 frameworks
+GPUs
 hasTouchScreen
 "
 mixed
