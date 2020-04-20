@@ -209,6 +209,7 @@ bce
 {
 init
 (
+bce
 )
 ;
 }
@@ -218,11 +219,14 @@ BCEScriptStencil
 :
 init
 (
+BytecodeEmitter
+&
+bce
 )
 {
 natoms
 =
-bce_
+bce
 .
 perScriptData
 (
@@ -239,7 +243,7 @@ count
 ;
 ngcthings
 =
-bce_
+bce
 .
 perScriptData
 (
@@ -255,7 +259,7 @@ length
 ;
 immutableFlags
 =
-bce_
+bce
 .
 sc
 -
@@ -281,7 +285,7 @@ ImmutableFlags
 :
 :
 Strict
-bce_
+bce
 .
 sc
 -
@@ -301,6 +305,7 @@ ImmutableFlags
 NeedsFunctionEnvironmentObjects
 getNeedsFunctionEnvironmentObjects
 (
+bce
 )
 )
 ;
@@ -312,7 +317,7 @@ ImmutableFlags
 :
 :
 HasNonSyntacticScope
-bce_
+bce
 .
 outermostScope
 (
@@ -329,7 +334,7 @@ NonSyntactic
 ;
 gcThings
 =
-bce_
+bce
 .
 perScriptData
 (
@@ -362,7 +367,7 @@ FunctionBox
 *
 funbox
 =
-bce_
+bce
 .
 sc
 -
@@ -437,6 +442,9 @@ BCEScriptStencil
 :
 getNeedsFunctionEnvironmentObjects
 (
+BytecodeEmitter
+&
+bce
 )
 const
 {
@@ -455,7 +463,7 @@ js
 AbstractScopePtr
 bodyScope
 =
-bce_
+bce
 .
 bodyScope
 (
@@ -508,7 +516,7 @@ js
 AbstractScopePtr
 outerScope
 =
-bce_
+bce
 .
 outermostScope
 (
@@ -550,7 +558,7 @@ StrictNamedLambda
 {
 MOZ_ASSERT
 (
-bce_
+bce
 .
 sc
 -
