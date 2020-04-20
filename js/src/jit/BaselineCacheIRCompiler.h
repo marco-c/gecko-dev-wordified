@@ -500,9 +500,6 @@ define
 DEFINE_OP
 (
 op
-.
-.
-.
 )
 MOZ_MUST_USE
 bool
@@ -513,7 +510,7 @@ op
 (
 )
 ;
-CACHE_IR_OPS
+CACHE_IR_UNSHARED_OPS
 (
 DEFINE_OP
 )
