@@ -2892,6 +2892,11 @@ clientInfo
 worker
 -
 >
+GlobalScope
+(
+)
+-
+>
 GetClientInfo
 (
 )
@@ -2957,6 +2962,11 @@ ref
 (
 )
 worker
+-
+>
+GlobalScope
+(
+)
 -
 >
 GetController
