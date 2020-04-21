@@ -11080,6 +11080,10 @@ major
 releases
 if
 (
+!
+gModernConfig
+&
+&
 json
 .
 appVersion
