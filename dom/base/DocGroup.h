@@ -1026,12 +1026,6 @@ nsISerialEventTarget
 >
 mEventTarget
 ;
-RefPtr
-<
-AbstractThread
->
-mAbstractThread
-;
 /
 /
 non
