@@ -3796,10 +3796,6 @@ const
 nsACString
 &
 aCookieString
-const
-nsACString
-&
-aServerTime
 nsIChannel
 *
 aChannel

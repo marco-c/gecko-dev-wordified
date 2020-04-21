@@ -641,7 +641,6 @@ foo
 =
 bar
 "
-null
 channel
 )
 ;
@@ -824,7 +823,6 @@ burger
 +
 suffix
 null
-null
 )
 ;
 Assert
@@ -868,7 +866,6 @@ dog
 "
 +
 suffix
-null
 channel
 )
 ;
