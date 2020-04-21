@@ -494,7 +494,7 @@ override
 ;
 NS_IMETHOD_
 (
-bool
+DecodeResult
 )
 RequestDecodeWithResult
 (

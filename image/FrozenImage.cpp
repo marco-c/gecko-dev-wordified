@@ -644,7 +644,10 @@ FRAME_FIRST
 )
 ;
 }
-bool
+imgIContainer
+:
+:
+DecodeResult
 FrozenImage
 :
 :
