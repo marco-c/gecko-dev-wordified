@@ -1066,6 +1066,12 @@ enableDepthBuffer
 *
 /
 true
+gl
+-
+>
+IsGLES
+(
+)
 )
 )
 {
