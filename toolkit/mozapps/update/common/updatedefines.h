@@ -439,6 +439,10 @@ NS_tstricmp
 wcsicmp
 #
 define
+NS_tstrncmp
+wcsncmp
+#
+define
 NS_tstrcpy
 wcscpy
 #
@@ -641,6 +645,10 @@ strcmp
 define
 NS_tstricmp
 strcasecmp
+#
+define
+NS_tstrncmp
+strncmp
 #
 define
 NS_tstrcpy
