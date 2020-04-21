@@ -12763,16 +12763,6 @@ GetMainThreadSerialEventTarget
 (
 )
 ;
-void
-DispatchAsMicroTask
-(
-already_AddRefed
-<
-nsIRunnable
->
-aRunnable
-)
-;
 /
 /
 Returns
