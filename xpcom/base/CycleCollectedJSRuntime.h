@@ -712,6 +712,14 @@ void
 InfallibleAllocPolicy
 >
 ;
+bool
+RemoveEntry
+(
+Entry
+*
+aEntry
+)
+;
 EntryVector
 mJSHolders
 ;
