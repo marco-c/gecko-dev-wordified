@@ -6292,9 +6292,7 @@ manifest
                 
 full_path
 =
-os
-.
-path
+mozpath
 .
 join
 (
@@ -6304,9 +6302,7 @@ path
                 
 src_path
 =
-os
-.
-path
+mozpath
 .
 relpath
 (
@@ -6374,9 +6370,7 @@ tests
 here
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
@@ -6434,9 +6428,7 @@ test_type
 dir_relpath
 "
 :
-os
-.
-path
+mozpath
 .
 dirname
 (
