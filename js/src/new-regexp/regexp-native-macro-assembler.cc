@@ -3419,7 +3419,7 @@ branchPtr
 Assembler
 :
 :
-GreaterThanOrEqual
+GreaterThan
 inputStart
 (
 )
