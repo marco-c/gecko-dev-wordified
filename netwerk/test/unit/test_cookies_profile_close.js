@@ -290,7 +290,6 @@ getCookieStringFromHttp
 (
 uri
 null
-null
 )
 "
 "

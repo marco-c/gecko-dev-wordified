@@ -3721,13 +3721,6 @@ nsIURI
 aHostURI
 *
 /
-nsIURI
-*
-/
-*
-aFirstURI
-*
-/
 nsIChannel
 *
 /
