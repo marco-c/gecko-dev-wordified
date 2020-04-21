@@ -329,6 +329,16 @@ Delete
 =
 0
 ;
+virtual
+bool
+SupportsRedirectToRealChannel
+(
+)
+{
+return
+true
+;
+}
 /
 /
 Initate

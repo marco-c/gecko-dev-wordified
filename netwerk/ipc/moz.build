@@ -99,6 +99,11 @@ ADocumentChannelBridge
 h
 '
 '
+BrowsingContextDocumentChannel
+.
+h
+'
+'
 ChannelEventQueue
 .
 h
@@ -193,6 +198,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+BrowsingContextDocumentChannel
+.
+cpp
+'
 '
 ChannelEventQueue
 .
