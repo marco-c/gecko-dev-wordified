@@ -225,6 +225,12 @@ aScriptObjectHolder
 nsScriptObjectTracer
 *
 aTracer
+JS
+:
+:
+Zone
+*
+aWrapperZone
 )
 {
 cyclecollector
@@ -234,6 +240,7 @@ HoldJSObjectsImpl
 (
 aScriptObjectHolder
 aTracer
+aWrapperZone
 )
 ;
 if

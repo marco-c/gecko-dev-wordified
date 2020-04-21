@@ -1667,6 +1667,12 @@ aHolder
 nsScriptObjectTracer
 *
 aTracer
+JS
+:
+:
+Zone
+*
+aZone
 )
 ;
 void
