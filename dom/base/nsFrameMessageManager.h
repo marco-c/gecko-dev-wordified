@@ -507,6 +507,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -544,6 +547,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 {
 return
@@ -1035,6 +1041,9 @@ JSObject
 *
 >
 aObjects
+nsIPrincipal
+*
+aPrincipal
 JS
 :
 :
@@ -1060,6 +1069,7 @@ aCx
 aMessageName
 aObj
 aObjects
+aPrincipal
 aTransfers
 aError
 )
@@ -1133,6 +1143,9 @@ JSObject
 *
 >
 aObjects
+nsIPrincipal
+*
+aPrincipal
 nsTArray
 <
 JS
@@ -1156,6 +1169,7 @@ aCx
 aMessageName
 aObj
 aObjects
+aPrincipal
 true
 aResult
 aError
@@ -1192,6 +1206,9 @@ JSObject
 *
 >
 aObjects
+nsIPrincipal
+*
+aPrincipal
 nsTArray
 <
 JS
@@ -1215,6 +1232,7 @@ aCx
 aMessageName
 aObj
 aObjects
+aPrincipal
 false
 aResult
 aError
@@ -1307,6 +1325,9 @@ jsipc
 CpowHolder
 *
 aCpows
+nsIPrincipal
+*
+aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -1330,6 +1351,7 @@ aMessage
 aIsSync
 aCloneData
 aCpows
+aPrincipal
 aRetVal
 aError
 )
@@ -1407,6 +1429,9 @@ JSObject
 *
 >
 aCpows
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 bool
@@ -1626,6 +1651,9 @@ JSObject
 *
 >
 aObjects
+nsIPrincipal
+*
+aPrincipal
 JS
 :
 :
@@ -1675,6 +1703,9 @@ JSObject
 *
 >
 aObjects
+nsIPrincipal
+*
+aPrincipal
 bool
 aIsSync
 nsTArray
@@ -1723,6 +1754,9 @@ jsipc
 CpowHolder
 *
 aCpows
+nsIPrincipal
+*
+aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -2196,6 +2230,9 @@ aMessage
 StructuredCloneData
 &
 aData
+nsIPrincipal
+*
+aPrincipal
 )
 ;
 void
@@ -2236,6 +2273,12 @@ JSObject
 *
 >
 mCpows
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipal
 ;
 #
 ifdef
@@ -2410,6 +2453,12 @@ void
 Unlink
 (
 )
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mPrincipal
 ;
 AutoTArray
 <
