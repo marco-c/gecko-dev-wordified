@@ -121,6 +121,8 @@ browserLoaded
 tab
 .
 linkedBrowser
+false
+uri
 )
 ;
 await
