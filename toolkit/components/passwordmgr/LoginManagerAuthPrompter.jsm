@@ -3926,9 +3926,9 @@ proxy
 &
 &
 !
-this
+PrivateBrowsingUtils
 .
-_inPrivateBrowsing
+permanentPrivateBrowsing
 )
 {
 this
