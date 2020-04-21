@@ -148,6 +148,15 @@ include
 "
 mozilla
 /
+AbstractThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PerformanceUtils
 .
 h
