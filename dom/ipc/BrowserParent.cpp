@@ -12455,9 +12455,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -12525,7 +12522,6 @@ true
 data
 &
 cpows
-aPrincipal
 aRetVal
 )
 )
@@ -12570,9 +12566,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -12640,7 +12633,6 @@ true
 data
 &
 cpows
-aPrincipal
 aRetVal
 )
 )
@@ -12681,9 +12673,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 const
 ClonedMessageData
 &
@@ -12749,7 +12738,6 @@ false
 data
 &
 cpows
-aPrincipal
 nullptr
 )
 )
@@ -19962,9 +19950,6 @@ aData
 CpowHolder
 *
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -20050,7 +20035,6 @@ aMessage
 aSync
 aData
 aCpows
-aPrincipal
 aRetVal
 IgnoreErrors
 (

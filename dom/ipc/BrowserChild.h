@@ -1130,16 +1130,6 @@ aGivenProto
 )
 ;
 }
-nsIPrincipal
-*
-GetPrincipal
-(
-)
-{
-return
-mPrincipal
-;
-}
 /
 /
 Get
@@ -1246,9 +1236,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -1283,9 +1270,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 override
 ;
@@ -2300,9 +2284,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 const
 ClonedMessageData
 &

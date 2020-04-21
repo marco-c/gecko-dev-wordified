@@ -5266,8 +5266,6 @@ CpowEntry
 [
 ]
 aCpows
-Principal
-aPrincipal
 )
 returns
 (
@@ -5292,8 +5290,6 @@ CpowEntry
 [
 ]
 aCpows
-Principal
-aPrincipal
 )
 returns
 (
@@ -9478,8 +9474,6 @@ CpowEntry
 [
 ]
 aCpows
-Principal
-aPrincipal
 ClonedMessageData
 aData
 )

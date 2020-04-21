@@ -1157,7 +1157,6 @@ return
 let
 {
 name
-principal
 target
 data
 }
@@ -1243,6 +1242,8 @@ this
 _handleRequest
 (
 name
+data
+.
 principal
 data
 )
@@ -2028,9 +2029,8 @@ appServerKey
 :
 key
 requestID
-}
-null
 principal
+}
 )
 ;
 }
@@ -2065,9 +2065,8 @@ Unregister
 {
 scope
 requestID
-}
-null
 principal
+}
 )
 ;
 }
@@ -2102,9 +2101,8 @@ Registration
 {
 scope
 requestID
-}
-null
 principal
+}
 )
 ;
 }
