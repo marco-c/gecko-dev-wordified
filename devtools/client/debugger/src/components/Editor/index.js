@@ -2278,6 +2278,9 @@ location
 =
 {
 line
+column
+:
+undefined
 sourceId
 }
 ;
@@ -2572,16 +2575,7 @@ return
 continueToHere
 (
 cx
-{
-line
-:
 sourceLine
-sourceId
-:
-selectedSource
-.
-id
-}
 )
 ;
 }
