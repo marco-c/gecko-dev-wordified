@@ -4109,7 +4109,7 @@ replay
 ]
 LoadCapture
 (
-PathBuf
+CaptureConfig
 Vec
 <
 PlainExternalImage
