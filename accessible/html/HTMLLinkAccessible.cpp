@@ -348,10 +348,6 @@ aContent
 aDoc
 )
 {
-mType
-=
-eHTMLLinkType
-;
 }
 /
 /
@@ -1099,7 +1095,8 @@ nullptr
 /
 /
 /
-HTMLLinkAccessible
+Protected
+members
 bool
 HTMLLinkAccessible
 :
