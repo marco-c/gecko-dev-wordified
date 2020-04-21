@@ -3371,8 +3371,14 @@ container
 s
 *
 ReflowOutput
+&
+nsReflowStatus
 output
-parameter
+parameters
+in
+Reflow
+(
+)
 .
 *
 *
@@ -3630,7 +3636,7 @@ itself
 *
 /
 void
-ComputeFinalSize
+PopulateReflowOutput
 (
 ReflowOutput
 &
