@@ -1231,12 +1231,6 @@ macosx1014
 '
 :
 '
-releng
--
-hardware
-/
-gecko
--
 t
 -
 osx
@@ -1253,12 +1247,6 @@ power
 '
 :
 '
-releng
--
-hardware
-/
-gecko
--
 t
 -
 osx
