@@ -170,9 +170,6 @@ dom
 CanonicalBrowsingContext
 *
 aContext
-nsILoadContext
-*
-aLoadContext
 )
 ;
 bool

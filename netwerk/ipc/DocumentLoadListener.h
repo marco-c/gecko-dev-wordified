@@ -658,9 +658,6 @@ dom
 CanonicalBrowsingContext
 *
 aBrowsingContext
-nsILoadContext
-*
-aLoadContext
 ADocumentChannelBridge
 *
 aBridge
@@ -1918,12 +1915,6 @@ RefPtr
 ADocumentChannelBridge
 >
 mDocumentChannelBridge
-;
-nsCOMPtr
-<
-nsILoadContext
->
-mLoadContext
 ;
 /
 /
