@@ -415,7 +415,6 @@ IsOnCurrentThread
 )
 ;
 }
-virtual
 nsresult
 Dispatch
 (
@@ -534,7 +533,6 @@ AbstractThread
 :
 Dispatch
 ;
-virtual
 bool
 IsCurrentThreadIn
 (
@@ -588,7 +586,6 @@ reset
 )
 ;
 }
-virtual
 TaskDispatcher
 &
 TailDispatcher
@@ -669,7 +666,6 @@ ref
 )
 ;
 }
-virtual
 bool
 MightHaveTailTasks
 (
@@ -684,7 +680,6 @@ isSome
 )
 ;
 }
-virtual
 nsIEventTarget
 *
 AsEventTarget
@@ -698,12 +693,7 @@ mTarget
 }
 private
 :
-nsCOMPtr
-<
-nsIThread
->
-mRunningThread
-;
+const
 RefPtr
 <
 nsIEventTarget
