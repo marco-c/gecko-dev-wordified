@@ -1040,16 +1040,6 @@ FunctionAsyncKind
 AsyncFunction
 )
 ;
-immutableFlags_
-.
-setFlag
-(
-ImmutableFlags
-:
-:
-IsFunction
-)
-;
 }
 bool
 FunctionBox
