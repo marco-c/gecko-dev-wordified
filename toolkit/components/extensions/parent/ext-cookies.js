@@ -1820,7 +1820,7 @@ on
 CookieService
 :
 :
-GetCookieStringInternal
+GetCookieStringFromHttp
 function
 matches
 (
