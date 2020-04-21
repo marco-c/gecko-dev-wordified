@@ -3939,15 +3939,7 @@ CubebLogCallback
 #
 ifndef
 MOZ_WIDGET_ANDROID
-AbstractThread
-:
-:
-MainThread
-(
-)
--
->
-Dispatch
+NS_DispatchToMainThread
 (
 NS_NewRunnableFunction
 (
