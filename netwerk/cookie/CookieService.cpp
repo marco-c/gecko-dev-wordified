@@ -4770,6 +4770,9 @@ continue
 }
 if
 (
+aHttpBound
+&
+&
 aIsSameSiteForeign
 &
 &
