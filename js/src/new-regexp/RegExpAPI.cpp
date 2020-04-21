@@ -4116,6 +4116,13 @@ raw
 )
 )
 ;
+{
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 return
 (
 RegExpRunStatus
@@ -4127,6 +4134,7 @@ function
 data
 )
 ;
+}
 }
 RegExpRunStatus
 Interpret
