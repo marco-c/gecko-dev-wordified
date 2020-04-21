@@ -711,11 +711,6 @@ forceStrict
 =
 false
 ;
-bool
-strict
-=
-false
-;
 explicit
 LazyScriptCreationData
 (
@@ -752,8 +747,6 @@ FunctionIndex
 innerIndexes
 bool
 isForceStrict
-bool
-isStrict
 )
 {
 /
@@ -820,10 +813,6 @@ false
 forceStrict
 =
 isForceStrict
-;
-strict
-=
-isStrict
 ;
 innerFunctionIndexes
 =
