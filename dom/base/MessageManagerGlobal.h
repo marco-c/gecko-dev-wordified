@@ -369,9 +369,6 @@ JSObject
 *
 >
 aObjects
-nsIPrincipal
-*
-aPrincipal
 JS
 :
 :
@@ -413,7 +410,6 @@ aCx
 aMessageName
 aObj
 aObjects
-aPrincipal
 aTransfers
 aError
 )
@@ -533,9 +529,6 @@ JSObject
 *
 >
 aObjects
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 JS
@@ -575,7 +568,6 @@ aCx
 aMessageName
 aObj
 aObjects
-aPrincipal
 aResult
 aError
 )
@@ -611,9 +603,6 @@ JSObject
 *
 >
 aObjects
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 JS
@@ -653,7 +642,6 @@ aCx
 aMessageName
 aObj
 aObjects
-aPrincipal
 aResult
 aError
 )

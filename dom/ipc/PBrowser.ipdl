@@ -1561,8 +1561,6 @@ CpowEntry
 [
 ]
 aCpows
-nsIPrincipal
-aPrincipal
 ClonedMessageData
 aData
 )
@@ -2022,8 +2020,6 @@ CpowEntry
 [
 ]
 aCpows
-nsIPrincipal
-aPrincipal
 )
 returns
 (
@@ -2048,8 +2044,6 @@ CpowEntry
 [
 ]
 aCpows
-nsIPrincipal
-aPrincipal
 )
 returns
 (
