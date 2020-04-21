@@ -150,13 +150,6 @@ nsIDOMEventListener
 .
 h
 "
-#
-include
-"
-nsIImageDocument
-.
-h
-"
 namespace
 mozilla
 {
@@ -169,8 +162,6 @@ final
 :
 public
 MediaDocument
-public
-nsIImageDocument
 public
 imgINotificationObserver
 public
@@ -271,7 +262,6 @@ false
 )
 override
 ;
-NS_DECL_NSIIMAGEDOCUMENT
 NS_DECL_IMGINOTIFICATIONOBSERVER
 /
 /
