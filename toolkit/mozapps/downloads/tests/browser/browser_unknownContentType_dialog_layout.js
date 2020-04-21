@@ -399,6 +399,12 @@ url
 test
 .
 url
+waitForLoad
+:
+false
+waitForStateStop
+:
+true
 }
 async
 function
