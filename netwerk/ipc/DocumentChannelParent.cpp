@@ -197,6 +197,9 @@ DocumentChannelParent
 CanonicalBrowsingContext
 *
 aContext
+nsILoadContext
+*
+aLoadContext
 )
 {
 LOG
@@ -251,6 +254,7 @@ new
 DocumentLoadListener
 (
 aContext
+aLoadContext
 this
 )
 ;
@@ -413,13 +417,10 @@ aArgs
 cacheKey
 (
 )
-Some
-(
 aArgs
 .
 channelId
 (
-)
 )
 aArgs
 .

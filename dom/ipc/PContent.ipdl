@@ -4811,15 +4811,6 @@ nsString
 aURI
 )
 ;
-async
-StopLoad
-(
-MaybeDiscardedBrowsingContext
-aContext
-uint32_t
-aStopFlags
-)
-;
 /
 /
 Tell
