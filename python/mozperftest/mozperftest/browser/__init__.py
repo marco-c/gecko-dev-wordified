@@ -61,6 +61,20 @@ browser
 browsertime
 import
 BrowsertimeRunner
+from
+mozperftest
+.
+browser
+.
+profile
+import
+Profile
+from
+mozperftest
+.
+layers
+import
+Layers
 def
 get_layers
 (
@@ -69,6 +83,7 @@ get_layers
     
 return
 (
+Profile
 BrowsertimeRunner
 )
 def
@@ -90,10 +105,13 @@ script
 :
         
 return
-BrowsertimeRunner
+Layers
 (
 env
 mach_cmd
+get_layers
+(
+)
 )
     
 raise

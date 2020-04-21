@@ -67,6 +67,14 @@ system
 proxy
 import
 ProxyRunner
+from
+mozperftest
+.
+system
+.
+android
+import
+AndroidDevice
 def
 get_layers
 (
@@ -76,6 +84,7 @@ get_layers
 return
 (
 ProxyRunner
+AndroidDevice
 )
 def
 pick_system
