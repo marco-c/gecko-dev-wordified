@@ -495,11 +495,7 @@ aCookieService
 const
 char
 *
-aSpec1
-const
-char
-*
-aSpec2
+aSpec
 const
 char
 *
@@ -510,29 +506,15 @@ nsCOMPtr
 <
 nsIURI
 >
-uri1
-uri2
+uri
 ;
 NS_NewURI
 (
 getter_AddRefs
 (
-uri1
+uri
 )
-aSpec1
-)
-;
-if
-(
-aSpec2
-)
-NS_NewURI
-(
-getter_AddRefs
-(
-uri2
-)
-aSpec2
+aSpec
 )
 ;
 nsresult
@@ -543,8 +525,7 @@ aCookieService
 >
 SetCookieStringFromHttp
 (
-uri1
-uri2
+uri
 nsDependentCString
 (
 aCookieString
@@ -598,19 +579,11 @@ aCookieService
 const
 char
 *
-aSpec1
-const
-char
-*
-aSpec2
+aSpec
 const
 char
 *
 aCookieString
-const
-char
-*
-aServerTime
 bool
 aAllowed
 )
@@ -619,29 +592,15 @@ nsCOMPtr
 <
 nsIURI
 >
-uri1
-uri2
+uri
 ;
 NS_NewURI
 (
 getter_AddRefs
 (
-uri1
+uri
 )
-aSpec1
-)
-;
-if
-(
-aSpec2
-)
-NS_NewURI
-(
-getter_AddRefs
-(
-uri2
-)
-aSpec2
+aSpec
 )
 ;
 /
@@ -653,7 +612,7 @@ dummy
 channel
 using
 the
-aSpec1
+aSpec
 to
 simulate
 same
@@ -687,12 +646,12 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-spec1Principal
+specPrincipal
 ;
 nsCString
 tmpString
 (
-aSpec1
+aSpec
 )
 ;
 ssm
@@ -703,7 +662,7 @@ CreateContentPrincipalFromOrigin
 tmpString
 getter_AddRefs
 (
-spec1Principal
+specPrincipal
 )
 )
 ;
@@ -719,8 +678,8 @@ getter_AddRefs
 (
 dummyChannel
 )
-uri1
-spec1Principal
+uri
+specPrincipal
 nsILoadInfo
 :
 :
@@ -787,8 +746,7 @@ aCookieService
 >
 SetCookieStringFromHttp
 (
-uri1
-uri2
+uri
 nsDependentCString
 (
 aCookieString
@@ -1659,7 +1617,6 @@ basic
 .
 com
 "
-nullptr
 "
 test
 =
@@ -1888,7 +1845,6 @@ basic
 .
 com
 "
-nullptr
 "
 test
 =
@@ -1974,7 +1930,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2134,7 +2089,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2197,7 +2151,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2329,7 +2282,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2393,7 +2345,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2454,7 +2405,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2512,7 +2462,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2571,7 +2520,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2631,7 +2579,6 @@ domain
 .
 com
 "
-nullptr
 "
 test
 =
@@ -2694,7 +2641,6 @@ path
 /
 file
 "
-nullptr
 R
 "
 (
@@ -2765,7 +2711,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -2854,7 +2799,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -3093,7 +3037,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -3160,7 +3103,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -3256,7 +3198,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -3371,7 +3312,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -3461,7 +3401,6 @@ path
 /
 file
 "
-nullptr
 "
 test
 =
@@ -3571,7 +3510,6 @@ path
 net
 /
 "
-nullptr
 "
 test
 =
@@ -3783,7 +3721,6 @@ net
 9012345678901234567890
 /
 "
-nullptr
 "
 test
 =
@@ -3890,7 +3827,6 @@ path
 net
 /
 "
-nullptr
 "
 test
 =
@@ -3963,7 +3899,6 @@ path
 net
 /
 "
-nullptr
 "
 test
 \
@@ -4028,7 +3963,6 @@ path
 net
 /
 "
-nullptr
 "
 test
 =
@@ -4087,7 +4021,6 @@ path
 net
 /
 "
-nullptr
 "
 test
 =
@@ -4183,7 +4116,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4240,7 +4172,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4296,7 +4227,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4355,7 +4285,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4418,7 +4347,6 @@ expireme
 org
 /
 "
-nullptr
 R
 "
 (
@@ -4485,7 +4413,6 @@ expireme
 org
 /
 "
-nullptr
 R
 "
 (
@@ -4553,7 +4480,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4614,7 +4540,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4671,7 +4596,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4732,7 +4656,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4795,7 +4718,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4822,7 +4744,6 @@ expireme
 org
 /
 "
-nullptr
 "
 newtest
 =
@@ -4901,7 +4822,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -4962,7 +4882,6 @@ expireme
 org
 /
 "
-nullptr
 "
 newtest
 =
@@ -5020,7 +4939,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -5090,7 +5008,6 @@ expireme
 org
 /
 "
-nullptr
 "
 test
 =
@@ -5197,7 +5114,6 @@ multiple
 cookies
 /
 "
-nullptr
 "
 test
 =
@@ -5392,7 +5308,6 @@ multiple
 cookies
 /
 "
-nullptr
 "
 test
 =
@@ -5460,7 +5375,6 @@ multiple
 cookies
 /
 "
-nullptr
 "
 \
 n
@@ -5525,7 +5439,6 @@ multiple
 cookies
 /
 "
-nullptr
 "
 newtest
 =
@@ -5599,7 +5512,6 @@ parser
 test
 /
 "
-nullptr
 "
 test
 =
@@ -5686,7 +5598,6 @@ parser
 test
 /
 "
-nullptr
 "
 test
 =
@@ -5749,7 +5660,6 @@ parser
 test
 /
 "
-nullptr
 "
 test
 =
@@ -5867,7 +5777,6 @@ parser
 test
 /
 "
-nullptr
 "
 test
 =
@@ -5980,7 +5889,6 @@ parser
 test
 /
 "
-nullptr
 "
 six
 "
@@ -6031,7 +5939,6 @@ parser
 test
 /
 "
-nullptr
 "
 seven
 "
@@ -6082,7 +5989,6 @@ parser
 test
 /
 "
-nullptr
 "
 =
 eight
@@ -6134,7 +6040,6 @@ parser
 test
 /
 "
-nullptr
 "
 test
 =
@@ -6234,7 +6139,6 @@ path
 tests
 /
 "
-nullptr
 "
 test1
 =
@@ -6266,7 +6170,6 @@ path
 tests
 /
 "
-nullptr
 "
 test2
 =
@@ -6347,7 +6250,6 @@ four
 five
 /
 "
-nullptr
 "
 test6
 =
@@ -6382,7 +6284,6 @@ five
 six
 /
 "
-nullptr
 "
 test7
 =
@@ -6408,7 +6309,6 @@ path
 tests
 /
 "
-nullptr
 "
 test8
 =
@@ -6595,7 +6495,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -6702,7 +6601,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -6839,7 +6737,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -6932,7 +6829,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -7005,7 +6901,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -7028,7 +6923,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -7108,7 +7002,6 @@ httponly
 test
 /
 "
-nullptr
 "
 test
 =
@@ -7209,7 +7102,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Secure
 -
@@ -7232,7 +7124,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Secure
 -
@@ -7257,7 +7148,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7280,7 +7170,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7347,7 +7236,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Secure
 -
@@ -7370,7 +7258,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7432,7 +7319,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Secure
 -
@@ -7457,7 +7343,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7592,7 +7477,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7625,7 +7509,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7659,7 +7542,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7694,7 +7576,6 @@ prefixed
 test
 /
 "
-nullptr
 "
 __Host
 -
@@ -7779,7 +7660,6 @@ some
 /
 path
 "
-nullptr
 "
 __Host
 -
@@ -7809,7 +7689,6 @@ some
 /
 path
 "
-nullptr
 "
 __Host
 -
@@ -7843,7 +7722,6 @@ some
 /
 path
 "
-nullptr
 "
 __Host
 -
@@ -7949,7 +7827,6 @@ security
 test
 /
 "
-nullptr
 "
 test
 =
@@ -8009,7 +7886,6 @@ test
 path
 /
 "
-nullptr
 "
 test
 =
@@ -8115,7 +7991,6 @@ test
 path
 /
 "
-nullptr
 "
 test
 =
@@ -8226,7 +8101,6 @@ path
 foo
 /
 "
-nullptr
 "
 test
 =
@@ -8319,7 +8193,6 @@ test
 bar
 /
 "
-nullptr
 "
 test
 =
@@ -8398,7 +8271,6 @@ security
 test
 /
 "
-nullptr
 "
 test_modify_cookie
 =
@@ -8470,7 +8342,6 @@ security
 test
 /
 "
-nullptr
 "
 test_modify_cookie
 =
@@ -8569,7 +8440,6 @@ security
 test
 /
 "
-nullptr
 "
 test
 =
@@ -8628,7 +8498,6 @@ security
 test
 /
 "
-nullptr
 "
 test
 =
@@ -9566,7 +9435,6 @@ ordering
 tests
 /
 "
-nullptr
 name
 .
 get
@@ -9735,7 +9603,6 @@ ordering
 tests
 /
 "
-nullptr
 name
 .
 get
@@ -9780,7 +9647,6 @@ ordering
 tests
 /
 "
-nullptr
 name
 .
 get
@@ -9884,13 +9750,11 @@ samesite
 .
 test
 "
-nullptr
 "
 unset
 =
 yes
 "
-nullptr
 false
 )
 ;
@@ -9906,7 +9770,6 @@ samesite
 .
 test
 "
-nullptr
 "
 unspecified
 =
@@ -9914,7 +9777,6 @@ yes
 ;
 samesite
 "
-nullptr
 false
 )
 ;
@@ -9930,7 +9792,6 @@ samesite
 .
 test
 "
-nullptr
 "
 empty
 =
@@ -9939,7 +9800,6 @@ yes
 samesite
 =
 "
-nullptr
 false
 )
 ;
@@ -9955,7 +9815,6 @@ samesite
 .
 test
 "
-nullptr
 "
 bogus
 =
@@ -9965,7 +9824,6 @@ samesite
 =
 bogus
 "
-nullptr
 false
 )
 ;
@@ -9981,7 +9839,6 @@ samesite
 .
 test
 "
-nullptr
 "
 strict
 =
@@ -9991,7 +9848,6 @@ samesite
 =
 strict
 "
-nullptr
 false
 )
 ;
@@ -10007,7 +9863,6 @@ samesite
 .
 test
 "
-nullptr
 "
 lax
 =
@@ -10017,7 +9872,6 @@ samesite
 =
 lax
 "
-nullptr
 false
 )
 ;
@@ -10082,13 +9936,11 @@ samesite
 .
 test
 "
-nullptr
 "
 unset
 =
 yes
 "
-nullptr
 true
 )
 ;
@@ -10113,7 +9965,6 @@ samesite
 .
 test
 "
-nullptr
 "
 unspecified
 =
@@ -10121,7 +9972,6 @@ yes
 ;
 samesite
 "
-nullptr
 true
 )
 ;
@@ -10147,7 +9997,6 @@ samesite
 .
 test
 "
-nullptr
 "
 empty
 =
@@ -10156,7 +10005,6 @@ yes
 samesite
 =
 "
-nullptr
 true
 )
 ;
@@ -10182,7 +10030,6 @@ samesite
 .
 test
 "
-nullptr
 "
 bogus
 =
@@ -10192,7 +10039,6 @@ samesite
 =
 bogus
 "
-nullptr
 true
 )
 ;
@@ -10213,7 +10059,6 @@ samesite
 .
 test
 "
-nullptr
 "
 strict
 =
@@ -10223,7 +10068,6 @@ samesite
 =
 strict
 "
-nullptr
 true
 )
 ;
@@ -10244,7 +10088,6 @@ samesite
 .
 test
 "
-nullptr
 "
 lax
 =
@@ -10254,7 +10097,6 @@ samesite
 =
 lax
 "
-nullptr
 true
 )
 ;
@@ -10576,7 +10418,6 @@ samesite
 .
 com
 "
-nullptr
 "
 test
 =
@@ -10632,7 +10473,6 @@ samesite
 .
 test
 "
-nullptr
 "
 test
 =
@@ -10803,7 +10643,6 @@ secureURIs
 [
 i
 ]
-nullptr
 "
 test
 =
@@ -10974,13 +10813,11 @@ samesite
 .
 test
 "
-nullptr
 "
 unset
 =
 yes
 "
-nullptr
 true
 )
 ;
@@ -11156,13 +10993,11 @@ samesite
 .
 test
 "
-nullptr
 "
 unset
 =
 yes
 "
-nullptr
 true
 )
 ;

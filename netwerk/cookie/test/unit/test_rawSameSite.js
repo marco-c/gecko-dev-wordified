@@ -661,7 +661,6 @@ cs
 setCookieStringFromHttp
 (
 uri
-null
 test
 .
 cookie

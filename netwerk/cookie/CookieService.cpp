@@ -3066,13 +3066,6 @@ SetCookieStringFromHttp
 nsIURI
 *
 aHostURI
-nsIURI
-*
-/
-*
-aFirstURI
-*
-/
 const
 nsACString
 &
