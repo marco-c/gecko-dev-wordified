@@ -54639,12 +54639,6 @@ safebrowsing
 /
 diagnostic
 ?
-client
-=
-%
-NAME
-%
-&
 site
 =
 "
@@ -54985,12 +54979,6 @@ safebrowsing
 /
 diagnostic
 ?
-client
-=
-%
-NAME
-%
-&
 site
 =
 "
