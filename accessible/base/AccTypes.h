@@ -212,6 +212,7 @@ types
 *
 /
 eApplicationType
+eHTMLLinkType
 eHTMLOptGroupType
 eImageMapType
 eMenuPopupType
