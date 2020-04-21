@@ -224,13 +224,6 @@ GetManagerThread
 (
 )
 ;
-static
-AbstractThread
-*
-GetManagerAbstractThread
-(
-)
-;
 /
 /
 Can
