@@ -719,6 +719,12 @@ prin
 )
 )
 ;
+ASSERT_EQ
+(
+rv
+NS_OK
+)
+;
 bool
 isPotentiallyTrustworthy
 =
