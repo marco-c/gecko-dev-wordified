@@ -291,11 +291,11 @@ for
 comparison
 later
 const
+{
 scrollTop
+}
 =
 requestsContainer
-.
-scrollTop
 ;
 await
 waitForNetworkEvents

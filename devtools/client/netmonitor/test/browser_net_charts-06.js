@@ -174,11 +174,11 @@ height
 )
 ;
 const
+{
 node
+}
 =
 pie
-.
-node
 ;
 const
 slices

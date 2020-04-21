@@ -408,15 +408,15 @@ stringStream
 ;
 }
 const
+{
 userContextId
+}
 =
 win
 .
 gBrowser
 .
 contentPrincipal
-.
-userContextId
 ;
 win
 .

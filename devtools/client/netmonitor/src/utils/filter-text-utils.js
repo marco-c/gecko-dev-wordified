@@ -1539,13 +1539,13 @@ length
 )
 {
 const
+{
 host
+}
 =
 item
 .
 urlDetails
-.
-host
 ;
 const
 i

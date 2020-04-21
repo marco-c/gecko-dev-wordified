@@ -315,11 +315,11 @@ accessible
 )
 ;
 const
+{
 node
+}
 =
 chart
-.
-node
 ;
 const
 rows

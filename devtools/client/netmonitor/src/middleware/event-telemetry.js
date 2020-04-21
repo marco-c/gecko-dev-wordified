@@ -235,11 +235,11 @@ getState
 )
 ;
 const
+{
 sessionId
+}
 =
 toolbox
-.
-sessionId
 ;
 const
 filterChangeActions

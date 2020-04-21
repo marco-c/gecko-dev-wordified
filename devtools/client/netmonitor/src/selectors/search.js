@@ -96,13 +96,13 @@ state
 )
 {
 const
+{
 results
+}
 =
 state
 .
 search
-.
-results
 ;
 return
 (

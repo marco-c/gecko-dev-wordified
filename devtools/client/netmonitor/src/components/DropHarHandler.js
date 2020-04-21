@@ -473,13 +473,13 @@ this
 )
 ;
 const
+{
 files
+}
 =
 event
 .
 dataTransfer
-.
-files
 ;
 if
 (

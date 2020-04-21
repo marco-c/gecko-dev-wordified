@@ -183,11 +183,11 @@ baz
 )
 ;
 const
+{
 node
+}
 =
 pie
-.
-node
 ;
 const
 slices

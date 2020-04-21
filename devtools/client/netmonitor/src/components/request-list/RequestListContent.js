@@ -1301,13 +1301,13 @@ entries
 )
 {
 const
+{
 id
+}
 =
 target
 .
 dataset
-.
-id
 ;
 if
 (

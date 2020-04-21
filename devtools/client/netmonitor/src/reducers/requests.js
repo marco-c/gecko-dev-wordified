@@ -886,11 +886,11 @@ lastEndedMs
 state
 ;
 const
+{
 id
+}
 =
 action
-.
-id
 ;
 const
 index
