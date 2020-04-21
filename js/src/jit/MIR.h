@@ -60718,6 +60718,16 @@ return
 class_
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 AliasSet
 getAliasSet
 (
