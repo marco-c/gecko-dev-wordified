@@ -116,6 +116,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+HTMLCanvasElement
+.
+h
+"
+#
+include
+"
 TextureView
 .
 h

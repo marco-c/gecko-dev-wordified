@@ -125,6 +125,9 @@ GPUTextureDescriptor
 struct
 GPUTextureViewDescriptor
 ;
+class
+HTMLCanvasElement
+;
 }
 /
 /
@@ -202,6 +205,15 @@ mParent
 const
 RawId
 mId
+;
+WeakPtr
+<
+dom
+:
+:
+HTMLCanvasElement
+>
+mTargetCanvasElement
 ;
 private
 :
