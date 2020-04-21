@@ -244,6 +244,11 @@ init
 BytecodeEmitter
 &
 bce
+UniquePtr
+<
+ImmutableScriptData
+>
+immutableData
 )
 ;
 public
@@ -257,7 +262,7 @@ UniquePtr
 <
 ImmutableScriptData
 >
-immutableScriptData
+immutableData
 )
 ;
 virtual
