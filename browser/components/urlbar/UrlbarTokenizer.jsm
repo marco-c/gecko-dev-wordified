@@ -1388,8 +1388,6 @@ uriFixup
 isDomainWhitelisted
 (
 hostPort
--
-1
 )
 )
 {
