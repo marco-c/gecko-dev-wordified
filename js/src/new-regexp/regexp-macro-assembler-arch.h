@@ -789,6 +789,12 @@ String
 source
 )
 ;
+virtual
+bool
+CanReadUnaligned
+(
+)
+;
 private
 :
 size_t
