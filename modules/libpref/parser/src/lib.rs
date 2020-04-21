@@ -1244,6 +1244,7 @@ derive
 Clone
 Copy
 Debug
+PartialEq
 )
 ]
 #
@@ -1325,14 +1326,17 @@ pub
 union
 PrefValue
 {
+pub
 string_val
 :
 *
 const
 c_char
+pub
 int_val
 :
 i32
+pub
 bool_val
 :
 bool
