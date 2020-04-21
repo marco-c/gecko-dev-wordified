@@ -1134,6 +1134,11 @@ Capture
 )
 ;
 void
+ToggleCaptureSequence
+(
+)
+;
+void
 SetTransactionLogging
 (
 bool
