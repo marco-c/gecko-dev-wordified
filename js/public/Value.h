@@ -2468,8 +2468,6 @@ d
 )
 ;
 }
-public
-:
 /
 *
 *
@@ -4733,6 +4731,7 @@ asBits_
 )
 ;
 }
+constexpr
 uint64_t
 asRawBits
 (
