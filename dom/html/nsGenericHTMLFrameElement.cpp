@@ -716,9 +716,6 @@ IsInComposedDoc
 |
 |
 mFrameLoader
-|
-|
-mFrameLoaderCreationDisallowed
 )
 {
 /

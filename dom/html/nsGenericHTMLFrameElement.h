@@ -320,10 +320,6 @@ mBrowserFrameListenersRegistered
 (
 false
 )
-mFrameLoaderCreationDisallowed
-(
-false
-)
 mReallyIsBrowser
 (
 false
@@ -750,9 +746,6 @@ mNetworkCreated
 ;
 bool
 mBrowserFrameListenersRegistered
-;
-bool
-mFrameLoaderCreationDisallowed
 ;
 bool
 mReallyIsBrowser
