@@ -43,7 +43,6 @@ Ci
 Cu
 Components
 ctypes
-privateNoteIntentionalCrash
 gBrowser
 add_task
 addEventListener

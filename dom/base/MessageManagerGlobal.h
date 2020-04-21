@@ -660,14 +660,6 @@ aStr
 )
 ;
 void
-PrivateNoteIntentionalCrash
-(
-ErrorResult
-&
-aError
-)
-;
-void
 Atob
 (
 const
