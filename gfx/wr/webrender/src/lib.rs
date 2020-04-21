@@ -1434,7 +1434,6 @@ renderer
 AsyncPropertySampler
 CpuProfile
 DebugFlags
-RendererKind
 GpuProfile
 GraphicsApi
 GraphicsApiInfo
