@@ -626,8 +626,9 @@ kQuote
 explicit
 LoggingString
 (
+const
 IDBTransaction
-*
+&
 aTransaction
 )
 :
@@ -636,11 +637,6 @@ nsAutoCString
 kOpenBracket
 )
 {
-MOZ_ASSERT
-(
-aTransaction
-)
-;
 NS_NAMED_LITERAL_CSTRING
 (
 kCommaSpace
@@ -657,8 +653,7 @@ nsString
 stores
 =
 aTransaction
--
->
+.
 ObjectStoreNamesInternal
 (
 )
@@ -736,8 +731,7 @@ kCommaSpace
 switch
 (
 aTransaction
--
->
+.
 GetMode
 (
 )
