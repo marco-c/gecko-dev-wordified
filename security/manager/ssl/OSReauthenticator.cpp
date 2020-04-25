@@ -1139,11 +1139,6 @@ outCredBuffer
 =
 nullptr
 ;
-BOOL
-save
-=
-false
-;
 /
 /
 Get
@@ -1197,8 +1192,7 @@ nullptr
 outCredBuffer
 &
 outCredSize
-&
-save
+nullptr
 CREDUIWIN_ENUMERATE_CURRENT_USER
 )
 ;
