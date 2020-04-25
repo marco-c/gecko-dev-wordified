@@ -114,6 +114,8 @@ import
 MachCommandBase
     
 MozbuildObject
+    
+BinaryNotFoundException
 )
 from
 mozbuild
@@ -3733,6 +3735,35 @@ tests
 *
 *
 params
+)
+        
+except
+BinaryNotFoundException
+as
+e
+:
+            
+logger
+.
+error
+(
+e
+)
+            
+logger
+.
+info
+(
+e
+.
+help
+(
+)
+)
+            
+exit
+(
+1
 )
         
 except
