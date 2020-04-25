@@ -33,7 +33,7 @@ idl_test
 '
 video
 -
-raf
+rvfc
 '
 ]
 [
