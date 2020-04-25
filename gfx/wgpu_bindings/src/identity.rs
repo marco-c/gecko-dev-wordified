@@ -57,7 +57,7 @@ MPL
 *
 /
 use
-core
+wgc
 :
 :
 id
@@ -130,7 +130,7 @@ fmt
 :
 Debug
 >
-core
+wgc
 :
 :
 hub
@@ -479,7 +479,7 @@ FactoryParam
 )
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -543,7 +543,7 @@ adapter
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -607,7 +607,7 @@ device
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -671,7 +671,7 @@ swap_chain
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -735,7 +735,7 @@ pipeline_layout
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -799,7 +799,7 @@ shader_module
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -863,7 +863,7 @@ bind_group_layout
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -927,7 +927,7 @@ bind_group
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -991,7 +991,7 @@ command_buffer
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1055,7 +1055,7 @@ render_pipeline
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1119,7 +1119,7 @@ compute_pipeline
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1183,7 +1183,7 @@ buffer
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1247,7 +1247,7 @@ texture
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1311,7 +1311,7 @@ texture_view
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1375,7 +1375,7 @@ sampler
 }
 }
 impl
-core
+wgc
 :
 :
 hub
@@ -1439,7 +1439,7 @@ surface
 }
 }
 impl
-core
+wgc
 :
 :
 hub

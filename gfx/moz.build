@@ -212,6 +212,9 @@ config
 '
 webrender_bindings
 '
+'
+wgpu_bindings
+'
 ]
 if
 CONFIG
