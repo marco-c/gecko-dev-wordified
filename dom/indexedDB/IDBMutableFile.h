@@ -472,7 +472,11 @@ Database
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 IDBFileHandle

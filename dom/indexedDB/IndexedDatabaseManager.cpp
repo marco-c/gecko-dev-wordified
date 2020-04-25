@@ -527,7 +527,11 @@ FileManagerInfo
 {
 public
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 SafeRefPtr
 <
 FileManager
