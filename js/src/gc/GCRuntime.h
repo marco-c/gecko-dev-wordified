@@ -1764,10 +1764,6 @@ maybeAllocTriggerZoneGC
 Zone
 *
 zone
-size_t
-nbytes
-=
-0
 )
 ;
 /
