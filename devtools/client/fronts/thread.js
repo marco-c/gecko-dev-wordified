@@ -588,6 +588,7 @@ async
 _doResume
 (
 resumeLimit
+frameActorID
 )
 {
 this
@@ -653,6 +654,7 @@ super
 resume
 (
 resumeLimit
+frameActorID
 )
 ;
 }
@@ -818,6 +820,7 @@ call
 /
 stepOver
 (
+frameActorID
 )
 {
 return
@@ -832,6 +835,7 @@ type
 next
 "
 }
+frameActorID
 )
 ;
 }
@@ -849,6 +853,7 @@ call
 /
 stepIn
 (
+frameActorID
 )
 {
 return
@@ -863,6 +868,7 @@ type
 step
 "
 }
+frameActorID
 )
 ;
 }
@@ -881,6 +887,7 @@ call
 /
 stepOut
 (
+frameActorID
 )
 {
 return
@@ -895,6 +902,7 @@ type
 finish
 "
 }
+frameActorID
 )
 ;
 }
