@@ -56,10 +56,10 @@ Pass
 ;
 pub
 use
-data
+pass
 :
 :
-ScopeDataMap
+ScopeDataMapAndFunctionMap
 ;
 /
 /
@@ -82,6 +82,8 @@ generate_scope_data
 <
 '
 alloc
+'
+a
 >
 (
 ast
@@ -103,7 +105,7 @@ alloc
 )
 -
 >
-ScopeDataMap
+ScopeDataMapAndFunctionMap
 {
 let
 mut
@@ -127,8 +129,6 @@ ast
 )
 ;
 scope_pass
-.
-context
 .
 into
 (

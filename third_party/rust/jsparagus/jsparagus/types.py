@@ -96,8 +96,24 @@ from
 __future__
 import
 annotations
-import
-collections
+#
+mypy
+:
+disallow
+-
+untyped
+-
+defs
+disallow
+-
+incomplete
+-
+defs
+disallow
+-
+untyped
+-
+calls
 from
 dataclasses
 import
@@ -251,6 +267,23 @@ __getnewargs__
 (
 self
 )
+-
+>
+typing
+.
+Tuple
+[
+str
+typing
+.
+Tuple
+[
+TypeParameter
+.
+.
+.
+]
+]
 :
         
 return
@@ -268,6 +301,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 if
@@ -319,6 +355,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 if
@@ -592,7 +631,12 @@ value
     
 name
 :
+typing
+.
+Optional
+[
 str
+]
     
 precedence
 :
@@ -610,14 +654,30 @@ TypeOrTypeVar
 def
 __init__
 (
+            
 self
+            
 name
+:
+typing
+.
+Optional
+[
+str
+]
 =
 None
+            
 precedence
+:
+int
 =
 0
+    
 )
+-
+>
+None
 :
         
 assert
@@ -633,17 +693,6 @@ name
 is
 not
 None
-)
-        
-assert
-name
-is
-None
-or
-isinstance
-(
-name
-str
 )
         
 self
@@ -669,6 +718,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -719,7 +771,12 @@ annotate
 (
 self
 line
+:
+str
 )
+-
+>
+None
 :
         
 message
@@ -756,8 +813,15 @@ clash
 (
 cls
 expected
+:
+TypeParameter
 actual
+:
+TypeParameter
 )
+-
+>
+JsparagusTypeError
 :
         
 return
@@ -1539,6 +1603,13 @@ else
 nt
 .
 name
+            
+assert
+isinstance
+(
+nt_name
+str
+)
             
 return
 TypeVar

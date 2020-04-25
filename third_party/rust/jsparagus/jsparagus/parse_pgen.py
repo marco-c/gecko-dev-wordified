@@ -550,8 +550,6 @@ IDENT
 {
 '
                   
-gen
-.
 Optional
 (
 '
@@ -595,8 +593,6 @@ prod
 '
 terms
 '
-gen
-.
 Optional
 (
 '
@@ -735,8 +731,6 @@ IDENT
 '
 (
 '
-gen
-.
 Optional
 (
 '
@@ -1386,8 +1380,6 @@ sym
 :
         
 return
-gen
-.
 Optional
 (
 sym
