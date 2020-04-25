@@ -303,16 +303,9 @@ path
 .
 realpath
 (
-os
-.
-path
-.
-abspath
-(
 '
 .
 '
-)
 )
 topsrcdir
 =
@@ -321,12 +314,6 @@ os
 path
 .
 realpath
-(
-os
-.
-path
-.
-abspath
 (
 os
 .
@@ -350,7 +337,6 @@ __file__
 .
 .
 '
-)
 )
 )
 if

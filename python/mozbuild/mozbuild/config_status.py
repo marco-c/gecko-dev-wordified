@@ -908,7 +908,7 @@ os
 .
 path
 .
-abspath
+realpath
 (
 '
 .
