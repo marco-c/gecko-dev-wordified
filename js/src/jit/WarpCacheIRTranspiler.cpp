@@ -666,7 +666,7 @@ s
 \
 n
 "
-CacheIrOpNames
+CacheIROpNames
 [
 size_t
 (
