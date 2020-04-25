@@ -3888,12 +3888,7 @@ g_variant_new
 "
 o
 "
-"
-/
-valid
-/
-path
-"
+DBUS_MPRIS_TRACK_PATH
 )
 )
 ;
