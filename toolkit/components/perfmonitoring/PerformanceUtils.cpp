@@ -739,7 +739,7 @@ frame
 bc
 -
 >
-GetChildren
+Children
 (
 )
 )
