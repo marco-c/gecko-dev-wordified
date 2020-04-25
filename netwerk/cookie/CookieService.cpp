@@ -3026,6 +3026,11 @@ nsIChannel
 aChannel
 )
 {
+NS_ENSURE_ARG
+(
+aHostURI
+)
+;
 return
 SetCookieStringCommon
 (
@@ -3054,6 +3059,16 @@ nsIChannel
 aChannel
 )
 {
+NS_ENSURE_ARG
+(
+aHostURI
+)
+;
+NS_ENSURE_ARG
+(
+aChannel
+)
+;
 return
 SetCookieStringCommon
 (
@@ -3084,7 +3099,7 @@ bool
 aFromHttp
 )
 {
-NS_ENSURE_ARG
+MOZ_ASSERT
 (
 aHostURI
 )
