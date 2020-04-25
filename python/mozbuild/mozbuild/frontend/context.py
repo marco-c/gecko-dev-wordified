@@ -8819,12 +8819,6 @@ force
 bool
     
 '
-py2
-'
-:
-bool
-    
-'
 flags
 '
 :

@@ -12039,15 +12039,16 @@ p
 yield
 GeneratedFile
 (
+                    
 context
 script
 method
 outputs
 inputs
-                                    
 flags
 .
 flags
+                    
 localized
 =
 localized
@@ -12056,12 +12057,6 @@ force
 flags
 .
 force
-                                    
-py2
-=
-flags
-.
-py2
 )
     
 def

@@ -736,27 +736,6 @@ s
 dep_file
 )
             
-if
-obj
-.
-py2
-:
-                
-action
-=
-'
-py_action
-'
-            
-else
-:
-                
-action
-=
-'
-py3_action
-'
-            
 ret
 .
 append
@@ -791,9 +770,7 @@ REPORT_BUILD
 t
 (
 call
-{
-action
-}
+py3_action
 file_generate
 {
 locale
@@ -978,10 +955,6 @@ case
 force
 =
 force
-                
-action
-=
-action
                 
 locale
 =
