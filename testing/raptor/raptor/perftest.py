@@ -477,6 +477,10 @@ mozilla
 central
 "
         
+verbose
+=
+False
+        
 *
 *
 kwargs
@@ -490,6 +494,12 @@ _dirs_to_remove
 =
 [
 ]
+        
+self
+.
+verbose
+=
+verbose
         
 #
 Override
@@ -699,6 +709,12 @@ project
 "
 :
 project
+            
+"
+verbose
+"
+:
+verbose
         
 }
         

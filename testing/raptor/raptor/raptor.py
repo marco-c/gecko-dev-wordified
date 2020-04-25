@@ -835,6 +835,12 @@ project
 args
 .
 project
+            
+verbose
+=
+args
+.
+verbose
         
 )
     
