@@ -419,6 +419,13 @@ extension
 this
 )
 ;
+if
+(
+extension
+.
+persistentListeners
+)
+{
 EventManager
 .
 clearPrimedListeners
@@ -429,6 +436,7 @@ extension
 false
 )
 ;
+}
 extension
 .
 emit
