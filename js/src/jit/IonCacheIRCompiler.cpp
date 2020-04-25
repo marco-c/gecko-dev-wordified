@@ -4742,6 +4742,10 @@ IonCacheIRCompiler
 :
 emitGuardSpecificObject
 (
+ObjOperandId
+objId
+uint32_t
+expectedOffset
 )
 {
 JitSpew
@@ -4762,11 +4766,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 JSObject
@@ -4775,11 +4775,7 @@ expected
 =
 objectStubField
 (
-reader
-.
-stubOffset
-(
-)
+expectedOffset
 )
 ;
 FailurePath

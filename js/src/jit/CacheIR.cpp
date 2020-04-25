@@ -33675,11 +33675,6 @@ guardToObject
 calleeValId
 )
 ;
-FieldOffset
-calleeOffset
-=
-0
-;
 if
 (
 isSpecialized
@@ -33695,8 +33690,6 @@ stub
 '
 s
 callee
-calleeOffset
-=
 writer
 .
 guardSpecificFunction
@@ -33815,8 +33808,8 @@ writer
 .
 metaScriptedTemplateObject
 (
+calleeFunc
 templateObj
-calleeOffset
 )
 ;
 }
@@ -34692,11 +34685,6 @@ guardToObject
 calleeValId
 )
 ;
-FieldOffset
-calleeOffset
-=
-0
-;
 if
 (
 isSpecialized
@@ -34712,8 +34700,6 @@ stub
 '
 s
 callee
-calleeOffset
-=
 writer
 .
 guardSpecificFunction
@@ -34842,8 +34828,8 @@ writer
 .
 metaNativeTemplateObject
 (
+calleeFunc
 templateObj
-calleeOffset
 )
 ;
 }

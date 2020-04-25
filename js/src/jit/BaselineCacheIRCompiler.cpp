@@ -1996,6 +1996,10 @@ BaselineCacheIRCompiler
 :
 emitGuardSpecificObject
 (
+ObjOperandId
+objId
+uint32_t
+expectedOffset
 )
 {
 JitSpew
@@ -2016,11 +2020,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 FailurePath
@@ -2046,11 +2046,7 @@ addr
 (
 stubAddress
 (
-reader
-.
-stubOffset
-(
-)
+expectedOffset
 )
 )
 ;
