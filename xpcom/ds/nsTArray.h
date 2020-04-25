@@ -10819,6 +10819,11 @@ ActualAlloc
 =
 Alloc
 >
+[
+[
+nodiscard
+]
+]
 typename
 ActualAlloc
 :
