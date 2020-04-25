@@ -1573,7 +1573,10 @@ MAX_VERTEX_TEXTURE_WIDTH
 :
 usize
 =
-1024
+webrender_build
+:
+:
+MAX_VERTEX_TEXTURE_WIDTH
 ;
 /
 /
@@ -8551,12 +8554,9 @@ create_program_linked
 "
 gpu_cache_update
 "
-String
-:
-:
-new
-(
-)
+&
+[
+]
 &
 desc
 :
