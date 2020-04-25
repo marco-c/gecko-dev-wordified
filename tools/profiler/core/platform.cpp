@@ -2887,7 +2887,7 @@ be
 used
 there
 .
-mCoreBlocksRingBuffer
+mCoreBuffer
 (
 BlocksRingBuffer
 :
@@ -3237,7 +3237,7 @@ PS_GET_LOCKLESS
 (
 BlocksRingBuffer
 &
-CoreBlocksRingBuffer
+CoreBuffer
 )
 PS_GET
 (
@@ -3940,16 +3940,15 @@ safe
 blocks
 -
 oriented
-ring
 buffer
 into
 which
 all
 profiling
 data
-/
-/
 is
+/
+/
 recorded
 .
 /
@@ -3971,18 +3970,18 @@ ActivePS
 does
 not
 exist
-mCoreBlocksRingBuffer
+mCoreBuffer
 is
 empty
 and
 rejects
 all
-/
-/
 reads
 &
 writes
 ;
+/
+/
 see
 ActivePS
 for
@@ -4045,7 +4044,7 @@ in
 memory
 .
 BlocksRingBuffer
-mCoreBlocksRingBuffer
+mCoreBuffer
 ;
 /
 /
@@ -4506,7 +4505,7 @@ mProfileBuffer
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 PowerOfTwo32
@@ -7447,7 +7446,7 @@ mGeckoIndexWhenBaseProfileAdded
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -7581,7 +7580,7 @@ mGeckoIndexWhenBaseProfileAdded
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -21429,7 +21428,7 @@ the
 CorePS
 :
 :
-BlocksRingBuffer
+CoreBuffer
 lock
 while
 /
@@ -21451,13 +21450,13 @@ the
 CorePS
 :
 :
-BlocksRingBuffer
+CoreBuffer
 as
 well
 .
 )
 BlocksRingBuffer
-localBlocksRingBuffer
+localBuffer
 (
 BlocksRingBuffer
 :
@@ -21471,7 +21470,7 @@ WithoutMutex
 ProfileBuffer
 localProfileBuffer
 (
-localBlocksRingBuffer
+localBuffer
 MakePowerOfTwo32
 <
 65536
@@ -21497,7 +21496,7 @@ does
 auto
 previousState
 =
-localBlocksRingBuffer
+localBuffer
 .
 GetState
 (
@@ -24893,7 +24892,7 @@ isSome
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -24981,7 +24980,7 @@ one
 auto
 state
 =
-localBlocksRingBuffer
+localBuffer
 .
 GetState
 (
@@ -25059,7 +25058,7 @@ one
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -25105,7 +25104,7 @@ ConvertToProfileBufferIndex
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -25176,7 +25175,7 @@ one
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -25204,7 +25203,7 @@ else
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -25217,7 +25216,7 @@ Kind
 :
 :
 CompactStack
-localBlocksRingBuffer
+localBuffer
 )
 ;
 }
@@ -25230,7 +25229,7 @@ the
 next
 run
 .
-localBlocksRingBuffer
+localBuffer
 .
 Clear
 (
@@ -25238,7 +25237,7 @@ Clear
 ;
 previousState
 =
-localBlocksRingBuffer
+localBuffer
 .
 GetState
 (
@@ -35361,7 +35360,7 @@ ProcessStartTime
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -36067,7 +36066,7 @@ ProcessStartTime
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
