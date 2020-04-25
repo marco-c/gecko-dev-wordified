@@ -203,6 +203,12 @@ as
 SelectorLocalName
 ;
 use
+fallible
+:
+:
+FallibleHashSet
+;
+use
 fxhash
 :
 :
