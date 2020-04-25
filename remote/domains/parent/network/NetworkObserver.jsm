@@ -1625,6 +1625,14 @@ requestId
 (
 httpChannel
 )
+errorCode
+:
+getNetworkErrorStatusText
+(
+httpChannel
+.
+status
+)
 }
 )
 ;
