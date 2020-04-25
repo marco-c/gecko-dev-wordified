@@ -603,6 +603,20 @@ writeStringField
 )
     
 '
+AtomField
+'
+:
+(
+'
+JSAtom
+*
+'
+'
+writeStringField
+'
+)
+    
+'
 PropertyNameField
 '
 :
@@ -1374,6 +1388,26 @@ stubOffset
     
 '
 StringField
+'
+:
+(
+'
+uint32_t
+'
+'
+Offset
+'
+'
+reader
+.
+stubOffset
+(
+)
+'
+)
+    
+'
+AtomField
 '
 :
 (
@@ -2377,6 +2411,14 @@ Field
         
 '
 StringField
+'
+:
+'
+Field
+'
+        
+'
+AtomField
 '
 :
 '

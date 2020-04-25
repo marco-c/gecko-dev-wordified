@@ -4831,6 +4831,10 @@ IonCacheIRCompiler
 :
 emitGuardSpecificAtom
 (
+StringOperandId
+strId
+uint32_t
+expectedOffset
 )
 {
 JitSpew
@@ -4851,11 +4855,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-stringOperandId
-(
-)
+strId
 )
 ;
 AutoScratchRegister
@@ -4872,11 +4872,7 @@ atom
 &
 stringStubField
 (
-reader
-.
-stubOffset
-(
-)
+expectedOffset
 )
 -
 >
