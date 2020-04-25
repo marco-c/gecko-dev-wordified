@@ -257,6 +257,11 @@ XRInputSourceArray
 cpp
 '
 '
+XRInputSpace
+.
+cpp
+'
+'
 XRNativeOriginFixed
 .
 cpp

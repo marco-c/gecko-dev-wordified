@@ -1284,6 +1284,16 @@ must
 be
 -
 limited
+const
+bool
+emulatedPosition
+=
+aSpace
+.
+IsPositionEmulated
+(
+)
+;
 gfx
 :
 :
@@ -1351,7 +1361,7 @@ XRPose
 (
 mParent
 transform
-false
+emulatedPosition
 )
 ;
 return
