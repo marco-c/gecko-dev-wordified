@@ -1680,7 +1680,11 @@ mozilla
 Mutex
 mForcedValidEntriesLock
 ;
+Atomic
+<
 bool
+Relaxed
+>
 mShutdown
 ;
 /
