@@ -137,12 +137,6 @@ jittest
 '
 jsreftest
 '
-            
-'
-reftest
--
-qr
-'
         
 ]
     
@@ -250,6 +244,12 @@ reftest
 no
 -
 accel
+'
+            
+'
+reftest
+-
+qr
 '
         
 ]
