@@ -390,9 +390,12 @@ static
 void
 ReportUnblockingToConsole
 (
-nsPIDOMWindowInner
+dom
+:
+:
+BrowsingContext
 *
-aWindow
+aBrowsingContext
 const
 nsAString
 &
