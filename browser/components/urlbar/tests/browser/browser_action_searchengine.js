@@ -342,6 +342,9 @@ search
 suggestion
 :
 undefined
+isSearchHistory
+:
+false
 inPrivateWindow
 :
 undefined

@@ -1339,6 +1339,13 @@ result
 payload
 .
 suggestion
+isSearchHistory
+:
+result
+.
+payload
+.
+isSearchHistory
 inPrivateWindow
 :
 result

@@ -2076,6 +2076,9 @@ HIGHLIGHT
 .
 TYPED
 ]
+isSearchHistory
+:
+false
 icon
 :
 [

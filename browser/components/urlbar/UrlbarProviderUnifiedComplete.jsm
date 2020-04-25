@@ -1389,6 +1389,15 @@ HIGHLIGHT
 .
 TYPED
 ]
+isSearchHistory
+:
+!
+!
+action
+.
+params
+.
+isSearchHistory
 icon
 :
 [
