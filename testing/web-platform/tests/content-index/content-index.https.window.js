@@ -232,7 +232,7 @@ add
 createDescription
 (
 {
-launchUrl
+url
 :
 '
 https
@@ -261,7 +261,7 @@ add
 createDescription
 (
 {
-launchUrl
+url
 :
 '
 /
