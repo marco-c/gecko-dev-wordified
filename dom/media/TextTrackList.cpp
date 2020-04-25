@@ -585,8 +585,6 @@ aTextTrack
 return
 ;
 }
-if
-(
 mTextTracks
 .
 InsertElementSorted
@@ -594,8 +592,7 @@ InsertElementSorted
 aTextTrack
 aCompareTT
 )
-)
-{
+;
 aTextTrack
 -
 >
@@ -615,7 +612,6 @@ addtrack
 )
 )
 ;
-}
 }
 TextTrack
 *
