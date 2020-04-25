@@ -109,6 +109,9 @@ RustLibrary
 gkrust
 '
 gkrust_features
+is_gkrust
+=
+True
 )
 #
 Target
@@ -138,6 +141,9 @@ gkrust
 RUST_TESTS
 =
 [
+'
+glean
+'
 '
 selectors
 '
