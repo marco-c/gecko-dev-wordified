@@ -891,9 +891,9 @@ Type
 ;
 CanonicalBrowsingContext
 (
-WindowContext
+BrowsingContext
 *
-aParentWindow
+aParent
 BrowsingContextGroup
 *
 aGroup
