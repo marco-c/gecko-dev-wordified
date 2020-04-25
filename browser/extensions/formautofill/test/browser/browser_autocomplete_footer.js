@@ -142,6 +142,7 @@ waitForNewTab
 (
 gBrowser
 PRIVACY_PREF_URL
+true
 )
 ;
 for
@@ -345,6 +346,7 @@ waitForNewTab
 (
 gBrowser
 PRIVACY_PREF_URL
+true
 )
 ;
 /
