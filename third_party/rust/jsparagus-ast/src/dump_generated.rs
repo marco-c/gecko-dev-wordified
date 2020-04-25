@@ -4451,7 +4451,7 @@ depth
 Statement
 :
 :
-LabeledStatement
+LabelledStatement
 {
 label
 body
@@ -4467,7 +4467,7 @@ write
 out
 "
 (
-LabeledStatement
+LabelledStatement
 "
 )
 .

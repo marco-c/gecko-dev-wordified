@@ -171,7 +171,7 @@ new
 }
 pub
 fn
-insert
+push
 (
 &
 mut

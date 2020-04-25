@@ -1420,16 +1420,9 @@ new
 )
 }
 }
-#
-[
-allow
-(
-dead_code
-)
-]
 pub
 fn
-append
+push
 (
 &
 mut
