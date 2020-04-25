@@ -496,6 +496,7 @@ aItemArray
 AppendElement
 (
 aItem
+fallible
 )
 )
 {

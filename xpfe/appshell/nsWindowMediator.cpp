@@ -1113,7 +1113,7 @@ return
 NS_OK
 ;
 }
-int32_t
+void
 nsWindowMediator
 :
 :
@@ -1124,16 +1124,12 @@ nsAppShellWindowEnumerator
 inEnumerator
 )
 {
-return
 mEnumeratorList
 .
 AppendElement
 (
 inEnumerator
 )
-!
-=
-nullptr
 ;
 }
 int32_t

@@ -1552,9 +1552,6 @@ nsCString
 >
 nameValuePairs
 ;
-if
-(
-!
 ParseString
 (
 NS_ConvertUTF16toUTF8
@@ -1566,12 +1563,7 @@ aOptions
 '
 nameValuePairs
 )
-)
-{
-return
-NS_ERROR_INVALID_ARG
 ;
-}
 /
 /
 For
@@ -1626,9 +1618,6 @@ nsCString
 >
 nameValuePair
 ;
-if
-(
-!
 ParseString
 (
 nameValuePairs
@@ -1640,12 +1629,7 @@ i
 '
 nameValuePair
 )
-)
-{
-return
-NS_ERROR_INVALID_ARG
 ;
-}
 if
 (
 nameValuePair

@@ -167,7 +167,7 @@ into
 *
 /
 static
-bool
+void
 NormalizeAddr
 (
 const
@@ -185,9 +185,6 @@ nsCString
 >
 addr
 ;
-if
-(
-!
 ParseString
 (
 aAddr
@@ -196,12 +193,7 @@ aAddr
 '
 addr
 )
-)
-{
-return
-false
 ;
-}
 aNormalized
 =
 "
@@ -276,9 +268,6 @@ AppendLiteral
 ;
 }
 }
-return
-true
-;
 }
 static
 PRUint32
@@ -655,9 +644,6 @@ override
 aOverride
 )
 ;
-if
-(
-!
 NormalizeAddr
 (
 Substring
@@ -668,12 +654,7 @@ tokenEnd
 )
 override
 )
-)
-{
-return
-false
 ;
-}
 PRNetAddr
 prAddrHost
 ;

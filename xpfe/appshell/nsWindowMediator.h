@@ -238,7 +238,7 @@ outDOMWindow
 ;
 private
 :
-int32_t
+void
 AddEnumerator
 (
 nsAppShellWindowEnumerator
