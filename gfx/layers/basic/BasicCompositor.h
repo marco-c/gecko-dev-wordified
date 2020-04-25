@@ -949,17 +949,6 @@ override
 {
 }
 void
-SetScreenRenderOffset
-(
-const
-ScreenPoint
-&
-aOffset
-)
-override
-{
-}
-void
 MakeCurrent
 (
 MakeCurrentFlags
