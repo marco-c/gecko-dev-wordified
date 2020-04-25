@@ -118,9 +118,6 @@ true
 getContainerForCookieStoreId
 :
 true
-getDevToolsTargetForContext
-:
-true
 getInspectedWindowFront
 :
 true

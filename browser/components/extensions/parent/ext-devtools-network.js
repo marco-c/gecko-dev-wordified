@@ -182,9 +182,10 @@ url
 let
 targetPromise
 =
-getDevToolsTargetForContext
-(
 context
+.
+getCurrentDevToolsTarget
+(
 )
 ;
 targetPromise
