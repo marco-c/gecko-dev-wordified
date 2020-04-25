@@ -26899,6 +26899,14 @@ composite_state
 CompositeState
 )
 {
+profile_scope
+!
+(
+"
+UpdatePictures
+"
+)
+;
 profile_marker
 !
 (

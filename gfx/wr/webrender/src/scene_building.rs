@@ -2711,6 +2711,14 @@ SceneStats
 >
 BuiltScene
 {
+profile_scope
+!
+(
+"
+build_scene
+"
+)
+;
 /
 /
 We
