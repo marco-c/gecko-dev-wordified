@@ -50209,7 +50209,7 @@ ReflowInput
 aReflowInput
 )
 {
-NS_FRAME_TRACE_MSG
+NS_FRAME_TRACE
 (
 NS_FRAME_TRACE_CALLS
 (
