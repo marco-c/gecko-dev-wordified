@@ -1570,16 +1570,6 @@ ary
 IsEmpty
 (
 )
-|
-|
-ary
-.
-Elements
-(
-)
-=
-=
-nullptr
 )
 return
 false

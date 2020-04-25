@@ -4019,6 +4019,7 @@ Hdr
 (
 )
 const
+MOZ_NONNULL_RETURN
 {
 return
 mHdr
@@ -4030,6 +4031,7 @@ Header
 PtrToHdr
 (
 )
+MOZ_NONNULL_RETURN
 {
 return
 &
@@ -4042,6 +4044,7 @@ Header
 EmptyHdr
 (
 )
+MOZ_NONNULL_RETURN
 {
 return
 &
@@ -8405,6 +8408,7 @@ elem_type
 Elements
 (
 )
+MOZ_NONNULL_RETURN
 {
 return
 reinterpret_cast
@@ -8469,6 +8473,7 @@ Elements
 (
 )
 const
+MOZ_NONNULL_RETURN
 {
 return
 reinterpret_cast
@@ -20141,6 +20146,7 @@ class
 .
 Args
 >
+MOZ_NONNULL_RETURN
 typename
 base_type
 :
