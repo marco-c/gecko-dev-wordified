@@ -563,17 +563,6 @@ BrowsingContext
 aContext
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvAddBlockedNodeByClassifier
-(
-)
-;
 void
 ActorDestroy
 (
