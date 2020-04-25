@@ -1973,6 +1973,8 @@ emitEndBody
 /
 /
 Initialize
+&
+Allocate
 JSScript
 for
 this
