@@ -1394,7 +1394,7 @@ mInput
 .
 maxRows
 =
-100
+10
 ;
 }
 this
