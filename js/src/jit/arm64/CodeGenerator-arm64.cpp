@@ -16139,7 +16139,7 @@ const
 ARMRegister
 base
 =
-toXRegister
+toWRegister
 (
 ins
 -
@@ -16153,7 +16153,7 @@ const
 ARMRegister
 index
 =
-toXRegister
+toWRegister
 (
 ins
 -
@@ -16167,7 +16167,7 @@ const
 ARMRegister
 output
 =
-toXRegister
+toWRegister
 (
 ins
 -
