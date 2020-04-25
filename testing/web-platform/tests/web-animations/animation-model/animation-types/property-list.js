@@ -4,7 +4,7 @@ strict
 '
 ;
 const
-gCSSProperties
+gCSSProperties1
 =
 {
 '
@@ -6206,6 +6206,12 @@ options
 }
 ]
 }
+}
+;
+const
+gCSSProperties2
+=
+{
 '
 inline
 -
