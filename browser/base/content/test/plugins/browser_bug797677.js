@@ -226,10 +226,6 @@ found
 "
 )
 ;
-/
-/
-simple
-cpows
 await
 SpecialPowers
 .
