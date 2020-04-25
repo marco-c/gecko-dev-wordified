@@ -88,10 +88,9 @@ tasks
 import
 generate_tasks
 from
+taskgraph
 .
-.
-.
-tasks
+target_tasks
 import
 filter_tasks_by_blacklist
 here

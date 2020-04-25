@@ -114,7 +114,6 @@ tasks
 import
 generate_tasks
 filter_tasks_by_paths
-filter_tasks_by_blacklist
 from
 .
 .
@@ -132,6 +131,12 @@ manage_estimates
 import
 download_task_history_data
 make_trimmed_taskgraph_cache
+from
+taskgraph
+.
+target_tasks
+import
+filter_tasks_by_blacklist
 terminal
 =
 Terminal
