@@ -29579,7 +29579,6 @@ loadInstanceOfObjectResult
 (
 lhs
 protoId
-slot
 )
 ;
 writer
