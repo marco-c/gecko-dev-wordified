@@ -381,7 +381,7 @@ BUG_COMPONENT
 Testing
 '
 '
-Performance
+mozperftest
 '
 )
 SPHINX_PYTHON_PACKAGE_DIRS

@@ -736,6 +736,86 @@ name
 "
         
 }
+        
+"
+-
+-
+browsertime
+-
+clobber
+"
+:
+{
+            
+"
+action
+"
+:
+"
+store_true
+"
+            
+"
+default
+"
+:
+False
+            
+"
+help
+"
+:
+"
+Force
+-
+update
+the
+installation
+.
+"
+        
+}
+        
+"
+-
+-
+browsertime
+-
+install
+-
+url
+"
+:
+{
+            
+"
+type
+"
+:
+str
+            
+"
+default
+"
+:
+None
+            
+"
+help
+"
+:
+"
+Use
+this
+URL
+as
+the
+install
+url
+.
+"
+        
+}
     
 }
     
@@ -1722,13 +1802,6 @@ def
 setup
 (
 self
-should_clobber
-=
-False
-new_upstream_url
-=
-"
-"
 )
 :
         
@@ -1762,6 +1835,34 @@ self
 .
 setup
 (
+)
+        
+should_clobber
+=
+self
+.
+get_arg
+(
+"
+browsertime
+-
+clobber
+"
+)
+        
+install_url
+=
+self
+.
+get_arg
+(
+"
+browsertime
+-
+install
+-
+url
+"
 )
         
 #
@@ -1887,8 +1988,9 @@ import
 setup_helper
         
 if
-not
-new_upstream_url
+install_url
+is
+None
 :
             
 self
@@ -1984,7 +2086,10 @@ json
 )
         
 if
-new_upstream_url
+install_url
+is
+not
+None
 :
             
 self
@@ -2007,13 +2112,13 @@ package_json_path
 "
 to
 {
-new_upstream_url
+install_url
 }
 "
                 
-new_upstream_url
+install_url
 =
-new_upstream_url
+install_url
                 
 package_json_path
 =
@@ -2042,7 +2147,7 @@ f0
 40
 }
 "
-new_upstream_url
+install_url
 )
 :
                 
@@ -2081,7 +2186,7 @@ f0
 format
 (
                         
-new_upstream_url
+install_url
                     
 )
                 
@@ -2128,7 +2233,7 @@ browsertime
 "
 ]
 =
-new_upstream_url
+install_url
             
 updated_body
 =
@@ -2303,11 +2408,10 @@ browsertime
             
 should_update
 =
-new_upstream_url
-!
-=
-"
-"
+install_url
+is
+not
+None
             
 should_clobber
 =
@@ -2315,7 +2419,7 @@ should_clobber
             
 no_optional
 =
-new_upstream_url
+install_url
 or
 AUTOMATION
         
@@ -3606,6 +3710,12 @@ self
 metadata
 )
 :
+        
+self
+.
+setup
+(
+)
         
 cycles
 =
