@@ -100,16 +100,6 @@ WebRequest
 jsm
 '
 '
-WebRequestCommon
-.
-jsm
-'
-'
-WebRequestContent
-.
-js
-'
-'
 WebRequestUpload
 .
 jsm
