@@ -318,9 +318,6 @@ Launchpad
 )
 ;
 }
-panelWin
-:
-window
 }
 )
 ;
