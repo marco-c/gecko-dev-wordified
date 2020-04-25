@@ -65162,7 +65162,7 @@ child
 browsingContext
 -
 >
-GetChildren
+Children
 (
 )
 )
@@ -69631,7 +69631,7 @@ child
 context
 -
 >
-GetChildren
+Children
 (
 )
 )

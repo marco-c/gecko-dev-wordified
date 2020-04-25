@@ -27000,7 +27000,7 @@ child
 bc
 -
 >
-GetChildren
+Children
 (
 )
 )
