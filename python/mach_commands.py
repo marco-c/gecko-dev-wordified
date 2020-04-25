@@ -552,6 +552,15 @@ exit
 code
 .
                                 
+python_unbuffered
+=
+False
+#
+Leave
+input
+buffered
+.
+                                
 append_env
 =
 append_env
