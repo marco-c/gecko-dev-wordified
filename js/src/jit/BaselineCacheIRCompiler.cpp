@@ -975,6 +975,12 @@ Imm32
 enteredCount
 )
 ;
+CacheIRReader
+reader
+(
+writer_
+)
+;
 do
 {
 switch
@@ -1011,6 +1017,7 @@ emit
 #
 op
 (
+reader
 )
 )
 return
@@ -1037,15 +1044,6 @@ op
 )
 ;
 }
-#
-ifdef
-DEBUG
-assertAllArgumentsConsumed
-(
-)
-;
-#
-endif
 allocator
 .
 nextOp
