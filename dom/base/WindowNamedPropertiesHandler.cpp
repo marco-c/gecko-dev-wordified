@@ -1487,7 +1487,7 @@ child
 bc
 -
 >
-Children
+GetChildren
 (
 )
 )
