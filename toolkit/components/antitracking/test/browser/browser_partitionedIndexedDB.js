@@ -574,7 +574,7 @@ foobar
 "
 )
 .
-add
+put
 (
 {
 id
