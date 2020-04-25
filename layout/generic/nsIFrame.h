@@ -25097,6 +25097,7 @@ const
 return
 LogicalSides
 (
+mWritingMode
 )
 ;
 }
