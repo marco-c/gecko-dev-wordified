@@ -200,6 +200,10 @@ class
 ContentParent
 ;
 }
+/
+/
+namespace
+dom
 class
 ContentBlocking
 final
