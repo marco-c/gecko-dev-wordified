@@ -68054,7 +68054,7 @@ f
 >
 IsFrameOfType
 (
-nsBox
+nsIFrame
 :
 :
 eLineParticipant

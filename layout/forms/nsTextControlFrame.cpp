@@ -4290,7 +4290,7 @@ nsBoxFrame
 sizes
 ?
 return
-nsBox
+nsIFrame
 :
 :
 GetXULMinSize

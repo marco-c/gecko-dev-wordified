@@ -1366,7 +1366,7 @@ state
 ;
 prefSize
 =
-BoundsCheck
+XULBoundsCheck
 (
 minSize
 prefSize
@@ -1900,7 +1900,7 @@ aState
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 GetXULPrefSize
@@ -1926,7 +1926,7 @@ aState
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 GetXULMinSize
@@ -1952,7 +1952,7 @@ aState
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 GetXULMaxSize
@@ -1975,7 +1975,7 @@ GetXULFlex
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 GetXULFlex
@@ -2000,7 +2000,7 @@ aState
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 GetXULBoxAscent
@@ -2021,7 +2021,7 @@ aState
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 DoXULLayout

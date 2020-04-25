@@ -387,7 +387,7 @@ nsGridRowLeafLayout
 /
 virtual
 void
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 nsIFrame
 *

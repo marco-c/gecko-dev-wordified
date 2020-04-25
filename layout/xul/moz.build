@@ -173,11 +173,6 @@ EXPORTS
 =
 [
 '
-nsBox
-.
-h
-'
-'
 nsIScrollbarMediator
 .
 h

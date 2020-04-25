@@ -1458,7 +1458,7 @@ mInner
 >
 mParentBox
 =
-nsBox
+nsIFrame
 :
 :
 GetParentXULBox
@@ -1499,7 +1499,7 @@ nsIFrame
 *
 box
 =
-nsBox
+nsIFrame
 :
 :
 GetParentXULBox
@@ -3030,7 +3030,7 @@ NS_OK
 ;
 mParentBox
 =
-nsBox
+nsIFrame
 :
 :
 GetParentXULBox
@@ -3302,7 +3302,7 @@ nsIFrame
 *
 childBox
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -3378,10 +3378,10 @@ state
 nsSize
 maxSize
 =
-nsBox
+nsIFrame
 :
 :
-BoundsCheckMinMax
+XULBoundsCheckMinMax
 (
 minSize
 childBox
@@ -3395,10 +3395,10 @@ state
 ;
 prefSize
 =
-nsBox
+nsIFrame
 :
 :
-BoundsCheck
+XULBoundsCheck
 (
 minSize
 prefSize
@@ -3408,7 +3408,7 @@ maxSize
 nsSplitterFrame
 :
 :
-AddMargin
+AddXULMargin
 (
 childBox
 minSize
@@ -3417,7 +3417,7 @@ minSize
 nsSplitterFrame
 :
 :
-AddMargin
+AddXULMargin
 (
 childBox
 prefSize
@@ -3426,7 +3426,7 @@ prefSize
 nsSplitterFrame
 :
 :
-AddMargin
+AddXULMargin
 (
 childBox
 maxSize
@@ -3805,7 +3805,7 @@ mChildInfosAfterCount
 }
 childBox
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -4854,7 +4854,7 @@ nsIFrame
 *
 childBox
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -4889,7 +4889,7 @@ childBox
 }
 childBox
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -4974,7 +4974,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -4998,7 +4998,7 @@ nullptr
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox

@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Logging
@@ -928,7 +921,7 @@ class
 nsFrame
 :
 public
-nsBox
+nsIFrame
 {
 public
 :
@@ -3085,7 +3078,7 @@ box
 code
 .
 bool
-ComputesOwnOverflowArea
+XULComputesOwnOverflowArea
 (
 )
 override

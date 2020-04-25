@@ -1363,7 +1363,7 @@ nsIFrame
 *
 box
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox

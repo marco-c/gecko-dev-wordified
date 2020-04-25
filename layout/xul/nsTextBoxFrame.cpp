@@ -5751,7 +5751,7 @@ bool
 nsTextBoxFrame
 :
 :
-ComputesOwnOverflowArea
+XULComputesOwnOverflowArea
 (
 )
 {
@@ -6347,7 +6347,7 @@ this
 size
 )
 ;
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 size
 )
@@ -6464,7 +6464,7 @@ width
 ;
 }
 }
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 size
 )

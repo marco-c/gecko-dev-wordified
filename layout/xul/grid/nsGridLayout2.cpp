@@ -160,13 +160,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h
@@ -739,7 +732,7 @@ true
 AddWidth
 }
 }
-AddMargin
+AddXULMargin
 (
 aBox
 total
@@ -979,7 +972,7 @@ true
 AddWidth
 }
 }
-AddMargin
+AddXULMargin
 (
 aBox
 total
@@ -1231,7 +1224,7 @@ true
 AddWidth
 }
 }
-AddMargin
+AddXULMargin
 (
 aBox
 total

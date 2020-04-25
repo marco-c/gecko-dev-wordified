@@ -3550,7 +3550,7 @@ scrollframe
 =
 do_QueryFrame
 (
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -3679,7 +3679,7 @@ width
 }
 prefSize
 =
-BoundsCheck
+XULBoundsCheck
 (
 minSize
 prefSize
@@ -4037,7 +4037,7 @@ rect
 .
 SizeTo
 (
-BoundsCheck
+XULBoundsCheck
 (
 minSize
 rect

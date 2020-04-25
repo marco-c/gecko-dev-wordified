@@ -1211,7 +1211,7 @@ mRowHeight
 *
 desiredRows
 ;
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 min
 )
