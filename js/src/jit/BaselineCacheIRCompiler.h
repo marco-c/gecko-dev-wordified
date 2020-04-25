@@ -443,6 +443,10 @@ emitCallScriptedGetterResultShared
 (
 TypedOrValueRegister
 receiver
+uint32_t
+getterOffset
+bool
+sameRealm
 )
 ;
 template
@@ -458,6 +462,8 @@ emitCallNativeGetterResultShared
 (
 T
 receiver
+uint32_t
+getterOffset
 const
 CallVM
 &

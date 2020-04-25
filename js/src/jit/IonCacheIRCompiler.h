@@ -401,6 +401,10 @@ emitCallScriptedGetterResultShared
 (
 TypedOrValueRegister
 receiver
+uint32_t
+getterOffset
+bool
+sameRealm
 TypedOrValueRegister
 output
 )
@@ -411,6 +415,8 @@ emitCallNativeGetterResultShared
 (
 TypedOrValueRegister
 receiver
+uint32_t
+getterOffset
 const
 AutoOutputRegister
 &
