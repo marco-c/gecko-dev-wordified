@@ -100,6 +100,15 @@ EXDLL_INIT
 (
 )
 ;
+extra
+-
+>
+RegisterPluginCallback
+(
+gHInst
+NSISPluginCallback
+)
+;
 TCHAR
 *
 funcAddrStr
