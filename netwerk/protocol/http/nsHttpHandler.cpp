@@ -202,6 +202,13 @@ h
 #
 include
 "
+nsIProcessSwitchRequestor
+.
+h
+"
+#
+include
+"
 nsSocketProviderService
 .
 h
