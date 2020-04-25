@@ -250,7 +250,11 @@ getDefaultTargetBrowsers
 const
 targetBrowsers
 =
-defaultTargetBrowsers
+UserSettings
+.
+getTargetBrowsers
+(
+)
 ;
 dispatch
 (
@@ -586,6 +590,13 @@ COMPATIBILITY_UPDATE_TARGET_BROWSERS_START
 ;
 try
 {
+UserSettings
+.
+setTargetBrowsers
+(
+targetBrowsers
+)
+;
 const
 {
 selectedNode
