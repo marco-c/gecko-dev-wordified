@@ -5530,6 +5530,8 @@ const
 point_A
 =
 face
+.
+vertices
 [
 0
 ]
@@ -5538,6 +5540,8 @@ const
 point_B
 =
 face
+.
+vertices
 [
 1
 ]
@@ -5546,6 +5550,8 @@ const
 point_C
 =
 face
+.
+vertices
 [
 2
 ]
