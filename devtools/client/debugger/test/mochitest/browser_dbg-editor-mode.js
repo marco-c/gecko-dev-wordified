@@ -86,9 +86,9 @@ is
 (
 dbg
 .
-win
-.
-cm
+getCM
+(
+)
 .
 getOption
 (
@@ -125,9 +125,9 @@ is
 (
 dbg
 .
-win
-.
-cm
+getCM
+(
+)
 .
 getOption
 (
