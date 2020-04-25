@@ -2111,7 +2111,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 {
 }
