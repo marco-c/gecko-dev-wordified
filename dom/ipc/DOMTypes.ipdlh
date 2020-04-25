@@ -1389,9 +1389,6 @@ sent
 through
 other
 mechanism
-uint32_t
-LoadIdentifier
-;
 }
 ;
 struct

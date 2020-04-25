@@ -1172,7 +1172,7 @@ enabled
 {
 min
 :
-30
+45
 max
 :
 55

@@ -4841,11 +4841,6 @@ aLoadState
 bool
 aSetNavigating
 )
-returns
-(
-bool
-aSuccess
-)
 ;
 async
 InternalLoad
