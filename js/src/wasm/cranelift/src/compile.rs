@@ -160,6 +160,15 @@ WebAssembly
 function
 .
 use
+log
+:
+:
+{
+debug
+info
+}
+;
+use
 std
 :
 :
