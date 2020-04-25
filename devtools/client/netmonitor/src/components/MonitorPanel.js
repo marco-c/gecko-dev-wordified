@@ -561,6 +561,13 @@ PropTypes
 func
 .
 isRequired
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 /
 /
 Callback
@@ -1180,6 +1187,7 @@ networkDetailsOpen
 openLink
 openSplitConsole
 sourceMapService
+toolboxDoc
 }
 =
 this
@@ -1259,6 +1267,7 @@ this
 state
 .
 isSingleRow
+toolboxDoc
 }
 )
 SplitBox

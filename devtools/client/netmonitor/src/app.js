@@ -498,6 +498,11 @@ connector
 openLink
 openSplitConsole
 sourceMapService
+toolboxDoc
+:
+toolbox
+.
+doc
 }
 )
 ;
