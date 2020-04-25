@@ -202,8 +202,12 @@ aOptions
 nsWindow
 *
 aWindow
+/
+*
 =
 nullptr
+*
+/
 )
 ;
 ~
