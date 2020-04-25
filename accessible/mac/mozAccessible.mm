@@ -1424,6 +1424,11 @@ states
 :
 :
 TRAVERSED
+|
+states
+:
+:
+LINKED
 ;
 static
 const
