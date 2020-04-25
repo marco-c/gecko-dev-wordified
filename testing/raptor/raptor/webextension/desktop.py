@@ -419,6 +419,22 @@ browser_proc
 proc
     
 def
+process_exists
+(
+self
+)
+:
+        
+return
+self
+.
+runner
+.
+is_running
+(
+)
+    
+def
 run_test
 (
 self
@@ -1361,6 +1377,9 @@ wait_for_test_finish
 (
 test
 timeout
+self
+.
+process_exists
 )
     
 def
@@ -1438,6 +1457,9 @@ wait_for_test_finish
 (
 test
 timeout
+self
+.
+process_exists
 )
     
 def
