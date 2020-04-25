@@ -6137,6 +6137,9 @@ an
 empty
 array
 .
+(
+void
+)
 sessionTypes
 .
 AppendElement

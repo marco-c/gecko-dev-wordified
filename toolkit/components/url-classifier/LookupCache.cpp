@@ -6961,6 +6961,9 @@ entry
 continue
 ;
 }
+if
+(
+!
 completes
 .
 AppendElement
@@ -6968,7 +6971,12 @@ AppendElement
 add
 fallible
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 return
 Build

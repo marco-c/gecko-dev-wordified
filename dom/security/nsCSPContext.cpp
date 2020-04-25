@@ -10190,6 +10190,9 @@ toDomCSPStruct
 jsonCSP
 )
 ;
+if
+(
+!
 jsonPolicies
 .
 mCsp_policies
@@ -10203,7 +10206,12 @@ AppendElement
 jsonCSP
 fallible
 )
+)
+{
+return
+NS_ERROR_OUT_OF_MEMORY
 ;
+}
 }
 /
 /

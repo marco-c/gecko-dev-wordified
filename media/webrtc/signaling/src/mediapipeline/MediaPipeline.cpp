@@ -2652,6 +2652,9 @@ stats
 aInboundRtpStreamId
 )
 ;
+if
+(
+!
 aArr
 .
 AppendElement
@@ -2659,7 +2662,14 @@ AppendElement
 stats
 fallible
 )
+)
+{
+mozalloc_handle_oom
+(
+0
+)
 ;
+}
 }
 }
 }

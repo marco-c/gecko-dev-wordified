@@ -2937,6 +2937,9 @@ pre
 -
 allocated
 space
+(
+void
+)
 keyHandleBuf
 .
 AppendElement
@@ -2951,6 +2954,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 keyHandleBuf
 .
 AppendElement
@@ -2965,6 +2971,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 keyHandleBuf
 .
 AppendElements
@@ -4721,6 +4730,9 @@ pre
 -
 allocated
 space
+(
+void
+)
 signedDataBuf
 .
 AppendElement
@@ -4732,6 +4744,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -4743,6 +4758,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -4918,6 +4936,9 @@ __func__
 )
 ;
 }
+(
+void
+)
 registrationBuf
 .
 AppendElement
@@ -4943,6 +4964,9 @@ ec
 publicValue
 )
 ;
+(
+void
+)
 registrationBuf
 .
 AppendElement
@@ -6117,6 +6141,9 @@ pre
 -
 allocated
 space
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -6137,6 +6164,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElement
@@ -6155,6 +6185,9 @@ AppendSECItem
 counterItem
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -6415,6 +6448,9 @@ pre
 -
 allocated
 space
+(
+void
+)
 signatureDataBuf
 .
 AppendElement

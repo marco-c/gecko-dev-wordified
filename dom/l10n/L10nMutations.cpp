@@ -638,6 +638,9 @@ datal10nid
 continue
 ;
 }
+if
+(
+!
 elements
 .
 AppendElement
@@ -646,7 +649,14 @@ AppendElement
 elem
 fallible
 )
+)
+{
+mozalloc_handle_oom
+(
+0
+)
 ;
+}
 }
 mPendingElementsHash
 .

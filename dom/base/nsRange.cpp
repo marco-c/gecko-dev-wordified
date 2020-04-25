@@ -17314,6 +17314,8 @@ TrailingWhitespace
 DontTrim
 )
 ;
+NS_ENSURE_TRUE
+(
 aTextList
 -
 >
@@ -17323,6 +17325,8 @@ renderedText
 .
 mString
 fallible
+)
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
