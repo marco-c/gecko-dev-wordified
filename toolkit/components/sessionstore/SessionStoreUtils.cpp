@@ -7619,7 +7619,7 @@ child
 aBrowsingContext
 -
 >
-Children
+GetChildren
 (
 )
 )
@@ -8419,7 +8419,7 @@ child
 aBrowsingContext
 -
 >
-Children
+GetChildren
 (
 )
 )
