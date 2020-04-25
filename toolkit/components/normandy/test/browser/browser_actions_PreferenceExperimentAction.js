@@ -2531,13 +2531,6 @@ errors
 decorate_task
 (
 withStudiesEnabled
-PreferenceExperiments
-.
-withMockExperiments
-(
-[
-]
-)
 async
 function
 test_temporary_errors_set_deadline
@@ -2694,7 +2687,7 @@ a
 generous
 bound
 of
-1
+2
 hour
 on
 either
@@ -2737,6 +2730,8 @@ Date
 (
 expectedDeadline
 -
+2
+*
 hour
 )
 ;
@@ -2748,6 +2743,8 @@ Date
 (
 expectedDeadline
 +
+2
+*
 hour
 )
 ;
@@ -3009,7 +3006,6 @@ it
 decorate_task
 (
 withStudiesEnabled
-withMockPreferences
 PreferenceExperiments
 .
 withMockExperiments
@@ -3043,8 +3039,8 @@ FILTER_ERROR
 /
 A
 deadline
-one
-hour
+two
+hours
 in
 the
 future
@@ -3069,6 +3065,8 @@ now
 let
 hour
 =
+2
+*
 60
 *
 60
@@ -3268,14 +3266,6 @@ experiment
 decorate_task
 (
 withStudiesEnabled
-withMockPreferences
-PreferenceExperiments
-.
-withMockExperiments
-(
-[
-]
-)
 async
 function
 test_temporary_errors_hit_deadline
@@ -3304,8 +3294,8 @@ Set
 a
 deadline
 of
-an
-hour
+two
+hours
 in
 the
 past
@@ -3327,6 +3317,8 @@ now
 let
 hour
 =
+2
+*
 60
 *
 60
@@ -3521,6 +3513,8 @@ Check
 that
 non
 -
+temporary
+-
 error
 suitabilities
 clear
@@ -3530,7 +3524,6 @@ deadline
 decorate_task
 (
 withStudiesEnabled
-withMockPreferences
 PreferenceExperiments
 .
 withMockExperiments
@@ -3624,6 +3617,8 @@ Date
 (
 now
 -
+2
+*
 hour
 )
 .
@@ -3812,7 +3807,6 @@ reset
 decorate_task
 (
 withStudiesEnabled
-withMockPreferences
 PreferenceExperiments
 .
 withMockExperiments
