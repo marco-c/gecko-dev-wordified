@@ -1476,8 +1476,6 @@ sendAsyncMessage
 formSubmissionProcessed
 "
 data
-{
-}
 )
 ;
 }
