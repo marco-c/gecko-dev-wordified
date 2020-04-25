@@ -148,6 +148,8 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
+false
+RESOURCE_LINK
 )
 ;
 await
