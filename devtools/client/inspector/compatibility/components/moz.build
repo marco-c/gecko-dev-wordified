@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 "
+BrowserIcon
+.
+js
+"
+"
 CompatibilityApp
 .
 js
