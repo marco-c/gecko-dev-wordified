@@ -518,6 +518,12 @@ true
 isWasm
 :
 false
+introductionUrl
+:
+null
+introductionType
+:
+undefined
 isExtension
 :
 false

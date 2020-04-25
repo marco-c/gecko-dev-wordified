@@ -191,7 +191,6 @@ http
 foo
 .
 com
-/
 "
 )
 {

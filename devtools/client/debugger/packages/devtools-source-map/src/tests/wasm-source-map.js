@@ -816,7 +816,7 @@ min
 .
 js
 "
-sourceMapBaseURL
+url
 :
 "
 wasm
