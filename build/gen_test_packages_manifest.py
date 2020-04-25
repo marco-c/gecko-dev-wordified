@@ -141,6 +141,10 @@ updater
 -
 dep
 '
+    
+'
+jsreftest
+'
 ]
 PACKAGE_SPECIFIED_HARNESSES
 =
@@ -188,6 +192,14 @@ awsy
 updater
 -
 dep
+'
+    
+'
+jittest
+'
+    
+'
+jsreftest
 '
 ]
 #
@@ -597,6 +609,20 @@ jittest
 append
 (
 jsshell
+)
+    
+harness_requirements
+[
+'
+jsreftest
+'
+]
+.
+append
+(
+args
+.
+reftest
 )
     
 for
