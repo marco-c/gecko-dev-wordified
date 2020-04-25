@@ -446,11 +446,6 @@ relativeUrl
 :
 URL
 +
-introductionUrl
-:
-?
-URL
-+
 extensionName
 :
 ?

@@ -614,10 +614,6 @@ string
 props
 :
 {
-introductionUrl
-?
-:
-string
 isBlackBoxed
 ?
 :
@@ -652,14 +648,6 @@ isBlackBoxed
 isPrettyPrinted
 :
 false
-introductionUrl
-:
-props
-.
-introductionUrl
-|
-|
-null
 isExtension
 :
 false

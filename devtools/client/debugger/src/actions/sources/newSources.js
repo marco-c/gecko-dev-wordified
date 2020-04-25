@@ -1610,9 +1610,6 @@ false
 isBlackBoxed
 :
 false
-introductionUrl
-:
-null
 isExtension
 :
 false
@@ -1851,11 +1848,6 @@ extensionName
 source
 .
 extensionName
-introductionUrl
-:
-source
-.
-introductionUrl
 isBlackBoxed
 :
 false
