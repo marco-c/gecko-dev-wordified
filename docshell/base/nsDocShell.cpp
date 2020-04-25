@@ -33845,8 +33845,6 @@ entries
 for
 them
 .
-if
-(
 RefPtr
 <
 DocumentChannel
@@ -33857,6 +33855,10 @@ do_QueryObject
 (
 aOldChannel
 )
+;
+if
+(
+docChannel
 )
 {
 nsCOMPtr
@@ -34202,6 +34204,10 @@ aNewChannel
 if
 (
 appCacheChannel
+&
+&
+!
+docChannel
 )
 {
 if
