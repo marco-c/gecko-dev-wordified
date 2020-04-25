@@ -23766,8 +23766,9 @@ BrowserParent
 :
 StartPersistence
 (
-uint64_t
-aOuterWindowID
+CanonicalBrowsingContext
+*
+aContext
 nsIWebBrowserPersistDocumentReceiver
 *
 aRecv
@@ -23805,7 +23806,7 @@ SendPWebBrowserPersistDocumentConstructor
 (
 actor
 this
-aOuterWindowID
+aContext
 )
 ;
 if
