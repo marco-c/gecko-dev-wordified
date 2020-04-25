@@ -42274,6 +42274,14 @@ memory
 "
 getMemory
 )
+JS_STRING_SYM_PS
+(
+toStringTag
+"
+Debugger
+"
+JSPROP_READONLY
+)
 JS_PS_END
 }
 ;
