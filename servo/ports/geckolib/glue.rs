@@ -2775,8 +2775,6 @@ borrow_mut
 (
 )
 ;
-unsafe
-{
 per_doc_data
 .
 stylist
@@ -2789,7 +2787,6 @@ maybe_gc
 (
 )
 ;
-}
 }
 #
 [
