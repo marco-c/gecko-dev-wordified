@@ -177,7 +177,7 @@ afterEach
 =
 testRunner
 ;
-describe_fails_ffox
+describe
 (
 '
 DefaultBrowserContext
