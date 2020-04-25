@@ -845,9 +845,6 @@ return
 false
 ;
 }
-if
-(
-!
 mArray
 .
 InsertElementAt
@@ -855,12 +852,7 @@ InsertElementAt
 aIndex
 aObject
 )
-)
-{
-return
-false
 ;
-}
 NS_IF_ADDREF
 (
 aObject
@@ -957,9 +949,6 @@ return
 false
 ;
 }
-if
-(
-!
 mArray
 .
 InsertElementsAt
@@ -969,12 +958,7 @@ aObjects
 .
 mArray
 )
-)
-{
-return
-false
 ;
-}
 /
 /
 need
