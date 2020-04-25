@@ -5892,12 +5892,6 @@ case
 StyleAppearance
 :
 :
-ScrollbarNonDisappearing
-:
-case
-StyleAppearance
-:
-:
 ScrollbarVertical
 :
 case
