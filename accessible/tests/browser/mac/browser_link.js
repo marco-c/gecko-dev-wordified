@@ -251,6 +251,7 @@ visited
 "
 )
 ;
+await
 PlacesTestUtils
 .
 addVisits
