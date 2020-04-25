@@ -2087,7 +2087,7 @@ static
 bool
 gUseWaylandVsync
 =
-false
+true
 ;
 static
 bool
