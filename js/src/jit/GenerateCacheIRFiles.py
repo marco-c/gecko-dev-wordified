@@ -2746,14 +2746,6 @@ Field
 '
         
 '
-FieldOffset
-'
-:
-'
-Field
-'
-        
-'
 ByteImm
 '
 :

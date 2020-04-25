@@ -1710,11 +1710,6 @@ data_
 }
 JS_HAZ_GC_POINTER
 ;
-using
-FieldOffset
-=
-uint8_t
-;
 /
 /
 This
