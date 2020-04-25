@@ -211,6 +211,8 @@ Debug
 Hash
 PartialEq
 Eq
+PartialOrd
+Ord
 )
 ]
 pub
