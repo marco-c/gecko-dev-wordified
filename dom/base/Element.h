@@ -8113,6 +8113,11 @@ Grid
 aResult
 )
 ;
+bool
+HasGridFragments
+(
+)
+;
 already_AddRefed
 <
 DOMMatrixReadOnly

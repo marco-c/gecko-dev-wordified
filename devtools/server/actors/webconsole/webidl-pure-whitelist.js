@@ -320,6 +320,14 @@ getGridFragments
 prototype
 "
 "
+hasGridFragments
+"
+]
+[
+"
+prototype
+"
+"
 getElementsWithGrid
 "
 ]

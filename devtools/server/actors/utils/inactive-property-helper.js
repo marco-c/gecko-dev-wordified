@@ -5427,13 +5427,9 @@ node
 return
 node
 .
-getGridFragments
+hasGridFragments
 (
 )
-.
-length
->
-0
 ;
 }
 /

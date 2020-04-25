@@ -3986,13 +3986,9 @@ this
 .
 currentNode
 .
-getGridFragments
+hasGridFragments
 (
 )
-.
-length
->
-0
 ;
 }
 /
