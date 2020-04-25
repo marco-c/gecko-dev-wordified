@@ -1804,6 +1804,17 @@ ipc
 :
 :
 IPCResult
+RecvReportBlockedEmbedderNodeByClassifier
+(
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvNavigationFinished
 (
 )

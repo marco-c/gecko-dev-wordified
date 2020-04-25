@@ -553,6 +553,11 @@ MaybeDiscardedBrowsingContext
 aContext
 )
 ;
+async
+AddBlockedNodeByClassifier
+(
+)
+;
 parent
 :
 /
