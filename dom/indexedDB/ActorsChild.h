@@ -3125,7 +3125,11 @@ typename
 .
 Args
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 IDBCursor
