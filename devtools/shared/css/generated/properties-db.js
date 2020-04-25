@@ -119,11 +119,14 @@ can
 be
 found
 at
+*
 devtools
 /
 shared
 /
 css
+/
+generated
 /
 generate
 -
