@@ -568,18 +568,6 @@ along
 *
 param
 {
-Object
-}
-objects
-Optional
-CPOW
-objects
-to
-send
-along
-*
-param
-{
 Boolean
 }
 expectResponse
@@ -637,10 +625,6 @@ data
 =
 {
 }
-objects
-=
-{
-}
 expectResponse
 =
 true
@@ -676,7 +660,6 @@ sendAsyncMessage
 (
 name
 data
-objects
 )
 ;
 if

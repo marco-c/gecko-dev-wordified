@@ -4885,8 +4885,6 @@ sendSyncMessage
 (
 name
 data
-objects
-principal
 )
 ;
 }
@@ -4898,8 +4896,6 @@ sendAsyncMessage
 (
 name
 data
-objects
-principal
 )
 ;
 return
