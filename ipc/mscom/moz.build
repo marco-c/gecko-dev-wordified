@@ -312,6 +312,11 @@ Interceptor
 cpp
 '
 '
+MainThreadHandoff
+.
+cpp
+'
+'
 Registration
 .
 cpp
@@ -348,11 +353,6 @@ cpp
 '
 '
 InterceptorLog
-.
-cpp
-'
-'
-MainThreadHandoff
 .
 cpp
 '
