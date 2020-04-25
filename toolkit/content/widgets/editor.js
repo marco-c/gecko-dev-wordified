@@ -535,7 +535,7 @@ val
 {
 this
 .
-markupDocumentViewer
+browsingContext
 .
 fullZoom
 =
@@ -550,7 +550,7 @@ fullZoom
 return
 this
 .
-markupDocumentViewer
+browsingContext
 .
 fullZoom
 ;
@@ -563,7 +563,7 @@ val
 {
 this
 .
-markupDocumentViewer
+browsingContext
 .
 textZoom
 =
@@ -578,7 +578,7 @@ textZoom
 return
 this
 .
-markupDocumentViewer
+browsingContext
 .
 textZoom
 ;

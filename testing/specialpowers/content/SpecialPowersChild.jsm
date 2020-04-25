@@ -7745,9 +7745,9 @@ window
 )
 {
 return
-this
+BrowsingContext
 .
-_getMUDV
+getFromWindow
 (
 window
 )
@@ -7777,9 +7777,9 @@ window
 zoom
 )
 {
-this
+BrowsingContext
 .
-_getMUDV
+getFromWindow
 (
 window
 )
@@ -7795,9 +7795,9 @@ window
 )
 {
 return
-this
+BrowsingContext
 .
-_getMUDV
+getFromWindow
 (
 window
 )
@@ -7811,9 +7811,9 @@ window
 zoom
 )
 {
-this
+BrowsingContext
 .
-_getMUDV
+getFromWindow
 (
 window
 )

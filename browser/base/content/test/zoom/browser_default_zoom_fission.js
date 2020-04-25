@@ -394,7 +394,7 @@ content
 .
 docShell
 .
-contentViewer
+browsingContext
 .
 fullZoom
 .
@@ -416,7 +416,7 @@ content
 .
 docShell
 .
-contentViewer
+browsingContext
 .
 fullZoom
 .
@@ -797,7 +797,7 @@ content
 .
 docShell
 .
-contentViewer
+browsingContext
 .
 fullZoom
 .
@@ -819,7 +819,7 @@ content
 .
 docShell
 .
-contentViewer
+browsingContext
 .
 fullZoom
 .
