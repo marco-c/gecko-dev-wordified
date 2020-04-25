@@ -205,6 +205,11 @@ gfx_wr_resource_path_override
 (
 )
 ;
+bool
+gfx_wr_use_optimized_shaders
+(
+)
+;
 void
 gfx_critical_note
 (

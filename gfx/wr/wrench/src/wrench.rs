@@ -1373,6 +1373,9 @@ Option
 <
 PathBuf
 >
+use_optimized_shaders
+:
+bool
 dp_ratio
 :
 f32
@@ -1669,6 +1672,7 @@ dp_ratio
 resource_override_path
 :
 shader_override_path
+use_optimized_shaders
 recorder
 enable_subpixel_aa
 :
