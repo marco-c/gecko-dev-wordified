@@ -112,6 +112,15 @@ ogg
 =
 [
 '
+geckoextra
+/
+include
+/
+OggStructsForRLBox
+.
+h
+'
+'
 include
 /
 ogg
