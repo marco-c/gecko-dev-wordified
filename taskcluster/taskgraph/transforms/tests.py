@@ -11438,6 +11438,12 @@ reftest
 '
 reftest
 -
+qr
+'
+    
+'
+reftest
+-
 gpu
 '
     
@@ -12007,6 +12013,11 @@ not
 manifests
 :
                     
+print
+(
+chunked_manifests
+)
+                    
 raise
 Exception
 (
@@ -12051,7 +12062,7 @@ platform
 ]
 )
 )
-                
+                    
 chunked
 [
 '
