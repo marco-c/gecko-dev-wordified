@@ -411,6 +411,12 @@ using
 namespace
 mozilla
 ;
+using
+dom
+:
+:
+Element
+;
 #
 define
 NS_MENU_POPUP_LIST_INDEX
@@ -6180,6 +6186,9 @@ we
 can
 use
 getElementById
+dom
+:
+:
 Document
 *
 document
@@ -7475,6 +7484,9 @@ blocked
 bool
 userinput
 =
+dom
+:
+:
 UserActivation
 :
 :

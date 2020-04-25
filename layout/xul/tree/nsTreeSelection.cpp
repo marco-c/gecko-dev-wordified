@@ -208,6 +208,12 @@ using
 namespace
 mozilla
 ;
+using
+dom
+:
+:
+XULTreeElement
+;
 /
 /
 A

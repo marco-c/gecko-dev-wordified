@@ -602,6 +602,9 @@ nsTreeUtils
 :
 UpdateSortIndicators
 (
+dom
+:
+:
 Element
 *
 aColumn
@@ -792,6 +795,9 @@ nsTreeUtils
 :
 GetColumnIndex
 (
+dom
+:
+:
 Element
 *
 aColumn
