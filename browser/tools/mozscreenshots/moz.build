@@ -221,6 +221,11 @@ by
 dir
 .
 '
+browser
+.
+ini
+'
+'
 controlCenter
 /
 browser
@@ -250,15 +255,6 @@ ini
 '
 '
 primaryUI
-/
-browser
-.
-ini
-'
-'
-tests
-/
-browser
 /
 browser
 .
