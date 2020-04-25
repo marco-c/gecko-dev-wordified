@@ -2196,6 +2196,7 @@ debugFrame
 >
 updateReturnJSValue
 (
+cx
 )
 )
 {
