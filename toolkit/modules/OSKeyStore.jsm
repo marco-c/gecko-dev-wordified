@@ -2307,7 +2307,7 @@ ConsoleAPI
 maxLogLevelPref
 :
 "
-browser
+toolkit
 .
 osKeyStore
 .
