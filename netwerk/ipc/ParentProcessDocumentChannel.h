@@ -120,6 +120,13 @@ DocumentLoadListener
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 namespace
 mozilla
 {
@@ -133,6 +140,8 @@ public
 DocumentChannel
 public
 nsIAsyncVerifyRedirectCallback
+public
+nsIObserver
 public
 ADocumentChannelBridge
 {
@@ -155,6 +164,7 @@ aCacheKey
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
+NS_DECL_NSIOBSERVER
 NS_IMETHOD
 AsyncOpen
 (
@@ -223,9 +233,9 @@ aStatus
 aLoadGroupStatus
 )
 ;
-mDocumentLoadListener
-=
-nullptr
+DisconnectDocumentLoadListener
+(
+)
 ;
 }
 void
@@ -272,6 +282,11 @@ ParentProcessDocumentChannel
 (
 )
 ;
+void
+DisconnectDocumentLoadListener
+(
+)
+;
 RefPtr
 <
 DocumentLoadListener
@@ -301,6 +316,11 @@ PDocumentChannelParent
 RedirectToRealChannelPromise
 >
 mPromise
+;
+bool
+mRequestObserversCalled
+=
+false
 ;
 }
 ;
