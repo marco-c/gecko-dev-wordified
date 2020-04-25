@@ -145,17 +145,6 @@ NS_ADDREF
 #
 include
 "
-nsITransaction
-.
-h
-"
-/
-/
-for
-nsITransaction
-#
-include
-"
 nsString
 .
 h
@@ -499,7 +488,7 @@ Merge
 (
 nsITransaction
 *
-aTransaction
+aOtherTransaction
 bool
 *
 aDidMerge
@@ -572,7 +561,7 @@ mChildren
 >
 Merge
 (
-aTransaction
+aOtherTransaction
 aDidMerge
 )
 ;

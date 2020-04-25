@@ -12365,7 +12365,7 @@ DoTransactionInternal
 (
 nsITransaction
 *
-aTxn
+aTransaction
 )
 ;
 /
@@ -14833,7 +14833,7 @@ DoAfterDoTransaction
 (
 nsITransaction
 *
-aTxn
+aTransaction
 )
 ;
 /
