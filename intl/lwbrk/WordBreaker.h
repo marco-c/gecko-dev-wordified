@@ -150,7 +150,7 @@ kWbClassHanLetter
 kWbClassKatakanaLetter
 kWbClassHiraganaLetter
 kWbClassHWKatakanaLetter
-kWbClassThaiLetter
+kWbClassScriptioContinua
 }
 ;
 class
