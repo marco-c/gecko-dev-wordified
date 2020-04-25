@@ -155,7 +155,7 @@ namespace
 mozilla
 {
 class
-BlocksRingBuffer
+ProfileChunkedBuffer
 ;
 class
 TimeStamp
@@ -191,9 +191,9 @@ UniquePtr
 mozilla
 :
 :
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
-aBlocksRingBuffer
+aProfileChunkedBuffer
 mozilla
 :
 :
@@ -331,7 +331,7 @@ mThreadId
 ;
 /
 /
-BlocksRingBuffer
+ProfileChunkedBuffer
 in
 which
 mProfileBuffer
@@ -359,9 +359,9 @@ UniquePtr
 mozilla
 :
 :
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
-mBlocksRingBuffer
+mProfileChunkedBuffer
 ;
 mozilla
 :
@@ -453,7 +453,7 @@ SumBytes
 *
 aBacktrace
 .
-mBlocksRingBuffer
+mProfileChunkedBuffer
 )
 ;
 if
@@ -521,7 +521,7 @@ SumBytes
 *
 aBacktrace
 .
-mBlocksRingBuffer
+mProfileChunkedBuffer
 )
 =
 =
@@ -545,7 +545,7 @@ WriteObject
 *
 aBacktrace
 .
-mBlocksRingBuffer
+mProfileChunkedBuffer
 )
 ;
 aEW
@@ -732,7 +732,7 @@ aER
 )
 {
 auto
-blocksRingBuffer
+profileChunkedBuffer
 =
 aER
 .
@@ -740,7 +740,7 @@ ReadObject
 <
 UniquePtr
 <
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
 >
 (
@@ -749,7 +749,7 @@ BlocksRingBuffer
 if
 (
 !
-blocksRingBuffer
+profileChunkedBuffer
 )
 {
 return
@@ -759,7 +759,7 @@ nullptr
 MOZ_ASSERT
 (
 !
-blocksRingBuffer
+profileChunkedBuffer
 -
 >
 IsThreadSafe
@@ -774,7 +774,7 @@ non
 thread
 -
 safe
-BlocksRingBuffers
+ProfileChunkedBuffers
 "
 )
 ;
@@ -817,7 +817,7 @@ ProfileBuffer
 >
 (
 *
-blocksRingBuffer
+profileChunkedBuffer
 )
 ;
 return
@@ -841,7 +841,7 @@ std
 :
 move
 (
-blocksRingBuffer
+profileChunkedBuffer
 )
 std
 :

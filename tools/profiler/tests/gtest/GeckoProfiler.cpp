@@ -9953,6 +9953,23 @@ sNumDestroyed
 )
 ;
 }
+/
+/
+The
+duration
+limit
+will
+be
+removed
+from
+Firefox
+see
+bug
+1632365
+.
+#
+if
+0
 TEST
 (
 GeckoProfiler
@@ -10119,7 +10136,7 @@ and
 destroyed
 again
 .
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -10128,7 +10145,7 @@ sNumCreated
 2
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -10137,7 +10154,7 @@ sNumSerialized
 2
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -10146,7 +10163,7 @@ sNumDeserialized
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -10155,7 +10172,7 @@ sNumStreamed
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -10165,6 +10182,8 @@ sNumDestroyed
 )
 ;
 }
+#
+endif
 #
 define
 COUNTER_NAME

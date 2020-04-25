@@ -544,11 +544,11 @@ to
 identify
 entries
 in
-BlocksRingBuffer
+ProfileChunkedBuffer
 blocks
+/
+/
 for
-/
-/
 both
 "
 legacy
@@ -561,9 +561,9 @@ a
 ProfileBufferEntry
 and
 for
+/
+/
 new
-/
-/
 types
 of
 entries
