@@ -2868,6 +2868,7 @@ properly
 return
 LogicalSides
 (
+mWritingMode
 eLogicalSideBitsAll
 )
 ;
@@ -2875,6 +2876,7 @@ eLogicalSideBitsAll
 return
 LogicalSides
 (
+mWritingMode
 )
 ;
 /
