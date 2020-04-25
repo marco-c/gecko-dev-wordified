@@ -152,7 +152,6 @@ get_GtkCompositorWidgetInitData
 (
 )
 aOptions
-nullptr
 )
 {
 MOZ_ASSERT
