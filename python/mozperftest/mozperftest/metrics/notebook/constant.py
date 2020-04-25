@@ -65,9 +65,9 @@ import
 MappingProxyType
 from
 .
-customtransforms
+transforms
 import
-custom_single_json_retriever
+single_json
 class
 Constant
 (
@@ -185,7 +185,7 @@ __predefined_transformers
 SingleJsonRetriever
 "
 :
-custom_single_json_retriever
+single_json
 .
 SingleJsonRetriever
         
