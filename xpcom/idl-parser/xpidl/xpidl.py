@@ -114,6 +114,8 @@ from
 ply
 import
 yacc
+import
+six
 from
 collections
 import
@@ -1815,12 +1817,13 @@ self
 :
         
 return
-self
-.
-_d
+six
 .
 itervalues
 (
+self
+.
+_d
 )
     
 def

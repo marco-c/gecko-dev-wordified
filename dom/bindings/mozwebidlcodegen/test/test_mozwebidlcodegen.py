@@ -60,6 +60,8 @@ unicode_literals
 import
 imp
 import
+io
+import
 json
 import
 os
@@ -496,11 +498,19 @@ state_path
 ]
         
 with
+io
+.
 open
 (
 p
 '
-wb
+w
+'
+newline
+=
+'
+\
+n
 '
 )
 as
@@ -824,13 +834,15 @@ _state_path
 )
         
 with
+io
+.
 open
 (
 manager
 .
 _state_path
 '
-rb
+r
 '
 )
 as
@@ -1371,11 +1383,13 @@ child_path
         
 child_content
 =
+io
+.
 open
 (
 child_path
 '
-rb
+r
 '
 )
 .
@@ -1569,11 +1583,13 @@ parent_path
         
 parent_content
 =
+io
+.
 open
 (
 parent_path
 '
-rb
+r
 '
 )
 .
@@ -1904,11 +1920,19 @@ inputs
 )
                     
 with
+io
+.
 open
 (
 fake_path
 '
 wt
+'
+newline
+=
+'
+\
+n
 '
 )
 as

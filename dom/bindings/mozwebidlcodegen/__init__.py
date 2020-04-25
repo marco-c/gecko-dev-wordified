@@ -80,6 +80,8 @@ errno
 import
 hashlib
 import
+io
+import
 json
 import
 logging
@@ -1490,6 +1492,8 @@ state_path
 :
             
 with
+io
+.
 open
 (
 state_path
@@ -2547,11 +2551,20 @@ _input_paths
 :
             
 with
+io
+.
 open
 (
 path
 '
-rb
+r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
@@ -2575,7 +2588,12 @@ hashlib
 .
 sha1
 (
+six
+.
+ensure_binary
+(
 data
+)
 )
 .
 hexdigest
@@ -4223,6 +4241,8 @@ wrong
 .
             
 with
+io
+.
 open
 (
 f
@@ -4336,6 +4356,8 @@ self
 :
         
 with
+io
+.
 open
 (
 self
@@ -4343,6 +4365,12 @@ self
 _state_path
 '
 w
+'
+newline
+=
+'
+\
+n
 '
 )
 as
@@ -4576,6 +4604,8 @@ webidl
 )
     
 with
+io
+.
 open
 (
 os
