@@ -352,6 +352,10 @@ InsertNodeTransaction
 EditTransactionBase
 )
 NS_DECL_EDITTRANSACTIONBASE
+NS_DECL_EDITTRANSACTIONBASE_GETASMETHODS_OVERRIDE
+(
+InsertNodeTransaction
+)
 protected
 :
 virtual
