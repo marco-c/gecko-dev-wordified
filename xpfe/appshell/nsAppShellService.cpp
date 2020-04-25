@@ -2266,13 +2266,8 @@ browsingContext
 BrowsingContext
 :
 :
-CreateWindowless
+CreateIndependent
 (
-nullptr
-nullptr
-EmptyString
-(
-)
 aIsChrome
 ?
 BrowsingContext
