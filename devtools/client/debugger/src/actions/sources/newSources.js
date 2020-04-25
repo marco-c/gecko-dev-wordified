@@ -1613,9 +1613,6 @@ false
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 isExtension
 :
 false
@@ -1859,11 +1856,6 @@ introductionUrl
 source
 .
 introductionUrl
-introductionType
-:
-source
-.
-introductionType
 isBlackBoxed
 :
 false

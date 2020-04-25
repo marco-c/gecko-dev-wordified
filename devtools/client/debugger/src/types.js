@@ -1594,11 +1594,6 @@ introductionUrl
 ?
 URL
 +
-introductionType
-:
-?
-string
-+
 extensionName
 :
 ?
