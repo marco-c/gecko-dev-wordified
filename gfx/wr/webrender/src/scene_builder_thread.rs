@@ -102,6 +102,7 @@ ClipIntern
 FilterDataIntern
 MemoryReport
 PrimitiveKeyKind
+SharedFontInstanceMap
 }
 ;
 use
@@ -278,15 +279,6 @@ text_run
 :
 :
 TextRun
-;
-use
-crate
-:
-:
-resource_cache
-:
-:
-FontInstanceMap
 ;
 use
 crate
@@ -973,7 +965,7 @@ DocumentView
 pub
 font_instances
 :
-FontInstanceMap
+SharedFontInstanceMap
 pub
 output_pipelines
 :
@@ -1015,7 +1007,7 @@ PipelineId
 pub
 font_instances
 :
-FontInstanceMap
+SharedFontInstanceMap
 pub
 view
 :

@@ -91,6 +91,7 @@ DisplayItemRef
 ExtendMode
 ExternalScrollId
 FilterData
+SharedFontInstanceMap
 }
 ;
 use
@@ -504,10 +505,7 @@ crate
 resource_cache
 :
 :
-{
-FontInstanceMap
 ImageRequest
-}
 ;
 use
 crate
@@ -2180,7 +2178,7 @@ instances
 .
 font_instances
 :
-FontInstanceMap
+SharedFontInstanceMap
 /
 /
 /
@@ -2681,7 +2679,7 @@ scene
 Scene
 font_instances
 :
-FontInstanceMap
+SharedFontInstanceMap
 view
 :
 &
@@ -16379,7 +16377,7 @@ self
 .
 font_instances
 .
-read
+lock
 (
 )
 .
