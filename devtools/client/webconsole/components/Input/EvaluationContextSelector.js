@@ -946,7 +946,11 @@ webconsole
 -
 console
 -
-settings
+evaluation
+-
+context
+-
+selector
 -
 menu
 -
