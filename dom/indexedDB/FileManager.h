@@ -308,10 +308,10 @@ nsresult
 InitDirectory
 (
 nsIFile
-*
+&
 aDirectory
 nsIFile
-*
+&
 aDatabaseFile
 const
 nsACString
