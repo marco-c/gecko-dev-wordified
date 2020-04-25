@@ -131,6 +131,11 @@ CFTypeRefPtr
 h
 '
 '
+DesktopBackgroundImage
+.
+h
+'
+'
 MediaHardwareKeysEventSourceMac
 .
 h
@@ -434,6 +439,11 @@ SOURCES
 +
 =
 [
+'
+DesktopBackgroundImage
+.
+mm
+'
 '
 MediaHardwareKeysEventSourceMac
 .
