@@ -92,7 +92,7 @@ constants
 )
 ;
 const
-WorkerList
+RegistrationList
 =
 createFactory
 (
@@ -113,7 +113,7 @@ service
 -
 workers
 /
-WorkerList
+RegistrationList
 "
 )
 )
@@ -124,7 +124,7 @@ WorkerList
 *
 Test
 for
-workerList
+RegistrationList
 .
 js
 component
@@ -133,7 +133,7 @@ component
 describe
 (
 "
-WorkerList
+RegistrationList
 "
 (
 )
@@ -153,7 +153,7 @@ list
 with
 a
 single
-worker
+registration
 "
 (
 )
@@ -165,7 +165,7 @@ wrapper
 =
 shallow
 (
-WorkerList
+RegistrationList
 (
 {
 workers
@@ -200,7 +200,7 @@ snapshot
 for
 a
 multiple
-workers
+registration
 list
 "
 (
@@ -213,7 +213,7 @@ wrapper
 =
 shallow
 (
-WorkerList
+RegistrationList
 (
 {
 workers

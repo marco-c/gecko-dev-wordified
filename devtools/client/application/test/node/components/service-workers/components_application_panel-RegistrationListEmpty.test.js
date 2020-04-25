@@ -61,7 +61,7 @@ react
 )
 ;
 const
-WorkerListEmpty
+RegistrationListEmpty
 =
 createFactory
 (
@@ -82,7 +82,7 @@ service
 -
 workers
 /
-WorkerListEmpty
+RegistrationListEmpty
 "
 )
 )
@@ -93,7 +93,7 @@ WorkerListEmpty
 *
 Test
 for
-workerListEmpty
+RegistrationListEmpty
 .
 js
 component
@@ -102,7 +102,7 @@ component
 describe
 (
 "
-WorkerListEmpty
+RegistrationListEmpty
 "
 (
 )
@@ -127,7 +127,7 @@ wrapper
 =
 shallow
 (
-WorkerListEmpty
+RegistrationListEmpty
 (
 {
 }

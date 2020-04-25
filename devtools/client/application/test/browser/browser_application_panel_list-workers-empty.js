@@ -128,7 +128,7 @@ querySelector
 .
 js
 -
-worker
+registration
 -
 list
 -

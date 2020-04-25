@@ -264,7 +264,7 @@ workers
 *
 /
 class
-WorkerList
+RegistrationList
 extends
 PureComponent
 {
@@ -315,14 +315,14 @@ article
 className
 :
 "
-workers
+registrations
 -
 container
 "
 key
 :
 "
-workers
+registrations
 -
 container
 "
@@ -463,5 +463,5 @@ module
 .
 exports
 =
-WorkerList
+RegistrationList
 ;
