@@ -1449,7 +1449,7 @@ i18n
 getMessage
 (
 "
-doorhangerBody
+doorhangerBodyNew
 "
 )
 okLabel
