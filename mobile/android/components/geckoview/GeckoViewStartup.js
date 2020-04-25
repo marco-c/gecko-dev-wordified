@@ -1563,7 +1563,7 @@ aData
 requestedLocales
 ;
 }
-let
+const
 pls
 =
 Cc

@@ -136,7 +136,7 @@ charCodeAt
 buffer
 ;
 {
-let
+const
 chromeScript
 =
 SpecialPowers
@@ -190,7 +190,7 @@ cleanup
 "
 )
 ;
-let
+const
 results
 =
 await

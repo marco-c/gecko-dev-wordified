@@ -740,7 +740,7 @@ isBrowserWindow
 window
 )
 {
-let
+const
 {
 documentElement
 }
@@ -770,7 +770,7 @@ window
 listener
 )
 {
-let
+const
 listeners
 =
 this
@@ -793,7 +793,7 @@ listener
 )
 )
 {
-let
+const
 wrapper
 =
 new
@@ -819,7 +819,7 @@ window
 listener
 )
 {
-let
+const
 listeners
 =
 this
@@ -831,7 +831,7 @@ get
 window
 )
 ;
-let
+const
 wrapper
 =
 listeners
@@ -1047,7 +1047,7 @@ fire
 =
 >
 {
-let
+const
 listener2
 =
 {
@@ -2085,7 +2085,7 @@ tabId
 )
 )
 {
-let
+const
 data
 =
 Object
@@ -2375,7 +2375,7 @@ default_
 undefined
 )
 {
-let
+const
 nativeTab
 =
 tabTracker
@@ -2497,7 +2497,7 @@ windowId
 context
 )
 {
-let
+const
 window
 =
 windowTracker
@@ -2525,7 +2525,7 @@ context
 {
 for
 (
-let
+const
 window
 of
 windowTracker
@@ -2550,7 +2550,7 @@ context
 continue
 ;
 }
-let
+const
 wrapped
 =
 this

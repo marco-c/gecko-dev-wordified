@@ -718,7 +718,7 @@ being
 changed
 else
 added
-let
+const
 item
 =
 AboutConfig
@@ -1587,7 +1587,7 @@ container
 "
 )
 ;
-let
+const
 list
 =
 Services
@@ -1645,7 +1645,7 @@ filter
 string
 >
 param
-let
+const
 match
 =
 /
@@ -2052,7 +2052,7 @@ clear
 the
 prefsContainer
 list
-let
+const
 empty
 =
 this
@@ -2143,7 +2143,7 @@ AC_addMorePrefsToContainer
 Create
 filter
 regex
-let
+const
 filterExp
 =
 this
@@ -2177,7 +2177,7 @@ for
 the
 display
 list
-let
+const
 prefsBuffer
 =
 [
@@ -2533,7 +2533,7 @@ selected
 aSelection
 )
 {
-let
+const
 currentSelection
 =
 this
@@ -2737,7 +2737,7 @@ AC_getPrefForNode
 aNode
 )
 {
-let
+const
 pref
 =
 aNode
@@ -2775,7 +2775,7 @@ AC_selectOrToggleBoolPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -2824,7 +2824,7 @@ is
 boolean
 toggle
 it
-let
+const
 pref
 =
 this
@@ -2877,7 +2877,7 @@ AC_setIntOrStringPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -2892,7 +2892,7 @@ aEvent
 Skip
 if
 locked
-let
+const
 pref
 =
 this
@@ -2995,7 +2995,7 @@ AC_resetDefaultPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -3038,7 +3038,7 @@ handle
 any
 locked
 condition
-let
+const
 pref
 =
 this
@@ -3091,7 +3091,7 @@ AC_toggleBoolPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -3109,7 +3109,7 @@ locked
 or
 not
 boolean
-let
+const
 pref
 =
 this
@@ -3177,7 +3177,7 @@ aEvent
 aInt
 )
 {
-let
+const
 node
 =
 this
@@ -3192,7 +3192,7 @@ aEvent
 Skip
 if
 locked
-let
+const
 pref
 =
 this
@@ -3235,7 +3235,7 @@ aTopic
 aPrefName
 )
 {
-let
+const
 pref
 =
 new
@@ -3322,7 +3322,7 @@ update
 in
 place
 .
-let
+const
 item
 =
 document
@@ -3372,7 +3372,7 @@ pref
 value
 )
 ;
-let
+const
 input
 =
 item
@@ -3464,7 +3464,7 @@ it
 s
 being
 added
-let
+const
 anyWhere
 =
 this
@@ -3526,7 +3526,7 @@ AC_clipboardCopy
 aField
 )
 {
-let
+const
 pref
 =
 this
@@ -4118,7 +4118,7 @@ menu
 "
 )
 ;
-let
+const
 prefName
 =
 document
@@ -4179,7 +4179,7 @@ appendChild
 prefName
 )
 ;
-let
+const
 prefItemLine
 =
 document
@@ -4203,7 +4203,7 @@ item
 line
 "
 ;
-let
+const
 prefValue
 =
 document
@@ -4283,7 +4283,7 @@ appendChild
 prefValue
 )
 ;
-let
+const
 resetButton
 =
 document
@@ -4350,7 +4350,7 @@ appendChild
 resetButton
 )
 ;
-let
+const
 toggleButton
 =
 document
@@ -4417,7 +4417,7 @@ appendChild
 toggleButton
 )
 ;
-let
+const
 upButton
 =
 document
@@ -4470,7 +4470,7 @@ appendChild
 upButton
 )
 ;
-let
+const
 downButton
 =
 document
@@ -4613,7 +4613,7 @@ this
 value
 )
 ;
-let
+const
 valDiv
 =
 this

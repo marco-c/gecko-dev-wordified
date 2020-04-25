@@ -418,7 +418,7 @@ oldPrefs
 {
 for
 (
-let
+const
 [
 name
 value

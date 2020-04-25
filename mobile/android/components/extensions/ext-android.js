@@ -155,7 +155,7 @@ tabId
 0
 )
 {
-let
+const
 tab
 =
 extension

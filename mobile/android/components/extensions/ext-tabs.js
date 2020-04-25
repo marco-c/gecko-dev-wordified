@@ -135,7 +135,7 @@ domWindow
 ;
 }
 ;
-let
+const
 tabListener
 =
 {
@@ -274,7 +274,7 @@ promises
 if
 any
 .
-let
+const
 deferred
 =
 this
@@ -510,14 +510,14 @@ getAPI
 context
 )
 {
-let
+const
 {
 extension
 }
 =
 context
 ;
-let
+const
 {
 tabManager
 }
@@ -642,7 +642,7 @@ return
 tab
 ;
 }
-let
+const
 self
 =
 {
@@ -669,7 +669,7 @@ fire
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -788,7 +788,7 @@ fire
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -942,7 +942,7 @@ data
 =
 >
 {
-let
+const
 tab
 =
 tabManager
@@ -1066,7 +1066,7 @@ fire
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -1250,7 +1250,7 @@ extension
 changeInfo
 )
 {
-let
+const
 result
 =
 {
@@ -1263,7 +1263,7 @@ false
 ;
 for
 (
-let
+const
 prop
 in
 changeInfo
@@ -1313,7 +1313,7 @@ result
 ]
 ;
 }
-let
+const
 fireForTab
 =
 (
@@ -1323,7 +1323,7 @@ changed
 =
 >
 {
-let
+const
 [
 needed
 changeInfo
@@ -1358,14 +1358,14 @@ convert
 }
 }
 ;
-let
+const
 listener
 =
 event
 =
 >
 {
-let
+const
 needed
 =
 [
@@ -1465,7 +1465,7 @@ nativeTab
 return
 ;
 }
-let
+const
 tab
 =
 tabManager
@@ -1475,7 +1475,7 @@ getWrapper
 nativeTab
 )
 ;
-let
+const
 changeInfo
 =
 {
@@ -1483,7 +1483,7 @@ changeInfo
 ;
 for
 (
-let
+const
 prop
 of
 needed
@@ -1508,7 +1508,7 @@ changeInfo
 ;
 }
 ;
-let
+const
 statusListener
 =
 (
@@ -1535,7 +1535,7 @@ if
 tab
 )
 {
-let
+const
 changed
 =
 {
@@ -2171,7 +2171,7 @@ tabId
 reloadProperties
 )
 {
-let
+const
 nativeTab
 =
 getTabOrActive
@@ -2441,7 +2441,7 @@ windowId
 options
 )
 {
-let
+const
 window
 =
 windowId
@@ -2461,7 +2461,7 @@ windowId
 context
 )
 ;
-let
+const
 tab
 =
 tabManager
@@ -2500,7 +2500,7 @@ tabId
 details
 )
 {
-let
+const
 tab
 =
 await
@@ -2526,7 +2526,7 @@ tabId
 details
 )
 {
-let
+const
 tab
 =
 await
@@ -2552,7 +2552,7 @@ tabId
 details
 )
 {
-let
+const
 tab
 =
 await

@@ -758,7 +758,7 @@ clear
 (
 )
 ;
-let
+const
 data
 =
 this
@@ -824,7 +824,7 @@ changeLocation
 aUri
 }
 ;
-let
+const
 data
 =
 this
@@ -852,7 +852,7 @@ debug
 ProgressTracker
 stop
 ;
-let
+const
 data
 =
 this
@@ -984,7 +984,7 @@ handleEvent
 aEvent
 )
 {
-let
+const
 data
 =
 this
@@ -1292,7 +1292,7 @@ debug
 ProgressTracker
 updateProgress
 ;
-let
+const
 data
 =
 this

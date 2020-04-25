@@ -72,7 +72,7 @@ tabId
 options
 )
 {
-let
+const
 {
 frameId
 =
@@ -116,7 +116,7 @@ options
 responseCallback
 )
 {
-let
+const
 recipient
 =
 {

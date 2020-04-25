@@ -1075,7 +1075,7 @@ remote
 attr
 )
 .
-let
+const
 disabledModules
 =
 [

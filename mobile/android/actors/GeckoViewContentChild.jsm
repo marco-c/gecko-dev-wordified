@@ -173,7 +173,7 @@ contentWindow
 =
 this
 ;
-let
+const
 history
 =
 SessionHistory
@@ -216,7 +216,7 @@ zoom
 =
 1
 ;
-let
+const
 domWindowUtils
 =
 contentWindow
@@ -278,13 +278,13 @@ different
 screen
 orientation
 .
-let
+const
 displaySize
 =
 {
 }
 ;
-let
+const
 width
 =
 {
