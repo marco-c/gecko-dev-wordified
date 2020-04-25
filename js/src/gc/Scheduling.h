@@ -3640,7 +3640,7 @@ const
 bool
 IncrementalWeakMapMarkingEnabled
 =
-false
+true
 ;
 /
 *
