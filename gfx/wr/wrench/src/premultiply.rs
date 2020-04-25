@@ -206,6 +206,13 @@ u8
 ;
 }
 }
+#
+[
+allow
+(
+unused
+)
+]
 pub
 fn
 unpremultiply
