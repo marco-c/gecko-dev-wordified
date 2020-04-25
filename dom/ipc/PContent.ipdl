@@ -5959,16 +5959,6 @@ uint8_t
 bits
 )
 ;
-sync
-GetShowPasswordSetting
-(
-)
-returns
-(
-bool
-showPassword
-)
-;
 /
 /
 Notify
