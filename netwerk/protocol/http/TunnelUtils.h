@@ -1537,8 +1537,12 @@ aTransport
 nsHttpConnectionInfo
 *
 aConnInfo
+const
+nsACString
+&
+aFlat407Headers
 int32_t
-httpResponseCode
+aHttpResponseCode
 )
 ;
 [

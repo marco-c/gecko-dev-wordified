@@ -1041,6 +1041,15 @@ aResponseCode
 )
 override
 ;
+void
+SetFlat407Headers
+(
+const
+nsACString
+&
+aHeaders
+)
+;
 /
 /
 This
@@ -1775,6 +1784,9 @@ mHttpVersion
 ;
 uint16_t
 mHttpResponseCode
+;
+nsCString
+mFlat407Headers
 ;
 uint32_t
 mCurrentHttpResponseHeaderSize
