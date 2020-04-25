@@ -485,7 +485,6 @@ vec
 [
 complex_clip
 ]
-None
 )
 ;
 /

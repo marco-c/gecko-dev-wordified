@@ -2048,7 +2048,6 @@ vec
 !
 [
 ]
-None
 )
 ;
 let
@@ -2691,7 +2690,6 @@ vec
 !
 [
 ]
-None
 )
 ;
 let
@@ -3418,7 +3416,6 @@ vec
 !
 [
 ]
-None
 )
 ;
 let
@@ -3723,7 +3720,6 @@ vec
 !
 [
 ]
-None
 )
 ;
 let
@@ -4028,7 +4024,6 @@ vec
 !
 [
 ]
-None
 )
 ;
 let
@@ -7312,7 +7307,6 @@ None
 <
 ComplexClipRegion
 >
-None
 )
 ;
 builder
@@ -7408,7 +7402,6 @@ None
 <
 ComplexClipRegion
 >
-None
 )
 ;
 let
@@ -7644,7 +7637,6 @@ None
 <
 ComplexClipRegion
 >
-None
 )
 ;
 builder
@@ -9303,7 +9295,6 @@ rect
 .
 )
 ]
-None
 )
 ;
 builder
@@ -9430,7 +9421,6 @@ rect
 .
 )
 ]
-None
 )
 ;
 let
