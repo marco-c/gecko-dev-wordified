@@ -261,7 +261,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -280,7 +280,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -322,7 +322,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 tab
 "
@@ -349,7 +349,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "

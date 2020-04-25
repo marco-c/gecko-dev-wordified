@@ -1677,7 +1677,7 @@ selectTab
 (
 PANELS
 .
-PARAMS
+REQUEST
 2
 )
 ;
