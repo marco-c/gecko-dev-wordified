@@ -171,6 +171,15 @@ components
 \
 ]
 /
+"
+.
+.
+/
+.
+.
+/
+shared
+"
 ]
 presets
 :
