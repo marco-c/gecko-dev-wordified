@@ -72,7 +72,7 @@ output
 .
 requestLongerTimeout
 (
-6
+3
 )
 ;
 function

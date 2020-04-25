@@ -373,17 +373,6 @@ appendChild
 root
 )
 ;
-const
-toolboxDoc
-=
-panel
-.
-panelWin
-.
-parent
-.
-document
-;
 ReactDOM
 .
 render
@@ -415,9 +404,6 @@ React
 createElement
 (
 component
-{
-toolboxDoc
-}
 )
 )
 )
