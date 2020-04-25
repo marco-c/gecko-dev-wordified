@@ -2775,8 +2775,8 @@ DBUS_MRPIS_SERVICE_NAME
 .
 instance
 %
+d
 "
-PRId32
 getpid
 (
 )
