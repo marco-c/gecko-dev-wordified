@@ -297,7 +297,6 @@ vec
 !
 [
 ]
-None
 ScrollSensitivity
 :
 :
@@ -645,7 +644,6 @@ vec
 !
 [
 ]
-None
 ScrollSensitivity
 :
 :

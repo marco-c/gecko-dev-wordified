@@ -5121,9 +5121,7 @@ complex_clip
 iter
 (
 )
-info
-.
-image_mask
+None
 &
 current_offset
 )
