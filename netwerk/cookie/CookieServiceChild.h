@@ -167,9 +167,6 @@ nsThreadUtils
 h
 "
 class
-nsICookiePermission
-;
-class
 nsIEffectiveTLDService
 ;
 class
@@ -426,12 +423,6 @@ nsCOMPtr
 nsITimer
 >
 mCookieTimer
-;
-nsCOMPtr
-<
-nsICookiePermission
->
-mPermissionService
 ;
 nsCOMPtr
 <

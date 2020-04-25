@@ -116,13 +116,6 @@ h
 #
 include
 "
-nsICookiePermission
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -1106,12 +1099,6 @@ aParams
 cached
 members
 .
-nsCOMPtr
-<
-nsICookiePermission
->
-mPermissionService
-;
 nsCOMPtr
 <
 mozIThirdPartyUtil
