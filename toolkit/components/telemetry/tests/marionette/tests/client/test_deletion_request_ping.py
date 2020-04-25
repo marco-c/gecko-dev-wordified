@@ -91,7 +91,7 @@ ping
 "
     
 def
-test_optout_ping_across_sessions
+test_deletion_request_ping_across_sessions
 (
 self
 )
@@ -270,7 +270,8 @@ no
 pings
 since
 "
-optout
+disabling
+telemetry
 "
 .
         
