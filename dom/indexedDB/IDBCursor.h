@@ -672,6 +672,15 @@ GetDirection
 )
 const
 ;
+RefPtr
+<
+IDBRequest
+>
+Request
+(
+)
+const
+;
 virtual
 void
 GetKey
