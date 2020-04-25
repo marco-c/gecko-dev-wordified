@@ -513,10 +513,6 @@ components
 /
 preferences
 /
-in
--
-content
-/
 privacy
 .
 js

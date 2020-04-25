@@ -1656,6 +1656,8 @@ content
 /
 preferences
 /
+dialogs
+/
 translation
 .
 xhtml
@@ -2235,6 +2237,8 @@ browser
 content
 /
 preferences
+/
+dialogs
 /
 translation
 .

@@ -880,10 +880,6 @@ content
 /
 preferences
 /
-in
--
-content
-/
 preferences
 .
 xhtml

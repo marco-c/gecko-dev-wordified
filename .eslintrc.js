@@ -8270,10 +8270,6 @@ components
 /
 preferences
 /
-in
--
-content
-/
 tests
 /
 browser_contentblocking

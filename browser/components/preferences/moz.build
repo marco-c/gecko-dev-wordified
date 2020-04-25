@@ -90,9 +90,7 @@ DIRS
 =
 [
 '
-in
--
-content
+dialogs
 '
 ]
 BROWSER_CHROME_MANIFESTS
@@ -100,10 +98,6 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 '
-in
--
-content
-/
 tests
 /
 browser
@@ -111,10 +105,6 @@ browser
 ini
 '
 '
-in
--
-content
-/
 tests
 /
 siteData
