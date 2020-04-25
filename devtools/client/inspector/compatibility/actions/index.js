@@ -153,6 +153,17 @@ COMPATIBILITY_UPDATE_SELECTED_NODE_ISSUES
 /
 Updates
 the
+settings
+panel
+visibility
+.
+"
+COMPATIBILITY_UPDATE_SETTINGS_VISIBILITY
+"
+/
+/
+Updates
+the
 target
 browsers
 .
