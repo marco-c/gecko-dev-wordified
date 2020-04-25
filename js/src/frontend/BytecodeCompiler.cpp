@@ -5394,17 +5394,6 @@ ImmutableFlags
 :
 HasNonSyntacticScope
 )
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
-NeedsFunctionEnvironmentObjects
-)
 ;
 /
 /

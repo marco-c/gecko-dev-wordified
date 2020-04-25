@@ -26606,14 +26606,6 @@ ImmutableFlags
 HasNonSyntacticScope
 )
 ;
-clearFlag
-(
-ImmutableFlags
-:
-:
-NeedsFunctionEnvironmentObjects
-)
-;
 /
 /
 We
