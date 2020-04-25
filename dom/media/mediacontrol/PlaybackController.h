@@ -93,6 +93,9 @@ mozilla
 namespace
 dom
 {
+class
+MediaSession
+;
 /
 *
 *
@@ -315,6 +318,11 @@ PlaybackController
 default
 ;
 void
+Focus
+(
+)
+;
+void
 Play
 (
 )
@@ -361,6 +369,12 @@ SeekTo
 ;
 private
 :
+MediaSession
+*
+GetMediaSession
+(
+)
+;
 RefPtr
 <
 BrowsingContext

@@ -171,6 +171,7 @@ ePrevTrack
 eNextTrack
 eSeekBackward
 eSeekForward
+eFocus
 /
 /
 Keep
