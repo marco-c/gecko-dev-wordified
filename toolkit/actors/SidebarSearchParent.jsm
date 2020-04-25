@@ -187,6 +187,7 @@ AddEngine
 "
 )
 {
+return
 this
 .
 addSearchEngine
@@ -197,6 +198,17 @@ data
 )
 ;
 }
+return
+Promise
+.
+reject
+(
+"
+Unsupported
+message
+"
+)
+;
 }
 /
 /
@@ -210,6 +222,7 @@ window
 external
 .
 AddSearchProvider
+async
 addSearchEngine
 (
 {
@@ -520,6 +533,7 @@ spec
 ]
 )
 ;
+await
 Services
 .
 prompt
@@ -535,8 +549,10 @@ msg
 )
 ;
 return
+undefined
 ;
 }
+return
 Services
 .
 search
