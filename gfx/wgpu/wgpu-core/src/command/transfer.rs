@@ -86,6 +86,13 @@ BufferId
 CommandEncoderId
 TextureId
 }
+resource
+:
+:
+{
+BufferUse
+TextureUse
+}
 }
 ;
 use
@@ -638,7 +645,7 @@ buffer_guard
 source
 (
 )
-BufferUsage
+BufferUse
 :
 :
 COPY_SRC
@@ -700,7 +707,7 @@ buffer_guard
 destination
 (
 )
-BufferUsage
+BufferUse
 :
 :
 COPY_DST
@@ -978,7 +985,7 @@ source
 buffer
 (
 )
-BufferUsage
+BufferUse
 :
 :
 COPY_SRC
@@ -1044,7 +1051,7 @@ to_selector
 (
 aspects
 )
-TextureUsage
+TextureUse
 :
 :
 COPY_DST
@@ -1424,7 +1431,7 @@ to_selector
 (
 aspects
 )
-TextureUsage
+TextureUse
 :
 :
 COPY_SRC
@@ -1486,7 +1493,7 @@ destination
 buffer
 (
 )
-BufferUsage
+BufferUse
 :
 :
 COPY_DST
@@ -1917,7 +1924,7 @@ to_selector
 (
 aspects
 )
-TextureUsage
+TextureUse
 :
 :
 COPY_SRC
@@ -1985,7 +1992,7 @@ to_selector
 (
 aspects
 )
-TextureUsage
+TextureUse
 :
 :
 COPY_DST

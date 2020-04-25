@@ -192,7 +192,6 @@ pub
 mod
 command
 ;
-pub
 mod
 conv
 ;
@@ -228,7 +227,6 @@ pub
 mod
 swap_chain
 ;
-pub
 mod
 track
 ;

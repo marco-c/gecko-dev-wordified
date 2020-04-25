@@ -118,6 +118,9 @@ Drain
 }
 ;
 pub
+(
+crate
+)
 use
 buffer
 :
@@ -125,6 +128,9 @@ buffer
 BufferState
 ;
 pub
+(
+crate
+)
 use
 texture
 :
@@ -3333,6 +3339,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 TrackerSet
 {
