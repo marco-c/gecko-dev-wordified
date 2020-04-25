@@ -168,7 +168,7 @@ shallow
 RegistrationList
 (
 {
-workers
+registrations
 :
 SINGLE_WORKER_DEFAULT_DOMAIN_LIST
 canDebugWorkers
@@ -216,7 +216,7 @@ shallow
 RegistrationList
 (
 {
-workers
+registrations
 :
 MULTIPLE_WORKER_LIST
 canDebugWorkers

@@ -546,7 +546,7 @@ return
 {
 id
 :
-registrationFront
+workerFront
 .
 id
 name
