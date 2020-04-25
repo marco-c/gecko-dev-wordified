@@ -117,13 +117,6 @@ h
 #
 include
 "
-CookiePermission
-.
-h
-"
-#
-include
-"
 CookieService
 .
 h
