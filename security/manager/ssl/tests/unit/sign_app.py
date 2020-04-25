@@ -116,9 +116,11 @@ import
 sha1
 sha256
 import
-StringIO
-import
 argparse
+from
+io
+import
+StringIO
 import
 os
 import
@@ -129,6 +131,8 @@ import
 pykey
 import
 re
+import
+six
 import
 zipfile
 ES256
@@ -1014,16 +1018,16 @@ issuerKey
 certSpecificationStream
 =
 StringIO
-.
-StringIO
 (
 )
     
 print
->
->
-certSpecificationStream
+(
 certSpecification
+file
+=
+certSpecificationStream
+)
     
 certSpecificationStream
 .
@@ -1553,6 +1557,9 @@ with
 open
 (
 fullPath
+'
+rb
+'
 )
 as
 inputFile
@@ -1808,9 +1815,15 @@ base64hash
 =
 b64encode
 (
+                    
 hashFunc
 (
+six
+.
+ensure_binary
+(
 mfContents
+)
 )
 .
 digest
@@ -1873,11 +1886,16 @@ n
 '
 %
 (
+                    
 name
-                                                 
 hashFunc
 (
+six
+.
+ensure_binary
+(
 sfContents
+)
 )
 .
 hexdigest
@@ -1935,16 +1953,16 @@ digitalSignature
 cmsSpecificationStream
 =
 StringIO
-.
-StringIO
 (
 )
             
 print
->
->
-cmsSpecificationStream
+(
 cmsSpecification
+file
+=
+cmsSpecificationStream
+)
             
 cmsSpecificationStream
 .

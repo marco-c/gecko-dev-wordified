@@ -477,6 +477,7 @@ tbsCertificate
         
 data
 =
+b
 '
 \
 0
@@ -486,6 +487,7 @@ data
 +
 timestamp
 +
+b
 '
 \
 0
@@ -503,6 +505,7 @@ self
 .
 tbsCertificate
 +
+b
 '
 \
 0
@@ -524,6 +527,7 @@ ECCKey
             
 signatureByte
 =
+b
 '
 \
 3
@@ -543,6 +547,7 @@ RSAKey
             
 signatureByte
 =
+b
 '
 \
 1
@@ -768,6 +773,7 @@ signature
 )
         
 return
+b
 '
 \
 0
@@ -777,6 +783,7 @@ key_id
 +
 timestamp
 +
+b
 '
 \
 0
