@@ -119,6 +119,13 @@ h
 #
 include
 "
+mozIDOMWindow
+.
+h
+"
+#
+include
+"
 nsArray
 .
 h
