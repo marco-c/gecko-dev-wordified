@@ -2794,13 +2794,14 @@ typed
 objects
 .
 enum
+class
 TypedThingLayout
 :
 uint8_t
 {
-Layout_TypedArray
-Layout_OutlineTypedObject
-Layout_InlineTypedObject
+TypedArray
+OutlineTypedObject
+InlineTypedObject
 }
 ;
 void

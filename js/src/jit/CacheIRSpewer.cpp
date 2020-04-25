@@ -467,7 +467,10 @@ layout
 )
 {
 case
-Layout_TypedArray
+TypedThingLayout
+:
+:
+TypedArray
 :
 out_
 .
@@ -484,7 +487,10 @@ name
 return
 ;
 case
-Layout_OutlineTypedObject
+TypedThingLayout
+:
+:
+OutlineTypedObject
 :
 out_
 .
@@ -501,7 +507,10 @@ name
 return
 ;
 case
-Layout_InlineTypedObject
+TypedThingLayout
+:
+:
+InlineTypedObject
 :
 out_
 .
