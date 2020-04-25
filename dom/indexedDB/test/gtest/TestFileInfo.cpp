@@ -191,11 +191,7 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 TestFileManager
 )
-[
-[
-nodiscard
-]
-]
+MOZ_MUST_USE
 nsresult
 AsyncDeleteFile
 (
@@ -232,11 +228,7 @@ return
 NS_OK
 ;
 }
-[
-[
-nodiscard
-]
-]
+MOZ_MUST_USE
 nsresult
 SyncDeleteFile
 (
