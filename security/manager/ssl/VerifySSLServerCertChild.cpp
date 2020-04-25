@@ -249,6 +249,10 @@ const
 uint8_t
 &
 aEVStatus
+const
+bool
+&
+aIsBuiltCertChainRootBuiltInRoot
 )
 {
 MOZ_LOG
@@ -358,6 +362,7 @@ aEVStatus
 true
 0
 0
+aIsBuiltCertChainRootBuiltInRoot
 )
 ;
 return
@@ -473,6 +478,7 @@ NotEV
 false
 aFinalError
 aCollectedErrors
+false
 )
 ;
 return

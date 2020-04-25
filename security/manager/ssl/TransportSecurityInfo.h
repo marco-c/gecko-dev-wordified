@@ -670,6 +670,9 @@ mNegotiatedNPN
 bool
 mResumed
 ;
+bool
+mIsBuiltCertChainRootBuiltInRoot
+;
 private
 :
 uint32_t

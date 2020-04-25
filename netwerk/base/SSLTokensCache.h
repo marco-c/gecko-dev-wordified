@@ -177,6 +177,12 @@ uint8_t
 >
 mSucceededCertChainBytes
 ;
+Maybe
+<
+bool
+>
+mIsBuiltCertChainRootBuiltInRoot
+;
 }
 ;
 class

@@ -7517,6 +7517,8 @@ EVStatus
 aEvStatus
 bool
 aSucceeded
+bool
+aIsCertChainRootBuiltInRoot
 )
 {
 MOZ_ASSERT
@@ -7600,6 +7602,14 @@ p
 "
 aCert
 )
+)
+;
+aInfoObject
+-
+>
+SetIsBuiltCertChainRootBuiltInRoot
+(
+aIsCertChainRootBuiltInRoot
 )
 ;
 aInfoObject
@@ -7757,6 +7767,14 @@ out
 CertificateTransparencyInfo
 &
 certificateTransparencyInfo
+/
+*
+out
+*
+/
+bool
+&
+aIsCertChainRootBuiltInRoot
 )
 {
 MOZ_ASSERT
@@ -7918,6 +7936,8 @@ pinningTelemetryInfo
 certificateTransparencyInfo
 &
 crliteTelemetryInfo
+&
+aIsCertChainRootBuiltInRoot
 )
 ;
 CollectCertTelemetry
@@ -8979,6 +8999,11 @@ evOidPolicy
 CertificateTransparencyInfo
 certificateTransparencyInfo
 ;
+bool
+isCertChainRootBuiltInRoot
+=
+false
+;
 Result
 rv
 =
@@ -9000,6 +9025,7 @@ mCertVerifierFlags
 builtCertChain
 evOidPolicy
 certificateTransparencyInfo
+isCertChainRootBuiltInRoot
 )
 ;
 RefPtr
@@ -9126,6 +9152,7 @@ evStatus
 true
 0
 0
+isCertChainRootBuiltInRoot
 )
 ;
 return
@@ -9226,6 +9253,7 @@ NotEV
 false
 finalError
 collectedErrors
+false
 )
 ;
 return
@@ -10680,6 +10708,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsCertChainRootBuiltInRoot
 )
 {
 mCert
@@ -10725,6 +10755,10 @@ aFinalError
 mCollectedErrors
 =
 aCollectedErrors
+;
+mIsBuiltCertChainRootBuiltInRoot
+=
+aIsCertChainRootBuiltInRoot
 ;
 nsresult
 rv
@@ -10863,6 +10897,7 @@ mPeerCertChain
 mCertificateTransparencyStatus
 mEVStatus
 mSucceeded
+mIsBuiltCertChainRootBuiltInRoot
 )
 ;
 if

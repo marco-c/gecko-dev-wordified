@@ -147,6 +147,8 @@ uint16_t
 aCertTransparencyStatus
 uint8_t
 aEVStatus
+bool
+isBuiltCertChainRootBuiltInRoot
 )
 ;
 async

@@ -248,6 +248,10 @@ const
 uint8_t
 &
 aEVStatus
+const
+bool
+&
+aIsBuiltCertChainRootBuiltInRoot
 )
 ;
 ipc

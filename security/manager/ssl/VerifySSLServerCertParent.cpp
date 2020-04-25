@@ -249,6 +249,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsBuiltCertChainRootBuiltInRoot
 )
 {
 AssertIsOnBackgroundThread
@@ -279,6 +281,7 @@ SendOnVerifiedSSLServerCertSuccess
 aBuiltCertChain
 aCertificateTransparencyStatus
 aEVStatus
+aIsBuiltCertChainRootBuiltInRoot
 )
 ;
 }
@@ -375,6 +378,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsBuiltCertChainRootBuiltInRoot
 )
 override
 ;
@@ -440,6 +445,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsBuiltCertChainRootBuiltInRoot
 )
 {
 nsTArray
@@ -513,6 +520,7 @@ aEVStatus
 aSucceeded
 aFinalError
 aCollectedErrors
+aIsBuiltCertChainRootBuiltInRoot
 ]
 (
 )
@@ -534,6 +542,7 @@ aEVStatus
 aSucceeded
 aFinalError
 aCollectedErrors
+aIsBuiltCertChainRootBuiltInRoot
 )
 ;
 }

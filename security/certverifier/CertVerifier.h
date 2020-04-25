@@ -1437,6 +1437,17 @@ CRLiteTelemetryInfo
 crliteInfo
 =
 nullptr
+/
+*
+optional
+out
+*
+/
+bool
+*
+isBuiltCertChainRootBuiltInRoot
+=
+nullptr
 )
 ;
 enum
