@@ -305,6 +305,9 @@ SetGamepadIsConnected
 (
 bool
 aConnected
+XRSession
+*
+aSession
 )
 ;
 void
