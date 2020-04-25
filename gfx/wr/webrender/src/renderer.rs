@@ -14389,6 +14389,7 @@ SceneBuilderThread
 new
 (
 config
+device_pixel_ratio
 make_size_of_ops
 (
 )
