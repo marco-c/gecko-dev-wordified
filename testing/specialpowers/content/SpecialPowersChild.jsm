@@ -7768,7 +7768,7 @@ _getMUDV
 window
 )
 .
-deviceFullZoom
+deviceFullZoomForTest
 ;
 }
 setFullZoom
