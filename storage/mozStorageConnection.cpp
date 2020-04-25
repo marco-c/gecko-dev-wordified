@@ -12249,15 +12249,11 @@ to
 our
 array
 .
-NS_ENSURE_TRUE
-(
 stmts
 .
 AppendElement
 (
 data
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }

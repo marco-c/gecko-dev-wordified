@@ -2012,7 +2012,6 @@ is
 shutdown
 .
 auto
-*
 request
 =
 mQueryRequests

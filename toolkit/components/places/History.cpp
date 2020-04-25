@@ -11769,8 +11769,6 @@ placeArray
 1
 )
 ;
-NS_ENSURE_TRUE
-(
 placeArray
 .
 AppendElement
@@ -11780,8 +11778,6 @@ VisitData
 aURI
 aLastVisitedURI
 )
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 VisitData

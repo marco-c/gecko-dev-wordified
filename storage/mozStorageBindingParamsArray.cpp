@@ -513,15 +513,11 @@ this
 return
 NS_ERROR_UNEXPECTED
 ;
-NS_ENSURE_TRUE
-(
 mArray
 .
 AppendElement
 (
 params
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 /

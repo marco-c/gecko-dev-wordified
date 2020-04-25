@@ -20239,7 +20239,6 @@ aItems
 )
 {
 auto
-*
 newItem
 =
 aResult

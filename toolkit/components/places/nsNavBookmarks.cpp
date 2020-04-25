@@ -12084,15 +12084,11 @@ rv
 rv
 )
 ;
-NS_ENSURE_TRUE
-(
 aBookmarks
 .
 AppendElement
 (
 bookmark
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 }
