@@ -340,10 +340,6 @@ js
 :
 :
 CanReuseScriptForClone
-js
-:
-:
-FunctionFlags
 JSFunction
 #
 include
