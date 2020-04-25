@@ -28,6 +28,12 @@ mozperftest
 environment
 import
 METRICS
+from
+mozperftest
+.
+utils
+import
+silence
 HERE
 =
 os
@@ -179,6 +185,9 @@ with
 metrics
 as
 m
+silence
+(
+)
 :
             
 m
