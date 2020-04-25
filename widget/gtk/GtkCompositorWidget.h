@@ -202,8 +202,12 @@ aOptions
 nsWindow
 *
 aWindow
+/
+*
 =
 nullptr
+*
+/
 )
 ;
 ~
@@ -385,6 +389,9 @@ mXWindow
 ;
 WindowSurfaceProvider
 mProvider
+;
+bool
+mIsX11Display
 ;
 }
 ;
