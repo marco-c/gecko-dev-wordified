@@ -1,6 +1,4 @@
 use
-:
-:
 HeaderValue
 ;
 /
@@ -362,7 +360,6 @@ derive
 Clone
 Debug
 PartialEq
-Header
 )
 ]
 pub
@@ -372,6 +369,17 @@ Upgrade
 HeaderValue
 )
 ;
+derive_header
+!
+{
+Upgrade
+(
+_
+)
+name
+:
+UPGRADE
+}
 impl
 Upgrade
 {

@@ -855,12 +855,6 @@ use
 super
 :
 :
-*
-;
-use
-super
-:
-:
 super
 :
 :
@@ -868,6 +862,12 @@ super
 test_decode
 test_encode
 }
+;
+use
+super
+:
+:
+*
 ;
 #
 [

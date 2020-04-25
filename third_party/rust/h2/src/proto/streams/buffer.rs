@@ -509,14 +509,12 @@ idxs
 )
 ;
 }
-return
 Some
 (
 slot
 .
 value
 )
-;
 }
 None
 =
@@ -524,6 +522,8 @@ None
 None
 }
 }
+/
+*
 pub
 fn
 peek_front
@@ -586,4 +586,6 @@ None
 None
 }
 }
+*
+/
 }

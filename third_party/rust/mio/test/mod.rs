@@ -1240,15 +1240,6 @@ std
 :
 thread
 ;
-use
-std
-:
-:
-time
-:
-:
-Duration
-;
 thread
 :
 :

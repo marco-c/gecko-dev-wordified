@@ -14,6 +14,9 @@ ENCODE_TABLE
 }
 ;
 use
+crate
+:
+:
 hpack
 :
 :
@@ -223,7 +226,7 @@ Ok
 (
 buf
 .
-take
+split
 (
 )
 )

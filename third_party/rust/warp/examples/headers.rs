@@ -6,14 +6,6 @@ deny
 warnings
 )
 ]
-extern
-crate
-pretty_env_logger
-;
-extern
-crate
-warp
-;
 use
 std
 :
@@ -79,6 +71,14 @@ a
 is
 returned
 .
+#
+[
+tokio
+:
+:
+main
+]
+async
 fn
 main
 (
@@ -214,5 +214,7 @@ run
 3030
 )
 )
+.
+await
 ;
 }

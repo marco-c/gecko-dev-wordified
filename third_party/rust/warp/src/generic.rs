@@ -424,8 +424,6 @@ Self
 :
 Tuple
 {
-(
-)
 }
 }
 impl
@@ -456,8 +454,6 @@ Self
 :
 HList
 {
-(
-)
 }
 }
 impl
@@ -523,6 +519,7 @@ R
 >
 Func
 <
+crate
 :
 :
 Rejection
@@ -534,6 +531,7 @@ F
 :
 Fn
 (
+crate
 :
 :
 Rejection
@@ -558,6 +556,7 @@ call
 self
 arg
 :
+crate
 :
 :
 Rejection

@@ -66,9 +66,9 @@ headers
 /
 0
 .
-2
+3
 .
-1
+2
 "
 )
 ]
@@ -653,14 +653,6 @@ bytes
 extern
 crate
 headers_core
-;
-#
-[
-macro_use
-]
-extern
-crate
-headers_derive
 ;
 extern
 crate

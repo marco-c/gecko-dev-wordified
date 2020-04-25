@@ -1,7 +1,4 @@
 use
-http
-;
-use
 super
 :
 :
@@ -10,6 +7,9 @@ Error
 Header
 HeaderValue
 }
+;
+use
+http
 ;
 /
 /
@@ -187,16 +187,6 @@ H
 name
 (
 )
-)
-.
-expect
-(
-"
-HeaderName
-is
-always
-valid
-"
 )
 ;
 let

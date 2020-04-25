@@ -5,9 +5,7 @@ util
 FlatCsv
 ;
 use
-{
 HeaderValue
-}
 ;
 /
 /
@@ -241,7 +239,6 @@ derive
 Debug
 Clone
 PartialEq
-Header
 )
 ]
 pub
@@ -251,6 +248,17 @@ Vary
 FlatCsv
 )
 ;
+derive_header
+!
+{
+Vary
+(
+_
+)
+name
+:
+VARY
+}
 impl
 Vary
 {

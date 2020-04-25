@@ -265,7 +265,6 @@ derive
 Debug
 Clone
 PartialEq
-Header
 )
 ]
 pub
@@ -275,6 +274,17 @@ Referer
 HeaderValue
 )
 ;
+derive_header
+!
+{
+Referer
+(
+_
+)
+name
+:
+REFERER
+}
 impl
 Referer
 {

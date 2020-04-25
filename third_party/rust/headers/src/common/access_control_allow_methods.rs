@@ -264,7 +264,6 @@ derive
 Clone
 Debug
 PartialEq
-Header
 )
 ]
 pub
@@ -274,6 +273,17 @@ AccessControlAllowMethods
 FlatCsv
 )
 ;
+derive_header
+!
+{
+AccessControlAllowMethods
+(
+_
+)
+name
+:
+ACCESS_CONTROL_ALLOW_METHODS
+}
 impl
 AccessControlAllowMethods
 {
@@ -328,7 +338,6 @@ filter_map
 |
 s
 |
-{
 s
 .
 parse
@@ -338,7 +347,6 @@ parse
 ok
 (
 )
-}
 )
 }
 }
@@ -442,12 +450,6 @@ use
 super
 :
 :
-*
-;
-use
-super
-:
-:
 super
 :
 :
@@ -455,6 +457,12 @@ super
 test_decode
 test_encode
 }
+;
+use
+super
+:
+:
+*
 ;
 #
 [

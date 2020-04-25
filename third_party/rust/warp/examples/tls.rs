@@ -6,10 +6,6 @@ deny
 warnings
 )
 ]
-extern
-crate
-warp
-;
 /
 /
 Don
@@ -45,6 +41,14 @@ tls
 "
 )
 ]
+#
+[
+tokio
+:
+:
+main
+]
+async
 fn
 main
 (
@@ -97,6 +101,10 @@ routes
 .
 tls
 (
+)
+.
+cert_path
+(
 "
 examples
 /
@@ -106,6 +114,10 @@ cert
 .
 pem
 "
+)
+.
+key_path
+(
 "
 examples
 /
@@ -129,6 +141,8 @@ run
 3030
 )
 )
+.
+await
 ;
 }
 #

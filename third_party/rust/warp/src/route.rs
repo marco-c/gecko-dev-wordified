@@ -1,4 +1,10 @@
 use
+scoped_tls
+:
+:
+scoped_thread_local
+;
+use
 std
 :
 :
@@ -32,6 +38,9 @@ hyper
 Body
 ;
 use
+crate
+:
+:
 Request
 ;
 scoped_thread_local
@@ -74,7 +83,7 @@ U
 where
 F
 :
-FnMut
+FnOnce
 (
 )
 -
@@ -245,9 +254,9 @@ path
 .
 starts_with
 (
-"
+'
 /
-"
+'
 )
 {
 /
@@ -386,6 +395,8 @@ extensions
 (
 )
 }
+/
+*
 pub
 (
 crate
@@ -414,6 +425,8 @@ extensions_mut
 (
 )
 }
+*
+/
 pub
 (
 crate

@@ -237,7 +237,6 @@ derive
 Clone
 Debug
 PartialEq
-Header
 )
 ]
 pub
@@ -247,6 +246,17 @@ Te
 FlatCsv
 )
 ;
+derive_header
+!
+{
+Te
+(
+_
+)
+name
+:
+TE
+}
 impl
 Te
 {

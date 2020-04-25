@@ -825,6 +825,9 @@ is_reset_counted
 bool
 )
 {
+log
+:
+:
 trace
 !
 (
@@ -942,6 +945,9 @@ stream
 .
 is_counted
 {
+log
+:
+:
 trace
 !
 (

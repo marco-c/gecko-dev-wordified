@@ -55,17 +55,6 @@ extern
 crate
 libc
 ;
-#
-[
-cfg
-(
-windows
-)
-]
-extern
-crate
-winapi
-;
 mod
 sys
 ;

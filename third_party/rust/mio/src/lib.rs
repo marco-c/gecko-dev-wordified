@@ -20,7 +20,7 @@ mio
 .
 6
 .
-19
+21
 "
 )
 ]
@@ -51,7 +51,9 @@ APIs
 [
 allow
 (
+bare_trait_objects
 deprecated
+unknown_lints
 )
 ]
 #

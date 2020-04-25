@@ -256,7 +256,6 @@ Eq
 PartialOrd
 Ord
 Hash
-Header
 )
 ]
 pub
@@ -270,6 +269,17 @@ super
 HttpDate
 )
 ;
+derive_header
+!
+{
+LastModified
+(
+_
+)
+name
+:
+LAST_MODIFIED
+}
 impl
 From
 <

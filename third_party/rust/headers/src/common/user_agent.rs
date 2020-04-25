@@ -336,7 +336,6 @@ Eq
 PartialOrd
 Ord
 Hash
-Header
 )
 ]
 pub
@@ -346,6 +345,17 @@ UserAgent
 HeaderValueString
 )
 ;
+derive_header
+!
+{
+UserAgent
+(
+_
+)
+name
+:
+USER_AGENT
+}
 impl
 UserAgent
 {

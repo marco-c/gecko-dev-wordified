@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 frame
 :
 :
@@ -14,9 +17,7 @@ use
 bytes
 :
 :
-{
 BufMut
-}
 ;
 const
 SIZE_INCREMENT_MASK
@@ -146,6 +147,7 @@ head
 kind
 (
 )
+crate
 :
 :
 frame
@@ -224,10 +226,6 @@ Error
 :
 :
 InvalidWindowUpdateValue
-.
-into
-(
-)
 )
 ;
 }
@@ -264,6 +262,9 @@ mut
 B
 )
 {
+log
+:
+:
 trace
 !
 (
@@ -311,7 +312,7 @@ dst
 ;
 dst
 .
-put_u32_be
+put_u32
 (
 self
 .
