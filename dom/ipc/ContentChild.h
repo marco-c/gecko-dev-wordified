@@ -4702,6 +4702,10 @@ nsDocShellLoadState
 aLoadState
 bool
 aSetNavigating
+LoadURIResolver
+&
+&
+aResolve
 )
 ;
 mozilla
