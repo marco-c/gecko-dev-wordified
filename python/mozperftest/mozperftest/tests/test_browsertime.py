@@ -275,7 +275,11 @@ env
 get_arg
 (
 "
-browser_browsertime_extra_options
+browsertime
+-
+extra
+-
+options
 "
 )
     
