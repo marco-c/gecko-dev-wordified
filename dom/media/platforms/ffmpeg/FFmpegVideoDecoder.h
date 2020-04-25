@@ -625,6 +625,9 @@ const
 bool
 mDisableHardwareDecoding
 ;
+VADisplay
+mDisplay
+;
 #
 endif
 RefPtr
