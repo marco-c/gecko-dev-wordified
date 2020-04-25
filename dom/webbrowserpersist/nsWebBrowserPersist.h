@@ -382,9 +382,6 @@ class
 OnWalk
 ;
 class
-OnRemoteWalk
-;
-class
 OnWrite
 ;
 class
