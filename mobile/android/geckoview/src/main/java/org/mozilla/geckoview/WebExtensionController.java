@@ -3849,6 +3849,9 @@ IntDef
 EnableSource
 .
 USER
+EnableSource
+.
+APP
 }
 )
 interface
