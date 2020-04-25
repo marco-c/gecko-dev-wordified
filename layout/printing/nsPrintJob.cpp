@@ -26840,7 +26840,7 @@ child
 bc
 -
 >
-GetChildren
+Children
 (
 )
 )

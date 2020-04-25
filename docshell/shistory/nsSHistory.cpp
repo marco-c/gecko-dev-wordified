@@ -2526,7 +2526,7 @@ child
 aBC
 -
 >
-GetChildren
+Children
 (
 )
 )
