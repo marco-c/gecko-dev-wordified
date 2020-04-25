@@ -686,19 +686,6 @@ showInConsole
 True
         
 #
-Enable
-Marionette
-component
-        
-"
-marionette
-.
-enabled
-"
-:
-True
-        
-#
 (
 deprecated
 and
