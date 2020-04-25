@@ -274,13 +274,7 @@ void
 DefaultCheckOverflowing
 (
 )
-{
-CheckOverflowing
-(
-mResizeImageByDefault
-)
 ;
-}
 /
 /
 WebIDL
@@ -538,12 +532,6 @@ mImageWidth
 ;
 int32_t
 mImageHeight
-;
-bool
-mResizeImageByDefault
-;
-bool
-mClickResizingEnabled
 ;
 bool
 mImageIsOverflowingHorizontally
