@@ -462,6 +462,10 @@ nsIChannel
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIIdentChannel
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsITraceableChannel
 )
 NS_INTERFACE_MAP_ENTRY_CONCRETE
