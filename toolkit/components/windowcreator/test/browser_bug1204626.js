@@ -165,7 +165,15 @@ persistable
 .
 startPersistence
 (
-null
+/
+*
+outer
+window
+ID
+:
+*
+/
+0
 {
 onDocumentReady
 onError

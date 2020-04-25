@@ -2452,12 +2452,12 @@ non
 -
 null
 ;
-aContext
+aOuterWindowID
 can
 /
 /
 be
-null
+0
 to
 indicate
 the
@@ -2468,9 +2468,7 @@ current
 root
 document
 or
-non
--
-null
+nonzero
 /
 /
 to
@@ -2492,6 +2490,8 @@ and
 should
 be
 null
+/
+zero
 .
 async
 PWebBrowserPersistDocument
@@ -2499,8 +2499,8 @@ PWebBrowserPersistDocument
 nullable
 PBrowser
 aBrowser
-MaybeDiscardedBrowsingContext
-aContext
+uint64_t
+aOuterWindowID
 )
 ;
 child
