@@ -117,9 +117,6 @@ false
 sendSyncMessage
 :
 false
-sendRpcMessage
-:
-false
 tabEventTarget
 :
 false
