@@ -86,9 +86,8 @@ tb
 =
 document
 .
-createElementNS
+createXULElement
 (
-kNSXUL
 "
 toolbar
 "

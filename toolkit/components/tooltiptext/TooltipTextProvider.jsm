@@ -215,7 +215,7 @@ xlink
 "
 ;
 const
-XULNS
+XUL_NS
 =
 "
 http
@@ -847,7 +847,7 @@ tipElement
 namespaceURI
 =
 =
-XULNS
+XUL_NS
 )
 {
 XULtooltiptextText

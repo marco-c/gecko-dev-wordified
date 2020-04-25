@@ -5239,7 +5239,7 @@ label
 )
 {
 const
-XULNS
+XUL_NS
 =
 "
 http
@@ -5274,7 +5274,7 @@ this
 .
 getElementsByTagNameNS
 (
-XULNS
+XUL_NS
 "
 label
 "

@@ -179,9 +179,8 @@ gLazyArea
 =
 document
 .
-createElementNS
+createXULElement
 (
-kNSXUL
 "
 panel
 "
