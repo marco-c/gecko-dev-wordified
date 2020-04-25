@@ -197,9 +197,6 @@ DocumentChannelParent
 CanonicalBrowsingContext
 *
 aContext
-nsILoadContext
-*
-aLoadContext
 )
 {
 LOG
@@ -254,7 +251,6 @@ new
 DocumentLoadListener
 (
 aContext
-aLoadContext
 this
 )
 ;
