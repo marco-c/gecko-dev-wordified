@@ -1254,8 +1254,9 @@ aRv
 void
 StartPersistence
 (
-uint64_t
-aOuterWindowID
+BrowsingContext
+*
+aContext
 nsIWebBrowserPersistDocumentReceiver
 *
 aRecv

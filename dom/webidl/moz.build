@@ -3606,11 +3606,6 @@ FormData
 webidl
 '
 '
-FrameLoader
-.
-webidl
-'
-'
 Function
 .
 webidl
