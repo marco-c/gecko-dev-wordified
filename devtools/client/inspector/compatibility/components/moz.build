@@ -93,6 +93,11 @@ CompatibilityApp
 js
 "
 "
+Footer
+.
+js
+"
+"
 IssueItem
 .
 js
