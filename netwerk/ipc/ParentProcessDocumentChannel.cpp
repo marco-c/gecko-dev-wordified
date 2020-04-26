@@ -710,18 +710,6 @@ this
 )
 )
 ;
-nsCOMPtr
-<
-nsILoadContext
->
-loadContext
-;
-NS_QueryNotificationCallbacks
-(
-this
-loadContext
-)
-;
 mDocumentLoadListener
 =
 new
@@ -740,7 +728,6 @@ GetBrowsingContext
 Canonical
 (
 )
-loadContext
 this
 )
 ;
