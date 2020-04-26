@@ -786,6 +786,17 @@ GetMediaController
 )
 ;
 bool
+AttemptLoadURIInParent
+(
+nsDocShellLoadState
+*
+aLoadState
+uint32_t
+*
+aLoadIdentifier
+)
+;
+bool
 HasHistoryEntry
 (
 nsISHEntry
