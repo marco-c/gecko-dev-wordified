@@ -318,6 +318,13 @@ Browser
 ResetEnterpriseRootsPref
 "
 ]
+RPMRecordTelemetryEvent
+:
+[
+"
+*
+"
+]
 RPMAddMessageListener
 :
 [
