@@ -23120,14 +23120,6 @@ NS_OK
 ;
 }
 NS_IMETHOD
-GetNestedFrameId
-(
-uint64_t
-*
-)
-NO_IMPL
-;
-NS_IMETHOD
 GetIsContent
 (
 bool
