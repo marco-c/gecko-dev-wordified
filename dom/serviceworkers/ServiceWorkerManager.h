@@ -1644,7 +1644,11 @@ JSExnType
 aExnType
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 GenericErrorResultPromise
@@ -1660,7 +1664,11 @@ ServiceWorkerRegistrationInfo
 aWorkerRegistration
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 GenericErrorResultPromise
