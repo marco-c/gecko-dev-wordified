@@ -5854,7 +5854,7 @@ a
 I32
 c
 =
-roundfast
+round_pixel
 (
 (
 Float
@@ -5865,9 +5865,6 @@ g
 r
 a
 }
-255
-.
-49f
 )
 ;
 ctx
@@ -6005,7 +6002,7 @@ a
 I32
 c
 =
-roundfast
+round_pixel
 (
 (
 Float
@@ -6016,9 +6013,6 @@ g
 r
 a
 }
-255
-.
-49f
 )
 ;
 ctx
@@ -15118,12 +15112,9 @@ v
 ivec4
 i
 =
-roundfast
+round_pixel
 (
 v
-255
-.
-49f
 )
 ;
 HalfRGBA8
@@ -15210,7 +15201,7 @@ v
 I32
 i
 =
-roundfast
+round_pixel
 (
 (
 Float
@@ -15229,9 +15220,6 @@ v
 .
 w
 }
-255
-.
-49f
 )
 ;
 HalfRGBA8
@@ -16216,12 +16204,9 @@ c
 return
 packR8
 (
-roundfast
+round_pixel
 (
 c
-255
-.
-49f
 )
 )
 ;
