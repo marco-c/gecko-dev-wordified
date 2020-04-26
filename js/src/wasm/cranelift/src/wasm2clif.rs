@@ -292,8 +292,8 @@ bindings
 :
 {
 self
-SymbolicAddress
 GlobalDesc
+SymbolicAddress
 }
 ;
 use

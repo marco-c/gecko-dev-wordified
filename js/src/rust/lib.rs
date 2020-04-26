@@ -130,11 +130,11 @@ jsrust_shared
 ;
 extern
 crate
-wat
+wasmparser
 ;
 extern
 crate
-wasmparser
+wat
 ;
 mod
 wasm
