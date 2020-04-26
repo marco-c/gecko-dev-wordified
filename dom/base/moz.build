@@ -168,6 +168,11 @@ nsIDroppedLinkHandler
 idl
 '
 '
+nsIEventSourceEventService
+.
+idl
+'
+'
 nsIImageLoadingContent
 .
 idl
@@ -987,6 +992,11 @@ EventSource
 h
 '
 '
+EventSourceEventService
+.
+h
+'
+'
 FilteredNodeIterator
 .
 h
@@ -1570,6 +1580,11 @@ cpp
 '
 '
 EventSource
+.
+cpp
+'
+'
+EventSourceEventService
 .
 cpp
 '
