@@ -1306,9 +1306,10 @@ else
 MOZ_ASSERT
 (
 !
-JSID_IS_GCTHING
-(
 id
+.
+isGCThing
+(
 )
 )
 ;

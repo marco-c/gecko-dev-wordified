@@ -3407,9 +3407,10 @@ id
 )
 {
 return
-JSID_IS_GCTHING
-(
 id
+.
+isGCThing
+(
 )
 ;
 }
