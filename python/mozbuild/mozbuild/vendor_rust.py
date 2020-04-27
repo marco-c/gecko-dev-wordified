@@ -65,6 +65,8 @@ errno
 import
 hashlib
 import
+io
+import
 logging
 import
 os
@@ -2409,11 +2411,20 @@ lines
 .
             
 with
+io
+.
 open
 (
 toml_file
 '
 r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
