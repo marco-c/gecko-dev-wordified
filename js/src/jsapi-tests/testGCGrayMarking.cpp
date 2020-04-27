@@ -3632,9 +3632,10 @@ isGCThing
 !
 CheckCellColor
 (
-JSID_TO_GCTHING
-(
 id
+.
+toGCCellPtr
+(
 )
 .
 asCell

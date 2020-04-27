@@ -368,14 +368,15 @@ isGCThing
 {
 mCallback
 (
-JSID_TO_GCTHING
-(
 aPtr
 -
 >
 unbarrieredGet
 (
 )
+.
+toGCCellPtr
+(
 )
 aName
 aClosure
