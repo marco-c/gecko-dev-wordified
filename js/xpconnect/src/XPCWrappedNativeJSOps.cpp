@@ -2546,16 +2546,9 @@ else
 if
 (
 id
-=
-=
-SYMBOL_TO_JSID
+.
+isWellKnownSymbol
 (
-JS
-:
-:
-GetWellKnownSymbol
-(
-ccx
 JS
 :
 :
@@ -2563,7 +2556,6 @@ SymbolCode
 :
 :
 toPrimitive
-)
 )
 )
 {
