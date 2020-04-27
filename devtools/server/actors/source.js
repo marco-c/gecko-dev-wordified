@@ -1286,12 +1286,8 @@ url
 sourceMapURL
 :
 source
-?
-source
 .
 sourceMapURL
-:
-null
 introductionUrl
 :
 introductionUrl
@@ -1314,12 +1310,8 @@ null
 introductionType
 :
 source
-?
-source
 .
 introductionType
-:
-null
 }
 ;
 }
@@ -1573,11 +1565,6 @@ headers
 .
 if
 (
-this
-.
-_source
-&
-&
 this
 .
 _source
