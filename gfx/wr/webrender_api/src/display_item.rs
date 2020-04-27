@@ -1414,10 +1414,6 @@ ClipId
 ScrollFrame
 (
 ScrollFrameDisplayItem
-Vec
-<
-ComplexClipRegion
->
 )
 StickyFrame
 (
@@ -2243,16 +2239,6 @@ external_scroll_offset
 :
 LayoutVector2D
 }
-/
-/
-IMPLICIT
-:
-complex_clips
-:
-Vec
-<
-ComplexClipRegion
->
 /
 /
 /

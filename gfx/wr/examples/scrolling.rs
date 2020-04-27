@@ -293,10 +293,6 @@ by
 1000
 )
 scrollbox
-vec
-!
-[
-]
 ScrollSensitivity
 :
 :
@@ -640,10 +636,6 @@ to
 200
 300
 )
-vec
-!
-[
-]
 ScrollSensitivity
 :
 :
