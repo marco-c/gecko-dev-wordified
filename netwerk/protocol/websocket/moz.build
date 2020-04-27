@@ -126,11 +126,6 @@ nsIWebSocketEventService
 idl
 '
 '
-nsIWebSocketImpl
-.
-idl
-'
-'
 nsIWebSocketListener
 .
 idl
