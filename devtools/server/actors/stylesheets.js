@@ -2478,6 +2478,17 @@ styleSheetIndex
 this
 .
 styleSheetIndex
+sourceMapBaseURL
+:
+this
+.
+href
+|
+|
+docHref
+|
+|
+null
 sourceMapURL
 :
 this
