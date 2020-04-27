@@ -91,7 +91,6 @@ eponymous_only_module
 DummyTab
 >
 (
-1
 )
 ;
 #
@@ -117,6 +116,7 @@ base
 :
 sqlite3_vtab
 }
+unsafe
 impl
 VTab
 for
@@ -298,6 +298,7 @@ row_id
 :
 i64
 }
+unsafe
 impl
 VTabCursor
 for

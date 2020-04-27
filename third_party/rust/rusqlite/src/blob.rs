@@ -772,10 +772,10 @@ BLOB
 located
 in
 row_id
+/
+/
+/
 column
-/
-/
-/
 table
 in
 database
