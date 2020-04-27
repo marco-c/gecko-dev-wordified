@@ -205,6 +205,7 @@ ev
 ;
 }
 }
+static
 get
 markup
 (
@@ -229,9 +230,9 @@ chrome
 /
 global
 /
-content
+skin
 /
-widgets
+popup
 .
 css
 "
@@ -284,13 +285,6 @@ vbox
 >
 <
 arrowscrollbox
-class
-=
-"
-menupopup
--
-arrowscrollbox
-"
 flex
 =
 "
@@ -3509,6 +3503,7 @@ pack
 }
 ;
 }
+static
 get
 markup
 (
@@ -3533,9 +3528,9 @@ chrome
 /
 global
 /
-content
+skin
 /
-widgets
+popup
 .
 css
 "
@@ -3671,13 +3666,6 @@ vbox
 >
 <
 arrowscrollbox
-class
-=
-"
-menupopup
--
-arrowscrollbox
-"
 flex
 =
 "
