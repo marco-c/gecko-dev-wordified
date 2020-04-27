@@ -1195,7 +1195,12 @@ fname
 )
         
 except
+(
 TypeError
+binascii
+.
+Error
+)
 :
             
 #
