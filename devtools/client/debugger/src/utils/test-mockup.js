@@ -203,9 +203,6 @@ url
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 isWasm
 :
 false
@@ -407,9 +404,6 @@ url
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 isWasm
 :
 true

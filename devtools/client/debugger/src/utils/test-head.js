@@ -614,10 +614,6 @@ string
 props
 :
 {
-introductionType
-?
-:
-string
 introductionUrl
 ?
 :
@@ -661,14 +657,6 @@ introductionUrl
 props
 .
 introductionUrl
-|
-|
-null
-introductionType
-:
-props
-.
-introductionType
 |
 |
 null
