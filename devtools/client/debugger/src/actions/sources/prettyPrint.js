@@ -518,9 +518,6 @@ true
 isWasm
 :
 false
-introductionUrl
-:
-null
 isExtension
 :
 false
