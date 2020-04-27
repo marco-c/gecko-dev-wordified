@@ -282,9 +282,8 @@ const
 OriginAttributes
 &
 aOriginAttributes
-const
-URIParams
-&
+nsIURI
+*
 aHost
 bool
 aFromHttp
@@ -306,9 +305,8 @@ ipc
 IPCResult
 RecvPrepareCookieList
 (
-const
-URIParams
-&
+nsIURI
+*
 aHost
 const
 bool
