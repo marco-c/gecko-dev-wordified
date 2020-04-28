@@ -218,7 +218,7 @@ mContainerTemplate
 new
 txPushParams
 ;
-nsAutoPtr
+UniquePtr
 <
 txNodeTest
 >
@@ -234,7 +234,7 @@ NODE_TYPE
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -1905,7 +1905,7 @@ txExpandedName
 )
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txDecimalFormat
 >
@@ -2109,7 +2109,7 @@ if
 templates
 )
 {
-nsAutoPtr
+UniquePtr
 <
 nsTArray
 <
@@ -2179,7 +2179,7 @@ according
 to
 default
 priority
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -2196,7 +2196,7 @@ aTemplate
 mMatch
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -3004,7 +3004,7 @@ return
 NS_OK
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 GlobalVariable
 >
@@ -3084,12 +3084,12 @@ const
 txExpandedName
 &
 aName
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
 aMatch
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -3195,7 +3195,7 @@ const
 txExpandedName
 &
 aName
-nsAutoPtr
+UniquePtr
 <
 txDecimalFormat
 >
@@ -3322,14 +3322,14 @@ GlobalVariable
 :
 GlobalVariable
 (
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
 &
 &
 aExpr
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >

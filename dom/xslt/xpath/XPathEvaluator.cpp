@@ -569,7 +569,7 @@ new
 txResultRecycler
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -756,7 +756,7 @@ ErrorResult
 rv
 )
 {
-nsAutoPtr
+UniquePtr
 <
 XPathExpression
 >

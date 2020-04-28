@@ -324,7 +324,10 @@ mLoadResult
 )
 ;
 }
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txXPathNode
 >
@@ -380,7 +383,10 @@ friend
 class
 txExecutionState
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txXPathNode
 >
@@ -756,7 +762,10 @@ txAXMLEventHandler
 *
 mResultHandler
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txAXMLEventHandler
 >

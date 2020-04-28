@@ -271,7 +271,7 @@ txTemplateItem
 :
 txTemplateItem
 (
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -331,7 +331,7 @@ const
 txExpandedName
 &
 aName
-nsAutoPtr
+UniquePtr
 <
 Expr
 >

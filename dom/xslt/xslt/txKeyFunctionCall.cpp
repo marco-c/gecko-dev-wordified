@@ -1344,14 +1344,14 @@ txXSLKey
 :
 addKey
 (
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
 &
 &
 aMatch
-nsAutoPtr
+UniquePtr
 <
 Expr
 >

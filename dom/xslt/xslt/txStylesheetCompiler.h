@@ -541,7 +541,10 @@ closeInstructionContainer
 void
 addInstruction
 (
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txInstruction
 >
@@ -732,7 +735,10 @@ txHandlerTable
 *
 mHandlerTable
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txElementContext
 >
@@ -742,7 +748,10 @@ txPushNewContext
 *
 mSorter
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txList
 >

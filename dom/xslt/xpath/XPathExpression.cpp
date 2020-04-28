@@ -285,7 +285,7 @@ XPathExpression
 :
 XPathExpression
 (
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -723,7 +723,7 @@ return
 nullptr
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >

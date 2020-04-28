@@ -284,7 +284,7 @@ txIEvalContext
 aContext
 )
 {
-nsAutoPtr
+UniquePtr
 <
 SortKey
 >

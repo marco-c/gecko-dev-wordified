@@ -200,7 +200,7 @@ return
 rv
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -1730,7 +1730,7 @@ rv
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txStepPattern
 >

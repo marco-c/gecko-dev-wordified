@@ -239,7 +239,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -315,7 +315,7 @@ start
 =
 iter
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -973,7 +973,7 @@ return
 rv
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -1139,13 +1139,13 @@ txExprParser
 :
 createBinaryExpr
 (
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
 &
 left
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -1668,7 +1668,7 @@ done
 =
 false
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -1898,7 +1898,7 @@ to
 order
 of
 evaluation
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -1918,7 +1918,7 @@ pop
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -2016,7 +2016,7 @@ isEmpty
 )
 )
 {
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -2036,7 +2036,7 @@ pop
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -2164,7 +2164,7 @@ peek
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -2420,7 +2420,7 @@ Token
 L_BRACKET
 )
 {
-nsAutoPtr
+UniquePtr
 <
 FilterExpr
 >
@@ -2513,7 +2513,7 @@ aResult
 =
 nullptr
 ;
-nsAutoPtr
+UniquePtr
 <
 FunctionCall
 >
@@ -2831,7 +2831,7 @@ LocationStep
 :
 CHILD_AXIS
 ;
-nsAutoPtr
+UniquePtr
 <
 txNodeTest
 >
@@ -3431,7 +3431,7 @@ rv
 ;
 }
 }
-nsAutoPtr
+UniquePtr
 <
 LocationStep
 >
@@ -3539,7 +3539,7 @@ aTest
 =
 0
 ;
-nsAutoPtr
+UniquePtr
 <
 txNodeTypeTest
 >
@@ -3814,7 +3814,7 @@ aResult
 =
 nullptr
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -4043,7 +4043,7 @@ PathExpr
 containing
 several
 steps
-nsAutoPtr
+UniquePtr
 <
 PathExpr
 >
@@ -4268,7 +4268,7 @@ aResult
 =
 nullptr
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -4324,7 +4324,7 @@ return
 NS_OK
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 UnionExpr
 >
@@ -4668,7 +4668,7 @@ txIParseContext
 aContext
 )
 {
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -4899,7 +4899,7 @@ return
 NS_OK
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 Expr
 >

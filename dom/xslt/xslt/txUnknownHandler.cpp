@@ -989,7 +989,7 @@ eHTMLOutput
 eXMLOutput
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txAXMLEventHandler
 >
@@ -1141,7 +1141,7 @@ mEs
 >
 mResultHandler
 .
-nsAutoPtr
+UniquePtr
 <
 txResultBuffer
 >

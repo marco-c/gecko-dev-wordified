@@ -593,7 +593,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -810,7 +810,7 @@ aRequired
 txStylesheetCompilerState
 &
 aState
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -952,7 +952,7 @@ aRequired
 txStylesheetCompilerState
 &
 aState
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -1093,7 +1093,7 @@ aRequired
 txStylesheetCompilerState
 &
 aState
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -2130,7 +2130,7 @@ double
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -2142,7 +2142,7 @@ txRootPattern
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txTemplateItem
 >
@@ -2248,7 +2248,7 @@ popHandlerTable
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -2548,7 +2548,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txAttributeSetItem
 >
@@ -2629,7 +2629,7 @@ popHandlerTable
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -2722,7 +2722,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txDecimalFormat
 >
@@ -3086,7 +3086,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txImportItem
 >
@@ -3414,7 +3414,7 @@ txIParseContext
 :
 KEY_FUNCTION
 ;
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -3441,7 +3441,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -3682,7 +3682,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 txOutputItem
 >
@@ -4067,7 +4067,7 @@ hasMoreTokens
 )
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txExpandedName
 >
@@ -4296,7 +4296,7 @@ nsGkAtoms
 :
 stripSpace
 ;
-nsAutoPtr
+UniquePtr
 <
 txStripSpaceItem
 >
@@ -4584,7 +4584,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txStripSpaceTest
 >
@@ -4777,7 +4777,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -4808,7 +4808,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txTemplateItem
 >
@@ -4876,7 +4876,7 @@ popHandlerTable
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -4970,7 +4970,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -4997,7 +4997,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txVariableItem
 >
@@ -5241,7 +5241,7 @@ mush
 be
 children
 .
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -5401,7 +5401,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -5526,7 +5526,7 @@ nullptr
 continue
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -5610,7 +5610,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -5665,7 +5665,7 @@ aStr
 aState
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -5729,7 +5729,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -5863,7 +5863,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -5943,7 +5943,7 @@ forget
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -5976,7 +5976,7 @@ if
 select
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txNodeTest
 >
@@ -6009,7 +6009,7 @@ CHILD_AXIS
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txPushNewContext
 >
@@ -6113,7 +6113,7 @@ popObject
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -6162,7 +6162,7 @@ popObject
 /
 /
 txApplyTemplates
-nsAutoPtr
+UniquePtr
 <
 txLoopNodeSet
 >
@@ -6285,7 +6285,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -6311,7 +6311,7 @@ instr
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -6338,7 +6338,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -6462,7 +6462,7 @@ popHandlerTable
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -6541,7 +6541,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -6648,7 +6648,7 @@ popHandlerTable
 /
 /
 txCallTemplate
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -6939,7 +6939,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -6978,7 +6978,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7058,7 +7058,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txCopy
 >
@@ -7091,7 +7091,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7146,7 +7146,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7250,7 +7250,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -7277,7 +7277,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7387,7 +7387,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -7414,7 +7414,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -7441,7 +7441,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7515,7 +7515,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7692,7 +7692,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -7719,7 +7719,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txPushNewContext
 >
@@ -7779,7 +7779,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -7895,7 +7895,7 @@ ePushNullTemplateRule
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -8067,7 +8067,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8094,7 +8094,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txConditionalGoto
 >
@@ -8136,7 +8136,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -8242,7 +8242,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -8342,7 +8342,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -8521,7 +8521,7 @@ return
 NS_ERROR_XSLT_PARSE_FAILURE
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -8548,7 +8548,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >
@@ -8575,7 +8575,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8602,7 +8602,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8629,7 +8629,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8656,7 +8656,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8683,7 +8683,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8710,7 +8710,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -8737,7 +8737,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -8991,7 +8991,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txCheckParam
 >
@@ -9032,7 +9032,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -9058,7 +9058,7 @@ instr
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9085,7 +9085,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txSetVariable
 >
@@ -9192,7 +9192,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txSetVariable
 >
@@ -9295,7 +9295,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -9392,7 +9392,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -9418,7 +9418,7 @@ instr
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9498,7 +9498,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -9573,7 +9573,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9606,7 +9606,7 @@ if
 select
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txNodeTest
 >
@@ -9639,7 +9639,7 @@ SELF_AXIS
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9666,7 +9666,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9693,7 +9693,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9720,7 +9720,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -9968,7 +9968,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10062,7 +10062,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -10089,7 +10089,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10226,7 +10226,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -10253,7 +10253,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txSetVariable
 >
@@ -10360,7 +10360,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txSetVariable
 >
@@ -10463,7 +10463,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10515,7 +10515,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10567,7 +10567,7 @@ aStr
 aState
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10640,7 +10640,7 @@ rv
 =
 NS_OK
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -10667,7 +10667,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txConditionalGoto
 >
@@ -10709,7 +10709,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10759,7 +10759,7 @@ popHandlerTable
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txGoTo
 >
@@ -10786,7 +10786,7 @@ get
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -10928,7 +10928,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -10955,7 +10955,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txSetParam
 >
@@ -11062,7 +11062,7 @@ txStylesheetCompilerState
 aState
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txSetParam
 >
@@ -11146,7 +11146,7 @@ EmptyString
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -11295,7 +11295,7 @@ aState
 mSearchingForFallback
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >

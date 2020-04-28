@@ -468,7 +468,7 @@ case
 eHTMLOutput
 :
 {
-nsAutoPtr
+UniquePtr
 <
 txMozillaXMLOutput
 >
@@ -524,7 +524,7 @@ case
 eTextOutput
 :
 {
-nsAutoPtr
+UniquePtr
 <
 txMozillaTextOutput
 >
@@ -651,7 +651,7 @@ case
 eHTMLOutput
 :
 {
-nsAutoPtr
+UniquePtr
 <
 txMozillaXMLOutput
 >
@@ -705,7 +705,7 @@ case
 eTextOutput
 :
 {
-nsAutoPtr
+UniquePtr
 <
 txMozillaTextOutput
 >
@@ -1917,7 +1917,7 @@ IsVoid
 Set
 up
 context
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -1963,7 +1963,7 @@ mRecycler
 /
 /
 Parse
-nsAutoPtr
+UniquePtr
 <
 Expr
 >
@@ -2693,7 +2693,7 @@ bool
 aCreateDataDocument
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -3069,7 +3069,7 @@ return
 nullptr
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -6050,7 +6050,7 @@ if
 node
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -6199,7 +6199,7 @@ length
 i
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -6559,7 +6559,7 @@ SetParameter
 "
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >

@@ -895,7 +895,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -1632,7 +1632,7 @@ stringValue
 value
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
@@ -4275,7 +4275,7 @@ rv
 rv
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >

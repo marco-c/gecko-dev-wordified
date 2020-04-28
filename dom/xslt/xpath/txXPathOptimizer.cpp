@@ -1665,7 +1665,7 @@ if
 unionTest
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txNodeTest
 >

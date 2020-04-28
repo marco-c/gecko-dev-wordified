@@ -766,7 +766,10 @@ E
 aValue
 )
 {
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 E
 >

@@ -618,7 +618,7 @@ countPattern
 =
 aCountPattern
 ;
-nsAutoPtr
+UniquePtr
 <
 txPattern
 >

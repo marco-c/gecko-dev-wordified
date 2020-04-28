@@ -1407,7 +1407,7 @@ rv
 }
 else
 {
-nsAutoPtr
+UniquePtr
 <
 txRtfHandler
 >

@@ -1339,7 +1339,7 @@ count
 i
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >
