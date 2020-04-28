@@ -23,6 +23,12 @@ mozperftest
 environment
 import
 SYSTEM
+from
+mozperftest
+.
+utils
+import
+silence
 def
 test_proxy
 (
@@ -35,6 +41,9 @@ env
 =
 get_running_env
 (
+proxy
+=
+True
 )
     
 system
@@ -64,6 +73,9 @@ with
 system
 as
 proxy
+silence
+(
+)
 :
         
 proxy

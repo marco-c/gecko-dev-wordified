@@ -27,7 +27,7 @@ environment
 import
 MachEnvironment
 class
-TestLayer
+_TestLayer
 (
 Layer
 )
@@ -105,9 +105,9 @@ called
 =
 1
 class
-TestLayer2
+_TestLayer2
 (
-TestLayer
+_TestLayer
 )
 :
     
@@ -151,9 +151,9 @@ arg2
 }
 }
 class
-TestLayer3
+_TestLayer3
 (
-TestLayer
+_TestLayer
 )
 :
     
@@ -194,7 +194,7 @@ ok
 )
     
 with
-TestLayer
+_TestLayer
 (
 env
 mach
@@ -341,9 +341,9 @@ MagicMock
 factories
 =
 [
-TestLayer
-TestLayer2
-TestLayer3
+_TestLayer
+_TestLayer2
+_TestLayer3
 ]
     
 env

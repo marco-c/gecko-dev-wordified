@@ -116,7 +116,7 @@ mach_commands
 import
 Perftest
 class
-TestMachEnvironment
+_TestMachEnvironment
 (
 MachEnvironment
 )
@@ -164,7 +164,7 @@ MachEnvironment
 "
 new
 =
-TestMachEnvironment
+_TestMachEnvironment
 )
 def
 test_command

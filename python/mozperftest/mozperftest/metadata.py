@@ -53,8 +53,17 @@ MPL
 0
 /
 .
+from
+mozperftest
+.
+utils
+import
+MachLogger
 class
 Metadata
+(
+MachLogger
+)
 :
     
 def
@@ -66,6 +75,14 @@ env
 flavor
 )
 :
+        
+MachLogger
+.
+__init__
+(
+self
+mach_cmd
+)
         
 self
 .

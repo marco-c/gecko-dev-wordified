@@ -82,8 +82,8 @@ get_layers
 :
     
 return
-ConsoleOutput
 Perfherder
+ConsoleOutput
 def
 pick_metrics
 (
