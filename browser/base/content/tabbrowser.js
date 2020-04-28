@@ -13521,8 +13521,8 @@ _findBar
 /
 /
 Remove
+potentially
 stale
-loading
 attributes
 .
 let
@@ -13533,10 +13533,13 @@ attributesToRemove
 busy
 "
 "
+pendingicon
+"
+"
 progress
 "
 "
-pendingicon
+soundplaying
 "
 ]
 ;
