@@ -179,6 +179,10 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
+bool
+aUriModified
+bool
+aIsXFOError
 )
 :
 DocumentChannel
@@ -187,6 +191,8 @@ aLoadState
 aLoadInfo
 aLoadFlags
 aCacheKey
+aUriModified
+aIsXFOError
 )
 {
 LOG
@@ -824,7 +830,6 @@ mDocumentLoadListener
 Open
 (
 mLoadState
-mLoadFlags
 mCacheKey
 Some
 (
@@ -859,6 +864,14 @@ GetBrowsingContext
 >
 HasValidTransientUserGestureActivation
 (
+)
+Some
+(
+mUriModified
+)
+Some
+(
+mIsXFOError
 )
 &
 rv

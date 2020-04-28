@@ -160,6 +160,10 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
+bool
+aUriModified
+bool
+aIsXFOError
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

@@ -61679,6 +61679,8 @@ loadInfo
 loadFlags
 this
 cacheKey
+uriModified
+isXFOError
 )
 ;
 MOZ_ASSERT

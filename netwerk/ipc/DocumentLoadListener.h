@@ -665,8 +665,6 @@ Open
 nsDocShellLoadState
 *
 aLoadState
-nsLoadFlags
-aLoadFlags
 uint32_t
 aCacheKey
 const
@@ -697,6 +695,16 @@ uint64_t
 aOuterWindowId
 bool
 aHasGesture
+Maybe
+<
+bool
+>
+aUriModified
+Maybe
+<
+bool
+>
+aIsXFOError
 nsresult
 *
 aRv
