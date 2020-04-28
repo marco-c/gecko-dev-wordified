@@ -1812,9 +1812,6 @@ get_stack_fixer_function
 (
 utilityPath
 symbolsPath
-hideErrors
-=
-False
 )
 :
     
@@ -2067,9 +2064,6 @@ True
 breakpadSymsDir
 =
 symbolsPath
-hide_errors
-=
-hideErrors
 )
     
 elif
@@ -2143,9 +2137,6 @@ line
 slowWarning
 =
 True
-hide_errors
-=
-hideErrors
 )
     
 else

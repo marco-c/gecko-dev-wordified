@@ -190,9 +190,6 @@ False
 breakpadSymsDir
 =
 None
-hide_errors
-=
-False
 )
 :
     
@@ -493,32 +490,6 @@ breakpadSymsDir
 fileid_exe
 )
         
-#
-Sometimes
-we
-need
-to
-prevent
-errors
-from
-going
-to
-stderr
-.
-        
-stderr
-=
-open
-(
-os
-.
-devnull
-)
-if
-hide_errors
-else
-None
-        
 fix_stacks
 =
 Popen
@@ -532,7 +503,7 @@ stdout
 PIPE
 stderr
 =
-stderr
+None
 )
         
 if
