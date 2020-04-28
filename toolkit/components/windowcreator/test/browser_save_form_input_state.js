@@ -197,7 +197,7 @@ frameLoader
 .
 startPersistence
 (
-0
+null
 {
 onDocumentReady
 (

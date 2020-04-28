@@ -8790,7 +8790,7 @@ persistable
 .
 startPersistence
 (
-0
+null
 {
 onDocumentReady
 (
