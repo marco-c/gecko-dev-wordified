@@ -982,13 +982,6 @@ headers
 #
 include
 "
-nsAgg
-.
-h
-"
-#
-include
-"
 nsAutoRef
 .
 h
