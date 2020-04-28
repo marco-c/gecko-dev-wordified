@@ -34083,7 +34083,7 @@ if
 frameSelection
 -
 >
-GetTableCellSelection
+IsInTableSelectionMode
 (
 )
 )

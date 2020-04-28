@@ -2495,7 +2495,7 @@ cell
 *
 /
 bool
-GetTableCellSelection
+IsInTableSelectionMode
 (
 )
 const

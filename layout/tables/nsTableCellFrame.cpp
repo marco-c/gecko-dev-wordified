@@ -464,7 +464,7 @@ if
 frameSelection
 -
 >
-GetTableCellSelection
+IsInTableSelectionMode
 (
 )
 )
@@ -1899,7 +1899,7 @@ if
 frameSelection
 -
 >
-GetTableCellSelection
+IsInTableSelectionMode
 (
 )
 )
