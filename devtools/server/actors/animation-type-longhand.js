@@ -100,6 +100,11 @@ align
 self
 "
 "
+align
+-
+tracks
+"
+"
 -
 moz
 -
@@ -555,6 +560,11 @@ justify
 self
 "
 "
+justify
+-
+tracks
+"
+"
 line
 -
 break
@@ -637,6 +647,13 @@ repeat
 mask
 -
 type
+"
+"
+masonry
+-
+auto
+-
+flow
 "
 "
 mix
