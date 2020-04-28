@@ -11543,7 +11543,7 @@ RecentWindows10
 ScreenSizeStatus
 :
 :
-Small
+All
 BatteryStatus
 :
 :
