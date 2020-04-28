@@ -22082,8 +22082,14 @@ STOP_AT_STACKING_CONTEXT_AND_DISPLAY_PORT
 Matrix4x4Flagged
 GetTransformMatrix
 (
+mozilla
+:
+:
 ViewportType
 aViewportType
+mozilla
+:
+:
 RelativeTo
 aStopAtAncestor
 nsIFrame
