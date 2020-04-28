@@ -17533,8 +17533,6 @@ HTMLInputElement
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {
@@ -17550,7 +17548,6 @@ nsGenericHTMLFormElementWithState
 :
 IsInteractiveHTMLContent
 (
-aIgnoreTabindex
 )
 ;
 }

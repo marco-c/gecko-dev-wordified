@@ -1463,8 +1463,6 @@ HTMLVideoElement
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {
@@ -1484,7 +1482,6 @@ HTMLMediaElement
 :
 IsInteractiveHTMLContent
 (
-aIgnoreTabindex
 )
 ;
 }

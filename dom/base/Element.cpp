@@ -12486,8 +12486,6 @@ Element
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {

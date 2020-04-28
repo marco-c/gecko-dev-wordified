@@ -8411,8 +8411,6 @@ nsXULElement
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {
@@ -8431,7 +8429,6 @@ Element
 :
 IsInteractiveHTMLContent
 (
-aIgnoreTabindex
 )
 ;
 }

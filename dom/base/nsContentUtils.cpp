@@ -14982,7 +14982,6 @@ AsElement
 >
 IsInteractiveHTMLContent
 (
-true
 )
 )
 {
@@ -15041,7 +15040,6 @@ AsElement
 >
 IsInteractiveHTMLContent
 (
-true
 )
 )
 {
@@ -32165,7 +32163,6 @@ element
 >
 IsInteractiveHTMLContent
 (
-true
 )
 )
 {

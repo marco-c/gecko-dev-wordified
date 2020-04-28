@@ -892,8 +892,6 @@ virtual
 bool
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 override
