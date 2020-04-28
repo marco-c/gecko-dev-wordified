@@ -268,6 +268,11 @@ proxy
 settings
 "
 {
+permission
+:
+"
+proxy
+"
 prefNames
 :
 [
