@@ -333,6 +333,7 @@ align
 AlignContent
 AlignItems
 AlignSelf
+AlignTracks
 ContentDistribution
 }
 ;
@@ -359,6 +360,7 @@ align
 JustifyContent
 JustifyItems
 JustifySelf
+JustifyTracks
 SelfAlignment
 }
 ;
@@ -883,6 +885,7 @@ position
 {
 GridAutoFlow
 GridTemplateAreas
+MasonryAutoFlow
 Position
 PositionOrAuto
 }
