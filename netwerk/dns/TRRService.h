@@ -504,6 +504,15 @@ GetParentalControlEnabledInternal
 (
 )
 ;
+void
+SetDetectedTrrURI
+(
+const
+nsACString
+&
+aURI
+)
+;
 bool
 IsDomainBlacklisted
 (
