@@ -6652,15 +6652,6 @@ composite
 after
 this
 one
-(
-if
-the
-APZ
-frame
-delay
-is
-enabled
-)
 .
 bool
 activeAnimations
