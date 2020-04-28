@@ -2805,7 +2805,7 @@ a
 default
 timeout
 of
-700ms
+500ms
 to
 avoid
 conflicts
@@ -2862,7 +2862,7 @@ resolve
 (
 result
 )
-700
+500
 )
 ;
 }
