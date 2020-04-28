@@ -428,6 +428,8 @@ changes
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -4469,6 +4471,8 @@ leaks
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -4599,6 +4603,8 @@ resource
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -4729,6 +4735,8 @@ leaks
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -4967,6 +4975,8 @@ resource
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -5107,6 +5117,8 @@ leaks
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -5163,7 +5175,9 @@ derive
 (
 Clone
 Debug
+Deserialize
 PartialEq
+Serialize
 )
 ]
 pub
@@ -5314,6 +5328,8 @@ derive
 Clone
 Debug
 Default
+Deserialize
+Serialize
 )
 ]
 pub
@@ -5350,7 +5366,9 @@ bitflags
 [
 derive
 (
+Deserialize
 MallocSizeOf
+Serialize
 )
 ]
 /
@@ -5418,6 +5436,8 @@ leaks
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -8757,6 +8777,8 @@ bounds
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
