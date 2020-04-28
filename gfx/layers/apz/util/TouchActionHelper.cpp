@@ -463,13 +463,6 @@ GetFrameForPoint
 (
 aRootFrame
 relativePoint
-nsLayoutUtils
-:
-:
-FrameForPointOption
-:
-:
-IgnoreRootScrollFrame
 )
 ;
 if

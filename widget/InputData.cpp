@@ -2162,12 +2162,6 @@ mInputSource
 ;
 event
 .
-mIgnoreRootScrollFrame
-=
-true
-;
-event
-.
 mFocusSequenceNumber
 =
 mFocusSequenceNumber
