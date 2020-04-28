@@ -239,6 +239,11 @@ keys
 (
 certs
 )
+.
+map
+(
+Number
+)
 )
 {
 if
@@ -252,8 +257,6 @@ certType
 {
 certs
 [
-cert
-.
 certType
 ]
 .
