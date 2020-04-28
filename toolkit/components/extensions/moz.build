@@ -354,6 +354,9 @@ DIRS
 schemas
 '
 '
+storage
+'
+'
 webrequest
 '
 ]
