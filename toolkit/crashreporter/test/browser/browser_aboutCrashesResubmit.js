@@ -88,7 +88,7 @@ separate
 JS
 context
 via
-ContentTask
+SpecialPowers
 .
 spawn
 so
