@@ -3539,7 +3539,7 @@ GCVector
 WrapperValue
 8
 >
-private
+public
 JS
 :
 :
@@ -3588,11 +3588,7 @@ WrapperVector
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
-friend
 void
-AutoGCRooter
-:
-:
 trace
 (
 JSTracer
@@ -3600,6 +3596,8 @@ JSTracer
 trc
 )
 ;
+private
+:
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
@@ -3607,7 +3605,7 @@ class
 MOZ_RAII
 AutoWrapperRooter
 :
-private
+public
 JS
 :
 :
@@ -3663,14 +3661,7 @@ return
 value
 ;
 }
-friend
 void
-JS
-:
-:
-AutoGCRooter
-:
-:
 trace
 (
 JSTracer

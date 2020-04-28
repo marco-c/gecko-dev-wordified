@@ -7447,7 +7447,7 @@ class
 MOZ_RAII
 AutoArrayRooter
 :
-private
+public
 JS
 :
 :
@@ -7516,14 +7516,7 @@ return
 length_
 ;
 }
-friend
 void
-JS
-:
-:
-AutoGCRooter
-:
-:
 trace
 (
 JSTracer
