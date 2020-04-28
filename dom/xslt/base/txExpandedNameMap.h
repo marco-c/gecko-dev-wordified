@@ -102,7 +102,9 @@ TRANSFRMX_EXPANDEDNAMEMAP_H
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
