@@ -367,7 +367,11 @@ sExtra
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 SetLength
 (
@@ -768,7 +772,11 @@ sExtra
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 SetLength
 (
