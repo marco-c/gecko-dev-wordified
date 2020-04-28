@@ -290,7 +290,7 @@ mSkipTRRWhenParentalControlEnabled
 nsresult
 GetURI
 (
-nsCString
+nsACString
 &
 result
 )
