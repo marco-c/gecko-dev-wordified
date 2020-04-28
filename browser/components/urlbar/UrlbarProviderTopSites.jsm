@@ -848,11 +848,6 @@ url
 link
 .
 url
-isPinned
-:
-link
-.
-isPinned
 /
 /
 The
@@ -991,11 +986,6 @@ icon
 site
 .
 favicon
-isPinned
-:
-site
-.
-isPinned
 }
 )
 )
@@ -1317,11 +1307,6 @@ icon
 site
 .
 favicon
-isPinned
-:
-site
-.
-isPinned
 }
 )
 )
