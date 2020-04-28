@@ -155,6 +155,15 @@ include
 "
 mozilla
 /
+PodOperations
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
