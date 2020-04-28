@@ -4472,8 +4472,14 @@ aSubtract
 do
 indeed
 overlap
+/
+/
+static
 nsresult
 Selection
+:
+:
+StyledRanges
 :
 :
 SubtractRange
