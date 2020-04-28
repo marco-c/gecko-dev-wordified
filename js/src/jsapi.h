@@ -666,7 +666,7 @@ cx
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 Custom

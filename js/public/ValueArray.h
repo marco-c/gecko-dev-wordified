@@ -309,7 +309,7 @@ cx
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 ValueArray

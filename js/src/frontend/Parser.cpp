@@ -1161,7 +1161,7 @@ JS
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 Parser
@@ -1172,7 +1172,7 @@ JS
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 BinASTParser
@@ -1184,7 +1184,7 @@ JS
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 Parser

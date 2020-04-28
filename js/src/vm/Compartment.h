@@ -3579,7 +3579,7 @@ JS
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 WrapperVector
@@ -3639,7 +3639,7 @@ JS
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 Wrapper
