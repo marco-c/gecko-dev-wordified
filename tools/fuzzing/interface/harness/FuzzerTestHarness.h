@@ -467,6 +467,7 @@ gFailCount
 -
 class
 ScopedXPCOM
+final
 :
 public
 nsIDirectoryServiceProvider2
