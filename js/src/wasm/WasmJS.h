@@ -1938,8 +1938,6 @@ HandleVal
 value
 bool
 isMutable
-HandleObject
-proto
 )
 ;
 bool
@@ -3326,8 +3324,6 @@ wasm
 :
 TableKind
 tableKind
-HandleObject
-proto
 )
 ;
 wasm
