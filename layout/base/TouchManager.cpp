@@ -832,6 +832,12 @@ target
 for
 this
 touch
+RelativeTo
+relativeTo
+{
+aFrame
+}
+;
 nsPoint
 eventPoint
 =
@@ -845,7 +851,7 @@ touch
 -
 >
 mRefPoint
-aFrame
+relativeTo
 )
 ;
 target
@@ -853,7 +859,7 @@ target
 FindFrameTargetedByInputEvent
 (
 aEvent
-aFrame
+relativeTo
 eventPoint
 )
 ;

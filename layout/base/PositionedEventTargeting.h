@@ -136,6 +136,13 @@ EventForwards
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 class
 nsIFrame
 ;
@@ -205,8 +212,7 @@ FindFrameTargetedByInputEvent
 WidgetGUIEvent
 *
 aEvent
-nsIFrame
-*
+RelativeTo
 aRootFrame
 const
 nsPoint

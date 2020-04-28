@@ -4557,7 +4557,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 event
+RelativeTo
+{
 rootDocumentRootFrame
+}
 )
 ;
 mCachedMousePoint
