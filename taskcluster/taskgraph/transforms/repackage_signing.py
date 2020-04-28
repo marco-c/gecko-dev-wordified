@@ -226,7 +226,7 @@ exe
 :
 [
 "
-autograph_authenticode
+autograph_authenticode_stub
 "
 ]
     
