@@ -215,7 +215,7 @@ mozilla
 dom
 :
 :
-ControlledMediaState
+MediaPlaybackState
 >
 :
 public
@@ -227,14 +227,14 @@ mozilla
 dom
 :
 :
-ControlledMediaState
+MediaPlaybackState
 mozilla
 :
 :
 dom
 :
 :
-ControlledMediaState
+MediaPlaybackState
 :
 :
 eStarted
@@ -244,7 +244,7 @@ mozilla
 dom
 :
 :
-ControlledMediaState
+MediaPlaybackState
 :
 :
 eStopped

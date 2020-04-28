@@ -652,9 +652,9 @@ or
 MediaControlUtils
 .
 void
-NotifyMediaStateChanged
+NotifyMediaPlaybackChanged
 (
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 ;

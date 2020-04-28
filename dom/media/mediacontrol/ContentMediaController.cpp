@@ -566,13 +566,13 @@ void
 ContentMediaController
 :
 :
-NotifyMediaStateChanged
+NotifyPlaybackStateChanged
 (
 const
 ContentControlKeyEventReceiver
 *
 aMedia
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 {
@@ -639,7 +639,7 @@ BC
 %
 "
 PRId64
-ToControlledMediaStateStr
+ToMediaPlaybackStateStr
 (
 aState
 )
@@ -675,7 +675,7 @@ Unused
 contentChild
 -
 >
-SendNotifyMediaStateChanged
+SendNotifyMediaPlaybackChanged
 (
 bc
 aState
@@ -732,7 +732,7 @@ GetMediaController
 controller
 -
 >
-NotifyMediaStateChanged
+NotifyMediaPlaybackChanged
 (
 aState
 )
