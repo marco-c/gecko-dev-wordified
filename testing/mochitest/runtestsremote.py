@@ -390,6 +390,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -584,6 +587,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 #
@@ -654,6 +660,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -698,6 +707,9 @@ force
 =
 True
 recursive
+=
+True
+root
 =
 True
 )
@@ -920,6 +932,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
             
 self
@@ -981,6 +996,9 @@ remoteLogFile
 force
 =
 True
+root
+=
+True
 )
         
 self
@@ -998,6 +1016,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -1013,6 +1034,9 @@ force
 =
 True
 recursive
+=
+True
+root
 =
 True
 )
