@@ -242,7 +242,7 @@ list
 *
 *
 /
-nsresult
+void
 add
 (
 void
@@ -335,7 +335,7 @@ lastItem
 int32_t
 itemCount
 ;
-nsresult
+void
 insertAfter
 (
 void
@@ -346,7 +346,7 @@ ListItem
 sItem
 )
 ;
-nsresult
+void
 insertBefore
 (
 void
@@ -463,7 +463,7 @@ list
 *
 *
 /
-nsresult
+void
 addAfter
 (
 void
@@ -524,7 +524,7 @@ list
 *
 *
 /
-nsresult
+void
 addBefore
 (
 void

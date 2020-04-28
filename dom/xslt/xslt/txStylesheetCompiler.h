@@ -515,7 +515,7 @@ aType
 /
 stylesheet
 functions
-nsresult
+void
 addToplevelItem
 (
 txToplevelItem
