@@ -717,7 +717,7 @@ frame
 identified
 by
 |
-aGuid
+aScrollId
 |
 .
 The
@@ -826,7 +826,7 @@ scroll
 frames
 form
 |
-aGuid
+aScrollId
 |
 up
 to
@@ -854,10 +854,11 @@ static
 CSSToCSSMatrix4x4
 GetCallbackTransform
 (
-const
 ScrollableLayerGuid
-&
-aGuid
+:
+:
+ViewID
+aScrollId
 )
 ;
 /
