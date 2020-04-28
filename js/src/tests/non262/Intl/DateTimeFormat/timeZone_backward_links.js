@@ -34,7 +34,7 @@ EDIT
 tzdata
 version
 =
-2019c
+2020a
 const
 tzMapper
 =
@@ -151,6 +151,17 @@ America
 Indiana
 /
 Indianapolis
+"
+"
+America
+/
+Godthab
+"
+:
+"
+America
+/
+Nuuk
 "
 "
 America
