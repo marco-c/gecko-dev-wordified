@@ -11359,6 +11359,12 @@ JSOp
 :
 :
 Dec
+/
+/
+JSOp
+:
+:
+ToNumeric
 class
 ICUnaryArith_Fallback
 :
