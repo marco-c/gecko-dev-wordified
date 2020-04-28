@@ -3246,6 +3246,25 @@ if
 stackfix_dir
 :
             
+#
+We
+hide
+errors
+because
+they
+cause
+disconcerting
+CRITICAL
+            
+#
+warnings
+in
+web
+platform
+test
+output
+.
+            
 self
 .
 stack_fixer
@@ -3257,6 +3276,10 @@ stackfix_dir
 self
 .
 symbols_path
+                                                        
+hideErrors
+=
+True
 )
         
 else
