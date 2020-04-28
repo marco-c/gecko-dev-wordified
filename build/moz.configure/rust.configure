@@ -3670,6 +3670,16 @@ ldflags
 =
 [
 ]
+if
+os
+.
+path
+.
+isdir
+(
+etc
+)
+:
 for
 f
 in
