@@ -477,7 +477,14 @@ dom
 class
 PerformanceStorage
 ;
+class
+ContentParent
+;
 }
+/
+/
+namespace
+dom
 class
 LogCollector
 ;
@@ -3012,6 +3019,9 @@ nsIInputStream
 >
 uploadStream
 ;
+uint64_t
+uploadStreamLength
+;
 bool
 uploadStreamHasHeaders
 ;
@@ -3033,6 +3043,12 @@ dom
 ReplacementChannelConfigInit
 Serialize
 (
+dom
+:
+:
+ContentParent
+*
+aParent
 )
 ;
 }
