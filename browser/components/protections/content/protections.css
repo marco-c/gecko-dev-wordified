@@ -2428,6 +2428,12 @@ transition
 opacity
 700ms
 ;
+pointer
+-
+events
+:
+none
+;
 }
 .
 bar
