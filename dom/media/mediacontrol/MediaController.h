@@ -661,8 +661,8 @@ aState
 void
 NotifyMediaAudibleChanged
 (
-bool
-aAudible
+MediaAudibleState
+aState
 )
 ;
 private
@@ -762,10 +762,13 @@ UpdateActualPlaybackState
 (
 )
 ;
-bool
-mAudible
+MediaAudibleState
+mAudibleState
 =
-false
+MediaAudibleState
+:
+:
+eInaudible
 ;
 bool
 mIsRegisteredToService

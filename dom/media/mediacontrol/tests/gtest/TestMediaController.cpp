@@ -435,7 +435,10 @@ controller
 >
 NotifyMediaAudibleChanged
 (
-true
+MediaAudibleState
+:
+:
+eAudible
 )
 ;
 ASSERT_TRUE
@@ -453,7 +456,10 @@ controller
 >
 NotifyMediaAudibleChanged
 (
-false
+MediaAudibleState
+:
+:
+eInaudible
 )
 ;
 ASSERT_TRUE
@@ -502,7 +508,10 @@ controller
 >
 NotifyMediaAudibleChanged
 (
-true
+MediaAudibleState
+:
+:
+eAudible
 )
 ;
 ASSERT_TRUE

@@ -36948,8 +36948,8 @@ BrowsingContext
 >
 &
 aContext
-bool
-aAudible
+MediaAudibleState
+aState
 )
 {
 if
@@ -36992,7 +36992,7 @@ controller
 >
 NotifyMediaAudibleChanged
 (
-aAudible
+aState
 )
 ;
 }

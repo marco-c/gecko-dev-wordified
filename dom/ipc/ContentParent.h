@@ -7484,8 +7484,8 @@ BrowsingContext
 >
 &
 aContext
-bool
-aAudible
+MediaAudibleState
+aState
 )
 ;
 mozilla
