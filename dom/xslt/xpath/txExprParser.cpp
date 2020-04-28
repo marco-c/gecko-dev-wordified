@@ -803,7 +803,7 @@ addParam
 (
 expr
 .
-forget
+release
 (
 )
 )
@@ -828,7 +828,7 @@ addParam
 (
 newExpr
 .
-forget
+release
 (
 )
 )
@@ -882,7 +882,7 @@ aResult
 =
 expr
 .
-forget
+release
 (
 )
 ;
@@ -1103,7 +1103,7 @@ newExpr
 :
 expr
 .
-forget
+release
 (
 )
 ;
@@ -1616,13 +1616,13 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 left
 .
-forget
+release
 (
 )
 ;
 right
 .
-forget
+release
 (
 )
 ;
@@ -1799,7 +1799,7 @@ rv
 ;
 expr
 .
-forget
+release
 (
 )
 ;
@@ -1817,7 +1817,7 @@ UnaryExpr
 (
 expr
 .
-forget
+release
 (
 )
 )
@@ -1979,7 +1979,7 @@ push
 (
 expr
 .
-forget
+release
 (
 )
 )
@@ -2118,7 +2118,7 @@ aResult
 =
 expr
 .
-forget
+release
 (
 )
 ;
@@ -2439,7 +2439,7 @@ get
 ;
 expr
 .
-forget
+release
 (
 )
 ;
@@ -2472,7 +2472,7 @@ expr
 =
 filterExpr
 .
-forget
+release
 (
 )
 ;
@@ -2482,7 +2482,7 @@ aResult
 =
 expr
 .
-forget
+release
 (
 )
 ;
@@ -2781,7 +2781,7 @@ aResult
 =
 fnCall
 .
-forget
+release
 (
 )
 ;
@@ -3451,7 +3451,7 @@ axisIdentifier
 ;
 nodeTest
 .
-forget
+release
 (
 )
 ;
@@ -3485,7 +3485,7 @@ aExpr
 =
 lstep
 .
-forget
+release
 (
 )
 ;
@@ -3762,7 +3762,7 @@ aTest
 =
 nodeTest
 .
-forget
+release
 (
 )
 ;
@@ -3991,7 +3991,7 @@ aResult
 =
 expr
 .
-forget
+release
 (
 )
 ;
@@ -4081,7 +4081,7 @@ rv
 ;
 expr
 .
-forget
+release
 (
 )
 ;
@@ -4150,7 +4150,7 @@ aResult
 =
 pathExpr
 .
-forget
+release
 (
 )
 ;
@@ -4205,7 +4205,7 @@ rv
 ;
 expr
 .
-forget
+release
 (
 )
 ;
@@ -4316,7 +4316,7 @@ aResult
 =
 expr
 .
-forget
+release
 (
 )
 ;
@@ -4358,7 +4358,7 @@ rv
 ;
 expr
 .
-forget
+release
 (
 )
 ;
@@ -4419,7 +4419,7 @@ addExpr
 (
 expr
 .
-forget
+release
 (
 )
 )
@@ -4436,7 +4436,7 @@ aResult
 =
 unionExpr
 .
-forget
+release
 (
 )
 ;
@@ -4749,7 +4749,7 @@ rv
 ;
 expr
 .
-forget
+release
 (
 )
 ;
@@ -4947,7 +4947,7 @@ addParam
 (
 expr
 .
-forget
+release
 (
 )
 )

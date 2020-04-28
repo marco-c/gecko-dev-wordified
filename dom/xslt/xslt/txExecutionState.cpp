@@ -424,7 +424,7 @@ entry
 >
 mDocument
 .
-forget
+release
 (
 )
 ;
@@ -1447,7 +1447,7 @@ rv
 }
 rtfHandler
 .
-forget
+release
 (
 )
 ;

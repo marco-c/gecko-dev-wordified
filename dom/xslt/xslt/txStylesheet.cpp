@@ -257,7 +257,7 @@ CHILD_AXIS
 ;
 nt
 .
-forget
+release
 (
 )
 ;
@@ -388,7 +388,7 @@ SELF_AXIS
 ;
 nt
 .
-forget
+release
 (
 )
 ;
@@ -1939,7 +1939,7 @@ rv
 ;
 format
 .
-forget
+release
 (
 )
 ;
@@ -2003,7 +2003,7 @@ aTemplate
 >
 mFirstInstruction
 .
-forget
+release
 (
 )
 ;
@@ -2156,7 +2156,7 @@ templates
 =
 newList
 .
-forget
+release
 (
 )
 ;
@@ -2570,7 +2570,7 @@ import
 >
 mFrame
 .
-forget
+release
 (
 )
 )
@@ -2830,7 +2830,7 @@ aAttributeSetItem
 >
 mFirstInstruction
 .
-forget
+release
 (
 )
 ;
@@ -2949,7 +2949,7 @@ aAttributeSetItem
 >
 mFirstInstruction
 .
-forget
+release
 (
 )
 ;
@@ -3066,7 +3066,7 @@ rv
 ;
 var
 .
-forget
+release
 (
 )
 ;
@@ -3263,7 +3263,7 @@ rv
 ;
 aFormat
 .
-forget
+release
 (
 )
 ;

@@ -408,7 +408,7 @@ aResult
 =
 val
 .
-forget
+release
 (
 )
 ;
@@ -444,7 +444,7 @@ aResult
 =
 val
 .
-forget
+release
 (
 )
 ;
@@ -985,7 +985,7 @@ aResult
 =
 numval
 .
-forget
+release
 (
 )
 ;

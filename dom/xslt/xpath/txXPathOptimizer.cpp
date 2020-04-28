@@ -1708,7 +1708,7 @@ unionTest
 ;
 owner
 .
-forget
+release
 (
 )
 ;

@@ -2496,7 +2496,7 @@ rv
 ;
 mElementContext
 .
-forget
+release
 (
 )
 ;
@@ -3190,7 +3190,7 @@ rv
 ;
 mChooseGotoList
 .
-forget
+release
 (
 )
 ;
@@ -3612,7 +3612,7 @@ mNextInstrPtr
 =
 aInstruction
 .
-forget
+release
 (
 )
 ;
@@ -3755,7 +3755,7 @@ addBefore
 (
 item
 .
-forget
+release
 (
 )
 )

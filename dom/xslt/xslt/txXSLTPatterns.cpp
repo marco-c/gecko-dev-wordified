@@ -1266,7 +1266,7 @@ step
 >
 pattern
 .
-forget
+release
 (
 )
 ;

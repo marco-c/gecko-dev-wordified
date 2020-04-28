@@ -486,7 +486,7 @@ aPos
 {
 expr
 .
-forget
+release
 (
 )
 ;

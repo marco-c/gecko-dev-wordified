@@ -2669,7 +2669,7 @@ mOpenedElement
 )
 ni
 .
-forget
+release
 (
 )
 mCreatingNewDocument
@@ -4957,7 +4957,7 @@ el
 )
 ni
 .
-forget
+release
 (
 )
 mCreatingNewDocument

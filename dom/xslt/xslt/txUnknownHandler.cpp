@@ -1040,7 +1040,7 @@ mResultHandler
 =
 handler
 .
-forget
+release
 (
 )
 ;

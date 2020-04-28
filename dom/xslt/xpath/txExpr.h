@@ -922,7 +922,7 @@ index
 \
 _Expr1
 .
-forget
+release
 (
 )
 ;
@@ -1044,7 +1044,7 @@ aPos
 \
 _Expr1
 .
-forget
+release
 (
 )
 ;
@@ -1060,7 +1060,7 @@ else
 \
 _Expr2
 .
-forget
+release
 (
 )
 ;
@@ -2789,7 +2789,7 @@ aNodeTest
 {
 mNodeTest
 .
-forget
+release
 (
 )
 ;

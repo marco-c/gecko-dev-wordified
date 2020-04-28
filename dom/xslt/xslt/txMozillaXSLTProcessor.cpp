@@ -511,7 +511,7 @@ aHandler
 =
 handler
 .
-forget
+release
 (
 )
 ;
@@ -562,7 +562,7 @@ aHandler
 =
 handler
 .
-forget
+release
 (
 )
 ;
@@ -692,7 +692,7 @@ aHandler
 =
 handler
 .
-forget
+release
 (
 )
 ;
@@ -743,7 +743,7 @@ aHandler
 =
 handler
 .
-forget
+release
 (
 )
 ;

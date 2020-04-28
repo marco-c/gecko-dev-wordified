@@ -624,7 +624,7 @@ add
 (
 key
 .
-forget
+release
 (
 )
 )

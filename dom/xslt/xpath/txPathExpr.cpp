@@ -1287,7 +1287,7 @@ aPos
 .
 expr
 .
-forget
+release
 (
 )
 ;
