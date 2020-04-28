@@ -219,7 +219,8 @@ mobile
 device
 '
 s
-sdcard
+test
+root
 for
 us
 ;
@@ -249,7 +250,11 @@ profile
 on
     
 the
-sdcard
+device
+'
+s
+test
+root
 .
     
 Therefore
@@ -389,31 +394,18 @@ self
 .
 remote_test_root
 =
-os
-.
-path
-.
-abspath
-(
-            
-os
-.
-path
-.
-join
-(
-os
-.
-sep
 "
-sdcard
-"
-"
+/
+data
+/
+local
+/
+tmp
+/
+tests
+/
 raptor
 "
-)
-        
-)
         
 self
 .
