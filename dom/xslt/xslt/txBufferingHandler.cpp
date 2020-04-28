@@ -100,6 +100,12 @@ txBufferingHandler
 .
 h
 "
+using
+mozilla
+:
+:
+MakeUnique
+;
 class
 txOutputTransaction
 {
@@ -669,8 +675,10 @@ txBufferingHandler
 ;
 mBuffer
 =
-new
+MakeUnique
+<
 txResultBuffer
+>
 (
 )
 ;

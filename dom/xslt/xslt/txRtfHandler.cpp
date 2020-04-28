@@ -110,6 +110,9 @@ txResultTreeFragment
 :
 txResultTreeFragment
 (
+mozilla
+:
+:
 UniquePtr
 <
 txResultBuffer

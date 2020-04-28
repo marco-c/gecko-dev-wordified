@@ -196,6 +196,12 @@ txXSLTNumber
 .
 h
 "
+using
+mozilla
+:
+:
+UniquePtr
+;
 nsresult
 txApplyDefaultElementTemplate
 :
