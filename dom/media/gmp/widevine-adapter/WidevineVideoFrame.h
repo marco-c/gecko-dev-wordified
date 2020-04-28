@@ -297,7 +297,11 @@ Timestamp
 const
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 InitToBlack
 (
