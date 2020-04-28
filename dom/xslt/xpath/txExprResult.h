@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 txCore
 .
 h

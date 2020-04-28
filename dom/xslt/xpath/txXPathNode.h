@@ -102,13 +102,6 @@ txXPathNode_h__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIContent
 .
 h

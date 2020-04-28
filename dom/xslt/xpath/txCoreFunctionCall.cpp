@@ -121,13 +121,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 txNodeSet
 .
 h
