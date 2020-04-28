@@ -2995,10 +2995,10 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
-DeleteSelectionsAsAction
+DeleteSelectionAsAction
 (
 )
 failed
@@ -3636,7 +3636,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionAsAction
@@ -5216,7 +5216,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionAsAction

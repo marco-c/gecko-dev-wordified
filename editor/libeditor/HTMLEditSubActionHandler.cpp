@@ -8842,7 +8842,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionAsSubAction
@@ -11249,7 +11249,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionAsSubAction
