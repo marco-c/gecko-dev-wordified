@@ -937,6 +937,10 @@ GenerateBaselineInterpreter
 (
 cx
 baselineInterpreter_
+.
+ref
+(
+)
 )
 )
 {
