@@ -6653,13 +6653,6 @@ ScopeKind
 :
 NonSyntactic
 ;
-options
-.
-setNonSyntacticScope
-(
-true
-)
-;
 }
 if
 (
