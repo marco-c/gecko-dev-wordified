@@ -595,6 +595,8 @@ version
 ChaCha20Poly1305_Encrypt
 ChaCha20Poly1305_Decrypt
 AES_AEAD
+AESKeyWrap_EncryptKWP
+AESKeyWrap_DecryptKWP
 /
 *
 End
