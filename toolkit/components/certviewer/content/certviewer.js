@@ -2291,7 +2291,6 @@ append
 new
 AboutCertificateSection
 (
-certs
 )
 )
 ;
