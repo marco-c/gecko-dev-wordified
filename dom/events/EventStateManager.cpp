@@ -25608,8 +25608,6 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-RelativeTo
-{
 topLevel
 -
 >
@@ -25621,7 +25619,6 @@ PresShell
 GetRootFrame
 (
 )
-}
 )
 ;
 nsSize
@@ -26283,10 +26280,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-RelativeTo
-{
 aTargetFrame
-}
 )
 ;
 Maybe

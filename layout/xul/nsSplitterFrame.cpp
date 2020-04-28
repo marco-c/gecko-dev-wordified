@@ -2076,10 +2076,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-RelativeTo
-{
 mParentBox
-}
 )
 ;
 nscoord

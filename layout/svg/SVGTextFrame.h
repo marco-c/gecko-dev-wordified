@@ -2072,7 +2072,6 @@ const
 Point
 &
 aPoint
-const
 nsIFrame
 *
 aChildFrame

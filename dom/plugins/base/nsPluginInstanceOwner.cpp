@@ -10746,10 +10746,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 anEvent
-RelativeTo
-{
 aObjectFrame
-}
 )
 -
 aObjectFrame
@@ -13014,10 +13011,7 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-RelativeTo
-{
 mPluginFrame
-}
 )
 -
 mPluginFrame
@@ -13485,10 +13479,7 @@ GetEventCoordinatesRelativeTo
 (
 &
 anEvent
-RelativeTo
-{
 mPluginFrame
-}
 )
 -
 mPluginFrame

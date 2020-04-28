@@ -3491,10 +3491,7 @@ GetEventCoordinatesRelativeTo
 (
 aEvent
 absPoint
-RelativeTo
-{
 this
-}
 )
 ;
 if

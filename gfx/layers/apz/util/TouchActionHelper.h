@@ -135,17 +135,6 @@ h
 /
 for
 TouchBehaviorFlags
-#
-include
-"
-nsLayoutUtils
-.
-h
-"
-/
-/
-for
-RelativeTo
 class
 nsIFrame
 ;
@@ -258,7 +247,8 @@ GetAllowedTouchBehavior
 nsIWidget
 *
 aWidget
-RelativeTo
+nsIFrame
+*
 aRootFrame
 const
 LayoutDeviceIntPoint

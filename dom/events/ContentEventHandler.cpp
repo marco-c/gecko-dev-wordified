@@ -19743,10 +19743,7 @@ GetEventCoordinatesRelativeTo
 (
 &
 eventOnRoot
-RelativeTo
-{
 rootFrame
-}
 )
 ;
 nsIFrame
@@ -19758,10 +19755,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
-RelativeTo
-{
 rootFrame
-}
 ptInRoot
 )
 ;
@@ -20410,10 +20404,6 @@ eventLocCSS
 y
 false
 false
-ViewportType
-:
-:
-Visual
 )
 ;
 if

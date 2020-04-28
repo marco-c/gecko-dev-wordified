@@ -481,11 +481,6 @@ PresShellInlines
 h
 '
 '
-RelativeTo
-.
-h
-'
-'
 RestyleManager
 .
 h
@@ -507,11 +502,6 @@ h
 '
 '
 StaticPresData
-.
-h
-'
-'
-ViewportUtils
 .
 h
 '
@@ -706,11 +696,6 @@ cpp
 '
 '
 TouchManager
-.
-cpp
-'
-'
-ViewportUtils
 .
 cpp
 '
