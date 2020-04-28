@@ -1223,6 +1223,12 @@ cell
 }
 ;
 using
+BufferRelocationOverlay
+=
+void
+*
+;
+using
 BufferSet
 =
 HashSet
@@ -2400,8 +2406,7 @@ frame
 void
 forwardBufferPointer
 (
-HeapSlot
-*
+uintptr_t
 *
 pSlotsElems
 )
