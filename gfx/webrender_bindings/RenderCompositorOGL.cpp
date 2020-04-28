@@ -284,6 +284,14 @@ aForceAccelerated
 true
 )
 ;
+RenderThread
+:
+:
+MaybeEnableGLDebugMessage
+(
+gl
+)
+;
 }
 if
 (
