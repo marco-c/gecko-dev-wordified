@@ -5112,6 +5112,17 @@ copy
 (
 )
     
+test_env
+[
+'
+TOPSRCDIR
+'
+]
+=
+DIR
+.
+source
+    
 if
 use_minidump
 and
