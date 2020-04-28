@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h

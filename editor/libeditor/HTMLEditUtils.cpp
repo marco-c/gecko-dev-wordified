@@ -1806,10 +1806,16 @@ false
 }
 RefPtr
 <
+dom
+:
+:
 HTMLAnchorElement
 >
 anchor
 =
+dom
+:
+:
 HTMLAnchorElement
 :
 :

@@ -68,6 +68,13 @@ h
 #
 include
 "
+EditorEventListener
+.
+h
+"
+#
+include
+"
 HTMLEditUtils
 .
 h

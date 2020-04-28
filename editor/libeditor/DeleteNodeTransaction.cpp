@@ -131,6 +131,15 @@ RangeUpdater
 #
 include
 "
+mozilla
+/
+TextEditor
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

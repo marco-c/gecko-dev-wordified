@@ -2836,6 +2836,9 @@ return
 NS_OK
 ;
 }
+dom
+:
+:
 Document
 *
 document

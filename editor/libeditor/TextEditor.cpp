@@ -124,6 +124,13 @@ h
 #
 include
 "
+PlaceholderTransaction
+.
+h
+"
+#
+include
+"
 gfxFontUtils
 .
 h

@@ -458,6 +458,17 @@ mozilla
 /
 dom
 /
+HTMLAnchorElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLBodyElement
 .
 h

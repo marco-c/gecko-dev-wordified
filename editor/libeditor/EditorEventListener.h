@@ -443,6 +443,9 @@ aDragEvent
 void
 RefuseToDropAndHideCaret
 (
+dom
+:
+:
 DragEvent
 *
 aDragEvent
@@ -451,6 +454,9 @@ aDragEvent
 bool
 DragEventHasSupportingData
 (
+dom
+:
+:
 DragEvent
 *
 aDragEvent
@@ -461,6 +467,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 CanInsertAtDropPosition
 (
+dom
+:
+:
 DragEvent
 *
 aDragEvent

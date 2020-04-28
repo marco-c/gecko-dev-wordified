@@ -2970,6 +2970,9 @@ created
 .
 *
 /
+dom
+:
+:
 Element
 *
 GetEditingHost
@@ -4302,6 +4305,9 @@ created
 .
 RefPtr
 <
+dom
+:
+:
 Element
 >
 mEditingHost
@@ -5332,6 +5338,9 @@ Element
 >
 InsertBreak
 (
+dom
+:
+:
 Selection
 &
 aSelection

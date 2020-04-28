@@ -313,6 +313,13 @@ h
 #
 include
 "
+nsTextNode
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
