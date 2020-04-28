@@ -623,12 +623,10 @@ mSortKeys
 add
 (
 key
-)
-;
-key
 .
 forget
 (
+)
 )
 ;
 mNKeys

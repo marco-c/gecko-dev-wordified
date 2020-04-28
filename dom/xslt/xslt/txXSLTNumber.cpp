@@ -881,8 +881,6 @@ MOZ_ASSERT
 nodeTest
 )
 ;
-countPattern
-=
 newCountPattern
 =
 new
@@ -890,6 +888,14 @@ txStepPattern
 (
 nodeTest
 false
+)
+;
+countPattern
+=
+newCountPattern
+.
+get
+(
 )
 ;
 }

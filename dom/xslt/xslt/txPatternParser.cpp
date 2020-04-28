@@ -254,6 +254,10 @@ optimizer
 optimize
 (
 pattern
+.
+get
+(
+)
 &
 newPattern
 )
@@ -1745,6 +1749,10 @@ rv
 parsePredicates
 (
 step
+.
+get
+(
+)
 aLexer
 aContext
 )

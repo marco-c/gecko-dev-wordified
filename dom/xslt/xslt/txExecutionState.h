@@ -281,6 +281,10 @@ txXPathNodeUtils
 release
 (
 mDocument
+.
+get
+(
+)
 )
 ;
 }

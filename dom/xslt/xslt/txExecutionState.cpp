@@ -1422,6 +1422,10 @@ rv
 pushResultHandler
 (
 rtfHandler
+.
+get
+(
+)
 )
 ;
 if
@@ -1474,6 +1478,10 @@ var
 -
 >
 mFirstInstruction
+.
+get
+(
+)
 )
 ;
 if
@@ -2285,6 +2293,10 @@ entry
 -
 >
 mDocument
+.
+get
+(
+)
 ;
 }
 nsresult
@@ -2396,6 +2408,10 @@ instr
 -
 >
 mNext
+.
+get
+(
+)
 ;
 }
 return
