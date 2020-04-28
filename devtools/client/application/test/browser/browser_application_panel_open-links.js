@@ -179,6 +179,7 @@ debugging
 #
 workers
 "
+true
 )
 ;
 doc

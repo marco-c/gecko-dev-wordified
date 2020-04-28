@@ -1205,6 +1205,7 @@ about
 :
 addons
 "
+true
 )
 ;
 popupPromise

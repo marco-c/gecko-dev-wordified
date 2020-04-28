@@ -371,6 +371,7 @@ waitForNewTab
 (
 gBrowser
 LOGIN_URL
+true
 )
 ;
 await

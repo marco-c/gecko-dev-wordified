@@ -421,6 +421,7 @@ waitForNewTab
 (
 gBrowser
 DATA_URI
+true
 )
 ;
 /
@@ -536,6 +537,7 @@ waitForNewTab
 (
 gBrowser
 DATA_URI
+true
 )
 ;
 /
