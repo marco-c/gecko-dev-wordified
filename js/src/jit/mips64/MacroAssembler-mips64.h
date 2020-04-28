@@ -1388,7 +1388,6 @@ offset
 )
 ;
 }
-inline
 void
 computeEffectiveAddress
 (
