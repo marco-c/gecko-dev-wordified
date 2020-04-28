@@ -9241,14 +9241,10 @@ temp_clip_id
 =
 builder
 .
-define_clip
+define_clip_rounded_rect
 (
 &
 space_and_clip
-rect
-vec
-!
-[
 make_rounded_complex_clip
 (
 &
@@ -9256,7 +9252,6 @@ rect
 20
 .
 )
-]
 )
 ;
 builder
@@ -9367,14 +9362,10 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rounded_rect
 (
 &
 space_and_clip
-rect
-vec
-!
-[
 make_rounded_complex_clip
 (
 &
@@ -9382,7 +9373,6 @@ rect
 20
 .
 )
-]
 )
 ;
 let

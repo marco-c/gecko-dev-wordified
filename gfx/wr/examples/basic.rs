@@ -1297,7 +1297,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rounded_rect
 (
 &
 SpaceAndClipInfo
@@ -1311,12 +1311,7 @@ clip_id
 :
 mask_clip_id
 }
-content_bounds
-vec
-!
-[
 complex
-]
 )
 ;
 builder
