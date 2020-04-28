@@ -461,8 +461,6 @@ nsLayoutUtils
 GetFrameForPoint
 (
 aRootFrame
-.
-mFrame
 relativePoint
 )
 ;
