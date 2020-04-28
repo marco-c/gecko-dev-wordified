@@ -3736,10 +3736,12 @@ deletion
 *
 param
 aStripWrappers
-Always
-ignored
-in
-TextEditor
+Must
+be
+nsIEditor
+:
+:
+eNoStrip
 .
 *
 /
