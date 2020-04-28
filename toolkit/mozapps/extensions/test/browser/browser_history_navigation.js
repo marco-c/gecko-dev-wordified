@@ -126,24 +126,6 @@ this
 )
 ;
 const
-MAIN_URL
-=
-https
-:
-/
-/
-example
-.
-com
-/
-{
-RELATIVE_DIR
-}
-discovery
-.
-html
-;
-const
 DISCOAPI_URL
 =
 http
@@ -601,7 +583,6 @@ function
 is_in_discovery
 (
 aManager
-url
 canGoBack
 canGoForward
 )
@@ -3564,7 +3545,6 @@ info
 is_in_discovery
 (
 aManager
-MAIN_URL
 false
 false
 )
@@ -3625,7 +3605,6 @@ aManager
 is_in_discovery
 (
 aManager
-MAIN_URL
 false
 true
 )
@@ -3732,7 +3711,6 @@ aManager
 is_in_discovery
 (
 aManager
-MAIN_URL
 true
 false
 )
@@ -3793,7 +3771,6 @@ aManager
 is_in_discovery
 (
 aManager
-MAIN_URL
 true
 true
 )

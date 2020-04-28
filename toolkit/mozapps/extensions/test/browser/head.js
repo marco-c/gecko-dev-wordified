@@ -311,17 +311,6 @@ join
 "
 ;
 const
-PREF_DISCOVERURL
-=
-"
-extensions
-.
-webservice
-.
-discoverURL
-"
-;
-const
 PREF_DISCOVER_ENABLED
 =
 "
