@@ -302,6 +302,17 @@ RedoTransaction
 )
 override
 ;
+nsIContent
+*
+GetContent
+(
+)
+const
+{
+return
+mContentToDelete
+;
+}
 protected
 :
 virtual
