@@ -625,7 +625,7 @@ is
 gURLBar
 .
 untrimmedValue
-readerUrl
+url
 "
 gURLBar
 value
