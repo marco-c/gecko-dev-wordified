@@ -2048,6 +2048,8 @@ current
 root
 document
 .
+try
+{
 if
 (
 target
@@ -2059,6 +2061,15 @@ rootDocument
 doc
 .
 rawAccessible
+)
+{
+continue
+;
+}
+}
+catch
+(
+e
 )
 {
 continue
