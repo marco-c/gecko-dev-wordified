@@ -4547,7 +4547,7 @@ version
 min
 "
 :
-3
+tlsMinPref
 "
 security
 .
@@ -4563,11 +4563,7 @@ max
 {
 minimum
 :
-"
-TLSv1
-.
-2
-"
+tlsMinVer
 maximum
 :
 "
