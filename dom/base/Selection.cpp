@@ -14883,12 +14883,6 @@ empty
 mRange
 ;
 }
-/
-*
-utility
-function
-*
-/
 nsresult
 Selection
 :
