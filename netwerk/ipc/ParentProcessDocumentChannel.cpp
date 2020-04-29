@@ -447,6 +447,9 @@ aResult
 ;
 MOZ_ASSERT
 (
+mCanceled
+|
+|
 mDocumentLoadListener
 )
 ;
@@ -982,6 +985,15 @@ DisconnectDocumentLoadListener
 (
 )
 {
+if
+(
+!
+mDocumentLoadListener
+)
+{
+return
+;
+}
 if
 (
 nsCOMPtr
