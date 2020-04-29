@@ -508,6 +508,11 @@ psm
 =
 [
 '
+PSMIPCCommon
+.
+h
+'
+'
 TransportSecurityInfo
 .
 h
@@ -721,6 +726,11 @@ cpp
 '
 '
 PKCS11ModuleDB
+.
+cpp
+'
+'
+PSMIPCCommon
 .
 cpp
 '
