@@ -224,6 +224,15 @@ nsID
 aID
 )
 ;
+bool
+HasStream
+(
+const
+nsID
+&
+aID
+)
+;
 void
 GetStream
 (
