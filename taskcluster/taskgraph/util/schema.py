@@ -1654,11 +1654,14 @@ kind
 test
 '
 :
+(
 list
 (
 schedules
 .
 ALL_COMPONENTS
+)
+None
 )
 }
     

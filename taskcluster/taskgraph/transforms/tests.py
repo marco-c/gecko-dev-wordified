@@ -14524,6 +14524,29 @@ schedules
 else
 :
             
+#
+First
+arg
+goes
+to
+'
+skip
+-
+unless
+-
+schedules
+'
+second
+goes
+to
+the
+            
+#
+main
+test
+strategy
+.
+            
 jobdesc
 [
 '
@@ -14536,7 +14559,10 @@ optimization
 test
 '
 :
+(
 schedules
+None
+)
 }
         
 run
