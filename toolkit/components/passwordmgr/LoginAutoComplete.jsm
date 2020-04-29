@@ -3867,17 +3867,6 @@ case
 loginsFooter
 "
 :
-let
-hostname
-=
-eventTarget
-.
-ownerDocument
-.
-documentURIObject
-.
-host
-;
 loginManager
 .
 sendAsyncMessage
@@ -3888,7 +3877,6 @@ PasswordManager
 OpenPreferences
 "
 {
-hostname
 entryPoint
 :
 "
