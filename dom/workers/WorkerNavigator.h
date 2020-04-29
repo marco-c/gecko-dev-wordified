@@ -440,7 +440,7 @@ aLanguage
 )
 const
 {
-if
+MOZ_ASSERT
 (
 mProperties
 .
@@ -453,7 +453,7 @@ Length
 =
 1
 )
-{
+;
 aLanguage
 .
 Assign
@@ -466,16 +466,6 @@ mLanguages
 ]
 )
 ;
-}
-else
-{
-aLanguage
-.
-Truncate
-(
-)
-;
-}
 }
 void
 GetLanguages
