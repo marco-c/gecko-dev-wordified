@@ -514,6 +514,16 @@ scope
 OAuth
 scope
 *
+param
+{
+Number
+}
+ttl
+token
+time
+to
+live
+*
 return
 Promise
 *
@@ -532,6 +542,7 @@ getTokenFromAssertion
 (
 assertion
 scope
+ttl
 )
 {
 if
@@ -592,6 +603,7 @@ response_type
 "
 token
 "
+ttl
 }
 ;
 return
