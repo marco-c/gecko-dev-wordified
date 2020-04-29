@@ -11247,7 +11247,7 @@ Imm32
 (
 sizeof
 (
-uintptr_t
+intptr_t
 )
 )
 StackPointer
