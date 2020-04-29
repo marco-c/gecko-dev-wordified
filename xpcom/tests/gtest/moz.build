@@ -110,6 +110,11 @@ TestAtoms
 cpp
 '
 '
+TestAutoPtr
+.
+cpp
+'
+'
 TestAutoRef
 .
 cpp

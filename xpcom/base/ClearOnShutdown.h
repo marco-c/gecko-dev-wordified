@@ -334,7 +334,8 @@ e
 .
 nsCOMPtr
 *
-RefPtr
+nsRefPtr
+nsAutoPtr
 StaticRefPtr
 and
 StaticAutoPtr

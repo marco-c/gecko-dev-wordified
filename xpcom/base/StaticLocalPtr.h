@@ -168,9 +168,9 @@ and
 StaticLocalRefPtr
 are
 like
-UniquePtr
+nsAutoPtr
 and
-RefPtr
+nsRefPtr
 *
 except
 they
