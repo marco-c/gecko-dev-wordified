@@ -512,7 +512,7 @@ jit
 class
 AutoKeepJitScripts
 ;
-struct
+class
 BaselineScript
 ;
 struct
