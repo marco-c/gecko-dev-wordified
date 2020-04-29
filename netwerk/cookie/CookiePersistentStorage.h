@@ -294,14 +294,6 @@ CleanupDBConnection
 (
 )
 ;
-nsresult
-ImportCookies
-(
-nsIFile
-*
-aCookieFile
-)
-;
 void
 Activate
 (
