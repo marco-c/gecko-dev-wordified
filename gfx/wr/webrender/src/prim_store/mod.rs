@@ -8360,9 +8360,6 @@ ImageDataHandle
 image_instance_index
 :
 ImageInstanceIndex
-is_compositor_surface
-:
-bool
 }
 LinearGradient
 {
