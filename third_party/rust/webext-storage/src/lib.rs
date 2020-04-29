@@ -75,7 +75,6 @@ rust_2018_idioms
 mod
 api
 ;
-pub
 mod
 db
 ;
