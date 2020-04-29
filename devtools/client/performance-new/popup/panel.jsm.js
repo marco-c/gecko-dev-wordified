@@ -889,6 +889,16 @@ display
 block
 "
 ;
+elements
+.
+presetsMenuList
+.
+value
+=
+"
+custom
+"
+;
 }
 const
 {
