@@ -176,6 +176,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+plstr
+.
+h
+"
 class
 nsIURI
 ;

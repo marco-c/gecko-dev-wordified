@@ -123,6 +123,13 @@ mozilla_dom_PopupBlocker_h
 #
 include
 "
+Element
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasicEvents

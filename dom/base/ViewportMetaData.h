@@ -123,6 +123,13 @@ DOM_VIEWPORT_META_DATA_H_
 #
 include
 "
+nsString
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h

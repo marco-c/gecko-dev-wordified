@@ -171,6 +171,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+URIUtils
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

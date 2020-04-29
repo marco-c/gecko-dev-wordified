@@ -757,6 +757,13 @@ h
 #
 include
 "
+nsXULElement
+.
+h
+"
+#
+include
+"
 nsIX509Cert
 .
 h

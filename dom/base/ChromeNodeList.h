@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+Document
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h
@@ -125,6 +132,13 @@ h
 include
 "
 nsContentList
+.
+h
+"
+#
+include
+"
+nsPIDOMWindow
 .
 h
 "

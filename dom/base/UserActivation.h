@@ -129,6 +129,15 @@ EventForwards
 .
 h
 "
+#
+include
+"
+mozilla
+/
+TimeStamp
+.
+h
+"
 namespace
 mozilla
 {

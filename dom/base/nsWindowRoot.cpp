@@ -269,6 +269,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

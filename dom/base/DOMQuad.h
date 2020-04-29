@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

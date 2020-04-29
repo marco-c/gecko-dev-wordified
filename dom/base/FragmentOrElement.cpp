@@ -178,6 +178,13 @@ h
 #
 include
 "
+DOMIntersectionObserver
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AsyncEventDispatcher
@@ -490,6 +497,13 @@ h
 include
 "
 nsDOMString
+.
+h
+"
+#
+include
+"
+nsXULElement
 .
 h
 "
