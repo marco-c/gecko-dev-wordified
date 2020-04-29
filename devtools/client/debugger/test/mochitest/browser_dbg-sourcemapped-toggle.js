@@ -72,7 +72,7 @@ output
 .
 requestLongerTimeout
 (
-3
+5
 )
 ;
 /
