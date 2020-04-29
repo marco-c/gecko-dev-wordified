@@ -87,7 +87,7 @@ g_executeCodeSegment
 int
 )
 NSISFunctionAddr
-g_hwndParent
+nullptr
 )
 ;
 }
