@@ -496,7 +496,7 @@ deprecated
 true
 experimental
 :
-true
+false
 unsupportedBrowsers
 :
 [

@@ -72,6 +72,9 @@ read
 -
 only
 ;
+}
+div
+{
 font
 -
 variant
@@ -81,17 +84,6 @@ alternates
 historical
 -
 forms
-;
-}
-div
-{
-margin
--
-inline
--
-start
-:
-5px
 ;
 }
 <
