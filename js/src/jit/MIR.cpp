@@ -1743,13 +1743,6 @@ type
 mul
 -
 >
-setCommutative
-(
-)
-;
-mul
--
->
 setMustPreserveNaN
 (
 ins
