@@ -513,7 +513,6 @@ _updateToolHighlight
 }
 )
 ;
-await
 this
 .
 accessibilityProxy
