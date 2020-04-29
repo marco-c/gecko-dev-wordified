@@ -49627,7 +49627,7 @@ wayland_vsync
 .
 enabled
 "
-true
+false
 )
 ;
 pref
