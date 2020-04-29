@@ -208,6 +208,15 @@ devtools
 js
 '
 '
+enable
+-
+devtools
+-
+popup
+.
+js
+'
+'
 menu
 -
 item
