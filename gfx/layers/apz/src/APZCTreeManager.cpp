@@ -20556,11 +20556,6 @@ mHitInfo
 CompositorHitTestInvisibleToHit
 )
 {
-MOZ_ASSERT
-(
-false
-)
-;
 APZCTM_LOG
 (
 "
