@@ -3614,6 +3614,9 @@ telemetry
 theme
 "
 "
+unlimitedStorage
+"
+"
 urlbar
 "
 "
