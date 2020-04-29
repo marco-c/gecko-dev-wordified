@@ -1233,11 +1233,6 @@ JSOp
 :
 :
 Dec
-JSOp
-:
-:
-ToNumeric
-.
 MOZ_MUST_USE
 bool
 emitUnaryArith
