@@ -2772,6 +2772,17 @@ mCrossProcessRedirectIdentifier
 =
 0
 ;
+/
+/
+True
+if
+cancelled
+.
+bool
+mCancelled
+=
+false
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
