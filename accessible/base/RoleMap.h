@@ -2439,7 +2439,7 @@ CAPTION
 caption
 "
 ATK_ROLE_CAPTION
-NSAccessibilityGroupRole
+NSAccessibilityStaticTextRole
 USE_ROLE_STRING
 IA2_ROLE_CAPTION
 java
