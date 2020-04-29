@@ -6044,6 +6044,12 @@ captionContent
 aName
 )
 ;
+aName
+.
+CompressWhitespace
+(
+)
+;
 return
 eNameOK
 ;
