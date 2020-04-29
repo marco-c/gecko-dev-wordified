@@ -1031,6 +1031,9 @@ for
 tab0
 )
 ;
+const
+winPIP
+=
 await
 triggerPictureInPicture
 (
@@ -1093,6 +1096,14 @@ until
 main
 controller
 changes
+)
+;
+await
+BrowserTestUtils
+.
+closeWindow
+(
+winPIP
 )
 ;
 await
