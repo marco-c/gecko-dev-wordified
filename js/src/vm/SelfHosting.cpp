@@ -15138,6 +15138,15 @@ obj_toString
 0
 0
 )
+JS_FN
+(
+"
+std_Object_setProto
+"
+obj_setProto
+1
+0
+)
 JS_INLINABLE_FN
 (
 "

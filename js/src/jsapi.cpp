@@ -18280,7 +18280,7 @@ global
 )
 setterNameName
 name
-0
+1
 &
 setterValue
 )
