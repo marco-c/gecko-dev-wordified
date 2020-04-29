@@ -8322,11 +8322,7 @@ bool
 HasStoragePermission
 (
 )
-{
-return
-mHasStoragePermission
 ;
-}
 /
 /
 Increments
