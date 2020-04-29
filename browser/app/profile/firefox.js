@@ -21247,6 +21247,17 @@ showAutoCompleteFooter
 true
 )
 ;
+pref
+(
+"
+signon
+.
+showAutoCompleteImport
+"
+"
+"
+)
+;
 /
 /
 Enable
