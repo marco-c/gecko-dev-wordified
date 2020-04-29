@@ -5310,7 +5310,7 @@ ls_dir
 =
 "
 /
-sdcard
+system
 "
         
 #
