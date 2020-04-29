@@ -14546,6 +14546,31 @@ main
 test
 strategy
 .
+Using
+an
+empty
+dict
+allows
+earlier
+            
+#
+substrategies
+(
+of
+a
+CompositeStrategy
+)
+to
+pass
+values
+by
+reference
+            
+#
+to
+later
+substrategies
+.
             
 jobdesc
 [
@@ -14561,7 +14586,8 @@ test
 :
 (
 schedules
-None
+{
+}
 )
 }
         
