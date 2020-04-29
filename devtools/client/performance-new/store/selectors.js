@@ -1070,7 +1070,7 @@ Selector
 (
 profile
 :
-Object
+MinimallyTypedGeckoProfile
 )
 =
 >

@@ -352,6 +352,14 @@ gBrowser
 :
 Browser
 ;
+focus
+:
+(
+)
+=
+>
+void
+;
 }
 interface
 ChromeBrowser
