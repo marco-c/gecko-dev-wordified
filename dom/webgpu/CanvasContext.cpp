@@ -249,6 +249,10 @@ Cleanup
 (
 )
 ;
+RemovePostRefreshObserver
+(
+)
+;
 }
 void
 CanvasContext
