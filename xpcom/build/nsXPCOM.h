@@ -242,6 +242,10 @@ extern
 bool
 gXPCOMThreadsShutDown
 ;
+extern
+bool
+gXPCOMMainThreadEventsAreDoomed
+;
 #
 endif
 #
