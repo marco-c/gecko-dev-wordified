@@ -1272,12 +1272,6 @@ case
 roles
 :
 :
-STATICTEXT
-:
-case
-roles
-:
-:
 CAPTION
 :
 case
@@ -1312,6 +1306,12 @@ roles
 :
 :
 TEXT_LEAF
+:
+case
+roles
+:
+:
+STATICTEXT
 :
 return
 [
