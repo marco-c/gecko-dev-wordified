@@ -334,8 +334,7 @@ e
 .
 nsCOMPtr
 *
-nsRefPtr
-nsAutoPtr
+RefPtr
 StaticRefPtr
 and
 StaticAutoPtr
@@ -555,8 +554,9 @@ virtual
 ShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template
