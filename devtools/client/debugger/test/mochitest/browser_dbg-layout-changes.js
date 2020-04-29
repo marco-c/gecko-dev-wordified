@@ -88,7 +88,7 @@ requestLongerTimeout
 2
 )
 ;
-var
+let
 gDefaultHostType
 =
 Services
