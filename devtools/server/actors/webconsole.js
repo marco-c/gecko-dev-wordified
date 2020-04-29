@@ -5254,15 +5254,6 @@ function
 request
 )
 {
-const
-startTime
-=
-Date
-.
-now
-(
-)
-;
 /
 /
 Use
@@ -5317,7 +5308,11 @@ millisecond
 const
 resultID
 =
-startTime
+Date
+.
+now
+(
+)
 +
 "
 -
@@ -5459,7 +5454,6 @@ type
 evaluationResult
 "
 resultID
-startTime
 .
 .
 .

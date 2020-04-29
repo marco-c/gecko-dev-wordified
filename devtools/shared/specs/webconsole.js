@@ -385,15 +385,6 @@ nullable
 json
 "
 )
-startTime
-:
-Option
-(
-0
-"
-number
-"
-)
 timestamp
 :
 Option
