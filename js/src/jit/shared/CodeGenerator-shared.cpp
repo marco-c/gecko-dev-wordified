@@ -4296,7 +4296,7 @@ encodeSafepoints
 {
 for
 (
-SafepointIndex
+CodegenSafepointIndex
 &
 index
 :
@@ -4332,12 +4332,6 @@ safepoint
 )
 ;
 }
-index
-.
-resolve
-(
-)
-;
 }
 return
 !
@@ -5709,7 +5703,7 @@ safepointIndices_
 .
 append
 (
-SafepointIndex
+CodegenSafepointIndex
 (
 offset
 ins

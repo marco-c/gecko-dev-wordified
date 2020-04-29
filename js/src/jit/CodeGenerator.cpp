@@ -79271,7 +79271,7 @@ thereof
 .
 for
 (
-SafepointIndex
+CodegenSafepointIndex
 &
 index
 :
