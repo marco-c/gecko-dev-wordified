@@ -158,7 +158,7 @@ domWindowOpened
 =
 BrowserTestUtils
 .
-domWindowOpened
+domWindowOpenedAndLoaded
 (
 null
 )
@@ -242,17 +242,6 @@ pipWin
 =
 await
 domWindowOpened
-;
-await
-BrowserTestUtils
-.
-waitForEvent
-(
-pipWin
-"
-load
-"
-)
 ;
 await
 videoReady
