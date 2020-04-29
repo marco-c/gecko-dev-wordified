@@ -7143,11 +7143,6 @@ CheckLoadingPermissions
 )
 ;
 nsresult
-PersistLayoutHistoryState
-(
-)
-;
-nsresult
 LoadHistoryEntry
 (
 nsISHEntry
