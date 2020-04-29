@@ -5720,9 +5720,9 @@ result
 *
 of
 evaluating
--
--
 x
+-
+-
 is
 ToNumeric
 (
@@ -5832,6 +5832,8 @@ NULL
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
