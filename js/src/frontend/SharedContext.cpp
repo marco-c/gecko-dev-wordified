@@ -243,10 +243,6 @@ cx_
 (
 cx
 )
-kind_
-(
-kind
-)
 compilationInfo_
 (
 compilationInfo
@@ -301,7 +297,7 @@ immutableFlags
 {
 if
 (
-kind_
+kind
 =
 =
 Kind
@@ -324,7 +320,7 @@ IsFunction
 else
 if
 (
-kind_
+kind
 =
 =
 Kind
@@ -357,7 +353,7 @@ IsModule
 else
 if
 (
-kind_
+kind
 =
 =
 Kind
@@ -381,7 +377,7 @@ else
 {
 MOZ_ASSERT
 (
-kind_
+kind
 =
 =
 Kind
