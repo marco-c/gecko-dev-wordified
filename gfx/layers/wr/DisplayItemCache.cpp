@@ -468,7 +468,7 @@ if
 mInvalid
 )
 {
-ClearCache
+Clear
 (
 )
 ;
@@ -489,7 +489,7 @@ void
 DisplayItemCache
 :
 :
-ClearCache
+Clear
 (
 )
 {
@@ -789,7 +789,7 @@ SetCapacity
 aMaximumSize
 )
 ;
-ClearCache
+Clear
 (
 )
 ;
