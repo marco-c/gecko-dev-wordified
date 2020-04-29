@@ -4336,6 +4336,13 @@ file
 ;
 }
 }
+addon
+.
+propagateDisabledState
+(
+aOldAddon
+)
+;
 if
 (
 !
@@ -4383,13 +4390,6 @@ id
 )
 ;
 }
-addon
-.
-propagateDisabledState
-(
-aOldAddon
-)
-;
 await
 addon
 .
