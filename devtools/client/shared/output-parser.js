@@ -9940,7 +9940,7 @@ It
 is
 made
 keyboard
-accessbile
+accessible
 via
 tabindex
 and
@@ -10418,6 +10418,16 @@ swatch
 nextElementSibling
 .
 textContent
+=
+val
+;
+swatch
+.
+parentNode
+.
+dataset
+.
+color
 =
 val
 ;
