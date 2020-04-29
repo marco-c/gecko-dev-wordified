@@ -255,6 +255,7 @@ NSAccessibilityTitleAttribute
 required
 NSAccessibilityChildrenAttribute
 NSAccessibilityDescriptionAttribute
+NSAccessibilityRequiredAttribute
 #
 if
 DEBUG
