@@ -455,10 +455,10 @@ rule
 -
 view
 has
-the
+an
 expected
 colorPicker
-property
+widget
 "
 )
 ;

@@ -1818,6 +1818,7 @@ closest
 data
 -
 color
+]
 "
 )
 ;
