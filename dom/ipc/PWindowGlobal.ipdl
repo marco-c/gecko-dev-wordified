@@ -434,6 +434,13 @@ nsString
 aViolationEventJSON
 )
 ;
+async
+SaveStorageAccessGranted
+(
+nsCString
+aPermissionKey
+)
+;
 both
 :
 async
