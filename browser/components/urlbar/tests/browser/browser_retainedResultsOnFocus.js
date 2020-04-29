@@ -627,16 +627,6 @@ autoFill
 "
 true
 ]
-[
-"
-browser
-.
-urlbar
-.
-openViewOnFocus
-"
-true
-]
 ]
 }
 )
