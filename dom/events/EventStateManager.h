@@ -6900,9 +6900,12 @@ DispatchCrossProcessEvent
 WidgetEvent
 *
 aEvent
-nsFrameLoader
+dom
+:
+:
+BrowserParent
 *
-aRemote
+aRemoteTarget
 nsEventStatus
 *
 aStatus
