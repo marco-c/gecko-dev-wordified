@@ -585,7 +585,7 @@ helperAppDialogShownPromise
 =
 BrowserTestUtils
 .
-domWindowOpened
+domWindowOpenedAndLoaded
 (
 )
 ;
@@ -640,18 +640,6 @@ dlg
 =
 await
 helperAppDialogShownPromise
-;
-await
-BrowserTestUtils
-.
-waitForEvent
-(
-dlg
-"
-load
-"
-false
-)
 ;
 is
 (

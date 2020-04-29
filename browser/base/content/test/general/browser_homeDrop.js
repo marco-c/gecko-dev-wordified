@@ -171,7 +171,7 @@ setHomepageDialogPromise
 =
 BrowserTestUtils
 .
-domWindowOpened
+domWindowOpenedAndLoaded
 (
 )
 ;
@@ -230,18 +230,6 @@ home
 button
 drop
 "
-)
-;
-await
-BrowserTestUtils
-.
-waitForEvent
-(
-setHomepageDialog
-"
-load
-"
-false
 )
 ;
 let
