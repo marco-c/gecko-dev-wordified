@@ -165,6 +165,7 @@ F
 FnOnce
 (
 &
+mut
 glean_core
 :
 :
@@ -175,6 +176,7 @@ Glean
 R
 {
 let
+mut
 lock
 =
 glean_core
@@ -195,6 +197,7 @@ unwrap
 f
 (
 &
+mut
 lock
 )
 }

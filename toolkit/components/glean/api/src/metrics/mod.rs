@@ -137,6 +137,9 @@ mod
 labeled
 ;
 mod
+ping
+;
+mod
 string
 ;
 mod
@@ -174,6 +177,16 @@ labeled
 :
 :
 LabeledMetric
+;
+pub
+use
+self
+:
+:
+ping
+:
+:
+Ping
 ;
 pub
 use
