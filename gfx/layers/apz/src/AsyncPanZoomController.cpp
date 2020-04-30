@@ -19039,9 +19039,10 @@ opposite
 direction
 )
 .
-mState
-=
+SetState
+(
 NOTHING
+)
 ;
 }
 return
