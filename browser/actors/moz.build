@@ -277,6 +277,16 @@ AboutReaderChild
 jsm
 '
 '
+AboutTabCrashedChild
+.
+jsm
+'
+'
+AboutTabCrashedParent
+.
+jsm
+'
+'
 BlockedSiteChild
 .
 jsm
