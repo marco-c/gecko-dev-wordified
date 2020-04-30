@@ -1263,7 +1263,7 @@ mozilla
 :
 AlignedStorage2
 .
-struct
+class
 alignas
 (
 8

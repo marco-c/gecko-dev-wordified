@@ -1412,7 +1412,7 @@ BailoutStack
 class
 InvalidationBailoutStack
 ;
-struct
+class
 IonScript
 ;
 class
