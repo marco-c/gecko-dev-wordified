@@ -275,9 +275,6 @@ clipboardRead
 clipboardWrite
 "
 "
-devtools
-"
-"
 downloads
 .
 open
