@@ -203,9 +203,9 @@ scale
 "
 res_target
 :
-0
+1
 .
-333
+0
 }
 {
 content
