@@ -154,7 +154,6 @@ HostWebGLContext
 DECLARE_METHOD_DISPATCHER
 (
 WebGLMethodDispatcher
-HostWebGLCommandSink
 HostWebGLContext
 )
 /
@@ -398,6 +397,8 @@ HostWebGLContext
 :
 ClearVRFrame
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -440,6 +441,8 @@ HostWebGLContext
 :
 GetFragDataLocation
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -818,6 +821,8 @@ HostWebGLContext
 :
 CopyBufferSubData
 )
+/
+/
 DEFINE_ASYNC
 (
 HostWebGLContext
@@ -867,6 +872,8 @@ HostWebGLContext
 :
 ReadBuffer
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -916,6 +923,8 @@ HostWebGLContext
 :
 TexStorage
 )
+/
+/
 DEFINE_ASYNC
 (
 HostWebGLContext
@@ -1035,6 +1044,8 @@ HostWebGLContext
 :
 ClearBufferfi
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
