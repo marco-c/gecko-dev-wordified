@@ -1932,14 +1932,6 @@ jsm
 events
 :
 {
-FullZoomChange
-:
-{
-}
-TextZoomChange
-:
-{
-}
 DoZoomEnlargeBy10
 :
 {
