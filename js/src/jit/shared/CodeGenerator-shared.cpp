@@ -6560,6 +6560,8 @@ const
 LAllocation
 *
 index
+int32_t
+offsetAdjustment
 )
 {
 if
@@ -6585,6 +6587,8 @@ sizeof
 (
 Value
 )
++
+offsetAdjustment
 )
 ;
 masm
@@ -6609,6 +6613,7 @@ ToRegister
 (
 index
 )
+offsetAdjustment
 )
 ;
 masm

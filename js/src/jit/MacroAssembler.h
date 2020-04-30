@@ -21312,6 +21312,10 @@ temp
 Label
 *
 fail
+bool
+canonicalizeDoubles
+=
+true
 )
 ;
 template
