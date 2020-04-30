@@ -5032,6 +5032,15 @@ ResponseQueueSize
 /
 /
 8K
+using
+mozilla
+:
+:
+webgl
+:
+:
+ProducerConsumerQueue
+;
 auto
 commandPcq
 =
@@ -5087,7 +5096,7 @@ mCommandSource
 =
 MakeUnique
 <
-ClientWebGLCommandSource
+ClientWebGLCommandSourceP
 >
 (
 commandPcq
@@ -5109,7 +5118,7 @@ sink
 =
 MakeUnique
 <
-HostWebGLCommandSink
+HostWebGLCommandSinkP
 >
 (
 commandPcq
