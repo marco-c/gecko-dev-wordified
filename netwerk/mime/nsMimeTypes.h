@@ -1140,14 +1140,6 @@ webp
 "
 #
 define
-IMAGE_AVIF
-"
-image
-/
-avif
-"
-#
-define
 MESSAGE_EXTERNAL_BODY
 "
 message
