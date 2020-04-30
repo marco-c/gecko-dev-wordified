@@ -8191,6 +8191,8 @@ wr
 LayoutRect
 &
 aBounds
+bool
+aIsBackfaceVisible
 PipelineId
 aPipeline
 bool
@@ -8212,9 +8214,9 @@ MergeClipLeaf
 (
 aBounds
 )
+aIsBackfaceVisible
+&
 mCurrentSpaceAndClipChain
-.
-space
 aPipeline
 aIgnoreMissingPipeline
 )
