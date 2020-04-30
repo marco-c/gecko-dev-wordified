@@ -9699,10 +9699,6 @@ ToLayoutRect
 (
 rect
 )
-!
-BackfaceIsHidden
-(
-)
 mozilla
 :
 :
