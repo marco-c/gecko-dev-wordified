@@ -162,11 +162,6 @@ AboutPrivateBrowsingHandler
 .
 jsm
 '
-'
-AboutProtectionsHandler
-.
-jsm
-'
 ]
 FINAL_LIBRARY
 =
