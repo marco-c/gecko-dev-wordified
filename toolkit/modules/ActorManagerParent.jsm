@@ -1932,10 +1932,6 @@ jsm
 events
 :
 {
-PreFullZoomChange
-:
-{
-}
 FullZoomChange
 :
 {
@@ -1955,16 +1951,6 @@ mozSystemGroup
 true
 }
 DoZoomReduceBy10
-:
-{
-capture
-:
-true
-mozSystemGroup
-:
-true
-}
-mozupdatedremoteframedimensions
 :
 {
 capture
