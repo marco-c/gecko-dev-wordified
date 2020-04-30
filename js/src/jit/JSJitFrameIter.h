@@ -625,6 +625,12 @@ BaselineFrame
 class
 JitActivation
 ;
+class
+SafepointIndex
+;
+class
+OsiIndex
+;
 /
 /
 Iterate

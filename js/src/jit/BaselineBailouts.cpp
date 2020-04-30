@@ -189,6 +189,15 @@ include
 "
 jit
 /
+IonScript
+.
+h
+"
+#
+include
+"
+jit
+/
 JitSpewer
 .
 h

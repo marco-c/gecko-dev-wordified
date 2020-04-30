@@ -172,6 +172,15 @@ h
 #
 include
 "
+jit
+/
+IonScript
+.
+h
+"
+#
+include
+"
 util
 /
 Memory
