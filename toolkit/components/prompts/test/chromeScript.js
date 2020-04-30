@@ -356,6 +356,8 @@ y
 +
 50
 )
+.
+parentNode
 prompt
 .
 element
@@ -786,7 +788,17 @@ ui
 .
 infoTitle
 .
+getAttribute
+(
+"
 hidden
+"
+)
+=
+=
+"
+true
+"
 ;
 state
 .
