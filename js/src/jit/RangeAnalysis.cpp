@@ -13896,7 +13896,7 @@ setRange
 GetTypedArrayRange
 (
 alloc
-readType
+storageType
 (
 )
 )
