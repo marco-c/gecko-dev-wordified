@@ -69115,7 +69115,7 @@ import
 *
 /
 var
-common_PerfService_jsm__WEBPACK_IMPORTED_MODULE_1__
+content_src_lib_perf_service__WEBPACK_IMPORTED_MODULE_1__
 =
 __webpack_require__
 (
@@ -69293,7 +69293,7 @@ props
 perfSvc
 |
 |
-common_PerfService_jsm__WEBPACK_IMPORTED_MODULE_1__
+content_src_lib_perf_service__WEBPACK_IMPORTED_MODULE_1__
 [
 "
 perfService
@@ -71126,7 +71126,7 @@ startTime
 }
 }
 ;
-var
+const
 perfService
 =
 new
@@ -85677,7 +85677,7 @@ import
 *
 /
 var
-common_PerfService_jsm__WEBPACK_IMPORTED_MODULE_1__
+content_src_lib_perf_service__WEBPACK_IMPORTED_MODULE_1__
 =
 __webpack_require__
 (
@@ -85801,7 +85801,7 @@ options
 perfService
 |
 |
-common_PerfService_jsm__WEBPACK_IMPORTED_MODULE_1__
+content_src_lib_perf_service__WEBPACK_IMPORTED_MODULE_1__
 [
 "
 perfService
