@@ -113,7 +113,7 @@ remote
 /
 content
 /
-domains
+observers
 /
 ContextObserver
 .

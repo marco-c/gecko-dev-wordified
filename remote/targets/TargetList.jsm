@@ -188,9 +188,9 @@ remote
 /
 content
 /
-targets
+observers
 /
-TabObserver
+TargetObserver
 .
 jsm
 "
