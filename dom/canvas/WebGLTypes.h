@@ -597,7 +597,7 @@ typename
 T
 >
 struct
-PcqParamTraits
+QueueParamTraits
 ;
 }
 namespace
@@ -3691,7 +3691,7 @@ mozilla
 ipc
 :
 :
-PcqParamTraits
+QueueParamTraits
 <
 RawBuffer
 >
