@@ -301,6 +301,9 @@ value
 "
 ratio
 "
+"
+groups
+"
 ]
 properties
 :
@@ -319,6 +322,7 @@ branch
 of
 the
 experiment
+.
 "
 type
 :
@@ -353,6 +357,7 @@ description
 "
 Message
 content
+.
 "
 type
 :
@@ -380,6 +385,7 @@ grouped
 into
 this
 branch
+.
 "
 type
 :
@@ -411,6 +417,11 @@ or
 select
 related
 experiments
+.
+May
+be
+empty
+.
 "
 type
 :
