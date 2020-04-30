@@ -10,11 +10,11 @@ valid
 syntax
 (
 of
-user
+default
 pref
 files
 not
-default
+user
 /
 /
 pref
@@ -35,7 +35,7 @@ Parser
 cpp
 for
 tests
-if
+of
 invalid
 /
 /
