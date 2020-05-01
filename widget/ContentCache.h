@@ -236,7 +236,7 @@ ContentCache
 public
 :
 typedef
-nsTArray
+CopyableTArray
 <
 LayoutDeviceIntRect
 >

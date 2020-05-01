@@ -391,7 +391,7 @@ by
 this
 process
 .
-nsTArray
+CopyableTArray
 <
 ThreadInfo
 >

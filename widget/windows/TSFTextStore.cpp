@@ -4661,6 +4661,10 @@ aList
 mInputScopes
 (
 aList
+.
+Clone
+(
+)
 )
 {
 MOZ_LOG

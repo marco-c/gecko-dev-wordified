@@ -1402,13 +1402,13 @@ mEnd
 ;
 }
 ;
-nsTArray
+CopyableTArray
 <
 nsString
 >
 mIds
 ;
-nsTArray
+CopyableTArray
 <
 DeviceRange
 >

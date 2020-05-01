@@ -7409,7 +7409,7 @@ NewRunnableMethod
 uint64_t
 StoreCopyPassByLRef
 <
-nsTArray
+CopyableTArray
 <
 TouchBehaviorFlags
 >
@@ -7433,6 +7433,10 @@ IAPZCTreeManager
 SetAllowedTouchBehavior
 aInputBlockId
 aFlags
+.
+Clone
+(
+)
 )
 )
 ;
@@ -7609,6 +7613,10 @@ IAPZCTreeManager
 SetTargetAPZC
 aInputBlockId
 aTargets
+.
+Clone
+(
+)
 )
 )
 ;

@@ -8164,7 +8164,7 @@ class
 NativeEventData
 final
 {
-nsTArray
+CopyableTArray
 <
 uint8_t
 >
