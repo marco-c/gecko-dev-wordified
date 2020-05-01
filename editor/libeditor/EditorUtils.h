@@ -3167,7 +3167,7 @@ simple
 class
 for
 *
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
