@@ -11,7 +11,7 @@ Error
 gcparam
 (
 "
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 "
 1
 )

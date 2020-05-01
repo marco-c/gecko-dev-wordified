@@ -23,7 +23,7 @@ parameters
 gcparam
 (
 '
-highFrequencyHeapGrowthMin
+highFrequencyLargeHeapGrowth
 '
 200
 )
@@ -31,7 +31,7 @@ highFrequencyHeapGrowthMin
 gcparam
 (
 '
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 '
 400
 )
@@ -41,7 +41,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHeapGrowthMin
+highFrequencyLargeHeapGrowth
 '
 )
 200
@@ -52,7 +52,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 '
 )
 400
@@ -61,7 +61,7 @@ highFrequencyHeapGrowthMax
 gcparam
 (
 '
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 '
 150
 )
@@ -71,7 +71,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHeapGrowthMin
+highFrequencyLargeHeapGrowth
 '
 )
 150
@@ -82,7 +82,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 '
 )
 150
@@ -91,7 +91,7 @@ highFrequencyHeapGrowthMax
 gcparam
 (
 '
-highFrequencyHeapGrowthMin
+highFrequencyLargeHeapGrowth
 '
 300
 )
@@ -101,7 +101,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHeapGrowthMin
+highFrequencyLargeHeapGrowth
 '
 )
 300
@@ -112,7 +112,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 '
 )
 300
@@ -137,7 +137,7 @@ MiB
 gcparam
 (
 '
-highFrequencyLowLimit
+smallHeapSizeMax
 '
 200
 )
@@ -145,7 +145,7 @@ highFrequencyLowLimit
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 500
 )
@@ -155,7 +155,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyLowLimit
+smallHeapSizeMax
 '
 )
 200
@@ -166,7 +166,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 )
 500
@@ -175,7 +175,7 @@ highFrequencyHighLimit
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 100
 )
@@ -185,7 +185,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyLowLimit
+smallHeapSizeMax
 '
 )
 99
@@ -196,7 +196,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 )
 100
@@ -205,7 +205,7 @@ highFrequencyHighLimit
 gcparam
 (
 '
-highFrequencyLowLimit
+smallHeapSizeMax
 '
 300
 )
@@ -215,7 +215,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyLowLimit
+smallHeapSizeMax
 '
 )
 300
@@ -226,7 +226,7 @@ assertEq
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 )
 300

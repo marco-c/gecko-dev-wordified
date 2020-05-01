@@ -64,7 +64,7 @@ lowFrequencyHeapGrowth
 gcparam
 (
 '
-highFrequencyHeapGrowthMin
+highFrequencyLargeHeapGrowth
 '
 120
 )
@@ -72,7 +72,7 @@ highFrequencyHeapGrowthMin
 gcparam
 (
 '
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 '
 120
 )

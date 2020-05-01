@@ -2660,7 +2660,7 @@ RebindLiteral
 (
 PREF_MEM_OPTIONS_PREFIX
 "
-gc_high_frequency_heap_growth_min
+gc_high_frequency_large_heap_growth
 "
 )
 ;
@@ -2687,7 +2687,7 @@ UpdateCommonJSGCMemoryOption
 (
 rts
 matchName
-JSGC_HIGH_FREQUENCY_HEAP_GROWTH_MIN
+JSGC_HIGH_FREQUENCY_LARGE_HEAP_GROWTH
 )
 ;
 continue
@@ -2699,7 +2699,7 @@ RebindLiteral
 (
 PREF_MEM_OPTIONS_PREFIX
 "
-gc_high_frequency_heap_growth_max
+gc_high_frequency_small_heap_growth
 "
 )
 ;
@@ -2726,7 +2726,7 @@ UpdateCommonJSGCMemoryOption
 (
 rts
 matchName
-JSGC_HIGH_FREQUENCY_HEAP_GROWTH_MAX
+JSGC_HIGH_FREQUENCY_SMALL_HEAP_GROWTH
 )
 ;
 continue
@@ -2738,7 +2738,7 @@ RebindLiteral
 (
 PREF_MEM_OPTIONS_PREFIX
 "
-gc_high_frequency_low_limit_mb
+gc_small_heap_size_max_mb
 "
 )
 ;
@@ -2765,7 +2765,7 @@ UpdateCommonJSGCMemoryOption
 (
 rts
 matchName
-JSGC_HIGH_FREQUENCY_LOW_LIMIT
+JSGC_SMALL_HEAP_SIZE_MAX
 )
 ;
 continue
@@ -2777,7 +2777,7 @@ RebindLiteral
 (
 PREF_MEM_OPTIONS_PREFIX
 "
-gc_high_frequency_high_limit_mb
+gc_large_heap_size_min_mb
 "
 )
 ;
@@ -2804,7 +2804,7 @@ UpdateCommonJSGCMemoryOption
 (
 rts
 matchName
-JSGC_HIGH_FREQUENCY_HIGH_LIMIT
+JSGC_LARGE_HEAP_SIZE_MIN
 )
 ;
 continue

@@ -47,7 +47,7 @@ gc
 GCRuntime
 :
 :
-setHighFrequencyHighLimit
+setLargeHeapSizeMinBytes
 will
 change
 the
@@ -97,7 +97,7 @@ size_t
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 99
 )
