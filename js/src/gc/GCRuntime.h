@@ -7049,7 +7049,7 @@ MainThreadData
 <
 int
 >
-incrementalLimit
+zealSliceBudget
 ;
 MainThreadData
 <
