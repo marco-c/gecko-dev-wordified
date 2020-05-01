@@ -82,7 +82,7 @@ testing
 -
 common
 /
-TestWindowParent
+TestParent
 .
 jsm
 "
@@ -101,7 +101,7 @@ testing
 -
 common
 /
-TestWindowChild
+TestChild
 .
 jsm
 "
@@ -345,7 +345,7 @@ ChromeUtils
 registerWindowActor
 (
 "
-TestWindow
+Test
 "
 actorOptions
 )
@@ -435,7 +435,7 @@ ChromeUtils
 unregisterWindowActor
 (
 "
-TestWindow
+Test
 "
 )
 ;

@@ -114,10 +114,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_JSActor_h
+mozilla_dom_JSWindowActor_h
 #
 define
-mozilla_dom_JSActor_h
+mozilla_dom_JSWindowActor_h
 #
 include
 "
@@ -203,7 +203,7 @@ dom
 {
 enum
 class
-JSActorMessageKind
+JSWindowActorMessageKind
 {
 Message
 Query
@@ -213,7 +213,7 @@ EndGuard_
 }
 ;
 class
-JSActorMessageMeta
+JSWindowActorMessageMeta
 ;
 class
 QueryPromiseHandler
@@ -231,7 +231,7 @@ Child
 }
 .
 class
-JSActor
+JSWindowActor
 :
 public
 nsISupports
@@ -243,9 +243,9 @@ public
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
-JSActor
+JSWindowActor
 )
-JSActor
+JSWindowActor
 (
 )
 ;
@@ -337,7 +337,7 @@ void
 ReceiveRawMessage
 (
 const
-JSActorMessageMeta
+JSWindowActorMessageMeta
 &
 aMetadata
 ipc
@@ -420,7 +420,7 @@ void
 SendRawMessage
 (
 const
-JSActorMessageMeta
+JSWindowActorMessageMeta
 &
 aMetadata
 ipc
@@ -483,7 +483,7 @@ bool
 AllowMessage
 (
 const
-JSActorMessageMeta
+JSWindowActorMessageMeta
 &
 aMetadata
 size_t
@@ -492,7 +492,7 @@ aDataLength
 ;
 virtual
 ~
-JSActor
+JSWindowActor
 (
 )
 =
@@ -566,7 +566,7 @@ JSContext
 *
 aCx
 const
-JSActorMessageMeta
+JSWindowActorMessageMeta
 &
 aMetadata
 JS
@@ -592,7 +592,7 @@ JSContext
 *
 aCx
 const
-JSActorMessageMeta
+JSWindowActorMessageMeta
 &
 aMetadata
 JS
@@ -645,11 +645,11 @@ QueryHandler
 )
 QueryHandler
 (
-JSActor
+JSWindowActor
 *
 aActor
 const
-JSActorMessageMeta
+JSWindowActorMessageMeta
 &
 aMetadata
 Promise
@@ -712,7 +712,7 @@ SendReply
 JSContext
 *
 aCx
-JSActorMessageKind
+JSWindowActorMessageKind
 aKind
 ipc
 :
@@ -725,7 +725,7 @@ aData
 ;
 RefPtr
 <
-JSActor
+JSWindowActor
 >
 mActor
 ;
@@ -789,7 +789,7 @@ mozilla
 dom
 :
 :
-JSActorMessageKind
+JSWindowActorMessageKind
 >
 :
 public
@@ -801,14 +801,14 @@ mozilla
 dom
 :
 :
-JSActorMessageKind
+JSWindowActorMessageKind
 mozilla
 :
 :
 dom
 :
 :
-JSActorMessageKind
+JSWindowActorMessageKind
 :
 :
 Message
@@ -818,7 +818,7 @@ mozilla
 dom
 :
 :
-JSActorMessageKind
+JSWindowActorMessageKind
 :
 :
 EndGuard_
@@ -838,5 +838,5 @@ endif
 !
 defined
 (
-mozilla_dom_JSActor_h
+mozilla_dom_JSWindowActor_h
 )

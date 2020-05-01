@@ -131,7 +131,7 @@ currentWindowGlobal
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -216,7 +216,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -228,7 +228,7 @@ show
 (
 )
 "
-TestWindowChild
+TestChild
 "
 "
 actor
@@ -393,7 +393,7 @@ currentWindowGlobal
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -478,7 +478,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -490,7 +490,7 @@ show
 (
 )
 "
-TestWindowChild
+TestChild
 "
 "
 actor

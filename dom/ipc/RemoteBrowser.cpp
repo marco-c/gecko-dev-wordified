@@ -135,13 +135,6 @@ nsFrameLoaderOwner
 .
 h
 "
-#
-include
-"
-nsQueryObject
-.
-h
-"
 namespace
 mozilla
 {

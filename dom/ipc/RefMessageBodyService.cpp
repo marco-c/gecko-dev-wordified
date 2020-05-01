@@ -121,13 +121,6 @@ RefMessageBodyService
 .
 h
 "
-#
-include
-"
-nsContentUtils
-.
-h
-"
 namespace
 mozilla
 {

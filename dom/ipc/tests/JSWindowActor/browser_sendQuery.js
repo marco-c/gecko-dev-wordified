@@ -89,7 +89,7 @@ n
 return
 (
 "
-JSActor
+JSWindowActor
 query
 *
 "
@@ -175,7 +175,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -267,7 +267,7 @@ testing
 -
 common
 /
-TestWindowChild
+TestChild
 .
 jsm
 :
@@ -323,7 +323,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -421,7 +421,7 @@ testing
 -
 common
 /
-TestWindowChild
+TestChild
 .
 jsm
 :
@@ -477,7 +477,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -595,7 +595,7 @@ wgc
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;

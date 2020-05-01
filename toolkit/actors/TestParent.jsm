@@ -111,12 +111,12 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TestWindowParent
+TestParent
 "
 ]
 ;
 class
-TestWindowParent
+TestParent
 extends
 JSWindowActorParent
 {
@@ -270,7 +270,7 @@ show
 {
 return
 "
-TestWindowParent
+TestParent
 "
 ;
 }
