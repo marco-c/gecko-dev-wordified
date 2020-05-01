@@ -476,7 +476,7 @@ MatchGlobSet
 final
 :
 public
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -527,7 +527,7 @@ size_type
 aCapacity
 )
 :
-nsTArray
+CopyableTArray
 (
 aCapacity
 )
@@ -542,7 +542,7 @@ nsTArray
 aOther
 )
 :
-nsTArray
+CopyableTArray
 (
 aOther
 )
@@ -557,7 +557,7 @@ nsTArray
 aOther
 )
 :
-nsTArray
+CopyableTArray
 (
 std
 :
@@ -585,7 +585,7 @@ MatchGlob
 aIL
 )
 :
-nsTArray
+CopyableTArray
 (
 aIL
 )
