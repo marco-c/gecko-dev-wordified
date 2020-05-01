@@ -1386,6 +1386,10 @@ object
 extra_keys
 (
 extra_keys
+.
+Clone
+(
+)
 )
 recordOnRelease
 (
@@ -1431,7 +1435,7 @@ nsCString
 object
 ;
 const
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -1540,7 +1544,7 @@ WrongProcess
 }
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >
@@ -1587,6 +1591,10 @@ value
 mExtra
 (
 extra
+.
+Clone
+(
+)
 )
 {
 }
@@ -7096,7 +7104,7 @@ extra
 =
 aExtra
 .
-ref
+value
 (
 )
 ;

@@ -1574,7 +1574,7 @@ created
 struct
 HistogramSnapshotData
 {
-nsTArray
+CopyableTArray
 <
 base
 :
@@ -1586,7 +1586,7 @@ Sample
 >
 mBucketRanges
 ;
-nsTArray
+CopyableTArray
 <
 base
 :

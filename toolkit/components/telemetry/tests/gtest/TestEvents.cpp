@@ -438,7 +438,7 @@ with
 normal
 value
 extra
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >
@@ -491,7 +491,7 @@ too
 long
 value
 extra
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >
