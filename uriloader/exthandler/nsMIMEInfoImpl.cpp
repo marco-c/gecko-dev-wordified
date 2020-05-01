@@ -1903,6 +1903,10 @@ aOther
 mExtensions
 =
 mExtensions
+.
+Clone
+(
+)
 ;
 }
 /
