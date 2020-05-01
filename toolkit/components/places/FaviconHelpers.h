@@ -548,7 +548,7 @@ above
 uint8_t
 rootIcon
 ;
-nsTArray
+CopyableTArray
 <
 IconPayload
 >

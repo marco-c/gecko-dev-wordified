@@ -320,6 +320,10 @@ aFrecency
 mVisits
 (
 aVisits
+.
+Clone
+(
+)
 )
 mVisitsAvailable
 (
