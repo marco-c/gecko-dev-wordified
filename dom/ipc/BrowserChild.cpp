@@ -11758,6 +11758,10 @@ EditCommandsConstRef
 (
 aType
 )
+.
+Clone
+(
+)
 ;
 return
 ;

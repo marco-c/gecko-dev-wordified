@@ -1745,6 +1745,10 @@ BlobImpl
 blobs
 (
 mBlobImpls
+.
+Clone
+(
+)
 )
 ;
 mReadOnly
@@ -2572,6 +2576,10 @@ BlobImpl
 blobImpls
 (
 mBlobImpls
+.
+Clone
+(
+)
 )
 ;
 mReadOnly

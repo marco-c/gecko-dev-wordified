@@ -326,6 +326,10 @@ aCallback
 mFeatures
 =
 aFeatures
+.
+Clone
+(
+)
 ;
 }
 mozilla
