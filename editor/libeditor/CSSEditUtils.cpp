@@ -3619,7 +3619,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 RemoveContainerWithTransaction
