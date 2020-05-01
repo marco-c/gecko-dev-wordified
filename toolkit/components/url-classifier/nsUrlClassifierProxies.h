@@ -583,6 +583,10 @@ aTarget
 mEntries
 (
 aEntries
+.
+Clone
+(
+)
 )
 {
 }

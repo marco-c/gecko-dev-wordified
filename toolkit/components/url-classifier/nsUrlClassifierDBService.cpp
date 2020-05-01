@@ -5920,6 +5920,10 @@ rv
 mLastResults
 =
 aResults
+.
+Clone
+(
+)
 ;
 }
 return
@@ -14848,6 +14852,14 @@ AsyncClassifyLocalWithFeatures
 [
 callback
 results
+=
+std
+:
+:
+move
+(
+results
+)
 ]
 (
 )
