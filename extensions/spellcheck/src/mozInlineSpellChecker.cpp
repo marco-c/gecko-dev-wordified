@@ -9328,7 +9328,13 @@ __func__
 [
 self
 spellCheckerSelection
+ranges
+=
 aRanges
+.
+Clone
+(
+)
 token
 ]
 (
@@ -9449,7 +9455,7 @@ mozInlineSpellWordUtil
 :
 MakeRange
 (
-aRanges
+ranges
 [
 i
 ]

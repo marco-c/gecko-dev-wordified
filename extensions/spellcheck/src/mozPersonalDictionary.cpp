@@ -490,7 +490,13 @@ mozPersonalDictionarySave
 )
 mDictWords
 (
+std
+:
+:
+move
+(
 aDictWords
+)
 )
 mFile
 (
