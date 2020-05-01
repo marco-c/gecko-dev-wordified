@@ -32157,7 +32157,7 @@ newListItemElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 ReplaceContainerWithTransaction
@@ -32421,7 +32421,7 @@ newListItemElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 ReplaceContainerWithTransaction
@@ -33344,7 +33344,7 @@ newListItemElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 ReplaceContainerWithTransaction
@@ -43957,7 +43957,7 @@ newListItemElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 ReplaceContainerWithTransaction
@@ -44157,7 +44157,7 @@ NS_WARNING_ASSERTION
 (
 listElement
 "
-EditorBase
+HTMLEditor
 :
 :
 ReplaceContainerWithTransaction
