@@ -312,6 +312,11 @@ ContentParent
 aManager
 )
 ;
+void
+AfterDestroy
+(
+)
+;
 protected
 :
 /
