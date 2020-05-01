@@ -144,10 +144,6 @@ extern
 crate
 bookmark_sync
 ;
-extern
-crate
-cascade_bloom_filter
-;
 #
 [
 cfg

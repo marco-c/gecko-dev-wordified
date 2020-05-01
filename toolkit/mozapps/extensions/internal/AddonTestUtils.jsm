@@ -5074,11 +5074,6 @@ extensions
 bsPass
 .
 ExtensionBlocklistRS
-extensionsMLBF
-:
-bsPass
-.
-ExtensionBlocklistMLBF
 plugins
 :
 bsPass
