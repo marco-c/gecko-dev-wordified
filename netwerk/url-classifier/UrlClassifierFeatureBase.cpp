@@ -748,6 +748,10 @@ mTables
 [
 aListType
 ]
+.
+Clone
+(
+)
 ;
 return
 NS_OK
