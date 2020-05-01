@@ -389,7 +389,7 @@ mozilla
 /
 dom
 /
-JSWindowActorService
+JSActorService
 .
 h
 "
@@ -3021,7 +3021,7 @@ WindowGlobalChild
 RecvRawMessage
 (
 const
-JSWindowActorMessageMeta
+JSActorMessageMeta
 &
 aMeta
 const
@@ -3086,7 +3086,7 @@ WindowGlobalChild
 ReceiveRawMessage
 (
 const
-JSWindowActorMessageMeta
+JSActorMessageMeta
 &
 aMeta
 StructuredCloneData
@@ -3603,7 +3603,7 @@ endif
 /
 Destroy
 our
-JSWindowActors
+JSActors
 and
 reject
 any

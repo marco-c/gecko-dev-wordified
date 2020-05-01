@@ -147,14 +147,14 @@ include
 NeckoChannelParams
 ;
 using
-JSWindowActorMessageKind
+JSActorMessageKind
 from
 "
 mozilla
 /
 dom
 /
-JSWindowActor
+JSActor
 .
 h
 "
@@ -246,7 +246,7 @@ namespace
 dom
 {
 struct
-JSWindowActorMessageMeta
+JSActorMessageMeta
 {
 nsCString
 actorName
@@ -257,7 +257,7 @@ messageName
 uint64_t
 queryId
 ;
-JSWindowActorMessageKind
+JSActorMessageKind
 kind
 ;
 }
@@ -446,7 +446,7 @@ both
 async
 RawMessage
 (
-JSWindowActorMessageMeta
+JSActorMessageMeta
 aMetadata
 ClonedMessageData
 aData
