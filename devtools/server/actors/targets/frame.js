@@ -271,6 +271,7 @@ client
 *
 param
 docShell
+nsIDocShell
 *
 The
 |
@@ -282,6 +283,17 @@ debugged
 frame
 .
 *
+param
+options
+Object
+*
+See
+BrowsingContextTargetActor
+.
+initialize
+doc
+.
+*
 /
 frameTargetPrototype
 .
@@ -291,6 +303,7 @@ function
 (
 connection
 docShell
+options
 )
 {
 BrowsingContextTargetActor
@@ -303,6 +316,7 @@ call
 (
 this
 connection
+options
 )
 ;
 this

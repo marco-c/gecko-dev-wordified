@@ -532,6 +532,14 @@ connection
 this
 .
 docShell
+{
+followWindowGlobalLifeCycle
+:
+true
+doNotFireFrameUpdates
+:
+true
+}
 )
 ;
 /
