@@ -1463,7 +1463,10 @@ JSContext
 aCx
 JSGCParamKey
 key
+Maybe
+<
 uint32_t
+>
 aValue
 )
 ;
@@ -4111,7 +4114,10 @@ UpdateJSWorkerMemoryParameter
 (
 JSGCParamKey
 key
+Maybe
+<
 uint32_t
+>
 value
 )
 ;
