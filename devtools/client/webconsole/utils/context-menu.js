@@ -1946,7 +1946,7 @@ menu
 .
 openInSidebar
 .
-label
+label1
 "
 )
 accesskey
