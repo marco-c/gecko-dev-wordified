@@ -25719,6 +25719,17 @@ member
 has_extended_attribute
 (
 "
+LegacyLenientSetter
+"
+)
+&
+&
+!
+member
+.
+has_extended_attribute
+(
+"
 PutForwards
 "
 )
