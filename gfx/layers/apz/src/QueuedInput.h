@@ -270,6 +270,17 @@ aBlock
 QueuedInput
 (
 const
+PinchGestureInput
+&
+aInput
+PinchGestureBlockState
+&
+aBlock
+)
+;
+QueuedInput
+(
+const
 KeyboardInput
 &
 aInput

@@ -13754,8 +13754,6 @@ CreateBidiKeyboard
 (
 )
 ;
-protected
-:
 /
 *
 *
@@ -13790,6 +13788,8 @@ return
 0
 ;
 }
+protected
+:
 /
 /
 keep
