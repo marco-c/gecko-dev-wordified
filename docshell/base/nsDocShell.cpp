@@ -78943,6 +78943,11 @@ previousFlags
 aRedirects
 )
 ;
+if
+(
+aTiming
+)
+{
 self
 -
 >
@@ -78955,6 +78960,7 @@ self
 aTiming
 )
 ;
+}
 /
 /
 If
