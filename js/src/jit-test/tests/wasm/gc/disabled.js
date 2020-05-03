@@ -43,6 +43,11 @@ type
 |
 bad
 type
+|
+Cranelift
+error
+in
+clifFunc
 /
 ;
 let
