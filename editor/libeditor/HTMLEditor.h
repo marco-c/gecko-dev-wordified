@@ -14972,7 +14972,7 @@ pointToInsert
 *
 *
 *
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 )
 moves
@@ -14981,9 +14981,9 @@ to
 aPointToInsert
 .
 If
+*
 cannot
 insert
-*
 aContent
 due
 to
@@ -14993,8 +14993,8 @@ moves
 only
 its
 children
-recursively
 *
+recursively
 and
 removes
 aContent
@@ -15036,7 +15036,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 MoveNodeResult
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 nsIContent
 &
@@ -15051,7 +15051,7 @@ aPointToInsert
 *
 *
 *
-MoveChildren
+MoveChildrenWithTransaction
 (
 )
 moves
@@ -15060,10 +15060,10 @@ children
 of
 aElement
 to
+*
 aPointToInsert
 .
 If
-*
 cannot
 insert
 some
@@ -15072,9 +15072,9 @@ due
 to
 invalid
 relation
-calls
 *
-MoveNodeOrChildren
+calls
+MoveNodeOrChildrenWithTransaction
 (
 )
 to
@@ -15083,6 +15083,7 @@ the
 children
 but
 keep
+*
 moving
 its
 children
@@ -15125,7 +15126,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 MoveNodeResult
-MoveChildren
+MoveChildrenWithTransaction
 (
 Element
 &
