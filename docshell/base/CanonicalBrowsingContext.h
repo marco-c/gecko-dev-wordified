@@ -461,6 +461,14 @@ GetParentWindowGlobal
 )
 const
 ;
+already_AddRefed
+<
+CanonicalBrowsingContext
+>
+GetParentCrossChromeBoundary
+(
+)
+;
 nsISHistory
 *
 GetSessionHistory
