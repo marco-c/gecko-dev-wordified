@@ -2502,18 +2502,6 @@ wait
 .
 js
 "
-%
-{
-"
-classname
-"
-:
-"
-reftest
--
-wait
-"
-}
 )
 )
 as
@@ -2529,6 +2517,18 @@ f
 read
 (
 )
+%
+{
+"
+classname
+"
+:
+"
+reftest
+-
+wait
+"
+}
     
 def
 reset
