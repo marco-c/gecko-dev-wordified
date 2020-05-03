@@ -277,6 +277,7 @@ h
 /
 Vector
 class
+JS_PUBLIC_API
 JSAtom
 ;
 struct
