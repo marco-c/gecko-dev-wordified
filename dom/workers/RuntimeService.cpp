@@ -3043,9 +3043,9 @@ rts
 JSGC_COMPACTING_ENABLED
 prefValue
 ?
-0
-:
 1
+:
+0
 )
 ;
 continue
