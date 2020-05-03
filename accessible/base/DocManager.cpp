@@ -307,6 +307,13 @@ BrowserChild
 .
 h
 "
+#
+include
+"
+xpcAccessibleDocument
+.
+h
+"
 using
 namespace
 mozilla

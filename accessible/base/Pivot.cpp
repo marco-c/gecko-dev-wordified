@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

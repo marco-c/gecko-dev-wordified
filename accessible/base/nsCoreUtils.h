@@ -162,6 +162,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShellForwards
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h

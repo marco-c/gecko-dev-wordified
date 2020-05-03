@@ -114,6 +114,13 @@ MPL
 #
 include
 "
+xpcAccessibleHyperLink
+.
+h
+"
+#
+include
+"
 Accessible
 -
 inl
@@ -124,6 +131,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+xpcAccessibleDocument
 .
 h
 "

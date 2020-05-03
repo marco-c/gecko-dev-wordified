@@ -69,6 +69,13 @@ nsIAccessibilityService
 .
 h
 "
+#
+include
+"
+nsITimer
+.
+h
+"
 class
 xpcAccessibilityService
 :
