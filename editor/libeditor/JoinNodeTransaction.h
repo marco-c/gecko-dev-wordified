@@ -164,7 +164,7 @@ namespace
 mozilla
 {
 class
-EditorBase
+HTMLEditor
 ;
 /
 *
@@ -244,9 +244,9 @@ protected
 :
 JoinNodeTransaction
 (
-EditorBase
+HTMLEditor
 &
-aEditorBase
+aHTMLEditor
 nsIContent
 &
 aLeftContent
@@ -280,7 +280,7 @@ nodes
 *
 *
 param
-aEditorBase
+aHTMLEditor
 The
 provider
 of
@@ -319,9 +319,9 @@ JoinNodeTransaction
 >
 MaybeCreate
 (
-EditorBase
+HTMLEditor
 &
-aEditorBase
+aHTMLEditor
 nsIContent
 &
 aLeftContent
@@ -390,9 +390,9 @@ protected
 :
 RefPtr
 <
-EditorBase
+HTMLEditor
 >
-mEditorBase
+mHTMLEditor
 ;
 /
 /
