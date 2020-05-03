@@ -1692,8 +1692,6 @@ _screenshot
 self
 .
 protocol
-.
-session
                                  
 self
 .
