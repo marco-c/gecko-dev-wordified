@@ -10,6 +10,12 @@ skip
 if
 :
 !
+wasmReftypesEnabled
+(
+)
+|
+|
+!
 wasmGcEnabled
 (
 )

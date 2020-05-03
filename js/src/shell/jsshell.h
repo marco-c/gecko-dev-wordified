@@ -653,6 +653,10 @@ extern
 bool
 enableWasmCranelift
 ;
+extern
+bool
+enableWasmReftypes
+;
 #
 ifdef
 ENABLE_WASM_GC

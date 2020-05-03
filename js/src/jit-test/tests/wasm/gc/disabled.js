@@ -12,6 +12,11 @@ if
 wasmReftypesEnabled
 (
 )
+|
+|
+wasmGcEnabled
+(
+)
 const
 {
 CompileError

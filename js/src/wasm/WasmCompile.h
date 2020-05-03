@@ -355,6 +355,9 @@ bool
 forceTiering
 ;
 bool
+reftypesEnabled
+;
+bool
 gcEnabled
 ;
 bool
@@ -500,6 +503,10 @@ sharedMemoryEnabled
 false
 )
 forceTiering
+(
+false
+)
+reftypesEnabled
 (
 false
 )
