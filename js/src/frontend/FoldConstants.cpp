@@ -5543,7 +5543,7 @@ head
 (
 )
 ;
-ReplaceNode
+TryReplaceNode
 (
 nodePtr
 first
