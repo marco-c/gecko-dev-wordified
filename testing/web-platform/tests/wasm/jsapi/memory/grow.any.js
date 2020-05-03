@@ -4,6 +4,8 @@ META
 :
 global
 =
+window
+dedicatedworker
 jsshell
 function
 assert_ArrayBuffer

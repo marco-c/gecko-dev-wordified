@@ -3,6 +3,7 @@
 META
 global
 =
+window
 worker
 /
 /
