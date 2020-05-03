@@ -187,10 +187,10 @@ hidePopup
 (
 )
 ;
-await
-removeTab
+gBrowser
+.
+removeCurrentTab
 (
-tab
 )
 ;
 }
