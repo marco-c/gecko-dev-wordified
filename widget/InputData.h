@@ -2828,15 +2828,6 @@ ScreenToParentLayerMatrix4x4
 aTransform
 )
 ;
-WidgetWheelEvent
-ToWidgetWheelEvent
-(
-nsIWidget
-*
-aWidget
-)
-const
-;
 /
 /
 Warning
@@ -3116,9 +3107,6 @@ spans
 .
 ScreenCoord
 mPreviousSpan
-;
-bool
-mHandledByAPZ
 ;
 /
 /
