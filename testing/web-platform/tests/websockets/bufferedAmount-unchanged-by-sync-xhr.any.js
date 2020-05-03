@@ -15,6 +15,8 @@ META
 :
 global
 =
+window
+dedicatedworker
 sharedworker
 async_test
 (
