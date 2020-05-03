@@ -1056,6 +1056,9 @@ archive
 server
 =
 None
+all_types
+=
+False
 )
 :
     
@@ -1154,12 +1157,19 @@ Bug
 1574854
     
 if
+(
+        
+not
+all_types
+        
+and
 resp
 .
 status_code
 =
 =
 200
+        
 and
 "
 text
@@ -1177,6 +1187,8 @@ Content
 Type
 "
 ]
+    
+)
 :
         
 logger
