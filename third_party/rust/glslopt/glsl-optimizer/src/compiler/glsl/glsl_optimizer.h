@@ -93,6 +93,11 @@ ctx
 ;
 *
 /
+extern
+"
+C
+"
+{
 struct
 glslopt_shader
 ;
@@ -484,6 +489,13 @@ int
 approxFlow
 )
 ;
+}
+/
+/
+extern
+"
+C
+"
 #
 endif
 /
