@@ -627,9 +627,9 @@ welcome
 }
 message_id
 :
-"
-ABOUT_WELCOME_SESSION_END
-"
+this
+.
+AWMesssageId
 id
 :
 "
@@ -710,6 +710,12 @@ AWPage
 SET_WELCOME_MESSAGE_SEEN
 "
 :
+this
+.
+AWMesssageId
+=
+data
+;
 try
 {
 Services
