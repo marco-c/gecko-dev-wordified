@@ -20989,7 +20989,7 @@ StaticRange
 >
 extendedRange
 =
-GetExtendedRangeToIncludeInvisibleNodes
+GetRangeExtendedToIncludeInvisibleNodes
 (
 *
 firstRange
@@ -21007,7 +21007,7 @@ NS_WARNING
 HTMLEditor
 :
 :
-GetExtendedRangeToIncludeInvisibleNodes
+GetRangeExtendedToIncludeInvisibleNodes
 (
 )
 failed
@@ -49940,7 +49940,7 @@ StaticRange
 HTMLEditor
 :
 :
-GetExtendedRangeToIncludeInvisibleNodes
+GetRangeExtendedToIncludeInvisibleNodes
 (
 const
 AbstractRange

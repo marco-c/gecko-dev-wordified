@@ -15695,7 +15695,7 @@ aDirectionAndAmount
 *
 *
 *
-GetExtendedRangeToIncludeInvisibleNodes
+GetRangeExtendedToIncludeInvisibleNodes
 (
 )
 returns
@@ -15749,7 +15749,7 @@ dom
 :
 StaticRange
 >
-GetExtendedRangeToIncludeInvisibleNodes
+GetRangeExtendedToIncludeInvisibleNodes
 (
 const
 dom
