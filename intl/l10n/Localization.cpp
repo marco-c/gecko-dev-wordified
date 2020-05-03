@@ -884,7 +884,6 @@ mLocalization
 >
 OnChange
 (
-false
 )
 ;
 }
@@ -910,8 +909,6 @@ nsString
 >
 &
 aResourceIds
-bool
-aEager
 )
 {
 uint32_t
@@ -925,7 +922,6 @@ mLocalization
 AddResourceIds
 (
 aResourceIds
-aEager
 &
 ret
 )
