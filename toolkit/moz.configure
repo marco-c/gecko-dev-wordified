@@ -17198,9 +17198,6 @@ winchecksec
 .
 exe
 '
-'
-winchecksec
-'
 ]
 paths
 =
