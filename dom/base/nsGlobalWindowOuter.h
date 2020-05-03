@@ -1458,6 +1458,14 @@ GetEffectiveStoragePrincipal
 )
 override
 ;
+virtual
+nsIPrincipal
+*
+IntrinsicStoragePrincipal
+(
+)
+override
+;
 /
 /
 nsIDOMWindow
@@ -7112,6 +7120,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mDocumentStoragePrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mDocumentIntrinsicStoragePrincipal
 ;
 #
 ifdef

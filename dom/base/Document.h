@@ -3141,7 +3141,7 @@ nsIPrincipal
 IntrinsicStoragePrincipal
 (
 )
-const
+final
 {
 return
 mIntrinsicStoragePrincipal
