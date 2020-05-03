@@ -165,6 +165,9 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 SessionStorageCache
 *
 aCache

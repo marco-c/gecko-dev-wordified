@@ -913,13 +913,6 @@ From
 aWindow
 )
 ;
-/
-/
-No
-StoragePrincipal
-for
-sessionStorage
-.
 RefPtr
 <
 SessionStorage
@@ -931,6 +924,7 @@ SessionStorage
 (
 inner
 aPrincipal
+aStoragePrincipal
 cache
 this
 aDocumentURI
@@ -1034,6 +1028,7 @@ new
 SessionStorage
 (
 inner
+aPrincipal
 aStoragePrincipal
 cache
 this

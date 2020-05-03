@@ -236,6 +236,9 @@ aWindow
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 SessionStorageCache
 *
 aCache
@@ -254,7 +257,7 @@ Storage
 (
 aWindow
 aPrincipal
-aPrincipal
+aStoragePrincipal
 )
 mCache
 (
@@ -286,8 +289,9 @@ SessionStorage
 SessionStorage
 (
 )
-{
-}
+=
+default
+;
 int64_t
 SessionStorage
 :
