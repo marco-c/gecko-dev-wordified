@@ -1725,7 +1725,7 @@ BEHAVIOR_REJECT_FOREIGN
 "
 cookiesCount
 :
-0
+1
 }
 {
 behavior
@@ -1745,7 +1745,7 @@ BEHAVIOR_LIMIT_FOREIGN
 "
 cookiesCount
 :
-0
+1
 }
 {
 behavior
