@@ -204,6 +204,13 @@ h
 #
 include
 "
+MediaPipelineFilter
+.
+h
+"
+#
+include
+"
 MediaSegment
 .
 h
