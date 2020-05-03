@@ -10355,11 +10355,14 @@ packed
             
 permutation
 =
+list
+(
 range
 (
 len
 (
 newfields
+)
 )
 )
             
