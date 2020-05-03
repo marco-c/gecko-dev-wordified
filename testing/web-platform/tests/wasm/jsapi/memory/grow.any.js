@@ -9,7 +9,17 @@ function
 assert_ArrayBuffer
 (
 actual
-expected
+{
+size
+=
+0
+shared
+=
+false
+detached
+=
+false
+}
 message
 )
 {
@@ -71,8 +81,6 @@ constructor
 assert_equals
 (
 isShared
-expected
-.
 shared
 {
 message
@@ -84,8 +92,6 @@ constructor
 const
 sharedString
 =
-expected
-.
 shared
 ?
 "
@@ -149,8 +155,6 @@ toString
 ;
 if
 (
-expected
-.
 detached
 )
 {
@@ -215,8 +219,6 @@ actual
 byteLength
 0x10000
 *
-expected
-.
 size
 {
 message
@@ -227,8 +229,6 @@ size
 ;
 if
 (
-expected
-.
 size
 >
 0
