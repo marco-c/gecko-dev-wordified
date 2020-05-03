@@ -1715,6 +1715,14 @@ filter_out_nightly
 t
 parameters
 )
+            
+and
+filter_tasks_by_blacklist
+(
+t
+.
+label
+)
 ]
 _target_task
 (
