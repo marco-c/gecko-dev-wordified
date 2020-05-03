@@ -5816,11 +5816,11 @@ int32_t
 adjustment
 )
 ;
-nsresult
+void
 ChangeZoom
 (
-int32_t
-change
+bool
+aIncrease
 )
 ;
 /

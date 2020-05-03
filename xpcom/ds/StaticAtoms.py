@@ -20354,16 +20354,6 @@ Enable
 Atom
 (
 "
-onZoomChangeUsingMouseWheel
-"
-"
-onZoomChangeUsingMouseWheel
-"
-)
-    
-Atom
-(
-"
 onmozshowdropdown
 "
 "
