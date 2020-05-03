@@ -534,14 +534,34 @@ doc
 "
 :
         
+location
+=
+os
+.
+path
+.
+join
+(
+mach_cmd
+.
+topsrcdir
+"
+third_party
+"
+"
+python
+"
+"
+esprima
+"
+)
+        
 install_package
 (
 mach_cmd
 .
 virtualenv_manager
-"
-esprima
-"
+location
 )
         
 from
