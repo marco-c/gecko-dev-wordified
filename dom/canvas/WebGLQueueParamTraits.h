@@ -95,10 +95,10 @@ MPL
 /
 #
 ifndef
-WEBGLPCQPARAMTRAITS_H_
+WEBGLQUEUEPARAMTRAITS_H_
 #
 define
-WEBGLPCQPARAMTRAITS_H_
+WEBGLQUEUEPARAMTRAITS_H_
 #
 include
 <
@@ -148,7 +148,7 @@ typename
 T
 >
 struct
-PcqParamTraits
+QueueParamTraits
 ;
 template
 <
@@ -389,7 +389,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 WebGLActiveInfo
 >
@@ -400,7 +400,7 @@ ParamType
 WebGLActiveInfo
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -478,7 +478,7 @@ mBaseType
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -731,7 +731,7 @@ typename
 T
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 RawBuffer
 <
@@ -748,7 +748,7 @@ T
 >
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -797,7 +797,7 @@ T
 :
 aProducerView
 .
-Status
+GetStatus
 (
 )
 ;
@@ -820,7 +820,7 @@ ElementType
 >
 >
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -834,7 +834,7 @@ aArg
 size_t
 len
 ;
-PcqStatus
+QueueStatus
 status
 =
 aConsumerView
@@ -884,10 +884,10 @@ nullptr
 ;
 }
 return
-PcqStatus
+QueueStatus
 :
 :
-Success
+kSuccess
 ;
 }
 if
@@ -914,7 +914,7 @@ T
 struct
 RawBufferReadMatcher
 {
-PcqStatus
+QueueStatus
 operator
 (
 )
@@ -940,10 +940,10 @@ smem
 )
 {
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 }
 mArg
@@ -987,13 +987,13 @@ mOwnsData
 false
 ;
 return
-PcqStatus
+QueueStatus
 :
 :
-Success
+kSuccess
 ;
 }
-PcqStatus
+QueueStatus
 operator
 (
 )
@@ -1154,7 +1154,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 webgl
 :
@@ -1171,7 +1171,7 @@ webgl
 TexUnpackBytes
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -1223,7 +1223,7 @@ mPtr
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -1337,7 +1337,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 webgl
 :
@@ -1354,7 +1354,7 @@ webgl
 TexUnpackSurface
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -1423,7 +1423,7 @@ mStride
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -1617,7 +1617,7 @@ nullptr
 /
 Specialization
 of
-PcqParamTraits
+QueueParamTraits
 that
 adapts
 the
@@ -1648,7 +1648,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 WebGLTexUnpackVariant
 >
@@ -1659,7 +1659,7 @@ ParamType
 WebGLTexUnpackVariant
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -1674,7 +1674,7 @@ aArg
 struct
 TexUnpackWriteMatcher
 {
-PcqStatus
+QueueStatus
 operator
 (
 )
@@ -1710,7 +1710,7 @@ x
 )
 ;
 }
-PcqStatus
+QueueStatus
 operator
 (
 )
@@ -1746,7 +1746,7 @@ x
 )
 ;
 }
-PcqStatus
+QueueStatus
 operator
 (
 )
@@ -1772,13 +1772,13 @@ TODO
 )
 ;
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 }
-PcqStatus
+QueueStatus
 operator
 (
 )
@@ -1827,7 +1827,7 @@ aProducerView
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -1889,7 +1889,7 @@ unpackType
 return
 aConsumerView
 .
-Status
+GetStatus
 (
 )
 ;
@@ -2004,10 +2004,10 @@ TODO
 )
 ;
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 case
 TexUnpackTypes
@@ -2054,10 +2054,10 @@ type
 )
 ;
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 }
 template
@@ -2237,7 +2237,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 webgl
 :
@@ -2254,7 +2254,7 @@ webgl
 ContextLossReason
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -2282,7 +2282,7 @@ aArg
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -2334,10 +2334,10 @@ ContextLossReason
 )
 ;
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 }
 return
@@ -2384,7 +2384,7 @@ typename
 E
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 Result
 <
@@ -2403,7 +2403,7 @@ E
 >
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -2483,7 +2483,7 @@ status
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -2677,7 +2677,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 std
 :
@@ -2694,7 +2694,7 @@ std
 string
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -2751,7 +2751,7 @@ status
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -2817,10 +2817,10 @@ if
 dest
 )
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 status
 =
@@ -2911,7 +2911,7 @@ typename
 U
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 std
 :
@@ -2931,7 +2931,7 @@ std
 string
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -2988,7 +2988,7 @@ status
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -3131,7 +3131,7 @@ template
 <
 >
 struct
-PcqParamTraits
+QueueParamTraits
 <
 WebGLExtensionID
 >
@@ -3142,7 +3142,7 @@ T
 WebGLExtensionID
 ;
 static
-PcqStatus
+QueueStatus
 Write
 (
 ProducerView
@@ -3170,7 +3170,7 @@ aArg
 ;
 }
 static
-PcqStatus
+QueueStatus
 Read
 (
 ConsumerView
@@ -3182,13 +3182,13 @@ const
 aArg
 )
 {
-PcqStatus
+QueueStatus
 status
 =
-PcqStatus
+QueueStatus
 :
 :
-Success
+kSuccess
 ;
 if
 (
@@ -3239,10 +3239,10 @@ false
 )
 ;
 return
-PcqStatus
+QueueStatus
 :
 :
-PcqFatalError
+kFatalError
 ;
 }
 }
@@ -3292,4 +3292,4 @@ mozilla
 endif
 /
 /
-WEBGLPCQPARAMTRAITS_H_
+WEBGLQUEUEPARAMTRAITS_H_

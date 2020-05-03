@@ -13594,7 +13594,7 @@ mNotLost
 >
 outOfProcess
 ;
-PcqStatus
+QueueStatus
 status
 =
 oop
@@ -13625,10 +13625,10 @@ if
 status
 =
 =
-PcqStatus
+QueueStatus
 :
 :
-PcqOOMError
+kOOMError
 )
 {
 JsWarning
@@ -13747,7 +13747,7 @@ outOfProcess
 ReturnType
 returnValue
 ;
-PcqStatus
+QueueStatus
 status
 =
 oop
@@ -13779,10 +13779,10 @@ if
 status
 =
 =
-PcqStatus
+QueueStatus
 :
 :
-PcqOOMError
+kOOMError
 )
 {
 JsWarning
@@ -13931,10 +13931,10 @@ if
 status
 =
 =
-PcqStatus
+QueueStatus
 :
 :
-PcqOOMError
+kOOMError
 )
 {
 JsWarning

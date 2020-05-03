@@ -213,6 +213,7 @@ macros
 /
 class
 HostWebGLCommandSink
+final
 :
 public
 SyncCommandSink
