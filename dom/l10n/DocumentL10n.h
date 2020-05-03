@@ -484,6 +484,11 @@ mState
 ;
 }
 ;
+bool
+mBlockingLayout
+=
+false
+;
 }
 ;
 }
