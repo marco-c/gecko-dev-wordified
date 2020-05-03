@@ -443,13 +443,6 @@ Grammar
 )
 :
         
-grammar
-=
-CanonicalGrammar
-(
-source
-)
-        
 parser_data
 =
 generate_parser_states
