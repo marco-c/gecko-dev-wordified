@@ -245,7 +245,7 @@ translation
 being
 completed
 .
-InitialTranslationCompleted
+Ready
 }
 ;
 /
@@ -347,6 +347,9 @@ aDocument
 void
 Activate
 (
+const
+bool
+aLazy
 )
 ;
 protected
@@ -446,6 +449,16 @@ void
 OnCreatePresShell
 (
 )
+;
+DocumentL10nState
+GetState
+(
+)
+{
+return
+mState
+;
+}
 ;
 }
 ;
