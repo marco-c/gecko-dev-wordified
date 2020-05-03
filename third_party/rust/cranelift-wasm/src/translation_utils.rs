@@ -607,6 +607,8 @@ Debug
 Clone
 Copy
 Hash
+Eq
+PartialEq
 )
 ]
 pub
@@ -691,6 +693,8 @@ Debug
 Clone
 Copy
 Hash
+Eq
+PartialEq
 )
 ]
 pub
@@ -827,6 +831,8 @@ Debug
 Clone
 Copy
 Hash
+Eq
+PartialEq
 )
 ]
 pub
@@ -911,6 +917,8 @@ Debug
 Clone
 Copy
 Hash
+Eq
+PartialEq
 )
 ]
 pub
@@ -954,6 +962,8 @@ Debug
 Clone
 Copy
 Hash
+Eq
+PartialEq
 )
 ]
 pub

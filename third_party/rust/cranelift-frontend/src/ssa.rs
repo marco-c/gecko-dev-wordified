@@ -3269,6 +3269,7 @@ value
 numbering
 for
 all
+unsealed
 Block
 s
 in
@@ -3405,6 +3406,15 @@ keys
 (
 )
 {
+if
+!
+self
+.
+is_sealed
+(
+block
+)
+{
 self
 .
 seal_one_block
@@ -3413,6 +3423,7 @@ block
 func
 )
 ;
+}
 }
 mem
 :

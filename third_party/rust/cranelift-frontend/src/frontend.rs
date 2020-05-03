@@ -2103,6 +2103,7 @@ calls
 seal_block
 on
 all
+unsealed
 blocks
 in
 the
@@ -9424,6 +9425,9 @@ b8x16
 f32x4
 system_v
 {
+const0
+=
+0x00000000000000000000000000000000
 block0
 :
 v5
@@ -9447,7 +9451,7 @@ v4
 vconst
 .
 b8x16
-0x00
+const0
 v1
 -
 >
@@ -9457,7 +9461,7 @@ v3
 vconst
 .
 i8x16
-0x00
+const0
 v0
 -
 >
