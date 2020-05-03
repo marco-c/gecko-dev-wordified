@@ -2422,8 +2422,6 @@ MethodType
 method
 typename
 ReturnType
-size_t
-Id
 typename
 .
 .
@@ -2645,16 +2643,6 @@ RunOn
 MethodType
 method
 ReturnType
-WebGLMethodDispatcher
-:
-:
-Id
-<
-MethodType
-method
->
-(
-)
 Args
 .
 .

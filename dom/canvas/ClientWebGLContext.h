@@ -14046,8 +14046,6 @@ MethodType
 method
 typename
 ReturnType
-size_t
-Id
 typename
 .
 .
