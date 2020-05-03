@@ -454,6 +454,7 @@ DirectoryPicker
 const
 {
 makeExponentialScale
+makePowerOf2Scale
 formatFileSize
 featureDescriptions
 }
@@ -1100,10 +1101,16 @@ this
 .
 _entriesExponentialScale
 =
-makeExponentialScale
+makePowerOf2Scale
 (
-100000
-100000000
+128
+*
+1024
+128
+*
+1024
+*
+1024
 )
 ;
 }
