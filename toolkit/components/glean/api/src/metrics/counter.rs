@@ -57,7 +57,7 @@ MPL
 /
 .
 use
-glean_core
+super
 :
 :
 CommonMetricData

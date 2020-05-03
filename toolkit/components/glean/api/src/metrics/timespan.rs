@@ -66,7 +66,7 @@ sync
 RwLock
 ;
 use
-glean_core
+super
 :
 :
 CommonMetricData
