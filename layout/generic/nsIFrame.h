@@ -5604,8 +5604,6 @@ int32_t
 end
 )
 const
-=
-0
 ;
 /
 *
@@ -6221,8 +6219,6 @@ int32_t
 aIndex
 )
 const
-=
-0
 ;
 virtual
 void
@@ -6234,8 +6230,6 @@ ComputedStyle
 *
 aComputedStyle
 )
-=
-0
 ;
 /
 *
@@ -10520,11 +10514,12 @@ that
 s
 parallel
 to
-aWM
+*
+aWritingMode
 .
 *
 param
-aWM
+aWritingMode
 the
 writing
 -
@@ -10535,10 +10530,10 @@ alignment
 context
 with
 the
+*
 ltr
 /
 rtl
-*
 direction
 tweak
 done
@@ -10552,8 +10547,8 @@ nsIFrame
 *
 )
 in
-inline
 *
+inline
 contexts
 (
 see
@@ -10571,11 +10566,9 @@ mozilla
 :
 :
 WritingMode
-aWM
+aWritingMode
 )
 const
-=
-0
 ;
 /
 *
@@ -12562,8 +12555,6 @@ ChildListID
 aListID
 )
 const
-=
-0
 ;
 const
 nsFrameList
@@ -12592,8 +12583,6 @@ ChildList
 aLists
 )
 const
-=
-0
 ;
 /
 *
@@ -14992,8 +14981,6 @@ nsIContent
 *
 aContent
 )
-=
-0
 ;
 /
 /
@@ -15789,8 +15776,6 @@ nsPoint
 *
 outPoint
 )
-=
-0
 ;
 /
 *
@@ -15832,8 +15817,6 @@ nsRect
 &
 aRects
 )
-=
-0
 ;
 /
 *
@@ -15940,8 +15923,6 @@ nsIFrame
 *
 outChildFrame
 )
-=
-0
 ;
 /
 *
@@ -16201,8 +16182,6 @@ const
 CharacterDataChangeInfo
 &
 )
-=
-0
 ;
 /
 *
@@ -16304,8 +16283,6 @@ aAttribute
 int32_t
 aModType
 )
-=
-0
 ;
 /
 *
@@ -16370,8 +16347,6 @@ GetPrevContinuation
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -16380,8 +16355,6 @@ SetPrevContinuation
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -16390,8 +16363,6 @@ GetNextContinuation
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -16400,8 +16371,6 @@ SetNextContinuation
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -16498,8 +16467,6 @@ GetPrevInFlow
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -16508,8 +16475,6 @@ SetPrevInFlow
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -16518,8 +16483,6 @@ GetNextInFlow
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -16528,8 +16491,6 @@ SetNextInFlow
 nsIFrame
 *
 )
-=
-0
 ;
 /
 *
@@ -16908,8 +16869,6 @@ gfxContext
 *
 aRenderingContext
 )
-=
-0
 ;
 /
 *
@@ -16967,8 +16926,6 @@ gfxContext
 *
 aRenderingContext
 )
-=
-0
 ;
 /
 *
@@ -18000,8 +17957,6 @@ InlineMinISizeData
 *
 aData
 )
-=
-0
 ;
 /
 *
@@ -18101,8 +18056,6 @@ InlinePrefISizeData
 *
 aData
 )
-=
-0
 ;
 /
 *
@@ -18213,8 +18166,6 @@ aPercentageBasis
 =
 NS_UNCONSTRAINEDSIZE
 )
-=
-0
 ;
 /
 *
@@ -18287,8 +18238,6 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
-=
-0
 ;
 /
 *
@@ -18362,8 +18311,6 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
-=
-0
 ;
 /
 *
@@ -20227,8 +20174,6 @@ nsOverflowAreas
 &
 aOverflowAreas
 )
-=
-0
 ;
 /
 *
@@ -20261,8 +20206,6 @@ nsOverflowAreas
 &
 aOverflowAreas
 )
-=
-0
 ;
 /
 *
@@ -20334,8 +20277,6 @@ CanContinueTextRun
 (
 )
 const
-=
-0
 ;
 /
 *
@@ -25357,7 +25298,6 @@ frame
 .
 *
 /
-virtual
 nsresult
 GetSelectionController
 (
@@ -25369,8 +25309,6 @@ nsISelectionController
 *
 aSelCon
 )
-=
-0
 ;
 /
 *
@@ -25873,8 +25811,6 @@ bool
 *
 _retval
 )
-=
-0
 ;
 /
 *
@@ -25937,8 +25873,6 @@ nsIFrame
 *
 aChild
 )
-=
-0
 ;
 /
 *
@@ -26008,8 +25942,6 @@ AccType
 AccessibleType
 (
 )
-=
-0
 ;
 #
 endif
@@ -27019,8 +26951,6 @@ bool
 IsEmpty
 (
 )
-=
-0
 ;
 /
 *
@@ -27090,8 +27020,6 @@ bool
 IsSelfEmpty
 (
 )
-=
-0
 ;
 /
 *
@@ -33422,8 +33350,6 @@ int32_t
 *
 aOffset
 )
-=
-0
 ;
 /
 *
@@ -33577,8 +33503,6 @@ PeekOffsetCharacterOptions
 (
 )
 )
-=
-0
 ;
 static_assert
 (
