@@ -1168,10 +1168,7 @@ self
 .
 data
 [
-str
-(
 internal_key
-)
 ]
 value
 )
