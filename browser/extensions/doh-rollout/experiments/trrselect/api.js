@@ -301,6 +301,7 @@ racer
 .
 getFastestTRR
 (
+true
 )
 )
 ;
