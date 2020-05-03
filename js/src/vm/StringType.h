@@ -9963,7 +9963,13 @@ name
 )
 {
 return
-NON_INTEGER_ATOM_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+fromNonIntAtom
 (
 name
 )
