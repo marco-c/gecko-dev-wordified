@@ -148,6 +148,10 @@ wchar_t
 aFullImagePath
 HANDLE
 aChildProcess
+const
+IMAGE_THUNK_DATA
+*
+aCachedNtdllThunk
 )
 ;
 LauncherVoidResultWithLineInfo

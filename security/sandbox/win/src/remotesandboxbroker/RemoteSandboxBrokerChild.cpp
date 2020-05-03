@@ -639,6 +639,7 @@ aParams
 enableLogging
 (
 )
+nullptr
 (
 void
 *
