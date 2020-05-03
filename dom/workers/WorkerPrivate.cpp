@@ -19361,8 +19361,6 @@ AssertCurrentThreadOwns
 (
 )
 ;
-AUTO_PROFILER_THREAD_SLEEP
-;
 /
 /
 Wait
