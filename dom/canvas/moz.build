@@ -457,6 +457,11 @@ ImageUtils
 h
 '
 '
+IpdlQueue
+.
+h
+'
+'
 OffscreenCanvas
 .
 h
@@ -621,7 +626,7 @@ HostWebGLContext
 cpp
 '
 '
-ProducerConsumerQueue
+Queue
 .
 cpp
 '
