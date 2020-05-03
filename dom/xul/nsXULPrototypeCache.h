@@ -449,11 +449,15 @@ itself
 nsresult
 PutStyleSheet
 (
+RefPtr
+<
 mozilla
 :
 :
 StyleSheet
-*
+>
+&
+&
 aStyleSheet
 )
 ;
