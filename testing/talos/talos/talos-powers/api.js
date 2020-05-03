@@ -2226,6 +2226,11 @@ stringify
 (
 snapshot
 )
++
+"
+\
+n
+"
 )
 ;
 }
