@@ -3871,7 +3871,7 @@ void
 PrototypeDocumentContentSink
 :
 :
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 {
@@ -3915,7 +3915,7 @@ HasPendingInitialTranslation
 mDocument
 -
 >
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;

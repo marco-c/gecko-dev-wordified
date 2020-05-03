@@ -22993,7 +22993,7 @@ document
 *
 /
 void
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
@@ -23032,7 +23032,7 @@ it
 *
 /
 void
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;

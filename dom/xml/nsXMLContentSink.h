@@ -362,7 +362,7 @@ override
 ;
 virtual
 void
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 override

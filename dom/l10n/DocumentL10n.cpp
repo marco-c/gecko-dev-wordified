@@ -440,7 +440,7 @@ override
 mDocumentL10n
 -
 >
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -475,7 +475,7 @@ override
 mDocumentL10n
 -
 >
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -537,7 +537,7 @@ void
 DocumentL10n
 :
 :
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 {
@@ -579,7 +579,7 @@ if
 elem
 )
 {
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -634,7 +634,7 @@ Failed
 )
 )
 {
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -998,7 +998,7 @@ Failed
 )
 )
 {
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -1098,7 +1098,7 @@ Failed
 )
 )
 {
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -1146,7 +1146,7 @@ aes
 mGlobal
 "
 DocumentL10n
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 "
 )
 ;
@@ -1233,7 +1233,7 @@ Failed
 )
 )
 {
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -1308,7 +1308,7 @@ is
 resolved
 immediatelly
 .
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -1361,7 +1361,7 @@ void
 DocumentL10n
 :
 :
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 {
@@ -1411,7 +1411,7 @@ InitialTranslationCompleted
 mDocument
 -
 >
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
@@ -1432,7 +1432,7 @@ mContentSink
 mContentSink
 -
 >
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
