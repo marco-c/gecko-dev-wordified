@@ -2675,7 +2675,15 @@ ObjectWrapperMap
 Ptr
 p
 )
+{
+crossCompartmentObjectWrappers
+.
+remove
+(
+p
+)
 ;
+}
 bool
 hasNurseryAllocatedObjectWrapperEntries
 (
