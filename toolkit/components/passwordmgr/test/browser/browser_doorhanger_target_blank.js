@@ -418,7 +418,7 @@ entry
 /
 Check
 for
-stales
+stale
 values
 in
 the
@@ -445,7 +445,7 @@ username
 "
 )
 ;
-is
+todo_is
 (
 usernameField
 .
@@ -483,7 +483,7 @@ password
 "
 )
 ;
-is
+todo_is
 (
 passwordField
 .
