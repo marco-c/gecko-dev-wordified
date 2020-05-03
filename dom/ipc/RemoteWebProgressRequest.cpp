@@ -64,6 +64,13 @@ RemoteWebProgressRequest
 .
 h
 "
+#
+include
+"
+nsIURI
+.
+h
+"
 namespace
 mozilla
 {
