@@ -296,6 +296,11 @@ tests
 [
 EXAMPLE_TESTS_DIR
 ]
+flavor
+=
+"
+script
+"
 )
         
 #

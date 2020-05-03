@@ -80,6 +80,22 @@ mock
 .
 patch
 (
+"
+mozperftest
+.
+browser
+.
+browsertime
+.
+runner
+.
+install_package
+"
+)
+mock
+.
+patch
+(
     
 "
 mozperftest
@@ -146,6 +162,8 @@ None
 def
 test_browser
 (
+*
+mocked
 )
 :
     
