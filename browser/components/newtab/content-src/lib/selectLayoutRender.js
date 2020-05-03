@@ -349,6 +349,9 @@ TextPromo
 SectionTitle
 "
 "
+Signup
+"
+"
 Navigation
 "
 "
