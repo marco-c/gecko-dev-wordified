@@ -2082,6 +2082,10 @@ True
                 
 install_rdf
 =
+six
+.
+ensure_text
+(
 file
 .
 open
@@ -2093,6 +2097,7 @@ rt
 .
 read
 (
+)
 )
                 
 if
@@ -2143,6 +2148,10 @@ json
                 
 manifest
 =
+six
+.
+ensure_text
+(
 file
 .
 open
@@ -2154,6 +2163,7 @@ rt
 .
 read
 (
+)
 )
                 
 try
