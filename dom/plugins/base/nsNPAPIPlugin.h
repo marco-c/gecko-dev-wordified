@@ -495,9 +495,14 @@ str
 return
 JSIdToNPIdentifier
 (
-INTERNED_STRING_TO_JSID
+JS
+:
+:
+PropertyKey
+:
+:
+fromPinnedString
 (
-cx
 str
 )
 )

@@ -2069,9 +2069,11 @@ break
 jsid
 name
 =
-INTERNED_STRING_TO_JSID
+PropertyKey
+:
+:
+fromPinnedString
 (
-cx
 str
 )
 ;
@@ -2218,9 +2220,11 @@ true
 }
 interfaceName
 =
-INTERNED_STRING_TO_JSID
+PropertyKey
+:
+:
+fromPinnedString
 (
-cx
 str
 )
 ;

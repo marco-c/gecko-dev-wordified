@@ -1680,9 +1680,6 @@ str
 &
 [
 "
-INTERNED_STRING_TO_JSID
-"
-"
 JS
 :
 :

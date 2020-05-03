@@ -3840,9 +3840,11 @@ str
 )
 {
 return
-INTERNED_STRING_TO_JSID
+PropertyKey
+:
+:
+fromPinnedString
 (
-cx
 str
 )
 ;
