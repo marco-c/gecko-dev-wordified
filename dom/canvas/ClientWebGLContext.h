@@ -1320,7 +1320,13 @@ UniquePtr
 <
 ClientWebGLCommandSourceP
 >
-mCommandSource
+mCommandSourcePcq
+;
+UniquePtr
+<
+ClientWebGLCommandSourceI
+>
+mCommandSourceIpdl
 ;
 }
 ;
