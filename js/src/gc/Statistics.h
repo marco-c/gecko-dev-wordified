@@ -1817,7 +1817,7 @@ PhaseTimeTable
 phaseTimes
 ;
 PhaseTimeTable
-parallelTimes
+maxParallelTimes
 ;
 TimeDuration
 duration
@@ -2212,9 +2212,6 @@ GC
 /
 PhaseTimeTable
 phaseTimes
-;
-PhaseTimeTable
-parallelTimes
 ;
 /
 *
