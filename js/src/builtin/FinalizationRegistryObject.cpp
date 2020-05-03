@@ -5556,7 +5556,10 @@ RootedPlainObject
 proto
 (
 cx
-NewObjectWithGivenProto
+GlobalObject
+:
+:
+createBlankPrototypeInheriting
 <
 PlainObject
 >

@@ -1454,7 +1454,10 @@ RootedPlainObject
 proto
 (
 cx
-NewObjectWithGivenProto
+GlobalObject
+:
+:
+createBlankPrototypeInheriting
 <
 PlainObject
 >
@@ -6774,7 +6777,10 @@ RootedPlainObject
 proto
 (
 cx
-NewObjectWithGivenProto
+GlobalObject
+:
+:
+createBlankPrototypeInheriting
 <
 PlainObject
 >
