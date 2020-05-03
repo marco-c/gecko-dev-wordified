@@ -14138,7 +14138,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -28570,7 +28570,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -32329,7 +32329,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -32902,7 +32902,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -33154,7 +33154,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -34032,7 +34032,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -34442,7 +34442,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -37076,7 +37076,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -37368,7 +37368,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -39069,7 +39069,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -40385,7 +40385,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -40740,7 +40740,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -43686,7 +43686,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -48734,7 +48734,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -49412,7 +49412,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -58909,7 +58909,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -62930,7 +62930,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -64586,7 +64586,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -66760,7 +66760,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -67370,7 +67370,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -67932,7 +67932,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -74092,7 +74092,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeWithTransaction
@@ -79542,7 +79542,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
@@ -79851,7 +79851,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 MoveNodeToEndWithTransaction
