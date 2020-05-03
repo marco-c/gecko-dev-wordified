@@ -24223,6 +24223,9 @@ InitialTranslationCompleted
 if
 (
 mDocumentL10n
+&
+&
+mDocumentL10n
 -
 >
 mBlockingLayout
