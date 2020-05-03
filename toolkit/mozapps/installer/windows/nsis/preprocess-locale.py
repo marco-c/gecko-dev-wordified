@@ -106,8 +106,6 @@ from
 codecs
 import
 BOM_UTF16_LE
-import
-io
 from
 os
 .
@@ -115,8 +113,6 @@ path
 import
 join
 isfile
-import
-six
 import
 sys
 from
@@ -156,8 +152,6 @@ mark
     
 fp
 =
-io
-.
 open
 (
 path
@@ -288,20 +282,11 @@ output
     
 fp
 =
-io
-.
 open
 (
 path
 "
 r
-"
-encoding
-=
-"
-utf
--
-8
 "
 )
     
@@ -760,7 +745,15 @@ fp
 .
 write
 (
+unicode
+(
 locale_strings
+"
+utf
+-
+8
+"
+)
 .
 encode
 (
@@ -896,7 +889,15 @@ fp
 .
 write
 (
+unicode
+(
 locale_strings
+"
+utf
+-
+8
+"
+)
 .
 encode
 (
@@ -997,7 +998,15 @@ fp
 .
 write
 (
+unicode
+(
 locale_strings
+"
+utf
+-
+8
+"
+)
 .
 encode
 (
@@ -1095,14 +1104,12 @@ nsi
     
 fp
 =
-io
-.
 open
 (
 join
 (
 moz_dir
-                      
+                   
 "
 toolkit
 /
@@ -1119,17 +1126,10 @@ locales
 nsi
 "
 )
-                 
+              
 "
 r
 "
-encoding
-=
-'
-utf
--
-8
-'
 )
     
 for
@@ -1448,7 +1448,15 @@ fp
 .
 write
 (
+unicode
+(
 locale_strings
+"
+utf
+-
+8
+"
+)
 .
 encode
 (
@@ -1536,13 +1544,6 @@ in_file_path
 "
 r
 "
-encoding
-=
-'
-utf
--
-8
-'
 )
     
 out_fp
@@ -1556,10 +1557,18 @@ out_fp
 .
 write
 (
+unicode
+(
 in_fp
 .
 read
 (
+)
+"
+utf
+-
+8
+"
 )
 .
 encode

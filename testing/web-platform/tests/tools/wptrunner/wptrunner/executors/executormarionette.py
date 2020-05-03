@@ -14,7 +14,6 @@ from
 six
 import
 iteritems
-iterkeys
 from
 six
 .
@@ -4166,8 +4165,6 @@ prefs
 for
 name
 in
-iterkeys
-(
 old_environment
 .
 get
@@ -4178,6 +4175,9 @@ prefs
 {
 }
 )
+.
+iterkeys
+(
 )
 :
             

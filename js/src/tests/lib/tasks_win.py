@@ -63,6 +63,8 @@ unicode_literals
 division
 import
 subprocess
+import
+sys
 from
 datetime
 import
@@ -73,11 +75,7 @@ threading
 import
 Thread
 from
-six
-.
-moves
-.
-queue
+Queue
 import
 Queue
 Empty
@@ -126,6 +124,14 @@ qTasks
 .
 get
 (
+block
+=
+True
+timeout
+=
+sys
+.
+maxint
 )
         
 if
@@ -214,22 +220,19 @@ subprocess
 .
 Popen
 (
-            
 cmd
+                                
 stdout
 =
 subprocess
 .
 PIPE
+                                
 stderr
 =
 subprocess
 .
 PIPE
-            
-universal_newlines
-=
-True
 )
         
 #
@@ -483,6 +486,14 @@ qWatch
 .
 get
 (
+block
+=
+True
+timeout
+=
+sys
+.
+maxint
 )
             
 assert

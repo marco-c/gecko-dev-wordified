@@ -57,7 +57,6 @@ from
 __future__
 import
 print_function
-unicode_literals
 import
 string
 import
@@ -1015,13 +1014,6 @@ open
 template
 '
 r
-'
-encoding
-=
-'
-utf
--
-8
 '
 )
     

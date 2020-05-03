@@ -21,8 +21,6 @@ __future__
 import
 print_function
 import
-io
-import
 os
 import
 posixpath
@@ -496,18 +494,9 @@ False
 for
 line
 in
-io
-.
 open
 (
 path
-encoding
-=
-'
-utf
--
-8
-'
 )
 :
             
@@ -2805,26 +2794,11 @@ manifest
     
 fp
 =
-io
-.
 open
 (
 filename
 '
 w
-'
-encoding
-=
-'
-utf
--
-8
-'
-newline
-=
-'
-\
-n
 '
 )
     
@@ -3136,20 +3110,11 @@ test
     
 fp
 =
-io
-.
 open
 (
 fullpath
 '
 r
-'
-encoding
-=
-'
-utf
--
-8
 '
 )
     
@@ -3381,20 +3346,11 @@ entries
 ]
     
 with
-io
-.
 open
 (
 filename
 '
 r
-'
-encoding
-=
-'
-utf
--
-8
 '
 )
 as

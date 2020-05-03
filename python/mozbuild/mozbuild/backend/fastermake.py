@@ -1345,6 +1345,10 @@ in
 (
             
 '
+PYTHON
+'
+            
+'
 PYTHON3
 '
             
@@ -1775,7 +1779,7 @@ add_commands
                         
 '
 (
-PYTHON3
+PYTHON
 )
 -
 m

@@ -88,7 +88,7 @@ os
 import
 sys
 from
-io
+cStringIO
 import
 StringIO
 from
@@ -535,19 +535,6 @@ contents
 file
 )
 :
-    
-contents
-=
-contents
-.
-encode
-(
-'
-utf
--
-8
-'
-)
     
 dir
 =

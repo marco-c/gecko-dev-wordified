@@ -145,6 +145,8 @@ cases
 import
 re
 import
+sys
+import
 math
 import
 textwrap
@@ -1292,8 +1294,10 @@ ValueError
 (
 msg
 )
-from
-e
+None
+sys
+.
+exc_traceback
         
 #
 If
