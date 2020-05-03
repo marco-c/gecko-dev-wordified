@@ -346,6 +346,11 @@ IteratorResult
 webidl
 '
 '
+JSActor
+.
+webidl
+'
+'
 JSWindowActor
 .
 webidl
