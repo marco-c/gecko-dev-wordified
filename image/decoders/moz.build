@@ -221,6 +221,11 @@ iccjpeg
 c
 '
 '
+nsAVIFDecoder
+.
+cpp
+'
+'
 nsBMPDecoder
 .
 cpp
