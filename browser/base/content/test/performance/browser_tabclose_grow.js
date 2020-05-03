@@ -154,6 +154,17 @@ function
 (
 )
 {
+/
+/
+Force
+-
+enable
+tab
+animations
+gReduceMotionOverride
+=
+false
+;
 await
 ensureNoPreloadedBrowser
 (

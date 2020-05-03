@@ -10,6 +10,17 @@ waitForExplicitFinish
 (
 )
 ;
+/
+/
+Force
+-
+enable
+tab
+animations
+gReduceMotionOverride
+=
+false
+;
 tab
 =
 BrowserTestUtils

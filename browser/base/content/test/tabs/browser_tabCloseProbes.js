@@ -380,6 +380,17 @@ setup
 {
 /
 /
+Force
+-
+enable
+tab
+animations
+gReduceMotionOverride
+=
+false
+;
+/
+/
 These
 probes
 are
