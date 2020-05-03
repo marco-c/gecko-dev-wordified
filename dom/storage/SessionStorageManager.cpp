@@ -1269,7 +1269,7 @@ PrincipalsEqual
 aStorage
 -
 >
-Principal
+StoragePrincipal
 (
 )
 aPrincipal
