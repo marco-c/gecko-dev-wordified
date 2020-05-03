@@ -57,7 +57,7 @@ ChromeUtils
 registerWindowActor
 (
 "
-Test
+TestWindow
 "
 windowActorOptions
 )

@@ -273,7 +273,7 @@ parent
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;

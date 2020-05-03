@@ -76,7 +76,7 @@ parent
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -88,7 +88,7 @@ show
 (
 )
 "
-TestParent
+TestWindowParent
 "
 "
 actor
@@ -174,7 +174,7 @@ child
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -186,7 +186,7 @@ show
 (
 )
 "
-TestChild
+TestWindowChild
 "
 "
 actor
