@@ -314,12 +314,6 @@ GetSensorState
 (
 )
 ;
-gfx
-:
-:
-PointDouble3D
-origin
-;
 mInitialPosition
 .
 x

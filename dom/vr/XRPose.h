@@ -187,6 +187,13 @@ bool
 aEmulatedPosition
 )
 ;
+void
+SetEmulatedPosition
+(
+bool
+aEmulated
+)
+;
 /
 /
 WebIDL

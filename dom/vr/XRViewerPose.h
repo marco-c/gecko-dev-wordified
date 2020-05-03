@@ -208,6 +208,17 @@ XRView
 aViews
 )
 ;
+RefPtr
+<
+XRView
+>
+&
+GetEye
+(
+int32_t
+aIndex
+)
+;
 /
 /
 WebIDL

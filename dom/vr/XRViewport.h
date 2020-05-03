@@ -270,6 +270,8 @@ nsISupports
 >
 mParent
 ;
+public
+:
 gfx
 :
 :
