@@ -32,13 +32,6 @@ window
 dedicatedworker
 sharedworker
 serviceworker
-/
-/
-META
-:
-timeout
-=
-long
 '
 use
 strict

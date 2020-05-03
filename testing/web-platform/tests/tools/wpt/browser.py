@@ -7720,7 +7720,6 @@ expanduser
 \
 AppData
 \
-\
 Local
 \
 \

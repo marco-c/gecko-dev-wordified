@@ -1378,9 +1378,9 @@ join
 (
 here
 "
-test
+reftest
 -
-wait
+wait_webdriver
 .
 js
 "
@@ -1399,18 +1399,6 @@ f
 read
 (
 )
-%
-{
-"
-classname
-"
-:
-"
-reftest
--
-wait
-"
-}
     
 def
 reset
@@ -1692,6 +1680,8 @@ _screenshot
 self
 .
 protocol
+.
+session
                                  
 self
 .

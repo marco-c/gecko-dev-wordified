@@ -4,8 +4,6 @@ META
 :
 global
 =
-window
-dedicatedworker
 jsshell
 test
 (

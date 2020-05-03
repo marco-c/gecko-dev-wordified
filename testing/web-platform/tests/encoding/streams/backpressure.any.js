@@ -4,7 +4,6 @@ META
 :
 global
 =
-window
 worker
 '
 use
