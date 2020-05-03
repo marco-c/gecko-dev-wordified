@@ -6378,7 +6378,7 @@ eXMLContentSinkState_InEpilog
 mDocument
 -
 >
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 ;

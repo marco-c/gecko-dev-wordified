@@ -3915,7 +3915,7 @@ HasPendingInitialTranslation
 mDocument
 -
 >
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 ;

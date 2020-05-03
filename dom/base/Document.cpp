@@ -24368,7 +24368,7 @@ void
 Document
 :
 :
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 {

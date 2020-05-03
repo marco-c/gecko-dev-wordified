@@ -1113,7 +1113,7 @@ destroying
 mDocument
 -
 >
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 ;
