@@ -179,7 +179,7 @@ namespace
 mozilla
 {
 class
-EditorBase
+HTMLEditor
 ;
 /
 *
@@ -225,9 +225,9 @@ CT
 >
 SplitNodeTransaction
 (
-EditorBase
+HTMLEditor
 &
-aEditorBase
+aHTMLEditor
 const
 EditorDOMPointBase
 <
@@ -282,7 +282,7 @@ nodes
 *
 *
 param
-aEditorBase
+aHTMLEditor
 The
 provider
 of
@@ -348,9 +348,9 @@ SplitNodeTransaction
 >
 Create
 (
-EditorBase
+HTMLEditor
 &
-aEditorBase
+aHTMLEditor
 const
 EditorDOMPointBase
 <
@@ -402,9 +402,9 @@ default
 ;
 RefPtr
 <
-EditorBase
+HTMLEditor
 >
-mEditorBase
+mHTMLEditor
 ;
 /
 /
