@@ -2127,6 +2127,8 @@ adapter_guard
 device
 .
 adapter_id
+.
+value
 ]
 .
 raw
