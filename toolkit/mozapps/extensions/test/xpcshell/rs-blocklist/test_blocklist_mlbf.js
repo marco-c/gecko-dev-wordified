@@ -890,6 +890,16 @@ equal
 (
 addon
 .
+signedDate
+null
+)
+;
+Assert
+.
+equal
+(
+addon
+.
 blocklistState
 Ci
 .
