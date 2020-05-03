@@ -384,6 +384,12 @@ entry
 {
 this
 .
+lastEntry
+=
+entry
+;
+this
+.
 score
 +
 =
