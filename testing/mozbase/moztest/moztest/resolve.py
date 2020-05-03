@@ -6738,18 +6738,6 @@ path
 import
 manifestupdate
         
-#
-Import
-and
-redirect
-the
-logger
-to
-sys
-.
-stderr
-.
-        
 import
 logging
         
@@ -6764,23 +6752,11 @@ manifestupdate
 "
 )
         
-handler
-=
-logging
-.
-StreamHandler
-(
-sys
-.
-stderr
-)
-        
 logger
 .
-addHandler
-(
-handler
-)
+disabled
+=
+True
         
 manifests
 =
