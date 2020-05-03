@@ -1052,10 +1052,16 @@ safer
 if
 (
 !
+BasePrincipal
+:
+:
+Cast
+(
 targetPrin
+)
 -
 >
-Equals
+EqualsIgnoringFPD
 (
 mProvidedPrincipal
 )
