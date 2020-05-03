@@ -128,6 +128,15 @@ IdType
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MozPromise
+.
+h
+"
 namespace
 mozilla
 {

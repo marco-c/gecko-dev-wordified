@@ -160,6 +160,13 @@ nsIXULAppInfo
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 /
 /
 avoid

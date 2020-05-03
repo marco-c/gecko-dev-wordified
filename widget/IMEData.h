@@ -102,6 +102,15 @@ mozilla_widget_IMEData_h_
 #
 include
 "
+mozilla
+/
+EventForwards
+.
+h
+"
+#
+include
+"
 nsPoint
 .
 h

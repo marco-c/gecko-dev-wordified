@@ -122,6 +122,13 @@ nsISupportsPrimitives
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 /
 /
 helpers

@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsWindow
+.
+h
+"
+#
+include
+"
 WindowSurfaceX11Image
 .
 h

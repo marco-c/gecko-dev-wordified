@@ -111,6 +111,15 @@ include
 "
 mozilla
 /
+VsyncDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 PCompositorWidgetParent
