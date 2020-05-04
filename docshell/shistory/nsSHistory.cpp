@@ -8586,8 +8586,6 @@ RemoveObject
 entry
 )
 ;
-return
-;
 }
 /
 /
