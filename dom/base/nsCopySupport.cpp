@@ -4119,6 +4119,7 @@ rangeCount
 )
 )
 {
+const
 nsRange
 *
 range
@@ -4444,6 +4445,7 @@ if
 sel
 )
 {
+const
 nsRange
 *
 range

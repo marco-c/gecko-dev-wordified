@@ -1740,6 +1740,7 @@ false
 }
 if
 (
+const
 nsRange
 *
 selRange

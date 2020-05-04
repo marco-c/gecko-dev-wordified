@@ -2430,6 +2430,7 @@ NS_OK
 }
 RefPtr
 <
+const
 nsRange
 >
 range

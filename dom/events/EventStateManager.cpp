@@ -34240,6 +34240,7 @@ IsAcceptableInputEvent
 (
 )
 .
+const
 nsRange
 *
 range

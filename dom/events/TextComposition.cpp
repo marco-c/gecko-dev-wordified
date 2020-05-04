@@ -4555,6 +4555,7 @@ RawRangeBoundary
 )
 ;
 }
+const
 nsRange
 *
 firstRange
@@ -4640,6 +4641,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range
@@ -4944,6 +4946,7 @@ RawRangeBoundary
 )
 ;
 }
+const
 nsRange
 *
 lastRange
@@ -5029,6 +5032,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range

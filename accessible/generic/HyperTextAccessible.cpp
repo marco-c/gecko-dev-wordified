@@ -11955,6 +11955,7 @@ idx
 +
 )
 {
+const
 nsRange
 *
 DOMRange
@@ -14257,6 +14258,7 @@ idx
 +
 )
 {
+const
 nsRange
 *
 range
@@ -14620,6 +14622,7 @@ idx
 0
 )
 {
+const
 nsRange
 *
 prevRange
@@ -14793,6 +14796,7 @@ text
 attribute
 range
 .
+const
 nsRange
 *
 prevRange
