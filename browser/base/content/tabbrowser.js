@@ -29148,6 +29148,13 @@ updated
 "
 :
 {
+let
+identity
+=
+aSubject
+.
+wrappedJSObject
+;
 for
 (
 let
@@ -29170,7 +29177,9 @@ usercontextid
 )
 =
 =
-aData
+identity
+.
+userContextId
 )
 {
 ContextualIdentityService
