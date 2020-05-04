@@ -392,6 +392,7 @@ t
 access
 lexical
 declaration
+'
 q
 \
 '

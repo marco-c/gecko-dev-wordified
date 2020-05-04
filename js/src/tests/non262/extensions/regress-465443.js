@@ -369,6 +369,7 @@ invalid
 assignment
 to
 const
+'
 b
 \
 '
