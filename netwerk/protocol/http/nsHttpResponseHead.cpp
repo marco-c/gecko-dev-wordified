@@ -745,6 +745,7 @@ nsACString
 &
 aContentType
 )
+const
 {
 RecursiveMutexAutoLock
 monitor

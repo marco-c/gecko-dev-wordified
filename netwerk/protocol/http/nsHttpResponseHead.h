@@ -545,6 +545,7 @@ nsACString
 &
 aContentType
 )
+const
 ;
 void
 ContentCharset
