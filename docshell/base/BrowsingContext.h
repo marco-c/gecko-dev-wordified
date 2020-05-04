@@ -2319,12 +2319,12 @@ NOTE
 :
 Unlike
 GetEmbedderWindowGlobal
-GetParentWindow
+GetParentWindowContext
 does
 not
+/
+/
 cross
-/
-/
 toplevel
 content
 browser
@@ -2332,7 +2332,7 @@ boundaries
 .
 WindowContext
 *
-GetParentWindow
+GetParentWindowContext
 (
 )
 const
@@ -2341,6 +2341,12 @@ return
 mParentWindow
 ;
 }
+WindowContext
+*
+GetTopWindowContext
+(
+)
+;
 already_AddRefed
 <
 BrowsingContext
