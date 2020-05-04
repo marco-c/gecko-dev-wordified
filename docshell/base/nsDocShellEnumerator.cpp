@@ -128,6 +128,10 @@ nsDocShell
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsDocShellEnumerator
 :
 :

@@ -201,6 +201,9 @@ class
 nsISHEntry
 ;
 class
+nsISHistory
+;
+class
 nsIContentViewer
 ;
 class

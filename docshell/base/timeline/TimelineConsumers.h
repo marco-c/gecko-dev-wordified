@@ -166,6 +166,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 TimelineMarkerEnums
 .
 h

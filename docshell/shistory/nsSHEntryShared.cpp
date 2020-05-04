@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsISHistory
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

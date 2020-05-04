@@ -124,6 +124,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BrowsingContext
+.
+h
+"
+#
+include
+"
 nsIWebNavigation
 .
 h

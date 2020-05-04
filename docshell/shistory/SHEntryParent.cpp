@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsILayoutHistoryState
+.
+h
+"
+#
+include
+"
 nsStructuredCloneContainer
 .
 h
