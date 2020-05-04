@@ -1543,7 +1543,7 @@ override
 private
 :
 void
-doTrace
+trace
 (
 JSTracer
 *

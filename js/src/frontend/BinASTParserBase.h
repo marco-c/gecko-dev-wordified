@@ -255,16 +255,6 @@ default
 ;
 public
 :
-virtual
-void
-doTrace
-(
-JSTracer
-*
-trc
-)
-{
-}
 void
 trace
 (
@@ -272,6 +262,7 @@ JSTracer
 *
 trc
 )
+override
 {
 FunctionBox
 :
@@ -280,11 +271,6 @@ TraceList
 (
 trc
 traceListHead_
-)
-;
-doTrace
-(
-trc
 )
 ;
 }
