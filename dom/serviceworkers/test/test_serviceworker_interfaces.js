@@ -376,6 +376,9 @@ SharedArrayBuffer
 earlyBetaOrEarlier
 :
 true
+crossOriginIsolated
+:
+true
 }
 "
 String
@@ -2265,6 +2268,7 @@ isDesktop
 isAndroid
 isInsecureContext
 isFennec
+isCrossOriginIsolated
 }
 )
 {
@@ -2462,6 +2466,16 @@ earlyBetaOrEarlier
 =
 !
 isEarlyBetaOrEarlier
+|
+|
+entry
+.
+crossOriginIsolated
+=
+=
+=
+!
+isCrossOriginIsolated
 |
 |
 entry
