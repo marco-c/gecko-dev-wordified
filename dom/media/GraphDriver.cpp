@@ -6279,6 +6279,9 @@ BufferFilled
 (
 )
 ;
+#
+ifdef
+MOZ_SAMPLE_TYPE_FLOAT32
 /
 /
 Prevent
@@ -6309,6 +6312,8 @@ aFrames
 mOutputChannelCount
 )
 ;
+#
+endif
 /
 /
 Callback
