@@ -242,6 +242,16 @@ uint32_t
 aSize
 )
 ;
+void
+NaNToZeroInPlace_SSE
+(
+float
+*
+aSamples
+size_t
+aCount
+)
+;
 }
 /
 /
