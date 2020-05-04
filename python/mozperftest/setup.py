@@ -77,6 +77,9 @@ deps
 =
 [
 "
+jsonschema
+"
+"
 mozlog
 >
 =

@@ -111,9 +111,10 @@ prefs
         
 self
 .
-_result
+_results
 =
-None
+[
+]
         
 self
 .
@@ -197,7 +198,7 @@ self
 _output
     
 def
-set_result
+add_result
 (
 self
 result
@@ -206,12 +207,15 @@ result
         
 self
 .
-_result
-=
+_results
+.
+append
+(
 result
+)
     
 def
-get_result
+get_results
 (
 self
 )
@@ -220,7 +224,21 @@ self
 return
 self
 .
-_result
+_results
+    
+def
+clear_results
+(
+self
+)
+:
+        
+self
+.
+_results
+=
+[
+]
     
 def
 update_browser_prefs
