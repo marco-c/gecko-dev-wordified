@@ -1877,7 +1877,6 @@ t
 access
 lexical
 declaration
-'
 {
 0
 }
@@ -1896,7 +1895,6 @@ invalid
 assignment
 to
 const
-'
 {
 0
 }
@@ -1913,7 +1911,6 @@ cannot
 declare
 global
 binding
-'
 {
 0
 }
@@ -7763,7 +7760,6 @@ JSMSG_DEBUG_OPTIMIZED_OUT
 JSEXN_ERR
 "
 variable
-'
 {
 0
 }
@@ -7868,7 +7864,6 @@ JSMSG_DEBUGGEE_WOULD_RUN
 JSEXN_DEBUGGEEWOULDRUN
 "
 debuggee
-'
 {
 0
 }
@@ -8005,7 +8000,6 @@ can
 '
 t
 set
-'
 {
 0
 }
