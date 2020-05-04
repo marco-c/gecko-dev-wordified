@@ -1372,7 +1372,7 @@ JS
 detail
 :
 :
-MaybeWrapped
+RootedPtr
 "
 "
 JS

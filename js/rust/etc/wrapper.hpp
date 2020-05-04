@@ -309,7 +309,7 @@ JS
 detail
 :
 :
-MaybeWrapped
+RootedPtr
 "
 /
 >
@@ -319,7 +319,7 @@ typename
 T
 >
 using
-replaces_MaybeWrapped
+replaces_RootedPtr
 =
 T
 ;
