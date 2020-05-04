@@ -1938,6 +1938,7 @@ i
 {
 RefPtr
 <
+const
 nsRange
 >
 range

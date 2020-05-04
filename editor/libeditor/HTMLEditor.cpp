@@ -3011,6 +3011,7 @@ GetActiveEditingHost
 (
 )
 ;
+const
 nsRange
 *
 range
@@ -3338,6 +3339,7 @@ RangeCount
 1
 )
 {
+const
 nsRange
 *
 range
@@ -8172,6 +8174,7 @@ context
 :
 RefPtr
 <
+const
 nsRange
 >
 range
@@ -9720,6 +9723,7 @@ endclosebody
 ;
 RefPtr
 <
+const
 nsRange
 >
 range
@@ -13197,6 +13201,7 @@ transparent
 ;
 RefPtr
 <
+const
 nsRange
 >
 firstRange
@@ -27467,6 +27472,7 @@ j
 {
 RefPtr
 <
+const
 nsRange
 >
 r
@@ -29593,6 +29599,7 @@ RangeCount
 j
 )
 {
+const
 RefPtr
 <
 nsRange
@@ -37234,6 +37241,7 @@ rangeCount
 1
 )
 {
+const
 nsRange
 *
 range
@@ -37452,6 +37460,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range

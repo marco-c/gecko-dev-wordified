@@ -21909,6 +21909,7 @@ RangeCount
 rangeIdx
 )
 {
+const
 nsRange
 *
 range
@@ -22213,6 +22214,7 @@ EditorBase
 :
 CreateTransactionForCollapsedRange
 (
+const
 nsRange
 &
 aCollapsedRange
@@ -28664,6 +28666,7 @@ t
 work
 well
 !
+const
 nsRange
 *
 firstRange
@@ -32816,6 +32819,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range
@@ -35595,6 +35599,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range

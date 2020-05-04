@@ -1732,6 +1732,7 @@ return
 }
 if
 (
+const
 nsRange
 *
 range
@@ -4307,6 +4308,7 @@ EditActionCanceled
 )
 ;
 }
+const
 nsRange
 *
 range
@@ -5599,6 +5601,7 @@ atBodyOrDocumentElement
 bodyOrDocumentElement
 )
 ;
+const
 nsRange
 *
 firstRange
@@ -8299,6 +8302,7 @@ to
 be
 before
 it
+const
 nsRange
 *
 firstRange
@@ -9110,6 +9114,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
+const
 nsRange
 >
 firstRange
@@ -11598,6 +11603,7 @@ result
 Smart
 splitting
 rules
+const
 nsRange
 *
 firstRange
@@ -17621,6 +17627,7 @@ else
 {
 RefPtr
 <
+const
 nsRange
 >
 range
@@ -21016,6 +21023,7 @@ RangeCount
 {
 if
 (
+const
 nsRange
 *
 firstRange
@@ -21186,6 +21194,7 @@ mDidDeleteNonCollapsedRange
 =
 true
 ;
+const
 nsRange
 *
 firstRange
@@ -31483,6 +31492,7 @@ rv
 }
 }
 }
+const
 nsRange
 *
 firstRange
@@ -35198,6 +35208,7 @@ arrayOfContents
 )
 )
 {
+const
 nsRange
 *
 firstRange
@@ -36267,6 +36278,7 @@ return
 NS_OK
 ;
 }
+const
 nsRange
 *
 firstRange
@@ -38081,6 +38093,7 @@ arrayOfContents
 get
 selection
 location
+const
 nsRange
 *
 firstRange
@@ -39436,6 +39449,7 @@ arrayOfContents
 )
 )
 {
+const
 nsRange
 *
 firstRange
@@ -41277,6 +41291,7 @@ GetLeftContent
 )
 )
 {
+const
 nsRange
 *
 firstRange
@@ -41498,6 +41513,7 @@ GetRightContent
 )
 )
 {
+const
 nsRange
 *
 firstRange
@@ -45023,6 +45039,7 @@ HTMLEditor
 :
 CreateStyleForInsertText
 (
+const
 AbstractRange
 &
 aAbstractRange
@@ -46850,6 +46867,7 @@ issue
 .
 -
 kin
+const
 nsRange
 *
 firstRange
@@ -47071,6 +47089,7 @@ IsSelectionRangeContainerNotContent
 )
 )
 ;
+const
 nsRange
 *
 firstRange
@@ -51843,6 +51862,7 @@ return
 NS_OK
 ;
 }
+const
 RefPtr
 <
 nsRange
@@ -54610,6 +54630,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 selectionRange
@@ -70131,6 +70152,7 @@ collapsed
 )
 selection
 location
+const
 nsRange
 *
 firstRange
@@ -73490,6 +73512,7 @@ RangeCount
 i
 )
 {
+const
 nsRange
 *
 range
@@ -78184,6 +78207,7 @@ arrayOfContents
 )
 )
 {
+const
 nsRange
 *
 firstRange

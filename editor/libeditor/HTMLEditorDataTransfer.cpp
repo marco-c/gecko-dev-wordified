@@ -971,6 +971,7 @@ context
 :
 RefPtr
 <
+const
 nsRange
 >
 range

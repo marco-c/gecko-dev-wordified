@@ -227,6 +227,7 @@ DeleteRangeTransaction
 EditorBase
 &
 aEditorBase
+const
 nsRange
 &
 aRangeToDelete

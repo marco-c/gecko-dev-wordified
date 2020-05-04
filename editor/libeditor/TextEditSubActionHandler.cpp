@@ -1402,6 +1402,7 @@ collapsed
 )
 selection
 location
+const
 nsRange
 *
 firstRange
@@ -3492,6 +3493,7 @@ collapsed
 )
 selection
 location
+const
 nsRange
 *
 firstRange

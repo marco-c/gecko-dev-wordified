@@ -241,6 +241,7 @@ public
 void
 StoreRange
 (
+const
 nsRange
 &
 aRange
