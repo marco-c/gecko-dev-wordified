@@ -317,6 +317,18 @@ keys
 (
 )
 )
+                
+"
+default
+"
+:
+"
+central
+-
+to
+-
+beta
+"
             
 }
             
@@ -489,6 +501,42 @@ changes
 "
             
 }
+            
+"
+fetch
+-
+version
+-
+from
+"
+:
+{
+                
+"
+type
+"
+:
+"
+string
+"
+                
+"
+description
+"
+:
+"
+Path
+to
+file
+used
+when
+querying
+current
+version
+.
+"
+            
+}
         
 }
         
@@ -497,11 +545,9 @@ required
 "
 :
 [
-            
 "
 behavior
 "
-        
 ]
     
 }
@@ -590,26 +636,31 @@ for
 field
 in
 [
+        
 "
 from
 -
 repo
 "
+        
 "
 from
 -
 branch
 "
+        
 "
 to
 -
 repo
 "
+        
 "
 to
 -
 branch
 "
+        
 "
 ssh
 -
@@ -617,9 +668,19 @@ user
 -
 alias
 "
+        
 "
 push
 "
+        
+"
+fetch
+-
+version
+-
+from
+"
+    
 ]
 :
         
