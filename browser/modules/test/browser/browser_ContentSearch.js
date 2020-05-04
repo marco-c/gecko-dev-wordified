@@ -3034,11 +3034,11 @@ name
 =
 =
 hiddenEngine
-identifier
+isAppProvided
 :
 engine
 .
-identifier
+isAppProvided
 }
 )
 ;
@@ -3137,6 +3137,11 @@ iconDataFromURI
 (
 uriFavicon
 )
+isAppProvided
+:
+engine
+.
+isAppProvided
 }
 ;
 }
