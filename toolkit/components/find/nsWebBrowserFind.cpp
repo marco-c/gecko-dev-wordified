@@ -2537,6 +2537,7 @@ DocumentEnd
 .
 RefPtr
 <
+const
 nsRange
 >
 range
