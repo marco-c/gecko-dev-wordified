@@ -13022,6 +13022,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
+const
 nsRange
 >
 firstRange
@@ -13624,6 +13625,7 @@ nsIContent
 *
 GetFirstSelectedContent
 (
+const
 nsRange
 *
 aRange

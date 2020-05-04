@@ -6138,6 +6138,7 @@ nullptr
 "
 )
 ;
+const
 nsRange
 *
 range
