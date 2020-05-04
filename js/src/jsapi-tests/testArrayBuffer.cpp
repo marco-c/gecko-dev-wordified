@@ -1890,7 +1890,7 @@ transferMap
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >

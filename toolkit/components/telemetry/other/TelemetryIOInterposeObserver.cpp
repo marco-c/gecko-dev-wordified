@@ -635,7 +635,7 @@ obj
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 NUM_STAGES
 >
@@ -767,7 +767,7 @@ report
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 6
 >

@@ -23095,7 +23095,7 @@ inline
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 4
 >

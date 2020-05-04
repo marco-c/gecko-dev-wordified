@@ -140,7 +140,7 @@ h
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 #
 include
 "

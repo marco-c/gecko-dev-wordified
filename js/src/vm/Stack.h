@@ -6134,7 +6134,7 @@ protected
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 +

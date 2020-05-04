@@ -785,7 +785,7 @@ ArgumentsObject
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 MAX_ELEMS
 >
@@ -948,7 +948,7 @@ ClearElements
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 N
 >

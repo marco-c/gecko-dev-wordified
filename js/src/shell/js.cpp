@@ -6738,7 +6738,7 @@ false
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 1
 >
@@ -31126,7 +31126,7 @@ JSFunction
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >
@@ -31460,7 +31460,7 @@ JSFunction
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >
@@ -32372,7 +32372,7 @@ JSFunction
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 3
 >

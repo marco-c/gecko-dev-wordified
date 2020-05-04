@@ -144010,7 +144010,7 @@ false
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 3
 >

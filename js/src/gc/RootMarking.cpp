@@ -1274,7 +1274,7 @@ elements
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 "
 )
 ;
