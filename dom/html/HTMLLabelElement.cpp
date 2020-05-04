@@ -185,6 +185,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

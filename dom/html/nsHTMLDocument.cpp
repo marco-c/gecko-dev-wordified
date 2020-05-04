@@ -214,6 +214,13 @@ h
 #
 include
 "
+nsIProtocolHandler
+.
+h
+"
+#
+include
+"
 nsIXMLContentSink
 .
 h

@@ -123,6 +123,13 @@ mozilla_dom_ValidityState_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIConstraintValidation
 .
 h

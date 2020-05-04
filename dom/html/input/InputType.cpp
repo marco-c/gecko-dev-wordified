@@ -205,6 +205,17 @@ mozilla
 /
 dom
 /
+HTMLInputElement
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NumericInputTypes
 .
 h

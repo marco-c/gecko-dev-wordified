@@ -139,6 +139,13 @@ h
 #
 include
 "
+nsCSSProps
+.
+h
+"
+#
+include
+"
 nsStyleConsts
 .
 h
