@@ -2207,6 +2207,10 @@ aDelta
 aRestoreImmediately
 =
 true
+aOptions
+=
+{
+}
 )
 {
 return
@@ -2218,6 +2222,7 @@ aWindow
 aTab
 aDelta
 aRestoreImmediately
+aOptions
 )
 ;
 }
@@ -20036,6 +20041,12 @@ aDelta
 aRestoreImmediately
 =
 true
+{
+index
+}
+=
+{
+}
 )
 {
 if
@@ -20146,6 +20157,7 @@ tabOptions
 =
 {
 userContextId
+index
 .
 .
 .
