@@ -1655,7 +1655,7 @@ var
 &
 options
 .
-isVariableInUse
+getVariableValue
 )
 {
 sawVariable
@@ -1731,7 +1731,7 @@ var
 !
 options
 .
-isVariableInUse
+getVariableValue
 )
 {
 functionData
@@ -2128,7 +2128,7 @@ varValue
 =
 options
 .
-isVariableInUse
+getVariableValue
 (
 tokens
 [
@@ -2930,7 +2930,7 @@ var
 &
 options
 .
-isVariableInUse
+getVariableValue
 )
 {
 const
@@ -12374,7 +12374,7 @@ links
 .
 *
 -
-isVariableInUse
+getVariableValue
 /
 /
 A
@@ -12535,7 +12535,7 @@ fontFamilyClass
 baseURI
 :
 undefined
-isVariableInUse
+getVariableValue
 :
 null
 unmatchedVariableClass
