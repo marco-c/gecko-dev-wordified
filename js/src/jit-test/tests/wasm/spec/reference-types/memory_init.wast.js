@@ -4,7 +4,7 @@ memory_init
 .
 wast
 :
-5
+6
 let
 1
 =
@@ -304,7 +304,7 @@ memory_init
 .
 wast
 :
-16
+17
 run
 (
 (
@@ -328,32 +328,6 @@ memory_init
 .
 wast
 :
-18
-assert_return
-(
-(
-)
-=
->
-call
-(
-1
-"
-load8_u
-"
-[
-0
-]
-)
-0
-)
-;
-/
-/
-memory_init
-.
-wast
-:
 19
 assert_return
 (
@@ -368,7 +342,7 @@ call
 load8_u
 "
 [
-1
+0
 ]
 )
 0
@@ -394,10 +368,10 @@ call
 load8_u
 "
 [
-2
+1
 ]
 )
-3
+0
 )
 ;
 /
@@ -420,6 +394,32 @@ call
 load8_u
 "
 [
+2
+]
+)
+3
+)
+;
+/
+/
+memory_init
+.
+wast
+:
+22
+assert_return
+(
+(
+)
+=
+>
+call
+(
+1
+"
+load8_u
+"
+[
 3
 ]
 )
@@ -432,7 +432,7 @@ memory_init
 .
 wast
 :
-22
+23
 assert_return
 (
 (
@@ -458,7 +458,7 @@ memory_init
 .
 wast
 :
-23
+24
 assert_return
 (
 (
@@ -484,7 +484,7 @@ memory_init
 .
 wast
 :
-24
+25
 assert_return
 (
 (
@@ -510,7 +510,7 @@ memory_init
 .
 wast
 :
-25
+26
 assert_return
 (
 (
@@ -536,7 +536,7 @@ memory_init
 .
 wast
 :
-26
+27
 assert_return
 (
 (
@@ -562,7 +562,7 @@ memory_init
 .
 wast
 :
-27
+28
 assert_return
 (
 (
@@ -588,7 +588,7 @@ memory_init
 .
 wast
 :
-28
+29
 assert_return
 (
 (
@@ -614,7 +614,7 @@ memory_init
 .
 wast
 :
-29
+30
 assert_return
 (
 (
@@ -640,7 +640,7 @@ memory_init
 .
 wast
 :
-30
+31
 assert_return
 (
 (
@@ -666,7 +666,7 @@ memory_init
 .
 wast
 :
-31
+32
 assert_return
 (
 (
@@ -692,7 +692,7 @@ memory_init
 .
 wast
 :
-32
+33
 assert_return
 (
 (
@@ -718,7 +718,7 @@ memory_init
 .
 wast
 :
-33
+34
 assert_return
 (
 (
@@ -744,7 +744,7 @@ memory_init
 .
 wast
 :
-34
+35
 assert_return
 (
 (
@@ -770,7 +770,7 @@ memory_init
 .
 wast
 :
-35
+36
 assert_return
 (
 (
@@ -796,7 +796,7 @@ memory_init
 .
 wast
 :
-36
+37
 assert_return
 (
 (
@@ -822,7 +822,7 @@ memory_init
 .
 wast
 :
-37
+38
 assert_return
 (
 (
@@ -848,7 +848,7 @@ memory_init
 .
 wast
 :
-38
+39
 assert_return
 (
 (
@@ -874,7 +874,7 @@ memory_init
 .
 wast
 :
-39
+40
 assert_return
 (
 (
@@ -900,7 +900,7 @@ memory_init
 .
 wast
 :
-40
+41
 assert_return
 (
 (
@@ -926,7 +926,7 @@ memory_init
 .
 wast
 :
-41
+42
 assert_return
 (
 (
@@ -952,7 +952,7 @@ memory_init
 .
 wast
 :
-42
+43
 assert_return
 (
 (
@@ -978,7 +978,7 @@ memory_init
 .
 wast
 :
-43
+44
 assert_return
 (
 (
@@ -1004,7 +1004,7 @@ memory_init
 .
 wast
 :
-44
+45
 assert_return
 (
 (
@@ -1030,7 +1030,7 @@ memory_init
 .
 wast
 :
-45
+46
 assert_return
 (
 (
@@ -1056,7 +1056,7 @@ memory_init
 .
 wast
 :
-46
+47
 assert_return
 (
 (
@@ -1082,7 +1082,7 @@ memory_init
 .
 wast
 :
-47
+48
 assert_return
 (
 (
@@ -1108,7 +1108,7 @@ memory_init
 .
 wast
 :
-49
+50
 let
 2
 =
@@ -1440,7 +1440,7 @@ memory_init
 .
 wast
 :
-60
+61
 run
 (
 (
@@ -1464,32 +1464,6 @@ memory_init
 .
 wast
 :
-62
-assert_return
-(
-(
-)
-=
->
-call
-(
-2
-"
-load8_u
-"
-[
-0
-]
-)
-0
-)
-;
-/
-/
-memory_init
-.
-wast
-:
 63
 assert_return
 (
@@ -1504,7 +1478,7 @@ call
 load8_u
 "
 [
-1
+0
 ]
 )
 0
@@ -1530,6 +1504,32 @@ call
 load8_u
 "
 [
+1
+]
+)
+0
+)
+;
+/
+/
+memory_init
+.
+wast
+:
+65
+assert_return
+(
+(
+)
+=
+>
+call
+(
+2
+"
+load8_u
+"
+[
 2
 ]
 )
@@ -1542,7 +1542,7 @@ memory_init
 .
 wast
 :
-65
+66
 assert_return
 (
 (
@@ -1568,7 +1568,7 @@ memory_init
 .
 wast
 :
-66
+67
 assert_return
 (
 (
@@ -1594,7 +1594,7 @@ memory_init
 .
 wast
 :
-67
+68
 assert_return
 (
 (
@@ -1620,7 +1620,7 @@ memory_init
 .
 wast
 :
-68
+69
 assert_return
 (
 (
@@ -1646,7 +1646,7 @@ memory_init
 .
 wast
 :
-69
+70
 assert_return
 (
 (
@@ -1672,7 +1672,7 @@ memory_init
 .
 wast
 :
-70
+71
 assert_return
 (
 (
@@ -1698,7 +1698,7 @@ memory_init
 .
 wast
 :
-71
+72
 assert_return
 (
 (
@@ -1724,7 +1724,7 @@ memory_init
 .
 wast
 :
-72
+73
 assert_return
 (
 (
@@ -1750,7 +1750,7 @@ memory_init
 .
 wast
 :
-73
+74
 assert_return
 (
 (
@@ -1776,7 +1776,7 @@ memory_init
 .
 wast
 :
-74
+75
 assert_return
 (
 (
@@ -1802,7 +1802,7 @@ memory_init
 .
 wast
 :
-75
+76
 assert_return
 (
 (
@@ -1828,7 +1828,7 @@ memory_init
 .
 wast
 :
-76
+77
 assert_return
 (
 (
@@ -1854,7 +1854,7 @@ memory_init
 .
 wast
 :
-77
+78
 assert_return
 (
 (
@@ -1880,7 +1880,7 @@ memory_init
 .
 wast
 :
-78
+79
 assert_return
 (
 (
@@ -1906,7 +1906,7 @@ memory_init
 .
 wast
 :
-79
+80
 assert_return
 (
 (
@@ -1932,7 +1932,7 @@ memory_init
 .
 wast
 :
-80
+81
 assert_return
 (
 (
@@ -1958,7 +1958,7 @@ memory_init
 .
 wast
 :
-81
+82
 assert_return
 (
 (
@@ -1984,7 +1984,7 @@ memory_init
 .
 wast
 :
-82
+83
 assert_return
 (
 (
@@ -2010,7 +2010,7 @@ memory_init
 .
 wast
 :
-83
+84
 assert_return
 (
 (
@@ -2036,7 +2036,7 @@ memory_init
 .
 wast
 :
-84
+85
 assert_return
 (
 (
@@ -2062,7 +2062,7 @@ memory_init
 .
 wast
 :
-85
+86
 assert_return
 (
 (
@@ -2088,7 +2088,7 @@ memory_init
 .
 wast
 :
-86
+87
 assert_return
 (
 (
@@ -2114,7 +2114,7 @@ memory_init
 .
 wast
 :
-87
+88
 assert_return
 (
 (
@@ -2140,7 +2140,7 @@ memory_init
 .
 wast
 :
-88
+89
 assert_return
 (
 (
@@ -2166,7 +2166,7 @@ memory_init
 .
 wast
 :
-89
+90
 assert_return
 (
 (
@@ -2192,7 +2192,7 @@ memory_init
 .
 wast
 :
-90
+91
 assert_return
 (
 (
@@ -2218,7 +2218,7 @@ memory_init
 .
 wast
 :
-91
+92
 assert_return
 (
 (
@@ -2244,7 +2244,7 @@ memory_init
 .
 wast
 :
-93
+94
 let
 3
 =
@@ -2576,7 +2576,7 @@ memory_init
 .
 wast
 :
-104
+105
 run
 (
 (
@@ -2600,32 +2600,6 @@ memory_init
 .
 wast
 :
-106
-assert_return
-(
-(
-)
-=
->
-call
-(
-3
-"
-load8_u
-"
-[
-0
-]
-)
-0
-)
-;
-/
-/
-memory_init
-.
-wast
-:
 107
 assert_return
 (
@@ -2640,7 +2614,7 @@ call
 load8_u
 "
 [
-1
+0
 ]
 )
 0
@@ -2666,6 +2640,32 @@ call
 load8_u
 "
 [
+1
+]
+)
+0
+)
+;
+/
+/
+memory_init
+.
+wast
+:
+109
+assert_return
+(
+(
+)
+=
+>
+call
+(
+3
+"
+load8_u
+"
+[
 2
 ]
 )
@@ -2678,7 +2678,7 @@ memory_init
 .
 wast
 :
-109
+110
 assert_return
 (
 (
@@ -2704,7 +2704,7 @@ memory_init
 .
 wast
 :
-110
+111
 assert_return
 (
 (
@@ -2730,7 +2730,7 @@ memory_init
 .
 wast
 :
-111
+112
 assert_return
 (
 (
@@ -2756,7 +2756,7 @@ memory_init
 .
 wast
 :
-112
+113
 assert_return
 (
 (
@@ -2782,32 +2782,6 @@ memory_init
 .
 wast
 :
-113
-assert_return
-(
-(
-)
-=
->
-call
-(
-3
-"
-load8_u
-"
-[
-7
-]
-)
-0
-)
-;
-/
-/
-memory_init
-.
-wast
-:
 114
 assert_return
 (
@@ -2822,7 +2796,7 @@ call
 load8_u
 "
 [
-8
+7
 ]
 )
 0
@@ -2848,7 +2822,7 @@ call
 load8_u
 "
 [
-9
+8
 ]
 )
 0
@@ -2874,7 +2848,7 @@ call
 load8_u
 "
 [
-10
+9
 ]
 )
 0
@@ -2900,7 +2874,7 @@ call
 load8_u
 "
 [
-11
+10
 ]
 )
 0
@@ -2926,6 +2900,32 @@ call
 load8_u
 "
 [
+11
+]
+)
+0
+)
+;
+/
+/
+memory_init
+.
+wast
+:
+119
+assert_return
+(
+(
+)
+=
+>
+call
+(
+3
+"
+load8_u
+"
+[
 12
 ]
 )
@@ -2938,7 +2938,7 @@ memory_init
 .
 wast
 :
-119
+120
 assert_return
 (
 (
@@ -2964,7 +2964,7 @@ memory_init
 .
 wast
 :
-120
+121
 assert_return
 (
 (
@@ -2990,7 +2990,7 @@ memory_init
 .
 wast
 :
-121
+122
 assert_return
 (
 (
@@ -3016,7 +3016,7 @@ memory_init
 .
 wast
 :
-122
+123
 assert_return
 (
 (
@@ -3042,7 +3042,7 @@ memory_init
 .
 wast
 :
-123
+124
 assert_return
 (
 (
@@ -3068,7 +3068,7 @@ memory_init
 .
 wast
 :
-124
+125
 assert_return
 (
 (
@@ -3094,7 +3094,7 @@ memory_init
 .
 wast
 :
-125
+126
 assert_return
 (
 (
@@ -3120,7 +3120,7 @@ memory_init
 .
 wast
 :
-126
+127
 assert_return
 (
 (
@@ -3146,7 +3146,7 @@ memory_init
 .
 wast
 :
-127
+128
 assert_return
 (
 (
@@ -3172,7 +3172,7 @@ memory_init
 .
 wast
 :
-128
+129
 assert_return
 (
 (
@@ -3198,7 +3198,7 @@ memory_init
 .
 wast
 :
-129
+130
 assert_return
 (
 (
@@ -3224,7 +3224,7 @@ memory_init
 .
 wast
 :
-130
+131
 assert_return
 (
 (
@@ -3250,7 +3250,7 @@ memory_init
 .
 wast
 :
-131
+132
 assert_return
 (
 (
@@ -3276,7 +3276,7 @@ memory_init
 .
 wast
 :
-132
+133
 assert_return
 (
 (
@@ -3302,7 +3302,7 @@ memory_init
 .
 wast
 :
-133
+134
 assert_return
 (
 (
@@ -3328,7 +3328,7 @@ memory_init
 .
 wast
 :
-134
+135
 assert_return
 (
 (
@@ -3354,7 +3354,7 @@ memory_init
 .
 wast
 :
-135
+136
 assert_return
 (
 (
@@ -3380,7 +3380,7 @@ memory_init
 .
 wast
 :
-137
+138
 let
 4
 =
@@ -3844,7 +3844,7 @@ memory_init
 .
 wast
 :
-156
+157
 run
 (
 (
@@ -3868,32 +3868,6 @@ memory_init
 .
 wast
 :
-158
-assert_return
-(
-(
-)
-=
->
-call
-(
-4
-"
-load8_u
-"
-[
-0
-]
-)
-0
-)
-;
-/
-/
-memory_init
-.
-wast
-:
 159
 assert_return
 (
@@ -3908,7 +3882,7 @@ call
 load8_u
 "
 [
-1
+0
 ]
 )
 0
@@ -3934,6 +3908,32 @@ call
 load8_u
 "
 [
+1
+]
+)
+0
+)
+;
+/
+/
+memory_init
+.
+wast
+:
+161
+assert_return
+(
+(
+)
+=
+>
+call
+(
+4
+"
+load8_u
+"
+[
 2
 ]
 )
@@ -3946,7 +3946,7 @@ memory_init
 .
 wast
 :
-161
+162
 assert_return
 (
 (
@@ -3972,7 +3972,7 @@ memory_init
 .
 wast
 :
-162
+163
 assert_return
 (
 (
@@ -3998,7 +3998,7 @@ memory_init
 .
 wast
 :
-163
+164
 assert_return
 (
 (
@@ -4024,7 +4024,7 @@ memory_init
 .
 wast
 :
-164
+165
 assert_return
 (
 (
@@ -4050,7 +4050,7 @@ memory_init
 .
 wast
 :
-165
+166
 assert_return
 (
 (
@@ -4076,7 +4076,7 @@ memory_init
 .
 wast
 :
-166
+167
 assert_return
 (
 (
@@ -4102,7 +4102,7 @@ memory_init
 .
 wast
 :
-167
+168
 assert_return
 (
 (
@@ -4128,7 +4128,7 @@ memory_init
 .
 wast
 :
-168
+169
 assert_return
 (
 (
@@ -4154,7 +4154,7 @@ memory_init
 .
 wast
 :
-169
+170
 assert_return
 (
 (
@@ -4180,7 +4180,7 @@ memory_init
 .
 wast
 :
-170
+171
 assert_return
 (
 (
@@ -4206,7 +4206,7 @@ memory_init
 .
 wast
 :
-171
+172
 assert_return
 (
 (
@@ -4232,7 +4232,7 @@ memory_init
 .
 wast
 :
-172
+173
 assert_return
 (
 (
@@ -4258,7 +4258,7 @@ memory_init
 .
 wast
 :
-173
+174
 assert_return
 (
 (
@@ -4284,7 +4284,7 @@ memory_init
 .
 wast
 :
-174
+175
 assert_return
 (
 (
@@ -4310,7 +4310,7 @@ memory_init
 .
 wast
 :
-175
+176
 assert_return
 (
 (
@@ -4336,7 +4336,7 @@ memory_init
 .
 wast
 :
-176
+177
 assert_return
 (
 (
@@ -4362,7 +4362,7 @@ memory_init
 .
 wast
 :
-177
+178
 assert_return
 (
 (
@@ -4388,7 +4388,7 @@ memory_init
 .
 wast
 :
-178
+179
 assert_return
 (
 (
@@ -4414,7 +4414,7 @@ memory_init
 .
 wast
 :
-179
+180
 assert_return
 (
 (
@@ -4440,7 +4440,7 @@ memory_init
 .
 wast
 :
-180
+181
 assert_return
 (
 (
@@ -4466,7 +4466,7 @@ memory_init
 .
 wast
 :
-181
+182
 assert_return
 (
 (
@@ -4492,7 +4492,7 @@ memory_init
 .
 wast
 :
-182
+183
 assert_return
 (
 (
@@ -4518,7 +4518,7 @@ memory_init
 .
 wast
 :
-183
+184
 assert_return
 (
 (
@@ -4544,7 +4544,7 @@ memory_init
 .
 wast
 :
-184
+185
 assert_return
 (
 (
@@ -4570,7 +4570,7 @@ memory_init
 .
 wast
 :
-185
+186
 assert_return
 (
 (
@@ -4596,7 +4596,7 @@ memory_init
 .
 wast
 :
-186
+187
 assert_return
 (
 (
@@ -4622,7 +4622,7 @@ memory_init
 .
 wast
 :
-187
+188
 assert_return
 (
 (
@@ -4648,7 +4648,7 @@ memory_init
 .
 wast
 :
-188
+189
 assert_invalid
 (
 "
@@ -4789,7 +4789,7 @@ memory_init
 .
 wast
 :
-194
+195
 assert_invalid
 (
 "
@@ -4968,7 +4968,7 @@ memory_init
 .
 wast
 :
-202
+203
 let
 5
 =
@@ -5156,7 +5156,7 @@ memory_init
 .
 wast
 :
-208
+209
 run
 (
 (
@@ -5180,7 +5180,7 @@ memory_init
 .
 wast
 :
-210
+211
 let
 6
 =
@@ -5384,7 +5384,7 @@ memory_init
 .
 wast
 :
-216
+217
 assert_trap
 (
 (
@@ -5408,7 +5408,7 @@ memory_init
 .
 wast
 :
-218
+219
 let
 7
 =
@@ -5612,7 +5612,7 @@ memory_init
 .
 wast
 :
-223
+224
 assert_trap
 (
 (
@@ -5636,7 +5636,7 @@ memory_init
 .
 wast
 :
-225
+226
 assert_invalid
 (
 "
@@ -5793,7 +5793,7 @@ memory_init
 .
 wast
 :
-231
+232
 assert_invalid
 (
 "
@@ -5988,7 +5988,7 @@ memory_init
 .
 wast
 :
-239
+240
 let
 8
 =
@@ -6204,7 +6204,7 @@ memory_init
 .
 wast
 :
-245
+246
 run
 (
 (
@@ -6228,7 +6228,7 @@ memory_init
 .
 wast
 :
-247
+248
 let
 9
 =
@@ -6426,7 +6426,7 @@ memory_init
 .
 wast
 :
-252
+253
 assert_trap
 (
 (
@@ -6450,7 +6450,7 @@ memory_init
 .
 wast
 :
-254
+255
 let
 10
 =
@@ -6648,7 +6648,7 @@ memory_init
 .
 wast
 :
-259
+260
 assert_trap
 (
 (
@@ -6672,7 +6672,7 @@ memory_init
 .
 wast
 :
-261
+262
 let
 11
 =
@@ -6872,7 +6872,7 @@ memory_init
 .
 wast
 :
-266
+267
 assert_trap
 (
 (
@@ -6896,7 +6896,7 @@ memory_init
 .
 wast
 :
-268
+269
 let
 12
 =
@@ -7094,7 +7094,7 @@ memory_init
 .
 wast
 :
-273
+274
 assert_trap
 (
 (
@@ -7118,7 +7118,7 @@ memory_init
 .
 wast
 :
-275
+276
 let
 13
 =
@@ -7316,7 +7316,7 @@ memory_init
 .
 wast
 :
-280
+281
 run
 (
 (
@@ -7340,7 +7340,7 @@ memory_init
 .
 wast
 :
-282
+283
 let
 14
 =
@@ -7540,7 +7540,7 @@ memory_init
 .
 wast
 :
-287
+288
 assert_trap
 (
 (
@@ -7564,7 +7564,7 @@ memory_init
 .
 wast
 :
-289
+290
 let
 15
 =
@@ -7764,7 +7764,7 @@ memory_init
 .
 wast
 :
-294
+295
 run
 (
 (
@@ -7788,7 +7788,7 @@ memory_init
 .
 wast
 :
-296
+297
 let
 16
 =
@@ -7988,7 +7988,7 @@ memory_init
 .
 wast
 :
-301
+302
 run
 (
 (
@@ -8012,7 +8012,7 @@ memory_init
 .
 wast
 :
-303
+304
 let
 17
 =
@@ -8212,7 +8212,7 @@ memory_init
 .
 wast
 :
-308
+309
 assert_trap
 (
 (
@@ -8236,7 +8236,7 @@ memory_init
 .
 wast
 :
-310
+311
 assert_invalid
 (
 "
@@ -8435,7 +8435,7 @@ memory_init
 .
 wast
 :
-318
+319
 assert_invalid
 (
 "
@@ -8628,7 +8628,7 @@ memory_init
 .
 wast
 :
-326
+327
 assert_invalid
 (
 "
@@ -8835,7 +8835,7 @@ memory_init
 .
 wast
 :
-334
+335
 assert_invalid
 (
 "
@@ -9034,7 +9034,7 @@ memory_init
 .
 wast
 :
-342
+343
 assert_invalid
 (
 "
@@ -9239,7 +9239,7 @@ memory_init
 .
 wast
 :
-350
+351
 assert_invalid
 (
 "
@@ -9438,7 +9438,7 @@ memory_init
 .
 wast
 :
-358
+359
 assert_invalid
 (
 "
@@ -9651,7 +9651,7 @@ memory_init
 .
 wast
 :
-366
+367
 assert_invalid
 (
 "
@@ -9844,7 +9844,7 @@ memory_init
 .
 wast
 :
-374
+375
 assert_invalid
 (
 "
@@ -10043,7 +10043,7 @@ memory_init
 .
 wast
 :
-382
+383
 assert_invalid
 (
 "
@@ -10236,7 +10236,7 @@ memory_init
 .
 wast
 :
-390
+391
 assert_invalid
 (
 "
@@ -10443,7 +10443,7 @@ memory_init
 .
 wast
 :
-398
+399
 assert_invalid
 (
 "
@@ -10650,7 +10650,7 @@ memory_init
 .
 wast
 :
-406
+407
 assert_invalid
 (
 "
@@ -10863,7 +10863,7 @@ memory_init
 .
 wast
 :
-414
+415
 assert_invalid
 (
 "
@@ -11070,7 +11070,7 @@ memory_init
 .
 wast
 :
-422
+423
 assert_invalid
 (
 "
@@ -11291,7 +11291,7 @@ memory_init
 .
 wast
 :
-430
+431
 assert_invalid
 (
 "
@@ -11490,7 +11490,7 @@ memory_init
 .
 wast
 :
-438
+439
 assert_invalid
 (
 "
@@ -11695,7 +11695,7 @@ memory_init
 .
 wast
 :
-446
+447
 assert_invalid
 (
 "
@@ -11894,7 +11894,7 @@ memory_init
 .
 wast
 :
-454
+455
 assert_invalid
 (
 "
@@ -12107,7 +12107,7 @@ memory_init
 .
 wast
 :
-462
+463
 assert_invalid
 (
 "
@@ -12312,7 +12312,7 @@ memory_init
 .
 wast
 :
-470
+471
 assert_invalid
 (
 "
@@ -12523,7 +12523,7 @@ memory_init
 .
 wast
 :
-478
+479
 assert_invalid
 (
 "
@@ -12728,7 +12728,7 @@ memory_init
 .
 wast
 :
-486
+487
 assert_invalid
 (
 "
@@ -12947,7 +12947,7 @@ memory_init
 .
 wast
 :
-494
+495
 assert_invalid
 (
 "
@@ -13146,7 +13146,7 @@ memory_init
 .
 wast
 :
-502
+503
 assert_invalid
 (
 "
@@ -13351,7 +13351,7 @@ memory_init
 .
 wast
 :
-510
+511
 assert_invalid
 (
 "
@@ -13550,7 +13550,7 @@ memory_init
 .
 wast
 :
-518
+519
 assert_invalid
 (
 "
@@ -13763,7 +13763,7 @@ memory_init
 .
 wast
 :
-526
+527
 assert_invalid
 (
 "
@@ -13976,7 +13976,7 @@ memory_init
 .
 wast
 :
-534
+535
 assert_invalid
 (
 "
@@ -14195,7 +14195,7 @@ memory_init
 .
 wast
 :
-542
+543
 assert_invalid
 (
 "
@@ -14408,7 +14408,7 @@ memory_init
 .
 wast
 :
-550
+551
 assert_invalid
 (
 "
@@ -14635,7 +14635,7 @@ memory_init
 .
 wast
 :
-558
+559
 assert_invalid
 (
 "
@@ -14828,7 +14828,7 @@ memory_init
 .
 wast
 :
-566
+567
 assert_invalid
 (
 "
@@ -15027,7 +15027,7 @@ memory_init
 .
 wast
 :
-574
+575
 assert_invalid
 (
 "
@@ -15220,7 +15220,7 @@ memory_init
 .
 wast
 :
-582
+583
 assert_invalid
 (
 "
@@ -15427,7 +15427,7 @@ memory_init
 .
 wast
 :
-590
+591
 assert_invalid
 (
 "
@@ -15626,7 +15626,7 @@ memory_init
 .
 wast
 :
-598
+599
 assert_invalid
 (
 "
@@ -15831,7 +15831,7 @@ memory_init
 .
 wast
 :
-606
+607
 assert_invalid
 (
 "
@@ -16030,7 +16030,7 @@ memory_init
 .
 wast
 :
-614
+615
 assert_invalid
 (
 "
@@ -16243,7 +16243,7 @@ memory_init
 .
 wast
 :
-622
+623
 assert_invalid
 (
 "
@@ -16436,7 +16436,7 @@ memory_init
 .
 wast
 :
-630
+631
 assert_invalid
 (
 "
@@ -16635,7 +16635,7 @@ memory_init
 .
 wast
 :
-638
+639
 assert_invalid
 (
 "
@@ -16828,7 +16828,7 @@ memory_init
 .
 wast
 :
-646
+647
 assert_invalid
 (
 "
@@ -17035,7 +17035,7 @@ memory_init
 .
 wast
 :
-654
+655
 assert_invalid
 (
 "
@@ -17242,7 +17242,7 @@ memory_init
 .
 wast
 :
-662
+663
 assert_invalid
 (
 "
@@ -17455,7 +17455,7 @@ memory_init
 .
 wast
 :
-670
+671
 assert_invalid
 (
 "
@@ -17662,7 +17662,7 @@ memory_init
 .
 wast
 :
-678
+679
 assert_invalid
 (
 "
@@ -17883,7 +17883,7 @@ memory_init
 .
 wast
 :
-686
+687
 assert_invalid
 (
 "
@@ -18090,7 +18090,7 @@ memory_init
 .
 wast
 :
-694
+695
 assert_invalid
 (
 "
@@ -18303,7 +18303,7 @@ memory_init
 .
 wast
 :
-702
+703
 assert_invalid
 (
 "
@@ -18510,7 +18510,7 @@ memory_init
 .
 wast
 :
-710
+711
 assert_invalid
 (
 "
@@ -18731,7 +18731,7 @@ memory_init
 .
 wast
 :
-718
+719
 assert_invalid
 (
 "
@@ -18944,7 +18944,7 @@ memory_init
 .
 wast
 :
-726
+727
 assert_invalid
 (
 "
@@ -19163,7 +19163,7 @@ memory_init
 .
 wast
 :
-734
+735
 assert_invalid
 (
 "
@@ -19376,7 +19376,7 @@ memory_init
 .
 wast
 :
-742
+743
 assert_invalid
 (
 "
@@ -19603,7 +19603,7 @@ memory_init
 .
 wast
 :
-750
+751
 assert_invalid
 (
 "
@@ -19810,7 +19810,7 @@ memory_init
 .
 wast
 :
-758
+759
 assert_invalid
 (
 "
@@ -20023,7 +20023,7 @@ memory_init
 .
 wast
 :
-766
+767
 assert_invalid
 (
 "
@@ -20230,7 +20230,7 @@ memory_init
 .
 wast
 :
-774
+775
 assert_invalid
 (
 "
@@ -20451,7 +20451,7 @@ memory_init
 .
 wast
 :
-782
+783
 assert_invalid
 (
 "
@@ -20672,7 +20672,7 @@ memory_init
 .
 wast
 :
-790
+791
 assert_invalid
 (
 "
@@ -20899,7 +20899,7 @@ memory_init
 .
 wast
 :
-798
+799
 assert_invalid
 (
 "
@@ -21120,7 +21120,7 @@ memory_init
 .
 wast
 :
-806
+807
 assert_invalid
 (
 "
@@ -21355,7 +21355,7 @@ memory_init
 .
 wast
 :
-814
+815
 let
 18
 =
@@ -21715,7 +21715,7 @@ memory_init
 .
 wast
 :
-832
+833
 assert_trap
 (
 (
@@ -21741,7 +21741,7 @@ memory_init
 .
 wast
 :
-835
+836
 assert_return
 (
 (
@@ -21770,7 +21770,7 @@ memory_init
 .
 wast
 :
-837
+838
 let
 19
 =
@@ -22130,7 +22130,7 @@ memory_init
 .
 wast
 :
-855
+856
 assert_trap
 (
 (
@@ -22156,7 +22156,7 @@ memory_init
 .
 wast
 :
-858
+859
 assert_return
 (
 (
@@ -22185,7 +22185,7 @@ memory_init
 .
 wast
 :
-860
+861
 let
 20
 =
@@ -22545,7 +22545,7 @@ memory_init
 .
 wast
 :
-878
+879
 assert_trap
 (
 (
@@ -22571,7 +22571,7 @@ memory_init
 .
 wast
 :
-881
+882
 assert_return
 (
 (
@@ -22600,7 +22600,7 @@ memory_init
 .
 wast
 :
-883
+884
 let
 21
 =
@@ -22960,7 +22960,7 @@ memory_init
 .
 wast
 :
-901
+902
 assert_trap
 (
 (
@@ -22986,7 +22986,7 @@ memory_init
 .
 wast
 :
-904
+905
 assert_return
 (
 (
@@ -23015,7 +23015,7 @@ memory_init
 .
 wast
 :
-906
+907
 let
 22
 =
@@ -23373,7 +23373,7 @@ memory_init
 .
 wast
 :
-924
+925
 assert_trap
 (
 (
@@ -23400,7 +23400,7 @@ memory_init
 .
 wast
 :
-927
+928
 assert_return
 (
 (
@@ -23429,7 +23429,7 @@ memory_init
 .
 wast
 :
-929
+930
 let
 23
 =
@@ -23787,7 +23787,7 @@ memory_init
 .
 wast
 :
-947
+948
 assert_trap
 (
 (
@@ -23814,7 +23814,7 @@ memory_init
 .
 wast
 :
-950
+951
 assert_return
 (
 (
