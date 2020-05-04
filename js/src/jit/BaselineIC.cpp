@@ -19052,7 +19052,7 @@ argc
 +
 constructing
 ;
-AutoArrayRooter
+RootedExternalValueArray
 vpRoot
 (
 cx
@@ -20054,7 +20054,7 @@ GC
 in
 here
 .
-AutoArrayRooter
+RootedExternalValueArray
 vpRoot
 (
 cx

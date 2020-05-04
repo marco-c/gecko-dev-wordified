@@ -7518,7 +7518,7 @@ length_
 ;
 /
 *
-AutoArrayRooter
+RootedExternalValueArray
 roots
 an
 external
@@ -7530,7 +7530,7 @@ Values
 /
 class
 MOZ_RAII
-AutoArrayRooter
+RootedExternalValueArray
 :
 public
 JS
@@ -7543,7 +7543,7 @@ ExternalValueArray
 {
 public
 :
-AutoArrayRooter
+RootedExternalValueArray
 (
 JSContext
 *
