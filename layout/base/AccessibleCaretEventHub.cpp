@@ -4570,7 +4570,10 @@ GetEventCoordinatesRelativeTo
 (
 aEvent
 touchIntPoint
+RelativeTo
+{
 rootFrame
+}
 )
 ;
 }
@@ -4637,7 +4640,10 @@ GetEventCoordinatesRelativeTo
 (
 aEvent
 mouseIntPoint
+RelativeTo
+{
 rootFrame
+}
 )
 ;
 }

@@ -3372,7 +3372,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 evt
+RelativeTo
+{
 frame
+}
 )
 ;
 nsRect

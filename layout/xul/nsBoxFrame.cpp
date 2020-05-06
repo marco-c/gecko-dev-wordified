@@ -7683,7 +7683,10 @@ GetEventCoordinatesRelativeTo
 (
 aEvent
 refPoint
+RelativeTo
+{
 this
+}
 )
 ;
 return

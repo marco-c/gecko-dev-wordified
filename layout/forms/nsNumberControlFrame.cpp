@@ -1558,12 +1558,15 @@ GetEventCoordinatesRelativeTo
 (
 aEvent
 absPoint
+RelativeTo
+{
 mSpinBox
 -
 >
 GetPrimaryFrame
 (
 )
+}
 )
 ;
 if

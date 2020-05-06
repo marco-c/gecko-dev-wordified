@@ -2161,8 +2161,7 @@ static
 nscoord
 AppUnitsFromMM
 (
-nsIFrame
-*
+RelativeTo
 aFrame
 uint32_t
 aMM
@@ -2173,6 +2172,8 @@ nsPresContext
 pc
 =
 aFrame
+.
+mFrame
 -
 >
 PresContext
@@ -2264,9 +2265,11 @@ static
 nsRect
 ClipToFrame
 (
+const
 nsIFrame
 *
 aRootFrame
+const
 nsIFrame
 *
 aFrame
@@ -2298,7 +2301,14 @@ GetSize
 (
 )
 )
+RelativeTo
+{
 aRootFrame
+ViewportType
+:
+:
+Visual
+}
 )
 ;
 nsRect
@@ -2319,13 +2329,13 @@ static
 nsRect
 GetTargetRect
 (
-nsIFrame
-*
+RelativeTo
 aRootFrame
 const
 nsPoint
 &
 aPointRelativeToRootFrame
+const
 nsIFrame
 *
 aRestrictToDescendants
@@ -2466,6 +2476,8 @@ r
 ClipToFrame
 (
 aRootFrame
+.
+mFrame
 aRestrictToDescendants
 r
 )
@@ -2823,6 +2835,7 @@ nsIFrame
 *
 GetClosest
 (
+const
 nsIFrame
 *
 aRoot
@@ -2838,6 +2851,7 @@ const
 EventRadiusPrefs
 *
 aPrefs
+const
 nsIFrame
 *
 aRestrictToDescendants
@@ -2937,7 +2951,14 @@ GetSize
 (
 )
 )
+RelativeTo
+{
 aRoot
+ViewportType
+:
+:
+Visual
+}
 &
 preservesAxisAlignedRectangles
 )
@@ -3366,8 +3387,7 @@ FindFrameTargetedByInputEvent
 WidgetGUIEvent
 *
 aEvent
-nsIFrame
-*
+RelativeTo
 aRootFrame
 const
 nsPoint
@@ -3417,6 +3437,8 @@ nsLayoutUtils
 GetFrameForPoint
 (
 aRootFrame
+.
+mFrame
 aPointRelativeToRootFrame
 options
 )
@@ -3481,6 +3503,8 @@ c_str
 (
 )
 aRootFrame
+.
+mFrame
 )
 ;
 const
@@ -3776,6 +3800,7 @@ be
 targeted
 instead
 .
+const
 nsIFrame
 *
 restrictToDescendants
@@ -3795,6 +3820,8 @@ GetRootFrame
 )
 :
 aRootFrame
+.
+mFrame
 ;
 nsRect
 targetRect
@@ -3854,6 +3881,8 @@ nsLayoutUtils
 GetFramesForArea
 (
 aRootFrame
+.
+mFrame
 targetRect
 candidates
 options
@@ -3878,6 +3907,8 @@ closestClickable
 GetClosest
 (
 aRootFrame
+.
+mFrame
 aPointRelativeToRootFrame
 targetRect
 prefs
@@ -3971,6 +4002,8 @@ Verbose
 )
 {
 aRootFrame
+.
+mFrame
 -
 >
 DumpFrameTree
@@ -4058,7 +4091,10 @@ nsLayoutUtils
 TransformPoint
 (
 aRootFrame
+RelativeTo
+{
 target
+}
 point
 )
 )
@@ -4094,7 +4130,10 @@ nsLayoutUtils
 :
 TransformPoint
 (
+RelativeTo
+{
 target
+}
 aRootFrame
 point
 )
@@ -4141,6 +4180,8 @@ nsView
 view
 =
 aRootFrame
+.
+mFrame
 -
 >
 GetView
@@ -4166,6 +4207,8 @@ nsLayoutUtils
 TranslateViewToWidget
 (
 aRootFrame
+.
+mFrame
 -
 >
 PresContext

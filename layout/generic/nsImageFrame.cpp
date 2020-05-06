@@ -15506,7 +15506,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
+RelativeTo
+{
 this
+}
 )
 p
 )
@@ -15670,7 +15673,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
+RelativeTo
+{
 this
+}
 )
 p
 )
