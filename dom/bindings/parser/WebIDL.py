@@ -5893,7 +5893,6 @@ parent
 members
                  
 isKnownNonPartial
-toStringTag
 )
 :
         
@@ -6149,12 +6148,6 @@ self
 hasDescendantWithCrossOriginMembers
 =
 False
-        
-self
-.
-toStringTag
-=
-toStringTag
         
 IDLInterfaceOrInterfaceMixinOrNamespace
 .
@@ -11783,10 +11776,6 @@ isKnownNonPartial
 classNameOverride
 =
 None
-                 
-toStringTag
-=
-None
 )
 :
         
@@ -11802,8 +11791,6 @@ name
 parent
 members
 isKnownNonPartial
-                                         
-toStringTag
 )
         
 self
@@ -13316,10 +13303,6 @@ name
 None
 members
 isKnownNonPartial
-                                         
-toStringTag
-=
-None
 )
     
 def
@@ -55848,7 +55831,7 @@ Iterator
 "
 )
                 
-toStringTag
+classNameOverride
 =
 iface
 .
@@ -55885,11 +55868,7 @@ True
                                          
 classNameOverride
 =
-toStringTag
-                                         
-toStringTag
-=
-toStringTag
+classNameOverride
 )
                 
 itr_iface
