@@ -505,6 +505,11 @@ StaticPresData
 .
 h
 '
+'
+ViewportUtils
+.
+h
+'
 ]
 EXPORTS
 .
@@ -696,6 +701,11 @@ cpp
 '
 '
 TouchManager
+.
+cpp
+'
+'
+ViewportUtils
 .
 cpp
 '
