@@ -407,10 +407,6 @@ FrameForPointOption
 :
 :
 IgnorePaintSuppression
-FrameForPointOption
-:
-:
-IgnoreRootScrollFrame
 }
 )
 ;
