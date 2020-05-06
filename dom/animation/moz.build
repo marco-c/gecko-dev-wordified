@@ -154,6 +154,11 @@ AnimationTimeline
 h
 '
 '
+CSSAnimation
+.
+h
+'
+'
 CSSPseudoElement
 .
 h
@@ -302,6 +307,11 @@ cpp
 '
 '
 ComputedTimingFunction
+.
+cpp
+'
+'
+CSSAnimation
 .
 cpp
 '
