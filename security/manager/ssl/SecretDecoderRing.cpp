@@ -1321,6 +1321,12 @@ BackgroundSdrEncryptStrings
 [
 promise
 plaintexts
+=
+plaintexts
+.
+Clone
+(
+)
 ]
 (
 )
@@ -1599,6 +1605,12 @@ BackgroundSdrDecryptStrings
 [
 promise
 encryptedStrings
+=
+encryptedStrings
+.
+Clone
+(
+)
 ]
 (
 )
