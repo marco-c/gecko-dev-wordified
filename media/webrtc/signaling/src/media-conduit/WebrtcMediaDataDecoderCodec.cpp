@@ -711,6 +711,10 @@ aResults
 mResults
 =
 aResults
+.
+Clone
+(
+)
 ;
 mError
 =
