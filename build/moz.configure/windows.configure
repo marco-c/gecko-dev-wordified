@@ -1009,6 +1009,10 @@ flags
 [
 '
 -
+X
+'
+'
+-
 I
 '
 um_dir
@@ -1022,6 +1026,12 @@ shared_dir
 C
 '
 check
+onerror
+=
+lambda
+:
+'
+'
 )
 if
 result

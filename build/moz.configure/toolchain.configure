@@ -2986,6 +2986,9 @@ try_preprocess
 compiler
 language
 source
+onerror
+=
+None
 )
 :
 return
@@ -3000,6 +3003,7 @@ source
 E
 '
 ]
+onerror
 )
 imports
 (
