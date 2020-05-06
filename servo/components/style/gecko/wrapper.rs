@@ -9868,7 +9868,7 @@ if
 !
 pseudo
 .
-is_before_or_after
+is_animatable
 (
 )
 {
