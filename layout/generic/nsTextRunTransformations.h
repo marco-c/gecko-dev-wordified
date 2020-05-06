@@ -1319,7 +1319,13 @@ aFactory
 )
 mStyles
 (
+std
+:
+:
+move
+(
 aStyles
+)
 )
 mString
 (

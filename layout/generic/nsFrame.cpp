@@ -87515,14 +87515,11 @@ aFrameName
 {
 mFrameTypeTable
 .
-AppendElement
-(
-DR_FrameTypeInfo
+EmplaceBack
 (
 aFrameType
 aFrameNameAbbrev
 aFrameName
-)
 )
 ;
 }

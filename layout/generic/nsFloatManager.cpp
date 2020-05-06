@@ -10274,7 +10274,13 @@ aVertices
 :
 mVertices
 (
+std
+:
+:
+move
+(
 aVertices
+)
 )
 {
 ComputeExtent
@@ -10309,7 +10315,13 @@ aMarginRect
 :
 mVertices
 (
+std
+:
+:
+move
+(
 aVertices
+)
 )
 {
 MOZ_ASSERT
