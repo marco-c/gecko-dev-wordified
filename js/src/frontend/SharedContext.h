@@ -3190,7 +3190,7 @@ function
 )
 -
 >
-initLazyScript
+initScript
 (
 script
 )

@@ -11560,7 +11560,7 @@ false
 function
 -
 >
-initLazyScript
+initScript
 (
 lazy
 )
