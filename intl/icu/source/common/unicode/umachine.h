@@ -3572,9 +3572,11 @@ UChar
 ;
 #
 elif
-defined
 (
-__cplusplus
+U_CPLUSPLUS_VERSION
+>
+=
+11
 )
 typedef
 char16_t

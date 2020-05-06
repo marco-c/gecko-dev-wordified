@@ -87,9 +87,6 @@ uobject
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -462,7 +459,7 @@ UErrorCode
 .
 *
 *
-draft
+stable
 ICU
 64
 *
@@ -505,7 +502,7 @@ string
 .
 *
 *
-draft
+stable
 ICU
 64
 *
@@ -520,7 +517,7 @@ LocaleBuilder
 *
 Destructor
 *
-draft
+stable
 ICU
 64
 *
@@ -604,7 +601,7 @@ builder
 .
 *
 *
-draft
+stable
 ICU
 64
 *
@@ -778,7 +775,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -909,7 +906,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1047,7 +1044,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1226,7 +1223,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1438,7 +1435,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1649,7 +1646,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1810,7 +1807,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1885,7 +1882,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1969,7 +1966,7 @@ This
 builder
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -2012,7 +2009,7 @@ return
 this
 builder
 *
-draft
+stable
 ICU
 64
 *
@@ -2051,7 +2048,7 @@ return
 this
 builder
 *
-draft
+stable
 ICU
 64
 *
@@ -2176,7 +2173,7 @@ a
 new
 Locale
 *
-draft
+stable
 ICU
 64
 *
@@ -2361,11 +2358,6 @@ fields
 }
 ;
 U_NAMESPACE_END
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 #
 endif
 /

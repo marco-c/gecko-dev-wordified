@@ -2984,9 +2984,6 @@ number
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3105,7 +3102,7 @@ selected
 rule
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -3126,13 +3123,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_INTERNAL_API

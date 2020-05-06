@@ -2985,8 +2985,11 @@ SPREP_DELTA_RANGE_POSITIVE_LIMIT
 trieWord
 =
 delta
+;
+trieWord
 <
 <
+=
 2
 ;
 /

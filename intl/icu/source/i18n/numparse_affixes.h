@@ -158,6 +158,7 @@ impl
 CurrencySymbols
 ;
 class
+U_I18N_API
 CodePointMatcher
 :
 public

@@ -1383,6 +1383,13 @@ len
 )
 )
 {
+cbuf
+[
+0
+]
+=
+0
+;
 name
 .
 extract

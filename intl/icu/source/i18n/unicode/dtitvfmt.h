@@ -410,9 +410,6 @@ FormattedDateIntervalData
 class
 DateIntervalFormat
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -520,7 +517,7 @@ subclassing
 .
 *
 *
-draft
+stable
 ICU
 64
 *
@@ -549,7 +546,7 @@ empty
 FormattedDateInterval
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -585,7 +582,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -610,7 +607,7 @@ of
 FormattedDateInterval
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -688,7 +685,7 @@ undefined
 state
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -850,13 +847,6 @@ DateIntervalFormat
 ;
 }
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -1359,8 +1349,11 @@ of
 -
 day
 minute
-and
 second
+*
+and
+millisecond
+.
 *
 (
 though
@@ -1377,6 +1370,8 @@ skeletons
 *
 with
 seconds
+and
+millisecond
 )
 .
 *
@@ -1407,6 +1402,8 @@ day
 minute
 >
 second
+>
+millisecond
 *
 *
 The
@@ -3879,9 +3876,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -3934,7 +3928,7 @@ format
 result
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -3952,13 +3946,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *
@@ -4176,9 +4163,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -4292,7 +4276,7 @@ format
 result
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -4312,13 +4296,6 @@ status
 )
 const
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

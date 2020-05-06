@@ -1787,6 +1787,17 @@ DateTimeMatcher
 other
 )
 ;
+DateTimeMatcher
+&
+operator
+=
+(
+const
+DateTimeMatcher
+&
+other
+)
+;
 virtual
 ~
 DateTimeMatcher

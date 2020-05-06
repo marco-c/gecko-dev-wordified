@@ -6515,7 +6515,7 @@ endif
 *
 U_CALLCONV
 is
-releated
+related
 to
 U_EXPORT2
 *

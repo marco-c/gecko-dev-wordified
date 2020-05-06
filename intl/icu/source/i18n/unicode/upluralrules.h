@@ -1140,9 +1140,6 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -1279,7 +1276,7 @@ the
 keyword
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -1308,13 +1305,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 #
 ifndef
 U_HIDE_INTERNAL_API

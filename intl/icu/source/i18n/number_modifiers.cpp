@@ -511,7 +511,7 @@ ConstantAffixModifier
 :
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -900,7 +900,7 @@ SimpleModifier
 :
 fField
 (
-UNUM_FIELD_COUNT
+kUndefinedField
 )
 fStrong
 (
@@ -1035,7 +1035,7 @@ SimpleModifier
 :
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -1657,7 +1657,7 @@ UnicodeString
 )
 0
 0
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;
@@ -1739,7 +1739,7 @@ ConstantMultiFieldModifier
 :
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -1967,7 +1967,11 @@ length
 )
 =
 =
+Field
+(
+UFIELD_CATEGORY_NUMBER
 UNUM_CURRENCY_FIELD
+)
 )
 {
 int
@@ -2076,7 +2080,11 @@ fieldAt
 )
 =
 =
+Field
+(
+UFIELD_CATEGORY_NUMBER
 UNUM_CURRENCY_FIELD
+)
 )
 {
 int
@@ -2084,7 +2092,7 @@ suffixCp
 =
 suffix
 .
-getLastCodePoint
+getFirstCodePoint
 (
 )
 ;
@@ -2247,7 +2255,7 @@ insert
 (
 leftIndex
 fAfterPrefixInsert
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;
@@ -2305,7 +2313,7 @@ rightIndex
 +
 length
 fBeforeSuffixInsert
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;
@@ -2565,7 +2573,11 @@ if
 affixField
 !
 =
+Field
+(
+UFIELD_CATEGORY_NUMBER
 UNUM_CURRENCY_FIELD
+)
 )
 {
 return
@@ -2779,7 +2791,7 @@ insert
 (
 index
 spacingString
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;

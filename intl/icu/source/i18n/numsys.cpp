@@ -841,6 +841,9 @@ buffer
 [
 ULOC_KEYWORDS_CAPACITY
 ]
+=
+"
+"
 ;
 int32_t
 count

@@ -139,7 +139,7 @@ U_OVERRIDE
 bool
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const

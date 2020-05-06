@@ -154,7 +154,7 @@ insertCodePoint
 (
 index
 paddingCp
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;

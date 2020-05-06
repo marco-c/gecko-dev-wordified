@@ -2146,13 +2146,10 @@ ICU
 kSignField
 =
 UNUM_SIGN_FIELD
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
-draft
+stable
 ICU
 64
 *
@@ -2163,7 +2160,7 @@ UNUM_MEASURE_UNIT_FIELD
 /
 *
 *
-draft
+stable
 ICU
 64
 *
@@ -2171,11 +2168,6 @@ ICU
 kCompactField
 =
 UNUM_COMPACT_FIELD
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 /
 *
 *

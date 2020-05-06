@@ -501,6 +501,11 @@ h
 >
 #
 include
+<
+cstddef
+>
+#
+include
 "
 unicode
 /
@@ -1576,6 +1581,9 @@ array
 ;
 alignas
 (
+std
+:
+:
 max_align_t
 )
 char

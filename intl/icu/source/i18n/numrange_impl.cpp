@@ -1474,7 +1474,7 @@ fApproximatelyModifier
 data
 .
 approximatelyPattern
-UNUM_FIELD_COUNT
+kUndefinedField
 false
 }
 ;
@@ -2445,7 +2445,10 @@ mm
 >
 containsField
 (
+{
+UFIELD_CATEGORY_NUMBER
 UNUM_CURRENCY_FIELD
+}
 )
 &
 &
@@ -2455,7 +2458,10 @@ mm
 >
 containsField
 (
+{
+UFIELD_CATEGORY_NUMBER
 UNUM_PERCENT_FIELD
+}
 )
 )
 {
@@ -2680,7 +2686,7 @@ string
 lengthPrefix
 &
 lengthSuffix
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;
@@ -2875,7 +2881,7 @@ u
 \
 u0020
 '
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;
@@ -2912,7 +2918,7 @@ u
 \
 u0020
 '
-UNUM_FIELD_COUNT
+kUndefinedField
 status
 )
 ;

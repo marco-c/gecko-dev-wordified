@@ -528,9 +528,6 @@ UErrorCode
 ec
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 /
 *
 *
@@ -599,7 +596,7 @@ failing
 value
 .
 *
-draft
+stable
 ICU
 64
 *
@@ -613,13 +610,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
-/
-*
-U_HIDE_DRAFT_API
-*
-/
 /
 *
 *

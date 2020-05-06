@@ -211,6 +211,8 @@ const
 Modifier
 *
 modMiddle
+=
+nullptr
 ;
 const
 Modifier

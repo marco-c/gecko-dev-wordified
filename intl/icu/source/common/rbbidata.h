@@ -1477,6 +1477,13 @@ class
 }
 ;
 U_NAMESPACE_END
+U_CFUNC
+UBool
+rbbi_cleanup
+(
+void
+)
+;
 #
 endif
 /

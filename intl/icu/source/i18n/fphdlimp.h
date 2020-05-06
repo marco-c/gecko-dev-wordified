@@ -455,7 +455,15 @@ acceptFirstOnly
 utility
 subclass
 FieldPositionIteratorHandler
+/
+/
+exported
+as
+U_I18N_API
+for
+tests
 class
+U_I18N_API
 FieldPositionIteratorHandler
 :
 public

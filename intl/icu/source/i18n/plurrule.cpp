@@ -10496,6 +10496,12 @@ PLURAL_OPERAND_V
 return
 visibleDecimalDigitCount
 ;
+case
+PLURAL_OPERAND_E
+:
+return
+0
+;
 default
 :
 UPRV_UNREACHABLE

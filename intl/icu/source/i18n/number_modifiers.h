@@ -230,7 +230,7 @@ U_OVERRIDE
 bool
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -393,7 +393,7 @@ U_OVERRIDE
 bool
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -954,7 +954,7 @@ U_OVERRIDE
 bool
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -1344,7 +1344,7 @@ fStrong
 bool
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -1725,7 +1725,7 @@ Modifier
 *
 mods
 [
-3
+4
 *
 StandardPlural
 :
@@ -1755,14 +1755,12 @@ U_ASSERT
 signum
 >
 =
--
-1
+0
 &
 &
 signum
 <
-=
-1
+SIGNUM_COUNT
 )
 ;
 U_ASSERT
@@ -1790,13 +1788,9 @@ int32_t
 plural
 )
 *
-3
+SIGNUM_COUNT
 +
-(
 signum
-+
-1
-)
 ;
 }
 }

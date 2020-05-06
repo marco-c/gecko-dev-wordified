@@ -190,8 +190,16 @@ similar
 method
 .
 *
+*
+Exported
+as
+U_I18N_API
+for
+tests
+*
 /
 class
+U_I18N_API
 UFormattedNumberData
 :
 public
@@ -205,7 +213,7 @@ UFormattedNumberData
 :
 FormattedValueStringBuilderImpl
 (
-0
+kUndefinedField
 )
 {
 }
