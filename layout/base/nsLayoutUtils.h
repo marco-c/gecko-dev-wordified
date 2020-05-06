@@ -6036,6 +6036,18 @@ the
 view
 *
 param
+aViewportType
+whether
+the
+point
+is
+in
+visual
+or
+layout
+coordinates
+*
+param
 aWidget
 the
 widget
@@ -6072,6 +6084,8 @@ nsView
 aView
 nsPoint
 aPt
+ViewportType
+aViewportType
 nsIWidget
 *
 aWidget
