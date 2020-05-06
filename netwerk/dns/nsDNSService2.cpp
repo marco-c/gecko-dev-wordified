@@ -2189,7 +2189,7 @@ nsDNSByTypeRecord
 :
 GetRecords
 (
-CopyableTArray
+nsTArray
 <
 nsCString
 >

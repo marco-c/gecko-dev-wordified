@@ -590,10 +590,6 @@ addrs
 mAddresses
 =
 addrs
-.
-Clone
-(
-)
 ;
 }
 /
@@ -954,10 +950,6 @@ aAddressArray
 aAddressArray
 =
 mAddresses
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -1377,7 +1369,7 @@ ChildDNSByTypeRecord
 :
 GetRecords
 (
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -1408,7 +1400,7 @@ mResults
 .
 as
 <
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -1460,7 +1452,7 @@ mResults
 .
 as
 <
-CopyableTArray
+nsTArray
 <
 nsCString
 >

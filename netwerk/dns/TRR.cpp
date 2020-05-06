@@ -6499,7 +6499,7 @@ mResult
 =
 AsVariant
 (
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -6897,7 +6897,7 @@ mozilla
 :
 AsVariant
 (
-CopyableTArray
+nsTArray
 <
 SVCB
 >

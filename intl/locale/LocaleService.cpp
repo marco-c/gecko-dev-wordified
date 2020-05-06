@@ -1153,10 +1153,6 @@ mode
 mAppLocales
 =
 aAppLocales
-.
-Clone
-(
-)
 ;
 nsCOMPtr
 <
@@ -1236,10 +1232,6 @@ mode
 mRequestedLocales
 =
 aRequestedLocales
-.
-Clone
-(
-)
 ;
 nsCOMPtr
 <
@@ -2743,10 +2735,6 @@ mAppLocales
 aRetVal
 =
 mAppLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -3065,10 +3053,6 @@ regionalPrefsLocales
 aRetVal
 =
 regionalPrefsLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -3154,10 +3138,6 @@ IsEmpty
 aRetVal
 =
 mWebExposedLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -3381,10 +3361,6 @@ mRequestedLocales
 aRetVal
 =
 mRequestedLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -3663,10 +3639,6 @@ mAvailableLocales
 aRetVal
 =
 mAvailableLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -3851,10 +3823,6 @@ InitPackagedLocales
 aRetVal
 =
 mPackagedLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK

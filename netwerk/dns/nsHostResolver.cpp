@@ -3712,7 +3712,7 @@ TypeHostRecord
 :
 GetRecords
 (
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -3753,7 +3753,7 @@ mResults
 .
 as
 <
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -3811,7 +3811,7 @@ mResults
 .
 as
 <
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -16231,13 +16231,7 @@ args
 >
 AppendElement
 (
-std
-:
-:
-move
-(
 info
-)
 )
 ;
 }

@@ -543,15 +543,6 @@ Runnable
 {
 public
 :
-SSLServerCertVerificationJob
-(
-const
-SSLServerCertVerificationJob
-&
-)
-=
-delete
-;
 /
 /
 Must
