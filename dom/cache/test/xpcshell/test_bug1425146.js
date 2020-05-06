@@ -284,14 +284,10 @@ missing
 .
 async
 function
-run_test
+testSteps
 (
 )
 {
-do_test_pending
-(
-)
-;
 /
 /
 The
@@ -633,8 +629,4 @@ thrown
 )
 ;
 }
-do_test_finished
-(
-)
-;
 }

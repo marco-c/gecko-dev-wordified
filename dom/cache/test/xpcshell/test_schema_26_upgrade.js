@@ -115,14 +115,10 @@ chrome
 /
 async
 function
-run_test
+testSteps
 (
 )
 {
-do_test_pending
-(
-)
-;
 create_test_profile
 (
 "
@@ -201,10 +197,6 @@ does
 be
 opaque
 "
-)
-;
-do_test_finished
-(
 )
 ;
 }

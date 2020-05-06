@@ -113,14 +113,10 @@ test
 }
 async
 function
-run_test
+testSteps
 (
 )
 {
-do_test_pending
-(
-)
-;
 create_test_profile
 (
 "
@@ -513,10 +509,6 @@ delete
 "
 test
 "
-)
-;
-do_test_finished
-(
 )
 ;
 }
