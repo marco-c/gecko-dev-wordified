@@ -4490,6 +4490,16 @@ constructor
 r
 )
 {
+this
+.
+defaultCleartext
+=
+constructor
+.
+prototype
+.
+defaultCleartext
+;
 constructor
 .
 call

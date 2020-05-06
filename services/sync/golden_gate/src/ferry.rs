@@ -69,6 +69,12 @@ storage_variant
 VariantType
 ;
 use
+sync15_traits
+:
+:
+IncomingEnvelope
+;
+use
 xpcom
 :
 :
@@ -123,7 +129,7 @@ StoreIncoming
 (
 Vec
 <
-String
+IncomingEnvelope
 >
 )
 SetUploaded

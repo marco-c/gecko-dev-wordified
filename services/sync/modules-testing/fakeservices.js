@@ -105,7 +105,7 @@ js
 ;
 const
 {
-CryptoWrapper
+RawCryptoWrapper
 }
 =
 ChromeUtils
@@ -719,7 +719,7 @@ Crypto
 =
 this
 ;
-CryptoWrapper
+RawCryptoWrapper
 .
 prototype
 .

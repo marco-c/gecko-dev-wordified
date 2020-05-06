@@ -99,6 +99,8 @@ bridged_engine
 {
 ApplyResults
 BridgedEngine
+IncomingEnvelope
+OutgoingEnvelope
 }
 ;
 pub
