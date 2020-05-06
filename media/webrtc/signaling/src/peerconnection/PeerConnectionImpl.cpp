@@ -9219,6 +9219,10 @@ const
 aStreamsOut
 =
 mReceiveStreams
+.
+Clone
+(
+)
 ;
 }
 NS_IMETHODIMP
@@ -16027,6 +16031,14 @@ NS_NewRunnableFunction
 __func__
 [
 conduits
+=
+std
+:
+:
+move
+(
+conduits
+)
 ]
 (
 )
