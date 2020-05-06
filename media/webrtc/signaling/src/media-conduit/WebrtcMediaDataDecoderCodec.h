@@ -93,6 +93,13 @@ h
 #
 include
 "
+VideoConduit
+.
+h
+"
+#
+include
+"
 WebrtcImageBuffer
 .
 h
