@@ -10899,6 +10899,14 @@ extensionId
 id
 )
 ;
+if
+(
+delegate
+!
+=
+null
+)
+{
 EventDispatcher
 .
 getInstance
@@ -10917,6 +10925,7 @@ Attached
 bundle
 )
 ;
+}
 }
 /
 *
