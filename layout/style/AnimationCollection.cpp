@@ -149,10 +149,14 @@ CSSAnimation
 #
 include
 "
-nsPresContext
+nsDOMMutationObserver
 .
 h
 "
+/
+/
+For
+nsAutoAnimationMutationBatch
 #
 include
 "
