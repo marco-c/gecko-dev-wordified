@@ -173,7 +173,13 @@ aBrowserParent
 )
 mDataTransfer
 (
+std
+:
+:
+move
+(
 aDataTransfer
+)
 )
 mRect
 (
