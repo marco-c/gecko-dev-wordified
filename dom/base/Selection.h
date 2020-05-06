@@ -5312,6 +5312,11 @@ StyledRange
 aOutput
 )
 ;
+void
+UnregisterSelection
+(
+)
+;
 /
 /
 These
