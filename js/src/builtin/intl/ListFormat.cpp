@@ -598,9 +598,6 @@ Intl_ListFormat_format
 1
 0
 )
-#
-ifndef
-U_HIDE_DRAFT_API
 JS_SELF_HOSTED_FN
 (
 "
@@ -612,8 +609,6 @@ Intl_ListFormat_formatToParts
 1
 0
 )
-#
-endif
 JS_FN
 (
 js_toSource_str
@@ -1729,9 +1724,6 @@ return
 true
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 static
 JSString
 *
@@ -2577,11 +2569,6 @@ return
 true
 ;
 }
-#
-endif
-/
-/
-U_HIDE_DRAFT_API
 bool
 js
 :
@@ -3022,9 +3009,6 @@ format
 the
 strings
 .
-#
-ifndef
-U_HIDE_DRAFT_API
 if
 (
 formatToParts
@@ -3045,16 +3029,6 @@ rval
 )
 ;
 }
-#
-else
-MOZ_ASSERT
-(
-!
-formatToParts
-)
-;
-#
-endif
 return
 FormatList
 (
