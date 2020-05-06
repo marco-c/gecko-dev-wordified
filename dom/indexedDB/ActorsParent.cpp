@@ -70136,6 +70136,10 @@ aLoggingSerialNumber
 mObjectStoreNames
 (
 aObjectStoreNames
+.
+Clone
+(
+)
 )
 mIsWriteTransaction
 (
@@ -143390,8 +143394,8 @@ mResponse
 )
 )
 >
-{
-}
+(
+)
 ;
 }
 auto

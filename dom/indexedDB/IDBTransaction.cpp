@@ -747,6 +747,10 @@ aDatabase
 mObjectStoreNames
 (
 aObjectStoreNames
+.
+Clone
+(
+)
 )
 mLoggingSerialNumber
 (
@@ -5244,6 +5248,10 @@ StringArray
 )
 =
 mObjectStoreNames
+.
+Clone
+(
+)
 ;
 return
 list
