@@ -9345,6 +9345,12 @@ verbose
         
 self
 .
+_activate_virtualenv
+(
+)
+        
+self
+.
 _dump_results
 =
 dump_results
