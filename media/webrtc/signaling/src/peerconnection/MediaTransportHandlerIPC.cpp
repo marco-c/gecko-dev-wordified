@@ -123,6 +123,13 @@ PBackgroundChild
 .
 h
 "
+#
+include
+"
+CSFLog
+.
+h
+"
 namespace
 mozilla
 {

@@ -148,6 +148,11 @@ set
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 mozilla
 /
@@ -161,7 +166,14 @@ webrtc
 struct
 RTPHeader
 ;
+struct
+RtpExtension
+;
 }
+/
+/
+namespace
+webrtc
 namespace
 mozilla
 {

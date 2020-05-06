@@ -437,6 +437,17 @@ include
 "
 mozilla
 /
+dom
+/
+Promise
+.
+h
+"
+#
+include
+"
+mozilla
+/
 NullPrincipal
 .
 h
