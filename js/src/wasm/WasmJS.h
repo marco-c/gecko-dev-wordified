@@ -1555,8 +1555,6 @@ Module
 module
 HandleObject
 proto
-=
-nullptr
 )
 ;
 const
@@ -1938,6 +1936,8 @@ HandleVal
 value
 bool
 isMutable
+HandleObject
+proto
 )
 ;
 bool
@@ -3324,6 +3324,8 @@ wasm
 :
 TableKind
 tableKind
+HandleObject
+proto
 )
 ;
 wasm
