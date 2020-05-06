@@ -2819,7 +2819,7 @@ the
 /
 range
 typedef
-nsTArray
+CopyableTArray
 <
 Tuple
 <
