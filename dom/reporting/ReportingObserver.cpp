@@ -353,6 +353,10 @@ aCallback
 mTypes
 (
 aTypes
+.
+Clone
+(
+)
 )
 mBuffered
 (

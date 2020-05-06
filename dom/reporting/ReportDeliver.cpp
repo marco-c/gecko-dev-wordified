@@ -312,6 +312,10 @@ aReportData
 mReports
 (
 aReportData
+.
+Clone
+(
+)
 )
 {
 }
