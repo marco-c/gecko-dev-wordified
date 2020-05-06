@@ -200,6 +200,7 @@ PerformanceObserverEntryList
 nsISupports
 *
 aOwner
+const
 nsTArray
 <
 RefPtr
@@ -218,6 +219,10 @@ aOwner
 mEntries
 (
 aEntries
+.
+Clone
+(
+)
 )
 {
 }

@@ -836,6 +836,10 @@ return
 aRetval
 =
 mResourceEntries
+.
+Clone
+(
+)
 ;
 aRetval
 .
@@ -925,6 +929,10 @@ resource
 aRetval
 =
 mResourceEntries
+.
+Clone
+(
+)
 ;
 return
 ;
