@@ -4682,6 +4682,11 @@ Disconnect
 struct
 StyledRanges
 {
+void
+Clear
+(
+)
+;
 StyledRange
 *
 FindRangeData
