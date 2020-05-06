@@ -2539,9 +2539,10 @@ constructing
 *
 Used
 for
-global
-and
 eval
+module
+or
+global
 frames
 .
 *
@@ -2556,9 +2557,7 @@ HandleScript
 script
 AbstractFramePtr
 prev
-const
-Value
-&
+HandleValue
 newTargetValue
 HandleObject
 envChain
@@ -5534,6 +5533,7 @@ For
 execution
 of
 eval
+module
 or
 global
 code
@@ -5547,9 +5547,7 @@ JSContext
 cx
 HandleScript
 script
-const
-Value
-&
+HandleValue
 newTargetValue
 HandleObject
 envChain
