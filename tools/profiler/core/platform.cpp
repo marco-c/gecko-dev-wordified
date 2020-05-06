@@ -7743,9 +7743,6 @@ our
 buffer
 RangeStart
 .
-#
-ifdef
-MOZ_BASE_PROFILER
 /
 /
 If
@@ -7998,8 +7995,6 @@ reset
 )
 ;
 }
-#
-endif
 sInstance
 -
 >
@@ -8028,9 +8023,6 @@ bufferRangeStart
 )
 ;
 }
-#
-ifdef
-MOZ_BASE_PROFILER
 static
 void
 AddBaseProfileThreads
@@ -8164,8 +8156,6 @@ mBaseProfileThreads
 )
 ;
 }
-#
-endif
 static
 void
 AddExitProfile
@@ -8900,9 +8890,6 @@ mWasPaused
 ;
 #
 endif
-#
-ifdef
-MOZ_BASE_PROFILER
 /
 /
 Optional
@@ -8924,8 +8911,6 @@ mBaseProfileThreads
 ProfileBufferBlockIndex
 mGeckoIndexWhenBaseProfileAdded
 ;
-#
-endif
 struct
 ExitProfile
 {
@@ -18824,9 +18809,6 @@ Unpause
 }
 #
 endif
-#
-ifdef
-MOZ_BASE_PROFILER
 UniquePtr
 <
 char
@@ -18860,8 +18842,6 @@ get
 )
 ;
 }
-#
-endif
 }
 aWriter
 .
@@ -19373,9 +19353,6 @@ message
 \
 n
 "
-#
-ifdef
-MOZ_BASE_PROFILER
 "
 Use
 MOZ_BASE_PROFILER_HELP
@@ -19386,8 +19363,6 @@ help
 \
 n
 "
-#
-endif
 "
 \
 n
@@ -30277,9 +30252,6 @@ c_str
 )
 )
 ;
-#
-ifdef
-MOZ_BASE_PROFILER
 /
 /
 Blindly
@@ -30379,8 +30351,6 @@ MOZ_BASE_PROFILER_STARTUP_FILTERS
 "
 )
 ;
-#
-endif
 }
 }
 /
@@ -31099,9 +31069,6 @@ forget
 ;
 }
 }
-#
-ifdef
-MOZ_BASE_PROFILER
 static
 bool
 HasMinimumLength
@@ -31163,11 +31130,6 @@ return
 true
 ;
 }
-#
-endif
-/
-/
-MOZ_BASE_PROFILER
 static
 void
 locked_profiler_start
@@ -31374,9 +31336,6 @@ aLock
 )
 )
 ;
-#
-ifdef
-MOZ_BASE_PROFILER
 UniquePtr
 <
 char
@@ -31655,8 +31614,6 @@ profiler_stop
 ;
 }
 #
-endif
-#
 if
 defined
 (
@@ -31821,9 +31778,6 @@ aLock
 )
 )
 ;
-#
-ifdef
-MOZ_BASE_PROFILER
 /
 /
 An
@@ -31922,8 +31876,6 @@ baseprofile
 )
 ;
 }
-#
-endif
 /
 /
 Set

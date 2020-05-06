@@ -122,7 +122,7 @@ define
 BaseProfilerCounts_h
 #
 ifndef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 define
 BASE_PROFILER_DEFINE_COUNT_TOTAL
@@ -2092,7 +2092,7 @@ endif
 /
 /
 !
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 endif
 /

@@ -426,7 +426,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 /
 /
 There
@@ -984,4 +984,4 @@ lul
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER

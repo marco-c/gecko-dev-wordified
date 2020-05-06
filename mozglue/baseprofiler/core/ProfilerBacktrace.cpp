@@ -123,7 +123,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -583,4 +583,4 @@ mozilla
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER

@@ -157,7 +157,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -189,7 +189,7 @@ builds
 and
 we
 need
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 to
 use
 profiler_current_thread_id
@@ -203,7 +203,7 @@ MOZ_BASE_PROFILER_DEBUG
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 endif
 /

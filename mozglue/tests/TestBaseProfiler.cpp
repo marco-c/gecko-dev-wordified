@@ -213,7 +213,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -232,7 +232,7 @@ h
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 if
 defined
@@ -21745,7 +21745,7 @@ TestBlocksRingBufferSerialization
 }
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 class
 BaseTestMarkerPayload
 :
@@ -24213,7 +24213,7 @@ n
 else
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 /
 /
 Testing
@@ -24231,7 +24231,7 @@ nothing
 when
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 is
 disabled
 .
@@ -24307,7 +24307,7 @@ AUTO_BASE_PROFILER_THREAD_SLEEP
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 else
 #
 if
@@ -24336,7 +24336,7 @@ XP_WIN
 {
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 printf
 (
 "
@@ -24381,7 +24381,7 @@ SleepMilli
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 /
 /
 Always
@@ -24415,7 +24415,7 @@ on
 /
 /
 whether
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 is
 #
 defined

@@ -102,7 +102,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -1258,4 +1258,4 @@ sharedLibraryInfo
 endif
 /
 /
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
