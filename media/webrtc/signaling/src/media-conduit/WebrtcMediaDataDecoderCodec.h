@@ -295,6 +295,11 @@ OnTaskQueue
 )
 const
 ;
+int32_t
+CreateDecoder
+(
+)
+;
 const
 RefPtr
 <
