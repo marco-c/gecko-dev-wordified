@@ -636,6 +636,17 @@ friend
 class
 nsWindowGfx
 ;
+void
+SendAnAPZEvent
+(
+mozilla
+:
+:
+InputData
+&
+aEvent
+)
+;
 /
 /
 nsWindowBase
