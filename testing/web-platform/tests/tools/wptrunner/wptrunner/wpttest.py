@@ -2447,14 +2447,19 @@ v
 )
 in
 script_metadata
+                   
 if
 k
-=
-=
+in
+(
 b
 "
 script
 "
+"
+script
+"
+)
 ]
         
 return

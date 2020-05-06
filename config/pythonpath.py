@@ -57,10 +57,8 @@ from
 __future__
 import
 absolute_import
-from
-__future__
-import
 print_function
+unicode_literals
 "
 "
 "
@@ -93,11 +91,7 @@ usage
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 pythonpath
 .
@@ -115,6 +109,12 @@ args
 .
 ]
 "
+file
+=
+sys
+.
+stderr
+)
         
 sys
 .
@@ -313,9 +313,23 @@ __file__
 =
 script
     
-execfile
+exec
+(
+open
 (
 script
+encoding
+=
+'
+utf
+-
+8
+'
+)
+.
+read
+(
+)
 frozenglobals
 )
 #
@@ -343,9 +357,9 @@ globals
 (
 )
 import
-sys
-import
 os
+import
+sys
 if
 __name__
 =
