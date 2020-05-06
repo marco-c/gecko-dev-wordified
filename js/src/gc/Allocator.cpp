@@ -163,7 +163,7 @@ include
 "
 gc
 /
-GCTrace
+GCProbes
 .
 h
 "
@@ -2911,9 +2911,10 @@ cx
 t
 )
 ;
-gcTracer
-.
-traceTenuredAlloc
+gcprobes
+:
+:
+TenuredAlloc
 (
 t
 kind

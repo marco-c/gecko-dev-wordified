@@ -220,11 +220,6 @@ GCParallelTask
 cpp
 '
 '
-GCTrace
-.
-cpp
-'
-'
 Marking
 .
 cpp
