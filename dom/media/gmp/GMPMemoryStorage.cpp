@@ -270,6 +270,10 @@ record
 -
 >
 mData
+.
+Clone
+(
+)
 ;
 return
 GMPNoErr
@@ -321,6 +325,10 @@ record
 mData
 =
 aBytes
+.
+Clone
+(
+)
 ;
 return
 GMPNoErr

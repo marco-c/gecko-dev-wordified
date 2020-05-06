@@ -1984,6 +1984,10 @@ return
 mCurve
 =
 aCurve
+.
+Clone
+(
+)
 ;
 SendCurveToTrack
 (
@@ -2047,6 +2051,10 @@ float
 copyCurve
 (
 mCurve
+.
+Clone
+(
+)
 )
 ;
 ns

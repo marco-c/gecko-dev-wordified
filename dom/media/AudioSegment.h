@@ -1826,7 +1826,7 @@ if
 mBuffer
 is
 null
-AutoTArray
+CopyableAutoTArray
 <
 const
 void
@@ -3158,6 +3158,10 @@ ChannelData
 <
 SrcT
 >
+(
+)
+.
+Clone
 (
 )
 ;

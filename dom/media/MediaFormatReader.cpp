@@ -12420,6 +12420,10 @@ samples
 decoder
 .
 mQueuedSamples
+.
+Clone
+(
+)
 ;
 if
 (

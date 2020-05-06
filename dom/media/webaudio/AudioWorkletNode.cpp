@@ -419,7 +419,13 @@ Track
 )
 mParamTimelines
 (
+std
+:
+:
+move
+(
 aParamTimelines
+)
 )
 {
 if

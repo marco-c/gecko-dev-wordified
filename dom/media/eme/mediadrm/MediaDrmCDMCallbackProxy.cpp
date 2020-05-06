@@ -391,6 +391,10 @@ uint8_t
 message
 (
 aMessage
+.
+Clone
+(
+)
 )
 ;
 mProxy

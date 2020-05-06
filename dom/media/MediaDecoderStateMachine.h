@@ -4951,7 +4951,7 @@ into
 .
 Mirror
 <
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -4980,7 +4980,7 @@ mOutputPrincipal
 ;
 Canonical
 <
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -5153,7 +5153,7 @@ const
 ;
 AbstractCanonical
 <
-nsTArray
+CopyableTArray
 <
 RefPtr
 <

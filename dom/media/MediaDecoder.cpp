@@ -1416,7 +1416,7 @@ Load
 "
 )
 ;
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -1482,7 +1482,7 @@ Load
 "
 )
 ;
-nsTArray
+CopyableTArray
 <
 RefPtr
 <

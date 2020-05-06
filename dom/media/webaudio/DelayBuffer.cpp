@@ -1504,6 +1504,10 @@ float
 >
 (
 )
+.
+Clone
+(
+)
 ;
 MOZ_ASSERT
 (

@@ -966,7 +966,7 @@ mIVSize
 =
 0
 ;
-nsTArray
+CopyableTArray
 <
 uint8_t
 >
@@ -982,7 +982,7 @@ mSkipByteBlock
 =
 0
 ;
-nsTArray
+CopyableTArray
 <
 uint8_t
 >

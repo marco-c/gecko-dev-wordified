@@ -676,6 +676,10 @@ mChannelData
 aChunk
 .
 mChannelData
+.
+Clone
+(
+)
 ;
 mVolume
 =

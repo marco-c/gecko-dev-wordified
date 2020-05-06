@@ -612,7 +612,7 @@ impulseResponse
 .
 mVolume
 ;
-AutoTArray
+CopyableAutoTArray
 <
 const
 float

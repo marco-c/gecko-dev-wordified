@@ -615,6 +615,10 @@ mCurrentIndex
 mOffsets
 (
 aOffsets
+.
+Clone
+(
+)
 )
 {
 mDelegate

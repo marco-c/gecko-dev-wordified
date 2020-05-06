@@ -475,10 +475,12 @@ T
 >
 >
 sorted
-;
-sorted
 =
 aIntervals
+.
+Clone
+(
+)
 ;
 sorted
 .

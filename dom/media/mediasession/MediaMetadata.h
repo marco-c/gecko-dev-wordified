@@ -252,7 +252,7 @@ mArtist
 nsString
 mAlbum
 ;
-nsTArray
+CopyableTArray
 <
 MediaImage
 >

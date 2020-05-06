@@ -2093,7 +2093,7 @@ aMessageType
 aMessageSize
 )
 ;
-nsTArray
+CopyableTArray
 <
 uint8_t
 >
@@ -2300,7 +2300,7 @@ get
 )
 )
 ;
-nsTArray
+CopyableTArray
 <
 CDMKeyInformation
 >
@@ -4994,6 +4994,10 @@ extraData
 aConfig
 .
 mExtraData
+(
+)
+.
+Clone
 (
 )
 )
