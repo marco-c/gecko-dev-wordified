@@ -1060,8 +1060,6 @@ getElementById
 pocket
 -
 button
--
-box
 "
 )
 ;
