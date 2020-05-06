@@ -634,7 +634,7 @@ custom
 opentype
 feature
 settings
-nsTArray
+CopyableTArray
 <
 gfxFontFeature
 >
@@ -718,7 +718,7 @@ featureValueLookup
 opentype
 variation
 settings
-nsTArray
+CopyableTArray
 <
 gfxFontVariation
 >

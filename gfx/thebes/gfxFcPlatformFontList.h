@@ -2013,7 +2013,7 @@ case
 nsDataHashtable
 <
 nsCStringHashKey
-nsTArray
+CopyableTArray
 <
 FamilyAndGeneric
 >

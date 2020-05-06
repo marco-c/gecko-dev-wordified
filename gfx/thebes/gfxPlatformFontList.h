@@ -1894,6 +1894,7 @@ AddOtherFamilyName
 gfxFontFamily
 *
 aFamilyEntry
+const
 nsCString
 &
 aOtherFamilyName

@@ -319,6 +319,10 @@ aName
 featureSelectors
 (
 aSelectors
+.
+Clone
+(
+)
 )
 {
 }

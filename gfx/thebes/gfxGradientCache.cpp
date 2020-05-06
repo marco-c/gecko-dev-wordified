@@ -182,7 +182,7 @@ true
 }
 ;
 const
-nsTArray
+CopyableTArray
 <
 GradientStop
 >

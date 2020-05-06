@@ -267,7 +267,7 @@ gfxFontVariationInstance
 nsCString
 mName
 ;
-nsTArray
+CopyableTArray
 <
 gfxFontVariationValue
 >
