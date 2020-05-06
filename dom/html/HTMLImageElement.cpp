@@ -2609,7 +2609,7 @@ referrerpolicy
 ReferrerPolicy
 referrerPolicy
 =
-GetImageReferrerPolicy
+GetReferrerPolicyAsEnum
 (
 )
 ;
