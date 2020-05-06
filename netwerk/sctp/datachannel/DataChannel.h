@@ -1991,6 +1991,10 @@ mMutex
 ;
 return
 mChannels
+.
+Clone
+(
+)
 ;
 }
 RefPtr
