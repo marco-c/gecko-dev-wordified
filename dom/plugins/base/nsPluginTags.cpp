@@ -3664,7 +3664,7 @@ if
 nsCocoaFeatures
 :
 :
-OSXVersionMajor
+macOSVersionMajor
 (
 )
 =
@@ -3675,7 +3675,7 @@ OSXVersionMajor
 nsCocoaFeatures
 :
 :
-OSXVersionMinor
+macOSVersionMinor
 (
 )
 <
