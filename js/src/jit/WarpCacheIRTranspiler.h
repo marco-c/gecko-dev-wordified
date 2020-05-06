@@ -132,6 +132,15 @@ Vector
 .
 h
 "
+#
+include
+"
+vm
+/
+BytecodeLocation
+.
+h
+"
 namespace
 js
 {
@@ -183,6 +192,8 @@ TranspileCacheIRToMIR
 MIRGenerator
 &
 mirGen
+BytecodeLocation
+loc
 MBasicBlock
 *
 current
