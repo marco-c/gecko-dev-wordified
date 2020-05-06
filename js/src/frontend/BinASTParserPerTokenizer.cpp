@@ -2978,10 +2978,10 @@ isBinAST
 )
 )
 ;
-funbox
+fun
 -
 >
-initLazyScript
+initScript
 (
 lazy
 )
