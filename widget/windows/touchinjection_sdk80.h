@@ -133,13 +133,6 @@ PT_MOUSE
 /
 /
 Mouse
-PT_TOUCHPAD
-=
-0x00000005
-/
-/
-Touch
-pad
 }
 ;
 typedef
