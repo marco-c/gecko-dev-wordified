@@ -3920,6 +3920,17 @@ results
 )
 ;
 }
+get
+addProfilerMarker
+(
+)
+{
+return
+ChromeUtils
+.
+addProfilerMarker
+;
+}
 getDOMWindowUtils
 (
 aWindow
