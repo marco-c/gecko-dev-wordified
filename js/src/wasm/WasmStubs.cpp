@@ -2452,7 +2452,7 @@ ifdef
 ENABLE_WASM_SIMD
 masm
 .
-loadUnalignedSimd128Float
+loadUnalignedSimd128
 (
 src
 iter
@@ -2977,7 +2977,7 @@ ifdef
 ENABLE_WASM_SIMD
 masm
 .
-storeUnalignedSimd128Float
+storeUnalignedSimd128
 (
 result
 .

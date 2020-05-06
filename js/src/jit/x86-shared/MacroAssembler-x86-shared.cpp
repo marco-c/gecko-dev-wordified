@@ -2727,7 +2727,7 @@ isSimd128
 )
 )
 {
-storeUnalignedSimd128Float
+storeUnalignedSimd128
 (
 reg
 spillAddress
@@ -3020,7 +3020,7 @@ isSimd128
 )
 )
 {
-storeUnalignedSimd128Float
+storeUnalignedSimd128
 (
 reg
 dest
@@ -3264,7 +3264,7 @@ isSimd128
 )
 )
 {
-loadUnalignedSimd128Float
+loadUnalignedSimd128
 (
 spillAddress
 reg
