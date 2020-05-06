@@ -201,12 +201,17 @@ nsWebPDecoder
 h
 "
 #
+ifdef
+MOZ_AV1
+#
 include
 "
 nsAVIFDecoder
 .
 h
 "
+#
+endif
 namespace
 mozilla
 {
@@ -552,6 +557,9 @@ WEBP
 /
 AVIF
 }
+#
+ifdef
+MOZ_AV1
 else
 if
 (
@@ -579,6 +587,8 @@ DecoderType
 AVIF
 ;
 }
+#
+endif
 return
 type
 ;
@@ -786,6 +796,9 @@ aImage
 ;
 break
 ;
+#
+ifdef
+MOZ_AV1
 case
 DecoderType
 :
@@ -802,6 +815,8 @@ aImage
 ;
 break
 ;
+#
+endif
 default
 :
 MOZ_ASSERT_UNREACHABLE
