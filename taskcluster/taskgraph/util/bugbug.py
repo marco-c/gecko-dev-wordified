@@ -104,14 +104,14 @@ com
 "
 RETRY_TIMEOUT
 =
-4
+8
 *
 60
 #
 seconds
 RETRY_INTERVAL
 =
-5
+10
 #
 seconds
 #
