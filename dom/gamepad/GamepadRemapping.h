@@ -323,6 +323,14 @@ kRazer1532Product0900
 /
 /
 Playstation
+3
+Controller
+kSonyProduct0268
+=
+0x054c0268
+/
+/
+Playstation
 Dualshock
 4
 kSonyProduct05c4
