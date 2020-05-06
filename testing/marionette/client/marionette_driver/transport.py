@@ -65,10 +65,8 @@ import
 sys
 import
 time
-from
-six
 import
-reraise
+six
 class
 SocketTimeout
 (
@@ -813,6 +811,28 @@ protocol
 3
 :
             
+if
+six
+.
+PY3
+:
+                
+typ
+=
+int
+(
+chr
+(
+packet
+[
+1
+]
+)
+)
+            
+else
+:
+                
 typ
 =
 int
@@ -929,6 +949,7 @@ time
         
 data
 =
+b
 "
 "
         
@@ -1013,6 +1034,7 @@ data
 .
 find
 (
+b
 "
 :
 "
@@ -1368,6 +1390,8 @@ socket
 }
 "
             
+six
+.
 reraise
 (
 exc_cls
@@ -1606,26 +1630,36 @@ dumps
 obj
 )
         
+data
+=
+six
+.
+ensure_binary
+(
+data
+)
+        
 payload
 =
-"
-{
-0
-}
-:
-{
-1
-}
-"
+six
 .
-format
+ensure_binary
+(
+str
 (
 len
 (
 data
 )
-data
 )
+)
++
+b
+"
+:
+"
++
+data
         
 totalsent
 =
