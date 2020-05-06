@@ -154,28 +154,23 @@ KNOWN_PERFHERDER_PROPS
 =
 set
 (
-[
     
+[
 "
 name
 "
-    
 "
 value
 "
-    
 "
 unit
 "
-    
 "
 lowerIsBetter
 "
-    
 "
 shouldAlert
 "
-    
 "
 alertThreshold
 "
@@ -185,6 +180,7 @@ KNOWN_SUITE_PROPS
 =
 set
 (
+    
 set
 (
 [

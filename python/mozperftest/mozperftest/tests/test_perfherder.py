@@ -139,8 +139,9 @@ metadata
 .
 add_result
 (
-{
         
+{
+            
 "
 results
 "
@@ -159,7 +160,7 @@ results
 "
 )
 )
-        
+            
 "
 name
 "
@@ -167,6 +168,7 @@ name
 "
 browsertime
 "
+        
 }
     
 )

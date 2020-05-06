@@ -589,6 +589,7 @@ parsing
 raise
 NotImplementedError
 (
+                    
 "
 Subtest
 -
@@ -599,6 +600,7 @@ not
 implemented
 yet
 "
+                
 )
             
 #
@@ -728,12 +730,14 @@ res
 .
 get
 (
+                    
 "
 transformer
 "
 "
 SingleJsonRetriever
 "
+                
 )
             
 elif
@@ -1110,19 +1114,16 @@ filtered_metrics
 (
         
 self
-        
 group_name
 =
 "
 firefox
 "
-        
 transformer
 =
 "
 SingleJsonRetriever
 "
-        
 metrics
 =
 None
