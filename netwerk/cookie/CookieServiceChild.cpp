@@ -906,7 +906,7 @@ GetOriginAttributes
 StoragePrincipalHelper
 :
 :
-PrepareOriginAttributes
+PrepareEffectiveStoragePrincipalOriginAttributes
 (
 aChannel
 attrs
@@ -2140,7 +2140,7 @@ GetOriginAttributes
 StoragePrincipalHelper
 :
 :
-PrepareOriginAttributes
+PrepareEffectiveStoragePrincipalOriginAttributes
 (
 aChannel
 attrs
