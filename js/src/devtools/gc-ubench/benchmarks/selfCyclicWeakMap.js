@@ -56,8 +56,6 @@ MPL
 .
 *
 /
-window
-.
 tests
 .
 set
