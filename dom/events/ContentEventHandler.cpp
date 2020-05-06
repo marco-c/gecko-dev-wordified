@@ -19761,6 +19761,15 @@ GetFrameForPoint
 (
 rootFrame
 ptInRoot
+{
+nsLayoutUtils
+:
+:
+FrameForPointOption
+:
+:
+IsRelativeToLayoutViewport
+}
 )
 ;
 if
