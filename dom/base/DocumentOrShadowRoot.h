@@ -794,6 +794,8 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
+bool
+aIsRelativeToLayoutViewport
 )
 ;
 void
