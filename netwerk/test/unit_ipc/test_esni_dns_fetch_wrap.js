@@ -735,7 +735,9 @@ h2Port
 +
 "
 /
-doh
+esni
+-
+dns
 "
 )
 ;

@@ -126,7 +126,6 @@ NS_DECL_NSINETADDR
 explicit
 nsNetAddr
 (
-const
 mozilla
 :
 :
@@ -137,14 +136,7 @@ NetAddr
 *
 addr
 )
-:
-mAddr
-(
-*
-addr
-)
-{
-}
+;
 private
 :
 mozilla

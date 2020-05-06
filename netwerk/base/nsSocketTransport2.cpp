@@ -19249,7 +19249,7 @@ status
 {
 nsCOMPtr
 <
-nsIDNSTXTRecord
+nsIDNSByTypeRecord
 >
 txtResponse
 =
