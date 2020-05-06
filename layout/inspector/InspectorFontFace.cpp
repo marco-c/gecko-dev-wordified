@@ -1810,7 +1810,9 @@ return
 }
 for
 (
+const
 auto
+&
 i
 :
 instances
@@ -1939,7 +1941,9 @@ return
 }
 for
 (
+const
 auto
+&
 v
 :
 i
@@ -2144,6 +2148,10 @@ aResult
 aResult
 =
 mRanges
+.
+Clone
+(
+)
 ;
 }
 void
