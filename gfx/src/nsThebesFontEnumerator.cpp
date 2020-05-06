@@ -515,7 +515,13 @@ aEnumerateFontsPromise
 )
 mFontList
 (
+std
+:
+:
+move
+(
 aFontList
+)
 )
 mWorkerThread
 (

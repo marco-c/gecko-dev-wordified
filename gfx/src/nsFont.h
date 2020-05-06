@@ -307,7 +307,7 @@ font
 feature
 -
 settings
-nsTArray
+CopyableTArray
 <
 gfxFontFeature
 >
@@ -324,7 +324,7 @@ font
 variation
 -
 settings
-nsTArray
+CopyableTArray
 <
 gfxFontVariation
 >
