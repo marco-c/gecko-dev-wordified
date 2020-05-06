@@ -547,11 +547,11 @@ uint32_t
 >
 &
 pattern
-const
 hal
 :
 :
 WindowIdentifier
+&
 &
 id
 )
@@ -654,11 +654,11 @@ aWindow
 void
 CancelVibrate
 (
-const
 hal
 :
 :
 WindowIdentifier
+&
 &
 id
 )

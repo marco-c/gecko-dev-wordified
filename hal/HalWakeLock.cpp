@@ -219,7 +219,7 @@ numLocks
 uint32_t
 numHidden
 ;
-nsTArray
+CopyableTArray
 <
 uint64_t
 >
