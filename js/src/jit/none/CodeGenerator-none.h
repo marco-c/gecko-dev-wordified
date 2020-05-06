@@ -206,7 +206,9 @@ MOZ_CRASH
 template
 <
 typename
-T
+T1
+typename
+T2
 >
 void
 bailoutTest32
@@ -215,8 +217,8 @@ Assembler
 :
 :
 Condition
-Register
-T
+T1
+T2
 LSnapshot
 *
 )
