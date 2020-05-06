@@ -14527,6 +14527,7 @@ Get
 the
 first
 range
+const
 nsRange
 *
 firstRange
@@ -14707,6 +14708,7 @@ Get
 the
 last
 range
+const
 nsRange
 *
 lastRange
