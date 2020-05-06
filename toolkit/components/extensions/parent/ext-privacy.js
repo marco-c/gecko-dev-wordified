@@ -247,6 +247,14 @@ cookieSvc
 .
 BEHAVIOR_REJECT_TRACKER
 ]
+[
+"
+reject_trackers_and_partition_foreign
+"
+cookieSvc
+.
+BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
+]
 ]
 )
 ;
