@@ -9669,6 +9669,12 @@ case
 SymbolicAddress
 :
 :
+CallImport_V128
+:
+case
+SymbolicAddress
+:
+:
 CallImport_F64
 :
 case
@@ -10600,7 +10606,7 @@ case
 SymbolicAddress
 :
 :
-ReportInt64JSCall
+ReportInt64OrV128JSCall
 :
 return
 "
@@ -10608,6 +10614,8 @@ jit
 call
 to
 int64
+or
+v128
 wasm
 function
 "

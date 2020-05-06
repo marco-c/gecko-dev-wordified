@@ -2660,6 +2660,12 @@ case
 Scalar
 :
 :
+V128
+:
+case
+Scalar
+:
+:
 MaxTypedArrayViewType
 :
 MOZ_CRASH
@@ -3009,6 +3015,12 @@ Scalar
 :
 :
 BigUint64
+:
+case
+Scalar
+:
+:
+V128
 :
 case
 Scalar

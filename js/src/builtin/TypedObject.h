@@ -3102,6 +3102,10 @@ alignAsInt64
 (
 0
 )
+alignAsV128
+(
+0
+)
 {
 }
 uint32_t
@@ -3111,6 +3115,11 @@ isMutable
 ;
 uint32_t
 alignAsInt64
+:
+1
+;
+uint32_t
+alignAsV128
 :
 1
 ;

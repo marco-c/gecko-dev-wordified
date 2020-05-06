@@ -246,6 +246,8 @@ TypeError
 cannot
 pass
 i64
+or
+v128
 to
 or
 from
@@ -508,6 +510,8 @@ message
 cannot
 pass
 i64
+or
+v128
 to
 or
 from

@@ -369,6 +369,9 @@ bigIntEnabled
 bool
 multiValuesEnabled
 ;
+bool
+v128Enabled
+;
 /
 /
 CompileArgs
@@ -523,6 +526,10 @@ bigIntEnabled
 false
 )
 multiValuesEnabled
+(
+false
+)
+v128Enabled
 (
 false
 )

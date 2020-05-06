@@ -389,6 +389,16 @@ SLEB128
 -
 0x04
 )
+V128
+=
+0x7b
+/
+/
+SLEB128
+(
+-
+0x05
+)
 /
 /
 A
@@ -563,7 +573,7 @@ LowestPrimitiveTypeCode
 TypeCode
 :
 :
-F64
+V128
 ;
 enum
 class
