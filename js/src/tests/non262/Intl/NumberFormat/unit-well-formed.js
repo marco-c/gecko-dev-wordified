@@ -16,9 +16,6 @@ hasOwnProperty
 Intl
 "
 )
-|
-|
-release_or_beta
 )
 const
 sanctionedSimpleUnitIdentifiers
