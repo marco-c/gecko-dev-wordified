@@ -147,7 +147,7 @@ InputAPZContext
 :
 sApzResponse
 =
-nsEventStatus_eIgnore
+nsEventStatus_eSentinel
 ;
 bool
 InputAPZContext
