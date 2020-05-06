@@ -3416,7 +3416,7 @@ Count
 12
 )
 ;
-AutoTArray
+CopyableAutoTArray
 <
 Moveable
 8
