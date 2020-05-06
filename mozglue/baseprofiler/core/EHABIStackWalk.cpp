@@ -296,9 +296,6 @@ BaseProfiler
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 EHABIStackWalk
@@ -4717,8 +4714,3 @@ baseprofiler
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER

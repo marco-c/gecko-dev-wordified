@@ -117,16 +117,6 @@ MPL
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
-"
 LulMain
 .
 h
@@ -258,6 +248,13 @@ include
 mozilla
 /
 Unused
+.
+h
+"
+#
+include
+"
+BaseProfiler
 .
 h
 "
@@ -15054,7 +15051,6 @@ write
 (
 1
 space
-\
 0
 )
 ;
@@ -16248,8 +16244,3 @@ n
 /
 namespace
 lul
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER

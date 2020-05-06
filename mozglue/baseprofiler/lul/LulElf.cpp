@@ -501,16 +501,6 @@ file_id
 cc
 #
 include
-"
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
 <
 errno
 .
@@ -6035,8 +6025,3 @@ buffer_idx
 /
 namespace
 lul
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER

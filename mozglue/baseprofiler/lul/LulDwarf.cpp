@@ -478,16 +478,6 @@ dwarf_cfi_to_module
 cc
 #
 include
-"
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
 <
 stdint
 .
@@ -17363,8 +17353,3 @@ buf
 /
 namespace
 lul
-#
-endif
-/
-/
-MOZ_GECKO_PROFILER
