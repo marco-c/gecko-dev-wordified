@@ -5279,7 +5279,7 @@ bool
 Selection
 :
 :
-AreUserSelectedRangesNonEmpty
+IsUserSelectionNotCollapsed
 (
 const
 nsRange
@@ -5325,7 +5325,7 @@ aTempRangesToAdd
 ;
 const
 bool
-newRangesNonEmpty
+userSelectionNotCollapsed
 =
 aTempRangesToAdd
 .
@@ -5366,7 +5366,7 @@ ClearAndRetainStorage
 )
 ;
 return
-newRangesNonEmpty
+userSelectionNotCollapsed
 ;
 }
 nsresult
@@ -5606,9 +5606,9 @@ re
 generated
 const
 bool
-newRangesNonEmpty
+userSelectionNotCollapsed
 =
-AreUserSelectedRangesNonEmpty
+IsUserSelectionNotCollapsed
 (
 *
 aRange
@@ -5618,7 +5618,7 @@ rangesToAdd
 MOZ_ASSERT
 (
 !
-newRangesNonEmpty
+userSelectionNotCollapsed
 |
 |
 nsContentUtils
@@ -5631,7 +5631,7 @@ IsSafeToRunScript
 ;
 if
 (
-newRangesNonEmpty
+userSelectionNotCollapsed
 &
 &
 nsContentUtils

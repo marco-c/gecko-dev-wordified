@@ -961,7 +961,7 @@ private
 :
 static
 bool
-AreUserSelectedRangesNonEmpty
+IsUserSelectionNotCollapsed
 (
 const
 nsRange
