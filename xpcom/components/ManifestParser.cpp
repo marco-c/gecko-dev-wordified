@@ -2745,7 +2745,7 @@ majorVersion
 nsCocoaFeatures
 :
 :
-OSXVersionMajor
+macOSVersionMajor
 (
 )
 ;
@@ -2755,7 +2755,7 @@ minorVersion
 nsCocoaFeatures
 :
 :
-OSXVersionMinor
+macOSVersionMinor
 (
 )
 ;
