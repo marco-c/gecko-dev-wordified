@@ -21329,12 +21329,12 @@ release
 (
 )
 ;
-copyPODTransitiveOptions
+copyPODNonTransitiveOptions
 (
 rhs
 )
 ;
-copyPODNonTransitiveOptions
+copyPODTransitiveOptions
 (
 rhs
 )
