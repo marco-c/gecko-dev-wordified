@@ -21,8 +21,6 @@ META
 :
 global
 =
-!
-default
 serviceworker
 '
 use

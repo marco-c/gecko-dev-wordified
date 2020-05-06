@@ -22,10 +22,8 @@ META
 :
 global
 =
-!
-default
-serviceworker
 window
+serviceworker
 '
 use
 strict

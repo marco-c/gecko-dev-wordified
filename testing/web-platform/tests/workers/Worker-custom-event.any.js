@@ -4,8 +4,6 @@ META
 :
 global
 =
-!
-default
 worker
 async_test
 (

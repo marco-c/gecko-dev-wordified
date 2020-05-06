@@ -15,8 +15,6 @@ META
 :
 global
 =
-!
-default
 serviceworker
 test
 (

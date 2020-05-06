@@ -7645,7 +7645,13 @@ b
 "
 default
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (
@@ -7654,7 +7660,13 @@ b
 !
 default
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (
@@ -7671,7 +7683,13 @@ b
 !
 window
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (
@@ -7680,7 +7698,13 @@ b
 !
 dedicatedworker
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (
@@ -7691,7 +7715,7 @@ window
 window
 "
 "
-BROKEN
+UNKNOWN
 -
 GLOBAL
 -
@@ -7706,7 +7730,7 @@ b
 serviceworker
 "
 "
-BROKEN
+UNKNOWN
 -
 GLOBAL
 -
@@ -7722,7 +7746,7 @@ serviceworker
 serviceworker
 "
 "
-BROKEN
+UNKNOWN
 -
 GLOBAL
 -
@@ -7737,7 +7761,13 @@ worker
 !
 dedicatedworker
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (
@@ -7747,7 +7777,13 @@ worker
 !
 serviceworker
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (
@@ -7756,7 +7792,13 @@ b
 !
 worker
 "
-None
+"
+UNKNOWN
+-
+GLOBAL
+-
+METADATA
+"
 )
     
 (

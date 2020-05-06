@@ -19,10 +19,8 @@ META
 :
 global
 =
-!
-default
-serviceworker
 window
+serviceworker
 /
 /
 META

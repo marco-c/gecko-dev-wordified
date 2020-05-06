@@ -4,8 +4,6 @@ META
 :
 global
 =
-!
-default
 window
 serviceworker
 test

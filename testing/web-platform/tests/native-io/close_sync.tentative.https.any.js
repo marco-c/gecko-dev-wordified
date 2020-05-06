@@ -18,8 +18,6 @@ META
 :
 global
 =
-!
-default
 dedicatedworker
 '
 use
