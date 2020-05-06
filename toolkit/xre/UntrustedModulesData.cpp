@@ -1208,6 +1208,10 @@ mBaseAddress
 (
 0U
 )
+mIsDependent
+(
+false
+)
 {
 }
 ProcessedModuleLoadEvent
@@ -1229,6 +1233,8 @@ ModuleRecord
 &
 &
 aModuleRecord
+bool
+aIsDependent
 )
 :
 mProcessUptimeMS
@@ -1294,6 +1300,10 @@ move
 (
 aModuleRecord
 )
+)
+mIsDependent
+(
+aIsDependent
 )
 {
 if
