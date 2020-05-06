@@ -580,6 +580,15 @@ LOGTAG
 WebExtension
 "
 ;
+/
+/
+Keep
+in
+sync
+with
+GeckoViewWebExtension
+.
+jsm
 public
 static
 class
