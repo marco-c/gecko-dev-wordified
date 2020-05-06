@@ -2657,7 +2657,8 @@ installed
 The
 "
 -
-q
+-
+quiet
 "
 tells
 "
@@ -2698,7 +2699,8 @@ outdated
 '
 '
 -
-q
+-
+quiet
 '
 ]
                                          
