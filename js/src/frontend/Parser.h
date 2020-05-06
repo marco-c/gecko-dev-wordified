@@ -11294,6 +11294,8 @@ AllocNewFunction
 JSContext
 *
 cx
+uint16_t
+nargs
 Handle
 <
 FunctionCreationData
