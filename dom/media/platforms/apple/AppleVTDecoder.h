@@ -464,6 +464,13 @@ AppleFrameRef
 aFrameRef
 )
 ;
+void
+OnDecodeError
+(
+OSStatus
+aError
+)
+;
 private
 :
 virtual
