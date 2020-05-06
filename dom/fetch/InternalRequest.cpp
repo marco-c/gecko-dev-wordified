@@ -841,6 +841,10 @@ mURLList
 aOther
 .
 mURLList
+.
+Clone
+(
+)
 )
 mHeaders
 (
@@ -1008,6 +1012,10 @@ mURLList
 aIPCRequest
 .
 urlList
+(
+)
+.
+Clone
 (
 )
 )
