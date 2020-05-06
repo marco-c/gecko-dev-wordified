@@ -10084,6 +10084,7 @@ ReferrerPolicy
 GetReferrerPolicyAsEnum
 (
 )
+const
 ;
 ReferrerPolicy
 ReferrerPolicyFromAttr
@@ -10093,6 +10094,7 @@ nsAttrValue
 *
 aValue
 )
+const
 ;
 /
 *

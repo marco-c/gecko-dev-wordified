@@ -24178,6 +24178,7 @@ Element
 GetReferrerPolicyAsEnum
 (
 )
+const
 {
 if
 (
@@ -24186,11 +24187,9 @@ IsHTMLElement
 )
 )
 {
-const
-nsAttrValue
-*
-referrerValue
-=
+return
+ReferrerPolicyFromAttr
+(
 GetParsedAttr
 (
 nsGkAtoms
@@ -24198,11 +24197,6 @@ nsGkAtoms
 :
 referrerpolicy
 )
-;
-return
-ReferrerPolicyFromAttr
-(
-referrerValue
 )
 ;
 }
@@ -24224,6 +24218,7 @@ nsAttrValue
 *
 aValue
 )
+const
 {
 if
 (
