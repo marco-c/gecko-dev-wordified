@@ -1333,7 +1333,7 @@ private
 nsRect
 mClipRect
 ;
-nsTArray
+CopyableTArray
 <
 RoundedRect
 >

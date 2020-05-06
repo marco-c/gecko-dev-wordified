@@ -32065,6 +32065,10 @@ mMergedFrames
 aOther
 .
 mMergedFrames
+.
+Clone
+(
+)
 )
 mBounds
 (
@@ -33302,6 +33306,10 @@ aOther
 -
 >
 mMergedFrames
+.
+Clone
+(
+)
 )
 ;
 }
@@ -38599,6 +38607,10 @@ mDestRects
 aOther
 .
 mDestRects
+.
+Clone
+(
+)
 )
 {
 MOZ_COUNT_CTOR

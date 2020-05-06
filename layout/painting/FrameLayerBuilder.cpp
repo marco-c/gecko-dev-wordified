@@ -2098,7 +2098,7 @@ modify
 userdata
 each
 time
-AutoTArray
+CopyableAutoTArray
 <
 nsIFrame
 *
@@ -37946,6 +37946,10 @@ mLayer
 -
 >
 GetAllAncestorMaskLayers
+(
+)
+.
+Clone
 (
 )
 )
