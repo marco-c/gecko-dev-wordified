@@ -811,6 +811,10 @@ aStapledOCSPResponse
 data
 (
 )
+.
+Clone
+(
+)
 )
 ;
 }
@@ -836,6 +840,10 @@ aSctsFromTLSExtension
 -
 >
 data
+(
+)
+.
+Clone
 (
 )
 )
