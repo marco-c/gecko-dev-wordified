@@ -2841,7 +2841,13 @@ aErrors
 .
 SetValue
 (
+std
+:
+:
+move
+(
 errors
+)
 )
 ;
 }
