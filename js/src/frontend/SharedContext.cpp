@@ -1386,10 +1386,6 @@ emitBytecode
 (
 false
 )
-usesArguments
-(
-false
-)
 usesApply
 (
 false
