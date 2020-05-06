@@ -62,9 +62,9 @@ tests
 .
 set
 (
-'
+"
 bigTextNodes
-'
+"
 (
 function
 (
@@ -99,9 +99,7 @@ textNode
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -143,9 +141,7 @@ defaultGarbageTotal
 "
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -177,12 +173,14 @@ i
 +
 +
 )
+{
 s
 =
 s
 +
 s
 ;
+}
 for
 (
 var
@@ -198,6 +196,7 @@ i
 +
 +
 )
+{
 a
 .
 push
@@ -210,6 +209,7 @@ s
 )
 )
 ;
+}
 garbage
 [
 garbageIndex
@@ -228,10 +228,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

@@ -62,9 +62,9 @@ tests
 .
 set
 (
-'
+"
 events
-'
+"
 (
 function
 (
@@ -99,9 +99,7 @@ textNode
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -143,9 +141,7 @@ defaultGarbageTotal
 "
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -220,10 +216,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

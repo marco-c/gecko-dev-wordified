@@ -62,9 +62,9 @@ tests
 .
 set
 (
-'
+"
 largeArrayPropertyAndElements
-'
+"
 (
 function
 (
@@ -204,8 +204,8 @@ obj
 }
 ;
 }
-(
 )
+(
 )
 )
 ;

@@ -62,9 +62,9 @@ tests
 .
 set
 (
-'
+"
 propertyTreeSplitting
-'
+"
 (
 function
 (
@@ -95,9 +95,7 @@ garbage
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -129,9 +127,7 @@ garbageIndex
 }
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -202,10 +198,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 }
