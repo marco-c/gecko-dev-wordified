@@ -5949,13 +5949,13 @@ OBJDIR
 _virtualenvs
 "
 "
-init
+init_py3
 "
 "
 bin
 "
 "
-python
+python3
 "
 )
     
