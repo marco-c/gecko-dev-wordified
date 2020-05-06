@@ -150,6 +150,10 @@ Update
 (
 )
 {
+mParent
+=
+nullptr
+;
 Accessible
 *
 parent
