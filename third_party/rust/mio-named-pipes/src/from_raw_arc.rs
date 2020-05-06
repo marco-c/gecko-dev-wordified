@@ -858,10 +858,13 @@ a
 )
 )
 ;
+drop
+(
 a
 .
 clone
 (
+)
 )
 ;
 assert
