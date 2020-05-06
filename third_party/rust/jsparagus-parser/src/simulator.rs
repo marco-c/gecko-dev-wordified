@@ -1400,6 +1400,10 @@ parse_error
 (
 token
 )
+.
+into
+(
+)
 )
 ;
 }
@@ -1521,6 +1525,10 @@ parse_error
 (
 token
 )
+.
+into
+(
+)
 )
 ;
 }
@@ -1542,6 +1550,10 @@ ParseError
 :
 :
 ParserCannotUnpackToken
+.
+into
+(
+)
 )
 }
 }

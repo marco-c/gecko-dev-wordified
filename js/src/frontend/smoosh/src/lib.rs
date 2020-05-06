@@ -2418,6 +2418,7 @@ err
 =
 >
 match
+*
 err
 {
 ParseError
@@ -3470,6 +3471,7 @@ err
 =
 >
 match
+*
 err
 {
 ParseError
