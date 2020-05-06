@@ -7522,7 +7522,7 @@ config
 substs
 [
 '
-PYTHON
+PYTHON3
 '
 ]
                         
