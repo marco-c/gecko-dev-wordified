@@ -412,6 +412,10 @@ aType
 mNames
 =
 aNames
+.
+Clone
+(
+)
 ;
 mStart
 =
@@ -455,6 +459,10 @@ aNames
 mNames
 =
 aNames
+.
+Clone
+(
+)
 ;
 }
 }

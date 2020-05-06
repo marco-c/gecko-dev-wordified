@@ -1966,6 +1966,10 @@ areaStartLine
 Names
 (
 )
+.
+Clone
+(
+)
 )
 ;
 RefPtr
@@ -1999,6 +2003,10 @@ areaEndLine
 -
 >
 Names
+(
+)
+.
+Clone
 (
 )
 )
@@ -2595,6 +2603,10 @@ aLineInfo
 -
 >
 mNamesAfter
+.
+Clone
+(
+)
 ;
 aRepeatIndex
 +
