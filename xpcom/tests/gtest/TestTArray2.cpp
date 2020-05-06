@@ -291,7 +291,7 @@ ElementType
 extra
 )
 {
-nsTArray
+CopyableTArray
 <
 ElementType
 >
@@ -1341,6 +1341,10 @@ ElementType
 copy
 (
 ary
+.
+Clone
+(
+)
 )
 ;
 if
@@ -2814,6 +2818,10 @@ Countable
 copyCountableArray
 (
 constRefCountableArray
+.
+Clone
+(
+)
 )
 ;
 ASSERT_EQ
@@ -3117,6 +3125,10 @@ Moveable
 copyMoveableArray
 (
 constRefMoveableArray
+.
+Clone
+(
+)
 )
 ;
 ASSERT_EQ

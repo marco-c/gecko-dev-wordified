@@ -6508,8 +6508,11 @@ nsPipeInputStream
 *
 >
 list
-(
+=
 mInputList
+.
+Clone
+(
 )
 ;
 for
