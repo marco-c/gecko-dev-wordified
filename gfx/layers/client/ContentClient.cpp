@@ -3759,8 +3759,12 @@ aBufferRotation
 :
 mReadbackUpdates
 (
-*
 aReadbackUpdates
+-
+>
+Clone
+(
+)
 )
 mBufferRect
 (

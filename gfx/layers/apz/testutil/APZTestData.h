@@ -889,7 +889,7 @@ mPaints
 DataStore
 mRepaintRequests
 ;
-nsTArray
+CopyableTArray
 <
 HitResult
 >

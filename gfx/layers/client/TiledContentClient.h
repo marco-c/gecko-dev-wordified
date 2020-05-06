@@ -585,7 +585,13 @@ aUpdatedRect
 )
 mTextureClients
 (
+std
+:
+:
+move
+(
 aTextureClients
+)
 )
 {
 }

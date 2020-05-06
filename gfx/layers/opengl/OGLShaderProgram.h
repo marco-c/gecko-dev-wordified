@@ -333,7 +333,7 @@ mFragmentShaderString
 the
 vertex
 attributes
-nsTArray
+CopyableTArray
 <
 std
 :
@@ -355,7 +355,7 @@ KnownUniform
 KnownUniformCount
 ]
 ;
-nsTArray
+CopyableTArray
 <
 const
 char

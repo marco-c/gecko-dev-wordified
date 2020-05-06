@@ -348,7 +348,13 @@ aUseCompositorWnd
 :
 mApis
 (
+std
+:
+:
+move
+(
 aApis
+)
 )
 mUseCompositorWnd
 (
@@ -1298,6 +1304,10 @@ aPipeline
 -
 >
 mKeys
+.
+Clone
+(
+)
 ;
 return
 Nothing
@@ -1355,6 +1365,10 @@ aPipeline
 -
 >
 mKeys
+.
+Clone
+(
+)
 ;
 return
 Nothing
@@ -1654,6 +1668,10 @@ aPipeline
 -
 >
 mKeys
+.
+Clone
+(
+)
 ;
 auto
 op
