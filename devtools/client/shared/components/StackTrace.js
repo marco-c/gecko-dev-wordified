@@ -315,6 +315,12 @@ if
 (
 !
 stacktrace
+|
+|
+!
+stacktrace
+.
+length
 )
 {
 return

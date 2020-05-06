@@ -403,9 +403,6 @@ props
 const
 {
 stacktrace
-=
-[
-]
 }
 =
 request
@@ -426,6 +423,12 @@ StackTrace
 (
 {
 stacktrace
+:
+stacktrace
+|
+|
+[
+]
 onViewSourceInDebugger
 :
 (
