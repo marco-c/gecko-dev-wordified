@@ -317,7 +317,7 @@ namespace
 mozilla
 {
 typedef
-AutoTArray
+CopyableAutoTArray
 <
 RefPtr
 <
@@ -417,7 +417,13 @@ aPropID
 )
 mServoValues
 {
+std
+:
+:
+move
+(
 aValues
+)
 }
 {
 }
