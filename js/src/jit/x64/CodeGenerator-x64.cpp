@@ -3542,9 +3542,14 @@ LWasmStoreI64
 ins
 )
 {
-emitWasmStore
+MOZ_CRASH
 (
-ins
+"
+Unused
+on
+this
+platform
+"
 )
 ;
 }
