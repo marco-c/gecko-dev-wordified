@@ -311,8 +311,6 @@ Kind
 FunctionBox
 )
 {
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -344,8 +342,6 @@ options
 nonSyntacticScope
 )
 ;
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -367,8 +363,6 @@ Kind
 Eval
 )
 {
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -454,8 +448,6 @@ source
 text
 alone
 .
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -467,8 +459,6 @@ options
 selfHostingMode
 )
 ;
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -482,8 +472,6 @@ forceStrictMode
 )
 )
 ;
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -521,8 +509,6 @@ isTopLevelContext
 )
 )
 {
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -534,8 +520,6 @@ options
 isRunOnce
 )
 ;
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -572,8 +556,6 @@ directives
 in
 the
 body
-.
-immutableFlags_
 .
 setFlag
 (
@@ -1419,8 +1401,6 @@ flags_
 flags
 )
 {
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -1436,8 +1416,6 @@ GeneratorKind
 Generator
 )
 ;
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags
@@ -2495,8 +2473,6 @@ ThisBinding
 :
 Module
 ;
-immutableFlags_
-.
 setFlag
 (
 ImmutableFlags

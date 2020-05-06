@@ -7536,7 +7536,7 @@ functionBox
 )
 -
 >
-setHasExtensibleScope
+setFunHasExtensibleScope
 (
 )
 ;
@@ -8076,7 +8076,7 @@ functionBox
 )
 -
 >
-setHasExtensibleScope
+setFunHasExtensibleScope
 (
 )
 ;
@@ -8735,7 +8735,7 @@ functionBox
 )
 -
 >
-setHasExtensibleScope
+setFunHasExtensibleScope
 (
 )
 ;
@@ -9372,7 +9372,7 @@ functionBox
 )
 -
 >
-setHasExtensibleScope
+setFunHasExtensibleScope
 (
 )
 ;
@@ -9666,7 +9666,7 @@ functionBox
 )
 -
 >
-setHasExtensibleScope
+setFunHasExtensibleScope
 (
 )
 ;

@@ -3453,7 +3453,7 @@ declareThis
 funbox
 -
 >
-hasThisBinding
+functionHasThisBinding
 (
 )
 ;
@@ -3537,7 +3537,7 @@ false
 funbox
 -
 >
-setHasThisBinding
+setFunctionHasThisBinding
 (
 )
 ;
@@ -3648,7 +3648,7 @@ tryDeclareArguments
 funbox
 -
 >
-declaredArguments
+shouldDeclareArguments
 (
 )
 ;
@@ -3878,7 +3878,7 @@ false
 funbox
 -
 >
-setDeclaredArguments
+setShouldDeclareArguments
 (
 )
 ;

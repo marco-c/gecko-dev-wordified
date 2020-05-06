@@ -4279,7 +4279,7 @@ if
 funbox
 -
 >
-hasExtensibleScope
+funHasExtensibleScope
 (
 )
 )
@@ -4797,7 +4797,7 @@ if
 funbox
 -
 >
-hasExtensibleScope
+funHasExtensibleScope
 (
 )
 )
