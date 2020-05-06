@@ -8203,6 +8203,10 @@ stream_get_latency
 =
 alsa_stream_get_latency
 .
+stream_get_input_latency
+=
+NULL
+.
 stream_set_volume
 =
 alsa_stream_set_volume
