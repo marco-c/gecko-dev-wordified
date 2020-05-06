@@ -1341,9 +1341,6 @@ telemetry
 urlbar
 "
 "
-nativeMessagingFromContent
-"
-"
 normandyAddonStudy
 "
 "
