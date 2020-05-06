@@ -9150,9 +9150,16 @@ NS_ERROR_SAVE_LINK_AS_TIMEOUT
 ;
 }
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_NO_INTERFACE
+)
 ;
 }
 }

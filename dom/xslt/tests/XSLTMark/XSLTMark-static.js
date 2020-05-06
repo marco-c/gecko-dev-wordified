@@ -231,9 +231,16 @@ serv
 )
 {
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 ERR_FAILURE
+)
 ;
 }
 var

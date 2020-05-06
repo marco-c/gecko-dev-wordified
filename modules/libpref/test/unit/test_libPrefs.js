@@ -4513,9 +4513,16 @@ this
 ;
 }
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_NOINTERFACE
+)
 ;
 }
 observe

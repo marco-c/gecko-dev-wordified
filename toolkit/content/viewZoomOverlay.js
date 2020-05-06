@@ -372,9 +372,16 @@ MAX
 )
 {
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_INVALID_ARG
+)
 ;
 }
 if

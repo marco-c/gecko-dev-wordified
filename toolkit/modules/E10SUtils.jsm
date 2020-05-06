@@ -3070,9 +3070,16 @@ isExpandedPrincipal
 )
 {
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_UNEXPECTED
+)
 ;
 }
 /

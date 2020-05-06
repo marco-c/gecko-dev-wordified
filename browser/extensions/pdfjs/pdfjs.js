@@ -218,9 +218,16 @@ PdfStreamConverter
 ;
 }
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_FACTORY_NOT_REGISTERED
+)
 ;
 }
 var

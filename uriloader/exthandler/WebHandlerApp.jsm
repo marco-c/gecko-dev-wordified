@@ -271,9 +271,16 @@ aHandlerApp
 )
 {
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_NULL_POINTER
+)
 ;
 }
 if
