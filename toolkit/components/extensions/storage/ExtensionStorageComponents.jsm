@@ -696,6 +696,16 @@ Ci
 .
 mozIExtensionStorageArea
 )
+|
+|
+iid
+.
+equals
+(
+Ci
+.
+mozIBridgedSyncEngine
+)
 )
 {
 return
