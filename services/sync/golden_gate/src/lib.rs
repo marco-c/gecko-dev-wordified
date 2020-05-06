@@ -1330,7 +1330,10 @@ use
 sync15_traits
 :
 :
+{
+ApplyResults
 BridgedEngine
+}
 ;
 pub
 use
