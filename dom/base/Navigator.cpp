@@ -4360,6 +4360,10 @@ uint32_t
 pattern
 (
 aPattern
+.
+Clone
+(
+)
 )
 ;
 if

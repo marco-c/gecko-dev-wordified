@@ -39354,6 +39354,10 @@ this
 aDevices
 =
 mVRDisplays
+.
+Clone
+(
+)
 ;
 return
 true

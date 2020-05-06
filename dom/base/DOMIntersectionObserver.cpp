@@ -1220,6 +1220,10 @@ aRetVal
 aRetVal
 =
 mThresholds
+.
+Clone
+(
+)
 ;
 }
 void

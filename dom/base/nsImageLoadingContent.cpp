@@ -4305,6 +4305,10 @@ ScriptedImageObserver
 observers
 (
 mScriptedObservers
+.
+Clone
+(
+)
 )
 ;
 auto
@@ -4497,6 +4501,10 @@ ScriptedImageObserver
 observers
 (
 mScriptedObservers
+.
+Clone
+(
+)
 )
 ;
 auto
@@ -4646,6 +4654,10 @@ ScriptedImageObserver
 observers
 (
 mScriptedObservers
+.
+Clone
+(
+)
 )
 ;
 auto

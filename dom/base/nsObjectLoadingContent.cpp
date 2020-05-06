@@ -5059,6 +5059,10 @@ aAttributes
 aAttributes
 =
 mCachedAttributes
+.
+Clone
+(
+)
 ;
 }
 void
@@ -5078,6 +5082,10 @@ aParameters
 aParameters
 =
 mCachedParameters
+.
+Clone
+(
+)
 ;
 }
 void

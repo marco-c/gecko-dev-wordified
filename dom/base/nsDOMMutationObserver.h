@@ -586,6 +586,10 @@ const
 aRetVal
 =
 mAddedAnimations
+.
+Clone
+(
+)
 ;
 }
 void
@@ -600,6 +604,10 @@ const
 aRetVal
 =
 mRemovedAnimations
+.
+Clone
+(
+)
 ;
 }
 void
@@ -614,6 +622,10 @@ const
 aRetVal
 =
 mChangedAnimations
+.
+Clone
+(
+)
 ;
 }
 nsCOMPtr

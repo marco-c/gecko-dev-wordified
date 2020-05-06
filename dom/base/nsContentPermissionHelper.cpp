@@ -918,6 +918,10 @@ aElement
 mRequests
 =
 aRequests
+.
+Clone
+(
+)
 ;
 mIsHandlingUserInput
 =
@@ -1193,6 +1197,10 @@ aType
 mOptions
 =
 aOptions
+.
+Clone
+(
+)
 ;
 }
 ContentPermissionType
@@ -4244,6 +4252,10 @@ requests
 mPermissionRequests
 =
 requests
+.
+Clone
+(
+)
 ;
 mRequester
 =

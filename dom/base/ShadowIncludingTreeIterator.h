@@ -778,7 +778,7 @@ on
 actual
 data
 .
-AutoTArray
+CopyableAutoTArray
 <
 nsINode
 *

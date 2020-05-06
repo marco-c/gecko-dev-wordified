@@ -14682,6 +14682,10 @@ doc
 AncestorPrincipals
 (
 )
+.
+Clone
+(
+)
 ;
 ancestorPrincipals
 .
@@ -14730,6 +14734,10 @@ doc
 -
 >
 AncestorOuterWindowIDs
+(
+)
+.
+Clone
 (
 )
 ;
