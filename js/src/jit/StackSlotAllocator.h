@@ -237,11 +237,6 @@ allocateQuadSlot
 (
 )
 {
-MOZ_ASSERT
-(
-SupportsSimd
-)
-;
 /
 /
 This

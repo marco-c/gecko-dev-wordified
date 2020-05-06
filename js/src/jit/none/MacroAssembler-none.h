@@ -1457,16 +1457,6 @@ false
 }
 static
 bool
-SupportsSimd
-(
-)
-{
-return
-false
-;
-}
-static
-bool
 SupportsUnalignedAccesses
 (
 )

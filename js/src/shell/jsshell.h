@@ -675,6 +675,15 @@ enableWasmMultiValue
 ;
 #
 endif
+#
+ifdef
+ENABLE_WASM_SIMD
+extern
+bool
+enableWasmSimd
+;
+#
+endif
 extern
 bool
 enableWasmVerbose

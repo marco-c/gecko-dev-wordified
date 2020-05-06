@@ -463,14 +463,9 @@ if
 not
 supported
 .
-if
-(
-!
-JitSupportsSimd
-(
-)
-)
-{
+#
+ifndef
+ENABLE_WASM_SIMD
 bits
 &
 =
@@ -484,7 +479,8 @@ Codes
 :
 SpreadScalar
 ;
-}
+#
+endif
 /
 /
 Exclude

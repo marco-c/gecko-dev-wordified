@@ -1014,6 +1014,16 @@ Codes
 Double
 ;
 }
+bool
+isSimd128
+(
+)
+const
+{
+return
+false
+;
+}
 FloatRegister
 singleOverlay
 (

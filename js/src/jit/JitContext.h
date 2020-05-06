@@ -861,7 +861,7 @@ JitExec_Aborted
 ;
 }
 bool
-JitSupportsSimd
+JitSupportsWasmSimd
 (
 )
 ;
