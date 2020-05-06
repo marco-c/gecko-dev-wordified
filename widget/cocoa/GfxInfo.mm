@@ -648,7 +648,7 @@ mOSXVersion
 nsCocoaFeatures
 :
 :
-macOSVersion
+OSXVersion
 (
 )
 ;

@@ -2394,7 +2394,7 @@ if
 nsCocoaFeatures
 :
 :
-macOSVersionMinor
+OSXVersionMinor
 (
 )
 =
@@ -2405,7 +2405,7 @@ macOSVersionMinor
 nsCocoaFeatures
 :
 :
-macOSVersionBugFix
+OSXVersionBugFix
 (
 )
 <
@@ -2415,7 +2415,7 @@ macOSVersionBugFix
 nsCocoaFeatures
 :
 :
-macOSVersionMajor
+OSXVersionMajor
 (
 )
 =
