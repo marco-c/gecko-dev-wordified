@@ -229,6 +229,10 @@ aCountry
 mAddressLine
 (
 aAddressLine
+.
+Clone
+(
+)
 )
 mRegion
 (
@@ -307,6 +311,10 @@ const
 aRetVal
 =
 mAddressLine
+.
+Clone
+(
+)
 ;
 }
 void
