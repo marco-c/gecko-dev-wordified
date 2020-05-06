@@ -128,17 +128,6 @@ mozilla
 /
 dom
 /
-Animation
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Document
 .
 h

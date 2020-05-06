@@ -187,13 +187,6 @@ FloatingPoint
 .
 h
 "
-#
-include
-"
-nsDOMMutationObserver
-.
-h
-"
 namespace
 mozilla
 {
