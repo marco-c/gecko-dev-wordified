@@ -5704,6 +5704,10 @@ dash
 aOther
 .
 dash
+.
+Clone
+(
+)
 )
 dashOffset
 (
@@ -5764,6 +5768,10 @@ filterAdditionalImages
 aOther
 .
 filterAdditionalImages
+.
+Clone
+(
+)
 )
 filterSourceGraphicTainted
 (
