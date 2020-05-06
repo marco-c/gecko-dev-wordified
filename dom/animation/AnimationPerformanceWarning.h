@@ -419,7 +419,7 @@ localization
 .
 Maybe
 <
-nsTArray
+CopyableTArray
 <
 int32_t
 >

@@ -5238,6 +5238,10 @@ auto
 keyframesCopy
 (
 mKeyframes
+.
+Clone
+(
+)
 )
 ;
 result
@@ -6552,6 +6556,10 @@ mKeyframes
 aSource
 .
 mKeyframes
+.
+Clone
+(
+)
 ;
 effect
 -
@@ -6561,6 +6569,10 @@ mProperties
 aSource
 .
 mProperties
+.
+Clone
+(
+)
 ;
 for
 (

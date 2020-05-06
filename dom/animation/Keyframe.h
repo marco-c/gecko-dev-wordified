@@ -569,7 +569,7 @@ CompositeOperationOrAuto
 :
 Auto
 ;
-nsTArray
+CopyableTArray
 <
 PropertyValuePair
 >

@@ -540,6 +540,10 @@ mSegments
 aOther
 .
 mSegments
+.
+Clone
+(
+)
 )
 {
 }
@@ -565,6 +569,10 @@ mSegments
 aOther
 .
 mSegments
+.
+Clone
+(
+)
 ;
 return
 *
