@@ -497,7 +497,6 @@ ffi
 raw
 )
 ;
-;
 assert_eq
 !
 (

@@ -626,6 +626,7 @@ DataCallback
 F
 >
 =
+dyn
 FnMut
 (
 &
@@ -653,6 +654,7 @@ pub
 type
 StateCallback
 =
+dyn
 FnMut
 (
 State
@@ -669,6 +671,7 @@ pub
 type
 DeviceChangedCallback
 =
+dyn
 FnMut
 (
 )
@@ -1687,9 +1690,6 @@ stream
 =
 unsafe
 {
-try
-!
-(
 ctx
 .
 stream_init
@@ -1708,7 +1708,7 @@ as
 mut
 _
 )
-)
+?
 }
 ;
 if
@@ -1732,16 +1732,13 @@ F
 >
 )
 ;
-try
-!
-(
 stream
 .
 register_device_changed_callback
 (
 device_changed_callback
 )
-)
+?
 ;
 }
 Ok

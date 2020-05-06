@@ -173,11 +173,9 @@ CUBEB_DEVICE_FMT_S16_MASK
 :
 cubeb_device_fmt
 =
-(
 CUBEB_DEVICE_FMT_S16LE
 |
 CUBEB_DEVICE_FMT_S16BE
-)
 ;
 pub
 const
@@ -185,11 +183,9 @@ CUBEB_DEVICE_FMT_F32_MASK
 :
 cubeb_device_fmt
 =
-(
 CUBEB_DEVICE_FMT_F32LE
 |
 CUBEB_DEVICE_FMT_F32BE
-)
 ;
 pub
 const
@@ -197,11 +193,9 @@ CUBEB_DEVICE_FMT_ALL
 :
 cubeb_device_fmt
 =
-(
 CUBEB_DEVICE_FMT_S16_MASK
 |
 CUBEB_DEVICE_FMT_F32_MASK
-)
 ;
 cubeb_enum
 !

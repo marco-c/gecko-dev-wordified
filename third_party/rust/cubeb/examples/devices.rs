@@ -87,15 +87,6 @@ DeviceFormat
 DeviceType
 }
 ;
-use
-std
-:
-:
-error
-:
-:
-Error
-;
 fn
 print_device_info
 (
@@ -816,10 +807,6 @@ devices
 }
 "
 e
-.
-description
-(
-)
 )
 ;
 return
@@ -918,10 +905,6 @@ devices
 }
 "
 e
-.
-description
-(
-)
 )
 ;
 return
