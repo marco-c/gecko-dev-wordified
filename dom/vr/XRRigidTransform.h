@@ -405,6 +405,12 @@ mInverse
 gfx
 :
 :
+Matrix4x4Double
+mRawTransformMatrix
+;
+gfx
+:
+:
 PointDouble3D
 mRawPosition
 ;
