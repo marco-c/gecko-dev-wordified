@@ -224,10 +224,10 @@ gc
 Cell
 *
 thing
-gc
+JS
 :
 :
-AllocKind
+TraceKind
 kind
 )
 {
