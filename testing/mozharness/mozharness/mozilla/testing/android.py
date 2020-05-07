@@ -591,7 +591,7 @@ c
 get
 (
 '
-emulator_manifest
+emulator_avd_name
 '
 )
 else
@@ -1201,28 +1201,14 @@ else
             
 sdk_path
 =
-os
-.
-path
-.
-join
-(
 self
 .
 abs_dirs
 [
 '
-abs_work_dir
+abs_sdk_dir
 '
 ]
-'
-android
--
-sdk
--
-linux
-'
-)
         
 if
 os
@@ -5331,25 +5317,6 @@ emulator
 via
 tooltool
 !
-"
-)
-        
-else
-:
-            
-self
-.
-fatal
-(
-"
-Cannot
-get
-emulator
-:
-configure
-emulator_url
-or
-emulator_manifest
 "
 )
         
