@@ -4045,7 +4045,7 @@ static
 void
 MaybeScheduleReflowSVGNonDisplayText
 (
-nsFrame
+nsIFrame
 *
 aFrame
 )
@@ -6813,7 +6813,7 @@ AddAndRemoveImageAssociations
 ImageLoader
 &
 aImageLoader
-nsFrame
+nsIFrame
 *
 aFrame
 const
@@ -8302,7 +8302,7 @@ virtual
 *
 /
 void
-nsFrame
+nsIFrame
 :
 :
 DidSetComputedStyle
@@ -16225,7 +16225,7 @@ aFrame
 ;
 }
 int16_t
-nsFrame
+nsIFrame
 :
 :
 DetermineDisplaySelection
@@ -32216,7 +32216,7 @@ dispatch
 }
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -32374,7 +32374,7 @@ NS_OK
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetDataForTableSelection
@@ -33625,7 +33625,7 @@ frame
 *
 /
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandlePress
@@ -35153,7 +35153,7 @@ select
 *
 /
 nsresult
-nsFrame
+nsIFrame
 :
 :
 SelectByTypeAtPoint
@@ -35330,7 +35330,7 @@ code
 *
 /
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandleMultiplePress
@@ -35932,7 +35932,7 @@ aAmountBack
 ;
 }
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandleDrag
@@ -36735,7 +36735,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandleRelease
@@ -41130,7 +41130,7 @@ virtual
 *
 /
 void
-nsFrame
+nsIFrame
 :
 :
 MarkIntrinsicISizesDirty
@@ -43467,7 +43467,7 @@ virtual
 *
 /
 LogicalSize
-nsFrame
+nsIFrame
 :
 :
 ComputeSize
@@ -49635,7 +49635,7 @@ virtual
 *
 /
 LogicalSize
-nsFrame
+nsIFrame
 :
 :
 ComputeAutoSize
@@ -49778,7 +49778,7 @@ result
 ;
 }
 nscoord
-nsFrame
+nsIFrame
 :
 :
 ShrinkWidthToFit
@@ -50912,7 +50912,7 @@ false
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 Reflow
@@ -66640,7 +66640,7 @@ nsIFrame
 :
 :
 FrameSearchResult
-nsFrame
+nsIFrame
 :
 :
 PeekOffsetWord
@@ -66909,7 +66909,7 @@ CONTINUE
 /
 static
 bool
-nsFrame
+nsIFrame
 :
 :
 BreakWordBetweenPunctuation
@@ -74623,7 +74623,7 @@ nullptr
 }
 ComputedStyle
 *
-nsFrame
+nsIFrame
 :
 :
 DoGetParentComputedStyle
@@ -77008,24 +77008,6 @@ endif
 }
 return
 NS_OK
-;
-}
-/
-*
-virtual
-*
-/
-nsILineIterator
-*
-nsFrame
-:
-:
-GetLineIterator
-(
-)
-{
-return
-nullptr
 ;
 }
 nsSize
@@ -80063,7 +80045,7 @@ endif
 }
 nsBoxLayoutMetrics
 *
-nsFrame
+nsIFrame
 :
 :
 BoxMetrics
