@@ -24743,6 +24743,9 @@ temp
 Label
 *
 fail
+CompileZone
+*
+zone
 void
 *
 posAddr
@@ -24750,8 +24753,6 @@ const
 void
 *
 curEddAddr
-uint32_t
-totalSize
 uint32_t
 size
 )
