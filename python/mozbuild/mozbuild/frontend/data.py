@@ -8052,6 +8052,7 @@ endswith
 (
 suffixes
 )
+            
 or
 '
 stl_wrappers
@@ -8059,6 +8060,15 @@ stl_wrappers
 '
 in
 f
+or
+'
+xpidl
+.
+stub
+'
+in
+f
+        
 ]
         
 self

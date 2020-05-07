@@ -102,16 +102,6 @@ xpidl
 .
 stub
 '
-'
-xpidllex
-.
-py
-'
-'
-xpidlyacc
-.
-py
-'
 script
 =
 '

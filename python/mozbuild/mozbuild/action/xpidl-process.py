@@ -185,7 +185,6 @@ process
 input_dirs
 inc_paths
 bindings_conf
-cache_dir
 header_dir
             
 xpcrs_dir
@@ -200,9 +199,6 @@ p
 =
 IDLParser
 (
-outputdir
-=
-cache_dir
 )
     
 xpts
@@ -854,35 +850,6 @@ add_argument
 '
 -
 -
-cache
--
-dir
-'
-                        
-help
-=
-'
-Directory
-in
-which
-to
-find
-or
-write
-cached
-lexer
-data
-.
-'
-)
-    
-parser
-.
-add_argument
-(
-'
--
--
 depsdir
 '
                         
@@ -1172,11 +1139,8 @@ args
 bindings_conf
 args
 .
-cache_dir
-            
-args
-.
 headerdir
+            
 args
 .
 xpcrsdir
@@ -1189,7 +1153,6 @@ depsdir
 args
 .
 module
-            
 args
 .
 idls

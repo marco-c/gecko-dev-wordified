@@ -14714,10 +14714,6 @@ def
 __init__
 (
 self
-outputdir
-=
-'
-'
 )
 :
         
@@ -14739,20 +14735,9 @@ lex
 object
 =
 self
-                             
-outputdir
+debug
 =
-outputdir
-                             
-lextab
-=
-'
-xpidllex
-'
-                             
-optimize
-=
-1
+False
 )
         
 self
@@ -14766,24 +14751,12 @@ yacc
 module
 =
 self
-                                
-outputdir
+write_tables
 =
-outputdir
-                                
+False
 debug
 =
-0
-                                
-tabmodule
-=
-'
-xpidlyacc
-'
-                                
-optimize
-=
-1
+False
 )
     
 def

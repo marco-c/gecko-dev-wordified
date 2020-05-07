@@ -44541,17 +44541,6 @@ lex
 object
 =
 self
-                                 
-outputdir
-=
-outputdir
-                                 
-lextab
-=
-'
-webidllex
-'
-                                 
 reflags
 =
 re
@@ -55260,15 +55249,13 @@ outputdir
 =
 outputdir
                                     
-tabmodule
-=
-'
-webidlyacc
-'
-                                    
 errorlog
 =
 logger
+                                    
+write_tables
+=
+False
                                     
 #
 Pickling
