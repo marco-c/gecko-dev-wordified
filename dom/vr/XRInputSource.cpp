@@ -1047,6 +1047,10 @@ aResult
 aResult
 =
 mProfiles
+.
+Clone
+(
+)
 ;
 }
 Gamepad

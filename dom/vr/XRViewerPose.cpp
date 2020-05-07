@@ -210,6 +210,10 @@ aEmulatedPosition
 mViews
 (
 aViews
+.
+Clone
+(
+)
 )
 {
 }
@@ -289,6 +293,10 @@ aResult
 aResult
 =
 mViews
+.
+Clone
+(
+)
 ;
 }
 }
