@@ -154,6 +154,10 @@ const
 ProcType
 &
 type
+const
+nsAString
+&
+origin
 )
 {
 /
