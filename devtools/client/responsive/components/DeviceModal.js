@@ -705,6 +705,7 @@ const
 devices
 onDeviceListUpdate
 onUpdateDeviceDisplayed
+onUpdateDeviceModal
 }
 =
 this
@@ -846,6 +847,11 @@ name
 onDeviceListUpdate
 (
 preferredDevices
+)
+;
+onUpdateDeviceModal
+(
+false
 )
 ;
 }

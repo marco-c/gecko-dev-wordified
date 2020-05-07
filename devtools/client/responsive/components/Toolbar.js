@@ -483,6 +483,13 @@ PropTypes
 func
 .
 isRequired
+onUpdateDeviceSelectorMenu
+:
+PropTypes
+.
+func
+.
+isRequired
 screenshot
 :
 PropTypes
@@ -614,6 +621,7 @@ onToggleReloadOnTouchSimulation
 onToggleReloadOnUserAgent
 onToggleUserAgentInput
 onUpdateDeviceModal
+onUpdateDeviceSelectorMenu
 screenshot
 selectedDevice
 selectedPixelRatio
@@ -693,6 +701,7 @@ DeviceSelector
 devices
 onChangeDevice
 onUpdateDeviceModal
+onUpdateDeviceSelectorMenu
 selectedDevice
 viewportId
 :
