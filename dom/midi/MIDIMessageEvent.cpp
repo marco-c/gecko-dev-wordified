@@ -444,6 +444,10 @@ e
 mRawData
 =
 aData
+.
+Clone
+(
+)
 ;
 e
 -

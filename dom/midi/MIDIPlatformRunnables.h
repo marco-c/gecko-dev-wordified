@@ -279,6 +279,10 @@ ReceiveRunnable
 mMsgs
 (
 aMsgs
+.
+Clone
+(
+)
 )
 mPortId
 (

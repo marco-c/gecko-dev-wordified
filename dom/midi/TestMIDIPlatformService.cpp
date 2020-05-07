@@ -363,6 +363,10 @@ aPortID
 mMsgs
 (
 aMsgs
+.
+Clone
+(
+)
 )
 {
 }
