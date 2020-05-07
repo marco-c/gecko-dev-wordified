@@ -1428,7 +1428,13 @@ appIds
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 rpIdHash
+)
 )
 ;
 if
@@ -1538,6 +1544,10 @@ get_WebAuthnExtensionAppId
 )
 .
 AppId
+(
+)
+.
+Clone
 (
 )
 )

@@ -749,6 +749,10 @@ aId
 mRpIdHash
 (
 aRpIdHash
+.
+Clone
+(
+)
 )
 mClientDataJSON
 (
