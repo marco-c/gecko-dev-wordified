@@ -2156,6 +2156,8 @@ CreateFileW
 (
 aFilePath
 GENERIC_READ
+|
+GENERIC_EXECUTE
 FILE_SHARE_READ
 nullptr
 OPEN_EXISTING
@@ -2182,7 +2184,7 @@ fd
 nullptr
 SEC_IMAGE
 |
-PAGE_READONLY
+PAGE_EXECUTE_READ
 0
 0
 nullptr
@@ -2205,6 +2207,10 @@ MapViewOfFile
 (
 mapping
 FILE_MAP_READ
+|
+FILE_MAP_EXECUTE
+|
+SEC_IMAGE
 0
 0
 0
