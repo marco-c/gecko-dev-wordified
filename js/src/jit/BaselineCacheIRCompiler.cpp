@@ -11623,6 +11623,17 @@ numInputOperands
 (
 )
 ;
+MOZ_ASSERT
+(
+numInputs
+=
+=
+NumInputsForCacheKind
+(
+kind
+)
+)
+;
 /
 /
 Baseline
