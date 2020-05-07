@@ -263,8 +263,6 @@ uint64_t
 offset
 uint32_t
 count
-bool
-dataSentToChildProcess
 )
 ;
 async
@@ -362,8 +360,6 @@ pushedStreamArg
 PInputChannelThrottleQueue
 ?
 throttleQueue
-bool
-aIsDocumentLoad
 )
 ;
 async

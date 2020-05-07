@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsHttpHandler
 .
 h

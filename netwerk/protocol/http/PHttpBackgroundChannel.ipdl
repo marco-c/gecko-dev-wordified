@@ -340,8 +340,6 @@ uint32_t
 count
 nsCString
 data
-bool
-dataFromSocketProcess
 )
 ;
 /

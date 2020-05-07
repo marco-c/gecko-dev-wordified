@@ -249,8 +249,6 @@ HTTP_TRANSACTION_PARENT_IID
 explicit
 HttpTransactionParent
 (
-bool
-aIsDocumentLoad
 )
 ;
 void
@@ -350,10 +348,6 @@ const
 uint32_t
 &
 aCount
-const
-bool
-&
-aDataSentToChildProcess
 )
 ;
 mozilla
@@ -573,10 +567,6 @@ const
 uint32_t
 &
 aCount
-const
-bool
-&
-aDataSentToChildProcess
 )
 ;
 void
@@ -709,12 +699,6 @@ mProxyConnectResponseCode
 ;
 uint64_t
 mChannelId
-;
-bool
-mDataAlreadySent
-;
-bool
-mIsDocumentLoad
 ;
 NetAddr
 mSelfAddr
