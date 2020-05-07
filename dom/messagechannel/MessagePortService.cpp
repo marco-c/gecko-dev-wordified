@@ -1473,8 +1473,6 @@ mParent
 >
 Entangled
 (
-nsTArray
-{
 std
 :
 :
@@ -1482,7 +1480,6 @@ move
 (
 array
 )
-}
 )
 ;
 return
