@@ -163,11 +163,14 @@ try
 :
         
 return
+bool
+(
 node
 .
 get
 (
 name
+)
 )
     
 except
@@ -1932,6 +1935,26 @@ self
 property
     
 def
+lsan_disabled
+(
+self
+)
+:
+        
+return
+bool_prop
+(
+"
+lsan
+-
+disabled
+"
+self
+)
+    
+property
+    
+def
 lsan_allowed
 (
 self
@@ -2215,6 +2238,26 @@ self
 return
 prefs
 (
+self
+)
+    
+property
+    
+def
+lsan_disabled
+(
+self
+)
+:
+        
+return
+bool_prop
+(
+"
+lsan
+-
+disabled
+"
 self
 )
     
@@ -2641,6 +2684,26 @@ self
 return
 prefs
 (
+self
+)
+    
+property
+    
+def
+lsan_disabled
+(
+self
+)
+:
+        
+return
+bool_prop
+(
+"
+lsan
+-
+disabled
+"
 self
 )
     

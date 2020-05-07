@@ -3311,10 +3311,13 @@ None
 group_metadata
 =
 None
+lsan_disabled
+=
+False
+              
 lsan_allowed
 =
 None
-              
 lsan_max_stack_depth
 =
 None
@@ -3416,6 +3419,10 @@ lsan_allowed
 maxNumRecordedFrames
 =
 lsan_max_stack_depth
+                                                  
+allowAll
+=
+lsan_disabled
 )
         
 else
@@ -5274,6 +5281,14 @@ not
 test
 .
 leaks
+                
+"
+lsan_disabled
+"
+:
+test
+.
+lsan_disabled
                 
 "
 lsan_allowed
