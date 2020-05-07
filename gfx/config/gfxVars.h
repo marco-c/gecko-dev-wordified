@@ -530,6 +530,13 @@ AllowSacrificingSubpixelAA
 bool
 false
 )
+\
+_
+(
+DwmCompositionEnabled
+bool
+true
+)
 /
 *
 Add
