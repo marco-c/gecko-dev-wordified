@@ -205,6 +205,10 @@ aInfo
 remoteTypes
 (
 )
+.
+Clone
+(
+)
 ;
 proto
 -
@@ -229,6 +233,10 @@ mObservers
 aInfo
 .
 observers
+(
+)
+.
+Clone
 (
 )
 ;
