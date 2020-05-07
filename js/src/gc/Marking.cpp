@@ -23028,7 +23028,7 @@ MOZ_ASSERT
 src
 -
 >
-zone
+nurseryZone
 (
 )
 -
@@ -23076,7 +23076,7 @@ JSObject
 src
 -
 >
-zone
+nurseryZone
 (
 )
 dstKind
@@ -23693,7 +23693,7 @@ MOZ_ASSERT
 src
 -
 >
-zone
+nurseryZone
 (
 )
 -
@@ -23724,7 +23724,7 @@ PlainObject
 src
 -
 >
-zone
+nurseryZone
 (
 )
 dstKind
@@ -23903,7 +23903,7 @@ zone
 src
 -
 >
-zone
+nurseryZone
 (
 )
 ;
@@ -24118,7 +24118,7 @@ zone
 src
 -
 >
-zone
+nurseryZone
 (
 )
 ;
@@ -24547,7 +24547,7 @@ MOZ_ASSERT
 src
 -
 >
-zone
+nurseryZone
 (
 )
 -
@@ -24574,7 +24574,7 @@ zone
 src
 -
 >
-zone
+nurseryZone
 (
 )
 ;
@@ -24714,7 +24714,7 @@ MOZ_ASSERT
 src
 -
 >
-zone
+nurseryZone
 (
 )
 -
@@ -24741,7 +24741,7 @@ zone
 src
 -
 >
-zone
+nurseryZone
 (
 )
 ;
@@ -25321,7 +25321,7 @@ zone
 src
 -
 >
-zone
+nurseryZone
 (
 )
 )
@@ -25384,7 +25384,7 @@ zone
 src
 -
 >
-zone
+nurseryZone
 (
 )
 ;
