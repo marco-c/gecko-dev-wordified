@@ -3178,7 +3178,13 @@ mVertexBuffers
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 vb_desc
+)
 )
 ;
 }
