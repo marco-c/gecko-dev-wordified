@@ -1301,7 +1301,7 @@ AboutProtectionsParent
 .
 setTestOverride
 (
-mockGetMonitorDataForLockwiseCard
+mockGetMonitorData
 (
 1
 )
@@ -1432,7 +1432,7 @@ AboutProtectionsParent
 .
 setTestOverride
 (
-mockGetMonitorDataForLockwiseCard
+mockGetMonitorData
 (
 2
 )
