@@ -319,6 +319,10 @@ return
 aConnections
 =
 mConnections
+.
+Clone
+(
+)
 ;
 }
 nsresult
