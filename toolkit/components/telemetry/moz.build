@@ -1381,9 +1381,6 @@ run_glean_parser
 .
 py
 '
-py2
-=
-False
 inputs
 =
 [
