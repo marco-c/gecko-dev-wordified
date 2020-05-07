@@ -66,6 +66,9 @@ const
 Cc
 Ci
 Cr
+components
+:
+Components
 }
 =
 require

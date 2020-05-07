@@ -67,6 +67,9 @@ Cc
 Ci
 Cu
 Cr
+components
+:
+Components
 }
 =
 require
