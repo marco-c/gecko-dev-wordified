@@ -945,6 +945,8 @@ vals
 =
 dict
 (
+list
+(
 {
         
 '
@@ -984,13 +986,17 @@ comm_head_rev
 items
 (
 )
+)
 +
+list
+(
 TestParameters
 .
 vals
 .
 items
 (
+)
 )
 )
     

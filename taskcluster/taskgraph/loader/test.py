@@ -63,6 +63,8 @@ import
 copy
 import
 logging
+import
+six
 from
 .
 transform
@@ -261,10 +263,11 @@ for
 test_platform_name
 test_platform
 in
-test_platforms
+six
 .
 iteritems
 (
+test_platforms
 )
 :
         
@@ -708,10 +711,11 @@ for
 test_platform
 cfg
 in
-test_platforms_cfg
+six
 .
 iteritems
 (
+test_platforms_cfg
 )
 :
         
@@ -1002,10 +1006,11 @@ for
 test_platform
 cfg
 in
-test_platforms
+six
 .
 iteritems
 (
+test_platforms
 )
 :
         

@@ -1481,9 +1481,46 @@ OSX_OK_PLATFORMS
                 
 continue
             
+#
+map
+[
+paths
+]
+is
+being
+modified
+while
+iterating
+so
+we
+need
+to
+resolve
+the
+            
+#
+"
+.
+keys
+(
+)
+"
+iterator
+up
+front
+by
+throwing
+it
+into
+a
+list
+.
+            
 for
 path
 in
+list
+(
 map
 [
 '
@@ -1493,6 +1530,7 @@ paths
 .
 keys
 (
+)
 )
 :
                 

@@ -78,9 +78,9 @@ re
 import
 os
 import
-sys
-import
 attr
+import
+six
 from
 .
 .
@@ -1546,9 +1546,9 @@ get
 '
 tier
 '
-sys
+six
 .
-maxint
+MAXSIZE
 )
     
 else
@@ -1565,9 +1565,9 @@ if
 tier
 =
 =
-sys
+six
 .
-maxint
+MAXSIZE
 :
                 
 return
@@ -1581,12 +1581,13 @@ tier
 for
 task
 in
-taskgraph
-.
-tasks
+six
 .
 itervalues
 (
+taskgraph
+.
+tasks
 )
 :
             
@@ -1602,12 +1603,13 @@ label
 for
 d
 in
-task
-.
-dependencies
+six
 .
 itervalues
 (
+task
+.
+dependencies
 )
 :
                 
@@ -1853,12 +1855,13 @@ signoffs
 for
 task
 in
-taskgraph
-.
-tasks
+six
 .
 itervalues
 (
+taskgraph
+.
+tasks
 )
 :
             
@@ -1874,12 +1877,13 @@ label
 for
 d
 in
-task
-.
-dependencies
+six
 .
 itervalues
 (
+task
+.
+dependencies
 )
 :
                 
@@ -2287,12 +2291,13 @@ exceptions
 for
 task
 in
-taskgraph
-.
-tasks
+six
 .
 itervalues
 (
+taskgraph
+.
+tasks
 )
 :
             
