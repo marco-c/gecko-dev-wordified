@@ -2037,7 +2037,7 @@ function
 )
 or
 a
-FunctionCreationData
+ScriptStencilBase
 .
 size_t
 funcDataIndex_
@@ -2330,15 +2330,15 @@ cx
 ;
 MutableHandle
 <
-FunctionCreationData
+ScriptStencilBase
 >
-functionCreationData
+functionStencil
 (
 )
 const
 ;
 bool
-hasFunctionCreationData
+hasFunctionStencil
 (
 )
 const
