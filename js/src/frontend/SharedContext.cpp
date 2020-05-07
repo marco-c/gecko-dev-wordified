@@ -1318,6 +1318,10 @@ emitBytecode
 (
 false
 )
+emitLazy
+(
+false
+)
 wasEmitted
 (
 false
