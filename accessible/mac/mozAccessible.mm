@@ -303,6 +303,12 @@ AXHasPopup
 "
 #
 define
+NSAccessibilityPopupValueAttribute
+"
+AXPopupValue
+"
+#
+define
 NSAccessibilityMathRootRadicandAttribute
 "
 AXMathRootRadicand
