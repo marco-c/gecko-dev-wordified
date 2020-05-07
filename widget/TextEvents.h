@@ -2738,6 +2738,10 @@ result
 mEditCommandsForSingleLineEditor
 =
 mEditCommandsForSingleLineEditor
+.
+Clone
+(
+)
 ;
 result
 -
@@ -2745,6 +2749,10 @@ result
 mEditCommandsForMultiLineEditor
 =
 mEditCommandsForMultiLineEditor
+.
+Clone
+(
+)
 ;
 result
 -
@@ -2752,6 +2760,10 @@ result
 mEditCommandsForRichTextEditor
 =
 mEditCommandsForRichTextEditor
+.
+Clone
+(
+)
 ;
 result
 -
@@ -5191,6 +5203,10 @@ mAlternativeCharCodes
 aEvent
 .
 mAlternativeCharCodes
+.
+Clone
+(
+)
 ;
 mIsRepeat
 =
@@ -5406,6 +5422,10 @@ mEditCommandsForSingleLineEditor
 aEvent
 .
 mEditCommandsForSingleLineEditor
+.
+Clone
+(
+)
 ;
 }
 else
@@ -5433,6 +5453,10 @@ mEditCommandsForMultiLineEditor
 aEvent
 .
 mEditCommandsForMultiLineEditor
+.
+Clone
+(
+)
 ;
 }
 else
@@ -5460,6 +5484,10 @@ mEditCommandsForRichTextEditor
 aEvent
 .
 mEditCommandsForRichTextEditor
+.
+Clone
+(
+)
 ;
 }
 else
@@ -7802,7 +7830,7 @@ with
 font
 ranges
 requested
-AutoTArray
+CopyableAutoTArray
 <
 mozilla
 :
@@ -8736,6 +8764,10 @@ mTargetRanges
 aEvent
 .
 mTargetRanges
+.
+Clone
+(
+)
 ;
 mInputType
 =
