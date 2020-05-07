@@ -182,7 +182,7 @@ android
 :
 "
 Linux
-armv7l
+aarch64
 "
 other
 :
@@ -230,7 +230,7 @@ android
 :
 "
 Linux
-armv7l
+aarch64
 "
 other
 :

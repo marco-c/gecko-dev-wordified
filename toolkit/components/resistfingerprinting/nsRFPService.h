@@ -378,14 +378,14 @@ define
 SPOOFED_OSCPU
 "
 Linux
-armv7l
+aarch64
 "
 #
 define
 SPOOFED_PLATFORM
 "
 Linux
-armv7l
+aarch64
 "
 #
 else
