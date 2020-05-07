@@ -2321,6 +2321,10 @@ aGlobalObject
 mURIs
 (
 aURIs
+.
+Clone
+(
+)
 )
 {
 }
