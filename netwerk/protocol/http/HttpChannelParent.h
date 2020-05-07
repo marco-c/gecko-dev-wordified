@@ -277,6 +277,9 @@ dom
 class
 BrowserParent
 ;
+class
+PBrowserOrId
+;
 }
 /
 /
@@ -392,11 +395,12 @@ HTTP_CHANNEL_PARENT_IID
 )
 HttpChannelParent
 (
+const
 dom
 :
 :
-BrowserParent
-*
+PBrowserOrId
+&
 iframeEmbedding
 nsILoadContext
 *
@@ -1899,6 +1903,12 @@ MozPromiseRequestHolder
 GenericNonExclusivePromise
 >
 mRequest
+;
+dom
+:
+:
+TabId
+mNestedFrameId
 ;
 /
 /

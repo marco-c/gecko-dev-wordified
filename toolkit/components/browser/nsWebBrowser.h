@@ -542,6 +542,13 @@ aContainerWindow
 nsIWidget
 *
 aParentWidget
+const
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 mozilla
 :
 :
