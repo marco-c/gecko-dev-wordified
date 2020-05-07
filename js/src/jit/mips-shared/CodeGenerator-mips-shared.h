@@ -285,7 +285,9 @@ snapshot
 template
 <
 typename
-T
+T1
+typename
+T2
 >
 void
 bailoutTest32
@@ -295,9 +297,9 @@ Assembler
 :
 Condition
 c
-Register
+T1
 lhs
-T
+T2
 rhs
 LSnapshot
 *
