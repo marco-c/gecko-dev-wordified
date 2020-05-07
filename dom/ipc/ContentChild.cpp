@@ -578,7 +578,7 @@ mozilla
 /
 dom
 /
-PlaybackController
+ContentPlaybackController
 .
 h
 "
