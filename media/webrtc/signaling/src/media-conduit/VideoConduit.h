@@ -414,6 +414,9 @@ VideoStreamFactory
 class
 WebrtcAudioConduit
 ;
+class
+nsThread
+;
 /
 /
 Interface
