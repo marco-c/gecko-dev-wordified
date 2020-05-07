@@ -3274,6 +3274,11 @@ nsresult
 aStatus
 )
 ;
+void
+MaybeConnectToSocketProcess
+(
+)
+;
 /
 /
 Create

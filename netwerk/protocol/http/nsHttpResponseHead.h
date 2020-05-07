@@ -1258,6 +1258,7 @@ bool
 HasContentType
 (
 )
+const
 ;
 bool
 HasContentCharset
