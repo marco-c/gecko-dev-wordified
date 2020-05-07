@@ -891,6 +891,10 @@ aNodes
 aNodes
 =
 mAssignedNodes
+.
+Clone
+(
+)
 ;
 }
 void

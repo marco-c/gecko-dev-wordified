@@ -5000,15 +5000,10 @@ auto
 &
 t
 :
-nsTArray
-<
-WeakPtr
-<
-MediaStreamTrack
->
->
-(
 mAudioTracks
+.
+Clone
+(
 )
 )
 {
@@ -22597,9 +22592,7 @@ out
 =
 mOutputStreams
 .
-AppendElement
-(
-OutputMediaStream
+EmplaceBack
 (
 MakeRefPtr
 <
@@ -22622,7 +22615,6 @@ StreamCaptureBehavior
 :
 :
 FINISH_WHEN_ENDED
-)
 )
 ;
 if
