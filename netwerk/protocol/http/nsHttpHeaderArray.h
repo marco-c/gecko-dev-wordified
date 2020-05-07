@@ -1079,7 +1079,7 @@ copy
 constructable
 and
 assignable
-nsTArray
+CopyableTArray
 <
 nsEntry
 >

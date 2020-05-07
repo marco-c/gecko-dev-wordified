@@ -6446,6 +6446,10 @@ aPreflightMethod
 mPreflightHeaders
 (
 aPreflightHeaders
+.
+Clone
+(
+)
 )
 mReferrerPrincipal
 (
