@@ -2747,6 +2747,9 @@ const
 nsACString
 &
 aFromType
+nsIChannel
+*
+aChannel
 nsACString
 &
 aOutToType
@@ -2847,6 +2850,7 @@ converter
 GetConvertedType
 (
 aFromType
+aChannel
 aOutToType
 )
 ;

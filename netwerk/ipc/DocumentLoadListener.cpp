@@ -934,6 +934,7 @@ streamConvService
 ConvertedType
 (
 mContentType
+aChannel
 str
 )
 ;
