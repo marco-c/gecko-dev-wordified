@@ -3406,7 +3406,7 @@ wider_range
 '
 )
 &
-modifies
+file
 (
 "
 glob
