@@ -733,7 +733,7 @@ return
 ;
 }
 void
-MediaActionHandler
+ContentMediaActionHandler
 :
 :
 HandleMediaControlKeysEvent

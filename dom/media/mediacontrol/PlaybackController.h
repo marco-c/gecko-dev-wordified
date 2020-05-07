@@ -414,7 +414,7 @@ mBC
 }
 ;
 class
-MediaActionHandler
+ContentMediaActionHandler
 {
 public
 :
