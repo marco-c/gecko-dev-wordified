@@ -495,7 +495,8 @@ long
 .
 *
 /
-AutoTArray
+const
+CopyableAutoTArray
 <
 nsCOMPtr
 <
@@ -504,9 +505,8 @@ nsIDOMMozWakeLockListener
 2
 >
 listeners
-(
+=
 mWakeLockListeners
-)
 ;
 for
 (
