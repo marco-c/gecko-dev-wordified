@@ -5053,7 +5053,7 @@ js
 Nursery
 :
 :
-stringHeaderSize
+nurseryCellHeaderSize
 (
 )
 +
@@ -5122,7 +5122,7 @@ js
 Nursery
 :
 :
-stringHeaderSize
+nurseryCellHeaderSize
 (
 )
 )
@@ -5246,7 +5246,7 @@ js
 Nursery
 :
 :
-bigIntHeaderSize
+nurseryCellHeaderSize
 (
 )
 +
@@ -5315,7 +5315,7 @@ js
 Nursery
 :
 :
-bigIntHeaderSize
+nurseryCellHeaderSize
 (
 )
 )

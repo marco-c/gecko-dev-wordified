@@ -25917,7 +25917,7 @@ size
 Nursery
 :
 :
-bigIntHeaderSize
+nurseryCellHeaderSize
 (
 )
 ;
