@@ -591,7 +591,7 @@ const
 ;
 private
 :
-AutoTArray
+CopyableAutoTArray
 <
 RefPtr
 <
