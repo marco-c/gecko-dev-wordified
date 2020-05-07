@@ -2893,6 +2893,15 @@ ThrowUninitializedThis
 \
 _
 (
+ToBigInt
+js
+:
+:
+ToBigInt
+)
+\
+_
+(
 ToIdOperation
 js
 :
