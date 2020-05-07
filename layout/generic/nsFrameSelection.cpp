@@ -3884,7 +3884,7 @@ void
 nsFrameSelection
 :
 :
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 nsBidiLevel
 aLevel
@@ -5330,7 +5330,7 @@ GetBidiData
 (
 )
 ;
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 visualMovement
 ?
@@ -5401,7 +5401,7 @@ eSelectLine
 aAmount
 )
 {
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 theFrame
 -
@@ -6907,7 +6907,7 @@ aHint
 false
 )
 ;
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 aHint
 =
@@ -6971,7 +6971,7 @@ secondLevel
 aPresShell
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 std
 :
@@ -7077,7 +7077,7 @@ clickInFrame
 )
 return
 ;
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 clickInFrame
 -
@@ -8282,6 +8282,17 @@ offsets
 scrollViewStop
 )
 ;
+/
+/
+TODO
+:
+no
+click
+has
+happened
+rename
+HandleClick
+.
 HandleClick
 (
 offsets

@@ -31875,7 +31875,7 @@ deleted
 frameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 levelOfDeletion
 )
