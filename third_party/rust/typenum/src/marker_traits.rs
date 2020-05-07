@@ -307,6 +307,10 @@ crate
 pub
 trait
 Bit
+:
+Copy
++
+Default
 {
 #
 [
@@ -458,6 +462,10 @@ I32
 pub
 trait
 Unsigned
+:
+Copy
++
+Default
 {
 #
 [
