@@ -10415,7 +10415,7 @@ locations
 /
 function
 *
-f
+foo
 (
 a
 b
