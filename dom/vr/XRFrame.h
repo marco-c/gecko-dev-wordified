@@ -284,8 +284,10 @@ ErrorResult
 aRv
 )
 ;
+already_AddRefed
+<
 XRPose
-*
+>
 GetPose
 (
 const

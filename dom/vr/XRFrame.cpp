@@ -1030,8 +1030,10 @@ forget
 )
 ;
 }
+already_AddRefed
+<
 XRPose
-*
+>
 XRFrame
 :
 :
@@ -1335,6 +1337,10 @@ emulatedPosition
 ;
 return
 pose
+.
+forget
+(
+)
 ;
 }
 void
