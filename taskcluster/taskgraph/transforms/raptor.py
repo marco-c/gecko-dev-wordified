@@ -393,6 +393,35 @@ target
 Optional
 (
 '
+tier
+'
+)
+:
+optionally_keyed_by
+(
+        
+'
+app
+'
+        
+'
+raptor
+-
+test
+'
+        
+test_description_schema
+[
+'
+tier
+'
+]
+    
+)
+    
+Optional
+(
+'
 run
 -
 visual
@@ -1118,6 +1147,10 @@ projects
         
 '
 target
+'
+        
+'
+tier
 '
         
 '
