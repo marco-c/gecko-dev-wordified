@@ -199,8 +199,10 @@ PBackgroundIDBFactoryParent
 class
 PBackgroundIndexedDBUtilsParent
 ;
+already_AddRefed
+<
 PBackgroundIDBFactoryParent
-*
+>
 AllocPBackgroundIDBFactoryParent
 (
 const
