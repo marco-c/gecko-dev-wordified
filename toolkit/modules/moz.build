@@ -1475,11 +1475,6 @@ PromiseUtils
 jsm
 '
 '
-Region
-.
-jsm
-'
-'
 RemotePageAccessManager
 .
 jsm
