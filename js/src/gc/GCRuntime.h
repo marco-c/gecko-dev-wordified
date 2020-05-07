@@ -320,15 +320,6 @@ ShouldCheckThresholds
 class
 SweepGroupsIter
 ;
-enum
-IncrementalProgress
-{
-NotFinished
-=
-0
-Finished
-}
-;
 /
 /
 Interface
@@ -4474,7 +4465,7 @@ template
 class
 ZoneIterT
 >
-void
+IncrementalProgress
 markWeakReferences
 (
 gcstats
@@ -4482,9 +4473,12 @@ gcstats
 :
 PhaseKind
 phase
+SliceBudget
+&
+budget
 )
 ;
-void
+IncrementalProgress
 markWeakReferencesInCurrentGroup
 (
 gcstats
@@ -4492,6 +4486,9 @@ gcstats
 :
 PhaseKind
 phase
+SliceBudget
+&
+budget
 )
 ;
 template
@@ -4520,7 +4517,7 @@ Zone
 zone
 )
 ;
-void
+IncrementalProgress
 markAllWeakReferences
 (
 gcstats
@@ -4528,6 +4525,9 @@ gcstats
 :
 PhaseKind
 phase
+SliceBudget
+&
+budget
 )
 ;
 void
