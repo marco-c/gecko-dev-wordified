@@ -643,7 +643,7 @@ natively
 decode
 to
 .
-nsTArray
+CopyableTArray
 <
 nsIntSize
 >
