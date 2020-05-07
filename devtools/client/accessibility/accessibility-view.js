@@ -813,6 +813,15 @@ selectNodeAccessible
 node
 )
 {
+if
+(
+!
+node
+)
+{
+return
+;
+}
 const
 accessibilityFront
 =
