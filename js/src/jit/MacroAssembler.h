@@ -24761,6 +24761,11 @@ const
 void
 *
 curEddAddr
+JS
+:
+:
+TraceKind
+traceKind
 uint32_t
 size
 )

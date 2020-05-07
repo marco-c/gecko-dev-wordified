@@ -2907,9 +2907,10 @@ new
 ptr
 )
 NurseryCellHeader
-{
+(
 zone
-}
+kind
+)
 ;
 auto
 cell
