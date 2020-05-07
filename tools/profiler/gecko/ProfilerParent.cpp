@@ -1180,6 +1180,10 @@ aParams
 GetFilters
 (
 )
+.
+Clone
+(
+)
 ;
 aParams
 -

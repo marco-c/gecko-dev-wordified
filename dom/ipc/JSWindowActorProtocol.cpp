@@ -491,6 +491,10 @@ matches
 )
 =
 mMatches
+.
+Clone
+(
+)
 ;
 info
 .
@@ -499,6 +503,10 @@ remoteTypes
 )
 =
 mRemoteTypes
+.
+Clone
+(
+)
 ;
 info
 .
@@ -507,6 +515,10 @@ messageManagerGroups
 )
 =
 mMessageManagerGroups
+.
+Clone
+(
+)
 ;
 info
 .
@@ -652,6 +664,10 @@ observers
 mChild
 .
 mObservers
+.
+Clone
+(
+)
 ;
 return
 info

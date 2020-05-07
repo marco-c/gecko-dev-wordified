@@ -266,7 +266,13 @@ aData
 :
 mData
 (
+std
+:
+:
+move
+(
 aData
+)
 )
 {
 MOZ_COUNT_CTOR

@@ -465,10 +465,14 @@ mExtraData
 (
 )
 =
-*
 mConfig
 .
 mExtraData
+-
+>
+Clone
+(
+)
 ;
 mConvertToAnnexB
 =

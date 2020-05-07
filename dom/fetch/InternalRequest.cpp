@@ -1303,6 +1303,10 @@ urlList
 )
 =
 mURLList
+.
+Clone
+(
+)
 ;
 mHeaders
 -

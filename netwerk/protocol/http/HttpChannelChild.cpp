@@ -17529,6 +17529,10 @@ preferredAlternativeTypes
 )
 =
 mPreferredCachedAltDataTypes
+.
+Clone
+(
+)
 ;
 openArgs
 .
@@ -22144,6 +22148,10 @@ unsafeHeaders
 )
 =
 mUnsafeHeaders
+.
+Clone
+(
+)
 ;
 aArgs
 .
