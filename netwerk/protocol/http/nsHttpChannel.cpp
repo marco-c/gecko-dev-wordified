@@ -2879,6 +2879,17 @@ forget
 )
 )
 ;
+arrayToRelease
+.
+AppendElement
+(
+mDNSPrefetch
+.
+forget
+(
+)
+)
+;
 NS_DispatchToMainThread
 (
 new
