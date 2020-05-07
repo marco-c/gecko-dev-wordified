@@ -166,6 +166,11 @@ FileManagerBase
 <
 TestFileManager
 >
+public
+AtomicSafeRefCounted
+<
+TestFileManager
+>
 {
 public
 :
@@ -178,6 +183,10 @@ TestFileManager
 :
 MutexType
 ;
+MOZ_DECLARE_REFCOUNTED_TYPENAME
+(
+TestFileManager
+)
 /
 /
 FileManager
@@ -187,10 +196,6 @@ are
 used
 by
 FileInfo
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-TestFileManager
-)
 [
 [
 nodiscard
@@ -330,13 +335,9 @@ FileInfo
 FileManagerGuard
 {
 }
-SafeRefPtr
-{
-this
-AcquireStrongRefFromRawPtr
-{
-}
-}
+SafeRefPtrFromThis
+(
+)
 id
 static_cast
 <
@@ -405,13 +406,6 @@ TestFileManagerStats
 const
 mStats
 ;
-~
-TestFileManager
-(
-)
-=
-default
-;
 }
 ;
 using
@@ -451,7 +445,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -529,7 +523,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -623,7 +617,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -769,7 +763,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -929,7 +923,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -1043,7 +1037,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -1165,7 +1159,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -1241,7 +1235,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
@@ -1322,7 +1316,7 @@ const
 auto
 fileManager
 =
-MakeRefPtr
+MakeSafeRefPtr
 <
 TestFileManager
 >
