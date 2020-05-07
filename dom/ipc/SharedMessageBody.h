@@ -437,7 +437,7 @@ SharedMessageBody
 >
 &
 aData
-FallibleTArray
+nsTArray
 <
 MessageData
 >

@@ -920,7 +920,7 @@ mMessages
 )
 )
 ;
-FallibleTArray
+nsTArray
 <
 MessageData
 >
@@ -975,7 +975,13 @@ aParent
 >
 Entangled
 (
+std
+:
+:
+move
+(
 array
+)
 )
 )
 {
@@ -1424,7 +1430,7 @@ RemoveElementAt
 index
 )
 ;
-FallibleTArray
+nsTArray
 <
 MessageData
 >
@@ -1467,7 +1473,16 @@ mParent
 >
 Entangled
 (
+nsTArray
+{
+std
+:
+:
+move
+(
 array
+)
+}
 )
 ;
 return
@@ -2167,7 +2182,7 @@ CanSendData
 )
 {
 {
-FallibleTArray
+nsTArray
 <
 MessageData
 >
