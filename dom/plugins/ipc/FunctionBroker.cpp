@@ -3918,7 +3918,7 @@ LPCSTR
 LPCSTR
 LPCSTR
 LPCSTR
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -3975,7 +3975,7 @@ DWORD_PTR
 cxt
 )
 {
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -4015,6 +4015,15 @@ curAcceptType
 ;
 }
 }
+/
+/
+XXX
+Could
+we
+move
+arrayAcceptTypes
+here
+?
 HORADelegateReqHandler
 :
 :
@@ -4075,7 +4084,7 @@ DWORD_PTR
 cxt
 )
 {
-nsTArray
+CopyableTArray
 <
 nsCString
 >

@@ -599,7 +599,7 @@ SAVE_FUNC
 }
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -1337,7 +1337,7 @@ mBufferTotal
 }
 }
 ;
-nsTArray
+CopyableTArray
 <
 Buffer
 >
