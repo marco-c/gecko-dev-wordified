@@ -121,7 +121,6 @@ const
 mockGetLoginDataWithSyncedDevices
 =
 (
-deviceCount
 mobileDeviceConnected
 =
 false
@@ -158,14 +157,6 @@ countLogins
 "
 "
 )
-numSyncedDevices
-:
-deviceCount
-mobileDeviceConnected
-:
-deviceCount
-&
-&
 mobileDeviceConnected
 }
 ;

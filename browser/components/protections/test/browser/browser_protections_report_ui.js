@@ -5370,7 +5370,6 @@ setTestOverride
 (
 mockGetLoginDataWithSyncedDevices
 (
-0
 )
 )
 ;
@@ -5564,7 +5563,6 @@ setTestOverride
 (
 mockGetLoginDataWithSyncedDevices
 (
-2
 true
 )
 )
@@ -5707,7 +5705,6 @@ setTestOverride
 (
 mockGetLoginDataWithSyncedDevices
 (
-0
 )
 )
 ;
@@ -5834,7 +5831,6 @@ setTestOverride
 (
 mockGetLoginDataWithSyncedDevices
 (
-2
 true
 )
 )
