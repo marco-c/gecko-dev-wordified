@@ -3907,6 +3907,7 @@ sanitizeFxaDeviceId
 deviceId
 )
 {
+return
 fxAccounts
 .
 telemetry
