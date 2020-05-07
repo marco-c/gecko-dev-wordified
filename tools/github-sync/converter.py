@@ -3372,12 +3372,18 @@ splitlines
         
 eprint
 (
-str
-(
 line
-"
-ascii
-"
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+ignore
+'
 )
 )
 #
