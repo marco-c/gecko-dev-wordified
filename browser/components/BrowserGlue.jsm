@@ -1928,6 +1928,13 @@ matches
 *
 "
 ]
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 allFrames
 :
 true
