@@ -790,11 +790,6 @@ MemoryReportTypes
 ipdlh
 '
 '
-PBrowserOrId
-.
-ipdlh
-'
-'
 PColorPicker
 .
 ipdl
