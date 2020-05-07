@@ -264,6 +264,10 @@ mozilla
 .
 org
 /
+%
+LOCALE
+%
+/
 firefox
 /
 beta
@@ -377,6 +381,10 @@ www
 mozilla
 .
 org
+/
+%
+LOCALE
+%
 /
 firefox
 /

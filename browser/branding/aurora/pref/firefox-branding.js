@@ -217,6 +217,10 @@ mozilla
 .
 org
 /
+%
+LOCALE
+%
+/
 firefox
 /
 aurora
@@ -277,6 +281,10 @@ www
 mozilla
 .
 org
+/
+%
+LOCALE
+%
 /
 firefox
 /
