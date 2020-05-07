@@ -1993,6 +1993,10 @@ aOtherContext
 -
 >
 mIPCPolicies
+.
+Clone
+(
+)
 ;
 return
 NS_OK

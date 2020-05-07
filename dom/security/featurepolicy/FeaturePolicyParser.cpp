@@ -406,7 +406,7 @@ aSelfOrigin
 ;
 nsTArray
 <
-nsTArray
+CopyableTArray
 <
 nsString
 >

@@ -300,7 +300,7 @@ eAllowList
 Policy
 mPolicy
 ;
-nsTArray
+CopyableTArray
 <
 nsCOMPtr
 <

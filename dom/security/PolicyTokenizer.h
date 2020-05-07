@@ -270,7 +270,7 @@ inline
 typedef
 nsTArray
 <
-nsTArray
+CopyableTArray
 <
 nsString
 >

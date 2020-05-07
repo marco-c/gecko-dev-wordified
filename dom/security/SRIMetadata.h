@@ -476,7 +476,7 @@ mIntegrityString
 }
 private
 :
-nsTArray
+CopyableTArray
 <
 nsCString
 >
