@@ -490,6 +490,11 @@ TEST_DIRS
 '
 tests
 '
+'
+tests
+/
+gtest
+'
 ]
 DIRS
 +
@@ -1106,6 +1111,11 @@ nsIWidgetListener
 cpp
 '
 '
+nsNativeBasicTheme
+.
+cpp
+'
+'
 nsPrimitiveHelpers
 .
 cpp
@@ -1556,6 +1566,12 @@ base
 dom
 /
 ipc
+'
+'
+/
+gfx
+/
+2d
 '
 '
 /

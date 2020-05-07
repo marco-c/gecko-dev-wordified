@@ -269,6 +269,10 @@ template
 <
 typename
 Time
+typename
+TimeStampNowProvider
+=
+TimeStamp
 >
 class
 SystemTimeConverter
@@ -373,7 +377,7 @@ aCurrentTimeGetter
 TimeStamp
 roughlyNow
 =
-TimeStamp
+TimeStampNowProvider
 :
 :
 Now
@@ -1617,7 +1621,7 @@ GetCurrentTime
 TimeStamp
 currentTimeStamp
 =
-TimeStamp
+TimeStampNowProvider
 :
 :
 Now
