@@ -352,7 +352,7 @@ using
 frontend
 :
 :
-TokenStream
+DummyTokenStream
 ;
 using
 frontend
@@ -2829,14 +2829,11 @@ options
 cx
 )
 ;
-TokenStream
+DummyTokenStream
 dummyTokenStream
 (
 cx
 options
-nullptr
-0
-nullptr
 )
 ;
 ReportSyntaxError
