@@ -815,10 +815,15 @@ previews
 if
 (
 !
-nsUXThemeData
+gfxWindowsPlatform
 :
 :
-CheckForCompositor
+GetPlatform
+(
+)
+-
+>
+DwmCompositionEnabled
 (
 )
 )
