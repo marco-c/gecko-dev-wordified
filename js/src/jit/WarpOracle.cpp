@@ -3716,12 +3716,6 @@ case
 JSOp
 :
 :
-CheckIsCallable
-:
-case
-JSOp
-:
-:
 CheckObjCoercible
 :
 case
