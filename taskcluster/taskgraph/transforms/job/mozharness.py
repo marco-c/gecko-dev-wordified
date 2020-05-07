@@ -1128,7 +1128,7 @@ sh
 #
 by
 default
-debian7
+debian8
 -
 amd64
 -
@@ -1166,7 +1166,7 @@ tree
 '
 :
 '
-debian7
+debian8
 -
 amd64
 -
