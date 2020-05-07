@@ -1071,7 +1071,7 @@ null
 *
 *
 param
-aDelay
+aDelayInMs
 delay
 in
 milliseconds
@@ -1101,7 +1101,7 @@ aObserver
 in
 unsigned
 long
-aDelay
+aDelayInMs
 in
 unsigned
 long
@@ -1144,7 +1144,7 @@ timer
 expires
 *
 param
-aDelay
+aDelayInMs
 The
 millisecond
 interval
@@ -1170,7 +1170,7 @@ aCallback
 in
 unsigned
 long
-aDelay
+aDelayInMs
 in
 unsigned
 long
