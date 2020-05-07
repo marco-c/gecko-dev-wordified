@@ -730,17 +730,6 @@ else
 false
 #
 endif
-TSAN
-:
-#
-ifdef
-MOZ_TSAN
-true
-#
-else
-false
-#
-endif
 MOZ_SYSTEM_NSS
 :
 #
