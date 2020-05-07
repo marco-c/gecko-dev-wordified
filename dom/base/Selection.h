@@ -1433,7 +1433,7 @@ nsPoint
 &
 aPoint
 uint32_t
-aDelay
+aDelayInMs
 )
 ;
 nsresult
