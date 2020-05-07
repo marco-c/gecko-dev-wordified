@@ -859,7 +859,7 @@ record
 glean
 now
 .
-as_u64
+as_millis
 (
 )
 extra
