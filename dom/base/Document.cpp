@@ -11431,7 +11431,7 @@ SendIsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 aURI
 flags
 attrs
@@ -11511,7 +11511,7 @@ IsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 aURI
 flags
 attrs

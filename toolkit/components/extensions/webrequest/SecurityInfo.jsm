@@ -1246,7 +1246,8 @@ options
 /
 HSTS
 and
-HPKP
+static
+pinning
 if
 available
 .
@@ -1343,7 +1344,7 @@ isSecureURI
 (
 sss
 .
-HEADER_HPKP
+STATIC_PINNING
 uri
 flags
 )

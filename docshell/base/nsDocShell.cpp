@@ -20444,13 +20444,6 @@ section
 12
 .
 1
-HPKP
-draft
-spec
-section
-2
-.
-6
 )
 .
 uint32_t
@@ -20541,7 +20534,7 @@ IsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 aURI
 flags
 GetOriginAttributes
@@ -20611,7 +20604,7 @@ SendIsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 aURI
 flags
 GetOriginAttributes
