@@ -692,7 +692,6 @@ DeviceSelector
 {
 devices
 onChangeDevice
-doResizeViewport
 onUpdateDeviceModal
 selectedDevice
 viewportId
