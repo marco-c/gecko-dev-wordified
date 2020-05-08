@@ -7108,7 +7108,9 @@ attrs
 )
 ;
 }
-chromeShell
+windowlessBrowser
+.
+browsingContext
 .
 useGlobalHistory
 =

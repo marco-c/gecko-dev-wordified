@@ -679,7 +679,16 @@ systemPrincipal
 systemPrincipal
 )
 ;
-docShell
+let
+browsingContext
+=
+this
+.
+_browser
+.
+browsingContext
+;
+browsingContext
 .
 useGlobalHistory
 =
