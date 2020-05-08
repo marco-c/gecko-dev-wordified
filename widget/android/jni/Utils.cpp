@@ -1982,6 +1982,15 @@ IsInstanceOf
 instance
 sJNIObjectClass
 )
+"
+Java
+class
+is
+not
+derived
+from
+JNIObject
+"
 )
 ;
 return
