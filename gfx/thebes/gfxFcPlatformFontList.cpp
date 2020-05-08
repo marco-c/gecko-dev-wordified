@@ -8739,6 +8739,13 @@ aFontFamily
 FontVisibility
 visibility
 =
+aAppFonts
+?
+FontVisibility
+:
+:
+Base
+:
 GetVisibilityForFamily
 (
 keyName
@@ -10569,6 +10576,13 @@ name
 FontVisibility
 visibility
 =
+aAppFont
+?
+FontVisibility
+:
+:
+Base
+:
 GetVisibilityForFamily
 (
 keyName
