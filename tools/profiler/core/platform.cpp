@@ -1788,6 +1788,11 @@ ProfilerFeature
 :
 :
 Threads
+|
+ProfilerFeature
+:
+:
+Screenshots
 ;
 }
 /
