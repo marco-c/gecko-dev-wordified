@@ -129,9 +129,6 @@ include
 protocol
 PBrowser
 ;
-include
-PBrowserOrId
-;
 using
 UIStateChangeType
 from
@@ -190,7 +187,7 @@ open
 struct
 PopupIPCTabContext
 {
-PBrowserOrId
+PBrowser
 opener
 ;
 uint64_t

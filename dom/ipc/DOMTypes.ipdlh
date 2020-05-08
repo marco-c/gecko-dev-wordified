@@ -283,7 +283,11 @@ using
 nsSizeMode
 from
 "
-nsIWidgetListener
+mozilla
+/
+dom
+/
+TabMessageUtils
 .
 h
 "
