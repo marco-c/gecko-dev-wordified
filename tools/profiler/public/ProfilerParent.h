@@ -502,6 +502,12 @@ aParams
 ;
 static
 void
+ProfilerWillStopIfStarted
+(
+)
+;
+static
+void
 ProfilerStopped
 (
 )
