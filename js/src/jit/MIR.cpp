@@ -33428,6 +33428,12 @@ if
 templateObject
 (
 )
+&
+&
+!
+JitOptions
+.
+warpBuilder
 )
 {
 if
