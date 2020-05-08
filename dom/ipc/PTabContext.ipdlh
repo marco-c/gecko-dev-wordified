@@ -212,15 +212,6 @@ frame
 struct
 FrameIPCTabContext
 {
-/
-/
-The
-originAttributes
-dictionary
-.
-OriginAttributes
-originAttributes
-;
 uint64_t
 chromeOuterWindowID
 ;

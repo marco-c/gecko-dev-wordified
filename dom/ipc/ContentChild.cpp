@@ -6273,12 +6273,6 @@ aTabOpener
 ShowFocusRings
 (
 )
-browsingContext
--
->
-OriginAttributesRef
-(
-)
 aTabOpener
 -
 >
@@ -6312,12 +6306,6 @@ showFocusRings
 *
 /
 UIStateChangeType_NoChange
-browsingContext
--
->
-OriginAttributesRef
-(
-)
 /
 *
 presentationURL
