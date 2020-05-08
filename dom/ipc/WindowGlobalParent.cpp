@@ -517,6 +517,7 @@ aInit
 innerWindowId
 (
 )
+aInProcess
 {
 }
 )
@@ -535,10 +536,6 @@ aInit
 documentURI
 (
 )
-)
-mInProcess
-(
-aInProcess
 )
 mIsInitialDocument
 (
@@ -710,7 +707,9 @@ nullptr
 if
 (
 !
-mInProcess
+IsInProcess
+(
+)
 )
 {
 cp
@@ -4167,7 +4166,9 @@ nullptr
 if
 (
 !
-mInProcess
+IsInProcess
+(
+)
 )
 {
 cp
@@ -4331,7 +4332,9 @@ process
 if
 (
 !
-mInProcess
+IsInProcess
+(
+)
 )
 {
 RefPtr
