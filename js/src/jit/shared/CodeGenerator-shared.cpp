@@ -341,10 +341,6 @@ masmArg
 maybeMasm_
 (
 )
-useWasmStackArgumentAbi_
-(
-false
-)
 masm
 (
 ensureMasm

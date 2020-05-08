@@ -79252,10 +79252,6 @@ code
 "
 )
 ;
-setUseWasmStackArgumentAbi
-(
-)
-;
 size_t
 nInboundStackArgBytes
 =

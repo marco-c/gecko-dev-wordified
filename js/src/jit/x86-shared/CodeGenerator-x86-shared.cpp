@@ -14010,8 +14010,14 @@ reg
 return
 Operand
 (
-ToAddress
+masm
+.
+getStackPointer
 (
+)
+ToStackOffset
+(
+&
 a
 )
 )
@@ -14135,7 +14141,8 @@ MEMORY
 return
 MoveOperand
 (
-ToAddress
+StackPointer
+ToStackOffset
 (
 a
 )
