@@ -345,12 +345,7 @@ reg
 return
 Operand
 (
-masm
-.
-getStackPointer
-(
-)
-ToStackOffset
+ToAddress
 (
 a
 )
