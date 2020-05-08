@@ -292,13 +292,6 @@ nsRefPtrHashtable
 h
 "
 #
-include
-"
-nsIWindowProvider
-.
-h
-"
-#
 if
 defined
 (
@@ -508,8 +501,6 @@ PContentChild
 public
 nsIContentChild
 public
-nsIWindowProvider
-public
 mozilla
 :
 :
@@ -565,7 +556,6 @@ PContentChild
 public
 :
 NS_DECL_NSICONTENTCHILD
-NS_DECL_NSIWINDOWPROVIDER
 ContentChild
 (
 )
