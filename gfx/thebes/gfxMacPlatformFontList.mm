@@ -8664,7 +8664,7 @@ gfxFontStyle
 *
 aMatchStyle
 FontFamily
-*
+&
 aMatchedFamily
 )
 {
@@ -9031,7 +9031,6 @@ aCh
 )
 )
 {
-*
 aMatchedFamily
 =
 FontFamily
@@ -9097,7 +9096,6 @@ aCh
 )
 )
 {
-*
 aMatchedFamily
 =
 FontFamily

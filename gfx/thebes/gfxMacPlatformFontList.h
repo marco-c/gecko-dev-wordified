@@ -1169,7 +1169,7 @@ gfxFontStyle
 *
 aMatchStyle
 FontFamily
-*
+&
 aMatchedFamily
 )
 override
