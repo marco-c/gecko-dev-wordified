@@ -50467,7 +50467,7 @@ script
 using
 Fn
 =
-JSObject
+ArrayObject
 *
 (
 *
