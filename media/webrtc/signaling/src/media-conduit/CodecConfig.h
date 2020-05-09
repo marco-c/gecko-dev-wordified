@@ -152,6 +152,12 @@ mDtmfEnabled
 OPUS
 -
 specific
+bool
+mDTXEnabled
+;
+uint32_t
+mMaxAverageBitrate
+;
 int
 mMaxPlaybackRate
 ;
@@ -195,6 +201,14 @@ FECEnabled
 mDtmfEnabled
 (
 false
+)
+mDTXEnabled
+(
+false
+)
+mMaxAverageBitrate
+(
+0
 )
 mMaxPlaybackRate
 (
