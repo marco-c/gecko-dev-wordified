@@ -12176,14 +12176,6 @@ SetLayoutFlags
 flags
 )
 ;
-nsIFrame
-:
-:
-DoXULLayout
-(
-aState
-)
-;
 return
 rv
 ;
