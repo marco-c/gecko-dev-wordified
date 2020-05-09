@@ -720,6 +720,12 @@ sourceBuffer
 )
 ;
 }
+MOZ_MUST_USE
+bool
+publishDeferredFunctions
+(
+)
+;
 void
 trace
 (

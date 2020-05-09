@@ -2872,9 +2872,8 @@ items
 if
 (
 !
-parser
--
->
+compilationInfo
+.
 publishDeferredFunctions
 (
 )
@@ -3216,9 +3215,8 @@ nullptr
 if
 (
 !
-parser
--
->
+compilationInfo
+.
 publishDeferredFunctions
 (
 )
@@ -3819,9 +3817,8 @@ extent
 if
 (
 !
-parser
--
->
+compilationInfo
+.
 publishDeferredFunctions
 (
 )
@@ -5571,7 +5568,7 @@ false
 if
 (
 !
-parser
+compilationInfo
 .
 publishDeferredFunctions
 (
