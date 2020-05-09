@@ -934,6 +934,7 @@ the
 mainthread
 nsThread
 .
+const
 bool
 mIsMainThread
 ;
@@ -1213,6 +1214,7 @@ PRThread
 GetPRThread
 (
 )
+const
 {
 return
 mThread
@@ -1455,6 +1457,7 @@ bool
 ShuttingDown
 (
 )
+const
 {
 return
 mShutdownContext
@@ -1475,6 +1478,7 @@ nsIRunnable
 *
 aEvent
 )
+const
 ;
 size_t
 SizeOfIncludingThis
@@ -1700,6 +1704,7 @@ DoMainThreadSpecificProcessing
 bool
 aReallyWait
 )
+const
 ;
 protected
 :
@@ -2065,6 +2070,7 @@ mShutdownRequired
 int8_t
 mPriority
 ;
+const
 bool
 mIsMainThread
 ;
