@@ -7351,7 +7351,6 @@ removeEventListener
 ;
 resolve
 (
-eventName
 )
 ;
 }
