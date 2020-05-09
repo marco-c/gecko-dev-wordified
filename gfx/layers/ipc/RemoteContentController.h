@@ -491,8 +491,10 @@ override
 ;
 private
 :
-MessageLoop
-*
+nsCOMPtr
+<
+nsISerialEventTarget
+>
 mCompositorThread
 ;
 bool
