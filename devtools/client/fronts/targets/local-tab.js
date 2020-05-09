@@ -912,7 +912,9 @@ this
 once
 (
 "
-close
+target
+-
+destroyed
 "
 )
 ;
