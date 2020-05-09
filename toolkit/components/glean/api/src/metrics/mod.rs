@@ -159,6 +159,9 @@ mod
 counter
 ;
 mod
+datetime
+;
+mod
 event
 ;
 mod
@@ -201,6 +204,16 @@ counter
 :
 :
 CounterMetric
+;
+pub
+use
+self
+:
+:
+datetime
+:
+:
+DatetimeMetric
 ;
 pub
 use
