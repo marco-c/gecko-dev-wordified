@@ -3196,6 +3196,12 @@ noPopup
 =
 true
 ;
+exc
+.
+noReport
+=
+true
+;
 throw
 exc
 ;
