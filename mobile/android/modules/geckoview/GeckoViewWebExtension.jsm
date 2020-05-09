@@ -1456,7 +1456,7 @@ is
 ready
 if
 present
-const
+let
 policy
 =
 WebExtensionPolicy
@@ -1471,8 +1471,13 @@ id
 if
 (
 policy
+?
+.
+readyPromise
 )
 {
+policy
+=
 await
 policy
 .
