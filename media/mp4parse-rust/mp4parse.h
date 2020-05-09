@@ -58,10 +58,10 @@ MPL
 .
 #
 ifndef
-mozilla_media_mp4parse_rust_mp4parse_h
+mp4parse_rust_mp4parse_h
 #
 define
-mozilla_media_mp4parse_rust_mp4parse_h
+mp4parse_rust_mp4parse_h
 #
 include
 "

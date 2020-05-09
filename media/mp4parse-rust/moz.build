@@ -166,10 +166,8 @@ inputs
 [
 '
 /
-media
+third_party
 /
-mp4parse
--
 rust
 /
 mp4parse_capi
