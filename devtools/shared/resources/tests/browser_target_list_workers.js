@@ -1069,7 +1069,7 @@ given
 test
 tab
 const
-target
+descriptor
 =
 await
 mainRoot
@@ -1079,6 +1079,16 @@ getTab
 {
 tab
 }
+)
+;
+const
+target
+=
+await
+descriptor
+.
+getTarget
+(
 )
 ;
 /

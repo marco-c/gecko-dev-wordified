@@ -620,7 +620,10 @@ which
 is
 a
 BrowsingContextTargetFront
-return
+const
+descriptor
+=
+await
 client
 .
 mainRoot
@@ -630,6 +633,13 @@ getTab
 {
 tab
 }
+)
+;
+return
+descriptor
+.
+getTarget
+(
 )
 ;
 }

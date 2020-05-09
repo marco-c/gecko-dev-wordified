@@ -974,7 +974,8 @@ given
 browser
 iframe
 .
-target
+const
+tabDescriptor
 =
 await
 client
@@ -986,6 +987,15 @@ getTab
 {
 tab
 }
+)
+;
+target
+=
+await
+tabDescriptor
+.
+getTarget
+(
 )
 ;
 /

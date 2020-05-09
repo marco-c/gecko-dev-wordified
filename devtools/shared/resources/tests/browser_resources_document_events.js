@@ -128,7 +128,7 @@ createLocalClient
 )
 ;
 const
-target
+descriptor
 =
 await
 client
@@ -140,6 +140,16 @@ getTab
 {
 tab
 }
+)
+;
+const
+target
+=
+await
+descriptor
+.
+getTarget
+(
 )
 ;
 const

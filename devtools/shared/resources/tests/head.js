@@ -316,14 +316,14 @@ createLocalClient
 )
 ;
 let
-target
+descriptor
 ;
 if
 (
 tab
 )
 {
-target
+descriptor
 =
 await
 client
@@ -340,7 +340,6 @@ tab
 }
 else
 {
-const
 descriptor
 =
 await
@@ -352,6 +351,8 @@ getMainProcess
 (
 )
 ;
+}
+const
 target
 =
 await
@@ -361,7 +362,6 @@ getTarget
 (
 )
 ;
-}
 const
 targetList
 =

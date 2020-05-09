@@ -1200,8 +1200,8 @@ getProcess
 *
 Fetch
 the
-target
-actor
+tab
+descriptor
 for
 the
 currently
@@ -1596,10 +1596,6 @@ tab
 }
 return
 descriptorFront
-.
-getTarget
-(
-)
 ;
 }
 /
