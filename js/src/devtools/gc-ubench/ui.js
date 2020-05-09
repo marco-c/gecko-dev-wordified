@@ -3456,7 +3456,7 @@ initial
 garbage
 size
 .
-garbage_total_changed
+garbage_piles_changed
 (
 )
 ;
@@ -4393,7 +4393,7 @@ format_units
 (
 load
 .
-garbageTotal
+garbagePiles
 )
 }
 )
@@ -4497,7 +4497,7 @@ getElementById
 "
 garbage
 -
-total
+piles
 "
 )
 .
@@ -4511,7 +4511,7 @@ activeLoad
 (
 )
 .
-garbageTotal
+garbagePiles
 )
 ;
 update_load_state_indicator
@@ -4620,7 +4620,7 @@ reset_draw_state
 ;
 }
 function
-garbage_total_changed
+garbage_piles_changed
 (
 )
 {
@@ -4636,7 +4636,7 @@ getElementById
 "
 garbage
 -
-total
+piles
 "
 )
 .
@@ -4665,7 +4665,7 @@ load_running
 {
 gLoadMgr
 .
-change_garbageTotal
+change_garbagePiles
 (
 value
 )
@@ -4677,7 +4677,7 @@ log
 Updated
 garbage
 -
-total
+piles
 to
 {
 gLoadMgr
@@ -4686,7 +4686,7 @@ activeLoad
 (
 )
 .
-garbageTotal
+garbagePiles
 }
 items
 )
