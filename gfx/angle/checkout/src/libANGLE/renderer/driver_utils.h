@@ -414,6 +414,13 @@ mVersionPart
 }
 ;
 bool
+IsSandyBridge
+(
+uint32_t
+DeviceId
+)
+;
+bool
 IsIvyBridge
 (
 uint32_t
