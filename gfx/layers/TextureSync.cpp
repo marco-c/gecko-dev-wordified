@@ -727,15 +727,12 @@ CheckTexturesForUnlock
 CheckTexturesForUnlock
 )
 ;
-CompositorThreadHolder
-:
-:
-Loop
+CompositorThread
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 task
 .

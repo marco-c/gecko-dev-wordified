@@ -291,11 +291,6 @@ GetUiThread
 )
 -
 >
-SerialEventTarget
-(
-)
--
->
 IsOnCurrentThread
 (
 )
@@ -1423,10 +1418,7 @@ mozilla
 layers
 :
 :
-CompositorThreadHolder
-:
-:
-Loop
+CompositorThread
 (
 )
 mozilla

@@ -994,12 +994,12 @@ GetTextureForwarder
 )
 -
 >
-GetMessageLoop
+GetThread
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 task
 .

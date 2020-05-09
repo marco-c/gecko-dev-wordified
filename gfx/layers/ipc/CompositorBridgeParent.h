@@ -550,9 +550,6 @@ VsyncDispatcher
 h
 "
 class
-MessageLoop
-;
-class
 nsIWidget
 ;
 namespace
