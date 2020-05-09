@@ -23170,7 +23170,7 @@ ASSERT_EQ
 opus_parameters
 -
 >
-maxaveragebitrate
+maxAverageBitrate
 )
 ;
 ASSERT_EQ

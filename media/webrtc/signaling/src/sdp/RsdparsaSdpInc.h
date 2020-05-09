@@ -638,6 +638,9 @@ Opus
 uint32_t
 maxplaybackrate
 ;
+uint32_t
+maxaveragebitrate
+;
 bool
 usedtx
 ;
@@ -649,6 +652,15 @@ useinbandfec
 ;
 bool
 cbr
+;
+uint32_t
+ptime
+;
+uint32_t
+minptime
+;
+uint32_t
+maxptime
 ;
 /
 /
