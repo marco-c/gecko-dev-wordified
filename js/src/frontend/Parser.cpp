@@ -1131,9 +1131,6 @@ cx
 CompilationInfo
 &
 compilationInfo
-ScriptSourceObject
-*
-sourceObject
 Kind
 kind
 )
@@ -1176,11 +1173,6 @@ usedNames_
 compilationInfo
 .
 usedNames
-)
-sourceObject_
-(
-cx
-sourceObject
 )
 {
 cx
@@ -1232,16 +1224,12 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
-ScriptSourceObject
-*
-sourceObject
 )
 :
 ParserSharedBase
 (
 cx
 compilationInfo
-sourceObject
 ParserSharedBase
 :
 :
@@ -1360,9 +1348,6 @@ compilationInfo
 BaseScript
 *
 lazyOuterFunction
-ScriptSourceObject
-*
-sourceObject
 void
 *
 internalSyntaxParser
@@ -1374,7 +1359,6 @@ cx
 options
 foldConstants
 compilationInfo
-sourceObject
 )
 handler_
 (
@@ -1434,9 +1418,6 @@ syntaxParser
 BaseScript
 *
 lazyOuterFunction
-ScriptSourceObject
-*
-sourceObject
 )
 :
 Base
@@ -1447,7 +1428,6 @@ foldConstants
 compilationInfo
 syntaxParser
 lazyOuterFunction
-sourceObject
 )
 tokenStream
 (
@@ -11336,8 +11316,6 @@ function
 FunctionBox
 *
 funbox
-HandleScriptSourceObject
-sourceObject
 )
 {
 MOZ_ASSERT
@@ -11438,6 +11416,8 @@ length
 (
 )
 function
+compilationInfo
+.
 sourceObject
 funbox
 -
@@ -11781,10 +11761,6 @@ compilationInfo_
 stencil
 fun
 funbox
-parser
--
->
-sourceObject_
 )
 ;
 }

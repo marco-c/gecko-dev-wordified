@@ -2141,9 +2141,6 @@ false
 compilationInfo
 nullptr
 nullptr
-compilationInfo
-.
-sourceObject
 )
 ;
 if
@@ -2373,9 +2370,6 @@ binParser
 cx
 binCompilationInfo
 binOptions
-binCompilationInfo
-.
-sourceObject
 )
 ;
 auto

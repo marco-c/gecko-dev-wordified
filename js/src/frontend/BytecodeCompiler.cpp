@@ -2240,9 +2240,6 @@ false
 compilationInfo
 nullptr
 nullptr
-compilationInfo
-.
-sourceObject
 )
 ;
 if
@@ -2296,9 +2293,6 @@ ptrOr
 nullptr
 )
 nullptr
-compilationInfo
-.
-sourceObject
 )
 ;
 parser
@@ -4341,9 +4335,6 @@ parser
 cx
 compilationInfo
 options
-compilationInfo
-.
-sourceObject
 )
 ;
 /
@@ -5516,9 +5507,6 @@ true
 compilationInfo
 nullptr
 lazy
-compilationInfo
-.
-sourceObject
 )
 ;
 if
@@ -6064,9 +6052,6 @@ parser
 cx
 compilationInfo
 options
-compilationInfo
-.
-sourceObject
 lazy
 )
 ;

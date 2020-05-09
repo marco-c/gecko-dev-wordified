@@ -485,8 +485,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-HandleScriptSourceObject
-sourceObject
 Handle
 <
 BaseScript
@@ -505,7 +503,6 @@ Tok
 cx
 compilationInfo
 options
-sourceObject
 lazyScript
 )
 {
@@ -546,6 +543,12 @@ using
 Base
 :
 :
+compilationInfo_
+;
+using
+Base
+:
+:
 handler_
 ;
 using
@@ -553,12 +556,6 @@ Base
 :
 :
 pc_
-;
-using
-Base
-:
-:
-sourceObject_
 ;
 protected
 :

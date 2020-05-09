@@ -242,8 +242,6 @@ cx
 CompilationInfo
 &
 compilationInfo
-HandleScriptSourceObject
-sourceObject
 )
 ;
 ~

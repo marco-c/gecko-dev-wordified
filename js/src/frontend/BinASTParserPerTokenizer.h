@@ -486,8 +486,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-HandleScriptSourceObject
-sourceObject
 Handle
 <
 BaseScript

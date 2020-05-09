@@ -781,8 +781,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-HandleScriptSourceObject
-sourceObject
 Handle
 <
 BaseScript
@@ -801,7 +799,6 @@ BinASTParserBase
 (
 cx
 compilationInfo
-sourceObject
 )
 options_
 (
@@ -2996,7 +2993,9 @@ ngcthings
 /
 0
 fun
-sourceObject_
+compilationInfo_
+.
+sourceObject
 extent
 immutableFlags
 )

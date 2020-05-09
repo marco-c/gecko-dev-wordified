@@ -470,9 +470,6 @@ reader
 gCx
 binCompilationInfo
 options
-binCompilationInfo
-.
-sourceObject
 )
 ;
 /

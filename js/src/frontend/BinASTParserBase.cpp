@@ -145,15 +145,12 @@ cx
 CompilationInfo
 &
 compilationInfo
-HandleScriptSourceObject
-sourceObject
 )
 :
 ParserSharedBase
 (
 cx
 compilationInfo
-sourceObject
 ParserSharedBase
 :
 :
