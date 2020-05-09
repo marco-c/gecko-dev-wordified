@@ -4880,6 +4880,14 @@ rustFmtpParameters
 .
 maxptime
 ;
+opusParameters
+.
+useCbr
+=
+rustFmtpParameters
+.
+cbr
+;
 fmtpParameters
 .
 reset

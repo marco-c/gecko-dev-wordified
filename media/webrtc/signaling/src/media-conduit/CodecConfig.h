@@ -170,6 +170,9 @@ mMaxAverageBitrate
 int
 mMaxPlaybackRate
 ;
+bool
+mCbrEnabled
+;
 AudioCodecConfig
 (
 int
@@ -234,6 +237,10 @@ mMaxAverageBitrate
 mMaxPlaybackRate
 (
 0
+)
+mCbrEnabled
+(
+false
 )
 {
 }
