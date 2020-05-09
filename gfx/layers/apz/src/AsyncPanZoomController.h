@@ -347,6 +347,15 @@ SampledAPZCState
 .
 h
 "
+#
+include
+"
+base
+/
+message_loop
+.
+h
+"
 namespace
 mozilla
 {
