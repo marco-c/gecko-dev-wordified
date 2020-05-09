@@ -703,6 +703,10 @@ enableWasmBigInt
 endif
 extern
 bool
+enableSourcePragmas
+;
+extern
+bool
 enableAsyncStacks
 ;
 extern
