@@ -629,7 +629,7 @@ message_id
 :
 this
 .
-AWMesssageId
+AWMessageId
 id
 :
 "
@@ -712,7 +712,7 @@ SET_WELCOME_MESSAGE_SEEN
 :
 this
 .
-AWMesssageId
+AWMessageId
 =
 data
 ;
