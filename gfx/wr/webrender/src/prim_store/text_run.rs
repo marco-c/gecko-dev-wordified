@@ -1635,6 +1635,7 @@ let
 (
 use_subpixel_aa
 transform_glyphs
+texture_padding
 oversized
 )
 =
@@ -1665,6 +1666,7 @@ has_2d_inverse
 (
 false
 false
+true
 device_font_size
 >
 FONT_SIZE_LIMIT
@@ -1689,6 +1691,7 @@ f64
 false
 false
 true
+true
 )
 }
 else
@@ -1701,6 +1704,7 @@ transform
 is_simple_2d_translation
 (
 )
+false
 false
 )
 }
@@ -2223,6 +2227,16 @@ transform_glyphs
 !
 =
 transform_glyphs
+|
+|
+self
+.
+used_font
+.
+texture_padding
+!
+=
+texture_padding
 ;
 /
 /
@@ -2245,6 +2259,7 @@ transform
 :
 font_transform
 transform_glyphs
+texture_padding
 size
 :
 specified_font
