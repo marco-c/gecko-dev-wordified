@@ -25835,6 +25835,10 @@ msg
 new
 nsScriptErrorWithStack
 (
+JS
+:
+:
+NothingHandleValue
 stackObj
 stackGlobal
 )
