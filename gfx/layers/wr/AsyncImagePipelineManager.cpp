@@ -3786,12 +3786,15 @@ CheckForTextureHostsNotUsedByGPU
 layers
 :
 :
-CompositorThread
+CompositorThreadHolder
+:
+:
+Loop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NewRunnableMethod
 (

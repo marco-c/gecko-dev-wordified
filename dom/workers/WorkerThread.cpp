@@ -1651,7 +1651,6 @@ nsIRunnable
 *
 aEvent
 )
-const
 {
 if
 (

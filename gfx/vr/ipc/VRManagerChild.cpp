@@ -383,6 +383,15 @@ VRDisplayCapabilityFlags
 :
 Cap_None
 )
+mMessageLoop
+(
+MessageLoop
+:
+:
+current
+(
+)
+)
 mFrameRequestCallbackCounter
 (
 0
@@ -737,7 +746,10 @@ sVRManagerParentSingleton
 GetIPCChannel
 (
 )
-CompositorThread
+CompositorThreadHolder
+:
+:
+Loop
 (
 )
 mozilla
