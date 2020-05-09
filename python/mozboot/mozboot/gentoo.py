@@ -78,6 +78,8 @@ FixStacksInstall
     
 LucetcInstall
     
+MinidumpStackwalkInstall
+    
 NasmInstall
     
 NodeInstall
@@ -97,6 +99,8 @@ ClangStaticAnalysisInstall
 FixStacksInstall
         
 LucetcInstall
+        
+MinidumpStackwalkInstall
         
 NasmInstall
         
