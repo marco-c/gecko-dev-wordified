@@ -10014,10 +10014,6 @@ VsyncSource
 :
 Display
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-D3DVsyncDisplay
-)
 public
 :
 D3DVsyncDisplay
@@ -11585,8 +11581,6 @@ vsync
 end
 for
 }
-private
-:
 virtual
 ~
 D3DVsyncDisplay
@@ -11601,6 +11595,8 @@ NS_IsMainThread
 )
 ;
 }
+private
+:
 bool
 IsInVsyncThread
 (

@@ -2133,6 +2133,14 @@ public
 OSXVsyncSource
 (
 )
+:
+mGlobalDisplay
+(
+new
+OSXDisplay
+(
+)
+)
 {
 }
 Display
@@ -2143,6 +2151,7 @@ GetGlobalDisplay
 override
 {
 return
+*
 mGlobalDisplay
 ;
 }
@@ -3053,7 +3062,10 @@ OSXVsyncSource
 =
 default
 ;
+RefPtr
+<
 OSXDisplay
+>
 mGlobalDisplay
 ;
 }
