@@ -262,15 +262,6 @@ trc
 )
 override
 {
-FunctionBox
-:
-:
-TraceList
-(
-trc
-traceListHead_
-)
-;
 }
 }
 ;
