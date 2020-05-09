@@ -194,6 +194,9 @@ RTP_I420
 RTP_ISAC
 =
 124
+RTP_RTX
+=
+125
 }
 rtp_ptype
 ;
