@@ -6441,6 +6441,7 @@ nsIRunnable
 *
 aEvent
 )
+const
 {
 RefPtr
 <
@@ -8387,6 +8388,7 @@ DoMainThreadSpecificProcessing
 bool
 aReallyWait
 )
+const
 {
 MOZ_ASSERT
 (
