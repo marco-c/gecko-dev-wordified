@@ -1093,7 +1093,7 @@ open
 (
 project_path
 '
-wb
+w
 '
 )
 as
@@ -1129,7 +1129,7 @@ open
 (
 cproject_path
 '
-wb
+w
 '
 )
 as
@@ -1166,7 +1166,7 @@ open
 (
 language_path
 '
-wb
+w
 '
 )
 as
@@ -1205,7 +1205,7 @@ open
 (
 workspace_language_path
 '
-wb
+w
 '
 )
 as
@@ -1280,7 +1280,7 @@ open
 (
 core_resources_prefs_path
 '
-wb
+w
 '
 )
 as
@@ -1322,7 +1322,7 @@ open
 (
 core_runtime_prefs_path
 '
-wb
+w
 '
 )
 as
@@ -1361,7 +1361,7 @@ open
 (
 ui_prefs_path
 '
-wb
+w
 '
 )
 as
@@ -1635,7 +1635,7 @@ open
 (
 cdt_ui_prefs_path
 '
-wb
+w
 '
 )
 as
@@ -1676,7 +1676,7 @@ open
 (
 cdt_core_prefs_path
 '
-wb
+w
 '
 )
 as
@@ -1780,7 +1780,7 @@ open
 (
 editor_prefs_path
 '
-wb
+w
 '
 )
 as
@@ -2072,7 +2072,7 @@ open
 (
 noindex_path
 '
-wb
+w
 '
 )
 as
@@ -3285,7 +3285,7 @@ open
 (
 main_gecko_launch
 '
-wb
+w
 '
 )
 as
