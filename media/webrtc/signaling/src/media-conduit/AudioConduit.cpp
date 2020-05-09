@@ -3800,8 +3800,12 @@ void
 data
 int
 len
-uint32_t
-ssrc
+webrtc
+:
+:
+RTPHeader
+&
+header
 )
 {
 ASSERT_ON_THREAD
@@ -3959,6 +3963,8 @@ if
 mRecvSSRC
 !
 =
+header
+.
 ssrc
 )
 {
@@ -4036,6 +4042,8 @@ uint32_t
 (
 mRecvSSRC
 )
+header
+.
 ssrc
 )
 ;
@@ -4056,6 +4064,8 @@ is
 released
 mRecvSSRC
 =
+header
+.
 ssrc
 ;
 /
@@ -4109,6 +4119,10 @@ NewRunnableFrom
 [
 self
 thread
+ssrc
+=
+header
+.
 ssrc
 ]
 (
