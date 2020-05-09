@@ -105,6 +105,12 @@ ActorType
 UnionType
 TypeVisitor
 builtinHeaderIncludes
+from
+ipdl
+.
+util
+import
+hash_str
 #
 -
 -
@@ -540,7 +546,7 @@ value
     
 h
 =
-hash
+hash_str
 (
 value
 )
@@ -14158,9 +14164,6 @@ sentinelFail
 Read
 the
 sentinel
-        
-assert
-sentinelKey
         
 read
 =

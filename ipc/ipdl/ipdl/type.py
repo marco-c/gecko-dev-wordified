@@ -125,6 +125,12 @@ ipdl
 builtin
 as
 builtin
+from
+ipdl
+.
+util
+import
+hash_str
 _DELETE_MSG
 =
 '
@@ -633,7 +639,7 @@ self
 :
         
 return
-hash
+hash_str
 (
 self
 .
