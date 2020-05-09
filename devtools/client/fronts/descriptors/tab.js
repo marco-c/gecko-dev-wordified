@@ -159,7 +159,6 @@ constructor
 client
 targetFront
 parentFront
-options
 )
 {
 super
