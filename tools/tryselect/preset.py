@@ -62,6 +62,8 @@ unicode_literals
 import
 os
 import
+shlex
+import
 subprocess
 import
 yaml
@@ -306,7 +308,10 @@ subprocess
 .
 call
 (
-[
+shlex
+.
+split
+(
 os
 .
 environ
@@ -315,6 +320,9 @@ environ
 EDITOR
 '
 ]
+)
++
+[
 self
 .
 path
