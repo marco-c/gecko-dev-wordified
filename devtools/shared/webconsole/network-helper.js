@@ -2094,6 +2094,14 @@ parseSameSiteAttribute
 attribute
 )
 {
+attribute
+=
+attribute
+.
+toLowerCase
+(
+)
+;
 switch
 (
 attribute
@@ -2103,6 +2111,10 @@ case
 COOKIE_SAMESITE
 .
 LAX
+.
+toLowerCase
+(
+)
 :
 return
 COOKIE_SAMESITE
@@ -2113,6 +2125,10 @@ case
 COOKIE_SAMESITE
 .
 STRICT
+.
+toLowerCase
+(
+)
 :
 return
 COOKIE_SAMESITE
