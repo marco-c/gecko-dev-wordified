@@ -4912,7 +4912,10 @@ None
 ScopeData
 :
 :
-AliasPrevious
+Alias
+(
+enclosing
+)
 }
 }
 }
@@ -5105,7 +5108,7 @@ or
 ScopeData
 :
 :
-AliasPrevious
+Alias
 .
 extra_body_var
 :
@@ -5122,7 +5125,7 @@ or
 ScopeData
 :
 :
-AliasPrevious
+Alias
 .
 lexical
 :
@@ -8004,7 +8007,12 @@ envRec
 ScopeData
 :
 :
-AliasPrevious
+Alias
+(
+self
+.
+scope_index
+)
 }
 /
 /
@@ -8932,7 +8940,12 @@ else
 ScopeData
 :
 :
-AliasPrevious
+Alias
+(
+body_scope_builder
+.
+var_scope_index
+)
 }
 ;
 /

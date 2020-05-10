@@ -18,6 +18,9 @@ mod
 declaration_kind
 ;
 mod
+early_error_checker
+;
+mod
 early_errors
 ;
 mod
