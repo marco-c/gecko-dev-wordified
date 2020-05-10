@@ -1223,9 +1223,7 @@ const
 CompositorAnimatableDisplayItemTypes
 &
 aDisplayItemTypes
-const
 AnimationGenerationCallback
-&
 aCallback
 )
 {

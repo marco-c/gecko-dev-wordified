@@ -42765,9 +42765,7 @@ const
 nsIFrame
 *
 aFrame
-const
 AnimationGenerationCallback
-&
 aCallback
 )
 {
