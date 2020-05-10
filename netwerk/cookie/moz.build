@@ -340,16 +340,6 @@ protocol
 http
 '
 ]
-TESTING_JS_MODULES
-+
-=
-[
-'
-CookieXPCShellUtils
-.
-jsm
-'
-]
 include
 (
 '

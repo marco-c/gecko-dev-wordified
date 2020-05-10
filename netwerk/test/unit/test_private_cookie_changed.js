@@ -241,7 +241,7 @@ nsICookieService
 ;
 svc
 .
-setCookieStringFromHttp
+setCookieString
 (
 uri
 "
@@ -263,7 +263,7 @@ true
 ;
 svc
 .
-setCookieStringFromHttp
+setCookieString
 (
 uri
 "
