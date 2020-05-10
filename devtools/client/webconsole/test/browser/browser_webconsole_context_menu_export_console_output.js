@@ -1016,8 +1016,11 @@ js
 /
 Error
 :
+"
 error
 object
+"
+:
 /
 /
 wrapper
@@ -1504,8 +1507,10 @@ lines
 ]
 Error
 :
+"
 error
 object
+"
 )
 ;
 is
