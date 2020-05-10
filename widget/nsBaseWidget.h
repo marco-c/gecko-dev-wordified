@@ -3587,6 +3587,13 @@ GetRemoteRenderer
 )
 override
 ;
+virtual
+void
+ClearCachedWebrenderResources
+(
+)
+override
+;
 /
 *
 *
