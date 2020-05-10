@@ -1066,12 +1066,7 @@ SetLevel
 LogLevel
 level
 )
-{
-mLevel
-=
-level
 ;
-}
 /
 *
 *
