@@ -499,6 +499,9 @@ customFormat
 =
 =
 false
+urlCropLimit
+:
+120
 renderStacktrace
 :
 stacktrace
