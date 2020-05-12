@@ -7431,9 +7431,9 @@ inputs
 for
 the
 current
-input
+touch
 *
-event
+input
 block
 .
 This
@@ -7488,7 +7488,7 @@ RefPtr
 <
 AsyncPanZoomController
 >
-mApzcForInputBlock
+mApzcForTouchBlock
 ;
 /
 *
@@ -7510,7 +7510,7 @@ in
 *
 sync
 with
-mApzcForInputBlock
+mApzcForTouchBlock
 .
 *
 /
@@ -7580,7 +7580,7 @@ be
 in
 sync
 with
-mApzcForInputBlock
+mApzcForTouchBlock
 .
 *
 /

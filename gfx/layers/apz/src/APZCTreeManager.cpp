@@ -14736,10 +14736,10 @@ pinch
 )
 if
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 &
 &
-mApzcForInputBlock
+mApzcForTouchBlock
 -
 >
 IsInPanningState
@@ -14749,7 +14749,7 @@ IsInPanningState
 &
 BuildOverscrollHandoffChain
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 )
 -
 >
@@ -14769,7 +14769,7 @@ mRetainedTouchIdentifier
 {
 mRetainedTouchIdentifier
 =
-mApzcForInputBlock
+mApzcForTouchBlock
 -
 >
 GetLastTouchIdentifier
@@ -14801,7 +14801,7 @@ aInput
 touchBehaviors
 )
 ;
-mApzcForInputBlock
+mApzcForTouchBlock
 =
 hit
 .
@@ -15065,7 +15065,7 @@ break
 else
 if
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 )
 {
 APZCTM_LOG
@@ -15085,7 +15085,7 @@ block
 \
 n
 "
-mApzcForInputBlock
+mApzcForTouchBlock
 .
 get
 (
@@ -15325,7 +15325,7 @@ result
 }
 if
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 )
 {
 MOZ_ASSERT
@@ -15336,7 +15336,7 @@ mHitResultForInputBlock
 CompositorHitTestInvisibleToHit
 )
 ;
-mApzcForInputBlock
+mApzcForTouchBlock
 -
 >
 GetGuid
@@ -15351,7 +15351,7 @@ result
 .
 mTargetIsRoot
 =
-mApzcForInputBlock
+mApzcForTouchBlock
 -
 >
 IsRootContent
@@ -15367,7 +15367,7 @@ mInputQueue
 >
 ReceiveInputEvent
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 TargetConfirmationFlags
 {
 mHitResultForInputBlock
@@ -15492,7 +15492,7 @@ transformToApzc
 =
 GetScreenToApzcTransform
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 )
 ;
 ParentLayerToScreenMatrix4x4
@@ -15500,7 +15500,7 @@ transformToGecko
 =
 GetApzcToGeckoTransform
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 )
 ;
 ScreenToScreenMatrix4x4
@@ -15671,7 +15671,7 @@ GetActiveTouchCount
 0
 )
 {
-mApzcForInputBlock
+mApzcForTouchBlock
 =
 nullptr
 ;
@@ -15799,7 +15799,7 @@ mRetainedTouchIdentifier
 ;
 MOZ_ASSERT
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 )
 ;
 MOZ_ASSERT
@@ -15973,7 +15973,7 @@ mInputQueue
 >
 ReceiveInputEvent
 (
-mApzcForInputBlock
+mApzcForTouchBlock
 targetConfirmed
 mouseInput
 &
@@ -16020,7 +16020,7 @@ SetupScrollbarDrag
 (
 mouseInput
 aScrollThumbNode
-mApzcForInputBlock
+mApzcForTouchBlock
 .
 get
 (
@@ -16028,7 +16028,7 @@ get
 )
 ;
 }
-mApzcForInputBlock
+mApzcForTouchBlock
 -
 >
 GetGuid
@@ -16043,7 +16043,7 @@ result
 .
 mTargetIsRoot
 =
-mApzcForInputBlock
+mApzcForTouchBlock
 -
 >
 IsRootContent
