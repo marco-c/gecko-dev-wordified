@@ -528,9 +528,6 @@ mHaveProcessed
 bool
 mPrefetchDisabled
 ;
-bool
-mPreloadDisabled
-;
 /
 /
 In

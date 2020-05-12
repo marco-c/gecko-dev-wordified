@@ -14334,7 +14334,7 @@ if
 StaticPrefs
 :
 :
-network_preload_experimental
+network_preload
 (
 )
 &
