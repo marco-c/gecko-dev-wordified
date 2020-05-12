@@ -329,6 +329,21 @@ name
         
 self
 .
+android_activity
+=
+self
+.
+get_arg
+(
+"
+android
+-
+activity
+"
+)
+        
+self
+.
 metadata
 =
 metadata
