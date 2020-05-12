@@ -222,16 +222,6 @@ storage
 /
 namespace
 mozilla
-MOZ_DECLARE_COPY_CONSTRUCTIBLE
-(
-mozilla
-:
-:
-storage
-:
-:
-StatementData
-)
 namespace
 mozilla
 :
