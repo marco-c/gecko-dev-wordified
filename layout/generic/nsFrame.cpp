@@ -21386,13 +21386,14 @@ nsDisplayTransform
 *
 item
 =
-MakeDisplayItem
+MakeDisplayItemWithIndex
 <
 nsDisplayTransform
 >
 (
 aBuilder
 aFrame
+aIndex
 aNonParticipants
 aBuilder
 -
@@ -21400,7 +21401,6 @@ aBuilder
 GetVisibleRect
 (
 )
-aIndex
 )
 ;
 if
@@ -27196,7 +27196,6 @@ this
 &
 resultList
 visibleRect
-0
 allowAsyncAnimation
 )
 ;

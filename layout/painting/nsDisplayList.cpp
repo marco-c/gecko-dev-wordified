@@ -47288,8 +47288,6 @@ const
 nsRect
 &
 aChildrenBuildingRect
-uint16_t
-aIndex
 )
 :
 nsDisplayHitTestInfoBase
@@ -47321,10 +47319,6 @@ mAnimatedGeometryRoot
 mChildrenBuildingRect
 (
 aChildrenBuildingRect
-)
-mIndex
-(
-aIndex
 )
 mIsTransformSeparator
 (
@@ -47377,8 +47371,6 @@ const
 nsRect
 &
 aChildrenBuildingRect
-uint16_t
-aIndex
 bool
 aAllowAsyncAnimation
 )
@@ -47403,10 +47395,6 @@ mAnimatedGeometryRoot
 mChildrenBuildingRect
 (
 aChildrenBuildingRect
-)
-mIndex
-(
-aIndex
 )
 mIsTransformSeparator
 (
@@ -47464,8 +47452,6 @@ const
 nsRect
 &
 aChildrenBuildingRect
-uint16_t
-aIndex
 ComputeTransformFunction
 aTransformGetter
 )
@@ -47490,10 +47476,6 @@ mAnimatedGeometryRoot
 mChildrenBuildingRect
 (
 aChildrenBuildingRect
-)
-mIndex
-(
-aIndex
 )
 mIsTransformSeparator
 (
