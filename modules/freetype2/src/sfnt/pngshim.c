@@ -95,7 +95,7 @@ C
 )
 2013
 -
-2019
+2020
 by
 *
 Google
@@ -506,6 +506,13 @@ __clang_minor__
 defined
 (
 __OPTIMIZE__
+)
+&
+&
+\
+defined
+(
+__SSE__
 )
 &
 &

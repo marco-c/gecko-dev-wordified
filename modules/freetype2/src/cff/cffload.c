@@ -102,7 +102,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -11625,9 +11625,11 @@ cff_parser_run
 &
 parser
 dict
+FT_OFFSET
+(
 dict
-+
 dict_len
+)
 )
 ;
 }

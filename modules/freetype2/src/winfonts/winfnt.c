@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -1613,7 +1613,7 @@ Invalid_File_Format
 )
 ;
 goto
-Exit
+Exit1
 ;
 }
 for
@@ -2914,6 +2914,15 @@ Exit
 :
 return
 error
+;
+Exit1
+:
+FT_FRAME_EXIT
+(
+)
+;
+goto
+Exit
 ;
 }
 typedef

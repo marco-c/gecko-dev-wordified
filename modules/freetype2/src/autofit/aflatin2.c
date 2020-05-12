@@ -144,7 +144,7 @@ C
 )
 2003
 -
-2019
+2020
 by
 *
 David
@@ -216,6 +216,13 @@ fully
 *
 *
 /
+#
+include
+<
+ft2build
+.
+h
+>
 #
 include
 FT_ADVANCES_H

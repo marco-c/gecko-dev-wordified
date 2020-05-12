@@ -103,7 +103,7 @@ C
 )
 2006
 -
-2019
+2020
 by
 *
 David
@@ -4955,12 +4955,14 @@ segments
 AF_Segment
 segment_limit
 =
+FT_OFFSET
+(
 segments
-+
 axis
 -
 >
 num_segments
+)
 ;
 FT_Error
 error

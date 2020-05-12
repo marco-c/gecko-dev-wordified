@@ -95,7 +95,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -208,6 +208,13 @@ c
 #
 include
 "
+sfwoff2
+.
+c
+"
+#
+include
+"
 ttbdf
 .
 c
@@ -265,6 +272,13 @@ c
 include
 "
 ttsbit
+.
+c
+"
+#
+include
+"
+woff2tags
 .
 c
 "

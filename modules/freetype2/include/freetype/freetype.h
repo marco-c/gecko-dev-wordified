@@ -103,7 +103,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -9478,6 +9478,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -9486,6 +9489,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_HORIZONTAL
+)
 )
 /
 *
@@ -9606,6 +9610,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -9614,6 +9621,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_VERTICAL
+)
 )
 /
 *
@@ -9732,6 +9740,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -9740,6 +9751,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_KERNING
+)
 )
 /
 *
@@ -9874,6 +9886,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -9882,6 +9897,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_SCALABLE
+)
 )
 /
 *
@@ -10041,6 +10057,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10049,6 +10068,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_SFNT
+)
 )
 /
 *
@@ -10182,6 +10202,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10190,6 +10213,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_FIXED_WIDTH
+)
 )
 /
 *
@@ -10313,6 +10337,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10321,6 +10348,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_FIXED_SIZES
+)
 )
 /
 *
@@ -10538,6 +10566,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10546,6 +10577,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_GLYPH_NAMES
+)
 )
 /
 *
@@ -10676,6 +10708,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10684,6 +10719,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_MULTIPLE_MASTERS
+)
 )
 /
 *
@@ -10847,6 +10883,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10855,6 +10894,7 @@ face
 face_index
 &
 0x7FFF0000L
+)
 )
 /
 *
@@ -10981,6 +11021,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -10989,6 +11032,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_VARIATION
+)
 )
 /
 *
@@ -11129,6 +11173,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -11137,6 +11184,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_CID_KEYED
+)
 )
 /
 *
@@ -11260,6 +11308,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -11268,6 +11319,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_TRICKY
+)
 )
 /
 *
@@ -11392,6 +11444,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -11400,6 +11455,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_COLOR
+)
 )
 /
 *
@@ -16083,6 +16139,15 @@ an
 bit
 file
 pathname
+.
+The
+pointer
+is
+not
+owned
+by
+*
+FreeType
 .
 *
 *
@@ -35788,7 +35853,7 @@ FREETYPE_MINOR
 #
 define
 FREETYPE_PATCH
-1
+2
 /
 *
 *

@@ -99,7 +99,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -3546,12 +3546,14 @@ FT_Byte
 *
 record
 =
+FT_OFFSET
+(
 face
 -
 >
 hdmx_table
-+
 8
+)
 ;
 for
 (

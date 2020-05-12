@@ -111,7 +111,7 @@ C
 )
 2017
 -
-2019
+2020
 by
 *
 David
@@ -1063,10 +1063,10 @@ FT_ERR
 Unimplemented_Feature
 )
 ;
+}
 return
 error
 ;
-}
 }
 else
 if

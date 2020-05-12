@@ -97,7 +97,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -5996,6 +5996,8 @@ CID
 -
 keyed
 CFF
+or
+CFF2
 fonts
 don
 '
@@ -6007,11 +6009,11 @@ names
 -
 the
 SFNT
+*
+/
+/
+*
 loader
-*
-/
-/
-*
 has
 unset
 this
@@ -6037,6 +6039,10 @@ cid_registry
 =
 =
 0xFFFFU
+&
+&
+!
+cff2
 )
 cffface
 -

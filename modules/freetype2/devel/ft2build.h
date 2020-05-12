@@ -101,7 +101,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 *
 David
@@ -260,6 +260,14 @@ FT2BUILD_H_
 #
 define
 FT2BUILD_H_
+#
+define
+FT_CONFIG_MODULES_H
+<
+ftmodule
+.
+h
+>
 #
 define
 FT_CONFIG_OPTIONS_H

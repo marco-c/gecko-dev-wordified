@@ -99,7 +99,7 @@ C
 )
 2000
 -
-2019
+2020
 by
 *
 David
@@ -1379,12 +1379,14 @@ stream
 >
 limit
 =
+FT_OFFSET
+(
 stream
 -
 >
 cursor
-+
 count
+)
 ;
 stream
 -

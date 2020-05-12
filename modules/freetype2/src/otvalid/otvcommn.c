@@ -98,7 +98,7 @@ C
 )
 2004
 -
-2019
+2020
 by
 *
 David
@@ -1107,6 +1107,14 @@ FT_UInt
 result
 =
 0
+;
+if
+(
+!
+count
+)
+return
+result
 ;
 switch
 (
