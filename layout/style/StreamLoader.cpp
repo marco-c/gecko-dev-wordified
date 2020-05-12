@@ -159,6 +159,13 @@ h
 "
 #
 include
+"
+nsISupportsPriority
+.
+h
+"
+#
+include
 <
 limits
 >
