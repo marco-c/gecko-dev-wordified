@@ -2267,6 +2267,10 @@ function
 getAllThreadFronts
 (
 )
+:
+ThreadFront
+[
+]
 {
 const
 fronts

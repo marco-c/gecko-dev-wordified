@@ -98,6 +98,7 @@ ast
 import
 type
 {
+Frame
 ThreadContext
 }
 from
@@ -128,6 +129,8 @@ function
 mapDisplayName
 (
 frame
+:
+Frame
 {
 getState
 }

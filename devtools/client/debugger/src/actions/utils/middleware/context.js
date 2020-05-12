@@ -104,6 +104,8 @@ validateActionContext
 getState
 action
 )
+:
+void
 {
 if
 (

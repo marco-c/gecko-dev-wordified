@@ -186,6 +186,13 @@ AstLocation
 ]
 )
 )
+:
+?
+(
+AstLocation
+[
+]
+)
 {
 if
 (
