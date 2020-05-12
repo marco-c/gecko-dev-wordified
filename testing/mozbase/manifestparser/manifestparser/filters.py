@@ -2575,7 +2575,7 @@ def
 get_chunked_manifests
 (
 self
-tests
+manifests
 )
 :
         
@@ -2587,22 +2587,6 @@ all
 relevant
 manifests
 .
-        
-manifests
-=
-set
-(
-self
-.
-get_manifest
-(
-t
-)
-for
-t
-in
-tests
-)
         
 runtimes
 =
@@ -2954,13 +2938,29 @@ list
 tests
 )
         
+manifests
+=
+set
+(
+self
+.
+get_manifest
+(
+t
+)
+for
+t
+in
+tests
+)
+        
 chunks
 =
 self
 .
 get_chunked_manifests
 (
-tests
+manifests
 )
         
 runtime
