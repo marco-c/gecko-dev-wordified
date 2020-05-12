@@ -516,7 +516,7 @@ CacheRequest
 aIn
 )
 ;
-already_AddRefed
+SafeRefPtr
 <
 Request
 >
@@ -744,7 +744,7 @@ JSContext
 *
 aCx
 Request
-*
+&
 aRequest
 BodyAction
 aBodyAction

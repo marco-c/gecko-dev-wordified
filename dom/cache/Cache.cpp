@@ -764,7 +764,7 @@ Cache
 aCache
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -1541,7 +1541,7 @@ mCache
 ;
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -2066,7 +2066,7 @@ Failed
 ;
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -2076,7 +2076,7 @@ requestList
 1
 )
 ;
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -2248,7 +2248,7 @@ Failed
 ;
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -2355,7 +2355,7 @@ GetAsUSVString
 )
 ;
 }
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -3210,7 +3210,7 @@ GlobalObject
 aGlobal
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -3388,6 +3388,10 @@ aRequestList
 [
 i
 ]
+.
+unsafeGetRawPtr
+(
+)
 ;
 RefPtr
 <
@@ -3564,7 +3568,7 @@ aCx
 const
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >

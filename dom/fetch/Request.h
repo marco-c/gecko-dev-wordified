@@ -613,7 +613,7 @@ BodyLocalPath
 ;
 }
 static
-already_AddRefed
+SafeRefPtr
 <
 Request
 >
@@ -637,7 +637,7 @@ rv
 )
 ;
 static
-already_AddRefed
+SafeRefPtr
 <
 Request
 >
@@ -673,7 +673,7 @@ return
 mOwner
 ;
 }
-already_AddRefed
+SafeRefPtr
 <
 Request
 >
