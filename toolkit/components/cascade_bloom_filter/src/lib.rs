@@ -354,6 +354,7 @@ into_boxed_slice
 |
 data
 |
+{
 Cascade
 :
 :
@@ -371,6 +372,7 @@ ok_or
 (
 NS_ERROR_INVALID_ARG
 )
+}
 )
 ?
 ;
