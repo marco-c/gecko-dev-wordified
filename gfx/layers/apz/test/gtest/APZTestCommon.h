@@ -5624,15 +5624,7 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_END
-PinchGestureInput
-:
-:
-BothFingersLifted
-<
-ScreenPixel
->
-(
-)
+aSecondFocus
 10
 .
 0

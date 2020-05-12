@@ -759,12 +759,14 @@ One
 of
 PINCHGESTURE_START
 PINCHGESTURE_SCALE
-or
 *
+PINCHGESTURE_FINGERLIFTED
+or
 PINCHGESTURE_END
 indicating
 the
 phase
+*
 of
 the
 pinch
