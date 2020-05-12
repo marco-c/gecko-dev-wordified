@@ -2387,6 +2387,10 @@ nsIServiceWorkerRegistrationInfoListener
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for

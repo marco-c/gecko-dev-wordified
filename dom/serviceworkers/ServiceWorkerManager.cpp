@@ -6673,6 +6673,10 @@ EmptyString
 Some
 (
 aDataBytes
+.
+Clone
+(
+)
 )
 )
 ;
@@ -17674,6 +17678,10 @@ nsIServiceWorkerManagerListener
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for
@@ -17730,6 +17738,10 @@ nsIServiceWorkerManagerListener
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for

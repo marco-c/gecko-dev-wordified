@@ -180,7 +180,7 @@ ServiceWorkerRegistrationPromise
 typedef
 MozPromise
 <
-nsTArray
+CopyableTArray
 <
 ServiceWorkerRegistrationDescriptor
 >
