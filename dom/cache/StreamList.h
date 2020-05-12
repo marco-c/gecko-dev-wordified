@@ -210,8 +210,10 @@ SafeRefPtr
 Manager
 >
 aManager
+SafeRefPtr
+<
 Context
-*
+>
 aContext
 )
 ;
@@ -394,7 +396,7 @@ Manager
 >
 mManager
 ;
-RefPtr
+SafeRefPtr
 <
 Context
 >

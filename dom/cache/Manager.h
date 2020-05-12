@@ -1051,7 +1051,7 @@ void
 RemoveContext
 (
 Context
-*
+&
 aContext
 )
 ;
