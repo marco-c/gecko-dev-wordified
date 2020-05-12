@@ -291,8 +291,12 @@ OnPrincipalVerified
 (
 nsresult
 aRv
+const
+SafeRefPtr
+<
 ManagerId
-*
+>
+&
 aManagerId
 )
 override
@@ -310,7 +314,7 @@ mVerifier
 nsresult
 mVerifiedStatus
 ;
-RefPtr
+SafeRefPtr
 <
 ManagerId
 >

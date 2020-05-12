@@ -980,8 +980,12 @@ nsresult
 >
 AcquireCreateIfNonExistent
 (
+const
+SafeRefPtr
+<
 ManagerId
-*
+>
+&
 aManagerId
 )
 ;
@@ -1233,10 +1237,9 @@ nsID
 aBodyId
 )
 ;
-already_AddRefed
-<
+const
 ManagerId
->
+&
 GetManagerId
 (
 )
@@ -1506,7 +1509,7 @@ MaybeAllowContextToClose
 (
 )
 ;
-RefPtr
+SafeRefPtr
 <
 ManagerId
 >
@@ -1743,8 +1746,10 @@ public
 :
 Manager
 (
+SafeRefPtr
+<
 ManagerId
-*
+>
 aManagerId
 nsIThread
 *

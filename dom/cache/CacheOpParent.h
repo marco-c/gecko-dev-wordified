@@ -268,8 +268,12 @@ CacheOpParent
 void
 Execute
 (
+const
+SafeRefPtr
+<
 ManagerId
-*
+>
+&
 aManagerId
 )
 ;
@@ -322,8 +326,12 @@ OnPrincipalVerified
 (
 nsresult
 aRv
+const
+SafeRefPtr
+<
 ManagerId
-*
+>
+&
 aManagerId
 )
 override
