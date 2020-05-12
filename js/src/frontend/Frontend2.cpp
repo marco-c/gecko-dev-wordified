@@ -1173,17 +1173,6 @@ return
 true
 ;
 }
-public
-:
-virtual
-void
-finishInnerFunctions
-(
-)
-const
-override
-{
-}
 private
 :
 /

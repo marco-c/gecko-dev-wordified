@@ -711,6 +711,11 @@ publishDeferredFunctions
 )
 ;
 void
+finishFunctions
+(
+)
+;
+void
 trace
 (
 JSTracer
