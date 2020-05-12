@@ -5070,5 +5070,9 @@ mInstructionNamespaces
 aOther
 .
 mInstructionNamespaces
+.
+Clone
+(
+)
 ;
 }
