@@ -1262,13 +1262,12 @@ media
 }
 else
 {
-defaultTitle
-=
 globalParent
 -
 >
 GetDocumentTitle
 (
+defaultTitle
 )
 ;
 }
