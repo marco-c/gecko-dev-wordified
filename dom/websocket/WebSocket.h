@@ -626,9 +626,10 @@ readonly
 attribute
 unsigned
 long
+long
 bufferedAmount
 ;
-uint32_t
+uint64_t
 BufferedAmount
 (
 )
@@ -1083,7 +1084,7 @@ mKeepingAlive
 bool
 mCheckMustKeepAlive
 ;
-CheckedUint32
+CheckedUint64
 mOutgoingBufferedAmount
 ;
 /
