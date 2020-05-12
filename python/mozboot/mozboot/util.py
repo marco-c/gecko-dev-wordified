@@ -63,6 +63,8 @@ import
 hashlib
 import
 os
+import
+six
 here
 =
 os
@@ -281,7 +283,12 @@ hashlib
 .
 sha256
 (
+six
+.
+ensure_binary
+(
 srcdir
+)
 )
 .
 hexdigest

@@ -109,12 +109,15 @@ xpcshell
 )
     
 assert
+list
+(
 filter_tasks_by_paths
 (
 tasks
 '
 dummy
 '
+)
 )
 =
 =
@@ -139,12 +142,15 @@ xpcshell
 )
     
 assert
+list
+(
 filter_tasks_by_paths
 (
 tasks
 '
 dummy
 '
+)
 )
 =
 =
