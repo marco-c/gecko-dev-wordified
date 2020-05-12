@@ -182,6 +182,7 @@ self
 api
 :
 &
+mut
 RenderApi
 device_pixel_ratio
 :
@@ -475,6 +476,7 @@ self
 api
 :
 &
+mut
 RenderApi
 base_builder
 :

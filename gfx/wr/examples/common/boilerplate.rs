@@ -496,6 +496,7 @@ self
 api
 :
 &
+mut
 RenderApi
 builder
 :
@@ -533,6 +534,7 @@ WindowEvent
 _
 :
 &
+mut
 RenderApi
 _
 :
@@ -1262,6 +1264,7 @@ unwrap
 )
 ;
 let
+mut
 api
 =
 sender
@@ -1396,6 +1399,7 @@ example
 render
 (
 &
+mut
 api
 &
 mut
@@ -1951,6 +1955,7 @@ on_event
 (
 win_event
 &
+mut
 api
 document_id
 )
@@ -1967,6 +1972,7 @@ on_event
 (
 other
 &
+mut
 api
 document_id
 )
@@ -2013,6 +2019,7 @@ example
 render
 (
 &
+mut
 api
 &
 mut

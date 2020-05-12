@@ -1647,6 +1647,7 @@ self
 api
 :
 &
+mut
 RenderApi
 builder
 :

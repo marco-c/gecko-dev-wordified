@@ -10719,7 +10719,7 @@ document_handles
 *
 const
 *
-const
+mut
 DocumentHandle
 transactions
 :

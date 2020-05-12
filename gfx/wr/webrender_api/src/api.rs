@@ -11355,6 +11355,7 @@ fn
 send_transaction
 (
 &
+mut
 self
 document_id
 :
@@ -11414,6 +11415,7 @@ fn
 send_transactions
 (
 &
+mut
 self
 document_ids
 :
