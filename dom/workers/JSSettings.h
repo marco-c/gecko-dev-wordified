@@ -292,7 +292,7 @@ chrome
 JSContentChromeSettings
 content
 ;
-nsTArray
+CopyableTArray
 <
 JSGCSetting
 >

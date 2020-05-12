@@ -447,7 +447,7 @@ mPlatform
 nsString
 mPlatformOverridden
 ;
-nsTArray
+CopyableTArray
 <
 nsString
 >

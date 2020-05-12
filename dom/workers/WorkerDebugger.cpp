@@ -1804,6 +1804,10 @@ nsIWorkerDebuggerListener
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for
@@ -1932,6 +1936,10 @@ nsIWorkerDebuggerListener
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for
@@ -2075,6 +2083,10 @@ nsIWorkerDebuggerListener
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for
@@ -2684,6 +2696,14 @@ windowID
 duration
 isTopLevel
 items
+=
+std
+:
+:
+move
+(
+items
+)
 ]
 (
 const

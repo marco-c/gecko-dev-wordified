@@ -347,8 +347,9 @@ WorkerNavigator
 WorkerNavigator
 (
 )
-{
-}
+=
+default
+;
 /
 *
 static
@@ -480,6 +481,10 @@ mProperties
 mLanguages
 =
 aLanguages
+.
+Clone
+(
+)
 ;
 }
 void

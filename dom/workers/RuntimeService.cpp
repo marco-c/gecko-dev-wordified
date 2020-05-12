@@ -11711,6 +11711,10 @@ mNavigatorProperties
 mLanguages
 =
 aLanguages
+.
+Clone
+(
+)
 ;
 BROADCAST_ALL_WORKERS
 (
