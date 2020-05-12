@@ -483,7 +483,7 @@ SavedResponse
 &
 aSavedResponse
 StreamList
-*
+&
 aStreamList
 )
 ;
@@ -495,7 +495,7 @@ SavedRequest
 &
 aSavedRequest
 StreamList
-*
+&
 aStreamList
 )
 ;
@@ -516,7 +516,7 @@ SavedResponse
 &
 aSavedResponse
 StreamList
-*
+&
 aStreamList
 CacheResponse
 *
@@ -531,7 +531,7 @@ nsID
 &
 aId
 StreamList
-*
+&
 aStreamList
 CacheReadStream
 *

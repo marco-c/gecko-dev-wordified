@@ -223,8 +223,10 @@ CacheStreamControlParent
 void
 SetStreamList
 (
+SafeRefPtr
+<
 StreamList
-*
+>
 aStreamList
 )
 ;
@@ -436,7 +438,7 @@ the
 weak
 ref
 .
-RefPtr
+SafeRefPtr
 <
 StreamList
 >

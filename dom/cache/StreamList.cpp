@@ -396,7 +396,9 @@ mStreamControl
 >
 SetStreamList
 (
-this
+SafeRefPtrFromThis
+(
+)
 )
 ;
 }
