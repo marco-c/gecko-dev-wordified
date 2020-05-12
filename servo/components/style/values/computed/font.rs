@@ -374,6 +374,7 @@ to_shmem
 :
 :
 {
+self
 SharedMemoryBuilder
 ToShmem
 }
@@ -3275,7 +3276,10 @@ SharedMemoryBuilder
 )
 -
 >
-ManuallyDrop
+to_shmem
+:
+:
+Result
 <
 Self
 >
@@ -3304,6 +3308,8 @@ single
 generic
 entry
 .
+Ok
+(
 ManuallyDrop
 :
 :
@@ -3324,7 +3330,7 @@ r
 =
 >
 {
-assert
+if
 !
 (
 r
@@ -3353,6 +3359,16 @@ mRawPtr
 is_null
 (
 )
+)
+{
+return
+Err
+(
+String
+:
+:
+from
+(
 "
 ToShmem
 failed
@@ -3367,7 +3383,9 @@ generic
 families
 "
 )
+)
 ;
+}
 FontFamilyList
 :
 :
@@ -3400,6 +3418,7 @@ Generic
 t
 )
 }
+)
 )
 }
 }

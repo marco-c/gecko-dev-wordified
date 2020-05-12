@@ -209,6 +209,7 @@ to_shmem
 :
 :
 {
+self
 SharedMemoryBuilder
 ToShmem
 }
@@ -1765,11 +1766,16 @@ SharedMemoryBuilder
 )
 -
 >
-ManuallyDrop
+to_shmem
+:
+:
+Result
 <
 Self
 >
 {
+Ok
+(
 ManuallyDrop
 :
 :
@@ -1803,6 +1809,7 @@ LoadDataSource
 :
 Lazy
 }
+)
 )
 }
 }

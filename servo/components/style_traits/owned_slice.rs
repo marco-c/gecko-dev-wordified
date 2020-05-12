@@ -161,6 +161,7 @@ to_shmem
 :
 :
 {
+self
 SharedMemoryBuilder
 ToShmem
 }
@@ -1194,10 +1195,10 @@ SharedMemoryBuilder
 )
 -
 >
-mem
+to_shmem
 :
 :
-ManuallyDrop
+Result
 <
 Self
 >
@@ -1219,7 +1220,10 @@ iter
 )
 builder
 )
+?
 ;
+Ok
+(
 mem
 :
 :
@@ -1239,6 +1243,7 @@ Box
 from_raw
 (
 dest
+)
 )
 )
 )

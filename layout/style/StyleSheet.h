@@ -3012,6 +3012,17 @@ Rules
 >
 >
 value
+/
+/
+or
+null
+with
+a
+filled
+in
+aErrorMessage
+on
+failure
 .
 )
 const
@@ -3022,6 +3033,9 @@ ToShared
 RawServoSharedMemoryBuilder
 *
 aBuilder
+nsCString
+&
+aErrorMessage
 )
 ;
 /
