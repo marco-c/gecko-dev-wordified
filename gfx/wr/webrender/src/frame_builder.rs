@@ -100,7 +100,7 @@ clip
 {
 ClipStore
 ClipChainStack
-ClipDataHandle
+ClipInstance
 }
 ;
 use
@@ -1143,7 +1143,7 @@ shared_clips
 :
 &
 [
-ClipDataHandle
+ClipInstance
 ]
 )
 {

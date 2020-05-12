@@ -932,7 +932,6 @@ ClipMode
 :
 ClipOut
 )
-spatial_node_index
 }
 )
 ;
@@ -975,7 +974,6 @@ ClipMode
 :
 ClipOut
 )
-spatial_node_index
 }
 )
 ;
@@ -1009,7 +1007,6 @@ ClipMode
 :
 Clip
 )
-spatial_node_index
 }
 )
 ;
@@ -1129,7 +1126,6 @@ rect
 border_radius
 prim_clip_mode
 )
-spatial_node_index
 }
 )
 ;
@@ -1241,7 +1237,6 @@ dest_rect
 blur_radius
 clip_mode
 )
-spatial_node_index
 }
 ;
 let

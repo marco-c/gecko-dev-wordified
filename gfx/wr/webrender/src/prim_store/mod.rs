@@ -25458,10 +25458,6 @@ prim_spatial_node_index
 frame_context
 .
 spatial_tree
-&
-data_stores
-.
-clip
 )
 ;
 let
