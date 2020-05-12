@@ -3809,7 +3809,7 @@ be
 reset
 later
 .
-var
+let
 gReduceMotionSetting
 =
 true
