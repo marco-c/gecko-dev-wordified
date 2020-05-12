@@ -34762,7 +34762,6 @@ CurrentActiveScrolledRoot
 (
 )
 false
-0
 )
 {
 }
@@ -34786,8 +34785,6 @@ ActiveScrolledRoot
 aActiveScrolledRoot
 bool
 aClearClipChain
-uint16_t
-aIndex
 )
 :
 nsDisplayHitTestInfoBase
@@ -34808,10 +34805,6 @@ CurrentActiveScrolledRoot
 mOverrideZIndex
 (
 0
-)
-mIndex
-(
-aIndex
 )
 mHasZIndexOverride
 (
@@ -35114,10 +35107,6 @@ CurrentActiveScrolledRoot
 )
 )
 mOverrideZIndex
-(
-0
-)
-mIndex
 (
 0
 )
