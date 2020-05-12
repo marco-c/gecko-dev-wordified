@@ -5231,7 +5231,13 @@ init
 .
 mPorts
 =
+std
+:
+:
+move
+(
 ports
+)
 ;
 }
 init
@@ -8234,7 +8240,7 @@ InternalRequest
 .
 *
 /
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -8362,6 +8368,10 @@ Request
 (
 globalObjectAsSupports
 internalRequest
+.
+clonePtr
+(
+)
 nullptr
 )
 ;

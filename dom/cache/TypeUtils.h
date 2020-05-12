@@ -154,6 +154,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SafeRefPtr
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
@@ -349,7 +360,7 @@ GetIPCManager
 =
 0
 ;
-already_AddRefed
+SafeRefPtr
 <
 InternalRequest
 >
@@ -369,7 +380,7 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+SafeRefPtr
 <
 InternalRequest
 >
@@ -395,8 +406,9 @@ ToCacheRequest
 CacheRequest
 &
 aOut
+const
 InternalRequest
-*
+&
 aIn
 BodyAction
 aBodyAction
@@ -492,7 +504,7 @@ CacheResponse
 aIn
 )
 ;
-already_AddRefed
+SafeRefPtr
 <
 InternalRequest
 >
@@ -741,7 +753,7 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+SafeRefPtr
 <
 InternalRequest
 >

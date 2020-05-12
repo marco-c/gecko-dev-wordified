@@ -1717,7 +1717,7 @@ actorLock
 mActor
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -1777,6 +1777,7 @@ args
 .
 Add
 (
+*
 ir
 IgnoreBody
 IgnoreInvalidScheme
@@ -1900,7 +1901,7 @@ WasPassed
 )
 )
 {
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -1935,6 +1936,7 @@ args
 .
 Add
 (
+*
 ir
 IgnoreBody
 IgnoreInvalidScheme
@@ -2525,7 +2527,7 @@ return
 nullptr
 ;
 }
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -2570,6 +2572,7 @@ args
 Add
 (
 aCx
+*
 ir
 ReadBody
 TypeErrorOnInvalidScheme
@@ -2656,7 +2659,7 @@ actorLock
 mActor
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -2713,6 +2716,7 @@ args
 .
 Add
 (
+*
 ir
 IgnoreBody
 IgnoreInvalidScheme
@@ -2836,7 +2840,7 @@ WasPassed
 )
 )
 {
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -2874,6 +2878,7 @@ args
 .
 Add
 (
+*
 ir
 IgnoreBody
 IgnoreInvalidScheme
@@ -3647,7 +3652,7 @@ Length
 i
 )
 {
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -3668,6 +3673,7 @@ args
 Add
 (
 aCx
+*
 ir
 ReadBody
 TypeErrorOnInvalidScheme

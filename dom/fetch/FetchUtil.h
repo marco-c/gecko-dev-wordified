@@ -342,7 +342,7 @@ nsIHttpChannel
 *
 aChannel
 InternalRequest
-*
+&
 aRequest
 )
 ;

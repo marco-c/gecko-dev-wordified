@@ -742,7 +742,7 @@ nsIHttpChannel
 *
 aChannel
 InternalRequest
-*
+&
 aRequest
 )
 {
@@ -762,8 +762,7 @@ nsAutoString
 referrer
 ;
 aRequest
--
->
+.
 GetReferrer
 (
 referrer
@@ -773,8 +772,7 @@ ReferrerPolicy
 policy
 =
 aRequest
--
->
+.
 ReferrerPolicy_
 (
 )
@@ -1043,8 +1041,7 @@ s
 referrer
 .
 aRequest
--
->
+.
 SetReferrer
 (
 computedReferrerSpec

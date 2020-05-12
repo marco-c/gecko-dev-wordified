@@ -229,7 +229,7 @@ a
 worker
 thread
 .
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -279,7 +279,7 @@ a
 worker
 thread
 .
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >

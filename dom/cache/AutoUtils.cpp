@@ -953,8 +953,9 @@ AutoChildOpArgs
 :
 Add
 (
+const
 InternalRequest
-*
+&
 aRequest
 BodyAction
 aBodyAction
@@ -1248,8 +1249,9 @@ namespace
 bool
 MatchInPutList
 (
+const
 InternalRequest
-*
+&
 aRequest
 const
 nsTArray
@@ -1260,11 +1262,6 @@ CacheRequestResponse
 aPutList
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-aRequest
-)
-;
 /
 /
 This
@@ -1369,8 +1366,7 @@ nsAutoCString
 method
 ;
 aRequest
--
->
+.
 GetMethod
 (
 method
@@ -1407,8 +1403,7 @@ InternalHeaders
 requestHeaders
 =
 aRequest
--
->
+.
 Headers
 (
 )
@@ -1465,8 +1460,7 @@ nsAutoCString
 url
 ;
 aRequest
--
->
+.
 GetURL
 (
 url
@@ -1824,8 +1818,9 @@ Add
 JSContext
 *
 aCx
+const
 InternalRequest
-*
+&
 aRequest
 BodyAction
 aBodyAction

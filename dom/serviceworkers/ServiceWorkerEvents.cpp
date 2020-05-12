@@ -4654,7 +4654,7 @@ line
 column
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -4949,7 +4949,7 @@ IsEmpty
 )
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
