@@ -157,6 +157,11 @@ ScriptElement
 h
 '
 '
+ScriptKind
+.
+h
+'
+'
 ScriptLoader
 .
 h
