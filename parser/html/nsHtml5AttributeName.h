@@ -2002,6 +2002,16 @@ ATTR_HEIGHT
 static
 nsHtml5AttributeName
 *
+ATTR_IMAGESIZES
+;
+static
+nsHtml5AttributeName
+*
+ATTR_IMAGESRCSET
+;
+static
+nsHtml5AttributeName
+*
 ATTR_IMAGE_RENDERING
 ;
 static
