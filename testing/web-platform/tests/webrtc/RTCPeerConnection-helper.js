@@ -3594,11 +3594,6 @@ callee
 )
 ;
 }
-const
-doSignalingHandshake
-=
-exchangeOfferAnswer
-;
 /
 /
 The

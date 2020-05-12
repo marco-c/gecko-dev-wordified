@@ -307,7 +307,7 @@ true
 exchangeIceCandidates
 :
 true
-doSignalingHandshake
+exchangeOfferAnswer
 :
 true
 createDataChannelPair

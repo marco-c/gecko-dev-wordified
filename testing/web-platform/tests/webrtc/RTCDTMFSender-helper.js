@@ -78,7 +78,7 @@ js
 getTrackFromUserMedia
 /
 /
-doSignalingHandshake
+exchangeOfferAnswer
 /
 /
 Create
@@ -248,7 +248,7 @@ pc2
 )
 ;
 return
-doSignalingHandshake
+exchangeOfferAnswer
 (
 pc
 pc2
