@@ -141,6 +141,15 @@ include
 "
 mozilla
 /
+Mutex
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 IDNBlocklistUtils
