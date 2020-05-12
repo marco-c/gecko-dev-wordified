@@ -20390,6 +20390,8 @@ uint32_t
 aContentPolicyType
 bool
 aUseUrgentStartForChannel
+bool
+aLinkPreload
 )
 {
 MOZ_ASSERT
@@ -20649,6 +20651,16 @@ urgent
 -
 start
 flag
+*
+/
+aLinkPreload
+/
+*
+<
+link
+preload
+>
+initiator
 *
 /
 aRequest

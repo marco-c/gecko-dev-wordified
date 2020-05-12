@@ -628,6 +628,12 @@ aUseUrgentStartForChannel
 *
 /
 false
+/
+*
+aLinkPreload
+*
+/
+false
 getter_AddRefs
 (
 mIconRequest
@@ -670,6 +676,12 @@ EmptyString
 /
 *
 aUseUrgentStartForChannel
+*
+/
+false
+/
+*
+aLinkPreload
 *
 /
 false

@@ -6154,6 +6154,10 @@ bool
 aUseUrgentStartForChannel
 =
 false
+bool
+aLinkPreload
+=
+false
 )
 ;
 /

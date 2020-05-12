@@ -6267,6 +6267,8 @@ const
 nsAString
 &
 aImageReferrerPolicy
+bool
+aLinkPreload
 )
 {
 nsCOMPtr
@@ -6333,6 +6335,7 @@ GetPreloadReferrerPolicy
 aImageReferrerPolicy
 )
 isImgSet
+aLinkPreload
 )
 ;
 }
