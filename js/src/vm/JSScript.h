@@ -13127,16 +13127,13 @@ immutableFlags_
 ;
 }
 void
-addToImmutableFlags
+resetImmutableFlags
 (
-const
 ImmutableScriptFlags
-&
 flags
 )
 {
 immutableFlags_
-|
 =
 flags
 ;
