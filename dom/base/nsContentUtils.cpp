@@ -49801,6 +49801,15 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_STYLESHEET_PRELOAD
+|
+|
+aType
+=
+=
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FONT_PRELOAD
 )
 ;
 }

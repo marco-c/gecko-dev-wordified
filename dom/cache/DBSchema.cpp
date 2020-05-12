@@ -3149,6 +3149,15 @@ TYPE_INTERNAL_PAINTWORKLET
 =
 =
 50
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FONT_PRELOAD
+=
+=
+51
 "
 nsContentPolicyType
 values
