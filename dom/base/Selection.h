@@ -1341,16 +1341,7 @@ nsRange
 aRange
 )
 ;
-/
-/
-TODO
-:
-annotate
-with
 MOZ_CAN_RUN_SCRIPT
-instead
-.
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ReplaceAnchorFocusRange
 (
