@@ -425,7 +425,7 @@ if
 (
 target
 .
-type
+targetType
 =
 =
 =
@@ -460,7 +460,7 @@ if
 (
 target
 .
-type
+targetType
 =
 =
 =
@@ -471,7 +471,7 @@ WORKER
 |
 target
 .
-type
+targetType
 =
 =
 =
@@ -482,7 +482,7 @@ SHARED_WORKER
 |
 target
 .
-type
+targetType
 =
 =
 =
@@ -515,7 +515,7 @@ if
 (
 target
 .
-type
+targetType
 =
 =
 =
@@ -568,7 +568,7 @@ label
 =
 target
 .
-isMainTarget
+isTopLevel
 ?
 l10n
 .
@@ -638,7 +638,7 @@ target
 :
 target
 .
-isMainTarget
+isTopLevel
 label
 tooltip
 :
@@ -841,7 +841,7 @@ if
 (
 target
 .
-isMainTarget
+isTopLevel
 )
 {
 mainTarget
@@ -855,7 +855,7 @@ dict
 [
 target
 .
-type
+targetType
 ]
 .
 push
@@ -973,7 +973,7 @@ selectedTarget
 |
 selectedTarget
 .
-isMainTarget
+isTopLevel
 )
 {
 return
@@ -1100,7 +1100,7 @@ selectedTarget
 !
 selectedTarget
 .
-isMainTarget
+isTopLevel
 ?
 "
 webconsole
