@@ -1728,6 +1728,10 @@ nsGlobalWindowInner
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 if
@@ -2822,6 +2826,10 @@ nsGlobalWindowInner
 listeners
 (
 mListeners
+.
+Clone
+(
+)
 )
 ;
 for
