@@ -529,8 +529,10 @@ ipc
 PrincipalInfo
 &
 aPrincipalInfo
+SafeRefPtr
+<
 CacheWorkerRef
-*
+>
 aWorkerRef
 )
 ;

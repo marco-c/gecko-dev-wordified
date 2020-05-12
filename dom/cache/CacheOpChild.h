@@ -231,8 +231,10 @@ method
 .
 CacheOpChild
 (
+SafeRefPtr
+<
 CacheWorkerRef
-*
+>
 aWorkerRef
 nsIGlobalObject
 *

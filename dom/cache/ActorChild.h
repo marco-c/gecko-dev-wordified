@@ -125,7 +125,9 @@ include
 "
 mozilla
 /
-RefPtr
+dom
+/
+SafeRefPtr
 .
 h
 "
@@ -157,8 +159,10 @@ StartDestroy
 void
 SetWorkerRef
 (
+SafeRefPtr
+<
 CacheWorkerRef
-*
+>
 aWorkerRef
 )
 ;
@@ -167,9 +171,13 @@ RemoveWorkerRef
 (
 )
 ;
+const
+SafeRefPtr
+<
 CacheWorkerRef
-*
-GetWorkerRef
+>
+&
+GetWorkerRefPtr
 (
 )
 const
@@ -193,7 +201,7 @@ ActorChild
 ;
 private
 :
-RefPtr
+SafeRefPtr
 <
 CacheWorkerRef
 >

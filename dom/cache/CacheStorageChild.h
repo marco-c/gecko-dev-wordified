@@ -206,8 +206,10 @@ CacheStorageChild
 CacheStorage
 *
 aListener
+SafeRefPtr
+<
 CacheWorkerRef
-*
+>
 aWorkerRef
 )
 ;
