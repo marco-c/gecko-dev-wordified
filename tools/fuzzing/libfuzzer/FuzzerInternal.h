@@ -572,7 +572,7 @@ StaticGracefulExitCallback
 (
 )
 ;
-void
+int
 ExecuteCallback
 (
 const
