@@ -237,9 +237,13 @@ aStatus
 aLoadGroupStatus
 )
 ;
-DisconnectDocumentLoadListener
+RemoveObserver
 (
 )
+;
+mDocumentLoadListener
+=
+nullptr
 ;
 }
 void
@@ -288,6 +292,11 @@ ParentProcessDocumentChannel
 ;
 void
 DisconnectDocumentLoadListener
+(
+)
+;
+void
+RemoveObserver
 (
 )
 ;
