@@ -39817,8 +39817,6 @@ bool
 aForceActive
 bool
 aClearClipChain
-uint16_t
-aIndex
 )
 :
 nsDisplayWrapList
@@ -39844,10 +39842,6 @@ aForceActive
 mWrAnimationId
 (
 0
-)
-mIndex
-(
-aIndex
 )
 {
 MOZ_COUNT_CTOR
