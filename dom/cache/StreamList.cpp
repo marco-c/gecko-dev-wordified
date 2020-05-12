@@ -187,8 +187,10 @@ StreamList
 :
 StreamList
 (
+SafeRefPtr
+<
 Manager
-*
+>
 aManager
 Context
 *
@@ -197,7 +199,13 @@ aContext
 :
 mManager
 (
+std
+:
+:
+move
+(
 aManager
+)
 )
 mContext
 (
@@ -231,7 +239,7 @@ this
 ;
 }
 Manager
-*
+&
 StreamList
 :
 :
@@ -246,6 +254,7 @@ mManager
 )
 ;
 return
+*
 mManager
 ;
 }

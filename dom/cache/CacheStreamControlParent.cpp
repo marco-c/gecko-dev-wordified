@@ -593,8 +593,7 @@ mStreamList
 GetManager
 (
 )
--
->
+.
 ExecuteOpenStream
 (
 this
@@ -705,8 +704,7 @@ mStreamList
 GetManager
 (
 )
--
->
+.
 RemoveListener
 (
 this

@@ -276,11 +276,13 @@ aManagerId
 void
 Execute
 (
+SafeRefPtr
+<
 cache
 :
 :
 Manager
-*
+>
 aManager
 )
 ;
@@ -408,7 +410,7 @@ const
 CacheOpArgs
 mOpArgs
 ;
-RefPtr
+SafeRefPtr
 <
 cache
 :
