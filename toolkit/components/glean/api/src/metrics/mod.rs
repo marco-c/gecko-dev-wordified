@@ -146,6 +146,10 @@ glean_core
 metrics
 :
 :
+MemoryUnit
+metrics
+:
+:
 TimeUnit
 CommonMetricData
 ErrorType
@@ -166,6 +170,9 @@ event
 ;
 mod
 labeled
+;
+mod
+memory_distribution
 ;
 mod
 ping
@@ -238,6 +245,16 @@ labeled
 :
 :
 LabeledMetric
+;
+pub
+use
+self
+:
+:
+memory_distribution
+:
+:
+MemoryDistributionMetric
 ;
 pub
 use
