@@ -10772,6 +10772,14 @@ aDirtyFrame
 nsIFrame
 *
 aFrame
+const
+nsRect
+&
+aVisibleRect
+const
+nsRect
+&
+aDirtyRect
 )
 ;
 /
