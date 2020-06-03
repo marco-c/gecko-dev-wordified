@@ -331,6 +331,9 @@ always
 allow_missing
 =
 False
+config
+=
+True
 )
 :
 if
@@ -833,6 +836,9 @@ libs
 =
 libs
 )
+if
+config
+:
 set_config
 (
 '
