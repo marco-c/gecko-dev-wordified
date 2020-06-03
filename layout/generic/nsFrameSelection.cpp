@@ -2454,12 +2454,6 @@ mDragState
 =
 false
 ;
-mDesiredCaretPos
-.
-mIsSet
-=
-false
-;
 mLimiters
 .
 mLimiter
