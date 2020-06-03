@@ -19893,7 +19893,6 @@ list
 nsRect
 (
 )
-0
 )
 ;
 MOZ_ASSERT
