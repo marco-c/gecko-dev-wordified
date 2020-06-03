@@ -8,11 +8,6 @@ skip
 -
 regexp
 -
-named
--
-groups
-regexp
--
 match
 -
 indices
