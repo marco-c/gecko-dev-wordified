@@ -32770,6 +32770,17 @@ IsApzForceDisabled
 ;
 mScrollMetadata
 .
+SetIsRDMTouchSimulationActive
+(
+aScrollMetadata
+.
+GetIsRDMTouchSimulationActive
+(
+)
+)
+;
+mScrollMetadata
+.
 SetDisregardedDirection
 (
 aScrollMetadata
