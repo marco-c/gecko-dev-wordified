@@ -622,12 +622,6 @@ VRManagerParent
 aVRManager
 )
 ;
-static
-void
-ShutdownInternal
-(
-)
-;
 /
 /
 This
