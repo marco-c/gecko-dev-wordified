@@ -3349,10 +3349,15 @@ false
 const
 stylingMarkers
 =
-markers
+Array
+.
+prototype
 .
 filter
+.
+call
 (
+markers
 (
 marker
 index

@@ -952,6 +952,7 @@ WrapPrivileged
 wrap
 (
 field
+this
 )
 .
 setUserInput
