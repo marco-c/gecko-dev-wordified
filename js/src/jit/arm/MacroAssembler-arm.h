@@ -6614,7 +6614,7 @@ x64
 h
 .
 void
-unboxGCThingForPreBarrierTrampoline
+unboxGCThingForGCBarrier
 (
 const
 Address

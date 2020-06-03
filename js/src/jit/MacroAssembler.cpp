@@ -22573,7 +22573,7 @@ MIRType
 Value
 )
 {
-unboxGCThingForPreBarrierTrampoline
+unboxGCThingForGCBarrier
 (
 Address
 (

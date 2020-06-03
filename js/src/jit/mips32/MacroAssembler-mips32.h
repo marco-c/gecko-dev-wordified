@@ -2431,7 +2431,7 @@ JSValueType
 )
 ;
 void
-unboxGCThingForPreBarrierTrampoline
+unboxGCThingForGCBarrier
 (
 const
 Address

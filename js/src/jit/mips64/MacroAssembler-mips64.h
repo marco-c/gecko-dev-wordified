@@ -2509,7 +2509,7 @@ Imm32
 ;
 }
 void
-unboxGCThingForPreBarrierTrampoline
+unboxGCThingForGCBarrier
 (
 const
 Address
