@@ -1332,6 +1332,16 @@ WindowGlobalParent
 )
 ;
 }
+SendUpdateHttpsOnlyStatus
+(
+aDocument
+-
+>
+HttpsOnlyStatus
+(
+)
+)
+;
 /
 /
 Update
