@@ -43065,6 +43065,14 @@ color
 -
 swatch
 "
+"
+:
+file
+-
+chooser
+-
+button
+"
 ]
 ;
 /

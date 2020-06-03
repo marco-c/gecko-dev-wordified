@@ -26486,6 +26486,21 @@ preview
 "
 )
     
+PseudoElementAtom
+(
+"
+PseudoElement_fileChooserButton
+"
+"
+:
+file
+-
+chooser
+-
+button
+"
+)
+    
 #
 CSS
 anonymous
