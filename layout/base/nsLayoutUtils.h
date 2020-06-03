@@ -21689,8 +21689,8 @@ unless
 |
 aPrerenderSize
 |
-*
 is
+*
 smaller
 than
 |
@@ -21702,8 +21702,8 @@ case
 the
 returned
 rect
-*
 will
+*
 still
 include
 |
