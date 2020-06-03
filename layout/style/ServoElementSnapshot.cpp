@@ -198,10 +198,6 @@ mIdAttributeChanged
 (
 false
 )
-mOtherAttributeChanged
-(
-false
-)
 {
 MOZ_COUNT_CTOR
 (
