@@ -1657,7 +1657,7 @@ label
 :
 gStrings
 .
-GetStringFromName
+formatStringFromName
 (
 "
 readerView
@@ -1666,6 +1666,11 @@ savetopocket
 .
 label
 "
+[
+"
+Pocket
+"
+]
 )
 image
 :
