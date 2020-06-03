@@ -13746,16 +13746,6 @@ CompositorBridgeParent
 :
 NotifyDidSceneBuild
 (
-const
-nsTArray
-<
-wr
-:
-:
-RenderRoot
->
-&
-aRenderRoots
 RefPtr
 <
 const
@@ -13795,7 +13785,6 @@ mWrBridge
 >
 NotifyDidSceneBuild
 (
-aRenderRoots
 aInfo
 )
 ;

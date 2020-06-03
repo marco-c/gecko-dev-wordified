@@ -2999,16 +2999,6 @@ nullptr
 void
 NotifyDidSceneBuild
 (
-const
-nsTArray
-<
-wr
-:
-:
-RenderRoot
->
-&
-aRenderRoots
 RefPtr
 <
 const
