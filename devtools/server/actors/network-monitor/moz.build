@@ -105,6 +105,13 @@ sink
 js
 '
 '
+eventsource
+-
+actor
+.
+js
+'
+'
 network
 -
 event
