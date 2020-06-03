@@ -3066,6 +3066,9 @@ mSizeState
 float
 mAspectRatio
 ;
+float
+mAspectRatioSaved
+;
 nsIntPoint
 mClientOffset
 ;
