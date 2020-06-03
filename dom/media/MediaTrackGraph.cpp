@@ -12259,14 +12259,14 @@ error
 .
 MOZ_DIAGNOSTIC_ASSERT
 (
-mForceShutDown
-|
-|
 LifecycleStateRef
 (
 )
 <
 LIFECYCLE_WAITING_FOR_MAIN_THREAD_CLEANUP
+|
+|
+mForceShutDown
 )
 ;
 }
