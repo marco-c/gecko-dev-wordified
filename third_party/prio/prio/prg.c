@@ -491,13 +491,6 @@ char
 )
 )
 ;
-memset
-(
-in
-0
-len
-)
-;
 int
 outlen
 ;

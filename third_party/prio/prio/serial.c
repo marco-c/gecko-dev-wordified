@@ -383,7 +383,7 @@ max
 NULL
 )
 ;
-UP_CHECK
+UP_CHECKC
 (
 msgpack_unpacker_next
 (
@@ -392,6 +392,7 @@ upk
 res
 )
 )
+;
 msgpack_object
 obj
 =
@@ -464,7 +465,7 @@ n
 NULL
 )
 ;
-UP_CHECK
+UP_CHECKC
 (
 msgpack_unpacker_next
 (
@@ -473,6 +474,7 @@ upk
 res
 )
 )
+;
 msgpack_object
 obj
 =
@@ -543,7 +545,7 @@ arr
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_array
 (
@@ -574,7 +576,7 @@ i
 +
 )
 {
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -652,7 +654,7 @@ max
 NULL
 )
 ;
-UP_CHECK
+UP_CHECKC
 (
 msgpack_unpacker_next
 (
@@ -661,6 +663,7 @@ upk
 res
 )
 )
+;
 msgpack_object
 obj
 =
@@ -791,7 +794,7 @@ t
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -804,7 +807,7 @@ a
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -817,7 +820,7 @@ b
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -880,7 +883,7 @@ max
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -894,7 +897,7 @@ max
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -908,7 +911,7 @@ max
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -963,7 +966,7 @@ A
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_array
 (
@@ -975,7 +978,7 @@ data_shares
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_array
 (
@@ -1029,7 +1032,7 @@ A
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_array
 (
@@ -1050,7 +1053,7 @@ modulus
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_array
 (
@@ -1111,7 +1114,7 @@ seed
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_str
 (
@@ -1120,7 +1123,7 @@ PRG_SEED_LENGTH
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_str_body
 (
@@ -1178,7 +1181,7 @@ seed
 NULL
 )
 ;
-UP_CHECK
+UP_CHECKC
 (
 msgpack_unpacker_next
 (
@@ -1187,6 +1190,7 @@ upk
 res
 )
 )
+;
 msgpack_object
 obj
 =
@@ -1382,7 +1386,7 @@ p
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_str
 (
@@ -1394,7 +1398,7 @@ batch_id_len
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_str_body
 (
@@ -1410,7 +1414,7 @@ batch_id_len
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_beaver_triple
 (
@@ -1422,7 +1426,7 @@ triple
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -1435,7 +1439,7 @@ f0_share
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -1448,7 +1452,7 @@ g0_share
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -1461,7 +1465,7 @@ h0_share
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_int
 (
@@ -1484,7 +1488,7 @@ for_server
 case
 PRIO_SERVER_A
 :
-P_CHECK
+P_CHECKC
 (
 serial_write_server_a_data
 (
@@ -1504,7 +1508,7 @@ break
 case
 PRIO_SERVER_B
 :
-P_CHECK
+P_CHECKC
 (
 serial_write_server_b_data
 (
@@ -1568,7 +1572,7 @@ NULL
 int
 serv
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_int
 (
@@ -1645,7 +1649,7 @@ p
 NULL
 )
 ;
-UP_CHECK
+UP_CHECKC
 (
 msgpack_unpacker_next
 (
@@ -1654,6 +1658,7 @@ upk
 res
 )
 )
+;
 msgpack_object
 obj
 =
@@ -1716,7 +1721,7 @@ batch_id_len
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_beaver_triple
 (
@@ -1733,7 +1738,7 @@ modulus
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -1751,7 +1756,7 @@ modulus
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -1769,7 +1774,7 @@ modulus
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -1787,17 +1792,28 @@ modulus
 )
 )
 ;
-P_CHECK
+PrioServerId
+remote_id
+;
+P_CHECKC
 (
 serial_read_server_id
 (
 upk
 &
+remote_id
+)
+)
+;
+P_CHECKCB
+(
+remote_id
+=
+=
 p
 -
 >
 for_server
-)
 )
 ;
 switch
@@ -1811,7 +1827,7 @@ for_server
 case
 PRIO_SERVER_A
 :
-P_CHECK
+P_CHECKC
 (
 serial_read_server_a_data
 (
@@ -1832,7 +1848,7 @@ break
 case
 PRIO_SERVER_B
 :
-P_CHECK
+P_CHECKC
 (
 serial_read_server_b_data
 (
@@ -1851,8 +1867,12 @@ break
 ;
 default
 :
-return
+rv
+=
 SECFailure
+;
+goto
+cleanup
 ;
 }
 cleanup
@@ -1898,7 +1918,7 @@ p
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -1911,7 +1931,7 @@ share_d
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -1963,7 +1983,7 @@ p
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -1981,7 +2001,7 @@ modulus
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -2036,7 +2056,7 @@ p
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_int
 (
@@ -2088,7 +2108,7 @@ p
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_int
 (
@@ -2143,7 +2163,7 @@ pk
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 msgpack_pack_int
 (
@@ -2155,7 +2175,7 @@ idx
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_write_mp_array
 (
@@ -2206,7 +2226,7 @@ upk
 NULL
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_server_id
 (
@@ -2219,7 +2239,7 @@ idx
 )
 )
 ;
-P_CHECK
+P_CHECKC
 (
 serial_read_mp_array
 (
