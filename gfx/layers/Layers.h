@@ -16471,7 +16471,7 @@ layers
 corresponding
 to
 an
-nsDisplayResolution
+nsDisplayAsyncZoom
 the
 resolution
 of
