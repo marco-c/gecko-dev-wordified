@@ -17991,8 +17991,6 @@ int32_t
 aClickCount
 int32_t
 aModifiers
-bool
-aIgnoreRootScrollFrame
 ErrorResult
 &
 aRv
@@ -18033,7 +18031,6 @@ aY
 aButton
 aClickCount
 aModifiers
-aIgnoreRootScrollFrame
 )
 ;
 }
