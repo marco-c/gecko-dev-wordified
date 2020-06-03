@@ -6994,6 +6994,7 @@ nsIContent
 *
 GetPreviousHTMLElementOrTextInternal
 (
+const
 nsINode
 &
 aNode
@@ -7434,6 +7435,7 @@ nsIContent
 *
 GetNextHTMLElementOrTextInternal
 (
+const
 nsINode
 &
 aNode

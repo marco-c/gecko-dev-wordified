@@ -32829,6 +32829,7 @@ HTMLEditor
 :
 GetPreviousHTMLElementOrTextInternal
 (
+const
 nsINode
 &
 aNode
@@ -33029,6 +33030,7 @@ HTMLEditor
 :
 GetNextHTMLElementOrTextInternal
 (
+const
 nsINode
 &
 aNode
