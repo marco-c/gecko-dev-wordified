@@ -1717,6 +1717,11 @@ Unavailable
 TaskRunnable
 :
 :
+dispatch
+(
+TaskRunnable
+:
+:
 new
 (
 "
@@ -1728,9 +1733,6 @@ Persist
 task
 )
 ?
-.
-dispatch
-(
 thread
 )
 ?
