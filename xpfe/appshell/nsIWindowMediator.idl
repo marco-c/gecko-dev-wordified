@@ -560,6 +560,9 @@ browser
 )
 but
 *
+if
+that
+fails
 it
 also
 tries
@@ -568,9 +571,12 @@ navigator
 :
 geckoview
 '
-if
-that
-fails
+and
+'
+mail
+:
+3pane
+'
 .
 *
 *
