@@ -631,7 +631,7 @@ params
 mFlags
 |
 =
-ARENA_FLAG_RANDOMIZE_SMALL
+ARENA_FLAG_RANDOMIZE_SMALL_ENABLED
 ;
 ArrayBufferContentsArena
 =
