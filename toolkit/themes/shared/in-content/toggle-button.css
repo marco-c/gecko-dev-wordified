@@ -335,6 +335,8 @@ toggle
 -
 button
 :
+enabled
+:
 hover
 {
 background
@@ -380,6 +382,8 @@ checkbox
 toggle
 -
 button
+:
+enabled
 :
 active
 {
