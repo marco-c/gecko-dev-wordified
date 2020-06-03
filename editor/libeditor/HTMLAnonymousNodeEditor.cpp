@@ -1603,7 +1603,7 @@ MOZ_ASSERT
 aContent
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

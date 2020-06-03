@@ -28796,7 +28796,7 @@ MOZ_LIKELY
 aChild
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

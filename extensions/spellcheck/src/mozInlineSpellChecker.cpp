@@ -6806,7 +6806,7 @@ if
 content
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

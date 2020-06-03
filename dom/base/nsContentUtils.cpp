@@ -16209,7 +16209,7 @@ if
 aContent
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

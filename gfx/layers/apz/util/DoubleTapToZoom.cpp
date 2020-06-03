@@ -441,7 +441,7 @@ GetContent
 )
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

@@ -4106,7 +4106,7 @@ MOZ_DIAGNOSTIC_ASSERT
 !
 aChild
 .
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 "
@@ -4257,7 +4257,7 @@ if
 (
 aChild
 .
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

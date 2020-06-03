@@ -37333,7 +37333,7 @@ while
 content
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -73714,7 +73714,7 @@ GetContent
 )
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

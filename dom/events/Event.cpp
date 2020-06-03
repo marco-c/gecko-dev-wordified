@@ -734,7 +734,7 @@ content
 content
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

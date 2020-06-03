@@ -666,7 +666,7 @@ if
 aOrigNode
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 |

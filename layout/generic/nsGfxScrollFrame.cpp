@@ -10323,7 +10323,7 @@ aContent
 aContent
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

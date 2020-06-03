@@ -698,7 +698,7 @@ NS_ASSERTION
 cur
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 "
@@ -1863,7 +1863,7 @@ MOZ_UNLIKELY
 aContent
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -2387,7 +2387,7 @@ NS_ASSERTION
 aChild
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 "
@@ -2736,7 +2736,7 @@ if
 aOldChild
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

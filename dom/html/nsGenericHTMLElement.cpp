@@ -1182,7 +1182,7 @@ doc
 &
 &
 !
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

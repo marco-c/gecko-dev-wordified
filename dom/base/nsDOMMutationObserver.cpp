@@ -438,7 +438,7 @@ IsChrome
 aContent
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

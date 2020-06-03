@@ -34727,7 +34727,7 @@ option
 !
 aChild
 .
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -34893,7 +34893,7 @@ if
 (
 aChild
 .
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -35014,7 +35014,7 @@ if
 (
 aChild
 .
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 &
@@ -42617,7 +42617,7 @@ ShadowDOMInvolved
 aChild
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -42627,7 +42627,7 @@ IsRootOfAnonymousSubtree
 The
 check
 for
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 is
@@ -49196,7 +49196,7 @@ aStartChild
 aStartChild
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 insertion
@@ -50270,7 +50270,7 @@ MOZ_ASSERT
 aChild
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 |
@@ -60153,7 +60153,7 @@ nextSibling
 aContent
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 ?
@@ -60385,7 +60385,7 @@ nextSibling
 aElement
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 ?
@@ -67195,7 +67195,7 @@ i
 mContent
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 "

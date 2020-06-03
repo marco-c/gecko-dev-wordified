@@ -2683,7 +2683,7 @@ textarea
 aContent
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )
@@ -2885,7 +2885,7 @@ NodeOrAncestorHasDirAuto
 aTextNode
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

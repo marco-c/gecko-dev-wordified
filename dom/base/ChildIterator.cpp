@@ -673,7 +673,7 @@ mParent
 aChildToFind
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

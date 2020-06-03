@@ -16936,7 +16936,7 @@ mForm
 }
 if
 (
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )
@@ -37187,7 +37187,7 @@ GetUncomposedDocOrConnectedShadowRoot
 )
 |
 |
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

@@ -6105,7 +6105,7 @@ doc
 &
 &
 !
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )
@@ -6212,7 +6212,7 @@ doc
 &
 &
 !
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )
@@ -11418,7 +11418,7 @@ document
 ;
 MOZ_ASSERT
 (
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

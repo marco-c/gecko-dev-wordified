@@ -898,7 +898,7 @@ mRootNode
 mRootNode
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
