@@ -1085,6 +1085,9 @@ boolean
 targetForm
 :
 Object
+reconfigure
+:
+Object
 /
 /
 Property
