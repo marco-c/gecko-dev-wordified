@@ -568,6 +568,11 @@ GeckoEditableSupport
 cpp
 '
 '
+GeckoProcessManager
+.
+cpp
+'
+'
 GfxInfo
 .
 cpp
