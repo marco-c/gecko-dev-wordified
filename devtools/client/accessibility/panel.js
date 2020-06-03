@@ -964,13 +964,14 @@ onTargetAvailable
 (
 {
 targetFront
-isTopLevel
 isTargetSwitching
 }
 )
 {
 if
 (
+targetFront
+.
 isTopLevel
 )
 {
