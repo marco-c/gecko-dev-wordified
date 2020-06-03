@@ -6975,10 +6975,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 intrinsic_IsSuspendedGenerator
 (
 JSContext
@@ -15907,7 +15905,7 @@ intrinsic_GeneratorObjectIsClosed
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 IsSuspendedGenerator
@@ -15915,6 +15913,7 @@ IsSuspendedGenerator
 intrinsic_IsSuspendedGenerator
 1
 0
+IntrinsicIsSuspendedGenerator
 )
 JS_FN
 (
