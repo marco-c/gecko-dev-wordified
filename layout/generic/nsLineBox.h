@@ -2720,7 +2720,6 @@ GetOverflowArea
 nsOverflowType
 aType
 )
-const
 {
 return
 mData
@@ -2744,7 +2743,6 @@ nsOverflowAreas
 GetOverflowAreas
 (
 )
-const
 {
 if
 (
@@ -2777,7 +2775,6 @@ nsRect
 GetVisualOverflowArea
 (
 )
-const
 {
 return
 GetOverflowArea
