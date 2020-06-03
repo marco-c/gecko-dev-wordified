@@ -277,7 +277,7 @@ this
 .
 helper
 .
-sendRequestForResult
+sendRequest
 (
 tabId
 {
