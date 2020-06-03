@@ -188,6 +188,13 @@ h
 #
 include
 "
+RtpRtcpConfig
+.
+h
+"
+#
+include
+"
 MediaConduitInterface
 .
 h
@@ -4833,6 +4840,11 @@ configs
 ]
 .
 get
+(
+)
+details
+.
+GetRtpRtcpConfig
 (
 )
 )

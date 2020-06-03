@@ -157,6 +157,13 @@ h
 #
 include
 "
+RtpRtcpConfig
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -3208,6 +3215,11 @@ conduit
 ConfigureRecvMediaCodecs
 (
 configs
+details
+.
+GetRtpRtcpConfig
+(
+)
 )
 ;
 if

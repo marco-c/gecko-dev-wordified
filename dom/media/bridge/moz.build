@@ -202,6 +202,17 @@ webrtc
 trunk
 /
 '
+'
+/
+media
+/
+webrtc
+/
+trunk
+/
+webrtc
+/
+'
 ]
 if
 CONFIG
