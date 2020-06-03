@@ -322,8 +322,6 @@ Cancel
 (
 nsresult
 status
-uint32_t
-requestBlockingReason
 )
 ;
 /
