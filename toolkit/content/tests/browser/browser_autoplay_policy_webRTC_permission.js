@@ -127,15 +127,9 @@ media
 .
 autoplay
 .
-enabled
-.
-user
--
-gestures
--
-needed
+blocking_policy
 "
-true
+0
 ]
 [
 "
