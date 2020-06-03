@@ -23438,6 +23438,15 @@ GetBaseURI
 )
 ;
 }
+else
+{
+srcdoc
+=
+VoidString
+(
+)
+;
+}
 nsCOMPtr
 <
 nsIChannel
