@@ -1686,7 +1686,7 @@ thingKind
 const
 {
 return
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -1721,7 +1721,7 @@ thingKind
 const
 {
 return
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
@@ -1804,7 +1804,7 @@ thingKind
 const
 {
 return
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -1880,7 +1880,7 @@ false
 if
 (
 !
-arenaLists
+arenaList
 (
 i
 )
@@ -1957,7 +1957,7 @@ Arena
 *
 arena
 =
-arenaLists
+arenaList
 (
 i
 )

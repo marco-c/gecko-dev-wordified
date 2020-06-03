@@ -4176,7 +4176,7 @@ ArenaList
 &
 al
 =
-arenaLists
+arenaList
 (
 thingKind
 )
