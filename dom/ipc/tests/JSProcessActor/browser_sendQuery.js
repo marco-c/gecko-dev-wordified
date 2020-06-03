@@ -273,7 +273,7 @@ TestProcessActorChild
 .
 jsm
 :
-28
+35
 :
 31
 \
@@ -429,7 +429,7 @@ TestProcessActorChild
 .
 jsm
 :
-31
+38
 :
 22
 \
