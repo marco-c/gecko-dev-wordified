@@ -9105,6 +9105,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachIsCallable
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachStringChar
 (
 HandleFunction
