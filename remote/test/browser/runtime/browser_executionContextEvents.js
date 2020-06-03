@@ -288,6 +288,8 @@ findEvent
 (
 DESTROYED
 )
+.
+payload
 ;
 is
 (
@@ -320,6 +322,8 @@ findEvent
 (
 CREATED
 )
+.
+payload
 ;
 checkDefaultContext
 (
@@ -460,6 +464,8 @@ findEvent
 (
 DESTROYED
 )
+.
+payload
 ;
 is
 (
@@ -497,6 +503,8 @@ contexts
 0
 ]
 .
+payload
+.
 context
 ;
 const
@@ -506,6 +514,8 @@ contexts
 [
 1
 ]
+.
+payload
 .
 context
 ;
@@ -657,6 +667,8 @@ destroyedContextIds
 0
 ]
 .
+payload
+.
 executionContextId
 createdTopContext
 .
@@ -679,6 +691,8 @@ destroyedContextIds
 [
 1
 ]
+.
+payload
 .
 executionContextId
 createdFrameContext
@@ -712,6 +726,8 @@ findEvent
 (
 CREATED
 )
+.
+payload
 ;
 checkDefaultContext
 (
@@ -876,6 +892,8 @@ findEvent
 (
 DESTROYED
 )
+.
+payload
 ;
 is
 (
@@ -906,6 +924,8 @@ findEvent
 (
 CREATED
 )
+.
+payload
 ;
 checkDefaultContext
 (
@@ -1192,6 +1212,8 @@ findEvent
 (
 DESTROYED
 )
+.
+payload
 ;
 is
 (
@@ -1222,6 +1244,8 @@ findEvent
 (
 CREATED
 )
+.
+payload
 ;
 checkDefaultContext
 (
@@ -1360,6 +1384,8 @@ findEvent
 (
 DESTROYED
 )
+.
+payload
 ;
 is
 (
@@ -1392,6 +1418,8 @@ findEvent
 (
 CREATED
 )
+.
+payload
 ;
 checkDefaultContext
 (
@@ -1525,7 +1553,11 @@ eventName
 CREATED
 messageFn
 :
-payload
+(
+{
+context
+}
+)
 =
 >
 {
@@ -1538,8 +1570,6 @@ CREATED
 for
 id
 {
-payload
-.
 context
 .
 id
@@ -1548,8 +1578,6 @@ id
 type
 :
 {
-payload
-.
 context
 .
 auxData
@@ -1560,8 +1588,6 @@ type
 name
 :
 {
-payload
-.
 context
 .
 name
@@ -1570,8 +1596,6 @@ name
 origin
 :
 {
-payload
-.
 context
 .
 origin
