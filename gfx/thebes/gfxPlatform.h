@@ -3969,8 +3969,7 @@ ReInitFrameRate
 *
 *
 Update
-allow
-sacrificing
+force
 subpixel
 AA
 quality
@@ -3986,7 +3985,7 @@ changes
 *
 /
 void
-UpdateAllowSacrificingSubpixelAA
+UpdateForceSubpixelAAWherePossible
 (
 )
 ;

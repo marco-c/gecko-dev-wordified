@@ -12229,7 +12229,7 @@ InitializeStatics
 gfxVars
 :
 :
-SetAllowSacrificingSubpixelAAListener
+SetForceSubpixelAAWherePossibleListener
 (
 &
 UpdateQualitySettings

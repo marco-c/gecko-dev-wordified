@@ -1078,7 +1078,7 @@ void
 UpdateQualitySettings
 (
 bool
-aAllowSacrificingSubpixelAA
+aForceSubpixelAAWherePossible
 )
 ;
 void

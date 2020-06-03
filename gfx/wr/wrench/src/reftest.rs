@@ -767,7 +767,7 @@ bool
 zoom_factor
 :
 f32
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 :
 Option
 <
@@ -2865,7 +2865,7 @@ dirty_region_index
 ;
 let
 mut
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 =
 None
 ;
@@ -3139,7 +3139,7 @@ function
 starts_with
 (
 "
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 "
 )
 =
@@ -3157,7 +3157,7 @@ parse_function
 function
 )
 ;
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 =
 Some
 (
@@ -4260,7 +4260,7 @@ extra_checks
 disable_dual_source_blending
 allow_mipmaps
 zoom_factor
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 }
 )
 ;
@@ -5211,18 +5211,18 @@ quality_settings
 match
 t
 .
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 {
 Some
 (
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 )
 =
 >
 {
 QualitySettings
 {
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 }
 }
 None

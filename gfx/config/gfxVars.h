@@ -526,7 +526,7 @@ true
 \
 _
 (
-AllowSacrificingSubpixelAA
+ForceSubpixelAAWherePossible
 bool
 false
 )

@@ -9997,7 +9997,7 @@ txn
 &
 mut
 Transaction
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 :
 bool
 )
@@ -10008,7 +10008,7 @@ set_quality_settings
 (
 QualitySettings
 {
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 }
 )
 ;
