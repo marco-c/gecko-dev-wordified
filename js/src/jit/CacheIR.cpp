@@ -33887,7 +33887,7 @@ AttachDecision
 CallIRGenerator
 :
 :
-tryAttachSpecialCaseCallNative
+tryAttachInlinableNative
 (
 HandleFunction
 callee
@@ -36203,7 +36203,7 @@ isSpecialized
 {
 TRY_ATTACH
 (
-tryAttachSpecialCaseCallNative
+tryAttachInlinableNative
 (
 calleeFunc
 )
