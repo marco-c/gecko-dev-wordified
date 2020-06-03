@@ -112,14 +112,6 @@ builder
 ;
 pub
 mod
-data
-;
-pub
-mod
-frame_slot
-;
-pub
-mod
 free_name_tracker
 ;
 mod
@@ -130,6 +122,12 @@ crate
 jsparagus_ast
 as
 ast
+;
+extern
+crate
+jsparagus_stencil
+as
+stencil
 ;
 use
 ast

@@ -2,7 +2,7 @@ use
 crate
 :
 :
-stencil
+script
 :
 :
 ScriptStencilIndex
@@ -42,14 +42,6 @@ section
 is
 generated
 by
-/
-/
-crates
-/
-emitter
-/
-scripts
-/
 update_opcodes
 .
 py
