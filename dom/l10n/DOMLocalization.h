@@ -224,6 +224,11 @@ nsIGlobalObject
 aGlobal
 )
 ;
+void
+Destroy
+(
+)
+;
 static
 already_AddRefed
 <
