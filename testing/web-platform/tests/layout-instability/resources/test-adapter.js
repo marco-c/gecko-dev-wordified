@@ -18,14 +18,11 @@ expectation
 =
 >
 {
-assert_equals
-(
 watcher
 .
-score
+checkExpectation
+(
 expectation
-.
-score
 )
 ;
 }
