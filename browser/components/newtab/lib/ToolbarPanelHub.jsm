@@ -482,6 +482,7 @@ of
 the
 toolbar
 button
+await
 this
 .
 enableAppmenuButton
