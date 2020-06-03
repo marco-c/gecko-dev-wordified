@@ -223,7 +223,7 @@ h
 #
 include
 "
-MozContainer
+mozcontainer
 .
 h
 "
