@@ -1025,11 +1025,11 @@ span_iterator
 is
 constructed
 for
+/
+/
 obviously
 -
 correct
-/
-/
 cases
 like
 span
@@ -1046,10 +1046,10 @@ end
 .
 We
 provide
+/
+/
 this
 private
-/
-/
 constructor
 for
 such
