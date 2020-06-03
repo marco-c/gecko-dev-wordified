@@ -4373,9 +4373,12 @@ features
 chrome
 titlebar
 =
-yes
+no
 alwaysontop
 minimizable
+=
+yes
+popup
 =
 yes
 "
