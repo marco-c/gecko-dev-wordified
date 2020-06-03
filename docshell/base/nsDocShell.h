@@ -2883,6 +2883,15 @@ aDocShell
 )
 ;
 }
+static
+bool
+CanLoadInParentProcess
+(
+nsIURI
+*
+aURI
+)
+;
 /
 /
 Returns
