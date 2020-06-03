@@ -515,7 +515,7 @@ line
 in
 r
 .
-content
+text
 .
 splitlines
 (
