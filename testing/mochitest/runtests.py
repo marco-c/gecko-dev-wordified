@@ -147,6 +147,8 @@ platform
 import
 re
 import
+shlex
+import
 shutil
 import
 signal
@@ -18160,12 +18162,11 @@ is
 None
                                   
 else
-valgrindArgs
+shlex
 .
 split
 (
-"
-"
+valgrindArgs
 )
 )
             
