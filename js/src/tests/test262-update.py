@@ -174,14 +174,6 @@ indices
 "
     
 "
-regexp
--
-named
--
-groups
-"
-    
-"
 export
 -
 star
