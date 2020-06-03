@@ -18158,9 +18158,15 @@ media
 .
 autoplay
 .
-blocking_policy
+enabled
+.
+user
+-
+gestures
+-
+needed
 "
-0
+true
 )
 ;
 /
