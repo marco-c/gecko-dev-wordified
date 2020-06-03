@@ -2715,16 +2715,29 @@ tests
 '
         
 '
+build_flavor
+'
+:
+'
+web
+-
+platform
+-
+tests
+'
+        
+'
 kwargs
 '
 :
 {
 '
-include
+subsuite
 '
 :
-[
-]
+'
+reftest
+'
 }
         
 '
