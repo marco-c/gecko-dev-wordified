@@ -1614,9 +1614,6 @@ any
 .
 *
 /
-[
-noscript
-]
 readonly
 attribute
 ACString

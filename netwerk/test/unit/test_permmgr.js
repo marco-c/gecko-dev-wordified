@@ -990,8 +990,6 @@ ace
 .
 principal
 .
-URI
-.
 asciiHost
 aceref
 )

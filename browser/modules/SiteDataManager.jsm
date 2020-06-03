@@ -1877,8 +1877,6 @@ if
 (
 principal
 .
-URI
-.
 asciiHost
 =
 =

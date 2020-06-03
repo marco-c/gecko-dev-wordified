@@ -437,8 +437,6 @@ host
 =
 principal
 .
-URI
-.
 asciiHost
 ;
 }
