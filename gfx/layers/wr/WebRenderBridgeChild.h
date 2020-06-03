@@ -1092,13 +1092,6 @@ ToggleCaptureSequence
 (
 )
 ;
-void
-SetTransactionLogging
-(
-bool
-aValue
-)
-;
 private
 :
 friend

@@ -18367,14 +18367,6 @@ _
 DebugCommand
 :
 :
-SetTransactionLogging
-(
-_
-)
-|
-DebugCommand
-:
-:
 SetPictureTileSize
 (
 _

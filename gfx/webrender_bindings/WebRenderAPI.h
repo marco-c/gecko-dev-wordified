@@ -1524,13 +1524,6 @@ ToggleCaptureSequence
 )
 ;
 void
-SetTransactionLogging
-(
-bool
-aValue
-)
-;
-void
 SetCompositionRecorder
 (
 UniquePtr
