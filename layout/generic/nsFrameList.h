@@ -187,6 +187,12 @@ defined
 (
 MOZ_DUMP_PAINTING
 )
+|
+|
+defined
+(
+MOZ_LAYOUT_DEBUGGER
+)
 /
 /
 DEBUG_FRAME_DUMP

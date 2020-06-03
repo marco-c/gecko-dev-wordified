@@ -1437,9 +1437,6 @@ ListFlags
 )
 )
 {
-#
-ifdef
-DEBUG_FRAME_DUMP
 if
 (
 aFlags
@@ -1641,8 +1638,6 @@ aFlags
 ;
 }
 }
-#
-endif
 }
 NS_IMETHODIMP
 nsLayoutDebuggingTools
@@ -1982,9 +1977,6 @@ mDocShell
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-#
-ifdef
-DEBUG_FRAME_DUMP
 FILE
 *
 out
@@ -2044,8 +2036,6 @@ out
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
