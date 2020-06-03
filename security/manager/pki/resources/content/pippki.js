@@ -388,11 +388,9 @@ parent
 &
 parent
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 "
 chrome
 :
