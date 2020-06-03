@@ -7554,6 +7554,15 @@ runtime
 >
 addTelemetry
 (
+JS_TELEMETRY_GC_MARK_RATE_2
+markRate
+)
+;
+runtime
+-
+>
+addTelemetry
+(
 JS_TELEMETRY_GC_SWEEP_MS
 t
 (
