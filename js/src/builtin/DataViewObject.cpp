@@ -122,15 +122,6 @@ include
 "
 mozilla
 /
-Alignment
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Casting
 .
 h
@@ -1959,7 +1950,7 @@ min
 size_t
 >
 (
-MOZ_ALIGNOF
+alignof
 (
 void
 *
