@@ -1870,14 +1870,6 @@ web
 platform
 -
 tests
-'
-    
-'
-web
--
-platform
--
-tests
 -
 backlog
 '
