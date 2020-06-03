@@ -424,10 +424,10 @@ gCx
 exnStack
 )
 ;
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 report
 (
 gCx
@@ -442,10 +442,10 @@ init
 (
 gCx
 exnStack
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects
@@ -460,7 +460,10 @@ out
 of
 memory
 initializing
-ErrorReport
+JS
+:
+:
+ErrorReportBuilder
 \
 n
 "
