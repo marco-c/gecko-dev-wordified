@@ -236,6 +236,11 @@ TestDriftCompensation
 cpp
 '
 '
+TestDynamicResampler
+.
+cpp
+'
+'
 TestGMPUtils
 .
 cpp
