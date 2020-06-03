@@ -203,7 +203,7 @@ IdleDetector
 {
 threshold
 :
-60
+60000
 }
 )
 ;
