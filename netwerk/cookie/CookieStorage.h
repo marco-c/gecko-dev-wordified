@@ -970,6 +970,17 @@ Cookie
 aCookie
 )
 ;
+void
+MergeCookieSchemeMap
+(
+Cookie
+*
+aOldCookie
+Cookie
+*
+aNewCookie
+)
+;
 static
 already_AddRefed
 <
