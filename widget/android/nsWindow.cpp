@@ -10894,7 +10894,13 @@ nsIURI
 >
 triggeringUri
 ;
+BasePrincipal
+:
+:
+Cast
+(
 aTriggeringPrincipal
+)
 -
 >
 GetURI
