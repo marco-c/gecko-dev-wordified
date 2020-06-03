@@ -193,6 +193,8 @@ protocolVersion
 :
 "
 1
+.
+3
 "
 product
 :
