@@ -127,7 +127,11 @@ h
 #
 include
 "
-GeneratedJNINatives
+mozilla
+/
+java
+/
+GeckoSurfaceTextureNatives
 .
 h
 "

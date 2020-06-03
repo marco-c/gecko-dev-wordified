@@ -137,7 +137,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+StackScrollerWrappers
 .
 h
 "

@@ -364,6 +364,17 @@ include
 "
 mozilla
 /
+java
+/
+GeckoSurfaceTextureWrappers
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CompositorThread
