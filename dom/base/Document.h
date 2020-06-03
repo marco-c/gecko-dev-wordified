@@ -21077,16 +21077,6 @@ GetTopLayerTop
 (
 )
 ;
-bool
-DoesTopLayerContain
-(
-const
-Element
-*
-aElement
-)
-const
-;
 /
 /
 Return
