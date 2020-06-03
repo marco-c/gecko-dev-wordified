@@ -271,7 +271,7 @@ cookie
 var
 COOKIE_DATABASE_SCHEMA_CURRENT
 =
-12
+11
 ;
 var
 test_generator

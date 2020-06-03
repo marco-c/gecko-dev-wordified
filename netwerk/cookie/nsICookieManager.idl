@@ -100,13 +100,6 @@ nsISupports
 .
 idl
 "
-#
-include
-"
-nsICookie
-.
-idl
-"
 %
 {
 C
@@ -136,6 +129,12 @@ mozilla
 :
 OriginAttributes
 )
+;
+interface
+nsICookie
+;
+interface
+nsIFile
 ;
 /
 *
@@ -853,9 +852,6 @@ aOriginAttributes
 in
 int32_t
 aSameSite
-in
-nsICookie_schemeType
-aSchemeMap
 )
 ;
 [
@@ -894,9 +890,6 @@ aOriginAttributes
 in
 int32_t
 aSameSite
-in
-nsICookie_schemeType
-aSchemeMap
 )
 ;
 /
