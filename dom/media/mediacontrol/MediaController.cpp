@@ -239,7 +239,7 @@ uint64_t
 aBrowsingContextId
 )
 :
-MediaSessionController
+MediaStatusManager
 (
 aBrowsingContextId
 )
@@ -850,7 +850,7 @@ mShutdown
 return
 ;
 }
-MediaSessionController
+MediaStatusManager
 :
 :
 NotifyMediaPlaybackChanged
@@ -925,10 +925,10 @@ IsAudible
 (
 )
 ;
-MediaSessionController
+MediaStatusManager
 :
 :
-NotifyMediaAudibleChange
+NotifyMediaAudibleChanged
 (
 aBrowsingContextId
 aState

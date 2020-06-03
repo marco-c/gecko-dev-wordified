@@ -116,11 +116,6 @@ MediaSession
 h
 '
 '
-MediaSessionController
-.
-h
-'
-'
 MediaSessionIPCUtils
 .
 h
@@ -142,11 +137,6 @@ cpp
 '
 '
 MediaSession
-.
-cpp
-'
-'
-MediaSessionController
 .
 cpp
 '
