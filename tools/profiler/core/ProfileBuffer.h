@@ -1472,8 +1472,6 @@ ProfileBufferCollector
 ProfileBuffer
 &
 aBuf
-uint32_t
-aFeatures
 uint64_t
 aSamplePos
 )
@@ -1485,10 +1483,6 @@ aBuf
 mSamplePositionInBuffer
 (
 aSamplePos
-)
-mFeatures
-(
-aFeatures
 )
 {
 }
@@ -1593,9 +1587,6 @@ mBuf
 ;
 uint64_t
 mSamplePositionInBuffer
-;
-uint32_t
-mFeatures
 ;
 }
 ;

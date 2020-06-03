@@ -889,10 +889,7 @@ argument
 profiler_suspend_and_sample_thread
 (
 mThreadId
-ProfilerFeature
-:
-:
-Privacy
+0
 *
 this
 aStackWalk
