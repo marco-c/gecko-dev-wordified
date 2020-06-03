@@ -803,13 +803,6 @@ installed
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseShutdownManager
-(
-)
-;
 }
 )
 ;
