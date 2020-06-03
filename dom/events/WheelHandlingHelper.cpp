@@ -2361,7 +2361,7 @@ bug
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 sTargetFrame
 -
@@ -2548,7 +2548,7 @@ bug
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 frame
 -

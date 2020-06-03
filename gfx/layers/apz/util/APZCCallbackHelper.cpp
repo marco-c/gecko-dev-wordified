@@ -5772,7 +5772,7 @@ return
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 ownerDoc
 targetContent

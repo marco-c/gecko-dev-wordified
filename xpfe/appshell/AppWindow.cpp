@@ -17562,6 +17562,10 @@ NS_LITERAL_STRING
 resolutionchange
 "
 )
+ChromeOnlyDispatch
+:
+:
+eYes
 )
 ;
 }
@@ -17707,6 +17711,10 @@ NS_LITERAL_STRING
 occlusionstatechange
 "
 )
+ChromeOnlyDispatch
+:
+:
+eYes
 )
 ;
 }

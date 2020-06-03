@@ -4021,7 +4021,7 @@ false
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 mDocument
 ToSupports
