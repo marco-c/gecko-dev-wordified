@@ -195,7 +195,7 @@ places
 .
 Update
 the
-VERSION
+IRREGEXP_VERSION
 file
 to
 include
@@ -914,7 +914,7 @@ name
     
 #
 Update
-VERSION
+IRREGEXP_VERSION
 file
     
 hash
@@ -933,7 +933,7 @@ str
 dstdir
 /
 '
-VERSION
+IRREGEXP_VERSION
 '
 )
 '
