@@ -26,12 +26,18 @@ std
 time
 ;
 use
+crate
+:
+:
 bufreader
 :
 :
 BufReader
 ;
 use
+crate
+:
+:
 Compression
 ;
 pub
@@ -2038,6 +2044,12 @@ GzBuilder
 }
 ;
 use
+crate
+:
+:
+Compression
+;
+use
 rand
 :
 :
@@ -2045,9 +2057,6 @@ rand
 thread_rng
 Rng
 }
-;
-use
-Compression
 ;
 #
 [
@@ -2318,6 +2327,7 @@ default
 let
 v
 =
+crate
 :
 :
 random_bytes
@@ -2483,6 +2493,7 @@ roundtrip_big2
 let
 v
 =
+crate
 :
 :
 random_bytes

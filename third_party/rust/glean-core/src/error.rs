@@ -492,8 +492,8 @@ an
 error
 that
 no
+requested
 global
-Glean
 object
 is
 initialized

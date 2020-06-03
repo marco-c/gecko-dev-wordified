@@ -1099,9 +1099,6 @@ usize
 let
 amt
 =
-try
-!
-(
 self
 .
 inner
@@ -1110,7 +1107,7 @@ write
 (
 buf
 )
-)
+?
 ;
 self
 .
