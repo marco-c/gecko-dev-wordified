@@ -156,7 +156,7 @@ of
 await
 characteristic
 .
-writeValue
+writeValueWithResponse
 (
 typed_array
 )
@@ -188,9 +188,9 @@ assert_equals
 (
 lastWriteType
 '
-default
+with
 -
-deprecated
+response
 '
 )
 ;
@@ -218,7 +218,7 @@ buffer
 await
 characteristic
 .
-writeValue
+writeValueWithResponse
 (
 array_buffer
 )
@@ -250,9 +250,9 @@ assert_equals
 (
 lastWriteType
 '
-default
+with
 -
-deprecated
+response
 '
 )
 ;
@@ -296,7 +296,7 @@ setUint8
 await
 characteristic
 .
-writeValue
+writeValueWithResponse
 (
 data_view
 )
@@ -328,9 +328,9 @@ assert_equals
 (
 lastWriteType
 '
-default
+with
 -
-deprecated
+response
 '
 )
 ;
