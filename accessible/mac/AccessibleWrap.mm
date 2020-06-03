@@ -1172,6 +1172,12 @@ roles
 :
 TOGGLE_BUTTON
 :
+return
+[
+mozCheckboxAccessible
+class
+]
+;
 case
 roles
 :
@@ -1180,7 +1186,7 @@ RADIOBUTTON
 :
 return
 [
-mozCheckboxAccessible
+mozRadioButtonAccessible
 class
 ]
 ;
