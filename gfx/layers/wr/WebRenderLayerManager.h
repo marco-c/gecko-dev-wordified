@@ -1385,14 +1385,8 @@ mURL
 WebRenderCommandBuilder
 mWebRenderCommandBuilder
 ;
-wr
-:
-:
-RenderRootArray
-<
 size_t
->
-mLastDisplayListSizes
+mLastDisplayListSize
 ;
 wr
 :
