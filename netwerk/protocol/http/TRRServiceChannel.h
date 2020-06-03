@@ -777,6 +777,16 @@ aRedirectFlags
 )
 override
 ;
+virtual
+bool
+SameOriginWithOriginalUri
+(
+nsIURI
+*
+aURI
+)
+override
+;
 /
 /
 True

@@ -3442,6 +3442,7 @@ the
 same
 domain
 .
+virtual
 bool
 SameOriginWithOriginalUri
 (
