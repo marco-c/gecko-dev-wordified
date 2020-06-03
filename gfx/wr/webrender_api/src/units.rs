@@ -198,6 +198,7 @@ Point3D
 Vector2D
 Vector3D
 SideOffsets2D
+Box2D
 }
 ;
 use
@@ -573,6 +574,16 @@ type
 PictureVector3D
 =
 Vector3D
+<
+f32
+PicturePixel
+>
+;
+pub
+type
+PictureBox2D
+=
+Box2D
 <
 f32
 PicturePixel
