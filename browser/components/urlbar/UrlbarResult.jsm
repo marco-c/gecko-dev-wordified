@@ -1061,16 +1061,6 @@ this
 payload
 .
 tail
-&
-&
-this
-.
-payload
-.
-tailOffsetIndex
->
-=
-0
 )
 {
 return
