@@ -747,16 +747,6 @@ this
 ;
 return
 {
-hasMixedActiveContentBlocked
-:
-docShell
-.
-hasMixedActiveContentBlocked
-hasMixedDisplayContentBlocked
-:
-docShell
-.
-hasMixedDisplayContentBlocked
 hasTrackingContentBlocked
 :
 docShell

@@ -141,6 +141,17 @@ mozilla
 /
 dom
 /
+BrowserParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ContentParent
 .
 h

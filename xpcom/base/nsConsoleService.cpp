@@ -253,6 +253,17 @@ include
 "
 mozilla
 /
+dom
+/
+BrowserParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
