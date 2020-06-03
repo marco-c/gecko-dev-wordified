@@ -575,6 +575,12 @@ borderify
 "
 )
 )
+assertTrue
+(
+borderify
+.
+isBuiltIn
+)
 mainSession
 .
 reload
@@ -1313,14 +1319,6 @@ version
 0
 "
 )
-/
-/
-TODO
-:
-Bug
-1601067
-/
-/
 assertEquals
 (
 extension
