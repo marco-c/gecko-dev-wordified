@@ -13891,7 +13891,7 @@ mFrameSelection
 frameSelection
 -
 >
-InvalidateDesiredPos
+InvalidateDesiredCaretPos
 (
 )
 ;
@@ -22854,7 +22854,7 @@ arrow
 frameSelection
 -
 >
-InvalidateDesiredPos
+InvalidateDesiredCaretPos
 (
 )
 ;

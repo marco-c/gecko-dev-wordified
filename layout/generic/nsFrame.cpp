@@ -61681,7 +61681,7 @@ newDesiredPos
 aPos
 -
 >
-mDesiredPos
+mDesiredCaretPos
 -
 offset
 ;
@@ -61993,7 +61993,7 @@ y
 aPos
 -
 >
-mDesiredPos
+mDesiredCaretPos
 .
 y
 ;
@@ -62031,7 +62031,7 @@ x
 aPos
 -
 >
-mDesiredPos
+mDesiredCaretPos
 .
 x
 ;
@@ -62546,7 +62546,7 @@ point
 aPos
 -
 >
-mDesiredPos
+mDesiredCaretPos
 ;
 nsView
 *
