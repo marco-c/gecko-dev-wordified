@@ -5383,8 +5383,8 @@ LoadURIExternal
 (
 nsIURI
 uri
-PBrowser
-windowContext
+MaybeDiscardedBrowsingContext
+browsingContext
 )
 ;
 async

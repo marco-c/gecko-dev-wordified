@@ -110,6 +110,9 @@ nsIInterfaceRequestor
 interface
 nsIHandlerInfo
 ;
+webidl
+BrowsingContext
+;
 /
 *
 *
@@ -734,10 +737,10 @@ load
 *
 *
 param
-aWindowContext
+aBrowsingContext
 *
 The
-window
+context
 to
 parent
 the
@@ -850,12 +853,9 @@ loadURI
 in
 nsIURI
 aURI
-[
-optional
-]
 in
-nsIInterfaceRequestor
-aWindowContext
+BrowsingContext
+aBrowsingContext
 )
 ;
 /

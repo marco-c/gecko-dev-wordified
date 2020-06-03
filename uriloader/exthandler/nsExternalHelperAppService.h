@@ -439,9 +439,15 @@ LoadURI
 nsIURI
 *
 aURI
-nsIInterfaceRequestor
+mozilla
+:
+:
+dom
+:
+:
+BrowsingContext
 *
-aWindowContext
+aBrowsingContext
 )
 override
 ;

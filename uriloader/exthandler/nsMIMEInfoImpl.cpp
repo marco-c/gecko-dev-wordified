@@ -1579,9 +1579,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
-nsIInterfaceRequestor
+BrowsingContext
 *
-aWindowContext
+aBrowsingContext
 )
 {
 /
@@ -1864,7 +1864,7 @@ mPreferredApplication
 LaunchWithURI
 (
 aURI
-aWindowContext
+aBrowsingContext
 )
 ;
 }
