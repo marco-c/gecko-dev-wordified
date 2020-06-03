@@ -30511,6 +30511,17 @@ lir
 ins
 )
 ;
+redefine
+(
+ins
+ins
+-
+>
+value
+(
+)
+)
+;
 }
 void
 LIRGenerator
