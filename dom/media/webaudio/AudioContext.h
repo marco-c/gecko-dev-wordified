@@ -843,7 +843,7 @@ aNew
 override
 ;
 void
-Shutdown
+OnWindowDestroy
 (
 )
 ;
