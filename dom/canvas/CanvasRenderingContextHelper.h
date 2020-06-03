@@ -186,6 +186,10 @@ CanvasRenderingContextHelper
 {
 public
 :
+CanvasRenderingContextHelper
+(
+)
+;
 virtual
 already_AddRefed
 <
