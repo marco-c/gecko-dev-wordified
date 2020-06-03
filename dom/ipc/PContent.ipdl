@@ -283,9 +283,6 @@ include
 DOMTypes
 ;
 include
-WindowGlobalTypes
-;
-include
 IPCBlob
 ;
 include
@@ -5478,15 +5475,6 @@ OpenNotificationSettings
 (
 Principal
 principal
-)
-;
-async
-AddMixedContentSecurityState
-(
-MaybeDiscardedWindowContext
-aContext
-uint32_t
-aStateFlags
 )
 ;
 /
