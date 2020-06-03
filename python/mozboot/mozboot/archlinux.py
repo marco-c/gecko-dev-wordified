@@ -229,6 +229,12 @@ Arch
 .
         
 '
+python
+-
+pip
+'
+        
+'
 unzip
 '
         
