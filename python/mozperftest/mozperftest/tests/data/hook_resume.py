@@ -1,15 +1,4 @@
 def
-doit
-(
-env
-)
-:
-    
-return
-"
-OK
-"
-def
 on_exception
 (
 env
@@ -23,9 +12,7 @@ swallow
 the
 error
 and
-abort
-the
-run
+resume
     
 return
-False
+True
