@@ -11326,7 +11326,7 @@ void
 RuntimeService
 :
 :
-PropagateStorageAccessPermissionGranted
+PropagateFirstPartyStorageAccessGranted
 (
 nsPIDOMWindowInner
 *
@@ -11407,7 +11407,7 @@ index
 ]
 -
 >
-PropagateStorageAccessPermissionGranted
+PropagateFirstPartyStorageAccessGranted
 (
 )
 ;
@@ -13534,7 +13534,7 @@ aWindow
 }
 }
 void
-PropagateStorageAccessPermissionGrantedToWorkers
+PropagateFirstPartyStorageAccessGrantedToWorkers
 (
 nsPIDOMWindowInner
 *
@@ -13590,7 +13590,7 @@ runtime
 runtime
 -
 >
-PropagateStorageAccessPermissionGranted
+PropagateFirstPartyStorageAccessGranted
 (
 aWindow
 )

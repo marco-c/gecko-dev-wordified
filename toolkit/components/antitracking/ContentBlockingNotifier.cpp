@@ -396,7 +396,7 @@ aTrackingOrigin
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 aReason
 )
 {
@@ -1616,7 +1616,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason
@@ -1813,7 +1813,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason
@@ -1984,7 +1984,7 @@ aTrackingOrigin
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 aReason
 )
 {
@@ -2685,7 +2685,7 @@ aTrackingOrigin
 const
 Maybe
 <
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason

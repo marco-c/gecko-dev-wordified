@@ -7342,13 +7342,13 @@ ipc
 :
 :
 IPCResult
-RecvAutomaticStorageAccessPermissionCanBeGranted
+RecvAutomaticStorageAccessCanBeGranted
 (
 const
 Principal
 &
 aPrincipal
-AutomaticStorageAccessPermissionCanBeGrantedResolver
+AutomaticStorageAccessCanBeGrantedResolver
 &
 &
 aResolver
@@ -7361,7 +7361,7 @@ ipc
 :
 :
 IPCResult
-RecvStorageAccessPermissionGrantedForOrigin
+RecvFirstPartyStorageAccessGrantedForOrigin
 (
 uint64_t
 aTopLevelWindowId
@@ -7384,7 +7384,7 @@ const
 int
 &
 aAllowMode
-StorageAccessPermissionGrantedForOriginResolver
+FirstPartyStorageAccessGrantedForOriginResolver
 &
 &
 aResolver
@@ -7422,7 +7422,7 @@ const
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 &
 aReason
 CompleteAllowAccessForResolver

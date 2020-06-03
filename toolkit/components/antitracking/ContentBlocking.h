@@ -780,13 +780,13 @@ int
 bool
 true
 >
-StorageAccessPermissionGrantPromise
+StorageAccessGrantPromise
 ;
 static
 MOZ_MUST_USE
 RefPtr
 <
-StorageAccessPermissionGrantPromise
+StorageAccessGrantPromise
 >
 AllowAccessFor
 (
@@ -802,7 +802,7 @@ aParentContext
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 aReason
 const
 PerformFinalChecks
@@ -857,7 +857,7 @@ aCookieBehavior
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 aReason
 )
 ;
@@ -980,7 +980,7 @@ static
 MOZ_MUST_USE
 RefPtr
 <
-StorageAccessPermissionGrantPromise
+StorageAccessGrantPromise
 >
 CompleteAllowAccessFor
 (
@@ -1004,7 +1004,7 @@ aCookieBehavior
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 aReason
 const
 PerformFinalChecks

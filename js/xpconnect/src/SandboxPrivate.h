@@ -366,7 +366,7 @@ mPrincipal
 }
 nsIPrincipal
 *
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 override

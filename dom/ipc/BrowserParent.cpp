@@ -16547,7 +16547,7 @@ contentPrincipal
 aLocationChangeData
 -
 >
-contentPartitionedPrincipal
+contentStoragePrincipal
 (
 )
 aLocationChangeData
@@ -16941,7 +16941,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason

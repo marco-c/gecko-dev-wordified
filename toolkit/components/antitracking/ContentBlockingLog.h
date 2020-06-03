@@ -216,8 +216,8 @@ typedef
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
+StorageAccessGrantedReason
 ;
 struct
 LogEntry
@@ -236,7 +236,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 mReason
 ;
@@ -556,7 +556,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason
@@ -586,7 +586,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason
@@ -1452,7 +1452,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason

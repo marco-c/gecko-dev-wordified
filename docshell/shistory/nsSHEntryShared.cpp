@@ -361,12 +361,12 @@ aEntry
 >
 mPrincipalToInherit
 ;
-mPartitionedPrincipalToInherit
+mStoragePrincipalToInherit
 =
 aEntry
 -
 >
-mPartitionedPrincipalToInherit
+mStoragePrincipalToInherit
 ;
 mCsp
 =

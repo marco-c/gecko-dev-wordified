@@ -1598,12 +1598,6 @@ Create
 (
 aChannel
 principal
-/
-*
-aForceIsolation
-*
-/
-false
 aPrincipal
 )
 ;
@@ -1624,7 +1618,7 @@ aPrincipal
 nsIPrincipal
 *
 *
-aPartitionedPrincipal
+aStoragePrincipal
 )
 {
 nsresult
@@ -1723,7 +1717,7 @@ copy
 .
 forget
 (
-aPartitionedPrincipal
+aStoragePrincipal
 )
 ;
 return
@@ -1739,13 +1733,7 @@ Create
 aChannel
 *
 aPrincipal
-/
-*
-aForceIsolation
-*
-/
-true
-aPartitionedPrincipal
+aStoragePrincipal
 )
 ;
 }

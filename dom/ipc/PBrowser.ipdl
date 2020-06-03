@@ -1193,7 +1193,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 from
 "
 mozilla
@@ -1426,7 +1426,7 @@ nsIPrincipal
 contentPrincipal
 ;
 nsIPrincipal
-contentPartitionedPrincipal
+contentStoragePrincipal
 ;
 nsIContentSecurityPolicy
 csp
@@ -3760,7 +3760,7 @@ nsCString
 [
 ]
 aTrackingFullHashes
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 ?
 aReason
 )
