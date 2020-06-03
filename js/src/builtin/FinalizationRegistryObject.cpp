@@ -1038,7 +1038,7 @@ cx
 >
 make_unique
 <
-FinalizationRecordVector
+WeakFinalizationRecordVector
 >
 (
 cx
