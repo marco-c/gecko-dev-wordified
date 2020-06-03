@@ -139,6 +139,11 @@ MOXAccessibleBase
 mm
 '
 '
+MOXMathAccessibles
+.
+mm
+'
+'
 mozAccessible
 .
 mm
