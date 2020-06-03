@@ -2822,10 +2822,6 @@ contentWindow
 await
 openContextMenuInFrame
 (
-"
-#
-frame
-"
 )
 ;
 }

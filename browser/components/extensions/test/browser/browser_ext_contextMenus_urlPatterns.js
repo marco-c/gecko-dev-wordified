@@ -2203,10 +2203,6 @@ contextMenu
 await
 openContextMenuInFrame
 (
-"
-#
-frame
-"
 )
 ;
 expected
