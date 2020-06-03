@@ -1999,16 +1999,6 @@ WritingMode
 WritingMode
 ;
 typedef
-mozilla
-:
-:
-layout
-:
-:
-AutoFrameListPtr
-AutoFrameListPtr
-;
-typedef
 nsLayoutUtils
 :
 :

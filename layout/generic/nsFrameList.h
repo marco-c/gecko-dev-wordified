@@ -3612,9 +3612,6 @@ mCurrent
 namespace
 mozilla
 {
-namespace
-layout
-{
 /
 *
 *
@@ -3664,7 +3661,9 @@ empty
 *
 /
 class
+MOZ_RAII
 AutoFrameListPtr
+final
 {
 public
 :
@@ -3730,6 +3729,9 @@ mFrameList
 }
 ;
 namespace
+layout
+:
+:
 detail
 {
 union
@@ -3759,12 +3761,10 @@ gEmptyFrameListBytes
 /
 /
 namespace
-detail
-}
-/
-/
-namespace
 layout
+:
+:
+detail
 }
 /
 /
