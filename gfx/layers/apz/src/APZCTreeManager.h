@@ -4595,6 +4595,12 @@ HitTestResult
 =
 default
 ;
+bool
+TargetIsConfirmedRoot
+(
+)
+const
+;
 }
 ;
 /
