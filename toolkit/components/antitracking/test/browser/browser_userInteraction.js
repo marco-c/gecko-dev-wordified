@@ -278,9 +278,7 @@ permission
 .
 principal
 .
-URI
-.
-equals
+equalsURI
 (
 uri
 )
@@ -433,9 +431,7 @@ permission
 .
 principal
 .
-URI
-.
-equals
+equalsURI
 (
 uri
 )
