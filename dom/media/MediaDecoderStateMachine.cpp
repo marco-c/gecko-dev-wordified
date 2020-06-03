@@ -409,6 +409,7 @@ MDSM_ERROR_MARKER
 (
 tag
 error
+markerTime
 )
 #
 define
