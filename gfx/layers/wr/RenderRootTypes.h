@@ -303,6 +303,13 @@ mPaintSequenceNumber
 ;
 }
 ;
+typedef
+Maybe
+<
+TransactionData
+>
+MaybeTransactionData
+;
 }
 /
 /

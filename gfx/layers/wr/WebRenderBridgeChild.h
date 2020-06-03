@@ -460,10 +460,11 @@ const
 FocusTarget
 &
 aFocusTarget
-nsTArray
+Maybe
 <
 TransactionData
 >
+&
 &
 aTransactionData
 TransactionId
