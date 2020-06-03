@@ -3862,13 +3862,6 @@ platformVersion
 crashReporter
 :
 true
-extraProps
-:
-{
-browserTabsRemoteAutostart
-:
-false
-}
 }
 )
 ;
