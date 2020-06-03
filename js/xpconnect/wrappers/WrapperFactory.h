@@ -553,6 +553,15 @@ singleton
 }
 static
 bool
+IsOpaqueWrapper
+(
+JSObject
+*
+obj
+)
+;
+static
+bool
 HasWaiveXrayFlag
 (
 JSObject
