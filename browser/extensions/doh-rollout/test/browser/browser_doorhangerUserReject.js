@@ -97,7 +97,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
 )
 "
 dummyTRR
@@ -105,6 +105,8 @@ dummyTRR
 "
 TRR
 selection
+dry
+run
 complete
 .
 "
