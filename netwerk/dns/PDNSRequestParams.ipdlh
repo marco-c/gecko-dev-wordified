@@ -326,6 +326,12 @@ NetAddr
 ]
 addrs
 ;
+double
+trrFetchDuration
+;
+double
+trrFetchDurationNetworkOnly
+;
 }
 ;
 union

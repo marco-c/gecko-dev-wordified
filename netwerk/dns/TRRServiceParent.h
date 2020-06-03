@@ -187,6 +187,11 @@ Init
 (
 )
 ;
+void
+UpdateParentalControlEnabled
+(
+)
+;
 private
 :
 virtual
