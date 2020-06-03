@@ -59,7 +59,11 @@ MPL
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+HardwareCodecCapabilityUtilsWrappers
 .
 h
 "
