@@ -102,7 +102,7 @@ numBreaches
 2
 numBreachesResolved
 :
-1
+0
 }
 ;
 add_task
