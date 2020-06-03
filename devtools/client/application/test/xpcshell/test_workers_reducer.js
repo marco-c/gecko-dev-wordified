@@ -348,9 +348,6 @@ id
 "
 w1
 "
-isActive
-:
-true
 url
 :
 "
@@ -387,6 +384,13 @@ rawData
 ]
 .
 registration
+state
+:
+Ci
+.
+nsIServiceWorkerInfo
+.
+STATE_ACTIVATED
 stateText
 :
 "
@@ -399,9 +403,6 @@ id
 "
 w2
 "
-isActive
-:
-false
 url
 :
 "
@@ -428,6 +429,13 @@ rawData
 ]
 .
 registration
+state
+:
+Ci
+.
+nsIServiceWorkerInfo
+.
+STATE_INSTALLED
 stateText
 :
 "
