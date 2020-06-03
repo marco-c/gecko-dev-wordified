@@ -525,6 +525,12 @@ browser
 {
 }
 ;
+const
+mediaDevices
+=
+{
+}
+;
 MediaManagerService
 .
 mediaCaptureWindowState
@@ -535,6 +541,7 @@ hasMicrophone
 screen
 window
 browser
+mediaDevices
 true
 )
 ;

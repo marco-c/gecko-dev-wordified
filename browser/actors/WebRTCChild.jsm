@@ -2399,6 +2399,10 @@ browser
 =
 {
 }
+devices
+=
+{
+}
 ;
 MediaManagerService
 .
@@ -2410,6 +2414,7 @@ microphone
 screen
 window
 browser
+devices
 false
 )
 ;

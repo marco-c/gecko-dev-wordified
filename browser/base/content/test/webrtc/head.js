@@ -2198,6 +2198,12 @@ hasBrowserShare
 {
 }
 ;
+let
+devices
+=
+{
+}
+;
 mediaManagerService
 .
 mediaCaptureWindowState
@@ -2208,6 +2214,7 @@ hasMicrophone
 hasScreenShare
 hasWindowShare
 hasBrowserShare
+devices
 false
 )
 ;
