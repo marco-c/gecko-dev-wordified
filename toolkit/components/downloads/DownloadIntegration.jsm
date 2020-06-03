@@ -5022,6 +5022,15 @@ aDownload
 source
 .
 userContextId
+openerBrowser
+:
+browsingContext
+?
+.
+top
+?
+.
+embedderElement
 }
 )
 ;

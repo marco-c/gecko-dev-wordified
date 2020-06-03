@@ -4031,6 +4031,11 @@ csp
 :
 aCsp
 focusUrlBar
+openerBrowser
+:
+params
+.
+openerBrowser
 }
 )
 ;
