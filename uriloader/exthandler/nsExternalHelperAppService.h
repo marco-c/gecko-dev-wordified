@@ -756,16 +756,6 @@ for
 .
 *
 param
-aForceFillDesc
-Whether
-to
-overwrite
-the
-description
-if
-set
-*
-param
 aMIMEInfo
 [
 inout
@@ -784,8 +774,6 @@ const
 nsACString
 &
 aContentType
-bool
-aForceFillDesc
 nsIMIMEInfo
 *
 aMIMEInfo
