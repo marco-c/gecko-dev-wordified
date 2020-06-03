@@ -13831,7 +13831,7 @@ options
 .
 wasm_simd
 "
-false
+true
 )
 ;
 #
