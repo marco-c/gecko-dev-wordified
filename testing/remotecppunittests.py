@@ -775,8 +775,8 @@ print
 (
 "
 Pushing
-%
-s
+{
+}
 .
 .
 "

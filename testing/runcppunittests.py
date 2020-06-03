@@ -393,6 +393,10 @@ env
 storeOutput
 =
 False
+                                                 
+universal_newlines
+=
+True
 )
             
 else
@@ -426,6 +430,10 @@ lambda
 _
 :
 None
+                                                 
+universal_newlines
+=
+True
 )
             
 #
