@@ -4582,6 +4582,14 @@ MIRType
 None
 ;
 }
+extern
+UniqueChars
+ToString
+(
+ValType
+type
+)
+;
 static
 inline
 const
@@ -4702,7 +4710,7 @@ TypeIndex
 :
 return
 "
-ref
+optref
 "
 ;
 }
