@@ -173,7 +173,7 @@ SignalHandler
 from
 utils
 import
-view_gecko_profile
+view_gecko_profile_from_raptor
 from
 webextension
 import
@@ -1398,11 +1398,8 @@ DISABLE_PROFILE_LAUNCH
 else
 :
             
-view_gecko_profile
+view_gecko_profile_from_raptor
 (
-args
-.
-binary
 )
 if
 __name__
