@@ -119,6 +119,11 @@ TestInitializedOnce
 .
 cpp
 '
+'
+TestResultExtensions
+.
+cpp
+'
 ]
 if
 not
