@@ -1265,14 +1265,6 @@ IsAnyOfHTMLElements
 nsGkAtoms
 :
 :
-script
-nsGkAtoms
-:
-:
-noframes
-nsGkAtoms
-:
-:
 select
 )
 )
