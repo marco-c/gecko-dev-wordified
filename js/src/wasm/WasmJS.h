@@ -780,7 +780,6 @@ types
 (
 anyref
 funcref
-nullref
 )
 and
 operations
