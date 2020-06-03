@@ -177,7 +177,91 @@ typing
 import
 Union
     
-Whitelist
+#
+The
+Ignorelist
+is
+a
+two
+level
+dictionary
+.
+The
+top
+level
+is
+indexed
+by
+    
+#
+error
+names
+(
+e
+.
+g
+.
+'
+TRAILING
+WHITESPACE
+'
+)
+.
+Each
+of
+those
+then
+has
+a
+map
+of
+    
+#
+file
+patterns
+(
+e
+.
+g
+.
+'
+foo
+/
+*
+'
+)
+to
+a
+set
+of
+specific
+line
+numbers
+for
+the
+    
+#
+exception
+.
+The
+line
+numbers
+are
+optional
+;
+if
+missing
+the
+entire
+file
+    
+#
+ignores
+the
+error
+.
+    
+Ignorelist
 =
 Dict
 [
@@ -459,7 +543,7 @@ to
 the
 lint
 .
-whitelist
+ignore
 file
 in
 the
@@ -509,7 +593,7 @@ to
 the
 lint
 .
-whitelist
+ignore
 file
 .
 %
@@ -2615,7 +2699,7 @@ context2
 return
 errors
 def
-parse_whitelist
+parse_ignorelist
 (
 f
 )
@@ -2634,7 +2718,7 @@ bytes
 >
 Tuple
 [
-Whitelist
+Ignorelist
 Set
 [
 Text
@@ -2647,7 +2731,7 @@ Text
     
 Parse
 the
-whitelist
+ignorelist
 file
 given
 by
@@ -2657,6 +2741,41 @@ return
 the
 parsed
 structure
+.
+    
+:
+returns
+:
+a
+tuple
+of
+an
+Ignorelist
+and
+a
+set
+of
+files
+that
+are
+completely
+              
+skipped
+by
+the
+linter
+(
+i
+.
+e
+.
+have
+a
+'
+*
+'
+entry
+)
 .
     
 "
@@ -2677,9 +2796,9 @@ set
 #
 type
 :
-Whitelist
+Ignorelist
     
-ignored_files
+skipped_files
 =
 set
 (
@@ -2824,7 +2943,7 @@ in
 error_types
 :
             
-ignored_files
+skipped_files
 .
 add
 (
@@ -2855,9 +2974,9 @@ line_number
     
 return
 data
-ignored_files
+skipped_files
 def
-filter_whitelist_errors
+filter_ignorelist_errors
 (
 data
 errors
@@ -2868,7 +2987,7 @@ errors
 type
 :
 (
-Whitelist
+Ignorelist
 Sequence
 [
 rules
@@ -2895,7 +3014,7 @@ those
 errors
 that
 are
-whitelisted
+ignored
 in
 data
 .
@@ -2913,7 +3032,7 @@ return
 [
 ]
     
-whitelisted
+skipped
 =
 [
 False
@@ -2957,7 +3076,7 @@ path
         
 #
 Allow
-whitelisting
+skipping
 all
 lint
 errors
@@ -2980,7 +3099,7 @@ shouldn
 '
 t
 be
-ignored
+skipped
 .
         
 if
@@ -3034,7 +3153,7 @@ file_match
 )
 :
                         
-whitelisted
+skipped
 [
 i
 ]
@@ -3054,7 +3173,7 @@ errors
 )
 if
 not
-whitelisted
+skipped
 [
 i
 ]
@@ -6602,7 +6721,7 @@ path
 "
 lint
 .
-whitelist
+ignore
 "
 or
 path
@@ -7127,7 +7246,7 @@ repo_root
 "
 lint
 .
-whitelist
+ignore
 "
 )
 )
@@ -7135,10 +7254,10 @@ as
 f
 :
         
-whitelist
-ignored_files
+ignorelist
+skipped_files
 =
-parse_whitelist
+parse_ignorelist
 (
 f
 )
@@ -7147,7 +7266,7 @@ if
 ignore_glob
 :
         
-ignored_files
+skipped_files
 .
 add
 (
@@ -7270,9 +7389,9 @@ otherwise
         
 errors
 =
-filter_whitelist_errors
+filter_ignorelist_errors
 (
-whitelist
+ignorelist
 errors
 )
         
@@ -7374,7 +7493,7 @@ file_match
 for
 file_match
 in
-ignored_files
+skipped_files
 )
 :
             
