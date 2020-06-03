@@ -451,7 +451,7 @@ MOZ_COUNT_DTOR
 WebRenderTextureHost
 )
 ;
-BufferTextureHost
+TextureHost
 :
 :
 DestroyRenderTexture
