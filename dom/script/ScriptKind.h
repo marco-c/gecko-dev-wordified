@@ -132,6 +132,7 @@ ScriptKind
 {
 eClassic
 eModule
+eEvent
 }
 ;
 }
