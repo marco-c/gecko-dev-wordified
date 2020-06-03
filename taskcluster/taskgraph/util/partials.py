@@ -574,10 +574,6 @@ devedition
 "
 "
 -
-nightly
-"
-"
--
 shippable
 "
 ]
