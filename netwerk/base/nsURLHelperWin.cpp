@@ -466,14 +466,6 @@ return
 rv
 ;
 }
-localFile
--
->
-SetFollowLinks
-(
-true
-)
-;
 const
 nsACString
 *
