@@ -9013,6 +9013,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathFloor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathRound
 (
 HandleFunction
