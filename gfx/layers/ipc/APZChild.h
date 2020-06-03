@@ -177,6 +177,11 @@ PAPZChild
 {
 public
 :
+using
+APZStateChange
+=
+GeckoContentController_APZStateChange
+;
 explicit
 APZChild
 (
