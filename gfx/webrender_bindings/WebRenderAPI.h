@@ -3985,6 +3985,11 @@ calls
 void
 CancelGroup
 (
+const
+bool
+aDiscard
+=
+false
 )
 ;
 /
