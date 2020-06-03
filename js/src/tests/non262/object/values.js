@@ -256,6 +256,7 @@ a
 "
 abc
 "
+undefined
 ]
 )
 ;
