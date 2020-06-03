@@ -75,8 +75,6 @@ json
 import
 hashlib
 import
-traceback
-import
 urllib
 from
 collections
@@ -140,21 +138,6 @@ _PROTO
 =
 {
 }
-NO_CONTENT_STATUS_CODES
-=
-[
-100
-101
-                           
-204
-                           
-301
-302
-303
-304
-307
-308
-]
 property
 def
 _alpn
@@ -774,22 +757,11 @@ mitm_version
 :
                     
 if
-(
 i
 .
 response
 .
 content
-or
-                            
-i
-.
-response
-.
-status_code
-in
-NO_CONTENT_STATUS_CODES
-)
 :
                         
 #
@@ -840,23 +812,14 @@ log
 .
 info
 (
+                             
 "
 Recorded
-request
-%
-s
-with
 response
-status
-code
 %
 s
 has
-"
-                                     
-"
 no
-response
 content
 .
 Removing
@@ -864,20 +827,14 @@ from
 recording
 list
 "
-                                     
+                             
 %
-(
 i
 .
 request
 .
 url
-i
-.
-response
-.
-status_code
-)
+                        
 )
                 
 if
@@ -1217,6 +1174,8 @@ http_protocol
         
 except
 Exception
+as
+e
 :
             
 ctx
@@ -1245,11 +1204,7 @@ log
 .
 info
 (
-traceback
-.
-print_exc
-(
-)
+e
 )
             
 ctx
