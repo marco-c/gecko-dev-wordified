@@ -737,17 +737,6 @@ query_is_nightly
 )
 :
             
-bootstrap_env
-[
-"
-IS_NIGHTLY
-"
-]
-=
-"
-yes
-"
-            
 #
 we
 might
