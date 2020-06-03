@@ -1618,11 +1618,7 @@ pattern
 "
 ]
 )
-{
-ignorePath
-:
-true
-}
+undefined
 )
 ;
 }
@@ -1699,11 +1695,7 @@ foo
 "
 ]
 )
-{
-ignorePath
-:
-true
-}
+undefined
 )
 ;
 }
