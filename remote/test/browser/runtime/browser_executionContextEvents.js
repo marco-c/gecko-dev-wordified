@@ -1622,7 +1622,6 @@ DESTROYED
 CLEARED
 CREATED
 ]
-timeout
 }
 =
 options
@@ -1635,7 +1634,6 @@ history
 .
 record
 (
-timeout
 )
 ;
 const
