@@ -11085,15 +11085,6 @@ CollapseSelectionToEnd
 (
 )
 ;
-static
-bool
-IsPreformatted
-(
-nsINode
-*
-aNode
-)
-;
 /
 *
 *
