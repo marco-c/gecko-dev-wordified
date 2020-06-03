@@ -400,11 +400,6 @@ Truncate
 ;
 }
 }
-/
-*
-virtual
-*
-/
 void
 XMLStylesheetProcessingInstruction
 :
