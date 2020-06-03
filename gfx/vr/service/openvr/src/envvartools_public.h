@@ -47,6 +47,17 @@ pchVarName
 )
 ;
 bool
+GetEnvironmentVariableAsBool
+(
+const
+char
+*
+pchVarName
+bool
+bDefault
+)
+;
+bool
 SetEnvironmentVariable
 (
 const

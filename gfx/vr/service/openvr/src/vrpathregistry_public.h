@@ -206,6 +206,14 @@ NULL
 bool
 BLoadFromFile
 (
+std
+:
+:
+string
+*
+psError
+=
+nullptr
 )
 ;
 bool

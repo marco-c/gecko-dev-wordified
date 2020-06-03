@@ -7245,7 +7245,7 @@ VRInput
 )
 -
 >
-GetPoseActionData
+GetPoseActionDataRelativeToNow
 (
 mControllerHand
 [
@@ -8775,17 +8775,6 @@ EVREventType
 :
 :
 VREvent_QuitAcknowledged
-:
-case
-:
-:
-vr
-:
-:
-EVREventType
-:
-:
-VREvent_QuitAborted_UserPrompt
 :
 mShouldQuit
 =
