@@ -871,6 +871,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 timeout_multiplier
@@ -898,6 +899,7 @@ TestharnessExecutor
 __init__
 (
 self
+logger
 browser
 server_config
 timeout_multiplier
@@ -1279,6 +1281,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 timeout_multiplier
@@ -1320,6 +1323,8 @@ RefTestExecutor
 __init__
 (
 self
+                                 
+logger
                                  
 browser
                                  
