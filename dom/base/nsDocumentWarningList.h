@@ -183,3 +183,7 @@ DOCUMENT_WARNING
 (
 NotificationsRequireUserGestureDeprecation
 )
+DOCUMENT_WARNING
+(
+DocumentSetDomainNotAllowed
+)
