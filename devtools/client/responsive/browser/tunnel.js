@@ -233,6 +233,9 @@ _documentURI
 _documentContentType
 "
 "
+_contentTitle
+"
+"
 _characterSet
 "
 "
@@ -819,6 +822,14 @@ _documentContentType
 outer
 .
 _documentContentType
+;
+inner
+.
+_contentTitle
+=
+outer
+.
+_contentTitle
 ;
 inner
 .
@@ -3535,6 +3546,9 @@ to
 browser
 .
 js
+"
+DOMTitleChanged
+"
 "
 InPermitUnload
 "
