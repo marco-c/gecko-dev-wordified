@@ -4294,6 +4294,9 @@ CompositorAnimationStorage
 aStorage
 nsCSSPropertyID
 aProperty
+AnimatedValue
+*
+aPreviousValue
 const
 nsTArray
 <
@@ -4422,6 +4425,7 @@ aLayer
 GetCompositorAnimationsId
 (
 )
+aPreviousValue
 color
 )
 ;
@@ -4524,6 +4528,7 @@ aLayer
 GetCompositorAnimationsId
 (
 )
+aPreviousValue
 opacity
 )
 ;
@@ -4654,6 +4659,7 @@ aLayer
 GetCompositorAnimationsId
 (
 )
+aPreviousValue
 std
 :
 :
@@ -4933,6 +4939,7 @@ storage
 lastPropertyAnimationGroup
 .
 mProperty
+previousValue
 animationValues
 )
 ;
