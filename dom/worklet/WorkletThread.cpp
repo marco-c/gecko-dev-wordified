@@ -2077,6 +2077,11 @@ SetAsyncTaskCallbacks
 /
 FIXME
 :
+JS_AddInterruptCallback
+/
+/
+FIXME
+:
 JS
 :
 :

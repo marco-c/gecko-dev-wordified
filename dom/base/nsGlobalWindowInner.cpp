@@ -6810,7 +6810,7 @@ i
 ]
 -
 >
-OnWindowDestroy
+Shutdown
 (
 )
 ;
