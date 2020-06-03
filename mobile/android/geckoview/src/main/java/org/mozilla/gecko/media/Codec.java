@@ -1738,6 +1738,7 @@ dispose
 ;
 }
 private
+synchronized
 void
 onFormatChanged
 (
@@ -1746,6 +1747,14 @@ MediaFormat
 format
 )
 {
+if
+(
+mStopped
+)
+{
+return
+;
+}
 try
 {
 mCallbacks
