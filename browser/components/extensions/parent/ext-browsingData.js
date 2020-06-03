@@ -776,8 +776,6 @@ host
 =
 principal
 .
-URI
-.
 hostPort
 ;
 if
@@ -1254,8 +1252,6 @@ let
 host
 =
 principal
-.
-URI
 .
 hostPort
 ;
