@@ -671,8 +671,8 @@ suggestions
 /
 The
 extra
-space
-is
+spaces
+are
 here
 due
 to
@@ -692,7 +692,8 @@ expectedSearches
 [
 searchTerm
 "
-foofoo
+foo
+foo
 "
 "
 foo
