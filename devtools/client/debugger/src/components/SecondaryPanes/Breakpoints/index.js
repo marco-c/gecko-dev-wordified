@@ -602,6 +602,15 @@ null
 ;
 }
 const
+editor
+=
+this
+.
+getEditor
+(
+)
+;
+const
 sources
 =
 [
@@ -615,7 +624,6 @@ map
 (
 {
 source
-breakpoints
 }
 )
 =
@@ -646,7 +654,6 @@ map
 {
 source
 breakpoints
-i
 }
 )
 =
@@ -715,11 +722,7 @@ selectedSource
 editor
 =
 {
-this
-.
-getEditor
-(
-)
+editor
 }
 key
 =
