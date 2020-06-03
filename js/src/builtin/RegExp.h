@@ -630,6 +630,8 @@ HandleLinearString
 replacement
 size_t
 firstDollarIndex
+HandleValue
+namedCaptures
 MutableHandleValue
 rval
 )
