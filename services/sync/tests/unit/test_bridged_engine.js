@@ -861,9 +861,13 @@ bridge
 .
 lastSyncMillis
 =
+1000
+*
+(
 now
 +
 2
+)
 ;
 await
 sync_engine_and_validate_telem
