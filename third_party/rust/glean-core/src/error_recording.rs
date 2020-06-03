@@ -399,7 +399,7 @@ type
 '
 s
 metric
-name
+id
 pub
 fn
 as_str
@@ -892,7 +892,7 @@ to
 include
 the
 metric
-name
+id
 as
 that
 is

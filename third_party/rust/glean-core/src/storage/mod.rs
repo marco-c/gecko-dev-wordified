@@ -138,7 +138,7 @@ stored
 as
 <
 metric
-name
+id
 >
 /
 <
@@ -172,7 +172,7 @@ therefore
 extract
 the
 metric
-name
+id
 and
 the
 label
@@ -208,7 +208,7 @@ String
 JsonValue
 >
 >
-metric_name
+metric_id
 :
 &
 str
@@ -258,7 +258,7 @@ let
 mut
 s
 =
-metric_name
+metric_id
 .
 splitn
 (
@@ -269,7 +269,7 @@ splitn
 )
 ;
 let
-metric_name
+metric_id
 =
 s
 .
@@ -292,7 +292,7 @@ only
 called
 when
 the
-name
+id
 does
 contain
 a
@@ -337,7 +337,7 @@ map
 .
 entry
 (
-metric_name
+metric_id
 .
 into
 (
@@ -704,7 +704,7 @@ mut
 snapshotter
 =
 |
-metric_name
+metric_id
 :
 &
 [
@@ -717,14 +717,14 @@ Metric
 |
 {
 let
-metric_name
+metric_id
 =
 String
 :
 :
 from_utf8_lossy
 (
-metric_name
+metric_id
 )
 .
 into_owned
@@ -732,7 +732,7 @@ into_owned
 )
 ;
 if
-metric_name
+metric_id
 .
 contains
 (
@@ -747,7 +747,7 @@ snapshot_labeled_metrics
 mut
 snapshot
 &
-metric_name
+metric_id
 &
 metric
 )
@@ -785,7 +785,7 @@ map
 .
 insert
 (
-metric_name
+metric_id
 metric
 .
 as_json
@@ -1058,7 +1058,7 @@ mut
 snapshotter
 =
 |
-metric_name
+id
 :
 &
 [
@@ -1071,14 +1071,14 @@ Metric
 |
 {
 let
-metric_name
+id
 =
 String
 :
 :
 from_utf8_lossy
 (
-metric_name
+id
 )
 .
 into_owned
@@ -1086,7 +1086,7 @@ into_owned
 )
 ;
 if
-metric_name
+id
 =
 =
 metric_id
@@ -1362,7 +1362,7 @@ mut
 snapshotter
 =
 |
-metric_name
+metric_id
 :
 &
 [
@@ -1375,14 +1375,14 @@ Metric
 |
 {
 let
-metric_name
+metric_id
 =
 String
 :
 :
 from_utf8_lossy
 (
-metric_name
+metric_id
 )
 .
 into_owned
@@ -1390,7 +1390,7 @@ into_owned
 )
 ;
 if
-metric_name
+metric_id
 .
 ends_with
 (
@@ -1403,7 +1403,7 @@ experiment
 let
 name
 =
-metric_name
+metric_id
 .
 splitn
 (
