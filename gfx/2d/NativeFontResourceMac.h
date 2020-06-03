@@ -212,8 +212,14 @@ NativeFontResourceMac
 (
 CGFontRef
 aFontRef
+size_t
+aDataLength
 )
 :
+NativeFontResource
+(
+aDataLength
+)
 mFontRef
 (
 aFontRef

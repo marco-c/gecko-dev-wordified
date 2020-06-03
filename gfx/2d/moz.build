@@ -1171,6 +1171,11 @@ Matrix
 cpp
 '
 '
+NativeFontResource
+.
+cpp
+'
+'
 Path
 .
 cpp
