@@ -153,6 +153,7 @@ create_test
 origin
 target
 expectedStatus
+expectedDomStatus
 title
 )
 {
@@ -252,6 +253,7 @@ value
 e
 .
 data
+expectedDomStatus
 )
 ;
 }
@@ -379,6 +381,9 @@ SECURE_ORIGIN
 SameSiteStatus
 .
 STRICT
+DomSameSiteStatus
+.
+SAME_SITE
 "
 Reloaded
 same
@@ -400,6 +405,9 @@ SECURE_SUBDOMAIN_ORIGIN
 SameSiteStatus
 .
 STRICT
+DomSameSiteStatus
+.
+SAME_SITE
 "
 Reloaded
 subdomain
@@ -417,6 +425,9 @@ create_test
 SECURE_CROSS_SITE_ORIGIN
 SECURE_CROSS_SITE_ORIGIN
 SameSiteStatus
+.
+CROSS_SITE
+DomSameSiteStatus
 .
 CROSS_SITE
 "
