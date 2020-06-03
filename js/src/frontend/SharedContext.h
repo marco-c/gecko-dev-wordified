@@ -1017,6 +1017,11 @@ computeThisBinding
 Scope
 *
 scope
+JSObject
+*
+environment
+=
+nullptr
 )
 ;
 MOZ_MUST_USE
