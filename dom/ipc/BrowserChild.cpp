@@ -5861,6 +5861,9 @@ const
 nsCString
 &
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 const
 ParentShowInfo
 &
@@ -5905,12 +5908,7 @@ loadURIOptions
 .
 mTriggeringPrincipal
 =
-nsContentUtils
-:
-:
-GetSystemPrincipal
-(
-)
+aTriggeringPrincipal
 ;
 loadURIOptions
 .

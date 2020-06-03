@@ -1280,6 +1280,9 @@ const
 nsCString
 &
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 const
 ParentShowInfo
 &

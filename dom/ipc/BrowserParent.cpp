@@ -5463,11 +5463,19 @@ LoadURL
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 {
 MOZ_ASSERT
 (
 aURI
+)
+;
+MOZ_ASSERT
+(
+aTriggeringPrincipal
 )
 ;
 if
@@ -5534,6 +5542,7 @@ Unused
 SendLoadURL
 (
 spec
+aTriggeringPrincipal
 GetShowInfo
 (
 )

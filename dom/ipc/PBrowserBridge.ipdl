@@ -587,6 +587,8 @@ LoadURL
 (
 nsCString
 aSpec
+nsIPrincipal
+aTriggeringPrincipal
 )
 ;
 async

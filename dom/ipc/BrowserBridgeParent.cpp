@@ -1034,6 +1034,9 @@ const
 nsCString
 &
 aUrl
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 {
 Unused
@@ -1045,6 +1048,7 @@ mBrowserParent
 SendLoadURL
 (
 aUrl
+aTriggeringPrincipal
 mBrowserParent
 -
 >

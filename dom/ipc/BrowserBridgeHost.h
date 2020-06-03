@@ -319,6 +319,9 @@ LoadURL
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 override
 ;

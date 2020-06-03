@@ -4467,6 +4467,8 @@ LoadURL
 (
 nsCString
 uri
+nsIPrincipal
+triggeringPrincipal
 ParentShowInfo
 info
 )

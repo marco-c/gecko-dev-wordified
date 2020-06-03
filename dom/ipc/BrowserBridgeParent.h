@@ -399,6 +399,9 @@ const
 nsCString
 &
 aUrl
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 ;
 mozilla
