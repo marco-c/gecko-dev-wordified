@@ -3145,7 +3145,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

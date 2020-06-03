@@ -1603,7 +1603,7 @@ childList
 nsIFrame
 :
 :
-GetChildLists
+ChildLists
 (
 )
 )

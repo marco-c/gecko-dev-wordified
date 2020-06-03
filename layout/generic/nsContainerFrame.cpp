@@ -7533,7 +7533,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -17523,7 +17523,7 @@ listID
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -18012,7 +18012,7 @@ listID
 nsIFrame
 :
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -18311,7 +18311,7 @@ childList
 nsIFrame
 :
 :
-GetChildLists
+ChildLists
 (
 )
 )

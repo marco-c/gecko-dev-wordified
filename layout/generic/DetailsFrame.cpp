@@ -837,7 +837,7 @@ listID
 frag
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

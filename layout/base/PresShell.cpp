@@ -17782,7 +17782,7 @@ childList
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -26014,7 +26014,7 @@ childList
 :
 aRoot
 .
-GetChildLists
+ChildLists
 (
 )
 )
@@ -39392,7 +39392,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -65811,7 +65811,7 @@ childLists1
 aFirstFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 ;
@@ -65823,7 +65823,7 @@ childLists2
 aSecondFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 ;

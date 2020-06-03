@@ -1332,7 +1332,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -1770,7 +1770,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

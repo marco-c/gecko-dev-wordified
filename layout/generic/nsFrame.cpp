@@ -2438,7 +2438,7 @@ auto
 &
 childList
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -2502,7 +2502,7 @@ auto
 &
 childList
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -10634,7 +10634,7 @@ auto
 &
 childList
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -41247,7 +41247,7 @@ auto
 &
 childLists
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -41340,7 +41340,7 @@ childLists
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -49349,7 +49349,7 @@ childLists
 nsIFrame
 :
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -69267,7 +69267,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -71955,7 +71955,7 @@ auto
 &
 childList
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -72262,7 +72262,7 @@ auto
 &
 childList
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -82918,7 +82918,7 @@ auto
 &
 childList
 :
-GetChildLists
+ChildLists
 (
 )
 )
@@ -84202,7 +84202,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

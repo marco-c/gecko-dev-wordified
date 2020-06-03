@@ -6813,7 +6813,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -8110,7 +8110,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -8577,7 +8577,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -26496,7 +26496,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
