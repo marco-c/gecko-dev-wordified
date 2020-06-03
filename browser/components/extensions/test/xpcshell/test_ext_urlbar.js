@@ -1668,11 +1668,9 @@ search
 result
 returned
 by
-the
 /
 /
-UnifiedComplete
-provider
+UrlbarProviderSearchSuggestions
 .
 {
 type
@@ -1712,6 +1710,9 @@ Test
 engine
 "
 suggestion
+:
+undefined
+tail
 :
 undefined
 keyword

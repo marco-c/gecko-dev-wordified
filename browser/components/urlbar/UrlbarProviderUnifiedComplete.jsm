@@ -1357,6 +1357,17 @@ HIGHLIGHT
 .
 SUGGESTED
 ]
+/
+/
+For
+test
+interoperabilty
+with
+UrlbarProviderSearchSuggestions
+.
+tail
+:
+undefined
 keyword
 :
 [
