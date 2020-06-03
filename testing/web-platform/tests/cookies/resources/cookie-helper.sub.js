@@ -670,7 +670,7 @@ erase_cookie_from_js
 name
 options
 .
-paras
+params
 )
 ;
 t
