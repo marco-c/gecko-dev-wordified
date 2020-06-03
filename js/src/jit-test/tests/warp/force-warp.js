@@ -1,15 +1,5 @@
 /
 /
-|
-jit
--
-test
-|
--
--
-warp
-/
-/
 A
 simple
 test
