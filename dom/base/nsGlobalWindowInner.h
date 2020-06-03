@@ -8544,6 +8544,11 @@ FireFrameLoadEvent
 (
 )
 ;
+void
+UpdateAutoplayPermission
+(
+)
+;
 public
 :
 /
