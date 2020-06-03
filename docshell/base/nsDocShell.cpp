@@ -63311,6 +63311,10 @@ str
 ToNewCString
 (
 aNewHash
+mozilla
+:
+:
+fallible
 )
 ;
 if

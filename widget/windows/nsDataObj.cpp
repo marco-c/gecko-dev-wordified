@@ -16256,6 +16256,10 @@ outPlatformHTML
 ToNewCString
 (
 clipboardString
+mozilla
+:
+:
+fallible
 )
 ;
 if

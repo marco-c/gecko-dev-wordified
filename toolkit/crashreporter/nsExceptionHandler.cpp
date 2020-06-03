@@ -15031,6 +15031,10 @@ env
 ToNewCString
 (
 envVar
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -15104,6 +15108,10 @@ env
 ToNewCString
 (
 envVar
+mozilla
+:
+:
+fallible
 )
 ;
 if

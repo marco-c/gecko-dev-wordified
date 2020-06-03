@@ -3786,6 +3786,10 @@ result
 ToNewCString
 (
 resultBuf
+mozilla
+:
+:
+fallible
 )
 ;
 if

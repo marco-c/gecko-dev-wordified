@@ -875,6 +875,10 @@ mString
 ToNewUnicode
 (
 aString
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -935,6 +939,10 @@ mString
 ToNewUnicode
 (
 aString
+mozilla
+:
+:
+fallible
 )
 ;
 if

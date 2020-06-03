@@ -2285,6 +2285,10 @@ bytes
 ToNewCString
 (
 result
+mozilla
+:
+:
+fallible
 )
 ;
 bytesLen

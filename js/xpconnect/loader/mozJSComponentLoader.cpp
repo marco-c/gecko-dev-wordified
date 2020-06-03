@@ -5758,6 +5758,10 @@ aLocation
 ToNewCString
 (
 nativePath
+mozilla
+:
+:
+fallible
 )
 ;
 if

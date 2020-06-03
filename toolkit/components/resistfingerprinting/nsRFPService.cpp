@@ -6058,6 +6058,10 @@ tz
 ToNewCString
 (
 tzValue
+mozilla
+:
+:
+fallible
 )
 ;
 if

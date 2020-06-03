@@ -1754,6 +1754,10 @@ key
 ToNewCString
 (
 spec
+mozilla
+:
+:
+fallible
 )
 ;
 if

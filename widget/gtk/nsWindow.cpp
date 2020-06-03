@@ -30430,6 +30430,10 @@ res_name
 ToNewCString
 (
 xulWinType
+mozilla
+:
+:
+fallible
 )
 ;
 if

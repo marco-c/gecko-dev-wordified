@@ -12570,6 +12570,10 @@ host
 ToNewCString
 (
 host
+mozilla
+:
+:
+fallible
 )
 ;
 if
