@@ -13795,7 +13795,7 @@ if
 font
 -
 >
-mAllowZoom
+mAllowZoomAndMinSize
 )
 {
 fCoord

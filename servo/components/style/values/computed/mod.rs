@@ -1983,7 +1983,7 @@ value
 /
 /
 in
-mAllowZoom
+mAllowZoomAndMinSize
 if
 self
 .
@@ -1997,7 +1997,7 @@ get_font
 .
 gecko
 .
-mAllowZoom
+mAllowZoomAndMinSize
 {
 self
 .
