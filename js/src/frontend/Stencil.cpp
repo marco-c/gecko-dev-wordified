@@ -1178,7 +1178,7 @@ thing
 .
 is
 <
-ClosedOverBinding
+ScriptAtom
 >
 (
 )
@@ -1192,7 +1192,7 @@ thing
 .
 as
 <
-ClosedOverBinding
+ScriptAtom
 >
 (
 )
@@ -1203,11 +1203,9 @@ trc
 &
 atom
 "
-closed
+script
 -
-over
--
-binding
+atom
 "
 )
 ;
@@ -1220,7 +1218,7 @@ thing
 .
 as
 <
-ClosedOverBinding
+ScriptAtom
 >
 (
 )

@@ -11271,7 +11271,7 @@ index
 for
 (
 const
-ClosedOverBinding
+ScriptAtom
 &
 binding
 :

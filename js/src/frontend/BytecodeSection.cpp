@@ -567,7 +567,7 @@ operator
 )
 (
 const
-ClosedOverBinding
+ScriptAtom
 &
 data
 )

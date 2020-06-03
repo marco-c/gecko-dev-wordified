@@ -2312,7 +2312,7 @@ NullScriptThing
 }
 ;
 using
-ClosedOverBinding
+ScriptAtom
 =
 JSAtom
 *
@@ -2345,7 +2345,7 @@ mozilla
 :
 Variant
 <
-ClosedOverBinding
+ScriptAtom
 NullScriptThing
 BigIntIndex
 ObjLiteralCreationData
