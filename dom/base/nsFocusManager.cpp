@@ -7420,6 +7420,8 @@ false
 /
 On
 Windows
+and
+Linux
 focus
 rings
 are
@@ -7429,6 +7431,8 @@ when
 the
 FLAG_SHOWRING
 flag
+/
+/
 is
 used
 .
@@ -7458,8 +7462,17 @@ true
 ;
 }
 #
-ifndef
-XP_WIN
+if
+defined
+(
+XP_MACOS
+)
+|
+|
+defined
+(
+ANDROID
+)
 if
 (
 aFlags
