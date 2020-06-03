@@ -656,6 +656,9 @@ coverage
 "
 black
 "
+"
+flake8
+"
 )
 :
             
@@ -732,6 +735,14 @@ venv_bin
 black
 "
         
+flake8
+=
+venv_bin
+/
+"
+flake8
+"
+        
 #
 formatting
 the
@@ -745,6 +756,23 @@ self
 _run_script
 (
 black
+str
+(
+HERE
+)
+)
+        
+#
+checking
+flake8
+correctness
+        
+assert
+self
+.
+_run_script
+(
+flake8
 str
 (
 HERE

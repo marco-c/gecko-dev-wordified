@@ -123,6 +123,8 @@ import
 get_layers
 as
 system_layers
+#
+noqa
 from
 mozperftest
 .
@@ -131,6 +133,8 @@ import
 get_layers
 as
 browser_layers
+#
+noqa
 from
 mozperftest
 .
@@ -139,6 +143,8 @@ import
 get_layers
 as
 metrics_layers
+#
+noqa
 FLAVORS
 =
 [

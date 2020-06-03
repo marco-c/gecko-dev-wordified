@@ -115,6 +115,8 @@ mozperftest
 environment
 import
 MachEnvironment
+#
+noqa
 from
 mozperftest
 .
@@ -122,6 +124,8 @@ mach_commands
 import
 Perftest
 PerftestTests
+#
+noqa
 from
 mozperftest
 .
@@ -130,6 +134,8 @@ tests
 support
 import
 EXAMPLE_TESTS_DIR
+#
+noqa
 class
 _TestMachEnvironment
 (
