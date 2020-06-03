@@ -437,5 +437,23 @@ run_on_projects
 '
 )
         
+job
+[
+'
+optimization
+'
+]
+=
+dep_task
+.
+task
+.
+get
+(
+'
+optimization
+'
+)
+        
 yield
 job
