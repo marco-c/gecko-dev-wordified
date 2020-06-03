@@ -9515,7 +9515,7 @@ tryAttachInt32
 )
 ;
 AttachDecision
-tryAttachDouble
+tryAttachNumber
 (
 )
 ;
