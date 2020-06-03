@@ -18717,6 +18717,16 @@ TriggerAutoFocus
 )
 ;
 void
+SetAutoFocusFired
+(
+)
+;
+bool
+IsAutoFocusFired
+(
+)
+;
+void
 SetScrollToRef
 (
 nsIURI
