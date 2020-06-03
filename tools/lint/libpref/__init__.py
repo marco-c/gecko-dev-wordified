@@ -203,22 +203,6 @@ attribute
 .
     
 '
-devtools
-.
-browsertoolbox
-.
-fission
-'
-#
-Uses
-the
-'
-sticky
-'
-attribute
-.
-    
-'
 fission
 .
 autostart
