@@ -149,7 +149,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+jni
+/
+Refs
 .
 h
 "

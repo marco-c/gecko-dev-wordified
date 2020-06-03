@@ -100,7 +100,9 @@ Base64UtilsSupport_h__
 #
 include
 "
-GeneratedJNINatives
+mozilla
+/
+Base64
 .
 h
 "
@@ -109,7 +111,9 @@ include
 "
 mozilla
 /
-Base64
+java
+/
+Base64UtilsNatives
 .
 h
 "

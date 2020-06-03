@@ -99,7 +99,11 @@ mozilla_GeckoVRManager_h_
 #
 include
 "
-GeneratedJNINatives
+mozilla
+/
+java
+/
+GeckoVRManagerWrappers
 .
 h
 "

@@ -196,6 +196,17 @@ ScriptSettings
 .
 h
 "
+#
+include
+"
+mozilla
+/
+java
+/
+EventCallbackWrappers
+.
+h
+"
 /
 /
 Disable
