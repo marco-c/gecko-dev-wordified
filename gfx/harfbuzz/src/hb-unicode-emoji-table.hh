@@ -105,7 +105,7 @@ terms
 of
 use
 see
-https
+http
 :
 /
 /
@@ -144,7 +144,7 @@ documentation
 and
 usage
 see
-https
+http
 :
 /
 /

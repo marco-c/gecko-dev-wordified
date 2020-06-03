@@ -420,6 +420,9 @@ line
 )
 stdin
 )
+!
+=
+nullptr
 )
 {
 hb_buffer_clear_contents

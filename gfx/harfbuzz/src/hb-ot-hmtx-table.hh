@@ -1502,8 +1502,8 @@ var_table
 >
 get_advance_var
 (
-glyph
 font
+glyph
 )
 )
 ;

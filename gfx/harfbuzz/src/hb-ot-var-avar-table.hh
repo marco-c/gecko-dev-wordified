@@ -508,8 +508,6 @@ int
 count
 =
 len
--
-1
 ;
 for
 (
@@ -617,8 +615,6 @@ i
 fromCoord
 ;
 return
-roundf
-(
 arrayZ
 [
 i
@@ -629,9 +625,6 @@ i
 toCoord
 +
 (
-(
-float
-)
 (
 arrayZ
 [
@@ -662,10 +655,13 @@ i
 .
 fromCoord
 )
++
+denom
+/
+2
 )
 /
 denom
-)
 ;
 #
 undef

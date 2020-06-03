@@ -955,12 +955,13 @@ table
 .
 *
 /
-LNNOffsetTo
+LOffsetTo
 <
 UnsizedArrayOf
 <
 HBFixed
 >
+false
 >
 sizeTable
 ;
