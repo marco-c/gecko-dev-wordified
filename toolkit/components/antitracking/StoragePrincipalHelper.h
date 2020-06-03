@@ -1154,7 +1154,7 @@ in
 nsGlobalWindowInner
 :
 :
-StorageAccessGranted
+StorageAccessPermissionGranted
 (
 )
 .
@@ -1163,7 +1163,7 @@ StorageAccessGranted
 WorkerScope
 :
 :
-FirstPartyStorageAccessGranted
+StorageAccessPermissionGranted
 for
 Workers
 .

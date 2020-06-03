@@ -23826,7 +23826,7 @@ HasRecentlyStartedForegroundLoads
 ;
 static
 bool
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 nsIPrincipal
 *
@@ -25614,14 +25614,14 @@ bool
 bool
 true
 >
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 ;
 MOZ_MUST_USE
 RefPtr
 <
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 >
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 )
 ;
