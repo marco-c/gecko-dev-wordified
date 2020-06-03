@@ -690,6 +690,9 @@ codePrefixes
 "
 ff
 "
+"
+newext
+"
 ]
 extraAdServersRegexps
 :
