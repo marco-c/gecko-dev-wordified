@@ -374,6 +374,12 @@ self
 fallback
 =
 fallback
+        
+self
+.
+timedout
+=
+False
     
 def
 should_remove_task
@@ -437,6 +443,28 @@ head_rev
 '
 ]
         
+if
+self
+.
+timedout
+:
+            
+return
+seta
+.
+is_low_value_task
+(
+task
+.
+label
+params
+[
+'
+project
+'
+]
+)
+        
 try
 :
             
@@ -453,28 +481,29 @@ BugbugTimeoutException
 :
             
 if
+not
 self
 .
 fallback
 :
                 
-return
-seta
+raise
+            
+self
 .
-is_low_value_task
+timedout
+=
+True
+            
+return
+self
+.
+should_remove_task
 (
 task
-.
-label
 params
-[
-'
-project
-'
-]
+importance
 )
-            
-raise
         
 key
 =
