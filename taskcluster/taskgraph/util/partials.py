@@ -60,11 +60,13 @@ absolute_import
 print_function
 unicode_literals
 import
+logging
+import
 requests
 import
-redo
+six
 import
-logging
+redo
 from
 taskgraph
 .
@@ -72,8 +74,11 @@ util
 .
 scriptworker
 import
+(
 BALROG_SCOPE_ALIAS_TO_PROJECT
+                                         
 BALROG_SERVER_SCOPES
+)
 logger
 =
 logging
@@ -889,10 +894,11 @@ for
 k
 v
 in
-params
+six
 .
 iteritems
 (
+params
 )
 )
     
