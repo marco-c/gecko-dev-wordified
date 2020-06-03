@@ -283,6 +283,9 @@ include
 DOMTypes
 ;
 include
+WindowGlobalTypes
+;
+include
 IPCBlob
 ;
 include
