@@ -139,11 +139,6 @@ include
 <
 functional
 >
-#
-include
-<
-vector
->
 /
 *
 *
