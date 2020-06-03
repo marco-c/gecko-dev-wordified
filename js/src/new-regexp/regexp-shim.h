@@ -2868,13 +2868,15 @@ val
 )
 {
 return
-!
 (
 val
 >
 >
 24
 )
+=
+=
+0
 ;
 }
 inline
@@ -2888,7 +2890,10 @@ val
 int64_t
 limit
 =
+int64_t
+(
 1
+)
 <
 <
 23
