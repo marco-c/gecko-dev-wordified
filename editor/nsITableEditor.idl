@@ -1831,6 +1831,9 @@ used
 .
 *
 /
+[
+can_run_script
+]
 void
 getCellIndexes
 (
@@ -3367,6 +3370,9 @@ are
 selected
 *
 /
+[
+can_run_script
+]
 uint32_t
 getSelectedCellsType
 (
@@ -3712,6 +3718,9 @@ exception
 .
 *
 /
+[
+can_run_script
+]
 Element
 getFirstSelectedCellInTable
 (
