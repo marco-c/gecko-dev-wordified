@@ -2322,11 +2322,6 @@ aObserveLayersUpdate
 bool
 SetDisplayList
 (
-wr
-:
-:
-RenderRoot
-aRenderRoot
 const
 LayoutDeviceRect
 &
@@ -2420,11 +2415,6 @@ WebRenderScrollData
 &
 &
 aData
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 void
@@ -2436,11 +2426,6 @@ ScrollUpdatesMap
 aUpdates
 uint32_t
 aPaintSequenceNumber
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 bool

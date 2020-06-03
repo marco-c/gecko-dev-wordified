@@ -6774,11 +6774,6 @@ WebRenderScrollData
 &
 &
 aData
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 CompositorBridgeParent
@@ -6857,11 +6852,6 @@ ScrollUpdatesMap
 aUpdates
 uint32_t
 aPaintSequenceNumber
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 CompositorBridgeParent
@@ -7061,11 +7051,6 @@ WebRenderBridgeParent
 :
 SetDisplayList
 (
-wr
-:
-:
-RenderRoot
-aRenderRoot
 const
 LayoutDeviceRect
 &
@@ -7467,9 +7452,6 @@ ref
 (
 )
 )
-aDisplayList
-.
-mRenderRoot
 )
 ;
 }
@@ -7493,13 +7475,6 @@ IsRootWebRenderBridgeParent
 (
 )
 )
-;
-auto
-renderRoot
-=
-aDisplayList
-.
-mRenderRoot
 ;
 txn
 .
@@ -7565,7 +7540,6 @@ mDL
 !
 SetDisplayList
 (
-renderRoot
 aDisplayList
 .
 mRect
@@ -8566,9 +8540,6 @@ mScrollUpdates
 aUpdates
 .
 mPaintSequenceNumber
-aUpdates
-.
-mRenderRoot
 )
 ;
 }
