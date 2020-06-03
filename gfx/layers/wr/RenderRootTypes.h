@@ -185,12 +185,6 @@ RenderRootDisplayListData
 wr
 :
 :
-RenderRoot
-mRenderRoot
-;
-wr
-:
-:
 IdNamespace
 mIdNamespace
 ;
@@ -271,12 +265,6 @@ mScrollData
 struct
 RenderRootUpdates
 {
-wr
-:
-:
-RenderRoot
-mRenderRoot
-;
 nsTArray
 <
 WebRenderParentCommand
