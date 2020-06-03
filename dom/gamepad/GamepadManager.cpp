@@ -2436,11 +2436,11 @@ aIndex
 )
 ;
 return
-true
+false
 ;
 }
 return
-false
+true
 ;
 }
 bool
@@ -3132,6 +3132,7 @@ aWindow
 {
 firstTime
 =
+!
 MaybeWindowHasSeenGamepad
 (
 aWindow
