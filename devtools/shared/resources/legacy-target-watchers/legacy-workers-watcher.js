@@ -914,6 +914,7 @@ LegacyProcessesWatcher
 this
 .
 targetList
+async
 targetFront
 =
 >
@@ -936,6 +937,7 @@ targetFront
 isParentProcess
 )
 {
+await
 this
 .
 _onProcessAvailable
