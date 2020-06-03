@@ -51345,6 +51345,12 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_first_letter
+:
+true
+applies_to_first_line
+:
+true
 applies_to_placeholder
 :
 true

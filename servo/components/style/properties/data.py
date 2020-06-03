@@ -5281,6 +5281,10 @@ color
 "
             
 "
+opacity
+"
+            
+"
 float
 "
             
@@ -5530,6 +5534,10 @@ spec
             
 "
 color
+"
+            
+"
+opacity
 "
             
 #
