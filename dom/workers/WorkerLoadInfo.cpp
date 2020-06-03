@@ -569,7 +569,11 @@ StorageAccess
 :
 eDeny
 )
-mFirstPartyStorageAccessGranted
+mUseRegularPrincipal
+(
+false
+)
+mHasStorageAccessPermissionGranted
 (
 false
 )

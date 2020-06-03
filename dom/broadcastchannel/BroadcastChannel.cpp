@@ -1282,7 +1282,7 @@ origin
 workerPrivate
 -
 >
-StoragePrincipalOrigin
+EffectiveStoragePrincipalOrigin
 (
 )
 ;

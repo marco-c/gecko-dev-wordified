@@ -3185,12 +3185,12 @@ const
 0
 ;
 void
-SaveStorageAccessGranted
+SaveStorageAccessPermissionGranted
 (
 )
 ;
 bool
-HasStorageAccessGranted
+HasStorageAccessPermissionGranted
 (
 )
 ;
@@ -3820,7 +3820,7 @@ copy
 here
 .
 bool
-mStorageAccessGranted
+mStorageAccessPermissionGranted
 ;
 /
 /
