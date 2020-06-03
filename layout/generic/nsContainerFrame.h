@@ -2219,7 +2219,9 @@ runs
 out
 of
 computed
-height
+block
+-
+size
 but
 still
 has
@@ -2231,7 +2233,7 @@ to
 fit
 in
 the
-availableHeight
+AvailableBSize
 .
 The
 parent
@@ -2315,11 +2317,13 @@ ran
 out
 of
 computed
-height
+block
+-
+size
 but
 returns
-a
 *
+a
 reflow
 status
 with
@@ -2486,7 +2490,7 @@ have
 *
 overflow
 beyond
-availableHeight
+AvailableBSize
 and
 content
 is
@@ -2519,7 +2523,7 @@ list
 as
 with
 the
-overflowProperty
+OverflowProperty
 mechanism
 .
 To
@@ -2546,7 +2550,7 @@ frame
 either
 its
 own
-overflowContainersProperty
+OverflowContainersProperty
 *
 or
 its
@@ -2557,7 +2561,7 @@ in
 flow
 '
 s
-excessOverflowContainersProperty
+ExcessOverflowContainersProperty
 not
 both
 .
