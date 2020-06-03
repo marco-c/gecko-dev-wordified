@@ -218,6 +218,15 @@ info
         
 layer
 .
+warning
+(
+"
+warning
+"
+)
+        
+layer
+.
 debug
 (
 "
@@ -447,6 +456,15 @@ debug
 (
 "
 debug
+"
+)
+        
+layers
+.
+warning
+(
+"
+warning
 "
 )
         
