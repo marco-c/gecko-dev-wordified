@@ -115,9 +115,13 @@ info
     
 assert
 "
-appropriate
-android
-app
+The
+description
+of
+the
+example
+test
+.
 "
 in
 display
