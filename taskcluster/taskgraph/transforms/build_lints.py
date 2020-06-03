@@ -334,6 +334,27 @@ nightly
 False
 )
         
+shippable
+=
+job
+.
+get
+(
+'
+attributes
+'
+{
+}
+)
+.
+get
+(
+'
+shippable
+'
+False
+)
+        
 #
 This
 isn
@@ -393,7 +414,11 @@ key
 (
 platform
 primary_config
+(
 nightly
+or
+shippable
+)
 options
 )
         
