@@ -1683,13 +1683,6 @@ searchStartupPromise
 {
 await
 searchStartupPromise
-.
-catch
-(
-Cu
-.
-reportError
-)
 ;
 }
 /
@@ -2482,7 +2475,6 @@ install
 or
 enable
 .
-await
 this
 .
 setDefault
