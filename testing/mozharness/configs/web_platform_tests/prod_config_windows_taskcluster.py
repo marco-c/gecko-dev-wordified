@@ -1024,24 +1024,6 @@ True
     
 ]
     
-#
-this
-would
-normally
-be
-in
-"
-exes
-"
-but
-"
-exes
-"
-is
-clobbered
-by
-remove_executables
-    
 "
 geckodriver
 "
@@ -1055,7 +1037,7 @@ join
 "
 %
 (
-abs_test_bin_dir
+abs_fetches_dir
 )
 s
 "
