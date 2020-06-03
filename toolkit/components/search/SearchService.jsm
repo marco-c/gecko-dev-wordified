@@ -6029,19 +6029,6 @@ return
 true
 ;
 }
-if
-(
-extension
-.
-startupReason
-=
-=
-=
-"
-ADDON_INSTALL
-"
-)
-{
 /
 /
 We
@@ -6085,7 +6072,6 @@ id
 return
 true
 ;
-}
 }
 if
 (
