@@ -22169,15 +22169,9 @@ sc
 )
 -
 >
-thisBinding
+hasFunctionThisBinding
 (
 )
-=
-=
-ThisBinding
-:
-:
-Function
 )
 {
 HandlePropertyName
