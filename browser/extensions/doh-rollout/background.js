@@ -3918,6 +3918,17 @@ is
 disabled
 .
 }
+await
+browser
+.
+experiments
+.
+doorhanger
+.
+cancel
+(
+)
+;
 }
 }
 )
