@@ -2511,7 +2511,7 @@ TableSelectionMode
 AllCells
 static
 nsresult
-GetTableSelectionType
+GetTableSelectionMode
 (
 const
 nsRange
@@ -2868,7 +2868,7 @@ aCol
 nsresult
 result
 =
-GetTableSelectionType
+GetTableSelectionMode
 (
 aRange
 aSelectionType
@@ -2954,7 +2954,7 @@ do
 minimal
 checking
 since
-GetTableSelectionType
+GetTableSelectionMode
 assures
 /
 /
