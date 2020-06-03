@@ -652,6 +652,12 @@ mozIStorageStatementCallback
 aCallback
 )
 :
+Runnable
+(
+"
+AsyncExecuteStatements
+"
+)
 mConnection
 (
 aConnection
@@ -2888,10 +2894,10 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 AsyncExecuteStatements
-nsIRunnable
+Runnable
 mozIStoragePendingStatement
 )
 bool
