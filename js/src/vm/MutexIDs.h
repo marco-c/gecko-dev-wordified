@@ -418,6 +418,12 @@ MemoryTracker
 \
 _
 (
+IrregexpLazyStatic
+600
+)
+\
+_
+(
 ThreadId
 600
 )
