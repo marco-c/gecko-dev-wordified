@@ -36919,9 +36919,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 aContext
 .
@@ -36935,7 +36935,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 NotifyMediaPlaybackChanged
@@ -36997,9 +36997,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 aContext
 .
@@ -37013,7 +37013,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 NotifyMediaAudibleChanged

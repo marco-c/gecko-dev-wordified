@@ -712,9 +712,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 bc
 -
@@ -729,7 +729,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 NotifyMediaPlaybackChanged
@@ -908,9 +908,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 bc
 -
@@ -925,7 +925,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 NotifyMediaAudibleChanged
