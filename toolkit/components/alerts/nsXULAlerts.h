@@ -251,6 +251,13 @@ mDoNotDisturb
 =
 false
 ;
+private
+:
+bool
+mSuppressForScreenSharing
+=
+false
+;
 }
 ;
 /
