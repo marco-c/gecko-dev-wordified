@@ -7605,6 +7605,16 @@ return
 false
 ;
 }
+AddTypePropertyId
+(
+cx
+templateObject
+id
+UndefinedValue
+(
+)
+)
+;
 }
 /
 /
