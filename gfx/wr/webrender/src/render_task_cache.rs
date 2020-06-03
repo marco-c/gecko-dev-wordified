@@ -605,6 +605,14 @@ mut
 TextureCache
 )
 {
+profile_scope
+!
+(
+"
+begin_frame
+"
+)
+;
 /
 /
 Drop

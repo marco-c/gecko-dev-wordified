@@ -8252,6 +8252,14 @@ return
 None
 }
 ;
+profile_scope
+!
+(
+"
+build_clip_chain_instance
+"
+)
+;
 if
 is_chased
 {

@@ -7887,6 +7887,14 @@ mut
 GpuCache
 )
 {
+profile_scope
+!
+(
+"
+write_gpu_blocks
+"
+)
+;
 let
 (
 target_rect

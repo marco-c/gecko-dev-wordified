@@ -4320,6 +4320,14 @@ prim_list
 .
 clusters
 {
+profile_scope
+!
+(
+"
+cluster
+"
+)
+;
 /
 /
 Add
