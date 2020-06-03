@@ -367,6 +367,13 @@ gtests
 gfxPlatform
 :
 :
+GetCMSMode
+(
+)
+;
+gfxPlatform
+:
+:
 SetCMSModeOverride
 (
 eCMSMode_All
