@@ -348,6 +348,11 @@ init
 )
 {
 }
+initWithBrowsingContext
+(
+)
+{
+}
 setSha256Hash
 (
 )
