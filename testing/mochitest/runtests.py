@@ -18905,6 +18905,11 @@ gecko_id
 =
 gecko_id
             
+temp_file_paths
+=
+[
+]
+            
 try
 :
                 
@@ -19019,14 +19024,25 @@ self
 .
 lastTestSeen
                         
-addons
-.
-install
-(
+temp_addon_path
+=
 create_zip
 (
 addon_path
 )
+                        
+temp_file_paths
+.
+append
+(
+temp_addon_path
+)
+                        
+addons
+.
+install
+(
+temp_addon_path
 )
                 
 self
@@ -19518,6 +19534,19 @@ os
 remove
 (
 processLog
+)
+            
+for
+p
+in
+temp_file_paths
+:
+                
+os
+.
+remove
+(
+p
 )
         
 if
