@@ -710,6 +710,12 @@ os
 '
 linux
 '
+or
+'
+linux
+-
+bitbar
+'
     
 assert
 is_mac
