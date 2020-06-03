@@ -1373,6 +1373,32 @@ request_handler
 .
 command
         
+#
+Keys
+and
+values
+in
+raw
+headers
+are
+native
+strings
+.
+        
+self
+.
+_headers
+=
+None
+        
+self
+.
+raw_headers
+=
+request_handler
+.
+headers
+        
 scheme
 =
 request_handler
@@ -1383,9 +1409,9 @@ scheme
         
 host
 =
-request_handler
+self
 .
-headers
+raw_headers
 .
 get
 (
@@ -1483,12 +1509,27 @@ self
 .
 url
 =
-request_handler
+self
 .
-path
+request_path
         
 else
 :
+            
+#
+TODO
+(
+#
+23362
+)
+:
+Stop
+using
+native
+strings
+for
+URLs
+.
             
 self
 .
@@ -1510,12 +1551,10 @@ s
 "
 %
 (
+                
 scheme
-                                      
 host
-                                      
 port
-                                      
 self
 .
 request_path
@@ -1534,25 +1573,11 @@ url
         
 self
 .
-raw_headers
-=
-request_handler
-.
-headers
-        
-self
-.
 request_line
 =
 request_handler
 .
 raw_requestline
-        
-self
-.
-_headers
-=
-None
         
 self
 .
@@ -1568,7 +1593,7 @@ int
 (
 self
 .
-headers
+raw_headers
 .
 get
 (
@@ -1751,6 +1776,16 @@ seek
 (
 0
 )
+            
+#
+FIXME
+:
+specify
+encoding
+in
+Python
+3
+.
             
 fs
 =
@@ -2556,6 +2591,7 @@ else
 :
             
 return
+b
 "
 "
 .
