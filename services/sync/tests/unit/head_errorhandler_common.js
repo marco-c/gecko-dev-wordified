@@ -129,6 +129,7 @@ EngineManager
 Store
 SyncEngine
 Tracker
+LegacyTracker
 }
 =
 ChromeUtils
