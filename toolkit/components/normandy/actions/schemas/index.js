@@ -193,6 +193,9 @@ slug
 "
 branches
 "
+"
+isEnrollmentPaused
+"
 ]
 properties
 :
@@ -260,7 +263,7 @@ boolean
 "
 default
 :
-false
+true
 }
 branches
 :
@@ -790,6 +793,9 @@ addonUrl
 "
 extensionApiId
 "
+"
+isEnrollmentPaused
+"
 ]
 properties
 :
@@ -920,7 +926,7 @@ boolean
 "
 default
 :
-false
+true
 }
 }
 }
@@ -1203,6 +1209,9 @@ userFacingDescription
 "
 branches
 "
+"
+isEnrollmentPaused
+"
 ]
 properties
 :
@@ -1299,7 +1308,7 @@ boolean
 "
 default
 :
-false
+true
 }
 branches
 :
@@ -1914,6 +1923,9 @@ userFacingDescription
 "
 branches
 "
+"
+isEnrollmentPaused
+"
 ]
 properties
 :
@@ -2092,7 +2104,7 @@ boolean
 "
 default
 :
-false
+true
 }
 branches
 :
@@ -2433,6 +2445,9 @@ preferenceType
 "
 branches
 "
+"
+isEnrollmentPaused
+"
 ]
 properties
 :
@@ -2664,7 +2679,7 @@ boolean
 "
 default
 :
-false
+true
 }
 branches
 :

@@ -398,6 +398,9 @@ source
 "
 test
 "
+isEnrollmentPaused
+:
+true
 .
 .
 .

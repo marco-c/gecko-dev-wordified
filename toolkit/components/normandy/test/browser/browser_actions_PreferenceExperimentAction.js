@@ -428,6 +428,9 @@ browser_actions_PreferenceExperimentAction
 isHighPopulation
 :
 false
+isEnrollmentPaused
+:
+false
 .
 .
 .
