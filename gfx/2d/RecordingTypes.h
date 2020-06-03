@@ -538,6 +538,13 @@ size
 if
 (
 size
+&
+&
+aStream
+.
+good
+(
+)
 )
 {
 aVector
