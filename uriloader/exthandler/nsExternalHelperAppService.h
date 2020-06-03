@@ -756,6 +756,14 @@ for
 .
 *
 param
+aOverwriteDescription
+Whether
+to
+overwrite
+the
+description
+*
+param
 aMIMEInfo
 [
 inout
@@ -774,6 +782,8 @@ const
 nsACString
 &
 aContentType
+bool
+aOverwriteDescription
 nsIMIMEInfo
 *
 aMIMEInfo
