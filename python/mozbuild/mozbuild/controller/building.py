@@ -1425,6 +1425,26 @@ warning
 )
 :
             
+#
+Skip
+errors
+            
+if
+warning
+[
+'
+type
+'
+]
+=
+=
+'
+error
+'
+:
+                
+return
+            
 filename
 =
 warning
