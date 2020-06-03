@@ -3653,7 +3653,6 @@ log
 "
         
 if
-b
 "
 GLib
 -

@@ -826,7 +826,7 @@ type
 Name
 of
 the
-pointer
+key
 source
 *
 param
@@ -851,7 +851,7 @@ source
 as
 the
 default
-pointer
+key
 source
 *
 returns

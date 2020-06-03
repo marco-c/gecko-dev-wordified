@@ -29,8 +29,8 @@ from
 .
 lint
 import
-filter_ignorelist_errors
-parse_ignorelist
+filter_whitelist_errors
+parse_whitelist
 lint
 create_parser
 _dummy_repo
@@ -93,12 +93,12 @@ wrapped
 kwargs
 )
 def
-test_filter_ignorelist_errors
+test_filter_whitelist_errors
 (
 )
 :
     
-ignorelist
+whitelist
 =
 {
         
@@ -142,7 +142,7 @@ None
 }
     
 #
-parse_ignorelist
+parse_whitelist
 normalises
 the
 case
@@ -159,7 +159,7 @@ do
 the
 same
     
-ignorelist
+whitelist
 =
 {
 e
@@ -190,7 +190,7 @@ for
 e
 p
 in
-ignorelist
+whitelist
 .
 items
 (
@@ -201,7 +201,7 @@ items
 paths
 passed
 into
-filter_ignorelist_errors
+filter_whitelist_errors
 are
 always
 Unix
@@ -236,9 +236,9 @@ errors
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 ]
 )
@@ -252,9 +252,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 ]
 )
@@ -278,9 +278,9 @@ number
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -303,9 +303,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -337,9 +337,9 @@ unfilteredfile
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -379,9 +379,9 @@ file
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -405,9 +405,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -431,9 +431,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -465,7 +465,7 @@ unfilteredfile
 ]
 ]
 def
-test_parse_ignorelist
+test_parse_whitelist
 (
 )
 :
@@ -805,7 +805,7 @@ items
 )
 }
     
-expected_skipped
+expected_ignored
 =
 {
 os
@@ -839,9 +839,9 @@ png
 }
     
 data
-skipped_files
+ignored
 =
-parse_ignorelist
+parse_whitelist
 (
 input_buffer
 )
@@ -853,10 +853,10 @@ data
 expected_data
     
 assert
-skipped_files
+ignored
 =
 =
-expected_skipped
+expected_ignored
 def
 test_lint_no_files
 (

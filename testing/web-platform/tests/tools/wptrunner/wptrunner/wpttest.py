@@ -2,8 +2,6 @@ import
 os
 import
 subprocess
-import
-sys
 from
 six
 .
@@ -685,19 +683,6 @@ revision
 ]
 =
 rev
-        
-self
-[
-"
-python_version
-"
-]
-=
-sys
-.
-version_info
-.
-major
         
 self
 [

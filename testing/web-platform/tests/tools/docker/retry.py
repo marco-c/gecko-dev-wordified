@@ -161,25 +161,6 @@ i
 =
 1
 def
-log
-(
-value
-)
-:
-    
-print
-(
-value
-)
-    
-sys
-.
-stdout
-.
-flush
-(
-)
-def
 main
 (
 )
@@ -202,7 +183,7 @@ args
 cmd
 :
         
-log
+print
 (
 "
 No
@@ -236,7 +217,7 @@ count
 try
 :
             
-log
+print
 (
 "
 Running
@@ -299,7 +280,7 @@ returncode
 else
 :
             
-log
+print
 (
 "
 Command
@@ -360,7 +341,7 @@ count
 1
 :
             
-log
+print
 (
 "
 Command
@@ -386,7 +367,7 @@ wait_time
 else
 :
             
-log
+print
 (
 "
 Command
