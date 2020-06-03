@@ -1813,11 +1813,6 @@ aVisitor
 override
 ;
 void
-ClearActiveStoragePrincipal
-(
-)
-;
-void
 Suspend
 (
 )
