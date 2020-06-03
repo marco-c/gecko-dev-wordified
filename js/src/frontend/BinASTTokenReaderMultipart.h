@@ -954,7 +954,7 @@ Ok
 >
 registerLazyScript
 (
-BaseScript
+FunctionBox
 *
 lazy
 )

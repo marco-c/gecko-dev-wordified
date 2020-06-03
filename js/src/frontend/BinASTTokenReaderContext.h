@@ -381,6 +381,9 @@ frontend
 class
 ErrorReporter
 ;
+class
+FunctionBox
+;
 /
 /
 The
@@ -11868,7 +11871,7 @@ Ok
 >
 registerLazyScript
 (
-BaseScript
+FunctionBox
 *
 lazy
 )
@@ -12856,13 +12859,10 @@ to
 correct
 value
 .
-Rooted
+Vector
 <
-GCVector
-<
-BaseScript
+FunctionBox
 *
->
 >
 lazyScripts_
 ;
