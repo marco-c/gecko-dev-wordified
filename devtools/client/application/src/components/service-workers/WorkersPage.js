@@ -368,12 +368,6 @@ empty
 "
 :
 "
-app
--
-page
--
--
-workers
 "
 }
 }

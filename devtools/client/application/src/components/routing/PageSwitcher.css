@@ -102,10 +102,6 @@ unit
 8
 )
 ;
-display
-:
-grid
-;
 user
 -
 select
@@ -127,6 +123,10 @@ page
 -
 empty
 {
+display
+:
+grid
+;
 align
 -
 items
