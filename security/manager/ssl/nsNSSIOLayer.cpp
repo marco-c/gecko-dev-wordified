@@ -14595,7 +14595,7 @@ HostName
 ;
 nsCOMPtr
 <
-nsIClientAuthRemember
+nsIClientAuthRememberService
 >
 cars
 =
@@ -14617,7 +14617,7 @@ cars
 =
 do_GetService
 (
-NS_CLIENTAUTHREMEMBER_CONTRACTID
+NS_CLIENTAUTHREMEMBERSERVICE_CONTRACTID
 )
 ;
 }
