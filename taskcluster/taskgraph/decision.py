@@ -2085,6 +2085,17 @@ signoff_urls
 parameters
 [
 '
+test_manifest_loader
+'
+]
+=
+'
+default
+'
+    
+parameters
+[
+'
 try_mode
 '
 ]

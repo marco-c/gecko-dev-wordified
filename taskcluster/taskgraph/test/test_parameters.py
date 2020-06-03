@@ -328,6 +328,14 @@ target_tasks_method
 '
         
 '
+test_manifest_loader
+'
+:
+'
+default
+'
+        
+'
 tasks_for
 '
 :

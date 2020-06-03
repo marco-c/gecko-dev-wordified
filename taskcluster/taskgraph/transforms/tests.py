@@ -318,11 +318,11 @@ import
     
 chunk_manifests
     
-get_manifests
-    
 get_runtimes
     
 guess_mozinfo_from_task
+    
+manifest_loaders
 )
 from
 taskgraph
@@ -12413,6 +12413,20 @@ guess_mozinfo_from_task
 task
 )
         
+loader
+=
+manifest_loaders
+[
+config
+.
+params
+[
+'
+test_manifest_loader
+'
+]
+]
+        
 task
 [
 '
@@ -12422,6 +12436,8 @@ manifests
 '
 ]
 =
+loader
+.
 get_manifests
 (
             
@@ -12463,6 +12479,61 @@ items
 )
         
 )
+        
+#
+Skip
+the
+task
+if
+the
+loader
+doesn
+'
+t
+return
+any
+manifests
+for
+the
+        
+#
+associated
+suite
+.
+        
+if
+not
+task
+[
+'
+test
+-
+manifests
+'
+]
+[
+'
+active
+'
+]
+and
+not
+task
+[
+'
+test
+-
+manifests
+'
+]
+[
+'
+skipped
+'
+]
+:
+            
+continue
         
 yield
 task
