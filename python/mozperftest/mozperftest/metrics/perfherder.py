@@ -257,6 +257,8 @@ refbrow
 help
 "
 :
+(
+                
 "
 Shorthand
 name
@@ -265,7 +267,7 @@ application
 that
 is
 "
-            
+                
 "
 being
 tested
@@ -277,6 +279,8 @@ data
 )
 .
 "
+            
+)
         
 }
         
