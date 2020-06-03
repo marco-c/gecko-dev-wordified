@@ -110,7 +110,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
 .
 h
 "
