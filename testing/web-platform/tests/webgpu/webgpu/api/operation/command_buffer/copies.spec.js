@@ -45,7 +45,7 @@ tests
 ;
 import
 {
-TestGroup
+makeTestGroup
 }
 from
 '
@@ -94,8 +94,7 @@ export
 const
 g
 =
-new
-TestGroup
+makeTestGroup
 (
 GPUTest
 )
@@ -107,6 +106,10 @@ test
 '
 b2b
 '
+)
+.
+fn
+(
 async
 t
 =
@@ -250,6 +253,10 @@ test
 '
 b2t2b
 '
+)
+.
+fn
+(
 async
 t
 =
@@ -514,6 +521,10 @@ test
 '
 b2t2t2b
 '
+)
+.
+fn
+(
 async
 t
 =

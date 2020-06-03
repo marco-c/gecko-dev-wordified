@@ -30,6 +30,8 @@ export
 const
 description
 =
+'
+'
 ;
 import
 {
@@ -57,7 +59,7 @@ js
 ;
 import
 {
-TestGroup
+makeTestGroup
 }
 from
 '
@@ -83,8 +85,7 @@ export
 const
 g
 =
-new
-TestGroup
+makeTestGroup
 (
 Fixture
 )
@@ -94,12 +95,12 @@ g
 test
 (
 '
-canvas
-element
-getContext
-returns
-GPUCanvasContext
+canvas_element_getContext_returns_GPUCanvasContext
 '
+)
+.
+fn
+(
 async
 t
 =

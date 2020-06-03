@@ -51,6 +51,15 @@ index
 bs
 /
 /
+tslint
+:
+disable
+:
+variable
+-
+name
+/
+/
 String
 enums
 export
@@ -1577,7 +1586,7 @@ rgb10a2unorm
 TextureFormat
 [
 "
-RGB11B10Float
+RG11B10Float
 "
 ]
 =

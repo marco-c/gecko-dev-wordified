@@ -30,10 +30,12 @@ export
 const
 description
 =
+'
+'
 ;
 import
 {
-TestGroup
+makeTestGroup
 }
 from
 '
@@ -102,8 +104,7 @@ export
 const
 g
 =
-new
-TestGroup
+makeTestGroup
 (
 GPUTest
 )
@@ -115,6 +116,10 @@ test
 '
 mapWriteAsync
 '
+)
+.
+fn
+(
 async
 t
 =
@@ -158,6 +163,10 @@ test
 '
 mapReadAsync
 '
+)
+.
+fn
+(
 async
 t
 =
@@ -201,6 +210,10 @@ test
 '
 createBufferMapped
 '
+)
+.
+fn
+(
 async
 t
 =
