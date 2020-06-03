@@ -703,6 +703,15 @@ aResult
 override
 ;
 NS_IMETHOD
+GetScheme
+(
+nsACString
+&
+aScheme
+)
+override
+;
+NS_IMETHOD
 SchemeIs
 (
 const
