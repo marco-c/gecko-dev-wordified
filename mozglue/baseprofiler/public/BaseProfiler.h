@@ -2009,14 +2009,14 @@ the
 profiler
 .
 If
-MOZ_PROFILER_STARTUP
+MOZ_BASE_PROFILER_STARTUP
 is
 set
 the
 profiler
+/
+/
 will
-/
-/
 also
 be
 started
@@ -8602,7 +8602,7 @@ mInnerWindowID
 /
 Get
 the
-MOZ_PROFILER_STARTUP
+MOZ_BASE_PROFILER_STARTUP
 *
 environment
 variables
