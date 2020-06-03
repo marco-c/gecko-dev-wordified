@@ -187,7 +187,7 @@ accessibilityChildren
 (
 BOOL
 )
-accessibilityIsIgnored
+isAccessibilityElement
 ;
 -
 (

@@ -416,10 +416,10 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 (
 BOOL
 )
-accessibilityIsIgnored
+isAccessibilityElement
 {
 return
-NO
+YES
 ;
 }
 -

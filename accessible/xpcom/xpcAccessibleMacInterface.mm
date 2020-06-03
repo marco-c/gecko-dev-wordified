@@ -2509,7 +2509,7 @@ respondsToSelector
 :
 selector
 (
-accessibilityIsIgnored
+isAccessibilityElement
 )
 ]
 )
@@ -2525,7 +2525,7 @@ accessibility
 objects
 to
 implement
-accessibilityIsIgnored
+isAccessibilityElement
 /
 /
 at

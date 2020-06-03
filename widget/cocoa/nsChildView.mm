@@ -31101,7 +31101,7 @@ general
 (
 BOOL
 )
-accessibilityIsIgnored
+isAccessibilityElement
 {
 if
 (
@@ -31119,7 +31119,7 @@ ShouldA11yBeEnabled
 return
 [
 super
-accessibilityIsIgnored
+isAccessibilityElement
 ]
 ;
 return
@@ -31128,7 +31128,7 @@ return
 self
 accessible
 ]
-accessibilityIsIgnored
+isAccessibilityElement
 ]
 ;
 }
