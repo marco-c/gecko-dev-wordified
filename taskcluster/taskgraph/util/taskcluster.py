@@ -1293,9 +1293,6 @@ def
 find_task_id
 (
 index_path
-use_proxy
-=
-False
 )
 :
     
@@ -1309,7 +1306,6 @@ _do_request
 get_index_url
 (
 index_path
-use_proxy
 )
 )
     
