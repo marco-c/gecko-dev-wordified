@@ -144,6 +144,12 @@ space
 -
 between
 ;
+align
+-
+items
+:
+center
+;
 }
 .
 datetime
@@ -294,6 +300,10 @@ reset
 -
 button
 {
+color
+:
+inherit
+;
 fill
 :
 currentColor
@@ -312,12 +322,6 @@ transparent
 border
 :
 none
-;
-align
--
-self
-:
-center
 ;
 flex
 :
