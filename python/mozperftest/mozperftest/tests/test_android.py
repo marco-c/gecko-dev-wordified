@@ -342,7 +342,7 @@ apk
 :
 [
 "
-fennec_nightly_armeabi_v7a
+fenix_fennec_nightly_armeabi_v7a
 "
 ]
         

@@ -1114,17 +1114,24 @@ filtered_metrics
 (
         
 self
+        
 group_name
 =
 "
 firefox
 "
+        
 transformer
 =
 "
 SingleJsonRetriever
 "
+        
 metrics
+=
+None
+        
+exclude
 =
 None
     
@@ -1268,6 +1275,16 @@ metrics
 return
 results
         
+if
+not
+exclude
+:
+            
+exclude
+=
+[
+]
+        
 filtered
 =
 {
@@ -1312,6 +1329,27 @@ met
 in
 metrics
 ]
+)
+and
+not
+any
+(
+                    
+[
+met
+in
+res
+[
+"
+subtest
+"
+]
+for
+met
+in
+exclude
+]
+                
 )
 :
                     
@@ -1364,6 +1402,10 @@ None
 settings
 =
 False
+    
+exclude
+=
+None
 )
 :
     
@@ -1474,6 +1516,9 @@ transformer
 metrics
 =
 metrics
+exclude
+=
+exclude
     
 )
     
