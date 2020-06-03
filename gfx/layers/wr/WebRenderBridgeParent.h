@@ -912,13 +912,10 @@ ipc
 IPCResult
 RecvSetDisplayList
 (
-nsTArray
-<
 DisplayListData
->
 &
 &
-aDisplayLists
+aDisplayList
 nsTArray
 <
 OpDestroy

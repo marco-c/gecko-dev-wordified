@@ -500,9 +500,7 @@ async
 SetDisplayList
 (
 DisplayListData
-[
-]
-displayLists
+displayList
 OpDestroy
 [
 ]
