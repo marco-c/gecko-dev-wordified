@@ -3656,15 +3656,6 @@ mSkippedCompositeId
 TimeStamp
 mMostRecentComposite
 ;
-Maybe
-<
-wr
-:
-:
-RenderRoot
->
-mRenderRoot
-;
 #
 if
 defined
