@@ -32,7 +32,7 @@ registry
 new
 FinalizationRegistry
 (
-value
+iterator
 =
 >
 undefined

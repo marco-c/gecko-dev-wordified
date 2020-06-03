@@ -28,7 +28,7 @@ registry
 new
 FinalizationRegistry
 (
-value
+iterator
 =
 >
 {
@@ -36,7 +36,10 @@ heldValues
 .
 push
 (
-value
+.
+.
+.
+iterator
 )
 ;
 }
