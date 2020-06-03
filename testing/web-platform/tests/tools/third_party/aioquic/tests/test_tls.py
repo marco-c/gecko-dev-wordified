@@ -1881,7 +1881,7 @@ len
 (
 server_input
 )
-213
+181
 )
         
 self
@@ -3165,7 +3165,7 @@ len
 (
 client_input
 )
-307
+275
 )
             
 reset_buffers
@@ -3715,7 +3715,7 @@ len
 (
 client_input
 )
-307
+275
 )
             
 reset_buffers
@@ -3841,7 +3841,7 @@ assertEqual
             
 hello
 .
-session_id
+legacy_session_id
             
 binascii
 .
@@ -3895,7 +3895,7 @@ assertEqual
 (
 hello
 .
-compression_methods
+legacy_compression_methods
 [
 tls
 .
@@ -4172,7 +4172,7 @@ assertEqual
 (
 hello
 .
-session_id
+legacy_session_id
 b
 "
 "
@@ -4223,7 +4223,7 @@ assertEqual
 (
 hello
 .
-compression_methods
+legacy_compression_methods
 [
 tls
 .
@@ -4759,7 +4759,7 @@ assertEqual
             
 hello
 .
-session_id
+legacy_session_id
             
 binascii
 .
@@ -4813,7 +4813,7 @@ assertEqual
 (
 hello
 .
-compression_methods
+legacy_compression_methods
 [
 tls
 .
@@ -5085,7 +5085,7 @@ unhexlify
             
 )
             
-session_id
+legacy_session_id
 =
 binascii
 .
@@ -5122,7 +5122,7 @@ CHACHA20_POLY1305_SHA256
             
 ]
             
-compression_methods
+legacy_compression_methods
 =
 [
 tls
@@ -5359,7 +5359,7 @@ assertEqual
             
 hello
 .
-session_id
+legacy_session_id
             
 binascii
 .
@@ -5534,7 +5534,7 @@ assertEqual
             
 hello
 .
-session_id
+legacy_session_id
             
 binascii
 .
@@ -5736,7 +5736,7 @@ ada85271d19680c615ea7336519e3fdf6f1e26f3b1075ee1de96ffa8884e8280
                 
 )
                 
-session_id
+legacy_session_id
 =
 binascii
 .
@@ -5876,7 +5876,7 @@ ada85271d19680c615ea7336519e3fdf6f1e26f3b1075ee1de96ffa8884e8280
             
 )
             
-session_id
+legacy_session_id
 =
 binascii
 .
