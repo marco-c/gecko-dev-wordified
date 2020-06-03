@@ -802,13 +802,9 @@ add_font_instance
 (
 font_instance_key
 font_key
-Au
-:
-:
-from_px
-(
 32
-)
+.
+0
 None
 None
 Vec

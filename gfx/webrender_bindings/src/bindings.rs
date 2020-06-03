@@ -12091,13 +12091,7 @@ add_font_instance
 (
 key
 font_key
-Au
-:
-:
-from_f32_px
-(
 glyph_size
-)
 unsafe
 {
 options

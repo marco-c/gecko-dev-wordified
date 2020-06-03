@@ -6659,10 +6659,6 @@ font_key
 instance
 .
 size
-.
-to_f32_px
-(
-)
 instance
 .
 options
