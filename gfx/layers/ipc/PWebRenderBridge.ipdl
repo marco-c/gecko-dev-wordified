@@ -618,8 +618,6 @@ WebRenderParentCommand
 [
 ]
 commands
-RenderRoot
-aRenderRoot
 )
 ;
 sync
