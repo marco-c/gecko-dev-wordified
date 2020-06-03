@@ -1098,16 +1098,6 @@ override
 }
 virtual
 void
-SetShowsFullScreenButton
-(
-bool
-aShow
-)
-override
-{
-}
-virtual
-void
 SetWindowAnimationType
 (
 WindowAnimationType
