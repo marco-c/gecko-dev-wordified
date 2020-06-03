@@ -9020,6 +9020,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathCeil
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathRound
 (
 HandleFunction
