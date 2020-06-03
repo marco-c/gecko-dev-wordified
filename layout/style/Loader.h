@@ -2492,6 +2492,8 @@ SheetParsingMode
 aParsingMode
 bool
 aSyncLoad
+IsPreload
+aIsPreload
 )
 {
 return
@@ -2515,6 +2517,7 @@ aInfo
 .
 mIntegrity
 aSyncLoad
+aIsPreload
 )
 ;
 }
@@ -2591,6 +2594,8 @@ nsAString
 aIntegrity
 bool
 aSyncLoad
+IsPreload
+aIsPreload
 )
 ;
 /
