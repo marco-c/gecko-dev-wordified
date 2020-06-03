@@ -356,6 +356,17 @@ pub
 mod
 units
 ;
+#
+[
+doc
+(
+hidden
+)
+]
+pub
+mod
+image_tiling
+;
 pub
 use
 crate

@@ -430,7 +430,7 @@ information
 that
 will
 be
-truned
+turned
 into
 /
 /

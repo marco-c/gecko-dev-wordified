@@ -65,6 +65,7 @@ AlphaType
 ClipMode
 ExternalImageType
 ImageRendering
+EdgeAaSegmentMask
 }
 ;
 use
@@ -255,7 +256,6 @@ prim_store
 :
 {
 DeferredResolve
-EdgeAaSegmentMask
 PrimitiveInstanceKind
 PrimitiveVisibilityIndex
 PrimitiveVisibilityMask

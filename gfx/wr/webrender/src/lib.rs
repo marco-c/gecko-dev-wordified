@@ -763,9 +763,6 @@ mod
 hit_test
 ;
 mod
-image
-;
-mod
 intern
 ;
 mod
