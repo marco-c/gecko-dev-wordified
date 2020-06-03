@@ -4966,9 +4966,6 @@ UseTextures
 (
 this
 textures
-Nothing
-(
-)
 )
 ;
 }
