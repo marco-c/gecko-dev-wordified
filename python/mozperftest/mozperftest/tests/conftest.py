@@ -469,9 +469,7 @@ file_3
 _create_temp_files
 (
 txt_3
-json
-.
-dumps
+str
 (
 data
 [
