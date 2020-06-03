@@ -8600,7 +8600,6 @@ aSize
 async
 CreateWindow
 (
-nullable
 PBrowser
 aThisTab
 MaybeDiscardedBrowsingContext

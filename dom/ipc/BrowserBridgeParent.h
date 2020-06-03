@@ -221,10 +221,6 @@ ContentParent
 *
 aContentParent
 const
-nsString
-&
-aPresentationURL
-const
 WindowGlobalInit
 &
 aWindowInit

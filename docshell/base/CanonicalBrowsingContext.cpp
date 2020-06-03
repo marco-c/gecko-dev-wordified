@@ -2870,9 +2870,6 @@ InitWithProcess
 (
 embedderBrowser
 aContentParent
-EmptyString
-(
-)
 windowInit
 chromeFlags
 tabId
