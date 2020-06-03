@@ -112,6 +112,10 @@ clearKeptObjects
 (
 )
 ;
+maybegc
+(
+)
+;
 }
 suspend
 (
