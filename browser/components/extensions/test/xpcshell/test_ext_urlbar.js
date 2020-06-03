@@ -370,6 +370,13 @@ promiseStartupManager
 (
 )
 ;
+await
+UrlbarTestUtils
+.
+initXPCShellDependencies
+(
+)
+;
 /
 /
 Add

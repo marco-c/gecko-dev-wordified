@@ -79,13 +79,6 @@ setup
 (
 )
 {
-await
-AddonTestUtils
-.
-promiseStartupManager
-(
-)
-;
 let
 engine
 =

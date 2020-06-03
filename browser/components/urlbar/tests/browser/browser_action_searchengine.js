@@ -247,6 +247,15 @@ clear
 (
 )
 ;
+await
+UrlbarTestUtils
+.
+formHistory
+.
+clear
+(
+)
+;
 }
 )
 ;

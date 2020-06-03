@@ -648,6 +648,15 @@ clear
 )
 ;
 await
+UrlbarTestUtils
+.
+formHistory
+.
+clear
+(
+)
+;
+await
 PlacesTestUtils
 .
 addVisits

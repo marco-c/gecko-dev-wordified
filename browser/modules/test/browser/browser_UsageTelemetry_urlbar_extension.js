@@ -313,7 +313,7 @@ TelemetryTestUtils
 getAndClearHistogram
 (
 "
-FX_URLBAR_SELECTED_RESULT_TYPE
+FX_URLBAR_SELECTED_RESULT_TYPE_2
 "
 )
 resultIndexByTypeHist
@@ -323,7 +323,7 @@ TelemetryTestUtils
 getAndClearKeyedHistogram
 (
 "
-FX_URLBAR_SELECTED_RESULT_INDEX_BY_TYPE
+FX_URLBAR_SELECTED_RESULT_INDEX_BY_TYPE_2
 "
 )
 resultMethodHist
