@@ -199,7 +199,7 @@ initResourceWatcherAndTarget
 ;
 const
 {
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ROOT_NODE
 }
 =
@@ -260,7 +260,7 @@ resourceType
 =
 =
 =
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 )
 {
 receivedMessages
@@ -277,7 +277,7 @@ Call
 watchResources
 (
 [
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ROOT_NODE
 ]
 .
@@ -293,7 +293,7 @@ resourceWatcher
 watchResources
 (
 [
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ROOT_NODE
 ]
 {
@@ -334,7 +334,7 @@ received
 resource
 of
 type
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 "
 )
 ;
@@ -449,7 +449,7 @@ received
 resources
 of
 type
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 "
 )
 ;
@@ -594,7 +594,7 @@ received
 resources
 of
 type
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 "
 )
 ;
@@ -617,7 +617,7 @@ info
 "
 Stop
 watching
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 resources
 "
 )
@@ -628,7 +628,7 @@ resourceWatcher
 unwatchResources
 (
 [
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ]
 {
 onAvailable
@@ -690,7 +690,7 @@ watcher
 should
 not
 watch
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 anymore
 "
 )

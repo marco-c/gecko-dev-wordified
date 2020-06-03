@@ -39,7 +39,7 @@ the
 ResourceWatcher
 API
 around
-PLATFORM_MESSAGES
+PLATFORM_MESSAGE
 /
 /
 Reproduces
@@ -394,7 +394,7 @@ ResourceWatcher
 .
 TYPES
 .
-PLATFORM_MESSAGES
+PLATFORM_MESSAGE
 ]
 {
 onAvailable
@@ -518,7 +518,7 @@ Test
 ignoreExistingResources
 option
 for
-PLATFORM_MESSAGES
+PLATFORM_MESSAGE
 "
 )
 ;
@@ -652,7 +652,7 @@ ResourceWatcher
 .
 TYPES
 .
-PLATFORM_MESSAGES
+PLATFORM_MESSAGE
 ]
 {
 onAvailable

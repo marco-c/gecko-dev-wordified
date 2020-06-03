@@ -525,7 +525,7 @@ resourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 ]
 {
 onAvailable
@@ -670,7 +670,7 @@ resourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 ]
 {
 onAvailable

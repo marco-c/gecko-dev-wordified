@@ -585,7 +585,7 @@ resourceWatcher
 .
 TYPES
 .
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 ]
 {
 onAvailable
@@ -675,7 +675,7 @@ resourceWatcher
 .
 TYPES
 .
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 ]
 {
 onAvailable
@@ -1003,7 +1003,7 @@ resourceWatcher
 .
 TYPES
 .
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 )
 {
 this

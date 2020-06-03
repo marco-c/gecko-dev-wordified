@@ -39,7 +39,7 @@ the
 ResourceWatcher
 API
 around
-ERROR_MESSAGES
+ERROR_MESSAGE
 /
 /
 Reproduces
@@ -523,7 +523,7 @@ ResourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 ]
 {
 onAvailable
@@ -652,7 +652,7 @@ Test
 ignoreExistingResources
 option
 for
-ERROR_MESSAGES
+ERROR_MESSAGE
 "
 )
 ;
@@ -760,7 +760,7 @@ ResourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 ]
 {
 onAvailable

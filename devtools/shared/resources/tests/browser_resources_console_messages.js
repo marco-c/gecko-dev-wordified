@@ -39,7 +39,7 @@ the
 ResourceWatcher
 API
 around
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 /
 /
 /
@@ -174,7 +174,7 @@ Test
 ignoreExistingResources
 option
 for
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 "
 )
 ;
@@ -249,7 +249,7 @@ ResourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ]
 {
 onAvailable
@@ -516,7 +516,7 @@ ResourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 "
 Received
 a
@@ -594,7 +594,7 @@ ResourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ]
 {
 onAvailable
