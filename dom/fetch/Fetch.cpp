@@ -2951,7 +2951,7 @@ if
 worker
 -
 >
-IsWatchedByDevtools
+IsWatchedByDevTools
 (
 )
 )

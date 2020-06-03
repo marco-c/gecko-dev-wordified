@@ -558,7 +558,7 @@ mPrincipalIsAddonOrExpandedAddon
 (
 false
 )
-mWatchedByDevtools
+mWatchedByDevTools
 (
 false
 )

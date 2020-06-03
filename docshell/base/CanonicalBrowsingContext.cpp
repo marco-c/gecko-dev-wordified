@@ -3595,7 +3595,7 @@ here
 .
 if
 (
-GetWatchedByDevtools
+WatchedByDevTools
 (
 )
 )
