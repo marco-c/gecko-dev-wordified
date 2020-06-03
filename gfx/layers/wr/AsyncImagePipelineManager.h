@@ -777,6 +777,15 @@ GetAndResetWillGenerateFrame
 (
 )
 ;
+static
+wr
+:
+:
+ExternalImageId
+GetNextExternalImageId
+(
+)
+;
 private
 :
 void
