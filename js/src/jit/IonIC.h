@@ -293,9 +293,9 @@ setNext
 IonICStub
 *
 next
-JitCode
+uint8_t
 *
-nextCode
+nextCodeRaw
 )
 {
 MOZ_ASSERT
@@ -309,7 +309,7 @@ MOZ_ASSERT
 next
 &
 &
-nextCode
+nextCodeRaw
 )
 ;
 next_
@@ -318,12 +318,7 @@ next
 ;
 nextCodeRaw_
 =
-nextCode
--
->
-raw
-(
-)
+nextCodeRaw
 ;
 }
 /
