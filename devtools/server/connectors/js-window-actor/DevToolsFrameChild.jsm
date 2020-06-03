@@ -2101,7 +2101,7 @@ FrameWatcher
 via
 ActorManagerParent
 .
-addActors
+addJSWindowActors
 /
 /
 as

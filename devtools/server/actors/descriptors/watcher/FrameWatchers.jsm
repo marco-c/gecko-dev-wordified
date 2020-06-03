@@ -413,7 +413,7 @@ WindowGlobal
 Watcher
 ActorManagerParent
 .
-addActors
+addJSWindowActors
 (
 {
 DevToolsFrame
