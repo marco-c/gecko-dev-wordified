@@ -28798,13 +28798,14 @@ Element
 *
 element
 :
+aContextNode
+-
+>
 InclusiveAncestorsOfType
 <
 Element
 >
 (
-*
-aContextNode
 )
 )
 {

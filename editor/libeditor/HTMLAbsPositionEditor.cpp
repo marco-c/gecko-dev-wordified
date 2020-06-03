@@ -517,13 +517,14 @@ Element
 *
 element
 :
+selectionContainerElement
+-
+>
 InclusiveAncestorsOfType
 <
 Element
 >
 (
-*
-selectionContainerElement
 )
 )
 {
