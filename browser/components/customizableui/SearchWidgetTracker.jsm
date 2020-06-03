@@ -702,8 +702,6 @@ document
 .
 getElementById
 (
-this
-.
 WIDGET_ID
 )
 |
@@ -720,8 +718,6 @@ querySelector
 #
 "
 +
-this
-.
 WIDGET_ID
 )
 ;
