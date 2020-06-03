@@ -164,15 +164,9 @@ update
 /
 /
 WebIDLProcType
-ChromeUtils
-:
-:
-RequestProcInfo
 and
 ProcTypeToWebIDL
 to
-/
-/
 mirror
 the
 changes
@@ -234,7 +228,6 @@ MOZ_ENABLE_FORKSERVER
 ForkServer
 #
 endif
-Preallocated
 /
 /
 Unknown
