@@ -3031,11 +3031,6 @@ PERM_CAN_CHANGE_PRIVATEBROWSING_ACCESS
 )
 ;
 }
-setCheckbox
-(
-window
-)
-;
 async
 function
 actionResolve
