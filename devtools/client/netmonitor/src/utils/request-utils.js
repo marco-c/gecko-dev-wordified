@@ -910,10 +910,6 @@ result
 if
 (
 preHeaderText
-!
-=
-"
-"
 )
 {
 result

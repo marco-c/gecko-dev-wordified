@@ -1307,6 +1307,10 @@ requestHeaders
 .
 headers
 )
+.
+trim
+(
+)
 ;
 }
 const
