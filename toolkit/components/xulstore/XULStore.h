@@ -372,6 +372,11 @@ XULStoreIterator
 iter
 )
 ;
+nsresult
+Shutdown
+(
+)
+;
 }
 ;
 /
