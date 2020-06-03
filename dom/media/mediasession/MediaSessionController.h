@@ -805,16 +805,6 @@ GetCurrentMediaMetadata
 )
 const
 ;
-uint64_t
-Id
-(
-)
-const
-{
-return
-mTopLevelBCId
-;
-}
 bool
 IsMediaAudible
 (
