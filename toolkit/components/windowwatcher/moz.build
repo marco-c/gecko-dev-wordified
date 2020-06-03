@@ -128,6 +128,11 @@ nsIOpenWindowInfo
 idl
 '
 '
+nsIPromptCollection
+.
+idl
+'
+'
 nsIPromptFactory
 .
 idl
