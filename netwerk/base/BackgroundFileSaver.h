@@ -215,7 +215,7 @@ class
 nsIAsyncInputStream
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -485,9 +485,9 @@ delegated
 /
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mWorkerThread
+mBackgroundET
 ;
 /
 *
