@@ -438,7 +438,7 @@ RedirectToRealChannelPromise
 :
 CreateAndResolve
 (
-NS_BINDING_ABORTED
+NS_ERROR_CONTENT_BLOCKED
 __func__
 )
 ;
@@ -574,7 +574,7 @@ aResult
 {
 aResult
 =
-NS_BINDING_ABORTED
+NS_ERROR_ABORT
 ;
 }
 else
