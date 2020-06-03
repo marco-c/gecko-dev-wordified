@@ -8465,14 +8465,6 @@ info
 PrimitiveDependencyInfo
 )
 {
-profile_scope
-!
-(
-"
-add_prim_dependency
-"
-)
-;
 /
 /
 If
