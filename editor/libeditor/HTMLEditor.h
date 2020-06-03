@@ -6871,6 +6871,7 @@ nsIContent
 *
 GetPreviousHTMLElementOrText
 (
+const
 nsINode
 &
 aNode
@@ -6889,6 +6890,7 @@ nsIContent
 *
 GetPreviousHTMLElementOrTextInBlock
 (
+const
 nsINode
 &
 aNode
@@ -7312,6 +7314,7 @@ nsIContent
 *
 GetNextHTMLElementOrText
 (
+const
 nsINode
 &
 aNode
@@ -7330,6 +7333,7 @@ nsIContent
 *
 GetNextHTMLElementOrTextInBlock
 (
+const
 nsINode
 &
 aNode
