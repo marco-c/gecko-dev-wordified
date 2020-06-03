@@ -135,6 +135,15 @@ manifest
 ini
 '
 '
+mozgeckoprofiler
+/
+tests
+/
+manifest
+.
+ini
+'
+'
 mozhttpd
 /
 tests
@@ -278,6 +287,9 @@ mozdevice
 '
 '
 mozfile
+'
+'
+mozgeckoprofiler
 '
 '
 mozhttpd
