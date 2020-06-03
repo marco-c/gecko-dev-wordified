@@ -248,6 +248,18 @@ freeze
 try
 :
             
+#
+used
+to
+trigger
+__enter__
+/
+__exit__
+            
+with
+self
+:
+                
 yield
 self
         
