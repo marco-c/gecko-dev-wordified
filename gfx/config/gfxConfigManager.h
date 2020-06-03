@@ -254,14 +254,6 @@ mIsWin10OrLater
 (
 false
 )
-mIsWindows
-(
-false
-)
-mDwmCompositionEnabled
-(
-false
-)
 {
 }
 void
@@ -439,12 +431,6 @@ mSafeMode
 ;
 bool
 mIsWin10OrLater
-;
-bool
-mIsWindows
-;
-bool
-mDwmCompositionEnabled
 ;
 }
 ;
