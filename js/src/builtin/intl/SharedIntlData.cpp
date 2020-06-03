@@ -3010,6 +3010,12 @@ case
 SupportedLocaleKind
 :
 :
+DisplayNames
+:
+case
+SupportedLocaleKind
+:
+:
 ListFormat
 :
 case

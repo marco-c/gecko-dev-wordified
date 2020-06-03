@@ -1663,6 +1663,7 @@ SupportedLocaleKind
 {
 Collator
 DateTimeFormat
+DisplayNames
 ListFormat
 NumberFormat
 PluralRules
