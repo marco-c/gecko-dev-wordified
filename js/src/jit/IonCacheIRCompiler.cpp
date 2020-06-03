@@ -7601,7 +7601,7 @@ bool
 IonCacheIRCompiler
 :
 :
-emitLoadStringResult
+emitLoadConstantStringResult
 (
 uint32_t
 strOffset
