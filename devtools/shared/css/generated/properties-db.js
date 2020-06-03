@@ -43007,15 +43007,6 @@ inner
 -
 moz
 -
-focus
--
-outer
-"
-"
-:
--
-moz
--
 progress
 -
 bar

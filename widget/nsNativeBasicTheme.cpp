@@ -6034,6 +6034,12 @@ switch
 aAppearance
 )
 {
+case
+StyleAppearance
+:
+:
+Range
+:
 /
 /
 TODO
