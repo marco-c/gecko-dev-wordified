@@ -37547,9 +37547,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 aContext
 .
@@ -37563,7 +37563,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 UpdateMetadata
