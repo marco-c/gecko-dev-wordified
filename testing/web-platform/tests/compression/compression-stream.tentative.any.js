@@ -12,6 +12,8 @@ META
 :
 script
 =
+third_party
+/
 pako
 /
 pako_inflate
