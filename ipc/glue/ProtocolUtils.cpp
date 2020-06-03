@@ -4310,7 +4310,7 @@ target
 =
 mEventTargetMap
 .
-Lookup
+Get
 (
 manager
 -
@@ -4431,7 +4431,7 @@ aId
 return
 mActorMap
 .
-Lookup
+Get
 (
 aId
 )
@@ -4771,7 +4771,7 @@ aId
 return
 mShmemMap
 .
-Lookup
+Get
 (
 aId
 )
@@ -5272,7 +5272,7 @@ target
 =
 mEventTargetMap
 .
-Lookup
+Get
 (
 route
 )
@@ -5363,7 +5363,7 @@ existingTgt
 =
 mEventTargetMap
 .
-Lookup
+Get
 (
 handle
 .
@@ -5462,7 +5462,7 @@ target
 =
 mEventTargetMap
 .
-Lookup
+Get
 (
 aActor
 -
