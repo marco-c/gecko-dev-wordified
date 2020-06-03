@@ -297,7 +297,7 @@ defineModuleGetter
 (
 this
 "
-ReaderParent
+AboutReaderParent
 "
 "
 resource
@@ -305,9 +305,9 @@ resource
 /
 /
 /
-modules
+actors
 /
-ReaderParent
+AboutReaderParent
 .
 jsm
 "
@@ -3627,7 +3627,7 @@ forceShowReaderIcon
 "
 :
 {
-ReaderParent
+AboutReaderParent
 .
 forceShowReaderIcon
 (
@@ -3666,7 +3666,7 @@ target
 =
 >
 {
-ReaderParent
+AboutReaderParent
 .
 toggleReaderMode
 (
