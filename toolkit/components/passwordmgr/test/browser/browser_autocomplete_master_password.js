@@ -777,11 +777,8 @@ LoginManager
 )
 ;
 let
-arg1
+origin
 =
-{
-formOrigin
-:
 "
 https
 :
@@ -793,6 +790,11 @@ example
 .
 com
 "
+;
+let
+data
+=
+{
 actionOrigin
 :
 "
@@ -874,7 +876,8 @@ loginManagerParent
 .
 doAutocompleteSearch
 (
-arg1
+origin
+data
 )
 ;
 is
