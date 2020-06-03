@@ -507,6 +507,29 @@ resources
 )
     
 #
+This
+file
+    
+files
+.
+append
+(
+'
+taskcluster
+/
+taskgraph
+/
+transforms
+/
+job
+/
+toolchain
+.
+py
+'
+)
+    
+#
 The
 script
     
