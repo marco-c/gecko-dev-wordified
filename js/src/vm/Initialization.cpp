@@ -702,6 +702,13 @@ detail
 :
 :
 CanonicalizedNaNBits
+"
+Unexpected
+default
+hardware
+NaN
+value
+"
 )
 ;
 #
