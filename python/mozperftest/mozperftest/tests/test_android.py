@@ -11,6 +11,8 @@ import
 mozunit
 import
 pytest
+from
+unittest
 import
 mock
 from
@@ -957,21 +959,54 @@ layers
 SYSTEM
 ]
         
+andro
+=
+system
+.
+layers
+[
+0
+]
+        
 with
 system
 as
-android
+layer
 silence
 (
 system
 )
 :
             
-android
+andro
+.
+device
+=
+device
+            
+andro
+.
+device
+.
+get_logcat
+=
+mock
+.
+Mock
+(
+result_value
+=
+[
+]
+)
+            
+layer
 (
 metadata
 )
         
+andro
+.
 device
 .
 get_logcat
@@ -980,6 +1015,8 @@ assert_called
 (
 )
         
+andro
+.
 device
 .
 clear_logcat

@@ -66,6 +66,8 @@ import
 mozunit
 import
 os
+from
+unittest
 import
 mock
 import
@@ -379,8 +381,8 @@ push_to_try
 def
 test_push_command
 (
-*
-mocked
+push_to_try
+venv
 )
 :
     
@@ -425,10 +427,7 @@ g5
         
 )
         
-mocked
-[
-1
-]
+push_to_try
 .
 assert_called
 (

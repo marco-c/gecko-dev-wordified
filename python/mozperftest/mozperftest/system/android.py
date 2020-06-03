@@ -733,16 +733,7 @@ self
 )
 :
         
-self
-.
-info
-(
-"
-android
-.
-setup
-"
-)
+pass
     
 def
 teardown
@@ -750,17 +741,6 @@ teardown
 self
 )
 :
-        
-self
-.
-info
-(
-"
-android
-.
-teardown
-"
-)
         
 if
 self

@@ -9,6 +9,8 @@ env
 python
 import
 mozunit
+from
+unittest
 import
 mock
 from
