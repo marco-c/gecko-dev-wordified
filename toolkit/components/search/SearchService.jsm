@@ -890,9 +890,6 @@ marktplaats
 mercadolibre
 "
 "
-twitter
-"
-"
 wikipedia
 "
 "
