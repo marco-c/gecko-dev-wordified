@@ -562,15 +562,6 @@ aPostDestroyData
 )
 override
 ;
-void
-DidSetComputedStyle
-(
-ComputedStyle
-*
-aOldStyle
-)
-final
-;
 bool
 GetIntrinsicImageDimensions
 (
