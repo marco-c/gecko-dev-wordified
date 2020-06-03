@@ -103,6 +103,7 @@ resolve
 import
 TestResolver
 TestManifestLoader
+get_suite_definition
 from
 taskgraph
 import
@@ -448,6 +449,7 @@ def
 get_runtimes
 (
 platform
+suite_name
 )
 :
     
@@ -540,6 +542,13 @@ json
 load
 (
 fh
+)
+.
+get
+(
+suite_name
+{
+}
 )
 memoize
 def
@@ -1159,6 +1168,7 @@ def
 chunk_manifests
 (
 flavor
+subsuite
 platform
 chunks
 manifests
@@ -1242,6 +1252,43 @@ chunk
 "
 "
     
+#
+Obtain
+the
+suite
+definition
+given
+the
+flavor
+and
+subsuite
+which
+often
+    
+#
+do
+not
+perfectly
+map
+onto
+the
+actual
+suite
+name
+in
+taskgraph
+.
+    
+suite_name
+_
+=
+get_suite_definition
+(
+flavor
+subsuite
+True
+)
+    
 if
 flavor
 !
@@ -1275,6 +1322,7 @@ chunks
 get_runtimes
 (
 platform
+suite_name
 )
             
 )
@@ -1326,6 +1374,7 @@ runtimes
 get_runtimes
 (
 platform
+suite_name
 )
     
 runtimes
@@ -1450,7 +1499,7 @@ to
 slowest
 based
 on
-runtimme
+runtime
 info
         
 #
