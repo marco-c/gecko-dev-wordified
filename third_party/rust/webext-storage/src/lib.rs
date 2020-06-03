@@ -83,6 +83,9 @@ mod
 error
 ;
 mod
+migration
+;
+mod
 schema
 ;
 pub

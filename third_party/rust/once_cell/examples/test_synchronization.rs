@@ -1,6 +1,6 @@
 /
 /
-/
+!
 Test
 if
 the
@@ -10,7 +10,7 @@ synchronizes
 .
 /
 /
-/
+!
 Needs
 to
 be
@@ -21,10 +21,10 @@ mode
 .
 /
 /
+!
 /
 /
-/
-/
+!
 We
 create
 a
@@ -46,7 +46,7 @@ race
 to
 /
 /
-/
+!
 be
 the
 first
@@ -58,7 +58,7 @@ cell
 .
 /
 /
-/
+!
 Every
 thread
 adds
@@ -79,12 +79,12 @@ at
 the
 /
 /
-/
+!
 end
 .
 /
 /
-/
+!
 All
 threads
 should
