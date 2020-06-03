@@ -6559,7 +6559,7 @@ Any
 literal
 =
 "
-anyref
+externref
 "
 ;
 break
