@@ -198,6 +198,11 @@ nsIRequest
 :
 TRRMode
 aMode
+=
+nsIRequest
+:
+:
+TRR_FIRST_MODE
 )
 ;
 bool
