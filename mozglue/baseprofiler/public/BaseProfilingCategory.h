@@ -867,6 +867,15 @@ orange
 SUBCATEGORY
 (
 MEDIA
+MEDIA_CUBEB
+"
+Cubeb
+"
+)
+\
+SUBCATEGORY
+(
+MEDIA
 MEDIA_PLAYBACK
 "
 Playback
