@@ -3106,6 +3106,16 @@ GetContent
 (
 )
 ;
+if
+(
+!
+ancestor
+)
+{
+return
+false
+;
+}
 dom
 :
 :
