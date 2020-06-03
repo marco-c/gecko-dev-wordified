@@ -89,13 +89,11 @@ true
 )
 ;
 const
-{
-ExtensionBlocklist
-:
 ExtensionBlocklistMLBF
-}
 =
-Blocklist
+getExtensionBlocklistMLBF
+(
+)
 ;
 /
 /
