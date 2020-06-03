@@ -41525,6 +41525,7 @@ bool
 IsLeafOf3DContext
 (
 )
+const
 {
 return
 (
@@ -41573,6 +41574,7 @@ bool
 IsParticipating3DContext
 (
 )
+const
 {
 return
 mFrame
