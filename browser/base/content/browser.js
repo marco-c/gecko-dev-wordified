@@ -8406,7 +8406,7 @@ with
 the
 code
 in
-nsDefaultURIFixup
+URIFixup
 :
 :
 KeywordURIFixup
