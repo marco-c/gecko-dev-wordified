@@ -34470,11 +34470,9 @@ cookie
 service
 -
 >
-GetCookieStringForPrincipal
+GetCookieStringFromDocument
 (
-EffectiveStoragePrincipal
-(
-)
+this
 cookie
 )
 ;
