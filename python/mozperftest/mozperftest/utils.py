@@ -866,7 +866,10 @@ res
 .
 append
 (
+str
+(
 test
+)
 )
         
 elif
