@@ -651,7 +651,7 @@ Pass
 this
 |
 and
-function
+callee
 .
 call
 -
@@ -673,7 +673,7 @@ initFunction
 (
 callInfo
 .
-fun
+callee
 (
 )
 )

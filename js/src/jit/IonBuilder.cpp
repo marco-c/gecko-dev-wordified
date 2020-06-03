@@ -3174,7 +3174,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -7894,7 +7894,7 @@ initEnvironmentChain
 (
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -27585,7 +27585,7 @@ createThis
 target
 callInfo
 .
-fun
+callee
 (
 )
 callInfo
@@ -27684,7 +27684,7 @@ again
 except
 leave
 |
-fun
+callee
 |
 on
 stack
@@ -27707,7 +27707,7 @@ push
 (
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -31493,7 +31493,7 @@ funcDef
 =
 callInfo
 .
-fun
+callee
 (
 )
 ;
@@ -32010,7 +32010,7 @@ happens
 .
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -32104,7 +32104,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -32119,7 +32119,7 @@ constFun
 }
 callInfo
 .
-setFun
+setCallee
 (
 constFun
 )
@@ -32421,8 +32421,7 @@ following
 1
 .
 The
-call
-function
+callee
 is
 an
 MGetPropertyCache
@@ -32440,7 +32439,7 @@ MOZ_ASSERT
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -32452,7 +32451,7 @@ isGetPropertyCache
 |
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -32517,7 +32516,7 @@ MOZ_ASSERT_IF
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -32538,7 +32537,7 @@ MOZ_ASSERT_IF
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -32742,7 +32741,7 @@ preCallFuncIndex
 =
 fallbackInfo
 .
-fun
+callee
 (
 )
 )
@@ -33057,7 +33056,7 @@ if
 (
 fallbackInfo
 .
-fun
+callee
 (
 )
 -
@@ -33071,7 +33070,7 @@ MOZ_ASSERT
 (
 fallbackInfo
 .
-fun
+callee
 (
 )
 -
@@ -33109,7 +33108,7 @@ barrier
 =
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -33564,7 +33563,7 @@ propTable
 ;
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -33588,7 +33587,7 @@ alloc
 )
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -34097,7 +34096,7 @@ alloc
 )
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -34241,7 +34240,7 @@ inlineBlock
 ;
 inlineInfo
 .
-setFun
+setCallee
 (
 funcDef
 )
@@ -34264,7 +34263,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -34862,7 +34861,7 @@ if
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -34876,7 +34875,7 @@ MOZ_ASSERT
 (
 callInfo
 .
-fun
+callee
 (
 )
 =
@@ -34893,7 +34892,7 @@ barrier
 =
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -41359,7 +41358,9 @@ Alloc
 }
 /
 /
-This
+Pop
+this
+.
 MDefinition
 *
 argThis
@@ -41381,8 +41382,7 @@ argThis
 /
 /
 Pop
-function
-parameter
+callee
 .
 MDefinition
 *
@@ -41397,7 +41397,7 @@ pop
 ;
 callInfo
 .
-setFun
+setCallee
 (
 argFunc
 )
@@ -42961,7 +42961,7 @@ createThis
 target
 callInfo
 .
-fun
+callee
 (
 )
 callInfo
@@ -43573,7 +43573,7 @@ initFunction
 (
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -44296,7 +44296,7 @@ setImplicitlyUsedUnchecked
 ;
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -89680,7 +89680,7 @@ return
 inlineCallInfo_
 -
 >
-fun
+callee
 (
 )
 ;

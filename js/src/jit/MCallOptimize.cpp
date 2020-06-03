@@ -1758,7 +1758,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -4873,7 +4873,7 @@ InliningStatus_NotInlined
 }
 callInfo
 .
-fun
+callee
 (
 )
 -
