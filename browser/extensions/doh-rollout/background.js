@@ -3163,7 +3163,7 @@ experiments
 .
 trrselect
 .
-dryRun
+run
 (
 )
 ;
@@ -3172,8 +3172,6 @@ log
 "
 TRR
 selection
-dry
-run
 complete
 !
 "
