@@ -19189,6 +19189,9 @@ GetScript
 ;
 if
 (
+script
+&
+&
 JS
 :
 :
