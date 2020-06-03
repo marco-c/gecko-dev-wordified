@@ -5602,10 +5602,7 @@ inlineMathFunction
 CallInfo
 &
 callInfo
-MMathFunction
-:
-:
-Function
+UnaryMathFunction
 function
 )
 ;

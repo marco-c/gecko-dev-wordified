@@ -2450,7 +2450,7 @@ RInstruction
 {
 private
 :
-uint8_t
+UnaryMathFunction
 function_
 ;
 public
