@@ -18113,7 +18113,10 @@ n
 return
 ;
 }
-ErrorReport
+JS
+:
+:
+ErrorReportBuilder
 report
 (
 cx
@@ -18128,10 +18131,10 @@ init
 (
 cx
 exnStack
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects
@@ -18146,7 +18149,10 @@ out
 of
 memory
 initializing
-ErrorReport
+JS
+:
+:
+ErrorReportBuilder
 \
 n
 "

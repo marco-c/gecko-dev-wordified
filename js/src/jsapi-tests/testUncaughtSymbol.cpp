@@ -249,10 +249,10 @@ isSymbol
 )
 )
 ;
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 report
 (
 cx
@@ -266,10 +266,10 @@ init
 (
 cx
 exnStack
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects

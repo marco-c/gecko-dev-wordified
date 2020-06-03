@@ -3544,10 +3544,10 @@ toObject
 )
 ;
 }
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 report
 (
 aCx
@@ -3615,10 +3615,10 @@ init
 (
 aCx
 unwrapped
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 NoSideEffects
