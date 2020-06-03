@@ -16589,6 +16589,14 @@ found
 true
 ;
 return
+obj
+-
+>
+isNative
+(
+)
+&
+&
 NativeGetPureInline
 (
 &
