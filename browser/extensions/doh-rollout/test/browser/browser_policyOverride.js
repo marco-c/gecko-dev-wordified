@@ -190,14 +190,12 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+DOH_TRR_SELECT_URI_PREF
 )
 undefined
 "
 TRR
 selection
-dry
-run
 not
 performed
 .
