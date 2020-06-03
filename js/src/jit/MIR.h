@@ -62202,8 +62202,12 @@ classOpcode
 object
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+!
+JitOptions
+.
+warpBuilder
 object
 -
 >
