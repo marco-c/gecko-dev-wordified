@@ -976,12 +976,12 @@ actions
 includes
 (
 "
-AXPick
+AXPress
 "
 )
 "
 Has
-pick
+press
 action
 "
 )
@@ -1002,7 +1002,7 @@ dewey
 performAction
 (
 "
-AXPick
+AXPress
 "
 )
 ;
