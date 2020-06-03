@@ -2333,8 +2333,6 @@ nsITransfer
 nsresult
 CreateFailedTransfer
 (
-bool
-aIsPrivateBrowsing
 )
 ;
 /
