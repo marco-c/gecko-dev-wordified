@@ -3814,6 +3814,17 @@ Window
 ;
 BrowsingContext
 *
+GetBrowsingContext
+(
+)
+{
+return
+this
+;
+}
+;
+BrowsingContext
+*
 Self
 (
 )
