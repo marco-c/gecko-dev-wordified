@@ -89,7 +89,7 @@ Principal
 >
 GetURI
 is
-depricated
+deprecated
 and
 will
 be
@@ -136,7 +136,7 @@ Principal
 >
 GetURI
 is
-depricated
+deprecated
 and
 will
 be

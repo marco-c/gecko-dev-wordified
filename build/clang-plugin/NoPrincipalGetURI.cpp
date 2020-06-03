@@ -203,7 +203,7 @@ Principal
 >
 GetURI
 is
-depricated
+deprecated
 and
 will
 be
