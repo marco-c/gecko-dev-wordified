@@ -740,11 +740,14 @@ string
 >
 mRemoteMid
 ;
-Maybe
+std
+:
+:
+set
 <
 uint32_t
 >
-mRemoteMidBinding
+mRemoteMidBindings
 ;
 /
 /
