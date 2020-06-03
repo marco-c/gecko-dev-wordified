@@ -480,16 +480,24 @@ _srcdir
 =
 srcdir
         
+import
+copy
+        
 self
 .
 _clang_tidy_config
 =
+copy
+.
+deepcopy
+(
 clang_tidy_config
 [
 '
 clang_checkers
 '
 ]
+)
         
 #
 Transform
