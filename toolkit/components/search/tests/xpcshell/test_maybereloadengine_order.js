@@ -218,7 +218,6 @@ search
 .
 init
 (
-false
 )
 ;
 await
@@ -240,13 +239,9 @@ SearchTestUtils
 promiseSearchNotification
 (
 "
-ensure
+engines
 -
-known
--
-region
--
-done
+reloaded
 "
 )
 ;
