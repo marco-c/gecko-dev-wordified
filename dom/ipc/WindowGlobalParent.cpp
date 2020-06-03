@@ -5678,7 +5678,7 @@ aStateFlags
 )
 =
 =
-mMixedContentSecurityState
+aStateFlags
 )
 {
 return
