@@ -3988,8 +3988,6 @@ nullptr
 Update
 the
 layersId
-or
-renderroot
 if
 we
 have
