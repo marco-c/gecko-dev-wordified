@@ -629,13 +629,13 @@ packet
 networkInfo
 :
 {
-_type
+type
 :
 res
 .
 networkInfo
 .
-_type
+type
 actor
 :
 res

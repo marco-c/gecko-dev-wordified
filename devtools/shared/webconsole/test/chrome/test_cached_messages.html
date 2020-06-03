@@ -242,11 +242,6 @@ expectedPageErrors
 =
 [
 {
-_type
-:
-"
-PageError
-"
 errorMessage
 :
 /
@@ -280,11 +275,6 @@ warning
 true
 }
 {
-_type
-:
-"
-PageError
-"
 errorMessage
 :
 /
@@ -476,11 +466,6 @@ expectedConsoleCalls
 =
 [
 {
-_type
-:
-"
-ConsoleAPI
-"
 level
 :
 "
@@ -522,11 +507,6 @@ undefined
 ]
 }
 {
-_type
-:
-"
-ConsoleAPI
-"
 level
 :
 "
@@ -568,11 +548,6 @@ null
 ]
 }
 {
-_type
-:
-"
-ConsoleAPI
-"
 level
 :
 "
@@ -1008,7 +983,9 @@ messages
 for
 (
 const
-msg
+{
+message
+}
 of
 msgs
 )
@@ -1028,7 +1005,7 @@ expected
 functionName
 =
 =
-msg
+message
 .
 functionName
 &
@@ -1039,7 +1016,7 @@ filename
 .
 test
 (
-msg
+message
 .
 filename
 )
@@ -1059,7 +1036,7 @@ expected
 ;
 checkConsoleAPICall
 (
-msg
+message
 expected
 )
 ;
@@ -1219,7 +1196,9 @@ errors
 for
 (
 const
-msg
+{
+pageError
+}
 of
 msgs
 )
@@ -1239,7 +1218,7 @@ expected
 category
 =
 =
-msg
+pageError
 .
 category
 &
@@ -1250,7 +1229,7 @@ errorMessage
 .
 test
 (
-msg
+pageError
 .
 errorMessage
 )
@@ -1270,7 +1249,7 @@ expected
 ;
 checkObject
 (
-msg
+pageError
 expected
 )
 ;
