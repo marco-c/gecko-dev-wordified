@@ -251,6 +251,11 @@ OriginAttributes
 h
 '
 '
+PrincipalHashKey
+.
+h
+'
+'
 SystemPrincipal
 .
 h
