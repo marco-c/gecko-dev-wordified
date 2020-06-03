@@ -1102,8 +1102,6 @@ Selector
 string
 [
 ]
-|
-null
 >
 }
 *

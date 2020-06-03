@@ -1420,15 +1420,6 @@ current
 browser
 .
 *
-This
-method
-was
-added
-in
-Firefox
-72
-.
-*
 returns
 {
 string
