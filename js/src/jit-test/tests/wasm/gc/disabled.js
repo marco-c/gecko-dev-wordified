@@ -70,6 +70,7 @@ drop
 ref
 .
 null
+extern
 )
 )
 )
@@ -115,6 +116,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -157,6 +159,7 @@ anyref
 ref
 .
 is_null
+extern
 (
 local
 .
