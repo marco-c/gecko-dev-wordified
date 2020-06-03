@@ -2832,12 +2832,6 @@ SimdOp
 :
 V8x16Shuffle
 :
-case
-SimdOp
-:
-:
-V8x16ShuffleLegacy
-:
 WASM_SIMD_OP
 (
 OpKind

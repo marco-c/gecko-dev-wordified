@@ -92971,15 +92971,6 @@ uint32_t
 SimdOp
 :
 :
-V8x16ShuffleLegacy
-)
-:
-case
-uint32_t
-(
-SimdOp
-:
-:
 V8x16Shuffle
 )
 :
