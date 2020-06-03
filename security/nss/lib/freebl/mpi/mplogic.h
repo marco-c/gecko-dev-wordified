@@ -297,6 +297,7 @@ mpl_num_set
 mp_int
 *
 a
+unsigned
 int
 *
 num
@@ -315,6 +316,7 @@ mpl_num_clear
 mp_int
 *
 a
+unsigned
 int
 *
 num

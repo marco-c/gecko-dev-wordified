@@ -118,6 +118,9 @@ signed
 int
 vec_s32
 ;
+#
+ifdef
+__VSX__
 typedef
 __vector
 unsigned
@@ -132,6 +135,8 @@ long
 long
 vec_s64
 ;
+#
+endif
 typedef
 __vector
 float

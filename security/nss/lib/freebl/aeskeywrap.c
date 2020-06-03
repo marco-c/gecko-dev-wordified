@@ -85,6 +85,13 @@ h
 endif
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 prcpucfg
 .
@@ -1534,7 +1541,7 @@ PRUint32
 val
 )
 {
-int
+size_t
 i
 ;
 for
@@ -1587,7 +1594,7 @@ val
 =
 0
 ;
-int
+size_t
 i
 ;
 for

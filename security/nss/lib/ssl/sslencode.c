@@ -454,6 +454,18 @@ set
 *
 /
 }
+if
+(
+len
+>
+0
+)
+{
+PORT_Assert
+(
+data
+)
+;
 PORT_Memcpy
 (
 SSL_BUFFER_NEXT
@@ -464,6 +476,7 @@ data
 len
 )
 ;
+}
 b
 -
 >

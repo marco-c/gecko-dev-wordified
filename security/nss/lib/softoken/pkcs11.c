@@ -17246,6 +17246,7 @@ SFTKSlot
 *
 slot
 ;
+unsigned
 int
 index
 =
@@ -17408,6 +17409,7 @@ sftk_RegisterSlot
 SFTKSlot
 *
 slot
+unsigned
 int
 moduleIndex
 )
@@ -17925,6 +17927,7 @@ updateID
 sftk_token_parameters
 *
 params
+unsigned
 int
 moduleIndex
 )
@@ -18478,6 +18481,7 @@ updateID
 sftk_token_parameters
 *
 params
+unsigned
 int
 moduleIndex
 )
@@ -20733,6 +20737,7 @@ static
 void
 nscFreeAllSlots
 (
+unsigned
 int
 moduleIndex
 )
@@ -20972,6 +20977,7 @@ SFTKSlot
 *
 slot
 ;
+unsigned
 int
 moduleIndex
 =
@@ -21079,6 +21085,7 @@ pReserved
 int
 i
 ;
+unsigned
 int
 moduleIndex
 =
@@ -22716,6 +22723,7 @@ CK_SLOT_ID_PTR
 pSlotList
 CK_ULONG_PTR
 pulCount
+unsigned
 int
 moduleIndex
 )
@@ -27751,7 +27759,7 @@ isFIPS
 PR_FALSE
 ;
 unsigned
-long
+int
 moduleIndex
 =
 NSC_NON_FIPS_MODULE
