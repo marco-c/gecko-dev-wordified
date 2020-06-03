@@ -502,9 +502,12 @@ originAttributes
 .
 firstPartyDomain
 "
+(
+http
 example
 .
 net
+)
 "
 "
 We
