@@ -2269,13 +2269,6 @@ input
 isPrivate
 &
 &
-this
-.
-input
-.
-openViewOnFocus
-&
-&
 !
 this
 .
