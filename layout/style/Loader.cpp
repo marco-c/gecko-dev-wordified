@@ -16453,7 +16453,6 @@ No
 aParsingMode
 aUseSystemPrincipal
 nullptr
-nullptr
 referrerInfo
 nullptr
 CORS_NONE
@@ -16511,7 +16510,6 @@ No
 aParsingMode
 aUseSystemPrincipal
 nullptr
-nullptr
 referrerInfo
 aObserver
 CORS_NONE
@@ -16539,9 +16537,6 @@ nsIURI
 aURL
 IsPreload
 aIsPreload
-nsIPrincipal
-*
-aOriginPrincipal
 const
 Encoding
 *
@@ -16591,7 +16586,6 @@ UseSystemPrincipal
 :
 :
 No
-aOriginPrincipal
 aPreloadEncoding
 aReferrerInfo
 aObserver
@@ -16622,9 +16616,6 @@ SheetParsingMode
 aParsingMode
 UseSystemPrincipal
 aUseSystemPrincipal
-nsIPrincipal
-*
-aOriginPrincipal
 const
 Encoding
 *
@@ -16738,10 +16729,6 @@ nsIPrincipal
 >
 loadingPrincipal
 =
-(
-aOriginPrincipal
-&
-&
 mDocument
 ?
 mDocument
@@ -16752,7 +16739,6 @@ NodePrincipal
 )
 :
 nullptr
-)
 ;
 nsresult
 rv
@@ -16760,7 +16746,7 @@ rv
 CheckContentPolicy
 (
 loadingPrincipal
-aOriginPrincipal
+loadingPrincipal
 aURL
 mDocument
 EmptyString
@@ -16800,7 +16786,7 @@ CreateSheet
 (
 aURL
 nullptr
-aOriginPrincipal
+loadingPrincipal
 aParsingMode
 aCORSMode
 aReferrerInfo
@@ -16846,7 +16832,7 @@ aUseSystemPrincipal
 aIsPreload
 aPreloadEncoding
 aObserver
-aOriginPrincipal
+loadingPrincipal
 aReferrerInfo
 mDocument
 )
