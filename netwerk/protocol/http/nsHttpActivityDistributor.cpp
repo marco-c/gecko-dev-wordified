@@ -105,6 +105,13 @@ h
 #
 include
 "
+nsHttpHandler
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -113,6 +120,13 @@ h
 include
 "
 nsIOService
+.
+h
+"
+#
+include
+"
+nsQueryObject
 .
 h
 "
