@@ -2077,12 +2077,6 @@ PrintError
 (
 cx
 stderr
-JS
-:
-:
-ConstUTF8CharsZ
-(
-)
 reportp
 true
 )
