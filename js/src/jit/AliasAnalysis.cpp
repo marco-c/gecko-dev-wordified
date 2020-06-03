@@ -829,6 +829,15 @@ MDefinition
 Opcode
 :
 :
+LoadDataViewElement
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 StoreElement
 :
 case

@@ -3473,7 +3473,7 @@ load
 >
 setResultType
 (
-MIRTypeForTypedArrayRead
+MIRTypeForArrayBufferViewRead
 (
 elementType
 true
