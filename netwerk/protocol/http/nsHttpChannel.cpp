@@ -15527,7 +15527,7 @@ consoleErrorTag
 NS_LITERAL_STRING
 (
 "
-DeprecatedTLSVersion
+DeprecatedTLSVersion2
 "
 )
 ;
