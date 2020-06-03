@@ -151,7 +151,7 @@ defineLazyModuleGetters
 (
 this
 {
-GeckoViewLoginStorage
+GeckoViewAutocomplete
 :
 "
 resource
@@ -162,7 +162,7 @@ gre
 /
 modules
 /
-GeckoViewLoginStorage
+GeckoViewAutocomplete
 .
 jsm
 "
@@ -192,7 +192,7 @@ gre
 /
 modules
 /
-GeckoViewLoginStorage
+GeckoViewAutocomplete
 .
 jsm
 "
@@ -427,7 +427,7 @@ recordPasswordUse
 login
 )
 {
-GeckoViewLoginStorage
+GeckoViewAutocomplete
 .
 onLoginPasswordUsed
 (
@@ -714,7 +714,7 @@ let
 candidateLogins
 =
 await
-GeckoViewLoginStorage
+GeckoViewAutocomplete
 .
 fetchLogins
 (

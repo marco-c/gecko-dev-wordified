@@ -115,6 +115,11 @@ GeckoViewActorChild
 jsm
 '
 '
+GeckoViewAutocomplete
+.
+jsm
+'
+'
 GeckoViewAutofill
 .
 jsm
@@ -141,11 +146,6 @@ jsm
 '
 '
 GeckoViewContentBlockingController
-.
-jsm
-'
-'
-GeckoViewLoginStorage
 .
 jsm
 '
