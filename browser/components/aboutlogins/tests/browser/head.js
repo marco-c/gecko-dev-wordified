@@ -512,7 +512,7 @@ add_task
 (
 async
 function
-setup
+setup_head
 (
 )
 {
@@ -933,6 +933,14 @@ await
 db
 .
 clear
+(
+)
+;
+Services
+.
+telemetry
+.
+clearEvents
 (
 )
 ;
