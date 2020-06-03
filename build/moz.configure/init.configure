@@ -3540,6 +3540,15 @@ virtualenv_python3
 .
 str_version
 )
+add_old_configure_assignment
+(
+'
+PYTHON3
+'
+virtualenv_python3
+.
+path
+)
 #
 Inject
 mozconfig
