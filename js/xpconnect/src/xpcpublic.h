@@ -3538,6 +3538,9 @@ mIsWarning
 bool
 mIsMuted
 ;
+bool
+mIsPromiseRejection
+;
 ErrorReport
 (
 )
@@ -3551,6 +3554,10 @@ mIsWarning
 false
 )
 mIsMuted
+(
+false
+)
+mIsPromiseRejection
 (
 false
 )
