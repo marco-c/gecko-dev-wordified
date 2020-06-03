@@ -453,6 +453,11 @@ defaultSelectFirstNode
 PropTypes
 .
 bool
+useQuotes
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -476,6 +481,9 @@ false
 cropLimit
 :
 1024
+useQuotes
+:
+true
 }
 ;
 }
@@ -1094,6 +1102,7 @@ targetSearchResult
 selectPath
 cropLimit
 defaultSelectFirstNode
+useQuotes
 }
 =
 this
@@ -1160,8 +1169,6 @@ decorator
 enableInput
 expandableStrings
 useQuotes
-:
-true
 expandedNodes
 :
 expandedNodes
