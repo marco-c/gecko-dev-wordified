@@ -565,7 +565,6 @@ mDocumentL10n
 >
 InitialTranslationCompleted
 (
-true
 )
 ;
 mPromise
@@ -601,7 +600,6 @@ mDocumentL10n
 >
 InitialTranslationCompleted
 (
-false
 )
 ;
 mPromise
@@ -716,7 +714,6 @@ Failed
 {
 InitialTranslationCompleted
 (
-false
 )
 ;
 mReady
@@ -758,7 +755,6 @@ documentElement
 {
 InitialTranslationCompleted
 (
-false
 )
 ;
 mReady
@@ -795,7 +791,6 @@ Failed
 {
 InitialTranslationCompleted
 (
-false
 )
 ;
 mReady
@@ -879,7 +874,6 @@ completed
 .
 InitialTranslationCompleted
 (
-true
 )
 ;
 mReady
@@ -1119,7 +1113,7 @@ proto
 1
 .
 Move
-eslements
+elements
 that
 are
 not
@@ -1626,8 +1620,6 @@ DocumentL10n
 :
 InitialTranslationCompleted
 (
-bool
-aL10nCached
 )
 {
 if
@@ -1678,7 +1670,6 @@ mDocument
 >
 InitialTranslationCompleted
 (
-aL10nCached
 )
 ;
 /

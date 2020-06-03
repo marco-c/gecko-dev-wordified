@@ -2645,13 +2645,11 @@ nsXULPrototypeDocument
 :
 SetIsL10nCached
 (
-bool
-aIsCached
 )
 {
 mWasL10nCached
 =
-aIsCached
+true
 ;
 }
 void
