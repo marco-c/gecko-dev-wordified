@@ -294,7 +294,7 @@ class
 RenderRootStateManager
 ;
 struct
-RenderRootDisplayListData
+DisplayListData
 ;
 }
 /
@@ -2477,7 +2477,7 @@ Finalize
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 &
 aOutTransaction
 )

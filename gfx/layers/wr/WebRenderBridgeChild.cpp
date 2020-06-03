@@ -622,10 +622,10 @@ EndTransaction
 (
 nsTArray
 <
-RenderRootDisplayListData
+DisplayListData
 >
 &
-aRenderRoots
+aDisplayListData
 TransactionId
 aTransactionId
 bool
@@ -689,12 +689,12 @@ for
 (
 auto
 &
-renderRoot
+datum
 :
-aRenderRoots
+aDisplayListData
 )
 {
-renderRoot
+datum
 .
 mCommands
 =
@@ -706,7 +706,7 @@ move
 mParentCommands
 )
 ;
-renderRoot
+datum
 .
 mIdNamespace
 =
@@ -750,7 +750,7 @@ std
 :
 move
 (
-aRenderRoots
+aDisplayListData
 )
 mDestroyedActors
 GetFwdTransactionId

@@ -413,10 +413,10 @@ EndTransaction
 (
 nsTArray
 <
-RenderRootDisplayListData
+DisplayListData
 >
 &
-aRenderRoots
+aDisplayListData
 TransactionId
 aTransactionId
 bool

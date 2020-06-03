@@ -407,7 +407,7 @@ struct
 TileClient
 ;
 struct
-RenderRootDisplayListData
+DisplayListData
 ;
 struct
 RenderRootUpdates
@@ -5407,7 +5407,7 @@ mozilla
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 )
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (
