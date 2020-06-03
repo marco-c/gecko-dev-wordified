@@ -1111,12 +1111,6 @@ sourceBuffer
 }
 MOZ_MUST_USE
 bool
-publishDeferredFunctions
-(
-)
-;
-MOZ_MUST_USE
-bool
 instantiateStencils
 (
 )
