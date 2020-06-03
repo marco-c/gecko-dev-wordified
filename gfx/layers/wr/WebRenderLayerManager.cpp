@@ -1543,10 +1543,7 @@ EndCanvasTransaction
 AutoTArray
 <
 RenderRootUpdates
-wr
-:
-:
-kRenderRootCount
+1
 >
 renderRootUpdates
 ;

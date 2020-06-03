@@ -775,16 +775,7 @@ Raw
 WebRenderMallocSizeOf
 &
 WebRenderMallocEnclosingSizeOf
-(
-uint32_t
-)
-wr
-:
-:
-RenderRoot
-:
-:
-Default
+0
 compositor
 -
 >
