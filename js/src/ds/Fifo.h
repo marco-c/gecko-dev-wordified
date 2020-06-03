@@ -1241,6 +1241,10 @@ length
 (
 )
 ;
+fixup
+(
+)
+;
 return
 erased
 ;
