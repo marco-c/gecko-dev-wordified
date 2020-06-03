@@ -7419,7 +7419,7 @@ RootedPlainObject
 templateObject
 (
 cx
-NewObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 PlainObject
 >
