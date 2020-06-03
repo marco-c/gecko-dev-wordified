@@ -654,6 +654,17 @@ unnecessary
 syntax
 highlight
 .
+if
+(
+this
+?
+.
+editor
+?
+.
+hasCodeMirror
+)
+{
 this
 .
 editor
@@ -672,6 +683,7 @@ setText
 text
 )
 ;
+}
 if
 (
 this
