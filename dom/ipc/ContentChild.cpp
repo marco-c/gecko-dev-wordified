@@ -25972,7 +25972,7 @@ BrowsingContext
 &
 aContext
 const
-ClonedMessageData
+ClonedOrErrorMessageData
 &
 aMessage
 const
