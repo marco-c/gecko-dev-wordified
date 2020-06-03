@@ -12422,6 +12422,12 @@ funbox
 >
 initWithEnclosingScope
 (
+this
+-
+>
+compilationInfo_
+.
+scopeContext
 enclosingScope
 fun
 -
@@ -18952,6 +18958,14 @@ funbox
 >
 initWithEnclosingScope
 (
+this
+-
+>
+getCompilationInfo
+(
+)
+.
+scopeContext
 fun
 -
 >
