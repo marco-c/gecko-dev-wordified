@@ -88,6 +88,7 @@ run
 ref
 .
 is_null
+func
 )
 (
 export
@@ -590,7 +591,7 @@ passive
 or
 active
 '
-anyref
+funcref
 '
 assertEq
 (
@@ -606,7 +607,7 @@ i32
 const
 0
 )
-anyref
+funcref
 (
 ref
 .
@@ -616,7 +617,7 @@ referenced
 )
 '
 '
-anyref
+funcref
 '
 )
 instanceof
@@ -633,7 +634,7 @@ validFuncRefText
 '
 (
 elem
-anyref
+funcref
 (
 ref
 .
@@ -643,7 +644,7 @@ referenced
 )
 '
 '
-anyref
+funcref
 '
 )
 instanceof
@@ -1443,6 +1444,7 @@ f
 ref
 .
 null
+func
 )
 (
 ref
@@ -1454,6 +1456,7 @@ g
 ref
 .
 null
+func
 )
 (
 ref

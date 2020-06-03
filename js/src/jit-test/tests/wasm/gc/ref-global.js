@@ -94,6 +94,8 @@ point
 ref
 .
 null
+opt
+point
 )
 )
 (
@@ -111,6 +113,8 @@ point
 ref
 .
 null
+opt
+point
 )
 )
 (
@@ -125,6 +129,8 @@ point
 ref
 .
 null
+opt
+point
 )
 )
 ;
@@ -222,6 +228,8 @@ g2
 ref
 .
 null
+opt
+point
 )
 )
 )
@@ -331,6 +339,8 @@ point
 ref
 .
 null
+opt
+point
 )
 )
 (
@@ -424,6 +434,8 @@ glob
 ref
 .
 null
+opt
+point
 )
 )
 )
@@ -723,7 +735,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 obj
@@ -964,6 +976,8 @@ box
 ref
 .
 null
+opt
+box
 )
 )
 )

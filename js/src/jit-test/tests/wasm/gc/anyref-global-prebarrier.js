@@ -110,6 +110,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (

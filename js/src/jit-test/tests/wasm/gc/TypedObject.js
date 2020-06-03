@@ -368,6 +368,8 @@ p
 ref
 .
 null
+opt
+q
 )
 )
 )
@@ -392,6 +394,7 @@ r
 ref
 .
 null
+extern
 )
 )
 )
@@ -631,11 +634,14 @@ p
 ref
 .
 null
+opt
+q
 )
 (
 ref
 .
 null
+extern
 )
 )
 )
@@ -1016,6 +1022,7 @@ i32
 ref
 .
 is_null
+extern
 (
 struct
 .
@@ -1050,6 +1057,7 @@ i32
 ref
 .
 is_null
+extern
 (
 struct
 .

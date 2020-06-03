@@ -54,7 +54,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 )
@@ -90,7 +90,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 )
@@ -151,7 +151,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 null
@@ -200,7 +200,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 obj
@@ -243,7 +243,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 1337
@@ -280,7 +280,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 13
@@ -321,7 +321,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 "
@@ -365,7 +365,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 true
@@ -403,7 +403,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 Symbol
@@ -453,7 +453,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 undefined
@@ -497,7 +497,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 mutable
 :
@@ -620,7 +620,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 nom
@@ -661,7 +661,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 mutable
 :

@@ -27,7 +27,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :

@@ -47,6 +47,7 @@ funcref
 ref
 .
 null
+func
 )
 )
 (
@@ -217,6 +218,7 @@ get
 ref
 .
 is_null
+func
 )
 (
 export

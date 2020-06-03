@@ -2301,6 +2301,8 @@ big
 ref
 .
 null
+opt
+big
 )
 )
 (
@@ -2874,6 +2876,8 @@ cons
 ref
 .
 null
+opt
+cons
 )
 )
 (
@@ -2983,6 +2987,8 @@ i32
 ref
 .
 is_null
+opt
+cons
 (
 global
 .

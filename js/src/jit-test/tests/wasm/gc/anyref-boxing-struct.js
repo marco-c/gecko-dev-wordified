@@ -464,6 +464,7 @@ S
 ref
 .
 null
+extern
 )
 )
 )
@@ -607,6 +608,7 @@ S
 ref
 .
 null
+extern
 )
 )
 )
@@ -893,6 +895,7 @@ S
 ref
 .
 null
+extern
 )
 )
 )
@@ -994,6 +997,7 @@ S
 ref
 .
 null
+extern
 )
 )
 )

@@ -243,6 +243,8 @@ wabbit
 ref
 .
 null
+opt
+wabbit
 )
 )
 (
@@ -387,11 +389,15 @@ tmp
 ref
 .
 null
+opt
+wabbit
 )
 (
 ref
 .
 null
+opt
+wabbit
 )
 )
 (
@@ -510,6 +516,8 @@ i32
 ref
 .
 is_null
+opt
+wabbit
 (
 local
 .
@@ -632,6 +640,8 @@ eqz
 ref
 .
 is_null
+opt
+wabbit
 (
 local
 .
@@ -821,6 +831,8 @@ eqz
 ref
 .
 is_null
+opt
+wabbit
 (
 local
 .
@@ -1433,6 +1445,8 @@ f
 ref
 .
 null
+opt
+node
 )
 )
 )
@@ -2021,6 +2035,8 @@ const
 ref
 .
 null
+opt
+node
 )
 )
 )
@@ -2206,6 +2222,8 @@ const
 ref
 .
 null
+opt
+node2a
 )
 )
 )
@@ -2919,6 +2937,8 @@ i32
 ref
 .
 is_null
+opt
+node
 (
 struct
 .
@@ -4019,6 +4039,7 @@ body
 :
 [
 RefNullCode
+AnyrefCode
 GcPrefix
 StructNarrow
 I32Code
@@ -4051,6 +4072,7 @@ body
 :
 [
 RefNullCode
+AnyrefCode
 GcPrefix
 StructNarrow
 AnyrefCode
@@ -4309,6 +4331,8 @@ f
 ref
 .
 null
+opt
+node
 )
 )
 )
@@ -4416,6 +4440,8 @@ f
 ref
 .
 null
+opt
+node
 )
 )
 )

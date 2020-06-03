@@ -324,6 +324,7 @@ anyref
 ref
 .
 null
+extern
 )
 (
 func

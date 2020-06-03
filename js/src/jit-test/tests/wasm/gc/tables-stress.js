@@ -123,6 +123,7 @@ tbl
 ref
 .
 null
+extern
 )
 (
 i32
