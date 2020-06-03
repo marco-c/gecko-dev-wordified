@@ -1546,6 +1546,12 @@ clearAllImageCaches
 (
 )
 ;
+gTabsPanel
+.
+init
+(
+)
+;
 /
 /
 Make

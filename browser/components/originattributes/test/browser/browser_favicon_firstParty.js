@@ -1893,6 +1893,12 @@ tabInfo
 tab
 )
 ;
+gTabsPanel
+.
+init
+(
+)
+;
 /
 /
 Make
