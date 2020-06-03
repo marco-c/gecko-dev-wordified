@@ -1422,6 +1422,7 @@ cosmeticAnimations
 .
 enabled
 "
+true
 )
 )
 {
