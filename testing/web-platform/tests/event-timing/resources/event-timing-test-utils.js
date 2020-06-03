@@ -304,7 +304,7 @@ ms
 "
 )
 ;
-assert_greater_than
+assert_greater_than_equal
 (
 entry
 .
@@ -322,6 +322,9 @@ should
 be
 greater
 than
+or
+equal
+to
 startTime
 .
 "
