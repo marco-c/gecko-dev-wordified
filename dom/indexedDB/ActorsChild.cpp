@@ -5272,12 +5272,6 @@ class
 MOZ_STACK_CLASS
 FileHandleResultHelper
 final
-:
-public
-IDBFileRequest
-:
-:
-ResultCallback
 {
 IDBFileRequest
 *
@@ -5390,9 +5384,10 @@ FileHandle
 )
 ;
 }
-virtual
 nsresult
-GetResult
+operator
+(
+)
 (
 JSContext
 *
@@ -5409,7 +5404,7 @@ Value
 >
 aResult
 )
-override
+const
 {
 MOZ_ASSERT
 (
@@ -5557,6 +5552,7 @@ Value
 >
 aResult
 )
+const
 {
 const
 nsCString
@@ -6242,8 +6238,9 @@ IsOpen
 fileRequest
 -
 >
-SetResultCallback
+SetResult
 (
+*
 aResultHelper
 )
 ;
