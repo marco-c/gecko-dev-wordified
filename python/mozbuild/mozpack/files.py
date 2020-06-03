@@ -1545,11 +1545,10 @@ open
 (
 )
         
-copy_content
+accumulated_src_content
 =
-b
-'
-'
+[
+]
         
 while
 True
@@ -1573,10 +1572,12 @@ read
 32768
 )
             
-copy_content
-+
-=
+accumulated_src_content
+.
+append
+(
 src_content
+)
             
 if
 len
@@ -1645,7 +1646,14 @@ dest
 .
 write
 (
-copy_content
+b
+'
+'
+.
+join
+(
+accumulated_src_content
+)
 )
                 
 shutil
