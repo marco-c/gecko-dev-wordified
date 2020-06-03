@@ -303,13 +303,8 @@ constexpr
 size_t
 EstimatedMemoryUse
 =
-100
+1256
 ;
-/
-/
-FIXME
-:
-compute
 ULocaleDisplayNames
 *
 getLocaleDisplayNames
