@@ -1153,7 +1153,7 @@ isArrow
 ;
 }
 void
-ScriptStencilBase
+ScriptStencil
 :
 :
 trace

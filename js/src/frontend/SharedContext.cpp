@@ -1764,7 +1764,7 @@ get
 .
 is
 <
-ScriptStencilBase
+ScriptStencil
 >
 (
 )
@@ -2765,7 +2765,7 @@ HasModuleGoal
 }
 MutableHandle
 <
-ScriptStencilBase
+ScriptStencil
 >
 FunctionBox
 :
@@ -2785,7 +2785,7 @@ funcDataIndex_
 .
 as
 <
-ScriptStencilBase
+ScriptStencil
 >
 (
 )

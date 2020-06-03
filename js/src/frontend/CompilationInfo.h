@@ -247,7 +247,7 @@ Variant
 <
 JSFunction
 *
-ScriptStencilBase
+ScriptStencil
 >
 ;
 /

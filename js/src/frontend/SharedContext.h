@@ -2472,7 +2472,7 @@ cx
 ;
 MutableHandle
 <
-ScriptStencilBase
+ScriptStencil
 >
 functionStencil
 (
