@@ -153,6 +153,17 @@ IdType
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+WindowGlobalTypes
+.
+h
+"
 namespace
 mozilla
 {

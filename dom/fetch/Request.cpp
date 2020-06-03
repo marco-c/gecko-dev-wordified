@@ -215,6 +215,17 @@ include
 "
 mozilla
 /
+dom
+/
+WindowContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
