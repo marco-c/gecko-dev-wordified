@@ -2781,6 +2781,8 @@ emitLoadTypedArrayLengthResult
 (
 ObjOperandId
 objId
+uint32_t
+getterOffset
 )
 {
 MDefinition
