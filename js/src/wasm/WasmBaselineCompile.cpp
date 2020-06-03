@@ -2219,7 +2219,7 @@ t
 MIRType
 :
 :
-Int8x16
+Simd128
 "
 Float
 mask
@@ -2318,7 +2318,7 @@ RegTypeOf
 MIRType
 :
 :
-Int8x16
+Simd128
 >
 {
 static
@@ -5575,7 +5575,7 @@ hasFPU
 MIRType
 :
 :
-Int8x16
+Simd128
 >
 (
 )
@@ -5597,7 +5597,7 @@ allocFPU
 MIRType
 :
 :
-Int8x16
+Simd128
 >
 (
 )
@@ -7971,7 +7971,7 @@ case
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 #
 endif
@@ -24925,7 +24925,7 @@ slot
 MIRType
 :
 :
-Int8x16
+Simd128
 )
 dest
 )
@@ -35553,7 +35553,7 @@ case
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 fr
 .
@@ -38051,7 +38051,7 @@ next
 MIRType
 :
 :
-Int8x16
+Simd128
 )
 ;
 switch
@@ -65167,7 +65167,7 @@ case
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 {
 RegV128
@@ -68015,7 +68015,7 @@ slot
 MIRType
 :
 :
-Int8x16
+Simd128
 )
 )
 ;
@@ -93197,7 +93197,7 @@ V128
 Scalar
 :
 :
-V128
+Simd128
 )
 )
 ;
@@ -93421,7 +93421,7 @@ V128
 Scalar
 :
 :
-V128
+Simd128
 )
 )
 ;

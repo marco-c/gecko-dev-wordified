@@ -24396,7 +24396,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 MOZ_CRASH
 (
@@ -26161,7 +26161,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 MOZ_CRASH
 (

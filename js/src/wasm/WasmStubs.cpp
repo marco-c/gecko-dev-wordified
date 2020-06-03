@@ -2531,7 +2531,7 @@ case
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 #
 ifdef
@@ -2830,7 +2830,7 @@ case
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 {
 #
@@ -11776,7 +11776,7 @@ type
 MIRType
 :
 :
-Int8x16
+Simd128
 )
 {
 ScratchSimd128Scope
@@ -12699,7 +12699,7 @@ type
 MIRType
 :
 :
-Int8x16
+Simd128
 )
 {
 /
@@ -13107,7 +13107,7 @@ type
 MIRType
 :
 :
-Int8x16
+Simd128
 )
 {
 /

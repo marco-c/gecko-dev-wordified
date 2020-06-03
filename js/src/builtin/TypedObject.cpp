@@ -1852,7 +1852,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 case
 Scalar
@@ -2181,7 +2181,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 case
 Scalar
@@ -6379,7 +6379,7 @@ alignment
 Scalar
 :
 :
-V128
+Simd128
 )
 fieldType
 -

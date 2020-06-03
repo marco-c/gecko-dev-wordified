@@ -68170,10 +68170,13 @@ type
 )
 |
 |
-IsSimdType
-(
 type
-)
+=
+=
+MIRType
+:
+:
+Simd128
 |
 |
 type

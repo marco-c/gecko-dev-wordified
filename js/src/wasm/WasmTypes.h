@@ -3499,7 +3499,7 @@ jit
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 tc_
 =
@@ -4496,7 +4496,7 @@ jit
 MIRType
 :
 :
-Int8x16
+Simd128
 ;
 case
 ValType

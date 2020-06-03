@@ -4791,7 +4791,7 @@ jit
 MIRType
 :
 :
-Int8x16
+Simd128
 :
 vp
 .

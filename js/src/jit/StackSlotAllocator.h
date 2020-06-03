@@ -663,13 +663,7 @@ case
 LDefinition
 :
 :
-SIMD128INT
-:
-case
-LDefinition
-:
-:
-SIMD128FLOAT
+SIMD128
 :
 return
 16
