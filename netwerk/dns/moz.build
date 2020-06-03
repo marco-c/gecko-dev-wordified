@@ -267,6 +267,11 @@ TRRService
 h
 '
 '
+TRRServiceBase
+.
+h
+'
+'
 TRRServiceChild
 .
 h
@@ -371,6 +376,11 @@ cpp
 '
 '
 TRRService
+.
+cpp
+'
+'
+TRRServiceBase
 .
 cpp
 '
