@@ -301,6 +301,7 @@ else
 define
 PROFILER_MARKER
 (
+tag
 sample
 )
 #
