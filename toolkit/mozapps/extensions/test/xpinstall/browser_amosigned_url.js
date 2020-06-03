@@ -298,9 +298,10 @@ undefined
 }
 )
 ;
-install
+return
+addon
 .
-cancel
+uninstall
 (
 )
 ;

@@ -277,9 +277,10 @@ installTelemetryInfo
 "
 )
 ;
-install
+return
+addon
 .
-cancel
+uninstall
 (
 )
 ;
