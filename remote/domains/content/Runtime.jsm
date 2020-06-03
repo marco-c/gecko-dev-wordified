@@ -2833,6 +2833,13 @@ ctx
 windowId
 )
 ;
+if
+(
+this
+.
+enabled
+)
+{
 this
 .
 emit
@@ -2844,6 +2851,7 @@ executionContextsCleared
 "
 )
 ;
+}
 }
 }
 }
