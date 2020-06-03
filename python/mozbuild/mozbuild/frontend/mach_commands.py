@@ -1767,7 +1767,7 @@ open
 (
 components_json
 '
-wb
+w
 '
 )
 as
@@ -1820,7 +1820,7 @@ open
 (
 missing_json
 '
-wb
+w
 '
 )
 as
@@ -1882,7 +1882,7 @@ open
 (
 indexed_components_json
 '
-wb
+w
 '
 )
 as
