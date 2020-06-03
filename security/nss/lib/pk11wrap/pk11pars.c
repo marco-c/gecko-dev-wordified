@@ -5818,7 +5818,7 @@ on
 /
 if
 (
-secmod_GetSystemFIPSEnabled
+SECMOD_GetSystemFIPSEnabled
 (
 )
 )

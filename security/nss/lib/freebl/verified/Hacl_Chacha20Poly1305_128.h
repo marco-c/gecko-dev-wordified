@@ -286,7 +286,7 @@ uint8_t
 k
 uint8_t
 *
-n1
+n
 uint32_t
 aadlen
 uint8_t
@@ -313,7 +313,7 @@ uint8_t
 k
 uint8_t
 *
-n1
+n
 uint32_t
 aadlen
 uint8_t

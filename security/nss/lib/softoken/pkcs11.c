@@ -3466,6 +3466,9 @@ Operations
 -
 *
 /
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 {
 CKM_SEED_KEY_GEN
 {
@@ -3521,8 +3524,7 @@ CKF_EN_DE_WR_UN
 PR_TRUE
 }
 #
-ifndef
-NSS_DISABLE_CHACHAPOLY
+endif
 /
 *
 -
@@ -3576,6 +3578,9 @@ Operations
 -
 *
 /
+#
+ifndef
+NSS_DISABLE_CHACHAPOLY
 {
 CKM_NSS_CHACHA20_KEY_GEN
 {
@@ -4653,6 +4658,9 @@ CKF_DERIVE
 }
 PR_FALSE
 }
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 {
 CKM_SEED_ECB_ENCRYPT_DATA
 {
@@ -4671,6 +4679,8 @@ CKF_DERIVE
 }
 PR_FALSE
 }
+#
+endif
 /
 *
 -

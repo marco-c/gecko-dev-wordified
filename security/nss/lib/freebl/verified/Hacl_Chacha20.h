@@ -258,6 +258,7 @@ Hacl_Kremlib
 h
 "
 extern
+const
 uint32_t
 Hacl_Impl_Chacha20_Vec_chacha20_constants
 [
@@ -280,7 +281,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -301,7 +302,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )

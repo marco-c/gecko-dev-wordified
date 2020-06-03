@@ -1894,7 +1894,7 @@ uint8_t
 k
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -2087,7 +2087,7 @@ uint8_t
 *
 bj
 =
-n1
+n
 +
 i
 *
@@ -2249,7 +2249,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -2289,12 +2289,12 @@ chacha20_init_256
 (
 ctx
 key
-n1
+n
 ctr
 )
 ;
 uint32_t
-rem1
+rem
 =
 len
 %
@@ -2314,7 +2314,7 @@ uint32_t
 512U
 ;
 uint32_t
-rem2
+rem1
 =
 len
 %
@@ -3224,7 +3224,7 @@ y
 }
 if
 (
-rem2
+rem1
 >
 (
 uint32_t
@@ -3272,7 +3272,7 @@ memcpy
 (
 plain
 uu____3
-rem1
+rem
 *
 sizeof
 (
@@ -4140,7 +4140,7 @@ memcpy
 (
 uu____2
 plain
-rem1
+rem
 *
 sizeof
 (
@@ -4169,7 +4169,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -4209,12 +4209,12 @@ chacha20_init_256
 (
 ctx
 key
-n1
+n
 ctr
 )
 ;
 uint32_t
-rem1
+rem
 =
 len
 %
@@ -4234,7 +4234,7 @@ uint32_t
 512U
 ;
 uint32_t
-rem2
+rem1
 =
 len
 %
@@ -5144,7 +5144,7 @@ y
 }
 if
 (
-rem2
+rem1
 >
 (
 uint32_t
@@ -5192,7 +5192,7 @@ memcpy
 (
 plain
 uu____3
-rem1
+rem
 *
 sizeof
 (
@@ -6060,7 +6060,7 @@ memcpy
 (
 uu____2
 plain
-rem1
+rem
 *
 sizeof
 (

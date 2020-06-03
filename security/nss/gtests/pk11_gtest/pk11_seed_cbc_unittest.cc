@@ -409,6 +409,9 @@ decrypted
 }
 }
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 /
 /
 The
@@ -583,6 +586,8 @@ CKM_SEED_ECB
 )
 ;
 }
+#
+endif
 }
 /
 /
