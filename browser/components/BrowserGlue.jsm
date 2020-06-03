@@ -624,6 +624,13 @@ wantUntrusted
 :
 true
 }
+AboutLoginsExportPasswords
+:
+{
+wantUntrusted
+:
+true
+}
 }
 }
 matches

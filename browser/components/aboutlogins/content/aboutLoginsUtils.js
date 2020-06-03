@@ -78,7 +78,7 @@ the
 event
 .
 *
-params
+param
 {
 object
 }
@@ -90,7 +90,7 @@ telemety
 event
 method
 *
-params
+param
 {
 object
 }
@@ -102,7 +102,7 @@ telemety
 event
 object
 *
-params
+param
 {
 object
 }
