@@ -1841,7 +1841,7 @@ link
 Autocomplete
 .
 LoginStorageDelegate
-.
+#
 onLoginFetch
 onLoginFetch
 }
@@ -7198,7 +7198,7 @@ link
 Autocomplete
 .
 LoginStorageDelegate
-.
+#
 onLoginFetch
 onLoginFetch
 }
