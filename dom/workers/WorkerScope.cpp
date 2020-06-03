@@ -1036,7 +1036,7 @@ owner
 of
 itself
 .
-BindToOwner
+BindToOwnerInternal
 (
 static_cast
 <
