@@ -41,7 +41,7 @@ an
 xpcshell
 test
 for
-clearStorageForPrincipal
+clearStoragesForPrincipal
 .
 It
 verifies
@@ -244,7 +244,7 @@ cache
 installPackage
 (
 "
-clearStorageForPrincipal_profile
+clearStoragesForPrincipal_profile
 "
 )
 ;
