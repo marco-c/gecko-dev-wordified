@@ -23897,14 +23897,14 @@ ensureDoubleRegister
 (
 masm
 inputId
-FloatReg0
+scratch
 )
 ;
 masm
 .
 absDouble
 (
-FloatReg0
+scratch
 scratch
 )
 ;
