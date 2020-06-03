@@ -314,24 +314,12 @@ sh
 "
                      
 "
-2dcontext
-/
-"
-                     
-"
 infrastructure
 /
 "
                      
 "
 html
-/
-"
-                     
-"
-offscreen
--
-canvas
 /
 "
                      
