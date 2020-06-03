@@ -1673,7 +1673,6 @@ WebRenderAnimationData
 >
 (
 aItem
-aRenderRoot
 )
 ;
 AnimationInfo
@@ -40597,11 +40596,6 @@ WebRenderAPZAnimationData
 >
 (
 this
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 mWrAnimationId

@@ -741,11 +741,6 @@ CreateOrRecycleWebRenderUserData
 nsDisplayItem
 *
 aItem
-wr
-:
-:
-RenderRoot
-aRenderRoot
 bool
 *
 aOutIsRecycled
