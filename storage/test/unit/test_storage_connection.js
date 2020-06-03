@@ -7167,7 +7167,7 @@ equal
 db
 .
 variableLimit
-999
+32766
 "
 Should
 return
