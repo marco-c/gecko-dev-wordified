@@ -493,7 +493,7 @@ NSString
 *
 _Nullable
 )
-moxAriaCurrent
+moxARIACurrent
 ;
 /
 /
@@ -526,7 +526,7 @@ NSString
 *
 _Nullable
 )
-moxDomIdentifier
+moxDOMIdentifier
 ;
 /
 /

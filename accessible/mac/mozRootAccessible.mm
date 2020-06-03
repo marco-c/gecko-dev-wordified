@@ -389,7 +389,7 @@ numberWithBool
 [
 [
 self
-window
+moxWindow
 ]
 isMainWindow
 ]
@@ -412,7 +412,7 @@ numberWithBool
 [
 [
 self
-window
+moxWindow
 ]
 isMiniaturized
 ]
@@ -446,7 +446,7 @@ about
 (
 id
 )
-parent
+moxParent
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
@@ -503,7 +503,7 @@ view
 return
 [
 super
-parent
+moxParent
 ]
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL

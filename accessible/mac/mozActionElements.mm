@@ -392,7 +392,7 @@ mozPopupButtonAccessible
 NSString
 *
 )
-title
+moxTitle
 {
 /
 /
@@ -584,7 +584,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 NSArray
 *
 )
-children
+moxChildren
 {
 if
 (
@@ -625,7 +625,7 @@ return
 return
 [
 super
-children
+moxChildren
 ]
 ;
 }
@@ -966,7 +966,7 @@ kUnchecked
 (
 id
 )
-value
+moxValue
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
@@ -1076,7 +1076,7 @@ attribute
 NSArray
 *
 )
-children
+moxChildren
 {
 if
 (

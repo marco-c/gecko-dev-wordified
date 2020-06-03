@@ -366,7 +366,7 @@ return
 [
 [
 self
-children
+moxChildren
 ]
 filteredArrayUsingPredicate
 :
@@ -430,7 +430,7 @@ return
 [
 [
 self
-children
+moxChildren
 ]
 filteredArrayUsingPredicate
 :
@@ -896,7 +896,7 @@ NSAccessibilityContentsAttribute
 return
 [
 super
-children
+moxChildren
 ]
 ;
 if
@@ -927,7 +927,7 @@ attribute
 (
 id
 )
-value
+moxValue
 {
 /
 /
@@ -975,7 +975,7 @@ mozTabAccessible
 NSString
 *
 )
-roleDescription
+moxRoleDescription
 {
 return
 utils
@@ -1043,7 +1043,7 @@ action
 (
 id
 )
-value
+moxValue
 {
 /
 /
@@ -1222,7 +1222,7 @@ mozOptionAccessible
 NSString
 *
 )
-title
+moxTitle
 {
 return
 "
@@ -1233,7 +1233,7 @@ return
 (
 id
 )
-value
+moxValue
 {
 /
 /
@@ -1254,7 +1254,7 @@ AXStaticText
 return
 [
 super
-title
+moxTitle
 ]
 ;
 }
@@ -1266,7 +1266,7 @@ mozMenuAccessible
 NSString
 *
 )
-title
+moxTitle
 {
 return
 "
@@ -1278,7 +1278,7 @@ return
 NSString
 *
 )
-accessibilityLabel
+moxLabel
 {
 return
 "
@@ -1406,7 +1406,7 @@ mozMenuItemAccessible
 NSString
 *
 )
-accessibilityLabel
+moxLabel
 {
 return
 "
@@ -1769,7 +1769,7 @@ mozAccessible
 )
 [
 self
-parent
+moxParent
 ]
 ;
 [
