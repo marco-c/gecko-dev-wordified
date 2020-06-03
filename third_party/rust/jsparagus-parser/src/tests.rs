@@ -1598,7 +1598,6 @@ left_parser
 .
 write_token
 (
-&
 left_token
 )
 .
@@ -1610,7 +1609,6 @@ right_parser
 .
 write_token
 (
-&
 right_token
 )
 .
@@ -1822,7 +1820,6 @@ parser
 .
 write_token
 (
-&
 t
 )
 .

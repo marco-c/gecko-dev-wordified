@@ -32,6 +32,9 @@ mod
 function
 ;
 mod
+function_declaration_emitter
+;
+mod
 gcthings
 ;
 mod
@@ -53,9 +56,6 @@ regexp
 ;
 mod
 scope_notes
-;
-mod
-script_atom_set
 ;
 mod
 script_emitter
@@ -675,7 +675,7 @@ Opcode
 GetGName
 as
 u8
-0
+1
 0
 0
 0
@@ -685,7 +685,7 @@ Opcode
 GImplicitThis
 as
 u8
-0
+1
 0
 0
 0

@@ -2487,6 +2487,7 @@ h
 '
 )
     
+#
 extract_enum
 (
 types
@@ -2494,7 +2495,8 @@ paths
 '
 GeneratorKind
 '
-                 
+    
+#
 filename
 =
 '
@@ -2504,6 +2506,7 @@ h
 '
 )
     
+#
 extract_enum
 (
 types
@@ -2511,7 +2514,8 @@ paths
 '
 FunctionAsyncKind
 '
-                 
+    
+#
 filename
 =
 '
@@ -3041,7 +3045,7 @@ u32
 ty
 =
 '
-ScriptAtomSetIndex
+GCThingIndex
 '
         
 if
