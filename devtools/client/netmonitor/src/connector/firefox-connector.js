@@ -587,9 +587,13 @@ TYPES
 .
 DOCUMENT_EVENTS
 ]
+{
+onAvailable
+:
 this
 .
 onResourceAvailable
+}
 )
 ;
 }
@@ -673,9 +677,13 @@ TYPES
 .
 DOCUMENT_EVENTS
 ]
+{
+onAvailable
+:
 this
 .
 onResourceAvailable
+}
 )
 ;
 if

@@ -527,7 +527,11 @@ TYPES
 .
 ERROR_MESSAGES
 ]
+{
+onAvailable
+:
 onErrorMessageAvailable
+}
 )
 ;
 for
@@ -691,7 +695,11 @@ TYPES
 .
 ERROR_MESSAGES
 ]
+{
+onAvailable
+:
 onErrorMessageAvailable
+}
 )
 ;
 await

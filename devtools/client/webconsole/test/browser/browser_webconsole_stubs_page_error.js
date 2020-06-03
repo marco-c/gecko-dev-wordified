@@ -521,7 +521,11 @@ TYPES
 .
 ERROR_MESSAGES
 ]
+{
+onAvailable
+:
 onErrorMessageAvailable
+}
 )
 ;
 for

@@ -149,7 +149,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 info
@@ -217,7 +219,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 err
 =
@@ -250,7 +254,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 info
@@ -317,7 +323,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 err
 =

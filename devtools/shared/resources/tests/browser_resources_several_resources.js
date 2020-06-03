@@ -296,7 +296,9 @@ watch
 CONSOLE_MESSAGES
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 info
@@ -483,7 +485,9 @@ unwatch
 [
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 /
@@ -626,7 +630,9 @@ unwatch
 [
 CONSOLE_MESSAGES
 ]
+{
 onAvailable
+}
 )
 ;
 await

@@ -267,6 +267,9 @@ TYPES
 .
 DOCUMENT_EVENTS
 ]
+{
+onAvailable
+:
 parameters
 =
 >
@@ -276,6 +279,7 @@ dispatch
 (
 parameters
 )
+}
 )
 ;
 await
