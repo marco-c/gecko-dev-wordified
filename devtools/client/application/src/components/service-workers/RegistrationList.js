@@ -356,6 +356,13 @@ page__title
 ul
 (
 {
+className
+:
+"
+registrations
+-
+container__list
+"
 }
 registrations
 .
