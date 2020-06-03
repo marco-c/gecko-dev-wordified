@@ -3999,9 +3999,10 @@ ValType
 I64
 &
 &
+!
 v
 .
-isNumber
+isBigInt
 (
 )
 )
