@@ -341,7 +341,7 @@ browser
 /
 content
 /
-webrtcIndicator
+webrtcLegacyIndicator
 .
 xhtml
 "
