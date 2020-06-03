@@ -360,6 +360,11 @@ Uncaught
 GripMessageBody
 (
 {
+key
+:
+"
+body
+"
 dispatch
 messageId
 grip
@@ -396,6 +401,11 @@ StringRep
 rep
 (
 {
+key
+:
+"
+bodytext
+"
 object
 :
 messageText
