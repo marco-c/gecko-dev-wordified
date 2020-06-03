@@ -70,9 +70,7 @@ function
 (
 {
 targetList
-targetType
 targetFront
-isTopLevel
 onAvailable
 }
 )
@@ -123,9 +121,13 @@ bug
 const
 isAllowed
 =
+targetFront
+.
 isTopLevel
 |
 |
+targetFront
+.
 targetType
 =
 =

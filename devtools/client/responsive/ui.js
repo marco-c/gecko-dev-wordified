@@ -7223,13 +7223,14 @@ async
 onTargetAvailable
 (
 {
-isTopLevel
 targetFront
 }
 )
 {
 if
 (
+targetFront
+.
 isTopLevel
 )
 {

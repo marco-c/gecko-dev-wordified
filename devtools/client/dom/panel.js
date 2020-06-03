@@ -716,8 +716,7 @@ onTargetAvailable
 function
 (
 {
-isTopLevel
-isTargetSwitching
+targetFront
 }
 )
 {
@@ -734,6 +733,8 @@ targets
 if
 (
 !
+targetFront
+.
 isTopLevel
 )
 {
