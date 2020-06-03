@@ -159,6 +159,9 @@ null
 innerWindowID
 :
 null
+targetFront
+:
+null
 allowRepeating
 :
 true
@@ -261,6 +264,9 @@ id
 :
 null
 actor
+:
+null
+targetFront
 :
 null
 level
