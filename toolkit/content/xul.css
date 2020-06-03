@@ -1563,19 +1563,6 @@ enabled
 "
 )
 {
-media
-(
-prefers
--
-reduced
--
-motion
-:
-no
--
-preference
-)
-{
 %
 ifdef
 MOZ_WIDGET_COCOA
@@ -2169,7 +2156,6 @@ none
 }
 %
 endif
-}
 }
 panel
 [
