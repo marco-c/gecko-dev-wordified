@@ -109,10 +109,6 @@ BufferReader
 .
 h
 "
-using
-namespace
-mozilla
-;
 TEST
 (
 BufferReader
