@@ -10104,18 +10104,6 @@ FAILURE
 53
 )
     
-errors
-[
-"
-NS_ERROR_XPC_CANT_PASS_CPOW_TO_NATIVE
-"
-]
-=
-FAILURE
-(
-54
-)
-    
 #
 any
 new
