@@ -739,6 +739,12 @@ ClearEntireCache
 (
 )
 ;
+static
+uint32_t
+ModeFromPrefs
+(
+)
+;
 bool
 mInitialized
 ;
