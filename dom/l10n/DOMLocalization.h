@@ -363,9 +363,6 @@ aRv
 void
 GetAttributes
 (
-JSContext
-*
-aCx
 Element
 &
 aElement
@@ -718,9 +715,6 @@ aErrors
 void
 ConvertStringToL10nArgs
 (
-JSContext
-*
-aCx
 const
 nsString
 &

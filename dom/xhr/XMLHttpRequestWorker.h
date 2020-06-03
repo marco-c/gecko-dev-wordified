@@ -698,9 +698,6 @@ virtual
 void
 Send
 (
-JSContext
-*
-aCx
 const
 Nullable
 <

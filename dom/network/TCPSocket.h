@@ -499,9 +499,6 @@ CloseImmediately
 bool
 Send
 (
-JSContext
-*
-aCx
 const
 nsACString
 &
@@ -514,9 +511,6 @@ aRv
 bool
 Send
 (
-JSContext
-*
-aCx
 const
 ArrayBuffer
 &

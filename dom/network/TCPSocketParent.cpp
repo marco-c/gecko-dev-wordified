@@ -849,7 +849,6 @@ mSocket
 >
 Send
 (
-autoCx
 data
 0
 byteLength
@@ -882,7 +881,6 @@ mSocket
 >
 Send
 (
-nullptr
 strData
 rv
 )

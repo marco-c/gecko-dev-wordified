@@ -872,9 +872,6 @@ DOMLocalization
 :
 GetAttributes
 (
-JSContext
-*
-aCx
 Element
 &
 aElement
@@ -934,7 +931,6 @@ l10nArgs
 {
 ConvertStringToL10nArgs
 (
-aCx
 l10nArgs
 aResult
 .
@@ -1708,7 +1704,6 @@ nullptr
 }
 GetAttributes
 (
-cx
 *
 domElement
 *
@@ -3289,9 +3284,6 @@ DOMLocalization
 :
 ConvertStringToL10nArgs
 (
-JSContext
-*
-aCx
 const
 nsString
 &

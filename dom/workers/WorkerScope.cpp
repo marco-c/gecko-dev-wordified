@@ -3115,9 +3115,6 @@ WorkerGlobalScope
 :
 CreateImageBitmap
 (
-JSContext
-*
-aCx
 const
 ImageBitmapSource
 &
@@ -3151,9 +3148,6 @@ WorkerGlobalScope
 :
 CreateImageBitmap
 (
-JSContext
-*
-aCx
 const
 ImageBitmapSource
 &

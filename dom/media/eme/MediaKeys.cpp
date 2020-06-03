@@ -3587,9 +3587,6 @@ MediaKeys
 :
 CreateSession
 (
-JSContext
-*
-aCx
 MediaKeySessionType
 aSessionType
 ErrorResult
@@ -3609,10 +3606,6 @@ p
 :
 CreateSession
 (
-aCx
-=
-%
-p
 aSessionType
 =
 %
@@ -3622,7 +3615,6 @@ PRIu8
 )
 "
 this
-aCx
 static_cast
 <
 uint8_t
@@ -3729,7 +3721,6 @@ session
 new
 MediaKeySession
 (
-aCx
 GetParentObject
 (
 )
@@ -3791,10 +3782,6 @@ p
 :
 CreateSession
 (
-aCx
-=
-%
-p
 aSessionType
 =
 %
@@ -3815,7 +3802,6 @@ into
 mPendingSessions
 "
 this
-aCx
 static_cast
 <
 uint8_t
