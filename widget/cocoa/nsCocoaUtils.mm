@@ -3993,6 +3993,16 @@ BeginWriting
 (
 )
 )
+range
+:
+NSMakeRange
+(
+0
+[
+aSrc
+length
+]
+)
 ]
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK
