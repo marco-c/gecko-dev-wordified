@@ -145,11 +145,10 @@ dom
 /
 nsISupports
 implementation
-NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
+NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED_0
 (
 XMLStylesheetProcessingInstruction
 ProcessingInstruction
-nsIStyleSheetLinkingElement
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -163,7 +162,7 @@ ProcessingInstruction
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Traverse
@@ -180,7 +179,7 @@ ProcessingInstruction
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Unlink
@@ -367,7 +366,7 @@ Yes
 }
 /
 /
-nsStyleLinkElement
+LinkStyle
 void
 XMLStylesheetProcessingInstruction
 :
@@ -418,7 +417,7 @@ aNewBaseURI
 }
 Maybe
 <
-nsStyleLinkElement
+LinkStyle
 :
 :
 SheetInfo

@@ -201,7 +201,7 @@ mozilla
 /
 dom
 /
-MutationObservers
+LinkStyle
 .
 h
 "
@@ -223,6 +223,17 @@ mozilla
 /
 dom
 /
+MutationObservers
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SRILogHelper
 .
 h
@@ -233,13 +244,6 @@ include
 mozilla
 /
 StoragePrincipalHelper
-.
-h
-"
-#
-include
-"
-nsStyleLinkElement
 .
 h
 "
@@ -3697,7 +3701,7 @@ aAs
 uint32_t
 linkTypes
 =
-nsStyleLinkElement
+LinkStyle
 :
 :
 ParseLinkTypes
@@ -3796,7 +3800,7 @@ if
 (
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 eNEXT
@@ -3806,7 +3810,7 @@ eNEXT
 (
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 ePREFETCH
@@ -3835,7 +3839,7 @@ IsEmpty
 (
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 eDNS_PREFETCH
@@ -3861,7 +3865,7 @@ IsEmpty
 (
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 ePRECONNECT
@@ -3879,7 +3883,7 @@ if
 (
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 ePRELOAD
@@ -3914,7 +3918,7 @@ if
 (
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 eSTYLESHEET
@@ -3930,7 +3934,7 @@ isAlternate
 =
 linkTypes
 &
-nsStyleLinkElement
+LinkStyle
 :
 :
 eALTERNATE

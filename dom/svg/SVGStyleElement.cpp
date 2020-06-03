@@ -293,7 +293,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 SVGStyleElement
 SVGStyleElementBase
-nsIStyleSheetLinkingElement
 nsIMutationObserver
 )
 NS_IMPL_CYCLE_COLLECTION_CLASS
@@ -308,7 +307,7 @@ SVGStyleElementBase
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Traverse
@@ -325,7 +324,7 @@ SVGStyleElementBase
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Unlink
@@ -1409,7 +1408,7 @@ nsStyleLinkElement
 methods
 Maybe
 <
-nsStyleLinkElement
+LinkStyle
 :
 :
 SheetInfo

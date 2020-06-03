@@ -300,13 +300,6 @@ h
 #
 include
 "
-nsIStyleSheetLinkingElement
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h
@@ -322,13 +315,6 @@ h
 include
 "
 nsStyleConsts
-.
-h
-"
-#
-include
-"
-nsStyleLinkElement
 .
 h
 "
@@ -545,7 +531,7 @@ nsGenericHTMLElement
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Traverse
@@ -570,7 +556,7 @@ nsGenericHTMLElement
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Unlink
@@ -590,7 +576,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLLinkElement
 nsGenericHTMLElement
-nsIStyleSheetLinkingElement
 Link
 )
 NS_IMPL_ELEMENT_CLONE
@@ -2634,7 +2619,7 @@ ToLinkMask
 in
 /
 /
-nsStyleLinkElement
+LinkStyle
 .
 cpp
 .
@@ -2701,7 +2686,7 @@ sync
 with
 ToLinkMask
 in
-nsStyleLinkElement
+LinkStyle
 .
 cpp
 .
@@ -2921,7 +2906,7 @@ GetHrefURIForAnchors
 }
 Maybe
 <
-nsStyleLinkElement
+LinkStyle
 :
 :
 SheetInfo

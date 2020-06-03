@@ -419,13 +419,6 @@ h
 #
 include
 "
-nsIStyleSheetLinkingElement
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -441,13 +434,6 @@ h
 include
 "
 nsIScriptContext
-.
-h
-"
-#
-include
-"
-nsStyleLinkElement
 .
 h
 "
