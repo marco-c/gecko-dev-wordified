@@ -138,7 +138,7 @@ x03
 \
 x07
 \
-xb5
+xb8
 \
 x80
 \
@@ -164,7 +164,7 @@ x00
 \
 x01
 \
-x0a
+x0d
 \
 x67
 \
@@ -174,11 +174,17 @@ x74
 \
 x2d
 \
-x61
+x65
+\
+x78
+\
+x74
+\
+x65
+\
+x72
 \
 x6e
-\
-x79
 \
 x72
 \
@@ -286,7 +292,7 @@ x00
 \
 x0a
 \
-xbf
+xc0
 \
 x80
 \
@@ -398,7 +404,7 @@ x01
 \
 x0b
 \
-x87
+x88
 \
 x80
 \
@@ -419,6 +425,8 @@ x10
 x03
 \
 xd1
+\
+x70
 \
 x0b
 "
@@ -444,7 +452,7 @@ call
 init
 "
 [
-hostref
+externref
 (
 1
 )
@@ -471,7 +479,7 @@ call
 "
 get
 -
-anyref
+externref
 "
 [
 0
@@ -499,13 +507,13 @@ call
 "
 get
 -
-anyref
+externref
 "
 [
 1
 ]
 )
-hostref
+externref
 (
 1
 )
@@ -614,7 +622,7 @@ call
 "
 get
 -
-anyref
+externref
 "
 [
 2
@@ -668,7 +676,7 @@ call
 "
 get
 -
-anyref
+externref
 "
 [
 -
