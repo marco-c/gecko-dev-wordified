@@ -11282,6 +11282,9 @@ driver
 #
 ifdef
 EARLY_BETA_OR_EARLIER
+#
+ifndef
+NIGHTLY_BUILD
 APPEND_TO_DRIVER_BLOCKLIST_RANGE
 (
 OperatingSystem
@@ -11471,6 +11474,8 @@ driver
 "
 )
 ;
+#
+endif
 #
 else
 APPEND_TO_DRIVER_BLOCKLIST2
