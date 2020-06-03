@@ -1776,7 +1776,7 @@ mPrincipal
 (
 aLoadData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 )
 mReferrerInfo
 (
@@ -1954,7 +1954,7 @@ nsICSSLoaderObserver
 aObserver
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -2071,9 +2071,9 @@ mObserver
 (
 aObserver
 )
-mLoaderPrincipal
+mTriggeringPrincipal
 (
-aLoaderPrincipal
+aTriggeringPrincipal
 )
 mReferrerInfo
 (
@@ -2147,7 +2147,7 @@ nsICSSLoaderObserver
 aObserver
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -2273,9 +2273,9 @@ mObserver
 (
 aObserver
 )
-mLoaderPrincipal
+mTriggeringPrincipal
 (
-aLoaderPrincipal
+aTriggeringPrincipal
 )
 mReferrerInfo
 (
@@ -2365,7 +2365,7 @@ nsICSSLoaderObserver
 aObserver
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -2472,9 +2472,9 @@ mObserver
 (
 aObserver
 )
-mLoaderPrincipal
+mTriggeringPrincipal
 (
-aLoaderPrincipal
+aTriggeringPrincipal
 )
 mReferrerInfo
 (
@@ -3451,7 +3451,7 @@ GetPrincipal
 !
 aData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 )
 |
 |
@@ -3465,7 +3465,7 @@ GetPrincipal
 &
 aData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 &
 &
 NS_SUCCEEDED
@@ -3481,7 +3481,7 @@ Equals
 (
 aData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 &
 debugEqual
 )
@@ -6506,7 +6506,7 @@ principal
 ;
 if
 (
-mLoaderPrincipal
+mTriggeringPrincipal
 &
 &
 mSheet
@@ -6525,7 +6525,7 @@ subsumed
 ;
 result
 =
-mLoaderPrincipal
+mTriggeringPrincipal
 -
 >
 Subsumes
@@ -6794,7 +6794,7 @@ true
 ;
 if
 (
-mLoaderPrincipal
+mTriggeringPrincipal
 )
 {
 bool
@@ -6802,7 +6802,7 @@ subsumed
 ;
 result
 =
-mLoaderPrincipal
+mTriggeringPrincipal
 -
 >
 Subsumes
@@ -7822,7 +7822,7 @@ nsIContent
 aLinkingContent
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 css
 :
 :
@@ -7995,7 +7995,7 @@ SheetLoadDataHashKey
 key
 (
 aURI
-aLoaderPrincipal
+aTriggeringPrincipal
 aLoadingReferrerInfo
 aCORSMode
 aParsingMode
@@ -9726,7 +9726,7 @@ mRequestingNode
 &
 aLoadData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 )
 {
 rv
@@ -9745,7 +9745,7 @@ aLoadData
 mRequestingNode
 aLoadData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 securityFlags
 contentPolicyType
 )
@@ -10714,7 +10714,7 @@ mRequestingNode
 &
 aLoadData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 )
 {
 rv
@@ -10733,7 +10733,7 @@ aLoadData
 mRequestingNode
 aLoadData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 securityFlags
 contentPolicyType
 /

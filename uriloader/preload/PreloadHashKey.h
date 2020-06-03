@@ -78,7 +78,7 @@ mozilla
 /
 css
 /
-SheetLoadData
+SheetParsingMode
 .
 h
 "
@@ -120,6 +120,13 @@ nsIReferrerInfo
 namespace
 mozilla
 {
+namespace
+css
+{
+class
+SheetLoadData
+;
+}
 /
 *
 *
@@ -387,7 +394,6 @@ css
 :
 SheetLoadData
 &
-aSheetLoadData
 )
 ;
 /
