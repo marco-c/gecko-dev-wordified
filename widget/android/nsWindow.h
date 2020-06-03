@@ -353,6 +353,8 @@ nsIPrincipal
 aTriggeringPrincipal
 bool
 aHasUserGesture
+bool
+aIsTopLevel
 )
 ;
 private
