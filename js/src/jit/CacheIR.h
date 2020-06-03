@@ -9112,6 +9112,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachIsConstructor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachStringChar
 (
 HandleFunction
