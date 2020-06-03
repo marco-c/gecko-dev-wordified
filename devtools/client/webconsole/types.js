@@ -233,6 +233,9 @@ false
 hasException
 :
 false
+isPromiseRejection
+:
+false
 }
 props
 )

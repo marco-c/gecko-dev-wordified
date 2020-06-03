@@ -9459,6 +9459,11 @@ cssSelectors
 pageError
 .
 cssSelectors
+isPromiseRejection
+:
+pageError
+.
+isPromiseRejection
 }
 ;
 /
