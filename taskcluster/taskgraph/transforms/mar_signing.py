@@ -919,8 +919,6 @@ get
 '
 shippable
 '
-)
-)
 #
 Then
 dep
@@ -928,6 +926,27 @@ job
 for
 '
 shippable
+'
+                
+dep_job
+.
+attributes
+.
+get
+(
+'
+nightly
+'
+)
+)
+)
+#
+lastly
+dep
+job
+for
+'
+nightly
 '
         
 signing_cert_scope

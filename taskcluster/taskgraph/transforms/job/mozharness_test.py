@@ -141,6 +141,10 @@ VARIANTS
 [
     
 '
+nightly
+'
+    
+'
 shippable
 '
     
@@ -303,7 +307,7 @@ json
 #
 for
 android
-shippable
+nightly
 we
 need
 to
@@ -361,6 +365,9 @@ platform
 )
 in
 (
+"
+nightly
+"
 '
 shippable
 '

@@ -5038,6 +5038,23 @@ check_run_on_projects
 )
 :
             
+if
+attr
+(
+'
+nightly
+'
+)
+and
+not
+self
+.
+include_nightly
+:
+                
+return
+False
+            
 return
 set
 (
