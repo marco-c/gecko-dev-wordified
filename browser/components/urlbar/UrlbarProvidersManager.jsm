@@ -1244,7 +1244,9 @@ param
 {
 object
 }
+[
 controller
+]
 a
 UrlbarController
 instance
@@ -1255,6 +1257,8 @@ startQuery
 (
 queryContext
 controller
+=
+null
 )
 {
 logger
@@ -3384,6 +3388,13 @@ break
 ;
 }
 }
+if
+(
+this
+.
+controller
+)
+{
 this
 .
 controller
@@ -3395,6 +3406,7 @@ this
 context
 )
 ;
+}
 }
 }
 /
