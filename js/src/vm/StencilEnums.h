@@ -1703,6 +1703,25 @@ IsDerivedClassConstructor
 /
 This
 function
+is
+a
+field
+initializer
+lambda
+for
+a
+class
+.
+IsFieldInitializer
+=
+1
+<
+<
+20
+/
+/
+This
+function
 has
 a
 rest
@@ -1718,7 +1737,7 @@ HasRest
 1
 <
 <
-20
+21
 /
 /
 This
@@ -1767,7 +1786,7 @@ NeedsFunctionEnvironmentObjects
 1
 <
 <
-21
+22
 /
 /
 An
@@ -1835,7 +1854,7 @@ FunctionHasExtraBodyVarScope
 1
 <
 <
-22
+23
 /
 /
 This
@@ -1919,7 +1938,7 @@ ShouldDeclareArguments
 1
 <
 <
-23
+24
 /
 /
 This
@@ -2086,7 +2105,7 @@ ArgumentsHasVarBinding
 1
 <
 <
-24
+25
 /
 /
 This
@@ -2149,7 +2168,7 @@ AlwaysNeedsArgsObj
 1
 <
 <
-25
+26
 /
 /
 This
@@ -2198,7 +2217,7 @@ HasMappedArgsObj
 1
 <
 <
-26
+27
 /
 /
 All
@@ -2242,7 +2261,7 @@ IsLikelyConstructorWrapper
 1
 <
 <
-27
+28
 }
 ;
 enum

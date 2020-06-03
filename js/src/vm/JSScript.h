@@ -13491,6 +13491,11 @@ IsDerivedClassConstructor
 )
 IMMUTABLE_FLAG_GETTER
 (
+isFieldInitializer
+IsFieldInitializer
+)
+IMMUTABLE_FLAG_GETTER
+(
 hasRest
 HasRest
 )

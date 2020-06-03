@@ -175,6 +175,7 @@ to
 methods
 .
 Method
+FieldInitializer
 ClassConstructor
 DerivedClassConstructor
 Getter
