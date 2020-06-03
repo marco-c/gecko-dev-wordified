@@ -958,6 +958,9 @@ default
 }
 :
 :
+placeholder
+:
+:
 -
 moz
 -
@@ -968,9 +971,6 @@ control
 editing
 -
 root
-:
-:
-placeholder
 :
 :
 -
@@ -4769,6 +4769,9 @@ rules
 /
 :
 :
+placeholder
+:
+:
 -
 moz
 -
@@ -4779,9 +4782,6 @@ control
 editing
 -
 root
-:
-:
-placeholder
 *
 |
 *
