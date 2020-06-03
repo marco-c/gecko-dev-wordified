@@ -2332,6 +2332,12 @@ necessary
 .
 if
 (
+!
+options
+.
+dontResetExpectedBlockingNotifications
+&
+&
 options
 .
 expectedBlockingNotifications
