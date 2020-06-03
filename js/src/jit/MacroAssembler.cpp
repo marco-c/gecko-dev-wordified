@@ -280,6 +280,15 @@ include
 "
 vm
 /
+ArrayBufferViewObject
+.
+h
+"
+#
+include
+"
+vm
+/
 FunctionFlags
 .
 h
@@ -6804,7 +6813,7 @@ constexpr
 size_t
 dataSlotOffset
 =
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 dataOffset

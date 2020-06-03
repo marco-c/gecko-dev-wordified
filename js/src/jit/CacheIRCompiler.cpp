@@ -238,6 +238,15 @@ include
 "
 vm
 /
+ArrayBufferViewObject
+.
+h
+"
+#
+include
+"
+vm
+/
 BigIntType
 .
 h
@@ -19788,7 +19797,7 @@ unboxInt32
 Address
 (
 obj
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 lengthOffset
@@ -36268,7 +36277,7 @@ loadPtr
 Address
 (
 obj
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 dataOffset
@@ -36376,7 +36385,7 @@ unboxInt32
 Address
 (
 obj
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 lengthOffset

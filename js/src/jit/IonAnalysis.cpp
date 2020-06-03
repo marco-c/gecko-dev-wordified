@@ -29218,7 +29218,7 @@ MDefinition
 Opcode
 :
 :
-TypedArrayElements
+ArrayBufferViewElements
 :
 MOZ_ASSERT
 (

@@ -22535,9 +22535,9 @@ void
 LIRGenerator
 :
 :
-visitTypedArrayLength
+visitArrayBufferViewLength
 (
-MTypedArrayLength
+MArrayBufferViewLength
 *
 ins
 )
@@ -22571,7 +22571,7 @@ alloc
 (
 )
 )
-LTypedArrayLength
+LArrayBufferViewLength
 (
 useRegisterAtStart
 (
@@ -22591,9 +22591,9 @@ void
 LIRGenerator
 :
 :
-visitTypedArrayByteOffset
+visitArrayBufferViewByteOffset
 (
-MTypedArrayByteOffset
+MArrayBufferViewByteOffset
 *
 ins
 )
@@ -22627,7 +22627,7 @@ alloc
 (
 )
 )
-LTypedArrayByteOffset
+LArrayBufferViewByteOffset
 (
 useRegisterAtStart
 (
@@ -22647,9 +22647,9 @@ void
 LIRGenerator
 :
 :
-visitTypedArrayElements
+visitArrayBufferViewElements
 (
-MTypedArrayElements
+MArrayBufferViewElements
 *
 ins
 )
@@ -22678,7 +22678,7 @@ alloc
 (
 )
 )
-LTypedArrayElements
+LArrayBufferViewElements
 (
 useRegisterAtStart
 (

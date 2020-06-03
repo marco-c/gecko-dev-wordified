@@ -641,7 +641,7 @@ if
 object
 -
 >
-isTypedArrayElements
+isArrayBufferViewElements
 (
 )
 )
@@ -910,7 +910,7 @@ MDefinition
 Opcode
 :
 :
-TypedArrayLength
+ArrayBufferViewLength
 :
 case
 MDefinition
@@ -919,7 +919,7 @@ MDefinition
 Opcode
 :
 :
-TypedArrayByteOffset
+ArrayBufferViewByteOffset
 :
 case
 MDefinition
@@ -1081,7 +1081,7 @@ MDefinition
 Opcode
 :
 :
-TypedArrayElements
+ArrayBufferViewElements
 :
 case
 MDefinition

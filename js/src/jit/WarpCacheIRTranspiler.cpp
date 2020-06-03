@@ -2907,7 +2907,7 @@ auto
 *
 length
 =
-MTypedArrayLength
+MArrayBufferViewLength
 :
 :
 New
@@ -3397,7 +3397,7 @@ auto
 *
 length
 =
-MTypedArrayLength
+MArrayBufferViewLength
 :
 :
 New
@@ -3425,7 +3425,7 @@ auto
 *
 elements
 =
-MTypedArrayElements
+MArrayBufferViewElements
 :
 :
 New
@@ -4119,7 +4119,7 @@ auto
 *
 length
 =
-MTypedArrayLength
+MArrayBufferViewLength
 :
 :
 New
@@ -4162,7 +4162,7 @@ auto
 *
 elements
 =
-MTypedArrayElements
+MArrayBufferViewElements
 :
 :
 New
