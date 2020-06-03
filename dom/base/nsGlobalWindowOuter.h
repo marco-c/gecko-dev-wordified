@@ -226,13 +226,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIScriptGlobalObject
 .
 h
@@ -1107,8 +1100,6 @@ public
 nsIInterfaceRequestor
 public
 PRCListStr
-public
-nsIObserver
 {
 public
 :
@@ -2010,10 +2001,6 @@ const
 /
 nsIInterfaceRequestor
 NS_DECL_NSIINTERFACEREQUESTOR
-/
-/
-nsIObserver
-NS_DECL_NSIOBSERVER
 mozilla
 :
 :
