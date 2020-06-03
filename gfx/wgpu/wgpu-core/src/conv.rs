@@ -63,7 +63,7 @@ crate
 {
 binding_model
 resource
-Features
+PrivateFeatures
 }
 ;
 pub
@@ -2394,9 +2394,9 @@ wgt
 :
 :
 TextureFormat
-features
+private_features
 :
-Features
+PrivateFeatures
 )
 -
 >
@@ -2840,7 +2840,7 @@ Depth24Plus
 >
 {
 if
-features
+private_features
 .
 supports_texture_d24_s8
 {
@@ -2865,7 +2865,7 @@ Depth24PlusStencil8
 >
 {
 if
-features
+private_features
 .
 supports_texture_d24_s8
 {
