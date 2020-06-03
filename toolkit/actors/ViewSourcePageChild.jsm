@@ -947,14 +947,6 @@ onPageShow
 event
 )
 {
-this
-.
-contentWindow
-.
-focus
-(
-)
-;
 /
 /
 If
