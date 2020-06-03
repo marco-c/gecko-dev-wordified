@@ -210,6 +210,10 @@ mHPFOn
 (
 false
 )
+mExperimentalInputProcessing
+(
+false
+)
 mNoiseOn
 (
 false
@@ -281,6 +285,9 @@ mAgcOn
 ;
 bool
 mHPFOn
+;
+bool
+mExperimentalInputProcessing
 ;
 bool
 mNoiseOn
