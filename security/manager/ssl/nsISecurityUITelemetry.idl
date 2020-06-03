@@ -868,12 +868,12 @@ were
 /
 moved
 under
-URLCLASSIFIER_UI_EVENTS
+PAGE_LOAD_ERROR
 probe
 .
 See
 bug
-1375277
+1636962
 for
 more
 information

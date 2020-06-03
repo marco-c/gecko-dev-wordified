@@ -532,6 +532,11 @@ nsDocShellLoadState
 cpp
 '
 '
+nsDocShellTelemetryUtils
+.
+cpp
+'
+'
 nsDocShellTreeOwner
 .
 cpp
