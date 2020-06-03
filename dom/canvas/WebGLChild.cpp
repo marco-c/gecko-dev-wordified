@@ -130,6 +130,10 @@ ClientWebGLContext
 context
 )
 :
+PcqActor
+(
+this
+)
 mContext
 (
 context

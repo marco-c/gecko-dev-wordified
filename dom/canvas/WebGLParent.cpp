@@ -298,9 +298,13 @@ WebGLParent
 WebGLParent
 (
 )
-=
-default
-;
+:
+PcqActor
+(
+this
+)
+{
+}
 WebGLParent
 :
 :

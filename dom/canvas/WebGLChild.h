@@ -156,6 +156,14 @@ SupportsWeakPtr
 <
 WebGLChild
 >
+public
+mozilla
+:
+:
+webgl
+:
+:
+PcqActor
 {
 public
 :
