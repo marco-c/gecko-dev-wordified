@@ -68,9 +68,9 @@ main
 import
 (
     
-COMMAND_ERROR
+COMMAND_ERROR_TEMPLATE
     
-MODULE_ERROR
+MODULE_ERROR_TEMPLATE
 )
 from
 mach
@@ -157,7 +157,11 @@ self
 .
 assertIn
 (
-COMMAND_ERROR
+COMMAND_ERROR_TEMPLATE
+%
+'
+throw
+'
 stdout
 )
     
@@ -205,7 +209,11 @@ self
 .
 assertIn
 (
-MODULE_ERROR
+MODULE_ERROR_TEMPLATE
+%
+'
+throw_deep
+'
 stdout
 )
 if
