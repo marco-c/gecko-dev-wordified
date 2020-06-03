@@ -325,12 +325,6 @@ aExternalImageId
 )
 override
 ;
-void
-MaybeDestroyRenderTexture
-(
-)
-override
-;
 uint32_t
 NumSubTextures
 (
@@ -448,6 +442,12 @@ mWrappedTextureHost
 ;
 SurfaceDescriptorGPUVideo
 mDescriptor
+;
+wr
+:
+:
+MaybeExternalImageId
+mExternalImageId
 ;
 }
 ;
