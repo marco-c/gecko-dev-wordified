@@ -197,6 +197,11 @@ GeckoViewPrompter
 .
 jsm
 '
+'
+PromptCollection
+.
+jsm
+'
 ]
 FINAL_LIBRARY
 =
