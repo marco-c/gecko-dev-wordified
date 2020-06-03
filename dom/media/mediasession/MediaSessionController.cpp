@@ -315,7 +315,7 @@ uint64_t
 aBrowsingContextId
 )
 :
-mTopLevelBCId
+mTopLevelBrowsingContextId
 (
 aBrowsingContextId
 )
@@ -365,7 +365,7 @@ MediaSessionController
 NotifySessionCreated
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 )
 {
 if
@@ -374,7 +374,7 @@ mMediaSessionInfoMap
 .
 Contains
 (
-aSessionContextId
+aBrowsingContextId
 )
 )
 {
@@ -393,14 +393,14 @@ has
 been
 created
 "
-aSessionContextId
+aBrowsingContextId
 )
 ;
 mMediaSessionInfoMap
 .
 Put
 (
-aSessionContextId
+aBrowsingContextId
 MediaSessionInfo
 :
 :
@@ -421,7 +421,7 @@ MediaSessionController
 NotifySessionDestroyed
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 )
 {
 if
@@ -431,7 +431,7 @@ mMediaSessionInfoMap
 .
 Contains
 (
-aSessionContextId
+aBrowsingContextId
 )
 )
 {
@@ -450,14 +450,14 @@ has
 been
 destroyed
 "
-aSessionContextId
+aBrowsingContextId
 )
 ;
 mMediaSessionInfoMap
 .
 Remove
 (
-aSessionContextId
+aBrowsingContextId
 )
 ;
 UpdateActiveMediaSessionContextId
@@ -472,7 +472,7 @@ MediaSessionController
 UpdateMetadata
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 const
 Maybe
 <
@@ -489,7 +489,7 @@ mMediaSessionInfoMap
 .
 Contains
 (
-aSessionContextId
+aBrowsingContextId
 )
 )
 {
@@ -504,7 +504,7 @@ mMediaSessionInfoMap
 .
 GetValue
 (
-aSessionContextId
+aBrowsingContextId
 )
 ;
 if
@@ -525,7 +525,7 @@ session
 %
 "
 PRId64
-aSessionContextId
+aBrowsingContextId
 )
 ;
 info
@@ -564,7 +564,7 @@ album
 %
 s
 "
-aSessionContextId
+aBrowsingContextId
 NS_ConvertUTF16toUTF8
 (
 (
@@ -1091,7 +1091,7 @@ CanonicalBrowsingContext
 :
 Get
 (
-mTopLevelBCId
+mTopLevelBrowsingContextId
 )
 ;
 if
@@ -1485,7 +1485,7 @@ MediaSessionController
 SetDeclaredPlaybackState
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 MediaSessionPlaybackState
 aState
 )
@@ -1497,7 +1497,7 @@ mMediaSessionInfoMap
 .
 Contains
 (
-aSessionContextId
+aBrowsingContextId
 )
 )
 {
@@ -1512,7 +1512,7 @@ mMediaSessionInfoMap
 .
 GetValue
 (
-aSessionContextId
+aBrowsingContextId
 )
 ;
 LOG
@@ -2114,7 +2114,7 @@ CanonicalBrowsingContext
 :
 Get
 (
-mTopLevelBCId
+mTopLevelBrowsingContextId
 )
 ;
 if
