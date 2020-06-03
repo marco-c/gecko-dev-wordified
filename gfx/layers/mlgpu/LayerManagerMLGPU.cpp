@@ -1206,8 +1206,6 @@ mTargetRect
 =
 aRect
 ;
-return
-;
 }
 /
 /
