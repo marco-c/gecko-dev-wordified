@@ -1465,7 +1465,6 @@ WidgetModifiersToDOMModifiers
 (
 aModifiers
 )
-true
 dom
 :
 :

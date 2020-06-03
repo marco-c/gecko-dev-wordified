@@ -8901,7 +8901,6 @@ aY
 aButton
 aClickCount
 aModifiers
-false
 MouseEvent_Binding
 :
 :
