@@ -101,6 +101,10 @@ dom
 define
 CONTROLLER_ID
 0
+#
+define
+FAKE_CONTEXT_ID
+0
 TEST
 (
 MediaController
@@ -209,6 +213,7 @@ controller
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -233,6 +238,7 @@ controller
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -257,6 +263,7 @@ controller
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -281,6 +288,7 @@ controller
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -350,6 +358,7 @@ controller1
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -374,6 +383,7 @@ controller1
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -418,6 +428,7 @@ mController
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -448,6 +459,7 @@ mController
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 aState
 )
 ;
@@ -479,6 +491,7 @@ mController
 >
 NotifyMediaAudibleChanged
 (
+FAKE_CONTEXT_ID
 aState
 )
 ;
@@ -508,6 +521,7 @@ mController
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :
@@ -520,6 +534,7 @@ mController
 >
 NotifyMediaPlaybackChanged
 (
+FAKE_CONTEXT_ID
 MediaPlaybackState
 :
 :

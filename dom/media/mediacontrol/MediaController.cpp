@@ -799,6 +799,8 @@ MediaController
 :
 NotifyMediaPlaybackChanged
 (
+uint64_t
+aBrowsingContextId
 MediaPlaybackState
 aState
 )
@@ -885,6 +887,8 @@ MediaController
 :
 NotifyMediaAudibleChanged
 (
+uint64_t
+aBrowsingContextId
 MediaAudibleState
 aState
 )

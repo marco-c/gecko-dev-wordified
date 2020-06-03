@@ -654,6 +654,8 @@ MediaControlUtils
 void
 NotifyMediaPlaybackChanged
 (
+uint64_t
+aBrowsingContextId
 MediaPlaybackState
 aState
 )
@@ -661,6 +663,8 @@ aState
 void
 NotifyMediaAudibleChanged
 (
+uint64_t
+aBrowsingContextId
 MediaAudibleState
 aState
 )
