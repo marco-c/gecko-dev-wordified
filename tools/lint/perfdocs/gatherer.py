@@ -270,7 +270,7 @@ information
 on
 the
 data
-strcture
+structure
 .
         
 '
@@ -286,7 +286,7 @@ _perfdocs_tree
 return
 self
 .
-perfdocs_tree
+_perfdocs_tree
         
 else
 :
@@ -847,7 +847,7 @@ test_list
 =
 framework_gatherer
 .
-get_suite_list
+get_test_list
 (
 )
         
