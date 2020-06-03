@@ -15050,12 +15050,9 @@ if
 (
 values_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 MOZ_ASSERT
@@ -15511,12 +15508,9 @@ if
 (
 values_
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 /
