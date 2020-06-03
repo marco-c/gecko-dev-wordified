@@ -560,10 +560,6 @@ pub
 invalidate_rendered_frame
 :
 bool
-pub
-fonts
-:
-SharedFontInstanceMap
 }
 impl
 Transaction
@@ -1670,6 +1666,9 @@ FrameBuilderConfig
 default_device_pixel_ratio
 :
 f32
+font_instances
+:
+SharedFontInstanceMap
 size_of_ops
 :
 Option
@@ -1815,6 +1814,9 @@ FrameBuilderConfig
 default_device_pixel_ratio
 :
 f32
+font_instances
+:
+SharedFontInstanceMap
 size_of_ops
 :
 Option
@@ -1866,6 +1868,7 @@ tx
 api_tx
 config
 default_device_pixel_ratio
+font_instances
 size_of_ops
 hooks
 simulate_slow_ms
@@ -4282,9 +4285,9 @@ build
 (
 &
 scene
-txn
+self
 .
-fonts
+font_instances
 .
 clone
 (
