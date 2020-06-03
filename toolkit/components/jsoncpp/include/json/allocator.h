@@ -52,10 +52,10 @@ net
 LICENSE
 #
 ifndef
-CPPTL_JSON_ALLOCATOR_H_INCLUDED
+JSON_ALLOCATOR_H_INCLUDED
 #
 define
-CPPTL_JSON_ALLOCATOR_H_INCLUDED
+JSON_ALLOCATOR_H_INCLUDED
 #
 include
 <
@@ -468,9 +468,8 @@ Boilerplate
 SecureAllocator
 (
 )
-=
-default
-;
+{
+}
 template
 <
 typename
@@ -582,4 +581,4 @@ pop
 endif
 /
 /
-CPPTL_JSON_ALLOCATOR_H_INCLUDED
+JSON_ALLOCATOR_H_INCLUDED

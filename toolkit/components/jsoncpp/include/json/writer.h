@@ -1911,7 +1911,9 @@ String
 text
 )
 ;
-typedef
+using
+ChildValues
+=
 std
 :
 :
@@ -1919,7 +1921,6 @@ vector
 <
 String
 >
-ChildValues
 ;
 ChildValues
 childValues_
@@ -2467,7 +2468,9 @@ String
 text
 )
 ;
-typedef
+using
+ChildValues
+=
 std
 :
 :
@@ -2475,7 +2478,6 @@ vector
 <
 String
 >
-ChildValues
 ;
 ChildValues
 childValues_

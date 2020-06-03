@@ -568,9 +568,10 @@ uintToString
 (
 )
 .
-typedef
-char
+using
 UIntToStringBuffer
+=
+char
 [
 uintToStringBufferSize
 ]
