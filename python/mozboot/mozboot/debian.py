@@ -436,12 +436,6 @@ dev
 '
         
 '
-python
--
-dbus
-'
-        
-'
 xvfb
 '
         
