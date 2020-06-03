@@ -38085,7 +38085,7 @@ skipBarrier
 ;
 masm
 .
-branchValueIsNurseryObject
+branchValueIsNurseryCell
 (
 Assembler
 :
