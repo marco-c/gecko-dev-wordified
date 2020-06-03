@@ -862,6 +862,12 @@ spirv_cross
 :
 :
 SPIRType_BaseType
+vecsize
+:
+u32
+columns
+:
+u32
 member_types
 :
 Vec
@@ -933,6 +939,8 @@ Boolean
 >
 Boolean
 {
+vecsize
+columns
 array
 }
 B
@@ -953,6 +961,8 @@ Int
 >
 Int
 {
+vecsize
+columns
 array
 }
 B
@@ -963,6 +973,8 @@ UInt
 >
 UInt
 {
+vecsize
+columns
 array
 }
 B
@@ -973,6 +985,7 @@ Int64
 >
 Int64
 {
+vecsize
 array
 }
 B
@@ -983,6 +996,7 @@ UInt64
 >
 UInt64
 {
+vecsize
 array
 }
 B
@@ -1003,6 +1017,8 @@ Half
 >
 Half
 {
+vecsize
+columns
 array
 }
 B
@@ -1013,6 +1029,8 @@ Float
 >
 Float
 {
+vecsize
+columns
 array
 }
 B
@@ -1023,6 +1041,8 @@ Double
 >
 Double
 {
+vecsize
+columns
 array
 }
 B
@@ -1074,6 +1094,7 @@ SByte
 >
 SByte
 {
+vecsize
 array
 }
 B
@@ -1084,6 +1105,7 @@ UByte
 >
 UByte
 {
+vecsize
 array
 }
 B
@@ -1094,6 +1116,7 @@ Short
 >
 Short
 {
+vecsize
 array
 }
 B
@@ -1104,6 +1127,7 @@ UShort
 >
 UShort
 {
+vecsize
 array
 }
 B
@@ -1116,10 +1140,17 @@ ControlPointArray
 B
 :
 :
-AccelerationStructureNV
+AccelerationStructure
 =
 >
-AccelerationStructureNv
+AccelerationStructure
+B
+:
+:
+RayQuery
+=
+>
+RayQuery
 }
 }
 }
@@ -2479,6 +2510,12 @@ from_raw
 raw
 .
 type_
+raw
+.
+vecsize
+raw
+.
+columns
 member_types
 array
 )

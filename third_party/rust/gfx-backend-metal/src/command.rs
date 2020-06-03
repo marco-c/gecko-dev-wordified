@@ -16648,8 +16648,6 @@ WORD_ALIGNMENT
 0
 )
 ;
-base_range
-.
 start
 +
 s
