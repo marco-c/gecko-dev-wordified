@@ -720,8 +720,6 @@ ConfigBuilder
 (
 )
         
-config
-.
 ports
 =
 {
@@ -775,18 +773,24 @@ self
 enable_quic
 :
             
-config
-.
 ports
 [
 "
 quic
+-
+transport
 "
 ]
 =
 [
 10000
 ]
+        
+config
+.
+ports
+=
+ports
         
 if
 os
@@ -1632,6 +1636,37 @@ self
 servers
 )
 :
+                
+#
+TODO
+(
+Hexcles
+)
+:
+Find
+a
+way
+to
+test
+QUIC
+'
+s
+UDP
+port
+.
+                
+if
+scheme
+=
+=
+"
+quic
+-
+transport
+"
+:
+                    
+continue
                 
 for
 port
