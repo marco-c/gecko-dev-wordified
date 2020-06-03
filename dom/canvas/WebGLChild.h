@@ -191,8 +191,8 @@ For
 SyncProducerActor
 :
 static
-bool
-ShouldSendSync
+IpdlQueueProtocol
+GetIpdlQueueProtocol
 (
 size_t
 aCmd
