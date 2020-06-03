@@ -352,6 +352,9 @@ gradient_builder
 mod
 image
 ;
+mod
+resources
+;
 pub
 mod
 units
@@ -446,4 +449,14 @@ image
 :
 :
 *
+;
+pub
+use
+crate
+:
+:
+resources
+:
+:
+DEFAULT_TILE_SIZE
 ;

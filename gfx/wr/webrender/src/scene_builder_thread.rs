@@ -441,6 +441,14 @@ down
 the
 pipeline
 .
+#
+[
+derive
+(
+Clone
+Debug
+)
+]
 pub
 struct
 TransactionTimings
