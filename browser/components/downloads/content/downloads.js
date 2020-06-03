@@ -6524,12 +6524,13 @@ downloadsCmd_open
 (
 )
 {
+DownloadsCommon
+.
+openDownload
+(
 this
 .
 download
-.
-launch
-(
 )
 .
 catch
