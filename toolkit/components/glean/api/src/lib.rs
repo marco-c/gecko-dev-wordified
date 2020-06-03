@@ -191,6 +191,17 @@ global_glean
 (
 )
 .
+expect
+(
+"
+Global
+Glean
+object
+not
+initialized
+"
+)
+.
 lock
 (
 )

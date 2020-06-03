@@ -398,6 +398,16 @@ global_glean
 (
 )
 .
+expect
+(
+"
+Global
+Glean
+not
+initialized
+"
+)
+.
 lock
 (
 )
