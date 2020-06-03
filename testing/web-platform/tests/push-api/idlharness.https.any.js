@@ -56,6 +56,13 @@ sub
 js
 /
 /
+META
+:
+timeout
+=
+long
+/
+/
 https
 :
 /
