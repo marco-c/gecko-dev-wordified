@@ -1134,6 +1134,9 @@ nullptr
 ;
 }
 gfxOTSExpandingMemoryStream
+<
+gfxOTSMozAlloc
+>
 output
 (
 lengthHint
