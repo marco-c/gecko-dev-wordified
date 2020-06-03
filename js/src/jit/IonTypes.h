@@ -2573,7 +2573,7 @@ Takes
 negative
 zero
 into
-accuont
+account
 as
 it
 '

@@ -15131,6 +15131,7 @@ inline
 void
 shuffleInt8x16
 (
+const
 uint8_t
 lanes
 [

@@ -4291,7 +4291,10 @@ Scalar
 :
 Simd128
 :
-vmovups
+MacroAssemblerX64
+:
+:
+loadUnalignedSimd128
 (
 srcAddr
 out
@@ -4789,7 +4792,10 @@ Scalar
 :
 Simd128
 :
-vmovups
+MacroAssemblerX64
+:
+:
+storeUnalignedSimd128
 (
 value
 .
