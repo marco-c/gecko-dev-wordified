@@ -219,6 +219,13 @@ _test_list
 =
 [
 ]
+        
+self
+.
+framework_gatherers
+=
+{
+}
     
 property
     
@@ -812,7 +819,17 @@ the
 frameworks
 tests
         
-framework_gatherer
+self
+.
+framework_gatherers
+[
+framework
+[
+"
+name
+"
+]
+]
 =
 frameworks
 [
@@ -845,7 +862,17 @@ test_list
 "
 ]
 =
-framework_gatherer
+self
+.
+framework_gatherers
+[
+framework
+[
+"
+name
+"
+]
+]
 .
 get_test_list
 (
