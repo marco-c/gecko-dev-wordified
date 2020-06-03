@@ -17628,16 +17628,6 @@ function
 )
 ;
 }
-env
--
->
-validForRefFunc
-.
-setBit
-(
-funcIndex
-)
-;
 const
 FuncType
 &
