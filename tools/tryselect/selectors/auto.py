@@ -237,7 +237,7 @@ optimize
 :
 tryselect
 .
-bugbug_reduced
+bugbug_debug_disperse
 '
 )
     
