@@ -75,6 +75,11 @@ type
 {
 case
 "
+OPEN_ABOUT_PAGE
+"
+:
+case
+"
 OPEN_AWESOME_BAR
 "
 :

@@ -1289,10 +1289,6 @@ gap
 :
 32px
 ;
-opacity
-:
-0
-;
 transition
 :
 opacity
@@ -1315,16 +1311,6 @@ auto
 rows
 :
 1fr
-;
-}
-.
-welcomeCardGrid
-.
-show
-{
-opacity
-:
-1
 ;
 }
 media
