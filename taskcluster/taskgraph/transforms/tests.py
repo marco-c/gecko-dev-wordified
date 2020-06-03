@@ -14172,6 +14172,24 @@ platform
 )
 )
         
+if
+task
+[
+'
+webrender
+'
+]
+:
+            
+schedules
+.
+add
+(
+'
+webrender
+'
+)
+        
 task
 [
 '
