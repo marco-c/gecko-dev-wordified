@@ -1608,6 +1608,14 @@ AutoLockHelperThreadState
 lock
 )
 ;
+enum
+class
+ScheduleCompressionTask
+{
+GC
+API
+}
+;
 /
 /
 Used
@@ -1628,6 +1636,8 @@ startHandlingCompressionTasks
 const
 AutoLockHelperThreadState
 &
+ScheduleCompressionTask
+schedule
 )
 ;
 jit
@@ -1651,6 +1661,8 @@ scheduleCompressionTasks
 const
 AutoLockHelperThreadState
 &
+ScheduleCompressionTask
+schedule
 )
 ;
 UniquePtr
