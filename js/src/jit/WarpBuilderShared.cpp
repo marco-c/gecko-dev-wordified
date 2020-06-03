@@ -669,7 +669,7 @@ thisArg
 call
 -
 >
-initFunction
+initCallee
 (
 callInfo
 .

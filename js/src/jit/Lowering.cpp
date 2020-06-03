@@ -3038,7 +3038,7 @@ MOZ_ASSERT
 call
 -
 >
-getFunction
+getCallee
 (
 )
 -
@@ -3383,7 +3383,7 @@ useFixedAtStart
 call
 -
 >
-getFunction
+getCallee
 (
 )
 CallTempReg0
@@ -3423,7 +3423,7 @@ useFixedAtStart
 call
 -
 >
-getFunction
+getCallee
 (
 )
 CallTempReg0
