@@ -11209,6 +11209,11 @@ isBasicLayout
 :
 21
 }
+cta_variant
+:
+"
+link
+"
 header
 :
 {
