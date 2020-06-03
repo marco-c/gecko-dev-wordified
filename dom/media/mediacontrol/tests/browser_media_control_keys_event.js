@@ -366,7 +366,7 @@ event
 const
 playbackStateChanged
 =
-waitUntilMainMediaControllerPlaybackChanged
+waitUntilDisplayedPlaybackChanged
 (
 )
 ;
