@@ -3965,6 +3965,12 @@ OS_ARCH
 '
 Darwin
 '
+and
+'
+MOZ_WIDGET_TOOLKIT
+'
+in
+substs
 :
             
 if
