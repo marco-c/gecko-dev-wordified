@@ -14160,6 +14160,9 @@ GetToplevelWidget
 )
 ;
 case
+NS_NATIVE_WINDOW_WEBRTC_DEVICE_ID
+:
+case
 NS_NATIVE_SHAREABLE_WINDOW
 :
 if
@@ -14191,8 +14194,14 @@ GetNativeData
 (
 )
 :
+"
+"
 NS_NATIVE_SHAREABLE_WINDOW
+/
+NS_NATIVE_WINDOW_WEBRTC_DEVICE_ID
 is
+"
+"
 not
 "
 "
