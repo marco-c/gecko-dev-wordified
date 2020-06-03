@@ -963,15 +963,6 @@ Android
 "
 )
 {
-Services
-.
-wm
-.
-removeListener
-(
-WindowListener
-)
-;
 OnRefTestUnload
 (
 )
