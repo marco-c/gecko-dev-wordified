@@ -4491,9 +4491,6 @@ case
 TYPE_WEB_MANIFEST
 :
 case
-TYPE_XBL
-:
-case
 TYPE_XMLHTTPREQUEST
 :
 case

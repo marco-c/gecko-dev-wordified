@@ -2767,15 +2767,6 @@ TYPE_REFRESH
 nsIContentPolicy
 :
 :
-TYPE_XBL
-=
-=
-9
-&
-&
-nsIContentPolicy
-:
-:
 TYPE_PING
 =
 =

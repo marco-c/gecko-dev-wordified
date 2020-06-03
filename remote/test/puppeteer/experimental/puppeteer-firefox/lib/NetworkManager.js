@@ -800,11 +800,6 @@ TYPE_REFRESH
 '
 document
 '
-TYPE_XBL
-:
-'
-other
-'
 TYPE_PING
 :
 '
