@@ -6764,6 +6764,11 @@ nsIURI
 aURI
 )
 ;
+bool
+IsOnlyTopLevelDocumentInSHistory
+(
+)
+;
 public
 :
 /
