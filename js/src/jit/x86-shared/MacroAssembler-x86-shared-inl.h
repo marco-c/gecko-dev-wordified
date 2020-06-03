@@ -1896,7 +1896,7 @@ dest
 vsqrtss
 (
 src
-src
+dest
 dest
 )
 ;
@@ -1916,7 +1916,7 @@ dest
 vsqrtsd
 (
 src
-src
+dest
 dest
 )
 ;
