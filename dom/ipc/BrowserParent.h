@@ -2923,11 +2923,6 @@ aSizeMode
 )
 ;
 void
-ThemeChanged
-(
-)
-;
-void
 HandleAccessKey
 (
 const
