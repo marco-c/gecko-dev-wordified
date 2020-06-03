@@ -76,8 +76,6 @@ from
 contextlib
 import
 contextmanager
-import
-platform
 from
 mach
 .
@@ -448,23 +446,6 @@ test_test_runner
 mocked
 )
 :
-    
-if
-platform
-.
-system
-(
-)
-=
-=
-"
-Darwin
-"
-and
-ON_TRY
-:
-        
-return
     
 #
 simulating
