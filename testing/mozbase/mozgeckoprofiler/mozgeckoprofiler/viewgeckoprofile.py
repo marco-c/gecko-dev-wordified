@@ -76,6 +76,8 @@ import
 sys
 import
 urllib
+import
+webbrowser
 from
 mozlog
 import
@@ -582,9 +584,6 @@ self
 .
 profiler_url
 )
-        
-import
-webbrowser
         
 webbrowser
 .
