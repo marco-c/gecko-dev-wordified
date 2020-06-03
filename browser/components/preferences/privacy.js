@@ -11269,7 +11269,7 @@ Linux
 yet
 (
 bug
-1614874
+1527745
 )
 if
 (
@@ -11284,14 +11284,11 @@ isMasterPasswordSet
 OS_AUTH_ENABLED
 &
 &
-AppConstants
+OSKeyStore
 .
-platform
-!
-=
-"
-linux
-"
+canReauth
+(
+)
 )
 {
 let
