@@ -2430,7 +2430,7 @@ if
 !
 defined
 (
-ARCH_ARMV6
+GP_PLAT_arm_android
 )
 mozilla
 :
@@ -2459,7 +2459,9 @@ mozilla
 :
 MakePowerOfTwo32
 <
-512
+2
+*
+1024
 *
 1024
 >
@@ -2468,10 +2470,10 @@ MakePowerOfTwo32
 ;
 /
 /
-512k
+2M
 entries
 =
-4MB
+16MB
 #
 endif
 /
@@ -2504,7 +2506,7 @@ if
 !
 defined
 (
-ARCH_ARMV6
+GP_PLAT_arm_android
 )
 mozilla
 :
@@ -2533,7 +2535,9 @@ mozilla
 :
 MakePowerOfTwo32
 <
-512
+8
+*
+1024
 *
 1024
 >
@@ -2542,10 +2546,10 @@ MakePowerOfTwo32
 ;
 /
 /
-512k
+8M
 entries
 =
-4MB
+64MB
 #
 endif
 #
