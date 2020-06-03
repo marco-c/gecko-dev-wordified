@@ -1388,6 +1388,9 @@ getString
 (
 descString
 )
+descString
+.
+values
 )
 ;
 /
