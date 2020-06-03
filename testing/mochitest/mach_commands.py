@@ -808,6 +808,14 @@ self
 .
 topsrcdir
         
+options
+.
+topobjdir
+=
+self
+.
+topobjdir
+        
 from
 manifestparser
 import
