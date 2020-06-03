@@ -16479,7 +16479,10 @@ moz_gtk_get_entry_min_height
 (
 gint
 *
-height
+min_content_height
+gint
+*
+border_padding_height
 )
 {
 GtkStyleContext
@@ -16514,7 +16517,7 @@ min
 -
 height
 "
-height
+min_content_height
 nullptr
 )
 ;
@@ -16522,7 +16525,7 @@ nullptr
 else
 {
 *
-height
+min_content_height
 =
 0
 ;
@@ -16556,8 +16559,7 @@ padding
 )
 ;
 *
-height
-+
+border_padding_height
 =
 (
 border
