@@ -76,14 +76,6 @@ extern
 crate
 failure
 ;
-#
-[
-macro_use
-]
-extern
-crate
-lazy_static
-;
 extern
 crate
 libc
@@ -111,6 +103,10 @@ nserror
 extern
 crate
 nsstring
+;
+extern
+crate
+once_cell
 ;
 extern
 crate
