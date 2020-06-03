@@ -80,6 +80,8 @@ posixpath
 import
 shutil
 import
+six
+import
 sys
 import
 tempfile
@@ -792,6 +794,22 @@ f
 self
 .
 remote_profile
+)
+        
+if
+test_filter
+is
+not
+None
+:
+            
+test_filter
+=
+six
+.
+ensure_text
+(
+test_filter
 )
         
 env
@@ -2438,6 +2456,15 @@ new_content
             
 return
 False
+        
+new_content
+=
+six
+.
+ensure_text
+(
+new_content
+)
         
 last_full_line_pos
 =
