@@ -512,6 +512,10 @@ i
 '
 interval
 ]
+                                        
+universal_newlines
+=
+True
 )
         
 #
