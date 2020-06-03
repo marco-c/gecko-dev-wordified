@@ -294,6 +294,12 @@ _browser
 =
 browser
 ;
+this
+.
+actorCreated
+(
+)
+;
 }
 get
 browser

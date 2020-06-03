@@ -300,14 +300,6 @@ mManager
 =
 aManager
 ;
-InvokeCallback
-(
-CallbackFunction
-:
-:
-ActorCreated
-)
-;
 }
 namespace
 {
