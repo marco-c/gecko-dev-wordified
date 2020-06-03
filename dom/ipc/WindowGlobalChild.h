@@ -897,10 +897,6 @@ ipc
 IPCResult
 RecvSaveStorageAccessGranted
 (
-const
-nsCString
-&
-aPermissionKey
 )
 ;
 virtual
