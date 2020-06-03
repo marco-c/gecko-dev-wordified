@@ -1000,7 +1000,10 @@ if
 this
 is
 a
-nightly
+shippable
+-
+style
+build
     
 Optional
 (
@@ -1543,7 +1546,7 @@ transforms
 .
 add
 def
-setup_nightly_dependency
+setup_shippable_dependency
 (
 config
 jobs
@@ -2116,20 +2119,6 @@ replace
 "
 -
 shippable
-"
-"
-"
-)
-        
-locales_platform
-=
-locales_platform
-.
-replace
-(
-"
--
-nightly
 "
 "
 "

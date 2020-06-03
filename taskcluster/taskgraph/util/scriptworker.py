@@ -2196,7 +2196,7 @@ def
 get_signing_cert_scope_per_platform
 (
 build_platform
-is_nightly
+is_shippable
 config
 )
 :
@@ -2216,7 +2216,7 @@ config
 )
     
 elif
-is_nightly
+is_shippable
 :
         
 return

@@ -821,18 +821,8 @@ format
 only
 once
         
-is_nightly
+is_shippable
 =
-dep_job
-.
-attributes
-.
-get
-(
-            
-'
-nightly
-'
 dep_job
 .
 attributes
@@ -843,7 +833,6 @@ get
 shippable
 '
 False
-)
 )
         
 build_platform
@@ -1241,7 +1230,7 @@ get_signing_cert_scope_per_platform
 (
             
 build_platform
-is_nightly
+is_shippable
 config
         
 )
@@ -1254,7 +1243,7 @@ linux
 signing
 '
 if
-is_nightly
+is_shippable
 else
 '
 linux
@@ -1463,40 +1452,6 @@ attributes
 [
 "
 shippable
-"
-]
-:
-                
-shippable
-=
-"
-true
-"
-            
-#
-remove
-the
-nightly
-check
-once
-nightly
-is
-gone
-as
-an
-attribute
-            
-if
-"
-nightly
-"
-in
-attributes
-and
-attributes
-[
-"
-nightly
 "
 ]
 :
