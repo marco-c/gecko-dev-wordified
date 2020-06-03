@@ -553,6 +553,7 @@ all
 [
 asyncReInit
 (
+true
 )
 promiseAfterCache
 (
