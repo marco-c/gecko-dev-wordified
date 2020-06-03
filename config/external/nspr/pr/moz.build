@@ -578,15 +578,6 @@ os_Darwin
 s
 '
 ]
-if
-not
-CONFIG
-[
-'
-MOZ_IOS
-'
-]
-:
 DEFINES
 [
 '

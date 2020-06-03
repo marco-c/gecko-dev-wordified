@@ -118,10 +118,6 @@ GNU
 '
     
 '
-iOS
-'
-    
-'
 NetBSD
 '
     
