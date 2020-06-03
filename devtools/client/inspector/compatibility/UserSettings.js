@@ -82,13 +82,9 @@ browsersDataset
 "
 devtools
 /
-client
-/
-inspector
+shared
 /
 compatibility
-/
-lib
 /
 dataset
 /
