@@ -1060,9 +1060,7 @@ http
 :
 /
 /
-example
-.
-com
+localhost
 /
 contribute
 "
@@ -3363,9 +3361,7 @@ http
 :
 /
 /
-example
-.
-com
+localhost
 /
 contribute
 "
