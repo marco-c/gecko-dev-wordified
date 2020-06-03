@@ -229,10 +229,6 @@ PTestShell
 ;
 include
 protocol
-PJavaScript
-;
-include
-protocol
 PRemoteSpellcheckEngine
 ;
 include
@@ -285,9 +281,6 @@ PBenchmarkStorage
 ;
 include
 DOMTypes
-;
-include
-JavaScriptTypes
 ;
 include
 IPCBlob
@@ -2132,9 +2125,6 @@ PSpeechSynthesis
 endif
 manages
 PTestShell
-;
-manages
-PJavaScript
 ;
 manages
 PRemoteSpellcheckEngine
@@ -5236,11 +5226,6 @@ Endpoint
 PRemoteDecoderManagerChild
 >
 aEndpoint
-)
-;
-async
-PJavaScript
-(
 )
 ;
 async

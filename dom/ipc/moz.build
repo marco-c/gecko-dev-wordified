@@ -287,11 +287,6 @@ ContentProcessManager
 h
 '
 '
-CPOWManagerGetter
-.
-h
-'
-'
 CSPMessageUtils
 .
 h

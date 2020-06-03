@@ -248,17 +248,6 @@ h
 #
 include
 "
-mozilla
-/
-jsipc
-/
-CrossProcessObjectWrappers
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

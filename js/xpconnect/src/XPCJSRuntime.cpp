@@ -541,17 +541,6 @@ include
 "
 mozilla
 /
-jsipc
-/
-CrossProcessObjectWrappers
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Atomics
 .
 h

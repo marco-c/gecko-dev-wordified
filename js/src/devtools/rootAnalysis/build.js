@@ -105,9 +105,6 @@ ductwork
 debugger
 js
 /
-ipc
-js
-/
 xpconnect
 /
 loader
