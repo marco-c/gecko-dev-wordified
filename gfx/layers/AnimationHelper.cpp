@@ -4524,7 +4524,11 @@ transformData
 appUnitsPerDevPixel
 (
 )
-true
+transformData
+.
+snapToGrid
+(
+)
 )
 ;
 }
