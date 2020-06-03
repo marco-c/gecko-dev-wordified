@@ -1798,13 +1798,6 @@ modules
 -
 enable
 -
-dtrace
-'
-'
--
--
-enable
--
 dump
 -
 painting
