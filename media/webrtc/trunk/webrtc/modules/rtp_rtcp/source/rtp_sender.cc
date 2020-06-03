@@ -3518,6 +3518,13 @@ last_timestamp_time_ms_
 *
 kTimestampTicksPerMs
 ;
+if
+(
+capture_time_ms
+>
+0
+)
+{
 capture_time_ms
 +
 =
@@ -3527,6 +3534,7 @@ now_ms
 last_timestamp_time_ms_
 )
 ;
+}
 }
 if
 (
