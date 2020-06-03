@@ -774,6 +774,7 @@ return
 }
 if
 (
+(
 !
 mPainted
 &
@@ -788,6 +789,19 @@ ResolutionChangeOrigin
 :
 :
 MainThreadRestore
+)
+|
+|
+aOrigin
+=
+=
+mozilla
+:
+:
+ResolutionChangeOrigin
+:
+:
+Test
 )
 {
 /
