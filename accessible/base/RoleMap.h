@@ -652,7 +652,7 @@ DIALOG
 dialog
 "
 ATK_ROLE_DIALOG
-NSAccessibilityWindowRole
+NSAccessibilityGroupRole
 /
 /
 There

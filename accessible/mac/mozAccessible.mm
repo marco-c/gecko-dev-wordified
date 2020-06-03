@@ -7057,6 +7057,17 @@ alertDialog
 }
 {
 "
+AXApplicationDialog
+"
+NS_LITERAL_STRING
+(
+"
+dialog
+"
+)
+}
+{
+"
 AXApplicationLog
 "
 NS_LITERAL_STRING
