@@ -81,10 +81,10 @@ GetURI
 /
 expected
 -
-warning
+error
 {
 {
-nsIPrincipal
+Principal
 -
 >
 GetURI
@@ -128,10 +128,10 @@ GetURI
 /
 expected
 -
-warning
+error
 {
 {
-nsIPrincipal
+Principal
 -
 >
 GetURI
