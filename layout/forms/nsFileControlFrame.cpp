@@ -1395,17 +1395,6 @@ SetIsNativeAnonymousRoot
 (
 )
 ;
-button
--
->
-SetPseudoElementType
-(
-PseudoStyleType
-:
-:
-fileChooserButton
-)
-;
 /
 /
 Set
