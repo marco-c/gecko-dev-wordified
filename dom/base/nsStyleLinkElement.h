@@ -304,16 +304,6 @@ aStyleSheet
 )
 override
 ;
-mozilla
-:
-:
-StyleSheet
-*
-GetStyleSheet
-(
-)
-override
-;
 void
 InitStyleLinkElement
 (
