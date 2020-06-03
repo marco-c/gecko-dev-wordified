@@ -615,10 +615,6 @@ startup
 .
 extern
 bool
-enableDeferredMode
-;
-extern
-bool
 enableCodeCoverage
 ;
 extern
