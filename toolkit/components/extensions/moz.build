@@ -209,6 +209,11 @@ ExtensionStorageSync
 jsm
 '
 '
+ExtensionStorageSyncKinto
+.
+jsm
+'
+'
 ExtensionTelemetry
 .
 jsm

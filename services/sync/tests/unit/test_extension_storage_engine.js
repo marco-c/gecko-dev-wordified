@@ -103,7 +103,7 @@ gre
 /
 modules
 /
-ExtensionStorageSync
+ExtensionStorageSyncKinto
 .
 jsm
 "
