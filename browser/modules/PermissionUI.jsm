@@ -4884,8 +4884,6 @@ this
 .
 principal
 .
-URI
-.
 schemeIs
 (
 "
@@ -5009,8 +5007,6 @@ if
 this
 .
 principal
-.
-URI
 .
 schemeIs
 (

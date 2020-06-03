@@ -2875,8 +2875,6 @@ perm
 .
 principal
 .
-URI
-.
 schemeIs
 (
 "
