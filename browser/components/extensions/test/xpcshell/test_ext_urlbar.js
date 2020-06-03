@@ -1668,9 +1668,7 @@ search
 result
 returned
 by
-/
-/
-UrlbarProviderSearchSuggestions
+UnifiedComplete
 .
 {
 type
