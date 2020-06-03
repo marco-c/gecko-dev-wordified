@@ -1785,12 +1785,6 @@ traceLink_
 =
 nullptr
 ;
-FunctionBox
-*
-emitLink_
-=
-nullptr
-;
 /
 /
 This
