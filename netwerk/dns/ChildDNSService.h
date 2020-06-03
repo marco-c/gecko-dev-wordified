@@ -184,6 +184,9 @@ namespace
 net
 {
 class
+TRRServiceParent
+;
+class
 ChildDNSService
 final
 :
@@ -364,6 +367,12 @@ mPendingRequests
 ;
 Mutex
 mPendingRequestsLock
+;
+RefPtr
+<
+TRRServiceParent
+>
+mTRRServiceParent
 ;
 }
 ;
