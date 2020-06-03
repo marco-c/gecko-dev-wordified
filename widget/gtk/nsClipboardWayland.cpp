@@ -3793,6 +3793,12 @@ false
 )
 mDisplay
 (
+mozilla
+:
+:
+widget
+:
+:
 WaylandDisplayGet
 (
 )
