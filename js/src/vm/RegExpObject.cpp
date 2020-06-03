@@ -7656,6 +7656,14 @@ if
 captureIndices
 )
 {
+js
+:
+:
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
