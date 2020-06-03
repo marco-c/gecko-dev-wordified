@@ -466,6 +466,25 @@ platform
 =
 platform
             
+job
+[
+'
+treeherder
+'
+]
+[
+'
+tier
+'
+]
+=
+treeherder_info
+[
+'
+tier
+'
+]
+            
 #
 run
 -
