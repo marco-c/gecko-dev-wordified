@@ -3391,9 +3391,6 @@ ProcessPostTraversal
 Element
 *
 aElement
-ComputedStyle
-*
-aParentContext
 ServoRestyleState
 &
 aRestyleState
