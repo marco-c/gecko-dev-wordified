@@ -91766,7 +91766,7 @@ byteSize
 mir
 -
 >
-storageType
+writeType
 (
 )
 )
@@ -91929,7 +91929,7 @@ byteSize
 mir
 -
 >
-storageType
+writeType
 (
 )
 )
