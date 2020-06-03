@@ -49,9 +49,11 @@ response
 .
 set_cookie
 (
+b
 "
 name
 "
+b
 "
 value
 "
@@ -153,9 +155,11 @@ response
 .
 set_cookie
 (
+b
 "
 name
 "
+b
 "
 value
 "
@@ -165,6 +169,7 @@ response
 .
 unset_cookie
 (
+b
 "
 name
 "
@@ -257,6 +262,7 @@ response
 .
 delete_cookie
 (
+b
 "
 name
 "
@@ -375,6 +381,8 @@ Path
 )
         
 #
+TODO
+:
 Should
 also
 check
@@ -417,6 +425,7 @@ request
 .
 cookies
 [
+b
 "
 name
 "
