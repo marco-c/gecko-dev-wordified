@@ -338,6 +338,23 @@ protocol
 "
 "
 "
+        
+self
+.
+_sub_mach
+(
+[
+'
+help
+'
+'
+remote
+'
+]
+)
+        
+return
+1
     
 SubCommand
 (
