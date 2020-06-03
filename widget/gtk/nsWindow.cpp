@@ -49472,6 +49472,8 @@ system
 titlebar
 for
 Gnome
+/
+ElementaryOS
 only
 for
 now
@@ -49524,6 +49526,18 @@ strstr
 currentDesktop
 "
 GNOME
+"
+)
+!
+=
+nullptr
+|
+|
+strstr
+(
+currentDesktop
+"
+Pantheon
 "
 )
 !
