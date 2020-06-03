@@ -753,6 +753,11 @@ IPDL_SOURCES
 =
 [
 '
+HttpChannelParams
+.
+ipdlh
+'
+'
 PAltDataOutputStream
 .
 ipdl
