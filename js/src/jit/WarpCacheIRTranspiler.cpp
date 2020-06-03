@@ -1464,7 +1464,7 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardType
+emitGuardNonDoubleType
 (
 ValOperandId
 inputId
@@ -1500,12 +1500,6 @@ ValueType
 :
 :
 Int32
-:
-case
-ValueType
-:
-:
-Double
 :
 case
 ValueType
@@ -1550,6 +1544,12 @@ emitGuardIsNull
 inputId
 )
 ;
+case
+ValueType
+:
+:
+Double
+:
 case
 ValueType
 :
