@@ -3900,7 +3900,7 @@ aError
 void
 GetCustomUserAgent
 (
-nsString
+nsAString
 &
 aUserAgent
 )
