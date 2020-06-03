@@ -9,6 +9,12 @@ script
 "
 )
 ;
+function
+noGC
+(
+)
+{
+}
 /
 /
 #
