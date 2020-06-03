@@ -641,6 +641,7 @@ not
 for
 SPARC
 .
+volatile
 double
 infinity
 =
@@ -654,6 +655,7 @@ double
 (
 )
 ;
+volatile
 double
 hardwareNaN
 =
