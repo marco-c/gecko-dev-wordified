@@ -742,6 +742,16 @@ return
 0
 ;
 }
+virtual
+bool
+ShouldDrawPreviousPartialPresentRegions
+(
+)
+{
+return
+false
+;
+}
 /
 /
 Whether

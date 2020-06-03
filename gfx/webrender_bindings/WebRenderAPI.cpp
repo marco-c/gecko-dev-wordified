@@ -802,6 +802,12 @@ compositor
 GetMaxPartialPresentRects
 (
 )
+compositor
+-
+>
+ShouldDrawPreviousPartialPresentRegions
+(
+)
 mDocHandle
 &
 wrRenderer

@@ -7341,6 +7341,9 @@ usize
 max_partial_present_rects
 :
 usize
+draw_previous_partial_present_regions
+:
+bool
 out_handle
 :
 &
@@ -7889,6 +7892,7 @@ CompositorConfig
 Draw
 {
 max_partial_present_rects
+draw_previous_partial_present_regions
 }
 }
 ;
