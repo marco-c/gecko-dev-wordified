@@ -25167,15 +25167,14 @@ GetTopWindowRoot
 ;
 return
 root
-?
+&
+&
 root
 -
 >
 ShowFocusRings
 (
 )
-:
-false
 ;
 }
 bool
