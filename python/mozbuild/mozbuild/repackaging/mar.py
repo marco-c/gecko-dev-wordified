@@ -95,7 +95,7 @@ import
     
 ensureParentDir
     
-ensure_bytes
+ensure_subprocess_env
 )
 _BCJ_OPTIONS
 =
@@ -224,10 +224,13 @@ format
 (
             
 arch
+list
+(
 _BCJ_OPTIONS
 .
 keys
 (
+)
 )
 )
 )
@@ -734,39 +737,6 @@ exe
 '
 )
         
-#
-in
-py2
-env
-needs
-str
-not
-unicode
-.
-        
-env
-=
-{
-ensure_bytes
-(
-k
-)
-:
-ensure_bytes
-(
-v
-)
-for
-k
-v
-in
-env
-.
-iteritems
-(
-)
-}
-        
 subprocess
 .
 check_call
@@ -774,7 +744,10 @@ check_call
 cmd
 env
 =
+ensure_subprocess_env
+(
 env
+)
 )
     
 finally

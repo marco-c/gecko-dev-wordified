@@ -60,8 +60,12 @@ absolute_import
 print_function
 import
 os
+from
+six
+.
+moves
 import
-ConfigParser
+configparser
 import
 mozpack
 .
@@ -110,7 +114,7 @@ files
             
 parser
 =
-ConfigParser
+configparser
 .
 ConfigParser
 (
@@ -147,7 +151,7 @@ value
 )
             
 except
-ConfigParser
+configparser
 .
 NoOptionError
 :
