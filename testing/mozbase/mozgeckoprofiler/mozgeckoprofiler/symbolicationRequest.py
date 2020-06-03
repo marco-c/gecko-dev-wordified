@@ -71,9 +71,9 @@ LOG
 =
 get_proxy_logger
 (
-'
+"
 profiler
-'
+"
 )
 #
 Precompiled
@@ -565,7 +565,6 @@ field
 %
 s
 "
-                              
 %
 rawRequests
 [
@@ -618,7 +617,6 @@ x
 upper
 (
 )
-                                  
 for
 x
 in
@@ -642,8 +640,6 @@ in
 self
 .
 symFileManager
-\
-                                
 .
 sOptions
 [
@@ -707,7 +703,6 @@ symbolSources
 .
 append
 (
-                    
 self
 .
 symFileManager
@@ -726,7 +721,6 @@ symbolSources
 .
 append
 (
-                    
 self
 .
 symFileManager
@@ -898,7 +892,6 @@ LOG
 .
 debug
 (
-                        
 "
 Entry
 in
@@ -933,6 +926,7 @@ LOG
 .
 debug
 (
+                        
 "
 Entry
 in
@@ -947,11 +941,11 @@ list
 :
 "
 +
-                              
 str
 (
 module
 )
+                    
 )
                     
 return
@@ -1488,6 +1482,7 @@ LOG
 .
 error
 (
+                
 "
 Exception
 while
@@ -1497,7 +1492,7 @@ response
 to
 forwarded
 "
-                      
+                
 "
 request
 :
@@ -1507,6 +1502,7 @@ str
 (
 e
 )
+            
 )
             
 return
@@ -1525,9 +1521,9 @@ responseKnownModules
 =
 responseJson
 [
-'
+"
 knownModules
-'
+"
 ]
                 
 for
@@ -1564,9 +1560,9 @@ responseSymbols
 =
 responseJson
 [
-'
+"
 symbolicatedStacks
-'
+"
 ]
 [
 0
@@ -1599,6 +1595,7 @@ LOG
 .
 error
 (
+                    
 str
 (
 len
@@ -1606,14 +1603,15 @@ len
 responseSymbols
 )
 )
+                    
 +
 "
 symbols
 in
 response
 "
+                    
 +
-                          
 str
 (
 len
@@ -1621,6 +1619,7 @@ len
 stack
 )
 )
+                    
 +
 "
 PCs
@@ -1628,6 +1627,7 @@ in
 request
 !
 "
+                
 )
                 
 return
@@ -1676,6 +1676,7 @@ LOG
 .
 error
 (
+                
 "
 Exception
 while
@@ -1685,7 +1686,7 @@ response
 to
 forwarded
 "
-                      
+                
 "
 request
 :
@@ -1695,6 +1696,7 @@ str
 (
 e
 )
+            
 )
             
 return
@@ -1730,6 +1732,8 @@ shouldForwardRequests
 False
         
 if
+(
+            
 self
 .
 symFileManager
@@ -1740,14 +1744,15 @@ sOptions
 remoteSymbolServer
 "
 ]
+            
 and
-\
-                
 self
 .
 forwardCount
 <
 MAX_FORWARDED_REQUESTS
+        
+)
 :
             
 shouldForwardRequests
@@ -1818,17 +1823,17 @@ symFileManager
 .
 GetLibSymbolMap
 (
+                
 module
 .
 libName
-                                                       
 module
 .
 breakpadId
-                                                       
 self
 .
 symbolSources
+            
 )
 :
                 
@@ -1961,7 +1966,6 @@ symbolicatedStack
 .
 append
 (
-                    
 hex
 (
 offset
@@ -1999,11 +2003,9 @@ GetLibSymbolMap
 module
 .
 libName
-                
 module
 .
 breakpadId
-                
 self
 .
 symbolSources
@@ -2036,7 +2038,6 @@ symbolicatedStack
 .
 append
 (
-                
 functionName
 +
 "
@@ -2083,11 +2084,12 @@ self
 .
 ForwardRequest
 (
+                
 unresolvedIndexes
 unresolvedStack
-                                
 unresolvedModules
 symbolicatedStack
+            
 )
         
 return

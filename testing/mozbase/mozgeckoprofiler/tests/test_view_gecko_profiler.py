@@ -387,10 +387,10 @@ threading
 .
 Thread
 (
+                
 target
 =
 access_profiler_link
-                                           
 args
 =
 (
@@ -399,6 +399,7 @@ self
 .
 response
 )
+            
 )
             
 print
@@ -495,6 +496,7 @@ dynamic
 expected_url
 =
 (
+            
 "
 https
 :
@@ -511,7 +513,7 @@ from
 url
 /
 "
-                        
+            
 "
 http
 %
@@ -536,6 +538,7 @@ PORT
 .
 json
 "
+        
 )
         
 actual_url
@@ -571,9 +574,11 @@ self
 .
 assertEqual
 (
+            
 actual_url
+            
 expected_url
-                         
+            
 "
 The
 URL
@@ -586,22 +591,25 @@ Firefox
 Profiler
 .
 "
+        
 )
         
 self
 .
 assertEqual
 (
+            
 self
 .
 response
 [
 0
 ]
+            
 "
 FAKE_PROFILE
 "
-                         
+            
 "
 The
 response
@@ -614,6 +622,7 @@ profile
 contents
 .
 "
+        
 )
         
 shutil

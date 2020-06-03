@@ -79,9 +79,9 @@ LOG
 =
 get_proxy_logger
 (
-'
+"
 profiler
-'
+"
 )
 #
 Libraries
@@ -136,7 +136,6 @@ addressMap
 [
 address
 ]
-                              
 for
 address
 in
@@ -531,7 +530,6 @@ LOG
 .
 debug
 (
-                
 "
 Need
 to
@@ -631,6 +629,7 @@ itertools
 .
 product
 (
+                
 [
 "
 .
@@ -641,8 +640,8 @@ sym
 nmsym
 "
 ]
-                                                       
 symbolSources
+            
 )
 :
                 
@@ -654,6 +653,8 @@ extension
                 
 pathSuffix
 =
+(
+                    
 os
 .
 sep
@@ -664,8 +665,6 @@ os
 .
 sep
 +
-\
-                    
 breakpadId
 +
 os
@@ -673,6 +672,8 @@ os
 sep
 +
 symFileName
+                
+)
                 
 path
 =
@@ -735,6 +736,7 @@ LOG
 .
 debug
 (
+                
 "
 Storing
 libSymbolMap
@@ -749,12 +751,12 @@ libName
 [
 "
 +
-                      
 breakpadId
 +
 "
 ]
 "
+            
 )
             
 self
@@ -833,14 +835,15 @@ LOG
 .
 debug
 (
+                    
 str
 (
 self
 .
 sCacheCount
 )
+                    
 +
-                          
 "
 symbols
 in
@@ -850,6 +853,7 @@ fetching
 symbol
 file
 "
+                
 )
             
 finally
@@ -1443,8 +1447,6 @@ logString
 Found
 "
 +
-\
-            
 str
 (
 len
@@ -1466,6 +1468,8 @@ from
 logString
 +
 =
+(
+            
 str
 (
 publicCount
@@ -1476,8 +1480,6 @@ PUBLIC
 lines
 "
 +
-\
-            
 str
 (
 funcCount
@@ -1487,6 +1489,8 @@ funcCount
 FUNC
 lines
 "
+        
+)
         
 LOG
 .
@@ -1557,9 +1561,9 @@ self
 .
 sOptions
 [
-'
+"
 prefetchInterval
-'
+"
 ]
 *
 60
@@ -1574,7 +1578,6 @@ threading
 .
 Timer
 (
-            
 interval
 self
 .
@@ -1597,15 +1600,13 @@ time
 (
 )
 -
-\
-            
 self
 .
 sOptions
 [
-'
+"
 prefetchThreshold
-'
+"
 ]
 *
 60
@@ -1637,15 +1638,14 @@ self
 .
 sOptions
 [
-'
+"
 symbolPaths
-'
+"
 ]
 [
-                
-'
+"
 FIREFOX
-'
+"
 ]
 +
 os
@@ -1706,7 +1706,6 @@ pdbName
 .
 append
 (
-                            
 (
 mtime
 candidatePath
@@ -1742,9 +1741,11 @@ LOG
 .
 info
 (
+                
 "
 Found
 "
+                
 +
 str
 (
@@ -1756,18 +1757,21 @@ pdbName
 ]
 )
 )
+                
 +
-                     
 "
 new
 "
+                
 +
 pdbName
+                
 +
 "
 recent
 dirs
 "
+            
 )
             
 #
@@ -1807,10 +1811,11 @@ self
 .
 sOptions
 [
-'
+"
 prefetchMaxSymbolsPerLib
-'
+"
 ]
+            
 ]
         
 #
@@ -1912,8 +1917,6 @@ self
 .
 sCache
 and
-\
-                            
 pdbId
 in
 self
@@ -1931,7 +1934,6 @@ pdbName
 .
 remove
 (
-                            
 (
 mtime
 symbolDirPath
@@ -2068,6 +2070,8 @@ the
 cache
                     
 if
+(
+                        
 fetchedCount
 +
 symbolInfo
@@ -2075,9 +2079,8 @@ symbolInfo
 GetEntryCount
 (
 )
+                        
 >
-\
-                            
 self
 .
 sOptions
@@ -2086,6 +2089,8 @@ sOptions
 maxCacheEntries
 "
 ]
+                    
+)
 :
                         
 break
@@ -2128,7 +2133,6 @@ symbols
 for
 "
 +
-                              
 symbolFilePath
 )
                     
@@ -2356,6 +2360,7 @@ LOG
 .
 debug
 (
+            
 "
 Cache
 occupancy
@@ -2363,35 +2368,39 @@ before
 MaybeEvict
 :
 "
+            
 +
-                  
 str
 (
 self
 .
 sCacheCount
 )
+            
 +
 "
 /
 "
+            
 +
 str
 (
 maxCacheSize
 )
+        
 )
         
 if
+(
+            
 self
 .
 sCacheCount
 =
 =
 0
+            
 or
-\
-                
 self
 .
 sCacheCount
@@ -2400,6 +2409,8 @@ freeEntriesNeeded
 <
 =
 maxCacheSize
+        
+)
 :
             
 #
@@ -2453,7 +2464,6 @@ numOldEntriesAfterEvict
 =
 max
 (
-            
 0
 (
 0
@@ -2564,6 +2574,7 @@ LOG
 .
 debug
 (
+            
 "
 Cache
 occupancy
@@ -2571,21 +2582,24 @@ after
 MaybeEvict
 :
 "
+            
 +
-                  
 str
 (
 self
 .
 sCacheCount
 )
+            
 +
 "
 /
 "
+            
 +
 str
 (
 maxCacheSize
 )
+        
 )
