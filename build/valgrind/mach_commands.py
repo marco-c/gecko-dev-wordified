@@ -766,6 +766,7 @@ log
 kp_kwargs
 =
 {
+                
 '
 processOutputLine
 '
@@ -773,6 +774,13 @@ processOutputLine
 [
 outputHandler
 ]
+                
+'
+universal_newlines
+'
+:
+True
+            
 }
             
 valgrind
