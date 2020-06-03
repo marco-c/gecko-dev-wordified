@@ -52525,7 +52525,7 @@ setResultType
 MIRType
 :
 :
-None
+String
 )
 ;
 }
@@ -52611,6 +52611,16 @@ ins
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 AliasSet
 getAliasSet
 (

@@ -1201,12 +1201,10 @@ expectedOffset
 /
 TODO
 :
-Improved
+Improve
 code
 -
 gen
-and
-folding
 .
 auto
 *
@@ -1232,6 +1230,12 @@ asAtom
 ;
 add
 (
+ins
+)
+;
+setOperand
+(
+strId
 ins
 )
 ;
