@@ -438,8 +438,6 @@ DesktopCaptureOptions
 options
 Window
 window
-Window
-inner_window
 )
 :
 x_display_
@@ -461,10 +459,6 @@ SHAPE_AND_POSITION
 window_
 (
 window
-)
-inner_window_
-(
-inner_window
 )
 have_xfixes_
 (
@@ -950,7 +944,7 @@ XQueryPointer
 display
 (
 )
-inner_window_
+window_
 &
 root_window
 &
@@ -1582,8 +1576,7 @@ x_display
 return
 NULL
 ;
-WindowId
-outer_window
+window
 =
 GetTopLevelWindow
 (
@@ -1602,7 +1595,7 @@ window
 ;
 if
 (
-outer_window
+window
 =
 =
 None
@@ -1615,7 +1608,6 @@ new
 MouseCursorMonitorX11
 (
 options
-outer_window
 window
 )
 ;
@@ -1669,7 +1661,6 @@ new
 MouseCursorMonitorX11
 (
 options
-window
 window
 )
 ;
