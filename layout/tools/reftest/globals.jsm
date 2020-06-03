@@ -540,6 +540,9 @@ all
 compareRetainedDisplayLists
 :
 false
+isCoverageBuild
+:
+false
 browser
 :
 undefined

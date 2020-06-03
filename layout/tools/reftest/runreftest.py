@@ -3210,6 +3210,27 @@ scrollbar
 =
 True
         
+prefs
+[
+'
+reftest
+.
+isCoverageBuild
+'
+]
+=
+mozinfo
+.
+info
+.
+get
+(
+'
+ccov
+'
+False
+)
+        
 #
 Set
 tests

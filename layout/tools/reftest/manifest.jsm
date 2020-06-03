@@ -3909,6 +3909,14 @@ debug
 .
 isDebugBuild
 ;
+sandbox
+.
+isCoverageBuild
+=
+g
+.
+isCoverageBuild
+;
 var
 prefs
 =
