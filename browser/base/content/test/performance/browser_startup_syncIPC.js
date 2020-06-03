@@ -1245,6 +1245,9 @@ Msg_FlushRendering
 condition
 :
 MAC
+|
+|
+LINUX
 ignoreIfUnused
 :
 true
