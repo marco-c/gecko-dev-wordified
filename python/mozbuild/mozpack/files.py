@@ -60,6 +60,8 @@ absolute_import
 print_function
 unicode_literals
 import
+codecs
+import
 errno
 import
 inspect
@@ -531,18 +533,24 @@ path
         
 self
 .
-path
+file
 =
-ensure_unicode
-(
-path
-)
+None
         
 self
 .
 mode
 =
 None
+        
+self
+.
+path
+=
+ensure_unicode
+(
+path
+)
     
 property
     
@@ -566,11 +574,6 @@ length
 =
 -
 1
-mode
-=
-'
-rb
-'
 )
 :
         
@@ -595,6 +598,10 @@ self
 .
 path
 mode
+=
+'
+rb
+'
 )
             
 self
@@ -620,11 +627,6 @@ write
 (
 self
 data
-mode
-=
-'
-wb
-'
 )
 :
         
@@ -649,6 +651,10 @@ self
 .
 path
 mode
+=
+'
+wb
+'
 )
             
 self
@@ -659,31 +665,11 @@ mode
 w
 '
         
-if
-'
-b
-'
-in
-mode
-:
-            
 to_write
 =
 six
 .
 ensure_binary
-(
-data
-)
-        
-else
-:
-            
-to_write
-=
-six
-.
-ensure_text
 (
 data
 )
@@ -743,6 +729,12 @@ file
 close
 (
 )
+            
+self
+.
+file
+=
+None
 class
 BaseFile
 (
@@ -1551,9 +1543,6 @@ self
 .
 open
 (
-'
-rb
-'
 )
         
 copy_content
@@ -1706,11 +1695,6 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
@@ -1769,14 +1753,14 @@ not
 None
         
 return
-_open
+open
 (
 self
 .
 path
-mode
-=
-mode
+'
+rb
+'
 )
     
 def
@@ -2073,7 +2057,7 @@ file
 '
         
 with
-_open
+open
 (
 self
 .
@@ -4538,14 +4522,6 @@ self
 _content
 =
 content
-        
-self
-.
-_mode
-=
-'
-rb
-'
     
 property
     
@@ -4555,26 +4531,6 @@ content
 self
 )
 :
-        
-ensure
-=
-(
-six
-.
-ensure_binary
-if
-'
-b
-'
-in
-self
-.
-_mode
-else
-six
-.
-ensure_text
-)
         
 if
 inspect
@@ -4591,17 +4547,16 @@ self
 .
 _content
 =
-ensure
-(
 self
 .
 _content
 (
 )
-)
         
 return
-ensure
+six
+.
+ensure_binary
 (
 self
 .
@@ -4630,46 +4585,15 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
-self
-.
-_mode
-=
-mode
-        
 return
-(
 BytesIO
 (
 self
 .
 content
-)
-if
-'
-b
-'
-in
-self
-.
-_mode
-                
-else
-six
-.
-StringIO
-(
-self
-.
-content
-)
 )
     
 def
@@ -4781,11 +4705,6 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
@@ -5313,11 +5232,6 @@ def
 open
 (
 self
-mode
-=
-'
-rt
-'
 )
 :
         
@@ -5387,33 +5301,12 @@ _interfaces
 )
 )
         
-if
-'
-b
-'
-in
-mode
-:
-            
 return
 BytesIO
 (
 six
 .
 ensure_binary
-(
-content
-)
-)
-        
-return
-six
-.
-StringIO
-(
-six
-.
-ensure_text
 (
 content
 )
@@ -5560,11 +5453,6 @@ def
 open
 (
 self
-mode
-=
-'
-r
-'
 )
 :
         
@@ -5626,7 +5514,6 @@ _file
 .
 open
 (
-mode
 )
 .
 readlines
@@ -5646,14 +5533,6 @@ startswith
 )
 )
         
-if
-'
-b
-'
-in
-mode
-:
-            
 return
 BytesIO
 (
@@ -5663,14 +5542,6 @@ ensure_binary
 (
 content
 )
-)
-        
-return
-six
-.
-StringIO
-(
-content
 )
 class
 MinifiedJavaScript
@@ -5729,11 +5600,6 @@ def
 open
 (
 self
-mode
-=
-'
-r
-'
 )
 :
         
@@ -5749,16 +5615,26 @@ minify
 =
 JavascriptMinify
 (
+codecs
+.
+getreader
+(
+'
+utf
+-
+8
+'
+)
+(
 self
 .
 _file
 .
 open
 (
-'
-r
-'
 )
+)
+                                  
 output
 quote_chars
 =
@@ -5782,6 +5658,26 @@ seek
 0
 )
         
+output_source
+=
+six
+.
+ensure_binary
+(
+output
+.
+getvalue
+(
+)
+)
+        
+output
+=
+BytesIO
+(
+output_source
+)
+        
 if
 not
 self
@@ -5800,20 +5696,9 @@ _file
 .
 open
 (
-'
-r
-'
 )
 .
 read
-(
-)
-        
-output_source
-=
-output
-.
-getvalue
 (
 )
         
@@ -5821,7 +5706,7 @@ with
 NamedTemporaryFile
 (
 '
-w
+wb
 +
 '
 )
@@ -5830,7 +5715,7 @@ fh1
 NamedTemporaryFile
 (
 '
-w
+wb
 +
 '
 )
@@ -8540,43 +8425,15 @@ def
 open
 (
 self
-mode
-=
-'
-rb
-'
 )
 :
         
-if
-'
-b
-'
-in
-mode
-:
-            
 return
 BytesIO
 (
 six
 .
 ensure_binary
-(
-self
-.
-_content
-)
-)
-        
-return
-six
-.
-StringIO
-(
-six
-.
-ensure_text
 (
 self
 .

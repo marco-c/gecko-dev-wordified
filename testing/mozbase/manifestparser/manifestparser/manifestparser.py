@@ -59,6 +59,8 @@ import
 absolute_import
 print_function
 import
+codecs
+import
 fnmatch
 import
 io
@@ -1195,6 +1197,17 @@ finder
                 
 fp
 =
+codecs
+.
+getreader
+(
+'
+utf
+-
+8
+'
+)
+(
 self
 .
 finder
@@ -1206,11 +1219,7 @@ filename
 .
 open
 (
-mode
-=
-'
-r
-'
+)
 )
             
 else

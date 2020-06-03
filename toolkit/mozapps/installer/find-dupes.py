@@ -340,15 +340,11 @@ f
 .
 open
 (
-'
-rb
-'
 )
 .
 read
 md5_chunk_size
 )
-                        
 b
 '
 '
