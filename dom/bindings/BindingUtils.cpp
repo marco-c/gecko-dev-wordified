@@ -5020,7 +5020,7 @@ aCx
 ifaceAndProtoJSClass
 -
 >
-mToString
+mFunToString
 )
 ;
 }

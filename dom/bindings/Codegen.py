@@ -5736,15 +5736,7 @@ depth
 hooks
 }
               
-"
-[
-object
-{
-name
-}
-Prototype
-]
-"
+nullptr
               
 {
 protoGetter
@@ -6447,17 +6439,11 @@ classString
 0
 ]
             
-toStringResult
+funToString
 =
 "
-[
-object
-%
-s
-]
+nullptr
 "
-%
-classString
             
 objectOps
 =
@@ -6474,9 +6460,11 @@ classString
 Function
 "
             
-toStringResult
+funToString
 =
 (
+"
+\
 "
 function
 %
@@ -6495,6 +6483,8 @@ code
 \
 n
 }
+\
+"
 "
 %
                               
@@ -6526,7 +6516,7 @@ make
 use
 of
 our
-toStringResult
+funToString
 .
             
 objectOps
@@ -6603,11 +6593,9 @@ depth
 hooks
 }
               
-"
 {
-toStringResult
+funToString
 }
-"
               
 {
 protoGetter
@@ -6660,9 +6648,9 @@ depth
 =
 depth
             
-toStringResult
+funToString
 =
-toStringResult
+funToString
             
 protoGetter
 =
