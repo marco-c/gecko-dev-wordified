@@ -144,9 +144,6 @@ netInterface
 bool
 TRR
 ;
-nsCString
-originAttributesSuffix
-;
 }
 ;
 struct
