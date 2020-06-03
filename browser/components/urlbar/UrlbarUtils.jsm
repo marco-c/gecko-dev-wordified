@@ -356,13 +356,13 @@ results
 that
 must
 be
-handled
+handed
 to
 the
 user
 asap
 .
-IMMEDIATE
+HEURISTIC
 :
 1
 /
