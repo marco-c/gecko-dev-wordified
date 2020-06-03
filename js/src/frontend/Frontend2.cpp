@@ -658,6 +658,14 @@ ImmutableScriptData
 immutableData
 )
 {
+using
+ImmutableFlags
+=
+js
+:
+:
+ImmutableScriptFlagsEnum
+;
 /
 /
 A

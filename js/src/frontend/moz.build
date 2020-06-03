@@ -230,11 +230,6 @@ AbstractScopePtr
 cpp
 '
 '
-BCEScriptStencil
-.
-cpp
-'
-'
 BytecodeCompiler
 .
 cpp
