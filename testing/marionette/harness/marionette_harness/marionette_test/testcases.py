@@ -68,8 +68,6 @@ sys
 import
 time
 import
-types
-import
 unittest
 import
 warnings
@@ -81,6 +79,8 @@ unittest
 case
 import
 SkipTest
+import
+six
 from
 marionette_driver
 .
@@ -439,10 +439,13 @@ for
 k
 v
 in
+list
+(
 attrs
 .
 items
 (
+)
 )
 :
             
@@ -556,6 +559,12 @@ name
 bases
 attrs
 )
+six
+.
+add_metaclass
+(
+MetaParameterized
+)
 class
 CommonTestCase
 (
@@ -564,10 +573,6 @@ unittest
 TestCase
 )
 :
-    
-__metaclass__
-=
-MetaParameterized
     
 match_re
 =
@@ -2326,12 +2331,9 @@ if
 isinstance
 (
 obj
-(
-type
-types
+six
 .
-ClassType
-)
+class_types
 )
 and
                     

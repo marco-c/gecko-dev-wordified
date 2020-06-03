@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+six
 from
 marionette_driver
 import
@@ -182,10 +184,11 @@ for
 key
 value
 in
-required_prefs
+six
 .
 iteritems
 (
+required_prefs
 )
 :
             
@@ -246,10 +249,11 @@ for
 key
 value
 in
-required_prefs
+six
 .
 iteritems
 (
+required_prefs
 )
 :
             
@@ -665,7 +669,9 @@ assertTrue
 isinstance
 (
 value
-basestring
+six
+.
+string_types
 )
 )
         

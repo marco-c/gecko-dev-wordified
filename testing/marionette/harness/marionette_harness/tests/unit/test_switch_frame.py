@@ -762,9 +762,10 @@ assertTrue
 foo
 "
 in
+str
+(
 e
-.
-message
+)
 )
     
 def

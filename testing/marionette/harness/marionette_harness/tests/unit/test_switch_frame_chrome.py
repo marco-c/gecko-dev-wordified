@@ -552,7 +552,8 @@ assertIn
 "
 foo
 "
+str
+(
 e
-.
-message
+)
 )

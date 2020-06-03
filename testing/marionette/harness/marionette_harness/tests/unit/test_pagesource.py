@@ -57,8 +57,16 @@ from
 __future__
 import
 absolute_import
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_harness
 import
@@ -125,8 +133,6 @@ format
 (
 mime
 charset
-urllib
-.
 quote
 (
 doc

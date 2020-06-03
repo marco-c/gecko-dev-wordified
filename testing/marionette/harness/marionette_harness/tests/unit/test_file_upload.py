@@ -59,14 +59,24 @@ import
 absolute_import
 import
 contextlib
-import
-urllib
 from
 tempfile
 import
 NamedTemporaryFile
 as
 tempfile
+import
+six
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 import
@@ -98,8 +108,6 @@ html
 .
 format
 (
-urllib
-.
 quote
 (
 "
@@ -126,8 +134,6 @@ html
 .
 format
 (
-urllib
-.
 quote
 (
 "
@@ -158,8 +164,6 @@ html
 .
 format
 (
-urllib
-.
 quote
 (
 "
@@ -329,22 +333,16 @@ exp
 None
         
 with
-contextlib
-.
-nested
-(
 tempfile
 (
-)
-tempfile
-(
-)
 )
 as
-(
 a
-b
+tempfile
+(
 )
+as
+b
 :
             
 input
@@ -591,22 +589,16 @@ self
 input
         
 with
-contextlib
-.
-nested
-(
 tempfile
 (
-)
-tempfile
-(
-)
 )
 as
-(
 a
-b
+tempfile
+(
 )
+as
+b
 :
             
 input
@@ -759,9 +751,14 @@ f
 .
 write
 (
+six
+.
+ensure_binary
+(
 "
 camembert
 "
+)
 )
             
 f

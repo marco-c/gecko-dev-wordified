@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+six
 from
 marionette_driver
 import
@@ -262,7 +264,9 @@ self
 marionette
 .
 session_id
-unicode
+six
+.
+text_type
 )
 )
     
@@ -292,7 +296,9 @@ self
 marionette
 .
 session_id
-unicode
+six
+.
+text_type
 )
 )
         

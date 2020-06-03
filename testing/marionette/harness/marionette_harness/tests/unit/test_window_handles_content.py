@@ -60,7 +60,17 @@ absolute_import
 import
 types
 import
+six
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 import
@@ -96,8 +106,6 @@ utf
 .
 format
 (
-urllib
-.
 quote
 (
 doc
@@ -188,9 +196,9 @@ self
 marionette
 .
 current_window_handle
-types
+six
 .
-StringTypes
+string_types
 )
         
 except
@@ -216,9 +224,9 @@ self
 assertIsInstance
 (
 handle
-types
+six
 .
-StringTypes
+string_types
 )
     
 def

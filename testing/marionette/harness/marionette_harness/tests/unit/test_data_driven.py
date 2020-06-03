@@ -57,6 +57,8 @@ from
 __future__
 import
 absolute_import
+import
+six
 from
 marionette_harness
 .
@@ -72,6 +74,12 @@ MetaParameterized
     
 MarionetteTestCase
 )
+six
+.
+add_metaclass
+(
+MetaParameterized
+)
 class
 Parameterizable
 (
@@ -79,9 +87,7 @@ object
 )
 :
     
-__metaclass__
-=
-MetaParameterized
+pass
 class
 TestDataDriven
 (
@@ -489,11 +495,9 @@ self
 .
 assertTrue
 (
-issubclass
+isinstance
 (
 MarionetteTestCase
-.
-__metaclass__
 MetaParameterized
 )
 )

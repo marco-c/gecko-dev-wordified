@@ -1574,7 +1574,9 @@ if
 isinstance
 (
 profile_path
-basestring
+six
+.
+string_types
 )
 :
                 
@@ -2264,11 +2266,6 @@ of
 }
 )
 '
-            
-reraise
-(
-NotImplementedError
-msg
 .
 format
 (
@@ -2278,6 +2275,14 @@ apps
 keys
 (
 )
+)
+            
+reraise
+(
+NotImplementedError
+NotImplementedError
+(
+msg
 )
 tb
 )

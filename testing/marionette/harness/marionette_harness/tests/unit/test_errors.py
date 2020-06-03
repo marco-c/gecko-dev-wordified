@@ -59,6 +59,8 @@ import
 absolute_import
 import
 sys
+import
+six
 from
 marionette_driver
 import
@@ -144,11 +146,15 @@ MarionetteException
         
 self
 .
-assertIsNone
+assertEquals
+(
+str
 (
 exc
-.
-message
+)
+'
+None
+'
 )
         
 self
@@ -335,7 +341,9 @@ stacktrace
         
 r
 =
-unicode
+six
+.
+text_type
 (
 exc
 )
@@ -428,10 +436,13 @@ self
 .
 assertIn
 (
-unicode_message
+six
 .
-encode
+ensure_str
 (
+unicode_message
+encoding
+=
 "
 utf
 -
