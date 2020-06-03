@@ -112,12 +112,6 @@ import
 MachCommandBase
 )
 from
-mozbuild
-.
-virtualenv
-import
-VirtualenvManager
-from
 mach
 .
 decorators
@@ -1775,6 +1769,13 @@ mozbuild
 pythonutil
 import
 find_python3_executable
+        
+from
+mozbuild
+.
+virtualenv
+import
+VirtualenvManager
         
 default_manager
 =
