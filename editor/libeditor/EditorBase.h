@@ -12956,6 +12956,7 @@ nsIContent
 *
 GetPreviousNodeInternal
 (
+const
 nsINode
 &
 aNode
@@ -13114,6 +13115,7 @@ nsIContent
 *
 GetNextNodeInternal
 (
+const
 nsINode
 &
 aNode
@@ -13122,7 +13124,7 @@ aFindEditableNode
 bool
 aFindAnyDataNode
 bool
-bNoBlockCrossing
+aNoBlockCrossing
 )
 const
 ;
