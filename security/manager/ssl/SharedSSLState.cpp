@@ -597,7 +597,7 @@ mShouldClearSessionCache
 nsNSSComponent
 :
 :
-ClearSSLExternalAndInternalSessionCacheNative
+DoClearSSLExternalAndInternalSessionCache
 (
 )
 ;

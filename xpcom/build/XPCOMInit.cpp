@@ -4488,7 +4488,7 @@ NSS_IsInitialized
 nsNSSComponent
 :
 :
-ClearSSLExternalAndInternalSessionCacheNative
+DoClearSSLExternalAndInternalSessionCache
 (
 )
 ;

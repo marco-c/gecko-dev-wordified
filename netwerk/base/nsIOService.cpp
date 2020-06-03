@@ -2181,13 +2181,6 @@ SetValidationOptionsCommon
 )
 ;
 }
-nsNSSComponent
-:
-:
-ClearSSLExternalAndInternalSessionCacheNative
-(
-)
-;
 }
 nsresult
 nsIOService
