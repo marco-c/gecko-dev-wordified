@@ -28344,12 +28344,6 @@ trackQuota
 usageInfo
 :
 nullptr
-/
-*
-aForGetUsage
-*
-/
-false
 )
 ;
 if
@@ -48068,12 +48062,6 @@ aGroup
 aOrigin
 mCanceled
 aUsageInfo
-/
-*
-aForGetUsage
-*
-/
-true
 )
 ;
 }
