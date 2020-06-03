@@ -29744,12 +29744,7 @@ temp
 assignSnapshot
 (
 lir
-ins
--
->
-bailoutKind
-(
-)
+Bailout_ShapeGuard
 )
 ;
 defineReuseInput
@@ -29794,12 +29789,7 @@ BogusTemp
 assignSnapshot
 (
 lir
-ins
--
->
-bailoutKind
-(
-)
+Bailout_ShapeGuard
 )
 ;
 add
