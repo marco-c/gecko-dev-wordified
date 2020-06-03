@@ -44363,16 +44363,6 @@ return
 needsHoleCheck_
 ;
 }
-void
-disableHoleCheck
-(
-)
-{
-needsHoleCheck_
-=
-false
-;
-}
 bool
 loadDoubles
 (
