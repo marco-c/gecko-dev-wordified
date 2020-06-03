@@ -302,9 +302,6 @@ foregroundDelay
 5000
 ;
 var
-browserName
-;
-var
 isGecko
 =
 false
@@ -4332,12 +4329,6 @@ csPort
 config
 .
 cs_port
-;
-browserName
-=
-config
-.
-browser
 ;
 benchmarkPort
 =
