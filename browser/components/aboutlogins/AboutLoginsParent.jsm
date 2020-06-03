@@ -1959,6 +1959,8 @@ messageText
 value
 :
 "
+NOT
+SUPPORTED
 "
 }
 ;
