@@ -67,12 +67,6 @@ from
 logger
 import
 NotebookLogger
-from
-.
-.
-transformer
-import
-Transformer
 logger
 =
 NotebookLogger
@@ -140,9 +134,6 @@ n
 )
 class
 FrameRetriever
-(
-Transformer
-)
 :
     
 entry_number

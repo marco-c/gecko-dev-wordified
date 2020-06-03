@@ -505,12 +505,24 @@ ptnb_str
 "
 ]
     
+#
+Set
+a
+custom
+transformer
+.
+    
 ptnb
 .
 transformer
 =
+Transformer
+(
+[
+]
 SingleJsonRetriever
 (
+)
 )
     
 #

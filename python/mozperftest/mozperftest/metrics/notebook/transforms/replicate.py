@@ -53,17 +53,8 @@ MPL
 0
 /
 .
-from
-.
-.
-transformer
-import
-Transformer
 class
 ReplicateRetriever
-(
-Transformer
-)
 :
     
 entry_number
