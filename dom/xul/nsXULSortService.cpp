@@ -1244,8 +1244,6 @@ Compare
 aLeft
 aRight
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

@@ -6000,8 +6000,6 @@ Equals
 (
 token
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -17554,10 +17552,6 @@ iter
 uploadContentType
 )
 ;
-const
-nsCaseInsensitiveCStringComparator
-cmp
-;
 while
 (
 iter
@@ -17575,7 +17569,7 @@ iter
 Equals
 (
 charset
-cmp
+nsCaseInsensitiveCStringComparator
 )
 )
 {
@@ -22883,10 +22877,6 @@ nsACString
 aName
 )
 {
-const
-nsCaseInsensitiveCStringComparator
-ignoreCase
-;
 for
 (
 RequestHeaders
@@ -22908,7 +22898,7 @@ mName
 Equals
 (
 aName
-ignoreCase
+nsCaseInsensitiveCStringComparator
 )
 )
 {

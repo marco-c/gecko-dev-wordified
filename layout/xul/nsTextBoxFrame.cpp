@@ -4670,8 +4670,6 @@ FindInReadable
 mAccessKey
 mTitle
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 return
@@ -5109,8 +5107,6 @@ mAccessKey
 start
 end
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -5125,8 +5121,6 @@ mAccessKey
 start
 end
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

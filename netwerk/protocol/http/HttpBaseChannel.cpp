@@ -8941,8 +8941,6 @@ Equals
 identity
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

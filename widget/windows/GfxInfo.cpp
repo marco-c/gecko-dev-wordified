@@ -1844,8 +1844,6 @@ L
 QCOM
 "
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -12508,8 +12506,6 @@ DeviceVendor
 Intel
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -12529,8 +12525,6 @@ DeviceVendor
 NVIDIA
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -12550,8 +12544,6 @@ DeviceVendor
 ATI
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -12571,8 +12563,6 @@ DeviceVendor
 Microsoft
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -12592,8 +12582,6 @@ DeviceVendor
 Parallels
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -12613,8 +12601,6 @@ DeviceVendor
 Qualcomm
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &

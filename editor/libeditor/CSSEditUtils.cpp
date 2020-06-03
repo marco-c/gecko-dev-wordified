@@ -7040,8 +7040,6 @@ Equals
 (
 aValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -7055,8 +7053,6 @@ Equals
 (
 aValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -7187,8 +7183,6 @@ Equals
 (
 valueStringNorm
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -7242,8 +7236,6 @@ Equals
 (
 aValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

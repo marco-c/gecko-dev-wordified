@@ -5818,9 +5818,6 @@ aOther
 )
 const
 {
-nsCaseInsensitiveStringComparator
-comp
-;
 return
 mChars
 .
@@ -5829,7 +5826,7 @@ Equals
 aOther
 .
 mChars
-comp
+nsCaseInsensitiveStringComparator
 )
 ;
 }

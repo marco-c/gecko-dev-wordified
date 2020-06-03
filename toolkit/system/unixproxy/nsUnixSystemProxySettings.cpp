@@ -776,8 +776,6 @@ StringEndsWith
 aHost
 hostStr
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 return
@@ -1761,8 +1759,6 @@ Equals
 (
 aHost
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 return
@@ -1791,8 +1787,6 @@ aIgnore
 1
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 return

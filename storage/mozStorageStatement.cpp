@@ -1004,9 +1004,10 @@ it
 s
 expensive
 !
-const
-nsCaseInsensitiveCStringComparator
+auto
 c
+=
+nsCaseInsensitiveCStringComparator
 ;
 nsACString
 :

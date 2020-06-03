@@ -14478,8 +14478,6 @@ Equals
 (
 sourceHost
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

@@ -7982,8 +7982,6 @@ url
 "
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

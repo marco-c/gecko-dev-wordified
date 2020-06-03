@@ -6481,8 +6481,6 @@ Equals
 (
 aKey
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 return

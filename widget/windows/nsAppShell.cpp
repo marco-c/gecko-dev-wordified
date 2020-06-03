@@ -1906,8 +1906,6 @@ dll
 "
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

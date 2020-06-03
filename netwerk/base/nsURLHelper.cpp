@@ -6285,8 +6285,6 @@ type
 typeEnd
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 if

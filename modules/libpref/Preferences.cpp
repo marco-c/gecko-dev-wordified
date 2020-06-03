@@ -26724,8 +26724,6 @@ js
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

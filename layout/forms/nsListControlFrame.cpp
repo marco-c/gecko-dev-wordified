@@ -16179,8 +16179,6 @@ false
 )
 incrementalString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

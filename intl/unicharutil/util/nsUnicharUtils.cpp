@@ -1324,11 +1324,6 @@ ch
 }
 int32_t
 nsCaseInsensitiveStringComparator
-:
-:
-operator
-(
-)
 (
 const
 char16_t
@@ -1343,7 +1338,6 @@ lLength
 uint32_t
 rLength
 )
-const
 {
 return
 (
@@ -1374,11 +1368,6 @@ rLength
 }
 int32_t
 nsCaseInsensitiveUTF8StringComparator
-:
-:
-operator
-(
-)
 (
 const
 char
@@ -1393,7 +1382,6 @@ lLength
 uint32_t
 rLength
 )
-const
 {
 return
 CaseInsensitiveCompare
@@ -1407,11 +1395,6 @@ rLength
 }
 int32_t
 nsASCIICaseInsensitiveStringComparator
-:
-:
-operator
-(
-)
 (
 const
 char16_t
@@ -1426,7 +1409,6 @@ lLength
 uint32_t
 rLength
 )
-const
 {
 if
 (

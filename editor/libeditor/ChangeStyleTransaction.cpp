@@ -646,8 +646,6 @@ nsDependentString
 start
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

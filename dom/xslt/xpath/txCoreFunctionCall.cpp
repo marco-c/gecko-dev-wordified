@@ -3615,9 +3615,7 @@ StringBeginsWith
 (
 lang
 arg
-txCaseInsensitiveStringComparator
-(
-)
+nsCaseInsensitiveStringComparator
 )
 &
 &

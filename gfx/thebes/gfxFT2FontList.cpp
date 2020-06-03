@@ -12118,8 +12118,6 @@ Equals
 (
 fullNameFamily
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -12196,8 +12194,6 @@ Equals
 (
 aFontName
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

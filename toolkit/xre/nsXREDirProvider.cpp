@@ -7972,8 +7972,6 @@ StringBeginsWith
 installPath
 strPathX86
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -8011,8 +8009,6 @@ nsDependentString
 path
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

@@ -2838,8 +2838,6 @@ Equals
 (
 currentGreDirPath
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -2921,8 +2919,6 @@ StringBeginsWith
 currentGreDirPath
 strPathX86
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -2960,8 +2956,6 @@ nsDependentString
 path
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -2998,8 +2992,6 @@ Equals
 (
 currentGreDirPath
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 #

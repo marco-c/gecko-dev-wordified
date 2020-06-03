@@ -134,10 +134,6 @@ ASCIIToLower
 (
 )
 .
-typedef
-nsCaseInsensitiveStringComparator
-txCaseInsensitiveStringComparator
-;
 /
 *
 *

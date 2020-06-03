@@ -4755,9 +4755,6 @@ top
 /
 down
 :
-nsCaseInsensitiveCStringComparator
-stringComparator
-;
 nsCOMPtr
 <
 nsIURI
@@ -4838,7 +4835,7 @@ scheme
 Equals
 (
 otherScheme
-stringComparator
+nsCaseInsensitiveCStringComparator
 )
 ;
 bool

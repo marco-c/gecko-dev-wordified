@@ -4337,8 +4337,6 @@ Equals
 (
 in
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

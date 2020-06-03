@@ -2228,8 +2228,6 @@ Equals
 (
 kUniversalMarshalerClsid
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

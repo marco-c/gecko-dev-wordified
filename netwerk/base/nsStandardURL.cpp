@@ -17028,8 +17028,6 @@ NS_LITERAL_CSTRING
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

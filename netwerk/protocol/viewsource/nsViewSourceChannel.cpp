@@ -4480,8 +4480,6 @@ Type
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 &
 &
@@ -4501,8 +4499,6 @@ Policy
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 &
 &
@@ -4526,8 +4522,6 @@ Only
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 &
 &
@@ -4547,8 +4541,6 @@ Options
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

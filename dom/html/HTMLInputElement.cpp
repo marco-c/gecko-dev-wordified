@@ -12322,8 +12322,6 @@ file
 "
 )
 nsASCIICaseInsensitiveStringComparator
-(
-)
 )
 )
 {

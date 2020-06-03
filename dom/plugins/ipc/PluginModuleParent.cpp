@@ -11665,8 +11665,6 @@ get
 (
 )
 nsCaseInsensitiveUTF8StringComparator
-(
-)
 )
 ;
 }

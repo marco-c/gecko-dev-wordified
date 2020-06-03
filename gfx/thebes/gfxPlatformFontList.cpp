@@ -2907,11 +2907,8 @@ aVal
 >
 int
 {
-nsCaseInsensitiveUTF8StringComparator
-cmp
-;
 return
-cmp
+nsCaseInsensitiveUTF8StringComparator
 (
 aName
 .

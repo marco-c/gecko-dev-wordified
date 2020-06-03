@@ -807,8 +807,6 @@ Equals
 (
 aDeviceId
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

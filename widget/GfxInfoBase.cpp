@@ -7152,8 +7152,6 @@ adapterVendorID
 1
 ]
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -7166,8 +7164,6 @@ adapterDeviceID
 1
 ]
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -7422,8 +7418,6 @@ Equals
 (
 aDesktopEnv
 nsCaseInsensitiveStringComparator
-(
-)
 )
 |
 |
@@ -7442,8 +7436,6 @@ DesktopEnvironment
 All
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -7470,8 +7462,6 @@ Equals
 (
 aWindowProtocol
 nsCaseInsensitiveStringComparator
-(
-)
 )
 |
 |
@@ -7490,8 +7480,6 @@ WindowProtocol
 All
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -7518,8 +7506,6 @@ Equals
 (
 aAdapterVendor
 nsCaseInsensitiveStringComparator
-(
-)
 )
 |
 |
@@ -7538,8 +7524,6 @@ DeviceVendor
 All
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -7566,8 +7550,6 @@ Equals
 (
 aDriverVendor
 nsCaseInsensitiveStringComparator
-(
-)
 )
 |
 |
@@ -7586,8 +7568,6 @@ DriverVendor
 All
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

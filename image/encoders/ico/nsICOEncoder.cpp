@@ -1681,8 +1681,6 @@ Equals
 format
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -1699,8 +1697,6 @@ Equals
 png
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -1723,8 +1719,6 @@ Equals
 bmp
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -1775,8 +1769,6 @@ Equals
 bpp
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

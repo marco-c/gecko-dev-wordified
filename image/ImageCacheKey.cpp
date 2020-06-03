@@ -620,8 +620,6 @@ aOther
 .
 mIsolationKey
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

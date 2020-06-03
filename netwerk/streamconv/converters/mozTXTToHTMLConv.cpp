@@ -179,6 +179,18 @@ mozilla
 :
 IsAscii
 ;
+using
+mozilla
+:
+:
+IsAsciiAlpha
+;
+using
+mozilla
+:
+:
+IsAsciiDigit
+;
 const
 double
 growthRate
@@ -4488,8 +4500,6 @@ rep
 aRepLen
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 return
@@ -7363,8 +7373,6 @@ From
 minlength
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 /

@@ -2031,8 +2031,6 @@ Equals
 (
 aFamilyName
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
