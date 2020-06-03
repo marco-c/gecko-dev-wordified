@@ -816,7 +816,9 @@ async
 onTargetAvailable
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -837,8 +839,6 @@ onChangesFrontDestroyed
 ;
 if
 (
-targetFront
-.
 isTopLevel
 )
 {
@@ -862,7 +862,9 @@ async
 onTargetDestroyed
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -883,8 +885,6 @@ onChangesFrontDestroyed
 ;
 if
 (
-targetFront
-.
 isTopLevel
 )
 {

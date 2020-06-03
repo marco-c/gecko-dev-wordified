@@ -70,7 +70,9 @@ function
 (
 {
 targetList
+targetType
 targetFront
+isTopLevel
 isFissionEnabledOnContentToolbox
 onAvailable
 }
@@ -168,13 +170,9 @@ isFissionEnabledOnContentToolbox
 const
 isAllowed
 =
-targetFront
-.
 isTopLevel
 |
 |
-targetFront
-.
 targetType
 =
 =
@@ -187,8 +185,6 @@ PROCESS
 |
 |
 (
-targetFront
-.
 targetType
 =
 =

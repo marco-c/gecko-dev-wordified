@@ -2111,7 +2111,9 @@ async
 _onTargetAvailable
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -2146,8 +2148,6 @@ iframes
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {
@@ -2463,7 +2463,9 @@ e
 _onTargetDestroyed
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -2498,8 +2500,6 @@ iframes
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {

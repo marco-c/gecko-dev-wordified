@@ -1586,7 +1586,9 @@ async
 _onTargetAvailable
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -1603,8 +1605,6 @@ one
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {
@@ -1656,7 +1656,9 @@ _getAccessibilityFront
 _onTargetDestroyed
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -1673,8 +1675,6 @@ one
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {

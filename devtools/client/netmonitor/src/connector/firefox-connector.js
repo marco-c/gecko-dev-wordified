@@ -760,6 +760,7 @@ onTargetAvailable
 (
 {
 targetFront
+isTopLevel
 isTargetSwitching
 }
 )
@@ -767,8 +768,6 @@ isTargetSwitching
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {
