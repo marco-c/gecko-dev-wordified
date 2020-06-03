@@ -454,6 +454,11 @@ Sink
 \
 _
 (
+FoldLoadsWithUnbox
+)
+\
+_
+(
 RemoveUnnecessaryBitops
 )
 \
