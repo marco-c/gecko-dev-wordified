@@ -1146,6 +1146,8 @@ aInitialSecurityCheckDone
 bool
 aIsThirdPartyRequest
 bool
+aIsThirdPartyContextToTopWindow
+bool
 aIsFormSubmission
 bool
 aSendCSPViolationEvents
@@ -1652,6 +1654,9 @@ mInitialSecurityCheckDone
 ;
 bool
 mIsThirdPartyContext
+;
+bool
+mIsThirdPartyContextToTopWindow
 ;
 bool
 mIsFormSubmission
