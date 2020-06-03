@@ -5508,9 +5508,6 @@ return
 NS_OK
 ;
 }
-#
-ifndef
-ANDROID
 /
 /
 If
@@ -5687,8 +5684,6 @@ ShowPopup
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
