@@ -3756,7 +3756,7 @@ s
 in
 variants
 .
-iteritems
+items
 (
 )
 ]
