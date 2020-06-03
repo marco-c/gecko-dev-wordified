@@ -679,17 +679,6 @@ GetData
 )
 override
 ;
-int32_t
-GetMaxRefreshRate
-(
-)
-override
-{
-return
--
-1
-;
-}
 static
 void
 AddCollector
