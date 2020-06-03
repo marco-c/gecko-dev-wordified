@@ -9588,7 +9588,7 @@ position
 (
 )
 ;
-JS_DIAGNOSTICS_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 rope
 -
@@ -9612,7 +9612,7 @@ while
 true
 )
 {
-JS_DIAGNOSTICS_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 rope
 -
@@ -9631,7 +9631,7 @@ TraceKind
 String
 )
 ;
-JS_DIAGNOSTICS_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 rope
 -
