@@ -206,6 +206,10 @@ mWrDCompWinEnabled
 (
 false
 )
+mWrCompositorDCompRequired
+(
+false
+)
 mWrPictureCaching
 (
 false
@@ -375,6 +379,9 @@ mWrForceAngleNoGPUProcess
 ;
 bool
 mWrDCompWinEnabled
+;
+bool
+mWrCompositorDCompRequired
 ;
 bool
 mWrPictureCaching

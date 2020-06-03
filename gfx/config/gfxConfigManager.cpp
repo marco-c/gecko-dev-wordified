@@ -444,6 +444,10 @@ IsWin10OrLater
 (
 )
 ;
+mWrCompositorDCompRequired
+=
+true
+;
 #
 else
 mHwStretchingSupport
@@ -2195,6 +2199,9 @@ mFeatureWrDComp
 IsEnabled
 (
 )
+&
+&
+mWrCompositorDCompRequired
 )
 {
 mFeatureWrCompositor
