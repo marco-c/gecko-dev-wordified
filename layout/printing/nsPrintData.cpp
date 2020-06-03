@@ -401,10 +401,6 @@ mPrintDocList
 (
 0
 )
-mIsIFrameSelected
-(
-false
-)
 mIsParentAFrameSet
 (
 false
