@@ -327,9 +327,9 @@ static
 nsresult
 CreateFromLoadURIOptions
 (
-nsISupports
+BrowsingContext
 *
-aConsumer
+aBrowsingContext
 const
 nsAString
 &
