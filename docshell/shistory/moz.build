@@ -148,6 +148,11 @@ ChildSHistory
 .
 h
 '
+'
+SessionHistoryEntry
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -170,6 +175,11 @@ cpp
 '
 '
 nsSHistory
+.
+cpp
+'
+'
+SessionHistoryEntry
 .
 cpp
 '
