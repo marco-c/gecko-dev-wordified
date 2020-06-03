@@ -854,6 +854,9 @@ vpsrad
 vpsllx
 =
 6
+vpslldq
+=
+7
 }
 ;
 enum
@@ -1033,7 +1036,10 @@ OP2_XORPD_VpdWpd
 OP2_PUNPCKLBW_VdqWdq
 =
 0x60
-OP2_PUNPCKLDQ
+OP2_PUNPCKLWD_VdqWdq
+=
+0x61
+OP2_PUNPCKLDQ_VdqWdq
 =
 0x62
 OP2_PACKSSWB_VdqWdq
@@ -1051,6 +1057,15 @@ OP2_PCMPGTD_VdqWdq
 OP2_PACKUSWB_VdqWdq
 =
 0x67
+OP2_PUNPCKHBW_VdqWdq
+=
+0x68
+OP2_PUNPCKHWD_VdqWdq
+=
+0x69
+OP2_PUNPCKHDQ_VdqWdq
+=
+0x6A
 OP2_PACKSSDW_VdqWdq
 =
 0x6B
