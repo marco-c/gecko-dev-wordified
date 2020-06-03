@@ -9072,7 +9072,7 @@ self
 .
 gecko
 .
-mAllowZoomAndMinSize
+mAllowZoom
 =
 v
 .
@@ -9103,13 +9103,13 @@ self
 .
 gecko
 .
-mAllowZoomAndMinSize
+mAllowZoom
 =
 other
 .
 gecko
 .
-mAllowZoomAndMinSize
+mAllowZoom
 ;
 }
 #
@@ -9181,7 +9181,7 @@ self
 .
 gecko
 .
-mAllowZoomAndMinSize
+mAllowZoom
 )
 }
 <
