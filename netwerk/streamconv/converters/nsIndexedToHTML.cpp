@@ -1351,6 +1351,14 @@ rv
 return
 rv
 ;
+file
+-
+>
+SetFollowLinks
+(
+true
+)
+;
 nsAutoCString
 url
 ;
