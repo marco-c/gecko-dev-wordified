@@ -1486,6 +1486,15 @@ separated
 requested
 scopes
 *
+param
+{
+String
+}
+clientId
+oauth
+client
+id
+*
 /
 async
 getScopedKeys
