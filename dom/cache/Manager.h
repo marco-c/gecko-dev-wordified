@@ -185,7 +185,7 @@ class
 nsIInputStream
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -1517,7 +1517,7 @@ mManagerId
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
 mIOThread
 ;
@@ -1751,8 +1751,10 @@ SafeRefPtr
 ManagerId
 >
 aManagerId
-nsIThread
-*
+already_AddRefed
+<
+nsISerialEventTarget
+>
 aIOThread
 const
 ConstructorGuard
