@@ -136,6 +136,11 @@ mozilla_css_Loader_h
 #
 include
 <
+tuple
+>
+#
+include
+<
 utility
 >
 #
@@ -2460,7 +2465,10 @@ Loading
 Complete
 }
 ;
-Tuple
+std
+:
+:
+tuple
 <
 RefPtr
 <
@@ -2547,7 +2555,10 @@ is
 not
 null
 .
-Tuple
+std
+:
+:
+tuple
 <
 RefPtr
 <
