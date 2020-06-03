@@ -518,6 +518,20 @@ PropTypes
 func
 .
 isRequired
+highlightAccessible
+:
+PropTypes
+.
+func
+.
+isRequired
+unhighlightAccessible
+:
+PropTypes
+.
+func
+.
+isRequired
 }
 ;
 }
@@ -978,6 +992,8 @@ stopListeningForAccessibilityEvents
 audit
 enableAccessibility
 disableAccessibility
+highlightAccessible
+unhighlightAccessible
 }
 =
 this
@@ -1138,6 +1154,8 @@ doc
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
+highlightAccessible
+unhighlightAccessible
 }
 )
 )
@@ -1146,6 +1164,8 @@ endPanel
 RightSidebar
 (
 {
+highlightAccessible
+unhighlightAccessible
 toolbox
 }
 )
