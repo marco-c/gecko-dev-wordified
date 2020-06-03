@@ -1545,8 +1545,6 @@ No
 enum
 class
 IsPreload
-:
-uint8_t
 {
 No
 /
@@ -2903,6 +2901,7 @@ LoadSheet
 SheetLoadData
 &
 SheetState
+IsPreload
 )
 ;
 enum
