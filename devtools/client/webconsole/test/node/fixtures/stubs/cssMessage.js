@@ -317,13 +317,6 @@ isPromiseRejection
 :
 false
 }
-"
-type
-"
-:
-"
-pageError
-"
 }
 )
 ;
@@ -497,13 +490,6 @@ isPromiseRejection
 :
 false
 }
-"
-type
-"
-:
-"
-pageError
-"
 }
 )
 ;
