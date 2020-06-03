@@ -674,24 +674,15 @@ STRIP
 flags
 =
 substs
-[
-'
-STRIP_FLAGS
-'
-]
 .
-split
+get
 (
-)
-if
 '
 STRIP_FLAGS
 '
-in
-substs
-else
 [
 ]
+)
     
 cmd
 =
