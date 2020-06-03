@@ -10027,7 +10027,6 @@ isAsync
 )
 aTxn
 txnForImageBridge
-aRenderRoot
 )
 ;
 break
@@ -10161,10 +10160,6 @@ pipelineId
 )
 aTxn
 txnForImageBridge
-RenderRootForExternal
-(
-aRenderRoot
-)
 )
 ;
 break
@@ -10206,10 +10201,6 @@ pipelineId
 )
 aTxn
 txnForImageBridge
-RenderRootForExternal
-(
-aRenderRoot
-)
 )
 ;
 break
@@ -11862,13 +11853,6 @@ wr
 TransactionBuilder
 &
 aTxnForImageBridge
-const
-wr
-:
-:
-RenderRoot
-&
-aRenderRoot
 )
 {
 if

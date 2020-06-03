@@ -2874,11 +2874,6 @@ wr
 TransactionBuilder
 &
 aTxnForImageBridge
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 AsyncImagePipeline
