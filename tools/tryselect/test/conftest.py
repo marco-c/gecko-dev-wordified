@@ -584,6 +584,8 @@ fh
             
 presets
 =
+list
+(
 yaml
 .
 safe_load
@@ -593,6 +595,7 @@ fh
 .
 items
 (
+)
 )
         
 ids
