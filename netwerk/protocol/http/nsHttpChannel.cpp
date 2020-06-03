@@ -42186,6 +42186,14 @@ this
 )
 )
 ;
+AntiTrackingUtils
+:
+:
+ComputeIsThirdPartyToTopWindow
+(
+this
+)
+;
 static
 bool
 sRCWNInited
