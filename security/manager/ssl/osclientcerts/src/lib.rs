@@ -3244,7 +3244,7 @@ new
 (
 )
 ;
-info
+trace
 !
 (
 "
@@ -3278,7 +3278,7 @@ isize
 )
 }
 ;
-info
+trace
 !
 (
 "
