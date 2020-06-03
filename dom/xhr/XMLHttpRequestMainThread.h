@@ -1143,6 +1143,8 @@ ApplyToChannel
 nsIHttpChannel
 *
 aChannel
+bool
+aStripRequestBodyHeader
 )
 const
 ;
