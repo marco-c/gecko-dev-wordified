@@ -172,6 +172,14 @@ JSContext
 cx
 )
 ;
+void
+DestroyIsolate
+(
+Isolate
+*
+isolate
+)
+;
 bool
 CheckPatternSyntax
 (
