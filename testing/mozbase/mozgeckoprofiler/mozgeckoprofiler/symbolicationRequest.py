@@ -62,7 +62,7 @@ json
 import
 re
 import
-urllib2
+six
 from
 mozlog
 import
@@ -145,9 +145,41 @@ loops
 MAX_FORWARDED_REQUESTS
 =
 3
-"
-"
-"
+if
+six
+.
+PY2
+:
+    
+#
+Import
+for
+Python
+2
+    
+from
+urllib2
+import
+urlopen
+Request
+else
+:
+    
+#
+Import
+for
+Python
+3
+    
+from
+urllib
+.
+request
+import
+urlopen
+Request
+    
+#
 Symbolication
 is
 broken
@@ -169,6 +201,8 @@ use
 basestring
 '
 .
+    
+#
 But
 for
 python
@@ -191,6 +225,8 @@ str
 type
 works
 .
+    
+#
 So
 we
 force
@@ -202,16 +238,6 @@ to
 str
 '
 .
-"
-"
-"
-try
-:
-    
-basestring
-except
-NameError
-:
     
 basestring
 =
@@ -1374,8 +1400,6 @@ json
                 
 requestHandle
 =
-urllib2
-.
 Request
 (
 url
@@ -1388,8 +1412,6 @@ try
                     
 response
 =
-urllib2
-.
 urlopen
 (
 requestHandle
