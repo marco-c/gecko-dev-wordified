@@ -760,6 +760,12 @@ listenForWorkers
 =
 false
 ;
+this
+.
+listenForServiceWorkers
+=
+false
+;
 }
 /
 /
@@ -1277,7 +1283,7 @@ if
 (
 this
 .
-listenForWorkers
+listenForServiceWorkers
 &
 &
 !
