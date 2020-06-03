@@ -18828,6 +18828,7 @@ EditorBase
 :
 FindNextLeafNode
 (
+const
 nsINode
 *
 aCurrentNode
@@ -18873,6 +18874,7 @@ arguments
 "
 )
 ;
+const
 nsINode
 *
 cur
@@ -19157,6 +19159,7 @@ EditorBase
 :
 FindNode
 (
+const
 nsINode
 *
 aCurrentNode
