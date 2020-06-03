@@ -6362,6 +6362,7 @@ user
 bool
 IsVisibleBRElement
 (
+const
 nsINode
 *
 aNode
