@@ -7003,13 +7003,9 @@ AbstractMainThread
 /
 /
 Idempotent
-static
 void
-DestroyNonRealtimeInstance
+ForceShutDown
 (
-MediaTrackGraph
-*
-aGraph
 )
 ;
 virtual
