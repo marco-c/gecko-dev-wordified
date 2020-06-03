@@ -741,6 +741,17 @@ below
 the
 viewport
 )
+await
+pushPref
+(
+"
+ui
+.
+prefersReducedMotion
+"
+0
+)
+;
 info
 (
 "

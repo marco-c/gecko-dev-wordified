@@ -291,6 +291,17 @@ mSystemUsesDarkTheme
 bool
 mSystemUsesDarkThemeCached
 ;
+int32_t
+mPrefersReducedMotion
+=
+-
+1
+;
+bool
+mPrefersReducedMotionCached
+=
+false
+;
 nscolor
 mColorTextSelectBackground
 ;
