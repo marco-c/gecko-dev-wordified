@@ -477,8 +477,8 @@ paths
 to
 the
 data
-(
             
+(
 or
 the
 data
@@ -796,6 +796,39 @@ transformer
 "
                 
 )
+            
+#
+Get
+the
+transform
+options
+if
+available
+            
+self
+.
+results
+[
+name
+]
+[
+"
+options
+"
+]
+=
+res
+.
+get
+(
+"
+transformer
+-
+options
+"
+{
+}
+)
         
 if
 not
@@ -1072,6 +1105,7 @@ ptnb
 =
 PerftestNotebook
 (
+                
 config
 [
 "
@@ -1079,7 +1113,13 @@ file_groups
 "
 ]
 config
+data_info
+[
+"
 transformer
+"
+]
+            
 )
             
 r
@@ -1088,6 +1128,17 @@ ptnb
 .
 process
 (
+no_iodide
+=
+True
+*
+*
+data_info
+[
+"
+options
+"
+]
 )
             
 self
