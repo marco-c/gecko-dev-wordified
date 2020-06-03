@@ -869,6 +869,23 @@ Mark
 Weak
 "
 13
+[
+                
+PhaseKind
+(
+"
+SWEEP_MARK_GRAY_WEAK
+"
+"
+Mark
+Gray
+and
+Weak
+"
+16
+)
+            
+]
 )
             
 PhaseKind
@@ -895,20 +912,6 @@ Mark
 Gray
 "
 15
-)
-            
-PhaseKind
-(
-"
-SWEEP_MARK_GRAY_WEAK
-"
-"
-Mark
-Gray
-and
-Weak
-"
-16
 )
         
 ]
