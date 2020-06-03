@@ -10704,10 +10704,14 @@ function
 index
 is
 not
+declared
 in
-an
-element
-segment
+a
+section
+before
+the
+code
+section
 "
 )
 ;
