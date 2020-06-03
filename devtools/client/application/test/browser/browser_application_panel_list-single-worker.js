@@ -321,7 +321,6 @@ resources
 service
 -
 workers
-/
 "
 ;
 ok

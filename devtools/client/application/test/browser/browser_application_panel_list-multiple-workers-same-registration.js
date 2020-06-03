@@ -214,7 +214,6 @@ resources
 service
 -
 workers
-/
 "
 ;
 ok
