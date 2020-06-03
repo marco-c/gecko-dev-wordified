@@ -2483,9 +2483,9 @@ ccc
 .
 *
 Assign
-5
+4
 and
-6
+5
 which
 are
 otherwise
@@ -2496,7 +2496,7 @@ unassigned
 #
 define
 HB_MODIFIED_COMBINING_CLASS_CCC84
-5
+4
 /
 *
 length
@@ -2506,7 +2506,7 @@ mark
 #
 define
 HB_MODIFIED_COMBINING_CLASS_CCC91
-6
+5
 /
 *
 ai

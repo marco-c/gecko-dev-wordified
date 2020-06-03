@@ -2153,9 +2153,7 @@ if
 (
 unlikely
 (
-HB_UNICODE_GENERAL_CATEGORY_IS_MARK
-(
-_hb_glyph_info_get_general_category
+_hb_glyph_info_is_unicode_mark
 (
 &
 buffer
@@ -2165,7 +2163,6 @@ info
 [
 end
 ]
-)
 )
 )
 )
@@ -2355,9 +2352,7 @@ end
 if
 (
 !
-HB_UNICODE_GENERAL_CATEGORY_IS_MARK
-(
-_hb_glyph_info_get_general_category
+_hb_glyph_info_is_unicode_mark
 (
 &
 buffer
@@ -2367,7 +2362,6 @@ info
 [
 end
 ]
-)
 )
 )
 break
@@ -2907,9 +2901,7 @@ Jamo
 .
 *
 /
-HB_UNICODE_GENERAL_CATEGORY_IS_MARK
-(
-_hb_glyph_info_get_general_category
+_hb_glyph_info_is_unicode_mark
 (
 &
 buffer
@@ -2917,7 +2909,6 @@ buffer
 >
 cur
 (
-)
 )
 )
 )

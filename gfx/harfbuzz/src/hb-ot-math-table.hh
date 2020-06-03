@@ -1808,7 +1808,6 @@ mathKernInfoRecords
 *
 Array
 of
-*
 MathKernInfoRecords
 *
 per

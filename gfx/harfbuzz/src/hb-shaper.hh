@@ -707,6 +707,7 @@ true
 *
 Require
 semicolon
+after
 .
 *
 /
