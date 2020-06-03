@@ -701,6 +701,13 @@ aStats
 mTrickledIceCandidateStats
 )
 ;
+SetRTCStats
+(
+aStats
+.
+mDataChannelStats
+)
+;
 }
 void
 RTCStatsReport
