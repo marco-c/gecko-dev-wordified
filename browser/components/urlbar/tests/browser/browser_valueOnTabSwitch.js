@@ -135,7 +135,7 @@ the
 url
 due
 to
-openViewOnFocus
+autoOpen
 .
 await
 SpecialPowers

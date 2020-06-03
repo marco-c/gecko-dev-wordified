@@ -508,16 +508,6 @@ queryContext
 )
 {
 return
-UrlbarPrefs
-.
-get
-(
-"
-openViewOnFocus
-"
-)
-&
-&
 !
 queryContext
 .
