@@ -1521,10 +1521,10 @@ exnStack
 )
 )
 {
-JS
+js
 :
 :
-ErrorReportBuilder
+ErrorReport
 jsReport
 (
 aCx
@@ -1539,10 +1539,10 @@ init
 (
 aCx
 exnStack
-JS
+js
 :
 :
-ErrorReportBuilder
+ErrorReport
 :
 :
 WithSideEffects
