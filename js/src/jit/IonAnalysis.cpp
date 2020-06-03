@@ -27683,7 +27683,7 @@ MDefinition
 Opcode
 :
 :
-StoreSlot
+StoreDynamicSlot
 :
 break
 ;
@@ -27897,7 +27897,7 @@ isStoreFixedSlot
 ndef
 -
 >
-isStoreSlot
+isStoreDynamicSlot
 (
 )
 )
@@ -28612,7 +28612,7 @@ MDefinition
 Opcode
 :
 :
-LoadSlot
+LoadDynamicSlot
 :
 if
 (
@@ -28939,7 +28939,7 @@ MDefinition
 Opcode
 :
 :
-LoadSlot
+LoadDynamicSlot
 :
 case
 MDefinition
@@ -28948,7 +28948,7 @@ MDefinition
 Opcode
 :
 :
-StoreSlot
+StoreDynamicSlot
 :
 case
 MDefinition

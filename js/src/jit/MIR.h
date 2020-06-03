@@ -52671,7 +52671,7 @@ object
 )
 .
 class
-MLoadSlot
+MLoadDynamicSlot
 :
 public
 MUnaryInstruction
@@ -52684,7 +52684,7 @@ Data
 uint32_t
 slot_
 ;
-MLoadSlot
+MLoadDynamicSlot
 (
 MDefinition
 *
@@ -52736,7 +52736,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-LoadSlot
+LoadDynamicSlot
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -52780,7 +52780,7 @@ if
 ins
 -
 >
-isLoadSlot
+isLoadDynamicSlot
 (
 )
 )
@@ -52799,7 +52799,7 @@ slot
 ins
 -
 >
-toLoadSlot
+toLoadDynamicSlot
 (
 )
 -
@@ -52896,7 +52896,7 @@ override
 endif
 ALLOW_CLONE
 (
-MLoadSlot
+MLoadDynamicSlot
 )
 }
 ;
@@ -53355,7 +53355,7 @@ object
 )
 .
 class
-MStoreSlot
+MStoreDynamicSlot
 :
 public
 MBinaryInstruction
@@ -53384,7 +53384,7 @@ slotType_
 bool
 needsBarrier_
 ;
-MStoreSlot
+MStoreDynamicSlot
 (
 MDefinition
 *
@@ -53441,7 +53441,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-StoreSlot
+StoreDynamicSlot
 )
 NAMED_OPERANDS
 (
@@ -53455,7 +53455,7 @@ value
 )
 )
 static
-MStoreSlot
+MStoreDynamicSlot
 *
 New
 (
@@ -53477,7 +53477,7 @@ new
 (
 alloc
 )
-MStoreSlot
+MStoreDynamicSlot
 (
 slots
 slot
@@ -53487,7 +53487,7 @@ false
 ;
 }
 static
-MStoreSlot
+MStoreDynamicSlot
 *
 NewBarriered
 (
@@ -53509,7 +53509,7 @@ new
 (
 alloc
 )
-MStoreSlot
+MStoreDynamicSlot
 (
 slots
 slot
@@ -53618,7 +53618,7 @@ override
 endif
 ALLOW_CLONE
 (
-MStoreSlot
+MStoreDynamicSlot
 )
 }
 ;

@@ -2408,7 +2408,7 @@ auto
 *
 load
 =
-MLoadSlot
+MLoadDynamicSlot
 :
 :
 New
@@ -2658,7 +2658,7 @@ auto
 *
 load
 =
-MLoadSlot
+MLoadDynamicSlot
 :
 :
 New
@@ -3588,7 +3588,7 @@ auto
 *
 store
 =
-MStoreSlot
+MStoreDynamicSlot
 :
 :
 NewBarriered
