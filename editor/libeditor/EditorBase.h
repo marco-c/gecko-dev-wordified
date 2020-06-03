@@ -10833,6 +10833,7 @@ node
 bool
 IsRoot
 (
+const
 nsINode
 *
 inNode
@@ -10842,6 +10843,7 @@ const
 bool
 IsEditorRoot
 (
+const
 nsINode
 *
 aNode
@@ -10869,6 +10871,7 @@ node
 bool
 IsDescendantOfRoot
 (
+const
 nsINode
 *
 inNode
@@ -10878,6 +10881,7 @@ const
 bool
 IsDescendantOfEditorRoot
 (
+const
 nsINode
 *
 aNode

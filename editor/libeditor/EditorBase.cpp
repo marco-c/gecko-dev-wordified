@@ -19295,6 +19295,7 @@ EditorBase
 :
 IsRoot
 (
+const
 nsINode
 *
 inNode
@@ -19335,6 +19336,7 @@ EditorBase
 :
 IsEditorRoot
 (
+const
 nsINode
 *
 aNode
@@ -19375,6 +19377,7 @@ EditorBase
 :
 IsDescendantOfRoot
 (
+const
 nsINode
 *
 inNode
@@ -19431,6 +19434,7 @@ EditorBase
 :
 IsDescendantOfEditorRoot
 (
+const
 nsINode
 *
 aNode
