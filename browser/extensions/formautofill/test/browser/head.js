@@ -30,7 +30,6 @@ SYNC_ADDRESSES_PREF
 SYNC_CREDITCARDS_PREF
 SYNC_CREDITCARDS_AVAILABLE_PREF
 CREDITCARDS_USED_STATUS_PREF
-DEFAULT_REGION_PREF
 sleep
 expectPopupOpen
 openPopupOn
@@ -382,17 +381,6 @@ engine
 creditcards
 .
 available
-"
-;
-const
-DEFAULT_REGION_PREF
-=
-"
-browser
-.
-search
-.
-region
 "
 ;
 const
