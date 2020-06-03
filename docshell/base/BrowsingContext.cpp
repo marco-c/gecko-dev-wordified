@@ -8426,6 +8426,13 @@ parent
 .
 if
 (
+IsContent
+(
+)
+)
+{
+if
+(
 RefPtr
 <
 BrowsingContext
@@ -8505,6 +8512,7 @@ mOriginAttributes
 )
 )
 ;
+}
 }
 if
 (
