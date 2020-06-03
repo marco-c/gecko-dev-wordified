@@ -455,6 +455,9 @@ cookiePermissions
 bool
 isFixed
 ;
+nsString
+firstPartyDomain
+;
 }
 ;
 /

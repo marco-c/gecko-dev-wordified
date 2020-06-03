@@ -1111,6 +1111,14 @@ nsIChannel
 aChannel
 )
 ;
+void
+SetFirstPartyDomain
+(
+nsIURI
+*
+aURI
+)
+;
 /
 /
 Utility
@@ -1263,6 +1271,9 @@ mCookiePermissions
 ;
 bool
 mIsOnContentBlockingAllowList
+;
+nsString
+mFirstPartyDomain
 ;
 State
 mState
