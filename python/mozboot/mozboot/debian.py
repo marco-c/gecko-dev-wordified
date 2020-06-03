@@ -1473,7 +1473,7 @@ run_as_root
 (
 [
 '
-pip
+pip3
 '
 '
 install
