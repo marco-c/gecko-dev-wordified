@@ -12700,6 +12700,7 @@ WrReferenceFrameKind
 {
 Transform
 Perspective
+Zoom
 }
 /
 /
@@ -13547,6 +13548,16 @@ Perspective
 {
 scrolling_relative_to
 }
+WrReferenceFrameKind
+:
+:
+Zoom
+=
+>
+ReferenceFrameKind
+:
+:
+Zoom
 }
 ;
 wr_spatial_id

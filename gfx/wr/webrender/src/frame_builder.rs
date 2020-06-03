@@ -114,7 +114,6 @@ spatial_tree
 SpatialTree
 ROOT_SPATIAL_NODE_INDEX
 SpatialNodeIndex
-CoordinateSystemId
 }
 ;
 use
@@ -1145,6 +1144,10 @@ shared_clips
 [
 ClipInstance
 ]
+spatial_tree
+:
+&
+SpatialTree
 )
 {
 self
@@ -1163,6 +1166,7 @@ clip_chain_stack
 push_surface
 (
 shared_clips
+spatial_tree
 )
 ;
 }
@@ -3336,19 +3340,6 @@ as
 usize
 ]
 ;
-spatial_node
-.
-coordinate_system_id
-!
-=
-CoordinateSystemId
-:
-:
-root
-(
-)
-|
-|
 spatial_node
 .
 is_ancestor_or_self_zooming
