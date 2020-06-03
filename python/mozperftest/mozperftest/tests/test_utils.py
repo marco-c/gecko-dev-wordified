@@ -227,6 +227,9 @@ temp_file
 )
 as
 target
+silence
+(
+)
 pytest
 .
 raises

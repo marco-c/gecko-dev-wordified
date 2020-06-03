@@ -124,6 +124,13 @@ mach_commands
 import
 Perftest
 PerftestTests
+ON_TRY
+#
+noqa
+from
+mozperftest
+import
+mach_commands
 #
 noqa
 from
@@ -134,6 +141,15 @@ tests
 support
 import
 EXAMPLE_TESTS_DIR
+#
+noqa
+from
+mozperftest
+.
+utils
+import
+temporary_env
+silence
 #
 noqa
 class
@@ -297,6 +313,10 @@ _get_command
 )
 as
 test
+silence
+(
+test
+)
 :
         
 test
@@ -359,6 +379,10 @@ _get_command
 )
 as
 test
+silence
+(
+test
+)
 :
         
 test
@@ -414,7 +438,7 @@ mach_commands
 .
 PerftestTests
 .
-_run_script
+_run_python_script
 "
 )
 def
@@ -436,9 +460,33 @@ system
 "
 Darwin
 "
+and
+ON_TRY
 :
         
 return
+    
+#
+simulating
+on
+try
+to
+run
+the
+paths
+parser
+    
+old
+=
+mach_commands
+.
+ON_TRY
+    
+mach_commands
+.
+ON_TRY
+=
+True
     
 with
 _get_command
@@ -447,6 +495,20 @@ PerftestTests
 )
 as
 test
+silence
+(
+test
+)
+temporary_env
+(
+        
+MOZ_AUTOMATION
+=
+"
+1
+"
+    
+)
 :
         
 test
@@ -459,6 +521,12 @@ tests
 EXAMPLE_TESTS_DIR
 ]
 )
+    
+mach_commands
+.
+ON_TRY
+=
+old
 if
 __name__
 =

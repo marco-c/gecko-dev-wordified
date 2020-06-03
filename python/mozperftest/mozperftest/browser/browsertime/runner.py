@@ -1000,12 +1000,9 @@ package_json_path
             
 )
             
-if
-not
-re
-.
-search
-(
+expr
+=
+r
 "
 /
 tarball
@@ -1021,6 +1018,14 @@ f0
 40
 }
 "
+            
+if
+not
+re
+.
+search
+(
+expr
 install_url
 )
 :
@@ -1037,18 +1042,7 @@ does
 not
 end
 with
-/
-tarball
-/
-[
-a
--
-f0
--
-9
-]
 {
-40
 }
 :
 '
@@ -1060,6 +1054,12 @@ f0
 format
 (
                         
+expr
+[
+:
+-
+1
+]
 install_url
                     
 )

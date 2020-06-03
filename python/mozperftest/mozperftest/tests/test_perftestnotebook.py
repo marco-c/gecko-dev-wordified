@@ -275,6 +275,7 @@ group_1
 expected_files
 =
 [
+        
 f
 .
 resolve
@@ -297,6 +298,7 @@ expected_path
 iterdir
 (
 )
+    
 ]
     
 _check_files_created
