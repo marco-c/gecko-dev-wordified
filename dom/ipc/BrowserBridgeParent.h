@@ -214,6 +214,9 @@ BrowserBridgeParent
 nsresult
 InitWithProcess
 (
+BrowserParent
+*
+aParentBrowser
 ContentParent
 *
 aContentParent
