@@ -1527,7 +1527,12 @@ interval
 10
 '
 :
-None
+list
+(
+schedules
+.
+ALL_COMPONENTS
+)
 }
     
 {
@@ -1539,7 +1544,12 @@ interval
 25
 '
 :
-None
+list
+(
+schedules
+.
+ALL_COMPONENTS
+)
 }
     
 #
