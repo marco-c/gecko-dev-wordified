@@ -209,12 +209,12 @@ true
 )
 ;
 await
-enginesReloaded
-;
-await
 promiseAfterCache
 (
 )
+;
+await
+enginesReloaded
 ;
 Assert
 .
