@@ -900,13 +900,6 @@ Shmem
 &
 &
 aLargeShmems
-const
-wr
-:
-:
-RenderRoot
-&
-aRenderRoot
 )
 override
 ;

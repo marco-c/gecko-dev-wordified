@@ -510,7 +510,6 @@ mAsyncResourceUpdates
 ref
 (
 )
-mRenderRoot
 )
 ;
 }
@@ -1263,7 +1262,6 @@ WrBridge
 UpdateResources
 (
 aResources
-mRenderRoot
 )
 ;
 }
@@ -1437,7 +1435,6 @@ WrBridge
 GetFontKeyForScaledFont
 (
 aScaledFont
-mRenderRoot
 aResources
 )
 ;
@@ -1477,7 +1474,6 @@ WrBridge
 GetFontKeyForUnscaledFont
 (
 aUnscaledFont
-mRenderRoot
 aResources
 )
 ;
