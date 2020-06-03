@@ -3125,20 +3125,18 @@ if
 err
 .
 errno
-=
-=
+in
+(
 errno
 .
 ESRCH
-or
-err
-.
-errno
-=
-=
 errno
 .
 ECHILD
+errno
+.
+EPERM
+)
 :
                 
 return
