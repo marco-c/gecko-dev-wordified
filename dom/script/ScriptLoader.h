@@ -2736,6 +2736,10 @@ nsIScriptElement
 aElement
 ScriptKind
 aScriptKind
+const
+SRIMetadata
+&
+aSRIMetadata
 )
 ;
 void
