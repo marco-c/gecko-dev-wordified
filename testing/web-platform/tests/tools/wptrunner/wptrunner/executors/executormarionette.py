@@ -5711,9 +5711,7 @@ runner
         
 super
 (
-self
-.
-__class__
+MarionetteRefTestExecutor
 self
 )
 .
@@ -5799,9 +5797,7 @@ handles
             
 super
 (
-self
-.
-__class__
+MarionetteRefTestExecutor
 self
 )
 .
