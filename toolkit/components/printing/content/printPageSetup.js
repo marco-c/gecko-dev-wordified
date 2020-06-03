@@ -1923,7 +1923,7 @@ printerName
 =
 gPrintService
 .
-defaultPrinterName
+lastUsedPrinterName
 ;
 }
 /

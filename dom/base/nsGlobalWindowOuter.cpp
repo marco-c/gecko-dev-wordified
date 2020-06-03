@@ -34850,7 +34850,7 @@ printerName
 )
 ;
 bool
-shouldGetDefaultPrinterName
+shouldGetLastUsedPrinterName
 =
 printerName
 .
@@ -34877,7 +34877,7 @@ settings
 /
 /
 Calling
-GetDefaultPrinterName
+GetLastUsedPrinterName
 causes
 a
 sandbox
@@ -34919,7 +34919,9 @@ query
 the
 /
 /
-default
+last
+-
+used
 printer
 name
 if
@@ -34950,7 +34952,7 @@ XRE_IsParentProcess
 )
 )
 {
-shouldGetDefaultPrinterName
+shouldGetLastUsedPrinterName
 =
 false
 ;
@@ -34959,13 +34961,13 @@ false
 endif
 if
 (
-shouldGetDefaultPrinterName
+shouldGetLastUsedPrinterName
 )
 {
 printSettingsService
 -
 >
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 printerName
 )

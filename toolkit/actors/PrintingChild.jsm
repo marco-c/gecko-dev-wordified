@@ -570,7 +570,7 @@ data
 changingBrowsers
 data
 .
-defaultPrinterName
+lastUsedPrinterName
 )
 ;
 break
@@ -679,7 +679,7 @@ data
 simplifiedMode
 data
 .
-defaultPrinterName
+lastUsedPrinterName
 )
 ;
 break
@@ -689,7 +689,7 @@ break
 }
 getPrintSettings
 (
-defaultPrinterName
+lastUsedPrinterName
 )
 {
 try
@@ -740,7 +740,7 @@ printSettings
 .
 printerName
 =
-defaultPrinterName
+lastUsedPrinterName
 ;
 }
 /
@@ -2045,7 +2045,7 @@ enterPrintPreview
 contentWindow
 simplifiedMode
 changingBrowsers
-defaultPrinterName
+lastUsedPrinterName
 )
 {
 const
@@ -2064,7 +2064,7 @@ this
 .
 getPrintSettings
 (
-defaultPrinterName
+lastUsedPrinterName
 )
 ;
 /
@@ -2459,7 +2459,7 @@ print
 (
 contentWindow
 simplifiedMode
-defaultPrinterName
+lastUsedPrinterName
 )
 {
 let
@@ -2469,7 +2469,7 @@ this
 .
 getPrintSettings
 (
-defaultPrinterName
+lastUsedPrinterName
 )
 ;
 /

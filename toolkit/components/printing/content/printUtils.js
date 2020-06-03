@@ -720,7 +720,7 @@ return
 true
 ;
 }
-_getDefaultPrinterName
+_getLastUsedPrinterName
 (
 )
 {
@@ -756,7 +756,7 @@ nsIPrintSettingsService
 return
 PSSVC
 .
-defaultPrinterName
+lastUsedPrinterName
 ;
 }
 catch
@@ -898,11 +898,11 @@ simplifiedMode
 this
 .
 _shouldSimplify
-defaultPrinterName
+lastUsedPrinterName
 :
 this
 .
-_getDefaultPrinterName
+_getLastUsedPrinterName
 (
 )
 }
@@ -2583,7 +2583,7 @@ printerName
 =
 aPSSVC
 .
-defaultPrinterName
+lastUsedPrinterName
 ;
 }
 /
@@ -3091,11 +3091,11 @@ ppBrowser
 messageManager
 ;
 let
-defaultPrinterName
+lastUsedPrinterName
 =
 this
 .
-_getDefaultPrinterName
+_getLastUsedPrinterName
 (
 )
 ;
@@ -3131,7 +3131,7 @@ simplified
 changingBrowsers
 :
 changingPrintPreviewBrowsers
-defaultPrinterName
+lastUsedPrinterName
 }
 )
 ;

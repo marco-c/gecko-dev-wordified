@@ -6504,7 +6504,7 @@ printerName
 nsresult
 rv
 =
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 printerName
 )
@@ -6614,11 +6614,11 @@ NS_IMETHODIMP
 nsPrintSettingsService
 :
 :
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 nsAString
 &
-aDefaultPrinterName
+aLastUsedPrinterName
 )
 {
 nsresult
@@ -6777,7 +6777,7 @@ if
 isValid
 )
 {
-aDefaultPrinterName
+aLastUsedPrinterName
 =
 lastPrinterName
 ;
@@ -6821,7 +6821,7 @@ prtEnum
 >
 GetDefaultPrinterName
 (
-aDefaultPrinterName
+aLastUsedPrinterName
 )
 ;
 }

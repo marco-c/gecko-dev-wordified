@@ -6532,7 +6532,7 @@ IsVoid
 psService
 -
 >
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 printName
 )

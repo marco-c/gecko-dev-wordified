@@ -377,7 +377,7 @@ printer
 readonly
 attribute
 AString
-defaultPrinterName
+lastUsedPrinterName
 ;
 /
 *
