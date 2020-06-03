@@ -352,16 +352,9 @@ tab
 else
 {
 await
-promiseContentMessage
+promiseOnHistoryReplaceEntryInChild
 (
 browser
-"
-ss
--
-test
-:
-OnHistoryReplaceEntry
-"
 )
 ;
 }
