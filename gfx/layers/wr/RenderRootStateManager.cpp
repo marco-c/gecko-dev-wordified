@@ -358,7 +358,6 @@ emplace
 WrBridge
 (
 )
-mRenderRoot
 )
 ;
 RefPtr
