@@ -177,11 +177,6 @@ friend
 class
 PAPZCTreeManagerChild
 ;
-using
-TapType
-=
-GeckoContentController_TapType
-;
 public
 :
 APZCTreeManagerChild

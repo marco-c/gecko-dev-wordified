@@ -465,14 +465,17 @@ mozilla
 layers
 :
 :
-GeckoContentController_TapType
+GeckoContentController
+:
+:
+TapType
 from
 "
 mozilla
 /
 layers
 /
-GeckoContentControllerTypes
+GeckoContentController
 .
 h
 "
@@ -4868,7 +4871,7 @@ input
 async
 HandleTap
 (
-GeckoContentController_TapType
+TapType
 aType
 LayoutDevicePoint
 point
@@ -4883,7 +4886,7 @@ aInputBlockId
 async
 NormalPriorityHandleTap
 (
-GeckoContentController_TapType
+TapType
 aType
 LayoutDevicePoint
 point
