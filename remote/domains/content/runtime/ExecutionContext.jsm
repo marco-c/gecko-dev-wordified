@@ -325,10 +325,9 @@ t
 a
 document
 .
-const
-{
-windowUtils
-}
+this
+.
+window
 =
 debuggee
 ;
@@ -336,6 +335,8 @@ this
 .
 windowId
 =
+debuggee
+.
 windowUtils
 .
 currentInnerWindowID

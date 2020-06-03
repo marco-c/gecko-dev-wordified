@@ -2299,11 +2299,6 @@ isDefault
 true
 contextType
 =
-options
-.
-contextType
-|
-|
 "
 default
 "
