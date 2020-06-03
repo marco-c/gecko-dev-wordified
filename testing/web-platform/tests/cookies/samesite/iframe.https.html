@@ -153,7 +153,6 @@ create_test
 origin
 target
 expectedStatus
-expectedDomStatus
 title
 )
 {
@@ -287,7 +286,6 @@ value
 e
 .
 data
-expectedDomStatus
 )
 ;
 resolve
@@ -368,9 +366,6 @@ SECURE_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Same
 -
@@ -391,9 +386,6 @@ SECURE_SUBDOMAIN_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Subdomain
 fetches
@@ -410,9 +402,6 @@ create_test
 SECURE_CROSS_SITE_ORIGIN
 SECURE_CROSS_SITE_ORIGIN
 SameSiteStatus
-.
-CROSS_SITE
-DomSameSiteStatus
 .
 CROSS_SITE
 "
@@ -456,9 +445,6 @@ SECURE_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Same
 -
@@ -488,9 +474,6 @@ SECURE_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Subdomain
 redirecting
@@ -518,9 +501,6 @@ SECURE_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Cross
 -
@@ -568,9 +548,6 @@ SECURE_SUBDOMAIN_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Same
 -
@@ -598,9 +575,6 @@ SECURE_SUBDOMAIN_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Subdomain
 redirecting
@@ -626,9 +600,6 @@ SECURE_SUBDOMAIN_ORIGIN
 SameSiteStatus
 .
 STRICT
-DomSameSiteStatus
-.
-SAME_SITE
 "
 Cross
 -
@@ -674,9 +645,6 @@ SECURE_CROSS_SITE_ORIGIN
 SameSiteStatus
 .
 CROSS_SITE
-DomSameSiteStatus
-.
-CROSS_SITE
 "
 Same
 -
@@ -705,9 +673,6 @@ SECURE_CROSS_SITE_ORIGIN
 SameSiteStatus
 .
 CROSS_SITE
-DomSameSiteStatus
-.
-CROSS_SITE
 "
 Subdomain
 redirecting
@@ -732,9 +697,6 @@ SECURE_CROSS_SITE_ORIGIN
 SECURE_CROSS_SITE_ORIGIN
 )
 SameSiteStatus
-.
-CROSS_SITE
-DomSameSiteStatus
 .
 CROSS_SITE
 "
