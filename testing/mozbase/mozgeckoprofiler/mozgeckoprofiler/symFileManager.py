@@ -72,12 +72,17 @@ bisect
 import
 bisect
 from
-.
-symLogging
+mozlog
 import
-LogTrace
-LogError
-LogMessage
+get_proxy_logger
+LOG
+=
+get_proxy_logger
+(
+'
+profiler
+'
+)
 #
 Libraries
 to
@@ -522,7 +527,9 @@ is
 None
 :
             
-LogTrace
+LOG
+.
+debug
 (
                 
 "
@@ -703,7 +710,9 @@ not
 libSymbolMap
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 No
@@ -722,7 +731,9 @@ symbolSources
 return
 None
             
-LogTrace
+LOG
+.
+debug
 (
 "
 Storing
@@ -738,7 +749,7 @@ libName
 [
 "
 +
-                     
+                      
 breakpadId
 +
 "
@@ -818,7 +829,9 @@ libName
 breakpadId
 )
                 
-LogTrace
+LOG
+.
+debug
 (
 str
 (
@@ -827,7 +840,7 @@ self
 sCacheCount
 )
 +
-                         
+                          
 "
 symbols
 in
@@ -880,7 +893,9 @@ as
 e
 :
             
-LogTrace
+LOG
+.
+debug
 (
 "
 Error
@@ -903,7 +918,9 @@ e
 return
 None
         
-LogMessage
+LOG
+.
+debug
 (
 "
 Parsing
@@ -999,7 +1016,9 @@ fields
 4
 :
                             
-LogTrace
+LOG
+.
+debug
 (
 "
 Line
@@ -1135,7 +1154,9 @@ fields
 5
 :
                             
-LogTrace
+LOG
+.
+debug
 (
 "
 Line
@@ -1399,7 +1420,9 @@ except
 Exception
 :
             
-LogError
+LOG
+.
+error
 (
 "
 Error
@@ -1465,7 +1488,9 @@ FUNC
 lines
 "
         
-LogTrace
+LOG
+.
+debug
 (
 logString
 )
@@ -1508,7 +1533,9 @@ adjust
 global
 PREFETCHED_LIBS
         
-LogMessage
+LOG
+.
+info
 (
 "
 Prefetching
@@ -1692,7 +1719,9 @@ as
 e
 :
                 
-LogError
+LOG
+.
+error
 (
 "
 Error
@@ -1709,7 +1738,9 @@ e
 )
 )
             
-LogMessage
+LOG
+.
+info
 (
 "
 Found
@@ -1726,7 +1757,7 @@ pdbName
 )
 )
 +
-                       
+                     
 "
 new
 "
@@ -2081,7 +2112,9 @@ GetEntryCount
 else
 :
                     
-LogError
+LOG
+.
+error
 (
 "
 Couldn
@@ -2095,7 +2128,7 @@ symbols
 for
 "
 +
-                             
+                              
 symbolFilePath
 )
                     
@@ -2244,7 +2277,9 @@ release
 (
 )
         
-LogMessage
+LOG
+.
+info
 (
 "
 Finished
@@ -2317,7 +2352,9 @@ maxCacheEntries
 "
 ]
         
-LogTrace
+LOG
+.
+debug
 (
 "
 Cache
@@ -2327,7 +2364,7 @@ MaybeEvict
 :
 "
 +
-                 
+                  
 str
 (
 self
@@ -2523,7 +2560,9 @@ numToEvict
 =
 evicteeCount
         
-LogTrace
+LOG
+.
+debug
 (
 "
 Cache
@@ -2533,7 +2572,7 @@ MaybeEvict
 :
 "
 +
-                 
+                  
 str
 (
 self

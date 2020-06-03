@@ -84,6 +84,11 @@ from
 symbolication
 import
 ProfileSymbolicator
+from
+.
+viewgeckoprofile
+import
+view_gecko_profile
 __all__
 =
 [

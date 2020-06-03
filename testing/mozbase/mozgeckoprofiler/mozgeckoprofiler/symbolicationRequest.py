@@ -64,11 +64,17 @@ re
 import
 urllib2
 from
-.
-symLogging
+mozlog
 import
-LogTrace
-LogError
+get_proxy_logger
+LOG
+=
+get_proxy_logger
+(
+'
+profiler
+'
+)
 #
 Precompiled
 regex
@@ -259,7 +265,9 @@ libName
 )
 :
         
-LogTrace
+LOG
+.
+debug
 (
 "
 Bad
@@ -286,7 +294,9 @@ basestring
 )
 :
         
-LogTrace
+LOG
+.
+debug
 (
 "
 Bad
@@ -442,7 +452,9 @@ dict
 )
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 Request
@@ -464,7 +476,9 @@ in
 rawRequests
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 Request
@@ -495,7 +509,9 @@ version
 4
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 Invalid
@@ -535,7 +551,9 @@ int
 )
 :
                     
-LogTrace
+LOG
+.
+debug
 (
 "
 Invalid
@@ -547,7 +565,7 @@ field
 %
 s
 "
-                             
+                              
 %
 rawRequests
 [
@@ -647,7 +665,9 @@ source
 else
 :
                             
-LogTrace
+LOG
+.
+debug
 (
 "
 Unrecognized
@@ -728,7 +748,9 @@ in
 rawRequests
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 Request
@@ -761,7 +783,9 @@ list
 )
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 '
@@ -786,7 +810,9 @@ in
 rawRequests
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 Request
@@ -819,7 +845,9 @@ list
 )
 :
                 
-LogTrace
+LOG
+.
+debug
 (
 "
 '
@@ -866,7 +894,9 @@ list
 )
 :
                     
-LogTrace
+LOG
+.
+debug
 (
                         
 "
@@ -899,7 +929,9 @@ module
 2
 :
                     
-LogTrace
+LOG
+.
+debug
 (
 "
 Entry
@@ -915,7 +947,7 @@ list
 :
 "
 +
-                             
+                              
 str
 (
 module
@@ -991,7 +1023,9 @@ list
 )
 :
                     
-LogTrace
+LOG
+.
+debug
 (
 "
 stack
@@ -1019,7 +1053,9 @@ list
 )
 :
                         
-LogTrace
+LOG
+.
+debug
 (
 "
 stack
@@ -1043,7 +1079,9 @@ entry
 2
 :
                         
-LogTrace
+LOG
+.
+debug
 (
 "
 stack
@@ -1075,7 +1113,9 @@ as
 e
 :
             
-LogTrace
+LOG
+.
+debug
 (
 "
 Exception
@@ -1110,7 +1150,9 @@ symbolicatedStack
 )
 :
         
-LogTrace
+LOG
+.
+debug
 (
 "
 Forwarding
@@ -1400,7 +1442,9 @@ as
 e
 :
             
-LogError
+LOG
+.
+error
 (
 "
 Exception
@@ -1440,7 +1484,9 @@ as
 e
 :
             
-LogError
+LOG
+.
+error
 (
 "
 Exception
@@ -1451,7 +1497,7 @@ response
 to
 forwarded
 "
-                     
+                      
 "
 request
 :
@@ -1549,7 +1595,9 @@ stack
 )
 :
                 
-LogError
+LOG
+.
+error
 (
 str
 (
@@ -1565,7 +1613,7 @@ in
 response
 "
 +
-                         
+                          
 str
 (
 len
@@ -1624,7 +1672,9 @@ as
 e
 :
             
-LogError
+LOG
+.
+error
 (
 "
 Exception
@@ -1635,7 +1685,7 @@ response
 to
 forwarded
 "
-                     
+                      
 "
 request
 :
