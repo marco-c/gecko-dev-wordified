@@ -6922,6 +6922,11 @@ exportObj
 cx
 )
 ;
+uint8_t
+propertyAttr
+=
+JSPROP_ENUMERATE
+;
 if
 (
 metadata
@@ -6954,6 +6959,13 @@ PlainObject
 cx
 nullptr
 )
+;
+propertyAttr
+|
+=
+JSPROP_READONLY
+|
+JSPROP_PERMANENT
 ;
 }
 if
@@ -7181,7 +7193,7 @@ cx
 exportObj
 id
 val
-JSPROP_ENUMERATE
+propertyAttr
 )
 )
 {
@@ -7203,7 +7215,7 @@ isAsmJS
 if
 (
 !
-JS_FreezeObject
+PreventExtensions
 (
 cx
 exportObj
