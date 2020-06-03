@@ -328,7 +328,7 @@ AsGlobal
 :
 nullptr
 ;
-BindToOwnerInternal
+BindToOwner
 (
 global
 )
@@ -359,7 +359,7 @@ mIsKeptAlive
 false
 )
 {
-BindToOwnerInternal
+BindToOwner
 (
 aGlobalObject
 )
@@ -396,7 +396,7 @@ if
 aOther
 )
 {
-BindToOwnerInternal
+BindToOwner
 (
 static_cast
 <
@@ -411,7 +411,7 @@ nullptr
 return
 ;
 }
-BindToOwnerInternal
+BindToOwner
 (
 aOther
 -
@@ -1160,7 +1160,7 @@ aType
 )
 ;
 void
-BindToOwnerInternal
+BindToOwner
 (
 nsIGlobalObject
 *
