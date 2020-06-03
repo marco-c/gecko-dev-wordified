@@ -1,10 +1,12 @@
 #
 !
 /
+usr
+/
 bin
 /
 env
-python
+python3
 #
 This
 Source
@@ -486,6 +488,7 @@ keyid
     
 key
 =
+b
 '
 '
 '
@@ -941,6 +944,7 @@ key
 keyid
 ]
                           
+b
 '
 trust
 \
@@ -3458,13 +3462,18 @@ args
 .
 targets
 =
-map
-(
+[
 expand_platform
+(
+t
+)
+for
+t
+in
 args
 .
 targets
-)
+]
     
 return
 args
