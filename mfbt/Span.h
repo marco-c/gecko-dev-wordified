@@ -942,6 +942,9 @@ span_iterator
 (
 nullptr
 0
+SpanKnownBounds
+{
+}
 )
 {
 }
