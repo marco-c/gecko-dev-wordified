@@ -451,6 +451,14 @@ displayMode
 ;
 this
 .
+unsafeSessionContextId
+=
+settings
+.
+unsafeSessionContextId
+;
+this
+.
 userAgentMode
 =
 settings

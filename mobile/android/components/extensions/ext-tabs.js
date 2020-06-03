@@ -1628,6 +1628,7 @@ create
 (
 {
 active
+cookieStoreId
 discarded
 index
 openInReaderMode
@@ -1735,6 +1736,7 @@ createProperties
 :
 {
 active
+cookieStoreId
 discarded
 index
 openInReaderMode
