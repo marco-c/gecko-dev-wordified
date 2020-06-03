@@ -5248,7 +5248,7 @@ Dispatch
 aOwner
 -
 >
-ErrorPropagation
+ErrorPropagationDispatch
 (
 NS_ERROR_FAILURE
 )
