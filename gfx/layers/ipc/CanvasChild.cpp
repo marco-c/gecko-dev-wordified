@@ -1200,6 +1200,9 @@ recorder
 .
 if
 (
+mRecorder
+&
+&
 !
 mRecorder
 -
