@@ -17870,8 +17870,6 @@ StaticPrefs
 network_ssl_tokens_cache_enabled
 (
 )
-(
-)
 )
 {
 rv
