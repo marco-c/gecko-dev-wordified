@@ -23604,9 +23604,6 @@ normal
 non
 -
 anonymous
-XBL
--
-bound
 CSS
 generated
 content
@@ -23615,8 +23612,8 @@ etc
 children
 should
 not
-*
 be
+*
 constructed
 .
 *

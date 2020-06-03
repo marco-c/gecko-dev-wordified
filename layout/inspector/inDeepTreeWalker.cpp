@@ -1555,9 +1555,7 @@ is
 false
 and
 some
-XBL
-anon
-content
+NAC
 was
 passed
 in
