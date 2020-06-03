@@ -1038,6 +1038,9 @@ protocol
 "
 http
 "
+quic
+=
+False
 )
 :
         
@@ -1103,6 +1106,11 @@ prefs
 self
 .
 prefs
+"
+quic
+"
+:
+quic
 }
     
 def
@@ -2375,6 +2383,9 @@ False
 scripts
 =
 None
+quic
+=
+False
 )
 :
         
@@ -2391,6 +2402,7 @@ timeout
                       
 path
 protocol
+quic
 )
         
 self
@@ -2473,6 +2485,22 @@ hasattr
 manifest_item
 "
 jsshell
+"
+)
+else
+False
+        
+quic
+=
+manifest_item
+.
+quic
+if
+hasattr
+(
+manifest_item
+"
+quic
 "
 )
 else
@@ -2562,6 +2590,9 @@ scripts
 =
 scripts
                    
+quic
+=
+quic
 )
     
 property
@@ -2764,6 +2795,9 @@ protocol
 "
 http
 "
+quic
+=
+False
 )
 :
         
@@ -2780,6 +2814,7 @@ timeout
                       
 path
 protocol
+quic
 )
         
 for
@@ -2871,6 +2906,22 @@ cls
 .
 default_timeout
         
+quic
+=
+manifest_test
+.
+quic
+if
+hasattr
+(
+manifest_test
+"
+quic
+"
+)
+else
+False
+        
 url
 =
 manifest_test
@@ -2930,6 +2981,10 @@ fuzzy
 manifest_test
 .
 fuzzy
+                   
+quic
+=
+quic
 )
         
 refs_by_type

@@ -1045,6 +1045,10 @@ include_https
 =
 True
                  
+include_quic
+=
+False
+                 
 skip_timeout
 =
 False
@@ -1108,6 +1112,12 @@ self
 include_https
 =
 include_https
+        
+self
+.
+include_quic
+=
+include_quic
         
 self
 .
@@ -1745,6 +1755,26 @@ protocol
 "
 https
 "
+:
+                
+enabled
+=
+False
+            
+if
+not
+self
+.
+include_quic
+and
+test
+.
+environment
+[
+"
+quic
+"
+]
 :
                 
 enabled
