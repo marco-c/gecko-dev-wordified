@@ -2840,6 +2840,16 @@ NS_ERROR_ILLEGAL_DURING_SHUTDOWN
 if
 (
 !
+rcID
+)
+{
+return
+NS_ERROR_INVALID_ARG
+;
+}
+if
+(
+!
 mTable
 .
 Get
