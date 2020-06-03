@@ -456,6 +456,15 @@ Init
 )
 override
 ;
+NS_IMETHOD_
+(
+int32_t
+)
+GetMaxRefreshRate
+(
+)
+override
+;
 uint32_t
 OperatingSystemVersion
 (
