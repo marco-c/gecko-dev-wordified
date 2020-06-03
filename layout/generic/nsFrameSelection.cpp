@@ -2747,7 +2747,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 )
 tmp
 -
@@ -2897,7 +2897,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
@@ -9061,7 +9061,7 @@ false
 ;
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 =
 nullptr
 ;
@@ -9147,7 +9147,7 @@ editableCell
 {
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 =
 cellparent
 ;
@@ -9208,7 +9208,7 @@ if
 (
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 &
 &
 cellparent
@@ -9219,13 +9219,15 @@ cellparent
 =
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 )
 /
 /
 switch
 to
 cell
+/
+/
 selection
 mode
 {
@@ -9280,7 +9282,7 @@ ParentOffset
 (
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 &
 offset
 )
@@ -9398,7 +9400,7 @@ parent
 {
 mTableSelection
 .
-mCellParent
+mClosestInclusiveTableCellAncestor
 =
 cellparent
 ;
