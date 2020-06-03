@@ -576,6 +576,11 @@ AnimationInfo
 h
 '
 '
+AnimationStorageData
+.
+h
+'
+'
 apz
 /
 public
