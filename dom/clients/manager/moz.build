@@ -129,6 +129,11 @@ ClientManagerService
 h
 '
 '
+ClientOpenWindowUtils
+.
+h
+'
+'
 ClientOpPromise
 .
 h
