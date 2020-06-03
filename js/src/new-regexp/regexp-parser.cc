@@ -6396,8 +6396,6 @@ exec
 '
 results
 .
-/
-/
 Handle
 <
 String
@@ -6412,8 +6410,6 @@ InternalizeString
 capture_name
 )
 ;
-/
-/
 array
 -
 >
@@ -6426,8 +6422,6 @@ i
 name
 )
 ;
-/
-/
 array
 -
 >
