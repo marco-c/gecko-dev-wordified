@@ -1032,9 +1032,6 @@ gStateStrings
 =
 {
 "
-Unknown
-"
-"
 NeedsParser
 "
 "
