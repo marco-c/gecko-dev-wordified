@@ -367,6 +367,13 @@ verbose
 '
 -
 -
+console
+=
+plain
+'
+'
+-
+-
 '
 ]
 +
@@ -434,12 +441,6 @@ cmd_args
 cwd
 =
 topsrcdir
-stdout
-=
-devnull
-stderr
-=
-devnull
 )
         
 status
