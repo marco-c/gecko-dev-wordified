@@ -716,9 +716,6 @@ mContainer
 GetContentFlags
 (
 )
-Nothing
-(
-)
 )
 )
 {
@@ -837,9 +834,6 @@ UpdateImage
 (
 mContainer
 GetContentFlags
-(
-)
-Nothing
 (
 )
 )

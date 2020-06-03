@@ -17847,11 +17847,6 @@ helper
 .
 UpdateImage
 (
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 )
 {
