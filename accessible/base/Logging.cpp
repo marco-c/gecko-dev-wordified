@@ -1060,6 +1060,9 @@ rootTreeItem
 printf
 (
 "
+in
+-
+process
 docshell
 hierarchy
 parent
@@ -1070,6 +1073,8 @@ root
 :
 %
 p
+"
+"
 is
 tab
 document
