@@ -5029,15 +5029,9 @@ props
 refBox
 aTransformData
 .
-origin
-(
-)
-aTransformData
-.
 appUnitsPerDevPixel
 (
 )
-0
 )
 ;
 }
