@@ -18009,9 +18009,6 @@ list
 listID
 ]
 :
-nsIFrame
-:
-:
 ChildLists
 (
 )
@@ -18307,9 +18304,6 @@ const
 auto
 &
 childList
-:
-nsIFrame
-:
 :
 ChildLists
 (

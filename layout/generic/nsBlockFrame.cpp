@@ -3495,9 +3495,6 @@ list
 listID
 ]
 :
-nsIFrame
-:
-:
 ChildLists
 (
 )

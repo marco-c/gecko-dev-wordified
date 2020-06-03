@@ -1600,9 +1600,6 @@ auto
 &
 childList
 :
-nsIFrame
-:
-:
 ChildLists
 (
 )
