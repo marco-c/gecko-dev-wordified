@@ -232,10 +232,6 @@ WindowContentUntrusted
 )
 DEPRECATED_OPERATION
 (
-MixedDisplayObjectSubrequest
-)
-DEPRECATED_OPERATION
-(
 MotionEvent
 )
 DEPRECATED_OPERATION
