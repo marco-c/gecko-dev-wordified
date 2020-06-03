@@ -702,13 +702,6 @@ Test
 JIT
 entry
 stub
-if
-(
-wasmBigIntEnabled
-(
-)
-)
-{
 (
 function
 testJitEntry
@@ -876,4 +869,3 @@ caller
 (
 )
 ;
-}

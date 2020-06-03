@@ -1951,9 +1951,6 @@ bool
 filenameIsURL
 ;
 bool
-bigIntEnabled
-;
-bool
 v128Enabled
 ;
 bool
@@ -1986,10 +1983,6 @@ globalDataLength
 0
 )
 filenameIsURL
-(
-false
-)
-bigIntEnabled
 (
 false
 )

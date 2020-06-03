@@ -364,9 +364,6 @@ bool
 hugeMemory
 ;
 bool
-bigIntEnabled
-;
-bool
 multiValuesEnabled
 ;
 bool
@@ -518,10 +515,6 @@ gcEnabled
 false
 )
 hugeMemory
-(
-false
-)
-bigIntEnabled
 (
 false
 )

@@ -8160,12 +8160,6 @@ memory
 false
 /
 *
-bigint
-*
-/
-false
-/
-*
 v128
 *
 /
