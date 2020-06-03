@@ -444,7 +444,7 @@ nsIFile
 *
 aDirectory
 mozIStorageConnection
-*
+&
 aConnection
 )
 ;
