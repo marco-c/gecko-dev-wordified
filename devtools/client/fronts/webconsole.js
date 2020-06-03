@@ -628,6 +628,11 @@ blockedReason
 actor
 .
 blockedReason
+blockingExtension
+:
+actor
+.
+blockingExtension
 channelId
 :
 actor

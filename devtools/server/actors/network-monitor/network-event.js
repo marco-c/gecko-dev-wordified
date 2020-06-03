@@ -393,6 +393,11 @@ blockedReason
 this
 .
 _blockedReason
+blockingExtension
+:
+this
+.
+_blockingExtension
 channelId
 :
 this
@@ -800,6 +805,14 @@ _blockedReason
 networkEvent
 .
 blockedReason
+;
+this
+.
+_blockingExtension
+=
+networkEvent
+.
+blockingExtension
 ;
 this
 .
@@ -2616,6 +2629,8 @@ content
 {
 discardResponseBody
 truncated
+blockedReason
+blockingExtension
 }
 )
 {
@@ -2755,6 +2770,8 @@ content
 .
 transferredSize
 discardResponseBody
+blockedReason
+blockingExtension
 }
 )
 ;

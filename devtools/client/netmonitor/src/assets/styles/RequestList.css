@@ -1753,10 +1753,6 @@ inline
 -
 block
 ;
-width
-:
-16px
-;
 height
 :
 16px
@@ -1846,6 +1842,10 @@ secure
 svg
 )
 ;
+width
+:
+16px
+;
 }
 .
 security
@@ -1885,6 +1885,10 @@ icons
 position
 :
 relative
+;
+width
+:
+16px
 ;
 left
 :
@@ -1963,6 +1967,10 @@ insecure
 svg
 )
 ;
+width
+:
+16px
+;
 stroke
 :
 var
@@ -2008,6 +2016,10 @@ small
 .
 svg
 )
+;
+width
+:
+16px
 ;
 fill
 :

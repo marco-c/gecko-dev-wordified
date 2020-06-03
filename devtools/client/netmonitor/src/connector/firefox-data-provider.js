@@ -534,6 +534,7 @@ fromServiceWorker
 isThirdPartyTrackingResource
 referrerPolicy
 blockedReason
+blockingExtension
 channelId
 }
 =
@@ -671,6 +672,7 @@ fromServiceWorker
 isThirdPartyTrackingResource
 referrerPolicy
 blockedReason
+blockingExtension
 channelId
 }
 true
@@ -1816,6 +1818,7 @@ startedDateTime
 isThirdPartyTrackingResource
 referrerPolicy
 blockedReason
+blockingExtension
 channelId
 }
 =
@@ -1838,6 +1841,7 @@ url
 isThirdPartyTrackingResource
 referrerPolicy
 blockedReason
+blockingExtension
 channelId
 }
 )
@@ -2052,6 +2056,16 @@ response
 content
 .
 mimeType
+blockingExtension
+:
+packet
+.
+blockingExtension
+blockedReason
+:
+packet
+.
+blockedReason
 }
 )
 ;
