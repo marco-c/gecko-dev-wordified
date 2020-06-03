@@ -1036,11 +1036,6 @@ data
 >
 UpdateCompositableClient
 (
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 /
