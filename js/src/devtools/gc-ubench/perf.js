@@ -98,8 +98,10 @@ paused
 and
 resumed
 .
-class
+var
 FrameTimer
+=
+class
 {
 constructor
 (
@@ -355,6 +357,7 @@ stopped
 ;
 }
 }
+;
 /
 /
 Per
@@ -413,8 +416,10 @@ cumulative
 bytes
 etc
 .
-class
+var
 FrameHistory
+=
+class
 {
 constructor
 (
@@ -1056,3 +1061,4 @@ is_stopped
 ;
 }
 }
+;
