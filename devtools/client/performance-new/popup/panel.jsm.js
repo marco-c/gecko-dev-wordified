@@ -1981,6 +1981,9 @@ click
 {
 captureProfile
 (
+"
+aboutprofiling
+"
 )
 ;
 view
