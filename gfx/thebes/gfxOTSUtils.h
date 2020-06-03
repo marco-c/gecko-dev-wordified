@@ -247,6 +247,7 @@ DEFAULT_LIMIT
 1024
 }
 ;
+explicit
 gfxOTSExpandingMemoryStream
 (
 size_t
