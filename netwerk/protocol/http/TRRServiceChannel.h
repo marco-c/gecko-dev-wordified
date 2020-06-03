@@ -787,6 +787,11 @@ aURI
 )
 override
 ;
+bool
+DispatchRelease
+(
+)
+;
 /
 /
 True
