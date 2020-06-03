@@ -23874,7 +23874,7 @@ if
 (
 aContext
 .
-IsNullOrDiscarded
+IsDiscarded
 (
 )
 )
