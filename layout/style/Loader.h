@@ -1545,6 +1545,8 @@ No
 enum
 class
 IsPreload
+:
+uint8_t
 {
 No
 /
