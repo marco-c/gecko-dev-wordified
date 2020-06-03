@@ -338,7 +338,7 @@ up
 in
 GeckoViewStartup
 .
-jsm
+js
 observe
 (
 aSubject
