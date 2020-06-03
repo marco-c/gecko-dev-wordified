@@ -41800,7 +41800,7 @@ now
 return
 {
 maxBlockEndEdgeOfChildren
-true
+false
 }
 ;
 }
@@ -41839,7 +41839,7 @@ nscoord
 aMaxBlockEndEdgeOfChildren
 const
 bool
-aAreChildrenComplete
+aAnyChildIncomplete
 nscoord
 aFlexContainerAscent
 nsTArray
@@ -42819,8 +42819,7 @@ IsComplete
 )
 &
 &
-!
-aAreChildrenComplete
+aAnyChildIncomplete
 )
 {
 aStatus
