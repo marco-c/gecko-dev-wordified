@@ -5403,8 +5403,6 @@ data
 id
 :
 "
-system
-.
 topsites
 "
 }
