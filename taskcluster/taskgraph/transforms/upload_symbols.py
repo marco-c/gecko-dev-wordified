@@ -758,6 +758,24 @@ get
 run_on_projects
 '
 )
+            
+task
+[
+'
+optimization
+'
+]
+=
+dep
+.
+task
+.
+get
+(
+'
+optimization
+'
+)
         
 else
 :
