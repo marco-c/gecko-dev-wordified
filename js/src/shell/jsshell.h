@@ -783,6 +783,10 @@ extern
 bool
 enablePropertyErrorMessageFix
 ;
+extern
+bool
+enableIteratorHelpers
+;
 #
 ifdef
 JS_GC_ZEAL
