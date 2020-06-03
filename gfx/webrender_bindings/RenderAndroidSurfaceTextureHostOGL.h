@@ -249,6 +249,13 @@ override
 ;
 virtual
 void
+NofityForUse
+(
+)
+override
+;
+virtual
+void
 NotifyNotUsed
 (
 )
@@ -276,6 +283,7 @@ enum
 PrepareStatus
 {
 STATUS_NONE
+STATUS_MIGHT_BE_USED_BY_WR
 STATUS_UPDATE_TEX_IMAGE_NEEDED
 STATUS_PREPARED
 }
