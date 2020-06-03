@@ -3801,6 +3801,12 @@ and
 not
 source_file
 .
+name_is_tentative
+and
+            
+not
+source_file
+.
 spec_links
 )
 :
