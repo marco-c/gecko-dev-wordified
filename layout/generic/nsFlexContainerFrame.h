@@ -835,6 +835,9 @@ CachedFlexItemData
 struct
 SharedFlexData
 ;
+class
+FlexItemIterator
+;
 /
 /
 nsIFrame
