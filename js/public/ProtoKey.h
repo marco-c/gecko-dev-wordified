@@ -1205,6 +1205,15 @@ OCLASP
 WeakRef
 )
 )
+\
+REAL
+(
+Iterator
+OCLASP
+(
+Iterator
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
