@@ -373,7 +373,7 @@ mod
 error
 ;
 mod
-op
+punt
 ;
 mod
 store
