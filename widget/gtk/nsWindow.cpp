@@ -13345,6 +13345,9 @@ mCSDSupportLevel
 =
 =
 CSD_SUPPORT_CLIENT
+&
+&
+mDrawInTitlebar
 )
 {
 return
