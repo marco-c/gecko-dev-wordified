@@ -9063,13 +9063,6 @@ callee
 )
 ;
 AttachDecision
-tryAttachArrayIsArray
-(
-HandleFunction
-callee
-)
-;
-AttachDecision
 tryAttachIsSuspendedGenerator
 (
 HandleFunction
