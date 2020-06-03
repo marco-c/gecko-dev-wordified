@@ -345,9 +345,6 @@ classifier
 urlformatter
 '
 '
-viaduct
-'
-'
 viewconfig
 '
 '
@@ -390,6 +387,9 @@ narrate
 '
 '
 reader
+'
+'
+viaduct
 '
 ]
 ;
