@@ -119,6 +119,13 @@ h
 "
 #
 include
+"
+nsDebug
+.
+h
+"
+#
+include
 <
 algorithm
 >
