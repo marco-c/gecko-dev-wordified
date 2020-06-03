@@ -1586,7 +1586,6 @@ previews
 checked
 =
 {
-!
 features
 .
 inlinePreview
@@ -1601,7 +1600,7 @@ getStr
 "
 inlinePreview
 .
-disable
+toggle
 .
 label
 "
@@ -1617,7 +1616,7 @@ getStr
 "
 inlinePreview
 .
-disable
+toggle
 .
 tooltip
 "
@@ -1664,7 +1663,6 @@ sourcemaps
 checked
 =
 {
-!
 prefs
 .
 clientSourceMapsEnabled
@@ -1679,7 +1677,7 @@ getStr
 "
 settings
 .
-disableSourceMaps
+toggleSourceMaps
 .
 label
 "
@@ -1695,7 +1693,7 @@ getStr
 "
 settings
 .
-disableSourceMaps
+toggleSourceMaps
 .
 tooltip
 "
