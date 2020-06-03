@@ -38,6 +38,9 @@ id
 )
 {
 return
+<
+script
+>
 const
 data
 =
@@ -280,5 +283,10 @@ data
 }
 )
 ;
+<
+\
+/
+script
+>
 ;
 }
