@@ -689,15 +689,6 @@ Init
 (
 )
 ;
-nsresult
-InitWithRequestContextId
-(
-const
-uint64_t
-&
-aRequestContextId
-)
-;
 protected
 :
 virtual
@@ -837,9 +828,6 @@ mDefaultLoadIsTimed
 ;
 bool
 mBrowsingContextDiscarded
-;
-bool
-mExternalRequestContext
 ;
 /
 *

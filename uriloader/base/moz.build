@@ -185,17 +185,6 @@ nsURILoader
 cpp
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-netwerk
-/
-base
-'
-]
 FINAL_LIBRARY
 =
 '
