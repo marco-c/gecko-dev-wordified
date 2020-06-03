@@ -12669,7 +12669,7 @@ AutoTArray
 ChildList
 4
 >
-GetCrossDocChildLists
+CrossDocChildLists
 (
 )
 ;
