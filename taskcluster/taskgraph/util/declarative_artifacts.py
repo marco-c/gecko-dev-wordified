@@ -541,7 +541,7 @@ update_channel
 =
 '
 -
-nigthly
+nightly
 -
 {
 }
