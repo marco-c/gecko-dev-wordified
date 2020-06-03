@@ -273,7 +273,7 @@ h
 #
 include
 "
-nsSecureBrowserUIImpl
+nsSecureBrowserUI
 .
 h
 "
