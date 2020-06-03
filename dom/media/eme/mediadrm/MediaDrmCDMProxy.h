@@ -141,13 +141,6 @@ h
 #
 include
 "
-GeneratedJNINatives
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CDMProxy

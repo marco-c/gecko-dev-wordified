@@ -308,7 +308,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+MediaDrmProxyWrappers
 .
 h
 "

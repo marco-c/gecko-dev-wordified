@@ -130,7 +130,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+GeckoHLSResourceWrapperWrappers
 .
 h
 "
