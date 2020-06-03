@@ -1470,6 +1470,15 @@ val
 {
 if
 (
+gSharedTabWarning
+.
+willShowSharedTabWarning
+(
+val
+)
+|
+|
+(
 gNavToolbox
 .
 collapsed
@@ -1479,6 +1488,7 @@ collapsed
 this
 .
 _allowTabChange
+)
 )
 {
 return
@@ -15577,6 +15587,13 @@ t
 )
 ;
 }
+gSharedTabWarning
+.
+tabAdded
+(
+t
+)
+;
 return
 t
 ;
