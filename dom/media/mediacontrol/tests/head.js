@@ -220,7 +220,7 @@ event
 const
 playbackStateChanged
 =
-waitUntilMainMediaControllerPlaybackChanged
+waitUntilDisplayedPlaybackChanged
 (
 )
 ;
@@ -391,7 +391,7 @@ all
 (
 [
 playPromise
-waitUntilMainMediaControllerPlaybackChanged
+waitUntilDisplayedPlaybackChanged
 (
 )
 ]
@@ -566,7 +566,7 @@ all
 (
 [
 pausePromise
-waitUntilMainMediaControllerPlaybackChanged
+waitUntilDisplayedPlaybackChanged
 (
 )
 ]
@@ -1472,11 +1472,9 @@ that
 by
 listening
 for
-main
--
 media
 -
-controller
+displayed
 -
 playback
 -
@@ -1494,11 +1492,9 @@ Promise
 Resolve
 when
 observing
-main
--
 media
 -
-controller
+displayed
 -
 playback
 -
@@ -1506,7 +1502,7 @@ changed
 *
 /
 function
-waitUntilMainMediaControllerPlaybackChanged
+waitUntilDisplayedPlaybackChanged
 (
 )
 {
@@ -1516,11 +1512,9 @@ BrowserUtils
 promiseObserved
 (
 "
-main
--
 media
 -
-controller
+displayed
 -
 playback
 -
