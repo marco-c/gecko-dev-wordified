@@ -1365,9 +1365,16 @@ interoperabilty
 with
 UrlbarProviderSearchSuggestions
 .
+tailPrefix
+:
+undefined
 tail
 :
 undefined
+tailOffsetIndex
+:
+-
+1
 keyword
 :
 [
