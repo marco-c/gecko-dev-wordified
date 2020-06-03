@@ -362,7 +362,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mStoragePrincipal
+mPartitionedPrincipal
 ;
 /
 /
@@ -669,7 +669,7 @@ ipc
 :
 PrincipalInfo
 >
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 ;
 nsCString
 mDomain
@@ -879,7 +879,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 nsILoadGroup
 *
 aLoadGroup
@@ -901,7 +901,7 @@ aPrincipalOut
 nsIPrincipal
 *
 *
-aStoragePrincipalOut
+aPartitionedPrincipalOut
 nsILoadGroup
 *
 *

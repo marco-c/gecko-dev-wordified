@@ -594,7 +594,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 nsILoadGroup
 *
 aLoadGroup
@@ -620,9 +620,9 @@ mPrincipal
 =
 aPrincipal
 ;
-mStoragePrincipal
+mPartitionedPrincipal
 =
-aStoragePrincipal
+aPartitionedPrincipal
 ;
 mPrincipalIsSystem
 =
@@ -724,7 +724,7 @@ PrincipalInfo
 (
 )
 ;
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 =
 MakeUnique
 <
@@ -801,12 +801,12 @@ aPrincipal
 >
 Equals
 (
-aStoragePrincipal
+aPartitionedPrincipal
 )
 )
 {
 *
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 =
 *
 mPrincipalInfo
@@ -818,7 +818,7 @@ mOrigin
 }
 else
 {
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 =
 MakeUnique
 <
@@ -831,8 +831,8 @@ rv
 =
 PrincipalToPrincipalInfo
 (
-aStoragePrincipal
-mStoragePrincipalInfo
+aPartitionedPrincipal
+mPartitionedPrincipalInfo
 .
 get
 (
@@ -847,7 +847,7 @@ rv
 ;
 rv
 =
-aStoragePrincipal
+aPartitionedPrincipal
 -
 >
 GetOrigin
@@ -882,7 +882,7 @@ aPrincipalOut
 nsIPrincipal
 *
 *
-aStoragePrincipalOut
+aPartitionedPrincipalOut
 nsILoadGroup
 *
 *
@@ -905,7 +905,7 @@ aPrincipalOut
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
-aStoragePrincipalOut
+aPartitionedPrincipalOut
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
@@ -953,7 +953,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-channelStoragePrincipal
+channelPartitionedPrincipal
 ;
 nsresult
 rv
@@ -970,7 +970,7 @@ channelPrincipal
 )
 getter_AddRefs
 (
-channelStoragePrincipal
+channelPartitionedPrincipal
 )
 )
 ;
@@ -1103,7 +1103,7 @@ channelPrincipal
 =
 mPrincipal
 ;
-channelStoragePrincipal
+channelPartitionedPrincipal
 =
 mPrincipal
 ;
@@ -1388,7 +1388,7 @@ channelPrincipal
 =
 mLoadingPrincipal
 ;
-channelStoragePrincipal
+channelPartitionedPrincipal
 =
 mLoadingPrincipal
 ;
@@ -1440,11 +1440,11 @@ forget
 aPrincipalOut
 )
 ;
-channelStoragePrincipal
+channelPartitionedPrincipal
 .
 forget
 (
-aStoragePrincipalOut
+aPartitionedPrincipalOut
 )
 ;
 channelLoadGroup
@@ -1483,7 +1483,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-storagePrincipal
+partitionedPrincipal
 ;
 nsCOMPtr
 <
@@ -1503,7 +1503,7 @@ principal
 )
 getter_AddRefs
 (
-storagePrincipal
+partitionedPrincipal
 )
 getter_AddRefs
 (
@@ -1587,7 +1587,7 @@ return
 SetPrincipalsAndCSPOnMainThread
 (
 principal
-storagePrincipal
+partitionedPrincipal
 loadGroup
 csp
 )
@@ -1618,7 +1618,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-storagePrincipal
+partitionedPrincipal
 ;
 nsCOMPtr
 <
@@ -1638,7 +1638,7 @@ principal
 )
 getter_AddRefs
 (
-storagePrincipal
+partitionedPrincipal
 )
 getter_AddRefs
 (
@@ -1806,13 +1806,13 @@ PrincipalInfo
 T__Last
 &
 &
-mStoragePrincipal
+mPartitionedPrincipal
 &
 &
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 &
 &
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 -
 >
 type
@@ -1826,7 +1826,7 @@ PrincipalInfo
 T__None
 &
 &
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 -
 >
 type
@@ -2297,7 +2297,7 @@ doomed
 ;
 SwapToISupportsArray
 (
-mStoragePrincipal
+mPartitionedPrincipal
 doomed
 )
 ;

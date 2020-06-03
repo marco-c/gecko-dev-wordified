@@ -459,7 +459,7 @@ of
 /
 /
 the
-IntrinsicStoragePrincipal
+PatitionedPrincipal
 (
 see
 StoragePrincipalHelper
@@ -468,11 +468,11 @@ h
 )
 or
 the
-/
-/
 top
 -
 level
+/
+/
 document
 '
 s
