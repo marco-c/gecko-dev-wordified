@@ -271,6 +271,8 @@ CreateRegExpMatchResult
 JSContext
 *
 cx
+HandleRegExpShared
+re
 HandleString
 input
 const
