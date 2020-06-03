@@ -654,7 +654,14 @@ temporarilyInstalled
 false
 shouldHaveExperiments
 :
-false
+AppConstants
+.
+MOZ_APP_NAME
+=
+=
+"
+thunderbird
+"
 }
 ]
 ;
