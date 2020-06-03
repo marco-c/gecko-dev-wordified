@@ -1069,6 +1069,10 @@ env
 =
 env
                                       
+universal_newlines
+=
+True
+                                      
 *
 *
 proc_kwargs
@@ -1403,22 +1407,6 @@ self
 line
 )
 :
-        
-line
-=
-line
-.
-decode
-(
-"
-utf
--
-8
-"
-"
-replace
-"
-)
         
 line_text
 =
