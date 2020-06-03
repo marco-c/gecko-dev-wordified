@@ -242,7 +242,7 @@ availableResources
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -433,10 +433,13 @@ before
 calling
 ResourceWatcher
 .
-watch
+watchResources
 in
 order
 to
+"
++
+"
 assert
 the
 behavior
@@ -584,7 +587,7 @@ runtimeDoneResolve
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -629,7 +632,7 @@ call
 to
 ResourceWatcher
 .
-watch
+watchResources
 and
 after
 having

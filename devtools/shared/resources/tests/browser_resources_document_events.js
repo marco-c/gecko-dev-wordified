@@ -268,7 +268,7 @@ complete
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -494,7 +494,7 @@ documentEvents
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher

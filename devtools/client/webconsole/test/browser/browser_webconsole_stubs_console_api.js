@@ -506,7 +506,7 @@ resource
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 resourceWatcher
@@ -686,7 +686,7 @@ received
 }
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 resourceWatcher

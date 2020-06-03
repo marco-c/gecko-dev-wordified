@@ -232,7 +232,7 @@ the
 ResourceWatcher
 :
 :
-unwatch
+unwatchResources
 API
 with
 several
@@ -274,7 +274,7 @@ info
 (
 "
 Call
-watch
+watchResources
 (
 [
 CONSOLE_MESSAGES
@@ -290,7 +290,7 @@ ROOT_NODE
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 CONSOLE_MESSAGES
@@ -480,7 +480,7 @@ resources
 await
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 ROOT_NODE
@@ -625,7 +625,7 @@ resources
 await
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 CONSOLE_MESSAGES

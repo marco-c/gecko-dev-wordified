@@ -574,7 +574,7 @@ toolbox
 .
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 this
@@ -664,7 +664,7 @@ toolbox
 .
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 this

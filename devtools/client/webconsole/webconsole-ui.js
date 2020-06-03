@@ -1163,7 +1163,7 @@ resourceWatcher
 /
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 /
 /
@@ -1846,7 +1846,7 @@ resourceWatcher
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 resourceWatcher

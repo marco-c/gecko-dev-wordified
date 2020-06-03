@@ -122,7 +122,7 @@ info
 (
 "
 Call
-watch
+watchResources
 once
 "
 )
@@ -140,7 +140,7 @@ onAvailable
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -158,7 +158,7 @@ info
 (
 "
 Call
-watch
+watchResources
 again
 should
 throw
@@ -194,7 +194,7 @@ the
 client
 should
 call
-watch
+watchResources
 only
 once
 per
@@ -210,7 +210,7 @@ rejects
 (
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -239,13 +239,13 @@ info
 (
 "
 Call
-unwatch
+unwatchResources
 "
 )
 ;
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 ResourceWatcher
@@ -263,7 +263,7 @@ info
 (
 "
 Call
-watch
+watchResources
 again
 should
 throw
@@ -314,7 +314,7 @@ rejects
 (
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher

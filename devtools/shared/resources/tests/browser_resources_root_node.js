@@ -203,7 +203,7 @@ info
 (
 "
 Call
-watch
+watchResources
 (
 [
 ROOT_NODE
@@ -234,7 +234,7 @@ onAvailableCounter
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -310,7 +310,7 @@ info
 Wait
 until
 the
-watch
+watchResources
 (
 [
 ROOT_NODE
@@ -358,7 +358,7 @@ info
 (
 "
 Call
-unwatch
+unwatchResources
 (
 [
 ROOT_NODE
@@ -376,7 +376,7 @@ callback
 ;
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 ResourceWatcher
@@ -430,7 +430,7 @@ not
 called
 after
 calling
-unwatch
+unwatchResources
 "
 )
 ;
@@ -534,7 +534,7 @@ info
 (
 "
 Call
-watch
+watchResources
 (
 [
 ROOT_NODE
@@ -579,7 +579,7 @@ rootNodeFront
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -880,7 +880,7 @@ retrieved
 Cleanup
 resourceWatcher
 .
-unwatch
+unwatchResources
 (
 [
 ResourceWatcher

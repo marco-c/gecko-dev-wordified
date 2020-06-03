@@ -511,7 +511,7 @@ resources
 *
 /
 async
-watch
+watchResources
 (
 resources
 options
@@ -677,7 +677,7 @@ resources
 .
 *
 See
-watch
+watchResources
 for
 the
 arguments
@@ -690,7 +690,7 @@ same
 .
 *
 /
-unwatch
+unwatchResources
 (
 resources
 options
@@ -1651,7 +1651,7 @@ the
 client
 should
 call
-watch
+watchResources
 only
 once
 per
