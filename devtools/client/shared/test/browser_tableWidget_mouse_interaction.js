@@ -208,6 +208,17 @@ true
 wrapTextInElements
 :
 true
+l10n
+:
+{
+setAttributes
+:
+function
+(
+)
+{
+}
+}
 }
 )
 ;

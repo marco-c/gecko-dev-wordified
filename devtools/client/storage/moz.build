@@ -97,6 +97,14 @@ browser
 ini
 '
 ]
+DIRS
++
+=
+[
+'
+utils
+'
+]
 DevToolsModules
 (
 '
