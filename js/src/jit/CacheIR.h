@@ -8997,6 +8997,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachIsObject
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachStringChar
 (
 HandleFunction
