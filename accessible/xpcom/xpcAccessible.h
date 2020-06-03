@@ -257,6 +257,15 @@ aIndexInParent
 final
 ;
 NS_IMETHOD
+GetUniqueID
+(
+int64_t
+*
+aUniqueID
+)
+final
+;
+NS_IMETHOD
 GetDOMNode
 (
 nsINode
