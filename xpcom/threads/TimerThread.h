@@ -219,7 +219,10 @@ TimerThread
 final
 :
 public
-nsIRunnable
+mozilla
+:
+:
+Runnable
 public
 nsIObserver
 {
@@ -255,7 +258,7 @@ InitLocks
 (
 )
 ;
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIRUNNABLE
 NS_DECL_NSIOBSERVER
 nsresult

@@ -233,10 +233,10 @@ tasktracer
 ;
 #
 endif
-NS_IMPL_ISUPPORTS
+NS_IMPL_ISUPPORTS_INHERITED
 (
 TimerThread
-nsIRunnable
+Runnable
 nsIObserver
 )
 TimerThread
@@ -246,6 +246,12 @@ TimerThread
 (
 )
 :
+Runnable
+(
+"
+TimerThread
+"
+)
 mInitialized
 (
 false
