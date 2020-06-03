@@ -2640,7 +2640,9 @@ split
         
 to_install
 =
-[
+set
+(
+            
 package
 for
 package
@@ -2651,7 +2653,7 @@ package
 not
 in
 installed
-]
+)
         
 #
 The
@@ -2716,7 +2718,8 @@ split
         
 to_upgrade
 =
-[
+set
+(
 package
 for
 package
@@ -2726,7 +2729,7 @@ if
 package
 in
 outdated
-]
+)
         
 if
 to_install
@@ -2746,6 +2749,98 @@ Homebrew
 )
         
 if
+'
+python
+2
+'
+in
+to_install
+:
+            
+#
+Special
+handling
+for
+Python
+2
+since
+brew
+can
+'
+t
+install
+it
+            
+#
+out
+-
+of
+-
+the
+-
+box
+any
+more
+.
+            
+to_install
+.
+remove
+(
+'
+python
+2
+'
+)
+            
+subprocess
+.
+check_call
+(
+                
+cmd
++
+[
+'
+install
+'
+                       
+'
+https
+:
+/
+/
+raw
+.
+githubusercontent
+.
+com
+/
+Homebrew
+/
+homebrew
+-
+core
+'
+                       
+'
+/
+86a44a0a552c673a05f11018459c9f5faae3becc
+'
+                       
+'
+/
+Formula
+/
+python
+2
+.
+rb
+'
+]
+)
+        
+if
 to_install
 :
             
@@ -2761,7 +2856,10 @@ install
 '
 ]
 +
+list
+(
 to_install
+)
 )
         
 if
@@ -2780,7 +2878,10 @@ upgrade
 '
 ]
 +
+list
+(
 to_upgrade
+)
 )
     
 def
@@ -3078,6 +3179,11 @@ node
             
 '
 python
+'
+            
+'
+python
+2
 '
             
 '
