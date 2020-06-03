@@ -8936,6 +8936,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathAbs
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
