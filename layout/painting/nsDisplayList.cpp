@@ -50934,6 +50934,7 @@ nsLayoutUtils
 :
 ComputePartialPrerenderArea
 (
+aFrame
 *
 aDirtyRect
 overflow
