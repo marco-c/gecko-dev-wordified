@@ -13567,12 +13567,12 @@ Optional
 NonTSPseudoClass
 :
 :
-MozReadOnly
+ReadOnly
 |
 NonTSPseudoClass
 :
 :
-MozReadWrite
+ReadWrite
 |
 NonTSPseudoClass
 :
