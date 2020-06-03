@@ -1105,8 +1105,6 @@ nsSecurityFlags
 aSecurityFlags
 uint32_t
 aSandboxFlags
-uint32_t
-aTriggeringSandboxFlags
 nsContentPolicyType
 aContentPolicyType
 LoadTainting
@@ -1593,9 +1591,6 @@ mSecurityFlags
 ;
 uint32_t
 mSandboxFlags
-;
-uint32_t
-mTriggeringSandboxFlags
 ;
 nsContentPolicyType
 mInternalContentPolicyType
