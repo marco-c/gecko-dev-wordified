@@ -4424,6 +4424,11 @@ GetChildSessionHistory
 (
 )
 ;
+bool
+CrossOriginIsolated
+(
+)
+;
 protected
 :
 virtual
