@@ -284,11 +284,6 @@ gfxMatrix
 h
 '
 '
-gfxOTSUtils
-.
-h
-'
-'
 gfxPattern
 .
 h
