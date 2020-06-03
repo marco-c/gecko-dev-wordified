@@ -2515,7 +2515,7 @@ GetTableSelectionType
 (
 const
 nsRange
-*
+&
 aRange
 TableSelectionMode
 *
@@ -2524,10 +2524,6 @@ aTableSelectionType
 {
 if
 (
-!
-aRange
-|
-|
 !
 aTableSelectionType
 )
@@ -2549,8 +2545,7 @@ nsINode
 startNode
 =
 aRange
--
->
+.
 GetStartContainer
 (
 )
@@ -2570,8 +2565,7 @@ nsINode
 endNode
 =
 aRange
--
->
+.
 GetEndContainer
 (
 )
@@ -2610,8 +2604,7 @@ nsIContent
 child
 =
 aRange
--
->
+.
 GetChildAtStartOffset
 (
 )
@@ -2638,8 +2631,7 @@ GetNextSibling
 !
 =
 aRange
--
->
+.
 GetChildAtEndOffset
 (
 )
@@ -2824,7 +2816,7 @@ GetTableCellLocationFromRange
 (
 const
 nsRange
-*
+&
 aRange
 TableSelectionMode
 *
@@ -2839,10 +2831,6 @@ aCol
 {
 if
 (
-!
-aRange
-|
-|
 !
 aSelectionType
 |
@@ -2985,8 +2973,7 @@ nsIContent
 child
 =
 aRange
--
->
+.
 GetChildAtStartOffset
 (
 )
@@ -3180,7 +3167,6 @@ result
 =
 GetTableCellLocationFromRange
 (
-&
 aRange
 &
 tableMode
