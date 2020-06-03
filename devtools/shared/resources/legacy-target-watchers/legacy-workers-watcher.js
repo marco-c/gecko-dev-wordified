@@ -1052,11 +1052,13 @@ targetList
 .
 getAllTargets
 (
+[
 TargetList
 .
 TYPES
 .
 PROCESS
+]
 )
 ;
 }

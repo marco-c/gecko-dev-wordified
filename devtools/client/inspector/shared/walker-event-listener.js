@@ -244,6 +244,7 @@ targetList
 .
 getAllTargets
 (
+[
 this
 .
 _inspector
@@ -255,6 +256,7 @@ targetList
 TYPES
 .
 FRAME
+]
 )
 ;
 for
