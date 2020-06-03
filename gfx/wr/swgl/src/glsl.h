@@ -10081,6 +10081,7 @@ w
 )
 {
 }
+ALWAYS_INLINE
 float
 &
 select
