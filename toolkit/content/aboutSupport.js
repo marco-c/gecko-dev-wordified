@@ -10582,9 +10582,11 @@ event
 {
 window
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 .
 openDialog
 (

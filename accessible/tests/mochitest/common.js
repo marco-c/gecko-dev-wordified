@@ -5562,9 +5562,11 @@ aWindow
 return
 aWindow
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 ;
 }
 /

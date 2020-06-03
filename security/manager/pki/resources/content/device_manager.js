@@ -2084,9 +2084,11 @@ doLoad
 {
 window
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 .
 open
 (
@@ -2288,9 +2290,11 @@ objects
 ;
 window
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 .
 openDialog
 (

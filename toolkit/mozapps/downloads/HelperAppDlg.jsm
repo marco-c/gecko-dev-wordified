@@ -1244,9 +1244,9 @@ rootWin
 =
 docShell
 .
-browsingContext
+rootTreeItem
 .
-topChromeWindow
+domWindow
 ;
 this
 .

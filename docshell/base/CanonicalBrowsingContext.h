@@ -580,14 +580,6 @@ GetParentCrossChromeBoundary
 (
 )
 ;
-Nullable
-<
-WindowProxyHolder
->
-GetTopChromeWindow
-(
-)
-;
 nsISHistory
 *
 GetSessionHistory

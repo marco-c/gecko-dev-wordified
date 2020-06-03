@@ -3223,9 +3223,11 @@ chromeWindow
 =
 window
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 ;
 let
 setupFinished

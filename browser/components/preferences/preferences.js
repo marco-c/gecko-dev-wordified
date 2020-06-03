@@ -923,9 +923,11 @@ mainWindow
 =
 window
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 ;
 mainWindow
 .
