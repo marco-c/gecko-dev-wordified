@@ -410,7 +410,7 @@ struct
 DisplayListData
 ;
 struct
-RenderRootUpdates
+TransactionData
 ;
 }
 /
@@ -5417,7 +5417,7 @@ mozilla
 layers
 :
 :
-RenderRootUpdates
+TransactionData
 )
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (

@@ -464,10 +464,10 @@ FocusTarget
 aFocusTarget
 nsTArray
 <
-RenderRootUpdates
+TransactionData
 >
 &
-aRenderRootUpdates
+aTransactionData
 TransactionId
 aTransactionId
 const

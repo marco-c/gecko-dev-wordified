@@ -361,7 +361,7 @@ mozilla
 layers
 :
 :
-RenderRootUpdates
+TransactionData
 from
 "
 mozilla
@@ -536,10 +536,10 @@ EmptyTransaction
 (
 FocusTarget
 focusTarget
-RenderRootUpdates
+TransactionData
 [
 ]
-renderRootUpdates
+transationData
 OpDestroy
 [
 ]
