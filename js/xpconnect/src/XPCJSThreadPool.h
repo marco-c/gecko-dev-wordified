@@ -222,12 +222,9 @@ runTask
 (
 )
 ;
-Unused
-<
-<
 mOffThreadTask
 .
-release
+reset
 (
 )
 ;
