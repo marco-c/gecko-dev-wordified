@@ -342,6 +342,7 @@ req
 new
 XMLHttpRequestMainThread
 (
+global
 )
 ;
 req
@@ -355,7 +356,6 @@ principal
 GetPrincipal
 (
 )
-global
 cookieJarSettings
 false
 )
