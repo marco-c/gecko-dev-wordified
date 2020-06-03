@@ -18103,7 +18103,6 @@ newCookie
 restrictToHost
 :
 hostname
-protocol
 }
 )
 ;

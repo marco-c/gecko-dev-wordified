@@ -347,7 +347,7 @@ Assert
 .
 equal
 (
-12
+11
 getDBVersion
 (
 destFile
