@@ -3478,10 +3478,7 @@ BHR
 detected
 hang
 "
-MakeUnique
-<
 HangMarkerPayload
->
 (
 startTime
 endTime

@@ -16845,10 +16845,7 @@ GRAPHICS
 "
 CONTENT_FRAME_TIME
 "
-MakeUnique
-<
 ContentFramePayload
->
 (
 aTxnStart
 aCompositeEnd

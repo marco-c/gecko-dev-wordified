@@ -2911,10 +2911,7 @@ GRAPHICS
 "
 CONTENT_FULL_PAINT_TIME
 "
-MakeUnique
-<
 ContentBuildPayload
->
 (
 aInfo
 .

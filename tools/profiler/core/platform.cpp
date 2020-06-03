@@ -36151,10 +36151,7 @@ OTHER
 Native
 allocation
 "
-MakeUnique
-<
 NativeAllocationMarkerPayload
->
 (
 TimeStamp
 :
@@ -36420,10 +36417,9 @@ const
 char
 *
 aMarkerName
-UniquePtr
-<
+const
 ProfilerMarkerPayload
->
+&
 aPayload
 )
 {
@@ -36566,13 +36562,9 @@ TimeStamp
 origin
 =
 (
-aPayload
-&
-&
 !
 aPayload
--
->
+.
 GetStartTime
 (
 )
@@ -36583,8 +36575,7 @@ IsNull
 )
 ?
 aPayload
--
->
+.
 GetStartTime
 (
 )
@@ -36636,6 +36627,7 @@ uint32_t
 (
 aCategoryPair
 )
+&
 aPayload
 delta
 .
