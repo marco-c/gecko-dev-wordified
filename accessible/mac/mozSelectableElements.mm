@@ -1289,7 +1289,7 @@ return
 (
 void
 )
-postNotification
+moxPostNotification
 :
 (
 NSString
@@ -1299,7 +1299,7 @@ notification
 {
 [
 super
-postNotification
+moxPostNotification
 :
 notification
 ]
@@ -1384,7 +1384,7 @@ first
 .
 [
 self
-postNotification
+moxPostNotification
 :
 "
 AXMenuClosed
@@ -1774,7 +1774,7 @@ parent
 ;
 [
 parent
-postNotification
+moxPostNotification
 :
 NSAccessibilitySelectedChildrenChangedNotification
 ]

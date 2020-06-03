@@ -134,6 +134,11 @@ MacUtils
 mm
 '
 '
+MOXAccessibleBase
+.
+mm
+'
+'
 mozAccessible
 .
 mm
