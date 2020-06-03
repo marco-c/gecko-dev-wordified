@@ -471,15 +471,6 @@ evalsc
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
-environment
-JS
-:
-:
 SourceText
 <
 char16_t
