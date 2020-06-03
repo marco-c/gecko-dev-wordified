@@ -1850,12 +1850,12 @@ Twitter
 )
 ;
 let
-enabledPromise
+processedPromise
 =
 awaitEvent
 (
 "
-ready
+searchEngineProcessed
 "
 EXTENSION1_ID
 )
@@ -1868,7 +1868,7 @@ enable
 )
 ;
 await
-enabledPromise
+processedPromise
 ;
 is
 (
