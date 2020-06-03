@@ -8516,6 +8516,15 @@ Animation
 aAnimations
 )
 ;
+void
+CloneAnimationsFrom
+(
+const
+Element
+&
+aOther
+)
+;
 virtual
 void
 GetInnerHTML
