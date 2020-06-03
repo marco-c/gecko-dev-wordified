@@ -189,6 +189,13 @@ h
 #
 include
 "
+ReplaceTextTransaction
+.
+h
+"
+#
+include
+"
 SplitNodeTransaction
 .
 h
@@ -408,6 +415,10 @@ JoinNodeTransaction
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (
 PlaceholderTransaction
+)
+NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
+(
+ReplaceTextTransaction
 )
 NS_IMPL_EDITTRANSACTIONBASE_GETASMETHODS
 (

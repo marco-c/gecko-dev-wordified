@@ -565,6 +565,10 @@ SelAdjInsertText
 textNode
 mOffset
 mStringToInsert
+.
+Length
+(
+)
 )
 ;
 return
