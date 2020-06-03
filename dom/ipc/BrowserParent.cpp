@@ -722,6 +722,13 @@ h
 #
 include
 "
+nsSHistory
+.
+h
+"
+#
+include
+"
 nsViewManager
 .
 h
