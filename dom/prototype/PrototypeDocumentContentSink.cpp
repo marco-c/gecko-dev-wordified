@@ -2306,14 +2306,6 @@ nsIStyleSheetLinkingElement
 nsresult
 rv
 ;
-ssle
--
->
-InitStyleLinkElement
-(
-false
-)
-;
 /
 /
 We
