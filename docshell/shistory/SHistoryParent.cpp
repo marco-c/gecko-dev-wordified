@@ -223,16 +223,11 @@ aSHistoryParent
 CanonicalBrowsingContext
 *
 aRootBC
-const
-nsID
-&
-aDocShellID
 )
 :
 nsSHistory
 (
 aRootBC
-aDocShellID
 )
 mSHistoryParent
 (
@@ -374,9 +369,6 @@ LegacySHistory
 (
 this
 aContext
-nsID
-(
-)
 )
 )
 {

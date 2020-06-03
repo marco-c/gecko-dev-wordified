@@ -259,10 +259,6 @@ aSHistoryParent
 CanonicalBrowsingContext
 *
 aRootBC
-const
-nsID
-&
-aDocShellID
 )
 ;
 NS_IMETHOD
