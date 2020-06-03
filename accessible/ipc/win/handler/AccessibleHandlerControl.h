@@ -522,6 +522,7 @@ std
 :
 unordered_map
 .
+typedef
 std
 :
 :
@@ -533,6 +534,9 @@ RefPtr
 AccessibleHandler
 >
 >
+AccessibleCache
+;
+AccessibleCache
 mAccessibleCache
 ;
 }
