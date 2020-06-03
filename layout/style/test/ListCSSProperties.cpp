@@ -495,16 +495,6 @@ text
 zoom
 "
 "
-aspect
--
-ratio
-"
-/
-/
-for
-now
-.
-"
 -
 moz
 -

@@ -2825,6 +2825,10 @@ Appearance
 "
                 
 "
+AspectRatio
+"
+                
+"
 BreakBetween
 "
                 
@@ -2966,10 +2970,6 @@ TextDecorationSkipInk
                 
 "
 NonNegativeNumber
-"
-                
-"
-Number
 "
                 
 "
