@@ -7007,7 +7007,9 @@ padding
 if
 font
 .
-texture_padding
+use_texture_padding
+(
+)
 {
 (
 actual_width
@@ -7748,7 +7750,9 @@ padding
 if
 font
 .
-texture_padding
+use_texture_padding
+(
+)
 {
 left
 -
