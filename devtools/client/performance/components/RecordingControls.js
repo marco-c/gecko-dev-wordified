@@ -260,17 +260,6 @@ devtools
 toolbar
 "
 }
-div
-(
-{
-className
-:
-"
-toolbar
--
-group
-"
-}
 button
 (
 {
@@ -385,7 +374,6 @@ onClick
 :
 onImportButtonClick
 }
-)
 )
 )
 ;
