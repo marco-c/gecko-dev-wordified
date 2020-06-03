@@ -8836,6 +8836,14 @@ aEffect
 HasOpacityChange
 (
 )
+&
+&
+!
+aFrame
+.
+HasAnimationOfOpacity
+(
+)
 ;
 }
 bool
