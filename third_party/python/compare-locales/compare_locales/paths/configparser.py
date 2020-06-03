@@ -249,6 +249,13 @@ ctx
         
 self
 .
+processExcludes
+(
+ctx
+)
+        
+self
+.
 processLocales
 (
 ctx
@@ -733,6 +740,69 @@ ctx
 )
 :
         
+for
+child
+in
+self
+.
+_processChild
+(
+ctx
+'
+includes
+'
+)
+:
+            
+ctx
+.
+pc
+.
+add_child
+(
+child
+)
+    
+def
+processExcludes
+(
+self
+ctx
+)
+:
+        
+for
+child
+in
+self
+.
+_processChild
+(
+ctx
+'
+excludes
+'
+)
+:
+            
+ctx
+.
+pc
+.
+exclude
+(
+child
+)
+    
+def
+_processChild
+(
+self
+ctx
+field
+)
+:
+        
 assert
 ctx
 .
@@ -742,9 +812,7 @@ not
 None
         
 if
-'
-includes
-'
+field
 not
 in
 ctx
@@ -755,21 +823,19 @@ data
 return
         
 for
-include
+child_config
 in
 ctx
 .
 data
 [
-'
-includes
-'
+field
 ]
 :
             
 #
 resolve
-include
+child_config
 [
 '
 path
@@ -797,7 +863,7 @@ pc
 .
 root
                     
-include
+child_config
 [
 '
 path
@@ -890,14 +956,8 @@ filename
                 
 continue
             
-ctx
-.
-pc
-.
-add_child
-(
+yield
 child
-)
     
 def
 asConfig

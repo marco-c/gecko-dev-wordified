@@ -27,7 +27,7 @@ migrate
 .
 context
 import
-MergeContext
+MigrationContext
 from
 fluent
 .
@@ -89,7 +89,7 @@ def
 __init__
 (
 self
-language
+locale
 reference_dir
 localization_dir
 dry_run
@@ -98,9 +98,9 @@ dry_run
         
 self
 .
-language
+locale
 =
-language
+locale
         
 self
 .
@@ -230,7 +230,7 @@ migration
 __name__
 self
 .
-language
+locale
 )
 )
         
@@ -246,12 +246,12 @@ context
         
 ctx
 =
-MergeContext
+MigrationContext
 (
             
 self
 .
-language
+locale
 self
 .
 reference_dir
@@ -309,7 +309,7 @@ migration
 __name__
 self
 .
-language
+locale
 e
 )
 )
@@ -757,7 +757,7 @@ err
 def
 main
 (
-lang
+locale
 reference_dir
 localization_dir
 migrations
@@ -785,7 +785,7 @@ migrator
 =
 Migrator
 (
-lang
+locale
 reference_dir
 localization_dir
 dry_run
@@ -878,6 +878,11 @@ add_argument
 '
 -
 -
+locale
+'
+'
+-
+-
 lang
 '
 type
@@ -888,8 +893,15 @@ help
 =
 '
 target
-language
+locale
 code
+(
+-
+-
+lang
+is
+deprecated
+)
 '
     
 )
@@ -1062,11 +1074,11 @@ migrations
 main
 (
         
-lang
+locale
 =
 args
 .
-lang
+locale
         
 reference_dir
 =

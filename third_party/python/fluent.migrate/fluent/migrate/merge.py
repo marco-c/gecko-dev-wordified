@@ -20,6 +20,11 @@ as
 FTL
 from
 .
+errors
+import
+SkipTransform
+from
+.
 transforms
 import
 evaluate
@@ -321,12 +326,22 @@ entry
 .
 comment
             
+try
+:
+                
 return
 evaluate
 (
 ctx
 transform
 )
+            
+except
+SkipTransform
+:
+                
+return
+None
     
 body
 =

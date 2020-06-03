@@ -239,6 +239,9 @@ env
 root
 =
 None
+encoding
+=
+None
 )
 :
         
@@ -395,6 +398,14 @@ root
 =
 root
             
+self
+.
+encoding
+=
+other
+.
+encoding
+            
 return
         
 self
@@ -432,6 +443,12 @@ pattern
 root
 =
 root
+        
+self
+.
+encoding
+=
+encoding
     
 def
 with_env
@@ -484,7 +501,8 @@ pattern
 .
 root
         
-return
+prefix
+=
 subpattern
 .
 expand
@@ -493,6 +511,29 @@ self
 .
 env
 )
+        
+if
+self
+.
+encoding
+is
+not
+None
+:
+            
+prefix
+=
+prefix
+.
+encode
+(
+self
+.
+encoding
+)
+        
+return
+prefix
     
 def
 match
@@ -580,6 +621,39 @@ m
 groupdict
 (
 )
+        
+if
+self
+.
+encoding
+is
+not
+None
+:
+            
+d
+=
+{
+key
+:
+value
+.
+decode
+(
+self
+.
+encoding
+)
+for
+key
+value
+in
+d
+.
+items
+(
+)
+}
         
 if
 '
@@ -760,15 +834,8 @@ None
             
 return
         
-self
-.
-_cached_re
+pattern
 =
-re
-.
-compile
-(
-            
 self
 .
 pattern
@@ -783,6 +850,35 @@ env
 '
 '
         
+if
+self
+.
+encoding
+is
+not
+None
+:
+            
+pattern
+=
+pattern
+.
+encode
+(
+self
+.
+encoding
+)
+        
+self
+.
+_cached_re
+=
+re
+.
+compile
+(
+pattern
 )
     
 def
@@ -853,6 +949,14 @@ key
 Literal
 (
 value
+if
+value
+is
+not
+None
+else
+'
+'
 )
 )
             
@@ -877,7 +981,8 @@ other
 env
 )
         
-return
+path
+=
 other
 .
 pattern
@@ -886,6 +991,29 @@ expand
 (
 env
 )
+        
+if
+self
+.
+encoding
+is
+not
+None
+:
+            
+path
+=
+path
+.
+encode
+(
+self
+.
+encoding
+)
+        
+return
+path
     
 def
 concat
@@ -1269,6 +1397,20 @@ k
 ]
 :
                     
+return
+False
+        
+if
+self
+.
+encoding
+!
+=
+other
+.
+encoding
+:
+            
 return
 False
         

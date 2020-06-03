@@ -113,9 +113,26 @@ self
 :
         
 return
+(
+            
 self
 .
 stringlist_val
+            
+if
+self
+.
+stringlist_val
+            
+else
+self
+.
+stringlist_key
+[
+0
+]
+        
+)
     
 property
     
@@ -158,7 +175,7 @@ bool
 (
 self
 .
-val
+stringlist_val
 )
     
 def
