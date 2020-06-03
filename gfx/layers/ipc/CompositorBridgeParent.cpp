@@ -15265,6 +15265,13 @@ GetWebRenderAPI
 (
 )
 ;
+api
+-
+>
+ClearAllCaches
+(
+)
+;
 }
 void
 CompositorBridgeParent
