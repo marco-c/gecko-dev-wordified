@@ -140,6 +140,11 @@ TestGfxWidgets
 cpp
 '
 '
+TestJobScheduler
+.
+cpp
+'
+'
 TestLayers
 .
 cpp
