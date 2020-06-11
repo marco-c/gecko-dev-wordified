@@ -3023,6 +3023,8 @@ nsWebBrowser
 :
 GoBack
 (
+bool
+aRequireUserInteraction
 )
 {
 NS_ENSURE_STATE
@@ -3036,6 +3038,7 @@ mDocShellAsNav
 >
 GoBack
 (
+aRequireUserInteraction
 )
 ;
 }
@@ -3045,6 +3048,8 @@ nsWebBrowser
 :
 GoForward
 (
+bool
+aRequireUserInteraction
 )
 {
 NS_ENSURE_STATE
@@ -3058,6 +3063,7 @@ mDocShellAsNav
 >
 GoForward
 (
+aRequireUserInteraction
 )
 ;
 }

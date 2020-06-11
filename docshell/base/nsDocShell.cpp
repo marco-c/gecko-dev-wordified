@@ -18016,6 +18016,8 @@ nsDocShell
 :
 GoBack
 (
+bool
+aRequireUserInteraction
 )
 {
 if
@@ -18089,6 +18091,7 @@ Go
 (
 -
 1
+aRequireUserInteraction
 rv
 )
 ;
@@ -18106,6 +18109,8 @@ nsDocShell
 :
 GoForward
 (
+bool
+aRequireUserInteraction
 )
 {
 if
@@ -18178,6 +18183,7 @@ rootSH
 Go
 (
 1
+aRequireUserInteraction
 rv
 )
 ;

@@ -232,6 +232,9 @@ epoch
 }
 goBack
 (
+requireUserInteraction
+=
+false
 )
 {
 let
@@ -259,12 +262,16 @@ GoBack
 "
 {
 cancelContentJSEpoch
+requireUserInteraction
 }
 )
 ;
 }
 goForward
 (
+requireUserInteraction
+=
+false
 )
 {
 let
@@ -292,6 +299,7 @@ GoForward
 "
 {
 cancelContentJSEpoch
+requireUserInteraction
 }
 )
 ;
