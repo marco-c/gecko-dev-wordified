@@ -2449,7 +2449,7 @@ bool
 nsCoreUtils
 :
 :
-IsTabDocument
+IsTopLevelContentDocInProcess
 (
 Document
 *
@@ -2489,7 +2489,9 @@ parentTreeItem
 ;
 /
 /
-Tab
+Top
+level
+content
 document
 running
 in

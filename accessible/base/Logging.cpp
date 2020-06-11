@@ -1076,8 +1076,8 @@ p
 "
 "
 is
-tab
-document
+top
+level
 :
 %
 s
@@ -1103,7 +1103,7 @@ rootTreeItem
 nsCoreUtils
 :
 :
-IsTabDocument
+IsTopLevelContentDocInProcess
 (
 aDocumentNode
 )

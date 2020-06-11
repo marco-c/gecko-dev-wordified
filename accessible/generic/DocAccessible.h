@@ -3446,10 +3446,15 @@ the
 document
 is
 a
-tab
+top
+level
+content
 document
+in
+this
+process
 .
-eTabDocument
+eTopLevelContentDocInProcess
 =
 1
 <
