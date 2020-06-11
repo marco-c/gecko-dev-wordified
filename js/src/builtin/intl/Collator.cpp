@@ -618,7 +618,9 @@ JS_STRING_SYM_PS
 (
 toStringTag
 "
-Object
+Intl
+.
+Collator
 "
 JSPROP_READONLY
 )

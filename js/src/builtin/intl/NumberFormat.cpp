@@ -795,7 +795,9 @@ JS_STRING_SYM_PS
 (
 toStringTag
 "
-Object
+Intl
+.
+NumberFormat
 "
 JSPROP_READONLY
 )

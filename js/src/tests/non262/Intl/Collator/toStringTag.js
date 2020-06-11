@@ -108,7 +108,9 @@ desc
 .
 value
 "
-Object
+Intl
+.
+Collator
 "
 )
 ;
@@ -155,7 +157,9 @@ prototype
 "
 [
 object
-Object
+Intl
+.
+Collator
 ]
 "
 )
@@ -178,7 +182,9 @@ Collator
 "
 [
 object
-Object
+Intl
+.
+Collator
 ]
 "
 )

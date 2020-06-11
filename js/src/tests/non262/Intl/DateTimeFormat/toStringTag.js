@@ -108,7 +108,9 @@ desc
 .
 value
 "
-Object
+Intl
+.
+DateTimeFormat
 "
 )
 ;
@@ -155,7 +157,9 @@ prototype
 "
 [
 object
-Object
+Intl
+.
+DateTimeFormat
 ]
 "
 )
@@ -178,7 +182,9 @@ DateTimeFormat
 "
 [
 object
-Object
+Intl
+.
+DateTimeFormat
 ]
 "
 )
