@@ -285,6 +285,9 @@ Error
 EvalError
 "
 "
+FinalizationRegistry
+"
+"
 Float32Array
 "
 "
@@ -409,6 +412,9 @@ URIError
 "
 "
 WeakMap
+"
+"
+WeakRef
 "
 "
 WeakSet
