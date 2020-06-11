@@ -2525,6 +2525,23 @@ rebuilding
 "
 )
         
+except
+ManifestError
+:
+            
+logger
+.
+warning
+(
+"
+Failed
+to
+load
+manifest
+rebuilding
+"
+)
+        
 if
 manifest
 is
