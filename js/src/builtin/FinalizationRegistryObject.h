@@ -2140,6 +2140,17 @@ record
 )
 ;
 static
+bool
+preserveDOMWrapper
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
+static
 void
 trace
 (
