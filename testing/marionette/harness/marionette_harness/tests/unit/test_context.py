@@ -128,7 +128,7 @@ CONTEXT_CONTENT
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -216,7 +216,7 @@ chrome
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -241,7 +241,7 @@ content
         
 self
 .
-assertEquals
+assertEqual
 (
 self
 .
@@ -308,7 +308,7 @@ chrome
             
 self
 .
-assertEquals
+assertEqual
 (
 self
 .

@@ -829,10 +829,13 @@ active_tests
 [
 dict
 (
+list
+(
 zip
 (
 keys
 values
+)
 )
 )
 for

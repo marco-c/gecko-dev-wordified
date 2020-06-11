@@ -88,6 +88,8 @@ copy
 import
 deepcopy
 import
+six
+import
 mozinfo
 import
 moznetwork
@@ -4946,10 +4948,11 @@ for
 k
 v
 in
-u
+six
 .
 iteritems
 (
+u
 )
 :
                 
