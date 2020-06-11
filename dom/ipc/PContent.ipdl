@@ -1202,7 +1202,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 from
 "
 mozilla
@@ -4992,7 +4992,7 @@ nsCString
 aTrackingOrigin
 uint32_t
 aCookieBehavior
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 aReason
 )
 ;
@@ -9101,7 +9101,7 @@ prompt
 *
 /
 async
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 Principal
 aPrincipal
@@ -9142,7 +9142,7 @@ aParentWindowId
 *
 /
 async
-FirstPartyStorageAccessGrantedForOrigin
+StorageAccessPermissionGrantedForOrigin
 (
 uint64_t
 aTopLevelWindowId
@@ -9174,7 +9174,7 @@ nsCString
 aTrackingOrigin
 uint32_t
 aCookieBehavior
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 aReason
 )
 returns

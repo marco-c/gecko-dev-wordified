@@ -1771,7 +1771,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 >
 &
 aReason

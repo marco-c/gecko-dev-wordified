@@ -3007,7 +3007,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsFirstPartyStorageAccessGranted
+IsStorageAccessPermissionGranted
 )
 rejectedReason
 isSafeTopLevelNav
@@ -3648,7 +3648,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsFirstPartyStorageAccessGranted
+IsStorageAccessPermissionGranted
 )
 aCookieHeader
 priorCookieCount
@@ -5237,7 +5237,7 @@ aIsThirdPartyTrackingResource
 bool
 aIsThirdPartySocialTrackingResource
 bool
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 uint32_t
 aRejectedReason
 bool
@@ -5555,7 +5555,7 @@ aHostURI
 aIsForeign
 aIsThirdPartyTrackingResource
 aIsThirdPartySocialTrackingResource
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 VoidCString
 (
 )
@@ -10116,7 +10116,7 @@ aIsThirdPartyTrackingResource
 bool
 aIsThirdPartySocialTrackingResource
 bool
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 const
 nsACString
 &
@@ -10420,7 +10420,7 @@ aIsThirdPartyTrackingResource
 &
 &
 !
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 &
 &
 aCookieJarSettings
@@ -10571,7 +10571,7 @@ prefs
 /
 /
 Check
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 when
 checking
 aCookieBehavior
@@ -10611,7 +10611,7 @@ BEHAVIOR_REJECT
 &
 &
 !
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 )
 {
 COOKIE_LOGFAILURE
@@ -10675,7 +10675,7 @@ BEHAVIOR_REJECT_FOREIGN
 &
 &
 !
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 )
 {
 COOKIE_LOGFAILURE
@@ -10722,7 +10722,7 @@ GetLimitForeignContexts
 &
 &
 !
-aFirstPartyStorageAccessGranted
+aStorageAccessPermissionGranted
 &
 &
 aNumOfCookies

@@ -789,7 +789,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 >
 &
 aReason
@@ -1513,7 +1513,7 @@ mBlocked
 ;
 Maybe
 <
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 >
 reason
 =
@@ -1560,7 +1560,7 @@ value
 )
 {
 case
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 :
 :
 eStorageAccessAPI
@@ -1582,7 +1582,7 @@ ContentBlocking_StorageAccessAPIExempt
 break
 ;
 case
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 :
 :
 eOpenerAfterUserInteraction
@@ -1604,7 +1604,7 @@ ContentBlocking_OpenerAfterUserInteractionExempt
 break
 ;
 case
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 :
 :
 eOpener
@@ -1631,7 +1631,7 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 Unknown
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 "
 )
 ;
