@@ -316,6 +316,11 @@ isPromiseRejection
 "
 :
 false
+"
+isForwardedFromContentProcess
+"
+:
+false
 }
 "
 resourceType
@@ -495,6 +500,11 @@ p
 "
 "
 isPromiseRejection
+"
+:
+false
+"
+isForwardedFromContentProcess
 "
 :
 false
