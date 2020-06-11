@@ -5295,6 +5295,10 @@ lock
 void
 HandlePinchLocking
 (
+const
+PinchGestureInput
+&
+aEvent
 )
 ;
 /
