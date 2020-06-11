@@ -35060,7 +35060,7 @@ else
 {
 writer
 .
-guardFunctionIsNative
+guardFunctionHasNoJitEntry
 (
 thisObjId
 )
@@ -35564,7 +35564,7 @@ native
 .
 writer
 .
-guardFunctionIsNative
+guardFunctionHasNoJitEntry
 (
 thisObjId
 )
@@ -38182,7 +38182,7 @@ JSFunction
 ;
 writer
 .
-guardFunctionIsNative
+guardFunctionHasNoJitEntry
 (
 calleeObjId
 )

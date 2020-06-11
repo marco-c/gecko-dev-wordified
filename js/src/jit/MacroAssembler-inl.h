@@ -2708,7 +2708,7 @@ void
 MacroAssembler
 :
 :
-branchIfInterpreted
+branchIfFunctionHasJitEntry
 (
 Register
 fun
