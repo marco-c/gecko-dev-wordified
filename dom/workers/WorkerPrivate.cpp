@@ -1522,6 +1522,7 @@ runtime
 >
 UnregisterWorker
 (
+*
 mFinishedWorker
 )
 ;
@@ -1633,6 +1634,7 @@ runtime
 >
 UnregisterWorker
 (
+*
 mFinishedWorker
 )
 ;
@@ -8768,6 +8770,7 @@ WorkerPrivate
 :
 Freeze
 (
+const
 nsPIDOMWindowInner
 *
 aWindow
@@ -8950,6 +8953,7 @@ WorkerPrivate
 :
 Thaw
 (
+const
 nsPIDOMWindowInner
 *
 aWindow
@@ -12952,6 +12956,7 @@ runtimeService
 >
 RegisterWorker
 (
+*
 worker
 )
 )

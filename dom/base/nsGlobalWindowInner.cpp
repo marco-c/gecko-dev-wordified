@@ -6463,6 +6463,7 @@ window
 .
 CancelWorkersForWindow
 (
+*
 this
 )
 ;
@@ -31893,6 +31894,7 @@ DisableVRUpdates
 ;
 SuspendWorkersForWindow
 (
+*
 this
 )
 ;
@@ -32367,6 +32369,7 @@ setTimeout
 .
 ResumeWorkersForWindow
 (
+*
 this
 )
 ;
@@ -32529,6 +32532,7 @@ return
 }
 FreezeWorkersForWindow
 (
+*
 this
 )
 ;
@@ -32716,6 +32720,7 @@ Thaw
 ;
 ThawWorkersForWindow
 (
+*
 this
 )
 ;
@@ -44109,6 +44114,7 @@ StorageAccessGranted
 {
 PropagateFirstPartyStorageAccessGrantedToWorkers
 (
+*
 this
 )
 ;
