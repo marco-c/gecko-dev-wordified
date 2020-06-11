@@ -25297,6 +25297,9 @@ aBuilder
 bool
 willBuildAsyncZoomContainer
 =
+mWillBuildScrollableLayer
+&
+&
 aBuilder
 -
 >
