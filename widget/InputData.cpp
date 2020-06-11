@@ -2740,6 +2740,10 @@ mType
 (
 PINCHGESTURE_START
 )
+mSource
+(
+UNKNOWN
+)
 mHandledByAPZ
 (
 false
@@ -2753,6 +2757,8 @@ PinchGestureInput
 (
 PinchGestureType
 aType
+PinchGestureSource
+aSource
 uint32_t
 aTime
 TimeStamp
@@ -2783,6 +2789,10 @@ aModifiers
 mType
 (
 aType
+)
+mSource
+(
+aSource
 )
 mFocusPoint
 (

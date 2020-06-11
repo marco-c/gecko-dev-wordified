@@ -640,6 +640,10 @@ PinchGestureInput
 result
 (
 aType
+PinchGestureInput
+:
+:
+UNKNOWN
 MillisecondsSinceStartup
 (
 timestamp
