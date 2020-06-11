@@ -2147,7 +2147,7 @@ interpreter
 (
 3
 .
-5
+6
 or
 later
 )
@@ -3086,7 +3086,7 @@ min_version
 '
 3
 .
-5
+6
 .
 0
 '
@@ -3124,7 +3124,7 @@ FatalCheckError
 Python
 3
 .
-5
+6
 or
 newer
 is
@@ -3158,7 +3158,7 @@ Python
 '
 3
 .
-5
+6
 executable
 .
 '
@@ -3168,7 +3168,7 @@ version
 <
 (
 3
-5
+6
 0
 )
 :
@@ -3179,7 +3179,7 @@ FatalCheckError
 Python
 3
 .
-5
+6
 or
 newer
 is
