@@ -1,16 +1,5 @@
 /
 /
-|
-reftest
-|
-skip
--
-if
-(
-release_or_beta
-)
-/
-/
 Test
 that
 property
