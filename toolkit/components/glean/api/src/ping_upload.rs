@@ -396,6 +396,7 @@ glean
 .
 get_upload_task
 (
+false
 )
 )
 {
