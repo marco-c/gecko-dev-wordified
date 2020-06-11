@@ -350,7 +350,7 @@ accessibilityAttributeValue
 NSAccessibilityParentAttribute
 ]
 ;
-NSAssert
+MOZ_ASSERT
 (
 mParallelView
 "
@@ -409,7 +409,7 @@ representedView
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-NSAssert
+MOZ_ASSERT
 (
 mParallelView
 "
