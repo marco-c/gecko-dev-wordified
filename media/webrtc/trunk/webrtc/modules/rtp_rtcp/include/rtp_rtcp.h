@@ -2521,9 +2521,10 @@ const
 Returns
 packet
 count
-and
 octet
 count
+and
+timestamp
 from
 RTCP
 sender
@@ -2539,6 +2540,9 @@ packet_count
 uint32_t
 *
 octet_count
+NtpTime
+*
+ntp_timestamp
 )
 const
 =
