@@ -166,19 +166,6 @@ Bug
     
 r
 '
-build
--
-.
-*
--
-aarch64
-'
-#
-Bug
-1631990
-    
-r
-'
 mingwclang
 '
 #
