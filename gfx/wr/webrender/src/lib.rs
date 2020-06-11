@@ -769,6 +769,9 @@ mod
 internal_types
 ;
 mod
+lru_cache
+;
+mod
 picture
 ;
 mod
