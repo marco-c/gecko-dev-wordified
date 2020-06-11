@@ -3540,6 +3540,7 @@ WidgetGUIEvent
 *
 aGUIEvent
 )
+const
 ;
 /
 *

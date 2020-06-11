@@ -873,6 +873,7 @@ int32_t
 *
 aOffset
 )
+const
 {
 if
 (

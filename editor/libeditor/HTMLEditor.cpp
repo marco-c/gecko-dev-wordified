@@ -40150,6 +40150,7 @@ WidgetGUIEvent
 *
 aGUIEvent
 )
+const
 {
 if
 (
