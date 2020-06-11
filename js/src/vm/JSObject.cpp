@@ -21421,11 +21421,12 @@ return
 obj
 ;
 }
-Value
+JSObject
+*
 js
 :
 :
-GetThisValueOfLexical
+GetThisObjectOfLexical
 (
 JSObject
 *
@@ -21451,7 +21452,7 @@ LexicalEnvironmentObject
 (
 )
 .
-thisValue
+thisObject
 (
 )
 ;

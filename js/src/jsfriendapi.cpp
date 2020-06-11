@@ -9656,7 +9656,7 @@ lexicalEnvironment
 (
 )
 .
-setWindowProxyThisValue
+setWindowProxyThisObject
 (
 windowProxy
 )

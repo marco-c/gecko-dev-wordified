@@ -3398,7 +3398,7 @@ this
 '
 /
 /
-value
+object
 and
 all
 other
@@ -3482,7 +3482,7 @@ isSingleton
 )
 ;
 void
-initThisValue
+initThisObject
 (
 JSObject
 *
@@ -3844,7 +3844,7 @@ GlobalObject
 ;
 }
 void
-setWindowProxyThisValue
+setWindowProxyThisObject
 (
 JSObject
 *
@@ -3928,7 +3928,7 @@ the
 '
 this
 '
-value
+object
 for
 its
 /
@@ -3938,8 +3938,9 @@ scope
 Otherwise
 asserts
 .
-Value
-thisValue
+JSObject
+*
+thisObject
 (
 )
 const

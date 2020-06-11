@@ -848,8 +848,9 @@ isNullOrUndefined
 {
 vp
 .
-set
+setObject
 (
+*
 cx
 -
 >
@@ -862,7 +863,7 @@ lexicalEnvironment
 (
 )
 .
-thisValue
+thisObject
 (
 )
 )
@@ -1171,9 +1172,10 @@ env
 {
 res
 .
-set
+setObject
 (
-GetThisValueOfLexical
+*
+GetThisObjectOfLexical
 (
 env
 )
@@ -1308,9 +1310,10 @@ env
 {
 res
 .
-set
+setObject
 (
-GetThisValueOfLexical
+*
+GetThisObjectOfLexical
 (
 env
 )
@@ -19330,8 +19333,9 @@ stackHandleAt
 }
 else
 {
-PUSH_COPY
+PUSH_OBJECT
 (
+*
 cx
 -
 >
@@ -19344,7 +19348,7 @@ lexicalEnvironment
 (
 )
 .
-thisValue
+thisObject
 (
 )
 )
