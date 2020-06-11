@@ -409,7 +409,7 @@ if
 thread
 )
 {
-return
+continue
 ;
 }
 const

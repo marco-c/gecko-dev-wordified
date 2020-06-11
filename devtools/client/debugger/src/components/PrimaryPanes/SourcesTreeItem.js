@@ -155,7 +155,6 @@ hasPrettyTab
 as
 checkHasPrettyTab
 getContext
-getMainThread
 getExtensionNameBySourceUrl
 getSourceContent
 }
@@ -453,9 +452,6 @@ threads
 Thread
 [
 ]
-mainThread
-:
-Thread
 hasMatchingGeneratedSource
 :
 boolean
@@ -2691,12 +2687,6 @@ return
 cx
 :
 getContext
-(
-state
-)
-mainThread
-:
-getMainThread
 (
 state
 )

@@ -91,6 +91,16 @@ initialized
 /
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Connection
+closed
+/
+)
+;
 /
 *
 *

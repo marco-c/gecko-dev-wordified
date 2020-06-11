@@ -1356,9 +1356,7 @@ initialPauseState
 (
 action
 .
-mainThread
-.
-actor
+mainThreadActorID
 )
 }
 ;
