@@ -3167,9 +3167,6 @@ get
 bool
 useRtx
 =
-mRtxIsAllowed
-&
-&
 Preferences
 :
 :
