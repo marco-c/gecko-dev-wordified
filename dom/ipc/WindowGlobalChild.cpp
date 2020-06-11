@@ -3478,7 +3478,7 @@ inner
 inner
 -
 >
-SaveStorageAccessGranted
+SaveStorageAccessPermissionGranted
 (
 )
 ;
@@ -3511,7 +3511,7 @@ outer
 )
 -
 >
-SetHasStorageAccess
+SetStorageAccessPermissionGranted
 (
 true
 )

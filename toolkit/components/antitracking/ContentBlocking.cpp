@@ -5079,7 +5079,7 @@ inner
 inner
 -
 >
-SaveStorageAccessGranted
+SaveStorageAccessPermissionGranted
 (
 )
 ;
@@ -5112,7 +5112,7 @@ outer
 )
 -
 >
-SetHasStorageAccess
+SetStorageAccessPermissionGranted
 (
 true
 )
@@ -6443,7 +6443,7 @@ allowed
 document
 -
 >
-HasStoragePermission
+HasStorageAccessPermissionGranted
 (
 )
 ;
@@ -6479,7 +6479,7 @@ Debug
 aWindow
 -
 >
-HasStorageAccessGranted
+HasStorageAccessPermissionGranted
 (
 )
 )
@@ -7834,16 +7834,16 @@ false
 }
 /
 /
-HasStorageAccessGranted
+HasStorageAccessPermissionGranted
 only
 applies
 to
 channels
 that
 load
+/
+/
 documents
-/
-/
 for
 sub
 -
@@ -7897,7 +7897,7 @@ inner
 inner
 -
 >
-HasStorageAccessGranted
+HasStorageAccessPermissionGranted
 (
 )
 )

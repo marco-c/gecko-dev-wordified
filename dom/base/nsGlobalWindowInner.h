@@ -8071,7 +8071,7 @@ cookie
 jar
 .
 void
-StorageAccessGranted
+StorageAccessPermissionGranted
 (
 )
 ;

@@ -7209,6 +7209,12 @@ ErrorResult
 aRv
 )
 ;
+bool
+UseRegularPrincipal
+(
+)
+const
+;
 /
 *
 *
@@ -8145,10 +8151,11 @@ document
 has
 the
 storage
+access
 permission
 .
 bool
-HasStoragePermission
+HasStorageAccessPermissionGranted
 (
 )
 ;
