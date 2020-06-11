@@ -1505,6 +1505,7 @@ return
 bool
 IsInvisibleNodeAndShouldBeSkipped
 (
+const
 nsINode
 &
 aNode
@@ -1576,6 +1577,7 @@ unreachable
 .
 .
 .
+const
 nsINode
 *
 node
@@ -1586,6 +1588,7 @@ aNode
 ;
 if
 (
+const
 ShadowRoot
 *
 shadowRoot
