@@ -1072,7 +1072,7 @@ CookieBlockedByPermission
 cookieBlockedTracker
 :
 "
-BlockedCookieTracker
+CookieBlockedTracker
 "
 cookieBlockedAll
 :
@@ -1082,7 +1082,7 @@ CookieBlockedAll
 cookieBlockedForeign
 :
 "
-BlockedCookieForeign
+CookieBlockedForeign
 "
 }
 ;
