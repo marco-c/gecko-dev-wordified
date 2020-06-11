@@ -217,7 +217,7 @@ mPrincipal
 virtual
 nsIPrincipal
 *
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 override

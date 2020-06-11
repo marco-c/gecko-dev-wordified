@@ -8236,7 +8236,7 @@ XXX
 :
 force
 the
-partitionedPrincipal
+storagePrincipal
 to
 be
 equal
@@ -8245,9 +8245,9 @@ the
 response
 one
 .
-/
-/
 This
+/
+/
 is
 OK
 for
@@ -8260,7 +8260,7 @@ t
 want
 to
 expose
-partitionedPrincipal
+storagePrincipal
 /
 /
 functionality

@@ -478,7 +478,7 @@ aViolationEventJSON
 )
 ;
 async
-SaveStorageAccessPermissionGranted
+SaveStorageAccessGranted
 (
 )
 ;

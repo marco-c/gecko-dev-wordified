@@ -774,7 +774,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsStorageAccessPermissionGranted
+IsFirstPartyStorageAccessGranted
 )
 rejectedReason
 isSafeTopLevelNav
@@ -942,7 +942,7 @@ aIsThirdPartySocialTrackingResource
 const
 bool
 &
-aStorageAccessPermissionGranted
+aFirstPartyStorageAccessGranted
 const
 uint32_t
 &
@@ -1052,7 +1052,7 @@ nullptr
 aIsForeign
 aIsThirdPartyTrackingResource
 aIsThirdPartySocialTrackingResource
-aStorageAccessPermissionGranted
+aFirstPartyStorageAccessGranted
 aRejectedReason
 aIsSafeTopLevelNav
 aIsSameSiteForeign

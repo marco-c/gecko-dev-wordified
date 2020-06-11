@@ -1386,7 +1386,7 @@ ConsumeWindowInteraction
 )
 ;
 void
-StorageAccessPermissionGranted
+FirstPartyStorageAccessGranted
 (
 )
 ;

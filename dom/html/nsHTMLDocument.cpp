@@ -1194,7 +1194,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aPartitionedPrincipal
+aStoragePrincipal
 )
 {
 mLoadFlags
@@ -1212,7 +1212,7 @@ ResetToURI
 aURI
 aLoadGroup
 aPrincipal
-aPartitionedPrincipal
+aStoragePrincipal
 )
 ;
 mImages

@@ -9667,7 +9667,7 @@ mPrincipal
 ;
 /
 /
-PartitionedPrincipal
+StoragePrincipal
 for
 ServiceWorkers
 is
@@ -9676,9 +9676,9 @@ to
 mPrincipal
 because
 at
-/
-/
 the
+/
+/
 moment
 ServiceWorkers
 are
@@ -9690,7 +9690,7 @@ contexts
 .
 info
 .
-mPartitionedPrincipal
+mStoragePrincipal
 =
 info
 .
@@ -9870,7 +9870,7 @@ info
 mPrincipal
 info
 .
-mPartitionedPrincipal
+mStoragePrincipal
 info
 .
 mLoadGroup

@@ -1603,7 +1603,7 @@ override
 virtual
 nsIPrincipal
 *
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 override
@@ -8071,7 +8071,7 @@ cookie
 jar
 .
 void
-StorageAccessPermissionGranted
+StorageAccessGranted
 (
 )
 ;
@@ -9519,7 +9519,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mDocumentPartitionedPrincipal
+mDocumentIntrinsicStoragePrincipal
 ;
 nsCOMPtr
 <

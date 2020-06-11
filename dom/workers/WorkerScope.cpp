@@ -2598,7 +2598,7 @@ aOrigin
 mWorkerPrivate
 -
 >
-OriginNoSuffix
+Origin
 (
 )
 ;
@@ -3398,7 +3398,7 @@ void
 WorkerGlobalScope
 :
 :
-StorageAccessPermissionGranted
+FirstPartyStorageAccessGranted
 (
 )
 {

@@ -38338,13 +38338,13 @@ IPCResult
 ContentParent
 :
 :
-RecvAutomaticStorageAccessPermissionCanBeGranted
+RecvAutomaticStorageAccessCanBeGranted
 (
 const
 Principal
 &
 aPrincipal
-AutomaticStorageAccessPermissionCanBeGrantedResolver
+AutomaticStorageAccessCanBeGrantedResolver
 &
 &
 aResolver
@@ -38355,7 +38355,7 @@ aResolver
 Document
 :
 :
-AutomaticStorageAccessPermissionCanBeGranted
+AutomaticStorageAccessCanBeGranted
 (
 aPrincipal
 )
@@ -38377,7 +38377,7 @@ IPCResult
 ContentParent
 :
 :
-RecvStorageAccessPermissionGrantedForOrigin
+RecvFirstPartyStorageAccessGrantedForOrigin
 (
 uint64_t
 aTopLevelWindowId
@@ -38400,7 +38400,7 @@ const
 int
 &
 aAllowMode
-StorageAccessPermissionGrantedForOriginResolver
+FirstPartyStorageAccessGrantedForOriginResolver
 &
 &
 aResolver
@@ -38536,7 +38536,7 @@ const
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 &
 aReason
 CompleteAllowAccessForResolver
@@ -38600,7 +38600,7 @@ aResolver
 ContentBlocking
 :
 :
-StorageAccessPermissionGrantPromise
+StorageAccessGrantPromise
 :
 :
 ResolveOrRejectValue

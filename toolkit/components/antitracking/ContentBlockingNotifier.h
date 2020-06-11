@@ -184,7 +184,7 @@ eAllow
 }
 ;
 enum
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 {
 eStorageAccessAPI
 eOpenerAfterUserInteraction
@@ -376,7 +376,7 @@ aTrackingOrigin
 const
 Maybe
 <
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason
@@ -400,7 +400,7 @@ const
 nsAString
 &
 aTrackingOrigin
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 aReason
 )
 ;

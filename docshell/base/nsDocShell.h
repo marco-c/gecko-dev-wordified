@@ -3866,7 +3866,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aPartitionedPrincipal
+aStoragePrincipal
 nsIContentSecurityPolicy
 *
 aCSP
@@ -4142,7 +4142,7 @@ nsIPrincipal
 aPrincipalToInherit
 nsIPrincipal
 *
-aPartitionedPrincipalToInherit
+aStoragePrincipalToInherit
 nsIContentSecurityPolicy
 *
 aCsp
@@ -4760,7 +4760,7 @@ nsIPrincipal
 aPrincipalToInherit
 nsIPrincipal
 *
-aPartitionedPrincipalToInehrit
+aStoragePrincipalToInehrit
 uint32_t
 aLoadType
 nsIContentSecurityPolicy
@@ -5059,16 +5059,16 @@ parent
 /
 /
 If
-aConsiderPartitionedPrincipal
+aConsiderStoragePrincipal
 is
 true
 we
 consider
 the
-partitioned
-/
-/
+storage
 principal
+/
+/
 instead
 of
 the
@@ -5082,7 +5082,7 @@ GetInheritedPrincipal
 bool
 aConsiderCurrentDocument
 bool
-aConsiderPartitionedPrincipal
+aConsiderStoragePrincipal
 =
 false
 )
