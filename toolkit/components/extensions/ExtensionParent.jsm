@@ -2283,9 +2283,8 @@ return
 result
 ?
 result
-[
-0
-]
+.
+value
 :
 Promise
 .
