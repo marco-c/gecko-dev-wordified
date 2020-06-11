@@ -173,6 +173,13 @@ h
 #
 include
 "
+nsWindowsHelpers
+.
+h
+"
+#
+include
+"
 winwebauthn
 /
 webauthn
@@ -501,7 +508,7 @@ gWinWebAuthnModule
 ;
 gWinWebAuthnModule
 =
-LoadLibrary
+LoadLibrarySystem32
 (
 L
 "
