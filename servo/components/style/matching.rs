@@ -2842,7 +2842,7 @@ font_metrics_provider
 ;
 animation_state
 .
-apply_new_and_running_animations
+apply_active_animations
 :
 :
 <
@@ -2863,7 +2863,7 @@ font_metrics_provider
 /
 If
 the
-ElementAnimationState
+ElementAnimationSet
 is
 empty
 and
@@ -2888,9 +2888,7 @@ later
 .
 animation_state
 .
-finished_animations
-.
-clear
+clear_finished_animations
 (
 )
 ;
