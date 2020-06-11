@@ -90,12 +90,6 @@ noqa
 :
 F401
                                             
-MarionettePrintRefTestExecutor
-#
-noqa
-:
-F401
-                                            
 MarionetteWdspecExecutor
 #
 noqa
@@ -188,16 +182,6 @@ reftest
 :
 "
 MarionetteRefTestExecutor
-"
-                              
-"
-print
--
-reftest
-"
-:
-"
-MarionettePrintRefTestExecutor
 "
                               
 "

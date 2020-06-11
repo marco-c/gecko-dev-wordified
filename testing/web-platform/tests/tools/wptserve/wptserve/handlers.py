@@ -3552,14 +3552,6 @@ f
 read
 (
 )
-            
-if
-format_args
-:
-                
-data
-=
-data
 %
 format_args
         
