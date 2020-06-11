@@ -13600,6 +13600,17 @@ HasStorageAccessPermissionGranted
 ;
 loadInfo
 .
+mCookieJarSettings
+=
+aParent
+-
+>
+CookieJarSettings
+(
+)
+;
+loadInfo
+.
 mOriginAttributes
 =
 aParent
