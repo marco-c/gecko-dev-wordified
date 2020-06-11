@@ -7193,7 +7193,7 @@ storagePrincipal
 doc
 -
 >
-IntrinsicStoragePrincipal
+EffectiveStoragePrincipal
 (
 )
 ;

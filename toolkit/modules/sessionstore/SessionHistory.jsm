@@ -1652,12 +1652,12 @@ if
 (
 shEntry
 .
-storagePrincipalToInherit
+partitionedPrincipalToInherit
 )
 {
 entry
 .
-storagePrincipalToInherit_base64
+partitionedPrincipalToInherit_base64
 =
 E10SUtils
 .
@@ -1665,7 +1665,7 @@ serializePrincipal
 (
 shEntry
 .
-storagePrincipalToInherit
+partitionedPrincipalToInherit
 )
 ;
 }
@@ -3382,7 +3382,7 @@ createNullPrincipal
 /
 As
 both
-storagePrincipal
+partitionedPrincipal
 and
 principalToInherit
 are
@@ -3416,12 +3416,12 @@ if
 (
 entry
 .
-storagePrincipalToInherit_base64
+partitionedPrincipalToInherit_base64
 )
 {
 shEntry
 .
-storagePrincipalToInherit
+partitionedPrincipalToInherit
 =
 E10SUtils
 .
@@ -3429,7 +3429,7 @@ deserializePrincipal
 (
 entry
 .
-storagePrincipalToInherit_base64
+partitionedPrincipalToInherit_base64
 )
 ;
 }

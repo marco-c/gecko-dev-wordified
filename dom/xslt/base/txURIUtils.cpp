@@ -362,12 +362,12 @@ NodePrincipal
 ;
 nsIPrincipal
 *
-sourceStoragePrincipal
+sourcePartitionedPrincipal
 =
 sourceDoc
 -
 >
-EffectiveStoragePrincipal
+PartitionedPrincipal
 (
 )
 ;
@@ -487,7 +487,7 @@ aNewDoc
 SetPrincipals
 (
 sourcePrincipal
-sourceStoragePrincipal
+sourcePartitionedPrincipal
 )
 ;
 aNewDoc

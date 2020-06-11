@@ -408,7 +408,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 ;
 /
@@ -458,7 +458,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 ;
 /
@@ -597,7 +597,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 ;
 ~
@@ -623,7 +623,7 @@ mDomain
 ;
 const
 OriginAttributes
-mStoragePrincipalAttrs
+mPartitionedPrincipalAttrs
 ;
 const
 nsCOMPtr
