@@ -2208,6 +2208,10 @@ gtk_window_set_destroy_with_parent
 )
 STUB
 (
+gtk_window_set_focus_on_map
+)
+STUB
+(
 gtk_window_set_geometry_hints
 )
 STUB
