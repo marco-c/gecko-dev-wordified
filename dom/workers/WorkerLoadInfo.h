@@ -790,7 +790,10 @@ StorageAccess
 mStorageAccess
 ;
 bool
-mFirstPartyStorageAccessGranted
+mUseRegularPrincipal
+;
+bool
+mHasStorageAccessPermissionGranted
 ;
 bool
 mServiceWorkersTestingInWindow
