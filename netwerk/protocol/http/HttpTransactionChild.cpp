@@ -3140,6 +3140,16 @@ headerArray
 )
 ;
 }
+int64_t
+requestSize
+=
+mTransaction
+-
+>
+GetRequestSize
+(
+)
+;
 Unused
 <
 <
@@ -3175,6 +3185,7 @@ HasStickyConnection
 (
 )
 mTransactionObserverResult
+requestSize
 )
 ;
 return
