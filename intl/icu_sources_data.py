@@ -122,8 +122,6 @@ multiprocessing
 import
 os
 import
-sets
-import
 shutil
 import
 subprocess
@@ -209,9 +207,7 @@ decoder
 .
 UNUSED_SOURCES
 =
-sets
-.
-Set
+set
 (
 [
     
