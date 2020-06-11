@@ -54,6 +54,10 @@ MPL
 /
 .
 from
+collections
+import
+defaultdict
+from
 mozperftest
 .
 utils
@@ -98,16 +102,12 @@ flavor
         
 self
 .
-browser
+options
 =
-{
-"
-prefs
-"
-:
-{
-}
-}
+defaultdict
+(
+dict
+)
         
 self
 .
@@ -241,40 +241,38 @@ _results
 ]
     
 def
-update_browser_prefs
+update_options
 (
 self
-prefs
+name
+options
 )
 :
         
 self
 .
-browser
+options
 [
-"
-prefs
-"
+name
 ]
 .
 update
 (
-prefs
+options
 )
     
 def
-get_browser_prefs
+get_options
 (
 self
+name
 )
 :
         
 return
 self
 .
-browser
+options
 [
-"
-prefs
-"
+name
 ]

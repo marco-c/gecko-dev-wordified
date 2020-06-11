@@ -127,11 +127,11 @@ noqa
 from
 mozperftest
 .
-browser
+test
 import
 get_layers
 as
-browser_layers
+test_layers
 #
 noqa
 from
@@ -571,7 +571,7 @@ system_layers
 (
 )
 +
-browser_layers
+test_layers
 (
 )
 +

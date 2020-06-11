@@ -77,7 +77,7 @@ get_running_env
 from
 mozperftest
 .
-browser
+test
 .
 profile
 import

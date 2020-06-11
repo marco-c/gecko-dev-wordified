@@ -56,7 +56,7 @@ MPL
 from
 mozperftest
 .
-browser
+test
 .
 browsertime
 import

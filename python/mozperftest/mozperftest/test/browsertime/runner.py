@@ -86,7 +86,7 @@ install_package
 from
 mozperftest
 .
-browser
+test
 .
 noderunner
 import
@@ -94,7 +94,7 @@ NodeRunner
 from
 mozperftest
 .
-browser
+test
 .
 browsertime
 .

@@ -314,8 +314,11 @@ prefs
 =
 metadata
 .
-get_browser_prefs
+get_options
 (
+"
+browser_prefs
+"
 )
         
 if
