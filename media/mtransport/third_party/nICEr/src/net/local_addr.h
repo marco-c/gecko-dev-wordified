@@ -321,6 +321,13 @@ addr
 nr_interface
 interface
 ;
+#
+define
+NR_ADDR_FLAG_TEMPORARY
+0x1
+int
+flags
+;
 }
 nr_local_addr
 ;
