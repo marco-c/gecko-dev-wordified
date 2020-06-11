@@ -14666,7 +14666,7 @@ mLastSmoothScrollOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 )
 mScrollGeneration
 (
@@ -20227,7 +20227,7 @@ mLastSmoothScrollOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 ;
 mScrollGeneration
 =
@@ -46538,7 +46538,7 @@ mLastSmoothScrollOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 ;
 if
 (
@@ -50522,7 +50522,7 @@ aOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 )
 ;
 mLastSmoothScrollOrigin
