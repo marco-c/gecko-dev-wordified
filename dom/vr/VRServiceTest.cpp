@@ -2424,6 +2424,10 @@ GetOwner
 (
 )
 )
+mVRServiceTest
+(
+aVRServiceTest
+)
 mControllerIdx
 (
 aControllerIdx

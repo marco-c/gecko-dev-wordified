@@ -1102,6 +1102,12 @@ Get
 (
 )
 ;
+static
+bool
+IsCreated
+(
+)
+;
 /
 /
 Interface
