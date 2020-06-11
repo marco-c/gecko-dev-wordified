@@ -759,12 +759,12 @@ CanSet
 (
 FieldIndex
 <
-IDX_IsSecure
+IDX_IsPotentiallyTrustWorthy
 >
 const
 bool
 &
-aIsSecure
+aIsPotentiallyTrustWorthy
 ContentParent
 *
 aSource
