@@ -1509,13 +1509,6 @@ span
 className
 :
 "
-debug
--
-target
--
-url
--
-readonly
 devtools
 -
 ellipsis
