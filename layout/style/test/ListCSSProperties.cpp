@@ -516,14 +516,6 @@ visibility
 -
 moz
 -
-default
--
-appearance
-"
-"
--
-moz
--
 list
 -
 reversed

@@ -2198,13 +2198,6 @@ mBits
 }
 ;
 }
-bool
-HasOverriddenAppearance
-(
-StyleAppearance
-)
-const
-;
 protected
 :
 /

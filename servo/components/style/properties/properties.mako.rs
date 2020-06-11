@@ -14844,16 +14844,6 @@ skip
 id
 :
 LonghandId
-/
-/
-/
-The
-CSS
--
-wide
-keyword
-.
-pub
 keyword
 :
 CSSWideKeyword
