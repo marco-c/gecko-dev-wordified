@@ -246,11 +246,12 @@ tab
 url
 ;
 const
+{
 url
+isZombieTab
+}
 =
 tab
-.
-url
 ;
 return
 {
@@ -261,6 +262,7 @@ type
 details
 :
 {
+isZombieTab
 url
 }
 }
