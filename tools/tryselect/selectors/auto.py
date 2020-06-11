@@ -272,6 +272,14 @@ try_auto
 '
             
 '
+test_manifest_loader
+'
+:
+'
+bugbug
+'
+            
+'
 try_mode
 '
 :
