@@ -491,7 +491,7 @@ bool
 isFixed
 ;
 nsString
-firstPartyDomain
+partitionKey
 ;
 }
 ;

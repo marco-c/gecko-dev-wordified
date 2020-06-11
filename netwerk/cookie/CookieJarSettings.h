@@ -992,7 +992,7 @@ aCookieBehavior
 const
 nsAString
 &
-aFirstPartyDomain
+aPartitionKey
 bool
 aIsFirstPartyIsolated
 )
@@ -1118,7 +1118,7 @@ aChannel
 )
 ;
 void
-SetFirstPartyDomain
+SetPartitionKey
 (
 nsIURI
 *
@@ -1128,12 +1128,12 @@ aURI
 const
 nsAString
 &
-GetFirstPartyDomain
+GetPartitionKey
 (
 )
 {
 return
-mFirstPartyDomain
+mPartitionKey
 ;
 }
 ;
@@ -1296,7 +1296,7 @@ bool
 mIsOnContentBlockingAllowList
 ;
 nsString
-mFirstPartyDomain
+mPartitionKey
 ;
 State
 mState
