@@ -272,6 +272,8 @@ Zone
 /
 Origin
 :
+/
+/
 https
 :
 /
@@ -526,6 +528,8 @@ irregexp
 /
 Origin
 :
+/
+/
 https
 :
 /
@@ -557,6 +561,8 @@ L318
 /
 Inlines
 :
+/
+/
 https
 :
 /
@@ -2113,6 +2119,8 @@ delete
 /
 Origin
 :
+/
+/
 https
 :
 /
@@ -2368,6 +2376,8 @@ containers
 /
 Origin
 :
+/
+/
 https
 :
 /

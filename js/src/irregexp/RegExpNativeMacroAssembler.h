@@ -342,14 +342,9 @@ virtual
 SMRegExpMacroAssembler
 (
 )
-{
-}
-/
-/
-Nothing
-to
-do
-here
+=
+default
+;
 virtual
 int
 stack_limit_slack
