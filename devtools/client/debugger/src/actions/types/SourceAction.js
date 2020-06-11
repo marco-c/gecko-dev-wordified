@@ -69,6 +69,7 @@ SourceId
 SourceLocation
 Context
 URL
+Exception
 }
 from
 "
@@ -431,6 +432,19 @@ number
 sourceId
 :
 SourceId
+|
+}
+|
+{
+|
+type
+:
+"
+ADD_EXCEPTION
+"
+exception
+:
+Exception
 |
 }
 ;

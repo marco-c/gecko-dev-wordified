@@ -288,6 +288,18 @@ listeners
 "
 ;
 import
+exceptions
+{
+initialExceptionsState
+}
+from
+"
+.
+/
+exceptions
+"
+;
+import
 type
 {
 SourceActorsState
@@ -442,6 +454,11 @@ preview
 initialPreviewState
 (
 )
+exceptions
+:
+initialExceptionsState
+(
+)
 }
 ;
 }
@@ -472,5 +489,6 @@ reducer
 default
 eventListenerBreakpoints
 preview
+exceptions
 }
 ;
