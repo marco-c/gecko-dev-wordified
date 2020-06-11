@@ -25064,6 +25064,10 @@ sourceMappedLoc
 .
 column
 ;
+sourceId
+=
+null
+;
 }
 }
 catch
