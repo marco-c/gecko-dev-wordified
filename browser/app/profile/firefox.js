@@ -2462,7 +2462,7 @@ Services
 .
 uriFixup
 .
-isDomainKnown
+isDomainWhitelisted
 (
 )
 instead

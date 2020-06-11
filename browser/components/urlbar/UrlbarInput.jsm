@@ -4433,9 +4433,8 @@ it
 adds
 to
 the
-known
 domain
-list
+whitelist
 that
 /
 /
@@ -5562,10 +5561,11 @@ for
 example
 it
 has
-an
-unknown
+a
+non
 /
 /
+whitelisted
 single
 word
 host

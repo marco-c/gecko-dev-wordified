@@ -1335,7 +1335,7 @@ i
 /
 Cache
 of
-known
+whitelisted
 domains
 .
 XPCOMUtils
@@ -1344,7 +1344,7 @@ defineLazyGetter
 (
 this
 "
-knownDomains
+domainsWhitelist
 "
 (
 )
@@ -1520,7 +1520,7 @@ domains
 /
 Cache
 of
-known
+whitelisted
 suffixes
 .
 /
@@ -1530,8 +1530,8 @@ works
 differently
 from
 the
-known
 domains
+whitelist
 because
 when
 we
@@ -1665,7 +1665,7 @@ defineLazyGetter
 (
 this
 "
-knownSuffixes
+suffixesWhitelist
 "
 (
 )
@@ -3794,7 +3794,7 @@ return
 info
 ;
 }
-isDomainKnown
+isDomainWhitelisted
 classID
 :
 Components
@@ -4121,7 +4121,7 @@ Helpers
 *
 Implementation
 of
-isDomainKnown
+isDomainWhitelisted
 so
 we
 don
@@ -4150,11 +4150,11 @@ whether
 the
 domain
 is
-known
+whitelisted
 *
 /
 function
-isDomainKnown
+isDomainWhitelisted
 (
 asciiHost
 )
@@ -4175,7 +4175,7 @@ if
 this
 domain
 is
-known
+whitelisted
 as
 an
 actual
@@ -4273,7 +4273,7 @@ lastIndexOf
 }
 if
 (
-knownDomains
+domainsWhitelist
 .
 has
 (
@@ -4314,8 +4314,8 @@ check
 /
 against
 the
-known
 suffixes
+whitelist
 .
 if
 (
@@ -4343,8 +4343,9 @@ suffix
 is
 not
 in
-the
-PSL
+a
+known
+list
 /
 /
 thus
@@ -4385,7 +4386,7 @@ lastDotIndex
 let
 suffixes
 =
-knownSuffixes
+suffixesWhitelist
 .
 get
 (
@@ -4535,8 +4536,7 @@ it
 '
 s
 not
-in
-knownSuffixes
+whitelisted
 .
 False
 in
@@ -4594,7 +4594,7 @@ endsWith
 )
 |
 |
-isDomainKnown
+isDomainWhitelisted
 (
 asciiHost
 )
@@ -6242,7 +6242,8 @@ mozilla
 test
 "
 -
-unknown
+non
+whiteliste
 host
 /
 /
@@ -6291,17 +6292,17 @@ com
 Domain
 with
 a
-standard
-or
 known
+or
+whitelisted
 suffix
 /
 /
 "
-knowndomain
+whitelisted
 "
 -
-known
+Whitelisted
 domain
 /
 /
@@ -6411,7 +6412,7 @@ and
 it
 '
 s
-known
+whitelisted
 or
 ends
 with
@@ -6432,7 +6433,7 @@ if
 dnsFirstForSingleWords
 is
 true
-isDomainKnown
+isDomainWhitelisted
 will
 always
 /
@@ -6464,7 +6465,7 @@ asciiHost
 &
 &
 (
-isDomainKnown
+isDomainWhitelisted
 (
 asciiHost
 )
@@ -6777,8 +6778,8 @@ mozilla
 -
 checked
 against
-the
-knownDomains
+a
+whitelist
 to
 see
 if
@@ -7035,7 +7036,7 @@ and
 it
 '
 s
-known
+whitelisted
 .
 /
 /
@@ -7045,7 +7046,7 @@ if
 dnsFirstForSingleWords
 is
 true
-isDomainKnown
+isDomainWhitelisted
 will
 always
 /
@@ -7076,7 +7077,7 @@ if
 asciiHost
 &
 &
-isDomainKnown
+isDomainWhitelisted
 (
 asciiHost
 )

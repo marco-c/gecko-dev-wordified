@@ -1081,7 +1081,7 @@ looksLikeOrigin
 (
 prePath
 {
-ignoreKnownDomains
+ignoreWhitelist
 :
 true
 }
@@ -1422,7 +1422,7 @@ Services
 .
 uriFixup
 .
-isDomainKnown
+isDomainWhitelisted
 (
 hostPort
 )
@@ -1507,7 +1507,7 @@ param
 boolean
 }
 [
-ignoreKnownDomains
+ignoreWhitelist
 ]
 If
 true
@@ -1522,9 +1522,7 @@ be
 *
 in
 the
-known
-domain
-list
+whitelist
 *
 param
 {
@@ -1578,7 +1576,7 @@ looksLikeOrigin
 (
 token
 {
-ignoreKnownDomains
+ignoreWhitelist
 =
 false
 noIp
@@ -1854,13 +1852,12 @@ word
 host
 check
 the
-known
-domains
+whitelist
 .
 if
 (
 !
-ignoreKnownDomains
+ignoreWhitelist
 &
 &
 !
@@ -1886,7 +1883,7 @@ Services
 .
 uriFixup
 .
-isDomainKnown
+isDomainWhitelisted
 (
 hostPort
 )
