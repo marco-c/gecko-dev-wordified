@@ -2080,7 +2080,7 @@ for
 *
 SourceMapURLService
 .
-subscribe
+subscribeByURL
 which
 see
 .
@@ -2614,7 +2614,7 @@ this
 .
 sourceMapURLService
 .
-subscribe
+subscribeByURL
 (
 url
 sourceLine

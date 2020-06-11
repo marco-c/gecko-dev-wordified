@@ -8634,6 +8634,7 @@ mappings
 .
 then
 (
+async
 result
 =
 >
@@ -8697,14 +8698,14 @@ this
 _sourceMapURLService
 )
 {
+await
 this
 .
 _sourceMapURLService
 .
-sourceMapChanged
+newSourceMapCreated
 (
 generatedId
-url
 )
 ;
 }
@@ -25116,7 +25117,7 @@ this
 .
 sourceMapURLService
 .
-originalPositionFor
+originalPositionForURL
 (
 stylesheetFront
 ?
@@ -25143,7 +25144,7 @@ frontOrURL
 =
 sourceMappedLoc
 .
-sourceUrl
+url
 ;
 line
 =
@@ -25368,7 +25369,7 @@ this
 .
 sourceMapURLService
 .
-originalPositionFor
+originalPositionForURL
 (
 sourceURL
 sourceLine
@@ -25384,7 +25385,7 @@ sourceURL
 =
 sourceMappedLoc
 .
-sourceUrl
+url
 ;
 sourceLine
 =

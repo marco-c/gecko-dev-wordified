@@ -248,7 +248,7 @@ newLoc
 await
 service
 .
-originalPositionFor
+originalPositionForURL
 (
 JS_URL
 84
@@ -258,7 +258,7 @@ is
 (
 newLoc
 .
-sourceUrl
+url
 ORIGINAL_URL
 "
 check

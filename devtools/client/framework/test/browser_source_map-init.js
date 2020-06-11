@@ -259,7 +259,7 @@ newLoc
 await
 service
 .
-originalPositionFor
+originalPositionForURL
 (
 JS_URL
 GENERATED_LINE
@@ -269,7 +269,7 @@ is
 (
 newLoc
 .
-sourceUrl
+url
 ORIGINAL_URL
 "
 check

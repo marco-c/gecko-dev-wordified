@@ -163,7 +163,7 @@ count
 ;
 service
 .
-subscribe
+subscribeByURL
 (
 JS_URL
 GENERATED_LINE

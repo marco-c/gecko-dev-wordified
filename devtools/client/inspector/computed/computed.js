@@ -8138,7 +8138,7 @@ this
 .
 sourceMapURLService
 .
-subscribe
+subscribeByURL
 (
 this
 .
