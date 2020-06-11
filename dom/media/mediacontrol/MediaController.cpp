@@ -157,17 +157,6 @@ CanonicalBrowsingContext
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-MediaSessionUtils
-.
-h
-"
 /
 /
 avoid
