@@ -271,7 +271,7 @@ null
 ;
 }
 const
-whitelist
+allowList
 =
 [
 "
@@ -314,7 +314,7 @@ key
 ;
 if
 (
-whitelist
+allowList
 .
 includes
 (
