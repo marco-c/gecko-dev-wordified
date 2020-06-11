@@ -133,10 +133,6 @@ pub
 mod
 metrics
 ;
-pub
-mod
-ping_upload
-;
 /
 /
 /
