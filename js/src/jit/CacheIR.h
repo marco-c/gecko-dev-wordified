@@ -9099,6 +9099,8 @@ tryAttachToObject
 (
 HandleFunction
 callee
+InlinableNative
+native
 )
 ;
 AttachDecision
