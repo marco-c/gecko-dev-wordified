@@ -22486,6 +22486,19 @@ places
 *
 *
 /
+static
+nsSize
+ExpandHeightForViewportUnits
+(
+nsPresContext
+*
+aPresContext
+const
+nsSize
+&
+aSize
+)
+;
 template
 <
 typename
@@ -22493,7 +22506,7 @@ SizeType
 >
 static
 SizeType
-ExpandHeightForViewportUnits
+ExpandHeightForDynamicToolbar
 (
 nsPresContext
 *
@@ -22824,7 +22837,7 @@ SizeType
 nsLayoutUtils
 :
 :
-ExpandHeightForViewportUnits
+ExpandHeightForDynamicToolbar
 (
 nsPresContext
 *
