@@ -4243,7 +4243,11 @@ this
 _articlePromise
 ;
 }
-else
+if
+(
+!
+article
+)
 {
 try
 {
