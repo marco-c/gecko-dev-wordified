@@ -799,10 +799,11 @@ branch
 )
             
 if
+not
 isinstance
 (
 update_channel
-unicode
+bytes
 )
 :
                 

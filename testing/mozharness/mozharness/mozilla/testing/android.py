@@ -103,6 +103,8 @@ re
 import
 signal
 import
+six
+import
 subprocess
 import
 time
@@ -2188,6 +2190,9 @@ cat
 '
 cpu
 ]
+universal_newlines
+=
+True
 )
                 
 f
@@ -2244,6 +2249,10 @@ proc
 cpuinfo
 '
 ]
+                                          
+universal_newlines
+=
+True
 )
             
 f
@@ -2289,6 +2298,10 @@ proc
 meminfo
 '
 ]
+                                          
+universal_newlines
+=
+True
 )
             
 f
@@ -2330,6 +2343,9 @@ ps
 ef
 '
 ]
+universal_newlines
+=
+True
 )
             
 f
@@ -4093,6 +4109,15 @@ called
 s
 "
 %
+process_name
+)
+        
+process_name
+=
+six
+.
+ensure_binary
+(
 process_name
 )
         
