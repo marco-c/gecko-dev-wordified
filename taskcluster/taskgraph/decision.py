@@ -1265,6 +1265,17 @@ options
     
 )
     
+decision_task_id
+=
+os
+.
+environ
+[
+'
+TASK_ID
+'
+]
+    
 #
 create
 a
@@ -1290,6 +1301,11 @@ root
 parameters
 =
 parameters
+        
+decision_task_id
+=
+decision_task_id
+    
 )
     
 #
