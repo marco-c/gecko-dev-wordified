@@ -8138,13 +8138,15 @@ this
 .
 sourceMapURLService
 .
-subscribeByURL
+subscribeByID
 (
 this
 .
 generatedLocation
 .
-href
+sheet
+.
+actorID
 this
 .
 generatedLocation

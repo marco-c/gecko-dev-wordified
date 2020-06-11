@@ -5774,7 +5774,7 @@ subscribeToLocationChange
 {
 const
 {
-url
+sheet
 line
 column
 }
@@ -5785,7 +5785,7 @@ generatedLocation
 ;
 if
 (
-url
+sheet
 &
 &
 !
@@ -5841,9 +5841,11 @@ this
 .
 sourceMapURLService
 .
-subscribeByURL
+subscribeByID
 (
-url
+sheet
+.
+actorID
 line
 column
 this
