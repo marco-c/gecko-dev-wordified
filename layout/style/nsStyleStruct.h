@@ -8111,12 +8111,6 @@ mAppearance
 mozilla
 :
 :
-StyleAppearance
-mDefaultAppearance
-;
-mozilla
-:
-:
 StylePositionProperty
 mPosition
 ;
