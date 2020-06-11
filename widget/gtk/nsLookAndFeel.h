@@ -511,6 +511,16 @@ mInfoBarText
 =
 kBlack
 ;
+nscolor
+mMozColHeaderText
+=
+kBlack
+;
+nscolor
+mMozColHeaderHoverText
+=
+kBlack
+;
 char16_t
 mInvisibleCharacter
 =
