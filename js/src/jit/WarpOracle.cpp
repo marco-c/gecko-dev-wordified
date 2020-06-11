@@ -3277,6 +3277,12 @@ JSOp
 :
 StrictSetElem
 :
+case
+JSOp
+:
+:
+ToPropertyKey
+:
 MOZ_TRY
 (
 maybeInlineIC
@@ -3680,12 +3686,6 @@ JSOp
 :
 :
 ToAsyncIter
-:
-case
-JSOp
-:
-:
-ToPropertyKey
 :
 case
 JSOp

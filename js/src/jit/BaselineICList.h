@@ -296,6 +296,12 @@ TypeOf_Fallback
 \
 _
 (
+ToPropertyKey_Fallback
+)
+\
+\
+_
+(
 Rest_Fallback
 )
 \
@@ -507,6 +513,11 @@ InstanceOf
 _
 (
 TypeOf
+)
+\
+_
+(
+ToPropertyKey
 )
 \
 _
