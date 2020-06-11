@@ -699,6 +699,11 @@ newtab
 "
 about
 :
+home
+"
+"
+about
+:
 printpreview
 "
 ]
