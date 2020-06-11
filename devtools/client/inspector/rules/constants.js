@@ -141,5 +141,10 @@ dark
 "
 light
 "
+"
+no
+-
+preference
+"
 ]
 ;
