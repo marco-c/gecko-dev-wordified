@@ -117,6 +117,14 @@ extern
 crate
 log
 ;
+#
+[
+macro_use
+]
+extern
+crate
+matches
+;
 extern
 crate
 phf
