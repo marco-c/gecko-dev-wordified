@@ -4160,9 +4160,6 @@ functionMethods
 "
 createFunction
 "
-"
-createAggregateFunction
-"
 ]
 ;
 calls
@@ -4419,9 +4416,6 @@ functionMethods
 [
 "
 createFunction
-"
-"
-createAggregateFunction
 "
 ]
 ;
