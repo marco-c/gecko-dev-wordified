@@ -9869,6 +9869,13 @@ listener
 .
 mStateFlags
 ;
+let
+requestCount
+=
+listener
+.
+mRequestCount
+;
 /
 /
 We
@@ -10491,6 +10498,10 @@ stateFlags
 =
 0
 ;
+requestCount
+=
+0
+;
 }
 /
 /
@@ -10535,6 +10546,7 @@ aBrowser
 expectInitialAboutBlank
 false
 stateFlags
+requestCount
 )
 ;
 this
@@ -32637,6 +32649,7 @@ aBrowser
 aStartsBlank
 aWasPreloadedBrowser
 aOrigStateFlags
+aOrigRequestCount
 )
 {
 let
@@ -32808,6 +32821,9 @@ this
 .
 mRequestCount
 =
+aOrigRequestCount
+|
+|
 0
 ;
 }
