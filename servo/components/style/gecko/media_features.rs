@@ -3325,9 +3325,6 @@ CHROME_AND_UA_ONLY
 }
 ;
 }
-lazy_static
-!
-{
 /
 /
 /
@@ -3404,7 +3401,6 @@ change
 .
 pub
 static
-ref
 MEDIA_FEATURES
 :
 [
@@ -4856,4 +4852,3 @@ empty
 )
 ]
 ;
-}
