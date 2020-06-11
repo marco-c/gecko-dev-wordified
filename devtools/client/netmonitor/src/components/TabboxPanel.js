@@ -262,7 +262,7 @@ HeadersPanel
 )
 ;
 const
-WebSocketsPanel
+MessagesPanel
 =
 createFactory
 (
@@ -279,9 +279,9 @@ src
 /
 components
 /
-websockets
+messages
 /
-WebSocketsPanel
+MessagesPanel
 "
 )
 )
@@ -688,7 +688,7 @@ PropTypes
 func
 .
 isRequired
-showWebSocketsTab
+showMessagesTab
 :
 PropTypes
 .
@@ -804,7 +804,7 @@ request
 selectTab
 sourceMapService
 toggleNetworkDetails
-showWebSocketsTab
+showMessagesTab
 targetSearchResult
 }
 =
@@ -823,7 +823,7 @@ null
 ;
 }
 const
-showWebSocketsPanel
+showMessagesPanel
 =
 request
 .
@@ -856,7 +856,7 @@ webSockets
 )
 &
 &
-showWebSocketsTab
+showMessagesTab
 =
 =
 =
@@ -864,7 +864,7 @@ undefined
 ?
 true
 :
-showWebSocketsTab
+showMessagesTab
 ;
 return
 Tabbar
@@ -941,7 +941,7 @@ targetSearchResult
 }
 )
 )
-showWebSocketsPanel
+showMessagesPanel
 &
 &
 TabPanel
@@ -965,7 +965,7 @@ with
 code
 "
 }
-WebSocketsPanel
+MessagesPanel
 (
 {
 connector

@@ -3800,8 +3800,7 @@ full
 payload
 of
 a
-WebSocket
-frame
+message
 *
 that
 is
@@ -3815,7 +3814,7 @@ object
 /
 async
 function
-getFramePayload
+getMessagePayload
 (
 payload
 getLongString
@@ -4243,7 +4242,7 @@ getAbbreviatedMimeType
 getFileName
 getEndTime
 getFormattedProtocol
-getFramePayload
+getMessagePayload
 getRequestHeader
 getResponseHeader
 getResponseTime

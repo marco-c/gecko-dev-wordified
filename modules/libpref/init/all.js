@@ -60218,7 +60218,9 @@ requestBodyLimit
 Limit
 for
 WebSocket
-frames
+/
+EventSource
+messages
 (
 100
 KB
@@ -60231,7 +60233,7 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 messageDataLimit
 "

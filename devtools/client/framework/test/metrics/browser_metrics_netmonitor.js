@@ -693,9 +693,7 @@ src
 /
 selectors
 /
-web
--
-sockets
+messages
 .
 js
 "
@@ -951,9 +949,7 @@ src
 /
 reducers
 /
-web
--
-sockets
+messages
 .
 js
 "
@@ -1165,9 +1161,7 @@ src
 /
 actions
 /
-web
--
-sockets
+messages
 .
 js
 "

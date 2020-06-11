@@ -25671,7 +25671,7 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 payload
 -
@@ -25689,7 +25689,7 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 visibleColumns
 "
@@ -25712,11 +25712,11 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 displayed
 -
-frames
+messages
 .
 limit
 "

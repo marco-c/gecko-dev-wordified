@@ -289,7 +289,7 @@ messages
 -
 panel
 .
-ws
+msg
 -
 connection
 -
@@ -349,7 +349,7 @@ messages
 -
 panel
 .
-ws
+msg
 -
 connection
 -

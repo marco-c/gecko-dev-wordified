@@ -259,7 +259,7 @@ ui
 ;
 const
 {
-webSockets
+messages
 }
 =
 require
@@ -275,9 +275,7 @@ src
 /
 reducers
 /
-web
--
-sockets
+messages
 "
 )
 ;
@@ -310,6 +308,9 @@ batchingReducer
 combineReducers
 (
 {
+filters
+messages
+networkThrottling
 requestBlocking
 :
 requestBlockingReducer
@@ -320,11 +321,8 @@ search
 sort
 :
 sortReducer
-webSockets
-filters
 timingMarkers
 ui
-networkThrottling
 }
 )
 )

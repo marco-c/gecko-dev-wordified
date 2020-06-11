@@ -87,7 +87,7 @@ SET_REQUEST_FILTER_TEXT
 SELECT_DETAILS_PANEL_TAB
 SEND_CUSTOM_REQUEST
 ENABLE_PERSISTENT_LOGS
-WS_SELECT_FRAME
+MSG_SELECT
 }
 =
 require
@@ -411,8 +411,7 @@ Record
 telemetry
 event
 when
-WS
-frame
+message
 is
 selected
 .
@@ -423,10 +422,10 @@ action
 type
 =
 =
-WS_SELECT_FRAME
+MSG_SELECT
 )
 {
-selectWSFrame
+selectMessage
 (
 {
 telemetry
@@ -961,7 +960,7 @@ event
 *
 /
 function
-selectWSFrame
+selectMessage
 (
 {
 telemetry

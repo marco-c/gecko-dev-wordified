@@ -2444,7 +2444,7 @@ data
 {
 this
 .
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -2493,7 +2493,7 @@ data
 {
 this
 .
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -2535,7 +2535,7 @@ information
 *
 /
 async
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -2552,7 +2552,7 @@ this
 .
 actions
 .
-addFrame
+addMessage
 )
 {
 await
@@ -2560,7 +2560,7 @@ this
 .
 actions
 .
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -4595,7 +4595,7 @@ inspector
 .
 this
 .
-addFrame
+addMessage
 (
 httpChannelId
 data

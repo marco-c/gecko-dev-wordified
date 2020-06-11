@@ -451,7 +451,6 @@ Store
 list
 of
 visible
-WebSockets
 columns
 into
 preferences
@@ -477,7 +476,7 @@ columns
 =
 state
 .
-webSockets
+messages
 ;
 for
 (
@@ -515,7 +514,7 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 visibleColumns
 "
