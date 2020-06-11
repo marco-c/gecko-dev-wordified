@@ -4285,21 +4285,6 @@ page
 0
         
 #
-Disable
-browser
-animations
-        
-"
-toolkit
-.
-cosmeticAnimations
-.
-enabled
-"
-:
-False
-        
-#
 Bug
 1557457
 :
