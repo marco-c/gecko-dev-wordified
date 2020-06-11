@@ -190,6 +190,17 @@ OriginalSource
 prototype
 =
 {
+get
+sourceId
+(
+)
+{
+return
+this
+.
+_sourceId
+;
+}
 /
 *
 *
