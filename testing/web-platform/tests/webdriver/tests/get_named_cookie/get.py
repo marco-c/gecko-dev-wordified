@@ -196,11 +196,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 #
 dfn
 -

@@ -595,11 +595,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 #
 element
 -
@@ -878,11 +873,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 #
 element
 -
