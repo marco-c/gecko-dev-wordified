@@ -1800,6 +1800,9 @@ suite
 failure_path
 ]
 }
+sort_keys
+=
+True
 )
 )
             

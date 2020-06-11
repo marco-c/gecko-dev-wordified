@@ -145,6 +145,8 @@ final_verify_configs
 for
 upstream
 in
+sorted
+(
 task
 .
 get
@@ -158,6 +160,7 @@ dependencies
 .
 keys
 (
+)
 )
 :
             

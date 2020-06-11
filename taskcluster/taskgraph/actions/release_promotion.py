@@ -1885,6 +1885,9 @@ json
 dumps
 (
 partial_updates
+sort_keys
+=
+True
 )
         
 release_history

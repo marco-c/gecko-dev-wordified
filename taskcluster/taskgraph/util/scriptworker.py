@@ -2960,6 +2960,23 @@ locale
 }
 )
     
+upstream_artifacts
+.
+sort
+(
+key
+=
+lambda
+u
+:
+u
+[
+'
+paths
+'
+]
+)
+    
 return
 upstream_artifacts
 #
@@ -3263,12 +3280,15 @@ for
 locale
 dep
 in
+sorted
+(
 itertools
 .
 product
 (
 locales
 dependencies
+)
 )
 :
         
@@ -5230,6 +5250,30 @@ paths
 paths
         
 }
+)
+    
+artifacts
+.
+sort
+(
+key
+=
+lambda
+a
+:
+sorted
+(
+a
+[
+'
+paths
+'
+]
+.
+items
+(
+)
+)
 )
     
 return
