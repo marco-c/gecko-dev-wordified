@@ -14203,7 +14203,7 @@ TableSelectionMode
 aTarget
 nsIContent
 *
-childContent
+aChildContent
 const
 WidgetMouseEvent
 *
@@ -14260,7 +14260,7 @@ if
 mEndSelectedCell
 =
 =
-childContent
+aChildContent
 )
 {
 return
@@ -14283,7 +14283,7 @@ mEndSelectedCell
 =
 %
 p
-childContent
+aChildContent
 =
 %
 p
@@ -14302,7 +14302,7 @@ mEndSelectedCell
 get
 (
 )
-childContent
+aChildContent
 )
 ;
 #
@@ -14424,7 +14424,7 @@ result
 =
 GetCellIndexes
 (
-childContent
+aChildContent
 curRowIndex
 curColIndex
 )
@@ -14548,7 +14548,7 @@ selection
 return
 SelectRowOrColumn
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -14669,7 +14669,7 @@ result
 =
 GetCellIndexes
 (
-childContent
+aChildContent
 curRowIndex
 curColIndex
 )
@@ -14748,7 +14748,7 @@ Column
 return
 SelectRowOrColumn
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -14768,7 +14768,7 @@ return
 SelectBlockOfCells
 (
 mStartSelectedCell
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -14805,7 +14805,7 @@ bool
 aDragState
 nsIContent
 *
-childContent
+aChildContent
 nsINode
 *
 aParentContent
@@ -14939,7 +14939,7 @@ nsIFrame
 *
 cellFrame
 =
-childContent
+aChildContent
 -
 >
 GetPrimaryFrame
@@ -15024,7 +15024,7 @@ appended
 )
 mStartSelectedCell
 =
-childContent
+aChildContent
 ;
 /
 /
@@ -15039,7 +15039,7 @@ the
 start
 mEndSelectedCell
 =
-childContent
+aChildContent
 ;
 if
 (
@@ -15061,7 +15061,7 @@ on
 mouseup
 mUnselectCellOnMouseUp
 =
-childContent
+aChildContent
 ;
 #
 ifdef
@@ -15112,7 +15112,7 @@ previousCellNode
 IsInSameTable
 (
 previousCellNode
-childContent
+aChildContent
 )
 )
 {
@@ -15145,7 +15145,7 @@ return
 :
 SelectCellElement
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -15357,7 +15357,7 @@ aTarget
 return
 SelectRowOrColumn
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -15443,7 +15443,7 @@ mAppendStartSelectedCell
 mAppendStartSelectedCell
 !
 =
-childContent
+aChildContent
 )
 {
 /
@@ -15465,7 +15465,7 @@ return
 SelectBlockOfCells
 (
 mAppendStartSelectedCell
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -15604,7 +15604,7 @@ on
 mousedown
 if
 (
-childContent
+aChildContent
 =
 =
 mUnselectCellOnMouseUp
@@ -15990,7 +15990,7 @@ aNormalSelection
 .
 Collapse
 (
-childContent
+aChildContent
 0
 )
 ;
@@ -16038,7 +16038,7 @@ now
 !
 if
 (
-childContent
+aChildContent
 =
 =
 mAppendStartSelectedCell
