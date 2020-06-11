@@ -208,6 +208,7 @@ grid
 }
 )
 ;
+await
 checkDeclarationIsInactive
 (
 view
