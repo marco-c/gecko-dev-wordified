@@ -715,6 +715,14 @@ ControllerManager
 =
 default
 ;
+using
+MediaKeysArray
+=
+nsTArray
+<
+MediaControlKeysEvent
+>
+;
 bool
 AddController
 (
@@ -900,7 +908,7 @@ aController
 )
 ;
 void
-ConnectToMainControllerEvents
+ConnectMainControllerEvents
 (
 )
 ;
@@ -958,10 +966,10 @@ MediaControlKeysEventSource
 mSource
 ;
 MediaEventListener
-mPlayStateChangedListener
+mMetadataChangedListener
 ;
 MediaEventListener
-mMetadataChangedListener
+mSupportedKeysChangedListener
 ;
 }
 ;

@@ -120,6 +120,17 @@ return
 true
 ;
 }
+void
+SetSupportedMediaKeys
+(
+const
+MediaKeysArray
+&
+aSupportedKeys
+)
+override
+{
+}
 private
 :
 ~
