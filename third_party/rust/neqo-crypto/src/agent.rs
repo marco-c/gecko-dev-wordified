@@ -232,7 +232,7 @@ neqo_common
 :
 :
 {
-hex
+hex_snip_middle
 matches
 qdebug
 qinfo
@@ -5401,7 +5401,7 @@ token
 {
 }
 "
-hex
+hex_snip_middle
 (
 &
 v

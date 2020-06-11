@@ -177,8 +177,8 @@ crate
 :
 :
 {
+QuicVersion
 Res
-QUIC_VERSION
 }
 ;
 pub
@@ -252,7 +252,7 @@ get_bytes
 tparams
 :
 :
-ORIGINAL_CONNECTION_ID
+ORIGINAL_DESTINATION_CONNECTION_ID
 )
 {
 /
@@ -283,7 +283,6 @@ Some
 (
 hex
 (
-&
 ocid
 )
 )
@@ -313,7 +312,6 @@ Some
 (
 hex
 (
-&
 srt
 )
 )
@@ -367,7 +365,7 @@ get_integer
 tparams
 :
 :
-MAX_PACKET_SIZE
+MAX_UDP_PAYLOAD_SIZE
 )
 )
 Some
@@ -1165,7 +1163,16 @@ format
 x
 }
 "
-QUIC_VERSION
+QuicVersion
+:
+:
+default
+(
+)
+.
+as_u32
+(
+)
 )
 )
 Some
