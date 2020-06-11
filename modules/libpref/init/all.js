@@ -7354,7 +7354,7 @@ ice
 .
 obfuscate_host_addresses
 .
-whitelist
+blocklist
 "
 "
 "
