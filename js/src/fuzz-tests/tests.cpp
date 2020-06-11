@@ -261,7 +261,13 @@ true
 .
 setWeakRefsEnabled
 (
-true
+JS
+:
+:
+WeakRefSpecifier
+:
+:
+EnabledWithCleanupSome
 )
 ;
 return
