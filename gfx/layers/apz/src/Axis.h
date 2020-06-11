@@ -358,7 +358,7 @@ StartTracking
 (
 ParentLayerCoord
 aPos
-uint32_t
+TimeStamp
 aTimestamp
 )
 =
@@ -417,8 +417,8 @@ AddPosition
 (
 ParentLayerCoord
 aPos
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 =
 0
@@ -494,8 +494,8 @@ float
 >
 ComputeVelocity
 (
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 =
 0
@@ -665,8 +665,8 @@ UpdateWithTouchAtDevicePoint
 (
 ParentLayerCoord
 aPos
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 ;
 public
@@ -712,8 +712,8 @@ StartTouch
 (
 ParentLayerCoord
 aPos
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 ;
 /
@@ -745,8 +745,8 @@ velocity
 void
 EndTouch
 (
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 ;
 /

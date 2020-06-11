@@ -5465,8 +5465,8 @@ const
 ParentLayerPoint
 &
 aPoint
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 ;
 /
@@ -5492,8 +5492,8 @@ time
 void
 EndTouch
 (
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 ;
 /
