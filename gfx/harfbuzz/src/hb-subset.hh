@@ -435,6 +435,9 @@ hb_serialize_context_t
 *
 serializer
 ;
+hb_tag_t
+table_tag
+;
 unsigned
 int
 debug_depth
@@ -450,6 +453,8 @@ plan_
 hb_serialize_context_t
 *
 serializer_
+hb_tag_t
+table_tag_
 )
 :
 source_blob
@@ -463,6 +468,10 @@ plan_
 serializer
 (
 serializer_
+)
+table_tag
+(
+table_tag_
 )
 debug_depth
 (

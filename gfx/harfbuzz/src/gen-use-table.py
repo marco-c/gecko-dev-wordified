@@ -11,24 +11,8 @@ python3
 flake8
 :
 noqa
-import
-io
-import
-sys
-if
-len
-(
-sys
-.
-argv
-)
-!
-=
-5
 :
-	
-print
-(
+F821
 "
 "
 "
@@ -57,10 +41,6 @@ Blocks
 txt
 Input
 file
-as
-of
-Unicode
-12
 :
 *
 https
@@ -145,18 +125,25 @@ txt
 "
 "
 "
-file
-=
+import
+sys
+if
+len
+(
 sys
 .
-stderr
+argv
 )
+!
+=
+5
+:
 	
 sys
 .
 exit
 (
-1
+__doc__
 )
 BLACKLISTED_BLOCKS
 =
@@ -171,8 +158,6 @@ Lao
 files
 =
 [
-io
-.
 open
 (
 x
@@ -1183,6 +1168,10 @@ Bottom
 	
 '
 Top_And_Bottom
+'
+	
+'
+Top_And_Bottom_And_Left
 '
 	
 '
@@ -2409,6 +2398,7 @@ Blw
 [
 Bottom
 Bottom_And_Left
+Bottom_And_Right
 ]
 		
 '
@@ -2425,6 +2415,7 @@ Pre
 :
 [
 Left
+Top_And_Bottom_And_Left
 ]
 	
 }
@@ -2674,7 +2665,9 @@ UISC
 assigned
 in
 Unicode
-12
+13
+.
+0
 .
 0
 but
@@ -2710,7 +2703,9 @@ UISC
 assigned
 in
 Unicode
-12
+13
+.
+0
 .
 0
 but
@@ -3054,7 +3049,9 @@ have
 UIPC
 in
 Unicode
-12
+13
+.
+0
 .
 0
 		
@@ -3069,33 +3066,6 @@ in
 UIPC
 =
 Not_Applicable
-		
-#
-TODO
-:
-In
-USE
-'
-s
-override
-list
-but
-not
-in
-Unicode
-12
-.
-0
-		
-if
-U
-=
-=
-0x103C
-:
-UIPC
-=
-Left
 		
 #
 TODO
@@ -3146,7 +3116,9 @@ are
 they
 in
 Unicode
-12
+13
+.
+0
 .
 0
 		
@@ -3214,16 +3186,6 @@ UIPC
 Top
 		
 if
-U
-=
-=
-0x1171E
-:
-UIPC
-=
-Left
-		
-if
 0x1CF8
 <
 =
@@ -3244,6 +3206,14 @@ in
 Not_Applicable
 Visual_Order_Left
 ]
+or
+			
+USE
+=
+=
+'
+R
+'
 or
 			
 USE

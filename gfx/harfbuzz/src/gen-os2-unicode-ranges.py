@@ -7,7 +7,9 @@ bin
 /
 env
 python3
-#
+"
+"
+"
 Generates
 the
 code
@@ -31,7 +33,6 @@ unicode
 ranges
 .
 hh
-#
 Input
 is
 a
@@ -44,7 +45,6 @@ ranges
 from
 the
 otspec
-#
 (
 https
 :
@@ -71,8 +71,9 @@ os2
 ur
 )
 .
-import
-io
+"
+"
+"
 import
 re
 import
@@ -109,8 +110,6 @@ args
 0
 ]
 with
-io
-.
 open
 (
 input_file
@@ -135,7 +134,6 @@ all_ranges
 =
 [
 ]
-;
   
 current_bit
 =
