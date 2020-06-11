@@ -211,7 +211,7 @@ D
 JS
 :
 :
-Symbol
+BigInt
 *
 )
 \
@@ -220,7 +220,7 @@ D
 JS
 :
 :
-BigInt
+Symbol
 *
 )
 \
@@ -233,6 +233,12 @@ JSAtom
 D
 (
 JSFunction
+*
+)
+\
+D
+(
+JSLinearString
 *
 )
 \
