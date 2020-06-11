@@ -5641,6 +5641,12 @@ Raw
 )
 :
 nullptr
+StaticPrefs
+:
+:
+gfx_webrender_precache_shaders_AtStartup
+(
+)
 )
 ;
 }
