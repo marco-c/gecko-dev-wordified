@@ -5608,13 +5608,15 @@ propertyKey
 \
 MACRO
 (
-ToId
-to_id
+ToPropertyKey
+to_property_key
 NULL
 1
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 \
 /
