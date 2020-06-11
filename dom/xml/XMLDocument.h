@@ -226,7 +226,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 )
 override
 ;

@@ -16547,7 +16547,7 @@ contentPrincipal
 aLocationChangeData
 -
 >
-contentStoragePrincipal
+contentPartitionedPrincipal
 (
 )
 aLocationChangeData

@@ -14776,7 +14776,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-storagePrincipal
+partitionedPrincipal
 ;
 if
 (
@@ -14863,7 +14863,7 @@ principal
 )
 getter_AddRefs
 (
-storagePrincipal
+partitionedPrincipal
 )
 )
 ;
@@ -14877,7 +14877,7 @@ principal
 >
 Equals
 (
-storagePrincipal
+partitionedPrincipal
 )
 ;
 principal
@@ -14892,18 +14892,18 @@ if
 equal
 )
 {
-storagePrincipal
+partitionedPrincipal
 =
 principal
 ;
 }
 else
 {
-storagePrincipal
+partitionedPrincipal
 =
 MaybeDowngradePrincipal
 (
-storagePrincipal
+partitionedPrincipal
 )
 ;
 }
@@ -14912,7 +14912,7 @@ ResetToURI
 uri
 aLoadGroup
 principal
-storagePrincipal
+partitionedPrincipal
 )
 ;
 /
@@ -15272,7 +15272,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 )
 {
 MOZ_ASSERT
@@ -15296,7 +15296,7 @@ aPrincipal
 =
 !
 !
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 MOZ_LOG
@@ -15821,7 +15821,7 @@ aPrincipal
 SetPrincipals
 (
 aPrincipal
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 }
@@ -23075,7 +23075,7 @@ nsIPrincipal
 aNewPrincipal
 nsIPrincipal
 *
-aNewStoragePrincipal
+aNewPartitionedPrincipal
 )
 {
 MOZ_ASSERT
@@ -23087,7 +23087,7 @@ aNewPrincipal
 =
 !
 !
-aNewStoragePrincipal
+aNewPartitionedPrincipal
 )
 ;
 if
@@ -23133,9 +23133,9 @@ SetDocumentPrincipal
 aNewPrincipal
 )
 ;
-mIntrinsicStoragePrincipal
+mPartitionedPrincipal
 =
-aNewStoragePrincipal
+aNewPartitionedPrincipal
 ;
 ContentBlockingAllowList
 :
@@ -68763,9 +68763,7 @@ loadGroup
 NodePrincipal
 (
 )
-EffectiveStoragePrincipal
-(
-)
+mPartitionedPrincipal
 )
 ;
 }
@@ -68984,7 +68982,7 @@ SetPrincipals
 NodePrincipal
 (
 )
-mIntrinsicStoragePrincipal
+mPartitionedPrincipal
 )
 ;
 clone
@@ -101491,7 +101489,7 @@ NodePrincipal
 return
 mActiveStoragePrincipal
 =
-mIntrinsicStoragePrincipal
+mPartitionedPrincipal
 ;
 }
 void
