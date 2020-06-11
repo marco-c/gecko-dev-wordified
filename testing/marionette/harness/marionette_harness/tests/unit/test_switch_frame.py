@@ -70,6 +70,8 @@ errors
 import
 (
     
+InvalidArgumentException
+    
 JavascriptException
     
 NoSuchFrameException
@@ -1232,6 +1234,15 @@ length
 "
 )
         
+for
+index
+in
+[
+count
+65535
+]
+:
+            
 self
 .
 assertRaises
@@ -1242,11 +1253,11 @@ self
 marionette
 .
 switch_to_frame
-count
+index
 )
     
 def
-test_switch_to_frame_with_negative_index
+test_switch_to_frame_with_invalid_index
 (
 self
 )
@@ -1272,18 +1283,27 @@ html
 )
 )
         
+for
+index
+in
+[
+-
+1
+65536
+]
+:
+            
 self
 .
 assertRaises
 (
-NoSuchFrameException
+InvalidArgumentException
 self
 .
 marionette
 .
 switch_to_frame
--
-1
+index
 )
     
 def
