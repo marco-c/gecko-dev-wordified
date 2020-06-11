@@ -3558,6 +3558,12 @@ CHROME_WINDOW_RESIZE
 {
 widgetInitData
 .
+mResizable
+=
+true
+;
+widgetInitData
+.
 mBorderStyle
 =
 static_cast

@@ -3598,6 +3598,9 @@ mAlwaysOnTop
 bool
 mIsEarlyBlankWindow
 ;
+bool
+mResizable
+;
 DWORD_PTR
 mOldStyle
 ;
