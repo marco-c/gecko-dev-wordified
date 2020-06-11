@@ -114,6 +114,8 @@ import
 re
 import
 sys
+import
+six
 #
 Matches
 lines
@@ -200,6 +202,15 @@ False
     
 global
 fix_stacks
+    
+line
+=
+six
+.
+ensure_str
+(
+line
+)
     
 result
 =
