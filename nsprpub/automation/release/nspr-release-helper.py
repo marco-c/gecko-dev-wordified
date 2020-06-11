@@ -115,12 +115,14 @@ kwargs
 :
     
 print
+(
 "
 Executing
 command
 :
 "
 cmd
+)
     
 check_call
 (
@@ -199,11 +201,13 @@ what
 :
     
 print
+(
 "
 failure
 :
 "
 what
+)
     
 sys
 .
@@ -306,6 +310,7 @@ is_beta
 :
         
 print
+(
 "
 adding
 Beta
@@ -314,6 +319,7 @@ to
 version
 numbers
 "
+)
         
 sed_inplace
 (
@@ -385,6 +391,7 @@ else
 :
         
 print
+(
 "
 removing
 Beta
@@ -393,6 +400,7 @@ from
 version
 numbers
 "
+)
         
 sed_inplace
 (
@@ -462,6 +470,7 @@ prinit_h
 )
     
 print
+(
 "
 please
 run
@@ -483,6 +492,7 @@ been
 verified
 correctly
 "
+)
 def
 print_beta_versions
 (
@@ -516,6 +526,7 @@ remove_beta_status
 :
     
 print
+(
 "
 -
 -
@@ -529,6 +540,7 @@ versions
 were
 :
 "
+)
     
 print_beta_versions
 (
@@ -540,6 +552,7 @@ False
 )
     
 print
+(
 "
 -
 -
@@ -551,6 +564,7 @@ versions
 are
 :
 "
+)
     
 print_beta_versions
 (
@@ -562,6 +576,7 @@ set_beta_status
 :
     
 print
+(
 "
 -
 -
@@ -575,6 +590,7 @@ versions
 were
 :
 "
+)
     
 print_beta_versions
 (
@@ -586,6 +602,7 @@ True
 )
     
 print
+(
 "
 -
 -
@@ -597,6 +614,7 @@ versions
 are
 :
 "
+)
     
 print_beta_versions
 (
@@ -1026,8 +1044,11 @@ patch
 )
     
 print
+(
+)
     
 print
+(
 "
 =
 =
@@ -1057,8 +1078,10 @@ print
 =
 =
 "
+)
     
 print
+(
 "
 =
 =
@@ -1078,10 +1101,14 @@ ATTENTION
 =
 =
 "
+)
     
 print
+(
+)
     
 print
+(
 "
 You
 *
@@ -1098,10 +1125,14 @@ vercheck
 .
 c
 "
+)
     
 print
+(
+)
     
 print
+(
 "
 Edit
 two
@@ -1111,8 +1142,10 @@ compatible_version
 and
 incompatible_version
 "
+)
     
 print
+(
 "
 according
 to
@@ -1125,10 +1158,14 @@ re
 adding
 .
 "
+)
     
 print
+(
+)
     
 print
+(
 "
 =
 =
@@ -1148,8 +1185,10 @@ ATTENTION
 =
 =
 "
+)
     
 print
+(
 "
 =
 =
@@ -1179,6 +1218,7 @@ print
 =
 =
 "
+)
 def
 set_version_to_minor_release
 (
@@ -1499,6 +1539,7 @@ hgtags
 )
     
 print
+(
 "
 changing
 to
@@ -1506,6 +1547,7 @@ directory
 "
 +
 nspr_stagedir
+)
     
 os
 .
@@ -1549,6 +1591,7 @@ True
 )
     
 print
+(
 "
 created
 directory
@@ -1561,6 +1604,7 @@ with
 files
 :
 "
+)
     
 check_call_noisy
 (

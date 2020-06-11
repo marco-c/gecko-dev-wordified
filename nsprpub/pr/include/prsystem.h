@@ -309,6 +309,7 @@ the
 system
 *
 /
+PR_SI_RELEASE_BUILD
 }
 PRSysInfo
 ;
