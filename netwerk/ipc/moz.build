@@ -94,6 +94,11 @@ net
 =
 [
 '
+ADocumentChannelBridge
+.
+h
+'
+'
 ChannelEventQueue
 .
 h
