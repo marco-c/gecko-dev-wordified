@@ -1313,7 +1313,6 @@ container
 ;
 if
 (
-!
 waylandSurface
 )
 {
@@ -1333,6 +1332,8 @@ waylandSurface
 moz_container_wayland_surface_unlock
 (
 container
+&
+waylandSurface
 )
 ;
 }

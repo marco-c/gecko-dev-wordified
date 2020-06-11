@@ -376,6 +376,11 @@ moz_container_wayland_surface_unlock
 MozContainer
 *
 container
+struct
+wl_surface
+*
+*
+surface
 )
 ;
 struct
