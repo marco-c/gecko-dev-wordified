@@ -1273,7 +1273,7 @@ onViewSource
 viewSource
 (
 {
-sourceId
+id
 :
 location
 .

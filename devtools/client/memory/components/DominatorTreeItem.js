@@ -617,14 +617,7 @@ Frame
 key
 onClick
 :
-(
-)
-=
->
 onViewSourceInDebugger
-(
-piece
-)
 frame
 :
 piece

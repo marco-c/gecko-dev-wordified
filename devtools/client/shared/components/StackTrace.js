@@ -383,13 +383,6 @@ n
 )
 ;
 }
-const
-source
-=
-s
-.
-filename
-;
 frames
 .
 push
@@ -417,6 +410,10 @@ s
 .
 functionName
 source
+:
+s
+.
+filename
 line
 :
 s

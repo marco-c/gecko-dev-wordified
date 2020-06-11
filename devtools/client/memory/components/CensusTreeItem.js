@@ -402,7 +402,7 @@ diffing
 toLabel
 (
 name
-linkToDebugger
+onViewSourceInDebugger
 )
 {
 if
@@ -422,14 +422,7 @@ frame
 name
 onClick
 :
-(
-)
-=
->
-linkToDebugger
-(
-name
-)
+onViewSourceInDebugger
 showFunctionName
 :
 true
