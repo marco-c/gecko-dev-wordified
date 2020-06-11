@@ -280,7 +280,6 @@ TTML2
 a
 >
 *
-*
 /
 public
 final
@@ -2539,5 +2538,16 @@ yellowgreen
 0xFF9ACD32
 )
 ;
+}
+private
+ColorParser
+(
+)
+{
+/
+/
+Prevent
+instantiation
+.
 }
 }

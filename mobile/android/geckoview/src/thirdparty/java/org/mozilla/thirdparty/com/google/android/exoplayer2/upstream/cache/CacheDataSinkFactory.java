@@ -206,7 +206,7 @@ cache
 private
 final
 long
-maxCacheFileSize
+fragmentSize
 ;
 private
 final
@@ -216,7 +216,6 @@ bufferSize
 /
 *
 *
-*
 see
 CacheDataSink
 #
@@ -233,13 +232,13 @@ CacheDataSinkFactory
 Cache
 cache
 long
-maxCacheFileSize
+fragmentSize
 )
 {
 this
 (
 cache
-maxCacheFileSize
+fragmentSize
 CacheDataSink
 .
 DEFAULT_BUFFER_SIZE
@@ -247,7 +246,6 @@ DEFAULT_BUFFER_SIZE
 ;
 }
 /
-*
 *
 *
 see
@@ -267,7 +265,7 @@ CacheDataSinkFactory
 Cache
 cache
 long
-maxCacheFileSize
+fragmentSize
 int
 bufferSize
 )
@@ -280,9 +278,9 @@ cache
 ;
 this
 .
-maxCacheFileSize
+fragmentSize
 =
-maxCacheFileSize
+fragmentSize
 ;
 this
 .
@@ -303,7 +301,7 @@ new
 CacheDataSink
 (
 cache
-maxCacheFileSize
+fragmentSize
 bufferSize
 )
 ;

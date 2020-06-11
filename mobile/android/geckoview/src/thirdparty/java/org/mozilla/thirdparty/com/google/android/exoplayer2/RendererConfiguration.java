@@ -146,6 +146,13 @@ android
 .
 exoplayer2
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 /
 *
 *
@@ -274,6 +281,7 @@ public
 boolean
 equals
 (
+Nullable
 Object
 obj
 )

@@ -195,6 +195,17 @@ CacheEvictor
 {
 Override
 public
+boolean
+requiresCacheSpanTouches
+(
+)
+{
+return
+false
+;
+}
+Override
+public
 void
 onCacheInitialized
 (

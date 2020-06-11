@@ -254,9 +254,7 @@ google
 .
 android
 .
-exoplayer2
-.
-C
+exoplayer2C
 }
 *
 {

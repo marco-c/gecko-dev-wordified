@@ -150,6 +150,13 @@ source
 .
 chunk
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 /
 *
 *
@@ -180,12 +187,12 @@ ChunkHolder
 /
 *
 *
-*
 The
 chunk
 .
 *
 /
+Nullable
 public
 Chunk
 chunk

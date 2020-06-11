@@ -150,6 +150,13 @@ upstream
 .
 crypto
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 /
 *
 *
@@ -219,9 +226,9 @@ than
 those
 produced
 by
-*
 {
 link
+*
 #
 hashCode
 (
@@ -235,6 +242,7 @@ static
 long
 getFNV64Hash
 (
+Nullable
 String
 input
 )

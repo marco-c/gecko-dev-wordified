@@ -148,6 +148,13 @@ exoplayer2
 .
 decoder
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 /
 *
 *
@@ -290,6 +297,7 @@ occurred
 .
 *
 /
+Nullable
 I
 dequeueInputBuffer
 (
@@ -380,6 +388,7 @@ occurred
 .
 *
 /
+Nullable
 O
 dequeueOutputBuffer
 (

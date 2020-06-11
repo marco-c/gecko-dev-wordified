@@ -376,9 +376,6 @@ cues
 :
 Collections
 .
-<
-Cue
->
 emptyList
 (
 )

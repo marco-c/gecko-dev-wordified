@@ -307,16 +307,6 @@ in
 the
 subtitle
 .
-Null
-entries
-may
-be
-used
-to
-represent
-empty
-cues
-.
 *
 param
 cueTimesUs
@@ -480,7 +470,9 @@ index
 ]
 =
 =
-null
+Cue
+.
+EMPTY
 )
 {
 /

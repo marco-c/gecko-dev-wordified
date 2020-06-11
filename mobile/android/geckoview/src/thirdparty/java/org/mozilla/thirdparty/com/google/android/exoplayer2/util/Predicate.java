@@ -155,7 +155,7 @@ util
 Determines
 a
 true
-of
+or
 false
 value
 for

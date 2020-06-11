@@ -151,7 +151,6 @@ extractor
 /
 *
 *
-*
 Factory
 for
 arrays
@@ -160,7 +159,7 @@ of
 link
 Extractor
 }
-s
+instances
 .
 *
 /
@@ -169,7 +168,6 @@ interface
 ExtractorsFactory
 {
 /
-*
 *
 *
 Returns
