@@ -341,6 +341,10 @@ html
 mathml
 |
 ua
+|
+forms
+|
+svg
 )
 \
 .
