@@ -296,6 +296,10 @@ SEEK_SET
             
 content
 =
+six
+.
+ensure_str
+(
 self
 .
 stdout_file
@@ -307,64 +311,6 @@ read
 rstrip
 (
 )
-            
-#
-File
-read
-(
-)
-returns
-str
-on
-Python
-2
-while
-Python
-3
-returns
-bytes
-.
-            
-#
-If
-we
-are
-running
-under
-Python3
-convert
-content
-to
-str
-to
-match
-            
-#
-the
-expectations
-of
-the
-existing
-code
-.
-            
-if
-six
-.
-PY3
-:
-                
-content
-=
-content
-.
-decode
-(
-"
-utf
--
-8
-"
 )
         
 return
@@ -8567,11 +8513,16 @@ SEEK_END
             
 char
 =
+six
+.
+ensure_str
+(
 file_obj
 .
 read
 (
 1
+)
 )
             
 if
@@ -8580,25 +8531,6 @@ char
 :
                 
 break
-            
-if
-six
-.
-PY3
-:
-                
-char
-=
-char
-.
-decode
-(
-"
-utf
--
-8
-"
-)
             
 if
 char
@@ -8793,23 +8725,13 @@ in
 file_obj
 :
                 
-if
-six
-.
-PY3
-:
-                    
 line
 =
-line
+six
 .
-decode
+ensure_str
 (
-"
-utf
--
-8
-"
+line
 )
                 
 match
@@ -21553,11 +21475,16 @@ offset
 )
                     
 return
+six
+.
+ensure_str
+(
 tf2
 .
 read
 (
 length
+)
 )
                 
 elif
@@ -21575,20 +21502,30 @@ offset
 )
                     
 return
+six
+.
+ensure_str
+(
 tf2
 .
 read
 (
+)
 )
                 
 else
 :
                     
 return
+six
+.
+ensure_str
+(
 tf2
 .
 read
 (
+)
 )
     
 def
@@ -22344,12 +22281,17 @@ headers
                 
 header
 =
+six
+.
+ensure_str
+(
 adb_process
 .
 stdout_file
 .
 readline
 (
+)
 )
                 
 pid_i
@@ -22515,12 +22457,17 @@ ret
             
 line
 =
+six
+.
+ensure_str
+(
 adb_process
 .
 stdout_file
 .
 readline
 (
+)
 )
             
 while
@@ -22706,12 +22653,17 @@ adb_process
                 
 line
 =
+six
+.
+ensure_str
+(
 adb_process
 .
 stdout_file
 .
 readline
 (
+)
 )
             
 self
