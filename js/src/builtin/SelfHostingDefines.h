@@ -899,4 +899,8 @@ define
 TYPEDARRAY_KIND_BIGUINT64
 10
 #
+define
+ITERATED_SLOT
+0
+#
 endif
