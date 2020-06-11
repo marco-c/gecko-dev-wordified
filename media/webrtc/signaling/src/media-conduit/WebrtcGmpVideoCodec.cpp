@@ -345,9 +345,6 @@ WebrtcGmpPCHandleSetter
 :
 :
 sCurrentHandle
-=
-"
-"
 ;
 /
 /
