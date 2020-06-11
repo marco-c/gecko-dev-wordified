@@ -114,6 +114,8 @@ js
 src
 /
 irregexp
+/
+imported
 #
 -
 Exclude
@@ -150,6 +152,8 @@ to
 "
 irregexp
 /
+imported
+/
 *
 "
 .
@@ -173,9 +177,7 @@ include
 "
 irregexp
 /
-regexp
--
-shim
+RegExpShim
 .
 h
 "
@@ -537,6 +539,8 @@ regexp_include_new
 include
 "
 irregexp
+/
+imported
 '
     
 #
@@ -576,9 +580,7 @@ include
 "
 irregexp
 /
-regexp
--
-shim
+RegExpShim
 .
 h
 "
@@ -650,17 +652,9 @@ just
 waiting
 to
 find
-something
-alphabetically
-smaller
-(
-or
 an
 empty
-    
-#
 line
-)
 so
 that
 we
@@ -668,6 +662,8 @@ can
 insert
 the
 shim
+    
+#
 header
 in
 the
@@ -698,7 +694,6 @@ adding_shim_now
 :
             
 if
-(
 line
 =
 =
@@ -706,25 +701,6 @@ line
 \
 n
 '
-or
-line
->
-'
-#
-include
-"
-src
-/
-regexp
-/
-regexp
--
-shim
-.
-h
-"
-'
-)
 :
                 
 dst
@@ -737,9 +713,7 @@ include
 "
 irregexp
 /
-regexp
--
-shim
+RegExpShim
 .
 h
 "
@@ -892,6 +866,10 @@ copy_and_update_includes
 (
 file
 dstdir
+/
+"
+imported
+"
 /
 file
 .
