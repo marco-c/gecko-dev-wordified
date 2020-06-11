@@ -113,6 +113,11 @@ TestHttpFuzzing
 cpp
 '
 '
+TestURIFuzzing
+.
+cpp
+'
+'
 TestWebsocketFuzzing
 .
 cpp
