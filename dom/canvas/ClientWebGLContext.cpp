@@ -6127,6 +6127,12 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mXRCompatible
+=
+attributes
+.
+mXrCompatible
+;
 mInitialOptions
 .
 emplace
