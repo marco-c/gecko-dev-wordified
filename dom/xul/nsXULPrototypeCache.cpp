@@ -287,11 +287,15 @@ intl
 :
 LocaleService
 ;
+#
+define
+XUL_CACHE_DISABLED_DEFAULT
+false
 static
 bool
 gDisableXULCache
 =
-false
+XUL_CACHE_DISABLED_DEFAULT
 ;
 /
 /
@@ -437,7 +441,7 @@ Preferences
 GetBool
 (
 kDisableXULCachePref
-gDisableXULCache
+XUL_CACHE_DISABLED_DEFAULT
 )
 ;
 /
