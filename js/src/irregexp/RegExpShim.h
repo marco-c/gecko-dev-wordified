@@ -7407,6 +7407,17 @@ init
 (
 )
 ;
+size_t
+sizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 /
 /
 *
