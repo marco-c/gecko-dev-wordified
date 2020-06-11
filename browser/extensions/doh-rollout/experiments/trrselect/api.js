@@ -397,7 +397,15 @@ xpcshell
 setDryRunResultAndRecordTelemetry
 (
 "
-dummyTRR
+https
+:
+/
+/
+dummytrr
+.
+com
+/
+query
 "
 )
 ;
