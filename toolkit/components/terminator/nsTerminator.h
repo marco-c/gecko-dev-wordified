@@ -150,12 +150,6 @@ nsTerminator
 (
 )
 ;
-static
-bool
-IsCheckingLateWrites
-(
-)
-;
 private
 :
 nsresult
