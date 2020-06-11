@@ -123,13 +123,6 @@ DOM_MEDIA_MEDIACONTROL_MEDIACONTROLLER_H_
 #
 include
 "
-ContentMediaController
-.
-h
-"
-#
-include
-"
 MediaEventSource
 .
 h
@@ -691,6 +684,8 @@ override
 void
 SetIsInPictureInPictureMode
 (
+uint64_t
+aBrowsingContextId
 bool
 aIsInPictureInPictureMode
 )

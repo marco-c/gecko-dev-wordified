@@ -1208,6 +1208,8 @@ MediaController
 :
 SetIsInPictureInPictureMode
 (
+uint64_t
+aBrowsingContextId
 bool
 aIsInPictureInPictureMode
 )
