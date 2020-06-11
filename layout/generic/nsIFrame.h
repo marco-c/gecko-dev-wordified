@@ -5825,6 +5825,13 @@ ComputedStyle
 aOldComputedStyle
 )
 ;
+private
+:
+void
+RecordAppearanceTelemetry
+(
+)
+;
 public
 :
 /
