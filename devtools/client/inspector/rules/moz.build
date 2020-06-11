@@ -140,7 +140,7 @@ BROWSER_CHROME_MANIFESTS
 '
 test
 /
-browser
+browser_part1
 .
 ini
 '
