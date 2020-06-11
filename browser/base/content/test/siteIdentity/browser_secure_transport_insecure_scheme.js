@@ -327,14 +327,14 @@ is
 (
 identityMode
 "
-localResource
+unknownIdentity
 "
 "
 identity
 should
 be
 '
-localResource
+unknown
 '
 "
 )
