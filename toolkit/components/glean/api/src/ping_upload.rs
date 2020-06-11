@@ -315,9 +315,6 @@ ping
 requests
 .
 pub
-(
-crate
-)
 fn
 check_for_uploads
 (
