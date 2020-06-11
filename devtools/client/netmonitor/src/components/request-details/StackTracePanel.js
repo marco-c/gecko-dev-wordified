@@ -232,7 +232,7 @@ PropTypes
 object
 .
 isRequired
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -393,7 +393,7 @@ const
 connector
 openLink
 request
-sourceMapService
+sourceMapURLService
 }
 =
 this
@@ -452,7 +452,7 @@ column
 )
 ;
 }
-sourceMapService
+sourceMapURLService
 openLink
 }
 )

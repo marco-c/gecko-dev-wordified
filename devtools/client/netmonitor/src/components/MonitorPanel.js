@@ -600,7 +600,7 @@ PropTypes
 bool
 .
 isRequired
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -1186,7 +1186,7 @@ connector
 networkDetailsOpen
 openLink
 openSplitConsole
-sourceMapService
+sourceMapURLService
 toolboxDoc
 }
 =
@@ -1324,7 +1324,7 @@ endPanel
 "
 connector
 openLink
-sourceMapService
+sourceMapURLService
 }
 )
 endPanelCollapsed

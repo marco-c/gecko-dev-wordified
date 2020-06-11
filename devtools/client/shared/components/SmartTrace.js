@@ -257,7 +257,7 @@ source
 map
 feature
 .
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -384,7 +384,7 @@ ready
 !
 props
 .
-sourceMapService
+sourceMapURLService
 frozen
 :
 false
@@ -413,12 +413,12 @@ this
 .
 props
 .
-sourceMapService
+sourceMapURLService
 )
 {
 this
 .
-sourceMapServiceUnsubscriptions
+sourceMapURLServiceUnsubscriptions
 =
 [
 ]
@@ -509,7 +509,7 @@ this
 .
 props
 .
-sourceMapService
+sourceMapURLService
 .
 subscribe
 (
@@ -521,7 +521,7 @@ subscribeCallback
 ;
 this
 .
-sourceMapServiceUnsubscriptions
+sourceMapURLServiceUnsubscriptions
 .
 push
 (
@@ -821,12 +821,12 @@ if
 (
 this
 .
-sourceMapServiceUnsubscriptions
+sourceMapURLServiceUnsubscriptions
 )
 {
 this
 .
-sourceMapServiceUnsubscriptions
+sourceMapURLServiceUnsubscriptions
 .
 forEach
 (

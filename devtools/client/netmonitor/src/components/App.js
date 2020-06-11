@@ -366,7 +366,7 @@ source
 map
 feature
 .
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -421,7 +421,7 @@ actions
 connector
 openLink
 openSplitConsole
-sourceMapService
+sourceMapURLService
 statisticsOpen
 toolboxDoc
 }
@@ -457,7 +457,7 @@ MonitorPanel
 actions
 connector
 openSplitConsole
-sourceMapService
+sourceMapURLService
 openLink
 toolboxDoc
 }

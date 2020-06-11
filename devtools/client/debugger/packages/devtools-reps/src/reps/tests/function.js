@@ -3629,7 +3629,7 @@ renderRep
 object
 {
 onViewSourceInDebugger
-sourceMapService
+sourceMapURLService
 :
 {
 originalPositionFor

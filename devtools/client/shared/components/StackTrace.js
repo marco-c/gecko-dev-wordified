@@ -288,7 +288,7 @@ source
 map
 feature
 .
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -304,7 +304,7 @@ const
 {
 stacktrace
 onViewSourceInDebugger
-sourceMapService
+sourceMapURLService
 }
 =
 this
@@ -440,7 +440,7 @@ true
 onClick
 :
 onViewSourceInDebugger
-sourceMapService
+sourceMapURLService
 }
 )
 "

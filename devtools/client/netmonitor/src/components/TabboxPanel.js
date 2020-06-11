@@ -666,7 +666,7 @@ PropTypes
 func
 .
 isRequired
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -802,7 +802,7 @@ hideToggleButton
 openLink
 request
 selectTab
-sourceMapService
+sourceMapURLService
 toggleNetworkDetails
 showMessagesTab
 targetSearchResult
@@ -1158,7 +1158,7 @@ StackTracePanel
 connector
 openLink
 request
-sourceMapService
+sourceMapURLService
 }
 )
 )

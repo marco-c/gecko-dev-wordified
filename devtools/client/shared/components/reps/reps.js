@@ -16621,7 +16621,7 @@ onViewSourceInDebugger
 PropTypes
 .
 func
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -16641,7 +16641,7 @@ object
 grip
 onViewSourceInDebugger
 recordTelemetryEvent
-sourceMapService
+sourceMapURLService
 }
 =
 props
@@ -16755,7 +16755,7 @@ getSourceLocation
 grip
 .
 location
-sourceMapService
+sourceMapURLService
 )
 ;
 onViewSourceInDebugger
@@ -17611,13 +17611,13 @@ function
 getSourceLocation
 (
 location
-sourceMapService
+sourceMapURLService
 )
 {
 if
 (
 !
-sourceMapService
+sourceMapURLService
 )
 {
 return
@@ -17630,7 +17630,7 @@ const
 originalLocation
 =
 await
-sourceMapService
+sourceMapURLService
 .
 originalPositionFor
 (

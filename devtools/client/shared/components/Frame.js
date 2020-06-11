@@ -450,7 +450,7 @@ feature
 for
 console
 .
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -543,7 +543,7 @@ this
 .
 props
 .
-sourceMapService
+sourceMapURLService
 )
 {
 const
@@ -567,7 +567,7 @@ this
 .
 props
 .
-sourceMapService
+sourceMapURLService
 .
 subscribe
 (
