@@ -2834,10 +2834,7 @@ CanvasDrawEventRecorder
 :
 RecordSourceSurfaceDestruction
 (
-gfx
-:
-:
-SourceSurface
+void
 *
 aSurface
 )
@@ -2892,10 +2889,7 @@ NS_DispatchToMainThread
 (
 NewRunnableMethod
 <
-gfx
-:
-:
-SourceSurface
+void
 *
 >
 (
