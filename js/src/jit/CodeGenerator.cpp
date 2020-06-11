@@ -37678,7 +37678,7 @@ MOZ_ASSERT
 target
 -
 >
-isNativeWithCppEntry
+isNativeWithoutJitEntry
 (
 )
 )
@@ -41129,11 +41129,10 @@ LCallNative
 .
 MOZ_ASSERT
 (
-!
 target
 -
 >
-isNativeWithCppEntry
+hasJitEntry
 (
 )
 )
@@ -44258,7 +44257,7 @@ getSingleTarget
 )
 -
 >
-isNativeWithCppEntry
+isNativeWithoutJitEntry
 (
 )
 )
