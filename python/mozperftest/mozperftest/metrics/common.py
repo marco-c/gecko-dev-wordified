@@ -1105,7 +1105,6 @@ ptnb
 =
 PerftestETL
 (
-                
 config
 [
 "
@@ -1119,7 +1118,6 @@ data_info
 transformer
 "
 ]
-            
 )
             
 r

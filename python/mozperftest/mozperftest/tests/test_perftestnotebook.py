@@ -121,7 +121,6 @@ mock
 .
 patch
 (
-        
 "
 mozperftest
 .
@@ -133,7 +132,6 @@ perftestnotebook
 .
 logger
 "
-    
 )
 as
 logger
@@ -155,14 +153,14 @@ logger
 .
 assert_has_calls
 (
+            
 mock
 .
 call
 .
 warning
 (
-                
-'
+"
 Could
 not
 find
@@ -172,9 +170,9 @@ notebook
 section
 called
 unknown
-'
-            
+"
 )
+        
 )
 pytest
 .

@@ -37,7 +37,7 @@ mozperftest
 .
 environment
 import
-BROWSER
+TEST
 from
 mozperftest
 .
@@ -239,7 +239,7 @@ env
 .
 layers
 [
-BROWSER
+TEST
 ]
     
 env
@@ -608,7 +608,7 @@ env
 .
 layers
 [
-BROWSER
+TEST
 ]
     
 env
@@ -762,7 +762,7 @@ env
 .
 layers
 [
-BROWSER
+TEST
 ]
     
 env
@@ -1116,7 +1116,7 @@ env
 .
 layers
 [
-BROWSER
+TEST
 ]
     
 env
@@ -1289,7 +1289,7 @@ env
 .
 layers
 [
-BROWSER
+TEST
 ]
     
 env

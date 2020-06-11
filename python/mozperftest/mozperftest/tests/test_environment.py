@@ -770,7 +770,7 @@ the
 metrics
 layer
 is
-called
+entered
 after
     
 #
@@ -788,6 +788,22 @@ __enter__
 self
 )
 :
+            
+system
+.
+teardown
+.
+assert_called
+(
+)
+            
+browser
+.
+teardown
+.
+assert_called
+(
+)
             
 return
 self
@@ -814,21 +830,7 @@ metadata
 )
 :
             
-system
-.
-teardown
-.
-assert_called
-(
-)
-            
-browser
-.
-teardown
-.
-assert_called
-(
-)
+return
     
 env
 .
