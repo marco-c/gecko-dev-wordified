@@ -74,6 +74,8 @@ import
 os
 import
 re
+import
+six
 from
 six
 import
@@ -957,13 +959,19 @@ fh
 .
 write
 (
+six
+.
+ensure_binary
+(
 key
+)
 )
                     
 fh
 .
 write
 (
+b
 "
 =
 "
@@ -980,10 +988,29 @@ tuple
 )
 :
                         
+binary_values
+=
+[
+six
+.
+ensure_binary
+(
+str
+(
+v
+)
+)
+for
+v
+in
+value
+]
+                        
 fh
 .
 write
 (
+b
 '
 "
 %
@@ -991,12 +1018,13 @@ s
 "
 '
 %
+b
 "
 "
 .
 join
 (
-value
+binary_values
 )
 )
                     
@@ -1007,6 +1035,7 @@ fh
 .
 write
 (
+b
 '
 "
 %
@@ -1014,9 +1043,14 @@ s
 "
 '
 %
+six
+.
+ensure_binary
+(
 str
 (
 value
+)
 )
 )
             
@@ -1046,6 +1080,7 @@ fh
 .
 write
 (
+b
 "
 \
 n
