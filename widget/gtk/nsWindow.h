@@ -3274,6 +3274,9 @@ window
 bool
 mIsPIPWindow
 ;
+bool
+mAlwaysOnTop
+;
 #
 ifdef
 ACCESSIBILITY
