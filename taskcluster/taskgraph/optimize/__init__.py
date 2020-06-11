@@ -261,6 +261,7 @@ target_task_graph
 params
 do_not_optimize
                         
+decision_task_id
 existing_tasks
 =
 None
@@ -414,6 +415,7 @@ removed_tasks
 replaced_tasks
             
 label_to_taskid
+decision_task_id
 )
 label_to_taskid
 def
@@ -1240,10 +1242,12 @@ replaced
 def
 get_subgraph
 (
+    
 target_task_graph
 removed_tasks
 replaced_tasks
 label_to_taskid
+decision_task_id
 )
 :
     
@@ -1627,6 +1631,10 @@ task_id
 task
 .
 task_id
+            
+decision_task_id
+=
+decision_task_id
             
 dependencies
 =

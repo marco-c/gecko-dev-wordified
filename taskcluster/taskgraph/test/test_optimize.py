@@ -1980,6 +1980,12 @@ removed_tasks
                                                  
 replaced_tasks
 label_to_taskid
+                                                 
+"
+DECISION
+-
+TASK
+"
 )
         
 finally

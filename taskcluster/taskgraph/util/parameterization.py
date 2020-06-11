@@ -302,6 +302,7 @@ resolve_task_references
 label
 task_def
 task_id
+decision_task_id
 dependencies
 )
 :
@@ -404,6 +405,18 @@ self
                 
 return
 task_id
+            
+elif
+key
+=
+=
+'
+decision
+'
+:
+                
+return
+decision_task_id
             
 try
 :
@@ -532,23 +545,40 @@ label
                 
 )
             
-try
+elif
+dependency
+=
+=
+'
+decision
+'
 :
                 
+task_id
+=
+decision_task_id
+            
+else
+:
+                
+try
+:
+                    
 task_id
 =
 dependencies
 [
 dependency
 ]
-            
+                
 except
 KeyError
 :
-                
+                    
 raise
 KeyError
 (
+                        
 "
 task
 '
@@ -570,6 +600,7 @@ format
 label
 dependency
 )
+                    
 )
             
 assert
