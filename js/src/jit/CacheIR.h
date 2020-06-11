@@ -9164,6 +9164,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathRandom
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathAbs
 (
 HandleFunction
