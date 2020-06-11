@@ -4394,6 +4394,9 @@ alwaysontop
 minimizable
 =
 yes
+popup
+=
+yes
 "
 ;
 /
