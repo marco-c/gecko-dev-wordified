@@ -502,6 +502,8 @@ function
 .
 bool
 hasFlag
+=
+false
 ;
 Unused
 <
