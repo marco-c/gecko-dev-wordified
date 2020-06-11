@@ -598,13 +598,11 @@ headers
 Accept
 "
 :
-[
 "
 application
 /
 json
 "
-]
 }
     
 )
