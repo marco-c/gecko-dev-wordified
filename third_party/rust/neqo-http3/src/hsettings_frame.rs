@@ -144,6 +144,9 @@ Copy
 )
 ]
 pub
+(
+crate
+)
 enum
 HSettingType
 {
@@ -179,9 +182,7 @@ HSettingType
 :
 :
 MaxTableCapacity
-=
->
-0
+|
 HSettingType
 :
 :
@@ -201,6 +202,9 @@ PartialEq
 )
 ]
 pub
+(
+crate
+)
 struct
 HSetting
 {
@@ -249,6 +253,9 @@ PartialEq
 )
 ]
 pub
+(
+crate
+)
 struct
 HSettings
 {
@@ -366,13 +373,10 @@ enc_inner
 for
 iter
 in
+&
 self
 .
 settings
-.
-iter
-(
-)
 {
 match
 iter

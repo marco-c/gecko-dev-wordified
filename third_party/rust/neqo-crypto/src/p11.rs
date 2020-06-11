@@ -129,7 +129,7 @@ use
 neqo_common
 :
 :
-hex
+hex_with_len
 ;
 use
 std
@@ -668,7 +668,7 @@ SymKey
 {
 }
 "
-hex
+hex_with_len
 (
 b
 )

@@ -99,6 +99,12 @@ ops
 AddAssign
 ;
 use
+neqo_common
+:
+:
+Role
+;
+use
 crate
 :
 :
@@ -106,7 +112,6 @@ connection
 :
 :
 {
-Role
 LOCAL_STREAM_LIMIT_BIDI
 LOCAL_STREAM_LIMIT_UNI
 }

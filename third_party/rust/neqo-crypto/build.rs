@@ -163,9 +163,6 @@ process
 :
 Command
 ;
-use
-toml
-;
 const
 BINDINGS_DIR
 :
@@ -926,6 +923,13 @@ args
 clone
 "
 "
+-
+u
+"
+"
+NSS_3_53_RTM
+"
+"
 https
 :
 /
@@ -1013,6 +1017,13 @@ args
 clone
 "
 "
+-
+u
+"
+"
+NSPR_4_25_RTM
+"
+"
 https
 :
 /
@@ -1056,10 +1067,6 @@ nspr
 ;
 }
 dir
-.
-to_path_buf
-(
-)
 }
 ;
 assert
@@ -3381,6 +3388,8 @@ String
 Bindings
 >
 =
+:
+:
 toml
 :
 :

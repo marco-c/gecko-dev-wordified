@@ -139,7 +139,7 @@ std
 convert
 :
 :
-TryInto
+TryFrom
 ;
 use
 std
@@ -1416,10 +1416,7 @@ u8
 )
 -
 >
-Res
-<
-u64
->
+usize
 {
 qtrace
 !
@@ -1454,8 +1451,6 @@ buf
 len
 (
 )
-as
-usize
 ;
 let
 mut
@@ -1517,6 +1512,10 @@ have
 let
 copy_offset
 =
+usize
+:
+:
+try_from
 (
 max
 (
@@ -1529,10 +1528,9 @@ retired
 range_start
 )
 .
-try_into
+unwrap
 (
 )
-?
 ;
 let
 copy_bytes
@@ -1696,12 +1694,7 @@ key
 )
 ;
 }
-Ok
-(
 copied
-as
-u64
-)
 }
 /
 /
@@ -1733,10 +1726,7 @@ u8
 )
 -
 >
-Res
-<
-u64
->
+usize
 {
 let
 orig_len
@@ -3135,7 +3125,7 @@ u8
 Res
 <
 (
-u64
+usize
 bool
 )
 >
@@ -3180,7 +3170,6 @@ read
 (
 buf
 )
-?
 false
 )
 )
@@ -3203,7 +3192,6 @@ read
 (
 buf
 )
-?
 ;
 let
 fin_read
@@ -5196,6 +5184,8 @@ unwrap
 )
 (
 RX_STREAM_DATA_WINDOW
+as
+usize
 false
 )
 )
@@ -5538,10 +5528,6 @@ buf
 .
 2
 ]
-)
-.
-unwrap
-(
 )
 ;
 assert_eq

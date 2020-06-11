@@ -96,7 +96,12 @@ crate
 constants
 :
 :
-*
+{
+Extension
+HandshakeMessage
+TLS_HS_CLIENT_HELLO
+TLS_HS_ENCRYPTED_EXTENSIONS
+}
 ;
 use
 crate

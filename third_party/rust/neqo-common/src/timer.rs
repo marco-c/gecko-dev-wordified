@@ -2072,7 +2072,11 @@ use
 super
 :
 :
-*
+{
+Duration
+Instant
+Timer
+}
 ;
 use
 lazy_static

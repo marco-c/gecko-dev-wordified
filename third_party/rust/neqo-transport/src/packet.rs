@@ -142,6 +142,7 @@ neqo_common
 :
 {
 hex
+hex_with_len
 qerror
 qtrace
 Decoder
@@ -4638,7 +4639,7 @@ self
 packet_type
 (
 )
-hex
+hex_with_len
 (
 &
 self
@@ -4652,7 +4653,7 @@ self
 header_len
 ]
 )
-hex
+hex_with_len
 (
 &
 self
@@ -5424,6 +5425,11 @@ dcid
 ]
 &
 [
+]
+as
+&
+[
+u8
 ]
 )
 ;
