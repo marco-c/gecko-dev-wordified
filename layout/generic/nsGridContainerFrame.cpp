@@ -21754,9 +21754,9 @@ mGenerateComputedGridInfo
 aGridContainerFrame
 -
 >
-AddStateBits
+SetShouldGenerateComputedInfo
 (
-NS_STATE_GRID_GENERATE_COMPUTED_VALUES
+true
 )
 ;
 }
@@ -38104,9 +38104,8 @@ aState
 mFrame
 -
 >
-HasAnyStateBits
+ShouldGenerateComputedInfo
 (
-NS_STATE_GRID_GENERATE_COMPUTED_VALUES
 )
 )
 {
@@ -69518,9 +69517,8 @@ wm
 }
 if
 (
-HasAnyStateBits
+ShouldGenerateComputedInfo
 (
-NS_STATE_GRID_GENERATE_COMPUTED_VALUES
 )
 )
 {
@@ -71840,9 +71838,8 @@ sharedGridData
 >
 mGenerateComputedGridInfo
 =
-HasAnyStateBits
+ShouldGenerateComputedInfo
 (
-NS_STATE_GRID_GENERATE_COMPUTED_VALUES
 )
 ;
 }
@@ -76751,9 +76748,9 @@ PresShell
 gridFrame
 -
 >
-AddStateBits
+SetShouldGenerateComputedInfo
 (
-NS_STATE_GRID_GENERATE_COMPUTED_VALUES
+true
 )
 ;
 presShell
