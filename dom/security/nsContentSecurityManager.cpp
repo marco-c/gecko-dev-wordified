@@ -709,7 +709,7 @@ true
 ;
 /
 /
-Whitelist
+Allow
 data
 :
 images
@@ -756,7 +756,7 @@ true
 }
 /
 /
-Whitelist
+Allow
 all
 plain
 text

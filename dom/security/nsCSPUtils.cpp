@@ -4897,7 +4897,7 @@ Source
 Expressions
 Note
 that
-whitelisting
+allowlisting
 any
 of
 /
@@ -5445,7 +5445,8 @@ false
 /
 otherwise
 mPath
-whitelists
+refers
+to
 a
 specific
 file
@@ -5461,8 +5462,7 @@ the
 loading
 resource
 matches
-that
-whitelisted
+the
 file
 .
 else
@@ -10259,7 +10259,7 @@ aURI
 bool
 aWasRedirected
 bool
-aEnforceWhitelist
+aEnforceAllowlist
 )
 const
 {
@@ -10315,7 +10315,7 @@ we
 can
 skip
 the
-whitelist
+allowlist
 AND
 '
 unsafe
@@ -10332,7 +10332,7 @@ present
 if
 (
 !
-aEnforceWhitelist
+aEnforceAllowlist
 &
 &
 mDirectives
@@ -10361,7 +10361,7 @@ Otherwise
 check
 against
 the
-whitelist
+allowlist
 .
 if
 (

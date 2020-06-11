@@ -1012,7 +1012,7 @@ scheme
 is
 not
 a
-whitelisted
+allowlisted
 scheme
 (
 about
@@ -1035,7 +1035,7 @@ Content
 Type
 is
 not
-whitelisted
+allowlisted
 (
 CSP
 Reports
@@ -3589,7 +3589,7 @@ aIsFormSubmission
 bool
 aWasRedirected
 bool
-aEnforceWhitelist
+aEnforceAllowlist
 bool
 *
 outAllowsNavigateTo
@@ -3609,7 +3609,7 @@ of
 (
 aWasRedirect
 *
-aEnforceWhitelist
+aEnforceAllowlist
 )
 for
 the
@@ -3931,7 +3931,7 @@ allowsNavigateTo
 (
 aURI
 aWasRedirected
-aEnforceWhitelist
+aEnforceAllowlist
 )
 )
 {

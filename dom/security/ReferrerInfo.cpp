@@ -6904,7 +6904,7 @@ NS_OK
 /
 Enforce
 Referrer
-whitelist
+allowlist
 only
 http
 https

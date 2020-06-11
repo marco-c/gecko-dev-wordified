@@ -3708,7 +3708,7 @@ CSP
 The
 CSP
 implementation
-whitelists
+allowlists
 the
 http
 -
@@ -3774,7 +3774,7 @@ The
 evalution
 of
 MixedContent
-whitelists
+allowlists
 all
 http
 *
@@ -4324,7 +4324,7 @@ aURI
 bool
 aWasRedirected
 bool
-aEnforceWhitelist
+aEnforceAllowlist
 )
 const
 ;

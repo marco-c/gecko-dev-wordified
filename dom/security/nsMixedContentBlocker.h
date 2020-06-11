@@ -502,7 +502,7 @@ aClosure
 ;
 static
 void
-GetSecureContextWhiteList
+GetSecureContextAllowList
 (
 nsACString
 &
@@ -517,12 +517,12 @@ Shutdown
 ;
 static
 bool
-sSecurecontextWhitelistCached
+sSecurecontextAllowlistCached
 ;
 static
 nsCString
 *
-sSecurecontextWhitelist
+sSecurecontextAllowlist
 ;
 }
 ;

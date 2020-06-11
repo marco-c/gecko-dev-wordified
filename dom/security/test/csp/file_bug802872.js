@@ -198,7 +198,7 @@ This
 domain
 is
 not
-whitelisted
+allowlisted
 by
 the
 *

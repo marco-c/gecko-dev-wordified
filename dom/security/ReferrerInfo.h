@@ -1006,7 +1006,7 @@ and
 sent
 .
 The
-whitelist
+allowlist
 schemes
 are
 :

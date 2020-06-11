@@ -458,7 +458,7 @@ treated
 when
 /
 /
-whitelisted
+allowlisted
 see
 bug
 1382359

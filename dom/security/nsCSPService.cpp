@@ -523,7 +523,7 @@ Finally
 we
 have
 to
-whitelist
+allowlist
 "
 about
 :
@@ -598,7 +598,7 @@ websites
 to
 /
 /
-whitelist
+allowlist
 their
 own
 protocol
@@ -1067,7 +1067,7 @@ flags
 /
 that
 are
-whitelistet
+allowlistet
 in
 subjectToCSP
 (
@@ -2096,7 +2096,7 @@ aWasRedirected
 false
 /
 *
-aEnforceWhitelist
+aEnforceAllowlist
 *
 /
 &
@@ -2183,7 +2183,7 @@ flags
 /
 that
 are
-whitelistet
+allowlistet
 in
 subjectToCSP
 (
