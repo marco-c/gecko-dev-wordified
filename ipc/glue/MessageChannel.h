@@ -3183,8 +3183,10 @@ postponed
 void
 SendMessageToLink
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 )
 ;
