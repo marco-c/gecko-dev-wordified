@@ -197,6 +197,13 @@ puppeteer
 core
 '
 ;
+delete
+json
+.
+scripts
+.
+install
+;
 fs
 .
 writeFileSync

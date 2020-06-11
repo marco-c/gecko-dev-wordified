@@ -210,7 +210,7 @@ api
 .
 md
 /
-ig
+gi
 ;
 const
 lastReleasedAPI
@@ -418,7 +418,7 @@ s
 -
 >
 /
-ig
+gi
 ;
 const
 commandEndRegex
@@ -441,12 +441,13 @@ s
 -
 >
 /
-ig
+gi
 ;
 let
 start
 ;
 while
+(
 (
 start
 =
@@ -455,6 +456,7 @@ commandStartRegex
 exec
 (
 text
+)
 )
 )
 {
@@ -1105,7 +1107,7 @@ z
 -
 ]
 /
-ig
+gi
 '
 '
 )
@@ -1137,11 +1139,9 @@ id
 -
 '
 +
-(
 +
 +
 counter
-)
 ;
 ids
 .
@@ -1184,7 +1184,9 @@ tocEntries
 .
 map
 (
+(
 entry
+)
 =
 >
 entry
@@ -1197,9 +1199,12 @@ tocEntries
 .
 forEach
 (
+(
 entry
+)
 =
 >
+(
 entry
 .
 level
@@ -1207,8 +1212,10 @@ level
 =
 minLevel
 )
+)
 ;
 return
+(
 '
 \
 n
@@ -1218,7 +1225,9 @@ tocEntries
 .
 map
 (
+(
 entry
+)
 =
 >
 {
@@ -1294,5 +1303,6 @@ n
 \
 n
 '
+)
 ;
 }
