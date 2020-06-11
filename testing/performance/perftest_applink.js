@@ -209,7 +209,7 @@ owner
 Performance
 Team
 "
-test_name
+name
 :
 "
 App
@@ -225,7 +225,7 @@ process
 applink
 time
 "
-long_description
+longDescription
 :
 This
 test
@@ -346,7 +346,7 @@ perfherder
 -
 metrics
 processLaunchToNavStart
-supported_browser
+supportedBrowsers
 :
 [
 "
@@ -360,7 +360,7 @@ Geckoview_example
 Fennec
 "
 ]
-platform
+supportedPlatforms
 :
 [
 "

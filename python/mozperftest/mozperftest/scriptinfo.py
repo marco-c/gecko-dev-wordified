@@ -145,7 +145,7 @@ Name
 :
 %
 (
-test_name
+name
 )
 s
 Usage
@@ -159,7 +159,7 @@ Description
 :
 %
 (
-long_description
+longDescription
 )
 s
 "
