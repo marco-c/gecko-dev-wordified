@@ -4717,6 +4717,7 @@ nsITableCellLayout
 *
 GetCellLayout
 (
+const
 nsIContent
 *
 aCellContent
@@ -5329,6 +5330,7 @@ static
 nsresult
 GetCellIndexes
 (
+const
 nsIContent
 *
 aCell
