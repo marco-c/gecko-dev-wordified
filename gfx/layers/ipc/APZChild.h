@@ -241,6 +241,10 @@ IPCResult
 RecvUpdateOverscrollVelocity
 (
 const
+ScrollableLayerGuid
+&
+aGuid
+const
 float
 &
 aX
@@ -263,6 +267,10 @@ ipc
 IPCResult
 RecvUpdateOverscrollOffset
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 const
 float
 &

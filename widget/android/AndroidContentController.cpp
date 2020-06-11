@@ -199,6 +199,10 @@ AndroidContentController
 UpdateOverscrollVelocity
 (
 const
+ScrollableLayerGuid
+&
+aGuid
+const
 float
 aX
 const
@@ -234,6 +238,10 @@ AndroidContentController
 :
 UpdateOverscrollOffset
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 const
 float
 aX

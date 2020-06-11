@@ -1117,6 +1117,10 @@ virtual
 void
 UpdateOverscrollVelocity
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 float
 aX
 float
@@ -1130,6 +1134,10 @@ virtual
 void
 UpdateOverscrollOffset
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 float
 aX
 float

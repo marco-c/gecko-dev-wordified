@@ -361,6 +361,10 @@ override
 void
 UpdateOverscrollVelocity
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 float
 aX
 float
@@ -373,6 +377,10 @@ override
 void
 UpdateOverscrollOffset
 (
+const
+ScrollableLayerGuid
+&
+aGuid
 float
 aX
 float

@@ -314,6 +314,10 @@ APZChild
 RecvUpdateOverscrollVelocity
 (
 const
+ScrollableLayerGuid
+&
+aGuid
+const
 float
 &
 aX
@@ -332,6 +336,7 @@ mController
 >
 UpdateOverscrollVelocity
 (
+aGuid
 aX
 aY
 aIsRootContent
@@ -356,6 +361,10 @@ APZChild
 RecvUpdateOverscrollOffset
 (
 const
+ScrollableLayerGuid
+&
+aGuid
+const
 float
 &
 aX
@@ -374,6 +383,7 @@ mController
 >
 UpdateOverscrollOffset
 (
+aGuid
 aX
 aY
 aIsRootContent
