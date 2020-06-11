@@ -2023,9 +2023,7 @@ I8x16AnyTrue
 I8x16AllTrue
 =
 0x63
-/
-/
-Bitmask
+I8x16Bitmask
 =
 0x64
 I8x16NarrowSI16x8
@@ -2143,9 +2141,7 @@ I16x8AnyTrue
 I16x8AllTrue
 =
 0x83
-/
-/
-Bitmask
+I16x8Bitmask
 =
 0x84
 I16x8NarrowSI32x4
@@ -2253,9 +2249,7 @@ I32x4AnyTrue
 I32x4AllTrue
 =
 0xa3
-/
-/
-Bitmask
+I32x4Bitmask
 =
 0xa4
 /
