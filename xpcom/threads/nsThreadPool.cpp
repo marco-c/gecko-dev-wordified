@@ -3495,10 +3495,9 @@ currentThread
 >
 mRequestedShutdownContexts
 .
-RemoveElementsAt
+RemoveElementAt
 (
 index
-1
 )
 ;
 }
