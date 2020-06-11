@@ -1566,6 +1566,10 @@ emitBytecode
 (
 false
 )
+isStandalone
+(
+false
+)
 wasEmitted
 (
 false
