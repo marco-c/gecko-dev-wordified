@@ -2508,6 +2508,22 @@ branch
 "
 ]
     
+if
+"
+MAR_OLD_FORMAT
+"
+in
+env
+:
+        
+del
+env
+[
+"
+MAR_OLD_FORMAT
+"
+]
+    
 make_incremental_update
 =
 tools_dir
