@@ -666,7 +666,7 @@ printToFile
 async
 function
 (
-frameLoader
+browser
 outerWindowID
 settings
 )
@@ -905,7 +905,7 @@ nsIWebProgressListener
 )
 }
 ;
-frameLoader
+browser
 .
 print
 (
