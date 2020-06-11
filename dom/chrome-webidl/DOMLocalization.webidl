@@ -689,7 +689,7 @@ emailCount
 [
 Throws
 ]
-L10nKey
+L10nIdArgs
 getAttributes
 (
 Element
