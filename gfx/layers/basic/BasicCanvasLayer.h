@@ -295,8 +295,10 @@ mManager
 )
 ;
 }
+RefPtr
+<
 CanvasRenderer
-*
+>
 CreateCanvasRendererInternal
 (
 )

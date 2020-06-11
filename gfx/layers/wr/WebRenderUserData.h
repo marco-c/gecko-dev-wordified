@@ -1592,7 +1592,7 @@ ClearImageContainer
 ;
 protected
 :
-UniquePtr
+RefPtr
 <
 WebRenderCanvasRendererAsync
 >
