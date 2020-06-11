@@ -27863,6 +27863,16 @@ PAINT_RASTERIZE_TIME
 paintStart
 )
 ;
+if
+(
+builder
+-
+>
+IsPaintingToWindow
+(
+)
+)
+{
 presShell
 -
 >
@@ -27870,6 +27880,7 @@ EndPaint
 (
 )
 ;
+}
 builder
 -
 >

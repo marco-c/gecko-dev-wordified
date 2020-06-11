@@ -10683,6 +10683,15 @@ nsLayoutUtils
 PaintFrame
 (
 )
+if
+we
+were
+painting
+to
+/
+/
+the
+widget
 .
 /
 /
