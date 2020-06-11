@@ -790,7 +790,10 @@ mReadIndex
 part1
 )
 ;
+DebugOnly
+<
 int
+>
 ret
 =
 Write
