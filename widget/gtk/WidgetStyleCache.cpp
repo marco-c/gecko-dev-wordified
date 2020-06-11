@@ -3632,7 +3632,7 @@ IsToolbarButtonEnabled
 ButtonLayout
 *
 aButtonLayout
-int
+size_t
 aButtonNums
 WidgetNodeType
 aAppearance
@@ -3640,7 +3640,7 @@ aAppearance
 {
 for
 (
-int
+size_t
 i
 =
 0
@@ -3799,13 +3799,15 @@ buttonLayout
 TOOLBAR_BUTTONS
 ]
 ;
-int
+size_t
 activeButtons
 =
 GetGtkHeaderBarButtonLayout
 (
+MakeSpan
+(
 buttonLayout
-TOOLBAR_BUTTONS
+)
 nullptr
 )
 ;
