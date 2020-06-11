@@ -43067,11 +43067,10 @@ if
 target
 &
 &
-!
 target
 -
 >
-isBuiltinNative
+hasJitEntry
 (
 )
 )
@@ -43246,11 +43245,10 @@ callInfo
 argc
 (
 )
-!
 target
 -
 >
-isBuiltinNative
+hasJitEntry
 (
 )
 )
