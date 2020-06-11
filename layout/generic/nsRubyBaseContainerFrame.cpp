@@ -3304,6 +3304,14 @@ frameWM
 )
 ;
 }
+ReflowAbsoluteFrames
+(
+aPresContext
+aDesiredSize
+aReflowInput
+aStatus
+)
+;
 }
 /
 *

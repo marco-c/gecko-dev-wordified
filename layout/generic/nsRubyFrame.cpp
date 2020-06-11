@@ -1347,6 +1347,14 @@ mLeadings
 )
 ;
 }
+ReflowAbsoluteFrames
+(
+aPresContext
+aDesiredSize
+aReflowInput
+aStatus
+)
+;
 }
 void
 nsRubyFrame
