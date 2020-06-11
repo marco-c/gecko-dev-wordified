@@ -1169,6 +1169,11 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
+Ci
+.
+nsICookie
+.
+SCHEME_HTTPS
 )
 ;
 if
