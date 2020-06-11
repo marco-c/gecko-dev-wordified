@@ -3744,13 +3744,13 @@ args
 :
 [
 {
-outerWindowID
+browsingContextID
 :
 this
 .
 parentActor
 .
-outerWindowID
+browsingContextID
 }
 this
 .

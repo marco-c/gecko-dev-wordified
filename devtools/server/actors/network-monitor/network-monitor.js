@@ -219,7 +219,7 @@ filters
 *
 Contains
 an
-outerWindowID
+browsingContextID
 attribute
 when
 this
