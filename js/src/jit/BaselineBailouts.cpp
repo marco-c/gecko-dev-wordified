@@ -15825,6 +15825,9 @@ Bailout_Debugger
 case
 Bailout_SpecificAtomGuard
 :
+case
+Bailout_SpecificSymbolGuard
+:
 /
 /
 Do
