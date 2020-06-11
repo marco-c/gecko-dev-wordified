@@ -11962,11 +11962,11 @@ Windows
 ScreenSizeStatus
 :
 :
-SmallAndMedium
+All
 BatteryStatus
 :
 :
-Present
+All
 DesktopEnvironment
 :
 :
@@ -12000,7 +12000,7 @@ V
 0
 )
 "
-FEATURE_ROLLOUT_NIGHTLY_BATTERY_INTEL_S_SCRN
+FEATURE_ROLLOUT_EARLY_BETA_INTEL
 "
 )
 ;
