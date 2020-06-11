@@ -392,6 +392,7 @@ Clone
 Copy
 Debug
 Eq
+MallocSizeOf
 PartialEq
 ToCss
 ToResolvedValue
