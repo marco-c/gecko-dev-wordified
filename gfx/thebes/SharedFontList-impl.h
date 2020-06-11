@@ -304,6 +304,9 @@ Pointer
 >
 mFaces
 ;
+nsCString
+mBaseFamily
+;
 uint32_t
 mIndex
 =
@@ -339,8 +342,16 @@ const
 Family
 *
 aFamily
+const
+nsCString
+&
+aBaseFamily
 )
 {
+mBaseFamily
+=
+aBaseFamily
+;
 mIndex
 =
 aFamily
