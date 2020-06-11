@@ -4098,7 +4098,7 @@ adjusted_blur_source_size
 (
 original_size
 :
-DeviceIntSize
+DeviceSize
 mut
 std_dev
 :
@@ -4106,7 +4106,7 @@ DeviceSize
 )
 -
 >
-DeviceIntSize
+DeviceSize
 {
 let
 mut
@@ -4142,6 +4142,8 @@ adjusted_size
 width
 <
 MIN_DOWNSCALING_RT_SIZE
+as
+f32
 |
 |
 adjusted_size
@@ -4149,6 +4151,8 @@ adjusted_size
 height
 <
 MIN_DOWNSCALING_RT_SIZE
+as
+f32
 {
 break
 ;
@@ -4183,17 +4187,11 @@ scale_factor
 ceil
 (
 )
-.
-to_i32
-(
-)
 ;
 }
 adjusted_size
 *
 scale_factor
-as
-i32
 }
 /
 /
