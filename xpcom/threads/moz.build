@@ -377,6 +377,11 @@ TaskCategory
 h
 '
 '
+TaskController
+.
+h
+'
+'
 TaskDispatcher
 .
 h
@@ -538,6 +543,11 @@ cpp
 '
 '
 SynchronizedEventQueue
+.
+cpp
+'
+'
+TaskController
 .
 cpp
 '
