@@ -3411,7 +3411,7 @@ funcIndex
 )
 )
 .
-funcNormalEntry
+funcUncheckedCallEntry
 (
 )
 ;
@@ -5891,7 +5891,7 @@ far
 funcIndex
 )
 .
-funcNormalEntry
+funcUncheckedCallEntry
 (
 )
 )
