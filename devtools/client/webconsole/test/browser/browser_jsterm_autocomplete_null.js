@@ -457,6 +457,12 @@ hud
 message
 .
 error
+:
+not
+(
+.
+network
+)
 "
 )
 )
