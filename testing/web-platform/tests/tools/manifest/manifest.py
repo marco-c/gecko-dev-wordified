@@ -44,15 +44,24 @@ item
 import
 (
 ConformanceCheckerTest
+                   
+CrashTest
+                   
 ManifestItem
+                   
 ManualTest
+                   
+PrintRefTest
+                   
 RefTest
+                   
 SupportFile
                    
 TestharnessTest
+                   
 VisualTest
+                   
 WebDriverSpecTest
-CrashTest
 )
 from
 .
@@ -209,6 +218,14 @@ reftest
 "
 :
 RefTest
+                
+"
+print
+-
+reftest
+"
+:
+PrintRefTest
                 
 "
 crashtest
