@@ -173,17 +173,6 @@ actor
 ;
 /
 /
-Save
-the
-full
-form
-for
-Target
-class
-usage
-.
-/
-/
 Do
 not
 use
@@ -202,7 +191,7 @@ form
 method
 this
 .
-targetForm
+_form
 =
 json
 ;
