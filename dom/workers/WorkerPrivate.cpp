@@ -29822,7 +29822,7 @@ if
 StaticPrefs
 :
 :
-dom_postMessage_sharedArrayBuffer_withCOOP_COEP
+dom_postMessage_sharedArrayBuffer_withCOOP_COEP_AtStartup
 (
 )
 )
