@@ -15472,7 +15472,6 @@ locale
 let
 params
 =
-await
 this
 .
 getEngineParams
@@ -15868,10 +15867,7 @@ locale
 let
 engineParams
 =
-await
-Services
-.
-search
+this
 .
 getEngineParams
 (
