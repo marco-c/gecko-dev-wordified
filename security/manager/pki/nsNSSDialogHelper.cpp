@@ -123,6 +123,13 @@ nsIWindowWatcher
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 static
 const
 char
