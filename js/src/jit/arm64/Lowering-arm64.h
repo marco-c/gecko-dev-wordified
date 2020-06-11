@@ -358,14 +358,6 @@ mir
 )
 ;
 void
-lowerPowOfTwoI
-(
-MPow
-*
-mir
-)
-;
-void
 lowerForALU
 (
 LInstructionHelper
