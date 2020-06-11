@@ -188,7 +188,7 @@ dom
 MediaControlKeysEvent
 :
 :
-ePlay
+eFocus
 mozilla
 :
 :
