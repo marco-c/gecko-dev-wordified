@@ -1684,6 +1684,9 @@ packetsSent
 uint64_t
 *
 bytesSent
+DOMHighResTimeStamp
+*
+aRemoteTimestamp
 )
 =
 0

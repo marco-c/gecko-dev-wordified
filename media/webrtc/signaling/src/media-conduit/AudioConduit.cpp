@@ -1400,6 +1400,9 @@ packetsSent
 uint64_t
 *
 bytesSent
+DOMHighResTimeStamp
+*
+aRemoteTimestamp
 )
 {
 ASSERT_ON_THREAD
@@ -1449,6 +1452,17 @@ bytesSent
 stats
 .
 rtcp_sender_octets_sent
+;
+*
+aRemoteTimestamp
+=
+stats
+.
+rtcp_sender_ntp_timestamp
+.
+ToMs
+(
+)
 ;
 return
 *

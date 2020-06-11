@@ -1948,6 +1948,9 @@ packetsSent
 uint64_t
 *
 bytesSent
+DOMHighResTimeStamp
+*
+aRemoteTimestamp
 )
 override
 ;
@@ -2757,6 +2760,12 @@ Ssrc
 )
 const
 ;
+DOMHighResTimeStamp
+RemoteTimestamp
+(
+)
+const
+;
 void
 Update
 (
@@ -2806,6 +2815,11 @@ mPacketsSent
 ;
 uint32_t
 mSsrc
+=
+0
+;
+DOMHighResTimeStamp
+mRemoteTimestamp
 =
 0
 ;
