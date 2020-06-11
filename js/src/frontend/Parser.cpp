@@ -56547,15 +56547,6 @@ TokenKind
 :
 :
 Name
-|
-|
-tt
-=
-=
-TokenKind
-:
-:
-PrivateName
 )
 {
 return

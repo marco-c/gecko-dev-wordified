@@ -2627,15 +2627,6 @@ TokenKind
 Name
 |
 |
-tt
-=
-=
-TokenKind
-:
-:
-PrivateName
-|
-|
 TokenKindIsContextualKeyword
 (
 tt
