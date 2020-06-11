@@ -102,7 +102,7 @@ identityBox
 .
 className
 "
-unknownIdentity
+localResource
 "
 "
 identity
