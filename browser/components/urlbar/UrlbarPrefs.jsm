@@ -631,7 +631,7 @@ formatting
 .
 enabled
 "
-false
+true
 ]
 /
 /
@@ -1136,7 +1136,7 @@ usepreloadedtopurls
 .
 enabled
 "
-true
+false
 ]
 /
 /
