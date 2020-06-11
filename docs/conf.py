@@ -410,12 +410,6 @@ _templates
 ]
 source_suffix
 =
-'
-.
-rst
-'
-source_suffix
-=
 [
 '
 .
@@ -720,7 +714,7 @@ enable_eval_rst
 '
 :
 True
-            
+        
 }
 True
 )
