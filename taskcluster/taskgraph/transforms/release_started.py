@@ -74,6 +74,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+os
 from
 pipes
 import
@@ -297,29 +299,21 @@ address
 address
 ]
         
+if
+'
+TASK_ID
+'
+in
+os
+.
+environ
+:
+            
 command
 +
 =
 [
-            
-#
-We
-wrap
-this
-in
-{
-'
-task
--
-reference
-'
-:
-.
-.
-.
-}
-below
-            
+                
 '
 -
 -
@@ -329,12 +323,15 @@ group
 -
 id
 '
+os
+.
+environ
+[
 '
-<
-decision
->
+TASK_ID
 '
-        
+]
+            
 ]
         
 job
@@ -395,13 +392,6 @@ mach
 mach
 '
 :
-{
-'
-task
--
-reference
-'
-:
 '
 '
 .
@@ -413,7 +403,6 @@ shell_quote
 command
 )
 )
-}
         
 }
         

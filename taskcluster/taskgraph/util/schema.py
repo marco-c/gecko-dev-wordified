@@ -1015,18 +1015,6 @@ elif
 isinstance
 (
 k
-voluptuous
-.
-NotIn
-)
-:
-                
-pass
-            
-elif
-isinstance
-(
-k
 text_type
 )
 :
@@ -1107,14 +1095,9 @@ elif
 isinstance
 (
 k
-(
 voluptuous
 .
 Any
-voluptuous
-.
-All
-)
 )
 :
                 

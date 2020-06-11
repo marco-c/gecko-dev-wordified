@@ -1380,8 +1380,6 @@ params
 to_run
                                                                 
 label_to_taskid
-                                                                
-decision_task_id
 )
     
 write_artifact
