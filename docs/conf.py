@@ -297,6 +297,10 @@ mermaid
 '
 recommonmark
 '
+    
+'
+sphinx_copybutton
+'
 ]
 #
 JSDoc
