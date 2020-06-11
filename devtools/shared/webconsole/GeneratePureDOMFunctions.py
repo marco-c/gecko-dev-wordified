@@ -444,6 +444,11 @@ filepath
 '
 r
 '
+encoding
+=
+"
+utf8
+"
 )
 as
 f
