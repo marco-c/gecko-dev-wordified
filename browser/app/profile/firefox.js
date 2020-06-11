@@ -16414,7 +16414,7 @@ discoverystream
 .
 isCollectionDismissible
 "
-false
+true
 )
 ;
 /
