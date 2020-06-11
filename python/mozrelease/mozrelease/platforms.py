@@ -64,6 +64,8 @@ ftp
 update
 platform
 map
+import
+six
 update_platform_map
 =
 {
@@ -527,10 +529,11 @@ for
 k
 v
 in
-sl_platform_map
+six
 .
 iteritems
 (
+sl_platform_map
 )
 if
 v

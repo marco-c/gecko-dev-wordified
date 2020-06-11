@@ -17,7 +17,13 @@ re
 import
 sys
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urljoin
 from
@@ -2863,6 +2869,7 @@ read
 .
 split
 (
+b
 "
 =
 "
@@ -2873,6 +2880,15 @@ split
 .
 strip
 (
+)
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
             
 branch
@@ -2970,6 +2986,15 @@ read
 strip
 (
 )
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
             
 app_version_url
 =
@@ -3041,9 +3066,20 @@ WARNING
 read
 (
 )
+\
+                
 .
 strip
 (
+)
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
             
 self
@@ -3673,6 +3709,8 @@ to_shipped_locales_url
 WARNING
 "
 )
+\
+            
 .
 read
 (
@@ -3680,6 +3718,15 @@ read
 .
 strip
 (
+)
+.
+decode
+(
+"
+utf
+-
+8
+"
 )
         
 to_locales
@@ -4377,6 +4424,24 @@ self
 )
 :
         
+#
+Needs
+to
+be
+opened
+in
+"
+bytes
+"
+mode
+because
+we
+perform
+relative
+seeks
+on
+it
+        
 with
 open
 (
@@ -4389,7 +4454,7 @@ output_file
 "
 ]
 "
-w
+wb
 +
 "
 )

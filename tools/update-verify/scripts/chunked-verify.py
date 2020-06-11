@@ -391,6 +391,24 @@ mkstemp
 (
 )
     
+#
+Needs
+to
+be
+opened
+in
+"
+bytes
+"
+mode
+because
+we
+perform
+relative
+seeks
+on
+it
+    
 fh
 =
 os
@@ -399,7 +417,7 @@ fdopen
 (
 fd
 "
-w
+wb
 "
 )
     
