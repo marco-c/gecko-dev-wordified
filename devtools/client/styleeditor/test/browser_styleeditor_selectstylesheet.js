@@ -118,8 +118,6 @@ selectStyleSheet
 editor
 .
 styleSheet
-.
-href
 LINE_NO
 )
 ;

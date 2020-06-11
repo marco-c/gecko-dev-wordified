@@ -546,10 +546,14 @@ stylesheet
 param
 {
 string
+|
+StyleSheetFront
 }
 href
 *
 Url
+or
+front
 of
 stylesheet
 to
@@ -558,6 +562,7 @@ and
 select
 in
 editor
+.
 *
 param
 {

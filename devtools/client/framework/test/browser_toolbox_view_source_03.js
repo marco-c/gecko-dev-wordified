@@ -90,7 +90,7 @@ fileFound
 await
 toolbox
 .
-viewSourceInStyleEditor
+viewSourceInStyleEditorByURL
 (
 CSS_URL
 2
@@ -100,7 +100,7 @@ ok
 (
 fileFound
 "
-viewSourceInStyleEditor
+viewSourceInStyleEditorByURL
 should
 resolve
 to
