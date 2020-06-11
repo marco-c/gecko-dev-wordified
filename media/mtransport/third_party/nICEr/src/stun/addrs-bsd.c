@@ -350,7 +350,9 @@ flags
 =
 ifr6
 .
-ifr_flags
+ifr_ifru
+.
+ifru_flags6
 ;
 }
 else
