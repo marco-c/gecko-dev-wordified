@@ -7497,7 +7497,7 @@ contextUrl
 &
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 matches
 (

@@ -826,7 +826,7 @@ if
 !
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 subsumes
 (

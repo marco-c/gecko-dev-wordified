@@ -695,7 +695,7 @@ MatchPatternSet
 .
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .

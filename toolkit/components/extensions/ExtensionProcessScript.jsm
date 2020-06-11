@@ -1378,7 +1378,7 @@ allowedOrigins
 :
 extension
 .
-whiteListedHosts
+allowedOrigins
 webAccessibleResources
 :
 extension
