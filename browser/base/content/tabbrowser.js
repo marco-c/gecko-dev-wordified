@@ -18382,6 +18382,11 @@ filter
 t
 =
 >
+t
+.
+isConnected
+&
+&
 !
 t
 .
