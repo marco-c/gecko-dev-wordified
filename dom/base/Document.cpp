@@ -98960,7 +98960,7 @@ Request
 self
 -
 >
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 )
 -
@@ -98979,7 +98979,7 @@ inner
 ]
 (
 const
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 :
 :
 ResolveOrRejectValue
@@ -99396,12 +99396,12 @@ RefPtr
 Document
 :
 :
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 >
 Document
 :
 :
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 )
 {
@@ -99472,7 +99472,7 @@ return
 cc
 -
 >
-SendAutomaticStorageAccessCanBeGranted
+SendAutomaticStorageAccessPermissionCanBeGranted
 (
 IPC
 :
@@ -99499,7 +99499,7 @@ const
 ContentChild
 :
 :
-AutomaticStorageAccessCanBeGrantedPromise
+AutomaticStorageAccessPermissionCanBeGrantedPromise
 :
 :
 ResolveOrRejectValue
@@ -99517,7 +99517,7 @@ IsResolve
 )
 {
 return
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
@@ -99532,7 +99532,7 @@ __func__
 ;
 }
 return
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -99565,12 +99565,12 @@ compute
 this
 .
 return
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
 (
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 NodePrincipal
 (
@@ -99581,7 +99581,7 @@ __func__
 ;
 }
 return
-AutomaticStorageAccessGrantPromise
+AutomaticStorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -99595,7 +99595,7 @@ bool
 Document
 :
 :
-AutomaticStorageAccessCanBeGranted
+AutomaticStorageAccessPermissionCanBeGranted
 (
 nsIPrincipal
 *

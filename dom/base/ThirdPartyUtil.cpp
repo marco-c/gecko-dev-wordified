@@ -3614,7 +3614,7 @@ result
 ThirdPartyAnalysis
 :
 :
-IsFirstPartyStorageAccessGranted
+IsStorageAccessPermissionGranted
 ;
 }
 if
@@ -3630,7 +3630,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsFirstPartyStorageAccessGranted
+IsStorageAccessPermissionGranted
 )
 )
 {
