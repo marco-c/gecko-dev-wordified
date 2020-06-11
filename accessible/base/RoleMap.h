@@ -86,6 +86,7 @@ geckoRole
 stringRole
 atkRole
 macRole
+macSubrole
 msaaRole
 ia2Role
 nameRule
@@ -100,6 +101,7 @@ nothing
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_UNKNOWN
 java
@@ -131,6 +133,7 @@ are
 always
 native
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TITLEBAR
 ROLE_SYSTEM_TITLEBAR
 java
@@ -171,6 +174,7 @@ of
 the
 screen
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUBAR
 ROLE_SYSTEM_MENUBAR
 java
@@ -214,6 +218,7 @@ up
 buttons
 )
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_SCROLLBAR
 ROLE_SYSTEM_SCROLLBAR
 java
@@ -233,6 +238,7 @@ grip
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilitySplitterRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GRIP
 ROLE_SYSTEM_GRIP
 java
@@ -259,6 +265,7 @@ on
 OS
 X
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_SOUND
 ROLE_SYSTEM_SOUND
 java
@@ -285,6 +292,7 @@ on
 OS
 X
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CURSOR
 ROLE_SYSTEM_CURSOR
 java
@@ -311,6 +319,7 @@ on
 OS
 X
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CARET
 ROLE_SYSTEM_CARET
 java
@@ -330,6 +339,9 @@ alert
 "
 ATK_ROLE_ALERT
 NSAccessibilityGroupRole
+"
+AXApplicationAlert
+"
 ROLE_SYSTEM_ALERT
 ROLE_SYSTEM_ALERT
 java
@@ -365,6 +377,7 @@ by
 the
 system
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_WINDOW
 ROLE_SYSTEM_WINDOW
 java
@@ -385,6 +398,7 @@ frame
 "
 ATK_ROLE_INTERNAL_FRAME
 NSAccessibilityScrollAreaRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_INTERNAL_FRAME
 java
@@ -411,6 +425,7 @@ parent
 of
 menuitems
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUPOPUP
 ROLE_SYSTEM_MENUPOPUP
 java
@@ -430,6 +445,7 @@ menuitem
 "
 ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUITEM
 ROLE_SYSTEM_MENUITEM
 java
@@ -448,24 +464,10 @@ TOOLTIP
 tooltip
 "
 ATK_ROLE_TOOL_TIP
+NSAccessibilityHelpTagRole
 "
-AXHelpTag
+AXUserInterfaceTooltip
 "
-/
-/
-10
-.
-4
-+
-only
-so
-we
-re
--
-define
-the
-constant
-.
 ROLE_SYSTEM_TOOLTIP
 ROLE_SYSTEM_TOOLTIP
 java
@@ -500,6 +502,9 @@ care
 of
 this
 .
+"
+AXLandmarkApplication
+"
 ROLE_SYSTEM_APPLICATION
 ROLE_SYSTEM_APPLICATION
 java
@@ -521,6 +526,7 @@ ATK_ROLE_DOCUMENT_WEB
 "
 AXWebArea
 "
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DOCUMENT
 ROLE_SYSTEM_DOCUMENT
 java
@@ -615,6 +621,7 @@ pane
 "
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -634,6 +641,7 @@ chart
 "
 ATK_ROLE_CHART
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CHART
 ROLE_SYSTEM_CHART
 java
@@ -662,6 +670,7 @@ a
 dialog
 subrole
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DIALOG
 ROLE_SYSTEM_DIALOG
 java
@@ -688,6 +697,7 @@ on
 OS
 X
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_BORDER
 ROLE_SYSTEM_BORDER
 java
@@ -707,6 +717,7 @@ grouping
 "
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -726,6 +737,9 @@ separator
 "
 ATK_ROLE_SEPARATOR
 NSAccessibilitySplitterRole
+"
+AXContentSeparator
+"
 ROLE_SYSTEM_SEPARATOR
 ROLE_SYSTEM_SEPARATOR
 java
@@ -745,6 +759,7 @@ toolbar
 "
 ATK_ROLE_TOOL_BAR
 NSAccessibilityToolbarRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TOOLBAR
 ROLE_SYSTEM_TOOLBAR
 java
@@ -764,6 +779,9 @@ statusbar
 "
 ATK_ROLE_STATUSBAR
 NSAccessibilityGroupRole
+"
+AXApplicationStatus
+"
 ROLE_SYSTEM_STATUSBAR
 ROLE_SYSTEM_STATUSBAR
 java
@@ -783,6 +801,7 @@ table
 "
 ATK_ROLE_TABLE
 NSAccessibilityTableRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TABLE
 ROLE_SYSTEM_TABLE
 java
@@ -802,6 +821,7 @@ columnheader
 "
 ATK_ROLE_COLUMN_HEADER
 NSAccessibilityCellRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_COLUMNHEADER
 ROLE_SYSTEM_COLUMNHEADER
 java
@@ -821,6 +841,7 @@ rowheader
 "
 ATK_ROLE_ROW_HEADER
 NSAccessibilityCellRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_ROWHEADER
 ROLE_SYSTEM_ROWHEADER
 java
@@ -840,6 +861,7 @@ column
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityColumnRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_COLUMN
 ROLE_SYSTEM_COLUMN
 java
@@ -859,6 +881,7 @@ row
 "
 ATK_ROLE_TABLE_ROW
 NSAccessibilityRowRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_ROW
 ROLE_SYSTEM_ROW
 java
@@ -878,6 +901,7 @@ cell
 "
 ATK_ROLE_TABLE_CELL
 NSAccessibilityCellRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
 java
@@ -896,32 +920,8 @@ LINK
 link
 "
 ATK_ROLE_LINK
-"
-AXLink
-"
-/
-/
-10
-.
-4
-+
-the
-attr
-first
-define
-in
-SDK
-10
-.
-4
-so
-we
-define
-it
-here
-too
-.
-ROLE_LINK
+NSAccessibilityLinkRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LINK
 ROLE_SYSTEM_LINK
 java
@@ -940,9 +940,8 @@ HELPBALLOON
 helpballoon
 "
 ATK_ROLE_UNKNOWN
-"
-AXHelpTag
-"
+NSAccessibilityHelpTagRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_HELPBALLOON
 ROLE_SYSTEM_HELPBALLOON
 java
@@ -969,6 +968,7 @@ on
 OS
 X
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CHARACTER
 ROLE_SYSTEM_CHARACTER
 java
@@ -988,6 +988,7 @@ list
 "
 ATK_ROLE_LIST
 NSAccessibilityListRole
+NSAccessibilityContentListSubrole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
 java
@@ -1007,6 +1008,7 @@ listitem
 "
 ATK_ROLE_LIST_ITEM
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -1026,6 +1028,7 @@ outline
 "
 ATK_ROLE_TREE
 NSAccessibilityOutlineRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_OUTLINE
 ROLE_SYSTEM_OUTLINE
 java
@@ -1045,6 +1048,7 @@ outlineitem
 "
 ATK_ROLE_TREE_ITEM
 NSAccessibilityRowRole
+NSAccessibilityOutlineRowSubrole
 ROLE_SYSTEM_OUTLINEITEM
 ROLE_SYSTEM_OUTLINEITEM
 java
@@ -1064,6 +1068,20 @@ pagetab
 "
 ATK_ROLE_PAGE_TAB
 NSAccessibilityRadioButtonRole
+"
+AXTabButton
+"
+/
+/
+Can
+be
+upgraded
+to
+NSAccessibilityTabButtonSubrole
+in
+10
+.
+13
 ROLE_SYSTEM_PAGETAB
 ROLE_SYSTEM_PAGETAB
 java
@@ -1083,6 +1101,9 @@ propertypage
 "
 ATK_ROLE_SCROLL_PANE
 NSAccessibilityGroupRole
+"
+AXTabPanel
+"
 ROLE_SYSTEM_PROPERTYPAGE
 ROLE_SYSTEM_PROPERTYPAGE
 java
@@ -1102,6 +1123,7 @@ indicator
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_INDICATOR
 ROLE_SYSTEM_INDICATOR
 java
@@ -1121,6 +1143,7 @@ graphic
 "
 ATK_ROLE_IMAGE
 NSAccessibilityImageRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
 java
@@ -1140,6 +1163,7 @@ statictext
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityStaticTextRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_STATICTEXT
 ROLE_SYSTEM_STATICTEXT
 java
@@ -1160,6 +1184,7 @@ leaf
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityStaticTextRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
 java
@@ -1179,6 +1204,7 @@ pushbutton
 "
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PUSHBUTTON
 ROLE_SYSTEM_PUSHBUTTON
 java
@@ -1198,6 +1224,7 @@ checkbutton
 "
 ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CHECKBUTTON
 ROLE_SYSTEM_CHECKBUTTON
 java
@@ -1217,6 +1244,7 @@ radiobutton
 "
 ATK_ROLE_RADIO_BUTTON
 NSAccessibilityRadioButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_RADIOBUTTON
 ROLE_SYSTEM_RADIOBUTTON
 java
@@ -1254,6 +1282,7 @@ combobox
 "
 ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
 java
@@ -1273,6 +1302,7 @@ droplist
 "
 ATK_ROLE_COMBO_BOX
 NSAccessibilityPopUpButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DROPLIST
 ROLE_SYSTEM_DROPLIST
 java
@@ -1292,6 +1322,7 @@ progressbar
 "
 ATK_ROLE_PROGRESS_BAR
 NSAccessibilityProgressIndicatorRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PROGRESSBAR
 ROLE_SYSTEM_PROGRESSBAR
 java
@@ -1311,6 +1342,7 @@ dial
 "
 ATK_ROLE_DIAL
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DIAL
 ROLE_SYSTEM_DIAL
 java
@@ -1330,6 +1362,7 @@ hotkeyfield
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_HOTKEYFIELD
 ROLE_SYSTEM_HOTKEYFIELD
 java
@@ -1349,6 +1382,7 @@ slider
 "
 ATK_ROLE_SLIDER
 NSAccessibilitySliderRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_SLIDER
 ROLE_SYSTEM_SLIDER
 java
@@ -1376,6 +1410,7 @@ Increment
 /
 Decrement
 .
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_SPINBUTTON
 ROLE_SYSTEM_SPINBUTTON
 java
@@ -1395,6 +1430,7 @@ diagram
 "
 ATK_ROLE_IMAGE
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DIAGRAM
 ROLE_SYSTEM_DIAGRAM
 java
@@ -1414,6 +1450,9 @@ animation
 "
 ATK_ROLE_ANIMATION
 NSAccessibilityUnknownRole
+"
+AXApplicationMarquee
+"
 ROLE_SYSTEM_ANIMATION
 ROLE_SYSTEM_ANIMATION
 java
@@ -1433,6 +1472,7 @@ equation
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
 java
@@ -1452,6 +1492,7 @@ buttondropdown
 "
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityPopUpButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_BUTTONDROPDOWN
 ROLE_SYSTEM_BUTTONDROPDOWN
 java
@@ -1471,6 +1512,7 @@ buttonmenu
 "
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityMenuButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_BUTTONMENU
 ROLE_SYSTEM_BUTTONMENU
 java
@@ -1490,6 +1532,7 @@ buttondropdowngrid
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_BUTTONDROPDOWNGRID
 ROLE_SYSTEM_BUTTONDROPDOWNGRID
 java
@@ -1509,6 +1552,7 @@ whitespace
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_WHITESPACE
 ROLE_SYSTEM_WHITESPACE
 java
@@ -1528,6 +1572,7 @@ pagetablist
 "
 ATK_ROLE_PAGE_TAB_LIST
 NSAccessibilityTabGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PAGETABLIST
 ROLE_SYSTEM_PAGETABLIST
 java
@@ -1553,6 +1598,7 @@ Unused
 on
 OS
 X
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CLOCK
 ROLE_SYSTEM_CLOCK
 java
@@ -1572,6 +1618,7 @@ splitbutton
 "
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_SPLITBUTTON
 ROLE_SYSTEM_SPLITBUTTON
 java
@@ -1591,6 +1638,7 @@ ipaddress
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_IPADDRESS
 ROLE_SYSTEM_IPADDRESS
 java
@@ -1611,6 +1659,7 @@ label
 "
 ATK_ROLE_ACCEL_LABEL
 NSAccessibilityStaticTextRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_STATICTEXT
 ROLE_SYSTEM_STATICTEXT
 java
@@ -1630,6 +1679,7 @@ arrow
 "
 ATK_ROLE_ARROW
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_INDICATOR
 ROLE_SYSTEM_INDICATOR
 java
@@ -1649,6 +1699,7 @@ canvas
 "
 ATK_ROLE_CANVAS
 NSAccessibilityImageRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_CANVAS
 java
@@ -1670,6 +1721,7 @@ item
 "
 ATK_ROLE_CHECK_MENU_ITEM
 NSAccessibilityMenuItemRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_CHECK_MENU_ITEM
 java
@@ -1690,6 +1742,7 @@ chooser
 "
 ATK_ROLE_COLOR_CHOOSER
 NSAccessibilityColorWellRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_DIALOG
 IA2_ROLE_COLOR_CHOOSER
 java
@@ -1710,6 +1763,7 @@ editor
 "
 ATK_ROLE_DATE_EDITOR
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_DATE_EDITOR
 java
@@ -1730,6 +1784,7 @@ icon
 "
 ATK_ROLE_DESKTOP_ICON
 NSAccessibilityImageRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_DESKTOP_ICON
 java
@@ -1750,6 +1805,7 @@ frame
 "
 ATK_ROLE_DESKTOP_FRAME
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_DESKTOP_PANE
 java
@@ -1770,6 +1826,7 @@ pane
 "
 ATK_ROLE_DIRECTORY_PANE
 NSAccessibilityBrowserRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_DIRECTORY_PANE
 java
@@ -1796,6 +1853,7 @@ Unused
 on
 OS
 X
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_FILE_CHOOSER
 java
@@ -1816,6 +1874,7 @@ chooser
 "
 ATK_ROLE_FONT_CHOOSER
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_FONT_CHOOSER
 java
@@ -1843,6 +1902,7 @@ the
 main
 Firefox
 UI
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_APPLICATION
 IA2_ROLE_FRAME
 java
@@ -1863,6 +1923,7 @@ pane
 "
 ATK_ROLE_GLASS_PANE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_GLASS_PANE
 java
@@ -1883,6 +1944,7 @@ container
 "
 ATK_ROLE_HTML_CONTAINER
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_UNKNOWN
 java
@@ -1902,6 +1964,7 @@ icon
 "
 ATK_ROLE_ICON
 NSAccessibilityImageRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PUSHBUTTON
 IA2_ROLE_ICON
 java
@@ -1921,6 +1984,7 @@ label
 "
 ATK_ROLE_LABEL
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_STATICTEXT
 IA2_ROLE_LABEL
 java
@@ -1941,6 +2005,7 @@ pane
 "
 ATK_ROLE_LAYERED_PANE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_LAYERED_PANE
 java
@@ -1961,6 +2026,7 @@ pane
 "
 ATK_ROLE_OPTION_PANE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_OPTION_PANE
 java
@@ -1981,6 +2047,7 @@ text
 "
 ATK_ROLE_PASSWORD_TEXT
 NSAccessibilityTextFieldRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
 java
@@ -2004,6 +2071,7 @@ NSAccessibilityUnknownRole
 /
 /
 Unused
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUPOPUP
 ROLE_SYSTEM_MENUPOPUP
 java
@@ -2025,6 +2093,7 @@ item
 "
 ATK_ROLE_RADIO_MENU_ITEM
 NSAccessibilityMenuItemRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_RADIO_MENU_ITEM
 java
@@ -2045,6 +2114,7 @@ pane
 "
 ATK_ROLE_ROOT_PANE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_ROOT_PANE
 java
@@ -2065,6 +2135,7 @@ pane
 "
 ATK_ROLE_SCROLL_PANE
 NSAccessibilityScrollAreaRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_SCROLL_PANE
 java
@@ -2085,6 +2156,7 @@ pane
 "
 ATK_ROLE_SPLIT_PANE
 NSAccessibilitySplitGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_SPLIT_PANE
 java
@@ -2106,6 +2178,7 @@ header
 "
 ATK_ROLE_TABLE_COLUMN_HEADER
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_COLUMNHEADER
 ROLE_SYSTEM_COLUMNHEADER
 java
@@ -2127,6 +2200,7 @@ header
 "
 ATK_ROLE_TABLE_ROW_HEADER
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_ROWHEADER
 ROLE_SYSTEM_ROWHEADER
 java
@@ -2149,6 +2223,7 @@ item
 "
 ATK_ROLE_TEAR_OFF_MENU_ITEM
 NSAccessibilityMenuItemRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUITEM
 IA2_ROLE_TEAR_OFF_MENU
 java
@@ -2168,6 +2243,7 @@ terminal
 "
 ATK_ROLE_TERMINAL
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_TERMINAL
 java
@@ -2188,6 +2264,7 @@ container
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_TEXT_FRAME
 java
@@ -2208,6 +2285,7 @@ button
 "
 ATK_ROLE_TOGGLE_BUTTON
 NSAccessibilityCheckBoxRole
+NSAccessibilityToggleSubrole
 ROLE_SYSTEM_PUSHBUTTON
 IA2_ROLE_TOGGLE_BUTTON
 java
@@ -2228,6 +2306,7 @@ table
 "
 ATK_ROLE_TREE_TABLE
 NSAccessibilityTableRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_OUTLINE
 ROLE_SYSTEM_OUTLINE
 java
@@ -2247,6 +2326,7 @@ viewport
 "
 ATK_ROLE_VIEWPORT
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PANE
 IA2_ROLE_VIEW_PORT
 java
@@ -2266,6 +2346,7 @@ header
 "
 ATK_ROLE_HEADER
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_HEADER
 java
@@ -2285,6 +2366,7 @@ footer
 "
 ATK_ROLE_FOOTER
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_FOOTER
 java
@@ -2304,6 +2386,7 @@ paragraph
 "
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_PARAGRAPH
 java
@@ -2322,24 +2405,8 @@ RULER
 ruler
 "
 ATK_ROLE_RULER
-"
-AXRuler
-"
-/
-/
-10
-.
-4
-+
-only
-so
-we
-re
--
-define
-the
-constant
-.
+NSAccessibilityRulerRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_RULER
 java
@@ -2359,6 +2426,7 @@ autocomplete
 "
 ATK_ROLE_AUTOCOMPLETE
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
 java
@@ -2378,6 +2446,7 @@ editbar
 "
 ATK_ROLE_EDITBAR
 NSAccessibilityTextFieldRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TEXT
 IA2_ROLE_EDITBAR
 java
@@ -2397,6 +2466,7 @@ entry
 "
 ATK_ROLE_ENTRY
 NSAccessibilityTextFieldRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_TEXT
 ROLE_SYSTEM_TEXT
 java
@@ -2416,6 +2486,7 @@ caption
 "
 ATK_ROLE_CAPTION
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_CAPTION
 java
@@ -2438,6 +2509,9 @@ document
 "
 ATK_ROLE_DOCUMENT_FRAME
 NSAccessibilityGroupRole
+"
+AXDocument
+"
 ROLE_SYSTEM_DOCUMENT
 ROLE_SYSTEM_DOCUMENT
 java
@@ -2459,6 +2533,7 @@ ATK_ROLE_HEADING
 "
 AXHeading
 "
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_HEADING
 java
@@ -2478,6 +2553,7 @@ page
 "
 ATK_ROLE_PAGE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_PAGE
 java
@@ -2497,6 +2573,7 @@ section
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_SECTION
 java
@@ -2517,6 +2594,7 @@ object
 "
 ATK_ROLE_REDUNDANT_OBJECT
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_REDUNDANT_OBJECT
 java
@@ -2536,6 +2614,7 @@ form
 "
 ATK_ROLE_FORM
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_FORM
 java
@@ -2555,6 +2634,7 @@ ime
 "
 ATK_ROLE_INPUT_METHOD_WINDOW
 NSAccessibilityUnknownRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_INPUT_METHOD_WINDOW
 java
@@ -2581,6 +2661,7 @@ Unused
 on
 OS
 X
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_APPLICATION
 ROLE_SYSTEM_APPLICATION
 java
@@ -2601,6 +2682,7 @@ menuitem
 "
 ATK_ROLE_MENU
 NSAccessibilityMenuItemRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_MENUITEM
 ROLE_SYSTEM_MENUITEM
 java
@@ -2620,6 +2702,7 @@ calendar
 "
 ATK_ROLE_CALENDAR
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CLIENT
 ROLE_SYSTEM_CLIENT
 java
@@ -2640,6 +2723,7 @@ list
 "
 ATK_ROLE_MENU
 NSAccessibilityMenuRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
 java
@@ -2660,6 +2744,7 @@ option
 "
 ATK_ROLE_MENU_ITEM
 NSAccessibilityMenuItemRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -2682,6 +2767,7 @@ ATK_ROLE_IMAGE
 "
 AXImageMap
 "
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
 java
@@ -2702,6 +2788,7 @@ option
 "
 ATK_ROLE_LIST_ITEM
 NSAccessibilityStaticTextRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -2723,6 +2810,7 @@ option
 "
 ATK_ROLE_LIST_ITEM
 NSAccessibilityRowRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -2742,6 +2830,7 @@ listbox
 "
 ATK_ROLE_LIST_BOX
 NSAccessibilityListRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
 java
@@ -2762,6 +2851,9 @@ equation
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityUnknownRole
+"
+AXDocumentMath
+"
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
 java
@@ -2781,6 +2873,7 @@ gridcell
 "
 ATK_ROLE_TABLE_CELL
 NSAccessibilityCellRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
 java
@@ -2801,6 +2894,7 @@ object
 "
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_EMBEDDED_OBJECT
 java
@@ -2820,6 +2914,9 @@ note
 "
 ATK_ROLE_COMMENT
 NSAccessibilityGroupRole
+"
+AXDocumentNote
+"
 USE_ROLE_STRING
 IA2_ROLE_NOTE
 java
@@ -2839,6 +2936,7 @@ figure
 "
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -2860,6 +2958,7 @@ option
 "
 ATK_ROLE_CHECK_BOX
 NSAccessibilityCheckBoxRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_CHECKBUTTON
 ROLE_SYSTEM_CHECKBUTTON
 java
@@ -2879,6 +2978,7 @@ definitionlist
 "
 ATK_ROLE_LIST
 NSAccessibilityListRole
+NSAccessibilityDefinitionListSubrole
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
 java
@@ -2898,6 +2998,9 @@ term
 "
 ATK_ROLE_DESCRIPTION_TERM
 NSAccessibilityGroupRole
+"
+AXTerm
+"
 ROLE_SYSTEM_LISTITEM
 ROLE_SYSTEM_LISTITEM
 java
@@ -2917,6 +3020,9 @@ definition
 "
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
+"
+AXDefinition
+"
 USE_ROLE_STRING
 IA2_ROLE_PARAGRAPH
 java
@@ -2936,6 +3042,7 @@ key
 "
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_PUSHBUTTON
 ROLE_SYSTEM_PUSHBUTTON
 java
@@ -2955,6 +3062,7 @@ switch
 "
 ATK_ROLE_TOGGLE_BUTTON
 NSAccessibilityCheckBoxRole
+NSAccessibilitySwitchSubrole
 ROLE_SYSTEM_CHECKBUTTON
 IA2_ROLE_TOGGLE_BUTTON
 java
@@ -2974,6 +3082,9 @@ math
 "
 ATK_ROLE_MATH
 NSAccessibilityGroupRole
+"
+AXDocumentMath
+"
 ROLE_SYSTEM_EQUATION
 ROLE_SYSTEM_EQUATION
 java
@@ -2994,6 +3105,9 @@ identifier
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+"
+AXMathIdentifier
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3014,6 +3128,9 @@ number
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+"
+AXMathNumber
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3034,6 +3151,84 @@ operator
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+"
+AXMathOperator
+"
+/
+/
+XXX
+:
+NSAccessibility
+also
+uses
+subroles
+AXMathSeparatorOperator
+and
+/
+/
+AXMathFenceOperator
+.
+We
+should
+use
+the
+NS_MATHML_OPERATOR_FENCE
+and
+/
+/
+NS_MATHML_OPERATOR_SEPARATOR
+bits
+of
+nsOperatorFlags
+but
+currently
+they
+/
+/
+are
+only
+available
+from
+the
+MathML
+layout
+code
+.
+Hence
+we
+just
+fallback
+/
+/
+to
+subrole
+AXMathOperator
+for
+now
+.
+/
+/
+XXX
+bug
+1175747
+WebKit
+also
+creates
+anonymous
+operators
+for
+<
+mfenced
+>
+/
+/
+which
+have
+subroles
+AXMathSeparatorOperator
+and
+AXMathFenceOperator
+.
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3054,6 +3249,9 @@ text
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+"
+AXMathRoot
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3075,6 +3273,7 @@ literal
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3095,6 +3294,7 @@ glyph
 "
 ATK_ROLE_IMAGE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3115,6 +3315,9 @@ row
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathRow
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3135,6 +3338,9 @@ fraction
 "
 ATK_ROLE_MATH_FRACTION
 NSAccessibilityGroupRole
+"
+AXMathFraction
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3156,6 +3362,9 @@ root
 "
 ATK_ROLE_MATH_ROOT
 NSAccessibilityGroupRole
+"
+AXMathSquareRoot
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3176,6 +3385,9 @@ root
 "
 ATK_ROLE_MATH_ROOT
 NSAccessibilityGroupRole
+"
+AXMathRoot
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3196,6 +3408,42 @@ fenced
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathFenced
+"
+/
+/
+XXX
+bug
+1176970
+This
+should
+be
+AXMathFence
+but
+doing
+so
+without
+implementing
+the
+whole
+fence
+interface
+seems
+to
+make
+VoiceOver
+crash
+so
+we
+present
+it
+as
+a
+row
+for
+now
+.
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3216,6 +3464,7 @@ enclosed
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3236,6 +3485,9 @@ style
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathRow
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3256,6 +3508,9 @@ sub
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathSubscriptSuperscript
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3276,6 +3531,9 @@ sup
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathSubscriptSuperscript
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3297,6 +3555,9 @@ sup
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathSubscriptSuperscript
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3317,6 +3578,9 @@ under
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathUnderOver
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3337,6 +3601,9 @@ over
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathUnderOver
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3358,6 +3625,9 @@ over
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathUnderOver
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3378,6 +3648,9 @@ multiscripts
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathMultiscript
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3398,6 +3671,9 @@ table
 "
 ATK_ROLE_TABLE
 NSAccessibilityGroupRole
+"
+AXMathTable
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3419,6 +3695,7 @@ row
 "
 ATK_ROLE_TABLE_ROW
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3440,6 +3717,9 @@ row
 "
 ATK_ROLE_TABLE_ROW
 NSAccessibilityGroupRole
+"
+AXMathTableRow
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3460,6 +3740,9 @@ cell
 "
 ATK_ROLE_TABLE_CELL
 NSAccessibilityGroupRole
+"
+AXMathTableCell
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3480,6 +3763,7 @@ action
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3500,6 +3784,9 @@ error
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXMathRow
+"
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3520,6 +3807,7 @@ stack
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3541,6 +3829,7 @@ division
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3562,6 +3851,7 @@ group
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3583,6 +3873,7 @@ row
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3604,6 +3895,7 @@ carries
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3625,6 +3917,7 @@ carry
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3646,6 +3939,7 @@ line
 "
 ATK_ROLE_UNKNOWN
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 0
 IA2_ROLE_UNKNOWN
 java
@@ -3665,6 +3959,7 @@ grouping
 "
 ATK_ROLE_PANEL
 NSAccessibilityRadioGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -3684,6 +3979,7 @@ text
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_TEXT_FRAME
 java
@@ -3703,6 +3999,9 @@ details
 "
 ATK_ROLE_PANEL
 NSAccessibilityGroupRole
+"
+AXDetails
+"
 ROLE_SYSTEM_GROUPING
 ROLE_SYSTEM_GROUPING
 java
@@ -3722,6 +4021,9 @@ summary
 "
 ATK_ROLE_PUSH_BUTTON
 NSAccessibilityButtonRole
+"
+AXSummary
+"
 ROLE_SYSTEM_PUSHBUTTON
 ROLE_SYSTEM_PUSHBUTTON
 java
@@ -3741,6 +4043,7 @@ landmark
 "
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_LANDMARK
 java
@@ -3760,6 +4063,9 @@ navigation
 "
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
+"
+AXLandmarkNavigation
+"
 USE_ROLE_STRING
 IA2_ROLE_LANDMARK
 java
@@ -3779,6 +4085,7 @@ footnote
 "
 ATK_ROLE_FOOTNOTE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_FOOTNOTE
 java
@@ -3798,6 +4105,9 @@ article
 "
 ATK_ROLE_ARTICLE
 NSAccessibilityGroupRole
+"
+AXDocumentArticle
+"
 ROLE_SYSTEM_DOCUMENT
 ROLE_SYSTEM_DOCUMENT
 java
@@ -3817,6 +4127,9 @@ region
 "
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
+"
+AXLandmarkRegion
+"
 USE_ROLE_STRING
 IA2_ROLE_LANDMARK
 java
@@ -3860,6 +4173,7 @@ editcombobox
 "
 ATK_ROLE_COMBO_BOX
 NSAccessibilityComboBoxRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_COMBOBOX
 ROLE_SYSTEM_COMBOBOX
 java
@@ -3879,6 +4193,7 @@ blockquote
 "
 ATK_ROLE_BLOCK_QUOTE
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 ROLE_SYSTEM_GROUPING
 IA2_ROLE_BLOCK_QUOTE
 java
@@ -3899,6 +4214,9 @@ deletion
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXDeleteStyleGroup
+"
 USE_ROLE_STRING
 IA2_ROLE_CONTENT_DELETION
 java
@@ -3919,6 +4237,9 @@ insertion
 "
 ATK_ROLE_SECTION
 NSAccessibilityGroupRole
+"
+AXInsertStyleGroup
+"
 USE_ROLE_STRING
 IA2_ROLE_CONTENT_INSERTION
 java
@@ -3938,6 +4259,9 @@ form
 "
 ATK_ROLE_LANDMARK
 NSAccessibilityGroupRole
+"
+AXLandmarkForm
+"
 USE_ROLE_STRING
 IA2_ROLE_FORM
 java
@@ -3957,6 +4281,7 @@ mark
 "
 ATK_ROLE_MARK
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_MARK
 java
@@ -3976,6 +4301,7 @@ suggestion
 "
 ATK_ROLE_SUGGESTION
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_SUGGESTION
 java
@@ -3995,6 +4321,7 @@ comment
 "
 ATK_ROLE_COMMENT
 NSAccessibilityGroupRole
+NSAccessibilityUnknownSubrole
 USE_ROLE_STRING
 IA2_ROLE_COMMENT
 java
@@ -4014,6 +4341,9 @@ code
 "
 ATK_ROLE_STATIC
 NSAccessibilityGroupRole
+"
+AXCodeStyleGroup
+"
 USE_ROLE_STRING
 IA2_ROLE_TEXT_FRAME
 java
