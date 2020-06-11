@@ -332,9 +332,6 @@ trrFetchDuration
 double
 trrFetchDurationNetworkOnly
 ;
-bool
-isTRR
-;
 }
 ;
 union

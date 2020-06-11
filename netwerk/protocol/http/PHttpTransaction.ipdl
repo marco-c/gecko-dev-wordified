@@ -286,8 +286,6 @@ hasStickyConn
 TransactionObserverResult
 ?
 transactionObserverResult
-int64_t
-requestSize
 )
 ;
 async

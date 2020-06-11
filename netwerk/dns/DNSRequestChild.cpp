@@ -523,9 +523,6 @@ mTrrFetchDuration
 double
 mTrrFetchDurationNetworkOnly
 ;
-bool
-mIsTRR
-;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -576,14 +573,6 @@ mTrrFetchDurationNetworkOnly
 reply
 .
 trrFetchDurationNetworkOnly
-(
-)
-;
-mIsTRR
-=
-reply
-.
-isTRR
 (
 )
 ;
@@ -843,10 +832,10 @@ retval
 *
 retval
 =
-mIsTRR
+false
 ;
 return
-NS_OK
+NS_ERROR_NOT_AVAILABLE
 ;
 }
 NS_IMETHODIMP

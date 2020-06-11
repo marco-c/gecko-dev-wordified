@@ -236,7 +236,7 @@ trr
 mode
 "
 kRolloutURIPref
-kRolloutModePref
+kRolloutURIPref
 nullptr
 }
 ;

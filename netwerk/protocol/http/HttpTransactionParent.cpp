@@ -3066,10 +3066,6 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
-const
-int64_t
-&
-aRequestSize
 )
 {
 LOG
@@ -3141,7 +3137,6 @@ move
 aTransactionObserverResult
 )
 }
-aRequestSize
 ]
 (
 )
@@ -3165,7 +3160,6 @@ move
 (
 aTransactionObserverResult
 )
-aRequestSize
 )
 ;
 }
@@ -3218,10 +3212,6 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
-const
-int64_t
-&
-aRequestSize
 )
 {
 LOG
@@ -3286,10 +3276,6 @@ aResponseIsComplete
 mTransferSize
 =
 aTransferSize
-;
-mRequestSize
-=
-aRequestSize
 ;
 TimingStructArgsToTimingsStruct
 (
