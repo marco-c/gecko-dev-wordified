@@ -3285,8 +3285,8 @@ self
 >
 DisconnectChildListeners
 (
-rv
-rv
+NS_ERROR_ABORT
+NS_ERROR_ABORT
 )
 ;
 mParentChannelListener
