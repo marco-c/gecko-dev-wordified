@@ -692,6 +692,9 @@ useSystemDefault
 {
 if
 (
+mDefaultApplication
+&
+&
 StaticPrefs
 :
 :
