@@ -3931,10 +3931,11 @@ const
 nsDisplayListSet
 &
 aLists
-uint32_t
+DisplayChildFlags
 aFlags
 =
-0
+{
+}
 )
 ;
 /
@@ -3947,7 +3948,10 @@ of
 BuildDisplayList
 that
 use
-DISPLAY_CHILD_INLINE
+DisplayChildFlag
+:
+:
+Inline
 .
 *
 Intended
@@ -3982,7 +3986,10 @@ BuildDisplayListForNonBlockChildren
 (
 aBuilder
 aLists
-DISPLAY_CHILD_INLINE
+DisplayChildFlag
+:
+:
+Inline
 )
 ;
 }

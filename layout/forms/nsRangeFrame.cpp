@@ -1168,7 +1168,10 @@ BuildDisplayListForChild
 aBuilder
 thumb
 set
-DISPLAY_CHILD_INLINE
+DisplayChildFlag
+:
+:
+Inline
 )
 ;
 }

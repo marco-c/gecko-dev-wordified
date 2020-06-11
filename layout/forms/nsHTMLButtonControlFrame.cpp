@@ -726,7 +726,10 @@ FirstChild
 (
 )
 set
-DISPLAY_CHILD_FORCE_PSEUDO_STACKING_CONTEXT
+DisplayChildFlag
+:
+:
+ForcePseudoStackingContext
 )
 ;
 }

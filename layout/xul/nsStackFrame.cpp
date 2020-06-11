@@ -479,7 +479,10 @@ BuildDisplayListForChild
 aBuilder
 kid
 kidLists
-DISPLAY_CHILD_FORCE_STACKING_CONTEXT
+DisplayChildFlag
+:
+:
+ForceStackingContext
 )
 ;
 kid
