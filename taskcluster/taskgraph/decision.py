@@ -1375,11 +1375,13 @@ file
     
 write_artifact
 (
+        
 '
 actions
 .
 json
 '
+        
 render_actions_json
 (
 tgg
@@ -1388,7 +1390,9 @@ parameters
 tgg
 .
 graph_config
+decision_task_id
 )
+    
 )
     
 #
