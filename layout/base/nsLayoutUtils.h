@@ -467,6 +467,12 @@ ActiveScrolledRoot
 ;
 enum
 class
+ScrollOrigin
+:
+uint8_t
+;
+enum
+class
 StyleImageOrientation
 :
 uint8_t
@@ -818,6 +824,13 @@ mozilla
 :
 RelativeTo
 RelativeTo
+;
+typedef
+mozilla
+:
+:
+ScrollOrigin
+ScrollOrigin
 ;
 typedef
 mozilla
@@ -20790,8 +20803,7 @@ static
 bool
 CanScrollOriginClobberApz
 (
-nsAtom
-*
+ScrollOrigin
 aScrollOrigin
 )
 ;
