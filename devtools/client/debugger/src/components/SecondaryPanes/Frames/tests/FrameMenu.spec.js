@@ -403,7 +403,7 @@ generateMockId
 "
 sourceFooter
 .
-blackbox
+ignore
 "
 )
 ;

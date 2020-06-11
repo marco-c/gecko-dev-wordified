@@ -713,7 +713,7 @@ getStr
 "
 sourceFooter
 .
-unblackbox
+unignore
 "
 )
 :
@@ -724,7 +724,7 @@ getStr
 "
 sourceFooter
 .
-blackbox
+ignore
 "
 )
 ;
