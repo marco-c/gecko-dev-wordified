@@ -384,7 +384,7 @@ UI
 .
 *
 /
-_secureInternalUIWhitelist
+_secureInternalPages
 :
 /
 ^
@@ -6234,7 +6234,7 @@ about
 &
 this
 .
-_secureInternalUIWhitelist
+_secureInternalPages
 .
 test
 (
