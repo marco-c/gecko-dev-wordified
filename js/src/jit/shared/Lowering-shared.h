@@ -1320,6 +1320,14 @@ FloatRegister
 reg
 )
 ;
+inline
+LInt64Definition
+tempInt64Fixed
+(
+Register64
+reg
+)
+;
 template
 <
 size_t

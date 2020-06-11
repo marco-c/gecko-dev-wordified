@@ -5520,9 +5520,8 @@ ToRegister64
 ins
 -
 >
-getInt64Temp
+temp1
 (
-0
 )
 )
 ;
