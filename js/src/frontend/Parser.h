@@ -10343,8 +10343,6 @@ constructors
 FunctionNodeType
 standaloneFunction
 (
-HandleFunction
-fun
 HandleScope
 enclosingScope
 const
@@ -10357,6 +10355,8 @@ uint32_t
 >
 &
 parameterListEnd
+FunctionSyntaxKind
+syntaxKind
 GeneratorKind
 generatorKind
 FunctionAsyncKind
