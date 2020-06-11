@@ -72,6 +72,14 @@ Profile
 from
 mozperftest
 .
+test
+.
+androidlog
+import
+AndroidLog
+from
+mozperftest
+.
 layers
 import
 Layers
@@ -85,6 +93,7 @@ return
 (
 Profile
 BrowsertimeRunner
+AndroidLog
 )
 def
 pick_test
@@ -100,7 +109,9 @@ flavor
 =
 =
 "
-script
+desktop
+-
+browser
 "
 :
         
@@ -109,8 +120,32 @@ Layers
 (
 env
 mach_cmd
-get_layers
 (
+Profile
+BrowsertimeRunner
+)
+)
+    
+if
+flavor
+=
+=
+"
+mobile
+-
+browser
+"
+:
+        
+return
+Layers
+(
+env
+mach_cmd
+(
+Profile
+BrowsertimeRunner
+AndroidLog
 )
 )
     

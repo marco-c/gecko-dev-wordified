@@ -243,6 +243,8 @@ import
 shutil
 import
 sys
+import
+logging
 HERE
 =
 os
@@ -786,6 +788,41 @@ doc
     
 )
     
+verbose
+=
+kwargs
+.
+get
+(
+"
+verbose
+"
+False
+)
+    
+log_level
+=
+logging
+.
+DEBUG
+if
+verbose
+else
+logging
+.
+INFO
+    
+mach_cmd
+.
+log_manager
+.
+add_terminal_logging
+(
+level
+=
+log_level
+)
+    
 try
 :
         
@@ -1003,6 +1040,13 @@ util
 import
 get_state_dir
     
+from
+mach
+.
+logging
+import
+LoggingManager
+    
 config
 =
 MozbuildObject
@@ -1034,6 +1078,14 @@ config
 state_dir
 =
 get_state_dir
+(
+)
+    
+config
+.
+log_manager
+=
+LoggingManager
 (
 )
     

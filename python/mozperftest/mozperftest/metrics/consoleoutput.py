@@ -327,7 +327,7 @@ files
 }
     
 def
-__call__
+run
 (
 self
 metadata

@@ -164,7 +164,7 @@ self
 pass
     
 def
-__call__
+run
 (
 self
 metadata

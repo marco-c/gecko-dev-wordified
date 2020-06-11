@@ -364,7 +364,7 @@ reported
 }
     
 def
-__call__
+run
 (
 self
 metadata
