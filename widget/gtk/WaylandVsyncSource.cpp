@@ -684,7 +684,7 @@ wl_surface
 *
 surface
 =
-moz_container_wayland_get_surface
+moz_container_wayland_surface_lock
 (
 mContainer
 )
@@ -829,6 +829,11 @@ surface
 wl_display_flush
 (
 mDisplay
+)
+;
+moz_container_wayland_surface_unlock
+(
+mContainer
 )
 ;
 }

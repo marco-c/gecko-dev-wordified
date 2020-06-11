@@ -2240,12 +2240,6 @@ GetWaylandDisplay
 (
 )
 ;
-wl_surface
-*
-GetWaylandSurface
-(
-)
-;
 bool
 WaylandSurfaceNeedsClear
 (
