@@ -1669,7 +1669,9 @@ file
         
 if
 '
-geckoProfile
+gecko
+-
+profile
 '
 not
 in

@@ -2157,7 +2157,9 @@ add_argument
 '
 -
 -
-geckoProfile
+gecko
+-
+profile
 '
 dest
 =
