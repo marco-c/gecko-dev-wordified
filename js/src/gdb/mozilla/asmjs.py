@@ -211,8 +211,25 @@ gdb
 parse_and_eval
 (
 '
+(
+void
+(
+*
+)
+(
+int
+void
+*
+void
+*
+)
+)
 __sigaction
 '
+)
+.
+dereference
+(
 )
         
 sigaction_fn
@@ -222,14 +239,14 @@ SIGSEGV
 buf
 )
         
-WasmFaultHandler
+WasmTrapHandler
 =
 gdb
 .
 parse_and_eval
 (
 "
-WasmFaultHandler
+WasmTrapHandler
 "
 )
         
@@ -247,7 +264,7 @@ sa_handler
 ]
 =
 =
-WasmFaultHandler
+WasmTrapHandler
 :
             
 #
@@ -276,7 +293,7 @@ asmjs
 py
 :
 Allowing
-WasmFaultHandler
+WasmTrapHandler
 to
 run
 .
@@ -285,7 +302,7 @@ run
             
 #
 If
-WasmFaultHandler
+WasmTrapHandler
 doesn
 '
 t
