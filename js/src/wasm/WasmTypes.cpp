@@ -5602,7 +5602,7 @@ u
 .
 func
 .
-beginToNormalEntry_
+beginToUncheckedCallEntry_
 =
 0
 ;
@@ -5798,7 +5798,7 @@ u
 .
 func
 .
-beginToNormalEntry_
+beginToUncheckedCallEntry_
 =
 0
 ;
@@ -5975,7 +5975,7 @@ MOZ_ASSERT
 (
 offsets
 .
-normalEntry
+uncheckedCallEntry
 -
 begin_
 <
@@ -6013,11 +6013,11 @@ u
 .
 func
 .
-beginToNormalEntry_
+beginToUncheckedCallEntry_
 =
 offsets
 .
-normalEntry
+uncheckedCallEntry
 -
 begin_
 ;
