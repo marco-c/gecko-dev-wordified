@@ -68,8 +68,6 @@ futures
 import
 json
 import
-os
-import
 sys
 import
 logging
@@ -138,8 +136,6 @@ taskgraph
 label_to_taskid
 params
 decision_task_id
-=
-None
 )
 :
     
@@ -159,21 +155,6 @@ iteritems
 (
 )
 }
-    
-decision_task_id
-=
-decision_task_id
-or
-os
-.
-environ
-.
-get
-(
-'
-TASK_ID
-'
-)
     
 #
 when
@@ -226,14 +207,6 @@ back
 to
 a
 slugid
-    
-task_group_id
-=
-decision_task_id
-or
-slugid
-(
-)
     
 scheduler_id
 =
@@ -373,10 +346,6 @@ run
 .
         
 if
-decision_task_id
-:
-            
-if
 not
 any
 (
@@ -400,7 +369,7 @@ dependencies
 )
 )
 :
-                
+            
 task_def
 .
 setdefault
@@ -424,7 +393,7 @@ taskGroupId
 '
 ]
 =
-task_group_id
+decision_task_id
         
 task_def
 [
