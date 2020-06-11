@@ -96,13 +96,6 @@ MPL
 #
 include
 "
-CookieCommons
-.
-h
-"
-#
-include
-"
 mozilla
 /
 net
@@ -655,10 +648,7 @@ GetOriginAttributes
 bool
 isSafeTopLevelNav
 =
-CookieCommons
-:
-:
-IsSafeTopLevelNav
+NS_IsSafeTopLevelNav
 (
 aChannel
 )
@@ -666,10 +656,7 @@ aChannel
 bool
 aIsSameSiteForeign
 =
-CookieCommons
-:
-:
-IsSameSiteForeign
+NS_IsSameSiteForeign
 (
 aChannel
 uri

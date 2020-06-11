@@ -611,11 +611,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 do_send_remote_message

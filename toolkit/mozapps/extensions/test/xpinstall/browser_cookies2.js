@@ -167,11 +167,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTP
 )
 ;
 PermissionTestUtils

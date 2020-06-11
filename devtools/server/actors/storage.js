@@ -5793,11 +5793,6 @@ originAttributes
 nsiCookie
 .
 originAttributes
-schemeMap
-:
-nsiCookie
-.
-schemeMap
 }
 ;
 break
@@ -6076,9 +6071,6 @@ originAttributes
 cookie
 .
 sameSite
-cookie
-.
-schemeMap
 )
 ;
 }
