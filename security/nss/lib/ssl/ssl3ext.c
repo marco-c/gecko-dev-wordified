@@ -126,6 +126,13 @@ h
 #
 include
 "
+pk11pub
+.
+h
+"
+#
+include
+"
 ssl
 .
 h
@@ -5583,6 +5590,13 @@ xtnData
 sendingDelegCredToPeer
 =
 PR_FALSE
+;
+xtnData
+-
+>
+selectedPsk
+=
+NULL
 ;
 }
 void
