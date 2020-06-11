@@ -389,6 +389,36 @@ disableFuzzingDelay
 "
 :
 True
+                
+#
+Disable
+Normandy
+to
+avoid
+extra
+subsessions
+due
+to
+Experiment
+                
+#
+activation
+in
+tests
+(
+bug
+1641571
+)
+                
+"
+app
+.
+normandy
+.
+enabled
+"
+:
+False
             
 }
         
