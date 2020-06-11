@@ -8539,7 +8539,7 @@ STATE_DOWNLOADING
 case
 AddonManager
 .
-STATE_CHECKING
+STATE_CHECKING_UPDATE
 :
 case
 AddonManager
@@ -12555,7 +12555,7 @@ state
 =
 AddonManager
 .
-STATE_CHECKING
+STATE_CHECKING_UPDATE
 ;
 await
 new
@@ -14869,7 +14869,7 @@ state
 =
 AddonManager
 .
-STATE_CHECKING
+STATE_CHECKING_UPDATE
 ;
 new
 UpdateChecker

@@ -19086,13 +19086,15 @@ The
 install
 is
 checking
+the
+update
 for
 compatibility
 information
 .
 [
 "
-STATE_CHECKING
+STATE_CHECKING_UPDATE
 "
 2
 ]
