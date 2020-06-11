@@ -2770,15 +2770,11 @@ IsChromeWorker
 ?
 mJSSettings
 .
-chrome
-.
-realmOptions
+chromeRealmOptions
 :
 mJSSettings
 .
-content
-.
-realmOptions
+contentRealmOptions
 ;
 }
 /
