@@ -129,6 +129,8 @@ absolute_import
 print_function
 import
 sys
+import
+six
 def
 print_output
 (
@@ -158,10 +160,11 @@ for
 obj
 count
 in
-allocation
+six
 .
 iteritems
 (
+allocation
 )
 :
         
