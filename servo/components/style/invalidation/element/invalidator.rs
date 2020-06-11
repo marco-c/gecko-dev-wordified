@@ -4913,6 +4913,7 @@ parent
 None
 =
 >
+{
 return
 SingleInvalidationResult
 {
@@ -4922,6 +4923,7 @@ true
 matched
 :
 true
+}
 }
 Some
 (
@@ -5003,6 +5005,7 @@ matched
 :
 false
 }
+;
 }
 if
 cur_dependency
@@ -5041,6 +5044,7 @@ invalidation
 .
 scope
 )
+;
 }
 }
 CompoundSelectorMatchingResult
@@ -5052,7 +5056,6 @@ next_combinator_offset
 }
 =
 >
-{
 Invalidation
 {
 dependency
@@ -5073,7 +5076,6 @@ next_combinator_offset
 matched_by_any_previous
 :
 false
-}
 }
 }
 ;

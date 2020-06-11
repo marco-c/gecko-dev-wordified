@@ -2577,12 +2577,14 @@ Comma
 |
 input
 |
+{
 parse_selector
 (
 parser
 input
 state
 )
+}
 )
 ?
 )
@@ -2862,6 +2864,7 @@ parse_comma_separated
 |
 input
 |
+{
 parse_inner_compound_selector
 (
 parser
@@ -2873,6 +2876,7 @@ empty
 (
 )
 )
+}
 )
 .
 map
@@ -3335,13 +3339,11 @@ QuirksMode
 Quirks
 =
 >
-{
 id
 .
 precomputed_hash
 (
 )
-}
 Component
 :
 :
@@ -8153,7 +8155,6 @@ components
 )
 =
 >
-{
 !
 components
 .
@@ -8172,7 +8173,6 @@ matches_for_stateless_pseudo_element
 (
 )
 )
-}
 Component
 :
 :
