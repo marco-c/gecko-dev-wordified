@@ -514,6 +514,10 @@ attribute
 boolean
 isFromChromeContext
 ;
+attribute
+boolean
+isForwardedFromContentProcess
+;
 /
 /
 Error
