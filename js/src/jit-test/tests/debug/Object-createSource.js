@@ -120,7 +120,7 @@ source
 .
 introductionType
 "
-scriptElement
+inlineScript
 "
 )
 ;

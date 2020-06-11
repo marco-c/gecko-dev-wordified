@@ -7803,7 +7803,7 @@ compileOptions
 setIntroductionType
 (
 "
-scriptElement
+inlineScript
 "
 )
 ;
