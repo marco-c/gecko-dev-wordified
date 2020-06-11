@@ -30411,7 +30411,7 @@ Handler
 >
 :
 :
-emit_ToId
+emit_ToPropertyKey
 (
 )
 {
@@ -30541,7 +30541,7 @@ Fn
 js
 :
 :
-ToIdOperation
+ToPropertyKeyOperation
 >
 (
 )

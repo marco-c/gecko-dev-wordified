@@ -11311,7 +11311,7 @@ case
 JSOp
 :
 :
-ToId
+ToPropertyKey
 :
 case
 JSOp
@@ -15602,10 +15602,10 @@ case
 JSOp
 :
 :
-ToId
+ToPropertyKey
 :
 return
-jsop_toid
+jsop_topropertykey
 (
 )
 ;
@@ -83866,7 +83866,7 @@ Ok
 IonBuilder
 :
 :
-jsop_toid
+jsop_topropertykey
 (
 )
 {
@@ -83882,8 +83882,8 @@ is
 trivally
 convertable
 to
-an
-id
+a
+PropertyKey
 .
 MIRType
 type
