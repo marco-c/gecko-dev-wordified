@@ -325,14 +325,6 @@ any
 "
 AggregateError
 "
-    
-"
-logical
--
-assignment
--
-operators
-"
 ]
 )
 contextlib
