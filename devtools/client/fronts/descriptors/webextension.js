@@ -639,6 +639,13 @@ _createWebExtensionTarget
 targetForm
 )
 ;
+await
+targetFront
+.
+attach
+(
+)
+;
 }
 catch
 (
