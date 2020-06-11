@@ -263,7 +263,7 @@ everywhere
 :
 true
 }
-cohort
+experiment
 :
 "
 acohortid
@@ -536,7 +536,7 @@ browser
 .
 search
 .
-cohort
+experiment
 "
 "
 acohortid
@@ -607,7 +607,7 @@ order
 and
 include
 the
-cohort
+experiment
 engine
 "
 )
