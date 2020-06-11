@@ -279,7 +279,6 @@ treeherder
 import
 split_symbol
 join_symbol
-add_suffix
 from
 taskgraph
 .
@@ -13175,6 +13174,21 @@ manifests
 =
 manifests
             
+group
+symbol
+=
+split_symbol
+(
+chunked
+[
+'
+treeherder
+-
+symbol
+'
+]
+)
+            
 if
 task
 [
@@ -13184,6 +13198,9 @@ chunks
 ]
 >
 1
+or
+not
+symbol
 :
                 
 #
@@ -13196,6 +13213,14 @@ the
 TH
 symbol
                 
+symbol
++
+=
+str
+(
+this_chunk
+)
+                
 chunked
 [
 '
@@ -13205,18 +13230,10 @@ symbol
 '
 ]
 =
-add_suffix
+join_symbol
 (
-                    
-chunked
-[
-'
-treeherder
--
+group
 symbol
-'
-]
-this_chunk
 )
             
 yield
