@@ -4278,7 +4278,13 @@ push
 buildRow
 (
 key
+[
+new
+Text
+(
 value
+)
+]
 )
 )
 ;
