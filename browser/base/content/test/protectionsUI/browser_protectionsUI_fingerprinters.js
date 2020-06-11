@@ -306,6 +306,11 @@ await
 loaded
 ;
 }
+await
+openProtectionsPanel
+(
+)
+;
 ok
 (
 !
