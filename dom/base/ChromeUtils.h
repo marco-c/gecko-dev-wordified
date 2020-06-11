@@ -1292,14 +1292,14 @@ aError
 ;
 static
 void
-GenerateMediaControlKeysTestEvent
+GenerateMediaControlKey
 (
 const
 GlobalObject
 &
 aGlobal
-MediaControlKeysTestEvent
-aEvent
+MediaControlKey
+aKey
 )
 ;
 static

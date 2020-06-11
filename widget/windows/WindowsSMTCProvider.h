@@ -141,7 +141,7 @@ mozilla
 \
 dom
 \
-MediaControlKeysEvent
+MediaControlKeySource
 .
 h
 "
@@ -256,7 +256,7 @@ mozilla
 dom
 :
 :
-MediaControlKeysEventSource
+MediaControlKeySource
 {
 NS_INLINE_DECL_REFCOUNTING
 (
@@ -513,8 +513,8 @@ mozilla
 dom
 :
 :
-MediaControlKeysEvent
-aEvent
+MediaControlKey
+aKey
 )
 ;
 /

@@ -138,7 +138,7 @@ mozilla
 /
 dom
 /
-MediaControlKeysEvent
+MediaControllerBinding
 .
 h
 "
@@ -797,9 +797,9 @@ This
 function
 would
 update
-the
 media
-action
+control
+key
 for
 the
 current
@@ -820,10 +820,10 @@ content
 processes
 .
 void
-UpdateMediaControlKeysEvent
+UpdateMediaControlKey
 (
-MediaControlKeysEvent
-aEvent
+MediaControlKey
+aKey
 )
 ;
 /

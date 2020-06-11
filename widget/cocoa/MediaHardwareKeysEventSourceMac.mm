@@ -267,7 +267,8 @@ MOZ_ASSERT_UNREACHABLE
 (
 "
 Invalid
-action
+key
+code
 .
 "
 )
@@ -365,8 +366,8 @@ NX_KEYTYPE_REWIND
 ;
 }
 static
-MediaControlKeysEvent
-ToMediaControlKeysEvent
+MediaControlKey
+ToMediaControlKey
 (
 int
 aKeyCode
@@ -392,10 +393,10 @@ case
 NX_KEYTYPE_FAST
 :
 return
-MediaControlKeysEvent
+MediaControlKey
 :
 :
-eNextTrack
+Nexttrack
 ;
 case
 NX_KEYTYPE_PREVIOUS
@@ -404,10 +405,10 @@ case
 NX_KEYTYPE_REWIND
 :
 return
-MediaControlKeysEvent
+MediaControlKey
 :
 :
-ePrevTrack
+Previoustrack
 ;
 default
 :
@@ -420,10 +421,10 @@ NX_KEYTYPE_PLAY
 )
 ;
 return
-MediaControlKeysEvent
+MediaControlKey
 :
 :
-ePlayPause
+Playpause
 ;
 }
 }
@@ -491,7 +492,7 @@ StopEventTap
 (
 )
 ;
-MediaControlKeysEventSource
+MediaControlKeySource
 :
 :
 Close
@@ -1127,7 +1128,7 @@ iter
 >
 OnKeyPressed
 (
-ToMediaControlKeysEvent
+ToMediaControlKey
 (
 keyCode
 )

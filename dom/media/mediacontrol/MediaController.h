@@ -193,12 +193,6 @@ dom
 class
 BrowsingContext
 ;
-enum
-class
-MediaControlKeysEvent
-:
-uint32_t
-;
 /
 *
 *
@@ -841,7 +835,7 @@ MediaEventSource
 <
 nsTArray
 <
-MediaControlKeysEvent
+MediaControlKey
 >
 >
 &
@@ -855,7 +849,7 @@ mSupportedKeysChangedEvent
 }
 CopyableTArray
 <
-MediaControlKeysEvent
+MediaControlKey
 >
 GetSupportedMediaKeys
 (
@@ -876,10 +870,10 @@ HandleActualPlaybackStateChanged
 override
 ;
 void
-UpdateMediaControlKeysEventToContentMediaIfNeeded
+UpdateMediaControlKeyToContentMediaIfNeeded
 (
-MediaControlKeysEvent
-aEvent
+MediaControlKey
+aKey
 )
 ;
 void
@@ -1005,7 +999,7 @@ MediaEventProducer
 <
 nsTArray
 <
-MediaControlKeysEvent
+MediaControlKey
 >
 >
 mSupportedKeysChangedEvent
@@ -1034,7 +1028,7 @@ event
 .
 CopyableTArray
 <
-MediaControlKeysEvent
+MediaControlKey
 >
 mSupportedKeys
 ;

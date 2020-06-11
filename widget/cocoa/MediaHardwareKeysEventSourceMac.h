@@ -87,7 +87,7 @@ mozilla
 /
 dom
 /
-MediaControlKeysEvent
+MediaControlKeySource
 .
 h
 "
@@ -115,7 +115,7 @@ mozilla
 dom
 :
 :
-MediaControlKeysEventSource
+MediaControlKeySource
 {
 public
 :

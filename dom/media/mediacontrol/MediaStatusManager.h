@@ -65,7 +65,7 @@ DOM_MEDIA_MEDIACONTROL_MEDIASTATUSMANAGER_H_
 #
 include
 "
-MediaControlKeysEvent
+MediaControlKeySource
 .
 h
 "

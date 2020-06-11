@@ -69,7 +69,7 @@ namespace
 dom
 {
 class
-MediaControlKeysEventSource
+MediaControlKeySource
 ;
 }
 /
@@ -121,9 +121,9 @@ mozilla
 dom
 :
 :
-MediaControlKeysEventSource
+MediaControlKeySource
 *
-CreateMediaControlKeysEventSource
+CreateMediaControlKeySource
 (
 )
 ;
