@@ -241,6 +241,7 @@ move
 (
 queue
 )
+true
 )
 ;
 prioritized

@@ -1471,7 +1471,10 @@ manager
 mTaskManagers
 )
 {
+DebugOnly
+<
 bool
+>
 modifierChanged
 =
 manager
