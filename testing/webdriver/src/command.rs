@@ -7387,7 +7387,7 @@ from_value
 :
 :
 <
-AddonInstallParameters
+PrintParameters
 >
 (
 json
