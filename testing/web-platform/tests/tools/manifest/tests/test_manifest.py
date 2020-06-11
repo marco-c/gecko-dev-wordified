@@ -342,6 +342,9 @@ TestharnessTest
 item
 .
 RefTest
+item
+.
+PrintRefTest
                     
 item
 .
@@ -437,10 +440,15 @@ hash
     
 if
 cls
-is
+in
+(
 item
 .
 RefTest
+item
+.
+PrintRefTest
+)
 :
         
 ref_path
