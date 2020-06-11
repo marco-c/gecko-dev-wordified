@@ -1155,6 +1155,15 @@ Opcode
 :
 ObjectStaticProto
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+GuardNoDenseElements
+:
 object
 =
 ins

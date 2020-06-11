@@ -15793,6 +15793,9 @@ case
 Bailout_Hole
 :
 case
+Bailout_NoDenseElementsGuard
+:
+case
 Bailout_NegativeIndex
 :
 case
