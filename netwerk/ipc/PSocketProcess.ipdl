@@ -154,6 +154,10 @@ protocol
 PProxyConfigLookup
 ;
 include
+protocol
+PNativeDNSResolverOverride
+;
+include
 MemoryReportTypes
 ;
 include
@@ -406,6 +410,9 @@ PTRRService
 ;
 manages
 PProxyConfigLookup
+;
+manages
+PNativeDNSResolverOverride
 ;
 parent
 :
@@ -744,6 +751,11 @@ nsCString
 [
 ]
 aDNSSuffixList
+)
+;
+async
+PNativeDNSResolverOverride
+(
 )
 ;
 both
