@@ -1436,8 +1436,10 @@ reply
 bool
 Send
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 Message
 *
@@ -1460,8 +1462,10 @@ channel
 bool
 Call
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 Message
 *
