@@ -5338,6 +5338,17 @@ mallocSizeOf
 )
 const
 ;
+size_t
+sizeOfIncludingThis
+(
+mozilla
+:
+:
+MallocSizeOf
+mallocSizeOf
+)
+const
+;
 void
 trace
 (
