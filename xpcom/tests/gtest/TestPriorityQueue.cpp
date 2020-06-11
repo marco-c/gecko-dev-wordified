@@ -177,8 +177,11 @@ T
 Compare
 >
 copy
-(
+=
 aQueue
+.
+Clone
+(
 )
 ;
 for
@@ -415,6 +418,10 @@ queue2
 queue2
 =
 queue
+.
+Clone
+(
+)
 ;
 CheckPopSequence
 (
