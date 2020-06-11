@@ -390,10 +390,8 @@ CanvasLayerComposite
 }
 protected
 :
-RefPtr
-<
 CanvasRenderer
->
+*
 CreateCanvasRendererInternal
 (
 )

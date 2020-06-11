@@ -2055,8 +2055,13 @@ GLContextProvider
 :
 CreateHeadless
 (
-{
-}
+gl
+:
+:
+CreateContextFlags
+:
+:
+NONE
 &
 discardFailureId
 )

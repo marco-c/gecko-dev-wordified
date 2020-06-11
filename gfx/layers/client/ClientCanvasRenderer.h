@@ -138,7 +138,6 @@ ClientCanvasLayer
 ;
 class
 ClientCanvasRenderer
-final
 :
 public
 ShareableCanvasRenderer

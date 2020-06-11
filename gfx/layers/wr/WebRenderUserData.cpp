@@ -2298,8 +2298,10 @@ CreateCanvasRenderer
 {
 mCanvasRenderer
 =
-new
+MakeUnique
+<
 WebRenderCanvasRendererAsync
+>
 (
 mManager
 )

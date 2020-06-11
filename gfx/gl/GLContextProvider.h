@@ -99,15 +99,6 @@ GLCONTEXTPROVIDER_H_
 #
 include
 "
-mozilla
-/
-AlreadyAddRefed
-.
-h
-"
-#
-include
-"
 GLContextTypes
 .
 h
