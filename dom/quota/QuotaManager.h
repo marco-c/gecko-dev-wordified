@@ -1594,8 +1594,10 @@ Type
 aClientType
 bool
 aExclusive
+RefPtr
+<
 OpenDirectoryListener
-*
+>
 aOpenListener
 )
 ;
@@ -2474,8 +2476,10 @@ bool
 aExclusive
 bool
 aInternal
+RefPtr
+<
 OpenDirectoryListener
-*
+>
 aOpenListener
 bool
 &
@@ -2504,7 +2508,7 @@ void
 RegisterDirectoryLock
 (
 DirectoryLockImpl
-*
+&
 aLock
 )
 ;
@@ -2512,7 +2516,7 @@ void
 UnregisterDirectoryLock
 (
 DirectoryLockImpl
-*
+&
 aLock
 )
 ;
@@ -2520,7 +2524,7 @@ void
 RemovePendingDirectoryLock
 (
 DirectoryLockImpl
-*
+&
 aLock
 )
 ;
