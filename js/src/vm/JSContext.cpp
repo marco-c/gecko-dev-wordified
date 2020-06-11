@@ -6878,15 +6878,6 @@ sizeOfExcludingThis
 (
 mallocSizeOf
 )
-+
-irregexp
-:
-:
-IsolateSizeOfIncludingThis
-(
-isolate
-mallocSizeOf
-)
 ;
 }
 #
