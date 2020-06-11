@@ -80,7 +80,6 @@ action
 sendImpressionTelemetry
 (
 messageId
-context
 )
 {
 window
@@ -93,9 +92,6 @@ event
 "
 IMPRESSION
 "
-event_context
-:
-context
 message_id
 :
 messageId
