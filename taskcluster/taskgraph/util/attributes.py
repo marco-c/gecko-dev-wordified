@@ -165,6 +165,8 @@ central
 RELEASE_PROJECTS
 TEMPORARY_PROJECTS
 =
+set
+(
 {
     
 #
@@ -194,6 +196,7 @@ g
 oak
 '
 }
+)
 ALL_PROJECTS
 =
 RELEASE_PROMOTION_PROJECTS
