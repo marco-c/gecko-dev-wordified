@@ -5243,10 +5243,11 @@ Context
 js
 :
 :
-SetPreserveWrapperCallback
+SetPreserveWrapperCallbacks
 (
 cx
 PreserveWrapper
+HasReleasedWrapper
 )
 ;
 JS_InitDestroyPrincipalsCallback
