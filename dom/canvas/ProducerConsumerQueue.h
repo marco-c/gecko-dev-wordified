@@ -5353,7 +5353,6 @@ status
 TryRemoveArgs
 (
 view
-&
 aArgs
 .
 .
@@ -5980,7 +5979,7 @@ PcqConsumer
 &
 aView
 Args
-*
+&
 .
 .
 .
@@ -6007,10 +6006,10 @@ PcqConsumer
 &
 aView
 Arg
-*
+&
 aArg
 Args
-*
+&
 .
 .
 .
@@ -6021,9 +6020,6 @@ QueueStatus
 status
 =
 TryCopyItem
-<
-Arg
->
 (
 aView
 aArg
@@ -6036,12 +6032,6 @@ status
 )
 ?
 TryRemoveArgs
-<
-Args
-.
-.
-.
->
 (
 aView
 aArgs
@@ -6111,7 +6101,7 @@ PcqConsumer
 &
 aView
 Arg
-*
+&
 aArg
 )
 {
@@ -6149,6 +6139,7 @@ Arg
 *
 >
 (
+&
 aArg
 )
 )
