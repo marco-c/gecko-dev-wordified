@@ -7279,6 +7279,9 @@ bool
 enable_picture_caching
 :
 bool
+allow_scissored_cache_clears
+:
+bool
 start_debug_server
 :
 bool
@@ -8132,6 +8135,10 @@ enable_picture_caching
 allow_pixel_local_storage_support
 :
 false
+clear_caches_with_quads
+:
+!
+allow_scissored_cache_clears
 start_debug_server
 surface_origin_is_top_left
 :
