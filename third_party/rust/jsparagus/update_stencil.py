@@ -3770,6 +3770,14 @@ in
 opcode
 .
 format_
+or
+'
+JOF_SCOPE
+'
+in
+opcode
+.
+format_
 :
             
 assert
