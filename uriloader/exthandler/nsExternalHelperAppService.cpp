@@ -6498,6 +6498,9 @@ LoadURI
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 BrowsingContext
 *
 aBrowsingContext
@@ -6532,6 +6535,7 @@ GetSingleton
 SendLoadURIExternal
 (
 aURI
+aTriggeringPrincipal
 aBrowsingContext
 )
 ;
@@ -6965,8 +6969,9 @@ chooser
 Ask
 (
 handler
-aBrowsingContext
 uri
+aTriggeringPrincipal
+aBrowsingContext
 nsIContentDispatchChooser
 :
 :

@@ -25763,6 +25763,9 @@ RecvLoadURIExternal
 nsIURI
 *
 uri
+nsIPrincipal
+*
+aTriggeringPrincipal
 const
 MaybeDiscarded
 <
@@ -25840,6 +25843,7 @@ extProtService
 LoadURI
 (
 uri
+aTriggeringPrincipal
 bc
 )
 ;

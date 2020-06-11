@@ -5407,6 +5407,8 @@ LoadURIExternal
 (
 nsIURI
 uri
+nsIPrincipal
+triggeringPrincipal
 MaybeDiscardedBrowsingContext
 browsingContext
 )
