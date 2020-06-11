@@ -2456,6 +2456,13 @@ _
 MallocHeap
 wasmCompile
 )
+\
+MACRO
+(
+_
+MallocHeap
+contexts
+)
 HelperThreadStats
 (
 )
