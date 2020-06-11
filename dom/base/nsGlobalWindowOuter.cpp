@@ -8403,11 +8403,7 @@ HOLDER_WEAKMAP_SLOT
 Window_Binding
 :
 :
-sCrossOriginAttributes
-Window_Binding
-:
-:
-sCrossOriginMethods
+sCrossOriginProperties
 holder
 )
 ;

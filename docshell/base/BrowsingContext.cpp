@@ -9124,11 +9124,7 @@ LocationProxy
 Location_Binding
 :
 :
-sCrossOriginAttributes
-Location_Binding
-:
-:
-sCrossOriginMethods
+sCrossOriginProperties
 >
 {
 public
