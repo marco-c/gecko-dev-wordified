@@ -73023,16 +73023,6 @@ ins
 )
 ;
 }
-MDefinition
-*
-foldsTo
-(
-TempAllocator
-&
-alloc
-)
-override
-;
 wasm
 :
 :
