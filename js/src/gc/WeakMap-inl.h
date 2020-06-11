@@ -3162,8 +3162,16 @@ popFront
 )
 )
 {
-K
+auto
 k
+=
+gc
+:
+:
+detail
+:
+:
+ExtractUnbarriered
 (
 r
 .
@@ -3182,7 +3190,7 @@ MOZ_ASSERT
 gc
 :
 :
-IsAboutToBeFinalized
+IsAboutToBeFinalizedUnbarriered
 (
 &
 k
