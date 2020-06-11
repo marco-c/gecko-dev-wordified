@@ -93,6 +93,7 @@ metrics
 utils
 import
 write_json
+is_number
 PERFHERDER_SCHEMA
 =
 pathlib
@@ -735,7 +736,6 @@ res
 vals
 =
 [
-                    
 v
 [
 "
@@ -752,7 +752,7 @@ data
 "
 ]
 if
-type
+is_number
 (
 v
 [
@@ -761,12 +761,6 @@ value
 "
 ]
 )
-in
-(
-int
-float
-)
-                
 ]
                 
 if

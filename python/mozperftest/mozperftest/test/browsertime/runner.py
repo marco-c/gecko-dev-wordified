@@ -2558,7 +2558,7 @@ _test_info
 get
 (
 "
-test_name
+name
 "
 (
 "
