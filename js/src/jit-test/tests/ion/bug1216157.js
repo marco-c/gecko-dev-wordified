@@ -17,6 +17,10 @@ oomAfterAllocations
 in
 this
 )
+;
+allow
+-
+oom
 gcslice
 (
 0

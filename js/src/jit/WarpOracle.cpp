@@ -4003,6 +4003,12 @@ case
 JSOp
 :
 :
+Exception
+:
+case
+JSOp
+:
+:
 Throw
 :
 case
