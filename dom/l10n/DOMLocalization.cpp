@@ -2809,6 +2809,14 @@ OnChange
 if
 (
 mLocalization
+&
+&
+!
+mResourceIds
+.
+IsEmpty
+(
+)
 )
 {
 ErrorResult
