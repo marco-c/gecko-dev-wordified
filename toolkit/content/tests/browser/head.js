@@ -912,13 +912,10 @@ this
 .
 panel
 =
-document
+gBrowser
 .
-getElementById
+_getAndMaybeCreateDateTimePickerPanel
 (
-"
-DateTimePickerPanel
-"
 )
 ;
 this
