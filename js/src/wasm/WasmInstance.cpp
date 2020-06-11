@@ -7180,7 +7180,7 @@ s
 underlying
 CodeRange
 .
-funcCheckedCallEntry
+funcTableEntry
 and
 /
 /
@@ -7265,7 +7265,7 @@ calleeTier
 +
 calleeCodeRange
 .
-funcCheckedCallEntry
+funcTableEntry
 (
 )
 ;
@@ -7299,7 +7299,7 @@ funcIndex
 ]
 ]
 .
-funcCheckedCallEntry
+funcTableEntry
 (
 )
 ;
@@ -10596,7 +10596,7 @@ calleeTier
 +
 codeRange
 .
-funcUncheckedCallEntry
+funcNormalEntry
 (
 )
 ;

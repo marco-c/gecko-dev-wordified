@@ -1425,7 +1425,7 @@ tier
 +
 codeRange
 .
-funcCheckedCallEntry
+funcTableEntry
 (
 )
 ;
