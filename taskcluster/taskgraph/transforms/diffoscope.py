@@ -493,6 +493,20 @@ on
 projects
 '
 ]
+    
+Optional
+(
+'
+optimization
+'
+)
+:
+task_description_schema
+[
+'
+optimization
+'
+]
 }
 )
 transforms
@@ -1280,6 +1294,19 @@ dependencies
 '
 :
 deps
+            
+'
+optimization
+'
+:
+task
+.
+get
+(
+'
+optimization
+'
+)
         
 }
         
