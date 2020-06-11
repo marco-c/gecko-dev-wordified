@@ -10687,10 +10687,6 @@ if
 data
 .
 oldPermissions
-!
-=
-=
-null
 )
 {
 /
