@@ -262,16 +262,6 @@ NS_DECL_NSISTREAMLOADEROBSERVER
 NS_DECL_NSIREQUESTOBSERVER
 /
 /
-initiate
-the
-load
-nsresult
-Init
-(
-)
-;
-/
-/
 cancel
 the
 load
