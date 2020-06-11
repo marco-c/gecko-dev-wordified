@@ -599,12 +599,6 @@ TextureHost
 >
 mWrappedTextureHost
 ;
-wr
-:
-:
-ExternalImageId
-mExternalImageId
-;
 }
 ;
 }
