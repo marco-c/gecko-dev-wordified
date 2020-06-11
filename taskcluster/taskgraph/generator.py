@@ -1894,6 +1894,7 @@ full_task_set
 '
 full_task_set
 graph_config
+parameters
 )
         
 logger
@@ -2007,6 +2008,7 @@ full_task_graph
 '
 full_task_graph
 graph_config
+parameters
 )
         
 logger
@@ -2149,6 +2151,7 @@ target_task_set
 '
 target_task_set
 graph_config
+parameters
 )
         
 logger
@@ -2361,6 +2364,7 @@ target_task_graph
 '
 target_task_graph
 graph_config
+parameters
 )
         
 logger
@@ -2515,6 +2519,7 @@ optimized_task_graph
 '
 optimized_task_graph
 graph_config
+parameters
 )
         
 morphed_task_graph
@@ -2543,6 +2548,7 @@ morphed_task_graph
 '
 morphed_task_graph
 graph_config
+parameters
 )
     
 def
