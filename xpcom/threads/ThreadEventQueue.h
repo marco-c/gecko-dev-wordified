@@ -268,10 +268,6 @@ UniquePtr
 InnerQueueT
 >
 aQueue
-bool
-aIsMainThread
-=
-false
 )
 ;
 bool

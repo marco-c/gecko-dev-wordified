@@ -229,9 +229,6 @@ nsIIdlePeriod
 namespace
 mozilla
 {
-class
-TaskManager
-;
 namespace
 ipc
 {
