@@ -1031,6 +1031,11 @@ nonSyntacticScope
 =
 false
 ;
+bool
+privateClassFields
+=
+false
+;
 /
 *
 *
