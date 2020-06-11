@@ -444,10 +444,6 @@ None
 stdout
 =
 outputstream
-                            
-universal_newlines
-=
-True
 )
     
 proc
@@ -895,12 +891,6 @@ py
 with
 NamedTemporaryFile
 (
-mode
-=
-"
-wt
-+
-"
 )
 as
 pwfile
