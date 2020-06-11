@@ -2613,8 +2613,14 @@ mPendingIDBTransactions
 ;
 localQueue
 .
-RemoveElementsAt
+RemoveLastElements
 (
+localQueue
+.
+end
+(
+)
+-
 std
 :
 :
@@ -2682,11 +2688,6 @@ return
 true
 ;
 }
-)
-localQueue
-.
-end
-(
 )
 )
 ;

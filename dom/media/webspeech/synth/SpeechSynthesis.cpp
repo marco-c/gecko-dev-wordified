@@ -1053,9 +1053,8 @@ in
 OnEnd
 mSpeechQueue
 .
-RemoveElementsAt
+RemoveLastElements
 (
-1
 mSpeechQueue
 .
 Length

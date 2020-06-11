@@ -1142,9 +1142,8 @@ DropPastFrames
 ;
 mFrames
 .
-RemoveElementsAt
+RemoveLastElements
 (
-1
 mFrames
 .
 Length

@@ -2979,9 +2979,8 @@ remaining
 aOutputChannels
 aOutputChannels
 .
-RemoveElementsAt
+RemoveLastElements
 (
-aOutputChannelCount
 aOutputChannels
 .
 Length

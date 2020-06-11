@@ -2080,9 +2080,8 @@ chunks
 .
 mChunks
 .
-RemoveElementsAt
+RemoveLastElements
 (
-1
 mChunks
 .
 Length

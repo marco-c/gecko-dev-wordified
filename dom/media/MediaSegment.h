@@ -3369,9 +3369,8 @@ Length
 {
 mChunks
 .
-RemoveElementsAt
+RemoveLastElements
 (
-i
 mChunks
 .
 Length

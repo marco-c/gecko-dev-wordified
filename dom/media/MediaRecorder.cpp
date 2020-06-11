@@ -9011,8 +9011,14 @@ tracks
 }
 tracks
 .
-RemoveElementsAt
+RemoveLastElements
 (
+tracks
+.
+end
+(
+)
+-
 std
 :
 :
@@ -9046,11 +9052,6 @@ Ended
 )
 ;
 }
-)
-tracks
-.
-end
-(
 )
 )
 ;
