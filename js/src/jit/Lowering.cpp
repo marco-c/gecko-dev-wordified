@@ -2560,7 +2560,7 @@ type
 MIRType
 :
 :
-Value
+Object
 )
 ;
 MOZ_ASSERT
@@ -2596,7 +2596,7 @@ alloc
 )
 LComputeThis
 (
-useBoxAtStart
+useBox
 (
 ins
 -
@@ -2607,7 +2607,7 @@ input
 )
 )
 ;
-defineBox
+define
 (
 lir
 ins
