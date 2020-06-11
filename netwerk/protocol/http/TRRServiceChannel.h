@@ -868,9 +868,12 @@ HttpTransactionShell
 >
 mTransWithPushedStream
 ;
+DataMutex
+<
 nsCOMPtr
 <
 nsICancelable
+>
 >
 mProxyRequest
 ;
