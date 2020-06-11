@@ -4462,8 +4462,8 @@ GCReason
 reason
 )
 ;
-bool
-maybeResizeExact
+size_t
+targetSize
 (
 JS
 :
