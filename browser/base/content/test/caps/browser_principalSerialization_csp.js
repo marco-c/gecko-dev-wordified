@@ -1309,6 +1309,10 @@ geckoViewSessionContextId
 :
 "
 "
+partitionKey
+:
+"
+"
 }
 }
 }
@@ -1446,6 +1450,10 @@ userContextId
 :
 0
 geckoViewSessionContextId
+:
+"
+"
+partitionKey
 :
 "
 "

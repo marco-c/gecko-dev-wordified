@@ -575,6 +575,10 @@ geckoViewSessionContextId
 :
 "
 "
+partitionKey
+:
+"
+"
 }
 }
 }
@@ -682,6 +686,10 @@ geckoViewSessionContextId
 :
 "
 "
+partitionKey
+:
+"
+"
 }
 }
 }
@@ -715,6 +723,10 @@ userContextId
 :
 0
 geckoViewSessionContextId
+:
+"
+"
+partitionKey
 :
 "
 "
@@ -766,6 +778,10 @@ userContextId
 :
 0
 geckoViewSessionContextId
+:
+"
+"
+partitionKey
 :
 "
 "

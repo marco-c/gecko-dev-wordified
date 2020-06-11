@@ -152,7 +152,7 @@ example
 .
 com
 ^
-firstPartyDomain
+partitionKey
 =
 {
 FIRST_PARTY_DOMAIN
@@ -181,7 +181,7 @@ example
 .
 com
 ^
-firstPartyDomain
+partitionKey
 =
 {
 FIRST_PARTY_DOMAIN
