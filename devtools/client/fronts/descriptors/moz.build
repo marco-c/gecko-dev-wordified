@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-frame
-.
-js
-'
-'
 process
 .
 js
