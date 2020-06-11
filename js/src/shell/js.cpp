@@ -67312,9 +67312,6 @@ baselineJitWarmUpThreshold
 warmUpThreshold
 ;
 }
-#
-ifdef
-ENABLE_NEW_REGEXP
 warmUpThreshold
 =
 op
@@ -67348,8 +67345,6 @@ regexpWarmUpThreshold
 warmUpThreshold
 ;
 }
-#
-endif
 if
 (
 op
@@ -67551,9 +67546,6 @@ nativeRegExp
 false
 ;
 }
-#
-ifdef
-ENABLE_NEW_REGEXP
 if
 (
 op
@@ -67658,8 +67650,6 @@ traceRegExpPeephole
 true
 ;
 }
-#
-endif
 #
 ifdef
 NIGHTLY_BUILD
@@ -71688,9 +71678,6 @@ compilation
 )
 |
 |
-#
-ifdef
-ENABLE_NEW_REGEXP
 !
 op
 .
@@ -71830,8 +71817,6 @@ optimization
 )
 |
 |
-#
-endif
 !
 op
 .

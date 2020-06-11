@@ -1155,9 +1155,6 @@ fullIonWarmUpThreshold
 000
 )
 ;
-#
-ifdef
-ENABLE_NEW_REGEXP
 /
 /
 How
@@ -1181,8 +1178,6 @@ regexpWarmUpThreshold
 10
 )
 ;
-#
-endif
 /
 /
 Number
@@ -1964,9 +1959,6 @@ false
 ;
 #
 endif
-#
-ifdef
-ENABLE_NEW_REGEXP
 /
 /
 Dumps
@@ -2038,8 +2030,6 @@ traceRegExpPeephole
 false
 )
 ;
-#
-endif
 SET_DEFAULT
 (
 enableWasmJitExit
@@ -2132,15 +2122,10 @@ baselineJitWarmUpThreshold
 =
 0
 ;
-#
-ifdef
-ENABLE_NEW_REGEXP
 regexpWarmUpThreshold
 =
 0
 ;
-#
-endif
 }
 void
 DefaultJitOptions

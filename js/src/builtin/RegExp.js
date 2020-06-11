@@ -237,9 +237,6 @@ result
 m
 "
 ;
-#
-ifdef
-ENABLE_NEW_REGEXP
 /
 /
 Steps
@@ -260,8 +257,6 @@ result
 s
 "
 ;
-#
-endif
 /
 /
 Steps
