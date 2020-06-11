@@ -4431,15 +4431,6 @@ type
 boolean
 "
 }
-overriddenSearchTopSite
-:
-{
-type
-:
-"
-boolean
-"
-}
 tags
 :
 {
