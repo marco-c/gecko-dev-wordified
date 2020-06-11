@@ -11696,7 +11696,7 @@ Add
 fast
 path
 to
-MComputeThis
+MBoxNonStrictThis
 for
 null
 /
@@ -11723,11 +11723,11 @@ thisSlot
 )
 )
 ;
-MComputeThis
+MBoxNonStrictThis
 *
 thisObj
 =
-MComputeThis
+MBoxNonStrictThis
 :
 :
 New

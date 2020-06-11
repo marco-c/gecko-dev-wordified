@@ -35455,7 +35455,7 @@ group_
 /
 Returns
 the
-value
+object
 to
 use
 as
@@ -35463,11 +35463,15 @@ as
 this
 |
 value
+in
+a
+non
+-
+strict
+function
 .
 See
 also
-ComputeThis
-and
 /
 /
 BoxNonStrictThis
@@ -35477,7 +35481,7 @@ Interpreter
 h
 .
 class
-MComputeThis
+MBoxNonStrictThis
 :
 public
 MUnaryInstruction
@@ -35491,7 +35495,7 @@ BoxPolicy
 Data
 {
 explicit
-MComputeThis
+MBoxNonStrictThis
 (
 MDefinition
 *
@@ -35517,7 +35521,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-ComputeThis
+BoxNonStrictThis
 )
 TRIVIAL_NEW_WRAPPERS
 bool

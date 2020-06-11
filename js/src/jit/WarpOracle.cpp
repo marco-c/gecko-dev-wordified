@@ -1626,7 +1626,7 @@ hasNonSyntacticScope
 /
 Abort
 because
-MComputeThis
+MBoxNonStrictThis
 doesn
 '
 t
@@ -1634,9 +1634,9 @@ support
 non
 -
 syntactic
+/
+/
 scopes
-/
-/
 (
 a
 deprecated
@@ -1648,10 +1648,10 @@ If
 this
 becomes
 an
+/
+/
 issue
 we
-/
-/
 could
 support
 it
@@ -1660,11 +1660,11 @@ refactoring
 GetFunctionThis
 to
 not
+/
+/
 take
 a
 frame
-/
-/
 pointer
 and
 then

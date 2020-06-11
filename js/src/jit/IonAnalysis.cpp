@@ -9180,7 +9180,7 @@ isTypeBarrier
 ins
 -
 >
-isComputeThis
+isBoxNonStrictThis
 (
 )
 |
