@@ -6328,7 +6328,7 @@ a
 |
 this
 |
-value
+object
 to
 be
 returned
@@ -6367,8 +6367,9 @@ environment
 .
 *
 /
-Value
-GetThisValue
+JSObject
+*
+GetThisObject
 (
 JSObject
 *
@@ -6383,8 +6384,9 @@ JSObject
 env
 )
 ;
-Value
-GetThisValueOfWith
+JSObject
+*
+GetThisObjectOfWith
 (
 JSObject
 *

@@ -4922,10 +4922,11 @@ return
 nullptr
 ;
 }
-Value
-thisv
+JSObject
+*
+thisObj
 =
-GetThisValue
+GetThisObject
 (
 object
 )
@@ -4957,7 +4958,11 @@ obj
 initReservedSlot
 (
 THIS_SLOT
-thisv
+ObjectValue
+(
+*
+thisObj
+)
 )
 ;
 if
