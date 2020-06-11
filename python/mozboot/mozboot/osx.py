@@ -1745,21 +1745,23 @@ True
 )
     
 def
-suggest_mobile_android_mozconfig
+generate_mobile_android_mozconfig
 (
 self
 )
 :
         
+return
 getattr
 (
 self
 '
-suggest_
+generate_
 %
 s_mobile_android_mozconfig
 '
 %
+                       
 self
 .
 package_manager
@@ -1768,22 +1770,23 @@ package_manager
 )
     
 def
-suggest_mobile_android_artifact_mode_mozconfig
+generate_mobile_android_artifact_mode_mozconfig
 (
 self
 )
 :
         
+return
 getattr
 (
 self
 '
-suggest_
+generate_
 %
 s_mobile_android_mozconfig
 '
 %
-                
+                       
 self
 .
 package_manager
@@ -3482,7 +3485,7 @@ no_interactive
 )
     
 def
-suggest_homebrew_mobile_android_mozconfig
+generate_homebrew_mobile_android_mozconfig
 (
 self
 artifact_mode
@@ -3496,9 +3499,10 @@ mozboot
 import
 android
         
+return
 android
 .
-suggest_mozconfig
+generate_mozconfig
 (
 '
 macosx
@@ -3990,7 +3994,7 @@ no_interactive
 )
     
 def
-suggest_macports_mobile_android_mozconfig
+generate_macports_mobile_android_mozconfig
 (
 self
 artifact_mode
@@ -4004,9 +4008,10 @@ mozboot
 import
 android
         
+return
 android
 .
-suggest_mozconfig
+generate_mozconfig
 (
 '
 macosx

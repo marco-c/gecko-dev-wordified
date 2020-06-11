@@ -92,6 +92,12 @@ process
 import
 ProcessExecutionMixin
 from
+mozboot
+.
+mozconfig
+import
+MozconfigFindException
+from
 mozfile
 import
 which
@@ -141,8 +147,6 @@ from
 mozconfig
 import
 (
-    
-MozconfigFindException
     
 MozconfigLoadException
     
