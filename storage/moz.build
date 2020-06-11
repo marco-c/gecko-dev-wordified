@@ -125,11 +125,6 @@ XPIDL_SOURCES
 =
 [
 '
-mozIStorageAggregateFunction
-.
-idl
-'
-'
 mozIStorageAsyncConnection
 .
 idl
