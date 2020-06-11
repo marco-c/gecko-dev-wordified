@@ -146,15 +146,6 @@ include
 "
 mozilla
 /
-ContentBlockingUserInteraction
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ContentPrincipal
 .
 h
@@ -992,7 +983,6 @@ NS_LITERAL_CSTRING
 cookie
 "
 )
-USER_INTERACTION_PERM
 }
 ;
 /
