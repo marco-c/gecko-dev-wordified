@@ -54,7 +54,11 @@ MPL
 /
 .
 from
+mozperftest
 .
+metrics
+.
+notebook
 .
 utilities
 import
