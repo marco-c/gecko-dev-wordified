@@ -1115,6 +1115,15 @@ aName
 nsGkAtoms
 :
 :
+mozallowfullscreen
+|
+|
+aName
+=
+=
+nsGkAtoms
+:
+:
 allowpaymentrequest
 )
 {
