@@ -3424,12 +3424,10 @@ frontend
 gc
 '
 '
+irregexp
+'
+'
 jit
-'
-'
-new
--
-regexp
 '
 '
 wasm
