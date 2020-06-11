@@ -292,6 +292,7 @@ tabs
 TabList
 }
 ;
+export
 function
 initialTabState
 (

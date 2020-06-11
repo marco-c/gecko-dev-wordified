@@ -189,6 +189,7 @@ import
 {
 makeMockSource
 mockcx
+makeMockState
 }
 from
 "
@@ -586,6 +587,8 @@ mockSourceActors
 ;
 state
 =
+makeMockState
+(
 {
 sources
 :
@@ -611,6 +614,7 @@ initialThreadsState
 (
 )
 }
+)
 ;
 const
 threadSources
@@ -713,6 +717,8 @@ mockSourceActors
 ;
 state
 =
+makeMockState
+(
 {
 sources
 :
@@ -738,6 +744,7 @@ initialThreadsState
 (
 )
 }
+)
 ;
 const
 threadSources
