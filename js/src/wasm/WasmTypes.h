@@ -18525,9 +18525,9 @@ data
 .
 MOZ_ALIGNED_DECL
 (
+16
 char
 globalArea
-16
 )
 ;
 }
