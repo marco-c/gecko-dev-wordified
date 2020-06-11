@@ -1483,6 +1483,11 @@ if
 appStartup
 )
 {
+bool
+userAllowedQuit
+=
+true
+;
 appStartup
 -
 >
@@ -1492,6 +1497,8 @@ nsIAppStartup
 :
 :
 eForceQuit
+&
+userAllowedQuit
 )
 ;
 }

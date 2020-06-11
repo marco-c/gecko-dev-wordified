@@ -1524,6 +1524,11 @@ if
 appService
 )
 {
+bool
+userAllowedQuit
+=
+true
+;
 appService
 -
 >
@@ -1533,6 +1538,8 @@ nsIAppStartup
 :
 :
 eForceQuit
+&
+userAllowedQuit
 )
 ;
 }
@@ -2084,6 +2091,11 @@ if
 appService
 )
 {
+bool
+userAllowedQuit
+=
+false
+;
 appService
 -
 >
@@ -2093,6 +2105,8 @@ nsIAppStartup
 :
 :
 eForceQuit
+&
+userAllowedQuit
 )
 ;
 }
