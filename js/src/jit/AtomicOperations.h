@@ -3226,13 +3226,6 @@ defined
 (
 __s390x__
 )
-|
-|
-\
-defined
-(
-__m68k__
-)
 #
 include
 "
