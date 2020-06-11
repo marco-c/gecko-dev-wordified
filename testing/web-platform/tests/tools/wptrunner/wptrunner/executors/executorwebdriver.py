@@ -2523,10 +2523,6 @@ supports_testdriver
 =
 True
     
-protocol_cls
-=
-WebDriverProtocol
-    
 def
 __init__
 (
@@ -2595,9 +2591,7 @@ self
 .
 protocol
 =
-self
-.
-protocol_cls
+WebDriverProtocol
 (
 self
 browser
@@ -3292,10 +3286,6 @@ RefTestExecutor
 )
 :
     
-protocol_cls
-=
-WebDriverProtocol
-    
 def
 __init__
 (
@@ -3368,12 +3358,9 @@ self
 .
 protocol
 =
-self
-.
-protocol_cls
+WebDriverProtocol
 (
 self
-                                          
 browser
                                           
 capabilities
@@ -3798,10 +3785,6 @@ CrashtestExecutor
 )
 :
     
-protocol_cls
-=
-WebDriverProtocol
-    
 def
 __init__
 (
@@ -3874,12 +3857,9 @@ self
 .
 protocol
 =
-self
-.
-protocol_cls
+WebDriverProtocol
 (
 self
-                                          
 browser
                                           
 capabilities
