@@ -1996,6 +1996,8 @@ nsCString
 >
 &
 unsafeHeaders
+bool
+aShouldStripRequestBodyHeader
 )
 override
 ;

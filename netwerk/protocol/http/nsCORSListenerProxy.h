@@ -264,6 +264,7 @@ class
 UpdateType
 {
 Default
+StripRequestBodyHeader
 InternalOrHSTSRedirect
 }
 ;

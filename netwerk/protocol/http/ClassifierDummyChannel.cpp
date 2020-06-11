@@ -2583,6 +2583,8 @@ nsCString
 >
 &
 aUnsafeHeaders
+bool
+aShouldStripRequestBodyHeader
 )
 {
 }
