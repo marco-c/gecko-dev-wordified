@@ -1084,7 +1084,11 @@ NVIDIA
 ATI
 Microsoft
 Parallels
+VMWare
+VirtualBox
 Qualcomm
+MicrosoftBasic
+MicrosoftHyperV
 Max
 }
 ;
