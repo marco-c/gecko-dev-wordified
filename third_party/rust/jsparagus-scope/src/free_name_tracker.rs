@@ -737,6 +737,7 @@ not
 yet
 defined
 .
+pub
 fn
 closed_over_freevars
 (
@@ -785,6 +786,7 @@ not
 yet
 defined
 .
+pub
 fn
 used_freevars
 (

@@ -169,6 +169,13 @@ org
 html
 /
 rfc3629
+#
+[
+rustfmt
+:
+:
+skip
+]
 static
 UTF8_CHAR_WIDTH
 :

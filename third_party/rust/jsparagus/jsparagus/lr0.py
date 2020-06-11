@@ -1487,28 +1487,6 @@ funcalls
 "
 "
     
-#
-TODO
-:
-find
-a
-way
-to
-carry
-alias
-sets
-to
-here
-.
-    
-alias_set
-=
-[
-"
-parser
-"
-]
-    
 if
 isinstance
 (
@@ -1557,13 +1535,6 @@ AstBuilder
 set_to
 =
 ret
-                           
-alias_read
-=
-alias_set
-alias_write
-=
-alias_set
 )
             
 funcalls
@@ -1735,14 +1706,6 @@ fallible
 set_to
 =
 ret
-                       
-alias_read
-=
-alias_set
-                       
-alias_write
-=
-alias_set
 )
         
 funcalls

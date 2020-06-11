@@ -235,6 +235,8 @@ TYPES
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -253,6 +255,8 @@ Reject
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -280,6 +284,8 @@ GetAsyncIterator
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -301,6 +307,8 @@ Set
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -322,6 +330,8 @@ Return
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -343,6 +353,8 @@ CantDeleteSuper
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -376,6 +388,8 @@ Loop
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub
@@ -427,6 +441,8 @@ MatchAll
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
 pub

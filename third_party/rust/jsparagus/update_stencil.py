@@ -3324,6 +3324,8 @@ f
 derive
 (
 Debug
+Clone
+Copy
 )
 ]
         

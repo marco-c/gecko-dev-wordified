@@ -143,7 +143,7 @@ use
 pass
 :
 :
-ScopeDataMapAndFunctionMap
+ScopePassResult
 ;
 /
 /
@@ -230,7 +230,7 @@ alloc
 )
 -
 >
-ScopeDataMapAndFunctionMap
+ScopePassResult
 {
 let
 mut
