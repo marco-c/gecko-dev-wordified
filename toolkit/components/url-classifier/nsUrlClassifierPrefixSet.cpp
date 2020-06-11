@@ -3489,9 +3489,8 @@ totalDeltas
 }
 indexStarts
 .
-RemoveElementAt
+RemoveLastElement
 (
-indexSize
 )
 ;
 /

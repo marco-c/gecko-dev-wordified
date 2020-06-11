@@ -7780,6 +7780,11 @@ IsEmpty
 {
 thread
 =
+std
+:
+:
+move
+(
 mIdleThreadArray
 .
 PopLastElement
@@ -7787,6 +7792,7 @@ PopLastElement
 )
 .
 mThread
+)
 ;
 }
 }
