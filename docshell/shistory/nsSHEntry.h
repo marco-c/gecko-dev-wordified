@@ -358,6 +358,9 @@ mLoadedInThisProcess
 bool
 mPersist
 ;
+bool
+mHasUserInteraction
+;
 }
 ;
 #

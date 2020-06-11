@@ -23161,6 +23161,11 @@ RecomputeLanguageFromCharset
 (
 )
 ;
+bool
+GetSHEntryHasUserInteraction
+(
+)
+;
 public
 :
 void
@@ -23182,6 +23187,13 @@ return
 mMayNeedFontPrefsUpdate
 ;
 }
+void
+SetSHEntryHasUserInteraction
+(
+bool
+aHasInteraction
+)
+;
 already_AddRefed
 <
 nsAtom
