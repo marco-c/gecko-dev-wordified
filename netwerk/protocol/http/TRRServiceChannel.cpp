@@ -1378,6 +1378,10 @@ aStatus
 }
 mURI
 mProxyResolveFlags
+getter_AddRefs
+(
+mProxyRequest
+)
 )
 ;
 if
