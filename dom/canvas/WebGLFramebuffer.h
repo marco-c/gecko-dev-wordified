@@ -116,6 +116,13 @@ h
 #
 include
 "
+GLScreenBuffer
+.
+h
+"
+#
+include
+"
 WebGLObjectModel
 .
 h
@@ -724,6 +731,12 @@ gl
 MozFramebuffer
 >
 mOpaque
+;
+gl
+:
+:
+SwapChain
+mOpaqueSwapChain
 ;
 bool
 mInOpaqueRAF
