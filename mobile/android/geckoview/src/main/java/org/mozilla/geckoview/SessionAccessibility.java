@@ -4935,6 +4935,14 @@ enable
 )
 ;
 }
+SuppressWarnings
+(
+"
+checkstyle
+:
+javadocmethod
+"
+)
 public
 boolean
 onMotionEvent
