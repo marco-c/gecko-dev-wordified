@@ -2463,7 +2463,7 @@ if
 !
 gLoadMgr
 .
-cycleStopped
+stopped
 (
 )
 )
@@ -3285,7 +3285,7 @@ testDurationMS
 ;
 gLoadMgr
 .
-startCycle
+startSequencer
 (
 sequencer
 )
@@ -3501,7 +3501,7 @@ if
 (
 gLoadMgr
 .
-cycleStopped
+stopped
 (
 )
 )
