@@ -1102,7 +1102,7 @@ return
 rv
 ;
 }
-void
+bool
 SMILTimeContainer
 :
 :
@@ -1189,6 +1189,7 @@ MOZ_ASSERT
 mHoldingEntries
 )
 ;
+return
 mMilestoneEntries
 .
 Push

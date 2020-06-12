@@ -8987,7 +8987,14 @@ state
 sReleasedInstances
 -
 >
-PopLastElement
+LastElement
+(
+)
+;
+sReleasedInstances
+-
+>
+RemoveLastElement
 (
 )
 ;

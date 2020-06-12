@@ -4667,8 +4667,11 @@ listLen
 listOfWeakConns
 -
 >
-RemoveLastElement
+RemoveElementAt
 (
+listLen
+-
+1
 )
 ;
 MOZ_ASSERT

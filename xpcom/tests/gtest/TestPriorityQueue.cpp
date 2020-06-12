@@ -177,11 +177,8 @@ T
 Compare
 >
 copy
-=
-aQueue
-.
-Clone
 (
+aQueue
 )
 ;
 for
@@ -418,10 +415,6 @@ queue2
 queue2
 =
 queue
-.
-Clone
-(
-)
 ;
 CheckPopSequence
 (
