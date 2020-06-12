@@ -490,6 +490,13 @@ h
 #
 include
 "
+pk11pub
+.
+h
+"
+#
+include
+"
 mozpkix
 /
 pkixnss
