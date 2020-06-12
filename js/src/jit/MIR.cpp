@@ -21279,9 +21279,11 @@ foldsConstant
 alloc
 )
 )
+{
 return
 def
 ;
+}
 if
 (
 MDefinition
@@ -21293,9 +21295,11 @@ foldsConstantPower
 alloc
 )
 )
+{
 return
 def
 ;
+}
 return
 this
 ;
