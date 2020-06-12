@@ -966,6 +966,9 @@ of
 the
 parent
 manifest
+relative
+to
+rootdir
 (
 default
 None
@@ -1180,6 +1183,15 @@ abspath
 filename
 )
             
+filename_rel
+=
+self
+.
+relative_to_root
+(
+filename
+)
+            
 self
 .
 source_files
@@ -1262,6 +1274,10 @@ filename
 filename
 =
 here
+=
+None
+            
+filename_rel
 =
 None
         
@@ -1542,7 +1558,7 @@ include_file
 include_defaults
 parentmanifest
 =
-filename
+filename_rel
 )
                 
 continue
@@ -1605,12 +1621,7 @@ manifest_relpath
 None
             
 if
-test
-[
-'
-manifest
-'
-]
+filename
 :
                 
 test
@@ -1620,20 +1631,7 @@ manifest_relpath
 '
 ]
 =
-self
-.
-relative_to_root
-(
-normalize_path
-(
-test
-[
-'
-manifest
-'
-]
-)
-)
+filename_rel
             
 #
 determine
@@ -1862,12 +1860,7 @@ ancestor_manifest
 '
 ]
 =
-self
-.
-relative_to_root
-(
 parentmanifest
-)
             
 #
 append
