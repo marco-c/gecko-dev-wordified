@@ -1781,6 +1781,7 @@ GLContextProvider
 :
 CreateHeadless
 (
+{
 gl
 :
 :
@@ -1796,6 +1797,7 @@ CreateContextFlags
 :
 :
 REQUIRE_COMPAT_PROFILE
+}
 &
 failureUnused
 )
