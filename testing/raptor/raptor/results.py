@@ -167,6 +167,10 @@ no_conditioned_profile
 =
 False
         
+cold
+=
+False
+        
 *
 *
 kwargs
@@ -281,6 +285,12 @@ self
 no_conditioned_profile
 =
 no_conditioned_profile
+        
+self
+.
+cold
+=
+cold
     
 abstractmethod
     
@@ -4136,6 +4146,26 @@ append
 (
 "
 gecko_profile
+"
+)
+                    
+if
+self
+.
+cold
+:
+                        
+new_result
+[
+"
+extra_options
+"
+]
+.
+append
+(
+"
+cold
 "
 )
                     

@@ -4121,6 +4121,23 @@ cold
 -
 load
             
+#
+Bug
+1644344
+we
+can
+remove
+this
+condition
+once
+we
+'
+re
+migrated
+away
+from
+WebExtension
+            
 if
 "
 -
@@ -4134,6 +4151,11 @@ next_test
 name
 '
 ]
+and
+not
+args
+.
+browsertime
 :
                 
 next_test
