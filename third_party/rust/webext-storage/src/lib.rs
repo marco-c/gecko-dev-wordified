@@ -95,6 +95,13 @@ store
 mod
 sync
 ;
+pub
+use
+migration
+:
+:
+MigrationInfo
+;
 /
 /
 We
