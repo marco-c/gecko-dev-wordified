@@ -4458,7 +4458,7 @@ lastFAD
 =
 mList
 .
-LastElement
+PopLastElement
 (
 )
 ;
@@ -4495,12 +4495,6 @@ GetDepthInFrameTree
 lastFAD
 .
 mDepth
-)
-;
-mList
-.
-RemoveLastElement
-(
 )
 ;
 return

@@ -4383,11 +4383,8 @@ the
 cache
 mColFrames
 .
-RemoveElementAt
+RemoveLastElement
 (
-numCacheCols
--
-1
 )
 ;
 /

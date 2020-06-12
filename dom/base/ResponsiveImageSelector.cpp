@@ -1351,11 +1351,8 @@ eCandidateType_Default
 {
 mCandidates
 .
-RemoveElementAt
+RemoveLastElement
 (
-candidates
--
-1
 )
 ;
 }
