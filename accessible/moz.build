@@ -336,17 +336,6 @@ tests
 /
 browser
 /
-telemetry
-/
-browser
-.
-ini
-'
-'
-tests
-/
-browser
-/
 tree
 /
 browser
