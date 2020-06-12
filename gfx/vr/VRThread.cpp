@@ -149,13 +149,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-VRManager
-.
-h
-"
 namespace
 mozilla
 {

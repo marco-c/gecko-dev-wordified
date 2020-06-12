@@ -124,6 +124,13 @@ h
 #
 include
 "
+VRManager
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused

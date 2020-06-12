@@ -161,13 +161,6 @@ h
 #
 include
 "
-VRManager
-.
-h
-"
-#
-include
-"
 gfxVR
 .
 h
