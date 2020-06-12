@@ -74,12 +74,6 @@ Path
 from
 mozperftest
 .
-scriptinfo
-import
-ScriptInfo
-from
-mozperftest
-.
 utils
 import
 install_package
@@ -106,6 +100,16 @@ system_prerequisites
     
 append_system_env
 )
+from
+mozperftest
+.
+test
+.
+browsertime
+.
+script
+import
+ScriptInfo
 BROWSERTIME_SRC_ROOT
 =
 Path
@@ -623,10 +627,9 @@ _created_dirs
         
 self
 .
-_test_info
+_test_script
 =
-{
-}
+None
         
 self
 .
@@ -914,7 +917,8 @@ url
 "
 )
         
-if
+tests
+=
 self
 .
 get_arg
@@ -922,23 +926,55 @@ get_arg
 "
 tests
 "
+[
+]
 )
+        
+if
+len
+(
+tests
+)
+!
+=
+1
 :
             
+#
+we
+don
+'
+t
+support
+auto
+-
+discovery
+(
+no
+test
+passed
+)
+or
+multiple
+            
+#
+tests
+here
+yet
+.
+            
+raise
+NotImplementedError
+(
+)
+        
 self
 .
-_test_info
+_test_script
 =
 ScriptInfo
 (
-self
-.
-get_arg
-(
-"
 tests
-"
-)
 [
 0
 ]
@@ -2270,20 +2306,6 @@ directory
 "
 )
         
-test_script
-=
-self
-.
-get_arg
-(
-"
-tests
-"
-)
-[
-0
-]
-        
 args
 =
 [
@@ -2327,7 +2349,14 @@ iterations
 )
 )
             
-test_script
+self
+.
+_test_script
+[
+"
+filename
+"
+]
         
 ]
         
@@ -2537,7 +2566,6 @@ add_result
 (
             
 {
-                
 "
 results
 "
@@ -2546,30 +2574,18 @@ str
 (
 result_dir
 )
-                
 "
 name
 "
 :
 self
 .
-_test_info
-.
-get
-(
+_test_script
+[
 "
 name
 "
-(
-"
-browsertime
-"
-)
-)
-[
-0
 ]
-            
 }
         
 )
