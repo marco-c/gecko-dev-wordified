@@ -158,6 +158,16 @@ aManager
 )
 {
 }
+void
+Initialize
+(
+const
+CanvasInitializeData
+&
+aData
+)
+override
+;
 CompositableForwarder
 *
 GetForwarder
@@ -175,7 +185,6 @@ mManager
 ;
 class
 WebRenderCanvasRendererAsync
-final
 :
 public
 WebRenderCanvasRenderer
@@ -217,7 +226,7 @@ void
 Initialize
 (
 const
-CanvasRendererData
+CanvasInitializeData
 &
 aData
 )
@@ -231,6 +240,12 @@ override
 ;
 void
 ClearCachedResources
+(
+)
+override
+;
+void
+Destroy
 (
 )
 override

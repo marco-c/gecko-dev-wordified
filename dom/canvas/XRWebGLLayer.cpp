@@ -1671,6 +1671,13 @@ DeleteFramebuffer
 (
 )
 ;
+mWebGL
+-
+>
+ClearVRFrame
+(
+)
+;
 }
 }
 /

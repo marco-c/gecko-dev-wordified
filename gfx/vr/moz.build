@@ -238,12 +238,6 @@ base
 '
 '
 /
-dom
-/
-canvas
-'
-'
-/
 gfx
 /
 layers

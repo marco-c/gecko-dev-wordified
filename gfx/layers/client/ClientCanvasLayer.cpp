@@ -233,10 +233,8 @@ this
 )
 ;
 }
-RefPtr
-<
 CanvasRenderer
->
+*
 ClientCanvasLayer
 :
 :
