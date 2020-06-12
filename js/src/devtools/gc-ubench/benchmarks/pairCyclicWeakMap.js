@@ -117,7 +117,7 @@ k4
 defaultGarbagePerFrame
 :
 "
-1K
+10K
 "
 defaultGarbagePiles
 :

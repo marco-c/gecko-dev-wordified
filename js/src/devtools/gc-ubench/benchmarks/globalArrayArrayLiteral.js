@@ -96,6 +96,16 @@ foo
 .
 ]
 "
+defaultGarbagePerFrame
+:
+"
+1M
+"
+defaultGarbagePiles
+:
+"
+1K
+"
 load
 :
 N

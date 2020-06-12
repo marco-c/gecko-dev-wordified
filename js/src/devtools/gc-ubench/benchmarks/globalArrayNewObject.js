@@ -98,6 +98,16 @@ Object
 .
 ]
 "
+defaultGarbagePerFrame
+:
+"
+128K
+"
+defaultGarbagePiles
+:
+"
+1K
+"
 load
 :
 N

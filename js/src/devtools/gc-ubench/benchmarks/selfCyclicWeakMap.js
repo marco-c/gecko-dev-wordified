@@ -113,7 +113,7 @@ k3
 defaultGarbagePerFrame
 :
 "
-1K
+10K
 "
 defaultGarbagePiles
 :
