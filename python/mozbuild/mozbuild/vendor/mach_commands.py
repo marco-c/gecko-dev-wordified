@@ -200,6 +200,7 @@ repository
     
 CommandArgument
 (
+        
 "
 -
 -
@@ -209,14 +210,39 @@ for
 -
 update
 "
+        
 action
 =
 "
 store_true
 "
+        
+help
+=
+"
+For
+scripted
+use
+prints
+the
+new
+commit
+to
+update
+to
+or
+nothing
+if
+up
+to
+date
+.
+"
+        
 default
 =
 False
+    
 )
     
 CommandArgument
@@ -280,6 +306,7 @@ to
     
 CommandArgument
 (
+        
 "
 -
 -
@@ -304,10 +331,12 @@ verify
 the
 manifest
 "
+    
 )
     
 CommandArgument
 (
+        
 "
 library
 "
@@ -329,6 +358,7 @@ to
 vendor
 .
 "
+    
 )
     
 def
@@ -450,6 +480,16 @@ enable_unstructured
 (
 )
         
+if
+check_for_update
+:
+            
+logging
+.
+disable
+(
+)
+        
 try
 :
             
@@ -504,6 +544,9 @@ exit
 if
 not
 ignore_modified
+and
+not
+check_for_update
 :
             
 self
@@ -703,6 +746,7 @@ exit
 (
 1
 )
+    
 #
 =
 =
@@ -958,6 +1002,7 @@ vendor
 *
 kwargs
 )
+    
 #
 =
 =

@@ -283,18 +283,13 @@ elif
 check_for_update
 :
             
-self
-.
-log
+print
 (
-logging
-.
-ERROR
 "
-vendor
+%
+s
 "
-{
-}
+%
 commit
 )
             
