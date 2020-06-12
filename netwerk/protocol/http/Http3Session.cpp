@@ -490,6 +490,10 @@ const
 nsACString
 &
 aOrigin
+const
+nsACString
+&
+aAlpnToken
 nsISocketTransport
 *
 aSocketTransport
@@ -535,6 +539,10 @@ MOZ_ASSERT
 (
 readerWriter
 )
+;
+mAlpnToken
+=
+aAlpnToken
 ;
 mSocketTransport
 =
@@ -964,7 +972,7 @@ get
 )
 PromiseFlatCString
 (
-kHttp3Version
+aAlpnToken
 )
 .
 get
@@ -1003,7 +1011,7 @@ NeqoHttp3Conn
 Init
 (
 aOrigin
-kHttp3Version
+aAlpnToken
 selfAddrStr
 peerAddrStr
 gHttpHandler
@@ -8477,7 +8485,7 @@ sslSocketControl
 >
 TestJoinConnection
 (
-kHttp3Version
+mAlpnToken
 hostname
 port
 &
@@ -8494,7 +8502,7 @@ sslSocketControl
 >
 JoinConnection
 (
-kHttp3Version
+mAlpnToken
 hostname
 port
 &

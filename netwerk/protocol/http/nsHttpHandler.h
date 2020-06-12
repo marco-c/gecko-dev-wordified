@@ -2839,7 +2839,7 @@ mBug1556491
 ;
 }
 bool
-IsHttp3VersionSupportedHex
+IsHttp3VersionSupported
 (
 const
 nsACString
@@ -2847,15 +2847,6 @@ nsACString
 version
 )
 ;
-nsCString
-Http3Version
-(
-)
-{
-return
-kHttp3Version
-;
-}
 bool
 IsHttp3Enabled
 (
