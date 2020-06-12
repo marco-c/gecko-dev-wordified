@@ -2511,6 +2511,11 @@ chromeContext
 networkEventResource
 .
 chromeContext
+blockedReason
+:
+networkEventResource
+.
+blockedReason
 }
 )
 ;
