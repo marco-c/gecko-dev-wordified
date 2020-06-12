@@ -838,6 +838,8 @@ this
 duration
 =
 duration
+*
+1000
 ;
 this
 .
@@ -1451,10 +1453,10 @@ events
 }
 startCycle
 (
-tests_to_run
+sequencer
 now
 =
-performance
+gHost
 .
 now
 (
@@ -1465,14 +1467,7 @@ this
 .
 cycle
 =
-new
-LoadCycle
-(
-tests_to_run
-this
-.
-testDurationMS
-)
+sequencer
 ;
 this
 .
@@ -1497,7 +1492,6 @@ current
 this
 .
 _eventsSinceLastTick
-|
 =
 this
 .
