@@ -1590,12 +1590,28 @@ target_dir
 )
 )
     
+if
+package_file
+.
+exists
+(
+)
+:
+        
 package_file
 .
 unlink
 (
 )
     
+if
+target_dir
+.
+exists
+(
+)
+:
+        
 shutil
 .
 rmtree
