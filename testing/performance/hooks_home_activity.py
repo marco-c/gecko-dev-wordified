@@ -204,6 +204,13 @@ exc
 return
 True
 def
+logcat_processor
+(
+)
+:
+    
+pass
+def
 before_runs
 (
 env
