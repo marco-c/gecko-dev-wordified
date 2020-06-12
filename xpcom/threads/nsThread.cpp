@@ -6356,8 +6356,13 @@ while
 #
 ifdef
 MOZ_COLLECTING_RUNNABLE_TELEMETRY
+/
+/
 static
 bool
+nsThread
+:
+:
 GetLabeledRunnableName
 (
 nsIRunnable
@@ -7656,6 +7661,10 @@ MakeScopeExit
 {
 if
 (
+!
+usingTaskController
+&
+&
 mIsMainThread
 )
 {
@@ -7676,6 +7685,10 @@ restoreRunnableName
 ;
 if
 (
+!
+usingTaskController
+&
+&
 mIsMainThread
 )
 {
