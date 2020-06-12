@@ -866,7 +866,7 @@ create_mock
 )
     
 #
-check
+Check
 that
 the
 metrics
@@ -879,6 +879,17 @@ after
 other
 have
 finished
+and
+that
+the
+other
+layers
+    
+#
+were
+only
+called
+once
     
 class
 M
@@ -893,9 +904,25 @@ self
             
 system
 .
+setup
+.
+assert_called_once
+(
+)
+            
+browser
+.
+setup
+.
+assert_called_once
+(
+)
+            
+system
+.
 teardown
 .
-assert_called
+assert_called_once
 (
 )
             
@@ -903,7 +930,7 @@ browser
 .
 teardown
 .
-assert_called
+assert_called_once
 (
 )
             

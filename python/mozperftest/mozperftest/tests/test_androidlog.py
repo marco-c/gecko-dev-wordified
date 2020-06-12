@@ -96,6 +96,17 @@ apps
 ]
     
 def
+uninstall_app
+(
+self
+apk_name
+)
+:
+        
+return
+True
+    
+def
 install_app
 (
 self
