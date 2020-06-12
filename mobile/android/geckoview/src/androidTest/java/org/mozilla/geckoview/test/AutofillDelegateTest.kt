@@ -2063,6 +2063,13 @@ visible
 .
 /
 /
+Hidden
+elements
+are
+ignored
+.
+/
+/
 TODO
 :
 Is
@@ -2109,7 +2116,7 @@ visible
 )
 equalTo
 (
-7
+6
 )
 )
 mainSession
