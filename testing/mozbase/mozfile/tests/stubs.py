@@ -91,6 +91,22 @@ txt
          
 ]
 def
+create_empty_stub
+(
+)
+:
+    
+tempdir
+=
+tempfile
+.
+mkdtemp
+(
+)
+    
+return
+tempdir
+def
 create_stub
 (
 )
