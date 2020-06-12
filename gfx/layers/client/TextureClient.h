@@ -2174,9 +2174,9 @@ compositable
 which
 would
 use
-two
-Texture
 pairs
+of
+Textures
 )
 .
 *
@@ -5400,6 +5400,14 @@ const
 PlanarYCbCrData
 &
 aData
+)
+;
+TextureType
+PreferredCanvasTextureType
+(
+const
+KnowsCompositor
+&
 )
 ;
 }
