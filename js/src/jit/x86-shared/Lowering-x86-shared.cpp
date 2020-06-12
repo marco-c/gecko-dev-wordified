@@ -1199,7 +1199,17 @@ useRegisterAtStart
 (
 lhs
 )
+lhs
+!
+=
+rhs
+?
 useOrConstant
+(
+rhs
+)
+:
+useOrConstantAtStart
 (
 rhs
 )
