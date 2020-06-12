@@ -111,9 +111,9 @@ MozbuildObject
 )
 CARGO_CONFIG_TEMPLATE
 =
-'
-'
-'
+"
+"
+"
 \
 #
 This
@@ -322,14 +322,14 @@ top_srcdir
 /
 VENDORED_DIRECTORY
 "
-'
-'
-'
+"
+"
+"
 CARGO_LOCK_NOTICE
 =
-'
-'
-'
+"
+"
+"
 NOTE
 :
 cargo
@@ -369,9 +369,9 @@ Cargo
 .
 lock
 .
-'
-'
-'
+"
+"
+"
 class
 VendorRust
 (
@@ -394,9 +394,9 @@ self
 .
 substs
 [
-'
+"
 CARGO
-'
+"
 ]
         
 except
@@ -426,9 +426,9 @@ cargo
 =
 which
 (
-'
+"
 cargo
-'
+"
 )
             
 if
@@ -467,9 +467,9 @@ cargo
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Ensure
 that
@@ -491,25 +491,28 @@ vendor
 command
 .
         
-'
-'
-'
+"
+"
+"
         
 out
 =
+(
+            
 subprocess
 .
 check_output
 (
 [
 cargo
-'
+"
 -
 -
 version
-'
+"
 ]
 )
+            
 .
 splitlines
 (
@@ -517,14 +520,17 @@ splitlines
 [
 0
 ]
+            
 .
 decode
 (
-'
+"
 UTF
 -
 8
-'
+"
+)
+        
 )
         
 if
@@ -533,9 +539,9 @@ out
 .
 startswith
 (
-'
+"
 cargo
-'
+"
 )
 :
             
@@ -556,11 +562,11 @@ split
 )
 >
 =
-'
+"
 1
 .
 37
-'
+"
     
 def
 check_modified_files
@@ -569,9 +575,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Ensure
 that
@@ -626,14 +632,16 @@ use
 case
 .
         
-'
-'
-'
+"
+"
+"
         
 modified
 =
 [
+            
 f
+            
 for
 f
 in
@@ -643,11 +651,11 @@ repository
 .
 get_changed_files
 (
-            
-'
+"
 M
-'
+"
 )
+            
 if
 os
 .
@@ -660,17 +668,18 @@ f
 not
 in
 (
-'
+"
 Cargo
 .
 toml
-'
-'
+"
+"
 Cargo
 .
 lock
-'
+"
 )
+        
 ]
         
 if
@@ -681,18 +690,21 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 modified_files
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 You
 have
 uncommitted
@@ -724,18 +736,19 @@ ignore
 -
 modified
 .
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                    
 files
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -744,7 +757,9 @@ sorted
 modified
 )
 )
+                
 )
+            
 )
             
 sys
@@ -761,9 +776,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Set
 environment
@@ -831,32 +846,33 @@ against
 it
 .
         
-'
-'
-'
+"
+"
+"
         
 test_paths
 =
 [
-'
+"
 /
 usr
 /
 include
-'
-'
+"
+"
 /
 usr
 /
 local
 /
 include
-'
+"
 ]
         
 if
 any
 (
+            
 [
 os
 .
@@ -871,13 +887,13 @@ path
 join
 (
 path
-'
+"
 openssl
 /
 ssl
 .
 h
-'
+"
 )
 )
 for
@@ -885,6 +901,7 @@ path
 in
 test_paths
 ]
+        
 )
 :
             
@@ -910,7 +927,7 @@ path
 .
 exists
 (
-'
+"
 /
 usr
 /
@@ -927,7 +944,7 @@ openssl
 ssl
 .
 h
-'
+"
 )
 :
             
@@ -943,16 +960,16 @@ self
 .
 log
 (
+                
 logging
 .
 INFO
-'
+"
 openssl
-'
+"
 {
 }
-                     
-'
+"
 Using
 OpenSSL
 in
@@ -964,17 +981,18 @@ local
 opt
 /
 openssl
-'
+"
+            
 )
             
 return
 {
                 
-'
+"
 OPENSSL_INCLUDE_DIR
-'
+"
 :
-'
+"
 /
 usr
 /
@@ -985,13 +1003,13 @@ opt
 openssl
 /
 include
-'
+"
                 
-'
+"
 OPENSSL_LIB_DIR
-'
+"
 :
-'
+"
 /
 usr
 /
@@ -1002,7 +1020,7 @@ opt
 openssl
 /
 lib
-'
+"
             
 }
         
@@ -1013,9 +1031,9 @@ log
 logging
 .
 ERROR
-'
+"
 openssl
-'
+"
 {
 }
 "
@@ -1036,9 +1054,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Ensures
 all
@@ -1061,9 +1079,9 @@ None
 otherwise
 .
         
-'
-'
-'
+"
+"
+"
         
 cargo
 =
@@ -1087,16 +1105,19 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 cargo_version
-'
+"
+                
 {
 }
-                     
-'
+                
+"
 Cargo
 >
 =
@@ -1113,7 +1134,8 @@ Rust
 or
 newer
 )
-'
+"
+            
 )
             
 return
@@ -1129,17 +1151,17 @@ log
 logging
 .
 DEBUG
-'
+"
 cargo_version
-'
+"
 {
 }
-'
+"
 cargo
 is
 new
 enough
-'
+"
 )
         
 return
@@ -1299,15 +1321,15 @@ RUNTIME_LICENSE_WHITELIST
 =
 [
         
-'
+"
 Apache
 -
 2
 .
 0
-'
+"
         
-'
+"
 Apache
 -
 2
@@ -1317,7 +1339,7 @@ WITH
 LLVM
 -
 exception
-'
+"
         
 #
 BSD
@@ -1385,37 +1407,37 @@ RUNTIME_LICENSE_PACKAGE_WHITELIST
 below
 .
         
-'
+"
 CC0
 -
 1
 .
 0
-'
+"
         
-'
+"
 ISC
-'
+"
         
-'
+"
 MIT
-'
+"
         
-'
+"
 MPL
 -
 2
 .
 0
-'
+"
         
-'
+"
 Unlicense
-'
+"
         
-'
+"
 Zlib
-'
+"
     
 ]
     
@@ -1455,43 +1477,43 @@ BUILDTIME_LICENSE_WHITELIST
 =
 {
         
-'
+"
 BSD
 -
 3
 -
 Clause
-'
+"
 :
 [
             
-'
+"
 bindgen
-'
+"
             
-'
+"
 fuchsia
 -
 zircon
-'
+"
             
-'
+"
 fuchsia
 -
 zircon
 -
 sys
-'
+"
             
-'
+"
 fuchsia
 -
 cprng
-'
+"
             
-'
+"
 glsl
-'
+"
         
 ]
     
@@ -1554,10 +1576,6 @@ Inflector
             
 '
 mach
-'
-            
-'
-qlog
 '
         
 ]
@@ -1677,13 +1695,13 @@ RUNTIME_LICENSE_FILE_PACKAGE_WHITELIST
 #
 MIT
         
-'
+"
 deque
-'
+"
 :
-'
+"
 6485b8ed310d3f0340bf1ad1f47645069ce4069dcc6bb46c7d5c6faf41de1fdb
-'
+"
         
 #
 we
@@ -1716,15 +1734,15 @@ that
 needs
 ignoring
         
-'
+"
 fuchsia
 -
 cprng
-'
+"
 :
-'
+"
 03b114f53e6587a398931762ee11e2395bfdba252a329940e2c8c9e81813845b
-'
+"
     
 }
     
@@ -1908,12 +1926,12 @@ re
 search
 (
 r
-'
+"
 \
 s
 +
 AND
-'
+"
 license_string
 )
 :
@@ -1928,7 +1946,7 @@ re
 split
 (
 r
-'
+"
 \
 s
 *
@@ -1944,7 +1962,7 @@ OR
 \
 s
 +
-'
+"
 license_string
 )
         
@@ -2073,26 +2091,27 @@ self
 .
 log
 (
+                
 logging
 .
 DEBUG
-'
+"
 package_license
-'
+"
 {
 }
-                     
-'
+"
 has
 license
 {
 }
-'
+"
 .
 format
 (
 license
 )
+            
 )
             
 if
@@ -2119,18 +2138,21 @@ self
 .
 log
 (
+                        
 logging
 .
 ERROR
-'
+                        
+"
 package_license_error
-'
+"
+                        
 {
 }
-                             
-'
-'
-'
+                        
+"
+"
+"
 Package
 {
 }
@@ -2176,15 +2198,18 @@ suitable
 licenses
 .
     
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                            
 package
 license
+                        
 )
+                    
 )
                     
 return
@@ -2206,18 +2231,21 @@ self
 .
 log
 (
+                        
 logging
 .
 ERROR
-'
+                        
+"
 package_license_error
-'
+"
+                        
 {
 }
-                             
-'
-'
-'
+                        
+"
+"
+"
 Package
 {
 }
@@ -2309,15 +2337,18 @@ suitable
 licenses
 .
     
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                            
 package
 license
+                        
 )
+                    
 )
                     
 return
@@ -2334,27 +2365,31 @@ self
 .
 log
 (
+                
 logging
 .
 DEBUG
-'
+                
+"
 package_check
-'
+"
+                
 {
 }
-                     
-'
+                
+"
 Checking
 license
 for
 {
 }
-'
+"
 .
 format
 (
 package
 )
+            
 )
             
 toml_file
@@ -2367,11 +2402,11 @@ join
 (
 vendor_dir
 package
-'
+"
 Cargo
 .
 toml
-'
+"
 )
             
 #
@@ -2420,16 +2455,16 @@ io
 open
 (
 toml_file
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 f
@@ -2452,9 +2487,9 @@ strip
 .
 startswith
 (
-'
+"
 license
-'
+"
 )
 ]
                 
@@ -2465,6 +2500,7 @@ list
                     
 filter
 (
+                        
 lambda
 x
 :
@@ -2481,7 +2517,9 @@ l
 in
 license_lines
 ]
+                    
 )
+                
 )
                 
 license_file_matches
@@ -2491,10 +2529,12 @@ list
                     
 filter
 (
+                        
 lambda
 x
 :
 x
+                        
 [
 LICENSE_FILE_LINE_RE
 .
@@ -2507,7 +2547,9 @@ l
 in
 license_lines
 ]
+                    
 )
+                
 )
                 
 #
@@ -2539,16 +2581,19 @@ self
 .
 log
 (
+                        
 logging
 .
 ERROR
-'
+                        
+"
 package_no_license
-'
+"
+                        
 {
 }
-                             
-'
+                        
+"
 package
 {
 }
@@ -2557,12 +2602,13 @@ not
 provide
 a
 license
-'
+"
 .
 format
 (
 package
 )
+                    
 )
                     
 return
@@ -2605,12 +2651,15 @@ though
 .
                 
 if
+(
+                    
 len
 (
 license_matches
 )
 >
 1
+                    
 or
 len
 (
@@ -2618,28 +2667,33 @@ license_file_matches
 )
 >
 1
+                    
 or
-\
-                   
 license_matches
+                    
 and
 license_file_matches
+                
+)
 :
                     
 self
 .
 log
 (
+                        
 logging
 .
 ERROR
-'
+                        
+"
 package_many_licenses
-'
+"
+                        
 {
 }
-                             
-'
+                        
+"
 package
 {
 }
@@ -2647,12 +2701,13 @@ provides
 too
 many
 licenses
-'
+"
 .
 format
 (
 package
 )
+                    
 )
                     
 return
@@ -2699,28 +2754,32 @@ self
 .
 log
 (
+                        
 logging
 .
 DEBUG
-'
+                        
+"
 package_license_file
-'
+"
+                        
 {
 }
-                             
-'
+                        
+"
 has
 license
 -
 file
 {
 }
-'
+"
 .
 format
 (
 license_file
 )
+                    
 )
                     
 if
@@ -2736,18 +2795,21 @@ self
 .
 log
 (
+                            
 logging
 .
 ERROR
-'
+                            
+"
 package_license_file_unknown
-'
+"
+                            
 {
 }
-                                 
-'
-'
-'
+                            
+"
+"
+"
 Package
 {
 }
@@ -2785,15 +2847,18 @@ licenses
 are
 suitable
 .
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                                
 package
 license_file
+                            
 )
+                        
 )
                         
 return
@@ -2812,20 +2877,21 @@ license_contents
 =
 open
 (
+                        
 os
 .
 path
 .
 join
 (
-                        
 vendor_dir
 package
 license_file
 )
-'
+"
 r
-'
+"
+                    
 )
 .
 read
@@ -2838,16 +2904,18 @@ hashlib
 .
 sha256
 (
+                        
 license_contents
 .
 encode
 (
-'
+"
 UTF
 -
 8
-'
+"
 )
+                    
 )
 .
 hexdigest
@@ -2865,18 +2933,21 @@ self
 .
 log
 (
+                            
 logging
 .
 ERROR
-'
+                            
+"
 package_license_file_mismatch
-'
+"
+                            
 {
 }
-                                 
-'
-'
-'
+                            
+"
+"
+"
 Package
 {
 }
@@ -2913,16 +2984,19 @@ file
 s
 hash
 .
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                                
 package
 license_file
 current_hash
+                            
 )
+                        
 )
                         
 return
@@ -2969,10 +3043,12 @@ invocation
 results
 =
 [
+            
 check_package
 (
 p
 )
+            
 for
 p
 in
@@ -2982,7 +3058,7 @@ listdir
 (
 vendor_dir
 )
-                   
+            
 if
 os
 .
@@ -3000,6 +3076,7 @@ vendor_dir
 p
 )
 )
+        
 ]
         
 return
@@ -3011,14 +3088,15 @@ results
 def
 vendor
 (
+        
 self
 ignore_modified
 =
 False
-               
 build_peers_said_large_imports_were_ok
 =
 False
+    
 )
 :
         
@@ -3064,11 +3142,11 @@ return
         
 relative_vendor_dir
 =
-'
+"
 third_party
 /
 rust
-'
+"
         
 vendor_dir
 =
@@ -3129,16 +3207,16 @@ check_call
 (
 [
 cargo
-'
+"
 update
-'
-'
+"
+"
 -
 p
-'
-'
+"
+"
 gkrust
-'
+"
 ]
 cwd
 =
@@ -3153,34 +3231,34 @@ subprocess
 .
 check_output
 (
+            
 [
 cargo
-'
+"
 vendor
-'
+"
 vendor_dir
 ]
-                                         
 stderr
 =
 subprocess
 .
 STDOUT
-                                         
 cwd
 =
 self
 .
 topsrcdir
+        
 )
 .
 decode
 (
-'
+"
 UTF
 -
 8
-'
+"
 )
         
 #
@@ -3242,13 +3320,14 @@ addressed
         
 config
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
+            
 dropwhile
 (
 lambda
@@ -3259,17 +3338,17 @@ l
 .
 startswith
 (
-'
+"
 [
-'
+"
 )
-                                     
 output
 .
 splitlines
 (
 )
 )
+        
 )
         
 #
@@ -3321,33 +3400,31 @@ replaces
             
 v
 [
-'
+"
 replace
 -
 with
-'
+"
 ]
-            
 for
 v
 in
 config
 [
-'
+"
 source
-'
+"
 ]
 .
 values
 (
 )
-            
 if
-'
+"
 replace
 -
 with
-'
+"
 in
 v
         
@@ -3381,15 +3458,17 @@ log
 logging
 .
 ERROR
-'
+                
+"
 vendor_failed
-'
+"
+                
 {
 }
                 
-'
-'
-'
+"
+"
+"
 cargo
 vendor
 didn
@@ -3407,11 +3486,13 @@ Found
 %
 s
 .
-'
-'
-'
+"
+"
+"
+                
 %
 replaces
+            
 )
             
 sys
@@ -3433,9 +3514,9 @@ replace
 =
 config
 [
-'
+"
 source
-'
+"
 ]
 .
 pop
@@ -3445,9 +3526,9 @@ replace_name
         
 replace
 [
-'
+"
 directory
-'
+"
 ]
 =
 mozpath
@@ -3467,9 +3548,9 @@ normcase
 (
 replace
 [
-'
+"
 directory
-'
+"
 ]
 )
 )
@@ -3519,9 +3600,9 @@ dict
 return
 OrderedDict
 (
+                    
 sorted
 (
-                    
 (
 k
 recursive_sort
@@ -3539,6 +3620,7 @@ items
 (
 )
 )
+                
 )
             
 if
@@ -3651,16 +3733,16 @@ dump
 .
 replace
 (
-'
+"
 [
 %
 s
 ]
-'
+"
 %
 k
-'
-'
+"
+"
 )
             
 return
@@ -3681,24 +3763,24 @@ join
 self
 .
 topsrcdir
-'
+"
 .
 cargo
-'
-'
+"
+"
 config
 .
 in
-'
+"
 )
         
 with
 open
 (
 cargo_config
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -3708,32 +3790,34 @@ fh
 .
 write
 (
+                
 CARGO_CONFIG_TEMPLATE
 .
 format
 (
-                
+                    
 config
 =
 toml_dump
 (
 config
 )
-                
+                    
 replace_name
 =
 replace_name
-                
+                    
 directory
 =
 replace
 [
-'
+"
 directory
-'
+"
 ]
-            
+                
 )
+            
 )
         
 if
@@ -3754,15 +3838,17 @@ log
 logging
 .
 ERROR
-'
+                
+"
 license_check_failed
-'
+"
+                
 {
 }
                 
-'
-'
-'
+"
+"
+"
 The
 changes
 from
@@ -3780,16 +3866,19 @@ control
 {
 notice
 }
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                    
 notice
 =
 CARGO_LOCK_NOTICE
+                
 )
+            
 )
             
 self
@@ -3855,9 +3944,9 @@ repository
 .
 get_changed_files
 (
-'
+"
 A
-'
+"
 )
 :
             
@@ -3938,18 +4027,21 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 filesize_check
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 The
 following
 files
@@ -4024,18 +4116,19 @@ control
 {
 notice
 }
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                    
 files
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -4044,14 +4137,17 @@ sorted
 large_files
 )
 )
+                    
 size
 =
 FILESIZE_LIMIT
-                   
+                    
 notice
 =
 CARGO_LOCK_NOTICE
+                
 )
+            
 )
             
 self
@@ -4132,18 +4228,21 @@ self
 .
 log
 (
+                
 logging
 .
 WARN
-'
+                
+"
 filesize_check
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 Your
 changes
 add
@@ -4206,16 +4305,17 @@ files
 when
 publishing
 .
-'
-'
-'
+"
+"
+"
 .
 format
 (
-                
+                    
 size
 =
 cumulative_added_size
+                
 )
             
 )
