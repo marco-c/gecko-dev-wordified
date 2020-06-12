@@ -5464,6 +5464,7 @@ aAppUnitsPerPixel
 {
 return
 {
+{
 SnapBorderToDevPixels
 (
 aBorder
@@ -5492,6 +5493,7 @@ aBorder
 left
 aAppUnitsPerPixel
 )
+}
 }
 ;
 }
