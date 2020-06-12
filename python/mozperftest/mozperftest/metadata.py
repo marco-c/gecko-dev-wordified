@@ -155,7 +155,6 @@ since
 it
 '
 s
-a
 user
 script
         
@@ -164,9 +163,7 @@ self
 .
 _env
 .
-hooks
-.
-run
+run_hook
 (
 name
 *

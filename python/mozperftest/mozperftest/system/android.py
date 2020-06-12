@@ -203,34 +203,6 @@ target
 apk
 "
     
-#
-The
-two
-following
-aliases
-are
-used
-for
-Fenix
-multi
--
-commit
-testing
-in
-CI
-    
-"
-fenix_nightlysim_multicommit_arm64_v8a
-"
-:
-None
-    
-"
-fenix_nightlysim_multicommit_armeabi_v7a
-"
-:
-None
-    
 "
 gve_nightly_aarch64
 "
@@ -1257,7 +1229,7 @@ clear_logcat
 )
         
 #
-Install
+install
 APKs
         
 for
@@ -1276,37 +1248,6 @@ apk
 "
 )
 :
-            
-self
-.
-info
-(
-"
-Uninstalling
-old
-version
-"
-)
-            
-self
-.
-device
-.
-uninstall_app
-(
-self
-.
-get_arg
-(
-"
-android
--
-app
--
-name
-"
-)
-)
             
 self
 .
@@ -1407,6 +1348,9 @@ str
 (
 target
 )
+replace
+=
+True
 )
             
 else

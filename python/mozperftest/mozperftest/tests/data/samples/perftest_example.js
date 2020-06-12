@@ -72,10 +72,6 @@ strict
 var
 someVar
 ;
-someVar
-=
-2
-;
 async
 function
 setUp
