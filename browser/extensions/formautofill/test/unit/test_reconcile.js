@@ -14,6 +14,11 @@ profile
 json
 "
 ;
+const
+CURRENT_CC_VERSION
+=
+3
+;
 /
 /
 NOTE
@@ -2612,7 +2617,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -2742,7 +2747,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -2809,7 +2814,7 @@ e3680e9f890d
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -2865,7 +2870,7 @@ e3680e9f890d
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -2933,7 +2938,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -2998,7 +3003,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3075,7 +3080,7 @@ be3ef97f8285
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3131,7 +3136,7 @@ be3ef97f8285
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3217,7 +3222,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3282,7 +3287,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3359,7 +3364,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3433,7 +3438,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3526,7 +3531,7 @@ e087a06dfc57
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3636,7 +3641,7 @@ e087a06dfc57
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3722,7 +3727,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3806,7 +3811,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3928,7 +3933,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -3984,7 +3989,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4067,7 +4072,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4158,7 +4163,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4301,7 +4306,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4375,7 +4380,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4495,7 +4500,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4560,7 +4565,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4671,7 +4676,7 @@ fff9fa27fa18
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4745,7 +4750,7 @@ fff9fa27fa18
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4885,7 +4890,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -4932,7 +4937,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -5048,7 +5053,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
@@ -5116,7 +5121,7 @@ guid
 "
 version
 :
-2
+CURRENT_CC_VERSION
 "
 cc
 -
