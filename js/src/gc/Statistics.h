@@ -1904,6 +1904,16 @@ back
 end
 ;
 }
+TimeStamp
+creationTime
+(
+)
+const
+{
+return
+creationTime_
+;
+}
 /
 /
 Occasionally
@@ -2178,6 +2188,9 @@ phaseEndTimes
 ;
 #
 endif
+TimeStamp
+creationTime_
+;
 /
 *
 Bookkeeping
