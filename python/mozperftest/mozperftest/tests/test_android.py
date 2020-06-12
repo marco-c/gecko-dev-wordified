@@ -67,6 +67,17 @@ apps
 ]
     
 def
+uninstall_app
+(
+self
+apk_name
+)
+:
+        
+return
+True
+    
+def
 install_app
 (
 self
@@ -454,7 +465,7 @@ org
 .
 mozilla
 .
-fenned_aurora
+fennec_aurora
 "
         
 "
@@ -517,6 +528,29 @@ device
 mock_calls
 [
 1
+]
+[
+1
+]
+[
+0
+]
+=
+=
+"
+org
+.
+mozilla
+.
+fennec_aurora
+"
+    
+assert
+device
+.
+mock_calls
+[
+2
 ]
 [
 1
