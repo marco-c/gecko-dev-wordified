@@ -2259,11 +2259,6 @@ theme
 changes
 .
 void
-NotifySysColorChanged
-(
-)
-;
-void
 NotifyThemeChanged
 (
 )
