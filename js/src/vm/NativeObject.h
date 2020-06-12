@@ -9992,6 +9992,13 @@ size_t
 slot
 )
 {
+MOZ_ASSERT
+(
+slot
+<
+MAX_FIXED_SLOTS
+)
+;
 return
 sizeof
 (
