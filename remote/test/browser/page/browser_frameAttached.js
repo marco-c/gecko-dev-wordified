@@ -264,13 +264,6 @@ Page
 =
 client
 ;
-await
-Page
-.
-enable
-(
-)
-;
 info
 (
 "
@@ -287,6 +280,13 @@ await
 loadURL
 (
 DOC_IFRAME_MULTI
+)
+;
+await
+Page
+.
+enable
+(
 )
 ;
 await
