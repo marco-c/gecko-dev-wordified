@@ -305,12 +305,6 @@ family
 "
 *
 /
-/
-/
-clang
--
-format
-off
 MSG_DEF
 (
 JSMSG_NOT_AN_ERROR
@@ -11143,12 +11137,6 @@ a
 WeakRef
 "
 )
-/
-/
-clang
--
-format
-on
 MSG_DEF
 (
 JSMSG_BAD_WEAKREF_TARGET
