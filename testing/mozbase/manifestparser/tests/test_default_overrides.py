@@ -416,10 +416,6 @@ win
 &
 &
 debug
-#
-a
-pesky
-comment
 "
 )
             
@@ -548,9 +544,6 @@ test7
 foo
 .
 js
-#
-a
-comment
 '
             
 '
@@ -574,9 +567,6 @@ test9
 foo
 .
 js
-#
-a
-comment
 '
         
 }
@@ -711,9 +701,6 @@ test8
 bar
 .
 js
-#
-another
-comment
 '
         
 }
@@ -778,11 +765,6 @@ test6
 :
 "
 debug
-#
-a
-second
-pesky
-comment
 "
         
 }
@@ -893,9 +875,6 @@ files
 foo
 .
 js
-#
-a
-comment
 "
             
 }
@@ -934,10 +913,6 @@ win
 &
 &
 debug
-#
-a
-pesky
-comment
 "
             
 }
