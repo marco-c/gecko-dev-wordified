@@ -204,7 +204,7 @@ start_turn
 )
 ;
 const
-events
+completed
 =
 loadMgr
 .
@@ -229,7 +229,7 @@ timestamp
 )
 ;
 return
-events
+completed
 ;
 }
 wait_for_next_frame
@@ -365,7 +365,7 @@ start_turn
 )
 ;
 const
-events
+completed
 =
 loadMgr
 .
@@ -390,7 +390,7 @@ timestamp
 )
 ;
 return
-events
+completed
 ;
 }
 wait_for_next_frame

@@ -2432,7 +2432,7 @@ return
 ;
 }
 const
-events
+completed
 =
 gLoadMgr
 .
@@ -2443,11 +2443,7 @@ timestamp
 ;
 if
 (
-events
-&
-gLoadMgr
-.
-LOAD_ENDED
+completed
 )
 {
 end_test
@@ -3302,6 +3298,7 @@ getByName
 (
 name
 )
+gPerf
 duration
 )
 )
