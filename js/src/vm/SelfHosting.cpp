@@ -17012,7 +17012,7 @@ JS_FN
 intl_patternForSkeleton
 "
 intl_patternForSkeleton
-3
+2
 0
 )
 JS_FN
@@ -17021,7 +17021,7 @@ JS_FN
 intl_patternForStyle
 "
 intl_patternForStyle
-6
+3
 0
 )
 JS_FN
