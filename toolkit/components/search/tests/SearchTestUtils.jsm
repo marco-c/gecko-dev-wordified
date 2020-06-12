@@ -206,8 +206,9 @@ registerCleanupFunction
 *
 *
 Adds
-a
-search
+an
+OpenSearch
+based
 engine
 to
 the
@@ -217,9 +218,9 @@ service
 It
 will
 remove
+*
 the
 engine
-*
 at
 the
 end
