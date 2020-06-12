@@ -200,14 +200,6 @@ Intl
 .
 DateTimeFormat
 -
-datetimestyle
-"
-    
-"
-Intl
-.
-DateTimeFormat
--
 formatRange
 "
     
