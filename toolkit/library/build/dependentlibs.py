@@ -907,6 +907,31 @@ around
 10MB
 )
 .
+Same
+thing
+with
+d3dcompiler_47
+.
+dll
+but
+                
+#
+to
+a
+lesser
+extent
+and
+we
+were
+going
+to
+dynamically
+load
+it
+                
+#
+anyway
+.
                 
 if
 not
@@ -914,9 +939,14 @@ dep
 .
 startswith
 (
+(
 "
 icu
 "
+"
+d3dcompiler_47
+"
+)
 )
 :
                     
