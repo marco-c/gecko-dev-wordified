@@ -3476,8 +3476,6 @@ return
 }
 HeapOutOfBounds
 |
-OutOfBounds
-|
 TableOutOfBounds
 =
 >
