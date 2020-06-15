@@ -1504,7 +1504,6 @@ this
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 mChildList
-nsDocLoader
 Stop
 (
 )
@@ -10063,7 +10062,6 @@ aPriority
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 mChildList
-nsDocLoader
 SetPriority
 (
 aPriority
@@ -10138,7 +10136,6 @@ aDelta
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 mChildList
-nsDocLoader
 AdjustPriority
 (
 aDelta

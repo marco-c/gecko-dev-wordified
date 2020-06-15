@@ -615,9 +615,8 @@ slots
 -
 >
 mMutationObservers
-\
-nsIMutationObserver
 func_
+\
 params_
 )
 ;
@@ -900,8 +899,6 @@ slots
 -
 >
 mMutationObservers
-nsIMutationObserver
-\
 nsIAnimationObserver
 func_
 params_

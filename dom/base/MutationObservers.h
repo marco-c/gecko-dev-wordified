@@ -824,7 +824,6 @@ slots
 -
 >
 mMutationObservers
-nsIMutationObserver
 ParentChainChanged
 (
 aContent
