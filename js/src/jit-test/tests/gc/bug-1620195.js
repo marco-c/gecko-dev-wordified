@@ -1,17 +1,3 @@
-/
-/
-|
-jit
--
-test
-|
--
--
-enable
--
-weak
--
-refs
 var
 g99
 =
