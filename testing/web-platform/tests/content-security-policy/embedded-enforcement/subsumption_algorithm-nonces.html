@@ -108,7 +108,7 @@ required_csp
 "
 :
 "
-script
+style
 -
 src
 '
@@ -122,7 +122,7 @@ returned_csp_1
 "
 :
 "
-script
+style
 -
 src
 '
@@ -210,7 +210,7 @@ required_csp
 "
 :
 "
-script
+style
 -
 src
 '
@@ -224,7 +224,7 @@ returned_csp_1
 "
 :
 "
-script
+style
 -
 src
 http
@@ -328,13 +328,11 @@ required_csp
 "
 :
 "
-script
+style
 -
 src
 '
-nonce
--
-abc
+none
 '
 "
 "
@@ -342,7 +340,7 @@ returned_csp_1
 "
 :
 "
-script
+style
 -
 src
 '
@@ -356,7 +354,7 @@ returned_csp_2
 "
 :
 "
-script
+style
 -
 src
 '
@@ -371,7 +369,7 @@ expected
 :
 IframeLoad
 .
-EXPECT_BLOCK
+EXPECT_LOAD
 }
 {
 "
@@ -401,9 +399,7 @@ style
 -
 src
 '
-nonce
--
-abc
+none
 '
 "
 "
@@ -445,7 +441,7 @@ expected
 :
 IframeLoad
 .
-EXPECT_LOAD
+EXPECT_BLOCK
 }
 /
 /
@@ -551,7 +547,7 @@ required_csp
 "
 :
 "
-script
+style
 -
 src
 http
@@ -575,7 +571,7 @@ returned_csp_1
 "
 :
 "
-script
+style
 -
 src
 http
