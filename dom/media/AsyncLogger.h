@@ -88,6 +88,11 @@ thread
 >
 #
 include
+<
+cinttypes
+>
+#
+include
 "
 mozilla
 /
