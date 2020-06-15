@@ -1165,7 +1165,9 @@ idx
 nsUXThemeData
 :
 :
-sFlatMenus
+AreFlatMenusEnabled
+(
+)
 ?
 COLOR_HIGHLIGHTTEXT
 :

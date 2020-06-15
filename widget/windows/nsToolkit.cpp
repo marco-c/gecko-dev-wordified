@@ -589,13 +589,6 @@ Initialize
 (
 )
 ;
-nsUXThemeData
-:
-:
-Initialize
-(
-)
-;
 }
 void
 nsToolkit

@@ -17987,7 +17987,9 @@ if
 nsUXThemeData
 :
 :
-sFlatMenus
+AreFlatMenusEnabled
+(
+)
 )
 return
 false
@@ -18804,7 +18806,9 @@ if
 nsUXThemeData
 :
 :
-sFlatMenus
+AreFlatMenusEnabled
+(
+)
 |
 |
 !
@@ -25133,7 +25137,9 @@ NS_ASSERTION
 nsUXThemeData
 :
 :
-sFlatMenus
+AreFlatMenusEnabled
+(
+)
 "
 Classic
 menus
@@ -25223,7 +25229,9 @@ if
 nsUXThemeData
 :
 :
-sFlatMenus
+AreFlatMenusEnabled
+(
+)
 )
 {
 /
