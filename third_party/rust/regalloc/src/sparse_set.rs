@@ -1534,7 +1534,7 @@ Debug
 [
 inline
 (
-never
+always
 )
 ]
 pub
