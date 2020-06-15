@@ -94,6 +94,11 @@ TestCheckedUnsafePtr
 cpp
 '
 '
+TestEncryptedStream
+.
+cpp
+'
+'
 TestQuotaManager
 .
 cpp
