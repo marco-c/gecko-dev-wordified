@@ -50,6 +50,13 @@ vendor
 js
 /
 /
+META
+:
+timeout
+=
+long
+/
+/
 https
 :
 /
