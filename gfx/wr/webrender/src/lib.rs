@@ -1430,6 +1430,7 @@ SceneBuilderHooks
 ThreadListener
 ShaderPrecacheFlags
 MAX_VERTEX_TEXTURE_WIDTH
+ONE_TIME_USAGE_HINT
 }
 ;
 pub

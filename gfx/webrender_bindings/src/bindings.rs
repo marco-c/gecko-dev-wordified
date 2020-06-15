@@ -387,8 +387,8 @@ ShaderPrecacheFlags
 Shaders
 ThreadListener
 UploadMethod
-VertexUsageHint
 WrShaders
+ONE_TIME_USAGE_HINT
 }
 ;
 #
@@ -6597,10 +6597,7 @@ UploadMethod
 :
 PixelBuffer
 (
-VertexUsageHint
-:
-:
-Dynamic
+ONE_TIME_USAGE_HINT
 )
 }
 ;
@@ -7665,10 +7662,7 @@ UploadMethod
 :
 PixelBuffer
 (
-VertexUsageHint
-:
-:
-Dynamic
+ONE_TIME_USAGE_HINT
 )
 }
 ;
