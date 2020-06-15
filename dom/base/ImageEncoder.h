@@ -189,7 +189,7 @@ namespace
 layers
 {
 class
-CanvasRenderer
+AsyncCanvasRenderer
 ;
 class
 Image
@@ -325,7 +325,7 @@ aContext
 layers
 :
 :
-CanvasRenderer
+AsyncCanvasRenderer
 *
 aRenderer
 nsIInputStream
@@ -711,7 +711,7 @@ aContext
 layers
 :
 :
-CanvasRenderer
+AsyncCanvasRenderer
 *
 aRenderer
 nsIInputStream
