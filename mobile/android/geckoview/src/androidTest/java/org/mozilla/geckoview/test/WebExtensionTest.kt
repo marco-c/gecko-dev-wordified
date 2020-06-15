@@ -10207,7 +10207,11 @@ assertEquals
 optionsExtension
 !
 !
+.
+id
 source
+.
+id
 )
 tabsCreateResult
 .
@@ -10370,7 +10374,11 @@ assertEquals
 optionsExtension
 !
 !
+.
+id
 source
+.
+id
 )
 openOptionsPageResult
 .
