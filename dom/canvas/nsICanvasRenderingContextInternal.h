@@ -892,6 +892,7 @@ SourceSurface
 >
 GetFrontBufferSnapshot
 (
+bool
 )
 {
 return
