@@ -117,17 +117,6 @@ include
 "
 base
 /
-process
-/
-environment_internal
-.
-h
-"
-#
-include
-"
-base
-/
 win
 /
 startup_information
@@ -1137,10 +1126,7 @@ base
 win
 :
 :
-Version
-:
-:
-WIN8
+VERSION_WIN8
 )
 {
 /
@@ -1193,9 +1179,6 @@ NativeEnvironmentString
 new_environment
 =
 base
-:
-:
-internal
 :
 :
 AlterEnvironment
@@ -1694,7 +1677,7 @@ if
 module
 )
 return
-SBOX_ERROR_CANNOT_LOADLIBRARY_EXECUTABLE
+SBOX_ERROR_GENERIC
 ;
 child_var
 =
@@ -1726,7 +1709,7 @@ if
 child_var
 )
 return
-SBOX_ERROR_CANNOT_FIND_VARIABLE_ADDRESS
+SBOX_ERROR_GENERIC
 ;
 size_t
 offset
@@ -1789,7 +1772,7 @@ written
 )
 )
 return
-SBOX_ERROR_CANNOT_WRITE_VARIABLE_VALUE
+SBOX_ERROR_GENERIC
 ;
 if
 (
@@ -1799,7 +1782,7 @@ written
 size
 )
 return
-SBOX_ERROR_INVALID_WRITE_VARIABLE_SIZE
+SBOX_ERROR_GENERIC
 ;
 return
 SBOX_ALL_OK

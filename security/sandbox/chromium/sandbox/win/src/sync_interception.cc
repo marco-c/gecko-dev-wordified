@@ -220,10 +220,7 @@ if
 !
 QueryBroker
 (
-IpcTag
-:
-:
-CREATEEVENT
+IPC_CREATEEVENT_TAG
 params
 .
 GetBase
@@ -246,10 +243,7 @@ code
 CrossCall
 (
 ipc
-IpcTag
-:
-:
-CREATEEVENT
+IPC_CREATEEVENT_TAG
 name
 event_type
 initial_state
@@ -312,10 +306,7 @@ if
 !
 QueryBroker
 (
-IpcTag
-:
-:
-OPENEVENT
+IPC_OPENEVENT_TAG
 params
 .
 GetBase
@@ -338,10 +329,7 @@ code
 CrossCall
 (
 ipc
-IpcTag
-:
-:
-OPENEVENT
+IPC_OPENEVENT_TAG
 name
 desired_access
 answer

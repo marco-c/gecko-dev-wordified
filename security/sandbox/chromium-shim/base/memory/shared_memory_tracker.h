@@ -223,9 +223,9 @@ void
 IncrementMemoryUsage
 (
 const
-SharedMemoryMapping
+SharedMemory
 &
-mapping
+shared_memory
 )
 {
 }
@@ -234,9 +234,9 @@ void
 DecrementMemoryUsage
 (
 const
-SharedMemoryMapping
+SharedMemory
 &
-mapping
+shared_memory
 )
 {
 }
