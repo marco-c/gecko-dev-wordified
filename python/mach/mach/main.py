@@ -971,7 +971,6 @@ _handler
 '
 )
 (
-self
 key
 )
             
@@ -2185,8 +2184,20 @@ failure
 "
 "
         
+topsrcdir
+=
+self
+.
+populate_context_handler
+(
+'
+topdir
+'
+)
+        
 register_sentry
 (
+topsrcdir
 )
         
 #
@@ -2792,13 +2803,6 @@ self
 .
 populate_context_handler
 :
-            
-self
-.
-populate_context_handler
-(
-context
-)
             
 context
 =
