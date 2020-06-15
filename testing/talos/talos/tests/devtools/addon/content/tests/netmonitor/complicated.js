@@ -102,7 +102,14 @@ helpers
 const
 EXPECTED_REQUESTS
 =
+{
+min
+:
+230
+max
+:
 280
+}
 ;
 module
 .
@@ -147,6 +154,11 @@ netmonitor
 "
 toolbox
 EXPECTED_REQUESTS
+.
+min
+EXPECTED_REQUESTS
+.
+max
 )
 ;
 await
