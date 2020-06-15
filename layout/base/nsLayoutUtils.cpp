@@ -70435,7 +70435,10 @@ aFontID
 LookAndFeel
 :
 :
-eFont_Field
+FontID
+:
+:
+Field
 |
 |
 aFontID
@@ -70444,7 +70447,10 @@ aFontID
 LookAndFeel
 :
 :
-eFont_Button
+FontID
+:
+:
+Button
 |
 |
 aFontID
@@ -70453,7 +70459,10 @@ aFontID
 LookAndFeel
 :
 :
-eFont_List
+FontID
+:
+:
+List
 )
 {
 /
