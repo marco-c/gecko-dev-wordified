@@ -281,12 +281,15 @@ public
 :
 ScopedBlockingCallWithBaseSyncPrimitives
 (
+const
+Location
+&
+from_here
 BlockingType
 blocking_type
 )
 {
 }
-;
 ~
 ScopedBlockingCallWithBaseSyncPrimitives
 (

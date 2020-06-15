@@ -934,10 +934,10 @@ get_app_container_folder_path
 return
 false
 ;
-base
+std
 :
 :
-string16
+wstring
 sddl_str
 ;
 if
@@ -1036,10 +1036,10 @@ IMMEDIATE_CRASH
 ;
 #
 else
-base
+std
 :
 :
-string16
+wstring
 sddl_str
 ;
 if
