@@ -529,14 +529,6 @@ _retval
 )
 override
 ;
-NS_IMETHOD
-IsPdf
-(
-bool
-*
-isPdf
-)
-;
 enum
 HandlerClass
 {
