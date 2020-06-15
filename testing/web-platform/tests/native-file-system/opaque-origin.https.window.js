@@ -284,7 +284,7 @@ result
 of
 /
 /
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 .
@@ -375,7 +375,7 @@ second_message_event
 .
 data
 '
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 :
@@ -480,9 +480,7 @@ test
 ;
 }
 '
-FileSystemDirectoryHandle
-.
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 and
@@ -568,9 +566,7 @@ test
 ;
 }
 '
-FileSystemDirectoryHandle
-.
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 and
