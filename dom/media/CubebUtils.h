@@ -213,6 +213,11 @@ ShutdownLibrary
 (
 )
 ;
+bool
+SandboxEnabled
+(
+)
+;
 /
 /
 Returns
