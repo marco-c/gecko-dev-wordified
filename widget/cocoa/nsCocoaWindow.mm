@@ -8098,8 +8098,8 @@ be
 smaller
 than
 (
-32
-32
+60
+60
 )
 NSRect
 rect
@@ -8121,8 +8121,8 @@ NSMakeRect
 0
 .
 0
-32
-32
+60
+60
 )
 ;
 rect
