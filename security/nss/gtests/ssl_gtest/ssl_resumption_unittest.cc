@@ -4837,7 +4837,7 @@ the
 old
 ticket
 .
-SSLInt_ClearSelfEncryptKey
+ClearServerCache
 (
 )
 ;
@@ -5173,7 +5173,7 @@ the
 old
 ticket
 .
-SSLInt_ClearSelfEncryptKey
+ClearServerCache
 (
 )
 ;
@@ -5673,7 +5673,7 @@ Connect
 (
 )
 ;
-SSLInt_ClearSelfEncryptKey
+ClearServerCache
 (
 )
 ;

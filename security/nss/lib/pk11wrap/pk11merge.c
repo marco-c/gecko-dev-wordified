@@ -3017,6 +3017,7 @@ NULL
 }
 }
 ;
+const
 CK_ULONG
 symTemplateCount
 =

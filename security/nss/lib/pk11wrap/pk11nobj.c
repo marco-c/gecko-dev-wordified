@@ -80,6 +80,13 @@ etc
 /
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 secport
 .
@@ -3216,7 +3223,8 @@ as
 well
 *
 /
-int
+const
+size_t
 tsize
 =
 sizeof

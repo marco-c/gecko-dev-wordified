@@ -2407,7 +2407,7 @@ static
 void
 log_handle
 (
-int
+PRLogModuleLevel
 level
 const
 char

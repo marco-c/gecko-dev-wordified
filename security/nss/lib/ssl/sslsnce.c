@@ -4801,9 +4801,7 @@ it
 .
 *
 /
-PORT_Assert
-(
-!
+PORT_AssertNotReached
 (
 "
 Didn
@@ -4815,7 +4813,6 @@ Cache
 Lock
 !
 "
-)
 )
 ;
 psce
@@ -4995,9 +4992,7 @@ it
 .
 *
 /
-PORT_Assert
-(
-!
+PORT_AssertNotReached
 (
 "
 Didn
@@ -5009,7 +5004,6 @@ Cache
 Lock
 !
 "
-)
 )
 ;
 psce

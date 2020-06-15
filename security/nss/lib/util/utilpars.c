@@ -854,7 +854,7 @@ searchValue
 256
 ]
 ;
-int
+size_t
 paramLen
 =
 strlen

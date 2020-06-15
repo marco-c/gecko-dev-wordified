@@ -676,6 +676,7 @@ unsigned
 int
 padLen
 ;
+unsigned
 int
 i
 j

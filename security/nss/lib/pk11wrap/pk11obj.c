@@ -78,6 +78,13 @@ h
 >
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 seccomon
 .
@@ -9802,7 +9809,7 @@ slot
 CK_ATTRIBUTE
 *
 theTemplate
-int
+size_t
 tsize
 )
 {
@@ -10028,7 +10035,7 @@ slot
 CK_ATTRIBUTE
 *
 findTemplate
-int
+size_t
 templCount
 int
 *
@@ -10530,7 +10537,8 @@ len
 }
 }
 ;
-int
+const
+size_t
 templateCount
 =
 sizeof
@@ -10977,7 +10985,8 @@ theTemplate
 1
 ]
 ;
-int
+const
+size_t
 tsize
 =
 sizeof
@@ -11748,7 +11757,8 @@ NULL
 }
 }
 ;
-int
+const
+size_t
 findCount
 =
 sizeof

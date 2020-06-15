@@ -73,6 +73,13 @@ certificates
 /
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 secport
 .
@@ -2673,7 +2680,7 @@ searchClass
 }
 ;
 const
-int
+size_t
 searchAttrCount
 =
 sizeof
@@ -6920,6 +6927,7 @@ first
 .
 *
 /
+static
 CK_OBJECT_HANDLE
 pk11_getcerthandle
 (
@@ -6932,7 +6940,7 @@ cert
 CK_ATTRIBUTE
 *
 theTemplate
-int
+size_t
 tsize
 )
 {
@@ -7094,7 +7102,8 @@ as
 well
 *
 /
-int
+const
+size_t
 tsize
 =
 sizeof
@@ -8042,7 +8051,7 @@ slotPtr
 CK_ATTRIBUTE
 *
 searchTemplate
-int
+size_t
 count
 void
 *
@@ -11185,7 +11194,8 @@ NULL
 }
 }
 ;
-int
+const
+size_t
 templateSize
 =
 sizeof
@@ -14242,7 +14252,8 @@ as
 well
 *
 /
-int
+const
+size_t
 tsize
 =
 sizeof
@@ -15131,7 +15142,8 @@ as
 well
 *
 /
-int
+const
+size_t
 tsize
 =
 sizeof

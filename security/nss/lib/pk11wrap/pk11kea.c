@@ -76,6 +76,13 @@ Interfaces
 /
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 seccomon
 .
@@ -203,7 +210,7 @@ theTemplate
 2
 ]
 ;
-int
+size_t
 template_count
 =
 sizeof
