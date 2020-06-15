@@ -242,6 +242,13 @@ panel
 "
 webconsole
 "
+restart
+:
+jest
+.
+fn
+(
+)
 }
 ;
 const

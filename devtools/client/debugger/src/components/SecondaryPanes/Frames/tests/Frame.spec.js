@@ -214,6 +214,13 @@ webconsole
 toggleFrameworkGrouping
 :
 null
+restart
+:
+jest
+.
+fn
+(
+)
 .
 .
 .
@@ -1090,6 +1097,7 @@ copyStackTrace
 toggleFrameworkGrouping
 toggleBlackBox
 cx
+restart
 }
 =
 props
@@ -1128,6 +1136,7 @@ frameworkGroupingOn
 copyStackTrace
 toggleFrameworkGrouping
 toggleBlackBox
+restart
 }
 mockEvent
 cx

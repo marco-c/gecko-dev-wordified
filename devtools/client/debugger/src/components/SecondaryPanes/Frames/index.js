@@ -319,6 +319,12 @@ debugger
 "
 webconsole
 "
+restart
+:
+typeof
+actions
+.
+restart
 }
 ;
 type
@@ -670,6 +676,7 @@ displayFullUrl
 getFrameTitle
 disableContextMenu
 panel
+restart
 }
 =
 this
@@ -862,6 +869,11 @@ panel
 {
 panel
 }
+restart
+=
+{
+restart
+}
 /
 >
 )
@@ -951,6 +963,11 @@ panel
 =
 {
 panel
+}
+restart
+=
+{
+restart
 }
 /
 >
@@ -1283,6 +1300,11 @@ toggleFrameworkGrouping
 actions
 .
 toggleFrameworkGrouping
+restart
+:
+actions
+.
+restart
 }
 )
 (
