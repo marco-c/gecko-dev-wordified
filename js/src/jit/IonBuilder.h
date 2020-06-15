@@ -6388,9 +6388,12 @@ Scalar
 Type
 *
 arrayElementType
-bool
+TemporaryTypeSet
+:
+:
+TypedArraySharedness
 *
-requiresDynamicCheck
+sharedness
 AtomicCheckResult
 checkResult
 =
