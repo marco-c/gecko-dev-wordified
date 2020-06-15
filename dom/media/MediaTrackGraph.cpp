@@ -548,10 +548,6 @@ MediaTrackGraphImpl
 )
 )
 ;
-StopAudioCallbackTracing
-(
-)
-;
 }
 void
 MediaTrackGraphImpl
@@ -20868,10 +20864,6 @@ TimeStamp
 :
 :
 Now
-(
-)
-;
-StartAudioCallbackTracing
 (
 )
 ;

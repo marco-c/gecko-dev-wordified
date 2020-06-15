@@ -1880,10 +1880,6 @@ AudioDeviceInfo
 aSinkInfo
 )
 {
-StartAudioCallbackTracing
-(
-)
-;
 auto
 startTime
 =
@@ -3002,10 +2998,6 @@ Bug
 mCubebStream
 .
 reset
-(
-)
-;
-StopAudioCallbackTracing
 (
 )
 ;
