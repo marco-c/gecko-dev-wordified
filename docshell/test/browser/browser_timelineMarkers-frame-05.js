@@ -557,6 +557,7 @@ stack
 ;
 if
 (
+!
 Services
 .
 prefs
@@ -568,7 +569,7 @@ javascript
 .
 options
 .
-asyncstack
+asyncstack_capture_debuggee_only
 "
 )
 )
