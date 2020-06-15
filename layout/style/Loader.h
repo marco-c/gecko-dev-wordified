@@ -2409,8 +2409,13 @@ stylesheet
 void
 DidHitCompleteSheetCache
 (
-SheetLoadData
+const
+SheetLoadDataHashKey
 &
+const
+StyleUseCounters
+*
+aCounters
 )
 ;
 enum

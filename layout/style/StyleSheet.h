@@ -791,7 +791,6 @@ already_AddRefed
 <
 RawServoStyleSheetContents
 >
-aSheetContents
 )
 ;
 /

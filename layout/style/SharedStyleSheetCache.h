@@ -858,6 +858,12 @@ mExpirationTime
 =
 0
 ;
+UniquePtr
+<
+StyleUseCounters
+>
+mUseCounters
+;
 RefPtr
 <
 StyleSheet
