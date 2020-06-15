@@ -6813,7 +6813,7 @@ label
 l10n
 (
 "
-rules
+rule
 .
 twistyCollapse
 .
