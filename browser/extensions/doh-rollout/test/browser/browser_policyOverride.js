@@ -200,7 +200,7 @@ ensureNoTRRSelectionTelemetry
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 await
@@ -228,7 +228,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 ensureNoHeuristicsTelemetry
@@ -254,7 +254,7 @@ ensureNoTRRSelectionTelemetry
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 ensureNoHeuristicsTelemetry
@@ -275,7 +275,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 ensureNoHeuristicsTelemetry

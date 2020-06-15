@@ -311,7 +311,7 @@ tab
 await
 ensureTRRMode
 (
-5
+undefined
 )
 ;
 await
@@ -339,7 +339,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-5
+undefined
 )
 ;
 ensureNoHeuristicsTelemetry
@@ -369,7 +369,7 @@ ensureNoTRRSelectionTelemetry
 await
 ensureNoTRRModeChange
 (
-5
+undefined
 )
 ;
 ensureNoHeuristicsTelemetry
@@ -398,7 +398,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-5
+undefined
 )
 ;
 ensureNoHeuristicsTelemetry
