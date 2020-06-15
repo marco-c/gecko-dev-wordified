@@ -554,6 +554,11 @@ inspector
 -
 badge
 "
+role
+:
+"
+figure
+"
 title
 :
 flex
@@ -591,6 +596,11 @@ className
 inspector
 -
 badge
+"
+role
+:
+"
+figure
 "
 title
 :
