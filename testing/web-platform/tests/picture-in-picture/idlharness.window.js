@@ -77,6 +77,13 @@ picture
 helpers
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
