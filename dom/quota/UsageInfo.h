@@ -149,8 +149,11 @@ final
 {
 public
 :
-void
-Append
+UsageInfo
+&
+operator
++
+=
 (
 const
 UsageInfo
@@ -171,6 +174,10 @@ mFileUsage
 aUsageInfo
 .
 mFileUsage
+;
+return
+*
+this
 ;
 }
 void
