@@ -2388,3 +2388,9 @@ GetFontDisplay
 )
 ;
 }
+#
+undef
+LOG
+#
+undef
+LOG_ENABLED
