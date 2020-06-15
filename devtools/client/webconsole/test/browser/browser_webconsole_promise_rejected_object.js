@@ -193,9 +193,9 @@ javascript
 .
 options
 .
-asyncstack
+asyncstack_capture_debuggee_only
 "
-true
+false
 )
 ;
 const
