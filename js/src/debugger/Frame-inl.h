@@ -160,7 +160,7 @@ js
 DebuggerFrame
 :
 :
-hasGenerator
+hasGeneratorInfo
 (
 )
 const
@@ -199,7 +199,7 @@ const
 {
 MOZ_ASSERT
 (
-hasGenerator
+hasGeneratorInfo
 (
 )
 )

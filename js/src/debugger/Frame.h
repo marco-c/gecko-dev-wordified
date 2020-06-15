@@ -1250,6 +1250,12 @@ isOnStackMaybeForwarded
 )
 const
 ;
+bool
+isSuspended
+(
+)
+const
+;
 OnStepHandler
 *
 onStepHandler
@@ -1277,7 +1283,7 @@ handler
 ;
 inline
 bool
-hasGenerator
+hasGeneratorInfo
 (
 )
 const
@@ -1285,7 +1291,7 @@ const
 /
 /
 If
-hasGenerator
+hasGeneratorInfo
 (
 )
 return
@@ -1498,7 +1504,7 @@ discern
 /
 MOZ_MUST_USE
 bool
-setGenerator
+setGeneratorInfo
 (
 JSContext
 *
@@ -1661,7 +1667,7 @@ generatorFrames
 *
 /
 void
-clearGenerator
+clearGeneratorInfo
 (
 JSFreeOp
 *
@@ -1669,7 +1675,7 @@ fop
 )
 ;
 void
-clearGenerator
+clearGeneratorInfo
 (
 JSFreeOp
 *
