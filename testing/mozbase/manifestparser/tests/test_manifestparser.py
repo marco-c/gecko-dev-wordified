@@ -1308,6 +1308,10 @@ manifests
 include_example
 noinclude_example
 )
+                                
+rootdir
+=
+here
 )
         
 #
@@ -1384,12 +1388,26 @@ parser
 manifest_defaults
 )
         
+ancestor_ini
+=
+os
+.
+path
+.
+relpath
+(
+include_example
+parser
+.
+rootdir
+)
+        
 self
 .
 assertTrue
 (
 (
-include_example
+ancestor_ini
 bar_path
 )
 in
@@ -1403,7 +1421,7 @@ self
 assertTrue
 (
 (
-include_example
+ancestor_ini
 foo_path
 )
 in
@@ -1560,6 +1578,24 @@ manifest
 handle_defaults
 =
 False
+                                
+rootdir
+=
+here
+)
+        
+ancestor_ini
+=
+os
+.
+path
+.
+relpath
+(
+manifest
+parser
+.
+rootdir
 )
         
 self
@@ -1587,7 +1623,7 @@ self
 assertIn
 (
 (
-manifest
+ancestor_ini
 foo_path
 )
 parser
@@ -1634,7 +1670,7 @@ parser
 manifest_defaults
 [
 (
-manifest
+ancestor_ini
 foo_path
 )
 ]
@@ -2257,10 +2293,24 @@ ini
 '
 )
         
+ancestor_ini
+=
+os
+.
+path
+.
+relpath
+(
+include_example
+parser
+.
+rootdir
+)
+        
 manifest_default_key
 =
 (
-include_example
+ancestor_ini
 included_foo
 )
         
