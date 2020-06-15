@@ -5843,10 +5843,6 @@ GetFrontBuffer
 (
 WebGLFramebufferJS
 *
-layers
-:
-:
-TextureType
 )
 ;
 RefPtr

@@ -4604,6 +4604,16 @@ true
 ;
 }
 ;
+virtual
+bool
+UseWaylandDMABufWebGL
+(
+)
+{
+return
+false
+;
+}
 static
 uint32_t
 TargetFrameRate

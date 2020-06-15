@@ -667,7 +667,6 @@ webgl
 GetFrontBuffer
 (
 mFramebuffer
-texType
 )
 ;
 }

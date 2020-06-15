@@ -691,12 +691,6 @@ GetFrontBuffer
 const
 ObjectId
 fb
-const
-layers
-:
-:
-TextureType
-t
 )
 const
 {
@@ -710,7 +704,6 @@ AutoResolve
 (
 fb
 )
-t
 )
 ;
 }
