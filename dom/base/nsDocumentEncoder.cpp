@@ -5277,6 +5277,14 @@ int32_t
 aDepth
 )
 {
+MOZ_ASSERT
+(
+aDepth
+>
+=
+0
+)
+;
 nsCOMPtr
 <
 nsIContent
