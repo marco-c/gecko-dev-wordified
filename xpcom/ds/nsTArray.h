@@ -6680,10 +6680,7 @@ ArrayIterator
 <
 elem_type
 &
-nsTArray
-<
-E
->
+self_type
 >
 iterator
 ;
@@ -6696,10 +6693,7 @@ ArrayIterator
 const
 elem_type
 &
-nsTArray
-<
-E
->
+self_type
 >
 const_iterator
 ;
