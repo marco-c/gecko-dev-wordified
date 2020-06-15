@@ -4195,6 +4195,9 @@ SandboxEnabled
 (
 )
 {
+#
+ifdef
+MOZ_CUBEB_REMOTING
 StaticMutexAutoLock
 lock
 (
@@ -4206,6 +4209,13 @@ return
 !
 sCubebSandbox
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 uint32_t
 MaxNumberOfChannels
