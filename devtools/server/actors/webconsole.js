@@ -4157,6 +4157,8 @@ new
 ContentProcessListener
 (
 this
+.
+onConsoleAPICall
 )
 ;
 }
