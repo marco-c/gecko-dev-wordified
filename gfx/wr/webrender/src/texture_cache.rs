@@ -1719,7 +1719,7 @@ TextureFilter
 :
 :
 Linear
-4
+8
 )
 /
 /
