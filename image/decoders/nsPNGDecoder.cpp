@@ -4538,10 +4538,10 @@ intent
 else
 if
 (
+(
 sRGBTag
 &
 &
-(
 decoder
 -
 >
@@ -4549,6 +4549,7 @@ mCMSMode
 =
 =
 eCMSMode_TaggedOnly
+)
 |
 |
 decoder
@@ -4558,7 +4559,6 @@ mCMSMode
 =
 =
 eCMSMode_All
-)
 )
 {
 /

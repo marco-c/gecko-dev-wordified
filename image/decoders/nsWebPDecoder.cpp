@@ -2028,8 +2028,16 @@ GetCMSOutputProfile
 )
 |
 |
+(
+mCMSMode
+=
+=
+eCMSMode_TaggedOnly
+&
+&
 !
 aProfile
+)
 )
 {
 return
