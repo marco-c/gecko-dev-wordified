@@ -1358,11 +1358,9 @@ new
 ConsoleAPIListener
 (
 null
-{
-onConsoleAPICall
-(
 message
-)
+=
+>
 {
 equal
 (
@@ -1412,7 +1410,6 @@ done
 (
 )
 ;
-}
 }
 )
 ;

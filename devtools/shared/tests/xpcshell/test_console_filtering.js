@@ -90,11 +90,8 @@ seenTypes
 0
 ;
 var
-callback
-=
-{
 onConsoleAPICall
-:
+=
 function
 (
 message
@@ -244,7 +241,6 @@ seenMessages
 +
 +
 ;
-}
 }
 ;
 let
@@ -641,7 +637,7 @@ new
 ConsoleAPIListener
 (
 null
-callback
+onConsoleAPICall
 )
 ;
 listener
@@ -671,8 +667,6 @@ messages
 .
 forEach
 (
-callback
-.
 onConsoleAPICall
 )
 ;
@@ -762,7 +756,7 @@ new
 ConsoleAPIListener
 (
 null
-callback
+onConsoleAPICall
 {
 addonId
 :
@@ -798,8 +792,6 @@ messages
 .
 forEach
 (
-callback
-.
 onConsoleAPICall
 )
 ;
@@ -889,7 +881,7 @@ new
 ConsoleAPIListener
 (
 null
-callback
+onConsoleAPICall
 {
 addonId
 :
@@ -925,8 +917,6 @@ messages
 .
 forEach
 (
-callback
-.
 onConsoleAPICall
 )
 ;
