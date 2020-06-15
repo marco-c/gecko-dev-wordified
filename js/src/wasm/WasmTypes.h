@@ -4106,9 +4106,10 @@ T
 T
 extractLane
 (
-int
+unsigned
 lane
 )
+const
 {
 T
 result
@@ -4155,7 +4156,7 @@ T
 void
 insertLane
 (
-int
+unsigned
 lane
 T
 value
