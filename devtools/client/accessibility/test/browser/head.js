@@ -4327,7 +4327,11 @@ panel
 accessibilityProxy
 :
 {
+accessibilityFront
+:
+{
 accessibleWalkerFront
+}
 }
 }
 }

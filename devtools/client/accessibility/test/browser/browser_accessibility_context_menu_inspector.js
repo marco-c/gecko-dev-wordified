@@ -472,6 +472,8 @@ panel
 .
 accessibilityProxy
 .
+accessibilityFront
+.
 accessibleWalkerFront
 .
 getAccessibleFor
