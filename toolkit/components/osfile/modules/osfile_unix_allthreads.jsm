@@ -792,7 +792,7 @@ this
 unixErrno
 )
 .
-readString
+readStringReplaceMalformed
 (
 )
 +
