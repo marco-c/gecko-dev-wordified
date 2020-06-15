@@ -31949,7 +31949,7 @@ NS_OK
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 FireDOMEvent
