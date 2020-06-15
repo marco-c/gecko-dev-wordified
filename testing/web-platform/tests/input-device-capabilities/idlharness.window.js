@@ -22,6 +22,13 @@ resources
 idlharness
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
@@ -31,7 +38,11 @@ idl_test
 (
 [
 '
-InputDeviceCapabilities
+input
+-
+device
+-
+capabilities
 '
 ]
 [
