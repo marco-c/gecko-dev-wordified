@@ -9244,7 +9244,7 @@ ins
 (
 )
 .
-trapnz
+resumable_trapnz
 (
 interrupt
 ir
