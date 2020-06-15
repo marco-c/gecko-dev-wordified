@@ -133,6 +133,11 @@ TestHttpResponseHead
 cpp
 '
 '
+TestInputStreamTransport
+.
+cpp
+'
+'
 TestIsValidIp
 .
 cpp
