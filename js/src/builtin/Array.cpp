@@ -1095,8 +1095,10 @@ ES2017
 15
 ToLength
 .
-static
 bool
+js
+:
+:
 ToLength
 (
 JSContext
