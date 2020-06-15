@@ -12,6 +12,7 @@ request
 .
 headers
 [
+b
 '
 origin
 '
@@ -23,6 +24,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -43,6 +45,7 @@ GET
 .
 first
 (
+b
 '
 tao
 '
@@ -52,6 +55,7 @@ if
 tao
 =
 =
+b
 '
 zero
 '
@@ -69,6 +73,7 @@ elif
 tao
 =
 =
+b
 '
 wildcard
 '
@@ -84,6 +89,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -91,6 +97,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -100,6 +107,7 @@ elif
 tao
 =
 =
+b
 '
 null
 '
@@ -122,6 +130,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -129,6 +138,7 @@ Allow
 -
 Origin
 '
+b
 '
 null
 '
@@ -138,6 +148,7 @@ elif
 tao
 =
 =
+b
 '
 Null
 '
@@ -156,6 +167,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -163,6 +175,7 @@ Allow
 -
 Origin
 '
+b
 '
 Null
 '
@@ -172,6 +185,7 @@ elif
 tao
 =
 =
+b
 '
 origin
 '
@@ -192,6 +206,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -207,6 +222,7 @@ tao
 .
 startswith
 (
+b
 '
 origin_port
 '
@@ -230,6 +246,7 @@ origin
 .
 split
 (
+b
 '
 :
 '
@@ -242,6 +259,7 @@ origin_parts
 0
 ]
 +
+b
 '
 :
 '
@@ -257,6 +275,7 @@ tao
 .
 split
 (
+b
 '
 origin_port_
 '
@@ -271,6 +290,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -280,6 +300,7 @@ Origin
 '
 host
 +
+b
 '
 :
 '
@@ -291,6 +312,7 @@ elif
 tao
 =
 =
+b
 '
 space
 '
@@ -312,6 +334,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -322,6 +345,7 @@ Origin
 (
 origin
 +
+b
 '
 *
 '
@@ -332,6 +356,7 @@ elif
 tao
 =
 =
+b
 '
 multi
 '
@@ -354,6 +379,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -370,6 +396,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -377,6 +404,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -386,6 +414,7 @@ elif
 tao
 =
 =
+b
 '
 multi_wildcard
 '
@@ -405,6 +434,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -412,6 +442,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -423,6 +454,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -430,6 +462,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -439,6 +472,7 @@ elif
 tao
 =
 =
+b
 '
 match_origin
 '
@@ -461,6 +495,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -477,6 +512,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -484,6 +520,7 @@ Allow
 -
 Origin
 '
+b
 "
 fake
 "
@@ -493,6 +530,7 @@ elif
 tao
 =
 =
+b
 '
 match_wildcard
 '
@@ -513,6 +551,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -520,6 +559,7 @@ Allow
 -
 Origin
 '
+b
 "
 fake
 "
@@ -531,6 +571,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -538,6 +579,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -547,6 +589,7 @@ elif
 tao
 =
 =
+b
 '
 uppercase
 '
@@ -569,6 +612,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -

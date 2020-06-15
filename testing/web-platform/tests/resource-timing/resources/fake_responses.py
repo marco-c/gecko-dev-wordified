@@ -30,6 +30,7 @@ GET
 .
 first
 (
+b
 "
 tag
 "
@@ -44,6 +45,7 @@ GET
 .
 first
 (
+b
 "
 redirect
 "
@@ -58,6 +60,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -76,9 +79,11 @@ GET
 .
 first
 (
+b
 "
 date
 "
+b
 "
 "
 )
@@ -91,6 +96,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -107,6 +113,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -116,6 +123,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -128,6 +136,7 @@ headers
 .
 set
 (
+b
 "
 Timing
 -
@@ -135,6 +144,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -151,9 +161,11 @@ headers
 .
 set
 (
+b
 "
 ETag
 "
+b
 '
 "
 %
@@ -174,6 +186,7 @@ headers
 .
 set
 (
+b
 "
 Last
 -
@@ -192,6 +205,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -204,12 +218,14 @@ status
 =
 (
 302
+u
 "
 Moved
 "
 )
         
 return
+u
 "
 "
     
@@ -248,12 +264,14 @@ status
 =
 (
 304
+u
 "
 SUPERCOOL
 "
 )
         
 return
+u
 "
 "
     
@@ -266,11 +284,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -279,6 +299,7 @@ plain
 )
         
 return
+u
 "
 MAYBE
 NOT

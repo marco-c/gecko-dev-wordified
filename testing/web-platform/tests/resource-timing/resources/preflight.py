@@ -12,6 +12,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -21,6 +22,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -33,6 +35,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -42,6 +45,7 @@ Max
 -
 Age
 "
+b
 "
 0
 "
@@ -54,6 +58,7 @@ headers
 .
 set
 (
+b
 "
 Timing
 -
@@ -61,6 +66,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -105,6 +111,7 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
@@ -116,6 +123,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -125,6 +133,7 @@ Allow
 -
 Headers
 "
+b
 "
 X
 -
