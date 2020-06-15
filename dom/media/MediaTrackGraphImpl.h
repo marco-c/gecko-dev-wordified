@@ -2054,8 +2054,10 @@ aDestinationTrack
 const
 nsTArray
 <
+RefPtr
+<
 MediaTrack
-*
+>
 >
 &
 aTracks
@@ -2110,8 +2112,10 @@ aAudioContextOperation
 const
 nsTArray
 <
+RefPtr
+<
 MediaTrack
-*
+>
 >
 &
 aTrackSet
