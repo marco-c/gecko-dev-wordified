@@ -7647,9 +7647,11 @@ mURLData
 aLoadData
 .
 mLineNumber
-aLoadData
+aLoader
 .
-mCompatMode
+GetCompatibilityMode
+(
+)
 /
 *
 reusable_sheets
@@ -7718,9 +7720,11 @@ mParsingMode
 aLoadData
 .
 mLineNumber
-aLoadData
+aLoader
 .
-mCompatMode
+GetCompatibilityMode
+(
+)
 /
 *
 should_record_use_counters

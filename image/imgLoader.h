@@ -267,6 +267,14 @@ imgCacheEntry
 {
 public
 :
+static
+uint32_t
+SecondsFromPRTime
+(
+PRTime
+prTime
+)
+;
 imgCacheEntry
 (
 imgLoader

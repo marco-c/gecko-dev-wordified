@@ -1056,14 +1056,6 @@ function
 arg
 )
 {
-content
-.
-windowUtils
-.
-clearSharedStyleSheetCache
-(
-)
-;
 let
 videoURL
 =
