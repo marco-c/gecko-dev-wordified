@@ -12115,6 +12115,13 @@ stackFrame
 .
 initJsFrame
 <
+JS
+:
+:
+ProfilingCategoryPair
+:
+:
+JS_BaselineInterpret
 ExtraFlags
 >
 (
