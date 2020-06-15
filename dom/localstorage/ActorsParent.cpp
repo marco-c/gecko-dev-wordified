@@ -49224,7 +49224,7 @@ usage
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (
@@ -49685,7 +49685,7 @@ usage
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (
