@@ -54276,7 +54276,7 @@ f
 ifdef
 DEBUG_FRAME_DUMP
 int32_t
-nsFrame
+nsIFrame
 :
 :
 ContentIndexInContainer
@@ -55864,7 +55864,7 @@ get
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetFrameName
@@ -55889,7 +55889,7 @@ aResult
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 MakeFrameName
