@@ -243,6 +243,8 @@ RelocationOverlay
 public
 Cell
 {
+protected
+:
 /
 /
 First
