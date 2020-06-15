@@ -5158,6 +5158,11 @@ MediaTrackGraphImpl
 aGraph
 )
 ;
+void
+Abort
+(
+)
+;
 MediaTrack
 *
 DestinationTrack
