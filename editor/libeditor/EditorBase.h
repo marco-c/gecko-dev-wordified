@@ -9058,7 +9058,9 @@ E
 g
 .
 adjusting
-whitespaces
+white
+-
+spaces
 during
 composition
 .

@@ -3983,7 +3983,9 @@ block
 element
 terminates
 a
-whitespace
+white
+-
+space
 /
 /
 run
@@ -5359,7 +5361,7 @@ aContent
 *
 *
 *
-IsNextCharInNodeWhitespace
+IsNextCharInNodeWhiteSpace
 (
 )
 checks
@@ -5377,7 +5379,9 @@ if
 following
 selection
 is
-whitespace
+white
+-
+space
 or
 nbsp
 .
@@ -5387,7 +5391,7 @@ void
 HTMLEditor
 :
 :
-IsNextCharInNodeWhitespace
+IsNextCharInNodeWhiteSpace
 (
 nsIContent
 *
@@ -5568,7 +5572,7 @@ aOffset
 *
 *
 *
-IsPrevCharInNodeWhitespace
+IsPrevCharInNodeWhiteSpace
 (
 )
 checks
@@ -5586,7 +5590,9 @@ if
 following
 selection
 is
-whitespace
+white
+-
+space
 .
 *
 /
@@ -5594,7 +5600,7 @@ void
 HTMLEditor
 :
 :
-IsPrevCharInNodeWhitespace
+IsPrevCharInNodeWhiteSpace
 (
 nsIContent
 *
@@ -6176,7 +6182,9 @@ have
 to
 use
 expensive
-whitespace
+white
+-
+space
 calculation
 code
 to
@@ -32807,7 +32815,7 @@ GetPriorHTMLSibling
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 aSkipWS
 )
 const
@@ -32849,7 +32857,7 @@ HTML
 )
 |
 |
-SkippableWhitespace
+SkippableWhiteSpace
 (
 content
 aSkipWS
@@ -32881,7 +32889,7 @@ GetNextHTMLSibling
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 aSkipWS
 )
 const
@@ -32923,7 +32931,7 @@ HTML
 )
 |
 |
-SkippableWhitespace
+SkippableWhiteSpace
 (
 content
 aSkipWS

@@ -3497,7 +3497,9 @@ collapse
 newlines
 and
 surrounding
-whitespace
+white
+-
+space
 characters
 and
 *

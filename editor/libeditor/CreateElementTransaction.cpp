@@ -532,7 +532,9 @@ Try
 to
 insert
 formatting
-whitespace
+white
+-
+space
 for
 the
 new

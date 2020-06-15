@@ -1991,7 +1991,9 @@ breakPt
 skip
 newlines
 or
-whitespace
+white
+-
+space
 at
 the
 end
@@ -2057,7 +2059,9 @@ Length
 Advance
 past
 the
-whitespace
+white
+-
+space
 which
 caused
 the

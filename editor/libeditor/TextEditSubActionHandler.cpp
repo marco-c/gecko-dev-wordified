@@ -2688,7 +2688,9 @@ the
 first
 non
 -
-whitespace
+white
+-
+space
 char
 while
 (
@@ -3323,7 +3325,9 @@ strip
 newlines
 and
 surrounding
-whitespace
+white
+-
+space
 /
 /
 So

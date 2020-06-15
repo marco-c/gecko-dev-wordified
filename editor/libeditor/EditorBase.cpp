@@ -16267,7 +16267,9 @@ operation
 Example
 :
 adjusting
-whitespace
+white
+-
+space
 around
 an
 /
@@ -31761,7 +31763,9 @@ semicolons
 /
 /
 or
-whitespace
+white
+-
+space
 then
 add
 a
@@ -31899,7 +31903,9 @@ to
 set
 the
 new
-whitespace
+white
+-
+space
 /
 wrapping
 style

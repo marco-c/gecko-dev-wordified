@@ -2785,7 +2785,9 @@ GROUP_P
 /
 /
 text
-whitespace
+white
+-
+space
 newline
 comment
 #

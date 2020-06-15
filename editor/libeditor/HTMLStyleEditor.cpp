@@ -454,7 +454,9 @@ Should
 we
 trim
 unnecessary
-whitespaces
+white
+-
+spaces
 ?
 editActionData
 .
@@ -1229,7 +1231,9 @@ Should
 we
 trim
 unnecessary
-whitespaces
+white
+-
+spaces
 ?
 editActionData
 .

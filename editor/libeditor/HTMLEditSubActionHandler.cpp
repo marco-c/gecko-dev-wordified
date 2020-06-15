@@ -2655,7 +2655,9 @@ does
 not
 handle
 the
-whitespaces
+white
+-
+spaces
 .
 RefPtr
 <
@@ -3300,7 +3302,9 @@ Temporarily
 WSRunObject
 replaces
 ASCII
-whitespaces
+white
+-
+spaces
 with
 NPSPs
 /
@@ -3314,7 +3318,9 @@ replace
 them
 with
 ASCII
-whitespaces
+white
+-
+spaces
 here
 .
 We
@@ -3429,7 +3435,7 @@ this
 pointToAdjust
 )
 .
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 ;
@@ -3461,7 +3467,7 @@ NS_WARNING
 WSRunObject
 :
 :
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 failed
@@ -3487,7 +3493,7 @@ endpoints
 XXX
 Hmm
 if
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 runs
@@ -3550,7 +3556,7 @@ StartRawPoint
 )
 )
 .
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 ;
@@ -3578,7 +3584,7 @@ rvIgnored
 WSRunObject
 :
 :
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 failed
@@ -3641,7 +3647,7 @@ EndRawPoint
 )
 )
 .
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 ;
@@ -3669,7 +3675,7 @@ rvIgnored
 WSRunObject
 :
 :
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 failed
@@ -21441,7 +21447,9 @@ Adjust
 /
 /
 surrounding
-whitespace
+white
+-
+space
 in
 preparation
 to
@@ -23761,7 +23769,9 @@ have
 left
 only
 collapsed
-whitespace
+white
+-
+space
 in
 the
 start
@@ -28243,7 +28253,9 @@ p
 /
 /
 Adjust
-whitespace
+white
+-
+space
 at
 block
 boundaries
@@ -37555,7 +37567,7 @@ GetNextHTMLSibling
 (
 &
 aContent
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes
@@ -37742,7 +37754,7 @@ GetPriorHTMLSibling
 (
 &
 aContent
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes
@@ -37905,7 +37917,7 @@ GetPriorHTMLSibling
 (
 &
 aContent
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes
@@ -52758,7 +52770,9 @@ there
 any
 intervening
 visible
-whitespace
+white
+-
+space
 ?
 If
 so
@@ -53005,7 +53019,9 @@ there
 any
 intervening
 visible
-whitespace
+white
+-
+space
 ?
 If
 so
@@ -53730,7 +53746,7 @@ Backward
 HTMLEditor
 :
 :
-IsPrevCharInNodeWhitespace
+IsPrevCharInNodeWhiteSpace
 (
 newContent
 newOffset
@@ -53752,7 +53768,7 @@ else
 HTMLEditor
 :
 :
-IsNextCharInNodeWhitespace
+IsNextCharInNodeWhiteSpace
 (
 newContent
 newOffset
@@ -56100,7 +56116,9 @@ appropriate
 )
 for
 additional
-whitespace
+white
+-
+space
 or
 nbsp
 '
@@ -56183,7 +56201,9 @@ method
 and
 stop
 scanning
-whitespaces
+white
+-
+spaces
 when
 it
 reaches
@@ -61225,7 +61245,9 @@ don
 '
 t
 support
-whitespace
+white
+-
+space
 collapsing
 in
 these
@@ -61490,7 +61512,9 @@ Enter
 key
 after
 a
-whitespace
+white
+-
+space
 which
 is
 at
