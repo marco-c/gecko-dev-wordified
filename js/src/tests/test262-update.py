@@ -309,12 +309,6 @@ dayPeriod
 "
     
 "
-Promise
-.
-any
-"
-    
-"
 AggregateError
 "
 ]
