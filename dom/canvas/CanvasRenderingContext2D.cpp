@@ -32865,10 +32865,6 @@ aError
 )
 ;
 }
-static
-uint8_t
-g2DContextLayerUserData
-;
 void
 CanvasRenderingContext2D
 :
