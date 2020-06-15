@@ -10216,6 +10216,15 @@ None
 >
 None
 }
+same_site
+:
+self
+.
+sameSite
+.
+clone
+(
+)
 }
 )
 }
