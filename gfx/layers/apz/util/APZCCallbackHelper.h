@@ -1424,8 +1424,12 @@ LayoutDeviceCoord
 aSpanChange
 Modifiers
 aModifiers
+const
+nsCOMPtr
+<
 nsIWidget
-*
+>
+&
 aWidget
 )
 ;
