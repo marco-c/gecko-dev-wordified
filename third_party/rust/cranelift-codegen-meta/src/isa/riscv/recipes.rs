@@ -485,7 +485,7 @@ Rshamt
 &
 formats
 .
-binary_imm64
+binary_imm
 4
 )
 .
@@ -607,7 +607,7 @@ Ii
 &
 formats
 .
-binary_imm64
+binary_imm
 4
 )
 .
@@ -640,7 +640,7 @@ new_is_signed_int
 *
 formats
 .
-binary_imm64
+binary_imm
 "
 imm
 "
