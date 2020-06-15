@@ -169,9 +169,6 @@ gBrowser
 opening
 :
 uri
-waitForStateStop
-:
-true
 }
 )
 ;
@@ -182,7 +179,11 @@ tab
 .
 linkedBrowser
 .
-innerWindowID
+browsingContext
+.
+currentWindowGlobal
+.
+innerWindowId
 ;
 const
 wgpDestroyed
