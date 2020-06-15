@@ -1234,6 +1234,9 @@ MediaPlayback
 MediaTimer
 "
 "
+NativeAudioCallback
+"
+"
 RenderBackend
 "
 "
