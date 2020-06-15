@@ -74880,6 +74880,14 @@ false
 }
 }
 return
+StaticPrefs
+:
+:
+apz_mvm_force_enabled
+(
+)
+|
+|
 nsLayoutUtils
 :
 :
