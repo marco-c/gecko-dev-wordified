@@ -962,6 +962,12 @@ message
 /
 IDX_MESSAGE
 "
+errors
+"
+/
+/
+IDX_ERRORS
+"
 lastIndex
 "
 /
