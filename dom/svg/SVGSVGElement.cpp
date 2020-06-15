@@ -1972,9 +1972,13 @@ SVGSVGElement
 :
 CreateSVGTransformFromMatrix
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
 matrix
+ErrorResult
+&
+rv
 )
 {
 return
@@ -1984,10 +1988,7 @@ new
 DOMSVGTransform
 (
 matrix
-.
-GetMatrix
-(
-)
+rv
 )
 )
 ;

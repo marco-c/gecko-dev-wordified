@@ -182,6 +182,9 @@ EventChainPreVisitor
 namespace
 dom
 {
+struct
+DOMMatrix2DInit
+;
 class
 DOMSVGAngle
 ;
@@ -846,9 +849,13 @@ DOMSVGTransform
 >
 CreateSVGTransformFromMatrix
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
 matrix
+ErrorResult
+&
+rv
 )
 ;
 using
