@@ -1276,17 +1276,22 @@ getcwd
 def
 populate_context
 (
-context
 key
 =
 None
 )
 :
             
-context
-.
-topdir
+if
+key
 =
+=
+'
+topdir
+'
+:
+                
+return
 self
 .
 topsrcdir

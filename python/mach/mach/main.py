@@ -971,7 +971,6 @@ _handler
 '
 )
 (
-self
 key
 )
             
@@ -1110,7 +1109,6 @@ following
                 
 populate_context_handler
 (
-context
 key
 =
 None
@@ -1149,34 +1147,6 @@ use
 in
 command
 handlers
-.
-            
-For
-backwards
-compatibility
-it
-is
-also
-called
-before
-command
-            
-dispatch
-without
-a
-key
-allowing
-the
-context
-handler
-to
-add
-            
-attributes
-to
-the
-context
-instance
 .
         
 require_conditions
@@ -2185,6 +2155,31 @@ failure
 "
 "
         
+if
+self
+.
+populate_context_handler
+:
+            
+topsrcdir
+=
+self
+.
+populate_context_handler
+(
+'
+topdir
+'
+)
+            
+register_sentry
+(
+topsrcdir
+)
+        
+else
+:
+            
 register_sentry
 (
 )
@@ -2792,13 +2787,6 @@ self
 .
 populate_context_handler
 :
-            
-self
-.
-populate_context_handler
-(
-context
-)
             
 context
 =
