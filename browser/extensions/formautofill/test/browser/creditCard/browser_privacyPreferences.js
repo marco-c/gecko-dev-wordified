@@ -409,11 +409,11 @@ href
 includes
 (
 "
-autofill
+credit
 -
 card
 -
-address
+autofill
 "
 )
 "
@@ -425,11 +425,11 @@ more
 link
 should
 contain
-autofill
+credit
 -
 card
 -
-address
+autofill
 "
 )
 ;
