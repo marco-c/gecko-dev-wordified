@@ -22689,7 +22689,7 @@ if
 (
 Portability
 .
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -22706,7 +22706,6 @@ xhtml
 transitional
 /
 /
-en
 "
 publicIdentifier
 )
@@ -22720,7 +22719,7 @@ if
 (
 Portability
 .
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -22737,7 +22736,6 @@ xhtml
 frameset
 /
 /
-en
 "
 publicIdentifier
 )
@@ -22759,7 +22757,7 @@ if
 (
 Portability
 .
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -22776,7 +22774,6 @@ html
 transitional
 /
 /
-en
 "
 publicIdentifier
 )
@@ -22790,7 +22787,7 @@ if
 (
 Portability
 .
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -22807,7 +22804,6 @@ html
 frameset
 /
 /
-en
 "
 publicIdentifier
 )
@@ -22987,7 +22983,7 @@ if
 (
 Portability
 .
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -23004,7 +23000,6 @@ html
 transitional
 /
 /
-en
 "
 publicIdentifier
 )
@@ -23019,7 +23014,7 @@ if
 (
 Portability
 .
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -23036,7 +23031,6 @@ html
 frameset
 /
 /
-en
 "
 publicIdentifier
 )

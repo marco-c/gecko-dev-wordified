@@ -15521,7 +15521,7 @@ if
 nsHtml5Portability
 :
 :
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -15538,7 +15538,6 @@ xhtml
 transitional
 /
 /
-en
 "
 publicIdentifier
 )
@@ -15553,7 +15552,7 @@ if
 nsHtml5Portability
 :
 :
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -15570,7 +15569,6 @@ xhtml
 frameset
 /
 /
-en
 "
 publicIdentifier
 )
@@ -15590,7 +15588,7 @@ if
 nsHtml5Portability
 :
 :
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -15607,7 +15605,6 @@ html
 transitional
 /
 /
-en
 "
 publicIdentifier
 )
@@ -15622,7 +15619,7 @@ if
 nsHtml5Portability
 :
 :
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -15639,7 +15636,6 @@ html
 frameset
 /
 /
-en
 "
 publicIdentifier
 )
@@ -15826,7 +15822,7 @@ if
 nsHtml5Portability
 :
 :
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -15843,7 +15839,6 @@ html
 transitional
 /
 /
-en
 "
 publicIdentifier
 )
@@ -15859,7 +15854,7 @@ if
 nsHtml5Portability
 :
 :
-lowerCaseLiteralEqualsIgnoreAsciiCaseString
+lowerCaseLiteralIsPrefixOfIgnoreAsciiCaseString
 (
 "
 -
@@ -15876,7 +15871,6 @@ html
 frameset
 /
 /
-en
 "
 publicIdentifier
 )
