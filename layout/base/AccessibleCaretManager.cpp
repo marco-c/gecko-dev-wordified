@@ -8135,15 +8135,11 @@ nsIFrame
 *
 anchorFrame
 =
-nullptr
-;
 selection
 -
 >
 GetPrimaryFrameForAnchorNode
 (
-&
-anchorFrame
 )
 ;
 if
