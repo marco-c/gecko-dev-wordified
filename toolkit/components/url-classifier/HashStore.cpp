@@ -6284,7 +6284,7 @@ iterEnd
 array
 -
 >
-RemoveElementsAt
+RemoveElementsRange
 (
 iterStart
 iterEnd

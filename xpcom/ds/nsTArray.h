@@ -13009,7 +13009,7 @@ elements
 to
 remove
 const_iterator
-RemoveElementsAt
+RemoveElementsRange
 (
 const_iterator
 first
