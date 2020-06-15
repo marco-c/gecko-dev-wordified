@@ -2298,10 +2298,6 @@ const
 NodeSerializer
 &
 aNodeSerializer
-const
-RangeNodeContext
-&
-aRangeNodeContext
 RangeContextSerializer
 &
 aRangeContextSerializer
@@ -2318,10 +2314,6 @@ mEndRootIndex
 mHaltRangeHint
 {
 false
-}
-mRangeNodeContext
-{
-aRangeNodeContext
 }
 mFlags
 {
@@ -2447,11 +2439,6 @@ mHaltRangeHint
 ;
 ContextInfoDepth
 mContextInfoDepth
-;
-const
-RangeNodeContext
-&
-mRangeNodeContext
 ;
 /
 /
@@ -2619,8 +2606,6 @@ mRangeSerializer
 (
 mFlags
 mNodeSerializer
-*
-mRangeNodeContext
 mRangeContextSerializer
 )
 {
@@ -5498,6 +5483,8 @@ mClosestCommonInclusiveAncestorOfRange
 {
 if
 (
+mRangeContextSerializer
+.
 mRangeNodeContext
 .
 IncludeInContext
