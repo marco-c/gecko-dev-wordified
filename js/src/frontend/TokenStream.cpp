@@ -19637,6 +19637,16 @@ badToken
 )
 ;
 }
+anyCharsAccess
+(
+)
+.
+flags
+.
+sawDeprecatedOctal
+=
+true
+;
 radix
 =
 8
@@ -23894,7 +23904,7 @@ anyChars
 .
 flags
 .
-sawOctalEscape
+sawDeprecatedOctal
 =
 true
 ;
