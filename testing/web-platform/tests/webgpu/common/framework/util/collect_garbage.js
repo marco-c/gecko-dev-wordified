@@ -203,6 +203,15 @@ temp
 foo
 '
 ;
+temp
+;
+/
+/
+dummy
+use
+of
+unused
+variable
 gcRec
 (
 n

@@ -62,7 +62,9 @@ let
 Ordering
 ;
 /
-/
+*
+*
+*
 Compares
 two
 queries
@@ -79,8 +81,8 @@ the
 tree
 )
 .
-/
-/
+*
+*
 See
 src
 /
@@ -94,6 +96,8 @@ ts
 for
 examples
 .
+*
+/
 (
 function
 (
@@ -385,7 +389,9 @@ Equal
 ;
 }
 /
-/
+*
+*
+*
 Compares
 a
 single
@@ -394,8 +400,8 @@ of
 a
 query
 .
-/
-/
+*
+*
 "
 IsBig
 "
@@ -417,9 +423,9 @@ test
 -
 level
 :
-/
-/
-anything
+*
+-
+Anything
 >
 =
 suite
@@ -428,9 +434,9 @@ a
 *
 is
 big
-/
-/
-anything
+*
+-
+Anything
 <
 =
 suite
@@ -440,6 +446,8 @@ a
 *
 is
 small
+*
+/
 function
 compareOneLevel
 (

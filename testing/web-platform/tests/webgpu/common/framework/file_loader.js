@@ -167,10 +167,7 @@ return
 loadTreeForQuery
 (
 this
-parseQuery
-(
 query
-)
 subqueriesToExpand
 .
 map
@@ -187,7 +184,7 @@ q
 ;
 }
 async
-loadTests
+loadCases
 (
 query
 )

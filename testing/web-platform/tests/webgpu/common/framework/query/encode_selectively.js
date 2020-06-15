@@ -27,7 +27,9 @@ cts
 *
 /
 /
-/
+*
+*
+*
 Encodes
 a
 stringified
@@ -48,8 +50,8 @@ in
 a
 URL
 .
-/
-/
+*
+*
 encodeURIComponent
 encodes
 in
@@ -64,13 +66,12 @@ www
 form
 -
 urlencoded
+*
 but
 URLs
 don
 '
 t
-/
-/
 actually
 have
 to
@@ -81,6 +82,7 @@ as
 HTML
 form
 encoding
+*
 (
 we
 interpret
@@ -90,8 +92,7 @@ from
 JavaScript
 )
 .
-/
-/
+*
 So
 we
 encode
@@ -106,11 +107,10 @@ some
 encoded
 escape
 codes
+*
 back
 to
 their
-/
-/
 original
 form
 for
@@ -118,6 +118,8 @@ readability
 /
 copyability
 .
+*
+/
 export
 function
 encodeURIComponentSelectively
