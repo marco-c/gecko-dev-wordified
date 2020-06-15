@@ -1,3 +1,9 @@
+function
+test
+(
+SharedOrUnsharedArrayBuffer
+)
+{
 var
 ia
 =
@@ -5,7 +11,7 @@ new
 Int32Array
 (
 new
-SharedArrayBuffer
+SharedOrUnsharedArrayBuffer
 (
 4
 )
@@ -319,5 +325,16 @@ i
 )
 f
 (
+)
+;
+}
+test
+(
+SharedArrayBuffer
+)
+;
+test
+(
+ArrayBuffer
 )
 ;
