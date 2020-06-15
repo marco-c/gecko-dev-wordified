@@ -2357,9 +2357,6 @@ nsRange
 aRange
 )
 ;
-RangeBoundariesInclusiveAncestorsAndOffsets
-mRangeBoundariesInclusiveAncestorsAndOffsets
-;
 /
 *
 *
@@ -2428,6 +2425,14 @@ nsINode
 >
 mCommonInclusiveAncestors
 ;
+ContextInfoDepth
+mContextInfoDepth
+;
+private
+:
+RangeBoundariesInclusiveAncestorsAndOffsets
+mRangeBoundariesInclusiveAncestorsAndOffsets
+;
 int32_t
 mStartRootIndex
 ;
@@ -2436,9 +2441,6 @@ mEndRootIndex
 ;
 bool
 mHaltRangeHint
-;
-ContextInfoDepth
-mContextInfoDepth
 ;
 /
 /
