@@ -278,5 +278,10 @@ mPending
 ;
 }
 ;
+NS_IMPL_ISUPPORTS
+(
+WaitForCondition
+nsIRunnable
+)
 #
 endif
