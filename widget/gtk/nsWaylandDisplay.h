@@ -637,6 +637,12 @@ IsDMABufTexturesEnabled
 ;
 static
 bool
+IsDMABufVideoTexturesEnabled
+(
+)
+;
+static
+bool
 IsDMABufWebGLEnabled
 (
 )
