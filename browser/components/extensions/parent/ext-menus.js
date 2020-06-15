@@ -7018,6 +7018,9 @@ if
 trigger
 .
 _placesNode
+?
+.
+bookmarkGuid
 )
 {
 return
