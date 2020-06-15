@@ -2124,6 +2124,15 @@ override
 ;
 virtual
 void
+SetSupportsNativeFullscreen
+(
+bool
+aShow
+)
+override
+;
+virtual
+void
 SetWindowAnimationType
 (
 WindowAnimationType
