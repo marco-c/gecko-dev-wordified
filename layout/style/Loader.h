@@ -3494,6 +3494,12 @@ LoaderPrincipal
 )
 const
 ;
+bool
+ShouldBypassCache
+(
+)
+const
+;
 private
 :
 friend
