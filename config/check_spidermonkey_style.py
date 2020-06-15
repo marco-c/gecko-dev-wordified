@@ -819,6 +819,20 @@ in
 OBJDIR
     
 '
+js
+/
+ProfilingCategoryList
+.
+h
+'
+#
+comes
+from
+mozglue
+/
+baseprofiler
+    
+'
 jscustomallocator
 .
 h
