@@ -1126,7 +1126,7 @@ neon
 pop
 '
 )
-ADD_GIT_TOOLS_PATH
+ADD_GIT_CINNABAR_PATH
 =
 '
 '
@@ -3856,8 +3856,21 @@ which
 git
 '
 )
-state_dir
                               
+self
+.
+instance
+.
+which
+(
+'
+git
+-
+cinnabar
+'
+)
+                              
+state_dir
 checkout_root
 )
         
@@ -5971,6 +5984,7 @@ def
 configure_git
 (
 git
+cinnabar
 root_state_dir
 top_src_dir
 )
@@ -5998,9 +6012,14 @@ root_state_dir
 top_src_dir
 )
     
+if
+not
+cinnabar
+:
+        
 print
 (
-ADD_GIT_TOOLS_PATH
+ADD_GIT_CINNABAR_PATH
 .
 format
 (
