@@ -5705,6 +5705,10 @@ NoGC
 cx
 chars
 length
+gc
+:
+:
+TenuredHeap
 )
 ;
 }
@@ -5748,6 +5752,10 @@ NewStringFromLittleEndianNoGC
 cx
 chars
 length
+gc
+:
+:
+TenuredHeap
 )
 ;
 }
@@ -5806,6 +5814,10 @@ cx
 length
 &
 storage
+gc
+:
+:
+TenuredHeap
 )
 ;
 if
@@ -5952,6 +5964,10 @@ move
 newStr
 )
 length
+gc
+:
+:
+TenuredHeap
 )
 ;
 }
