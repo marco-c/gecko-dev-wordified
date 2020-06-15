@@ -509,9 +509,13 @@ aCx
 JS
 :
 :
-IsAsyncStackCaptureEnabledForRealm
+ContextOptionsRef
 (
 aCx
+)
+.
+asyncStack
+(
 )
 )
 {
