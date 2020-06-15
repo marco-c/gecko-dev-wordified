@@ -128,6 +128,13 @@ h
 #
 include
 "
+CompositorThread
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h

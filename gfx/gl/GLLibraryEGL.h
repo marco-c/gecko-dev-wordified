@@ -1704,6 +1704,7 @@ bool
 HasKHRImageBase
 (
 )
+const
 {
 return
 IsExtensionSupported
@@ -1722,6 +1723,7 @@ bool
 HasKHRImagePixmap
 (
 )
+const
 {
 return
 IsExtensionSupported
@@ -1740,6 +1742,7 @@ bool
 HasKHRImageTexture2D
 (
 )
+const
 {
 return
 IsExtensionSupported
@@ -1752,6 +1755,7 @@ bool
 HasANGLESurfaceD3DTexture2DShareHandle
 (
 )
+const
 {
 return
 IsExtensionSupported

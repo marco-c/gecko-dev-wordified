@@ -2596,13 +2596,6 @@ MakeCurrent
 gl
 -
 >
-GuaranteeResolve
-(
-)
-;
-gl
--
->
 fActiveTexture
 (
 LOCAL_GL_TEXTURE0
