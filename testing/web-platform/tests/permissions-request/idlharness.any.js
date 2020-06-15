@@ -22,6 +22,13 @@ resources
 idlharness
 .
 js
+/
+/
+META
+:
+timeout
+=
+long
 '
 use
 strict
