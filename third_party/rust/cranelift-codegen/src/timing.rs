@@ -415,6 +415,15 @@ Remove
 unreachable
 blocks
 "
+remove_constant_phis
+:
+"
+Remove
+constant
+phi
+-
+nodes
+"
 regalloc
 :
 "

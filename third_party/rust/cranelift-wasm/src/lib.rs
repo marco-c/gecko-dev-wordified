@@ -411,7 +411,9 @@ ModuleEnvironment
 ReturnMode
 TargetEnvironment
 WasmError
+WasmFuncType
 WasmResult
+WasmType
 }
 ;
 pub

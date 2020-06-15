@@ -1571,6 +1571,13 @@ not
 relocate
 anything
 .
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 NullRelocSink
@@ -1687,6 +1694,13 @@ on
 trapping
 semantics
 .
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 NullTrapSink
