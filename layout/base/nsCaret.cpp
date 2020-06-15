@@ -973,7 +973,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ShowCaretDuringSelection
+IntID
+:
+:
+ShowCaretDuringSelection
 mShowDuringSelection
 ?
 1
@@ -1155,7 +1158,10 @@ GetFloat
 LookAndFeel
 :
 :
-eFloatID_CaretAspectRatio
+FloatID
+:
+:
+CaretAspectRatio
 0
 .
 0f
@@ -1175,7 +1181,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_CaretWidth
+IntID
+:
+:
+CaretWidth
 1
 )
 )
@@ -3706,7 +3715,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_CaretBlinkTime
+IntID
+:
+:
+CaretBlinkTime
 kDefaultCaretBlinkRate
 )
 )

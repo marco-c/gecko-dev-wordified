@@ -1532,7 +1532,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_AlertNotificationOrigin
+IntID
+:
+:
+AlertNotificationOrigin
 )
 ;
 scriptableOrigin

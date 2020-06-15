@@ -1267,7 +1267,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_MenusCanOverlapOSBar
+IntID
+:
+:
+MenusCanOverlapOSBar
 0
 )
 ;

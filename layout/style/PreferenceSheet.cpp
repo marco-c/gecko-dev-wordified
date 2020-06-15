@@ -465,7 +465,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_UseAccessibilityTheme
+IntID
+:
+:
+UseAccessibilityTheme
 0
 )
 ;

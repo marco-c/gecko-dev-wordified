@@ -146,14 +146,6 @@ gfxFontStyle
 ;
 struct
 LookAndFeelInt
-{
-int32_t
-id
-;
-int32_t
-value
-;
-}
 ;
 namespace
 mozilla
@@ -198,6 +190,7 @@ nsXPLookAndFeel
 cpp
 .
 enum
+class
 IntID
 {
 /
@@ -208,14 +201,14 @@ be
 overriden
 by
 OS
-eIntID_CaretBlinkTime
+CaretBlinkTime
 /
 /
 pixel
 width
 of
 caret
-eIntID_CaretWidth
+CaretWidth
 /
 /
 show
@@ -226,7 +219,7 @@ text
 is
 selected
 ?
-eIntID_ShowCaretDuringSelection
+ShowCaretDuringSelection
 /
 /
 select
@@ -238,14 +231,14 @@ tab
 /
 accesskey
 ?
-eIntID_SelectTextfieldsOnKeyFocus
+SelectTextfieldsOnKeyFocus
 /
 /
 delay
 before
 submenus
 open
-eIntID_SubmenuDelay
+SubmenuDelay
 /
 /
 can
@@ -256,7 +249,7 @@ menu
 task
 bar
 ?
-eIntID_MenusCanOverlapOSBar
+MenusCanOverlapOSBar
 /
 /
 should
@@ -265,7 +258,7 @@ scrollbars
 be
 used
 ?
-eIntID_UseOverlayScrollbars
+UseOverlayScrollbars
 /
 /
 allow
@@ -277,7 +270,7 @@ scrollbars
 to
 overlap
 ?
-eIntID_AllowOverlayScrollbarsOverlap
+AllowOverlayScrollbarsOverlap
 /
 /
 show
@@ -287,7 +280,7 @@ scrollbars
 based
 on
 activity
-eIntID_ShowHideScrollbars
+ShowHideScrollbars
 /
 /
 skip
@@ -297,7 +290,7 @@ disabled
 menu
 item
 ?
-eIntID_SkipNavigatingDisabledMenuItem
+SkipNavigatingDisabledMenuItem
 /
 /
 begin
@@ -319,8 +312,8 @@ the
 button
 is
 down
-eIntID_DragThresholdX
-eIntID_DragThresholdY
+DragThresholdX
+DragThresholdY
 /
 /
 Accessibility
@@ -328,7 +321,7 @@ theme
 being
 used
 ?
-eIntID_UseAccessibilityTheme
+UseAccessibilityTheme
 /
 /
 position
@@ -338,7 +331,7 @@ arrows
 in
 a
 scrollbar
-eIntID_ScrollArrowStyle
+ScrollArrowStyle
 /
 /
 is
@@ -348,7 +341,7 @@ proportional
 or
 fixed
 ?
-eIntID_ScrollSliderStyle
+ScrollSliderStyle
 /
 /
 each
@@ -360,7 +353,7 @@ of
 four
 values
 :
-eIntID_ScrollButtonLeftMouseButtonAction
+ScrollButtonLeftMouseButtonAction
 /
 /
 0
@@ -373,7 +366,7 @@ line
 scrolls
 one
 page
-eIntID_ScrollButtonMiddleMouseButtonAction
+ScrollButtonMiddleMouseButtonAction
 /
 /
 2
@@ -385,7 +378,7 @@ end
 -
 button
 ignored
-eIntID_ScrollButtonRightMouseButtonAction
+ScrollButtonRightMouseButtonAction
 /
 /
 delay
@@ -394,7 +387,7 @@ opening
 spring
 loaded
 folders
-eIntID_TreeOpenDelay
+TreeOpenDelay
 /
 /
 delay
@@ -403,7 +396,7 @@ closing
 spring
 loaded
 folders
-eIntID_TreeCloseDelay
+TreeCloseDelay
 /
 /
 delay
@@ -412,7 +405,7 @@ triggering
 the
 tree
 scrolling
-eIntID_TreeLazyScrollDelay
+TreeLazyScrollDelay
 /
 /
 delay
@@ -420,7 +413,7 @@ for
 scrolling
 the
 tree
-eIntID_TreeScrollDelay
+TreeScrollDelay
 /
 /
 the
@@ -433,7 +426,7 @@ be
 scrolled
 at
 ones
-eIntID_TreeScrollLinesMax
+TreeScrollLinesMax
 /
 /
 What
@@ -444,7 +437,7 @@ tab
 order
 to
 use
-eIntID_TabFocusModel
+TabFocusModel
 /
 /
 Should
@@ -457,7 +450,7 @@ they
 re
 chosen
 ?
-eIntID_ChosenMenuItemsShouldBlink
+ChosenMenuItemsShouldBlink
 /
 *
 *
@@ -508,7 +501,7 @@ metric
 .
 *
 /
-eIntID_WindowsAccentColorInTitlebar
+WindowsAccentColorInTitlebar
 /
 *
 *
@@ -555,7 +548,7 @@ metric
 .
 *
 /
-eIntID_WindowsDefaultTheme
+WindowsDefaultTheme
 /
 *
 *
@@ -598,7 +591,7 @@ metric
 .
 *
 /
-eIntID_DWMCompositor
+DWMCompositor
 /
 *
 *
@@ -644,7 +637,7 @@ NS_ERROR_FAILURE
 .
 *
 /
-eIntID_WindowsClassic
+WindowsClassic
 /
 *
 *
@@ -690,7 +683,7 @@ NS_ERROR_FAILURE
 .
 *
 /
-eIntID_WindowsGlass
+WindowsGlass
 /
 *
 *
@@ -742,7 +735,7 @@ metric
 .
 *
 /
-eIntID_TouchEnabled
+TouchEnabled
 /
 *
 *
@@ -789,7 +782,7 @@ metric
 .
 *
 /
-eIntID_MacGraphiteTheme
+MacGraphiteTheme
 /
 *
 *
@@ -843,11 +836,11 @@ metric
 .
 *
 /
-eIntID_MacYosemiteTheme
+MacYosemiteTheme
 /
 *
 *
-eIntID_AlertNotificationOrigin
+AlertNotificationOrigin
 indicates
 from
 which
@@ -953,7 +946,7 @@ NS_ALERT_TOP
 0
 *
 /
-eIntID_AlertNotificationOrigin
+AlertNotificationOrigin
 /
 *
 *
@@ -1014,7 +1007,7 @@ clicked
 .
 *
 /
-eIntID_ScrollToClick
+ScrollToClick
 /
 *
 *
@@ -1040,11 +1033,11 @@ below
 .
 *
 /
-eIntID_IMERawInputUnderlineStyle
-eIntID_IMESelectedRawTextUnderlineStyle
-eIntID_IMEConvertedTextUnderlineStyle
-eIntID_IMESelectedConvertedTextUnderline
-eIntID_SpellCheckerUnderlineStyle
+IMERawInputUnderlineStyle
+IMESelectedRawTextUnderlineStyle
+IMEConvertedTextUnderlineStyle
+IMESelectedConvertedTextUnderline
+SpellCheckerUnderlineStyle
 /
 *
 *
@@ -1064,7 +1057,7 @@ menubar
 .
 *
 /
-eIntID_MenuBarDrag
+MenuBarDrag
 /
 *
 *
@@ -1080,7 +1073,7 @@ theme
 .
 *
 /
-eIntID_WindowsThemeIdentifier
+WindowsThemeIdentifier
 /
 *
 *
@@ -1094,7 +1087,7 @@ identifier
 .
 *
 /
-eIntID_OperatingSystemVersionIdentifier
+OperatingSystemVersionIdentifier
 /
 *
 *
@@ -1132,7 +1125,7 @@ it
 .
 *
 /
-eIntID_ScrollbarButtonAutoRepeatBehavior
+ScrollbarButtonAutoRepeatBehavior
 /
 *
 *
@@ -1145,7 +1138,7 @@ tooltip
 .
 *
 /
-eIntID_TooltipDelay
+TooltipDelay
 /
 *
 *
@@ -1169,7 +1162,7 @@ used
 .
 *
 /
-eIntID_SwipeAnimationEnabled
+SwipeAnimationEnabled
 /
 *
 *
@@ -1192,7 +1185,7 @@ frame
 .
 *
 /
-eIntID_ScrollbarDisplayOnMouseMove
+ScrollbarDisplayOnMouseMove
 /
 *
 *
@@ -1203,8 +1196,8 @@ constants
 .
 *
 /
-eIntID_ScrollbarFadeBeginDelay
-eIntID_ScrollbarFadeDuration
+ScrollbarFadeBeginDelay
+ScrollbarFadeDuration
 /
 *
 *
@@ -1226,8 +1219,8 @@ open
 .
 *
 /
-eIntID_ContextMenuOffsetVertical
-eIntID_ContextMenuOffsetHorizontal
+ContextMenuOffsetVertical
+ContextMenuOffsetHorizontal
 /
 *
 *
@@ -1253,7 +1246,7 @@ version
 .
 *
 /
-eIntID_GTKCSDAvailable
+GTKCSDAvailable
 /
 *
 *
@@ -1275,7 +1268,7 @@ default
 .
 *
 /
-eIntID_GTKCSDHideTitlebarByDefault
+GTKCSDHideTitlebarByDefault
 /
 *
 *
@@ -1296,7 +1289,7 @@ background
 .
 *
 /
-eIntID_GTKCSDTransparentBackground
+GTKCSDTransparentBackground
 /
 *
 *
@@ -1318,7 +1311,7 @@ button
 .
 *
 /
-eIntID_GTKCSDMinimizeButton
+GTKCSDMinimizeButton
 /
 *
 *
@@ -1340,7 +1333,7 @@ button
 .
 *
 /
-eIntID_GTKCSDMaximizeButton
+GTKCSDMaximizeButton
 /
 *
 *
@@ -1362,7 +1355,7 @@ button
 .
 *
 /
-eIntID_GTKCSDCloseButton
+GTKCSDCloseButton
 /
 *
 *
@@ -1383,7 +1376,7 @@ corner
 .
 *
 /
-eIntID_GTKCSDReversedPlacement
+GTKCSDReversedPlacement
 /
 *
 *
@@ -1420,7 +1413,7 @@ user
 .
 *
 /
-eIntID_SystemUsesDarkTheme
+SystemUsesDarkTheme
 /
 *
 *
@@ -1466,7 +1459,7 @@ preference
 reduce
 *
 /
-eIntID_PrefersReducedMotion
+PrefersReducedMotion
 /
 *
 *
@@ -1496,7 +1489,7 @@ Fine
 Hover
 *
 /
-eIntID_PrimaryPointerCapabilities
+PrimaryPointerCapabilities
 /
 *
 *
@@ -1539,7 +1532,7 @@ Hover
 .
 *
 /
-eIntID_AllPointerCapabilities
+AllPointerCapabilities
 /
 *
 *
@@ -1595,7 +1588,7 @@ and
 .
 *
 /
-eLookAndFeel_GTKCSDCloseButtonPosition
+GTKCSDCloseButtonPosition
 /
 *
 *
@@ -1651,7 +1644,7 @@ and
 .
 *
 /
-eLookAndFeel_GTKCSDMinimizeButtonPosition
+GTKCSDMinimizeButtonPosition
 /
 *
 *
@@ -1707,7 +1700,7 @@ and
 .
 *
 /
-eLookAndFeel_GTKCSDMaximizeButtonPosition
+GTKCSDMaximizeButtonPosition
 }
 ;
 /
@@ -1878,10 +1871,11 @@ nsXPLookAndFeel
 cpp
 .
 enum
+class
 FloatID
 {
-eFloatID_IMEUnderlineRelativeSize
-eFloatID_SpellCheckerUnderlineRelativeSize
+IMEUnderlineRelativeSize
+SpellCheckerUnderlineRelativeSize
 /
 /
 The
@@ -1910,7 +1904,7 @@ calculated
 caret
 width
 .
-eFloatID_CaretAspectRatio
+CaretAspectRatio
 }
 ;
 /
@@ -2863,6 +2857,23 @@ NotifyChangedAllWindows
 /
 namespace
 mozilla
+struct
+LookAndFeelInt
+{
+mozilla
+:
+:
+LookAndFeel
+:
+:
+IntID
+id
+;
+int32_t
+value
+;
+}
+;
 /
 /
 On
@@ -3264,7 +3275,10 @@ NS_40PERCENT_FOREGROUND_COLOR
 /
 Bits
 for
-eIntID_AlertNotificationOrigin
+IntID
+:
+:
+AlertNotificationOrigin
 /
 /
 -

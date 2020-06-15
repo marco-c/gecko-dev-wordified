@@ -943,7 +943,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_SkipNavigatingDisabledMenuItem
+IntID
+:
+:
+SkipNavigatingDisabledMenuItem
 0
 )
 !

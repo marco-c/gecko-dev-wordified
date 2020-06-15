@@ -267,7 +267,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ScrollbarFadeBeginDelay
+IntID
+:
+:
+ScrollbarFadeBeginDelay
 )
 ;
 mScrollbarFadeDuration
@@ -280,7 +283,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ScrollbarFadeDuration
+IntID
+:
+:
+ScrollbarFadeDuration
 )
 ;
 /
@@ -322,7 +328,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ScrollbarDisplayOnMouseMove
+IntID
+:
+:
+ScrollbarDisplayOnMouseMove
 )
 ;
 }

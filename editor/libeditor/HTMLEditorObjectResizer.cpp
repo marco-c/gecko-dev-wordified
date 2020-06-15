@@ -7348,7 +7348,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_DragThresholdX
+IntID
+:
+:
+DragThresholdX
 1
 )
 ;
@@ -7363,7 +7366,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_DragThresholdY
+IntID
+:
+:
+DragThresholdY
 1
 )
 ;

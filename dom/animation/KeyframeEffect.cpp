@@ -9906,7 +9906,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ShowHideScrollbars
+IntID
+:
+:
+ShowHideScrollbars
 )
 =
 =

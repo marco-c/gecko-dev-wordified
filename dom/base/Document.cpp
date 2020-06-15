@@ -102219,7 +102219,10 @@ If
 LookAndFeel
 :
 :
-eIntID_SystemUsesDarkTheme
+IntID
+:
+:
+SystemUsesDarkTheme
 fails
 then
 return
@@ -102241,7 +102244,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_SystemUsesDarkTheme
+IntID
+:
+:
+SystemUsesDarkTheme
 2
 )
 )
@@ -102344,7 +102350,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_UseOverlayScrollbars
+IntID
+:
+:
+UseOverlayScrollbars
 )
 |
 |

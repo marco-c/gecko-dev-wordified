@@ -625,7 +625,10 @@ value
 /
 horizontal
 :
-eIntID_ContextMenuOffsetHorizontal
+IntID
+:
+:
+ContextMenuOffsetHorizontal
 of
 GTK
 and
@@ -639,7 +642,10 @@ uses
 /
 vertical
 :
-eIntID_ContextMenuOffsetVertical
+IntID
+:
+:
+ContextMenuOffsetVertical
 of
 macOS
 uses
