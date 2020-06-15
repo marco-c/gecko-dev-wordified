@@ -58,13 +58,6 @@ can
 receive
 binary
 wasm
-if
-'
-wasmBinarySource
-'
-is
-set
-.
 *
 /
 var
@@ -103,9 +96,6 @@ reconfigure
 (
 {
 observeAsmJS
-:
-true
-wasmBinarySource
 :
 true
 }
