@@ -835,6 +835,9 @@ if
 this
 .
 _record
+?
+.
+guid
 )
 {
 this
@@ -935,6 +938,9 @@ if
 this
 .
 _record
+?
+.
+guid
 )
 {
 this
