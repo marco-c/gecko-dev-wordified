@@ -1784,6 +1784,9 @@ aSCTransform
 aScaleToSize
 aFilter
 aMixBlendMode
+LayoutDeviceSize
+(
+)
 )
 )
 ;

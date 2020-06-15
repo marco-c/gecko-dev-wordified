@@ -8476,6 +8476,11 @@ op
 mixBlendMode
 (
 )
+op
+.
+scaleFromSize
+(
+)
 )
 ;
 mAsyncImageManager
