@@ -1763,6 +1763,9 @@ of
 COMODO
 Firewall
 bug
+1407712
+and
+bug
 1624336
 DllBlocklistEntry
 (
@@ -1772,10 +1775,10 @@ guard64
 dll
 "
 (
-5
-12
-59641
-2599
+8
+4
+0
+65535
 )
 )
 #
