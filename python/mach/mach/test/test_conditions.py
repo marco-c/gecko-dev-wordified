@@ -96,7 +96,6 @@ main
 def
 _populate_context
 (
-context
 key
 =
 None
@@ -111,30 +110,44 @@ None
         
 return
     
-if
-key
+attributes
 =
-=
+{
+        
 '
 foo
 '
 :
-        
-return
 True
-    
-if
-key
-=
-=
+        
 '
 bar
 '
 :
+False
+        
+'
+topdir
+'
+:
+'
+'
+    
+}
+    
+try
+:
         
 return
-False
+attributes
+[
+key
+]
     
+except
+KeyError
+:
+        
 raise
 AttributeError
 (
