@@ -3476,13 +3476,8 @@ override
 )
 :
         
-assert
-override
-is
-None
-        
 return
-None
+override
     
 property
     
