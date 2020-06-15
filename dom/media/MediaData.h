@@ -2914,9 +2914,6 @@ uint32_t
 mStride
 ;
 uint32_t
-mOffset
-;
-uint32_t
 mSkip
 ;
 }

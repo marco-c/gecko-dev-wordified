@@ -500,17 +500,6 @@ mPlanes
 i
 ]
 .
-mOffset
-=
-0
-;
-b
-.
-mPlanes
-[
-i
-]
-.
 mSkip
 =
 0
