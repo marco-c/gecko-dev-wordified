@@ -106,10 +106,10 @@ use
 crate
 :
 :
-function
+script
 :
 :
-FunctionStencilIndex
+ScriptStencilIndex
 ;
 use
 ast
@@ -459,8 +459,6 @@ kind
 /
 /
 Accessor
-for
-is_closed_over
 for
 both
 BindingName
@@ -943,7 +941,7 @@ functions
 :
 Vec
 <
-FunctionStencilIndex
+ScriptStencilIndex
 >
 }
 impl
@@ -966,7 +964,7 @@ functions
 :
 Vec
 <
-FunctionStencilIndex
+ScriptStencilIndex
 >
 )
 -
@@ -1773,7 +1771,7 @@ functions
 :
 Vec
 <
-FunctionStencilIndex
+ScriptStencilIndex
 >
 }
 impl
@@ -1795,7 +1793,7 @@ functions
 :
 Vec
 <
-FunctionStencilIndex
+ScriptStencilIndex
 >
 )
 -
@@ -1866,7 +1864,7 @@ functions
 :
 Vec
 <
-FunctionStencilIndex
+ScriptStencilIndex
 >
 )
 -
@@ -2807,7 +2805,7 @@ usize
 non_positional_formal_start
 :
 usize
-var_count
+max_var_count
 :
 usize
 enclosing
@@ -2825,7 +2823,7 @@ positional_parameter_count
 +
 non_positional_formal_start
 +
-var_count
+max_var_count
 ;
 Self
 {

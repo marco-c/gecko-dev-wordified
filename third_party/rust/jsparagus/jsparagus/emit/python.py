@@ -141,22 +141,6 @@ n
 "
 )
     
-shift_count
-=
-parse_table
-.
-count_shift_states
-(
-)
-    
-action_count
-=
-parse_table
-.
-count_action_states
-(
-)
-    
 out
 .
 write
@@ -279,6 +263,14 @@ Reduce
 )
 :
             
+stack_diff
+=
+act
+.
+update_stack_with
+(
+)
+            
 out
 .
 write
@@ -301,13 +293,14 @@ False
 \
 n
 "
+                      
 .
 format
 (
 indent
 repr
 (
-act
+stack_diff
 .
 nt
 )
@@ -315,7 +308,7 @@ nt
 )
             
 if
-act
+stack_diff
 .
 replay
 >
@@ -349,18 +342,18 @@ n
 format
 (
 indent
-act
+stack_diff
 .
 replay
 )
 )
             
 if
-act
+stack_diff
 .
 replay
 +
-act
+stack_diff
 .
 pop
 >
@@ -391,11 +384,11 @@ n
 format
 (
 indent
-act
+stack_diff
 .
 replay
 +
-act
+stack_diff
 .
 pop
 )
@@ -1201,18 +1194,19 @@ fallthrough
 :
                 
 if
+parse_table
+.
+states
+[
 dest
->
+]
+.
+epsilon
+!
 =
-shift_count
+[
+]
 :
-                    
-assert
-dest
-<
-shift_count
-+
-action_count
                     
 #
 This

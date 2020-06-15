@@ -87,9 +87,7 @@ noop_actions
 ErrorCode
 NonterminalId
 ParseTable
-ParserTrait
 Term
-TermValue
 TerminalId
 START_STATE_MODULE
 START_STATE_SCRIPT
@@ -111,5 +109,15 @@ token
 {
 Token
 TokenValue
+}
+;
+pub
+use
+traits
+:
+:
+{
+ParserTrait
+TermValue
 }
 ;
