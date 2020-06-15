@@ -680,6 +680,10 @@ startListeningForAccessibilityEvents
 (
 {
 "
+top
+-
+level
+-
 document
 -
 ready
@@ -773,6 +777,10 @@ stopListeningForAccessibilityEvents
 (
 {
 "
+top
+-
+level
+-
 document
 -
 ready
