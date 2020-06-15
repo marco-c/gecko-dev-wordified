@@ -1131,6 +1131,12 @@ case
 InlinableNative
 :
 :
+IntrinsicToLength
+:
+case
+InlinableNative
+:
+:
 IntrinsicToString
 :
 case
