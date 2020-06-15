@@ -811,7 +811,7 @@ make
 this
 '
 ifdef
-__GNUC__
+GNU_CC
 '
 .
 if
@@ -855,13 +855,13 @@ topsrcdir
 ]
 =
 TOPSRCDIR
-OBJDIR_FILES
+OBJDIR_PP_FILES
 .
 toolkit
 .
 library
 .
-build
+gtest
 +
 =
 [
@@ -876,6 +876,8 @@ so
 gdb
 .
 py
+.
+in
 '
 ]
 #
