@@ -310,11 +310,17 @@ MobileViewportManager
 MVMContext
 *
 aContext
+ManagerType
+aType
 )
 :
 mContext
 (
 aContext
+)
+mManagerType
+(
+aType
 )
 mIsFirstPaint
 (
