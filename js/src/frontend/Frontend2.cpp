@@ -2427,6 +2427,10 @@ data
 smooshScript
 .
 immutable_script_data
+.
+AsSome
+(
+)
 ]
 ;
 Vector
