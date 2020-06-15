@@ -81,9 +81,6 @@ function
 {
 return
 {
-autoBlackBox
-:
-false
 pauseOnExceptions
 :
 Services
