@@ -246,6 +246,11 @@ CacheIRCompiler
 cpp
 '
 '
+CacheIRHealth
+.
+cpp
+'
+'
 CacheIRSpewer
 .
 cpp

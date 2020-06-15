@@ -3613,6 +3613,35 @@ transpile
 bool
 )
         
+#
+Unscored
+Ops
+default
+to
+UINT32_MAX
+        
+cost_estimate
+=
+op
+.
+get
+(
+'
+cost_estimate
+'
+int
+(
+0xffffffff
+)
+)
+        
+assert
+isinstance
+(
+cost_estimate
+int
+)
+        
 custom_writer
 =
 op
@@ -3683,6 +3712,8 @@ _
 }
 {
 }
+{
+}
 )
 '
 .
@@ -3690,6 +3721,7 @@ format
 (
 name
 args_length
+cost_estimate
 )
 )
         

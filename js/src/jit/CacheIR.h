@@ -1397,6 +1397,13 @@ CacheIROpArgLengths
 [
 ]
 ;
+extern
+const
+uint32_t
+CacheIROpHealth
+[
+]
+;
 class
 StubField
 {
