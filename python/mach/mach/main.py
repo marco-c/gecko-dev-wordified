@@ -111,13 +111,6 @@ collections
 import
 Iterable
 from
-mach
-.
-sentry
-import
-register_sentry
-report_exception
-from
 six
 import
 string_types
@@ -971,6 +964,7 @@ _handler
 '
 )
 (
+self
 key
 )
             
@@ -2184,22 +2178,6 @@ failure
 "
 "
         
-topsrcdir
-=
-self
-.
-populate_context_handler
-(
-'
-topdir
-'
-)
-        
-register_sentry
-(
-topsrcdir
-)
-        
 #
 If
 no
@@ -2672,11 +2650,6 @@ exc_value
 stack
 )
             
-report_exception
-(
-exc_value
-)
-            
 return
 1
         
@@ -2803,6 +2776,13 @@ self
 .
 populate_context_handler
 :
+            
+self
+.
+populate_context_handler
+(
+context
+)
             
 context
 =
@@ -3363,11 +3343,6 @@ sys
 .
 exc_info
 (
-)
-            
-report_exception
-(
-exc_value
 )
             
 #
