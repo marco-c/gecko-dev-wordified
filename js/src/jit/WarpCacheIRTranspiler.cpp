@@ -9729,7 +9729,7 @@ inputUse
 input
 -
 >
-maybeMostRecentDefUse
+maybeMostRecentlyAddedDefUse
 (
 )
 ;

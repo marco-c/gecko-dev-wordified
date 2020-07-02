@@ -5761,7 +5761,8 @@ const
 Returns
 the
 most
-recent
+recently
+added
 use
 (
 ignoring
@@ -5769,10 +5770,10 @@ MResumePoints
 )
 for
 this
+/
+/
 MDefinition
 .
-/
-/
 Returns
 nullptr
 if
@@ -5786,9 +5787,9 @@ that
 this
 relies
 on
+/
+/
 addUse
-/
-/
 adding
 new
 uses
@@ -5803,9 +5804,9 @@ should
 only
 be
 called
+/
+/
 during
-/
-/
 MIR
 building
 (
@@ -5821,7 +5822,7 @@ uses
 .
 MDefinition
 *
-maybeMostRecentDefUse
+maybeMostRecentlyAddedDefUse
 (
 )
 const
