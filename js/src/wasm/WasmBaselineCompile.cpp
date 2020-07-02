@@ -70163,9 +70163,12 @@ offset
 uint64_t
 limit
 =
+uint64_t
+(
 env_
 .
 minMemoryLength
+)
 +
 offsetGuardLimit
 ;

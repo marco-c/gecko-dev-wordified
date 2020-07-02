@@ -521,7 +521,7 @@ MIRType
 Int32
 &
 &
-uint64_t
+uint32_t
 (
 addr
 -
