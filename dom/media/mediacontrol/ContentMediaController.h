@@ -465,6 +465,16 @@ aAction
 )
 override
 ;
+void
+NotifyMediaFullScreenState
+(
+uint64_t
+aBrowsingContextId
+bool
+aIsInFullScreen
+)
+override
+;
 /
 /
 Use
