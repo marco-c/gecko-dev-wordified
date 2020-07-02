@@ -40628,7 +40628,7 @@ nsIFrame
 :
 :
 ContentOffsets
-nsFrame
+nsIFrame
 :
 :
 CalcContentOffsetsFromFramePoint
