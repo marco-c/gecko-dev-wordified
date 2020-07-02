@@ -3738,6 +3738,11 @@ UrlbarUtils
 RESULT_SOURCE
 .
 HISTORY
+|
+|
+selectedResult
+.
+heuristic
 )
 {
 return
@@ -3767,8 +3772,9 @@ selectedResult
 ;
 if
 (
-!
 index
+<
+0
 )
 {
 Cu
