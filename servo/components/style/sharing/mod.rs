@@ -4469,6 +4469,10 @@ E
 dom_depth
 :
 usize
+shared_context
+:
+&
+SharedStyleContext
 )
 {
 let
@@ -4713,6 +4717,7 @@ element
 .
 has_animations
 (
+shared_context
 )
 {
 debug
@@ -5168,6 +5173,7 @@ shared_context
 bloom_filter
 nth_index_cache
 selector_flags_map
+shared_context
 )
 }
 )
@@ -5215,6 +5221,10 @@ SelectorFlagsMap
 <
 E
 >
+shared_context
+:
+&
+SharedStyleContext
 )
 -
 >
@@ -5681,6 +5691,7 @@ element
 .
 has_animations
 (
+shared_context
 )
 {
 trace

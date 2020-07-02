@@ -2368,6 +2368,11 @@ element
 .
 animation_rules
 (
+self
+.
+context
+.
+shared
 )
 self
 .
