@@ -363,9 +363,6 @@ is
 empty
 .
 pub
-(
-crate
-)
 fn
 is_empty
 (

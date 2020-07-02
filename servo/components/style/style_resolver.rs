@@ -1754,9 +1754,6 @@ for
 inheritance
 .
 pub
-(
-crate
-)
 fn
 cascade_style_and_visited_for_pseudo_with_default_parents
 (

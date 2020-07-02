@@ -385,9 +385,9 @@ flexbox_enabled
 >
 bool
 {
-if
+#
+[
 cfg
-!
 (
 feature
 =
@@ -399,7 +399,9 @@ layout
 2020
 "
 )
+]
 {
+return
 servo_config
 :
 :
@@ -430,10 +432,7 @@ unwrap_or
 false
 )
 }
-else
-{
 true
-}
 }
 /
 /

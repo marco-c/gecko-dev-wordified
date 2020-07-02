@@ -33858,8 +33858,6 @@ style
 parent_style
 )
 font_metrics_provider
-:
-font_metrics_provider
 cached_system_font
 :
 None
@@ -38927,7 +38925,7 @@ element
 if
 e
 .
-has_animations
+has_any_animation
 (
 )
 {
