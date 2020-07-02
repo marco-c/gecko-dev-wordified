@@ -11885,6 +11885,17 @@ bool
 aNotify
 )
 ;
+RefPtr
+<
+GenericPromise
+>
+SetSrcMediaStreamSink
+(
+AudioDeviceInfo
+*
+aSink
+)
+;
 /
 /
 Total
