@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -16,6 +22,7 @@ GET
 .
 first
 (
+b
 '
 origin
 '
@@ -31,6 +38,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -51,6 +59,7 @@ GET
 .
 first
 (
+b
 '
 tao
 '
@@ -60,6 +69,7 @@ if
 tao
 =
 =
+b
 '
 wildcard
 '
@@ -75,6 +85,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -82,6 +93,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -91,6 +103,7 @@ elif
 tao
 =
 =
+b
 '
 null
 '
@@ -106,6 +119,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -113,6 +127,7 @@ Allow
 -
 Origin
 '
+b
 '
 null
 '
@@ -122,6 +137,7 @@ elif
 tao
 =
 =
+b
 '
 origin
 '
@@ -142,6 +158,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -156,6 +173,7 @@ elif
 tao
 =
 =
+b
 '
 space
 '
@@ -177,6 +195,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -187,6 +206,7 @@ Origin
 (
 origin
 +
+b
 '
 *
 '
@@ -197,6 +217,7 @@ elif
 tao
 =
 =
+b
 '
 multi
 '
@@ -219,6 +240,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -235,6 +257,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -242,6 +265,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -251,6 +275,7 @@ elif
 tao
 =
 =
+b
 '
 multi_wildcard
 '
@@ -270,6 +295,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -277,6 +303,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -288,6 +315,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -295,6 +323,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -304,6 +333,7 @@ elif
 tao
 =
 =
+b
 '
 match_origin
 '
@@ -326,6 +356,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -342,6 +373,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -349,6 +381,7 @@ Allow
 -
 Origin
 '
+b
 "
 fake
 "
@@ -358,6 +391,7 @@ elif
 tao
 =
 =
+b
 '
 match_wildcard
 '
@@ -378,6 +412,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -385,6 +420,7 @@ Allow
 -
 Origin
 '
+b
 "
 fake
 "
@@ -396,6 +432,7 @@ headers
 .
 append
 (
+b
 '
 Timing
 -
@@ -403,6 +440,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -412,6 +450,7 @@ elif
 tao
 =
 =
+b
 '
 uppercase
 '
@@ -434,6 +473,7 @@ headers
 .
 set
 (
+b
 '
 Timing
 -
@@ -459,11 +499,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -489,8 +531,12 @@ path
 .
 dirname
 (
+isomorphic_encode
+(
 __file__
 )
+)
+b
 "
 square100
 .
@@ -508,6 +554,7 @@ open
 image_path
 mode
 =
+u
 '
 rb
 '
