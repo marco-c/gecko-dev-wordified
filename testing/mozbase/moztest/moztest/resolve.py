@@ -2547,11 +2547,12 @@ kwargs
 :
 {
 '
-include
+subsuite
 '
 :
-[
-]
+'
+crashtest
+'
 }
         
 '
@@ -2738,11 +2739,12 @@ kwargs
 :
 {
 '
-include
+subsuite
 '
 :
-[
-]
+'
+wdspec
+'
 }
         
 '
