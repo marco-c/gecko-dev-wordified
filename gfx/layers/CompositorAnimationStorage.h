@@ -1034,6 +1034,12 @@ TimeStamp
 aCurrentFrameTime
 )
 ;
+bool
+HasAnimations
+(
+)
+const
+;
 /
 *
 *
