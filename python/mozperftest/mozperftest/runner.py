@@ -428,7 +428,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib3
 "
