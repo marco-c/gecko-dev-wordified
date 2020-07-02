@@ -114,6 +114,11 @@ RemoteWorkerControllerParent
 h
 '
 '
+RemoteWorkerManager
+.
+h
+'
+'
 RemoteWorkerParent
 .
 h
@@ -224,6 +229,14 @@ ipdl
 RemoteWorkerTypes
 .
 ipdlh
+'
+]
+TEST_DIRS
++
+=
+[
+'
+gtest
 '
 ]
 include
