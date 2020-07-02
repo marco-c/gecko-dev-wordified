@@ -97,15 +97,18 @@ headers
 .
 get
 (
+b
 "
 referer
 "
+b
 "
 "
 )
 .
 split
 (
+b
 "
 ?
 "
@@ -122,6 +125,7 @@ GET
 .
 first
 (
+b
 "
 referrer_policy
 "
@@ -135,9 +139,11 @@ GET
 .
 first
 (
+b
 "
 expected_referrer
 "
+b
 "
 "
 )
@@ -146,11 +152,13 @@ response_headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -159,6 +167,7 @@ javascript
 )
                         
 (
+b
 "
 Access
 -
@@ -168,6 +177,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -178,6 +188,7 @@ if
 referrer_policy
 =
 =
+b
 "
 no
 -
@@ -187,6 +198,7 @@ or
 referrer_policy
 =
 =
+b
 "
 origin
 "
@@ -203,6 +215,7 @@ return
 (
 200
 response_headers
+u
 "
 "
 )
@@ -217,6 +230,7 @@ if
 referrer_policy
 =
 =
+b
 "
 same
 -
@@ -235,6 +249,7 @@ return
 (
 200
 response_headers
+u
 "
 "
 )

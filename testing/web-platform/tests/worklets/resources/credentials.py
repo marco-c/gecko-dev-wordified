@@ -26,6 +26,7 @@ cookies
 .
 first
 (
+b
 "
 cookieName
 "
@@ -40,6 +41,7 @@ GET
 .
 first
 (
+b
 "
 value
 "
@@ -54,6 +56,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -64,11 +67,13 @@ response_headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -77,6 +82,7 @@ javascript
 )
                         
 (
+b
 "
 Access
 -
@@ -90,6 +96,7 @@ source_origin
 )
                         
 (
+b
 "
 Access
 -
@@ -99,6 +106,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -116,6 +124,7 @@ return
 (
 200
 response_headers
+u
 "
 "
 )
