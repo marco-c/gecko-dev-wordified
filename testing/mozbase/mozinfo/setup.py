@@ -78,7 +78,7 @@ deps
     
 "
 distro
-=
+>
 =
 1
 .
