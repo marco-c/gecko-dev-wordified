@@ -6525,11 +6525,6 @@ chunk
 .
 if
 (
-isEnabled
-(
-)
-&
-&
 previousGC
 .
 nurseryUsedBytes
