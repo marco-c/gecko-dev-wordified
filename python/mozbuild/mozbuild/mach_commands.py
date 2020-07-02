@@ -1358,6 +1358,8 @@ True
     
 CLOBBER_CHOICES
 =
+set
+(
 [
 '
 objdir
@@ -1369,6 +1371,7 @@ python
 gradle
 '
 ]
+)
     
 Command
 (
@@ -1408,6 +1411,9 @@ default
 '
 objdir
 '
+'
+python
+'
 ]
 nargs
 =
@@ -1433,7 +1439,12 @@ of
 }
 (
 default
+'
+                     
+'
 objdir
+and
+python
 )
 .
 '
@@ -1537,10 +1548,9 @@ that
 cleanup
 .
         
-By
-default
-this
-command
+The
+objdir
+target
 removes
 most
 files
@@ -1548,8 +1558,8 @@ in
 the
 current
 object
-        
 directory
+        
 (
 where
 build
@@ -1563,9 +1573,9 @@ files
 (
 like
 Visual
-        
 Studio
 project
+        
 files
 )
 are
@@ -1578,10 +1588,10 @@ If
 you
 would
 like
-        
 to
 remove
 the
+        
 object
 directory
 in
@@ -1703,23 +1713,36 @@ object
 directory
 .
         
+By
+default
+the
+command
+clobbers
+the
+objdir
+and
+python
+targets
+.
+        
 "
 "
 "
         
-invalid
+what
 =
 set
 (
 what
 )
+        
+invalid
+=
+what
 -
-set
-(
 self
 .
 CLOBBER_CHOICES
-)
         
 if
 invalid
