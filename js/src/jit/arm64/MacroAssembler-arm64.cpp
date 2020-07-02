@@ -14582,13 +14582,6 @@ src
 32
 )
 ;
-ScratchFloat32Scope
-scratch
-(
-*
-this
-)
-;
 Label
 done
 zeroCase
@@ -14913,13 +14906,6 @@ src64
 (
 src
 64
-)
-;
-ScratchDoubleScope
-scratch
-(
-*
-this
 )
 ;
 Label
