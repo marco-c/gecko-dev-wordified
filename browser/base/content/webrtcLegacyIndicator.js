@@ -729,6 +729,7 @@ getActiveStreams
 false
 false
 true
+true
 )
 ;
 }
@@ -902,6 +903,7 @@ webrtcUI
 .
 getActiveStreams
 (
+true
 true
 true
 true
