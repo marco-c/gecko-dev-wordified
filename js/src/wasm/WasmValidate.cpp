@@ -18722,7 +18722,7 @@ if
 (
 numElems
 >
-MaxTableInitialLength
+MaxElemSegmentLength
 )
 {
 return
@@ -20577,7 +20577,7 @@ seg
 .
 length
 >
-MaxMemoryInitialPages
+MaxDataSegmentLengthPages
 *
 PageSize
 )
