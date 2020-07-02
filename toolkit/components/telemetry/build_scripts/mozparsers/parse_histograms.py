@@ -1087,6 +1087,9 @@ firefox
 '
 fennec
 '
+'
+geckoview
+'
 ]
 )
         

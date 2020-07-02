@@ -198,6 +198,14 @@ fennec
 Fennec
 '
     
+'
+geckoview
+'
+:
+'
+Geckoview
+'
+    
 GECKOVIEW_STREAMING_PRODUCT
 :
 '
@@ -210,21 +218,6 @@ thunderbird
 :
 '
 Thunderbird
-'
-    
-#
-Historical
-deprecated
-values
-:
-    
-#
-'
-geckoview
-'
-:
-'
-Geckoview
 '
 }
 SUPPORTED_OPERATING_SYSTEMS
