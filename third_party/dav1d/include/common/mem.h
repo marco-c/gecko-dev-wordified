@@ -290,7 +290,7 @@ h
 *
 *
 Allocate
-32
+align
 -
 byte
 aligned
@@ -306,8 +306,7 @@ released
 by
 calling
 the
-standard
-free
+dav1d_free_aligned
 (
 )
 function
@@ -326,13 +325,6 @@ size_t
 align
 )
 {
-#
-ifdef
-HAVE_POSIX_MEMALIGN
-void
-*
-ptr
-;
 assert
 (
 !
@@ -346,6 +338,13 @@ align
 )
 )
 )
+;
+#
+ifdef
+HAVE_POSIX_MEMALIGN
+void
+*
+ptr
 ;
 if
 (

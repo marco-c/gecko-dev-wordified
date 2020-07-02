@@ -972,6 +972,7 @@ alpha
 HIGHBD_DECL_SUFFIX
 )
 {
+const
 unsigned
 dc
 =
@@ -4516,22 +4517,9 @@ dav1d_filter_intra_taps
 filt_idx
 ]
 ;
-int
-x
-y
-;
-ptrdiff_t
-left_stride
-;
 const
 pixel
 *
-left
-*
-topleft
-*
-top
-;
 top
 =
 &
@@ -4542,6 +4530,7 @@ topleft_in
 ;
 for
 (
+int
 y
 =
 0
@@ -4556,6 +4545,9 @@ y
 2
 )
 {
+const
+pixel
+*
 topleft
 =
 &
@@ -4565,6 +4557,9 @@ topleft_in
 y
 ]
 ;
+const
+pixel
+*
 left
 =
 &
@@ -4574,6 +4569,7 @@ topleft
 1
 ]
 ;
+ptrdiff_t
 left_stride
 =
 -
@@ -4581,6 +4577,7 @@ left_stride
 ;
 for
 (
+int
 x
 =
 0
@@ -4701,6 +4698,7 @@ flt_ptr
 FLT_INCR
 )
 {
+const
 int
 acc
 =

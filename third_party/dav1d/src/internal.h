@@ -438,7 +438,7 @@ include
 "
 src
 /
-ref_mvs
+refmvs
 .
 h
 "
@@ -832,7 +832,7 @@ Dav1dRef
 *
 mvs_ref
 ;
-refmvs
+refmvs_temporal_block
 *
 mvs
 *
@@ -1087,13 +1087,9 @@ tile_rows
 *
 /
 ;
-AV1_COMMON
-*
-libaom_cm
+refmvs_frame
+rf
 ;
-/
-/
-FIXME
 uint8_t
 jnt_weights
 [
@@ -1837,6 +1833,9 @@ txtp_map
 inter
 -
 only
+refmvs_tile
+rt
+;
 ALIGN
 (
 union

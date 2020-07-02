@@ -850,9 +850,9 @@ src_stride
 int
 dst_w
 int
-src_w
-int
 h
+int
+src_w
 int
 dx
 int

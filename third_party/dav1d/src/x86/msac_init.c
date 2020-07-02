@@ -266,6 +266,9 @@ msac
 .
 h
 "
+#
+if
+ARCH_X86_64
 void
 dav1d_msac_init_x86
 (
@@ -314,3 +317,5 @@ dav1d_msac_decode_symbol_adapt16_avx2
 ;
 }
 }
+#
+endif

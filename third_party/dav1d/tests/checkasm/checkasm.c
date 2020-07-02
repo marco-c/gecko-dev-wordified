@@ -763,7 +763,6 @@ black
 char
 name
 [
-1
 ]
 ;
 }
@@ -826,7 +825,6 @@ char
 test_name
 ;
 unsigned
-int
 seed
 ;
 int
@@ -887,7 +885,6 @@ void
 xor128_srand
 (
 unsigned
-int
 seed
 )
 {
@@ -1989,13 +1986,13 @@ nops
 ]
 ;
 int
-i
 nop_sum
 =
 0
 ;
 for
 (
+int
 i
 =
 0
@@ -2046,6 +2043,7 @@ cmp_nop
 ;
 for
 (
+int
 i
 =
 2500
@@ -2163,6 +2161,7 @@ v
 iterations
 )
 {
+const
 int
 decicycles
 =
@@ -2615,6 +2614,7 @@ balance_tree
 CheckasmFunc
 *
 *
+const
 root
 )
 {
@@ -2802,6 +2802,7 @@ get_func
 CheckasmFunc
 *
 *
+const
 root
 const
 char
@@ -2833,6 +2834,7 @@ matching
 node
 *
 /
+const
 int
 cmp
 =
@@ -2924,6 +2926,8 @@ strlen
 (
 name
 )
++
+1
 ;
 f
 =
@@ -2932,9 +2936,10 @@ root
 =
 checkasm_malloc
 (
-sizeof
+offsetof
 (
 CheckasmFunc
+name
 )
 +
 name_length
@@ -2948,8 +2953,6 @@ f
 name
 name
 name_length
-+
-1
 )
 ;
 }
@@ -3818,7 +3821,6 @@ seed
 =
 (
 unsigned
-int
 )
 strtoul
 (
@@ -3840,6 +3842,18 @@ argv
 +
 ;
 }
+dav1d_init_cpu
+(
+)
+;
+if
+(
+!
+state
+.
+function_listing
+)
+{
 fprintf
 (
 stderr
@@ -3859,10 +3873,6 @@ state
 seed
 )
 ;
-dav1d_init_cpu
-(
-)
-;
 #
 if
 ARCH_X86_64
@@ -3878,6 +3888,7 @@ checkasm_warmup_avx512
 void
 )
 ;
+const
 unsigned
 cpu_flags
 =
@@ -3910,19 +3921,13 @@ simd_warmup
 =
 checkasm_warmup_avx2
 ;
-else
-state
-.
-simd_warmup
-=
-NULL
-;
 checkasm_simd_warmup
 (
 )
 ;
 #
 endif
+}
 check_cpu_flag
 (
 NULL
