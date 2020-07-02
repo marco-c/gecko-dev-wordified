@@ -7242,6 +7242,35 @@ l10n
             
 return
         
+if
+os
+.
+environ
+.
+get
+(
+'
+USE_ARTIFACT
+'
+)
+:
+            
+self
+.
+info
+(
+"
+Artifact
+build
+skipping
+multi
+l10n
+.
+"
+)
+            
+return
+        
 dirs
 =
 self
