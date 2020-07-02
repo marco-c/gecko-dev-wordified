@@ -1575,12 +1575,10 @@ kCharsetFromUserForced
 aDocShell
 -
 >
-SetForcedCharset
+SetCharset
 (
-NS_LITERAL_CSTRING
+EmptyCString
 (
-"
-"
 )
 )
 ;
