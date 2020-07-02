@@ -462,7 +462,7 @@ dom
 :
 HTMLLinkElement
 *
-aLinkElement
+aLink
 nsContentPolicyType
 aPolicyType
 nsIReferrerInfo
@@ -704,15 +704,10 @@ const
 nsAString
 &
 aCORS
-dom
-:
-:
-ReferrerPolicy
-aReferrerPolicy
 const
 nsAString
 &
-aReferrerPolicyAttr
+aReferrerPolicy
 )
 ;
 private

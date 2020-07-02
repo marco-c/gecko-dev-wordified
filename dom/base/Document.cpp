@@ -71168,7 +71168,6 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
-aReferrerPolicy
 )
 ;
 if

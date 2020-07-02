@@ -3564,15 +3564,6 @@ get
 (
 )
 CORS_ANONYMOUS
-aFontFaceSrc
--
->
-mReferrerInfo
--
->
-ReferrerPolicy
-(
-)
 )
 ;
 RefPtr
