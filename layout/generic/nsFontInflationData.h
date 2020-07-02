@@ -400,14 +400,11 @@ aFrame
 while
 (
 !
-(
 aFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FONT_INFLATION_FLOW_ROOT
 )
 )
