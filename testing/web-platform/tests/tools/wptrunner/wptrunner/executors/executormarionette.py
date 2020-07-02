@@ -4037,58 +4037,6 @@ height
 )
 :
         
-page_ranges
-=
-self
-.
-marionette
-.
-execute_script
-(
-            
-"
-"
-"
-let
-elem
-=
-document
-.
-querySelector
-(
-"
-meta
-[
-name
-=
-reftest
--
-pages
-]
-"
-)
-;
-return
-elem
-?
-elem
-.
-content
-:
-null
-;
-"
-"
-"
-            
-new_sandbox
-=
-False
-sandbox
-=
-None
-)
-        
 margin
 =
 0
@@ -4188,14 +4136,13 @@ key
 value
 "
 )
-page_ranges
     
 def
 pdf_to_png
 (
 self
 pdf_base64
-ranges
+page_ranges
 )
 :
         
@@ -4279,7 +4226,7 @@ page_numbers
 =
 get_pages
 (
-ranges
+page_ranges
 len
 (
 rv
@@ -6749,6 +6696,7 @@ self
 test
 viewport_size
 dpi
+page_ranges
 )
 :
         
@@ -7253,6 +7201,14 @@ height
 "
 :
 600
+                                                              
+"
+pageRanges
+"
+:
+test
+.
+page_ranges
 }
 )
 [
@@ -8119,6 +8075,7 @@ self
 test
 viewport_size
 dpi
+page_ranges
 )
 :
         
@@ -8177,6 +8134,17 @@ test_url
 self
 .
 test_url
+(
+test
+)
+        
+self
+.
+page_ranges
+=
+page_ranges
+.
+get
 (
 test
 )
@@ -8243,7 +8211,6 @@ True
 )
         
 pdf
-page_ranges
 =
 protocol
 .
@@ -8266,6 +8233,8 @@ pdf_print
 pdf_to_png
 (
 pdf
+self
+.
 page_ranges
 )
         

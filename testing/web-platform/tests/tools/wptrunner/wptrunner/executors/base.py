@@ -2815,6 +2815,7 @@ get_screenshot_list
 test
 viewport_size
 dpi
+page_ranges
 )
             
 if
@@ -4063,6 +4064,7 @@ retake_screenshot
 node
 viewport_size
 dpi
+page_ranges
 )
                 
 if
@@ -4312,6 +4314,7 @@ self
 node
 viewport_size
 dpi
+page_ranges
 )
 :
         
@@ -4323,8 +4326,12 @@ self
 get_screenshot_list
 (
 node
+                                                 
 viewport_size
+                                                 
 dpi
+                                                 
+page_ranges
 )
         
 if
@@ -4377,6 +4384,7 @@ self
 node
 viewport_size
 dpi
+page_ranges
 )
 :
         
@@ -4392,6 +4400,7 @@ screenshot
 node
 viewport_size
 dpi
+page_ranges
 )
         
 if
