@@ -6945,13 +6945,6 @@ cx
 selfHostedName
 name
 nargs
-/
-*
-proto
-=
-*
-/
-nullptr
 SingletonObject
 &
 fun
