@@ -188,6 +188,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 nsThreadManager
 .
 h
@@ -4323,10 +4332,9 @@ something
 to
 convert
 .
-snprintf
+SprintfLiteral
 (
 buf
-buflen
 "
 #
 0
