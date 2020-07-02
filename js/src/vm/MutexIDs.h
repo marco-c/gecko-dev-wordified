@@ -215,13 +215,6 @@ AtomsTable
 \
 _
 (
-StoreBuffer
-200
-)
-\
-\
-_
-(
 WasmInitBuiltinThunks
 250
 )
@@ -236,6 +229,13 @@ _
 (
 WasmLazyStubsTier2
 251
+)
+\
+\
+_
+(
+StoreBuffer
+275
 )
 \
 \
