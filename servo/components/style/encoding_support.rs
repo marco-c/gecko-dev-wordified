@@ -69,10 +69,6 @@ not
 str
 )
 .
-extern
-crate
-encoding_rs
-;
 use
 crate
 :
