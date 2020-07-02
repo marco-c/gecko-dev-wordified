@@ -23065,6 +23065,10 @@ Clear
 (
 )
 ;
+gCallbackPref
+=
+nullptr
+;
 }
 *
 aSize
