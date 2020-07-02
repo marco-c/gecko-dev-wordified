@@ -184,15 +184,6 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Utf8
 .
 h
