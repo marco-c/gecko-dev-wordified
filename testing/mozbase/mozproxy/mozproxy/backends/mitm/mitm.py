@@ -2921,6 +2921,12 @@ unit
 "
                             
 "
+shouldAlert
+"
+:
+True
+                            
+"
 lowerIsBetter
 "
 :
@@ -2960,6 +2966,12 @@ type
 False
                             
 "
+shouldAlert
+"
+:
+False
+                            
+"
 unit
 "
 :
@@ -3009,6 +3021,12 @@ a
 u
 .
 "
+                            
+"
+shouldAlert
+"
+:
+False
                             
 "
 lowerIsBetter
