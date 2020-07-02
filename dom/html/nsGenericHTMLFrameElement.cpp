@@ -1217,6 +1217,13 @@ mFrameLoader
 nullptr
 ;
 }
+nsFrameLoaderOwner
+:
+:
+UnbindFromTree
+(
+)
+;
 nsGenericHTMLElement
 :
 :
