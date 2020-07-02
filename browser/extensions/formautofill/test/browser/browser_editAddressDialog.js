@@ -168,7 +168,7 @@ test_defaultCountry
 {
 Region
 .
-_setRegion
+_setHomeRegion
 (
 "
 CA
@@ -235,7 +235,7 @@ click
 ;
 Region
 .
-_setRegion
+_setHomeRegion
 (
 "
 DE
@@ -307,7 +307,7 @@ unsupported
 country
 Region
 .
-_setRegion
+_setHomeRegion
 (
 "
 XX
@@ -373,7 +373,7 @@ click
 ;
 Region
 .
-_setRegion
+_setHomeRegion
 (
 "
 US
@@ -5748,7 +5748,7 @@ test_countrySpecificFieldsGetRequiredness
 {
 Region
 .
-_setRegion
+_setHomeRegion
 (
 "
 RO
