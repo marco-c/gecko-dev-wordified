@@ -3764,13 +3764,6 @@ LOG
 .
 info
 (
-"
-{
-contents
-}
-"
-contents
-=
 contents
 )
             
