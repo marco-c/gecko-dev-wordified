@@ -1793,6 +1793,15 @@ bool
 aDispatchPendingEvents
 )
 ;
+void
+DispatchCustomEvent
+(
+const
+nsString
+&
+eventName
+)
+;
 #
 ifdef
 ACCESSIBILITY
