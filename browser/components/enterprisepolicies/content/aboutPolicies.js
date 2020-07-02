@@ -2676,11 +2676,6 @@ textContent
 =
 button
 .
-children
-[
-1
-]
-.
 textContent
 ;
 location
