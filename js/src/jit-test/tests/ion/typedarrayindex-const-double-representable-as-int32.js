@@ -83,9 +83,7 @@ undefined
 ;
 /
 /
-Math
-.
-cbrt
+numberToDouble
 always
 returns
 a
@@ -95,9 +93,7 @@ number
 const
 k
 =
-Math
-.
-cbrt
+numberToDouble
 (
 0
 )

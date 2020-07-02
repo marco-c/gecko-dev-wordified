@@ -308,11 +308,9 @@ url
 "
 line
 :
-Math
-.
-sqrt
+numberToDouble
 (
-4
+2
 )
 }
 )

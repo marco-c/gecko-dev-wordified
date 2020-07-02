@@ -218,9 +218,7 @@ v
 /
 NB
 :
-Math
-.
-cbrt
+numberToDouble
 (
 )
 always
@@ -230,15 +228,9 @@ double
 value
 .
 return
-Math
-.
-cbrt
+numberToDouble
 (
 {
-v
-*
-v
-*
 v
 }
 )
