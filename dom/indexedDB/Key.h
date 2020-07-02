@@ -848,16 +848,15 @@ BufferStart
 (
 )
 ;
-nsAutoString
+auto
 res
-;
+=
 DecodeString
 (
 pos
 BufferEnd
 (
 )
-res
 )
 ;
 MOZ_ASSERT
@@ -1467,7 +1466,7 @@ Invalid
 EncodeLocaleString
 (
 const
-nsDependentString
+nsAString
 &
 aString
 uint8_t
@@ -1567,7 +1566,7 @@ aVal
 )
 ;
 static
-void
+nsAutoString
 DecodeString
 (
 const
@@ -1579,9 +1578,6 @@ const
 EncodedDataType
 *
 aEnd
-nsString
-&
-aString
 )
 ;
 static
