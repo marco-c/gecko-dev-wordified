@@ -267,7 +267,7 @@ functionTarget
 assert
 (
 "
-__proto__
+name
 "
 in
 functionProxy

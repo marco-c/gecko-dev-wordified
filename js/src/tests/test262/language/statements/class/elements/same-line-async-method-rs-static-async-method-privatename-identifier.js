@@ -743,7 +743,6 @@ results
 )
 ;
 }
-DONE
 )
 .
 then
@@ -764,7 +763,6 @@ assertions
 )
 ;
 }
-DONE
 )
 .
 then

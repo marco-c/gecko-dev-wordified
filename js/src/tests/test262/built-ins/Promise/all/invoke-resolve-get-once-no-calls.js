@@ -55,7 +55,7 @@ sec
 -
 promise
 .
-allsettled
+all
 info
 :
 |
@@ -119,13 +119,6 @@ raquo
 ;
 )
 .
-features
-:
-[
-Promise
-.
-allSettled
-]
 -
 -
 -

@@ -411,7 +411,6 @@ prop
 )
 ;
 }
-DONE
 )
 .
 then

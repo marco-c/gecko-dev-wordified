@@ -8,8 +8,6 @@ skip
 -
 class
 -
-static
--
 methods
 -
 private
@@ -97,8 +95,6 @@ features
 :
 [
 class
--
-static
 -
 methods
 -

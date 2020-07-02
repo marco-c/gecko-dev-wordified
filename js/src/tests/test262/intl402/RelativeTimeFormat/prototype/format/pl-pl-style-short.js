@@ -345,9 +345,7 @@ format
 unitArgument
 )
 za
-1
-\
-u00a0000
+1000
 {
 expected
 .
@@ -531,9 +529,7 @@ format
 1000
 unitArgument
 )
-1
-\
-u00a0000
+1000
 {
 expected
 .

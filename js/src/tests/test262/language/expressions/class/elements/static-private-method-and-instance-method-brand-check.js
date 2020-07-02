@@ -13,6 +13,11 @@ static
 methods
 -
 private
+class
+-
+methods
+-
+private
 is
 not
 supported
@@ -107,6 +112,11 @@ features
 class
 -
 static
+-
+methods
+-
+private
+class
 -
 methods
 -

@@ -206,7 +206,6 @@ promise
 )
 ;
 }
-DONE
 )
 .
 then

@@ -88,7 +88,9 @@ toStringTag
 value
 :
 '
-Object
+Intl
+.
+NumberFormat
 '
 writable
 :

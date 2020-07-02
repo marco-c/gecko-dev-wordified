@@ -153,6 +153,16 @@ push
 4
 )
 ;
+assert
+.
+sameValue
+(
+sequence
+.
+length
+4
+)
+;
 checkSequence
 (
 sequence

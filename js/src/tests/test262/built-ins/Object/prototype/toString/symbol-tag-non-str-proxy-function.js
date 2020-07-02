@@ -5,7 +5,6 @@ Copyright
 C
 )
 2016
-the
 Apple
 Inc
 .

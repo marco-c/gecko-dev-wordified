@@ -726,7 +726,6 @@ assertions
 )
 ;
 }
-DONE
 )
 .
 then

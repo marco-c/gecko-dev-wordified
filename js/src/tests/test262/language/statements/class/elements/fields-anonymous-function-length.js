@@ -8,8 +8,6 @@ skip
 -
 class
 -
-static
--
 fields
 -
 private
@@ -70,10 +68,10 @@ template
 description
 :
 Anonymous
-function
+functions
 in
 field
-initilizer
+initializer
 have
 length
 properly
@@ -96,14 +94,10 @@ features
 [
 class
 -
-static
--
 fields
 -
 private
 class
--
-static
 -
 fields
 -

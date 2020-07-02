@@ -60,7 +60,7 @@ are
 accepted
 as
 identifier
-start
+part
 characters
 .
 info
