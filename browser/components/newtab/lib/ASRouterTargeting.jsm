@@ -2429,7 +2429,7 @@ Services
 .
 search
 .
-getVisibleEngines
+getDefaultEngines
 (
 )
 .
@@ -2463,14 +2463,6 @@ engine
 engine
 .
 identifier
-)
-.
-filter
-(
-engine
-=
->
-engine
 )
 }
 )

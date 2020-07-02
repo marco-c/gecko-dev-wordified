@@ -2049,7 +2049,7 @@ Services
 .
 search
 .
-getVisibleEngines
+getDefaultEngines
 (
 )
 )
@@ -2267,7 +2267,7 @@ Services
 .
 search
 .
-getVisibleEngines
+getDefaultEngines
 (
 )
 )
