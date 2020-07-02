@@ -63,6 +63,12 @@ import
 inspect
 import
 sys
+import
+pathlib
+from
+jsonschema
+import
+validate
 from
 .
 logger
@@ -83,6 +89,12 @@ NotebookInvalidPathError
     
 NotebookDuplicateTransformsError
 )
+from
+mozperftest
+.
+runner
+import
+HERE
 logger
 =
 NotebookLogger
@@ -248,6 +260,40 @@ self
 _custom_transformer
 =
 custom_transformer
+        
+with
+pathlib
+.
+Path
+(
+HERE
+"
+schemas
+"
+"
+transformer_schema
+.
+json
+"
+)
+.
+open
+(
+)
+as
+f
+:
+            
+self
+.
+schema
+=
+json
+.
+load
+(
+f
+)
     
 property
     
@@ -746,6 +792,18 @@ name
 ]
 =
 name
+        
+validate
+(
+instance
+=
+merged
+schema
+=
+self
+.
+schema
+)
         
 return
 merged
