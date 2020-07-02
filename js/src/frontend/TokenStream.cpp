@@ -14893,11 +14893,6 @@ atom
 =
 drainCharBufferIntoAtom
 (
-anyCharsAccess
-(
-)
-.
-cx
 )
 ;
 }
@@ -15017,11 +15012,6 @@ atom
 =
 atomizeSourceChars
 (
-anyCharsAccess
-(
-)
-.
-cx
 MakeSpan
 (
 chars
@@ -24223,11 +24213,6 @@ atom
 =
 drainCharBufferIntoAtom
 (
-anyCharsAccess
-(
-)
-.
-cx
 )
 ;
 if
