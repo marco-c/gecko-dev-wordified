@@ -5134,8 +5134,8 @@ stop
             
 if
 test_group
-!
-=
+is
+not
 self
 .
 state
@@ -5156,6 +5156,22 @@ so
 force
 a
 restart
+                
+self
+.
+logger
+.
+info
+(
+"
+Restarting
+browser
+for
+new
+test
+group
+"
+)
                 
 restart
 =
