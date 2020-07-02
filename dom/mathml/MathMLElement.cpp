@@ -3984,7 +3984,7 @@ big
 ;
 static
 const
-StyleFontSize
+StyleFontSizeKeyword
 values
 [
 MOZ_ARRAY_LENGTH
@@ -3994,15 +3994,15 @@ sizes
 ]
 =
 {
-StyleFontSize
+StyleFontSizeKeyword
 :
 :
 Small
-StyleFontSize
+StyleFontSizeKeyword
 :
 :
 Medium
-StyleFontSize
+StyleFontSizeKeyword
 :
 :
 Large
