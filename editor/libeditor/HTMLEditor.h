@@ -30531,6 +30531,7 @@ aArrayOfTopMostChildContents
 .
 *
 /
+static
 Element
 *
 GetMostAncestorListOrTableElement
@@ -30556,7 +30557,6 @@ Element
 &
 aArrayOfListAndTableRelatedElements
 )
-const
 ;
 /
 *
