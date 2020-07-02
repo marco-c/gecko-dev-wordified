@@ -353,12 +353,15 @@ SKIP
 "
         
 elif
+(
+            
 "
 expected
 "
 not
 in
 item
+            
 or
 item
 [
@@ -374,6 +377,27 @@ item
 expected
 "
 ]
+            
+or
+item
+[
+"
+status
+"
+]
+in
+item
+.
+get
+(
+"
+known_intermittent
+"
+[
+]
+)
+        
+)
 :
             
 if
