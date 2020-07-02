@@ -144,6 +144,14 @@ as
 metrics_layers
 #
 noqa
+from
+mozperftest
+.
+utils
+import
+convert_day
+#
+noqa
 FLAVORS
 =
 [
@@ -616,14 +624,14 @@ date
 type
 "
 :
-str
+convert_day
             
 "
 default
 "
 :
 "
-yesterday
+today
 "
             
 "
@@ -659,6 +667,11 @@ YYYY
 MM
 .
 DD
+or
+be
+today
+or
+yesterday
 .
 "
         
