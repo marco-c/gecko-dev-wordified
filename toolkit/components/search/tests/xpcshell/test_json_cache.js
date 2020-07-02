@@ -745,6 +745,12 @@ removeCacheFile
 (
 )
 ;
+ss
+.
+_removeObservers
+(
+)
+;
 }
 add_task
 (
@@ -998,6 +1004,10 @@ anything
 Services
 .
 search
+.
+wrappedJSObject
+.
+_cache
 .
 QueryInterface
 (
