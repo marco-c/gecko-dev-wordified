@@ -612,6 +612,11 @@ unload
 (
 )
 ;
+await
+promiseAfterCache
+(
+)
+;
 }
 )
 ;
