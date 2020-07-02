@@ -1193,7 +1193,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 "
 "
 SVGForeignObject
@@ -1215,6 +1215,17 @@ NOT_LEAF
 Frame
 (
 "
+SVGGeometryFrame
+"
+"
+SVGGeometry
+"
+LEAF
+)
+    
+Frame
+(
+"
 nsSVGGFrame
 "
 "
@@ -1226,7 +1237,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGImageFrame
+SVGImageFrame
 "
 "
 SVGImage
@@ -1309,17 +1320,6 @@ nsSVGOuterSVGAnonChildFrame
 SVGOuterSVGAnonChild
 "
 NOT_LEAF
-)
-    
-Frame
-(
-"
-SVGGeometryFrame
-"
-"
-SVGGeometry
-"
-LEAF
 )
     
 Frame
@@ -1413,7 +1413,7 @@ render
 Frame
 (
 "
-nsSVGUseFrame
+SVGUseFrame
 "
 "
 SVGUse

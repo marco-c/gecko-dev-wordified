@@ -2124,7 +2124,7 @@ For
 render
 and
 hittest
-nsSVGImageFrame
+SVGImageFrame
 should
 have
 its

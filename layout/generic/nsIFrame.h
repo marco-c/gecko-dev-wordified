@@ -7598,10 +7598,10 @@ etc
 )
 *
 -
-nsSVGImageFrame
+SVGImageFrame
 *
 -
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 *
 *
 For

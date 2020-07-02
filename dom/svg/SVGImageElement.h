@@ -177,12 +177,12 @@ NodeInfo
 aNodeInfo
 )
 ;
-class
-nsSVGImageFrame
-;
 namespace
 mozilla
 {
+class
+SVGImageFrame
+;
 namespace
 dom
 {
@@ -203,9 +203,10 @@ nsImageLoadingContent
 {
 friend
 class
+mozilla
 :
 :
-nsSVGImageFrame
+SVGImageFrame
 ;
 protected
 :

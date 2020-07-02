@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-nsSVGUseFrame
+SVGUseFrame
 .
 h
 "
@@ -127,6 +127,15 @@ include
 mozilla
 /
 PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGObserverUtils
 .
 h
 "
@@ -152,17 +161,6 @@ SVGUseElement
 .
 h
 "
-#
-include
-"
-SVGObserverUtils
-.
-h
-"
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -262,7 +260,7 @@ new
 (
 aPresShell
 )
-nsSVGUseFrame
+SVGUseFrame
 (
 aStyle
 aPresShell
@@ -276,8 +274,11 @@ GetPresContext
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGUseFrame
+SVGUseFrame
 )
+namespace
+mozilla
+{
 /
 /
 -
@@ -356,7 +357,7 @@ nsIFrame
 methods
 :
 void
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 Init
@@ -423,7 +424,7 @@ aPrevInFlow
 ;
 }
 nsresult
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 AttributeChanged
@@ -525,7 +526,7 @@ aModType
 ;
 }
 void
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 PositionAttributeChanged
@@ -588,7 +589,7 @@ TRANSFORM_CHANGED
 ;
 }
 void
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 DimensionAttributeChanged
@@ -658,7 +659,7 @@ this
 }
 }
 void
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 HrefChanged
@@ -771,7 +772,7 @@ this
 nsSVGDisplayableFrame
 methods
 void
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 ReflowSVG
@@ -929,7 +930,7 @@ ReflowSVG
 ;
 }
 void
-nsSVGUseFrame
+SVGUseFrame
 :
 :
 NotifySVGChanged
@@ -1177,3 +1178,8 @@ aFlags
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

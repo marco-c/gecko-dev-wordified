@@ -1287,7 +1287,7 @@ to
 descend
 through
 *
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 frames
 to
 mark
@@ -1300,7 +1300,7 @@ want
 to
 *
 handle
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 specially
 .
 It
