@@ -531,8 +531,6 @@ dom
 ContentParent
 *
 aContentParent
-uint64_t
-aPendingSwitchId
 bool
 aReplaceBrowsingContext
 mozilla
