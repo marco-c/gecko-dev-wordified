@@ -18546,9 +18546,8 @@ chose
 OpenGL
 are
 being
-grandfathered
+included
 in
-to
 OMTC
 result
 |
