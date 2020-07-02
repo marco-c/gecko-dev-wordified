@@ -271,7 +271,7 @@ virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const
@@ -411,7 +411,7 @@ int32_t
 *
 aRY
 const
-nsSVGFilterInstance
+SVGFilterInstance
 &
 aInstance
 )

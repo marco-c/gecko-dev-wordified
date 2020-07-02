@@ -139,7 +139,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -482,7 +484,7 @@ SVGFEOffsetElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

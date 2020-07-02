@@ -139,7 +139,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -439,7 +441,7 @@ SVGFETileElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

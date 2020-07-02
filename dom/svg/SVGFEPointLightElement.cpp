@@ -139,7 +139,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -516,7 +518,7 @@ SVGFEPointLightElement
 :
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray

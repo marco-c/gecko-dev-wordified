@@ -225,13 +225,6 @@ h
 #
 include
 "
-nsFilterInstance
-.
-h
-"
-#
-include
-"
 nsFrameList
 .
 h
@@ -323,7 +316,7 @@ h
 #
 include
 "
-nsSVGFilterPaintCallback
+SVGFilterPaintCallback
 .
 h
 "
@@ -352,6 +345,15 @@ h
 include
 "
 nsTextFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
+FilterInstance
 .
 h
 "
@@ -961,7 +963,7 @@ aPreFilterRect
 ;
 }
 return
-nsFilterInstance
+FilterInstance
 :
 :
 GetPostFilterBounds
@@ -2633,7 +2635,7 @@ class
 SVGPaintCallback
 :
 public
-nsSVGFilterPaintCallback
+SVGFilterPaintCallback
 {
 public
 :
@@ -5337,7 +5339,7 @@ CurrentMatrixDouble
 SVGPaintCallback
 paintCallback
 ;
-nsFilterInstance
+FilterInstance
 :
 :
 PaintFilteredFrame

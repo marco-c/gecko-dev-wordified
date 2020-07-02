@@ -139,7 +139,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -711,7 +713,7 @@ SVGFETurbulenceElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

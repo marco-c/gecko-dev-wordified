@@ -139,7 +139,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -609,7 +611,7 @@ SVGFEDisplacementMapElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

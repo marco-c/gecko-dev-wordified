@@ -230,7 +230,7 @@ SVGFEMergeElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

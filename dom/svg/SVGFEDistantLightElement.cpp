@@ -139,7 +139,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -427,7 +429,7 @@ SVGFEDistantLightElement
 :
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray

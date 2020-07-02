@@ -123,7 +123,7 @@ first
 #
 include
 "
-nsFilterInstance
+FilterInstance
 .
 h
 "
@@ -257,7 +257,16 @@ h
 #
 include
 "
-nsCSSFilterInstance
+mozilla
+/
+SVGFilterInstance
+.
+h
+"
+#
+include
+"
+CSSFilterInstance
 .
 h
 "
@@ -271,14 +280,7 @@ h
 #
 include
 "
-nsSVGFilterInstance
-.
-h
-"
-#
-include
-"
-nsSVGFilterPaintCallback
+SVGFilterPaintCallback
 .
 h
 "
@@ -296,10 +298,6 @@ nsSVGUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -321,8 +319,11 @@ mozilla
 :
 image
 ;
+namespace
+mozilla
+{
 FilterDescription
-nsFilterInstance
+FilterInstance
 :
 :
 GetFilterDescription
@@ -360,7 +361,7 @@ aOutAdditionalImages
 gfxMatrix
 identity
 ;
-nsFilterInstance
+FilterInstance
 instance
 (
 nullptr
@@ -468,7 +469,7 @@ aFrame
 ;
 }
 void
-nsFilterInstance
+FilterInstance
 :
 :
 PaintFilteredFrame
@@ -479,7 +480,7 @@ aFilteredFrame
 gfxContext
 *
 aCtx
-nsSVGFilterPaintCallback
+SVGFilterPaintCallback
 *
 aPaintCallback
 const
@@ -685,7 +686,7 @@ contents
 of
 aFilteredFrame
 .
-nsFilterInstance
+FilterInstance
 instance
 (
 aFilteredFrame
@@ -863,7 +864,7 @@ Identity
 ;
 }
 bool
-nsFilterInstance
+FilterInstance
 :
 :
 BuildWebRenderFilters
@@ -997,7 +998,7 @@ inputIsTainted
 =
 true
 ;
-nsFilterInstance
+FilterInstance
 instance
 (
 aFilteredFrame
@@ -2872,7 +2873,7 @@ true
 ;
 }
 nsRegion
-nsFilterInstance
+FilterInstance
 :
 :
 GetPostFilterDirtyArea
@@ -2966,7 +2967,7 @@ contents
 of
 aFilteredFrame
 .
-nsFilterInstance
+FilterInstance
 instance
 (
 aFilteredFrame
@@ -3060,7 +3061,7 @@ ComputePostFilterDirtyRegion
 ;
 }
 nsRegion
-nsFilterInstance
+FilterInstance
 :
 :
 GetPreFilterNeededArea
@@ -3139,7 +3140,7 @@ contents
 of
 aFilteredFrame
 .
-nsFilterInstance
+FilterInstance
 instance
 (
 aFilteredFrame
@@ -3211,7 +3212,7 @@ ComputeSourceNeededRect
 ;
 }
 nsRect
-nsFilterInstance
+FilterInstance
 :
 :
 GetPostFilterBounds
@@ -3353,7 +3354,7 @@ contents
 of
 aFilteredFrame
 .
-nsFilterInstance
+FilterInstance
 instance
 (
 aFilteredFrame
@@ -3404,10 +3405,10 @@ ComputePostFilterExtents
 )
 ;
 }
-nsFilterInstance
+FilterInstance
 :
 :
-nsFilterInstance
+FilterInstance
 (
 nsIFrame
 *
@@ -3427,7 +3428,7 @@ StyleFilter
 aFilterChain
 bool
 aFilterInputIsTainted
-nsSVGFilterPaintCallback
+SVGFilterPaintCallback
 *
 aPaintCallback
 const
@@ -3719,7 +3720,7 @@ true
 ;
 }
 bool
-nsFilterInstance
+FilterInstance
 :
 :
 ComputeTargetBBoxInFilterSpace
@@ -3753,7 +3754,7 @@ mTargetBBoxInFilterSpace
 ;
 }
 bool
-nsFilterInstance
+FilterInstance
 :
 :
 ComputeUserSpaceToFilterSpaceScale
@@ -3848,7 +3849,7 @@ true
 ;
 }
 gfxRect
-nsFilterInstance
+FilterInstance
 :
 :
 UserSpaceToFilterSpace
@@ -3882,7 +3883,7 @@ filterSpaceRect
 ;
 }
 gfxRect
-nsFilterInstance
+FilterInstance
 :
 :
 FilterSpaceToUserSpace
@@ -3916,7 +3917,7 @@ userSpaceRect
 ;
 }
 nsresult
-nsFilterInstance
+FilterInstance
 :
 :
 BuildPrimitives
@@ -4026,7 +4027,7 @@ NS_OK
 ;
 }
 nsresult
-nsFilterInstance
+FilterInstance
 :
 :
 BuildPrimitivesForFilter
@@ -4096,7 +4097,7 @@ an
 SVG
 filter
 .
-nsSVGFilterInstance
+SVGFilterInstance
 svgFilterInstance
 (
 aFilter
@@ -4189,7 +4190,7 @@ NS_RGB
 0
 )
 ;
-nsCSSFilterInstance
+CSSFilterInstance
 cssFilterInstance
 (
 aFilter
@@ -4267,7 +4268,7 @@ surfaceSize
 }
 }
 void
-nsFilterInstance
+FilterInstance
 :
 :
 ComputeNeededBoxes
@@ -4343,7 +4344,7 @@ mNeededBounds
 ;
 }
 void
-nsFilterInstance
+FilterInstance
 :
 :
 BuildSourcePaint
@@ -4577,7 +4578,7 @@ neededRect
 ;
 }
 void
-nsFilterInstance
+FilterInstance
 :
 :
 BuildSourcePaints
@@ -4629,7 +4630,7 @@ aImgParams
 }
 }
 void
-nsFilterInstance
+FilterInstance
 :
 :
 BuildSourceImage
@@ -5033,7 +5034,7 @@ neededRect
 ;
 }
 void
-nsFilterInstance
+FilterInstance
 :
 :
 Render
@@ -5492,7 +5493,7 @@ aOpacity
 ;
 }
 nsRegion
-nsFilterInstance
+FilterInstance
 :
 :
 ComputePostFilterDirtyRegion
@@ -5549,7 +5550,7 @@ resultChangeRegion
 ;
 }
 nsRect
-nsFilterInstance
+FilterInstance
 :
 :
 ComputePostFilterExtents
@@ -5597,7 +5598,7 @@ GetBounds
 ;
 }
 nsRect
-nsFilterInstance
+FilterInstance
 :
 :
 ComputeSourceNeededRect
@@ -5618,7 +5619,7 @@ mNeededBounds
 ;
 }
 nsIntRect
-nsFilterInstance
+FilterInstance
 :
 :
 OutputFilterSpaceBounds
@@ -5667,7 +5668,7 @@ PrimitiveSubregion
 ;
 }
 nsIntRect
-nsFilterInstance
+FilterInstance
 :
 :
 FrameSpaceToFilterSpace
@@ -5765,7 +5766,7 @@ rect
 ;
 }
 nsRect
-nsFilterInstance
+FilterInstance
 :
 :
 FilterSpaceToFrameSpace
@@ -5841,7 +5842,7 @@ AppUnitsPerCSSPixel
 ;
 }
 nsIntRegion
-nsFilterInstance
+FilterInstance
 :
 :
 FrameSpaceToFilterSpace
@@ -5930,7 +5931,7 @@ result
 ;
 }
 nsRegion
-nsFilterInstance
+FilterInstance
 :
 :
 FilterSpaceToFrameSpace
@@ -6000,7 +6001,7 @@ result
 ;
 }
 gfxMatrix
-nsFilterInstance
+FilterInstance
 :
 :
 GetUserSpaceToFrameSpaceInCSSPxTransform
@@ -6037,3 +6038,8 @@ mTargetFrame
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

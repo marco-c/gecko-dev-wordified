@@ -289,7 +289,7 @@ virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

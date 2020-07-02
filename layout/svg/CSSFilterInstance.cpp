@@ -123,7 +123,7 @@ first
 #
 include
 "
-nsCSSFilterInstance
+CSSFilterInstance
 .
 h
 "
@@ -177,14 +177,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 gfx
 ;
+namespace
+mozilla
+{
 static
 float
 ClampFactor
@@ -234,10 +233,10 @@ return
 aFactor
 ;
 }
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
-nsCSSFilterInstance
+CSSFilterInstance
 (
 const
 StyleFilter
@@ -274,7 +273,7 @@ aFrameSpaceInCSSPxToFilterSpaceTransform
 {
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 BuildPrimitives
@@ -581,7 +580,7 @@ NS_OK
 ;
 }
 FilterPrimitiveDescription
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 CreatePrimitiveDescription
@@ -662,7 +661,7 @@ descr
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForBlur
@@ -720,7 +719,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForBrightness
@@ -860,7 +859,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForContrast
@@ -1009,7 +1008,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForDropShadow
@@ -1149,7 +1148,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForGrayscale
@@ -1232,7 +1231,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForHueRotate
@@ -1314,7 +1313,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForInvert
@@ -1460,7 +1459,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForOpacity
@@ -1513,7 +1512,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForSaturate
@@ -1591,7 +1590,7 @@ NS_OK
 ;
 }
 nsresult
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetAttributesForSepia
@@ -1672,7 +1671,7 @@ NS_OK
 ;
 }
 Size
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 BlurRadiusToFilterSpace
@@ -1822,7 +1821,7 @@ radiusInFilterSpace
 ;
 }
 IntPoint
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 OffsetToFilterSpace
@@ -1908,7 +1907,7 @@ y
 ;
 }
 sRGBColor
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 ToAttributeColor
@@ -1956,7 +1955,7 @@ aColor
 ;
 }
 int32_t
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 GetLastResultIndex
@@ -1994,7 +1993,7 @@ numPrimitiveDescrs
 ;
 }
 void
-nsCSSFilterInstance
+CSSFilterInstance
 :
 :
 SetBounds
@@ -2088,3 +2087,8 @@ outputBounds
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
