@@ -1298,6 +1298,8 @@ builtInEngineList
 =
 this
 .
+_searchService
+.
 _searchOrder
 ;
 }
