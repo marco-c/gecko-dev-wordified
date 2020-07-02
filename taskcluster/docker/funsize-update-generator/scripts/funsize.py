@@ -93,6 +93,10 @@ util
 import
 strtobool
 from
+contextlib
+import
+AsyncExitStack
+from
 pathlib
 import
 Path
@@ -471,7 +475,6 @@ parser
 .
 add_argument
 (
-        
 "
 -
 -
@@ -492,7 +495,6 @@ rb
 required
 =
 True
-    
 )
     
 parser
@@ -842,6 +844,9 @@ retry_download
 (
 *
 args
+semaphore
+=
+None
 *
 *
 kwargs
@@ -865,12 +870,32 @@ calls
 "
 "
     
+async
+with
+AsyncExitStack
+(
+)
+as
+stack
+:
+        
+if
+semaphore
+:
+            
+stack
+.
+enter_async_context
+(
+semaphore
+)
+        
 await
 retry_async
 (
-        
+            
 download
-        
+            
 retry_exceptions
 =
 (
@@ -881,15 +906,15 @@ asyncio
 .
 TimeoutError
 )
-        
+            
 args
 =
 args
-        
+            
 kwargs
 =
 kwargs
-    
+        
 )
 def
 verify_allowed_url
@@ -1798,7 +1823,6 @@ async
 def
 download_and_verify_mars
 (
-    
 partials_config
 allowed_url_prefixes
 signing_cert
@@ -1877,6 +1901,24 @@ dict
 (
 )
     
+semaphore
+=
+asyncio
+.
+Semaphore
+(
+2
+)
+#
+Magic
+2
+to
+reduce
+network
+timeout
+errors
+.
+    
 for
 url
 in
@@ -1927,6 +1969,7 @@ tasks
 .
 append
 (
+            
 retry_download
 (
 url
@@ -1939,7 +1982,11 @@ url
 download_path
 "
 ]
+semaphore
+=
+semaphore
 )
+        
 )
     
 await
