@@ -280,7 +280,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessChild
 .
@@ -291,7 +291,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessParent
 .

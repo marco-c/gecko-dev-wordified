@@ -119,7 +119,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessParent
 .
@@ -130,7 +130,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessChild
 .
@@ -152,6 +152,13 @@ Services
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+ipc
+;
 /
 /
 This
@@ -172,7 +179,7 @@ namespace
 mozilla
 {
 namespace
-ipc
+dom
 {
 StaticRefPtr
 <
@@ -1300,7 +1307,7 @@ nsIObserver
 /
 /
 namespace
-ipc
+dom
 }
 /
 /

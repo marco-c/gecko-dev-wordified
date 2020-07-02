@@ -125,7 +125,7 @@ namespace
 mozilla
 {
 namespace
-ipc
+dom
 {
 /
 *
@@ -172,7 +172,7 @@ circumstances
 mozilla
 :
 :
-ipc
+dom
 :
 :
 InProcess
@@ -213,7 +213,7 @@ PWindowGlobal
 /
 /
 namespace
-ipc
+dom
 }
 /
 /

@@ -139,7 +139,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessChild
 .
