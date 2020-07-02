@@ -578,16 +578,6 @@ mGood
 =
 false
 ;
-mRead
--
->
-state
-=
-State
-:
-:
-Failed
-;
 }
 void
 write
@@ -1176,7 +1166,6 @@ to
 AboutToWait
 Waiting
 Stopped
-Failed
 }
 ;
 struct
