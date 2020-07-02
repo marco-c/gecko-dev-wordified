@@ -193,9 +193,9 @@ RemoteDecoderParent
 RemoteDecoderManagerParent
 *
 aParent
-nsISerialEventTarget
+TaskQueue
 *
-aManagerThread
+aManagerTaskQueue
 TaskQueue
 *
 aDecodeTaskQueue
@@ -393,9 +393,9 @@ mIPDLSelfRef
 const
 RefPtr
 <
-nsISerialEventTarget
+TaskQueue
 >
-mManagerThread
+mManagerTaskQueue
 ;
 ShmemPool
 mDecodedFramePool
