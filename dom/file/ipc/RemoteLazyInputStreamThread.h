@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_IPCBlobInputStreamThread_h
+mozilla_dom_RemoteLazyInputStreamThread_h
 #
 define
-mozilla_dom_IPCBlobInputStreamThread_h
+mozilla_dom_RemoteLazyInputStreamThread_h
 #
 include
 "
@@ -165,7 +165,7 @@ class
 RemoteLazyInputStreamChild
 ;
 class
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 final
 :
 public
@@ -188,14 +188,14 @@ aEventTarget
 )
 ;
 static
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 *
 Get
 (
 )
 ;
 static
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 *
 GetOrCreate
 (
@@ -222,7 +222,7 @@ InitializeOnMainThread
 private
 :
 ~
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 (
 )
 =
@@ -297,4 +297,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_IPCBlobInputStreamThread_h
+mozilla_dom_RemoteLazyInputStreamThread_h

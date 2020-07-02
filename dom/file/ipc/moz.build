@@ -195,11 +195,6 @@ IPCBlobInputStream
 cpp
 '
 '
-IPCBlobInputStreamThread
-.
-cpp
-'
-'
 IPCBlobUtils
 .
 cpp
@@ -216,6 +211,11 @@ cpp
 '
 '
 RemoteLazyInputStreamStorage
+.
+cpp
+'
+'
+RemoteLazyInputStreamThread
 .
 cpp
 '
