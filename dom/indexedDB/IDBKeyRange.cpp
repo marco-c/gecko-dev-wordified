@@ -224,7 +224,6 @@ SetFromJSVal
 (
 aCx
 aVal
-aRv
 )
 ;
 if
@@ -235,7 +234,6 @@ result
 Is
 (
 Ok
-aRv
 )
 )
 {
@@ -246,7 +244,6 @@ result
 Is
 (
 Invalid
-aRv
 )
 )
 {
@@ -255,6 +252,23 @@ aRv
 Throw
 (
 NS_ERROR_DOM_INDEXEDDB_DATA_ERR
+)
+;
+}
+else
+{
+aRv
+=
+std
+:
+:
+move
+(
+result
+.
+AsException
+(
+)
 )
 ;
 }
