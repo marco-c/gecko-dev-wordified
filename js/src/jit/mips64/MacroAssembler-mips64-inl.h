@@ -1146,7 +1146,7 @@ void
 MacroAssembler
 :
 :
-swap64
+byteSwap64
 (
 Register64
 reg64

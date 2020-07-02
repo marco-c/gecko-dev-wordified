@@ -89269,7 +89269,7 @@ Int16
 :
 masm
 .
-swap16SignExtend
+byteSwap16SignExtend
 (
 out
 .
@@ -89288,7 +89288,7 @@ Uint16
 :
 masm
 .
-swap16ZeroExtend
+byteSwap16ZeroExtend
 (
 out
 .
@@ -89307,7 +89307,7 @@ Int32
 :
 masm
 .
-swap32
+byteSwap32
 (
 out
 .
@@ -89326,7 +89326,7 @@ Uint32
 :
 masm
 .
-swap32
+byteSwap32
 (
 out
 .
@@ -89353,7 +89353,7 @@ Float32
 :
 masm
 .
-swap32
+byteSwap32
 (
 temp
 )
@@ -89380,7 +89380,7 @@ BigUint64
 :
 masm
 .
-swap64
+byteSwap64
 (
 temp64
 )
@@ -93103,7 +93103,7 @@ Int16
 :
 masm
 .
-swap16SignExtend
+byteSwap16SignExtend
 (
 temp
 )
@@ -93118,7 +93118,7 @@ Uint16
 :
 masm
 .
-swap16ZeroExtend
+byteSwap16ZeroExtend
 (
 temp
 )
@@ -93145,7 +93145,7 @@ Float32
 :
 masm
 .
-swap32
+byteSwap32
 (
 temp
 )
@@ -93172,7 +93172,7 @@ BigUint64
 :
 masm
 .
-swap64
+byteSwap64
 (
 temp64
 )
