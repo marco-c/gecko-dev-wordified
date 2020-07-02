@@ -2643,14 +2643,6 @@ aNewPostData
 nullptr
 )
 ;
-static
-bool
-ShouldLoadErrorPageWithoutFixup
-(
-nsresult
-aStatus
-)
-;
 /
 /
 Takes
