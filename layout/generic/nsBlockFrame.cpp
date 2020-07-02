@@ -8714,7 +8714,6 @@ NS_UNCONSTRAINEDSIZE
 &
 ShouldApplyOverflowClipping
 (
-this
 aReflowInput
 .
 mStyleDisplay
@@ -15340,7 +15339,6 @@ if
 !
 ShouldApplyOverflowClipping
 (
-this
 aDisplay
 )
 )
