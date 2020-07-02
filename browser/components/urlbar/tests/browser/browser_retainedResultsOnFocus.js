@@ -873,7 +873,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 autofill
@@ -1125,7 +1124,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 "
@@ -1359,7 +1357,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 "
@@ -1500,7 +1497,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 "
@@ -1682,7 +1678,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 "
@@ -2922,7 +2917,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 "
@@ -3294,7 +3288,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
 value
 :
 "

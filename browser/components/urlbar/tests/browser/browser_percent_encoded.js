@@ -251,11 +251,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 decoded
@@ -330,11 +325,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 encodeURIComponent

@@ -447,7 +447,6 @@ value
 test
 "
 window
-waitForFocus
 fireInputEvent
 :
 true
@@ -981,7 +980,6 @@ value
 test
 "
 window
-waitForFocus
 fireInputEvent
 :
 true

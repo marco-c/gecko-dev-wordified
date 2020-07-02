@@ -415,11 +415,6 @@ value
 fireInputEvent
 :
 true
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;
@@ -1407,11 +1402,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 typedValue
@@ -1604,11 +1594,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 typedValue

@@ -667,8 +667,6 @@ window
 )
 =
 >
-window
-.
 gURLBar
 .
 blur
@@ -827,8 +825,6 @@ window
 )
 =
 >
-window
-.
 gURLBar
 .
 blur
@@ -1011,8 +1007,6 @@ window
 )
 =
 >
-window
-.
 gURLBar
 .
 blur

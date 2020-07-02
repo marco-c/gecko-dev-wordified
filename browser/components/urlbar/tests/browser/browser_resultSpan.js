@@ -332,11 +332,6 @@ value
 test
 "
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;
@@ -580,11 +575,6 @@ value
 test
 "
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;
@@ -807,11 +797,6 @@ value
 test
 "
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;
@@ -1106,11 +1091,6 @@ value
 test
 "
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;

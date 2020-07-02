@@ -85,7 +85,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 typed

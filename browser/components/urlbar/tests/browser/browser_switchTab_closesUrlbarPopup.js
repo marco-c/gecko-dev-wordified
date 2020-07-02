@@ -245,7 +245,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "

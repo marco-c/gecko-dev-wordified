@@ -222,11 +222,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "

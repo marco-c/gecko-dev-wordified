@@ -94,11 +94,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "
@@ -135,11 +130,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "

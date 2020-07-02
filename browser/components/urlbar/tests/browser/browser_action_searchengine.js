@@ -280,11 +280,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "

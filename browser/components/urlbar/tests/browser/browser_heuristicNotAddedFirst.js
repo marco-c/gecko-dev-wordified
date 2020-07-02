@@ -333,11 +333,6 @@ value
 test
 "
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;
@@ -785,11 +780,6 @@ value
 test
 "
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 }
 )
 ;
@@ -1009,8 +999,6 @@ Assert
 .
 equal
 (
-window
-.
 gURLBar
 .
 view
@@ -1018,8 +1006,6 @@ view
 oneOffSearchButtons
 .
 selectedButton
-window
-.
 gURLBar
 .
 view

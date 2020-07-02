@@ -1213,11 +1213,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 RESTRICT_TOKEN_OPENPAGE

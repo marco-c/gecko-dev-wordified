@@ -683,7 +683,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -736,7 +735,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -823,7 +821,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -903,7 +900,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -1141,7 +1137,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -1428,7 +1423,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -1502,11 +1496,6 @@ promiseAutocompleteResultPopup
 window
 :
 privateWin
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "
@@ -1604,11 +1593,6 @@ promiseAutocompleteResultPopup
 window
 :
 win
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "
@@ -1679,7 +1663,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -1842,7 +1825,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -2101,7 +2083,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -2335,7 +2316,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -2357,7 +2337,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -2415,7 +2394,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 UrlbarTokenizer
@@ -2439,7 +2417,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 UrlbarTokenizer
@@ -2466,7 +2443,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
@@ -2539,7 +2515,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 UrlbarTokenizer
@@ -2586,7 +2561,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
 value
 :
 "
