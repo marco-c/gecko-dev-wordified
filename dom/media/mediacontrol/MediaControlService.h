@@ -1000,6 +1000,12 @@ mMetadataChangedListener
 MediaEventListener
 mSupportedKeysChangedListener
 ;
+MediaEventListener
+mFullScreenChangedListener
+;
+MediaEventListener
+mPictureInPictureModeChangedListener
+;
 }
 ;
 void
