@@ -468,9 +468,6 @@ const
 RegistrationOptions
 &
 aOptions
-const
-CallerType
-aCallerType
 ErrorResult
 &
 aRv
