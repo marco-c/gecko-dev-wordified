@@ -24256,9 +24256,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Promise
@@ -24330,8 +24327,6 @@ Any
 )
 ;
 }
-#
-endif
 /
 /
 Promise
@@ -38774,9 +38769,6 @@ Promise_static_allSettled
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -38786,8 +38778,6 @@ Promise_static_any
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
