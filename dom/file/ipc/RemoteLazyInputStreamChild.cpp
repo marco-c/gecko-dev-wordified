@@ -395,7 +395,7 @@ inform
 the
 /
 /
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 class
 StreamReadyRunnable
@@ -408,7 +408,7 @@ public
 :
 StreamReadyRunnable
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aDestinationStream
 already_AddRefed
@@ -481,7 +481,7 @@ private
 :
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 mDestinationStream
 ;
@@ -638,7 +638,7 @@ inform
 the
 /
 /
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 class
 LengthReadyRunnable
@@ -651,7 +651,7 @@ public
 :
 LengthReadyRunnable
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aDestinationStream
 int64_t
@@ -704,7 +704,7 @@ private
 :
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 mDestinationStream
 ;
@@ -1014,7 +1014,7 @@ mState
 }
 already_AddRefed
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 RemoteLazyInputStreamChild
 :
@@ -1030,7 +1030,7 @@ false
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 stream
 ;
@@ -1227,7 +1227,7 @@ object
 stream
 =
 new
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 newActor
 )
@@ -1264,7 +1264,7 @@ else
 stream
 =
 new
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 this
 )
@@ -1322,7 +1322,7 @@ RemoteLazyInputStreamChild
 :
 ForgetStream
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 )
@@ -1419,7 +1419,7 @@ RemoteLazyInputStreamChild
 :
 StreamNeeded
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 nsIEventTarget
@@ -1609,7 +1609,7 @@ aStream
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 pendingStream
 ;
@@ -1730,7 +1730,7 @@ forget
 /
 /
 If
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 AsyncWait
@@ -1813,7 +1813,7 @@ RemoteLazyInputStreamChild
 :
 LengthNeeded
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 nsIEventTarget
@@ -1983,7 +1983,7 @@ aLength
 {
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 pendingStream
 ;
