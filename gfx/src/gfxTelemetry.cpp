@@ -499,11 +499,11 @@ case
 FeatureStatus
 :
 :
-Blocklisted
+Blacklisted
 :
 return
 "
-blocklisted
+blacklisted
 "
 ;
 case

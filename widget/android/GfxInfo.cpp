@@ -436,7 +436,7 @@ will
 /
 /
 remain
-blocklisted
+blacklisted
 forever
 .
 Ideally
@@ -2127,7 +2127,7 @@ OpenGL
 layers
 are
 never
-blocklisted
+blacklisted
 on
 Android
 .

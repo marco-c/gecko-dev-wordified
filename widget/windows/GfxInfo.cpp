@@ -7663,7 +7663,7 @@ for
 the
 final
 *
-blocklisting
+blacklisting
 call
 .
 *
@@ -8130,7 +8130,7 @@ safe
 let
 '
 s
-blocklist
+blacklist
 all
 /
 /
@@ -9614,7 +9614,7 @@ Bug
 1592826
 expands
 the
-blocklist
+blacklist
 .
 APPEND_TO_DRIVER_BLOCKLIST2
 (
@@ -13000,7 +13000,7 @@ val
 )
 ;
 bool
-blocklisted
+blacklisted
 =
 false
 ;
@@ -13046,7 +13046,7 @@ status
 )
 )
 {
-blocklisted
+blacklisted
 =
 (
 status
@@ -13067,7 +13067,7 @@ JS
 :
 BooleanValue
 (
-blocklisted
+blacklisted
 )
 ;
 JS_SetProperty
@@ -13075,7 +13075,7 @@ JS_SetProperty
 aCx
 obj
 "
-blocklisted
+blacklisted
 "
 val
 )

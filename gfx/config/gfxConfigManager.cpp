@@ -755,9 +755,9 @@ Disable
 FeatureStatus
 :
 :
-Blocklisted
+Blacklisted
 "
-Blocklisted
+Blacklisted
 by
 gfxInfo
 "
@@ -987,7 +987,7 @@ Disable
 FeatureStatus
 :
 :
-Blocklisted
+Blacklisted
 "
 No
 qualified

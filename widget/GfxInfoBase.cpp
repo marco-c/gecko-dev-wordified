@@ -703,7 +703,7 @@ nsISupportsWeakReference
 )
 #
 define
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 gfx
 .
@@ -713,13 +713,19 @@ blacklist
 #
 define
 SUGGESTED_VERSION_PREF
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 suggested
 -
 driver
 -
 version
+"
+#
+define
+BLACKLIST_ENTRY_TAG_NAME
+"
+gfxBlacklistEntry
 "
 static
 const
@@ -751,7 +757,7 @@ FEATURE_DIRECT2D
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 direct2d
 "
@@ -766,7 +772,7 @@ FEATURE_DIRECT3D_9_LAYERS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 layers
 .
@@ -783,7 +789,7 @@ FEATURE_DIRECT3D_10_LAYERS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 layers
 .
@@ -800,7 +806,7 @@ FEATURE_DIRECT3D_10_1_LAYERS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 layers
 .
@@ -819,7 +825,7 @@ FEATURE_DIRECT3D_11_LAYERS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 layers
 .
@@ -836,7 +842,7 @@ FEATURE_DIRECT3D_11_ANGLE
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 direct3d11angle
 "
@@ -851,7 +857,7 @@ FEATURE_HARDWARE_VIDEO_DECODING
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 hardwarevideodecoding
 "
@@ -866,7 +872,7 @@ FEATURE_OPENGL_LAYERS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 layers
 .
@@ -883,7 +889,7 @@ FEATURE_WEBGL_OPENGL
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webgl
 .
@@ -900,7 +906,7 @@ FEATURE_WEBGL_ANGLE
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webgl
 .
@@ -917,7 +923,7 @@ FEATURE_WEBGL_MSAA
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webgl
 .
@@ -934,7 +940,7 @@ FEATURE_STAGEFRIGHT
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 stagefright
 "
@@ -949,7 +955,7 @@ FEATURE_WEBRTC_HW_ACCELERATION_H264
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webrtc
 .
@@ -970,7 +976,7 @@ FEATURE_WEBRTC_HW_ACCELERATION_ENCODE
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webrtc
 .
@@ -991,7 +997,7 @@ FEATURE_WEBRTC_HW_ACCELERATION_DECODE
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webrtc
 .
@@ -1012,7 +1018,7 @@ FEATURE_CANVAS2D_ACCELERATION
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 canvas2d
 .
@@ -1029,7 +1035,7 @@ FEATURE_DX_INTEROP2
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 dx
 .
@@ -1046,7 +1052,7 @@ FEATURE_GPU_PROCESS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 gpu
 .
@@ -1063,7 +1069,7 @@ FEATURE_WEBGL2
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webgl2
 "
@@ -1078,7 +1084,7 @@ FEATURE_ADVANCED_LAYERS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 layers
 .
@@ -1095,7 +1101,7 @@ FEATURE_D3D11_KEYED_MUTEX
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 d3d11
 .
@@ -1114,7 +1120,7 @@ FEATURE_WEBRENDER
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webrender
 "
@@ -1129,7 +1135,7 @@ FEATURE_WEBRENDER_COMPOSITOR
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webrender
 .
@@ -1146,7 +1152,7 @@ FEATURE_DX_NV12
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 dx
 .
@@ -1163,7 +1169,7 @@ FEATURE_DX_P010
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 dx
 .
@@ -1180,7 +1186,7 @@ FEATURE_DX_P016
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 dx
 .
@@ -1232,7 +1238,7 @@ FEATURE_GL_SWIZZLE
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 gl
 .
@@ -1249,7 +1255,7 @@ FEATURE_WEBRENDER_SCISSORED_CACHE_CLEARS
 :
 name
 =
-BLOCKLIST_PREF_BRANCH
+BLACKLIST_PREF_BRANCH
 "
 webrender
 .
@@ -1425,7 +1431,7 @@ else
 aFailureId
 =
 "
-FEATURE_FAILURE_BLOCKLIST_PREF
+FEATURE_FAILURE_BLACKLIST_PREF
 "
 ;
 }
@@ -1648,7 +1654,7 @@ SUGGESTED_VERSION_PREF
 }
 static
 OperatingSystem
-BlocklistOSToOperatingSystem
+BlacklistOSToOperatingSystem
 (
 const
 nsAString
@@ -2027,7 +2033,7 @@ Unknown
 static
 GfxDeviceFamily
 *
-BlocklistDevicesToDeviceFamily
+BlacklistDevicesToDeviceFamily
 (
 nsTArray
 <
@@ -2161,7 +2167,7 @@ deviceIds
 }
 static
 int32_t
-BlocklistFeatureToGfxFeature
+BlacklistFeatureToGfxFeature
 (
 const
 nsAString
@@ -2735,7 +2741,7 @@ return
 }
 static
 int32_t
-BlocklistFeatureStatusToGfxFeatureStatus
+BlacklistFeatureStatusToGfxFeatureStatus
 (
 const
 nsAString
@@ -2921,7 +2927,7 @@ FEATURE_STATUS_OK
 }
 static
 VersionComparisonOp
-BlocklistComparatorToComparisonOp
+BlacklistComparatorToComparisonOp
 (
 const
 nsAString
@@ -3100,7 +3106,7 @@ DRIVER_COMPARISON_IGNORED
 /
 *
 Deserialize
-Blocklist
+Blacklist
 entries
 from
 string
@@ -3150,11 +3156,11 @@ LESS_THAN_OR_EQUAL
 /
 static
 bool
-BlocklistEntryToDriverInfo
+BlacklistEntryToDriverInfo
 (
 nsCString
 &
-aBlocklistEntry
+aBlacklistEntry
 GfxDriverInfo
 &
 aDriverInfo
@@ -3302,7 +3308,7 @@ keyValues
 ;
 ParseString
 (
-aBlocklistEntry
+aBlacklistEntry
 '
 \
 t
@@ -3317,7 +3323,7 @@ mRuleId
 NS_LITERAL_CSTRING
 (
 "
-FEATURE_FAILURE_DL_BLOCKLIST_NO_ID
+FEATURE_FAILURE_DL_BLACKLIST_NO_ID
 "
 )
 ;
@@ -3511,7 +3517,7 @@ blockIdStr
 NS_LITERAL_CSTRING
 (
 "
-FEATURE_FAILURE_DL_BLOCKLIST_
+FEATURE_FAILURE_DL_BLACKLIST_
 "
 )
 +
@@ -3545,7 +3551,7 @@ aDriverInfo
 .
 mOperatingSystem
 =
-BlocklistOSToOperatingSystem
+BlacklistOSToOperatingSystem
 (
 dataValue
 )
@@ -3677,7 +3683,7 @@ aDriverInfo
 .
 mFeature
 =
-BlocklistFeatureToGfxFeature
+BlacklistFeatureToGfxFeature
 (
 dataValue
 )
@@ -3754,7 +3760,7 @@ aDriverInfo
 .
 mFeatureStatus
 =
-BlocklistFeatureStatusToGfxFeatureStatus
+BlacklistFeatureStatusToGfxFeatureStatus
 (
 dataValue
 )
@@ -3841,7 +3847,7 @@ aDriverInfo
 .
 mComparisonOp
 =
-BlocklistComparatorToComparisonOp
+BlacklistComparatorToComparisonOp
 (
 dataValue
 )
@@ -4186,7 +4192,7 @@ GfxDeviceFamily
 *
 deviceIds
 =
-BlocklistDevicesToDeviceFamily
+BlacklistDevicesToDeviceFamily
 (
 devices
 )
@@ -4237,14 +4243,14 @@ true
 }
 static
 void
-BlocklistEntriesToDriverInfo
+BlacklistEntriesToDriverInfo
 (
 nsTArray
 <
 nsCString
 >
 &
-aBlocklistEntries
+aBlacklistEntries
 nsTArray
 <
 GfxDriverInfo
@@ -4263,7 +4269,7 @@ aDriverInfo
 .
 SetLength
 (
-aBlocklistEntries
+aBlacklistEntries
 .
 Length
 (
@@ -4279,7 +4285,7 @@ i
 ;
 i
 <
-aBlocklistEntries
+aBlacklistEntries
 .
 Length
 (
@@ -4291,9 +4297,9 @@ i
 )
 {
 nsCString
-blocklistEntry
+blacklistEntry
 =
-aBlocklistEntries
+aBlacklistEntries
 [
 i
 ]
@@ -4303,9 +4309,9 @@ di
 ;
 if
 (
-BlocklistEntryToDriverInfo
+BlacklistEntryToDriverInfo
 (
-blocklistEntry
+blacklistEntry
 di
 )
 )
@@ -4386,7 +4392,7 @@ nsTArray
 <
 nsCString
 >
-blocklistEntries
+blacklistEntries
 ;
 nsCString
 utf8Data
@@ -4414,17 +4420,17 @@ utf8Data
 \
 n
 '
-blocklistEntries
+blacklistEntries
 )
 ;
 }
-BlocklistEntriesToDriverInfo
+BlacklistEntriesToDriverInfo
 (
-blocklistEntries
+blacklistEntries
 driverInfo
 )
 ;
-EvaluateDownloadedBlocklist
+EvaluateDownloadedBlacklist
 (
 driverInfo
 )
@@ -7020,7 +7026,7 @@ else
 aFailureId
 =
 "
-FEATURE_FAILURE_DL_BLOCKLIST_NO_ID
+FEATURE_FAILURE_DL_BLACKLIST_NO_ID
 "
 ;
 }
@@ -8259,7 +8265,7 @@ void
 GfxInfoBase
 :
 :
-EvaluateDownloadedBlocklist
+EvaluateDownloadedBlacklist
 (
 nsTArray
 <
@@ -8406,7 +8412,7 @@ we
 evaluate
 whether
 this
-blocklist
+blacklist
 has
 a
 /
@@ -8441,7 +8447,7 @@ hold
 on
 to
 this
-blocklist
+blacklist
 /
 /
 anywhere
@@ -10915,7 +10921,7 @@ value
 FeatureStatus
 :
 :
-Blocklisted
+Blacklisted
 |
 |
 value

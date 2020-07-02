@@ -258,7 +258,7 @@ for
 reasons
 outside
 the
-blocklist
+blacklist
 such
 as
 a
@@ -304,9 +304,9 @@ blocked
 by
 the
 graphics
-blocklist
+blacklist
 .
-Blocklisted
+Blacklisted
 /
 /
 This

@@ -21637,7 +21637,7 @@ enable
 it
 even
 for
-blocklisted
+blacklisted
 /
 /
 devices
@@ -21696,7 +21696,7 @@ Disable
 FeatureStatus
 :
 :
-Blocklisted
+Blacklisted
 message
 .
 get
