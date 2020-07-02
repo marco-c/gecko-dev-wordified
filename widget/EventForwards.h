@@ -2271,10 +2271,10 @@ MouseButtonsFlag
 eNoButtons
 =
 0x00
-eLeftFlag
+ePrimaryFlag
 =
 0x01
-eRightFlag
+eSecondaryFlag
 =
 0x02
 eMiddleFlag

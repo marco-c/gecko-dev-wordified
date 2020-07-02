@@ -6782,7 +6782,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 ;
 }
 if
@@ -6800,7 +6800,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 ;
 }
 if
@@ -6894,7 +6894,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 )
 GetBoolName
 (
@@ -6905,7 +6905,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 )
 GetBoolName
 (

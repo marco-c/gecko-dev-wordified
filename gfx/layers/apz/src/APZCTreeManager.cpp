@@ -15769,7 +15769,7 @@ MOZ_SOURCE_TOUCH
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 aTouchInput
 .
 mTouches

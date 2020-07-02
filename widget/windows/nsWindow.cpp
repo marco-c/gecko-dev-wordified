@@ -60903,12 +60903,12 @@ ePrimary
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 :
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 :
 MouseButtonsFlag
 :

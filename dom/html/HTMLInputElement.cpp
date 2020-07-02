@@ -25214,7 +25214,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 )
 {
 StartRangeThumbDrag

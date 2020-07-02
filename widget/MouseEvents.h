@@ -1019,7 +1019,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 )
 ;
 }
@@ -1038,7 +1038,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 )
 ;
 }
