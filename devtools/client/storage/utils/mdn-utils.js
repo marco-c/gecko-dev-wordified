@@ -75,6 +75,8 @@ mozilla
 .
 org
 /
+docs
+/
 Tools
 /
 Storage_Inspector
