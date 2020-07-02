@@ -3514,6 +3514,13 @@ LogTaskBase
 nsIRunnable
 >
 ;
+template
+class
+LogTaskBase
+<
+MicroTaskRunnable
+>
+;
 }
 /
 /
