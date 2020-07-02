@@ -1506,6 +1506,11 @@ unHighlightDomElement
 grip
 )
 }
+shouldRenderTooltip
+=
+{
+true
+}
 /
 >
 <
