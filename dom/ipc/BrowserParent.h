@@ -5779,13 +5779,14 @@ cursor
 is
 in
 the
-tab
+remote
+target
 '
 s
 region
 .
 bool
-mTabSetsCursor
+mRemoteTargetSetsCursor
 :
 1
 ;

@@ -1479,7 +1479,7 @@ mIsDestroyed
 (
 false
 )
-mTabSetsCursor
+mRemoteTargetSetsCursor
 (
 false
 )
@@ -8278,9 +8278,11 @@ When
 we
 mouseenter
 the
-tab
+remote
+target
 the
-tab
+remote
+target
 '
 s
 cursor
@@ -8298,7 +8300,7 @@ mouseexit
 we
 stop
 .
-mTabSetsCursor
+mRemoteTargetSetsCursor
 =
 true
 ;
@@ -8558,9 +8560,11 @@ When
 we
 mouseenter
 the
-tab
+remote
+target
 the
-tab
+remote
+target
 '
 s
 cursor
@@ -8588,7 +8592,7 @@ aEvent
 mMessage
 )
 {
-mTabSetsCursor
+mRemoteTargetSetsCursor
 =
 true
 ;
@@ -8624,7 +8628,7 @@ aEvent
 mMessage
 )
 {
-mTabSetsCursor
+mRemoteTargetSetsCursor
 =
 false
 ;
@@ -12732,7 +12736,7 @@ aHotspotY
 if
 (
 !
-mTabSetsCursor
+mRemoteTargetSetsCursor
 )
 {
 return
