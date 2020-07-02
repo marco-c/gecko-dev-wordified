@@ -1377,8 +1377,9 @@ file
 .
 L10nRegistry
 .
-registerSource
+registerSources
 (
+[
 new
 FileSource
 (
@@ -1411,6 +1412,7 @@ locale
 }
 "
 )
+]
 )
 ;
 }

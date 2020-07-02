@@ -186,9 +186,11 @@ locale
 ;
 L10nRegistry
 .
-registerSource
+registerSources
 (
+[
 source
+]
 )
 ;
 return

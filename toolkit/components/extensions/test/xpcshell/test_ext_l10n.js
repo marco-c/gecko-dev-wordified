@@ -275,9 +275,11 @@ l10ntest
 ;
 L10nRegistry
 .
-registerSource
+registerSources
 (
+[
 source
+]
 )
 ;
 }
