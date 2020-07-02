@@ -171,7 +171,7 @@ WebSocketEventListenerChild
 (
 uint64_t
 aInnerWindowID
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 )

@@ -1737,7 +1737,7 @@ private
 nsresult
 SetupPACThread
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 =
@@ -2139,7 +2139,7 @@ nsICancelable
 result
 bool
 isSyncOK
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 )
@@ -2149,7 +2149,7 @@ mIsShutdown
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mProxySettingTarget
 ;

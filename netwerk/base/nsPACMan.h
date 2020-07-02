@@ -557,7 +557,7 @@ NS_DECL_THREADSAFE_ISUPPORTS
 explicit
 nsPACMan
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 )

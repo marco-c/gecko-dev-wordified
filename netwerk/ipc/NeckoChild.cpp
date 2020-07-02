@@ -1134,7 +1134,7 @@ aInnerWindowID
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;

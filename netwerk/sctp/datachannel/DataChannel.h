@@ -834,7 +834,7 @@ Create
 DataConnectionListener
 *
 aListener
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 MediaTransportHandler
@@ -1373,7 +1373,7 @@ DataChannelConnection
 DataConnectionListener
 *
 aListener
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 MediaTransportHandler
@@ -3298,7 +3298,7 @@ mLock
 )
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;

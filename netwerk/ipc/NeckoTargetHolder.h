@@ -176,7 +176,7 @@ public
 explicit
 NeckoTargetHolder
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aNeckoTarget
 )
@@ -210,7 +210,7 @@ events
 virtual
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetNeckoTarget
 (
@@ -269,7 +269,7 @@ events
 .
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mNeckoTarget
 ;

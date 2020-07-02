@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsIEventTarget
+nsISerialEventTarget
 .
 h
 "
@@ -102,7 +102,7 @@ StunAddrsRequestChild
 StunAddrsListener
 *
 listener
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 )

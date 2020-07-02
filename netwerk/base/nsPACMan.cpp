@@ -2610,7 +2610,7 @@ nsPACMan
 :
 nsPACMan
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 )

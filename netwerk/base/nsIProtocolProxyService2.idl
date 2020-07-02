@@ -273,7 +273,7 @@ aCallback
 optional
 ]
 in
-nsIEventTarget
+nsISerialEventTarget
 aMainThreadTarget
 )
 ;

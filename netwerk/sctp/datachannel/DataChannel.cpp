@@ -2755,7 +2755,7 @@ DataChannelConnection
 DataConnectionListener
 *
 aListener
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 MediaTransportHandler
@@ -2835,7 +2835,7 @@ DataChannelConnection
 DataConnectionListener
 *
 aListener
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 MediaTransportHandler
