@@ -786,7 +786,7 @@ jsm
 logger
 to
 a
-mozIServicesLogger
+mozIServicesLogSink
 .
 *
 /
@@ -834,7 +834,7 @@ All
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_TRACE
 ;
@@ -854,7 +854,7 @@ Info
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_DEBUG
 ;
@@ -874,7 +874,7 @@ Warn
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_WARN
 ;
@@ -894,7 +894,7 @@ Error
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_ERROR
 ;
@@ -902,7 +902,7 @@ LEVEL_ERROR
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_OFF
 ;
