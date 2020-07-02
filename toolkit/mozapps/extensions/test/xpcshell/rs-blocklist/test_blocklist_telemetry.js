@@ -441,10 +441,8 @@ rsClient
 .
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 lastModified
 )
 ;
