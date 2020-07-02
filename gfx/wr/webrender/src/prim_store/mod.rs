@@ -18282,7 +18282,8 @@ to_cache_size
 segment
 .
 local_task_size
-*
+&
+mut
 scale
 )
 ;

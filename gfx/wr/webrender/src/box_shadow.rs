@@ -576,6 +576,10 @@ pub
 br_bottom_left
 :
 DeviceIntSize
+pub
+device_pixel_scale
+:
+Au
 }
 impl
 <
