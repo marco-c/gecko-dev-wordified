@@ -144,6 +144,12 @@ js
 '
     
 '
+locale
+.
+ini
+'
+    
+'
 update
 .
 locale
