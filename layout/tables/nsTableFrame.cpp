@@ -53905,14 +53905,11 @@ newStyle
 MOZ_ASSERT
 (
 !
-(
 aWrapperFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_OWNS_ANON_BOXES
 )
 "
