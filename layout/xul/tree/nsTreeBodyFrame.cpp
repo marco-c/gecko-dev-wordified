@@ -22452,7 +22452,7 @@ aBuilder
 aBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 ?

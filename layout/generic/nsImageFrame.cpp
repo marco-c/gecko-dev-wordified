@@ -12423,7 +12423,7 @@ if
 aBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 )
@@ -13471,7 +13471,7 @@ if
 aDisplayListBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 )

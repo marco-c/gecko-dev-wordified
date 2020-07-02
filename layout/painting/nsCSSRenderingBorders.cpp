@@ -31474,7 +31474,7 @@ if
 aDisplayListBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 )

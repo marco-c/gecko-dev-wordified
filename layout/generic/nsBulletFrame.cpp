@@ -2552,7 +2552,7 @@ if
 aDisplayListBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 )
