@@ -1427,6 +1427,16 @@ panel
 -
 changes
 "
+role
+:
+"
+document
+"
+tabIndex
+:
+"
+0
+"
 onContextMenu
 :
 this
