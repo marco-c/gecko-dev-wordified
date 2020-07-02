@@ -3321,6 +3321,14 @@ artifact_mode
 in
 application
         
+self
+.
+instance
+.
+prepare
+(
+)
+        
 if
 self
 .
