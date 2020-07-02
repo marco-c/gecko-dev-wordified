@@ -694,6 +694,16 @@ crashcontent
 "
 about
 :
+newtab
+"
+"
+about
+:
+home
+"
+"
+about
+:
 printpreview
 "
 ]
@@ -709,7 +719,7 @@ made
 in
 URIUsesDocChannel
 in
-DocumentChannel
+nsDocShell
 .
 cpp
 .

@@ -32037,9 +32037,6 @@ aTab
 selected
 &
 &
-uri
-&
-&
 !
 window
 .
