@@ -34452,6 +34452,7 @@ endif
 #
 ifdef
 XP_WIN
+MOZ_EXPORT
 void
 *
 _recalloc
@@ -34667,6 +34668,7 @@ a
 shrunk
 block
 .
+MOZ_EXPORT
 void
 *
 _expand
@@ -34704,6 +34706,7 @@ return
 nullptr
 ;
 }
+MOZ_EXPORT
 size_t
 _msize
 (
