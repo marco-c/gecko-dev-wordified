@@ -4430,6 +4430,8 @@ perm
 .
 principal
 .
+URI
+.
 host
 )
 )

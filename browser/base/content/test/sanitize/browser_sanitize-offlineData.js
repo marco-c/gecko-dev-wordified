@@ -280,6 +280,8 @@ registration
 .
 principal
 .
+URI
+.
 host
 !
 =
@@ -421,6 +423,8 @@ nsIPrincipal
 if
 (
 principal
+.
+URI
 .
 host
 =
@@ -759,6 +763,8 @@ if
 (
 principal
 .
+URI
+.
 host
 =
 =
@@ -770,6 +776,8 @@ org
 |
 |
 principal
+.
+URI
 .
 host
 =
