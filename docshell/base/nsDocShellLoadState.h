@@ -1148,7 +1148,7 @@ mCancelContentJSEpoch
 void
 SetLoadIdentifier
 (
-uint32_t
+uint64_t
 aIdent
 )
 {
@@ -1157,7 +1157,7 @@ mLoadIdentifier
 aIdent
 ;
 }
-uint32_t
+uint64_t
 GetLoadIdentifier
 (
 )
@@ -2504,7 +2504,7 @@ in
 progress
 load
 .
-uint32_t
+uint64_t
 mLoadIdentifier
 ;
 }

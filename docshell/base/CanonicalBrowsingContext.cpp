@@ -5200,7 +5200,7 @@ AttemptLoadURIInParent
 nsDocShellLoadState
 *
 aLoadState
-uint32_t
+uint64_t
 *
 aLoadIdentifier
 )

@@ -1953,7 +1953,7 @@ not
 /
 started
 .
-uint32_t
+uint64_t
 mRedirectChannelId
 =
 0

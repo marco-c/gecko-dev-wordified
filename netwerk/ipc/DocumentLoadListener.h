@@ -944,7 +944,7 @@ nsDocShellLoadState
 aLoadState
 uint64_t
 aOuterWindowId
-uint32_t
+uint64_t
 *
 aOutIdent
 )
@@ -985,7 +985,7 @@ static
 void
 CleanupParentLoadAttempt
 (
-uint32_t
+uint64_t
 aLoadIdent
 )
 ;
@@ -1013,7 +1013,7 @@ DocumentLoadListener
 *
 *
 aListener
-uint32_t
+uint64_t
 aLoadIdent
 )
 ;
@@ -2581,7 +2581,7 @@ is
 not
 started
 .
-uint32_t
+uint64_t
 mRedirectChannelId
 =
 0
