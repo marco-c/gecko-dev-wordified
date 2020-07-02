@@ -18162,7 +18162,7 @@ frame
 *
 /
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayOutlineUnconditional
@@ -18456,7 +18456,7 @@ this
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayOutline
@@ -18487,7 +18487,7 @@ aLists
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayInsetBoxShadowUnconditional
@@ -18580,7 +18580,7 @@ this
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayInsetBoxShadow
@@ -18610,7 +18610,7 @@ aList
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayOutsetBoxShadowUnconditional
@@ -18703,7 +18703,7 @@ this
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayOutsetBoxShadow
@@ -18794,7 +18794,7 @@ mCaretColor
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 DisplayBackgroundUnconditional
@@ -19000,7 +19000,7 @@ false
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayBorderBackgroundOutline
