@@ -633,6 +633,35 @@ scan
 :
 False
         
+#
+Disable
+idle
+-
+daily
+notifications
+to
+avoid
+expensive
+operations
+        
+#
+that
+may
+cause
+unexpected
+test
+timeouts
+.
+        
+"
+idle
+.
+lastDailyNotification
+"
+:
+-
+1
+        
 "
 javascript
 .
@@ -1435,6 +1464,7 @@ be
 created
 or
 replaced
+.
         
 :
 param
