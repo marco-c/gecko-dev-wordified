@@ -438,7 +438,7 @@ xpcom
 services
 :
 :
-get_AppInfoService
+get_XULRuntime
 (
 )
 {
