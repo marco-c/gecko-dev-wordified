@@ -3960,6 +3960,10 @@ id
 )
 ;
 return
+!
+addon
+|
+|
 keyInfo
 .
 selectedDate
@@ -4048,6 +4052,10 @@ id
 )
 ;
 return
+!
+addon
+|
+|
 topItem
 .
 installDate
