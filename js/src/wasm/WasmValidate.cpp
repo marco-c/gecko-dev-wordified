@@ -14061,7 +14061,7 @@ memory
 .
 initial
 >
-MaxMemoryInitialPages
+MaxMemoryLimitField
 )
 {
 return
