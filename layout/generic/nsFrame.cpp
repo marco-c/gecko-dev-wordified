@@ -69686,7 +69686,7 @@ static
 /
 nsIFrame
 *
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
