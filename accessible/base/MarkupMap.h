@@ -459,6 +459,15 @@ DETAILS
 )
 MARKUPMAP
 (
+dialog
+New_HyperText
+roles
+:
+:
+DIALOG
+)
+MARKUPMAP
+(
 div
 [
 ]
