@@ -274,6 +274,17 @@ mozilla
 /
 layers
 /
+CompositorAnimationStorage
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorThread
 .
 h
