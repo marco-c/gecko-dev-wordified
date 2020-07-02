@@ -398,6 +398,8 @@ stl_compiler
 output_dir
 =
 '
+.
+.
 /
 dist
 /
@@ -492,8 +494,6 @@ gen_wrappers
 flags
 =
 [
-TOPOBJDIR
-+
 output_dir
 stl_compiler
 template_file
@@ -576,6 +576,8 @@ WINNT
 GeneratedFile
 (
 '
+.
+.
 /
 dist
 /
@@ -667,6 +669,8 @@ mozbuild
 output_dir
 =
 '
+.
+.
 /
 dist
 /
@@ -730,8 +734,6 @@ gen_wrappers
 flags
 =
 [
-TOPOBJDIR
-+
 output_dir
 ]
 +
