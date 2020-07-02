@@ -1612,6 +1612,9 @@ hasStoragePermission
 bool
 isThirdPartyContextToTopWindow
 ;
+bool
+isInThirdPartyContext
+;
 /
 /
 IMPORTANT
