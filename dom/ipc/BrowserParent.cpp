@@ -16455,12 +16455,6 @@ aLocationChangeData
 isSyntheticDocument
 (
 )
-aWebProgressData
--
->
-innerDOMWindowID
-(
-)
 aLocationChangeData
 -
 >
