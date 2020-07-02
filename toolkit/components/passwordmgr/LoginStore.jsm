@@ -508,6 +508,10 @@ function
 LoginStore
 (
 aPath
+aBackupPath
+=
+"
+"
 )
 {
 JSONFile
@@ -529,6 +533,9 @@ bind
 (
 this
 )
+backupTo
+:
+aBackupPath
 }
 )
 ;
