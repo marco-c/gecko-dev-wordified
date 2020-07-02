@@ -317,8 +317,9 @@ otherwise
 bool
 RegisterPreload
 (
+const
 PreloadHashKey
-*
+&
 aKey
 PreloaderBase
 *
@@ -350,8 +351,9 @@ yet
 void
 DeregisterPreload
 (
+const
 PreloadHashKey
-*
+&
 aKey
 )
 ;
@@ -387,8 +389,9 @@ key
 bool
 PreloadExists
 (
+const
 PreloadHashKey
-*
+&
 aKey
 )
 ;
@@ -420,8 +423,9 @@ PreloaderBase
 >
 LookupPreload
 (
+const
 PreloadHashKey
-*
+&
 aKey
 )
 const

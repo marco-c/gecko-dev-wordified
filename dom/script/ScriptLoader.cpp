@@ -10291,7 +10291,6 @@ aRequest
 >
 NotifyOpen
 (
-&
 key
 channel
 mDocument
