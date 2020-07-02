@@ -757,6 +757,9 @@ sdb
 /
 Unknown
 file
+and
+unknown
+directory
 in
 ls
 client
@@ -829,6 +832,15 @@ close
 )
 ;
 createUnknownFileIn
+(
+{
+originRelativePath
+}
+/
+ls
+)
+;
+createUnknownDirectoryIn
 (
 {
 originRelativePath
