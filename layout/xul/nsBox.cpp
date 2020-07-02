@@ -299,11 +299,10 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IS_DIRTY
+)
 )
 {
 /
@@ -1639,11 +1638,10 @@ NS_OK
 /
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IS_DIRTY
+)
 )
 {
 XULRedraw
