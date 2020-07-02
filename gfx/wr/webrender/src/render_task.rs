@@ -187,7 +187,10 @@ crate
 prim_store
 :
 :
+{
 PictureIndex
+PrimitiveVisibilityMask
+}
 ;
 use
 crate
@@ -293,15 +296,6 @@ render_task_cache
 RenderTaskCacheKey
 RenderTaskCacheKeyKind
 }
-;
-use
-crate
-:
-:
-visibility
-:
-:
-PrimitiveVisibilityMask
 ;
 use
 smallvec
