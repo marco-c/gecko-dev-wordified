@@ -423,14 +423,11 @@ aOther
 const
 {
 return
--
-(
 aOther
 .
 mCurrent
 -
 mCurrent
-)
 ;
 }
 /
