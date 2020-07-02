@@ -336,10 +336,6 @@ h
 "
 /
 /
-js
-:
-:
-CanReuseScriptForClone
 JSFunction
 #
 include
