@@ -335,7 +335,7 @@ if
 loadState
 -
 >
-GetLoadIdentifier
+GetChannelInitialized
 (
 )
 )

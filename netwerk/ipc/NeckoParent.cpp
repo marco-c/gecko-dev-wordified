@@ -2201,9 +2201,16 @@ aArgs
 )
 {
 return
-IPC_FAIL_NO_REASON
+IPC_FAIL
 (
 this
+"
+Couldn
+'
+t
+initialize
+DocumentChannel
+"
 )
 ;
 }

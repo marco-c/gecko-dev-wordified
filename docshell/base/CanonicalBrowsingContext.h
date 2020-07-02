@@ -1021,9 +1021,6 @@ AttemptLoadURIInParent
 nsDocShellLoadState
 *
 aLoadState
-uint64_t
-*
-aLoadIdentifier
 )
 ;
 /
@@ -1396,12 +1393,8 @@ docshell
 void
 EndDocumentLoad
 (
-net
-:
-:
-DocumentLoadListener
-*
-aLoad
+bool
+aForProcessSwitch
 )
 ;
 /

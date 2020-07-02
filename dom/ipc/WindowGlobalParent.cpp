@@ -2208,8 +2208,6 @@ targetBC
 InternalLoad
 (
 aLoadState
-nullptr
-nullptr
 )
 ;
 return

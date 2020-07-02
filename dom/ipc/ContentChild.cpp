@@ -22352,6 +22352,11 @@ nsDocShellLoadState
 CreateFromPendingChannel
 (
 newChannel
+aArgs
+.
+loadIdentifier
+(
+)
 getter_AddRefs
 (
 loadState
@@ -26666,8 +26671,6 @@ context
 InternalLoad
 (
 aLoadState
-nullptr
-nullptr
 )
 ;
 if

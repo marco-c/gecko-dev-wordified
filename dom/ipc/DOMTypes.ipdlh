@@ -1253,6 +1253,9 @@ Csp
 MaybeDiscardedBrowsingContext
 SourceBrowsingContext
 ;
+MaybeDiscardedBrowsingContext
+TargetBrowsingContext
+;
 nsCString
 ?
 OriginalURIString
@@ -1317,6 +1320,9 @@ other
 mechanism
 uint64_t
 LoadIdentifier
+;
+bool
+ChannelInitialized
 ;
 }
 ;
