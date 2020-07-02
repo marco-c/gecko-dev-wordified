@@ -181,6 +181,10 @@ memory_distribution
 mod
 ping
 ;
+pub
+(
+crate
+)
 mod
 string
 ;
