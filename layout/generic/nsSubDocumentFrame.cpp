@@ -1321,11 +1321,8 @@ didCreateDoc
 if
 (
 !
+HasAnyStateBits
 (
-GetStateBits
-(
-)
-&
 NS_FRAME_FIRST_REFLOW
 )
 )
@@ -1740,11 +1737,10 @@ GetSubdocumentSize
 {
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FIRST_REFLOW
+)
 )
 {
 RefPtr
