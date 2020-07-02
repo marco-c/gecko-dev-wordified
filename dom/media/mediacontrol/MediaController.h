@@ -969,6 +969,12 @@ UpdateDeactivationTimerIfNeeded
 )
 ;
 bool
+IsMediaBeingUsedInPIPModeOrFullScreen
+(
+)
+const
+;
+bool
 mIsActive
 =
 false
