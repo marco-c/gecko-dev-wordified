@@ -163,6 +163,17 @@ va_drmcommon
 .
 h
 "
+#
+include
+"
+mozilla
+/
+widget
+/
+DMABufLibWrapper
+.
+h
+"
 typedef
 void
 *

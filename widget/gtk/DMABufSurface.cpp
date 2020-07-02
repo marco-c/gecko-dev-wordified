@@ -1793,7 +1793,9 @@ nsGbmLib
 :
 CreateWithModifiers
 (
-display
+GetDMABufDevice
+(
+)
 -
 >
 GetGbmDevice
@@ -1902,7 +1904,9 @@ nsGbmLib
 :
 DeviceIsFormatSupported
 (
-display
+GetDMABufDevice
+(
+)
 -
 >
 GetGbmDevice
@@ -1933,7 +1937,9 @@ nsGbmLib
 :
 Create
 (
-display
+GetDMABufDevice
+(
+)
 -
 >
 GetGbmDevice
@@ -2057,7 +2063,9 @@ nsGbmLib
 :
 DrmPrimeHandleToFD
 (
-display
+GetDMABufDevice
+(
+)
 -
 >
 GetGbmDeviceFd
@@ -4716,7 +4724,9 @@ nsGbmLib
 :
 Create
 (
-display
+GetDMABufDevice
+(
+)
 -
 >
 GetGbmDevice
