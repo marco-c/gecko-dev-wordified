@@ -1861,11 +1861,10 @@ if
 aDelegatingFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IS_DIRTY
+)
 )
 {
 kidFrame
