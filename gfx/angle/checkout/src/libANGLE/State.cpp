@@ -2893,6 +2893,10 @@ if
 (
 !
 texture
+|
+|
+!
+texture
 -
 >
 isSamplerComplete
@@ -2965,6 +2969,9 @@ DIRTY_OBJECT_TEXTURES_INIT
 }
 if
 (
+texture
+&
+&
 mProgram
 )
 {
@@ -14205,7 +14212,10 @@ getActiveSamplerTypes
 textureUnit
 ]
 ;
-if
+Texture
+*
+activeTexture
+=
 (
 type
 !
@@ -14215,11 +14225,7 @@ TextureType
 :
 InvalidEnum
 )
-{
-Texture
-*
-activeTexture
-=
+?
 mSamplerTextures
 [
 type
@@ -14231,6 +14237,8 @@ textureUnit
 get
 (
 )
+:
+nullptr
 ;
 updateActiveTexture
 (
@@ -14239,7 +14247,6 @@ textureUnit
 activeTexture
 )
 ;
-}
 }
 }
 void
@@ -14274,7 +14281,10 @@ getActiveSamplerTypes
 textureUnit
 ]
 ;
-if
+Texture
+*
+activeTexture
+=
 (
 type
 !
@@ -14284,11 +14294,7 @@ TextureType
 :
 InvalidEnum
 )
-{
-Texture
-*
-activeTexture
-=
+?
 mSamplerTextures
 [
 type
@@ -14300,6 +14306,8 @@ textureUnit
 get
 (
 )
+:
+nullptr
 ;
 const
 Sampler
@@ -14323,7 +14331,6 @@ sampler
 activeTexture
 )
 ;
-}
 }
 }
 void
