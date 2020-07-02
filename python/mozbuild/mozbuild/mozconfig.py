@@ -758,6 +758,32 @@ is
 None
 :
             
+if
+'
+MOZ_OBJDIR
+'
+in
+os
+.
+environ
+:
+                
+result
+[
+'
+topobjdir
+'
+]
+=
+os
+.
+environ
+[
+'
+MOZ_OBJDIR
+'
+]
+            
 return
 result
         
