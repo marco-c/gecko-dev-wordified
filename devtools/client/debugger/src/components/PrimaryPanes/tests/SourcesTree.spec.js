@@ -100,7 +100,7 @@ SourcesTree
 ;
 import
 {
-makeMockSource
+makeMockDisplaySource
 mockcx
 }
 from
@@ -605,7 +605,7 @@ child1
 41
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -697,7 +697,7 @@ render
 const
 newSource
 =
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -924,7 +924,7 @@ child1
 41
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -1066,7 +1066,7 @@ child1
 41
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -1208,7 +1208,7 @@ render
 const
 newSource
 =
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -1516,7 +1516,7 @@ render
 const
 mockSource
 =
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -2493,7 +2493,7 @@ child1
 39
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -2529,7 +2529,7 @@ child1
 40
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -2565,7 +2565,7 @@ child1
 41
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -2605,7 +2605,7 @@ originalSource
 sha
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -2648,7 +2648,7 @@ child1
 42
 "
 :
-createMockSource
+createMockDisplaySource
 (
 "
 server1
@@ -2849,7 +2849,7 @@ instance
 ;
 }
 function
-createMockSource
+createMockDisplaySource
 (
 id
 url
@@ -2863,7 +2863,7 @@ return
 .
 .
 .
-makeMockSource
+makeMockDisplaySource
 (
 url
 id

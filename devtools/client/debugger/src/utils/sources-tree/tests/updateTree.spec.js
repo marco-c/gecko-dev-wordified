@@ -63,7 +63,7 @@ MPL
 flow
 import
 {
-makeMockSource
+makeMockDisplaySource
 }
 from
 "
@@ -145,7 +145,7 @@ source
 id
 ]
 =
-makeMockSource
+makeMockDisplaySource
 (
 source
 .

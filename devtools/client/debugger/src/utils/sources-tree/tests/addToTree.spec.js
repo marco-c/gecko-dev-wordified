@@ -80,7 +80,7 @@ error
 /
 import
 {
-makeMockSource
+makeMockDisplaySource
 }
 from
 "
@@ -166,7 +166,7 @@ source
 id
 ]
 =
-makeMockSource
+makeMockDisplaySource
 (
 source
 .
@@ -217,7 +217,7 @@ i
 )
 =
 >
-makeMockSource
+makeMockDisplaySource
 (
 s
 .
@@ -298,7 +298,7 @@ API
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -471,7 +471,7 @@ tree
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -667,7 +667,7 @@ URLs
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 webpack
@@ -858,7 +858,7 @@ path
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 webpack
@@ -1115,7 +1115,7 @@ function
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -1323,7 +1323,7 @@ xdt
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 https
 :
@@ -1446,7 +1446,7 @@ bar
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 https
 :
@@ -2142,7 +2142,7 @@ tree
 const
 source1
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 javascript
@@ -2163,7 +2163,7 @@ actor1
 const
 source2
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -2186,7 +2186,7 @@ actor2
 const
 source3
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 javascript
@@ -2374,7 +2374,7 @@ sources
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 file

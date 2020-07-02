@@ -63,7 +63,7 @@ MPL
 flow
 import
 {
-makeMockSource
+makeMockDisplaySource
 }
 from
 "
@@ -101,7 +101,7 @@ index
 const
 abcSource
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -128,7 +128,7 @@ actor1
 const
 abcdeSource
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -159,7 +159,7 @@ actor2
 const
 abxSource
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http

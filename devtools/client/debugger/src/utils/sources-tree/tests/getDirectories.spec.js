@@ -63,7 +63,7 @@ MPL
 flow
 import
 {
-makeMockSource
+makeMockDisplaySource
 }
 from
 "
@@ -164,7 +164,7 @@ sources
 id
 ]
 =
-makeMockSource
+makeMockDisplaySource
 (
 url
 id

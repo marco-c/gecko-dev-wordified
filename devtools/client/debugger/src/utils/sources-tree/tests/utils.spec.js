@@ -80,7 +80,7 @@ MPL
 flow
 import
 {
-makeMockSource
+makeMockDisplaySource
 }
 from
 "
@@ -165,7 +165,7 @@ source
 id
 ]
 =
-makeMockSource
+makeMockDisplaySource
 (
 source
 .
@@ -529,7 +529,7 @@ const
 sources
 =
 [
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -548,7 +548,7 @@ js
 actor1
 "
 )
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -1017,7 +1017,7 @@ file
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -1064,7 +1064,7 @@ file
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -1111,7 +1111,7 @@ file
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -1158,7 +1158,7 @@ file
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
