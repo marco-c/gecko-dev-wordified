@@ -248,7 +248,7 @@ stream
 Encoding
 can
 be
-overriden
+overridden
 by
 STREAM
 -
@@ -4859,10 +4859,7 @@ append
 02X
 '
 %
-ord
-(
 ch
-)
 )
         
 if
@@ -5186,7 +5183,7 @@ a
 whitespace
 .
         
-preceeded_by_whitespace
+preceded_by_whitespace
 =
 True
         
@@ -5432,7 +5429,7 @@ ch
 #
 '
 and
-preceeded_by_whitespace
+preceded_by_whitespace
 :
                     
 flow_indicators
@@ -5537,6 +5534,20 @@ ch
 '
 \
 uFFFD
+'
+                        
+or
+'
+\
+U00010000
+'
+<
+=
+ch
+<
+'
+\
+U0010ffff
 '
 )
 and
@@ -5711,7 +5722,7 @@ index
 =
 1
             
-preceeded_by_whitespace
+preceded_by_whitespace
 =
 (
 ch

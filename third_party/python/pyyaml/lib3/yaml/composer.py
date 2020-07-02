@@ -437,7 +437,7 @@ anchor
 r
 ;
 first
-occurence
+occurrence
 "
                         
 %
@@ -453,7 +453,7 @@ start_mark
                         
 "
 second
-occurence
+occurrence
 "
 event
 .

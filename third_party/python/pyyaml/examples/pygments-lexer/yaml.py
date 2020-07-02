@@ -1695,7 +1695,7 @@ pop
             
 #
 whitespaces
-preceeding
+preceding
 block
 collection
 indicators
