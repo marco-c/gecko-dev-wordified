@@ -137,12 +137,6 @@ endif
 #
 import
 "
-modules
-/
-video_capture
-/
-objc
-/
 device_info_objc
 .
 h
@@ -150,12 +144,6 @@ h
 #
 import
 "
-modules
-/
-video_capture
-/
-objc
-/
 rtc_video_capture_objc
 .
 h

@@ -117,12 +117,6 @@ endif
 #
 include
 "
-modules
-/
-video_capture
-/
-objc
-/
 video_capture
 .
 h

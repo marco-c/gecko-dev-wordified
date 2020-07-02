@@ -128,12 +128,6 @@ string
 #
 include
 "
-modules
-/
-video_capture
-/
-objc
-/
 device_info
 .
 h
@@ -141,12 +135,6 @@ h
 #
 include
 "
-modules
-/
-video_capture
-/
-objc
-/
 device_info_objc
 .
 h
