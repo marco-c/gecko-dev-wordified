@@ -854,10 +854,11 @@ ab
 .
 write
 (
-"
+b
+'
 \
 n
-"
+'
 )
 def
 get_trailing_blank_line_state
