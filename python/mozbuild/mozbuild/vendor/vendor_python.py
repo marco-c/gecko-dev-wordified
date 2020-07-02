@@ -106,6 +106,9 @@ None
 with_windows_wheel
 =
 False
+keep_extra_files
+=
+False
 )
 :
         
@@ -699,6 +702,7 @@ _extract
 (
 tmp
 vendor_dir
+keep_extra_files
 )
             
 shutil
@@ -978,6 +982,9 @@ _extract
 self
 src
 dest
+keep_extra_files
+=
+False
 )
 :
         
@@ -993,6 +1000,46 @@ directory
 "
 "
 "
+        
+ignore
+=
+(
+)
+        
+if
+not
+keep_extra_files
+:
+            
+ignore
+=
+(
+                
+'
+*
+/
+doc
+'
+                
+'
+*
+/
+docs
+'
+                
+'
+*
+/
+test
+'
+                
+'
+*
+/
+tests
+'
+            
+)
         
 finder
 =
@@ -1184,6 +1231,9 @@ base
 path
 )
 target
+ignore
+=
+ignore
 )
             
 else
@@ -1222,6 +1272,9 @@ base
 path
 )
 dest
+ignore
+=
+ignore
 )
 [
 0
