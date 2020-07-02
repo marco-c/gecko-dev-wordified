@@ -9373,9 +9373,7 @@ IsPowerOfTwo
 (
 table
 .
-limits
-.
-initial
+initialLength
 )
 )
 ;
@@ -9395,9 +9393,7 @@ Int32Value
 (
 table
 .
-limits
-.
-initial
+initialLength
 -
 1
 )
