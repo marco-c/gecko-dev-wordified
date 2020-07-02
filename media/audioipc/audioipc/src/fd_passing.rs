@@ -85,6 +85,7 @@ Poll
 Sink
 StartSend
 Stream
+task
 }
 ;
 use
@@ -1821,6 +1822,14 @@ Self
 SinkError
 >
 {
+if
+task
+:
+:
+is_in_task
+(
+)
+{
 try_ready
 !
 (
@@ -1831,6 +1840,7 @@ poll_complete
 )
 )
 ;
+}
 self
 .
 io
