@@ -1506,13 +1506,6 @@ GetScreenBounds
 )
 override
 ;
-virtual
-LayoutDeviceIntSize
-GetCompositionSize
-(
-)
-override
-;
 [
 [
 nodiscard
