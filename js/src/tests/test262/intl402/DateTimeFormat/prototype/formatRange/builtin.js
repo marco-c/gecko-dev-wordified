@@ -5,6 +5,11 @@ reftest
 |
 skip
 -
+if
+(
+release_or_beta
+)
+-
 -
 Intl
 .
@@ -13,7 +18,8 @@ DateTimeFormat
 formatRange
 is
 not
-supported
+released
+yet
 /
 /
 Copyright

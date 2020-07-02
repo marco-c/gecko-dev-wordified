@@ -5,7 +5,17 @@ reftest
 |
 skip
 -
+if
+(
+release_or_beta
+)
 -
+-
+Intl
+.
+DateTimeFormat
+-
+fractionalSecondDigits
 Intl
 .
 DateTimeFormat
@@ -13,7 +23,8 @@ DateTimeFormat
 formatRange
 is
 not
-supported
+released
+yet
 /
 /
 Copyright
