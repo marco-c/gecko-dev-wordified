@@ -25037,13 +25037,14 @@ framePushed
 (
 )
 +
-offsetof
-(
 wasm
 :
 :
 Frame
-tls
+:
+:
+tlsOffset
+(
 )
 )
 dest
