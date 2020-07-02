@@ -54,7 +54,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-contentParent
+domProcess
 ;
 let
 actorParent
@@ -98,7 +98,7 @@ child
 =
 ChromeUtils
 .
-contentChild
+domProcessChild
 ;
 let
 actorChild
@@ -280,7 +280,7 @@ child
 =
 ChromeUtils
 .
-contentChild
+domProcessChild
 ;
 let
 actorChild
