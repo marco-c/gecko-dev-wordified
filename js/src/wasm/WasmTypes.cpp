@@ -4120,10 +4120,9 @@ MOZ_ASSERT
 fp
 -
 >
-tls
--
->
 instance
+(
+)
 -
 >
 code
