@@ -1,3 +1,4 @@
+fv
 /
 /
 |
@@ -10,7 +11,7 @@ skip
 if
 :
 !
-WasmGcEnabled
+wasmGcEnabled
 (
 )
 load
