@@ -1261,7 +1261,8 @@ aRect
 )
 ;
 static
-nsresult
+nsIFrame
+*
 GetCaretFrameForNodeOffset
 (
 nsFrameSelection
@@ -1276,10 +1277,6 @@ CaretAssociationHint
 aFrameHint
 uint8_t
 aBidiLevel
-nsIFrame
-*
-*
-aReturnFrame
 nsIFrame
 *
 *

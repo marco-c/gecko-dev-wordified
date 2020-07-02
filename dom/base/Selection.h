@@ -4087,7 +4087,8 @@ returns
 primary
 frame
 .
-nsresult
+nsIFrame
+*
 GetPrimaryOrCaretFrameForNodeOffset
 (
 nsIContent
@@ -4095,10 +4096,6 @@ nsIContent
 aContent
 uint32_t
 aOffset
-nsIFrame
-*
-*
-aReturnFrame
 int32_t
 *
 aOffsetUsed
