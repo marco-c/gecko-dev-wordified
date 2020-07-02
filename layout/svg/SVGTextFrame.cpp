@@ -485,10 +485,6 @@ limits
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -517,6 +513,9 @@ mozilla
 :
 image
 ;
+namespace
+mozilla
+{
 /
 /
 =
@@ -2793,9 +2792,6 @@ y
 /
 Utility
 classes
-namespace
-mozilla
-{
 /
 /
 -
@@ -17492,11 +17488,6 @@ strokeOptions
 }
 }
 }
-}
-/
-/
-namespace
-mozilla
 /
 /
 =
@@ -17662,7 +17653,7 @@ Display
 list
 item
 class
-nsDisplaySVGText
+DisplaySVGText
 final
 :
 public
@@ -17670,7 +17661,7 @@ nsPaintedDisplayItem
 {
 public
 :
-nsDisplaySVGText
+DisplaySVGText
 (
 nsDisplayListBuilder
 *
@@ -17688,7 +17679,7 @@ aFrame
 {
 MOZ_COUNT_CTOR
 (
-nsDisplaySVGText
+DisplaySVGText
 )
 ;
 MOZ_ASSERT
@@ -17709,14 +17700,14 @@ ifdef
 NS_BUILD_REFCNT_LOGGING
 MOZ_COUNTED_DTOR_OVERRIDE
 (
-nsDisplaySVGText
+DisplaySVGText
 )
 #
 endif
 NS_DISPLAY_DECL_NAME
 (
 "
-nsDisplaySVGText
+DisplaySVGText
 "
 TYPE_SVG_TEXT
 )
@@ -17802,7 +17793,7 @@ snap
 }
 ;
 void
-nsDisplaySVGText
+DisplaySVGText
 :
 :
 HitTest
@@ -17928,7 +17919,7 @@ target
 }
 }
 void
-nsDisplaySVGText
+DisplaySVGText
 :
 :
 Paint
@@ -18177,6 +18168,11 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsSVGDisplayContainerFrame
 )
+}
+/
+/
+namespace
+mozilla
 /
 /
 -
@@ -18268,6 +18264,9 @@ new
 (
 aPresShell
 )
+mozilla
+:
+:
 SVGTextFrame
 (
 aStyle
@@ -18280,6 +18279,9 @@ GetPresContext
 )
 ;
 }
+namespace
+mozilla
+{
 NS_IMPL_FRAMEARENA_HELPERS
 (
 SVGTextFrame
@@ -18569,7 +18571,7 @@ Content
 >
 AppendNewToTop
 <
-nsDisplaySVGText
+DisplaySVGText
 >
 (
 aBuilder
@@ -37019,3 +37021,8 @@ FirstChild
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

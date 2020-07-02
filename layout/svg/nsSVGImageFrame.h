@@ -382,7 +382,7 @@ aDisplayListBuilder
 mozilla
 :
 :
-nsDisplaySVGGeometry
+DisplaySVGGeometry
 *
 aItem
 bool

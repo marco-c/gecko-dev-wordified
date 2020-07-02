@@ -152,12 +152,12 @@ SVGAnimatedLength
 .
 h
 "
-class
-SVGTextFrame
-;
 namespace
 mozilla
 {
+class
+SVGTextFrame
+;
 namespace
 dom
 {
@@ -182,6 +182,7 @@ SVGTextContentElementBase
 {
 friend
 class
+mozilla
 :
 :
 SVGTextFrame

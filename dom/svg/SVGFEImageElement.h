@@ -134,9 +134,6 @@ SVGAnimatedPreserveAspectRatio
 .
 h
 "
-class
-SVGFEImageFrame
-;
 nsresult
 NS_NewSVGFEImageElement
 (
@@ -162,6 +159,9 @@ aNodeInfo
 namespace
 mozilla
 {
+class
+SVGFEImageFrame
+;
 namespace
 dom
 {
@@ -180,6 +180,7 @@ nsImageLoadingContent
 {
 friend
 class
+mozilla
 :
 :
 SVGFEImageFrame
