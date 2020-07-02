@@ -3907,7 +3907,7 @@ mIsEndOfHardLine
 *
 *
 *
-FindNearestRun
+FindNearestFragment
 (
 )
 looks
@@ -4095,9 +4095,10 @@ PT
 typename
 CT
 >
+const
 WSFragment
 *
-FindNearestRun
+FindNearestFragment
 (
 const
 EditorDOMPointBase
