@@ -692,7 +692,7 @@ type
 )
 ;
 void
-appendSdpParseErrors
+AppendSdpParseErrors
 (
 const
 std
