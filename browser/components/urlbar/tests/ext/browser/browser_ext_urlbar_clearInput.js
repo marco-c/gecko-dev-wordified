@@ -150,6 +150,9 @@ ext
 await
 loadExtension
 (
+{
+background
+:
 async
 (
 )
@@ -178,6 +181,7 @@ done
 "
 )
 ;
+}
 }
 )
 ;
