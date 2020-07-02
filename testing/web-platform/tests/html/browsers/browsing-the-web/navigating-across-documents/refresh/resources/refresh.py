@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -30,9 +32,11 @@ headers
 .
 set
 (
+b
 "
 Refresh
 "
+b
 "
 0
 ;
@@ -59,6 +63,7 @@ response
 .
 content
 =
+u
 "
 Not
 refreshed
