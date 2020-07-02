@@ -33799,14 +33799,12 @@ false
 }
 if
 (
-(
 aFrame
 -
 >
 HasAnyStateBits
 (
 NS_FRAME_PART_OF_IBSPLIT
-)
 )
 &
 &

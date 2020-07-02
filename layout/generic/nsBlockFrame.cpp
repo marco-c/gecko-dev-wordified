@@ -57542,14 +57542,12 @@ GetParent
 )
 ;
 return
-(
 aBlock
 -
 >
 HasAnyStateBits
 (
 NS_BLOCK_FLOAT_MGR
-)
 )
 |
 |

@@ -13481,14 +13481,12 @@ IsGridContainerFrame
 )
 &
 &
-(
 mOuterFrame
 -
 >
 HasAnyStateBits
 (
 NS_FRAME_OUT_OF_FLOW
-)
 )
 )
 {

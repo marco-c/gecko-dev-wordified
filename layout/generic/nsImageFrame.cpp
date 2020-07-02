@@ -7420,11 +7420,8 @@ mStyleDisplay
 ;
 if
 (
+HasAnyStateBits
 (
-GetStateBits
-(
-)
-&
 NS_FRAME_FIRST_REFLOW
 )
 &

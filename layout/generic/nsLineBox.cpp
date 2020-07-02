@@ -5908,11 +5908,10 @@ MOZ_ASSERT
 aFloat
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_OUT_OF_FLOW
+)
 "
 This
 is

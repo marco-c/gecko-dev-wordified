@@ -5229,11 +5229,10 @@ clears
 NS_FRAME_FIRST_REFLOW
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FIRST_REFLOW
+)
 )
 {
 nsCOMPtr

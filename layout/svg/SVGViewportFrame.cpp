@@ -1262,11 +1262,8 @@ kNameSpaceID_None
 &
 &
 !
+HasAnyStateBits
 (
-GetStateBits
-(
-)
-&
 NS_FRAME_IS_NONDISPLAY
 )
 )

@@ -324,11 +324,10 @@ IsSpanContainer
 const
 {
 return
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_RUBY_TEXT_CONTAINER_IS_SPAN
+)
 ;
 }
 protected
