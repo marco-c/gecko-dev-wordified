@@ -127,16 +127,13 @@ use
 fallible
 :
 :
-{
-FallibleHashMap
 FallibleVec
-}
 ;
 use
-hashbrown
+hashglobe
 :
 :
-CollectionAllocErr
+FailedAllocationError
 ;
 use
 selectors
@@ -414,7 +411,7 @@ a
 given
 state
 or
-attribute
+attributef
 /
 /
 /
@@ -1972,7 +1969,7 @@ Result
 <
 (
 )
-CollectionAllocErr
+FailedAllocationError
 >
 {
 debug
@@ -2428,7 +2425,7 @@ a
 mut
 Option
 <
-CollectionAllocErr
+FailedAllocationError
 >
 }
 impl
