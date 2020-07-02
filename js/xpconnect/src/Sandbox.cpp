@@ -866,6 +866,7 @@ SandboxPrivate
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_PRESERVED_WRAPPER
 NS_IMPL_CYCLE_COLLECTION_UNLINK_WEAK_REFERENCE
+NS_IMPL_CYCLE_COLLECTION_UNLINK_WEAK_PTR
 tmp
 -
 >
@@ -9412,7 +9413,9 @@ the
 /
 benefit
 of
-InitSingletonScopes
+UnprivilegedJunkScope
+(
+)
 .
 vp
 .

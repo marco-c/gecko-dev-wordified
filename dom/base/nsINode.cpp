@@ -19108,6 +19108,11 @@ ChromeOnlyAccess
 {
 MOZ_RELEASE_ASSERT
 (
+xpc
+:
+:
+IsUnprivilegedJunkScope
+(
 JS
 :
 :
@@ -19115,13 +19120,6 @@ GetNonCCWObjectGlobal
 (
 obj
 )
-=
-=
-xpc
-:
-:
-UnprivilegedJunkScope
-(
 )
 |
 |

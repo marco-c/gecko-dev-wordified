@@ -23028,6 +23028,15 @@ UnprivilegedJunkScopeOrWorkerGlobal
 (
 )
 ;
+JSObject
+*
+UnprivilegedJunkScopeOrWorkerGlobal
+(
+const
+fallible_t
+&
+)
+;
 /
 /
 Implementation
