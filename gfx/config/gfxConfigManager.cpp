@@ -755,7 +755,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 "
 Blacklisted
 by
@@ -987,7 +987,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 "
 No
 qualified

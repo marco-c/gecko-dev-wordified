@@ -3361,7 +3361,7 @@ odd
 /
 crashers
 so
-blacklist
+block
 them
 altogether
 if
@@ -7506,7 +7506,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -7793,7 +7793,7 @@ adaptorId
 ;
 /
 /
-Blacklist
+Blocklist
 Intel
 HD
 Graphics
@@ -7860,7 +7860,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 "
 Blacklisted
 see
@@ -7935,7 +7935,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -8151,7 +8151,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -8850,7 +8850,7 @@ hardware
 /
 is
 not
-blacklisted
+blocklisted
 for
 D3D11
 layers
@@ -8879,7 +8879,7 @@ hardware
 is
 /
 /
-blacklisted
+blocklisted
 then
 this
 function
@@ -9156,7 +9156,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -9654,7 +9654,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
