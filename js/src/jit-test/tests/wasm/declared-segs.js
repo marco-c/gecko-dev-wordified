@@ -218,7 +218,6 @@ get
 ref
 .
 is_null
-func
 )
 (
 export

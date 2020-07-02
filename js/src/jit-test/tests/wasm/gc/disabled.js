@@ -159,7 +159,6 @@ anyref
 ref
 .
 is_null
-extern
 (
 local
 .

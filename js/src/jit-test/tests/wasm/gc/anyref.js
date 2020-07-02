@@ -273,7 +273,6 @@ anyref
 ref
 .
 is_null
-extern
 (
 local
 .
@@ -424,7 +423,6 @@ extern
 ref
 .
 is_null
-extern
 )
 (
 func
@@ -475,7 +473,6 @@ drop
 ref
 .
 is_null
-extern
 )
 (
 func
@@ -515,7 +512,6 @@ get
 ref
 .
 is_null
-extern
 )
 )
 )
@@ -590,7 +586,6 @@ ref
 ref
 .
 is_null
-extern
 )
 (
 func
@@ -3086,7 +3081,6 @@ return
 ref
 .
 is_null
-extern
 (
 get_local
 0
