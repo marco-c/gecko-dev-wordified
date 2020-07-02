@@ -15770,6 +15770,11 @@ if
 table
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 nullptr
 ;
