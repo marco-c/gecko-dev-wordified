@@ -2811,13 +2811,11 @@ by
 waiting
 for
 permission
-cookie
 or
-/
-/
-stream
-filter
+cookie
 .
+/
+/
 That
 is
 RecvOnStartRequestSent
@@ -2825,7 +2823,7 @@ is
 received
 .
 uint8_t
-mSuspendedByWaitingForPermissionCookieStreamFilter
+mSuspendedByWaitingForPermissionCookie
 :
 1
 ;
