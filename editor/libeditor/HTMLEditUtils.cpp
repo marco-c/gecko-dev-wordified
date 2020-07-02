@@ -1273,7 +1273,7 @@ dt
 *
 *
 *
-IsTableElement
+IsAnyTableElement
 (
 )
 returns
@@ -1295,7 +1295,7 @@ bool
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 nsINode
 *

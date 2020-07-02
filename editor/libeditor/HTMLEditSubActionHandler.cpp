@@ -8254,7 +8254,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 content
 )
@@ -19875,7 +19875,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 &
 aOtherBlockElement
@@ -20784,7 +20784,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 &
 aCurrentBlockElement
@@ -28369,7 +28369,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 leftBlockElement
 )
@@ -28378,7 +28378,7 @@ leftBlockElement
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 rightBlockElement
 )
@@ -46220,7 +46220,7 @@ table
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 parentContent
 )
@@ -50287,7 +50287,7 @@ createEmptyDivElement
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 parent
 )
@@ -51375,7 +51375,7 @@ IsText
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 atContent
 .
@@ -52921,7 +52921,7 @@ aEditingHostElement
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 blockElement
 )
@@ -54067,7 +54067,7 @@ Yes
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 content
 )
@@ -54410,7 +54410,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 backwardScanFromStartResult
 .
@@ -54761,7 +54761,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 forwardScanFromEndResult
 .
@@ -62813,7 +62813,7 @@ parentElement
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 parentElement
 )
@@ -75559,7 +75559,7 @@ parentNode1
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 parentNode1
 )
@@ -75593,7 +75593,7 @@ parentNode2
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 parentNode2
 )

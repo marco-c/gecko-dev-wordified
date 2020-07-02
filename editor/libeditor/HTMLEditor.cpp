@@ -4752,7 +4752,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 blockParent
 )
@@ -11820,7 +11820,7 @@ body
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 pointToInsert
 .
@@ -25888,7 +25888,7 @@ IsHTMLElement
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 aElement
 )
