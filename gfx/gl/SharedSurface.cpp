@@ -786,7 +786,7 @@ GetPlatform
 )
 -
 >
-UseWaylandDMABufWebGL
+UseDMABufWebGL
 (
 )
 )

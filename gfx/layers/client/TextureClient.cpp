@@ -2092,7 +2092,7 @@ GetPlatform
 )
 -
 >
-UseWaylandDMABufTextures
+UseDMABufTextures
 (
 )
 &

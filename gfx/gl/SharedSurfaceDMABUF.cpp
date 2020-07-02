@@ -455,7 +455,7 @@ GetPlatform
 )
 -
 >
-UseWaylandDMABufWebGL
+UseDMABufWebGL
 (
 )
 )
@@ -497,7 +497,7 @@ GetPlatform
 )
 -
 >
-DisableWaylandDMABufWebGL
+DisableDMABufWebGL
 (
 )
 ;
