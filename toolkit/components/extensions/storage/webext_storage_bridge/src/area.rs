@@ -150,7 +150,7 @@ interfaces
 mozIBridgedSyncEngineApplyCallback
 mozIBridgedSyncEngineCallback
 mozIExtensionStorageCallback
-mozIServicesLogSink
+mozIServicesLogger
 nsIFile
 nsISerialEventTarget
 }
@@ -2179,7 +2179,7 @@ GetLogger
 >
 *
 const
-mozIServicesLogSink
+mozIServicesLogger
 )
 ;
 fn
@@ -2194,7 +2194,7 @@ Result
 <
 RefPtr
 <
-mozIServicesLogSink
+mozIServicesLogger
 >
 >
 {
@@ -2216,7 +2216,7 @@ logger
 :
 *
 const
-mozIServicesLogSink
+mozIServicesLogger
 )
 )
 ;
@@ -2230,7 +2230,7 @@ _logger
 Option
 <
 &
-mozIServicesLogSink
+mozIServicesLogger
 >
 )
 -
