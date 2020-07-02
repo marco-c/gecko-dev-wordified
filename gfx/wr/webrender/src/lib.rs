@@ -775,6 +775,9 @@ mod
 picture
 ;
 mod
+prepare
+;
+mod
 prim_store
 ;
 mod
