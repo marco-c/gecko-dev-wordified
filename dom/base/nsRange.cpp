@@ -12892,12 +12892,13 @@ CompareBoundaryPoints
 (
 uint16_t
 aHow
+const
 nsRange
 &
 aOtherRange
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -12914,7 +12915,7 @@ IsPositioned
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -13142,7 +13143,7 @@ passed
 an
 illegal
 value
-rv
+aRv
 .
 Throw
 (
@@ -13165,7 +13166,7 @@ GetRoot
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
