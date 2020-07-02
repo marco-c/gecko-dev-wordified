@@ -1412,7 +1412,7 @@ WindowBackBufferDMABuf
 |
 |
 |
-WaylandDMABufSurface
+DMABufSurface
 |
 |
 |
@@ -1537,7 +1537,7 @@ WindowBackBufferDMABuf
 |
 |
 |
-WaylandDMABufSurface
+DMABufSurface
 |
 |
 |
@@ -2012,7 +2012,7 @@ owns
 wl_buffer
 object
 owns
-WaylandDMABufSurface
+DMABufSurface
 (
 which
 provides
@@ -2031,7 +2031,7 @@ is
 used
 only
 when
-WaylandDMABufSurface
+DMABufSurface
 is
 available
 and
@@ -3446,7 +3446,7 @@ aWindowSurfaceWayland
 {
 mDMAbufSurface
 =
-WaylandDMABufSurfaceRGBA
+DMABufSurfaceRGBA
 :
 :
 CreateDMABufSurface
