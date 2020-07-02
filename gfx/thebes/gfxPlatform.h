@@ -4606,7 +4606,7 @@ true
 ;
 virtual
 bool
-UseWaylandDMABufWebGL
+UseDMABufWebGL
 (
 )
 {
