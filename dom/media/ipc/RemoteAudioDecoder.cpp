@@ -602,9 +602,9 @@ CreateDecoderParams
 OptionSet
 &
 aOptions
-TaskQueue
+nsISerialEventTarget
 *
-aManagerTaskQueue
+aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
@@ -619,7 +619,7 @@ aErrorDescription
 RemoteDecoderParent
 (
 aParent
-aManagerTaskQueue
+aManagerThread
 aDecodeTaskQueue
 )
 mAudioInfo
