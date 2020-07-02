@@ -10,14 +10,6 @@ python
 "
 "
 "
-usage
-:
-%
-prog
-[
-options
-]
-filename
 Parse
 a
 document
@@ -31,13 +23,11 @@ profiling
 "
 "
 import
+argparse
+import
 sys
 import
 traceback
-from
-optparse
-import
-OptionParser
 from
 html5lib
 import
@@ -62,16 +52,15 @@ parse
 )
 :
     
-optParser
+parser
 =
-getOptParser
+get_parser
 (
 )
     
 opts
-args
 =
-optParser
+parser
 .
 parse_args
 (
@@ -88,11 +77,9 @@ try
         
 f
 =
-args
-[
--
-1
-]
+opts
+.
+filename
         
 #
 Try
@@ -190,6 +177,7 @@ charset
 )
             
 except
+Exception
 :
                 
 pass
@@ -646,6 +634,7 @@ scripting
 )
     
 except
+Exception
 :
         
 document
@@ -893,6 +882,7 @@ opt
 )
                 
 except
+Exception
 :
                     
 pass
@@ -1118,23 +1108,25 @@ n
 "
 )
 def
-getOptParser
+get_parser
 (
 )
 :
     
 parser
 =
-OptionParser
+argparse
+.
+ArgumentParser
 (
-usage
+description
 =
 __doc__
 )
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1150,15 +1142,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-profile
-"
+                        
 help
 =
 "
@@ -1168,7 +1152,7 @@ hotshot
 profiler
 to
 "
-                      
+                        
 "
 produce
 a
@@ -1182,7 +1166,7 @@ run
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1193,21 +1177,13 @@ t
 -
 time
 "
-                      
+                        
 action
 =
 "
 store_true
 "
-default
-=
-False
-dest
-=
-"
-time
-"
-                      
+                        
 help
 =
 "
@@ -1236,7 +1212,7 @@ runs
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1247,22 +1223,7 @@ b
 -
 treebuilder
 "
-action
-=
-"
-store
-"
-type
-=
-"
-string
-"
-                      
-dest
-=
-"
-treebuilder
-"
+                        
 default
 =
 "
@@ -1272,7 +1233,7 @@ etree
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1288,15 +1249,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-error
-"
+                        
 help
 =
 "
@@ -1311,7 +1264,7 @@ errors
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1327,15 +1280,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-fragment
-"
+                        
 help
 =
 "
@@ -1348,7 +1293,7 @@ fragment
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1364,15 +1309,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-scripting
-"
+                        
 help
 =
 "
@@ -1389,10 +1326,8 @@ enabled
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1403,15 +1338,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-tree
-"
+                        
 help
 =
 "
@@ -1424,7 +1351,7 @@ tree
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1440,15 +1367,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-xml
-"
+                        
 help
 =
 "
@@ -1460,10 +1379,8 @@ xml
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1476,10 +1393,7 @@ action
 "
 store_false
 "
-default
-=
-True
-                      
+                        
 dest
 =
 "
@@ -1498,7 +1412,7 @@ html
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -1514,15 +1428,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-encoding
-"
+                        
 help
 =
 "
@@ -1535,10 +1441,8 @@ used
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1553,16 +1457,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-inject_meta_charset
-"
-                      
+                        
 help
 =
 "
@@ -1576,10 +1471,8 @@ charset
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1592,16 +1485,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-strip_whitespace
-"
-                      
+                        
 help
 =
 "
@@ -1612,10 +1496,8 @@ whitespace
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1630,16 +1512,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-omit_optional_tags
-"
-                      
+                        
 help
 =
 "
@@ -1651,10 +1524,8 @@ tags
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1669,16 +1540,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-quote_attr_values
-"
-                      
+                        
 help
 =
 "
@@ -1690,10 +1552,8 @@ values
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1710,16 +1570,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-use_best_quote_char
-"
-                      
+                        
 help
 =
 "
@@ -1732,10 +1583,8 @@ character
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1743,21 +1592,7 @@ quote
 -
 char
 "
-action
-=
-"
-store
-"
-                      
-default
-=
-None
-dest
-=
-"
-quote_char
-"
-                      
+                        
 help
 =
 "
@@ -1768,10 +1603,8 @@ character
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1783,22 +1616,19 @@ boolean
 -
 attributes
 "
-                      
+                        
 action
 =
 "
 store_false
 "
-default
-=
-True
-                      
+                        
 dest
 =
 "
 minimize_boolean_attributes
 "
-                      
+                        
 help
 =
 "
@@ -1810,10 +1640,8 @@ attributes
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1828,16 +1656,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-use_trailing_solidus
-"
-                      
+                        
 help
 =
 "
@@ -1849,10 +1668,8 @@ solidus
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1864,22 +1681,13 @@ trailing
 -
 solidus
 "
-                      
+                        
 action
 =
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-space_before_trailing_solidus
-"
-                      
+                        
 help
 =
 "
@@ -1893,10 +1701,8 @@ solidus
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1913,16 +1719,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-escape_lt_in_attrs
-"
-                      
+                        
 help
 =
 "
@@ -1938,10 +1735,8 @@ values
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1954,16 +1749,7 @@ action
 "
 store_true
 "
-                      
-default
-=
-False
-dest
-=
-"
-escape_rcdata
-"
-                      
+                        
 help
 =
 "
@@ -1976,10 +1762,8 @@ values
     
 parser
 .
-add_option
+add_argument
 (
-"
-"
 "
 -
 -
@@ -1990,15 +1774,7 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-sanitize
-"
+                        
 help
 =
 "
@@ -2008,7 +1784,7 @@ sanitize
     
 parser
 .
-add_option
+add_argument
 (
 "
 -
@@ -2024,21 +1800,22 @@ action
 "
 store_true
 "
-default
-=
-False
-                      
-dest
-=
-"
-log
-"
+                        
 help
 =
 "
 log
 state
 transitions
+"
+)
+    
+parser
+.
+add_argument
+(
+"
+filename
 "
 )
     

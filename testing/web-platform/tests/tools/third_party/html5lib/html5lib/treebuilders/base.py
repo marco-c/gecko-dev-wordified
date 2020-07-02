@@ -77,9 +77,7 @@ frozenset
 (
 scopingElements
 |
-set
-(
-[
+{
 (
 namespaces
 [
@@ -91,8 +89,7 @@ html
 button
 "
 )
-]
-)
+}
 )
 False
 )
@@ -106,9 +103,7 @@ frozenset
 (
 scopingElements
 |
-set
-(
-[
+{
 (
 namespaces
 [
@@ -120,7 +115,7 @@ html
 ol
 "
 )
-                                              
+                                          
 (
 namespaces
 [
@@ -132,8 +127,7 @@ html
 ul
 "
 )
-]
-)
+}
 )
 False
 )
@@ -265,7 +259,7 @@ node
 The
 tag
 name
-assocaited
+associated
 with
 the
 node

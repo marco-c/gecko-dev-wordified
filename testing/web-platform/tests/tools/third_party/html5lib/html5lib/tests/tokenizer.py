@@ -150,12 +150,10 @@ _lastStartTag
         
 types
 =
-dict
-(
-(
+{
 v
+:
 k
-)
 for
 k
 v
@@ -167,7 +165,7 @@ tokenTypes
 items
 (
 )
-)
+}
         
 for
 token
@@ -274,21 +272,12 @@ name
 "
 ]
                                   
-dict
-(
 token
 [
 "
 data
 "
 ]
-[
-:
-:
--
-1
-]
-)
 token
 [
 "

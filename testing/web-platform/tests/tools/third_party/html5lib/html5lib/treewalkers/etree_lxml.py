@@ -9,6 +9,10 @@ six
 import
 text_type
 from
+collections
+import
+OrderedDict
+from
 lxml
 import
 etree
@@ -960,8 +964,9 @@ tag
             
 attrs
 =
-{
-}
+OrderedDict
+(
+)
             
 for
 name
