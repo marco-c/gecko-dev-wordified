@@ -15758,7 +15758,7 @@ mType
 MouseInput
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 dom
 :
 :

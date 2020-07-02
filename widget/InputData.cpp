@@ -1649,7 +1649,7 @@ mButtonType
 MouseInput
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 ;
 break
 ;
@@ -1679,7 +1679,7 @@ mButtonType
 MouseInput
 :
 :
-RIGHT_BUTTON
+SECONDARY_BUTTON
 ;
 break
 ;
@@ -1812,7 +1812,7 @@ return
 mButtonType
 =
 =
-LEFT_BUTTON
+PRIMARY_BUTTON
 ;
 }
 bool
@@ -2039,7 +2039,7 @@ case
 MouseInput
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 :
 event
 .
@@ -2073,7 +2073,7 @@ case
 MouseInput
 :
 :
-RIGHT_BUTTON
+SECONDARY_BUTTON
 :
 event
 .

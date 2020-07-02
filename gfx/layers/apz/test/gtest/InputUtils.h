@@ -740,7 +740,7 @@ MouseInput
 ButtonType
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 0
 0
 aPoint
@@ -798,7 +798,7 @@ MouseInput
 ButtonType
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 0
 0
 aPoint
@@ -856,7 +856,7 @@ MouseInput
 ButtonType
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 0
 0
 aPoint
