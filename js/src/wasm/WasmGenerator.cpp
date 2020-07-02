@@ -3671,11 +3671,10 @@ loadPtr
 Address
 (
 FramePointer
-Frame
-:
-:
-tlsOffset
+offsetof
 (
+Frame
+tls
 )
 )
 WasmTlsReg
