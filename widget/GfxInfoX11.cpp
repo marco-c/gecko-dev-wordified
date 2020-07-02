@@ -590,7 +590,7 @@ outcome
 would
 be
 to
-blacklist
+blocklist
 /
 /
 anyway
@@ -778,7 +778,7 @@ outcome
 would
 be
 to
-blacklist
+blocklist
 anyway
 .
 waiting_for_glxtest_process_failed
@@ -3262,7 +3262,7 @@ a
 GL
 context
 for
-blacklisting
+blocklisting
 .
 APPEND_TO_DRIVER_BLOCKLIST_EXT
 (
@@ -4395,7 +4395,7 @@ NS_OK
 }
 /
 /
-Blacklist
+Blocklist
 software
 GL
 implementations

@@ -38,7 +38,7 @@ which
 exactly
 matches
 the
-blacklist
+blocklist
 entry
 is
 /

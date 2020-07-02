@@ -1743,7 +1743,7 @@ codepoints
 .
 /
 /
-Blacklist
+Blocklist
 these
 so
 that
@@ -5937,7 +5937,7 @@ check
 the
 bad
 underline
-blacklist
+blocklist
 if
 (
 mBadUnderlineFamilyNames
