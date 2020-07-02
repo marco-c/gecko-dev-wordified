@@ -495,6 +495,15 @@ Automator
 action
 "
 .
+der
+"
+/
+/
+Signed
+certificate
+file
+"
+.
 desktop
 "
 /

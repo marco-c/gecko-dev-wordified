@@ -252,7 +252,7 @@ reputationservice
 /
 ApplicationReputation
 .
-h
+cpp
 /
 /
 before
@@ -354,6 +354,10 @@ cpl
 "
 .
 crt
+"
+"
+.
+der
 "
 "
 .
