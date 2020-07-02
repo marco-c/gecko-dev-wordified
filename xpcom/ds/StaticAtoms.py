@@ -4535,6 +4535,16 @@ endEvent
 Atom
 (
 "
+enterkeyhint
+"
+"
+enterkeyhint
+"
+)
+    
+Atom
+(
+"
 equalsize
 "
 "
