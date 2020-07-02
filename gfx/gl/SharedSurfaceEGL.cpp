@@ -104,13 +104,6 @@ h
 #
 include
 "
-AndroidNativeWindow
-.
-h
-"
-#
-include
-"
 GLBlitHelper
 .
 h
@@ -179,6 +172,13 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
+#
+include
+"
+AndroidNativeWindow
+.
+h
+"
 #
 include
 "

@@ -117,9 +117,6 @@ AndroidNativeWindow_h__
 define
 AndroidNativeWindow_h__
 #
-ifdef
-MOZ_WIDGET_ANDROID
-#
 include
 <
 jni
@@ -331,11 +328,6 @@ gl
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_WIDGET_ANDROID
 #
 endif
 /

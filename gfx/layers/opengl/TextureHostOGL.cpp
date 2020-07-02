@@ -262,13 +262,6 @@ nsIntRegion
 #
 include
 "
-AndroidSurfaceTexture
-.
-h
-"
-#
-include
-"
 GfxTexturesReporter
 .
 h

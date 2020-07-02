@@ -117,9 +117,6 @@ AndroidSurfaceTexture_h__
 define
 AndroidSurfaceTexture_h__
 #
-ifdef
-MOZ_WIDGET_ANDROID
-#
 include
 "
 mozilla
@@ -196,11 +193,6 @@ gl
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_WIDGET_ANDROID
 #
 endif
 /

@@ -115,9 +115,6 @@ MPL
 *
 /
 #
-ifdef
-MOZ_WIDGET_ANDROID
-#
 include
 "
 AndroidSurfaceTexture
@@ -1250,8 +1247,3 @@ gl
 /
 namespace
 mozilla
-#
-endif
-/
-/
-MOZ_WIDGET_ANDROID
