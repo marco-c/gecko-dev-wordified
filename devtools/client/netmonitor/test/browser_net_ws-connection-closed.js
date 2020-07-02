@@ -250,7 +250,7 @@ Click
 on
 the
 "
-Messages
+Response
 "
 panel
 EventUtils
@@ -270,7 +270,7 @@ querySelector
 (
 "
 #
-messages
+response
 -
 tab
 "
@@ -287,7 +287,7 @@ document
 #
 messages
 -
-panel
+view
 .
 msg
 -
@@ -347,7 +347,7 @@ querySelector
 #
 messages
 -
-panel
+view
 .
 msg
 -

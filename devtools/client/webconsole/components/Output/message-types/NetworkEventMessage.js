@@ -1168,7 +1168,7 @@ id
 hideToggleButton
 :
 true
-showMessagesTab
+showMessagesView
 :
 false
 }

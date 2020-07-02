@@ -318,7 +318,7 @@ document
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -341,7 +341,7 @@ Click
 on
 the
 "
-Messages
+Response
 "
 panel
 .
@@ -362,7 +362,7 @@ querySelector
 (
 "
 #
-messages
+response
 -
 tab
 "
@@ -381,7 +381,7 @@ present
 in
 the
 "
-Messages
+Response
 "
 panel
 .
@@ -396,7 +396,7 @@ querySelectorAll
 #
 messages
 -
-panel
+view
 .
 message
 -

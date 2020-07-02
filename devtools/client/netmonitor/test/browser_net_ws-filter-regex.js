@@ -270,7 +270,7 @@ document
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -316,7 +316,7 @@ Click
 on
 the
 "
-Messages
+Response
 "
 panel
 EventUtils
@@ -336,7 +336,7 @@ querySelector
 (
 "
 #
-messages
+response
 -
 tab
 "
@@ -355,7 +355,7 @@ present
 in
 the
 "
-Messages
+Response
 "
 panel
 const
@@ -369,7 +369,7 @@ querySelectorAll
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -457,7 +457,7 @@ querySelector
 #
 messages
 -
-panel
+view
 .
 devtools
 -
@@ -529,7 +529,7 @@ querySelectorAll
 #
 messages
 -
-panel
+view
 .
 message
 -
