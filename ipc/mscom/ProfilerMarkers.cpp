@@ -1007,6 +1007,9 @@ ProfilerMarkerChannelHook
 )
 )
 ;
+mozilla
+:
+:
 DebugOnly
 <
 HRESULT
