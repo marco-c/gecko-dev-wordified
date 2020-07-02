@@ -5926,8 +5926,8 @@ mWriteNeeded
 PLDHashTableOps
 mOps
 ;
-typedef
 struct
+FNCMapEntry
 :
 public
 PLDHashEntryHdr
@@ -5950,7 +5950,6 @@ bool
 mFileExists
 ;
 }
-FNCMapEntry
 ;
 static
 PLDHashNumber
