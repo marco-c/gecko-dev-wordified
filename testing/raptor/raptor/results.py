@@ -4251,18 +4251,8 @@ type
 ]
 =
 "
-browsertime
--
-%
-s
+benchmark
 "
-%
-test
-[
-"
-type
-"
-]
                     
 #
 Try
