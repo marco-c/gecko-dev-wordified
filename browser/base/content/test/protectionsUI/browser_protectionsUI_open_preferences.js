@@ -122,7 +122,6 @@ function
 waitAndAssertPreferencesShown
 (
 _spotlight
-identityPopup
 )
 {
 await
@@ -130,12 +129,6 @@ BrowserTestUtils
 .
 waitForEvent
 (
-identityPopup
-?
-gIdentityHandler
-.
-_identityPopup
-:
 gProtectionsHandler
 .
 _protectionsPopup
