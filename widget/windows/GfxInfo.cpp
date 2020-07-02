@@ -13075,7 +13075,7 @@ JS_SetProperty
 aCx
 obj
 "
-blacklisted
+blocklisted
 "
 val
 )
