@@ -8189,6 +8189,8 @@ em
 0
 -
 x86_64
+-
+shippable
 /
 opt
 '
@@ -8217,6 +8219,8 @@ em
 0
 -
 x86
+-
+shippable
 /
 opt
 '
@@ -8231,6 +8235,8 @@ em
 0
 -
 x86_64
+-
+shippable
 -
 qr
 /
