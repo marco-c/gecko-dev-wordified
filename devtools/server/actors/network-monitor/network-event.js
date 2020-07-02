@@ -2248,6 +2248,16 @@ info
 .
 headersSize
 ;
+this
+.
+_response
+.
+waitingTime
+=
+info
+.
+waitingTime
+;
 /
 /
 Consider
