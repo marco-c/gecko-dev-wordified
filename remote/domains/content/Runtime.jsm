@@ -2578,7 +2578,7 @@ destroy
 *
 param
 {
-string
+number
 }
 frameId
 *
