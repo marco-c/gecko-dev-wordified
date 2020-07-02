@@ -136,8 +136,8 @@ gfx
 namespace
 dom
 {
-class
-SVGMatrix
+struct
+DOMMatrix2DInit
 ;
 class
 CanvasPattern
@@ -273,9 +273,13 @@ WebIDL
 void
 SetTransform
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
-matrix
+aInit
+ErrorResult
+&
+aError
 )
 ;
 RefPtr
