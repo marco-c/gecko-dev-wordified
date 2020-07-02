@@ -21816,10 +21816,13 @@ linkedBrowser
 authPromptAbuseCounter
 ;
 }
-gIdentityHandler
+PanelMultiView
 .
 hidePopup
 (
+gIdentityHandler
+.
+_identityPopup
 )
 ;
 let

@@ -22948,10 +22948,13 @@ browser
 .
 authPromptAbuseCounter
 ;
-gIdentityHandler
+PanelMultiView
 .
 hidePopup
 (
+gIdentityHandler
+.
+_identityPopup
 )
 ;
 browser
