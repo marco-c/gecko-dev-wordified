@@ -68,7 +68,7 @@ CSP_URL
 {
 requestCount
 :
-3
+2
 }
 )
 ;
@@ -144,7 +144,7 @@ wait
 waitForNetworkEvents
 (
 monitor
-3
+2
 )
 ;
 tab
@@ -154,9 +154,6 @@ linkedBrowser
 reload
 (
 )
-;
-await
-wait
 ;
 info
 (
@@ -170,6 +167,9 @@ in
 netmonitor
 "
 )
+;
+await
+wait
 ;
 /
 /
@@ -227,7 +227,6 @@ transferred
 :
 "
 CSP
-Preload
 "
 cause
 :
