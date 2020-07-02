@@ -2463,6 +2463,10 @@ mCachedContentIsValid
 (
 false
 )
+mAuthRetryPending
+(
+false
+)
 mCachedContentIsPartial
 (
 false
@@ -2472,10 +2476,6 @@ mCacheOnlyMetadata
 false
 )
 mTransactionReplaced
-(
-false
-)
-mAuthRetryPending
 (
 false
 )
@@ -51944,7 +51944,13 @@ cap
 %
 d
 "
+static_cast
+<
+bool
+>
+(
 mAuthRetryPending
+)
 static_cast
 <
 uint32_t
