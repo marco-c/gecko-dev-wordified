@@ -3243,9 +3243,13 @@ MappedSurface
 uint8_t
 *
 mData
+=
+nullptr
 ;
 int32_t
 mStride
+=
+0
 ;
 }
 ;
