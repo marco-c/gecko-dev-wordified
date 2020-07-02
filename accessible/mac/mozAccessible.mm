@@ -1008,7 +1008,7 @@ selector
 =
 selector
 (
-performPress
+moxPerformPress
 )
 )
 {
