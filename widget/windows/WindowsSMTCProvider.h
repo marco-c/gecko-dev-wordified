@@ -431,6 +431,8 @@ to
 "
 MUSIC
 "
+/
+/
 Note
 :
 This
@@ -445,11 +447,8 @@ you
 need
 to
 do
-/
-/
 that
 manually
-.
 bool
 SetMusicMetadata
 (
@@ -481,7 +480,6 @@ to
 the
 given
 URL
-.
 /
 /
 Note
@@ -500,7 +498,6 @@ to
 do
 that
 manually
-.
 bool
 SetThumbnail
 (
