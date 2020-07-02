@@ -223,7 +223,6 @@ getDefaultEngineList
 false
 )
 ;
-}
 /
 /
 Since
@@ -344,6 +343,7 @@ esrOverrides
 engine
 ]
 ;
+}
 }
 }
 }
