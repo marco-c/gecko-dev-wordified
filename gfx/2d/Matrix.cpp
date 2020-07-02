@@ -981,7 +981,7 @@ Length
 (
 )
 <
-3
+1
 |
 |
 aDestBuffer
@@ -990,7 +990,7 @@ Length
 (
 )
 <
-3
+1
 )
 {
 return
