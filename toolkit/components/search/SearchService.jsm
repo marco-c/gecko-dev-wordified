@@ -14882,6 +14882,11 @@ orderHint
 config
 .
 orderHint
+regionParams
+:
+config
+.
+regionParams
 }
 ;
 /
@@ -15886,6 +15891,11 @@ searchUrlGetParams
 searchPostParams
 :
 searchUrlPostParams
+regionParams
+:
+engineParams
+.
+regionParams
 iconURL
 :
 searchProvider
