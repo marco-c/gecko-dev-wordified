@@ -314,13 +314,19 @@ build
 '
 )
 :
-{
+optionally_keyed_by
+(
         
+'
+project
+'
+{
 text_type
 :
 text_type
-    
 }
+    
+)
     
 #
 These
@@ -1336,6 +1342,12 @@ toolchain
 '
         
 '
+require
+-
+build
+'
+        
+'
 worker
 -
 type
@@ -1378,6 +1390,16 @@ job
 [
 '
 name
+'
+]
+project
+=
+config
+.
+params
+[
+'
+project
 '
 ]
 )
