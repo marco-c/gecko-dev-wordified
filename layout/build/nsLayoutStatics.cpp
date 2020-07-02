@@ -860,7 +860,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 h
 "
@@ -1659,7 +1659,7 @@ mozilla
 dom
 :
 :
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Initialize

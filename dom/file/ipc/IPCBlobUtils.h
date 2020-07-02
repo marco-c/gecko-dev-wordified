@@ -1112,7 +1112,7 @@ registered
 *
 into
 the
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 *
 *
@@ -1295,7 +1295,7 @@ the
 UUID
 and
 *
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 *
 *
@@ -1440,10 +1440,10 @@ real
 '
 stream
 from
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 using
-the
 *
+the
 UUID
 it
 will
@@ -1460,8 +1460,8 @@ send
 it
 to
 the
-child
 *
+child
 side
 .
 *
@@ -1909,7 +1909,7 @@ the
 UUID
 from
 *
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 *
 4
@@ -1969,7 +1969,7 @@ be
 *
 retrieved
 from
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 *
 6
@@ -1979,7 +1979,7 @@ order
 to
 avoid
 leaks
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 will
 monitor
 child
