@@ -2940,9 +2940,6 @@ unknown
 nsCString
 mTLD
 ;
-bool
-mUseJapaneseDetector
-;
 /
 *
 *
