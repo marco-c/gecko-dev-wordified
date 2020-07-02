@@ -4175,9 +4175,8 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 )
 ;
@@ -4283,9 +4282,8 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 )
 ;
@@ -4357,9 +4355,8 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-IPC_FAIL_NO_REASON
+IPC_OK
 (
-this
 )
 )
 ;
