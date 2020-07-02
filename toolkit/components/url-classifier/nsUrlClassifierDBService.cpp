@@ -10031,7 +10031,7 @@ Classify
 nsIPrincipal
 *
 aPrincipal
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 nsIURIClassifierCallback
