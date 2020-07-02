@@ -272,7 +272,7 @@ the
 /
 result
 of
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 .
@@ -346,7 +346,7 @@ first_message_event
 .
 data
 '
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 :
@@ -398,13 +398,13 @@ verify_does_not_exist_in_data_uri_iframe
 (
 test
 '
-chooseFileSystemEntries
+showDirectoryPicker
 '
 )
 ;
 }
 '
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 must
@@ -487,7 +487,7 @@ and
 '
 +
 '
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 must
@@ -573,7 +573,7 @@ and
 '
 +
 '
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 must
