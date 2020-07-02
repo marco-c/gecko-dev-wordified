@@ -41114,6 +41114,11 @@ return
 NS_OK
 ;
 }
+LogCallingScriptLocation
+(
+this
+)
+;
 if
 (
 mWaitingForRedirectCallback
@@ -42393,6 +42398,11 @@ n
 "
 this
 )
+)
+;
+LogCallingScriptLocation
+(
+this
 )
 ;
 #
@@ -62930,6 +62940,11 @@ this
 )
 )
 ;
+LogCallingScriptLocation
+(
+this
+)
+;
 +
 +
 mSuspendCount
@@ -63123,6 +63138,11 @@ n
 "
 this
 )
+)
+;
+LogCallingScriptLocation
+(
+this
 )
 ;
 if
