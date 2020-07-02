@@ -1539,7 +1539,7 @@ Thread
 ~
 *
 *
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 actor
 can
 be
@@ -1757,17 +1757,17 @@ order
 to
 avoid
 this
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 are
 '
 migrated
 '
 to
 a
+*
 DOM
 -
 File
-*
 thread
 .
 This
@@ -1782,7 +1782,7 @@ way
 1
 .
 If
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 actor
 is
 not
@@ -1792,8 +1792,8 @@ by
 DOM
 -
 File
-thread
 *
+thread
 it
 calls
 Send__delete__
@@ -1806,10 +1806,10 @@ parent
 side
 that
 we
+*
 don
 '
 t
-*
 need
 this
 IPC
@@ -1824,7 +1824,7 @@ thread
 .
 A
 new
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 is
 created
 .
@@ -1880,7 +1880,7 @@ actor
 *
 3
 .
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 :
 :
 Recv__delete__
@@ -1890,8 +1890,8 @@ on
 the
 parent
 side
-and
 *
+and
 the
 parent
 actor
@@ -1923,7 +1923,7 @@ with
 the
 new
 *
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 actor
 with
 the
@@ -1934,8 +1934,8 @@ thread
 '
 s
 PBackground
-as
 *
+as
 its
 manager
 .
@@ -1945,7 +1945,7 @@ manager
 When
 the
 new
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 actor
 is
 created

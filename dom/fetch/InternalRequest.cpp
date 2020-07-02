@@ -159,7 +159,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 .
 h
 "
@@ -1231,7 +1231,7 @@ mBodyStream
 =
 static_cast
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 >
 (

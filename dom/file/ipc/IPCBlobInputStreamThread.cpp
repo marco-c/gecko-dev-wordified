@@ -272,7 +272,7 @@ public
 explicit
 MigrateActorRunnable
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -313,7 +313,7 @@ State
 )
 =
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eInactiveMigrating
@@ -386,7 +386,7 @@ default
 ;
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 mActor
 ;
@@ -880,7 +880,7 @@ IPCBlobInputStreamThread
 :
 MigrateActor
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -895,7 +895,7 @@ State
 )
 =
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eInactiveMigrating
@@ -955,7 +955,7 @@ IPCBlobInputStreamThread
 :
 MigrateActorInternal
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )

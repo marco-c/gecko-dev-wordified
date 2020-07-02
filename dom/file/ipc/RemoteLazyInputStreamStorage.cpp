@@ -1016,7 +1016,7 @@ const
 nsID
 &
 aID
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 *
 aCallback
 )
@@ -1071,7 +1071,7 @@ aCallback
 }
 already_AddRefed
 <
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 >
 RemoteLazyInputStreamStorage
 :
@@ -1116,7 +1116,7 @@ nullptr
 }
 RefPtr
 <
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 >
 callback
 ;
