@@ -46867,11 +46867,9 @@ browserWin
 =
 aSubject
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 ;
 if
 (
