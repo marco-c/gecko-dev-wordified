@@ -304,6 +304,17 @@ chrome
 /
 common
 /
+ipc_channel_utils
+.
+cc
+'
+'
+src
+/
+chrome
+/
+common
+/
 ipc_message
 .
 cc

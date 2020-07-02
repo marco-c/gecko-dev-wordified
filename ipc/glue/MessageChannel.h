@@ -325,6 +325,15 @@ eReceiving
 ;
 enum
 class
+MessagePhase
+{
+Endpoint
+TransferStart
+TransferEnd
+}
+;
+enum
+class
 SyncSendError
 {
 SendSuccess
@@ -2850,7 +2859,7 @@ IPC
 :
 :
 Message
-*
+&
 aMessage
 MessageDirection
 aDirection
