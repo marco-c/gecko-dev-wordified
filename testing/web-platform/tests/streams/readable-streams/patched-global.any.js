@@ -696,9 +696,8 @@ closed
 }
 '
 ReadableStream
-getIterator
-(
-)
+async
+iterator
 should
 use
 the
@@ -710,6 +709,9 @@ getReader
 )
 and
 ReadableStreamDefaultReader
+'
++
+'
 methods
 '
 )
