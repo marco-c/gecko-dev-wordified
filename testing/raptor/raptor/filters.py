@@ -644,12 +644,15 @@ even
         
 middle
 =
+int
+(
 len
 (
 series
 )
 /
 2
+)
 #
 the
 higher

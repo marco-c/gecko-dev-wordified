@@ -907,7 +907,7 @@ values
 "
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -3951,7 +3951,7 @@ page_cycle
 0
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -4800,7 +4800,7 @@ page_cycle
 0
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -5594,7 +5594,7 @@ measurements
 "
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -8442,7 +8442,7 @@ page_cycle
 0
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -10734,7 +10734,7 @@ page_cycle
 0
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -11548,7 +11548,7 @@ pagecycle
 0
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -12096,7 +12096,7 @@ pagecycle
 0
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -13930,7 +13930,7 @@ measurements
 "
 ]
 .
-iteritems
+items
 (
 )
 :
