@@ -492,17 +492,6 @@ CreateWorkerTaskQueue
 private
 :
 static
-void
-StaticRelease
-(
-already_AddRefed
-<
-CanvasThreadHolder
->
-aCanvasThreadHolder
-)
-;
-static
 StaticDataMutex
 <
 StaticRefPtr
