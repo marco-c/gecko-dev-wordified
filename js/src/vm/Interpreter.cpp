@@ -14747,6 +14747,10 @@ Nop
 )
 CASE
 (
+Try
+)
+CASE
+(
 NopDestructuring
 )
 CASE
@@ -14773,14 +14777,6 @@ ADVANCE_AND_DISPATCH
 )
 ;
 }
-CASE
-(
-Try
-)
-END_CASE
-(
-Try
-)
 CASE
 (
 JumpTarget
