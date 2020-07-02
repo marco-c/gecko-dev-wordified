@@ -28172,6 +28172,17 @@ binary
 '
 )
 ;
+if
+(
+typeof
+setBufferStreamParams
+=
+=
+'
+function
+'
+)
+{
 setBufferStreamParams
 (
 /
@@ -28190,6 +28201,7 @@ chunkSize
 1000
 )
 ;
+}
 const
 cacheEntry
 =
