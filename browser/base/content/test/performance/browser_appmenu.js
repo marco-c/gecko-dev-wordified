@@ -57,10 +57,7 @@ to
 EXPECTED_APPMENU_OPEN_REFLOWS
 .
 This
-is
-a
-whitelist
-that
+list
 should
 slowly
 go
@@ -85,7 +82,7 @@ more
 reflows
 to
 the
-whitelist
+list
 you
 should
 be
