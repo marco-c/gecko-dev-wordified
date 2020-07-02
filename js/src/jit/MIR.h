@@ -70953,6 +70953,10 @@ type
 )
 )
 ;
+setCallResultCapture
+(
+)
+;
 }
 public
 :
