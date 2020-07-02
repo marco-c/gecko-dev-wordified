@@ -35406,7 +35406,7 @@ SELECT_ACCUMULATE
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 PeekBackwardAndForward
