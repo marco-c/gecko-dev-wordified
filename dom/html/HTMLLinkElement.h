@@ -901,7 +901,7 @@ mSizes
 void
 GetType
 (
-DOMString
+nsAString
 &
 aValue
 )
