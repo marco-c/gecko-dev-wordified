@@ -1305,7 +1305,6 @@ connector
 const
 {
 title
-url
 }
 =
 getTabTarget
@@ -1336,11 +1335,6 @@ options
 .
 options
 title
-:
-title
-|
-|
-url
 getString
 :
 connector
