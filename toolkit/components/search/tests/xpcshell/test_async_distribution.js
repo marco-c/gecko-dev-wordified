@@ -205,7 +205,7 @@ engine
 .
 wrappedJSObject
 .
-_isBuiltin
+_isAppProvided
 true
 "
 Distribution
