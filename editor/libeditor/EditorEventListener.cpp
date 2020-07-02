@@ -6388,7 +6388,7 @@ dataTransfer
 >
 HasType
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kTextMime
 )
@@ -6400,7 +6400,7 @@ dataTransfer
 >
 HasType
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kMozTextInternal
 )
@@ -6423,7 +6423,7 @@ dataTransfer
 >
 HasType
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLMime
 )
@@ -6435,7 +6435,7 @@ dataTransfer
 >
 HasType
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kFileMime
 )

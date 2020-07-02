@@ -580,7 +580,7 @@ privacy_resistFingerprinting
 (
 )
 ?
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 SPOOFED_APPNAME
 )
@@ -696,7 +696,7 @@ privacy_resistFingerprinting
 (
 )
 ?
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 SPOOFED_APPVERSION
 )
@@ -812,7 +812,7 @@ privacy_resistFingerprinting
 (
 )
 ?
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 SPOOFED_PLATFORM
 )

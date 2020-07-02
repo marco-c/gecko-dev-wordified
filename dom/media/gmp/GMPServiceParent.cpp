@@ -10031,7 +10031,7 @@ GetShutdownBarrier
 AddBlocker
 (
 this
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 __FILE__
 )

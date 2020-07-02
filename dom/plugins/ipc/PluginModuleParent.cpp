@@ -14077,6 +14077,7 @@ FlashPlayerPlugin
 #
 define
 FLASH_PROCESS_PREFIX
+u
 "
 FLASHPLAYERPLUGIN
 "
@@ -14152,7 +14153,7 @@ if
 StringBeginsWith
 (
 name
-NS_LITERAL_STRING
+nsLiteralString
 (
 FLASH_PROCESS_PREFIX
 )

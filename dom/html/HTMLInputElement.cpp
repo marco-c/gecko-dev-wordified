@@ -2425,7 +2425,7 @@ mFilePicker
 >
 SetDisplaySpecialDirectory
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 NS_OS_DESKTOP_DIR
 )

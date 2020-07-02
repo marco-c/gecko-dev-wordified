@@ -370,6 +370,7 @@ PermissionDelegateInfo
 #
 define
 kVisibilityChange
+u
 "
 visibilitychange
 "
@@ -484,7 +485,7 @@ doc
 >
 AddSystemEventListener
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 kVisibilityChange
 )
@@ -645,7 +646,7 @@ target
 >
 RemoveSystemEventListener
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 kVisibilityChange
 )

@@ -298,6 +298,7 @@ h
 #
 define
 XHTML_DIV_TAG
+u
 "
 div
 xmlns
@@ -694,7 +695,7 @@ tagStack
 .
 AppendElement
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 XHTML_DIV_TAG
 )

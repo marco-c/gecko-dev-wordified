@@ -294,6 +294,7 @@ supercookies
 #
 define
 ORIGINKEYS_FILE
+u
 "
 enumerate_devices
 .
@@ -1114,7 +1115,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 ORIGINKEYS_FILE
 )

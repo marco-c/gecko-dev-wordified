@@ -619,7 +619,7 @@ dataTransfer
 >
 GetData
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kTextMime
 )
@@ -1237,7 +1237,7 @@ dataTransfer
 >
 SetData
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kTextMime
 )

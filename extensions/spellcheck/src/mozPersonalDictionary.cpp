@@ -241,6 +241,7 @@ h
 #
 define
 MOZ_PERSONAL_DICT_NAME
+u
 "
 persdict
 .
@@ -1236,7 +1237,7 @@ mFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 MOZ_PERSONAL_DICT_NAME
 )
@@ -1983,7 +1984,7 @@ theFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 MOZ_PERSONAL_DICT_NAME
 )

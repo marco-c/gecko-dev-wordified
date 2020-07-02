@@ -5097,7 +5097,7 @@ title
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kURLMime
 )
@@ -5108,7 +5108,7 @@ principal
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kURLDataMime
 )
@@ -5119,18 +5119,7 @@ principal
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
-(
-kURLDataMime
-)
-mUrlString
-principal
-)
-;
-AddString
-(
-aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kURLDescriptionMime
 )
@@ -5178,7 +5167,7 @@ IsEmpty
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLContext
 )
@@ -5210,7 +5199,7 @@ IsEmpty
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLInfo
 )
@@ -5236,7 +5225,7 @@ IsEmpty
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLMime
 )
@@ -5290,7 +5279,7 @@ image
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kTextMime
 )
@@ -5390,7 +5379,7 @@ aDataTransfer
 >
 SetDataWithPrincipal
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kNativeImageMime
 )
@@ -5477,7 +5466,7 @@ aDataTransfer
 >
 SetDataWithPrincipal
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kFilePromiseMime
 )
@@ -5490,7 +5479,7 @@ principal
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kFilePromiseURLMime
 )
@@ -5501,7 +5490,7 @@ principal
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kFilePromiseDestFilename
 )
@@ -5518,7 +5507,7 @@ XP_MACOSX
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kImageRequestMime
 )
@@ -5554,7 +5543,7 @@ mIsAnchor
 AddString
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kURLDataMime
 )

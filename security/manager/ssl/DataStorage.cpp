@@ -1410,7 +1410,7 @@ _
 return
 GetFromRawFileName
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 #
 _
@@ -1586,11 +1586,12 @@ DATA_STORAGE
 (
 _
 )
+\
 aItems
 .
 AppendElement
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 #
 _
@@ -1928,7 +1929,7 @@ filename
 (
 )
 =
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 #
 _

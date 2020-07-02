@@ -1244,6 +1244,7 @@ directory
 #
 define
 DATA_FILE_NAME
+u
 "
 data
 .
@@ -1274,6 +1275,7 @@ mode
 #
 define
 JOURNAL_FILE_NAME
+u
 "
 data
 .
@@ -1401,6 +1403,7 @@ bits
 #
 define
 USAGE_FILE_NAME
+u
 "
 usage
 "
@@ -1555,6 +1558,7 @@ DATA_FILE_NAME
 #
 define
 USAGE_JOURNAL_FILE_NAME
+u
 "
 usage
 -
@@ -2199,6 +2203,7 @@ future
 #
 define
 LS_ARCHIVE_FILE_NAME
+u
 "
 ls
 -
@@ -2243,6 +2248,7 @@ data
 #
 define
 WEB_APPS_STORE_FILE_NAME
+u
 "
 webappsstore
 .
@@ -4783,7 +4789,7 @@ archiveFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 LS_ARCHIVE_FILE_NAME
 )
@@ -5504,7 +5510,7 @@ archiveFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 WEB_APPS_STORE_FILE_NAME
 )
@@ -6933,7 +6939,7 @@ usageFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 USAGE_FILE_NAME
 )
@@ -7053,7 +7059,7 @@ usageJournalFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 USAGE_JOURNAL_FILE_NAME
 )
@@ -23903,7 +23909,7 @@ directoryEntry
 >
 Append
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LS_DIRECTORY_NAME
 )
@@ -23956,7 +23962,7 @@ directoryEntry
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 DATA_FILE_NAME
 )
@@ -24134,7 +24140,7 @@ directoryEntry
 >
 Append
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LS_DIRECTORY_NAME
 )
@@ -24252,7 +24258,7 @@ directoryEntry
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 DATA_FILE_NAME
 )
@@ -40471,7 +40477,7 @@ directoryEntry
 >
 Append
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LS_DIRECTORY_NAME
 )
@@ -40601,7 +40607,7 @@ directoryEntry
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 DATA_FILE_NAME
 )
@@ -48437,7 +48443,7 @@ directory
 >
 Append
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LS_DIRECTORY_NAME
 )
@@ -48924,7 +48930,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 DATA_FILE_NAME
 )
@@ -49669,7 +49675,7 @@ that
 .
 UNKNOWN_FILE_WARNING
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LS_DIRECTORY_NAME
 )

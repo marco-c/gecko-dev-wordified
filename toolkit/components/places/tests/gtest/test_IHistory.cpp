@@ -1916,12 +1916,14 @@ test_observer_topic_dispatched_helpers
 #
 define
 URI_VISITED
+u
 "
 visited
 "
 #
 define
 URI_NOT_VISITED
+u
 "
 not
 visited
@@ -2128,7 +2130,7 @@ visited
 =
 !
 !
-NS_LITERAL_STRING
+nsLiteralString
 (
 URI_VISITED
 )
@@ -2143,7 +2145,7 @@ notVisited
 =
 !
 !
-NS_LITERAL_STRING
+nsLiteralString
 (
 URI_NOT_VISITED
 )

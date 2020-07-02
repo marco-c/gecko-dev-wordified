@@ -2569,7 +2569,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_TMP_FILE_NAME
 )
@@ -2585,7 +2585,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_FILE_NAME
 )
@@ -4209,7 +4209,7 @@ TMP_FILE
 {
 fileName
 =
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_TMP_FILE_NAME
 )
@@ -4219,7 +4219,7 @@ else
 {
 fileName
 =
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_FILE_NAME
 )
@@ -4364,7 +4364,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_FILE_NAME
 )
@@ -5235,7 +5235,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_TMP_FILE_NAME
 )
@@ -5264,7 +5264,7 @@ file
 RenameTo
 (
 nullptr
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_FILE_NAME
 )
@@ -5570,7 +5570,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_TMP_FILE_NAME
 )
@@ -5586,7 +5586,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PADDING_FILE_NAME
 )

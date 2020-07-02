@@ -183,6 +183,7 @@ h
 #
 define
 SERVICEWORKERREGISTRAR_FILE
+u
 "
 serviceworker
 .

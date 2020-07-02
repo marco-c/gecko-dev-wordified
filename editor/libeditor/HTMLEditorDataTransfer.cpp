@@ -8246,7 +8246,7 @@ EmptyString
 EmptyString
 (
 )
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kFileMime
 )
@@ -9394,7 +9394,7 @@ EmptyString
 EmptyString
 (
 )
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kFileMime
 )
@@ -10485,7 +10485,7 @@ types
 >
 Contains
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLContext
 )
@@ -10836,7 +10836,7 @@ infoString
 GetStringFromDataTransfer
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLContext
 )
@@ -10847,7 +10847,7 @@ contextString
 GetStringFromDataTransfer
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLInfo
 )
@@ -10955,7 +10955,7 @@ text
 GetStringFromDataTransfer
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLContext
 )
@@ -10966,7 +10966,7 @@ contextString
 GetStringFromDataTransfer
 (
 aDataTransfer
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 kHTMLInfo
 )

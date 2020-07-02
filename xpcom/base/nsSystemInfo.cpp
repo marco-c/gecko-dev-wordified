@@ -6547,6 +6547,7 @@ cc
 #
 define
 DEFAULT_ANDROID_VERSION
+u
 "
 10
 .
@@ -6799,7 +6800,7 @@ release_version
 (
 )
 =
-NS_LITERAL_STRING
+nsLiteralString
 (
 DEFAULT_ANDROID_VERSION
 )
