@@ -2188,16 +2188,13 @@ f0
 }
 :
 '
-{
-}
+%
+s
 '
 "
                                  
-.
-format
-(
+%
 new_upstream_url
-)
 )
             
 with

@@ -1751,24 +1751,6 @@ package
 =
 package
             
-snapshot
-=
-run
-[
-'
-snapshot
-'
-]
-            
-dist
-=
-run
-[
-'
-dist
-'
-]
-            
 src_url
 =
 src_url

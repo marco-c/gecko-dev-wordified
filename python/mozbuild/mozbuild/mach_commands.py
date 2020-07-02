@@ -13073,11 +13073,6 @@ archive
 -
 geckoview
 '
-.
-format
-(
-locale
-)
 ]
                 
 append_env

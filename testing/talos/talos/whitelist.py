@@ -1000,7 +1000,7 @@ Duration
 s
 >
 %
-S
+s
 "
                                         
 %

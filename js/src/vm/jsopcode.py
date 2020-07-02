@@ -2608,12 +2608,6 @@ nuses
 stack_nuses
 =
 stack_nuses
-                                    
-stack_uses
-=
-opcode
-.
-stack_uses
 )
 )
             
@@ -2683,12 +2677,6 @@ ndefs
 stack_ndefs
 =
 stack_ndefs
-                                    
-stack_defs
-=
-opcode
-.
-stack_defs
 )
 )
     

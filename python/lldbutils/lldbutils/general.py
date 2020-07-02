@@ -337,6 +337,7 @@ except
 NOQA
 :
 E501
+E722
             
 pass
         
