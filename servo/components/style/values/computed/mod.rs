@@ -2018,7 +2018,17 @@ device
 .
 zoom_text
 (
+Au
+:
+:
+from
+(
 size
+)
+)
+.
+into
+(
 )
 }
 else

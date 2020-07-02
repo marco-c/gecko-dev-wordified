@@ -909,10 +909,6 @@ gfxFloat
 aFont
 .
 size
-.
-ToAppUnits
-(
-)
 )
 /
 mP2A

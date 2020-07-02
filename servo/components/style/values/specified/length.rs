@@ -1932,6 +1932,14 @@ reference_font_size
 }
 else
 {
+computed
+:
+:
+Length
+:
+:
+new
+(
 context
 .
 device
@@ -1940,6 +1948,11 @@ device
 .
 root_font_size
 (
+)
+.
+to_f32_px
+(
+)
 )
 }
 ;

@@ -2504,10 +2504,6 @@ StyleFont
 mFont
 .
 size
-.
-ToAppUnits
-(
-)
 ;
 if
 (
@@ -2580,10 +2576,6 @@ StyleFont
 mFont
 .
 size
-.
-ToAppUnits
-(
-)
 ;
 int32_t
 charCount
@@ -2678,10 +2670,6 @@ StyleFont
 mFont
 .
 size
-.
-ToAppUnits
-(
-)
 ;
 int32_t
 charCount
@@ -2755,10 +2743,6 @@ StyleFont
 mFont
 .
 size
-.
-ToAppUnits
-(
-)
 ;
 int32_t
 charCount

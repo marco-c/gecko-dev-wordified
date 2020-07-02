@@ -5149,11 +5149,9 @@ pub
 const
 FONT_MEDIUM_PX
 :
-f32
+i32
 =
 16
-.
-0
 ;
 impl
 FontSizeKeyword
@@ -5196,6 +5194,8 @@ Length
 new
 (
 FONT_MEDIUM_PX
+as
+f32
 )
 ;
 /

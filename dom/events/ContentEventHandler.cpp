@@ -6975,15 +6975,11 @@ PresContext
 )
 -
 >
-CSSPixelsToDevPixels
+AppUnitsToDevPixels
 (
 font
 .
 size
-.
-ToCSSPixels
-(
-)
 )
 ;
 }

@@ -891,10 +891,7 @@ thumb
 nscoord
 AutoCrossSize
 (
-mozilla
-:
-:
-Length
+nscoord
 aEm
 )
 ;
