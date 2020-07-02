@@ -1105,7 +1105,7 @@ LEAF
 Frame
 (
 "
-nsSVGAFrame
+SVGAFrame
 "
 "
 SVGA
@@ -1204,7 +1204,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGGenericContainerFrame
+SVGGenericContainerFrame
 "
 "
 SVGGenericContainer
@@ -1226,7 +1226,7 @@ LEAF
 Frame
 (
 "
-nsSVGGFrame
+SVGGFrame
 "
 "
 SVGG
@@ -1248,7 +1248,7 @@ LEAF
 Frame
 (
 "
-nsSVGInnerSVGFrame
+SVGInnerSVGFrame
 "
 "
 SVGInnerSVG
@@ -1270,7 +1270,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGMarkerFrame
+SVGMarkerFrame
 "
 "
 SVGMarker
@@ -1281,7 +1281,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGMarkerAnonChildFrame
+SVGMarkerAnonChildFrame
 "
 "
 SVGMarkerAnonChild
@@ -1292,7 +1292,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGMaskFrame
+SVGMaskFrame
 "
 "
 SVGMask
@@ -1369,7 +1369,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGSymbolFrame
+SVGSymbolFrame
 "
 "
 SVGSymbol

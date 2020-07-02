@@ -674,6 +674,15 @@ include
 "
 mozilla
 /
+SVGMaskFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Telemetry
 .
 h
@@ -785,13 +794,6 @@ h
 include
 "
 nsCSSProps
-.
-h
-"
-#
-include
-"
-nsSVGMaskFrame
 .
 h
 "
@@ -59108,7 +59110,7 @@ StyleSVGReset
 ;
 nsTArray
 <
-nsSVGMaskFrame
+SVGMaskFrame
 *
 >
 maskFrames
@@ -59299,7 +59301,7 @@ i
 +
 )
 {
-nsSVGMaskFrame
+SVGMaskFrame
 *
 maskFrame
 =
@@ -62307,7 +62309,7 @@ false
 }
 nsTArray
 <
-nsSVGMaskFrame
+SVGMaskFrame
 *
 >
 masks

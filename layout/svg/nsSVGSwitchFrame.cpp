@@ -142,7 +142,7 @@ h
 #
 include
 "
-nsSVGGFrame
+SVGGFrame
 .
 h
 "
@@ -217,7 +217,7 @@ nsSVGSwitchFrame
 final
 :
 public
-nsSVGGFrame
+SVGGFrame
 {
 friend
 nsIFrame
@@ -248,7 +248,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGGFrame
+SVGGFrame
 (
 aStyle
 aPresContext
@@ -562,7 +562,7 @@ switch
 "
 )
 ;
-nsSVGGFrame
+SVGGFrame
 :
 :
 Init
