@@ -451,14 +451,7 @@ found_it
 False
         
 for
-[
-timestamp
-category
-method
-object
-value
-extra
-]
+event
 in
 payload
 [
@@ -472,6 +465,28 @@ parent
 "
 ]
 :
+            
+#
+The
+event
+may
+optionally
+contain
+additonal
+fields
+            
+[
+timestamp
+category
+method
+obj
+]
+=
+event
+[
+:
+4
+]
             
 self
 .
@@ -497,7 +512,7 @@ method
 search
 "
 and
-object
+obj
 =
 =
 "
