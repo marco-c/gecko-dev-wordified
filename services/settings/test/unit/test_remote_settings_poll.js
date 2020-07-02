@@ -5782,10 +5782,8 @@ blocklists
 .
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 42
 )
 ;
@@ -5817,10 +5815,8 @@ main
 .
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 43
 )
 ;

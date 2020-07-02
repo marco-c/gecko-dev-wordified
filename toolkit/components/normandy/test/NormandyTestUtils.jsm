@@ -1101,10 +1101,8 @@ getLastModified
 await
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 lastModified
 +
 1
@@ -1230,10 +1228,8 @@ getLastModified
 await
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 lastModified
 +
 1
@@ -1285,10 +1281,8 @@ getLastModified
 await
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 lastModified
 +
 1
