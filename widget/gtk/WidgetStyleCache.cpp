@@ -3804,6 +3804,9 @@ activeButtons
 =
 GetGtkHeaderBarButtonLayout
 (
+mozilla
+:
+:
 MakeSpan
 (
 buttonLayout
