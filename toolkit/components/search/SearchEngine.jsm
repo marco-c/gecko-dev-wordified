@@ -11997,7 +11997,7 @@ gModernConfig
 &
 this
 .
-_isBuiltin
+_isAppProvided
 )
 {
 return
@@ -12007,7 +12007,7 @@ _name
 this
 .
 name
-_isBuiltin
+_isAppProvided
 :
 true
 _metaData
