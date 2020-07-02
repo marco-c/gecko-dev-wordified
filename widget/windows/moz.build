@@ -504,11 +504,6 @@ WinTextEventDispatcherListener
 cpp
 '
 '
-WinThemeData
-.
-cpp
-'
-'
 WinUtils
 .
 cpp
