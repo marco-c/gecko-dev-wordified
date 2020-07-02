@@ -9017,6 +9017,8 @@ frame
 &
 ]
 (
+Debugger
+*
 DebuggerFrame
 *
 frameObjPtr
@@ -22791,6 +22793,7 @@ frame
 {
 fn
 (
+dbg
 frameEntry
 -
 >
@@ -22834,6 +22837,8 @@ frame
 &
 ]
 (
+Debugger
+*
 DebuggerFrame
 *
 frameobj
@@ -43798,6 +43803,8 @@ frame
 &
 ]
 (
+Debugger
+*
 DebuggerFrame
 *
 frameobj
@@ -43841,6 +43848,9 @@ frame
 &
 ]
 (
+Debugger
+*
+dbg
 DebuggerFrame
 *
 frameobj
@@ -43868,18 +43878,6 @@ frameobj
 freeFrameIterData
 (
 fop
-)
-;
-Debugger
-*
-dbg
-=
-Debugger
-:
-:
-fromChildJSObject
-(
-frameobj
 )
 ;
 dbg

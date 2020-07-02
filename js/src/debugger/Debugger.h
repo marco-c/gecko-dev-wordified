@@ -6033,6 +6033,8 @@ FrameFn
 *
 void
 (
+Debugger
+*
 DebuggerFrame
 *
 )
