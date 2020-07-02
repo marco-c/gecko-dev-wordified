@@ -3042,7 +3042,7 @@ return
 EventStateManager
 :
 :
-IsRemoteTarget
+IsTopLevelRemoteTarget
 (
 originalTarget
 )

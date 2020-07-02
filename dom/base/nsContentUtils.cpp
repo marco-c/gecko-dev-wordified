@@ -37778,15 +37778,6 @@ IsRemoteTarget
 (
 aContent
 )
-|
-|
-BrowserBridgeChild
-:
-:
-GetFrom
-(
-aContent
-)
 )
 {
 return

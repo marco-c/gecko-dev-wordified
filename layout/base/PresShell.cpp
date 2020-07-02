@@ -51467,6 +51467,18 @@ chrome
 generated
 popup
 .
+/
+/
+XXXedgar
+do
+we
+need
+to
+check
+fission
+OOP
+iframe
+?
 if
 (
 aCapturingContent
@@ -51475,7 +51487,7 @@ aCapturingContent
 EventStateManager
 :
 :
-IsRemoteTarget
+IsTopLevelRemoteTarget
 (
 aCapturingContent
 )

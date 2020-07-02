@@ -2937,7 +2937,7 @@ mNodeInfo
 EventStateManager
 :
 :
-IsRemoteTarget
+IsTopLevelRemoteTarget
 (
 this
 )
