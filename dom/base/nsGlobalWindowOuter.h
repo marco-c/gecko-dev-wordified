@@ -6766,6 +6766,17 @@ IsOnlyTopLevelDocumentInSHistory
 (
 )
 ;
+bool
+CheckStorageAccessPermission
+(
+Document
+*
+aDocument
+nsGlobalWindowInner
+*
+aInnerWindow
+)
+;
 public
 :
 /
