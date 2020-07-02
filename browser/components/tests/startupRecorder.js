@@ -521,11 +521,9 @@ record
 name
 )
 {
-Services
+ChromeUtils
 .
-profiler
-.
-AddMarker
+addProfilerMarker
 (
 "
 startupRecorder
