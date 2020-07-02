@@ -464,7 +464,7 @@ aCallerType
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -759,7 +759,7 @@ aCallerType
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -1210,7 +1210,7 @@ aCallerType
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

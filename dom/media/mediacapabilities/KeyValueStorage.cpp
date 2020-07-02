@@ -862,7 +862,7 @@ Init
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -1238,7 +1238,7 @@ Init
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -1428,7 +1428,7 @@ Init
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

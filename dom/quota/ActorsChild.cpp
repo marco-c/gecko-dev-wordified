@@ -338,7 +338,7 @@ ifdef
 DEBUG
 mOwningThread
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

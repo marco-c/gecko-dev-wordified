@@ -1851,7 +1851,7 @@ aFileHandle
 :
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3273,7 +3273,7 @@ FileHandleThreadPool
 :
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

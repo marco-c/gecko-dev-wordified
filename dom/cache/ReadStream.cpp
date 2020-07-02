@@ -1432,7 +1432,7 @@ aId
 )
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

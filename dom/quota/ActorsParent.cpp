@@ -6518,7 +6518,7 @@ nsIEventTarget
 *
 aOwningThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -10274,7 +10274,7 @@ BackgroundThreadObject
 :
 mOwningThread
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

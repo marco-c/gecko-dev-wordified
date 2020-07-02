@@ -2193,7 +2193,7 @@ target
 {
 target
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

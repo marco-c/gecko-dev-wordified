@@ -169,7 +169,7 @@ FileCreatorParent
 :
 mBackgroundEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

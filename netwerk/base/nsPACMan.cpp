@@ -3665,7 +3665,7 @@ forget
 )
 )
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 -

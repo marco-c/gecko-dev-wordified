@@ -3240,7 +3240,7 @@ aListener
 )
 mTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -3592,7 +3592,7 @@ aListener
 ;
 mListenerTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

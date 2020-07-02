@@ -6467,7 +6467,7 @@ rv
 ;
 mInitEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

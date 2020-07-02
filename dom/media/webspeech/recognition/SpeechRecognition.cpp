@@ -2756,7 +2756,7 @@ mRemovedPromise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3151,7 +3151,7 @@ mRemovedPromise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3207,7 +3207,7 @@ StopRecording
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3690,7 +3690,7 @@ mRemovedPromise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3753,7 +3753,7 @@ __func__
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -4568,7 +4568,7 @@ aCallerType
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

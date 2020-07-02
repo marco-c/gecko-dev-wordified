@@ -638,7 +638,7 @@ aPromise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

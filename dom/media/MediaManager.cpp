@@ -8534,7 +8534,7 @@ true
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -14544,7 +14544,7 @@ devices
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -17874,7 +17874,7 @@ devices
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -18069,7 +18069,7 @@ __func__
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -21736,7 +21736,7 @@ devices
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -22345,7 +22345,7 @@ devices
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

@@ -184,7 +184,7 @@ MakeRefPtr
 DriftCompensator
 >
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 mRate

@@ -180,7 +180,7 @@ mRemovedPromise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

@@ -9783,7 +9783,7 @@ aIsTemporary
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -98201,7 +98201,7 @@ SendGetContentBlockingEvents
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -99319,7 +99319,7 @@ AutomaticStorageAccessPermissionCanBeGranted
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -99519,7 +99519,7 @@ MaybeDelayAutomaticGrants
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -99627,7 +99627,7 @@ performFinalChecks
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -99840,7 +99840,7 @@ NodePrincipal
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

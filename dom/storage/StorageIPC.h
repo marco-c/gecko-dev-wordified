@@ -1499,7 +1499,7 @@ aOriginNoSuffix
 :
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -1699,7 +1699,7 @@ aOriginScope
 :
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

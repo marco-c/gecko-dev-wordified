@@ -900,7 +900,7 @@ mOwningEventTarget
 mozilla
 :
 :
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

@@ -5070,7 +5070,7 @@ mTarget
 ;
 mTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

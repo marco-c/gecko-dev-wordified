@@ -239,7 +239,7 @@ mMutex
 )
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

@@ -532,7 +532,7 @@ mProxyRequest
 )
 mCurrentEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

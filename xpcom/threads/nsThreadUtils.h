@@ -12942,7 +12942,7 @@ loop
 .
 nsIEventTarget
 *
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -12996,7 +12996,7 @@ that
 .
 nsISerialEventTarget
 *
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

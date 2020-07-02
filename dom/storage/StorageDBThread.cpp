@@ -491,7 +491,7 @@ InitHelper
 )
 mOwningThread
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -626,7 +626,7 @@ NoteBackgroundThreadRunnable
 )
 mOwningThread
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

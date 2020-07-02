@@ -7332,7 +7332,7 @@ sThreadMonitor
 }
 mPBackgroundEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

@@ -707,7 +707,7 @@ SizeOfPromise
 :
 All
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 promises
@@ -716,7 +716,7 @@ promises
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -13582,7 +13582,7 @@ SizeOfPromise
 :
 All
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 promises
@@ -13591,7 +13591,7 @@ promises
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

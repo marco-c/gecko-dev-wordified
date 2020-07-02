@@ -2366,7 +2366,7 @@ aForceNoneAttestation
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -2717,7 +2717,7 @@ aTransactionInfo
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

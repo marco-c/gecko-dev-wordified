@@ -8282,7 +8282,7 @@ DatastoreOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

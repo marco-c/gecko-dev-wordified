@@ -2925,7 +2925,7 @@ RELEASE_OR_BETA
 :
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3845,7 +3845,7 @@ SendInitBackgroundRunnable
 )
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -8428,7 +8428,7 @@ __func__
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

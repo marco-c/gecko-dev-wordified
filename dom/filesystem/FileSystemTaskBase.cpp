@@ -942,7 +942,7 @@ aParent
 )
 mBackgroundEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

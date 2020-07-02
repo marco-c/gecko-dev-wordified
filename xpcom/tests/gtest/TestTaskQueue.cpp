@@ -595,7 +595,7 @@ AwaitShutdownAndIdle
 TEST
 (
 TaskQueue
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 )
 {
 RefPtr
@@ -648,7 +648,7 @@ nsISerialEventTarget
 >
 thread
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

@@ -30206,7 +30206,7 @@ DatabaseOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -68227,7 +68227,7 @@ aDatabaseInfo
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -68942,7 +68942,7 @@ aCallback
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -72840,7 +72840,7 @@ aChromeWriteAccessAllowed
 )
 mBackgroundThread
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -93232,7 +93232,7 @@ mShutdownRequested
 ;
 mBackgroundThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -94948,7 +94948,7 @@ DeleteFilesRunnable
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -1199,7 +1199,7 @@ nsIEventTarget
 *
 thread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -1684,7 +1684,7 @@ nsIEventTarget
 *
 thread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -2382,7 +2382,7 @@ target
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -3212,7 +3212,7 @@ mozilla
 {
 nsIEventTarget
 *
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 {
@@ -3268,7 +3268,7 @@ GetMainThreadSerialEventTarget
 }
 nsISerialEventTarget
 *
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 {
@@ -3679,7 +3679,7 @@ target
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

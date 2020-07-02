@@ -702,7 +702,7 @@ IsCurrentThreadRunningWorker
 {
 mCreationEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

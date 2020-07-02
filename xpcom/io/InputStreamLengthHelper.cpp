@@ -227,7 +227,7 @@ mSize
 {
 mCallbackTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;
@@ -1051,7 +1051,7 @@ async
 nsIInputStreamLength
 implementations
 .
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -1271,7 +1271,7 @@ asyncStreamLength
 AsyncLengthWait
 (
 this
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

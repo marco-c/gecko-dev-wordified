@@ -339,7 +339,7 @@ SendSetServiceWorkerSkipWaitingFlag
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -586,7 +586,7 @@ aArgs
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

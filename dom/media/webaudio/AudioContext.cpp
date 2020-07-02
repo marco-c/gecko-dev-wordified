@@ -4623,7 +4623,7 @@ Other
 ;
 }
 return
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

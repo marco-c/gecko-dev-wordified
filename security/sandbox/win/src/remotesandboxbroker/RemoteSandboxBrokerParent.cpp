@@ -388,7 +388,7 @@ AsyncLaunch
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

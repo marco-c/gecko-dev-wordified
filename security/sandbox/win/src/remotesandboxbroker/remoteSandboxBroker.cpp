@@ -449,7 +449,7 @@ shutdown
 .
 mIPCLaunchThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -635,7 +635,7 @@ shareHandles
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

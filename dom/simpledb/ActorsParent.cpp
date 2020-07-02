@@ -1399,7 +1399,7 @@ ConnectionOperationBase
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -3286,7 +3286,7 @@ StreamHelper
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

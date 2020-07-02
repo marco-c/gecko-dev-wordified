@@ -1325,7 +1325,7 @@ aObject
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

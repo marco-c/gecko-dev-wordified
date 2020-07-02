@@ -414,7 +414,7 @@ nullptr
 )
 mEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

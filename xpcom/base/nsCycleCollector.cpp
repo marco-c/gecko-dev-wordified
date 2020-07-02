@@ -20478,7 +20478,7 @@ ifdef
 DEBUG
 mEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

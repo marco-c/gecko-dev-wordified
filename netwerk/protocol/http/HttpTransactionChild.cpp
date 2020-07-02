@@ -892,7 +892,7 @@ requestHead
 requestBody
 requestContentLength
 requestBodyHasHeaders
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 nullptr

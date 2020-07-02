@@ -89,7 +89,7 @@ mPermittedLookupEventTarget
 mozilla
 :
 :
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

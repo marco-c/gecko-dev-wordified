@@ -223,7 +223,7 @@ mConsumerTarget
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

@@ -183,7 +183,7 @@ using
 mozilla
 :
 :
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 ;
 using
 mozilla
@@ -2959,7 +2959,8 @@ Called
 /
 AsyncWait
 -
-withEventTarget
+with
+EventTarget
 -
 closureOnly
 TEST
@@ -4990,7 +4991,7 @@ afsis
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -5192,7 +5193,7 @@ afsis
 AsyncLengthWait
 (
 callback1
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -5228,7 +5229,7 @@ afsis
 AsyncLengthWait
 (
 callback2
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

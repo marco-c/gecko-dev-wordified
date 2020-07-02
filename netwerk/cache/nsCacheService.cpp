@@ -2508,7 +2508,7 @@ listener
 ;
 mEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -5474,7 +5474,7 @@ request
 >
 mEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

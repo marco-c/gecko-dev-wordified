@@ -259,7 +259,7 @@ aUpdateViaCache
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -362,7 +362,7 @@ aURL
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -460,7 +460,7 @@ aClientInfo
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -591,7 +591,7 @@ aClientInfo
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -645,8 +645,9 @@ ServiceWorkerContainerParent
 ServiceWorkerContainerParent
 (
 )
-{
-}
+=
+default
+;
 ServiceWorkerContainerParent
 :
 :

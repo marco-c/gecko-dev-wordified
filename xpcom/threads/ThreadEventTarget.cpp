@@ -773,7 +773,7 @@ nsIEventTarget
 >
 current
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

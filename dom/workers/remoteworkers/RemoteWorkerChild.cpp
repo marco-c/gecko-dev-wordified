@@ -1403,7 +1403,7 @@ TServiceWorkerData
 )
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -5860,7 +5860,7 @@ SendSetServiceWorkerSkipWaitingFlag
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

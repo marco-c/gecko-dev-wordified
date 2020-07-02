@@ -23693,7 +23693,7 @@ mODATarget
 {
 target
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -26042,7 +26042,7 @@ GetSocketProcessBridge
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

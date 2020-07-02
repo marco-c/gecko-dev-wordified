@@ -2456,7 +2456,7 @@ else
 {
 mTargetThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

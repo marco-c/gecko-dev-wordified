@@ -535,7 +535,7 @@ target
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

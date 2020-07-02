@@ -1105,7 +1105,7 @@ aTarget
 )
 mEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

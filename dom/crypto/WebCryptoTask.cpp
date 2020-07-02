@@ -1652,7 +1652,7 @@ calling
 thread
 mOriginalEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

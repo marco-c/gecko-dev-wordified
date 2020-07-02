@@ -3081,7 +3081,7 @@ mEventTarget
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -5030,7 +5030,7 @@ aTarget
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

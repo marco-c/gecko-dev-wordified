@@ -494,7 +494,7 @@ aPath
 )
 mBackgroundEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -730,7 +730,7 @@ aCallback
 )
 mBackgroundEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

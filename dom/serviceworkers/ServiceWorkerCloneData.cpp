@@ -182,7 +182,7 @@ ServiceWorkerCloneData
 :
 mEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

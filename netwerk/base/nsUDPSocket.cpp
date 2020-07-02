@@ -5438,7 +5438,7 @@ aListener
 )
 mTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -5841,7 +5841,7 @@ aListener
 )
 mTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -6710,7 +6710,7 @@ mLock
 ;
 mListenerTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

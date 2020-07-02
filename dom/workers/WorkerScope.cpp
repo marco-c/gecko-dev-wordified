@@ -4923,7 +4923,7 @@ SetServiceWorkerSkipWaitingFlag
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

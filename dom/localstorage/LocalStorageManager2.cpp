@@ -470,7 +470,7 @@ aManager
 )
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -726,7 +726,7 @@ aInitAction
 )
 mInitiatingEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -3263,7 +3263,7 @@ aQuotaInfo
 )
 mInitiatingThread
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -4842,7 +4842,7 @@ unsafeGetRawPtr
 )
 mOwningEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

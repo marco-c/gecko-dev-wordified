@@ -531,7 +531,7 @@ aCallback
 )
 mTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

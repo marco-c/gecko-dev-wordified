@@ -1941,7 +1941,7 @@ NS_OK
 {
 mCallbackTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
