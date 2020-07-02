@@ -16,6 +16,7 @@ GET
 .
 first
 (
+b
 "
 key
 "
@@ -27,6 +28,7 @@ request
 method
 =
 =
+u
 "
 POST
 "
@@ -52,6 +54,7 @@ key
 request
 .
 body
+u
 '
 /
 scroll
@@ -66,6 +69,7 @@ fragment
 )
         
 return
+u
 "
 ok
 "
@@ -93,6 +97,7 @@ stash
 take
 (
 key
+u
 '
 /
 scroll
