@@ -510,6 +510,12 @@ comm
 -
 esr68
 '
+        
+'
+comm
+-
+esr78
+'
     
 ]
 )
@@ -736,6 +742,12 @@ beta
 comm
 -
 esr68
+'
+        
+'
+comm
+-
+esr78
 '
     
 ]
@@ -1004,6 +1016,12 @@ release
 comm
 -
 esr68
+'
+        
+'
+comm
+-
+esr78
 '
     
 ]
