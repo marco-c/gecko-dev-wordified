@@ -4821,11 +4821,6 @@ RefNull
 (
 ty
 )
-|
-RefIsNull
-(
-ty
-)
 =
 >
 self
