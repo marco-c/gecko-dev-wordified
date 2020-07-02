@@ -146,6 +146,9 @@ h
 class
 gfxContext
 ;
+namespace
+mozilla
+{
 /
 *
 *
@@ -162,7 +165,7 @@ frames
 *
 /
 class
-nsSVGViewportFrame
+SVGViewportFrame
 :
 public
 nsSVGDisplayContainerFrame
@@ -171,7 +174,7 @@ nsISVGSVGFrame
 {
 protected
 :
-nsSVGViewportFrame
+SVGViewportFrame
 (
 ComputedStyle
 *
@@ -198,7 +201,7 @@ public
 :
 NS_DECL_ABSTRACT_FRAME
 (
-nsSVGViewportFrame
+SVGViewportFrame
 )
 virtual
 nsresult
@@ -314,6 +317,11 @@ override
 ;
 }
 ;
+}
+/
+/
+namespace
+mozilla
 #
 endif
 /
