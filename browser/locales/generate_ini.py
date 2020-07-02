@@ -98,21 +98,15 @@ def
 main
 (
 output
-updater_ini
-updater_ini_append
+ini
+ini_append
+=
+None
 locale
 =
 None
 )
 :
-    
-assert
-(
-locale
-is
-not
-None
-)
     
 fixup_re
 =
@@ -133,9 +127,8 @@ Text
 )
     
 #
-updater
-.
-ini
+Input
+INI
 is
 always
 utf
@@ -148,7 +141,7 @@ codecs
 .
 open
 (
-updater_ini
+ini
 '
 rb
 '
@@ -211,6 +204,8 @@ line
 )
     
 if
+ini_append
+and
 buildconfig
 .
 substs
@@ -232,7 +227,7 @@ append
 the
 contents
 of
-updater_ini_append
+ini_append
 .
         
 with
@@ -240,7 +235,7 @@ codecs
 .
 open
 (
-updater_ini_append
+ini_append
 '
 rb
 '
