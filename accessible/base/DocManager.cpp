@@ -345,6 +345,8 @@ DocManager
 :
 sRemoteDocuments
 ;
+StaticAutoPtr
+<
 nsRefPtrHashtable
 <
 nsPtrHashKey
@@ -354,13 +356,11 @@ DocAccessibleParent
 >
 xpcAccessibleDocument
 >
-*
+>
 DocManager
 :
 :
 sRemoteXPCDocumentCache
-=
-nullptr
 ;
 /
 /
@@ -1118,6 +1118,12 @@ DocAccessibleParent
 >
 xpcAccessibleDocument
 >
+;
+ClearOnShutdown
+(
+&
+sRemoteXPCDocumentCache
+)
 ;
 }
 MOZ_ASSERT
