@@ -366,7 +366,7 @@ logMessages
 info
 (
 "
-Open
+Select
 the
 console
 "
@@ -1159,6 +1159,16 @@ warn
 css
 "
 )
+"
+Couldn
+'
+t
+find
+the
+CSS
+warning
+message
+"
 )
 ;
 ok
