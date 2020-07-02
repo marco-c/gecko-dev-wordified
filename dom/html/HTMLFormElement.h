@@ -189,13 +189,6 @@ h
 #
 include
 "
-nsIWebProgressListener
-.
-h
-"
-#
-include
-"
 nsIRadioGroupContainer
 .
 h
@@ -283,8 +276,6 @@ final
 public
 nsGenericHTMLElement
 public
-nsIWebProgressListener
-public
 nsIForm
 public
 nsIRadioGroupContainer
@@ -329,10 +320,6 @@ FORM_CONTROL_LIST_HASHTABLE_LENGTH
 /
 nsISupports
 NS_DECL_ISUPPORTS_INHERITED
-/
-/
-nsIWebProgressListener
-NS_DECL_NSIWEBPROGRESSLISTENER
 /
 /
 nsIForm
