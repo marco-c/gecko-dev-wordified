@@ -300,11 +300,6 @@ TestStringStream
 cpp
 '
 '
-TestSubstringTuple
-.
-cpp
-'
-'
 TestSynchronization
 .
 cpp
