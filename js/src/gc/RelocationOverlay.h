@@ -361,13 +361,12 @@ RelocationOverlay
 *
 next_
 ;
+explicit
 RelocationOverlay
 (
 Cell
 *
 dst
-uintptr_t
-flags
 )
 ;
 public
