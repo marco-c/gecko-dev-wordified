@@ -3532,6 +3532,13 @@ LogTaskBase
 nsIRunnable
 >
 ;
+template
+class
+LogTaskBase
+<
+MicroTaskRunnable
+>
+;
 MOZ_THREAD_LOCAL
 (
 nsISerialEventTarget
