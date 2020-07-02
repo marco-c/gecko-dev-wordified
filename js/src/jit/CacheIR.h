@@ -9347,13 +9347,6 @@ callee
 )
 ;
 AttachDecision
-tryAttachMathFRound
-(
-HandleFunction
-callee
-)
-;
-AttachDecision
 tryAttachMathATan2
 (
 HandleFunction
