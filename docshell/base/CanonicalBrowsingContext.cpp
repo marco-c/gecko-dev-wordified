@@ -5049,13 +5049,6 @@ hal
 PROCESS_PRIORITY_FOREGROUND
 /
 *
-aOpener
-=
-*
-/
-nullptr
-/
-*
 aPreferUsed
 =
 *
