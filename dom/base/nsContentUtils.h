@@ -20528,15 +20528,6 @@ aDefinition
 nullptr
 )
 ;
-static
-bool
-AttemptLargeAllocationLoad
-(
-nsIHttpChannel
-*
-aChannel
-)
-;
 /
 *
 *
