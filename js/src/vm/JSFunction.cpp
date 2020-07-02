@@ -14611,8 +14611,6 @@ gc
 :
 AllocKind
 allocKind
-NewObjectKind
-newKind
 HandleObject
 proto
 )
@@ -14768,11 +14766,6 @@ maybeInterpretedFunction
 (
 )
 ;
-if
-(
-setTypeForFunction
-)
-{
 /
 /
 The
@@ -14789,11 +14782,15 @@ object
 group
 addendum
 .
+NewObjectKind
 newKind
 =
+setTypeForFunction
+?
 TenuredObject
+:
+GenericObject
 ;
-}
 RootedFunction
 clone
 (
