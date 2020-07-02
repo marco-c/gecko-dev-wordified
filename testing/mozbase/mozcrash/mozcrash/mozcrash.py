@@ -71,6 +71,8 @@ shutil
 import
 signal
 import
+six
+import
 subprocess
 import
 sys
@@ -82,21 +84,6 @@ from
 collections
 import
 namedtuple
-from
-six
-import
-string_types
-text_type
-from
-six
-.
-moves
-.
-urllib
-.
-request
-import
-urlopen
 import
 mozfile
 import
@@ -1598,6 +1585,14 @@ zipfile
             
 data
 =
+six
+.
+moves
+.
+urllib
+.
+request
+.
 urlopen
 (
 self
@@ -2234,6 +2229,30 @@ retcode
 p
 .
 returncode
+            
+if
+six
+.
+PY3
+:
+                
+out
+=
+six
+.
+ensure_str
+(
+out
+)
+                
+err
+=
+six
+.
+ensure_str
+(
+err
+)
             
 if
 len
@@ -3993,6 +4012,8 @@ if
 isinstance
 (
 file_name
+six
+.
 string_types
 )
 :
@@ -4148,6 +4169,8 @@ not
 isinstance
 (
 file_name
+six
+.
 text_type
 )
 :
@@ -4172,6 +4195,8 @@ CreateFileW
             
 file_name
 =
+six
+.
 text_type
 (
 file_name
