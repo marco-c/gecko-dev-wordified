@@ -540,7 +540,7 @@ h
 /
 namespace
 class
-nsIEventTarget
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -1359,7 +1359,7 @@ SetEventTargetForActor
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -1407,12 +1407,12 @@ ReplaceEventTargetForActor
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 GetActorEventTarget
 (
@@ -1420,7 +1420,7 @@ GetActorEventTarget
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetActorEventTarget
 (
@@ -2727,7 +2727,7 @@ SetEventTargetForActorInternal
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -2738,12 +2738,12 @@ ReplaceEventTargetForActor
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 GetActorEventTarget
 (
@@ -2751,7 +2751,7 @@ GetActorEventTarget
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetActorEventTarget
 (
@@ -2883,7 +2883,7 @@ Open
 MessageChannel
 *
 aChannel
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 mozilla
@@ -3422,7 +3422,7 @@ ActorConnected
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetMessageEventTarget
 (
@@ -3546,7 +3546,7 @@ IDMap
 <
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 >
 mEventTargetMap
