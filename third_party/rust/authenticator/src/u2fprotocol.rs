@@ -70,6 +70,9 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 needless_lifetimes
 )
 )

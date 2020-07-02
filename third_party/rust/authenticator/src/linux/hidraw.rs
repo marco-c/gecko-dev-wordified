@@ -70,6 +70,9 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 cast_lossless
 )
 )
