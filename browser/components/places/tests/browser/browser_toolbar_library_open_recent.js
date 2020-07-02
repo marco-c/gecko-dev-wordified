@@ -220,6 +220,12 @@ button
 "
 )
 ;
+bookmarksButton
+.
+click
+(
+)
+;
 let
 BookmarksView
 =
@@ -245,12 +251,6 @@ BookmarksView
 "
 ViewShown
 "
-)
-;
-bookmarksButton
-.
-click
-(
 )
 ;
 await

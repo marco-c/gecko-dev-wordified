@@ -1088,6 +1088,12 @@ button
 "
 )
 ;
+bookmarks
+.
+click
+(
+)
+;
 let
 BMview
 =
@@ -1112,12 +1118,6 @@ BMview
 "
 ViewShown
 "
-)
-;
-bookmarks
-.
-click
-(
 )
 ;
 await
