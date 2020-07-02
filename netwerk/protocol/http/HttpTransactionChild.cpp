@@ -3065,6 +3065,10 @@ mDataBridgeParent
 nullptr
 ;
 }
+mTransactionPump
+=
+nullptr
+;
 /
 /
 Don
