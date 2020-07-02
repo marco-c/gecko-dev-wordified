@@ -1667,6 +1667,10 @@ is_valid_product
 (
 product
 )
+and
+self
+.
+_strict_type_checks
 :
                 
 ParserError
