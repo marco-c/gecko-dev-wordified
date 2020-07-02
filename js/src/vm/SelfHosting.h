@@ -230,6 +230,7 @@ JSAtom
 *
 GetClonedSelfHostedFunctionName
 (
+const
 JSFunction
 *
 fun
