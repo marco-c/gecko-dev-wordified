@@ -57032,7 +57032,7 @@ if
 /
 /
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetNextPrevLineFromeBlockFrame
@@ -61234,7 +61234,7 @@ do
 {
 result
 =
-nsFrame
+nsIFrame
 :
 :
 GetNextPrevLineFromeBlockFrame
