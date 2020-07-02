@@ -704,7 +704,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 .
 h
 "
@@ -22437,7 +22437,7 @@ if
 dom
 :
 :
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 actor
 =
@@ -22446,7 +22446,7 @@ static_cast
 dom
 :
 :
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 >
 (

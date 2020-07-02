@@ -185,7 +185,7 @@ namespace
 dom
 {
 class
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 ;
 #
 define
@@ -247,7 +247,7 @@ NS_DECL_NSIASYNCINPUTSTREAMLENGTH
 explicit
 IPCBlobInputStream
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -335,7 +335,7 @@ aProofOfLock
 ;
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 mActor
 ;
