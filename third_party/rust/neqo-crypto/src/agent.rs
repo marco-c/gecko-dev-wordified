@@ -2386,7 +2386,7 @@ ciphers
 .
 pub
 fn
-enable_ciphers
+set_ciphers
 (
 &
 mut
