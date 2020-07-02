@@ -1173,11 +1173,6 @@ SFNTData
 cpp
 '
 '
-SFNTNameTable
-.
-cpp
-'
-'
 SourceSurfaceCairo
 .
 cpp
