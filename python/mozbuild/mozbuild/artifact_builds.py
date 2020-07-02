@@ -173,12 +173,6 @@ opt
 '
 linux
 -
-pgo
-'
-    
-'
-linux
--
 debug
 '
     
@@ -186,12 +180,6 @@ debug
 linux64
 -
 opt
-'
-    
-'
-linux64
--
-pgo
 '
     
 '
@@ -221,12 +209,6 @@ opt
 '
 win32
 -
-pgo
-'
-    
-'
-win32
--
 debug
 '
     
@@ -234,12 +216,6 @@ debug
 win64
 -
 opt
-'
-    
-'
-win64
--
-pgo
 '
     
 '
