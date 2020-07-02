@@ -49560,9 +49560,10 @@ continue
 ;
 }
 }
-UNKNOWN_FILE_WARNING
+WARN_IF_FILE_IS_UNKNOWN
 (
-leafName
+*
+file
 )
 ;
 }
