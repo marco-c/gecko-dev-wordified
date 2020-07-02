@@ -755,7 +755,7 @@ i
 match
 input
 .
-try
+try_parse
 (
 |
 i
@@ -791,7 +791,7 @@ y_pos
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -826,7 +826,7 @@ x_pos
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -886,7 +886,7 @@ lp
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -948,7 +948,7 @@ y_keyword
 =
 input
 .
-try
+try_parse
 (
 VerticalPositionKeyword
 :
@@ -961,7 +961,7 @@ y_lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1085,7 +1085,7 @@ y_keyword
 =
 input
 .
-try
+try_parse
 (
 VerticalPositionKeyword
 :
@@ -1128,7 +1128,7 @@ y_lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1182,7 +1182,7 @@ _
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1243,7 +1243,7 @@ ParseError
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1254,7 +1254,7 @@ y_lp
 =
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1283,7 +1283,7 @@ x_keyword
 =
 i
 .
-try
+try_parse
 (
 HorizontalPositionKeyword
 :
@@ -1296,7 +1296,7 @@ x_lp
 =
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1839,7 +1839,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1877,7 +1877,7 @@ lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1924,7 +1924,7 @@ lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4637,7 +4637,7 @@ string
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5556,7 +5556,7 @@ auto
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5576,7 +5576,7 @@ ratio
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5602,7 +5602,7 @@ auto
 =
 input
 .
-try
+try_parse
 (
 |
 i

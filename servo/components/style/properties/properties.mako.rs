@@ -11568,7 +11568,7 @@ keyword
 =
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :
@@ -16800,7 +16800,7 @@ value
 match
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :
@@ -16918,7 +16918,7 @@ less
 .
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :
@@ -17160,7 +17160,7 @@ keyword
 =
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :

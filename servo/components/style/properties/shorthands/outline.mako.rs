@@ -254,7 +254,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -302,7 +302,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -347,7 +347,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input

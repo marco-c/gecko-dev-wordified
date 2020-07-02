@@ -614,7 +614,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -658,7 +658,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -692,7 +692,7 @@ size
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -763,7 +763,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input

@@ -270,7 +270,7 @@ loop
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -345,7 +345,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -390,7 +390,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -472,7 +472,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input

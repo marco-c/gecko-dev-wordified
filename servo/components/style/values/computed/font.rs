@@ -2247,7 +2247,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2580,7 +2580,7 @@ ident
 =
 input
 .
-try
+try_parse
 (
 |
 i

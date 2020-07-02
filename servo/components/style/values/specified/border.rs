@@ -800,7 +800,7 @@ length
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1231,7 +1231,7 @@ fill
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1275,7 +1275,7 @@ fill
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1370,7 +1370,7 @@ heights
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1918,7 +1918,7 @@ vertical
 =
 input
 .
-try
+try_parse
 (
 BorderImageRepeatKeyword
 :

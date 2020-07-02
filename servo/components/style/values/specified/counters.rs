@@ -475,7 +475,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -607,7 +607,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -757,7 +757,7 @@ ListStyleType
 {
 input
 .
-try
+try_parse
 (
 |
 input
@@ -818,7 +818,7 @@ CounterStyle
 {
 input
 .
-try
+try_parse
 (
 |
 input
@@ -964,7 +964,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -999,7 +999,7 @@ Normal
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1081,7 +1081,7 @@ url
 =
 input
 .
-try
+try_parse
 (
 |
 i

@@ -348,7 +348,7 @@ angle
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -379,7 +379,7 @@ size
 =
 input
 .
-try
+try_parse
 (
 RaySize
 :
@@ -410,7 +410,7 @@ contain
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -541,7 +541,7 @@ none
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1186,7 +1186,7 @@ direction
 =
 input
 .
-try
+try_parse
 (
 OffsetRotateDirection
 :
@@ -1199,7 +1199,7 @@ angle
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1247,7 +1247,7 @@ direction
 =
 input
 .
-try
+try_parse
 (
 OffsetRotateDirection
 :

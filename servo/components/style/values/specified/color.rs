@@ -2163,7 +2163,7 @@ context
 match
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2267,7 +2267,7 @@ system
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2837,7 +2837,7 @@ i
 {
 input
 .
-try
+try_parse
 (
 |
 i

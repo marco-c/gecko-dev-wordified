@@ -410,7 +410,7 @@ second
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -472,7 +472,7 @@ third
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -533,7 +533,7 @@ fourth
 =
 input
 .
-try
+try_parse
 (
 |
 i

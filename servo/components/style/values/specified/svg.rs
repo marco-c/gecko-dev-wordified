@@ -468,7 +468,7 @@ lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -603,7 +603,7 @@ values
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1170,7 +1170,7 @@ Ok
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1253,7 +1253,7 @@ ParseError
 =
 input
 .
-try
+try_parse
 (
 |
 input

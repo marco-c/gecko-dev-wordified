@@ -1426,7 +1426,7 @@ Equal
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1467,7 +1467,7 @@ GreaterThan
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2111,7 +2111,7 @@ operator
 =
 input
 .
-try
+try_parse
 (
 consume_operation_or_colon
 )

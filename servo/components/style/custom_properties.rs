@@ -3564,7 +3564,7 @@ clone
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3714,7 +3714,7 @@ expect_ident
 if
 input
 .
-try
+try_parse
 (
 |
 input

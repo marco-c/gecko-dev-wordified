@@ -560,7 +560,7 @@ style
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -591,7 +591,7 @@ style
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -897,7 +897,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -929,7 +929,7 @@ Auto
 if
 input
 .
-try
+try_parse
 (
 |
 input

@@ -322,7 +322,7 @@ border_style
 =
 input
 .
-try
+try_parse
 (
 BorderStyle
 :

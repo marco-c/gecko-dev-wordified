@@ -638,9 +638,9 @@ font
 {
 FontSize
 FontSizeAdjust
+FontSizeKeyword
 FontStretch
 FontSynthesis
-FontSizeKeyword
 }
 ;
 pub
@@ -1428,7 +1428,7 @@ per
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3205,7 +3205,7 @@ per
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5252,7 +5252,7 @@ left
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -5447,7 +5447,7 @@ v
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5929,7 +5929,7 @@ first
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5954,7 +5954,7 @@ token
 =
 input
 .
-try
+try_parse
 (
 |
 i

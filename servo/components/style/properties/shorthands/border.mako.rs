@@ -622,7 +622,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -666,7 +666,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 BorderStyle
 :
@@ -704,7 +704,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2492,7 +2492,7 @@ ParseError
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2542,7 +2542,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2586,7 +2586,7 @@ ParseError
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2616,7 +2616,7 @@ w
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2649,7 +2649,7 @@ o
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2775,7 +2775,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3319,7 +3319,7 @@ end_value
 =
 input
 .
-try
+try_parse
 (
 |
 input

@@ -2390,7 +2390,7 @@ allow_empty
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -6693,7 +6693,7 @@ second
 =
 input
 .
-try
+try_parse
 (
 |
 input

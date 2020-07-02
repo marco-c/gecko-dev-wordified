@@ -697,7 +697,7 @@ component
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -869,7 +869,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -913,7 +913,7 @@ p
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -951,7 +951,7 @@ url
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1064,7 +1064,7 @@ it
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1102,7 +1102,7 @@ image
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1520,7 +1520,7 @@ round
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1687,7 +1687,7 @@ radius
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1712,7 +1712,7 @@ position
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1882,7 +1882,7 @@ b
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1931,7 +1931,7 @@ position
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2117,7 +2117,7 @@ fill
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2352,7 +2352,7 @@ fill
 =
 input
 .
-try
+try_parse
 (
 |
 i

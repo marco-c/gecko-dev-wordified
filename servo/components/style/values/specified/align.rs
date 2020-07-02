@@ -1268,7 +1268,7 @@ first
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1332,7 +1332,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_baseline
 )
@@ -1367,7 +1367,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_content_distribution
 )
@@ -1403,7 +1403,7 @@ overflow_position
 =
 input
 .
-try
+try_parse
 (
 parse_overflow_position
 )
@@ -2574,7 +2574,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_baseline
 )
@@ -2605,7 +2605,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_auto_normal_stretch
 )
@@ -2638,7 +2638,7 @@ overflow_position
 =
 input
 .
-try
+try_parse
 (
 parse_overflow_position
 )
@@ -3266,7 +3266,7 @@ baseline
 =
 input
 .
-try
+try_parse
 (
 parse_baseline
 )
@@ -3295,7 +3295,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_normal_stretch
 )
@@ -3328,7 +3328,7 @@ overflow
 =
 input
 .
-try
+try_parse
 (
 parse_overflow_position
 )
@@ -3638,7 +3638,7 @@ baseline
 =
 input
 .
-try
+try_parse
 (
 parse_baseline
 )
@@ -3667,7 +3667,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_normal_stretch
 )
@@ -3707,7 +3707,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 parse_legacy
 )
@@ -3740,7 +3740,7 @@ overflow
 =
 input
 .
-try
+try_parse
 (
 parse_overflow_position
 )
@@ -4896,7 +4896,7 @@ flags
 =
 input
 .
-try
+try_parse
 (
 parse_left_right_center
 )

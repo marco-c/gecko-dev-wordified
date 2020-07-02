@@ -641,7 +641,7 @@ sys
 =
 input
 .
-try
+try_parse
 (
 SystemFont
 :
@@ -782,7 +782,7 @@ them
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -825,7 +825,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -866,7 +866,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -907,7 +907,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -948,7 +948,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 FontStretchKeyword
 :
@@ -1028,7 +1028,7 @@ line_height
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2399,7 +2399,7 @@ endfor
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2443,7 +2443,7 @@ else
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2533,7 +2533,7 @@ loop
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2555,7 +2555,7 @@ is_ok
 |
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2612,7 +2612,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i

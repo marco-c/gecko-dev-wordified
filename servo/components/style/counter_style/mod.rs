@@ -2756,7 +2756,7 @@ first_symbol_value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3404,7 +3404,7 @@ input
 ?
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3664,7 +3664,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3845,7 +3845,7 @@ integer
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3985,7 +3985,7 @@ pad_with
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -4278,7 +4278,7 @@ s
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -4648,7 +4648,7 @@ symbol
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -4854,7 +4854,7 @@ result
 =
 input
 .
-try
+try_parse
 (
 |
 input
