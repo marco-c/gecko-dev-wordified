@@ -75,7 +75,6 @@ const
 {
 AUDIT
 ENABLE
-DISABLE
 RESET
 SELECT
 HIGHLIGHT
@@ -226,17 +225,6 @@ onToggle
 state
 action
 true
-)
-;
-case
-DISABLE
-:
-return
-onToggle
-(
-state
-action
-false
 )
 ;
 case
