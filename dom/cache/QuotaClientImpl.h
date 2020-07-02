@@ -782,7 +782,11 @@ CacheQuotaClient
 (
 )
 ;
+Result
+<
+UsageInfo
 nsresult
+>
 GetUsageForOriginInternal
 (
 PersistenceType
@@ -801,9 +805,6 @@ AtomicBool
 aCanceled
 bool
 aInitializing
-UsageInfo
-*
-aUsageInfo
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
