@@ -127,9 +127,9 @@ h
 include
 "
 mozilla
-\
+/
 dom
-\
+/
 MediaController
 .
 h
@@ -138,9 +138,9 @@ h
 include
 "
 mozilla
-\
+/
 dom
-\
+/
 MediaControlKeySource
 .
 h
@@ -149,7 +149,7 @@ h
 include
 "
 mozilla
-\
+/
 Maybe
 .
 h
