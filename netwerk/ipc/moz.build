@@ -154,6 +154,11 @@ NeckoTargetHolder
 h
 '
 '
+ParentChannelWrapper
+.
+h
+'
+'
 ParentProcessDocumentChannel
 .
 h
@@ -255,6 +260,11 @@ cpp
 '
 '
 NeckoTargetHolder
+.
+cpp
+'
+'
+ParentChannelWrapper
 .
 cpp
 '
