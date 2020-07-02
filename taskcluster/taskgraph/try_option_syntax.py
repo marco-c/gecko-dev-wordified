@@ -5192,17 +5192,11 @@ check_run_on_projects
 :
             
 return
-set
-(
-[
-'
-try
-'
+{
 '
 all
 '
-]
-)
+}
 &
 set
 (
