@@ -728,9 +728,9 @@ override
 virtual
 already_AddRefed
 <
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 >
-AllocPIPCBlobInputStreamParent
+AllocPRemoteLazyInputStreamParent
 (
 const
 nsID
@@ -751,9 +751,9 @@ ipc
 :
 :
 IPCResult
-RecvPIPCBlobInputStreamConstructor
+RecvPRemoteLazyInputStreamConstructor
 (
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 aActor
 const
