@@ -894,6 +894,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 makeEngineFromConfig
 (
 config

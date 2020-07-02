@@ -11054,6 +11054,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 reset
 (
 )

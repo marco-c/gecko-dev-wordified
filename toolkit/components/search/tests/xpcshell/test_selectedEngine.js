@@ -179,6 +179,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 reset
 (
 )
@@ -236,6 +238,8 @@ kTestEngineName
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
@@ -394,6 +398,8 @@ same
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
@@ -584,6 +590,8 @@ ignored
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
@@ -1147,6 +1155,8 @@ unchanged
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
