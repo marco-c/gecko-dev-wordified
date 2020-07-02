@@ -4629,6 +4629,11 @@ isPrivate
 options
 .
 incognito
+loadingPrincipal
+:
+context
+.
+principal
 }
 ;
 /
