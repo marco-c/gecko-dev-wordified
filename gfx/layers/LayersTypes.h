@@ -2792,6 +2792,15 @@ clang
 -
 format
 on
+extern
+const
+char
+*
+kCompositionPayloadTypeNames
+[
+kCompositionPayloadTypeCount
+]
+;
 struct
 CompositionPayload
 {
