@@ -15183,7 +15183,7 @@ dest
 src64
 )
 ;
-branchTest32
+branchTestPtr
 (
 Assembler
 :
