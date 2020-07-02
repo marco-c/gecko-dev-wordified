@@ -5293,7 +5293,7 @@ downloadsCmd_open
 openWhere
 =
 "
-current
+tab
 "
 )
 {

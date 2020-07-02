@@ -2372,10 +2372,6 @@ downloadsCmd_open
 ;
 let
 openWhere
-=
-"
-current
-"
 ;
 if
 (

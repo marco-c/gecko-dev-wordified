@@ -139,7 +139,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -206,7 +206,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -285,6 +285,12 @@ open
 foreground
 tab
 "
+/
+/
+duplicates
+the
+default
+behavior
 whichUI
 :
 "
@@ -457,7 +463,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -517,7 +523,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -594,6 +600,11 @@ open
 foreground
 tab
 "
+/
+/
+duplicates
+default
+behavior
 whichUI
 :
 "
@@ -783,7 +794,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true

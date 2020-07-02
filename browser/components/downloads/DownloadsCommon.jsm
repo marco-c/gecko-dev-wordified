@@ -3048,9 +3048,6 @@ URI
 One
 of
 "
-current
-"
-"
 window
 "
 "
