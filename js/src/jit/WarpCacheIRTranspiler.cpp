@@ -1522,15 +1522,6 @@ stringStubField
 expectedOffset
 )
 ;
-/
-/
-TODO
-:
-Improve
-code
--
-gen
-.
 auto
 *
 ins

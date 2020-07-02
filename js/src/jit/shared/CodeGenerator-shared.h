@@ -2512,7 +2512,9 @@ reg
 ;
 /
 /
-Save
+Get
+/
+save
 /
 restore
 all
@@ -2524,6 +2526,15 @@ live
 and
 volatile
 .
+inline
+LiveRegisterSet
+liveVolatileRegs
+(
+LInstruction
+*
+ins
+)
+;
 inline
 void
 saveLiveVolatile

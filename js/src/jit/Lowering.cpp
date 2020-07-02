@@ -31036,6 +31036,9 @@ str
 (
 )
 )
+temp
+(
+)
 )
 ;
 assignSnapshot
@@ -31059,6 +31062,12 @@ ins
 str
 (
 )
+)
+;
+assignSafepoint
+(
+guard
+ins
 )
 ;
 }
