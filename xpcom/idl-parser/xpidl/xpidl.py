@@ -311,7 +311,7 @@ this
 list
 ?
 def
-rustBlacklistedForward
+rustPreventForward
 (
 s
 )
@@ -357,9 +357,10 @@ reason
 "
 "
     
-blacklisted
-=
-[
+return
+s
+in
+(
         
 "
 nsIFrame
@@ -373,12 +374,7 @@ nsIObjectFrame
 nsSubDocumentFrame
 "
     
-]
-    
-return
-s
-in
-blacklisted
+)
 def
 attlistToIDL
 (
@@ -3544,7 +3540,7 @@ calltype
 :
         
 if
-rustBlacklistedForward
+rustPreventForward
 (
 self
 .

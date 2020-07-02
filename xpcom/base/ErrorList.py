@@ -11205,7 +11205,7 @@ or
 phishing
     
 #
-blacklist
+list
 .
     
 errors

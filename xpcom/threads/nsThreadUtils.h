@@ -4973,11 +4973,7 @@ Revoke
 These
 ReturnTypeEnforcer
 classes
-set
-up
-a
-blacklist
-for
+disallow
 return
 types
 that
