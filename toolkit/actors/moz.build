@@ -407,9 +407,4 @@ WebChannelParent
 .
 jsm
 '
-'
-WebNavigationChild
-.
-jsm
-'
 ]
