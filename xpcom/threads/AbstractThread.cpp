@@ -1660,6 +1660,12 @@ IsCurrentThreadIn
 )
 )
 ;
+SerialEventTargetGuard
+guard
+(
+mThread
+)
+;
 return
 mRunnable
 -
