@@ -3246,16 +3246,6 @@ _init
 (
 )
 {
-logConsole
-.
-debug
-(
-"
-_init
-start
-"
-)
-;
 XPCOMUtils
 .
 defineLazyPreferenceGetter
