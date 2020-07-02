@@ -245,6 +245,12 @@ for
 UNumberFormatter
 and
 UFormattedNumber
+/
+/
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr

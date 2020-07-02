@@ -249,11 +249,15 @@ memory
 use
 for
 UDateFormat
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr
 size_t
-EstimatedMemoryUse
+UDateFormatEstimatedMemoryUse
 =
 91626
 ;

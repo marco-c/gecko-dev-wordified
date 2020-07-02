@@ -257,6 +257,12 @@ for
 UNumberFormatter
 and
 UFormattedNumber
+/
+/
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr
@@ -272,6 +278,10 @@ memory
 use
 for
 UPluralRules
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr

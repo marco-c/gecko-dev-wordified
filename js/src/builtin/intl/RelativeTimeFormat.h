@@ -254,6 +254,10 @@ memory
 use
 for
 URelativeDateTimeFormatter
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr

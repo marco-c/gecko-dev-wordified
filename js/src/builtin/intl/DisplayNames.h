@@ -297,6 +297,10 @@ memory
 use
 for
 ULocaleDisplayNames
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr

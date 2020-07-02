@@ -276,6 +276,10 @@ memory
 use
 for
 UCollator
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr

@@ -245,6 +245,10 @@ memory
 use
 for
 UListFormatter
+(
+see
+IcuMemoryUsage
+)
 .
 static
 constexpr
