@@ -180,13 +180,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-ipc
-;
-namespace
-dom
-{
 namespace
 {
 StaticMutex
@@ -233,9 +226,6 @@ Run
 )
 override
 {
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -475,9 +465,6 @@ return
 true
 ;
 }
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -511,9 +498,6 @@ Get
 (
 )
 {
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -547,9 +531,6 @@ GetOrCreate
 (
 )
 {
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -835,9 +816,6 @@ NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 )
 )
 ;
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -900,9 +878,6 @@ RemoteLazyInputStreamChild
 eInactiveMigrating
 )
 ;
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -1049,9 +1024,6 @@ runnable
 aRunnable
 )
 ;
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -1138,9 +1110,6 @@ IsOnDOMFileThread
 (
 )
 {
-mozilla
-:
-:
 StaticMutexAutoLock
 lock
 (
@@ -1180,11 +1149,6 @@ IsOnDOMFileThread
 )
 ;
 }
-}
-/
-/
-namespace
-dom
 }
 /
 /

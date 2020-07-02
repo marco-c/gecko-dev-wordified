@@ -203,13 +203,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-ipc
-;
-namespace
-dom
-{
 namespace
 {
 template
@@ -696,11 +689,6 @@ return
 NS_OK
 ;
 }
-}
-/
-/
-namespace
-dom
 }
 /
 /
