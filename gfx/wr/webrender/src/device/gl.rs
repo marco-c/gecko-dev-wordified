@@ -14049,6 +14049,9 @@ program
 &
 Program
 )
+-
+>
+bool
 {
 debug_assert
 !
@@ -14068,6 +14071,18 @@ is_initialized
 )
 )
 ;
+if
+!
+program
+.
+is_initialized
+(
+)
+{
+return
+false
+;
+}
 #
 [
 cfg
@@ -14124,6 +14139,7 @@ u_mode
 )
 ;
 }
+true
 }
 pub
 fn
