@@ -283,6 +283,17 @@ Any
 bool
 dict
 )
+        
+Optional
+(
+'
+description
+-
+links
+'
+)
+:
+dict
     
 }
 }
