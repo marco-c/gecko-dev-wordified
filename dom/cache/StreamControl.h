@@ -519,7 +519,6 @@ release
 this
 ref
 .
-typedef
 nsTObserverArray
 <
 RefPtr
@@ -530,9 +529,6 @@ ReadStream
 Controllable
 >
 >
-ReadStreamList
-;
-ReadStreamList
 mReadStreamList
 ;
 }

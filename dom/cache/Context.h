@@ -1362,15 +1362,11 @@ RemoveActivity
 (
 )
 .
-typedef
 nsTObserverArray
 <
 Activity
 *
 >
-ActivityList
-;
-ActivityList
 mActivityList
 ;
 /

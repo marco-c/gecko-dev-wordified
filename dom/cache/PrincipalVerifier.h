@@ -387,15 +387,11 @@ by
 RemoveListener
 (
 )
-typedef
 nsTObserverArray
 <
 Listener
 *
 >
-ListenerList
-;
-ListenerList
 mListenerList
 ;
 /
