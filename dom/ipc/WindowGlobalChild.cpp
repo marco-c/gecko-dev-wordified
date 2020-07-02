@@ -1652,7 +1652,7 @@ policy
 aDocument
 -
 >
-GetEmbedderPolicyFromHTTP
+GetEmbedderPolicy
 (
 )
 ;

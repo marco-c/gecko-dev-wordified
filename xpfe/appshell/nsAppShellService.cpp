@@ -4703,6 +4703,9 @@ domWindow
 SetInitialPrincipalToSubject
 (
 nullptr
+Nothing
+(
+)
 )
 ;
 /
