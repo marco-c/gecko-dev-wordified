@@ -3535,9 +3535,6 @@ tenuredCells
 PreviousGC
 previousGC
 ;
-double
-smoothedGrowthFactor
-;
 /
 /
 Calculate
