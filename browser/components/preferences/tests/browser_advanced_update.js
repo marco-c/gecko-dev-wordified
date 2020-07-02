@@ -244,8 +244,7 @@ null
 )
 ;
 }
-get
-updateCount
+getUpdateCount
 (
 )
 {
@@ -721,7 +720,9 @@ updates
 length
 mockUpdateManager
 .
-updateCount
+getUpdateCount
+(
+)
 "
 The
 update

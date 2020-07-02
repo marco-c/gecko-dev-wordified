@@ -147,7 +147,9 @@ uc
 =
 um
 .
-updateCount
+getUpdateCount
+(
+)
 ;
 if
 (

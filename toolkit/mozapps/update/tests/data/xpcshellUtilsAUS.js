@@ -7480,7 +7480,9 @@ equal
 (
 gUpdateManager
 .
-updateCount
+getUpdateCount
+(
+)
 aUpdateCount
 msgTags
 [
