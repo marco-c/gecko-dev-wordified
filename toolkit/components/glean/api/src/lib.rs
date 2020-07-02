@@ -137,6 +137,7 @@ pub
 mod
 ping_upload
 ;
+pub
 mod
 ipc
 ;
