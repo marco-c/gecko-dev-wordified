@@ -3843,12 +3843,10 @@ if
 weakListener
 )
 {
-listeners
--
->
-RemoveElement
+iter
+.
+Remove
 (
-listener
 )
 ;
 continue
