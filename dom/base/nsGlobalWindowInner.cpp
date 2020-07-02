@@ -41773,6 +41773,15 @@ DidRefresh
 (
 )
 {
+RefPtr
+<
+nsGlobalWindowInner
+>
+kungFuDeathGrip
+(
+this
+)
+;
 auto
 rejectionGuard
 =
