@@ -200,6 +200,11 @@ showAllTabsMenu
 PropTypes
 .
 bool
+allTabsMenuButtonTooltip
+:
+PropTypes
+.
+string
 sidebarToggleButton
 :
 PropTypes
@@ -345,6 +350,7 @@ onAfterChange
 onAllTabsMenuClick
 renderOnlySelected
 showAllTabsMenu
+allTabsMenuButtonTooltip
 activeTab
 }
 =
@@ -361,6 +367,7 @@ onAllTabsMenuClick
 renderOnlySelected
 renderSidebarToggle
 showAllTabsMenu
+allTabsMenuButtonTooltip
 activeTab
 }
 children

@@ -361,6 +361,11 @@ showAllTabsMenu
 PropTypes
 .
 bool
+allTabsMenuButtonTooltip
+:
+PropTypes
+.
+string
 onAllTabsMenuClick
 :
 PropTypes
@@ -2200,6 +2205,13 @@ tabs
 -
 menu
 "
+title
+:
+this
+.
+props
+.
+allTabsMenuButtonTooltip
 onClick
 :
 this

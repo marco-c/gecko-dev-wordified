@@ -248,6 +248,11 @@ showAllTabsMenu
 PropTypes
 .
 bool
+allTabsMenuButtonTooltip
+:
+PropTypes
+.
+string
 activeTabId
 :
 PropTypes
@@ -1946,6 +1951,13 @@ this
 props
 .
 showAllTabsMenu
+allTabsMenuButtonTooltip
+:
+this
+.
+props
+.
+allTabsMenuButtonTooltip
 sidebarToggleButton
 :
 this
