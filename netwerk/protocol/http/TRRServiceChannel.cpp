@@ -2929,7 +2929,7 @@ ConnMgr
 )
 -
 >
-DoShiftReloadConnectionCleanup
+DoShiftReloadConnectionCleanupWithConnInfo
 (
 mConnectionInfo
 )
@@ -2952,7 +2952,7 @@ TRRServiceChannel
 BeginConnect
 "
 "
-DoShiftReloadConnectionCleanup
+DoShiftReloadConnectionCleanupWithConnInfo
 failed
 :
 %

@@ -45223,7 +45223,7 @@ rv
 gHttpHandler
 -
 >
-DoShiftReloadConnectionCleanup
+DoShiftReloadConnectionCleanupWithConnInfo
 (
 mConnectionInfo
 )
@@ -45246,7 +45246,7 @@ nsHttpChannel
 BeginConnect
 "
 "
-DoShiftReloadConnectionCleanup
+DoShiftReloadConnectionCleanupWithConnInfo
 failed
 :
 %
