@@ -136,6 +136,13 @@ mozilla_TelemetryEventEnums_h
 #
 define
 mozilla_TelemetryEventEnums_h
+#
+include
+<
+stdint
+.
+h
+>
 namespace
 mozilla
 {
