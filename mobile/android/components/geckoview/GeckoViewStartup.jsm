@@ -575,7 +575,7 @@ GeckoView
 :
 WebExtension
 :
-Get
+CancelInstall
 "
 "
 GeckoView
@@ -596,7 +596,14 @@ GeckoView
 :
 WebExtension
 :
-CancelInstall
+EnsureBuiltIn
+"
+"
+GeckoView
+:
+WebExtension
+:
+Get
 "
 "
 GeckoView
