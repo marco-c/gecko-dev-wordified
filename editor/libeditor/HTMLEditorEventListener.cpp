@@ -2352,7 +2352,7 @@ Button
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 nsresult
@@ -2393,7 +2393,7 @@ Button
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 {
 nsresult

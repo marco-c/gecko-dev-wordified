@@ -2254,13 +2254,13 @@ eNotPressed
 =
 -
 1
-eLeft
+ePrimary
 =
 0
 eMiddle
 =
 1
-eRight
+eSecondary
 =
 2
 }

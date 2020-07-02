@@ -995,7 +995,7 @@ button
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 event
 .

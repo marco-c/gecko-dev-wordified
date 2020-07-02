@@ -1799,7 +1799,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 inner

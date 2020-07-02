@@ -1286,7 +1286,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 event
 .
@@ -1642,7 +1642,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 mButtonType
 =
@@ -1672,7 +1672,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 mButtonType
 =
@@ -2048,7 +2048,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 break
 ;
@@ -2082,7 +2082,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 break
 ;

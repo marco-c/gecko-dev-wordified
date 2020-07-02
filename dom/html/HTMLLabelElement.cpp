@@ -635,7 +635,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 /

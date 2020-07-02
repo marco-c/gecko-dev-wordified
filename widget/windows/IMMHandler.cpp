@@ -18250,7 +18250,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 button
 =
@@ -18274,7 +18274,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 button
 =

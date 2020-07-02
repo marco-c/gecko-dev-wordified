@@ -2419,7 +2419,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 #
@@ -2599,7 +2599,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 &
 &
@@ -2818,7 +2818,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 !

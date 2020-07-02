@@ -18945,7 +18945,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 OwnerDoc
@@ -20410,7 +20410,7 @@ sCurrentMouseBtn
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 )
 {

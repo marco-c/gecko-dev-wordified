@@ -834,7 +834,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 event
 -

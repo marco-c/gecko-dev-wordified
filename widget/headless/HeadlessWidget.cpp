@@ -2636,7 +2636,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 }
 if

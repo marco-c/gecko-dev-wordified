@@ -3136,7 +3136,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 return

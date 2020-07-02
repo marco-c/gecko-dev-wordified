@@ -1056,7 +1056,7 @@ return
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 }
 }

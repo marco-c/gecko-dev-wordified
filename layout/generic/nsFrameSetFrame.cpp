@@ -4662,7 +4662,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 EndMouseDrag
@@ -10164,7 +10164,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 nsHTMLFramesetFrame

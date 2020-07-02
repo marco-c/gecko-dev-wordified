@@ -2893,7 +2893,7 @@ eNotPressed
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 int16_t
 buttons

@@ -4016,7 +4016,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 {
 /
@@ -7369,7 +7369,7 @@ button
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 |
 |
@@ -7380,7 +7380,7 @@ button
 MouseButton
 :
 :
-eRight
+eSecondary
 &
 &
 GetScrollToClick
@@ -7418,7 +7418,7 @@ button
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 |
 |
@@ -7576,7 +7576,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 #
@@ -7629,7 +7629,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 {
 return

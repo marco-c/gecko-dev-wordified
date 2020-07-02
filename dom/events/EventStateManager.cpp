@@ -3769,7 +3769,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 BeginTrackingDragGesture
 (
@@ -3822,7 +3822,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 mRClickCount
 =
@@ -3865,7 +3865,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 if
 (
@@ -3913,7 +3913,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 case
 MouseButton
@@ -20727,7 +20727,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 !
@@ -21960,7 +21960,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 break
@@ -32113,7 +32113,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 if
 (
@@ -32283,7 +32283,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 if
 (
@@ -33437,7 +33437,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 ;
 bool
@@ -36742,7 +36742,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 !
