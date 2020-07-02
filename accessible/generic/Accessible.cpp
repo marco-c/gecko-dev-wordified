@@ -4777,9 +4777,6 @@ presshell
 /
 This
 happens
-in
-mobile
-platforms
 with
 async
 pinch
@@ -4787,12 +4784,12 @@ zooming
 .
 Here
 we
-/
-/
 scale
 the
 bounds
 before
+/
+/
 adding
 the
 screen
