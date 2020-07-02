@@ -130,6 +130,11 @@ RenderCompositorOGL
 h
 '
 '
+RenderCompositorSWGL
+.
+h
+'
+'
 RenderEGLImageTextureHost
 .
 h
@@ -206,6 +211,11 @@ cpp
 '
 '
 RenderCompositorOGL
+.
+cpp
+'
+'
+RenderCompositorSWGL
 .
 cpp
 '
