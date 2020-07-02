@@ -60151,6 +60151,10 @@ nsIFrame
 aFrame
 bool
 aSubtractScrollbars
+const
+nsSize
+*
+aOverrideScrollPortSize
 )
 {
 /
@@ -60232,6 +60236,11 @@ GetRect
 nsSize
 size
 =
+aOverrideScrollPortSize
+?
+*
+aOverrideScrollPortSize
+:
 rect
 .
 Size

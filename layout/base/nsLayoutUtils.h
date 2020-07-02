@@ -19621,6 +19621,12 @@ bool
 aSubtractScrollbars
 =
 true
+const
+nsSize
+*
+aOverrideScrollPortSize
+=
+nullptr
 )
 ;
 /
