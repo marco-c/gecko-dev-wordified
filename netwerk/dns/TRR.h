@@ -948,6 +948,14 @@ nsIChannel
 aChannel
 )
 ;
+nsresult
+FollowCname
+(
+nsIChannel
+*
+aChannel
+)
+;
 bool
 UseDefaultServer
 (
