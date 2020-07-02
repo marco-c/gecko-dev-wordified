@@ -571,11 +571,6 @@ layers
 CompositorBridgeParent
 *
 aBridge
-void
-*
-aSoftwareContext
-=
-nullptr
 )
 ;
 /
@@ -743,10 +738,6 @@ wr
 :
 WindowId
 mWindowId
-;
-void
-*
-mSoftwareContext
 ;
 TimeStamp
 mFrameStartTime
