@@ -301,8 +301,6 @@ default
 ChildProcessChannelListener
 (
 )
-=
-default
 ;
 struct
 CallbackArgs

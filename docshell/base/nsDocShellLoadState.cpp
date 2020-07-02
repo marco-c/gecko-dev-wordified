@@ -1240,6 +1240,8 @@ nsIChannel
 aPendingChannel
 uint64_t
 aLoadIdentifier
+uint64_t
+aRegistrarId
 nsDocShellLoadState
 *
 *
@@ -1319,6 +1321,13 @@ loadState
 mPendingRedirectedChannel
 =
 aPendingChannel
+;
+loadState
+-
+>
+mChannelRegistrarId
+=
+aRegistrarId
 ;
 /
 /
