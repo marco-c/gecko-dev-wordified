@@ -2814,6 +2814,12 @@ mCancelled
 =
 false
 ;
+Maybe
+<
+nsCString
+>
+mOriginalUriString
+;
 /
 /
 The
