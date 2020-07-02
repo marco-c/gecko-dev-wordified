@@ -2993,7 +2993,7 @@ unbuffered
 instanceof
 Ci
 .
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 )
 {
 /
