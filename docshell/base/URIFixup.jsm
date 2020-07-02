@@ -2421,6 +2421,10 @@ uriString
 startsWith
 (
 typo
++
+"
+:
+"
 )
 )
 {
