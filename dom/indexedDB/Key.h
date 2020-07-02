@@ -1082,7 +1082,7 @@ aVal
 ;
 IDBResult
 <
-void
+Key
 IDBSpecialValue
 :
 :
@@ -1090,9 +1090,6 @@ Invalid
 >
 ToLocaleAwareKey
 (
-Key
-&
-aTarget
 const
 nsCString
 &
