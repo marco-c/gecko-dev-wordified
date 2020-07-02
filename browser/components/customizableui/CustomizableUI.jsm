@@ -10837,10 +10837,11 @@ handlers
 let
 viewNode
 =
-aDocument
+PanelMultiView
 .
-getElementById
+getViewNode
 (
+aDocument
 aWidget
 .
 viewId
