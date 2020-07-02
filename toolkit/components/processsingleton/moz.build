@@ -119,6 +119,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+ContentProcessSingleton
+.
+jsm
+'
+'
 CustomElementsListener
 .
 jsm
