@@ -579,9 +579,9 @@ override
 virtual
 already_AddRefed
 <
-PRemoteLazyInputStreamChild
+PIPCBlobInputStreamChild
 >
-AllocPRemoteLazyInputStreamChild
+AllocPIPCBlobInputStreamChild
 (
 const
 nsID

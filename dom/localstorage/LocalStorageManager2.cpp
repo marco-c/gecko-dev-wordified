@@ -179,8 +179,9 @@ and
 dispatched
 to
 the
+DOM
+File
 *
-RemoteLazyInputStream
 Thread
 .
 *
@@ -198,7 +199,8 @@ been
 invoked
 on
 the
-RemoteLazyInputStream
+DOM
+File
 Thread
 and
 *
@@ -1521,9 +1523,8 @@ async
 request
 on
 the
-RemoteLazyInputStream
-/
-/
+DOM
+File
 thread
 .
 /
@@ -1533,7 +1534,8 @@ must
 be
 done
 on
-RemoteLazyInputStream
+DOM
+File
 Thread
 because
 it
@@ -1541,10 +1543,10 @@ it
 s
 very
 likely
-/
-/
 that
 a
+/
+/
 content
 process
 will
@@ -2079,7 +2081,7 @@ nsIEventTarget
 >
 domFileThread
 =
-RemoteLazyInputStreamThread
+IPCBlobInputStreamThread
 :
 :
 GetOrCreate

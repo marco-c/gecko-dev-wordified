@@ -251,7 +251,7 @@ TimeClip
 #
 include
 <
-mozIRemoteLazyInputStream
+mozIIPCBlobInputStream
 .
 h
 >
@@ -15724,7 +15724,7 @@ streams
 .
 nsCOMPtr
 <
-mozIRemoteLazyInputStream
+mozIIPCBlobInputStream
 >
 blobInputStream
 =

@@ -164,7 +164,7 @@ IPCStream
 ;
 include
 protocol
-PRemoteLazyInputStream
+PIPCBlobInputStream
 ;
 include
 ProtocolTypes
@@ -1414,7 +1414,7 @@ TimedChannelInfo
 timedChannel
 ;
 nullable
-PRemoteLazyInputStream
+PIPCBlobInputStream
 uploadStream
 ;
 bool

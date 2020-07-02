@@ -1389,7 +1389,7 @@ will
 happen
 when
 using
-RemoteLazyInputStream
+IPCBlobInputStream
 with
 an
 underlying
