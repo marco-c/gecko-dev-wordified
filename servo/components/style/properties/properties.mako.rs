@@ -18250,6 +18250,8 @@ derive
 Clone
 Debug
 MallocSizeOf
+Serialize
+Deserialize
 )
 ]
 %
