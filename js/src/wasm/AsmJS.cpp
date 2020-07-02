@@ -12242,7 +12242,7 @@ if
 (
 mask
 >
-MaxTableInitialLength
+MaxTableLength
 )
 {
 return
