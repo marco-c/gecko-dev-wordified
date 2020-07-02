@@ -1851,7 +1851,10 @@ mozilla
 :
 Some
 (
-Bailout_IonExceptionDebugMode
+BailoutKind
+:
+:
+IonExceptionDebugMode
 )
 ;
 }
@@ -2249,7 +2252,10 @@ if
 bailoutKind
 !
 =
-Bailout_FirstExecution
+BailoutKind
+:
+:
+FirstExecution
 &
 &
 !

@@ -3781,7 +3781,10 @@ MBail
 New
 (
 alloc_
-Bailout_Inevitable
+BailoutKind
+:
+:
+Inevitable
 )
 ;
 ins
@@ -3937,7 +3940,10 @@ MBail
 New
 (
 alloc_
-Bailout_Inevitable
+BailoutKind
+:
+:
+Inevitable
 )
 ;
 ins
@@ -4266,7 +4272,10 @@ MBail
 New
 (
 alloc_
-Bailout_Inevitable
+BailoutKind
+:
+:
+Inevitable
 )
 ;
 ins
@@ -4486,7 +4495,10 @@ MBail
 New
 (
 alloc_
-Bailout_Inevitable
+BailoutKind
+:
+:
+Inevitable
 )
 ;
 ins

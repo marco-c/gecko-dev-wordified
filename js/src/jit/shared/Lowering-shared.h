@@ -2357,7 +2357,10 @@ mir
 BailoutKind
 kind
 =
-Bailout_DuringVMCall
+BailoutKind
+:
+:
+DuringVMCall
 )
 ;
 /
