@@ -807,7 +807,11 @@ spec
 ;
 uint32_t
 aLineNumber
+=
+0
 aColumnNumber
+=
+0
 ;
 JSContext
 *
