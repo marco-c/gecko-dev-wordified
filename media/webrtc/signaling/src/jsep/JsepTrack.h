@@ -1805,7 +1805,7 @@ SsrcGenerator
 &
 ssrcGenerator
 bool
-rtxEnabled
+requireRtxSsrcs
 SdpMediaSection
 *
 msection
