@@ -689,17 +689,6 @@ a
 given
 test
 tab
-gBrowser
-.
-selectedTab
-=
-BrowserTestUtils
-.
-addTab
-(
-gBrowser
-)
-;
 const
 tab
 =

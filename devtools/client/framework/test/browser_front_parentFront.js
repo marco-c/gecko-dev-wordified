@@ -81,17 +81,6 @@ function
 (
 )
 {
-gBrowser
-.
-selectedTab
-=
-BrowserTestUtils
-.
-addTab
-(
-gBrowser
-)
-;
 const
 tab
 =

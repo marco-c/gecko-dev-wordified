@@ -198,17 +198,6 @@ client
 .
 mainRoot
 ;
-gBrowser
-.
-selectedTab
-=
-BrowserTestUtils
-.
-addTab
-(
-gBrowser
-)
-;
 await
 addTab
 (
