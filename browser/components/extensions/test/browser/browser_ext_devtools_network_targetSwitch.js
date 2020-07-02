@@ -64,7 +64,7 @@ test
 on
 debug
 test
-slave
+machine
 it
 takes
 about

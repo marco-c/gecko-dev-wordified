@@ -3847,7 +3847,7 @@ Populate
 the
 production
 test
-slaves
+machines
 '
 webroots
 "

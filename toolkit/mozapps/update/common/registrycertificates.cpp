@@ -396,7 +396,7 @@ key
 on
 our
 test
-slaves
+machines
 to
 store
 the

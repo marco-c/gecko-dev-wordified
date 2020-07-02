@@ -176,7 +176,7 @@ and
 .
 1
 test
-slaves
+machines
 are
 terribly
 slow

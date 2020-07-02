@@ -2340,7 +2340,7 @@ always
 exist
 on
 test
-slaves
+machines
 .
 if
 (
@@ -2485,7 +2485,7 @@ available
 on
 this
 test
-slave
+machine
 "
 )
 ;

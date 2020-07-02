@@ -2242,7 +2242,7 @@ the
 OS
 X
 test
-slaves
+machines
 /
 /
 have

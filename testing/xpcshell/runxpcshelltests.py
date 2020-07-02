@@ -15353,7 +15353,7 @@ fails
 because
 the
 test
-slaves
+machines
 will
 have
         

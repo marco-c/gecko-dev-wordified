@@ -90,7 +90,7 @@ closed
 On
 debug
 test
-slave
+machine
 it
 takes
 about

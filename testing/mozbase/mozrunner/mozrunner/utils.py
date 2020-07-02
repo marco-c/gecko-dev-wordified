@@ -1390,7 +1390,7 @@ on
 the
 current
 test
-slaves
+machines
 .
             
 message
