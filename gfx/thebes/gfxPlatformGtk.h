@@ -582,9 +582,14 @@ mCompositorDisplay
 ;
 #
 endif
+#
+ifdef
+MOZ_WAYLAND
 bool
 mUseWebGLDmabufBackend
 ;
+#
+endif
 }
 ;
 #
