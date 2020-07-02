@@ -1262,7 +1262,7 @@ LoadEntryResult
 aLoadResults
 )
 ;
-nsresult
+void
 InitiateLoad
 (
 nsISHEntry

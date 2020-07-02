@@ -9773,19 +9773,8 @@ GetURI
 ;
 MOZ_ASSERT
 (
-(
-prevEntry
-&
-&
-nextEntry
-&
-&
 nextURI
-)
 "
-prevEntry
-nextEntry
-and
 nextURI
 can
 '
@@ -9845,7 +9834,6 @@ Possibly
 a
 reload
 case
-return
 InitiateLoad
 (
 nextEntry
@@ -9853,6 +9841,9 @@ mRootBC
 aLoadType
 aLoadResults
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -10035,7 +10026,6 @@ aParent
 mRootBC
 )
 ;
-return
 InitiateLoad
 (
 aNextEntry
@@ -10043,6 +10033,9 @@ aParent
 aLoadType
 aLoadResults
 )
+;
+return
+NS_OK
 ;
 }
 /
@@ -10377,7 +10370,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsSHistory
 :
 :
@@ -10399,7 +10392,7 @@ LoadEntryResult
 aLoadResults
 )
 {
-NS_ENSURE_STATE
+MOZ_ASSERT
 (
 aFrameBC
 &
@@ -10620,9 +10613,6 @@ move
 (
 loadState
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
