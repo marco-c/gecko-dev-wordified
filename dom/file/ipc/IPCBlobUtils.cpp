@@ -691,7 +691,7 @@ instead
 .
 nsCOMPtr
 <
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 >
 ipcBlobInputStream
 =

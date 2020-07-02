@@ -111,7 +111,7 @@ XPIDL_SOURCES
 =
 [
 '
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 .
 idl
 '
