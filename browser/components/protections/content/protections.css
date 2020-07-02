@@ -5220,6 +5220,10 @@ monitor
 block
 a
 {
+outline
+:
+none
+;
 color
 :
 #
@@ -5244,6 +5248,11 @@ text
 decoration
 :
 none
+;
+color
+:
+#
+FFFFFF
 ;
 }
 .
