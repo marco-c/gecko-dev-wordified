@@ -6640,7 +6640,7 @@ bad
 "
 underline
 offset
-blacklist
+blocklist
 void
 SetBadUnderlineFamily
 (
@@ -7007,7 +7007,7 @@ bad
 "
 underline
 offset
-blacklist
+blocklist
 .
 void
 SetBadUnderlineFonts

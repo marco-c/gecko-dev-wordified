@@ -592,7 +592,7 @@ OpenGL
 layers
 are
 never
-blacklisted
+blocklisted
 on
 iOS
 .

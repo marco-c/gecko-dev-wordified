@@ -7663,7 +7663,7 @@ for
 the
 final
 *
-blacklisting
+blocklisting
 call
 .
 *
@@ -8130,7 +8130,7 @@ safe
 let
 '
 s
-blacklist
+blocklist
 all
 /
 /
@@ -9614,7 +9614,7 @@ Bug
 1592826
 expands
 the
-blacklist
+blocklist
 .
 APPEND_TO_DRIVER_BLOCKLIST2
 (
