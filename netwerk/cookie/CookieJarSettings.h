@@ -995,6 +995,8 @@ nsAString
 aPartitionKey
 bool
 aIsFirstPartyIsolated
+bool
+aIsOnContentBlockingAllowList
 )
 ;
 static
