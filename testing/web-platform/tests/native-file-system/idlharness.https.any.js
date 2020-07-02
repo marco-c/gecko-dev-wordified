@@ -47,6 +47,9 @@ system
 ]
 [
 '
+streams
+'
+'
 html
 '
 '
