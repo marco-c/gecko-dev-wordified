@@ -8157,6 +8157,11 @@ AssertNotInPool
 (
 )
 ;
+void
+AssertAlive
+(
+)
+;
 private
 :
 /
