@@ -1709,7 +1709,7 @@ factory
 >
 mEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentThreadSerialEventTarget
 (
 )
 ;

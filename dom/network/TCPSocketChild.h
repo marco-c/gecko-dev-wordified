@@ -288,7 +288,7 @@ const
 uint16_t
 &
 aPort
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 )
@@ -419,7 +419,7 @@ mPort
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mIPCEventTarget
 ;

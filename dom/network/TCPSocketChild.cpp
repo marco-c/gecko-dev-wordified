@@ -597,7 +597,7 @@ const
 uint16_t
 &
 aPort
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 )

@@ -725,7 +725,7 @@ NS_IsMainThread
 )
 )
 {
-nsIEventTarget
+nsISerialEventTarget
 *
 target
 =
