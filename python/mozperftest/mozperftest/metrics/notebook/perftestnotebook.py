@@ -69,11 +69,6 @@ from
 constant
 import
 Constant
-from
-.
-logger
-import
-logger
 class
 PerftestNotebook
 (
@@ -98,6 +93,8 @@ __init__
 (
 self
 data
+logger
+prefix
 )
 :
         
@@ -130,6 +127,18 @@ self
 data
 =
 data
+        
+self
+.
+logger
+=
+logger
+        
+self
+.
+prefix
+=
+prefix
         
 self
 .
@@ -199,10 +208,13 @@ exists
 )
 :
             
+self
+.
 logger
 .
 warning
 (
+                
 f
 "
 Could
@@ -217,6 +229,10 @@ called
 func
 }
 "
+self
+.
+prefix
+            
 )
             
 return

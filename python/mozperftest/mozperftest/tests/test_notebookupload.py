@@ -280,9 +280,11 @@ call_args_list
 assert
 type
 (
-args
+kwargs
 [
-0
+"
+data
+"
 ]
 [
 0

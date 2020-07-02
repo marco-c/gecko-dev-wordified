@@ -70,11 +70,6 @@ jsonschema
 import
 validate
 from
-.
-logger
-import
-NotebookLogger
-from
 mozperftest
 .
 metrics
@@ -95,11 +90,6 @@ mozperftest
 runner
 import
 HERE
-logger
-=
-NotebookLogger
-(
-)
 class
 Transformer
 (
@@ -129,6 +119,12 @@ files
 =
 None
 custom_transformer
+=
+None
+logger
+=
+None
+prefix
 =
 None
 )
@@ -187,6 +183,18 @@ self
 _files
 =
 files
+        
+self
+.
+logger
+=
+logger
+        
+self
+.
+prefix
+=
+prefix
         
 if
 custom_transformer
@@ -330,10 +338,13 @@ list
 )
 :
             
+self
+.
 logger
 .
 warning
 (
+                
 "
 files
 must
@@ -349,6 +360,10 @@ type
 (
 val
 )
+self
+.
+prefix
+            
 )
             
 return
@@ -592,10 +607,13 @@ as
 e
 :
                 
+self
+.
 logger
 .
 warning
 (
+                    
 "
 Failed
 to
@@ -607,8 +625,14 @@ skipping
 "
 %
 file
+self
+.
+prefix
+                
 )
                 
+self
+.
 logger
 .
 warning
@@ -628,6 +652,9 @@ __class__
 __name__
 e
 )
+self
+.
+prefix
 )
             
 #
@@ -709,10 +736,13 @@ as
 e
 :
                 
+self
+.
 logger
 .
 warning
 (
+                    
 "
 Failed
 to
@@ -724,8 +754,14 @@ skipping
 "
 %
 file
+self
+.
+prefix
+                
 )
                 
+self
+.
 logger
 .
 warning
@@ -745,6 +781,9 @@ __class__
 __name__
 e
 )
+self
+.
+prefix
 )
         
 merged

@@ -452,7 +452,24 @@ ptnb
 =
 PerftestNotebook
 (
+            
+data
+=
 data_to_post
+logger
+=
+metadata
+prefix
+=
+self
+.
+get_arg
+(
+"
+prefix
+"
+)
+        
 )
         
 self

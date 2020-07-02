@@ -83,16 +83,6 @@ from
 constant
 import
 Constant
-from
-.
-logger
-import
-NotebookLogger
-logger
-=
-NotebookLogger
-(
-)
 class
 PerftestETL
 (
@@ -116,15 +106,25 @@ PerftestETL
 def
 __init__
 (
+        
 self
+        
 file_groups
+        
 config
+        
+prefix
+        
+logger
+        
 custom_transform
 =
 None
+        
 sort_files
 =
 False
+    
 )
 :
         
@@ -132,7 +132,7 @@ False
 "
 "
 Initializes
-PerftestNotebook
+PerftestETL
 .
         
 :
@@ -218,6 +218,18 @@ const
 Constant
 (
 )
+        
+self
+.
+prefix
+=
+prefix
+        
+self
+.
+logger
+=
+logger
         
 #
 Gather
@@ -319,17 +331,34 @@ transformer
 =
 Transformer
 (
+                    
 files
 =
 [
 ]
+                    
 custom_transformer
 =
 tfm_cls
 (
 )
+                    
+logger
+=
+self
+.
+logger
+                    
+prefix
+=
+self
+.
+prefix
+                
 )
                 
+self
+.
 logger
 .
 info
@@ -342,6 +371,9 @@ custom_transform
 }
 transformer
 "
+self
+.
+prefix
 )
             
 else
@@ -378,11 +410,24 @@ files
 =
 [
 ]
+                
 custom_transformer
 =
 SimplePerfherderTransformer
 (
 )
+                
+logger
+=
+self
+.
+logger
+                
+prefix
+=
+self
+.
+prefix
             
 )
     
