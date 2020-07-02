@@ -6220,6 +6220,12 @@ action
 )
 ;
 }
+fxAccounts
+.
+flushLogFile
+(
+)
+;
 }
 )
 ;
