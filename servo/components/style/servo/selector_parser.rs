@@ -329,11 +329,14 @@ too
 derive
 (
 Clone
+Copy
 Debug
+Deserialize
 Eq
 Hash
 MallocSizeOf
 PartialEq
+Serialize
 ToShmem
 )
 ]
