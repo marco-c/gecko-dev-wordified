@@ -1627,16 +1627,15 @@ return
 transformInDevice
 ;
 }
-static
 void
+CompositorAnimationStorage
+:
+:
 ApplyAnimatedValue
 (
 Layer
 *
 aLayer
-CompositorAnimationStorage
-*
-aStorage
 nsCSSPropertyID
 aProperty
 AnimatedValue
@@ -1759,9 +1758,6 @@ color
 )
 )
 ;
-aStorage
--
->
 SetAnimatedValue
 (
 aLayer
@@ -1862,9 +1858,6 @@ SetShadowOpacitySetByAnimation
 true
 )
 ;
-aStorage
--
->
 SetAnimatedValue
 (
 aLayer
@@ -1999,9 +1992,6 @@ SetShadowTransformSetByAnimation
 true
 )
 ;
-aStorage
--
->
 SetAnimatedValue
 (
 aLayer
@@ -2272,7 +2262,6 @@ fine
 ApplyAnimatedValue
 (
 layer
-this
 lastPropertyAnimationGroup
 .
 mProperty
