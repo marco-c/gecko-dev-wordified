@@ -372,15 +372,6 @@ __CLASS__
 "
 GMPServiceParent
 "
-#
-define
-NS_DispatchToMainThread
-(
-.
-.
-.
-)
-CompileError_UseAbstractMainThreadInstead
 namespace
 gmp
 {
@@ -517,12 +508,9 @@ mLoadPluginsFromDiskComplete
 (
 false
 )
-mMainThread
+mWorkerThread
 (
-AbstractThread
-:
-:
-MainThread
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2906,7 +2894,7 @@ GeckoMediaPluginServiceParent
 NotifySyncShutdownComplete
 )
 ;
-mMainThread
+mWorkerThread
 -
 >
 Dispatch
@@ -3452,7 +3440,10 @@ UpdateContentProcessGMPCapabilities
 if
 (
 !
-NS_IsMainThread
+mWorkerThread
+-
+>
+IsOnCurrentThread
 (
 )
 )
@@ -3479,7 +3470,7 @@ GeckoMediaPluginServiceParent
 UpdateContentProcessGMPCapabilities
 )
 ;
-mMainThread
+mWorkerThread
 -
 >
 Dispatch
@@ -3896,7 +3887,7 @@ dir
 >
 Then
 (
-mMainThread
+mWorkerThread
 __func__
 [
 dir
@@ -4896,9 +4887,9 @@ GMPParent
 >
 CreateGMPParent
 (
-AbstractThread
+nsISerialEventTarget
 *
-aMainThread
+aThread
 )
 {
 #
@@ -4980,7 +4971,7 @@ return
 new
 GMPParent
 (
-aMainThread
+aThread
 )
 ;
 }
@@ -5012,7 +5003,7 @@ gmp
 =
 CreateGMPParent
 (
-mMainThread
+mWorkerThread
 )
 ;
 if
@@ -5346,7 +5337,7 @@ gmp
 =
 CreateGMPParent
 (
-mMainThread
+mWorkerThread
 )
 ;
 if
@@ -5997,7 +5988,7 @@ aDirectory
 )
 )
 ;
-mMainThread
+mWorkerThread
 -
 >
 Dispatch
@@ -9729,7 +9720,7 @@ complete
 "
 )
 ;
-mMainThread
+mWorkerThread
 -
 >
 Dispatch
@@ -10324,7 +10315,7 @@ complete
 "
 )
 ;
-mMainThread
+mWorkerThread
 -
 >
 Dispatch
@@ -11042,7 +11033,7 @@ thread
 mService
 -
 >
-mMainThread
+mWorkerThread
 -
 >
 Dispatch
@@ -11365,9 +11356,6 @@ gmp
 /
 namespace
 mozilla
-#
-undef
-NS_DispatchToMainThread
 #
 undef
 __CLASS__

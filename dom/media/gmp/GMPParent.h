@@ -388,9 +388,9 @@ GMPParent
 explicit
 GMPParent
 (
-AbstractThread
+nsISerialEventTarget
 *
-aMainThread
+aThread
 )
 ;
 RefPtr
@@ -971,7 +971,7 @@ aJSON
 ;
 /
 /
-Main
+Worker
 thread
 .
 RefPtr
@@ -1361,11 +1361,11 @@ bool
 mHoldingSelfRef
 ;
 const
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
-mMainThread
+mWorkerThread
 ;
 }
 ;
