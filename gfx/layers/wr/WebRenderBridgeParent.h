@@ -2559,6 +2559,11 @@ HandleShutdown
 (
 )
 ;
+void
+ResetPreviousSampleTime
+(
+)
+;
 /
 /
 Returns
