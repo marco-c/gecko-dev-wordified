@@ -259,6 +259,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 pk11pub
 .
 h
@@ -462,10 +471,9 @@ buf
 len
 ]
 ;
-vsnprintf
+VsprintfLiteral
 (
 buf
-len
 aFmt
 ap
 )
