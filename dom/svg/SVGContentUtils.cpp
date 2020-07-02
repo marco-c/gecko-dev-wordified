@@ -2534,9 +2534,7 @@ MOZ_ASSERT
 aPresContext
 )
 ;
-nscoord
-fontSize
-=
+return
 aComputedStyle
 -
 >
@@ -2546,14 +2544,9 @@ StyleFont
 -
 >
 mSize
-;
-return
-nsPresContext
-:
-:
-AppUnitsToFloatCSSPixels
+.
+ToCSSPixels
 (
-fontSize
 )
 /
 aPresContext

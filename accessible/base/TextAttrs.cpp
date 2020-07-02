@@ -3787,6 +3787,10 @@ StyleFont
 -
 >
 mSize
+.
+ToAppUnits
+(
+)
 ;
 mIsRootDefined
 =
@@ -3808,6 +3812,10 @@ StyleFont
 -
 >
 mSize
+.
+ToAppUnits
+(
+)
 ;
 mIsDefined
 =
@@ -3882,6 +3890,10 @@ StyleFont
 -
 >
 mSize
+.
+ToAppUnits
+(
+)
 ;
 return
 true
