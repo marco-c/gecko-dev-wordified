@@ -8275,7 +8275,7 @@ the
 form
 use
 "
-next
+maybenext
 "
 .
 bool
@@ -8555,7 +8555,7 @@ aActionHint
 AssignLiteral
 (
 "
-next
+maybenext
 "
 )
 ;
