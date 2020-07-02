@@ -101,7 +101,7 @@ uint32_t
 GLenum
 ;
 typedef
-int32_t
+uint8_t
 GLboolean
 ;
 typedef
