@@ -164,9 +164,10 @@ h
 namespace
 mozilla
 {
+using
 namespace
 dom
-{
+;
 namespace
 {
 /
@@ -2284,11 +2285,6 @@ SendLengthNeeded
 }
 }
 }
-}
-/
-/
-namespace
-dom
 }
 /
 /
