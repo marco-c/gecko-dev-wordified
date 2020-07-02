@@ -193,7 +193,7 @@ namespace
 mozilla
 {
 namespace
-details
+detail
 {
 template
 <
@@ -467,7 +467,7 @@ aDestination
 /
 /
 namespace
-details
+detail
 /
 *
 *
@@ -1320,7 +1320,7 @@ if
 aElements
 )
 {
-details
+detail
 :
 :
 MemoryOperations
@@ -1342,7 +1342,7 @@ aElements
 firstPart
 )
 ;
-details
+detail
 :
 :
 MemoryOperations
@@ -1367,7 +1367,7 @@ secondPart
 }
 else
 {
-details
+detail
 :
 :
 MemoryOperations
@@ -1388,7 +1388,7 @@ wrIdx
 firstPart
 )
 ;
-details
+detail
 :
 :
 MemoryOperations
@@ -1625,7 +1625,7 @@ if
 elements
 )
 {
-details
+detail
 :
 :
 MemoryOperations
@@ -1647,7 +1647,7 @@ rdIdx
 firstPart
 )
 ;
-details
+detail
 :
 :
 MemoryOperations
