@@ -15,43 +15,51 @@ CORS
 -
 safelisted
         
+b
 "
 content
 -
 type
 "
 :
+b
 "
 text
 /
 plain
 "
         
+b
 "
 cache
 -
 control
 "
 :
+b
 "
 no
 cache
 "
         
+b
 "
 content
 -
 language
 "
 :
+b
 "
 en
 "
         
+b
 "
 expires
 "
 :
+b
 "
 Fri
 30
@@ -65,12 +73,14 @@ Oct
 GMT
 "
         
+b
 "
 last
 -
 modified
 "
 :
+b
 "
 Tue
 15
@@ -84,10 +94,12 @@ Nov
 GMT
 "
         
+b
 "
 pragma
 "
 :
+b
 "
 no
 -
@@ -101,16 +113,19 @@ CORS
 -
 safelisted
         
+b
 "
 x
 -
 test
 "
 :
+b
 "
 foobar
 "
         
+b
 "
 Access
 -
@@ -121,6 +136,7 @@ Allow
 Origin
 "
 :
+b
 "
 *
 "
@@ -150,6 +166,7 @@ response
 .
 content
 =
+b
 "
 PASS
 :

@@ -16,9 +16,11 @@ GET
 .
 first
 (
+b
 "
 cookie_name
 "
+b
 "
 "
 )
@@ -29,11 +31,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -47,6 +51,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -62,6 +67,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -74,6 +80,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -83,6 +90,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -108,6 +116,7 @@ response
 set_cookie
 (
 cookie
+b
 "
 deleted
 "
@@ -140,6 +149,7 @@ response
 set_cookie
 (
 cookie_name
+b
 "
 COOKIE
 "

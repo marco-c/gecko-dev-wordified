@@ -21,11 +21,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -39,11 +41,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -60,6 +64,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -69,6 +74,7 @@ Allow
 -
 External
 "
+b
 "
 true
 "
@@ -80,6 +86,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -89,6 +96,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -98,6 +106,7 @@ response
 .
 content
 =
+b
 "
 PASS
 :
@@ -116,6 +125,7 @@ response
 content
 +
 =
+b
 "
 HTTP_ORIGIN
 :
@@ -127,6 +137,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
