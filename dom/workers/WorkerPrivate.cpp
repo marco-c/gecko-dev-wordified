@@ -29374,16 +29374,6 @@ mWorkerThreadAccessible
 data
 )
 ;
-/
-/
-XXX
-We
-could
-use
-a
-NonObservingRange
-here
-.
 for
 (
 const
@@ -29396,7 +29386,7 @@ data
 >
 mWorkerRefs
 .
-ForwardRange
+NonObservingRange
 (
 )
 )
