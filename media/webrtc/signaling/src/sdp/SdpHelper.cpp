@@ -627,7 +627,8 @@ false
 }
 if
 (
-IsBundleSlave
+!
+HasOwnTransport
 (
 oldAnswer
 level
@@ -680,7 +681,8 @@ kBundleOnlyAttribute
 )
 &
 &
-IsBundleSlave
+!
+HasOwnTransport
 (
 newOffer
 level
@@ -1641,7 +1643,7 @@ bool
 SdpHelper
 :
 :
-IsBundleSlave
+HasOwnTransport
 (
 const
 Sdp
@@ -1693,7 +1695,7 @@ m
 -
 section
 return
-false
+true
 ;
 }
 std
@@ -1748,7 +1750,7 @@ false
 )
 ;
 return
-false
+true
 ;
 }
 if
@@ -1790,11 +1792,11 @@ m
 -
 section
 return
-true
+false
 ;
 }
 return
-false
+true
 ;
 }
 nsresult

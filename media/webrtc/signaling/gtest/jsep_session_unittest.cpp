@@ -10885,10 +10885,9 @@ continue
 }
 if
 (
-!
 mSdpHelper
 .
-IsBundleSlave
+HasOwnTransport
 (
 *
 sdp
