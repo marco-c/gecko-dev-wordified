@@ -725,6 +725,12 @@ listenForServiceWorkers
 =
 false
 ;
+this
+.
+destroyServiceWorkersOnNavigation
+=
+false
+;
 }
 /
 /
