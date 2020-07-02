@@ -4033,6 +4033,14 @@ category
 "
 cookieBlockedForeign
 "
+|
+|
+category
+=
+=
+"
+cookiePartitionedForeign
+"
 )
 ;
 }
