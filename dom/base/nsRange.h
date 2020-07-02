@@ -1452,6 +1452,7 @@ aErr
 int16_t
 ComparePoint
 (
+const
 nsINode
 &
 aContainer
@@ -1459,7 +1460,7 @@ uint32_t
 aOffset
 ErrorResult
 &
-aErr
+aRv
 )
 const
 ;
