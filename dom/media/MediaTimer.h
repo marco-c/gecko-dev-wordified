@@ -871,16 +871,9 @@ disconnect
 "
 )
 ;
-if
-(
-IsScheduled
-(
-)
-)
-{
 mRequest
 .
-Disconnect
+DisconnectIfExists
 (
 )
 ;
@@ -890,7 +883,6 @@ TimeStamp
 (
 )
 ;
-}
 }
 template
 <
