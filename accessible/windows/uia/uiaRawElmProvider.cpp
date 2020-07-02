@@ -1080,14 +1080,12 @@ attributes
 >
 GetStringProperty
 (
-NS_LITERAL_CSTRING
-(
 "
 xml
 -
 roles
 "
-)
+_ns
 xmlRoles
 )
 ;

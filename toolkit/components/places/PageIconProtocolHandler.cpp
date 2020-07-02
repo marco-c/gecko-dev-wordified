@@ -401,7 +401,7 @@ chan
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 FAVICON_DEFAULT_MIMETYPE
 )
@@ -499,7 +499,7 @@ aOriginalChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 FAVICON_DEFAULT_MIMETYPE
 )
@@ -772,14 +772,12 @@ aScheme
 .
 Assign
 (
-NS_LITERAL_CSTRING
-(
 "
 page
 -
 icon
 "
-)
+_ns
 )
 ;
 return

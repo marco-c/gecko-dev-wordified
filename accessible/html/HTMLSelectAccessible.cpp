@@ -978,12 +978,11 @@ nsGkAtoms
 :
 :
 selected
-NS_LITERAL_STRING
-(
+u
 "
 true
 "
-)
+_ns
 true
 )
 ;

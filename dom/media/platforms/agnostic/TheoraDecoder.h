@@ -261,14 +261,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 theora
 video
 decoder
 "
-)
+_ns
 ;
 }
 private

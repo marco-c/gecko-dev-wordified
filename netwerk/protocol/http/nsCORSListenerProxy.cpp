@@ -3219,8 +3219,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -3230,7 +3228,7 @@ Allow
 -
 Origin
 "
-)
+_ns
 allowedOriginHeader
 )
 ;
@@ -3487,8 +3485,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -3498,7 +3494,7 @@ Allow
 -
 Credentials
 "
-)
+_ns
 allowCredentialsHeader
 )
 ;
@@ -6178,14 +6174,12 @@ http
 >
 GetRequestHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Content
 -
 Type
 "
-)
+_ns
 contentTypeHeader
 )
 ;
@@ -6246,14 +6240,12 @@ loadInfoHeaders
 .
 Contains
 (
-NS_LITERAL_CSTRING
-(
 "
 content
 -
 type
 "
-)
+_ns
 nsCaseInsensitiveCStringArrayComparator
 (
 )
@@ -6271,14 +6263,12 @@ headers
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
-(
 "
 content
 -
 type
 "
-)
+_ns
 )
 ;
 doPreflight
@@ -6665,8 +6655,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -6676,7 +6664,7 @@ Max
 -
 Age
 "
-)
+_ns
 headerVal
 )
 ;
@@ -6978,8 +6966,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -6989,7 +6975,7 @@ Allow
 -
 Methods
 "
-)
+_ns
 headerVal
 )
 ;
@@ -7180,8 +7166,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -7191,7 +7175,7 @@ Allow
 -
 Headers
 "
-)
+_ns
 headerVal
 )
 ;
@@ -7789,8 +7773,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -7800,7 +7782,7 @@ Allow
 -
 Methods
 "
-)
+_ns
 headerVal
 )
 ;
@@ -8001,8 +7983,6 @@ http
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -8012,7 +7992,7 @@ Allow
 -
 Headers
 "
-)
+_ns
 headerVal
 )
 ;
@@ -9054,12 +9034,10 @@ preHttp
 >
 SetRequestMethod
 (
-NS_LITERAL_CSTRING
-(
 "
 OPTIONS
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9075,8 +9053,6 @@ preHttp
 >
 SetRequestHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -9086,7 +9062,7 @@ Request
 -
 Method
 "
-)
+_ns
 method
 false
 )
@@ -9302,8 +9278,6 @@ preHttp
 >
 SetRequestHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Access
 -
@@ -9313,7 +9287,7 @@ Request
 -
 Headers
 "
-)
+_ns
 headers
 false
 )

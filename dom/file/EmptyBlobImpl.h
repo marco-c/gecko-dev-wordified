@@ -229,12 +229,11 @@ override
 {
 aBlobImplType
 =
-NS_LITERAL_STRING
-(
+u
 "
 EmptyBlobImpl
 "
-)
+_ns
 ;
 }
 private

@@ -746,7 +746,7 @@ UNITS_COUNT
 suspect
 .
 mReferentCount
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 A
@@ -1374,8 +1374,7 @@ error
 >
 Init
 (
-NS_LITERAL_STRING
-(
+u
 "
 http
 -
@@ -1390,7 +1389,7 @@ the
 parent
 process
 "
-)
+_ns
 EmptyString
 (
 )

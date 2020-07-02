@@ -612,13 +612,12 @@ regKey
 >
 ReadIntValue
 (
-NS_LITERAL_STRING
-(
+u
 "
 Filter
 On
 "
-)
+_ns
 &
 filterOn
 )

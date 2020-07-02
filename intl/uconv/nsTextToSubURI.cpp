@@ -759,14 +759,12 @@ if
 (
 convertURItoUnicode
 (
-NS_LITERAL_CSTRING
-(
 "
 UTF
 -
 8
 "
-)
+_ns
 unescapedSpec
 _retval
 )

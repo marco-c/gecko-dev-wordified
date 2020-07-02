@@ -1232,13 +1232,11 @@ return
 StringEndsWith
 (
 host
-NS_LITERAL_CSTRING
-(
 "
 .
 onion
 "
-)
+_ns
 )
 ;
 }

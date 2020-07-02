@@ -268,12 +268,10 @@ PrivilegedJunkScope
 nsCString
 batchID
 =
-NS_LITERAL_CSTRING
-(
 "
 abc123
 "
-)
+_ns
 ;
 mozilla
 :

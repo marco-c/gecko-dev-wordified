@@ -2670,11 +2670,9 @@ IsReject
 {
 aResolve
 (
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 }

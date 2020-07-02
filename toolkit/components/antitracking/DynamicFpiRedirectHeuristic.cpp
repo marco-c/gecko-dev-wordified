@@ -858,12 +858,10 @@ eNECKO_PROPERTIES
 uri
 0
 0
-NS_LITERAL_CSTRING
-(
 "
 CookieAllowedForFpiByHeuristic
 "
-)
+_ns
 params
 )
 ;

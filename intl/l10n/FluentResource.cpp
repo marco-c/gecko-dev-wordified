@@ -246,8 +246,7 @@ nsContentUtils
 :
 LogSimpleConsoleError
 (
-NS_LITERAL_STRING
-(
+u
 "
 Errors
 encountered
@@ -257,7 +256,7 @@ Fluent
 Resource
 .
 "
-)
+_ns
 "
 chrome
 "

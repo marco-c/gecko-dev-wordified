@@ -144,14 +144,13 @@ nullptr
 nsAutoString
 err
 (
-NS_LITERAL_STRING
-(
+u
 "
 Invalid
 expression
 evaluated
 "
-)
+_ns
 )
 ;
 #

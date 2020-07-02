@@ -8865,12 +8865,11 @@ if
 StringBeginsWith
 (
 attrString
-NS_LITERAL_STRING
-(
+u
 "
 _moz
 "
-)
+_ns
 )
 )
 {
@@ -13892,8 +13891,7 @@ style
 .
 mAttribute
 )
-NS_LITERAL_STRING
-(
+u
 "
 -
 moz
@@ -13904,7 +13902,7 @@ invert
 -
 value
 "
-)
+_ns
 )
 ;
 if
@@ -14101,8 +14099,7 @@ style
 .
 mAttribute
 )
-NS_LITERAL_STRING
-(
+u
 "
 -
 moz
@@ -14113,7 +14110,7 @@ invert
 -
 value
 "
-)
+_ns
 )
 ;
 if
@@ -14362,8 +14359,7 @@ style
 .
 mAttribute
 )
-NS_LITERAL_STRING
-(
+u
 "
 -
 moz
@@ -14374,7 +14370,7 @@ invert
 -
 value
 "
-)
+_ns
 )
 ;
 if

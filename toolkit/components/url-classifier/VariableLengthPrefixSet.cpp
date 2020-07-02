@@ -3146,7 +3146,7 @@ mMemoryReportPath
 KIND_HEAP
 UNITS_BYTES
 amount
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Memory

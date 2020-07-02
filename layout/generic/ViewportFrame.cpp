@@ -2987,12 +2987,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Viewport
 "
-)
+_ns
 aResult
 )
 ;

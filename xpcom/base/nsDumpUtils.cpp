@@ -1835,8 +1835,9 @@ FifoWatcher
 FifoWatcher
 (
 )
-{
-}
+=
+default
+;
 int
 FifoWatcher
 :
@@ -1981,12 +1982,10 @@ file
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 debug_info_trigger
 "
-)
+_ns
 )
 ;
 if

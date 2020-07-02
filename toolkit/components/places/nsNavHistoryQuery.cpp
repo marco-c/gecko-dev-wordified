@@ -1029,7 +1029,7 @@ hasIt
 AppendInt64KeyValueIfNonzero
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_BEGIN_TIME
 )
@@ -1044,7 +1044,7 @@ GetBeginTime
 AppendUint32KeyValueIfNonzero
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_BEGIN_TIME_REFERENCE
 )
@@ -1078,7 +1078,7 @@ hasIt
 AppendInt64KeyValueIfNonzero
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_END_TIME
 )
@@ -1093,7 +1093,7 @@ GetEndTime
 AppendUint32KeyValueIfNonzero
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_END_TIME_REFERENCE
 )
@@ -1164,7 +1164,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_SEARCH_TERMS
 "
@@ -1283,7 +1283,7 @@ bookmarked
 AppendBoolKeyValueIfTrue
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_ONLY_BOOKMARKED
 )
@@ -1351,7 +1351,7 @@ IsVoid
 AppendBoolKeyValueIfTrue
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_DOMAIN_IS_HOST
 )
@@ -1647,7 +1647,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_PARENT
 "
@@ -1732,7 +1732,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_TAG
 "
@@ -1749,7 +1749,7 @@ escapedTag
 AppendBoolKeyValueIfTrue
 (
 queryString
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_NOTTAGS
 )
@@ -1807,7 +1807,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_TRANSITION
 "
@@ -1852,7 +1852,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_SORT
 "
@@ -1900,7 +1900,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_RESULT_TYPE
 "
@@ -1942,7 +1942,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_EXCLUDE_ITEMS
 "
@@ -1974,7 +1974,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_EXCLUDE_QUERIES
 "
@@ -2007,7 +2007,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_EXPAND_QUERIES
 "
@@ -2039,7 +2039,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_INCLUDE_HIDDEN
 "
@@ -2071,7 +2071,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_MAX_RESULTS
 "
@@ -2118,7 +2118,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_QUERY_TYPE
 "
@@ -2160,7 +2160,7 @@ queryString
 queryString
 +
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 QUERYKEY_ASYNC_ENABLED
 "

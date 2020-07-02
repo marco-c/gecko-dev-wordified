@@ -724,13 +724,11 @@ new
 LazyIdleThread
 (
 DEFAULT_THREAD_TIMEOUT_MS
-NS_LITERAL_CSTRING
-(
 "
 Jump
 List
 "
-)
+_ns
 LazyIdleThread
 :
 :

@@ -3674,12 +3674,10 @@ work
 on
 Mac
 "
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_MAC_GPU_PROC
 "
-)
+_ns
 )
 ;
 }

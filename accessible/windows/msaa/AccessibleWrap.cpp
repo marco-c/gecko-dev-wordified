@@ -3371,11 +3371,10 @@ nameSpaceURI
 roleString
 +
 =
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
+_ns
 +
 nameSpaceURI
 ;

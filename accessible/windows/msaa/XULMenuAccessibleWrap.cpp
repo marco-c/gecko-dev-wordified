@@ -418,13 +418,12 @@ IsEmpty
 aName
 +
 =
-NS_LITERAL_STRING
-(
+u
 "
 \
 t
 "
-)
+_ns
 +
 accel
 ;

@@ -744,7 +744,7 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_IMAGE
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 IMAGE_ICON_MS
 )

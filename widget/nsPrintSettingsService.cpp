@@ -4322,13 +4322,12 @@ if
 StringEndsWith
 (
 str
-NS_LITERAL_STRING
-(
+u
 "
 .
 ps
 "
-)
+_ns
 )
 )
 {

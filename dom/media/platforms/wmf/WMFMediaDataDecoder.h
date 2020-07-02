@@ -693,11 +693,9 @@ GetDescriptionName
 (
 )
 :
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 ;
 }
 ConversionRequired

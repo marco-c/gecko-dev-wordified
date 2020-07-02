@@ -16898,11 +16898,10 @@ addonPolicy
 >
 GetURL
 (
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
+_ns
 )
 ;
 if

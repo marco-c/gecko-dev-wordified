@@ -188,12 +188,10 @@ safebrowsing
 #
 define
 GTEST_SAFEBROWSING_DIR
-NS_LITERAL_CSTRING
-(
 "
 safebrowsing
 "
-)
+_ns
 template
 <
 typename

@@ -519,12 +519,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 FieldSet
 "
-)
+_ns
 aResult
 )
 ;

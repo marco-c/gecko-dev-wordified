@@ -1483,12 +1483,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 RootBox
 "
-)
+_ns
 aResult
 )
 ;

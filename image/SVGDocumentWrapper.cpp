@@ -1759,7 +1759,7 @@ resource
 "
 chan
 newLoadGroup
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 IMAGE_SVG_XML
 )

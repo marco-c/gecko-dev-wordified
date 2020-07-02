@@ -9067,8 +9067,6 @@ kIPv6CStrBufSize
 )
 netAddrCString
 =
-NS_LITERAL_CSTRING
-(
 "
 <
 IP
@@ -9079,7 +9077,7 @@ string
 failed
 >
 "
-)
+_ns
 ;
 SOCKET_LOG
 (

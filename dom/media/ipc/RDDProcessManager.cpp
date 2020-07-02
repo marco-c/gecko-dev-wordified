@@ -1075,12 +1075,10 @@ Annotation
 :
 :
 RDDProcessStatus
-NS_LITERAL_CSTRING
-(
 "
 Running
 "
-)
+_ns
 )
 ;
 }
@@ -1335,12 +1333,10 @@ Annotation
 :
 :
 RDDProcessStatus
-NS_LITERAL_CSTRING
-(
 "
 Destroyed
 "
-)
+_ns
 )
 ;
 }

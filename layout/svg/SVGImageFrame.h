@@ -558,12 +558,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGImage
 "
-)
+_ns
 aResult
 )
 ;

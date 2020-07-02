@@ -125,8 +125,7 @@ Tests
 nsAutoString
 fmt
 (
-NS_LITERAL_STRING
-(
+u
 "
 %
 3
@@ -147,7 +146,7 @@ d
 3
 s
 "
-)
+_ns
 )
 ;
 char

@@ -431,12 +431,10 @@ that
 nsCString
 mDescription
 =
-NS_LITERAL_CSTRING
-(
 "
 RemoteMediaDataDecoder
 "
-)
+_ns
 ;
 bool
 mIsHardwareAccelerated

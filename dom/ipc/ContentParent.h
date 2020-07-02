@@ -463,9 +463,7 @@ h
 #
 define
 CHILD_PROCESS_SHUTDOWN_MESSAGE
-\
-NS_LITERAL_STRING
-(
+u
 "
 child
 -
@@ -473,7 +471,7 @@ process
 -
 shutdown
 "
-)
+_ns
 /
 /
 These

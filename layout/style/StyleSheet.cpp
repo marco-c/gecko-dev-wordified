@@ -6708,13 +6708,11 @@ s
 .
 ReplaceSubstring
 (
-NS_LITERAL_CSTRING
-(
 "
 \
 n
 "
-)
+_ns
 newlineIndent
 )
 ;

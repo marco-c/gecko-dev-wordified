@@ -5500,14 +5500,12 @@ entry
 -
 >
 mSize
-NS_LITERAL_CSTRING
-(
 "
 From
 MEMORY_BASIC_INFORMATION
 .
 "
-)
+_ns
 aData
 )
 ;
@@ -8970,7 +8968,7 @@ UNITS_BYTES
 thread
 .
 mPrivateSize
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 The

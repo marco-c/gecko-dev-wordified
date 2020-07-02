@@ -1346,12 +1346,11 @@ nsIContent
 (
 this
 )
-NS_LITERAL_STRING
-(
+u
 "
 slotchange
 "
-)
+_ns
 CanBubble
 :
 :

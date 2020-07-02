@@ -331,8 +331,6 @@ specNumber
 nsCString
 spec
 =
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -343,7 +341,7 @@ mozilla
 org
 /
 "
-)
+_ns
 ;
 spec
 .
@@ -791,13 +789,11 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 SELECT
 1
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

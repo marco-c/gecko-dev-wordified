@@ -276,15 +276,13 @@ move
 (
 creator
 )
-NS_LITERAL_CSTRING
-(
 "
 null
 media
 data
 decoder
 "
-)
+_ns
 aParams
 )
 ;

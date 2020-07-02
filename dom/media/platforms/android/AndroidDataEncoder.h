@@ -208,13 +208,11 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 Android
 Encoder
 "
-)
+_ns
 ;
 }
 private

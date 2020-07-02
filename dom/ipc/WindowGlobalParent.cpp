@@ -2486,12 +2486,11 @@ new
 AsyncEventDispatcher
 (
 frameElement
-NS_LITERAL_STRING
-(
+u
 "
 pagetitlechanged
 "
-)
+_ns
 CanBubble
 :
 :

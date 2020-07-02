@@ -1196,8 +1196,9 @@ nullptr
 ;
 LogToBrowserConsole
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 GMPVideoDecoderParent
 timed

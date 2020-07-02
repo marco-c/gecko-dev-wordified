@@ -660,12 +660,11 @@ StorageEvent
 Constructor
 (
 nullptr
-NS_LITERAL_STRING
-(
+u
 "
 storage
 "
-)
+_ns
 dict
 )
 ;

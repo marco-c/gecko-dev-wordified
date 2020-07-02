@@ -637,7 +637,7 @@ aList
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_POSTSCRIPT_DRIVER_NAME
 "
@@ -830,7 +830,7 @@ if
 StringBeginsWith
 (
 aName
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_POSTSCRIPT_DRIVER_NAME
 )
@@ -846,7 +846,7 @@ if
 StringBeginsWith
 (
 aName
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_CUPS_PRINTER
 )

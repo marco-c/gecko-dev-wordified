@@ -203,12 +203,11 @@ h
 #
 define
 ONCHANGE_STRING
-NS_LITERAL_STRING
-(
+u
 "
 change
 "
-)
+_ns
 namespace
 mozilla
 {

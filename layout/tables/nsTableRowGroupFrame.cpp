@@ -11784,12 +11784,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 TableRowGroup
 "
-)
+_ns
 aResult
 )
 ;

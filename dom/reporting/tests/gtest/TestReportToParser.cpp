@@ -223,11 +223,9 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 ASSERT_TRUE
@@ -250,11 +248,9 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 ASSERT_TRUE
@@ -277,13 +273,11 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
-(
 "
 {
 }
 "
-)
+_ns
 )
 ;
 ASSERT_TRUE
@@ -305,7 +299,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -568,7 +562,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -764,7 +758,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -967,7 +961,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -1170,7 +1164,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -1368,7 +1362,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -1543,7 +1537,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -1708,7 +1702,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -1880,7 +1874,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2056,7 +2050,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2228,7 +2222,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2356,7 +2350,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2491,7 +2485,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2630,7 +2624,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2765,7 +2759,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -2901,7 +2895,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -3037,7 +3031,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -3269,7 +3263,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -3508,7 +3502,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -3752,7 +3746,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -3992,7 +3986,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -4197,7 +4191,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -4449,7 +4443,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -4704,7 +4698,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {
@@ -4909,7 +4903,7 @@ ParseHeader
 (
 nullptr
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 {

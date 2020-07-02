@@ -6822,12 +6822,11 @@ nsGkAtoms
 :
 :
 align
-NS_LITERAL_STRING
-(
+u
 "
 left
 "
-)
+_ns
 eIgnoreCase
 )
 )

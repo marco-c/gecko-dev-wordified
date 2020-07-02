@@ -340,7 +340,7 @@ GetSandboxedGraphitePath
 return
 GetSandboxedPath
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 MOZ_DLL_PREFIX
 "
@@ -359,7 +359,7 @@ GetSandboxedOggPath
 return
 GetSandboxedPath
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 MOZ_DLL_PREFIX
 "

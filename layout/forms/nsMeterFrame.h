@@ -250,12 +250,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Meter
 "
-)
+_ns
 aResult
 )
 ;

@@ -7352,12 +7352,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 TableWrapper
 "
-)
+_ns
 aResult
 )
 ;

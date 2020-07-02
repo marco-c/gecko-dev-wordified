@@ -518,13 +518,11 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 omx
 decoder
 "
-)
+_ns
 ;
 }
 ConversionRequired

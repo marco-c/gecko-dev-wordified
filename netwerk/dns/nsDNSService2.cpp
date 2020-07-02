@@ -5115,13 +5115,11 @@ mBlockDotOnion
 StringEndsWith
 (
 aInput
-NS_LITERAL_CSTRING
-(
 "
 .
 onion
 "
-)
+_ns
 )
 )
 {

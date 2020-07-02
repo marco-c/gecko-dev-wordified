@@ -2583,13 +2583,11 @@ aQuery
 {
 aQuery
 =
-NS_LITERAL_CSTRING
-(
 "
 place
 :
 "
-)
+_ns
 ;
 for
 (

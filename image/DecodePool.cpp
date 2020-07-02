@@ -1986,15 +1986,13 @@ thread
 >
 SetNameForWakeupTelemetry
 (
-NS_LITERAL_CSTRING
-(
 "
 ImgDecoder
 (
 all
 )
 "
-)
+_ns
 )
 ;
 mThreads

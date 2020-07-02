@@ -297,12 +297,11 @@ event
 >
 InitCommandEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 command
 "
-)
+_ns
 true
 true
 nsGlobalWindowInner

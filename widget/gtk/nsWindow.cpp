@@ -11842,7 +11842,7 @@ gsettings
 >
 GetCollectionForSchema
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopMutterSchema
 )
@@ -11869,7 +11869,7 @@ mutterSettings
 >
 GetBoolean
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopDynamicWorkspacesKey
 )
@@ -37335,12 +37335,11 @@ void
 {
 SetIcon
 (
-NS_LITERAL_STRING
-(
+u
 "
 default
 "
-)
+_ns
 )
 ;
 }

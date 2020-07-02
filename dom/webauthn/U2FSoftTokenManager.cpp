@@ -235,12 +235,10 @@ U2FSoftTokenManager
 :
 mSecretNickname
 =
-NS_LITERAL_CSTRING
-(
 "
 U2F_NSSTOKEN
 "
-)
+_ns
 ;
 namespace
 {

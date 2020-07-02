@@ -877,14 +877,12 @@ nsIScriptError
 :
 :
 errorFlag
-NS_LITERAL_CSTRING
-(
 "
 Layout
 :
 MathML
 "
-)
+_ns
 content
 -
 >

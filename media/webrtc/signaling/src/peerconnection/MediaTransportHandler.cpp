@@ -1753,13 +1753,11 @@ const
 nsCString
 match
 =
-NS_LITERAL_CSTRING
-(
 "
 transport
 =
 "
-)
+_ns
 ;
 for
 (

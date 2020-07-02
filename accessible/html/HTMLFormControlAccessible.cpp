@@ -2458,12 +2458,11 @@ nsGkAtoms
 :
 :
 xmlroles
-NS_LITERAL_STRING
-(
+u
 "
 searchbox
 "
-)
+_ns
 )
 ;
 }

@@ -11859,13 +11859,11 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 DOM
 Events
 "
-)
+_ns
 mExecutor
 -
 >

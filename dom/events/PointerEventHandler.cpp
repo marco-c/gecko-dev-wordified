@@ -4138,12 +4138,11 @@ PointerEvent
 Constructor
 (
 aCaptureTarget
-NS_LITERAL_STRING
-(
+u
 "
 lostpointercapture
 "
-)
+_ns
 init
 )
 ;

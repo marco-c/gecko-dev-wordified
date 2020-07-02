@@ -2628,7 +2628,7 @@ HasContentTypeHint
 )
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 APPLICATION_OCTET_STREAM
 )

@@ -908,12 +908,10 @@ mStorage
 Get
 (
 aDbName
-NS_LITERAL_CSTRING
-(
 "
 Version
 "
-)
+_ns
 )
 -
 >
@@ -973,12 +971,10 @@ storage
 Put
 (
 aDbName
-NS_LITERAL_CSTRING
-(
 "
 Version
 "
-)
+_ns
 aVersion
 )
 ;

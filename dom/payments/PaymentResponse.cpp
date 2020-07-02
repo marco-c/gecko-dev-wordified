@@ -2584,12 +2584,11 @@ aPayerPhone
 return
 DispatchUpdateEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 payerdetailchange
 "
-)
+_ns
 )
 ;
 }

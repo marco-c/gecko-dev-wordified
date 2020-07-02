@@ -753,8 +753,6 @@ if
 StringBeginsWith
 (
 uriSpec
-NS_LITERAL_CSTRING
-(
 "
 resource
 :
@@ -765,7 +763,7 @@ pdf
 js
 /
 "
-)
+_ns
 )
 )
 {

@@ -2810,15 +2810,14 @@ consoleSvc
 nsAutoString
 logString
 (
-NS_LITERAL_STRING
-(
+u
 "
 xsl
 :
 message
 -
 "
-)
+_ns
 )
 ;
 logString

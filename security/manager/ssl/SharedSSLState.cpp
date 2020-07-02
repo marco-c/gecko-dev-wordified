@@ -377,8 +377,6 @@ icos
 >
 ClearValidityOverride
 (
-NS_LITERAL_CSTRING
-(
 "
 all
 :
@@ -386,7 +384,7 @@ temporary
 -
 certificates
 "
-)
+_ns
 0
 )
 ;

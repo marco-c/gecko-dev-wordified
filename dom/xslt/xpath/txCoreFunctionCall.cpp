@@ -3743,13 +3743,12 @@ aContext
 >
 receiveError
 (
-NS_LITERAL_STRING
-(
+u
 "
 Internal
 error
 "
-)
+_ns
 NS_ERROR_UNEXPECTED
 )
 ;

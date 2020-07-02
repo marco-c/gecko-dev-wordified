@@ -1603,12 +1603,11 @@ usages
 .
 AppendElement
 (
-NS_LITERAL_STRING
-(
+u
 "
 sign
 "
-)
+_ns
 fallible
 )
 )

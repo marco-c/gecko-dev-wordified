@@ -7140,8 +7140,7 @@ nsIWindowsRegKey
 :
 :
 ROOT_KEY_CURRENT_USER
-NS_LITERAL_STRING
-(
+u
 "
 SOFTWARE
 \
@@ -7156,7 +7155,7 @@ TabletTip
 .
 7
 "
-)
+_ns
 nsIWindowsRegKey
 :
 :
@@ -7261,12 +7260,11 @@ regKey
 >
 ReadIntValue
 (
-NS_LITERAL_STRING
-(
+u
 "
 EnableDesktopModeAutoInvoke
 "
-)
+_ns
 &
 value
 )

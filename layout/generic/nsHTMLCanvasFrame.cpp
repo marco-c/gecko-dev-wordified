@@ -4157,12 +4157,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 HTMLCanvas
 "
-)
+_ns
 aResult
 )
 ;

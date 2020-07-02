@@ -806,12 +806,10 @@ the
 GPU
 process
 "
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_WAYLAND
 "
-)
+_ns
 )
 ;
 }

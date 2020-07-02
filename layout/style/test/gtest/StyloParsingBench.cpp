@@ -767,12 +767,10 @@ Servo_DeclarationBlock_SetPropertyById_Bench
 {
 ServoSetPropertyByIdBench
 (
-NS_LITERAL_CSTRING
-(
 "
 10px
 "
-)
+_ns
 )
 ;
 }
@@ -787,12 +785,10 @@ Servo_DeclarationBlock_SetPropertyById_WithInitialSpace_Bench
 {
 ServoSetPropertyByIdBench
 (
-NS_LITERAL_CSTRING
-(
 "
 10px
 "
-)
+_ns
 )
 ;
 }

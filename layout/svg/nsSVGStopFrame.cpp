@@ -386,12 +386,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGStop
 "
-)
+_ns
 aResult
 )
 ;

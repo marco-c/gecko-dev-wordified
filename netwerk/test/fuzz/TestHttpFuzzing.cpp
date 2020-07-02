@@ -1121,12 +1121,10 @@ gHttpChannel
 >
 SetRequestMethod
 (
-NS_LITERAL_CSTRING
-(
 "
 GET
 "
-)
+_ns
 )
 ;
 if

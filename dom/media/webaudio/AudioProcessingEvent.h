@@ -216,12 +216,11 @@ aPlaybackTime
 {
 InitEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 audioprocess
 "
-)
+_ns
 CanBubble
 :
 :

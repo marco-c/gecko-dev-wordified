@@ -800,13 +800,11 @@ rv
 StringEndsWith
 (
 leafName
-NS_LITERAL_CSTRING
-(
 "
 .
 desktop
 "
-)
+_ns
 )
 )
 return

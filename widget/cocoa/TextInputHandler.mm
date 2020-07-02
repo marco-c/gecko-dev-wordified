@@ -32431,8 +32431,7 @@ allowConsumeEvent
 StringBeginsWith
 (
 inputSourceID
-NS_LITERAL_STRING
-(
+u
 "
 com
 .
@@ -32443,7 +32442,7 @@ inputmethod
 Korean
 .
 "
-)
+_ns
 )
 ;
 }

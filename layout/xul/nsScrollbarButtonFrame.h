@@ -399,12 +399,10 @@ mContent
 OwnerDoc
 (
 )
-NS_LITERAL_CSTRING
-(
 "
 nsScrollbarButtonFrame
 "
-)
+_ns
 )
 ;
 }

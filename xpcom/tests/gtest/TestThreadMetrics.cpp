@@ -835,12 +835,10 @@ group
 >
 AddDocument
 (
-NS_LITERAL_CSTRING
-(
 "
 key
 "
-)
+_ns
 nullptr
 )
 ;
@@ -851,12 +849,10 @@ group
 >
 AddDocument
 (
-NS_LITERAL_CSTRING
-(
 "
 key2
 "
-)
+_ns
 nullptr
 )
 ;

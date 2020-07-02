@@ -944,12 +944,10 @@ nullptr
 ;
 mDescription
 =
-NS_LITERAL_CSTRING
-(
 "
 shutdown
 "
-)
+_ns
 ;
 mOwner
 -

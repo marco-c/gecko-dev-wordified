@@ -1897,14 +1897,13 @@ if
 StringEndsWith
 (
 dllName
-NS_LITERAL_STRING
-(
+u
 "
 uiautomationcore
 .
 dll
 "
-)
+_ns
 nsCaseInsensitiveStringComparator
 )
 )

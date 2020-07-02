@@ -250,12 +250,11 @@ override
 {
 aBlobImplType
 =
-NS_LITERAL_STRING
-(
+u
 "
 TemporaryFileBlobImpl
 "
-)
+_ns
 ;
 }
 protected

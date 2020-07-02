@@ -814,12 +814,10 @@ SharedThreadPool
 :
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 PaintWorker
 "
-)
+_ns
 count
 )
 ;

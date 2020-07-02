@@ -167,12 +167,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Backdrop
 "
-)
+_ns
 aResult
 )
 ;

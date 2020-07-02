@@ -197,8 +197,6 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 foo
 .
@@ -206,7 +204,7 @@ bar
 .
 baz
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -221,8 +219,6 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 a
 .
@@ -230,7 +226,7 @@ test
 .
 string
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -245,8 +241,6 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 a
 .
@@ -254,7 +248,7 @@ test
 .
 string2
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -269,12 +263,10 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 aaaa
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -314,8 +306,6 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 foo
 .
@@ -323,7 +313,7 @@ bar
 .
 ba
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -349,8 +339,6 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 a
 .
@@ -358,7 +346,7 @@ test
 .
 strings
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -382,14 +370,12 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 a
 .
 test
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -416,12 +402,10 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 aaaaa
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -444,11 +428,9 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 EXPECT_EQ
@@ -483,7 +465,7 @@ d
 .
 Lookup
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 This

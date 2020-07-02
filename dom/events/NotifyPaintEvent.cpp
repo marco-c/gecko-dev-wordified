@@ -595,12 +595,11 @@ IPC
 WriteParam
 (
 aMsg
-NS_LITERAL_STRING
-(
+u
 "
 notifypaintevent
 "
-)
+_ns
 )
 ;
 }

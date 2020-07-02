@@ -7852,13 +7852,11 @@ tokenOffset
 (
 )
 flags
-NS_LITERAL_CSTRING
-(
 "
 XPConnect
 JavaScript
 "
-)
+_ns
 nsJSUtils
 :
 :

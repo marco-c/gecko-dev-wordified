@@ -2033,13 +2033,11 @@ threadPool
 >
 SetName
 (
-NS_LITERAL_CSTRING
-(
 "
 Link
 Monitor
 "
-)
+_ns
 )
 )
 ;
@@ -3252,12 +3250,11 @@ regKey
 >
 ReadStringValue
 (
-NS_LITERAL_STRING
-(
+u
 "
 SearchList
 "
-)
+_ns
 wideSuffixString
 )
 ;
@@ -3442,8 +3439,9 @@ if
 !
 checkRegistry
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 SOFTWARE
 \
@@ -3466,8 +3464,9 @@ DNSClient
 {
 checkRegistry
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 SYSTEM
 \
@@ -3647,8 +3646,7 @@ if
 (
 registryChildCount
 (
-NS_LITERAL_STRING
-(
+u
 "
 SYSTEM
 \
@@ -3669,7 +3667,7 @@ Parameters
 \
 DnsConnections
 "
-)
+_ns
 )
 >
 0
@@ -3677,8 +3675,7 @@ DnsConnections
 |
 registryChildCount
 (
-NS_LITERAL_STRING
-(
+u
 "
 SYSTEM
 \
@@ -3699,7 +3696,7 @@ Parameters
 \
 DnsConnectionsProxies
 "
-)
+_ns
 )
 >
 0
@@ -3726,8 +3723,7 @@ if
 (
 registryChildCount
 (
-NS_LITERAL_STRING
-(
+u
 "
 SYSTEM
 \
@@ -3748,7 +3744,7 @@ Parameters
 \
 DnsPolicyConfig
 "
-)
+_ns
 )
 >
 0
@@ -3756,8 +3752,7 @@ DnsPolicyConfig
 |
 registryChildCount
 (
-NS_LITERAL_STRING
-(
+u
 "
 SOFTWARE
 \
@@ -3779,7 +3774,7 @@ DNSClient
 \
 DnsPolicyConfig
 "
-)
+_ns
 )
 >
 0

@@ -4027,12 +4027,10 @@ rv
 StringEndsWith
 (
 basePath
-NS_LITERAL_CSTRING
-(
 "
 /
 "
-)
+_ns
 )
 )
 {

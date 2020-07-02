@@ -826,7 +826,7 @@ db
 >
 ExecuteSimpleSQL
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 CREATE
@@ -856,8 +856,6 @@ db
 >
 ExecuteSimpleSQL
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -872,7 +870,7 @@ foo
 '
 )
 "
-)
+_ns
 )
 ;
 do_check_success
@@ -886,8 +884,6 @@ db
 -
 >
 ExecuteSimpleSQL
-(
-NS_LITERAL_CSTRING
 (
 "
 INSERT
@@ -903,7 +899,7 @@ bar
 '
 )
 "
-)
+_ns
 )
 ;
 do_check_success
@@ -918,8 +914,6 @@ db
 >
 ExecuteSimpleSQL
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 UNIQUE
@@ -931,7 +925,7 @@ test
 data
 )
 "
-)
+_ns
 )
 ;
 do_check_success
@@ -994,8 +988,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -1010,7 +1002,7 @@ test1
 '
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -1201,15 +1193,13 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 SELECT
 *
 FROM
 test
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -1398,15 +1388,13 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 SELECT
 *
 FROM
 test
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

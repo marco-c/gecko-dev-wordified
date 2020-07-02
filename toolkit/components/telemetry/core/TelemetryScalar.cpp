@@ -24655,12 +24655,10 @@ false
 aClearScalars
 *
 /
-NS_LITERAL_CSTRING
-(
 "
 main
 "
-)
+_ns
 )
 ;
 if
@@ -25008,12 +25006,10 @@ false
 aClearScalars
 *
 /
-NS_LITERAL_CSTRING
-(
 "
 main
 "
-)
+_ns
 )
 ;
 if

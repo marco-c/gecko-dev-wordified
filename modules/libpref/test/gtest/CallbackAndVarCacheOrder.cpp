@@ -865,8 +865,6 @@ RunTest
 bool
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -874,9 +872,7 @@ bool
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -884,7 +880,7 @@ bool
 .
 2
 "
-)
+_ns
 false
 true
 )
@@ -906,8 +902,6 @@ Relaxed
 >
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -915,9 +909,7 @@ atomic_bool
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -925,7 +917,7 @@ atomic_bool
 .
 2
 "
-)
+_ns
 false
 true
 )
@@ -947,8 +939,6 @@ ReleaseAcquire
 >
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -956,9 +946,7 @@ atomic_bool
 .
 3
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -966,7 +954,7 @@ atomic_bool
 .
 4
 "
-)
+_ns
 false
 true
 )
@@ -983,8 +971,6 @@ RunTest
 int32_t
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -992,9 +978,7 @@ int
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1002,7 +986,7 @@ int
 .
 2
 "
-)
+_ns
 -
 2
 3
@@ -1025,8 +1009,6 @@ Relaxed
 >
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -1034,9 +1016,7 @@ atomic_int
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1044,7 +1024,7 @@ atomic_int
 .
 2
 "
-)
+_ns
 -
 3
 4
@@ -1062,8 +1042,6 @@ RunTest
 uint32_t
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -1071,9 +1049,7 @@ uint
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1081,7 +1057,7 @@ uint
 .
 2
 "
-)
+_ns
 4u
 5u
 )
@@ -1103,8 +1079,6 @@ Relaxed
 >
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -1112,9 +1086,7 @@ atomic_uint
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1122,7 +1094,7 @@ atomic_uint
 .
 2
 "
-)
+_ns
 6u
 7u
 )
@@ -1144,8 +1116,6 @@ ReleaseAcquire
 >
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -1153,9 +1123,7 @@ atomic_uint
 .
 3
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1163,7 +1131,7 @@ atomic_uint
 .
 4
 "
-)
+_ns
 8u
 9u
 )
@@ -1180,8 +1148,6 @@ RunTest
 float
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -1189,9 +1155,7 @@ float
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1199,7 +1163,7 @@ float
 .
 2
 "
-)
+_ns
 -
 10
 .
@@ -1228,8 +1192,6 @@ float
 >
 >
 (
-NS_LITERAL_CSTRING
-(
 "
 test_pref
 .
@@ -1237,9 +1199,7 @@ atomic_float
 .
 1
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 test_pref
 .
@@ -1247,7 +1207,7 @@ atomic_float
 .
 2
 "
-)
+_ns
 -
 12
 .

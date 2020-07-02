@@ -435,12 +435,11 @@ infoService
 >
 GetPropertyAsInt32
 (
-NS_LITERAL_STRING
-(
+u
 "
 cpucount
 "
-)
+_ns
 &
 cpus
 )

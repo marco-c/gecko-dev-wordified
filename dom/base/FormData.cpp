@@ -333,12 +333,11 @@ aBlob
 .
 ToFile
 (
-NS_LITERAL_STRING
-(
+u
 "
 blob
 "
-)
+_ns
 aRv
 )
 ;

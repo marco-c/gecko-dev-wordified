@@ -1915,13 +1915,11 @@ PROFILER_ADD_TEXT_MARKER
 "
 Process
 "
-NS_LITERAL_CSTRING
-(
 "
 Blocked
 preallocation
 "
-)
+_ns
 JS
 :
 :

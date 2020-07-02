@@ -212,14 +212,13 @@ dll
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 breakpadinjector
 .
 dll
 "
-)
+_ns
 )
 ;
 dll

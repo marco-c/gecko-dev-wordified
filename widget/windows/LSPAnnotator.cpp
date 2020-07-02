@@ -308,12 +308,10 @@ cr
 >
 AnnotateCrashReport
 (
-NS_LITERAL_CSTRING
-(
 "
 Winsock_LSP
 "
-)
+_ns
 mString
 )
 ;

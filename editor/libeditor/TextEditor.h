@@ -1980,14 +1980,13 @@ rv
 =
 ComputeValueInternal
 (
-NS_LITERAL_STRING
-(
+u
 "
 text
 /
 plain
 "
-)
+_ns
 aDocumentEncoderFlags
 aOutputString
 )

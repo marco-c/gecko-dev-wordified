@@ -2348,7 +2348,7 @@ MOZ_TRY
 (
 ConstructJSMComponent
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 %
 s

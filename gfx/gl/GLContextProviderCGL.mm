@@ -2097,12 +2097,10 @@ gl
 *
 out_failureId
 =
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_CGL_FBO
 "
-)
+_ns
 ;
 return
 nullptr
@@ -2122,12 +2120,10 @@ Init
 *
 out_failureId
 =
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_CGL_INIT
 "
-)
+_ns
 ;
 NS_WARNING
 (

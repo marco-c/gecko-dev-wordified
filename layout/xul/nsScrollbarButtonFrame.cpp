@@ -805,12 +805,11 @@ nsGkAtoms
 :
 :
 active
-NS_LITERAL_STRING
-(
+u
 "
 true
 "
-)
+_ns
 true
 )
 ;

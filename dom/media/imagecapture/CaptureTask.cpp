@@ -941,14 +941,13 @@ rv
 nsAutoString
 type
 (
-NS_LITERAL_STRING
-(
+u
 "
 image
 /
 jpeg
 "
-)
+_ns
 )
 ;
 nsAutoString

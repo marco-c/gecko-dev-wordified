@@ -311,14 +311,12 @@ AppendElement
 (
 CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
 flac
 "
-)
+_ns
 aType
 )
 )

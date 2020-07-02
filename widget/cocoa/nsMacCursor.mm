@@ -1327,12 +1327,10 @@ resDir
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 res
 "
-)
+_ns
 )
 ;
 resDir
@@ -1340,12 +1338,10 @@ resDir
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 cursors
 "
-)
+_ns
 )
 ;
 rv

@@ -5118,8 +5118,6 @@ return
 StringBeginsWith
 (
 aPath
-NS_LITERAL_CSTRING
-(
 "
 \
 \
@@ -5132,7 +5130,7 @@ pipe
 \
 \
 "
-)
+_ns
 )
 ;
 }

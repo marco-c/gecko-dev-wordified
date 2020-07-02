@@ -387,15 +387,14 @@ aContext
 >
 receiveError
 (
-NS_LITERAL_STRING
-(
+u
 "
 NodeSet
 expected
 as
 argument
 "
-)
+_ns
 NS_ERROR_XSLT_NODESET_EXPECTED
 )
 ;
@@ -479,8 +478,7 @@ aParamCountMax
 nsAutoString
 err
 (
-NS_LITERAL_STRING
-(
+u
 "
 invalid
 number
@@ -489,7 +487,7 @@ parameters
 for
 function
 "
-)
+_ns
 )
 ;
 #

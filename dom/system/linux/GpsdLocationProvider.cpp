@@ -1788,14 +1788,12 @@ LazyIdleThread
 >
 (
 GPSD_POLL_THREAD_TIMEOUT_MS
-NS_LITERAL_CSTRING
-(
 "
 Gpsd
 poll
 thread
 "
-)
+_ns
 LazyIdleThread
 :
 :

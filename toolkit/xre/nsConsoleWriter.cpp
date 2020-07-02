@@ -224,14 +224,12 @@ lfile
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 console
 .
 log
 "
-)
+_ns
 )
 ;
 }

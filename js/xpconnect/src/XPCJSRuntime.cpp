@@ -2029,12 +2029,10 @@ if
 StringBeginsWith
 (
 uristr
-NS_LITERAL_CSTRING
-(
 "
 xb
 "
-)
+_ns
 )
 )
 {
@@ -2598,12 +2596,10 @@ location
 .
 RFind
 (
-NS_LITERAL_CSTRING
-(
 "
 :
 "
-)
+_ns
 )
 ;
 nsAutoCString
@@ -6447,8 +6443,7 @@ dumper
 >
 DumpMemoryInfoToTempDir
 (
-NS_LITERAL_STRING
-(
+u
 "
 due
 -
@@ -6458,7 +6453,7 @@ JS
 -
 OOM
 "
-)
+_ns
 /
 *
 anonymize
@@ -8699,7 +8694,7 @@ nsIMemoryReporter
 _units
 _amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -8772,7 +8767,7 @@ nsIMemoryReporter
 UNITS_BYTES
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -8890,7 +8885,7 @@ nsIMemoryReporter
 UNITS_BYTES
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -8980,7 +8975,7 @@ nsIMemoryReporter
 UNITS_BYTES
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -9078,7 +9073,7 @@ nsIMemoryReporter
 UNITS_BYTES
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -9156,7 +9151,7 @@ nsIMemoryReporter
 UNITS_BYTES
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -9229,7 +9224,7 @@ nsIMemoryReporter
 UNITS_BYTES
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -9332,8 +9327,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 symbols
 /
@@ -9341,7 +9334,7 @@ gc
 -
 heap
 "
-)
+_ns
 zStats
 .
 symbolsGCHeap
@@ -9355,8 +9348,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -9366,7 +9357,7 @@ arena
 -
 admin
 "
-)
+_ns
 zStats
 .
 gcHeapArenaAdmin
@@ -9387,8 +9378,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 unused
 -
@@ -9396,7 +9385,7 @@ gc
 -
 things
 "
-)
+_ns
 zStats
 .
 unusedGCThings
@@ -9422,8 +9411,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 unique
 -
@@ -9431,7 +9418,7 @@ id
 -
 map
 "
-)
+_ns
 zStats
 .
 uniqueIdMap
@@ -9449,14 +9436,12 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shape
 -
 tables
 "
-)
+_ns
 zStats
 .
 shapeTables
@@ -9473,8 +9458,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 compartments
 /
@@ -9482,7 +9465,7 @@ compartment
 -
 objects
 "
-)
+_ns
 zStats
 .
 compartmentObjects
@@ -9504,8 +9487,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 compartments
 /
@@ -9517,7 +9498,7 @@ wrapper
 -
 tables
 "
-)
+_ns
 zStats
 .
 crossCompartmentWrappersTables
@@ -9536,8 +9517,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 compartments
 /
@@ -9545,7 +9524,7 @@ private
 -
 data
 "
-)
+_ns
 zStats
 .
 compartmentsPrivateData
@@ -9573,8 +9552,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 jit
 -
@@ -9584,7 +9561,7 @@ gc
 -
 heap
 "
-)
+_ns
 zStats
 .
 jitCodesGCHeap
@@ -9606,8 +9583,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 object
 -
@@ -9617,7 +9592,7 @@ gc
 -
 heap
 "
-)
+_ns
 zStats
 .
 objectGroupsGCHeap
@@ -9637,8 +9612,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 object
 -
@@ -9648,7 +9621,7 @@ malloc
 -
 heap
 "
-)
+_ns
 zStats
 .
 objectGroupsMallocHeap
@@ -9664,8 +9637,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 scopes
 /
@@ -9673,7 +9644,7 @@ gc
 -
 heap
 "
-)
+_ns
 zStats
 .
 scopesGCHeap
@@ -9690,8 +9661,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 scopes
 /
@@ -9699,7 +9668,7 @@ malloc
 -
 heap
 "
-)
+_ns
 zStats
 .
 scopesMallocHeap
@@ -9722,8 +9691,6 @@ ZRREPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 regexp
 -
@@ -9733,7 +9700,7 @@ gc
 -
 heap
 "
-)
+_ns
 zStats
 .
 regExpSharedsGCHeap
@@ -9750,8 +9717,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 regexp
 -
@@ -9761,7 +9726,7 @@ malloc
 -
 heap
 "
-)
+_ns
 zStats
 .
 regExpSharedsMallocHeap
@@ -9778,14 +9743,12 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 type
 -
 pool
 "
-)
+_ns
 zStats
 .
 typePool
@@ -9803,14 +9766,12 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 regexp
 -
 zone
 "
-)
+_ns
 zStats
 .
 regexpZone
@@ -9829,14 +9790,12 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 jit
 -
 zone
 "
-)
+_ns
 zStats
 .
 jitZone
@@ -9852,8 +9811,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 baseline
 /
@@ -9861,7 +9818,7 @@ optimized
 -
 stubs
 "
-)
+_ns
 zStats
 .
 baselineStubsOptimized
@@ -9886,8 +9843,6 @@ ZRREPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 script
 -
@@ -9895,7 +9850,7 @@ counts
 -
 map
 "
-)
+_ns
 zStats
 .
 scriptCountsMap
@@ -9914,14 +9869,12 @@ ZRREPORT_NONHEAP_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 code
 /
 ion
 "
-)
+_ns
 zStats
 .
 code
@@ -9942,14 +9895,12 @@ ZRREPORT_NONHEAP_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 code
 /
 baseline
 "
-)
+_ns
 zStats
 .
 code
@@ -9970,14 +9921,12 @@ ZRREPORT_NONHEAP_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 code
 /
 regexp
 "
-)
+_ns
 zStats
 .
 code
@@ -9998,14 +9947,12 @@ ZRREPORT_NONHEAP_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 code
 /
 other
 "
-)
+_ns
 zStats
 .
 code
@@ -10029,14 +9976,12 @@ ZRREPORT_NONHEAP_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 code
 /
 unused
 "
-)
+_ns
 zStats
 .
 code
@@ -10316,7 +10261,7 @@ if
 (
 FindInReadable
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 STRING_LENGTH
 )
@@ -10490,8 +10435,6 @@ REPORT_GC_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -10499,7 +10442,7 @@ heap
 /
 latin1
 "
-)
+_ns
 info
 .
 gcHeapLatin1
@@ -10525,8 +10468,6 @@ REPORT_GC_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -10536,7 +10477,7 @@ two
 -
 byte
 "
-)
+_ns
 info
 .
 gcHeapTwoByte
@@ -10562,8 +10503,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 malloc
 -
@@ -10571,7 +10510,7 @@ heap
 /
 latin1
 "
-)
+_ns
 KIND_HEAP
 info
 .
@@ -10602,8 +10541,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 malloc
 -
@@ -10613,7 +10550,7 @@ two
 -
 byte
 "
-)
+_ns
 KIND_HEAP
 info
 .
@@ -10649,16 +10586,12 @@ isTotals
 anonymize
 )
 ?
-NS_LITERAL_CSTRING
-(
 "
 strings
 /
 "
-)
+_ns
 :
-NS_LITERAL_CSTRING
-(
 "
 strings
 /
@@ -10673,7 +10606,7 @@ strings
 )
 /
 "
-)
+_ns
 ;
 if
 (
@@ -10690,8 +10623,6 @@ REPORT_GC_BYTES
 (
 nonNotablePath
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -10699,7 +10630,7 @@ heap
 /
 latin1
 "
-)
+_ns
 zStats
 .
 stringInfo
@@ -10729,8 +10660,6 @@ REPORT_GC_BYTES
 (
 nonNotablePath
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -10740,7 +10669,7 @@ two
 -
 byte
 "
-)
+_ns
 zStats
 .
 stringInfo
@@ -10770,8 +10699,6 @@ REPORT_BYTES
 (
 nonNotablePath
 +
-NS_LITERAL_CSTRING
-(
 "
 malloc
 -
@@ -10779,7 +10706,7 @@ heap
 /
 latin1
 "
-)
+_ns
 KIND_HEAP
 zStats
 .
@@ -10814,8 +10741,6 @@ REPORT_BYTES
 (
 nonNotablePath
 +
-NS_LITERAL_CSTRING
-(
 "
 malloc
 -
@@ -10825,7 +10750,7 @@ two
 -
 byte
 "
-)
+_ns
 KIND_HEAP
 zStats
 .
@@ -10864,8 +10789,6 @@ REPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 strings
 /
@@ -10882,7 +10805,7 @@ gc
 -
 heap
 "
-)
+_ns
 stringsNotableAboutMemoryGCHeap
 "
 Strings
@@ -10961,8 +10884,6 @@ REPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 strings
 /
@@ -10979,7 +10900,7 @@ malloc
 -
 heap
 "
-)
+_ns
 KIND_HEAP
 stringsNotableAboutMemoryMallocHeap
 "
@@ -11073,8 +10994,6 @@ REPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shapes
 /
@@ -11084,7 +11003,7 @@ heap
 /
 tree
 "
-)
+_ns
 shapeInfo
 .
 shapesGCHeapTree
@@ -11112,8 +11031,6 @@ REPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shapes
 /
@@ -11123,7 +11040,7 @@ heap
 /
 dict
 "
-)
+_ns
 shapeInfo
 .
 shapesGCHeapDict
@@ -11150,8 +11067,6 @@ REPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shapes
 /
@@ -11161,7 +11076,7 @@ heap
 /
 base
 "
-)
+_ns
 shapeInfo
 .
 shapesGCHeapBase
@@ -11193,8 +11108,6 @@ REPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shapes
 /
@@ -11206,7 +11119,7 @@ tree
 -
 tables
 "
-)
+_ns
 KIND_HEAP
 shapeInfo
 .
@@ -11238,8 +11151,6 @@ REPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shapes
 /
@@ -11251,7 +11162,7 @@ dict
 -
 tables
 "
-)
+_ns
 KIND_HEAP
 shapeInfo
 .
@@ -11282,8 +11193,6 @@ REPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 shapes
 /
@@ -11295,7 +11204,7 @@ tree
 -
 children
 "
-)
+_ns
 KIND_HEAP
 shapeInfo
 .
@@ -11336,8 +11245,6 @@ REPORT_GC_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 sundries
 /
@@ -11345,7 +11252,7 @@ gc
 -
 heap
 "
-)
+_ns
 sundriesGCHeap
 "
 The
@@ -11396,8 +11303,6 @@ REPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 sundries
 /
@@ -11405,7 +11310,7 @@ malloc
 -
 heap
 "
-)
+_ns
 KIND_HEAP
 sundriesMallocHeap
 "
@@ -11457,8 +11362,6 @@ REPORT_BYTES
 (
 pathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 sundries
 /
@@ -11466,7 +11369,7 @@ other
 -
 heap
 "
-)
+_ns
 KIND_NONHEAP
 sundriesNonHeap
 "
@@ -11572,8 +11475,6 @@ REPORT_GC_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11581,7 +11482,7 @@ gc
 -
 heap
 "
-)
+_ns
 classInfo
 .
 objectsGCHeap
@@ -11608,8 +11509,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11619,7 +11518,7 @@ heap
 /
 slots
 "
-)
+_ns
 KIND_HEAP
 classInfo
 .
@@ -11648,8 +11547,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11661,7 +11558,7 @@ elements
 /
 normal
 "
-)
+_ns
 KIND_HEAP
 classInfo
 .
@@ -11693,8 +11590,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11708,7 +11603,7 @@ asm
 .
 js
 "
-)
+_ns
 KIND_HEAP
 classInfo
 .
@@ -11743,8 +11638,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11754,7 +11647,7 @@ heap
 /
 misc
 "
-)
+_ns
 KIND_HEAP
 classInfo
 .
@@ -11781,8 +11674,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11794,7 +11685,7 @@ elements
 /
 normal
 "
-)
+_ns
 KIND_NONHEAP
 classInfo
 .
@@ -11827,8 +11718,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11840,7 +11729,7 @@ elements
 /
 shared
 "
-)
+_ns
 KIND_NONHEAP
 classInfo
 .
@@ -11966,8 +11855,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -11979,7 +11866,7 @@ elements
 /
 wasm
 "
-)
+_ns
 KIND_NONHEAP
 classInfo
 .
@@ -12023,8 +11910,6 @@ REPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 objects
 /
@@ -12036,7 +11921,7 @@ code
 /
 wasm
 "
-)
+_ns
 KIND_NONHEAP
 classInfo
 .
@@ -12097,8 +11982,6 @@ wasmGuardPages
 {
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 wasm
 -
@@ -12106,7 +11989,7 @@ guard
 -
 pages
 "
-)
+_ns
 KIND_OTHER
 classInfo
 .
@@ -12242,16 +12125,12 @@ realmStats
 .
 isTotals
 ?
-NS_LITERAL_CSTRING
-(
 "
 classes
 /
 "
-)
+_ns
 :
-NS_LITERAL_CSTRING
-(
 "
 classes
 /
@@ -12266,7 +12145,7 @@ classes
 )
 /
 "
-)
+_ns
 ;
 ReportClassStats
 (
@@ -12413,14 +12292,12 @@ ZRREPORT_BYTES
 (
 realmDOMPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 orphan
 -
 nodes
 "
-)
+_ns
 realmStats
 .
 objectsPrivate
@@ -12450,8 +12327,6 @@ ZRREPORT_GC_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 scripts
 /
@@ -12459,7 +12334,7 @@ gc
 -
 heap
 "
-)
+_ns
 realmStats
 .
 scriptsGCHeap
@@ -12499,8 +12374,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 scripts
 /
@@ -12510,7 +12383,7 @@ heap
 /
 data
 "
-)
+_ns
 realmStats
 .
 scriptsMallocHeapData
@@ -12530,14 +12403,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 baseline
 /
 data
 "
-)
+_ns
 realmStats
 .
 baselineData
@@ -12560,8 +12431,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 baseline
 /
@@ -12569,7 +12438,7 @@ fallback
 -
 stubs
 "
-)
+_ns
 realmStats
 .
 baselineStubsFallback
@@ -12594,14 +12463,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 ion
 -
 data
 "
-)
+_ns
 realmStats
 .
 ionData
@@ -12624,14 +12491,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 jit
 -
 scripts
 "
-)
+_ns
 realmStats
 .
 jitScripts
@@ -12652,8 +12517,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 type
 -
@@ -12665,7 +12528,7 @@ site
 -
 tables
 "
-)
+_ns
 realmStats
 .
 typeInferenceAllocationSiteTables
@@ -12686,8 +12549,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 type
 -
@@ -12699,7 +12560,7 @@ type
 -
 tables
 "
-)
+_ns
 realmStats
 .
 typeInferenceArrayTypeTables
@@ -12720,8 +12581,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 type
 -
@@ -12733,7 +12592,7 @@ type
 -
 tables
 "
-)
+_ns
 realmStats
 .
 typeInferenceObjectTypeTables
@@ -12754,14 +12613,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 realm
 -
 object
 "
-)
+_ns
 realmStats
 .
 realmObject
@@ -12781,14 +12638,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 realm
 -
 tables
 "
-)
+_ns
 realmStats
 .
 realmTables
@@ -12812,14 +12667,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 inner
 -
 views
 "
-)
+_ns
 realmStats
 .
 innerViewsTable
@@ -12839,14 +12692,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 object
 -
 metadata
 "
-)
+_ns
 realmStats
 .
 objectMetadataTable
@@ -12868,8 +12719,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 saved
 -
@@ -12877,7 +12726,7 @@ stacks
 -
 set
 "
-)
+_ns
 realmStats
 .
 savedStacksSet
@@ -12894,8 +12743,6 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 non
 -
@@ -12907,7 +12754,7 @@ scopes
 -
 table
 "
-)
+_ns
 realmStats
 .
 nonSyntacticLexicalScopesTable
@@ -12927,14 +12774,12 @@ ZRREPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 jit
 -
 realm
 "
-)
+_ns
 realmStats
 .
 jitRealm
@@ -12968,8 +12813,6 @@ REPORT_GC_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 sundries
 /
@@ -12977,7 +12820,7 @@ gc
 -
 heap
 "
-)
+_ns
 sundriesGCHeap
 "
 The
@@ -13028,8 +12871,6 @@ REPORT_BYTES
 (
 realmJSPathPrefix
 +
-NS_LITERAL_CSTRING
-(
 "
 sundries
 /
@@ -13037,7 +12878,7 @@ malloc
 -
 heap
 "
-)
+_ns
 KIND_HEAP
 sundriesMallocHeap
 "
@@ -13116,12 +12957,10 @@ RREPORT_BYTES
 (
 path
 +
-NS_LITERAL_CSTRING
-(
 "
 misc
 "
-)
+_ns
 KIND_HEAP
 scriptSourceInfo
 .
@@ -13348,8 +13187,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13357,7 +13194,7 @@ runtime
 -
 object
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13376,8 +13213,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13385,7 +13220,7 @@ atoms
 -
 table
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13404,8 +13239,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13415,7 +13248,7 @@ mark
 -
 bitmaps
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13439,14 +13272,12 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
 contexts
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13470,14 +13301,12 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
 temporary
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13508,8 +13337,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13517,7 +13344,7 @@ interpreter
 -
 stack
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13536,8 +13363,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13549,7 +13374,7 @@ strings
 -
 cache
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13582,8 +13407,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13593,7 +13416,7 @@ intl
 -
 data
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13612,8 +13435,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13623,7 +13444,7 @@ source
 -
 cache
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13644,8 +13465,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13653,7 +13472,7 @@ script
 -
 data
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13678,14 +13497,12 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
 tracelogger
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -13979,8 +13796,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -13988,7 +13803,7 @@ gc
 /
 marker
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14013,8 +13828,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14024,7 +13837,7 @@ nursery
 -
 committed
 "
-)
+_ns
 KIND_NONHEAP
 rtStats
 .
@@ -14051,8 +13864,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14064,7 +13875,7 @@ malloced
 -
 buffers
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14096,8 +13907,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14109,7 +13918,7 @@ buffer
 /
 vals
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14132,8 +13941,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14145,7 +13952,7 @@ buffer
 /
 cells
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14168,8 +13975,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14181,7 +13986,7 @@ buffer
 /
 slots
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14204,8 +14009,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14219,7 +14022,7 @@ whole
 -
 cells
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14243,8 +14046,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14256,7 +14057,7 @@ buffer
 /
 generics
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14280,8 +14081,6 @@ RREPORT_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 runtime
 /
@@ -14289,7 +14088,7 @@ jit
 -
 lazylink
 "
-)
+_ns
 KIND_HEAP
 rtStats
 .
@@ -14391,8 +14190,6 @@ REPORT_GC_BYTES
 (
 rtPath2
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -14402,7 +14199,7 @@ decommitted
 -
 arenas
 "
-)
+_ns
 rtStats
 .
 gcHeapDecommittedArenas
@@ -14443,8 +14240,6 @@ REPORT_GC_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -14454,7 +14249,7 @@ unused
 -
 chunks
 "
-)
+_ns
 rtStats
 .
 gcHeapUnusedChunks
@@ -14482,8 +14277,6 @@ REPORT_GC_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -14493,7 +14286,7 @@ unused
 -
 arenas
 "
-)
+_ns
 rtStats
 .
 gcHeapUnusedArenas
@@ -14514,8 +14307,6 @@ REPORT_GC_BYTES
 (
 rtPath
 +
-NS_LITERAL_CSTRING
-(
 "
 gc
 -
@@ -14525,7 +14316,7 @@ chunk
 -
 admin
 "
-)
+_ns
 rtStats
 .
 gcHeapChunkAdmin
@@ -14690,8 +14481,6 @@ IsSystemRealm
 realm
 )
 ?
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -14704,10 +14493,8 @@ realms
 system
 /
 "
-)
+_ns
 :
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -14720,7 +14507,7 @@ realms
 user
 /
 "
-)
+_ns
 0
 )
 ;
@@ -15214,13 +15001,11 @@ return
 StringBeginsWith
 (
 s
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
 "
-)
+_ns
 )
 ;
 }
@@ -15990,23 +15775,19 @@ extras
 jsPathPrefix
 +
 =
-NS_LITERAL_CSTRING
-(
 "
 realm
 (
 "
-)
+_ns
 +
 rName
 +
-NS_LITERAL_CSTRING
-(
 "
 )
 /
 "
-)
+_ns
 ;
 /
 /
@@ -16518,8 +16299,6 @@ xpc
 ReportJSRuntimeExplicitTreeStats
 (
 rtStats
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -16530,7 +16309,7 @@ non
 window
 /
 "
-)
+_ns
 handleReport
 data
 anonymize
@@ -16646,8 +16425,6 @@ numbers
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16657,7 +16434,7 @@ runtime
 /
 runtime
 "
-)
+_ns
 KIND_OTHER
 rtTotal
 "
@@ -16692,8 +16469,6 @@ of
 HelperThread
 REPORT
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16703,7 +16478,7 @@ threads
 /
 idle
 "
-)
+_ns
 KIND_OTHER
 UNITS_COUNT
 gStats
@@ -16725,8 +16500,6 @@ HelperThreads
 ;
 REPORT
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16736,7 +16509,7 @@ threads
 /
 active
 "
-)
+_ns
 KIND_OTHER
 UNITS_COUNT
 gStats
@@ -16781,14 +16554,12 @@ state
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 wasm
 -
 runtime
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -16820,8 +16591,6 @@ realms
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16837,7 +16606,7 @@ unused
 -
 chunks
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -16869,8 +16638,6 @@ chunks
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16886,7 +16653,7 @@ unused
 -
 arenas
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -16918,8 +16685,6 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16935,7 +16700,7 @@ chunk
 -
 admin
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -16978,8 +16743,6 @@ space
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -16997,7 +16760,7 @@ unused
 /
 chunks
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17029,8 +16792,6 @@ chunks
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -17048,7 +16809,7 @@ unused
 /
 arenas
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17080,7 +16841,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17127,7 +16888,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17174,7 +16935,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17221,7 +16982,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17268,7 +17029,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17318,7 +17079,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17368,7 +17129,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17415,7 +17176,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17462,7 +17223,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17509,7 +17270,7 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17558,8 +17319,6 @@ arenas
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -17579,7 +17338,7 @@ chunk
 -
 admin
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17611,8 +17370,6 @@ admin
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 js
 -
@@ -17632,7 +17389,7 @@ arena
 -
 admin
 "
-)
+_ns
 KIND_OTHER
 rtStats
 .
@@ -17671,7 +17428,7 @@ gcThingTotal
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17713,7 +17470,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17757,7 +17514,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17797,7 +17554,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17847,7 +17604,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17892,7 +17649,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17935,7 +17692,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -17975,7 +17732,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -18015,7 +17772,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -18055,7 +17812,7 @@ cells
 ;
 MREPORT_BYTES
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 js
@@ -18112,8 +17869,6 @@ xpconnect
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18121,7 +17876,7 @@ xpconnect
 /
 runtime
 "
-)
+_ns
 KIND_HEAP
 xpcJSRuntimeSize
 "
@@ -18134,8 +17889,6 @@ runtime
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18143,7 +17896,7 @@ xpconnect
 /
 wrappedjs
 "
-)
+_ns
 KIND_HEAP
 wrappedJSSize
 "
@@ -18161,8 +17914,6 @@ JS
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18170,7 +17921,7 @@ xpconnect
 /
 scopes
 "
-)
+_ns
 KIND_HEAP
 sizeInfo
 .
@@ -18184,8 +17935,6 @@ scopes
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18197,7 +17946,7 @@ iface
 -
 cache
 "
-)
+_ns
 KIND_HEAP
 sizeInfo
 .
@@ -18214,8 +17963,6 @@ caches
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18227,7 +17974,7 @@ component
 -
 loader
 "
-)
+_ns
 KIND_HEAP
 jsComponentLoaderSize
 "
@@ -18251,8 +17998,6 @@ global
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18264,7 +18009,7 @@ window
 /
 tracelogger
 "
-)
+_ns
 KIND_HEAP
 gStats
 .
@@ -18292,8 +18037,6 @@ HelperThreadState
 .
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18311,7 +18054,7 @@ heap
 -
 other
 "
-)
+_ns
 KIND_HEAP
 gStats
 .
@@ -18328,8 +18071,6 @@ HelperThreadState
 )
 ;
 REPORT_BYTES
-(
-NS_LITERAL_CSTRING
 (
 "
 explicit
@@ -18348,7 +18089,7 @@ parse
 -
 task
 "
-)
+_ns
 KIND_HEAP
 gStats
 .
@@ -18370,8 +18111,6 @@ HelperThreadState
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18391,7 +18130,7 @@ compile
 -
 task
 "
-)
+_ns
 KIND_HEAP
 gStats
 .
@@ -18413,8 +18152,6 @@ HelperThreadState
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18432,7 +18169,7 @@ wasm
 -
 compile
 "
-)
+_ns
 KIND_HEAP
 gStats
 .
@@ -18455,8 +18192,6 @@ HelperThreadState
 ;
 REPORT_BYTES
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
@@ -18472,7 +18207,7 @@ thread
 /
 contexts
 "
-)
+_ns
 KIND_HEAP
 gStats
 .
@@ -19987,14 +19722,12 @@ scriptChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
-(
 "
 text
 /
 plain
 "
-)
+_ns
 )
 ;
 nsCOMPtr
@@ -20356,14 +20089,13 @@ get
 )
 )
 rawLen
-NS_LITERAL_STRING
-(
+u
 "
 UTF
 -
 8
 "
-)
+_ns
 nullptr
 *
 twoByteSource
@@ -23808,12 +23540,10 @@ mPool
 >
 SetName
 (
-NS_LITERAL_CSTRING
-(
 "
 JSHelperThreads
 "
-)
+_ns
 )
 ;
 mPool

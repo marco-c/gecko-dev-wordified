@@ -7362,13 +7362,12 @@ Equals
 (
 Substring
 (
-NS_LITERAL_STRING
-(
+u
 "
 >
 From
 "
-)
+_ns
 0
 minlength
 )

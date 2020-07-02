@@ -734,8 +734,6 @@ message
 !
 isExtension
 ?
-NS_LITERAL_CSTRING
-(
 "
 Script
 URL
@@ -752,10 +750,8 @@ or
 https
 '
 "
-)
+_ns
 :
-NS_LITERAL_CSTRING
-(
 "
 Script
 URL
@@ -770,7 +766,7 @@ moz
 extension
 '
 "
-)
+_ns
 ;
 aRv
 .
@@ -868,8 +864,6 @@ message
 !
 isExtension
 ?
-NS_LITERAL_CSTRING
-(
 "
 Scope
 URL
@@ -886,10 +880,8 @@ or
 https
 '
 "
-)
+_ns
 :
-NS_LITERAL_CSTRING
-(
 "
 Scope
 URL
@@ -904,7 +896,7 @@ moz
 extension
 '
 "
-)
+_ns
 ;
 aRv
 .

@@ -612,12 +612,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Bullet
 "
-)
+_ns
 aResult
 )
 ;

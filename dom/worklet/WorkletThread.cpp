@@ -1577,13 +1577,11 @@ thread
 >
 Init
 (
-NS_LITERAL_CSTRING
-(
 "
 DOM
 Worklet
 "
-)
+_ns
 )
 )
 )

@@ -1100,8 +1100,6 @@ path
 auto
 pattern
 =
-NS_LITERAL_CSTRING
-(
 "
 /
 Contents
@@ -1109,7 +1107,7 @@ Contents
 MacOS
 /
 "
-)
+_ns
 ;
 nsAutoCString
 :

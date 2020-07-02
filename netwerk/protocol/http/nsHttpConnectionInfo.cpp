@@ -3381,12 +3381,10 @@ clone
 new
 nsHttpConnectionInfo
 (
-NS_LITERAL_CSTRING
-(
 "
 *
 "
-)
+_ns
 0
 mNPNToken
 mUsername

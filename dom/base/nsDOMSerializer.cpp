@@ -291,8 +291,7 @@ encoder
 NativeInit
 (
 doc
-NS_LITERAL_STRING
-(
+u
 "
 application
 /
@@ -300,7 +299,7 @@ xhtml
 +
 xml
 "
-)
+_ns
 nsIDocumentEncoder
 :
 :

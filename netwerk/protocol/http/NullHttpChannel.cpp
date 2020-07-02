@@ -196,8 +196,6 @@ chan
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Timing
 -
@@ -205,7 +203,7 @@ Allow
 -
 Origin
 "
-)
+_ns
 mTimingAllowOriginHeader
 )
 ;

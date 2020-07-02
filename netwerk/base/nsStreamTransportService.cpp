@@ -1440,12 +1440,10 @@ mPool
 >
 SetName
 (
-NS_LITERAL_CSTRING
-(
 "
 StreamTrans
 "
-)
+_ns
 )
 ;
 mPool

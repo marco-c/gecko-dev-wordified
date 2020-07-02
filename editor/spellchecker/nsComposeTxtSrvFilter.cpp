@@ -386,8 +386,7 @@ nsGkAtoms
 :
 :
 _class
-NS_LITERAL_STRING
-(
+u
 "
 moz
 -
@@ -397,7 +396,7 @@ headers
 -
 table
 "
-)
+_ns
 eCaseMatters
 )
 ;

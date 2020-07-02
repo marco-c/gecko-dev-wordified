@@ -584,12 +584,10 @@ KEY_NAME_INDEX_USE_STRING
 )
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 USE_STRING
 "
-)
+_ns
 ;
 }
 nsAutoString
@@ -628,12 +626,10 @@ CODE_NAME_INDEX_USE_STRING
 )
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 USE_STRING
 "
-)
+_ns
 ;
 }
 nsAutoString
@@ -816,7 +812,7 @@ aDOMKeyCode
 :
 \
 return
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 #
 aDOMKeyName

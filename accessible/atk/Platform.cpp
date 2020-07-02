@@ -1888,7 +1888,7 @@ gsettings
 >
 GetCollectionForSchema
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 GSETINGS_A11Y_INTERFACE
 )
@@ -1908,7 +1908,7 @@ a11y_settings
 >
 GetBoolean
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 GSETINGS_A11Y_KEY
 )

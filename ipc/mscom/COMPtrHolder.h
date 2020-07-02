@@ -1322,12 +1322,10 @@ Annotation
 :
 :
 ProxyStreamValid
-NS_LITERAL_CSTRING
-(
 "
 false
 "
-)
+_ns
 )
 ;
 return

@@ -671,15 +671,13 @@ GetDescriptionName
 const
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 chromium
 cdm
 video
 decoder
 "
-)
+_ns
 ;
 }
 MediaDataDecoder

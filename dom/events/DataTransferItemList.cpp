@@ -3158,12 +3158,11 @@ aTypes
 .
 AppendElement
 (
-NS_LITERAL_STRING
-(
+u
 "
 Files
 "
-)
+_ns
 )
 ;
 }

@@ -488,14 +488,12 @@ aColumnNum
 WorkerMainThreadRunnable
 (
 aWorkerPrivate
-NS_LITERAL_CSTRING
-(
 "
 CSP
 Eval
 Check
 "
-)
+_ns
 )
 mExpression
 (

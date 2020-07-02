@@ -308,12 +308,10 @@ DisableByDefault
 (
 aDisableStatus
 aDisableMessage
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_DISABLED
 "
-)
+_ns
 )
 ;
 return
@@ -447,12 +445,10 @@ message
 get
 (
 )
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_PREF_OFF
 "
-)
+_ns
 )
 ;
 }

@@ -1740,12 +1740,11 @@ docShell
 {
 DispatchTrustedEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 voiceschanged
 "
-)
+_ns
 )
 ;
 /

@@ -2038,14 +2038,12 @@ nsIWebSocketChannel
 :
 :
 CLOSE_GOING_AWAY
-NS_LITERAL_CSTRING
-(
 "
 Child
 was
 killed
 "
-)
+_ns
 )
 ;
 }

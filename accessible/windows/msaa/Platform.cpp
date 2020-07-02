@@ -1457,14 +1457,13 @@ expectedHandler
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 AccessibleHandler
 .
 dll
 "
-)
+_ns
 )
 ;
 if
@@ -2133,8 +2132,7 @@ MOZ_CRASHREPORTER
 )
 AccumulateInstantiatorTelemetry
 (
-NS_LITERAL_STRING
-(
+u
 "
 (
 Failed
@@ -2145,7 +2143,7 @@ image
 name
 )
 "
-)
+_ns
 )
 ;
 #

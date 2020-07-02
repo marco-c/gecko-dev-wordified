@@ -746,12 +746,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 ColumnSetWrapper
 "
-)
+_ns
 aResult
 )
 ;

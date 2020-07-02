@@ -481,14 +481,13 @@ aReferrer
 {
 SetPropertyAsInterface
 (
-NS_LITERAL_STRING
-(
+u
 "
 docshell
 .
 internalReferrer
 "
-)
+_ns
 aReferrer
 )
 ;

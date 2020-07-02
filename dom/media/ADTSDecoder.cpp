@@ -168,8 +168,6 @@ platform
 >
 SupportsMimeType
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
@@ -177,7 +175,7 @@ mp4a
 -
 latm
 "
-)
+_ns
 /
 *
 DecoderDoctorDiagnostics
@@ -354,8 +352,6 @@ AppendElement
 (
 CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
@@ -363,7 +359,7 @@ mp4a
 -
 latm
 "
-)
+_ns
 aType
 )
 )

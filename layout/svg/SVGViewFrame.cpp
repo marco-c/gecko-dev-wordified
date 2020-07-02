@@ -404,12 +404,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGView
 "
-)
+_ns
 aResult
 )
 ;

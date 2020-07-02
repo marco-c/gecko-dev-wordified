@@ -1198,13 +1198,11 @@ mozilla
 :
 PerformanceCounter
 (
-NS_LITERAL_CSTRING
-(
 "
 DocGroup
 :
 "
-)
+_ns
 +
 aKey
 )

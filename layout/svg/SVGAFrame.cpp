@@ -320,12 +320,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGA
 "
-)
+_ns
 aResult
 )
 ;

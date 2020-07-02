@@ -1052,12 +1052,11 @@ PluginCrashedEvent
 Constructor
 (
 document
-NS_LITERAL_STRING
-(
+u
 "
 PluginCrashed
 "
-)
+_ns
 init
 )
 ;
@@ -1344,7 +1343,7 @@ GetContentParent
 (
 aHelper
 aNodeId
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 CHROMIUM_CDM_API
 )
@@ -2018,7 +2017,7 @@ GetContentParent
 (
 aHelper
 aNodeId
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 GMP_API_VIDEO_DECODER
 )
@@ -2264,7 +2263,7 @@ GetContentParent
 (
 aHelper
 aNodeId
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 GMP_API_VIDEO_ENCODER
 )

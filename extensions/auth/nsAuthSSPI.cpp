@@ -1036,12 +1036,10 @@ buf
 index
 )
 +
-NS_LITERAL_CSTRING
-(
 "
 /
 "
-)
+_ns
 +
 cname
 ;

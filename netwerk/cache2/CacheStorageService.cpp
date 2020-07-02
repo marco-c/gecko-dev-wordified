@@ -13392,8 +13392,6 @@ nsIMemoryReporter
 :
 UNITS_BYTES
 size
-NS_LITERAL_CSTRING
-(
 "
 Memory
 used
@@ -13403,7 +13401,7 @@ cache
 storage
 .
 "
-)
+_ns
 aData
 )
 ;

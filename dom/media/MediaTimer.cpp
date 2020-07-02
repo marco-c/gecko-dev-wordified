@@ -261,12 +261,10 @@ SharedThreadPool
 :
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 MediaTimer
 "
-)
+_ns
 1
 )
 )

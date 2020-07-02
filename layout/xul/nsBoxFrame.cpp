@@ -6285,12 +6285,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Box
 "
-)
+_ns
 aResult
 )
 ;

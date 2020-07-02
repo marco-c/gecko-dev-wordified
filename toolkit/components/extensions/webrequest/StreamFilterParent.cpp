@@ -3704,13 +3704,11 @@ self
 >
 SendError
 (
-NS_LITERAL_CSTRING
-(
 "
 Channel
 redirected
 "
-)
+_ns
 )
 )
 ;
@@ -3834,8 +3832,6 @@ self
 >
 SendError
 (
-NS_LITERAL_CSTRING
-(
 "
 Channel
 is
@@ -3845,7 +3841,7 @@ alt
 -
 data
 "
-)
+_ns
 )
 )
 ;

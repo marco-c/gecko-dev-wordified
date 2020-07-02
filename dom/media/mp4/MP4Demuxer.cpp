@@ -2177,12 +2177,11 @@ crypto
 >
 AddInitData
 (
-NS_LITERAL_STRING
-(
+u
 "
 cenc
 "
-)
+_ns
 mCryptoInitData
 )
 ;

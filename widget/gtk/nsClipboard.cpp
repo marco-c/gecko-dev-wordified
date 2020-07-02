@@ -5070,8 +5070,6 @@ if
 (
 CaseInsensitiveFindInReadable
 (
-NS_LITERAL_CSTRING
-(
 "
 CONTENT
 =
@@ -5082,7 +5080,7 @@ text
 html
 ;
 "
-)
+_ns
 start
 end
 )
@@ -5103,13 +5101,11 @@ if
 (
 CaseInsensitiveFindInReadable
 (
-NS_LITERAL_CSTRING
-(
 "
 charset
 =
 "
-)
+_ns
 start
 end
 )

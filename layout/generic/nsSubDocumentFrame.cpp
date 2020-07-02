@@ -4176,12 +4176,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 FrameOuter
 "
-)
+_ns
 aResult
 )
 ;

@@ -624,8 +624,6 @@ BasePrincipal
 :
 FromJSON
 (
-NS_LITERAL_CSTRING
-(
 "
 {
 \
@@ -638,7 +636,7 @@ NS_LITERAL_CSTRING
 }
 }
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -682,8 +680,6 @@ BasePrincipal
 :
 FromJSON
 (
-NS_LITERAL_CSTRING
-(
 "
 {
 \
@@ -713,7 +709,7 @@ com
 }
 }
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -758,8 +754,6 @@ BasePrincipal
 :
 FromJSON
 (
-NS_LITERAL_CSTRING
-(
 "
 {
 \
@@ -797,7 +791,7 @@ com
 }
 }
 "
-)
+_ns
 )
 ;
 ASSERT_EQ

@@ -198,12 +198,10 @@ PermissionManagerTester
 :
 mNonExistentType
 (
-NS_LITERAL_CSTRING
-(
 "
 permissionTypeThatIsGuaranteedToNeverExist
 "
-)
+_ns
 )
 {
 }
@@ -237,8 +235,6 @@ getter_AddRefs
 (
 uri
 )
-NS_LITERAL_CSTRING
-(
 "
 https
 :
@@ -256,7 +252,7 @@ example
 .
 com
 "
-)
+_ns
 )
 ;
 MOZ_RELEASE_ASSERT

@@ -3805,13 +3805,11 @@ aDest
 .
 Append
 (
-NS_LITERAL_CSTRING
-(
 "
 \
 n
 "
-)
+_ns
 )
 ;
 aDest

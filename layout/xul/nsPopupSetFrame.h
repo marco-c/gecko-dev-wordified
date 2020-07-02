@@ -359,12 +359,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 PopupSet
 "
-)
+_ns
 aResult
 )
 ;

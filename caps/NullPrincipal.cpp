@@ -1338,7 +1338,7 @@ Length
 )
 =
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NULLPRINCIPAL_SCHEME
 "

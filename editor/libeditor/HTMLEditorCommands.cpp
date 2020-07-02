@@ -4712,12 +4712,10 @@ aParams
 SetCString
 (
 STATE_ATTRIBUTE
-NS_LITERAL_CSTRING
-(
 "
 x
 "
-)
+_ns
 )
 ;
 }
@@ -7747,12 +7745,10 @@ SetCString
 STATE_ATTRIBUTE
 container
 ?
-NS_LITERAL_CSTRING
-(
 "
 absolute
 "
-)
+_ns
 :
 EmptyCString
 (

@@ -256,14 +256,13 @@ ClassList
 >
 Contains
 (
-NS_LITERAL_STRING
-(
+u
 "
 text
 -
 link
 "
-)
+_ns
 )
 )
 {

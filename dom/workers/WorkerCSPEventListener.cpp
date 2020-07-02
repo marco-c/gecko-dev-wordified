@@ -259,12 +259,11 @@ aWorkerPrivate
 GlobalScope
 (
 )
-NS_LITERAL_STRING
-(
+u
 "
 securitypolicyviolation
 "
-)
+_ns
 violationEventInit
 )
 ;

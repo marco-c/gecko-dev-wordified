@@ -689,12 +689,10 @@ mSProxy
 >
 OnConnected
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 "
-)
+_ns
 )
 ;
 ASSERT_TRUE

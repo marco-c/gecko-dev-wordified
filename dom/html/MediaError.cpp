@@ -353,7 +353,7 @@ message
 nsAutoCString
 message
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 This
@@ -517,12 +517,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 MediaError
 "
-)
+_ns
 ownerDoc
 )
 ;

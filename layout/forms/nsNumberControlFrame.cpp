@@ -430,12 +430,11 @@ nsGkAtoms
 :
 :
 aria_hidden
-NS_LITERAL_STRING
-(
+u
 "
 true
 "
-)
+_ns
 false
 )
 ;

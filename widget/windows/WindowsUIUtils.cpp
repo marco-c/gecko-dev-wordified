@@ -2028,11 +2028,10 @@ Length
 ?
 nsAutoString
 (
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
+_ns
 )
 :
 title

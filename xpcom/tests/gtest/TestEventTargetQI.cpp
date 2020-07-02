@@ -331,12 +331,10 @@ SharedThreadPool
 :
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 TestPool
 "
-)
+_ns
 1
 )
 ;
@@ -490,12 +488,10 @@ new
 LazyIdleThread
 (
 0
-NS_LITERAL_CSTRING
-(
 "
 TestThread
 "
-)
+_ns
 )
 ;
 EXPECT_TRUE

@@ -213,12 +213,11 @@ GetParentObject
 (
 )
 aName
-NS_LITERAL_STRING
-(
+u
 "
 resource
 "
-)
+_ns
 )
 mTimingData
 (

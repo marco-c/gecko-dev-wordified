@@ -2836,12 +2836,11 @@ extension
 .
 filePath
 =
-NS_LITERAL_STRING
-(
+u
 "
 .
 "
-)
+_ns
 +
 NS_ConvertUTF8toUTF16
 (

@@ -1017,8 +1017,7 @@ profD
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 cpp
 -
@@ -1026,7 +1025,7 @@ unit
 -
 profd
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1239,12 +1238,10 @@ mGREBinD
 >
 SetNativeLeafName
 (
-NS_LITERAL_CSTRING
-(
 "
 MacOS
 "
-)
+_ns
 )
 ;
 }

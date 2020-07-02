@@ -4394,7 +4394,7 @@ Callback
 EmptyCString
 (
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 path
 )
@@ -4403,7 +4403,7 @@ kind
 units
 amount
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 description
 )

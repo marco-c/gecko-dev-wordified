@@ -1914,7 +1914,7 @@ nsDependentCString
 (
 key
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 META_DATA_PREFIX
 )
@@ -1922,7 +1922,7 @@ META_DATA_PREFIX
 &
 &
 !
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SEEN_META_DATA
 )
@@ -1934,7 +1934,7 @@ key
 &
 &
 !
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 RESOURCE_META_DATA
 )
@@ -3636,7 +3636,7 @@ cacheDiskStorage
 AsyncOpenURI
 (
 originKey
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 PREDICTOR_ORIGIN_EXTENSION
 )
@@ -8777,7 +8777,7 @@ cacheDiskStorage
 AsyncOpenURI
 (
 originKey
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 PREDICTOR_ORIGIN_EXTENSION
 )
@@ -11418,7 +11418,7 @@ nsDependentCString
 (
 asciiKey
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 META_DATA_PREFIX
 )

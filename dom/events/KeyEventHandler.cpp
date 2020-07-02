@@ -4161,14 +4161,12 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 Key
 Event
 Handler
 "
-)
+_ns
 doc
 nsContentUtils
 :

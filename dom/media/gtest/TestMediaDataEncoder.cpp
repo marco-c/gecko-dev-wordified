@@ -205,7 +205,7 @@ f
 >
 SupportsMimeType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 mimeType
 )
@@ -1050,7 +1050,7 @@ f
 >
 SupportsMimeType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 VIDEO_MP4
 )
@@ -1072,7 +1072,7 @@ videoInfo
 .
 mMimeType
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 VIDEO_MP4
 )

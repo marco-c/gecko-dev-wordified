@@ -1862,13 +1862,11 @@ CrashReporter
 :
 AppendAppNotesToCrashReport
 (
-NS_LITERAL_CSTRING
-(
 "
 \
 n
 "
-)
+_ns
 +
 appNotes
 -

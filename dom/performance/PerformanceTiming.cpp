@@ -365,12 +365,11 @@ IsEmpty
 {
 aInitiatorType
 =
-NS_LITERAL_STRING
-(
+u
 "
 other
 "
-)
+_ns
 ;
 }
 /

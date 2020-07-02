@@ -2495,13 +2495,11 @@ if
 StringBeginsWith
 (
 gtkPrinter
-NS_LITERAL_CSTRING
-(
 "
 CUPS
 /
 "
-)
+_ns
 )
 )
 {

@@ -1502,12 +1502,11 @@ Length
 =
 ToNewUTF8String
 (
-NS_LITERAL_STRING
-(
+u
 "
 PARAM
 "
-)
+_ns
 )
 ;
 mCachedParamValues

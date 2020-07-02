@@ -2183,7 +2183,7 @@ promise
 >
 MaybeRejectWithNotSupportedError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Requested
@@ -2763,12 +2763,11 @@ XRSessionEvent
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 end
 "
-)
+_ns
 init
 )
 ;

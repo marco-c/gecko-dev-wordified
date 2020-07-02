@@ -4989,13 +4989,11 @@ threadPool
 >
 SetName
 (
-NS_LITERAL_CSTRING
-(
 "
 DNS
 Resolver
 "
-)
+_ns
 )
 )
 ;

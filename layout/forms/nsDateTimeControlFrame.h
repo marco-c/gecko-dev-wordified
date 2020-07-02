@@ -318,12 +318,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 DateTimeControl
 "
-)
+_ns
 aResult
 )
 ;

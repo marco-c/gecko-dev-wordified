@@ -546,12 +546,10 @@ on
 temporaries
 as
 in
-nsLiteralCString
-(
 "
 x
 "
-)
+_ns
 .
 get
 (

@@ -6147,12 +6147,10 @@ GetGtkTheme
 .
 Find
 (
-NS_LITERAL_CSTRING
-(
 "
 HighContrast
 "
-)
+_ns
 )
 >
 =

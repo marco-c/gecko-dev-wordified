@@ -772,12 +772,10 @@ ReportCrossOriginDenial
 (
 aCx
 aId
-NS_LITERAL_CSTRING
-(
 "
 access
 "
-)
+_ns
 )
 ;
 }

@@ -2733,11 +2733,9 @@ gDynamicEventInfo
 )
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 ;
 }
 return
@@ -5964,8 +5962,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Invalid
 type
@@ -5974,7 +5971,7 @@ value
 parameter
 .
 "
-)
+_ns
 )
 ;
 mozilla
@@ -6037,8 +6034,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Invalid
 string
@@ -6048,7 +6044,7 @@ value
 parameter
 .
 "
-)
+_ns
 )
 ;
 mozilla
@@ -6094,8 +6090,9 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 Value
 parameter
@@ -6164,8 +6161,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Invalid
 type
@@ -6174,7 +6170,7 @@ extra
 parameter
 .
 "
-)
+_ns
 )
 ;
 mozilla
@@ -6268,8 +6264,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Failed
 to
@@ -6277,7 +6272,7 @@ enumerate
 object
 .
 "
-)
+_ns
 )
 ;
 mozilla
@@ -6345,8 +6340,9 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 Extra
 dictionary
@@ -6415,8 +6411,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Failed
 to
@@ -6425,7 +6420,7 @@ extra
 property
 .
 "
-)
+_ns
 )
 ;
 mozilla
@@ -6475,8 +6470,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Extra
 properties
@@ -6486,7 +6480,7 @@ string
 values
 .
 "
-)
+_ns
 )
 ;
 mozilla
@@ -6532,8 +6526,9 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 Extra
 value
@@ -6920,8 +6915,7 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_STRING
-(
+u
 "
 Event
 storage
@@ -6929,7 +6923,7 @@ limit
 reached
 .
 "
-)
+_ns
 )
 ;
 nsCOMPtr
@@ -9458,7 +9452,7 @@ nsIScriptError
 warningFlag
 NS_ConvertUTF8toUTF16
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Unknown

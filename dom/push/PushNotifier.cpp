@@ -2557,12 +2557,10 @@ ReportToConsoleNonLocalized
 (
 mMessage
 mFlags
-NS_LITERAL_CSTRING
-(
 "
 Push
 "
-)
+_ns
 nullptr
 /
 *
@@ -2799,12 +2797,10 @@ ReportToConsoleNonLocalized
 (
 mMessage
 mFlags
-NS_LITERAL_CSTRING
-(
 "
 Push
 "
-)
+_ns
 nullptr
 /
 *

@@ -1154,12 +1154,10 @@ file
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 startupCache
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1219,7 +1217,7 @@ file
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 STARTUP_CACHE_NAME
 )

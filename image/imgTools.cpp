@@ -2372,8 +2372,6 @@ type
 nsAutoCString
 encoderCID
 (
-NS_LITERAL_CSTRING
-(
 "
 mozilla
 .
@@ -2388,7 +2386,7 @@ encoder
 type
 =
 "
-)
+_ns
 +
 aMimeType
 )

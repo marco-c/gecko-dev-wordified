@@ -1360,12 +1360,11 @@ IPC
 WriteParam
 (
 aMsg
-NS_LITERAL_STRING
-(
+u
 "
 uievent
 "
-)
+_ns
 )
 ;
 }

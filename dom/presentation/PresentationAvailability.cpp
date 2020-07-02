@@ -1106,12 +1106,11 @@ NS_FAILED
 (
 DispatchTrustedEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 change
 "
-)
+_ns
 )
 )
 )

@@ -419,8 +419,7 @@ Null
 nsAutoString
 str
 (
-NS_LITERAL_STRING
-(
+u
 "
 string
 with
@@ -429,7 +428,7 @@ a
 0
 char
 "
-)
+_ns
 )
 ;
 nsDependentString

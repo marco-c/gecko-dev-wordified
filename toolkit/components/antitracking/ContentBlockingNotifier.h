@@ -139,13 +139,11 @@ h
 #
 define
 ANTITRACKING_CONSOLE_CATEGORY
-NS_LITERAL_CSTRING
-(
 "
 Content
 Blocking
 "
-)
+_ns
 class
 nsIChannel
 ;

@@ -391,15 +391,11 @@ upgrade
 .
 CheckCompatVersionCompare
 (
-NS_LITERAL_CSTRING
-(
 "
 Safe
 Mode
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 67
 .
@@ -409,7 +405,7 @@ NS_LITERAL_CSTRING
 /
 20000000000000
 "
-)
+_ns
 false
 false
 )

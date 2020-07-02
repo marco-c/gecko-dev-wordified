@@ -306,12 +306,10 @@ if
 StringBeginsWith
 (
 contractId
-NS_LITERAL_CSTRING
-(
 "
 service
 "
-)
+_ns
 )
 )
 {

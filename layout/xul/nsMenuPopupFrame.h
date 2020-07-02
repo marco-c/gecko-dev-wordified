@@ -2356,12 +2356,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 MenuPopup
 "
-)
+_ns
 aResult
 )
 ;

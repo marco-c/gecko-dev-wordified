@@ -912,13 +912,11 @@ gWebSocketChannel
 >
 SendBinaryMsg
 (
-NS_LITERAL_CSTRING
-(
 "
 Hello
 world
 "
-)
+_ns
 )
 ;
 if
@@ -962,11 +960,9 @@ gWebSocketChannel
 Close
 (
 1000
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 if

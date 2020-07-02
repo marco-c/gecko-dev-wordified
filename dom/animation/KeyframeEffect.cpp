@@ -6955,12 +6955,11 @@ mEasing
 .
 Construct
 (
-NS_LITERAL_STRING
-(
+u
 "
 linear
 "
-)
+_ns
 )
 ;
 }

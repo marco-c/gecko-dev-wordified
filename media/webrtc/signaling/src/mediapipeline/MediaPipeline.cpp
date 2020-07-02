@@ -11417,12 +11417,11 @@ const
 nsString
 statId
 =
-NS_LITERAL_STRING
-(
+u
 "
 csrc_
 "
-)
+_ns
 +
 aInboundRtpStreamId
 ;

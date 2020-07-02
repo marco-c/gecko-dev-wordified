@@ -8412,12 +8412,10 @@ mSubmitThread
 new
 VRThread
 (
-NS_LITERAL_CSTRING
-(
 "
 VR_SubmitFrame
 "
-)
+_ns
 )
 ;
 }

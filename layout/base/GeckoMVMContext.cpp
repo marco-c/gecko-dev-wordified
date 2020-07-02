@@ -725,14 +725,13 @@ static
 auto
 readerModeUriPrefix
 =
-NS_LITERAL_STRING
-(
+u
 "
 about
 :
 reader
 "
-)
+_ns
 ;
 return
 StringBeginsWith

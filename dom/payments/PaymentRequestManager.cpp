@@ -3318,12 +3318,11 @@ aTimedOut
 nsString
 completeStatusString
 (
-NS_LITERAL_STRING
-(
+u
 "
 unknown
 "
-)
+_ns
 )
 ;
 if

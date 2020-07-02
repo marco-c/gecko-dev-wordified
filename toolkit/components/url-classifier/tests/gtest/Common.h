@@ -164,8 +164,6 @@ mozilla
 #
 define
 GTEST_TABLE_V4
-NS_LITERAL_CSTRING
-(
 "
 gtest
 -
@@ -173,12 +171,10 @@ malware
 -
 proto
 "
-)
+_ns
 #
 define
 GTEST_TABLE_V2
-NS_LITERAL_CSTRING
-(
 "
 gtest
 -
@@ -186,7 +182,7 @@ malware
 -
 simple
 "
-)
+_ns
 template
 <
 typename

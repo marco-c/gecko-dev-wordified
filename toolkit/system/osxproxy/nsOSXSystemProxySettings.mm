@@ -1516,12 +1516,10 @@ aResult
 .
 Assign
 (
-NS_LITERAL_CSTRING
-(
 "
 SOCKS
 "
-)
+_ns
 +
 proxyHost
 +
@@ -1543,12 +1541,10 @@ aResult
 .
 Assign
 (
-NS_LITERAL_CSTRING
-(
 "
 PROXY
 "
-)
+_ns
 +
 proxyHost
 +

@@ -1211,14 +1211,12 @@ new
 ProbeManager
 (
 kApplicationTracingCID
-NS_LITERAL_CSTRING
-(
 "
 Application
 startup
 probe
 "
-)
+_ns
 )
 ;
 /
@@ -1262,8 +1260,6 @@ mProbesManager
 GetProbe
 (
 kPlacesInitCompleteCID
-NS_LITERAL_CSTRING
-(
 "
 places
 -
@@ -1271,7 +1267,7 @@ init
 -
 complete
 "
-)
+_ns
 )
 ;
 NS_WARNING_ASSERTION
@@ -1299,8 +1295,6 @@ mProbesManager
 GetProbe
 (
 kSessionStoreWindowRestoredCID
-NS_LITERAL_CSTRING
-(
 "
 sessionstore
 -
@@ -1308,7 +1302,7 @@ windows
 -
 restored
 "
-)
+_ns
 )
 ;
 NS_WARNING_ASSERTION
@@ -1336,14 +1330,12 @@ mProbesManager
 GetProbe
 (
 kXPCOMShutdownCID
-NS_LITERAL_CSTRING
-(
 "
 xpcom
 -
 shutdown
 "
-)
+_ns
 )
 ;
 NS_WARNING_ASSERTION

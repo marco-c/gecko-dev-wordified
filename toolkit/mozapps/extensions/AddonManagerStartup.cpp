@@ -4592,12 +4592,10 @@ IsEmpty
 StringEndsWith
 (
 pattern
-NS_LITERAL_CSTRING
-(
 "
 /
 "
-)
+_ns
 )
 )
 {

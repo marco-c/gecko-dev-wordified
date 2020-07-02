@@ -391,12 +391,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 NumberControl
 "
-)
+_ns
 aResult
 )
 ;

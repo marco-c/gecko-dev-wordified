@@ -3032,8 +3032,6 @@ mSrc
 .
 Find
 (
-NS_LITERAL_CSTRING
-(
 "
 file
 :
@@ -3041,7 +3039,7 @@ file
 /
 /
 "
-)
+_ns
 false
 0
 0
@@ -3249,7 +3247,7 @@ rv
 GetEncodedImageBuffer
 (
 aImage
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 IMAGE_PNG
 )

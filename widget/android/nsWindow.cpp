@@ -8523,8 +8523,6 @@ rv
 {
 url
 =
-NS_LITERAL_CSTRING
-(
 "
 chrome
 :
@@ -8538,7 +8536,7 @@ geckoview
 .
 xhtml
 "
-)
+_ns
 ;
 }
 }

@@ -2774,14 +2774,12 @@ channel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
-(
 "
 text
 /
 plain
 "
-)
+_ns
 )
 ;
 rv

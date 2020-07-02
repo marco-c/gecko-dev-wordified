@@ -9162,13 +9162,11 @@ return
 StringBeginsWith
 (
 aHost
-NS_LITERAL_CSTRING
-(
 "
 file
 :
 "
-)
+_ns
 )
 ;
 #

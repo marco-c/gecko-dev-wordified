@@ -1608,8 +1608,7 @@ illegal
 -
 keyword
 "
-NS_LITERAL_STRING
-(
+u
 "
 '
 nonce
@@ -1617,7 +1616,7 @@ nonce
 *
 '
 "
-)
+_ns
 )
 ;
 return
@@ -2542,14 +2541,13 @@ missing
 -
 source
 "
-NS_LITERAL_STRING
-(
+u
 "
 '
 self
 '
 "
-)
+_ns
 )
 ;
 aResult

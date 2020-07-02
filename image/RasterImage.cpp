@@ -12204,8 +12204,7 @@ errorObject
 nsAutoString
 msg
 (
-NS_LITERAL_STRING
-(
+u
 "
 Image
 corrupt
@@ -12213,7 +12212,7 @@ or
 truncated
 .
 "
-)
+_ns
 )
 ;
 nsAutoString
@@ -12241,8 +12240,7 @@ uri
 msg
 +
 =
-NS_LITERAL_STRING
-(
+u
 "
 URI
 in
@@ -12254,7 +12252,7 @@ to
 length
 .
 "
-)
+_ns
 ;
 }
 src

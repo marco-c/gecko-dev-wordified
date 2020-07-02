@@ -2013,7 +2013,7 @@ AppendNative
 (
 mTableName
 +
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 STORE_SUFFIX
 )
@@ -2311,13 +2311,11 @@ AppendNative
 (
 mTableName
 +
-NS_LITERAL_CSTRING
-(
 "
 .
 sbstore
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5886,13 +5884,11 @@ AppendNative
 (
 mTableName
 +
-NS_LITERAL_CSTRING
-(
 "
 .
 sbstore
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6149,7 +6145,7 @@ AppendNative
 (
 mTableName
 +
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 STORE_SUFFIX
 )

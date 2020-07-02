@@ -1676,12 +1676,11 @@ CheckStringFlag
 (
 aFlag
 aData
-NS_LITERAL_STRING
-(
+u
 "
 likeunix
 "
-)
+_ns
 aResult
 )
 ;

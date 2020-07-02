@@ -712,14 +712,13 @@ SerializeToStream
 *
 mBody
 output
-NS_LITERAL_STRING
-(
+u
 "
 UTF
 -
 8
 "
-)
+_ns
 res
 )
 ;

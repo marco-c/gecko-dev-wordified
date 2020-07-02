@@ -2608,14 +2608,12 @@ httpChannel
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 last
 -
 modified
 "
-)
+_ns
 lastModified
 )
 )

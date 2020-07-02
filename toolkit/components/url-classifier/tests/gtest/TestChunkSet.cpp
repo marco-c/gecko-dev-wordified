@@ -1446,6 +1446,10 @@ origSet
 origSet
 =
 chunkSet
+.
+InfallibleClone
+(
+)
 ;
 chunkSet
 .
@@ -2048,8 +2052,6 @@ get
 nsAutoCString
 expected
 (
-NS_LITERAL_CSTRING
-(
 "
 1
 -
@@ -2060,7 +2062,7 @@ NS_LITERAL_CSTRING
 16
 20
 "
-)
+_ns
 )
 ;
 ASSERT_TRUE

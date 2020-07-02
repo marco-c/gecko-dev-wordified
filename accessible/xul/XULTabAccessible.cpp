@@ -921,12 +921,11 @@ AsElement
 >
 Closest
 (
-NS_LITERAL_STRING
-(
+u
 "
 tabs
 "
-)
+_ns
 rv
 )
 ;

@@ -4858,12 +4858,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 Animation
 "
-)
+_ns
 aDoc
 nsContentUtils
 :

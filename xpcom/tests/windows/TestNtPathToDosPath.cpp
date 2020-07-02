@@ -1064,8 +1064,7 @@ C
 DriveMapping
 drvMapping
 (
-NS_LITERAL_STRING
-(
+u
 "
 \
 \
@@ -1082,7 +1081,7 @@ NS_LITERAL_STRING
 \
 C
 "
-)
+_ns
 )
 ;
 /

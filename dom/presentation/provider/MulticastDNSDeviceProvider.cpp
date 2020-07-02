@@ -468,12 +468,11 @@ infoService
 >
 GetPropertyAsACString
 (
-NS_LITERAL_STRING
-(
+u
 "
 device
 "
-)
+_ns
 aRetVal
 )
 )
@@ -1426,7 +1425,7 @@ serviceInfo
 >
 SetServiceType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SERVICE_TYPE
 )
@@ -3019,7 +3018,7 @@ mMulticastDNS
 >
 StartDiscovery
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SERVICE_TYPE
 )

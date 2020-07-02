@@ -1412,12 +1412,11 @@ dbDir
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 cache
 "
-)
+_ns
 )
 ;
 if

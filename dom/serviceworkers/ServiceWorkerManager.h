@@ -1463,13 +1463,12 @@ NS_ConvertUTF8toUTF16
 some_nsCString_or_nsCSubString
 )
 *
-NS_LITERAL_STRING
-(
+u
 "
 some
 literal
 "
-)
+_ns
 }
 .
 If

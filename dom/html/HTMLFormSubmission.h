@@ -1402,8 +1402,6 @@ aContentType
 {
 aContentType
 =
-NS_LITERAL_CSTRING
-(
 "
 multipart
 /
@@ -1414,7 +1412,7 @@ data
 boundary
 =
 "
-)
+_ns
 +
 mBoundary
 ;

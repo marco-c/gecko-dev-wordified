@@ -378,12 +378,11 @@ new
 AsyncEventDispatcher
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 toggle
 "
-)
+_ns
 CanBubble
 :
 :

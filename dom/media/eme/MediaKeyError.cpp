@@ -168,12 +168,11 @@ aSystemCode
 {
 InitEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 error
 "
-)
+_ns
 CanBubble
 :
 :

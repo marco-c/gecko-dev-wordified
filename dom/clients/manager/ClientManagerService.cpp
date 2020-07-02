@@ -361,8 +361,9 @@ override
 {
 aNameOut
 =
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 ClientManagerService
 :
@@ -591,13 +592,12 @@ NS_LITERAL_STRING
 __FILE__
 )
 __LINE__
-NS_LITERAL_STRING
-(
+u
 "
 ClientManagerService
 shutdown
 "
-)
+_ns
 )
 ;
 if

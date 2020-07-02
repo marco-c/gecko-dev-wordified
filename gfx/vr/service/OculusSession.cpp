@@ -3787,14 +3787,12 @@ Assign
 (
 libPath
 +
-NS_LITERAL_STRING
-(
 u
 "
 \
 \
 "
-)
+_ns
 +
 libName
 )

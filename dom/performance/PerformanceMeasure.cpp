@@ -168,12 +168,11 @@ PerformanceEntry
 (
 aParent
 aName
-NS_LITERAL_STRING
-(
+u
 "
 measure
 "
-)
+_ns
 )
 mStartTime
 (

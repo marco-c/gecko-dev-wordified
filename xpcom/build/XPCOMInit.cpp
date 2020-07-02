@@ -2326,14 +2326,12 @@ binaryFile
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 nonexistent
 -
 executable
 "
-)
+_ns
 )
 ;
 if

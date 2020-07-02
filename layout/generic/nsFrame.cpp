@@ -55695,12 +55695,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Frame
 "
-)
+_ns
 aResult
 )
 ;

@@ -2112,12 +2112,10 @@ exceptionCode
 nsCString
 name
 (
-NS_LITERAL_CSTRING
-(
 "
 Error
 "
-)
+_ns
 )
 ;
 if

@@ -1425,8 +1425,6 @@ client
 >
 Send
 (
-NS_LITERAL_CSTRING
-(
 "
 127
 .
@@ -1436,7 +1434,7 @@ NS_LITERAL_CSTRING
 .
 1
 "
-)
+_ns
 serverPort
 data
 &

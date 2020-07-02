@@ -1045,7 +1045,7 @@ dbConn
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 SELECT
@@ -1296,7 +1296,7 @@ dbConn
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 SELECT
@@ -1463,13 +1463,11 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 BEGIN
 EXCLUSIVE
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -1502,12 +1500,10 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 COMMIT
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

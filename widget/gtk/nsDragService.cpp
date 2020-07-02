@@ -10598,12 +10598,11 @@ infoService
 >
 GetPropertyAsACString
 (
-NS_LITERAL_STRING
-(
+u
 "
 host
 "
-)
+_ns
 host
 )
 )

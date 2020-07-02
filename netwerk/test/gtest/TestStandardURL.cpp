@@ -136,8 +136,6 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 SetSpec
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -147,7 +145,7 @@ example
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -171,8 +169,6 @@ url
 .
 SetSpec
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -182,7 +178,7 @@ example
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -212,8 +208,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -224,7 +218,7 @@ example
 com
 /
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -233,8 +227,6 @@ url
 -
 >
 Resolve
-(
-NS_LITERAL_CSTRING
 (
 "
 foo
@@ -245,7 +237,7 @@ q
 =
 45
 "
-)
+_ns
 out
 )
 NS_OK
@@ -256,8 +248,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -275,7 +265,7 @@ q
 =
 45
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -287,12 +277,10 @@ url
 .
 SetScheme
 (
-NS_LITERAL_CSTRING
-(
 "
 foo
 "
-)
+_ns
 )
 .
 Finalize
@@ -319,12 +307,10 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 foo
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -344,14 +330,12 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 example
 .
 com
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -363,8 +347,6 @@ url
 .
 SetHost
 (
-NS_LITERAL_CSTRING
-(
 "
 www
 .
@@ -372,7 +354,7 @@ yahoo
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -399,8 +381,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 www
 .
@@ -408,7 +388,7 @@ yahoo
 .
 com
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -420,7 +400,7 @@ url
 .
 SetPathQueryRef
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 /
@@ -475,7 +455,7 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 /
@@ -515,7 +495,7 @@ url
 .
 SetQuery
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 a
@@ -569,8 +549,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 a
 =
@@ -596,7 +574,7 @@ called
 =
 45
 "
-)
+_ns
 )
 ;
 ASSERT_EQ
@@ -608,8 +586,6 @@ url
 .
 SetRef
 (
-NS_LITERAL_CSTRING
-(
 "
 #
 some
@@ -618,7 +594,7 @@ book
 -
 mark
 "
-)
+_ns
 )
 .
 Finalize
@@ -645,8 +621,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 some
 -
@@ -654,7 +628,7 @@ book
 -
 mark
 "
-)
+_ns
 )
 ;
 }
@@ -2410,8 +2384,6 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 SetSpec
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -2421,7 +2393,7 @@ example
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -2456,8 +2428,6 @@ url
 .
 SetSpec
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -2467,7 +2437,7 @@ example
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -2494,8 +2464,6 @@ url
 >
 Resolve
 (
-NS_LITERAL_CSTRING
-(
 "
 foo
 .
@@ -2505,7 +2473,7 @@ q
 =
 45
 "
-)
+_ns
 out
 )
 ;
@@ -2522,12 +2490,10 @@ url
 .
 SetScheme
 (
-NS_LITERAL_CSTRING
-(
 "
 foo
 "
-)
+_ns
 )
 .
 Finalize
@@ -2556,8 +2522,6 @@ url
 .
 SetHost
 (
-NS_LITERAL_CSTRING
-(
 "
 www
 .
@@ -2565,7 +2529,7 @@ yahoo
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -2594,7 +2558,7 @@ url
 .
 SetPathQueryRef
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 /
@@ -2651,7 +2615,7 @@ url
 .
 SetQuery
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 a
@@ -2707,8 +2671,6 @@ url
 .
 SetRef
 (
-NS_LITERAL_CSTRING
-(
 "
 #
 some
@@ -2717,7 +2679,7 @@ book
 -
 mark
 "
-)
+_ns
 )
 .
 Finalize
@@ -3103,8 +3065,6 @@ NS_STANDARDURLMUTATOR_CONTRACTID
 .
 SetSpec
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -3114,7 +3074,7 @@ example
 .
 com
 "
-)
+_ns
 )
 .
 Finalize
@@ -3145,8 +3105,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 http
 :
@@ -3157,7 +3115,7 @@ example
 com
 /
 "
-)
+_ns
 )
 ;
 rv
@@ -3169,29 +3127,23 @@ uri
 .
 SetScheme
 (
-NS_LITERAL_CSTRING
-(
 "
 ftp
 "
-)
+_ns
 )
 .
 SetHost
-(
-NS_LITERAL_CSTRING
 (
 "
 mozilla
 .
 org
 "
-)
+_ns
 )
 .
 SetPathQueryRef
-(
-NS_LITERAL_CSTRING
 (
 "
 /
@@ -3201,7 +3153,7 @@ query
 #
 ref
 "
-)
+_ns
 )
 .
 Finalize
@@ -3232,8 +3184,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 ftp
 :
@@ -3249,7 +3199,7 @@ query
 #
 ref
 "
-)
+_ns
 )
 ;
 nsCOMPtr
@@ -3267,12 +3217,10 @@ uri
 .
 SetScheme
 (
-NS_LITERAL_CSTRING
-(
 "
 https
 "
-)
+_ns
 )
 .
 Finalize
@@ -3303,8 +3251,6 @@ ASSERT_TRUE
 out
 =
 =
-NS_LITERAL_CSTRING
-(
 "
 https
 :
@@ -3320,7 +3266,7 @@ query
 #
 ref
 "
-)
+_ns
 )
 ;
 }
@@ -3356,11 +3302,9 @@ spec
 (
 )
 =
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 ;
 standard_params
 .

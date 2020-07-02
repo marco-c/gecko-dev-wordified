@@ -356,12 +356,10 @@ VersionString
 0
 ]
 =
-NS_LITERAL_CSTRING
-(
 "
 h2
 "
-)
+_ns
 ;
 ALPNCallbacks
 [

@@ -8900,12 +8900,11 @@ values
 nsAutoString
 elementId
 =
-NS_LITERAL_STRING
-(
+u
 "
 #
 "
-)
+_ns
 +
 nsDependentAtomString
 (

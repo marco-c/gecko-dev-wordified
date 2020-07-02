@@ -5654,11 +5654,9 @@ CreateRoutedTransport
 types
 host
 port
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 0
 proxyInfo
 result

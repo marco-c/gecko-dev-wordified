@@ -453,12 +453,11 @@ FeaturePolicyUtils
 IsFeatureAllowed
 (
 doc
-NS_LITERAL_STRING
-(
+u
 "
 midi
 "
-)
+_ns
 )
 )
 {

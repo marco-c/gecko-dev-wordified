@@ -251,13 +251,12 @@ binary
 StringEndsWith
 (
 leafName
-NS_LITERAL_STRING
-(
+u
 "
 .
 app
 "
-)
+_ns
 )
 )
 {

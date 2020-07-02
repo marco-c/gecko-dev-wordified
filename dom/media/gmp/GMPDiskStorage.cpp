@@ -356,12 +356,10 @@ tmpFile
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 storage
 "
-)
+_ns
 )
 ;
 if

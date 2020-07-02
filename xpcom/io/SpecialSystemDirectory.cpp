@@ -2248,12 +2248,10 @@ file
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 Desktop
 "
-)
+_ns
 )
 ;
 }

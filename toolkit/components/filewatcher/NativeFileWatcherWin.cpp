@@ -2198,12 +2198,11 @@ rv
 DispatchChangeCallbacks
 (
 changedRes
-NS_LITERAL_STRING
-(
+u
 "
 *
 "
-)
+_ns
 )
 ;
 if

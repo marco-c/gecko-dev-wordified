@@ -134,8 +134,6 @@ origHead
 .
 ParseStatusLine
 (
-NS_LITERAL_CSTRING
-(
 "
 HTTP
 /
@@ -145,7 +143,7 @@ HTTP
 200
 OK
 "
-)
+_ns
 )
 ;
 Unused
@@ -154,8 +152,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 content
@@ -166,7 +162,7 @@ text
 /
 plain
 "
-)
+_ns
 )
 ;
 Unused
@@ -175,8 +171,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 etag
@@ -184,7 +178,7 @@ etag
 Just
 testing
 "
-)
+_ns
 )
 ;
 Unused
@@ -193,8 +187,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 cache
@@ -207,7 +199,7 @@ age
 =
 99999
 "
-)
+_ns
 )
 ;
 Unused
@@ -216,8 +208,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 accept
@@ -226,7 +216,7 @@ ranges
 :
 bytes
 "
-)
+_ns
 )
 ;
 Unused
@@ -235,8 +225,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 content
@@ -245,7 +233,7 @@ length
 :
 1408
 "
-)
+_ns
 )
 ;
 Unused
@@ -254,15 +242,13 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 connection
 :
 close
 "
-)
+_ns
 )
 ;
 Unused
@@ -271,8 +257,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 server
@@ -281,7 +265,7 @@ httpd
 .
 js
 "
-)
+_ns
 )
 ;
 Unused
@@ -290,8 +274,6 @@ Unused
 origHead
 .
 ParseHeaderLine
-(
-NS_LITERAL_CSTRING
 (
 "
 date
@@ -307,7 +289,7 @@ May
 23
 GMT
 "
-)
+_ns
 )
 ;
 IPC

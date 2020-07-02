@@ -646,12 +646,11 @@ override
 {
 aBlobImplType
 =
-NS_LITERAL_STRING
-(
+u
 "
 BaseBlobImpl
 "
-)
+_ns
 ;
 }
 protected

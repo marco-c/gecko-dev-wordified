@@ -756,8 +756,6 @@ GetName
 const
 {
 return
-NS_LITERAL_STRING
-(
 u
 "
 &
@@ -768,7 +766,7 @@ videoSource
 tabShare
 ;
 "
-)
+_ns
 ;
 }
 nsCString
@@ -781,12 +779,10 @@ GetUUID
 const
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 tab
 "
-)
+_ns
 ;
 }
 nsString
@@ -799,8 +795,6 @@ GetGroupId
 const
 {
 return
-NS_LITERAL_STRING
-(
 u
 "
 &
@@ -811,7 +805,7 @@ videoSource
 tabShareGroup
 ;
 "
-)
+_ns
 ;
 }
 #

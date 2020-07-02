@@ -1977,14 +1977,12 @@ chan
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
-(
 "
 application
 /
 javascript
 "
-)
+_ns
 )
 ;
 rv
@@ -2746,7 +2744,7 @@ serv
 ReportError
 (
 cx
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 LOAD_ERROR_NOSERVICE
 )
@@ -2831,7 +2829,7 @@ rv
 ReportError
 (
 cx
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 LOAD_ERROR_NOURI
 )
@@ -2862,7 +2860,7 @@ rv
 ReportError
 (
 cx
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 LOAD_ERROR_NOSPEC
 )

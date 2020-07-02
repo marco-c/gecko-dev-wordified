@@ -763,12 +763,10 @@ permissionManager
 TestPermissionFromPrincipal
 (
 aPrincipal
-NS_LITERAL_CSTRING
-(
 "
 popup
 "
-)
+_ns
 &
 permit
 )

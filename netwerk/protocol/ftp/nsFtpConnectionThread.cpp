@@ -1793,14 +1793,12 @@ mChannel
 >
 SetContentCharset
 (
-NS_LITERAL_CSTRING
-(
 "
 UTF
 -
 8
 "
-)
+_ns
 )
 ;
 /
@@ -4564,7 +4562,7 @@ S_pwd
 return
 SendFTPCommand
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 PWD
@@ -4752,7 +4750,7 @@ S_syst
 return
 SendFTPCommand
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 SYST
@@ -5106,7 +5104,7 @@ S_acct
 return
 SendFTPCommand
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 ACCT
@@ -5152,7 +5150,7 @@ S_type
 return
 SendFTPCommand
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 TYPE
@@ -6128,7 +6126,7 @@ mChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 APPLICATION_HTTP_INDEX_FORMAT
 )
@@ -6570,7 +6568,7 @@ mChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 APPLICATION_OCTET_STREAM
 )
@@ -8780,7 +8778,7 @@ S_feat
 return
 SendFTPCommand
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 FEAT
@@ -8814,7 +8812,7 @@ mResponseMsg
 .
 Find
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 CRLF
 "
@@ -8844,14 +8842,12 @@ mChannel
 >
 SetContentCharset
 (
-NS_LITERAL_CSTRING
-(
 "
 UTF
 -
 8
 "
-)
+_ns
 )
 ;
 mUseUTF8
@@ -8897,7 +8893,7 @@ Draft
 return
 SendFTPCommand
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 OPTS
@@ -10286,12 +10282,10 @@ if
 StringBeginsWith
 (
 command
-NS_LITERAL_CSTRING
-(
 "
 PASS
 "
-)
+_ns
 )
 )
 logcmd

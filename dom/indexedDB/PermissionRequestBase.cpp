@@ -215,7 +215,7 @@ const
 nsLiteralCString
 kPermissionString
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 IDB_PREFIX
 )

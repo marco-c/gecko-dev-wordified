@@ -457,13 +457,11 @@ IsAnonymous
 {
 cacheKey
 =
-NS_LITERAL_CSTRING
-(
 "
 anon
 &
 "
-)
+_ns
 +
 cacheKey
 ;

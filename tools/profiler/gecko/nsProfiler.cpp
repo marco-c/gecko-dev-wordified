@@ -5058,11 +5058,9 @@ self
 >
 GatheredOOPProfile
 (
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 }

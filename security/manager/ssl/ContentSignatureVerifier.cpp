@@ -954,8 +954,6 @@ const
 nsCString
 header
 =
-NS_LITERAL_CSTRING
-(
 "
 -
 -
@@ -970,14 +968,12 @@ CERTIFICATE
 -
 -
 "
-)
+_ns
 ;
 const
 nsCString
 footer
 =
-NS_LITERAL_CSTRING
-(
 "
 -
 -
@@ -992,7 +988,7 @@ CERTIFICATE
 -
 -
 "
-)
+_ns
 ;
 nsCWhitespaceTokenizerTemplate
 <

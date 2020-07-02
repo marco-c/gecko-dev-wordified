@@ -965,8 +965,6 @@ aInitData
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -977,7 +975,7 @@ CDM
 process
 .
 "
-)
+_ns
 )
 ;
 return
@@ -1075,8 +1073,6 @@ aSessionId
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -1087,7 +1083,7 @@ CDM
 process
 .
 "
-)
+_ns
 )
 ;
 return
@@ -1154,8 +1150,6 @@ aCert
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -1165,7 +1159,7 @@ to
 CDM
 process
 "
-)
+_ns
 )
 ;
 }
@@ -1235,8 +1229,6 @@ aResponse
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -1246,7 +1238,7 @@ to
 CDM
 process
 "
-)
+_ns
 )
 ;
 }
@@ -1308,8 +1300,6 @@ aSessionId
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -1319,7 +1309,7 @@ to
 CDM
 process
 "
-)
+_ns
 )
 ;
 }
@@ -1381,8 +1371,6 @@ aSessionId
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -1392,7 +1380,7 @@ to
 CDM
 process
 "
-)
+_ns
 )
 ;
 }
@@ -1881,8 +1869,6 @@ unwrap
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -1892,7 +1878,7 @@ to
 CDM
 process
 "
-)
+_ns
 )
 ;
 }
@@ -2799,8 +2785,6 @@ isNothing
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 Lost
 session
@@ -2810,7 +2794,7 @@ new
 session
 .
 "
-)
+_ns
 )
 ;
 return
@@ -3118,14 +3102,12 @@ aPromiseId
 RejectPromiseWithStateError
 (
 aPromiseId
-NS_LITERAL_CSTRING
-(
 "
 CDM
 is
 shutdown
 "
-)
+_ns
 )
 ;
 }

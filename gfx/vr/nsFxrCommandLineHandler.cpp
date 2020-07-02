@@ -480,12 +480,11 @@ aCmdLine
 >
 HandleFlag
 (
-NS_LITERAL_STRING
-(
+u
 "
 fxr
 "
-)
+_ns
 false
 &
 handleFlagRetVal

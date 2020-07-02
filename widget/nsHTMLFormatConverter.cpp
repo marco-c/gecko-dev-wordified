@@ -258,7 +258,7 @@ aFlavors
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kHTMLMime
 )
@@ -340,7 +340,7 @@ aFlavors
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kHTMLMime
 )
@@ -350,7 +350,7 @@ aFlavors
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kUnicodeMime
 )

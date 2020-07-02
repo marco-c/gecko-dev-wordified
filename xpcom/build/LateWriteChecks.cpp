@@ -1592,15 +1592,14 @@ deduplication
 nsAutoString
 finalName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Telemetry
 .
 LateWriteFinal
 -
 "
-)
+_ns
 )
 ;
 for

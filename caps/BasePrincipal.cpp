@@ -5194,13 +5194,11 @@ aIsOnion
 StringEndsWith
 (
 host
-NS_LITERAL_CSTRING
-(
 "
 .
 onion
 "
-)
+_ns
 )
 ;
 return
@@ -6410,12 +6408,10 @@ MOZ_ASSERT
 StringBeginsWith
 (
 aOrigin
-NS_LITERAL_CSTRING
-(
 "
 [
 "
-)
+_ns
 )
 "
 CreateContentPrincipal
@@ -6437,7 +6433,7 @@ MOZ_ASSERT
 StringBeginsWith
 (
 aOrigin
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NULLPRINCIPAL_SCHEME
 "

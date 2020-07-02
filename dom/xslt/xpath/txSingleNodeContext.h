@@ -321,14 +321,13 @@ DEBUG
 nsAutoString
 error
 (
-NS_LITERAL_STRING
-(
+u
 "
 forwarded
 error
 :
 "
-)
+_ns
 )
 ;
 error

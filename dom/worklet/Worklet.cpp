@@ -1393,14 +1393,13 @@ ConvertToUTF16
 nullptr
 aString
 aStringLen
-NS_LITERAL_STRING
-(
+u
 "
 UTF
 -
 8
 "
-)
+_ns
 nullptr
 scriptTextBuf
 scriptTextLength
