@@ -4947,6 +4947,9 @@ CoalescedMouseData
 mCoalescedMouseData
 ;
 nsDeque
+<
+CoalescedMouseData
+>
 mToBeDispatchedMouseData
 ;
 CoalescedWheelData
