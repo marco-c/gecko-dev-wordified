@@ -166,7 +166,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-domProcess
+contentParent
 ;
 let
 actorParent
@@ -316,7 +316,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-domProcess
+contentParent
 ;
 let
 actorParent
@@ -472,7 +472,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-domProcess
+contentParent
 ;
 let
 actorParent
