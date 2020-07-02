@@ -773,14 +773,11 @@ aPopup
 {
 MOZ_ASSERT
 (
-(
 aPopup
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_OUT_OF_FLOW
 )
 &
@@ -856,7 +853,6 @@ Next
 {
 NS_ASSERTION
 (
-(
 e
 .
 get
@@ -864,10 +860,8 @@ get
 )
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_OUT_OF_FLOW
 )
 &
