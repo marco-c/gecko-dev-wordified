@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_IPCBlobInputStream_h
+mozilla_dom_RemoteLazyInputStream_h
 #
 define
-mozilla_dom_IPCBlobInputStream_h
+mozilla_dom_RemoteLazyInputStream_h
 #
 include
 "
@@ -211,7 +211,7 @@ IPCBLOBINPUTSTREAM_IID
 \
 }
 class
-IPCBlobInputStream
+RemoteLazyInputStream
 final
 :
 public
@@ -245,7 +245,7 @@ NS_DECL_NSIASYNCFILEMETADATA
 NS_DECL_NSIINPUTSTREAMLENGTH
 NS_DECL_NSIASYNCINPUTSTREAMLENGTH
 explicit
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 RemoteLazyInputStreamChild
 *
@@ -307,7 +307,7 @@ nullptr
 private
 :
 ~
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 )
 ;
@@ -652,4 +652,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_IPCBlobInputStream_h
+mozilla_dom_RemoteLazyInputStream_h

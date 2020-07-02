@@ -1059,7 +1059,7 @@ child
 side
 creates
 a
-IPCBlobInputStream
+RemoteLazyInputStream
 and
 *
 that
@@ -1121,7 +1121,7 @@ the
 content
 process
 side
-IPCBlobInputStream
+RemoteLazyInputStream
 is
 a
 special
@@ -1280,7 +1280,7 @@ the
 serialization
 of
 a
-IPCBlobInputStream
+RemoteLazyInputStream
 it
 is
 *
@@ -1389,7 +1389,7 @@ do
 it
 asynchronously
 using
-IPCBlobInputStream
+RemoteLazyInputStream
 as
 a
 *
@@ -1400,7 +1400,7 @@ This
 happens
 calling
 *
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 asyncWait
 (
@@ -1491,7 +1491,7 @@ from
 that
 moment
 any
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 method
 will
@@ -1582,7 +1582,7 @@ by
 *
 or
 more
-IPCBlobInputStream
+RemoteLazyInputStream
 objects
 in
 order
@@ -1639,7 +1639,7 @@ life
 time
 of
 the
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 *
 *
@@ -1879,10 +1879,10 @@ yet
 Pending
 operations
 and
-IPCBlobInputStreams
+RemoteLazyInputStreams
 are
-moved
 *
+moved
 onto
 the
 new
@@ -1926,7 +1926,7 @@ RemoteLazyInputStreamStorage
 4
 .
 The
-IPCBlobInputStream
+RemoteLazyInputStream
 constructor
 is
 sent
@@ -2091,7 +2091,7 @@ nsIAsyncInputStream
 ~
 *
 *
-IPCBlobInputStream
+RemoteLazyInputStream
 is
 always
 async
@@ -2102,9 +2102,9 @@ remote
 inputStream
 is
 not
-async
 *
-IPCBlobInputStream
+async
+RemoteLazyInputStream
 will
 create
 a
@@ -2115,8 +2115,8 @@ it
 in
 order
 to
-be
 *
+be
 consistently
 async
 .
@@ -2250,8 +2250,8 @@ fixed
 implmenting
 nsICloneableWithRange
 in
-IPCBlobInputStream
 *
+RemoteLazyInputStream
 and
 using
 cloneWithRange
@@ -2261,12 +2261,12 @@ when
 a
 StreamBlobImpl
 is
+*
 sliced
 .
 When
 the
 remote
-*
 stream
 is
 received
@@ -2297,9 +2297,10 @@ having
 |
 SlicedInputStream
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 Async
+*
 Pipe
 (
 RemoteStream
@@ -2307,14 +2308,14 @@ RemoteStream
 )
 )
 |
-*
 we
 have
 :
 |
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 Async
+*
 Pipe
 (
 SlicedInputStream
@@ -2328,7 +2329,7 @@ RemoteStream
 *
 *
 When
-IPCBlobInputStream
+RemoteLazyInputStream
 is
 serialized
 and
@@ -2337,8 +2338,8 @@ to
 the
 parent
 process
-start
 *
+start
 and
 range
 are
@@ -2352,8 +2353,8 @@ in
 the
 parent
 side
-as
 *
+as
 well
 .
 *
@@ -2413,7 +2414,7 @@ to
 send
 the
 corresponding
-IPCBlobInputStream
+RemoteLazyInputStream
 to
 the
 socket
@@ -2427,7 +2428,7 @@ the
 only
 serialization
 of
-IPCBlobInputStream
+RemoteLazyInputStream
 from
 parent
 to
@@ -2505,7 +2506,7 @@ the
 ownership
 of
 the
-IPCBlobInputStream
+RemoteLazyInputStream
 actors
 to
 *

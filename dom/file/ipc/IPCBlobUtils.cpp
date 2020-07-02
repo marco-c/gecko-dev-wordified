@@ -124,7 +124,7 @@ h
 #
 include
 "
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 h
 "
@@ -323,7 +323,7 @@ the
 child
 receives
 a
-IPCBlobInputStream
+RemoteLazyInputStream
 actor
 .
 case
@@ -633,7 +633,7 @@ we
 always
 send
 a
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 MOZ_ASSERT
 (
@@ -657,7 +657,7 @@ case
 this
 is
 a
-IPCBlobInputStream
+RemoteLazyInputStream
 we
 don
 '
@@ -673,7 +673,7 @@ loop
 RemoteLazyInputStreamParent
 -
 >
-IPCBlobInputStream
+RemoteLazyInputStream
 -
 >
 /
@@ -693,7 +693,7 @@ nsCOMPtr
 <
 mozIRemoteLazyInputStream
 >
-ipcBlobInputStream
+remoteLazyInputStream
 =
 do_QueryInterface
 (
@@ -702,12 +702,12 @@ aInputStream
 ;
 if
 (
-ipcBlobInputStream
+remoteLazyInputStream
 )
 {
 stream
 =
-ipcBlobInputStream
+remoteLazyInputStream
 -
 >
 GetInternalStream
@@ -741,14 +741,14 @@ an
 '
 empty
 '
-IPCBlobInputStream
+RemoteLazyInputStream
 actor
 on
 the
 other
+/
+/
 side
-/
-/
 unable
 to
 be

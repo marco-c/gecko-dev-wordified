@@ -74153,7 +74153,7 @@ type
 InputStreamParams
 :
 :
-TIPCBlobInputStreamParams
+TRemoteLazyInputStreamParams
 )
 {
 return
@@ -74161,13 +74161,13 @@ nullptr
 ;
 }
 const
-IPCBlobInputStreamParams
+RemoteLazyInputStreamParams
 &
 ipcBlobInputStreamParams
 =
 inputStreamParams
 .
-get_IPCBlobInputStreamParams
+get_RemoteLazyInputStreamParams
 (
 )
 ;
@@ -74180,10 +74180,10 @@ type
 )
 !
 =
-IPCBlobInputStreamParams
+RemoteLazyInputStreamParams
 :
 :
-TIPCBlobInputStreamRef
+TRemoteLazyInputStreamRef
 )
 {
 return
@@ -74197,7 +74197,7 @@ id
 =
 ipcBlobInputStreamParams
 .
-get_IPCBlobInputStreamRef
+get_RemoteLazyInputStreamRef
 (
 )
 .
