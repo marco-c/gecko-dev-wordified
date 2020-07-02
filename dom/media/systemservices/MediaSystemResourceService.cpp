@@ -486,7 +486,6 @@ success
 return
 ;
 }
-else
 if
 (
 !
