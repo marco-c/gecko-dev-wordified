@@ -164,6 +164,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 GuardObjects
 .
 h
