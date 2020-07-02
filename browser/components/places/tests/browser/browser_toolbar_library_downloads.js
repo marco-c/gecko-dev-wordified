@@ -69,6 +69,12 @@ button
 "
 )
 ;
+libraryBtn
+.
+click
+(
+)
+;
 let
 libView
 =
@@ -94,12 +100,6 @@ libView
 "
 ViewShown
 "
-)
-;
-libraryBtn
-.
-click
-(
 )
 ;
 await

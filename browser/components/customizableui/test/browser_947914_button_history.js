@@ -280,6 +280,12 @@ Menu
 "
 )
 ;
+historyButton
+.
+click
+(
+)
+;
 let
 historyPanel
 =
@@ -305,12 +311,6 @@ historyPanel
 "
 ViewShown
 "
-)
-;
-historyButton
-.
-click
-(
 )
 ;
 await

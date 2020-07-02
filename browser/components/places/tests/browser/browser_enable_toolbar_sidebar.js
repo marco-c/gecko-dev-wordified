@@ -138,6 +138,12 @@ button
 "
 )
 ;
+btn
+.
+click
+(
+)
+;
 let
 view
 =
@@ -159,12 +165,6 @@ view
 "
 ViewShown
 "
-)
-;
-btn
-.
-click
-(
 )
 ;
 await
