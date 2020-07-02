@@ -43399,7 +43399,7 @@ const
 aOptOutSortKey
 )
 ;
-nsresult
+void
 PopulateExtraResponses
 (
 mozIStorageStatement
@@ -142549,7 +142549,7 @@ template
 IDBCursorType
 CursorType
 >
-nsresult
+void
 CursorOpBaseHelperBase
 <
 CursorType
@@ -142994,9 +142994,6 @@ get
 extraCount
 aMaxExtraCount
 )
-;
-return
-NS_OK
 ;
 }
 template
@@ -144036,7 +144033,6 @@ than
 for
 ContinueOp
 ?
-return
 PopulateExtraResponses
 (
 aStmt
@@ -144058,6 +144054,9 @@ OpenOp
 )
 optPreviousKey
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -147329,7 +147328,6 @@ inspectErr
 )
 ;
 }
-return
 helper
 .
 PopulateExtraResponses
@@ -147351,6 +147349,9 @@ ContinueOp
 )
 optPreviousKey
 )
+;
+return
+NS_OK
 ;
 }
 Utils
