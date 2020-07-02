@@ -2307,6 +2307,7 @@ actualObj
 [
 prop
 ]
+?
 .
 length
 expectedObj

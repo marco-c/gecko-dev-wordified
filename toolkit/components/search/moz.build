@@ -227,6 +227,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+SearchCache
+.
+jsm
+'
+'
 SearchEngine
 .
 jsm
