@@ -1650,23 +1650,6 @@ MOZ_WEBRENDER
 0
 '
         
-#
-Add
-additional
-env
-variables
-        
-env
-.
-update
-(
-self
-.
-options
-.
-addEnv
-)
-        
 for
 (
 env_count
