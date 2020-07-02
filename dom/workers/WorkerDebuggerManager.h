@@ -356,6 +356,17 @@ const
 ;
 private
 :
+nsTArray
+<
+nsCOMPtr
+<
+nsIWorkerDebuggerManagerListener
+>
+>
+CloneListeners
+(
+)
+;
 virtual
 ~
 WorkerDebuggerManager
