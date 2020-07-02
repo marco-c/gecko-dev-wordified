@@ -6351,10 +6351,6 @@ baseChannel
 do_QueryObject
 (
 mChannel
-.
-get
-(
-)
 )
 ;
 nsCOMPtr
@@ -6910,10 +6906,6 @@ properties
 do_QueryObject
 (
 mChannel
-.
-get
-(
-)
 )
 ;
 aArgs

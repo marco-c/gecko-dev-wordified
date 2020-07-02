@@ -2109,10 +2109,6 @@ httpChannel
 do_QueryObject
 (
 mChannel
-.
-get
-(
-)
 )
 ;
 if
