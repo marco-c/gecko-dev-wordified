@@ -128,7 +128,12 @@ EXTRA_JS_MODULES
 =
 [
 '
-AboutCertViewerHandler
+AboutCertViewerChild
+.
+jsm
+'
+'
+AboutCertViewerParent
 .
 jsm
 '
