@@ -16362,11 +16362,8 @@ AutoProfilerCallInstrumentation
 MacroAssembler
 &
 masm
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 !
