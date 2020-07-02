@@ -5167,6 +5167,11 @@ if
 table
 )
 {
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
