@@ -7271,7 +7271,6 @@ GCZonesIter
 zone
 (
 gc
-WithAtoms
 )
 ;
 !
