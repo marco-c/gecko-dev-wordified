@@ -92,6 +92,13 @@ StaticPrefs_media
 .
 h
 "
+#
+include
+"
+nsGlobalWindowInner
+.
+h
+"
 mozilla
 :
 :
