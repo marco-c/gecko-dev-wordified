@@ -11971,6 +11971,9 @@ mContainsBackdropFilter
 bool
 mIsRelativeToLayoutViewport
 ;
+bool
+mUseOverlayScrollbars
+;
 nsRect
 mHitTestArea
 ;
