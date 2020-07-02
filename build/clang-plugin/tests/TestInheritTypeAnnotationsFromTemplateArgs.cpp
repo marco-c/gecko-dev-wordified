@@ -806,6 +806,8 @@ n
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -817,6 +819,11 @@ Template
 <
 Pointery
 >
+{
+{
+?
+}
+}
 >
 '
 requested
@@ -838,6 +845,8 @@ o
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -849,6 +858,11 @@ Template
 <
 IndirectPointery
 >
+{
+{
+?
+}
+}
 >
 '
 requested
@@ -870,6 +884,8 @@ p
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -881,6 +897,11 @@ Template
 <
 ContainsPointery
 >
+{
+{
+?
+}
+}
 >
 '
 requested
@@ -1033,6 +1054,8 @@ t
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -1044,6 +1067,11 @@ ManyTs
 <
 Pointery
 >
+{
+{
+?
+}
+}
 >
 '
 requested
@@ -1066,6 +1094,8 @@ u
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -1078,6 +1108,11 @@ ManyTs
 Normal
 Pointery
 >
+{
+{
+?
+}
+}
 >
 '
 requested
@@ -1101,6 +1136,8 @@ v
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -1114,6 +1151,11 @@ Normal
 Normal
 Pointery
 >
+{
+{
+?
+}
+}
 >
 '
 requested

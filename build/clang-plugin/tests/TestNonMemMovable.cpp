@@ -6821,6 +6821,8 @@ b1
 expected
 -
 note
+-
+re
 {
 {
 instantiation
@@ -6832,6 +6834,11 @@ Template_Inline
 <
 SpecializedNonMovable
 >
+{
+{
+?
+}
+}
 >
 '
 requested
