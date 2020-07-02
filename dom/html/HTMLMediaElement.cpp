@@ -13094,6 +13094,11 @@ mIsBlessed
 =
 false
 ;
+SetAudibleState
+(
+false
+)
+;
 mTags
 =
 nullptr
