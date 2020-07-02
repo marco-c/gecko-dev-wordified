@@ -1165,6 +1165,9 @@ bool
 allowDeprecatedSystemRequests
 ;
 bool
+isInDevToolsContext
+;
+bool
 parserCreatedScript
 ;
 bool
@@ -1539,6 +1542,9 @@ cancelled
 .
 bool
 allowDeprecatedSystemRequests
+;
+bool
+isInDevToolsContext
 ;
 /
 /

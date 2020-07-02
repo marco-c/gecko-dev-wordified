@@ -3410,6 +3410,14 @@ ex
 return
 ;
 }
+channel
+.
+loadInfo
+.
+isInDevToolsContext
+=
+true
+;
 /
 /
 Set
