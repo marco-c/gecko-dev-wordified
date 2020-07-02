@@ -6968,9 +6968,9 @@ mEndRun
 =
 mStartRun
 ;
+return
+;
 }
-else
-{
 /
 /
 set
@@ -7083,7 +7083,6 @@ SetEndByTrailingWhiteSpaces
 (
 )
 ;
-}
 return
 ;
 }
