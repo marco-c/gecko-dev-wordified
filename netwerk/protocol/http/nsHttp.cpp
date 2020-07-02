@@ -257,7 +257,7 @@ const
 uint32_t
 kHttp3VersionCount
 =
-2
+3
 ;
 const
 nsCString
@@ -280,6 +280,14 @@ NS_LITERAL_CSTRING
 h3
 -
 28
+"
+)
+NS_LITERAL_CSTRING
+(
+"
+h3
+-
+29
 "
 )
 }
