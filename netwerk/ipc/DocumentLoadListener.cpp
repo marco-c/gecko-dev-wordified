@@ -157,15 +157,6 @@ include
 "
 mozilla
 /
-StaticPrefs_dom
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_extensions
 .
 h
