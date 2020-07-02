@@ -498,7 +498,7 @@ GPU_VIDEO
 *
 *
 The
-WAYLAND_DMABUF
+DMABUF
 format
 creates
 a
@@ -513,15 +513,15 @@ DMABUF
 memory
 .
 Used
-on
-Wayland
 by
 VAAPI
 decoder
+on
+Linux
 .
 *
 /
-WAYLAND_DMABUF
+DMABUF
 }
 ;
 enum

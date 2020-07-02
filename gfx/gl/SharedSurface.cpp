@@ -758,7 +758,7 @@ layers
 TextureType
 :
 :
-WaylandDMABUF
+DMABUF
 :
 #
 ifdef

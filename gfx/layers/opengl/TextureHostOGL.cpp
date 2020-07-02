@@ -333,7 +333,7 @@ mozilla
 /
 layers
 /
-WaylandDMABUFTextureHostOGL
+DMABUFTextureHostOGL
 .
 h
 "
@@ -602,7 +602,7 @@ TSurfaceDescriptorDMABuf
 result
 =
 new
-WaylandDMABUFTextureHostOGL
+DMABUFTextureHostOGL
 (
 aFlags
 aDesc

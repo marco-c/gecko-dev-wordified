@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 .
 h
 "
@@ -157,7 +157,7 @@ mozilla
 /
 layers
 /
-WaylandDMABUFTextureClientOGL
+DMABUFTextureClientOGL
 .
 h
 "
@@ -190,7 +190,7 @@ gfx
 ;
 TextureClient
 *
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 :
 :
 GetTextureClient
@@ -221,7 +221,7 @@ TextureClient
 :
 CreateWithData
 (
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Create

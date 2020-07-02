@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-WaylandDMABUFTextureClientOGL
+DMABUFTextureClientOGL
 .
 h
 "
@@ -128,7 +128,7 @@ mozilla
 /
 widget
 /
-WaylandDMABufSurface
+DMABufSurface
 .
 h
 "
@@ -149,12 +149,12 @@ using
 namespace
 gfx
 ;
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
-WaylandDMABUFTextureData
+DMABUFTextureData
 (
-WaylandDMABufSurface
+DMABufSurface
 *
 aSurface
 BackendType
@@ -176,11 +176,11 @@ mSurface
 )
 ;
 }
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 ~
-WaylandDMABUFTextureData
+DMABUFTextureData
 (
 )
 =
@@ -191,9 +191,9 @@ default
 static
 *
 /
-WaylandDMABUFTextureData
+DMABUFTextureData
 *
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Create
@@ -234,7 +234,7 @@ TODO
 NS_WARNING
 (
 "
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Create
@@ -276,11 +276,11 @@ DMABUF_ALPHA
 }
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 surf
 =
-WaylandDMABufSurfaceRGBA
+DMABufSurfaceRGBA
 :
 :
 CreateDMABufSurface
@@ -296,7 +296,7 @@ flags
 ;
 return
 new
-WaylandDMABUFTextureData
+DMABUFTextureData
 (
 surf
 aBackend
@@ -305,7 +305,7 @@ aBackend
 }
 TextureData
 *
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 CreateSimilar
@@ -323,7 +323,7 @@ aAllocFlags
 const
 {
 return
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Create
@@ -357,7 +357,7 @@ mBackend
 ;
 }
 bool
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Serialize
@@ -380,7 +380,7 @@ true
 ;
 }
 void
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 FillInfo
@@ -454,7 +454,7 @@ false
 ;
 }
 bool
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Lock
@@ -468,7 +468,7 @@ surf
 mSurface
 -
 >
-GetAsWaylandDMABufSurfaceRGBA
+GetAsDMABufSurfaceRGBA
 (
 )
 ;
@@ -500,7 +500,7 @@ true
 ;
 }
 void
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Unlock
@@ -513,7 +513,7 @@ surf
 mSurface
 -
 >
-GetAsWaylandDMABufSurfaceRGBA
+GetAsDMABufSurfaceRGBA
 (
 )
 ;
@@ -544,7 +544,7 @@ already_AddRefed
 <
 DataSourceSurface
 >
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 GetAsSurface
@@ -568,7 +568,7 @@ already_AddRefed
 <
 DrawTarget
 >
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 BorrowDrawTarget
@@ -616,7 +616,7 @@ surf
 mSurface
 -
 >
-GetAsWaylandDMABufSurfaceRGBA
+GetAsDMABufSurfaceRGBA
 (
 )
 ;
@@ -685,7 +685,7 @@ true
 ;
 }
 void
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Deallocate
@@ -700,7 +700,7 @@ nullptr
 ;
 }
 void
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Forget
@@ -715,7 +715,7 @@ nullptr
 ;
 }
 bool
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 UpdateFromSurface

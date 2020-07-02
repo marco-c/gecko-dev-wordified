@@ -163,7 +163,7 @@ flags
 =
 static_cast
 <
-WaylandDMABufSurfaceFlags
+DMABufSurfaceFlags
 >
 (
 DMABUF_TEXTURE
@@ -176,11 +176,11 @@ DMABUF_ALPHA
 const
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 surface
 =
-WaylandDMABufSurfaceRGBA
+DMABufSurfaceRGBA
 :
 :
 CreateDMABufSurface
@@ -295,7 +295,7 @@ fb
 const
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 surface
 )
@@ -443,7 +443,7 @@ layers
 TextureType
 :
 :
-WaylandDMABUF
+DMABUF
 true
 }
 )
