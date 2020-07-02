@@ -12320,7 +12320,7 @@ If
 this
 window
 is
-a
+an
 [
 i
 ]
@@ -12364,8 +12364,10 @@ mContext
 new
 nsJSContext
 (
-!
-IsFrame
+mBrowsingContext
+-
+>
+IsTop
 (
 )
 this
@@ -35153,6 +35155,9 @@ aCallerType
 )
 |
 |
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
@@ -35542,6 +35547,9 @@ aCallerType
 )
 |
 |
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
@@ -35826,6 +35834,9 @@ aCallerType
 )
 |
 |
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
@@ -35966,6 +35977,9 @@ aCallerType
 )
 |
 |
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
@@ -36203,6 +36217,9 @@ aCallerType
 )
 |
 |
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
@@ -40050,6 +40067,9 @@ IsInModalState
 )
 |
 |
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
@@ -40667,6 +40687,9 @@ GeckoProcessType_Default
 ;
 if
 (
+mBrowsingContext
+-
+>
 IsFrame
 (
 )
