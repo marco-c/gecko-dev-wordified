@@ -552,16 +552,6 @@ dom
 BrowsingContext
 BrowsingContext
 ;
-typedef
-mozilla
-:
-:
-dom
-:
-:
-BrowsingContextGroup
-BrowsingContextGroup
-;
 public
 :
 /
@@ -623,9 +613,6 @@ aOwner
 BrowsingContext
 *
 aContext
-BrowsingContextGroup
-*
-aGroup
 bool
 aIsRemote
 bool
