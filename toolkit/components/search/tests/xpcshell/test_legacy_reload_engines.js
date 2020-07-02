@@ -110,7 +110,7 @@ requests
 {
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 us
@@ -200,11 +200,12 @@ reloaded
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 FR
 "
+true
 )
 ;
 await

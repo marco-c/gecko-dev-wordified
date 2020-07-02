@@ -58,7 +58,7 @@ setup
 {
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 an
@@ -291,7 +291,7 @@ complete
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 tr

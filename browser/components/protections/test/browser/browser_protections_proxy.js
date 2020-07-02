@@ -417,7 +417,7 @@ US
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 US
@@ -464,7 +464,7 @@ US
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 CA
@@ -520,7 +520,7 @@ US
 "
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 US
