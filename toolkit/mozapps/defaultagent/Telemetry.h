@@ -132,6 +132,13 @@ DefaultBrowser
 .
 h
 "
+#
+include
+"
+Notification
+.
+h
+"
 HRESULT
 SendDefaultBrowserPing
 (
@@ -139,6 +146,10 @@ const
 DefaultBrowserInfo
 &
 browserInfo
+const
+NotificationActivities
+&
+activitiesPerformed
 )
 ;
 #
