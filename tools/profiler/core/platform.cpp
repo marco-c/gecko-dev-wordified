@@ -413,6 +413,13 @@ h
 #
 include
 "
+ProfileBuffer
+.
+h
+"
+#
+include
+"
 ProfiledThreadData
 .
 h
@@ -427,7 +434,7 @@ h
 #
 include
 "
-ProfileBuffer
+ProfilerCodeAddressService
 .
 h
 "
