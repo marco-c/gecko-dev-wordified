@@ -442,10 +442,6 @@ nativeToBytecodeScriptListLength_
 (
 0
 )
-osrEntryOffset_
-(
-0
-)
 skipArgCheckEntryOffset_
 (
 0
