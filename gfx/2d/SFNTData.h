@@ -604,6 +604,11 @@ uint32_t
 aOffset
 )
 ;
+uint32_t
+HashHeadTables
+(
+)
+;
 /
 /
 Internal
