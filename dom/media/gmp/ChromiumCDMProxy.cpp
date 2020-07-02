@@ -1132,9 +1132,10 @@ anyway
 .
 .
 .
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 err
+=
 "
 Null
 CDM
@@ -1143,7 +1144,7 @@ OnCDMCreated
 (
 )
 "
-)
+_ns
 ;
 ErrorResult
 rv

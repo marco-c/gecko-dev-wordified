@@ -260,9 +260,10 @@ VP8
 )
 {
 static
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 vp8
+=
 "
 video
 /
@@ -274,7 +275,7 @@ on2
 .
 vp8
 "
-)
+_ns
 ;
 return
 vp8
@@ -297,9 +298,10 @@ VP9
 )
 {
 static
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 vp9
+=
 "
 video
 /
@@ -311,7 +313,7 @@ on2
 .
 vp9
 "
-)
+_ns
 ;
 return
 vp9

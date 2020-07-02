@@ -5807,13 +5807,14 @@ mozTreeCell
 )
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 cell
+=
 "
 cell
 "
-)
+_ns
 ;
 if
 (

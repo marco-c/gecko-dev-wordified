@@ -470,9 +470,10 @@ Sanity
 checks
 .
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 origin
+=
 "
 http
 :
@@ -484,7 +485,7 @@ mozilla
 .
 org
 "
-)
+_ns
 ;
 originScope
 .
@@ -532,9 +533,10 @@ origin
 ;
 }
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 prefix
+=
 "
 http
 :
@@ -546,7 +548,7 @@ mozilla
 .
 org
 "
-)
+_ns
 ;
 originScope
 .

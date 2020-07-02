@@ -1292,9 +1292,10 @@ MOZ_ASSERT
 blobImpl
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 desc
+=
 "
 A
 blob
@@ -1330,7 +1331,7 @@ URL
 revokeObjectURL
 .
 "
-)
+_ns
 ;
 nsAutoCString
 path
@@ -1713,9 +1714,10 @@ info
 aAnonymize
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 desc
+=
 "
 An
 object
@@ -1751,7 +1753,7 @@ URL
 revokeObjectURL
 .
 "
-)
+_ns
 ;
 aCallback
 -

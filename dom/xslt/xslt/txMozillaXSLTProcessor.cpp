@@ -4928,9 +4928,11 @@ Document
 READYSTATE_LOADING
 )
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 ns
+=
+u
 "
 http
 :
@@ -4950,7 +4952,7 @@ parsererror
 .
 xml
 "
-)
+_ns
 ;
 IgnoredErrorResult
 rv

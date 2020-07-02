@@ -210,9 +210,11 @@ allTestsPassed
 =
 false
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 htmlInput
+=
+u
 "
 <
 html
@@ -276,7 +278,7 @@ body
 html
 >
 "
-)
+_ns
 ;
 do
 {

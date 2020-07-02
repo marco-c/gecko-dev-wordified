@@ -3266,9 +3266,11 @@ sizeof
 devinfoData
 )
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 driverKeyPre
+=
+u
 "
 System
 \
@@ -3283,7 +3285,7 @@ Class
 \
 \
 "
-)
+_ns
 ;
 /
 *
@@ -3861,9 +3863,11 @@ driverVersion2
 nsAutoString
 driverDate2
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 driverKeyPre
+=
+u
 "
 System
 \
@@ -3878,7 +3882,7 @@ Class
 \
 \
 "
-)
+_ns
 ;
 /
 *

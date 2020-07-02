@@ -2038,9 +2038,10 @@ TODO
 Implement
 GetStatusForPolicy
 .
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 err
+=
 "
 Currently
 Fennec
@@ -2049,7 +2050,7 @@ not
 support
 GetStatusForPolicy
 "
-)
+_ns
 ;
 ErrorResult
 rv
@@ -2178,9 +2179,10 @@ reject
 the
 promise
 .
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 err
+=
 "
 Null
 CDM
@@ -2189,7 +2191,7 @@ OnCDMCreated
 (
 )
 "
-)
+_ns
 ;
 ErrorResult
 rv

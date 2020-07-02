@@ -16008,9 +16008,10 @@ kSourceURLLength
 kNumberLength
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 htmlHeaderString
+=
 "
 <
 html
@@ -16023,11 +16024,12 @@ r
 \
 n
 "
-)
+_ns
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 fragmentHeaderString
+=
 "
 <
 !
@@ -16038,7 +16040,7 @@ StartFragment
 -
 >
 "
-)
+_ns
 ;
 nsDependentCString
 trailingString

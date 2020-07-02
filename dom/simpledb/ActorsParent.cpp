@@ -529,13 +529,12 @@ constexpr
 auto
 kSDBSuffix
 =
-NS_LITERAL_STRING
-(
+u
 "
 .
 sdb
 "
-)
+_ns
 ;
 /
 *

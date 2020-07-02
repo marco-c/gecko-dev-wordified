@@ -2347,9 +2347,10 @@ AppendLiteral
 "
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 desc
+=
 "
 A
 StringBundle
@@ -2379,7 +2380,7 @@ between
 processes
 .
 "
-)
+_ns
 ;
 aHandleReport
 -

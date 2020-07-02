@@ -2532,13 +2532,14 @@ support
 p384
 ecdsa
 .
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 signature_var
+=
 "
 p384ecdsa
 "
-)
+_ns
 ;
 aSignature
 .

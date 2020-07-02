@@ -123,9 +123,10 @@ xpcpublic
 h
 "
 static
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 kInterfaceName
+=
 u
 "
 captive
@@ -134,7 +135,7 @@ portal
 -
 inteface
 "
-)
+_ns
 ;
 static
 const

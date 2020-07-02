@@ -22975,13 +22975,14 @@ h
 =
 nullptr
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 store
+=
 "
 main
 "
-)
+_ns
 ;
 if
 (

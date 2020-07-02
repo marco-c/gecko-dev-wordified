@@ -10672,13 +10672,14 @@ NS_ENSURE_STATE
 http
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 rangeHdr
+=
 "
 Range
 "
-)
+_ns
 ;
 nsAutoCString
 rangeVal

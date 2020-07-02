@@ -242,9 +242,10 @@ _ns
 ;
 namespace
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kAttestCertSubjectName
+=
 "
 CN
 =
@@ -253,7 +254,7 @@ U2F
 Soft
 Token
 "
-)
+_ns
 ;
 /
 /

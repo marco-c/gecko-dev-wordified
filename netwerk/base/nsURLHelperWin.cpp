@@ -289,9 +289,10 @@ C
 :
 /
 Windows
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 prefix
+=
 "
 file
 :
@@ -299,7 +300,7 @@ file
 /
 /
 "
-)
+_ns
 ;
 /
 /
