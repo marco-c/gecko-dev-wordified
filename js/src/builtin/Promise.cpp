@@ -25561,11 +25561,16 @@ guaranteed
 to
 be
 an
-ErrorObject
+AggregateError
 in
 case
 of
 OOM
+or
+stack
+/
+/
+overflow
 .
 RootedSavedFrame
 stack
@@ -25619,7 +25624,7 @@ ErrorObject
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 errorObj
 -
@@ -25631,7 +25636,7 @@ type
 =
 JSEXN_AGGREGATEERR
 )
-;
+{
 RootedValue
 errorsVal
 (
@@ -25710,6 +25715,7 @@ SavedFrame
 (
 )
 ;
+}
 }
 }
 cx
