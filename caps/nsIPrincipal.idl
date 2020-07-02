@@ -1639,9 +1639,6 @@ any
 .
 *
 /
-[
-noscript
-]
 readonly
 attribute
 ACString
@@ -1766,9 +1763,6 @@ purposes
 !
 *
 /
-[
-noscript
-]
 readonly
 attribute
 ACString
