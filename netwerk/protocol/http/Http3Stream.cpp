@@ -1683,6 +1683,10 @@ SENDING_BODY
 case
 EARLY_RESPONSE
 :
+rv
+=
+NS_BASE_STREAM_WOULD_BLOCK
+;
 break
 ;
 case
