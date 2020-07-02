@@ -1027,13 +1027,13 @@ parent
 to
 child
 :
-PIPCBlobInputStream
+PRemoteLazyInputStream
 .
 This
 protocol
 keeps
-the
 *
+the
 original
 nsIInputStream
 alive
@@ -1046,8 +1046,8 @@ gives
 its
 size
 and
-a
 *
+a
 UUID
 to
 the
@@ -1061,8 +1061,8 @@ creates
 a
 IPCBlobInputStream
 and
-that
 *
+that
 is
 incapsulated
 into
@@ -1106,7 +1106,7 @@ Each
 nsIInputStream
 sent
 via
-PIPCBlobInputStream
+PRemoteLazyInputStream
 is
 registered
 *
@@ -1147,7 +1147,7 @@ size
 is
 shared
 by
-PIPCBlobInputStream
+PRemoteLazyInputStream
 *
 actor
 .
@@ -1206,7 +1206,7 @@ reference
 of
 the
 *
-PIPCBlobInputStream
+PRemoteLazyInputStream
 actor
 and
 its
@@ -2582,7 +2582,7 @@ class
 ContentParent
 ;
 class
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 ;
 namespace
 IPCBlobUtils
@@ -2689,7 +2689,7 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent
@@ -2706,7 +2706,7 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent

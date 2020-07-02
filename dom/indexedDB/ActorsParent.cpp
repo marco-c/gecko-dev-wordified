@@ -73747,7 +73747,7 @@ type
 IPCBlobStream
 :
 :
-TPIPCBlobInputStreamParent
+TPRemoteLazyInputStreamParent
 )
 ;
 IPCBlobInputStreamParent
@@ -73762,7 +73762,7 @@ IPCBlobInputStreamParent
 (
 stream
 .
-get_PIPCBlobInputStreamParent
+get_PRemoteLazyInputStreamParent
 (
 )
 )

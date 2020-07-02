@@ -2807,7 +2807,7 @@ if
 socketActor
 -
 >
-SendPIPCBlobInputStreamConstructor
+SendPRemoteLazyInputStreamConstructor
 (
 parentActor
 parentActor

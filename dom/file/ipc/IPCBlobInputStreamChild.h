@@ -127,7 +127,7 @@ mozilla
 /
 dom
 /
-PIPCBlobInputStreamChild
+PRemoteLazyInputStreamChild
 .
 h
 "
@@ -184,7 +184,7 @@ IPCBlobInputStreamChild
 final
 :
 public
-PIPCBlobInputStreamChild
+PRemoteLazyInputStreamChild
 {
 public
 :

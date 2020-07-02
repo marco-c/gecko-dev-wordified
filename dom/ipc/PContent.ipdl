@@ -164,7 +164,7 @@ PImageBridge
 ;
 include
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 include
 protocol
@@ -2159,7 +2159,7 @@ manages
 PHeapSnapshotTempFileHelper
 ;
 manages
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 manages
 PMedia
@@ -4109,7 +4109,7 @@ aScreens
 )
 ;
 async
-PIPCBlobInputStream
+PRemoteLazyInputStream
 (
 nsID
 aID

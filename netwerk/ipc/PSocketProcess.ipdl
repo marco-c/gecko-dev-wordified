@@ -159,7 +159,7 @@ PNativeDNSResolverOverride
 ;
 include
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 include
 MemoryReportTypes
@@ -473,7 +473,7 @@ manages
 PNativeDNSResolverOverride
 ;
 manages
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 parent
 :
@@ -838,7 +838,7 @@ aData
 )
 ;
 async
-PIPCBlobInputStream
+PRemoteLazyInputStream
 (
 nsID
 aID

@@ -783,9 +783,9 @@ aData
 virtual
 already_AddRefed
 <
-PIPCBlobInputStreamChild
+PRemoteLazyInputStreamChild
 >
-AllocPIPCBlobInputStreamChild
+AllocPRemoteLazyInputStreamChild
 (
 const
 nsID

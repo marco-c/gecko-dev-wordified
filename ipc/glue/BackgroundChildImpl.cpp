@@ -2534,12 +2534,12 @@ already_AddRefed
 dom
 :
 :
-PIPCBlobInputStreamChild
+PRemoteLazyInputStreamChild
 >
 BackgroundChildImpl
 :
 :
-AllocPIPCBlobInputStreamChild
+AllocPRemoteLazyInputStreamChild
 (
 const
 nsID

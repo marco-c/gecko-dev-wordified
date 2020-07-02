@@ -12111,12 +12111,12 @@ true
 }
 already_AddRefed
 <
-PIPCBlobInputStreamChild
+PRemoteLazyInputStreamChild
 >
 ContentChild
 :
 :
-AllocPIPCBlobInputStreamChild
+AllocPRemoteLazyInputStreamChild
 (
 const
 nsID
