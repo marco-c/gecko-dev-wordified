@@ -2750,7 +2750,7 @@ internal
 *
 buffered
 input
-os
+is
 used
 .
 If
