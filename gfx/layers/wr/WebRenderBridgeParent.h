@@ -2538,6 +2538,11 @@ ClearResources
 (
 )
 ;
+void
+ClearAnimationResources
+(
+)
+;
 bool
 ShouldParentObserveEpoch
 (
