@@ -226,7 +226,7 @@ global
 .
 *
 /
-JSAtom
+PropertyName
 *
 GetClonedSelfHostedFunctionName
 (
@@ -294,7 +294,7 @@ WrappedFunction
 isExtended_
 *
 /
-JSAtom
+PropertyName
 *
 GetClonedSelfHostedFunctionNameOffMainThread
 (
