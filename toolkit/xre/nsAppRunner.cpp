@@ -28713,6 +28713,13 @@ Init
 ;
 #
 endif
+NS_SetCurrentThreadName
+(
+"
+MainThread
+"
+)
+;
 AUTO_BASE_PROFILER_LABEL
 (
 "
