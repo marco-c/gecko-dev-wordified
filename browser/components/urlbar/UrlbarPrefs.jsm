@@ -907,7 +907,7 @@ richSuggestions
 .
 tail
 "
-false
+true
 ]
 /
 /
