@@ -111,13 +111,6 @@ collections
 import
 Iterable
 from
-mach
-.
-sentry
-import
-register_sentry
-report_exception
-from
 six
 import
 string_types
@@ -169,6 +162,12 @@ from
 registrar
 import
 Registrar
+from
+.
+sentry
+import
+register_sentry
+report_exception
 from
 .
 util
