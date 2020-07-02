@@ -1784,9 +1784,6 @@ PurgeExpired
 void
 PurgeByFrecency
 (
-bool
-&
-aFrecencyNeedsSort
 uint32_t
 aWhat
 )
