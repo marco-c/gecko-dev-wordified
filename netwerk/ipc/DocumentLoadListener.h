@@ -1854,6 +1854,13 @@ Disconnect
 (
 )
 ;
+void
+MaybeReportBlockedByURLClassifier
+(
+nsresult
+aStatus
+)
+;
 /
 /
 This
