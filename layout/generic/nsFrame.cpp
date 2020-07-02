@@ -46746,7 +46746,7 @@ ReflowedFrame
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 FinishReflowWithAbsoluteFrames
