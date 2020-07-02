@@ -676,6 +676,7 @@ map
 ]
 =
 {
+sColorMap
 sGradientStopMap
 }
 ;
