@@ -26318,6 +26318,8 @@ Type
 elementType
 bool
 handleOOB
+bool
+allowDoubleForUint32
 )
 {
 JitSpew
@@ -26891,6 +26893,15 @@ valueReg
 }
 else
 {
+bool
+allowDouble
+=
+*
+allowDoubleResult_
+&
+&
+allowDoubleForUint32
+;
 masm
 .
 loadFromTypedArray
@@ -26902,8 +26913,7 @@ output
 valueReg
 (
 )
-*
-allowDoubleResult_
+allowDouble
 scratch1
 failure
 -
@@ -27157,6 +27167,8 @@ Type
 elementType
 bool
 handleOOB
+bool
+allowDoubleForUint32
 )
 {
 return
@@ -27170,6 +27182,7 @@ TypedThingLayout
 TypedArray
 elementType
 handleOOB
+allowDoubleForUint32
 )
 ;
 }
@@ -27206,6 +27219,13 @@ handleOOB
 *
 /
 false
+/
+*
+allowDoubleForUint32
+=
+*
+/
+true
 )
 ;
 }

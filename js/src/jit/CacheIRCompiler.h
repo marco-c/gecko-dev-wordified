@@ -4575,6 +4575,8 @@ Type
 elementType
 bool
 handleOOB
+bool
+allowDoubleForUint32
 )
 ;
 bool
