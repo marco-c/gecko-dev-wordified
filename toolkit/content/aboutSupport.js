@@ -1715,7 +1715,7 @@ formattedDateStrArgs
 )
 ;
 }
-extensions
+addons
 (
 data
 )
@@ -1725,7 +1725,7 @@ append
 (
 (
 "
-extensions
+addons
 -
 tbody
 "
@@ -1736,7 +1736,7 @@ map
 (
 function
 (
-extension
+addon
 )
 {
 return
@@ -1753,7 +1753,7 @@ new
 "
 td
 "
-extension
+addon
 .
 name
 )
@@ -1763,7 +1763,17 @@ new
 "
 td
 "
-extension
+addon
+.
+type
+)
+.
+new
+(
+"
+td
+"
+addon
 .
 version
 )
@@ -1773,7 +1783,7 @@ new
 "
 td
 "
-extension
+addon
 .
 isActive
 )
@@ -1783,7 +1793,7 @@ new
 "
 td
 "
-extension
+addon
 .
 id
 )

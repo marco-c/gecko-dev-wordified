@@ -1245,7 +1245,7 @@ boolean
 }
 }
 }
-extensions
+addons
 :
 {
 required
@@ -1268,6 +1268,18 @@ properties
 :
 {
 name
+:
+{
+required
+:
+true
+type
+:
+"
+string
+"
+}
+type
 :
 {
 required
