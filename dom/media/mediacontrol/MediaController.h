@@ -959,7 +959,7 @@ UpdateDeactivationTimerIfNeeded
 )
 ;
 bool
-mIsRegisteredToService
+mIsActive
 =
 false
 ;
