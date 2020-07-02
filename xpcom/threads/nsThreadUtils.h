@@ -13782,10 +13782,6 @@ true
 }
 private
 :
-T
-*
-mEvent
-;
 bool
 mWillRunAgain
 =
