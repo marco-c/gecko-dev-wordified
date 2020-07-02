@@ -2430,6 +2430,9 @@ offset
 if
 (
 !
+nsUXThemeData
+:
+:
 IsAppThemed
 (
 )
@@ -2529,6 +2532,9 @@ offset
 if
 (
 !
+nsUXThemeData
+:
+:
 IsAppThemed
 (
 )

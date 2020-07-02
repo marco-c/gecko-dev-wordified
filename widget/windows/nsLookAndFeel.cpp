@@ -1155,6 +1155,9 @@ MozMenubarhovertext
 if
 (
 !
+nsUXThemeData
+:
+:
 IsAppThemed
 (
 )
@@ -2289,6 +2292,9 @@ WindowsClassic
 aResult
 =
 !
+nsUXThemeData
+:
+:
 IsAppThemed
 (
 )
@@ -4894,6 +4900,9 @@ res
 ;
 if
 (
+nsUXThemeData
+:
+:
 IsAppThemed
 (
 )
