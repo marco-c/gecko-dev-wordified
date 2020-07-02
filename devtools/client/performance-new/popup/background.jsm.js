@@ -1647,7 +1647,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;

@@ -1000,7 +1000,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;

@@ -4462,7 +4462,7 @@ before
 the
 fork
 record
-IsPaused
+IsSamplingPaused
 and
 then
 pause
@@ -4500,13 +4500,13 @@ lock
 ActivePS
 :
 :
-SetWasPaused
+SetWasSamplingPaused
 (
 lock
 ActivePS
 :
 :
-IsPaused
+IsSamplingPaused
 (
 lock
 )
@@ -4515,7 +4515,7 @@ lock
 ActivePS
 :
 :
-SetIsPaused
+SetIsSamplingPaused
 (
 lock
 true
@@ -4532,7 +4532,7 @@ after
 the
 fork
 return
-IsPaused
+IsSamplingPaused
 to
 the
 pre
@@ -4573,13 +4573,13 @@ lock
 ActivePS
 :
 :
-SetIsPaused
+SetIsSamplingPaused
 (
 lock
 ActivePS
 :
 :
-WasPaused
+WasSamplingPaused
 (
 lock
 )
@@ -4588,7 +4588,7 @@ lock
 ActivePS
 :
 :
-SetWasPaused
+SetWasSamplingPaused
 (
 lock
 false

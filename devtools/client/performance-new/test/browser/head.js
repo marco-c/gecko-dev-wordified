@@ -3042,7 +3042,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;
