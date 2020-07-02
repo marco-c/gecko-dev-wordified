@@ -1630,7 +1630,7 @@ caption
 *
 *
 *
-IsList
+IsAnyListElement
 (
 )
 returns
@@ -1648,7 +1648,7 @@ bool
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 nsINode
 *

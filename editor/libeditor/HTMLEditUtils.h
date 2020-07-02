@@ -717,7 +717,7 @@ aNode
 ;
 static
 bool
-IsList
+IsAnyListElement
 (
 nsINode
 *

@@ -16620,7 +16620,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 element
 )
@@ -34748,7 +34748,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 child
 )
