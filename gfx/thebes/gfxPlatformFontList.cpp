@@ -334,17 +334,6 @@ include
 "
 mozilla
 /
-dom
-/
-IPCBlobUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D

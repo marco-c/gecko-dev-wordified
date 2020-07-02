@@ -73725,7 +73725,7 @@ AssertIsOnBackgroundThread
 )
 ;
 const
-IPCBlobStream
+RemoteLazyStream
 &
 stream
 =
@@ -73744,7 +73744,7 @@ type
 )
 =
 =
-IPCBlobStream
+RemoteLazyStream
 :
 :
 TPRemoteLazyInputStreamParent
@@ -74094,7 +74094,7 @@ AssertIsOnBackgroundThread
 )
 ;
 const
-IPCBlobStream
+RemoteLazyStream
 &
 stream
 =
@@ -74113,7 +74113,7 @@ type
 )
 =
 =
-IPCBlobStream
+RemoteLazyStream
 :
 :
 TIPCStream
