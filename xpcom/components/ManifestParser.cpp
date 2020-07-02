@@ -3759,7 +3759,7 @@ mozilla
 services
 :
 :
-GetChromeRegistryService
+GetChromeRegistry
 (
 )
 ;

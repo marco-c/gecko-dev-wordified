@@ -2115,7 +2115,7 @@ distributor
 services
 :
 :
-GetActivityDistributor
+GetHttpActivityDistributor
 (
 )
 )

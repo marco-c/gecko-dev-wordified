@@ -845,7 +845,7 @@ mChromeReg
 services
 :
 :
-GetChromeRegistryService
+GetChromeRegistry
 (
 )
 ;

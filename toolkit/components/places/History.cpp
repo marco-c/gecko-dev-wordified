@@ -11071,7 +11071,7 @@ service
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 ;

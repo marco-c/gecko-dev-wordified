@@ -1486,7 +1486,7 @@ regService
 services
 :
 :
-GetChromeRegistryService
+GetChromeRegistry
 (
 )
 ;

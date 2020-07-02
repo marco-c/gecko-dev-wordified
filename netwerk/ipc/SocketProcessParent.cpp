@@ -1578,7 +1578,7 @@ activityDistributor
 services
 :
 :
-GetActivityDistributor
+GetHttpActivityDistributor
 (
 )
 ;

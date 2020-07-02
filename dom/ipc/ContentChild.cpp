@@ -14766,7 +14766,7 @@ history
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 ;

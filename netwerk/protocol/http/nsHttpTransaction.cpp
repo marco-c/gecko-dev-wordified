@@ -1757,7 +1757,7 @@ mActivityDistributor
 services
 :
 :
-GetActivityDistributor
+GetHttpActivityDistributor
 (
 )
 ;
