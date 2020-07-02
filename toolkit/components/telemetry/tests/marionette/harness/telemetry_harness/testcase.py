@@ -877,6 +877,9 @@ self
 action_func
 ping_filter
 count
+ping_server
+=
+None
 )
 :
         
@@ -913,6 +916,18 @@ filter
 "
 "
         
+if
+ping_server
+is
+None
+:
+            
+ping_server
+=
+self
+.
+ping_server
+        
 #
 Keep
 track
@@ -927,8 +942,6 @@ current_num_pings
 =
 len
 (
-self
-.
 ping_server
 .
 pings
@@ -967,16 +980,12 @@ Ignore
 existing
 pings
 in
-self
-.
 ping_server
 .
 pings
             
 new_pings
 =
-self
-.
 ping_server
 .
 pings
@@ -1129,6 +1138,9 @@ wait_for_ping
 self
 action_func
 ping_filter
+ping_server
+=
+None
 )
 :
         
@@ -1168,6 +1180,9 @@ wait_for_pings
 action_func
 ping_filter
 1
+ping_server
+=
+ping_server
 )
         
 return
