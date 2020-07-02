@@ -1191,8 +1191,6 @@ return
 mSecurityInfo
 ;
 }
-protected
-:
 const
 nsAString
 &
@@ -1201,6 +1199,8 @@ GetRemoteType
 )
 override
 ;
+protected
+:
 JSActor
 :
 :
