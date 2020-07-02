@@ -428,9 +428,10 @@ isErr
 )
 {
 return
-LAUNCHER_ERROR_FROM_RESULT
-(
 containsAdminGroup
+.
+propagateErr
+(
 )
 ;
 }
@@ -468,9 +469,10 @@ isErr
 )
 {
 return
-LAUNCHER_ERROR_FROM_RESULT
-(
 isUacEnabled
+.
+propagateErr
+(
 )
 ;
 }

@@ -536,9 +536,10 @@ isErr
 )
 {
 return
-LAUNCHER_ERROR_FROM_RESULT
-(
 parentPid
+.
+propagateErr
+(
 )
 ;
 }
