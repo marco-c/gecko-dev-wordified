@@ -69,6 +69,11 @@ algorithm
 >
 #
 include
+<
+iterator
+>
+#
+include
 "
 mozilla
 /
@@ -1238,7 +1243,10 @@ T
 const_iterator
 ;
 typedef
-ReverseIterator
+std
+:
+:
+reverse_iterator
 <
 T
 *
@@ -1246,7 +1254,10 @@ T
 reverse_iterator
 ;
 typedef
-ReverseIterator
+std
+:
+:
+reverse_iterator
 <
 const
 T
