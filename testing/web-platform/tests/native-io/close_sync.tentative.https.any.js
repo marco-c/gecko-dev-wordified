@@ -91,9 +91,7 @@ nativeIO
 .
 deleteSync
 (
-'
-test_file
-'
+fileName
 )
 ;
 }

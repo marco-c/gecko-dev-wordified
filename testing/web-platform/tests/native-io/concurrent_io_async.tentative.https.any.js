@@ -96,9 +96,7 @@ nativeIO
 .
 delete
 (
-'
-test_file
-'
+fileName
 )
 ;
 }
