@@ -393,6 +393,12 @@ PopupOpened
 "
 :
 {
+FormAutofillContent
+.
+onPopupOpened
+(
+)
+;
 chromeEventHandler
 .
 addEventListener
