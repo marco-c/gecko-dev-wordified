@@ -757,7 +757,7 @@ FeatureStatus
 :
 Blocklisted
 "
-Blacklisted
+Blocklisted
 by
 gfxInfo
 "
