@@ -98,9 +98,6 @@ webrtc
 mozbuild
 '
 )
-FILES_PER_UNIFIED_FILE
-=
-6
 with
 Files
 (
