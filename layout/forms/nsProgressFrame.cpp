@@ -1537,8 +1537,6 @@ ISize
 wm
 )
 =
-NSToCoordRound
-(
 StyleFont
 (
 )
@@ -1547,7 +1545,9 @@ StyleFont
 mFont
 .
 size
-*
+.
+ScaledBy
+(
 nsLayoutUtils
 :
 :
@@ -1555,6 +1555,10 @@ FontSizeInflationFor
 (
 this
 )
+)
+.
+ToAppUnits
+(
 )
 ;
 /
@@ -1653,6 +1657,10 @@ Font
 )
 .
 size
+.
+ToAppUnits
+(
+)
 ;
 /
 /

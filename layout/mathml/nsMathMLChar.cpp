@@ -526,13 +526,9 @@ None
 aFont
 .
 size
-=
-NSToCoordRound
-(
-aFont
 .
-size
-*
+ScaleBy
+(
 aFontSizeInflation
 )
 ;

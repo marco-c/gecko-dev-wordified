@@ -1119,8 +1119,6 @@ specified
 :
 :
 FONT_MEDIUM_PX
-as
-CSSFloat
 )
 )
 keyword_info
