@@ -194,6 +194,9 @@ alloc_
 HandleScript
 outerScript_
 ;
+WarpBailoutInfo
+bailoutInfo_
+;
 public
 :
 WarpOracle
@@ -216,6 +219,16 @@ mirGen
 {
 return
 mirGen_
+;
+}
+WarpBailoutInfo
+&
+bailoutInfo
+(
+)
+{
+return
+bailoutInfo_
 ;
 }
 AbortReasonOr

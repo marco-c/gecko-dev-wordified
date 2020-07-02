@@ -160,6 +160,9 @@ WarpBuilderShared
 :
 WarpBuilderShared
 (
+WarpSnapshot
+&
+snapshot
 MIRGenerator
 &
 mirGen
@@ -168,6 +171,10 @@ MBasicBlock
 current_
 )
 :
+snapshot_
+(
+snapshot
+)
 mirGen_
 (
 mirGen
