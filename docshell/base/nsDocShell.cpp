@@ -8764,9 +8764,6 @@ Labeled
 break
 ;
 case
-kCharsetFromParentForced
-:
-case
 kCharsetFromUserForced
 :
 /

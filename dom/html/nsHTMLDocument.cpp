@@ -1801,7 +1801,7 @@ if
 aCharsetSource
 >
 =
-kCharsetFromParentForced
+kCharsetFromUserForced
 )
 {
 return
@@ -1846,12 +1846,6 @@ return
 }
 if
 (
-kCharsetFromParentForced
-=
-=
-parentSource
-|
-|
 kCharsetFromUserForced
 =
 =
@@ -1905,7 +1899,7 @@ parentCharset
 ;
 aCharsetSource
 =
-kCharsetFromParentForced
+kCharsetFromUserForced
 ;
 return
 ;

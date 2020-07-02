@@ -147,13 +147,6 @@ Confident
 kCharsetFromIrreversibleAutoDetection
 kCharsetFromChannel
 kCharsetFromOtherComponent
-kCharsetFromParentForced
-/
-/
-propagates
-to
-child
-frames
 kCharsetFromUserForced
 /
 /
