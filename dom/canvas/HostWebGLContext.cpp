@@ -690,7 +690,10 @@ GetFrontBuffer
 (
 const
 ObjectId
-fb
+xrFb
+const
+bool
+webvr
 )
 const
 {
@@ -702,8 +705,9 @@ GetFrontBuffer
 (
 AutoResolve
 (
-fb
+xrFb
 )
+webvr
 )
 ;
 }

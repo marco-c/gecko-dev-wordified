@@ -1239,6 +1239,13 @@ HostWebGLContext
 :
 SetFramebufferIsInOpaqueRAF
 )
+DEFINE_ASYNC
+(
+HostWebGLContext
+:
+:
+ClearVRSwapChain
+)
 #
 undef
 DEFINE_METHOD_HELPER
