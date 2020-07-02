@@ -1401,7 +1401,7 @@ FlushPendingNotifications
 FlushType
 :
 :
-Style
+Layout
 )
 ;
 }
