@@ -121,9 +121,9 @@ contactType
 fieldName
 :
 "
-address
+street
 -
-line1
+address
 "
 }
 {
