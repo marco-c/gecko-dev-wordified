@@ -173,7 +173,7 @@ QuotaInfo
 aQuotaInfo
 nsIFile
 *
-aDBFile
+aDBDir
 mozIStorageConnection
 *
 *
