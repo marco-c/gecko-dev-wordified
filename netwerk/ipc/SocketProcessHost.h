@@ -163,9 +163,6 @@ namespace
 net
 {
 class
-OfflineObserver
-;
-class
 SocketProcessParent
 ;
 /
@@ -755,12 +752,6 @@ mShutdownRequested
 ;
 bool
 mChannelClosed
-;
-RefPtr
-<
-OfflineObserver
->
-mOfflineObserver
 ;
 #
 if
