@@ -4,6 +4,12 @@ from
 wptserve
 import
 pipes
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 run_other
 (
@@ -23,6 +29,7 @@ hack
 environ
 =
 {
+u
 "
 __file__
 "
@@ -37,6 +44,7 @@ compile
 open
 (
 path
+u
 "
 r
 "
@@ -46,6 +54,7 @@ read
 (
 )
 path
+u
 '
 exec
 '
@@ -58,6 +67,7 @@ rv
 =
 environ
 [
+u
 "
 main
 "
@@ -85,6 +95,7 @@ GET
 .
 first
 (
+b
 "
 origin
 "
@@ -92,6 +103,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "
@@ -106,9 +118,11 @@ GET
 .
 first
 (
+b
 "
 credentials
 "
+b
 "
 true
 "
@@ -122,6 +136,7 @@ update
 (
 [
 (
+b
 "
 Access
 -
@@ -135,6 +150,7 @@ origin
 )
                              
 (
+b
 "
 Access
 -
@@ -157,6 +173,7 @@ GET
 .
 first
 (
+b
 '
 run
 '
@@ -166,20 +183,24 @@ if
 handler
 in
 [
+b
 "
 status
 -
 reconnect
 "
                    
+b
 "
 message
 "
                    
+b
 "
 redirect
 "
                    
+b
 "
 cache
 -
@@ -192,6 +213,7 @@ if
 handler
 =
 =
+b
 "
 cache
 -
@@ -205,11 +227,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -232,12 +256,15 @@ join
 request
 .
 doc_root
+u
 "
 eventsource
 "
+u
 "
 resources
 "
+u
 "
 cache
 -
@@ -246,6 +273,7 @@ control
 event_stream
 "
 )
+u
 "
 r
 "
@@ -275,6 +303,7 @@ elif
 handler
 =
 =
+b
 "
 redirect
 "
@@ -294,9 +323,11 @@ join
 request
 .
 doc_root
+u
 "
 common
 "
+u
 "
 redirect
 .
@@ -325,13 +356,20 @@ path
 .
 split
 (
+isomorphic_decode
+(
 __file__
+)
 )
 [
 0
 ]
+isomorphic_decode
+(
 handler
+)
 +
+u
 "
 .
 py
