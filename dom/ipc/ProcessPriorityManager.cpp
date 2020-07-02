@@ -2030,7 +2030,7 @@ up
 This
 is
 the
-master
+parent
 process
 .
 "
@@ -2039,7 +2039,7 @@ process
 /
 /
 The
-master
+parent
 process
 '
 s
@@ -2082,7 +2082,7 @@ SetProcessPriority
 getpid
 (
 )
-PROCESS_PRIORITY_MASTER
+PROCESS_PRIORITY_PARENT_PROCESS
 )
 ;
 nsCOMPtr
@@ -4892,7 +4892,7 @@ XRE_IsParentProcess
 {
 mCachedPriority
 =
-PROCESS_PRIORITY_MASTER
+PROCESS_PRIORITY_PARENT_PROCESS
 ;
 }
 else
