@@ -492,7 +492,11 @@ aUsageInfo
 0
 ;
 virtual
+Result
+<
+UsageInfo
 nsresult
+>
 GetUsageForOrigin
 (
 PersistenceType
@@ -509,9 +513,6 @@ const
 AtomicBool
 &
 aCanceled
-UsageInfo
-*
-aUsageInfo
 )
 =
 0

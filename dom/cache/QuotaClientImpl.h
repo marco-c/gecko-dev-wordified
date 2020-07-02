@@ -231,7 +231,11 @@ aUsageInfo
 override
 ;
 virtual
+Result
+<
+UsageInfo
 nsresult
+>
 GetUsageForOrigin
 (
 PersistenceType
@@ -248,9 +252,6 @@ const
 AtomicBool
 &
 aCanceled
-UsageInfo
-*
-aUsageInfo
 )
 override
 ;
