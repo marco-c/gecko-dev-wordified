@@ -713,9 +713,6 @@ const
 nsAString
 &
 aReferrerPolicyAttr
-nsIReferrerInfo
-*
-aReferrerInfo
 )
 ;
 private
