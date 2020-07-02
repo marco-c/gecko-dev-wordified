@@ -136,7 +136,7 @@ picture
 :
 {
 SliceId
-TileCacheInstance
+TileCacheParams
 }
 ;
 use
@@ -1665,10 +1665,7 @@ tile_caches
 FastHashMap
 <
 SliceId
-Box
-<
-TileCacheInstance
->
+TileCacheParams
 >
 }
 impl
