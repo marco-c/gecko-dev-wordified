@@ -113,6 +113,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
 <
 stdarg
 .
@@ -339,10 +348,9 @@ aFormat
 int
 ret
 =
-vsnprintf
+VsprintfLiteral
 (
 sPrintfCrashReason
-sPrintfCrashReasonSize
 aFormat
 aArgs
 )
