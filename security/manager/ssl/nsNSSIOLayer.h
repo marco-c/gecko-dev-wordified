@@ -522,13 +522,6 @@ NoteTimeUntilReady
 )
 ;
 void
-NoteSessionResumptionTime
-(
-bool
-aUsingExternalCache
-)
-;
-void
 SetFalseStartCallbackCalled
 (
 )
