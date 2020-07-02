@@ -329,12 +329,10 @@ m
 -
 section
 that
-is
-the
-master
-of
+owns
 its
 bundle
+transport
 .
 /
 /

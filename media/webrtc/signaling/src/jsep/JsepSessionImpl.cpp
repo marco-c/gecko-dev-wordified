@@ -6060,7 +6060,10 @@ for
 (
 auto
 &
-midAndMaster
+[
+mid
+transportOwner
+]
 :
 bundledMids
 )
@@ -6071,9 +6074,7 @@ bundledTransceiver
 =
 GetTransceiverForMid
 (
-midAndMaster
-.
-first
+mid
 )
 ;
 if
@@ -6093,9 +6094,7 @@ mid
 "
 <
 <
-midAndMaster
-.
-first
+mid
 )
 ;
 return
@@ -6107,9 +6106,7 @@ bundledTransceiver
 >
 SetBundleLevel
 (
-midAndMaster
-.
-second
+transportOwner
 -
 >
 GetLevel
