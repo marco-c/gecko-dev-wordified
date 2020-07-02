@@ -456,16 +456,12 @@ prefs
 {
         
 #
-Fake
+Clear
 the
-geoip
-lookup
+region
+detection
+url
 to
-always
-return
-Germany
-to
-:
         
 #
 *
@@ -490,34 +486,22 @@ extra
 subsession
 (
 bug
-1545207
+1579840
+#
+c40
 )
         
 "
 browser
 .
-search
+region
 .
-geoip
+network
 .
 url
 "
 :
 '
-data
-:
-application
-/
-json
-{
-"
-country_code
-"
-:
-"
-DE
-"
-}
 '
         
 #
