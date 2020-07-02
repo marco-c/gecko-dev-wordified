@@ -690,7 +690,7 @@ aNode
 ;
 static
 bool
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 nsINode
 *

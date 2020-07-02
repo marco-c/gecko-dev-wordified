@@ -1352,7 +1352,7 @@ caption
 *
 *
 *
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 )
 returns
@@ -1381,7 +1381,7 @@ bool
 HTMLEditUtils
 :
 :
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 nsINode
 *

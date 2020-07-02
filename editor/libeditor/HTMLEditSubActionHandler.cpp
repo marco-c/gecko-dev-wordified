@@ -33138,7 +33138,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 &
 aNode
@@ -60587,7 +60587,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 content
 )
@@ -60893,7 +60893,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 content
 )
@@ -67582,7 +67582,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 content
 )
