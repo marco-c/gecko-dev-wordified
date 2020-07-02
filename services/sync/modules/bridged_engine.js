@@ -301,9 +301,6 @@ EXPORTED_SYMBOLS
 "
 BridgedEngine
 "
-"
-LogAdapter
-"
 ]
 ;
 /
@@ -1063,7 +1060,7 @@ jsm
 logger
 to
 a
-mozIServicesLogSink
+mozIServicesLogger
 .
 This
 class
@@ -1121,7 +1118,7 @@ All
 return
 Ci
 .
-mozIServicesLogSink
+mozIServicesLogger
 .
 LEVEL_TRACE
 ;
@@ -1141,7 +1138,7 @@ Info
 return
 Ci
 .
-mozIServicesLogSink
+mozIServicesLogger
 .
 LEVEL_DEBUG
 ;
@@ -1161,7 +1158,7 @@ Warn
 return
 Ci
 .
-mozIServicesLogSink
+mozIServicesLogger
 .
 LEVEL_WARN
 ;
@@ -1181,7 +1178,7 @@ Error
 return
 Ci
 .
-mozIServicesLogSink
+mozIServicesLogger
 .
 LEVEL_ERROR
 ;
@@ -1189,7 +1186,7 @@ LEVEL_ERROR
 return
 Ci
 .
-mozIServicesLogSink
+mozIServicesLogger
 .
 LEVEL_OFF
 ;
@@ -1460,6 +1457,20 @@ this
 _bridge
 =
 bridge
+;
+this
+.
+_bridge
+.
+logger
+=
+new
+LogAdapter
+(
+this
+.
+_log
+)
 ;
 }
 BridgedEngine
