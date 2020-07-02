@@ -1531,7 +1531,12 @@ isTopLevel
 win
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTop
 (
 )
 ;

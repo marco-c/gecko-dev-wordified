@@ -1894,7 +1894,12 @@ if
 outer
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTop
 (
 )
 )
@@ -2174,7 +2179,12 @@ if
 outer
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTop
 (
 )
 )

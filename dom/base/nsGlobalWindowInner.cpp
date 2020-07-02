@@ -34815,7 +34815,12 @@ if
 outerWindow
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTop
 (
 )
 )
