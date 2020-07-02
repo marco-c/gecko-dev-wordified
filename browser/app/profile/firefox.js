@@ -2498,7 +2498,7 @@ Services
 .
 uriFixup
 .
-isDomainWhitelisted
+isDomainKnown
 (
 )
 instead

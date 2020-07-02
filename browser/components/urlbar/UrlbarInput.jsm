@@ -4539,7 +4539,7 @@ the
 host
 /
 /
-the
+to
 the
 list
 that
@@ -5746,11 +5746,10 @@ for
 example
 it
 has
-a
-non
+an
+unknown
 /
 /
-whitelisted
 single
 word
 host
