@@ -279,8 +279,6 @@ const
 nsresult
 &
 aLoadGroupStatus
-bool
-aSwitchedProcess
 )
 ;
 mozilla
