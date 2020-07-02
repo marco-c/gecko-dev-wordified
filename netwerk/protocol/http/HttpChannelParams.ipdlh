@@ -284,6 +284,9 @@ appCacheClientId
 nsIReferrerInfo
 overrideReferrerInfo
 ;
+bool
+shouldWaitForOnStartRequestSent
+;
 }
 ;
 }
