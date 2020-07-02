@@ -10031,8 +10031,6 @@ WorkerPrivate
 :
 CycleCollect
 (
-bool
-aDummy
 )
 {
 AssertIsOnParentThread
@@ -10345,8 +10343,6 @@ WorkerPrivate
 :
 MemoryPressure
 (
-bool
-aDummy
 )
 {
 AssertIsOnParentThread
@@ -28058,13 +28054,6 @@ index
 >
 CycleCollect
 (
-/
-*
-aDummy
-=
-*
-/
-false
 )
 ;
 }
@@ -28233,7 +28222,6 @@ index
 >
 MemoryPressure
 (
-false
 )
 ;
 }

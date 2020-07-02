@@ -4182,8 +4182,6 @@ aShrinking
 void
 CycleCollect
 (
-bool
-aDummy
 )
 ;
 nsresult
@@ -4252,8 +4250,6 @@ const
 void
 MemoryPressure
 (
-bool
-aDummy
 )
 ;
 void
