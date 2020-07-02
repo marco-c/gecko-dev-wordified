@@ -163,6 +163,9 @@ uint64_t
 >
 &
 aHandlesToShare
+nsISerialEventTarget
+*
+aThread
 )
 {
 MOZ_ASSERT
@@ -388,9 +391,7 @@ AsyncLaunch
 >
 Then
 (
-GetCurrentSerialEventTarget
-(
-)
+aThread
 __func__
 std
 :

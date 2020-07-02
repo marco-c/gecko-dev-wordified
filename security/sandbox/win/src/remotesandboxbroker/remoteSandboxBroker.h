@@ -466,7 +466,7 @@ here
 .
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mIPCLaunchThread
 ;
