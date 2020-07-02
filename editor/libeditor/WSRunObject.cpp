@@ -7339,9 +7339,9 @@ mEndRun
 =
 normalRun
 ;
+return
+;
 }
-else
-{
 /
 /
 we
@@ -7527,9 +7527,9 @@ mEndRun
 =
 normalRun
 ;
+return
+;
 }
-else
-{
 if
 (
 mNBSPData
@@ -7732,8 +7732,6 @@ mRight
 =
 lastRun
 ;
-}
-}
 }
 void
 WSRunScanner
