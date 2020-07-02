@@ -12483,6 +12483,15 @@ isHeadless
 "
 null
 )
+EmbeddedInFirefoxReality
+:
+getGfxField
+(
+"
+EmbeddedInFirefoxReality
+"
+null
+)
 /
 /
 The

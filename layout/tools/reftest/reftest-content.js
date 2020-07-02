@@ -9919,6 +9919,14 @@ gfxInfo
 .
 DWriteEnabled
 ;
+info
+.
+EmbeddedInFirefoxReality
+=
+gfxInfo
+.
+EmbeddedInFirefoxReality
+;
 }
 catch
 (
@@ -9934,6 +9942,12 @@ false
 info
 .
 DWriteEnabled
+=
+false
+;
+info
+.
+EmbeddedInFirefoxReality
 =
 false
 ;
