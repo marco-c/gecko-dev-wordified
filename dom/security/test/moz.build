@@ -230,4 +230,11 @@ browser
 .
 ini
 '
+'
+mixedcontentblocker
+/
+browser
+.
+ini
+'
 ]
