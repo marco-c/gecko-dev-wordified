@@ -243,7 +243,6 @@ prim_store
 SpaceSnapper
 PrimitiveStore
 PrimitiveInstance
-PrimitiveScratchBuffer
 }
 ;
 use
@@ -265,7 +264,10 @@ crate
 render_backend
 :
 :
+{
 DataStores
+ScratchBuffer
+}
 ;
 use
 crate
@@ -405,7 +407,7 @@ scratch
 '
 a
 mut
-PrimitiveScratchBuffer
+ScratchBuffer
 pub
 tile_cache
 :
@@ -2380,6 +2382,8 @@ frame_state
 .
 scratch
 .
+primitive
+.
 prim_info
 .
 len
@@ -2392,6 +2396,8 @@ u32
 frame_state
 .
 scratch
+.
+primitive
 .
 prim_info
 .
@@ -3616,6 +3622,8 @@ frame_state
 .
 scratch
 .
+primitive
+.
 push_debug_rect
 (
 debug_rect
@@ -3733,6 +3741,8 @@ frame_state
 .
 scratch
 .
+primitive
+.
 push_debug_rect
 (
 rect
@@ -3757,6 +3767,8 @@ PrimitiveVisibilityIndex
 frame_state
 .
 scratch
+.
+primitive
 .
 prim_info
 .
@@ -3798,6 +3810,8 @@ combined_local_clip_rect
 frame_state
 .
 scratch
+.
+primitive
 .
 prim_info
 .
@@ -4740,6 +4754,8 @@ prim_info
 frame_state
 .
 scratch
+.
+primitive
 .
 prim_info
 [

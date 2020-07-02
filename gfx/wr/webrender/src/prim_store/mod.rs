@@ -8665,11 +8665,12 @@ DebugItem
 >
 }
 impl
+Default
+for
 PrimitiveScratchBuffer
 {
-pub
 fn
-new
+default
 (
 )
 -
@@ -8757,6 +8758,10 @@ new
 )
 }
 }
+}
+impl
+PrimitiveScratchBuffer
+{
 pub
 fn
 recycle
