@@ -516,17 +516,6 @@ RecvSubFrameCrashed
 (
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvAddBlockedNodeByClassifier
-(
-)
-;
 void
 ActorDestroy
 (
