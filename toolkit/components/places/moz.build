@@ -358,11 +358,6 @@ PlacesRemoteTabsAutocompleteProvider
 jsm
 '
 '
-PlacesSearchAutocompleteProvider
-.
-jsm
-'
-'
 PlacesSyncUtils
 .
 jsm
