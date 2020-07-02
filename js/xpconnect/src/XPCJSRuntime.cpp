@@ -7286,7 +7286,7 @@ HelperThreadPool
 )
 ;
 }
-void
+bool
 DispatchOffThreadTask
 (
 js
@@ -7299,6 +7299,9 @@ RunnableTask
 task
 )
 {
+return
+NS_SUCCEEDED
+(
 gHelperThreads
 -
 >
@@ -7315,6 +7318,7 @@ std
 move
 (
 task
+)
 )
 )
 )
@@ -23505,6 +23509,7 @@ HelperThreadTaskHandler
 aRunnable
 )
 {
+return
 mPool
 -
 >
@@ -23519,9 +23524,6 @@ aRunnable
 )
 NS_DISPATCH_NORMAL
 )
-;
-return
-NS_OK
 ;
 }
 HelperThreadPool

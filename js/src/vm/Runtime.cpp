@@ -623,7 +623,7 @@ nullptr
 namespace
 js
 {
-void
+bool
 (
 *
 HelperThreadTaskCallback

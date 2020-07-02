@@ -2579,7 +2579,7 @@ JS_PUBLIC_API
 void
 SetHelperThreadTaskCallback
 (
-void
+bool
 (
 *
 callback

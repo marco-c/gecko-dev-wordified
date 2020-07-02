@@ -12305,7 +12305,7 @@ MOZ_NEVER_INLINE
 void
 SetHelperThreadTaskCallback
 (
-void
+bool
 (
 *
 callback
