@@ -8598,6 +8598,15 @@ SheetState
 NeedsParser
 &
 &
+aPendingLoad
+=
+=
+PendingLoad
+:
+:
+No
+&
+&
 aLoadData
 .
 ShouldDefer
@@ -8632,6 +8641,7 @@ mSheets
 >
 DeferSheetLoad
 (
+key
 aLoadData
 )
 ;
