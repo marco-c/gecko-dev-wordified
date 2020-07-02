@@ -30799,6 +30799,7 @@ EditorRawDOMPoint
 &
 aPointToInsert
 )
+const
 ;
 /
 *

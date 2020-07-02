@@ -2843,6 +2843,7 @@ rv
 ;
 }
 }
+const
 bool
 insertionPointWasInLink
 =
