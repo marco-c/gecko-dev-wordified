@@ -130,6 +130,11 @@ changes
 js
 '
 '
+compatibility
+.
+js
+'
+'
 content
 -
 viewer

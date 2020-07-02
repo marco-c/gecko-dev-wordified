@@ -170,6 +170,11 @@ common
 js
 '
 '
+compatibility
+.
+js
+'
+'
 css
 -
 properties
