@@ -134,7 +134,7 @@ order
 #
 include
 "
-SVGGFrame
+nsSVGGFrame
 .
 h
 "
@@ -175,7 +175,7 @@ SVGUseFrame
 final
 :
 public
-SVGGFrame
+nsSVGGFrame
 {
 friend
 nsIFrame
@@ -208,7 +208,7 @@ nsPresContext
 aPresContext
 )
 :
-SVGGFrame
+nsSVGGFrame
 (
 aStyle
 aPresContext

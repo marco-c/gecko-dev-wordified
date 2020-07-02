@@ -194,9 +194,6 @@ mozilla
 PresShell
 *
 aPresShell
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle
@@ -472,9 +469,6 @@ mozilla
 PresShell
 *
 aPresShell
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle
