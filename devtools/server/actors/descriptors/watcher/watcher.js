@@ -535,6 +535,9 @@ FF79
 supports
 console
 messages
+and
+platform
+messages
 but
 this
 isn
@@ -631,6 +634,15 @@ Resources
 TYPES
 .
 CONSOLE_MESSAGE
+]
+:
+false
+[
+Resources
+.
+TYPES
+.
+PLATFORM_MESSAGE
 ]
 :
 false
