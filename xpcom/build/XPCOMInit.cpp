@@ -2769,7 +2769,7 @@ scache
 StartupCache
 :
 :
-FullyInitSingleton
+GetSingleton
 (
 )
 ;
