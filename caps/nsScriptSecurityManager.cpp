@@ -4365,7 +4365,9 @@ that
 subsume
 them
 bool
-hasFlags
+targetURIIsLoadableBySubsumers
+=
+false
 ;
 rv
 =
@@ -4377,7 +4379,7 @@ nsIProtocolHandler
 :
 URI_LOADABLE_BY_SUBSUMERS
 &
-hasFlags
+targetURIIsLoadableBySubsumers
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4388,7 +4390,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsLoadableBySubsumers
 )
 {
 /
@@ -4703,6 +4705,11 @@ NS_OK
 Check
 for
 webextension
+bool
+targetURIIsLoadableByExtensions
+=
+false
+;
 rv
 =
 NS_URIChainHasFlags
@@ -4713,7 +4720,7 @@ nsIProtocolHandler
 :
 URI_LOADABLE_BY_EXTENSIONS
 &
-hasFlags
+targetURIIsLoadableByExtensions
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4724,7 +4731,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsLoadableByExtensions
 &
 &
 BasePrincipal
@@ -5849,7 +5856,7 @@ chrome
 target
 URI
 bool
-hasFlags
+targetURIIsUIResource
 =
 false
 ;
@@ -5863,7 +5870,7 @@ nsIProtocolHandler
 :
 URI_IS_UI_RESOURCE
 &
-hasFlags
+targetURIIsUIResource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -5874,7 +5881,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsUIResource
 )
 {
 if
@@ -6301,6 +6308,11 @@ pointing
 to
 a
 file
+bool
+targetURIIsLocalFile
+=
+false
+;
 rv
 =
 NS_URIChainHasFlags
@@ -6311,7 +6323,7 @@ nsIProtocolHandler
 :
 URI_IS_LOCAL_FILE
 &
-hasFlags
+targetURIIsLocalFile
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6322,7 +6334,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsLocalFile
 )
 {
 /
