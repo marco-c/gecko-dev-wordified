@@ -4550,6 +4550,14 @@ unsigned
 chunkno
 )
 ;
+bool
+initFirstChunk
+(
+AutoLockGCBgAlloc
+&
+lock
+)
+;
 /
 /
 extent
