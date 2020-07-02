@@ -5435,6 +5435,9 @@ eventCallback
 pageAction
 .
 _popupStateChange
+persistent
+:
+false
 }
 )
 ;
