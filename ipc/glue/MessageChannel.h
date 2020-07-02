@@ -3721,8 +3721,10 @@ mSide
 bool
 mIsCrossProcess
 ;
+UniquePtr
+<
 MessageLink
-*
+>
 mLink
 ;
 MessageLoop
