@@ -5231,6 +5231,15 @@ BinaryNode
 callNode
 )
 ;
+MOZ_MUST_USE
+bool
+emitSelfHostedToString
+(
+BinaryNode
+*
+callNode
+)
+;
 #
 ifdef
 DEBUG

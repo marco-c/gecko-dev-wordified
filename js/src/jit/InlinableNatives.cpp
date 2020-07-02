@@ -1137,12 +1137,6 @@ case
 InlinableNative
 :
 :
-IntrinsicToString
-:
-case
-InlinableNative
-:
-:
 IntrinsicIsConstructing
 :
 case

@@ -6090,14 +6090,6 @@ callInfo
 )
 ;
 InliningResult
-inlineToString
-(
-CallInfo
-&
-callInfo
-)
-;
-InliningResult
 inlineDump
 (
 CallInfo
