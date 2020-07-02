@@ -99427,8 +99427,9 @@ has
 /
 Examples
 :
-Whitelists
-blacklists
+skip
+-
+lists
 on
 -
 device
