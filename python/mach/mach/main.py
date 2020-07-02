@@ -2174,6 +2174,7 @@ topdir
             
 register_sentry
 (
+argv
 topsrcdir
 )
         
@@ -2182,6 +2183,7 @@ else
             
 register_sentry
 (
+argv
 )
         
 #
