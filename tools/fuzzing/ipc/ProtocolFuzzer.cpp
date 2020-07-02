@@ -215,7 +215,6 @@ dom
 :
 ContentParent
 (
-aOpener
 aRemoteType
 )
 ;
