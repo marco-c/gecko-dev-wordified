@@ -1181,13 +1181,11 @@ name
 template
 <
 class
-BC
-class
 T
 >
 inline
 void
-TraceCellHeaderEdge
+TraceEdge
 (
 JSTracer
 *
@@ -1195,9 +1193,8 @@ trc
 gc
 :
 :
-CellWithTenuredGCPointer
+CellHeaderWithTenuredGCPointer
 <
-BC
 T
 >
 *
@@ -1215,7 +1212,7 @@ thing
 thingp
 -
 >
-headerPtr
+ptr
 (
 )
 ;
@@ -1244,7 +1241,7 @@ thing
 thingp
 -
 >
-headerPtr
+ptr
 (
 )
 )
@@ -1252,7 +1249,7 @@ headerPtr
 thingp
 -
 >
-unsafeSetHeaderPtr
+unsafeSetPtr
 (
 thing
 )
@@ -1388,13 +1385,11 @@ name
 template
 <
 class
-BC
-class
 T
 >
 inline
 void
-TraceNullableCellHeaderEdge
+TraceNullableEdge
 (
 JSTracer
 *
@@ -1402,9 +1397,8 @@ trc
 gc
 :
 :
-CellWithTenuredGCPointer
+CellHeaderWithTenuredGCPointer
 <
-BC
 T
 >
 *
@@ -1422,7 +1416,7 @@ thing
 thingp
 -
 >
-headerPtr
+ptr
 (
 )
 ;
@@ -1456,7 +1450,7 @@ thing
 thingp
 -
 >
-headerPtr
+ptr
 (
 )
 )
@@ -1464,7 +1458,7 @@ headerPtr
 thingp
 -
 >
-unsafeSetHeaderPtr
+unsafeSetPtr
 (
 thing
 )

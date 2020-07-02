@@ -3516,7 +3516,7 @@ RegExpFlags
 flags
 )
 :
-CellWithTenuredGCPointer
+headerAndSource
 (
 source
 )
@@ -3579,10 +3579,11 @@ discardJitCode
 )
 ;
 }
-TraceNullableCellHeaderEdge
+TraceNullableEdge
 (
 trc
-this
+&
+headerAndSource
 "
 RegExpShared
 source

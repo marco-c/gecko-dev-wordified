@@ -27041,10 +27041,11 @@ JSTracer
 trc
 )
 {
-TraceCellHeaderEdge
+TraceEdge
 (
 trc
-this
+&
+headerAndGroup_
 "
 group
 "

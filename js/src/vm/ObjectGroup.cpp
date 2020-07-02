@@ -504,7 +504,7 @@ ObjectGroupFlags
 initialFlags
 )
 :
-TenuredCellWithNonGCPointer
+headerAndClasp_
 (
 clasp
 )

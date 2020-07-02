@@ -2002,7 +2002,9 @@ nullptr
 result
 -
 >
-toggleHeaderFlagBit
+header_
+.
+toggleFlagBit
 (
 SignBit
 )
@@ -13278,7 +13280,9 @@ n
 res
 -
 >
-setHeaderFlagBit
+header_
+.
+setFlagBit
 (
 SignBit
 )
