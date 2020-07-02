@@ -993,9 +993,6 @@ responseCookies
 "
 responseHeaders
 "
-"
-waitingTime
-"
 ]
 ;
 const
@@ -1135,13 +1132,6 @@ file
 ColumnComponent
 :
 RequestListColumnFile
-props
-:
-[
-"
-onWaterfallMouseDown
-"
-]
 }
 {
 column

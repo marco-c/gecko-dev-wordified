@@ -1128,9 +1128,6 @@ blockingExtension
 "
 channelId
 "
-"
-waitingTime
-"
 ]
 ;
 const
