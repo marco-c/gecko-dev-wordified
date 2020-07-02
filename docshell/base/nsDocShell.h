@@ -514,9 +514,6 @@ EventTarget
 class
 SessionHistoryInfo
 ;
-struct
-SessionHistoryInfoAndId
-;
 }
 /
 /
@@ -2792,7 +2789,7 @@ aLoadType
 )
 ;
 void
-SetLoadingSessionHistoryInfoAndId
+SetLoadingSessionHistoryInfo
 (
 const
 mozilla
@@ -2801,9 +2798,9 @@ mozilla
 dom
 :
 :
-SessionHistoryInfoAndId
+SessionHistoryInfo
 &
-aInfoAndId
+aInfo
 )
 ;
 private
@@ -7442,9 +7439,6 @@ dom
 SessionHistoryInfo
 >
 mLoadingEntry
-;
-uint64_t
-mLoadingEntryId
 ;
 /
 /

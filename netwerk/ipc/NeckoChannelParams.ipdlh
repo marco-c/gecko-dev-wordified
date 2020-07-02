@@ -263,7 +263,7 @@ mozilla
 dom
 :
 :
-SessionHistoryInfoAndId
+SessionHistoryInfo
 from
 "
 mozilla
@@ -2744,7 +2744,7 @@ srcdocData
 nsIURI
 baseUri
 ;
-SessionHistoryInfoAndId
+SessionHistoryInfo
 ?
 sessionHistoryInfo
 ;

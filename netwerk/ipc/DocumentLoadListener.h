@@ -2486,7 +2486,7 @@ mozilla
 dom
 :
 :
-SessionHistoryInfoAndId
+SessionHistoryInfo
 >
 mSessionHistoryInfo
 ;
