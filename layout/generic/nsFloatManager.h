@@ -2462,10 +2462,6 @@ mozilla
 :
 StyleClear
 aBreakType
-uint32_t
-aFlags
-=
-0
 )
 const
 ;
