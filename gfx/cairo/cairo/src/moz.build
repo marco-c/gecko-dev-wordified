@@ -1571,8 +1571,14 @@ FT_LCD_FILTER_H
 ]
 =
 '
-%
-s
+.
+.
+/
+.
+.
+/
+.
+.
 /
 modules
 /
@@ -1586,8 +1592,6 @@ ftlcdfil
 .
 h
 '
-%
-TOPSRCDIR
 #
 Suppress
 warnings
