@@ -120,10 +120,6 @@ Talos
 Tests
 '
     
-generic
-=
-True
-    
 symbol
 =
 '

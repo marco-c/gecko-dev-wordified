@@ -127,10 +127,6 @@ purge
 cache
 '
     
-generic
-=
-True
-    
 description
 =
 (

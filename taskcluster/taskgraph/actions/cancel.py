@@ -118,10 +118,6 @@ symbol
 cx
 '
     
-generic
-=
-True
-    
 description
 =
 (

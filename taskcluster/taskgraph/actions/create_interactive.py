@@ -794,10 +794,6 @@ create
 inter
 '
     
-generic
-=
-True
-    
 description
 =
 (

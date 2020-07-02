@@ -121,10 +121,6 @@ Missing
 Tests
 '
     
-generic
-=
-True
-    
 symbol
 =
 '
