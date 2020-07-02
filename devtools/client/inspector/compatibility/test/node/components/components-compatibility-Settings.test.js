@@ -270,7 +270,7 @@ targetBrowsers
 )
 ;
 const
-wrapper
+connectWrapper
 =
 shallow
 (
@@ -281,6 +281,11 @@ store
 }
 )
 )
+;
+const
+targetComponent
+=
+connectWrapper
 .
 dive
 (
@@ -288,7 +293,7 @@ dive
 ;
 expect
 (
-wrapper
+targetComponent
 )
 .
 toMatchSnapshot
@@ -349,7 +354,7 @@ DEFAULT_BROWSERS
 )
 ;
 const
-wrapper
+connectWrapper
 =
 shallow
 (
@@ -360,6 +365,11 @@ store
 }
 )
 )
+;
+const
+targetComponent
+=
+connectWrapper
 .
 dive
 (
@@ -367,7 +377,7 @@ dive
 ;
 expect
 (
-wrapper
+targetComponent
 )
 .
 toMatchSnapshot
@@ -423,7 +433,7 @@ DEFAULT_BROWSERS
 )
 ;
 const
-wrapper
+connectWrapper
 =
 shallow
 (
@@ -434,6 +444,11 @@ store
 }
 )
 )
+;
+const
+targetComponent
+=
+connectWrapper
 .
 dive
 (
@@ -441,7 +456,7 @@ dive
 ;
 expect
 (
-wrapper
+targetComponent
 )
 .
 toMatchSnapshot
