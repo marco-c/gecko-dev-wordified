@@ -4244,15 +4244,6 @@ mType
 )
 )
 ;
-mStartTime
-=
-TimeStamp
-:
-:
-Now
-(
-)
-;
 return
 NS_OK
 ;
