@@ -2008,6 +2008,15 @@ char
 =
 0
 ;
+bool
+RunningGTest
+(
+)
+{
+return
+RunGTest
+;
+}
 }
 /
 /

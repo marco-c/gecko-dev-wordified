@@ -725,6 +725,11 @@ PlatformBuildID
 (
 )
 ;
+bool
+RunningGTest
+(
+)
+;
 }
 /
 /
