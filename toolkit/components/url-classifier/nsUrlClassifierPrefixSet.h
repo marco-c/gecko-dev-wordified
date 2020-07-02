@@ -135,13 +135,6 @@ h
 #
 include
 "
-nsIMemoryReporter
-.
-h
-"
-#
-include
-"
 nsIUrlClassifierPrefixSet
 .
 h
@@ -166,15 +159,6 @@ include
 mozilla
 /
 FileUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-MemoryReporting
 .
 h
 "
@@ -227,8 +211,6 @@ final
 :
 public
 nsIUrlClassifierPrefixSet
-public
-nsIMemoryReporter
 {
 public
 :
@@ -343,7 +325,6 @@ mallocSizeOf
 const
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIMEMORYREPORTER
 friend
 class
 mozilla
@@ -600,9 +581,6 @@ mTotalPrefixes
 ;
 nsCString
 mName
-;
-nsCString
-mMemoryReportPath
 ;
 mozilla
 :
