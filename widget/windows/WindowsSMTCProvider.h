@@ -621,6 +621,10 @@ mImageStream
 bool
 SetThumbnail
 (
+const
+nsAString
+&
+aUrl
 )
 ;
 void
