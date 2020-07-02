@@ -438,10 +438,6 @@ serializer
 hb_tag_t
 table_tag
 ;
-unsigned
-int
-debug_depth
-;
 hb_subset_context_t
 (
 hb_blob_t
@@ -472,10 +468,6 @@ serializer_
 table_tag
 (
 table_tag_
-)
-debug_depth
-(
-0
 )
 {
 }

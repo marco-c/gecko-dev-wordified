@@ -289,6 +289,13 @@ h
 '
 hb
 -
+style
+.
+h
+'
+'
+hb
+-
 unicode
 .
 h
@@ -725,6 +732,13 @@ cc
 hb
 -
 static
+.
+cc
+'
+'
+hb
+-
+style
 .
 cc
 '

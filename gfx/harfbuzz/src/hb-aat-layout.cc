@@ -478,10 +478,6 @@ lookup_index
 (
 0
 )
-debug_depth
-(
-0
-)
 {
 sanitizer
 .

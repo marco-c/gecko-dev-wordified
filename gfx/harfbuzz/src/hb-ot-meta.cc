@@ -252,7 +252,7 @@ fonts
 *
 *
 *
-hb_ot_meta_reference_entry
+hb_ot_meta_get_entry_tags
 :
 *
 face

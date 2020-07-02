@@ -3173,7 +3173,7 @@ feature
 if
 MAC_OS_X_VERSION_MIN_REQUIRED
 <
-1010
+101000
 const
 hb_aat_feature_mapping_t
 *
@@ -3575,7 +3575,7 @@ j
 if
 MAC_OS_X_VERSION_MIN_REQUIRED
 <
-1010
+101000
 CFStringRef
 keys
 [

@@ -6866,8 +6866,7 @@ c
 font
 "
 start
-chain
-subtable
+chainsubtable
 %
 d
 "
@@ -6933,8 +6932,7 @@ c
 font
 "
 end
-chain
-subtable
+chainsubtable
 %
 d
 "
