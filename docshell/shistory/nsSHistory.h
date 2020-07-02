@@ -1231,7 +1231,7 @@ friend
 class
 nsSHistoryObserver
 ;
-nsresult
+bool
 LoadDifferingEntries
 (
 nsISHEntry
@@ -1248,12 +1248,9 @@ dom
 :
 BrowsingContext
 *
-aRootBC
+aParent
 long
 aLoadType
-bool
-&
-aDifferenceFound
 nsTArray
 <
 LoadEntryResult
