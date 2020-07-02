@@ -165,6 +165,8 @@ pioneer
 v2
 -
 example
+pioneer
+.
 mozilla
 .
 org
@@ -628,6 +630,11 @@ button
 enrollmentButton
 .
 click
+(
+)
+;
+await
+waitForAnimationFrame
 (
 )
 ;
