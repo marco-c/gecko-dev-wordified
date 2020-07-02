@@ -13115,6 +13115,14 @@ count
 JitOptions
 .
 osrPcMismatchesBeforeRecompile
+&
+&
+!
+JitOptions
+.
+eagerIonCompilation
+(
+)
 )
 {
 return
