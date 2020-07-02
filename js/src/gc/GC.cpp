@@ -19539,14 +19539,6 @@ runtime
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-CurrentThreadIsPerformingGC
-(
-)
-)
-;
 if
 (
 minorGCRequested
