@@ -967,7 +967,7 @@ as_nanos
 )
 )
 .
-map
+and_then
 (
 |
 i
@@ -983,10 +983,6 @@ i
 ok
 (
 )
-)
-.
-flatten
-(
 )
 .
 unwrap_or

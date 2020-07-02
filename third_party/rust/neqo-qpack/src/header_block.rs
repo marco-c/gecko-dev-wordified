@@ -996,13 +996,11 @@ Self
 :
 Target
 {
+&
+*
 self
 .
 buf
-.
-deref
-(
-)
 }
 }
 pub

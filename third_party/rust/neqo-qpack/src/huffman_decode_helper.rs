@@ -140,13 +140,11 @@ HUFFMAN_DECODE_ROOT
 :
 HuffmanDecoderNode
 =
-{
 make_huffman_tree
 (
 0
 0
 )
-}
 ;
 }
 fn

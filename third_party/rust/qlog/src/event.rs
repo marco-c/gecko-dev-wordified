@@ -3550,6 +3550,12 @@ Option
 <
 String
 >
+length
+:
+Option
+<
+u64
+>
 from
 :
 Option
@@ -3602,6 +3608,7 @@ H3DataMoved
 {
 stream_id
 offset
+length
 from
 to
 raw
@@ -3626,6 +3633,7 @@ Event
 h3_data_moved
 (
 stream_id
+None
 None
 None
 None
