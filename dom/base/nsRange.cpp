@@ -5509,6 +5509,7 @@ nsRange
 :
 IsPointInRange
 (
+const
 nsINode
 &
 aContainer
