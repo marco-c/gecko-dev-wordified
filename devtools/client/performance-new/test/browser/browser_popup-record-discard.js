@@ -125,10 +125,15 @@ makeSureProfilerPopupIsEnabled
 )
 ;
 await
-toggleOpenProfilerPopup
+withPopupOpen
+(
+window
+async
 (
 )
-;
+=
+>
+{
 {
 const
 button
@@ -233,6 +238,9 @@ again
 )
 ;
 }
+}
+)
+;
 }
 )
 ;

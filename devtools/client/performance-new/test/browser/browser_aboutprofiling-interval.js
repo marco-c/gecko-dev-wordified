@@ -86,15 +86,6 @@ interval
 "
 )
 ;
-console
-.
-log
-(
-getActiveConfiguration
-(
-)
-)
-;
 await
 withAboutProfiling
 (
