@@ -1797,6 +1797,31 @@ for
 Android
 tests
     
+xpcshell_binary
+=
+'
+xpcshell
+'
+    
+if
+os
+.
+name
+=
+=
+'
+nt
+'
+:
+        
+xpcshell_binary
+=
+'
+xpcshell
+.
+exe
+'
+    
 MOZ_HOST_BIN
 =
 os
@@ -1832,8 +1857,11 @@ host
 '
               
 '
-xpcshell
+%
+s
 '
+%
+xpcshell_binary
 )
         
 return
@@ -1881,9 +1909,7 @@ path
 join
 (
 MOZ_HOST_BIN
-'
-xpcshell
-'
+xpcshell_binary
 )
 )
 :
@@ -1893,11 +1919,14 @@ print
 '
 MOZ_HOST_BIN
 /
-xpcshell
+%
+s
 does
 not
 exist
 '
+%
+xpcshell_binary
 )
         
 return
