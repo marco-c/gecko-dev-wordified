@@ -342,7 +342,7 @@ promiseStartupManager
 )
 ;
 function
-checkBlacklist
+checkBlocklist
 (
 )
 {
@@ -948,7 +948,7 @@ event
 .
 executeSoon
 (
-checkBlacklist
+checkBlocklist
 )
 ;
 }
