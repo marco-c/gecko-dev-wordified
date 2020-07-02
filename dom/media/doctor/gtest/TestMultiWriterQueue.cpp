@@ -2302,9 +2302,6 @@ struct
 DequeWrapperST
 {
 nsDeque
-<
-void
->
 mDQ
 ;
 bool

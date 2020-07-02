@@ -956,9 +956,6 @@ bool
 mStopped
 ;
 nsDeque
-<
-TokenBucketCancelable
->
 mEvents
 ;
 bool

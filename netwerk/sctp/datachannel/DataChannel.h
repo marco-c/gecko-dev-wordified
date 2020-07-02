@@ -2207,9 +2207,6 @@ mCurrentStream
 0
 ;
 nsDeque
-<
-DataChannel
->
 mPending
 ;
 /

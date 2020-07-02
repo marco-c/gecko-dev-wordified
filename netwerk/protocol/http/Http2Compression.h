@@ -331,9 +331,6 @@ uint32_t
 mByteCount
 ;
 nsDeque
-<
-nvPair
->
 mTable
 ;
 }
