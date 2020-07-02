@@ -197,7 +197,7 @@ h
 #
 include
 "
-nsIContentChild
+nsIDOMProcessChild
 .
 h
 "

@@ -198,7 +198,7 @@ constructor
 ;
 readonly
 attribute
-nsIContentParent
+nsIDOMProcessParent
 manager
 ;
 }
@@ -225,7 +225,7 @@ constructor
 ;
 readonly
 attribute
-nsIContentChild
+nsIDOMProcessChild
 manager
 ;
 }
