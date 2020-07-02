@@ -5991,6 +5991,10 @@ RefTestExecutor
 )
 :
     
+is_print
+=
+False
+    
 def
 __init__
 (
@@ -6944,6 +6948,15 @@ screenshot
 "
 :
 screenshot
+"
+isPrint
+"
+:
+self
+.
+executor
+.
+is_print
 }
         
 if
@@ -7924,6 +7937,10 @@ MarionetteRefTestExecutor
 )
 :
     
+is_print
+=
+True
+    
 def
 __init__
 (
@@ -7961,6 +7978,10 @@ capabilities
 =
 None
 debug
+=
+False
+                 
+reftest_internal
 =
 False
 *
@@ -8016,7 +8037,7 @@ reftest_screenshot
                                            
 reftest_internal
 =
-False
+reftest_internal
                                            
 ccov
 =
@@ -8058,6 +8079,17 @@ setup
 runner
 )
         
+if
+not
+isinstance
+(
+self
+.
+implementation
+InternalRefTestImplementation
+)
+:
+            
 self
 .
 protocol
@@ -8066,6 +8098,27 @@ pdf_print
 .
 load_runner
 (
+)
+    
+def
+get_implementation
+(
+self
+reftest_internal
+)
+:
+        
+return
+(
+InternalRefTestImplementation
+if
+reftest_internal
+                
+else
+RefTestImplementation
+)
+(
+self
 )
     
 def

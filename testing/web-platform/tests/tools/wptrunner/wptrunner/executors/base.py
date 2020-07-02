@@ -2577,6 +2577,10 @@ convert_result
 =
 reftest_result_converter
     
+is_print
+=
+False
+    
 def
 __init__
 (
@@ -2643,6 +2647,10 @@ TestExecutor
 convert_result
 =
 reftest_result_converter
+    
+is_print
+=
+True
 class
 RefTestImplementation
 (
@@ -2783,6 +2791,7 @@ self
 test
 viewport_size
 dpi
+page_ranges
 )
 :
         
@@ -3729,6 +3738,12 @@ test
 .
 dpi
         
+page_ranges
+=
+test
+.
+page_ranges
+        
 self
 .
 message
@@ -3856,6 +3871,7 @@ get_hash
 node
 viewport_size
 dpi
+page_ranges
 )
                 
 if
