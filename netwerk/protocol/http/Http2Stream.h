@@ -2193,7 +2193,7 @@ MapStreamToPlainText
 (
 )
 ;
-void
+bool
 MapStreamToHttpConnection
 (
 const
