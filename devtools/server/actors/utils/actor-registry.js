@@ -229,12 +229,11 @@ ex
 prefix1
 )
 .
-*
 (
 See
-ActorPool
+Pool
 .
-addActor
+manage
 )
 *
 -

@@ -524,8 +524,8 @@ one
 can
 add
 to
-an
-ActorPool
+a
+Pool
 .
 *
 *
@@ -988,8 +988,8 @@ one
 can
 add
 to
-an
-ActorPool
+a
+Pool
 .
 *
 *

@@ -507,8 +507,8 @@ Since
 parentActor
 is
 also
-an
-ActorPool
+a
+Pool
 from
 the
 point

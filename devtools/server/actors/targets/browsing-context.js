@@ -3480,7 +3480,7 @@ Always
 use
 the
 same
-ActorPool
+Pool
 so
 existing
 actor
@@ -3539,7 +3539,7 @@ and
 added
 into
 the
-ActorPool
+Pool
 .
 return
 createExtraActors

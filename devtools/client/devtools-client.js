@@ -4240,10 +4240,6 @@ When
 |
 destroy
 |
-or
-|
-cleanup
-|
 is
 called
 on
@@ -4333,7 +4329,7 @@ So
 we
 call
 |
-cleanup
+destroy
 |
 /
 /
@@ -4394,7 +4390,7 @@ _pools
 {
 pool
 .
-cleanup
+destroy
 (
 )
 ;
