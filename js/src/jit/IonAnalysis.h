@@ -1089,7 +1089,6 @@ KnownClass
 PlainObject
 Array
 Function
-RegExp
 None
 }
 ;
