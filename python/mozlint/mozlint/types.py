@@ -503,6 +503,7 @@ condition
 (
 payload
 line
+config
 )
 :
         
@@ -750,6 +751,7 @@ condition
 (
 payload
 line
+config
 )
 :
                 
@@ -805,6 +807,7 @@ condition
 self
 payload
 line
+config
 )
 :
         
@@ -843,8 +846,33 @@ condition
 self
 payload
 line
+config
 )
 :
+        
+flags
+=
+0
+        
+if
+config
+.
+get
+(
+"
+ignore
+-
+case
+"
+)
+:
+            
+flags
+|
+=
+re
+.
+IGNORECASE
         
 return
 re
@@ -853,6 +881,7 @@ search
 (
 payload
 line
+flags
 )
 class
 ExternalType
