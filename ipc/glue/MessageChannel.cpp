@@ -5218,7 +5218,7 @@ invokes
 PB
 -
 >
-SlaveOpen
+OpenAsOtherThread
 (
 PA
 .
@@ -5341,14 +5341,14 @@ ipc
 MessageChannel
 :
 :
-OnOpenAsSlave
+OpenAsOtherThread
 "
 aTargetChan
 &
 MessageChannel
 :
 :
-OnOpenAsSlave
+OpenAsOtherThread
 this
 oppSide
 )
@@ -5396,7 +5396,7 @@ void
 MessageChannel
 :
 :
-OnOpenAsSlave
+OpenAsOtherThread
 (
 MessageChannel
 *

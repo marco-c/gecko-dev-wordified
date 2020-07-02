@@ -2210,7 +2210,7 @@ aSide
 )
 ;
 void
-OnOpenAsSlave
+OpenAsOtherThread
 (
 MessageChannel
 *
