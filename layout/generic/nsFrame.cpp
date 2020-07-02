@@ -80882,7 +80882,7 @@ static
 void
 GetTagName
 (
-nsFrame
+nsIFrame
 *
 aFrame
 nsIContent
@@ -80948,7 +80948,7 @@ aFrame
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 Trace
@@ -81014,7 +81014,7 @@ aMethod
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 Trace
@@ -81117,7 +81117,7 @@ reflow
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 TraceMsg
@@ -81207,7 +81207,7 @@ argbuf
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -81323,7 +81323,7 @@ DR_cookie
 ;
 mValue
 =
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowEnter
@@ -81347,7 +81347,7 @@ MOZ_COUNT_DTOR
 DR_cookie
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowExit
@@ -81382,7 +81382,7 @@ DR_layout_cookie
 ;
 mValue
 =
-nsFrame
+nsIFrame
 :
 :
 DisplayLayoutEnter
@@ -81404,7 +81404,7 @@ MOZ_COUNT_DTOR
 DR_layout_cookie
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 DisplayLayoutExit
@@ -81451,7 +81451,7 @@ DR_intrinsic_inline_size_cookie
 ;
 mValue
 =
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicISizeEnter
@@ -81474,7 +81474,7 @@ MOZ_COUNT_DTOR
 DR_intrinsic_inline_size_cookie
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicISizeExit
@@ -81523,7 +81523,7 @@ DR_intrinsic_size_cookie
 ;
 mValue
 =
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicSizeEnter
@@ -81546,7 +81546,7 @@ MOZ_COUNT_DTOR
 DR_intrinsic_size_cookie
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicSizeExit
@@ -85826,7 +85826,7 @@ d2a
 }
 void
 *
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowEnter
@@ -85914,7 +85914,7 @@ treeNode
 }
 void
 *
-nsFrame
+nsIFrame
 :
 :
 DisplayLayoutEnter
@@ -86011,7 +86011,7 @@ treeNode
 }
 void
 *
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicISizeEnter
@@ -86115,7 +86115,7 @@ treeNode
 }
 void
 *
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicSizeEnter
@@ -86218,7 +86218,7 @@ treeNode
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowExit
@@ -86808,7 +86808,7 @@ treeNode
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayLayoutExit
@@ -86932,7 +86932,7 @@ treeNode
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicISizeExit
@@ -87054,7 +87054,7 @@ treeNode
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayIntrinsicSizeExit
@@ -87204,7 +87204,7 @@ static
 *
 /
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowStartup
@@ -87225,7 +87225,7 @@ static
 *
 /
 void
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowShutdown
