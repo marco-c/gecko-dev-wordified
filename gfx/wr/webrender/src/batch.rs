@@ -1766,9 +1766,6 @@ ZBufferId
 break_advanced_blend_batches
 :
 bool
-lookback_count
-:
-usize
 }
 impl
 AlphaBatchList
@@ -1779,9 +1776,6 @@ new
 break_advanced_blend_batches
 :
 bool
-lookback_count
-:
-usize
 )
 -
 >
@@ -1820,7 +1814,6 @@ usize
 :
 MAX
 break_advanced_blend_batches
-lookback_count
 }
 }
 /
@@ -2037,13 +2030,6 @@ enumerate
 rev
 (
 )
-.
-take
-(
-self
-.
-lookback_count
-)
 {
 /
 /
@@ -2173,13 +2159,6 @@ enumerate
 .
 rev
 (
-)
-.
-take
-(
-self
-.
-lookback_count
 )
 {
 /
@@ -3952,7 +3931,6 @@ AlphaBatchList
 new
 (
 break_advanced_blend_batches
-lookback_count
 )
 opaque_batch_list
 :
