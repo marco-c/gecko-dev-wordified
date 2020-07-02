@@ -2011,7 +2011,7 @@ GetPlatform
 )
 -
 >
-UseWaylandDMABufVideoTextures
+UseDMABufVideoTextures
 (
 )
 &
