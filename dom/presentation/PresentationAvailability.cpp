@@ -198,6 +198,12 @@ mozilla
 :
 dom
 ;
+namespace
+mozilla
+{
+namespace
+dom
+{
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 PresentationAvailability
@@ -1117,3 +1123,13 @@ _ns
 ;
 }
 }
+}
+/
+/
+namespace
+dom
+}
+/
+/
+namespace
+mozilla
