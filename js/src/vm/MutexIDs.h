@@ -213,6 +213,12 @@ AtomsTable
 200
 )
 \
+_
+(
+StoreBuffer
+200
+)
+\
 \
 _
 (
@@ -243,12 +249,6 @@ GlobalHelperThreadState
 _
 (
 GCLock
-400
-)
-\
-_
-(
-StoreBuffer
 400
 )
 \
