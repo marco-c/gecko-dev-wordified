@@ -197,16 +197,6 @@ chrome
 /
 global
 /
-charsetMenu
-.
-properties
-"
-            
-"
-chrome
-/
-global
-/
 commonDialogs
 .
 properties
