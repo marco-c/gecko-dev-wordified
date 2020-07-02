@@ -4037,6 +4037,58 @@ height
 )
 :
         
+page_ranges
+=
+self
+.
+marionette
+.
+execute_script
+(
+            
+"
+"
+"
+let
+elem
+=
+document
+.
+querySelector
+(
+"
+meta
+[
+name
+=
+reftest
+-
+pages
+]
+"
+)
+;
+return
+elem
+?
+elem
+.
+content
+:
+null
+;
+"
+"
+"
+            
+new_sandbox
+=
+False
+sandbox
+=
+None
+)
+        
 margin
 =
 0
@@ -4136,13 +4188,14 @@ key
 value
 "
 )
+page_ranges
     
 def
 pdf_to_png
 (
 self
 pdf_base64
-page_ranges
+ranges
 )
 :
         
@@ -4226,7 +4279,7 @@ page_numbers
 =
 get_pages
 (
-page_ranges
+ranges
 len
 (
 rv
@@ -5991,10 +6044,6 @@ RefTestExecutor
 )
 :
     
-is_print
-=
-False
-    
 def
 __init__
 (
@@ -6700,7 +6749,6 @@ self
 test
 viewport_size
 dpi
-page_ranges
 )
 :
         
@@ -6948,15 +6996,6 @@ screenshot
 "
 :
 screenshot
-"
-isPrint
-"
-:
-self
-.
-executor
-.
-is_print
 }
         
 if
@@ -7214,14 +7253,6 @@ height
 "
 :
 600
-                                                              
-"
-pageRanges
-"
-:
-test
-.
-page_ranges
 }
 )
 [
@@ -7937,10 +7968,6 @@ MarionetteRefTestExecutor
 )
 :
     
-is_print
-=
-True
-    
 def
 __init__
 (
@@ -7978,10 +8005,6 @@ capabilities
 =
 None
 debug
-=
-False
-                 
-reftest_internal
 =
 False
 *
@@ -8037,7 +8060,7 @@ reftest_screenshot
                                            
 reftest_internal
 =
-reftest_internal
+False
                                            
 ccov
 =
@@ -8079,17 +8102,6 @@ setup
 runner
 )
         
-if
-not
-isinstance
-(
-self
-.
-implementation
-InternalRefTestImplementation
-)
-:
-            
 self
 .
 protocol
@@ -8101,34 +8113,12 @@ load_runner
 )
     
 def
-get_implementation
-(
-self
-reftest_internal
-)
-:
-        
-return
-(
-InternalRefTestImplementation
-if
-reftest_internal
-                
-else
-RefTestImplementation
-)
-(
-self
-)
-    
-def
 screenshot
 (
 self
 test
 viewport_size
 dpi
-page_ranges
 )
 :
         
@@ -8187,17 +8177,6 @@ test_url
 self
 .
 test_url
-(
-test
-)
-        
-self
-.
-page_ranges
-=
-page_ranges
-.
-get
 (
 test
 )
@@ -8264,6 +8243,7 @@ True
 )
         
 pdf
+page_ranges
 =
 protocol
 .
@@ -8286,8 +8266,6 @@ pdf_print
 pdf_to_png
 (
 pdf
-self
-.
 page_ranges
 )
         

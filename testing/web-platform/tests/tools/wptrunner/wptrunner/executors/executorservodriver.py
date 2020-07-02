@@ -1574,7 +1574,6 @@ self
 test
 viewport_size
 dpi
-page_ranges
 )
 :
         

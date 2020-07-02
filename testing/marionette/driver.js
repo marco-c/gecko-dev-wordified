@@ -24049,9 +24049,6 @@ screenshot
 "
 unexpected
 "
-isPrint
-=
-false
 }
 =
 cmd
@@ -24123,7 +24120,6 @@ setup
 (
 urlCount
 screenshot
-isPrint
 )
 ;
 }
@@ -24157,7 +24153,6 @@ expected
 timeout
 width
 height
-pageRanges
 }
 =
 cmd
@@ -24225,7 +24220,6 @@ test
 references
 expected
 timeout
-pageRanges
 width
 height
 )
