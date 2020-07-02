@@ -3742,6 +3742,7 @@ loadingPrincipal
 [
 infallible
 ]
+readonly
 attribute
 boolean
 isInThirdPartyContext
