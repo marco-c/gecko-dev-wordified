@@ -8777,12 +8777,14 @@ WidgetMouseEvent
 eReal
 &
 &
-oldRemote
-&
-&
 remote
 !
 =
+oldRemote
+)
+{
+if
+(
 oldRemote
 )
 {
@@ -8811,6 +8813,7 @@ SendRealMouseEvent
 mouseExitEvent
 )
 ;
+}
 if
 (
 mouseEvent
