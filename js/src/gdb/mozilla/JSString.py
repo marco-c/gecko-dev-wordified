@@ -341,11 +341,6 @@ get_header_length_and_flags
 self
 .
 value
-[
-'
-header_
-'
-]
 )
         
 corrupt
