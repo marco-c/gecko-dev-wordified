@@ -1103,6 +1103,17 @@ decode_frame_contents
 mut
 dec_settings
 )
+.
+map_err
+(
+|
+_
+|
+Error
+:
+:
+InvalidResumptionToken
+)
 ?
 ;
 let

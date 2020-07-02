@@ -108,7 +108,10 @@ neqo_common
 qlog
 :
 :
+{
+handle_qlog_result
 NeqoQlog
+}
 ;
 use
 qlog
@@ -127,7 +130,7 @@ pub
 fn
 qpack_read_insert_count_increment_instruction
 (
-qlog
+maybe_qlog
 :
 &
 mut
@@ -160,7 +163,7 @@ Some
 qlog
 )
 =
-qlog
+maybe_qlog
 {
 let
 event
@@ -200,6 +203,9 @@ data
 )
 )
 ;
+let
+res
+=
 qlog
 .
 stream
@@ -210,7 +216,12 @@ add_event
 (
 event
 )
-?
+;
+handle_qlog_result
+(
+maybe_qlog
+res
+)
 ;
 }
 Ok

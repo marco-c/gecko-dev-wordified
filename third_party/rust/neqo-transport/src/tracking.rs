@@ -469,6 +469,14 @@ pub
 struct
 SentPacket
 {
+pub
+pt
+:
+PacketType
+pub
+pn
+:
+u64
 ack_eliciting
 :
 bool
@@ -522,6 +530,12 @@ pub
 fn
 new
 (
+pt
+:
+PacketType
+pn
+:
+u64
 time_sent
 :
 Instant
@@ -550,6 +564,8 @@ Self
 {
 Self
 {
+pt
+pn
 time_sent
 ack_eliciting
 tokens
