@@ -138,6 +138,13 @@ AlreadyAddRefed
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {
