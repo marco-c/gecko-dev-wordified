@@ -3576,11 +3576,6 @@ aApplicable
 )
 ;
 void
-UnparentChildren
-(
-)
-;
-void
 LastRelease
 (
 )
