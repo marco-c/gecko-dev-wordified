@@ -13529,7 +13529,7 @@ limits
 .
 initial
 >
-MaxTableInitialLength
+MaxTableLimitField
 |
 |
 (
@@ -13551,7 +13551,7 @@ value
 (
 )
 >
-MaxTableLength
+MaxTableLimitField
 )
 )
 )
@@ -13617,7 +13617,7 @@ range
 .
 static_assert
 (
-MaxTableLength
+MaxTableLimitField
 <
 =
 UINT32_MAX

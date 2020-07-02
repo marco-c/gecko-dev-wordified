@@ -3351,6 +3351,13 @@ MaxElemSegmentLength
 static
 const
 unsigned
+MaxTableLimitField
+=
+UINT32_MAX
+;
+static
+const
+unsigned
 MaxTableLength
 =
 10000000
@@ -3468,13 +3475,6 @@ WebAssembly
 implementation
 only
 .
-static
-const
-unsigned
-MaxTableInitialLength
-=
-10000000
-;
 static
 const
 unsigned
