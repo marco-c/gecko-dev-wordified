@@ -13,9 +13,6 @@ async
 -
 -
 AggregateError
-Promise
-.
-any
 is
 not
 released
