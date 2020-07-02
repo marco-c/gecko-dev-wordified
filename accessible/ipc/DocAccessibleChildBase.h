@@ -434,6 +434,15 @@ mDoc
 bool
 mIsRemoteConstructed
 ;
+friend
+void
+DocAccessible
+:
+:
+DoInitialUpdate
+(
+)
+;
 }
 ;
 }
