@@ -307,8 +307,6 @@ sw
 .
 principal
 .
-URI
-.
 host
 =
 =

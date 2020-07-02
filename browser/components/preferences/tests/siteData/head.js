@@ -1360,8 +1360,6 @@ push
 (
 principal
 .
-URI
-.
 host
 )
 ;
