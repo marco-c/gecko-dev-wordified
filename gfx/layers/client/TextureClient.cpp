@@ -6325,7 +6325,7 @@ labeling
 .
 if
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 target
 =
@@ -6443,7 +6443,7 @@ GetNextExternalImageId
 (
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 target
 =

@@ -2731,7 +2731,7 @@ GetCompositorBridgeChild
 (
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 GetEventTarget
 (
@@ -2928,7 +2928,7 @@ objects
 /
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mEventTarget
 ;

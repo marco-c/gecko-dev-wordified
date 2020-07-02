@@ -2256,7 +2256,7 @@ CreateVRLayer
 (
 uint32_t
 aDisplayID
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 uint32_t
