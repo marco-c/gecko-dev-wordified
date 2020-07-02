@@ -136,7 +136,7 @@ property
 >
 {
 const
-item
+targetComponent
 =
 shallow
 (
@@ -202,7 +202,7 @@ nightly
 ;
 expect
 (
-item
+targetComponent
 )
 .
 toMatchSnapshot
@@ -229,7 +229,7 @@ property
 >
 {
 const
-item
+targetComponent
 =
 shallow
 (
@@ -273,7 +273,7 @@ unsupportedBrowsers
 ;
 expect
 (
-item
+targetComponent
 )
 .
 toMatchSnapshot
@@ -300,7 +300,7 @@ property
 >
 {
 const
-item
+targetComponent
 =
 shallow
 (
@@ -344,7 +344,7 @@ unsupportedBrowsers
 ;
 expect
 (
-item
+targetComponent
 )
 .
 toMatchSnapshot
@@ -373,7 +373,7 @@ experimental
 >
 {
 const
-item
+targetComponent
 =
 shallow
 (
@@ -417,7 +417,7 @@ unsupportedBrowsers
 ;
 expect
 (
-item
+targetComponent
 )
 .
 toMatchSnapshot
@@ -447,7 +447,7 @@ issue
 >
 {
 const
-item
+targetComponent
 =
 shallow
 (
@@ -512,7 +512,7 @@ nodeType
 ;
 expect
 (
-item
+targetComponent
 )
 .
 toMatchSnapshot
