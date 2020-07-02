@@ -177,7 +177,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 h
 "
@@ -1572,7 +1572,7 @@ in
 the
 /
 /
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 if
 (
@@ -1613,7 +1613,7 @@ nsIInputStream
 >
 stream
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get

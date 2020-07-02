@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_IPCBlobInputStreamStorage_h
+mozilla_dom_RemoteLazyInputStreamStorage_h
 #
 define
-mozilla_dom_IPCBlobInputStreamStorage_h
+mozilla_dom_RemoteLazyInputStreamStorage_h
 #
 include
 "
@@ -159,7 +159,7 @@ class
 IPCBlobInputStreamParentCallback
 ;
 class
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 final
 :
 public
@@ -193,7 +193,7 @@ Initialize
 )
 ;
 static
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 *
 Get
 (
@@ -308,14 +308,14 @@ aID
 ;
 private
 :
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 (
 )
 =
 default
 ;
 ~
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 (
 )
 =
@@ -399,4 +399,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_IPCBlobInputStreamStorage_h
+mozilla_dom_RemoteLazyInputStreamStorage_h
