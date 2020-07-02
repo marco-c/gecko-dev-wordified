@@ -74,6 +74,9 @@ layer
 uses
 .
 use
+crate
+:
+:
 gecko_bindings
 :
 :

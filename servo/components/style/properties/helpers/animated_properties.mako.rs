@@ -378,6 +378,9 @@ nsCSSPropertyID
 TransitionProperty
 {
 use
+crate
+:
+:
 properties
 :
 :
