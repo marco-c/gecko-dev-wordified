@@ -2751,10 +2751,6 @@ sessionHistoryInfo
 uint64_t
 loadIdentifier
 ;
-nsCString
-?
-originalUriString
-;
 }
 ;
 struct

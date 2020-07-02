@@ -482,13 +482,6 @@ SaveStorageAccessPermissionGranted
 (
 )
 ;
-async
-AddBlockedFrameNodeByClassifier
-(
-MaybeDiscardedBrowsingContext
-aNode
-)
-;
 both
 :
 async
