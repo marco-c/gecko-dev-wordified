@@ -4888,12 +4888,6 @@ CloneWithNewOriginalReferrer
 mDocumentURI
 )
 ;
-RefPtr
-<
-PreloaderBase
->
-preload
-=
 mDocument
 -
 >
