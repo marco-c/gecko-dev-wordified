@@ -241,9 +241,6 @@ _contentPrincipal
 "
 _isSyntheticDocument
 "
-"
-_innerWindowID
-"
 ]
 ;
 /
@@ -835,14 +832,6 @@ _isSyntheticDocument
 outer
 .
 _isSyntheticDocument
-;
-inner
-.
-_innerWindowID
-=
-outer
-.
-_innerWindowID
 ;
 inner
 .
