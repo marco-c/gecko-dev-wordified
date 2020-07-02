@@ -683,16 +683,10 @@ HasFontSizeInflation
 const
 {
 return
+HasAnyStateBits
 (
-GetStateBits
-(
-)
-&
 BULLET_FRAME_HAS_FONT_INFLATION
 )
-!
-=
-0
 ;
 }
 void

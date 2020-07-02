@@ -8019,11 +8019,10 @@ ascent
 ;
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 BULLET_FRAME_IMAGE_LOADING
+)
 )
 {
 ascent
@@ -8079,11 +8078,10 @@ ascent
 ;
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 BULLET_FRAME_IMAGE_LOADING
+)
 )
 {
 ascent
