@@ -170,11 +170,6 @@ FileManager
 :
 AutoLock
 ;
-using
-IdType
-=
-int64_t
-;
 FileInfoT
 (
 const
@@ -240,7 +235,7 @@ Manager
 )
 const
 ;
-IdType
+int64_t
 Id
 (
 )
@@ -290,7 +285,7 @@ Cleanup
 )
 ;
 const
-IdType
+int64_t
 mFileId
 ;
 ThreadSafeAutoRefCnt
