@@ -290,9 +290,7 @@ walker
 =
 nodeFront
 .
-getParent
-(
-)
+walkerFront
 ;
 dispatch
 (
@@ -377,9 +375,7 @@ walker
 =
 nodeFront
 .
-getParent
-(
-)
+walkerFront
 ;
 await
 walker
