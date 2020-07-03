@@ -6984,15 +6984,6 @@ rt
 >
 addTelemetry
 (
-JS_TELEMETRY_GC_PRETENURE_COUNT
-pretenureCount
-)
-;
-rt
--
->
-addTelemetry
-(
 JS_TELEMETRY_GC_PRETENURE_COUNT_2
 pretenureCount
 )
