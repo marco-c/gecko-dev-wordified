@@ -424,6 +424,17 @@ default
 ;
 virtual
 void
+runTaskLocked
+(
+AutoLockHelperThreadState
+&
+locked
+)
+=
+0
+;
+virtual
+void
 cancel
 (
 )
