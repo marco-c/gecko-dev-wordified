@@ -2397,14 +2397,14 @@ RefPtr
 <
 BlobImpl
 >
-blobImppl
+blobImpl
 =
 aBlobImpl
 ;
 nsAutoString
 contentType
 ;
-blobImppl
+blobImpl
 -
 >
 GetType
@@ -2441,7 +2441,7 @@ nullptr
 ;
 if
 (
-blobImppl
+blobImpl
 -
 >
 IsFile
@@ -2452,7 +2452,7 @@ IsFile
 nsAutoString
 filename
 ;
-blobImppl
+blobImpl
 -
 >
 GetName
@@ -2488,7 +2488,7 @@ errorResult
 ;
 mBlobSize
 =
-blobImppl
+blobImpl
 -
 >
 GetSize
@@ -2530,7 +2530,7 @@ nsIInputStream
 >
 inputStream
 ;
-blobImppl
+blobImpl
 -
 >
 CreateInputStream
