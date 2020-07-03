@@ -124,10 +124,14 @@ BROWSERTIME_PAGELOAD_OUTPUT_TIMEOUT
 minutes
 BROWSERTIME_BENCHMARK_OUTPUT_TIMEOUT
 =
-900
+None
 #
-15
-minutes
+Disable
+output
+timeout
+for
+benchmark
+tests
 class
 Browsertime
 (
