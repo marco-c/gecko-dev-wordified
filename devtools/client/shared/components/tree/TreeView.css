@@ -60,13 +60,13 @@ import
 url
 (
 '
-chrome
+resource
 :
 /
 /
 devtools
 /
-content
+client
 /
 shared
 /
