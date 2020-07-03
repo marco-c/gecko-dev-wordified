@@ -3504,7 +3504,7 @@ actor
 =
 webConsole
 .
-actor
+getActorByID
 (
 options
 .
@@ -3516,7 +3516,7 @@ webConsole
 .
 parentActor
 .
-actor
+getActorByID
 (
 options
 .

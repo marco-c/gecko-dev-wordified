@@ -1207,7 +1207,7 @@ pool
 return
 pool
 .
-get
+getActorByID
 (
 actorID
 )

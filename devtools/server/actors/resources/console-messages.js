@@ -1700,7 +1700,7 @@ tableItemActor
 =
 targetActor
 .
-actor
+getActorByID
 (
 tableItemGrip
 .
@@ -1890,7 +1890,7 @@ grip
 &
 targetActor
 .
-actor
+getActorByID
 (
 grip
 .
