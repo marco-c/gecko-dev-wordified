@@ -137,7 +137,6 @@ task_description_schema
 from
 voluptuous
 import
-Required
 Optional
 release_generate_checksums_signing_schema
 =
@@ -146,24 +145,6 @@ schema
 extend
 (
 {
-    
-Required
-(
-'
-depname
-'
-default
-=
-'
-release
--
-generate
--
-checksums
-'
-)
-:
-text_type
     
 Optional
 (

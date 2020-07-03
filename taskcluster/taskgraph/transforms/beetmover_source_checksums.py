@@ -142,7 +142,6 @@ task_description_schema
 from
 voluptuous
 import
-Required
 Optional
 beetmover_checksums_description_schema
 =
@@ -151,20 +150,6 @@ schema
 extend
 (
 {
-    
-Required
-(
-'
-depname
-'
-default
-=
-'
-build
-'
-)
-:
-text_type
     
 Optional
 (
