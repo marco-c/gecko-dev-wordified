@@ -224,17 +224,32 @@ object
 "
     
 for
+event
+in
+events
+:
+        
+#
+The
+event
+may
+optionally
+contain
+additonal
+fields
+        
 [
 timestamp
 category
 method
 object_id
-value
-extra
 ]
-in
-events
+=
+event
+[
 :
+4
+]
         
 assert
 timestamp
