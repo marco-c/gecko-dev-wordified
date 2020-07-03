@@ -16336,6 +16336,13 @@ dwrite
 h
 >
 #
+include
+"
+nsWindowsHelpers
+.
+h
+"
+#
 ifdef
 DEBUG_DWRITE_STARTUP
 #
@@ -16457,7 +16464,7 @@ dll
 HMODULE
 dwdll
 =
-LoadLibraryW
+LoadLibrarySystem32
 (
 L
 "
