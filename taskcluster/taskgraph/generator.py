@@ -2317,14 +2317,6 @@ target_tasks
 )
 )
         
-requested_tasks
-=
-target_tasks
-|
-docker_image_tasks
-|
-always_target_tasks
-        
 target_graph
 =
 full_task_graph
@@ -2333,7 +2325,12 @@ graph
 .
 transitive_closure
 (
-requested_tasks
+            
+target_tasks
+|
+docker_image_tasks
+|
+always_target_tasks
 )
         
 target_task_graph
@@ -2495,8 +2492,6 @@ optimize_task_graph
 (
             
 target_task_graph
-            
-requested_tasks
             
 parameters
             
