@@ -9250,6 +9250,9 @@ nsCString
 aTrackingOrigin
 int
 aAllowMode
+StorageAccessPermissionGrantedReason
+?
+aReason
 )
 returns
 (
