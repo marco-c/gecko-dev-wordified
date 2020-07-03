@@ -348,8 +348,6 @@ nsresult
 aStatus
 nsresult
 aLoadGroupReason
-bool
-aSwitchedProcess
 )
 ;
 /
