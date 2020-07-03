@@ -924,6 +924,9 @@ cwd
 env
 =
 use_env
+close_fds
+=
+False
 )
             
 status
