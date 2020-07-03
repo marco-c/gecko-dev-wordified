@@ -3847,10 +3847,9 @@ aCx
 this
 nullptr
 )
-;
-MOZ_ASSERT
+.
+unwrap
 (
-request
 )
 ;
 BackgroundDatabaseRequestChild

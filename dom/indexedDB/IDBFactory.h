@@ -1080,8 +1080,15 @@ aRv
 nsresult
 InitiateRequest
 (
+const
+NotNull
+<
+RefPtr
+<
 IDBOpenDBRequest
-*
+>
+>
+&
 aRequest
 const
 indexedDB
