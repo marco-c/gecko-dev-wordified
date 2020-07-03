@@ -680,6 +680,9 @@ true
 /
 Unknown
 file
+and
+unknown
+directory
 in
 sdb
 client
@@ -744,6 +747,15 @@ request
 )
 ;
 createUnknownFileIn
+(
+{
+originRelativePath
+}
+/
+sdb
+)
+;
+createUnknownDirectoryIn
 (
 {
 originRelativePath
