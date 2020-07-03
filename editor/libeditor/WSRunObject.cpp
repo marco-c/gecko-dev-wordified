@@ -10088,10 +10088,8 @@ visible
 /
 content
 .
-for
-(
 EditorDOMPointInText
-atEndOfPreviousTextNode
+afterLastWhiteSpace
 =
 EditorDOMPointInText
 :
@@ -10105,6 +10103,13 @@ ContainerAsText
 (
 )
 )
+;
+for
+(
+EditorDOMPointInText
+atEndOfPreviousTextNode
+=
+afterLastWhiteSpace
 ;
 ;
 )
@@ -10145,7 +10150,7 @@ text
 node
 .
 return
-atEndOfPreviousTextNode
+afterLastWhiteSpace
 ;
 }
 /
@@ -10206,7 +10211,7 @@ IsCharASCIISpace
 )
 {
 return
-atEndOfPreviousTextNode
+afterLastWhiteSpace
 ;
 }
 /
@@ -10273,6 +10278,8 @@ Try
 next
 one
 .
+afterLastWhiteSpace
+=
 atEndOfPreviousTextNode
 =
 EditorDOMPointInText
@@ -10446,10 +10453,8 @@ visible
 /
 content
 .
-for
-(
 EditorDOMPointInText
-atStartOfPreviousTextNode
+atLastWhiteSpace
 =
 EditorDOMPointInText
 (
@@ -10460,6 +10465,13 @@ ContainerAsText
 )
 0
 )
+;
+for
+(
+EditorDOMPointInText
+atStartOfPreviousTextNode
+=
+atLastWhiteSpace
 ;
 ;
 )
@@ -10499,7 +10511,7 @@ text
 node
 .
 return
-atStartOfPreviousTextNode
+atLastWhiteSpace
 ;
 }
 /
@@ -10560,7 +10572,7 @@ IsCharASCIISpace
 )
 {
 return
-atStartOfPreviousTextNode
+atLastWhiteSpace
 ;
 }
 /
@@ -10616,6 +10628,8 @@ Try
 next
 one
 .
+atLastWhiteSpace
+=
 atStartOfPreviousTextNode
 =
 EditorDOMPointInText
