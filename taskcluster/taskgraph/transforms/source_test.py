@@ -129,6 +129,8 @@ import
 resolve_keyed_by
     
 optionally_keyed_by
+    
+Schema
 )
 from
 taskgraph
@@ -151,8 +153,6 @@ Extra
 Optional
     
 Required
-    
-Schema
 )
 source_test_description_schema
 =
