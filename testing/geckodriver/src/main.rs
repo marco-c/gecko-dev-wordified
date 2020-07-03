@@ -1239,7 +1239,7 @@ extension_routes
 )
 ?
 ;
-debug
+info
 !
 (
 "
