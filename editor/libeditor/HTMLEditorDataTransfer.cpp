@@ -1939,7 +1939,7 @@ streamEndPoint
 HTMLEditor
 :
 :
-CollectTopMostChildNodesCompletelyInRange
+CollectTopMostChildContentsCompletelyInRange
 (
 EditorRawDOMPoint
 (
@@ -20033,7 +20033,7 @@ void
 HTMLEditor
 :
 :
-CollectTopMostChildNodesCompletelyInRange
+CollectTopMostChildContentsCompletelyInRange
 (
 const
 EditorRawDOMPoint

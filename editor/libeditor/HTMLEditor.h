@@ -30141,7 +30141,7 @@ range
 /
 static
 void
-CollectTopMostChildNodesCompletelyInRange
+CollectTopMostChildContentsCompletelyInRange
 (
 const
 EditorRawDOMPoint
@@ -30173,7 +30173,7 @@ edges
 of
 topmost
 child
-nodes
+contents
 *
 which
 are
@@ -30205,7 +30205,7 @@ out
 The
 topmost
 child
-nodes
+contents
 which
 will
 be
@@ -30239,7 +30239,7 @@ whether
 they
 can
 be
-insertted
+inserted
 into
 *
 another
