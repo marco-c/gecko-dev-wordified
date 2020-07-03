@@ -1358,11 +1358,6 @@ testing
 /
 mozbase
 '
-'
-third_party
-/
-python
-'
 ]
 if
 not
@@ -1379,6 +1374,9 @@ DIRS
 [
 '
 taskcluster
+'
+'
+third_party
 '
 ]
 if
