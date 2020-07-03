@@ -1209,6 +1209,9 @@ fh
 for
 f
 in
+sorted
+(
+                
 itertools
 .
 chain
@@ -1219,7 +1222,7 @@ config
 CONFIG_STATUS_DEPS
 '
 ]
-                                 
+                                
 iter_modules_in_path
 (
 config
@@ -1228,13 +1231,14 @@ config
 TOPOBJDIR
 '
 ]
-                                                      
+                                                     
 config
 [
 '
 TOPSRCDIR
 '
 ]
+)
 )
 )
 :
