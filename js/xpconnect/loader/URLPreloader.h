@@ -251,9 +251,6 @@ nsReadableUtils
 .
 h
 "
-class
-nsZipArchive
-;
 namespace
 mozilla
 {
@@ -540,7 +537,7 @@ nsresult
 >
 ReadZip
 (
-nsZipArchive
+CacheAwareZipReader
 *
 archive
 const
@@ -1181,7 +1178,7 @@ return
 }
 already_AddRefed
 <
-nsZipArchive
+CacheAwareZipReader
 >
 Archive
 (
