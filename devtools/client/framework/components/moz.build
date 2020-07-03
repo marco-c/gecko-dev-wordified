@@ -90,6 +90,11 @@ DevToolsModules
 '
 DebugTargetErrorPage
 .
+css
+'
+'
+DebugTargetErrorPage
+.
 js
 '
 '
