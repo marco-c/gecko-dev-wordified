@@ -439,6 +439,14 @@ backgroundCodegen_
 codegen
 ;
 }
+void
+runTaskLocked
+(
+AutoLockHelperThreadState
+&
+locked
+)
+;
 ThreadType
 threadType
 (
