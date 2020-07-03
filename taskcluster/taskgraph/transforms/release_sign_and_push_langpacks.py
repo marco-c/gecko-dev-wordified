@@ -224,9 +224,6 @@ optionally_keyed_by
 '
 project
 '
-            
-optionally_keyed_by
-(
 '
 platform
 '
@@ -238,7 +235,6 @@ listed
 '
 unlisted
 '
-)
 )
 )
         
