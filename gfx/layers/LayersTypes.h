@@ -955,6 +955,7 @@ DIB
 X11
 MacIOSurface
 AndroidNativeWindow
+AndroidHardwareBuffer
 DMABUF
 EGLImage
 Last

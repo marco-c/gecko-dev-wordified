@@ -551,6 +551,13 @@ FxREmbedded
 bool
 false
 )
+\
+_
+(
+UseAHardwareBufferContent
+bool
+false
+)
 /
 *
 Add
