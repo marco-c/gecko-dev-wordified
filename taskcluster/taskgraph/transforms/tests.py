@@ -2271,9 +2271,12 @@ the
 task
 metadata
     
+Required
+(
 '
 description
 '
+)
 :
 text_type
     
@@ -2445,11 +2448,14 @@ in
 treeherder
 .
     
+Required
+(
 '
 treeherder
 -
 symbol
 '
+)
 :
 text_type
     
@@ -4329,11 +4335,14 @@ task
 is
 testing
     
+Required
+(
 '
 build
 -
 platform
 '
+)
 :
 text_type
     
@@ -4350,11 +4359,14 @@ materials
 to
 test
     
+Required
+(
 '
 build
 -
 label
 '
+)
 :
 text_type
     
@@ -4406,11 +4418,14 @@ build
 s
 attributes
     
+Required
+(
 '
 build
 -
 attributes
 '
+)
 :
 {
 text_type
@@ -4428,11 +4443,14 @@ tests
 will
 run
     
+Required
+(
 '
 test
 -
 platform
 '
+)
 :
 text_type
     
@@ -4498,11 +4516,14 @@ tests
 yml
 )
     
+Required
+(
 '
 test
 -
 name
 '
+)
 :
 text_type
     
@@ -4537,12 +4558,9 @@ run
     
 Exclusive
 (
-Optional
-(
 '
 when
 '
-)
 '
 optimization
 '
@@ -4594,12 +4612,9 @@ py
     
 Exclusive
 (
-Optional
-(
 '
 optimization
 '
-)
 '
 optimization
 '
@@ -4637,14 +4652,11 @@ here
     
 Exclusive
 (
-Optional
-(
 '
 schedules
 -
 component
 '
-)
 '
 optimization
 '
@@ -4812,14 +4824,20 @@ Any
 text_type
 None
 {
+Required
+(
 '
 index
 '
+)
 :
 text_type
+Required
+(
 '
 name
 '
+)
 :
 text_type
 }
@@ -4866,9 +4884,6 @@ text_type
     
 }
 }
-required
-=
-True
 )
 transforms
 .
