@@ -2489,9 +2489,9 @@ normalizeWheelEventDelta
 in
 /
 /
-browser
+toolkt
 /
-extensions
+components
 /
 pdfjs
 /

@@ -32,9 +32,9 @@ const
 RELATIVE_DIR
 =
 "
-browser
+toolkit
 /
-extensions
+components
 /
 pdfjs
 /

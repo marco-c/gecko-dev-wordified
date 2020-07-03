@@ -738,9 +738,9 @@ whitelist
 [
 /
 /
-browser
+toolkt
 /
-extensions
+components
 /
 pdfjs
 /
@@ -1524,9 +1524,9 @@ macosx
 }
 /
 /
-browser
+toolkt
 /
-extensions
+components
 /
 pdfjs
 /
