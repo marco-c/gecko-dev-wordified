@@ -8171,9 +8171,6 @@ run
 -
 time
 '
-default
-=
-600
 )
 :
 int
@@ -8852,9 +8849,6 @@ run
 -
 time
 '
-default
-=
-600
 )
 :
 int
@@ -8965,14 +8959,11 @@ paths
 text_type
 ]
         
-Required
+Optional
 (
 '
 zipExtract
 '
-default
-=
-False
 )
 :
 bool
@@ -11063,7 +11054,7 @@ tree
 :
 bool
     
-Required
+Optional
 (
 '
 force
@@ -11072,21 +11063,15 @@ dry
 -
 run
 '
-default
-=
-True
 )
 :
 bool
     
-Required
+Optional
 (
 '
 push
 '
-default
-=
-False
 )
 :
 bool

@@ -449,16 +449,13 @@ the
 gecko
 checkout
         
-Required
+Optional
 (
 '
 comm
 -
 checkout
 '
-default
-=
-False
 )
 :
 bool
@@ -691,21 +688,16 @@ for
 now
 .
     
-Required
+Optional
 (
 '
 docker
 -
 image
 '
-default
-=
-None
 )
 :
 _by_platform
-(
-Any
 (
         
 #
@@ -736,10 +728,7 @@ tree
 :
 text_type
 }
-        
-None
     
-)
 )
     
 Optional
@@ -839,14 +828,11 @@ on
 #
 Windows
     
-Required
+Optional
 (
 '
 secrets
 '
-default
-=
-False
 )
 :
 _by_platform

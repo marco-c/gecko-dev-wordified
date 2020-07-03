@@ -265,14 +265,11 @@ on
 #
 Windows
     
-Required
+Optional
 (
 '
 secrets
 '
-default
-=
-False
 )
 :
 Any

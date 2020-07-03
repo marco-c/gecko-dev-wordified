@@ -516,16 +516,13 @@ the
 gecko
 checkout
         
-Required
+Optional
 (
 '
 comm
 -
 checkout
 '
-default
-=
-False
 )
 :
 bool
