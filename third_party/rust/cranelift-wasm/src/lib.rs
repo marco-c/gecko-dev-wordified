@@ -490,6 +490,13 @@ TableElementType
 TableIndex
 }
 ;
+pub
+use
+cranelift_frontend
+:
+:
+FunctionBuilder
+;
 /
 /
 /

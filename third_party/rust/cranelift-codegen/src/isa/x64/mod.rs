@@ -284,6 +284,7 @@ new
 func
 flags
 )
+?
 )
 ;
 compile

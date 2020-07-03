@@ -1248,6 +1248,13 @@ object
 with
 finish
 .
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Builder

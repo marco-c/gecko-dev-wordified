@@ -534,6 +534,9 @@ for
 RelocDistance
 ]
 (
+crate
+:
+:
 machinst
 :
 :

@@ -2982,6 +2982,9 @@ for
 RelocDistance
 ]
 (
+crate
+:
+:
 machinst
 :
 :

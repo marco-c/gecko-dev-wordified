@@ -3013,6 +3013,9 @@ false
 enable_jump_tables
 =
 true
+enable_heap_access_spectre_mitigation
+=
+true
 "
 #
 )

@@ -1346,6 +1346,10 @@ FuncEnvironment
 :
 make_table
 .
+pub
+(
+crate
+)
 tables
 :
 HashMap
@@ -3124,7 +3128,7 @@ pub
 crate
 )
 fn
-get_table
+get_or_create_table
 <
 FE
 :
