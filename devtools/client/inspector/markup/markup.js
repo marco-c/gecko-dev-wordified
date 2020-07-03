@@ -7132,6 +7132,16 @@ nodeType
 =
 nodeConstants
 .
+DOCUMENT_NODE
+|
+|
+nodeFront
+.
+nodeType
+=
+=
+nodeConstants
+.
 DOCUMENT_TYPE_NODE
 |
 |
