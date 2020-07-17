@@ -450,14 +450,6 @@ FLOAT
 =
 >
 4
-ffi
-:
-:
-UNSIGNED_INT_8_8_8_8_REV
-=
->
-return
-4
 _
 =
 >
