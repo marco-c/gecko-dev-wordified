@@ -1343,6 +1343,7 @@ UnwrapAndTypeCheckThis
 JSContext
 *
 cx
+const
 CallArgs
 &
 args
