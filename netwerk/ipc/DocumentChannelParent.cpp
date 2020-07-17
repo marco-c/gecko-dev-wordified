@@ -678,7 +678,6 @@ aRejectValue
 {
 if
 (
-!
 self
 -
 >
@@ -687,9 +686,6 @@ CanSend
 )
 )
 {
-return
-;
-}
 Unused
 <
 <
@@ -704,8 +700,12 @@ mStatus
 aRejectValue
 .
 mLoadGroupStatus
+aRejectValue
+.
+mSwitchedProcess
 )
 ;
+}
 self
 -
 >
