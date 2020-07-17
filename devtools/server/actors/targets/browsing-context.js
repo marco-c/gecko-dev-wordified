@@ -7317,9 +7317,6 @@ onStyleSheetParsed
 getSheetText
 (
 sheet
-this
-.
-_consoleActor
 )
 .
 then
