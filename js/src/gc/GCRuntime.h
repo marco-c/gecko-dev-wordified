@@ -4908,6 +4908,17 @@ AutoLockGC
 lock
 )
 ;
+IncrementalProgress
+waitForBackgroundTask
+(
+GCParallelTask
+&
+task
+SliceBudget
+&
+budget
+)
+;
 void
 maybeRequestGCAfterBackgroundTask
 (
