@@ -1925,6 +1925,11 @@ notificationTimeout
 reportErrorOnTimeout
 :
 true
+logger
+:
+this
+.
+logger
 }
 )
 ;
