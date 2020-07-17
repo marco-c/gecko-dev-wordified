@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsPoint
+nsRect
 .
 h
 "
@@ -154,9 +154,6 @@ h
 "
 class
 nsIFrame
-;
-struct
-nsRect
 ;
 /
 *
