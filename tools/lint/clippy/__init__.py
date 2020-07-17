@@ -226,14 +226,14 @@ p
 =
 detail
 [
-'
+"
 target
-'
+"
 ]
 [
-'
+"
 src_path
-'
+"
 ]
                 
 detail
@@ -255,7 +255,7 @@ detail
                     
 if
 (
-(
+                        
 detail
 [
 "
@@ -281,8 +281,8 @@ failure
 -
 note
 "
+                    
 )
-                        
 and
 not
 detail
@@ -291,13 +291,13 @@ detail
 code
 "
 ]
-)
 :
                         
 log
 .
 debug
 (
+                            
 "
 Error
 outside
@@ -305,7 +305,7 @@ of
 clippy
 .
 "
-                                  
+                            
 "
 This
 means
@@ -318,6 +318,7 @@ Therefore
 skipping
 this
 "
+                        
 )
                         
 log
@@ -456,6 +457,7 @@ log
 .
 debug
 (
+                            
 "
 Skipping
 the
@@ -474,6 +476,7 @@ format
 detail
 p
 )
+                        
 )
                         
 continue
@@ -520,6 +523,7 @@ log
 .
 debug
 (
+                            
 "
 {
 }
@@ -542,6 +546,7 @@ format
 p
 onlyIn
 )
+                        
 )
                         
 continue
@@ -917,7 +922,6 @@ log
 .
 debug
 (
-        
 "
 Found
 version
@@ -928,11 +932,8 @@ version
 .
 format
 (
-            
 output
-        
 )
-    
 )
     
 version
@@ -942,7 +943,7 @@ re
 findall
 (
 r
-'
+"
 (
 \
 d
@@ -956,7 +957,7 @@ d
 d
 +
 )
-'
+"
 output
 )
 [
@@ -1180,9 +1181,9 @@ CARGO_NOT_FOUND
 )
         
 if
-'
+"
 MOZ_AUTOMATION
-'
+"
 in
 os
 .
@@ -1202,9 +1203,9 @@ config
 .
 get
 (
-'
+"
 min_clippy_version
-'
+"
 )
     
 min_version
@@ -1306,11 +1307,11 @@ cmd_args_clippy
         
 cargo
         
-'
+"
 clippy
-'
+"
         
-'
+"
 -
 -
 message
@@ -1318,7 +1319,7 @@ message
 format
 =
 json
-'
+"
     
 ]
     
@@ -1342,11 +1343,11 @@ path
 join
 (
 p
-'
+"
 Cargo
 .
 lock
-'
+"
 )
         
 if
@@ -1578,17 +1579,17 @@ cargo_files
 =
 get_ancestors_by_name
 (
-'
+"
 Cargo
 .
 toml
-'
+"
 p
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
         

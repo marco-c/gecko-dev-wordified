@@ -87,9 +87,9 @@ logger
 PerfDocLogger
 (
 )
-'
-'
-'
+"
+"
+"
 Schema
 for
 the
@@ -182,9 +182,9 @@ wasm
 tests
 .
 "
-'
-'
-'
+"
+"
+"
 CONFIG_SCHEMA
 =
 {
@@ -290,7 +290,6 @@ properties
 "
 :
 {
-                                
 "
 test_name
 "
@@ -304,7 +303,6 @@ type
 string
 "
 }
-                            
 }
                         
 }
@@ -330,11 +328,9 @@ required
 "
 :
 [
-                        
 "
 description
 "
-                    
 ]
                 
 }
@@ -350,19 +346,15 @@ required
 "
 :
 [
-        
 "
 name
 "
-        
 "
 manifest
 "
-        
 "
 suites
 "
-    
 ]
 }
 class
@@ -372,9 +364,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Verifier
 is
@@ -418,9 +410,9 @@ a
 document
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -431,9 +423,9 @@ workspace_dir
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 the
@@ -469,9 +461,9 @@ checkout
 directory
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -497,9 +489,9 @@ framework_info
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Cross
 -
@@ -661,17 +653,17 @@ its
 structure
 .
         
-'
-'
-'
+"
+"
+"
         
 yaml_content
 =
 framework_info
 [
-'
+"
 yml_content
-'
+"
 ]
         
 #
@@ -700,9 +692,9 @@ ytests
 in
 yaml_content
 [
-'
+"
 suites
-'
+"
 ]
 .
 items
@@ -793,9 +785,9 @@ ytests
 =
 ytests
 [
-'
+"
 tests
-'
+"
 ]
                 
 for
@@ -991,7 +983,9 @@ name
 .
 format
 (
+                        
 suite
+                    
 )
                     
 framework_info
@@ -1074,9 +1068,9 @@ suite
                     
 yaml_content
 [
-'
+"
 manifest
-'
+"
 ]
                 
 )
@@ -1121,9 +1115,9 @@ stests
 =
 yaml_content
 [
-'
+"
 suites
-'
+"
 ]
 [
 suite
@@ -1131,9 +1125,9 @@ suite
 .
 get
 (
-'
+"
 tests
-'
+"
 None
 )
             
@@ -1407,9 +1401,9 @@ yaml_path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Validate
 that
@@ -1469,9 +1463,9 @@ Passed
 Failed
 Validation
         
-'
-'
-'
+"
+"
+"
         
 def
 _get_description
@@ -1480,9 +1474,9 @@ desc
 )
 :
             
-'
-'
-'
+"
+"
+"
             
 Recompute
 the
@@ -1496,9 +1490,9 @@ a
 file
 .
             
-'
-'
-'
+"
+"
+"
             
 desc_path
 =
@@ -1529,9 +1523,9 @@ with
 open
 (
 desc_path
-'
+"
 r
-'
+"
 )
 as
 f
@@ -1570,16 +1564,16 @@ desc
 =
 sinfo
 [
-'
+"
 description
-'
+"
 ]
                 
 sinfo
 [
-'
+"
 description
-'
+"
 ]
 =
 _get_description
@@ -1614,9 +1608,9 @@ them
 .
                 
 if
-'
+"
 tests
-'
+"
 in
 sinfo
 :
@@ -1627,9 +1621,9 @@ desc
 in
 sinfo
 [
-'
+"
 tests
-'
+"
 ]
 .
 items
@@ -1639,9 +1633,9 @@ items
                         
 sinfo
 [
-'
+"
 tests
-'
+"
 ]
 [
 test
@@ -1682,9 +1676,9 @@ _parse_descriptions
 (
 yaml_content
 [
-'
+"
 suites
-'
+"
 ]
 )
             
@@ -1702,7 +1696,6 @@ logger
 .
 warning
 (
-                
 "
 YAML
 ValidationError
@@ -1719,7 +1712,6 @@ e
 )
 )
 yaml_path
-            
 )
         
 return
@@ -1733,9 +1725,9 @@ rst_path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Validate
 that
@@ -1786,9 +1778,9 @@ Passed
 Failed
 Validation
         
-'
-'
-'
+"
+"
+"
         
 rst_content
 =
@@ -1833,7 +1825,7 @@ re
 .
 compile
 (
-'
+"
 .
 *
 {
@@ -1841,7 +1833,7 @@ documentation
 }
 .
 *
-'
+"
 )
         
 for
@@ -1907,9 +1899,9 @@ item
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Helper
 method
@@ -1917,9 +1909,9 @@ for
 validating
 descriptions
         
-'
-'
-'
+"
+"
+"
         
 framework_info
 =
@@ -1946,9 +1938,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Validate
 the
@@ -1983,9 +1975,9 @@ Passed
 Failed
 Validation
         
-'
-'
-'
+"
+"
+"
         
 found_good
 =
@@ -2035,15 +2027,15 @@ join
 (
 matched
 [
-'
+"
 path
-'
+"
 ]
 matched
 [
-'
+"
 yml
-'
+"
 ]
 )
             
@@ -2057,15 +2049,15 @@ join
 (
 matched
 [
-'
+"
 path
-'
+"
 ]
 matched
 [
-'
+"
 rst
-'
+"
 ]
 )
             

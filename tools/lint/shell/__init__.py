@@ -177,7 +177,7 @@ e
             
 print
 (
-'
+"
 Unable
 to
 load
@@ -190,7 +190,7 @@ output
 :
 {
 }
-'
+"
 .
 format
 (
@@ -211,67 +211,67 @@ res
 =
 {
                 
-'
+"
 path
-'
+"
 :
 entry
 [
-'
+"
 file
-'
+"
 ]
                 
-'
+"
 message
-'
+"
 :
 entry
 [
-'
+"
 message
-'
+"
 ]
                 
-'
+"
 level
-'
+"
 :
-'
+"
 error
-'
+"
                 
-'
+"
 lineno
-'
+"
 :
 entry
 [
-'
+"
 line
-'
+"
 ]
                 
-'
+"
 column
-'
+"
 :
 entry
 [
-'
+"
 column
-'
+"
 ]
                 
-'
+"
 rule
-'
+"
 :
 entry
 [
-'
+"
 code
-'
+"
 ]
             
 }
@@ -354,9 +354,9 @@ with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 f
@@ -376,10 +376,10 @@ head
 .
 startswith
 (
-'
+"
 #
 !
-'
+"
 )
 :
             
@@ -421,9 +421,9 @@ bin
 env
         
 if
-'
+"
 env
-'
+"
 in
 shebang
 :
@@ -444,9 +444,9 @@ shebang
 .
 endswith
 (
-'
+"
 sh
-'
+"
 )
 :
             
@@ -466,17 +466,17 @@ shebang
 .
 strip
 (
-'
+"
 #
 !
-'
+"
 )
 .
 split
 (
-'
+"
 /
-'
+"
 )
 [
 -
@@ -515,9 +515,9 @@ root
 =
 config
 [
-'
+"
 root
-'
+"
 ]
     
 exclude
@@ -537,9 +537,9 @@ config
 .
 get
 (
-'
+"
 exclude
-'
+"
 [
 ]
 )
@@ -550,15 +550,15 @@ config
 .
 get
 (
-'
+"
 extensions
-'
+"
 )
 :
         
 pattern
 =
-'
+"
 *
 *
 /
@@ -566,7 +566,7 @@ pattern
 .
 {
 }
-'
+"
 .
 format
 (
@@ -574,9 +574,9 @@ config
 .
 get
 (
-'
+"
 extensions
-'
+"
 )
 [
 0
@@ -588,14 +588,14 @@ else
         
 pattern
 =
-'
+"
 *
 *
 /
 *
 .
 sh
-'
+"
     
 files
 =
@@ -620,6 +620,7 @@ path
 ignore
 =
 [
+            
 e
 [
 len
@@ -631,15 +632,16 @@ path
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
+            
 for
 e
 in
 exclude
-                  
+            
 if
 mozpath
 .
@@ -653,6 +655,7 @@ e
 =
 =
 path
+        
 ]
         
 finder
@@ -796,9 +799,9 @@ environ
 .
 get
 (
-'
+"
 SHELLCHECK
-'
+"
 )
     
 if
@@ -811,9 +814,9 @@ binary
 return
 which
 (
-'
+"
 shellcheck
-'
+"
 )
 def
 lint
@@ -830,9 +833,9 @@ log
 =
 lintargs
 [
-'
+"
 log
-'
+"
 ]
     
 binary
@@ -852,9 +855,9 @@ SHELLCHECK_NOT_FOUND
 )
         
 if
-'
+"
 MOZ_AUTOMATION
-'
+"
 in
 os
 .
@@ -870,16 +873,16 @@ return
     
 config
 [
-'
+"
 root
-'
+"
 ]
 =
 lintargs
 [
-'
+"
 root
-'
+"
 ]
     
 files
@@ -894,13 +897,13 @@ base_command
 =
 [
 binary
-'
+"
 -
 f
-'
-'
+"
+"
 json
-'
+"
 ]
     
 if
@@ -908,9 +911,9 @@ config
 .
 get
 (
-'
+"
 excludecodes
-'
+"
 )
 :
         
@@ -919,12 +922,12 @@ base_command
 extend
 (
 [
-'
+"
 -
 e
-'
-'
-'
+"
+"
+"
 .
 join
 (
@@ -932,9 +935,9 @@ config
 .
 get
 (
-'
+"
 excludecodes
-'
+"
 )
 )
 ]
@@ -958,10 +961,10 @@ cmd
 extend
 (
 [
-'
+"
 -
 s
-'
+"
 files
 [
 f
