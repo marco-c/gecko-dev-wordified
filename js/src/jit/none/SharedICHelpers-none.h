@@ -159,9 +159,6 @@ EmitCallIC
 (
 MacroAssembler
 &
-const
-ICEntry
-*
 CodeOffset
 *
 )
