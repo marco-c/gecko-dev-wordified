@@ -17,7 +17,7 @@ NotFoundError
 '
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 non
@@ -31,7 +31,7 @@ dir
 ;
 }
 '
-getDirectory
+getDirectoryHandle
 (
 create
 =
@@ -62,7 +62,7 @@ handle
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 non
@@ -164,7 +164,7 @@ dir
 ;
 }
 '
-getDirectory
+getDirectoryHandle
 (
 create
 =
@@ -193,7 +193,7 @@ existing_handle
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -257,7 +257,7 @@ handle
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -319,7 +319,7 @@ file
 ;
 }
 '
-getDirectory
+getDirectoryHandle
 (
 create
 =
@@ -347,7 +347,7 @@ existing_handle
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -396,7 +396,7 @@ file_handle
 await
 existing_handle
 .
-getFile
+getFileHandle
 (
 '
 test
@@ -416,7 +416,7 @@ handle
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -478,7 +478,7 @@ file
 ;
 }
 '
-getDirectory
+getDirectoryHandle
 (
 create
 =
@@ -523,7 +523,7 @@ TypeMismatchError
 '
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 file
@@ -542,7 +542,7 @@ TypeMismatchError
 '
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 file
@@ -566,7 +566,7 @@ TypeMismatchError
 '
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 file
@@ -583,7 +583,7 @@ true
 ;
 }
 '
-getDirectory
+getDirectoryHandle
 (
 )
 when
@@ -615,7 +615,7 @@ t
 TypeError
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 '
 '
@@ -634,7 +634,7 @@ t
 TypeError
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 '
 '
@@ -648,7 +648,7 @@ false
 ;
 }
 '
-getDirectory
+getDirectoryHandle
 (
 )
 with
@@ -674,7 +674,7 @@ t
 TypeError
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 kCurrentDirectory
 )
@@ -687,7 +687,7 @@ t
 TypeError
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 kCurrentDirectory
 {
@@ -699,7 +699,7 @@ true
 )
 ;
 }
-getDirectory
+getDirectoryHandle
 (
 )
 with
@@ -749,7 +749,7 @@ t
 TypeError
 subdir
 .
-getDirectory
+getDirectoryHandle
 (
 kParentDirectory
 )
@@ -762,7 +762,7 @@ t
 TypeError
 subdir
 .
-getDirectory
+getDirectoryHandle
 (
 kParentDirectory
 {
@@ -774,7 +774,7 @@ true
 )
 ;
 }
-getDirectory
+getDirectoryHandle
 (
 )
 with
@@ -893,11 +893,11 @@ t
 TypeError
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 path_with_separator
 )
-getDirectory
+getDirectoryHandle
 (
 )
 must
@@ -917,7 +917,7 @@ i
 }
 }
 '
-getDirectory
+getDirectoryHandle
 (
 create
 =
@@ -1009,7 +1009,7 @@ t
 TypeError
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 path_with_separator
 {
@@ -1018,7 +1018,7 @@ create
 true
 }
 )
-getDirectory
+getDirectoryHandle
 (
 true
 )
@@ -1039,7 +1039,7 @@ i
 }
 }
 '
-getDirectory
+getDirectoryHandle
 (
 create
 =

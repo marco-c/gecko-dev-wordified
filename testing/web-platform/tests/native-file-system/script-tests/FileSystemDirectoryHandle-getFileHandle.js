@@ -17,7 +17,7 @@ NotFoundError
 '
 dir
 .
-getFile
+getFileHandle
 (
 '
 non
@@ -31,7 +31,7 @@ file
 ;
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -62,7 +62,7 @@ handle
 await
 dir
 .
-getFile
+getFileHandle
 (
 '
 non
@@ -151,7 +151,7 @@ handle
 ;
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -209,7 +209,7 @@ handle
 await
 dir
 .
-getFile
+getFileHandle
 (
 '
 existing
@@ -268,7 +268,7 @@ handle
 ;
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -322,7 +322,7 @@ handle
 await
 dir
 .
-getFile
+getFileHandle
 (
 '
 file
@@ -390,7 +390,7 @@ handle
 ;
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -420,7 +420,7 @@ dir_handle
 await
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -468,7 +468,7 @@ TypeMismatchError
 '
 dir
 .
-getFile
+getFileHandle
 (
 '
 dir
@@ -480,7 +480,7 @@ name
 ;
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -514,7 +514,7 @@ dir_handle
 await
 dir
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -562,7 +562,7 @@ TypeMismatchError
 '
 dir
 .
-getFile
+getFileHandle
 (
 '
 dir
@@ -579,7 +579,7 @@ true
 ;
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -614,7 +614,7 @@ t
 TypeError
 dir
 .
-getFile
+getFileHandle
 (
 '
 '
@@ -633,7 +633,7 @@ t
 TypeError
 dir
 .
-getFile
+getFileHandle
 (
 '
 '
@@ -647,7 +647,7 @@ false
 ;
 }
 '
-getFile
+getFileHandle
 (
 )
 with
@@ -673,7 +673,7 @@ t
 TypeError
 dir
 .
-getFile
+getFileHandle
 (
 kCurrentDirectory
 )
@@ -686,7 +686,7 @@ t
 TypeError
 dir
 .
-getFile
+getFileHandle
 (
 kCurrentDirectory
 {
@@ -698,7 +698,7 @@ true
 )
 ;
 }
-getFile
+getFileHandle
 (
 )
 with
@@ -748,7 +748,7 @@ t
 TypeError
 subdir
 .
-getFile
+getFileHandle
 (
 kParentDirectory
 )
@@ -761,7 +761,7 @@ t
 TypeError
 subdir
 .
-getFile
+getFileHandle
 (
 kParentDirectory
 {
@@ -773,7 +773,7 @@ true
 )
 ;
 }
-getFile
+getFileHandle
 (
 )
 with
@@ -885,11 +885,11 @@ t
 TypeError
 dir
 .
-getFile
+getFileHandle
 (
 path_with_separator
 )
-getFile
+getFileHandle
 (
 )
 must
@@ -909,7 +909,7 @@ i
 }
 }
 '
-getFile
+getFileHandle
 (
 create
 =
@@ -1002,7 +1002,7 @@ t
 TypeError
 dir
 .
-getFile
+getFileHandle
 (
 path_with_separator
 {
@@ -1011,8 +1011,10 @@ create
 true
 }
 )
-getFile
+getFileHandle
 (
+create
+=
 true
 )
 must
@@ -1032,7 +1034,7 @@ i
 }
 }
 '
-getFile
+getFileHandle
 (
 create
 =

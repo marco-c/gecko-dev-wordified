@@ -40,6 +40,6 @@ tests
 /
 FileSystemDirectoryHandle
 -
-getDirectory
+getDirectoryHandle
 .
 js
