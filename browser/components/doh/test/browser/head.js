@@ -1356,11 +1356,7 @@ e
 =
 =
 "
-security
-.
 doh
-.
-heuristics
 "
 &
 &
@@ -1613,11 +1609,7 @@ e
 =
 =
 "
-security
-.
 doh
-.
-heuristics
 "
 &
 &
@@ -1718,11 +1710,7 @@ e
 =
 =
 "
-security
-.
 doh
-.
-heuristics
 "
 &
 &
