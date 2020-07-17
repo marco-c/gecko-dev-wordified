@@ -842,6 +842,9 @@ dir
 if
 (
 mLoadInfo
+&
+&
+mLoadInfo
 -
 >
 IsAnonymous
