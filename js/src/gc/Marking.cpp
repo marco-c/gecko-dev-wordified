@@ -10720,6 +10720,13 @@ data
 (
 )
 ;
+if
+(
+data
+.
+module
+)
+{
 traverseObjectEdge
 (
 scope
@@ -10728,6 +10735,7 @@ data
 module
 )
 ;
+}
 names
 =
 &
