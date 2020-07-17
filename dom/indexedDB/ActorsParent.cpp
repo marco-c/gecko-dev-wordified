@@ -12898,6 +12898,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Invalid
 )
 ?
@@ -52813,6 +52816,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Exception
 )
 )
@@ -115492,6 +115498,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Exception
 )
 )
@@ -142917,6 +142926,9 @@ res
 .
 Is
 (
+SpecialValues
+:
+:
 Exception
 )
 )
