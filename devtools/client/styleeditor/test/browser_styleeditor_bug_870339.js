@@ -173,7 +173,7 @@ DOCUMENT_WITH_ONE_STYLESHEET
 /
 Spam
 the
-_onNewDocument
+_onOrigSourcesPrefChanged
 callback
 multiple
 times
@@ -215,7 +215,7 @@ i
 {
 ui
 .
-_onNewDocument
+_onOrigSourcesPrefChanged
 (
 )
 ;
@@ -231,7 +231,7 @@ respond
 to
 each
 "
-newDocument
+onOrigSourcesPrefChanged
 "
 /
 /
@@ -257,7 +257,7 @@ on
 "
 stylesheets
 -
-reset
+refreshed
 "
 function
 onReset
@@ -283,7 +283,7 @@ off
 "
 stylesheets
 -
-reset
+refreshed
 "
 onReset
 )

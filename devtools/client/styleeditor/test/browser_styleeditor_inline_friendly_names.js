@@ -138,6 +138,7 @@ await
 reloadPageAndWaitForStyleSheets
 (
 ui
+2
 )
 ;
 await
@@ -151,6 +152,7 @@ navigateToAndWaitForStyleSheets
 (
 SECOND_TEST_PAGE
 ui
+2
 )
 ;
 await
