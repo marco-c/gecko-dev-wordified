@@ -163,8 +163,10 @@ index
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -298,8 +300,10 @@ delta
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >

@@ -405,6 +405,16 @@ PropTypes
 object
 .
 isRequired
+/
+/
+Syncing
+blocked
+requests
+addBlockedUrl
+:
+PropTypes
+.
+func
 }
 ;
 }
