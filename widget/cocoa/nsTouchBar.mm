@@ -1560,7 +1560,7 @@ mTouchBarHelper
 )
 {
 return
-nil
+false
 ;
 }
 NSTouchBarItem
