@@ -58,6 +58,14 @@ mozperftest
 utils
 import
 silence
+from
+mozperftest
+.
+metrics
+.
+utils
+import
+metric_fields
 def
 setup_env
 (
@@ -196,9 +204,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 firstPaint
 "
+)
 ]
     
 }
@@ -448,9 +459,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 TimeToDisplayed
 "
+)
 ]
     
 }
@@ -1144,6 +1158,8 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 I
 shouldn
@@ -1153,6 +1169,7 @@ match
 a
 metric
 "
+)
 ]
     
 }
@@ -1322,9 +1339,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 firstPaint
 "
+)
 ]
     
 }
@@ -1551,9 +1571,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 firstPaint
 "
+)
 ]
     
 }
@@ -1714,9 +1737,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 firstPaint
 "
+)
 ]
     
 }

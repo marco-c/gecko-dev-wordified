@@ -66,6 +66,12 @@ statistics
 from
 mozperftest
 .
+utils
+import
+strtobool
+from
+mozperftest
+.
 layers
 import
 Layer
@@ -94,6 +100,7 @@ utils
 import
 write_json
 is_number
+metric_fields
 PERFHERDER_SCHEMA
 =
 pathlib
@@ -290,6 +297,12 @@ metrics
 "
 :
 {
+            
+"
+type
+"
+:
+metric_fields
             
 "
 nargs
@@ -572,6 +585,17 @@ Get
 filtered
 metrics
         
+metrics
+=
+self
+.
+get_arg
+(
+"
+metrics
+"
+)
+        
 results
 fullsettings
 =
@@ -586,14 +610,7 @@ prefix
             
 metrics
 =
-self
-.
-get_arg
-(
-"
 metrics
-"
-)
             
 settings
 =
@@ -669,6 +686,59 @@ firefox
 )
 }
         
+#
+converting
+the
+metrics
+list
+into
+a
+mapping
+where
+        
+#
+keys
+are
+the
+metrics
+nane
+        
+if
+metrics
+is
+not
+None
+:
+            
+metrics
+=
+dict
+(
+[
+(
+m
+[
+"
+name
+"
+]
+m
+)
+for
+m
+in
+metrics
+]
+)
+        
+else
+:
+            
+metrics
+=
+{
+}
+        
 all_perfherder_data
 =
 None
@@ -686,10 +756,41 @@ items
             
 settings
 =
+dict
+(
 fullsettings
 [
 name
 ]
+)
+            
+#
+updating
+the
+settings
+with
+values
+provided
+in
+metrics
+if
+any
+            
+if
+name
+in
+metrics
+:
+                
+settings
+.
+update
+(
+metrics
+[
+name
+]
+)
             
 #
 XXX
@@ -805,6 +906,8 @@ extraOptions
                 
 should_alert
 =
+strtobool
+(
 settings
 .
 get
@@ -814,6 +917,7 @@ shouldAlert
 "
 False
 )
+)
                 
 application
 =
@@ -821,6 +925,8 @@ app_info
                 
 alert_threshold
 =
+float
+(
 settings
 .
 get
@@ -832,9 +938,12 @@ alertThreshold
 .
 0
 )
+)
                 
 lower_is_better
 =
+strtobool
+(
 settings
 .
 get
@@ -843,6 +952,7 @@ get
 lowerIsBetter
 "
 True
+)
 )
                 
 unit
