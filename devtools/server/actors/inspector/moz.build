@@ -129,6 +129,13 @@ js
 '
 '
 node
+-
+picker
+.
+js
+'
+'
+node
 .
 js
 '
