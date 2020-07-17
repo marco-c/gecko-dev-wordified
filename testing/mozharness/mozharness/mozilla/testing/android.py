@@ -397,18 +397,18 @@ _device
 =
 mozdevice
 .
-ADBDevice
+ADBDeviceFactory
 (
 adb
 =
 adb
-                                               
+                                                      
 device
 =
 self
 .
 device_serial
-                                               
+                                                      
 verbose
 =
 True
@@ -2916,6 +2916,12 @@ self
 .
 device
 .
+run_as_package
+=
+self
+.
+device
+.
 install_app
 (
 apk
@@ -3229,6 +3235,9 @@ shell_output
 (
 self
 cmd
+enable_run_as
+=
+False
 )
 :
         
@@ -3249,6 +3258,9 @@ cmd
 timeout
 =
 30
+enable_run_as
+=
+enable_run_as
 )
         
 except
@@ -4122,30 +4134,16 @@ device
 is_dir
 (
 remote_dir
-root
-=
-True
 )
 :
                 
 self
 .
+device
+.
 mkdir
 (
 remote_dir
-root
-=
-True
-)
-                
-self
-.
-chmod
-(
-remote_dir
-root
-=
-True
 )
                 
 self
@@ -4163,6 +4161,18 @@ remote_dir
                 
 return
             
+self
+.
+device
+.
+chmod
+(
+remote_dir
+recursive
+=
+True
+)
+            
 for
 trace_file
 in
@@ -4173,7 +4183,7 @@ device
 ls
 (
 remote_dir
-root
+recursive
 =
 True
 )
@@ -4189,18 +4199,17 @@ remote_dir
 trace_file
 )
                 
+if
 self
 .
 device
 .
-chmod
+is_file
 (
 trace_path
-root
-=
-True
 )
-                
+:
+                    
 self
 .
 device
@@ -4208,11 +4217,8 @@ device
 rm
 (
 trace_path
-root
-=
-True
 )
-                
+                    
 self
 .
 info
@@ -4354,9 +4360,6 @@ remote_dir
 recursive
 =
 True
-root
-=
-True
 )
             
 self
@@ -4446,30 +4449,16 @@ device
 is_dir
 (
 remote_dir
-root
-=
-True
 )
 :
                 
 self
 .
+device
+.
 mkdir
 (
 remote_dir
-root
-=
-True
-)
-                
-self
-.
-chmod
-(
-remote_dir
-root
-=
-True
 )
                 
 self
@@ -4487,6 +4476,18 @@ remote_dir
                 
 return
             
+self
+.
+device
+.
+chmod
+(
+remote_dir
+recursive
+=
+True
+)
+            
 for
 trace_file
 in
@@ -4497,7 +4498,7 @@ device
 ls
 (
 remote_dir
-root
+recursive
 =
 True
 )
@@ -4513,18 +4514,17 @@ remote_dir
 trace_file
 )
                 
+if
 self
 .
 device
 .
-chmod
+is_file
 (
 trace_path
-root
-=
-True
 )
-                
+:
+                    
 self
 .
 device
@@ -4532,11 +4532,8 @@ device
 rm
 (
 trace_path
-root
-=
-True
 )
-                
+                    
 self
 .
 info
@@ -4673,9 +4670,6 @@ chmod
 (
 remote_dir
 recursive
-=
-True
-root
 =
 True
 )
