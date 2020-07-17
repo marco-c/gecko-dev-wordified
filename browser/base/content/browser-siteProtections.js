@@ -4668,8 +4668,6 @@ perm
 .
 principal
 .
-URI
-.
 host
 )
 )
