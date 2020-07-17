@@ -468,12 +468,11 @@ isTopWindow
 ?
 null
 :
-utilsFor
-(
 win
-)
 .
-containerElement
+browsingContext
+.
+embedderElement
 ;
 }
 ;

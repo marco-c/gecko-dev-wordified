@@ -4682,14 +4682,11 @@ it
 let
 el
 =
-this
-.
-_getDWU
-(
 currWin
-)
 .
-containerElement
+browsingContext
+.
+embedderElement
 ;
 currWin
 =
