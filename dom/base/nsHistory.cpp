@@ -424,15 +424,8 @@ if
 sHistory
 )
 {
-aRv
-.
-Throw
-(
-NS_ERROR_FAILURE
-)
-;
 return
-0
+1
 ;
 }
 int32_t
@@ -444,7 +437,6 @@ sHistory
 Count
 (
 )
-;
 ;
 return
 len
