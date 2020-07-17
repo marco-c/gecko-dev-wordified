@@ -5689,7 +5689,6 @@ process
 .
 if
 (
-!
 static_cast
 <
 ContentParent
@@ -5705,11 +5704,9 @@ Manager
 GetRemoteType
 (
 )
-.
-EqualsLiteral
-(
+!
+=
 PRIVILEGEDABOUT_REMOTE_TYPE
-)
 )
 {
 return

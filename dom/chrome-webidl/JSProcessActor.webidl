@@ -343,7 +343,7 @@ actor
 /
 sequence
 <
-DOMString
+UTF8String
 >
 remoteTypes
 ;

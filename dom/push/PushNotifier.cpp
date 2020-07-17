@@ -739,7 +739,6 @@ IsWebRemoteType
 .
 if
 (
-!
 contentActors
 [
 i
@@ -749,11 +748,9 @@ i
 GetRemoteType
 (
 )
-.
-EqualsLiteral
-(
+!
+=
 DEFAULT_REMOTE_TYPE
-)
 )
 {
 continue

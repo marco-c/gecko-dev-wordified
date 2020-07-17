@@ -3218,7 +3218,7 @@ XRE_GetProcessTypeString
 (
 )
 )
-VoidString
+VoidCString
 (
 )
 mThreadName
