@@ -6103,6 +6103,14 @@ goto
 loser
 ;
 }
+if
+(
+pwd
+-
+>
+data
+)
+{
 PORT_Memcpy
 (
 pbe_params
@@ -6119,6 +6127,7 @@ pwd
 len
 )
 ;
+}
 pbe_params
 -
 >

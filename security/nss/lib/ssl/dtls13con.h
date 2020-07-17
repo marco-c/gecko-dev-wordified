@@ -254,6 +254,14 @@ PRUint32
 cipherTextLen
 )
 ;
+PRBool
+dtls13_AeadLimitReached
+(
+ssl3CipherSpec
+*
+spec
+)
+;
 CK_MECHANISM_TYPE
 tls13_SequenceNumberEncryptionMechanism
 (

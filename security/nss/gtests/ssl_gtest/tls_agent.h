@@ -1337,6 +1337,10 @@ max
 void
 ResetSentBytes
 (
+size_t
+bytes
+=
+0
 )
 ;
 /
