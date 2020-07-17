@@ -152,6 +152,9 @@ h
 >
 #
 endif
+struct
+v4l2_capability
+;
 namespace
 webrtc
 {
@@ -312,6 +315,15 @@ const
 char
 *
 deviceUniqueIdUTF8
+)
+;
+bool
+IsVideoCaptureDevice
+(
+struct
+v4l2_capability
+*
+cap
 )
 ;
 #
