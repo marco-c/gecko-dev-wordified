@@ -4750,6 +4750,13 @@ GetOwnerEmbedderPolicy
 )
 const
 ;
+void
+SetCCCollectedAnything
+(
+bool
+collectedAnything
+)
+;
 private
 :
 WorkerPrivate
@@ -6436,6 +6443,9 @@ mOnLine
 ;
 bool
 mJSThreadExecutionGranted
+;
+bool
+mCCCollectedAnything
 ;
 FlippedOnce
 <

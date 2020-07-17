@@ -24921,7 +24921,7 @@ forget
 )
 ;
 }
-void
+bool
 nsCycleCollector_collect
 (
 nsICycleCollectorListener
@@ -24982,6 +24982,7 @@ unlimited
 (
 )
 ;
+return
 data
 -
 >
