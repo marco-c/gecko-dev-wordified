@@ -13529,8 +13529,8 @@ pointToBreak
 aPointToBreak
 )
 ;
-WSRunObject
-wsObj
+WSRunScanner
+wsRunScanner
 (
 *
 this
@@ -13539,7 +13539,7 @@ pointToBreak
 ;
 brElementIsAfterBlock
 =
-wsObj
+wsRunScanner
 .
 ScanPreviousVisibleNodeOrBlockBoundaryFrom
 (
@@ -13552,7 +13552,7 @@ ReachedBlockBoundary
 ;
 brElementIsBeforeBlock
 =
-wsObj
+wsRunScanner
 .
 ScanNextVisibleNodeOrBlockBoundaryFrom
 (
@@ -16992,8 +16992,8 @@ we
 are
 deleting
 ?
-WSRunObject
-wsObj
+WSRunScanner
+wsRunScanner
 (
 *
 this
@@ -17011,14 +17011,14 @@ nsIEditor
 :
 eNext
 ?
-wsObj
+wsRunScanner
 .
 ScanNextVisibleNodeOrBlockBoundaryFrom
 (
 startPoint
 )
 :
-wsObj
+wsRunScanner
 .
 ScanPreviousVisibleNodeOrBlockBoundaryFrom
 (
@@ -17190,7 +17190,7 @@ GetContent
 )
 )
 startPoint
-wsObj
+wsRunScanner
 )
 ;
 NS_WARNING_ASSERTION
@@ -17266,7 +17266,7 @@ ElementPtr
 )
 )
 startPoint
-wsObj
+wsRunScanner
 )
 ;
 NS_WARNING_ASSERTION
@@ -27181,8 +27181,8 @@ return
 NS_OK
 ;
 }
-WSRunObject
-wsObj
+WSRunScanner
+wsRunScanner
 (
 *
 this
@@ -27220,7 +27220,7 @@ here
 if
 (
 !
-wsObj
+wsRunScanner
 .
 StartsFromHardLineBreak
 (
@@ -27272,7 +27272,7 @@ here
 if
 (
 !
-wsObj
+wsRunScanner
 .
 EndsByBlockBoundary
 (
