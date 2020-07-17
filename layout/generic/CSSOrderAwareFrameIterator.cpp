@@ -144,7 +144,7 @@ mozilla
 template
 <
 >
-bool
+int
 CSSOrderAwareFrameIterator
 :
 :
@@ -172,7 +172,7 @@ StylePosition
 -
 >
 mOrder
-<
+-
 b
 -
 >
@@ -187,7 +187,7 @@ mOrder
 template
 <
 >
-bool
+int
 CSSOrderAwareFrameIterator
 :
 :
@@ -215,7 +215,7 @@ StyleXUL
 -
 >
 mBoxOrdinal
-<
+-
 b
 -
 >
@@ -298,7 +298,7 @@ end
 template
 <
 >
-bool
+int
 ReverseCSSOrderAwareFrameIterator
 :
 :
@@ -317,7 +317,7 @@ b
 )
 {
 return
-a
+b
 -
 >
 StylePosition
@@ -326,8 +326,8 @@ StylePosition
 -
 >
 mOrder
->
-b
+-
+a
 -
 >
 StylePosition
@@ -341,7 +341,7 @@ mOrder
 template
 <
 >
-bool
+int
 ReverseCSSOrderAwareFrameIterator
 :
 :
@@ -360,7 +360,7 @@ b
 )
 {
 return
-a
+b
 -
 >
 StyleXUL
@@ -369,8 +369,8 @@ StyleXUL
 -
 >
 mBoxOrdinal
->
-b
+-
+a
 -
 >
 StyleXUL
