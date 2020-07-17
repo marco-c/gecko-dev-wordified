@@ -265,6 +265,9 @@ name
 .
 *
 /
+[
+implicit_jscontext
+]
 JSProcessActorChild
 getActor
 (
