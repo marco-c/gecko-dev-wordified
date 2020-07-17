@@ -264,9 +264,9 @@ never
 display
 directly
 including
-nsSVGGradientFrame
+SVGGradientFrame
 and
-nsSVGPatternFrame
+SVGPatternFrame
 .
 (
 The

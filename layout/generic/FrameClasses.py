@@ -1116,7 +1116,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGClipPathFrame
+SVGClipPathFrame
 "
 "
 SVGClipPath
@@ -1259,7 +1259,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 "
 "
 SVGLinearGradient
@@ -1325,7 +1325,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGPatternFrame
+SVGPatternFrame
 "
 "
 SVGPattern
@@ -1336,7 +1336,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 "
 "
 SVGRadialGradient
@@ -1347,7 +1347,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGStopFrame
+SVGStopFrame
 "
 "
 SVGStop
@@ -1686,14 +1686,14 @@ nsSVGDisplayContainerFrame
 AbstractFrame
 (
 "
-nsSVGGradientFrame
+SVGGradientFrame
 "
 )
     
 AbstractFrame
 (
 "
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 "
 )
     

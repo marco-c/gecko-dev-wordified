@@ -182,9 +182,6 @@ UniquePtr
 .
 h
 "
-class
-nsSVGPatternFrame
-;
 nsresult
 NS_NewSVGPatternElement
 (
@@ -210,6 +207,9 @@ aNodeInfo
 namespace
 mozilla
 {
+class
+SVGPatternFrame
+;
 namespace
 dom
 {
@@ -229,9 +229,10 @@ SVGPatternElementBase
 {
 friend
 class
+mozilla
 :
 :
-nsSVGPatternFrame
+SVGPatternFrame
 ;
 protected
 :

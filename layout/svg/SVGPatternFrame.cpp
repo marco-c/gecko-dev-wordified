@@ -123,7 +123,7 @@ first
 #
 include
 "
-nsSVGPatternFrame
+SVGPatternFrame
 .
 h
 "
@@ -291,10 +291,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -323,6 +319,9 @@ mozilla
 :
 image
 ;
+namespace
+mozilla
+{
 /
 /
 -
@@ -398,10 +397,10 @@ image
 /
 /
 Implementation
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
-nsSVGPatternFrame
+SVGPatternFrame
 (
 ComputedStyle
 *
@@ -411,7 +410,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 (
 aStyle
 aPresContext
@@ -433,7 +432,7 @@ false
 }
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGPatternFrame
+SVGPatternFrame
 )
 /
 /
@@ -513,7 +512,7 @@ nsIFrame
 methods
 :
 nsresult
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 AttributeChanged
@@ -689,7 +688,7 @@ this
 ;
 }
 return
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 :
 :
 AttributeChanged
@@ -704,7 +703,7 @@ aModType
 ifdef
 DEBUG
 void
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 Init
@@ -742,7 +741,7 @@ pattern
 "
 )
 ;
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 :
 :
 Init
@@ -874,7 +873,7 @@ Width
 and
 Height
 gfxMatrix
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetCanvasTM
@@ -1666,7 +1665,7 @@ already_AddRefed
 <
 SourceSurface
 >
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 PaintPattern
@@ -1685,9 +1684,6 @@ aContextMatrix
 nsIFrame
 *
 aSource
-mozilla
-:
-:
 StyleSVGPaint
 nsStyleSVG
 :
@@ -1770,7 +1766,7 @@ children
 Return
 *
 /
-nsSVGPatternFrame
+SVGPatternFrame
 *
 patternWithChildren
 =
@@ -3002,9 +2998,9 @@ time
 do
 we
 ?
-nsSVGPatternFrame
+SVGPatternFrame
 *
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetPatternWithChildren
@@ -3107,7 +3103,7 @@ return
 nullptr
 ;
 }
-nsSVGPatternFrame
+SVGPatternFrame
 *
 next
 =
@@ -3135,7 +3131,7 @@ GetPatternWithChildren
 ;
 }
 uint16_t
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetEnumValue
@@ -3264,7 +3260,7 @@ GetAnimValue
 )
 ;
 }
-nsSVGPatternFrame
+SVGPatternFrame
 *
 next
 =
@@ -3306,7 +3302,7 @@ GetAnimValue
 }
 SVGAnimatedTransformList
 *
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetPatternTransformList
@@ -3427,7 +3423,7 @@ get
 )
 ;
 }
-nsSVGPatternFrame
+SVGPatternFrame
 *
 next
 =
@@ -3464,7 +3460,7 @@ get
 ;
 }
 gfxMatrix
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetPatternTransform
@@ -3510,7 +3506,7 @@ GetConsolidationMatrix
 const
 SVGAnimatedViewBox
 &
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetViewBox
@@ -3624,7 +3620,7 @@ aDefault
 mViewBox
 ;
 }
-nsSVGPatternFrame
+SVGPatternFrame
 *
 next
 =
@@ -3659,7 +3655,7 @@ mViewBox
 const
 SVGAnimatedPreserveAspectRatio
 &
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetPreserveAspectRatio
@@ -3773,7 +3769,7 @@ aDefault
 mPreserveAspectRatio
 ;
 }
-nsSVGPatternFrame
+SVGPatternFrame
 *
 next
 =
@@ -3808,7 +3804,7 @@ mPreserveAspectRatio
 const
 SVGAnimatedLength
 *
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetLengthValue
@@ -3933,7 +3929,7 @@ aIndex
 ]
 ;
 }
-nsSVGPatternFrame
+SVGPatternFrame
 *
 next
 =
@@ -3977,9 +3973,9 @@ Private
 helper
 )
 methods
-nsSVGPatternFrame
+SVGPatternFrame
 *
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetReferencedPattern
@@ -4136,7 +4132,7 @@ SVGPattern
 return
 static_cast
 <
-nsSVGPatternFrame
+SVGPatternFrame
 *
 >
 (
@@ -4193,7 +4189,7 @@ nullptr
 ;
 }
 gfxRect
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetPatternRect
@@ -4415,7 +4411,7 @@ height
 ;
 }
 gfxMatrix
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 ConstructCTM
@@ -4918,14 +4914,14 @@ tm
 -
 /
 /
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 methods
 :
 already_AddRefed
 <
 gfxPattern
 >
-nsSVGPatternFrame
+SVGPatternFrame
 :
 :
 GetPaintServerPattern
@@ -4941,9 +4937,6 @@ const
 gfxMatrix
 &
 aContextMatrix
-mozilla
-:
-:
 StyleSVGPaint
 nsStyleSVG
 :
@@ -5066,6 +5059,11 @@ forget
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla
 /
 /
 -
@@ -5224,9 +5222,15 @@ nsIFrame
 *
 NS_NewSVGPatternFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
@@ -5237,7 +5241,10 @@ new
 (
 aPresShell
 )
-nsSVGPatternFrame
+mozilla
+:
+:
+SVGPatternFrame
 (
 aStyle
 aPresShell

@@ -261,7 +261,7 @@ h
 #
 include
 "
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 .
 h
 "

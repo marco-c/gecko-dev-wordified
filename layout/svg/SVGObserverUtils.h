@@ -234,15 +234,12 @@ nsAtom
 class
 nsIURI
 ;
-class
-nsSVGClipPathFrame
-;
-class
-nsSVGPaintServerFrame
-;
 namespace
 mozilla
 {
+class
+SVGClipPathFrame
+;
 class
 SVGFilterFrame
 ;
@@ -251,6 +248,9 @@ SVGMarkerFrame
 ;
 class
 SVGMaskFrame
+;
+class
+SVGPaintServerFrame
 ;
 namespace
 dom
@@ -1594,7 +1594,7 @@ aPaintedFrame
 *
 /
 static
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 *
 GetAndObservePaintServer
 (
@@ -2362,7 +2362,7 @@ GetAndObserveClipPath
 nsIFrame
 *
 aClippedFrame
-nsSVGClipPathFrame
+SVGClipPathFrame
 *
 *
 aClipPathFrame
