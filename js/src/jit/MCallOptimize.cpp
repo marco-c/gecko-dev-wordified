@@ -2539,6 +2539,12 @@ InlinableNative
 :
 IntrinsicGuardToIteratorHelper
 :
+case
+InlinableNative
+:
+:
+IntrinsicGuardToAsyncIteratorHelper
+:
 return
 inlineGuardToClass
 (
