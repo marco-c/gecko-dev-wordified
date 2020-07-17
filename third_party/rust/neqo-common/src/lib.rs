@@ -162,8 +162,9 @@ incrdecoder
 :
 :
 {
-IncrementalDecoder
-IncrementalDecoderResult
+IncrementalDecoderBuffer
+IncrementalDecoderIgnore
+IncrementalDecoderUint
 }
 ;
 #

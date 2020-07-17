@@ -497,13 +497,6 @@ test_fixture
 :
 :
 DEFAULT_ALPN
-&
-test_fixture
-:
-:
-anti_replay
-(
-)
 Rc
 :
 :

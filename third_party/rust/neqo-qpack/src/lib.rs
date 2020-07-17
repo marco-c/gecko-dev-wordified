@@ -282,6 +282,7 @@ DecompressionFailed
 EncoderStream
 DecoderStream
 ClosedCriticalStream
+InternalError
 /
 /
 These

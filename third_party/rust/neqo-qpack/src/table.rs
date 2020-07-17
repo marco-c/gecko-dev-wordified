@@ -1638,8 +1638,9 @@ reduce
 false
 )
 }
+pub
 fn
-test_evict_to
+can_evict_to
 (
 &
 mut
@@ -1854,7 +1855,7 @@ capacity
 &
 self
 .
-test_evict_to
+can_evict_to
 (
 self
 .
