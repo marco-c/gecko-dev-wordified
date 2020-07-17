@@ -12346,8 +12346,8 @@ AssertIsOnWorkerThread
 ;
 /
 /
-These
-need
+This
+needs
 to
 be
 initialized
@@ -12369,13 +12369,6 @@ mWorkerPrivate
 -
 >
 EnsurePerformanceStorage
-(
-)
-;
-mWorkerPrivate
--
->
-EnsurePerformanceCounter
 (
 )
 ;
