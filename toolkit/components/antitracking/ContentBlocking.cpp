@@ -2996,7 +2996,7 @@ is
 not
 in
 a
-blacklist
+blocklist
 we
 don
 '
@@ -6464,7 +6464,7 @@ LOG
 This
 window
 is
-whitelisted
+exceptionlisted
 for
 reject
 foreign
@@ -7850,7 +7850,7 @@ LOG
 This
 channel
 is
-whitelisted
+exceptionlisted
 "
 )
 )

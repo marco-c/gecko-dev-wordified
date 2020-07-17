@@ -974,7 +974,7 @@ features
 nsIUrlClassifierFeature
 :
 :
-whitelist
+entitylist
 this
 )
 ;

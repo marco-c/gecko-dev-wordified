@@ -961,7 +961,7 @@ URI
 within
 a
 specific
-whitelist
+allowlist
 /
 /
 /
@@ -1045,7 +1045,7 @@ are
 within
 a
 specific
-whitelist
+allowlist
 .
 /
 /

@@ -323,7 +323,7 @@ looking
 for
 a
 pairwise
-whitelist
+entitylist
 uri
 /
 /
@@ -349,7 +349,7 @@ uri
 domain
 static
 nsresult
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 (
 nsIChannel
 *

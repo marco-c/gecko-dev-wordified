@@ -10372,7 +10372,7 @@ features
 nsIUrlClassifierFeature
 :
 :
-blacklist
+blocklist
 )
 ;
 if
@@ -11955,7 +11955,7 @@ features
 nsIUrlClassifierFeature
 :
 :
-blacklist
+blocklist
 )
 ;
 if
@@ -14210,7 +14210,7 @@ continue
 ;
 }
 nsAutoCString
-skipHostList
+exceptionHostList
 ;
 if
 (
@@ -14220,7 +14220,7 @@ aListType
 nsIUrlClassifierFeature
 :
 :
-blacklist
+blocklist
 )
 {
 rv
@@ -14228,9 +14228,9 @@ rv
 feature
 -
 >
-GetSkipHostList
+GetExceptionHostList
 (
-skipHostList
+exceptionHostList
 )
 ;
 if
@@ -14256,7 +14256,7 @@ IPCURLClassifierFeature
 (
 name
 tables
-skipHostList
+exceptionHostList
 )
 )
 ;
@@ -14954,14 +14954,14 @@ nsTArray
 nsCString
 >
 &
-aBlacklistTables
+aBlocklistTables
 const
 nsTArray
 <
 nsCString
 >
 &
-aWhitelistTables
+aEntitylistTables
 nsIUrlClassifierFeature
 *
 *
@@ -14991,8 +14991,8 @@ UrlClassifierFeatureFactory
 CreateFeatureWithTables
 (
 aName
-aBlacklistTables
-aWhitelistTables
+aBlocklistTables
+aEntitylistTables
 )
 ;
 if

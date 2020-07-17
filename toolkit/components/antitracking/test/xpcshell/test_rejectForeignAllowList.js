@@ -1058,7 +1058,7 @@ length
 /
 /
 Without
-whitelisting
+exceptionlisting
 no
 cookies
 should
@@ -1079,7 +1079,7 @@ testThings
 Let
 '
 s
-whitelist
+exceptionlist
 3rdparty
 .
 org

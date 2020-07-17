@@ -275,9 +275,9 @@ URI
 against
 the
 hostname
-whitelist
+entitylist
 bool
-IsHostnameWhitelisted
+IsHostnameEntitylisted
 (
 nsIURI
 *
@@ -285,7 +285,7 @@ aUri
 const
 nsACString
 &
-aWhitelisted
+aEntitylisted
 )
 ;
 void

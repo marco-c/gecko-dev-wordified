@@ -1887,7 +1887,7 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-blacklist
+blocklist
 list
 =
 >

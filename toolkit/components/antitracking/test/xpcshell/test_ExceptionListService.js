@@ -57,7 +57,7 @@ Unit
 tests
 for
 the
-nsIPartitioningSkipListService
+nsIPartitioningExceptionListService
 implementation
 .
 *
@@ -192,7 +192,7 @@ org
 /
 partitioning
 /
-skip
+exception
 -
 list
 -
@@ -206,7 +206,7 @@ getService
 (
 Ci
 .
-nsIPartitioningSkipListService
+nsIPartitioningExceptionListService
 )
 ;
 /
@@ -220,9 +220,11 @@ pref
 initially
 since
 the
-skip
+exception
 list
 service
+/
+/
 requires
 it
 .
@@ -358,7 +360,7 @@ event
 ;
 peuService
 .
-registerAndRunSkipListObserver
+registerAndRunExceptionListObserver
 (
 obs
 )
@@ -800,7 +802,7 @@ list
 ;
 peuService
 .
-unregisterSkipListObserver
+unregisterExceptionListObserver
 (
 obs
 )

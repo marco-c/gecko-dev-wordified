@@ -2343,7 +2343,7 @@ aProvider
 ;
 /
 /
-Whitelist
+Exceptionlist
 known
 providers
 to

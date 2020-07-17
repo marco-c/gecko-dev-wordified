@@ -1713,7 +1713,7 @@ extraPrefs
 When
 setting
 up
-skip
+exception
 URLs
 we
 need
@@ -1738,10 +1738,10 @@ we
 set
 up
 a
-skip
+exception
+/
+/
 list
-/
-/
 observer
 and
 wait
@@ -1772,7 +1772,7 @@ info
 Waiting
 for
 the
-skip
+exception
 list
 service
 to
@@ -1859,7 +1859,7 @@ if
 (
 feature
 .
-skipHostList
+exceptionHostList
 .
 split
 (
@@ -1883,7 +1883,7 @@ false
 ;
 }
 "
-Skip
+Exception
 list
 service
 initialized
@@ -2307,10 +2307,10 @@ party
 domain
 has
 been
-whitelisted
+exceptionlisted
+/
+/
 through
-/
-/
 extraPrefs
 so
 let
@@ -2323,9 +2323,9 @@ here
 and
 adjust
 our
+/
+/
 blocking
-/
-/
 expectations
 as
 necessary

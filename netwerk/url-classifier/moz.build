@@ -120,12 +120,12 @@ nsIURIClassifier
 idl
 '
 '
-nsIUrlClassifierFeature
+nsIUrlClassifierExceptionListService
 .
 idl
 '
 '
-nsIUrlClassifierSkipListService
+nsIUrlClassifierFeature
 .
 idl
 '
@@ -142,7 +142,7 @@ EXTRA_JS_MODULES
 =
 [
 '
-UrlClassifierSkipListService
+UrlClassifierExceptionListService
 .
 jsm
 '

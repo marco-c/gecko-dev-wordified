@@ -728,13 +728,13 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-blacklist
+blocklist
 :
 Ci
 .
 nsIUrlClassifierFeature
 .
-whitelist
+entitylist
 ;
 classifier
 .

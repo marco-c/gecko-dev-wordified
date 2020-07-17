@@ -327,7 +327,7 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-blacklist
+blocklist
 r
 =
 >
@@ -410,7 +410,7 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-blacklist
+blocklist
 r
 =
 >
@@ -471,7 +471,7 @@ list
 "
 tracking
 -
-blacklist
+blocklist
 -
 pref
 "

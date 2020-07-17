@@ -122,9 +122,9 @@ that
 manages
 lists
 namely
-white
+exception
 and
-black
+block
 lists
 for
 /
@@ -368,9 +368,9 @@ ListManager
 keeps
 track
 of
-black
+exception
 and
-white
+block
 lists
 and
 knows

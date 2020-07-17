@@ -11570,7 +11570,7 @@ table
 /
 /
 So
-skip
+exception
 tables
 without
 add

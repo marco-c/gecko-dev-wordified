@@ -1964,7 +1964,7 @@ nsCString
 tables
 ;
 nsCString
-skipHostList
+exceptionHostList
 ;
 }
 ;

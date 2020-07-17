@@ -709,7 +709,7 @@ NS_OK
 ;
 }
 NS_IMETHOD
-GetSkipHostList
+GetExceptionHostList
 (
 nsACString
 &
@@ -721,7 +721,7 @@ aList
 =
 mIPCFeature
 .
-skipHostList
+exceptionHostList
 (
 )
 ;
@@ -848,7 +848,7 @@ aListType
 nsIUrlClassifierFeature
 :
 :
-blacklist
+blocklist
 ?
 nsIUrlClassifierFeature
 :
@@ -856,7 +856,7 @@ nsIUrlClassifierFeature
 URIType
 :
 :
-blacklistURI
+blocklistURI
 :
 nsIUrlClassifierFeature
 :
@@ -864,7 +864,7 @@ nsIUrlClassifierFeature
 URIType
 :
 :
-whitelistURI
+entitylistURI
 ;
 return
 NS_OK
@@ -1050,8 +1050,8 @@ matter
 if
 we
 pass
-blacklist
-whitelist
+blocklist
+entitylist
 or
 any
 other
@@ -1078,7 +1078,7 @@ features
 nsIUrlClassifierFeature
 :
 :
-blacklist
+blocklist
 this
 )
 ;

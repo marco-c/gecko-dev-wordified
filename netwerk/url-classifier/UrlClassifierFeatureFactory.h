@@ -240,14 +240,14 @@ nsTArray
 nsCString
 >
 &
-aBlacklistTables
+aBlocklistTables
 const
 nsTArray
 <
 nsCString
 >
 &
-aWhitelistTables
+aEntitylistTables
 )
 ;
 /

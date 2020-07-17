@@ -2871,7 +2871,7 @@ URL
 is
 created
 by
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 (
 )
 /
@@ -2968,7 +2968,7 @@ when
 a
 /
 /
-whitelisted
+exceptionlisted
 domain
 is
 eTLD
@@ -2982,7 +2982,7 @@ nsresult
 LookupCache
 :
 :
-GetLookupWhitelistFragments
+GetLookupEntitylistFragments
 (
 const
 nsACString
@@ -3068,7 +3068,7 @@ generated
 in
 /
 /
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 (
 )
 if
@@ -3325,7 +3325,7 @@ match
 *
 if
 the
-whitelisted
+exceptionlisted
 domain
 stoed
 in
@@ -4089,7 +4089,7 @@ for
 whole
 -
 domain
-blacklist
+blocklist
 entries
 )
 if
@@ -6532,7 +6532,7 @@ harmful
 tracking
 /
 tracking
-whitelist
+exceptionlist
 and
 flash
 block
@@ -6826,7 +6826,7 @@ simple
 Entries
 for
 tracking
-whitelist
+entitylist
 table
 entries
 .

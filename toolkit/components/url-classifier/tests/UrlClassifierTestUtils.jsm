@@ -33,7 +33,7 @@ trackingAnnotationTable
 "
 ;
 const
-ANNOTATION_WHITELIST_TABLE_NAME
+ANNOTATION_ENTITYLIST_TABLE_NAME
 =
 "
 mochitest1
@@ -44,7 +44,7 @@ simple
 "
 ;
 const
-ANNOTATION_WHITELIST_TABLE_PREF
+ANNOTATION_ENTITYLIST_TABLE_PREF
 =
 "
 urlclassifier
@@ -73,7 +73,7 @@ trackingTable
 "
 ;
 const
-WHITELIST_TABLE_NAME
+ENTITYLIST_TABLE_NAME
 =
 "
 mochitest2
@@ -84,7 +84,7 @@ simple
 "
 ;
 const
-WHITELIST_TABLE_PREF
+ENTITYLIST_TABLE_PREF
 =
 "
 urlclassifier
@@ -270,7 +270,7 @@ org
 "
 ;
 let
-annotationWhitelistedURL
+annotationEntitylistedURL
 =
 "
 itisatrap
@@ -323,7 +323,7 @@ org
 "
 ;
 let
-whitelistedURL
+entitylistedURL
 =
 "
 itisatrap
@@ -549,7 +549,7 @@ n
 "
 ;
 let
-annotationWhitelistUpdate
+annotationEntitylistUpdate
 =
 "
 n
@@ -560,7 +560,7 @@ ni
 :
 "
 +
-ANNOTATION_WHITELIST_TABLE_NAME
+ANNOTATION_ENTITYLIST_TABLE_NAME
 +
 "
 \
@@ -580,7 +580,7 @@ a
 :
 "
 +
-annotationWhitelistedURL
+annotationEntitylistedURL
 .
 length
 +
@@ -589,7 +589,7 @@ length
 n
 "
 +
-annotationWhitelistedURL
+annotationEntitylistedURL
 +
 "
 \
@@ -743,7 +743,7 @@ n
 "
 ;
 let
-whitelistUpdate
+entitylistUpdate
 =
 "
 n
@@ -754,7 +754,7 @@ ni
 :
 "
 +
-WHITELIST_TABLE_NAME
+ENTITYLIST_TABLE_NAME
 +
 "
 \
@@ -774,7 +774,7 @@ a
 :
 "
 +
-whitelistedURL
+entitylistedURL
 .
 length
 +
@@ -783,7 +783,7 @@ length
 n
 "
 +
-whitelistedURL
+entitylistedURL
 +
 "
 \
@@ -819,13 +819,13 @@ socialAnnotationUpdate
 {
 pref
 :
-ANNOTATION_WHITELIST_TABLE_PREF
+ANNOTATION_ENTITYLIST_TABLE_PREF
 name
 :
-ANNOTATION_WHITELIST_TABLE_NAME
+ANNOTATION_ENTITYLIST_TABLE_NAME
 update
 :
-annotationWhitelistUpdate
+annotationEntitylistUpdate
 }
 {
 pref
@@ -852,13 +852,13 @@ socialTrackingUpdate
 {
 pref
 :
-WHITELIST_TABLE_PREF
+ENTITYLIST_TABLE_PREF
 name
 :
-WHITELIST_TABLE_NAME
+ENTITYLIST_TABLE_NAME
 update
 :
-whitelistUpdate
+entitylistUpdate
 }
 ]
 ;
@@ -1012,7 +1012,7 @@ prefs
 .
 clearUserPref
 (
-ANNOTATION_WHITELIST_TABLE_PREF
+ANNOTATION_ENTITYLIST_TABLE_PREF
 )
 ;
 Services
@@ -1039,7 +1039,7 @@ prefs
 .
 clearUserPref
 (
-WHITELIST_TABLE_PREF
+ENTITYLIST_TABLE_PREF
 )
 ;
 }
