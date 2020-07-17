@@ -2999,6 +2999,11 @@ widget
 -
 panelview
 "
+"
+PanelUI
+-
+subView
+"
 )
 ;
 let
