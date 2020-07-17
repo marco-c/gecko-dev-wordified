@@ -2257,7 +2257,7 @@ return
 Debugger
 :
 :
-getGarbageCollectionHook
+getHookImpl
 (
 cx
 args
@@ -2268,6 +2268,10 @@ memory
 getDebugger
 (
 )
+Debugger
+:
+:
+OnGarbageCollection
 )
 ;
 }
@@ -2286,7 +2290,7 @@ return
 Debugger
 :
 :
-setGarbageCollectionHook
+setHookImpl
 (
 cx
 args
@@ -2297,6 +2301,10 @@ memory
 getDebugger
 (
 )
+Debugger
+:
+:
+OnGarbageCollection
 )
 ;
 }
