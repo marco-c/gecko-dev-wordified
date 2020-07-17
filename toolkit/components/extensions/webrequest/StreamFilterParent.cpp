@@ -3661,6 +3661,10 @@ mDisconnected
 =
 true
 ;
+mDisconnectedByOnStartRequest
+=
+true
+;
 RefPtr
 <
 StreamFilterParent
@@ -3786,6 +3790,10 @@ IsDeliveringAltData
 )
 {
 mDisconnected
+=
+true
+;
+mDisconnectedByOnStartRequest
 =
 true
 ;
@@ -4579,6 +4587,9 @@ State
 :
 :
 Disconnected
+|
+|
+mDisconnectedByOnStartRequest
 )
 {
 /
