@@ -20456,7 +20456,7 @@ HTMLEditor
 AutoHTMLFragmentBoundariesFixer
 :
 :
-GetMostAncestorListOrTableElement
+GetMostDistantAncestorListOrTableElement
 (
 const
 nsTArray
@@ -20477,7 +20477,7 @@ Element
 >
 >
 &
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 )
 {
 Element
@@ -20595,7 +20595,7 @@ case
 if
 (
 !
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 Contains
 (
@@ -20639,7 +20639,7 @@ it
 .
 if
 (
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 LastElement
 (
@@ -20793,7 +20793,7 @@ case
 if
 (
 !
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 Contains
 (
@@ -20835,7 +20835,7 @@ it
 .
 if
 (
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 LastElement
 (
@@ -21549,7 +21549,7 @@ Element
 >
 4
 >
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 ;
 CollectTableAndAnyListElementsOfInclusiveAncestorsAt
 (
@@ -21571,12 +21571,12 @@ aArrayOfTopMostChildContents
 [
 0
 ]
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 )
 ;
 if
 (
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 .
 IsEmpty
 (
@@ -21600,7 +21600,7 @@ element
 in
 /
 /
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 which
 contains
 earlier
@@ -21618,7 +21618,7 @@ possible
 /
 XXX
 With
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 this
 returns
 a
@@ -21710,10 +21710,10 @@ Element
 *
 listOrTableElement
 =
-GetMostAncestorListOrTableElement
+GetMostDistantAncestorListOrTableElement
 (
 aArrayOfTopMostChildContents
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 )
 ;
 if
