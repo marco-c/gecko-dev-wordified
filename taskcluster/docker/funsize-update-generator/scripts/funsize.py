@@ -883,6 +883,7 @@ if
 semaphore
 :
             
+await
 stack
 .
 enter_async_context
@@ -1098,6 +1099,27 @@ s
 history
 .
 url
+)
+            
+log
+.
+debug
+(
+"
+Headers
+for
+%
+s
+:
+%
+s
+"
+resp
+.
+url
+resp
+.
+headers
 )
             
 if
