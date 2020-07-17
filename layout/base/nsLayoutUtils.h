@@ -477,6 +477,9 @@ class
 nsDisplayItem
 ;
 class
+nsDisplayList
+;
+class
 nsFontMetrics
 ;
 class

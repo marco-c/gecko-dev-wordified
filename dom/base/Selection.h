@@ -154,6 +154,15 @@ include
 "
 mozilla
 /
+PresShellForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RangeBoundary
 .
 h
