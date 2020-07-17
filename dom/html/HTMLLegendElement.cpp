@@ -132,6 +132,17 @@ mozilla
 /
 dom
 /
+ElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLLegendElementBinding
 .
 h

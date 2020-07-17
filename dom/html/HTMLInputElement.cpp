@@ -190,6 +190,17 @@ mozilla
 /
 dom
 /
+ElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemUtils
 .
 h
