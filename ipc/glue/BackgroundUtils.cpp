@@ -3920,6 +3920,12 @@ nsTArray
 <
 uint64_t
 >
+ancestorBrowsingContextIDs
+;
+nsTArray
+<
+uint64_t
+>
 ancestorOuterWindowIDs
 ;
 if
@@ -4009,6 +4015,7 @@ Canonical
 (
 )
 ancestorPrincipals
+ancestorBrowsingContextIDs
 ancestorOuterWindowIDs
 )
 ;
@@ -4547,6 +4554,7 @@ move
 (
 ancestorPrincipals
 )
+ancestorBrowsingContextIDs
 ancestorOuterWindowIDs
 loadInfoArgs
 .

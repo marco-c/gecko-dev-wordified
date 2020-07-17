@@ -283,7 +283,7 @@ nsTArray
 <
 uint64_t
 >
-mEmptyWindowIDs
+mEmptyBrowsingContextIDs
 ;
 nsTArray
 <
