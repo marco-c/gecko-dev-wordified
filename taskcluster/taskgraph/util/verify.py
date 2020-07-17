@@ -311,12 +311,18 @@ for_each_task
 verification
 .
 verify
+                
 scratch_pad
 =
 scratch_pad
+                
 graph_config
 =
 graph_config
+                
+parameters
+=
+parameters
             
 )
             
@@ -324,14 +330,23 @@ verification
 .
 verify
 (
+                
 None
+                
 graph
+                
 scratch_pad
 =
 scratch_pad
+                
 graph_config
 =
 graph_config
+                
+parameters
+=
+parameters
+            
 )
         
 return
@@ -902,6 +917,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -1218,6 +1234,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -1381,6 +1398,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -1580,6 +1598,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -1808,6 +1827,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -2040,6 +2060,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -2171,6 +2192,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -2263,6 +2285,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -2348,6 +2371,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -2356,6 +2380,21 @@ task
 is
 None
 :
+        
+has_target_kind
+=
+parameters
+.
+get
+(
+'
+target
+-
+kind
+'
+)
+is
+None
         
 exceptions
 =
@@ -2644,11 +2683,39 @@ not
 shippable
 :
                         
+#
+If
+we
+have
+not
+generated
+all
+task
+kinds
+we
+can
+'
+t
+verify
+that
+                        
+#
+there
+are
+no
+dependent
+tests
+.
+                        
+if
+has_target_kind
+:
+                            
 exceptions
 .
 append
 (
-                            
+                                
 '
 Build
 job
@@ -2660,7 +2727,7 @@ tests
 but
 specifies
 '
-                            
+                                
 '
 MOZ_AUTOMATION_PACKAGE_TESTS
 =
@@ -2671,7 +2738,7 @@ the
 environment
 .
 '
-                            
+                                
 '
 Unset
 MOZ_AUTOMATION_PACKAGE_TESTS
@@ -2680,7 +2747,7 @@ the
 task
 definition
 '
-                            
+                                
 '
 to
 fix
@@ -2764,6 +2831,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     
@@ -3028,6 +3096,7 @@ task
 taskgraph
 scratch_pad
 graph_config
+parameters
 )
 :
     

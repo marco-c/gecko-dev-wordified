@@ -3093,12 +3093,37 @@ parameters
 .
 parameters_loader
 (
+                
 options
 [
 '
 parameters
 '
 ]
+                
+overrides
+=
+{
+'
+target
+-
+kind
+'
+:
+options
+.
+get
+(
+'
+target_kind
+'
+)
+}
+                
+strict
+=
+False
+            
 )
             
 tgg
@@ -3124,17 +3149,6 @@ root
 parameters
 =
 parameters
-                
-target_kind
-=
-options
-.
-get
-(
-'
-target_kind
-'
-)
             
 )
             

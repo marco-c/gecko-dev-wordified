@@ -785,10 +785,6 @@ TASK
 write_artifacts
 =
 False
-        
-target_kind
-=
-None
     
 )
 :
@@ -875,12 +871,6 @@ self
 _parameters
 =
 parameters
-        
-self
-.
-_target_kind
-=
-target_kind
         
 self
 .
@@ -1664,10 +1654,28 @@ edges
 )
         
 if
-self
+parameters
 .
-_target_kind
+get
+(
+'
+target
+-
+kind
+'
+)
 :
+            
+target_kind
+=
+parameters
+[
+'
+target
+-
+kind
+'
+]
             
 logger
 .
@@ -1690,9 +1698,7 @@ format
                     
 target_kind
 =
-self
-.
-_target_kind
+target_kind
 )
 )
             
@@ -1703,9 +1709,7 @@ kind_graph
 transitive_closure
 (
 {
-self
-.
-_target_kind
+target_kind
 '
 docker
 -
@@ -2890,6 +2894,31 @@ taskgraph
 "
 "
     
+#
+make
+parameters
+read
+-
+write
+    
+parameters
+=
+dict
+(
+parameters
+)
+    
+parameters
+[
+'
+target
+-
+kind
+'
+]
+=
+kind
+    
 tgg
 =
 TaskGraphGenerator
@@ -2900,9 +2929,6 @@ root_dir
 parameters
 =
 parameters
-target_kind
-=
-kind
 )
     
 return
