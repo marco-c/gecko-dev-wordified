@@ -121,6 +121,11 @@ nsIWebSocketChannel
 idl
 '
 '
+nsIWebSocketConnection
+.
+idl
+'
+'
 nsIWebSocketEventService
 .
 idl
@@ -201,6 +206,11 @@ cpp
 '
 '
 IPCTransportProvider
+.
+cpp
+'
+'
+nsWebSocketConnection
 .
 cpp
 '
