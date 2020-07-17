@@ -160,9 +160,10 @@ matchCount
 ;
 Assert
 .
-equal
+ok
 (
 provider
+instanceof
 UrlbarProviderOpenTabs
 "
 Got
@@ -231,8 +232,16 @@ title
 ;
 }
 ;
-await
+let
+provider
+=
+new
 UrlbarProviderOpenTabs
+(
+)
+;
+await
+provider
 .
 startQuery
 (
@@ -267,7 +276,7 @@ doesn
 t
 throw
 .
-UrlbarProviderOpenTabs
+provider
 .
 cancelQuery
 (
@@ -278,7 +287,7 @@ Assert
 .
 equal
 (
-UrlbarProviderOpenTabs
+provider
 .
 queries
 .
