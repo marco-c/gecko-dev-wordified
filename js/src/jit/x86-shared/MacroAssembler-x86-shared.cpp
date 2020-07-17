@@ -1813,9 +1813,13 @@ SimdOp
 I64x2ShrS
 &
 &
+(
 imm
 .
 value
+&
+63
+)
 >
 31
 ;
