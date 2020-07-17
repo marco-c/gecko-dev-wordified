@@ -6666,7 +6666,7 @@ s
 coordinate
 space
 .
-FrameMetrics
+ExpectedGeckoMetrics
 mExpectedGeckoMetrics
 ;
 /
