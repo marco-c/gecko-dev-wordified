@@ -904,7 +904,7 @@ aRequestingPrincipal
 nsILoadInfo
 :
 :
-SEC_ALLOW_CROSS_ORIGIN_DATA_INHERITS
+SEC_ALLOW_CROSS_ORIGIN_INHERITS_SEC_CONTEXT
 aContentPolicyType
 nullptr
 /

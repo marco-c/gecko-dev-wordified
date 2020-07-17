@@ -8000,7 +8000,7 @@ aTriggeringPrincipal
 nsILoadInfo
 :
 :
-SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
+SEC_ALLOW_CROSS_ORIGIN_SEC_CONTEXT_IS_NULL
 aContentPolicyType
 cookieJarSettings
 nullptr
@@ -15646,7 +15646,7 @@ GetSystemPrincipal
 nsILoadInfo
 :
 :
-SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
+SEC_ALLOW_CROSS_ORIGIN_SEC_CONTEXT_IS_NULL
 nsIContentPolicy
 :
 :

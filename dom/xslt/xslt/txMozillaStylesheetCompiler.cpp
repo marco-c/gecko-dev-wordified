@@ -2072,7 +2072,7 @@ triggeringPrincipal
 nsILoadInfo
 :
 :
-SEC_REQUIRE_CORS_DATA_INHERITS
+SEC_REQUIRE_CORS_INHERITS_SEC_CONTEXT
 nsIContentPolicy
 :
 :
@@ -3044,7 +3044,7 @@ referrerPrincipal
 nsILoadInfo
 :
 :
-SEC_REQUIRE_CORS_DATA_INHERITS
+SEC_REQUIRE_CORS_INHERITS_SEC_CONTEXT
 nullptr
 source
 ?
