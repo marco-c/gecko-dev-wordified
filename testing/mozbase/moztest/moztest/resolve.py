@@ -6008,6 +6008,7 @@ None
 ]
         
 if
+(
 flavor
 in
 (
@@ -6016,8 +6017,11 @@ in
 '
 puppeteer
 '
+None
 )
 and
+            
+(
 any
 (
 self
@@ -6031,6 +6035,15 @@ p
 in
 paths
 )
+or
+paths
+=
+=
+[
+None
+]
+)
+)
 :
             
 self
@@ -6040,6 +6053,7 @@ add_puppeteer_manifest_data
 )
         
 if
+(
 flavor
 in
 (
@@ -6052,8 +6066,11 @@ platform
 -
 tests
 '
+None
 )
 and
+            
+(
 any
 (
 self
@@ -6066,6 +6083,15 @@ for
 p
 in
 paths
+)
+or
+paths
+=
+=
+[
+None
+]
+)
 )
 :
             
