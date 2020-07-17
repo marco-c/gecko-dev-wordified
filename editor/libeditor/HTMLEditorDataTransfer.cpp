@@ -1692,7 +1692,7 @@ aOutArrayOfContents
 ;
 static
 bool
-FindTargetNode
+FindTargetNodeOfContextForPastedHTML
 (
 nsINode
 &
@@ -19861,7 +19861,7 @@ HTMLEditor
 HTMLWithContextInserter
 :
 :
-FindTargetNode
+FindTargetNodeOfContextForPastedHTML
 (
 nsINode
 &
@@ -20035,7 +20035,7 @@ true
 }
 if
 (
-FindTargetNode
+FindTargetNodeOfContextForPastedHTML
 (
 *
 child
@@ -20369,7 +20369,7 @@ documentFragmentForContext
 HTMLWithContextInserter
 :
 :
-FindTargetNode
+FindTargetNodeOfContextForPastedHTML
 (
 *
 documentFragmentForContext
