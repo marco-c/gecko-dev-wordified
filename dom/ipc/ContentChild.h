@@ -227,6 +227,17 @@ include
 "
 mozilla
 /
+dom
+/
+RemoteType
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
