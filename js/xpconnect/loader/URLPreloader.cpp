@@ -2022,7 +2022,7 @@ nullptr
 ;
 Vector
 <
-CacheAwareZipCursor
+nsZipCursor
 >
 cursors
 ;
@@ -2214,7 +2214,7 @@ continue
 }
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 zip
 =
@@ -2272,7 +2272,6 @@ get
 ;
 }
 auto
-*
 item
 =
 zip
@@ -3095,9 +3094,9 @@ URLPreloader
 :
 ReadZip
 (
-CacheAwareZipReader
+nsZipArchive
 *
-archive
+zip
 const
 nsACString
 &
@@ -3154,7 +3153,7 @@ cache
 .
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 reader
 =
@@ -3171,10 +3170,10 @@ GRE
 ;
 if
 (
+zip
+=
+=
 reader
-=
-=
-archive
 )
 {
 CacheKey
@@ -3210,10 +3209,10 @@ APP
 ;
 if
 (
+zip
+=
+=
 reader
-=
-=
-archive
 )
 {
 CacheKey
@@ -3249,7 +3248,7 @@ directly
 FileLocation
 location
 (
-archive
+zip
 PromiseFlatCString
 (
 path
@@ -3723,7 +3722,7 @@ file
 }
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 zip
 =

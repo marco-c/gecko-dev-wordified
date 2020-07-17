@@ -1507,7 +1507,7 @@ return
 }
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 zip
 =
