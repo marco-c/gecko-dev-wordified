@@ -3458,7 +3458,7 @@ pcOffset
 ;
 }
 static
-inline
+constexpr
 size_t
 offsetOfFirstStub
 (
