@@ -75,6 +75,16 @@ content
 usercontext
 .
 css
+#
+category
+-
+containers
+{
+display
+:
+none
+;
+}
 .
 container
 -
