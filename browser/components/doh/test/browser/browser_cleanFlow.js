@@ -77,7 +77,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 ;
 Preferences
@@ -86,7 +86,7 @@ set
 (
 prefs
 .
-DOH_ENABLED_PREF
+ENABLED_PREF
 true
 )
 ;
@@ -101,7 +101,7 @@ get
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 true
 "
@@ -119,7 +119,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 "
 https
@@ -171,7 +171,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_DOORHANGER_USER_DECISION_PREF
+DOORHANGER_USER_DECISION_PREF
 )
 ;
 /
@@ -257,7 +257,7 @@ get
 (
 prefs
 .
-DOH_DOORHANGER_USER_DECISION_PREF
+DOORHANGER_USER_DECISION_PREF
 )
 "
 UIOk
@@ -278,7 +278,7 @@ get
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 true
 "

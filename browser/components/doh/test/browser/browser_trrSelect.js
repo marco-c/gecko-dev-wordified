@@ -249,7 +249,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 ;
 Preferences
@@ -258,7 +258,7 @@ set
 (
 prefs
 .
-DOH_ENABLED_PREF
+ENABLED_PREF
 true
 )
 ;
@@ -273,7 +273,7 @@ get
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 true
 "
@@ -291,7 +291,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 "
 https
@@ -354,7 +354,7 @@ reset
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 )
 ;
 Preferences
@@ -363,7 +363,7 @@ reset
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 prefPromise
@@ -374,7 +374,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 await
@@ -393,7 +393,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 "
 https
@@ -470,7 +470,7 @@ set
 (
 prefs
 .
-DOH_TRR_SELECT_COMMIT_PREF
+TRR_SELECT_COMMIT_PREF
 false
 )
 ;
@@ -482,7 +482,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 await
@@ -502,7 +502,7 @@ isSet
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 "
 TRR
@@ -532,7 +532,7 @@ isSet
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 )
 ;
 }
@@ -581,7 +581,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 )
 "
 https
@@ -666,7 +666,7 @@ reset
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 )
 ;
 Preferences
@@ -675,7 +675,7 @@ reset
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 await
@@ -702,7 +702,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 }
@@ -751,7 +751,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 )
 "
 https
@@ -783,7 +783,7 @@ set
 (
 prefs
 .
-DOH_TRR_SELECT_COMMIT_PREF
+TRR_SELECT_COMMIT_PREF
 true
 )
 ;
@@ -857,7 +857,7 @@ reset
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 Preferences
@@ -866,7 +866,7 @@ set
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 "
 https
 :
@@ -888,7 +888,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 await
@@ -907,7 +907,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 "
 https
@@ -1003,7 +1003,7 @@ reset
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 Preferences
@@ -1012,7 +1012,7 @@ set
 (
 prefs
 .
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 "
 https
 :
@@ -1034,7 +1034,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 ;
 await
@@ -1053,7 +1053,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 "
 https

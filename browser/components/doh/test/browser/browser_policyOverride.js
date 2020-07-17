@@ -137,7 +137,7 @@ set
 (
 prefs
 .
-DOH_ENABLED_PREF
+ENABLED_PREF
 true
 )
 ;
@@ -159,7 +159,7 @@ get
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 undefined
 "
@@ -178,7 +178,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 undefined
 "

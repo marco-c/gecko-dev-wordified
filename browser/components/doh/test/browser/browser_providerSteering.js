@@ -83,7 +83,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 ;
 Preferences
@@ -92,7 +92,7 @@ set
 (
 prefs
 .
-DOH_ENABLED_PREF
+ENABLED_PREF
 true
 )
 ;
@@ -107,7 +107,7 @@ get
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 true
 "
@@ -202,7 +202,7 @@ set
 (
 prefs
 .
-DOH_PROVIDER_STEERING_LIST_PREF
+PROVIDER_STEERING_LIST_PREF
 JSON
 .
 stringify

@@ -100,7 +100,7 @@ set
 (
 prefs
 .
-DOH_PREVIOUS_TRR_MODE_PREF
+PREVIOUS_TRR_MODE_PREF
 0
 )
 ;
@@ -125,7 +125,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_PREVIOUS_TRR_MODE_PREF
+PREVIOUS_TRR_MODE_PREF
 )
 ;
 await
@@ -154,7 +154,7 @@ get
 (
 prefs
 .
-DOH_PREVIOUS_TRR_MODE_PREF
+PREVIOUS_TRR_MODE_PREF
 )
 undefined
 "
