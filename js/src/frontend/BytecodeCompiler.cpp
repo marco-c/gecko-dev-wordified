@@ -3844,14 +3844,11 @@ asmJS
 .
 has
 (
-FunctionIndex
-(
 funbox
 -
 >
 index
 (
-)
 )
 )
 )
