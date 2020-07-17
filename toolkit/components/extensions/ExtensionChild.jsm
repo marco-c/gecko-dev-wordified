@@ -458,7 +458,6 @@ const
 DefaultMap
 LimitedSet
 getUniqueId
-getWinUtils
 }
 =
 ExtensionUtils
@@ -3723,12 +3722,11 @@ context
 if
 (
 !
-getWinUtils
-(
 context
 .
 contentWindow
-)
+.
+windowUtils
 .
 isHandlingUserInput
 )
