@@ -123,6 +123,13 @@ mozilla_LoaderAPIInterfaces_h
 #
 include
 "
+nscore
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ModuleLoadInfo
