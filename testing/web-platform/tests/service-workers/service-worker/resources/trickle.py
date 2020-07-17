@@ -1,5 +1,9 @@
 import
 time
+from
+six
+import
+range
 def
 main
 (
@@ -18,6 +22,7 @@ GET
 .
 first
 (
+b
 "
 ms
 "
@@ -37,6 +42,7 @@ GET
 .
 first
 (
+b
 "
 count
 "
@@ -66,11 +72,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -90,12 +98,11 @@ sleep
 (
 delay
 )
-;
     
 for
 i
 in
-xrange
+range
 (
 count
 )
@@ -107,6 +114,7 @@ writer
 .
 write_content
 (
+b
 "
 TEST_TRICKLE
 \

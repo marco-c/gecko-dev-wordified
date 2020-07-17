@@ -1,4 +1,6 @@
 import
+random
+import
 time
 def
 main
@@ -31,11 +33,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -47,9 +51,11 @@ revalidate
 )
                
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -67,6 +73,7 @@ mimetype
     
 content_type
 =
+b
 '
 application
 /
@@ -78,6 +85,7 @@ headers
 append
 (
 (
+b
 '
 Content
 -
@@ -96,29 +104,10 @@ for
 each
 access
 .
-Use
-.
-time
-(
-)
-and
-.
-clock
-(
-)
-for
-    
-#
-best
-time
-resolution
-across
-different
-platforms
-.
     
 return
 headers
+u
 '
 /
 /
@@ -134,9 +123,9 @@ time
 time
 (
 )
-time
+random
 .
-clock
+random
 (
 )
 )

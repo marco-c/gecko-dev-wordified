@@ -1,5 +1,5 @@
 import
-time
+random
 def
 main
 (
@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -25,11 +27,13 @@ javascript
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -41,8 +45,13 @@ age
 ]
     
 #
-Add
-timestamp
+Plug
+in
+random
+.
+random
+(
+)
 to
 the
 worker
@@ -60,6 +69,7 @@ time
     
 body
 =
+u
 '
 '
 '
@@ -91,10 +101,12 @@ strip
 (
 )
 %
-time
-.
-clock
 (
+random
+.
+random
+(
+)
 )
     
 return
