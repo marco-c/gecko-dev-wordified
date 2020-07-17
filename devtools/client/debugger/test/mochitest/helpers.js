@@ -12642,7 +12642,7 @@ indicate
 errors
 and
 are
-whitelisted
+allowed
 in
 all
 debugger

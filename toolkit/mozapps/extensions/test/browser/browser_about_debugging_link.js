@@ -58,7 +58,7 @@ jsm
 ;
 /
 /
-Whitelist
+Allow
 rejections
 related
 to

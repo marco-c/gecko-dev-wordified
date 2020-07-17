@@ -143,7 +143,7 @@ jsm
 ;
 /
 /
-whitelist
+allow
 a
 context
 error

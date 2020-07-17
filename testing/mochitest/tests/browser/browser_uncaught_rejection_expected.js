@@ -66,7 +66,7 @@ PromiseTestUtils
 allowRejectionsGlobally
 (
 /
-Whitelisted
+Allowed
 rejection
 .
 /
@@ -163,7 +163,7 @@ new
 Error
 (
 "
-Whitelisted
+Allowed
 rejection
 .
 "
@@ -212,7 +212,7 @@ new
 Error
 (
 "
-Whitelisted
+Allowed
 rejection
 .
 "

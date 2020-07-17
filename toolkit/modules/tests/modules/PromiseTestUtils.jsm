@@ -52,8 +52,9 @@ case
 unless
 the
 test
-whitelists
-itself
+explicitly
+allows
+rejections
 .
 *
 /
@@ -786,11 +787,11 @@ uninit
 Called
 by
 tests
-that
-have
-been
-whitelisted
-disables
+with
+uncaught
+rejections
+to
+disable
 the
 observers
 in
@@ -1553,7 +1554,8 @@ have
 *
 not
 been
-whitelisted
+explicitly
+allowed
 using
 expectUncaughtRejection
 .
@@ -1739,7 +1741,7 @@ continue
 Check
 the
 global
-whitelisting
+ignore
 functions
 .
 if
