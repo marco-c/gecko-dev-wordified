@@ -1007,6 +1007,8 @@ h
 #
 include
 "
+mozilla
+/
 SVGContentUtils
 .
 h
@@ -1014,6 +1016,8 @@ h
 #
 include
 "
+mozilla
+/
 SVGObserverUtils
 .
 h
@@ -1021,6 +1025,8 @@ h
 #
 include
 "
+mozilla
+/
 SVGFragmentIdentifier
 .
 h

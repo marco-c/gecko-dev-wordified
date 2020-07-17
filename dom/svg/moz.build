@@ -133,6 +133,11 @@ SVGContentUtils
 h
 '
 '
+SVGFragmentIdentifier
+.
+h
+'
+'
 SVGPreserveAspectRatio
 .
 h

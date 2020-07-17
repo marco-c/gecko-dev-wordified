@@ -228,12 +228,6 @@ base
 '
 '
 /
-dom
-/
-svg
-'
-'
-/
 layout
 /
 style
