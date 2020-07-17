@@ -415,6 +415,16 @@ INIT_GLOBAL_NT
 UnmapViewOfSection
 )
 ;
+INIT_GLOBAL_NT
+(
+SignalAndWaitForSingleObject
+)
+;
+INIT_GLOBAL_NT
+(
+WaitForSingleObject
+)
+;
 INIT_GLOBAL_RTL
 (
 RtlAllocateHeap

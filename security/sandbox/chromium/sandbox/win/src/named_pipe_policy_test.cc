@@ -215,8 +215,8 @@ allows
 us
 to
 enforce
-a
-whitelist
+an
+allowlist
 for
 where
 the
@@ -240,10 +240,10 @@ argc
 2
 )
 {
-base
+std
 :
 :
-string16
+wstring
 handle_name
 ;
 if
