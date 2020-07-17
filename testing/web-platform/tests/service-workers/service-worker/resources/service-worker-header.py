@@ -14,6 +14,7 @@ headers
 .
 get
 (
+b
 '
 service
 -
@@ -22,6 +23,7 @@ worker
 )
   
 if
+b
 '
 header
 '
@@ -33,6 +35,7 @@ and
 service_worker_header
 !
 =
+b
 '
 script
 '
@@ -42,11 +45,13 @@ return
 400
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -54,12 +59,14 @@ plain
 '
 )
 ]
+b
 '
 Bad
 Request
 '
   
 if
+b
 '
 no
 -
@@ -73,6 +80,7 @@ and
 service_worker_header
 =
 =
+b
 '
 script
 '
@@ -82,11 +90,13 @@ return
 400
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -94,6 +104,7 @@ plain
 '
 )
 ]
+b
 '
 Bad
 Request
@@ -124,11 +135,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -140,9 +153,11 @@ revalidate
 )
              
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -151,11 +166,13 @@ cache
 )
              
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -166,6 +183,7 @@ javascript
   
 body
 =
+b
 '
 /
 *
@@ -182,6 +200,7 @@ n
 '
   
 if
+b
 '
 import
 '
@@ -194,6 +213,7 @@ GET
 body
 +
 =
+b
 "
 importScripts
 (
@@ -209,6 +229,7 @@ request
 .
 GET
 [
+b
 '
 import
 '
