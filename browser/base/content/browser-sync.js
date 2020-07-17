@@ -5658,7 +5658,7 @@ d
 >
 d
 .
-name
+id
 )
 .
 join
@@ -5723,7 +5723,7 @@ for
 {
 device
 .
-name
+id
 }
 .
 error
@@ -5758,7 +5758,7 @@ to
 {
 client
 .
-name
+id
 }
 using
 Sync
