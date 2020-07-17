@@ -467,6 +467,11 @@ BrowserId
 {
 if
 (
+mFrameLoader
+)
+{
+if
+(
 auto
 *
 bc
@@ -487,6 +492,7 @@ GetBrowserId
 (
 )
 ;
+}
 }
 return
 0
