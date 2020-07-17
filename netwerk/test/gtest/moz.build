@@ -98,6 +98,11 @@ UNIFIED_SOURCES
 =
 [
 '
+TestBase64Stream
+.
+cpp
+'
+'
 TestBind
 .
 cpp
