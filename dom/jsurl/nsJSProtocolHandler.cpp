@@ -2072,6 +2072,15 @@ get
 1
 )
 ;
+options
+.
+setIntroductionType
+(
+"
+javascriptURL
+"
+)
+;
 {
 nsJSUtils
 :

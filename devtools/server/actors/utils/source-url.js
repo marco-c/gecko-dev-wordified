@@ -235,6 +235,15 @@ introType
 =
 =
 "
+javascriptURL
+"
+|
+|
+introType
+=
+=
+=
+"
 eventHandler
 "
 |
