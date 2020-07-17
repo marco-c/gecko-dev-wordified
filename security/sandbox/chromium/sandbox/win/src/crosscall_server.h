@@ -83,13 +83,11 @@ h
 #
 include
 "
-sandbox
+base
 /
-win
+strings
 /
-src
-/
-crosscall_params
+string16
 .
 h
 "
@@ -102,7 +100,7 @@ win
 /
 src
 /
-ipc_tags
+crosscall_params
 .
 h
 "
@@ -1080,10 +1078,10 @@ GetParameterStr
 (
 uint32_t
 index
-std
+base
 :
 :
-wstring
+string16
 *
 string
 )
@@ -1316,7 +1314,7 @@ handler
 struct
 IPCInfo
 {
-IpcTag
+int
 ipc_tag
 ;
 const
@@ -1340,7 +1338,7 @@ signatures
 struct
 IPCParams
 {
-IpcTag
+int
 ipc_tag
 ;
 ArgType
@@ -1917,7 +1915,7 @@ SetupService
 InterceptionManager
 *
 manager
-IpcTag
+int
 service
 )
 =

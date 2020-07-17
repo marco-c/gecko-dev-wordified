@@ -348,7 +348,7 @@ RegisterTask
 base
 :
 :
-OnceClosure
+Closure
 task
 )
 ;
@@ -494,7 +494,7 @@ stack
 base
 :
 :
-OnceClosure
+Closure
 >
 stack_
 GUARDED_BY

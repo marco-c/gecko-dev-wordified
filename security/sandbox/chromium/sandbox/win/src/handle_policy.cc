@@ -285,10 +285,7 @@ policy
 >
 AddRule
 (
-IpcTag
-:
-:
-DUPLICATEHANDLEPROXY
+IPC_DUPLICATEHANDLEPROXY_TAG
 &
 duplicate_rule
 )
@@ -393,7 +390,7 @@ GetInstance
 )
 -
 >
-IsSafeDuplicationTarget
+IsActiveTarget
 (
 target_process_id
 )
