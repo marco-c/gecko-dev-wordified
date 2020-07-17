@@ -76,17 +76,13 @@ json
 import
 os
 import
+six
+import
 tarfile
 from
 io
 import
 BytesIO
-from
-taskgraph
-.
-parameters
-import
-Parameters
 from
 taskgraph
 .
@@ -136,11 +132,15 @@ None
     
 params
 =
-Parameters
-(
-        
+{
+'
 level
-=
+'
+:
+six
+.
+ensure_text
+(
 os
 .
 environ
@@ -154,12 +154,8 @@ MOZ_SCM_LEVEL
 3
 '
 )
-        
-strict
-=
-False
-    
 )
+}
     
 tasks
 =

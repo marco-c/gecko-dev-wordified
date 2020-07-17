@@ -2547,24 +2547,17 @@ IndexSearch
 from
 taskgraph
 .
-parameters
-import
-Parameters
-            
-from
-taskgraph
-.
 generator
 import
 load_tasks_for_kind
             
 params
 =
-Parameters
-(
-                
+{
+'
 level
-=
+'
+:
 six
 .
 ensure_text
@@ -2583,12 +2576,7 @@ MOZ_SCM_LEVEL
 '
 )
 )
-                
-strict
-=
-False
-            
-)
+}
             
 root_dir
 =
