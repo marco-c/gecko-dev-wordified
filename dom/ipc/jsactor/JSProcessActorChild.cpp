@@ -145,6 +145,17 @@ InProcessChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+InProcessParent
+.
+h
+"
 namespace
 mozilla
 {
