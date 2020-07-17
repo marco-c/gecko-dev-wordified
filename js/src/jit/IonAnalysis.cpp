@@ -29030,6 +29030,15 @@ MDefinition
 Opcode
 :
 :
+StoreHoleValueElement
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 InitializedLength
 :
 case
