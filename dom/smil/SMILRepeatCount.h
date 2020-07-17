@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILRepeatCount_h
+DOM_SMIL_SMILREPEATCOUNT_H_
 #
 define
-mozilla_SMILRepeatCount_h
+DOM_SMIL_SMILREPEATCOUNT_H_
 #
 include
 "
@@ -491,4 +491,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILRepeatCount_h
+DOM_SMIL_SMILREPEATCOUNT_H_

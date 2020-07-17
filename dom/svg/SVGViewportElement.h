@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGViewportElement_h
+DOM_SVG_SVGVIEWPORTELEMENT_H_
 #
 define
-mozilla_dom_SVGViewportElement_h
+DOM_SVG_SVGVIEWPORTELEMENT_H_
 #
 include
 "
@@ -1327,4 +1327,4 @@ mozilla
 endif
 /
 /
-SVGViewportElement_h
+DOM_SVG_SVGVIEWPORTELEMENT_H_

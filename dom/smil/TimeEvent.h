@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_TimeEvent_h
+DOM_SMIL_TIMEEVENT_H_
 #
 define
-mozilla_dom_TimeEvent_h
+DOM_SMIL_TIMEEVENT_H_
 #
 include
 "
@@ -377,4 +377,4 @@ aEvent
 endif
 /
 /
-mozilla_dom_TimeEvent_h
+DOM_SMIL_TIMEEVENT_H_

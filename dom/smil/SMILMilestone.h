@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILMilestone_h
+DOM_SMIL_SMILMILESTONE_H_
 #
 define
-mozilla_SMILMilestone_h
+DOM_SMIL_SMILMILESTONE_H_
 #
 include
 "
@@ -651,4 +651,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILMilestone_h
+DOM_SMIL_SMILMILESTONE_H_

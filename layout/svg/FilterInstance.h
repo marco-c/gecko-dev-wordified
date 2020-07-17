@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__NS_FILTERINSTANCE_H__
+LAYOUT_SVG_FILTERINSTANCE_H_
 #
 define
-__NS_FILTERINSTANCE_H__
+LAYOUT_SVG_FILTERINSTANCE_H_
 #
 include
 "
@@ -2561,3 +2561,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+LAYOUT_SVG_FILTERINSTANCE_H_

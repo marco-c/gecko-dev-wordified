@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__NS_SVGFILTERFRAME_H__
+LAYOUT_SVG_SVGFILTERFRAME_H_
 #
 define
-__NS_SVGFILTERFRAME_H__
+LAYOUT_SVG_SVGFILTERFRAME_H_
 #
 include
 "
@@ -514,3 +514,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+LAYOUT_SVG_SVGFILTERFRAME_H_

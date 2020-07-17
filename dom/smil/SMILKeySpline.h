@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILKeySpline_h
+DOM_SMIL_SMILKEYSPLINE_H_
 #
 define
-mozilla_SMILKeySpline_h
+DOM_SMIL_SMILKEYSPLINE_H_
 #
 include
 "
@@ -798,4 +798,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILKeySpline_h
+DOM_SMIL_SMILKEYSPLINE_H_

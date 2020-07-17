@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILTimeValue_h
+DOM_SMIL_SMILTIMEVALUE_H_
 #
 define
-mozilla_SMILTimeValue_h
+DOM_SMIL_SMILTIMEVALUE_H_
 #
 include
 "
@@ -1056,4 +1056,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILTimeValue_h
+DOM_SMIL_SMILTIMEVALUE_H_

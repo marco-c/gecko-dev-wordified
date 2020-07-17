@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGMPathElement_h
+DOM_SVG_SVGMPATHELEMENT_H_
 #
 define
-mozilla_dom_SVGMPathElement_h
+DOM_SVG_SVGMPATHELEMENT_H_
 #
 include
 "
@@ -759,4 +759,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGMPathElement_h
+DOM_SVG_SVGMPATHELEMENT_H_

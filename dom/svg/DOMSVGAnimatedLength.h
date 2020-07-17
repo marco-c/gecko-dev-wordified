@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DOMSVGAnimatedLength_h
+DOM_SVG_DOMSVGANIMATEDLENGTH_H_
 #
 define
-mozilla_dom_DOMSVGAnimatedLength_h
+DOM_SVG_DOMSVGANIMATEDLENGTH_H_
 #
 include
 "
@@ -276,4 +276,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_DOMSVGAnimatedLength_h
+DOM_SVG_DOMSVGANIMATEDLENGTH_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-NS_SVGUTILS_H
+LAYOUT_SVG_SVGUTILS_H_
 #
 define
-NS_SVGUTILS_H
+LAYOUT_SVG_SVGUTILS_H_
 /
 /
 include
@@ -4166,3 +4166,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+LAYOUT_SVG_SVGUTILS_H_

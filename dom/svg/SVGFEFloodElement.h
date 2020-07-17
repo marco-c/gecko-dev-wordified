@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGFEFloodElement_h
+DOM_SVG_SVGFEFLOODELEMENT_H_
 #
 define
-mozilla_dom_SVGFEFloodElement_h
+DOM_SVG_SVGFEFLOODELEMENT_H_
 #
 include
 "
@@ -391,4 +391,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGFEFloodElement_h
+DOM_SVG_SVGFEFLOODELEMENT_H_

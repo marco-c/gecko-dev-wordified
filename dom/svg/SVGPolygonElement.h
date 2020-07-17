@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGPolygonElement_h
+DOM_SVG_SVGPOLYGONELEMENT_H_
 #
 define
-mozilla_dom_SVGPolygonElement_h
+DOM_SVG_SVGPOLYGONELEMENT_H_
 #
 include
 "
@@ -308,4 +308,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGPolygonElement_h
+DOM_SVG_SVGPOLYGONELEMENT_H_

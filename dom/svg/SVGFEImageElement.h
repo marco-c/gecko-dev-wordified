@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGFEImageElement_h
+DOM_SVG_SVGFEIMAGEELEMENT_H_
 #
 define
-mozilla_dom_SVGFEImageElement_h
+DOM_SVG_SVGFEIMAGEELEMENT_H_
 #
 include
 "
@@ -605,3 +605,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+DOM_SVG_SVGFEIMAGEELEMENT_H_

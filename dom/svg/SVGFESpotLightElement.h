@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGFESpotLightElement_h
+DOM_SVG_SVGFESPOTLIGHTELEMENT_H_
 #
 define
-mozilla_dom_SVGFESpotLightElement_h
+DOM_SVG_SVGFESPOTLIGHTELEMENT_H_
 #
 include
 "
@@ -426,4 +426,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGFESpotLightElement_h
+DOM_SVG_SVGFESPOTLIGHTELEMENT_H_

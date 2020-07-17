@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_DOMSVGAnimatedEnumeration_h
+DOM_SVG_DOMSVGANIMATEDENUMERATION_H_
 #
 define
-mozilla_dom_DOMSVGAnimatedEnumeration_h
+DOM_SVG_DOMSVGANIMATEDENUMERATION_H_
 #
 include
 "
@@ -260,4 +260,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_DOMSVGAnimatedEnumeration_h
+DOM_SVG_DOMSVGANIMATEDENUMERATION_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGSwitchElement_h
+DOM_SVG_SVGSWITCHELEMENT_H_
 #
 define
-mozilla_dom_SVGSwitchElement_h
+DOM_SVG_SVGSWITCHELEMENT_H_
 #
 include
 "
@@ -394,4 +394,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGSwitchElement_h
+DOM_SVG_SVGSWITCHELEMENT_H_

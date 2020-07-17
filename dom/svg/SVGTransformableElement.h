@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-SVGTransformableElement_h
+DOM_SVG_SVGTRANSFORMABLEELEMENT_H_
 #
 define
-SVGTransformableElement_h
+DOM_SVG_SVGTRANSFORMABLEELEMENT_H_
 #
 include
 "
@@ -577,4 +577,4 @@ mozilla
 endif
 /
 /
-SVGTransformableElement_h
+DOM_SVG_SVGTRANSFORMABLEELEMENT_H_

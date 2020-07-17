@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGFEOffsetElement_h
+DOM_SVG_SVGFEOFFSETELEMENT_H_
 #
 define
-mozilla_dom_SVGFEOffsetElement_h
+DOM_SVG_SVGFEOFFSETELEMENT_H_
 #
 include
 "
@@ -445,4 +445,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGFEOffsetElement_h
+DOM_SVG_SVGFEOFFSETELEMENT_H_

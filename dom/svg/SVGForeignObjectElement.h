@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGForeignObjectElement_h
+DOM_SVG_SVGFOREIGNOBJECTELEMENT_H_
 #
 define
-mozilla_dom_SVGForeignObjectElement_h
+DOM_SVG_SVGFOREIGNOBJECTELEMENT_H_
 #
 include
 "
@@ -412,4 +412,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGForeignObjectElement_h
+DOM_SVG_SVGFOREIGNOBJECTELEMENT_H_

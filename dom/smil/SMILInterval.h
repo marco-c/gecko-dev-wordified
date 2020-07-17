@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILInterval_h
+DOM_SMIL_SMILINTERVAL_H_
 #
 define
-mozilla_SMILInterval_h
+DOM_SMIL_SMILINTERVAL_H_
 #
 include
 "
@@ -646,4 +646,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILInterval_h
+DOM_SMIL_SMILINTERVAL_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGTests_h
+DOM_SVG_SVGTESTS_H_
 #
 define
-mozilla_dom_SVGTests_h
+DOM_SVG_SVGTESTS_H_
 #
 include
 "
@@ -757,4 +757,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGTests_h
+DOM_SVG_SVGTESTS_H_

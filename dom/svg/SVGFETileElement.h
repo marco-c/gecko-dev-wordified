@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGFETileElement_h
+DOM_SVG_SVGFETILEELEMENT_H_
 #
 define
-mozilla_dom_SVGFETileElement_h
+DOM_SVG_SVGFETILEELEMENT_H_
 #
 include
 "
@@ -400,4 +400,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGFETileElement_h
+DOM_SVG_SVGFETILEELEMENT_H_

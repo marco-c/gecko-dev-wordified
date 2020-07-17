@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGTSpanElement_h
+DOM_SVG_SVGTSPANELEMENT_H_
 #
 define
-mozilla_dom_SVGTSpanElement_h
+DOM_SVG_SVGTSPANELEMENT_H_
 #
 include
 "
@@ -342,4 +342,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGTSpanElement_h
+DOM_SVG_SVGTSPANELEMENT_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__NS_SVGELEMENT_H__
+DOM_SVG_SVGELEMENT_H_
 #
 define
-__NS_SVGELEMENT_H__
+DOM_SVG_SVGELEMENT_H_
 /
 *
 SVGElement
@@ -3916,4 +3916,4 @@ mozilla
 endif
 /
 /
-__NS_SVGELEMENT_H__
+DOM_SVG_SVGELEMENT_H_

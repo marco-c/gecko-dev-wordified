@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__NS_SVGCLASS_H__
+DOM_SVG_SVGANIMATEDCLASS_H_
 #
 define
-__NS_SVGCLASS_H__
+DOM_SVG_SVGANIMATEDCLASS_H_
 #
 include
 "
@@ -460,4 +460,4 @@ mozilla
 endif
 /
 /
-__NS_SVGCLASS_H__
+DOM_SVG_SVGANIMATEDCLASS_H_

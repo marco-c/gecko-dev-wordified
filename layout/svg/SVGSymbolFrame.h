@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__NS_SVGISYMBOLFRAME_H__
+LAYOUT_SVG_SVGSYMBOLFRAME_H_
 #
 define
-__NS_SVGISYMBOLFRAME_H__
+LAYOUT_SVG_SVGSYMBOLFRAME_H_
 #
 include
 "
@@ -270,3 +270,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+LAYOUT_SVG_SVGSYMBOLFRAME_H_

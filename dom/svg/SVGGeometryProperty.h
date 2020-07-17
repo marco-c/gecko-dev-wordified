@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGGeometryProperty_SVGGeometryProperty_h
+DOM_SVG_SVGGEOMETRYPROPERTY_H_
 #
 define
-mozilla_dom_SVGGeometryProperty_SVGGeometryProperty_h
+DOM_SVG_SVGGEOMETRYPROPERTY_H_
 #
 include
 "
@@ -1971,3 +1971,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+DOM_SVG_SVGGEOMETRYPROPERTY_H_

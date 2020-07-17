@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGTextPositioningElement_h
+DOM_SVG_SVGTEXTPOSITIONINGELEMENT_H_
 #
 define
-mozilla_dom_SVGTextPositioningElement_h
+DOM_SVG_SVGTEXTPOSITIONINGELEMENT_H_
 #
 include
 "
@@ -316,4 +316,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGTextPositioningElement_h
+DOM_SVG_SVGTEXTPOSITIONINGELEMENT_H_

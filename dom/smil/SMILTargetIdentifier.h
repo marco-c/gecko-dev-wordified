@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILTargetIdentifier_h
+DOM_SMIL_SMILTARGETIDENTIFIER_H_
 #
 define
-mozilla_SMILTargetIdentifier_h
+DOM_SMIL_SMILTARGETIDENTIFIER_H_
 #
 include
 "
@@ -504,4 +504,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILTargetIdentifier_h
+DOM_SMIL_SMILTARGETIDENTIFIER_H_

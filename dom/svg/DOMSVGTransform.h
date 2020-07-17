@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGTransform_h
+DOM_SVG_DOMSVGTRANSFORM_H_
 #
 define
-mozilla_dom_SVGTransform_h
+DOM_SVG_DOMSVGTRANSFORM_H_
 #
 include
 "
@@ -1174,4 +1174,4 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 endif
 /
 /
-mozilla_dom_SVGTransform_h
+DOM_SVG_DOMSVGTRANSFORM_H_

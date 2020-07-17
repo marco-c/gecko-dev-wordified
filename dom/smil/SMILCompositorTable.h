@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILCompositorTable_h
+DOM_SMIL_SMILCOMPOSITORTABLE_H_
 #
 define
-mozilla_SMILCompositorTable_h
+DOM_SMIL_SMILCOMPOSITORTABLE_H_
 #
 include
 "
@@ -285,4 +285,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILCompositorTable_h
+DOM_SMIL_SMILCOMPOSITORTABLE_H_

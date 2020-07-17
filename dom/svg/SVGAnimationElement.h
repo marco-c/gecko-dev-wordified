@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGAnimationElement_h
+DOM_SVG_SVGANIMATIONELEMENT_H_
 #
 define
-mozilla_dom_SVGAnimationElement_h
+DOM_SVG_SVGANIMATIONELEMENT_H_
 #
 include
 "
@@ -778,4 +778,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGAnimationElement_h
+DOM_SVG_SVGANIMATIONELEMENT_H_

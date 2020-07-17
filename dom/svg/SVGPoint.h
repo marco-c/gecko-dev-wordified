@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-MOZILLA_SVGPOINT_H__
+DOM_SVG_SVGPOINT_H_
 #
 define
-MOZILLA_SVGPOINT_H__
+DOM_SVG_SVGPOINT_H_
 #
 include
 "
@@ -579,4 +579,4 @@ mozilla
 endif
 /
 /
-MOZILLA_SVGPOINT_H__
+DOM_SVG_SVGPOINT_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGFEDiffuseLightingElement_h
+DOM_SVG_SVGFEDIFFUSELIGHTINGELEMENT_H_
 #
 define
-mozilla_dom_SVGFEDiffuseLightingElement_h
+DOM_SVG_SVGFEDIFFUSELIGHTINGELEMENT_H_
 #
 include
 "
@@ -365,4 +365,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGFEDiffuseLightingElement_h
+DOM_SVG_SVGFEDIFFUSELIGHTINGELEMENT_H_

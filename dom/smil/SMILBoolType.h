@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILBoolType_h
+DOM_SMIL_SMILBOOLTYPE_H_
 #
 define
-mozilla_SMILBoolType_h
+DOM_SMIL_SMILBOOLTYPE_H_
 #
 include
 "
@@ -343,4 +343,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILBoolType_h
+DOM_SMIL_SMILBOOLTYPE_H_

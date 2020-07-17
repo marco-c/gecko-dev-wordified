@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_SMILCompositor_h
+DOM_SMIL_SMILCOMPOSITOR_H_
 #
 define
-mozilla_SMILCompositor_h
+DOM_SMIL_SMILCOMPOSITOR_H_
 #
 include
 <
@@ -1094,4 +1094,4 @@ mozilla
 endif
 /
 /
-mozilla_SMILCompositor_h
+DOM_SMIL_SMILCOMPOSITOR_H_

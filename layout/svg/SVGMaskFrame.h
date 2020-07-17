@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-__NS_SVGMASKFRAME_H__
+LAYOUT_SVG_SVGMASKFRAME_H_
 #
 define
-__NS_SVGMASKFRAME_H__
+LAYOUT_SVG_SVGMASKFRAME_H_
 #
 include
 "
@@ -581,3 +581,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+LAYOUT_SVG_SVGMASKFRAME_H_

@@ -116,10 +116,10 @@ MPL
 /
 #
 ifndef
-mozilla_dom_SVGTextContentElement_h
+DOM_SVG_SVGTEXTCONTENTELEMENT_H_
 #
 define
-mozilla_dom_SVGTextContentElement_h
+DOM_SVG_SVGTEXTCONTENTELEMENT_H_
 #
 include
 "
@@ -437,4 +437,4 @@ mozilla
 endif
 /
 /
-mozilla_dom_SVGTextContentElement_h
+DOM_SVG_SVGTEXTCONTENTELEMENT_H_
