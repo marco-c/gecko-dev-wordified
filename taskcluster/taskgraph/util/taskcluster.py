@@ -2043,8 +2043,6 @@ rootUrl
 :
 get_root_url
 (
-use_proxy
-=
 True
 )
 }
