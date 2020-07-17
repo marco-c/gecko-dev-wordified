@@ -4023,6 +4023,13 @@ LogTaskBase
 nsTimerImpl
 >
 ;
+template
+class
+LogTaskBase
+<
+Task
+>
+;
 MOZ_THREAD_LOCAL
 (
 nsISerialEventTarget

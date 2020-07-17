@@ -13833,6 +13833,12 @@ false
 class
 MicroTaskRunnable
 ;
+class
+Task
+;
+/
+/
+TaskController
 /
 /
 Specialized
@@ -13966,6 +13972,13 @@ LogTaskBase
 nsTimerImpl
 >
 LogTimerEvent
+;
+typedef
+LogTaskBase
+<
+Task
+>
+LogTask
 ;
 /
 /
