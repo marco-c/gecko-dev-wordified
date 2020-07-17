@@ -550,17 +550,6 @@ services
 .
 *
 -
-disableAccessibility
-{
-Function
-}
-*
-Disable
-accessibility
-services
-.
-*
--
 resetAccessiblity
 {
 Function
@@ -682,7 +671,6 @@ stopListeningForAccessibilityEvents
 audit
 simulate
 enableAccessibility
-disableAccessibility
 resetAccessiblity
 startListeningForLifecycleEvents
 stopListeningForLifecycleEvents
@@ -747,7 +735,6 @@ stopListeningForAccessibilityEvents
 audit
 simulate
 enableAccessibility
-disableAccessibility
 resetAccessiblity
 startListeningForLifecycleEvents
 stopListeningForLifecycleEvents
