@@ -168,6 +168,11 @@ PoisonIOInterposer
 h
 '
 '
+SmallArrayLRUCache
+.
+h
+'
+'
 XPCOM
 .
 h
