@@ -191,9 +191,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIHelperAppLauncherDialog
+"
 ]
 )
 show

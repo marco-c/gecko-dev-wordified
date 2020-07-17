@@ -378,9 +378,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFormSubmitObserver
+"
 ]
 )
 notifyInvalidSubmit

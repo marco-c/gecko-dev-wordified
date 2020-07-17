@@ -88,9 +88,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPlatformInfo
+"
 ]
 )
 }
@@ -125,9 +125,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPlatformInfo
+"
 ]
 )
 }

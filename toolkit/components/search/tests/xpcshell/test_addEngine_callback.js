@@ -98,9 +98,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPromptService
+"
 ]
 )
 confirmEx
@@ -121,9 +121,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPrompt
+"
 ]
 )
 alert

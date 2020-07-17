@@ -1007,9 +1007,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFilePicker
+"
 ]
 )
 ;

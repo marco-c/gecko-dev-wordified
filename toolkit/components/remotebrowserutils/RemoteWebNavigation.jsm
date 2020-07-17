@@ -901,9 +901,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebNavigation
+"
 ]
 )
 ;

@@ -69,9 +69,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIRunnable
+"
 ]
 )
 /

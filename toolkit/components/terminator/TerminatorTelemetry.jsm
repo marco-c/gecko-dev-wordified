@@ -321,9 +321,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 /

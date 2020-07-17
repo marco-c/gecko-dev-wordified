@@ -1870,12 +1870,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAboutNewTabService
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 ;

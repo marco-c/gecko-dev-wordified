@@ -658,9 +658,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPaymentUIService
+"
 ]
 )
 ;

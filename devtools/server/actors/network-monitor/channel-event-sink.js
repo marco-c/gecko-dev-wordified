@@ -242,9 +242,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIChannelEventSink
+"
 ]
 )
 registerCollector

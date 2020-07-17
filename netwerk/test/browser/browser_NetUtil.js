@@ -260,12 +260,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProgressEventSink
-Ci
-.
+"
+"
 nsIInterfaceRequestor
+"
 ]
 )
 getInterface

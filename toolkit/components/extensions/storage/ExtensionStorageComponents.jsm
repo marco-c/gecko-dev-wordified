@@ -660,9 +660,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIInterfaceRequestor
+"
 ]
 )
 /

@@ -695,9 +695,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsILoadURIDelegate
+"
 ]
 )
 ;

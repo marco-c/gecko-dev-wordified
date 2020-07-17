@@ -163,9 +163,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPromptService
+"
 ]
 )
 alert

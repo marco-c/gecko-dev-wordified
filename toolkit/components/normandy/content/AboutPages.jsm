@@ -453,9 +453,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAboutModule
+"
 ]
 )
 ;

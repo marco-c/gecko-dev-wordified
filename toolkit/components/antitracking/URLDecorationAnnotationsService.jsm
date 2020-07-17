@@ -171,12 +171,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
-Ci
-.
+"
+"
 nsIURLDecorationAnnotationsService
+"
 ]
 )
 _initialized

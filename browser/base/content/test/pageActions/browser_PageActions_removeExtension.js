@@ -1999,9 +1999,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPromptService
+"
 ]
 )
 confirmEx

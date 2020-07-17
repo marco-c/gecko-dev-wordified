@@ -1865,9 +1865,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 clearChangedIDs

@@ -63,7 +63,6 @@ strict
 ;
 const
 {
-Ci
 components
 }
 =
@@ -191,12 +190,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIReflowObserver
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 docshell

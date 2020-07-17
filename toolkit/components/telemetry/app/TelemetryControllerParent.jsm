@@ -7547,9 +7547,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISupportsWeakReference
+"
 ]
 )
 _attachObservers

@@ -740,9 +740,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompleteSearch
+"
 ]
 )
 /
@@ -1739,9 +1739,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 lastProfileAutoCompleteResult

@@ -279,9 +279,9 @@ generateQI
 (
 [
 observerInterface
-Ci
-.
+"
 nsISupportsWeakReference
+"
 ]
 )
 ;

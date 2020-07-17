@@ -228,9 +228,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPageThumbsStorageService
+"
 ]
 )
 /

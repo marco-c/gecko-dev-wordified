@@ -286,9 +286,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDirectoryServiceProvider
+"
 ]
 )
 }

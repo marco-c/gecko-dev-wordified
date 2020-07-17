@@ -3392,9 +3392,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINavBookmarkObserver
+"
 ]
 )
 _element

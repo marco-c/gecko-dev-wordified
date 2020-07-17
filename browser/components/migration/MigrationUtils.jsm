@@ -734,9 +734,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIBrowserProfileMigrator
+"
 ]
 )
 /

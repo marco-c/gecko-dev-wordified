@@ -1135,9 +1135,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIServiceWorkerUnregisterCallback
+"
 ]
 )
 }

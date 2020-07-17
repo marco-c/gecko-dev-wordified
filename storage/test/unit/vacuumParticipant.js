@@ -689,12 +689,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 mozIStorageVacuumParticipant
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 }

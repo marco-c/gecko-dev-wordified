@@ -504,9 +504,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIURLFormatter
+"
 ]
 )
 _defaults

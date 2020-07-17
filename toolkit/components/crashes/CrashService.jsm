@@ -1109,12 +1109,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICrashService
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 async

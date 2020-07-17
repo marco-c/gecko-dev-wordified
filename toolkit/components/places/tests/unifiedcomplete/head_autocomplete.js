@@ -618,9 +618,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompletePopup
+"
 ]
 )
 }
@@ -766,9 +766,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompleteInput
+"
 ]
 )
 }

@@ -1438,12 +1438,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIChannelEventSink
-Ci
-.
+"
+"
 nsIAuthPrompt2
+"
 ]
 )
 }

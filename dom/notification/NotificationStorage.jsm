@@ -1041,9 +1041,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINotificationStorage
+"
 ]
 )
 }

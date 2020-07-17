@@ -1583,9 +1583,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebSocketChannel
+"
 ]
 )
 get

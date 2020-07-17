@@ -111,9 +111,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINavHistoryObserver
+"
 ]
 )
 }

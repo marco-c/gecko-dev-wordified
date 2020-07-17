@@ -116,9 +116,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITimerCallback
+"
 ]
 )
 classID

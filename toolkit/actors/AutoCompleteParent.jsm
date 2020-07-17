@@ -499,12 +499,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompleteController
-Ci
-.
+"
+"
 nsIAutoCompleteInput
+"
 ]
 )
 /

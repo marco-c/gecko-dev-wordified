@@ -313,12 +313,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamListener
-Ci
-.
+"
+"
 nsIInterfaceRequestor
+"
 ]
 )
 /

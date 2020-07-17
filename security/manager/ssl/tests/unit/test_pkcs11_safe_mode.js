@@ -178,9 +178,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIXULRuntime
+"
 ]
 )
 }

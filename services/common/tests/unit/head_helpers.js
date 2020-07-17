@@ -1114,9 +1114,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISystemProxySettings
+"
 ]
 )
 /

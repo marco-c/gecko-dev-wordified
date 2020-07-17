@@ -118,9 +118,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIInputListAutoComplete
+"
 ]
 )
 autoCompleteSearch

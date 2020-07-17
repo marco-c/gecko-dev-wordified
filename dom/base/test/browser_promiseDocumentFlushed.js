@@ -704,12 +704,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIReflowObserver
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 }

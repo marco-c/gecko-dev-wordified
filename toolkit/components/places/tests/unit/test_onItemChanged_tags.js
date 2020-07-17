@@ -165,9 +165,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINavBookmarkObserver
+"
 ]
 )
 _changedCount

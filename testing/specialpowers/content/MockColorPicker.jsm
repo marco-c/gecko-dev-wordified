@@ -231,9 +231,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFactory
+"
 ]
 )
 }
@@ -459,9 +459,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIColorPicker
+"
 ]
 )
 init

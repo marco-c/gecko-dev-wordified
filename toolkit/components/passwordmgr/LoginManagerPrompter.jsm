@@ -508,9 +508,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsILoginManagerPrompter
+"
 ]
 )
 ;

@@ -313,9 +313,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPurgeTrackerService
+"
 ]
 )
 /

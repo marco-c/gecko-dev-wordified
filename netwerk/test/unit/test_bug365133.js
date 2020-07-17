@@ -1020,9 +1020,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIChannel
+"
 ]
 )
 }

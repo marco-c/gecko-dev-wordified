@@ -190,9 +190,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIUDPSocketListener
+"
 ]
 )
 onPacketReceived
@@ -405,9 +405,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIUDPSocketListener
+"
 ]
 )
 onPacketReceived
@@ -608,9 +608,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIUDPSocketListener
+"
 ]
 )
 onPacketReceived

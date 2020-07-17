@@ -732,12 +732,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICacheStorageConsumptionObserver
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 }

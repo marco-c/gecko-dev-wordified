@@ -910,9 +910,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISystemProxySettings
+"
 ]
 )
 mainThreadOnly

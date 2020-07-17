@@ -1289,12 +1289,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 onStart

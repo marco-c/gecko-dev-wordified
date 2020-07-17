@@ -8326,9 +8326,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICommandLineHandler
+"
 ]
 )
 }

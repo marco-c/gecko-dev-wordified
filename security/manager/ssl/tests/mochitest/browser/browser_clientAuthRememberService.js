@@ -374,9 +374,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIClientAuthRememberService
+"
 ]
 )
 }

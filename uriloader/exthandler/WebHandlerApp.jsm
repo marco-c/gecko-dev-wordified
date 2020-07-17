@@ -167,12 +167,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebHandlerApp
-Ci
-.
+"
+"
 nsIHandlerApp
+"
 ]
 )
 _name

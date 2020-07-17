@@ -270,9 +270,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIMenuBuilder
+"
 ]
 )
 currentNode

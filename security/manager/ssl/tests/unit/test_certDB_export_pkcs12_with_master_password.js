@@ -152,9 +152,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPrompt
+"
 ]
 )
 /
@@ -305,9 +305,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPromptFactory
+"
 ]
 )
 getPrompt

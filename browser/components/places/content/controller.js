@@ -663,9 +663,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIClipboardOwner
+"
 ]
 )
 /

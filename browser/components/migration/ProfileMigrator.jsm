@@ -112,9 +112,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProfileMigrator
+"
 ]
 )
 classDescription

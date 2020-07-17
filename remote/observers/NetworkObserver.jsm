@@ -3013,9 +3013,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamListener
+"
 ]
 )
 ;

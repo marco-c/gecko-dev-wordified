@@ -818,9 +818,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICRLiteState
+"
 ]
 )
 ;
@@ -868,9 +868,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICertInfo
+"
 ]
 )
 ;
@@ -932,9 +932,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIIssuerAndSerialRevocationState
+"
 ]
 )
 ;
@@ -980,9 +980,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISubjectAndPubKeyRevocationState
+"
 ]
 )
 ;

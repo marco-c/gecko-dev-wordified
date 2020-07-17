@@ -5998,9 +5998,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIClearDataService
+"
 ]
 )
 _xpcom_factory

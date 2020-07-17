@@ -541,9 +541,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFactory
+"
 ]
 )
 }

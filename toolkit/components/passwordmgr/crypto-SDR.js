@@ -171,9 +171,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsILoginManagerCrypto
+"
 ]
 )
 __decoderRing

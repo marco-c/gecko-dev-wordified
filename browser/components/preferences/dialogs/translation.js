@@ -425,9 +425,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITreeView
+"
 ]
 )
 }

@@ -318,9 +318,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICertInfo
+"
 ]
 )
 ;
@@ -1690,9 +1690,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICRLiteState
+"
 ]
 )
 ;

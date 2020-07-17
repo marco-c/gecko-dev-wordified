@@ -165,9 +165,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDOMMozWakeLockListener
+"
 ]
 )
 callback

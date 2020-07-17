@@ -377,9 +377,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebVTTParserWrapper
+"
 ]
 )
 }

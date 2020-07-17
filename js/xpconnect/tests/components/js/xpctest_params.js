@@ -283,12 +283,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-[
 "
 nsIXPCTestParams
 "
-]
 ]
 )
 contractID

@@ -872,9 +872,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDNSListener
+"
 ]
 )
 ;

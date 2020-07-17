@@ -480,12 +480,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICancelable
-Ci
-.
+"
+"
 nsIHelperAppLauncher
+"
 ]
 )
 }

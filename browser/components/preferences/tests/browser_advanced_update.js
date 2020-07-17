@@ -102,9 +102,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIUpdateManager
+"
 ]
 )
 createInstance

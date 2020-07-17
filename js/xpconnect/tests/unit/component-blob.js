@@ -537,9 +537,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIClassInfo
+"
 ]
 )
 }

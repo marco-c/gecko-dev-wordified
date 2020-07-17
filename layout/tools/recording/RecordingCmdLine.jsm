@@ -79,9 +79,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICommandLineHandler
+"
 ]
 )
 /

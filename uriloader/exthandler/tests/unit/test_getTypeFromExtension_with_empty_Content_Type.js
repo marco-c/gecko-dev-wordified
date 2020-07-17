@@ -654,9 +654,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWindowsRegKey
+"
 ]
 )
 /

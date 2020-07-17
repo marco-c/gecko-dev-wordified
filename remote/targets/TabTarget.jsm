@@ -824,12 +824,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIHttpRequestHandler
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 ;

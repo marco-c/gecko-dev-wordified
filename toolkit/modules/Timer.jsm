@@ -179,12 +179,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITimerCallback
-Ci
-.
+"
+"
 nsINamed
+"
 ]
 )
 ;

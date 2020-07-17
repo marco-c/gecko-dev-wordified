@@ -6082,9 +6082,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIHelperAppLauncherDialog
+"
 ]
 )
 promptForSaveToFileAsync

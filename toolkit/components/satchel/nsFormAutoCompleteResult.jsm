@@ -934,9 +934,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompleteResult
+"
 ]
 )
 }

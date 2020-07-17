@@ -392,9 +392,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentHandler
+"
 ]
 )
 log

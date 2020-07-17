@@ -1060,9 +1060,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAsyncShutdownBarrier
+"
 ]
 )
 }
@@ -1225,9 +1225,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAsyncShutdownBarrier
+"
 ]
 )
 }
@@ -1414,9 +1414,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAsyncShutdownService
+"
 ]
 )
 }

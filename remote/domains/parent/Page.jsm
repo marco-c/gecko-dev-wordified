@@ -4193,9 +4193,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebProgressListener
+"
 ]
 )
 }

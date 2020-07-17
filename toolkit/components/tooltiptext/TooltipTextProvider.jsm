@@ -1162,9 +1162,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITooltipTextProvider
+"
 ]
 )
 }

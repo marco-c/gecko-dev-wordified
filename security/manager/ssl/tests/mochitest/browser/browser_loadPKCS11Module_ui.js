@@ -363,9 +363,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPKCS11ModuleDB
+"
 ]
 )
 }
@@ -460,9 +460,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPromptService
+"
 ]
 )
 }

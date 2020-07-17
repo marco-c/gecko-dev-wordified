@@ -7305,9 +7305,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 }
@@ -7435,9 +7435,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINavHistoryObserver
+"
 ]
 )
 /
