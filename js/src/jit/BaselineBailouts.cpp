@@ -15960,6 +15960,12 @@ BailoutKind
 :
 NonInt32ArrayLength
 :
+case
+BailoutKind
+:
+:
+ProtoGuard
+:
 /
 /
 Do
