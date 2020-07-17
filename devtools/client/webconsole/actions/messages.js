@@ -669,7 +669,6 @@ packet
 idGenerator
 =
 null
-response
 )
 {
 if
@@ -700,7 +699,6 @@ type
 :
 NETWORK_MESSAGE_UPDATE
 message
-response
 }
 ;
 }
