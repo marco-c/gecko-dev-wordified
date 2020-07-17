@@ -869,6 +869,10 @@ ScrollableLayerGuid
 &
 aGuid
 const
+LayoutDevicePoint
+&
+aFocusPoint
+const
 LayoutDeviceCoord
 &
 aSpanChange
@@ -970,6 +974,7 @@ APZCCallbackHelper
 NotifyPinchGesture
 (
 aType
+aFocusPoint
 aSpanChange
 aModifiers
 mCompositorSession

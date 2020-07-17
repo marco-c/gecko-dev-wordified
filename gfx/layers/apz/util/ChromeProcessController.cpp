@@ -1315,6 +1315,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+LayoutDevicePoint
+&
+aFocusPoint
 LayoutDeviceCoord
 aSpanChange
 Modifiers
@@ -1344,6 +1348,7 @@ PinchGestureInput
 :
 PinchGestureType
 ScrollableLayerGuid
+LayoutDevicePoint
 LayoutDeviceCoord
 Modifiers
 >
@@ -1365,6 +1370,7 @@ ChromeProcessController
 NotifyPinchGesture
 aType
 aGuid
+aFocusPoint
 aSpanChange
 aModifiers
 )
@@ -1456,6 +1462,7 @@ APZCCallbackHelper
 :
 NotifyPinchGesture
 aType
+aFocusPoint
 aSpanChange
 aModifiers
 mWidget

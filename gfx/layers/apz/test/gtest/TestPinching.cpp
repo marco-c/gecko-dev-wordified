@@ -1805,6 +1805,7 @@ _
 _
 _
 _
+_
 )
 )
 .
@@ -1915,6 +1916,7 @@ EXPECT_CALL
 mcc
 NotifyPinchGesture
 (
+_
 _
 _
 _
@@ -3460,6 +3462,7 @@ apzc
 GetGuid
 (
 )
+_
 LayoutDeviceCoord
 (
 0
@@ -3491,6 +3494,7 @@ GetGuid
 )
 _
 _
+_
 )
 )
 .
@@ -3518,6 +3522,7 @@ apzc
 GetGuid
 (
 )
+_
 LayoutDeviceCoord
 (
 0
@@ -3758,6 +3763,7 @@ apzc
 GetGuid
 (
 )
+_
 LayoutDeviceCoord
 (
 0
@@ -3789,6 +3795,7 @@ GetGuid
 )
 _
 _
+_
 )
 )
 .
@@ -3816,6 +3823,7 @@ apzc
 GetGuid
 (
 )
+_
 LayoutDeviceCoord
 (
 0
