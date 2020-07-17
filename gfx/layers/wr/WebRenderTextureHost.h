@@ -492,6 +492,13 @@ HasIntermediateBuffer
 const
 override
 ;
+bool
+NeedsDeferredDeletion
+(
+)
+const
+override
+;
 uint32_t
 NumSubTextures
 (

@@ -150,6 +150,11 @@ RendererScreenshotGrabber
 h
 '
 '
+RenderExternalTextureHost
+.
+h
+'
+'
 RenderSharedSurfaceTextureHost
 .
 h
@@ -231,6 +236,11 @@ cpp
 '
 '
 RendererScreenshotGrabber
+.
+cpp
+'
+'
+RenderExternalTextureHost
 .
 cpp
 '
