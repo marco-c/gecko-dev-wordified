@@ -450,6 +450,7 @@ work
 .
 *
 /
+MOZ_LIFETIME_BOUND
 const
 nsTString
 <
@@ -477,6 +478,7 @@ this
 )
 ;
 }
+MOZ_LIFETIME_BOUND
 operator
 const
 nsTString
