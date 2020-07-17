@@ -5820,6 +5820,11 @@ interruptBits_
 (
 0
 )
+inlinedICScript_
+(
+this
+nullptr
+)
 ionReturnOverride_
 (
 this
