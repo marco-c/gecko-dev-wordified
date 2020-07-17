@@ -1275,6 +1275,13 @@ is
 a
 gap
 .
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 shift

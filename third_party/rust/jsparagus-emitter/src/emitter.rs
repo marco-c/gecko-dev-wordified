@@ -5742,9 +5742,6 @@ try_
 &
 mut
 self
-jump_at_end_offset
-:
-i32
 )
 {
 self
@@ -5755,13 +5752,6 @@ Opcode
 :
 :
 Try
-)
-;
-self
-.
-write_i32
-(
-jump_at_end_offset
 )
 ;
 }
