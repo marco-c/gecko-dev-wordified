@@ -4390,6 +4390,9 @@ changeContentFormValues
 (
 browser
 selectorValues
+shouldBlur
+=
+true
 )
 {
 for
@@ -4432,6 +4435,7 @@ changeContentInputValue
 browser
 sel
 value
+shouldBlur
 )
 ;
 await
@@ -4450,6 +4454,9 @@ changeContentInputValue
 browser
 selector
 str
+shouldBlur
+=
+true
 )
 {
 await
@@ -4553,6 +4560,7 @@ browser
 {
 selector
 str
+shouldBlur
 }
 async
 function
@@ -4560,6 +4568,7 @@ function
 {
 selector
 str
+shouldBlur
 }
 )
 {
@@ -4774,6 +4783,11 @@ content
 )
 ;
 }
+if
+(
+shouldBlur
+)
+{
 let
 changedPromise
 =
@@ -4796,6 +4810,7 @@ blur
 await
 changedPromise
 ;
+}
 is
 (
 str
