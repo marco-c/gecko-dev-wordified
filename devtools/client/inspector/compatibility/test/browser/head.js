@@ -48,6 +48,8 @@ from
 .
 .
 /
+rules
+/
 test
 /
 head
@@ -59,7 +61,8 @@ js
 /
 Import
 the
-inspector
+rule
+view
 '
 s
 head
@@ -70,6 +73,13 @@ first
 which
 itself
 imports
+inspector
+'
+s
+head
+.
+js
+and
 shared
 -
 head
@@ -99,6 +109,8 @@ devtools
 client
 /
 inspector
+/
+rules
 /
 test
 /
