@@ -695,7 +695,7 @@ class
 TypeInState
 ;
 class
-WSRunObject
+WhiteSpaceVisibilityKeeper
 ;
 template
 <
@@ -15710,7 +15710,7 @@ TypeInState
 ;
 friend
 class
-WSRunObject
+WhiteSpaceVisibilityKeeper
 ;
 friend
 class

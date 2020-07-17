@@ -357,7 +357,7 @@ class
 SplitRangeOffResult
 ;
 class
-WSRunObject
+WhiteSpaceVisibilityKeeper
 ;
 class
 WSRunScanner
@@ -4669,7 +4669,7 @@ performance
 issue
 of
 *
-WSRunObject
+WhiteSpaceVisibilityKeeper
 this
 call
 may
@@ -4680,8 +4680,8 @@ And
 also
 note
 that
-this
 *
+this
 removes
 a
 empty
@@ -33611,7 +33611,7 @@ TextEditor
 ;
 friend
 class
-WSRunObject
+WhiteSpaceVisibilityKeeper
 ;
 friend
 class
