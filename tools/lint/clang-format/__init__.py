@@ -564,7 +564,7 @@ substs
 get
 (
 '
-BIN_SUFFIX
+HOST_BIN_SUFFIX
 '
 '
 '
