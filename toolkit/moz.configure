@@ -4364,16 +4364,6 @@ nasm_version
 if
 target
 .
-os
-!
-=
-'
-Android
-'
-:
-if
-target
-.
 cpu
 =
 =
