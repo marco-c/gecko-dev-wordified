@@ -2257,11 +2257,11 @@ this
 ;
 this
 .
-notifyResourceAvailable
+onResourceAvailable
 =
 this
 .
-notifyResourceAvailable
+onResourceAvailable
 .
 bind
 (
@@ -2300,7 +2300,7 @@ will
 end
 up
 calling
-notifyResourceAvailable
+onResourceAvailable
 *
 whenever
 new
@@ -2431,7 +2431,7 @@ client
 .
 *
 /
-notifyResourceAvailable
+onResourceAvailable
 (
 resources
 )
