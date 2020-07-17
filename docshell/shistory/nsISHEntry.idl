@@ -1328,6 +1328,9 @@ auto
 .
 *
 /
+[
+infallible
+]
 attribute
 boolean
 scrollRestorationIsManual
