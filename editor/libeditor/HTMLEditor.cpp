@@ -10195,6 +10195,7 @@ pointToInsert
 WSRunScanner
 wsScannerForPointToInsert
 (
+*
 this
 pointToInsert
 )
@@ -20526,6 +20527,7 @@ block
 WSRunScanner
 wsScannerForPoint
 (
+*
 this
 aPoint
 )
