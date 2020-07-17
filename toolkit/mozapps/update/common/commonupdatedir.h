@@ -100,7 +100,7 @@ NS_tchar
 ;
 #
 endif
-nsresult
+bool
 GetInstallHash
 (
 const
