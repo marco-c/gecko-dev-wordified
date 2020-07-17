@@ -119,6 +119,10 @@ protocol
 PBackground
 ;
 include
+protocol
+PStreamFilter
+;
+include
 NeckoChannelParams
 ;
 include
@@ -501,6 +505,16 @@ SetClassifierMatchedTrackingInfo
 (
 ClassifierInfo
 info
+)
+;
+async
+AttachStreamFilter
+(
+Endpoint
+<
+PStreamFilterParent
+>
+aEndpoint
 )
 ;
 async

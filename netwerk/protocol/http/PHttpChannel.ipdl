@@ -119,10 +119,6 @@ protocol
 PNecko
 ;
 include
-protocol
-PStreamFilter
-;
-include
 InputStreamParams
 ;
 include
@@ -1044,16 +1040,6 @@ nsString
 url
 nsString
 contentType
-)
-;
-async
-AttachStreamFilter
-(
-Endpoint
-<
-PStreamFilterParent
->
-aEndpoint
 )
 ;
 /
