@@ -12900,9 +12900,9 @@ JSScript
 .
 if
 (
-compilationInfo
+stencil
 .
-topLevelAsmJS
+isAsmJSModule
 )
 {
 return
