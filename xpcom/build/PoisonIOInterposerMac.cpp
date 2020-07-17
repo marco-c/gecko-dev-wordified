@@ -2465,6 +2465,15 @@ sOnlyReportDirtyWrites
 true
 ;
 }
+/
+/
+Never
+called
+!
+See
+bug
+1647107
+.
 void
 ClearPoisonIOInterposer
 (
