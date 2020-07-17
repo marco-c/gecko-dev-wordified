@@ -1,5 +1,6 @@
 ETAG
 =
+b
 '
 "
 123abc
@@ -7,6 +8,7 @@ ETAG
 '
 CONTENT_TYPE
 =
+b
 "
 text
 /
@@ -14,6 +16,7 @@ plain
 "
 CONTENT
 =
+u
 "
 lorem
 ipsum
@@ -49,6 +52,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -72,6 +76,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -88,6 +93,7 @@ status
 =
 (
 304
+b
 "
 Not
 Modified
@@ -95,6 +101,7 @@ Modified
 )
         
 return
+u
 "
 "
     
@@ -114,6 +121,7 @@ status
 =
 (
 200
+b
 "
 OK
 "
@@ -125,6 +133,7 @@ headers
 .
 set
 (
+b
 "
 ETag
 "
@@ -137,6 +146,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -

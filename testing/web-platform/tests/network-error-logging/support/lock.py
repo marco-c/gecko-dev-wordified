@@ -106,6 +106,7 @@ import
 time
 _LOCK_KEY
 =
+b
 "
 67966d2e
 -
@@ -223,6 +224,7 @@ return
 503
 [
 ]
+b
 "
 Cannot
 obtain
@@ -247,6 +249,7 @@ report_id
 )
     
 return
+b
 "
 Obtained
 lock
@@ -326,6 +329,7 @@ return
 503
 [
 ]
+b
 "
 Cannot
 release
@@ -340,6 +344,7 @@ lock_holder
 )
   
 return
+b
 "
 Released
 lock
@@ -365,6 +370,7 @@ GET
 .
 first
 (
+b
 "
 op
 "
@@ -378,6 +384,7 @@ GET
 .
 first
 (
+b
 "
 reportID
 "
@@ -387,6 +394,7 @@ if
 op
 =
 =
+b
 "
 lock
 "
@@ -403,6 +411,7 @@ elif
 op
 =
 =
+b
 "
 unlock
 "
@@ -423,6 +432,7 @@ return
 400
 [
 ]
+b
 "
 Invalid
 op
