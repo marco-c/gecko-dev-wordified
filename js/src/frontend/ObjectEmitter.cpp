@@ -2748,7 +2748,7 @@ bce_
 ScopeKind
 :
 :
-Lexical
+ClassBody
 scopeBindings
 )
 )

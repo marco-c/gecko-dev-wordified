@@ -10548,6 +10548,12 @@ ScopeKind
 :
 FunctionLexical
 :
+case
+ScopeKind
+:
+:
+ClassBody
+:
 {
 LexicalScope
 :

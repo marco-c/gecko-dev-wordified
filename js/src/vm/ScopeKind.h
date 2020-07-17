@@ -147,6 +147,7 @@ Catch
 NamedLambda
 StrictNamedLambda
 FunctionLexical
+ClassBody
 /
 /
 WithScope

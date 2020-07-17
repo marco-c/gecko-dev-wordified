@@ -3078,6 +3078,12 @@ ScopeKind
 :
 FunctionLexical
 :
+case
+ScopeKind
+:
+:
+ClassBody
+:
 MOZ_TRY
 (
 LexicalScope
