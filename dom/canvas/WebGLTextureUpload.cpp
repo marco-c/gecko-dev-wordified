@@ -779,7 +779,6 @@ cloneData
 -
 >
 mAlphaType
-false
 )
 ;
 }
@@ -1108,7 +1107,6 @@ size
 z
 surf
 alphaType
-true
 )
 ;
 }
@@ -1819,7 +1817,6 @@ dataSurf
 sfer
 .
 mAlphaType
-true
 )
 ;
 }
