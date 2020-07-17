@@ -173,13 +173,6 @@ nsQueryFrame
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 class
 gfxContext
 ;

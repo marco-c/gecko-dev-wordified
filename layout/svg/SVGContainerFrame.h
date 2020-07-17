@@ -175,13 +175,6 @@ nsRect
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 class
 gfxContext
 ;
@@ -747,7 +740,7 @@ is
 inherited
 by
 *
-nsSVGGenericContainerFrame
+SVGGenericContainerFrame
 which
 is
 used

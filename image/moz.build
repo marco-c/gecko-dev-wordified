@@ -698,7 +698,7 @@ VectorImage
 .
 cpp
 includes
-nsSVGUtils
+SVGUtils
 .
 h
 and

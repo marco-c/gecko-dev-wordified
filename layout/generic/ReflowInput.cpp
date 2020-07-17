@@ -279,6 +279,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLInputElement
@@ -19962,7 +19971,7 @@ false
 else
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -20338,7 +20347,7 @@ AppUnitsPerDevPixel
 else
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -22466,7 +22475,7 @@ margin
 .
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree

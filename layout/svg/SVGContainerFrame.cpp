@@ -187,6 +187,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGElement
@@ -197,13 +206,6 @@ h
 include
 "
 nsCSSFrameConstructor
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -1342,12 +1344,12 @@ just
 use
 /
 /
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleBoundsUpdate
 .
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -2031,7 +2033,7 @@ kid
 }
 m
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetTransformMatrixInUserSpace
@@ -2054,7 +2056,7 @@ continue
 ;
 }
 }
-nsSVGUtils
+SVGUtils
 :
 :
 PaintFrameWithEffects
@@ -2121,7 +2123,7 @@ path
 )
 ;
 return
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestChildren
@@ -2141,7 +2143,7 @@ ReflowSVG
 {
 NS_ASSERTION
 (
-nsSVGUtils
+SVGUtils
 :
 :
 OuterSVGIsCallingReflowSVG
@@ -2198,7 +2200,7 @@ svg
 if
 (
 !
-nsSVGUtils
+SVGUtils
 :
 :
 NeedsReflowSVG
@@ -2884,7 +2886,7 @@ mCanvasTM
 nullptr
 ;
 }
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -3034,7 +3036,7 @@ PrependLocalTransformsTo
 eChildToUserSpace
 )
 *
-nsSVGUtils
+SVGUtils
 :
 :
 GetTransformMatrixInUserSpace

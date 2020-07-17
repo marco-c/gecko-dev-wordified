@@ -180,13 +180,6 @@ nsQueryFrame
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 namespace
 mozilla
 {
@@ -237,9 +230,6 @@ nsAtom
 ;
 class
 nsIFrame
-;
-class
-nsSVGMarkerFrame
 ;
 struct
 nsRect

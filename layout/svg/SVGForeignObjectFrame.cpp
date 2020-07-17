@@ -203,6 +203,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGForeignObjectElement
@@ -248,20 +257,6 @@ h
 include
 "
 SVGGeometryProperty
-.
-h
-"
-#
-include
-"
-nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -608,7 +603,7 @@ NS_FRAME_IS_NONDISPLAY
 )
 )
 {
-nsSVGUtils
+SVGUtils
 :
 :
 GetOuterSVGFrame
@@ -660,7 +655,7 @@ NS_FRAME_IS_NONDISPLAY
 )
 )
 {
-nsSVGUtils
+SVGUtils
 :
 :
 GetOuterSVGFrame
@@ -893,7 +888,7 @@ mCanvasTM
 =
 nullptr
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -1830,7 +1825,7 @@ height
 gfxRect
 clipRect
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetClipRectForFrame
@@ -1846,7 +1841,7 @@ width
 height
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 SetClipRect
@@ -2213,7 +2208,7 @@ aPoint
 |
 |
 !
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestClip
@@ -2316,7 +2311,7 @@ ReflowSVG
 {
 NS_ASSERTION
 (
-nsSVGUtils
+SVGUtils
 :
 :
 OuterSVGIsCallingReflowSVG
@@ -2354,7 +2349,7 @@ this
 if
 (
 !
-nsSVGUtils
+SVGUtils
 :
 :
 NeedsReflowSVG
@@ -3113,7 +3108,7 @@ includes
 our
 area
 .
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -4132,7 +4127,7 @@ AppUnitsPerCSSPixel
 nsRect
 rect
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ToCanvasBounds
@@ -4148,7 +4143,7 @@ PresContext
 ;
 rect
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetPostFilterVisualOverflowRect

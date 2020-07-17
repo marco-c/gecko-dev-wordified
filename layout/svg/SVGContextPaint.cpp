@@ -189,6 +189,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGUtils
+.
+h
+"
+#
+include
+"
 SVGPaintServerFrame
 .
 h
@@ -1063,7 +1072,7 @@ return
 nscolor
 color
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetFallbackOrPaintColor
@@ -1162,7 +1171,7 @@ else
 float
 opacity
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetOpacity
@@ -1235,7 +1244,7 @@ else
 float
 opacity
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetOpacity

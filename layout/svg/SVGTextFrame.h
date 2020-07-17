@@ -1648,7 +1648,7 @@ display
 frame
 *
 and
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -1777,7 +1777,7 @@ that
 behaves
 similarly
 to
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG

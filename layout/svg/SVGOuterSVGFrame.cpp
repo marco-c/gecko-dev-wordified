@@ -177,13 +177,6 @@ h
 #
 include
 "
-nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PresShell
@@ -196,6 +189,15 @@ include
 mozilla
 /
 SVGForeignObjectFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -4976,7 +4978,7 @@ nsIFrame
 *
 frame
 =
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestChildren
@@ -5212,7 +5214,7 @@ children
 gfxMatrix
 tm
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -5228,7 +5230,7 @@ Translation
 devPixelOffset
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 PaintFrameWithEffects
@@ -5608,7 +5610,7 @@ mCanvasTM
 =
 nullptr
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -6855,7 +6857,7 @@ flags
 ;
 }
 }
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange

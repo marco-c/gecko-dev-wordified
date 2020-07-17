@@ -853,7 +853,7 @@ of
 this
 code
 in
-nsSVGScriptElement
+SVGScriptElement
 -
 check
 if
@@ -1109,7 +1109,7 @@ of
 this
 code
 in
-nsSVGScriptElement
+SVGScriptElement
 -
 check
 if

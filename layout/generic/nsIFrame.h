@@ -7800,7 +7800,7 @@ which
 excludes
 *
 *
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 )
 are
 different
@@ -7833,7 +7833,7 @@ are
 *
 *
 -
-nsSVGInnerSVGFrame
+SVGInnerSVGFrame
 *
 -
 SVGGeometryFrame
@@ -24577,7 +24577,7 @@ is
 an
 instance
 of
-nsSVGGeometryFrame
+SVGGeometryFrame
 or
 one
 *

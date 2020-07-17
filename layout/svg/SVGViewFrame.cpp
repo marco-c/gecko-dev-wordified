@@ -148,6 +148,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGSVGElement
@@ -633,7 +642,7 @@ SVGOuterSVGFrame
 *
 outerSVGFrame
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetOuterSVGFrame

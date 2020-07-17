@@ -1503,7 +1503,7 @@ mImageFlags
 Based
 loosely
 on
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 '
 PaintFrameCallback
 :

@@ -138,7 +138,7 @@ up
 #
 include
 "
-nsSVGUtils
+SVGUtils
 .
 h
 "
@@ -288,21 +288,7 @@ h
 #
 include
 "
-ISVGDisplayableFrame
-.
-h
-"
-#
-include
-"
 SVGFilterPaintCallback
-.
-h
-"
-#
-include
-"
-nsSVGIntegrationUtils
 .
 h
 "
@@ -335,6 +321,15 @@ include
 mozilla
 /
 FilterInstance
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ISVGDisplayableFrame
 .
 h
 "
@@ -398,6 +393,15 @@ include
 mozilla
 /
 SVGForeignObjectFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGIntegrationUtils
 .
 h
 "
@@ -546,10 +550,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -584,6 +584,9 @@ NS_SVGDisplayListHitTestingEnabled
 )
 {
 return
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -598,6 +601,9 @@ NS_SVGDisplayListPaintingEnabled
 )
 {
 return
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -612,6 +618,9 @@ NS_SVGNewGetBBoxEnabled
 )
 {
 return
+mozilla
+:
+:
 StaticPrefs
 :
 :
@@ -620,6 +629,9 @@ svg_new_getBBox_enabled
 )
 ;
 }
+namespace
+mozilla
+{
 /
 /
 we
@@ -631,9 +643,6 @@ of
 this
 :
 static
-mozilla
-:
-:
 gfx
 :
 :
@@ -815,7 +824,7 @@ false
 ;
 }
 nsRect
-nsSVGUtils
+SVGUtils
 :
 :
 GetPostFilterVisualOverflowRect
@@ -984,7 +993,7 @@ aPreFilterRect
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 OuterSVGIsCallingReflowSVG
@@ -1007,7 +1016,7 @@ IsCallingReflowSVG
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 AnyOuterSVGIsCallingReflowSVG
@@ -1065,7 +1074,7 @@ false
 ;
 }
 void
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -1537,7 +1546,7 @@ dirtyBit
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 NeedsReflowSVG
@@ -1597,7 +1606,7 @@ IsSubtreeDirty
 ;
 }
 Size
-nsSVGUtils
+SVGUtils
 :
 :
 GetContextSize
@@ -1701,7 +1710,7 @@ size
 ;
 }
 float
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectSpace
@@ -1863,7 +1872,7 @@ axis
 ;
 }
 float
-nsSVGUtils
+SVGUtils
 :
 :
 UserSpace
@@ -1888,7 +1897,7 @@ aSVGElement
 ;
 }
 float
-nsSVGUtils
+SVGUtils
 :
 :
 UserSpace
@@ -1913,7 +1922,7 @@ aNonSVGContext
 ;
 }
 float
-nsSVGUtils
+SVGUtils
 :
 :
 UserSpace
@@ -1940,7 +1949,7 @@ aMetrics
 }
 SVGOuterSVGFrame
 *
-nsSVGUtils
+SVGUtils
 :
 :
 GetOuterSVGFrame
@@ -1992,7 +2001,7 @@ nullptr
 }
 nsIFrame
 *
-nsSVGUtils
+SVGUtils
 :
 :
 GetOuterSVGFrameAndCoveredRegion
@@ -2073,22 +2082,22 @@ else
 uint32_t
 flags
 =
-nsSVGUtils
+SVGUtils
 :
 :
 eForGetClientRects
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeFill
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeStroke
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeMarkers
@@ -2235,7 +2244,7 @@ devPixelPerCSSPixel
 /
 /
 Both
-nsSVGUtils
+SVGUtils
 :
 :
 GetBBox
@@ -2278,7 +2287,7 @@ initPositionY
 gfxRect
 bbox
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetBBox
@@ -2307,7 +2316,7 @@ outer
 ;
 }
 gfxMatrix
-nsSVGUtils
+SVGUtils
 :
 :
 GetCanvasTM
@@ -2446,7 +2455,7 @@ GetCanvasTM
 ;
 }
 void
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -2511,7 +2520,7 @@ eSVG
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -2810,7 +2819,7 @@ svgFrame
 PaintSVG
 (
 aContext
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -2825,7 +2834,7 @@ dirtyRect
 }
 ;
 float
-nsSVGUtils
+SVGUtils
 :
 :
 ComputeOpacity
@@ -2861,7 +2870,7 @@ opacity
 &
 &
 (
-nsSVGUtils
+SVGUtils
 :
 :
 CanOptimizeOpacity
@@ -2886,7 +2895,7 @@ opacity
 ;
 }
 void
-nsSVGUtils
+SVGUtils
 :
 :
 DetermineMaskUsage
@@ -3644,7 +3653,7 @@ IsSVGGeometryFrameOrSubclass
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -3798,7 +3807,7 @@ mTargetOffset
 }
 ;
 void
-nsSVGUtils
+SVGUtils
 :
 :
 PaintFrameWithEffects
@@ -4058,7 +4067,7 @@ IsSVGGeometryFrameOrSubclass
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -4641,7 +4650,7 @@ Since
 we
 only
 uses
-nsSVGUtils
+SVGUtils
 with
 SVG
 elements
@@ -5309,7 +5318,7 @@ scale
 gfxMatrix
 reverseScaleMatrix
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -5437,7 +5446,7 @@ BlendToTarget
 }
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestClip
@@ -5538,7 +5547,7 @@ true
 }
 nsIFrame
 *
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestChildren
@@ -5944,7 +5953,7 @@ result
 ;
 }
 nsRect
-nsSVGUtils
+SVGUtils
 :
 :
 TransformFrameRectToOuterSVG
@@ -6014,7 +6023,7 @@ AppUnitsPerDevPixel
 ;
 }
 IntSize
-nsSVGUtils
+SVGUtils
 :
 :
 ConvertToSurfaceSize
@@ -6132,7 +6141,7 @@ surfaceSize
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestRect
@@ -6270,7 +6279,7 @@ YMost
 ;
 }
 gfxRect
-nsSVGUtils
+SVGUtils
 :
 :
 GetClipRectForFrame
@@ -6532,7 +6541,7 @@ clipRect
 ;
 }
 void
-nsSVGUtils
+SVGUtils
 :
 :
 SetClipRect
@@ -6586,7 +6595,7 @@ aRect
 ;
 }
 gfxRect
-nsSVGUtils
+SVGUtils
 :
 :
 GetBBox
@@ -6629,7 +6638,7 @@ GetParent
 }
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -6697,7 +6706,7 @@ if
 ancestor
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -6866,7 +6875,7 @@ aFlags
 eIncludeOnlyCurrentFrameForNonSVGElement
 ;
 return
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetSVGBBoxForNonSVGFrame
@@ -7069,7 +7078,7 @@ IsSVGForeignObjectFrame
 |
 aFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eUseUserSpaceOfUseElement
@@ -7145,7 +7154,7 @@ to
 /
 also
 update
-nsSVGUtils
+SVGUtils
 :
 :
 FrameSpaceInCSSPxToUserSpaceOffset
@@ -7220,7 +7229,7 @@ if
 (
 aFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeClipped
@@ -7256,7 +7265,7 @@ ToMatrix
 (
 tm
 )
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeFill
@@ -7312,7 +7321,7 @@ hasClip
 {
 clipRect
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetClipRectForFrame
@@ -7462,7 +7471,7 @@ gfxMatrix
 }
 matrix
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetTransformMatrixInUserSpace
@@ -7598,7 +7607,7 @@ bbox
 ;
 }
 gfxPoint
-nsSVGUtils
+SVGUtils
 :
 :
 FrameSpaceInCSSPxToUserSpaceOffset
@@ -7680,7 +7689,7 @@ IsSVGGeometryFrameOrSubclass
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -7716,7 +7725,7 @@ TopLeft
 For
 foreignObject
 frames
-nsSVGUtils
+SVGUtils
 :
 :
 GetBBox
@@ -7830,7 +7839,7 @@ aBBox
 .
 x
 +
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectSpace
@@ -7846,7 +7855,7 @@ aBBox
 .
 y
 +
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectSpace
@@ -7858,7 +7867,7 @@ aXYWH
 1
 ]
 )
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectSpace
@@ -7870,7 +7879,7 @@ aXYWH
 2
 ]
 )
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectSpace
@@ -7886,7 +7895,7 @@ aXYWH
 ;
 }
 gfxRect
-nsSVGUtils
+SVGUtils
 :
 :
 GetRelativeRect
@@ -7966,7 +7975,7 @@ aXYWH
 ;
 }
 gfxRect
-nsSVGUtils
+SVGUtils
 :
 :
 GetRelativeRect
@@ -8063,7 +8072,7 @@ aFrame
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 CanOptimizeOpacity
@@ -8240,7 +8249,7 @@ aFrame
 ;
 }
 gfxMatrix
-nsSVGUtils
+SVGUtils
 :
 :
 AdjustMatrixForUnits
@@ -8334,7 +8343,7 @@ aMatrix
 }
 nsIFrame
 *
-nsSVGUtils
+SVGUtils
 :
 :
 GetFirstNonAAncestorFrame
@@ -8385,7 +8394,7 @@ nullptr
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 GetNonScalingStrokeTransform
@@ -8533,7 +8542,7 @@ style_expansion
 =
 aStyleExpansionFactor
 *
-nsSVGUtils
+SVGUtils
 :
 :
 GetStrokeWidth
@@ -8551,7 +8560,7 @@ outerSVGToUser
 ;
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 GetNonScalingStrokeTransform
@@ -8641,7 +8650,7 @@ static
 *
 /
 gfxRect
-nsSVGUtils
+SVGUtils
 :
 :
 PathExtentsToMaxStrokeExtents
@@ -8661,7 +8670,7 @@ aMatrix
 {
 NS_ASSERTION
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -8679,6 +8688,7 @@ text
 )
 ;
 return
+mozilla
 :
 :
 PathExtentsToMaxStrokeExtents
@@ -8698,7 +8708,7 @@ static
 *
 /
 gfxRect
-nsSVGUtils
+SVGUtils
 :
 :
 PathExtentsToMaxStrokeExtents
@@ -8944,6 +8954,7 @@ mStrokeMiterlimit
 }
 }
 return
+mozilla
 :
 :
 PathExtentsToMaxStrokeExtents
@@ -9033,7 +9044,7 @@ static
 *
 /
 nscolor
-nsSVGUtils
+SVGUtils
 :
 :
 GetFallbackOrPaintColor
@@ -9377,7 +9388,7 @@ static
 *
 /
 void
-nsSVGUtils
+SVGUtils
 :
 :
 MakeFillPatternFor
@@ -9463,7 +9474,7 @@ opacity
 0f
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 CanOptimizeOpacity
@@ -9826,7 +9837,7 @@ static
 *
 /
 void
-nsSVGUtils
+SVGUtils
 :
 :
 MakeStrokePatternFor
@@ -9912,7 +9923,7 @@ opacity
 0f
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 CanOptimizeOpacity
@@ -10275,7 +10286,7 @@ static
 *
 /
 float
-nsSVGUtils
+SVGUtils
 :
 :
 GetOpacity
@@ -10377,7 +10388,7 @@ opacity
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 HasStroke
@@ -10421,7 +10432,7 @@ aContextPaint
 ;
 }
 float
-nsSVGUtils
+SVGUtils
 :
 :
 GetStrokeWidth
@@ -10536,7 +10547,7 @@ AsLengthPercentage
 ;
 }
 void
-nsSVGUtils
+SVGUtils
 :
 :
 SetupStrokeGeometry
@@ -10658,7 +10669,7 @@ mDashOffset
 ;
 }
 uint16_t
-nsSVGUtils
+SVGUtils
 :
 :
 GetGeometryHitTestFlags
@@ -11056,7 +11067,7 @@ flags
 ;
 }
 void
-nsSVGUtils
+SVGUtils
 :
 :
 PaintSVGGlyph
@@ -11151,7 +11162,7 @@ attribute
 :
 m
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetTransformMatrixInUserSpace
@@ -11203,7 +11214,7 @@ dummy
 ;
 }
 bool
-nsSVGUtils
+SVGUtils
 :
 :
 GetSVGGlyphExtents
@@ -11310,27 +11321,27 @@ ToMatrix
 (
 transform
 )
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeFill
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeFillGeometry
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeStroke
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeStrokeGeometry
 |
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeMarkers
@@ -11345,7 +11356,7 @@ true
 ;
 }
 nsRect
-nsSVGUtils
+SVGUtils
 :
 :
 ToCanvasBounds
@@ -11386,7 +11397,7 @@ AppUnitsPerDevPixel
 ;
 }
 gfxMatrix
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -11445,7 +11456,7 @@ devPxPerCSSPx
 ;
 }
 gfxMatrix
-nsSVGUtils
+SVGUtils
 :
 :
 GetTransformMatrixInUserSpace
@@ -11730,3 +11741,8 @@ mm
 )
 ;
 }
+}
+/
+/
+namespace
+mozilla

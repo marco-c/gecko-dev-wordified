@@ -1104,7 +1104,7 @@ transformation
 Only
 visible
 for
-nsSVGGraphicElement
+SVGGraphicElement
 so
 it
 '
@@ -1849,7 +1849,7 @@ SVGAnimatedPathData
 inherited
 *
 by
-nsSVGPathElement
+SVGPathElement
 )
 /
 /

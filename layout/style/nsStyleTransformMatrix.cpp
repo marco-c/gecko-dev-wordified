@@ -157,13 +157,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 MotionPathUtils
@@ -194,6 +187,15 @@ include
 mozilla
 /
 StyleAnimationValue
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -438,7 +440,7 @@ y
 Size
 contextSize
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetContextSize
@@ -779,7 +781,7 @@ y
 Size
 contextSize
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetContextSize

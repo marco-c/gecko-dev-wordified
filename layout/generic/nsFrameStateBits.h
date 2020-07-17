@@ -2189,12 +2189,12 @@ this
 does
 not
 include
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 since
 it
 takes
 part
-is
+in
 CSS
 layout
 .

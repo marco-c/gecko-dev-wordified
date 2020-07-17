@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MutationEvent
@@ -579,7 +588,7 @@ RestyleHint
 nsChangeHint_InvalidateRenderingObservers
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -587,7 +596,7 @@ ScheduleReflowSVG
 this
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -657,7 +666,7 @@ RestyleHint
 nsChangeHint_InvalidateRenderingObservers
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -695,7 +704,7 @@ RestyleHint
 nsChangeHint_InvalidateRenderingObservers
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -1117,7 +1126,7 @@ NotifySVGChanged
 )
 below
 .
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -1173,7 +1182,7 @@ svg
 >
 and
 its
-nsSVGInnerSVGFrame
+SVGInnerSVGFrame
 will
 do
 that

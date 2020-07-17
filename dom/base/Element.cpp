@@ -895,13 +895,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

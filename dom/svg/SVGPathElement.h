@@ -303,7 +303,7 @@ override
 ;
 /
 /
-nsSVGSVGElement
+SVGSVGElement
 methods
 :
 virtual

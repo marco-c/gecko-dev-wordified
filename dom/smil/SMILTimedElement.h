@@ -607,7 +607,7 @@ Methods
 for
 supporting
 the
-nsSVGAnimationElement
+SVGAnimationElement
 interface
 .
 *

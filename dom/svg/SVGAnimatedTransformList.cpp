@@ -1581,7 +1581,7 @@ NUM_SIMPLE_PARAMS
 =
 3
 "
-nsSVGSMILTransform
+SVGSMILTransform
 constructor
 should
 be

@@ -535,7 +535,7 @@ e
 .
 g
 .
-nsSVGUtils
+SVGUtils
 *
 /
 class
@@ -642,7 +642,7 @@ an
 instance
 *
 of
-nsSVGAnimationElement
+SVGAnimationElement
 .
 *
 *
@@ -653,7 +653,7 @@ a
 shim
 to
 allow
-nsSVGAnimationElement
+SVGAnimationElement
 :
 :
 ActivateByHyperlink

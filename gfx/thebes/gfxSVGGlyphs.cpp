@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document
@@ -253,13 +262,6 @@ h
 include
 "
 nsIPrincipal
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -1463,7 +1465,7 @@ AsSVGDocument
 )
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 PaintSVGGlyph
@@ -1521,7 +1523,7 @@ first
 )
 ;
 return
-nsSVGUtils
+SVGUtils
 :
 :
 GetSVGGlyphExtents

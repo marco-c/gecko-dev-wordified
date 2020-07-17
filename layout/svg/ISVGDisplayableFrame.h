@@ -172,9 +172,6 @@ gfxContext
 class
 nsIFrame
 ;
-class
-SVGBBox
-;
 namespace
 mozilla
 {
@@ -183,6 +180,9 @@ SVGAnimatedLengthList
 ;
 class
 SVGAnimatedNumberList
+;
+class
+SVGBBox
 ;
 class
 SVGLengthList

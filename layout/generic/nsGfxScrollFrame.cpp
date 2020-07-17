@@ -545,13 +545,6 @@ h
 #
 include
 "
-nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
 nsIScrollPositionListener
 .
 h

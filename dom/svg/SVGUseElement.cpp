@@ -2416,7 +2416,7 @@ use
 /
 /
 QIable
-nsSVGGraphicsElement
+SVGGraphicsElement
 would
 eliminate
 enumerating
@@ -3944,7 +3944,7 @@ might
 be
 a
 plain
-nsSVGContainerFrame
+SVGContainerFrame
 if
 we
 didn

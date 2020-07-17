@@ -183,7 +183,9 @@ h
 #
 include
 "
-nsSVGUtils
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -499,7 +501,7 @@ instance
 CreateClipPath
 (
 drawTarget
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -633,7 +635,7 @@ instance
 CreateClipPath
 (
 drawTarget
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix

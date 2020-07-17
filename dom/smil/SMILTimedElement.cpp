@@ -2815,7 +2815,7 @@ false
 -
 /
 /
-nsSVGAnimationElement
+SVGAnimationElement
 methods
 SMILTimeValue
 SMILTimedElement

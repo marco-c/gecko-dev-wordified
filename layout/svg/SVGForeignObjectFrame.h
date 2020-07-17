@@ -170,13 +170,6 @@ nsRegion
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 class
 gfxContext
 ;

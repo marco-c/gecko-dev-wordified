@@ -330,7 +330,7 @@ e
 .
 g
 .
-nsSVGOuterSVGAnonChildFrame
+SVGOuterSVGAnonChildFrame
 )
 which
 makes

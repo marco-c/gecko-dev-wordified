@@ -941,7 +941,9 @@ h
 #
 include
 "
-nsSVGUtils
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -2542,7 +2544,7 @@ eSVG
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -7072,7 +7074,7 @@ if
 aContentParentFrame
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -17721,7 +17723,7 @@ element
 frame
 (
 nsBlockFrame
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 nsTableWrapperFrame
 nsPlaceholderFrame
 )
@@ -17766,7 +17768,7 @@ element
 frame
 (
 nsBlockFrame
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 nsTableWrapperFrame
 nsPlaceholderFrame
 )
@@ -17798,7 +17800,7 @@ element
 frame
 (
 nsBlockFrame
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 nsTableWrapperFrame
 nsPlaceholderFrame
 )
@@ -22175,7 +22177,7 @@ nsIFrame
 *
 ancestorFrame
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetFirstNonAAncestorFrame
@@ -22190,7 +22192,7 @@ ancestorFrame
 |
 |
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -30736,7 +30738,7 @@ clipPaginatedOverflow
 &
 &
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -32839,7 +32841,7 @@ elements
 to
 have
 an
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 regardless
 /
 /
@@ -32892,7 +32894,7 @@ call
 in
 /
 /
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 :
 :
 Init
@@ -33018,7 +33020,7 @@ render
 That
 happens
 in
-nsSVGSwitchFrame
+SVGSwitchFrame
 :
 :
 PaintSVG
@@ -33092,7 +33094,7 @@ text
 >
 create
 an
-nsSVGContainerFrame
+SVGContainerFrame
 (
 which
 is
@@ -34310,7 +34312,7 @@ aParentFrame
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -70169,7 +70171,7 @@ IsFloatingStyle
 &
 &
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree

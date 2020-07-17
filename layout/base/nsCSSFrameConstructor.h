@@ -9924,7 +9924,7 @@ aCandidateRootFrame
 *
 Construct
 an
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 .
 *
 /
@@ -9956,7 +9956,7 @@ aFrameList
 *
 Construct
 an
-nsSVGMarkerFrame
+SVGMarkerFrame
 .
 *
 /

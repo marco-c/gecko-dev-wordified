@@ -217,13 +217,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -1745,7 +1738,7 @@ than
 ComputePostEffectsVisualOverflowRect
 and
 *
-nsSVGUtils
+SVGUtils
 :
 :
 GetPostFilterVisualOverflowRect
