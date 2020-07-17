@@ -1265,7 +1265,7 @@ mRecvOnStartRequestSentCalled
 (
 false
 )
-mSuspendedByWaitingForPermissionCookieStreamFilter
+mSuspendedByWaitingForPermissionCookie
 (
 false
 )
@@ -2906,10 +2906,10 @@ true
 ;
 if
 (
-mSuspendedByWaitingForPermissionCookieStreamFilter
+mSuspendedByWaitingForPermissionCookie
 )
 {
-mSuspendedByWaitingForPermissionCookieStreamFilter
+mSuspendedByWaitingForPermissionCookie
 =
 false
 ;
@@ -3877,7 +3877,7 @@ Suspend
 (
 )
 ;
-mSuspendedByWaitingForPermissionCookieStreamFilter
+mSuspendedByWaitingForPermissionCookie
 =
 true
 ;

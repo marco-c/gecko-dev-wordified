@@ -656,10 +656,6 @@ mAfterOnStartRequestBegun
 (
 false
 )
-mStreamFilterAttached
-(
-false
-)
 {
 LOG
 (
@@ -10387,9 +10383,6 @@ isDocument
 |
 |
 hasSetCookie
-|
-|
-mStreamFilterAttached
 ;
 rv
 =
@@ -18391,10 +18384,6 @@ MOZ_ASSERT
 !
 mAfterOnStartRequestBegun
 )
-;
-mStreamFilterAttached
-=
-true
 ;
 if
 (
