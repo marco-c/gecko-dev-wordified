@@ -8480,9 +8480,13 @@ nodiscard
 ]
 ]
 MOZ_CAN_RUN_SCRIPT
+static
 nsresult
 ReplaceASCIIWhiteSpacesWithOneNBSP
 (
+HTMLEditor
+&
+aHTMLEditor
 const
 EditorDOMPointInText
 &
