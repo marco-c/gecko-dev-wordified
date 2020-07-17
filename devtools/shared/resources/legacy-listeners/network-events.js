@@ -837,6 +837,7 @@ listening
 to
 network
 events
+await
 webConsoleFront
 .
 startListeners
