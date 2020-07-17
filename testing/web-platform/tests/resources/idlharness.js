@@ -19837,6 +19837,10 @@ name
 .
 then
 (
+a_test
+.
+step_func
+(
 function
 (
 )
@@ -19883,6 +19887,7 @@ a_test
 bind
 (
 this
+)
 )
 )
 ;
