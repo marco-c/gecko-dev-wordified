@@ -381,9 +381,9 @@ status
 #
 include
 "
-nsSTSPreloadList
+nsSTSPreloadListGenerated
 .
-h
+inc
 "
 using
 namespace

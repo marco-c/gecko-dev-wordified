@@ -1097,9 +1097,9 @@ nss
 GeneratedFile
 (
 '
-nsSTSPreloadList
+nsSTSPreloadListGenerated
 .
-h
+inc
 '
 script
 =
