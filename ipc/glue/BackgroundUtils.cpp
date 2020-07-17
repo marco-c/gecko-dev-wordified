@@ -3922,12 +3922,6 @@ uint64_t
 >
 ancestorBrowsingContextIDs
 ;
-nsTArray
-<
-uint64_t
->
-ancestorOuterWindowIDs
-;
 if
 (
 XRE_IsParentProcess
@@ -4016,7 +4010,6 @@ Canonical
 )
 ancestorPrincipals
 ancestorBrowsingContextIDs
-ancestorOuterWindowIDs
 )
 ;
 }
@@ -4555,7 +4548,6 @@ move
 ancestorPrincipals
 )
 ancestorBrowsingContextIDs
-ancestorOuterWindowIDs
 loadInfoArgs
 .
 corsUnsafeHeaders
