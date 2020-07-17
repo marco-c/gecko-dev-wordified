@@ -270,6 +270,9 @@ any
 "
 maskable
 "
+"
+monochrome
+"
 ]
 )
 ;
