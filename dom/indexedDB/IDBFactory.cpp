@@ -4213,6 +4213,9 @@ IDBFactory
 .
 deleteDatabase
 (
+%
+.
+0s
 )
 "
 request
@@ -4256,6 +4259,12 @@ IDBFactory
 .
 open
 (
+%
+.
+0s
+%
+.
+0s
 )
 "
 request
