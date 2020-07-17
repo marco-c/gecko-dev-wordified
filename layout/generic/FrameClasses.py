@@ -368,6 +368,17 @@ NOT_LEAF
 Frame
 (
 "
+nsIFrame
+"
+"
+None
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsGfxButtonControlFrame
 "
 "
@@ -1645,13 +1656,6 @@ AbstractFrame
 (
 "
 nsContainerFrame
-"
-)
-    
-AbstractFrame
-(
-"
-nsIFrame
 "
 )
     
