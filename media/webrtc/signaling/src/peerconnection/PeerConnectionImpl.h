@@ -972,13 +972,6 @@ GlobalObject
 aGlobal
 )
 ;
-static
-PeerConnectionImpl
-*
-CreatePeerConnection
-(
-)
-;
 /
 /
 DataConnection
