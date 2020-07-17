@@ -165,7 +165,7 @@ jsm
 ;
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -181,7 +181,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -261,7 +261,7 @@ nsISupportsWeakReference
 )
 _xpcom_factory
 :
-XPCOMUtils
+ComponentUtils
 .
 generateSingletonFactory
 (

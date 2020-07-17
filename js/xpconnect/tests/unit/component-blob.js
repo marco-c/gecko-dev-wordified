@@ -58,7 +58,7 @@ MPL
 /
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -74,7 +74,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -456,7 +456,9 @@ XPCOM
 registration
 code
 in
-XPCOMUtils
+/
+/
+ComponentUtils
 .
 jsm
 classDescription
@@ -555,7 +557,7 @@ this
 .
 NSGetFactory
 =
-XPCOMUtils
+ComponentUtils
 .
 generateNSGetFactory
 (

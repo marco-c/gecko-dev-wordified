@@ -242,6 +242,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+ComponentUtils
+.
+jsm
+'
+'
 XPCOMUtils
 .
 jsm

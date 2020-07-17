@@ -110,7 +110,7 @@ classID
 {
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -126,7 +126,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -135,7 +135,7 @@ jsm
 const
 factory
 =
-XPCOMUtils
+ComponentUtils
 .
 generateSingletonFactory
 (

@@ -385,7 +385,7 @@ generateQI
 let
 factory
 =
-XPCOMUtils
+ComponentUtils
 .
 generateSingletonFactory
 (
