@@ -154,15 +154,6 @@ aPlatformDisabledTRR
 )
 ;
 async
-InitTRRBLStorage
-(
-DataStorageEntry
-aEntry
-FileDescriptor
-aWriteFd
-)
-;
-async
 UpdateParentalControlEnabled
 (
 bool
