@@ -1807,7 +1807,7 @@ NS
 resolves
 skip
 the
-blacklist
+blocklist
 check
 /
 /
@@ -1818,7 +1818,7 @@ don
 t
 check
 the
-blacklist
+blocklist
 for
 TRR
 only
@@ -1838,7 +1838,7 @@ UseDefaultServer
 gTRRService
 -
 >
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 mHost
 mOriginSuffix
@@ -1859,7 +1859,7 @@ TRRTYPE_A
 /
 count
 only
-blacklist
+blocklist
 for
 A
 records

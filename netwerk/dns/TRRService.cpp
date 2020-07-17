@@ -401,7 +401,7 @@ mInitialized
 (
 false
 )
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 (
 72
 *
@@ -1417,7 +1417,7 @@ LOG
 "
 TRRService
 clearing
-blacklist
+blocklist
 because
 of
 change
@@ -2042,7 +2042,7 @@ secs
 )
 )
 {
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 =
 secs
 ;
@@ -3564,7 +3564,7 @@ kPurge
 flush
 the
 TRR
-blacklist
+blocklist
 both
 in
 -
@@ -4365,7 +4365,7 @@ bool
 TRRService
 :
 :
-IsDomainBlacklisted
+IsDomainBlocked
 (
 const
 nsACString
@@ -4606,7 +4606,7 @@ ToInteger
 code
 )
 +
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 ;
 int32_t
 expire
@@ -4641,7 +4641,7 @@ s
 ]
 is
 TRR
-blacklisted
+blocklisted
 \
 n
 "
@@ -4663,7 +4663,7 @@ true
 /
 /
 the
-blacklisted
+blocklisted
 entry
 has
 expired
@@ -4695,7 +4695,7 @@ TRR
 only
 mode
 the
-blacklist
+blocklist
 is
 not
 used
@@ -4718,7 +4718,7 @@ bool
 TRRService
 :
 :
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 const
 nsACString
@@ -4769,7 +4769,7 @@ host
 s
 ]
 is
-blacklisted
+blocklisted
 "
 aHost
 .
@@ -4823,7 +4823,7 @@ able
 to
 /
 /
-blacklist
+blocklist
 entire
 TLDs
 return
@@ -4832,7 +4832,7 @@ true
 }
 if
 (
-IsDomainBlacklisted
+IsDomainBlocked
 (
 aHost
 aOriginSuffix
@@ -4882,7 +4882,7 @@ dot
 ;
 if
 (
-IsDomainBlacklisted
+IsDomainBlocked
 (
 domain
 aOriginSuffix
@@ -5215,14 +5215,14 @@ false
 ;
 }
 class
-ProxyBlacklist
+ProxyBlockList
 :
 public
 Runnable
 {
 public
 :
-ProxyBlacklist
+ProxyBlockList
 (
 TRRService
 *
@@ -5247,7 +5247,7 @@ mozilla
 Runnable
 (
 "
-proxyBlackList
+ProxyBlockList
 "
 )
 mService
@@ -5281,7 +5281,7 @@ override
 mService
 -
 >
-TRRBlacklist
+AddToBlocklist
 (
 mHost
 mOriginSuffix
@@ -5323,7 +5323,7 @@ void
 TRRService
 :
 :
-TRRBlacklist
+AddToBlocklist
 (
 const
 nsACString
@@ -5367,7 +5367,7 @@ NS_IsMainThread
 NS_DispatchToMainThread
 (
 new
-ProxyBlacklist
+ProxyBlockList
 (
 this
 aHost
@@ -5392,7 +5392,7 @@ LOG
 (
 "
 TRR
-blacklist
+blocklist
 %
 s
 \
@@ -5529,7 +5529,7 @@ domain
 ;
 if
 (
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 check
 aOriginSuffix
@@ -5545,7 +5545,7 @@ domain
 part
 is
 already
-blacklisted
+blocklisted
 no
 need
 to
@@ -5946,7 +5946,7 @@ check
 for
 the
 TRR
-blacklist
+blocklist
 or
 confirmationNS
 check
@@ -6331,7 +6331,7 @@ get
 )
 )
 ;
-TRRBlacklist
+AddToBlocklist
 (
 newRRSet
 -
