@@ -204,7 +204,6 @@ ComputedStyle
 aStyle
 )
 ;
-virtual
 void
 Reflow
 (
@@ -224,7 +223,6 @@ aStatus
 )
 override
 ;
-virtual
 void
 BuildDisplayList
 (
@@ -241,7 +239,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -347,7 +344,6 @@ user
 '
 s
 settings
-virtual
 bool
 HonorPrintBackgroundSettings
 (
@@ -558,7 +554,6 @@ nsPageBreakFrame
 (
 )
 ;
-virtual
 void
 Reflow
 (
@@ -581,7 +576,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
@@ -596,14 +590,12 @@ override
 endif
 protected
 :
-virtual
 nscoord
 GetIntrinsicISize
 (
 )
 override
 ;
-virtual
 nscoord
 GetIntrinsicBSize
 (
