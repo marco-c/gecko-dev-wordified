@@ -753,3 +753,15 @@ FINAL_LIBRARY
 '
 xul
 '
+PYTHON_UNITTEST_MANIFESTS
++
+=
+[
+'
+test
+/
+python
+.
+ini
+'
+]
