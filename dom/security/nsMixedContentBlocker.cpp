@@ -1479,6 +1479,7 @@ aHadInsecureImageRedirect
 aContentLocation
 aLoadInfo
 aMimeGuess
+true
 aDecision
 )
 ;
@@ -2532,6 +2533,8 @@ const
 nsACString
 &
 aMimeGuess
+bool
+aReportError
 int16_t
 *
 aDecision
@@ -5596,6 +5599,9 @@ contentType
 =
 =
 TYPE_OBJECT_SUBREQUEST
+&
+&
+aReportError
 )
 {
 if
@@ -5939,6 +5945,9 @@ if
 (
 !
 isPreload
+&
+&
+aReportError
 )
 {
 LogMixedContentMessage
