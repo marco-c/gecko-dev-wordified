@@ -5342,6 +5342,16 @@ PointRef
 )
 ;
 }
+bool
+IsPreformatted
+(
+)
+const
+{
+return
+mIsPreformatted
+;
+}
 /
 *
 *
