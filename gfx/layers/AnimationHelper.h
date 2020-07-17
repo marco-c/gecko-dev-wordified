@@ -899,6 +899,10 @@ AnimationStorageData
 ExtractAnimations
 (
 const
+LayersId
+&
+aLayersId
+const
 AnimationArray
 &
 aAnimations
