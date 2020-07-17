@@ -109,8 +109,8 @@ dir
 :
 :
 {
-CopyOptions
 move_dir
+CopyOptions
 }
 ;
 use
