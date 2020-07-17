@@ -14486,6 +14486,11 @@ frontend
 ScriptStencil
 &
 stencil
+js
+:
+:
+HandleFunction
+function
 )
 ;
 /
@@ -14534,6 +14539,11 @@ frontend
 ScriptStencil
 &
 stencil
+js
+:
+:
+HandleFunction
+function
 )
 ;
 #
