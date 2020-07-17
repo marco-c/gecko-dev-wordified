@@ -447,27 +447,31 @@ device
 =
 mozdevice
 .
-ADBDevice
+ADBDeviceFactory
 (
 adb
 =
 adb_path
-                                          
+                                                 
 device
 =
 device_serial
-                                          
+                                                 
 test_root
 =
 remote_test_root
-                                          
+                                                 
 logger_name
 =
 LOGGER_NAME
-                                          
+                                                 
 verbose
 =
 True
+                                                 
+run_as_package
+=
+package
 )
         
 root
@@ -534,13 +538,7 @@ posixpath
 .
 join
 (
-'
-/
-data
-'
-'
-local
-'
+root
 '
 gtest
 '
@@ -567,9 +565,6 @@ mkdir
 self
 .
 remote_profile
-parents
-=
-True
 )
         
 self
@@ -581,9 +576,6 @@ mkdir
 self
 .
 remote_minidumps
-parents
-=
-True
 )
         
 self
@@ -595,29 +587,6 @@ mkdir
 self
 .
 remote_libdir
-parents
-=
-True
-root
-=
-True
-)
-        
-self
-.
-device
-.
-chmod
-(
-self
-.
-remote_libdir
-recursive
-=
-True
-root
-=
-True
 )
         
 log
@@ -1071,9 +1040,6 @@ sig
 attempts
 =
 1
-root
-=
-True
 )
             
 except
@@ -1133,9 +1099,6 @@ sig
 attempts
 =
 1
-root
-=
-True
 )
             
 except
@@ -1256,9 +1219,6 @@ sig
 attempts
 =
 1
-root
-=
-True
 )
                 
 except
@@ -1407,9 +1367,6 @@ device
 pkill
 (
 crashreporter
-root
-=
-True
 )
             
 except
@@ -1656,9 +1613,6 @@ remote_log
 force
 =
 True
-root
-=
-True
 )
             
 self
@@ -1674,9 +1628,6 @@ recursive
 =
 True
 force
-=
-True
-root
 =
 True
 )
@@ -1696,9 +1647,6 @@ True
 force
 =
 True
-root
-=
-True
 )
             
 self
@@ -1714,9 +1662,6 @@ recursive
 =
 True
 force
-=
-True
-root
 =
 True
 )
@@ -2792,18 +2737,13 @@ root
 eg
 .
 /
-mnt
-/
-sdcard
-/
-tests
-or
-/
 data
 /
 local
 /
-tests
+tmp
+/
+test_root
 )
 .
 "
