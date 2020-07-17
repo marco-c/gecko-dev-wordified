@@ -2078,6 +2078,7 @@ doc
 node
 fromUser
 aOffset
+aIsSelectionCollapsed
 )
 ;
 nsCoreUtils
