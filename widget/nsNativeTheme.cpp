@@ -1887,15 +1887,6 @@ aAppearance
 StyleAppearance
 :
 :
-MenulistTextfield
-|
-|
-aAppearance
-=
-=
-StyleAppearance
-:
-:
 Textfield
 |
 |
