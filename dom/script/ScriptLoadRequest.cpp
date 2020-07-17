@@ -654,10 +654,6 @@ mIsInline
 (
 true
 )
-mHasSourceMapURL
-(
-false
-)
 mInDeferList
 (
 false
