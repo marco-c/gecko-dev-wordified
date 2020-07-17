@@ -1051,9 +1051,7 @@ completed
 /
 /
 A
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 aRemoteType
 argument
 will
@@ -1062,9 +1060,9 @@ a
 process
 switch
 into
+/
+/
 the
-/
-/
 parent
 process
 and

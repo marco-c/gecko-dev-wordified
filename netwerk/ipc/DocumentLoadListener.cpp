@@ -8440,9 +8440,7 @@ false
 nsAutoCString
 currentRemoteType
 (
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 )
 ;
 if
@@ -9111,9 +9109,7 @@ else
 {
 preferredRemoteType
 =
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 }
 if
@@ -13635,9 +13631,7 @@ Failed
 {
 aRemoteType
 =
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 }
 return
