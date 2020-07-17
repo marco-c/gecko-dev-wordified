@@ -96,9 +96,6 @@ actions
 components
 '
 '
-images
-'
-'
 reducers
 '
 '
@@ -115,11 +112,6 @@ js
 '
 index
 .
-css
-'
-'
-index
-.
 js
 '
 '
@@ -131,13 +123,6 @@ js
 reducers
 .
 js
-'
-'
-responsive
--
-browser
-.
-css
 '
 '
 store

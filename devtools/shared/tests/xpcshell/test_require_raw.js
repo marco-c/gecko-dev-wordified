@@ -70,11 +70,13 @@ require
 "
 raw
 !
+chrome
+:
+/
+/
 devtools
 /
-client
-/
-themes
+skin
 /
 variables
 .

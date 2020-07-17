@@ -161,7 +161,7 @@ sourceName
 devtools
 \
 /
-client
+content
 \
 /
 debugger
