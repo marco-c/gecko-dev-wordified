@@ -1961,7 +1961,7 @@ aTrustedInput
 ;
 static
 void
-RemoveBodyAndHead
+RemoveHeadChildAndStealBodyChildsChildren
 (
 nsINode
 &
@@ -19591,7 +19591,7 @@ HTMLEditor
 HTMLWithContextInserter
 :
 :
-RemoveBodyAndHead
+RemoveHeadChildAndStealBodyChildsChildren
 (
 nsINode
 &
@@ -20360,7 +20360,7 @@ rv
 HTMLWithContextInserter
 :
 :
-RemoveBodyAndHead
+RemoveHeadChildAndStealBodyChildsChildren
 (
 *
 documentFragmentForContext
@@ -20548,7 +20548,7 @@ NS_ERROR_FAILURE
 HTMLWithContextInserter
 :
 :
-RemoveBodyAndHead
+RemoveHeadChildAndStealBodyChildsChildren
 (
 *
 documentFragmentToInsert
