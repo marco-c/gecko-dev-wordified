@@ -1825,12 +1825,12 @@ const
 {
 MOZ_ASSERT
 (
-mThread
--
->
-IsOnCurrentThread
+NS_GetCurrentThread
 (
 )
+=
+=
+mThread
 )
 ;
 }
