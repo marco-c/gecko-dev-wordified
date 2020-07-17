@@ -1020,6 +1020,11 @@ funbox
 =
 nullptr
 ;
+size_t
+funcDataLength
+=
+0
+;
 }
 ;
 RewindToken
