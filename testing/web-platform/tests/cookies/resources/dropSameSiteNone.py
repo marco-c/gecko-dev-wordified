@@ -67,6 +67,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 samesite_none_insecure
 "
@@ -80,6 +81,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 samesite_none_secure
 "
@@ -89,6 +91,7 @@ True
     
 return
 headers
+b
 '
 {
 "

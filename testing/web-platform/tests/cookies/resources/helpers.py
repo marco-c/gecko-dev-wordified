@@ -1,5 +1,23 @@
+from
+six
 import
-urlparse
+integer_types
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+parse_qs
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 setNoCacheAndCORSHeaders
 (
@@ -35,11 +53,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -48,6 +68,7 @@ json
 )
                
 (
+b
 "
 Access
 -
@@ -57,6 +78,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -65,11 +87,13 @@ true
     
 origin
 =
+b
 "
 *
 "
     
 if
+b
 "
 origin
 "
@@ -85,6 +109,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "
@@ -95,6 +120,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -134,11 +160,13 @@ headers
 append
 (
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -152,9 +180,11 @@ headers
 append
 (
 (
+b
 "
 Expires
 "
+b
 "
 Fri
 01
@@ -219,6 +249,7 @@ None
 =
 v
 or
+b
 "
 "
 =
@@ -229,7 +260,34 @@ v
 return
 a
         
+if
+isinstance
+(
+v
+integer_types
+)
+:
+            
 return
+b
+"
+%
+s
+=
+%
+i
+"
+%
+(
+a
+v
+)
+        
+else
+:
+            
+return
+b
 "
 %
 s
@@ -254,6 +312,7 @@ first
 attrs
 =
 [
+b
 "
 %
 s
@@ -285,25 +344,29 @@ v
 in
 otherAttrs
 .
-iteritems
+items
 (
 )
 )
     
 return
 (
+b
 "
 Set
 -
 Cookie
 "
+b
 "
 ;
 "
 .
 join
 (
+(
 attrs
+)
 )
 )
 def
@@ -317,15 +380,18 @@ secure
 attrs
 =
 {
+b
 "
 MaxAge
 "
 :
 0
+b
 "
 path
 "
 :
+b
 "
 /
 "
@@ -337,11 +403,13 @@ secure
         
 attrs
 [
+b
 "
 secure
 "
 ]
 =
+b
 "
 "
     
@@ -349,6 +417,7 @@ return
 makeCookieHeader
 (
 name
+b
 "
 "
 attrs
@@ -396,8 +465,6 @@ present
     
 params
 =
-urlparse
-.
 parse_qs
 (
 request
@@ -434,6 +501,7 @@ param
 raise
 Exception
 (
+u
 "
 Empty
 or
@@ -445,7 +513,10 @@ parameter
 )
     
 return
+isomorphic_encode
+(
 param
+)
 def
 readCookies
 (

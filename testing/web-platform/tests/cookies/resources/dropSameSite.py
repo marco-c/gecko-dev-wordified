@@ -71,6 +71,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 samesite_strict
 "
@@ -84,6 +85,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 samesite_lax
 "
@@ -97,6 +99,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 samesite_none
 "
@@ -110,6 +113,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 samesite_unspecified
 "
@@ -119,6 +123,7 @@ False
     
 return
 headers
+b
 '
 {
 "
