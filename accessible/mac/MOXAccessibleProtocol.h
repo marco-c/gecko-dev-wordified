@@ -1423,6 +1423,16 @@ _Nullable
 )
 moxEndTextMarker
 ;
+/
+/
+AXSelectedTextMarkerRange
+-
+(
+id
+_Nullable
+)
+moxSelectedTextMarkerRange
+;
 #
 pragma
 mark
