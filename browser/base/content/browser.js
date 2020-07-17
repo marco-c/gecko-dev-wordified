@@ -41156,7 +41156,7 @@ e
 }
 }
 let
-frameOuterWindowID
+frameID
 =
 WebNavigationFrames
 .
@@ -41208,7 +41208,7 @@ csp
 doc
 .
 csp
-frameOuterWindowID
+frameID
 }
 ;
 /

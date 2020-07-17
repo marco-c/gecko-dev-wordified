@@ -534,7 +534,8 @@ top
 -
 level
 windows
-outerWindowId
+BrowsingContext
+ID
 otherwise
 return
 WebNavigationFrames

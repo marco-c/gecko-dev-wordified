@@ -1572,7 +1572,7 @@ parentFrameId
 :
 this
 .
-parentWindowId
+parentFrameId
 incognito
 :
 this
@@ -4515,12 +4515,12 @@ frameId
 :
 channel
 .
-windowId
-parentWindowId
+frameId
+parentFrameId
 :
 channel
 .
-parentWindowId
+parentFrameId
 frameAncestors
 :
 channel

@@ -3457,7 +3457,7 @@ docLocation
 spec
 ;
 let
-frameOuterWindowID
+frameID
 =
 WebNavigationFrames
 .
@@ -4057,7 +4057,7 @@ selectionInfo
 userContextId
 customMenuItems
 contentDisposition
-frameOuterWindowID
+frameID
 frameBrowsingContextID
 disableSetDesktopBackground
 parentAllowsMixedContent
@@ -5281,7 +5281,7 @@ csp
 ;
 context
 .
-frameOuterWindowID
+frameID
 =
 WebNavigationFrames
 .
@@ -5296,7 +5296,7 @@ ownerGlobal
 ;
 context
 .
-frameBrowsingContextID
+frameOuterWindowID
 =
 context
 .
@@ -5304,7 +5304,19 @@ target
 .
 ownerGlobal
 .
-docShell
+windowUtils
+.
+outerWindowID
+;
+context
+.
+frameBrowsingContextID
+=
+context
+.
+target
+.
+ownerGlobal
 .
 browsingContext
 .

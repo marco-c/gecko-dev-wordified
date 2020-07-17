@@ -505,7 +505,7 @@ referrerInfo
 )
 ;
 let
-frameOuterWindowID
+frameID
 =
 WebNavigationFrames
 .
@@ -551,7 +551,7 @@ null
 title
 :
 null
-frameOuterWindowID
+frameID
 triggeringPrincipal
 :
 principal

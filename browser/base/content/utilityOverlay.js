@@ -3191,7 +3191,7 @@ if
 (
 params
 .
-frameOuterWindowID
+frameID
 !
 =
 undefined
@@ -3220,7 +3220,7 @@ it
 contains
 the
 expected
-frameOuterWindowID
+frameID
 params
 .
 /
@@ -3315,11 +3315,11 @@ gBrowser
 .
 selectedBrowser
 sourceTabBrowser
-sourceFrameOuterWindowID
+sourceFrameID
 :
 params
 .
-frameOuterWindowID
+frameID
 }
 }
 "
@@ -4060,7 +4060,7 @@ if
 (
 params
 .
-frameOuterWindowID
+frameID
 !
 =
 undefined
@@ -4089,7 +4089,7 @@ it
 contains
 the
 expected
-frameOuterWindowID
+frameID
 params
 .
 /
@@ -4144,11 +4144,11 @@ w
 gBrowser
 .
 selectedBrowser
-sourceFrameOuterWindowID
+sourceFrameID
 :
 params
 .
-frameOuterWindowID
+frameID
 }
 }
 "

@@ -5093,7 +5093,12 @@ return
 aWin
 -
 >
-WindowID
+GetBrowsingContext
+(
+)
+-
+>
+Id
 (
 )
 ;
@@ -5111,7 +5116,7 @@ return
 aLoadInfo
 -
 >
-GetOuterWindowID
+GetBrowsingContextID
 (
 )
 ;
