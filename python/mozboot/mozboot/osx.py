@@ -1971,7 +1971,7 @@ try
                 
 output
 =
-self
+subprocess
 .
 check_output
 (
@@ -1985,7 +1985,7 @@ print
 path
 '
 ]
-                                           
+                                                 
 stderr
 =
 subprocess
@@ -2171,7 +2171,7 @@ try
             
 output
 =
-self
+subprocess
 .
 check_output
 (
@@ -2188,7 +2188,7 @@ xcrun
 clang
 '
 ]
-                                       
+                                             
 stderr
 =
 subprocess
@@ -2229,7 +2229,7 @@ xcodebuild
 try
 :
                     
-self
+subprocess
 .
 check_output
 (
@@ -2240,7 +2240,7 @@ xcodebuild
 license
 '
 ]
-                                      
+                                            
 stderr
 =
 subprocess
@@ -2390,7 +2390,7 @@ exit
             
 output
 =
-self
+subprocess
 .
 check_output
 (
@@ -2409,7 +2409,7 @@ clang
 version
 '
 ]
-                                       
+                                             
 universal_newlines
 =
 True
@@ -2619,10 +2619,11 @@ installed
 =
 set
 (
-self
+subprocess
 .
 check_output
 (
+            
 cmd
 +
 [
@@ -2630,7 +2631,6 @@ cmd
 list
 '
 ]
-                                          
 universal_newlines
 =
 True
@@ -2692,7 +2692,7 @@ outdated
 =
 set
 (
-self
+subprocess
 .
 check_output
 (
@@ -2708,7 +2708,7 @@ outdated
 quiet
 '
 ]
-                                         
+                                               
 universal_newlines
 =
 True
@@ -2903,7 +2903,7 @@ _ensure_homebrew_found
         
 known_taps
 =
-self
+subprocess
 .
 check_output
 (
@@ -2943,7 +2943,7 @@ in
 known_taps
 :
             
-self
+subprocess
 .
 check_output
 (
@@ -2954,6 +2954,7 @@ brew
 '
 tap
 '
+                                     
 '
 homebrew
 /
@@ -3050,7 +3051,7 @@ in
 known_taps
 :
             
-self
+subprocess
 .
 check_output
 (
@@ -3546,7 +3547,7 @@ installed
 set
 (
             
-self
+subprocess
 .
 check_output
 (
@@ -3689,7 +3690,7 @@ pythons
 set
 (
             
-self
+subprocess
 .
 check_output
 (

@@ -3451,14 +3451,6 @@ r
 current_firefox_checkout
 (
                 
-check_output
-=
-self
-.
-instance
-.
-check_output
-                
 env
 =
 self
@@ -3644,14 +3636,6 @@ r
 =
 current_firefox_checkout
 (
-check_output
-=
-self
-.
-instance
-.
-check_output
-                                     
 env
 =
 self
@@ -5358,7 +5342,6 @@ True
 def
 current_firefox_checkout
 (
-check_output
 env
 hg
 =
@@ -5489,8 +5472,11 @@ try
                 
 node
 =
+subprocess
+.
 check_output
 (
+                    
 [
 hg
 '
@@ -5514,15 +5500,13 @@ node
 }
 '
 ]
-                                    
+                    
 cwd
 =
 path
-                                    
 env
 =
 env
-                                    
 universal_newlines
 =
 True

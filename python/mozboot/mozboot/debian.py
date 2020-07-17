@@ -59,6 +59,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+subprocess
 from
 mozboot
 .
@@ -957,7 +959,7 @@ python3
         
 python3_packages
 =
-self
+subprocess
 .
 check_output
 (
