@@ -113,7 +113,7 @@ String
 Param
 aUri
 int32_t
-aDesiredLength
+aMaxSize
 jni
 :
 :
