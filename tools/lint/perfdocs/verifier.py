@@ -113,6 +113,7 @@ name
 :
 raptor
 manifest
+:
 testing
 /
 raptor
@@ -122,6 +123,11 @@ raptor
 raptor
 .
 ini
+static
+-
+only
+:
+False
 suites
 :
     
@@ -228,6 +234,22 @@ type
 :
 "
 string
+"
+}
+        
+"
+static
+-
+only
+"
+:
+{
+"
+type
+"
+:
+"
+boolean
 "
 }
         
@@ -353,6 +375,11 @@ name
 manifest
 "
 "
+static
+-
+only
+"
+"
 suites
 "
 ]
@@ -418,7 +445,6 @@ def
 __init__
 (
 self
-root_dir
 workspace_dir
 )
 :
@@ -430,20 +456,6 @@ workspace_dir
 Initialize
 the
 Verifier
-.
-        
-:
-param
-str
-root_dir
-:
-Path
-to
-the
-'
-testing
-'
-directory
 .
         
 :
@@ -477,7 +489,6 @@ _gatherer
 =
 Gatherer
 (
-root_dir
 workspace_dir
 )
     
@@ -2080,14 +2091,38 @@ matched_yml
 rst
 "
 :
+True
+            
+}
+            
+if
+not
+read_yaml
+(
+matched_yml
+)
+[
+"
+static
+-
+only
+"
+]
+:
+                
+_valid_files
+[
+"
+rst
+"
+]
+=
 self
 .
 validate_rst_content
 (
 matched_rst
 )
-            
-}
             
 #
 Log

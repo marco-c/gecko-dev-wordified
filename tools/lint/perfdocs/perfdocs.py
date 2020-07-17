@@ -456,6 +456,12 @@ LOGGER
 =
 logger
     
+PerfDocLogger
+.
+TOP_DIR
+=
+top_dir
+    
 #
 Convert
 all
@@ -472,13 +478,8 @@ re
 .
 sub
 (
+top_dir
 "
-.
-*
-testing
-"
-"
-testing
 "
 path
 )
@@ -494,23 +495,9 @@ PATHS
 =
 rel_paths
     
-#
-TODO
-:
-Expand
-search
-to
-entire
-tree
-rather
-than
-just
-the
-testing
-directory
-    
-testing_dir
+target_dir
 =
+[
 os
 .
 path
@@ -518,11 +505,20 @@ path
 join
 (
 top_dir
-"
-testing
-"
+i
 )
+for
+i
+in
+rel_paths
+]
     
+for
+path
+in
+target_dir
+:
+        
 if
 not
 os
@@ -531,24 +527,23 @@ path
 .
 exists
 (
-testing_dir
+path
 )
 :
-        
+            
 raise
 Exception
 (
 "
 Cannot
 locate
-testing
 directory
 at
 %
 s
 "
 %
-testing_dir
+path
 )
     
 #
@@ -587,7 +582,6 @@ verifier
 =
 Verifier
 (
-testing_dir
 top_dir
 )
     

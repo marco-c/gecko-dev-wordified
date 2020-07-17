@@ -96,6 +96,11 @@ lint
 "
 "
     
+TOP_DIR
+=
+"
+"
+    
 PATHS
 =
 [
@@ -366,30 +371,16 @@ absolute
 paths
 )
             
-#
-TODO
-:
-Expand
-to
-outside
-of
-the
-testing
-directory
-            
 fpath
 =
 re
 .
 sub
 (
-"
+PerfDocLogger
 .
-*
-testing
+TOP_DIR
 "
-"
-testing
 "
 file
 )
