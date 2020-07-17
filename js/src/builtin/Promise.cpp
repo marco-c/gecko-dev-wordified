@@ -38901,7 +38901,9 @@ protoClass_
 =
 {
 "
-PromiseProto
+Promise
+.
+prototype
 "
 JSCLASS_HAS_CACHED_PROTO
 (
