@@ -36,7 +36,7 @@ broken
 by
 "
 cookies
-sameSite
+SameSite
 =
 lax
 by

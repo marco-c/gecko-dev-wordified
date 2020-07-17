@@ -863,7 +863,7 @@ sameSiteTest
 )
 /
 Cookie
-sameSite
+SameSite
 flag
 must
 be

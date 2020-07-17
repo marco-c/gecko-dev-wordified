@@ -22828,9 +22828,9 @@ will
 treat
 /
 /
-sameSite
+SameSite
 =
-none
+None
 if
 nothing
 else

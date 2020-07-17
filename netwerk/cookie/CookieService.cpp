@@ -897,9 +897,9 @@ of
 tolerance
 for
 '
-sameSite
+SameSite
 =
-lax
+Lax
 by
 default
 '
@@ -910,7 +910,7 @@ set
 /
 without
 a
-sameSite
+SameSite
 value
 when
 used
@@ -9462,7 +9462,7 @@ nsIScriptError
 infoFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieSameSiteValueInvalid
+CookieSameSiteValueInvalid2
 "
 _ns
 AutoTArray
@@ -9603,7 +9603,7 @@ nsIScriptError
 infoFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieRejectedNonRequiresSecure
+CookieRejectedNonRequiresSecure2
 "
 _ns
 AutoTArray
@@ -9630,9 +9630,9 @@ newCookie
 /
 /
 if
-sameSite
+SameSite
 =
-lax
+Lax
 by
 default
 is
@@ -9657,7 +9657,7 @@ nsIScriptError
 warningFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieRejectedNonRequiresSecureForBeta
+CookieRejectedNonRequiresSecureForBeta2
 "
 _ns
 AutoTArray
@@ -9725,7 +9725,7 @@ nsIScriptError
 infoFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieLaxForced
+CookieLaxForced2
 "
 _ns
 AutoTArray
@@ -9761,7 +9761,7 @@ nsIScriptError
 warningFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieLaxForcedForBeta
+CookieLaxForcedForBeta2
 "
 _ns
 AutoTArray

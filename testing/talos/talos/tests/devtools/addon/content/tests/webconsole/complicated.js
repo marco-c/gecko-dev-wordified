@@ -172,7 +172,7 @@ cookies
 are
 misusing
 the
-sameSite
+SameSite
 attribute
 so
 it

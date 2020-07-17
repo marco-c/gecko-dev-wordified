@@ -270,7 +270,7 @@ webconsole
 .
 group
 .
-cookieSameSiteLaxByDefaultEnabled
+cookieSameSiteLaxByDefaultEnabled2
 "
 :
 "
@@ -279,7 +279,7 @@ cookies
 are
 misusing
 the
-sameSite
+SameSite
 attribute
 so
 it
@@ -295,7 +295,7 @@ webconsole
 .
 group
 .
-cookieSameSiteLaxByDefaultDisabled
+cookieSameSiteLaxByDefaultDisabled2
 "
 :
 "
@@ -305,7 +305,7 @@ are
 misusing
 the
 recommended
-sameSite
+SameSite
 attribute
 "
 }

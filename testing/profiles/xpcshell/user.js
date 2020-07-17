@@ -504,9 +504,9 @@ broken
 by
 "
 cookies
-sameSite
+SameSite
 =
-lax
+Lax
 by
 default
 "

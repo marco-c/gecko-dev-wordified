@@ -3597,7 +3597,7 @@ isSession
 /
 isHttpOnly
 and
-sameSite
+SameSite
 flags
 then
 we

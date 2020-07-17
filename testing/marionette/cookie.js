@@ -687,7 +687,7 @@ keys
 )
 "
 Cookie
-sameSite
+SameSite
 flag
 must
 be

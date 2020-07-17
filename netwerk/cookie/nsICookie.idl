@@ -610,7 +610,7 @@ lastAccessed
 *
 *
 the
-sameSite
+SameSite
 attribute
 ;
 this

@@ -1269,7 +1269,7 @@ kCookiesMaxPerHost
 /
 SameSite
 =
-none
+None
 by
 default
 .
@@ -1299,9 +1299,9 @@ broken
 by
 "
 cookies
-sameSite
+SameSite
 =
-lax
+Lax
 by
 /
 /

@@ -124,7 +124,7 @@ incompatible
 with
 the
 cookie
-sameSite
+SameSite
 schemeful
 /
 /

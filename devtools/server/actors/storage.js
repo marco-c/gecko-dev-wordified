@@ -377,7 +377,7 @@ special
 values
 of
 the
-sameSite
+SameSite
 property
 /
 /
