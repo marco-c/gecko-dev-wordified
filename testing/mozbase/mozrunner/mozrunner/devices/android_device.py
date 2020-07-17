@@ -100,7 +100,7 @@ from
 mozdevice
 import
 ADBHost
-ADBDevice
+ADBDeviceFactory
 from
 six
 .
@@ -210,10 +210,6 @@ SHORT_TIMEOUT
 verbose_logging
 =
 False
-devices
-=
-{
-}
 class
 InstallIntent
 (
@@ -560,25 +556,6 @@ None
 )
 :
     
-global
-devices
-    
-if
-device_serial
-in
-devices
-:
-        
-device
-=
-devices
-[
-device_serial
-]
-    
-else
-:
-        
 adb_path
 =
 _find_sdk_exe
@@ -589,21 +566,21 @@ adb
 '
 False
 )
-        
+    
 if
 not
 adb_path
 :
-            
+        
 adb_path
 =
 '
 adb
 '
-        
+    
 device
 =
-ADBDevice
+ADBDeviceFactory
 (
 adb
 =
@@ -615,13 +592,6 @@ device
 =
 device_serial
 )
-        
-devices
-[
-device_serial
-]
-=
-device
     
 return
 device
@@ -2315,6 +2285,12 @@ Enter
 %
 app
 )
+        
+device
+.
+run_as_package
+=
+app
     
 if
 device_verified
@@ -2685,6 +2661,12 @@ substs
 serial
 )
             
+device
+.
+run_as_package
+=
+app
+            
 try
 :
                 
@@ -2921,6 +2903,12 @@ build_obj
 substs
 device_serial
 )
+    
+device
+.
+run_as_package
+=
+app
     
 device
 .
