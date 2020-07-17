@@ -688,6 +688,12 @@ SectionsManager
 enableSection
 (
 SECTION_ID
+true
+/
+*
+isStartup
+*
+/
 )
 ;
 if

@@ -616,6 +616,12 @@ SectionsManager
 enableSection
 (
 SECTION_ID
+true
+/
+*
+isStartup
+*
+/
 )
 ;
 this
@@ -624,6 +630,9 @@ fetchHighlights
 (
 {
 broadcast
+:
+true
+isStartup
 :
 true
 }
@@ -1665,6 +1674,9 @@ this
 fetchImage
 (
 page
+options
+.
+isStartup
 )
 ;
 }
@@ -1937,6 +1949,9 @@ rows
 highlights
 }
 shouldBroadcast
+options
+.
+isStartup
 )
 ;
 }
@@ -1976,6 +1991,9 @@ screenshot
 fetchImage
 (
 page
+isStartup
+=
+false
 )
 {
 /
@@ -2029,6 +2047,7 @@ url
 image
 }
 true
+isStartup
 )
 ;
 }
@@ -2102,6 +2121,16 @@ fetchHighlights
 broadcast
 :
 false
+isStartup
+:
+!
+!
+action
+.
+meta
+?
+.
+isStartup
 }
 )
 ;
