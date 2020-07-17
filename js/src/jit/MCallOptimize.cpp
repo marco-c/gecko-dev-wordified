@@ -2533,6 +2533,12 @@ InlinableNative
 :
 IntrinsicGuardToWrapForValidIterator
 :
+case
+InlinableNative
+:
+:
+IntrinsicGuardToIteratorHelper
+:
 return
 inlineGuardToClass
 (

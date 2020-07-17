@@ -808,6 +808,11 @@ _
 IntrinsicGuardToWrapForValidIterator
 )
 \
+_
+(
+IntrinsicGuardToIteratorHelper
+)
+\
 \
 _
 (
