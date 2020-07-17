@@ -117,6 +117,13 @@ MPL
 #
 include
 "
+nsLiteralString
+.
+h
+"
+#
+include
+"
 nsTSubstringTuple
 .
 h
