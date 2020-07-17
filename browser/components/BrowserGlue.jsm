@@ -561,7 +561,14 @@ wantUntrusted
 :
 true
 }
-AboutLoginsImport
+AboutLoginsImportFromBrowser
+:
+{
+wantUntrusted
+:
+true
+}
+AboutLoginsImportFromFile
 :
 {
 wantUntrusted
