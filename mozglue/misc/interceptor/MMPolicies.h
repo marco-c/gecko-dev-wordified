@@ -707,8 +707,7 @@ accessible
 bool
 IsPageAccessible
 (
-void
-*
+uintptr_t
 aVAddress
 )
 const
@@ -724,7 +723,13 @@ nt
 :
 VirtualQuery
 (
+reinterpret_cast
+<
+LPCVOID
+>
+(
 aVAddress
+)
 &
 mbi
 sizeof
@@ -4411,8 +4416,7 @@ accessible
 bool
 IsPageAccessible
 (
-void
-*
+uintptr_t
 aVAddress
 )
 const
@@ -4429,7 +4433,13 @@ nt
 VirtualQueryEx
 (
 mProcess
+reinterpret_cast
+<
+LPCVOID
+>
+(
 aVAddress
+)
 &
 mbi
 sizeof
