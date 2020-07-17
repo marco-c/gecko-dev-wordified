@@ -1204,6 +1204,11 @@ h
 #
 include
 <
+functional
+>
+#
+include
+<
 iosfwd
 >
 #
@@ -1551,10 +1556,10 @@ UTF
 16
 .
 typedef
-base
+std
 :
 :
-string16
+wstring
 StringType
 ;
 #

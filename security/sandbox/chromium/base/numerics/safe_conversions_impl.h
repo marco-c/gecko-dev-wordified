@@ -681,7 +681,12 @@ IsValueNegative
 value
 )
 ?
-0
+static_cast
+<
+UnsignedT
+>
+(
+0u
 -
 static_cast
 <
@@ -689,6 +694,7 @@ UnsignedT
 >
 (
 value
+)
 )
 :
 static_cast

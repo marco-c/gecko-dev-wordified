@@ -746,7 +746,10 @@ base
 win
 :
 :
-VERSION_WIN8
+Version
+:
+:
+WIN8
 )
 return
 ;
@@ -1024,7 +1027,10 @@ base
 win
 :
 :
-VERSION_WIN10
+Version
+:
+:
+WIN10
 )
 return
 ;
@@ -1299,10 +1305,10 @@ IsValid
 )
 )
 ;
-base
+std
 :
 :
-string16
+wstring
 sddl_str
 ;
 ASSERT_TRUE

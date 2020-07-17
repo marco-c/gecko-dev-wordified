@@ -763,10 +763,10 @@ Sid
 :
 ToSddlString
 (
-base
+std
 :
 :
-string16
+wstring
 *
 sddl_string
 )
