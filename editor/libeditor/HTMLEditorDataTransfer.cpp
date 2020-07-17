@@ -1548,6 +1548,16 @@ aClearStyle
 ;
 private
 :
+EditorDOMPoint
+GetNewCaretPointAfterInsertingHTML
+(
+const
+EditorDOMPoint
+&
+aLastInsertedPoint
+)
+const
+;
 HTMLEditor
 &
 mHTMLEditor
@@ -1556,6 +1566,9 @@ mHTMLEditor
 ;
 EditorDOMPoint
 HTMLEditor
+:
+:
+HTMLWithContextInserter
 :
 :
 GetNewCaretPointAfterInsertingHTML
@@ -1602,6 +1615,8 @@ GetChild
 {
 containerContent
 =
+mHTMLEditor
+.
 GetLastEditableLeaf
 (
 *
@@ -1901,7 +1916,8 @@ element
 WSRunScanner
 wsRunScannerAtCaret
 (
-this
+&
+mHTMLEditor
 pointToPutCaret
 )
 ;
@@ -1920,6 +1936,8 @@ ReachedBRElement
 &
 &
 !
+mHTMLEditor
+.
 IsVisibleBRElement
 (
 wsRunScannerAtCaret
@@ -1933,7 +1951,8 @@ GetStartReasonContent
 WSRunScanner
 wsRunScannerAtStartReason
 (
-this
+&
+mHTMLEditor
 EditorDOMPoint
 (
 wsRunScannerAtCaret
@@ -5436,8 +5455,6 @@ const
 EditorDOMPoint
 pointToPutCaret
 =
-mHTMLEditor
-.
 GetNewCaretPointAfterInsertingHTML
 (
 lastInsertedPoint
