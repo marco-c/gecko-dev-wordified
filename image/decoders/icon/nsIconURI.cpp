@@ -473,6 +473,7 @@ Equals
 kThisIconURIImplementationCID
 )
 )
+{
 foundInterface
 =
 static_cast
@@ -484,6 +485,8 @@ nsIURI
 this
 )
 ;
+}
+else
 NS_INTERFACE_MAP_ENTRY
 (
 nsIMozIconURI
@@ -501,10 +504,6 @@ NS_INTERFACE_MAP_ENTRY_CONDITIONAL
 (
 nsINestedURI
 mIconURL
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIMozIconURI
 )
 NS_INTERFACE_MAP_ENTRY
 (
