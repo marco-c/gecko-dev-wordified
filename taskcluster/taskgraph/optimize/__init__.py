@@ -456,12 +456,15 @@ optimization
 opt_by
 arg
 =
+list
+(
 task
 .
 optimization
 .
 items
 (
+)
 )
 [
 0
@@ -588,7 +591,7 @@ sorted
 (
 opt_counts
 .
-iteritems
+items
 (
 )
 )
@@ -1609,12 +1612,13 @@ for
 label
 task
 in
-target_task_graph
-.
-tasks
+six
 .
 iteritems
 (
+target_task_graph
+.
+tasks
 )
 :
         
@@ -1659,7 +1663,7 @@ label
 }
 )
 .
-iteritems
+items
 (
 )
 }
@@ -1763,7 +1767,7 @@ sorted
 (
 named_task_dependencies
 .
-itervalues
+values
 (
 )
 )
