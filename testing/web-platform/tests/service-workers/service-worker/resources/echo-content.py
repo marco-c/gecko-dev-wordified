@@ -34,6 +34,12 @@ s
 path
 restriction
 .
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -46,6 +52,7 @@ headers
 =
 [
 (
+b
 "
 X
 -
@@ -53,12 +60,16 @@ Request
 -
 Method
 "
+isomorphic_encode
+(
 request
 .
 method
 )
+)
                
 (
+b
 "
 X
 -
@@ -74,11 +85,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Length
 "
+b
 "
 NO
 "
@@ -86,6 +99,7 @@ NO
 )
                
 (
+b
 "
 X
 -
@@ -101,11 +115,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 NO
 "
@@ -125,11 +141,13 @@ response
 .
                
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /

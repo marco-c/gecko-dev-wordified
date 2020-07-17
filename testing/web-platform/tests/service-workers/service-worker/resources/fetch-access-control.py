@@ -4,8 +4,13 @@ import
 json
 import
 os
+from
+wptserve
+.
+utils
 import
-sys
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -24,6 +29,7 @@ headers
 append
 (
 (
+b
 '
 X
 -
@@ -31,6 +37,7 @@ ServiceWorker
 -
 ServerHeader
 '
+b
 '
 SetInTheServer
 '
@@ -38,6 +45,7 @@ SetInTheServer
 )
     
 if
+b
 "
 ACAOrigin
 "
@@ -54,6 +62,7 @@ request
 .
 GET
 [
+b
 "
 ACAOrigin
 "
@@ -61,6 +70,7 @@ ACAOrigin
 .
 split
 (
+b
 "
 "
 )
@@ -71,6 +81,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -88,12 +99,15 @@ for
 suffix
 in
 [
+b
 "
 Headers
 "
+b
 "
 Methods
 "
+b
 "
 Credentials
 "
@@ -102,6 +116,7 @@ Credentials
         
 query
 =
+b
 "
 ACA
 %
@@ -112,6 +127,7 @@ suffix
         
 header
 =
+b
 "
 Access
 -
@@ -149,6 +165,7 @@ query
 )
     
 if
+b
 "
 ACEHeaders
 "
@@ -163,6 +180,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -176,6 +194,7 @@ request
 .
 GET
 [
+b
 "
 ACEHeaders
 "
@@ -185,6 +204,7 @@ ACEHeaders
     
 if
 (
+b
 "
 Auth
 "
@@ -201,6 +221,7 @@ auth
 username
 )
 or
+b
 "
 AuthFail
 "
@@ -219,11 +240,13 @@ headers
 append
 (
 (
+b
 '
 WWW
 -
 Authenticate
 '
+b
 '
 Basic
 realm
@@ -237,6 +260,7 @@ Restricted
         
 body
 =
+b
 '
 Authentication
 canceled
@@ -248,6 +272,7 @@ headers
 body
     
 if
+b
 "
 PNGIMAGE
 "
@@ -262,11 +287,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 /
@@ -281,18 +308,21 @@ base64
 .
 decodestring
 (
+b
 "
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8
 /
 9hAAAAAXNSR0IArs4c6QAAAARnQU1B
 "
                                    
+b
 "
 AACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAhSURBVDhPY3wro
 /
 KfgQLABKXJBqMG
 "
                                    
+b
 "
 jBoAAqMGDLwBDAwAEsoCTFWunmQAAAAASUVORK5CYII
 =
@@ -304,6 +334,7 @@ headers
 body
     
 if
+b
 "
 VIDEO
 "
@@ -318,11 +349,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 video
 /
@@ -344,9 +377,11 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 movie_5
 .
@@ -433,6 +468,7 @@ range
 .
         
 if
+b
 "
 PartialContent
 "
@@ -451,6 +487,7 @@ length
 return
 500
 headers
+b
 "
 file
 is
@@ -472,6 +509,7 @@ length
 1
           
 if
+b
 "
 Range
 "
@@ -487,6 +525,7 @@ request
 .
 headers
 [
+b
 "
 Range
 "
@@ -494,6 +533,7 @@ Range
             
 prefix
 =
+b
 "
 bytes
 =
@@ -512,6 +552,7 @@ prefix
 .
 split
 (
+b
 "
 -
 "
@@ -554,6 +595,7 @@ split_header
 ]
 =
 =
+b
 "
 0
 "
@@ -564,6 +606,7 @@ split_header
 ]
 =
 =
+b
 "
 "
 :
@@ -593,6 +636,7 @@ split_header
 ]
 !
 =
+b
 "
 "
 :
@@ -614,6 +658,7 @@ split_header
 ]
 !
 =
+b
 "
 "
 :
@@ -663,11 +708,13 @@ headers
 append
 (
 (
+b
 "
 Accept
 -
 Ranges
 "
+b
 "
 bytes
 "
@@ -679,11 +726,14 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Length
 "
+isomorphic_encode
+(
 str
 (
 end
@@ -694,17 +744,20 @@ start
 )
 )
 )
+)
           
 headers
 .
 append
 (
 (
+b
 "
 Content
 -
 Range
 "
+b
 "
 bytes
 %
@@ -761,6 +814,7 @@ auth
 .
 username
 else
+b
 "
 undefined
 "
@@ -779,6 +833,7 @@ auth
 .
 username
 else
+b
 "
 undefined
 "
@@ -789,6 +844,7 @@ request
 .
 cookies
 [
+b
 '
 cookie
 '
@@ -796,6 +852,7 @@ cookie
 .
 value
 if
+b
 '
 cookie
 '
@@ -804,6 +861,7 @@ request
 .
 cookies
 else
+b
 "
 undefined
 "
@@ -821,7 +879,7 @@ request
 .
 POST
 .
-iteritems
+items
 (
 )
 :
@@ -847,6 +905,7 @@ not
 hasattr
 (
 value
+u
 "
 file
 "
@@ -870,12 +929,17 @@ files
 append
 (
 {
+u
 "
 key
 "
 :
+isomorphic_decode
+(
 key
+)
                       
+u
 "
 name
 "
@@ -886,6 +950,7 @@ file
 .
 name
                       
+u
 "
 type
 "
@@ -894,6 +959,7 @@ value
 .
 type
                       
+u
 "
 error
 "
@@ -902,6 +968,7 @@ error
 #
 TODO
                       
+u
 "
 size
 "
@@ -911,6 +978,7 @@ len
 data
 )
                       
+u
 "
 content
 "
@@ -922,14 +990,20 @@ data
 get_data
 =
 {
+isomorphic_decode
+(
 key
+)
 :
+isomorphic_decode
+(
 request
 .
 GET
 [
 key
 ]
+)
 for
 key
 value
@@ -938,7 +1012,7 @@ request
 .
 GET
 .
-iteritems
+items
 (
 )
 }
@@ -946,14 +1020,20 @@ iteritems
 post_data
 =
 {
+isomorphic_decode
+(
 key
+)
 :
+isomorphic_decode
+(
 request
 .
 POST
 [
 key
 ]
+)
 for
 key
 value
@@ -962,7 +1042,7 @@ request
 .
 POST
 .
-iteritems
+items
 (
 )
                  
@@ -976,6 +1056,7 @@ POST
 [
 key
 ]
+u
 "
 file
 "
@@ -985,14 +1066,20 @@ file
 headers_data
 =
 {
+isomorphic_decode
+(
 key
+)
 :
+isomorphic_decode
+(
 request
 .
 headers
 [
 key
 ]
+)
 for
 key
 value
@@ -1001,7 +1088,7 @@ request
 .
 headers
 .
-iteritems
+items
 (
 )
 }
@@ -1009,14 +1096,17 @@ iteritems
 data
 =
 {
+u
 "
 jsonpResult
 "
 :
+u
 "
 success
 "
             
+u
 "
 method
 "
@@ -1025,59 +1115,80 @@ request
 .
 method
             
+u
 "
 headers
 "
 :
 headers_data
             
+u
 "
 body
 "
 :
+isomorphic_decode
+(
 request
 .
 body
+)
             
+u
 "
 files
 "
 :
 files
             
+u
 "
 GET
 "
 :
 get_data
             
+u
 "
 POST
 "
 :
 post_data
             
+u
 "
 username
 "
 :
+isomorphic_decode
+(
 username
+)
             
+u
 "
 password
 "
 :
+isomorphic_decode
+(
 password
+)
             
+u
 "
 cookie
 "
 :
+isomorphic_decode
+(
 cookie
+)
 }
     
 return
 headers
+u
 "
 report
 (

@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -53,6 +55,7 @@ values
 .
 append
 (
+b
 '
 "
 %
@@ -102,6 +105,7 @@ request
 .
 GET
 [
+b
 '
 key
 '
@@ -149,6 +153,7 @@ counter
     
 body
 =
+b
 "
 "
 "
@@ -188,6 +193,7 @@ s
 %
 (
 counter
+b
 '
 '
 .
