@@ -2942,6 +2942,9 @@ indirectExportEntries
 EntryVector
 starExportEntries
 ;
+FunctionDeclarationVector
+functionDecls
+;
 explicit
 StencilModuleMetadata
 (
@@ -2967,6 +2970,10 @@ indirectExportEntries
 cx
 )
 starExportEntries
+(
+cx
+)
+functionDecls
 (
 cx
 )
