@@ -486,7 +486,7 @@ bool
 UrlClassifierCommon
 :
 :
-ShouldEnableClassifier
+ShouldEnableProtectionForChannel
 (
 nsIChannel
 *

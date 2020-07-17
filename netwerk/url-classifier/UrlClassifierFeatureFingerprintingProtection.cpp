@@ -641,7 +641,7 @@ if
 UrlClassifierCommon
 :
 :
-ShouldEnableClassifier
+ShouldEnableProtectionForChannel
 (
 aChannel
 )

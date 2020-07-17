@@ -257,7 +257,7 @@ aURI
 ;
 static
 bool
-ShouldEnableClassifier
+ShouldEnableProtectionForChannel
 (
 nsIChannel
 *
