@@ -1986,8 +1986,6 @@ MOZ_MUST_USE
 bool
 intoStencil
 (
-TopLevelFunction
-isTopLevel
 )
 ;
 private

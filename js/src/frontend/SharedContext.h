@@ -2157,6 +2157,14 @@ JSFunction
 :
 :
 nargs_
+TopLevelFunction
+isTopLevel_
+=
+TopLevelFunction
+:
+:
+No
+;
 /
 /
 True
@@ -2461,6 +2469,8 @@ FunctionFlags
 flags
 size_t
 index
+TopLevelFunction
+isTopLevel
 )
 ;
 JSFunction

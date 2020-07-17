@@ -16369,7 +16369,6 @@ fse
 .
 intoStencil
 (
-isTopLevel
 )
 ;
 }

@@ -3891,6 +3891,8 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+TopLevelFunction
+isTopLevel
 )
 ;
 FunctionBox
@@ -3911,6 +3913,8 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+TopLevelFunction
+isTopLevel
 )
 ;
 public
