@@ -21012,7 +21012,7 @@ draw_triangles_u16
 &
 mut
 self
-first_index
+first_vertex
 :
 i32
 index_count
@@ -21058,7 +21058,7 @@ gl
 :
 :
 UNSIGNED_SHORT
-first_index
+first_vertex
 as
 u32
 *
@@ -21073,7 +21073,7 @@ draw_triangles_u32
 &
 mut
 self
-first_index
+first_vertex
 :
 i32
 index_count
@@ -21119,7 +21119,7 @@ gl
 :
 :
 UNSIGNED_INT
-first_index
+first_vertex
 as
 u32
 *
