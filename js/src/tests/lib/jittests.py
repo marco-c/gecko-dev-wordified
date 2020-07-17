@@ -3005,7 +3005,7 @@ cmd
 -
 e
 '
-"
+'
 if
 (
 {
@@ -3016,7 +3016,7 @@ quit
 {
 }
 )
-"
+'
 .
 format
 (
@@ -3461,6 +3461,21 @@ TZ
 '
 PST8PDT
 '
+    
+#
+replace
+with
+shlex
+.
+join
+when
+move
+to
+Python
+3
+.
+8
++
     
 cmd
 =
@@ -6471,9 +6486,6 @@ jtd_tests
 recursive
 =
 True
-root
-=
-True
 )
         
 device
@@ -6505,9 +6517,6 @@ options
 .
 remote_test_root
 recursive
-=
-True
-root
 =
 True
 )
