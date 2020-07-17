@@ -1551,6 +1551,19 @@ load_yaml
 config_yml
 )
     
+logger
+.
+debug
+(
+"
+validating
+the
+graph
+config
+.
+"
+)
+    
 validate_graph_config
 (
 config
