@@ -556,8 +556,6 @@ create_context_tar
 GECKO
 image_dir
 outputFile
-"
-"
 args
 )
 def

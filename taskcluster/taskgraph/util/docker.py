@@ -1441,7 +1441,6 @@ generate_context_hash
 (
 topsrcdir
 image_path
-image_name
 args
 =
 None
@@ -1471,13 +1470,13 @@ image
 return
 stream_context_tar
 (
-        
 topsrcdir
 image_path
 VoidWriter
 (
 )
-image_name
+args
+=
 args
 )
 class
@@ -1595,7 +1594,6 @@ create_context_tar
 topsrcdir
 context_dir
 out_path
-prefix
 args
 =
 None
@@ -1628,18 +1626,6 @@ tar
 file
 at
 out_path
-.
-Files
-inside
-the
-archive
-will
-be
-    
-prefixed
-by
-directory
-prefix
 .
     
 We
@@ -1802,11 +1788,24 @@ fh
 return
 stream_context_tar
 (
+            
 topsrcdir
 context_dir
 fh
-prefix
+image_name
+=
+os
+.
+path
+.
+basename
+(
+out_path
+)
 args
+=
+args
+        
 )
 def
 stream_context_tar
@@ -1814,7 +1813,9 @@ stream_context_tar
 topsrcdir
 context_dir
 out_file
-prefix
+image_name
+=
+None
 args
 =
 None
@@ -1900,7 +1901,7 @@ root
 f
 )
             
-rel
+archive_path
 =
 source_path
 [
@@ -1912,18 +1913,6 @@ context_dir
 1
 :
 ]
-            
-archive_path
-=
-os
-.
-path
-.
-join
-(
-prefix
-rel
-)
             
 archive_files
 [
@@ -2302,7 +2291,6 @@ path
 .
 join
 (
-prefix
 '
 topsrcdir
 '
@@ -2328,7 +2316,6 @@ path
 .
 join
 (
-prefix
 '
 topsrcdir
 '
@@ -2344,21 +2331,11 @@ fs_path
     
 archive_files
 [
-os
-.
-path
-.
-join
-(
-prefix
 '
 Dockerfile
 '
-)
 ]
 =
-\
-        
 GeneratedFile
 (
 b
@@ -2391,16 +2368,7 @@ create_tar_gz_from_files
 (
 writer
 archive_files
-'
-%
-s
-.
-tar
-.
-gz
-'
-%
-prefix
+image_name
 )
     
 return

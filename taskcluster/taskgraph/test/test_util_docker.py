@@ -326,7 +326,7 @@ image
 )
                 
 '
-e61e675ce05e8c11424437db3f1004079374c1a5fe6ad6800346cebe137b0797
+e1649b3427bd7a0387f4508d25057c2e89228748517aad6c70e3df54f47bd13a
 '
             
 )
@@ -988,7 +988,7 @@ assertEqual
 (
 h
 '
-2a6d7f1627eba60daf85402418e041d728827d309143c6bc1c6bb3035bde6717
+6c1cc23357625f64f775a08eace7bbc3877dd08d2f3546e0f2e308bac8491865
 '
 )
             
@@ -1029,14 +1029,10 @@ getnames
 [
                     
 '
-my_image
-/
 Dockerfile
 '
                     
 '
-my_image
-/
 extra
 '
                 
@@ -1246,7 +1242,7 @@ assertEqual
 (
 h
 '
-20faeb7c134f21187b142b5fadba94ae58865dc929c6c293d8cbc0a087269338
+e7f14044b8ec1ba42e251d4b293af212ad08b30ec8ab6613abbdbe73c3c2b61f
 '
 )
             
@@ -1278,14 +1274,10 @@ getnames
 [
                     
 '
-test_image
-/
 Dockerfile
 '
                     
 '
-test_image
-/
 topsrcdir
 /
 extra
@@ -1978,7 +1970,7 @@ assertEqual
 (
 h
 '
-e5440513ab46ae4c1d056269e1c6715d5da7d4bd673719d360411e35e5b87205
+d2a3363b15d0eb547a6c81a72ddf3980e2f6e6360c29b4fb6818102896f43180
 '
 )
             
@@ -2010,14 +2002,10 @@ getnames
 [
                     
 '
-my_image
-/
 Dockerfile
 '
                     
 '
-my_image
-/
 topsrcdir
 /
 extra
@@ -2026,8 +2014,6 @@ file0
 '
                     
 '
-my_image
-/
 topsrcdir
 /
 extra
@@ -2036,8 +2022,6 @@ file1
 '
                     
 '
-my_image
-/
 topsrcdir
 /
 extra
@@ -2046,8 +2030,6 @@ file2
 '
                     
 '
-my_image
-/
 topsrcdir
 /
 file0
