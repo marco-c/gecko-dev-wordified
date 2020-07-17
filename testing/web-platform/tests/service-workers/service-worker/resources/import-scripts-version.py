@@ -68,11 +68,13 @@ return
 [
         
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -84,9 +86,11 @@ revalidate
 )
         
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -95,11 +99,13 @@ cache
 )
         
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -107,7 +113,8 @@ javascript
 '
 )
 ]
-      
+       
+u
 '
 version
 =
