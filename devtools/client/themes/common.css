@@ -60,13 +60,15 @@ import
 url
 (
 "
-chrome
+resource
 :
 /
 /
 devtools
 /
-skin
+client
+/
+themes
 /
 splitters
 .
