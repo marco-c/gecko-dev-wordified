@@ -129,6 +129,11 @@ DocAccessibleWrap
 mm
 '
 '
+GeckoTextMarker
+.
+mm
+'
+'
 MacUtils
 .
 mm
