@@ -543,7 +543,10 @@ the
 decode
 thread
 .
-NS_ReleaseOnMainThread
+SurfaceCache
+:
+:
+ReleaseImageOnMainThread
 (
 mImage
 .

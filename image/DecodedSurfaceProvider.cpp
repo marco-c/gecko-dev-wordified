@@ -364,7 +364,10 @@ mImage
 =
 nullptr
 ;
-NS_ReleaseOnMainThread
+SurfaceCache
+:
+:
+ReleaseImageOnMainThread
 (
 image
 .
