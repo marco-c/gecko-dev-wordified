@@ -738,6 +738,11 @@ bad
 open
 -
 mode
+no
+-
+else
+-
+return
 "
 #
 NOQA
