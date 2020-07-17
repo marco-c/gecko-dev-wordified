@@ -461,7 +461,7 @@ CONFIG
 MOZ_LINKER
 '
 ]
-or
+and
 CONFIG
 [
 '
