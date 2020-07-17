@@ -92,10 +92,7 @@ use
 neqo_common
 :
 :
-{
-matches
 Datagram
-}
 ;
 use
 neqo_crypto
@@ -944,6 +941,9 @@ hconn_c
 .
 fetch
 (
+now
+(
+)
 "
 GET
 "

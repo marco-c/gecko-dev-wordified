@@ -233,7 +233,6 @@ neqo_common
 :
 {
 hex_snip_middle
-matches
 qdebug
 qinfo
 qtrace

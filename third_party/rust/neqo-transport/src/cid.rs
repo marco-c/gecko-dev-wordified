@@ -97,7 +97,6 @@ neqo_common
 {
 hex
 hex_with_len
-matches
 Decoder
 }
 ;
@@ -1068,12 +1067,6 @@ super
 :
 :
 *
-;
-use
-neqo_common
-:
-:
-matches
 ;
 use
 test_fixture

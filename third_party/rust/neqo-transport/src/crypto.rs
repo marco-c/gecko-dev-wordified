@@ -141,7 +141,6 @@ neqo_common
 :
 {
 hex
-matches
 qdebug
 qerror
 qinfo
