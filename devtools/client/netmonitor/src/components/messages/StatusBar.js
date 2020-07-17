@@ -429,6 +429,8 @@ channelType
 PropTypes
 .
 string
+.
+isRequired
 summary
 :
 PropTypes
