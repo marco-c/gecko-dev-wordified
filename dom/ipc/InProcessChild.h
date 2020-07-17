@@ -349,9 +349,7 @@ const
 override
 {
 return
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 }
 protected

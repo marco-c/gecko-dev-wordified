@@ -3218,9 +3218,7 @@ XRE_GetProcessTypeString
 (
 )
 )
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 mThreadName
 mRunnableName
 std
