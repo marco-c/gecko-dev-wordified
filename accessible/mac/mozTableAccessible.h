@@ -194,7 +194,7 @@ override
 NSArray
 *
 )
-moxUnignoredChildren
+moxChildren
 ;
 /
 /
@@ -348,7 +348,7 @@ override
 NSArray
 *
 )
-moxUnignoredChildren
+moxChildren
 ;
 end
 interface
