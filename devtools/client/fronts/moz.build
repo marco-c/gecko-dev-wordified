@@ -154,11 +154,6 @@ device
 js
 '
 '
-environment
-.
-js
-'
-'
 eventsource
 .
 js

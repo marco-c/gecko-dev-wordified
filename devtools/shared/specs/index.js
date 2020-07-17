@@ -611,15 +611,7 @@ environment
 "
 front
 :
-"
-devtools
-/
-client
-/
-fronts
-/
-environment
-"
+null
 }
 {
 types
