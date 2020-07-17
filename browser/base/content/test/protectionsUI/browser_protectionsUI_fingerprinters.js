@@ -553,11 +553,6 @@ waitForContentBlockingEvent
 ]
 )
 ;
-await
-openProtectionsPanel
-(
-)
-;
 let
 categoryItem
 =
@@ -723,11 +718,6 @@ found
 "
 )
 ;
-await
-closeProtectionsPanel
-(
-)
-;
 promise
 =
 waitForContentBlockingEvent
@@ -765,11 +755,6 @@ fingerprinting
 ;
 await
 promise
-;
-await
-openProtectionsPanel
-(
-)
 ;
 ok
 (
@@ -922,11 +907,6 @@ as
 not
 found
 "
-)
-;
-await
-closeProtectionsPanel
-(
 )
 ;
 BrowserTestUtils
