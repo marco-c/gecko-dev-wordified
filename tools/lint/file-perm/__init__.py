@@ -67,10 +67,6 @@ mozlint
 pathutils
 import
 expand_exclusions
-results
-=
-[
-]
 def
 lint
 (
@@ -84,6 +80,11 @@ None
 lintargs
 )
 :
+    
+results
+=
+[
+]
     
 if
 platform
@@ -150,6 +151,19 @@ X_OK
 )
 :
             
+if
+config
+.
+get
+(
+"
+allow
+-
+shebang
+"
+)
+:
+                
 with
 open
 (
@@ -162,7 +176,7 @@ r
 as
 content
 :
-                
+                    
 #
 Some
 source
@@ -171,7 +185,7 @@ have
 +
 x
 permissions
-                
+                    
 line
 =
 content
@@ -179,7 +193,7 @@ content
 readline
 (
 )
-                
+                    
 if
 line
 .
@@ -191,7 +205,7 @@ startswith
 "
 )
 :
-                    
+                        
 #
 Check
 if
@@ -204,7 +218,7 @@ start
 with
 a
 shebang
-                    
+                        
 #
 if
 it
@@ -212,7 +226,7 @@ does
 not
 a
 warning
-                    
+                        
 continue
             
 if
