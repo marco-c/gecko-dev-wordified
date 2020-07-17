@@ -11874,7 +11874,7 @@ MOZ_ASSERT
 (
 aRun
 .
-IsVisibleAndMiddleOfHardLine
+IsVisible
 (
 )
 )
