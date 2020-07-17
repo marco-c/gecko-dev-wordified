@@ -433,7 +433,7 @@ commitish
 )
 :
         
-puppeteerdir
+puppeteer_dir
 =
 os
 .
@@ -452,11 +452,44 @@ puppeteer
 "
 )
         
+#
+Preserve
+our
+custom
+mocha
+reporter
+        
+shutil
+.
+move
+(
+os
+.
+path
+.
+join
+(
+puppeteer_dir
+"
+json
+-
+mocha
+-
+reporter
+.
+js
+"
+)
+self
+.
+remotedir
+)
+        
 shutil
 .
 rmtree
 (
-puppeteerdir
+puppeteer_dir
 ignore_errors
 =
 True
@@ -466,7 +499,7 @@ os
 .
 makedirs
 (
-puppeteerdir
+puppeteer_dir
 )
         
 with
@@ -530,7 +563,7 @@ prefix
 .
 format
 (
-puppeteerdir
+puppeteer_dir
 )
                 
 worktree
@@ -563,7 +596,7 @@ path
 .
 join
 (
-puppeteerdir
+puppeteer_dir
 "
 .
 gitattributes
@@ -581,7 +614,7 @@ path
 .
 join
 (
-puppeteerdir
+puppeteer_dir
 "
 .
 gitignore
@@ -603,7 +636,7 @@ path
 .
 join
 (
-puppeteerdir
+puppeteer_dir
 "
 experimental
 "
@@ -625,6 +658,32 @@ shutil
 rmtree
 (
 experimental_dir
+)
+        
+shutil
+.
+move
+(
+os
+.
+path
+.
+join
+(
+self
+.
+remotedir
+"
+json
+-
+mocha
+-
+reporter
+.
+js
+"
+)
+puppeteer_dir
 )
         
 import
@@ -727,7 +786,7 @@ path
 .
 join
 (
-puppeteerdir
+puppeteer_dir
 "
 moz
 .
@@ -2266,7 +2325,7 @@ remote
         
 self
 .
-puppeteerdir
+puppeteer_dir
 =
 os
 .
@@ -2873,7 +2932,7 @@ cwd
 =
 self
 .
-puppeteerdir
+puppeteer_dir
 env
 =
 env
