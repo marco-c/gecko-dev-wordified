@@ -135,6 +135,17 @@ include
 "
 mozilla
 /
+dom
+/
+URLSearchParams
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 URIParams
