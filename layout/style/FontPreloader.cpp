@@ -348,7 +348,7 @@ GetPrincipal
 )
 -
 >
-get
+NodePrincipal
 (
 )
 :

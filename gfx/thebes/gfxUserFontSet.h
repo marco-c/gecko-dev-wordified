@@ -2666,14 +2666,6 @@ mozilla
 HashGeneric
 (
 principalHash
-+
-int
-(
-aKey
--
->
-mPrivate
-)
 aKey
 -
 >
