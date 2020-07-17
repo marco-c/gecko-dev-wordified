@@ -2581,13 +2581,8 @@ options
 options
 .
 mRemoteType
-.
-Assign
-(
-VoidCString
-(
-)
-)
+=
+NOT_REMOTE_TYPE
 ;
 options
 .
@@ -3978,9 +3973,7 @@ GetRemoteType
 ;
 }
 return
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 }
 already_AddRefed
