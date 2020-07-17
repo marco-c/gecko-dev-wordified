@@ -389,6 +389,10 @@ it
 namespace
 sandbox
 {
+enum
+class
+IpcTag
+;
 /
 /
 this
@@ -1676,7 +1680,7 @@ except
 .
 __try
 {
-memcpy
+memcpy_wrapper
 (
 t_
 .
@@ -2029,7 +2033,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
@@ -2110,7 +2114,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
@@ -2209,7 +2213,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
@@ -2326,7 +2330,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
@@ -2461,7 +2465,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
@@ -2614,7 +2618,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
@@ -2785,7 +2789,7 @@ CrossCall
 IPCProvider
 &
 ipc_provider
-uint32_t
+IpcTag
 tag
 const
 Par1
