@@ -195,7 +195,7 @@ background_color
 "
 "
 #
-ff0000ff
+ff0000
 "
 )
 ;
