@@ -157,7 +157,7 @@ CACHED_ADDONS
 =
 [
 {
-id
+addon_id
 :
 "
 pioneer
@@ -711,7 +711,7 @@ addonId
 =
 cachedAddon
 .
-id
+addon_id
 ;
 const
 joinButton
@@ -866,7 +866,7 @@ addonId
 =
 cachedAddon
 .
-id
+addon_id
 ;
 const
 joinButton
