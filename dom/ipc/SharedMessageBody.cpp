@@ -769,11 +769,6 @@ return
 mRefData
 -
 >
-CloneData
-(
-)
--
->
 Read
 (
 aCx
@@ -828,11 +823,6 @@ mRefData
 ;
 return
 mRefData
--
->
-CloneData
-(
-)
 -
 >
 TakeTransferredPortsAsSequence
