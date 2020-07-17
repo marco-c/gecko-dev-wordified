@@ -587,10 +587,7 @@ will
 be
 applied
 in
-FunctionBox
-:
-:
-finish
+UpdateEmittedInnerFunctions
 (
 )
 .

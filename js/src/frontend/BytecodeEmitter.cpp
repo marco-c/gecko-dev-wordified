@@ -36214,10 +36214,7 @@ function
 /
 /
 in
-FunctionBox
-:
-:
-finish
+UpdateEmittedInnerFunctions
 (
 )
 .
@@ -36429,10 +36426,7 @@ function
 /
 /
 in
-FunctionBox
-:
-:
-finish
+UpdateEmittedInnerFunctions
 (
 )
 .
