@@ -971,6 +971,17 @@ error
 "
 mozilla
 /
+prefer
+-
+formatValues
+"
+:
+"
+error
+"
+"
+mozilla
+/
 reject
 -
 chromeutils
