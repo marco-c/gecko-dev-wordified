@@ -2624,7 +2624,11 @@ SavedFrame
 protoClass_
 =
 {
-js_Object_str
+"
+SavedFrame
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_SavedFrame

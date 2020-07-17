@@ -2040,7 +2040,11 @@ WeakMapObject
 protoClass_
 =
 {
-js_Object_str
+"
+WeakMap
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_WeakMap
