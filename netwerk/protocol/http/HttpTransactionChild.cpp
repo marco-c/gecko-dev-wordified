@@ -3471,6 +3471,12 @@ return
 NS_OK
 ;
 }
+Maybe
+<
+NetworkAddressArg
+>
+arg
+;
 if
 (
 aStatus
@@ -3559,10 +3565,9 @@ isTrr
 ;
 }
 }
-Unused
-<
-<
-SendOnNetAddrUpdate
+arg
+.
+emplace
 (
 selfAddr
 peerAddr
@@ -3578,6 +3583,7 @@ SendOnTransportStatus
 aStatus
 aProgress
 aProgressMax
+arg
 )
 ;
 return
