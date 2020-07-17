@@ -1967,11 +1967,6 @@ ResetIsRunningOnCompositor
 (
 )
 ;
-void
-ResetPartialPrerendered
-(
-)
-;
 /
 /
 Returns

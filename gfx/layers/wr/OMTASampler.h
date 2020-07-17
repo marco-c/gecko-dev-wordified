@@ -456,10 +456,6 @@ SetAnimations
 uint64_t
 aId
 const
-LayersId
-&
-aLayersId
-const
 nsTArray
 <
 layers
