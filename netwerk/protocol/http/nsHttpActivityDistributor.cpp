@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsQueryObject
 .
 h

@@ -315,6 +315,11 @@ MemoryReportRequest
 h
 '
 '
+NativeThreadId
+.
+h
+'
+'
 PermissionMessageUtils
 .
 h
@@ -366,6 +371,11 @@ h
 '
 '
 TabContext
+.
+h
+'
+'
+TabMessageTypes
 .
 h
 '

@@ -130,6 +130,17 @@ endif
 include
 DOMTypes
 ;
+include
+"
+mozilla
+/
+dom
+/
+TabMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :
@@ -196,7 +207,7 @@ mozilla
 /
 dom
 /
-TabMessageUtils
+EffectsInfo
 .
 h
 "
@@ -275,7 +286,7 @@ mozilla
 /
 dom
 /
-TabMessageUtils
+TabMessageTypes
 .
 h
 "

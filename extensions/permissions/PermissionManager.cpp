@@ -280,6 +280,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsEffectiveTLDService
 .
 h

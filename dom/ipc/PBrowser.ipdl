@@ -208,6 +208,17 @@ include
 "
 mozilla
 /
+dom
+/
+TabMessageUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 GfxMessageUtils
 .
 h
@@ -820,7 +831,7 @@ mozilla
 /
 dom
 /
-TabMessageUtils
+TabMessageTypes
 .
 h
 "
@@ -1104,7 +1115,7 @@ mozilla
 /
 dom
 /
-TabMessageUtils
+EffectsInfo
 .
 h
 "
@@ -1230,7 +1241,7 @@ mozilla
 /
 dom
 /
-TabMessageUtils
+TabMessageTypes
 .
 h
 "
