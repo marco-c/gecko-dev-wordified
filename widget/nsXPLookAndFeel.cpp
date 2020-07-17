@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
