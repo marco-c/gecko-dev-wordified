@@ -127,6 +127,13 @@ linux
 -
 signing
 "
+"
+linux
+-
+signing
+-
+partial
+"
 ]
     
 "
