@@ -3512,6 +3512,10 @@ SetBadUnderlineFonts
 )
 ;
 }
+CheckForSimpleFamily
+(
+)
+;
 }
 /
 *

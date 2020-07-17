@@ -1980,6 +1980,16 @@ mIsForceClassic
 ;
 }
 bool
+IsSimple
+(
+)
+const
+{
+return
+mIsSimple
+;
+}
+bool
 IsInitialized
 (
 )

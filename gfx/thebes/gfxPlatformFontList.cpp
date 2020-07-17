@@ -7144,13 +7144,6 @@ FindStyleVariations
 (
 )
 ;
-aFamily
--
->
-CheckForSimpleFamily
-(
-)
-;
 }
 if
 (
