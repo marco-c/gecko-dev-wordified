@@ -91,11 +91,11 @@ path
 join
 (
 here
-'
+"
 requirements
 .
 txt
-'
+"
 )
 def
 setup
@@ -137,7 +137,7 @@ config
 logger
 fix
 =
-None
+False
 *
 *
 lintargs
@@ -149,7 +149,6 @@ perfdocs
 .
 run_perfdocs
 (
-        
 config
 logger
 =
@@ -157,8 +156,7 @@ logger
 paths
 =
 paths
-verify
+generate
 =
-True
-    
+fix
 )

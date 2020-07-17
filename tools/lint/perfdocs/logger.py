@@ -66,9 +66,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Logger
 for
@@ -92,9 +92,9 @@ by
 lint
 .
     
-'
-'
-'
+"
+"
+"
     
 PATHS
 =
@@ -105,6 +105,10 @@ LOGGER
 =
 None
     
+FAILED
+=
+False
+    
 def
 __init__
 (
@@ -112,16 +116,16 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Initializes
 the
 PerfDocLogger
 .
-'
-'
-'
+"
+"
+"
         
 #
 Set
@@ -166,7 +170,6 @@ PATHS
 raise
 Exception
 (
-                
 "
 Missing
 PATHS
@@ -174,7 +177,6 @@ for
 PerfDocLogger
 initialization
 "
-            
 )
         
 self
@@ -193,12 +195,13 @@ msg
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Log
-a
+an
+info
 message
 .
         
@@ -212,9 +215,9 @@ to
 log
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -234,9 +237,9 @@ files
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Logs
 a
@@ -310,9 +313,9 @@ is
 about
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 type
@@ -457,9 +460,9 @@ fpath
                     
 linter
 =
-'
+"
 perfdocs
-'
+"
                     
 rule
 =
@@ -472,4 +475,51 @@ docs
                 
 )
                 
+PerfDocLogger
+.
+FAILED
+=
+True
+                
 break
+    
+def
+critical
+(
+self
+msg
+)
+:
+        
+"
+"
+"
+        
+Log
+a
+critical
+message
+.
+        
+:
+param
+str
+msg
+:
+Message
+to
+log
+.
+        
+"
+"
+"
+        
+self
+.
+logger
+.
+critical
+(
+msg
+)

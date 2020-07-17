@@ -143,11 +143,11 @@ path
 join
 (
 abspath
-'
+"
 requirements
 .
 txt
-'
+"
 )
 results
 =
@@ -193,6 +193,7 @@ strip
 .
 format
 (
+    
 rstcheck_requirements_file
 )
 RSTCHECK_INSTALL_ERROR
@@ -238,6 +239,7 @@ strip
 .
 format
 (
+    
 rstcheck_requirements_file
 )
 RSTCHECK_FORMAT_REGEX
@@ -247,7 +249,7 @@ re
 compile
 (
 r
-'
+"
 (
 .
 *
@@ -277,7 +279,7 @@ r
 .
 *
 )
-'
+"
 )
 def
 setup
@@ -344,9 +346,9 @@ environ
 .
 get
 (
-'
+"
 RSTCHECK
-'
+"
 )
     
 if
@@ -359,9 +361,9 @@ binary
 return
 which
 (
-'
+"
 rstcheck
-'
+"
 )
 def
 parse_with_split
@@ -410,23 +412,23 @@ log
 =
 lintargs
 [
-'
+"
 log
-'
+"
 ]
     
 config
 [
-'
+"
 root
-'
+"
 ]
 =
 lintargs
 [
-'
+"
 root
-'
+"
 ]
     
 paths
@@ -437,9 +439,9 @@ files
 config
 config
 [
-'
+"
 root
-'
+"
 ]
 )
     
@@ -480,18 +482,14 @@ paths
 cmdargs
 =
 [
-            
 which
 (
-'
+"
 python
-'
+"
 )
-            
 binary
-            
 rstcheck_options
-        
 ]
 +
 paths
@@ -513,8 +511,8 @@ Command
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -531,6 +529,7 @@ Popen
 (
             
 cmdargs
+            
 stdout
 =
 subprocess
@@ -603,27 +602,27 @@ res
 =
 {
                     
-'
+"
 path
-'
+"
 :
 filename
                     
-'
+"
 message
-'
+"
 :
 message
                     
-'
+"
 lineno
-'
+"
 :
 lineno
                     
-'
+"
 level
-'
+"
 :
 "
 error
