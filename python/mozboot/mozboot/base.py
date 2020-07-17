@@ -79,6 +79,12 @@ from
 mozboot
 import
 rust
+from
+mozboot
+.
+util
+import
+MINIMUM_RUST_VERSION
 #
 NOTE
 :
@@ -1149,13 +1155,7 @@ MODERN_RUST_VERSION
 =
 LooseVersion
 (
-'
-1
-.
-43
-.
-0
-'
+MINIMUM_RUST_VERSION
 )
 #
 Upgrade
