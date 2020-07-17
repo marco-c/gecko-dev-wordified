@@ -153,7 +153,7 @@ h
 "
 const
 char
-kPrinterEnumeratorContractID
+kPrinterListContractID
 [
 ]
 =
@@ -164,7 +164,7 @@ org
 /
 gfx
 /
-printerenumerator
+printerlist
 ;
 1
 "

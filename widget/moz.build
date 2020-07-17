@@ -674,7 +674,12 @@ nsIIdleServiceInternal
 idl
 '
 '
-nsIPrinterEnumerator
+nsIPrinter
+.
+idl
+'
+'
+nsIPrinterList
 .
 idl
 '
@@ -810,6 +815,11 @@ h
 '
 '
 nsIWidgetListener
+.
+h
+'
+'
+nsPrinter
 .
 h
 '
@@ -1101,6 +1111,11 @@ cpp
 '
 '
 nsPrimitiveHelpers
+.
+cpp
+'
+'
+nsPrinter
 .
 cpp
 '
