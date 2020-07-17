@@ -2445,7 +2445,7 @@ h
 #
 include
 "
-nsFrame
+nsIFrame
 .
 h
 "
@@ -77099,7 +77099,7 @@ ptFrame
 }
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 ContentOffsets

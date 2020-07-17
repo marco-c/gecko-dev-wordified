@@ -136,7 +136,7 @@ nsBackdropFrame_h___
 #
 include
 "
-nsFrame
+nsIFrame
 .
 h
 "

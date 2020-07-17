@@ -141,9 +141,6 @@ class
 nsIFrame
 ;
 class
-nsFrame
-;
-class
 nsDisplayList
 ;
 class

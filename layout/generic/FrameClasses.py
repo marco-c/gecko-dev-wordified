@@ -357,17 +357,6 @@ NOT_LEAF
 Frame
 (
 "
-nsFrame
-"
-"
-None
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsIFrame
 "
 "

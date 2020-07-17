@@ -129,7 +129,7 @@ elements
 #
 include
 "
-nsFrame
+nsIFrame
 .
 h
 "
