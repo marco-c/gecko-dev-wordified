@@ -565,7 +565,7 @@ name
 {
 return
 "
-TestTipProvider
+TestProviderTip
 "
 ;
 }
