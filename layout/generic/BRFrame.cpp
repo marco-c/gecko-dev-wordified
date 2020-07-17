@@ -177,6 +177,13 @@ h
 #
 include
 "
+nsHTMLParts
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
