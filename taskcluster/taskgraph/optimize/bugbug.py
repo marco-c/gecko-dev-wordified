@@ -1113,6 +1113,10 @@ target_counts
 self
 .
 DEFAULT_TARGET_COUNTS
+.
+copy
+(
+)
         
 if
 target_counts
