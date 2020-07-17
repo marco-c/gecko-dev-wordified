@@ -109,6 +109,16 @@ EXTRA_JS_MODULES
 =
 [
 '
+DoHController
+.
+jsm
+'
+'
+DoHHeuristics
+.
+jsm
+'
+'
 TRRPerformance
 .
 jsm
