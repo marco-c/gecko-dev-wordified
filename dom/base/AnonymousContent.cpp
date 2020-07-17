@@ -159,6 +159,17 @@ mozilla
 /
 dom
 /
+Event
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 AnonymousContentBinding
 .
 h

@@ -127,17 +127,6 @@ mozilla
 /
 dom
 /
-Element
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 FlexBinding
 .
 h
@@ -165,6 +154,9 @@ mozilla
 namespace
 dom
 {
+class
+Element
+;
 class
 FlexLineValues
 ;
