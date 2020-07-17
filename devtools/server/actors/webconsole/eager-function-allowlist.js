@@ -75,7 +75,7 @@ chrome
 )
 ;
 const
-idlPureWhitelist
+idlPureAllowlist
 =
 require
 (
@@ -92,9 +92,7 @@ webidl
 -
 pure
 -
-whitelist
-.
-js
+allowlist
 "
 )
 ;
@@ -264,7 +262,7 @@ Object
 .
 entries
 (
-idlPureWhitelist
+idlPureAllowlist
 )
 )
 {

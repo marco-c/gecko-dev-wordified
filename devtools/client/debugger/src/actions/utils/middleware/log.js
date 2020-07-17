@@ -109,7 +109,7 @@ prefs
 "
 ;
 const
-blacklist
+ignoreList
 =
 [
 "
@@ -394,7 +394,7 @@ action
 ;
 if
 (
-blacklist
+ignoreList
 .
 includes
 (

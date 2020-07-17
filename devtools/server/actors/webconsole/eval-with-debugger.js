@@ -211,7 +211,7 @@ lazyRequireGetter
 (
 this
 "
-eagerEcmaWhitelist
+eagerEcmaAllowlist
 "
 "
 devtools
@@ -226,7 +226,7 @@ eager
 -
 ecma
 -
-whitelist
+allowlist
 "
 )
 ;
@@ -236,7 +236,7 @@ lazyRequireGetter
 (
 this
 "
-eagerFunctionWhitelist
+eagerFunctionAllowlist
 "
 "
 devtools
@@ -251,7 +251,7 @@ eager
 -
 function
 -
-whitelist
+allowlist
 "
 )
 ;
@@ -2580,8 +2580,8 @@ normally
 are
 handled
 with
-a
-whitelist
+an
+allowlist
 .
 if
 (
@@ -2647,7 +2647,7 @@ validate
 native
 function
 against
-whitelist
+allowlist
 "
 )
 )
@@ -2716,7 +2716,7 @@ natives
 .
 .
 .
-eagerEcmaWhitelist
+eagerEcmaAllowlist
 /
 /
 Pull
@@ -2735,14 +2735,14 @@ want
 to
 /
 /
-whitelist
+allow
 as
 well
 .
 .
 .
 .
-eagerFunctionWhitelist
+eagerFunctionAllowlist
 ]
 ;
 const

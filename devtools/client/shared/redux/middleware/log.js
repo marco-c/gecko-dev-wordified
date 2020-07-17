@@ -103,9 +103,11 @@ try
 {
 /
 /
-whitelist
-of
-fields
+Only
+print
+the
+action
+type
 rather
 than
 printing

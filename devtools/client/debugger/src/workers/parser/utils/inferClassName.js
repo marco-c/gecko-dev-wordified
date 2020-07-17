@@ -111,7 +111,7 @@ SimplePath
 )
 {
 const
-whitelist
+allowlist
 =
 [
 "
@@ -164,7 +164,7 @@ name
 if
 (
 !
-whitelist
+allowlist
 .
 includes
 (

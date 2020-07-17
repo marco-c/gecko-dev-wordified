@@ -3399,9 +3399,7 @@ lightTheme
 ;
 /
 /
-White
--
-list
+List
 buttons
 that
 can

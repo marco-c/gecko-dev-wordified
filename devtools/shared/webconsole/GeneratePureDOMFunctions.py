@@ -38,7 +38,7 @@ webidl
 -
 pure
 -
-whitelist
+allowlist
 .
 js
 "
@@ -108,7 +108,7 @@ webidl
 -
 pure
 -
-whitelist
+allowlist
 .
 js
 to
@@ -140,7 +140,7 @@ This
 is
 an
 explicit
-whitelist
+list
 of
 interfaces
 to
@@ -183,7 +183,7 @@ of
 the
 devtools
 .
-INTERFACE_WHITELIST
+INTERFACE_ALLOWLIST
 =
 set
 (
@@ -352,7 +352,7 @@ webidl
 -
 pure
 -
-whitelist
+allowlist
 .
 js
 "
@@ -560,12 +560,12 @@ name
 if
 (
 (
-INTERFACE_WHITELIST
+INTERFACE_ALLOWLIST
 and
 not
 iface
 in
-INTERFACE_WHITELIST
+INTERFACE_ALLOWLIST
 )
 or
             
