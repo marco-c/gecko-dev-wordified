@@ -6373,6 +6373,7 @@ aHeight
 )
 ;
 }
+const
 auto
 &
 rect

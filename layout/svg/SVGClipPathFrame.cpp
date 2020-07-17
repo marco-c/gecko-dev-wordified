@@ -3060,7 +3060,9 @@ aFromParentTransforms
 )
 const
 {
+const
 auto
+*
 e
 =
 static_cast

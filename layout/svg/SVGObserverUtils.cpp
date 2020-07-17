@@ -439,6 +439,7 @@ URLAndReferrerInfo
 *
 aKey
 )
+noexcept
 :
 mKey
 (
@@ -458,6 +459,7 @@ URLAndReferrerInfoHashKey
 &
 aToMove
 )
+noexcept
 :
 PLDHashEntryHdr
 (

@@ -5569,6 +5569,7 @@ IsCalc
 )
 )
 {
+const
 auto
 &
 calc

@@ -5481,7 +5481,9 @@ aInvalidRegion
 result
 )
 ;
+const
 auto
+*
 geometry
 =
 static_cast

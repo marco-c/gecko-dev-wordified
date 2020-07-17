@@ -271,6 +271,7 @@ gfxMatrix
 aTransform
 )
 {
+const
 auto
 &
 clipPathStyle
@@ -399,6 +400,7 @@ gfxPoint
 aPoint
 )
 {
+const
 auto
 &
 clipPathStyle
