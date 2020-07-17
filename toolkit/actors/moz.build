@@ -358,11 +358,6 @@ SelectParent
 jsm
 '
 '
-SidebarSearchParent
-.
-jsm
-'
-'
 ThumbnailsChild
 .
 jsm
