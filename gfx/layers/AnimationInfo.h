@@ -254,12 +254,6 @@ CompositorAnimationData
 struct
 PropertyAnimationGroup
 ;
-enum
-class
-LayersBackend
-:
-int8_t
-;
 class
 AnimationInfo
 final
@@ -749,8 +743,9 @@ nsDisplayItem
 aItem
 DisplayItemType
 aType
-LayersBackend
-aLayersBackend
+LayerManager
+*
+aLayerManager
 )
 ;
 private
@@ -824,6 +819,9 @@ nsCSSPropertyID
 aProperty
 Send
 aSendFlag
+LayerManager
+*
+aLayerManager
 )
 ;
 void
