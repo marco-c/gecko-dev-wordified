@@ -6,9 +6,9 @@ import
 build
 LINTER
 =
-'
+"
 eslint
-'
+"
 def
 test_lint_with_global_exclude
 (
@@ -20,18 +20,18 @@ paths
     
 config
 [
-'
+"
 exclude
-'
+"
 ]
 =
 [
-'
+"
 subdir
-'
-'
+"
+"
 import
-'
+"
 ]
     
 results
@@ -84,9 +84,9 @@ lint
 (
 paths
 (
-'
+"
 nolint
-'
+"
 )
 root
 =
@@ -125,16 +125,16 @@ lint
 (
 paths
 (
-'
+"
 nolint
-'
-'
+"
+"
 subdir
 /
 bad
 .
 js
-'
+"
 )
 root
 =
@@ -166,9 +166,9 @@ lint
 (
 paths
 (
-'
+"
 import
-'
+"
 )
 config
 =
@@ -189,9 +189,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

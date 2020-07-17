@@ -107,11 +107,11 @@ path
 join
 (
 here
-'
+"
 pylint_requirements
 .
 txt
-'
+"
 )
 PYLINT_NOT_FOUND
 =
@@ -153,6 +153,7 @@ strip
 .
 format
 (
+    
 PYLINT_REQUIREMENTS_PATH
 )
 PYLINT_INSTALL_ERROR
@@ -198,6 +199,7 @@ strip
 .
 format
 (
+    
 PYLINT_REQUIREMENTS_PATH
 )
 class
@@ -392,7 +394,7 @@ re
 compile
 (
 r
-'
+"
 (
 .
 *
@@ -413,7 +415,7 @@ r
 .
 *
 )
-'
+"
 )
 def
 parse_issues
@@ -598,9 +600,9 @@ log
 =
 lintargs
 [
-'
+"
 log
-'
+"
 ]
     
 binary
@@ -613,9 +615,9 @@ log
 =
 lintargs
 [
-'
+"
 log
-'
+"
 ]
     
 paths
@@ -628,9 +630,9 @@ paths
 config
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
 )
@@ -679,11 +681,12 @@ cmd_args
 +
 =
 [
+        
 "
 -
 fjson
 "
-                 
+        
 "
 -
 -
@@ -691,7 +694,7 @@ disable
 =
 all
 "
-                 
+        
 "
 -
 -
@@ -748,7 +751,7 @@ return
 NOQA
 :
 E501
-                 
+        
 "
 -
 -
@@ -761,6 +764,7 @@ no
 -
 member
 "
+    
 ]
     
 base_command
@@ -782,8 +786,8 @@ Command
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (

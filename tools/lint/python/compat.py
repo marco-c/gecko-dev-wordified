@@ -128,9 +128,9 @@ config
         
 kwargs
 [
-'
+"
 processOutputLine
-'
+"
 ]
 =
 [
@@ -177,7 +177,8 @@ ValueError
             
 print
 (
-'
+                
+"
 Non
 JSON
 output
@@ -188,7 +189,7 @@ linter
 :
 {
 }
-'
+"
 .
 format
 (
@@ -196,26 +197,27 @@ self
 .
 config
 [
-'
+"
 name
-'
+"
 ]
 line
 )
+            
 )
             
 return
         
 res
 [
-'
+"
 level
-'
+"
 ]
 =
-'
+"
 error
-'
+"
         
 results
 .
@@ -295,7 +297,7 @@ available
         
 print
 (
-'
+"
 warning
 :
 {
@@ -307,7 +309,7 @@ py
 -
 compat
 check
-'
+"
 .
 format
 (
@@ -330,9 +332,9 @@ log
 =
 lintargs
 [
-'
+"
 log
-'
+"
 ]
     
 binary
@@ -373,9 +375,9 @@ printed
 .
         
 if
-'
+"
 MOZ_AUTOMATION
-'
+"
 in
 os
 .
@@ -397,9 +399,9 @@ paths
 config
 lintargs
 [
-'
+"
 root
-'
+"
 ]
 )
     
@@ -410,9 +412,9 @@ NamedTemporaryFile
 (
 mode
 =
-'
+"
 w
-'
+"
 )
 as
 fh
@@ -422,10 +424,10 @@ fh
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -450,11 +452,11 @@ path
 join
 (
 here
-'
+"
 check_compat
 .
 py
-'
+"
 )
 fh
 .
@@ -474,8 +476,8 @@ Command
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -531,9 +533,9 @@ lintargs
 return
 setup
 (
-'
+"
 python2
-'
+"
 )
 def
 lintpy2
@@ -549,9 +551,9 @@ kwargs
 return
 run_linter
 (
-'
+"
 python2
-'
+"
 *
 args
 *
@@ -570,9 +572,9 @@ lintargs
 return
 setup
 (
-'
+"
 python3
-'
+"
 )
 def
 lintpy3
@@ -588,9 +590,9 @@ kwargs
 return
 run_linter
 (
-'
+"
 python3
-'
+"
 *
 args
 *
