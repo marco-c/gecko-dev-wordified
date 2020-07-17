@@ -1148,6 +1148,11 @@ img
 >
 mProducerID
 ;
+UpdateBias
+(
+imageIndex
+)
+;
 }
 SetCurrentTextureHost
 (
@@ -1155,11 +1160,6 @@ img
 -
 >
 mTextureHost
-)
-;
-UpdateBias
-(
-imageIndex
 )
 ;
 return
