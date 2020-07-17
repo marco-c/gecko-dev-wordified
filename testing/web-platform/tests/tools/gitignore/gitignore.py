@@ -7,6 +7,7 @@ itertools
 from
 six
 import
+ensure_binary
 itervalues
 iteritems
 from
@@ -126,7 +127,7 @@ pat
 type
 :
 (
-str
+bytes
 )
 -
 >
@@ -135,7 +136,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
     
@@ -154,6 +155,7 @@ i
     
 any_char
 =
+b
 "
 [
 ^
@@ -165,9 +167,12 @@ if
 pat
 [
 0
+:
+1
 ]
 =
 =
+b
 "
 /
 "
@@ -177,6 +182,7 @@ parts
 .
 append
 (
+b
 "
 ^
 "
@@ -243,6 +249,7 @@ parts
 .
 append
 (
+b
 "
 ^
 (
@@ -265,9 +272,11 @@ pat
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 /
 "
@@ -298,6 +307,7 @@ pat
         
 suffix
 =
+b
 "
 (
 ?
@@ -312,6 +322,7 @@ else
         
 suffix
 =
+b
 "
 "
     
@@ -329,12 +340,17 @@ c
 pat
 [
 i
+:
+i
++
+1
 ]
         
 if
 c
 =
 =
+b
 "
 \
 \
@@ -362,6 +378,10 @@ c
 pat
 [
 i
+:
+i
++
+1
 ]
                 
 parts
@@ -409,6 +429,7 @@ if
 c
 =
 =
+b
 "
 ]
 "
@@ -423,9 +444,11 @@ parts
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 [
 "
@@ -445,9 +468,11 @@ parts
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 ^
 "
@@ -456,9 +481,13 @@ parts
 [
 -
 2
+:
+-
+1
 ]
 =
 =
+b
 "
 [
 "
@@ -487,6 +516,7 @@ elif
 c
 =
 =
+b
 "
 -
 "
@@ -499,23 +529,39 @@ append
 c
 )
             
+elif
+c
+=
+=
+b
+"
+[
+"
+:
+                
+raise
+ValueError
+            
 else
 :
                 
 parts
-+
-=
+.
+append
+(
 re
 .
 escape
 (
 c
 )
+)
         
 elif
 c
 =
 =
+b
 "
 [
 "
@@ -525,6 +571,7 @@ parts
 .
 append
 (
+b
 "
 [
 "
@@ -545,12 +592,18 @@ pat
 i
 +
 1
+:
+i
++
+2
 ]
 in
 (
+b
 "
 !
 "
+b
 "
 ^
 "
@@ -561,6 +614,7 @@ parts
 .
 append
 (
+b
 "
 ^
 "
@@ -579,6 +633,7 @@ elif
 c
 =
 =
+b
 "
 *
 "
@@ -599,9 +654,14 @@ pat
 i
 +
 1
+:
+i
++
+2
 ]
 =
 =
+b
 "
 *
 "
@@ -617,9 +677,12 @@ pat
 i
 -
 1
+:
+i
 ]
 !
 =
+b
 "
 /
 "
@@ -632,6 +695,7 @@ parts
 .
 append
 (
+b
 "
 .
 *
@@ -658,9 +722,14 @@ pat
 i
 +
 1
+:
+i
++
+2
 ]
 !
 =
+b
 "
 /
 "
@@ -678,6 +747,7 @@ append
 (
 any_char
 +
+b
 "
 *
 "
@@ -687,6 +757,7 @@ elif
 c
 =
 =
+b
 "
 ?
 "
@@ -703,6 +774,7 @@ elif
 c
 =
 =
+b
 "
 /
 "
@@ -751,6 +823,7 @@ parts
 0
 ]
 =
+b
 "
 ^
 "
@@ -781,6 +854,7 @@ re
 .
 compile
 (
+b
 "
 "
 .
@@ -813,7 +887,7 @@ re
 .
 compile
 (
-r
+br
 "
 .
 *
@@ -838,7 +912,7 @@ line
 type
 :
 (
-str
+bytes
 )
 -
 >
@@ -853,7 +927,7 @@ Union
 [
 Tuple
 [
-str
+bytes
 .
 .
 .
@@ -863,7 +937,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -885,9 +959,12 @@ or
 line
 [
 0
+:
+1
 ]
 =
 =
+b
 "
 #
 "
@@ -901,9 +978,12 @@ invert
 line
 [
 0
+:
+1
 ]
 =
 =
+b
 "
 !
 "
@@ -926,9 +1006,11 @@ line
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 /
 "
@@ -993,6 +1075,7 @@ line
 .
 rsplit
 (
+b
 "
 /
 "
@@ -1006,7 +1089,7 @@ Union
 [
 Tuple
 [
-str
+bytes
 .
 .
 .
@@ -1016,7 +1099,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -1065,19 +1148,19 @@ None
 type
 :
 (
-str
+bytes
 Optional
 [
 List
 [
-str
+bytes
 ]
 ]
 Optional
 [
 MutableMapping
 [
-str
+bytes
 bool
 ]
 ]
@@ -1099,6 +1182,7 @@ path
 join
 (
 root
+b
 "
 .
 gitignore
@@ -1109,7 +1193,7 @@ type
 :
 Optional
 [
-str
+bytes
 ]
         
 else
@@ -1156,11 +1240,11 @@ Dict
 [
 Optional
 [
-str
+bytes
 ]
 Dict
 [
-str
+bytes
 List
 [
 Tuple
@@ -1168,7 +1252,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -1190,11 +1274,11 @@ Dict
 [
 Optional
 [
-str
+bytes
 ]
 Dict
 [
-str
+bytes
 List
 [
 Tuple
@@ -1202,7 +1286,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -1227,7 +1311,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 List
@@ -1237,7 +1321,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -1262,7 +1346,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 List
@@ -1272,7 +1356,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -1292,7 +1376,7 @@ type
 :
 MutableMapping
 [
-str
+bytes
 bool
 ]
         
@@ -1331,11 +1415,11 @@ Tuple
 [
 Optional
 [
-str
+bytes
 ]
 List
 [
-str
+bytes
 ]
 ]
         
@@ -1370,11 +1454,11 @@ type
 (
 Optional
 [
-str
+bytes
 ]
 List
 [
-str
+bytes
 ]
 )
 -
@@ -1392,6 +1476,9 @@ with
 open
 (
 ignore_path
+"
+rb
+"
 )
 as
 f
@@ -1435,7 +1522,7 @@ line
 type
 :
 (
-str
+bytes
 )
 -
 >
@@ -1520,7 +1607,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 rule
@@ -1605,7 +1692,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 ]
@@ -1682,7 +1769,7 @@ cast
 (
 Tuple
 [
-str
+bytes
 .
 .
 .
@@ -1715,9 +1802,9 @@ Tuple
 [
 Optional
 [
-str
+bytes
 ]
-str
+bytes
 ]
                 
 else
@@ -1775,7 +1862,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 rule
@@ -1825,12 +1912,12 @@ Iterable
 [
 Tuple
 [
-str
+bytes
 List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -1838,7 +1925,7 @@ List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -1862,12 +1949,12 @@ Iterable
 [
 Tuple
 [
-str
+bytes
 List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -1875,7 +1962,7 @@ List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -1908,13 +1995,17 @@ orig_dirpath
 dirpath
             
 if
+ensure_binary
+(
 os
 .
 path
 .
 sep
+)
 !
 =
+b
 "
 /
 "
@@ -1926,11 +2017,15 @@ dirpath
 .
 replace
 (
+ensure_binary
+(
 os
 .
 path
 .
 sep
+)
+b
 "
 /
 "
@@ -1947,7 +2042,7 @@ List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -1963,7 +2058,7 @@ List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -1986,6 +2081,7 @@ self
 .
 patterns_dir
 keep_dirs
+b
 "
 /
 "
@@ -2000,6 +2096,7 @@ self
 .
 patterns_file
 keep_files
+b
 "
 "
 )
@@ -2025,6 +2122,7 @@ dirpath
                         
 path
 =
+b
 "
 %
 s
@@ -2257,6 +2355,7 @@ assert
 not
 any
 (
+b
 "
 .
 git
@@ -2289,12 +2388,12 @@ Iterable
 [
 Tuple
 [
-str
+bytes
 List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -2302,7 +2401,7 @@ List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -2326,12 +2425,12 @@ Iterable
 [
 Tuple
 [
-str
+bytes
 List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -2339,7 +2438,7 @@ List
 [
 Tuple
 [
-str
+bytes
 T
 ]
 ]
@@ -2373,7 +2472,7 @@ dirpath
 type
 :
 (
-str
+bytes
 )
 -
 >
@@ -2393,6 +2492,7 @@ path
 join
 (
 dirpath
+b
 "
 .
 gitignore

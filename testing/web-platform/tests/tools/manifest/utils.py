@@ -4,10 +4,6 @@ import
 platform
 import
 subprocess
-from
-six
-import
-BytesIO
 MYPY
 =
 False
@@ -40,17 +36,7 @@ Callable
 from
 typing
 import
-AnyStr
-    
-from
-typing
-import
 Any
-    
-from
-typing
-import
-BinaryIO
     
 from
 typing
@@ -116,7 +102,7 @@ url_base
 type
 :
 (
-bytes
+Text
 Text
 )
 -
@@ -142,6 +128,7 @@ url_base
 ]
 !
 =
+u
 "
 /
 "
@@ -149,6 +136,7 @@ url_base
         
 url_base
 =
+u
 "
 /
 "
@@ -163,6 +151,7 @@ url_base
 ]
 !
 =
+u
 "
 /
 "
@@ -171,6 +160,7 @@ url_base
 url_base
 +
 =
+u
 "
 /
 "
@@ -185,6 +175,7 @@ replace
 os
 .
 sep
+u
 "
 /
 "
@@ -200,11 +191,11 @@ path
 type
 :
 (
-AnyStr
+Text
 )
 -
 >
-AnyStr
+Text
     
 assert
 os
@@ -214,6 +205,7 @@ path
 sep
 =
 =
+u
 "
 /
 "
@@ -230,6 +222,7 @@ Windows
 "
     
 if
+u
 "
 /
 "
@@ -260,12 +253,14 @@ os
 path
 .
 sep
+u
 "
 /
 "
 )
     
 if
+u
 "
 \
 \
@@ -309,11 +304,11 @@ path
 type
 :
 (
-AnyStr
+Text
 )
 -
 >
-AnyStr
+Text
     
 assert
 os
@@ -323,6 +318,7 @@ path
 sep
 =
 =
+u
 "
 /
 "
@@ -339,6 +335,7 @@ Windows
 "
     
 if
+u
 "
 \
 \
@@ -360,6 +357,7 @@ contains
 )
     
 if
+u
 "
 /
 "
@@ -380,6 +378,7 @@ path
 .
 replace
 (
+u
 "
 /
 "
@@ -400,7 +399,7 @@ path
 type
 :
 (
-bytes
+Text
 )
 -
 >
@@ -428,9 +427,9 @@ args
 type
 :
 (
-bytes
+Text
 *
-bytes
+Text
 )
 -
 >
@@ -439,6 +438,7 @@ Text
 full_cmd
 =
 [
+u
 "
 git
 "
@@ -509,6 +509,7 @@ full_cmd
 0
 ]
 =
+u
 "
 git
 .
@@ -567,11 +568,13 @@ repo
         
 gitfunc
 (
+u
 "
 rev
 -
 parse
 "
+u
 "
 -
 -
@@ -598,74 +601,6 @@ else
         
 return
 gitfunc
-class
-ContextManagerBytesIO
-(
-BytesIO
-)
-:
-#
-type
-:
-ignore
-    
-def
-__enter__
-(
-self
-)
-:
-        
-#
-type
-:
-(
-)
--
->
-BinaryIO
-        
-return
-self
-#
-type
-:
-ignore
-    
-def
-__exit__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-#
-type
-:
-(
-*
-Any
-*
-*
-Any
-)
--
->
-bool
-        
-self
-.
-close
-(
-)
-        
-return
-True
 class
 cached_property
 (

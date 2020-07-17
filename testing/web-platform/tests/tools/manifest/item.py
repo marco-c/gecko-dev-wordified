@@ -1414,7 +1414,14 @@ type
 >
 Optional
 [
+List
+[
+Tuple
+[
 Text
+Text
+]
+]
 ]
         
 return

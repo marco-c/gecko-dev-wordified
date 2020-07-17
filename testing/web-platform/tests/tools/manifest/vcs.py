@@ -21,11 +21,6 @@ with_metaclass
 PY2
 from
 .
-sourcefile
-import
-SourceFile
-from
-.
 utils
 import
 git
@@ -91,7 +86,6 @@ Text
 Iterable
 Any
 Tuple
-Union
 Iterator
     
 from
@@ -143,15 +137,15 @@ False
 type
 :
 (
-bytes
+Text
 Manifest
 Optional
 [
-bytes
+Text
 ]
 Optional
 [
-bytes
+Text
 ]
 bool
 bool
@@ -179,6 +173,7 @@ path
 join
 (
 tests_root
+u
 "
 .
 wptcache
@@ -281,7 +276,7 @@ path
 type
 :
 (
-bytes
+Text
 )
 -
 >
@@ -658,7 +653,7 @@ def
 __init__
 (
 self
-root
+tests_root
 url_base
 cache_path
 manifest_path
@@ -674,15 +669,15 @@ False
 type
 :
 (
-bytes
+Text
 Text
 Optional
 [
-bytes
+Text
 ]
 Optional
 [
-bytes
+Text
 ]
 bool
 )
@@ -692,16 +687,9 @@ None
         
 self
 .
-root
+tests_root
 =
-os
-.
-path
-.
-abspath
-(
-root
-)
+tests_root
         
 self
 .
@@ -720,6 +708,17 @@ self
 mtime_cache
 =
 None
+        
+tests_root_bytes
+=
+tests_root
+.
+encode
+(
+"
+utf8
+"
+)
         
 if
 cache_path
@@ -742,7 +741,7 @@ mtime_cache
 MtimeCache
 (
 cache_path
-root
+tests_root
 manifest_path
 rebuild
 )
@@ -752,7 +751,7 @@ gitignore
 .
 has_ignore
 (
-root
+tests_root_bytes
 )
 :
                 
@@ -763,7 +762,7 @@ ignore_cache
 GitIgnoreCache
 (
 cache_path
-root
+tests_root
 rebuild
 )
         
@@ -775,13 +774,12 @@ gitignore
 .
 PathFilter
 (
-self
-.
-root
+tests_root_bytes
                                                 
 extras
 =
 [
+b
 "
 .
 git
@@ -800,7 +798,7 @@ git
 =
 GitHasher
 (
-root
+tests_root
 )
         
 if
@@ -848,10 +846,10 @@ Iterator
 [
 Tuple
 [
-Union
+Text
+Optional
 [
-bytes
-SourceFile
+Text
 ]
 bool
 ]
@@ -872,11 +870,19 @@ self
 .
 path_filter
 (
+                
 walk
 (
 self
 .
-root
+tests_root
+.
+encode
+(
+"
+utf8
+"
+)
 )
 )
 :
@@ -899,6 +905,13 @@ join
 dirpath
 filename
 )
+.
+decode
+(
+"
+utf8
+"
+)
                 
 if
 mtime_cache
@@ -914,7 +927,7 @@ path_stat
 )
 :
                     
-hash
+file_hash
 =
 self
 .
@@ -927,17 +940,8 @@ None
 )
                     
 yield
-SourceFile
-(
-self
-.
-root
 path
-self
-.
-url_base
-hash
-)
+file_hash
 True
                 
 else
@@ -945,6 +949,7 @@ else
                     
 yield
 path
+None
 False
     
 def
@@ -1016,8 +1021,8 @@ False
 type
 :
 (
-bytes
-bytes
+Text
+Text
 bool
 )
 -
@@ -1100,7 +1105,7 @@ type
 )
 -
 >
-bytes
+Text
         
 pass
     
@@ -1176,7 +1181,7 @@ bool
 >
 Dict
 [
-Any
+Text
 Any
 ]
         
@@ -1189,7 +1194,7 @@ type
 :
 Dict
 [
-Any
+Text
 Any
 ]
         
@@ -1265,7 +1270,7 @@ type
 (
 Dict
 [
-Any
+Text
 Any
 ]
 )
@@ -1273,7 +1278,7 @@ Any
 >
 Dict
 [
-Any
+Text
 Any
 ]
         
@@ -1319,6 +1324,7 @@ CacheFile
     
 file_name
 =
+u
 "
 mtime
 .
@@ -1342,9 +1348,9 @@ False
 type
 :
 (
-bytes
-bytes
-bytes
+Text
+Text
+Text
 bool
 )
 -
@@ -1383,7 +1389,7 @@ stat
 type
 :
 (
-bytes
+Text
 stat_result
 )
 -
@@ -1496,6 +1502,7 @@ data
 .
 get
 (
+u
 "
 /
 tests_root
@@ -1555,6 +1562,7 @@ data
 .
 get
 (
+u
 "
 /
 manifest_path
@@ -1786,6 +1794,7 @@ data
 .
 get
 (
+u
 "
 /
 gitignore_file
@@ -1812,6 +1821,7 @@ data
             
 data
 [
+u
 "
 /
 gitignore_file
@@ -1863,7 +1873,7 @@ key
 type
 :
 (
-bytes
+Text
 )
 -
 >
@@ -1901,7 +1911,7 @@ value
 type
 :
 (
-bytes
+Text
 bool
 )
 -
@@ -1949,7 +1959,7 @@ key
 type
 :
 (
-bytes
+Text
 )
 -
 >
@@ -1979,7 +1989,7 @@ type
 >
 Iterator
 [
-bytes
+Text
 ]
         
 return
@@ -2243,6 +2253,7 @@ deque
 [
 (
 root
+b
 "
 "
 )

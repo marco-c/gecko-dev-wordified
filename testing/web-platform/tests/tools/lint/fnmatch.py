@@ -30,17 +30,17 @@ Mypy
 from
 typing
 import
-AnyStr
-    
-from
-typing
-import
 Iterable
     
 from
 typing
 import
 List
+    
+from
+typing
+import
+Text
 __all__
 =
 [
@@ -69,8 +69,8 @@ pat
 type
 :
 (
-AnyStr
-AnyStr
+Text
+Text
 )
 -
 >
@@ -116,8 +116,8 @@ pat
 type
 :
 (
-AnyStr
-AnyStr
+Text
+Text
 )
 -
 >
@@ -245,15 +245,15 @@ type
 (
 Iterable
 [
-AnyStr
+Text
 ]
-AnyStr
+Text
 )
 -
 >
 List
 [
-AnyStr
+Text
 ]
     
 return

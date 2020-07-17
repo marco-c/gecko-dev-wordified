@@ -4364,17 +4364,20 @@ return_value
 =
 [
 (
+b
 '
 '
                            
 [
 (
+b
 '
 dir_a
 '
 None
 )
 (
+b
 '
 dir_b
 '
@@ -4384,12 +4387,14 @@ None
                            
 [
 (
+b
 '
 file_a
 '
 None
 )
 (
+b
 '
 file_b
 '
@@ -4399,6 +4404,7 @@ None
 )
                           
 (
+b
 '
 dir_a
 '
@@ -4408,12 +4414,14 @@ dir_a
                            
 [
 (
+b
 '
 file_c
 '
 None
 )
 (
+b
 '
 file_d
 '
@@ -4507,17 +4515,20 @@ return_value
 =
 [
 (
+b
 '
 '
                            
 [
 (
+b
 '
 dir_a
 '
 None
 )
 (
+b
 '
 dir_b
 '
@@ -4527,12 +4538,14 @@ None
                            
 [
 (
+b
 '
 file_a
 '
 None
 )
 (
+b
 '
 file_b
 '
@@ -4542,6 +4555,7 @@ None
 )
                           
 (
+b
 '
 dir_a
 '
@@ -4551,12 +4565,14 @@ dir_a
                            
 [
 (
+b
 '
 file_c
 '
 None
 )
 (
+b
 '
 file_d
 '

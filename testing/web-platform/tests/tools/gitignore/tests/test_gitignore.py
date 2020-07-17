@@ -45,16 +45,19 @@ match_data
 [
     
 (
+b
 "
 foo
 "
 True
 [
+b
 "
 a
 /
 foo
 "
+b
 "
 foo
 "
@@ -62,6 +65,7 @@ foo
 )
     
 (
+b
 "
 *
 .
@@ -69,11 +73,13 @@ a
 "
 True
 [
+b
 "
 foo
 .
 a
 "
+b
 "
 a
 /
@@ -81,6 +87,7 @@ foo
 .
 a
 "
+b
 "
 a
 /
@@ -90,6 +97,7 @@ foo
 .
 a
 "
+b
 "
 a
 .
@@ -103,6 +111,7 @@ a
 )
     
 (
+b
 "
 *
 .
@@ -113,16 +122,19 @@ co
 "
 True
 [
+b
 "
 a
 .
 pyc
 "
+b
 "
 a
 .
 pyo
 "
+b
 "
 a
 /
@@ -136,6 +148,7 @@ pyc
 )
     
 (
+b
 "
 \
 \
@@ -144,10 +157,12 @@ pyc
 "
 True
 [
+b
 "
 #
 a
 "
+b
 "
 a
 /
@@ -158,22 +173,26 @@ b
 )
     
 (
+b
 "
 *
 #
 "
 True
 [
+b
 "
 a
 #
 "
+b
 "
 a
 /
 b
 #
 "
+b
 "
 #
 a
@@ -183,6 +202,7 @@ a
 )
     
 (
+b
 "
 /
 *
@@ -191,11 +211,13 @@ c
 "
 True
 [
+b
 "
 a
 .
 c
 "
+b
 "
 .
 c
@@ -204,6 +226,7 @@ c
 )
     
 (
+b
 "
 *
 *
@@ -212,11 +235,13 @@ b
 "
 False
 [
+b
 "
 a
 /
 b
 "
+b
 "
 a
 /
@@ -228,12 +253,14 @@ b
 )
     
 (
+b
 "
 *
 b
 "
 True
 [
+b
 "
 ab
 "
@@ -241,12 +268,14 @@ ab
 )
     
 (
+b
 "
 *
 b
 "
 True
 [
+b
 "
 a
 /
@@ -256,6 +285,7 @@ b
 )
     
 (
+b
 "
 *
 *
@@ -264,6 +294,7 @@ b
 "
 False
 [
+b
 "
 a
 /
@@ -273,12 +304,14 @@ b
 )
     
 (
+b
 "
 a
 /
 "
 True
 [
+b
 "
 a
 "
@@ -286,6 +319,7 @@ a
 )
     
 (
+b
 "
 a
 [
@@ -299,6 +333,7 @@ True
 )
     
 (
+b
 "
 *
 *
@@ -307,6 +342,7 @@ b
 "
 False
 [
+b
 "
 a
 /
@@ -318,6 +354,7 @@ b
 )
     
 (
+b
 "
 a
 ?
@@ -325,6 +362,7 @@ c
 "
 True
 [
+b
 "
 abc
 "
@@ -332,6 +370,7 @@ abc
 )
     
 (
+b
 "
 a
 [
@@ -342,6 +381,7 @@ c
 "
 True
 [
+b
 "
 acc
 "
@@ -349,6 +389,7 @@ acc
 )
     
 (
+b
 "
 a
 [
@@ -360,56 +401,16 @@ c
 "
 True
 [
+b
 "
 abc
 "
+b
 "
 acc
 "
 ]
 )
-    
-(
-"
-a
-[
-^
-]
-c
-"
-True
-[
-"
-ac
-"
-]
-)
-#
-This
-is
-probably
-wrong
-    
-(
-"
-a
-[
-^
-]
-c
-"
-True
-[
-"
-ac
-"
-]
-)
-#
-This
-is
-probably
-wrong
 ]
 #
 type
@@ -418,11 +419,11 @@ Sequence
 [
 Tuple
 [
-str
+bytes
 bool
 Iterable
 [
-str
+bytes
 ]
 ]
 ]
@@ -431,14 +432,17 @@ mismatch_data
 [
     
 (
+b
 "
 foo
 "
 True
 [
+b
 "
 foob
 "
+b
 "
 afoo
 "
@@ -446,6 +450,7 @@ afoo
 )
     
 (
+b
 "
 *
 .
@@ -453,14 +458,17 @@ a
 "
 True
 [
+b
 "
 a
 "
+b
 "
 foo
 :
 a
 "
+b
 "
 a
 .
@@ -472,6 +480,7 @@ foo
 )
     
 (
+b
 "
 *
 .
@@ -482,14 +491,17 @@ co
 "
 True
 [
+b
 "
 a
 .
 pyd
 "
+b
 "
 pyo
 "
+b
 "
 a
 .
@@ -499,11 +511,13 @@ py
 )
     
 (
+b
 "
 a
 "
 True
 [
+b
 "
 ab
 "
@@ -511,6 +525,7 @@ ab
 )
     
 (
+b
 "
 a
 ?
@@ -518,9 +533,11 @@ c
 "
 True
 [
+b
 "
 ac
 "
+b
 "
 abbc
 "
@@ -528,6 +545,7 @@ abbc
 )
     
 (
+b
 "
 a
 [
@@ -538,6 +556,7 @@ c
 "
 True
 [
+b
 "
 abc
 "
@@ -545,6 +564,7 @@ abc
 )
     
 (
+b
 "
 a
 [
@@ -556,6 +576,7 @@ c
 "
 True
 [
+b
 "
 adc
 "
@@ -569,11 +590,11 @@ Sequence
 [
 Tuple
 [
-str
+bytes
 bool
 Iterable
 [
-str
+bytes
 ]
 ]
 ]
@@ -581,11 +602,13 @@ invalid_data
 =
 [
     
+b
 "
 [
 a
 "
     
+b
 "
 *
 *
@@ -594,18 +617,21 @@ a
 foo
 "
     
+b
 "
 a
 \
 \
 "
     
+b
 "
 *
 *
 b
 "
     
+b
 "
 b
 *
@@ -613,10 +639,20 @@ b
 /
 "
     
+b
 "
 [
 [
 ]
+"
+    
+b
+"
+a
+[
+^
+]
+c
 "
 ]
 filter_data
@@ -625,17 +661,21 @@ filter_data
     
 (
 [
+b
 "
 foo
 "
+b
 "
 bar
 /
 "
+b
 "
 /
 a
 "
+b
 "
 *
 .
@@ -645,20 +685,25 @@ py
      
 [
 (
+b
 "
 "
 [
+b
 "
 foo
 "
+b
 "
 bar
 "
+b
 "
 baz
 "
 ]
 [
+b
 "
 a
 "
@@ -666,18 +711,22 @@ a
 )
       
 (
+b
 "
 baz
 "
 [
+b
 "
 a
 "
 ]
 [
+b
 "
 foo
 "
+b
 "
 bar
 "
@@ -688,6 +737,7 @@ bar
 [
 (
 [
+b
 "
 baz
 "
@@ -698,11 +748,13 @@ baz
       
 (
 [
+b
 "
 a
 "
 ]
 [
+b
 "
 bar
 "
@@ -713,16 +765,20 @@ bar
     
 (
 [
+b
 "
 #
 foo
 "
+b
 "
 "
+b
 "
 a
 *
 "
+b
 "
 !
 a
@@ -733,22 +789,27 @@ py
      
 [
 (
+b
 "
 "
 [
+b
 "
 foo
 "
 ]
 [
+b
 "
 a
 "
+b
 "
 a
 .
 foo
 "
+b
 "
 a
 .
@@ -761,11 +822,13 @@ py
 [
 (
 [
+b
 "
 foo
 "
 ]
 [
+b
 "
 a
 .
@@ -778,11 +841,13 @@ py
     
 (
 [
+b
 "
 a
 .
 foo
 "
+b
 "
 !
 a
@@ -793,22 +858,27 @@ py
      
 [
 (
+b
 "
 "
 [
+b
 "
 foo
 "
 ]
 [
+b
 "
 a
 "
+b
 "
 a
 .
 foo
 "
+b
 "
 a
 .
@@ -821,14 +891,17 @@ py
 [
 (
 [
+b
 "
 foo
 "
 ]
 [
+b
 "
 a
 "
+b
 "
 a
 .
@@ -854,11 +927,11 @@ Sequence
 [
 Tuple
 [
-str
+bytes
 bool
 Iterable
 [
-str
+bytes
 ]
 ]
 ]
@@ -869,9 +942,9 @@ Iterable
 [
 Tuple
 [
-str
+bytes
 bool
-str
+bytes
 ]
 ]
     
@@ -942,6 +1015,7 @@ input
 .
 rsplit
 (
+b
 "
 /
 "
@@ -1011,6 +1085,7 @@ input
 .
 rsplit
 (
+b
 "
 /
 "

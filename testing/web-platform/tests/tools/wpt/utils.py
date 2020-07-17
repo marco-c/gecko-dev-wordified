@@ -12,19 +12,27 @@ from
 io
 import
 BytesIO
-try
+MYPY
+=
+False
+if
+MYPY
 :
     
 from
 typing
 import
 Any
-Callable
-except
-ImportError
-:
     
-pass
+from
+typing
+import
+Callable
+    
+from
+typing
+import
+Dict
 logger
 =
 logging
@@ -39,6 +47,15 @@ Kwargs
 dict
 )
 :
+    
+#
+type
+:
+Dict
+[
+Any
+Any
+]
     
 def
 set_if_none

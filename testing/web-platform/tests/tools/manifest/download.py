@@ -144,11 +144,11 @@ path
 type
 :
 (
-str
+Text
 )
 -
 >
-str
+Text
     
 return
 os
@@ -185,7 +185,7 @@ days
 type
 :
 (
-str
+Text
 timedelta
 )
 -
@@ -270,7 +270,7 @@ max_count
 type
 :
 (
-str
+Text
 int
 )
 -
@@ -396,7 +396,7 @@ name
 type
 :
 (
-str
+Text
 )
 -
 >
@@ -766,7 +766,7 @@ manifest_path
 #
 type
 :
-str
+Text
         
 tags_func
 #
@@ -1105,17 +1105,20 @@ as
 gzf
 :
                     
-decompressed
+data
 =
-gzf
-.
-read
+read_gzf
 (
+gzf
 )
 #
 type
 :
 ignore
+                    
+decompressed
+=
+data
             
 except
 IOError
@@ -1218,6 +1221,50 @@ downloaded
     
 return
 True
+def
+read_gzf
+(
+gzf
+)
+:
+#
+type
+:
+ignore
+    
+#
+This
+is
+working
+around
+a
+mypy
+problem
+in
+Python
+2
+:
+    
+#
+"
+Call
+to
+untyped
+function
+"
+read
+"
+in
+typed
+context
+"
+    
+return
+gzf
+.
+read
+(
+)
 def
 create_parser
 (
@@ -1349,8 +1396,8 @@ False
 type
 :
 (
-str
-str
+Text
+Text
 bool
 )
 -

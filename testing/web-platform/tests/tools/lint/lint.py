@@ -10,6 +10,8 @@ argparse
 import
 ast
 import
+io
+import
 json
 import
 logging
@@ -78,6 +80,8 @@ from
 six
 import
 binary_type
+ensure_binary
+ensure_text
 iteritems
 itervalues
 with_metaclass
@@ -171,11 +175,6 @@ from
 typing
 import
 Type
-    
-from
-typing
-import
-Union
     
 #
 The
@@ -618,17 +617,17 @@ None
 type
 :
 (
-str
+Text
 Optional
 [
-str
+Text
 ]
 )
 -
 >
 Iterable
 [
-str
+Text
 ]
     
 path_filter
@@ -636,10 +635,18 @@ path_filter
 PathFilter
 (
 repo_root
+.
+encode
+(
+"
+utf8
+"
+)
+                             
 extras
 =
 [
-str
+ensure_binary
 (
 "
 .
@@ -657,6 +664,17 @@ subdir
 expanded_path
 =
 subdir
+.
+encode
+(
+"
+utf8
+"
+)
+        
+subdir_str
+=
+expanded_path
     
 else
 :
@@ -664,6 +682,13 @@ else
 expanded_path
 =
 repo_root
+.
+encode
+(
+"
+utf8
+"
+)
     
 for
 dirpath
@@ -710,7 +735,7 @@ path
 .
 join
 (
-subdir
+subdir_str
 path
 )
             
@@ -727,7 +752,10 @@ path
 path
             
 yield
+ensure_text
+(
 path
+)
 def
 _all_files_equal
 (
@@ -741,7 +769,7 @@ type
 (
 Iterable
 [
-str
+Text
 ]
 )
 -
@@ -1039,8 +1067,8 @@ path
 type
 :
 (
-str
-str
+Text
+Text
 )
 -
 >
@@ -1098,8 +1126,8 @@ path
 type
 :
 (
-str
-str
+Text
+Text
 )
 -
 >
@@ -1154,8 +1182,8 @@ path
 type
 :
 (
-str
-str
+Text
+Text
 )
 -
 >
@@ -1264,8 +1292,8 @@ path
 type
 :
 (
-str
-str
+Text
+Text
 )
 -
 >
@@ -1420,8 +1448,8 @@ path
 type
 :
 (
-str
-str
+Text
+Text
 )
 -
 >
@@ -1485,10 +1513,10 @@ paths
 type
 :
 (
-str
+Text
 List
 [
-str
+Text
 ]
 )
 -
@@ -1594,6 +1622,7 @@ strip
 .
 split
 (
+b
 '
 \
 n
@@ -1602,7 +1631,7 @@ n
 :
                 
 match_filter
-path
+path_bytes
 =
 match
 .
@@ -1618,6 +1647,7 @@ match_filter
 .
 split
 (
+b
 '
 :
 '
@@ -1661,13 +1691,27 @@ if
 filter_string
 [
 0
+:
+1
 ]
 !
 =
+b
 '
 !
 '
 :
+                    
+path
+=
+path_bytes
+.
+decode
+(
+"
+utf8
+"
+)
                     
 errors
 .
@@ -1841,10 +1885,10 @@ paths
 type
 :
 (
-str
+Text
 List
 [
-str
+Text
 ]
 )
 -
@@ -1973,14 +2017,10 @@ type
 :
 Dict
 [
-Union
-[
-bytes
 Text
-]
 Set
 [
-str
+Text
 ]
 ]
     
@@ -1995,14 +2035,10 @@ type
 :
 Dict
 [
-Union
-[
-bytes
 Text
-]
 Set
 [
-str
+Text
 ]
 ]
     
@@ -2017,14 +2053,10 @@ type
 :
 Dict
 [
-Union
-[
-bytes
 Text
-]
 Set
 [
-str
+Text
 ]
 ]
     
@@ -2045,34 +2077,6 @@ nt
 "
 :
             
-if
-isinstance
-(
-path
-binary_type
-)
-:
-                
-path
-=
-path
-.
-replace
-(
-b
-"
-\
-\
-"
-b
-"
-/
-"
-)
-            
-else
-:
-                
 path
 =
 path
@@ -2096,6 +2100,7 @@ path
 .
 startswith
 (
+u
 "
 css
 /
@@ -2111,6 +2116,7 @@ SourceFile
 (
 repo_root
 path
+u
 "
 /
 "
@@ -2175,6 +2181,7 @@ path
 .
 find
 (
+u
 "
 /
 support
@@ -2228,6 +2235,7 @@ source_file
 dir_non_test
 -
 {
+u
 "
 support
 "
@@ -2316,39 +2324,8 @@ name
 #
 type
 :
-Union
-[
-bytes
 Text
-]
             
-if
-isinstance
-(
-test_name
-bytes
-)
-:
-                
-test_name
-=
-test_name
-.
-replace
-(
-b
-'
--
-manual
-'
-b
-'
-'
-)
-            
-else
-:
-                
 test_name
 =
 test_name
@@ -2450,7 +2427,7 @@ Dict
 Text
 Set
 [
-str
+Text
 ]
 ]
                 
@@ -2466,6 +2443,7 @@ SourceFile
 (
 repo_root
 path
+u
 "
 /
 "
@@ -2710,10 +2688,10 @@ paths
 type
 :
 (
-str
+Text
 List
 [
-str
+Text
 ]
 )
 -
@@ -3018,7 +2996,7 @@ type
 (
 IO
 [
-bytes
+Text
 ]
 )
 -
@@ -3578,8 +3556,8 @@ f
 type
 :
 (
-str
-str
+Text
+Text
 IO
 [
 bytes
@@ -3683,8 +3661,8 @@ f
 type
 :
 (
-str
-str
+Text
+Text
 IO
 [
 bytes
@@ -5222,8 +5200,8 @@ f
 type
 :
 (
-str
-str
+Text
+Text
 IO
 [
 bytes
@@ -5410,7 +5388,7 @@ value
 type
 :
 (
-str
+bytes
 )
 -
 >
@@ -5514,8 +5492,8 @@ f
 type
 :
 (
-str
-str
+Text
+Text
 IO
 [
 bytes
@@ -5940,8 +5918,8 @@ f
 type
 :
 (
-str
-str
+Text
+Text
 IO
 [
 bytes
@@ -6045,8 +6023,8 @@ path
 type
 :
 (
-str
-str
+Text
+Text
 )
 -
 >
@@ -6142,10 +6120,10 @@ paths
 type
 :
 (
-str
+Text
 List
 [
-str
+Text
 ]
 )
 -
@@ -6244,8 +6222,8 @@ f
 type
 :
 (
-str
-str
+Text
+Text
 IO
 [
 bytes
@@ -6798,7 +6776,7 @@ wpt_root
 type
 :
 (
-str
+Text
 )
 -
 >
@@ -6865,16 +6843,16 @@ type
 (
 Dict
 [
-str
+Text
 Any
 ]
-str
+Text
 )
 -
 >
 List
 [
-str
+Text
 ]
     
 if
@@ -6882,12 +6860,9 @@ kwargs
 .
 get
 (
-str
-(
 "
 paths
 "
-)
 )
 :
         
@@ -6903,12 +6878,9 @@ kwargs
 .
 get
 (
-str
-(
 "
 paths
 "
-)
 [
 ]
 )
@@ -6979,12 +6951,9 @@ wpt_root
 elif
 kwargs
 [
-str
-(
 "
 all
 "
-)
 ]
 :
         
@@ -7073,10 +7042,6 @@ changed_paths
 if
 not
 force_all
-#
-type
-:
-ignore
                  
 else
 list
@@ -7200,6 +7165,10 @@ repo
 -
 root
 "
+type
+=
+ensure_text
+                        
 help
 =
 "
@@ -7235,6 +7204,10 @@ ignore
 -
 glob
 "
+type
+=
+ensure_text
+                        
 help
 =
 "
@@ -7294,7 +7267,7 @@ main
 (
 *
 *
-kwargs
+kwargs_str
 )
 :
     
@@ -7310,6 +7283,25 @@ Any
 >
 int
     
+kwargs
+=
+{
+ensure_text
+(
+key
+)
+:
+value
+for
+key
+value
+in
+iteritems
+(
+kwargs_str
+)
+}
+    
 assert
 logger
 is
@@ -7321,24 +7313,18 @@ kwargs
 .
 get
 (
-str
-(
 "
 json
 "
-)
 )
 and
 kwargs
 .
 get
 (
-str
-(
 "
 markdown
 "
-)
 )
 :
         
@@ -7372,12 +7358,9 @@ kwargs
 .
 get
 (
-str
-(
 '
 repo_root
 '
-)
 )
 or
 localpaths
@@ -7392,36 +7375,27 @@ True
 False
 )
 :
-str
-(
 "
 json
 "
-)
                      
 (
 False
 True
 )
 :
-str
-(
 "
 markdown
 "
-)
                      
 (
 False
 False
 )
 :
-str
-(
 "
 normal
 "
-)
 }
 [
 (
@@ -7429,25 +7403,19 @@ kwargs
 .
 get
 (
-str
-(
 "
 json
 "
-)
 False
 )
-                                                     
+                                                
 kwargs
 .
 get
 (
-str
-(
 "
 markdown
 "
-)
 False
 )
 )
@@ -7481,17 +7449,13 @@ kwargs
 .
 get
 (
-str
-(
 "
 ignore_glob
 "
 )
-)
 or
-str
-(
-)
+"
+"
     
 return
 lint
@@ -7499,10 +7463,7 @@ lint
 repo_root
 paths
 output_format
-str
-(
 ignore_glob
-)
 )
 def
 lint
@@ -7512,9 +7473,8 @@ paths
 output_format
 ignore_glob
 =
-str
-(
-)
+"
+"
 )
 :
     
@@ -7522,13 +7482,13 @@ str
 type
 :
 (
-str
+Text
 List
 [
-str
+Text
 ]
-str
-str
+Text
+Text
 )
 -
 >
@@ -7554,6 +7514,8 @@ last
 None
     
 with
+io
+.
 open
 (
 os
@@ -7569,6 +7531,9 @@ lint
 ignore
 "
 )
+"
+r
+"
 )
 as
 f
@@ -7856,6 +7821,8 @@ abs_path
 :
             
 with
+io
+.
 open
 (
 abs_path
@@ -7864,7 +7831,7 @@ rb
 '
 )
 as
-f
+test_file
 :
                 
 errors
@@ -7873,7 +7840,7 @@ check_file_contents
 (
 repo_root
 path
-f
+test_file
 )
                 
 last

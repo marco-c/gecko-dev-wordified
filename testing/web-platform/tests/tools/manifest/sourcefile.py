@@ -9,10 +9,13 @@ collections
 import
 deque
 from
+io
+import
+BytesIO
+from
 six
 import
 binary_type
-ensure_text
 iteritems
 text_type
 from
@@ -52,11 +55,6 @@ from
 typing
 import
 Any
-    
-from
-typing
-import
-AnyStr
     
 from
 typing
@@ -184,7 +182,6 @@ from
 .
 utils
 import
-ContextManagerBytesIO
 cached_property
 wd_pattern
 =
@@ -1317,18 +1314,21 @@ object
 parsers
 =
 {
+u
 "
 html
 "
 :
 _parse_html
                
+u
 "
 xhtml
 "
 :
 _parse_xml
                
+u
 "
 svg
 "
@@ -1355,6 +1355,7 @@ ElementTree
 root_dir_non_test
 =
 {
+u
 "
 common
 "
@@ -1363,14 +1364,17 @@ common
 dir_non_test
 =
 {
+u
 "
 resources
 "
                     
+u
 "
 support
 "
                     
+u
 "
 tools
 "
@@ -1380,30 +1384,37 @@ dir_path_non_test
 =
 {
 (
+u
 "
 css21
 "
+u
 "
 archive
 "
 )
                          
 (
+u
 "
 css
 "
+u
 "
 CSS2
 "
+u
 "
 archive
 "
 )
                          
 (
+u
 "
 css
 "
+u
 "
 common
 "
@@ -1416,7 +1427,7 @@ Set
 [
 Tuple
 [
-bytes
+Text
 .
 .
 .
@@ -1428,7 +1439,7 @@ __init__
 (
 self
 tests_root
-rel_path_str
+rel_path
 url_base
 hash
 =
@@ -1443,8 +1454,8 @@ None
 type
 :
 (
-AnyStr
-AnyStr
+Text
+Text
 Text
 Optional
 [
@@ -1528,13 +1539,6 @@ None
 "
 "
 "
-        
-rel_path
-=
-ensure_text
-(
-rel_path_str
-)
         
 assert
 not
@@ -1663,10 +1667,7 @@ self
 .
 tests_root
 =
-ensure_text
-(
 tests_root
-)
 #
 type
 :
@@ -1894,7 +1895,7 @@ prefix
 type
 :
 (
-bytes
+Text
 )
 -
 >
@@ -2049,33 +2050,18 @@ not
 None
 :
             
-wrapped
+file_obj
 =
-ContextManagerBytesIO
+BytesIO
 (
 self
 .
 contents
 )
-            
-if
-MYPY
+#
+type
 :
-                
-file_obj
-=
-cast
-(
 BinaryIO
-wrapped
-)
-            
-else
-:
-                
-file_obj
-=
-wrapped
         
 else
 :
@@ -2523,6 +2509,7 @@ self
 .
 name_prefix
 (
+u
 "
 MANIFEST
 "
@@ -2534,6 +2521,7 @@ self
 filename
 =
 =
+u
 "
 META
 .
@@ -2547,6 +2535,7 @@ filename
 .
 startswith
 (
+u
 "
 .
 "
@@ -2559,6 +2548,7 @@ filename
 .
 endswith
 (
+u
 "
 .
 headers
@@ -2572,6 +2562,7 @@ filename
 .
 endswith
 (
+u
 "
 .
 ini
@@ -3435,6 +3426,7 @@ ext
 ]
 =
 =
+u
 "
 .
 "
@@ -3452,9 +3444,11 @@ if
 ext
 in
 [
+u
 "
 html
 "
+u
 "
 htm
 "
@@ -3462,6 +3456,7 @@ htm
 :
             
 return
+u
 "
 html
 "
@@ -3470,12 +3465,15 @@ if
 ext
 in
 [
+u
 "
 xhtml
 "
+u
 "
 xht
 "
+u
 "
 xml
 "
@@ -3483,6 +3481,7 @@ xml
 :
             
 return
+u
 "
 xhtml
 "
@@ -3491,12 +3490,14 @@ if
 ext
 =
 =
+u
 "
 svg
 "
 :
             
 return
+u
 "
 svg
 "

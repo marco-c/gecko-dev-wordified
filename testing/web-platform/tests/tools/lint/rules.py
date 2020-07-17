@@ -2328,7 +2328,7 @@ path
 type
 :
 (
-str
+Text
 )
 -
 >
