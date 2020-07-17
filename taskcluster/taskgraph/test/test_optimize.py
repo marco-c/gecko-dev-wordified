@@ -623,6 +623,10 @@ params
 do_not_optimize
 =
 do_not_optimize
+            
+requested_tasks
+=
+graph
 )
         
 self
