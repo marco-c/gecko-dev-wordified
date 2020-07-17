@@ -128,6 +128,16 @@ selectedBrowser
 kURL
 )
 ;
+newWin
+.
+gBrowser
+.
+selectedBrowser
+.
+focus
+(
+)
+;
 await
 waitForEvent
 (
