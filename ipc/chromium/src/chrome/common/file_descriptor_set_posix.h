@@ -367,7 +367,7 @@ enum
 {
 MAX_DESCRIPTORS_PER_MESSAGE
 =
-250
+200
 }
 ;
 void
