@@ -212,6 +212,7 @@ h
 /
 /
 AbstractScopePtr
+ScopeIndex
 #
 include
 "
@@ -836,6 +837,14 @@ vector
 }
 AbstractScopePtr
 getScope
+(
+size_t
+index
+)
+const
+;
+ScopeIndex
+getScopeIndex
 (
 size_t
 index

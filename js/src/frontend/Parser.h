@@ -10556,8 +10556,6 @@ constructors
 FunctionNodeType
 standaloneFunction
 (
-HandleScope
-enclosingScope
 const
 mozilla
 :

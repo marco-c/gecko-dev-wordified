@@ -250,6 +250,9 @@ AbstractScopePtr
 .
 h
 "
+/
+/
+ScopeIndex
 #
 include
 "
@@ -1609,6 +1612,12 @@ firstScope
 }
 AbstractScopePtr
 innermostScope
+(
+)
+const
+;
+ScopeIndex
+innermostScopeIndex
 (
 )
 const

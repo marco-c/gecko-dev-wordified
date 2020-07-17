@@ -599,7 +599,7 @@ setEnclosingScopeForInnerLazyFunction
 bce_
 -
 >
-innermostScope
+innermostScopeIndex
 (
 )
 )
