@@ -2220,6 +2220,14 @@ matches
 /
 *
 "
+"
+file
+:
+/
+/
+/
+*
+"
 ]
 messageManagerGroups
 :
