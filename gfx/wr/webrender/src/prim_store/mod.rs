@@ -8372,7 +8372,7 @@ PrimitiveInstance
 >
 (
 )
-80
+64
 "
 PrimitiveInstance
 size
@@ -8394,7 +8394,7 @@ PrimitiveInstanceKind
 >
 (
 )
-40
+24
 "
 PrimitiveInstanceKind
 size
