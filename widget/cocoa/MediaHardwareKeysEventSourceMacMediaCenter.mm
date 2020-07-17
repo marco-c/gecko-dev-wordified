@@ -873,9 +873,12 @@ iter
 )
 -
 >
-OnKeyPressed
+OnActionPerformed
+(
+MediaControlAction
 (
 aEvent
+)
 )
 ;
 }

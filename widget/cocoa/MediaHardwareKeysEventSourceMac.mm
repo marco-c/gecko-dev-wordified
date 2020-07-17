@@ -1126,11 +1126,14 @@ iter
 )
 -
 >
-OnKeyPressed
+OnActionPerformed
+(
+MediaControlAction
 (
 ToMediaControlKey
 (
 keyCode
+)
 )
 )
 ;

@@ -396,8 +396,8 @@ const
 /
 /
 Use
-these
-methods
+this
+method
 to
 trigger
 media
@@ -413,13 +413,6 @@ const
 MediaSessionActionDetails
 &
 aDetails
-)
-;
-void
-NotifyHandler
-(
-MediaSessionAction
-aAction
 )
 ;
 void

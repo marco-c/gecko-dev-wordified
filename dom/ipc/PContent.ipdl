@@ -1084,7 +1084,7 @@ mozilla
 dom
 :
 :
-MediaControlKey
+MediaControlAction
 from
 "
 ipc
@@ -4918,7 +4918,7 @@ is
 used
 to
 dispatch
-MediaControlKey
+MediaControlAction
 to
 content
 process
@@ -4938,12 +4938,12 @@ tree
 *
 /
 async
-UpdateMediaControlKey
+UpdateMediaControlAction
 (
 MaybeDiscardedBrowsingContext
 aContext
-MediaControlKey
-aKey
+MediaControlAction
+aAction
 )
 ;
 /

@@ -215,10 +215,12 @@ override
 MediaControlKeyListener
 methods
 void
-OnKeyPressed
+OnActionPerformed
 (
-MediaControlKey
-aKey
+const
+MediaControlAction
+&
+aAction
 )
 override
 ;
