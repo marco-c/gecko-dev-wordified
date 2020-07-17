@@ -65,11 +65,14 @@ color
 #
 edeceb
 ;
+}
+table
+{
 font
-:
-message
 -
-box
+family
+:
+monospace
 ;
 }
 .
