@@ -5773,6 +5773,7 @@ nsINode
 *
 aNode
 )
+const
 {
 MOZ_ASSERT
 (

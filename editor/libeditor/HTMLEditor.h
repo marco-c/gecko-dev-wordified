@@ -6370,6 +6370,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 /
 *
