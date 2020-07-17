@@ -141,7 +141,7 @@ h
 #
 include
 "
-nsISVGSVGFrame
+ISVGSVGFrame
 .
 h
 "
@@ -172,7 +172,7 @@ SVGViewportFrame
 public
 SVGDisplayContainerFrame
 public
-nsISVGSVGFrame
+ISVGSVGFrame
 {
 protected
 :
@@ -221,7 +221,7 @@ override
 ;
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual
@@ -305,7 +305,7 @@ override
 ;
 /
 /
-nsISVGSVGFrame
+ISVGSVGFrame
 interface
 :
 virtual

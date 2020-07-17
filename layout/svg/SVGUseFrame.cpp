@@ -778,7 +778,7 @@ this
 -
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 methods
 void
 SVGUseFrame

@@ -1476,7 +1476,7 @@ SVGOuterSVGFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsISVGSVGFrame
+ISVGSVGFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
@@ -6482,7 +6482,7 @@ this
 -
 /
 /
-nsISVGSVGFrame
+ISVGSVGFrame
 methods
 :
 void
@@ -6945,7 +6945,7 @@ aFlags
 -
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 methods
 :
 void

@@ -393,7 +393,7 @@ SVGImageFrame
 )
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual

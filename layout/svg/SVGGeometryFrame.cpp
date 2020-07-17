@@ -517,7 +517,7 @@ SVGGeometryFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 )
 NS_QUERYFRAME_ENTRY
 (
@@ -1737,7 +1737,7 @@ this
 -
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 methods
 void
 SVGGeometryFrame

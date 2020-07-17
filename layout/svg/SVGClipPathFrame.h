@@ -155,12 +155,12 @@ h
 class
 gfxContext
 ;
-class
-nsSVGDisplayableFrame
-;
 namespace
 mozilla
 {
+class
+ISVGDisplayableFrame
+;
 class
 PresShell
 ;
@@ -805,7 +805,7 @@ clipping
 bool
 IsTrivial
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 *
 aSingleChild

@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+ISVGDisplayableFrame
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -154,13 +163,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsSVGDisplayableFrame
 .
 h
 "
@@ -269,7 +271,7 @@ SVGGeometryFrame
 public
 nsIFrame
 public
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 {
 typedef
 gfx
@@ -496,7 +498,7 @@ protected
 :
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual

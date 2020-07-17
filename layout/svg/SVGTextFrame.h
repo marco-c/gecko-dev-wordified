@@ -1358,7 +1358,7 @@ override
 ;
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual

@@ -461,7 +461,7 @@ DEBUG
 -
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 methods
 nsresult
 SVGGFrame

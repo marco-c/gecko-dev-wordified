@@ -352,7 +352,7 @@ override
 ;
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual
@@ -847,7 +847,7 @@ GetActiveChildFrame
 (
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =
@@ -1475,7 +1475,7 @@ ReflowAllSVGTextFramesInsideNonActiveChildren
 child
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgChild
 =
@@ -1717,7 +1717,7 @@ GetActiveChildFrame
 (
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgKid
 =

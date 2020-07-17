@@ -3574,7 +3574,7 @@ SVG
 FRAME_STATE_GROUP_CLASS
 (
 SVG
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 )
 FRAME_STATE_GROUP_CLASS
 (

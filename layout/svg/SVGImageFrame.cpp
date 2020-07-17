@@ -2096,7 +2096,7 @@ true
 -
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 methods
 :
 void

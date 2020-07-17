@@ -994,7 +994,7 @@ GetAnonymousChildFrame
 this
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 SVGFrame
 =
@@ -1021,7 +1021,7 @@ SVGFrame
 >
 NotifySVGChanged
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED
@@ -1234,7 +1234,7 @@ mMarkerTM
 *
 aToBBoxUserspace
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 child
 =

@@ -59189,7 +59189,7 @@ if
 hasSVGLayout
 )
 {
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =

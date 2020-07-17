@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+ISVGDisplayableFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -149,13 +158,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsSVGDisplayableFrame
 .
 h
 "
@@ -777,7 +779,7 @@ SVGDisplayContainerFrame
 public
 SVGContainerFrame
 public
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 {
 protected
 :
@@ -908,7 +910,7 @@ override
 ;
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual

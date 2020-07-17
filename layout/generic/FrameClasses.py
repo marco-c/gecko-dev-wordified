@@ -1799,14 +1799,21 @@ nsISelectControlFrame
 AbstractFrame
 (
 "
-nsISVGSVGFrame
+nsIStatefulFrame
 "
 )
     
 AbstractFrame
 (
 "
-nsIStatefulFrame
+ISVGDisplayableFrame
+"
+)
+    
+AbstractFrame
+(
+"
+ISVGSVGFrame
 "
 )
     
@@ -1828,13 +1835,6 @@ AbstractFrame
 (
 "
 nsITextControlFrame
-"
-)
-    
-AbstractFrame
-(
-"
-nsSVGDisplayableFrame
 "
 )
 ]

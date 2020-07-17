@@ -338,7 +338,7 @@ aResult
 endif
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 void

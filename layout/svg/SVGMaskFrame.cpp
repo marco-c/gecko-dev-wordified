@@ -666,7 +666,7 @@ us
 can
 be
 different
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 SVGFrame
 =
@@ -685,7 +685,7 @@ SVGFrame
 >
 NotifySVGChanged
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED

@@ -165,14 +165,16 @@ include
 "
 mozilla
 /
-SVGContainerFrame
+ISVGDisplayableFrame
 .
 h
 "
 #
 include
 "
-nsSVGDisplayableFrame
+mozilla
+/
+SVGContainerFrame
 .
 h
 "
@@ -292,7 +294,7 @@ mozilla
 -
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 methods
 void
 SVGViewportFrame
@@ -1886,7 +1888,7 @@ aPoint
 -
 /
 /
-nsISVGSVGFrame
+ISVGSVGFrame
 methods
 :
 void

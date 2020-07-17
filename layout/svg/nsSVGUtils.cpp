@@ -288,7 +288,7 @@ h
 #
 include
 "
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 .
 h
 "
@@ -1155,7 +1155,7 @@ Do
 not
 call
 under
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 :
 :
 ReflowSVG
@@ -2005,7 +2005,7 @@ nsRect
 aRect
 )
 {
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svg
 =
@@ -2472,7 +2472,7 @@ PrincipalChildList
 )
 )
 {
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 SVGFrame
 =
@@ -2673,7 +2673,7 @@ aImgParams
 )
 override
 {
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =
@@ -3878,7 +3878,7 @@ path
 "
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =
@@ -5745,7 +5745,7 @@ GetPrevSibling
 )
 )
 {
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 SVGFrame
 =
@@ -6733,7 +6733,7 @@ aFrame
 ancestor
 ;
 }
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svg
 =
@@ -11080,7 +11080,7 @@ GetPrimaryFrame
 (
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =
@@ -11231,7 +11231,7 @@ GetPrimaryFrame
 (
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =

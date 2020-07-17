@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+ISVGDisplayableFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShellForwards
 .
 h
@@ -151,13 +160,6 @@ h
 include
 "
 nsContainerFrame
-.
-h
-"
-#
-include
-"
-nsSVGDisplayableFrame
 .
 h
 "
@@ -206,7 +208,7 @@ final
 public
 nsContainerFrame
 public
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 {
 friend
 nsContainerFrame
@@ -431,7 +433,7 @@ aResult
 endif
 /
 /
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 interface
 :
 virtual

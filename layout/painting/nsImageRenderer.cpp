@@ -254,13 +254,17 @@ h
 #
 include
 "
-nsSVGDisplayableFrame
+mozilla
+/
+ISVGDisplayableFrame
 .
 h
 "
 #
 include
 "
+mozilla
+/
 SVGObserverUtils
 .
 h
@@ -1371,7 +1375,7 @@ eSVGPaintServer
 !
 static_cast
 <
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 >
 (
