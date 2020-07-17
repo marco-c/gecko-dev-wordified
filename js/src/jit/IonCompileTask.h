@@ -174,7 +174,7 @@ IonCompileTask
 final
 :
 public
-RunnableTask
+HelperThreadTask
 public
 mozilla
 :
@@ -446,6 +446,7 @@ AutoLockHelperThreadState
 &
 locked
 )
+override
 ;
 ThreadType
 threadType
@@ -461,7 +462,6 @@ void
 runTask
 (
 )
-override
 ;
 }
 ;
