@@ -1299,7 +1299,7 @@ HandleEvent
 to
 prevent
 the
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -1310,7 +1310,7 @@ being
 called
 .
 The
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -1341,7 +1341,7 @@ IsContentDisabled
 )
 {
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

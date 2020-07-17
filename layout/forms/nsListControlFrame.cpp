@@ -6838,7 +6838,7 @@ IsContentDisabled
 )
 {
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

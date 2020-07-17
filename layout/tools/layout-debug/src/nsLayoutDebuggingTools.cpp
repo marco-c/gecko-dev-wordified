@@ -532,7 +532,7 @@ aVisualDebugging
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 ShowFrameBorders
@@ -563,7 +563,7 @@ aVisualEventDebugging
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 ShowEventTargetFrameBorder

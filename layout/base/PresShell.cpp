@@ -3605,7 +3605,7 @@ mouse
 down
 events
 call
-nsFrame
+nsIFrame
 :
 :
 HandlePress
@@ -32023,7 +32023,7 @@ n
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 PrintDisplayList
@@ -32101,7 +32101,7 @@ n
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 PrintDisplayList
@@ -53219,7 +53219,7 @@ ShowEventTargetDebug
 {
 if
 (
-nsFrame
+nsIFrame
 :
 :
 GetShowEventTargetFrameBorder

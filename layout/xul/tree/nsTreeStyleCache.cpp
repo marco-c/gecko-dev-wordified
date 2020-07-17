@@ -617,7 +617,7 @@ Normally
 we
 rely
 on
-nsFrame
+nsIFrame
 :
 :
 Init

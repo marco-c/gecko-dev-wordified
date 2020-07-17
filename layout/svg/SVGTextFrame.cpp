@@ -34750,7 +34750,7 @@ to
 /
 ScheduleReflowSVGNonDisplayText
 from
-nsFrame
+nsIFrame
 :
 :
 DidSetComputedStyle

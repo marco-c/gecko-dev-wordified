@@ -256,7 +256,7 @@ class
 SVGGeometryFrame
 :
 public
-nsFrame
+nsIFrame
 public
 nsSVGDisplayableFrame
 {
@@ -311,7 +311,7 @@ aID
 kClassID
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -376,7 +376,7 @@ false
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType

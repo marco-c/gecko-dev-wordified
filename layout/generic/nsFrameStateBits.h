@@ -1297,7 +1297,7 @@ comment
 documenting
 /
 /
-nsFrame
+nsIFrame
 :
 :
 Reflow

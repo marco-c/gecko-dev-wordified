@@ -2135,7 +2135,7 @@ override
 A
 copy
 of
-nsFrame
+nsIFrame
 :
 :
 ShrinkWidthToFit

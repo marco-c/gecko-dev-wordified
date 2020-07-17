@@ -525,7 +525,7 @@ SVGGeometryFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFrame
+nsIFrame
 )
 void
 DisplaySVGGeometry
@@ -978,7 +978,7 @@ GetStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -1128,7 +1128,7 @@ ComputedStyle
 aOldComputedStyle
 )
 {
-nsFrame
+nsIFrame
 :
 :
 DidSetComputedStyle

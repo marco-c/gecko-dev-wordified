@@ -2591,7 +2591,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -2833,7 +2833,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -3661,7 +3661,7 @@ tI
 tB
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -8330,7 +8330,7 @@ GetRect
 (
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -8647,7 +8647,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -8792,7 +8792,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -9047,7 +9047,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy

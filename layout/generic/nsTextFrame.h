@@ -291,7 +291,7 @@ class
 nsTextFrame
 :
 public
-nsFrame
+nsIFrame
 {
 typedef
 mozilla
@@ -1374,7 +1374,7 @@ aID
 kClassID
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -1894,7 +1894,7 @@ kipp
 :
 temporary
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType

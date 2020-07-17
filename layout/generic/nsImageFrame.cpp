@@ -16266,7 +16266,7 @@ map
 )
 {
 return
-nsFrame
+nsIFrame
 :
 :
 GetCursor
@@ -16308,7 +16308,7 @@ area
 )
 {
 return
-nsFrame
+nsIFrame
 :
 :
 GetCursor
@@ -18203,13 +18203,13 @@ table
 cell
 frame
 .
-nsFrame
+nsIFrame
 *
 grandAncestor
 =
 static_cast
 <
-nsFrame
+nsIFrame
 *
 >
 (

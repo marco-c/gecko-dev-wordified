@@ -2866,7 +2866,7 @@ sizes
 #
 ifdef
 NOISY_REFLOW
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -3117,7 +3117,7 @@ span
 #
 ifdef
 NOISY_REFLOW
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -3722,7 +3722,7 @@ frame
 #
 ifdef
 REALLY_NOISY_PUSHING
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -3866,7 +3866,7 @@ pfd
 #
 ifdef
 NOISY_PUSHING
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -5411,7 +5411,7 @@ pfd
 #
 ifdef
 REALLY_NOISY_REFLOW
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -8258,7 +8258,7 @@ true
 #
 ifdef
 REALLY_NOISY_REFLOW
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -11184,7 +11184,7 @@ int32_t
 aIndent
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -11253,7 +11253,7 @@ nullptr
 pfd
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy

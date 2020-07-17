@@ -933,7 +933,7 @@ imageLoader
 =
 do_QueryInterface
 (
-nsFrame
+nsIFrame
 :
 :
 mContent
@@ -953,7 +953,7 @@ this
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom

@@ -3709,7 +3709,7 @@ capture
 state
 .
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -3730,7 +3730,7 @@ break
 /
 /
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -4029,7 +4029,7 @@ called
 via
 /
 /
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -4167,7 +4167,7 @@ aEventStatus
 )
 ;
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

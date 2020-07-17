@@ -1911,7 +1911,7 @@ list
 ;
 }
 }
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -3288,7 +3288,7 @@ and
 the
 code
 in
-nsFrame
+nsIFrame
 :
 :
 DisplayBorderBackgroundOutline
@@ -5867,7 +5867,7 @@ aContent
 nsresult
 rv
 =
-nsFrame
+nsIFrame
 :
 :
 GetContentForEvent

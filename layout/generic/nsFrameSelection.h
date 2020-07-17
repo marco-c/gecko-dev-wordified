@@ -473,7 +473,7 @@ that
 are
 passed
 to
-nsFrame
+nsIFrame
 :
 :
 PeekOffset

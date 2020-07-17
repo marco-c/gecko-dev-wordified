@@ -231,7 +231,7 @@ SVGFEImageFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 friend
 nsIFrame
@@ -264,7 +264,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -387,7 +387,7 @@ false
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType
@@ -573,7 +573,7 @@ imageLoader
 =
 do_QueryInterface
 (
-nsFrame
+nsIFrame
 :
 :
 mContent
@@ -593,7 +593,7 @@ this
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom
@@ -655,7 +655,7 @@ interfaces
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -771,7 +771,7 @@ imageLoader
 =
 do_QueryInterface
 (
-nsFrame
+nsIFrame
 :
 :
 mContent
@@ -1007,7 +1007,7 @@ true
 }
 }
 return
-nsFrame
+nsIFrame
 :
 :
 AttributeChanged
@@ -1043,7 +1043,7 @@ imageLoader
 =
 do_QueryInterface
 (
-nsFrame
+nsIFrame
 :
 :
 mContent
@@ -1065,7 +1065,7 @@ nsIImageLoadingContent
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 OnVisibilityChange
@@ -1086,7 +1086,7 @@ aNewVisibility
 aNonvisibleAction
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 OnVisibilityChange

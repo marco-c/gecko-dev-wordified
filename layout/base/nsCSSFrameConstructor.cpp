@@ -9630,7 +9630,7 @@ as
 needed
 .
 *
-nsFrame
+nsIFrame
 :
 :
 SetParent
@@ -16117,7 +16117,7 @@ mWritingMode
 in
 /
 /
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -30668,7 +30668,7 @@ check
 it
 later
 in
-nsFrame
+nsIFrame
 :
 :
 ApplyPaginatedOverflowClipping
@@ -31167,7 +31167,7 @@ ComputedStyle
 *
 parentContext
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -55853,7 +55853,7 @@ parent
 set
 them
 in
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -66970,7 +66970,7 @@ auto
 *
 styleParentFrame
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -68193,7 +68193,7 @@ ComputedStyle
 *
 parentStyle
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -69836,7 +69836,7 @@ nsIFrame
 *
 parentFrame
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -69929,7 +69929,7 @@ nsIFrame
 *
 parentIgnoringFirstLine
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -77328,7 +77328,7 @@ the
 /
 bit
 via
-nsFrame
+nsIFrame
 :
 :
 Init

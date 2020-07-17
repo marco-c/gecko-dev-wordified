@@ -2167,7 +2167,7 @@ pointless
 /
 2
 )
-nsFrame
+nsIFrame
 :
 :
 BoxReflow
@@ -2375,7 +2375,7 @@ because
 /
 /
 /
-nsFrame
+nsIFrame
 :
 :
 BoxReflow
@@ -5161,7 +5161,7 @@ we
 clear
 it
 in
-nsFrame
+nsIFrame
 :
 :
 DidReflow

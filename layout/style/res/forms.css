@@ -5708,7 +5708,7 @@ unset
 /
 *
 Prevent
-nsFrame
+nsIFrame
 :
 :
 HandlePress
@@ -5897,7 +5897,7 @@ below
 /
 *
 Prevent
-nsFrame
+nsIFrame
 :
 :
 HandlePress
@@ -6148,7 +6148,7 @@ height
 /
 *
 Prevent
-nsFrame
+nsIFrame
 :
 :
 HandlePress
@@ -6385,7 +6385,7 @@ F0F0F0
 /
 *
 Prevent
-nsFrame
+nsIFrame
 :
 :
 HandlePress

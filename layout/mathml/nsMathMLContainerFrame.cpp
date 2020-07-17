@@ -6026,7 +6026,7 @@ GetBaseline
 This
 is
 what
-nsFrame
+nsIFrame
 :
 :
 GetBaseline

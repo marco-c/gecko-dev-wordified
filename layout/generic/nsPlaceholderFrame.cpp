@@ -320,7 +320,7 @@ nsPlaceholderFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFrame
+nsIFrame
 )
 #
 endif
@@ -1272,7 +1272,7 @@ by
 its
 parent
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom

@@ -2798,7 +2798,7 @@ frame
 was
 added
 in
-nsFrame
+nsIFrame
 :
 :
 Init

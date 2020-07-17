@@ -11648,7 +11648,7 @@ isAutoBSize
 /
 /
 in
-nsFrame
+nsIFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
@@ -14481,7 +14481,7 @@ be
 discarded
 in
 *
-nsFrame
+nsIFrame
 :
 :
 MarkIntrinsicISizesDirty
@@ -36568,7 +36568,7 @@ use
 in
 /
 /
-nsFrame
+nsIFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions

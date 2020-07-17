@@ -25901,7 +25901,7 @@ nsIFrame
 *
 correctedFrame
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -26029,7 +26029,7 @@ else
 {
 providerFrame
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame

@@ -1360,7 +1360,7 @@ use
 this
 outside
 of
-nsFrame
+nsIFrame
 :
 :
 BuildDisplayListForChild

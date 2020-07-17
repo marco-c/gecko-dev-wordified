@@ -16154,7 +16154,7 @@ nsDisplayTreeBody
 nsDisplayListBuilder
 *
 aBuilder
-nsFrame
+nsIFrame
 *
 aFrame
 )

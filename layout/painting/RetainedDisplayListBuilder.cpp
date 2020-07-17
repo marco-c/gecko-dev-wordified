@@ -10488,7 +10488,7 @@ height
 ;
 /
 /
-nsFrame
+nsIFrame
 :
 :
 PrintDisplayList
@@ -10666,7 +10666,7 @@ n
 ;
 /
 /
-nsFrame
+nsIFrame
 :
 :
 PrintDisplayList

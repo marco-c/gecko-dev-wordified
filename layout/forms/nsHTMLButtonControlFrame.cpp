@@ -470,7 +470,7 @@ to
 frame
 .
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

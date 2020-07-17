@@ -253,7 +253,7 @@ aOffset
 override
 {
 return
-nsFrame
+nsIFrame
 :
 :
 PeekOffsetNoAmount
@@ -281,7 +281,7 @@ PeekOffsetCharacterOptions
 override
 {
 return
-nsFrame
+nsIFrame
 :
 :
 PeekOffsetCharacter

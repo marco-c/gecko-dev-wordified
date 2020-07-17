@@ -822,7 +822,7 @@ superclass
 here
 !
 return
-nsFrame
+nsIFrame
 :
 :
 ComputeAutoSize

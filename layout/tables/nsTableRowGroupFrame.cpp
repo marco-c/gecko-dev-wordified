@@ -1244,7 +1244,7 @@ DisplayRows
 nsDisplayListBuilder
 *
 aBuilder
-nsFrame
+nsIFrame
 *
 aFrame
 const
@@ -10303,7 +10303,7 @@ reflowed
 in
 /
 /
-nsFrame
+nsIFrame
 :
 :
 FixupPositionedTableParts

@@ -631,7 +631,7 @@ outChildFrame
 else
 {
 return
-nsFrame
+nsIFrame
 :
 :
 GetChildFrameContainingOffset

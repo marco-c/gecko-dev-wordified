@@ -15326,7 +15326,7 @@ selected
 Note
 :
 Currently
-nsFrame
+nsIFrame
 :
 :
 GetDataForTableSelection

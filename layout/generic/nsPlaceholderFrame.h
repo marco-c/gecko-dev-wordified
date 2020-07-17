@@ -483,7 +483,7 @@ nsPlaceholderFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 public
 :
@@ -551,7 +551,7 @@ nsFrameState
 aTypeBits
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -1009,7 +1009,7 @@ AccessibleType
 (
 )
 :
-nsFrame
+nsIFrame
 :
 :
 AccessibleType

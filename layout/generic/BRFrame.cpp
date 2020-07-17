@@ -245,7 +245,7 @@ BRFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 public
 :
@@ -422,7 +422,7 @@ const
 override
 {
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType
@@ -475,7 +475,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext

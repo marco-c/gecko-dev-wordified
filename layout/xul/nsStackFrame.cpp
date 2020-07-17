@@ -332,7 +332,7 @@ foreground
 layer
 (
 see
-nsFrame
+nsIFrame
 :
 :
 BuildDisplayListForChild

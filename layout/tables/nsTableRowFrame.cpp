@@ -7235,7 +7235,7 @@ reflowed
 in
 /
 /
-nsFrame
+nsIFrame
 :
 :
 FixupPositionedTableParts

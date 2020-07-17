@@ -16537,7 +16537,7 @@ THIS
 IN
 SYNC
 WITH
-nsFrame
+nsIFrame
 :
 :
 CreateView

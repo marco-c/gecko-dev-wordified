@@ -544,7 +544,7 @@ aListID
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet

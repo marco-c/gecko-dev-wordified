@@ -514,7 +514,7 @@ aChildList
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -1663,7 +1663,7 @@ s
 not
 set
 in
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom
@@ -2681,7 +2681,7 @@ nsDisplaySelectionOverlay
 nsDisplayListBuilder
 *
 aBuilder
-nsFrame
+nsIFrame
 *
 aFrame
 int16_t
@@ -17899,7 +17899,7 @@ updating
 /
 mainAxisCoord
 in
-nsFrame
+nsIFrame
 :
 :
 ComputeSize

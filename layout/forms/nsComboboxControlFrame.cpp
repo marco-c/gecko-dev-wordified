@@ -8340,7 +8340,7 @@ down
 to
 /
 /
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

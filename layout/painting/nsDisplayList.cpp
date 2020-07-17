@@ -8363,7 +8363,7 @@ to
 make
 sure
 *
-nsFrame
+nsIFrame
 :
 :
 BuildDisplayListForChild

@@ -1249,7 +1249,7 @@ mMessage
 eMouseUp
 )
 {
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

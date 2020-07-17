@@ -4150,7 +4150,7 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-nsFrame
+nsIFrame
 :
 :
 sFrameLogModule
@@ -4233,7 +4233,7 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-nsFrame
+nsIFrame
 :
 :
 sFrameLogModule
@@ -7424,7 +7424,7 @@ parent
 *
 (
 see
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -20461,7 +20461,7 @@ helper
 used
 by
 |
-nsFrame
+nsIFrame
 :
 :
 ComputeSize
@@ -24240,7 +24240,7 @@ These
 are
 to
 allow
-nsFrame
+nsIFrame
 :
 :
 Init

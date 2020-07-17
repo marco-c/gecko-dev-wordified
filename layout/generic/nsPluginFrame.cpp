@@ -777,7 +777,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -869,7 +869,7 @@ nsIObjectFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFrame
+nsIFrame
 )
 #
 ifdef
@@ -969,7 +969,7 @@ aContent
 )
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -1139,7 +1139,7 @@ Destroy
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom
@@ -1218,7 +1218,7 @@ visibility
 ;
 }
 }
-nsFrame
+nsIFrame
 :
 :
 DidSetComputedStyle
@@ -4645,7 +4645,7 @@ aTabIndex
 1
 ;
 return
-nsFrame
+nsIFrame
 :
 :
 IsFocusable
@@ -5269,7 +5269,7 @@ this
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DidReflow
@@ -9951,7 +9951,7 @@ ifdef
 XP_WIN
 rv
 =
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -10141,7 +10141,7 @@ IgnoreAllowedState
 endif
 rv
 =
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -10167,7 +10167,7 @@ call
 to
 /
 /
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -10580,7 +10580,7 @@ Nothing
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 GetCursor

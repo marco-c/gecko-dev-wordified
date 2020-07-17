@@ -273,7 +273,7 @@ SVGViewFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 friend
 nsIFrame
@@ -306,7 +306,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -370,7 +370,7 @@ false
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType
@@ -548,7 +548,7 @@ view
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -755,7 +755,7 @@ aModType
 }
 }
 return
-nsFrame
+nsIFrame
 :
 :
 AttributeChanged

@@ -1742,7 +1742,7 @@ aMainSize
 *
 Callback
 for
-nsFrame
+nsIFrame
 :
 :
 MarkIntrinsicISizesDirty

@@ -215,7 +215,7 @@ class
 nsLeafFrame
 :
 public
-nsFrame
+nsIFrame
 {
 public
 :
@@ -437,7 +437,7 @@ lie
 here
 .
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType
@@ -468,7 +468,7 @@ ClassID
 aID
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext

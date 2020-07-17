@@ -210,7 +210,7 @@ this
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -265,7 +265,7 @@ class
 destroy
 the
 frame
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom

@@ -2644,7 +2644,7 @@ directly
 .
 *
 *
-nsFrame
+nsIFrame
 :
 :
 BuildDisplayListForStackingContext
@@ -25459,7 +25459,7 @@ be
 those
 returned
 by
-nsFrame
+nsIFrame
 :
 :
 GetFrameName

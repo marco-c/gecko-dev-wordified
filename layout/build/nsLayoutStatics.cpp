@@ -1320,7 +1320,7 @@ AddRefTable
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowStartup
@@ -2003,7 +2003,7 @@ Shutdown
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 DisplayReflowShutdown

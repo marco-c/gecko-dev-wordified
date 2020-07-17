@@ -167,7 +167,7 @@ class
 nsSplittableFrame
 :
 public
-nsFrame
+nsIFrame
 {
 public
 :
@@ -604,7 +604,7 @@ ClassID
 aID
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
