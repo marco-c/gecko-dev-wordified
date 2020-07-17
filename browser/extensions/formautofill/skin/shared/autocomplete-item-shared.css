@@ -913,6 +913,12 @@ size
 1em
 )
 ;
+unicode
+-
+bidi
+:
+plaintext
+;
 }
 .
 autofill
@@ -1073,6 +1079,12 @@ size
 *
 1em
 )
+;
+unicode
+-
+bidi
+:
+plaintext
 ;
 }
 .
