@@ -81198,6 +81198,11 @@ return
 false
 ;
 }
+size_t
+numNurseryObjects
+=
+0
+;
 IonScript
 *
 ionScript
@@ -81241,6 +81246,7 @@ graph
 numConstants
 (
 )
+numNurseryObjects
 safepointIndices_
 .
 length
