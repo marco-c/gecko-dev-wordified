@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIReflowObserver
 .
 h

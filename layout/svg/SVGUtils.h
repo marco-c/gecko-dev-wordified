@@ -277,9 +277,6 @@ class
 nsIContent
 ;
 class
-nsIFrame
-;
-class
 nsPresContext
 ;
 class

@@ -187,13 +187,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 Units
 .
 h
@@ -220,6 +213,9 @@ nsIDocShell
 ;
 class
 nsIDocShellTreeItem
+;
+class
+nsIFrame
 ;
 class
 imgIContainer

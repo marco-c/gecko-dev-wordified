@@ -172,6 +172,11 @@ nsIFrame
 .
 h
 "
+/
+/
+for
+WeakFrame
+only
 #
 include
 "

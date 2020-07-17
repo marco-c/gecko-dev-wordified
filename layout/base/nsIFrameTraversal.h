@@ -127,13 +127,9 @@ nsISupports
 .
 h
 "
-#
-include
-"
+class
 nsIFrame
-.
-h
-"
+;
 #
 define
 NS_IFRAMEENUMERATOR_IID

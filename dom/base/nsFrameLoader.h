@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
@@ -281,13 +288,6 @@ h
 include
 "
 Units
-.
-h
-"
-#
-include
-"
-nsIFrame
 .
 h
 "

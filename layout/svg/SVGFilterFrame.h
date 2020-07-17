@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsQueryFrame
 .
 h

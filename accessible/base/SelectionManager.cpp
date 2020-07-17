@@ -1499,3 +1499,13 @@ text
 ;
 }
 }
+SelectionManager
+:
+:
+~
+SelectionManager
+(
+)
+=
+default
+;

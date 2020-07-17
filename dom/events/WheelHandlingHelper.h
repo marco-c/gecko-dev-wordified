@@ -152,6 +152,11 @@ nsIFrame
 .
 h
 "
+/
+/
+for
+AutoWeakFrame
+only
 #
 include
 "
@@ -159,6 +164,9 @@ nsPoint
 .
 h
 "
+class
+nsIFrame
+;
 class
 nsIScrollableFrame
 ;

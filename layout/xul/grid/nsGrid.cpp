@@ -153,6 +153,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsIScrollableFrame
 .
 h

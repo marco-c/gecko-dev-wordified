@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsBaseWidget
 .
 h
@@ -549,6 +542,9 @@ aWidget
 endif
 class
 gfxPattern
+;
+class
+nsIFrame
 ;
 namespace
 mozilla
