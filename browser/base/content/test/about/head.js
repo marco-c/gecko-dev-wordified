@@ -1219,12 +1219,11 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 url
 "
 "
-false
 )
 ;
 }

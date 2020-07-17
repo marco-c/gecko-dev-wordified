@@ -585,7 +585,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 url
 options
@@ -595,7 +595,6 @@ iconURL
 |
 "
 "
-false
 )
 ;
 info

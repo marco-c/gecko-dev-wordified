@@ -2804,7 +2804,7 @@ CurrentState
 /
 Wait
 for
-addEngine
+addOpenSearchEngine
 (
 )
 .
@@ -2826,12 +2826,11 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 url
 "
 "
-false
 )
 ;
 let

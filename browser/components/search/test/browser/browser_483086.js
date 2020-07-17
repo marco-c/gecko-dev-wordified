@@ -199,7 +199,7 @@ modified
 ;
 gSS
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -242,7 +242,6 @@ icon
 %
 00
 "
-false
 )
 ;
 }
@@ -377,7 +376,7 @@ modified
 ;
 gSS
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -420,7 +419,6 @@ icon
 %
 00
 "
-false
 )
 ;
 }

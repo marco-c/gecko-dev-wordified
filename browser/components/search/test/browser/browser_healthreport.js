@@ -574,7 +574,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -614,7 +614,6 @@ icon
 %
 00
 "
-false
 )
 ;
 }

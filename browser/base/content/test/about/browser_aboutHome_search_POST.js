@@ -228,7 +228,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -256,7 +256,6 @@ POSTSearchEngine
 xml
 "
 null
-false
 )
 ;
 engine
