@@ -323,7 +323,7 @@ string
 '
 desc
 '
-syntax
+auto
 '
 {
 '
