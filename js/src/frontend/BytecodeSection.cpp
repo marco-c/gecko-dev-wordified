@@ -754,6 +754,7 @@ get
 createScope
 (
 cx
+compilationInfo
 )
 ;
 if
