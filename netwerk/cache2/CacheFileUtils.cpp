@@ -1061,6 +1061,15 @@ code
 .
 *
 /
+if
+(
+!
+aInfo
+)
+{
+return
+;
+}
 OriginAttributes
 const
 *
