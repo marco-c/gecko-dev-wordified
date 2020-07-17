@@ -824,8 +824,6 @@ column
 {
 PerformanceController
 .
-toolbox
-.
 viewSourceInDebugger
 (
 url
@@ -938,8 +936,6 @@ getInfo
 )
 ;
 PerformanceController
-.
-toolbox
 .
 viewSourceInDebugger
 (
