@@ -279,6 +279,11 @@ SprintfLiteralChecker
 cpp
 '
 '
+TemporaryLifetimeBoundChecker
+.
+cpp
+'
+'
 TrivialCtorDtorChecker
 .
 cpp
