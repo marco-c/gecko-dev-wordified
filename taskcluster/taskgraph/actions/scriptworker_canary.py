@@ -94,6 +94,10 @@ register_callback_action
 title
 =
 "
+Push
+scriptworker
+canaries
+.
 "
     
 name
