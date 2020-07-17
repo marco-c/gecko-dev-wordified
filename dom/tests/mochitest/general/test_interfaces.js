@@ -5449,7 +5449,7 @@ HTMLDialogElement
 insecureContext
 :
 true
-nightly
+disabled
 :
 true
 }
