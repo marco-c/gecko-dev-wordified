@@ -13036,6 +13036,9 @@ stubKind
 JSScript
 *
 outerScript
+ICScript
+*
+icScript
 ICFallbackStub
 *
 stub
@@ -13887,6 +13890,7 @@ makesGCCalls
 (
 )
 outerScript
+icScript
 )
 ;
 void
