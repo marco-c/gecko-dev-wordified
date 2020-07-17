@@ -2244,7 +2244,7 @@ IPCResult
 RecvRemoteType
 (
 const
-nsString
+nsCString
 &
 aRemoteType
 )
@@ -2273,7 +2273,7 @@ for
 telemetry
 .
 const
-nsAString
+nsACString
 &
 GetRemoteType
 (
@@ -5165,10 +5165,10 @@ mAppInfo
 bool
 mIsForBrowser
 ;
-nsString
+nsCString
 mRemoteType
 =
-VoidString
+VoidCString
 (
 )
 ;

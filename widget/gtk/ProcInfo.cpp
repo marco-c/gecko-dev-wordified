@@ -1471,7 +1471,7 @@ ProcType
 &
 type
 const
-nsAString
+nsACString
 &
 origin
 )
@@ -1569,7 +1569,7 @@ runnable
 is
 called
 .
-nsString
+nsCString
 originCopy
 (
 origin
