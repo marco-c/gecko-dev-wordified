@@ -927,9 +927,6 @@ blank
 line
 "
     
-else
-:
-        
 return
 "
 no

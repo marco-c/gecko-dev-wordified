@@ -204,7 +204,7 @@ pykey
 .
 HASH_SHA256
     
-elif
+if
 algorithm
 =
 =
@@ -216,7 +216,7 @@ pykey
 .
 HASH_SHA384
     
-elif
+if
 algorithm
 =
 =
@@ -228,9 +228,6 @@ pykey
 .
 HASH_SHA512
     
-else
-:
-        
 raise
 UnknownCOSEAlgorithmError
 (

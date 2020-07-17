@@ -5667,9 +5667,6 @@ ECCKey
 specification
 )
     
-else
-:
-        
 return
 RSAKey
 (
