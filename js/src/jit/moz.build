@@ -508,6 +508,11 @@ TIOracle
 cpp
 '
 '
+TrialInlining
+.
+cpp
+'
+'
 TypePolicy
 .
 cpp
