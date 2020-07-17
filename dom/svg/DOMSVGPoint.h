@@ -307,14 +307,12 @@ friend
 class
 AutoChangePointNotifier
 ;
-typedef
-mozilla
-:
-:
+using
+Point
+=
 gfx
 :
 :
-Point
 Point
 ;
 public

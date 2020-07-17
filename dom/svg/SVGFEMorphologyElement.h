@@ -176,9 +176,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEMorphologyElementBase
+=
+SVGFE
 ;
 class
 SVGFEMorphologyElement

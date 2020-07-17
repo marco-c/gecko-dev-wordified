@@ -196,9 +196,10 @@ dom
 class
 SVGViewportElement
 ;
-typedef
-SVGElement
+using
 SVGViewElementBase
+=
+SVGElement
 ;
 class
 SVGViewElement

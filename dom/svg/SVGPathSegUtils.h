@@ -241,11 +241,12 @@ any
 struct
 SVGPathTraversalState
 {
-typedef
+using
+Point
+=
 gfx
 :
 :
-Point
 Point
 ;
 enum

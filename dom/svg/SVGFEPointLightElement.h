@@ -162,9 +162,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFELightElement
+using
 SVGFEPointLightElementBase
+=
+SVGFELightElement
 ;
 class
 SVGFEPointLightElement

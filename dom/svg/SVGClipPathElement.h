@@ -169,9 +169,10 @@ SVGClipPathFrame
 namespace
 dom
 {
-typedef
-SVGTransformableElement
+using
 SVGClipPathElementBase
+=
+SVGTransformableElement
 ;
 class
 SVGClipPathElement

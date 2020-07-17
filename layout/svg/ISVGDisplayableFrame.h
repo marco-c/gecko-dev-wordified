@@ -365,11 +365,12 @@ nsQueryFrame
 {
 public
 :
-typedef
+using
+imgDrawingParams
+=
 image
 :
 :
-imgDrawingParams
 imgDrawingParams
 ;
 NS_DECL_QUERYFRAME_TARGET

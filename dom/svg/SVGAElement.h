@@ -186,9 +186,10 @@ EventChainPreVisitor
 namespace
 dom
 {
-typedef
-SVGGraphicsElement
+using
 SVGAElementBase
+=
+SVGGraphicsElement
 ;
 class
 SVGAElement

@@ -377,9 +377,10 @@ SVGSVGElement
 class
 SVGViewportElement
 ;
-typedef
-nsStyledElement
+using
 SVGElementBase
+=
+nsStyledElement
 ;
 class
 SVGElement

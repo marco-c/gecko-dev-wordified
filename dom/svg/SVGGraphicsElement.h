@@ -148,9 +148,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGTransformableElement
+using
 SVGGraphicsElementBase
+=
+SVGTransformableElement
 ;
 class
 SVGGraphicsElement

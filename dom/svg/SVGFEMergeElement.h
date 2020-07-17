@@ -155,9 +155,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEMergeElementBase
+=
+SVGFE
 ;
 class
 SVGFEMergeElement

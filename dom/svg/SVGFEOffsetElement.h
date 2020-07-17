@@ -169,9 +169,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEOffsetElementBase
+=
+SVGFE
 ;
 class
 SVGFEOffsetElement

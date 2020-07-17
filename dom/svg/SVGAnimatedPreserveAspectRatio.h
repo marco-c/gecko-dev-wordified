@@ -456,9 +456,6 @@ mIsBaseSet
 }
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :

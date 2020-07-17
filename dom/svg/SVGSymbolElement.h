@@ -155,9 +155,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGViewportElement
+using
 SVGSymbolElementBase
+=
+SVGViewportElement
 ;
 class
 SVGSymbolElement

@@ -141,11 +141,12 @@ SVGFilterPaintCallback
 {
 public
 :
-typedef
+using
+imgDrawingParams
+=
 image
 :
 :
-imgDrawingParams
 imgDrawingParams
 ;
 /

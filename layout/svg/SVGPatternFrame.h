@@ -229,11 +229,12 @@ final
 public
 SVGPaintServerFrame
 {
-typedef
+using
+SourceSurface
+=
 gfx
 :
 :
-SourceSurface
 SourceSurface
 ;
 public

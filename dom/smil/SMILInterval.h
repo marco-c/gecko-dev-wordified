@@ -430,7 +430,9 @@ FixEnd
 (
 )
 ;
-typedef
+using
+InstanceTimeList
+=
 nsTArray
 <
 RefPtr
@@ -438,7 +440,6 @@ RefPtr
 SMILInstanceTime
 >
 >
-InstanceTimeList
 ;
 void
 AddDependentTime

@@ -250,11 +250,12 @@ final
 public
 SVGContainerFrame
 {
-typedef
+using
+imgDrawingParams
+=
 image
 :
 :
-imgDrawingParams
 imgDrawingParams
 ;
 friend

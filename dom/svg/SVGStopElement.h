@@ -166,9 +166,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGStopElementBase
+=
+SVGElement
 ;
 class
 SVGStopElement

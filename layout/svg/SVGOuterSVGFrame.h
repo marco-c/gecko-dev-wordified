@@ -304,11 +304,12 @@ SVGDisplayContainerFrame
 public
 ISVGSVGFrame
 {
-typedef
+using
+imgDrawingParams
+=
 image
 :
 :
-imgDrawingParams
 imgDrawingParams
 ;
 friend

@@ -216,11 +216,12 @@ dom
 :
 DOMSVGStringList
 ;
-typedef
+using
+SVGStringList
+=
 mozilla
 :
 :
-SVGStringList
 SVGStringList
 ;
 /

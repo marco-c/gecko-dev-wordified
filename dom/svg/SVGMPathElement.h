@@ -187,9 +187,10 @@ dom
 class
 SVGPathElement
 ;
-typedef
-SVGElement
+using
 SVGMPathElementBase
+=
+SVGElement
 ;
 class
 SVGMPathElement

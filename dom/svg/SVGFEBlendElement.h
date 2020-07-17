@@ -162,9 +162,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEBlendElementBase
+=
+SVGFE
 ;
 class
 SVGFEBlendElement

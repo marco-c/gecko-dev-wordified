@@ -183,9 +183,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFETurbulenceElementBase
+=
+SVGFE
 ;
 class
 SVGFETurbulenceElement

@@ -224,9 +224,10 @@ Masks
 -
 -
 -
-typedef
-SVGElement
+using
 SVGMaskElementBase
+=
+SVGElement
 ;
 class
 SVGMaskElement

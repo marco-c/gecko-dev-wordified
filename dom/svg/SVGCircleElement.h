@@ -172,9 +172,10 @@ ComputedStyle
 namespace
 dom
 {
-typedef
-SVGGeometryElement
+using
 SVGCircleElementBase
+=
+SVGGeometryElement
 ;
 class
 SVGCircleElement

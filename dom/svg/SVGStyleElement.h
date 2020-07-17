@@ -182,9 +182,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGStyleElementBase
+=
+SVGElement
 ;
 class
 SVGStyleElement

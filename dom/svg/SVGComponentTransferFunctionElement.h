@@ -180,9 +180,10 @@ dom
 class
 DOMSVGAnimatedNumberList
 ;
-typedef
-SVGFEUnstyledElement
+using
 SVGComponentTransferFunctionElementBase
+=
+SVGFEUnstyledElement
 ;
 class
 SVGComponentTransferFunctionElement
@@ -232,11 +233,12 @@ default
 ;
 public
 :
-typedef
+using
+ComponentTransferAttributes
+=
 gfx
 :
 :
-ComponentTransferAttributes
 ComponentTransferAttributes
 ;
 /

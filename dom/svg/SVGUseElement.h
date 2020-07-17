@@ -264,9 +264,10 @@ URLExtraData
 namespace
 dom
 {
-typedef
-SVGGraphicsElement
+using
 SVGUseElementBase
+=
+SVGGraphicsElement
 ;
 class
 SVGUseElement

@@ -171,9 +171,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGTitleElementBase
+=
+SVGElement
 ;
 class
 SVGTitleElement

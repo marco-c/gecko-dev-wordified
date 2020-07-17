@@ -164,9 +164,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGPolyElement
+using
 SVGPolygonElementBase
+=
+SVGPolyElement
 ;
 class
 SVGPolygonElement

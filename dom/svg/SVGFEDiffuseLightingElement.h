@@ -155,9 +155,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFELightingElement
+using
 SVGFEDiffuseLightingElementBase
+=
+SVGFELightingElement
 ;
 class
 SVGFEDiffuseLightingElement

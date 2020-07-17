@@ -166,9 +166,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGGraphicsElement
+using
 SVGSwitchElementBase
+=
+SVGGraphicsElement
 ;
 class
 SVGSwitchElement

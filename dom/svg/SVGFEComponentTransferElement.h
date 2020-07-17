@@ -155,9 +155,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEComponentTransferElementBase
+=
+SVGFE
 ;
 class
 SVGFEComponentTransferElement

@@ -170,9 +170,10 @@ nsISVGPoint
 class
 SVGRect
 ;
-typedef
-SVGGraphicsElement
+using
 SVGTextContentElementBase
+=
+SVGGraphicsElement
 ;
 class
 SVGTextContentElement

@@ -203,9 +203,10 @@ SpecularLighting
 -
 -
 -
-typedef
-SVGFELightingElement
+using
 SVGFESpecularLightingElementBase
+=
+SVGFELightingElement
 ;
 class
 SVGFESpecularLightingElement

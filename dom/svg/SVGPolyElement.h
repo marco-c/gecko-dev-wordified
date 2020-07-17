@@ -152,9 +152,10 @@ dom
 class
 DOMSVGPointList
 ;
-typedef
-SVGGeometryElement
+using
 SVGPolyElementBase
+=
+SVGGeometryElement
 ;
 class
 SVGPolyElement

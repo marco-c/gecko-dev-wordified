@@ -201,14 +201,12 @@ SVGAnimatedInteger
 {
 public
 :
-typedef
-mozilla
-:
-:
+using
+SVGElement
+=
 dom
 :
 :
-SVGElement
 SVGElement
 ;
 void
@@ -390,9 +388,6 @@ mIsBaseSet
 }
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -405,9 +400,6 @@ SVGElement
 aSVGElement
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 SMILAttr
@@ -450,9 +442,6 @@ DOMAnimatedInteger
 final
 :
 public
-mozilla
-:
-:
 dom
 :
 :
@@ -467,9 +456,6 @@ SVGElement
 *
 aSVGElement
 )
-:
-mozilla
-:
 :
 dom
 :
@@ -674,9 +660,6 @@ nsAString
 &
 aStr
 const
-mozilla
-:
-:
 dom
 :
 :
