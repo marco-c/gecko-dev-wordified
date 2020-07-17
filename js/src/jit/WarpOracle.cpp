@@ -6027,6 +6027,17 @@ jitScript
 )
 )
 ;
+MOZ_ASSERT
+(
+TrialInliner
+:
+:
+canInline
+(
+targetFunction
+)
+)
+;
 /
 /
 Add

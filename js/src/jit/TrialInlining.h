@@ -576,6 +576,15 @@ BytecodeLocation
 loc
 )
 ;
+static
+bool
+canInline
+(
+JSFunction
+*
+target
+)
+;
 private
 :
 ICStub
@@ -632,6 +641,8 @@ shouldInline
 JSFunction
 *
 target
+BytecodeLocation
+loc
 )
 ;
 JSContext
