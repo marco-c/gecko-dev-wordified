@@ -719,13 +719,13 @@ __BYTE_ORDER__
 )
 &
 &
-\
 defined
 (
 __ORDER_LITTLE_ENDIAN__
 )
 &
 &
+\
 defined
 (
 __ORDER_BIG_ENDIAN__

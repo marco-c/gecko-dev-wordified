@@ -4362,7 +4362,6 @@ mRefCnt
 ;
 \
 _owning
-\
 public
 :
 /
