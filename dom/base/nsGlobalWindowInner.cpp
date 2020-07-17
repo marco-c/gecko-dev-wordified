@@ -30669,6 +30669,16 @@ UpdateAutoplayPermission
 )
 ;
 }
+if
+(
+!
+mDoc
+)
+{
+return
+NS_OK
+;
+}
 RefPtr
 <
 PermissionDelegateHandler
