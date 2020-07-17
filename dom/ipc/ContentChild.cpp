@@ -18533,15 +18533,12 @@ by
 /
 then
 .
-MessageLoop
-:
-:
-current
+GetCurrentSerialEventTarget
 (
 )
 -
 >
-PostDelayedTask
+DelayedDispatch
 (
 NewRunnableMethod
 (
