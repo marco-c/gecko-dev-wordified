@@ -74,6 +74,8 @@ unicode_literals
 import
 logging
 import
+os
+import
 re
 import
 taskcluster_urls
@@ -1359,6 +1361,19 @@ interactive
 tasks
 .
     
+action_task_id
+=
+os
+.
+environ
+.
+get
+(
+'
+TASK_ID
+'
+)
+    
 label_to_taskid
 =
 create_tasks
@@ -1371,6 +1386,9 @@ full_task_graph
 label_to_taskid
                                    
 parameters
+decision_task_id
+=
+action_task_id
 modifier
 =
 edit
