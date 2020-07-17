@@ -214,7 +214,7 @@ override
 (
 BOOL
 )
-ignoreWithParent
+moxIgnoreWithParent
 :
 (
 mozAccessible
