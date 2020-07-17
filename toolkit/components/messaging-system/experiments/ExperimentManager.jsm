@@ -1044,6 +1044,8 @@ branches
 experimentType
 =
 DEFAULT_EXPERIMENT_TYPE
+userFacingName
+userFacingDescription
 }
 source
 )
@@ -1213,6 +1215,18 @@ true
 enrollmentId
 experimentType
 source
+userFacingName
+userFacingDescription
+lastSeen
+:
+new
+Date
+(
+)
+.
+toJSON
+(
+)
 }
 ;
 this
@@ -1616,7 +1630,6 @@ unenrolled
 :
 {
 slug
-}
 }
 )
 ;
