@@ -668,6 +668,8 @@ nsIServiceWorkerRegistrationInfo
 .
 principal
 .
+URI
+.
 host
 ;
 is

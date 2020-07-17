@@ -1038,6 +1038,8 @@ this
 .
 _principal
 .
+URI
+.
 host
 ;
 sourceURL
@@ -1047,7 +1049,6 @@ this
 _principal
 .
 URI
-?
 .
 spec
 ;
@@ -1073,10 +1074,7 @@ e
 .
 g
 .
-data
-:
-/
-/
+null
 principals
 raise
 /
@@ -1085,6 +1083,8 @@ an
 NS_ERROR_FAILURE
 when
 principal
+.
+URI
 .
 host
 is
