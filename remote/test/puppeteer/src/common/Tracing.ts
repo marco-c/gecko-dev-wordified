@@ -164,6 +164,14 @@ from
 Connection
 '
 ;
+/
+*
+*
+*
+public
+*
+/
+export
 interface
 TracingOptions
 {
@@ -300,6 +308,9 @@ stop
 )
 ;
 *
+*
+*
+public
 *
 /
 export

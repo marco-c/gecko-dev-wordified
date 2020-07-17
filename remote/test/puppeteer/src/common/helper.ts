@@ -1701,7 +1701,6 @@ const
 helper
 =
 {
-promisify
 evaluationString
 readProtocolStream
 waitWithTimeout

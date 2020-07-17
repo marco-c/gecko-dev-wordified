@@ -610,6 +610,8 @@ form
 '
 (
 form
+:
+HTMLFormElement
 )
 =
 >
@@ -4554,7 +4556,11 @@ iframe
 '
 (
 frame
+:
+HTMLIFrameElement
 url
+:
+string
 )
 =
 >

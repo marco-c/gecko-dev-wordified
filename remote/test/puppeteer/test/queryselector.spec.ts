@@ -419,6 +419,8 @@ section
 (
 e
 div
+:
+HTMLElement
 )
 =
 >
@@ -1633,6 +1635,8 @@ like
 '
 (
 node
+:
+HTMLElement
 )
 =
 >
@@ -1769,6 +1773,8 @@ a
 '
 (
 node
+:
+HTMLElement
 )
 =
 >
@@ -1894,6 +1900,8 @@ a
 '
 (
 node
+:
+HTMLElement
 )
 =
 >
