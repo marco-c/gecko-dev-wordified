@@ -2482,12 +2482,6 @@ functionStencil
 const
 ;
 bool
-hasFunctionStencil
-(
-)
-const
-;
-bool
 hasFunction
 (
 )
