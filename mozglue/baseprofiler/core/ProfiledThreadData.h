@@ -553,6 +553,13 @@ string
 &
 aProcessName
 const
+std
+:
+:
+string
+&
+aETLDplus1
+const
 TimeStamp
 &
 aProcessStartTime
@@ -787,6 +794,13 @@ std
 string
 &
 aProcessName
+const
+std
+:
+:
+string
+&
+aETLDplus1
 const
 TimeStamp
 &

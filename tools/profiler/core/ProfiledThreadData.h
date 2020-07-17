@@ -559,6 +559,10 @@ nsACString
 &
 aProcessName
 const
+nsACString
+&
+aETLDplus1
+const
 mozilla
 :
 :
@@ -936,6 +940,10 @@ const
 nsACString
 &
 aProcessName
+const
+nsACString
+&
+aETLDplus1
 const
 mozilla
 :
