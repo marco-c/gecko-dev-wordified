@@ -437,6 +437,7 @@ discardStubs
 cx
 (
 )
+script_
 )
 ;
 /
