@@ -197,7 +197,7 @@ ProtocolFuzzerHelper
 CreateContentParent
 (
 const
-nsAString
+nsACString
 &
 aRemoteType
 )

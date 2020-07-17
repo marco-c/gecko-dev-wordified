@@ -2371,7 +2371,7 @@ void
 ConfigRemoteProcess
 (
 const
-nsAString
+nsACString
 &
 aRemoteType
 mozilla
@@ -3142,7 +3142,7 @@ TabListener
 >
 mSessionStoreListener
 ;
-nsString
+nsCString
 mRemoteType
 ;
 bool

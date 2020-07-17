@@ -2805,7 +2805,7 @@ StartupCache
 GetChildProcessType
 (
 const
-nsAString
+nsACString
 &
 remoteType
 )
@@ -2813,11 +2813,9 @@ remoteType
 if
 (
 remoteType
-.
-EqualsLiteral
-(
+=
+=
 EXTENSION_REMOTE_TYPE
-)
 )
 {
 return
@@ -2830,11 +2828,9 @@ Extension
 if
 (
 remoteType
-.
-EqualsLiteral
-(
+=
+=
 PRIVILEGEDABOUT_REMOTE_TYPE
-)
 )
 {
 return

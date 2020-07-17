@@ -480,7 +480,7 @@ duration
 nsCString
 process
 ;
-nsString
+nsCString
 remoteType
 ;
 nsCString

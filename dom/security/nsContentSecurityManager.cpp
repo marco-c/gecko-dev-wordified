@@ -4890,7 +4890,7 @@ aFinalURI
 nsContentPolicyType
 aContentPolicyType
 const
-nsAString
+nsACString
 &
 aRemoteType
 )
@@ -5018,8 +5018,6 @@ example
 com
 nsAutoCString
 loggedRemoteType
-=
-NS_ConvertUTF16toUTF8
 (
 dom
 :
@@ -5685,7 +5683,7 @@ finalURI
 ;
 }
 }
-nsAutoString
+nsAutoCString
 remoteType
 ;
 if

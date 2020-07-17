@@ -1757,7 +1757,7 @@ nsString
 ]
 matches
 ;
-nsString
+nsCString
 [
 ]
 remoteTypes
@@ -1809,7 +1809,7 @@ nsCString
 ]
 observers
 ;
-nsString
+nsCString
 [
 ]
 remoteTypes
@@ -3546,7 +3546,7 @@ process
 async
 RemoteType
 (
-nsString
+nsCString
 aRemoteType
 )
 ;

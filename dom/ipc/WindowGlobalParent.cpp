@@ -2831,7 +2831,7 @@ IPC_OK
 ;
 }
 const
-nsAString
+nsACString
 &
 WindowGlobalParent
 :
@@ -2868,7 +2868,7 @@ GetRemoteType
 ;
 }
 return
-VoidString
+VoidCString
 (
 )
 ;
