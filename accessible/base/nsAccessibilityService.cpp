@@ -414,13 +414,6 @@ h
 #
 include
 "
-nsMenuPopupFrame
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h
