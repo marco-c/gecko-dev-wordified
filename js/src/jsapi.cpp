@@ -10104,7 +10104,7 @@ string
 )
 ;
 return
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

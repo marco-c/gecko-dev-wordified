@@ -2010,7 +2010,7 @@ index
 )
 ;
 return
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

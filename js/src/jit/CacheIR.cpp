@@ -1877,7 +1877,7 @@ true
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

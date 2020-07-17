@@ -2724,7 +2724,7 @@ isPrimitive
 )
 {
 return
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

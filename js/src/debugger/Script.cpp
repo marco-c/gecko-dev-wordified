@@ -10479,7 +10479,7 @@ offsets
 |
 |
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

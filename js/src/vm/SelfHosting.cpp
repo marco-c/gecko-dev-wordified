@@ -4674,7 +4674,7 @@ cx
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >
