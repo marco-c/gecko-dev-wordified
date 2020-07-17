@@ -333,6 +333,11 @@ const
 nsACString
 &
 aOriginSuffix
+nsHostRecord
+:
+:
+TRRSkippedReason
+aReason
 )
 override
 ;
