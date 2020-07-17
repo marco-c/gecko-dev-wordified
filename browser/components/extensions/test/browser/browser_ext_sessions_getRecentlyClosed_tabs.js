@@ -86,6 +86,9 @@ getIcon
 (
 tab
 )
+|
+|
+undefined
 /
 /
 '
