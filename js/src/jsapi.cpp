@@ -25541,6 +25541,9 @@ cx
 ;
 return
 NewString
+<
+CanGC
+>
 (
 cx
 std
@@ -25582,6 +25585,9 @@ cx
 ;
 return
 NewString
+<
+CanGC
+>
 (
 cx
 std
@@ -25623,6 +25629,9 @@ cx
 ;
 return
 NewStringDontDeflate
+<
+CanGC
+>
 (
 cx
 std
