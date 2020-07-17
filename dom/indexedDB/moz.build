@@ -439,6 +439,11 @@ PermissionRequestBase
 cpp
 '
 '
+ProfilerHelpers
+.
+cpp
+'
+'
 ReportInternalError
 .
 cpp
