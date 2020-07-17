@@ -289,8 +289,6 @@ onTargetSwitched
 =
 toolbox
 .
-targetList
-.
 once
 (
 "
