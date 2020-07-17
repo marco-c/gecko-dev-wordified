@@ -306,7 +306,7 @@ central
 /
 file
 /
-tip
+default
 /
 taskcluster
 /
