@@ -6936,6 +6936,7 @@ gfx
 :
 Quaternion
 (
+-
 renderDesc
 .
 HmdToEyePose
@@ -6943,6 +6944,7 @@ HmdToEyePose
 Orientation
 .
 x
+-
 renderDesc
 .
 HmdToEyePose
@@ -6950,6 +6952,7 @@ HmdToEyePose
 Orientation
 .
 y
+-
 renderDesc
 .
 HmdToEyePose
@@ -7124,6 +7127,12 @@ Oculus
 )
 ;
 }
+eyeRotation
+.
+Invert
+(
+)
+;
 mFrameStartPose
 [
 eye
