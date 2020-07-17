@@ -1020,7 +1020,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 0
@@ -1101,7 +1101,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 0
@@ -1990,7 +1990,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 1
@@ -2001,7 +2001,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 0
 ]
@@ -2311,7 +2311,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 1
@@ -2322,7 +2322,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 0
 ]
@@ -3107,7 +3107,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 7
@@ -3118,7 +3118,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 0
 ]
@@ -3232,7 +3232,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 1
 ]
@@ -3357,7 +3357,7 @@ i
 <
 res
 .
-gmpAddons
+addons
 .
 length
 ;
@@ -3373,7 +3373,7 @@ ok
 !
 res
 .
-gmpAddons
+addons
 [
 i
 ]
@@ -3388,7 +3388,7 @@ ok
 !
 res
 .
-gmpAddons
+addons
 [
 i
 ]
@@ -3710,7 +3710,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 1
@@ -3721,7 +3721,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 0
 ]
@@ -4201,7 +4201,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 1
@@ -4212,7 +4212,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 0
 ]
@@ -5162,7 +5162,7 @@ equal
 (
 res
 .
-gmpAddons
+addons
 .
 length
 1
@@ -5173,7 +5173,7 @@ gmpAddon
 =
 res
 .
-gmpAddons
+addons
 [
 0
 ]

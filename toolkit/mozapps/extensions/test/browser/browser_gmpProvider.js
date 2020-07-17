@@ -246,7 +246,7 @@ resolve
 usedFallback
 :
 true
-gmpAddons
+addons
 :
 gMockAddons
 }
