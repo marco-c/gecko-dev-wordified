@@ -228,12 +228,11 @@ once
 )
 &
 &
-!
 hasMethod
 (
 emitter
 "
-decorate
+count
 "
 )
 &
@@ -243,7 +242,7 @@ hasMethod
 (
 emitter
 "
-count
+decorate
 "
 )
 Event
