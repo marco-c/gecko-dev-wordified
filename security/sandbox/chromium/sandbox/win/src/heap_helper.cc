@@ -510,10 +510,7 @@ base
 win
 :
 :
-Version
-:
-:
-WIN10
+VERSION_WIN10
 )
 {
 /

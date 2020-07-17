@@ -303,10 +303,7 @@ policy
 >
 AddRule
 (
-IpcTag
-:
-:
-CREATENAMEDPIPEW
+IPC_CREATENAMEDPIPEW_TAG
 &
 pipe
 )
@@ -333,10 +330,10 @@ ClientInfo
 &
 client_info
 const
-std
+base
 :
 :
-wstring
+string16
 &
 name
 DWORD

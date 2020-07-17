@@ -186,6 +186,18 @@ public
 :
 /
 /
+Controller
+(
+)
+:
+weak_factory_
+(
+this
+)
+{
+}
+/
+/
 void
 SpawnWorker
 (
@@ -271,9 +283,6 @@ WeakPtrFactory
 Controller
 >
 weak_factory_
-{
-this
-}
 ;
 /
 /
@@ -939,7 +948,6 @@ WeakReference
 &
 other
 )
-noexcept
 ;
 WeakReference
 (
@@ -959,7 +967,6 @@ WeakReference
 &
 other
 )
-noexcept
 =
 default
 ;
@@ -1043,6 +1050,7 @@ Invalidate
 ;
 private
 :
+mutable
 scoped_refptr
 <
 WeakReference
@@ -1148,7 +1156,6 @@ WeakPtrBase
 &
 other
 )
-noexcept
 =
 default
 ;
@@ -1175,7 +1182,6 @@ WeakPtrBase
 &
 other
 )
-noexcept
 =
 default
 ;
@@ -1796,7 +1802,6 @@ U
 &
 other
 )
-noexcept
 :
 WeakPtrBase
 (

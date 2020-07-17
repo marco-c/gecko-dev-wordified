@@ -88,10 +88,10 @@ void
 InitObjectAttribs
 (
 const
-std
+base
 :
 :
-wstring
+string16
 &
 name
 ULONG
