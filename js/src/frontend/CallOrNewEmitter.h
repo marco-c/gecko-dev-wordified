@@ -2575,6 +2575,8 @@ prepareForElemCallee
 (
 bool
 isSuperElem
+bool
+isPrivateElem
 )
 ;
 MOZ_MUST_USE
