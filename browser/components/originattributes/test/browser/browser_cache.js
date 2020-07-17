@@ -274,6 +274,11 @@ sharedworker
 .
 js
 "
+"
+font
+.
+woff
+"
 ]
 ;
 /
