@@ -255,6 +255,11 @@ GetFileForFileInfo
 )
 const
 ;
+void
+LockedAddRef
+(
+)
+;
 bool
 LockedClearDBRefs
 (
