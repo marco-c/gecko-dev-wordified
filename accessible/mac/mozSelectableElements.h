@@ -247,7 +247,7 @@ override
 (
 BOOL
 )
-moxIgnoreChild
+ignoreChild
 :
 (
 mozAccessible

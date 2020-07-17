@@ -220,7 +220,7 @@ mParent
 NSArray
 *
 )
-moxUnignoredChildren
+moxChildren
 {
 if
 (
@@ -1069,13 +1069,13 @@ mColContainers
 NSArray
 *
 )
-moxUnignoredChildren
+moxChildren
 {
 return
 [
 [
 super
-moxUnignoredChildren
+moxChildren
 ]
 arrayByAddingObjectsFromArray
 :
