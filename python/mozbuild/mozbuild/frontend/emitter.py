@@ -11207,8 +11207,7 @@ is
 True
 :
             
-clangcl
-=
+if
 context
 .
 config
@@ -11218,13 +11217,16 @@ substs
 get
 (
 '
-CLANG_CL
+CC_TYPE
 '
 )
-            
-if
-not
-clangcl
+!
+=
+'
+clang
+-
+cl
+'
 :
                 
 raise
@@ -11250,11 +11252,18 @@ AS
 '
 ]
 =
+context
+.
+config
+.
+substs
+.
+get
+(
 '
-clang
--
-cl
+CC
 '
+)
             
 passthru
 .
@@ -11283,30 +11292,6 @@ ASOUTOPTION
 -
 o
 '
-            
-computed_as_flags
-.
-resolve_flags
-(
-'
-OS
-'
-                                            
-context
-.
-config
-.
-substs
-.
-get
-(
-'
-CLANGCL_ASFLAGS
-'
-[
-]
-)
-)
         
 if
 passthru
