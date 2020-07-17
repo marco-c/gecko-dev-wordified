@@ -35399,6 +35399,15 @@ setNoScriptRval
 true
 )
 ;
+options
+.
+setIntroductionType
+(
+"
+domTimer
+"
+)
+;
 JS
 :
 :
