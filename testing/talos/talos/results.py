@@ -2487,10 +2487,7 @@ value
 =
 int
 (
-float
-(
 value
-)
 )
             
 except
