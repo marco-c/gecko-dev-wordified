@@ -1238,7 +1238,7 @@ transferredSize
 totalTime
 "
 :
-27
+0
 }
 }
 )
@@ -1786,7 +1786,7 @@ transferredSize
 totalTime
 "
 :
-8
+0
 }
 }
 )
