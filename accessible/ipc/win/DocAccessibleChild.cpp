@@ -1096,6 +1096,10 @@ const
 int32_t
 &
 aOffset
+const
+bool
+&
+aIsSelectionCollapsed
 )
 {
 return
@@ -1107,6 +1111,7 @@ GetCaretRectFor
 aID
 )
 aOffset
+aIsSelectionCollapsed
 )
 ;
 }
@@ -1128,6 +1133,10 @@ const
 int32_t
 &
 aOffset
+const
+bool
+&
+aIsSelectionCollapsed
 )
 {
 if
@@ -1146,6 +1155,7 @@ SendCaretMoveEvent
 aID
 aCaretRect
 aOffset
+aIsSelectionCollapsed
 )
 ;
 }
@@ -1160,6 +1170,7 @@ this
 aID
 aCaretRect
 aOffset
+aIsSelectionCollapsed
 )
 )
 ;

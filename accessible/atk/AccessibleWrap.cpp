@@ -8265,6 +8265,8 @@ ProxyAccessible
 aTarget
 int32_t
 aOffset
+bool
+aIsSelectionCollapsed
 )
 {
 AtkObject
