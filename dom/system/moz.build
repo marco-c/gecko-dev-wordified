@@ -535,6 +535,11 @@ UNIFIED_SOURCES
 =
 [
 '
+IOUtils
+.
+cpp
+'
+'
 nsDeviceSensors
 .
 cpp
