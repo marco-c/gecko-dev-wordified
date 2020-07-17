@@ -1258,7 +1258,7 @@ NULL
 if
 defined
 (
-__Userspace_os_Windows
+_WIN32
 )
 #
 if
