@@ -7461,7 +7461,7 @@ Type
 :
 Shape
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -7496,7 +7496,7 @@ Type
 :
 ObjectGroup
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -7531,7 +7531,7 @@ Type
 :
 JSObject
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -7566,7 +7566,7 @@ Type
 :
 Symbol
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
@@ -7604,7 +7604,7 @@ Type
 :
 String
 :
-TraceNullableEdge
+TraceEdge
 (
 trc
 &
