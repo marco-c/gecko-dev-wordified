@@ -70,9 +70,9 @@ mozrunner
 PACKAGE_VERSION
 =
 '
-7
-.
 8
+.
+0
 .
 0
 '
@@ -147,9 +147,11 @@ mozlog
 mozprocess
 >
 =
-0
+1
 .
-23
+2
+.
+0
 <
 2
 '
