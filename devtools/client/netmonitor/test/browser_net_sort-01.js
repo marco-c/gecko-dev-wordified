@@ -231,10 +231,6 @@ some
 requests
 later
 .
-loadFrameScriptUtils
-(
-)
-;
 const
 requests
 =

@@ -434,10 +434,6 @@ undefined
 newres
 )
 ;
-loadFrameScriptUtils
-(
-)
-;
 let
 wait
 =
