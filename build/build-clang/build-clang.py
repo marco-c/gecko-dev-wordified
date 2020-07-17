@@ -2464,13 +2464,6 @@ DCMAKE_SYSTEM_VERSION
 10
 "
                 
-"
--
-DLLVM_ENABLE_THREADS
-=
-OFF
-"
-                
 #
 Xray
 requires
