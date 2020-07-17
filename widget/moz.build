@@ -674,11 +674,6 @@ nsIIdleServiceInternal
 idl
 '
 '
-nsIPaper
-.
-idl
-'
-'
 nsIPrinter
 .
 idl
@@ -820,11 +815,6 @@ h
 '
 '
 nsIWidgetListener
-.
-h
-'
-'
-nsPaper
 .
 h
 '
@@ -1116,11 +1106,6 @@ cpp
 '
 '
 nsNativeBasicTheme
-.
-cpp
-'
-'
-nsPaper
 .
 cpp
 '
