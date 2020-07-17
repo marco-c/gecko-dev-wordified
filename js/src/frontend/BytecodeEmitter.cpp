@@ -5908,7 +5908,7 @@ atom
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -5932,7 +5932,7 @@ atom
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -10833,7 +10833,7 @@ propName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -10972,7 +10972,7 @@ InitProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -11019,7 +11019,7 @@ InitProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -18872,7 +18872,7 @@ CallProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -22328,7 +22328,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -22590,7 +22590,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -23803,7 +23803,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -24852,7 +24852,7 @@ set
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -25480,7 +25480,7 @@ String
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -31727,7 +31727,7 @@ GetIntrinsic
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -31781,7 +31781,7 @@ GetIntrinsic
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -32249,7 +32249,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -32675,7 +32675,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -32860,7 +32860,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33097,7 +33097,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33176,7 +33176,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -34310,7 +34310,7 @@ isName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -37351,7 +37351,7 @@ isName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -37420,7 +37420,7 @@ emitGetName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -37665,7 +37665,7 @@ lookupName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -37685,7 +37685,7 @@ emitGetName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -38296,7 +38296,7 @@ locationOfNameBoundInFunctionScope
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -38361,7 +38361,7 @@ emitGetNameAtLocation
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -38440,7 +38440,7 @@ emitGetNameAtLocation
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -38621,7 +38621,7 @@ locationOfNameBoundInFunctionScope
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -38636,7 +38636,7 @@ emitGetNameAtLocation
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -40287,7 +40287,7 @@ CallProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -40952,7 +40952,7 @@ CallProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -41153,7 +41153,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -41352,7 +41352,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -41418,7 +41418,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -41941,7 +41941,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -42071,7 +42071,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -42380,7 +42380,7 @@ GetProp
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44454,7 +44454,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44475,7 +44475,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44496,7 +44496,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44756,7 +44756,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44797,7 +44797,7 @@ isName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44851,7 +44851,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -46350,7 +46350,7 @@ isName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49126,7 +49126,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49139,7 +49139,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49152,7 +49152,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49174,7 +49174,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49196,7 +49196,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49217,7 +49217,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49239,7 +49239,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49272,7 +49272,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49294,7 +49294,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49316,7 +49316,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49338,7 +49338,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49363,7 +49363,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49376,7 +49376,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49389,7 +49389,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49402,7 +49402,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49415,7 +49415,7 @@ calleeName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -53343,7 +53343,7 @@ fieldKeys
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -54858,7 +54858,7 @@ atom
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -55845,7 +55845,7 @@ atom
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -57202,7 +57202,7 @@ fieldKeys
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -57901,7 +57901,7 @@ emitGetName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -58130,7 +58130,7 @@ emitGetName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -58305,7 +58305,7 @@ emitGetName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -58743,7 +58743,7 @@ clearStaticFieldSlot
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -58858,7 +58858,7 @@ clearStaticFieldSlot
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -60684,7 +60684,7 @@ isName
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -62118,7 +62118,7 @@ this
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -62202,7 +62202,7 @@ this
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -62254,7 +62254,7 @@ this
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -62579,7 +62579,7 @@ atom
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -63152,7 +63152,7 @@ GetIntrinsic
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -63558,7 +63558,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
@@ -64183,7 +64183,7 @@ name
 cx
 -
 >
-names
+parserNames
 (
 )
 .
