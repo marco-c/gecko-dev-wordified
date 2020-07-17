@@ -306,6 +306,9 @@ js
 namespace
 jit
 {
+class
+WarpSnapshot
+;
 template
 <
 typename
@@ -605,6 +608,10 @@ cx
 CompilerConstraintList
 *
 constraints
+const
+WarpSnapshot
+*
+snapshot
 )
 ;
 void
