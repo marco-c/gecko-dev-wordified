@@ -6694,6 +6694,13 @@ return
 false
 ;
 }
+compilationInfo
+.
+setEnclosingScope
+(
+scope
+)
+;
 frontend
 :
 :
@@ -6702,7 +6709,6 @@ evalsc
 (
 cx
 compilationInfo
-scope
 compilationInfo
 .
 directives
