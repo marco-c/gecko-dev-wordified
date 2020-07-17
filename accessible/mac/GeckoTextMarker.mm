@@ -1282,6 +1282,16 @@ aCurrent
 i
 )
 ;
+MOZ_ASSERT
+(
+!
+link
+.
+IsNull
+(
+)
+)
+;
 linkStartOffset
 =
 StartOffset
