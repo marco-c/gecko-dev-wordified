@@ -308,7 +308,6 @@ out
 of
 how
 many
-virtual
 void
 SetPageNumInfo
 (
@@ -318,7 +317,6 @@ int32_t
 aTotalPages
 )
 ;
-virtual
 void
 SetSharedPageData
 (
