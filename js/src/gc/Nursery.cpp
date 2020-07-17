@@ -1518,12 +1518,17 @@ GCReason
 :
 NO_REASON
 )
+#
+ifndef
+JS_MORE_DETERMINISTIC
 smoothedGrowthFactor
 (
 1
 .
 0
 )
+#
+endif
 decommitTask
 (
 gc
