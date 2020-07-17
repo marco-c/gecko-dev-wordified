@@ -689,7 +689,7 @@ override
 protected
 :
 const
-nsACString
+nsAString
 &
 GetRemoteType
 (

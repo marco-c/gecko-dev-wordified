@@ -852,7 +852,7 @@ JSProcessActorProtocol
 RemoteTypePrefixMatches
 (
 const
-nsDependentCSubstring
+nsDependentSubstring
 &
 aRemoteType
 )
@@ -891,7 +891,7 @@ JSProcessActorProtocol
 Matches
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )

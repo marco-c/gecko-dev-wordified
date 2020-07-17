@@ -1022,9 +1022,11 @@ GetRemoteType
 ;
 return
 remoteType
-=
-=
+.
+EqualsLiteral
+(
 EXTENSION_REMOTE_TYPE
+)
 ;
 }
 return

@@ -339,7 +339,7 @@ hang
 /
 readonly
 attribute
-AUTF8String
+AString
 remoteType
 ;
 /

@@ -442,7 +442,7 @@ nsIURI
 *
 aURI
 const
-nsACString
+nsAString
 &
 aRemoteType
 )
@@ -477,7 +477,7 @@ bool
 RemoteTypePrefixMatches
 (
 const
-nsDependentCSubstring
+nsDependentSubstring
 &
 aRemoteType
 )
@@ -518,7 +518,7 @@ mMatches
 ;
 nsTArray
 <
-nsCString
+nsString
 >
 mRemoteTypes
 ;

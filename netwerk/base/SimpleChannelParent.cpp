@@ -335,7 +335,7 @@ SimpleChannelParent
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 )
