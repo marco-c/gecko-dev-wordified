@@ -293,10 +293,7 @@ crate
 prim_store
 :
 :
-{
 VECS_PER_SEGMENT
-SpaceMapper
-}
 ;
 use
 crate
@@ -378,6 +375,15 @@ GlyphFetchResult
 ImageRequest
 ResourceCache
 }
+;
+use
+crate
+:
+:
+space
+:
+:
+SpaceMapper
 ;
 use
 crate

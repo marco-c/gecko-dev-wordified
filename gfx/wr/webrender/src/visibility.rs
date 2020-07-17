@@ -237,7 +237,6 @@ prim_store
 {
 ClipTaskIndex
 PictureIndex
-SpaceMapper
 PrimitiveInstanceKind
 }
 ;
@@ -249,7 +248,6 @@ prim_store
 :
 :
 {
-SpaceSnapper
 PrimitiveStore
 PrimitiveInstance
 }
@@ -308,6 +306,18 @@ scene
 :
 :
 SceneProperties
+;
+use
+crate
+:
+:
+space
+:
+:
+{
+SpaceMapper
+SpaceSnapper
+}
 ;
 use
 crate
