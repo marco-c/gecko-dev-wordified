@@ -1019,7 +1019,7 @@ new
 DeferredTask
 (
 task
-this
+SearchCache
 .
 CACHE_INVALIDATION_DELAY
 )
