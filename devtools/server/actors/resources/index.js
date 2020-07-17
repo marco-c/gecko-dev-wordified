@@ -336,7 +336,7 @@ worker
 *
 -
 exposes
-onResourceAvailable
+notifyResourceAvailable
 method
 to
 be
@@ -464,7 +464,7 @@ onAvailable
 :
 targetActor
 .
-onResourceAvailable
+notifyResourceAvailable
 }
 )
 ;
