@@ -4550,11 +4550,6 @@ UseHardwareVideoDecoding
 )
 {
 return
-IsWaylandDisplay
-(
-)
-&
-&
 gfxPlatform
 :
 :
