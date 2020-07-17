@@ -2,6 +2,12 @@ import
 random
 import
 time
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 "
 "
 "
@@ -27,9 +33,11 @@ GET
 .
 first
 (
+b
 "
 inlineOrExternal
 "
+b
 "
 null
 "
@@ -43,15 +51,18 @@ GET
 .
 first
 (
+b
 "
 hasBlockingStylesheet
 "
+b
 "
 true
 "
 )
 =
 =
+b
 "
 true
 "
@@ -64,9 +75,11 @@ GET
 .
 first
 (
+b
 "
 result
 "
+b
 "
 success
 "
@@ -74,6 +87,7 @@ success
   
 type
 =
+u
 "
 text
 /
@@ -86,19 +100,23 @@ GET
 .
 first
 (
+b
 "
 type
 "
+b
 "
 classic
 "
 )
 =
 =
+b
 "
 classic
 "
 else
+u
 "
 module
 "
@@ -109,11 +127,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -133,11 +153,13 @@ headers
 .
 set
 (
+b
 "
 Transfer
 -
 Encoding
 "
+b
 "
 chunked
 "
@@ -159,6 +181,7 @@ parsing
   
 body
 =
+u
 "
 "
 "
@@ -205,6 +228,7 @@ hasBlockingStylesheet
 body
 +
 =
+u
 "
 "
 "
@@ -251,6 +275,7 @@ random
 body
 +
 =
+u
 "
 "
 "
@@ -272,6 +297,7 @@ if
 inlineOrExternal
 =
 =
+b
 "
 inline
 "
@@ -279,6 +305,7 @@ or
 inlineOrExternal
 =
 =
+b
 "
 external
 "
@@ -286,16 +313,18 @@ or
 inlineOrExternal
 =
 =
+b
 "
 empty
 -
 src
 "
 :
-    
+        
 body
 +
 =
+u
 "
 "
 "
@@ -318,6 +347,7 @@ processing
 body
 +
 =
+u
 "
 A
 "
@@ -330,6 +360,7 @@ writer
 .
 write
 (
+u
 "
 %
 x
@@ -360,6 +391,7 @@ writer
 .
 write
 (
+u
 "
 \
 r
@@ -378,6 +410,7 @@ flush
   
 body
 =
+u
 "
 "
   
@@ -385,6 +418,7 @@ if
 inlineOrExternal
 =
 =
+b
 "
 inline
 "
@@ -400,6 +434,7 @@ sleep
 body
 +
 =
+u
 "
 "
 "
@@ -475,14 +510,13 @@ executed
 "
 "
 %
-(
 type
-)
     
 if
 result
 =
 =
+b
 "
 parse
 -
@@ -493,6 +527,7 @@ error
 body
 +
 =
+u
 "
 1
 =
@@ -506,6 +541,7 @@ n
 body
 +
 =
+u
 "
 "
 "
@@ -530,6 +566,7 @@ elif
 inlineOrExternal
 =
 =
+b
 "
 external
 "
@@ -545,6 +582,7 @@ sleep
 body
 +
 =
+u
 "
 "
 "
@@ -620,7 +658,10 @@ element
 %
 (
 type
+isomorphic_decode
+(
 result
+)
 random
 .
 random
@@ -632,6 +673,7 @@ elif
 inlineOrExternal
 =
 =
+b
 "
 empty
 -
@@ -649,6 +691,7 @@ sleep
 body
 +
 =
+u
 "
 "
 "
@@ -742,6 +785,7 @@ processing
 body
 +
 =
+u
 "
 B
 "
@@ -754,6 +798,7 @@ writer
 .
 write
 (
+u
 "
 %
 x
@@ -784,6 +829,7 @@ writer
 .
 write
 (
+u
 "
 \
 r
@@ -798,6 +844,7 @@ writer
 .
 write
 (
+u
 "
 0
 \
@@ -813,6 +860,7 @@ writer
 .
 write
 (
+u
 "
 \
 r
