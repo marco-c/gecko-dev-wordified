@@ -141,6 +141,9 @@ end
 loc
 "
 "
+errors
+"
+"
 program
 "
 "
