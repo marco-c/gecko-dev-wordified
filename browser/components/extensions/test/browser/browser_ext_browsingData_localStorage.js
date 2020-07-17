@@ -418,7 +418,7 @@ SpecialPowers
 .
 Services
 .
-domStorageManager
+lsm
 .
 nextGenLocalStorageEnabled
 =
