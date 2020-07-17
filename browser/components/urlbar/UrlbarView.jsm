@@ -7174,7 +7174,6 @@ payload
 .
 tailOffsetIndex
 >
-=
 0
 )
 {
