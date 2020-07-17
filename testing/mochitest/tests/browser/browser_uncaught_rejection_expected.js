@@ -63,7 +63,7 @@ this
 ;
 PromiseTestUtils
 .
-allowRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Allowed
