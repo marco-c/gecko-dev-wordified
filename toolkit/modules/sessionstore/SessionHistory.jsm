@@ -3837,6 +3837,8 @@ i
 ]
 idMap
 childDocIdents
+shEntry
+.
 shistory
 )
 i

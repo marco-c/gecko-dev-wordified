@@ -1386,9 +1386,9 @@ to
 *
 /
 [
-noscript
 infallible
 ]
+readonly
 attribute
 nsISHistory
 shistory

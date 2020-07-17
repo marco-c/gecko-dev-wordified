@@ -4144,9 +4144,6 @@ GetShistory
 if
 (
 shistoryOfEntry
-&
-&
-shistoryOfEntry
 !
 =
 this
@@ -4200,14 +4197,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aSHEntry
--
->
-SetShistory
-(
-this
-)
-;
 /
 /
 If
@@ -5381,9 +5370,6 @@ GetShistory
 if
 (
 shistoryOfEntry
-&
-&
-shistoryOfEntry
 !
 =
 this
@@ -5437,14 +5423,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-aReplaceEntry
--
->
-SetShistory
-(
-this
-)
-;
 NOTIFY_LISTENERS
 (
 OnHistoryReplaceEntry
@@ -10652,6 +10630,7 @@ entry
 new
 nsSHEntry
 (
+this
 )
 ;
 entry
