@@ -89,7 +89,7 @@ subprocess_based_service
 from
 mozdevice
 import
-ADBDeviceFactory
+ADBDevice
 ADBError
 from
 condprof
@@ -538,7 +538,7 @@ be
 /
 sdcard
 /
-test_root
+tests
             
 #
 for
@@ -556,7 +556,7 @@ self
 .
 device
 =
-ADBDeviceFactory
+ADBDevice
 (
                 
 verbose
@@ -575,7 +575,7 @@ test_root
 /
 sdcard
 /
-test_root
+tests
 "
             
 )
@@ -792,6 +792,19 @@ remote_test_root
         
 device
 .
+chmod
+(
+remote_test_root
+recursive
+=
+True
+root
+=
+True
+)
+        
+device
+.
 rm
 (
 remote_profile
@@ -835,6 +848,9 @@ chmod
 (
 remote_profile
 recursive
+=
+True
+root
 =
 True
 )
@@ -1032,6 +1048,9 @@ chmod
 (
 yml_on_device
 recursive
+=
+True
+root
 =
 True
 )
@@ -1412,6 +1431,9 @@ stop_application
 self
 .
 app_name
+root
+=
+True
 )
         
 except
@@ -1506,6 +1528,9 @@ pkill
 self
 .
 app_name
+root
+=
+True
 )
                 
 except

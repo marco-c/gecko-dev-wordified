@@ -73,7 +73,7 @@ PACKAGE_VERSION
 .
 1
 .
-2
+1
 '
 deps
 =
@@ -90,13 +90,13 @@ mozlog
 mozdevice
 >
 =
-4
+3
 .
 0
 .
-0
+2
 <
-5
+4
 '
 ]
 setup

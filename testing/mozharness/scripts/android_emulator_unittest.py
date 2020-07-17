@@ -936,6 +936,12 @@ avds
 '
                          
 '
+start
+-
+emulator
+'
+                         
+'
 download
 -
 and
@@ -947,12 +953,6 @@ extract
 create
 -
 virtualenv
-'
-                         
-'
-start
--
-emulator
 '
                          
 '

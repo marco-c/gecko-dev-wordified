@@ -431,6 +431,9 @@ rm
 self
 .
 remoteLog
+root
+=
+True
 )
             
 self
@@ -1627,6 +1630,9 @@ stop_application
 self
 .
 appName
+root
+=
+True
 )
         
 self
@@ -2119,7 +2125,7 @@ self
 .
 log
 .
-exception
+info
 (
 "
 remoteautomation
@@ -2872,6 +2878,9 @@ is_file
 self
 .
 remoteLog
+root
+=
+True
 )
 :
             
@@ -2897,6 +2906,9 @@ is_file
 self
 .
 remoteLog
+root
+=
+True
 )
 :
             
@@ -2933,6 +2945,9 @@ mask
 "
 666
 "
+root
+=
+True
 )
         
 else
@@ -3392,6 +3407,9 @@ sig
 attempts
 =
 1
+root
+=
+True
 )
             
 except
@@ -3449,6 +3467,9 @@ sig
 attempts
 =
 1
+root
+=
+True
 )
             
 except
@@ -3565,6 +3586,9 @@ sig
 attempts
 =
 1
+root
+=
+True
 )
                 
 except
@@ -3723,6 +3747,9 @@ device
 pkill
 (
 crashreporter
+root
+=
+True
 )
             
 except

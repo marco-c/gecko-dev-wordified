@@ -89,7 +89,7 @@ urlopen
 from
 mozdevice
 import
-ADBDeviceFactory
+ADBDevice
 ADBTimeoutError
 from
 remoteautomation
@@ -1509,10 +1509,6 @@ False
 if
 options
 .
-log_mach_verbose
-or
-options
-.
 log_tbpl_level
 =
 =
@@ -1520,20 +1516,9 @@ log_tbpl_level
 debug
 '
 or
-\
-           
 options
 .
 log_mach_level
-=
-=
-'
-debug
-'
-or
-options
-.
-log_raw_level
 =
 =
 '
@@ -1554,28 +1539,11 @@ verbose
 "
 )
         
-expected
-=
-options
-.
-app
-.
-split
-(
-'
-/
-'
-)
-[
--
-1
-]
-        
 self
 .
 device
 =
-ADBDeviceFactory
+ADBDevice
 (
 adb
 =
@@ -1586,26 +1554,22 @@ or
 '
 adb
 '
-                                       
+                                
 device
 =
 options
 .
 deviceSerial
-                                       
+                                
 test_root
 =
 options
 .
 remoteTestRoot
-                                       
+                                
 verbose
 =
 verbose
-                                       
-run_as_package
-=
-expected
 )
         
 if
@@ -2013,14 +1977,6 @@ self
 .
 device
 .
-run_as_package
-=
-expected
-        
-self
-.
-device
-.
 clear_logcat
 (
 )
@@ -2038,6 +1994,9 @@ force
 =
 True
 recursive
+=
+True
+root
 =
 True
 )
@@ -3045,6 +3004,9 @@ remoteTestRoot
 recursive
 =
 True
+root
+=
+True
 )
         
 except
@@ -3591,6 +3553,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -3608,6 +3573,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -3623,6 +3591,9 @@ force
 =
 True
 recursive
+=
+True
+root
 =
 True
 )

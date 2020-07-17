@@ -57,10 +57,6 @@ from
 __future__
 import
 absolute_import
-from
-mozdevice
-import
-ADBError
 def
 tune_performance
 (
@@ -216,7 +212,13 @@ self
 .
 device
 .
-is_rooted
+_have_su
+or
+self
+.
+device
+.
+_have_android_su
 :
             
 device_name
@@ -325,6 +327,9 @@ _set_value_and_check_exitcode
 self
 file_name
 value
+root
+=
+False
 )
 :
         
@@ -350,14 +355,12 @@ value
 )
 )
         
-try
-:
-            
+if
 self
 .
 device
 .
-shell_output
+shell_bool
 (
 '
 '
@@ -381,13 +384,17 @@ file_name
 )
 ]
 )
-                                     
+                                  
+root
+=
+root
 timeout
 =
 self
 .
 timeout
 )
+:
             
 self
 .
@@ -412,41 +419,19 @@ value
 )
 )
         
-except
-ADBError
-as
-e
+else
 :
             
 self
 .
 log
 .
-info
+warning
 (
-"
-Ignoring
-failure
-to
-set
-value
-{
-}
-to
-{
-}
-.
-{
-}
-"
-.
-format
-(
-                
-file_name
-value
-e
-)
+'
+command
+failed
+'
 )
     
 def
@@ -571,9 +556,6 @@ in
 services
 :
             
-try
-:
-                
 self
 .
 log
@@ -596,7 +578,7 @@ service
 ]
 )
 )
-                
+            
 self
 .
 device
@@ -615,55 +597,14 @@ stop
 service
 ]
 )
-                                       
+root
+=
+True
 timeout
 =
 self
 .
 timeout
-)
-            
-except
-ADBError
-as
-e
-:
-                
-self
-.
-log
-.
-info
-(
-"
-Ignoring
-failure
-to
-stop
-service
-{
-}
-.
-Error
-:
-{
-}
-:
-{
-}
-"
-.
-format
-(
-                    
-service
-e
-.
-__class__
-.
-__name__
-e
-)
 )
         
 services_list_output
@@ -1060,6 +1001,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
@@ -1451,6 +1395,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
@@ -1950,6 +1897,9 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
     
 def
@@ -2096,4 +2046,7 @@ _set_value_and_check_exitcode
 (
 key
 value
+root
+=
+True
 )
