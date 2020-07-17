@@ -85,6 +85,7 @@ SELECT_ACTION_BAR_TAB
 TOGGLE_COLUMN
 WATERFALL_RESIZE
 SET_COLUMNS_WIDTH
+SET_HEADERS_URL_PREVIEW_EXPANDED
 OPEN_ACTION_BAR
 }
 =
@@ -967,6 +968,21 @@ statisticsOpen
 )
 ;
 }
+function
+setHeadersUrlPreviewExpanded
+(
+expanded
+)
+{
+return
+{
+type
+:
+SET_HEADERS_URL_PREVIEW_EXPANDED
+expanded
+}
+;
+}
 module
 .
 exports
@@ -989,5 +1005,6 @@ toggleNetworkActionBar
 togglePersistentLogs
 toggleBrowserCache
 toggleStatistics
+setHeadersUrlPreviewExpanded
 }
 ;
