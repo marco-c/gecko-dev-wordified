@@ -320,7 +320,7 @@ content
 .
 browsingContext
 .
-id
+browserId
 )
 ;
 const

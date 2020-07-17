@@ -457,7 +457,7 @@ instantiateTarget
 {
 watcherActorID
 connectionPrefix
-browsingContextID
+browserId
 watchedResources
 }
 )
@@ -479,7 +479,7 @@ available
 {
 watcherActorID
 connectionPrefix
-browsingContextID
+browserId
 watchedResources
 }
 )
@@ -489,7 +489,7 @@ destroyTarget
 (
 {
 watcherActorID
-browsingContextID
+browserId
 }
 )
 {
@@ -505,7 +505,7 @@ destroy
 "
 {
 watcherActorID
-browsingContextID
+browserId
 }
 )
 ;
@@ -543,7 +543,7 @@ watchFrameResources
 (
 {
 watcherActorID
-browsingContextID
+browserId
 resourceTypes
 }
 )
@@ -560,7 +560,7 @@ watchResources
 "
 {
 watcherActorID
-browsingContextID
+browserId
 resourceTypes
 }
 )
@@ -570,7 +570,7 @@ unwatchFrameResources
 (
 {
 watcherActorID
-browsingContextID
+browserId
 resourceTypes
 }
 )
@@ -587,7 +587,7 @@ unwatchResources
 "
 {
 watcherActorID
-browsingContextID
+browserId
 resourceTypes
 }
 )
