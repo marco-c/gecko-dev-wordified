@@ -814,6 +814,15 @@ id
 )
 moxFocusedUIElement
 ;
+-
+(
+id
+<
+MOXTextMarkerSupport
+>
+)
+moxTextMarkerDelegate
+;
 /
 /
 Attribute
