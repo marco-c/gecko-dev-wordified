@@ -620,14 +620,6 @@ unsafeUnbarrieredForTracing
 )
 ;
 }
-bool
-IsAboutToBeFinalizedDuringSweep
-(
-TenuredCell
-&
-tenured
-)
-;
 inline
 bool
 IsAboutToBeFinalizedDuringMinorSweep
