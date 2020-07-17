@@ -639,6 +639,11 @@ _
 (
 ScriptStats
 )
+\
+_
+(
+RateMyCacheIR
+)
 /
 /
 Structured
