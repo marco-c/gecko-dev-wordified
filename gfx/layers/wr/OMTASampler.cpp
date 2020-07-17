@@ -318,7 +318,7 @@ const
 wr
 :
 :
-WindowId
+WrWindowId
 &
 aWindowId
 )
@@ -1165,7 +1165,7 @@ uint64_t
 wr
 :
 :
-Epoch
+WrEpoch
 >
 &
 aActiveAnimations
@@ -1233,7 +1233,7 @@ uint64_t
 wr
 :
 :
-Epoch
+WrEpoch
 >
 &
 aActiveAnimations
@@ -1241,7 +1241,7 @@ const
 wr
 :
 :
-Epoch
+WrEpoch
 &
 aRenderedEpoch
 )
