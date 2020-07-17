@@ -144,6 +144,17 @@ mozilla
 /
 dom
 /
+RootedDictionary
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SubtleCryptoBinding
 .
 h

@@ -204,6 +204,17 @@ include
 "
 mozilla
 /
+dom
+/
+RootedDictionary
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MediaManager
 .
 h

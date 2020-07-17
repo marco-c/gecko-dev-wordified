@@ -360,6 +360,17 @@ mozilla
 /
 dom
 /
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Link
 .
 h

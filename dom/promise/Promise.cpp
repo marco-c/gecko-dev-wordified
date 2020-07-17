@@ -250,6 +250,17 @@ mozilla
 /
 dom
 /
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaStreamError
 .
 h

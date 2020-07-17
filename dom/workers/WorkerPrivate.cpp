@@ -296,6 +296,17 @@ mozilla
 /
 dom
 /
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FunctionBinding
 .
 h

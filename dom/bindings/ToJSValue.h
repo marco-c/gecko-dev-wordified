@@ -156,6 +156,17 @@ mozilla
 /
 dom
 /
+CallbackObject
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 NonRefcountedDOMObject
 .
 h

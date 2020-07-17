@@ -466,6 +466,17 @@ mozilla
 /
 dom
 /
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 IndexedDatabaseManager
 .
 h

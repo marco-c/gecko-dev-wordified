@@ -243,6 +243,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+RootedDictionary
+.
+h
+"
+#
+include
+"
 js
 /
 Promise
