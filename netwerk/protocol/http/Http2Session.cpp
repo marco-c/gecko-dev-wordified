@@ -686,6 +686,10 @@ mOriginFrameActivated
 (
 false
 )
+mCntActivated
+(
+0
+)
 mTlsHandshakeFinished
 (
 false
@@ -1210,7 +1214,7 @@ Accumulate
 Telemetry
 :
 :
-SPDY_REQUEST_PER_CONN_2
+SPDY_REQUEST_PER_CONN_3
 mCntActivated
 )
 ;
