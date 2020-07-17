@@ -208,7 +208,6 @@ log
 .
 debug
 (
-            
 "
 file
 =
@@ -234,15 +233,13 @@ diff2
 .
 format
 (
-                
+            
 file
 line_no
 col
 diff
 diff2
-            
 )
-        
 )
         
 d
@@ -566,11 +563,11 @@ substs
 .
 get
 (
-"
+'
 BIN_SUFFIX
-"
-"
-"
+'
+'
+'
 )
 )
 def
@@ -599,9 +596,9 @@ startswith
 (
 topsrcdir
 +
-"
+'
 /
-"
+'
 )
 :
         
@@ -613,9 +610,9 @@ len
 (
 topsrcdir
 +
-"
+'
 /
-"
+'
 )
 :
 ]
@@ -653,14 +650,14 @@ path
 join
 (
 topsrcdir
-"
+'
 .
 clang
 -
 format
 -
 ignore
-"
+'
 )
     
 ignored_dir
@@ -672,9 +669,9 @@ with
 open
 (
 path_to_third_party
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -715,9 +712,9 @@ line
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 or
 len
@@ -775,16 +772,16 @@ regexp
     
 ignored_dir_re
 =
-"
+'
 (
 %
 s
 )
-"
+'
 %
-"
+'
 |
-"
+'
 .
 join
 (
@@ -873,9 +870,9 @@ log
 =
 lintargs
 [
-"
+'
 log
-"
+'
 ]
     
 paths
@@ -888,9 +885,9 @@ paths
 config
 lintargs
 [
-"
+'
 root
-"
+'
 ]
 )
 )
@@ -921,9 +918,9 @@ lintargs
 .
 get
 (
-"
+'
 use_filters
-"
+'
 True
 )
 :
@@ -935,9 +932,9 @@ remove_ignored_path
 paths
 lintargs
 [
-"
+'
 root
-"
+'
 ]
 log
 )
@@ -1076,8 +1073,8 @@ Command
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (
@@ -1114,7 +1111,6 @@ output
 raise
 Exception
 (
-            
 "
 clang
 -
@@ -1134,7 +1130,6 @@ s
 "
 %
 output
-        
 )
     
 for

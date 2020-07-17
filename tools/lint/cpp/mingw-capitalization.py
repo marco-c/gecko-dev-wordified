@@ -89,13 +89,13 @@ path
 join
 (
 here
-"
+'
 mingw
 -
 headers
 .
 txt
-"
+'
 )
 #
 generated
@@ -174,9 +174,9 @@ with
 open
 (
 HEADERS_FILE
-"
+'
 r
-"
+'
 )
 as
 fh

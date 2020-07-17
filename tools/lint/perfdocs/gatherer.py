@@ -111,9 +111,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Gatherer
 produces
@@ -142,9 +142,9 @@ the
 Verifier
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -155,9 +155,9 @@ workspace_dir
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Initialzie
 the
@@ -188,9 +188,9 @@ gecko
 checkout
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -234,9 +234,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Returns
 the
@@ -278,9 +278,9 @@ data
 structure
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -314,9 +314,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Creates
 the
@@ -403,9 +403,9 @@ perfdocs_tree
 attribute
 .
         
-"
-"
-"
+'
+'
+'
         
 for
 dirpath
@@ -435,10 +435,10 @@ dirpath
 .
 endswith
 (
-"
+'
 /
 perfdocs
-"
+'
 )
 :
                 
@@ -617,7 +617,6 @@ logger
 .
 log
 (
-            
 "
 Found
 {
@@ -628,10 +627,10 @@ in
 {
 }
 "
+                   
 .
 format
 (
-                
 len
 (
 self
@@ -641,9 +640,7 @@ _perfdocs_tree
 self
 .
 root_dir
-            
 )
-        
 )
     
 def
@@ -654,9 +651,9 @@ sdt_entry
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Use
 a
@@ -725,9 +722,9 @@ framework
         
 }
         
-"
-"
-"
+'
+'
+'
         
 #
 If
@@ -754,9 +751,9 @@ path
 ]
 sdt_entry
 [
-"
+'
 yml
-"
+'
 ]
 )
         
@@ -771,9 +768,9 @@ _test_list
 if
 entry
 [
-"
+'
 yml_path
-"
+'
 ]
 =
 =
@@ -803,21 +800,21 @@ framework
 =
 {
             
-"
+'
 yml_content
-"
+'
 :
 yaml_content
             
-"
+'
 yml_path
-"
+'
 :
 yaml_path
             
-"
+'
 name
-"
+'
 :
 yaml_content
 [
@@ -866,6 +863,7 @@ framework
 yml_path
 "
 ]
+            
 self
 .
 workspace_dir
@@ -883,14 +881,12 @@ self
 .
 framework_gatherers
 [
-            
 framework
 [
 "
 name
 "
 ]
-        
 ]
 .
 get_test_list

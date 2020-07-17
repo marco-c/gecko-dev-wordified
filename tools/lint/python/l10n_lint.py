@@ -110,11 +110,11 @@ TOMLParser
 ProjectFiles
 LOCALE
 =
-"
+'
 gecko
 -
 strings
-"
+'
 PULL_AFTER
 =
 timedelta
@@ -146,9 +146,9 @@ root
 =
 lintargs
 [
-"
+'
 root
-"
+'
 ]
     
 exclude
@@ -157,9 +157,9 @@ lintconfig
 .
 get
 (
-"
+'
 exclude
-"
+'
 )
     
 extensions
@@ -168,9 +168,9 @@ lintconfig
 .
 get
 (
-"
+'
 extensions
-"
+'
 )
     
 #
@@ -249,9 +249,9 @@ files
 if
 lintconfig
 [
-"
+'
 path
-"
+'
 ]
 in
 paths
@@ -272,9 +272,9 @@ remove
 (
 lintconfig
 [
-"
+'
 path
-"
+'
 ]
 )
     
@@ -396,24 +396,21 @@ filterpaths
         
 lintargs
 [
-"
+'
 root
-"
+'
 ]
-        
 all_files
-        
 lintconfig
 [
-"
+'
 include
-"
+'
 ]
         
 exclude
 =
 exclude
-        
 extensions
 =
 extensions
@@ -462,9 +459,9 @@ lintconfig
             
 level
 =
-"
+'
 warning
-"
+'
             
 path
 =
@@ -482,7 +479,7 @@ compare
 -
 locales
 "
-        
+            
 )
         
 for
@@ -572,13 +569,13 @@ mozpath
 join
 (
 gs
-"
+'
 .
 hg
-"
-"
+'
+'
 l10n_pull_marker
-"
+'
 )
     
 try
@@ -632,9 +629,9 @@ mozversioncontrol
 .
 get_tool_path
 (
-"
+'
 hg
-"
+'
 )
     
 mozversioncontrol
@@ -645,7 +642,8 @@ update_mercurial_repo
 (
         
 hg
-"
+        
+'
 https
 :
 /
@@ -661,7 +659,8 @@ l10n
 gecko
 -
 strings
-"
+'
+        
 gs
     
 )
@@ -670,9 +669,9 @@ with
 open
 (
 marker
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -692,9 +691,9 @@ l10n_base
 )
 :
     
-"
-"
-"
+'
+'
+'
 Load
 l10n
 configuration
@@ -705,9 +704,9 @@ the
 linter
 configuration
 .
-"
-"
-"
+'
+'
+'
     
 configs
 =
@@ -717,11 +716,13 @@ configs
 env
 =
 {
-"
+        
+'
 l10n_base
-"
+'
 :
 l10n_base
+    
 }
     
 for
@@ -729,9 +730,9 @@ toml
 in
 lintconfig
 [
-"
+'
 l10n_configs
-"
+'
 ]
 :
         
@@ -751,9 +752,11 @@ join
 root
 toml
 )
+            
 env
 =
 env
+            
 ignore_missing_includes
 =
 True
@@ -790,9 +793,9 @@ lintargs
 )
 :
     
-"
-"
-"
+'
+'
+'
 Check
 l10n
 .
@@ -804,9 +807,9 @@ l10n
 toml
 configs
 .
-"
-"
-"
+'
+'
+'
     
 reference_paths
 =
@@ -819,17 +822,17 @@ relpath
 (
 p
 [
-"
+'
 reference
-"
+'
 ]
 .
 prefix
 lintargs
 [
-"
+'
 root
-"
+'
 ]
 )
         
@@ -895,9 +898,9 @@ not
 in
 lintconfig
 [
-"
+'
 include
-"
+'
 ]
     
 ]
@@ -917,7 +920,6 @@ missing_in_yml
 [
         
 d
-        
 for
 d
 in
@@ -933,18 +935,18 @@ startswith
 (
 parent
 +
-"
+'
 /
-"
+'
 )
 for
 parent
 in
 lintconfig
 [
-"
+'
 include
-"
+'
 ]
 )
     
@@ -956,8 +958,8 @@ missing_in_yml
         
 dirs
 =
-"
-"
+'
+'
 .
 join
 (
@@ -966,26 +968,24 @@ missing_in_yml
         
 return
 [
-            
 result
 .
 from_config
 (
-                
+            
 lintconfig
-                
 path
 =
 lintconfig
 [
-"
+'
 path
-"
+'
 ]
-                
+            
 message
 =
-"
+'
 l10n
 .
 yml
@@ -998,12 +998,11 @@ l10n
 toml
 add
 :
-"
+'
 +
 dirs
-            
-)
         
+)
 ]
     
 return
@@ -1016,9 +1015,9 @@ L10nLinter
 )
 :
     
-"
-"
-"
+'
+'
+'
 Subclass
 linter
 to
@@ -1028,9 +1027,9 @@ right
 result
 type
 .
-"
-"
-"
+'
+'
+'
     
 def
 __init__

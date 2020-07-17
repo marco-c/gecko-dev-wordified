@@ -107,11 +107,11 @@ path
 join
 (
 here
-"
+'
 flake8_requirements
 .
 txt
-"
+'
 )
 FLAKE8_NOT_FOUND
 =
@@ -153,7 +153,6 @@ strip
 .
 format
 (
-    
 FLAKE8_REQUIREMENTS_PATH
 )
 FLAKE8_INSTALL_ERROR
@@ -199,7 +198,6 @@ strip
 .
 format
 (
-    
 FLAKE8_REQUIREMENTS_PATH
 )
 LINE_OFFSETS
@@ -216,9 +214,9 @@ for
 hanging
 indent
     
-"
+'
 E121
-"
+'
 :
 (
 -
@@ -234,9 +232,9 @@ indentation
 or
 outdented
     
-"
+'
 E122
-"
+'
 :
 (
 -
@@ -254,9 +252,9 @@ for
 hanging
 indent
     
-"
+'
 E126
-"
+'
 :
 (
 -
@@ -274,9 +272,9 @@ for
 visual
 indent
     
-"
+'
 E127
-"
+'
 :
 (
 -
@@ -294,9 +292,9 @@ for
 visual
 indent
     
-"
+'
 E128
-"
+'
 :
 (
 -
@@ -312,9 +310,9 @@ for
 hanging
 indend
     
-"
+'
 E131
-"
+'
 :
 (
 -
@@ -330,9 +328,9 @@ line
 found
 0
     
-"
+'
 E301
-"
+'
 :
 (
 -
@@ -348,9 +346,9 @@ lines
 found
 1
     
-"
+'
 E302
-"
+'
 :
 (
 -
@@ -431,9 +429,9 @@ system
 )
 =
 =
-"
+'
 Windows
-"
+'
 :
     
 bindir
@@ -447,9 +445,9 @@ join
 sys
 .
 prefix
-"
+'
 Scripts
-"
+'
 )
 else
 :
@@ -465,9 +463,9 @@ join
 sys
 .
 prefix
-"
+'
 bin
-"
+'
 )
 class
 NothingToLint
@@ -553,18 +551,18 @@ log
 =
 lintargs
 [
-"
+'
 log
-"
+'
 ]
     
 root
 =
 lintargs
 [
-"
+'
 root
-"
+'
 ]
     
 config_path
@@ -576,10 +574,10 @@ path
 join
 (
 root
-"
+'
 .
 flake8
-"
+'
 )
     
 if
@@ -587,9 +585,9 @@ lintargs
 .
 get
 (
-"
+'
 fix
-"
+'
 )
 :
         
@@ -604,34 +602,32 @@ path
 join
 (
 bindir
-"
+'
 autopep8
-"
+'
 )
             
-"
+'
 -
 -
 global
 -
 config
-"
-            
+'
 config_path
             
-"
+'
 -
 -
 in
 -
 place
-"
-            
-"
+'
+'
 -
 -
 recursive
-"
+'
         
 ]
         
@@ -640,9 +636,9 @@ config
 .
 get
 (
-"
+'
 exclude
-"
+'
 )
 :
             
@@ -651,21 +647,21 @@ fix_cmd
 extend
 (
 [
-"
+'
 -
 -
 exclude
-"
-"
-"
+'
+'
+'
 .
 join
 (
 config
 [
-"
+'
 exclude
-"
+'
 ]
 )
 ]
@@ -719,41 +715,38 @@ NamedTemporaryFile
 (
 mode
 =
-"
+'
 r
-"
+'
 )
     
 flake8_cmd
 =
 [
         
-"
+'
 -
 -
 config
-"
-        
+'
 config_path
         
-"
+'
 -
 -
 output
 -
 file
-"
-        
+'
 output_file
 .
 name
         
-"
+'
 -
 -
 format
-"
-        
+'
 '
 {
 "
@@ -777,7 +770,7 @@ row
 )
 s
 '
-        
+                    
 '
 "
 column
@@ -813,24 +806,23 @@ s
 }
 '
         
-"
+'
 -
 -
 filename
-"
-        
-"
-"
+'
+'
+'
 .
 join
 (
 [
-"
+'
 *
 .
 {
 }
-"
+'
 .
 format
 (
@@ -841,9 +833,9 @@ e
 in
 config
 [
-"
+'
 extensions
-"
+'
 ]
 ]
 )
@@ -863,8 +855,8 @@ Command
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (
@@ -982,9 +974,9 @@ config
 .
 setdefault
 (
-"
+'
 exclude
-"
+'
 [
 ]
 )
@@ -994,18 +986,18 @@ lintargs
 .
 get
 (
-"
+'
 use_filters
-"
+'
 True
 )
 :
             
 config
 [
-"
+'
 exclude
-"
+'
 ]
 .
 extend
@@ -1089,7 +1081,6 @@ necessary
 filtered
 =
 [
-            
 p
 for
 p
@@ -1110,12 +1101,11 @@ e
 in
 config
 [
-"
+'
 exclude
-"
+'
 ]
 )
-        
 ]
         
 self
@@ -1159,10 +1149,8 @@ wrap_make_file_checker_manager
 .
 __get__
 (
-        
 app
 Application
-    
 )
     
 #
@@ -1260,16 +1248,16 @@ line
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 \
 \
 \
 \
-"
+'
 )
         
 try
@@ -1290,7 +1278,7 @@ ValueError
             
 print
 (
-"
+'
 Non
 JSON
 output
@@ -1303,7 +1291,7 @@ processed
 :
 {
 }
-"
+'
 .
 format
 (
@@ -1318,9 +1306,9 @@ res
 .
 get
 (
-"
+'
 code
-"
+'
 )
 in
 LINE_OFFSETS
@@ -1328,18 +1316,18 @@ LINE_OFFSETS
             
 res
 [
-"
+'
 lineoffset
-"
+'
 ]
 =
 LINE_OFFSETS
 [
 res
 [
-"
+'
 code
-"
+'
 ]
 ]
         
