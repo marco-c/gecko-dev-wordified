@@ -1902,10 +1902,7 @@ cx
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 idVal
