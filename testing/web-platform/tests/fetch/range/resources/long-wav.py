@@ -26,6 +26,12 @@ import
 re
 import
 struct
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 create_wav_header
 (
@@ -38,9 +44,12 @@ duration
     
 bytes_per_sample
 =
+int
+(
 bit_depth
 /
 8
+)
     
 block_align
 =
@@ -281,11 +290,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 audio
 /
@@ -299,11 +310,13 @@ headers
 .
 set
 (
+b
 "
 Accept
 -
 Ranges
 "
+b
 "
 bytes
 "
@@ -315,11 +328,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -335,9 +350,11 @@ headers
 .
 get
 (
+b
 '
 Range
 '
+b
 '
 '
 )
@@ -367,7 +384,10 @@ d
 *
 )
 '
+isomorphic_decode
+(
 range_header
+)
 )
     
 range_received_key
@@ -378,6 +398,7 @@ GET
 .
 first
 (
+b
 '
 range
 -
@@ -385,6 +406,7 @@ received
 -
 key
 '
+b
 '
 '
 )
@@ -397,6 +419,7 @@ GET
 .
 first
 (
+b
 '
 accept
 -
@@ -404,6 +427,7 @@ encoding
 -
 key
 '
+b
 '
 '
 )
@@ -429,6 +453,7 @@ stash
 take
 (
 range_received_key
+b
 '
 /
 fetch
@@ -459,6 +484,7 @@ stash
 put
 (
 range_received_key
+u
 '
 range
 -
@@ -466,6 +492,7 @@ header
 -
 received
 '
+b
 '
 /
 fetch
@@ -496,6 +523,7 @@ take
             
 accept_encoding_key
             
+b
 '
 /
 fetch
@@ -529,21 +557,27 @@ put
             
 accept_encoding_key
             
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 '
 Accept
 -
 Encoding
 '
+b
 '
 '
 )
+)
             
+b
 '
 /
 fetch
@@ -578,6 +612,8 @@ duration
     
 total_length
 =
+int
+(
 (
 sample_rate
 *
@@ -589,6 +625,7 @@ duration
 )
 /
 8
+)
     
 bytes_remaining_to_send
 =
@@ -596,6 +633,7 @@ total_length
     
 initial_write
 =
+b
 '
 '
     
@@ -706,19 +744,19 @@ bytes_remaining_to_send
         
 content_range
 =
+b
 "
 bytes
-{
-}
+%
+d
 -
-{
-}
+%
+d
 /
-{
-}
+%
+d
 "
-.
-format
+%
 (
 start
 end
@@ -735,6 +773,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -762,6 +801,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
