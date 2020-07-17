@@ -525,6 +525,16 @@ nsSandboxViolationSink
 mm
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 include
 (
 '

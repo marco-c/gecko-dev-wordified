@@ -161,7 +161,7 @@ if
 (
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -340,7 +340,7 @@ if
 (
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -579,7 +579,7 @@ if
 (
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -780,7 +780,7 @@ if
 (
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -788,7 +788,7 @@ nextGenLocalStorageEnabled
 return
 Services
 .
-lsm
+domStorageManager
 .
 isPreloaded
 (
