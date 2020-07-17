@@ -1035,12 +1035,6 @@ avds
 '
                 
 '
-start
--
-emulator
-'
-                
-'
 download
 -
 and
@@ -1066,6 +1060,12 @@ virtualenv
                 
 '
 pull
+'
+                
+'
+start
+-
+emulator
 '
                 
 '
