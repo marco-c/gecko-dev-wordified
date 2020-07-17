@@ -412,6 +412,8 @@ funbox_
 -
 >
 wasEmitted
+(
+)
 )
 ;
 /
@@ -422,9 +424,10 @@ stack
 funbox_
 -
 >
-wasEmitted
-=
+setWasEmitted
+(
 true
+)
 ;
 #
 ifdef
@@ -546,6 +549,8 @@ funbox_
 -
 >
 wasEmitted
+(
+)
 )
 ;
 /
@@ -556,9 +561,10 @@ stack
 funbox_
 -
 >
-wasEmitted
-=
+setWasEmitted
+(
 true
+)
 ;
 /
 /
@@ -664,6 +670,8 @@ funbox_
 -
 >
 wasEmitted
+(
+)
 )
 ;
 /
@@ -1088,6 +1096,8 @@ funbox_
 -
 >
 wasEmitted
+(
+)
 )
 ;
 MOZ_ASSERT
@@ -1123,9 +1133,10 @@ get
 funbox_
 -
 >
-wasEmitted
-=
+setWasEmitted
+(
 true
+)
 ;
 funbox_
 -

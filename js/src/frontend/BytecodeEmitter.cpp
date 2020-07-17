@@ -36160,6 +36160,8 @@ funbox
 -
 >
 wasEmitted
+(
+)
 )
 {
 if
@@ -36578,10 +36580,11 @@ change
 funbox
 -
 >
-isSingleton
-=
+setIsSingleton
+(
 checkRunOnceContext
 (
+)
 )
 ;
 if
