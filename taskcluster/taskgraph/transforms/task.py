@@ -1723,7 +1723,7 @@ caching
 Required
 (
 '
-needs
+use
 -
 sccache
 '
@@ -4261,7 +4261,7 @@ task
 get
 (
 '
-needs
+use
 -
 sccache
 '
@@ -6886,7 +6886,7 @@ task
 get
 (
 '
-needs
+use
 -
 sccache
 '
@@ -12495,7 +12495,7 @@ task
 get
 (
 '
-needs
+use
 -
 sccache
 '
@@ -12506,7 +12506,7 @@ raise
 Exception
 (
 '
-needs
+use
 -
 sccache
 not
@@ -12743,7 +12743,7 @@ task
 setdefault
 (
 '
-needs
+use
 -
 sccache
 '

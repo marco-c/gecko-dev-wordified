@@ -616,7 +616,7 @@ optimization
 Optional
 (
 '
-needs
+use
 -
 sccache
 '
@@ -625,7 +625,7 @@ sccache
 task_description_schema
 [
 '
-needs
+use
 -
 sccache
 '
@@ -1935,7 +1935,7 @@ sccache
 job
 [
 '
-needs
+use
 -
 sccache
 '
