@@ -4537,13 +4537,6 @@ this
 .
 locale
 }
-meta
-:
-{
-isStartup
-:
-true
-}
 }
 )
 {

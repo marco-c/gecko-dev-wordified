@@ -4602,9 +4602,6 @@ refresh
 broadcast
 :
 true
-isStartup
-:
-true
 }
 )
 ;
@@ -12966,9 +12963,6 @@ ActivityStream
 :
 Content
 "
-isStartup
-:
-false
 }
 type
 :

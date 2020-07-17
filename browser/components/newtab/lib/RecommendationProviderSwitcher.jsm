@@ -882,9 +882,6 @@ version
 /
 setVersion
 (
-isStartup
-=
-false
 )
 {
 const
@@ -1009,11 +1006,6 @@ data
 :
 {
 version
-}
-meta
-:
-{
-isStartup
 }
 }
 )
@@ -1228,12 +1220,6 @@ this
 .
 setVersion
 (
-true
-/
-*
-isStartup
-*
-/
 )
 ;
 break
