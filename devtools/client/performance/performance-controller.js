@@ -310,10 +310,17 @@ events
 async
 initialize
 (
+toolbox
 targetFront
 performanceFront
 )
 {
+this
+.
+toolbox
+=
+toolbox
+;
 this
 .
 target
