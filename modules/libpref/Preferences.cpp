@@ -699,13 +699,6 @@ h
 #
 include
 "
-nsZipArchive
-.
-h
-"
-#
-include
-"
 plbase64
 .
 h
@@ -27212,7 +27205,7 @@ static
 nsresult
 pref_ReadPrefFromJar
 (
-nsZipArchive
+CacheAwareZipReader
 *
 aJarReader
 const
@@ -27289,8 +27282,9 @@ pref_ReadDefaultPrefs
 const
 RefPtr
 <
-nsZipArchive
+CacheAwareZipReader
 >
+&
 jarReader
 const
 char
@@ -28614,7 +28608,7 @@ entryNameLen
 ;
 RefPtr
 <
-nsZipArchive
+CacheAwareZipReader
 >
 jarReader
 =
@@ -29210,7 +29204,7 @@ js
 .
 RefPtr
 <
-nsZipArchive
+CacheAwareZipReader
 >
 appJarReader
 =
