@@ -1717,6 +1717,12 @@ first
 draw
 *
 /
+text
+-
+align
+:
+left
+;
 }
 .
 CodeMirror
