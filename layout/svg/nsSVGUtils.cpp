@@ -1588,9 +1588,11 @@ separate
 function
 .
 return
-NS_SUBTREE_DIRTY
-(
 aFrame
+-
+>
+IsSubtreeDirty
+(
 )
 ;
 }

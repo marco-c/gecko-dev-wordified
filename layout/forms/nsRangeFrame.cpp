@@ -3347,9 +3347,8 @@ UpdateForValueChange
 {
 if
 (
-NS_SUBTREE_DIRTY
+IsSubtreeDirty
 (
-this
 )
 )
 {

@@ -1671,9 +1671,11 @@ if
 sizeChanged
 |
 |
-NS_SUBTREE_DIRTY
-(
 child
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

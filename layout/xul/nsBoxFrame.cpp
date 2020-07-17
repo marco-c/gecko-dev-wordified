@@ -6710,9 +6710,11 @@ aRect
 bool
 layout
 =
-NS_SUBTREE_DIRTY
-(
 aBox
+-
+>
+IsSubtreeDirty
+(
 )
 ;
 if

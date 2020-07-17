@@ -2462,9 +2462,11 @@ if
 reflowAllKids
 |
 |
-NS_SUBTREE_DIRTY
-(
 kidFrame
+-
+>
+IsSubtreeDirty
+(
 )
 |
 |

@@ -15338,9 +15338,8 @@ const
 NS_ASSERTION
 (
 !
-NS_SUBTREE_DIRTY
+IsSubtreeDirty
 (
-this
 )
 "
 frame
@@ -73661,9 +73660,8 @@ GetWritingMode
 bool
 needsReflow
 =
-NS_SUBTREE_DIRTY
+IsSubtreeDirty
 (
-this
 )
 ;
 /

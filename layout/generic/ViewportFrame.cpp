@@ -2130,13 +2130,15 @@ IsBResize
 )
 |
 |
-NS_SUBTREE_DIRTY
-(
 mFrames
 .
 FirstChild
 (
 )
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

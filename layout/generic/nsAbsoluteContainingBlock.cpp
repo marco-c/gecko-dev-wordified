@@ -1079,9 +1079,11 @@ kidNeedsReflow
 reflowAll
 |
 |
-NS_SUBTREE_DIRTY
-(
 kidFrame
+-
+>
+IsSubtreeDirty
+(
 )
 |
 |
@@ -1112,9 +1114,11 @@ CBHeightChanged
 ;
 if
 (
-NS_SUBTREE_DIRTY
-(
 kidFrame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

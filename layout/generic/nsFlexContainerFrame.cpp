@@ -20394,9 +20394,11 @@ reflow
 :
 if
 (
-NS_SUBTREE_DIRTY
-(
 mFrame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

@@ -3124,9 +3124,8 @@ autoBSize
 &
 &
 (
-NS_SUBTREE_DIRTY
+IsSubtreeDirty
 (
-this
 )
 |
 |
@@ -3750,9 +3749,8 @@ here
 ;
 mMightNeedSecondPass
 =
-NS_SUBTREE_DIRTY
+IsSubtreeDirty
 (
-this
 )
 |
 |

@@ -775,9 +775,11 @@ NS_FRAME_IS_NONDISPLAY
 {
 if
 (
-NS_SUBTREE_DIRTY
-(
 f
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {
