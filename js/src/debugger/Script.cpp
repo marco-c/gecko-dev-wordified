@@ -8662,6 +8662,12 @@ case
 JSOp
 :
 :
+InitPrivateElem
+:
+case
+JSOp
+:
+:
 SetIntrinsic
 :
 case
@@ -9212,12 +9218,6 @@ JSOp
 :
 :
 InitHiddenElem
-:
-case
-JSOp
-:
-:
-InitPrivateElem
 :
 case
 JSOp
