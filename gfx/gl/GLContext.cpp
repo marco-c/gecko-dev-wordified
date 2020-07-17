@@ -16821,6 +16821,9 @@ LOCAL_GL_ALPHA
 case
 LOCAL_GL_LUMINANCE
 :
+case
+LOCAL_GL_R8
+:
 return
 1
 *
@@ -16828,6 +16831,9 @@ multiplier
 ;
 case
 LOCAL_GL_LUMINANCE_ALPHA
+:
+case
+LOCAL_GL_R16
 :
 return
 2
