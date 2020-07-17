@@ -316,6 +316,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

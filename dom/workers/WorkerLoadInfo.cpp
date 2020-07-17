@@ -225,6 +225,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 nsINetworkInterceptController
 .
 h

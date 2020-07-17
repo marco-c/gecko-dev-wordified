@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

@@ -301,6 +301,13 @@ h
 #
 include
 "
+nsIWebProgressListener
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
