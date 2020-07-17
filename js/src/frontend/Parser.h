@@ -7932,6 +7932,8 @@ ClassFields
 classFields
 bool
 isStatic
+HasHeritage
+hasHeritage
 )
 ;
 FunctionNodeType
