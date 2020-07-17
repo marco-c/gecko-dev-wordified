@@ -316,9 +316,7 @@ marionette
 .
 switch_to_frame
 (
-"
-iframe
-"
+0
 )
         
 self

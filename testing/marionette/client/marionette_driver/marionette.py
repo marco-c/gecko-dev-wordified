@@ -10504,16 +10504,10 @@ marionette
 .
 HTMLElement
             
+or
 an
 integer
 index
-string
-name
-or
-an
-            
-ID
-attribute
 .
 If
 you
