@@ -3290,9 +3290,6 @@ APPEND_DEVICE
 0x160e
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 gen7
@@ -3460,6 +3457,9 @@ APPEND_DEVICE
 0x0d2e
 )
 ;
+#
+ifdef
+EARLY_BETA_OR_EARLIER
 /
 /
 gen7
