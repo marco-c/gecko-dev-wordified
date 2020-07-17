@@ -6301,7 +6301,7 @@ PREALLOC_REMOTE_TYPE
 /
 /
 a
-perviously
+previously
 -
 used
 process
