@@ -7260,6 +7260,8 @@ message1
 ;
 updatePacket
 .
+networkInfo
+.
 actor
 =
 "
@@ -7285,7 +7287,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
@@ -7357,6 +7362,8 @@ message2
 ;
 updatePacket
 .
+networkInfo
+.
 actor
 =
 "
@@ -7382,7 +7389,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
@@ -7475,7 +7485,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
@@ -7638,6 +7651,8 @@ message1
 ;
 updatePacket
 .
+networkInfo
+.
 actor
 =
 "
@@ -7663,7 +7678,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
@@ -7676,6 +7694,8 @@ message2
 "
 ;
 updatePacket
+.
+networkInfo
 .
 actor
 =
@@ -7702,7 +7722,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
@@ -7715,6 +7738,8 @@ message3
 "
 ;
 updatePacket
+.
+networkInfo
 .
 actor
 =
@@ -7741,7 +7766,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
