@@ -61,6 +61,7 @@ from
 incremental_dafsa
 import
 Dafsa
+Node
 import
 mozunit
 import
@@ -69,6 +70,8 @@ def
 _node_to_string
 (
 node
+:
+Node
 prefix
 buffer
 cache
@@ -76,7 +79,10 @@ cache
 :
     
 if
+not
 node
+.
+is_end_node
 :
         
 prefix
@@ -87,26 +93,23 @@ str
 ord
 (
 node
-[
-0
-]
+.
+character
 )
 )
 if
 ord
 (
 node
-[
-0
-]
+.
+character
 )
 <
 10
 else
 node
-[
-0
-]
+.
+character
     
 else
 :
@@ -182,36 +185,27 @@ if
 node
 :
             
-children
-=
+for
 node
-[
-1
-]
-            
+in
+sorted
+(
+node
+.
 children
 .
-sort
+values
 (
+)
 key
 =
 lambda
 n
 :
 n
-[
-0
-]
-if
-n
-else
-None
+.
+character
 )
-            
-for
-node
-in
-children
 :
                 
 _node_to_string
@@ -225,6 +219,8 @@ def
 _dafsa_to_string
 (
 dafsa
+:
+Dafsa
 )
 :
     
@@ -424,21 +420,6 @@ StringIO
 (
 )
     
-dafsa
-.
-sort
-(
-key
-=
-lambda
-n
-:
-n
-[
-0
-]
-)
-    
 cache
 =
 {
@@ -447,7 +428,26 @@ cache
 for
 node
 in
+sorted
+(
 dafsa
+.
+root_node
+.
+children
+.
+values
+(
+)
+key
+=
+lambda
+n
+:
+n
+.
+character
+)
 :
         
 _node_to_string
@@ -515,7 +515,7 @@ _to_words
 data
 )
     
-new_dafsa
+dafsa
 =
 Dafsa
 .
@@ -566,7 +566,7 @@ as_string
 =
 _dafsa_to_string
 (
-new_dafsa
+dafsa
 )
     
 assert
