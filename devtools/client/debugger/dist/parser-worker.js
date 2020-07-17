@@ -282453,7 +282453,7 @@ callExpression
 )
 {
 const
-whitelist
+allowlist
 =
 [
 "
@@ -282506,7 +282506,7 @@ name
 if
 (
 !
-whitelist
+allowlist
 .
 includes
 (
