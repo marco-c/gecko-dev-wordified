@@ -341,13 +341,6 @@ url
 traits
 :
 {
-isParentInterceptEnabled
-:
-swm
-.
-isParentInterceptEnabled
-(
-)
 }
 type
 :
