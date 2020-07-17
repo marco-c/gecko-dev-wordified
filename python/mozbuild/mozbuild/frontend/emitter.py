@@ -807,9 +807,16 @@ later
                 
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 out
 .
 objdir
+)
 ]
 =
 out
@@ -1195,7 +1202,14 @@ cls
 (
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 root
+)
 ]
 )
                 
@@ -1369,9 +1383,16 @@ lib
 link_into
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 lib
 .
 objdir
+)
 ]
 )
             
@@ -1558,9 +1579,16 @@ candidates
                     
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 lib
 .
 objdir
+)
 ]
 )
         
@@ -1784,9 +1812,16 @@ basename
                     
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 lib
 .
 objdir
+)
 ]
 )
         
@@ -1999,9 +2034,16 @@ basename
                 
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 obj
 .
 objdir
+)
 ]
 )
         
