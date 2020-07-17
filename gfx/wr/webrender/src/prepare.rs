@@ -10652,8 +10652,10 @@ is
 very
 similar
 to
+picture
+:
+:
 get_raster_rects
-below
 .
 It
 is
