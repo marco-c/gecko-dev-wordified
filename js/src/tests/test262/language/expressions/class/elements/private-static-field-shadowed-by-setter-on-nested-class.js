@@ -8,13 +8,6 @@ skip
 -
 class
 -
-static
--
-fields
--
-private
-class
--
 methods
 -
 private

@@ -11,11 +11,6 @@ SyntaxError
 -
 class
 -
-fields
--
-private
-class
--
 methods
 -
 private

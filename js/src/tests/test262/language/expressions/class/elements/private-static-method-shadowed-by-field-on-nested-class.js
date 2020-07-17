@@ -13,11 +13,6 @@ static
 methods
 -
 private
-class
--
-fields
--
-private
 is
 not
 supported
