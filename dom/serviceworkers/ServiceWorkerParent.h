@@ -192,7 +192,7 @@ IPCResult
 RecvPostMessage
 (
 const
-ClonedMessageData
+ClonedOrErrorMessageData
 &
 aClonedData
 const
