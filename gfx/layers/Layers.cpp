@@ -1358,6 +1358,10 @@ Layer
 SetCompositorAnimations
 (
 const
+LayersId
+&
+aLayersId
+const
 CompositorAnimations
 &
 aCompositorAnimations
@@ -1396,6 +1400,7 @@ mAnimationInfo
 .
 SetCompositorAnimations
 (
+aLayersId
 aCompositorAnimations
 )
 ;
