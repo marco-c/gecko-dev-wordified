@@ -790,6 +790,13 @@ offline
 )
 ;
 async
+SetConnectivity
+(
+bool
+connectivity
+)
+;
+async
 InitLinuxSandbox
 (
 FileDescriptor
