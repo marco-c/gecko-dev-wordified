@@ -3457,7 +3457,7 @@ rv
 WSRunObject
 :
 :
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 *
 this
@@ -3478,7 +3478,7 @@ NS_WARNING
 WSRunObject
 :
 :
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 )
 failed
@@ -3504,7 +3504,7 @@ endpoints
 XXX
 Hmm
 if
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 )
 runs
@@ -3552,7 +3552,7 @@ rv
 WSRunObject
 :
 :
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 *
 this
@@ -3593,7 +3593,7 @@ rv
 WSRunObject
 :
 :
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 )
 failed
@@ -3640,7 +3640,7 @@ rv
 WSRunObject
 :
 :
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 *
 this
@@ -3681,9 +3681,11 @@ rv
 WSRunObject
 :
 :
-NormalizeWhiteSpacesAround
+NormalizeVisibleWhiteSpacesAt
 (
 )
+"
+"
 failed
 but
 ignored
