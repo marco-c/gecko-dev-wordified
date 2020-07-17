@@ -149,6 +149,7 @@ args
 (
 CT_MEDIUM
 True
+True
 )
 )
 register_strategy
@@ -166,6 +167,7 @@ args
 CT_MEDIUM
 True
 True
+True
 )
 )
 register_strategy
@@ -181,6 +183,7 @@ args
 =
 (
 CT_HIGH
+True
 True
 )
 )
@@ -237,6 +240,28 @@ to
 be
 scheduled
 .
+        
+tasks_only
+(
+bool
+)
+:
+Whether
+or
+not
+to
+only
+use
+tasks
+and
+no
+groups
+            
+(
+default
+:
+False
+)
         
 use_reduced_tasks
 (
@@ -304,6 +329,10 @@ self
         
 confidence_threshold
         
+tasks_only
+=
+False
+        
 use_reduced_tasks
 =
 False
@@ -332,6 +361,12 @@ self
 fallback
 =
 fallback
+        
+self
+.
+tasks_only
+=
+tasks_only
         
 self
 .
@@ -531,7 +566,7 @@ None
 or
 self
 .
-use_reduced_tasks
+tasks_only
 :
             
 if
