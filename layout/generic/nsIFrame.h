@@ -27700,8 +27700,6 @@ nsDirection
 aDirection
 )
 ;
-public
-:
 /
 /
 Return
@@ -27744,13 +27742,13 @@ containing
 block
 frame
 .
-static
+Result
+<
 int32_t
+nsresult
+>
 GetLineNumber
 (
-nsIFrame
-*
-aFrame
 bool
 aLockScroll
 nsIFrame
@@ -27761,6 +27759,8 @@ aContainingBlock
 nullptr
 )
 ;
+public
+:
 /
 *
 *
