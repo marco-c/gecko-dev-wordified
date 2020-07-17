@@ -3019,6 +3019,7 @@ newConfig
 )
 const
 ;
+mutable
 mozilla
 :
 :
@@ -4288,11 +4289,9 @@ over
 time
 /
 /
-Accessed
-only
-on
-the
-mStsThread
+Protected
+by
+mTransportMonitor
 dom
 :
 :
