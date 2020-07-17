@@ -659,6 +659,10 @@ aReferenceSpace
 GetEffectiveOriginOrientation
 (
 )
+.
+Inverse
+(
+)
 )
 ;
 originTransform
@@ -1241,6 +1245,10 @@ SetRotationFromQuaternion
 aBaseSpace
 .
 GetEffectiveOriginOrientation
+(
+)
+.
+Inverse
 (
 )
 )
