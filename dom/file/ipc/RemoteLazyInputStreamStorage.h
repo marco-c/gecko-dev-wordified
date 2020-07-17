@@ -190,8 +190,14 @@ Initialize
 )
 ;
 static
+Result
+<
+RefPtr
+<
 RemoteLazyInputStreamStorage
-*
+>
+nsresult
+>
 Get
 (
 )
