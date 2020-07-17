@@ -385,7 +385,7 @@ const
 void
 GetCurrentRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 ErrorResult
@@ -1051,7 +1051,9 @@ completed
 /
 /
 A
-NOT_REMOTE_TYPE
+VoidString
+(
+)
 aRemoteType
 argument
 will
@@ -1060,9 +1062,9 @@ a
 process
 switch
 into
-/
-/
 the
+/
+/
 parent
 process
 and
@@ -1095,7 +1097,7 @@ RemotenessPromise
 ChangeRemoteness
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 uint64_t

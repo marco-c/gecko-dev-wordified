@@ -347,7 +347,7 @@ type
 Origin
 if
 any
-nsCString
+nsString
 origin
 ;
 /
@@ -495,7 +495,7 @@ ProcType
 &
 processType
 const
-nsACString
+nsAString
 &
 origin
 mach_port_t
@@ -524,7 +524,7 @@ ProcType
 &
 processType
 const
-nsACString
+nsAString
 &
 origin
 )

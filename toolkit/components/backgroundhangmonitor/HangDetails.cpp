@@ -396,7 +396,7 @@ nsHangDetails
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aName
 )
@@ -3880,7 +3880,7 @@ remoteType
 )
 ReadTString
 <
-char
+char16_t
 >
 (
 fd

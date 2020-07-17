@@ -273,11 +273,11 @@ bool
 MatchRemoteType
 (
 const
-nsACString
+nsAString
 &
 processRemoteType
 const
-nsACString
+nsAString
 &
 workerRemoteType
 )
@@ -304,7 +304,7 @@ launched
 static
 Result
 <
-nsCString
+nsString
 nsresult
 >
 GetRemoteType
@@ -444,7 +444,7 @@ aController
 )
 ;
 static
-nsCString
+nsString
 GetRemoteTypeForActor
 (
 const

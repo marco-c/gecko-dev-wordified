@@ -541,7 +541,7 @@ ProcType
 &
 type
 const
-nsACString
+nsAString
 &
 origin
 )
@@ -638,7 +638,7 @@ ResolveGetProcInfo
 is
 called
 .
-nsCString
+nsString
 originCopy
 (
 origin

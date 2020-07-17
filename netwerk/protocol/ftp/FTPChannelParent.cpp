@@ -3872,7 +3872,7 @@ FTPChannelParent
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 )

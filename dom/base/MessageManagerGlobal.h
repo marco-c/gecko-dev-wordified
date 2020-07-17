@@ -449,7 +449,7 @@ aError
 void
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 mozilla

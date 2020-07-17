@@ -1038,7 +1038,7 @@ MessageManagerCallback
 :
 DoGetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 ErrorResult
@@ -5806,7 +5806,7 @@ nsFrameMessageManager
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 ErrorResult

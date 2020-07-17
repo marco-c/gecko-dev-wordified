@@ -13483,7 +13483,7 @@ HttpChannelParent
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 )

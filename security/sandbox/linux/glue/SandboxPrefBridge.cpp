@@ -317,9 +317,11 @@ cc
 GetRemoteType
 (
 )
-=
-=
+.
+EqualsLiteral
+(
 FILE_REMOTE_TYPE
+)
 ;
 nsAutoCString
 extraSyscalls

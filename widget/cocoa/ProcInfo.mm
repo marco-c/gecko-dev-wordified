@@ -204,7 +204,7 @@ ProcType
 &
 type
 const
-nsACString
+nsAString
 &
 origin
 mach_port_t
@@ -303,7 +303,7 @@ ResolveGetProcInfo
 is
 called
 .
-nsCString
+nsString
 originCopy
 (
 origin

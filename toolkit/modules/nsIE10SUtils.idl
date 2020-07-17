@@ -294,7 +294,7 @@ in
 .
 *
 /
-AUTF8String
+AString
 getRemoteTypeForPrincipal
 (
 in
@@ -310,7 +310,7 @@ in
 boolean
 aRemoteSubframes
 in
-AUTF8String
+AString
 aPreferredRemoteType
 in
 nsIPrincipal
