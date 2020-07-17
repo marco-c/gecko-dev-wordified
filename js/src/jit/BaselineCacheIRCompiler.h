@@ -189,9 +189,6 @@ stubKind
 JSScript
 *
 outerScript
-ICScript
-*
-icScript
 ICFallbackStub
 *
 stub
