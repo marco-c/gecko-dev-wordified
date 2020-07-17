@@ -1,5 +1,20 @@
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+unquote
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 redirect_response
 (
@@ -30,6 +45,7 @@ time
   
 location
 =
+b
 '
 empty
 .
@@ -37,6 +53,7 @@ js
 '
   
 if
+b
 '
 Redirect
 '
@@ -48,18 +65,23 @@ GET
       
 location
 =
-urllib
-.
+isomorphic_encode
+(
 unquote
+(
+isomorphic_decode
 (
 request
 .
 GET
 [
+b
 '
 Redirect
 '
 ]
+)
+)
 )
   
 return
@@ -69,11 +91,13 @@ return
 [
     
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -85,9 +109,11 @@ revalidate
 )
     
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -96,11 +122,13 @@ cache
 )
     
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -109,6 +137,7 @@ javascript
 )
     
 (
+b
 '
 Location
 '
@@ -117,6 +146,7 @@ location
   
 ]
   
+u
 '
 /
 *
@@ -141,11 +171,13 @@ return
 404
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -153,6 +185,7 @@ plain
 '
 )
 ]
+u
 "
 Page
 not
@@ -167,10 +200,12 @@ visited_count
                 
 extra_body
 =
+u
 '
 '
 mime_type
 =
+b
 '
 application
 /
@@ -204,11 +239,13 @@ return
 [
       
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -220,9 +257,11 @@ revalidate
 )
       
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -231,6 +270,7 @@ cache
 )
       
 (
+b
 '
 Content
 -
@@ -241,6 +281,7 @@ mime_type
     
 ]
     
+u
 '
 /
 *
@@ -274,6 +315,7 @@ request
 .
 GET
 [
+b
 "
 Key
 "
@@ -285,6 +327,7 @@ request
 .
 GET
 [
+b
 "
 Mode
 "
@@ -377,6 +420,7 @@ if
 mode
 =
 =
+b
 '
 normal
 '
@@ -394,6 +438,7 @@ if
 mode
 =
 =
+b
 '
 bad_mime_type
 '
@@ -407,6 +452,7 @@ response
 visited_count
 mime_type
 =
+b
 '
 text
 /
@@ -418,6 +464,7 @@ if
 mode
 =
 =
+b
 '
 not_found
 '
@@ -432,11 +479,12 @@ if
 mode
 =
 =
+b
 '
 redirect
 '
 :
-      
+          
 return
 redirect_response
 (
@@ -449,6 +497,7 @@ if
 mode
 =
 =
+b
 '
 syntax_error
 '
@@ -462,6 +511,7 @@ response
 visited_count
 extra_body
 =
+u
 '
 badsyntax
 (
@@ -474,6 +524,7 @@ if
 mode
 =
 =
+b
 '
 throw_install
 '
@@ -487,6 +538,7 @@ response
 visited_count
 extra_body
 =
+u
 "
 addEventListener
 (

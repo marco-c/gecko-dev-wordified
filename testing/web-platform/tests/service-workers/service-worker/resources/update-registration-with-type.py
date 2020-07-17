@@ -5,6 +5,7 @@ classic_script
 :
     
 return
+b
 "
 "
 "
@@ -57,6 +58,7 @@ module_script
 :
     
 return
+b
 "
 "
 "
@@ -139,11 +141,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -152,9 +156,11 @@ javascript
 )
                
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -163,11 +169,13 @@ store
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -182,6 +190,7 @@ request
 .
 GET
 [
+b
 '
 classic_first
 '
@@ -193,6 +202,7 @@ request
 .
 GET
 [
+b
 '
 key
 '
@@ -238,6 +248,7 @@ if
 classic_first
 =
 =
+b
 '
 1
 '
@@ -258,6 +269,7 @@ if
 classic_first
 =
 =
+b
 '
 1
 '
