@@ -233,6 +233,12 @@ PositionState
 {
 PositionState
 (
+)
+=
+default
+;
+PositionState
+(
 double
 aDuration
 double
@@ -507,6 +513,11 @@ NotifyDisableSupportedAction
 (
 MediaSessionAction
 aAction
+)
+;
+void
+NotifyPositionStateChanged
+(
 )
 ;
 void
