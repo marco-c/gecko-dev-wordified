@@ -4214,20 +4214,6 @@ puppeteer
 "
 )
         
-src_dir
-=
-os
-.
-path
-.
-join
-(
-puppeteer_dir
-"
-src
-"
-)
-        
 changed_files
 =
 False
@@ -4247,7 +4233,17 @@ f
 .
 startswith
 (
-src_dir
+puppeteer_dir
+)
+and
+f
+.
+endswith
+(
+"
+.
+ts
+"
 )
 :
                 
