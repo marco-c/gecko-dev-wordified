@@ -1061,6 +1061,8 @@ Bailout
 triggered
 by
 MGuardProto
+or
+MGuardNullProto
 .
 ProtoGuard
 /
