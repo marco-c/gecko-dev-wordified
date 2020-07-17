@@ -249,7 +249,7 @@ testSetup
 ;
 Services
 .
-netUtils
+io
 .
 socketProcessTelemetryPing
 (

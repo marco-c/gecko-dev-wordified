@@ -489,7 +489,7 @@ if
 !
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
