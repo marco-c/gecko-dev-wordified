@@ -348,6 +348,9 @@ sort
 UrlbarProviderSearchTips
 "
 "
+Omnibox
+"
+"
 UnifiedComplete
 "
 "
