@@ -546,8 +546,9 @@ Vi
     
 if
 '
-Linux
+WINNT
 '
+not
 in
 buildconfig
 .
@@ -963,8 +964,9 @@ system
         
 if
 '
-Linux
+WINNT
 '
+not
 in
 buildconfig
 .
