@@ -206,11 +206,6 @@ closeToolbox
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 async

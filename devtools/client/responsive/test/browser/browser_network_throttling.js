@@ -178,11 +178,6 @@ null
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 function

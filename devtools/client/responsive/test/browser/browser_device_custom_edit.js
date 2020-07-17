@@ -809,9 +809,6 @@ exists
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

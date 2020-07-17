@@ -169,9 +169,6 @@ tab
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true
@@ -288,9 +285,6 @@ clientClosed
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

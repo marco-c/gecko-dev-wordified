@@ -542,11 +542,6 @@ script
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 add_task
@@ -1431,11 +1426,6 @@ unload
 (
 )
 ;
-}
-{
-usingBrowserUI
-:
-true
 }
 )
 ;

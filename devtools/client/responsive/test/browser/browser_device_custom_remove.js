@@ -677,9 +677,6 @@ removed
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -954,9 +951,6 @@ exist
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

@@ -1225,10 +1225,5 @@ reload
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

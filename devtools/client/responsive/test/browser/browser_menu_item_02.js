@@ -315,9 +315,6 @@ unchecked
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

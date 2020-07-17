@@ -192,10 +192,5 @@ matches
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

@@ -337,9 +337,6 @@ checkResults
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

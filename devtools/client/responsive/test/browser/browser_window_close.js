@@ -208,9 +208,6 @@ offPromise
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

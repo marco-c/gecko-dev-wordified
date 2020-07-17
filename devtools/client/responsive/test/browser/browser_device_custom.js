@@ -461,9 +461,6 @@ selector
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -891,9 +888,6 @@ userAgent
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -1157,9 +1151,6 @@ selector
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -1297,9 +1288,6 @@ selector
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

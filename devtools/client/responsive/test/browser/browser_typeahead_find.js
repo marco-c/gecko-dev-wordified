@@ -452,10 +452,5 @@ blur
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

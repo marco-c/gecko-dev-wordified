@@ -1012,9 +1012,6 @@ addedDevice
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -1335,9 +1332,6 @@ selector
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

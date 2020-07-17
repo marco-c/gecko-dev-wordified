@@ -623,10 +623,5 @@ primary
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

@@ -461,10 +461,5 @@ b
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

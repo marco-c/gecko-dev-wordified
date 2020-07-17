@@ -238,10 +238,5 @@ disabled
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

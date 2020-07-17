@@ -353,10 +353,5 @@ be
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

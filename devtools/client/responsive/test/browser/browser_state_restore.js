@@ -271,9 +271,6 @@ false
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -399,9 +396,6 @@ false
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -512,9 +506,6 @@ false
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

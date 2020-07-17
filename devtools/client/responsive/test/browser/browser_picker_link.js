@@ -354,11 +354,6 @@ element
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 /

@@ -788,10 +788,5 @@ match
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

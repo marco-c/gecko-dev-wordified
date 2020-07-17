@@ -428,9 +428,6 @@ correct
 }
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
