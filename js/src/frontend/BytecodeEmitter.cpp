@@ -50676,6 +50676,15 @@ kind
 ParseNodeKind
 :
 :
+PrivateName
+|
+|
+kind
+=
+=
+ParseNodeKind
+:
+:
 NullExpr
 |
 |
