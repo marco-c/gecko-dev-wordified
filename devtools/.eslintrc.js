@@ -645,17 +645,6 @@ js
 "
 client
 /
-jsonview
-/
-test
-/
-doc_frame_script
-.
-js
-"
-"
-client
-/
 responsive
 .
 html
