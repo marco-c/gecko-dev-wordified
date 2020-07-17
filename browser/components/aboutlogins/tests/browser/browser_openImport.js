@@ -306,6 +306,8 @@ querySelector
 menuitem
 -
 import
+-
+browser
 "
 )
 ;
