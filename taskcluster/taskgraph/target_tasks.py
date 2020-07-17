@@ -3396,6 +3396,20 @@ at
 sync
         
 if
+'
+mozilla
+-
+esr
+'
+not
+in
+parameters
+[
+'
+project
+'
+]
+and
 is_geckoview
 (
 task
