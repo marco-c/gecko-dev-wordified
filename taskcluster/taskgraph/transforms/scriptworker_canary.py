@@ -134,6 +134,8 @@ canary
 -
 workers
 "
+[
+]
 )
     
 #
