@@ -5337,6 +5337,15 @@ mBuildAsyncZoomContainer
 mIsRelativeToLayoutViewport
 &
 &
+!
+document
+-
+>
+Fullscreen
+(
+)
+&
+&
 nsLayoutUtils
 :
 :
