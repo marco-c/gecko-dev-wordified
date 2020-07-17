@@ -14534,11 +14534,6 @@ frontend
 ScriptStencil
 &
 stencil
-js
-:
-:
-SourceExtent
-extent
 )
 ;
 #

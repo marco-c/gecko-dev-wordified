@@ -1080,6 +1080,8 @@ sc
 -
 >
 extent
+(
+)
 .
 lineno
 )
@@ -15902,15 +15904,6 @@ into
 a
 JSScript
 .
-compilationInfo
-.
-topLevelExtent
-=
-sc
--
->
-extent
-;
 return
 intoScriptStencil
 (

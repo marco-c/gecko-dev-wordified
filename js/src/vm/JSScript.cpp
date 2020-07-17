@@ -24570,8 +24570,6 @@ frontend
 ScriptStencil
 &
 stencil
-SourceExtent
-extent
 )
 {
 MOZ_ASSERT
@@ -24635,6 +24633,8 @@ functionOrGlobal
 compilationInfo
 .
 sourceObject
+stencil
+.
 extent
 stencil
 .
