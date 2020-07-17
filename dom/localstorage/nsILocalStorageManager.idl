@@ -252,7 +252,7 @@ principal
 [
 implicit_jscontext
 ]
-nsISupports
+Promise
 preload
 (
 in
@@ -263,7 +263,7 @@ aPrincipal
 [
 implicit_jscontext
 ]
-nsISupports
+Promise
 isPreloaded
 (
 in

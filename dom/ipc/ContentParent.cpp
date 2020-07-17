@@ -36949,9 +36949,9 @@ rv
 rv
 )
 ;
-nsCOMPtr
+RefPtr
 <
-nsISupports
+Promise
 >
 dummy
 ;

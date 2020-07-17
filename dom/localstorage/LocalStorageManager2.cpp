@@ -1334,7 +1334,7 @@ aPrincipal
 JSContext
 *
 aContext
-nsISupports
+Promise
 *
 *
 _retval
@@ -1704,7 +1704,7 @@ aPrincipal
 JSContext
 *
 aContext
-nsISupports
+Promise
 *
 *
 _retval
