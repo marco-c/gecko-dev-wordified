@@ -309,7 +309,7 @@ host
 .
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -421,7 +421,7 @@ true
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -531,7 +531,7 @@ spec
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -738,7 +738,7 @@ spec
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
