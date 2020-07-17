@@ -424,9 +424,11 @@ static
 bool
 CanUseDocumentChannel
 (
-nsDocShellLoadState
+nsIURI
 *
-aLoadState
+aURI
+uint32_t
+aLoadFlags
 )
 ;
 protected
