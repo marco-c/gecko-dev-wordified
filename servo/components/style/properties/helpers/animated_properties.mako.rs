@@ -5931,6 +5931,8 @@ self
 index_range
 .
 start
+-
+1
 }
 )
 ;
