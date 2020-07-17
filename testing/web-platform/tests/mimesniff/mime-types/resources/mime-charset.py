@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -8,6 +14,7 @@ response
     
 content
 =
+b
 "
 <
 meta
@@ -109,6 +116,7 @@ False
     
 output
 =
+b
 "
 HTTP
 /
@@ -126,6 +134,7 @@ n
 output
 +
 =
+b
 "
 Content
 -
@@ -133,6 +142,8 @@ Length
 :
 "
 +
+isomorphic_encode
+(
 str
 (
 len
@@ -140,7 +151,9 @@ len
 content
 )
 )
+)
 +
+b
 "
 \
 r
@@ -151,6 +164,7 @@ n
 output
 +
 =
+b
 "
 Content
 -
@@ -164,11 +178,13 @@ GET
 .
 first
 (
+b
 "
 type
 "
 )
 +
+b
 "
 \
 r
@@ -179,6 +195,7 @@ n
 output
 +
 =
+b
 "
 \
 r
