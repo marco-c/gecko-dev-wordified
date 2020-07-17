@@ -120,6 +120,13 @@ python
 .
 ini
 '
+'
+test
+/
+python
+.
+ini
+'
 ]
 SPHINX_TREES
 [
