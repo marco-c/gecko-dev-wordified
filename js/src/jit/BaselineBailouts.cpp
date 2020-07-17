@@ -10669,6 +10669,11 @@ JSOp
 pc
 )
 )
+&
+&
+IsTypeInferenceEnabled
+(
+)
 )
 {
 ICFallbackStub
