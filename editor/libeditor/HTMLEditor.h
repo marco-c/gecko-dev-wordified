@@ -31406,6 +31406,9 @@ lastInsertedPoint
 )
 const
 ;
+class
+HTMLWithContextInserter
+;
 /
 *
 *
