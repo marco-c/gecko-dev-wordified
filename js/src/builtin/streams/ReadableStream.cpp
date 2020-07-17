@@ -3936,7 +3936,9 @@ protoClass_
 =
 {
 "
-object
+ReadableStream
+.
+prototype
 "
 JSCLASS_HAS_CACHED_PROTO
 (
