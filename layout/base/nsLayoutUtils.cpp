@@ -60497,7 +60497,7 @@ rootPresContext
 presContext
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;
@@ -71605,7 +71605,7 @@ PresContext
 )
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;
@@ -71940,7 +71940,7 @@ PresContext
 )
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;

@@ -1006,12 +1006,16 @@ the
 prescontext
 of
 the
-toplevel
+root
 content
 document
+in
+the
+same
+process
+*
 that
 contains
-*
 this
 presentation
 or
@@ -1027,7 +1031,7 @@ one
 /
 nsPresContext
 *
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;

@@ -3511,7 +3511,7 @@ context
 context
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;

@@ -41236,7 +41236,7 @@ presContext
 mPresContext
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;
@@ -41370,7 +41370,7 @@ presContext
 mPresContext
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;
@@ -41400,7 +41400,7 @@ prescontext
 from
 "
 "
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 ?
 "
 )

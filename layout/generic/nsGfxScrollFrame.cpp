@@ -28125,7 +28125,7 @@ rootPresContext
 pc
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;
