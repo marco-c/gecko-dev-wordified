@@ -69,7 +69,7 @@ down
 .
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 No

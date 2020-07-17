@@ -86,7 +86,7 @@ loaded
 .
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Connection

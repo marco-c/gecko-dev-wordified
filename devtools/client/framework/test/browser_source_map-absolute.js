@@ -91,7 +91,7 @@ jsm
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 this

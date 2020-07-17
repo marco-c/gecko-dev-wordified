@@ -183,7 +183,7 @@ module
 .
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Page

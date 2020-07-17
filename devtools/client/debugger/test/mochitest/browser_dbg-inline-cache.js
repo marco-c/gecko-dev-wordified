@@ -115,7 +115,7 @@ navigation
 .
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Resource

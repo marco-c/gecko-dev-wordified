@@ -119,7 +119,7 @@ jsm
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Connection

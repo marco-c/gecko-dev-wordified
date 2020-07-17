@@ -44,7 +44,7 @@ works
 .
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Message

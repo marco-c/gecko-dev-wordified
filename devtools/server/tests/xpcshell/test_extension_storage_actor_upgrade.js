@@ -166,7 +166,7 @@ jsm
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Message

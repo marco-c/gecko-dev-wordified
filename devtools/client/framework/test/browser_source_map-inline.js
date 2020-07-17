@@ -91,7 +91,7 @@ jsm
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 this
@@ -105,7 +105,7 @@ null
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Component

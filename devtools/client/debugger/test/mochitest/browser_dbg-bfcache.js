@@ -60,7 +60,7 @@ MPL
 /
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 Connection

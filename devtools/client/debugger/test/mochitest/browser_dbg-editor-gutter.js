@@ -97,7 +97,7 @@ permafail
 .
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 NS_ERROR_NOT_INITIALIZED

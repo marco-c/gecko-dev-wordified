@@ -1449,7 +1449,7 @@ checkFn
 *
 *
 *
-Whitelists
+Allows
 an
 entire
 class
@@ -1507,7 +1507,7 @@ rejection
 .
 *
 /
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 regExp
 )

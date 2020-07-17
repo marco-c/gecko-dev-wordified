@@ -63,7 +63,7 @@ this
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowRejectionsGlobally
 (
 /
 Whitelisted
