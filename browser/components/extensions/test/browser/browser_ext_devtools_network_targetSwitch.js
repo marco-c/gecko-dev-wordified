@@ -140,6 +140,8 @@ onSwitched
 =
 toolbox
 .
+targetList
+.
 once
 (
 "
