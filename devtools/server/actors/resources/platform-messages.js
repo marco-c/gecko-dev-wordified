@@ -166,7 +166,7 @@ Start
 watching
 for
 all
-console
+platform
 messages
 related
 to
