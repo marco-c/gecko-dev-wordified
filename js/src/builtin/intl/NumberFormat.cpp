@@ -626,7 +626,11 @@ NumberFormatObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+NumberFormat
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 NumberFormatObject

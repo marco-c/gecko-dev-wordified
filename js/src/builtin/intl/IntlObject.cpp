@@ -5322,7 +5322,9 @@ js
 IntlClass
 =
 {
-js_Object_str
+"
+Intl
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Intl

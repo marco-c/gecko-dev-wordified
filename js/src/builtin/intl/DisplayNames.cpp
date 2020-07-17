@@ -633,7 +633,11 @@ DisplayNamesObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+DisplayNames
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 DisplayNamesObject

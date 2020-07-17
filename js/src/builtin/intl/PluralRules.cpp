@@ -420,7 +420,11 @@ PluralRulesObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+PluralRules
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 PluralRulesObject
