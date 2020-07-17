@@ -2544,7 +2544,9 @@ protoClass_
 =
 {
 "
-SharedArrayBufferPrototype
+SharedArrayBuffer
+.
+prototype
 "
 JSCLASS_HAS_CACHED_PROTO
 (

@@ -1619,7 +1619,9 @@ protoClass_
 =
 {
 "
-FinalizationRegistryPrototype
+FinalizationRegistry
+.
+prototype
 "
 JSCLASS_HAS_CACHED_PROTO
 (
