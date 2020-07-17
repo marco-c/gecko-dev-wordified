@@ -395,9 +395,9 @@ mDecodedData
 private
 :
 const
-RefPtr
+nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
 mThread
 ;
