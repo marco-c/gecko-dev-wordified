@@ -87,7 +87,7 @@ object
 "
 subtype
 :
-null
+undefined
 }
 {
 expression
@@ -107,7 +107,7 @@ symbol
 "
 subtype
 :
-null
+undefined
 }
 {
 expression

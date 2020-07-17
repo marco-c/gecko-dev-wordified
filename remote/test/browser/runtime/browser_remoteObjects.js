@@ -237,11 +237,11 @@ is
 result
 .
 subtype
-null
+undefined
 "
 JS
 Object
-have
+has
 no
 subtype
 "
