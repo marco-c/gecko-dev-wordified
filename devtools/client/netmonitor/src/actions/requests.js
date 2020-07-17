@@ -186,7 +186,8 @@ batch
 function
 setEventStreamFlag
 (
-channelId
+id
+batch
 )
 {
 return
@@ -194,7 +195,12 @@ return
 type
 :
 SET_EVENT_STREAM_FLAG
-channelId
+id
+meta
+:
+{
+batch
+}
 }
 ;
 }
