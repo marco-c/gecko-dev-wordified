@@ -809,6 +809,12 @@ middleware
 applyMiddleware
 (
 performanceMarker
+.
+bind
+(
+null
+sessionId
+)
 ignore
 thunkWithOptions
 .
