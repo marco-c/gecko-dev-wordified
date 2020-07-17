@@ -487,6 +487,12 @@ target
 =
 nullptr
 ;
+ICScript
+*
+icScript
+=
+nullptr
+;
 }
 ;
 mozilla
