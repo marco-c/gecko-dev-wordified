@@ -173,7 +173,7 @@ string
 }
 text
 *
-return
+returns
 {
 !
 MDOutline
@@ -597,7 +597,7 @@ string
 }
 str
 *
-return
+returns
 {
 string
 }
@@ -1556,7 +1556,7 @@ Node
 }
 toExclusive
 *
-return
+returns
 {
 !
 DocumentFragment
@@ -2559,7 +2559,7 @@ Source
 }
 sources
 *
-return
+returns
 {
 !
 Promise

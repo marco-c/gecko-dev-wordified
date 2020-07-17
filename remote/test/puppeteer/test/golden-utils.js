@@ -1,4 +1,9 @@
 /
+/
+ts
+-
+nocheck
+/
 *
 *
 *
@@ -267,7 +272,7 @@ string
 }
 mimeType
 *
-return
+returns
 {
 ?
 {
@@ -536,7 +541,7 @@ Buffer
 }
 expectedBuffer
 *
-return
+returns
 {
 ?
 {
@@ -721,7 +726,7 @@ string
 }
 goldenName
 *
-return
+returns
 {
 !
 {
@@ -1126,7 +1131,7 @@ string
 }
 customExtension
 *
-return
+returns
 {
 string
 }

@@ -511,7 +511,7 @@ string
 }
 inheritance
 *
-return
+returns
 {
 !
 Array
@@ -1128,7 +1128,7 @@ Type
 }
 type
 *
-return
+returns
 {
 !
 Documentation
@@ -1551,7 +1551,7 @@ Symbol
 }
 symbol
 *
-return
+returns
 {
 boolean
 }
@@ -1626,7 +1626,7 @@ Symbol
 }
 symbol
 *
-return
+returns
 {
 }
 *

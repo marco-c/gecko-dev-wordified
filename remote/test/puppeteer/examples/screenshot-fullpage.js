@@ -146,18 +146,6 @@ puppeteer
 '
 )
 ;
-const
-devices
-=
-require
-(
-'
-puppeteer
-/
-DeviceDescriptors
-'
-)
-;
 (
 async
 (
@@ -190,6 +178,8 @@ page
 .
 emulate
 (
+puppeteer
+.
 devices
 [
 '

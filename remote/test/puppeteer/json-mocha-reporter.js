@@ -357,7 +357,7 @@ private
 *
 param
 {
-Test
+Object
 }
 test
 -

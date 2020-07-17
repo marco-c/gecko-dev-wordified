@@ -252,7 +252,7 @@ Event
 name
 .
 *
-return
+returns
 {
 !
 Promise

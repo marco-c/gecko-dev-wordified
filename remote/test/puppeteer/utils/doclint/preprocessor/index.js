@@ -841,7 +841,7 @@ string
 }
 editText
 *
-return
+returns
 {
 boolean
 }

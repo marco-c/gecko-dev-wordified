@@ -22,8 +22,6 @@ binary
 string
 ;
 declare
-global
-{
 module
 Protocol
 {
@@ -80450,7 +80448,6 @@ Schema
 .
 getDomainsReturnValue
 ;
-}
 }
 }
 export

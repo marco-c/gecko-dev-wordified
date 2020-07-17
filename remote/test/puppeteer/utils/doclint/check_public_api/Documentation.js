@@ -780,7 +780,7 @@ Type
 }
 returnType
 *
-return
+returns
 {
 !
 Documentation
@@ -849,7 +849,7 @@ boolean
 }
 required
 *
-return
+returns
 {
 !
 Documentation
@@ -913,7 +913,7 @@ string
 }
 comment
 *
-return
+returns
 {
 !
 Documentation

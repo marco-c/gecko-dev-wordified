@@ -180,7 +180,7 @@ string
 }
 text
 *
-return
+returns
 {
 !
 Message
@@ -214,7 +214,7 @@ string
 }
 text
 *
-return
+returns
 {
 !
 Message

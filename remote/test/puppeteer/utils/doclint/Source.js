@@ -287,7 +287,7 @@ false
 *
 *
 *
-return
+returns
 {
 string
 }
@@ -307,7 +307,7 @@ _filePath
 *
 *
 *
-return
+returns
 {
 string
 }
@@ -327,7 +327,7 @@ _projectPath
 *
 *
 *
-return
+returns
 {
 string
 }
@@ -353,7 +353,7 @@ string
 }
 text
 *
-return
+returns
 {
 boolean
 }
@@ -397,7 +397,7 @@ true
 *
 *
 *
-return
+returns
 {
 string
 }
@@ -417,7 +417,7 @@ _text
 *
 *
 *
-return
+returns
 {
 boolean
 }
@@ -464,7 +464,7 @@ string
 }
 filePath
 *
-return
+returns
 {
 !
 Promise
@@ -532,7 +532,7 @@ string
 }
 extension
 *
-return
+returns
 {
 !
 Promise

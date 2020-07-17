@@ -1168,7 +1168,7 @@ number
 }
 revision
 *
-return
+returns
 {
 boolean
 }
@@ -1342,7 +1342,7 @@ string
 }
 url
 *
-return
+returns
 {
 !
 Promise
@@ -1504,7 +1504,7 @@ number
 }
 size
 *
-return
+returns
 {
 string
 }
@@ -1546,7 +1546,7 @@ string
 }
 text
 *
-return
+returns
 {
 string
 }
@@ -1606,7 +1606,7 @@ number
 }
 length
 *
-return
+returns
 {
 string
 }

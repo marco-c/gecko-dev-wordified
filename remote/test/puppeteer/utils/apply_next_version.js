@@ -37,7 +37,7 @@ current
 HEAD
 to
 upstream
-master
+main
 SHA
 .
 /
@@ -87,7 +87,7 @@ puppeteer
 -
 -
 tags
-master
+main
 |
 cut
 -

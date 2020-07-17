@@ -1070,7 +1070,7 @@ boolean
 }
 landscape
 *
-return
+returns
 {
 !
 Object
@@ -1212,7 +1212,7 @@ param
 }
 json
 *
-return
+returns
 {
 ?
 Object
@@ -1254,7 +1254,7 @@ param
 }
 defaultValue
 *
-return
+returns
 {
 *
 }
@@ -1406,7 +1406,7 @@ string
 }
 key
 *
-return
+returns
 {
 number
 }
@@ -1490,7 +1490,7 @@ param
 }
 json
 *
-return
+returns
 {
 !
 {
@@ -1948,7 +1948,7 @@ param
 url
 }
 *
-return
+returns
 {
 !
 Promise
