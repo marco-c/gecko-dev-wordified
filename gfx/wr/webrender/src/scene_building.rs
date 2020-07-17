@@ -3152,17 +3152,6 @@ mut
 PrimitiveList
 )
 {
-if
-!
-self
-.
-config
-.
-global_enable_picture_caching
-{
-return
-;
-}
 /
 /
 Ensure
