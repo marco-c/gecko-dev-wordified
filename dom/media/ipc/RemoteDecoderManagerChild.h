@@ -218,7 +218,7 @@ any
 thread
 .
 static
-nsIThread
+nsISerialEventTarget
 *
 GetManagerThread
 (
