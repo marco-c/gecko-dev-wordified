@@ -742,6 +742,9 @@ AutoAnnotateCrashReport
 (
 )
 ;
+#
+ifdef
+MOZ_CRASHREPORTER
 private
 :
 Annotation
@@ -750,6 +753,8 @@ mKey
 nsCString
 mPrevious
 ;
+#
+endif
 }
 ;
 void
