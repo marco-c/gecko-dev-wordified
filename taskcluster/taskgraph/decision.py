@@ -1383,6 +1383,10 @@ parameters
 decision_task_id
 =
 decision_task_id
+        
+write_artifacts
+=
+True
     
 )
     

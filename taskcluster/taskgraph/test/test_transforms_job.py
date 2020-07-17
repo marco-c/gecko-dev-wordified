@@ -247,6 +247,9 @@ here
 [
 ]
 graph_config
+write_artifacts
+=
+False
 )
 pytest
 .

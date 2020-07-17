@@ -285,6 +285,7 @@ load_tasks
 self
 parameters
 loaded_tasks
+write_artifacts
 )
 :
         
@@ -310,6 +311,7 @@ load_tasks
 (
 parameters
 loaded_tasks
+write_artifacts
 )
 class
 WithFakeKind
