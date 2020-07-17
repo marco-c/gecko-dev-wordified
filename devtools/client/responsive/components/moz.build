@@ -93,11 +93,6 @@ App
 js
 '
 '
-Browser
-.
-js
-'
-'
 Device
 .
 js
