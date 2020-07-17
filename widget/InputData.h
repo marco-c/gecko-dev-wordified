@@ -1436,15 +1436,6 @@ aWidget
 )
 const
 ;
-WidgetMouseEvent
-ToWidgetMouseEvent
-(
-nsIWidget
-*
-aWidget
-)
-const
-;
 /
 /
 Return
