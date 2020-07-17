@@ -156,20 +156,6 @@ indices
 "
     
 "
-export
--
-star
--
-as
--
-namespace
--
-from
--
-module
-"
-    
-"
 Intl
 .
 DateTimeFormat
