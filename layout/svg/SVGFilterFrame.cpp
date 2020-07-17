@@ -1151,7 +1151,7 @@ this
 ;
 }
 return
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 AttributeChanged
@@ -1204,7 +1204,7 @@ filter
 "
 )
 ;
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 Init

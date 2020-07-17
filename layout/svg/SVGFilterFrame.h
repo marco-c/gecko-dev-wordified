@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -140,13 +149,6 @@ h
 include
 "
 nsQueryFrame
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -223,7 +225,7 @@ SVGFilterFrame
 final
 :
 public
-nsSVGContainerFrame
+SVGContainerFrame
 {
 friend
 nsIFrame
@@ -256,7 +258,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGContainerFrame
+SVGContainerFrame
 (
 aStyle
 aPresContext

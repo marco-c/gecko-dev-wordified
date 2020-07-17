@@ -475,7 +475,7 @@ NS_OK
 -
 /
 /
-nsSVGContainerFrame
+SVGContainerFrame
 methods
 :
 gfxMatrix
@@ -500,7 +500,7 @@ parent
 return
 static_cast
 <
-nsSVGContainerFrame
+SVGContainerFrame
 *
 >
 (

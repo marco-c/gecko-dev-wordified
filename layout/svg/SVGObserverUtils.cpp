@@ -6015,7 +6015,7 @@ normally
 happen
 *
 via
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 RemoveFrame

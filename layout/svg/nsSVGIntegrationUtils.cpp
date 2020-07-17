@@ -1522,7 +1522,7 @@ region
 relative
 to
 the
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 which
 is
 absolutely
@@ -1798,7 +1798,7 @@ aUnionContinuations
 /
 Except
 for
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 we
 shouldn
 '

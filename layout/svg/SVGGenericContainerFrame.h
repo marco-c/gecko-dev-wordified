@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -154,13 +163,6 @@ h
 include
 "
 nsQueryFrame
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -207,7 +209,7 @@ SVGGenericContainerFrame
 final
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -240,7 +242,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext
@@ -302,7 +304,7 @@ aResult
 endif
 /
 /
-nsSVGContainerFrame
+SVGContainerFrame
 methods
 :
 virtual

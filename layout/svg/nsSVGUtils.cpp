@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsSVGContainerFrame
-.
-h
-"
-#
-include
-"
 nsSVGDisplayableFrame
 .
 h
@@ -310,13 +303,6 @@ h
 include
 "
 nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
-nsSVGOuterSVGFrame
 .
 h
 "
@@ -384,6 +370,15 @@ include
 "
 mozilla
 /
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SVGContentUtils
 .
 h
@@ -430,6 +425,15 @@ include
 mozilla
 /
 SVGObserverUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGOuterSVGFrame
 .
 h
 "
@@ -1013,7 +1017,7 @@ nsIFrame
 aFrame
 )
 {
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 outer
 =
@@ -1189,7 +1193,7 @@ calls
 InvalidateBounds
 )
 or
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 InsertFrames
@@ -1266,7 +1270,7 @@ reflow
 return
 ;
 }
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 outerSVGFrame
 =
@@ -1282,7 +1286,7 @@ dirty
 bits
 to
 the
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 or
 else
 /
@@ -1316,7 +1320,7 @@ outerSVGFrame
 =
 static_cast
 <
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 >
 (
@@ -1418,7 +1422,7 @@ outerSVGFrame
 =
 static_cast
 <
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 >
 (
@@ -1440,7 +1444,7 @@ IsSVGOuterSVGFrame
 Did
 not
 find
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 !
 "
 )
@@ -1465,7 +1469,7 @@ re
 currently
 under
 an
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 :
 :
 Reflow
@@ -1489,7 +1493,7 @@ have
 an
 /
 /
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 :
 :
 DidReflow
@@ -1932,7 +1936,7 @@ aMetrics
 )
 ;
 }
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 nsSVGUtils
 :
@@ -1962,7 +1966,7 @@ IsSVGOuterSVGFrame
 return
 static_cast
 <
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 >
 (
@@ -2018,7 +2022,7 @@ return
 nullptr
 ;
 }
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 *
 outer
 =
@@ -2400,7 +2404,7 @@ aFrame
 )
 ;
 }
-nsSVGContainerFrame
+SVGContainerFrame
 *
 containerFrame
 =
@@ -4141,7 +4145,7 @@ if
 (
 static_cast
 <
-nsSVGContainerFrame
+SVGContainerFrame
 *
 >
 (
@@ -5537,7 +5541,7 @@ nsSVGUtils
 :
 HitTestChildren
 (
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 *
 aFrame
 const

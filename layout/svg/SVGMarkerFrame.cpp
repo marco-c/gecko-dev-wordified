@@ -437,7 +437,7 @@ this
 ;
 }
 return
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 AttributeChanged
@@ -490,7 +490,7 @@ marker
 "
 )
 ;
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 Init
@@ -582,7 +582,7 @@ DEBUG
 -
 /
 /
-nsSVGContainerFrame
+SVGContainerFrame
 methods
 :
 gfxMatrix
@@ -1739,7 +1739,7 @@ parent
 "
 )
 ;
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 Init

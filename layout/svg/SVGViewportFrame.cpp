@@ -163,14 +163,16 @@ h
 #
 include
 "
-nsSVGDisplayableFrame
+mozilla
+/
+SVGContainerFrame
 .
 h
 "
 #
 include
 "
-nsSVGContainerFrame
+nsSVGDisplayableFrame
 .
 h
 "
@@ -448,7 +450,7 @@ clipRect
 )
 ;
 }
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 PaintSVG
@@ -586,7 +588,7 @@ InvalidateFrame
 )
 ;
 }
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 ReflowSVG
@@ -948,7 +950,7 @@ left
 }
 }
 }
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 NotifySVGChanged
@@ -1218,7 +1220,7 @@ children
 SVGBBox
 descendantsBbox
 =
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 GetBBoxContribution
@@ -1801,7 +1803,7 @@ nullptr
 }
 }
 return
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 GetFrameForPoint
@@ -2061,7 +2063,7 @@ SVGViewportFrame
 -
 /
 /
-nsSVGContainerFrame
+SVGContainerFrame
 methods
 :
 bool

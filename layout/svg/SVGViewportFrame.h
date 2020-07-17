@@ -132,7 +132,9 @@ h
 #
 include
 "
-nsSVGContainerFrame
+mozilla
+/
+SVGContainerFrame
 .
 h
 "
@@ -168,7 +170,7 @@ class
 SVGViewportFrame
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 public
 nsISVGSVGFrame
 {
@@ -189,7 +191,7 @@ ClassID
 aID
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext
@@ -287,7 +289,7 @@ override
 ;
 /
 /
-nsSVGContainerFrame
+SVGContainerFrame
 methods
 :
 virtual

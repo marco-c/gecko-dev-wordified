@@ -316,7 +316,7 @@ public
 :
 /
 /
-nsSVGContainerFrame
+SVGContainerFrame
 methods
 :
 virtual

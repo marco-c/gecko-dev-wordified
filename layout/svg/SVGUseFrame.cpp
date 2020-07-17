@@ -813,7 +813,7 @@ is
 handled
 by
 the
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 for
 the
 anonymous

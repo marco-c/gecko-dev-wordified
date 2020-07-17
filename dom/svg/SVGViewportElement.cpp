@@ -1470,7 +1470,7 @@ and
 .
 Since
 our
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 /
 /
 is

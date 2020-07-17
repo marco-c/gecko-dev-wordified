@@ -152,6 +152,15 @@ include
 "
 mozilla
 /
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -194,13 +203,6 @@ GetContent
 include
 "
 nsStubMutationObserver
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -1078,7 +1080,7 @@ SVGTextFrame
 final
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -1171,7 +1173,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext
@@ -1681,7 +1683,7 @@ When
 we
 are
 under
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 ReflowSVG
@@ -1798,7 +1800,7 @@ the
 way
 to
 the
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 .
 It
 exists
@@ -1835,7 +1837,7 @@ frame
 so
 that
 *
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 ReflowSVG

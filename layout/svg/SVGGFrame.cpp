@@ -369,7 +369,7 @@ transformable
 "
 )
 ;
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 Init
