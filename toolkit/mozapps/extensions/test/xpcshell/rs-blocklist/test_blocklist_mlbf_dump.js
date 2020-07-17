@@ -184,6 +184,11 @@ Date
 dummy
 date
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 /
@@ -267,6 +272,11 @@ signing
 time
 )
 .
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 async

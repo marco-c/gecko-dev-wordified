@@ -656,6 +656,11 @@ MLBF
 s
 generationTime
 .
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 const
@@ -692,6 +697,11 @@ MLBF
 s
 generationTime
 .
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 await
@@ -940,6 +950,11 @@ recordUpdate
 .
 generation_time
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 /
@@ -1145,6 +1160,11 @@ MLBF
 s
 generationTime
 .
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 async
