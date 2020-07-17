@@ -2090,6 +2090,8 @@ collection
 void
 collect
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -5059,6 +5061,8 @@ nursery
 void
 maybeResizeNursery
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -5069,6 +5073,8 @@ reason
 size_t
 targetSize
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
