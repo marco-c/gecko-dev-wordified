@@ -1007,14 +1007,6 @@ getTabTarget
 >
 {
 }
-getNetworkRequest
-:
-(
-)
-=
->
-{
-}
 sendHTTPRequest
 :
 (

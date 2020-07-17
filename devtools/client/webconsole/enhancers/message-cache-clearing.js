@@ -169,12 +169,6 @@ MESSAGES_CLEAR
 {
 webConsoleUI
 .
-clearNetworkRequests
-(
-)
-;
-webConsoleUI
-.
 clearMessagesCache
 (
 )
