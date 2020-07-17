@@ -2373,6 +2373,14 @@ None
         
 self
 .
+_pre_compile
+=
+set
+(
+)
+        
+self
+.
 _no_skip
 =
 {
@@ -3683,7 +3691,11 @@ required_during_compile
                 
 tier
 =
-None
+'
+pre
+-
+compile
+'
             
 else
 :
@@ -3694,10 +3706,6 @@ tier
 misc
 '
             
-if
-tier
-:
-                
 relobjdir
 =
 mozpath
@@ -3713,6 +3721,29 @@ environment
 .
 topobjdir
 )
+            
+if
+tier
+=
+=
+'
+pre
+-
+compile
+'
+:
+                
+self
+.
+_pre_compile
+.
+add
+(
+relobjdir
+)
+            
+else
+:
                 
 self
 .
@@ -3804,6 +3835,13 @@ target
             
 if
 tier
+!
+=
+'
+pre
+-
+compile
+'
 and
 relobjdir
 :
@@ -5176,6 +5214,46 @@ in
 sorted
 (
 main
+)
+)
+        
+rule
+=
+root_deps_mk
+.
+create_rule
+(
+[
+'
+recurse_pre
+-
+compile
+'
+]
+)
+        
+rule
+.
+add_dependencies
+(
+'
+%
+s
+/
+pre
+-
+compile
+'
+%
+d
+for
+d
+in
+sorted
+(
+self
+.
+_pre_compile
 )
 )
         

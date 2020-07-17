@@ -3873,6 +3873,23 @@ mk
 '
             
 '
+pre
+-
+compile
+:
+:
+(
+MDDEPDIR
+)
+/
+bar
+.
+c
+.
+stub
+'
+            
+'
 bar
 .
 c
@@ -4302,6 +4319,23 @@ mk
 '
             
 '
+pre
+-
+compile
+:
+:
+(
+MDDEPDIR
+)
+/
+bar
+.
+c
+.
+stub
+'
+            
+'
 bar
 .
 c
@@ -4440,6 +4474,23 @@ TOUCH
 '
             
 '
+'
+            
+'
+pre
+-
+compile
+:
+:
+(
+MDDEPDIR
+)
+/
+foo
+.
+c
+.
+stub
 '
             
 '
