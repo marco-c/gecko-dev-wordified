@@ -3328,6 +3328,17 @@ OutputLatency
 (
 )
 {
+if
+(
+mIsShutDown
+)
+{
+return
+0
+.
+0
+;
+}
 /
 /
 When
