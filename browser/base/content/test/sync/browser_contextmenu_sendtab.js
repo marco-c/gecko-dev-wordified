@@ -606,9 +606,9 @@ The
 Book
 of
 Mozilla
-11
+6
 :
-14
+27
 "
 )
 ;

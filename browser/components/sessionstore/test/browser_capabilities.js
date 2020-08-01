@@ -720,7 +720,7 @@ gBrowser
 "
 about
 :
-mozilla
+rights
 "
 )
 ;
