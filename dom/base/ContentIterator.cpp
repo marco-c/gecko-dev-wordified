@@ -1354,8 +1354,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+const
 bool
-startIsData
+startIsCharacterData
 =
 aStart
 .
@@ -1431,7 +1432,7 @@ range
 if
 (
 !
-startIsData
+startIsCharacterData
 &
 &
 aStart
@@ -1461,7 +1462,7 @@ node
 .
 if
 (
-startIsData
+startIsCharacterData
 &
 &
 aStart
@@ -1553,7 +1554,7 @@ Container
 if
 (
 !
-startIsData
+startIsCharacterData
 )
 {
 cChild
@@ -1757,7 +1758,7 @@ name
 if
 (
 !
-startIsData
+startIsCharacterData
 &
 &
 (
