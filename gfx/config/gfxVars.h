@@ -558,6 +558,13 @@ UseAHardwareBufferContent
 bool
 false
 )
+\
+_
+(
+UseEGL
+bool
+false
+)
 /
 *
 Add
