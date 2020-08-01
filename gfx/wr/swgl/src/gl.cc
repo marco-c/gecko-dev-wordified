@@ -242,13 +242,6 @@ using
 namespace
 glsl
 ;
-constexpr
-I32
-VertexShaderImpl
-:
-:
-gl_VertexID
-;
 struct
 IntRect
 {
