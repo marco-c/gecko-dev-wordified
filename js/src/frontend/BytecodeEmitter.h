@@ -5826,6 +5826,15 @@ uint32_t
 atomIndex
 )
 ;
+MOZ_MUST_USE
+bool
+allowSelfHostedIter
+(
+ParseNode
+*
+parseNode
+)
+;
 }
 ;
 class
