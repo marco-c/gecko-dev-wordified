@@ -709,7 +709,7 @@ made
 in
 URIUsesDocChannel
 in
-nsDocShell
+DocumentChannel
 .
 cpp
 .
