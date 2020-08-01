@@ -286,6 +286,9 @@ false
 experimental
 :
 false
+prefixNeeded
+:
+true
 unsupportedBrowsers
 :
 [
