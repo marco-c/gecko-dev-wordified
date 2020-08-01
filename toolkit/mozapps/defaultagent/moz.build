@@ -173,6 +173,11 @@ Registry
 cpp
 "
 "
+RemoteSettings
+.
+cpp
+"
+"
 ScheduledTask
 .
 cpp
