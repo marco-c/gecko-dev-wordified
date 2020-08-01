@@ -22,7 +22,6 @@ support
 import
 EXAMPLE_TEST
 get_running_env
-temp_dir
 BT_DATA
 from
 mozperftest
@@ -36,6 +35,7 @@ mozperftest
 utils
 import
 silence
+temp_dir
 mock
 .
 patch

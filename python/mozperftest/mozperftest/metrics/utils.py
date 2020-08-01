@@ -198,6 +198,9 @@ options
 "
 extraOptions
 "
+"
+framework
+"
 ]
 )
     

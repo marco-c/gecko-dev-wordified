@@ -102,23 +102,6 @@ mach_cmd
 )
 :
     
-if
-flavor
-in
-(
-"
-mobile
--
-browser
-"
-"
-desktop
--
-browser
-"
-)
-:
-        
 return
 Layers
 (
@@ -127,10 +110,4 @@ mach_cmd
 get_layers
 (
 )
-)
-    
-raise
-NotImplementedError
-(
-flavor
 )

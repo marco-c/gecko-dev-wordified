@@ -154,7 +154,6 @@ convert_day
 noqa
 FLAVORS
 =
-[
 "
 desktop
 -
@@ -168,7 +167,9 @@ browser
 "
 doc
 "
-]
+"
+xpcshell
+"
 class
 Options
 :

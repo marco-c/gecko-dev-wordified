@@ -72,6 +72,14 @@ AndroidLog
 from
 mozperftest
 .
+test
+.
+xpcshell
+import
+XPCShell
+from
+mozperftest
+.
 layers
 import
 Layers
@@ -82,10 +90,9 @@ get_layers
 :
     
 return
-(
 BrowsertimeRunner
 AndroidLog
-)
+XPCShell
 def
 pick_test
 (
@@ -94,6 +101,25 @@ flavor
 mach_cmd
 )
 :
+    
+if
+flavor
+=
+=
+"
+xpcshell
+"
+:
+        
+return
+Layers
+(
+env
+mach_cmd
+(
+XPCShell
+)
+)
     
 if
 flavor

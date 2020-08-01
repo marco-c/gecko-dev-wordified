@@ -38,8 +38,6 @@ get_running_env
     
 temp_file
     
-temp_dir
-    
 EXAMPLE_TEST
     
 BT_DATA
@@ -58,6 +56,7 @@ mozperftest
 utils
 import
 silence
+temp_dir
 from
 mozperftest
 .

@@ -25,7 +25,6 @@ import
 get_running_env
 EXAMPLE_TEST
 temp_file
-temp_dir
 from
 mozperftest
 .
@@ -34,6 +33,12 @@ import
 SYSTEM
 TEST
 METRICS
+from
+mozperftest
+.
+utils
+import
+temp_dir
 HERE
 =
 pathlib
