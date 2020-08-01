@@ -954,8 +954,6 @@ a
 new
 nsDocShell
 object
-initializing
-it
 .
 static
 already_AddRefed
@@ -977,6 +975,11 @@ uint64_t
 aContentWindowID
 =
 0
+)
+;
+bool
+Initialize
+(
 )
 ;
 NS_IMETHOD
@@ -8224,7 +8227,7 @@ mInEnsureScriptEnv
 #
 endif
 bool
-mCreated
+mInitialized
 :
 1
 ;
