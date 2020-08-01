@@ -6918,6 +6918,10 @@ const
 uint32_t
 &
 aFamilyIndex
+const
+bool
+&
+aLoadCmaps
 )
 ;
 mozilla
