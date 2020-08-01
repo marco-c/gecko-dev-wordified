@@ -9754,6 +9754,15 @@ isMax
 )
 ;
 AttachDecision
+tryAttachIsTypedArray
+(
+HandleFunction
+callee
+bool
+isPossiblyWrapped
+)
+;
+AttachDecision
 tryAttachTypedArrayByteOffset
 (
 HandleFunction
