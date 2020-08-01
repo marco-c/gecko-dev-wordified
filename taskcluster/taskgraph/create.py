@@ -777,6 +777,13 @@ submit
 slugid
 (
 )
+.
+decode
+(
+"
+ascii
+"
+)
 taskid_to_label
 [
 task_id
