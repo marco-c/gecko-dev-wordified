@@ -69,7 +69,7 @@ use
 glean
 :
 :
-metrics
+private
 :
 :
 {

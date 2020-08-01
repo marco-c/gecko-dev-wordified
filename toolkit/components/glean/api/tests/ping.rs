@@ -78,7 +78,7 @@ use
 glean
 :
 :
-metrics
+private
 :
 :
 Ping

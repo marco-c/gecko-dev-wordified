@@ -75,7 +75,7 @@ use
 glean
 :
 :
-metrics
+private
 :
 :
 {
