@@ -935,11 +935,6 @@ CONTENT_BLOCKING_GROUP
 "
 contentBlockingWarningGroup
 "
-STORAGE_ISOLATION_GROUP
-:
-"
-storageIsolationWarningGroup
-"
 TRACKING_PROTECTION_GROUP
 :
 "
