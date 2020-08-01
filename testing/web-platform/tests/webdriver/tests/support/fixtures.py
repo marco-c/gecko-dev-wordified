@@ -1524,6 +1524,8 @@ new_handle
     
 session
 .
+window
+.
 close
 (
 )
