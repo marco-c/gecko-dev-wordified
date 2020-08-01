@@ -4194,10 +4194,7 @@ createBlankPrototypeInheriting
 (
 cx
 &
-PlainObject
-:
-:
-class_
+AsyncIteratorHelperPrototypeClass
 asyncIterProto
 )
 )
