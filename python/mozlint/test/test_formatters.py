@@ -56,6 +56,8 @@ MPL
 import
 json
 import
+attr
+import
 mozunit
 import
 mozpack
@@ -1041,15 +1043,6 @@ fmt
 (
 result
 )
-.
-encode
-(
-"
-utf
--
-8
-"
-)
 =
 =
 opts
@@ -1058,15 +1051,6 @@ opts
 format
 "
 ]
-.
-encode
-(
-"
-utf
--
-8
-"
-)
 def
 test_json_formatter
 (
@@ -1119,11 +1103,14 @@ keys
 )
 )
     
-slots
+attrs
 =
-Issue
+attr
 .
-__slots__
+fields
+(
+Issue
+)
     
 for
 errors
@@ -1144,13 +1131,15 @@ errors
 assert
 all
 (
-s
+a
+.
+name
 in
 err
 for
-s
+a
 in
-slots
+attrs
 )
 if
 __name__

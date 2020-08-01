@@ -53,6 +53,8 @@ MPL
 0
 /
 .
+import
+attr
 from
 .
 .
@@ -187,21 +189,12 @@ Issue
                 
 slots
 =
-{
-s
-:
-getattr
+attr
+.
+asdict
 (
 err
-s
 )
-for
-s
-in
-err
-.
-__slots__
-}
                 
 slots
 [
