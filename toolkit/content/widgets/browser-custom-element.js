@@ -8906,7 +8906,6 @@ print
 (
 aOuterWindowID
 aPrintSettings
-aPrintProgressListener
 )
 {
 if
@@ -8934,6 +8933,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
+return
 this
 .
 frameLoader
@@ -8942,7 +8942,6 @@ print
 (
 aOuterWindowID
 aPrintSettings
-aPrintProgressListener
 )
 ;
 }
