@@ -493,12 +493,10 @@ bool
 IsInitialized
 (
 )
+const
 {
 return
-nullptr
-!
-=
-mCupsLib
+mInited
 ;
 }
 /
@@ -540,6 +538,11 @@ mCupsTempFd
 ;
 private
 :
+bool
+mInited
+=
+false
+;
 PRLibrary
 *
 mCupsLib
