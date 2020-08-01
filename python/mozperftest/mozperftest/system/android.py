@@ -116,7 +116,7 @@ v1
 task
 /
 "
-_FENIX_FENNEC_BUILDS
+_FENIX_NIGHTLY_BUILDS
 =
 (
     
@@ -127,8 +127,6 @@ v2
 .
 fenix
 .
-fennec
--
 nightly
 .
 latest
@@ -182,13 +180,13 @@ _PERMALINKS
 {
     
 "
-fenix_fennec_nightly_armeabi_v7a
+fenix_nightly_armeabi_v7a
 "
 :
 _ROOT_URL
     
 +
-_FENIX_FENNEC_BUILDS
+_FENIX_NIGHTLY_BUILDS
 .
 format
 (
@@ -202,13 +200,13 @@ v7a
 )
     
 "
-fenix_fennec_nightly_arm64_v8a
+fenix_nightly_arm64_v8a
 "
 :
 _ROOT_URL
     
 +
-_FENIX_FENNEC_BUILDS
+_FENIX_NIGHTLY_BUILDS
 .
 format
 (
