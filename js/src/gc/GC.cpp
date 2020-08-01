@@ -14523,6 +14523,10 @@ weakRefMap
 .
 sweep
 (
+&
+storeBuffer
+(
+)
 )
 ;
 {
@@ -33448,6 +33452,10 @@ weakRefMap
 .
 sweep
 (
+&
+storeBuffer
+(
+)
 )
 ;
 }
