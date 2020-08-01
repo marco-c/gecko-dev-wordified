@@ -902,6 +902,13 @@ message
 \
 do
 {
+if
+(
+sk_abort_is_enabled
+(
+)
+)
+{
 \
 SkNO_RETURN_HINT
 (
@@ -927,6 +934,7 @@ sk_abort_no_print
 SkUNREACHABLE
 ;
 \
+}
 }
 while
 (

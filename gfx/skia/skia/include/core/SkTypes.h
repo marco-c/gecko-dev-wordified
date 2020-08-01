@@ -161,6 +161,13 @@ sk_abort_no_print
 void
 )
 ;
+SK_API
+extern
+bool
+sk_abort_is_enabled
+(
+)
+;
 #
 ifndef
 SkDebugf
