@@ -91,7 +91,7 @@ super
 *
 ;
 use
-cocoa
+cocoa_foundation
 :
 :
 foundation
@@ -110,6 +110,7 @@ u64
 [
 derive
 (
+Copy
 Clone
 Debug
 )
@@ -139,6 +140,7 @@ u64
 [
 derive
 (
+Copy
 Clone
 Debug
 )
@@ -177,6 +179,7 @@ C
 [
 derive
 (
+Copy
 Clone
 Debug
 )
@@ -185,15 +188,19 @@ pub
 struct
 MTLClearColor
 {
+pub
 red
 :
 f64
+pub
 green
 :
 f64
+pub
 blue
 :
 f64
+pub
 alpha
 :
 f64
@@ -226,7 +233,7 @@ f64
 >
 Self
 {
-MTLClearColor
+Self
 {
 red
 green

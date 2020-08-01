@@ -85,7 +85,7 @@ those
 terms
 .
 use
-cocoa
+cocoa_foundation
 :
 :
 foundation

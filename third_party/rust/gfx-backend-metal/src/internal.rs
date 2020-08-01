@@ -3282,8 +3282,6 @@ Immutable
 }
 *
 /
-unsafe
-{
 device
 .
 new_compute_pipeline_state
@@ -3291,7 +3289,6 @@ new_compute_pipeline_state
 &
 pipeline
 )
-}
 .
 unwrap
 (
@@ -3437,8 +3434,6 @@ Immutable
 }
 *
 /
-unsafe
-{
 device
 .
 new_compute_pipeline_state
@@ -3446,7 +3441,6 @@ new_compute_pipeline_state
 &
 pipeline
 )
-}
 .
 unwrap
 (
