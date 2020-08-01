@@ -14932,6 +14932,13 @@ InitArrayElemOperation
 cx
 pc
 obj
+.
+as
+<
+ArrayObject
+>
+(
+)
 index
 .
 toInt32
@@ -14966,6 +14973,13 @@ InitArrayElemOperation
 cx
 pc
 obj
+.
+as
+<
+ArrayObject
+>
+(
+)
 index
 .
 toInt32

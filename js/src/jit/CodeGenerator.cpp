@@ -84066,7 +84066,7 @@ JSContext
 *
 jsbytecode
 *
-HandleObject
+HandleArrayObject
 uint32_t
 HandleValue
 )
