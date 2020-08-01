@@ -126,15 +126,6 @@ h
 #
 include
 "
-mozilla
-/
-WritingModes
-.
-h
-"
-#
-include
-"
 nsStyleStruct
 .
 h
@@ -143,11 +134,6 @@ h
 /
 for
 nsStyleDisplay
-&
-nsStyleBackground
-:
-:
-Position
 namespace
 mozilla
 {
