@@ -570,6 +570,7 @@ h
 ImmutableScriptData
 ScopeNote
 TryNote
+GCThingIndex
 #
 include
 "
@@ -1828,9 +1829,12 @@ i
 .
 index
 =
+GCThingIndex
+(
 scopeNote
 .
 index
+)
 ;
 scopeNotes
 [
@@ -1899,9 +1903,12 @@ nfixed
 smooshScriptData
 .
 nslots
+GCThingIndex
+(
 smooshScriptData
 .
 body_scope_index
+)
 smooshScriptData
 .
 num_ic_entries

@@ -5600,6 +5600,8 @@ isd
 -
 >
 bodyScopeIndex
+.
+index
 )
 )
 ;
@@ -5766,6 +5768,8 @@ codeUint32
 (
 &
 elem
+.
+index
 .
 index
 )
@@ -28413,7 +28417,12 @@ bodyScopeIndex
 )
 =
 =
-0
+GCThingIndex
+:
+:
+outermostScopeIndex
+(
+)
 )
 ;
 Rooted
@@ -28699,6 +28708,8 @@ src
 bodyScopeIndex
 (
 )
+.
+index
 ;
 i
 +
@@ -28712,7 +28723,10 @@ src
 >
 getScope
 (
+GCThingIndex
+(
 i
+)
 )
 ;
 if
@@ -28737,9 +28751,12 @@ src
 >
 getScope
 (
+GCThingIndex
+(
 i
 -
 1
+)
 )
 =
 =
@@ -29066,7 +29083,7 @@ uint32_t
 nfixed
 uint32_t
 nslots
-uint32_t
+GCThingIndex
 bodyScopeIndex
 uint32_t
 numICEntries

@@ -520,6 +520,7 @@ h
 /
 /
 ImmutableScriptFlags
+GCThingIndex
 #
 include
 "
@@ -2326,7 +2327,7 @@ index
 using
 FunctionDeclaration
 =
-uint32_t
+GCThingIndex
 ;
 using
 FunctionDeclarationVector

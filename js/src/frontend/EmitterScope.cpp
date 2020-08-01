@@ -2299,6 +2299,8 @@ bce
 >
 bodyScopeIndex
 =
+GCThingIndex
+(
 bce
 -
 >
@@ -2312,6 +2314,7 @@ gcThingList
 .
 length
 (
+)
 )
 ;
 return
@@ -2462,7 +2465,10 @@ bce
 bodyScopeIndex
 =
 =
-UINT32_MAX
+ScopeNote
+:
+:
+NoScopeIndex
 "
 There
 can
@@ -2479,6 +2485,8 @@ bce
 >
 bodyScopeIndex
 =
+GCThingIndex
+(
 bce
 -
 >
@@ -2492,6 +2500,7 @@ gcThingList
 .
 length
 (
+)
 )
 ;
 return
@@ -5339,7 +5348,12 @@ bce
 bodyScopeIndex
 =
 =
-0
+GCThingIndex
+:
+:
+outermostScopeIndex
+(
+)
 "
 Global
 scope

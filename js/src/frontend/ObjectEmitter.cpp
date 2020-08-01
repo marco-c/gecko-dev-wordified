@@ -296,6 +296,18 @@ parserNames
 #
 include
 "
+vm
+/
+SharedStencil
+.
+h
+"
+/
+/
+GCThingIndex
+#
+include
+"
 gc
 /
 ObjectKind
@@ -3664,7 +3676,7 @@ empty
 ;
 }
 }
-uint32_t
+GCThingIndex
 atomIndex
 ;
 if

@@ -695,7 +695,10 @@ JSScript
 :
 getFunction
 (
-size_t
+js
+:
+:
+GCThingIndex
 index
 )
 const
@@ -784,7 +787,7 @@ const
 return
 getFunction
 (
-GET_UINT32_INDEX
+GET_GCTHING_INDEX
 (
 pc
 )
@@ -802,7 +805,10 @@ JSScript
 :
 getRegExp
 (
-size_t
+js
+:
+:
+GCThingIndex
 index
 )
 const

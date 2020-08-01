@@ -202,6 +202,18 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+vm
+/
+SharedStencil
+.
+h
+"
+/
+/
+GCThingIndex
 namespace
 js
 {
@@ -445,7 +457,7 @@ ScopeNote
 :
 NoScopeIndex
 .
-uint32_t
+GCThingIndex
 scopeIndex_
 ;
 /
@@ -817,7 +829,7 @@ nonLocal
 false
 )
 ;
-uint32_t
+GCThingIndex
 index
 (
 )

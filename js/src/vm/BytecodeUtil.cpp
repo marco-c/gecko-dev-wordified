@@ -8788,10 +8788,7 @@ script
 >
 getScope
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 )
 ;
@@ -8946,10 +8943,7 @@ script
 >
 getAtom
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 )
 )
@@ -9172,10 +9166,7 @@ script
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 {
@@ -9651,10 +9642,8 @@ case
 JOF_CLASS_CTOR
 :
 {
-uint32_t
+GCThingIndex
 atomIndex
-=
-0
 ;
 uint32_t
 classStartOffset
@@ -11890,10 +11879,7 @@ script
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 )
 ;
@@ -11949,10 +11935,7 @@ script
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 )
 ;
@@ -12110,10 +12093,7 @@ script
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 RootedValue
