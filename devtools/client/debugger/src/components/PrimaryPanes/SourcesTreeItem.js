@@ -1040,6 +1040,7 @@ item
 const
 {
 cx
+depth
 projectRoot
 }
 =
@@ -1138,6 +1139,12 @@ setProjectDirectoryRoot
 (
 cx
 path
+this
+.
+renderItemName
+(
+depth
+)
 )
 }
 )
