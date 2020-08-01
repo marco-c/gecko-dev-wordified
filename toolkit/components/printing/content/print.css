@@ -59,10 +59,13 @@ MPL
 html
 body
 {
+width
+:
+250px
+;
 height
 :
-100
-%
+600px
 ;
 }
 body
@@ -99,7 +102,7 @@ inline
 -
 start
 :
-34px
+18px
 ;
 margin
 -
