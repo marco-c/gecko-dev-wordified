@@ -16278,6 +16278,11 @@ IsCurrentActiveDocument
 IsBeingUsedAsImage
 (
 )
+|
+|
+IsStaticDocument
+(
+)
 ;
 }
 /
