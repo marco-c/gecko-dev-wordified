@@ -9754,6 +9754,13 @@ isMax
 )
 ;
 AttachDecision
+tryAttachTypedArrayElementShift
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
