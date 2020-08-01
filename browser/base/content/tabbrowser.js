@@ -28959,7 +28959,7 @@ outerID
 =
 window
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;
