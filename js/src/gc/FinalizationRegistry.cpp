@@ -924,7 +924,18 @@ registryDuringGC
 this
 )
 ;
+FinalizationQueueObject
+*
+queue
+=
 registry
+-
+>
+queue
+(
+)
+;
+queue
 -
 >
 queueRecordToBeCleanedUp
@@ -934,7 +945,7 @@ record
 ;
 queueFinalizationRegistryForCleanup
 (
-registry
+queue
 )
 ;
 }
@@ -953,9 +964,9 @@ GCRuntime
 :
 queueFinalizationRegistryForCleanup
 (
-FinalizationRegistryObject
+FinalizationQueueObject
 *
-registry
+queue
 )
 {
 /
@@ -980,7 +991,7 @@ necessary
 .
 if
 (
-registry
+queue
 -
 >
 isQueuedForCleanup
@@ -1017,7 +1028,7 @@ object
 =
 UncheckedUnwrapWithoutExpose
 (
-registry
+queue
 -
 >
 incumbentObject
@@ -1044,7 +1055,7 @@ nonCCWGlobal
 ;
 callHostCleanupFinalizationRegistryCallback
 (
-registry
+queue
 -
 >
 doCleanupFunction
@@ -1053,7 +1064,7 @@ doCleanupFunction
 incumbentGlobal
 )
 ;
-registry
+queue
 -
 >
 setQueuedForCleanup

@@ -268,6 +268,9 @@ class
 FinalizationRegistryObject
 ;
 class
+FinalizationQueueObject
+;
+class
 VerifyPreTracer
 ;
 class
@@ -4502,9 +4505,9 @@ zone
 void
 queueFinalizationRegistryForCleanup
 (
-FinalizationRegistryObject
+FinalizationQueueObject
 *
-registry
+queue
 )
 ;
 void
