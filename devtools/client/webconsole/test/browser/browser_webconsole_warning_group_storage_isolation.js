@@ -131,7 +131,7 @@ const
 PARTITIONED_URL
 =
 "
-http
+https
 :
 /
 /
