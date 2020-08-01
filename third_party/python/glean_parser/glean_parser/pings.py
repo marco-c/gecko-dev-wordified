@@ -79,16 +79,42 @@ pings
 "
 "
 "
-from
-typing
 import
-Dict
-List
-Optional
-from
+sys
+#
+Import
+a
+backport
+of
+PEP487
+to
+support
+__init_subclass__
+if
+sys
 .
+version_info
+<
+(
+3
+6
+)
+:
+    
 import
-util
+pep487
+    
+base_object
+=
+pep487
+.
+PEP487Object
+else
+:
+    
+base_object
+=
+object
 RESERVED_PING_NAMES
 =
 [
@@ -102,13 +128,14 @@ metrics
 events
 "
 "
-deletion
--
-request
+deletion_request
 "
 ]
 class
 Ping
+(
+base_object
+)
 :
     
 def
@@ -118,64 +145,30 @@ __init__
 self
         
 name
-:
-str
         
 description
-:
-str
         
 bugs
-:
-List
-[
-str
-]
         
 notification_emails
-:
-List
-[
-str
-]
         
 data_reviews
-:
-Optional
-[
-List
-[
-str
-]
-]
 =
 None
         
 include_client_id
-:
-bool
 =
 False
         
 send_if_empty
-:
-bool
 =
 False
         
 reasons
-:
-Dict
-[
-str
-str
-]
 =
 None
         
 _validated
-:
-bool
 =
 False
     
@@ -294,17 +287,8 @@ _validated
 :
             
 data
-:
-Dict
-[
-str
-util
-.
-JSONType
-]
 =
 {
-                
 "
 schema
 "
@@ -312,7 +296,6 @@ schema
 parser
 .
 PINGS_ID
-                
 self
 .
 name
@@ -322,7 +305,6 @@ self
 serialize
 (
 )
-            
 }
             
 for
@@ -362,9 +344,6 @@ type
 (
 self
 )
--
->
-str
 :
         
 return
@@ -379,12 +358,6 @@ reason_codes
 (
 self
 )
--
->
-List
-[
-str
-]
 :
         
 return
@@ -407,15 +380,6 @@ serialize
 (
 self
 )
--
->
-Dict
-[
-str
-util
-.
-JSONType
-]
 :
         
 "

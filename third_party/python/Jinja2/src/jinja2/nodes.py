@@ -4668,8 +4668,6 @@ contextfilter
 "
 False
 )
-is
-True
 :
             
 raise
@@ -4757,8 +4755,6 @@ evalcontextfilter
 "
 False
 )
-is
-True
 :
             
 args
@@ -4778,8 +4774,6 @@ environmentfilter
 "
 False
 )
-is
-True
 :
             
 args

@@ -1818,10 +1818,8 @@ __obj
 "
 contextfunction
 "
-False
+0
 )
-is
-True
 :
                 
 args
@@ -1839,10 +1837,8 @@ __obj
 "
 evalcontextfunction
 "
-False
+0
 )
-is
-True
 :
                 
 args
@@ -1862,10 +1858,8 @@ __obj
 "
 environmentfunction
 "
-False
+0
 )
-is
-True
 :
                 
 args
