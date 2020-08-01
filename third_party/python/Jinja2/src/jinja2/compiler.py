@@ -10297,6 +10297,8 @@ contextfunction
 "
 False
 )
+is
+True
 :
                 
 src
@@ -10323,6 +10325,8 @@ evalcontextfunction
 "
 False
 )
+is
+True
 :
                 
 src
@@ -10347,6 +10351,8 @@ environmentfunction
 "
 False
 )
+is
+True
 :
                 
 src
@@ -13241,6 +13247,8 @@ contextfilter
 "
 False
 )
+is
+True
 :
             
 self
@@ -13261,6 +13269,8 @@ evalcontextfilter
 "
 False
 )
+is
+True
 :
             
 self
@@ -13283,6 +13293,8 @@ environmentfilter
 "
 False
 )
+is
+True
 :
             
 self
