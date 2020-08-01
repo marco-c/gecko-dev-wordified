@@ -1150,7 +1150,15 @@ in
 a
 composition
 .
-UpdateCompositedFrame
+Send
+ImageCompositeNotifications
+and
+call
+/
+/
+UpdateBias
+.
+OnFinishRendering
 (
 imageIndex
 img
