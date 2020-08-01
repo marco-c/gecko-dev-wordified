@@ -2689,6 +2689,67 @@ next
 (
 results
 )
+def
+split_bugbug_arg
+(
+arg
+)
+:
+    
+"
+"
+"
+    
+The
+bugbug
+optimization
+strageies
+require
+passing
+an
+dict
+as
+    
+scratch
+space
+for
+communicating
+with
+downstream
+stratgies
+.
+    
+This
+function
+pass
+the
+provided
+argument
+to
+the
+first
+strategy
+    
+and
+a
+fresh
+dictionary
+to
+the
+second
+stratgey
+.
+    
+"
+"
+"
+    
+return
+(
+arg
+{
+}
+)
 #
 Trigger
 registration
@@ -2753,7 +2814,7 @@ fallback
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 '
@@ -2813,7 +2874,7 @@ fallback
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 '
@@ -2830,28 +2891,6 @@ register_strategy
 test
 -
 inclusive
-'
-args
-=
-(
-'
-skip
--
-unless
--
-schedules
-'
-)
-)
-(
-Alias
-)
-register_strategy
-(
-'
-test
--
-try
 '
 args
 =
@@ -2981,7 +3020,7 @@ medium
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 }
@@ -3028,7 +3067,7 @@ high
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 }
@@ -3089,7 +3128,7 @@ disperse
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3143,7 +3182,7 @@ disperse
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3199,7 +3238,7 @@ disperse
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3257,7 +3296,7 @@ disperse
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3320,7 +3359,7 @@ unseen
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3388,7 +3427,7 @@ one
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3450,7 +3489,7 @@ disperse
             
 split_args
 =
-tuple
+split_bugbug_arg
         
 )
     
@@ -3495,7 +3534,7 @@ reduced
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 }
@@ -3548,7 +3587,7 @@ high
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 }
@@ -3607,9 +3646,6 @@ relevant
 -
 tests
 '
-split_args
-=
-tuple
 )
     
 }
@@ -3653,9 +3689,6 @@ schedules
 '
 seta
 '
-split_args
-=
-tuple
 )
     
 }
@@ -3863,7 +3896,7 @@ reduced
 '
 split_args
 =
-tuple
+split_bugbug_arg
 )
     
 '
