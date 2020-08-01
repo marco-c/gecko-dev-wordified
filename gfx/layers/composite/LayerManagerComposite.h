@@ -1182,6 +1182,16 @@ float
 aValue
 )
 ;
+CompositionOpportunityId
+GetCompositionOpportunityId
+(
+)
+const
+{
+return
+mCompositionOpportunityId
+;
+}
 TimeStamp
 GetCompositionTime
 (

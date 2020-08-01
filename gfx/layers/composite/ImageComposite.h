@@ -359,6 +359,15 @@ const
 0
 ;
 virtual
+CompositionOpportunityId
+GetCompositionOpportunityId
+(
+)
+const
+=
+0
+;
+virtual
 void
 AppendImageCompositeNotification
 (
