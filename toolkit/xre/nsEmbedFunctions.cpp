@@ -5870,6 +5870,7 @@ ContentParent
 :
 GetNewOrUsedBrowserProcess
 (
+nullptr
 DEFAULT_REMOTE_TYPE
 )
 ;

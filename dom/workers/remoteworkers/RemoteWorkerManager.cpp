@@ -3542,6 +3542,13 @@ GetNewOrUsedBrowserProcessAsync
 (
 /
 *
+aFrameElement
+=
+*
+/
+nullptr
+/
+*
 aRemoteType
 =
 *
