@@ -10923,6 +10923,12 @@ report_memory
 (
 &
 self
+_ops
+:
+malloc_size_of
+:
+:
+MallocSizeOfOps
 )
 -
 >
