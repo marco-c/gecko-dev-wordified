@@ -2205,8 +2205,9 @@ node
 in
 range
 .
+const
 bool
-endIsData
+endIsCharacterData
 =
 mEnd
 .
@@ -2221,7 +2222,7 @@ IsCharacterData
 ;
 if
 (
-endIsData
+endIsCharacterData
 |
 |
 !
@@ -2395,7 +2396,7 @@ name
 if
 (
 !
-endIsData
+endIsCharacterData
 &
 &
 !
@@ -2546,7 +2547,7 @@ sibling
 if
 (
 !
-endIsData
+endIsCharacterData
 )
 {
 mIterator
