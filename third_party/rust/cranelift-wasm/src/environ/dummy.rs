@@ -3423,7 +3423,6 @@ mut
 self
 _wasm
 :
-&
 WasmFuncType
 sig
 :
