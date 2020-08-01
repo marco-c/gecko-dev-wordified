@@ -236,6 +236,11 @@ nsRangeFrame
 cpp
 '
 '
+nsSearchControlFrame
+.
+cpp
+'
+'
 nsSelectsAreaFrame
 .
 cpp

@@ -608,7 +608,7 @@ div
 PseudoStyleType
 :
 :
-mozNumberWrapper
+mozComplexControlWrapper
 )
 ;
 /
