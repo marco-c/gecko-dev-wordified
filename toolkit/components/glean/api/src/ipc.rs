@@ -67,7 +67,7 @@ use
 crate
 :
 :
-private
+metrics
 :
 :
 CommonMetricData
