@@ -566,10 +566,13 @@ params
 =
 parameters_loader
 (
+        
 params
+        
 strict
 =
 False
+        
 overrides
 =
 {
@@ -580,7 +583,15 @@ try_mode
 '
 try_select
 '
+'
+target_tasks_method
+'
+:
+'
+try_select_tasks
+'
 }
+    
 )
     
 #
