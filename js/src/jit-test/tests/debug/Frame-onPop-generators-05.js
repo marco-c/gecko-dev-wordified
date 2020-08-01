@@ -162,7 +162,7 @@ throw
 .
 class
 "
-Error
+TypeError
 "
 )
 ;

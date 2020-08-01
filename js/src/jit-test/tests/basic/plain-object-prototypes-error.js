@@ -589,7 +589,7 @@ new
 TypeError
 )
 "
-Error
+TypeError
 "
 )
 ;
