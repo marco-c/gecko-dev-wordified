@@ -45446,7 +45446,7 @@ calculation
 "
 )
 ;
-MOZ_ASSERT
+NS_ASSERTION
 (
 aContainingBlockISize
 >
