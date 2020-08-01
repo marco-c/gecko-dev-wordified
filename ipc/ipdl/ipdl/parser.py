@@ -930,6 +930,10 @@ class
 '
     
 '
+comparable
+'
+    
+'
 compress
 '
     
@@ -1007,10 +1011,6 @@ sync
     
 '
 tainted
-'
-    
-'
-uncomparable
 '
     
 '
@@ -2082,7 +2082,7 @@ p
 else
 None
 def
-p_MaybeUncomparable
+p_MaybeComparable
 (
 p
 )
@@ -2091,10 +2091,10 @@ p
 "
 "
 "
-MaybeUncomparable
+MaybeComparable
 :
-UNCOMPARABLE
-                           
+COMPARABLE
+                        
 |
 "
 "
@@ -2442,7 +2442,7 @@ p
 "
 StructDecl
 :
-MaybeUncomparable
+MaybeComparable
 STRUCT
 ID
 '
@@ -2457,7 +2457,7 @@ StructFields
 '
                   
 |
-MaybeUncomparable
+MaybeComparable
 STRUCT
 ID
 '
@@ -2503,7 +2503,6 @@ p
 [
 5
 ]
-not
 p
 [
 1
@@ -2531,7 +2530,6 @@ p
 ]
 [
 ]
-not
 p
 [
 1
@@ -2662,7 +2660,7 @@ p
 "
 UnionDecl
 :
-MaybeUncomparable
+MaybeComparable
 UNION
 ID
 '
@@ -2699,7 +2697,6 @@ p
 [
 5
 ]
-not
 p
 [
 1

@@ -134,6 +134,7 @@ mozilla
 namespace
 dom
 {
+comparable
 struct
 MIDIPortInfo
 {

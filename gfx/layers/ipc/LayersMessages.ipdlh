@@ -1191,6 +1191,7 @@ value
 ;
 }
 ;
+comparable
 union
 Animatable
 {
@@ -1244,6 +1245,7 @@ sampleFn
 ;
 }
 ;
+comparable
 struct
 MotionPathData
 {
@@ -1282,6 +1284,7 @@ rayReferenceData
 ;
 }
 ;
+comparable
 struct
 PartialPrerenderData
 {
@@ -1441,6 +1444,7 @@ to
 the
 layer
 .
+comparable
 struct
 TransformData
 {
@@ -2312,6 +2316,7 @@ specific
 See
 nsIWidget
 Configurations
+comparable
 struct
 PluginWindowData
 {
