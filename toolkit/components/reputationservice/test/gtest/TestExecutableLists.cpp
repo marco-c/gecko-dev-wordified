@@ -371,6 +371,15 @@ disk
 image
 "
 .
+cer
+"
+/
+/
+Signed
+certificate
+file
+"
+.
 cfg
 "
 /

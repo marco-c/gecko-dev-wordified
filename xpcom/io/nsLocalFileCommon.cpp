@@ -373,6 +373,15 @@ bat
 "
 "
 .
+cer
+"
+/
+/
+Signed
+certificate
+file
+"
+.
 chm
 "
 "
