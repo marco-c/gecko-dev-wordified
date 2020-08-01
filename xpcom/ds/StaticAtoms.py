@@ -14899,27 +14899,6 @@ gamma
 "
 )
     
-#
-'
-generic
-'
-conflicts
-with
-msvc11
-winrt
-compiler
-extensions
-    
-Atom
-(
-"
-generic_
-"
-"
-generic
-"
-)
-    
 Atom
 (
 "
