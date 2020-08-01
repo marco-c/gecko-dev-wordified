@@ -856,13 +856,6 @@ DEFINE_ASYNC
 HostWebGLContext
 :
 :
-PixelStorei
-)
-DEFINE_ASYNC
-(
-HostWebGLContext
-:
-:
 PolygonOffset
 )
 DEFINE_ASYNC
@@ -1044,8 +1037,6 @@ HostWebGLContext
 :
 TexStorage
 )
-/
-/
 DEFINE_ASYNC
 (
 HostWebGLContext
