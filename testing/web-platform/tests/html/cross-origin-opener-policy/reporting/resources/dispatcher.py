@@ -20,8 +20,6 @@ by
 dispatcher
 .
 js
-import
-json
 def
 main
 (
@@ -36,6 +34,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -45,6 +44,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -56,6 +56,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -65,6 +66,7 @@ Allow
 -
 Methods
 '
+b
 '
 OPTIONS
 GET
@@ -78,6 +80,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -87,6 +90,7 @@ Allow
 -
 Headers
 '
+b
 '
 Content
 -
@@ -100,11 +104,13 @@ headers
 .
 set
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -117,7 +123,6 @@ must
 revalidate
 '
 )
-;
     
 if
 request
@@ -125,6 +130,7 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
@@ -134,6 +140,7 @@ CORS
 preflight
         
 return
+b
 '
 '
     
@@ -143,6 +150,7 @@ request
 .
 GET
 [
+b
 '
 uuid
 '
@@ -154,6 +162,7 @@ request
 method
 =
 =
+u
 '
 POST
 '
@@ -197,6 +206,7 @@ None
 :
             
 return
+b
 '
 not
 ready

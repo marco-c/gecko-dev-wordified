@@ -14,6 +14,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -23,6 +24,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -34,6 +36,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -43,6 +46,7 @@ Allow
 -
 Methods
 '
+b
 '
 OPTIONS
 GET
@@ -56,6 +60,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -65,6 +70,7 @@ Allow
 -
 Headers
 '
+b
 '
 Content
 -
@@ -78,11 +84,13 @@ headers
 .
 set
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -95,7 +103,6 @@ must
 revalidate
 '
 )
-;
     
 #
 CORS
@@ -107,12 +114,14 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
 :
         
 return
+u
 '
 '
     
@@ -120,10 +129,12 @@ uuidMap
 =
 {
         
+b
 '
 endpoint
 '
 :
+b
 '
 01234567
 -
@@ -136,6 +147,7 @@ endpoint
 0123456789AB
 '
         
+b
 '
 report
 -
@@ -144,6 +156,7 @@ only
 endpoint
 '
 :
+b
 '
 01234567
 -
@@ -161,9 +174,9 @@ endpoint
 key
 =
 0
-;
     
 if
+b
 '
 endpoint
 '
@@ -181,6 +194,7 @@ request
 .
 GET
 [
+b
 '
 endpoint
 '
@@ -188,6 +202,7 @@ endpoint
 ]
     
 if
+b
 '
 key
 '
@@ -203,6 +218,7 @@ request
 .
 GET
 [
+b
 '
 key
 '
@@ -222,6 +238,7 @@ status
 400
         
 return
+u
 '
 invalid
 endpoint
@@ -229,6 +246,7 @@ endpoint
     
 path
 =
+u
 '
 /
 '
@@ -243,6 +261,7 @@ path
 .
 split
 (
+u
 '
 /
 '
@@ -254,6 +273,7 @@ split
 ]
 )
 +
+u
 '
 /
 '
@@ -264,6 +284,7 @@ request
 method
 =
 =
+u
 '
 POST
 '
@@ -320,6 +341,7 @@ path
 )
         
 return
+u
 '
 done
 '
@@ -330,6 +352,7 @@ request
 method
 =
 =
+u
 '
 GET
 '
@@ -341,11 +364,13 @@ headers
 .
 set
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -381,6 +406,7 @@ status
 400
     
 return
+u
 '
 invalid
 method
