@@ -69,11 +69,11 @@ mozdevice
 PACKAGE_VERSION
 =
 '
-3
+4
 .
-2
+0
 .
-3
+0
 '
 deps
 =
