@@ -1526,12 +1526,13 @@ rebuild
 for
 task
 in
-taskgraph
-.
-tasks
+six
 .
 itervalues
 (
+taskgraph
+.
+tasks
 )
 :
             

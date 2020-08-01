@@ -1285,10 +1285,13 @@ image
 =
 image
 =
+list
+(
 repos
 .
 keys
 (
+)
 )
 [
 0
@@ -1332,6 +1335,8 @@ tag
 =
 tag
 =
+list
+(
 repos
 [
 image
@@ -1339,6 +1344,7 @@ image
 .
 keys
 (
+)
 )
 [
 0

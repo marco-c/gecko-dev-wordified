@@ -996,6 +996,8 @@ pushes
 =
 pushes
 +
+list
+(
 r
 .
 json
@@ -1009,6 +1011,7 @@ pushes
 .
 keys
 (
+)
 )
         
 if

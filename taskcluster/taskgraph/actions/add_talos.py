@@ -73,6 +73,14 @@ print_function
 unicode_literals
 import
 logging
+import
+six
+from
+.
+.
+target_tasks
+import
+standard_filter
 from
 .
 registry
@@ -84,12 +92,6 @@ util
 import
 create_tasks
 fetch_graph_and_labels
-from
-.
-.
-target_tasks
-import
-standard_filter
 logger
 =
 logging
@@ -286,12 +288,13 @@ label
 entry
                   
 in
-full_task_graph
-.
-tasks
+six
 .
 iteritems
 (
+full_task_graph
+.
+tasks
 )
                   
 if
