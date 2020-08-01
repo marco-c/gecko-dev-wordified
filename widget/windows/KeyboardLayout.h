@@ -310,7 +310,7 @@ define
 VK_OEM_CLEAR
 0xFE
 class
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 ;
 namespace
 mozilla
@@ -5957,7 +5957,7 @@ KeyboardLayout
 sInstance
 ;
 static
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 *
 sIdleService
 ;

@@ -61,7 +61,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -71,7 +71,7 @@ getService
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 ;
 try

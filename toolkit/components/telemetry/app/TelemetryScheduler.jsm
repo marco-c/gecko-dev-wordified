@@ -284,12 +284,12 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
 "
-nsIIdleService
+nsIUserIdleService
 "
 ]
 }

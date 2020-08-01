@@ -305,6 +305,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 static
 bool
 gConstructingMenu

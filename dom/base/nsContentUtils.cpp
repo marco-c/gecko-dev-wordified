@@ -1607,7 +1607,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "
@@ -8722,7 +8722,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleService
 =
@@ -8735,7 +8735,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

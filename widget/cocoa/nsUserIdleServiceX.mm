@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIdleServiceX
+nsUserIdleServiceX
 .
 h
 "
@@ -80,7 +80,7 @@ Foundation
 h
 >
 bool
-nsIdleServiceX
+nsUserIdleServiceX
 :
 :
 PollIdleTime
@@ -380,7 +380,7 @@ false
 ;
 }
 bool
-nsIdleServiceX
+nsUserIdleServiceX
 :
 :
 UsePollMode

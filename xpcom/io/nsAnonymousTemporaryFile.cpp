@@ -194,7 +194,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "
@@ -1454,7 +1454,7 @@ observer
 .
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleSvc
 =
@@ -1467,7 +1467,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -1702,7 +1702,7 @@ files
 .
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleSvc
 =
@@ -1715,7 +1715,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

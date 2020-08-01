@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 .
 h
 "
@@ -2064,7 +2064,7 @@ mParent
 ;
 nsCOMPtr
 <
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 >
 mIdleService
 ;

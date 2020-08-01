@@ -1795,7 +1795,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "
@@ -12162,7 +12162,7 @@ listeners
 .
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleService
 =
@@ -12175,7 +12175,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -29584,7 +29584,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleService
 =
@@ -29597,7 +29597,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -29755,7 +29755,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleService
 =
@@ -29768,7 +29768,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

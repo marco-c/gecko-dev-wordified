@@ -189,7 +189,7 @@ h
 #
 include
 "
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 .
 h
 "
@@ -26680,7 +26680,7 @@ sInstance
 =
 nullptr
 ;
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 *
 KeyboardLayout
 :
@@ -26791,7 +26791,7 @@ KeyboardLayout
 ;
 nsCOMPtr
 <
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 >
 idleService
 =
@@ -26804,7 +26804,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

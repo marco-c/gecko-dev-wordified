@@ -2004,7 +2004,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -2227,7 +2227,7 @@ nsIFactory
 }
 /
 /
-nsIIdleService
+nsIUserIdleService
 get
 idleTime
 (
@@ -2305,7 +2305,7 @@ equals
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 |
 |
@@ -2391,7 +2391,7 @@ getService
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 ;
 }

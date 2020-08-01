@@ -364,11 +364,6 @@ nsDragService
 cpp
 '
 '
-nsIdleServiceWin
-.
-cpp
-'
-'
 nsLookAndFeel
 .
 cpp
@@ -395,6 +390,11 @@ cpp
 '
 '
 nsToolkit
+.
+cpp
+'
+'
+nsUserIdleServiceWin
 .
 cpp
 '

@@ -561,7 +561,7 @@ h
 #
 include
 "
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 .
 h
 "
@@ -2290,7 +2290,7 @@ aGdkEvent
 {
 nsCOMPtr
 <
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 >
 idleService
 =
@@ -2303,7 +2303,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

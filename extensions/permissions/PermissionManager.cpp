@@ -301,7 +301,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "

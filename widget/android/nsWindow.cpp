@@ -431,7 +431,7 @@ h
 #
 include
 "
-nsIdleService
+nsUserIdleService
 .
 h
 "
@@ -13860,7 +13860,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
