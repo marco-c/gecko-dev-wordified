@@ -68,6 +68,8 @@ re
 import
 shutil
 import
+six
+import
 sys
 import
 tempfile
@@ -1701,10 +1703,11 @@ env_val
 in
 enumerate
 (
-env
+six
 .
 iteritems
 (
+env
 )
 )
 :
@@ -2060,6 +2063,15 @@ pass
 fail
 messages
 .
+            
+line
+=
+six
+.
+ensure_str
+(
+line
+)
             
 self
 .
