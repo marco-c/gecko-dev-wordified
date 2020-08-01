@@ -204,10 +204,6 @@ sync
 Arc
 RwLock
 RwLockReadGuard
-mpsc
-:
-:
-Sender
 }
 ;
 use
@@ -231,6 +227,15 @@ api
 :
 :
 IdNamespace
+;
+use
+crate
+:
+:
+channel
+:
+:
+Sender
 ;
 use
 crate
