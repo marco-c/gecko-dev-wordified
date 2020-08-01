@@ -9828,6 +9828,13 @@ isMap
 )
 ;
 AttachDecision
+tryAttachFinishBoundFunctionInit
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction

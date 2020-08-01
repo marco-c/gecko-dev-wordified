@@ -9529,6 +9529,13 @@ masm
 objId
 )
 ;
+allocator
+.
+discardStack
+(
+masm
+)
+;
 Label
 notTypedArray
 isProxy
