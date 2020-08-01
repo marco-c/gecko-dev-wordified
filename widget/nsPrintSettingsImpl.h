@@ -463,6 +463,9 @@ mShrinkToFit
 bool
 mShowPrintProgress
 ;
+bool
+mShowMarginGuides
+;
 int32_t
 mPrintPageDelay
 ;
