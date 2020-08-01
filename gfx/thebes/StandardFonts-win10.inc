@@ -312,12 +312,12 @@ Yi
 Baiti
 "
 "
-MingLiU
+MingLiU_HKSCS
 -
 ExtB
 "
 "
-MingLiU_HKSCS
+MingLiU
 -
 ExtB
 "
@@ -988,6 +988,7 @@ Supplemental
 Fonts
 "
 Meiryo
+UI
 "
 /
 /
@@ -996,7 +997,6 @@ Supplemental
 Fonts
 "
 Meiryo
-UI
 "
 /
 /
@@ -1014,7 +1014,7 @@ Script
 Supplemental
 Fonts
 "
-MingLiU
+MingLiU_HKSCS
 "
 /
 /
@@ -1025,7 +1025,7 @@ Traditional
 Supplemental
 Fonts
 "
-MingLiU_HKSCS
+MingLiU
 "
 /
 /
