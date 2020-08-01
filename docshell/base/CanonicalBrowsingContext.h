@@ -617,6 +617,10 @@ SessionHistoryCommit
 (
 uint64_t
 aSessionHistoryEntryId
+const
+nsID
+&
+aChangeID
 )
 ;
 /

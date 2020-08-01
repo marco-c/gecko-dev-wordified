@@ -5163,12 +5163,16 @@ aContext
 )
 ;
 async
-HistoryCommitLength
+HistoryCommitIndexAndLength
 (
 MaybeDiscardedBrowsingContext
 aContext
 uint32_t
+aIndex
+uint32_t
 aLength
+nsID
+aChangeID
 )
 ;
 parent
@@ -9869,6 +9873,8 @@ MaybeDiscardedBrowsingContext
 aContext
 uint64_t
 aSessionHistoryEntryID
+nsID
+aChangeID
 )
 ;
 async
