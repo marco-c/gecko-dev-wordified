@@ -169,6 +169,20 @@ WebGLMethodDispatcher
 {
 }
 ;
+template
+<
+typename
+MethodT
+MethodT
+Method
+>
+size_t
+IdByMethod
+(
+)
+=
+delete
+;
 #
 define
 DEFINE_METHOD_DISPATCHER
@@ -207,6 +221,32 @@ _SYNC
 {
 }
 ;
+\
+template
+<
+>
+\
+inline
+size_t
+IdByMethod
+<
+decltype
+(
+&
+_METHOD
+)
+&
+_METHOD
+>
+(
+)
+{
+\
+return
+_ID
+;
+\
+}
 /
 /
 Defines
@@ -264,6 +304,8 @@ CommandSyncType
 :
 ASYNC
 )
+/
+/
 #
 define
 DEFINE_SYNC
@@ -271,6 +313,8 @@ DEFINE_SYNC
 _METHOD
 )
 \
+/
+/
 DEFINE_METHOD_HELPER
 (
 _METHOD
@@ -293,6 +337,8 @@ HostWebGLContext
 :
 CreateFramebuffer
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -461,6 +507,8 @@ HostWebGLContext
 :
 GenerateError
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -468,6 +516,8 @@ HostWebGLContext
 :
 GetCompileResult
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -475,6 +525,8 @@ HostWebGLContext
 :
 GetFrontBufferSnapshot
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -482,6 +534,8 @@ HostWebGLContext
 :
 GetFragDataLocation
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -489,6 +543,8 @@ HostWebGLContext
 :
 GetFrontBuffer
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -496,6 +552,8 @@ HostWebGLContext
 :
 GetLinkResult
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -517,6 +575,8 @@ HostWebGLContext
 :
 RequestExtension
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -524,6 +584,8 @@ HostWebGLContext
 :
 DrawingBufferSize
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -538,6 +600,8 @@ HostWebGLContext
 :
 DidRefresh
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -545,6 +609,8 @@ HostWebGLContext
 :
 GetParameter
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -594,6 +660,8 @@ HostWebGLContext
 :
 BlendFuncSeparate
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -685,6 +753,8 @@ HostWebGLContext
 :
 Flush
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -706,6 +776,8 @@ HostWebGLContext
 :
 FrontFace
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -713,6 +785,8 @@ HostWebGLContext
 :
 GetBufferParameter
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -720,6 +794,8 @@ HostWebGLContext
 :
 GetError
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -727,6 +803,8 @@ HostWebGLContext
 :
 GetFramebufferAttachmentParameter
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -734,6 +812,8 @@ HostWebGLContext
 :
 GetRenderbufferParameter
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -741,6 +821,8 @@ HostWebGLContext
 :
 GetShaderPrecisionFormat
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -769,7 +851,7 @@ HostWebGLContext
 :
 LinkProgram
 )
-DEFINE_SYNC
+DEFINE_ASYNC
 (
 HostWebGLContext
 :
@@ -978,6 +1060,8 @@ HostWebGLContext
 :
 CompressedTexImage
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -999,6 +1083,8 @@ HostWebGLContext
 :
 UseProgram
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -1027,6 +1113,8 @@ HostWebGLContext
 :
 VertexAttribDivisor
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -1055,6 +1143,8 @@ HostWebGLContext
 :
 DisableVertexAttribArray
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -1120,6 +1210,8 @@ HostWebGLContext
 :
 SamplerParameterf
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -1127,6 +1219,8 @@ HostWebGLContext
 :
 GetSamplerParameter
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -1225,6 +1319,8 @@ HostWebGLContext
 :
 QueryCounter
 )
+/
+/
 DEFINE_SYNC
 (
 HostWebGLContext
@@ -1252,6 +1348,8 @@ DEFINE_METHOD_HELPER
 #
 undef
 DEFINE_ASYNC
+/
+/
 #
 undef
 DEFINE_SYNC
