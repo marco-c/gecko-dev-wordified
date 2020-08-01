@@ -717,7 +717,7 @@ zone
 )
 -
 >
-delegatePreWriteBarrier
+beforeClearDelegate
 (
 value
 key
