@@ -3563,11 +3563,6 @@ FileSystemFileEntry
 webidl
 '
 '
-FinalizationRegistry
-.
-webidl
-'
-'
 FocusEvent
 .
 webidl
