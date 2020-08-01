@@ -92,7 +92,7 @@ taskcluster
 import
 (
     
-list_task_group_incomplete_tasks
+list_task_group_incomplete_task_ids
     
 cancel_task
     
@@ -331,7 +331,7 @@ t
 for
 t
 in
-list_task_group_incomplete_tasks
+list_task_group_incomplete_task_ids
 (
 task_group_id
 )
