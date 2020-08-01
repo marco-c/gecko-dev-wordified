@@ -91,7 +91,7 @@ super
 *
 ;
 use
-cocoa_foundation
+cocoa
 :
 :
 foundation
