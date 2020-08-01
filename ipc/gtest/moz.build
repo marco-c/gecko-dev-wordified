@@ -96,6 +96,11 @@ SOURCES
 =
 [
 '
+TestLogging
+.
+cpp
+'
+'
 TestSharedMemory
 .
 cpp
