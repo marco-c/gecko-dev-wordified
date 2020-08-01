@@ -363,6 +363,7 @@ _get_logger
 (
 self
 logger_name
+verbose
 )
 :
         

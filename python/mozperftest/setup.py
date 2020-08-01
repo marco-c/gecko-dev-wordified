@@ -71,7 +71,7 @@ PACKAGE_VERSION
 "
 0
 .
-1
+2
 "
 deps
 =
@@ -91,13 +91,11 @@ mozlog
 mozdevice
 >
 =
-3
+4
 .
 0
 .
-2
-<
-4
+0
 "
 "
 mozproxy
