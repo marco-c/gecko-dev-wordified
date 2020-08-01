@@ -949,10 +949,8 @@ aDesc
 0
 ;
 bool
-FenceCreate
+FenceImportFromFd
 (
-int
-aFd
 )
 ;
 void
@@ -1061,6 +1059,9 @@ mMappedRegionStride
 [
 DMABUF_BUFFER_PLANES
 ]
+;
+int
+mSyncFd
 ;
 EGLSyncKHR
 mSync
