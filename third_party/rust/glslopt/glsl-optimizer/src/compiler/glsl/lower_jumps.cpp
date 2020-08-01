@@ -2008,6 +2008,12 @@ jump
 .
 *
 /
+using
+ir_control_flow_visitor
+:
+:
+visit
+;
 bool
 progress
 ;

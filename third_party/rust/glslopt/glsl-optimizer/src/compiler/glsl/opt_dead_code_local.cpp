@@ -416,6 +416,12 @@ ir_hierarchical_visitor
 {
 public
 :
+using
+ir_hierarchical_visitor
+:
+:
+visit
+;
 kill_for_derefs_visitor
 (
 exec_list

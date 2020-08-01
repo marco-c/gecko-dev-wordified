@@ -311,6 +311,17 @@ ir
 {
 if
 (
+ir
+-
+>
+type_decl
+-
+>
+is_struct
+(
+)
+&
+&
 !
 used_structs
 -

@@ -240,16 +240,7 @@ h
 "
 #
 if
-defined
-(
-__GNUC__
-)
-&
-&
-defined
-(
-HAVE_LINUX_FUTEX_H
-)
+UTIL_FUTEX_SUPPORTED
 /
 *
 mtx_t

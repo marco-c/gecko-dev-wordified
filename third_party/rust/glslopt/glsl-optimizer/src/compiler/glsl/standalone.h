@@ -246,6 +246,9 @@ do_link
 int
 just_log
 ;
+int
+lower_precision
+;
 }
 ;
 struct

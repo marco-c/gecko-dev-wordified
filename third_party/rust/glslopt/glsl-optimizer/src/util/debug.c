@@ -223,15 +223,6 @@ h
 #
 include
 "
-main
-/
-macros
-.
-h
-"
-#
-include
-"
 debug
 .
 h

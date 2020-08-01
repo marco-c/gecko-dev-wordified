@@ -2098,6 +2098,15 @@ case
 ir_unop_f2d
 :
 case
+ir_unop_f2f16
+:
+case
+ir_unop_f2fmp
+:
+case
+ir_unop_f162f
+:
+case
 ir_unop_neg
 :
 {

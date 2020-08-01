@@ -371,8 +371,8 @@ struct
 gl_program
 *
 prog
-GLenum
-target
+gl_shader_stage
+stage
 GLuint
 id
 bool
@@ -389,8 +389,8 @@ struct
 gl_context
 *
 ctx
-GLenum
-target
+gl_shader_stage
+stage
 GLuint
 id
 bool

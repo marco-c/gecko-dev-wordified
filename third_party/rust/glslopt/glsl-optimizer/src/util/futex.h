@@ -218,6 +218,10 @@ defined
 HAVE_LINUX_FUTEX_H
 )
 #
+define
+UTIL_FUTEX_SUPPORTED
+1
+#
 include
 <
 limits
@@ -382,6 +386,10 @@ defined
 (
 __FreeBSD__
 )
+#
+define
+UTIL_FUTEX_SUPPORTED
+1
 #
 include
 <
@@ -623,6 +631,10 @@ defined
 __OpenBSD__
 )
 #
+define
+UTIL_FUTEX_SUPPORTED
+1
+#
 include
 <
 sys
@@ -713,6 +725,12 @@ NULL
 )
 ;
 }
+#
+else
+#
+define
+UTIL_FUTEX_SUPPORTED
+0
 #
 endif
 #
