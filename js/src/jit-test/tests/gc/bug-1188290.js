@@ -14,9 +14,9 @@ this
 .
 hasOwnProperty
 (
-"
+'
 TypedObject
-"
+'
 )
 |
 |
