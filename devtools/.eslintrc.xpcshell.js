@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 /
 /
 Parent
@@ -72,9 +77,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -87,9 +90,7 @@ xpcshell
 test
 "
 ]
-"
 rules
-"
 :
 {
 /
@@ -108,9 +109,7 @@ produce
 a
 warning
 .
-"
 camelcase
-"
 :
 "
 off
