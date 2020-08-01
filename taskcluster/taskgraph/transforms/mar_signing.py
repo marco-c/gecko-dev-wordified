@@ -973,17 +973,7 @@ format
                 
 dep_job
 .
-task
-[
-"
-metadata
-"
-]
-[
-"
 description
-"
-]
 job
 [
 '
