@@ -789,13 +789,6 @@ win
 args
 )
 {
-let
-utils
-=
-win
-.
-windowUtils
-;
 args
 .
 windowID
@@ -803,7 +796,9 @@ windowID
 {
 outer
 :
-utils
+win
+.
+docShell
 .
 outerWindowID
 inner
@@ -932,7 +927,9 @@ windowUtils
 let
 outerWindowID
 =
-utils
+win
+.
+docShell
 .
 outerWindowID
 ;

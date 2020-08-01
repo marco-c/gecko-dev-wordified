@@ -8476,7 +8476,7 @@ window
 return
 window
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;
