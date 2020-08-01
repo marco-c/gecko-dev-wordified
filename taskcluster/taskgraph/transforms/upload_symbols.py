@@ -697,22 +697,9 @@ treeherder
 =
 treeherder
         
-if
-attributes
-.
-get
-(
-'
-shippable
-'
-)
-:
-            
 #
-For
-shippable
-builds
-we
+We
+only
 want
 to
 run
@@ -724,7 +711,7 @@ build
 is
 run
 .
-            
+        
 #
 XXX
 Better
@@ -736,7 +723,7 @@ promote
 phase
 instead
 ?
-            
+        
 task
 [
 '
@@ -758,7 +745,7 @@ get
 run_on_projects
 '
 )
-            
+        
 task
 [
 '
