@@ -23598,11 +23598,6 @@ setIteratorHelpersEnabled
 (
 enableIteratorHelpers
 )
-.
-setPrivateClassFieldsEnabled
-(
-enablePrivateClassFields
-)
 ;
 }
 static
@@ -64849,6 +64844,11 @@ enableAsyncStacks
 setAsyncStackCaptureDebuggeeOnly
 (
 enableAsyncStackCaptureDebuggeeOnly
+)
+.
+setPrivateClassFields
+(
+enablePrivateClassFields
 )
 ;
 if
