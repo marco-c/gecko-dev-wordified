@@ -85,11 +85,6 @@ foo
 =
 bar
 "
-where
-:
-"
-tabshifted
-"
 }
 }
 )
