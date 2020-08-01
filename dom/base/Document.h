@@ -16278,11 +16278,6 @@ IsCurrentActiveDocument
 IsBeingUsedAsImage
 (
 )
-|
-|
-IsStaticDocument
-(
-)
 ;
 }
 /
@@ -17444,7 +17439,6 @@ Document
 GetOriginalDocument
 (
 )
-const
 {
 MOZ_ASSERT
 (
