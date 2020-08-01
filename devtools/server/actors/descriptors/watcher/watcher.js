@@ -680,6 +680,8 @@ FF80
 +
 supports
 error
+and
+css
 messages
 /
 /
@@ -779,6 +781,18 @@ Resources
 TYPES
 .
 CONSOLE_MESSAGE
+]
+:
+enableServerWatcher
+&
+&
+hasBrowserElement
+[
+Resources
+.
+TYPES
+.
+CSS_MESSAGE
 ]
 :
 enableServerWatcher
