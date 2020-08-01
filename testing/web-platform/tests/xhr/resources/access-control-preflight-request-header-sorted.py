@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -30,6 +32,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -46,6 +49,7 @@ headers
 .
 get
 (
+b
 '
 origin
 '
@@ -54,6 +58,7 @@ origin
     
 headers
 =
+b
 '
 x
 -
@@ -88,6 +93,7 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
@@ -99,6 +105,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -108,6 +115,7 @@ Max
 -
 Age
 '
+b
 '
 0
 '
@@ -119,6 +127,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -154,6 +163,7 @@ headers
 .
 get
 (
+b
 '
 Access
 -
@@ -182,6 +192,7 @@ headers
 .
 get
 (
+b
 '
 x
 -
@@ -196,6 +207,7 @@ response
 .
 content
 =
+b
 '
 PASS
 '
@@ -213,6 +225,7 @@ response
 .
 content
 =
+b
 '
 FAIL
 '
