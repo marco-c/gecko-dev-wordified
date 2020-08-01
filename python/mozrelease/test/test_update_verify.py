@@ -70,10 +70,6 @@ __future__
 import
 absolute_import
 print_function
-from
-md5
-import
-md5
 import
 os
 from
@@ -171,7 +167,7 @@ fdopen
 (
 fd
 "
-w
+wb
 "
 )
     
@@ -1850,8 +1846,6 @@ self
 .
 assertEquals
 (
-md5
-(
 open
 (
 self
@@ -1862,14 +1856,7 @@ config
 read
 (
 )
-)
-.
-hexdigest
-(
-)
                           
-md5
-(
 open
 (
 self
@@ -1878,11 +1865,6 @@ tmpfilename
 )
 .
 read
-(
-)
-)
-.
-hexdigest
 (
 )
 )

@@ -1244,6 +1244,7 @@ version
     
 next_version_index
 =
+list
 (
 map
 (
@@ -1253,6 +1254,7 @@ itemgetter
 )
 tags
 )
+)
 .
 index
 (
@@ -1260,7 +1262,6 @@ current_version
 )
 -
 1
-)
     
 return
 tags
