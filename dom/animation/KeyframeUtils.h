@@ -687,6 +687,8 @@ dom
 Element
 *
 aElement
+PseudoStyleType
+aPseudoType
 const
 ComputedStyle
 *

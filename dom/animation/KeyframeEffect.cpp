@@ -5533,6 +5533,9 @@ keyframesCopy
 mTarget
 .
 mElement
+mTarget
+.
+mPseudoType
 aStyle
 mEffectOptions
 .
