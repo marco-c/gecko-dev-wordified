@@ -659,17 +659,6 @@ JSObject
 handler
 )
 ;
-void
-clearAllBreakpoints
-(
-JSFreeOp
-*
-fp
-WasmInstanceObject
-*
-instance
-)
-;
 /
 /
 When
