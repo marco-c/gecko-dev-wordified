@@ -476,13 +476,11 @@ the
 requested
 code
 or
-the
-empty
-string
+undefined
 if
 no
-*
 applicable
+*
 display
 name
 was
@@ -501,6 +499,7 @@ locale
 calendar
 *
 style
+fallback
 type
 code
 )

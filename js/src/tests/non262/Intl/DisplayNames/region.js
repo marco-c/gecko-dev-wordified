@@ -851,13 +851,8 @@ returned
 fallback
 is
 in
-the
-same
+canonical
 case
-as
-the
-input
-code
 .
 assertEq
 (
@@ -870,7 +865,7 @@ aa
 "
 )
 "
-aa
+AA
 "
 )
 ;
@@ -885,7 +880,7 @@ aa
 "
 )
 "
-aa
+AA
 "
 )
 ;
