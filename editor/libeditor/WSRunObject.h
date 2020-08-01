@@ -2383,7 +2383,7 @@ GetStartReasonContent
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2400,7 +2400,7 @@ GetEndReasonContent
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2416,7 +2416,7 @@ StartsFromNormalText
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2432,7 +2432,7 @@ StartsFromSpecialContent
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2448,7 +2448,7 @@ StartsFromBRElement
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2464,7 +2464,7 @@ StartsFromCurrentBlockBoundary
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2480,7 +2480,7 @@ StartsFromOtherBlockElement
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2496,7 +2496,7 @@ StartsFromBlockBoundary
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2512,7 +2512,7 @@ StartsFromHardLineBreak
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2528,7 +2528,7 @@ EndsByNormalText
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2544,7 +2544,7 @@ EndsBySpecialContent
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2560,7 +2560,7 @@ EndsByBRElement
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2576,7 +2576,7 @@ EndsByCurrentBlockBoundary
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2592,7 +2592,7 @@ EndsByOtherBlockElement
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2608,7 +2608,7 @@ EndsByBlockBoundary
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2629,7 +2629,7 @@ StartReasonOtherBlockElementPtr
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2650,7 +2650,7 @@ StartReasonBRElementPtr
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2671,7 +2671,7 @@ EndReasonOtherBlockElementPtr
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -2692,7 +2692,7 @@ EndReasonBRElementPtr
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -3398,7 +3398,7 @@ aPoint
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -3498,7 +3498,7 @@ aPoint
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -3572,7 +3572,7 @@ aPointAtASCIIWhiteSpace
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -3649,7 +3649,7 @@ aPointAtASCIIWhiteSpace
 const
 {
 return
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 .
@@ -7209,7 +7209,7 @@ mIsPreformatted
 const
 TextFragmentData
 &
-TextFragmentDataAtStart
+TextFragmentDataAtStartRef
 (
 )
 const
