@@ -1399,10 +1399,6 @@ StyleOverflow
 :
 Auto
 )
-mExistThrottledUpdates
-(
-false
-)
 /
 /
 mImageAnimationMode
