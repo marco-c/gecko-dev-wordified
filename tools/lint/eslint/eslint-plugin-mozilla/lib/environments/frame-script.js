@@ -162,6 +162,9 @@ false
 RPMRemoveMessageListener
 :
 false
+RPMGetHttpResponseHeader
+:
+false
 }
 }
 ;
