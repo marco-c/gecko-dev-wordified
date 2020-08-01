@@ -580,11 +580,6 @@ AccessibleHighlighter
 env
 )
 ;
-await
-highlighter
-.
-isReady
-;
 const
 infobar
 =

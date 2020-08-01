@@ -2526,7 +2526,6 @@ walker
 =
 this
 ;
-await
 walker
 .
 clearStyles
@@ -2581,7 +2580,6 @@ return
 null
 ;
 }
-await
 walker
 .
 restoreStyles
