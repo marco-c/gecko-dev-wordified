@@ -1570,6 +1570,10 @@ displayName
 ?
 :
 string
+isError
+?
+:
+boolean
 parameterNames
 ?
 :

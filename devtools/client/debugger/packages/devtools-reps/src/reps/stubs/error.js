@@ -95,6 +95,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -176,6 +179,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -282,6 +288,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -337,6 +346,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -418,6 +430,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -499,6 +514,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -580,6 +598,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -661,6 +682,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -742,6 +766,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -823,6 +850,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -1043,6 +1073,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -1274,6 +1307,9 @@ class
 "
 Error
 "
+isError
+:
+true
 extensible
 :
 true
@@ -1664,6 +1700,9 @@ class
 "
 Error
 "
+isError
+:
+true
 extensible
 :
 true
@@ -2087,6 +2126,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -2193,6 +2235,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4
@@ -2301,6 +2346,9 @@ class
 "
 Error
 "
+isError
+:
+true
 extensible
 :
 true
@@ -2393,6 +2441,9 @@ class
 "
 Error
 "
+isError
+:
+true
 extensible
 :
 true
@@ -2493,6 +2544,9 @@ class
 "
 Error
 "
+isError
+:
+true
 extensible
 :
 true
@@ -2587,6 +2641,9 @@ class
 "
 Error
 "
+isError
+:
+true
 ownPropertyLength
 :
 4

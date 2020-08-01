@@ -882,6 +882,13 @@ obj
 isSealed
 (
 )
+isError
+:
+this
+.
+obj
+.
+isError
 }
 )
 ;

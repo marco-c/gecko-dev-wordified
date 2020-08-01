@@ -91,6 +91,7 @@ mockup
 function
 createError
 (
+type
 preview
 )
 {
@@ -111,9 +112,10 @@ getGrip
 {
 class
 :
-"
-Error
-"
+type
+isError
+:
+true
 preview
 }
 )
@@ -436,6 +438,9 @@ getValue
 (
 createError
 (
+"
+ReferenceError
+"
 {
 name
 :
@@ -479,6 +484,9 @@ getValue
 (
 createError
 (
+"
+Error
+"
 {
 name
 :

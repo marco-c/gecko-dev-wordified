@@ -235,8 +235,11 @@ exception
 class
 :
 "
-Error
+ReferenceError
 "
+isError
+:
+true
 preview
 :
 {
