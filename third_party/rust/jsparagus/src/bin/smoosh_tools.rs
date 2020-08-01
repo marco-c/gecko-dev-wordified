@@ -64,6 +64,7 @@ process
 :
 {
 self
+exit
 Command
 }
 ;
@@ -6727,10 +6728,17 @@ e
 )
 =
 >
+{
 e
 .
 dump
 (
 )
+;
+exit
+(
+1
+)
+}
 }
 }
