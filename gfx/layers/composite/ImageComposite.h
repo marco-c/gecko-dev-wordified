@@ -675,10 +675,8 @@ frames
 void
 UpdateCompositedFrame
 (
-const
-TimedImage
-*
-aImage
+int
+aImageIndex
 bool
 aWasVisibleAtPreviousComposition
 )
