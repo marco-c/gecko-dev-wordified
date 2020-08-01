@@ -1336,6 +1336,20 @@ values
 '
 :
 confidence_values
+                    
+u
+'
+shouldAlert
+'
+:
+False
+#
+Bug
+1655841
+temporary
+disable
+confidence
+metrics
                 
 }
                 
