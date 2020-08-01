@@ -589,9 +589,6 @@ void
 *
 p
 =
-std
-:
-:
 malloc
 (
 size
@@ -615,9 +612,6 @@ T_PointerType
 p
 )
 {
-std
-:
-:
 free
 (
 reinterpret_cast
