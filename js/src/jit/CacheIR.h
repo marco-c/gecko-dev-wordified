@@ -9819,6 +9819,15 @@ callee
 )
 ;
 AttachDecision
+tryAttachGetNextMapSetEntryForIterator
+(
+HandleFunction
+callee
+bool
+isMap
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
