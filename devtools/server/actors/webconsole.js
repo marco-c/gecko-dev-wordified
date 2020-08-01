@@ -7418,6 +7418,10 @@ matchProp
 result
 .
 matchProp
+|
+|
+"
+"
 ;
 isElementAccess
 =
@@ -7518,6 +7522,9 @@ access
 .
 if
 (
+matchProp
+&
+&
 !
 lastNonAlphaIsDot
 &
