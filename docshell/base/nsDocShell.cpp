@@ -3141,6 +3141,8 @@ device_size_is_page_size
 mDeviceSizeIsPageSize
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIObserverService
@@ -3153,10 +3155,6 @@ services
 GetObserverService
 (
 )
-;
-if
-(
-serv
 )
 {
 const
@@ -3176,7 +3174,7 @@ NS_CHROME_WEBNAVIGATION_CREATE
 serv
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 GetAsSupports
 (
