@@ -2279,6 +2279,9 @@ sessionToken
 uid
 "
 "
+ecosystemUserId
+"
+"
 oauthTokens
 "
 "
