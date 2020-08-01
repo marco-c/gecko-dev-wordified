@@ -19478,6 +19478,8 @@ NSS_DISABLE_DEPRECATED_SEED
 case
 bltestSEED_CBC
 :
+#
+endif
 sprintf
 (
 filename
@@ -19517,8 +19519,6 @@ filename
 bltestBinary
 )
 ;
-#
-endif
 case
 bltestDES_ECB
 :
@@ -19543,6 +19543,8 @@ NSS_DISABLE_DEPRECATED_SEED
 case
 bltestSEED_ECB
 :
+#
+endif
 sprintf
 (
 filename
@@ -19584,8 +19586,6 @@ bltestBinary
 ;
 break
 ;
-#
-endif
 #
 ifdef
 NSS_SOFTOKEN_DOES_RC5
