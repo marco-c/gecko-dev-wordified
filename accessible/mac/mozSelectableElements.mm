@@ -144,7 +144,7 @@ return
 [
 [
 self
-moxChildren
+moxUnignoredChildren
 ]
 filteredArrayUsingPredicate
 :
@@ -251,7 +251,7 @@ return
 [
 [
 self
-moxChildren
+moxUnignoredChildren
 ]
 filteredArrayUsingPredicate
 :
@@ -533,7 +533,7 @@ moxContents
 return
 [
 self
-moxChildren
+moxUnignoredChildren
 ]
 ;
 }
@@ -637,7 +637,7 @@ mozListboxAccessible
 (
 BOOL
 )
-ignoreChild
+moxIgnoreChild
 :
 (
 mozAccessible
@@ -670,7 +670,7 @@ YES
 return
 [
 super
-ignoreChild
+moxIgnoreChild
 :
 child
 ]
@@ -1192,7 +1192,7 @@ mozAccessible
 )
 [
 self
-moxParent
+moxUnignoredParent
 ]
 ;
 [
