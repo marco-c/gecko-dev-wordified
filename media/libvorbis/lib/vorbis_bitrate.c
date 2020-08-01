@@ -145,12 +145,10 @@ Xiph
 .
 Org
 Foundation
-http
+https
 :
 /
 /
-www
-.
 xiph
 .
 org
