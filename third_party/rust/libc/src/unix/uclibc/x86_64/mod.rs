@@ -921,7 +921,7 @@ stack_t
 {
 /
 /
-ToDo
+FIXME
 pub
 ss_sp
 :
@@ -949,7 +949,7 @@ statfs
 {
 /
 /
-ToDo
+FIXME
 pub
 f_type
 :
@@ -1016,7 +1016,7 @@ msghdr
 {
 /
 /
-ToDo
+FIXME
 pub
 msg_name
 :
@@ -1072,7 +1072,7 @@ termios
 {
 /
 /
-ToDo
+FIXME
 pub
 c_iflag
 :
@@ -1122,7 +1122,7 @@ sigset_t
 {
 /
 /
-ToDo
+FIXME
 __val
 :
 [
@@ -1139,7 +1139,7 @@ sysinfo
 {
 /
 /
-ToDo
+FIXME
 pub
 uptime
 :
@@ -1239,7 +1239,7 @@ glob_t
 {
 /
 /
-ToDo
+FIXME
 pub
 gl_pathc
 :
@@ -1308,7 +1308,7 @@ rlimit64
 {
 /
 /
-ToDo
+FIXME
 pub
 rlim_cur
 :
@@ -1324,7 +1324,7 @@ cpu_set_t
 {
 /
 /
-ToDo
+FIXME
 #
 [
 cfg
@@ -1368,7 +1368,7 @@ fsid_t
 {
 /
 /
-ToDo
+FIXME
 __val
 :
 [

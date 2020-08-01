@@ -5530,6 +5530,9 @@ util
 )
 ]
 extern
+"
+C
+"
 {
 pub
 fn
@@ -5652,6 +5655,9 @@ errfunc
 Option
 <
 extern
+"
+C
+"
 fn
 (
 epath
