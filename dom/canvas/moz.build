@@ -548,7 +548,17 @@ UNIFIED_SOURCES
 =
 [
 '
+CanvasGradient
+.
+cpp
+'
+'
 CanvasImageCache
+.
+cpp
+'
+'
+CanvasPattern
 .
 cpp
 '
