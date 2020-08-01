@@ -12687,9 +12687,10 @@ sceneBuilderTxn
 mAsyncImageManager
 -
 >
-SetCompositionTime
+SetCompositionInfo
 (
 start
+mCompositionOpportunityId
 )
 ;
 mAsyncImageManager
@@ -12704,11 +12705,14 @@ fastTxn
 mAsyncImageManager
 -
 >
-SetCompositionTime
+SetCompositionInfo
 (
 TimeStamp
 (
 )
+CompositionOpportunityId
+{
+}
 )
 ;
 if

@@ -1287,9 +1287,12 @@ EndTransaction
 GRAPHICS
 )
 ;
-SetCompositionTime
+SetCompositionInfo
 (
 aTimeStamp
+CompositionOpportunityId
+{
+}
 )
 ;
 TextureSourceProvider
