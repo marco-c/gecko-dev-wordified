@@ -847,6 +847,17 @@ GetCompositionTime
 const
 override
 ;
+void
+AppendImageCompositeNotification
+(
+const
+ImageCompositeNotificationInfo
+&
+aInfo
+)
+const
+override
+;
 /
 /
 Use
