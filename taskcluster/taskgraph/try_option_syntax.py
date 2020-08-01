@@ -5082,12 +5082,15 @@ names
         
 results
 =
+sorted
+(
+            
 {
 test
 [
-'
+"
 test
-'
+"
 ]
 :
 test
@@ -5099,6 +5102,20 @@ results
 .
 values
 (
+)
+            
+key
+=
+lambda
+test
+:
+test
+[
+"
+test
+"
+]
+        
 )
         
 return
