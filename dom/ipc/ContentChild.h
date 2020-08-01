@@ -4857,7 +4857,7 @@ ipc
 :
 :
 IPCResult
-RecvHistoryCommitLength
+RecvHistoryCommitIndexAndLength
 (
 const
 MaybeDiscarded
@@ -4866,8 +4866,18 @@ BrowsingContext
 >
 &
 aContext
+const
 uint32_t
+&
+aIndex
+const
+uint32_t
+&
 aLength
+const
+nsID
+&
+aChangeID
 )
 ;
 mozilla
