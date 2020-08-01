@@ -180,6 +180,8 @@ absolute_import
 print_function
 unicode_literals
 import
+copy
+import
 logging
 import
 os
