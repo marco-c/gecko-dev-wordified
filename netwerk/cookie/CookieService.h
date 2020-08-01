@@ -510,6 +510,9 @@ static
 CookieStatus
 CheckPrefs
 (
+nsIConsoleReportCollector
+*
+aCRC
 nsICookieJarSettings
 *
 aCookieJarSettings
