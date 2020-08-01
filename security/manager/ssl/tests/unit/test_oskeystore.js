@@ -329,8 +329,8 @@ text
 Please
 enter
 your
-master
-password
+Primary
+Password
 .
 "
 "
