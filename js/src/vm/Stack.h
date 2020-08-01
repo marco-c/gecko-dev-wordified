@@ -2242,10 +2242,6 @@ Value
 *
 prevsp_
 ;
-void
-*
-unused
-;
 /
 *
 *
