@@ -167,11 +167,6 @@ testAtomizeUtf8NonAsciiLatin1CodePoint
 cpp
 '
 '
-testBigInt
-.
-cpp
-'
-'
 testBoundFunction
 .
 cpp
