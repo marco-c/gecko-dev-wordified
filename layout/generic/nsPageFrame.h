@@ -212,7 +212,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -612,7 +612,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
