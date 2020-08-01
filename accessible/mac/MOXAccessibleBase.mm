@@ -1809,13 +1809,14 @@ by
 our
 mochitests
 .
-xpcAccessibleMacInterface
+xpcAccessibleMacEvent
 :
 :
 FireEvent
 (
 self
 notification
+userInfo
 )
 ;
 if
