@@ -377,7 +377,7 @@ mozilla
 .
 org
 "
-DEFAULT
+AUTOMATIC
 :
 "
 default
