@@ -2041,6 +2041,13 @@ icScript_
 icScript
 ;
 }
+JSScript
+*
+invalidationScript
+(
+)
+const
+;
 bool
 hasReturnValue
 (

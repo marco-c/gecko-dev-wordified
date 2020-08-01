@@ -6332,6 +6332,13 @@ Alloc
 )
 ;
 }
+fallbackStub
+-
+>
+setUsedByTranspiler
+(
+)
+;
 return
 Ok
 (
