@@ -1878,9 +1878,11 @@ protectedAuth
 .
 xhtml
 "
+_ns
 "
 _blank
 "
+_ns
 "
 centerscreen
 chrome
@@ -1890,6 +1892,7 @@ close
 =
 no
 "
+_ns
 runnable
 getter_AddRefs
 (

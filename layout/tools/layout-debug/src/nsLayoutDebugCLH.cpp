@@ -895,9 +895,11 @@ layoutdebug
 .
 xhtml
 "
+_ns
 "
 _blank
 "
+_ns
 "
 chrome
 dialog
@@ -905,6 +907,7 @@ dialog
 no
 all
 "
+_ns
 argsArray
 getter_AddRefs
 (
