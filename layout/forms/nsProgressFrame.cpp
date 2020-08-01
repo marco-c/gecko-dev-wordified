@@ -1785,7 +1785,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance
@@ -1818,7 +1820,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance

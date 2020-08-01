@@ -6621,7 +6621,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 ;
 if

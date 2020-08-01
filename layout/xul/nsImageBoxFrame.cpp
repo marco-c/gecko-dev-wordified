@@ -3753,7 +3753,9 @@ this
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 )
 {

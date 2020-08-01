@@ -11513,7 +11513,9 @@ mutable_this
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 ;
 border
@@ -11707,7 +11709,9 @@ mutable_this
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 &
 widgetPadding
 )
@@ -17540,7 +17544,9 @@ ThemeDrawsFocusForWidget
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 )
 {
@@ -29265,7 +29271,9 @@ WidgetIsContainer
 ourDisp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 )
 return
@@ -42079,7 +42087,9 @@ aFrame
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 ;
 result
@@ -42131,7 +42141,9 @@ aFrame
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 &
 padding
 )
@@ -44535,7 +44547,9 @@ this
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 &
 widget
 &
@@ -66374,7 +66388,9 @@ this
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 &
 r
 )

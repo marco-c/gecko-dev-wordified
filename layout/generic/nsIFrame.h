@@ -14175,7 +14175,9 @@ mutable_this
 aDisp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 )
 {
@@ -14200,7 +14202,9 @@ mutable_this
 aDisp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 ;
 }

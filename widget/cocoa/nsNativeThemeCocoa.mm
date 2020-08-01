@@ -2851,7 +2851,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance
@@ -7054,7 +7056,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 {
 case
@@ -8562,7 +8566,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 {
 case
@@ -15576,7 +15582,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance

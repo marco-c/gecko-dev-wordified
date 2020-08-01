@@ -26915,7 +26915,9 @@ mAppearance
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 ;
 StyleFrame
 (
@@ -26966,9 +26968,6 @@ ThemeGeometryTypeForWidget
 StyleFrame
 (
 )
-disp
--
->
 mAppearance
 )
 ;
@@ -26996,9 +26995,6 @@ type
 }
 if
 (
-disp
--
->
 mAppearance
 =
 =
@@ -27008,9 +27004,6 @@ StyleAppearance
 MozWinBorderlessGlass
 |
 |
-disp
--
->
 mAppearance
 =
 =
@@ -27757,7 +27750,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 &
 r
 )
