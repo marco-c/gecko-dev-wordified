@@ -2878,9 +2878,6 @@ targetAppFilter
 (
 entry
 environment
-=
-{
-}
 )
 {
 /
@@ -4975,6 +4972,7 @@ async
 _filterItem
 (
 entry
+environment
 )
 {
 if
@@ -4985,6 +4983,7 @@ await
 targetAppFilter
 (
 entry
+environment
 )
 )
 )
@@ -7426,6 +7425,7 @@ async
 _filterItem
 (
 entry
+environment
 )
 {
 if
@@ -7436,6 +7436,7 @@ await
 targetAppFilter
 (
 entry
+environment
 )
 )
 )
