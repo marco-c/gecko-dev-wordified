@@ -2076,6 +2076,15 @@ get
 frameLoader
 )
 ;
+if
+(
+!
+state
+)
+{
+return
+;
+}
 let
 oldFrameState
 =
