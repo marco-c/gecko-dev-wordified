@@ -277,6 +277,8 @@ is
 (
 triggeringPrincipal
 .
+URI
+.
 spec
 TEST_PAGE
 "

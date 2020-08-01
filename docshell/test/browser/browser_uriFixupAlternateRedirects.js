@@ -284,6 +284,8 @@ ok
 (
 contentPrincipal
 .
+URI
+.
 spec
 .
 startsWith

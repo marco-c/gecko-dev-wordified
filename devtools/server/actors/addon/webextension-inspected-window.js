@@ -497,7 +497,7 @@ location
 href
 .
 const
-reportedURIorPrincipal
+reportedURI
 =
 isSystemPrincipalWindow
 (
@@ -522,6 +522,8 @@ window
 document
 .
 nodePrincipal
+.
+URI
 ;
 const
 error
@@ -562,7 +564,7 @@ allowed
 to
 access
 {
-reportedURIorPrincipal
+reportedURI
 .
 spec
 }

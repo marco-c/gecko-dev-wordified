@@ -422,6 +422,13 @@ aTriggeringPrincipal
 &
 aTriggeringPrincipal
 .
+URI
+&
+&
+aTriggeringPrincipal
+.
+URI
+.
 spec
 }
 ;

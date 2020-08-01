@@ -1130,6 +1130,15 @@ aBrowser
 .
 contentPrincipal
 .
+URI
+&
+&
+aBrowser
+.
+contentPrincipal
+.
+URI
+.
 spec
 =
 =
