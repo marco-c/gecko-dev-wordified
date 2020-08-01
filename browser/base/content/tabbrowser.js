@@ -14339,9 +14339,9 @@ remoteType
 =
 sameProcessAsFrameLoader
 .
-messageManager
+browsingContext
 .
-remoteType
+currentRemoteType
 ;
 }
 /
