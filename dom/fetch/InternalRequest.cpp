@@ -1380,6 +1380,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_CHROMEUTILS_COMPILED_SCRIPT
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_SCRIPT
 :
 destination

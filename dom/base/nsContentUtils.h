@@ -22628,6 +22628,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_PAINTWORKLET
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_CHROMEUTILS_COMPILED_SCRIPT
+:
 return
 nsIContentPolicy
 :
