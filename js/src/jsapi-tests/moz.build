@@ -217,6 +217,11 @@ testDebugger
 cpp
 '
 '
+testDeduplication
+.
+cpp
+'
+'
 testDeepFreeze
 .
 cpp
