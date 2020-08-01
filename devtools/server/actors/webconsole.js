@@ -3814,13 +3814,13 @@ args
 :
 [
 {
-browsingContextID
+browserId
 :
 this
 .
 parentActor
 .
-browsingContextID
+browserId
 }
 this
 .
