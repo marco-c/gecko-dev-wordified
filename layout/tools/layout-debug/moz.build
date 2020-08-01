@@ -124,3 +124,15 @@ browser
 ini
 '
 ]
+FINAL_TARGET_FILES
+.
+actors
++
+=
+[
+'
+LayoutDebugChild
+.
+jsm
+'
+]
