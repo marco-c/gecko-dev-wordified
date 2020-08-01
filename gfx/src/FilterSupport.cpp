@@ -124,6 +124,13 @@ h
 #
 include
 "
+FilterDescription
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

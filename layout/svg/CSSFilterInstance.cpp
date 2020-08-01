@@ -142,6 +142,13 @@ order
 #
 include
 "
+FilterDescription
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h
