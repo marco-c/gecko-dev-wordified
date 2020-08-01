@@ -1712,13 +1712,7 @@ args
 :
         
 print
->
->
-sys
-.
-stderr
-"
-"
+(
 "
 Usage
 :
@@ -1728,8 +1722,6 @@ s
 binary
 >
 "
-"
-"
 %
 sys
 .
@@ -1737,6 +1729,7 @@ argv
 [
 0
 ]
+)
         
 sys
 .
@@ -1753,13 +1746,7 @@ xre_path
 :
         
 print
->
->
-sys
-.
-stderr
-"
-"
+(
 "
 Error
 :
@@ -1771,8 +1758,7 @@ path
 is
 required
 "
-"
-"
+)
         
 sys
 .
@@ -1789,13 +1775,7 @@ utility_path
 :
         
 print
->
->
-sys
-.
-stderr
-"
-"
+(
 "
 Warning
 :
@@ -1811,8 +1791,7 @@ process
 assertion
 stacks
 "
-"
-"
+)
     
 update_mozinfo
 (

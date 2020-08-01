@@ -53,6 +53,8 @@ re
 import
 shutil
 import
+six
+import
 sys
 import
 tempfile
@@ -3319,7 +3321,9 @@ if
 isinstance
 (
 t
-basestring
+six
+.
+string_types
 )
                                        
 else
