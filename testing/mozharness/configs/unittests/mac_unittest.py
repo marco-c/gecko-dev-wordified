@@ -64,6 +64,11 @@ XPCSHELL_NAME
 '
 xpcshell
 '
+HTTP3SERVER_NAME
+=
+'
+http3server
+'
 EXE_SUFFIX
 =
 '
@@ -127,6 +132,12 @@ xpcshell_name
 "
 :
 XPCSHELL_NAME
+    
+"
+http3server_name
+"
+:
+HTTP3SERVER_NAME
     
 "
 exe_suffix
@@ -1595,6 +1606,21 @@ s
 "
 +
 XPCSHELL_NAME
+                        
+"
+-
+-
+http3server
+=
+%
+(
+abs_app_dir
+)
+s
+/
+"
++
+HTTP3SERVER_NAME
                         
 "
 -

@@ -229,6 +229,10 @@ geckodriver
 '
     
 '
+http3server
+'
+    
+'
 minidumpwriter
 '
     
