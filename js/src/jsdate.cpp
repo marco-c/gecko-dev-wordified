@@ -17418,7 +17418,7 @@ B
 /
 static
 bool
-date_toGMTString
+date_toUTCString
 (
 JSContext
 *
@@ -17451,7 +17451,7 @@ DateObject
 cx
 args
 "
-toGMTString
+toUTCString
 "
 )
 ;
@@ -21473,7 +21473,7 @@ JS_FN
 "
 toUTCString
 "
-date_toGMTString
+date_toUTCString
 0
 0
 )
