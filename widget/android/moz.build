@@ -608,6 +608,11 @@ nsLookAndFeel
 cpp
 '
 '
+nsNativeBasicThemeAndroid
+.
+cpp
+'
+'
 nsPrintSettingsServiceAndroid
 .
 cpp
@@ -802,6 +807,12 @@ gfx
 gfx
 /
 vr
+'
+'
+/
+layout
+/
+forms
 '
 '
 /
