@@ -8,6 +8,7 @@ request
 :
     
 return
+u
 '
 /
 '
@@ -22,6 +23,7 @@ path
 .
 split
 (
+u
 '
 /
 '
@@ -33,6 +35,7 @@ split
 ]
 )
 +
+u
 '
 /
 '
@@ -106,9 +109,11 @@ GET
 .
 first
 (
+b
 "
 stateKey
 "
+b
 "
 "
 )
@@ -121,9 +126,11 @@ GET
 .
 first
 (
+b
 "
 abortKey
 "
+b
 "
 "
 )
@@ -147,11 +154,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -188,6 +197,7 @@ writer
 .
 write
 (
+b
 "
 .
 "
@@ -205,8 +215,12 @@ response
 .
 writer
 .
-flush
+write
 (
+b
+"
+.
+"
 )
 :
             
@@ -232,17 +246,6 @@ request
 :
             
 break
-        
-response
-.
-writer
-.
-write
-(
-"
-.
-"
-)
         
 time
 .

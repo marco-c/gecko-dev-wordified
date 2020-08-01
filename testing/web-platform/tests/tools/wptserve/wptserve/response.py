@@ -5894,6 +5894,9 @@ encode
 data
 )
 )
+            
+return
+True
         
 except
 socket
@@ -5915,7 +5918,8 @@ the
 remote
 end
             
-pass
+return
+False
     
 def
 write_content_file
