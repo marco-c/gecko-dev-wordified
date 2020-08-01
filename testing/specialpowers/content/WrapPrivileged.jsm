@@ -1033,13 +1033,13 @@ currentID
 =
 win
 .
-windowGlobalChild
+windowUtils
 ?
 win
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 :
 0
 ;

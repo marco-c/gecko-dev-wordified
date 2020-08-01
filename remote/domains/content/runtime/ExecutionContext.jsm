@@ -337,9 +337,9 @@ windowId
 =
 debuggee
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 this
 .
