@@ -10490,7 +10490,7 @@ a
 backup
 of
 the
-curent
+current
 URL
 nsStandardURL
 prevURL
