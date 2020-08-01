@@ -1205,6 +1205,12 @@ _shistoryInParent
 =
 shistoryInParent
 ;
+this
+.
+_tabDataForFinishRestoreHistory
+=
+tabData
+;
 if
 (
 this
@@ -1295,12 +1301,6 @@ this
 _historyListener
 =
 listener
-;
-this
-.
-_tabDataForFinishRestoreHistory
-=
-tabData
 ;
 this
 .
