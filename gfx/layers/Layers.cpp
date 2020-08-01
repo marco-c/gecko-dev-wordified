@@ -7909,6 +7909,12 @@ true
 }
 else
 {
+contTransform
+.
+NudgeToIntegers
+(
+)
+;
 #
 ifdef
 MOZ_GFX_OPTIMIZE_MOBILE
