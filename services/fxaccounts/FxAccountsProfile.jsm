@@ -1185,6 +1185,10 @@ _getProfileCache
 ;
 if
 (
+!
+profileCache
+|
+|
 Date
 .
 now
@@ -1262,8 +1266,12 @@ recent
 ;
 return
 profileCache
+?
+profileCache
 .
 profile
+:
+null
 ;
 }
 QueryInterface
