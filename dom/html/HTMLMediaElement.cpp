@@ -20829,15 +20829,6 @@ Pause
 rv
 )
 ;
-OwnerDoc
-(
-)
--
->
-SetDocTreeHadPlayRevoked
-(
-)
-;
 }
 }
 void
