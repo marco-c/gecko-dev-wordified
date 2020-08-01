@@ -3471,6 +3471,8 @@ endswith
 (
 '
 .
+json
+.
 gz
 '
 )
@@ -3502,6 +3504,15 @@ json
 dumps
 (
 data
+)
+.
+encode
+(
+'
+utf
+-
+8
+'
 )
 )
     
@@ -3606,6 +3617,8 @@ endswith
 (
 '
 .
+json
+.
 gz
 '
 )
@@ -3634,6 +3647,15 @@ json
 load
 (
 f
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 )
     
 else
