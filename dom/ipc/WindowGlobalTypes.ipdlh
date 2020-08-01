@@ -167,6 +167,7 @@ mozilla
 namespace
 dom
 {
+uncomparable
 struct
 WindowGlobalInit
 {
