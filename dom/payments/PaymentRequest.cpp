@@ -5602,7 +5602,7 @@ eInteractive
 {
 aRv
 .
-ThrowSecurityError
+ThrowInvalidStateError
 (
 "
 The
