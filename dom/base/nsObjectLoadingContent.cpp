@@ -16174,7 +16174,7 @@ void
 nsObjectLoadingContent
 :
 :
-DestroyContent
+Destroy
 (
 )
 {

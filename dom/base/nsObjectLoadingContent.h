@@ -2119,7 +2119,7 @@ references
 *
 /
 void
-DestroyContent
+Destroy
 (
 )
 ;

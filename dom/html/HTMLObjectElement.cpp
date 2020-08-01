@@ -2598,7 +2598,7 @@ DestroyContent
 nsObjectLoadingContent
 :
 :
-DestroyContent
+Destroy
 (
 )
 ;
