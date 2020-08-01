@@ -4332,6 +4332,9 @@ path
 pass_thru
 =
 True
+ensure_exit_code
+=
+False
 )
         
 if
