@@ -582,19 +582,6 @@ src
 '
             
 '
-abs_src_dir
-'
-:
-os
-.
-environ
-[
-'
-GECKO_PATH
-'
-]
-            
-'
 abs_obj_dir
 '
 :
