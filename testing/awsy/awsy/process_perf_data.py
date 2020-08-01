@@ -1330,9 +1330,11 @@ calculate_memory_report_values
                                             
 memory_report_path
 node
+[
 '
 Main
 '
+]
 )
             
 totals_uss
