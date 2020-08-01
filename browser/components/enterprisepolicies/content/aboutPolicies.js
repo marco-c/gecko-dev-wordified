@@ -1879,11 +1879,6 @@ Permissions
 "
 Permissions2
 "
-PrimaryPassword
-:
-"
-MasterPassword
-"
 }
 ;
 for
