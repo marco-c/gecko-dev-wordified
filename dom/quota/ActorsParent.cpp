@@ -39568,9 +39568,12 @@ do_QueryInterface
 aWindow
 )
 ;
-NS_ENSURE_TRUE
+QM_TRY
+(
+OkIf
 (
 sop
+)
 NS_ERROR_FAILURE
 )
 ;
@@ -39587,9 +39590,12 @@ GetPrincipal
 (
 )
 ;
-NS_ENSURE_TRUE
+QM_TRY
+(
+OkIf
 (
 principal
+)
 NS_ERROR_FAILURE
 )
 ;
