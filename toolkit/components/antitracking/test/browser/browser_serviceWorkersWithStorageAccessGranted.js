@@ -709,7 +709,16 @@ true
 ]
 expectedBlockingNotifications
 :
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
+/
+/
+expect
+blocking
+notifications
 runInPrivateWindow
 :
 false

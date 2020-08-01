@@ -541,10 +541,14 @@ user
 -
 interaction
 test
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 /
 /
-no
+expect
 blocking
 notifications
 false

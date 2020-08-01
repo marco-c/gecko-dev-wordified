@@ -6622,6 +6622,11 @@ sandboxed
 )
 )
 ;
+*
+aRejectedReason
+=
+blockedReason
+;
 return
 false
 ;
@@ -8023,6 +8028,11 @@ sandboxed
 "
 )
 )
+;
+*
+aRejectedReason
+=
+blockedReason
 ;
 return
 false
