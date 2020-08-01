@@ -4519,7 +4519,11 @@ damageArea
 (
 aColIndex
 0
-1
+GetColCount
+(
+)
+-
+aColIndex
 GetRowCount
 (
 )
