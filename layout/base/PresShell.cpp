@@ -31242,6 +31242,8 @@ aForPrimarySelection
 nsIFrame
 *
 ancestorFrame
+=
+nullptr
 ;
 nsIFrame
 *
