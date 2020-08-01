@@ -29473,7 +29473,7 @@ dom
 .
 max_chrome_script_run_time
 "
-20
+0
 )
 ;
 pref
