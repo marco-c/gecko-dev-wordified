@@ -1125,6 +1125,12 @@ itself
 debuggerServiceWorkerStatus
 :
 string
+onThreadAttached
+:
+Promise
+<
+*
+>
 }
 ;
 /
