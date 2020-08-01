@@ -434,11 +434,6 @@ IndexedDatabaseManager
 cpp
 '
 '
-IndexedDBCommon
-.
-cpp
-'
-'
 KeyPath
 .
 cpp
