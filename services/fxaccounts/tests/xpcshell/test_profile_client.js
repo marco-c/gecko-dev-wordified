@@ -199,8 +199,10 @@ true
 }
 }
 async
-get
+dispatch
 (
+method
+payload
 )
 {
 this
@@ -366,8 +368,10 @@ setHeader
 {
 }
 async
-get
+dispatch
 (
+method
+payload
 )
 {
 throw
@@ -1441,8 +1445,10 @@ lastToken
 }
 }
 async
-get
+dispatch
 (
+method
+payload
 )
 {
 this
@@ -1908,8 +1914,10 @@ lastToken
 }
 }
 async
-get
+dispatch
 (
+method
+payload
 )
 {
 this

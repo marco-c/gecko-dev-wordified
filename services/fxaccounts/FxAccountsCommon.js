@@ -990,6 +990,16 @@ profile
 ;
 exports
 .
+SCOPE_PROFILE_WRITE
+=
+"
+profile
+:
+write
+"
+;
+exports
+.
 SCOPE_OLD_SYNC
 =
 "
