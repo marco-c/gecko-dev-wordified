@@ -5284,7 +5284,7 @@ nsIFile
 :
 :
 NORMAL_FILE_TYPE
-0644
+0600
 )
 ;
 if
