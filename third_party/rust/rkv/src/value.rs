@@ -189,10 +189,10 @@ integers
 to
 annotate
 values
+/
+/
+/
 stored
-/
-/
-/
 in
 LMDB
 .
@@ -211,12 +211,12 @@ value
 of
 one
 type
+/
+/
+/
 to
 another
 .
-/
-/
-/
 For
 this
 reason
@@ -230,6 +230,9 @@ deserialize
 from
 the
 bincode
+/
+/
+/
 crate
 .
 #
@@ -943,7 +946,6 @@ map_err
 |
 e
 |
-{
 DataError
 :
 :
@@ -955,7 +957,6 @@ t
 err
 :
 e
-}
 }
 )
 .
@@ -1149,7 +1150,6 @@ map_err
 |
 e
 |
-{
 DataError
 :
 :
@@ -1161,7 +1161,6 @@ t
 err
 :
 e
-}
 }
 )
 }
@@ -2088,6 +2087,12 @@ test
 mod
 tests
 {
+use
+ordered_float
+:
+:
+OrderedFloat
+;
 use
 super
 :

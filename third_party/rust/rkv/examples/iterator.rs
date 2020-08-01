@@ -72,10 +72,13 @@ use
 std
 :
 :
-{
 fs
+;
+use
+std
+:
+:
 str
-}
 ;
 use
 tempfile
@@ -87,7 +90,6 @@ use
 rkv
 :
 :
-{
 backend
 :
 :
@@ -96,6 +98,12 @@ Lmdb
 LmdbDatabase
 LmdbEnvironment
 }
+;
+use
+rkv
+:
+:
+{
 Manager
 Rkv
 SingleStore

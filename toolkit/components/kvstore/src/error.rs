@@ -80,6 +80,9 @@ rkv
 :
 :
 {
+migrate
+:
+:
 MigrateError
 StoreError
 }

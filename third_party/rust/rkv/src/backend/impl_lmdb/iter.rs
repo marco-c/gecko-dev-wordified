@@ -393,9 +393,6 @@ e
 map_err
 (
 ErrorImpl
-:
-:
-LmdbError
 )
 )
 }
