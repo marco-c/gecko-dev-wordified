@@ -1,8 +1,27 @@
 import
 os
 json
+from
+six
+.
+moves
+.
 urllib
-urlparse
+.
+parse
+import
+parse_qsl
+SplitResult
+urlencode
+urlsplit
+urlunsplit
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 get_template
 (
@@ -24,7 +43,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
     
@@ -44,6 +66,7 @@ join
 (
 script_directory
                                                       
+u
 "
 template
 "
@@ -61,7 +84,6 @@ join
 template_directory
 template_basename
 )
-;
     
 with
 open
@@ -110,6 +132,7 @@ writer
 .
 write_header
 (
+b
 "
 access
 -
@@ -119,6 +142,7 @@ allow
 -
 origin
 "
+b
 "
 *
 "
@@ -130,10 +154,14 @@ writer
 .
 write_header
 (
+b
 "
 location
 "
+isomorphic_encode
+(
 url
+)
 )
     
 response
@@ -150,6 +178,7 @@ writer
 .
 write
 (
+u
 "
 "
 )
@@ -192,6 +221,7 @@ __get_swapped_origin_netloc
 netloc
 subdomain_prefix
 =
+u
 "
 www1
 .
@@ -354,6 +384,7 @@ False
                
 query_parameter_to_remove
 =
+u
 "
 redirection
 "
@@ -362,8 +393,6 @@ redirection
     
 parsed
 =
-urlparse
-.
 urlsplit
 (
 request
@@ -389,6 +418,7 @@ swap_scheme
         
 scheme
 =
+u
 "
 http
 "
@@ -398,10 +428,12 @@ parsed
 scheme
 =
 =
+u
 "
 https
 "
 else
+u
 "
 https
 "
@@ -414,6 +446,7 @@ netloc
 .
 split
 (
+u
 '
 :
 '
@@ -430,6 +463,7 @@ server
 .
 config
 [
+u
 "
 ports
 "
@@ -443,6 +477,7 @@ scheme
         
 destination_netloc
 =
+u
 "
 :
 "
@@ -566,6 +601,7 @@ parsed
 scheme
 =
 =
+u
 "
 https
 "
@@ -573,6 +609,7 @@ https
             
 scheme
 =
+u
 "
 http
 "
@@ -583,6 +620,7 @@ parsed
 scheme
 =
 =
+u
 "
 wss
 "
@@ -590,6 +628,7 @@ wss
             
 scheme
 =
+u
 "
 ws
 "
@@ -600,6 +639,7 @@ else
 raise
 ValueError
 (
+u
 "
 Downgrade
 redirection
@@ -626,6 +666,7 @@ netloc
 .
 split
 (
+u
 '
 :
 '
@@ -642,6 +683,7 @@ server
 .
 config
 [
+u
 "
 ports
 "
@@ -657,6 +699,7 @@ scheme
         
 destination_netloc
 =
+u
 "
 :
 "
@@ -685,8 +728,6 @@ destination_netloc
     
 parsed_query
 =
-urlparse
-.
 parse_qsl
 (
 parsed
@@ -699,11 +740,13 @@ True
     
 parsed_query
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+parsed_query
+if
 x
 [
 0
@@ -711,18 +754,12 @@ x
 !
 =
 query_parameter_to_remove
-                          
-parsed_query
-)
+]
     
 destination_url
 =
-urlparse
-.
 urlunsplit
 (
-urlparse
-.
 SplitResult
 (
         
@@ -742,8 +779,6 @@ path
         
 query
 =
-urllib
-.
 urlencode
 (
 parsed_query
@@ -766,6 +801,7 @@ response
 :
     
 if
+b
 "
 redirection
 "
@@ -785,6 +821,7 @@ request
 .
 GET
 [
+b
 "
 redirection
 "
@@ -794,6 +831,7 @@ if
 redirection
 =
 =
+b
 "
 no
 -
@@ -808,6 +846,7 @@ elif
 redirection
 =
 =
+b
 "
 keep
 -
@@ -829,6 +868,7 @@ elif
 redirection
 =
 =
+b
 "
 swap
 -
@@ -850,6 +890,7 @@ elif
 redirection
 =
 =
+b
 "
 downgrade
 "
@@ -869,6 +910,7 @@ elif
 redirection
 =
 =
+b
 "
 keep
 -
@@ -890,6 +932,7 @@ elif
 redirection
 =
 =
+b
 "
 swap
 -
@@ -913,6 +956,7 @@ else
 raise
 ValueError
 (
+u
 "
 Invalid
 redirection
@@ -923,7 +967,10 @@ s
 '
 "
 %
+isomorphic_decode
+(
 redirection
+)
 )
     
 redirect
@@ -943,6 +990,7 @@ response
 :
     
 if
+b
 "
 action
 "
@@ -962,6 +1010,7 @@ request
 .
 GET
 [
+b
 "
 action
 "
@@ -973,6 +1022,7 @@ request
 .
 GET
 [
+b
 "
 key
 "
@@ -994,28 +1044,34 @@ GET
 .
 get
 (
+b
 "
 path
 "
+isomorphic_encode
+(
 request
 .
 url
 .
 split
 (
+u
 '
 ?
 '
 )
-)
 [
 0
 ]
+)
+)
     
 if
 action
 =
 =
+b
 "
 put
 "
@@ -1023,14 +1079,18 @@ put
         
 value
 =
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 "
 value
 "
 ]
+)
         
 stash
 .
@@ -1066,18 +1126,24 @@ json
 dumps
 (
 {
+u
 "
 status
 "
 :
+u
 "
 success
 "
+u
 "
 result
 "
 :
+isomorphic_decode
+(
 key
+)
 }
 )
     
@@ -1085,6 +1151,7 @@ elif
 action
 =
 =
+b
 "
 purge
 "
@@ -1111,6 +1178,7 @@ elif
 action
 =
 =
+b
 "
 take
 "
@@ -1138,6 +1206,7 @@ None
             
 status
 =
+u
 "
 allowed
 "
@@ -1147,6 +1216,7 @@ else
             
 status
 =
+u
 "
 blocked
 "
@@ -1158,11 +1228,13 @@ json
 dumps
 (
 {
+u
 "
 status
 "
 :
 status
+u
 "
 result
 "
@@ -1198,11 +1270,13 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
 type
 "
+b
 "
 text
 /
@@ -1216,11 +1290,13 @@ writer
 .
 write_header
 (
+b
 "
 cache
 -
 control
 "
+b
 "
 no
 -
@@ -1260,6 +1336,7 @@ response
 :
     
 return
+u
 "
 "
 def
@@ -1275,6 +1352,7 @@ status_code
             
 content_type
 =
+b
 "
 text
 /
@@ -1287,6 +1365,7 @@ __noop
             
 cache_control
 =
+b
 "
 no
 -
@@ -1299,6 +1378,7 @@ revalidate
             
 access_control_allow_origin
 =
+b
 "
 *
 "
@@ -1357,6 +1437,7 @@ writer
 .
 write_header
 (
+b
 "
 access
 -
@@ -1376,6 +1457,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -1390,6 +1472,7 @@ writer
 .
 write_header
 (
+b
 "
 cache
 -
@@ -1434,9 +1517,79 @@ end_headers
 (
 )
     
+new_headers
+=
+{
+}
+    
+new_val
+=
+[
+]
+    
+for
+key
+val
+in
+request
+.
+headers
+.
+items
+(
+)
+:
+        
+if
+len
+(
+val
+)
+=
+=
+1
+:
+            
+new_val
+=
+isomorphic_decode
+(
+val
+[
+0
+]
+)
+        
+else
+:
+            
+new_val
+=
+[
+isomorphic_decode
+(
+x
+)
+for
+x
+in
+val
+]
+        
+new_headers
+[
+isomorphic_decode
+(
+key
+)
+]
+=
+new_val
+    
 server_data
 =
 {
+u
 "
 headers
 "
@@ -1445,9 +1598,7 @@ json
 .
 dumps
 (
-request
-.
-headers
+new_headers
 indent
 =
 4
