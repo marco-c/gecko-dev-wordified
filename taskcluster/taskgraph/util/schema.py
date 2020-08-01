@@ -1706,14 +1706,11 @@ kind
 test
 '
 :
-(
 list
 (
 schedules
 .
 ALL_COMPONENTS
-)
-dict
 )
 }
     
