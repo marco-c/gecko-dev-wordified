@@ -92,7 +92,7 @@ defined
 in
 ext
 -
-utils
+browser
 .
 js
 )
@@ -161,7 +161,7 @@ defined
 in
 ext
 -
-utils
+browser
 .
 js
 )
