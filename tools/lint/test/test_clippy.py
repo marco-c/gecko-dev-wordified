@@ -166,54 +166,6 @@ path
     
 assert
 "
-value
-assigned
-to
-b
-is
-never
-read
-"
-in
-results
-[
-1
-]
-.
-message
-    
-assert
-results
-[
-1
-]
-.
-level
-=
-=
-"
-warning
-"
-    
-assert
-results
-[
-1
-]
-.
-relpath
-=
-=
-"
-test1
-/
-bad
-.
-rs
-"
-    
-assert
-"
 this
 looks
 like
@@ -229,7 +181,7 @@ b
 in
 results
 [
-2
+1
 ]
 .
 message
@@ -237,7 +189,7 @@ message
 assert
 results
 [
-2
+1
 ]
 .
 level
@@ -250,7 +202,7 @@ error
 assert
 results
 [
-2
+1
 ]
 .
 relpath
@@ -267,7 +219,7 @@ rs
 assert
 results
 [
-2
+1
 ]
 .
 rule
@@ -298,10 +250,58 @@ replace
 in
 results
 [
-2
+1
 ]
 .
 hint
+    
+assert
+"
+value
+assigned
+to
+b
+is
+never
+read
+"
+in
+results
+[
+2
+]
+.
+message
+    
+assert
+results
+[
+2
+]
+.
+level
+=
+=
+"
+warning
+"
+    
+assert
+results
+[
+2
+]
+.
+relpath
+=
+=
+"
+test1
+/
+bad
+.
+rs
+"
     
 assert
 "
@@ -316,7 +316,7 @@ mutable
 in
 results
 [
-6
+5
 ]
 .
 message
@@ -324,7 +324,7 @@ message
 assert
 results
 [
-6
+5
 ]
 .
 relpath
@@ -341,7 +341,7 @@ rs
 assert
 results
 [
-6
+5
 ]
 .
 rule
@@ -358,17 +358,11 @@ range
 is
 empty
 so
-this
-for
-loop
-will
-never
-run
 "
 in
 results
 [
-7
+6
 ]
 .
 message
@@ -376,7 +370,7 @@ message
 assert
 results
 [
-7
+6
 ]
 .
 level
@@ -389,7 +383,7 @@ error
 assert
 results
 [
-7
+6
 ]
 .
 relpath
@@ -406,7 +400,7 @@ rs
 assert
 results
 [
-7
+6
 ]
 .
 rule
@@ -416,7 +410,7 @@ rule
 clippy
 :
 :
-reverse_range_loop
+reversed_empty_ranges
 "
 def
 test_error
@@ -685,7 +679,7 @@ results
 lineno
 =
 =
-9
+1
     
 assert
 results
@@ -696,7 +690,7 @@ results
 column
 =
 =
-9
+4
     
 assert
 results
@@ -708,7 +702,7 @@ rule
 =
 =
 "
-unused_assignments
+dead_code
 "
     
 assert
@@ -866,7 +860,7 @@ results
 lineno
 =
 =
-9
+1
     
 assert
 results
@@ -877,7 +871,7 @@ results
 column
 =
 =
-9
+4
     
 assert
 results
@@ -889,7 +883,7 @@ rule
 =
 =
 "
-unused_assignments
+dead_code
 "
     
 assert
