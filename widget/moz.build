@@ -1585,6 +1585,11 @@ UNIFIED_SOURCES
 =
 [
 '
+CUPSPrinter
+.
+cpp
+'
+'
 nsCUPSShim
 .
 cpp
