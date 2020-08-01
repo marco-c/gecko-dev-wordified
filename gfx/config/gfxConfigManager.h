@@ -222,6 +222,10 @@ mGPUProcessAllowSoftware
 (
 false
 )
+mXRenderEnabled
+(
+false
+)
 mWrEnvForceEnabled
 (
 false
@@ -391,6 +395,9 @@ mWrPartialPresent
 ;
 bool
 mGPUProcessAllowSoftware
+;
+bool
+mXRenderEnabled
 ;
 /
 *
