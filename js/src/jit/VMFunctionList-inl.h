@@ -898,6 +898,15 @@ CheckOverRecursedBaseline
 \
 _
 (
+CheckPrivateFieldOperation
+js
+:
+:
+CheckPrivateFieldOperation
+)
+\
+_
+(
 CloneRegExpObject
 js
 :

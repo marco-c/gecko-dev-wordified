@@ -45308,7 +45308,7 @@ we
 end
 up
 emitting
-InitPrivateElem
+CheckPrivateField
 but
 otherwise
 we
@@ -45347,7 +45347,7 @@ to
 ultimately
 only
 do
-InitPrivateElem
+CheckPrivateField
 for
 the
 /

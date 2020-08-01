@@ -13,14 +13,6 @@ private
 -
 fields
 ;
-/
-/
-Very
-basic
-InitPrivateElem
-SetPrivateElem
-GetPrivateElem
-testing
 var
 shouldBeThis
 ;
