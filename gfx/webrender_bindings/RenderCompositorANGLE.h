@@ -693,7 +693,7 @@ aUseAlpha
 )
 ;
 bool
-SutdownEGLLibraryIfNecessary
+ShutdownEGLLibraryIfNecessary
 (
 )
 ;

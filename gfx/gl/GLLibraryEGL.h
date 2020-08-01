@@ -1835,6 +1835,12 @@ Shutdown
 (
 )
 ;
+bool
+IsAlive
+(
+)
+const
+;
 void
 DumpEGLConfig
 (

@@ -313,6 +313,13 @@ Init
 override
 ;
 bool
+IsAliveImpl
+(
+)
+const
+override
+;
+bool
 MakeCurrentImpl
 (
 )

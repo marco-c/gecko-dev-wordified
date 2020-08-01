@@ -694,7 +694,7 @@ bool
 RenderCompositorANGLE
 :
 :
-SutdownEGLLibraryIfNecessary
+ShutdownEGLLibraryIfNecessary
 (
 )
 {
@@ -950,7 +950,7 @@ necessary
 if
 (
 !
-SutdownEGLLibraryIfNecessary
+ShutdownEGLLibraryIfNecessary
 (
 )
 )
