@@ -28823,6 +28823,9 @@ const
 nsString
 &
 aAddonId
+const
+double
+aDuration
 )
 {
 nsresult
@@ -29248,6 +29251,7 @@ get
 (
 )
 aAddonId
+aDuration
 )
 ;
 if
