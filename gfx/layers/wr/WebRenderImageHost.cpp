@@ -1152,11 +1152,6 @@ composition
 .
 Send
 ImageCompositeNotifications
-and
-call
-/
-/
-UpdateBias
 .
 OnFinishRendering
 (

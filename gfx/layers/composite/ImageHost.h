@@ -781,11 +781,6 @@ aInfo
 Send
 ImageComposite
 notifications
-and
-update
-the
-ChooseImage
-bias
 .
 void
 FinishRendering
