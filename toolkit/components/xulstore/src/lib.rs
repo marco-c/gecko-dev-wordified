@@ -80,6 +80,10 @@ extern
 crate
 libc
 ;
+extern
+crate
+lmdb
+;
 #
 [
 macro_use
