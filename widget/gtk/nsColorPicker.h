@@ -240,14 +240,6 @@ defined
 (
 ACTIVATE_GTK3_COLOR_PICKER
 )
-&
-&
-GTK_CHECK_VERSION
-(
-3
-4
-0
-)
 static
 void
 OnColorChanged

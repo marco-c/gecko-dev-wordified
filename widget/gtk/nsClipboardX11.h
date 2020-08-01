@@ -238,13 +238,6 @@ nsRetrievalContextX11
 (
 )
 ;
-virtual
-~
-nsRetrievalContextX11
-(
-)
-override
-;
 private
 :
 bool
