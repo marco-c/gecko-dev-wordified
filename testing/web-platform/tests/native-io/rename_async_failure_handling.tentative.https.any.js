@@ -738,12 +738,14 @@ async
 =
 >
 {
+await
 closed_file
 .
 close
 (
 )
 ;
+await
 opened_file
 .
 close
