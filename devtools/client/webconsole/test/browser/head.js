@@ -2187,6 +2187,14 @@ message
 "
 )
 {
+hud
+.
+jsterm
+.
+focus
+(
+)
+;
 setInputValue
 (
 hud
