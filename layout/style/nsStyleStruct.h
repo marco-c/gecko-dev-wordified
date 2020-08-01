@@ -7185,13 +7185,12 @@ mozilla
 StyleImageRendering
 mImageRendering
 ;
-uint8_t
+mozilla
+:
+:
+StyleWritingModeProperty
 mWritingMode
 ;
-/
-/
-NS_STYLE_WRITING_MODE_
-*
 mozilla
 :
 :

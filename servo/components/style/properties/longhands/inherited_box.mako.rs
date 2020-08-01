@@ -333,6 +333,11 @@ writing
 -
 mode
 "
+gecko_enum_prefix
+=
+"
+StyleWritingModeProperty
+"
 servo_restyle_damage
 =
 "
