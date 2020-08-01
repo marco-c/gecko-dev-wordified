@@ -2088,6 +2088,9 @@ selected_object_file_
 -
 >
 cpusubtype
+&
+~
+CPU_SUBTYPE_MASK
 ;
 if
 (
