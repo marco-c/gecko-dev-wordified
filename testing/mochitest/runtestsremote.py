@@ -114,7 +114,7 @@ build_obj
 from
 mozdevice
 import
-ADBDevice
+ADBDeviceFactory
 ADBTimeoutError
 from
 mozscreenshot
@@ -192,7 +192,22 @@ False
 if
 options
 .
+log_mach_verbose
+or
+options
+.
 log_tbpl_level
+=
+=
+'
+debug
+'
+or
+\
+           
+options
+.
+log_mach_level
 =
 =
 '
@@ -201,7 +216,7 @@ debug
 or
 options
 .
-log_mach_level
+log_raw_level
 =
 =
 '
@@ -243,11 +258,28 @@ chromePushed
 =
 False
         
+expected
+=
+options
+.
+app
+.
+split
+(
+'
+/
+'
+)
+[
+-
+1
+]
+        
 self
 .
 device
 =
-ADBDevice
+ADBDeviceFactory
 (
 adb
 =
@@ -258,22 +290,26 @@ or
 '
 adb
 '
-                                
+                                       
 device
 =
 options
 .
 deviceSerial
-                                
+                                       
 test_root
 =
 options
 .
 remoteTestRoot
-                                
+                                       
 verbose
 =
 verbose
+                                       
+run_as_package
+=
+expected
 )
         
 if
@@ -356,6 +392,9 @@ device
 mkdir
 (
 logParent
+parents
+=
+True
 )
         
 self
@@ -371,7 +410,6 @@ options
 remoteTestRoot
 "
 profile
-/
 "
 )
         
@@ -388,9 +426,6 @@ force
 =
 True
 recursive
-=
-True
-root
 =
 True
 )
@@ -587,9 +622,6 @@ True
 recursive
 =
 True
-root
-=
-True
 )
         
 #
@@ -660,9 +692,6 @@ True
 recursive
 =
 True
-root
-=
-True
 )
         
 self
@@ -674,6 +703,9 @@ mkdir
 self
 .
 remoteMozLog
+parents
+=
+True
 )
         
 self
@@ -709,9 +741,6 @@ True
 recursive
 =
 True
-root
-=
-True
 )
         
 self
@@ -723,6 +752,9 @@ mkdir
 self
 .
 remoteChromeTestDir
+parents
+=
+True
 )
         
 procName
@@ -932,9 +964,6 @@ True
 recursive
 =
 True
-root
-=
-True
 )
             
 self
@@ -996,9 +1025,6 @@ remoteLogFile
 force
 =
 True
-root
-=
-True
 )
         
 self
@@ -1016,9 +1042,6 @@ True
 recursive
 =
 True
-root
-=
-True
 )
         
 self
@@ -1034,9 +1057,6 @@ force
 =
 True
 recursive
-=
-True
-root
 =
 True
 )
@@ -1757,9 +1777,6 @@ remoteModulesDir
 recursive
 =
 True
-root
-=
-True
 )
             
 except
@@ -1947,9 +1964,6 @@ self
 .
 remoteProfile
 recursive
-=
-True
-root
 =
 True
 )
