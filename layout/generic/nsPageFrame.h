@@ -322,6 +322,17 @@ nsSharedPageData
 aPD
 )
 ;
+nsSharedPageData
+*
+GetSharedPageData
+(
+)
+const
+{
+return
+mPD
+;
+}
 /
 /
 We
