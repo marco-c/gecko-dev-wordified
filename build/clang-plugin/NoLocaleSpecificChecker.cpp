@@ -404,6 +404,12 @@ toupper
 )
 )
 )
+unless
+(
+isAllowedToUseLocaleSpecificFunctions
+(
+)
+)
 )
 )
 .
