@@ -1344,10 +1344,13 @@ mChannel
 =
 nullptr
 ;
-std
+IPC
 :
 :
-wstring
+Channel
+:
+:
+ChannelId
 mChannelId
 ;
 ScopedPRFileDesc

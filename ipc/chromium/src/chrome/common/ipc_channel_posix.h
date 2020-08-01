@@ -240,6 +240,14 @@ Watcher
 {
 public
 :
+using
+ChannelId
+=
+Channel
+:
+:
+ChannelId
+;
 /
 /
 Mirror
@@ -256,10 +264,7 @@ description
 ChannelImpl
 (
 const
-std
-:
-:
-wstring
+ChannelId
 &
 channel_id
 Mode

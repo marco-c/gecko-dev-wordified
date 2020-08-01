@@ -322,10 +322,13 @@ MessageLoop
 *
 owner_loop_
 ;
-std
+IPC
 :
 :
-wstring
+Channel
+:
+:
+ChannelId
 channel_name_
 ;
 mozilla
