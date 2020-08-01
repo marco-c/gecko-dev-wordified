@@ -1822,15 +1822,6 @@ aLineSizes
 bool
 CreateYUVPlane
 (
-mozilla
-:
-:
-widget
-:
-:
-nsWaylandDisplay
-*
-display
 int
 aPlane
 int
