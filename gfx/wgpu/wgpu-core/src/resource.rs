@@ -1247,6 +1247,16 @@ pub
 (
 crate
 )
+dimension
+:
+wgt
+:
+:
+TextureDimension
+pub
+(
+crate
+)
 kind
 :
 hal

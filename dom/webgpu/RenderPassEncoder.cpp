@@ -1106,7 +1106,13 @@ aBuffer
 .
 mId
 aOffset
+ffi
+:
+:
+make_buffer_size
+(
 aSize
+)
 )
 ;
 }
@@ -1154,7 +1160,13 @@ aBuffer
 .
 mId
 aOffset
+ffi
+:
+:
+make_buffer_size
+(
 aSize
+)
 )
 ;
 }
