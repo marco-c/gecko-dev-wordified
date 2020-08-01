@@ -3170,9 +3170,6 @@ wr
 IdNamespace
 mIdNamespace
 ;
-CompositionOpportunityId
-mCompositionOpportunityId
-;
 VsyncId
 mSkippedCompositeId
 ;

@@ -3750,12 +3750,9 @@ invalid
 regions
 properly
 .
-SetCompositionInfo
+SetCompositionTime
 (
 aTimeStamp
-CompositionOpportunityId
-{
-}
 )
 ;
 if
