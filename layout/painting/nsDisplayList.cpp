@@ -850,6 +850,13 @@ h
 #
 include
 "
+TextDrawTarget
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
