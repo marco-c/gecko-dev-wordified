@@ -10807,6 +10807,8 @@ sslSocket
 ss
 PRUint16
 minVersion
+PRBool
+forCert
 sslBuffer
 *
 buf
@@ -10841,6 +10843,8 @@ PRUint16
 minVersion
 PRBool
 disableRsae
+PRBool
+forCert
 unsigned
 int
 maxSchemes

@@ -10158,6 +10158,12 @@ ssl3_EncodeSigAlgs
 (
 ss
 minVersion
+PR_TRUE
+/
+*
+forCert
+*
+/
 buf
 )
 ;

@@ -9280,6 +9280,7 @@ initializes
 int
 SECMOD_GetSystemFIPSEnabled
 (
+void
 )
 ;
 SEC_END_PROTOS

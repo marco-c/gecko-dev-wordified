@@ -8423,6 +8423,17 @@ vrange
 .
 max
 PR_TRUE
+/
+*
+disableRsae
+*
+/
+PR_FALSE
+/
+*
+forCert
+*
+/
 MAX_SIGNATURE_SCHEMES
 filtered
 &
