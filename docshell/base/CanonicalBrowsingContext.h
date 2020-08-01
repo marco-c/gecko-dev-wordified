@@ -1510,8 +1510,6 @@ uint64_t
 aPendingSwitchId
 bool
 aReplaceBrowsingContext
-uint64_t
-aSpecificGroupId
 )
 ;
 void
@@ -1574,11 +1572,14 @@ ContentParent
 >
 mContentParent
 ;
-uint64_t
-mPendingSwitchId
+RefPtr
+<
+BrowsingContextGroup
+>
+mSpecificGroup
 ;
 uint64_t
-mSpecificGroupId
+mPendingSwitchId
 ;
 bool
 mReplaceBrowsingContext
