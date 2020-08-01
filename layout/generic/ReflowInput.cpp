@@ -18457,6 +18457,7 @@ block
 size
 if
 (
+(
 StyleDisplay
 :
 :
@@ -18467,8 +18468,10 @@ mStyleDisplay
 -
 >
 mDisplay
+)
 |
 |
+(
 StyleDisplay
 :
 :
@@ -18479,6 +18482,7 @@ mStyleDisplay
 -
 >
 mDisplay
+)
 )
 {
 /
@@ -18575,7 +18579,6 @@ Doesn
 t
 apply
 to
-internal
 table
 elements
 ComputedMinWidth
