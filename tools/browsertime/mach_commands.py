@@ -3424,7 +3424,7 @@ venv_site_lib
 )
     
 def
-_activate_virtualenv
+activate_virtualenv
 (
 self
 *
@@ -3473,7 +3473,7 @@ failed
         
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 (
 self
 *
@@ -3564,7 +3564,7 @@ check
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -4879,7 +4879,7 @@ help
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -4976,7 +4976,7 @@ True
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         

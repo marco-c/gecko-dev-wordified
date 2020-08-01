@@ -1868,7 +1868,7 @@ verbose
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -2888,7 +2888,7 @@ verbose
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -6857,7 +6857,7 @@ verbose
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -9478,7 +9478,7 @@ verbose
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         

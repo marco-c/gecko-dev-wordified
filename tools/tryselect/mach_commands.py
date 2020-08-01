@@ -2624,7 +2624,7 @@ try
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         

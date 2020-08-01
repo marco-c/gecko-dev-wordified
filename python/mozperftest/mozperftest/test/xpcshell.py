@@ -338,7 +338,7 @@ self
 .
 mach_cmd
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
     
