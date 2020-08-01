@@ -381,11 +381,9 @@ key
 This
 observer
 is
-registered
-in
-ContentObservers
-.
-js
+called
+from
+BrowserProcessChild
 to
 avoid
 /
