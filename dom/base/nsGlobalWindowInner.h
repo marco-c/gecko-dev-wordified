@@ -8527,6 +8527,11 @@ UpdateAutoplayPermission
 (
 )
 ;
+void
+UpdateShortcutsPermission
+(
+)
+;
 public
 :
 /
