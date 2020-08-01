@@ -17,16 +17,25 @@ from
 base64
 import
 b64decode
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 NOTEHDRS
 =
 set
 (
 [
+u
 '
 content
 -
 type
 '
+u
 '
 access
 -
@@ -36,11 +45,13 @@ allow
 -
 origin
 '
+u
 '
 last
 -
 modified
 '
+u
 '
 etag
 '
@@ -60,9 +71,11 @@ LOCATIONHDRS
 set
 (
 [
+u
 '
 location
 '
+u
 '
 content
 -
@@ -75,12 +88,15 @@ DATEHDRS
 set
 (
 [
+u
 '
 date
 '
+u
 '
 expires
 '
+u
 '
 last
 -
@@ -104,6 +120,7 @@ GET
 .
 first
 (
+b
 "
 dispatch
 "
@@ -118,6 +135,7 @@ GET
 .
 first
 (
+b
 "
 uuid
 "
@@ -130,6 +148,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -154,6 +173,7 @@ status
 =
 (
 404
+b
 "
 Not
 Found
@@ -166,11 +186,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -179,6 +201,7 @@ plain
 )
         
 return
+b
 "
 UUID
 not
@@ -189,6 +212,7 @@ if
 dispatch
 =
 =
+b
 '
 test
 '
@@ -206,6 +230,7 @@ elif
 dispatch
 =
 =
+b
 '
 state
 '
@@ -225,6 +250,7 @@ status
 =
 (
 404
+b
 "
 Not
 Found
@@ -237,11 +263,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -250,6 +278,7 @@ plain
 )
     
 return
+b
 "
 Fallthrough
 "
@@ -268,6 +297,7 @@ status
 =
 (
 200
+b
 "
 OK
 "
@@ -279,6 +309,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -288,6 +319,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -299,6 +331,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -308,6 +341,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 "
@@ -319,6 +353,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -328,6 +363,7 @@ Allow
 -
 Headers
 "
+b
 "
 *
 "
@@ -339,6 +375,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -348,12 +385,14 @@ Max
 -
 Age
 "
+b
 "
 86400
 "
 )
     
 return
+b
 "
 Preflight
 request
@@ -373,11 +412,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -443,11 +484,13 @@ headers
 .
 get
 (
+b
 '
 Test
 -
 Requests
 '
+b
 "
 "
 )
@@ -463,6 +506,7 @@ status
 =
 (
 400
+b
 "
 Bad
 Request
@@ -475,11 +519,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -488,6 +534,7 @@ plain
 )
         
 return
+b
 "
 No
 or
@@ -520,6 +567,7 @@ status
 =
 (
 404
+b
 "
 Not
 Found
@@ -532,11 +580,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -545,6 +595,7 @@ plain
 )
         
 return
+b
 "
 Config
 not
@@ -571,6 +622,7 @@ config
 .
 get
 (
+u
 '
 response_headers
 '
@@ -614,6 +666,7 @@ header
 1
 ]
 =
+u
 "
 %
 s
@@ -691,14 +744,20 @@ headers
 .
 set
 (
+isomorphic_encode
+(
 header
 [
 0
 ]
+)
+isomorphic_encode
+(
 header
 [
 1
 ]
+)
 )
         
 if
@@ -735,12 +794,14 @@ state
 =
 {
         
+u
 '
 now
 '
 :
 now
         
+u
 '
 request_method
 '
@@ -749,6 +810,7 @@ request
 .
 method
         
+u
 '
 request_headers
 '
@@ -757,17 +819,23 @@ dict
 (
 [
 [
+isomorphic_decode
+(
 h
 .
 lower
 (
 )
+)
+isomorphic_decode
+(
 request
 .
 headers
 [
 h
 ]
+)
 ]
 for
 h
@@ -778,6 +846,7 @@ headers
 ]
 )
         
+u
 '
 response_headers
 '
@@ -806,6 +875,7 @@ server_state
 )
     
 if
+u
 "
 access
 -
@@ -826,6 +896,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -835,12 +906,14 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
 )
     
 if
+u
 "
 content
 -
@@ -857,11 +930,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -875,6 +950,7 @@ headers
 .
 set
 (
+b
 "
 Server
 -
@@ -895,11 +971,13 @@ config
 .
 get
 (
+u
 "
 response_status
 "
 [
 200
+b
 "
 OK
 "
@@ -911,15 +989,18 @@ config
 .
 get
 (
+u
 "
 expected_type
 "
+u
 "
 "
 )
 .
 endswith
 (
+u
 '
 validated
 '
@@ -933,6 +1014,7 @@ server_state
 0
 ]
 [
+u
 '
 response_headers
 '
@@ -944,6 +1026,7 @@ ref_hdrs
 .
 get
 (
+u
 '
 last
 -
@@ -961,6 +1044,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -972,7 +1056,10 @@ False
 )
 =
 =
+isomorphic_encode
+(
 previous_lm
+)
 :
             
 code
@@ -980,6 +1067,7 @@ phrase
 =
 [
 304
+b
 "
 Not
 Modified
@@ -992,6 +1080,7 @@ ref_hdrs
 .
 get
 (
+u
 '
 etag
 '
@@ -1007,6 +1096,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -1018,7 +1108,10 @@ False
 )
 =
 =
+isomorphic_encode
+(
 previous_etag
+)
 :
             
 code
@@ -1026,6 +1119,7 @@ phrase
 =
 [
 304
+b
 "
 Not
 Modified
@@ -1044,6 +1138,7 @@ phrase
 =
 [
 999
+b
 '
 304
 Not
@@ -1066,6 +1161,7 @@ config
 .
 get
 (
+u
 "
 response_body
 "
@@ -1079,6 +1175,7 @@ NOBODYSTATUS
 :
         
 return
+b
 "
 "
     
@@ -1132,24 +1229,31 @@ result
 WEEKDAYS
 =
 [
+u
 '
 Mon
 '
+u
 '
 Tue
 '
+u
 '
 Wed
 '
+u
 '
 Thu
 '
+u
 '
 Fri
 '
+u
 '
 Sat
 '
+u
 '
 Sun
 '
@@ -1158,40 +1262,52 @@ MONTHS
 =
 [
 None
+u
 '
 Jan
 '
+u
 '
 Feb
 '
+u
 '
 Mar
 '
+u
 '
 Apr
 '
+u
 '
 May
 '
+u
 '
 Jun
 '
+u
 '
 Jul
 '
           
+u
 '
 Aug
 '
+u
 '
 Sep
 '
+u
 '
 Oct
 '
+u
 '
 Nov
 '
+u
 '
 Dec
 '
@@ -1220,6 +1336,7 @@ delta_secs
 )
     
 return
+u
 "
 %
 s
