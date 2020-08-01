@@ -27831,6 +27831,10 @@ UpdateSrcMediaStreamPlaying
 (
 )
 ;
+StartMediaControlKeyListenerIfNeeded
+(
+)
+;
 /
 /
 Once
@@ -38724,6 +38728,10 @@ UpdateSrcMediaStreamPlaying
 )
 ;
 UpdateAudioChannelPlayingState
+(
+)
+;
+StartMediaControlKeyListenerIfNeeded
 (
 )
 ;
