@@ -8488,6 +8488,13 @@ return
 nsEventStatus_eConsumeNoDefault
 ;
 }
+{
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 if
 (
 aEvent
@@ -8535,6 +8542,7 @@ ScrollSnap
 return
 nsEventStatus_eConsumeNoDefault
 ;
+}
 }
 HitTestingTreeNodeAutoLock
 node
