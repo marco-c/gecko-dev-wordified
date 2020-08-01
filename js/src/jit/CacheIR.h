@@ -2784,6 +2784,7 @@ GuardClassKind
 uint8_t
 {
 Array
+DataView
 MappedArguments
 UnmappedArguments
 WindowProxy
