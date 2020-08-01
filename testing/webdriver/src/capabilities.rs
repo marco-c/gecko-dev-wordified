@@ -527,7 +527,6 @@ fn
 validate_custom
 (
 &
-mut
 self
 name
 :
@@ -858,7 +857,6 @@ Capabilities
 browser_capabilities
 :
 &
-mut
 T
 )
 -
