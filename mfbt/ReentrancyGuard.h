@@ -156,6 +156,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 namespace
 mozilla
 {
@@ -176,6 +185,7 @@ class
 MOZ_RAII
 ReentrancyGuard
 {
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 #
 ifdef
 DEBUG
@@ -201,6 +211,7 @@ ReentrancyGuard
 T
 &
 aObj
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEntered
@@ -216,10 +227,13 @@ ReentrancyGuard
 (
 T
 &
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 #
 endif
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 #
 ifdef
 DEBUG

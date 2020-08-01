@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -229,6 +238,8 @@ class
 MOZ_RAII
 AutoTimelineMarker
 {
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
+;
 /
 /
 The
@@ -273,6 +284,7 @@ const
 char
 *
 aName
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~

@@ -365,6 +365,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LinkedList
 .
 h
@@ -2320,6 +2329,7 @@ TemporarilyDisableDialogs
 nsGlobalWindowOuter
 *
 aWindow
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -2329,6 +2339,7 @@ TemporarilyDisableDialogs
 ;
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
 /
 Always

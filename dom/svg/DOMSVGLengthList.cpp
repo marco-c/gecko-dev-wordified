@@ -630,6 +630,7 @@ AutoChangeLengthListNotifier
 DOMSVGLengthList
 *
 aLengthList
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -652,6 +653,8 @@ mLengthList
 aLengthList
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mLengthList
@@ -747,6 +750,7 @@ mLengthList
 nsAttrValue
 mEmptyOrOldValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 void

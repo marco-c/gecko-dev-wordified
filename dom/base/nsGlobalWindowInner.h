@@ -378,6 +378,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LinkedList
 .
 h

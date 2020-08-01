@@ -2899,6 +2899,7 @@ JSContext
 cx
 bool
 hasProfilerFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 profiler
@@ -2912,6 +2913,8 @@ geckoProfiler
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 !
@@ -3546,6 +3549,7 @@ AutoSuppressProfilerSampling
 JSContext
 *
 cx
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -3562,6 +3566,8 @@ isProfilerSamplingEnabled
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 previouslyEnabled_

@@ -150,6 +150,15 @@ h
 /
 /
 MOZ_STACK_CLASS
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 namespace
 mozilla
 {
@@ -248,6 +257,7 @@ mLocation
 T
 mValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -256,6 +266,7 @@ AutoRestore
 T
 &
 aValue
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLocation
@@ -267,6 +278,8 @@ mValue
 aValue
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoRestore

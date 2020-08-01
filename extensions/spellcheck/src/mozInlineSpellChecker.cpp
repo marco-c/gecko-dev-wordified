@@ -9239,6 +9239,7 @@ mozInlineSpellChecker
 aSpellChecker
 int32_t
 aDelta
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mSpellChecker
@@ -9250,6 +9251,8 @@ mDelta
 aDelta
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoChangeNumPendingSpellChecks
@@ -9276,6 +9279,7 @@ mSpellChecker
 int32_t
 mDelta
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 void

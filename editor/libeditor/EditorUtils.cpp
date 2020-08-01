@@ -892,6 +892,7 @@ DOMIterator
 nsINode
 &
 aNode
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mIter
@@ -900,6 +901,8 @@ mIter
 mPostOrderIter
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 DebugOnly
 <
 nsresult
@@ -978,6 +981,7 @@ DOMIterator
 :
 DOMIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 mIter
@@ -986,6 +990,8 @@ mIter
 mPostOrderIter
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 template
 <
@@ -1159,10 +1165,12 @@ DOMSubtreeIterator
 :
 DOMSubtreeIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 DOMIterator
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 )
 {
 mIter

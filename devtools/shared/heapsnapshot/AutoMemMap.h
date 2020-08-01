@@ -145,6 +145,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 namespace
 mozilla
 {
@@ -289,6 +298,8 @@ class
 MOZ_RAII
 AutoMemMap
 {
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
+;
 PRFileInfo64
 fileInfo
 ;
@@ -331,6 +342,7 @@ public
 explicit
 AutoMemMap
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 fileInfo
@@ -349,6 +361,8 @@ addr
 nullptr
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ;
 ~

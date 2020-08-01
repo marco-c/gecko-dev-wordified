@@ -525,6 +525,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HTMLEditor
 .
 h
@@ -9400,6 +9409,7 @@ aThisEventTarget
 EventTarget
 *
 aOtherEventTarget
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mThisFrameLoader
@@ -9427,6 +9437,8 @@ mOtherEventTarget
 aOtherEventTarget
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mThisFrameLoader
 -
 >
@@ -9712,6 +9724,7 @@ EventTarget
 >
 mOtherEventTarget
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 nsresult

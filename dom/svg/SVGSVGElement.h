@@ -1677,6 +1677,7 @@ SVGSVGElement
 aRootElem
 float
 aFrameTime
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRootElem
@@ -1693,6 +1694,8 @@ GetCurrentTimeAsFloat
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mRootElem
 -
 >
@@ -1743,6 +1746,7 @@ const
 float
 mOriginalTime
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -1766,6 +1770,7 @@ dom
 SVGSVGElement
 *
 aRootElem
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRootElem
@@ -1777,6 +1782,8 @@ mDidOverride
 false
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mRootElem
@@ -1904,6 +1911,7 @@ mRootElem
 bool
 mDidOverride
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

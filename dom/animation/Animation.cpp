@@ -611,8 +611,11 @@ const
 Animation
 &
 aAnimation
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NonOwningAnimationTarget
 target
 =
@@ -658,6 +661,7 @@ OwnerDoc
 }
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 Maybe
 <
 nsAutoAnimationMutationBatch

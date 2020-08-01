@@ -4288,6 +4288,7 @@ AutoUserInitiated
 Selection
 *
 aSelection
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mSavedValue
@@ -4298,6 +4299,8 @@ aSelection
 mUserInitiated
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 aSelection
 -
 >
@@ -4312,6 +4315,7 @@ bool
 >
 mSavedValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 private
@@ -5763,6 +5767,7 @@ Selection
 >
 mSelection
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -5780,6 +5785,7 @@ AutoHideSelectionChanges
 Selection
 *
 aSelection
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mSelection
@@ -5787,6 +5793,8 @@ mSelection
 aSelection
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mSelection
 =
 aSelection

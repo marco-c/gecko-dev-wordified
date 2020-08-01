@@ -638,6 +638,7 @@ ScopedArrayBufferContentsTraits
 explicit
 ScopedArrayBufferContents
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 Scoped
@@ -645,6 +646,7 @@ Scoped
 ScopedArrayBufferContentsTraits
 >
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 )
 {
 }

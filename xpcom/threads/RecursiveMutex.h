@@ -145,6 +145,15 @@ BlockingResourceBase
 h
 "
 #
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
 ifndef
 XP_WIN
 #
@@ -413,6 +422,7 @@ RecursiveMutexAutoLock
 RecursiveMutex
 &
 aRecursiveMutex
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRecursiveMutex
@@ -421,6 +431,8 @@ mRecursiveMutex
 aRecursiveMutex
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 mRecursiveMutex
@@ -501,6 +513,7 @@ RecursiveMutex
 *
 mRecursiveMutex
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -515,6 +528,7 @@ RecursiveMutexAutoUnlock
 RecursiveMutex
 &
 aRecursiveMutex
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRecursiveMutex
@@ -523,6 +537,8 @@ mRecursiveMutex
 aRecursiveMutex
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 NS_ASSERTION
 (
 mRecursiveMutex
@@ -603,6 +619,7 @@ RecursiveMutex
 *
 mRecursiveMutex
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

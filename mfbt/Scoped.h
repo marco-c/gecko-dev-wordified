@@ -477,6 +477,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 namespace
 mozilla
 {
@@ -610,6 +619,7 @@ Resource
 explicit
 Scoped
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 mValue
@@ -622,6 +632,8 @@ empty
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 explicit
 Scoped
@@ -630,6 +642,7 @@ const
 Resource
 &
 aValue
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mValue
@@ -637,6 +650,8 @@ mValue
 aValue
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 /
 *
@@ -651,6 +666,7 @@ Scoped
 &
 &
 aOther
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mValue
@@ -666,6 +682,8 @@ mValue
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 aOther
 .
 mValue
@@ -1101,6 +1119,7 @@ private
 Resource
 mValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1256,10 +1275,13 @@ default
 explicit
 name
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
+\
 :
 Super
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_TO_PARENT
 )
 {
 }
@@ -1269,11 +1291,14 @@ name
 (
 Resource
 aRhs
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
+\
 :
 Super
 (
 aRhs
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }
@@ -1284,7 +1309,9 @@ name
 &
 &
 aRhs
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
+\
 :
 Super
 (
@@ -1295,6 +1322,7 @@ move
 (
 aRhs
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }

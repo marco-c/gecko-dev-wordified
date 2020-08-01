@@ -2255,6 +2255,8 @@ struct
 MOZ_RAII
 AutoReentrancyGuard
 {
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
+;
 SavedStacks
 &
 stacks
@@ -2265,6 +2267,7 @@ AutoReentrancyGuard
 SavedStacks
 &
 stacks
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 stacks
@@ -2272,6 +2275,8 @@ stacks
 stacks
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 stacks
 .
 creatingSavedFrame

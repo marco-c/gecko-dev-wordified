@@ -4924,6 +4924,7 @@ const
 EnvironmentIter
 &
 ei
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -4961,6 +4962,7 @@ env
 Scope
 *
 scope
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -4992,6 +4994,7 @@ frame
 jsbytecode
 *
 pc
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -5032,6 +5035,7 @@ Scope
 scope
 AbstractFramePtr
 frame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 bool
@@ -5311,6 +5315,7 @@ return
 frame_
 ;
 }
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

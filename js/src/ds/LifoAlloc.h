@@ -4880,6 +4880,7 @@ lifoAlloc_
 bool
 prevFallibleScope_
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -4888,8 +4889,11 @@ AutoFallibleScope
 LifoAlloc
 *
 lifoAlloc
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 lifoAlloc_
 =
 lifoAlloc
@@ -6364,6 +6368,7 @@ LifoAlloc
 AutoFallibleScope
 fallibleScope
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -6372,6 +6377,7 @@ LifoAllocScope
 LifoAlloc
 *
 lifoAlloc
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 lifoAlloc
@@ -6392,6 +6398,8 @@ fallibleScope
 lifoAlloc
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 LifoAllocScope

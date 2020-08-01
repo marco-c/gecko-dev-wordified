@@ -241,6 +241,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h
@@ -22849,8 +22858,11 @@ public
 explicit
 nsAutoScriptBlocker
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 nsContentUtils
 :
 :
@@ -22874,6 +22886,7 @@ RemoveScriptBlocker
 }
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class

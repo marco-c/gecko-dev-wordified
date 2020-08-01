@@ -664,6 +664,7 @@ aFrame
 SVGGeometryFrame
 *
 aMarkedFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -677,6 +678,7 @@ SVGMarkerFrame
 *
 mFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

@@ -37984,6 +37984,7 @@ AutoFlexItemMainSizeOverride
 FlexItem
 &
 aItem
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mItemFrame
@@ -37995,6 +37996,8 @@ Frame
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 !
@@ -38215,6 +38218,7 @@ nsIFrame
 *
 mItemFrame
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 void

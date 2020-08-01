@@ -125,6 +125,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -1468,6 +1477,7 @@ cx
 JSScript
 *
 script
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 MOZ_ALWAYS_INLINE
@@ -1490,6 +1500,7 @@ spBefore_
 ;
 #
 endif
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1554,6 +1565,7 @@ uint32_t
 flags
 =
 0
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 MOZ_ALWAYS_INLINE
@@ -1576,6 +1588,7 @@ spBefore_
 ;
 #
 endif
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -1630,6 +1643,7 @@ JSContext
 cx
 bool
 hasProfilerFrame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -1652,6 +1666,7 @@ uint32_t
 >
 spBefore_
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
