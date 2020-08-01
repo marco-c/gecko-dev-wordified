@@ -822,7 +822,7 @@ void
 nsImageLoadingContent
 :
 :
-DestroyImageLoadingContent
+Destroy
 (
 )
 {
@@ -888,7 +888,7 @@ mCurrentRequest
 !
 mPendingRequest
 "
-DestroyImageLoadingContent
+Destroy
 not
 called
 "

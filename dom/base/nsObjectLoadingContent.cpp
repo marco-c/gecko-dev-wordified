@@ -4005,7 +4005,10 @@ StopPluginInstance
 )
 ;
 }
-DestroyImageLoadingContent
+nsImageLoadingContent
+:
+:
+Destroy
 (
 )
 ;

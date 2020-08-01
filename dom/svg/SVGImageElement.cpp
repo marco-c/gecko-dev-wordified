@@ -602,7 +602,10 @@ SVGImageElement
 (
 )
 {
-DestroyImageLoadingContent
+nsImageLoadingContent
+:
+:
+Destroy
 (
 )
 ;
