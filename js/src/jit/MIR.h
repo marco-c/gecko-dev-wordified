@@ -66204,13 +66204,13 @@ MIsPackedArray
 (
 MDefinition
 *
-array
+object
 )
 :
 MUnaryInstruction
 (
 classOpcode
-array
+object
 )
 {
 setResultType
@@ -66237,7 +66237,7 @@ NAMED_OPERANDS
 (
 (
 0
-array
+object
 )
 )
 AliasSet

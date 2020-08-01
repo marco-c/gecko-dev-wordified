@@ -45650,7 +45650,7 @@ LIsPackedArray
 const
 LAllocation
 &
-array
+object
 const
 LDefinition
 &
@@ -45665,7 +45665,7 @@ classOpcode
 setOperand
 (
 0
-array
+object
 )
 ;
 setTemp
@@ -45678,7 +45678,7 @@ temp
 const
 LAllocation
 *
-array
+object
 (
 )
 {
