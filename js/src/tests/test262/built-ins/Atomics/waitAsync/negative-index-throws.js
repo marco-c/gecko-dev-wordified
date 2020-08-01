@@ -328,7 +328,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 -

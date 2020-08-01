@@ -48,7 +48,8 @@ proxy
 replacer
 serves
 as
-whitelist
+a
+filter
 of
 object
 keys

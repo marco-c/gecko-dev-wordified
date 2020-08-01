@@ -124,6 +124,9 @@ exception
 features
 :
 [
+Promise
+.
+any
 Symbol
 .
 iterator

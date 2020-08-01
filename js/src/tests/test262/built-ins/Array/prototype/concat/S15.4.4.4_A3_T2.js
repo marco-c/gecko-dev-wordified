@@ -31,7 +31,7 @@ test262
 /
 blob
 /
-master
+HEAD
 /
 LICENSE
 /

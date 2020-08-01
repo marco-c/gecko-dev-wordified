@@ -220,7 +220,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 Infinity
@@ -232,7 +232,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 Infinity
@@ -255,7 +255,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 -
@@ -268,7 +268,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 -
@@ -292,7 +292,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 4
@@ -304,7 +304,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 4
@@ -327,7 +327,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 200
@@ -339,7 +339,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 200

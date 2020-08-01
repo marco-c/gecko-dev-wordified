@@ -57,7 +57,7 @@ description
 >
 Throws
 a
-RangeError
+TypeError
 if
 startDate
 or
@@ -134,7 +134,7 @@ is
 undefined
 throw
 a
-RangeError
+TypeError
 exception
 .
 5
@@ -187,7 +187,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 function
 (
 )
@@ -234,7 +234,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 function
 (
 )
@@ -259,7 +259,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 function
 (
 )
@@ -284,7 +284,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 function
 (
 )
@@ -308,7 +308,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 function
 (
 )

@@ -601,7 +601,7 @@ test262
 /
 blob
 /
-master
+HEAD
 /
 INTERPRETING
 .
@@ -650,7 +650,7 @@ test262
 /
 blob
 /
-master
+HEAD
 /
 INTERPRETING
 .
