@@ -144,6 +144,13 @@ Pass
 ;
 pub
 use
+builder
+:
+:
+ScopeBuildError
+;
+pub
+use
 pass
 :
 :

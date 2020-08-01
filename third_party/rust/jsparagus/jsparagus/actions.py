@@ -2263,14 +2263,6 @@ int
 Unwind
 :
         
-assert
-self
-.
-replay
->
-=
-num
-        
 return
 Unwind
 (
@@ -2364,6 +2356,10 @@ __slots__
 unwind
 '
 ]
+    
+unwind
+:
+Unwind
     
 def
 __init__
@@ -4625,14 +4621,6 @@ int
 >
 FunCall
 :
-        
-assert
-self
-.
-offset
->
-=
-num
         
 return
 FunCall
