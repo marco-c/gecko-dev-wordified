@@ -145629,7 +145629,7 @@ mozilla
 /
 dom
 /
-BindingUtils
+PinnedStringId
 .
 h
 '
