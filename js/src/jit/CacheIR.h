@@ -9754,6 +9754,13 @@ isMax
 )
 ;
 AttachDecision
+tryAttachTypedArrayByteOffset
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachTypedArrayElementShift
 (
 HandleFunction
