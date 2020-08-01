@@ -2754,13 +2754,15 @@ prim_count
 ;
 resource_profile
 .
-content_slices
+picture_cache_slices
 .
 set
 (
 scene
 .
-content_slice_count
+tile_cache_config
+.
+picture_cache_slice_count
 )
 ;
 resource_cache
@@ -2961,6 +2963,8 @@ DISABLE_PICTURE_CACHING
 &
 !
 scene
+.
+tile_cache_config
 .
 picture_cache_spatial_nodes
 .

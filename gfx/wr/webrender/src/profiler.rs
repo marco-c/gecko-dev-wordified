@@ -4358,7 +4358,7 @@ gpu_cache
 :
 GpuCacheProfileCounters
 pub
-content_slices
+picture_cache_slices
 :
 IntProfileCounter
 }
@@ -4796,7 +4796,7 @@ expected
 IMAGE_TEMPLATES_MB
 )
 )
-content_slices
+picture_cache_slices
 :
 IntProfileCounter
 :
@@ -4804,7 +4804,8 @@ IntProfileCounter
 new
 (
 "
-Content
+Picture
+Cache
 Slices
 "
 None
@@ -9138,7 +9139,7 @@ backend_profile
 .
 resources
 .
-content_slices
+picture_cache_slices
 &
 self
 .
@@ -9255,7 +9256,7 @@ backend_profile
 .
 resources
 .
-content_slices
+picture_cache_slices
 &
 backend_profile
 .
