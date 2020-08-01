@@ -1280,6 +1280,7 @@ collect
 derive
 (
 Debug
+Clone
 )
 ]
 pub
@@ -1318,6 +1319,9 @@ pub
 fn
 top_level_script
 (
+length
+:
+u32
 lineno
 :
 u32
@@ -1336,13 +1340,13 @@ source_start
 0
 source_end
 :
-0
+length
 to_string_start
 :
 0
 to_string_end
 :
-0
+length
 lineno
 column
 }

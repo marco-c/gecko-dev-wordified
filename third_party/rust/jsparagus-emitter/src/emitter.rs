@@ -642,6 +642,10 @@ pub
 no_script_rval
 :
 bool
+pub
+extent
+:
+SourceExtent
 }
 impl
 EmitOptions
@@ -650,6 +654,9 @@ pub
 fn
 new
 (
+extent
+:
+SourceExtent
 )
 -
 >
@@ -660,6 +667,7 @@ Self
 no_script_rval
 :
 false
+extent
 }
 }
 }
@@ -8127,6 +8135,9 @@ script_data_list
 &
 mut
 ImmutableScriptDataList
+extent
+:
+SourceExtent
 )
 -
 >
@@ -8344,14 +8355,7 @@ into
 (
 )
 immutable_script_data
-SourceExtent
-:
-:
-top_level_script
-(
-1
-0
-)
+extent
 )
 )
 }
