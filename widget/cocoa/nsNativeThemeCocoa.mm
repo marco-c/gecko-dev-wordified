@@ -25177,6 +25177,12 @@ StyleAppearance
 :
 MenulistButton
 :
+case
+StyleAppearance
+:
+:
+MozMenulistArrowButton
+:
 {
 SInt32
 popupHeight
@@ -25869,12 +25875,6 @@ scrollbarWidth
 break
 ;
 }
-case
-StyleAppearance
-:
-:
-MozMenulistArrowButton
-:
 case
 StyleAppearance
 :

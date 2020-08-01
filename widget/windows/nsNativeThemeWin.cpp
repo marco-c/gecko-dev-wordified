@@ -18824,13 +18824,13 @@ SizeTo
 :
 GetSystemMetrics
 (
-SM_CXVSCROLL
+SM_CXHSCROLL
 )
 :
 :
 GetSystemMetrics
 (
-SM_CYHSCROLL
+SM_CYVSCROLL
 )
 )
 ;
