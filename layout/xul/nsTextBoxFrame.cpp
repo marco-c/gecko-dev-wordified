@@ -1821,7 +1821,7 @@ return
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
@@ -5479,7 +5479,7 @@ metrics
 fontMet
 -
 >
-GetInkBoundsForVisualOverflow
+GetInkBoundsForInkOverflow
 (
 mCroppedTitle
 .
@@ -5622,7 +5622,7 @@ our
 bounds
 ;
 our
-visual
+ink
 overflow
 may
 /
@@ -5677,7 +5677,7 @@ vis
 =
 overflow
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -5731,7 +5731,7 @@ HasTextShadow
 )
 {
 return
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

@@ -7490,7 +7490,7 @@ aOverflow
 currentFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 )
@@ -7987,7 +7987,7 @@ mDirtyRect
 currentFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -8302,7 +8302,7 @@ overflow
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -10261,7 +10261,7 @@ RootReferenceFrame
 )
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 )
@@ -10354,7 +10354,7 @@ RootReferenceFrame
 )
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 aBackstop

@@ -1343,7 +1343,7 @@ transforms
 kidFrame
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 +
@@ -6486,7 +6486,7 @@ aKidFrame
 view
 kidDesiredSize
 .
-VisualOverflow
+InkOverflow
 (
 )
 )

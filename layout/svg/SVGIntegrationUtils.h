@@ -756,7 +756,7 @@ s
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 to
@@ -889,7 +889,7 @@ msg
 /
 static
 nsRect
-ComputePostEffectsVisualOverflowRect
+ComputePostEffectsInkOverflowRect
 (
 nsIFrame
 *

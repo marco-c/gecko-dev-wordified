@@ -1908,7 +1908,7 @@ HasTextDecorationLines
 )
 {
 return
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;

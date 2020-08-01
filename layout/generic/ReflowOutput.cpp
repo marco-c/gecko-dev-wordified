@@ -175,7 +175,7 @@ UnionRectIncludeEmpty
 (
 but
 leave
-visual
+ink
 overflow
 using
 UnionRect
@@ -237,7 +237,7 @@ UnionRectIncludeEmpty
 (
 but
 leave
-visual
+ink
 overflow
 using
 UnionRect
@@ -374,7 +374,7 @@ UnionRectIncludeEmpty
 (
 but
 leave
-visual
+ink
 overflow
 using
 UnionRect

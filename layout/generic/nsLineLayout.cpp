@@ -25528,7 +25528,7 @@ adjustedBounds
 ;
 overflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -25542,7 +25542,7 @@ mFrame
 >
 mOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 adjustedBounds
@@ -25630,7 +25630,7 @@ VerticalAlignFrames
 )
 overflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 =
@@ -25652,7 +25652,7 @@ ScrollableOverflow
 =
 overflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -25758,7 +25758,7 @@ pfd
 >
 mOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 nsIFrame
@@ -26233,7 +26233,7 @@ GetView
 )
 r
 .
-VisualOverflow
+InkOverflow
 (
 )
 nsIFrame

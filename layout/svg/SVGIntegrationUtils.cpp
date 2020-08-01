@@ -359,7 +359,7 @@ the
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 of
@@ -385,7 +385,7 @@ the
 pre
 -
 effects
-visual
+ink
 overflow
 rects
 of
@@ -430,7 +430,7 @@ continuation
 *
 /
 class
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 :
 public
 nsLayoutUtils
@@ -449,7 +449,7 @@ the
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 of
@@ -475,7 +475,7 @@ its
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 can
@@ -506,7 +506,7 @@ optional
 .
 *
 /
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 (
 nsIFrame
 *
@@ -581,7 +581,7 @@ mCurrentFrame
 ?
 mCurrentFrameOverflowArea
 :
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 aFrame
 mInReflow
@@ -618,7 +618,7 @@ private
 :
 static
 nsRect
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 nsIFrame
 *
@@ -665,7 +665,7 @@ cached
 means
 /
 /
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 will
@@ -800,7 +800,7 @@ MOZ_ASSERT
 !
 preTransformOverflows
 "
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 won
@@ -823,7 +823,7 @@ return
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -861,7 +861,7 @@ the
 pre
 -
 effects
-visual
+ink
 overflow
 rects
 of
@@ -883,7 +883,7 @@ space
 /
 static
 nsRect
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 nsIFrame
 *
@@ -920,7 +920,7 @@ here
 "
 )
 ;
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 collector
 (
 aFirstContinuation
@@ -979,7 +979,7 @@ the
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 of
@@ -994,7 +994,7 @@ space
 /
 static
 nsRect
-GetPreEffectsVisualOverflow
+GetPreEffectsInkOverflow
 (
 nsIFrame
 *
@@ -1025,7 +1025,7 @@ here
 "
 )
 ;
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 collector
 (
 aFirstContinuation
@@ -1837,7 +1837,7 @@ r
 aUnionContinuations
 )
 ?
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 firstFrame
 nullptr
@@ -1851,7 +1851,7 @@ firstFrame
 false
 )
 :
-GetPreEffectsVisualOverflow
+GetPreEffectsInkOverflow
 (
 firstFrame
 aNonSVGFrame
@@ -1946,7 +1946,7 @@ GetOffsetToBoundingBox
 (
 )
 and
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 )
 calls
@@ -1977,7 +1977,7 @@ bogus
 post
 -
 filter
-visual
+ink
 overflow
 rects
 for
@@ -2038,7 +2038,7 @@ bbox
 to
 /
 /
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 rather
 than
 just
@@ -2115,7 +2115,7 @@ The
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 passed
@@ -2208,7 +2208,7 @@ the
 pre
 -
 effects
-visual
+ink
 overflow
 rect
 .
@@ -2260,7 +2260,7 @@ nsRect
 SVGIntegrationUtils
 :
 :
-ComputePostEffectsVisualOverflowRect
+ComputePostEffectsInkOverflowRect
 (
 nsIFrame
 *
@@ -2526,7 +2526,7 @@ nsLayoutUtils
 :
 RectToGfxRect
 (
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 firstFrame
 aFrame

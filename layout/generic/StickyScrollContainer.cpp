@@ -1251,7 +1251,7 @@ aContain
 cbFrame
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 ;

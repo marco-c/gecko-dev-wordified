@@ -5072,7 +5072,7 @@ if
 child
 -
 >
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 .

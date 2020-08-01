@@ -832,7 +832,7 @@ the
 post
 -
 filter
-visual
+ink
 overflow
 rect
 (
@@ -885,7 +885,7 @@ The
 pre
 -
 filter
-visual
+ink
 overflow
 rect
 of
@@ -1177,7 +1177,7 @@ ComputePostFilterDirtyRegion
 .
 *
 param
-aPreFilterVisualOverflowRectOverride
+aPreFilterInkOverflowRectOverride
 [
 optional
 ]
@@ -1185,7 +1185,7 @@ Use
 a
 different
 *
-visual
+ink
 overflow
 rect
 for
@@ -1264,7 +1264,7 @@ nullptr
 const
 nsRect
 *
-aPreFilterVisualOverflowRectOverride
+aPreFilterInkOverflowRectOverride
 =
 nullptr
 const

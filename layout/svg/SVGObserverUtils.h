@@ -1745,13 +1745,13 @@ XXX
 Callers
 other
 than
-ComputePostEffectsVisualOverflowRect
+ComputePostEffectsInkOverflowRect
 and
 *
 SVGUtils
 :
 :
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 should
 not
 need

@@ -31639,7 +31639,7 @@ SetVisibleRect
 frame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -31654,7 +31654,7 @@ SetDirtyRect
 frame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -40418,7 +40418,7 @@ r
 child
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -40477,7 +40477,7 @@ overflow
 child
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -63829,7 +63829,7 @@ not
 /
 desiredSize
 .
-GetVisualOverflowArea
+InkOverflowRect
 (
 )
 because

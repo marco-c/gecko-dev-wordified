@@ -2923,7 +2923,7 @@ scrollable
 overflow
 rect
 the
-visual
+ink
 overflow
 rect
 *
@@ -20855,7 +20855,7 @@ that
 *
 contribute
 to
-visual
+ink
 overflow
 .
 *
@@ -26116,7 +26116,7 @@ be
 *
 *
 The
-visual
+ink
 overflow
 rect
 should
@@ -26204,7 +26204,7 @@ down
 *
 /
 nsRect
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 const
@@ -26212,7 +26212,7 @@ const
 return
 GetOverflowRect
 (
-eVisualOverflow
+eInkOverflow
 )
 ;
 }
@@ -26247,7 +26247,7 @@ is
 similar
 to
 *
-GetVisualOverflowRect
+InkOverflowRect
 but
 does
 not
@@ -26265,7 +26265,7 @@ include
 more
 margins
 than
-visual
+ink
 overflow
 does
 .
@@ -26419,7 +26419,7 @@ down
 *
 /
 nsRect
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 const
@@ -26511,7 +26511,7 @@ const
 *
 Same
 as
-GetScrollableOverflowRect
+ScrollableOverflowRect
 except
 relative
 to
@@ -26542,7 +26542,7 @@ system
 *
 /
 nsRect
-GetScrollableOverflowRectRelativeToParent
+ScrollableOverflowRectRelativeToParent
 (
 )
 const
@@ -26553,7 +26553,7 @@ const
 *
 Same
 as
-GetScrollableOverflowRect
+ScrollableOverflowRect
 except
 in
 this
@@ -26601,7 +26601,7 @@ system
 *
 /
 nsRect
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 const
@@ -26611,7 +26611,7 @@ const
 *
 *
 Like
-GetVisualOverflowRect
+InkOverflowRect
 except
 in
 this
@@ -26659,7 +26659,7 @@ system
 *
 /
 nsRect
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 const
@@ -26670,7 +26670,7 @@ const
 *
 Same
 as
-GetVisualOverflowRect
+InkOverflowRect
 except
 relative
 to
@@ -26701,7 +26701,7 @@ system
 *
 /
 nsRect
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 const
@@ -26715,7 +26715,7 @@ this
 frame
 '
 s
-visual
+ink
 overflow
 rect
 as
@@ -26745,7 +26745,7 @@ frame
 *
 /
 nsRect
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 )
 const
@@ -37501,7 +37501,7 @@ overflow
 ;
 }
 nsRect
-GetVisualOverflowFromDeltas
+InkOverflowFromDeltas
 (
 )
 const

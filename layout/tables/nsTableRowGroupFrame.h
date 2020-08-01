@@ -2302,7 +2302,7 @@ aOriginalKidRect
 const
 nsRect
 &
-aOriginalKidVisualOverflow
+aOriginalKidInkOverflow
 )
 ;
 void

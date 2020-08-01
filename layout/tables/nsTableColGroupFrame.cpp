@@ -2877,7 +2877,7 @@ GetParent
 >
 InvalidateFrameWithRect
 (
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +

@@ -1437,7 +1437,7 @@ lines
 '
 overflowArea
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -1447,7 +1447,7 @@ and
 /
 overflowArea
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -1466,7 +1466,7 @@ non
 empty
 overflowArea
 .
-VisualOverflow
+InkOverflow
 (
 )
 s
@@ -1476,7 +1476,7 @@ empty
 /
 overflowArea
 .
-VisualOverflow
+InkOverflow
 (
 )
 s

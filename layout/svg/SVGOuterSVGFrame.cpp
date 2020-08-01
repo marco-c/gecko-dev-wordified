@@ -3868,7 +3868,7 @@ Update
 the
 mRects
 and
-visual
+ink
 overflow
 rects
 of
@@ -4082,7 +4082,7 @@ size
 With
 regards
 to
-visual
+ink
 overflow
 we
 always
@@ -4140,7 +4140,7 @@ point
 in
 adding
 descendant
-visual
+ink
 overflow
 to
 our
@@ -4266,7 +4266,7 @@ svg
 that
 has
 the
-visual
+ink
 overflow
 of
 its
@@ -4414,7 +4414,7 @@ aDesiredSize
 .
 mOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -4424,13 +4424,13 @@ aDesiredSize
 .
 mOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 anonKid
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +
@@ -4609,7 +4609,7 @@ FirstChild
 ;
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -4617,13 +4617,13 @@ UnionRect
 (
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 anonKid
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +
@@ -6242,7 +6242,7 @@ See
 also
 the
 "
-visual
+ink
 overflow
 "
 comments

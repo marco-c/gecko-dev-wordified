@@ -2582,7 +2582,7 @@ nsBoundingMetrics
 nsFontMetrics
 :
 :
-GetInkBoundsForVisualOverflow
+GetInkBoundsForInkOverflow
 (
 const
 char16_t

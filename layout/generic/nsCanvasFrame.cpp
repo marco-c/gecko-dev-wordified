@@ -2064,7 +2064,7 @@ matter
 nsRect
 result
 (
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )

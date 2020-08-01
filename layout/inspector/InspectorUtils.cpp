@@ -4326,7 +4326,7 @@ aFrame
 aFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 RelativeTo

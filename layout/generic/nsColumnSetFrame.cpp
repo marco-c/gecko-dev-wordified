@@ -288,7 +288,7 @@ the
 frame
 '
 s
-visual
+ink
 overflow
 rect
 instead
@@ -4573,7 +4573,7 @@ if
 child
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .
@@ -4604,7 +4604,7 @@ if
 child
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .

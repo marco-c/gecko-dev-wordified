@@ -842,7 +842,7 @@ layout
 terms
 it
 affects
-visual
+ink
 overflow
 but
 not

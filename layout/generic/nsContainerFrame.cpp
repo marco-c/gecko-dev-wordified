@@ -6081,7 +6081,7 @@ aView
 const
 nsRect
 &
-aVisualOverflowArea
+aInkOverflowArea
 ReflowChildFlags
 aFlags
 )
@@ -6155,7 +6155,7 @@ vm
 ResizeView
 (
 aView
-aVisualOverflowArea
+aInkOverflowArea
 true
 )
 ;
@@ -7719,7 +7719,7 @@ MOZ_ASSERT
 (
 aDesiredSize
 .
-VisualOverflow
+InkOverflow
 (
 )
 =
@@ -8901,7 +8901,7 @@ aKidFrame
 view
 aDesiredSize
 .
-VisualOverflow
+InkOverflow
 (
 )
 aFlags
@@ -9218,7 +9218,7 @@ aKidFrame
 view
 aDesiredSize
 .
-VisualOverflow
+InkOverflow
 (
 )
 aFlags
@@ -20862,7 +20862,7 @@ that
 s
 OK
 return
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -21325,7 +21325,7 @@ is
 a
 subset
 of
-visual
+ink
 overflow
 /
 /
@@ -21352,7 +21352,7 @@ the
 parent
 '
 s
-visual
+ink
 overflow
 .
 nsRect
@@ -21361,7 +21361,7 @@ childVisual
 aChildFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;

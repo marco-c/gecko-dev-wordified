@@ -2150,7 +2150,7 @@ Frame
 )
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -2214,7 +2214,7 @@ mChangedFrameInvalidations
 frame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -2244,7 +2244,7 @@ mChangedFrameInvalidations
 frame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -35760,7 +35760,7 @@ Frame
 )
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -41769,7 +41769,7 @@ GetBuildingRectForChildren
 aContainerFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

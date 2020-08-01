@@ -1338,7 +1338,7 @@ the
 string
 .
 nsBoundingMetrics
-GetInkBoundsForVisualOverflow
+GetInkBoundsForInkOverflow
 (
 const
 char16_t

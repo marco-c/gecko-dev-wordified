@@ -2683,7 +2683,7 @@ GetParent
 >
 InvalidateFrameWithRect
 (
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +
@@ -4257,7 +4257,7 @@ GetView
 )
 desiredSize
 .
-VisualOverflow
+InkOverflow
 (
 )
 ReflowChildFlags
@@ -6405,12 +6405,12 @@ GetRect
 )
 ;
 nsRect
-origVisualOverflow
+origInkOverflow
 =
 firstKid
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -6666,7 +6666,7 @@ InvalidateTableFrame
 (
 firstKid
 origRect
-origVisualOverflow
+origInkOverflow
 firstReflow
 )
 ;

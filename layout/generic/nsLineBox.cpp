@@ -2024,7 +2024,7 @@ mData
 >
 mOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -2067,7 +2067,7 @@ str
 nsPrintfCString
 (
 "
-vis
+ink
 -
 overflow
 =
@@ -3840,7 +3840,7 @@ if
 !
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 .

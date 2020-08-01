@@ -5539,7 +5539,7 @@ PropertyProvider
 aProvider
 nsRect
 *
-aVisualOverflowRect
+aInkOverflowRect
 bool
 aIncludeTextDecorations
 bool

@@ -2774,7 +2774,7 @@ bounds
 ;
 }
 nsRect
-GetVisualOverflowArea
+InkOverflowRect
 (
 )
 const
@@ -2782,12 +2782,12 @@ const
 return
 GetOverflowArea
 (
-eVisualOverflow
+eInkOverflow
 )
 ;
 }
 nsRect
-GetScrollableOverflowArea
+ScrollableOverflowRect
 (
 )
 {

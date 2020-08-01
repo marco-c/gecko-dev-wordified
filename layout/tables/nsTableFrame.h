@@ -3627,7 +3627,7 @@ change
 .
 *
 param
-aOrigVisualOverflow
+aOrigInkOverflow
 The
 original
 overflow
@@ -3671,7 +3671,7 @@ aOrigRect
 const
 nsRect
 &
-aOrigVisualOverflow
+aOrigInkOverflow
 bool
 aIsFirstReflow
 )
@@ -4334,7 +4334,7 @@ aOriginalKidRect
 const
 nsRect
 &
-aOriginalKidVisualOverflow
+aOriginalKidInkOverflow
 )
 ;
 void

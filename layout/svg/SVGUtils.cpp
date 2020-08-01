@@ -827,7 +827,7 @@ nsRect
 SVGUtils
 :
 :
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 (
 nsIFrame
 *
@@ -3593,7 +3593,7 @@ aFrame
 has
 a
 valid
-visual
+ink
 overflow
 rect
 so
@@ -3639,7 +3639,7 @@ overflowRect
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -4053,7 +4053,7 @@ overflowRect
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

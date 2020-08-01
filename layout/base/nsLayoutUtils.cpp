@@ -16415,7 +16415,7 @@ aPresContext
 popup
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .
@@ -26684,12 +26684,12 @@ isActive
 ;
 }
 nsRect
-rootVisualOverflow
+rootInkOverflow
 =
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -26754,11 +26754,11 @@ CSSToDevPixelScale
 (
 )
 ;
-rootVisualOverflow
+rootInkOverflow
 .
 IntersectRect
 (
-rootVisualOverflow
+rootInkOverflow
 CSSPixel
 :
 :
@@ -26814,7 +26814,7 @@ rootScrollableFrame
 nsRect
 displayPortBase
 =
-rootVisualOverflow
+rootInkOverflow
 ;
 nsRect
 temp
@@ -26925,7 +26925,7 @@ changes
 .
 visibleRegion
 =
-rootVisualOverflow
+rootInkOverflow
 ;
 }
 else
@@ -45566,7 +45566,7 @@ aWM
 aFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .

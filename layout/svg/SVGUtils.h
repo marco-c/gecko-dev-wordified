@@ -926,7 +926,7 @@ s
 post
 -
 filter
-visual
+ink
 overflow
 rect
 when
@@ -939,7 +939,7 @@ s
 pre
 -
 filter
-visual
+ink
 overflow
 rect
 .
@@ -962,7 +962,7 @@ aUnfilteredRect
 /
 static
 nsRect
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 (
 nsIFrame
 *

@@ -1678,7 +1678,7 @@ Intersects
 row
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +
@@ -1867,7 +1867,7 @@ aOriginalKidRect
 const
 nsRect
 &
-aOriginalKidVisualOverflow
+aOriginalKidInkOverflow
 )
 {
 bool
@@ -1929,7 +1929,7 @@ InvalidateTableFrame
 (
 aKidFrame
 aOriginalKidRect
-aOriginalKidVisualOverflow
+aOriginalKidInkOverflow
 isFirstReflow
 )
 ;
@@ -2508,12 +2508,12 @@ containerSize
 )
 ;
 nsRect
-oldKidVisualOverflow
+oldKidInkOverflow
 =
 kidFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -2782,7 +2782,7 @@ GetPhysicalRect
 wm
 containerSize
 )
-oldKidVisualOverflow
+oldKidInkOverflow
 )
 ;
 aReflowInput
@@ -5841,12 +5841,12 @@ Size
 )
 ;
 nsRect
-rowVisualOverflow
+rowInkOverflow
 =
 rowFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -5981,7 +5981,7 @@ InvalidateTableFrame
 (
 rowFrame
 rowBounds
-rowVisualOverflow
+rowInkOverflow
 false
 )
 ;
@@ -6237,9 +6237,9 @@ GetRect
 )
 ;
 nsRect
-oldGroupVisualOverflow
+oldGroupInkOverflow
 =
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -6382,7 +6382,7 @@ InvalidateTableFrame
 (
 this
 oldGroupRect
-oldGroupVisualOverflow
+oldGroupInkOverflow
 false
 )
 ;
@@ -8218,12 +8218,12 @@ GetRect
 )
 ;
 nsRect
-oldRowVisualOverflow
+oldRowInkOverflow
 =
 rowFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -8340,7 +8340,7 @@ InvalidateTableFrame
 (
 rowFrame
 oldRowRect
-oldRowVisualOverflow
+oldRowInkOverflow
 false
 )
 ;
@@ -10359,7 +10359,7 @@ invariants
 depend
 on
 the
-visual
+ink
 overflow
 area
 of
@@ -13570,7 +13570,7 @@ positionedOverflowRect
 aFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -13747,7 +13747,7 @@ GetParent
 >
 InvalidateFrameWithRect
 (
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +

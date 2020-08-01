@@ -6102,7 +6102,7 @@ We
 need
 to
 call
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 because
 this
 includes
@@ -6143,7 +6143,7 @@ self
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -21373,7 +21373,7 @@ FromAppUnits
 frame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 auPerDevPx
