@@ -18135,7 +18135,7 @@ aPointToDelete
 *
 *
 *
-HandleDeleteCollapsedSelectionAtTextNode
+HandleDeleteCollapsedSelectionAtVisibleChar
 (
 )
 handles
@@ -18196,7 +18196,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 EditActionResult
-HandleDeleteCollapsedSelectionAtTextNode
+HandleDeleteCollapsedSelectionAtVisibleChar
 (
 nsIEditor
 :
