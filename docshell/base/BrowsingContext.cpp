@@ -2615,7 +2615,7 @@ ChildID
 aGroup
 -
 >
-EnsureSubscribed
+EnsureHostProcess
 (
 aOriginProcess
 )

@@ -503,7 +503,7 @@ Group
 )
 -
 >
-EnsureSubscribed
+EnsureHostProcess
 (
 aContentParent
 )
