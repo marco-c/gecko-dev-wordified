@@ -574,9 +574,9 @@ innerWindowId
 =
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 const
 errorFlag
