@@ -727,11 +727,7 @@ GetSelection
 (
 )
 const
-{
-return
-mSelection
 ;
-}
 /
 *
 *

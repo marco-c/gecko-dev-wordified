@@ -2585,9 +2585,6 @@ public
 DispatcherTrait
 public
 SupportsWeakPtr
-<
-Document
->
 {
 friend
 class
@@ -2725,10 +2722,6 @@ Shutdown
 (
 )
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-Document
-)
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_IDOCUMENT_IID

@@ -875,16 +875,9 @@ mozilla
 :
 :
 SupportsWeakPtr
-<
-nsOfflineCacheUpdateOwner
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-nsOfflineCacheUpdateOwner
-)
 virtual
 ~
 nsOfflineCacheUpdateOwner

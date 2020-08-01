@@ -199,9 +199,6 @@ public
 EditAggregateTransaction
 public
 SupportsWeakPtr
-<
-PlaceholderTransaction
->
 {
 protected
 :
@@ -354,10 +351,6 @@ forget
 )
 ;
 }
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-PlaceholderTransaction
-)
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (

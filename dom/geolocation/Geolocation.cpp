@@ -492,9 +492,6 @@ public
 nsIGeolocationUpdate
 public
 SupportsWeakPtr
-<
-nsGeolocationRequest
->
 {
 public
 :
@@ -559,10 +556,6 @@ choices
 )
 override
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-nsGeolocationRequest
-)
 void
 Shutdown
 (

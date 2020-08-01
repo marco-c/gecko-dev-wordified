@@ -1061,9 +1061,6 @@ public
 VRefCounted
 public
 SupportsWeakPtr
-<
-WebGLContext
->
 {
 friend
 class
@@ -1580,10 +1577,6 @@ nullptr
 ;
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-WebGLContext
-)
 static
 RefPtr
 <

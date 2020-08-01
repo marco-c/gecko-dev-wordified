@@ -267,9 +267,6 @@ Promise
 :
 public
 SupportsWeakPtr
-<
-Promise
->
 {
 friend
 class
@@ -290,10 +287,6 @@ NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 Promise
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
-(
-Promise
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 Promise
 )

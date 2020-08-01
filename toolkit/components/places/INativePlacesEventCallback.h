@@ -144,9 +144,6 @@ INativePlacesEventCallback
 :
 public
 SupportsWeakPtr
-<
-INativePlacesEventCallback
->
 {
 public
 :
@@ -166,10 +163,6 @@ PlacesEvent
 >
 PlacesEventSequence
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-INativePlacesEventCallback
-)
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 virtual
 void

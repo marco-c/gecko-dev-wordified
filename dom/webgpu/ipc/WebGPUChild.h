@@ -185,11 +185,6 @@ final
 :
 public
 PWebGPUChild
-public
-SupportsWeakPtr
-<
-WebGPUChild
->
 {
 public
 :

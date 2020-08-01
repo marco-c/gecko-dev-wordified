@@ -231,16 +231,9 @@ IProgressObserver
 :
 public
 SupportsWeakPtr
-<
-IProgressObserver
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-IProgressObserver
-)
 /
 /
 Subclasses

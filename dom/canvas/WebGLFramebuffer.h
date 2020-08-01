@@ -696,9 +696,6 @@ public
 WebGLContextBoundObject
 public
 SupportsWeakPtr
-<
-WebGLFramebuffer
->
 public
 CacheInvalidator
 {
@@ -708,10 +705,6 @@ MOZ_DECLARE_REFCOUNTED_VIRTUAL_TYPENAME
 (
 WebGLFramebuffer
 override
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-WebGLFramebuffer
 )
 const
 GLuint

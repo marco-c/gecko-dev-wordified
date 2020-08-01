@@ -294,9 +294,6 @@ public
 PWebGLChild
 public
 SupportsWeakPtr
-<
-WebGLChild
->
 {
 const
 WeakPtr
@@ -321,10 +318,6 @@ mFlushedCmdInfo
 ;
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-WebGLChild
-)
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 WebGLChild

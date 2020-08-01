@@ -348,16 +348,9 @@ DOMMediaStream
 TrackListener
 public
 SupportsWeakPtr
-<
-SpeechRecognition
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-SpeechRecognition
-)
 explicit
 SpeechRecognition
 (

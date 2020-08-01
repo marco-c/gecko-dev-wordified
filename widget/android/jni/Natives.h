@@ -441,9 +441,6 @@ MyClass
 :
 public
 SupportsWeakPtr
-<
-MyClass
->
 *
 public
 MyJavaClass
@@ -465,11 +462,6 @@ MyClass
 *
 public
 :
-*
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-MyClass
-)
 *
 using
 MyJavaClass
@@ -515,9 +507,6 @@ instance
 static_cast
 <
 SupportsWeakPtr
-<
-MyClass
->
 *
 >
 (
@@ -1030,9 +1019,6 @@ std
 is_base_of
 <
 SupportsWeakPtr
-<
-I
->
 I
 >
 :
@@ -6169,9 +6155,6 @@ LocalRef
 &
 instance
 SupportsWeakPtr
-<
-Impl
->
 *
 ptr
 )

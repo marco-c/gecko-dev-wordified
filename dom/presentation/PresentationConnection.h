@@ -216,9 +216,6 @@ public
 nsIRequest
 public
 SupportsWeakPtr
-<
-PresentationConnection
->
 {
 public
 :
@@ -230,10 +227,6 @@ DOMEventTargetHelper
 )
 NS_DECL_NSIPRESENTATIONSESSIONLISTENER
 NS_DECL_NSIREQUEST
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-PresentationConnection
-)
 static
 already_AddRefed
 <

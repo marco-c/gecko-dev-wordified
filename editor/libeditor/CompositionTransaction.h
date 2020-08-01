@@ -236,9 +236,6 @@ public
 EditTransactionBase
 public
 SupportsWeakPtr
-<
-CompositionTransaction
->
 {
 protected
 :
@@ -373,10 +370,6 @@ EditorDOMPointInText
 aPointToInsert
 )
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-CompositionTransaction
-)
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 CompositionTransaction

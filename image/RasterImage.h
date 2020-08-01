@@ -1169,9 +1169,6 @@ public
 ImageResource
 public
 SupportsWeakPtr
-<
-RasterImage
->
 #
 ifdef
 DEBUG
@@ -1198,10 +1195,6 @@ RasterImage
 ;
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-RasterImage
-)
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_IMGICONTAINER
 #

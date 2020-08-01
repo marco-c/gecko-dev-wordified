@@ -391,9 +391,6 @@ public
 nsWrapperCache
 public
 SupportsWeakPtr
-<
-Selection
->
 {
 protected
 :
@@ -427,10 +424,6 @@ nsFrameSelection
 aFrameSelection
 )
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-Selection
-)
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (

@@ -2060,11 +2060,7 @@ GetPresContext
 (
 )
 const
-{
-return
-mPresContext
 ;
-}
 /
 *
 *

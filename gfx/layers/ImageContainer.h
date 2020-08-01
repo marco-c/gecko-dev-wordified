@@ -2375,9 +2375,6 @@ final
 :
 public
 SupportsWeakPtr
-<
-ImageContainer
->
 {
 friend
 class
@@ -2389,10 +2386,6 @@ ImageContainer
 )
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-ImageContainer
-)
 enum
 Mode
 {

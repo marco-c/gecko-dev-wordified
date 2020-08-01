@@ -1268,9 +1268,6 @@ final
 :
 public
 SupportsWeakPtr
-<
-TextControlState
->
 {
 public
 :
@@ -1288,10 +1285,6 @@ dom
 HTMLInputElement
 HTMLInputElement
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-TextControlState
-)
 static
 TextControlState
 *

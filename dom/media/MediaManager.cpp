@@ -1959,9 +1959,6 @@ SourceListener
 :
 public
 SupportsWeakPtr
-<
-SourceListener
->
 {
 public
 :
@@ -1982,10 +1979,6 @@ true
 >
 SourceListenerPromise
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-SourceListener
-)
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING_WITH_MAIN_THREAD_DESTRUCTION
 (
 SourceListener

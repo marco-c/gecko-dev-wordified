@@ -197,9 +197,6 @@ public
 DOMEventTargetHelper
 public
 SupportsWeakPtr
-<
-Worker
->
 {
 public
 :
@@ -208,10 +205,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 Worker
 DOMEventTargetHelper
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-Worker
 )
 static
 already_AddRefed

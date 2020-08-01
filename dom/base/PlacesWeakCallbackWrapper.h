@@ -161,16 +161,9 @@ public
 nsWrapperCache
 public
 SupportsWeakPtr
-<
-PlacesWeakCallbackWrapper
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-PlacesWeakCallbackWrapper
-)
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
 PlacesWeakCallbackWrapper

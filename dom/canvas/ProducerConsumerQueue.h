@@ -391,9 +391,6 @@ PcqActor
 :
 public
 SupportsWeakPtr
-<
-PcqActor
->
 {
 /
 /
@@ -563,10 +560,6 @@ nullptr
 }
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-PcqActor
-)
 Shmem
 :
 :

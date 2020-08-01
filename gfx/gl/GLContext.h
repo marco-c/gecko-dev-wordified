@@ -565,16 +565,9 @@ public
 GenericAtomicRefCounted
 public
 SupportsWeakPtr
-<
-GLContext
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-GLContext
-)
 static
 MOZ_THREAD_LOCAL
 (

@@ -165,9 +165,6 @@ public
 PWebGLParent
 public
 SupportsWeakPtr
-<
-WebGLParent
->
 {
 friend
 PWebGLParent
@@ -180,10 +177,6 @@ WebGLParent
 override
 )
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-WebGLParent
-)
 using
 OtherSideActor
 =

@@ -1462,9 +1462,6 @@ public
 PProcessHangMonitorParent
 public
 SupportsWeakPtr
-<
-HangMonitorParent
->
 {
 public
 :
@@ -1482,10 +1479,6 @@ HangMonitorParent
 )
 override
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-HangMonitorParent
-)
 void
 Bind
 (
