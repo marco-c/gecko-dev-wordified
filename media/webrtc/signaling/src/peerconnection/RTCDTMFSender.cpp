@@ -133,7 +133,6 @@ NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 RTCDTMFSender
 DOMEventTargetHelper
-mWindow
 mTransceiver
 mSendTimer
 )
@@ -184,7 +183,7 @@ AudioSessionConduit
 aConduit
 )
 :
-mWindow
+DOMEventTargetHelper
 (
 aWindow
 )
@@ -831,20 +830,6 @@ aOutToneBuffer
 aOutToneBuffer
 =
 mToneBuffer
-;
-}
-nsPIDOMWindowInner
-*
-RTCDTMFSender
-:
-:
-GetParentObject
-(
-)
-const
-{
-return
-mWindow
 ;
 }
 }
