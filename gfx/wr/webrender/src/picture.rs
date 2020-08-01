@@ -36116,6 +36116,8 @@ frame_state
 .
 composite_state
 .
+occluders
+.
 is_tile_occluded
 (
 tile
