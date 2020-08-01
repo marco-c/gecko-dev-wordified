@@ -1818,8 +1818,10 @@ __obj
 "
 contextfunction
 "
-0
+False
 )
+is
+True
 :
                 
 args
@@ -1837,8 +1839,10 @@ __obj
 "
 evalcontextfunction
 "
-0
+False
 )
+is
+True
 :
                 
 args
@@ -1858,8 +1862,10 @@ __obj
 "
 environmentfunction
 "
-0
+False
 )
+is
+True
 :
                 
 args

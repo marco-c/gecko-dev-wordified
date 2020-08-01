@@ -96,6 +96,10 @@ import
 sys
 import
 jsonschema
+#
+type
+:
+ignore
 from
 .
 import
@@ -446,6 +450,13 @@ open
 ins
 "
 r
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
