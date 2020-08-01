@@ -4630,6 +4630,12 @@ TargetFrameRate
 (
 )
 ;
+static
+bool
+UseDesktopZoomingScrollbars
+(
+)
+;
 protected
 :
 gfxPlatform
