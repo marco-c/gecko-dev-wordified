@@ -604,15 +604,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-GuardObjects
-.
-h
-"
 namespace
 mozilla
 {
@@ -631,7 +622,6 @@ mExitFunction
 bool
 mExecuteOnDestruction
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -641,7 +631,6 @@ ExitFunction
 &
 &
 cleanup
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mExitFunction
@@ -653,8 +642,6 @@ mExecuteOnDestruction
 true
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ScopeExit
 (
@@ -662,7 +649,6 @@ ScopeExit
 &
 &
 rhs
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mExitFunction
@@ -684,8 +670,6 @@ rhs
 mExecuteOnDestruction
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 rhs
 .
 release

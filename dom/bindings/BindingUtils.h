@@ -15291,7 +15291,6 @@ T
 >
 *
 aSequence
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -15300,7 +15299,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mFallibleArray
 (
@@ -15329,7 +15327,6 @@ T
 >
 *
 aSequence
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -15338,7 +15335,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mInfallibleArray
 (
@@ -15370,7 +15366,6 @@ T
 >
 *
 aSequence
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -15379,7 +15374,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mNullableArray
 (
@@ -15567,7 +15561,6 @@ V
 >
 *
 aRecord
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -15576,7 +15569,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mRecord
 (
@@ -15609,7 +15601,6 @@ V
 >
 *
 aRecord
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -15618,7 +15609,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mNullableRecord
 (
@@ -15759,7 +15749,6 @@ const
 CX
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 T
@@ -15771,7 +15760,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }
@@ -15830,7 +15818,6 @@ const
 CX
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 Nullable
@@ -15845,7 +15832,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }

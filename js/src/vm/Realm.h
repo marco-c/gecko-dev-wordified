@@ -1524,8 +1524,6 @@ class
 MOZ_RAII
 AutoSetNewObjectMetadata
 {
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 JSContext
 *
 cx_
@@ -1566,7 +1564,6 @@ AutoSetNewObjectMetadata
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -5977,7 +5974,6 @@ AssertRealmUnchanged
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 cx
@@ -5994,8 +5990,6 @@ realm
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AssertRealmUnchanged
@@ -6031,7 +6025,6 @@ Realm
 const
 oldRealm
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

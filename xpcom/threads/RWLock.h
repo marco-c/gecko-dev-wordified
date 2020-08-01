@@ -149,15 +149,6 @@ BlockingResourceBase
 h
 "
 #
-include
-"
-mozilla
-/
-GuardObjects
-.
-h
-"
-#
 ifndef
 XP_WIN
 #
@@ -694,7 +685,6 @@ BaseAutoReadLock
 T
 &
 aLock
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -703,8 +693,6 @@ mLock
 aLock
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mLock
@@ -768,7 +756,6 @@ T
 *
 mLock
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 template
@@ -789,7 +776,6 @@ BaseAutoWriteLock
 T
 &
 aLock
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -798,8 +784,6 @@ mLock
 aLock
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mLock
@@ -863,7 +847,6 @@ T
 *
 mLock
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

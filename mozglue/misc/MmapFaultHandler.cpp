@@ -155,15 +155,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MemoryChecking
 .
 h

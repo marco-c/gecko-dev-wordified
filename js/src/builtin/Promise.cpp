@@ -38488,7 +38488,6 @@ AutoDebuggerJobQueueInterruption
 :
 AutoDebuggerJobQueueInterruption
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 cx
@@ -38496,8 +38495,6 @@ cx
 nullptr
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 JS
 :

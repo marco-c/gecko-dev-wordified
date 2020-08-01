@@ -244,15 +244,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Types
 .
 h

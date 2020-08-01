@@ -1744,7 +1744,6 @@ AutoRestoreEditorState
 TextEditor
 *
 aTextEditor
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mTextEditor
@@ -1770,8 +1769,6 @@ MaxTextLength
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mTextEditor
@@ -1916,7 +1913,6 @@ mSavedFlags
 int32_t
 mSavedMaxLength
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -2093,7 +2089,6 @@ AutoDisableUndo
 TextEditor
 *
 aTextEditor
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mTextEditor
@@ -2105,8 +2100,6 @@ mNumberOfMaximumTransactions
 0
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mTextEditor
@@ -2321,7 +2314,6 @@ mTextEditor
 int32_t
 mNumberOfMaximumTransactions
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 static

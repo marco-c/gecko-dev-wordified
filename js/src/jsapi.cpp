@@ -3496,7 +3496,6 @@ cx
 JSObject
 *
 target
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -3513,8 +3512,6 @@ realm
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
@@ -3551,7 +3548,6 @@ cx
 JSScript
 *
 target
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -3568,8 +3564,6 @@ realm
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 AssertHeapIsIdleOrIterating
 (
 )
@@ -3611,7 +3605,6 @@ cx
 JSObject
 *
 targetOrNull
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx_
@@ -3628,8 +3621,6 @@ realm
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 AssertHeapIsIdleOrIterating
 (
 )

@@ -123,15 +123,6 @@ mozilla_AutoGlobalTimelineMarker_h_
 #
 include
 "
-mozilla
-/
-GuardObjects
-.
-h
-"
-#
-include
-"
 TimelineMarkerEnums
 .
 h
@@ -253,8 +244,6 @@ class
 MOZ_RAII
 AutoGlobalTimelineMarker
 {
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 /
 /
 The
@@ -301,7 +290,6 @@ MarkerStackRequest
 :
 :
 STACK
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~

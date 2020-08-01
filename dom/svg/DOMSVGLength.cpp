@@ -504,7 +504,6 @@ AutoChangeLengthNotifier
 DOMSVGLength
 *
 aLength
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -527,8 +526,6 @@ mLength
 aLength
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mLength
@@ -671,7 +668,6 @@ mLength
 nsAttrValue
 mEmptyOrOldValue
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 DOMSVGLength

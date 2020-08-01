@@ -14405,7 +14405,6 @@ AutoTransactionBatch
 EditorBase
 &
 aEditorBase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -14413,8 +14412,6 @@ mEditorBase
 aEditorBase
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_KnownLive
 (
 mEditorBase
@@ -14447,7 +14444,6 @@ EditorBase
 &
 mEditorBase
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -14513,7 +14509,6 @@ AutoPlaceholderBatch
 EditorBase
 &
 aEditorBase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -14521,8 +14516,6 @@ mEditorBase
 aEditorBase
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mEditorBase
 -
 >
@@ -14544,7 +14537,6 @@ aEditorBase
 nsStaticAtom
 &
 aTransactionName
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -14552,8 +14544,6 @@ mEditorBase
 aEditorBase
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mEditorBase
 -
 >
@@ -14584,7 +14574,6 @@ EditorBase
 >
 mEditorBase
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -14648,7 +14637,6 @@ AutoSelectionRestorer
 EditorBase
 &
 aEditorBase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 /
@@ -14695,7 +14683,6 @@ EditorBase
 *
 mEditorBase
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -14751,7 +14738,6 @@ aDirection
 ErrorResult
 &
 aRv
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -14763,8 +14749,6 @@ mIsTopLevel
 true
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 /
 /
 The
@@ -14885,7 +14869,6 @@ mEditorBase
 bool
 mIsTopLevel
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -14922,7 +14905,6 @@ AutoTransactionsConserveSelection
 EditorBase
 &
 aEditorBase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -14938,8 +14920,6 @@ AllowsTransactionsToChangeSelection
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mEditorBase
 .
 MakeThisAllowTransactionsToChangeSelection
@@ -14970,7 +14950,6 @@ mEditorBase
 bool
 mAllowedTransactionsToChangeSelection
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /
@@ -15077,7 +15056,6 @@ AutoUpdateViewBatch
 EditorBase
 &
 aEditorBase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -15085,8 +15063,6 @@ mEditorBase
 aEditorBase
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mEditorBase
 .
 BeginUpdateViewBatch
@@ -15116,7 +15092,6 @@ EditorBase
 &
 mEditorBase
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 protected

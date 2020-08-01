@@ -388,7 +388,6 @@ cx
 InterfaceType
 *
 aInterface
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -397,7 +396,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mInterface
 (
@@ -492,7 +490,6 @@ InterfaceType
 >
 *
 aInterface
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -501,7 +498,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 mInterface
 (
@@ -605,7 +601,6 @@ const
 CX
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 InterfaceType
@@ -618,7 +613,6 @@ InterfaceType
 (
 cx
 this
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }
@@ -636,7 +630,6 @@ cx
 JSObject
 *
 obj
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 InterfaceType
@@ -650,7 +643,6 @@ InterfaceType
 (
 cx
 this
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }
