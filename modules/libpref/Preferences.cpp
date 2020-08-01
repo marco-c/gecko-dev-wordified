@@ -5797,7 +5797,6 @@ hash
 (
 const
 Lookup
-&
 aLookup
 )
 {
@@ -5818,7 +5817,6 @@ Key
 aKey
 const
 Lookup
-&
 aLookup
 )
 {
