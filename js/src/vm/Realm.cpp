@@ -5418,14 +5418,11 @@ JS
 :
 GetRealmGlobalOrNull
 (
-Handle
-<
 JS
 :
 :
 Realm
 *
->
 realm
 )
 {

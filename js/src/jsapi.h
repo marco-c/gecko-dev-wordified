@@ -3532,12 +3532,13 @@ cx
 void
 *
 data
-Handle
-<
 Realm
 *
->
 realm
+const
+AutoRequireNoGC
+&
+nogc
 )
 ;
 /
