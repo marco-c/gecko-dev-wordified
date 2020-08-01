@@ -1679,9 +1679,9 @@ override
 {
 RefPtr
 <
-nsExternalAppHandler
+nsIStreamListener
 >
-handler
+listener
 ;
 nsresult
 rv
@@ -1698,7 +1698,7 @@ false
 nullptr
 getter_AddRefs
 (
-handler
+listener
 )
 )
 ;
@@ -1712,7 +1712,7 @@ rv
 {
 m_targetStreamListener
 =
-handler
+listener
 ;
 }
 return

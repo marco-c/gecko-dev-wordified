@@ -303,7 +303,7 @@ aForceSave
 nsIInterfaceRequestor
 *
 aWindowContext
-nsExternalAppHandler
+nsIStreamListener
 *
 *
 aStreamListener

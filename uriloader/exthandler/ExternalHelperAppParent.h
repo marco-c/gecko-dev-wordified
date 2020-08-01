@@ -491,7 +491,7 @@ private
 :
 RefPtr
 <
-nsExternalAppHandler
+nsIStreamListener
 >
 mListener
 ;
