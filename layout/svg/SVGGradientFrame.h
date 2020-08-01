@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGPaintServerFrame
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -161,13 +170,6 @@ h
 include
 "
 nsLiteralString
-.
-h
-"
-#
-include
-"
-SVGPaintServerFrame
 .
 h
 "
@@ -278,6 +280,11 @@ aID
 public
 :
 NS_DECL_ABSTRACT_FRAME
+(
+SVGGradientFrame
+)
+NS_DECL_QUERYFRAME
+NS_DECL_QUERYFRAME_TARGET
 (
 SVGGradientFrame
 )
@@ -908,6 +915,7 @@ kClassID
 }
 public
 :
+NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 (
 SVGLinearGradientFrame
@@ -1238,6 +1246,7 @@ kClassID
 }
 public
 :
+NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 (
 SVGRadialGradientFrame

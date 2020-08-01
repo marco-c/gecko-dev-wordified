@@ -193,6 +193,11 @@ SVGGeometryFrame
 h
 '
 '
+SVGGradientFrame
+.
+h
+'
+'
 SVGImageContext
 .
 h
@@ -219,6 +224,11 @@ h
 '
 '
 SVGOuterSVGFrame
+.
+h
+'
+'
+SVGPaintServerFrame
 .
 h
 '
@@ -364,6 +374,11 @@ cpp
 '
 '
 SVGOuterSVGFrame
+.
+cpp
+'
+'
+SVGPaintServerFrame
 .
 cpp
 '

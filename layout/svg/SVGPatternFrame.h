@@ -161,14 +161,16 @@ include
 "
 mozilla
 /
-UniquePtr
+SVGPaintServerFrame
 .
 h
 "
 #
 include
 "
-SVGPaintServerFrame
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -243,6 +245,7 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 SVGPatternFrame
 )
+NS_DECL_QUERYFRAME
 friend
 nsIFrame
 *
