@@ -592,7 +592,7 @@ aNode
 )
 ;
 void
-MakeEmpty
+SetEmpty
 (
 )
 ;

@@ -1441,7 +1441,7 @@ aStart
 aEnd
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -2543,7 +2543,7 @@ void
 ContentIteratorBase
 :
 :
-MakeEmpty
+SetEmpty
 (
 )
 {
@@ -3631,7 +3631,7 @@ can
 be
 nullptr
 if
-MakeEmpty
+SetEmpty
 (
 )
 is
@@ -3640,9 +3640,9 @@ in
 Init
 (
 )
+/
+/
 since
-/
-/
 at
 that
 time
@@ -4818,7 +4818,7 @@ empty
 container
 or
 collapsed
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -5019,7 +5019,7 @@ if
 firstCandidate
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -5091,7 +5091,7 @@ nodeBefore
 nodeAfter
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -5285,7 +5285,7 @@ if
 lastCandidate
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -5352,7 +5352,7 @@ nodeBefore
 nodeAfter
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
