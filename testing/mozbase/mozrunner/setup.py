@@ -74,7 +74,7 @@ PACKAGE_VERSION
 .
 0
 .
-2
+1
 '
 desc
 =
@@ -107,13 +107,13 @@ deps
 mozdevice
 >
 =
-4
+3
 .
 0
 .
-0
+1
 <
-5
+4
 '
     
 '

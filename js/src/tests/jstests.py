@@ -1540,9 +1540,7 @@ data
 /
 local
 /
-tmp
-/
-test_root
+tests
 '
                             
 help
@@ -5605,6 +5603,9 @@ chmod
 (
 jtd_tests
 recursive
+=
+True
+root
 =
 True
 )
