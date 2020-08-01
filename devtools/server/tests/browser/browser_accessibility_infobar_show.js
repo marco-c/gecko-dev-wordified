@@ -969,6 +969,11 @@ AccessibleHighlighter
 env
 )
 ;
+await
+highlighter
+.
+isReady
+;
 testInfobar
 (
 node

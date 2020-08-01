@@ -3260,6 +3260,7 @@ return
 highlighter
 ;
 }
+async
 showOverlay
 (
 )
@@ -3322,6 +3323,13 @@ why
 .
 type
 ;
+await
+this
+.
+pauseOverlay
+.
+isReady
+;
 this
 .
 pauseOverlay
@@ -3367,6 +3375,11 @@ _parent
 window
 .
 isChromeWindow
+&
+&
+this
+.
+_pauseOverlay
 )
 {
 this
