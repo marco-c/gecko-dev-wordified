@@ -40,6 +40,6 @@ tests
 /
 FileSystemDirectoryHandle
 -
-getEntries
+iteration
 .
 js

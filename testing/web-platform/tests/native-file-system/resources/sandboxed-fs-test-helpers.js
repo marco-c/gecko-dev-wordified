@@ -101,7 +101,7 @@ entry
 of
 dir
 .
-getEntries
+values
 (
 )
 )

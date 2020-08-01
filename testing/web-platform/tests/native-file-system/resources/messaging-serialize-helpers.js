@@ -480,7 +480,7 @@ child_handle
 of
 directory_handle
 .
-getEntries
+values
 (
 )
 )
