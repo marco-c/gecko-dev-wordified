@@ -138,6 +138,7 @@ use
 crate
 :
 :
+{
 backend
 :
 :
@@ -147,20 +148,10 @@ BackendIter
 BackendRoCursor
 BackendRwTransaction
 }
-;
-use
-crate
-:
-:
 error
 :
 :
 StoreError
-;
-use
-crate
-:
-:
 readwrite
 :
 :
@@ -168,14 +159,10 @@ readwrite
 Readable
 Writer
 }
-;
-use
-crate
-:
-:
 store
 :
 :
+{
 keys
 :
 :
@@ -183,14 +170,6 @@ keys
 Key
 PrimitiveInt
 }
-;
-use
-crate
-:
-:
-store
-:
-:
 multi
 :
 :
@@ -198,15 +177,12 @@ multi
 Iter
 MultiStore
 }
-;
-use
-crate
-:
-:
+}
 value
 :
 :
 Value
+}
 ;
 type
 EmptyResult
@@ -739,18 +715,6 @@ mod
 tests
 {
 use
-std
-:
-:
-fs
-;
-use
-tempfile
-:
-:
-Builder
-;
-use
 super
 :
 :
@@ -761,6 +725,18 @@ crate
 :
 :
 *
+;
+use
+std
+:
+:
+fs
+;
+use
+tempfile
+:
+:
+Builder
 ;
 #
 [
@@ -2197,8 +2173,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -2208,7 +2182,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -2236,8 +2209,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -2247,7 +2218,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -2527,8 +2497,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -2538,7 +2506,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -2566,8 +2533,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -2577,7 +2542,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -2729,8 +2693,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -2740,7 +2702,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -2878,8 +2839,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -2889,7 +2848,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -3389,8 +3347,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -3400,7 +3356,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -3428,8 +3383,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -3439,7 +3392,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -3589,8 +3541,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -3600,7 +3550,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -3628,8 +3577,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -3639,7 +3586,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -3671,18 +3617,6 @@ mod
 tests_safe
 {
 use
-std
-:
-:
-fs
-;
-use
-tempfile
-:
-:
-Builder
-;
-use
 super
 :
 :
@@ -3693,6 +3627,18 @@ crate
 :
 :
 *
+;
+use
+std
+:
+:
+fs
+;
+use
+tempfile
+:
+:
+Builder
 ;
 #
 [
@@ -5129,8 +5075,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -5140,7 +5084,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -5168,8 +5111,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -5179,7 +5120,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -5459,8 +5399,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -5470,7 +5408,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -5498,8 +5435,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -5509,7 +5444,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -5661,8 +5595,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -5672,7 +5604,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -5810,8 +5741,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -5821,7 +5750,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -6321,8 +6249,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -6332,7 +6258,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -6360,8 +6285,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -6371,7 +6294,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
@@ -6521,8 +6443,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -6532,7 +6452,6 @@ Str
 hello
 !
 "
-)
 )
 )
 ;
@@ -6560,8 +6479,6 @@ ok
 )
 .
 1
-Some
-(
 Value
 :
 :
@@ -6571,7 +6488,6 @@ Str
 hello1
 !
 "
-)
 )
 )
 ;
