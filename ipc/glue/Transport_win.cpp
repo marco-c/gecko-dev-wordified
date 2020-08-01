@@ -187,12 +187,6 @@ Channel
 :
 GenerateVerifiedChannelID
 (
-std
-:
-:
-wstring
-(
-)
 )
 ;
 /
