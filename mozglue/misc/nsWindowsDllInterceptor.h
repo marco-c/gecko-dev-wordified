@@ -1946,16 +1946,6 @@ interceptor
 :
 :
 VMSharingPolicyShared
-<
-mozilla
-:
-:
-interceptor
-:
-:
-MMPolicyInProcess
-true
->
 >
 class
 WindowsDllInterceptor
