@@ -6743,37 +6743,22 @@ install
 directory
 .
     
-"
-"
-"
-    
-try
-:
-        
-import
+Upgrades
 glean
-#
-noqa
-:
-F401
-        
-return
-#
-Glean
-is
-already
-installed
-we
-can
-skip
-the
-installation
+if
+it
+'
+s
+out
+-
+of
+-
+date
+.
     
-except
-ImportError
-:
-        
-pass
+"
+"
+"
     
 pip_call
 =
@@ -6793,6 +6778,13 @@ install
 '
 '
 glean_sdk
+~
+=
+31
+.
+5
+.
+0
 '
 ]
     
