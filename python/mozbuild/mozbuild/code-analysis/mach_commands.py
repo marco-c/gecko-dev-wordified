@@ -98,6 +98,8 @@ as
 ET
 import
 yaml
+import
+six
 from
 mach
 .
@@ -20579,6 +20581,23 @@ b
 relative_path
 )
                             
+e
+.
+output
+=
+e
+.
+output
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+                            
 patch
 =
 e
@@ -21034,6 +21053,10 @@ changes
         
 content
 =
+six
+.
+ensure_str
+(
 open
 (
 path
@@ -21045,14 +21068,6 @@ r
 read
 (
 )
-.
-decode
-(
-'
-utf
--
-8
-'
 )
         
 def
