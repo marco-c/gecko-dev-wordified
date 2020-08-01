@@ -58,6 +58,9 @@ CGScrollEventUnit
 =
 u32
 ;
+bitflags
+!
+{
 /
 /
 /
@@ -102,9 +105,6 @@ IOLLEvent
 .
 h
 )
-bitflags
-!
-{
 #
 [
 repr
