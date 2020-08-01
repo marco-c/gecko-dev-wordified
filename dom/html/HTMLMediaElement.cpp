@@ -29271,6 +29271,10 @@ AttachAndSetUAShadowRoot
 (
 )
 ;
+NotifyUAWidgetSetupOrChange
+(
+)
+;
 /
 /
 The

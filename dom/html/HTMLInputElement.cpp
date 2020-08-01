@@ -25941,6 +25941,10 @@ AttachAndSetUAShadowRoot
 (
 )
 ;
+NotifyUAWidgetSetupOrChange
+(
+)
+;
 }
 if
 (
@@ -27581,6 +27585,10 @@ time
 type
 .
 AttachAndSetUAShadowRoot
+(
+)
+;
+NotifyUAWidgetSetupOrChange
 (
 )
 ;
