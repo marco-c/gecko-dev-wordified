@@ -3193,8 +3193,6 @@ contextfilter
 "
 False
 )
-is
-True
 :
             
 if
@@ -3236,8 +3234,6 @@ evalcontextfilter
 "
 False
 )
-is
-True
 :
             
 if
@@ -3286,8 +3282,6 @@ environmentfilter
 "
 False
 )
-is
-True
 :
             
 args

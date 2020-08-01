@@ -139,14 +139,6 @@ ping_upload
 ;
 pub
 mod
-pings
-;
-pub
-mod
-private
-;
-pub
-mod
 ipc
 ;
 /

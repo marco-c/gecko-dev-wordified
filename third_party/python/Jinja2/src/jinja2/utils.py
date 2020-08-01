@@ -1218,13 +1218,6 @@ return
 Ellipsis
 "
     
-cls
-=
-type
-(
-obj
-)
-    
 #
 __builtin__
 in
@@ -1238,7 +1231,9 @@ in
 x
     
 if
-cls
+obj
+.
+__class__
 .
 __module__
 in
@@ -1254,7 +1249,9 @@ builtins
         
 name
 =
-cls
+obj
+.
+__class__
 .
 __name__
     
@@ -1263,7 +1260,9 @@ else
         
 name
 =
-cls
+obj
+.
+__class__
 .
 __module__
 +
@@ -1271,7 +1270,9 @@ __module__
 .
 "
 +
-cls
+obj
+.
+__class__
 .
 __name__
     
@@ -5083,29 +5084,13 @@ name
 )
 :
         
-#
-__class__
-is
-needed
-for
-the
-awaitable
-check
-in
-async
-mode
-        
 if
 name
-in
-{
+=
+=
 "
 _Namespace__attrs
 "
-"
-__class__
-"
-}
 :
             
 return
