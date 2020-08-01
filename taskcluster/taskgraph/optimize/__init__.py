@@ -2579,28 +2579,22 @@ results
 )
 :
         
-rvs
-=
-list
-(
+for
+rv
+in
 results
-)
-        
-if
-all
-(
-rvs
-)
 :
             
+if
+!
+rv
+:
+                
 return
-rvs
-[
-0
-]
+rv
         
 return
-False
+True
 class
 Alias
 (
