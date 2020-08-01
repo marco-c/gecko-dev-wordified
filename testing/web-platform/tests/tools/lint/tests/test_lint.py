@@ -4175,7 +4175,13 @@ rv
 lint
 (
 _dummy_repo
+                      
 [
+"
+broken
+.
+html
+"
 "
 ref
 /
@@ -4191,14 +4197,22 @@ existent_relative
 html
 "
 ]
+                      
 "
 normal
+"
+                      
+[
+"
+broken
+*
 "
 "
 *
 solu
 *
 "
+]
 )
             
 assert
@@ -4285,6 +4299,11 @@ lint
 _dummy_repo
 [
 "
+broken
+.
+html
+"
+"
 ref
 /
 absolute
@@ -4308,7 +4327,7 @@ assert
 rv
 =
 =
-1
+2
             
 assert
 mocked_check_path
@@ -4316,7 +4335,7 @@ mocked_check_path
 call_count
 =
 =
-2
+3
             
 assert
 mocked_check_file_contents
@@ -4324,7 +4343,17 @@ mocked_check_file_contents
 call_count
 =
 =
-2
+3
+            
+assert
+"
+TRAILING
+WHITESPACE
+"
+in
+caplog
+.
+text
             
 assert
 "
@@ -4814,9 +4843,7 @@ c
 normal
 "
                                           
-str
-(
-)
+None
 )
     
 finally
@@ -4921,9 +4948,7 @@ bar
 "
 normal
 "
-str
-(
-)
+None
 )
     
 finally
@@ -5033,9 +5058,7 @@ bar
 "
 normal
 "
-str
-(
-)
+None
 )
     
 finally
