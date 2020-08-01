@@ -12000,6 +12000,11 @@ i
 ]
 )
 ;
+NS_ENSURE_STATE
+(
+stmt
+)
+;
 /
 /
 Obtain
