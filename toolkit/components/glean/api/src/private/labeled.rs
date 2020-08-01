@@ -465,7 +465,7 @@ Parent
 crate
 :
 :
-metrics
+private
 :
 :
 string
@@ -595,7 +595,7 @@ Parent
 crate
 :
 :
-metrics
+private
 :
 :
 counter
