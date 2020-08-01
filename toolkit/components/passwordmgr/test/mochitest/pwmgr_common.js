@@ -2140,16 +2140,6 @@ readyState
 =
 =
 "
-loaded
-"
-|
-|
-document
-.
-readyState
-=
-=
-"
 interactive
 "
 )
