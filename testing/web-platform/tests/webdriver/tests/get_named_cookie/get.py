@@ -1057,7 +1057,7 @@ cookie
 name
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -1076,7 +1076,7 @@ cookie
 value
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -1095,7 +1095,7 @@ cookie
 sameSite
 "
 ]
-basestring
+text_type
 )
     
 assert
