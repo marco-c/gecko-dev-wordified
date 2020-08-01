@@ -96,7 +96,7 @@ path
 =
 [
 '
-pywebsocket
+pywebsocket3
 '
 ]
 +
@@ -104,6 +104,8 @@ sys
 .
 path
     
+from
+mod_pywebsocket
 import
 standalone
     

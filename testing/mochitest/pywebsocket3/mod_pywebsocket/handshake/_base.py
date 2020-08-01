@@ -285,6 +285,10 @@ processors
 "
 "
 from
+__future__
+import
+absolute_import
+from
 mod_pywebsocket
 import
 common
@@ -511,7 +515,6 @@ e
 g
 .
 '
-8
 13
 '
 )
@@ -814,6 +817,7 @@ fields
     
 except
 ValueError
+as
 e
 :
         
@@ -841,6 +845,7 @@ value
 :
     
 return
+u
 '
 %
 s
@@ -963,6 +968,7 @@ expected_value
 key
 value
 )
+            
 status
 =
 fail_status
@@ -1021,6 +1027,7 @@ request
 method
 !
 =
+u
 '
 GET
 '
@@ -1050,6 +1057,7 @@ request
 protocol
 !
 =
+u
 '
 HTTP
 /
@@ -1199,7 +1207,6 @@ state
 raise
 HandshakeException
 (
-                
 '
 Expected
 a
@@ -1210,6 +1217,7 @@ found
 r
 '
 %
+                                     
 http_header_util
 .
 peek
