@@ -71,6 +71,8 @@ import
 sys
 import
 logging
+import
+six
 from
 slugid
 import
@@ -149,10 +151,11 @@ for
 l
 t
 in
-label_to_taskid
+six
 .
 iteritems
 (
+label_to_taskid
 )
 }
     
