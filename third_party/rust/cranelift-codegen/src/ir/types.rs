@@ -2657,6 +2657,12 @@ FFLAGS
 "
 fflags
 "
+SARG_T
+=
+>
+"
+sarg_t
+"
 INVALID
 =
 >
