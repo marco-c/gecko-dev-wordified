@@ -263,6 +263,19 @@ verify_usage
 args
 )
     
+os
+.
+environ
+[
+'
+MOZ_IGNORE_NSS_SHUTDOWN_LEAKS
+'
+]
+=
+'
+1
+'
+    
 if
 not
 args
