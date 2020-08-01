@@ -10892,6 +10892,13 @@ stderr
 stderr
 "
 )
+        
+self
+.
+nodeProc
+=
+{
+}
     
 def
 startHttp3Server
@@ -11575,6 +11582,13 @@ stderr
 stderr
 "
 )
+        
+self
+.
+http3ServerProc
+=
+{
+}
     
 def
 buildXpcsRunArgs
