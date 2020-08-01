@@ -4396,6 +4396,9 @@ Allow
 ;
 CASES_FOR_ftruncate
 :
+case
+__NR_fallocate
+:
 return
 mMayCreateShmem
 ?
