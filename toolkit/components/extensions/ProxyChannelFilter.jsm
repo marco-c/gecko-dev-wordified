@@ -1514,12 +1514,12 @@ frameId
 :
 channel
 .
-windowId
+frameId
 parentFrameId
 :
 channel
 .
-parentWindowId
+parentFrameId
 frameAncestors
 :
 channel
