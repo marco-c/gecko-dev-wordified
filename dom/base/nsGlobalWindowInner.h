@@ -2856,9 +2856,6 @@ const
 nsString
 &
 aAddonId
-const
-double
-aDuration
 )
 ;
 /
