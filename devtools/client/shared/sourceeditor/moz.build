@@ -100,11 +100,6 @@ autocompleter
 js
 '
 '
-debugger
-.
-js
-'
-'
 editor
 -
 commands
