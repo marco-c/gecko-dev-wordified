@@ -99,6 +99,8 @@ util
 schema
 import
 resolve_keyed_by
+import
+six
 #
 Suppress
 chatty
@@ -2995,6 +2997,8 @@ fh
         
 all_locales
 =
+list
+(
 json
 .
 load
@@ -3004,6 +3008,7 @@ fh
 .
 keys
 (
+)
 )
     
 #
@@ -3051,10 +3056,11 @@ for
 kind
 kind_config
 in
-orig_config
+six
 .
 iteritems
 (
+orig_config
 )
 :
         
@@ -3062,10 +3068,11 @@ for
 partner
 partner_config
 in
-kind_config
+six
 .
 iteritems
 (
+kind_config
 )
 :
             
@@ -3073,10 +3080,11 @@ for
 subpartner
 subpartner_config
 in
-partner_config
+six
 .
 iteritems
 (
+partner_config
 )
 :
                 
