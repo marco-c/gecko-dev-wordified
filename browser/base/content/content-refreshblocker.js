@@ -1097,7 +1097,7 @@ outerWindowID
 =
 win
 .
-docShell
+windowUtils
 .
 outerWindowID
 ;

@@ -1844,9 +1844,9 @@ this
 .
 _win
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 __init
@@ -2522,9 +2522,9 @@ this
 .
 _win
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 /
 /
@@ -6330,7 +6330,7 @@ this
 .
 _win
 .
-docShell
+windowUtils
 .
 outerWindowID
 ;
@@ -12020,9 +12020,9 @@ _winID
 =
 win
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 registerPeerConnectionLifecycleCallback

@@ -152,9 +152,9 @@ aWindow
 return
 aWindow
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 function
