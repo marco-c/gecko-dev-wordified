@@ -1053,7 +1053,7 @@ e
 g
 .
 the
-cahnge
+change
 in
 a
 particular
