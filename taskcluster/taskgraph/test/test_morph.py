@@ -62,9 +62,9 @@ unicode_literals
 import
 os
 import
-sys
-import
 pytest
+import
+six
 from
 taskgraph
 import
@@ -175,10 +175,11 @@ for
 label
 task_id
 in
-label_to_taskid
+six
 .
 iteritems
 (
+label_to_taskid
 )
 :
             
@@ -222,32 +223,6 @@ label_to_taskid
     
 return
 inner
-pytest
-.
-mark
-.
-xfail
-(
-    
-sys
-.
-version_info
->
-=
-(
-3
-0
-)
-reason
-=
-"
-python3
-migration
-is
-not
-complete
-"
-)
 def
 test_make_index_tasks
 (
