@@ -9659,6 +9659,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathSign
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathFloor
 (
 HandleFunction
