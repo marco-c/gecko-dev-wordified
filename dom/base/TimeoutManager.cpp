@@ -2251,13 +2251,8 @@ we
 start
 clamping
 .
-HTML5
+HTML
 says
-1
-WebKit
-/
-/
-uses
 5
 .
 #
