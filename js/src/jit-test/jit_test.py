@@ -1963,7 +1963,9 @@ data
 /
 local
 /
-tests
+tmp
+/
+test_root
 '
                     
 help
