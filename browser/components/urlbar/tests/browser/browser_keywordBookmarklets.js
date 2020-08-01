@@ -848,8 +848,6 @@ document
 .
 nodePrincipal
 .
-URI
-.
 spec
 ;
 }
