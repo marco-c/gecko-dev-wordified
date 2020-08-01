@@ -1876,6 +1876,25 @@ gli
 '
         
 '
+replace
+'
+:
+{
+            
+'
+run
+-
+on
+-
+projects
+'
+:
+[
+]
+        
+}
+        
+'
 merge
 '
 :
