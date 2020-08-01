@@ -220,13 +220,6 @@ h
 #
 include
 "
-NoLocaleSpecificChecker
-.
-h
-"
-#
-include
-"
 NoNewThreadsChecker
 .
 h
