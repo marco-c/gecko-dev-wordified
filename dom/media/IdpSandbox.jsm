@@ -1803,9 +1803,9 @@ this
 .
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 let
 scriptError

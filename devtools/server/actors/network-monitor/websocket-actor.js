@@ -364,9 +364,9 @@ targetActor
 .
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 webSocketEventService
 .
