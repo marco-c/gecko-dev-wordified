@@ -7636,9 +7636,6 @@ _finishInit
 )
 ;
 }
-return
-val
-;
 }
 /
 *

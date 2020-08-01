@@ -410,14 +410,11 @@ index
 val
 )
 {
-return
-(
 this
 .
 _index
 =
 val
-)
 ;
 }
 async
@@ -7608,9 +7605,6 @@ updateCutNodes
 (
 true
 )
-;
-return
-aNodes
 ;
 }
 /

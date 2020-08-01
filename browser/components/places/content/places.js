@@ -1755,7 +1755,6 @@ aLocation
 )
 {
 return
-aLocation
 ;
 }
 if
@@ -1953,9 +1952,6 @@ disabled
 )
 ;
 }
-return
-aLocation
-;
 }
 _backHistory
 :
@@ -5130,9 +5126,6 @@ _folders
 =
 aFolders
 ;
-return
-aFolders
-;
 }
 /
 *
@@ -5740,7 +5733,6 @@ filterCollection
 )
 {
 return
-collectionName
 ;
 }
 this
@@ -5760,9 +5752,6 @@ this
 updateCollectionTitle
 (
 )
-;
-return
-collectionName
 ;
 }
 /
@@ -5862,8 +5851,6 @@ value
 value
 )
 {
-return
-(
 this
 .
 searchFilter
@@ -5871,7 +5858,6 @@ searchFilter
 value
 =
 value
-)
 ;
 }
 }
@@ -8611,9 +8597,6 @@ focus
 ;
 }
 }
-return
-aNewView
-;
 }
 get
 currentPlace
@@ -8690,9 +8673,6 @@ active
 true
 ;
 }
-return
-aQueryString
-;
 }
 /
 *
