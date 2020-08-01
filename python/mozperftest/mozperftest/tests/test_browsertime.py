@@ -38,6 +38,7 @@ mozperftest
 environment
 import
 TEST
+SYSTEM
 from
 mozperftest
 .
@@ -233,6 +234,15 @@ two
     
 )
     
+sys
+=
+env
+.
+layers
+[
+SYSTEM
+]
+    
 browser
 =
 env
@@ -258,6 +268,9 @@ try
 :
         
 with
+sys
+as
+s
 browser
 as
 b
@@ -268,7 +281,10 @@ silence
             
 b
 (
+s
+(
 metadata
+)
 )
     
 finally
@@ -623,7 +639,19 @@ EXAMPLE_TEST
 ]
 )
     
+sys
+=
+env
+.
+layers
+[
+SYSTEM
+]
+    
 with
+sys
+as
+s
 browser
 as
 b
@@ -640,7 +668,10 @@ NodeException
         
 b
 (
+s
+(
 metadata
+)
 )
 mock
 .
@@ -777,10 +808,22 @@ EXAMPLE_TEST
 ]
 )
     
+sys
+=
+env
+.
+layers
+[
+SYSTEM
+]
+    
 try
 :
         
 with
+sys
+as
+s
 browser
 as
 b
@@ -835,7 +878,10 @@ helper
             
 b
 (
+s
+(
 metadata
+)
 )
     
 finally
@@ -1131,10 +1177,22 @@ EXAMPLE_TEST
 ]
 )
     
+sys
+=
+env
+.
+layers
+[
+SYSTEM
+]
+    
 try
 :
         
 with
+sys
+as
+s
 temporary_env
 (
 MOZ_AUTOMATION
@@ -1153,7 +1211,10 @@ silence
             
 b
 (
+s
+(
 metadata
+)
 )
     
 finally
@@ -1304,6 +1365,15 @@ EXAMPLE_TEST
 ]
 )
     
+sys
+=
+env
+.
+layers
+[
+SYSTEM
+]
+    
 with
 pytest
 .
@@ -1317,6 +1387,9 @@ try
 :
             
 with
+sys
+as
+s
 browser
 as
 b
@@ -1327,7 +1400,10 @@ silence
                 
 b
 (
+s
+(
 metadata
+)
 )
         
 finally
