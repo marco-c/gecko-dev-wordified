@@ -2,6 +2,12 @@ from
 six
 import
 PY3
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 get_response
 (
@@ -146,6 +152,7 @@ header_list
 =
 [
             
+isomorphic_encode
 (
 s
 +
@@ -156,17 +163,6 @@ r
 \
 n
 '
-)
-.
-encode
-(
-"
-iso
--
-8859
--
-1
-"
 )
 for
 s

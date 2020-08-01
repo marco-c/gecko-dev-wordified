@@ -328,7 +328,7 @@ else
 status
 =
 200
-u
+b
 "
 OK
 "
@@ -417,7 +417,7 @@ etag
 return
 status
 headers
-u
+b
 "
 Success
 "
@@ -608,7 +608,7 @@ example
 status
 =
 304
-u
+b
 "
 Not
 Modified
@@ -617,6 +617,6 @@ Modified
 return
 status
 headers
-u
+b
 "
 "
