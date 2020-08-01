@@ -3143,10 +3143,10 @@ uint64_t
 aBrowsingContextId
 Type
 aType
-FieldTuple
+FieldValues
 &
 &
-aFields
+aInit
 )
 :
 mFields
@@ -3156,7 +3156,7 @@ std
 :
 move
 (
-aFields
+aInit
 )
 )
 mType
@@ -12556,7 +12556,7 @@ mFields
 =
 mFields
 .
-Fields
+RawValues
 (
 )
 ;

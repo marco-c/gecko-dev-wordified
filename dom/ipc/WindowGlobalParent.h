@@ -1587,10 +1587,10 @@ uint64_t
 aOuterWindowId
 bool
 aInProcess
-FieldTuple
+FieldValues
 &
 &
-aFields
+aInit
 )
 ;
 ~

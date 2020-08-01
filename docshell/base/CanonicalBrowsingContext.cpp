@@ -464,10 +464,10 @@ BrowsingContext
 :
 Type
 aType
-FieldTuple
+FieldValues
 &
 &
-aFields
+aInit
 )
 :
 BrowsingContext
@@ -481,7 +481,7 @@ std
 :
 move
 (
-aFields
+aInit
 )
 )
 mProcessId
