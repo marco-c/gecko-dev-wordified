@@ -225,7 +225,13 @@ if
 (
 entry
 .
-isDirectory
+kind
+=
+=
+=
+'
+directory
+'
 )
 result
 .

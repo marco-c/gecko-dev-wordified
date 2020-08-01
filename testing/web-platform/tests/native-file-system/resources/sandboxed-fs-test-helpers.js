@@ -118,7 +118,13 @@ recursive
 :
 entry
 .
-isDirectory
+kind
+=
+=
+=
+'
+directory
+'
 }
 )
 ;
