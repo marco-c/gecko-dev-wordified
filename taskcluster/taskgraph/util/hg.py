@@ -443,6 +443,11 @@ root
 :
     
 return
+six
+.
+ensure_text
+(
+        
 subprocess
 .
 check_output
@@ -475,6 +480,8 @@ cwd
 =
 root
 )
+    
+)
 def
 calculate_head_rev
 (
@@ -483,6 +490,11 @@ root
 :
     
 return
+six
+.
+ensure_text
+(
+        
 subprocess
 .
 check_output
@@ -514,4 +526,6 @@ node
 cwd
 =
 root
+)
+    
 )
