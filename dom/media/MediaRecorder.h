@@ -194,7 +194,7 @@ class
 AudioNode
 ;
 class
-Blob
+BlobImpl
 ;
 class
 Document
