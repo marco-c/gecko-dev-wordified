@@ -1041,13 +1041,24 @@ path
 request
 .
 GET
-.
-get
-(
+[
 b
 "
 path
 "
+]
+if
+b
+"
+path
+"
+in
+request
+.
+GET
+\
+           
+else
 isomorphic_encode
 (
 request
@@ -1064,7 +1075,6 @@ u
 [
 0
 ]
-)
 )
     
 if
