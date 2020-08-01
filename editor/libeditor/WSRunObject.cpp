@@ -9092,6 +9092,7 @@ NBSP
 .
 const
 VisibleWhiteSpacesData
+&
 nonPreformattedVisibleWhiteSpacesAtEnd
 =
 VisibleWhiteSpacesDataRef
@@ -9509,6 +9510,7 @@ NBSP
 .
 const
 VisibleWhiteSpacesData
+&
 nonPreformattedVisibleWhiteSpacesAtStart
 =
 VisibleWhiteSpacesDataRef
