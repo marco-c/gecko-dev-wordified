@@ -12,12 +12,9 @@ moves
 .
 http_client
 import
-(
-    
 IncompleteRead
 as
 httplib_IncompleteRead
-)
 #
 Base
 Exceptions
@@ -406,7 +403,6 @@ r
 "
 %
 (
-            
 url
 reason
 )
@@ -805,16 +801,16 @@ MaxRetryError
     
 GENERIC_ERROR
 =
-'
+"
 too
 many
 error
 responses
-'
+"
     
 SPECIFIC_ERROR
 =
-'
+"
 too
 many
 {
@@ -822,7 +818,7 @@ status_code
 }
 error
 responses
-'
+"
 class
 SecurityWarning
 (
@@ -833,7 +829,7 @@ HTTPWarning
 "
 Warned
 when
-perfoming
+performing
 security
 reducing
 actions
@@ -1124,32 +1120,30 @@ self
 :
         
 return
-(
-'
+"
 IncompleteRead
 (
 %
 i
 bytes
 read
-'
-                
-'
 %
 i
 more
 expected
 )
-'
+"
 %
 (
+            
 self
 .
 partial
+            
 self
 .
 expected
-)
+        
 )
 class
 InvalidHeader
@@ -1271,7 +1265,7 @@ unparsed_data
         
 message
 =
-'
+"
 %
 s
 unparsed
@@ -1279,14 +1273,14 @@ data
 :
 %
 r
-'
+"
 %
 (
 defects
 or
-'
+"
 Unknown
-'
+"
 unparsed_data
 )
         

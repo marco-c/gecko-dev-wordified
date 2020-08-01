@@ -197,13 +197,20 @@ StringIO
 import
 StringIO
     
+#
+Keep
+OrderedDict
+for
+backwards
+compatibility
+.
+    
 from
-urllib3
-.
-packages
-.
-ordered_dict
+collections
 import
+Callable
+Mapping
+MutableMapping
 OrderedDict
     
 builtin_str
@@ -286,10 +293,27 @@ io
 import
 StringIO
     
+#
+Keep
+OrderedDict
+for
+backwards
+compatibility
+.
+    
 from
 collections
 import
 OrderedDict
+    
+from
+collections
+.
+abc
+import
+Callable
+Mapping
+MutableMapping
     
 builtin_str
 =

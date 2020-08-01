@@ -419,7 +419,6 @@ CFStringGetCStringPtr
 (
         
 value_as_void_p
-        
 CFConst
 .
 kCFStringEncodingUTF8
@@ -449,11 +448,8 @@ CFStringGetCString
 (
             
 value_as_void_p
-            
 buffer
-            
 1024
-            
 CFConst
 .
 kCFStringEncodingUTF8
@@ -468,14 +464,14 @@ result
 raise
 OSError
 (
-'
+"
 Error
 copying
 C
 string
 from
 CFStringRef
-'
+"
 )
         
 string
@@ -497,11 +493,11 @@ string
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 return
@@ -583,18 +579,18 @@ output
 =
 =
 u
-'
-'
+"
+"
 :
         
 output
 =
 u
-'
+"
 OSStatus
 %
 s
-'
+"
 %
 error
     
@@ -657,6 +653,37 @@ chain
 "
 "
     
+#
+Normalize
+the
+PEM
+bundle
+'
+s
+line
+endings
+.
+    
+pem_bundle
+=
+pem_bundle
+.
+replace
+(
+b
+"
+\
+r
+\
+n
+"
+b
+"
+\
+n
+"
+)
+    
 der_certs
 =
 [
@@ -672,7 +699,6 @@ group
 1
 )
 )
-        
 for
 match
 in
@@ -1165,7 +1191,7 @@ filename
 =
 base64
 .
-b64encode
+b16encode
 (
 random_bytes
 [
@@ -1176,18 +1202,18 @@ random_bytes
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 password
 =
 base64
 .
-b64encode
+b16encode
 (
 random_bytes
 [
@@ -1225,11 +1251,11 @@ filename
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 #
@@ -1259,18 +1285,13 @@ SecKeychainCreate
 (
         
 keychain_path
-        
 len
 (
 password
 )
-        
 password
-        
 False
-        
 None
-        
 ctypes
 .
 byref
@@ -1380,9 +1401,9 @@ with
 open
 (
 path
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -1409,9 +1430,7 @@ CFDataCreate
 CoreFoundation
 .
 kCFAllocatorDefault
-            
 raw_filedata
-            
 len
 (
 raw_filedata
@@ -1594,10 +1613,8 @@ CoreFoundation
 .
 CFArrayGetValueAtIndex
 (
-                
 result_array
 index
-            
 )
             
 item
@@ -2078,10 +2095,8 @@ new_certs
 =
 _load_items_from_file
 (
-                
 keychain
 file_path
-            
 )
             
 identities
@@ -2152,12 +2167,10 @@ SecIdentityCreateWithCertificate
 (
                 
 keychain
-                
 certificates
 [
 0
 ]
-                
 ctypes
 .
 byref

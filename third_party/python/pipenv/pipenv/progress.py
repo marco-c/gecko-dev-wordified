@@ -61,10 +61,8 @@ from
 .
 environments
 import
-(
 PIPENV_COLORBLIND
 PIPENV_HIDE_EMOJIS
-)
 STREAM
 =
 sys
@@ -72,7 +70,7 @@ sys
 stderr
 MILL_TEMPLATE
 =
-'
+"
 %
 s
 %
@@ -84,46 +82,35 @@ i
 i
 \
 r
-'
+"
 DOTS_CHAR
 =
-'
+"
 .
-'
-if
-os
-.
-name
-!
-=
-'
-nt
-'
-:
-    
+"
 if
 PIPENV_HIDE_EMOJIS
 :
-        
+    
 if
 PIPENV_COLORBLIND
 :
-            
+        
 BAR_FILLED_CHAR
 =
-'
+"
 =
-'
-            
+"
+        
 BAR_EMPTY_CHAR
 =
-'
+"
 -
-'
-        
+"
+    
 else
 :
-            
+        
 BAR_FILLED_CHAR
 =
 str
@@ -132,15 +119,15 @@ crayons
 .
 green
 (
-'
+"
 =
-'
+"
 bold
 =
 True
 )
 )
-            
+        
 BAR_EMPTY_CHAR
 =
 str
@@ -149,32 +136,31 @@ crayons
 .
 black
 (
-'
+"
 -
-'
+"
 )
 )
+else
+:
+    
+if
+PIPENV_COLORBLIND
+:
+        
+BAR_FILLED_CHAR
+=
+"
+"
+        
+BAR_EMPTY_CHAR
+=
+"
+"
     
 else
 :
         
-if
-PIPENV_COLORBLIND
-:
-            
-BAR_FILLED_CHAR
-=
-'
-'
-            
-BAR_EMPTY_CHAR
-=
-'
-'
-        
-else
-:
-            
 BAR_FILLED_CHAR
 =
 str
@@ -183,14 +169,14 @@ crayons
 .
 green
 (
-'
-'
+"
+"
 bold
 =
 True
 )
 )
-            
+        
 BAR_EMPTY_CHAR
 =
 str
@@ -199,24 +185,10 @@ crayons
 .
 black
 (
-'
-'
+"
+"
 )
 )
-else
-:
-    
-BAR_FILLED_CHAR
-=
-'
-=
-'
-    
-BAR_EMPTY_CHAR
-=
-'
--
-'
 if
 (
 sys
@@ -236,16 +208,16 @@ os
 name
 !
 =
-'
+"
 nt
-'
+"
 )
 :
     
 BAR_TEMPLATE
 =
 u
-'
+"
 %
 s
 %
@@ -262,7 +234,7 @@ i
 }
 \
 r
-'
+"
 .
 format
 (
@@ -270,10 +242,10 @@ crayons
 .
 black
 (
-'
+"
 %
 s
-'
+"
 )
 )
 else
@@ -285,14 +257,14 @@ os
 name
 =
 =
-'
+"
 nt
-'
+"
 :
         
 BAR_TEMPLATE
 =
-'
+"
 %
 s
 %
@@ -309,14 +281,14 @@ i
 s
 \
 r
-'
+"
     
 else
 :
         
 BAR_TEMPLATE
 =
-'
+"
 %
 s
 %
@@ -332,23 +304,23 @@ i
 s
 \
 r
-'
+"
 MILL_CHARS
 =
 [
-'
+"
 |
-'
-'
+"
+"
 /
-'
-'
+"
+"
 -
-'
-'
+"
+"
 \
 \
-'
+"
 ]
 #
 How
@@ -433,8 +405,8 @@ self
         
 label
 =
-'
-'
+"
+"
         
 width
 =
@@ -613,11 +585,9 @@ last_progress
 0
         
 if
-(
 self
 .
 expected_size
-)
 :
             
 self
@@ -741,12 +711,15 @@ self
 .
 eta
 =
+(
+                
 sum
 (
 self
 .
 ittimes
 )
+                
 /
 float
 (
@@ -757,14 +730,15 @@ self
 ittimes
 )
 )
+                
 *
 (
-                
 self
 .
 expected_size
 -
 progress
+)
             
 )
             
@@ -806,17 +780,14 @@ hide
 if
 (
                 
-(
 progress
 %
 self
 .
 every
-)
 =
 =
 0
-or
 #
 True
 every
@@ -825,17 +796,13 @@ every
 "
 updates
                 
-(
+or
 progress
 =
 =
 self
 .
 expected_size
-)
-            
-)
-:
 #
 And
 when
@@ -843,6 +810,9 @@ we
 '
 re
 done
+            
+)
+:
                 
 STREAM
 .
@@ -850,8 +820,8 @@ write
 (
                     
 BAR_TEMPLATE
-%
                     
+%
 (
                         
 self
@@ -949,8 +919,8 @@ write
 (
                 
 BAR_TEMPLATE
-%
                 
+%
 (
                     
 self
@@ -989,10 +959,10 @@ STREAM
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
             
 STREAM
@@ -1014,7 +984,7 @@ time
 .
 strftime
 (
-'
+"
 %
 H
 :
@@ -1023,7 +993,7 @@ M
 :
 %
 S
-'
+"
 time
 .
 gmtime
@@ -1039,8 +1009,8 @@ it
     
 label
 =
-'
-'
+"
+"
     
 width
 =
@@ -1161,8 +1131,8 @@ dots
 it
 label
 =
-'
-'
+"
+"
 hide
 =
 None
@@ -1264,10 +1234,10 @@ STREAM
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
     
 STREAM
@@ -1281,8 +1251,8 @@ mill
 it
 label
 =
-'
-'
+"
+"
 hide
 =
 None
@@ -1329,8 +1299,8 @@ count
 :
             
 return
-'
-'
+"
+"
         
 else
 :
@@ -1366,22 +1336,12 @@ hide
 if
 (
                 
-(
 _i
 %
 every
-)
 =
 =
 0
-or
-                
-(
-_i
-=
-=
-count
-)
 #
 True
 every
@@ -1389,9 +1349,12 @@ every
 every
 "
 updates
-            
-)
-:
+                
+or
+_i
+=
+=
+count
 #
 And
 when
@@ -1399,12 +1362,14 @@ we
 '
 re
 done
+            
+)
+:
                 
 STREAM
 .
 write
 (
-                    
 MILL_TEMPLATE
 %
 (
@@ -1416,7 +1381,6 @@ _i
 _i
 count
 )
-                
 )
                 
 STREAM
@@ -1476,10 +1440,10 @@ STREAM
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 STREAM

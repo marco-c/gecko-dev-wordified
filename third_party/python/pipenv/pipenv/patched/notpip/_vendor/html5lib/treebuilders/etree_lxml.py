@@ -2371,17 +2371,6 @@ token
 )
 :
         
-"
-"
-"
-Create
-the
-document
-root
-"
-"
-"
-        
 #
 Because
 of

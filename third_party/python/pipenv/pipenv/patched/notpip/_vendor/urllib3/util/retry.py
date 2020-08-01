@@ -70,9 +70,10 @@ RequestHistory
 =
 namedtuple
 (
-'
+    
+"
 RequestHistory
-'
+"
 [
 "
 method
@@ -83,7 +84,6 @@ url
 "
 error
 "
-                                               
 "
 status
 "
@@ -773,7 +773,8 @@ factor
 *
 (
 2
-^
+*
+*
 (
 {
 number
@@ -995,6 +996,38 @@ or
 not
 .
     
+:
+param
+iterable
+remove_headers_on_redirect
+:
+        
+Sequence
+of
+headers
+to
+remove
+from
+the
+request
+when
+a
+response
+        
+indicating
+a
+redirect
+is
+returned
+before
+firing
+off
+the
+redirected
+        
+request
+.
+    
 "
 "
 "
@@ -1003,27 +1036,28 @@ DEFAULT_METHOD_WHITELIST
 =
 frozenset
 (
-[
         
-'
+[
+"
 HEAD
-'
-'
+"
+"
 GET
-'
-'
+"
+"
 PUT
-'
-'
+"
+"
 DELETE
-'
-'
+"
+"
 OPTIONS
-'
-'
+"
+"
 TRACE
-'
+"
 ]
+    
 )
     
 RETRY_AFTER_STATUS_CODES
@@ -1034,6 +1068,17 @@ frozenset
 413
 429
 503
+]
+)
+    
+DEFAULT_REDIRECT_HEADERS_BLACKLIST
+=
+frozenset
+(
+[
+"
+Authorization
+"
 ]
 )
     
@@ -1051,46 +1096,61 @@ BACKOFF_MAX
 def
 __init__
 (
+        
 self
+        
 total
 =
 10
+        
 connect
 =
 None
+        
 read
 =
 None
+        
 redirect
 =
 None
+        
 status
 =
 None
-                 
+        
 method_whitelist
 =
 DEFAULT_METHOD_WHITELIST
+        
 status_forcelist
 =
 None
-                 
+        
 backoff_factor
 =
 0
+        
 raise_on_redirect
 =
 True
+        
 raise_on_status
 =
 True
-                 
+        
 history
 =
 None
+        
 respect_retry_after_header
 =
 True
+        
+remove_headers_on_redirect
+=
+DEFAULT_REDIRECT_HEADERS_BLACKLIST
+    
 )
 :
         
@@ -1191,6 +1251,27 @@ self
 respect_retry_after_header
 =
 respect_retry_after_header
+        
+self
+.
+remove_headers_on_redirect
+=
+frozenset
+(
+            
+[
+h
+.
+lower
+(
+)
+for
+h
+in
+remove_headers_on_redirect
+]
+        
+)
     
 def
 new
@@ -1218,16 +1299,19 @@ connect
 self
 .
 connect
+            
 read
 =
 self
 .
 read
+            
 redirect
 =
 self
 .
 redirect
+            
 status
 =
 self
@@ -1269,6 +1353,18 @@ history
 self
 .
 history
+            
+remove_headers_on_redirect
+=
+self
+.
+remove_headers_on_redirect
+            
+respect_retry_after_header
+=
+self
+.
+respect_retry_after_header
         
 )
         
@@ -1441,8 +1537,10 @@ consecutive_errors_len
 =
 len
 (
+            
 list
 (
+                
 takewhile
 (
 lambda
@@ -1453,7 +1551,6 @@ x
 redirect_location
 is
 None
-                                                    
 reversed
 (
 self
@@ -1461,7 +1558,9 @@ self
 history
 )
 )
+            
 )
+        
 )
         
 if
@@ -1832,6 +1931,10 @@ immediately
 "
         
 if
+self
+.
+respect_retry_after_header
+and
 response
 :
             
@@ -2126,16 +2229,19 @@ True
         
 return
 (
+            
 self
 .
 total
+            
 and
 self
 .
 respect_retry_after_header
+            
 and
-                
 has_retry_after
+            
 and
 (
 status_code
@@ -2144,6 +2250,7 @@ self
 .
 RETRY_AFTER_STATUS_CODES
 )
+        
 )
     
 def
@@ -2216,26 +2323,33 @@ retry_counts
 def
 increment
 (
+        
 self
+        
 method
 =
 None
+        
 url
 =
 None
+        
 response
 =
 None
+        
 error
 =
 None
-                  
+        
 _pool
 =
 None
+        
 _stacktrace
 =
 None
+    
 )
 :
         
@@ -2400,9 +2514,9 @@ status
         
 cause
 =
-'
+"
 unknown
-'
+"
         
 status
 =
@@ -2543,11 +2657,11 @@ redirect
             
 cause
 =
-'
+"
 too
 many
 redirects
-'
+"
             
 redirect_location
 =
@@ -2624,7 +2738,6 @@ SPECIFIC_ERROR
 .
 format
 (
-                    
 status_code
 =
 response
@@ -2645,6 +2758,7 @@ self
 history
 +
 (
+            
 RequestHistory
 (
 method
@@ -2653,6 +2767,7 @@ error
 status
 redirect_location
 )
+        
 )
         
 new_retry
@@ -2669,12 +2784,15 @@ total
 connect
 =
 connect
+            
 read
 =
 read
+            
 redirect
 =
 redirect
+            
 status
 =
 status_count
@@ -2682,6 +2800,7 @@ status_count
 history
 =
 history
+        
 )
         
 if
@@ -2741,7 +2860,8 @@ self
         
 return
 (
-'
+            
+"
 {
 cls
 .
@@ -2762,9 +2882,9 @@ self
 .
 connect
 }
-'
-                
-'
+"
+            
+"
 read
 =
 {
@@ -2787,12 +2907,12 @@ self
 status
 }
 )
-'
+"
+        
 )
 .
 format
 (
-                    
 cls
 =
 type

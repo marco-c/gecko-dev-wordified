@@ -321,6 +321,12 @@ self
 .
 _default
 )
+        
+self
+.
+_light
+=
+0
     
 def
 fore
@@ -914,7 +920,7 @@ cells_in_screen
 -
 cells_before_cursor
         
-if
+elif
 mode
 =
 =
@@ -955,6 +961,15 @@ COORD
 cells_to_erase
 =
 cells_in_screen
+        
+else
+:
+            
+#
+invalid
+mode
+            
+return
         
 #
 fill
@@ -1128,7 +1143,7 @@ dwCursorPosition
 .
 X
         
-if
+elif
 mode
 =
 =
@@ -1185,6 +1200,15 @@ csbi
 dwSize
 .
 X
+        
+else
+:
+            
+#
+invalid
+mode
+            
+return
         
 #
 fill

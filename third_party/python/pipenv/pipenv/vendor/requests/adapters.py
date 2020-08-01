@@ -75,6 +75,12 @@ urllib3
 .
 util
 import
+parse_url
+from
+urllib3
+.
+util
+import
 Timeout
 as
 TimeoutSauce
@@ -153,6 +159,12 @@ exceptions
 import
 ResponseError
 from
+urllib3
+.
+exceptions
+import
+LocationValueError
+from
 .
 models
 import
@@ -169,12 +181,13 @@ utils
 import
 (
 DEFAULT_CA_BUNDLE_PATH
-get_encoding_from_headers
+extract_zipped_paths
                     
+get_encoding_from_headers
 prepend_scheme_if_needed
+                    
 get_auth_from_url
 urldefragauth
-                    
 select_proxy
 )
 from
@@ -200,6 +213,9 @@ SSLError
 ProxyError
 RetryError
 InvalidSchema
+InvalidProxyURL
+                         
+InvalidURL
 )
 from
 .
@@ -899,25 +915,22 @@ self
 :
         
 return
-dict
-(
-(
+{
 attr
+:
 getattr
 (
 self
 attr
 None
 )
-)
 for
 attr
 in
-                    
 self
 .
 __attrs__
-)
+}
     
 def
 __setstate__
@@ -1598,7 +1611,10 @@ cert_loc
                 
 cert_loc
 =
+extract_zipped_paths
+(
 DEFAULT_CA_BUNDLE_PATH
+)
             
 if
 not
@@ -1635,7 +1651,6 @@ invalid
 path
 :
 {
-0
 }
 "
 .
@@ -1785,7 +1800,6 @@ invalid
 path
 :
 {
-0
 }
 "
 .
@@ -1833,7 +1847,6 @@ invalid
 path
 :
 {
-0
 }
 "
 .
@@ -2233,6 +2246,45 @@ proxy
 '
 http
 '
+)
+            
+proxy_url
+=
+parse_url
+(
+proxy
+)
+            
+if
+not
+proxy_url
+.
+host
+:
+                
+raise
+InvalidProxyURL
+(
+"
+Please
+check
+proxy
+URL
+.
+It
+is
+malformed
+"
+                                      
+"
+and
+could
+be
+missing
+the
+host
+.
+"
 )
             
 proxy_manager
@@ -2799,7 +2851,7 @@ HTTPAdapter
         
 :
 param
-proxies
+proxy
 :
 The
 url
@@ -3068,6 +3120,9 @@ Response
 "
 "
         
+try
+:
+            
 conn
 =
 self
@@ -3078,6 +3133,21 @@ request
 .
 url
 proxies
+)
+        
+except
+LocationValueError
+as
+e
+:
+            
+raise
+InvalidURL
+(
+e
+request
+=
+request
 )
         
 self
@@ -3107,6 +3177,21 @@ self
 add_headers
 (
 request
+stream
+=
+stream
+timeout
+=
+timeout
+verify
+=
+verify
+cert
+=
+cert
+proxies
+=
+proxies
 )
         
 chunked
@@ -3181,7 +3266,6 @@ err
 Invalid
 timeout
 {
-0
 }
 .
 Pass
@@ -3497,14 +3581,10 @@ Python
 2
 .
 7
-+
-versions
 use
 buffering
 of
 HTTP
-                        
-#
 responses
                         
 r
@@ -3527,12 +3607,10 @@ For
 compatibility
 with
 Python
-2
+3
 .
-6
-versions
-and
-back
+3
++
                         
 r
 =

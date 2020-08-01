@@ -356,6 +356,41 @@ openssl
 x509
 import
 _Certificate
+try
+:
+    
+from
+cryptography
+.
+x509
+import
+UnsupportedExtension
+except
+ImportError
+:
+    
+#
+UnsupportedExtension
+is
+gone
+in
+cryptography
+>
+=
+2
+.
+1
+.
+0
+    
+class
+UnsupportedExtension
+(
+Exception
+)
+:
+        
+pass
 from
 socket
 import
@@ -426,12 +461,12 @@ util
 __all__
 =
 [
-'
+"
 inject_into_urllib3
-'
-'
+"
+"
 extract_from_urllib3
-'
+"
 ]
 #
 SNI
@@ -456,9 +491,9 @@ _openssl_versions
 =
 {
     
-ssl
+util
 .
-PROTOCOL_SSLv23
+PROTOCOL_TLS
 :
 OpenSSL
 .
@@ -480,9 +515,9 @@ if
 hasattr
 (
 ssl
-'
-PROTOCOL_TLSv1_1
-'
+"
+PROTOCOL_SSLv3
+"
 )
 and
 hasattr
@@ -490,9 +525,41 @@ hasattr
 OpenSSL
 .
 SSL
-'
+"
+SSLv3_METHOD
+"
+)
+:
+    
+_openssl_versions
+[
+ssl
+.
+PROTOCOL_SSLv3
+]
+=
+OpenSSL
+.
+SSL
+.
+SSLv3_METHOD
+if
+hasattr
+(
+ssl
+"
+PROTOCOL_TLSv1_1
+"
+)
+and
+hasattr
+(
+OpenSSL
+.
+SSL
+"
 TLSv1_1_METHOD
-'
+"
 )
 :
     
@@ -512,9 +579,9 @@ if
 hasattr
 (
 ssl
-'
+"
 PROTOCOL_TLSv1_2
-'
+"
 )
 and
 hasattr
@@ -522,9 +589,9 @@ hasattr
 OpenSSL
 .
 SSL
-'
+"
 TLSv1_2_METHOD
-'
+"
 )
 :
     
@@ -540,30 +607,6 @@ OpenSSL
 SSL
 .
 TLSv1_2_METHOD
-try
-:
-    
-_openssl_versions
-.
-update
-(
-{
-ssl
-.
-PROTOCOL_SSLv3
-:
-OpenSSL
-.
-SSL
-.
-SSLv3_METHOD
-}
-)
-except
-AttributeError
-:
-    
-pass
 _stdlib_to_openssl_verify
 =
 {
@@ -592,12 +635,12 @@ ssl
 .
 CERT_REQUIRED
 :
-        
 OpenSSL
 .
 SSL
 .
 VERIFY_PEER
+    
 +
 OpenSSL
 .
@@ -609,7 +652,6 @@ _openssl_to_stdlib_verify
 =
 dict
 (
-    
 (
 v
 k
@@ -662,7 +704,7 @@ inject_into_urllib3
 )
 :
     
-'
+"
 Monkey
 -
 patch
@@ -675,11 +717,17 @@ SSL
 -
 support
 .
-'
+"
     
 _validate_dependencies_met
 (
 )
+    
+util
+.
+SSLContext
+=
+PyOpenSSLContext
     
 util
 .
@@ -722,7 +770,7 @@ extract_from_urllib3
 )
 :
     
-'
+"
 Undo
 monkey
 -
@@ -733,7 +781,13 @@ func
 :
 inject_into_urllib3
 .
-'
+"
+    
+util
+.
+SSLContext
+=
+orig_util_SSLContext
     
 util
 .
@@ -849,6 +903,7 @@ None
 raise
 ImportError
 (
+            
 "
 '
 cryptography
@@ -859,7 +914,7 @@ required
 functionality
 .
 "
-                          
+            
 "
 Try
 upgrading
@@ -873,6 +928,7 @@ or
 newer
 .
 "
+        
 )
     
 #
@@ -930,6 +986,7 @@ None
 raise
 ImportError
 (
+            
 "
 '
 pyOpenSSL
@@ -940,7 +997,7 @@ required
 functionality
 .
 "
-                          
+            
 "
 Try
 upgrading
@@ -952,6 +1009,7 @@ or
 newer
 .
 "
+        
 )
 def
 _dnsname_to_stdlib
@@ -1049,6 +1107,29 @@ UTF
 )
 .
     
+If
+the
+name
+cannot
+be
+idna
+-
+encoded
+then
+we
+return
+None
+signalling
+that
+    
+the
+name
+given
+should
+be
+skipped
+.
+    
 "
 "
 "
@@ -1106,25 +1187,36 @@ problem
 "
 "
         
+from
+pipenv
+.
+patched
+.
+notpip
+.
+_vendor
 import
 idna
         
+try
+:
+            
 for
 prefix
 in
 [
 u
-'
+"
 *
 .
-'
+"
 u
-'
+"
 .
-'
+"
 ]
 :
-            
+                
 if
 name
 .
@@ -1133,7 +1225,7 @@ startswith
 prefix
 )
 :
-                
+                    
 name
 =
 name
@@ -1144,15 +1236,15 @@ prefix
 )
 :
 ]
-                
+                    
 return
 prefix
 .
 encode
 (
-'
+"
 ascii
-'
+"
 )
 +
 idna
@@ -1161,7 +1253,7 @@ encode
 (
 name
 )
-        
+            
 return
 idna
 .
@@ -1169,6 +1261,41 @@ encode
 (
 name
 )
+        
+except
+idna
+.
+core
+.
+IDNAError
+:
+            
+return
+None
+    
+#
+Don
+'
+t
+send
+IPv6
+addresses
+through
+the
+IDNA
+encoder
+.
+    
+if
+"
+:
+"
+in
+name
+:
+        
+return
+name
     
 name
 =
@@ -1178,6 +1305,15 @@ name
 )
     
 if
+name
+is
+None
+:
+        
+return
+None
+    
+elif
 sys
 .
 version_info
@@ -1195,11 +1331,11 @@ name
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 return
@@ -1341,11 +1477,9 @@ extensions
 .
 get_extension_for_class
 (
-            
 x509
 .
 SubjectAlternativeName
-        
 )
 .
 value
@@ -1372,17 +1506,19 @@ return
     
 except
 (
+        
 x509
 .
 DuplicateExtension
-x509
-.
+        
 UnsupportedExtension
-            
+        
 x509
 .
 UnsupportedGeneralNameType
+        
 UnicodeError
+    
 )
 as
 e
@@ -1544,23 +1680,38 @@ the
 same
 .
     
+#
+We
+also
+want
+to
+skip
+over
+names
+which
+cannot
+be
+idna
+encoded
+.
+    
 names
 =
 [
         
 (
-'
+"
 DNS
-'
-_dnsname_to_stdlib
-(
+"
 name
-)
 )
         
 for
 name
 in
+map
+(
+_dnsname_to_stdlib
 ext
 .
 get_values_for_type
@@ -1569,6 +1720,13 @@ x509
 .
 DNSName
 )
+)
+        
+if
+name
+is
+not
+None
     
 ]
     
@@ -1578,16 +1736,15 @@ extend
 (
         
 (
-'
+"
 IP
 Address
-'
+"
 str
 (
 name
 )
 )
-        
 for
 name
 in
@@ -1611,9 +1768,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
 API
 -
 compatibility
@@ -1649,9 +1806,9 @@ of
 pypy
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1810,17 +1967,17 @@ args
 (
 -
 1
-'
+"
 Unexpected
 EOF
-'
+"
 )
 :
                 
 return
 b
-'
-'
+"
+"
             
 else
 :
@@ -1840,8 +1997,6 @@ OpenSSL
 SSL
 .
 ZeroReturnError
-as
-e
 :
             
 if
@@ -1863,8 +2018,8 @@ RECEIVED_SHUTDOWN
                 
 return
 b
-'
-'
+"
+"
             
 else
 :
@@ -1879,8 +2034,8 @@ SSL
 WantReadError
 :
             
-rd
-=
+if
+not
 util
 .
 wait_for_read
@@ -1896,22 +2051,18 @@ gettimeout
 (
 )
 )
-            
-if
-not
-rd
 :
                 
 raise
 timeout
 (
-'
+"
 The
 read
 operation
 timed
 out
-'
+"
 )
             
 else
@@ -1927,6 +2078,42 @@ args
 *
 *
 kwargs
+)
+        
+#
+TLS
+1
+.
+3
+post
+-
+handshake
+authentication
+        
+except
+OpenSSL
+.
+SSL
+.
+Error
+as
+e
+:
+            
+raise
+ssl
+.
+SSLError
+(
+"
+read
+error
+:
+%
+r
+"
+%
+e
 )
         
 else
@@ -1987,10 +2174,10 @@ args
 (
 -
 1
-'
+"
 Unexpected
 EOF
-'
+"
 )
 :
                 
@@ -2015,8 +2202,6 @@ OpenSSL
 SSL
 .
 ZeroReturnError
-as
-e
 :
             
 if
@@ -2052,8 +2237,8 @@ SSL
 WantReadError
 :
             
-rd
-=
+if
+not
 util
 .
 wait_for_read
@@ -2069,22 +2254,18 @@ gettimeout
 (
 )
 )
-            
-if
-not
-rd
 :
                 
 raise
 timeout
 (
-'
+"
 The
 read
 operation
 timed
 out
-'
+"
 )
             
 else
@@ -2100,6 +2281,42 @@ args
 *
 *
 kwargs
+)
+        
+#
+TLS
+1
+.
+3
+post
+-
+handshake
+authentication
+        
+except
+OpenSSL
+.
+SSL
+.
+Error
+as
+e
+:
+            
+raise
+ssl
+.
+SSLError
+(
+"
+read
+error
+:
+%
+r
+"
+%
+e
 )
     
 def
@@ -2153,8 +2370,8 @@ SSL
 WantWriteError
 :
                 
-wr
-=
+if
+not
 util
 .
 wait_for_write
@@ -2170,10 +2387,6 @@ gettimeout
 (
 )
 )
-                
-if
-not
-wr
 :
                     
 raise
@@ -2229,6 +2442,7 @@ self
 .
 _send_until_done
 (
+                
 data
 [
 total_sent
@@ -2237,6 +2451,7 @@ total_sent
 +
 SSL_WRITE_BLOCKSIZE
 ]
+            
 )
             
 total_sent
@@ -2362,30 +2577,27 @@ crypto
 .
 dump_certificate
 (
-                
 OpenSSL
 .
 crypto
 .
 FILETYPE_ASN1
-                
 x509
 )
         
 return
 {
             
-'
+"
 subject
-'
+"
 :
 (
-                
 (
 (
-'
+"
 commonName
-'
+"
 x509
 .
 get_subject
@@ -2395,12 +2607,11 @@ get_subject
 CN
 )
 )
-            
 )
             
-'
+"
 subjectAltName
-'
+"
 :
 get_subj_alt_name
 (
@@ -2408,6 +2619,22 @@ x509
 )
         
 }
+    
+def
+version
+(
+self
+)
+:
+        
+return
+self
+.
+connection
+.
+get_protocol_version_name
+(
+)
     
 def
 _reuse
@@ -2682,14 +2909,11 @@ _ctx
 .
 set_verify
 (
-            
 _stdlib_to_openssl_verify
 [
 value
 ]
-            
 _verify_callback
-        
 )
     
 def
@@ -2731,11 +2955,11 @@ ciphers
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 self
@@ -2776,11 +3000,11 @@ cafile
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 if
@@ -2796,11 +3020,11 @@ capath
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 self
@@ -2850,7 +3074,7 @@ self
 .
 _ctx
 .
-use_certificate_file
+use_certificate_chain_file
 (
 certfile
 )
@@ -2862,6 +3086,30 @@ not
 None
 :
             
+if
+not
+isinstance
+(
+password
+six
+.
+binary_type
+)
+:
+                
+password
+=
+password
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
+            
 self
 .
 _ctx
@@ -2869,9 +3117,8 @@ _ctx
 set_passwd_cb
 (
 lambda
-max_length
-prompt_twice
-userdata
+*
+_
 :
 password
 )
@@ -2890,22 +3137,27 @@ certfile
 def
 wrap_socket
 (
+        
 self
+        
 sock
+        
 server_side
 =
 False
-                    
+        
 do_handshake_on_connect
 =
 True
+        
 suppress_ragged_eofs
 =
 True
-                    
+        
 server_hostname
 =
 None
+    
 )
 :
         
@@ -2946,11 +3198,11 @@ server_hostname
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
         
 if
@@ -2994,8 +3246,8 @@ SSL
 WantReadError
 :
                 
-rd
-=
+if
+not
 util
 .
 wait_for_read
@@ -3007,20 +3259,16 @@ gettimeout
 (
 )
 )
-                
-if
-not
-rd
 :
                     
 raise
 timeout
 (
-'
+"
 select
 timed
 out
-'
+"
 )
                 
 continue
@@ -3040,13 +3288,13 @@ ssl
 .
 SSLError
 (
-'
+"
 bad
 handshake
 :
 %
 r
-'
+"
 %
 e
 )

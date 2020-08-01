@@ -41,9 +41,6 @@ try
 :
     
 from
-.
-packages
-.
 urllib3
 .
 contrib
@@ -547,32 +544,11 @@ __version__
     
 }
     
-#
-OPENSSL_VERSION_NUMBER
-doesn
-'
-t
-exist
-in
-the
-Python
-2
-.
-6
-ssl
-module
-.
-    
 system_ssl
 =
-getattr
-(
 ssl
-'
+.
 OPENSSL_VERSION_NUMBER
-'
-None
-)
     
 system_ssl_info
 =

@@ -27,6 +27,11 @@ STDOUT_FILENO
 STDERR_FILENO
 CHILD
 )
+from
+.
+util
+import
+PtyProcessError
 def
 fork_pty
 (
@@ -464,7 +469,7 @@ fd
 )
         
 raise
-ExceptionPexpect
+PtyProcessError
 (
 "
 OSError

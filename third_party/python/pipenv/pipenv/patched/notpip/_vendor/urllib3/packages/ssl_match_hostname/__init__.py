@@ -116,10 +116,10 @@ provide
 __all__
 =
 (
-'
+"
 CertificateError
-'
-'
+"
+"
 match_hostname
-'
+"
 )

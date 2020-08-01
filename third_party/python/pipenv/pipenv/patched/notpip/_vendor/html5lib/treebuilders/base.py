@@ -5,7 +5,11 @@ absolute_import
 division
 unicode_literals
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -221,6 +225,19 @@ object
 )
 :
     
+"
+"
+"
+Represents
+an
+item
+in
+the
+tree
+"
+"
+"
+    
 def
 __init__
 (
@@ -232,17 +249,14 @@ name
 "
 "
 "
+Creates
+a
 Node
-representing
-an
-item
-in
-the
-tree
-.
         
+:
+arg
 name
--
+:
 The
 tag
 name
@@ -251,8 +265,26 @@ with
 the
 node
         
-parent
--
+"
+"
+"
+        
+#
+The
+tag
+name
+assocaited
+with
+the
+node
+        
+self
+.
+name
+=
+name
+        
+#
 The
 parent
 of
@@ -268,8 +300,13 @@ document
 node
 )
         
-value
--
+self
+.
+parent
+=
+None
+        
+#
 The
 value
 of
@@ -282,15 +319,22 @@ to
 text
 nodes
 and
-        
 comments
+)
         
-attributes
--
-a
+self
+.
+value
+=
+None
+        
+#
+A
 dict
 holding
 name
+-
+>
 value
 pairs
 for
@@ -299,9 +343,15 @@ of
 the
 node
         
-childNodes
--
-a
+self
+.
+attributes
+=
+{
+}
+        
+#
+A
 list
 of
 child
@@ -313,9 +363,10 @@ node
 .
 This
 must
-        
 include
 all
+        
+#
 elements
 but
 not
@@ -323,9 +374,16 @@ necessarily
 other
 node
 types
+.
         
-_flags
--
+self
+.
+childNodes
+=
+[
+]
+        
+#
 A
 list
 of
@@ -338,42 +396,7 @@ set
 on
 the
 node
-        
-"
-"
-"
-        
-self
 .
-name
-=
-name
-        
-self
-.
-parent
-=
-None
-        
-self
-.
-value
-=
-None
-        
-self
-.
-attributes
-=
-{
-}
-        
-self
-.
-childNodes
-=
-[
-]
         
 self
 .
@@ -509,6 +532,15 @@ the
 current
 node
         
+:
+arg
+node
+:
+the
+node
+to
+insert
+        
 "
 "
 "
@@ -557,6 +589,43 @@ node
 s
 text
 .
+        
+:
+arg
+data
+:
+the
+data
+to
+insert
+        
+:
+arg
+insertBefore
+:
+True
+if
+you
+want
+to
+insert
+the
+text
+before
+the
+node
+            
+and
+False
+if
+you
+want
+to
+insert
+it
+after
+the
+node
         
 "
 "
@@ -609,6 +678,29 @@ of
 the
 current
 node
+        
+:
+arg
+node
+:
+the
+node
+to
+insert
+        
+:
+arg
+refNode
+:
+the
+child
+node
+to
+insert
+the
+node
+before
+        
 "
 "
 "
@@ -636,6 +728,16 @@ of
 the
 current
 node
+        
+:
+arg
+node
+:
+the
+child
+node
+to
+remove
         
 "
 "
@@ -689,6 +791,22 @@ in
 the
 correct
 way
+        
+:
+arg
+newParent
+:
+the
+node
+to
+move
+all
+this
+node
+'
+s
+children
+to
         
 "
 "
@@ -943,6 +1061,7 @@ Base
 treebuilder
 implementation
     
+*
 documentClass
 -
 the
@@ -957,6 +1076,7 @@ of
 a
 document
     
+*
 elementClass
 -
 the
@@ -967,6 +1087,7 @@ for
 HTML
 Elements
     
+*
 commentClass
 -
 the
@@ -976,6 +1097,7 @@ use
 for
 comments
     
+*
 doctypeClass
 -
 the
@@ -1061,6 +1183,29 @@ self
 namespaceHTMLElements
 )
 :
+        
+"
+"
+"
+Create
+a
+TreeBuilder
+        
+:
+arg
+namespaceHTMLElements
+:
+whether
+or
+not
+to
+namespace
+HTML
+elements
+        
+"
+"
+"
         
 if
 namespaceHTMLElements
@@ -2699,10 +2844,14 @@ self
 :
         
 "
+"
+"
 Return
 the
 final
 tree
+"
+"
 "
         
 return
@@ -2718,10 +2867,14 @@ self
 :
         
 "
+"
+"
 Return
 the
 final
 fragment
+"
+"
 "
         
 #
@@ -2777,8 +2930,10 @@ by
 unit
 tests
         
+:
+arg
 node
--
+:
 the
 node
 from
@@ -2786,6 +2941,7 @@ which
 to
 start
 serializing
+        
 "
 "
 "

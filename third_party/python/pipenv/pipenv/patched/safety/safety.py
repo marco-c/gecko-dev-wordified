@@ -446,6 +446,7 @@ mirror
 db_name
 key
 cached
+proxy
 )
 :
     
@@ -512,6 +513,9 @@ REQUEST_TIMEOUT
 headers
 =
 headers
+proxies
+=
+proxy
 )
     
 if
@@ -629,6 +633,10 @@ False
 cached
 =
 False
+proxy
+=
+{
+}
 )
 :
     
@@ -727,6 +735,9 @@ key
 cached
 =
 cached
+proxy
+=
+proxy
 )
         
 else
@@ -799,6 +810,7 @@ key
 db_mirror
 cached
 ignore_ids
+proxy
 )
 :
     
@@ -833,6 +845,9 @@ db_mirror
 cached
 =
 cached
+proxy
+=
+proxy
 )
     
 db_full
@@ -965,6 +980,12 @@ key
 db
 =
 db_mirror
+cached
+=
+cached
+proxy
+=
+proxy
 )
                     
 for
@@ -1055,6 +1076,91 @@ vuln_id
                                 
 )
                             
+)
+    
+return
+vulnerable
+def
+review
+(
+vulnerabilities
+)
+:
+    
+vulnerable
+=
+[
+]
+    
+for
+vuln
+in
+vulnerabilities
+:
+        
+current_vuln
+=
+{
+            
+"
+name
+"
+:
+vuln
+[
+0
+]
+            
+"
+spec
+"
+:
+vuln
+[
+1
+]
+            
+"
+version
+"
+:
+vuln
+[
+2
+]
+            
+"
+advisory
+"
+:
+vuln
+[
+3
+]
+            
+"
+vuln_id
+"
+:
+vuln
+[
+4
+]
+        
+}
+        
+vulnerable
+.
+append
+(
+            
+Vulnerability
+(
+*
+*
+current_vuln
+)
+        
 )
     
 return

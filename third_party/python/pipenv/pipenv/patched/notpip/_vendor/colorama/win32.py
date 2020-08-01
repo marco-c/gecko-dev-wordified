@@ -472,7 +472,7 @@ windll
 .
 kernel32
 .
-SetConsoleTitleA
+SetConsoleTitleW
     
 _SetConsoleTitleW
 .
@@ -482,7 +482,7 @@ argtypes
         
 wintypes
 .
-LPCSTR
+LPCWSTR
     
 ]
     
@@ -494,38 +494,12 @@ wintypes
 .
 BOOL
     
-handles
-=
-{
-        
-STDOUT
-:
-_GetStdHandle
-(
-STDOUT
-)
-        
-STDERR
-:
-_GetStdHandle
-(
-STDERR
-)
-    
-}
-    
 def
-winapi_test
+_winapi_test
 (
+handle
 )
 :
-        
-handle
-=
-handles
-[
-STDOUT
-]
         
 csbi
 =
@@ -552,6 +526,35 @@ success
 )
     
 def
+winapi_test
+(
+)
+:
+        
+return
+any
+(
+_winapi_test
+(
+h
+)
+for
+h
+in
+                   
+(
+_GetStdHandle
+(
+STDOUT
+)
+_GetStdHandle
+(
+STDERR
+)
+)
+)
+    
+def
 GetConsoleScreenBufferInfo
 (
 stream_id
@@ -562,10 +565,10 @@ STDOUT
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 csbi
 =
@@ -598,10 +601,10 @@ attrs
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 return
 _SetConsoleTextAttribute
@@ -762,10 +765,10 @@ processing
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 return
 _SetConsoleCursorPosition
@@ -786,10 +789,10 @@ start
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 char
 =
@@ -887,10 +890,10 @@ cCharsWritten
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 attribute
 =

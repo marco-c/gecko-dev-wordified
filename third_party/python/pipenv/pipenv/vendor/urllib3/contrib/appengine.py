@@ -352,9 +352,9 @@ __future__
 import
 absolute_import
 import
-logging
+io
 import
-os
+logging
 import
 warnings
 from
@@ -393,14 +393,6 @@ SSLError
 from
 .
 .
-packages
-.
-six
-import
-BytesIO
-from
-.
-.
 request
 import
 RequestMethods
@@ -426,6 +418,10 @@ util
 retry
 import
 Retry
+from
+.
+import
+_appengine_environ
 try
 :
     
@@ -635,20 +631,25 @@ errors
 def
 __init__
 (
+        
 self
+        
 headers
 =
 None
+        
 retries
 =
 None
+        
 validate_certificate
 =
 True
-                 
+        
 urlfetch_retries
 =
 True
+    
 )
 :
         
@@ -671,47 +672,7 @@ this
 environment
 .
 "
-)
-        
-if
-is_prod_appengine_mvms
-(
-)
-:
             
-raise
-AppEnginePlatformError
-(
-                
-"
-Use
-normal
-urllib3
-.
-PoolManager
-instead
-of
-AppEngineManager
-"
-                
-"
-on
-Managed
-VMs
-as
-using
-URLFetch
-is
-not
-necessary
-in
-"
-                
-"
-this
-environment
-.
-"
 )
         
 warnings
@@ -772,6 +733,7 @@ html
 "
             
 AppEnginePlatformWarning
+        
 )
         
 RequestMethods
@@ -841,31 +803,39 @@ False
 def
 urlopen
 (
+        
 self
+        
 method
+        
 url
+        
 body
 =
 None
+        
 headers
 =
 None
-                
+        
 retries
 =
 None
+        
 redirect
 =
 True
+        
 timeout
 =
 Timeout
 .
 DEFAULT_TIMEOUT
-                
+        
 *
 *
 response_kw
+    
 )
 :
         
@@ -884,11 +854,8 @@ try
             
 follow_redirects
 =
-(
-                    
 redirect
 and
-                    
 retries
 .
 redirect
@@ -896,11 +863,9 @@ redirect
 =
 0
 and
-                    
 retries
 .
 total
-)
             
 response
 =
@@ -979,10 +944,10 @@ e
 :
             
 if
-'
+"
 too
 large
-'
+"
 in
 str
 (
@@ -1013,7 +978,9 @@ in
 size
 .
 "
+                    
 e
+                
 )
             
 raise
@@ -1031,11 +998,11 @@ e
 :
             
 if
-'
+"
 Too
 many
 redirects
-'
+"
 in
 str
 (
@@ -1090,7 +1057,9 @@ in
 size
 .
 "
+                
 e
+            
 )
         
 except
@@ -1132,6 +1101,7 @@ s
 %
 method
 e
+            
 )
         
 http_response
@@ -1148,6 +1118,7 @@ retries
 *
 *
 response_kw
+        
 )
         
 #
@@ -1176,7 +1147,6 @@ redirect
 response
             
 if
-(
 self
 .
 urlfetch_retries
@@ -1184,7 +1154,6 @@ and
 retries
 .
 raise_on_redirect
-)
 :
                 
 raise
@@ -1213,9 +1182,9 @@ status
                     
 method
 =
-'
+"
 GET
-'
+"
                 
 try
 :
@@ -1226,6 +1195,7 @@ retries
 .
 increment
 (
+                        
 method
 url
 response
@@ -1234,6 +1204,7 @@ http_response
 _pool
 =
 self
+                    
 )
                 
 except
@@ -1300,13 +1271,17 @@ urlopen
 (
                     
 method
+                    
 redirect_url
+                    
 body
+                    
 headers
                     
 retries
 =
 retries
+                    
 redirect
 =
 redirect
@@ -1314,9 +1289,11 @@ redirect
 timeout
 =
 timeout
+                    
 *
 *
 response_kw
+                
 )
         
 #
@@ -1338,11 +1315,11 @@ http_response
 .
 getheader
 (
-'
+"
 Retry
 -
 After
-'
+"
 )
 )
         
@@ -1365,7 +1342,6 @@ retries
 .
 increment
 (
-                
 method
 url
 response
@@ -1403,11 +1379,13 @@ urlopen
 (
                 
 method
+                
 url
                 
 body
 =
 body
+                
 headers
 =
 headers
@@ -1415,6 +1393,7 @@ headers
 retries
 =
 retries
+                
 redirect
 =
 redirect
@@ -1422,9 +1401,11 @@ redirect
 timeout
 =
 timeout
+                
 *
 *
 response_kw
+            
 )
         
 return
@@ -1473,20 +1454,20 @@ headers
 .
 get
 (
-'
+"
 content
 -
 encoding
-'
+"
 )
             
 if
 content_encoding
 =
 =
-'
+"
 deflate
-'
+"
 :
                 
 del
@@ -1494,11 +1475,11 @@ urlfetch_resp
 .
 headers
 [
-'
+"
 content
 -
 encoding
-'
+"
 ]
         
 transfer_encoding
@@ -1509,11 +1490,11 @@ headers
 .
 get
 (
-'
+"
 transfer
 -
 encoding
-'
+"
 )
         
 #
@@ -1548,9 +1529,9 @@ if
 transfer_encoding
 =
 =
-'
+"
 chunked
-'
+"
 :
             
 encodings
@@ -1567,31 +1548,32 @@ encodings
 .
 remove
 (
-'
+"
 chunked
-'
+"
 )
             
 urlfetch_resp
 .
 headers
 [
-'
+"
 transfer
 -
 encoding
-'
+"
 ]
 =
-'
-'
+"
+"
 .
 join
 (
 encodings
 )
         
-return
+original_response
+=
 HTTPResponse
 (
             
@@ -1619,6 +1601,47 @@ object
             
 body
 =
+io
+.
+BytesIO
+(
+urlfetch_resp
+.
+content
+)
+            
+msg
+=
+urlfetch_resp
+.
+header_msg
+            
+headers
+=
+urlfetch_resp
+.
+headers
+            
+status
+=
+urlfetch_resp
+.
+status_code
+            
+*
+*
+response_kw
+        
+)
+        
+return
+HTTPResponse
+(
+            
+body
+=
+io
+.
 BytesIO
 (
 urlfetch_resp
@@ -1637,6 +1660,10 @@ status
 urlfetch_resp
 .
 status_code
+            
+original_response
+=
+original_response
             
 *
 *
@@ -1722,6 +1749,7 @@ timeout
 "
                     
 AppEnginePlatformWarning
+                
 )
             
 return
@@ -1756,7 +1784,6 @@ Retry
 .
 from_int
 (
-                
 retries
 redirect
 =
@@ -1810,137 +1837,44 @@ parameters
 "
                 
 AppEnginePlatformWarning
+            
 )
         
 return
 retries
-def
+#
+Alias
+methods
+from
+_appengine_environ
+to
+maintain
+public
+API
+interface
+.
 is_appengine
-(
-)
-:
-    
-return
-(
-is_local_appengine
-(
-)
-or
-            
-is_prod_appengine
-(
-)
-or
-            
-is_prod_appengine_mvms
-(
-)
-)
-def
+=
+_appengine_environ
+.
+is_appengine
 is_appengine_sandbox
-(
-)
-:
-    
-return
-is_appengine
-(
-)
-and
-not
-is_prod_appengine_mvms
-(
-)
-def
+=
+_appengine_environ
+.
+is_appengine_sandbox
 is_local_appengine
-(
-)
-:
-    
-return
-(
-'
-APPENGINE_RUNTIME
-'
-in
-os
+=
+_appengine_environ
 .
-environ
-and
-            
-'
-Development
-/
-'
-in
-os
-.
-environ
-[
-'
-SERVER_SOFTWARE
-'
-]
-)
-def
+is_local_appengine
 is_prod_appengine
-(
-)
-:
-    
-return
-(
-'
-APPENGINE_RUNTIME
-'
-in
-os
-.
-environ
-and
-            
-'
-Google
-App
-Engine
-/
-'
-in
-os
-.
-environ
-[
-'
-SERVER_SOFTWARE
-'
-]
-and
-            
-not
-is_prod_appengine_mvms
-(
-)
-)
-def
-is_prod_appengine_mvms
-(
-)
-:
-    
-return
-os
-.
-environ
-.
-get
-(
-'
-GAE_VM
-'
-False
-)
 =
+_appengine_environ
+.
+is_prod_appengine
+is_prod_appengine_mvms
 =
-'
-true
-'
+_appengine_environ
+.
+is_prod_appengine_mvms

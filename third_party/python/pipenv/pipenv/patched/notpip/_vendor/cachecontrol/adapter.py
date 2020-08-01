@@ -2,8 +2,14 @@ import
 types
 import
 functools
+import
+zlib
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -36,47 +42,52 @@ HTTPAdapter
     
 invalidating_methods
 =
-set
-(
-[
-'
+{
+"
 PUT
-'
-'
+"
+"
 DELETE
-'
-]
-)
+"
+}
     
 def
 __init__
 (
+        
 self
+        
 cache
 =
 None
-                 
+        
 cache_etags
 =
 True
-                 
+        
 controller_class
 =
 None
-                 
+        
 serializer
 =
 None
-                 
+        
 heuristic
 =
 None
-                 
+        
+cacheable_methods
+=
+None
+        
 *
 args
+        
 *
 *
 kw
+    
 )
 :
         
@@ -99,17 +110,33 @@ self
 .
 cache
 =
-cache
-or
 DictCache
 (
 )
+if
+cache
+is
+None
+else
+cache
         
 self
 .
 heuristic
 =
 heuristic
+        
+self
+.
+cacheable_methods
+=
+cacheable_methods
+or
+(
+"
+GET
+"
+)
         
 controller_factory
 =
@@ -127,11 +154,9 @@ controller_factory
 self
 .
 cache
-            
 cache_etags
 =
 cache_etags
-            
 serializer
 =
 serializer
@@ -143,6 +168,9 @@ send
 (
 self
 request
+cacheable_methods
+=
+None
 *
 *
 kw
@@ -186,17 +214,25 @@ can
 "
 "
         
+cacheable
+=
+cacheable_methods
+or
+self
+.
+cacheable_methods
+        
 if
 request
 .
 method
-=
-=
-'
-GET
-'
+in
+cacheable
 :
             
+try
+:
+                
 cached_response
 =
 self
@@ -207,6 +243,16 @@ cached_request
 (
 request
 )
+            
+except
+zlib
+.
+error
+:
+                
+cached_response
+=
+None
             
 if
 cached_response
@@ -219,7 +265,6 @@ build_response
 (
 request
 cached_response
-                                           
 from_cache
 =
 True
@@ -241,7 +286,6 @@ headers
 .
 update
 (
-                
 self
 .
 controller
@@ -250,7 +294,6 @@ conditional_headers
 (
 request
 )
-            
 )
         
 resp
@@ -275,12 +318,17 @@ resp
 def
 build_response
 (
+        
 self
 request
 response
 from_cache
 =
 False
+cacheable_methods
+=
+None
+    
 )
 :
         
@@ -319,6 +367,14 @@ response
 "
 "
         
+cacheable
+=
+cacheable_methods
+or
+self
+.
+cacheable_methods
+        
 if
 not
 from_cache
@@ -326,11 +382,8 @@ and
 request
 .
 method
-=
-=
-'
-GET
-'
+in
+cacheable
 :
             
 #
@@ -595,9 +648,7 @@ self
 controller
 .
 cache_response
-                        
 request
-                        
 response
                     
 )
@@ -652,8 +703,10 @@ types
 .
 MethodType
 (
+                        
 _update_chunk_length
 response
+                    
 )
         
 resp
@@ -666,10 +719,8 @@ self
 .
 build_response
 (
-            
 request
 response
-        
 )
         
 #

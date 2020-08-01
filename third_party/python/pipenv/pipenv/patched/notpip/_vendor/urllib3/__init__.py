@@ -26,14 +26,9 @@ from
 .
 connectionpool
 import
-(
-    
 HTTPConnectionPool
-    
 HTTPSConnectionPool
-    
 connection_from_url
-)
 from
 .
 import
@@ -99,44 +94,13 @@ warnings
 .
 import
 logging
-try
-:
-#
-Python
-2
-.
-7
-+
-    
 from
 logging
 import
 NullHandler
-except
-ImportError
-:
-    
-class
-NullHandler
-(
-logging
-.
-Handler
-)
-:
-        
-def
-emit
-(
-self
-record
-)
-:
-            
-pass
 __author__
 =
-'
+"
 Andrey
 Petrov
 (
@@ -147,78 +111,80 @@ shazow
 .
 net
 )
-'
+"
 __license__
 =
-'
+"
 MIT
-'
+"
 __version__
 =
-'
+"
 1
 .
-22
-'
+25
+.
+7
+"
 __all__
 =
 (
     
-'
+"
 HTTPConnectionPool
-'
+"
     
-'
+"
 HTTPSConnectionPool
-'
+"
     
-'
+"
 PoolManager
-'
+"
     
-'
+"
 ProxyManager
-'
+"
     
-'
+"
 HTTPResponse
-'
+"
     
-'
+"
 Retry
-'
+"
     
-'
+"
 Timeout
-'
+"
     
-'
+"
 add_stderr_logger
-'
+"
     
-'
+"
 connection_from_url
-'
+"
     
-'
+"
 disable_warnings
-'
+"
     
-'
+"
 encode_multipart_formdata
-'
+"
     
-'
+"
 get_host
-'
+"
     
-'
+"
 make_headers
-'
+"
     
-'
+"
 proxy_from_url
-'
+"
 )
 logging
 .
@@ -329,7 +295,7 @@ logging
 .
 Formatter
 (
-'
+"
 %
 (
 asctime
@@ -345,7 +311,7 @@ s
 message
 )
 s
-'
+"
 )
 )
     
@@ -367,7 +333,7 @@ logger
 .
 debug
 (
-'
+"
 Added
 a
 stderr
@@ -378,7 +344,7 @@ logger
 :
 %
 s
-'
+"
 __name__
 )
     
@@ -448,9 +414,9 @@ warnings
 .
 simplefilter
 (
-'
+"
 always
-'
+"
 exceptions
 .
 SecurityWarning
@@ -472,9 +438,9 @@ warnings
 .
 simplefilter
 (
-'
+"
 default
-'
+"
 exceptions
 .
 SubjectAltNameWarning
@@ -502,13 +468,12 @@ warnings
 .
 simplefilter
 (
-'
+"
 default
-'
+"
 exceptions
 .
 InsecurePlatformWarning
-                      
 append
 =
 True
@@ -525,9 +490,9 @@ warnings
 .
 simplefilter
 (
-'
+"
 default
-'
+"
 exceptions
 .
 SNIMissingWarning
@@ -567,8 +532,8 @@ warnings
 .
 simplefilter
 (
-'
+"
 ignore
-'
+"
 category
 )

@@ -12,6 +12,10 @@ import
 Magics
 line_magic
 magics_class
+#
+type
+:
+ignore
 from
 IPython
 .
@@ -22,9 +26,17 @@ import
 (
 argument
 magic_arguments
+#
+type
+:
+ignore
                                           
 parse_argstring
 )
+#
+type
+:
+ignore
 from
 .
 main

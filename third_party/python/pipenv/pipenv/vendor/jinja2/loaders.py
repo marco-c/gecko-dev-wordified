@@ -13,53 +13,16 @@ utf
 "
 "
 "
-    
-jinja2
-.
-loaders
-    
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-    
-Jinja
-loader
-classes
-.
-    
-:
-copyright
-:
-(
-c
-)
-2017
-by
-the
-Jinja
-Team
-.
-    
-:
-license
-:
-BSD
-see
-LICENSE
+API
+and
+implementations
 for
-more
-details
+loading
+templates
+from
+different
+data
+sources
 .
 "
 "
@@ -71,37 +34,52 @@ sys
 import
 weakref
 from
-types
+hashlib
 import
-ModuleType
+sha1
 from
 os
 import
 path
 from
-hashlib
+types
 import
-sha1
+ModuleType
 from
-jinja2
+.
+_compat
+import
+abc
+from
+.
+_compat
+import
+fspath
+from
+.
+_compat
+import
+iteritems
+from
+.
+_compat
+import
+string_types
+from
 .
 exceptions
 import
 TemplateNotFound
 from
-jinja2
+.
+utils
+import
+internalcode
+from
 .
 utils
 import
 open_if_exists
-internalcode
-from
-jinja2
-.
-_compat
-import
-string_types
-iteritems
 def
 split_template_path
 (
@@ -158,20 +136,21 @@ template
 .
 split
 (
-'
+"
 /
-'
+"
 )
 :
         
 if
+(
+            
 path
 .
 sep
 in
 piece
-\
-           
+            
 or
 (
 path
@@ -184,15 +163,16 @@ altsep
 in
 piece
 )
+            
 or
-\
-           
 piece
 =
 =
 path
 .
 pardir
+        
+)
 :
             
 raise
@@ -207,9 +187,9 @@ and
 piece
 !
 =
-'
+"
 .
-'
+"
 :
             
 pieces
@@ -666,7 +646,8 @@ has_source_access
 raise
 RuntimeError
 (
-'
+                
+"
 %
 s
 cannot
@@ -675,14 +656,14 @@ access
 to
 the
 source
-'
+"
 %
-                               
 self
 .
 __class__
 .
 __name__
+            
 )
         
 raise
@@ -736,7 +717,7 @@ behavior
 raise
 TypeError
 (
-'
+"
 this
 loader
 cannot
@@ -744,7 +725,7 @@ iterate
 over
 all
 templates
-'
+"
 )
     
 internalcode
@@ -1051,11 +1032,12 @@ template_class
 .
 from_code
 (
+            
 environment
 code
-                                                    
 globals
 uptodate
+        
 )
 class
 FileSystemLoader
@@ -1241,12 +1223,9 @@ versionchanged
 2
 .
 8
-+
        
 The
-*
 followlinks
-*
 parameter
 was
 added
@@ -1263,11 +1242,11 @@ self
 searchpath
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 followlinks
 =
 False
@@ -1275,10 +1254,21 @@ False
 :
         
 if
+not
 isinstance
 (
 searchpath
+abc
+.
+Iterable
+)
+or
+isinstance
+(
+            
+searchpath
 string_types
+        
 )
 :
             
@@ -1288,14 +1278,57 @@ searchpath
 searchpath
 ]
         
-self
+#
+In
+Python
+3
 .
-searchpath
-=
+5
+os
+.
+path
+.
+join
+doesn
+'
+t
+support
+Path
+.
+This
+can
+be
+        
+#
+simplified
+to
 list
 (
 searchpath
 )
+when
+Python
+3
+.
+5
+is
+dropped
+.
+        
+self
+.
+searchpath
+=
+[
+fspath
+(
+p
+)
+for
+p
+in
+searchpath
+]
         
 self
 .
@@ -1470,7 +1503,7 @@ followlinks
             
 for
 dirpath
-dirnames
+_
 filenames
 in
 walk_dir
@@ -1484,6 +1517,8 @@ filenames
                     
 template
 =
+(
+                        
 os
 .
 path
@@ -1493,8 +1528,6 @@ join
 dirpath
 filename
 )
-\
-                        
 [
 len
 (
@@ -1502,6 +1535,7 @@ searchpath
 )
 :
 ]
+                        
 .
 strip
 (
@@ -1511,8 +1545,7 @@ path
 .
 sep
 )
-\
-                                          
+                        
 .
 replace
 (
@@ -1521,9 +1554,11 @@ os
 path
 .
 sep
-'
+"
 /
-'
+"
+)
+                    
 )
                     
 if
@@ -1534,10 +1569,10 @@ template
 ]
 =
 =
-'
+"
 .
 /
-'
+"
 :
                         
 template
@@ -1703,17 +1738,16 @@ self
 package_name
 package_path
 =
-'
+"
 templates
-'
-                 
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 :
         
@@ -1721,10 +1755,16 @@ from
 pkg_resources
 import
 DefaultProvider
-ResourceManager
-\
-                                  
+        
+from
+pkg_resources
+import
 get_provider
+        
+from
+pkg_resources
+import
+ResourceManager
         
 provider
 =
@@ -1787,9 +1827,9 @@ template
         
 p
 =
-'
+"
 /
-'
+"
 .
 join
 (
@@ -1932,10 +1972,10 @@ path
 ]
 =
 =
-'
+"
 .
 /
-'
+"
 :
             
 path
@@ -1950,15 +1990,15 @@ elif
 path
 =
 =
-'
+"
 .
-'
+"
 :
             
 path
 =
-'
-'
+"
+"
         
 offset
 =
@@ -1996,9 +2036,9 @@ fullname
 =
 path
 +
-'
+"
 /
-'
+"
 +
 filename
                 
@@ -2033,9 +2073,9 @@ offset
 .
 lstrip
 (
-'
+"
 /
-'
+"
 )
 )
         
@@ -2572,9 +2612,9 @@ self
 mapping
 delimiter
 =
-'
+"
 /
-'
+"
 )
 :
         
@@ -3201,11 +3241,11 @@ path
         
 package_name
 =
-'
+"
 _jinja2_module_templates_
 %
 x
-'
+"
 %
 id
 (
@@ -3238,6 +3278,15 @@ package_name
 )
         
 if
+not
+isinstance
+(
+path
+abc
+.
+Iterable
+)
+or
 isinstance
 (
 path
@@ -3251,21 +3300,20 @@ path
 path
 ]
         
-else
-:
-            
-path
-=
-list
-(
-path
-)
-        
 mod
 .
 __path__
 =
+[
+fspath
+(
+p
+)
+for
+p
+in
 path
+]
         
 sys
 .
@@ -3278,8 +3326,8 @@ weakref
 .
 proxy
 (
-mod
             
+mod
 lambda
 x
 :
@@ -3292,6 +3340,7 @@ pop
 package_name
 None
 )
+        
 )
         
 #
@@ -3352,9 +3401,9 @@ name
 :
         
 return
-'
+"
 tmpl_
-'
+"
 +
 sha1
 (
@@ -3362,11 +3411,11 @@ name
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
 .
@@ -3391,10 +3440,10 @@ get_template_key
 name
 )
 +
-'
+"
 .
 py
-'
+"
     
 internalcode
     
@@ -3421,13 +3470,13 @@ name
         
 module
 =
-'
+"
 %
 s
 .
 %
 s
-'
+"
 %
 (
 self
@@ -3464,9 +3513,9 @@ module
 None
 None
 [
-'
+"
 root
-'
+"
 ]
 )
             
@@ -3530,4 +3579,5 @@ mod
 .
 __dict__
 globals
+        
 )

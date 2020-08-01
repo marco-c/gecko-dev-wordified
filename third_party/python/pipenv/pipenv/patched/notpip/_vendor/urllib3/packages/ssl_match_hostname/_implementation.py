@@ -116,21 +116,23 @@ continue
 to
 be
 used
-all
-the
-way
-back
-to
-#
-python
--
+in
+Python
 2
 .
-4
+7
 .
 try
 :
     
+from
+pipenv
+.
+patched
+.
+notpip
+.
+_vendor
 import
 ipaddress
 except
@@ -142,7 +144,7 @@ ipaddress
 None
 __version__
 =
-'
+"
 3
 .
 5
@@ -150,7 +152,7 @@ __version__
 0
 .
 1
-'
+"
 class
 CertificateError
 (
@@ -254,9 +256,9 @@ dn
 split
 (
 r
-'
+"
 .
-'
+"
 )
     
 leftmost
@@ -280,9 +282,9 @@ leftmost
 .
 count
 (
-'
+"
 *
-'
+"
 )
     
 if
@@ -351,6 +353,7 @@ repr
 (
 dn
 )
+        
 )
     
 #
@@ -429,9 +432,9 @@ if
 leftmost
 =
 =
-'
+"
 *
-'
+"
 :
         
 #
@@ -460,13 +463,13 @@ pats
 .
 append
 (
-'
+"
 [
 ^
 .
 ]
 +
-'
+"
 )
     
 elif
@@ -474,22 +477,22 @@ leftmost
 .
 startswith
 (
-'
+"
 xn
 -
 -
-'
+"
 )
 or
 hostname
 .
 startswith
 (
-'
+"
 xn
 -
 -
-'
+"
 )
 :
         
@@ -588,17 +591,17 @@ leftmost
 replace
 (
 r
-'
+"
 \
 *
-'
-'
+"
+"
 [
 ^
 .
 ]
 *
-'
+"
 )
 )
     
@@ -636,16 +639,16 @@ re
 compile
 (
 r
-'
+"
 \
 A
-'
+"
 +
 r
-'
+"
 \
 .
-'
+"
 .
 join
 (
@@ -653,10 +656,10 @@ pats
 )
 +
 r
-'
+"
 \
 Z
-'
+"
 re
 .
 IGNORECASE
@@ -699,14 +702,14 @@ unicode
 obj
 encoding
 =
-'
+"
 ascii
-'
+"
 errors
 =
-'
+"
 strict
-'
+"
 )
     
 return
@@ -894,6 +897,7 @@ cert
 raise
 ValueError
 (
+            
 "
 empty
 or
@@ -903,7 +907,7 @@ match_hostname
 needs
 a
 "
-                         
+            
 "
 SSL
 socket
@@ -913,12 +917,13 @@ context
 with
 either
 "
-                         
+            
 "
 CERT_OPTIONAL
 or
 CERT_REQUIRED
 "
+        
 )
     
 try
@@ -1050,9 +1055,9 @@ cert
 .
 get
 (
-'
+"
 subjectAltName
-'
+"
 (
 )
 )
@@ -1068,9 +1073,9 @@ if
 key
 =
 =
-'
+"
 DNS
-'
+"
 :
             
 if
@@ -1098,10 +1103,10 @@ elif
 key
 =
 =
-'
+"
 IP
 Address
-'
+"
 :
             
 if
@@ -1155,9 +1160,9 @@ cert
 .
 get
 (
-'
+"
 subject
-'
+"
 (
 )
 )
@@ -1192,9 +1197,9 @@ if
 key
 =
 =
-'
+"
 commonName
-'
+"
 :
                     
 if
@@ -1226,6 +1231,7 @@ dnsnames
 raise
 CertificateError
 (
+            
 "
 hostname
 %
@@ -1242,12 +1248,11 @@ of
 %
 s
 "
-            
 %
 (
 hostname
-'
-'
+"
+"
 .
 join
 (
@@ -1258,6 +1263,7 @@ dnsnames
 )
 )
 )
+        
 )
     
 elif
@@ -1277,9 +1283,6 @@ CertificateError
 hostname
 %
 r
-"
-            
-"
 doesn
 '
 t
@@ -1287,7 +1290,6 @@ match
 %
 r
 "
-            
 %
 (
 hostname
@@ -1304,17 +1306,16 @@ else
 raise
 CertificateError
 (
+            
 "
 no
 appropriate
 commonName
 or
-"
-            
-"
 subjectAltName
 fields
 were
 found
 "
+        
 )

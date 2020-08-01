@@ -1,13 +1,21 @@
 import
 logging
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 import
 requests
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -17,7 +25,11 @@ adapter
 import
 CacheControlAdapter
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -27,7 +39,11 @@ cache
 import
 DictCache
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -83,15 +99,12 @@ CacheControlAdapter
 DictCache
 (
 )
-        
 cache_etags
 =
 True
-        
 serializer
 =
 None
-        
 heuristic
 =
 None
@@ -110,12 +123,12 @@ sess
 .
 mount
 (
-'
+"
 http
 :
 /
 /
-'
+"
 adapter
 )
     
@@ -123,12 +136,12 @@ sess
 .
 mount
 (
-'
+"
 https
 :
 /
 /
-'
+"
 adapter
 )
     
@@ -158,19 +171,19 @@ parser
 .
 add_argument
 (
-'
+"
 url
-'
+"
 help
 =
-'
+"
 The
 URL
 to
 try
 and
 cache
-'
+"
 )
     
 return
@@ -271,10 +284,10 @@ request
         
 print
 (
-'
+"
 Cached
 !
-'
+"
 )
     
 else
@@ -282,20 +295,20 @@ else
         
 print
 (
-'
+"
 Not
 cached
 :
 (
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

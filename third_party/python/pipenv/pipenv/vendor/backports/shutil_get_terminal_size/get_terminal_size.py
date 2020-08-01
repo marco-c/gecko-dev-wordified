@@ -219,8 +219,11 @@ Exception
 pass
         
 return
+terminal_size
+(
 columns
 lines
+)
 except
 ImportError
 :
@@ -284,8 +287,11 @@ lines
 0
         
 return
+terminal_size
+(
 columns
 lines
+)
 def
 get_terminal_size
 (
@@ -452,9 +458,7 @@ terminal_size
 "
     
 #
-Attempt
-to
-use
+Try
 the
 environment
 first
@@ -536,8 +540,7 @@ lines
 try
 :
             
-columns
-lines
+size
 =
 _get_terminal_size
 (
@@ -557,31 +560,39 @@ OSError
 )
 :
             
-pass
-    
-#
-Use
+size
+=
+terminal_size
+(
+*
 fallback
-as
-last
-resort
-    
+)
+        
 if
 columns
 <
 =
 0
-and
+:
+            
+columns
+=
+size
+.
+columns
+        
+if
 lines
 <
 =
 0
 :
-        
-columns
+            
 lines
 =
-fallback
+size
+.
+lines
     
 return
 terminal_size

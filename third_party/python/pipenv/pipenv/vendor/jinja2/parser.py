@@ -13,124 +13,104 @@ utf
 "
 "
 "
-    
-jinja2
-.
-parser
-    
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-    
-Implements
+Parse
+tokens
+from
 the
-template
-parser
-.
-    
-:
-copyright
-:
-(
-c
-)
-2017
-by
-the
-Jinja
-Team
-.
-    
-:
-license
-:
-BSD
-see
-LICENSE
+lexer
+into
+nodes
 for
-more
-details
+the
+compiler
 .
 "
 "
 "
 from
-jinja2
+.
 import
 nodes
 from
-jinja2
-.
-exceptions
-import
-TemplateSyntaxError
-TemplateAssertionError
-from
-jinja2
-.
-lexer
-import
-describe_token
-describe_token_expr
-from
-jinja2
 .
 _compat
 import
 imap
+from
+.
+exceptions
+import
+TemplateAssertionError
+from
+.
+exceptions
+import
+TemplateSyntaxError
+from
+.
+lexer
+import
+describe_token
+from
+.
+lexer
+import
+describe_token_expr
 _statement_keywords
 =
 frozenset
 (
+    
 [
-'
+        
+"
 for
-'
-'
+"
+        
+"
 if
-'
-'
+"
+        
+"
 block
-'
-'
+"
+        
+"
 extends
-'
-'
+"
+        
+"
 print
-'
-                                 
-'
+"
+        
+"
 macro
-'
-'
+"
+        
+"
 include
-'
-'
+"
+        
+"
 from
-'
-'
+"
+        
+"
 import
-'
-                                 
-'
+"
+        
+"
 set
-'
-'
+"
+        
+"
 with
-'
-'
+"
+        
+"
 autoescape
-'
+"
+    
 ]
 )
 _compare_operators
@@ -138,73 +118,73 @@ _compare_operators
 frozenset
 (
 [
-'
+"
 eq
-'
-'
+"
+"
 ne
-'
-'
+"
+"
 lt
-'
-'
+"
+"
 lteq
-'
-'
+"
+"
 gt
-'
-'
+"
+"
 gteq
-'
+"
 ]
 )
 _math_nodes
 =
 {
     
-'
+"
 add
-'
+"
 :
 nodes
 .
 Add
     
-'
+"
 sub
-'
+"
 :
 nodes
 .
 Sub
     
-'
+"
 mul
-'
+"
 :
 nodes
 .
 Mul
     
-'
+"
 div
-'
+"
 :
 nodes
 .
 Div
     
-'
+"
 floordiv
-'
+"
 :
 nodes
 .
 FloorDiv
     
-'
+"
 mod
-'
+"
 :
 nodes
 .
@@ -226,7 +206,7 @@ the
 central
 parsing
 class
-Jinja2
+Jinja
 uses
 .
 It
@@ -263,7 +243,6 @@ None
 filename
 =
 None
-                 
 state
 =
 None
@@ -479,9 +458,9 @@ end_token_stack
             
 currently_looking
 =
-'
+"
 or
-'
+"
 .
 join
 (
@@ -497,7 +476,6 @@ describe_token_expr
 (
 expr
 )
-                
 for
 expr
 in
@@ -506,6 +484,7 @@ end_token_stack
 -
 1
 ]
+            
 )
         
 else
@@ -524,13 +503,13 @@ None
 message
 =
 [
-'
+"
 Unexpected
 end
 of
 template
 .
-'
+"
 ]
         
 else
@@ -539,18 +518,16 @@ else
 message
 =
 [
-'
+"
 Encountered
 unknown
 tag
-\
 '
 %
 s
-\
 '
 .
-'
+"
 %
 name
 ]
@@ -574,7 +551,8 @@ message
 .
 append
 (
-'
+                    
+"
 You
 probably
 made
@@ -583,9 +561,9 @@ nesting
 mistake
 .
 Jinja
-'
-                               
-'
+"
+                    
+"
 is
 expecting
 this
@@ -593,16 +571,17 @@ tag
 but
 currently
 looking
-'
-                               
-'
+"
+                    
+"
 for
 %
 s
 .
-'
+"
 %
 currently_looking
+                
 )
             
 else
@@ -612,7 +591,8 @@ message
 .
 append
 (
-'
+                    
+"
 Jinja
 was
 looking
@@ -621,15 +601,16 @@ the
 following
 tags
 :
-'
-                               
-'
+"
+                    
+"
 %
 s
 .
-'
+"
 %
 currently_looking
+                
 )
         
 if
@@ -642,7 +623,8 @@ message
 .
 append
 (
-'
+                
+"
 The
 innermost
 block
@@ -650,19 +632,17 @@ that
 needs
 to
 be
-'
-                           
-'
+"
+                
+"
 closed
 is
-\
 '
 %
 s
-\
 '
 .
-'
+"
 %
 self
 .
@@ -671,14 +651,15 @@ _tag_stack
 -
 1
 ]
+            
 )
         
 self
 .
 fail
 (
-'
-'
+"
+"
 .
 join
 (
@@ -844,15 +825,15 @@ current
 type
 in
 (
-'
+"
 variable_end
-'
-'
+"
+"
 block_end
-'
-'
+"
+"
 rparen
-'
+"
 )
 :
             
@@ -939,11 +920,11 @@ Node
 __init__
 (
 rv
-'
+"
 fi
 %
 d
-'
+"
 %
 self
 .
@@ -989,20 +970,20 @@ token
 type
 !
 =
-'
+"
 name
-'
+"
 :
             
 self
 .
 fail
 (
-'
+"
 tag
 name
 expected
-'
+"
 token
 .
 lineno
@@ -1038,9 +1019,9 @@ return
 getattr
 (
 self
-'
+"
 parse_
-'
+"
 +
 self
 .
@@ -1059,9 +1040,9 @@ token
 value
 =
 =
-'
+"
 call
-'
+"
 :
                 
 return
@@ -1077,9 +1058,9 @@ token
 value
 =
 =
-'
+"
 filter
-'
+"
 :
                 
 return
@@ -1340,9 +1321,9 @@ stream
 .
 skip_if
 (
-'
+"
 colon
-'
+"
 )
         
 #
@@ -1381,9 +1362,9 @@ stream
 .
 expect
 (
-'
+"
 block_end
-'
+"
 )
         
 result
@@ -1430,9 +1411,9 @@ current
 type
 =
 =
-'
+"
 eof
-'
+"
 :
             
 self
@@ -1492,6 +1473,9 @@ self
 .
 parse_assign_target
 (
+with_namespace
+=
+True
 )
         
 if
@@ -1501,9 +1485,9 @@ stream
 .
 skip_if
 (
-'
+"
 assign
-'
+"
 )
 :
             
@@ -1527,6 +1511,15 @@ lineno
 lineno
 )
         
+filter_node
+=
+self
+.
+parse_filter
+(
+None
+)
+        
 body
 =
 self
@@ -1534,13 +1527,12 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endset
-'
+"
 )
-                                     
 drop_needle
 =
 True
@@ -1552,6 +1544,7 @@ nodes
 AssignBlock
 (
 target
+filter_node
 body
 lineno
 =
@@ -1585,11 +1578,11 @@ stream
 .
 expect
 (
-'
+"
 name
 :
 for
-'
+"
 )
 .
 lineno
@@ -1603,11 +1596,11 @@ parse_assign_target
 extra_end_rules
 =
 (
-'
+"
 name
 :
 in
-'
+"
 )
 )
         
@@ -1617,11 +1610,11 @@ stream
 .
 expect
 (
-'
+"
 name
 :
 in
-'
+"
 )
         
 iter
@@ -1630,19 +1623,20 @@ self
 .
 parse_tuple
 (
+            
 with_condexpr
 =
 False
-                                
 extra_end_rules
 =
 (
-'
+"
 name
 :
 recursive
-'
+"
 )
+        
 )
         
 test
@@ -1656,11 +1650,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 if
-'
+"
 )
 :
             
@@ -1680,11 +1674,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 recursive
-'
+"
 )
         
 body
@@ -1694,16 +1688,16 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endfor
-'
-'
+"
+"
 name
 :
 else
-'
+"
 )
 )
         
@@ -1718,9 +1712,9 @@ stream
 value
 =
 =
-'
+"
 endfor
-'
+"
 :
             
 else_
@@ -1738,11 +1732,11 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endfor
-'
+"
 )
 drop_needle
 =
@@ -1759,7 +1753,6 @@ iter
 body
 else_
 test
-                         
 recursive
 lineno
 =
@@ -1801,11 +1794,11 @@ stream
 .
 expect
 (
-'
+"
 name
 :
 if
-'
+"
 )
 .
 lineno
@@ -1837,24 +1830,37 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 elif
-'
-'
+"
+"
 name
 :
 else
-'
-                                               
-'
+"
+"
 name
 :
 endif
-'
+"
 )
 )
+            
+node
+.
+elif_
+=
+[
+]
+            
+node
+.
+else_
+=
+[
+]
             
 token
 =
@@ -1870,15 +1876,15 @@ token
 .
 test
 (
-'
+"
 name
 :
 elif
-'
+"
 )
 :
                 
-new_node
+node
 =
 nodes
 .
@@ -1895,17 +1901,14 @@ current
 lineno
 )
                 
-node
+result
 .
-else_
-=
-[
-new_node
-]
-                
+elif_
+.
+append
+(
 node
-=
-new_node
+)
                 
 continue
             
@@ -1914,15 +1917,15 @@ token
 .
 test
 (
-'
+"
 name
 :
 else
-'
+"
 )
 :
                 
-node
+result
 .
 else_
 =
@@ -1931,27 +1934,16 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endif
-'
+"
 )
-                                                   
 drop_needle
 =
 True
 )
-            
-else
-:
-                
-node
-.
-else_
-=
-[
-]
             
 break
         
@@ -2003,20 +1995,10 @@ current
 type
 !
 =
-'
+"
 block_end
-'
+"
 :
-            
-lineno
-=
-self
-.
-stream
-.
-current
-.
-lineno
             
 if
 targets
@@ -2028,9 +2010,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 target
@@ -2045,9 +2027,9 @@ target
 .
 set_ctx
 (
-'
+"
 param
-'
+"
 )
             
 targets
@@ -2063,9 +2045,9 @@ stream
 .
 expect
 (
-'
+"
 assign
-'
+"
 )
             
 values
@@ -2100,13 +2082,12 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endwith
-'
+"
 )
-                                          
 drop_needle
 =
 True
@@ -2145,21 +2126,19 @@ node
 options
 =
 [
-            
 nodes
 .
 Keyword
 (
-'
+"
 autoescape
-'
+"
 self
 .
 parse_expression
 (
 )
 )
-        
 ]
         
 node
@@ -2171,13 +2150,12 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endautoescape
-'
+"
 )
-                                            
 drop_needle
 =
 True
@@ -2228,9 +2206,9 @@ stream
 .
 expect
 (
-'
+"
 name
-'
+"
 )
 .
 value
@@ -2245,11 +2223,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 scoped
-'
+"
 )
         
 #
@@ -2300,16 +2278,17 @@ current
 type
 =
 =
-'
+"
 sub
-'
+"
 :
             
 self
 .
 fail
 (
-'
+                
+"
 Block
 names
 in
@@ -2319,9 +2298,9 @@ to
 be
 valid
 Python
-'
-                      
-'
+"
+                
+"
 identifiers
 and
 may
@@ -2330,13 +2309,14 @@ contain
 hyphens
 use
 an
-'
-                      
-'
+"
+                
+"
 underscore
 instead
 .
-'
+"
+            
 )
         
 node
@@ -2348,11 +2328,11 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endblock
-'
+"
 )
 drop_needle
 =
@@ -2365,10 +2345,10 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
-'
+"
 +
 node
 .
@@ -2434,20 +2414,20 @@ current
 .
 test_any
 (
-'
+            
+"
 name
 :
 with
-'
-'
+"
+"
 name
 :
 without
-'
+"
+        
 )
 and
-\
-           
 self
 .
 stream
@@ -2458,11 +2438,11 @@ look
 .
 test
 (
-'
+"
 name
 :
 context
-'
+"
 )
 :
             
@@ -2480,9 +2460,9 @@ stream
 value
 =
 =
-'
+"
 with
-'
+"
             
 self
 .
@@ -2548,15 +2528,13 @@ current
 .
 test
 (
-'
+"
 name
 :
 ignore
-'
+"
 )
 and
-\
-           
 self
 .
 stream
@@ -2567,11 +2545,13 @@ look
 .
 test
 (
-'
+            
+"
 name
 :
 missing
-'
+"
+        
 )
 :
             
@@ -2649,11 +2629,11 @@ stream
 .
 expect
 (
-'
+"
 name
 :
 as
-'
+"
 )
         
 node
@@ -2721,11 +2701,11 @@ stream
 .
 expect
 (
-'
+"
 name
 :
 import
-'
+"
 )
         
 node
@@ -2751,16 +2731,17 @@ current
 value
 in
 (
-'
+                
+"
 with
-'
-'
+"
+                
+"
 without
-'
+"
+            
 )
 and
-\
-               
 self
 .
 stream
@@ -2771,11 +2752,11 @@ look
 .
 test
 (
-'
+"
 name
 :
 context
-'
+"
 )
 :
                 
@@ -2793,9 +2774,9 @@ stream
 value
 =
 =
-'
+"
 with
-'
+"
                 
 self
 .
@@ -2827,9 +2808,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 if
@@ -2842,9 +2823,9 @@ current
 type
 =
 =
-'
+"
 name
-'
+"
 :
                 
 if
@@ -2873,9 +2854,9 @@ name
 .
 startswith
 (
-'
+"
 _
-'
+"
 )
 :
                     
@@ -2883,7 +2864,8 @@ self
 .
 fail
 (
-'
+                        
+"
 names
 starting
 with
@@ -2891,19 +2873,18 @@ an
 underline
 can
 not
-'
-                              
-'
 be
 imported
-'
+"
+                        
 target
 .
 lineno
-                              
+                        
 exc
 =
 TemplateAssertionError
+                    
 )
                 
 if
@@ -2913,11 +2894,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 as
-'
+"
 )
 :
                     
@@ -2976,9 +2957,9 @@ current
 type
 !
 =
-'
+"
 comma
-'
+"
 :
                     
 break
@@ -2986,16 +2967,25 @@ break
 else
 :
                 
-break
+self
+.
+stream
+.
+expect
+(
+"
+name
+"
+)
         
 if
 not
 hasattr
 (
 node
-'
+"
 with_context
-'
+"
 )
 :
             
@@ -3004,17 +2994,6 @@ node
 with_context
 =
 False
-            
-self
-.
-stream
-.
-skip_if
-(
-'
-comma
-'
-)
         
 return
 node
@@ -3051,9 +3030,9 @@ stream
 .
 expect
 (
-'
+"
 lparen
-'
+"
 )
         
 while
@@ -3066,9 +3045,9 @@ current
 type
 !
 =
-'
+"
 rparen
-'
+"
 :
             
 if
@@ -3081,9 +3060,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 arg
@@ -3101,9 +3080,9 @@ arg
 .
 set_ctx
 (
-'
+"
 param
-'
+"
 )
             
 if
@@ -3113,9 +3092,9 @@ stream
 .
 skip_if
 (
-'
+"
 assign
-'
+"
 )
 :
                 
@@ -3138,7 +3117,7 @@ self
 .
 fail
 (
-'
+"
 non
 -
 default
@@ -3146,7 +3125,7 @@ argument
 follows
 default
 argument
-'
+"
 )
             
 args
@@ -3162,9 +3141,9 @@ stream
 .
 expect
 (
-'
+"
 rparen
-'
+"
 )
     
 def
@@ -3202,9 +3181,9 @@ current
 type
 =
 =
-'
+"
 lparen
-'
+"
 :
             
 self
@@ -3258,10 +3237,10 @@ self
 .
 fail
 (
-'
+"
 expected
 call
-'
+"
 node
 .
 lineno
@@ -3276,11 +3255,11 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endcall
-'
+"
 )
 drop_needle
 =
@@ -3338,13 +3317,12 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endfilter
-'
+"
 )
-                                          
 drop_needle
 =
 True
@@ -3409,13 +3387,12 @@ self
 parse_statements
 (
 (
-'
+"
 name
 :
 endmacro
-'
+"
 )
-                                          
 drop_needle
 =
 True
@@ -3466,9 +3443,9 @@ current
 type
 !
 =
-'
+"
 block_end
-'
+"
 :
             
 if
@@ -3483,9 +3460,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 node
@@ -3507,17 +3484,25 @@ node
 def
 parse_assign_target
 (
+        
 self
+        
 with_tuple
 =
 True
+        
 name_only
 =
 False
-                            
+        
 extra_end_rules
 =
 None
+        
+with_namespace
+=
+False
+    
 )
 :
         
@@ -3530,7 +3515,7 @@ assignment
 target
 .
 As
-Jinja2
+Jinja
 allows
 assignments
 to
@@ -3592,12 +3577,97 @@ tuple
 parsing
 function
 .
+If
+        
+with_namespace
+is
+enabled
+a
+namespace
+assignment
+may
+be
+parsed
+.
         
 "
 "
 "
         
 if
+with_namespace
+and
+self
+.
+stream
+.
+look
+(
+)
+.
+type
+=
+=
+"
+dot
+"
+:
+            
+token
+=
+self
+.
+stream
+.
+expect
+(
+"
+name
+"
+)
+            
+next
+(
+self
+.
+stream
+)
+#
+dot
+            
+attr
+=
+self
+.
+stream
+.
+expect
+(
+"
+name
+"
+)
+            
+target
+=
+nodes
+.
+NSRef
+(
+token
+.
+value
+attr
+.
+value
+lineno
+=
+token
+.
+lineno
+)
+        
+elif
 name_only
 :
             
@@ -3609,9 +3679,9 @@ stream
 .
 expect
 (
-'
+"
 name
-'
+"
 )
             
 target
@@ -3623,9 +3693,9 @@ Name
 token
 .
 value
-'
+"
 store
-'
+"
 lineno
 =
 token
@@ -3646,13 +3716,14 @@ self
 .
 parse_tuple
 (
+                    
 simplified
 =
 True
-                                          
 extra_end_rules
 =
 extra_end_rules
+                
 )
             
 else
@@ -3670,9 +3741,9 @@ target
 .
 set_ctx
 (
-'
+"
 store
-'
+"
 )
         
 if
@@ -3688,22 +3759,21 @@ self
 .
 fail
 (
-'
+                
+"
 can
-\
 '
 t
 assign
 to
 %
 r
-'
+"
 %
 target
 .
 __class__
 .
-                      
 __name__
 .
 lower
@@ -3712,6 +3782,7 @@ lower
 target
 .
 lineno
+            
 )
         
 return
@@ -3812,11 +3883,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 if
-'
+"
 )
 :
             
@@ -3835,11 +3906,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 else
-'
+"
 )
 :
                 
@@ -3917,11 +3988,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 or
-'
+"
 )
 :
             
@@ -3991,11 +4062,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 and
-'
+"
 )
 :
             
@@ -4049,11 +4120,11 @@ current
 .
 test
 (
-'
+"
 name
 :
 not
-'
+"
 )
 :
             
@@ -4171,11 +4242,11 @@ stream
 .
 skip_if
 (
-'
+"
 name
 :
 in
-'
+"
 )
 :
                 
@@ -4187,9 +4258,9 @@ nodes
 .
 Operand
 (
-'
+"
 in
-'
+"
 self
 .
 parse_math1
@@ -4199,7 +4270,6 @@ parse_math1
 )
             
 elif
-(
 self
 .
 stream
@@ -4208,14 +4278,13 @@ current
 .
 test
 (
-'
+"
 name
 :
 not
-'
+"
 )
 and
-                  
 self
 .
 stream
@@ -4226,12 +4295,13 @@ look
 .
 test
 (
-'
+                
+"
 name
 :
 in
-'
-)
+"
+            
 )
 :
                 
@@ -4252,9 +4322,9 @@ nodes
 .
 Operand
 (
-'
+"
 notin
-'
+"
 self
 .
 parse_math1
@@ -4333,12 +4403,12 @@ current
 type
 in
 (
-'
+"
 add
-'
-'
+"
+"
 sub
-'
+"
 )
 :
             
@@ -4431,9 +4501,9 @@ current
 type
 =
 =
-'
+"
 tilde
-'
+"
 :
             
 next
@@ -4516,18 +4586,18 @@ current
 type
 in
 (
-'
+"
 mul
-'
-'
+"
+"
 div
-'
-'
+"
+"
 floordiv
-'
-'
+"
+"
 mod
-'
+"
 )
 :
             
@@ -4618,9 +4688,9 @@ current
 type
 =
 =
-'
+"
 pow
-'
+"
 :
             
 next
@@ -4698,9 +4768,9 @@ if
 token_type
 =
 =
-'
+"
 sub
-'
+"
 :
             
 next
@@ -4731,9 +4801,9 @@ elif
 token_type
 =
 =
-'
+"
 add
-'
+"
 :
             
 next
@@ -4817,9 +4887,9 @@ token
 type
 =
 =
-'
+"
 name
-'
+"
 :
             
 if
@@ -4828,18 +4898,18 @@ token
 value
 in
 (
-'
+"
 true
-'
-'
+"
+"
 false
-'
-'
+"
+"
 True
-'
-'
+"
+"
 False
-'
+"
 )
 :
                 
@@ -4854,14 +4924,13 @@ token
 value
 in
 (
-'
+"
 true
-'
-'
+"
+"
 True
-'
+"
 )
-                                   
 lineno
 =
 token
@@ -4875,12 +4944,12 @@ token
 value
 in
 (
-'
+"
 none
-'
-'
+"
+"
 None
-'
+"
 )
 :
                 
@@ -4910,9 +4979,9 @@ Name
 token
 .
 value
-'
+"
 load
-'
+"
 lineno
 =
 token
@@ -4933,9 +5002,9 @@ token
 type
 =
 =
-'
+"
 string
-'
+"
 :
             
 next
@@ -4969,9 +5038,9 @@ current
 type
 =
 =
-'
+"
 string
-'
+"
 :
                 
 buf
@@ -5000,8 +5069,8 @@ nodes
 .
 Const
 (
-'
-'
+"
+"
 .
 join
 (
@@ -5018,12 +5087,12 @@ token
 type
 in
 (
-'
+"
 integer
-'
-'
+"
+"
 float
-'
+"
 )
 :
             
@@ -5056,9 +5125,9 @@ token
 type
 =
 =
-'
+"
 lparen
-'
+"
 :
             
 next
@@ -5085,9 +5154,9 @@ stream
 .
 expect
 (
-'
+"
 rparen
-'
+"
 )
         
 elif
@@ -5096,9 +5165,9 @@ token
 type
 =
 =
-'
+"
 lbracket
-'
+"
 :
             
 node
@@ -5115,9 +5184,9 @@ token
 type
 =
 =
-'
+"
 lbrace
-'
+"
 :
             
 node
@@ -5158,20 +5227,25 @@ node
 def
 parse_tuple
 (
+        
 self
+        
 simplified
 =
 False
+        
 with_condexpr
 =
 True
-                    
+        
 extra_end_rules
 =
 None
+        
 explicit_parentheses
 =
 False
+    
 )
 :
         
@@ -5388,10 +5462,13 @@ parse_expression
 else
 :
             
+def
 parse
-=
-lambda
+(
+)
 :
+                
+return
 self
 .
 parse_expression
@@ -5424,9 +5501,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 if
@@ -5459,9 +5536,9 @@ current
 type
 =
 =
-'
+"
 comma
-'
+"
 :
                 
 is_tuple
@@ -5552,20 +5629,19 @@ self
 .
 fail
 (
-'
+                    
+"
 Expected
 an
 expression
 got
-\
 '
 %
 s
-\
 '
-'
+"
+                    
 %
-                          
 describe_token
 (
 self
@@ -5574,6 +5650,7 @@ stream
 .
 current
 )
+                
 )
         
 return
@@ -5582,9 +5659,9 @@ nodes
 Tuple
 (
 args
-'
+"
 load
-'
+"
 lineno
 =
 lineno
@@ -5605,9 +5682,9 @@ stream
 .
 expect
 (
-'
+"
 lbracket
-'
+"
 )
         
 items
@@ -5625,9 +5702,9 @@ current
 type
 !
 =
-'
+"
 rbracket
-'
+"
 :
             
 if
@@ -5640,9 +5717,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 if
@@ -5655,9 +5732,9 @@ current
 type
 =
 =
-'
+"
 rbracket
-'
+"
 :
                 
 break
@@ -5679,9 +5756,9 @@ stream
 .
 expect
 (
-'
+"
 rbracket
-'
+"
 )
         
 return
@@ -5712,9 +5789,9 @@ stream
 .
 expect
 (
-'
+"
 lbrace
-'
+"
 )
         
 items
@@ -5732,9 +5809,9 @@ current
 type
 !
 =
-'
+"
 rbrace
-'
+"
 :
             
 if
@@ -5747,9 +5824,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
             
 if
@@ -5762,9 +5839,9 @@ current
 type
 =
 =
-'
+"
 rbrace
-'
+"
 :
                 
 break
@@ -5783,9 +5860,9 @@ stream
 .
 expect
 (
-'
+"
 colon
-'
+"
 )
             
 value
@@ -5820,9 +5897,9 @@ stream
 .
 expect
 (
-'
+"
 rbrace
-'
+"
 )
         
 return
@@ -5864,16 +5941,16 @@ if
 token_type
 =
 =
-'
+"
 dot
-'
+"
 or
 token_type
 =
 =
-'
+"
 lbracket
-'
+"
 :
                 
 node
@@ -5911,9 +5988,9 @@ elif
 token_type
 =
 =
-'
+"
 lparen
-'
+"
 :
                 
 node
@@ -5959,9 +6036,9 @@ if
 token_type
 =
 =
-'
+"
 pipe
-'
+"
 :
                 
 node
@@ -5977,9 +6054,9 @@ elif
 token_type
 =
 =
-'
+"
 name
-'
+"
 and
 self
 .
@@ -5990,9 +6067,9 @@ current
 value
 =
 =
-'
+"
 is
-'
+"
 :
                 
 node
@@ -6030,9 +6107,9 @@ elif
 token_type
 =
 =
-'
+"
 lparen
-'
+"
 :
                 
 node
@@ -6075,9 +6152,9 @@ token
 type
 =
 =
-'
+"
 dot
-'
+"
 :
             
 attr_token
@@ -6101,9 +6178,9 @@ attr_token
 type
 =
 =
-'
+"
 name
-'
+"
 :
                 
 return
@@ -6111,19 +6188,20 @@ nodes
 .
 Getattr
 (
+                    
 node
 attr_token
 .
 value
-'
+"
 load
-'
-                                     
+"
 lineno
 =
 token
 .
 lineno
+                
 )
             
 elif
@@ -6132,21 +6210,21 @@ attr_token
 type
 !
 =
-'
+"
 integer
-'
+"
 :
                 
 self
 .
 fail
 (
-'
+"
 expected
 name
 or
 number
-'
+"
 attr_token
 .
 lineno
@@ -6175,9 +6253,9 @@ Getitem
 (
 node
 arg
-'
+"
 load
-'
+"
 lineno
 =
 token
@@ -6191,9 +6269,9 @@ token
 type
 =
 =
-'
+"
 lbracket
-'
+"
 :
             
 args
@@ -6211,9 +6289,9 @@ current
 type
 !
 =
-'
+"
 rbracket
-'
+"
 :
                 
 if
@@ -6226,9 +6304,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
                 
 args
@@ -6248,9 +6326,9 @@ stream
 .
 expect
 (
-'
+"
 rbracket
-'
+"
 )
             
 if
@@ -6280,9 +6358,9 @@ nodes
 Tuple
 (
 args
-'
+"
 load
-'
+"
 lineno
 =
 token
@@ -6297,9 +6375,9 @@ Getitem
 (
 node
 arg
-'
+"
 load
-'
+"
 lineno
 =
 token
@@ -6311,12 +6389,12 @@ self
 .
 fail
 (
-'
+"
 expected
 subscript
 expression
-'
-self
+"
+token
 .
 lineno
 )
@@ -6348,9 +6426,9 @@ current
 type
 =
 =
-'
+"
 colon
-'
+"
 :
             
 next
@@ -6387,9 +6465,9 @@ current
 type
 !
 =
-'
+"
 colon
-'
+"
 :
                 
 return
@@ -6418,9 +6496,9 @@ current
 type
 =
 =
-'
+"
 colon
-'
+"
 :
             
 args
@@ -6441,12 +6519,12 @@ type
 not
 in
 (
-'
+"
 rbracket
-'
-'
+"
+"
 comma
-'
+"
 )
 :
             
@@ -6481,9 +6559,9 @@ current
 type
 =
 =
-'
+"
 colon
-'
+"
 :
             
 next
@@ -6504,12 +6582,12 @@ type
 not
 in
 (
-'
+"
 rbracket
-'
-'
+"
+"
 comma
-'
+"
 )
 :
                 
@@ -6572,9 +6650,9 @@ stream
 .
 expect
 (
-'
+"
 lparen
-'
+"
 )
         
 args
@@ -6613,15 +6691,14 @@ self
 .
 fail
 (
-'
+"
 invalid
 syntax
 for
 function
 call
 expression
-'
-                          
+"
 token
 .
 lineno
@@ -6637,9 +6714,9 @@ current
 type
 !
 =
-'
+"
 rparen
-'
+"
 :
             
 if
@@ -6652,9 +6729,9 @@ stream
 .
 expect
 (
-'
+"
 comma
-'
+"
 )
                 
 #
@@ -6673,9 +6750,9 @@ current
 type
 =
 =
-'
+"
 rparen
-'
+"
 :
                     
 break
@@ -6690,9 +6767,9 @@ current
 type
 =
 =
-'
+"
 mul
-'
+"
 :
                 
 ensure
@@ -6731,9 +6808,9 @@ current
 type
 =
 =
-'
+"
 pow
-'
+"
 :
                 
 ensure
@@ -6761,18 +6838,9 @@ parse_expression
 else
 :
                 
-ensure
-(
-dyn_args
-is
-None
-and
-dyn_kwargs
-is
-None
-)
-                
 if
+(
+                    
 self
 .
 stream
@@ -6782,12 +6850,11 @@ current
 type
 =
 =
-'
+"
 name
-'
+"
+                    
 and
-\
-                   
 self
 .
 stream
@@ -6799,10 +6866,24 @@ look
 type
 =
 =
-'
+"
 assign
-'
+"
+                
+)
 :
+                    
+#
+Parsing
+a
+kwarg
+                    
+ensure
+(
+dyn_kwargs
+is
+None
+)
                     
 key
 =
@@ -6841,7 +6922,6 @@ Keyword
 (
 key
 value
-                                                
 lineno
 =
 value
@@ -6853,8 +6933,21 @@ lineno
 else
 :
                     
+#
+Parsing
+an
+arg
+                    
 ensure
 (
+dyn_args
+is
+None
+and
+dyn_kwargs
+is
+None
+and
 not
 kwargs
 )
@@ -6880,9 +6973,9 @@ stream
 .
 expect
 (
-'
+"
 rparen
-'
+"
 )
         
 if
@@ -6907,7 +7000,6 @@ args
 kwargs
 dyn_args
 dyn_kwargs
-                          
 lineno
 =
 token
@@ -6936,9 +7028,9 @@ current
 type
 =
 =
-'
+"
 pipe
-'
+"
 or
 start_inline
 :
@@ -6963,9 +7055,9 @@ stream
 .
 expect
 (
-'
+"
 name
-'
+"
 )
             
 name
@@ -6984,9 +7076,9 @@ current
 type
 =
 =
-'
+"
 dot
-'
+"
 :
                 
 next
@@ -6999,9 +7091,9 @@ stream
 name
 +
 =
-'
+"
 .
-'
+"
 +
 self
 .
@@ -7009,9 +7101,9 @@ stream
 .
 expect
 (
-'
+"
 name
-'
+"
 )
 .
 value
@@ -7026,9 +7118,9 @@ current
 type
 =
 =
-'
+"
 lparen
-'
+"
 :
                 
 args
@@ -7068,18 +7160,19 @@ nodes
 .
 Filter
 (
+                
 node
 name
 args
 kwargs
 dyn_args
-                                
 dyn_kwargs
 lineno
 =
 token
 .
 lineno
+            
 )
             
 start_inline
@@ -7115,11 +7208,11 @@ current
 .
 test
 (
-'
+"
 name
 :
 not
-'
+"
 )
 :
             
@@ -7149,9 +7242,9 @@ stream
 .
 expect
 (
-'
+"
 name
-'
+"
 )
 .
 value
@@ -7166,9 +7259,9 @@ current
 type
 =
 =
-'
+"
 dot
-'
+"
 :
             
 next
@@ -7181,9 +7274,9 @@ stream
 name
 +
 =
-'
+"
 .
-'
+"
 +
 self
 .
@@ -7191,9 +7284,9 @@ stream
 .
 expect
 (
-'
+"
 name
-'
+"
 )
 .
 value
@@ -7219,9 +7312,9 @@ current
 type
 =
 =
-'
+"
 lparen
-'
+"
 :
             
 args
@@ -7237,7 +7330,6 @@ None
 )
         
 elif
-(
 self
 .
 stream
@@ -7247,33 +7339,38 @@ current
 type
 in
 (
-'
+            
+"
 name
-'
-'
+"
+            
+"
 string
-'
-'
+"
+            
+"
 integer
-'
-                                           
-'
+"
+            
+"
 float
-'
-'
+"
+            
+"
 lparen
-'
-'
+"
+            
+"
 lbracket
-'
-                                           
-'
+"
+            
+"
 lbrace
-'
+"
+        
 )
 and
 not
-              
 self
 .
 stream
@@ -7282,23 +7379,21 @@ current
 .
 test_any
 (
-'
+"
 name
 :
 else
-'
-'
+"
+"
 name
 :
 or
-'
-                                           
-'
+"
+"
 name
 :
 and
-'
-)
+"
 )
 :
             
@@ -7311,11 +7406,11 @@ current
 .
 test
 (
-'
+"
 name
 :
 is
-'
+"
 )
 :
                 
@@ -7323,7 +7418,7 @@ self
 .
 fail
 (
-'
+"
 You
 cannot
 chain
@@ -7331,17 +7426,30 @@ multiple
 tests
 with
 is
-'
+"
 )
             
-args
+arg_node
 =
-[
 self
 .
 parse_primary
 (
 )
+            
+arg_node
+=
+self
+.
+parse_postfix
+(
+arg_node
+)
+            
+args
+=
+[
+arg_node
 ]
         
 else
@@ -7358,18 +7466,19 @@ nodes
 .
 Test
 (
+            
 node
 name
 args
 kwargs
 dyn_args
-                          
 dyn_kwargs
 lineno
 =
 token
 .
 lineno
+        
 )
         
 if
@@ -7501,9 +7610,9 @@ token
 type
 =
 =
-'
+"
 data
-'
+"
 :
                     
 if
@@ -7521,7 +7630,6 @@ TemplateData
 token
 .
 value
-                                                    
 lineno
 =
 token
@@ -7543,9 +7651,9 @@ token
 type
 =
 =
-'
+"
 variable_begin
-'
+"
 :
                     
 next
@@ -7573,9 +7681,9 @@ stream
 .
 expect
 (
-'
+"
 variable_end
-'
+"
 )
                 
 elif
@@ -7584,9 +7692,9 @@ token
 type
 =
 =
-'
+"
 block_begin
-'
+"
 :
                     
 flush_data
@@ -7606,8 +7714,6 @@ is
 not
 None
 and
-\
-                       
 self
 .
 stream
@@ -7616,8 +7722,10 @@ current
 .
 test_any
 (
+                        
 *
 end_tokens
+                    
 )
 :
                         
@@ -7663,9 +7771,9 @@ stream
 .
 expect
 (
-'
+"
 block_end
-'
+"
 )
                 
 else
@@ -7674,11 +7782,11 @@ else
 raise
 AssertionError
 (
-'
+"
 internal
 parsing
 error
-'
+"
 )
             
 flush_data
