@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -14,6 +20,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -21,6 +28,7 @@ None
 )
     
 if
+b
 "
 querystate
 "
@@ -41,11 +49,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -80,6 +90,7 @@ GET
 .
 first
 (
+b
 "
 content
 "
@@ -94,6 +105,7 @@ GET
 .
 first
 (
+b
 "
 tag
 "
@@ -108,6 +120,7 @@ GET
 .
 first
 (
+b
 "
 date
 "
@@ -122,6 +135,7 @@ GET
 .
 first
 (
+b
 "
 expires
 "
@@ -136,6 +150,7 @@ GET
 .
 first
 (
+b
 "
 vary
 "
@@ -150,6 +165,7 @@ GET
 .
 first
 (
+b
 "
 cache_control
 "
@@ -164,6 +180,7 @@ GET
 .
 first
 (
+b
 "
 redirect
 "
@@ -178,6 +195,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -196,6 +214,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -214,6 +233,7 @@ headers
 .
 get
 (
+b
 "
 Pragma
 "
@@ -228,6 +248,7 @@ headers
 .
 get
 (
+b
 "
 Cache
 -
@@ -238,6 +259,7 @@ None
     
 ignore
 =
+b
 "
 ignore
 "
@@ -252,6 +274,7 @@ tag
         
 tag
 =
+b
 '
 "
 %
@@ -301,6 +324,7 @@ inm
             
 state
 [
+u
 "
 If
 -
@@ -310,7 +334,10 @@ Match
 "
 ]
 =
+isomorphic_decode
+(
 inm
+)
         
 if
 ims
@@ -318,6 +345,7 @@ ims
             
 state
 [
+u
 "
 If
 -
@@ -327,7 +355,10 @@ Since
 "
 ]
 =
+isomorphic_decode
+(
 ims
+)
         
 if
 pragma
@@ -335,12 +366,16 @@ pragma
             
 state
 [
+u
 "
 Pragma
 "
 ]
 =
+isomorphic_decode
+(
 pragma
+)
         
 if
 cache_control
@@ -348,6 +383,7 @@ cache_control
             
 state
 [
+u
 "
 Cache
 -
@@ -355,7 +391,10 @@ Control
 "
 ]
 =
+isomorphic_decode
+(
 cache_control
+)
     
 server_state
 .
@@ -386,9 +425,11 @@ headers
 .
 set
 (
+b
 "
 ETag
 "
+b
 '
 %
 s
@@ -407,6 +448,7 @@ headers
 .
 set
 (
+b
 "
 Last
 -
@@ -425,6 +467,7 @@ headers
 .
 set
 (
+b
 "
 Expires
 "
@@ -441,6 +484,7 @@ headers
 .
 set
 (
+b
 "
 Vary
 "
@@ -457,6 +501,7 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
@@ -503,6 +548,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -512,6 +558,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -527,6 +574,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -539,12 +587,14 @@ status
 =
 (
 302
+b
 "
 Redirect
 "
 )
         
 return
+b
 "
 "
     
@@ -583,6 +633,7 @@ status
 =
 (
 304
+b
 "
 Not
 Modified
@@ -590,6 +641,7 @@ Modified
 )
         
 return
+b
 "
 "
     
@@ -602,6 +654,7 @@ status
 =
 (
 200
+b
 "
 OK
 "
@@ -613,11 +666,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
