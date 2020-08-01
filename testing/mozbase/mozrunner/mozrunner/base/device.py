@@ -539,6 +539,14 @@ app_ctx
 .
 remote_process
         
+self
+.
+device
+.
+run_as_package
+=
+app
+        
 args
 =
 [
