@@ -112,12 +112,6 @@ which
 '
         
 '
-python3
--
-devel
-'
-        
-'
 rpmconf
 '
         
@@ -151,12 +145,6 @@ gcc
 c
 +
 +
-'
-        
-'
-python3
--
-wheel
 '
         
 '
@@ -839,23 +827,6 @@ zypper_install
 (
 '
 nasm
-'
-)
-    
-def
-upgrade_python
-(
-self
-current
-)
-:
-        
-self
-.
-zypper_install
-(
-'
-python3
 '
 )
     

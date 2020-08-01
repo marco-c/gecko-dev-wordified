@@ -112,12 +112,6 @@ nodejs
 '
         
 '
-python3
--
-pip
-'
-        
-'
 unzip
 '
         
@@ -479,28 +473,6 @@ install_system_packages
 self
 )
 :
-        
-#
-Python
-3
-may
-not
-be
-present
-on
-all
-distros
-.
-Search
-for
-it
-and
-        
-#
-install
-if
-found
-.
         
 self
 .
