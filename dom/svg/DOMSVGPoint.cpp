@@ -319,7 +319,6 @@ AutoChangePointNotifier
 DOMSVGPoint
 *
 aPoint
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -342,8 +341,6 @@ mPoint
 aPoint
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mPoint
@@ -478,7 +475,6 @@ mPoint
 nsAttrValue
 mEmptyOrOldValue
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 float

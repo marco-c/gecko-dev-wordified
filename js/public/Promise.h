@@ -126,15 +126,6 @@ h
 #
 include
 "
-mozilla
-/
-GuardObjects
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h
@@ -2058,7 +2049,6 @@ public
 explicit
 AutoDebuggerJobQueueInterruption
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 ~
@@ -2263,8 +2253,6 @@ runJobs
 ;
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 JSContext
 *
 cx

@@ -201,15 +201,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LinkedList
 .
 h
@@ -2896,7 +2887,6 @@ mRange
 bool
 mOldValue
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -2905,7 +2895,6 @@ AutoCalledByJSRestore
 nsRange
 &
 aRange
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRange
@@ -2919,8 +2908,6 @@ aRange
 mCalledByJS
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AutoCalledByJSRestore

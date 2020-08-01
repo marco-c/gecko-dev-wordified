@@ -866,15 +866,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 LinkedList
 .
 h
@@ -14112,7 +14103,6 @@ AutoScriptEvaluate
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mJSContext
@@ -14124,8 +14114,6 @@ mEvaluated
 false
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 /
 *
@@ -14213,7 +14201,6 @@ JSAutoRealm
 >
 mAutoRealm
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 /
 /
 No
@@ -14337,7 +14324,6 @@ JS
 :
 HandleId
 name
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -14370,8 +14356,6 @@ name
 #
 endif
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AutoResolveName
@@ -14432,7 +14416,6 @@ mCheck
 ;
 #
 endif
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 /

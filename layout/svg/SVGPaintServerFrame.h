@@ -237,7 +237,6 @@ AutoSetRestorePaintServerState
 nsIFrame
 *
 aFrame
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mFrame
@@ -245,8 +244,6 @@ mFrame
 aFrame
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mFrame
 -
 >
@@ -276,7 +273,6 @@ nsIFrame
 *
 mFrame
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class

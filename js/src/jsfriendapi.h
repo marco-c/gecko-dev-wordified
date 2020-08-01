@@ -13731,7 +13731,6 @@ callback
 CTypesActivityType
 endType
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 AutoCTypesActivityCallback
@@ -13743,7 +13742,6 @@ CTypesActivityType
 beginType
 CTypesActivityType
 endType
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~

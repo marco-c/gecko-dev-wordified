@@ -140,15 +140,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 RangeBoundary
 .
 h
@@ -5506,7 +5497,6 @@ AutoTransactionBatchExternal
 EditorBase
 &
 aEditorBase
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mEditorBase
@@ -5514,8 +5504,6 @@ mEditorBase
 aEditorBase
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_KnownLive
 (
 mEditorBase
@@ -5548,7 +5536,6 @@ EditorBase
 &
 mEditorBase
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -5810,7 +5797,6 @@ public
 explicit
 DOMIterator
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 explicit
@@ -5819,7 +5805,6 @@ DOMIterator
 nsINode
 &
 aNode
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 virtual
@@ -6007,7 +5992,6 @@ mIter
 PostContentIterator
 mPostOrderIter
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -6023,7 +6007,6 @@ public
 explicit
 DOMSubtreeIterator
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 virtual
@@ -6053,7 +6036,6 @@ DOMSubtreeIterator
 nsINode
 &
 aNode
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 =
 delete

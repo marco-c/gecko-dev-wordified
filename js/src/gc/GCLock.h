@@ -222,7 +222,6 @@ gc
 GCRuntime
 *
 gc
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 gc
@@ -230,8 +229,6 @@ gc
 gc
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 lock
 (
 )
@@ -243,7 +240,6 @@ AutoLockGC
 JSRuntime
 *
 rt
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 AutoLockGC
@@ -255,8 +251,6 @@ rt
 gc
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AutoLockGC
@@ -369,7 +363,6 @@ Mutex
 >
 lockGuard_
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 AutoLockGC
 (
 const
@@ -637,7 +630,6 @@ AutoUnlockGC
 AutoLockGC
 &
 lock
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 lock
@@ -645,8 +637,6 @@ lock
 lock
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 lock
 .
 unlock
@@ -672,7 +662,6 @@ AutoLockGC
 &
 lock
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 AutoUnlockGC
 (
 const

@@ -134,15 +134,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Tuple
 .
 h
@@ -434,7 +425,6 @@ const
 char
 *
 aDynamicString
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -444,7 +434,6 @@ AutoProfilerLabel
 ;
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 void
 *
 mEntryContext

@@ -296,7 +296,6 @@ AutoSuppressProfilerSampling
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -313,7 +312,6 @@ cx_
 bool
 previouslyEnabled_
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 MOZ_ALWAYS_INLINE
@@ -328,7 +326,6 @@ cx
 JSScript
 *
 script
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 profiler_
@@ -342,8 +339,6 @@ geckoProfiler
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 MOZ_LIKELY
@@ -552,7 +547,6 @@ ProfilingCategoryPair
 categoryPair
 uint32_t
 flags
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 profiler_
@@ -566,8 +560,6 @@ geckoProfiler
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 MOZ_LIKELY
