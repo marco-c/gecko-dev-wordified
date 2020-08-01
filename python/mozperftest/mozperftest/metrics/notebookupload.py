@@ -85,6 +85,7 @@ metrics
 utils
 import
 is_number
+metric_fields
 class
 Notebook
 (
@@ -127,6 +128,12 @@ metrics
 "
 :
 {
+            
+"
+type
+"
+:
+metric_fields
             
 "
 nargs
