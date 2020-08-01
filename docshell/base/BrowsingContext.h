@@ -5270,6 +5270,17 @@ IDX_UserActivationState
 >
 )
 ;
+void
+DidSet
+(
+FieldIndex
+<
+IDX_IsActive
+>
+bool
+aOldValue
+)
+;
 /
 /
 Ensure

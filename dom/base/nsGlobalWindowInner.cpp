@@ -45072,6 +45072,10 @@ mWindowGlobalChild
 (
 aActor
 )
+mWasSuspendedByGroup
+(
+false
+)
 {
 MOZ_ASSERT
 (
