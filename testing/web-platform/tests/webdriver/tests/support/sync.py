@@ -4,6 +4,8 @@ import
 sys
 import
 time
+import
+six
 from
 webdriver
 import
@@ -724,7 +726,7 @@ rv
 =
 None
         
-last_exc
+tb
 =
 None
         
@@ -801,7 +803,9 @@ self
 exceptions
 :
                 
-last_exc
+_
+_
+tb
 =
 sys
 .
@@ -910,7 +914,18 @@ start
 message
 =
 "
+Timed
+out
+after
+{
+}
+seconds
 "
+.
+format
+(
+elapsed
+)
             
 if
 self
@@ -924,6 +939,8 @@ None
 message
 =
 "
+{
+}
 with
 message
 :
@@ -933,37 +950,28 @@ message
 .
 format
 (
+message
 self
 .
 exc_msg
 )
             
-raise
+six
+.
+reraise
+(
+self
+.
+exc_cls
 self
 .
 exc_cls
 (
-                
-"
-Timed
-out
-after
-{
-}
-seconds
-{
-}
-"
-.
-format
-(
-elapsed
+message
+=
 message
 )
-                
-cause
-=
-last_exc
+tb
 )
         
 else
