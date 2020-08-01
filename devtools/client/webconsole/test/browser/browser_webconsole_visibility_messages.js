@@ -460,7 +460,7 @@ await
 onAllMessagesInStore
 ;
 const
-count
+inInspectorMessages
 =
 await
 findMessages
@@ -475,7 +475,9 @@ inspector
 ;
 is
 (
-count
+inInspectorMessages
+.
+length
 0
 "
 No

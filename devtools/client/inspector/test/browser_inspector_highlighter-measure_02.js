@@ -848,7 +848,10 @@ parseFloat
 (
 hypot
 )
+parseFloat
+(
 HYPOTENUSE
+)
 "
 hypotenuse
 on

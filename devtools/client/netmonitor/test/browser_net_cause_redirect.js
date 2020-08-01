@@ -338,9 +338,13 @@ i
 ;
 is
 (
+parseInt
+(
 item
 .
 status
+10
+)
 status
 Request
 #

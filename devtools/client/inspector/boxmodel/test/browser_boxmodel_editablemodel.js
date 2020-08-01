@@ -400,7 +400,9 @@ is
 span
 .
 textContent
+"
 5
+"
 "
 Should
 have
@@ -590,7 +592,9 @@ is
 span
 .
 textContent
+"
 5
+"
 "
 Should
 have
@@ -706,7 +710,9 @@ is
 span
 .
 textContent
+"
 10
+"
 "
 Should
 have
@@ -1060,7 +1066,9 @@ is
 span
 .
 textContent
+"
 20
+"
 "
 Should
 have
@@ -1178,7 +1186,9 @@ is
 span
 .
 textContent
+"
 20
+"
 "
 Should
 have
@@ -1389,7 +1399,9 @@ is
 span
 .
 textContent
+"
 20
+"
 "
 Should
 have
@@ -1488,7 +1500,9 @@ is
 span
 .
 textContent
+"
 15
+"
 "
 Should
 have
@@ -1692,7 +1706,9 @@ is
 span
 .
 textContent
+"
 10
+"
 "
 Should
 have
@@ -1772,7 +1788,9 @@ is
 span
 .
 textContent
+"
 1
+"
 "
 Should
 have
@@ -2020,7 +2038,9 @@ is
 span
 .
 textContent
+"
 2
+"
 "
 Should
 have

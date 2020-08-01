@@ -428,8 +428,7 @@ getOption
 autoCloseBrackets
 "
 )
-"
-"
+false
 "
 autoCloseBrackets
 is

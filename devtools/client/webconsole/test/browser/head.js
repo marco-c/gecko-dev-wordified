@@ -3710,6 +3710,8 @@ line
 ;
 is
 (
+parseInt
+(
 dbg
 .
 _selectors
@@ -3724,7 +3726,13 @@ _getState
 )
 .
 line
+10
+)
+parseInt
+(
 line
+10
+)
 "
 expected
 source
@@ -3769,6 +3777,8 @@ column
 ;
 is
 (
+parseInt
+(
 dbg
 .
 _selectors
@@ -3783,7 +3793,13 @@ _getState
 )
 .
 column
+10
+)
+parseInt
+(
 column
+10
+)
 "
 expected
 source

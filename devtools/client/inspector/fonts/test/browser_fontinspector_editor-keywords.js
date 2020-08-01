@@ -189,12 +189,14 @@ keyword
 ;
 is
 (
+parseInt
+(
 fontWeight
 .
 value
-"
+10
+)
 700
-"
 "
 Font
 weight

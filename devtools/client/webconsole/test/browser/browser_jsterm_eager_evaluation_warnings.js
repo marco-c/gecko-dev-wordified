@@ -161,7 +161,7 @@ getElementById
 warn
 "
 )
-null
+undefined
 "
 The
 eager

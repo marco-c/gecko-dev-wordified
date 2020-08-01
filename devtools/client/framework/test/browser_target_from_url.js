@@ -1031,9 +1031,13 @@ host
 ;
 is
 (
+parseInt
+(
 settings
 .
 port
+10
+)
 port
 )
 ;
@@ -1197,9 +1201,13 @@ host
 ;
 is
 (
+parseInt
+(
 settings
 .
 port
+10
+)
 port
 )
 ;

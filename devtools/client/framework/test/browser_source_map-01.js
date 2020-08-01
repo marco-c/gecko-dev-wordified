@@ -369,7 +369,7 @@ is
 oldLoc
 .
 column
-null
+undefined
 "
 Correct
 column

@@ -1016,7 +1016,11 @@ correct
 ;
 is
 (
+parseInt
+(
 rightX1
+10
+)
 points
 [
 1
@@ -1039,7 +1043,11 @@ correct
 ;
 is
 (
+parseInt
+(
 bottomY1
+10
+)
 points
 [
 2
@@ -1249,7 +1257,11 @@ correct
 ;
 is
 (
+parseInt
+(
 rightX1
+10
+)
 points
 [
 1
@@ -1272,7 +1284,11 @@ correct
 ;
 is
 (
+parseInt
+(
 bottomY1
+10
+)
 points
 [
 2

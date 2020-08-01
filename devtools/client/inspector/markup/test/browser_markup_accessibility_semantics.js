@@ -336,6 +336,8 @@ body
 ;
 is
 (
+parseInt
+(
 bodyContainer
 .
 tagLine
@@ -347,6 +349,8 @@ aria
 -
 level
 "
+)
+10
 )
 TOP_CONTAINER_LEVEL
 -
@@ -412,6 +416,8 @@ semantics
 ;
 is
 (
+parseInt
+(
 treeitem
 .
 getAttribute
@@ -421,6 +427,8 @@ aria
 -
 level
 "
+)
+10
 )
 TOP_CONTAINER_LEVEL
 "
@@ -791,6 +799,8 @@ inspector
 ;
 is
 (
+parseInt
+(
 listItemContainer
 .
 tagLine
@@ -802,6 +812,8 @@ aria
 -
 level
 "
+)
+10
 )
 TOP_CONTAINER_LEVEL
 +

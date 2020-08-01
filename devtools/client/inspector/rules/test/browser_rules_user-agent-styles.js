@@ -1269,9 +1269,13 @@ i
 ;
 is
 (
+!
+!
 elementStyleRule
 .
 inherited
+!
+!
 entry
 .
 inherited

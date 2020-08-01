@@ -677,9 +677,13 @@ correct
 ;
 is
 (
+parseInt
+(
 extra
 .
 lines
+10
+)
 expected
 .
 extra

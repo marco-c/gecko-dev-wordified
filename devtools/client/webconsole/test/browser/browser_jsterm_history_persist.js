@@ -1380,6 +1380,10 @@ getInputValue
 hud
 )
 i
+.
+toString
+(
+)
 "
 Pressing
 up

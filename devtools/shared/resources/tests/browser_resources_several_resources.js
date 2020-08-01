@@ -785,7 +785,7 @@ test
 again
 "
 )
-null
+undefined
 "
 The
 resource

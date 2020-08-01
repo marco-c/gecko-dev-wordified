@@ -511,7 +511,7 @@ simple2
 is
 (
 bp
-null
+undefined
 "
 breakpoint
 was
@@ -769,7 +769,7 @@ bp
 options
 .
 condition
-undefined
+null
 "
 breakpoint
 condition

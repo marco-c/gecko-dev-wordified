@@ -279,7 +279,7 @@ findMessage
 hud2
 TEST_IFRAME_URI
 )
-null
+undefined
 "
 iframe
 network

@@ -546,9 +546,14 @@ spectrum
 ;
 is
 (
+"
+{
 spectrum
 .
 rgb
+}
+"
+'
 "
 200
 170
@@ -557,6 +562,7 @@ rgb
 .
 5
 "
+'
 "
 The
 correct
