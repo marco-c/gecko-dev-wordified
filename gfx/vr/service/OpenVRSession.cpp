@@ -4553,6 +4553,14 @@ height
 =
 h
 ;
+state
+.
+nativeFramebufferScaleFactor
+=
+1
+.
+0f
+;
 /
 /
 default
