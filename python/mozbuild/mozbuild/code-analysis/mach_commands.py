@@ -8852,6 +8852,8 @@ found
         
 import
 distutils
+.
+spawn
         
 java
 =
