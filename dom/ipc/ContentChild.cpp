@@ -12762,10 +12762,6 @@ ContentChild
 :
 AllocPStartupCacheChild
 (
-const
-bool
-&
-wantCacheData
 )
 {
 return
@@ -12827,10 +12823,6 @@ scache
 PStartupCacheChild
 *
 actor
-const
-bool
-&
-wantCacheData
 )
 {
 static_cast
@@ -12848,7 +12840,6 @@ actor
 >
 Init
 (
-wantCacheData
 )
 ;
 return

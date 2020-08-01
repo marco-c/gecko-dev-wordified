@@ -193,8 +193,6 @@ default
 void
 Init
 (
-bool
-wantCacheData
 )
 ;
 protected
@@ -218,13 +216,6 @@ Table
 &
 entries
 )
-;
-private
-:
-bool
-mWantCacheData
-=
-false
 ;
 }
 ;

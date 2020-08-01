@@ -1315,10 +1315,6 @@ PStartupCacheChild
 *
 AllocPStartupCacheChild
 (
-const
-bool
-&
-wantCacheData
 )
 ;
 bool
@@ -1340,10 +1336,6 @@ RecvPStartupCacheConstructor
 (
 PStartupCacheChild
 *
-const
-bool
-&
-wantCacheData
 )
 override
 ;

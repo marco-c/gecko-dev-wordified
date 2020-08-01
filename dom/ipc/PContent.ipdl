@@ -3029,8 +3029,6 @@ wantCacheData
 async
 PStartupCache
 (
-bool
-wantCacheData
 )
 ;
 async

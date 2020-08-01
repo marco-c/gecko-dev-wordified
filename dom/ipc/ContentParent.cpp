@@ -14959,6 +14959,9 @@ AddStartupCacheCmdLineArgs
 (
 *
 mSubprocess
+GetRemoteType
+(
+)
 extraArgs
 )
 ;
@@ -25003,10 +25006,6 @@ ContentParent
 :
 AllocPStartupCacheParent
 (
-const
-bool
-&
-wantCacheData
 )
 {
 return
@@ -25016,7 +25015,6 @@ scache
 :
 StartupCacheParent
 (
-wantCacheData
 )
 ;
 }
