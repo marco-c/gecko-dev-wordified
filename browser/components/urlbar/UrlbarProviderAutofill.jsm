@@ -741,13 +741,12 @@ iif
 (
 instr
 (
+host
 :
 searchString
-"
-www
-.
-"
 )
+=
+1
 host
 fixed
 )
