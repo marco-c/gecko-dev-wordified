@@ -1357,6 +1357,13 @@ args
 kwargs
 )
         
+if
+not
+taskgraph
+.
+fast
+:
+            
 check_schema
 (
 self
@@ -1416,6 +1423,34 @@ Schema
         
 return
 schema
+    
+def
+_compile
+(
+self
+schema
+)
+:
+        
+if
+taskgraph
+.
+fast
+:
+            
+return
+        
+return
+super
+(
+Schema
+self
+)
+.
+_compile
+(
+schema
+)
     
 def
 __getitem__
