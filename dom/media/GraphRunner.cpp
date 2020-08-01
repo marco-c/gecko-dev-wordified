@@ -628,6 +628,9 @@ Run
 (
 )
 {
+#
+ifndef
+XP_LINUX
 atp_handle
 *
 handle
@@ -643,6 +646,8 @@ GraphRate
 )
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIThreadInternal
@@ -776,6 +781,9 @@ Notify
 )
 ;
 }
+#
+ifndef
+XP_LINUX
 if
 (
 handle
@@ -787,6 +795,8 @@ handle
 )
 ;
 }
+#
+endif
 return
 NS_OK
 ;
