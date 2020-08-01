@@ -547,12 +547,6 @@ ime
 mode
 "
 "
--
-moz
--
-inert
-"
-"
 initial
 -
 letter

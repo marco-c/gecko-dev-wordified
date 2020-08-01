@@ -11538,12 +11538,6 @@ const
 mozilla
 :
 :
-StyleInert
-mInert
-;
-mozilla
-:
-:
 StyleUserInput
 mUserInput
 ;
