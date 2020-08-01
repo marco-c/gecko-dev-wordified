@@ -712,6 +712,7 @@ args
 [
 "
 -
+-
 version
 "
 ]
