@@ -26801,6 +26801,15 @@ isProxy
 )
 ;
 }
+void
+setIsCrossRealmArrayConstructor
+(
+Register
+obj
+Register
+output
+)
+;
 private
 :
 void

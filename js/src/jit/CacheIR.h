@@ -9551,6 +9551,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachIsCrossRealmArrayConstructor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachGuardToClass
 (
 HandleFunction

@@ -16088,6 +16088,12 @@ BailoutKind
 :
 ProtoGuard
 :
+case
+BailoutKind
+:
+:
+NotProxyGuard
+:
 /
 /
 Do

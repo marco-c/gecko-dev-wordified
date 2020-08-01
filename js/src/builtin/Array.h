@@ -1207,10 +1207,9 @@ IsCrossRealmArrayConstructor
 JSContext
 *
 cx
-const
-Value
-&
-v
+JSObject
+*
+obj
 bool
 *
 result
