@@ -8089,7 +8089,7 @@ GeckoDriver
 .
 prototype
 .
-get
+navigateTo
 =
 async
 function
@@ -8133,14 +8133,14 @@ parameters
 .
 url
 ;
-let
-get
+const
+navigated
 =
 this
 .
 listener
 .
-get
+navigateTo
 (
 {
 url
@@ -8266,7 +8266,7 @@ parameters
 )
 ;
 await
-get
+navigated
 ;
 this
 .
@@ -25360,7 +25360,7 @@ GeckoDriver
 .
 prototype
 .
-get
+navigateTo
 "
 WebDriver
 :
