@@ -619,6 +619,8 @@ createInlinedICScript
 JSFunction
 *
 target
+BytecodeLocation
+loc
 )
 ;
 void
