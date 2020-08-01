@@ -516,6 +516,17 @@ const
 override
 ;
 void
+AppendImageCompositeNotification
+(
+const
+ImageCompositeNotificationInfo
+&
+aInfo
+)
+const
+override
+;
+void
 SetCurrentTextureHost
 (
 TextureHost
