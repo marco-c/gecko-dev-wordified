@@ -9777,6 +9777,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachTypedArrayLength
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
