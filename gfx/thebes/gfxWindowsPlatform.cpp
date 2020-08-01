@@ -11087,6 +11087,9 @@ Display
 NotifyVsync
 (
 vsync
+vsync
++
+mVsyncRate
 )
 ;
 /

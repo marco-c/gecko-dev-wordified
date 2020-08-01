@@ -535,8 +535,14 @@ Display
 :
 NotifyVsync
 (
+const
 TimeStamp
+&
 aVsyncTimestamp
+const
+TimeStamp
+&
+aOutputTimestamp
 )
 {
 /
@@ -679,6 +685,7 @@ event
 (
 mVsyncId
 aVsyncTimestamp
+aOutputTimestamp
 )
 ;
 for
