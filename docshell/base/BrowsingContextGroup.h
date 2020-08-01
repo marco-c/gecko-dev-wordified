@@ -191,6 +191,9 @@ WindowContext
 class
 ContentParent
 ;
+class
+DocGroup
+;
 /
 /
 A

@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsProxyRelease
 .
 h

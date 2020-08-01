@@ -382,6 +382,17 @@ mozilla
 /
 dom
 /
+SessionStorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StorageEvent
 .
 h

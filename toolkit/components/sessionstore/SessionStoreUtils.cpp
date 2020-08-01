@@ -173,6 +173,17 @@ mozilla
 /
 dom
 /
+SessionStorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SessionStoreUtils
 .
 h

@@ -215,6 +215,9 @@ Units
 .
 h
 "
+class
+nsFrameLoader
+;
 namespace
 mozilla
 {

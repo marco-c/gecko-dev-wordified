@@ -1083,6 +1083,17 @@ mozilla
 /
 dom
 /
+SessionStorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 StorageIPC
 .
 h

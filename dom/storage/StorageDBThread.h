@@ -173,6 +173,15 @@ include
 "
 mozilla
 /
+OriginAttributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 storage
 /
 StatementCache
