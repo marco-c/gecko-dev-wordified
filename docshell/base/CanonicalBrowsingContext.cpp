@@ -6014,13 +6014,6 @@ GetNewOrUsedLaunchingBrowserProcess
 (
 /
 *
-aFrameElement
-=
-*
-/
-nullptr
-/
-*
 aRemoteType
 =
 *
