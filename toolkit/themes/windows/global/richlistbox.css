@@ -86,8 +86,14 @@ xul
 ;
 richlistbox
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

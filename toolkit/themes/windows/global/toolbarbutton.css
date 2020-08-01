@@ -219,8 +219,14 @@ toolbarbutton
 /
 toolbarbutton
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -479,9 +485,6 @@ menu
 -
 dropmarker
 {
--
-moz
--
 appearance
 :
 none

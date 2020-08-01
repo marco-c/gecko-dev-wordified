@@ -129,9 +129,6 @@ png
 "
 )
 ;
--
-moz
--
 appearance
 :
 none
@@ -490,9 +487,6 @@ block
 #
 mediaSplitter
 {
--
-moz
--
 appearance
 :
 none
@@ -566,8 +560,14 @@ Tab
 #
 permList
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

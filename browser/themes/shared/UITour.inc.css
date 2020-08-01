@@ -70,9 +70,6 @@ Tour
 #
 UITourHighlightContainer
 {
--
-moz
--
 appearance
 :
 none
@@ -323,9 +320,6 @@ position
 :
 relative
 ;
--
-moz
--
 appearance
 :
 none
@@ -567,9 +561,6 @@ button
 link
 )
 {
--
-moz
--
 appearance
 :
 none
@@ -730,9 +721,6 @@ not
 hover
 )
 {
--
-moz
--
 appearance
 :
 none

@@ -873,9 +873,6 @@ scrollbutton
 down
 )
 {
--
-moz
--
 appearance
 :
 none
@@ -966,9 +963,6 @@ findbar
 -
 button
 {
--
-moz
--
 appearance
 :
 none
@@ -984,9 +978,6 @@ toolbarbutton
 -
 1
 {
--
-moz
--
 appearance
 :
 none
@@ -2995,9 +2986,6 @@ padding
 :
 4px
 ;
--
-moz
--
 appearance
 :
 none

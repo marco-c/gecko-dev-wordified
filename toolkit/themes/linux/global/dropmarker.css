@@ -59,8 +59,14 @@ MPL
 :
 host
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

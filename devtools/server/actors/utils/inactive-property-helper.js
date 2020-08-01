@@ -4847,9 +4847,6 @@ replaced
 unless
 they
 have
--
-moz
--
 appearance
 :
 none

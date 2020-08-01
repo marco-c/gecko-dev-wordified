@@ -183,9 +183,6 @@ png
 "
 )
 ;
--
-moz
--
 appearance
 :
 none
@@ -703,8 +700,14 @@ overflow
 :
 auto
 ;
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

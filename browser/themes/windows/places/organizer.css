@@ -363,8 +363,14 @@ end
 :
 2px
 ;
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -743,9 +749,6 @@ classic
 #
 placesToolbox
 {
--
-moz
--
 appearance
 :
 none
@@ -760,9 +763,6 @@ transparent
 #
 placesToolbar
 {
--
-moz
--
 appearance
 :
 none
@@ -1307,9 +1307,6 @@ placesToolbar
 >
 toolbarbutton
 {
--
-moz
--
 appearance
 :
 none
@@ -1352,9 +1349,6 @@ placesMenu
 >
 menu
 {
--
-moz
--
 appearance
 :
 none
@@ -1431,9 +1425,6 @@ content
 #
 searchFilter
 {
--
-moz
--
 appearance
 :
 none
@@ -1933,9 +1924,6 @@ color
 contentView
 treecol
 {
--
-moz
--
 appearance
 :
 none
@@ -2015,9 +2003,6 @@ editBMPanel_tagsSelectorRow
 >
 richlistbox
 {
--
-moz
--
 appearance
 :
 none

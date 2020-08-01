@@ -116,9 +116,6 @@ rgba
 1
 )
 ;
--
-moz
--
 appearance
 :
 none
@@ -491,8 +488,14 @@ richlistitem
 >
 image
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

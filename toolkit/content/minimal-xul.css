@@ -1002,8 +1002,14 @@ in
 .
 *
 /
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

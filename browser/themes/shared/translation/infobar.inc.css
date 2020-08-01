@@ -329,9 +329,6 @@ translation
 ]
 menulist
 {
--
-moz
--
 appearance
 :
 none
@@ -393,8 +390,14 @@ part
 dropmarker
 )
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

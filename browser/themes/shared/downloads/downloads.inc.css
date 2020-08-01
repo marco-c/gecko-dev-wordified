@@ -147,9 +147,6 @@ color
 :
 inherit
 ;
--
-moz
--
 appearance
 :
 none
@@ -215,9 +212,6 @@ separator
 color
 )
 ;
--
-moz
--
 appearance
 :
 none
@@ -933,9 +927,6 @@ hidden
 .
 downloadButton
 {
--
-moz
--
 appearance
 :
 none

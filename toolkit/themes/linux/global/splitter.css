@@ -248,8 +248,14 @@ vertical
 /
 splitter
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
