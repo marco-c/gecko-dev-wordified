@@ -7499,6 +7499,9 @@ Text
 Optional
 [
 List
+[
+Text
+]
 ]
 )
 -
