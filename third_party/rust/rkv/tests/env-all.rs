@@ -143,6 +143,7 @@ use
 rkv
 :
 :
+{
 backend
 :
 :
@@ -150,12 +151,6 @@ backend
 Lmdb
 SafeMode
 }
-;
-use
-rkv
-:
-:
-{
 Rkv
 StoreOptions
 Value
@@ -968,8 +963,6 @@ save
 to
 disk
 (
-database
-of
 type
 A
 exists
@@ -2447,8 +2440,6 @@ save
 to
 disk
 (
-database
-of
 type
 A
 exists
