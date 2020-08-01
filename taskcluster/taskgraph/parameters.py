@@ -501,6 +501,19 @@ text_type
 Required
 (
 '
+optimize_strategies
+'
+)
+:
+Any
+(
+None
+text_type
+)
+    
+Required
+(
+'
 optimize_target_tasks
 '
 )
@@ -1126,6 +1139,12 @@ S
             
 '
 next_version
+'
+:
+None
+            
+'
+optimize_strategies
 '
 :
 None
