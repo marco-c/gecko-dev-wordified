@@ -110,9 +110,6 @@ aspect
 ratio
 "
 "
--
-moz
--
 appearance
 "
 "
