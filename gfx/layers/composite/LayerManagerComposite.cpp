@@ -3658,6 +3658,14 @@ Now
 (
 )
 ;
+mCompositionOpportunityId
+=
+mCompositionOpportunityId
+.
+Next
+(
+)
+;
 if
 (
 !

@@ -1487,6 +1487,17 @@ mCompositionTime
 ;
 /
 /
+CompositionOpportunityId
+of
+the
+current
+composition
+.
+CompositionOpportunityId
+mCompositionOpportunityId
+;
+/
+/
 When
 nonnull
 during
