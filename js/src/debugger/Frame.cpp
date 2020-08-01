@@ -1637,7 +1637,6 @@ an
 owner
 debugger
 .
-inline
 bool
 js
 :
@@ -1662,7 +1661,6 @@ isUndefined
 )
 ;
 }
-inline
 js
 :
 :
