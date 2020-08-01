@@ -369,6 +369,11 @@ nsLookAndFeel
 cpp
 '
 '
+nsNativeBasicThemeWin
+.
+cpp
+'
+'
 nsNativeDragSource
 .
 cpp
