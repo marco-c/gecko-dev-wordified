@@ -1281,8 +1281,8 @@ typedef
 mozilla
 :
 :
-LayoutDeviceIntPoint
-LayoutDeviceIntPoint
+LayoutDevicePoint
+LayoutDevicePoint
 ;
 public
 :
@@ -1433,7 +1433,7 @@ mTabId
 LayersId
 mLayersId
 ;
-LayoutDeviceIntPoint
+LayoutDevicePoint
 mOffset
 ;
 EventRegionsOverride
