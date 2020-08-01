@@ -448,7 +448,8 @@ map
 name
 =
 >
-[
+{
+return
 {
 message
 :
@@ -475,7 +476,8 @@ type
 VariableDeclarator
 "
 }
-]
+;
+}
 )
 }
 ;

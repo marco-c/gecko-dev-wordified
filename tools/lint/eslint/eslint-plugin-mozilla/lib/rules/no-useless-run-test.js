@@ -716,7 +716,10 @@ startNode
 ?
 startNode
 .
-end
+range
+[
+1
+]
 +
 1
 :
@@ -776,7 +779,10 @@ cases
 .
 node
 .
-end
+range
+[
+1
+]
 +
 1
 ]
