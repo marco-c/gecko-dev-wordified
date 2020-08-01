@@ -21360,7 +21360,7 @@ chunk
 )
 )
 {
-decommitFreeArenasWithoutUnlocking
+onOutOfMallocMemory
 (
 lock
 )
