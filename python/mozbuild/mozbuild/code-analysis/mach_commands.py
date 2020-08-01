@@ -18539,10 +18539,15 @@ readlines
                     
 pattern
 =
+six
+.
+ensure_str
+(
 pattern
 .
 rstrip
 (
+)
 )
                     
 pattern
