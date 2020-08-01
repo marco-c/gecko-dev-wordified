@@ -686,7 +686,7 @@ is
 (
 currentState
 expectedState
-curent
+current
 state
 '
 {
