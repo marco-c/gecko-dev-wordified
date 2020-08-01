@@ -201,6 +201,10 @@ stdin
 fileno
 (
 )
+                     
+close_fds
+=
+False
 )
 while
 True
