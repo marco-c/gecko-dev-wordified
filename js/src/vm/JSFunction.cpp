@@ -15939,7 +15939,7 @@ isString
 |
 name
 .
-isNumber
+isNumeric
 (
 )
 )
@@ -16319,7 +16319,7 @@ isSymbol
 |
 name
 .
-isNumber
+isNumeric
 (
 )
 )
