@@ -4718,6 +4718,15 @@ CrossOriginIsolated
 (
 )
 ;
+void
+SessionHistoryChanged
+(
+int32_t
+aIndexDelta
+int32_t
+aLengthDelta
+)
+;
 protected
 :
 virtual
