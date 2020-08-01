@@ -409,6 +409,11 @@ CompositionPayload
 >
 mScrollPayload
 ;
+void
+RemoveFractionalAsyncDelta
+(
+)
+;
 }
 ;
 }
