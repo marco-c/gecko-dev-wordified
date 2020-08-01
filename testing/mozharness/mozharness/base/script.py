@@ -2916,6 +2916,21 @@ in
 win64
 '
 )
+and
+platform
+.
+architecture
+(
+)
+[
+0
+]
+in
+(
+'
+x64
+'
+)
 :
             
 if
