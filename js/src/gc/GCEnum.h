@@ -799,11 +799,6 @@ FinalizationRegistryRecordVector
 \
 _
 (
-FinalizationRegistryRecordSet
-)
-\
-_
-(
 FinalizationRegistryRegistrations
 )
 \
