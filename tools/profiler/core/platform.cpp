@@ -40262,6 +40262,12 @@ TracingMarkerPayload
 (
 aCategoryString
 aKind
+TimeStamp
+:
+:
+NowUnfuzzed
+(
+)
 aInnerWindowID
 )
 )
@@ -40344,6 +40350,12 @@ TracingMarkerPayload
 (
 aCategoryString
 aKind
+TimeStamp
+:
+:
+NowUnfuzzed
+(
+)
 aInnerWindowID
 std
 :
