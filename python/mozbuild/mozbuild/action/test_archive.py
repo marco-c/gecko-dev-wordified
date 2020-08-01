@@ -4120,6 +4120,12 @@ py
 '
                 
 '
+selftest
+.
+py
+'
+                
+'
 xpcshellcommandline
 .
 py
