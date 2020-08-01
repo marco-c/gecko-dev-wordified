@@ -1218,6 +1218,13 @@ return
 Ellipsis
 "
     
+cls
+=
+type
+(
+obj
+)
+    
 #
 __builtin__
 in
@@ -1231,9 +1238,7 @@ in
 x
     
 if
-obj
-.
-__class__
+cls
 .
 __module__
 in
@@ -1249,9 +1254,7 @@ builtins
         
 name
 =
-obj
-.
-__class__
+cls
 .
 __name__
     
@@ -1260,9 +1263,7 @@ else
         
 name
 =
-obj
-.
-__class__
+cls
 .
 __module__
 +
@@ -1270,9 +1271,7 @@ __module__
 .
 "
 +
-obj
-.
-__class__
+cls
 .
 __name__
     
@@ -5084,13 +5083,29 @@ name
 )
 :
         
+#
+__class__
+is
+needed
+for
+the
+awaitable
+check
+in
+async
+mode
+        
 if
 name
-=
-=
+in
+{
 "
 _Namespace__attrs
 "
+"
+__class__
+"
+}
 :
             
 return

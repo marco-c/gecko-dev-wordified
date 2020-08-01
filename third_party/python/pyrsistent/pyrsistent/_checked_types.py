@@ -1783,8 +1783,8 @@ CheckedPVector
 __type__
 =
 (
-long
 int
+float
 )
     
 .
@@ -2426,8 +2426,8 @@ CheckedPSet
 __type__
 =
 (
-long
 int
+float
 )
     
 .
