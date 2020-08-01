@@ -392,7 +392,7 @@ target_tasks_method
 '
 :
 '
-default
+mozilla_central_tasks
 '
         
 '
@@ -641,6 +641,22 @@ target_tasks_method
 :
 '
 kaios_tasks
+'
+    
+}
+    
+'
+autoland
+'
+:
+{
+        
+'
+target_tasks_method
+'
+:
+'
+autoland_tasks
 '
     
 }
