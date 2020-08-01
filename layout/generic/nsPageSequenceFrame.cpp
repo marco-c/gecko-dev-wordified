@@ -1967,12 +1967,6 @@ Tile
 the
 pages
 vertically
-ReflowOutput
-kidReflowOutput
-(
-aReflowInput
-)
-;
 for
 (
 nsIFrame
@@ -2040,6 +2034,12 @@ GetWritingMode
 )
 pageSize
 )
+)
+;
+ReflowOutput
+kidReflowOutput
+(
+kidReflowInput
 )
 ;
 nsReflowStatus
