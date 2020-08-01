@@ -157,6 +157,12 @@ new
 classes
 .
 *
+/
+class
+ClassListPreviewer
+{
+/
+*
 *
 param
 {
@@ -191,8 +197,7 @@ go
 .
 *
 /
-function
-ClassListPreviewer
+constructor
 (
 inspector
 containerEl
@@ -492,11 +497,6 @@ onNewSelection
 )
 ;
 }
-ClassListPreviewer
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -1238,7 +1238,6 @@ render
 ;
 }
 }
-;
 module
 .
 exports
