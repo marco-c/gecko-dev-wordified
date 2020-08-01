@@ -2187,6 +2187,9 @@ ArrayObject
 >
 templateObject_
 ;
+size_t
+maxInlineElements_
+;
 public
 :
 static
@@ -2206,6 +2209,8 @@ offset
 ArrayObject
 *
 templateObject
+size_t
+maxInlineElements
 )
 :
 WarpOpSnapshot
@@ -2216,6 +2221,10 @@ offset
 templateObject_
 (
 templateObject
+)
+maxInlineElements_
+(
+maxInlineElements
 )
 {
 }
@@ -2228,6 +2237,16 @@ const
 {
 return
 templateObject_
+;
+}
+size_t
+maxInlineElements
+(
+)
+const
+{
+return
+maxInlineElements_
 ;
 }
 void
