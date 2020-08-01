@@ -4226,6 +4226,12 @@ const
 ReflowInput
 &
 aReflowInput
+const
+LogicalMargin
+&
+aBorderPadding
+nscoord
+aIntrinsicBorderBoxBSize
 )
 ;
 protected
