@@ -647,6 +647,9 @@ is
 fontSizeField
 .
 value
+"
+"
++
 defaultFontSize
 "
 Font

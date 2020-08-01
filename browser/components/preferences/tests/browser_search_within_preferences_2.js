@@ -158,7 +158,9 @@ is
 weavePrefsDeck
 .
 selectedIndex
+"
 0
+"
 "
 Should
 select

@@ -5574,9 +5574,7 @@ is
 preview
 .
 width
-"
 664
-"
 "
 The
 width
@@ -5590,9 +5588,7 @@ is
 preview
 .
 height
-"
 90
-"
 "
 The
 height
@@ -5734,9 +5730,7 @@ is
 preview
 .
 width
-"
 664
-"
 "
 The
 width
@@ -5750,9 +5744,7 @@ is
 preview
 .
 height
-"
 90
-"
 "
 The
 height

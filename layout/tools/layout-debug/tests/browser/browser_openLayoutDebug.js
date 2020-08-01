@@ -92,6 +92,8 @@ is
 domWindow
 .
 location
+.
+href
 "
 chrome
 :

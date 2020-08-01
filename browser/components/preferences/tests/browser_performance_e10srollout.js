@@ -467,6 +467,9 @@ contentProcessCount
 selectedItem
 .
 value
+"
+"
++
 DEFAULT_PROCESS_COUNT
 "
 selected
@@ -704,6 +707,9 @@ contentProcessCount
 selectedItem
 .
 value
+"
+"
++
 kNewCount
 "
 selected

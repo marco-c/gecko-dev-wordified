@@ -612,7 +612,8 @@ expectAudio
 false
 expectScreen
 =
-false
+"
+"
 ;
 if
 (
@@ -660,9 +661,12 @@ screen
 }
 is
 (
+Boolean
+(
 ui
 .
 showCameraIndicator
+)
 expectVideo
 "
 camera
@@ -675,9 +679,12 @@ expected
 ;
 is
 (
+Boolean
+(
 ui
 .
 showMicrophoneIndicator
+)
 expectAudio
 "
 microphone

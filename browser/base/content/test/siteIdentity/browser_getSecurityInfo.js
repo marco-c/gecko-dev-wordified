@@ -279,10 +279,10 @@ getSecurityInfo
 (
 )
 ;
-is
+ok
 (
+!
 securityInfo
-null
 "
 Found
 no
@@ -447,10 +447,10 @@ getSecurityInfo
 (
 )
 ;
-is
+ok
 (
+!
 securityInfo
-null
 "
 Found
 no

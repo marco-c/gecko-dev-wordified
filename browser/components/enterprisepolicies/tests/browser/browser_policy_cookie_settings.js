@@ -1167,7 +1167,9 @@ text
 is
 (
 text
+"
 0
+"
 '
 "
 Reject

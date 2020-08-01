@@ -169,7 +169,11 @@ test_default_zoom
 await
 checkPreloadedZoom
 (
+"
 1
+.
+00
+"
 "
 default
 preloaded

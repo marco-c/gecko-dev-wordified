@@ -226,7 +226,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 1
+"
 "
 Correct
 initial
@@ -307,7 +309,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 11
+"
 "
 Correct
 increment
@@ -346,7 +350,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 1
+"
 "
 Correct
 decrement
@@ -415,7 +421,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 41
+"
 "
 Correct
 value
@@ -510,7 +518,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 11
+"
 "
 Correct
 initial
@@ -591,7 +601,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 12
+"
 "
 Correct
 increment
@@ -630,7 +642,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 11
+"
 "
 Correct
 decrement
@@ -699,7 +713,9 @@ getAttributeValue
 AXValue
 "
 )
+"
 42
+"
 "
 Correct
 value

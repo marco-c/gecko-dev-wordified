@@ -503,6 +503,9 @@ contentProcessCount
 selectedItem
 .
 value
+"
+"
++
 DEFAULT_PROCESS_COUNT
 "
 selected
@@ -685,7 +688,9 @@ contentProcessCount
 selectedItem
 .
 value
+"
 7
+"
 "
 selected
 item
@@ -803,6 +808,9 @@ contentProcessCount
 selectedItem
 .
 value
+"
+"
++
 DEFAULT_PROCESS_COUNT
 "
 selected
@@ -1362,7 +1370,9 @@ contentProcessCount
 selectedItem
 .
 value
+"
 7
+"
 "
 selected
 item

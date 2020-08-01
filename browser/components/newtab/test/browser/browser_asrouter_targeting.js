@@ -396,10 +396,10 @@ context
 }
 )
 ;
-is
+ok
 (
+!
 match
-undefined
 "
 should
 return
@@ -497,10 +497,10 @@ onError
 }
 )
 ;
-is
+ok
 (
+!
 match
-undefined
 "
 should
 return
@@ -1209,7 +1209,9 @@ isFxAEnabled
 "
 }
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -1224,7 +1226,7 @@ message
 ]
 }
 )
-undefined
+)
 "
 should
 not
@@ -1390,7 +1392,9 @@ message
 }
 )
 ;
-is
+ok
+(
+!
 (
 results
 ?
@@ -1402,7 +1406,7 @@ results
 )
 :
 results
-undefined
+)
 "
 Should
 not
@@ -2943,7 +2947,9 @@ host
 "
 }
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -2958,7 +2964,7 @@ message
 ]
 }
 )
-undefined
+)
 "
 should
 not
@@ -3070,7 +3076,9 @@ host
 "
 }
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -3085,7 +3093,7 @@ message
 ]
 }
 )
-undefined
+)
 "
 should
 not
@@ -3207,7 +3215,9 @@ host
 )
 }
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -3222,7 +3232,7 @@ message
 ]
 }
 )
-undefined
+)
 "
 should
 not
@@ -4924,7 +4934,9 @@ com
 }
 }
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -4936,7 +4948,7 @@ messages
 trigger
 }
 )
-undefined
+)
 "
 should
 not
@@ -5035,7 +5047,9 @@ pinTab
 tab
 )
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -5047,7 +5061,7 @@ messages
 trigger
 }
 )
-undefined
+)
 "
 should
 not
@@ -5099,7 +5113,9 @@ bar
 "
 }
 ;
-is
+ok
+(
+!
 (
 await
 ASRouterTargeting
@@ -5111,7 +5127,7 @@ messages
 trigger
 }
 )
-undefined
+)
 "
 should
 not

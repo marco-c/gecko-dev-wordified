@@ -143,8 +143,9 @@ reset
 (
 )
 ;
-is
+ok
 (
+!
 CustomizableUI
 .
 getWidget
@@ -159,7 +160,6 @@ button
 )
 .
 areaType
-null
 "
 Button
 should
@@ -276,8 +276,9 @@ removeWidgetFromArea
 kButtonId
 )
 ;
-is
+ok
 (
+!
 CustomizableUI
 .
 getWidget
@@ -286,7 +287,6 @@ kButtonId
 )
 .
 areaType
-null
 "
 Button
 should
@@ -341,8 +341,9 @@ undoReset
 (
 )
 ;
-is
+ok
 (
+!
 CustomizableUI
 .
 getWidget
@@ -351,7 +352,6 @@ kButtonId
 )
 .
 areaType
-null
 "
 Button
 should

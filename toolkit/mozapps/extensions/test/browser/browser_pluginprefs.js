@@ -350,6 +350,9 @@ textContent
 testPlugin
 .
 pluginLibraries
+[
+0
+]
 "
 Plugin
 file

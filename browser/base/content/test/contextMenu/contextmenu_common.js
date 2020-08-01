@@ -1299,7 +1299,9 @@ index
 {
 is
 (
+{
 actualItem
+}
 expectedItem
 "
 checking

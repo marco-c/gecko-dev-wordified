@@ -2473,6 +2473,8 @@ is
 aManagerWindow
 .
 location
+.
+href
 MANAGER_URI
 "
 Should
@@ -2730,6 +2732,8 @@ is
 aManagerWindow
 .
 location
+.
+href
 MANAGER_URI
 "
 Should

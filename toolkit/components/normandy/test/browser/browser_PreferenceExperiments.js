@@ -4642,8 +4642,9 @@ clean
 up
 correctly
 .
-is
+ok
 (
+!
 Preferences
 .
 get
@@ -4654,7 +4655,6 @@ fake
 preference
 "
 )
-null
 "
 preference
 should
@@ -9050,8 +9050,9 @@ sendEventStub
 mockExperiments
 )
 {
-is
+ok
 (
+!
 Preferences
 .
 get
@@ -9062,7 +9063,6 @@ fake
 preference
 "
 )
-null
 "
 preference
 should

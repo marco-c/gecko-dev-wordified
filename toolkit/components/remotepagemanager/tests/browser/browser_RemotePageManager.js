@@ -2611,7 +2611,9 @@ sort
 (
 )
 }
+{
 expectedProperties
+}
 {
 description
 }

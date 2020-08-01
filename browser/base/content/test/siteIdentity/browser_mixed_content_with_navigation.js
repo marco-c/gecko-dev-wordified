@@ -798,7 +798,7 @@ box
 "
 )
 .
-classList
+className
 ;
 is
 (

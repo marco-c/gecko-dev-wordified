@@ -1704,7 +1704,7 @@ entry
 is
 (
 exists
-false
+0
 "
 form
 entry
@@ -2647,7 +2647,10 @@ formEntries
 ;
 is
 (
+Boolean
+(
 exists
+)
 false
 "
 form
@@ -3071,7 +3074,10 @@ formEntry
 ;
 is
 (
+Boolean
+(
 exists
+)
 false
 "
 form

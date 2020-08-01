@@ -349,12 +349,11 @@ label
 "
 )
 ;
-todo_isnot
+todo
 (
 button
 .
 accesskey
-null
 "
 We
 expect

@@ -417,7 +417,9 @@ is
 menulistHCM
 .
 value
+"
 0
+"
 "
 HCM
 menulist
@@ -477,7 +479,9 @@ is
 menulistHCM
 .
 value
+"
 1
+"
 "
 HCM
 menulist
@@ -602,7 +606,9 @@ is
 menulistHCM
 .
 value
+"
 2
+"
 "
 HCM
 menulist
@@ -721,7 +727,9 @@ is
 menulistHCM
 .
 value
+"
 0
+"
 "
 HCM
 menulist
@@ -840,7 +848,9 @@ is
 menulistHCM
 .
 value
+"
 1
+"
 "
 HCM
 menulist
@@ -992,7 +1002,7 @@ recorded
 value
 verifyBackplate
 (
-0
+false
 )
 ;
 Services
@@ -1019,7 +1029,7 @@ recorded
 value
 verifyBackplate
 (
-1
+true
 )
 ;
 }
