@@ -96,6 +96,9 @@ def
 __init__
 (
 self
+verbose
+=
+False
 )
 :
         
@@ -104,6 +107,12 @@ self
 proc
 =
 None
+        
+self
+.
+verbose
+=
+verbose
     
 def
 __call__
@@ -217,6 +226,10 @@ raptor
 "
 in
 line
+or
+self
+.
+verbose
 :
             
 LOG

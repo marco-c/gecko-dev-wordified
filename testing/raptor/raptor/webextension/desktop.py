@@ -172,6 +172,16 @@ output_handler
 =
 OutputHandler
 (
+verbose
+=
+self
+.
+config
+[
+"
+verbose
+"
+]
 )
         
 process_args
