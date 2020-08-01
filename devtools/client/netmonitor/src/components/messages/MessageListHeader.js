@@ -339,6 +339,14 @@ this
 .
 props
 ;
+if
+(
+!
+this
+.
+contextMenu
+)
+{
 this
 .
 contextMenu
@@ -352,6 +360,7 @@ resetColumns
 }
 )
 ;
+}
 this
 .
 contextMenu
