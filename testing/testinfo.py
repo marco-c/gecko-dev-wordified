@@ -8373,6 +8373,17 @@ key
 .
 sort
 (
+key
+=
+lambda
+k
+:
+k
+[
+'
+manifest
+'
+]
 )
         
 if
