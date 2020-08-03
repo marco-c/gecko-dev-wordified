@@ -193,10 +193,6 @@ SVGAnimatedIntegerPair
 {
 public
 :
-friend
-class
-AutoChangeIntegerPairNotifier
-;
 using
 SVGElement
 =

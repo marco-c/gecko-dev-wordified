@@ -209,10 +209,6 @@ SVGAnimatedNumberPair
 {
 public
 :
-friend
-class
-AutoChangeNumberPairNotifier
-;
 using
 SVGElement
 =

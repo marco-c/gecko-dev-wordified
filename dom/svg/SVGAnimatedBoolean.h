@@ -194,10 +194,6 @@ SVGAnimatedBoolean
 {
 public
 :
-friend
-class
-AutoChangeBooleanNotifier
-;
 using
 SVGElement
 =
