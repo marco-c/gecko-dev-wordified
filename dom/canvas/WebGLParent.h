@@ -155,6 +155,10 @@ class
 SurfaceDescriptor
 ;
 }
+/
+/
+namespace
+layers
 namespace
 dom
 {
