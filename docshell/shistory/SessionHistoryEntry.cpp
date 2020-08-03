@@ -651,6 +651,7 @@ NS_IMPL_ISUPPORTS
 (
 SessionHistoryEntry
 nsISHEntry
+SessionHistoryEntry
 )
 NS_IMETHODIMP
 SessionHistoryEntry
