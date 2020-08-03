@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -155,6 +161,33 @@ value
 "
 )
     
+#
+value
+here
+must
+be
+a
+text
+string
+.
+It
+will
+be
+json
+.
+dump
+(
+)
+'
+ed
+in
+stash
+-
+take
+.
+py
+.
+    
 request
 .
 server
@@ -164,7 +197,10 @@ stash
 put
 (
 key
+isomorphic_decode
+(
 value
+)
 url_dir
 )
     
