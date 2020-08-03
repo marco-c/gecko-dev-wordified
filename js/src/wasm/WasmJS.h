@@ -905,6 +905,12 @@ defined
 (
 ENABLE_WASM_SIMD
 )
+&
+&
+defined
+(
+DEBUG
+)
 /
 /
 Report
