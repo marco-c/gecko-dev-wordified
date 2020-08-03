@@ -2123,13 +2123,6 @@ ShouldReflowAllKids
 )
 |
 |
-aReflowInput
-.
-IsBResize
-(
-)
-|
-|
 mFrames
 .
 FirstChild
