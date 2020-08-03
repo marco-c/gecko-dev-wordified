@@ -5630,7 +5630,7 @@ GetContentInsertionFrame
 ;
 }
 bool
-DoesClipChildren
+DoesClipChildrenInBothAxes
 (
 )
 final
@@ -8150,7 +8150,7 @@ GetContentInsertionFrame
 ;
 }
 bool
-DoesClipChildren
+DoesClipChildrenInBothAxes
 (
 )
 final
