@@ -398,6 +398,7 @@ modified
 field
 set
 .
+MOZ_MUST_USE
 nsresult
 Commit
 (
@@ -1488,6 +1489,7 @@ typename
 U
 >
 \
+MOZ_MUST_USE
 nsresult
 Set
 #
