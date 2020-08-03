@@ -1034,7 +1034,7 @@ GetProxyConnectResponseCode
 ;
 virtual
 bool
-DataSentToChildProcess
+DataAlreadySent
 (
 )
 =
@@ -1447,7 +1447,7 @@ override
 \
 virtual
 bool
-DataSentToChildProcess
+DataAlreadySent
 (
 )
 override

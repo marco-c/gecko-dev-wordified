@@ -290,9 +290,6 @@ shouldWaitForOnStartRequestSent
 nsCString
 cookie
 ;
-bool
-dataFromSocketProcess
-;
 }
 ;
 }

@@ -6413,7 +6413,7 @@ bool
 nsHttpTransaction
 :
 :
-DataSentToChildProcess
+DataAlreadySent
 (
 )
 {
