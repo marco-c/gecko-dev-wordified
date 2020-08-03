@@ -271,6 +271,9 @@ env_extras
 enable_quic
 =
 False
+serve_mojojs
+=
+False
 )
 :
         
@@ -389,6 +392,12 @@ self
 enable_quic
 =
 enable_quic
+        
+self
+.
+serve_mojojs
+=
+serve_mojojs
     
 def
 __enter__
@@ -1541,6 +1550,44 @@ mountpoint_routes
 /
 "
 ]
+        
+if
+self
+.
+serve_mojojs
+:
+            
+#
+TODO
+(
+Hexcles
+)
+:
+Properly
+pass
+venv
+.
+path
+in
+.
+            
+route_builder
+.
+add_mount_point
+(
+"
+/
+gen
+/
+"
+"
+_venv2
+/
+mojojs
+/
+gen
+"
+)
         
 return
 route_builder
