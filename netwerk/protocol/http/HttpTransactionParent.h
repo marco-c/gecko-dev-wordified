@@ -329,6 +329,10 @@ nsCString
 >
 &
 aAltSvcUsed
+const
+bool
+&
+aDataToChildProcess
 )
 ;
 mozilla
@@ -382,10 +386,6 @@ const
 uint32_t
 &
 aCount
-const
-bool
-&
-aDataSentToChildProcess
 )
 ;
 mozilla
@@ -555,6 +555,10 @@ nsCString
 >
 &
 aAltSvcUsed
+const
+bool
+&
+aDataToChildProcess
 )
 ;
 void
@@ -572,10 +576,6 @@ const
 uint32_t
 &
 aCount
-const
-bool
-&
-aDataSentToChildProcess
 )
 ;
 void
@@ -760,7 +760,7 @@ uint64_t
 mChannelId
 ;
 bool
-mDataAlreadySent
+mDataSentToChildProcess
 ;
 bool
 mIsDocumentLoad

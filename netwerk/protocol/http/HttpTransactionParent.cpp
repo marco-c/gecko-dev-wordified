@@ -751,7 +751,7 @@ mChannelId
 (
 0
 )
-mDataAlreadySent
+mDataSentToChildProcess
 (
 false
 )
@@ -2310,12 +2310,12 @@ bool
 HttpTransactionParent
 :
 :
-DataAlreadySent
+DataSentToChildProcess
 (
 )
 {
 return
-mDataAlreadySent
+mDataSentToChildProcess
 ;
 }
 nsISupports
@@ -2596,6 +2596,10 @@ nsCString
 >
 &
 aAltSvcUsed
+const
+bool
+&
+aDataToChildProcess
 )
 {
 mEventQ
@@ -2636,6 +2640,7 @@ aDataForSniffer
 )
 }
 aAltSvcUsed
+aDataToChildProcess
 ]
 (
 )
@@ -2660,6 +2665,7 @@ move
 aDataForSniffer
 )
 aAltSvcUsed
+aDataToChildProcess
 )
 ;
 }
@@ -2869,6 +2875,10 @@ nsCString
 >
 &
 aAltSvcUsed
+const
+bool
+&
+aDataToChildProcess
 )
 {
 LOG
@@ -2922,6 +2932,10 @@ mOnStartRequestCalled
 mStatus
 =
 aStatus
+;
+mDataSentToChildProcess
+=
+aDataToChildProcess
 ;
 if
 (
@@ -3197,10 +3211,6 @@ const
 uint32_t
 &
 aCount
-const
-bool
-&
-aDataSentToChildProcess
 )
 {
 LOG
@@ -3340,7 +3350,6 @@ this
 aData
 aOffset
 aCount
-aDataSentToChildProcess
 ]
 (
 )
@@ -3353,7 +3362,6 @@ DoOnDataAvailable
 aData
 aOffset
 aCount
-aDataSentToChildProcess
 )
 ;
 }
@@ -3384,10 +3392,6 @@ const
 uint32_t
 &
 aCount
-const
-bool
-&
-aDataSentToChildProcess
 )
 {
 LOG
@@ -3419,10 +3423,6 @@ mCanceled
 return
 ;
 }
-mDataAlreadySent
-=
-aDataSentToChildProcess
-;
 nsCOMPtr
 <
 nsIInputStream

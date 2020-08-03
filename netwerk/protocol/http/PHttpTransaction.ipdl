@@ -258,6 +258,8 @@ dataForSniffer
 nsCString
 ?
 altSvcUsed
+bool
+dataToChildProcess
 )
 ;
 async
@@ -283,8 +285,6 @@ uint64_t
 offset
 uint32_t
 count
-bool
-dataSentToChildProcess
 )
 ;
 async

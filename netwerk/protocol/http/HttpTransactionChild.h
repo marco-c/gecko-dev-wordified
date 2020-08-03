@@ -755,7 +755,11 @@ ReleaseAcquire
 >
 mCanceled
 ;
+Atomic
+<
 nsresult
+ReleaseAcquire
+>
 mStatus
 ;
 uint64_t
