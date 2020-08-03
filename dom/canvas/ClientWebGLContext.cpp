@@ -22646,7 +22646,7 @@ std
 :
 to_string
 (
-EnumValue
+UnderlyingValue
 (
 type
 )
