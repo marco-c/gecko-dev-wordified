@@ -2880,6 +2880,12 @@ webroot
 '
                                           
 '
+create
+-
+virtualenv
+'
+                                          
+'
 install
 -
 chrome
@@ -2893,12 +2899,6 @@ install
 chromium
 -
 distribution
-'
-                                          
-'
-create
--
-virtualenv
 '
                                           
 '
@@ -2941,17 +2941,17 @@ webroot
 '
                                               
 '
+create
+-
+virtualenv
+'
+                                              
+'
 install
 -
 chromium
 -
 distribution
-'
-                                              
-'
-create
--
-virtualenv
 '
                                               
 '
