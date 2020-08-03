@@ -477,7 +477,12 @@ none
 ;
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 margin
 -

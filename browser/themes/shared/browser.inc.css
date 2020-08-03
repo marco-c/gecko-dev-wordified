@@ -387,7 +387,12 @@ PersonalToolbar
 {
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 max
 -

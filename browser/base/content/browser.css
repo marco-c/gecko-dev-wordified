@@ -101,7 +101,12 @@ width
 ;
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 }
 :
@@ -2009,7 +2014,12 @@ target
 {
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 }
 toolbar

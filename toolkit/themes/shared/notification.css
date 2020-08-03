@@ -91,7 +91,12 @@ stack
 {
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 }
 notification

@@ -52633,9 +52633,6 @@ hidden
 unscrollable
 "
 "
-clip
-"
-"
 auto
 auto
 "
@@ -52650,10 +52647,6 @@ scroll
 "
 auto
 hidden
-"
-"
-clip
-clip
 "
 "
 -
@@ -52674,7 +52667,12 @@ invalid_values
 :
 [
 "
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 -
 moz
 -
@@ -52785,9 +52783,6 @@ scroll
 hidden
 "
 "
-clip
-"
-"
 -
 moz
 -
@@ -52876,9 +52871,6 @@ scroll
 "
 "
 hidden
-"
-"
-clip
 "
 "
 -

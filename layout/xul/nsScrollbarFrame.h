@@ -520,7 +520,7 @@ too
 /
 virtual
 bool
-DoesClipChildrenInBothAxes
+DoesClipChildren
 (
 )
 override

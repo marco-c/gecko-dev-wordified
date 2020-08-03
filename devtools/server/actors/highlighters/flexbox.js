@@ -5100,7 +5100,12 @@ overflow
 =
 =
 "
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 "
 )
 {
