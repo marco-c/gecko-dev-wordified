@@ -219,6 +219,15 @@ CallConv
 for_libcall
 (
 isa
+.
+flags
+(
+)
+isa
+.
+default_call_conv
+(
+)
 )
 ;
 if
