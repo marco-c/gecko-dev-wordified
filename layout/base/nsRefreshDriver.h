@@ -2987,6 +2987,17 @@ HasImageRequests
 )
 const
 ;
+bool
+HasReasonToTick
+(
+)
+const
+;
+bool
+ShouldKeepTimerRunningWhileWaitingForFirstContentfulPaint
+(
+)
+;
 ObserverArray
 &
 ArrayFor
@@ -3636,7 +3647,7 @@ mozilla
 :
 :
 TimeStamp
-mInitialTimerRunningLimit
+mBeforeFirstContentfulPaintTimerRunningLimit
 ;
 /
 /
