@@ -569,6 +569,15 @@ settings
 )
 )
 ;
+PrintUtils
+.
+updatePrintPreview
+(
+this
+.
+sourceBrowser
+)
+;
 }
 }
 getSourceBrowser
