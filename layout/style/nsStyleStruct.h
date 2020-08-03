@@ -9995,7 +9995,7 @@ is
 /
 Visible
 or
-MozHiddenUnscrollable
+Clip
 .
 return
 mOverflowX
@@ -10019,7 +10019,7 @@ mozilla
 StyleOverflow
 :
 :
-MozHiddenUnscrollable
+Clip
 ;
 }
 bool
