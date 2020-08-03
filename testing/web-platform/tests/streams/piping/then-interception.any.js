@@ -55,7 +55,7 @@ intercepted
 [
 ]
 ;
-const
+let
 callCount
 =
 0
