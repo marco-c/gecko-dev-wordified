@@ -20634,7 +20634,7 @@ ALLOW_CLONE
 (
 MCompare
 )
-protected
+private
 :
 MOZ_MUST_USE
 bool
@@ -20647,13 +20647,15 @@ result
 ;
 MOZ_MUST_USE
 bool
-tryFoldTypeOf
+tryFoldConstantTypeOf
 (
 bool
 *
 result
 )
 ;
+public
+:
 bool
 congruentTo
 (
