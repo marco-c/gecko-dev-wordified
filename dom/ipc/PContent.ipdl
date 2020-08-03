@@ -602,7 +602,7 @@ h
 ;
 using
 struct
-LookAndFeelInt
+LookAndFeelCache
 from
 "
 mozilla
@@ -3135,10 +3135,8 @@ necessary
 async
 ThemeChanged
 (
-LookAndFeelInt
-[
-]
-lookAndFeelIntCache
+LookAndFeelCache
+lookAndFeelCache
 )
 ;
 async
@@ -3682,10 +3680,8 @@ XPCOMInitData
 xpcomInit
 StructuredCloneData
 initialData
-LookAndFeelInt
-[
-]
-lookAndFeelIntCache
+LookAndFeelCache
+lookAndFeelCache
 /
 *
 used

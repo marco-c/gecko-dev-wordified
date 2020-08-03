@@ -8900,13 +8900,13 @@ GetAll
 cp
 )
 ;
-auto
-cache
+LookAndFeelCache
+lnfCache
 =
 LookAndFeel
 :
 :
-GetIntCache
+GetCache
 (
 )
 ;
@@ -8927,7 +8927,7 @@ c
 >
 SendThemeChanged
 (
-cache
+lnfCache
 )
 ;
 }
