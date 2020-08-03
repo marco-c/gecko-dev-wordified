@@ -9712,6 +9712,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachStringSplitString
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathRandom
 (
 HandleFunction
