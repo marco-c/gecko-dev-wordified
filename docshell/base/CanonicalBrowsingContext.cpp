@@ -2668,6 +2668,9 @@ NotifyMediaMutedChanged
 (
 bool
 aMuted
+ErrorResult
+&
+aRv
 )
 {
 MOZ_ASSERT
@@ -2694,6 +2697,7 @@ context
 SetMuted
 (
 aMuted
+aRv
 )
 ;
 }
@@ -7339,6 +7343,10 @@ mCurrentLoad
 =
 aLoad
 ;
+if
+(
+NS_FAILED
+(
 SetCurrentLoadIdentifier
 (
 Some
@@ -7351,7 +7359,17 @@ GetLoadIdentifier
 )
 )
 )
+)
+)
+{
+mCurrentLoad
+=
+nullptr
 ;
+return
+false
+;
+}
 return
 true
 ;

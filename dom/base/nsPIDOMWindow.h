@@ -4113,13 +4113,6 @@ GetAudioMuted
 )
 const
 ;
-void
-SetAudioMuted
-(
-bool
-aMuted
-)
-;
 float
 GetAudioVolume
 (

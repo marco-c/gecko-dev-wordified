@@ -914,6 +914,8 @@ nsIContentPolicy
 :
 TYPE_SUBDOCUMENT
 :
+MOZ_ALWAYS_SUCCEEDS
+(
 loadingContext
 -
 >
@@ -926,6 +928,7 @@ mLoadState
 >
 GetLoadIdentifier
 (
+)
 )
 )
 )

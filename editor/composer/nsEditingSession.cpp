@@ -1670,6 +1670,8 @@ PluginsAllowedInCurrentDoc
 (
 )
 ;
+rv
+=
 aDocShell
 .
 GetBrowsingContext
@@ -1680,6 +1682,12 @@ GetBrowsingContext
 SetAllowPlugins
 (
 false
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 mDisabledJSAndPlugins
@@ -1797,6 +1805,7 @@ browsingContext
 NS_ERROR_FAILURE
 )
 ;
+return
 browsingContext
 -
 >
@@ -1804,9 +1813,6 @@ SetAllowPlugins
 (
 mPluginsEnabled
 )
-;
-return
-NS_OK
 ;
 }
 /

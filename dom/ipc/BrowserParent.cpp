@@ -4660,12 +4660,15 @@ ChildID
 )
 )
 ;
+MOZ_ALWAYS_SUCCEEDS
+(
 mBrowsingContext
 -
 >
 SetCurrentInnerWindowId
 (
 0
+)
 )
 ;
 /
