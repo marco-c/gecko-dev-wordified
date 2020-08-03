@@ -178,12 +178,7 @@ for
 let
 hiddenFrame
 of
-ChromeUtils
-.
-nondeterministicGetWeakSetKeys
-(
 gAllHiddenFrames
-)
 )
 {
 hiddenFrame
