@@ -2509,6 +2509,12 @@ return
 true
 ;
 }
+#
+if
+defined
+(
+MOZILLA_INTERNAL_API
+)
 /
 /
 This
@@ -3508,6 +3514,14 @@ break
 }
 }
 ;
+#
+endif
+/
+/
+defined
+(
+MOZILLA_INTERNAL_API
+)
 #
 endif
 /
