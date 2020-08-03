@@ -3677,6 +3677,7 @@ HasStickyConnection
 (
 )
 mTransactionObserverResult
+lastActTabOpt
 )
 ;
 return

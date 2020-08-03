@@ -306,6 +306,8 @@ hasStickyConn
 TransactionObserverResult
 ?
 transactionObserverResult
+TimeStamp
+lastActiveTabOptimization
 )
 ;
 async
