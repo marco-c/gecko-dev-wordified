@@ -839,19 +839,6 @@ bytes_remaining_to_send
 0
 :
         
-if
-not
-response
-.
-writer
-.
-flush
-(
-)
-:
-            
-break
-        
 to_send
 =
 b
@@ -874,6 +861,8 @@ len
 to_send
 )
         
+if
+not
 response
 .
 writer
@@ -882,6 +871,9 @@ write
 (
 to_send
 )
+:
+            
+break
         
 #
 Throttle

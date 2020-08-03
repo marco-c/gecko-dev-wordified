@@ -200,27 +200,19 @@ sleep
 single_delay
 )
         
-response
-.
-writer
-.
-write_content
-(
-u
-"
-\
-n
-"
-)
-        
 if
 not
 response
 .
 writer
 .
-flush
+write_content
 (
+b
+"
+\
+n
+"
 )
 :
           
