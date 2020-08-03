@@ -290,7 +290,7 @@ other
 #
 include
 "
-FuzzerDefs
+FuzzerPlatform
 .
 h
 "

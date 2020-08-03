@@ -270,7 +270,7 @@ LLVM_FUZZER_BUILTINS_H
 #
 include
 "
-FuzzerDefs
+FuzzerPlatform
 .
 h
 "

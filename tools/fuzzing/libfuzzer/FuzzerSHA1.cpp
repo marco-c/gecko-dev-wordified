@@ -370,6 +370,13 @@ FuzzerDefs
 .
 h
 "
+#
+include
+"
+FuzzerPlatform
+.
+h
+"
 /
 *
 This

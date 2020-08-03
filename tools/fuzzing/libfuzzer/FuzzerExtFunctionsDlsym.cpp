@@ -313,7 +313,7 @@ now
 #
 include
 "
-FuzzerDefs
+FuzzerPlatform
 .
 h
 "
