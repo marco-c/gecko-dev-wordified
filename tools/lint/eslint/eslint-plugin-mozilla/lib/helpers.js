@@ -508,6 +508,13 @@ defineLazyServiceGetters
 (
 this
 "
+"
+loader
+.
+lazyRequireGetter
+(
+this
+"
 ]
 ;
 const
