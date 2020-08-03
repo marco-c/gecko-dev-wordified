@@ -3097,6 +3097,9 @@ RefreshDriverTimer
 >
 mOwnTimer
 ;
+UniqueProfilerBacktrace
+mRefreshTimerStartedCause
+;
 /
 /
 nsPresContext
