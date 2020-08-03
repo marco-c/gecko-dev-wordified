@@ -4583,7 +4583,6 @@ self
 find_nightly_binary
 (
 dest
-channel
 )
     
 def
@@ -4992,15 +4991,9 @@ find_nightly_binary
 (
 self
 dest
-channel
 )
 :
         
-binary
-=
-"
-Chromium
-"
 if
 uname
 [
@@ -5011,10 +5004,40 @@ uname
 "
 Darwin
 "
-else
+:
+            
+return
+find_executable
+(
 "
-chrome
+Chromium
 "
+                                   
+os
+.
+path
+.
+join
+(
+dest
+self
+.
+_chromium_package_name
+(
+)
+"
+Chromium
+.
+app
+"
+"
+Contents
+"
+"
+MacOS
+"
+)
+)
         
 #
 find_executable
@@ -5030,7 +5053,9 @@ automatically
 return
 find_executable
 (
-binary
+"
+chrome
+"
 os
 .
 path
