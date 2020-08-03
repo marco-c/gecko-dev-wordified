@@ -1196,7 +1196,7 @@ hasShared
 ;
 }
 void
-WarpFunctionProto
+WarpBuiltinObject
 :
 :
 dumpData
@@ -1212,7 +1212,7 @@ out
 printf
 (
 "
-proto
+builtin
 :
 0x
 %
@@ -1220,7 +1220,7 @@ p
 \
 n
 "
-proto
+builtin
 (
 )
 )
@@ -2206,7 +2206,7 @@ pointers
 .
 }
 void
-WarpFunctionProto
+WarpBuiltinObject
 :
 :
 traceData
@@ -2219,13 +2219,13 @@ trc
 TraceWarpGCPtr
 (
 trc
-proto_
+builtin_
 "
 warp
 -
-function
+builtin
 -
-proto
+object
 "
 )
 ;
