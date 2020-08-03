@@ -322,6 +322,9 @@ bool
 true
 ;
 pub
+(
+crate
+)
 fn
 make_isa_builder
 (
@@ -627,6 +630,9 @@ bool
 true
 ;
 pub
+(
+crate
+)
 fn
 make_isa_builder
 (
@@ -726,6 +732,9 @@ bool
 false
 ;
 pub
+(
+crate
+)
 fn
 make_isa_builder
 (
