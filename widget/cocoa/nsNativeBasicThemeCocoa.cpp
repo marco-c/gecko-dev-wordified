@@ -109,6 +109,9 @@ do_GetBasicNativeThemeDoNotUseDirectly
 )
 {
 static
+mozilla
+:
+:
 StaticRefPtr
 <
 nsITheme
