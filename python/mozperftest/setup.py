@@ -77,6 +77,9 @@ deps
 =
 [
 "
+regex
+"
+"
 jsonschema
 "
 "
