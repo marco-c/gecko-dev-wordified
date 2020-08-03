@@ -222,6 +222,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 Initialization
 .
 h
