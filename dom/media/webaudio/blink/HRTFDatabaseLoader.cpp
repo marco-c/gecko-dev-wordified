@@ -507,6 +507,10 @@ m_databaseSampleRate
 (
 sampleRate
 )
+m_databaseLoaded
+(
+false
+)
 {
 MOZ_ASSERT
 (
@@ -1022,6 +1026,10 @@ create
 (
 m_databaseSampleRate
 )
+;
+m_databaseLoaded
+=
+true
 ;
 /
 /
