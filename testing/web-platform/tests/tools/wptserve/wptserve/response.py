@@ -5733,6 +5733,7 @@ end_headers
 (
 )
         
+return
 self
 .
 write_raw_content
@@ -5805,6 +5806,7 @@ self
 encode
 .
             
+return
 self
 .
 write
@@ -5815,26 +5817,12 @@ data
 else
 :
             
+return
 self
 .
 write_content_file
 (
 data
-)
-        
-if
-not
-self
-.
-_response
-.
-explicit_flush
-:
-            
-self
-.
-flush
-(
 )
     
 def
@@ -5960,6 +5948,10 @@ content_written
 =
 True
         
+success
+=
+True
+        
 while
 True
 :
@@ -5979,6 +5971,10 @@ if
 not
 buf
 :
+                
+success
+=
+False
                 
 break
             
@@ -6000,6 +5996,10 @@ socket
 error
 :
                 
+success
+=
+False
+                
 break
         
 data
@@ -6007,6 +6007,9 @@ data
 close
 (
 )
+        
+return
+success
     
 def
 encode
