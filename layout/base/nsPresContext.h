@@ -4100,15 +4100,6 @@ non
 paginated
 mode
 .
-Must
-only
-be
-called
-if
-IsPaginated
-(
-)
-.
 *
 /
 bool
