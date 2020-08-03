@@ -744,6 +744,9 @@ rmdir
 os
 .
 remove
+os
+.
+unlink
 )
 and
 excvalue
