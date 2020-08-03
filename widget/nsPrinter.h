@@ -165,6 +165,11 @@ bool
 aSupportsDuplex
 =
 false
+const
+bool
+aSupportsColor
+=
+false
 )
 ;
 private
@@ -190,6 +195,11 @@ mPaperList
 ;
 bool
 mSupportsDuplex
+=
+false
+;
+bool
+mSupportsColor
 =
 false
 ;
