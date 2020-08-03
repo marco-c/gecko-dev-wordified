@@ -316,6 +316,10 @@ SVGAnimatedViewBox
 {
 public
 :
+friend
+class
+AutoChangeViewBoxNotifier
+;
 using
 SVGElement
 =
