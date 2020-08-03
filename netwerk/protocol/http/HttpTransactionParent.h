@@ -431,6 +431,10 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
+const
+TimeStamp
+&
+aLastActiveTabOptHit
 )
 ;
 mozilla
