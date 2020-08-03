@@ -1492,14 +1492,11 @@ continue
 int64_t
 secondsstamp
 =
-nsCString
-(
 Substring
 (
 s
 0
 f
-)
 )
 .
 ToInteger64
