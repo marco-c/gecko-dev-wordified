@@ -16094,12 +16094,6 @@ BailoutKind
 :
 NotProxyGuard
 :
-case
-BailoutKind
-:
-:
-TagNotEqualGuard
-:
 /
 /
 Do
