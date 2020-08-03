@@ -2013,7 +2013,6 @@ SendOnDataAvailable
 data
 aOffset
 aCount
-false
 )
 ;
 return
@@ -2192,7 +2191,6 @@ SendOnDataAvailable
 data
 offset
 count
-true
 )
 )
 {
@@ -3064,6 +3062,9 @@ Timings
 proxyConnectResponseCode
 dataForSniffer
 optionalAltSvcUsed
+!
+!
+mDataBridgeParent
 )
 ;
 return
