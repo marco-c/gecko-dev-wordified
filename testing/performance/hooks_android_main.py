@@ -95,7 +95,7 @@ not
 created
 in
 the
-HomeActivity
+MAIN
 test
 so
 reduce
