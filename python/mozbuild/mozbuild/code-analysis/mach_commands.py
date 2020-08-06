@@ -8453,12 +8453,9 @@ version
 version
             
 if
-output
-.
-startswith
-(
 version_string
-)
+in
+output
 :
                 
 return
