@@ -764,7 +764,7 @@ func_args
 =
 inspect
 .
-getargspec
+getfullargspec
 (
 func
 )
@@ -772,7 +772,7 @@ func
 if
 func_args
 .
-keywords
+varkw
 :
             
 e

@@ -2928,8 +2928,7 @@ add
 path
 )
         
-source
-=
+with
 open
 (
 path
@@ -2937,6 +2936,13 @@ path
 rb
 '
 )
+as
+fh
+:
+            
+source
+=
+fh
 .
 read
 (
