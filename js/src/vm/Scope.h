@@ -792,6 +792,13 @@ AbstractBindingIter
 NameT
 >
 ;
+friend
+class
+frontend
+:
+:
+ScopeStencil
+;
 /
 /
 This
