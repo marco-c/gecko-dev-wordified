@@ -35955,7 +35955,7 @@ It
 uses
 /
 /
-AutoRangeArray
+AutoSelectionRangeArray
 to
 store
 all

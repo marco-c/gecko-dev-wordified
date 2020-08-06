@@ -1670,7 +1670,7 @@ changes
 the
 Selection
 .
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr
@@ -12797,7 +12797,7 @@ by
 AutoSelectionRestorer
 /
 /
-AutoRangeArray
+AutoSelectionRangeArray
 just
 grabs
 the
@@ -12805,9 +12805,9 @@ ranges
 in
 Selection
 .
+/
+/
 Therefore
-/
-/
 modifying
 each
 range
@@ -12817,9 +12817,9 @@ selection
 listener
 .
 So
+/
+/
 perhaps
-/
-/
 we
 should
 clone
@@ -12828,7 +12828,7 @@ range
 here
 instead
 .
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr
@@ -15359,7 +15359,7 @@ ranges
 in
 the
 selection
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr

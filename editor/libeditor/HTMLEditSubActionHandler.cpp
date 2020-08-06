@@ -23282,7 +23282,7 @@ join
 =
 true
 ;
-AutoRangeArray
+AutoSelectionRangeArray
 arrayOfRanges
 (
 SelectionRefPtr
