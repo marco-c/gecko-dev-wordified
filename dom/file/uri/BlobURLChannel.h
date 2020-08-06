@@ -238,9 +238,6 @@ called
 void
 Initialize
 (
-BlobImpl
-*
-aBlobImpl
 )
 ;
 private
