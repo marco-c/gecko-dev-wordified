@@ -12553,13 +12553,9 @@ test
 if
 any
 ranges
-in
-the
+to
+be
 deleted
-selection
-(
-selection
-)
 /
 /
 are

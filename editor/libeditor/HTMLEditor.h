@@ -18219,7 +18219,7 @@ this
 will
 call
 *
-WillDeleteSelection
+HandleDeleteSelectionInternal
 (
 )
 recursively
@@ -18989,13 +18989,13 @@ does
 not
 join
 blocks
-WillDeleteSelection
+HandleDeleteSelectionInternal
 (
 )
 may
 be
-called
 *
+called
 recursively
 .
 *
