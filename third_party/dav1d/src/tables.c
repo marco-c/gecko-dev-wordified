@@ -8468,10 +8468,14 @@ dav1d_resize_filter
 ;
 const
 uint8_t
+ALIGN
+(
 dav1d_sm_weights
 [
 128
 ]
+16
+)
 =
 {
 /

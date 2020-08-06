@@ -751,7 +751,7 @@ default
 :
 detect
 from
-extension
+content
 )
 \
 n

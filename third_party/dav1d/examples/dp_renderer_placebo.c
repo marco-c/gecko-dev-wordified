@@ -3075,6 +3075,9 @@ ar_coeff_lag
 .
 ar_coeff_shift
 =
+(
+int
+)
 src
 -
 >
