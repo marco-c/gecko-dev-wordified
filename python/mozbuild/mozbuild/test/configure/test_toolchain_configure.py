@@ -1433,6 +1433,35 @@ _WIN64
 1
 }
 #
+Despite
+the
+32
+in
+the
+name
+this
+macro
+is
+defined
+for
+32
+-
+and
+64
+-
+bit
+.
+MINGW32
+=
+{
+    
+'
+__MINGW32__
+'
+:
+True
+}
+#
 Note
 :
 In
@@ -7052,6 +7081,8 @@ gcc
 DEFAULT_GCC
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7067,6 +7098,8 @@ g
 DEFAULT_GXX
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7084,6 +7117,8 @@ gcc
 GCC_4_9
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7103,6 +7138,8 @@ g
 GXX_4_9
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7118,6 +7155,8 @@ gcc
 GCC_5
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7135,6 +7174,8 @@ g
 GXX_5
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7150,6 +7191,8 @@ gcc
 GCC_6
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7167,6 +7210,8 @@ g
 GXX_6
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7182,6 +7227,8 @@ gcc
 GCC_7
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7199,6 +7246,8 @@ g
 GXX_7
 +
 GCC_PLATFORM_X86_WIN
++
+MINGW32
         
 '
 /
@@ -7752,22 +7801,16 @@ self
 :
         
 #
-We
-'
-ll
-pick
 GCC
+is
+unsupported
 if
-msvc
-and
+you
+try
+it
+should
+find
 clang
--
-cl
-can
-'
-t
-be
-found
 .
         
 paths
@@ -7827,7 +7870,7 @@ c_compiler
 :
 self
 .
-DEFAULT_GCC_RESULT
+DEFAULT_CLANG_RESULT
             
 '
 cxx_compiler
@@ -7835,7 +7878,111 @@ cxx_compiler
 :
 self
 .
-DEFAULT_GXX_RESULT
+DEFAULT_CLANGXX_RESULT
+        
+}
+)
+    
+#
+This
+test
+is
+not
+perfect
+as
+the
+GCC
+version
+needs
+to
+be
+updated
+when
+we
+    
+#
+bump
+the
+minimum
+GCC
+version
+but
+the
+idea
+is
+that
+even
+supported
+GCC
+    
+#
+on
+other
+platforms
+should
+not
+be
+supported
+on
+Windows
+.
+    
+def
+test_overridden_supported_elsewhere_gcc
+(
+self
+)
+:
+        
+self
+.
+do_toolchain_test
+(
+self
+.
+PATHS
+{
+            
+'
+c_compiler
+'
+:
+'
+Unknown
+compiler
+or
+compiler
+not
+supported
+.
+'
+        
+}
+environ
+=
+{
+            
+'
+CC
+'
+:
+'
+gcc
+-
+7
+'
+            
+'
+CXX
+'
+:
+'
+g
++
++
+-
+7
+'
         
 }
 )
@@ -7860,9 +8007,15 @@ PATHS
 c_compiler
 '
 :
-self
+'
+Unknown
+compiler
+or
+compiler
+not
+supported
 .
-GCC_5_RESULT
+'
         
 }
 environ
@@ -8176,6 +8329,8 @@ gcc
 DEFAULT_GCC
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8191,6 +8346,8 @@ g
 DEFAULT_GXX
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8208,6 +8365,8 @@ gcc
 GCC_4_9
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8227,6 +8386,8 @@ g
 GXX_4_9
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8242,6 +8403,8 @@ gcc
 GCC_5
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8259,6 +8422,8 @@ g
 GXX_5
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8274,6 +8439,8 @@ gcc
 GCC_6
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8291,6 +8458,8 @@ g
 GXX_6
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8306,6 +8475,8 @@ gcc
 GCC_7
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
@@ -8323,6 +8494,8 @@ g
 GXX_7
 +
 GCC_PLATFORM_X86_64_WIN
++
+MINGW32
         
 '
 /
