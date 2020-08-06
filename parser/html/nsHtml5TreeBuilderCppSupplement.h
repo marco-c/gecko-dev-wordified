@@ -9885,7 +9885,7 @@ void
 nsHtml5TreeBuilder
 :
 :
-errBadStartTagInHead
+errBadStartTagInNoscriptInHead
 (
 nsAtom
 *
@@ -9906,7 +9906,7 @@ mViewSource
 AddErrorToCurrentRun
 (
 "
-errBadStartTagInHead2
+errBadStartTagInNoscriptInHead
 "
 aName
 )
