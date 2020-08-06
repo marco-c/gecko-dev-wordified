@@ -30201,13 +30201,6 @@ NameAtom
 ;
 }
 }
-AutoTransactionsConserveSelection
-dontChangeMySelection
-(
-*
-this
-)
-;
 /
 /
 If
