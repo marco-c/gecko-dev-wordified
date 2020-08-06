@@ -488,6 +488,10 @@ LayerTreeIdMapping
 [
 ]
 mapping
+GfxInfoFeatureStatus
+[
+]
+features
 )
 ;
 async
