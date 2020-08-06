@@ -24452,6 +24452,12 @@ idxInStackNodes
 ;
 }
 }
+SuppressWarnings
+(
+"
+unchecked
+"
+)
 private
 StackNode
 <
