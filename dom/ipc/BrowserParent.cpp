@@ -14216,6 +14216,11 @@ aContext
 get_canonical
 (
 )
+-
+>
+GetCurrentWindowGlobal
+(
+)
 )
 ;
 if

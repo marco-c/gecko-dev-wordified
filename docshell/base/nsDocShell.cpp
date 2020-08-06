@@ -11230,7 +11230,7 @@ do_QueryActor
 "
 LoadURIDelegate
 "
-GetWindow
+GetDocument
 (
 )
 )

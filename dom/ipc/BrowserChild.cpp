@@ -17968,9 +17968,9 @@ aWebBrowserChrome
 {
 nsCOMPtr
 <
-nsPIDOMWindowOuter
+nsIDocShell
 >
-outer
+docShell
 =
 do_GetInterface
 (
@@ -17992,7 +17992,12 @@ do_QueryActor
 "
 WebBrowserChrome
 "
-outer
+docShell
+-
+>
+GetDocument
+(
+)
 )
 )
 {
