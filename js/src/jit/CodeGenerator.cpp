@@ -51098,7 +51098,7 @@ ArrayObject
 (
 JSContext
 *
-HandleObjectGroup
+HandleArrayObject
 int32_t
 length
 )
@@ -51119,11 +51119,6 @@ ArgList
 ImmGCPtr
 (
 templateObject
--
->
-group
-(
-)
 )
 lengthReg
 )
