@@ -2142,6 +2142,10 @@ FLOAT
 =
 >
 4
+UNSIGNED_INT_8_8_8_8_REV
+=
+>
+1
 _
 =
 >
