@@ -368,10 +368,10 @@ WidgetWayland
 )
 ;
 LazyLogModule
-gWaylandDmabufLog
+gDmabufLog
 (
 "
-WaylandDmabuf
+Dmabuf
 "
 )
 ;

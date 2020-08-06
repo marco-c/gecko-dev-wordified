@@ -453,6 +453,12 @@ VA_FOURCC_YV12
 0x32315659
 #
 endif
+static
+int
+gNewSurfaceUID
+=
+1
+;
 bool
 DMABufSurface
 :
@@ -887,7 +893,9 @@ mGlobalRefCountFd
 )
 mUID
 (
-0
+gNewSurfaceUID
++
++
 )
 {
 for
