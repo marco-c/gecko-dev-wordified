@@ -3176,6 +3176,7 @@ ZBufferIdGenerator
 :
 new
 (
+0
 max_depth_ids
 )
 dirty_rects_are_valid
