@@ -991,9 +991,13 @@ BrowserBridgeParent
 :
 RecvLoadURL
 (
-nsDocShellLoadState
+const
+nsCString
+&
+aUrl
+nsIPrincipal
 *
-aLoadState
+aTriggeringPrincipal
 )
 {
 Unused
@@ -1004,7 +1008,8 @@ mBrowserParent
 >
 SendLoadURL
 (
-aLoadState
+aUrl
+aTriggeringPrincipal
 mBrowserParent
 -
 >
