@@ -161,7 +161,7 @@ numCopied
 =
 aShim
 .
-mCupsCopyDest
+cupsCopyDest
 (
 aPrinter
 0
@@ -181,7 +181,7 @@ mPrinterInfo
 =
 aShim
 .
-mCupsCopyDestInfo
+cupsCopyDestInfo
 (
 CUPS_HTTP_DEFAULT
 mPrinter
@@ -203,7 +203,7 @@ mPrinterInfo
 {
 mShim
 .
-mCupsFreeDestInfo
+cupsFreeDestInfo
 (
 mPrinterInfo
 )
@@ -220,7 +220,7 @@ mPrinter
 {
 mShim
 .
-mCupsFreeDests
+cupsFreeDests
 (
 1
 mPrinter
@@ -345,7 +345,7 @@ mPrinterInfo
 return
 mShim
 .
-mCupsCheckDestSupported
+cupsCheckDestSupported
 (
 CUPS_HTTP_DEFAULT
 mPrinter
@@ -384,7 +384,7 @@ paperCount
 =
 mShim
 .
-mCupsGetDestMediaCount
+cupsGetDestMediaCount
 (
 CUPS_HTTP_DEFAULT
 mPrinter
@@ -402,7 +402,7 @@ connection
 =
 mShim
 .
-mCupsConnectDest
+cupsConnectDest
 (
 mPrinter
 CUPS_DEST_FLAGS_NONE
@@ -488,7 +488,7 @@ getInfoSucceded
 =
 mShim
 .
-mCupsGetDestMediaByIndex
+cupsGetDestMediaByIndex
 (
 CUPS_HTTP_DEFAULT
 mPrinter
@@ -542,7 +542,7 @@ localizedName
 =
 mShim
 .
-mCupsLocalizeDestMedia
+cupsLocalizeDestMedia
 (
 connection
 mPrinter
@@ -648,7 +648,7 @@ kPointsPerHundredthMillimeter
 }
 mShim
 .
-mHttpClose
+httpClose
 (
 connection
 )
