@@ -217,6 +217,10 @@ SVGAnimatedNumber
 {
 public
 :
+friend
+class
+AutoChangeNumberNotifier
+;
 using
 SVGElement
 =
