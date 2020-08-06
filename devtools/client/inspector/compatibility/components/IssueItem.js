@@ -579,15 +579,6 @@ li
 key
 :
 alias
-className
-:
-"
-compatibility
--
-issue
--
-item__alias
-"
 }
 alias
 )
