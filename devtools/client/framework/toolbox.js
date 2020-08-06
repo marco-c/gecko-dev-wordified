@@ -4661,7 +4661,7 @@ isTopLevel
 &
 targetFront
 .
-type
+targetType
 =
 =
 =
@@ -4849,8 +4849,8 @@ if
 (
 target
 .
-type
-!
+targetType
+=
 =
 =
 TargetList
@@ -4952,7 +4952,7 @@ type
 {
 target
 .
-type
+targetType
 }
 "
 )
