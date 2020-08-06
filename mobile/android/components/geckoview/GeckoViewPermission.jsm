@@ -1439,8 +1439,6 @@ aRequest
 .
 principal
 .
-URI
-.
 displaySpec
 perm
 :

@@ -2807,8 +2807,6 @@ perm
 .
 principal
 .
-URI
-.
 displayPrePath
 )
 ;
