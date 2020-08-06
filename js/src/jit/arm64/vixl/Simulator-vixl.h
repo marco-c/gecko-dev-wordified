@@ -3878,16 +3878,6 @@ stackLimit
 )
 ;
 }
-static
-bool
-supportsAtomics
-(
-)
-{
-return
-true
-;
-}
 template
 <
 typename

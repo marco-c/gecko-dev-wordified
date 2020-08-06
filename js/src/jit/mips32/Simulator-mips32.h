@@ -1118,16 +1118,6 @@ Simulator
 (
 )
 ;
-static
-bool
-supportsAtomics
-(
-)
-{
-return
-true
-;
-}
 /
 /
 The
