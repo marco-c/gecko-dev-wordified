@@ -10702,6 +10702,15 @@ this
 )
 )
 ;
+if
+(
+mCanceled
+)
+{
+return
+NS_ERROR_ABORT
+;
+}
 nsresult
 rv
 ;
