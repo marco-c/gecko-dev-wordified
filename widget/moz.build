@@ -1252,6 +1252,11 @@ nsDeviceContextSpecProxy
 cpp
 '
 '
+nsPrinterBase
+.
+cpp
+'
+'
 nsPrintSession
 .
 cpp
