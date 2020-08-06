@@ -64,6 +64,8 @@ array
 import
 re
 import
+six
+import
 socket
 import
 struct
@@ -265,6 +267,7 @@ array
 '
 B
 '
+b
 '
 \
 0
@@ -321,6 +324,23 @@ buffer_info
 0
 ]
         
+if
+six
+.
+PY3
+:
+            
+namestr
+=
+names
+.
+tobytes
+(
+)
+        
+else
+:
+            
 namestr
 =
 names
@@ -343,6 +363,7 @@ i
 .
 split
 (
+b
 '
 \
 0
