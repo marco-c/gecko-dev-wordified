@@ -1292,11 +1292,6 @@ nsPaper
 .
 cpp
 '
-'
-nsPaperCUPS
-.
-cpp
-'
 ]
 #
 These
