@@ -2181,13 +2181,6 @@ const
 LayoutDeviceRect
 &
 aRect
-const
-wr
-:
-:
-LayoutSize
-&
-aContentSize
 ipc
 :
 :

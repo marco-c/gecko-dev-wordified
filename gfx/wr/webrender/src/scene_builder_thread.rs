@@ -3964,7 +3964,6 @@ epoch
 pipeline_id
 background
 viewport_size
-content_size
 display_list
 preserve_frame_state
 }
@@ -4058,7 +4057,6 @@ epoch
 display_list
 background
 viewport_size
-content_size
 )
 ;
 timings

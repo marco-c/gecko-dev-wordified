@@ -1195,7 +1195,6 @@ new
 self
 .
 pipeline_id
-layout_size
 )
 ;
 let
@@ -1225,11 +1224,7 @@ LayoutPoint
 zero
 (
 )
-builder
-.
-content_size
-(
-)
+layout_size
 )
 ;
 builder

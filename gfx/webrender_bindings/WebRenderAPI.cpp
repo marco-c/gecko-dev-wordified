@@ -1209,13 +1209,6 @@ wr
 :
 WrPipelineId
 pipeline_id
-const
-wr
-:
-:
-LayoutSize
-&
-content_size
 wr
 :
 :
@@ -1242,7 +1235,6 @@ aBgColor
 )
 aViewportSize
 pipeline_id
-content_size
 dl_descriptor
 &
 dl_data
@@ -4882,13 +4874,6 @@ DisplayListBuilder
 (
 PipelineId
 aId
-const
-wr
-:
-:
-LayoutSize
-&
-aContentSize
 size_t
 aCapacity
 layers
@@ -4916,10 +4901,6 @@ mPipelineId
 (
 aId
 )
-mContentSize
-(
-aContentSize
-)
 mDisplayItemCache
 (
 aCache
@@ -4935,7 +4916,6 @@ mWrState
 wr_state_new
 (
 aId
-aContentSize
 aCapacity
 )
 ;
@@ -5087,12 +5067,6 @@ DisplayListBuilder
 :
 Finalize
 (
-wr
-:
-:
-LayoutSize
-&
-aOutContentSize
 BuiltDisplayList
 &
 aOutDisplayList
@@ -5101,8 +5075,6 @@ aOutDisplayList
 wr_api_finalize_builder
 (
 mWrState
-&
-aOutContentSize
 &
 aOutDisplayList
 .
@@ -5164,10 +5136,6 @@ dl
 wr_api_finalize_builder
 (
 mWrState
-&
-aOutTransaction
-.
-mContentSize
 &
 aOutTransaction
 .

@@ -2155,7 +2155,6 @@ DisplayListBuilder
 new
 (
 root_pipeline_id
-layout_size
 )
 ;
 build_display_list
@@ -2352,7 +2351,6 @@ DisplayListBuilder
 new
 (
 root_pipeline_id
-layout_size
 )
 ;
 build_display_list

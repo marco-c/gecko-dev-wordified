@@ -275,9 +275,6 @@ DisplayListBuilder
 new
 (
 sub_pipeline_id
-sub_bounds
-.
-size
 )
 ;
 let
