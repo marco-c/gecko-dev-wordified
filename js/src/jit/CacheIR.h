@@ -9927,6 +9927,8 @@ tryAttachTypedArrayLength
 (
 HandleFunction
 callee
+bool
+isPossiblyWrapped
 )
 ;
 AttachDecision
