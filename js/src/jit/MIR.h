@@ -46449,6 +46449,14 @@ maybeUndefined_
 maybeUndefined
 )
 {
+setResultType
+(
+MIRType
+:
+:
+Value
+)
+;
 }
 public
 :

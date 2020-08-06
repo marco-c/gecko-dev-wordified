@@ -16121,6 +16121,12 @@ BailoutKind
 :
 NotArrayBufferMaybeSharedGuard
 :
+case
+BailoutKind
+:
+:
+ArrayPopShift
+:
 /
 /
 Do
