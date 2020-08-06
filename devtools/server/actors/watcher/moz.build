@@ -98,11 +98,6 @@ helpers
 DevToolsModules
 (
 '
-watcher
-.
-js
-'
-'
 WatcherRegistry
 .
 jsm
