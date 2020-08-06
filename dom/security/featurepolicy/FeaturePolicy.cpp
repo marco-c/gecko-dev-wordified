@@ -956,6 +956,12 @@ Clear
 (
 )
 ;
+mAttributeEnabledFeatureNames
+.
+Clear
+(
+)
+;
 }
 JSObject
 *
@@ -1814,6 +1820,13 @@ mFeatures
 AppendElement
 (
 feature
+)
+;
+mAttributeEnabledFeatureNames
+.
+AppendElement
+(
+aFeatureName
 )
 ;
 }
