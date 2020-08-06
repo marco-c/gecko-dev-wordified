@@ -401,6 +401,9 @@ get
 .
 enclosing
 (
+compilationInfo
+(
+)
 )
 ;
 }

@@ -5712,6 +5712,7 @@ innermostScopeIndex
 const
 {
 return
+*
 innermostEmitterScope
 (
 )

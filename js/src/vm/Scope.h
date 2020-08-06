@@ -2970,11 +2970,6 @@ ScopeKind
 kind
 uint32_t
 firstFrameSlot
-Handle
-<
-AbstractScopePtr
->
-enclosing
 MutableHandle
 <
 UniquePtr
