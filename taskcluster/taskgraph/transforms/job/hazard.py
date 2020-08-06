@@ -351,14 +351,15 @@ worker
 ]
     
 worker
-[
+.
+setdefault
+(
 '
 artifacts
 '
-]
-=
 [
 ]
+)
     
 docker_worker_add_artifacts
 (
