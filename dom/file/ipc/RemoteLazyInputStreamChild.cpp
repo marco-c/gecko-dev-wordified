@@ -1211,8 +1211,11 @@ newActor
 -
 >
 mPendingOperations
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mPendingOperations
 )

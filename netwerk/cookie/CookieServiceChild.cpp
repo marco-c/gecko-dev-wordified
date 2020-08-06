@@ -728,10 +728,13 @@ newCookie
 )
 ;
 }
+*
 cookiesList
--
->
-SwapElements
+=
+std
+:
+:
+move
 (
 newCookiesList
 )

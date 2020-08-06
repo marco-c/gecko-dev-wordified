@@ -17497,8 +17497,11 @@ mMonitor
 )
 ;
 entries
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mMigrationEntries
 )
@@ -17633,8 +17636,11 @@ mMonitor
 )
 ;
 entries
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mReadEntries
 )

@@ -1875,8 +1875,11 @@ mTextureClient
 ;
 }
 mBuffers
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 newBuffers
 )

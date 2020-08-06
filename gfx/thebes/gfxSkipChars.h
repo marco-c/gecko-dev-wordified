@@ -570,8 +570,11 @@ aSkipChars
 )
 {
 mRanges
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 aSkipChars
 -

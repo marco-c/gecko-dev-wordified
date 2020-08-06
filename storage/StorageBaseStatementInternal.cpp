@@ -1326,7 +1326,13 @@ AsyncExecuteStatements
 :
 execute
 (
+std
+:
+:
+move
+(
 stmts
+)
 mDBConnection
 mNativeConnection
 aCallback
