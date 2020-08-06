@@ -67769,6 +67769,11 @@ enableWasmSimd
 #
 endif
 .
+setWasmReftypes
+(
+enableWasmReftypes
+)
+.
 setWasmVerbose
 (
 enableWasmVerbose

@@ -1133,6 +1133,9 @@ TruncF32
 TruncF64
 PreBarrier
 PostBarrier
+WaitI32
+WaitI64
+Wake
 Limit
 }
 ;

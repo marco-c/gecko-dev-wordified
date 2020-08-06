@@ -3431,6 +3431,16 @@ Trap
 :
 :
 OutOfBounds
+HeapMisaligned
+=
+>
+bindings
+:
+:
+Trap
+:
+:
+UnalignedAccess
 IndirectCallToNull
 =
 >
