@@ -367,7 +367,7 @@ sDriverInfo
 ;
 nsTArray
 <
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
@@ -4878,7 +4878,7 @@ sFeatureStatus
 new
 nsTArray
 <
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
@@ -4922,7 +4922,7 @@ failureId
 status
 )
 ;
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
@@ -4973,7 +4973,7 @@ status
 sFeatureStatus
 )
 {
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
@@ -7385,7 +7385,7 @@ SetFeatureStatus
 const
 nsTArray
 <
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
@@ -7405,7 +7405,7 @@ sFeatureStatus
 new
 nsTArray
 <
-dom
+gfx
 :
 :
 GfxInfoFeatureStatus
