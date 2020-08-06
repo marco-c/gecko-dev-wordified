@@ -119,6 +119,8 @@ aName
 {
 aName
 =
+mInfo
+.
 mName
 ;
 return
@@ -144,6 +146,8 @@ aWidth
 *
 aWidth
 =
+mInfo
+.
 mWidth
 ;
 return
@@ -169,6 +173,8 @@ aHeight
 *
 aHeight
 =
+mInfo
+.
 mHeight
 ;
 return
@@ -194,6 +200,8 @@ aUnwriteableMarginTop
 *
 aUnwriteableMarginTop
 =
+mInfo
+.
 mUnwriteableMarginTop
 ;
 return
@@ -219,6 +227,8 @@ aUnwriteableMarginBottom
 *
 aUnwriteableMarginBottom
 =
+mInfo
+.
 mUnwriteableMarginBottom
 ;
 return
@@ -244,6 +254,8 @@ aUnwriteableMarginLeft
 *
 aUnwriteableMarginLeft
 =
+mInfo
+.
 mUnwriteableMarginLeft
 ;
 return
@@ -269,6 +281,8 @@ aUnwriteableMarginRight
 *
 aUnwriteableMarginRight
 =
+mInfo
+.
 mUnwriteableMarginRight
 ;
 return
