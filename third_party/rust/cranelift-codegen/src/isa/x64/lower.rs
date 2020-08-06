@@ -7612,10 +7612,6 @@ F64const
 /
 TODO
 use
-xorpd
-for
-0
-and
 cmpeqpd
 for
 all
@@ -7693,10 +7689,6 @@ F32const
 /
 TODO
 use
-xorps
-for
-0
-and
 cmpeqps
 for
 all

@@ -20,10 +20,7 @@ crate
 ir
 :
 :
-{
-ArgumentExtension
 StackSlot
-}
 ;
 use
 crate
@@ -499,9 +496,6 @@ Writable
 <
 Reg
 >
-ext
-:
-ArgumentExtension
 )
 -
 >
