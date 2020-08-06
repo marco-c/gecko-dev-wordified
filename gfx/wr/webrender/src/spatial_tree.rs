@@ -1946,7 +1946,7 @@ LayoutPixel
 (
 )
 .
-post_transform
+then
 (
 &
 child_cs
@@ -1982,7 +1982,7 @@ to_transform
 (
 )
 .
-post_transform
+then
 (
 &
 parent_cs
@@ -2003,7 +2003,7 @@ unwrap_or_default
 (
 )
 .
-post_transform
+then
 (
 &
 child_transform
@@ -2165,7 +2165,7 @@ transform
 =
 transform
 .
-post_transform
+then
 (
 &
 coord_system
@@ -2178,7 +2178,7 @@ transform
 =
 transform
 .
-post_transform
+then
 (
 &
 parent
@@ -2327,7 +2327,7 @@ to_transform
 (
 )
 .
-post_transform
+then
 (
 &
 system
@@ -5359,7 +5359,7 @@ root
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 100
 .
@@ -5394,7 +5394,7 @@ child1
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 0
 .
@@ -5429,7 +5429,7 @@ child2
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 200
 .
@@ -5621,7 +5621,7 @@ root
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 4
 .
@@ -5656,7 +5656,7 @@ child1
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 1
 .
@@ -5691,7 +5691,7 @@ child2
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 2
 .
@@ -5903,7 +5903,7 @@ root
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 100
 .
@@ -5938,7 +5938,7 @@ child1
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 2
 .
@@ -5973,7 +5973,7 @@ child2
 LayoutTransform
 :
 :
-create_translation
+translation
 (
 200
 .
@@ -6009,7 +6009,7 @@ child3
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 3
 .
@@ -6268,7 +6268,7 @@ root
 LayoutTransform
 :
 :
-create_rotation
+rotation
 (
 0
 .
@@ -6284,6 +6284,7 @@ Angle
 :
 degrees
 (
+-
 90
 .
 0

@@ -1025,7 +1025,7 @@ xf0
 LayoutTransform
 :
 :
-create_rotation
+rotation
 (
 0
 .
@@ -1053,7 +1053,7 @@ xf1
 LayoutTransform
 :
 :
-create_rotation
+rotation
 (
 0
 .
@@ -1081,7 +1081,7 @@ xf2
 LayoutTransform
 :
 :
-create_rotation
+rotation
 (
 0
 .
