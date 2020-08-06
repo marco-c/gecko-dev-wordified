@@ -268,10 +268,13 @@ True
 )
 register_strategy
 (
+    
 "
 bugbug
 -
 reduced
+-
+manifests
 -
 fallback
 -
@@ -281,6 +284,7 @@ last
 -
 pushes
 "
+    
 args
 =
 (
