@@ -4774,7 +4774,7 @@ Verbose
 (
 "
 -
-initalSecurityChecksDone
+initialSecurityChecksDone
 :
 %
 s
@@ -7091,7 +7091,7 @@ now
 lets
 set
 the
-initalSecurityFlag
+initialSecurityFlag
 for
 subsequent
 calls
