@@ -2852,6 +2852,8 @@ GuardClassKind
 uint8_t
 {
 Array
+ArrayBuffer
+SharedArrayBuffer
 DataView
 MappedArguments
 UnmappedArguments
@@ -9889,6 +9891,13 @@ callee
 ;
 AttachDecision
 tryAttachObjectCreate
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
+tryAttachTypedArrayConstructor
 (
 HandleFunction
 callee

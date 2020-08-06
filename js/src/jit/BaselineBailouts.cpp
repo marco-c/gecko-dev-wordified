@@ -16115,6 +16115,12 @@ BailoutKind
 :
 NotProxyGuard
 :
+case
+BailoutKind
+:
+:
+NotArrayBufferMaybeSharedGuard
+:
 /
 /
 Do
