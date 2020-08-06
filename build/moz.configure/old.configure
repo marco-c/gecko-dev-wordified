@@ -1828,15 +1828,6 @@ logrefcnt
 -
 enable
 -
-mobile
--
-optimize
-'
-'
--
--
-enable
--
 necko
 -
 wifi
