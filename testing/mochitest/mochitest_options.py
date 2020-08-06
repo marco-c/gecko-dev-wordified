@@ -7755,23 +7755,6 @@ parent_intercept
 true
 "
 )
-            
-options
-.
-extraPrefs
-.
-append
-(
-"
-browser
-.
-tabs
-.
-documentchannel
-=
-true
-"
-)
         
 options
 .
