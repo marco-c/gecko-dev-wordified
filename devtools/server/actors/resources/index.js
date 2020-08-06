@@ -650,6 +650,11 @@ onAvailable
 watcherOrTargetActor
 .
 notifyResourceAvailable
+onDestroyed
+:
+watcherOrTargetActor
+.
+notifyResourceDestroyed
 }
 )
 ;
