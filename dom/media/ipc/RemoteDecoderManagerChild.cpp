@@ -297,7 +297,7 @@ a
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 as
 the
 GpuDecoderModule

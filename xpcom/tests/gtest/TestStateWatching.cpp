@@ -208,8 +208,9 @@ private
 Foo
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 TEST
@@ -232,7 +233,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-PLAYBACK
+CONTROLLER
 )
 )
 ;
