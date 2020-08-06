@@ -669,6 +669,11 @@ nsIPaper
 idl
 '
 '
+nsIPaperMargin
+.
+idl
+'
+'
 nsIPrinter
 .
 idl
@@ -1253,6 +1258,11 @@ cpp
 '
 '
 nsPaper
+.
+cpp
+'
+'
+nsPaperMargin
 .
 cpp
 '

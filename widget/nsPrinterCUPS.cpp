@@ -115,6 +115,10 @@ nsPrinterBase
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsPrinterCUPS
 :
 :
@@ -353,9 +357,6 @@ value
 }
 nsTArray
 <
-mozilla
-:
-:
 PaperInfo
 >
 nsPrinterCUPS
@@ -459,9 +460,6 @@ return
 }
 nsTArray
 <
-mozilla
-:
-:
 PaperInfo
 >
 paperList
@@ -597,9 +595,6 @@ paperList
 .
 AppendElement
 (
-mozilla
-:
-:
 PaperInfo
 {
 std
@@ -609,6 +604,7 @@ move
 (
 name
 )
+{
 info
 .
 width
@@ -619,6 +615,11 @@ info
 length
 *
 kPointsPerHundredthMillimeter
+}
+Some
+(
+MarginDouble
+{
 info
 .
 top
@@ -639,6 +640,8 @@ info
 left
 *
 kPointsPerHundredthMillimeter
+}
+)
 }
 )
 ;
