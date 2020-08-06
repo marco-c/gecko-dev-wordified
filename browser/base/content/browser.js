@@ -25692,13 +25692,8 @@ bar
 .
 gURLBar
 .
-search
+searchModeShortcut
 (
-UrlbarTokenizer
-.
-RESTRICT
-.
-SEARCH
 )
 ;
 }
