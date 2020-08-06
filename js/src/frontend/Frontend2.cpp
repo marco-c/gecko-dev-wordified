@@ -313,7 +313,7 @@ h
 "
 /
 /
-ScopeCreationData
+ScopeStencil
 RegExpIndex
 FunctionIndex
 NullScriptThing
@@ -1072,10 +1072,10 @@ into
 a
 list
 of
-ScopeCreationData
+ScopeStencil
 .
 bool
-ConvertScopeCreationData
+ConvertScopeStencil
 (
 JSContext
 *
@@ -1259,7 +1259,7 @@ numBindings
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1372,7 +1372,7 @@ nextFrameSlot
 is
 set
 in
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1402,7 +1402,7 @@ enclosing
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1526,7 +1526,7 @@ nextFrameSlot
 is
 set
 in
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1565,7 +1565,7 @@ enclosing
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1686,7 +1686,7 @@ nextFrameSlot
 is
 set
 in
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -1767,7 +1767,7 @@ enclosing
 if
 (
 !
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -3784,7 +3784,7 @@ nullptr
 if
 (
 !
-ConvertScopeCreationData
+ConvertScopeStencil
 (
 cx
 result

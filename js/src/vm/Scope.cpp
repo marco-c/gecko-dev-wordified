@@ -11574,7 +11574,7 @@ static
 *
 /
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -11713,13 +11713,13 @@ by
 the
 /
 /
-ScopeCreationData
+ScopeStencil
 .
 It
 gets
 set
 in
-ScopeCreationData
+ScopeStencil
 :
 :
 releaseData
@@ -11773,7 +11773,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -11782,7 +11782,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -11822,7 +11822,7 @@ static
 *
 /
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -11965,7 +11965,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -11974,7 +11974,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -11998,7 +11998,7 @@ get
 ;
 }
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -12152,7 +12152,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -12161,7 +12161,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -12190,7 +12190,7 @@ static
 *
 /
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -12375,7 +12375,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -12384,7 +12384,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -12413,7 +12413,7 @@ static
 *
 /
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -12568,7 +12568,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -12577,7 +12577,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -12606,7 +12606,7 @@ static
 *
 /
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -12746,13 +12746,13 @@ by
 the
 /
 /
-ScopeCreationData
+ScopeStencil
 .
 It
 gets
 set
 in
-ScopeCreationData
+ScopeStencil
 :
 :
 releaseData
@@ -12838,7 +12838,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -12847,7 +12847,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -12879,7 +12879,7 @@ typename
 SpecificEnvironmentType
 >
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificShape
@@ -12989,7 +12989,7 @@ static
 *
 /
 bool
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -13035,7 +13035,7 @@ index
 =
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 length
 (
@@ -13044,7 +13044,7 @@ length
 return
 compilationInfo
 .
-scopeCreationData
+scopeData
 .
 emplaceBack
 (
@@ -13072,7 +13072,7 @@ SpecificScopeType
 :
 Data
 >
-ScopeCreationData
+ScopeStencil
 :
 :
 releaseData
@@ -13121,7 +13121,7 @@ FunctionScope
 :
 Data
 >
-ScopeCreationData
+ScopeStencil
 :
 :
 releaseData
@@ -13197,7 +13197,7 @@ ModuleScope
 :
 Data
 >
-ScopeCreationData
+ScopeStencil
 :
 :
 releaseData
@@ -13276,7 +13276,7 @@ template
 >
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13337,7 +13337,7 @@ template
 >
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13436,7 +13436,7 @@ SpecificEnvironmentType
 >
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13558,7 +13558,7 @@ rootedData
 template
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13578,7 +13578,7 @@ compilationInfo
 template
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13598,7 +13598,7 @@ compilationInfo
 template
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13618,7 +13618,7 @@ compilationInfo
 template
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope
@@ -13638,7 +13638,7 @@ compilationInfo
 template
 Scope
 *
-ScopeCreationData
+ScopeStencil
 :
 :
 createSpecificScope

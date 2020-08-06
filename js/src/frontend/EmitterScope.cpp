@@ -2354,7 +2354,7 @@ must
 /
 /
 update
-ScopeCreationData
+ScopeStencil
 :
 :
 enclosing
@@ -2495,7 +2495,7 @@ bce
 >
 compilationInfo
 .
-scopeCreationData
+scopeData
 [
 index
 .
@@ -3583,7 +3583,7 @@ index
 )
 {
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -3979,7 +3979,7 @@ index
 )
 {
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -4574,7 +4574,7 @@ index
 )
 {
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -4971,7 +4971,7 @@ index
 )
 {
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -5401,7 +5401,7 @@ isNothing
 )
 ;
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -5890,7 +5890,7 @@ ScopeKind
 Eval
 ;
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -6584,7 +6584,7 @@ index
 )
 {
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create
@@ -6710,7 +6710,7 @@ index
 )
 {
 return
-ScopeCreationData
+ScopeStencil
 :
 :
 create

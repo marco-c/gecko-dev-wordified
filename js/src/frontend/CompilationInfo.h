@@ -1228,7 +1228,7 @@ parse
 To
 ensure
 that
-ScopeCreationData
+ScopeStencil
 '
 s
 destructors
@@ -1243,7 +1243,7 @@ barriers
 we
 store
 the
-scopeCreationData
+scopeData
 at
 this
 level
@@ -1313,9 +1313,9 @@ JS
 :
 RootedVector
 <
-ScopeCreationData
+ScopeStencil
 >
-scopeCreationData
+scopeData
 ;
 /
 /
@@ -1573,7 +1573,7 @@ scopes
 (
 cx
 )
-scopeCreationData
+scopeData
 (
 cx
 )
