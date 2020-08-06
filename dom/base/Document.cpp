@@ -96403,7 +96403,7 @@ nsIAsyncShutdownBlocker
 interface
 .
 class
-UserIntractionTimer
+UserInteractionTimer
 final
 :
 public
@@ -96417,7 +96417,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 explicit
-UserIntractionTimer
+UserInteractionTimer
 (
 Document
 *
@@ -96427,7 +96427,7 @@ aDocument
 Runnable
 (
 "
-UserIntractionTimer
+UserInteractionTimer
 "
 )
 mPrincipal
@@ -96531,7 +96531,7 @@ NS_OK
 }
 RefPtr
 <
-UserIntractionTimer
+UserInteractionTimer
 >
 self
 =
@@ -96614,7 +96614,7 @@ __FILE__
 __LINE__
 u
 "
-UserIntractionTimer
+UserInteractionTimer
 shutdown
 "
 _ns
@@ -96722,7 +96722,7 @@ NS_OK
 private
 :
 ~
-UserIntractionTimer
+UserInteractionTimer
 (
 )
 =
@@ -96926,7 +96926,7 @@ mBlockerName
 ;
 NS_IMPL_ISUPPORTS_INHERITED
 (
-UserIntractionTimer
+UserInteractionTimer
 Runnable
 nsITimerCallback
 nsIAsyncShutdownBlocker
@@ -97016,7 +97016,7 @@ nsIRunnable
 task
 =
 new
-UserIntractionTimer
+UserInteractionTimer
 (
 this
 )
