@@ -2127,6 +2127,8 @@ push_clip
 (
 prim_instance
 .
+clip_set
+.
 clip_chain_id
 frame_state
 .
@@ -2636,6 +2638,8 @@ intersection
 &
 prim_instance
 .
+clip_set
+.
 local_clip_rect
 )
 ;
@@ -2685,6 +2689,8 @@ rectangle
 "
 prim_instance
 .
+clip_set
+.
 local_clip_rect
 )
 ;
@@ -2716,6 +2722,8 @@ push_clip
 (
 prim_instance
 .
+clip_set
+.
 clip_chain_id
 frame_state
 .
@@ -2729,6 +2737,8 @@ clip_store
 set_active_clips
 (
 prim_instance
+.
+clip_set
 .
 local_clip_rect
 cluster
@@ -3037,6 +3047,8 @@ local_clip_rect
 else
 {
 prim_instance
+.
+clip_set
 .
 local_clip_rect
 }

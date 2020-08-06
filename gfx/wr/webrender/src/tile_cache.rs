@@ -1216,6 +1216,8 @@ current_clip_chain_id
 =
 prim_instance
 .
+clip_set
+.
 clip_chain_id
 ;
 while
@@ -1374,6 +1376,8 @@ add_clips
 (
 prim_instance
 .
+clip_set
+.
 clip_chain_id
 &
 mut
@@ -1433,6 +1437,8 @@ self
 last_checked_clip_chain
 =
 prim_instance
+.
+clip_set
 .
 clip_chain_id
 ;
@@ -1499,6 +1505,8 @@ last_checked_clip_chain
 =
 prim_instance
 .
+clip_set
+.
 clip_chain_id
 {
 let
@@ -1519,6 +1527,8 @@ clear
 add_clips
 (
 prim_instance
+.
+clip_set
 .
 clip_chain_id
 prim_clips_buffer
@@ -1594,6 +1604,8 @@ self
 last_checked_clip_chain
 =
 prim_instance
+.
+clip_set
 .
 clip_chain_id
 ;

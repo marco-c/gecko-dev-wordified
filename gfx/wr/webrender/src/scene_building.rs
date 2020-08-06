@@ -9862,10 +9862,6 @@ prim_list
 add_prim
 (
 cur_instance
-.
-clone
-(
-)
 LayoutRect
 :
 :
@@ -10079,6 +10075,8 @@ leaf
 picture
 .
 cur_instance
+.
+clip_set
 .
 clip_chain_id
 =
@@ -15843,6 +15841,8 @@ pic_index
 }
 filtered_instance
 .
+clip_set
+.
 clip_chain_id
 =
 clip_chain_id
@@ -16492,10 +16492,6 @@ prim_list
 add_prim
 (
 cur_instance
-.
-clone
-(
-)
 LayoutRect
 :
 :
@@ -16759,10 +16755,6 @@ prim_list
 add_prim
 (
 cur_instance
-.
-clone
-(
-)
 LayoutRect
 :
 :
