@@ -580,6 +580,9 @@ JSWindowActorParent
 >
 GetActor
 (
+JSContext
+*
+aCx
 const
 nsACString
 &

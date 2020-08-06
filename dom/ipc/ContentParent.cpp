@@ -44976,6 +44976,7 @@ JSActorManager
 :
 GetActor
 (
+aCx
 aName
 error
 )

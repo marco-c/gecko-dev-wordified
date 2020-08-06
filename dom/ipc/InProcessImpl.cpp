@@ -974,6 +974,7 @@ JSActorManager
 :
 GetActor
 (
+aCx
 aName
 error
 )
@@ -1262,6 +1263,7 @@ JSActorManager
 :
 GetActor
 (
+aCx
 aName
 error
 )

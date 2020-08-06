@@ -4004,6 +4004,9 @@ WindowGlobalChild
 :
 GetActor
 (
+JSContext
+*
+aCx
 const
 nsACString
 &
@@ -4019,6 +4022,7 @@ JSActorManager
 :
 GetActor
 (
+aCx
 aName
 aRv
 )
