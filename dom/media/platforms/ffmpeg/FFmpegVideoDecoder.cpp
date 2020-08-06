@@ -5129,13 +5129,10 @@ uid
 endif
 mDMABufSurfaces
 .
-AppendElement
-(
-DMABufSurfaceWrapper
+EmplaceBack
 (
 surface
 mLib
-)
 )
 ;
 surfaceWrapper
