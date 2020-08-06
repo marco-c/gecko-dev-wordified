@@ -4834,7 +4834,7 @@ systemIdentifier
 )
 )
 {
-warn
+err
 (
 "
 Obsolete
