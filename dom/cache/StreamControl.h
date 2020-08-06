@@ -427,15 +427,6 @@ StreamControl
 )
 ;
 void
-CloseReadStreams
-(
-const
-nsID
-&
-aId
-)
-;
-void
 CloseAllReadStreams
 (
 )

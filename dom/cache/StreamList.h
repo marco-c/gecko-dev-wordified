@@ -296,15 +296,6 @@ NoteClosedAll
 )
 ;
 void
-Close
-(
-const
-nsID
-&
-aId
-)
-;
-void
 CloseAll
 (
 )
