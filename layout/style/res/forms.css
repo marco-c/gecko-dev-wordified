@@ -1616,6 +1616,10 @@ list
 -
 box
 {
+overflow
+:
+auto
+;
 background
 -
 color
