@@ -1042,11 +1042,10 @@ nsTArray
 uint8_t
 >
 arr
-=
-std
-:
-:
-move
+;
+arr
+.
+SwapElements
 (
 aBuffer
 )

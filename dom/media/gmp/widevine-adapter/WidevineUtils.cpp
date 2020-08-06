@@ -301,11 +301,10 @@ nsTArray
 uint8_t
 >
 out
-=
-std
-:
-:
-move
+;
+out
+.
+SwapElements
 (
 mBuffer
 )

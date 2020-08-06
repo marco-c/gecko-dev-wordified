@@ -9267,11 +9267,10 @@ nsISupports
 *
 >
 doomed
-=
-std
-:
-:
-move
+;
+doomed
+.
+SwapElements
 (
 gService
 -

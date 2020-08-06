@@ -2331,11 +2331,10 @@ nsTArray
 PendingTailRequest
 >
 queue
-=
-std
-:
-:
-move
+;
+queue
+.
+SwapElements
 (
 mTailQueue
 )

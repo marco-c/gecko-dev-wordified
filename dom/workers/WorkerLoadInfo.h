@@ -962,7 +962,6 @@ nsCOMPtr
 nsILoadGroup
 >
 &
-&
 aLoadGroupToCancel
 )
 ;

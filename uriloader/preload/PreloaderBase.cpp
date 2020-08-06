@@ -1318,11 +1318,10 @@ nsTArray
 nsWeakPtr
 >
 nodes
-=
-std
-:
-:
-move
+;
+nodes
+.
+SwapElements
 (
 mNodes
 )

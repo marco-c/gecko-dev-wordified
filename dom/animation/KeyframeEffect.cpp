@@ -5574,11 +5574,8 @@ modified
 #
 endif
 mKeyframes
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 keyframesCopy
 )

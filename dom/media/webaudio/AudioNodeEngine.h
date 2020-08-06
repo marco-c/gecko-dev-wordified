@@ -1722,7 +1722,6 @@ nsTArray
 float
 >
 &
-&
 aData
 )
 {

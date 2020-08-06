@@ -1729,13 +1729,8 @@ mozilla
 :
 SharedChannelArrayBuffer
 (
-std
-:
-:
-move
-(
+&
 buffer
-)
 )
 ;
 chunk

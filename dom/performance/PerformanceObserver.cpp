@@ -1672,11 +1672,8 @@ aOptions
 ;
 }
 mOptions
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 updatedOptionsList
 )
@@ -2095,11 +2092,8 @@ IsEmpty
 )
 ;
 aRetval
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 mQueuedEntries
 )

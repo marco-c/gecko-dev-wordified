@@ -607,11 +607,10 @@ nsHttpChannel
 >
 >
 queue
-=
-std
-:
-:
-move
+;
+queue
+.
+SwapElements
 (
 mQueue
 )

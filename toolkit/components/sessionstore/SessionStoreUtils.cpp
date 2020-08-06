@@ -3451,11 +3451,8 @@ aValueType
 val
 .
 mFileList
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 aValue
 )
@@ -8598,11 +8595,8 @@ mChildren
 Construct
 (
 )
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 childrenData
 )

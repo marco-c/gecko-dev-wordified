@@ -454,7 +454,6 @@ nsIFile
 >
 >
 &
-&
 aFiles
 bool
 aIsDirectory

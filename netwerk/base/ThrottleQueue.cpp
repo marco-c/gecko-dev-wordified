@@ -1731,11 +1731,10 @@ ThrottleInputStream
 >
 >
 events
-=
-std
-:
-:
-move
+;
+events
+.
+SwapElements
 (
 mAsyncEvents
 )

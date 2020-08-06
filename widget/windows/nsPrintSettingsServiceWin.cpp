@@ -547,11 +547,8 @@ data
 devModeData
 (
 )
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 arrayBuf
 )

@@ -2795,7 +2795,6 @@ DirectoryLockImpl
 >
 >
 &
-&
 aLocks
 )
 ;

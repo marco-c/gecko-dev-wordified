@@ -1498,11 +1498,10 @@ nsISupports
 *
 >
 objects
-=
-std
-:
-:
-move
+;
+objects
+.
+SwapElements
 (
 mArray
 )

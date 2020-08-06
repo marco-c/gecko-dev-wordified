@@ -5690,11 +5690,8 @@ EventTargetChainItem
 ;
 }
 chain
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 *
 sCachedMainThreadChain

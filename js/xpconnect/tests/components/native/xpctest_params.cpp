@@ -166,11 +166,8 @@ TAKE_OWNERSHIP
 {
 \
 _retval
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 b
 )

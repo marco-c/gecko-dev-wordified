@@ -7970,11 +7970,10 @@ nsISupports
 >
 >
 objs
-=
-std
-:
-:
-move
+;
+objs
+.
+SwapElements
 (
 mObjsToRelease
 )

@@ -1881,11 +1881,8 @@ break
 }
 }
 mCurrentImages
-=
-std
-:
-:
-move
+.
+SwapElements
 (
 newImages
 )

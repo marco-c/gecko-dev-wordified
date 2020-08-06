@@ -6306,7 +6306,6 @@ a
 relocated
 subtree
 .
-const
 nsTArray
 <
 RefPtr
@@ -6315,11 +6314,10 @@ Notification
 >
 >
 notifications
-=
-std
-:
-:
-move
+;
+notifications
+.
+SwapElements
 (
 mNotifications
 )

@@ -1438,10 +1438,8 @@ OriginAttributes
 aOriginAttributes
 RedirectHistoryArray
 &
-&
 aRedirectChainIncludingInternalRedirects
 RedirectHistoryArray
-&
 &
 aRedirectChain
 nsTArray
