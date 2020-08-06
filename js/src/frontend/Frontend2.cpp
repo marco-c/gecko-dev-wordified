@@ -1262,7 +1262,7 @@ if
 ScopeStencil
 :
 :
-create
+createForGlobalScope
 (
 cx
 compilationInfo
@@ -1375,7 +1375,7 @@ in
 ScopeStencil
 :
 :
-create
+createForVarScope
 .
 data
 -
@@ -1405,7 +1405,7 @@ if
 ScopeStencil
 :
 :
-create
+createForVarScope
 (
 cx
 compilationInfo
@@ -1526,10 +1526,12 @@ nextFrameSlot
 is
 set
 in
+/
+/
 ScopeStencil
 :
 :
-create
+createForLexicalScope
 .
 data
 -
@@ -1568,7 +1570,7 @@ if
 ScopeStencil
 :
 :
-create
+createForLexicalScope
 (
 cx
 compilationInfo
@@ -1686,10 +1688,12 @@ nextFrameSlot
 is
 set
 in
+/
+/
 ScopeStencil
 :
 :
-create
+createForFunctionScope
 .
 data
 -
@@ -1770,7 +1774,7 @@ if
 ScopeStencil
 :
 :
-create
+createForFunctionScope
 (
 cx
 compilationInfo

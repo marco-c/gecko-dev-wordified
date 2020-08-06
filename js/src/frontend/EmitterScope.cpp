@@ -3586,7 +3586,7 @@ return
 ScopeStencil
 :
 :
-create
+createForLexicalScope
 (
 cx
 bce
@@ -3982,7 +3982,7 @@ return
 ScopeStencil
 :
 :
-create
+createForLexicalScope
 (
 cx
 bce
@@ -4577,7 +4577,7 @@ return
 ScopeStencil
 :
 :
-create
+createForFunctionScope
 (
 cx
 bce
@@ -4974,7 +4974,7 @@ return
 ScopeStencil
 :
 :
-create
+createForVarScope
 (
 cx
 bce
@@ -5404,7 +5404,7 @@ return
 ScopeStencil
 :
 :
-create
+createForGlobalScope
 (
 cx
 bce
@@ -5893,7 +5893,7 @@ return
 ScopeStencil
 :
 :
-create
+createForEvalScope
 (
 cx
 bce
@@ -6587,7 +6587,7 @@ return
 ScopeStencil
 :
 :
-create
+createForModuleScope
 (
 cx
 bce
@@ -6713,7 +6713,7 @@ return
 ScopeStencil
 :
 :
-create
+createForWithScope
 (
 cx
 bce
