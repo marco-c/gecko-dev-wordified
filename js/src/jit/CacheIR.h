@@ -9888,6 +9888,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachObjectCreate
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
