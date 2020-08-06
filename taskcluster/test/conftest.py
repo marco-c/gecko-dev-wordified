@@ -62,9 +62,9 @@ taskgraph
 .
 util
 .
-backstop
+hg
 import
-PUSH_ENDPOINT
+PUSHLOG_PUSHES_TMPL
 from
 taskgraph
 .
@@ -342,12 +342,12 @@ json
         
 url
 =
-PUSH_ENDPOINT
+PUSHLOG_PUSHES_TMPL
 .
 format
 (
             
-head_repository
+repository
 =
 tgg
 .
