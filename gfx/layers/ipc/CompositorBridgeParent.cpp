@@ -6280,16 +6280,6 @@ time
 mVsyncRate
 )
 ;
-TimeStamp
-outputTime
-=
-mCompositorScheduler
--
->
-GetLastVsyncOutputTime
-(
-)
-;
 if
 (
 requestNextFrame
@@ -6450,7 +6440,7 @@ mLayerManager
 >
 EndTransaction
 (
-outputTime
+time
 )
 ;
 if
