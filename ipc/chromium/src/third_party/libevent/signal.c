@@ -831,6 +831,7 @@ evsig_base_n_signals_added
 0
 ;
 static
+_Atomic
 evutil_socket_t
 evsig_base_fd
 =
