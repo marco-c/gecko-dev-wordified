@@ -1281,7 +1281,6 @@ mInputStreamPump
 AsyncRead
 (
 this
-nullptr
 )
 ;
 if

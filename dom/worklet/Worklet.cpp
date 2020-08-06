@@ -1243,7 +1243,6 @@ pump
 AsyncRead
 (
 loader
-nullptr
 )
 ;
 if

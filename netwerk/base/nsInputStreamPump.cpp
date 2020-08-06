@@ -2306,9 +2306,6 @@ AsyncRead
 nsIStreamListener
 *
 listener
-nsISupports
-*
-ctxt
 )
 {
 RecursiveMutexAutoLock

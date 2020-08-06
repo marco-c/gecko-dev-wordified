@@ -4921,7 +4921,6 @@ mInputStreamPump
 AsyncRead
 (
 this
-nullptr
 )
 ;
 NS_ENSURE_SUCCESS
