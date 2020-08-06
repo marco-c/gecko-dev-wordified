@@ -16305,6 +16305,7 @@ WarpBuilder
 build_CheckObjCoercible
 (
 BytecodeLocation
+loc
 )
 {
 MDefinition
@@ -16350,7 +16351,11 @@ ins
 )
 ;
 return
-true
+resumeAfter
+(
+ins
+loc
+)
 ;
 }
 MInstruction
