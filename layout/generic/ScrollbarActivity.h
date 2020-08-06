@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsRefreshDriver
+nsRefreshObservers
 .
 h
 "
@@ -167,6 +167,9 @@ nsIScrollbarMediator
 ;
 class
 nsITimer
+;
+class
+nsRefreshDriver
 ;
 namespace
 mozilla

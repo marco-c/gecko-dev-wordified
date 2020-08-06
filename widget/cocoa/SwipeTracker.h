@@ -159,7 +159,7 @@ h
 #
 include
 "
-nsRefreshDriver
+nsRefreshObservers
 .
 h
 "
@@ -175,6 +175,9 @@ nsChildView
 ;
 class
 nsIWidget
+;
+class
+nsRefreshDriver
 ;
 namespace
 mozilla

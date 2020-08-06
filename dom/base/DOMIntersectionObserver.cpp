@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PresShell

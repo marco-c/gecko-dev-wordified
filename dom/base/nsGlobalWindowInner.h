@@ -502,7 +502,7 @@ h
 #
 include
 "
-nsRefreshDriver
+nsRefreshObservers
 .
 h
 "

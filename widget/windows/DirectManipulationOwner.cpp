@@ -133,6 +133,15 @@ TimeStamp
 h
 "
 #
+include
+"
+mozilla
+/
+VsyncDispatcher
+.
+h
+"
+#
 if
 !
 defined

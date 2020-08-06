@@ -339,13 +339,6 @@ h
 #
 include
 "
-nsRefreshDriver
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h
