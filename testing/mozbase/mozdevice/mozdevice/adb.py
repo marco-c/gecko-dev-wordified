@@ -17239,16 +17239,13 @@ timeout
 )
         
 if
-not
-rv
-.
-startswith
-(
 "
 remount
 succeeded
 "
-)
+not
+in
+rv
 :
             
 raise
