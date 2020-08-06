@@ -220,7 +220,7 @@ shell_name
 abstractproperty
     
 def
-units
+unit
 (
 self
 )
@@ -578,12 +578,12 @@ subtests
 ]
                     
 '
-units
+unit
 '
 :
 self
 .
-units
+unit
                     
 '
 value
@@ -1014,7 +1014,7 @@ ARES
 '
 )
     
-units
+unit
 =
 '
 ms
@@ -1493,7 +1493,7 @@ speed
 '
 )
     
-units
+unit
 =
 '
 ms
@@ -1733,7 +1733,7 @@ sunspider
 '
 )
     
-units
+unit
 =
 '
 ms
@@ -1984,7 +1984,7 @@ cli
 js
 '
     
-units
+unit
 =
 '
 score
@@ -2403,7 +2403,7 @@ octane
 '
 )
     
-units
+unit
 =
 '
 score
