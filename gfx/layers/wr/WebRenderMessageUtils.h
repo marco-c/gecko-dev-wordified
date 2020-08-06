@@ -162,6 +162,17 @@ WebRenderTypes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+MediaIPCUtils
+.
+h
+"
 namespace
 IPC
 {

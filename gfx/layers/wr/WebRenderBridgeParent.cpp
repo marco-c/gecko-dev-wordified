@@ -8332,6 +8332,11 @@ scaleToSize
 )
 op
 .
+rotation
+(
+)
+op
+.
 filter
 (
 )

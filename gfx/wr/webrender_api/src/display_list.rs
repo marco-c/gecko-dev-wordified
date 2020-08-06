@@ -10108,6 +10108,12 @@ LayoutSize
 vertical_flip
 :
 bool
+rotation
+:
+di
+:
+:
+Rotation
 )
 -
 >
@@ -10171,6 +10177,7 @@ Computed
 {
 scale_from
 vertical_flip
+rotation
 }
 kind
 :
