@@ -4106,7 +4106,11 @@ is_loop
 (
 )
 {
-0
+min_depth_frame
+.
+num_param_values
+(
+)
 }
 else
 {
