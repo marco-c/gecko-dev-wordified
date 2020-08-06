@@ -115,13 +115,6 @@ utility
 #
 include
 "
-nsPrinter
-.
-h
-"
-#
-include
-"
 nsPaper
 .
 h

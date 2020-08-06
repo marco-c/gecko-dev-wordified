@@ -462,11 +462,6 @@ nsPrintSettingsServiceGTK
 .
 cpp
 '
-'
-PSPrinters
-.
-cpp
-'
 ]
 if
 CONFIG
