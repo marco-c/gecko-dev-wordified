@@ -8169,7 +8169,7 @@ break
 ;
 }
 case
-SvcParamKeyEsniConfig
+SvcParamKeyEchConfig
 :
 {
 field
@@ -8178,7 +8178,7 @@ mValue
 =
 AsVariant
 (
-SvcParamEsniConfig
+SvcParamEchConfig
 {
 .
 mValue

@@ -5284,7 +5284,7 @@ type
 =
 =
 "
-HTTPSSVC
+HTTPS
 "
 )
 {
@@ -5347,7 +5347,7 @@ values
 key
 :
 "
-esniconfig
+echconfig
 "
 value
 :
@@ -6085,7 +6085,7 @@ value
 key
 :
 "
-esniconfig
+echconfig
 "
 value
 :
@@ -6220,7 +6220,7 @@ value
 key
 :
 "
-esniconfig
+echconfig
 "
 value
 :

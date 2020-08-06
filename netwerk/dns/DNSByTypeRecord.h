@@ -1016,7 +1016,7 @@ mozilla
 net
 :
 :
-SvcParamEsniConfig
+SvcParamEchConfig
 >
 {
 typedef
@@ -1026,7 +1026,7 @@ mozilla
 net
 :
 :
-SvcParamEsniConfig
+SvcParamEchConfig
 paramType
 ;
 static
