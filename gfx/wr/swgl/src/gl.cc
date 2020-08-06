@@ -2422,7 +2422,7 @@ macro
 GL_SRC_ALPHA
 GL_ONE_MINUS_SRC_ALPHA
 GL_ONE
-GL_ONE
+GL_ONE_MINUS_SRC_ALPHA
 )
 \
 macro
@@ -16248,7 +16248,7 @@ BLEND_KEY
 GL_SRC_ALPHA
 GL_ONE_MINUS_SRC_ALPHA
 GL_ONE
-GL_ONE
+GL_ONE_MINUS_SRC_ALPHA
 )
 :
 /
@@ -16265,8 +16265,6 @@ src
 rgb1
 -
 dst
-.
-rgb0
 )
 /
 /
@@ -16291,11 +16289,7 @@ src
 ALPHA_OPAQUE
 )
 -
-(
 dst
-&
-RGB_MASK
-)
 )
 )
 ;
