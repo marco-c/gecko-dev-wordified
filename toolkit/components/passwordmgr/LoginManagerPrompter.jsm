@@ -6208,6 +6208,9 @@ schemeUpgrades
 LoginHelper
 .
 schemeUpgrades
+acceptDifferentSubdomains
+:
+true
 }
 )
 ;
