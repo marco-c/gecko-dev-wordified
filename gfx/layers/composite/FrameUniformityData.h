@@ -237,6 +237,11 @@ GetStdDev
 (
 )
 ;
+bool
+Sanitize
+(
+)
+;
 /
 /
 60
