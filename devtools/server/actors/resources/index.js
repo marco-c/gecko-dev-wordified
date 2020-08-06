@@ -655,6 +655,11 @@ onDestroyed
 watcherOrTargetActor
 .
 notifyResourceDestroyed
+onUpdated
+:
+watcherOrTargetActor
+.
+notifyResourceUpdated
 }
 )
 ;
