@@ -545,6 +545,16 @@ platform
 "
 win
 "
+&
+&
+AppConstants
+.
+platform
+!
+=
+"
+linux
+"
 ;
 if
 (
