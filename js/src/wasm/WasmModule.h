@@ -1446,8 +1446,6 @@ JS
 OptimizedEncodingListener
 *
 listener
-JSTelemetrySender
-telemetrySender
 )
 ;
 bool

@@ -5490,11 +5490,6 @@ freeUnusedMemory
 (
 false
 )
-measuringExecutionTime_
-(
-this
-false
-)
 jitActivation
 (
 this
