@@ -9904,6 +9904,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachReflectGetPrototypeOf
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
