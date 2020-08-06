@@ -1302,12 +1302,9 @@ ok
 JS_ParseJSON
 (
 cx
-PromiseFlatString
-(
 json
-)
 .
-get
+BeginReading
 (
 )
 json
