@@ -1158,13 +1158,6 @@ bool
 usingSpdy
 )
 ;
-void
-ReportHttp3Connection
-(
-HttpConnectionBase
-*
-)
-;
 bool
 GetConnectionData
 (
