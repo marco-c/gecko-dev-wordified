@@ -1209,7 +1209,9 @@ uint32_t
 aGeneration
 )
 {
-return
+Unused
+<
+<
 GetSingleton
 (
 )

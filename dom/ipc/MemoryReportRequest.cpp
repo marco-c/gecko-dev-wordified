@@ -764,15 +764,13 @@ aUnused
 )
 override
 {
-return
 mFinishCallback
 (
 mGeneration
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_FAILURE
 ;
 }
 private

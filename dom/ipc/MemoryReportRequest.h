@@ -268,7 +268,7 @@ std
 :
 function
 <
-bool
+void
 (
 const
 uint32_t
