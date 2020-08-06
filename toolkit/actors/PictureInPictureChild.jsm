@@ -6186,13 +6186,6 @@ return
 !
 !
 (
-video
-.
-currentTime
->
-0
-&
-&
 !
 video
 .
