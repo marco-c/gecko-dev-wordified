@@ -7619,6 +7619,8 @@ ColorF
 aColor
 bool
 aPreferCompositorSurface
+bool
+aSupportsExternalCompositing
 )
 {
 wr
@@ -7679,6 +7681,7 @@ aImage
 aPremultipliedAlpha
 aColor
 aPreferCompositorSurface
+aSupportsExternalCompositing
 )
 ;
 }
@@ -7884,6 +7887,8 @@ ImageRendering
 aRendering
 bool
 aPreferCompositorSurface
+bool
+aSupportsExternalCompositing
 )
 {
 wr_dp_push_yuv_planar_image
@@ -7905,6 +7910,7 @@ aColorSpace
 aColorRange
 aRendering
 aPreferCompositorSurface
+aSupportsExternalCompositing
 )
 ;
 }
@@ -7962,6 +7968,8 @@ ImageRendering
 aRendering
 bool
 aPreferCompositorSurface
+bool
+aSupportsExternalCompositing
 )
 {
 wr_dp_push_yuv_NV12_image
@@ -7982,6 +7990,7 @@ aColorSpace
 aColorRange
 aRendering
 aPreferCompositorSurface
+aSupportsExternalCompositing
 )
 ;
 }
@@ -8034,6 +8043,8 @@ ImageRendering
 aRendering
 bool
 aPreferCompositorSurface
+bool
+aSupportsExternalCompositing
 )
 {
 wr_dp_push_yuv_interleaved_image
@@ -8053,6 +8064,7 @@ aColorSpace
 aColorRange
 aRendering
 aPreferCompositorSurface
+aSupportsExternalCompositing
 )
 ;
 }

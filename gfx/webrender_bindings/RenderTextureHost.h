@@ -200,6 +200,9 @@ class
 RenderDXGITextureHostOGL
 ;
 class
+RenderMacIOSurfaceTextureHostOGL
+;
+class
 RenderBufferTextureHost
 ;
 class
@@ -426,6 +429,17 @@ virtual
 RenderDXGITextureHostOGL
 *
 AsRenderDXGITextureHostOGL
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderMacIOSurfaceTextureHostOGL
+*
+AsRenderMacIOSurfaceTextureHostOGL
 (
 )
 {

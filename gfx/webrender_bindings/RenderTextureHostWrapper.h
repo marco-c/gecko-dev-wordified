@@ -258,6 +258,13 @@ ClearCachedResources
 )
 override
 ;
+RenderMacIOSurfaceTextureHostOGL
+*
+AsRenderMacIOSurfaceTextureHostOGL
+(
+)
+override
+;
 private
 :
 ~
@@ -265,6 +272,11 @@ RenderTextureHostWrapper
 (
 )
 override
+;
+void
+EnsureTextureHost
+(
+)
 ;
 const
 ExternalImageId
