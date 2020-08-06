@@ -537,19 +537,13 @@ task_def
 provisionerId
 "
 :
-"
-gecko
--
-t
-"
+provisioner_id
         
 "
 workerType
 "
 :
-"
-misc
-"
+worker_type
         
 "
 dependencies
