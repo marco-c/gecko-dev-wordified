@@ -17439,7 +17439,11 @@ target_is_android
 help
 =
 '
+{
 Enable
+|
+Disable
+}
 mobile
 optimizations
 '
