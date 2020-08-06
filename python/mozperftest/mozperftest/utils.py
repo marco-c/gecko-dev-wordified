@@ -141,15 +141,6 @@ API_ROOT
 /
 tasks
 "
-ON_TRY
-=
-"
-MOZ_AUTOMATION
-"
-in
-os
-.
-environ
 contextlib
 .
 contextmanager
