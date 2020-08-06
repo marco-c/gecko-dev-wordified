@@ -13020,6 +13020,14 @@ mIsContentDocument
 aIsContentDocument
 ;
 }
+void
+ProcessMETATag
+(
+HTMLMetaElement
+*
+aMetaElement
+)
+;
 /
 *
 *
