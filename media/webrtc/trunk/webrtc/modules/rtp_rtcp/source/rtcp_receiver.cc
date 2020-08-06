@@ -1465,6 +1465,16 @@ ntp_timestamp
 )
 const
 {
+rtc
+:
+:
+CritScope
+lock
+(
+&
+rtcp_receiver_lock_
+)
+;
 *
 packet_count
 =
