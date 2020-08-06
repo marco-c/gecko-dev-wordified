@@ -364,6 +364,13 @@ upgrade
 .
 *
 param
+aChannel
+The
+failed
+Channel
+.
+*
+param
 aError
 Error
 Code
@@ -385,6 +392,9 @@ static
 bool
 CouldBeHttpsOnlyError
 (
+nsIChannel
+*
+aChannel
 nsresult
 aError
 )
