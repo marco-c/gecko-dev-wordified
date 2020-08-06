@@ -750,11 +750,13 @@ wr
 :
 NativeSurfaceId
 aId
+const
 wr
 :
 :
-DeviceIntPoint
-aPosition
+CompositorSurfaceTransform
+&
+aTransform
 wr
 :
 :
