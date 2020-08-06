@@ -1086,6 +1086,13 @@ about
 :
 protections
 "
+"
+about
+:
+protections
+?
+*
+"
 ]
 }
 AboutReader

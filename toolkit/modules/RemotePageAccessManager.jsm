@@ -832,6 +832,9 @@ OpenSyncPreferences
 "
 ClearMonitorCache
 "
+"
+RecordEntryPoint
+"
 ]
 RPMSendQuery
 :
@@ -850,6 +853,9 @@ FetchMobileDeviceConnected
 "
 "
 GetShowProxyCard
+"
+"
+FetchEntryPoint
 "
 ]
 RPMAddMessageListener
