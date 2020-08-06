@@ -763,6 +763,9 @@ inputs
 CompiledCode
 output
 ;
+JSTelemetrySender
+telemetrySender
+;
 CompileTask
 (
 const
@@ -774,6 +777,8 @@ ExclusiveCompileTaskState
 state
 size_t
 defaultChunkSize
+JSTelemetrySender
+telemetrySender
 )
 :
 env
@@ -787,6 +792,10 @@ state
 lifo
 (
 defaultChunkSize
+)
+telemetrySender
+(
+telemetrySender
 )
 {
 }
@@ -990,6 +999,9 @@ ModuleEnvironment
 *
 const
 env_
+;
+JSTelemetrySender
+telemetrySender_
 ;
 /
 /
@@ -1298,6 +1310,12 @@ Metadata
 maybeAsmJSMetadata
 =
 nullptr
+JSTelemetrySender
+telemetrySender
+=
+JSTelemetrySender
+(
+)
 )
 ;
 /
