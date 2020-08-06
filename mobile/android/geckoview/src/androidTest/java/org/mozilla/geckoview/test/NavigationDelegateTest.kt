@@ -9928,15 +9928,6 @@ about
 :
 blank
 load
-when
-browser
-.
-tabs
-.
-documentchannel
-=
-=
-true
 sessionRule
 .
 session
