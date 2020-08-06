@@ -605,6 +605,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+CheckPrivateField
+:
 MOZ_CRASH
 (
 "

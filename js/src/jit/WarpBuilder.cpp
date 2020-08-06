@@ -20894,6 +20894,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+CheckPrivateField
+:
 /
 /
 We
@@ -21145,6 +21151,12 @@ CacheKind
 :
 :
 HasOwn
+:
+case
+CacheKind
+:
+:
+CheckPrivateField
 :
 case
 CacheKind

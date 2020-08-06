@@ -251,6 +251,11 @@ _
 HasOwn_Fallback
 )
 \
+_
+(
+CheckPrivateField_Fallback
+)
+\
 \
 _
 (
@@ -478,6 +483,11 @@ In
 _
 (
 HasOwn
+)
+\
+_
+(
+CheckPrivateField
 )
 \
 _
