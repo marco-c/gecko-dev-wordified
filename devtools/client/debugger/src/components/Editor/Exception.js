@@ -112,6 +112,7 @@ SourceDocuments
 Exception
 as
 Exc
+SourceId
 }
 from
 "
@@ -134,6 +135,9 @@ Exc
 doc
 :
 SourceDocuments
+selectedSourceId
+:
+SourceId
 }
 ;
 type
@@ -171,7 +175,7 @@ componentDidMount
 {
 this
 .
-addEditionExceptionLine
+addEditorExceptionLine
 (
 )
 ;
@@ -188,7 +192,7 @@ clearEditorExceptionLine
 ;
 this
 .
-addEditionExceptionLine
+addEditorExceptionLine
 (
 )
 ;
@@ -311,7 +315,7 @@ markText
 markText
 ;
 }
-addEditionExceptionLine
+addEditorExceptionLine
 (
 )
 {
@@ -319,6 +323,7 @@ const
 {
 exception
 doc
+selectedSourceId
 }
 =
 this
@@ -329,7 +334,6 @@ const
 {
 columnNumber
 lineNumber
-fileName
 }
 =
 exception
@@ -348,7 +352,7 @@ line
 lineNumber
 sourceId
 :
-fileName
+selectedSourceId
 }
 ;
 const
