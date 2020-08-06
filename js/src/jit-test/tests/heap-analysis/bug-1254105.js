@@ -20,9 +20,15 @@ or
 symbol
 shortestPaths
 (
-this
 [
 undefined
 ]
+{
+start
+:
+this
+maxNumPaths
+:
 5
+}
 )
