@@ -552,6 +552,11 @@ create_context_tar
 GECKO
 image_dir
 outputFile
+image_name
+=
+name
+args
+=
 args
 )
 def
@@ -676,8 +681,7 @@ stream_context_tar
 GECKO
 image_dir
 buf
-'
-'
+name
 args
 )
     

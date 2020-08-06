@@ -300,8 +300,8 @@ docker
 .
 generate_context_hash
 (
+                    
 tmpdir
-                                             
 os
 .
 path
@@ -309,24 +309,26 @@ path
 join
 (
 tmpdir
-'
+"
 docker
 /
 my
 -
 image
-'
+"
 )
-                                             
-'
+"
 my
 -
 image
-'
+"
+{
+}
+                
 )
                 
 '
-e1649b3427bd7a0387f4508d25057c2e89228748517aad6c70e3df54f47bd13a
+680532a33c845e3b4f8ea8a7bd697da579b647f28c29f7a0a71e51e6cca33983
 '
             
 )
@@ -980,6 +982,8 @@ tp
 '
 my_image
 '
+{
+}
 )
             
 self
@@ -988,7 +992,7 @@ assertEqual
 (
 h
 '
-6c1cc23357625f64f775a08eace7bbc3877dd08d2f3546e0f2e308bac8491865
+eae3ad00936085eb3e5958912f79fb06ee8e14a91f7157c5f38625f7ddacb9c7
 '
 )
             
@@ -1234,6 +1238,8 @@ tp
 '
 test_image
 '
+{
+}
 )
             
 self
@@ -1242,7 +1248,7 @@ assertEqual
 (
 h
 '
-e7f14044b8ec1ba42e251d4b293af212ad08b30ec8ab6613abbdbe73c3c2b61f
+49dc3827530cd344d7bcc52e1fdd4aefc632568cf442cffd3dd9633a58f271bf
 '
 )
             
@@ -1425,6 +1431,8 @@ tar
 '
 test
 '
+{
+}
 )
         
 finally
@@ -1562,6 +1570,8 @@ tar
 '
 test
 '
+{
+}
 )
         
 finally
@@ -1691,6 +1701,8 @@ tar
 '
 test
 '
+{
+}
 )
         
 finally
@@ -1962,6 +1974,8 @@ tp
 '
 my_image
 '
+{
+}
 )
             
 self
@@ -1970,7 +1984,7 @@ assertEqual
 (
 h
 '
-d2a3363b15d0eb547a6c81a72ddf3980e2f6e6360c29b4fb6818102896f43180
+a392f23cd6606ae43116390a4d0113354cff1e688a41d46f48b0fb25e90baa13
 '
 )
             

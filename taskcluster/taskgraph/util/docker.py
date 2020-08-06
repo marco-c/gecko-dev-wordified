@@ -1441,9 +1441,8 @@ generate_context_hash
 (
 topsrcdir
 image_path
+image_name
 args
-=
-None
 )
 :
     
@@ -1475,6 +1474,7 @@ image_path
 VoidWriter
 (
 )
+image_name
 args
 =
 args
@@ -1594,9 +1594,8 @@ create_context_tar
 topsrcdir
 context_dir
 out_path
+image_name
 args
-=
-None
 )
 :
     
@@ -1794,14 +1793,7 @@ context_dir
 fh
 image_name
 =
-os
-.
-path
-.
-basename
-(
-out_path
-)
+image_name
 args
 =
 args
@@ -1814,11 +1806,7 @@ topsrcdir
 context_dir
 out_file
 image_name
-=
-None
 args
-=
-None
 )
 :
     
@@ -2368,7 +2356,17 @@ create_tar_gz_from_files
 (
 writer
 archive_files
+"
+{
+}
+.
+tar
+"
+.
+format
+(
 image_name
+)
 )
     
 return
