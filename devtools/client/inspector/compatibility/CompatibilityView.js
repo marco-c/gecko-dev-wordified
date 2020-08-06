@@ -481,6 +481,7 @@ toolbox
 resourceWatcher
 ;
 }
+async
 _init
 (
 )
@@ -662,6 +663,7 @@ this
 _onPanelSelected
 )
 ;
+await
 this
 .
 resourceWatcher
@@ -715,6 +717,19 @@ ignoreExistingResources
 :
 true
 }
+)
+;
+this
+.
+inspector
+.
+emitForTests
+(
+"
+compatibilityview
+-
+initialized
+"
 )
 ;
 }
