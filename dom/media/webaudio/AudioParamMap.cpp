@@ -158,7 +158,7 @@ AudioParamMap
 :
 AudioParamMap
 (
-nsPIDOMWindowInner
+AudioWorkletNode
 *
 aParent
 )
