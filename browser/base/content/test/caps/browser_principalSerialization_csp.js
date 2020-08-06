@@ -2387,8 +2387,8 @@ is
 (
 principal
 .
-URI
-null
+isContentPrincipal
+false
 "
 Should
 have
@@ -2407,8 +2407,6 @@ else
 is
 (
 principal
-.
-URI
 .
 spec
 test

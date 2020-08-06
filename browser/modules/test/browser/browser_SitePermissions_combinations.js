@@ -133,8 +133,6 @@ withNewTab
 (
 principal
 .
-URI
-.
 spec
 function
 (

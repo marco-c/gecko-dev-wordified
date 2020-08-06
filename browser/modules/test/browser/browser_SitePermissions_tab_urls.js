@@ -357,8 +357,6 @@ browser
 false
 principal
 .
-URI
-.
 spec
 )
 ;
@@ -368,8 +366,6 @@ loadURI
 (
 browser
 principal
-.
-URI
 .
 spec
 )
@@ -458,8 +454,6 @@ SCOPE_TEMPORARY
 {
 principal
 .
-URI
-.
 spec
 }
 should
@@ -469,8 +463,6 @@ permissions
 with
 {
 principal2
-.
-URI
 .
 spec
 }
@@ -504,8 +496,6 @@ browser
 false
 principal
 .
-URI
-.
 spec
 )
 ;
@@ -515,8 +505,6 @@ loadURI
 (
 browser
 principal
-.
-URI
 .
 spec
 )
@@ -638,8 +626,6 @@ SCOPE_PERSISTENT
 {
 principal
 .
-URI
-.
 spec
 }
 should
@@ -650,8 +636,6 @@ permissions
 with
 {
 principal2
-.
-URI
 .
 spec
 }
