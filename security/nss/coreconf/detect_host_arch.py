@@ -137,6 +137,17 @@ ia32
     
 elif
 host_arch
+=
+=
+'
+arm64
+'
+:
+        
+pass
+    
+elif
+host_arch
 .
 startswith
 (

@@ -5288,6 +5288,9 @@ SEC_OID_DES_CBC
 ;
 break
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_RC2
 /
 *
 RC2
@@ -5343,6 +5346,8 @@ SEC_OID_PKCS12_PBE_WITH_SHA1_AND_40_BIT_RC2_CBC
 :
 break
 ;
+#
+endif
 /
 *
 RC4
@@ -7939,6 +7944,9 @@ return
 dest
 ;
 }
+#
+ifndef
+NSS_DISABLE_DEPRECATED_RC2
 /
 *
 perform
@@ -8405,6 +8413,13 @@ return
 dest
 ;
 }
+#
+endif
+/
+*
+NSS_DISABLE_DEPRECATED_RC2
+*
+/
 /
 *
 perform
@@ -8915,6 +8930,9 @@ PR_FALSE
 ;
 break
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_RC2
 case
 SEC_OID_RC2_CBC
 :
@@ -8924,6 +8942,8 @@ sec_pkcs5_rc2
 ;
 break
 ;
+#
+endif
 case
 SEC_OID_RC4
 :

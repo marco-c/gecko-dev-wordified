@@ -76,6 +76,9 @@ FREEBL_NO_DEPEND
 #
 include
 "
+.
+.
+/
 stubs
 .
 h
@@ -85,6 +88,9 @@ endif
 #
 include
 "
+.
+.
+/
 blapi
 .
 h
@@ -92,6 +98,9 @@ h
 #
 include
 "
+.
+.
+/
 blapii
 .
 h

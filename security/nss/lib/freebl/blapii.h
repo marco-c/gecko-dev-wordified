@@ -428,6 +428,11 @@ clmul_support
 )
 ;
 PRBool
+sha_support
+(
+)
+;
+PRBool
 avx_support
 (
 )
