@@ -582,13 +582,6 @@ MemoryReport
 aReport
 )
 ;
-async
-FinishMemoryReport
-(
-uint32_t
-aGeneration
-)
-;
 /
 /
 Messages
@@ -805,6 +798,11 @@ minimizeMemoryUsage
 FileDescriptor
 ?
 DMDFile
+)
+returns
+(
+uint32_t
+aGeneration
 )
 ;
 async

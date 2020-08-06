@@ -2901,6 +2901,11 @@ FileDescriptor
 ?
 DMDFile
 )
+returns
+(
+uint32_t
+aGeneration
+)
 ;
 async
 RequestPerformanceMetrics
@@ -9215,13 +9220,6 @@ AddMemoryReport
 (
 MemoryReport
 aReport
-)
-;
-async
-FinishMemoryReport
-(
-uint32_t
-aGeneration
 )
 ;
 async

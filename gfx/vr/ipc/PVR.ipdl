@@ -244,6 +244,11 @@ FileDescriptor
 ?
 DMDFile
 )
+returns
+(
+uint32_t
+aGeneration
+)
 ;
 child
 :
@@ -301,13 +306,6 @@ AddMemoryReport
 (
 MemoryReport
 aReport
-)
-;
-async
-FinishMemoryReport
-(
-uint32_t
-aGeneration
 )
 ;
 }

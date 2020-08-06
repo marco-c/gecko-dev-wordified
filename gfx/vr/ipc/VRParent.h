@@ -384,6 +384,10 @@ FileDescriptor
 >
 &
 DMDFile
+const
+RequestMemoryReportResolver
+&
+aResolver
 )
 ;
 private
