@@ -821,7 +821,7 @@ rect_world
 =
 transform
 .
-outer_transformed_rect
+transform_rect
 (
 &
 node
@@ -3208,7 +3208,7 @@ slice
 .
 transform
 .
-outer_transformed_rect
+transform_rect
 (
 &
 rect_visual_id
@@ -3422,7 +3422,7 @@ slice
 .
 transform
 .
-outer_transformed_rect
+transform_rect
 (
 &
 rect_pixel

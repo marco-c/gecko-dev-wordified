@@ -2347,7 +2347,7 @@ m
 :
 m
 .
-to_array
+to_row_major_array
 (
 )
 }
@@ -6979,8 +6979,6 @@ format
 local_tile_rect
 :
 {
-:
-?
 }
 "
 self
@@ -22562,7 +22560,7 @@ pre_translate
 prim_origin
 )
 .
-then
+post_transform
 (
 &
 world_to_device_scale
@@ -23450,7 +23448,7 @@ prim_rect
 .
 size
 .
-is_empty
+is_empty_or_negative
 (
 )
 {
