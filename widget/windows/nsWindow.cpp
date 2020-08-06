@@ -51422,6 +51422,10 @@ mAttachedWidgetListener
 =
 nullptr
 ;
+DestroyDirectManipulation
+(
+)
+;
 if
 (
 mWnd
