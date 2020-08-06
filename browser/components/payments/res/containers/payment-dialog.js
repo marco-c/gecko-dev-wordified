@@ -3143,6 +3143,8 @@ request
 .
 topLevelPrincipal
 .
+URI
+.
 displayHost
 ;
 let

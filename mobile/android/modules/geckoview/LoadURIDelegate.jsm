@@ -239,6 +239,10 @@ const
 triggerUri
 =
 aTriggeringPrincipal
+&
+&
+(
+aTriggeringPrincipal
 .
 isNullPrincipal
 ?
@@ -246,7 +250,8 @@ null
 :
 aTriggeringPrincipal
 .
-displaySpec
+URI
+)
 ;
 const
 message
@@ -276,6 +281,13 @@ flags
 :
 aFlags
 triggerUri
+:
+triggerUri
+&
+&
+triggerUri
+.
+displaySpec
 hasUserGesture
 :
 aWindow

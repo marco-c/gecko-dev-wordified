@@ -450,6 +450,8 @@ displayHost
 request
 .
 topLevelPrincipal
+.
+URI
 ;
 for
 (
