@@ -63,6 +63,18 @@ backends
 {
     
 '
+Clangd
+'
+:
+'
+mozbuild
+.
+backend
+.
+clangd
+'
+    
+'
 ChromeMap
 '
 :
