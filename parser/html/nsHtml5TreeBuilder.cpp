@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2015
+2017
 Mozilla
 Foundation
 *
@@ -2237,7 +2237,6 @@ documentModeInternal
 QUIRKS_MODE
 publicIdentifier
 systemIdentifier
-false
 )
 ;
 }
@@ -2260,7 +2259,6 @@ documentModeInternal
 ALMOST_STANDARDS_MODE
 publicIdentifier
 systemIdentifier
-false
 )
 ;
 }
@@ -2271,7 +2269,6 @@ documentModeInternal
 STANDARDS_MODE
 publicIdentifier
 systemIdentifier
-false
 )
 ;
 }
@@ -2811,7 +2808,6 @@ documentModeInternal
 QUIRKS_MODE
 nullptr
 nullptr
-false
 )
 ;
 mode
@@ -3487,7 +3483,6 @@ documentModeInternal
 QUIRKS_MODE
 nullptr
 nullptr
-false
 )
 ;
 mode
@@ -8925,7 +8920,6 @@ documentModeInternal
 QUIRKS_MODE
 nullptr
 nullptr
-false
 )
 ;
 mode
@@ -14266,7 +14260,6 @@ documentModeInternal
 QUIRKS_MODE
 nullptr
 nullptr
-false
 )
 ;
 mode
@@ -15462,8 +15455,6 @@ nsHtml5String
 publicIdentifier
 nsHtml5String
 systemIdentifier
-bool
-html4SpecificAdditionalErrorChecks
 )
 {
 if

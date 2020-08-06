@@ -15,7 +15,7 @@ c
 )
 2007
 -
-2015
+2017
 Mozilla
 Foundation
 *
@@ -1641,8 +1641,6 @@ nsHtml5String
 publicIdentifier
 nsHtml5String
 systemIdentifier
-bool
-html4SpecificAdditionalErrorChecks
 )
 ;
 bool
