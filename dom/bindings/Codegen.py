@@ -125068,8 +125068,11 @@ aRetVal
 SetValue
 (
 )
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 {
 declName
@@ -125095,8 +125098,11 @@ returnCode
 =
 "
 aRetVal
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 {
 declName

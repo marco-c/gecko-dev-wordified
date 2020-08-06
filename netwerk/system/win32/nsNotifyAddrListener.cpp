@@ -3795,8 +3795,11 @@ mMutex
 )
 ;
 mDnsSuffixList
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 dnsSuffixList
 )

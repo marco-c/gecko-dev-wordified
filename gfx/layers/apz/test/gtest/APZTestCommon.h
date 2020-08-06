@@ -1526,10 +1526,11 @@ TimeStamp
 >
 >
 runQueue
-;
-runQueue
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mTaskQueue
 )

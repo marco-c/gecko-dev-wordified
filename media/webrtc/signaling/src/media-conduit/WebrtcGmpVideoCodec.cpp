@@ -4701,10 +4701,11 @@ GMPDecodeData
 >
 >
 temp
-;
-temp
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mQueuedFrames
 )

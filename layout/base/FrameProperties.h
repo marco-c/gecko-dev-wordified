@@ -1865,10 +1865,11 @@ nsTArray
 PropertyValue
 >
 toDelete
-;
-toDelete
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mProperties
 )

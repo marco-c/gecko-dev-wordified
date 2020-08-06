@@ -7410,10 +7410,11 @@ nsTArray
 PendingEvent
 >
 pendingEvents
-;
-pendingEvents
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mPendingEvents
 )

@@ -9627,7 +9627,13 @@ mLoadInfo
 ProxyReleaseMainThreadObjects
 (
 this
+std
+:
+:
+move
+(
 loadGroupToCancel
+)
 )
 ;
 mMainThreadObjectsForgotten

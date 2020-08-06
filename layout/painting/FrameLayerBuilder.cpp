@@ -11874,8 +11874,11 @@ aOther
 mAppUnitsPerDevPixel
 ;
 mRoundedClipRects
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 aOther
 .

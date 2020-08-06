@@ -627,10 +627,11 @@ nsIRunnable
 >
 >
 runnables
-;
-runnables
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mQueuedRunnables
 )

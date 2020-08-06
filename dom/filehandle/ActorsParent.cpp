@@ -5284,10 +5284,11 @@ nsTArray
 DelayedEnqueueInfo
 >
 delayedEnqueueInfos
-;
-delayedEnqueueInfos
-.
-SwapElements
+=
+std
+:
+:
+move
 (
 mDelayedEnqueueInfos
 )
