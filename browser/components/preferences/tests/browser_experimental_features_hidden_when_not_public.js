@@ -299,11 +299,13 @@ display
 title
 :
 "
-pane
--
 experimental
 -
-subtitle
+features
+-
+media
+-
+avif
 "
 description
 :
