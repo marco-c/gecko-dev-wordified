@@ -247,8 +247,8 @@ LoadURIOptions
 class
 MediaController
 ;
-struct
-LoadingSessionHistoryInfo
+class
+SessionHistoryInfo
 ;
 class
 SessionHistoryEntry
@@ -606,9 +606,9 @@ GetSessionHistory
 ;
 UniquePtr
 <
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 >
-CreateLoadingSessionHistoryEntryForLoad
+CreateSessionHistoryEntryForLoad
 (
 nsDocShellLoadState
 *

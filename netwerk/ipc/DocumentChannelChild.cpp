@@ -1693,7 +1693,7 @@ docShell
 &
 aArgs
 .
-loadingSessionHistoryInfo
+sessionHistoryInfo
 (
 )
 .
@@ -1709,7 +1709,7 @@ SetLoadingSessionHistoryInfo
 (
 aArgs
 .
-loadingSessionHistoryInfo
+sessionHistoryInfo
 (
 )
 .

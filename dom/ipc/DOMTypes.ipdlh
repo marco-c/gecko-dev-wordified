@@ -208,7 +208,7 @@ mozilla
 dom
 :
 :
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 from
 "
 mozilla
@@ -1368,9 +1368,9 @@ LoadIdentifier
 bool
 ChannelInitialized
 ;
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 ?
-loadingSessionHistoryInfo
+sessionHistoryInfo
 ;
 }
 ;

@@ -2998,9 +2998,9 @@ mozilla
 dom
 :
 :
-LoadingSessionHistoryInfo
+SessionHistoryInfo
 >
-mLoadingSessionHistoryInfo
+mSessionHistoryInfo
 ;
 /
 /
