@@ -433,6 +433,12 @@ GetTriggerNode
 )
 const
 ;
+bool
+IsAnchored
+(
+)
+const
+;
 Element
 *
 GetAnchorNode
