@@ -115,6 +115,11 @@ GeckoViewActorChild
 jsm
 '
 '
+GeckoViewActorManager
+.
+jsm
+'
+'
 GeckoViewAutocomplete
 .
 jsm
