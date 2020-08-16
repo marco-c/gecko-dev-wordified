@@ -27472,7 +27472,7 @@ id
 ;
 writer
 .
-callProxySet
+proxySet
 (
 objId
 id
@@ -27523,7 +27523,7 @@ Megamorphic
 ;
 writer
 .
-callProxySetByValue
+proxySetByValue
 (
 objId
 setElemKeyValueId
@@ -27604,7 +27604,7 @@ objId
 ;
 writer
 .
-callProxySet
+proxySet
 (
 objId
 id
@@ -28556,7 +28556,7 @@ SetElem
 ;
 writer
 .
-callProxySetByValue
+proxySetByValue
 (
 objId
 setElemKeyValueId

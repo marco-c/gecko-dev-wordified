@@ -11555,7 +11555,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitCallProxySet
+emitProxySet
 (
 ObjOperandId
 objId
@@ -11726,7 +11726,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitCallProxySetByValue
+emitProxySetByValue
 (
 ObjOperandId
 objId
