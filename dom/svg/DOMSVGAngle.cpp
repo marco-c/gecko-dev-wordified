@@ -187,7 +187,7 @@ aSVGElement
 )
 mType
 (
-DOMSVGAngle
+AngleType
 :
 :
 CreatedValue
@@ -255,6 +255,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -293,6 +296,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -339,6 +345,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -358,6 +367,9 @@ isBaseVal
 mType
 =
 =
+AngleType
+:
+:
 BaseValue
 ;
 mVal
@@ -397,6 +409,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -432,6 +447,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -450,6 +468,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 BaseValue
 )
 {
@@ -494,6 +515,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -519,6 +543,9 @@ valueInSpecifiedUnits
 mType
 =
 =
+AngleType
+:
+:
 BaseValue
 ?
 mSVGElement
@@ -549,6 +576,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -573,6 +603,9 @@ unitType
 mType
 =
 =
+AngleType
+:
+:
 BaseValue
 ?
 mSVGElement
@@ -605,6 +638,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
@@ -624,6 +660,9 @@ isBaseVal
 mType
 =
 =
+AngleType
+:
+:
 BaseValue
 ;
 rv
@@ -663,6 +702,9 @@ if
 mType
 =
 =
+AngleType
+:
+:
 AnimValue
 )
 {
