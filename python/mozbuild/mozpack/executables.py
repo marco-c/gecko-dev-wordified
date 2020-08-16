@@ -621,14 +621,16 @@ import
 substs
     
 return
-not
+bool
+(
 substs
 .
 get
 (
 '
-PKG_SKIP_STRIP
+PKG_STRIP
 '
+)
 )
 def
 strip
