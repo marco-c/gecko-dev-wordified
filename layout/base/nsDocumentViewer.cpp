@@ -20505,7 +20505,7 @@ for
 (
 nsIFrame
 *
-pageFrame
+sheetFrame
 :
 seqFrame
 -
@@ -20516,9 +20516,9 @@ PrincipalChildList
 )
 {
 nsRect
-pageRect
+sheetRect
 =
-pageFrame
+sheetFrame
 -
 >
 GetRect
@@ -20527,11 +20527,11 @@ GetRect
 ;
 if
 (
-pageRect
+sheetRect
 .
 Contains
 (
-pageRect
+sheetRect
 .
 x
 currentScrollPosition
@@ -20542,7 +20542,7 @@ y
 {
 currentPage
 =
-pageFrame
+sheetFrame
 ;
 }
 if
@@ -20555,7 +20555,7 @@ aPageNum
 {
 fndPageFrame
 =
-pageFrame
+sheetFrame
 ;
 break
 ;
