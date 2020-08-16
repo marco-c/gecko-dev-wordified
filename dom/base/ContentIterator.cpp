@@ -2138,8 +2138,9 @@ nsINode
 const
 result
 =
-mIterator
-.
+ContentIteratorBase
+:
+:
 GetNextSibling
 (
 mStart
@@ -2761,8 +2762,9 @@ nsINode
 const
 result
 =
-mIterator
-.
+ContentIteratorBase
+:
+:
 GetPrevSibling
 (
 mEnd
@@ -3232,6 +3234,9 @@ sibling
 .
 .
 .
+/
+/
+static
 nsIContent
 *
 ContentIteratorBase
@@ -3371,6 +3376,9 @@ GetFirstChild
 ;
 }
 return
+ContentIteratorBase
+:
+:
 GetNextSibling
 (
 parent
@@ -3398,6 +3406,9 @@ sibling
 .
 .
 .
+/
+/
+static
 nsIContent
 *
 ContentIteratorBase
@@ -3537,6 +3548,9 @@ GetLastChild
 ;
 }
 return
+ContentIteratorBase
+:
+:
 GetPrevSibling
 (
 parent
@@ -3636,6 +3650,9 @@ sibling
 is
 next
 return
+ContentIteratorBase
+:
+:
 GetNextSibling
 (
 node
@@ -3887,6 +3904,9 @@ sibling
 is
 previous
 return
+ContentIteratorBase
+:
+:
 GetPrevSibling
 (
 node
@@ -5481,6 +5501,9 @@ after
 node
 firstCandidate
 =
+ContentIteratorBase
+:
+:
 GetNextSibling
 (
 node
@@ -5750,6 +5773,9 @@ before
 node
 lastCandidate
 =
+ContentIteratorBase
+:
+:
 GetPrevSibling
 (
 node
@@ -6142,6 +6168,9 @@ nsINode
 *
 nextNode
 =
+ContentIteratorBase
+:
+:
 GetNextSibling
 (
 mCurNode

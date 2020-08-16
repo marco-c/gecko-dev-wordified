@@ -628,6 +628,7 @@ previous
 /
 sibling
 .
+static
 nsIContent
 *
 GetNextSibling
@@ -637,6 +638,7 @@ nsINode
 aNode
 )
 ;
+static
 nsIContent
 *
 GetPrevSibling
