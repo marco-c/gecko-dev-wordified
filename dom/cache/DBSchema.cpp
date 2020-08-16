@@ -3198,6 +3198,15 @@ TYPE_INTERNAL_FRAME_MESSAGEMANAGER_SCRIPT
 =
 =
 53
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FETCH_PRELOAD
+=
+=
+54
 "
 nsContentPolicyType
 values

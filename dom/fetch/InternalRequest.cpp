@@ -1832,6 +1832,12 @@ nsIContentPolicy
 :
 TYPE_FETCH
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FETCH_PRELOAD
+:
 destination
 =
 RequestDestination

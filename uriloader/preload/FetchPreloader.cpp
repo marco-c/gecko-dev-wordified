@@ -233,7 +233,7 @@ FetchPreloader
 nsIContentPolicy
 :
 :
-TYPE_INTERNAL_XMLHTTPREQUEST
+TYPE_INTERNAL_FETCH_PRELOAD
 )
 {
 }
