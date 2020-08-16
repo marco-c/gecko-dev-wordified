@@ -195,7 +195,7 @@ const
 {
 getMessagePayload
 getResponseHeader
-isJSON
+parseJSON
 }
 =
 require
@@ -1004,7 +1004,7 @@ const
 json
 }
 =
-isJSON
+parseJSON
 (
 payload
 )
@@ -1305,7 +1305,7 @@ const
 json
 }
 =
-isJSON
+parseJSON
 (
 payload
 .
@@ -1344,7 +1344,7 @@ payload
 identifier
 &
 &
-isJSON
+parseJSON
 (
 payload
 .
@@ -1361,7 +1361,7 @@ payload
 data
 &
 &
-isJSON
+parseJSON
 (
 payload
 .
