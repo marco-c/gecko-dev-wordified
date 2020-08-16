@@ -17,7 +17,10 @@ assert_subprinter_registered
 SpiderMonkey
 '
 '
-jsid
+JS
+:
+:
+PropertyKey
 '
 )
 run_fragment
