@@ -258,6 +258,15 @@ aAttribute
 const
 override
 ;
+bool
+IsNodeOfType
+(
+uint32_t
+aFlags
+)
+const
+override
+;
 virtual
 nsresult
 Clone

@@ -349,6 +349,15 @@ default
 ;
 public
 :
+bool
+IsNodeOfType
+(
+uint32_t
+aFlags
+)
+const
+override
+;
 /
 /
 nsIContent

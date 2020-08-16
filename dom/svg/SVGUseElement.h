@@ -366,6 +366,15 @@ SVGUseElement
 kNameSpaceID_SVG
 use
 )
+bool
+IsNodeOfType
+(
+uint32_t
+aFlags
+)
+const
+override
+;
 nsresult
 BindToTree
 (
