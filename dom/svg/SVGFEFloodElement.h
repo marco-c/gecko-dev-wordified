@@ -123,6 +123,10 @@ DOM_SVG_SVGFEFLOODELEMENT_H_
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGFilters
 .
 h

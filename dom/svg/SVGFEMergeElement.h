@@ -123,6 +123,10 @@ DOM_SVG_SVGFEMERGEELEMENT_H_
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGFilters
 .
 h

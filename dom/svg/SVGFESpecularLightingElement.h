@@ -123,6 +123,10 @@ DOM_SVG_SVGFESPECULARLIGHTINGELEMENT_H_
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGFilters
 .
 h

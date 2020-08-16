@@ -130,6 +130,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGFilters
 .
 h
