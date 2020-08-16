@@ -305,13 +305,6 @@ XP_WIN
 #
 include
 "
-GLContextEGL
-.
-h
-"
-#
-include
-"
 GLLibraryEGL
 .
 h
