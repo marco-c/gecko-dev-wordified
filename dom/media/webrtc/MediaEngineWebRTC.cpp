@@ -1930,7 +1930,7 @@ aWindowId
 camera
 :
 :
-BrowserEngine
+ScreenEngine
 aDevices
 )
 ;
@@ -1940,7 +1940,7 @@ aWindowId
 camera
 :
 :
-ScreenEngine
+BrowserEngine
 aDevices
 )
 ;
