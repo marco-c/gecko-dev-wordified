@@ -2482,15 +2482,6 @@ setSearchMode
 }
 )
 ;
-if
-(
-this
-.
-input
-.
-value
-)
-{
 this
 .
 input
@@ -2505,7 +2496,6 @@ event
 }
 )
 ;
-}
 }
 /
 /
