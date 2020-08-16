@@ -10164,13 +10164,6 @@ callee
 )
 ;
 AttachDecision
-tryAttachBoolean
-(
-HandleFunction
-callee
-)
-;
-AttachDecision
 tryAttachFunCall
 (
 HandleFunction
