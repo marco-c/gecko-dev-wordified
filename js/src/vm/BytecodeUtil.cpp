@@ -292,6 +292,17 @@ include
 "
 js
 /
+experimental
+/
+CodeCoverage
+.
+h
+"
+#
+include
+"
+js
+/
 friend
 /
 DumpFunctions

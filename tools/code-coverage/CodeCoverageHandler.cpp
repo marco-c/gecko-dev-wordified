@@ -135,6 +135,17 @@ endif
 #
 include
 "
+js
+/
+experimental
+/
+CodeCoverage
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
