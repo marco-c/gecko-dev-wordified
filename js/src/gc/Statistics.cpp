@@ -607,10 +607,7 @@ gcstats
 :
 ExplainAbortReason
 (
-gc
-:
-:
-AbortReason
+GCAbortReason
 reason
 )
 {
@@ -628,10 +625,7 @@ _
 )
 \
 case
-gc
-:
-:
-AbortReason
+GCAbortReason
 :
 :
 name
@@ -4787,7 +4781,7 @@ if
 nonincrementalReason_
 !
 =
-AbortReason
+GCAbortReason
 :
 :
 None
@@ -5267,10 +5261,7 @@ nullptr
 )
 nonincrementalReason_
 (
-gc
-:
-:
-AbortReason
+GCAbortReason
 :
 :
 None
@@ -6781,10 +6772,7 @@ kind
 ;
 nonincrementalReason_
 =
-gc
-:
-:
-AbortReason
+GCAbortReason
 :
 :
 None
@@ -10771,7 +10759,7 @@ slice
 resetReason
 !
 =
-AbortReason
+GCAbortReason
 :
 :
 None
@@ -10782,7 +10770,7 @@ nonIncremental
 nonincrementalReason_
 !
 =
-AbortReason
+GCAbortReason
 :
 :
 None

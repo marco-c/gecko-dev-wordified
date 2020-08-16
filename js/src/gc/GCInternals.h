@@ -981,7 +981,7 @@ runtime
 }
 }
 ;
-AbortReason
+GCAbortReason
 IsIncrementalGCUnsafe
 (
 JSRuntime
