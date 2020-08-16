@@ -840,6 +840,11 @@ bool
 >
 mInConstructor
 ;
+bool
+mDecoderInitialized
+=
+false
+;
 }
 ;
 }
