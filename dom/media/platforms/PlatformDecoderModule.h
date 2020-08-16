@@ -424,11 +424,10 @@ false
 Do
 not
 wrap
-H264
 decoder
 in
 a
-H264Converter
+MediaChangeMonitor
 .
 struct
 NoWrapper
