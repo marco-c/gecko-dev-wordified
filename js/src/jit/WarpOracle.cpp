@@ -3596,6 +3596,12 @@ case
 JSOp
 :
 :
+CallIter
+:
+case
+JSOp
+:
+:
 FunCall
 :
 case
@@ -4354,12 +4360,6 @@ JSOp
 :
 :
 IsNoIter
-:
-case
-JSOp
-:
-:
-CallIter
 :
 case
 JSOp
