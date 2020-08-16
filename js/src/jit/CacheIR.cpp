@@ -10096,7 +10096,7 @@ specialized
 stubs
 writer
 .
-guardNotDOMProxy
+guardIsNotDOMProxy
 (
 objId
 )
@@ -27436,7 +27436,7 @@ here
 .
 writer
 .
-guardNotDOMProxy
+guardIsNotDOMProxy
 (
 objId
 )
