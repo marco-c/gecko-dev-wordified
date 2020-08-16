@@ -31484,8 +31484,6 @@ GLboolean
 opaque
 GLboolean
 flip
-GLenum
-filter
 )
 {
 if
@@ -31708,6 +31706,14 @@ dstY
 dstHeight
 }
 ;
+GLenum
+filter
+=
+GL_LINEAR
+;
+/
+/
+TODO
 if
 (
 opaque

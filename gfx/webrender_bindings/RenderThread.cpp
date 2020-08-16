@@ -2791,9 +2791,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-*
-aNeedsYFlip
 )
 {
 AUTO_PROFILER_TRACING_MARKER
@@ -2936,7 +2933,6 @@ UpdateAndRender
 aReadbackSize
 aReadbackFormat
 aReadbackBuffer
-aNeedsYFlip
 &
 stats
 )

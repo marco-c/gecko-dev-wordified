@@ -408,9 +408,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-*
-aNeedsYFlip
 RendererStats
 *
 aOutStats
