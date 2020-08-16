@@ -6421,8 +6421,9 @@ callData
 >
 icScript
 ;
-MOZ_ASSERT
+if
 (
+!
 TrialInliner
 :
 :
@@ -6432,7 +6433,11 @@ targetFunction
 script_
 )
 )
+{
+return
+false
 ;
+}
 MOZ_ASSERT
 (
 targetScript
