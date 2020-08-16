@@ -366,6 +366,9 @@ js_source_path
 [
     
 "
+.
+.
+/
 browser
 /
 components
@@ -374,6 +377,9 @@ extensions
 "
     
 "
+.
+.
+/
 browser
 /
 components
@@ -382,12 +388,18 @@ uitour
 "
     
 "
+.
+.
+/
 testing
 /
 marionette
 "
     
 "
+.
+.
+/
 toolkit
 /
 components
@@ -396,6 +408,9 @@ extensions
 "
     
 "
+.
+.
+/
 toolkit
 /
 components
@@ -406,6 +421,9 @@ parent
 "
     
 "
+.
+.
+/
 toolkit
 /
 components
@@ -414,6 +432,9 @@ featuregates
 "
     
 "
+.
+.
+/
 toolkit
 /
 mozapps
@@ -422,6 +443,9 @@ extensions
 "
     
 "
+.
+.
+/
 toolkit
 /
 components
@@ -430,10 +454,12 @@ prompts
 /
 src
 "
+ 
 ]
 root_for_relative_js_paths
 =
 "
+.
 .
 "
 jsdoc_config_path
