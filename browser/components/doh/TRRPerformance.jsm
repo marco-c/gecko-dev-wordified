@@ -1137,6 +1137,13 @@ record
 ?
 record
 .
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+.
 trrFetchDurationNetworkOnly
 :
 -

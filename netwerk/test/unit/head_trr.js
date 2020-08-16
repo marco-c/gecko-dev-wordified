@@ -1331,6 +1331,15 @@ status
 "
 )
 ;
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 let
 answer
 =
