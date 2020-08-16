@@ -1135,7 +1135,12 @@ resource
 >
 domain_name
 )
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 resolve_flags
+nullptr
 pr
 sts_thread_
 attrs

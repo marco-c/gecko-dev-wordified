@@ -7450,6 +7450,10 @@ mDnsService
 AsyncResolveNative
 (
 hostname
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 (
 nsIDNSService
 :
@@ -7461,6 +7465,7 @@ nsIDNSService
 :
 RESOLVE_SPECULATE
 )
+nullptr
 mDNSListener
 nullptr
 originAttributes
@@ -7522,7 +7527,7 @@ hostname
 mDnsService
 -
 >
-AsyncResolveByTypeNative
+AsyncResolveNative
 (
 esniHost
 nsIDNSService
@@ -7540,6 +7545,7 @@ nsIDNSService
 :
 RESOLVE_SPECULATE
 )
+nullptr
 mDNSListener
 nullptr
 originAttributes
