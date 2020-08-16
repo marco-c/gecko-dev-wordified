@@ -10711,14 +10711,6 @@ SetLoadType
 aLoadType
 )
 ;
-SessionHistoryEntry
-:
-:
-MaybeSynchronizeSharedStateToInfo
-(
-aFrameEntry
-)
-;
 loadState
 -
 >
