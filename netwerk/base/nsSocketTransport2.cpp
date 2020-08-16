@@ -7126,7 +7126,12 @@ AsyncResolveNative
 SocketHost
 (
 )
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 dnsFlags
+nullptr
 this
 mSocketTransportService
 mOriginAttributes
@@ -7295,7 +7300,7 @@ rv
 dns
 -
 >
-AsyncResolveByTypeNative
+AsyncResolveNative
 (
 esniHost
 nsIDNSService
@@ -7303,6 +7308,7 @@ nsIDNSService
 :
 RESOLVE_TYPE_TXT
 dnsFlags
+nullptr
 this
 mSocketTransportService
 mOriginAttributes

@@ -3977,7 +3977,12 @@ dns
 AsyncResolveNative
 (
 aHostName
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 flags
+nullptr
 helper
 GetCurrentEventTarget
 (

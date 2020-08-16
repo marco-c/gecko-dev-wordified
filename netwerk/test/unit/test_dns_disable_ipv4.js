@@ -214,7 +214,16 @@ Ci
 .
 nsIDNSService
 .
+RESOLVE_TYPE_DEFAULT
+Ci
+.
+nsIDNSService
+.
 RESOLVE_DISABLE_IPV4
+null
+/
+/
+resolverInfo
 listener
 null
 defaultOriginAttributes

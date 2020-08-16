@@ -2835,7 +2835,12 @@ proxyHost
 nsIDNSService
 :
 :
+RESOLVE_TYPE_DEFAULT
+nsIDNSService
+:
+:
 RESOLVE_IGNORE_SOCKS_DNS
+nullptr
 this
 mozilla
 :

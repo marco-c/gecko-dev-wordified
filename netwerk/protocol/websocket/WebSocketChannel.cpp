@@ -18517,7 +18517,12 @@ dns
 AsyncResolveNative
 (
 hostName
+nsIDNSService
+:
+:
+RESOLVE_TYPE_DEFAULT
 0
+nullptr
 this
 main
 mLoadInfo

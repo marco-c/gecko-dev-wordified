@@ -1062,7 +1062,7 @@ request
 =
 dns
 .
-asyncResolveByType
+asyncResolve
 (
 "
 test
@@ -1075,6 +1075,10 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
+null
+/
+/
+resolverInfo
 listenerEsni
 mainThread
 defaultOriginAttributes
@@ -2866,7 +2870,7 @@ request
 =
 dns
 .
-asyncResolveByType
+asyncResolve
 (
 "
 multi
@@ -2877,6 +2881,10 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
+null
+/
+/
+resolverInfo
 listener
 mainThread
 defaultOriginAttributes
@@ -3081,7 +3089,7 @@ request
 =
 dns
 .
-asyncResolveByType
+asyncResolve
 (
 "
 order
@@ -3092,6 +3100,10 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
+null
+/
+/
+resolverInfo
 listener
 mainThread
 defaultOriginAttributes
@@ -3237,7 +3249,7 @@ request
 =
 dns
 .
-asyncResolveByType
+asyncResolve
 (
 "
 duplicate
@@ -3248,6 +3260,10 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
+null
+/
+/
+resolverInfo
 listener
 mainThread
 defaultOriginAttributes
@@ -3399,7 +3415,7 @@ request
 =
 dns
 .
-asyncResolveByType
+asyncResolve
 (
 "
 mandatory
@@ -3410,6 +3426,10 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
+null
+/
+/
+resolverInfo
 listener
 mainThread
 defaultOriginAttributes
@@ -3638,7 +3658,7 @@ request
 =
 dns
 .
-asyncResolveByType
+asyncResolve
 (
 "
 mandatory2
@@ -3649,6 +3669,10 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
+null
+/
+/
+resolverInfo
 listener
 mainThread
 defaultOriginAttributes
