@@ -231,6 +231,17 @@ ProfileChunkedBuffer
 aBuffer
 )
 ;
+ProfileChunkedBuffer
+&
+UnderlyingChunkedBuffer
+(
+)
+const
+{
+return
+mEntries
+;
+}
 bool
 IsThreadSafe
 (
