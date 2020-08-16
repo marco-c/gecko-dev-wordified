@@ -1837,6 +1837,17 @@ self
 .
 activate_pipenv
 (
+os
+.
+path
+.
+dirname
+(
+default_manager
+.
+virtualenv_root
+)
+                             
 pipfile
 =
 None
@@ -1931,10 +1942,6 @@ VirtualenvManager
 default_manager
 .
 topsrcdir
-            
-default_manager
-.
-topobjdir
             
 py3_root
             

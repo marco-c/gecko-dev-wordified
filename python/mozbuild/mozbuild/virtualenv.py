@@ -301,10 +301,8 @@ __init__
 (
 self
 topsrcdir
-topobjdir
 virtualenv_path
 log_handle
-                 
 manifest_path
 )
 :
@@ -381,12 +379,6 @@ self
 topsrcdir
 =
 topsrcdir
-        
-self
-.
-topobjdir
-=
-topobjdir
         
 self
 .
@@ -1362,10 +1354,6 @@ VirtualenvManager
 self
 .
 topsrcdir
-                                           
-self
-.
-topobjdir
                                            
 self
 .
@@ -2493,46 +2481,6 @@ being
 read
 .
         
-objdir
--
--
-Denotes
-a
-relative
-path
-in
-the
-object
-directory
-to
-add
-to
-the
-            
-search
-path
-.
-e
-.
-g
-.
-"
-objdir
-:
-build
-"
-will
-add
-topobjdir
-/
-build
-to
-the
-            
-search
-path
-.
-        
 windows
 -
 -
@@ -2962,10 +2910,6 @@ topsrcdir
                                                
 self
 .
-topobjdir
-                                               
-self
-.
 virtualenv_root
                                                
 self
@@ -3095,9 +3039,6 @@ same
 )
 .
                     
-try
-:
-                        
 f
 .
 write
@@ -3117,43 +3058,6 @@ relpath
 (
 path
 python_lib
-)
-)
-                    
-except
-ValueError
-:
-                        
-#
-When
-objdir
-is
-on
-a
-separate
-drive
-relpath
-throws
-                        
-f
-.
-write
-(
-"
-%
-s
-\
-n
-"
-%
-os
-.
-path
-.
-join
-(
-python_lib
-path
 )
 )
                 
@@ -3336,85 +3240,6 @@ package
 1
 :
 ]
-)
-                
-return
-True
-            
-if
-package
-[
-0
-]
-=
-=
-'
-objdir
-'
-:
-                
-assert
-len
-(
-package
-)
-=
-=
-2
-                
-path
-=
-os
-.
-path
-.
-join
-(
-self
-.
-topobjdir
-package
-[
-1
-]
-)
-                
-with
-open
-(
-os
-.
-path
-.
-join
-(
-python_lib
-'
-objdir
-.
-pth
-'
-)
-'
-a
-'
-)
-as
-f
-:
-                    
-f
-.
-write
-(
-'
-%
-s
-\
-n
-'
-%
-path
 )
                 
 return
@@ -4297,9 +4122,6 @@ topsrcdir
                 
 self
 .
-topobjdir
-self
-.
 virtualenv_root
 self
 .
@@ -5163,12 +4985,14 @@ def
 activate_pipenv
 (
 self
+workon_home
 pipfile
 =
 None
 populate
 =
 False
+                        
 python
 =
 None
@@ -5304,19 +5128,7 @@ path
 .
 normpath
 (
-os
-.
-path
-.
-join
-(
-self
-.
-topobjdir
-'
-_virtualenvs
-'
-)
+workon_home
 )
 )
         
@@ -5739,9 +5551,6 @@ populate
 self
 .
 topsrcdir
-self
-.
-topobjdir
 self
 .
 virtualenv_root
@@ -6367,7 +6176,7 @@ sys
 argv
 )
 <
-5
+4
 :
         
 print
@@ -6376,7 +6185,7 @@ print
 '
 Usage
 :
-populate_virtualenv
+virtualenv
 .
 py
 /
@@ -6388,12 +6197,6 @@ topsrcdir
 '
             
 '
-/
-path
-/
-to
-/
-topobjdir
 /
 path
 /
@@ -6424,7 +6227,6 @@ stdout
 )
     
 topsrcdir
-topobjdir
 virtualenv_path
 manifest_path
 =
@@ -6434,7 +6236,7 @@ argv
 [
 1
 :
-5
+4
 ]
     
 populate
@@ -6469,7 +6271,6 @@ populate
 True
         
 topsrcdir
-topobjdir
 virtualenv_path
 manifest_path
 =
@@ -6486,7 +6287,6 @@ manager
 VirtualenvManager
 (
 topsrcdir
-topobjdir
 virtualenv_path
                                 
 sys

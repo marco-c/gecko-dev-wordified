@@ -2824,7 +2824,6 @@ manager
 VirtualenvManager
 (
 topsrcdir
-topobjdir
 os
 .
 path
