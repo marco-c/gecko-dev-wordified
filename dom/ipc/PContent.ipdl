@@ -5230,6 +5230,15 @@ aState
 )
 ;
 async
+SessionHistoryEntryTitle
+(
+uint64_t
+aSessionHistoryEntryID
+nsString
+aTitle
+)
+;
+async
 InitBackground
 (
 Endpoint

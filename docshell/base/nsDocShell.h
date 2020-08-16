@@ -7328,6 +7328,11 @@ nsLoadFlags
 aLoadFlags
 )
 ;
+void
+SetTitleOnHistoryEntry
+(
+)
+;
 private
 :
 /
