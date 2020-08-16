@@ -423,3 +423,17 @@ _NS_InvokeByIndex
 .
 -
 _NS_InvokeByIndex
+.
+section
+.
+note
+.
+GNU
+-
+stack
+"
+"
+progbits
+;
+.
+previous
