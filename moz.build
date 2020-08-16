@@ -1348,6 +1348,9 @@ DIRS
 =
 [
 '
+build
+'
+'
 config
 '
 '
@@ -1496,14 +1499,6 @@ py
 :
 source_repo_header
 '
-DIRS
-+
-=
-[
-'
-build
-'
-]
 DIRS
 +
 =
