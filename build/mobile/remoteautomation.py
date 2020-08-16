@@ -2151,6 +2151,20 @@ newLogContent
 return
 False
         
+newLogContent
+=
+six
+.
+ensure_str
+(
+newLogContent
+errors
+=
+'
+replace
+'
+)
+        
 self
 .
 stdoutlen
