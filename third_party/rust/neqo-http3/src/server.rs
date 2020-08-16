@@ -633,7 +633,6 @@ Process
 HTTP3
 layer
 .
-pub
 fn
 process_http3
 (

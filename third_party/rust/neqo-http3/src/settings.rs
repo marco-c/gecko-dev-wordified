@@ -1056,7 +1056,10 @@ max_table_size_decoder
 setting
 .
 value
-_
+HSettingType
+:
+:
+MaxHeaderListSize
 =
 >
 true

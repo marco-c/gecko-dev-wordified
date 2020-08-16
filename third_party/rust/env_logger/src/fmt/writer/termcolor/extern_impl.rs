@@ -11,6 +11,15 @@ use
 std
 :
 :
+cell
+:
+:
+RefCell
+;
+use
+std
+:
+:
 fmt
 ;
 use
@@ -24,15 +33,6 @@ io
 self
 Write
 }
-;
-use
-std
-:
-:
-cell
-:
-:
-RefCell
 ;
 use
 std
@@ -61,11 +61,7 @@ WriteColor
 }
 ;
 use
-:
-:
-WriteStyle
-;
-use
+crate
 :
 :
 fmt
@@ -74,11 +70,13 @@ fmt
 {
 Formatter
 Target
+WriteStyle
 }
 ;
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -548,6 +546,7 @@ level
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -574,6 +573,7 @@ Target
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -600,6 +600,7 @@ BufferWriter
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -661,6 +662,7 @@ None
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -722,6 +724,7 @@ None
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -760,6 +763,7 @@ test_target
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -908,6 +912,7 @@ Buffer
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -931,6 +936,7 @@ clear
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -970,6 +976,7 @@ buf
 pub
 (
 in
+crate
 :
 :
 fmt
@@ -1003,6 +1010,7 @@ flush
 pub
 (
 in
+crate
 :
 :
 fmt
