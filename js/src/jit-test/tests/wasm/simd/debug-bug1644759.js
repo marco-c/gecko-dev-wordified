@@ -13,6 +13,12 @@ if
 wasmDebuggingIsSupported
 (
 )
+|
+|
+!
+wasmSimdSupported
+(
+)
 var
 g7
 =

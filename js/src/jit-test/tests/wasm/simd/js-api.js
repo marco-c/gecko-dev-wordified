@@ -14,6 +14,15 @@ also
 no
 -
 threads
+;
+skip
+-
+if
+:
+!
+wasmSimdSupported
+(
+)
 /
 /
 SIMD
