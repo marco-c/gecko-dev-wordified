@@ -7219,7 +7219,7 @@ it
 is
 needed
 .
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 false
 )
@@ -75312,7 +75312,7 @@ void
 PresShell
 :
 :
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 bool
 aAfterInitialization

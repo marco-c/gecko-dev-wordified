@@ -1912,12 +1912,12 @@ that
 determine
 whether
 we
-have
+need
 a
-potentially
-*
-zoomable
+mobile
 viewport
+*
+manager
 may
 have
 changed
@@ -1925,7 +1925,7 @@ changed
 *
 /
 void
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 bool
 aAfterInitialization

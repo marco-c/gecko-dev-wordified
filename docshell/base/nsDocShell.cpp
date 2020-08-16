@@ -13264,7 +13264,7 @@ GetPresShell
 presShell
 -
 >
-UpdateViewportOverridden
+MaybeRecreateMobileViewportManager
 (
 true
 )
