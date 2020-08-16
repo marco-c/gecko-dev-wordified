@@ -23541,6 +23541,15 @@ DEFINED_ON
 mips_shared
 )
 ;
+void
+atomicIsLockFreeJS
+(
+Register
+value
+Register
+output
+)
+;
 /
 /
 =

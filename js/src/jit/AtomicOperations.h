@@ -2421,13 +2421,13 @@ this
 in
 sync
 with
-visitAtomicIsLockFree
+atomicIsLockFreeJS
 (
 )
 in
 jit
 /
-CodeGenerator
+MacroAssembler
 .
 cpp
 .
