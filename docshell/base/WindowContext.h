@@ -750,16 +750,7 @@ IsTop
 (
 )
 const
-{
-return
-mBrowsingContext
--
->
-IsTop
-(
-)
 ;
-}
 Span
 <
 RefPtr
