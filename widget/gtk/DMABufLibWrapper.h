@@ -924,11 +924,6 @@ IsDMABufEnabled
 )
 ;
 bool
-IsDMABufBasicEnabled
-(
-)
-;
-bool
 IsDMABufTexturesEnabled
 (
 )
