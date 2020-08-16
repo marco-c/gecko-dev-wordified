@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsIPrinterList
+nsPrinterListBase
 .
 h
 "
@@ -631,11 +631,10 @@ nsPrinterListWin
 final
 :
 public
-nsIPrinterList
+nsPrinterListBase
 {
 public
 :
-NS_DECL_ISUPPORTS
 NS_DECL_NSIPRINTERLIST
 nsPrinterListWin
 (

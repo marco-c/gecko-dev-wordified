@@ -824,6 +824,11 @@ nsIWidgetListener
 h
 '
 '
+nsPrinterListBase
+.
+h
+'
+'
 nsUserIdleService
 .
 h
@@ -1272,6 +1277,11 @@ nsPrinterBase
 cpp
 '
 '
+nsPrinterListBase
+.
+cpp
+'
+'
 nsPrintSession
 .
 cpp
@@ -1310,6 +1320,11 @@ cpp
 '
 '
 nsPrinterCUPS
+.
+cpp
+'
+'
+nsPrinterListCUPS
 .
 cpp
 '
