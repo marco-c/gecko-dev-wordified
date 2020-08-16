@@ -37191,7 +37191,7 @@ IsEmpty
 {
 nsCOMPtr
 <
-nsIDNSAddrRecord
+nsIDNSRecord
 >
 dnsRecord
 (

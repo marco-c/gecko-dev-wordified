@@ -137,11 +137,6 @@ nsIDNSRecord
 idl
 '
 '
-nsIDNSResolverInfo
-.
-idl
-'
-'
 nsIDNSService
 .
 idl
@@ -351,11 +346,6 @@ cpp
 '
 '
 DNSRequestParent
-.
-cpp
-'
-'
-DNSResolverInfo
 .
 cpp
 '

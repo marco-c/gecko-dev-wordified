@@ -215,7 +215,7 @@ request
 =
 dns
 .
-asyncResolve
+asyncResolveByType
 (
 "
 _esni
@@ -228,10 +228,6 @@ dns
 .
 RESOLVE_TYPE_TXT
 0
-null
-/
-/
-resolverInfo
 listenerEsni
 mainThread
 defaultOriginAttributes
@@ -337,7 +333,7 @@ request
 =
 dns
 .
-asyncResolve
+asyncResolveByType
 (
 "
 httpssvc_esni
@@ -350,10 +346,6 @@ dns
 .
 RESOLVE_TYPE_HTTPSSVC
 0
-null
-/
-/
-resolverInfo
 listenerEsni
 mainThread
 defaultOriginAttributes
