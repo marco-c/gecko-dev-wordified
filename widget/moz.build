@@ -1309,11 +1309,6 @@ UNIFIED_SOURCES
 =
 [
 '
-CUPSPrinterList
-.
-cpp
-'
-'
 nsCUPSShim
 .
 cpp

@@ -198,13 +198,6 @@ h
 #
 include
 "
-CUPSPrinterList
-.
-h
-"
-#
-include
-"
 nsCUPSShim
 .
 h
