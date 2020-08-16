@@ -603,7 +603,7 @@ BigIntIndex
 index
 )
 {
-BigIntCreationData
+BigIntStencil
 &
 data
 =
@@ -663,7 +663,7 @@ RegExpIndex
 rindex
 )
 {
-RegExpCreationData
+RegExpStencil
 &
 data
 =
@@ -723,7 +723,7 @@ ObjLiteralIndex
 index
 )
 {
-ObjLiteralCreationData
+ObjLiteralStencil
 &
 data
 =
@@ -1189,7 +1189,7 @@ start
 }
 JSObject
 *
-ObjLiteralCreationData
+ObjLiteralStencil
 :
 :
 create

@@ -1846,7 +1846,7 @@ into
 a
 list
 of
-RegExpCreationData
+RegExpStencil
 .
 bool
 ConvertRegExpData

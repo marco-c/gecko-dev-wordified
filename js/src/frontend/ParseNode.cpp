@@ -2818,7 +2818,7 @@ value
 }
 RegExpObject
 *
-RegExpCreationData
+RegExpStencil
 :
 :
 createRegExp

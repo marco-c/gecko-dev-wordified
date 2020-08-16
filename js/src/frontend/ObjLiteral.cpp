@@ -1545,7 +1545,7 @@ endList
 ;
 }
 void
-ObjLiteralCreationData
+ObjLiteralStencil
 :
 :
 dump
@@ -1577,7 +1577,7 @@ json
 ;
 }
 void
-ObjLiteralCreationData
+ObjLiteralStencil
 :
 :
 dump
@@ -1609,7 +1609,7 @@ endObject
 ;
 }
 void
-ObjLiteralCreationData
+ObjLiteralStencil
 :
 :
 dumpFields

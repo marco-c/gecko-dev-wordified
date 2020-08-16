@@ -452,7 +452,7 @@ bool
 frontend
 :
 :
-RegExpCreationData
+RegExpStencil
 :
 :
 init
@@ -4096,7 +4096,7 @@ defined
 JS_JITSPEW
 )
 void
-RegExpCreationData
+RegExpStencil
 :
 :
 dump
@@ -4128,7 +4128,7 @@ json
 ;
 }
 void
-RegExpCreationData
+RegExpStencil
 :
 :
 dump
@@ -4438,7 +4438,7 @@ endString
 ;
 }
 void
-BigIntCreationData
+BigIntStencil
 :
 :
 dump
@@ -4470,7 +4470,7 @@ json
 ;
 }
 void
-BigIntCreationData
+BigIntStencil
 :
 :
 dump

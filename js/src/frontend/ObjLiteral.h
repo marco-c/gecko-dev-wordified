@@ -4084,7 +4084,7 @@ getFlags
 ;
 }
 class
-ObjLiteralCreationData
+ObjLiteralStencil
 {
 private
 :
@@ -4097,7 +4097,7 @@ atoms_
 public
 :
 explicit
-ObjLiteralCreationData
+ObjLiteralStencil
 (
 JSContext
 *
