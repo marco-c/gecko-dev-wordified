@@ -16113,6 +16113,12 @@ case
 BailoutKind
 :
 :
+ProxyGuard
+:
+case
+BailoutKind
+:
+:
 NotProxyGuard
 :
 case
