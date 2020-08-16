@@ -257,7 +257,7 @@ s
 method
 directly
 .
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
@@ -419,7 +419,7 @@ waitUntilDisplayedPlaybackChanged
 (
 )
 ;
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

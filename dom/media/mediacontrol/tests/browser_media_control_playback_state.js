@@ -227,7 +227,7 @@ state
 should
 be
 '
-stopped
+none
 '
 )
 ;
@@ -236,7 +236,7 @@ isActualPlaybackStateEqualTo
 (
 tab
 "
-stopped
+none
 "
 )
 ;
@@ -676,7 +676,7 @@ expectedState
 const
 currentState
 =
-ChromeUtils
+MediaControlService
 .
 getCurrentMediaSessionPlaybackState
 (

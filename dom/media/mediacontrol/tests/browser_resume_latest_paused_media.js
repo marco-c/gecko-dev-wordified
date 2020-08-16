@@ -636,7 +636,7 @@ the
 method
 directly
 .
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (

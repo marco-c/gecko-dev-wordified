@@ -717,7 +717,7 @@ the
 change
 )
 .
-ChromeUtils
+MediaControlService
 .
 generateMediaControlKey
 (
