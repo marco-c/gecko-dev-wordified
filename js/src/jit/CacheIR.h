@@ -9601,6 +9601,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachArraySlice
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachArrayIsArray
 (
 HandleFunction
