@@ -1510,7 +1510,7 @@ log
 "
 }
 [
-renderElement
+renderElements
 (
 "
 span
@@ -5530,7 +5530,7 @@ value
 )
 {
 return
-renderElement
+renderElements
 (
 "
 div
