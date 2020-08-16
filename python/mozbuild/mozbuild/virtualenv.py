@@ -5398,6 +5398,24 @@ None
 try
 :
                 
+sub_env
+=
+env
+.
+copy
+(
+)
+                
+sub_env
+.
+pop
+(
+'
+PYCHARM_HOSTED
+'
+None
+)
+                
 return
 subprocess
 .
@@ -5421,7 +5439,7 @@ STDOUT
                         
 env
 =
-env
+sub_env
 universal_newlines
 =
 True
