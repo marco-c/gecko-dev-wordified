@@ -2073,7 +2073,9 @@ const
 {
 return
 !
-mIsRowOriented
+IsRowOriented
+(
+)
 ;
 }
 /
@@ -2522,7 +2524,9 @@ aCrossCoord
 aCrossCoord
 ;
 return
-mIsRowOriented
+IsRowOriented
+(
+)
 ?
 LogicalPoint
 (
@@ -2626,7 +2630,9 @@ aCrossSize
 const
 {
 return
-mIsRowOriented
+IsRowOriented
+(
+)
 ?
 LogicalSize
 (
@@ -2695,7 +2701,9 @@ all
 cases
 :
 return
-mIsRowOriented
+IsRowOriented
+(
+)
 !
 =
 mWM
