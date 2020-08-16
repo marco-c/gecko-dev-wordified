@@ -187,7 +187,8 @@ searchPredicate
 override
 -
 (
-NSUInteger
+NSNumber
+*
 )
 moxUIElementCountForSearchPredicate
 :

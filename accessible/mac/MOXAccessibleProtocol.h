@@ -1568,7 +1568,9 @@ searchPredicate
 AXUIElementCountForSearchPredicate
 -
 (
-NSUInteger
+NSNumber
+*
+_Nullable
 )
 moxUIElementCountForSearchPredicate
 :
