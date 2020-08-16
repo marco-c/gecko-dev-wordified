@@ -15173,6 +15173,15 @@ reportError
 ;
 }
 }
+(
+)
+=
+>
+BrowserUsageTelemetry
+.
+reportProfileCount
+(
+)
 ]
 ;
 for
@@ -15187,6 +15196,7 @@ ChromeUtils
 .
 idleDispatch
 (
+async
 (
 )
 =
@@ -15213,6 +15223,7 @@ now
 ;
 try
 {
+await
 task
 (
 )
