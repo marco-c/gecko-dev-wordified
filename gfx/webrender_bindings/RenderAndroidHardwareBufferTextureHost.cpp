@@ -419,9 +419,6 @@ clientBuffer
 egl
 -
 >
-mLib
--
->
 fGetNativeClientBufferANDROID
 (
 mAndroidHardwareBuffer
@@ -439,6 +436,12 @@ egl
 >
 fCreateImage
 (
+egl
+-
+>
+Display
+(
+)
 EGL_NO_CONTEXT
 LOCAL_EGL_NATIVE_BUFFER_ANDROID
 clientBuffer
@@ -759,6 +762,12 @@ egl
 >
 fDestroyImage
 (
+egl
+-
+>
+Display
+(
+)
 mEGLImage
 )
 ;
