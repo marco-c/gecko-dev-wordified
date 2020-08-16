@@ -66,7 +66,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-GeckoViewContentParent
+ContentDelegateParent
 "
 ]
 ;
@@ -105,7 +105,7 @@ GeckoViewUtils
 initLogging
 (
 "
-GeckoViewContentParent
+ContentDelegateParent
 "
 )
 ;
@@ -122,7 +122,7 @@ unused
 -
 vars
 class
-GeckoViewContentParent
+ContentDelegateParent
 extends
 JSWindowActorParent
 {
