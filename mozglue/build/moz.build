@@ -742,3 +742,11 @@ SRCDIR
 DIST_INSTALL
 =
 True
+include
+(
+'
+replace_malloc
+.
+mozbuild
+'
+)
