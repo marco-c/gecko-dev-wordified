@@ -12047,7 +12047,6 @@ Filter
 Blur
 (
 std_deviation
-std_deviation
 )
 ;
 let
