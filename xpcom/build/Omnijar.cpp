@@ -176,6 +176,15 @@ MmapFaultHandler
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
 namespace
 mozilla
 {
@@ -2843,7 +2852,7 @@ GetSingleton
 auto
 dataCopy
 =
-MakeUnique
+MakeUniqueFallible
 <
 char
 [
@@ -2853,6 +2862,11 @@ char
 aSize
 )
 ;
+if
+(
+dataCopy
+)
+{
 MMAP_FAULT_HANDLER_BEGIN_BUFFER
 (
 aBuffer
@@ -2895,6 +2909,7 @@ dataCopy
 aSize
 )
 ;
+}
 }
 void
 CacheAwareZipReader
