@@ -1026,6 +1026,13 @@ sameProcessAsFrameLoader
 sourceBrowser
 .
 frameLoader
+initialBrowsingContextGroupId
+:
+aBrowsingContext
+.
+group
+.
+id
 skipLoad
 :
 false
