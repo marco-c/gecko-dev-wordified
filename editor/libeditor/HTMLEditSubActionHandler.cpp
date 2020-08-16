@@ -16858,13 +16858,23 @@ result
 ;
 }
 }
+AutoRangeArray
+rangesToDelete
+(
+*
+SelectionRefPtr
+(
+)
+)
+;
 EditActionResult
 result
 =
-HandleDeleteNonCollapsedSelection
+HandleDeleteNonCollapsedRanges
 (
 aDirectionAndAmount
 aStripWrappers
+rangesToDelete
 selectionWasCollapsed
 )
 ;
@@ -16879,7 +16889,7 @@ Succeeded
 HTMLEditor
 :
 :
-HandleDeleteNonCollapasedSelection
+HandleDeleteNonCollapsedRanges
 (
 )
 failed
@@ -21859,7 +21869,7 @@ EditActionResult
 HTMLEditor
 :
 :
-HandleDeleteNonCollapsedSelection
+HandleDeleteNonCollapsedRanges
 (
 nsIEditor
 :
@@ -21871,6 +21881,9 @@ nsIEditor
 :
 EStripWrappers
 aStripWrappers
+AutoRangeArray
+&
+aRangesToDelete
 SelectionWasCollapsed
 aSelectionWasCollapsed
 )
@@ -21885,29 +21898,7 @@ IsTopLevelEditSubActionDataAvailable
 MOZ_ASSERT
 (
 !
-SelectionRefPtr
-(
-)
--
->
-IsCollapsed
-(
-)
-)
-;
-AutoRangeArray
-rangesToDelete
-(
-*
-SelectionRefPtr
-(
-)
-)
-;
-MOZ_ASSERT
-(
-!
-rangesToDelete
+aRangesToDelete
 .
 IsCollapsed
 (
@@ -21919,7 +21910,7 @@ if
 NS_WARN_IF
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -21939,7 +21930,7 @@ IsSet
 NS_WARN_IF
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -21997,7 +21988,7 @@ range
 ?
 if
 (
-rangesToDelete
+aRangesToDelete
 .
 Ranges
 (
@@ -22019,7 +22010,7 @@ extendedRange
 =
 GetRangeExtendedToIncludeInvisibleNodes
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22174,7 +22165,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22259,7 +22250,7 @@ RangeUpdaterRef
 (
 )
 &
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22278,7 +22269,7 @@ PrepareToDeleteRange
 this
 EditorDOMRange
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22321,7 +22312,7 @@ if
 NS_WARN_IF
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22341,7 +22332,7 @@ IsSetAndValid
 NS_WARN_IF
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22417,7 +22408,7 @@ container
 ?
 if
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22429,7 +22420,7 @@ GetStartContainer
 )
 =
 =
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22483,7 +22474,7 @@ caret
 if
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22502,7 +22493,7 @@ RangeUpdaterRef
 (
 )
 &
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22516,7 +22507,7 @@ DeleteRangesWithTransaction
 (
 aDirectionAndAmount
 aStripWrappers
-rangesToDelete
+aRangesToDelete
 )
 ;
 if
@@ -22579,7 +22570,7 @@ DeleteUnnecessaryNodesAndCollapseSelection
 aDirectionAndAmount
 EditorDOMPoint
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22592,7 +22583,7 @@ StartRef
 )
 EditorDOMPoint
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22634,7 +22625,7 @@ if
 NS_WARN_IF
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22655,7 +22646,7 @@ IsContent
 NS_WARN_IF
 (
 !
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22702,7 +22693,7 @@ startCiteNode
 GetMostAncestorMailCiteElement
 (
 *
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22723,7 +22714,7 @@ endCiteNode
 GetMostAncestorMailCiteElement
 (
 *
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22823,7 +22814,7 @@ HTMLEditUtils
 GetInclusiveAncestorBlockElement
 (
 *
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22852,7 +22843,7 @@ HTMLEditUtils
 GetInclusiveAncestorBlockElement
 (
 *
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22952,7 +22943,7 @@ RangeUpdaterRef
 (
 )
 &
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -22966,7 +22957,7 @@ DeleteRangesWithTransaction
 (
 aDirectionAndAmount
 aStripWrappers
-rangesToDelete
+aRangesToDelete
 )
 ;
 if
@@ -23030,7 +23021,7 @@ DeleteUnnecessaryNodesAndCollapseSelection
 aDirectionAndAmount
 EditorDOMPoint
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -23043,7 +23034,7 @@ StartRef
 )
 EditorDOMPoint
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -23235,7 +23226,7 @@ DeleteRangesWithTransaction
 (
 aDirectionAndAmount
 aStripWrappers
-rangesToDelete
+aRangesToDelete
 )
 ;
 if
@@ -23405,7 +23396,7 @@ RangeUpdaterRef
 (
 )
 &
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -23442,7 +23433,7 @@ auto
 &
 range
 :
-rangesToDelete
+aRangesToDelete
 .
 Ranges
 (
@@ -23906,7 +23897,7 @@ here
 EditorDOMPoint
 firstRangeStart
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -23921,7 +23912,7 @@ StartRef
 EditorDOMPoint
 firstRangeEnd
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -24349,7 +24340,7 @@ DeleteUnnecessaryNodesAndCollapseSelection
 aDirectionAndAmount
 EditorDOMPoint
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
@@ -24362,7 +24353,7 @@ StartRef
 )
 EditorDOMPoint
 (
-rangesToDelete
+aRangesToDelete
 .
 FirstRangeRef
 (
