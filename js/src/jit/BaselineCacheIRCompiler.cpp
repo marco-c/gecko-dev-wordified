@@ -3660,7 +3660,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitCallProxyGetResult
+emitProxyGetResult
 (
 ObjOperandId
 objId

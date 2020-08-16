@@ -10140,7 +10140,7 @@ id
 ;
 writer
 .
-callProxyGetResult
+proxyGetResult
 (
 objId
 id
@@ -10194,7 +10194,7 @@ isSuper
 ;
 writer
 .
-callProxyGetByValueResult
+proxyGetByValueResult
 (
 objId
 getElemKeyValueId
@@ -10717,7 +10717,7 @@ objId
 ;
 writer
 .
-callProxyGetResult
+proxyGetResult
 (
 objId
 id
@@ -11328,7 +11328,7 @@ isSuper
 ;
 writer
 .
-callProxyGetResult
+proxyGetResult
 (
 objId
 id
@@ -16426,7 +16426,7 @@ here
 and
 then
 emit
-CallProxyGetResult
+ProxyGetResult
 /
 /
 but
@@ -16479,7 +16479,7 @@ isSuper
 ;
 writer
 .
-callProxyGetByValueResult
+proxyGetByValueResult
 (
 objId
 getElemKeyValueId
