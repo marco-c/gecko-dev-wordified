@@ -3168,6 +3168,9 @@ HIGHLIGHT
 .
 SUGGESTED
 ]
+isSearchHistory
+:
+true
 lowerCaseSuggestion
 :
 suggestion
