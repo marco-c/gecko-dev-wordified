@@ -17136,11 +17136,6 @@ registration
 principal
 (
 )
-registration
-.
-agentClusterId
-(
-)
 blobImpl
 )
 ;
@@ -20358,13 +20353,6 @@ IPC
 Principal
 &
 aPrincipal
-const
-Maybe
-<
-nsID
->
-&
-aAgentClusterId
 )
 {
 RefPtr
@@ -20393,7 +20381,6 @@ AddDataEntry
 (
 aURI
 aPrincipal
-aAgentClusterId
 blobImpl
 )
 ;

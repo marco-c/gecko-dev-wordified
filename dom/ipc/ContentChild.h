@@ -3088,13 +3088,6 @@ IPC
 Principal
 &
 aPrincipal
-const
-Maybe
-<
-nsID
->
-&
-aAgentClusterId
 )
 ;
 mozilla
