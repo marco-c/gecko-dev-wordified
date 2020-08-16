@@ -2478,7 +2478,8 @@ input
 .
 setSearchMode
 (
-null
+{
+}
 )
 ;
 if
