@@ -25558,13 +25558,10 @@ aStatusText
 {
 }
 onStopRequest
-:
 (
 request
 status
 )
-=
->
 {
 gAUS
 .
