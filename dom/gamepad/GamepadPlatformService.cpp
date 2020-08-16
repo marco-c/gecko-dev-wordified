@@ -1463,6 +1463,10 @@ FlushPendingEvents
 (
 )
 ;
+StartGamepadMonitoring
+(
+)
+;
 }
 void
 GamepadPlatformService
@@ -1641,6 +1645,7 @@ condition
 with
 monitor
 thread
+{
 MutexAutoLock
 autoLock
 (
@@ -1652,6 +1657,11 @@ mChannelParents
 RemoveElement
 (
 aParent
+)
+;
+}
+MaybeStopGamepadMonitoring
+(
 )
 ;
 }
