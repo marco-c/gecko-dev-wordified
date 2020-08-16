@@ -483,6 +483,12 @@ return
 !
 queryContext
 .
+restrictSource
+&
+&
+!
+queryContext
+.
 searchString
 ;
 }
