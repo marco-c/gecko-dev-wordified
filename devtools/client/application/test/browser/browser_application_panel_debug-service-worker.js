@@ -272,7 +272,7 @@ info
 Wait
 until
 the
-debug
+inspect
 link
 is
 displayed
@@ -296,7 +296,7 @@ querySelector
 .
 js
 -
-debug
+inspect
 -
 link
 "
@@ -311,7 +311,7 @@ info
 Click
 on
 the
-debug
+inspect
 link
 and
 wait
@@ -334,7 +334,7 @@ querySelector
 .
 js
 -
-debug
+inspect
 -
 link
 "
