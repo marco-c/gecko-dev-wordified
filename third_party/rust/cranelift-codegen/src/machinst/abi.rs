@@ -11,7 +11,7 @@ crate
 binemit
 :
 :
-Stackmap
+StackMap
 ;
 use
 crate
@@ -988,7 +988,8 @@ I
 /
 Generate
 a
-stackmap
+stack
+map
 given
 a
 list
@@ -1020,7 +1021,7 @@ instruction
 )
 .
 fn
-spillslots_to_stackmap
+spillslots_to_stack_map
 (
 &
 self
@@ -1047,7 +1048,7 @@ State
 )
 -
 >
-Stackmap
+StackMap
 ;
 /
 /

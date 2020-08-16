@@ -787,7 +787,7 @@ Frame
 /
 An
 individual
-Stackmap
+StackMap
 is
 associated
 with
@@ -947,7 +947,7 @@ Serialize
 ]
 pub
 struct
-Stackmap
+StackMap
 {
 bitmap
 :
@@ -963,14 +963,14 @@ mapped_words
 u32
 }
 impl
-Stackmap
+StackMap
 {
 /
 /
 /
 Create
 a
-stackmap
+StackMap
 based
 on
 where
@@ -979,6 +979,9 @@ are
 located
 on
 a
+/
+/
+/
 function
 '
 s
@@ -1180,7 +1183,7 @@ the
 doc
 comment
 for
-Stackmap
+StackMap
 above
 to
 understand
@@ -1640,7 +1643,7 @@ super
 test
 ]
 fn
-stackmaps
+stack_maps
 (
 )
 {
@@ -1662,7 +1665,7 @@ new
 assert
 !
 (
-Stackmap
+StackMap
 :
 :
 from_slice
@@ -1746,7 +1749,7 @@ Num
 2164261024
 )
 ]
-Stackmap
+StackMap
 :
 :
 from_slice
@@ -1775,7 +1778,7 @@ true
 let
 res
 =
-Stackmap
+StackMap
 :
 :
 from_slice

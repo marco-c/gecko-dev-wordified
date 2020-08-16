@@ -824,7 +824,8 @@ used
 to
 generate
 actual
-stackmaps
+stack
+maps
 at
 emission
 .
@@ -1084,12 +1085,13 @@ I
 In
 -
 progress
-stackmap
+stack
+map
 -
 request
 info
 .
-stackmap_info
+stack_map_info
 :
 StackmapRequestInfo
 /
@@ -1213,7 +1215,7 @@ block_order
 )
 ;
 let
-stackmap_info
+stack_map_info
 =
 StackmapRequestInfo
 {
@@ -1235,7 +1237,7 @@ vec
 VCodeBuilder
 {
 vcode
-stackmap_info
+stack_map_info
 block_start
 :
 0
@@ -1408,7 +1410,7 @@ ty
 {
 self
 .
-stackmap_info
+stack_map_info
 .
 reftyped_vregs
 .
@@ -1843,7 +1845,7 @@ is_safepoint
 {
 self
 .
-stackmap_info
+stack_map_info
 .
 safepoint_insns
 .
@@ -1948,7 +1950,8 @@ information
 such
 as
 the
-stackmap
+stack
+map
 request
 information
 .
@@ -2027,7 +2030,7 @@ self
 vcode
 self
 .
-stackmap_info
+stack_map_info
 )
 }
 }
@@ -3688,13 +3691,13 @@ len
 0
 {
 let
-stackmap
+stack_map
 =
 self
 .
 abi
 .
-spillslots_to_stackmap
+spillslots_to_stack_map
 (
 &
 self
@@ -3715,7 +3718,7 @@ state
 .
 pre_safepoint
 (
-stackmap
+stack_map
 )
 ;
 }

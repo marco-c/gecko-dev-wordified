@@ -503,7 +503,7 @@ self
 {
 }
 fn
-add_stackmap
+add_stack_map
 (
 &
 mut

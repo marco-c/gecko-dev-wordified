@@ -266,7 +266,7 @@ next_inst
 /
 /
 The
-emit_stackmaps
+emit_stack_maps
 (
 )
 function
@@ -297,7 +297,7 @@ order
 .
 pub
 fn
-emit_stackmaps
+emit_stack_maps
 (
 func
 :
