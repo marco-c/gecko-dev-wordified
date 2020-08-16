@@ -771,17 +771,14 @@ dispatch
 '
 artifact
 '
+self
+.
+_mach_context
 subcommand
 =
 '
 toolchain
 '
-                
-context
-=
-self
-.
-_mach_context
                 
 *
 *

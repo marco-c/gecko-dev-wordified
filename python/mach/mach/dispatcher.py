@@ -2274,12 +2274,6 @@ handler
 conditions
 :
                     
-if
-handler
-.
-pass_context
-:
-                        
 instance
 =
 handler
@@ -2289,17 +2283,6 @@ cls
 self
 .
 _context
-)
-                    
-else
-:
-                        
-instance
-=
-handler
-.
-cls
-(
 )
                     
 is_filtered

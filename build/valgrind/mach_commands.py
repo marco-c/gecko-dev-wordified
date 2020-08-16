@@ -167,22 +167,6 @@ tests
 '
 '
     
-def
-__init__
-(
-self
-context
-)
-:
-        
-MachCommandBase
-.
-__init__
-(
-self
-context
-)
-    
 Command
 (
 '

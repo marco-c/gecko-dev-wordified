@@ -251,7 +251,11 @@ def
 __init__
 (
 self
-context
+*
+args
+*
+*
+kwargs
 )
 :
         
@@ -263,7 +267,11 @@ self
 .
 __init__
 (
-context
+*
+args
+*
+*
+kwargs
 )
         
 self

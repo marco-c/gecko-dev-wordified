@@ -82,6 +82,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 here
 =
 os
@@ -807,23 +813,9 @@ CommandProvider
 class
 ReftestCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-context
-=
-context
     
 Command
 (
@@ -863,7 +855,7 @@ kwargs
         
 self
 .
-context
+_mach_context
 .
 activate_mozharness_venv
 (
@@ -885,7 +877,7 @@ run_reftest
 (
 self
 .
-context
+_mach_context
 *
 *
 kwargs

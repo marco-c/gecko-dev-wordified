@@ -82,11 +82,17 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 CommandProvider
 class
 Settings
 (
-object
+MachCommandBase
 )
 :
     
@@ -143,15 +149,36 @@ def
 __init__
 (
 self
-context
+*
+args
+*
+*
+kwargs
 )
 :
+        
+super
+(
+Settings
+self
+)
+.
+__init__
+(
+*
+args
+*
+*
+kwargs
+)
         
 self
 .
 _settings
 =
-context
+self
+.
+_mach_context
 .
 settings
     

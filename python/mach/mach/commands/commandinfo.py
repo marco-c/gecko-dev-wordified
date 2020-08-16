@@ -79,27 +79,19 @@ Command
     
 CommandArgument
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 CommandProvider
 class
 BuiltinCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-context
-=
-context
     
 property
     
@@ -117,9 +109,10 @@ for
 k
 v
 in
+                
 self
 .
-context
+_mach_context
 .
 commands
 .
@@ -256,7 +249,7 @@ handlers
 =
 self
 .
-context
+_mach_context
 .
 commands
 .
@@ -557,7 +550,7 @@ handler
 =
 self
 .
-context
+_mach_context
 .
 commands
 .

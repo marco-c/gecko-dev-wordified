@@ -1555,7 +1555,7 @@ CommandProvider
 class
 PastebinProvider
 (
-object
+MachCommandBase
 )
 :
     

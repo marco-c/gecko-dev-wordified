@@ -78,6 +78,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 parser
 =
 None
@@ -317,23 +323,9 @@ CommandProvider
 class
 MachCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-context
-=
-context
     
 Command
 (

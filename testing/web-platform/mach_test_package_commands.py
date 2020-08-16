@@ -77,6 +77,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 class
 WebPlatformTestsRunnerSetup
 (
@@ -539,23 +545,9 @@ CommandProvider
 class
 MachCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-context
-=
-context
     
 Command
 (
@@ -590,7 +582,7 @@ kwargs
         
 self
 .
-context
+_mach_context
 .
 activate_mozharness_venv
 (
@@ -599,11 +591,12 @@ activate_mozharness_venv
 return
 WebPlatformTestsRunner
 (
+            
 WebPlatformTestsRunnerSetup
 (
 self
 .
-context
+_mach_context
 )
 )
 .

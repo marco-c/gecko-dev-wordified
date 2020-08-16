@@ -81,11 +81,17 @@ import
     
 FailedCommandError
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 CommandProvider
 class
 CompareLocales
 (
-object
+MachCommandBase
 )
 :
     

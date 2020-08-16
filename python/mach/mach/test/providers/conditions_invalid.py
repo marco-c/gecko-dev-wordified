@@ -72,11 +72,17 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 CommandProvider
 class
 ConditionsProvider
 (
-object
+MachCommandBase
 )
 :
     

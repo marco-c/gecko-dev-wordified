@@ -87,6 +87,12 @@ CommandProvider
     
 Command
 )
+from
+mozbuild
+.
+base
+import
+MachCommandBase
 def
 run_xpcshell
 (
@@ -332,23 +338,9 @@ CommandProvider
 class
 MochitestCommands
 (
-object
+MachCommandBase
 )
 :
-    
-def
-__init__
-(
-self
-context
-)
-:
-        
-self
-.
-context
-=
-context
     
 Command
 (
@@ -390,7 +382,7 @@ kwargs
         
 self
 .
-context
+_mach_context
 .
 activate_mozharness_venv
 (
@@ -401,7 +393,7 @@ run_xpcshell
 (
 self
 .
-context
+_mach_context
 *
 *
 kwargs
