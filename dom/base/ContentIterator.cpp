@@ -1123,7 +1123,7 @@ mLast
 aRoot
 ;
 }
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 aRoot
 ;
@@ -1574,7 +1574,7 @@ content
 parent
 mIterator
 .
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 nsContentUtils
 :
@@ -1600,7 +1600,7 @@ NS_WARN_IF
 !
 mIterator
 .
-mCommonParent
+mClosestCommonInclusiveAncestor
 )
 )
 {
@@ -2906,7 +2906,7 @@ mLast
 =
 nullptr
 ;
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 nullptr
 ;
@@ -5043,7 +5043,7 @@ offset
 convert
 to
 nsINode
-mCommonParent
+mClosestCommonInclusiveAncestor
 =
 mRange
 -
@@ -5096,7 +5096,7 @@ EndOffset
 ;
 MOZ_ASSERT
 (
-mCommonParent
+mClosestCommonInclusiveAncestor
 &
 &
 startContainer
