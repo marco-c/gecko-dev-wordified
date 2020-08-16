@@ -15,9 +15,9 @@ wasmCompilersPresent
 .
 match
 (
-"
+'
 cranelift
-"
+'
 )
 &
 &
