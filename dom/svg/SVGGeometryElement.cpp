@@ -1654,15 +1654,9 @@ path
 {
 rv
 .
-ThrowInvalidStateError
+Throw
 (
-"
-No
-path
-available
-for
-measuring
-"
+NS_ERROR_FAILURE
 )
 ;
 return
