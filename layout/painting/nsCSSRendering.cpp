@@ -19526,7 +19526,13 @@ geometryFrame
 {
 positionArea
 =
+nsPlaceholderFrame
+:
+:
+GetRealFrameFor
+(
 geometryFrame
+)
 -
 >
 GetRect
