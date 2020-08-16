@@ -250,6 +250,12 @@ case
 nsIContentPolicy
 :
 :
+TYPE_INTERNAL_FRAME_MESSAGEMANAGER_SCRIPT
+:
+case
+nsIContentPolicy
+:
+:
 TYPE_SCRIPT
 :
 return

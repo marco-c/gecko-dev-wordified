@@ -22625,6 +22625,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_CHROMEUTILS_COMPILED_SCRIPT
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FRAME_MESSAGEMANAGER_SCRIPT
+:
 return
 nsIContentPolicy
 :
