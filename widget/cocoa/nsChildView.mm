@@ -16980,6 +16980,8 @@ to
 see
 if
 scroll
+/
+zoom
 events
 should
 roll
@@ -16995,6 +16997,15 @@ type
 =
 =
 NSScrollWheel
+|
+|
+[
+theEvent
+type
+]
+=
+=
+NSEventTypeMagnify
 )
 {
 shouldRollup
