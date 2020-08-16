@@ -728,11 +728,6 @@ GamepadEventChannelParent
 aParent
 )
 ;
-bool
-HasGamepadListeners
-(
-)
-;
 void
 MaybeShutdown
 (

@@ -278,11 +278,6 @@ GamepadManager
 cpp
 '
 '
-GamepadMonitoring
-.
-cpp
-'
-'
 GamepadPlatformService
 .
 cpp
