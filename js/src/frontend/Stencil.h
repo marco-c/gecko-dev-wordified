@@ -698,6 +698,14 @@ Base
 ;
 }
 ;
+using
+ObjLiteralIndex
+=
+TypedIndex
+<
+ObjLiteralCreationData
+>
+;
 FunctionFlags
 InitialFunctionFlags
 (
@@ -2882,7 +2890,7 @@ Variant
 ScriptAtom
 NullScriptThing
 BigIntIndex
-ObjLiteralCreationData
+ObjLiteralIndex
 RegExpIndex
 ScopeIndex
 FunctionIndex

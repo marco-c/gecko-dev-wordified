@@ -1101,6 +1101,12 @@ BigIntCreationData
 >
 bigIntData
 ;
+Vector
+<
+ObjLiteralCreationData
+>
+objLiteralData
+;
 /
 /
 A
@@ -1553,6 +1559,10 @@ regExpData
 cx
 )
 bigIntData
+(
+cx
+)
+objLiteralData
 (
 cx
 )

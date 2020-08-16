@@ -711,9 +711,7 @@ MOZ_MUST_USE
 bool
 append
 (
-ObjLiteralCreationData
-&
-&
+ObjLiteralIndex
 objlit
 GCThingIndex
 *
@@ -742,13 +740,7 @@ mozilla
 :
 AsVariant
 (
-std
-:
-:
-move
-(
 objlit
-)
 )
 )
 ;
