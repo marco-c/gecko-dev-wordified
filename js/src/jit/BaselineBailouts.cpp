@@ -16143,12 +16143,6 @@ case
 BailoutKind
 :
 :
-ArraySlice
-:
-case
-BailoutKind
-:
-:
 TagNotEqualGuard
 :
 /
