@@ -14298,12 +14298,6 @@ Size
 )
 )
 ;
-gfx
-:
-:
-Matrix4x4
-transform
-;
 /
 /
 TODO
@@ -14351,13 +14345,6 @@ aContainer
 aSc
 rect
 scBounds
-transform
-gfx
-:
-:
-MaybeIntSize
-(
-)
 aContainer
 -
 >
