@@ -25131,13 +25131,8 @@ scExpectedMaximumStackSize
 )
 )
 ;
-auto
-buffer
-=
-MakeUnique
-<
 ProfileBuffer
->
+buffer
 (
 *
 bufferManager
@@ -25150,7 +25145,6 @@ aLock
 registeredThread
 now
 regs
-*
 buffer
 )
 ;
@@ -25170,13 +25164,6 @@ std
 move
 (
 bufferManager
-)
-std
-:
-:
-move
-(
-buffer
 )
 )
 )
