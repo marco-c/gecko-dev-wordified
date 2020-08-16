@@ -596,6 +596,14 @@ GetDataLength
 )
 const
 {
+/
+/
+extra
+SIMD
+padding
+needed
+for
+SWGL
 return
 static_cast
 <
@@ -608,6 +616,8 @@ mStride
 mSize
 .
 height
++
+16
 ;
 }
 size_t
@@ -1731,6 +1741,14 @@ GetDataLength
 )
 const
 {
+/
+/
+extra
+SIMD
+padding
+needed
+for
+SWGL
 return
 static_cast
 <
@@ -1743,6 +1761,8 @@ mStride
 mSize
 .
 height
++
+16
 ;
 }
 size_t
