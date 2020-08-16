@@ -3555,6 +3555,15 @@ JSOp
 :
 :
 InitHiddenElemSetter
+|
+|
+op
+=
+=
+JSOp
+:
+:
+InitLockedElem
 ;
 }
 inline

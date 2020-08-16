@@ -504,9 +504,9 @@ mozilla
 :
 Maybe
 <
-FieldInitializers
+MemberInitializers
 >
-fieldInitializers
+memberInitializers
 =
 {
 }

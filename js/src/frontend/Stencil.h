@@ -391,7 +391,7 @@ h
 "
 /
 /
-FieldInitializers
+MemberInitializers
 #
 include
 "
@@ -2852,9 +2852,9 @@ mozilla
 :
 Maybe
 <
-FieldInitializers
+MemberInitializers
 >
-fieldInitializers
+memberInitializers
 ;
 ScriptThingsVector
 gcThings

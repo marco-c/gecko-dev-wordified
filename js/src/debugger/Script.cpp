@@ -8830,6 +8830,12 @@ case
 JSOp
 :
 :
+InitLockedElem
+:
+case
+JSOp
+:
+:
 InitElemInc
 :
 case

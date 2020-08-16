@@ -3950,6 +3950,12 @@ JSOp
 :
 InitHiddenElemSetter
 :
+case
+JSOp
+:
+:
+InitLockedElem
+:
 /
 /
 Keep
