@@ -347,7 +347,11 @@ SupportsColor
 const
 {
 return
-false
+Supports
+(
+CUPS_PRINT_COLOR_MODE
+CUPS_PRINT_COLOR_MODE_COLOR
+)
 ;
 }
 bool
