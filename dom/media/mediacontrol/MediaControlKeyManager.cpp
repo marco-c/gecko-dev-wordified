@@ -461,6 +461,14 @@ mMetadata
 mEventSource
 -
 >
+SetSupportedMediaKeys
+(
+mSupportedKeys
+)
+;
+mEventSource
+-
+>
 AddListener
 (
 this
