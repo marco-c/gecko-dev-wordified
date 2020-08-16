@@ -654,6 +654,9 @@ mozconfig
 MozconfigLoader
 .
 AUTODETECT
+virtualenv_name
+=
+None
 )
 :
         
@@ -774,6 +777,27 @@ self
 _config_environment
 =
 None
+        
+self
+.
+_virtualenv_name
+=
+virtualenv_name
+or
+(
+            
+'
+init_py3
+'
+if
+six
+.
+PY3
+else
+'
+init
+'
+)
         
 self
 .
@@ -1991,25 +2015,6 @@ is
 None
 :
             
-name
-=
-"
-init
-"
-            
-if
-six
-.
-PY3
-:
-                
-name
-+
-=
-"
-_py3
-"
-            
 self
 .
 _virtualenv_manager
@@ -2033,7 +2038,10 @@ topobjdir
 '
 _virtualenvs
 '
-name
+                             
+self
+.
+_virtualenv_name
 )
                 
 sys
@@ -6339,6 +6347,7 @@ __init__
 (
 self
 context
+virtualenv_name
 )
 :
         
@@ -6659,18 +6668,23 @@ MozbuildObject
 .
 __init__
 (
+            
 self
 topsrcdir
 context
 .
 settings
-                                
+            
 context
 .
 log_manager
 topobjdir
 =
 topobjdir
+            
+virtualenv_name
+=
+virtualenv_name
 )
         
 self
