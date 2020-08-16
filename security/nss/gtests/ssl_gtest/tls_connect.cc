@@ -832,7 +832,7 @@ different
 /
 value
 call
-SSL_InitAntiReplay
+ResetAntiReplay
 directly
 .
 static
