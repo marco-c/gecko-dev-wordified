@@ -649,7 +649,10 @@ ifdef
 MOZ_WAYLAND
 mUseWebGLDmabufBackend
 =
-IsWaylandDisplay
+gfxVars
+:
+:
+UseEGL
 (
 )
 &
