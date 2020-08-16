@@ -96,7 +96,7 @@ parse_args
 strategy
 "
 "
-seta
+relevant_tests
 "
 ]
 )
@@ -114,7 +114,7 @@ optimize
 :
 tryselect
 .
-seta
+relevant_tests
 "
     
 args
@@ -136,7 +136,7 @@ optimize
 :
 experimental
 .
-seta
+relevant_tests
 "
 ]
 )
@@ -154,7 +154,7 @@ optimize
 :
 experimental
 .
-seta
+relevant_tests
 "
     
 with
