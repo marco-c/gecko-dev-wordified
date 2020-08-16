@@ -3369,7 +3369,10 @@ all_mozbuild_results
 for
 path
 in
+sorted
+(
 gn_config_files
+)
 :
         
 with
@@ -3509,10 +3512,13 @@ for
 relsrcdir
 configs
 in
+sorted
+(
 configs_by_dir
 .
 items
 (
+)
 )
 :
         
@@ -3724,6 +3730,9 @@ get
 (
 k
 )
+or
+'
+'
 )
 for
 k
@@ -3742,7 +3751,10 @@ cond
 for
 cond
 in
+sorted
+(
 conditions
+)
 :
                     
 common_attrs
@@ -3750,6 +3762,7 @@ common_attrs
 find_common_attrs
 (
 [
+                        
 attrs
 for
 args
@@ -3757,14 +3770,19 @@ attrs
 in
 configs
 if
-                                                      
+                        
 all
+(
 (
 args
 .
 get
 (
 k
+)
+or
+'
+'
 )
 =
 =
@@ -3999,6 +4017,9 @@ get
 (
 k
 )
+or
+'
+'
 )
 for
 k
@@ -4041,6 +4062,7 @@ items
 if
 all
 (
+(
 dict
 (
 args
@@ -4049,6 +4071,10 @@ args
 get
 (
 k
+)
+or
+'
+'
 )
 =
 =
