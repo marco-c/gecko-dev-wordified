@@ -5907,12 +5907,6 @@ mimeInfo
 .
 handleInternally
 ;
-mimeInfo
-.
-alwaysAskBeforeHandling
-=
-true
-;
 }
 handlerSvc
 .
