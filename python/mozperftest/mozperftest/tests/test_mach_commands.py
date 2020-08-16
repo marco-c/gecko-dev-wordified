@@ -128,13 +128,12 @@ mach_commands
 import
 Perftest
 PerftestTests
-ON_TRY
 #
 noqa
 from
 mozperftest
 import
-mach_commands
+utils
 #
 noqa
 from
@@ -154,6 +153,7 @@ utils
 import
 temporary_env
 silence
+ON_TRY
 #
 noqa
 ITERATION_HOOKS
@@ -752,11 +752,11 @@ parser
     
 old
 =
-mach_commands
+utils
 .
 ON_TRY
     
-mach_commands
+utils
 .
 ON_TRY
 =
@@ -796,7 +796,7 @@ EXAMPLE_TESTS_DIR
 ]
 )
     
-mach_commands
+utils
 .
 ON_TRY
 =

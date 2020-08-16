@@ -118,6 +118,7 @@ option
 POTENTIAL_DMGS
 =
 {
+    
 "
 browsertime
 -
@@ -130,6 +131,20 @@ Contents
 MacOS
 /
 firefox
+"
+    
+"
+xpcshell
+-
+xre
+-
+path
+"
+:
+"
+Contents
+/
+MacOS
 "
 }
 class
@@ -747,6 +762,8 @@ find
 a
 specific
 file
+or
+directory
 if
 needed
 .
