@@ -197,13 +197,6 @@ h
 #
 include
 "
-ProfileJSONWriter
-.
-h
-"
-#
-include
-"
 ProfilerMarkerPayload
 .
 h
@@ -266,6 +259,15 @@ include
 mozilla
 /
 ProfileBufferEntrySerializationGeckoExtensions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ProfileJSONWriter
 .
 h
 "
@@ -5440,6 +5442,8 @@ Start
 ;
 EXPECT_TRUE
 (
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -10994,6 +10998,8 @@ filters
 ;
 EXPECT_TRUE
 (
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -11481,6 +11487,8 @@ w
 ;
 ASSERT_TRUE
 (
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -11585,6 +11593,8 @@ PR_MillisecondsToInterval
 ;
 ASSERT_TRUE
 (
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12120,6 +12130,8 @@ w
 ASSERT_TRUE
 (
 !
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12147,6 +12159,8 @@ Start
 ;
 ASSERT_TRUE
 (
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12194,6 +12208,8 @@ profiler_stop
 ASSERT_TRUE
 (
 !
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12277,6 +12293,8 @@ w
 ASSERT_TRUE
 (
 !
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12342,6 +12360,8 @@ Start
 ;
 ASSERT_TRUE
 (
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12428,6 +12448,8 @@ profiler_stop
 ASSERT_TRUE
 (
 !
+:
+:
 profiler_stream_json_for_this_process
 (
 w
@@ -12458,6 +12480,8 @@ thread
 ASSERT_TRUE
 (
 !
+:
+:
 profiler_stream_json_for_this_process
 (
 w
