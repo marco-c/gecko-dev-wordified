@@ -700,6 +700,13 @@ gl
 )
 const
 ;
+void
+*
+swgl
+(
+)
+const
+;
 bool
 EnsureAsyncScreenshot
 (
