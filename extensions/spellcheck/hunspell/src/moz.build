@@ -90,6 +90,16 @@ UNIFIED_SOURCES
 =
 [
 '
+.
+.
+/
+glue
+/
+mozHunspellFileMgrSandbox
+.
+cpp
+'
+'
 affentry
 .
 cxx
