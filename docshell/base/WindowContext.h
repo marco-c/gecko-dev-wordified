@@ -654,6 +654,13 @@ GetInnerWindow
 )
 const
 ;
+Document
+*
+GetDocument
+(
+)
+const
+;
 /
 /
 Get
