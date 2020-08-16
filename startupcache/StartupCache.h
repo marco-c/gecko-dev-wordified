@@ -2977,6 +2977,12 @@ bool
 >
 mWrittenOnce
 ;
+Atomic
+<
+bool
+>
+mStartupFinished
+;
 bool
 mCurTableReferenced
 ;
@@ -3004,10 +3010,6 @@ StaticRefPtr
 StartupCache
 >
 gStartupCache
-;
-static
-bool
-gShutdownInitiated
 ;
 static
 bool
