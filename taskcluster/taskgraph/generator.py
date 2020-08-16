@@ -1208,45 +1208,6 @@ optimized_task_graph
 property
     
 def
-optimized_data
-(
-self
-)
-:
-        
-"
-"
-"
-        
-The
-data
-about
-what
-happened
-during
-optimization
-.
-        
-type
-Dict
-        
-"
-"
-"
-        
-return
-self
-.
-_run_until
-(
-'
-optimized_data
-'
-)
-    
-property
-    
-def
 label_to_taskid
 (
 self
@@ -2566,7 +2527,6 @@ strategies
         
 optimized_task_graph
 label_to_taskid
-replaced_tasks
 =
 optimize_task_graph
 (
@@ -2593,19 +2553,6 @@ strategies
         
 )
         
-replaced_taskids
-=
-[
-label_to_taskid
-[
-l
-]
-for
-l
-in
-replaced_tasks
-]
-        
 yield
 verifications
 (
@@ -2616,23 +2563,6 @@ optimized_task_graph
 graph_config
 parameters
 )
-        
-yield
-'
-optimized_data
-'
-{
-'
-version
-'
-:
-1
-'
-replaced_taskids
-'
-:
-replaced_taskids
-}
         
 morphed_task_graph
 label_to_taskid
