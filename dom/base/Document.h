@@ -10966,7 +10966,7 @@ onto
 the
 top
 layer
-bool
+void
 TopLayerPush
 (
 Element
@@ -11057,7 +11057,7 @@ fullscreen
 /
 flag
 .
-bool
+void
 SetFullscreenElement
 (
 Element
