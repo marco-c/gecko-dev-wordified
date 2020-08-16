@@ -398,11 +398,11 @@ buildconfig
 substs
 [
 '
-PKG_SKIP_STRIP
+PKG_STRIP
 '
 ]
 =
-True
+False
     
 l10n
 .
