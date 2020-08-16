@@ -2517,7 +2517,9 @@ aMainCoord
 nscoord
 logicalCoordInCrossAxis
 =
-mIsCrossAxisReversed
+IsCrossAxisReversed
+(
+)
 ?
 aContainerCrossSize
 -
@@ -32122,7 +32124,9 @@ MakeLogicalSide
 CrossAxis
 (
 )
-mIsCrossAxisReversed
+IsCrossAxisReversed
+(
+)
 ?
 eLogicalEdgeEnd
 :
