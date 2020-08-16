@@ -2050,6 +2050,7 @@ css
 :
 Rule
 *
+StyleRuleChangeKind
 )
 {
 if

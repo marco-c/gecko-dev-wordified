@@ -412,6 +412,10 @@ mStyleSheet
 RuleChanged
 (
 nullptr
+StyleRuleChangeKind
+:
+:
+Generic
 )
 ;
 }

@@ -12158,6 +12158,7 @@ css
 :
 Rule
 *
+StyleRuleChangeKind
 )
 ;
 void
