@@ -500,9 +500,6 @@ engineName
 aliasEngine
 .
 name
-alternateLabel
-:
-ALIAS
 }
 )
 ;
