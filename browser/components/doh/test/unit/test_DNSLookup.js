@@ -147,6 +147,13 @@ ok
 result
 .
 record
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
 )
 ;
 Assert
@@ -293,6 +300,13 @@ ok
 result
 .
 record
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
 )
 ;
 Assert

@@ -614,6 +614,15 @@ name
 return
 ;
 }
+inRecord
+.
+QueryInterface
+(
+Ci
+.
+nsIDNSAddrRecord
+)
+;
 if
 (
 resolveCanonicalName
