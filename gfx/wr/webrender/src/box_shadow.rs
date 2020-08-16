@@ -118,6 +118,15 @@ use
 crate
 :
 :
+gpu_cache
+:
+:
+GpuCacheHandle
+;
+use
+crate
+:
+:
 gpu_types
 :
 :
@@ -266,6 +275,10 @@ Option
 <
 RenderTaskCacheEntryHandle
 >
+pub
+clip_data_handle
+:
+GpuCacheHandle
 /
 /
 Local
