@@ -958,6 +958,16 @@ name
 "
 hw
 .
+memsize
+"
+)
+(
+sysctl
+-
+name
+"
+hw
+.
 model
 "
 )
