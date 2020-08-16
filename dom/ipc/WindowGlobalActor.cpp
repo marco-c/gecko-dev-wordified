@@ -379,6 +379,17 @@ Id
 (
 )
 ;
+ctx
+.
+mBrowsingContextIsTop
+=
+aBrowsingContext
+-
+>
+IsTop
+(
+)
+;
 /
 /
 If
