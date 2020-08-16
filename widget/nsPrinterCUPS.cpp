@@ -151,15 +151,6 @@ MOZ_ASSERT
 aPrinter
 )
 ;
-MOZ_ASSERT
-(
-mShim
-.
-IsInitialized
-(
-)
-)
-;
 DebugOnly
 <
 const

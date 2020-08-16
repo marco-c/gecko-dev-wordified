@@ -374,16 +374,6 @@ Init
 (
 )
 ;
-bool
-IsInitialized
-(
-)
-const
-{
-return
-mInited
-;
-}
 /
 /
 We
