@@ -3004,6 +3004,7 @@ aList
 )
 )
 ;
+}
 if
 (
 charmap
@@ -3024,7 +3025,6 @@ mCh
 {
 return
 ;
-}
 }
 uint32_t
 numFaces
@@ -3867,6 +3867,19 @@ reject
 the
 family
 .
+if
+(
+!
+mCharacterMap
+.
+IsNull
+(
+)
+)
+{
+return
+;
+}
 if
 (
 !
