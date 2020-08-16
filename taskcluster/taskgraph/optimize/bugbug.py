@@ -79,8 +79,8 @@ taskgraph
 optimize
 import
 register_strategy
+registry
 OptimizationStrategy
-seta
 from
 taskgraph
 .
@@ -108,6 +108,19 @@ util
 hg
 import
 get_push_data
+FALLBACK
+=
+"
+skip
+-
+unless
+-
+has
+-
+relevant
+-
+tests
+"
 register_strategy
 (
 "
@@ -209,7 +222,7 @@ args
 CT_MEDIUM
 True
 True
-True
+FALLBACK
 )
 )
 register_strategy
@@ -263,7 +276,7 @@ args
 CT_MEDIUM
 False
 True
-True
+FALLBACK
 )
 )
 register_strategy
@@ -293,7 +306,7 @@ args
 3
 False
 True
-True
+FALLBACK
 10
 )
 )
@@ -403,28 +416,26 @@ False
         
 fallback
 (
-bool
+str
 )
 :
-Whether
-or
-not
-to
+The
 fallback
+strategy
 to
-SETA
+use
 if
 there
+            
 was
 a
 failure
-            
 in
 bugbug
 (
 default
 :
-False
+None
 )
         
 num_pushes
@@ -471,7 +482,7 @@ False
         
 fallback
 =
-False
+None
         
 num_pushes
 =
@@ -601,14 +612,19 @@ timedout
 :
             
 return
-seta
+registry
+[
+self
 .
-is_low_value_task
+fallback
+]
+.
+should_remove_task
 (
+                    
 task
-.
-label
-project
+params
+importance
 )
         
 data
