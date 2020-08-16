@@ -753,6 +753,16 @@ fxaccounts
 onlogout
 "
 ;
+exports
+.
+ON_PRELOGOUT_NOTIFICATION
+=
+"
+fxaccounts
+:
+on_pre_logout
+"
+;
 /
 /
 Internal

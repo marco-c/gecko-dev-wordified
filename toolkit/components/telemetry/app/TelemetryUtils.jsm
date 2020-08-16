@@ -694,6 +694,17 @@ ecosystemtelemetry
 .
 enabled
 "
+EcosystemTelemetryAllowForNonProductionFxA
+:
+"
+toolkit
+.
+telemetry
+.
+ecosystemtelemetry
+.
+allowForNonProductionFxA
+"
 /
 /
 Prio
