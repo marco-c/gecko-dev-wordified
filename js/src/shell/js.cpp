@@ -31367,12 +31367,6 @@ defined
 (
 DEBUG
 )
-|
-|
-defined
-(
-JS_JITSPEW
-)
 js
 :
 :
@@ -31641,12 +31635,6 @@ if
 defined
 (
 DEBUG
-)
-|
-|
-defined
-(
-JS_JITSPEW
 )
 js
 :
