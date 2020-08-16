@@ -88,6 +88,17 @@ MPL
 DevToolsModules
 (
 '
+css
+-
+compatibility
+-
+tooltip
+-
+helper
+.
+js
+'
+'
 EventTooltipHelper
 .
 js
