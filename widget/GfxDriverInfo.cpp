@@ -4022,6 +4022,11 @@ APPEND_DEVICE
 0x593b
 )
 ;
+APPEND_DEVICE
+(
+0x87c0
+)
+;
 /
 /
 coffeelake
