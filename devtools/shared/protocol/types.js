@@ -4125,7 +4125,7 @@ typeName
 }
 /
 /
-Retrive
+Retrieve
 the
 actor
 ID

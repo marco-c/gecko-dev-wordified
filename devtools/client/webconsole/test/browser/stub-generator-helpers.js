@@ -3353,6 +3353,7 @@ getStubFile
 getCleanedPacket
 getSerializedPacket
 parsePacketsWithFronts
+parsePacketAndCreateFronts
 writeStubsToFile
 }
 ;

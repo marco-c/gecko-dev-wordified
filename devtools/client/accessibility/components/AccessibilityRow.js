@@ -1084,10 +1084,11 @@ accessibleFront
 {
 if
 (
-!
 accessibleFront
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return
@@ -1114,10 +1115,11 @@ walker
 ;
 if
 (
-!
 accessibleFront
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

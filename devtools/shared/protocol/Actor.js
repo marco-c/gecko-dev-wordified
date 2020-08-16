@@ -419,10 +419,11 @@ args
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 console

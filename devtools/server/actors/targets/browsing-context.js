@@ -2513,10 +2513,11 @@ resources
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 /
@@ -2731,10 +2732,11 @@ this
 exited
 |
 |
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

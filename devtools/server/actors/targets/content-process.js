@@ -1183,10 +1183,11 @@ function
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

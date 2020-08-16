@@ -156,10 +156,11 @@ navigations
 .
 if
 (
-!
 accessible
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 return

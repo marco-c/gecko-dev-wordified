@@ -1100,10 +1100,11 @@ onDestroy
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 /
@@ -1277,10 +1278,11 @@ onDestroy
 {
 if
 (
-!
 this
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 /

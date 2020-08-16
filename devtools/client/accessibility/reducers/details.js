@@ -219,9 +219,12 @@ error
 {
 if
 (
+!
 accessible
 .
-actorID
+isDestroyed
+(
+)
 )
 {
 console

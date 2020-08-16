@@ -204,6 +204,17 @@ jest
 fn
 (
 )
+isDestroyed
+:
+(
+)
+=
+>
+!
+form
+?
+.
+actorID
 audit
 :
 jest
