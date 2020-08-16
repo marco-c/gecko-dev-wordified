@@ -6496,8 +6496,10 @@ it
 /
 up
 .
+RefPtr
+<
 nsPIDOMWindowOuter
-*
+>
 parentWindow
 =
 parent
