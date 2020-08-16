@@ -3274,7 +3274,7 @@ LOCAL_EGL_NONE
 if
 (
 !
-mGL
+aGLContext
 )
 return
 false
@@ -3292,7 +3292,7 @@ GLContextEGL
 :
 Cast
 (
-mGL
+aGLContext
 )
 ;
 const
@@ -5913,7 +5913,7 @@ created
 if
 (
 !
-mGL
+aGLContext
 )
 return
 false
@@ -5931,7 +5931,7 @@ GLContextEGL
 :
 Cast
 (
-mGL
+aGLContext
 )
 ;
 const
