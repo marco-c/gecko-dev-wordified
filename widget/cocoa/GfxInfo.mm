@@ -2384,7 +2384,7 @@ NS_OK
 }
 #
 ifndef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 else
 if
 (
