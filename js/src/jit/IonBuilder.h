@@ -5124,7 +5124,7 @@ AbortReasonOr
 <
 Ok
 >
-jsop_functionproto
+jsop_builtinobject
 (
 )
 ;

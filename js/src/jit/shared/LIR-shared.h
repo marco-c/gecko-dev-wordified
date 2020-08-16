@@ -46138,7 +46138,7 @@ object
 }
 ;
 class
-LFunctionProto
+LBuiltinObject
 :
 public
 LCallInstructionHelper
@@ -46152,9 +46152,9 @@ public
 :
 LIR_HEADER
 (
-FunctionProto
+BuiltinObject
 )
-LFunctionProto
+LBuiltinObject
 (
 )
 :
@@ -46164,7 +46164,7 @@ classOpcode
 )
 {
 }
-MFunctionProto
+MBuiltinObject
 *
 mir
 (
@@ -46175,7 +46175,7 @@ return
 mir_
 -
 >
-toFunctionProto
+toBuiltinObject
 (
 )
 ;
