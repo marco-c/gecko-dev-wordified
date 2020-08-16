@@ -679,7 +679,7 @@ RawConfigParser
 )
 parser
 .
-readfp
+read_file
 (
 open
 (
@@ -784,7 +784,7 @@ RawConfigParser
 )
 msgMetadataConfig
 .
-readfp
+read_file
 (
 open
 (
