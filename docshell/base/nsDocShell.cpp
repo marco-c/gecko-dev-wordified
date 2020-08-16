@@ -27163,6 +27163,8 @@ timing
 mContentViewer
 )
 {
+if
+(
 Document
 *
 doc
@@ -27173,10 +27175,6 @@ mContentViewer
 GetDocument
 (
 )
-;
-if
-(
-doc
 )
 {
 timing
