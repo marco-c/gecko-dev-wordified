@@ -1112,7 +1112,7 @@ ASSERT_TRUE
 controller
 -
 >
-IsInPictureInPictureMode
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 )
@@ -1131,7 +1131,7 @@ ASSERT_TRUE
 controller
 -
 >
-IsInPictureInPictureMode
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 )
@@ -1151,7 +1151,7 @@ ASSERT_TRUE
 controller
 -
 >
-IsInPictureInPictureMode
+IsBeingUsedInPIPModeOrFullscreen
 (
 )
 )
