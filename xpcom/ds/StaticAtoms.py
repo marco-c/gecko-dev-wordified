@@ -447,16 +447,6 @@ _moz_resizing
 Atom
 (
 "
-mozallowfullscreen
-"
-"
-mozallowfullscreen
-"
-)
-    
-Atom
-(
-"
 moztype
 "
 "
