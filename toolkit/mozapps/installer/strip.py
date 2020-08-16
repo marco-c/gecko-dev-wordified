@@ -123,13 +123,13 @@ to
 #
 stripping
 them
-when
+unless
 buildconfig
 .
 substs
 [
 '
-PKG_STRIP
+PKG_SKIP_STRIP
 '
 ]
 is
