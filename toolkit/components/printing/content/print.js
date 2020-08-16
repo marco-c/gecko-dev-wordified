@@ -480,6 +480,17 @@ viewSettings
 )
 )
 ;
+document
+.
+body
+.
+removeAttribute
+(
+"
+loading
+"
+)
+;
 }
 async
 print

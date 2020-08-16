@@ -108,6 +108,16 @@ background
 )
 ;
 }
+body
+[
+loading
+]
+{
+visibility
+:
+hidden
+;
+}
 *
 [
 hidden
