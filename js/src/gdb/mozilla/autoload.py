@@ -172,7 +172,7 @@ Root
 import
 mozilla
 .
-PropertyKey
+jsid
 import
 mozilla
 .
