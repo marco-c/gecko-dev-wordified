@@ -20521,15 +20521,6 @@ UseDesktopZoomingScrollbars
 (
 )
 {
-/
-/
-bug
-1657822
-to
-enable
-this
-by
-default
 return
 StaticPrefs
 :
