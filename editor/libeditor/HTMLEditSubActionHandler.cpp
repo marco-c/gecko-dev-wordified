@@ -16542,11 +16542,18 @@ lockOffset
 startPoint
 )
 ;
+AutoEmptyBlockAncestorDeleter
+deleter
+;
 EditActionResult
 result
 =
-MaybeDeleteTopMostEmptyAncestor
+deleter
+.
+Run
 (
+*
+this
 MOZ_KnownLive
 (
 *
@@ -16585,10 +16592,10 @@ Succeeded
 (
 )
 "
-HTMLEditor
+AutoEmptyBlockAncestorDeleter
 :
 :
-MaybeDeleteTopMostEmptyAncestor
+Run
 (
 )
 failed
@@ -52527,8 +52534,14 @@ EditActionResult
 HTMLEditor
 :
 :
-MaybeDeleteTopMostEmptyAncestor
+AutoEmptyBlockAncestorDeleter
+:
+:
+Run
 (
+HTMLEditor
+&
+aHTMLEditor
 nsIContent
 &
 aStartContent
@@ -52544,6 +52557,8 @@ aDirectionAndAmount
 {
 MOZ_ASSERT
 (
+aHTMLEditor
+.
 IsEditActionDataAvailable
 (
 )
@@ -52646,6 +52661,8 @@ blockElement
 )
 &
 &
+aHTMLEditor
+.
 IsEmptyNode
 (
 *
@@ -52905,6 +52922,8 @@ items
 .
 if
 (
+aHTMLEditor
+.
 IsFirstEditableChild
 (
 topMostEmptyBlockElement
@@ -52981,6 +53000,8 @@ Element
 >
 brElement
 =
+aHTMLEditor
+.
 InsertBRElementWithTransaction
 (
 atParentOfEmptyBlock
@@ -52990,6 +53011,8 @@ if
 (
 NS_WARN_IF
 (
+aHTMLEditor
+.
 Destroyed
 (
 )
@@ -53032,6 +53055,8 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
+aHTMLEditor
+.
 CollapseSelectionTo
 (
 EditorRawDOMPoint
@@ -53165,6 +53190,8 @@ nsIContent
 >
 nextContentOfEmptyBlock
 =
+aHTMLEditor
+.
 GetNextNode
 (
 afterEmptyBlock
@@ -53178,6 +53205,8 @@ nextContentOfEmptyBlock
 EditorDOMPoint
 pt
 =
+aHTMLEditor
+.
 GetGoodCaretPointFor
 (
 *
@@ -53208,6 +53237,8 @@ ignored
 nsresult
 rv
 =
+aHTMLEditor
+.
 CollapseSelectionTo
 (
 pt
@@ -53263,6 +53294,8 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
+aHTMLEditor
+.
 CollapseSelectionTo
 (
 afterEmptyBlock
@@ -53355,6 +53388,8 @@ nsIContent
 >
 previousContentOfEmptyBlock
 =
+aHTMLEditor
+.
 GetPreviousEditableNode
 (
 atEmptyBlock
@@ -53368,6 +53403,8 @@ previousContentOfEmptyBlock
 EditorDOMPoint
 pt
 =
+aHTMLEditor
+.
 GetGoodCaretPointFor
 (
 *
@@ -53398,6 +53435,8 @@ ignored
 nsresult
 rv
 =
+aHTMLEditor
+.
 CollapseSelectionTo
 (
 pt
@@ -53474,6 +53513,8 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
+aHTMLEditor
+.
 CollapseSelectionTo
 (
 afterEmptyBlock
@@ -53543,6 +53584,8 @@ yet
 nsresult
 rv
 =
+aHTMLEditor
+.
 DeleteNodeWithTransaction
 (
 *
@@ -53553,6 +53596,8 @@ if
 (
 NS_WARN_IF
 (
+aHTMLEditor
+.
 Destroyed
 (
 )
