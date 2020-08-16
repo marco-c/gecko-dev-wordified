@@ -20413,7 +20413,7 @@ currently
 scrolled
 to
 nsPoint
-pt
+currentScrollPosition
 =
 sf
 -
@@ -20534,7 +20534,7 @@ Contains
 pageRect
 .
 x
-pt
+currentScrollPosition
 .
 y
 )
@@ -20717,7 +20717,7 @@ ScrollTo
 (
 nsPoint
 (
-pt
+currentScrollPosition
 .
 x
 newYPosn
