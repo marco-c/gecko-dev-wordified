@@ -220,10 +220,6 @@ nsCString
 &
 &
 aDNSSuffixList
-const
-bool
-&
-aPlatformDisabledTRR
 )
 ;
 mozilla

@@ -288,10 +288,6 @@ nsCString
 &
 &
 aDNSSuffixList
-const
-bool
-&
-aPlatformDisabledTRR
 )
 {
 gTRRService
@@ -307,13 +303,6 @@ move
 aDNSSuffixList
 )
 )
-;
-gTRRService
--
->
-mPlatformDisabledTRR
-=
-aPlatformDisabledTRR
 ;
 return
 IPC_OK

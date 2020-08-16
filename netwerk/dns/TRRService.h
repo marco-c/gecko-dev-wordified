@@ -897,13 +897,6 @@ means
 failed
 TRR
 service
-Atomic
-<
-bool
-Relaxed
->
-mPlatformDisabledTRR
-;
 /
 /
 TRR

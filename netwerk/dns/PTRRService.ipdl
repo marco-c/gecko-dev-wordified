@@ -149,8 +149,6 @@ nsCString
 [
 ]
 aSuffixList
-bool
-aPlatformDisabledTRR
 )
 ;
 async
