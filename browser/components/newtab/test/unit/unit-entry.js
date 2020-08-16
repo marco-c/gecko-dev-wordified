@@ -451,6 +451,11 @@ post
 {
 }
 }
+browserSearchRegion
+:
+"
+US
+"
 BrowserWindowTracker
 :
 {
