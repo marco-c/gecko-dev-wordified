@@ -16127,6 +16127,12 @@ BailoutKind
 :
 ArrayPopShift
 :
+case
+BailoutKind
+:
+:
+TagNotEqualGuard
+:
 /
 /
 Do
