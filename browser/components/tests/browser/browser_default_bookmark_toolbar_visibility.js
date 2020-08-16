@@ -33,9 +33,7 @@ zero
 *
 *
 Test
-PlacesUIUtils
-.
-maybeToggleBookmarkToolbarVisibility
+_maybeToggleBookmarkToolbarVisibility
 (
 )
 code
