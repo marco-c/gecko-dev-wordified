@@ -152,13 +152,6 @@ h
 #
 include
 "
-nsCOMPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -2055,7 +2048,7 @@ it
 if
 necessary
 :
-nsCOMPtr
+RefPtr
 <
 DOMSVGLength
 >
