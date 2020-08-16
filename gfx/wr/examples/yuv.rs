@@ -1083,7 +1083,7 @@ bool
 false
 }
 fn
-get_image_handlers
+get_image_handler
 (
 &
 mut
@@ -1099,7 +1099,6 @@ Gl
 )
 -
 >
-(
 Option
 <
 Box
@@ -1108,15 +1107,6 @@ dyn
 ExternalImageHandler
 >
 >
-Option
-<
-Box
-<
-dyn
-OutputImageHandler
->
->
-)
 {
 let
 provider
@@ -1140,7 +1130,6 @@ texture_ids
 0
 ]
 ;
-(
 Some
 (
 Box
@@ -1150,8 +1139,6 @@ new
 (
 provider
 )
-)
-None
 )
 }
 fn
