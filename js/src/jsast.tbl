@@ -341,6 +341,16 @@ arrayExpression
 )
 ASTDEF
 (
+AST_DELETE_OPTIONAL_EXPR
+"
+DeleteOptionalExpression
+"
+"
+deleteOptionalExpression
+"
+)
+ASTDEF
+(
 AST_OPTIONAL_EXPR
 "
 OptionalExpression
