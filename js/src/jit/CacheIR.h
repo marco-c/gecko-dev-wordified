@@ -10157,6 +10157,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsIsLockFree
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
