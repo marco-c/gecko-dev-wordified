@@ -1417,6 +1417,9 @@ uint8_t
 >
 &
 aBuffer
+bool
+*
+aNeedsYFlip
 )
 ;
 void

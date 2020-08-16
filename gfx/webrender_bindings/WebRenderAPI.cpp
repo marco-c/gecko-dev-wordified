@@ -2644,6 +2644,9 @@ uint8_t
 >
 &
 buffer
+bool
+*
+aNeedsYFlip
 )
 {
 class
@@ -2684,6 +2687,9 @@ uint8_t
 >
 &
 aBuffer
+bool
+*
+aNeedsYFlip
 )
 :
 mTask
@@ -2705,6 +2711,10 @@ aFormat
 mBuffer
 (
 aBuffer
+)
+mNeedsYFlip
+(
+aNeedsYFlip
 )
 {
 MOZ_COUNT_CTOR
@@ -2758,6 +2768,7 @@ Some
 (
 mBuffer
 )
+mNeedsYFlip
 )
 ;
 layers
@@ -2799,6 +2810,10 @@ uint8_t
 >
 &
 mBuffer
+;
+bool
+*
+mNeedsYFlip
 ;
 }
 ;
@@ -2844,6 +2859,7 @@ aStartTime
 size
 aFormat
 buffer
+aNeedsYFlip
 )
 ;
 /
