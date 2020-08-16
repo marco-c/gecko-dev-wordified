@@ -128,3 +128,15 @@ Firefox
 General
 '
 )
+TESTING_JS_MODULES
++
+=
+[
+'
+schemas
+/
+PioneerStudyAddonsSchema
+.
+json
+'
+]
