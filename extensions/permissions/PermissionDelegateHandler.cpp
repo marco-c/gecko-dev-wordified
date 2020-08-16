@@ -1557,6 +1557,9 @@ GetTopWindowContext
 if
 (
 topWC
+&
+&
+topWC
 -
 >
 IsInProcess
@@ -1731,6 +1734,10 @@ NodePrincipal
 }
 }
 else
+if
+(
+topWC
+)
 {
 /
 /
