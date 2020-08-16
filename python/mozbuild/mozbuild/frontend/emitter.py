@@ -8399,6 +8399,10 @@ RCFILE
 '
             
 '
+RESFILE
+'
+            
+'
 RCINCLUDE
 '
             

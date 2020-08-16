@@ -245,6 +245,13 @@ nptest
 .
 rc
 '
+RESFILE
+=
+'
+nptest
+.
+res
+'
 DEFFILE
 =
 '

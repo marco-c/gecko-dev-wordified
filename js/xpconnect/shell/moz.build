@@ -224,6 +224,13 @@ OS_ARCH
 WINNT
 '
 :
+RCINCLUDE
+=
+'
+xpcshell
+.
+rc
+'
 if
 CONFIG
 [

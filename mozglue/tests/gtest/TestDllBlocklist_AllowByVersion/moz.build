@@ -102,6 +102,13 @@ TestDllBlocklist_AllowByVersion
 .
 rc
 '
+RESFILE
+=
+'
+TestDllBlocklist_AllowByVersion
+.
+res
+'
 if
 CONFIG
 [
