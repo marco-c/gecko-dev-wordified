@@ -2021,6 +2021,10 @@ self
 .
 topsrcdir
                 
+self
+.
+topobjdir
+                
 os
 .
 path
@@ -6154,14 +6158,12 @@ def
 activate_pipenv
 (
 self
-workon_home
 pipfile
 =
 None
 populate
 =
 False
-                        
 python
 =
 None
@@ -6213,10 +6215,8 @@ virtualenv_manager
 .
 activate_pipenv
 (
-workon_home
 pipfile
 populate
-                                                
 python
 )
     
