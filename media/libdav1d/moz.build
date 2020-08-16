@@ -1984,13 +1984,6 @@ OS_TARGET
 WINNT
 '
 :
-RCFILE
-=
-'
-dav1d
-.
-rc
-'
 SOURCES
 +
 =
