@@ -125,6 +125,12 @@ dictionaries
 '
     
 '
+defaultagent_localized
+.
+ini
+'
+    
+'
 defaults
 /
 profile
