@@ -152,8 +152,6 @@ NSArray
 of
 native
 accessibles
-static
-inline
 NSMutableArray
 *
 ConvertToNSArray
@@ -182,8 +180,6 @@ NSArray
 of
 native
 accessibles
-static
-inline
 NSMutableArray
 *
 ConvertToNSArray
