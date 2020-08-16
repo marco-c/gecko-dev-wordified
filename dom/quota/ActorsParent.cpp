@@ -12489,11 +12489,10 @@ AssertIsOnIOThread
 (
 )
 ;
-bool
-exists
-;
 QM_TRY_VAR
 (
+const
+bool
 exists
 ToResult
 (
