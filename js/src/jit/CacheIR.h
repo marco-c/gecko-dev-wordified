@@ -10136,6 +10136,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsXor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
