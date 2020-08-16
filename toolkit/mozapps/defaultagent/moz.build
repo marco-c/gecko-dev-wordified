@@ -423,13 +423,6 @@ CONFIG
 [
 var
 ]
-RCINCLUDE
-=
-"
-DefaultBrowserAgent
-.
-rc
-"
 #
 We
 need
