@@ -237,7 +237,7 @@ glean
 ]
 extern
 crate
-fog_control
+fog
 ;
 extern
 crate
