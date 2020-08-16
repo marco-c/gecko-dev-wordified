@@ -172,10 +172,6 @@ guaranteed
 16
 byte
 aligned
-#
-define
-PARAM_BUFFER_COUNT
-16
 nsXPTCMiniVariant
 paramBuffer
 [

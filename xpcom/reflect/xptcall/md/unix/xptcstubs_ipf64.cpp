@@ -160,10 +160,6 @@ uint64_t
 restargs
 )
 {
-#
-define
-PARAM_BUFFER_COUNT
-16
 nsXPTCMiniVariant
 paramBuffer
 [

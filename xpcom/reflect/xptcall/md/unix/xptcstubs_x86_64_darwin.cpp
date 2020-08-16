@@ -184,12 +184,6 @@ area
 .
 const
 uint32_t
-PARAM_BUFFER_COUNT
-=
-16
-;
-const
-uint32_t
 GPR_COUNT
 =
 6

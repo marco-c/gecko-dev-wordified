@@ -154,10 +154,6 @@ uint32_t
 stackBytesToPop
 )
 {
-#
-define
-PARAM_BUFFER_COUNT
-16
 nsXPTCMiniVariant
 paramBuffer
 [

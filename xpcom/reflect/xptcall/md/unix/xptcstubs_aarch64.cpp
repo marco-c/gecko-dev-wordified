@@ -196,10 +196,6 @@ fprData
 {
 #
 define
-PARAM_BUFFER_COUNT
-16
-#
-define
 PARAM_GPR_COUNT
 8
 #

@@ -172,10 +172,6 @@ always
 skip
 over
 a0
-#
-define
-PARAM_BUFFER_COUNT
-16
 nsXPTCMiniVariant
 paramBuffer
 [

@@ -152,10 +152,6 @@ double
 fprData
 )
 {
-#
-define
-PARAM_BUFFER_COUNT
-16
 /
 /
 /
