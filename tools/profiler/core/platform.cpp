@@ -39528,6 +39528,10 @@ profiler_add_network_marker
 nsIURI
 *
 aURI
+const
+nsACString
+&
+aRequestMethod
 int32_t
 aPriority
 uint64_t
@@ -39723,6 +39727,7 @@ spec
 get
 (
 )
+aRequestMethod
 aType
 aStart
 aEnd
