@@ -607,7 +607,7 @@ js
 ObjectGroup
 true
 false
-false
+true
 )
 \
 D

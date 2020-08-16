@@ -1051,6 +1051,16 @@ Shape
 \
 n
 "
+"
+race
+:
+UpdateArenaPointersTyped
+<
+JSObject
+>
+\
+n
+"
 /
 /
 Bug
