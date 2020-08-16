@@ -645,13 +645,13 @@ true
 flags
 )
 ;
-}
 this
 .
 updatePrintPreview
 (
 )
 ;
+}
 document
 .
 dispatchEvent
