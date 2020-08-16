@@ -301,6 +301,11 @@ ts
 "
 typescript
 "
+tsx
+:
+"
+typescript
+"
 vue
 :
 "
