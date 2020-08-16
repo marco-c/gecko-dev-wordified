@@ -2141,9 +2141,7 @@ defaultEngine
 "
 ]
 .
-wrappedJSObject
-.
-__internalAliases
+aliases
 ;
 if
 (

@@ -3736,9 +3736,7 @@ s
 >
 engine
 .
-wrappedJSObject
-.
-_internalAliases
+aliases
 .
 includes
 (

@@ -4456,9 +4456,7 @@ search
 .
 defaultEngine
 .
-wrappedJSObject
-.
-__internalAliases
+aliases
 =
 [
 ]

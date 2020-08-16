@@ -1258,9 +1258,7 @@ push
 .
 engine
 .
-wrappedJSObject
-.
-_internalAliases
+aliases
 )
 ;
 let

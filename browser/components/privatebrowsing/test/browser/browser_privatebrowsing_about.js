@@ -293,9 +293,7 @@ expectedEngineAlias
 =
 privateEngine
 .
-wrappedJSObject
-.
-__internalAliases
+aliases
 [
 0
 ]
