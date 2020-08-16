@@ -169,7 +169,7 @@ message
 first
 Resources
 .
-watchResources
+watchTargetResources
 (
 targetActor
 [
@@ -222,7 +222,7 @@ side
 via
 Resource
 .
-watchResources
+watchTargetResources
 call
 .
 targetActor
