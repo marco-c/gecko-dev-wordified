@@ -1849,12 +1849,12 @@ bool
 WarpCacheIRTranspiler
 :
 :
-emitGuardFunctionPrototype
+emitGuardDynamicSlotIsSpecificObject
 (
 ObjOperandId
 objId
 ObjOperandId
-protoId
+expectedId
 uint32_t
 slotOffset
 )
@@ -1878,11 +1878,11 @@ objId
 ;
 MDefinition
 *
-proto
+expected
 =
 getOperand
 (
-protoId
+expectedId
 )
 ;
 auto
@@ -1967,7 +1967,7 @@ alloc
 (
 )
 unbox
-proto
+expected
 /
 *
 bailOnEquality

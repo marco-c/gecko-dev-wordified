@@ -10005,7 +10005,7 @@ matchOp
 CacheOp
 :
 :
-GuardFunctionPrototype
+GuardDynamicSlotIsSpecificObject
 rhsId
 )
 )
