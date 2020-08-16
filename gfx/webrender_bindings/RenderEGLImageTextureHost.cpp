@@ -405,7 +405,7 @@ IsExtensionSupported
 gl
 :
 :
-GLLibraryEGL
+EGLExtension
 :
 :
 KHR_fence_sync
@@ -419,12 +419,6 @@ egl
 >
 fClientWaitSync
 (
-egl
--
->
-Display
-(
-)
 mSync
 0
 LOCAL_EGL_FOREVER
