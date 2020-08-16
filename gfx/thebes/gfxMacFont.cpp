@@ -822,6 +822,12 @@ UnscaledFontMac
 CreateCGFontWithVariations
 (
 baseFont
+aUnscaledFont
+-
+>
+AxesCache
+(
+)
 vars
 .
 Length
