@@ -4415,14 +4415,6 @@ Scalar
 Uint32
 )
 {
-/
-/
-This
-restriction
-is
-bug
-1077305
-.
 MOZ_ASSERT
 (
 ins
