@@ -1042,14 +1042,11 @@ self
 .
 webdriver
 .
-execute_script
+execute_async_script
 (
 self
 .
 window_loaded_script
-asynchronous
-=
-True
 )
                 
 break
