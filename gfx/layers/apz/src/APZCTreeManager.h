@@ -454,9 +454,6 @@ struct
 FlingHandoffState
 ;
 class
-LayerMetricsWrapper
-;
-class
 InputQueue
 ;
 class
@@ -467,6 +464,12 @@ HitTestingTreeNode
 ;
 class
 HitTestingTreeNodeAutoLock
+;
+class
+LayerMetricsWrapper
+;
+class
+SampleTime
 ;
 class
 WebRenderScrollDataWrapper
@@ -1657,7 +1660,7 @@ TransactionWrapper
 &
 aTxn
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 const
@@ -1718,7 +1721,7 @@ bool
 AdvanceAnimations
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -4374,7 +4377,7 @@ for
 gtests
 subclass
 virtual
-TimeStamp
+SampleTime
 GetFrameTime
 (
 )
@@ -5744,7 +5747,7 @@ MutexAutoLock
 &
 aProofOfMapLock
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )

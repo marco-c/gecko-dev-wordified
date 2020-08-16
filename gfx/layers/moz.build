@@ -1627,6 +1627,11 @@ RotatedBuffer
 h
 '
 '
+SampleTime
+.
+h
+'
+'
 ScrollableLayerGuid
 .
 h
@@ -3414,6 +3419,11 @@ cpp
 '
 '
 RotatedBuffer
+.
+cpp
+'
+'
+SampleTime
 .
 cpp
 '

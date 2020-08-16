@@ -156,6 +156,17 @@ mozilla
 /
 layers
 /
+SampleTime
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ZoomConstraints
 .
 h
@@ -1840,7 +1851,7 @@ bool
 AdvanceAnimations
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -1853,7 +1864,7 @@ RecursiveMutexAutoLock
 &
 aProofOfLock
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 nsTArray
@@ -2442,7 +2453,7 @@ void
 ReportCheckerboard
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 const
@@ -3876,7 +3887,7 @@ current
 frame
 time
 .
-TimeStamp
+SampleTime
 GetFrameTime
 (
 )
@@ -6961,7 +6972,7 @@ this
 /
 frame
 .
-TimeStamp
+SampleTime
 mLastSampleTime
 ;
 /
@@ -6978,7 +6989,7 @@ a
 checkerboarding
 report
 .
-TimeStamp
+SampleTime
 mLastCheckerboardReport
 ;
 /
@@ -9626,7 +9637,7 @@ recent
 fling
 started
 .
-TimeStamp
+SampleTime
 mLastFlingTime
 ;
 /

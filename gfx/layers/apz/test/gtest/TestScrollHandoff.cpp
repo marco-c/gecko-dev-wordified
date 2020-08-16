@@ -3738,7 +3738,7 @@ AdvanceAnimations
 mcc
 -
 >
-Time
+GetSampleTime
 (
 )
 )

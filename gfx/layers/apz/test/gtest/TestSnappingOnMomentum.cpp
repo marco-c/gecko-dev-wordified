@@ -384,7 +384,7 @@ AdvanceAnimations
 mcc
 -
 >
-Time
+GetSampleTime
 (
 )
 )
@@ -430,7 +430,7 @@ AdvanceAnimations
 mcc
 -
 >
-Time
+GetSampleTime
 (
 )
 )
@@ -476,7 +476,7 @@ AdvanceAnimations
 mcc
 -
 >
-Time
+GetSampleTime
 (
 )
 )
@@ -522,7 +522,7 @@ AdvanceAnimations
 mcc
 -
 >
-Time
+GetSampleTime
 (
 )
 )
@@ -568,7 +568,7 @@ AdvanceAnimations
 mcc
 -
 >
-Time
+GetSampleTime
 (
 )
 )

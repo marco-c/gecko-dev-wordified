@@ -328,6 +328,9 @@ AutoResolveRefLayers
 class
 CompositorBridgeParent
 ;
+class
+SampleTime
+;
 /
 /
 Represents
@@ -690,7 +693,9 @@ frame
 bool
 TransformShadowTree
 (
-TimeStamp
+const
+SampleTime
+&
 aCurrentFrame
 TimeDuration
 aVsyncRate

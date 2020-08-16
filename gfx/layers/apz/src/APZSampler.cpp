@@ -599,7 +599,7 @@ APZSampler
 SetSampleTime
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )
@@ -650,7 +650,7 @@ AssertOnSamplerThread
 (
 )
 ;
-TimeStamp
+SampleTime
 sampleTime
 ;
 {
@@ -733,10 +733,10 @@ IsNull
 (
 )
 ?
-TimeStamp
+SampleTime
 :
 :
-Now
+FromNow
 (
 )
 :
@@ -761,7 +761,7 @@ APZSampler
 AdvanceAnimations
 (
 const
-TimeStamp
+SampleTime
 &
 aSampleTime
 )

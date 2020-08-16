@@ -536,7 +536,7 @@ MOZ_ASSERT
 mOverscrollHandoffChain
 )
 ;
-TimeStamp
+SampleTime
 now
 =
 aApzc
