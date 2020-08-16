@@ -3040,10 +3040,11 @@ string_id
 const
 el
 =
-document
+PanelMultiView
 .
-getElementById
+getViewNode
 (
+document
 id
 )
 ;
