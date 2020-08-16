@@ -8363,9 +8363,6 @@ var
 aUserContextId
 ;
 var
-aSameProcessAsFrameLoader
-;
-var
 aInitialBrowsingContextGroupId
 ;
 var
