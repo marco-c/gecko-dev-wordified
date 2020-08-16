@@ -627,7 +627,10 @@ tasksStarted
 size_t
 workerCount
 =
-ParallelWorkerCount
+gc
+-
+>
+parallelWorkerCount
 (
 )
 ;
