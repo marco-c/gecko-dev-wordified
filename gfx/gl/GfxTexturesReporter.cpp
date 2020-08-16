@@ -150,6 +150,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 gl
@@ -159,9 +163,6 @@ NS_IMPL_ISUPPORTS
 GfxTexturesReporter
 nsIMemoryReporter
 )
-mozilla
-:
-:
 Atomic
 <
 size_t
@@ -174,9 +175,6 @@ sAmount
 0
 )
 ;
-mozilla
-:
-:
 Atomic
 <
 size_t
@@ -189,9 +187,6 @@ sPeakAmount
 0
 )
 ;
-mozilla
-:
-:
 Atomic
 <
 size_t
