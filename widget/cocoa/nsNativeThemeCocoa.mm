@@ -1881,12 +1881,6 @@ draw
 focus
 rings
 .
-#
-if
-defined
-(
-__x86_64__
-)
 implementation
 SearchFieldCellWithFocusRing
 -
@@ -2074,8 +2068,6 @@ controlView
 ;
 }
 end
-#
-endif
 interface
 ToolbarSearchFieldCellWithFocusRing
 :
