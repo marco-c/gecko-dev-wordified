@@ -354,10 +354,10 @@ must
 be
 explicitly
 *
-whitelisted
+allowed
 .
 Functions
-whitelisted
+allowed
 for
 builder
 recipes
@@ -373,7 +373,7 @@ while
 combiner
 functions
 are
-whitelisted
+allowed
 *
 in
 RecipeExecutor
@@ -470,11 +470,11 @@ make_boolean
 this
 .
 makeBoolean
-whitelist_fields
+allow_fields
 :
 this
 .
-whitelistFields
+allowFields
 filter_by_value
 :
 this
@@ -5087,7 +5087,7 @@ to
 keep
 *
 /
-whitelistFields
+allowFields
 (
 item
 config

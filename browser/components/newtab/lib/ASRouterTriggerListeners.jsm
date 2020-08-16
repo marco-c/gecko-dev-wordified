@@ -217,7 +217,7 @@ against
 the
 list
 of
-whitelisted
+allowed
 hosts
 *
 Additionally
@@ -232,7 +232,7 @@ URL
 against
 *
 the
-whitelist
+list
 .
 *
 *
@@ -249,7 +249,10 @@ pair
 that
 matched
 the
-whitelist
+list
+of
+allowed
+hosts
 *
 /
 function
@@ -320,7 +323,7 @@ Check
 current
 location
 against
-whitelisted
+allowed
 hosts
 if
 (

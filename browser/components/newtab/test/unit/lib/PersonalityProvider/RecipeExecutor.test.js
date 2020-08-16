@@ -6713,7 +6713,7 @@ describe
 (
 "
 #
-whitelistFields
+allowFields
 "
 (
 )
@@ -6741,7 +6741,7 @@ item
 =
 instance
 .
-whitelistFields
+allowFields
 (
 item
 {

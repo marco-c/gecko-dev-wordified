@@ -494,7 +494,9 @@ md
 {
 /
 /
-whitelist
+"
+allow
+"
 includes
 targeting
 attributes
@@ -532,7 +534,7 @@ the
 evaluation
 .
 const
-whitelist
+allow
 =
 [
 "
@@ -559,7 +561,7 @@ doc
 =
 >
 !
-whitelist
+allow
 .
 includes
 (
@@ -577,7 +579,7 @@ is
 failing
 you
 might
-has
+have
 spelled
 something
 wrong
