@@ -334,11 +334,6 @@ RECEIVED_RESET
 ;
 }
 void
-StopSending
-(
-)
-;
-void
 SetResponseHeaders
 (
 nsTArray
@@ -561,7 +556,7 @@ STOP_SENDING
 frame
 with
 error
-HTTP_NO_ERROR
+HTTP_EARLY_RESPONSE
 .
 *
 That

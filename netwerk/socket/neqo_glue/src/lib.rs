@@ -2306,9 +2306,6 @@ StopSending
 stream_id
 :
 u64
-error
-:
-u64
 }
 HeaderReady
 {
@@ -2742,7 +2739,8 @@ Http3ClientEvent
 StopSending
 {
 stream_id
-error
+.
+.
 }
 =
 >
@@ -2753,7 +2751,6 @@ Http3Event
 StopSending
 {
 stream_id
-error
 }
 }
 Http3ClientEvent
