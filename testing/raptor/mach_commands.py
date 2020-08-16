@@ -1813,7 +1813,7 @@ InstallIntent
 from
 mozdevice
 import
-ADBAndroid
+ADBDeviceFactory
             
 install
 =
@@ -1994,7 +1994,7 @@ is_android
                 
 device
 =
-ADBAndroid
+ADBDeviceFactory
 (
 verbose
 =
