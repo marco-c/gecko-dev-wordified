@@ -21895,6 +21895,7 @@ nsDocumentViewer
 GetIsPrinting
 (
 )
+const
 {
 #
 ifdef
@@ -22177,6 +22178,7 @@ nsDocumentViewer
 GetIsPrintPreview
 (
 )
+const
 {
 #
 ifdef

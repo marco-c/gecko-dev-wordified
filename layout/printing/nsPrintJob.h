@@ -843,6 +843,7 @@ bool
 GetIsPrinting
 (
 )
+const
 {
 return
 mIsDoingPrinting
@@ -859,6 +860,7 @@ bool
 GetIsPrintPreview
 (
 )
+const
 {
 return
 mIsDoingPrintPreview
@@ -868,6 +870,7 @@ bool
 GetIsCreatingPrintPreview
 (
 )
+const
 {
 return
 mIsCreatingPrintPreview
