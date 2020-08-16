@@ -417,7 +417,10 @@ uint32_t
 osrPcMismatchesBeforeRecompile
 ;
 uint32_t
-smallFunctionMaxBytecodeLength_
+smallFunctionMaxBytecodeLength
+;
+uint32_t
+inliningEntryThreshold
 ;
 uint32_t
 jumpThreshold
