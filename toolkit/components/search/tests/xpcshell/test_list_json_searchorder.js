@@ -88,6 +88,15 @@ useTestEngines
 (
 )
 ;
+await
+Services
+.
+search
+.
+init
+(
+)
+;
 }
 )
 ;

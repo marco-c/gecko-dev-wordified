@@ -119,17 +119,6 @@ tests
 xpcshell
 /
 xpcshell
--
-legacyconfig
-.
-ini
-'
-'
-tests
-/
-xpcshell
-/
-xpcshell
 .
 ini
 '
