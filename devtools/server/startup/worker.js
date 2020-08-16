@@ -644,7 +644,7 @@ for
 grip
 previewing
 threadActor
-window
+workerGlobal
 :
 global
 onThreadAttached
