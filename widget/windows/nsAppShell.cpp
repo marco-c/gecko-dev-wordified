@@ -418,7 +418,7 @@ turn
 on
 .
 class
-WinWakeLockListener
+LegacyWinWakeLockListener
 final
 :
 public
@@ -427,7 +427,7 @@ nsIDOMMozWakeLockListener
 public
 :
 NS_DECL_ISUPPORTS
-WinWakeLockListener
+LegacyWinWakeLockListener
 (
 )
 {
@@ -442,7 +442,7 @@ XRE_IsParentProcess
 private
 :
 ~
-WinWakeLockListener
+LegacyWinWakeLockListener
 (
 )
 {
@@ -737,12 +737,12 @@ false
 ;
 NS_IMPL_ISUPPORTS
 (
-WinWakeLockListener
+LegacyWinWakeLockListener
 nsIDOMMozWakeLockListener
 )
 StaticRefPtr
 <
-WinWakeLockListener
+nsIDOMMozWakeLockListener
 >
 sWakeLockListener
 ;
@@ -771,7 +771,7 @@ sPowerManagerService
 sWakeLockListener
 =
 new
-WinWakeLockListener
+LegacyWinWakeLockListener
 (
 )
 ;
