@@ -27,7 +27,7 @@ else
 {
 requestLongerTimeout
 (
-6
+12
 )
 ;
 }
