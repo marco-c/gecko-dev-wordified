@@ -5121,7 +5121,7 @@ CacheInclusiveAncestorsOfEndContainer
 (
 )
 {
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 Clear
 (
@@ -5164,7 +5164,7 @@ while
 endNode
 )
 {
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 AppendElement
 (
@@ -6338,7 +6338,7 @@ deadlock
 int32_t
 i
 =
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 IndexOf
 (
@@ -6454,7 +6454,7 @@ routine
 .
 i
 =
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 IndexOf
 (
@@ -6545,7 +6545,7 @@ Next
 /
 /
 uses
-mEndNodes
+mInclusiveAncestorsOfEndContainer
 .
 if
 (
