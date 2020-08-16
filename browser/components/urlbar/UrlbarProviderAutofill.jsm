@@ -3118,13 +3118,11 @@ plus
 /
 everything
 after
-the
-host
 .
 Use
 queryContext
 .
-searchString
+trimmedSearchString
 instead
 of
 /
@@ -3162,11 +3160,7 @@ strippedURL
 =
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 ;
 if
 (

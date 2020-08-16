@@ -516,11 +516,7 @@ searchString
 =
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 ;
 if
 (
@@ -636,6 +632,9 @@ engine
 =
 queryContext
 .
+searchMode
+?
+.
 engineName
 ?
 Services
@@ -645,6 +644,8 @@ search
 getEngineByName
 (
 queryContext
+.
+searchMode
 .
 engineName
 )

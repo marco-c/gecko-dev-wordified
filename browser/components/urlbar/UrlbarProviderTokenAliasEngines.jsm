@@ -554,11 +554,7 @@ if
 (
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 =
 =
 "
@@ -713,11 +709,7 @@ if
 (
 queryContext
 .
-searchString
-.
-trim
-(
-)
+trimmedSearchString
 =
 =
 "
