@@ -443,6 +443,8 @@ const
 ScreenIntSize
 &
 aSize
+bool
+aNeedsYFlip
 )
 ;
 private

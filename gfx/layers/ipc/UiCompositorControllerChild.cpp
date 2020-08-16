@@ -1305,6 +1305,8 @@ const
 ScreenIntSize
 &
 aSize
+bool
+aNeedsYFlip
 )
 {
 #
@@ -1331,6 +1333,7 @@ move
 aMem
 )
 aSize
+aNeedsYFlip
 )
 ;
 }

@@ -318,6 +318,8 @@ Shmem
 aMem
 ScreenIntSize
 aSize
+bool
+aNeedsYFlip
 )
 ;
 }

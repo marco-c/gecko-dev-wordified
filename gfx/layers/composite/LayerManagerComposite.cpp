@@ -9489,6 +9489,7 @@ ScreenIntSize
 bufferWidth
 bufferHeight
 )
+true
 )
 ;
 mScreenPixelsTarget

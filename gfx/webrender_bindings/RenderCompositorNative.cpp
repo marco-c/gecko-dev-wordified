@@ -610,6 +610,9 @@ uint8_t
 >
 &
 aReadbackBuffer
+bool
+*
+aNeedsYFlip
 )
 {
 if
@@ -696,6 +699,17 @@ MakeCurrent
 (
 )
 ;
+if
+(
+aNeedsYFlip
+)
+{
+*
+aNeedsYFlip
+=
+true
+;
+}
 return
 success
 ;
