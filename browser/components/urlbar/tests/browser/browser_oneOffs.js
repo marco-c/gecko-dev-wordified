@@ -3394,8 +3394,7 @@ gURLBar
 .
 setSearchMode
 (
-{
-}
+null
 )
 ;
 }
@@ -3722,8 +3721,7 @@ gURLBar
 .
 setSearchMode
 (
-{
-}
+null
 )
 ;
 }
@@ -4728,8 +4726,7 @@ gURLBar
 .
 setSearchMode
 (
-{
-}
+null
 )
 ;
 await
@@ -5128,8 +5125,7 @@ gURLBar
 .
 setSearchMode
 (
-{
-}
+null
 )
 ;
 await
