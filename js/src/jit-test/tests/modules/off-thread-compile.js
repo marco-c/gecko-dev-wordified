@@ -35,17 +35,6 @@ js
 "
 )
 ;
-load
-(
-libdir
-+
-"
-dummyModuleResolveHook
-.
-js
-"
-)
-;
 function
 offThreadParseAndEvaluate
 (

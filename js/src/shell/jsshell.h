@@ -303,10 +303,6 @@ enum
 GlobalAppSlot
 {
 GlobalAppSlotModuleRegistry
-GlobalAppSlotModuleResolveHook
-/
-/
-HostResolveImportedModule
 GlobalAppSlotCount
 }
 ;
