@@ -1634,13 +1634,6 @@ assertSearchMode
 (
 win
 {
-source
-:
-UrlbarUtils
-.
-RESULT_SOURCE
-.
-SEARCH
 engineName
 :
 engine
