@@ -1036,6 +1036,11 @@ privateClassFields
 =
 false
 ;
+bool
+privateClassMethods
+=
+false
+;
 /
 *
 *
