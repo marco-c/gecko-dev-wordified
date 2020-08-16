@@ -3050,6 +3050,11 @@ addToFormHistory
 (
 this
 searchString
+selectedOneOff
+.
+engine
+.
+name
 )
 .
 catch
@@ -5048,6 +5053,9 @@ result
 payload
 .
 query
+engine
+.
+name
 )
 .
 catch

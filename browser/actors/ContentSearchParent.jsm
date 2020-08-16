@@ -1922,8 +1922,7 @@ addFormHistoryEntry
 browser
 entry
 =
-"
-"
+null
 )
 {
 let
@@ -2003,12 +2002,8 @@ if
 isPrivate
 |
 |
+!
 entry
-=
-=
-=
-"
-"
 )
 {
 return
@@ -2046,6 +2041,13 @@ formHistoryParam
 value
 :
 entry
+.
+value
+source
+:
+entry
+.
+engineName
 }
 {
 handleCompletion
