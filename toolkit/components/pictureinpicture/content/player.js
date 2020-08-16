@@ -830,14 +830,6 @@ group
 id
 )
 ;
-browser
-.
-sameProcessAsFrameLoader
-=
-originatingBrowser
-.
-frameLoader
-;
 holder
 .
 appendChild

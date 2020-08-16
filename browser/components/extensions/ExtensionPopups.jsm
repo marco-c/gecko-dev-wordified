@@ -1748,16 +1748,6 @@ policy
 browsingContextGroupId
 )
 ;
-browser
-.
-sameProcessAsFrameLoader
-=
-this
-.
-extension
-.
-groupFrameLoader
-;
 if
 (
 this

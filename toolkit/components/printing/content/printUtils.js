@@ -1021,11 +1021,6 @@ remoteType
 sourceBrowser
 .
 remoteType
-sameProcessAsFrameLoader
-:
-sourceBrowser
-.
-frameLoader
 initialBrowsingContextGroupId
 :
 aBrowsingContext

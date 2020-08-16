@@ -444,16 +444,6 @@ policy
 browsingContextGroupId
 )
 ;
-browser
-.
-sameProcessAsFrameLoader
-=
-panel
-.
-extension
-.
-groupFrameLoader
-;
 let
 readyPromise
 ;
