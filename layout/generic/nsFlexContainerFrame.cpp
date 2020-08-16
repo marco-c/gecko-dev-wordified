@@ -2504,7 +2504,9 @@ const
 nscoord
 logicalCoordInMainAxis
 =
-mIsMainAxisReversed
+IsMainAxisReversed
+(
+)
 ?
 aContainerMainSize
 -
@@ -32095,7 +32097,9 @@ MakeLogicalSide
 MainAxis
 (
 )
-mIsMainAxisReversed
+IsMainAxisReversed
+(
+)
 ?
 eLogicalEdgeEnd
 :
