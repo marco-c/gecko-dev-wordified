@@ -3005,13 +3005,12 @@ the
 hamburger
 menu
 .
-PanelMultiView
-.
-getViewNode
-(
 window
 .
 document
+.
+getElementById
+(
 "
 appMenu
 -
