@@ -94,6 +94,35 @@ mach
 command
 metadata
 .
+    
+Mach
+commands
+contain
+lots
+of
+attributes
+.
+This
+class
+exists
+to
+capture
+them
+    
+in
+a
+sane
+way
+so
+tuples
+etc
+aren
+'
+t
+used
+instead
+.
+    
 "
 "
 "
@@ -143,10 +172,6 @@ arguments
         
 '
 argument_group_names
-'
-        
-'
-virtualenv_name
 '
         
 #
@@ -346,9 +371,6 @@ None
 order
 =
 None
-virtualenv_name
-=
-None
 )
 :
         
@@ -404,12 +426,6 @@ argument_group_names
 =
 [
 ]
-        
-self
-.
-virtualenv_name
-=
-virtualenv_name
         
 self
 .
