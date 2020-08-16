@@ -168,6 +168,10 @@ api
 :
 :
 ExternalImageId
+api
+:
+:
+ImageRendering
 }
 ;
 #
@@ -6990,6 +6994,9 @@ CompositorSurfaceTransform
 clip_rect
 :
 DeviceIntRect
+image_rendering
+:
+ImageRendering
 )
 {
 if
@@ -7012,6 +7019,7 @@ add_surface
 id
 transform
 clip_rect
+image_rendering
 )
 ;
 }

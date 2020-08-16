@@ -6978,6 +6978,9 @@ CompositorSurfaceTransform
 clip_rect
 :
 DeviceIntRect
+image_rendering
+:
+ImageRendering
 )
 ;
 fn
@@ -7373,6 +7376,9 @@ CompositorSurfaceTransform
 clip_rect
 :
 DeviceIntRect
+image_rendering
+:
+ImageRendering
 )
 {
 unsafe
@@ -7386,6 +7392,7 @@ id
 &
 transform
 clip_rect
+image_rendering
 )
 ;
 }
