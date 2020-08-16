@@ -1072,11 +1072,11 @@ favicon
 |
 |
 null
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 :
 link
 .
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 }
 )
 )
@@ -1149,11 +1149,11 @@ isPinned
 site
 .
 isPinned
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 :
 site
 .
-overriddenSearchTopSite
+sendTopSiteAttributionRequest
 }
 )
 )
