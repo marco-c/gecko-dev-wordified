@@ -1223,6 +1223,24 @@ install_browser
 =
 False
         
+kwargs
+[
+"
+install_webdriver
+"
+]
+=
+None
+        
+kwargs
+[
+"
+affected
+"
+]
+=
+None
+        
 #
 Install
 the
