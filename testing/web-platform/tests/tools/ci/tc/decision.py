@@ -2093,6 +2093,31 @@ checks
 }
     
 if
+"
+extra
+"
+in
+task
+:
+        
+task_data
+[
+"
+extra
+"
+]
+.
+update
+(
+task
+[
+"
+extra
+"
+]
+)
+    
+if
 env_extra
 :
         
