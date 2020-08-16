@@ -372,6 +372,14 @@ clear
 \
 _
 (
+PurgeStringToAtomCache
+"
+pStoA
+"
+)
+\
+_
+(
 Pretenure
 "
 pretnr
