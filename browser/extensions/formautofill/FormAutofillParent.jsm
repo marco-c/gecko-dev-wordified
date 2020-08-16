@@ -3026,17 +3026,6 @@ browser
 timeStartedFillingMS
 )
 {
-if
-(
-FormAutofill
-.
-isAutofillCreditCardsHideUI
-)
-{
-return
-false
-;
-}
 /
 /
 Updates
