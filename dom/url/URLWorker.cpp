@@ -298,6 +298,15 @@ AddDataEntry
 (
 mBlobImpl
 principal
+Some
+(
+mWorkerPrivate
+-
+>
+AgentClusterId
+(
+)
+)
 url
 )
 ;
