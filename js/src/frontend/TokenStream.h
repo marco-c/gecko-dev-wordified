@@ -11599,14 +11599,7 @@ charBuffer
 }
 ;
 inline
-mozilla
-:
-:
-Span
-<
-const
-char
->
+auto
 ToCharSpan
 (
 mozilla
@@ -11779,8 +11772,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 reinterpret_cast
 <
 const
@@ -11799,7 +11792,7 @@ codeUnits
 size
 (
 )
-)
+}
 ;
 }
 template

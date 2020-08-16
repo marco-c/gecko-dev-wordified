@@ -2565,8 +2565,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 reinterpret_cast
 <
 const
@@ -2577,7 +2577,7 @@ uint8_t
 this
 )
 allocSize
-)
+}
 ;
 }
 private
@@ -2753,8 +2753,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 offsetToPointer
 <
 uint32_t
@@ -2773,7 +2773,7 @@ scopeNotesOffset
 (
 )
 )
-)
+}
 ;
 }
 mozilla
@@ -2791,8 +2791,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 offsetToPointer
 <
 ScopeNote
@@ -2811,7 +2811,7 @@ tryNotesOffset
 (
 )
 )
-)
+}
 ;
 }
 mozilla
@@ -2829,8 +2829,8 @@ return
 mozilla
 :
 :
-MakeSpan
-(
+Span
+{
 offsetToPointer
 <
 TryNote
@@ -2849,7 +2849,7 @@ endOffset
 (
 )
 )
-)
+}
 ;
 }
 /

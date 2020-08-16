@@ -221,13 +221,12 @@ values
 )
 ;
 return
-MakeSpan
-(
+{
 entry
 -
 >
 mValues
-)
+}
 ;
 }
 nsTArray
