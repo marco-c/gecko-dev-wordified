@@ -7792,8 +7792,11 @@ const
 return
 !
 !
-getPrivateMaybeForwarded
+getPrivate
 (
+numFixedSlotsMaybeForwarded
+(
+)
 )
 ;
 }
