@@ -66,6 +66,7 @@ strict
 global
 browser
 module
+onMessageFromTab
 *
 /
 class
@@ -330,13 +331,7 @@ bootup
 (
 )
 {
-browser
-.
-runtime
-.
-onMessage
-.
-addListener
+onMessageFromTab
 (
 msg
 =
