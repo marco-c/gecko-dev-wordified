@@ -14161,7 +14161,7 @@ return
 if
 (
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 aCx
 propertyHolder
@@ -14262,7 +14262,7 @@ will
 /
 crash
 when
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 tries
 to
 call
@@ -14270,6 +14270,8 @@ wrap
 (
 )
 on
+/
+/
 foo
 .
 x
@@ -14401,7 +14403,7 @@ copyTo
 |
 |
 !
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 aCx
 copyTo

@@ -1407,6 +1407,9 @@ Copies
 all
 own
 properties
+and
+private
+fields
 from
 |
 obj
@@ -1417,6 +1420,7 @@ target
 |
 .
 Both
+*
 |
 obj
 |
@@ -1424,7 +1428,6 @@ and
 |
 target
 |
-*
 must
 not
 be
@@ -1436,6 +1439,7 @@ because
 we
 have
 to
+*
 enter
 their
 realms
@@ -1468,7 +1472,7 @@ cx
 extern
 JS_FRIEND_API
 bool
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 (
 JSContext
 *
@@ -5480,13 +5484,17 @@ longer
 used
 *
 /
+#
+define
+JSITER_PRIVATE
+0x4
 /
 *
-0x4
-is
-no
-longer
-used
+Include
+private
+names
+in
+iteration
 *
 /
 #

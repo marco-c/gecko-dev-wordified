@@ -1770,7 +1770,7 @@ JS
 ContextOptionsRef
 "
 "
-JS_CopyPropertiesFrom
+JS_CopyOwnPropertiesAndPrivateFields
 "
 "
 JS
