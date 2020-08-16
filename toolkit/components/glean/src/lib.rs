@@ -709,11 +709,9 @@ data_path
 application_id
 :
 "
-org
--
-mozilla
--
 firefox
+.
+desktop
 "
 .
 to_string
