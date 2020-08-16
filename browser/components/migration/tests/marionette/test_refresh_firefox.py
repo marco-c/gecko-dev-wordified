@@ -2082,6 +2082,20 @@ collapsed
 "
 )
         
+if
+toolbarVisible
+=
+=
+"
+"
+:
+          
+toolbarVisible
+=
+"
+false
+"
+        
 self
 .
 assertEqual
