@@ -75,7 +75,7 @@ collections
 HashMap
 ;
 use
-glean
+fog
 :
 :
 private
