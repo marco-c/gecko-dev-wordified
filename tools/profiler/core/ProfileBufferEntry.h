@@ -1149,7 +1149,7 @@ TakeAndSplice
 (
 mStringTableWriter
 .
-WriteFunc
+ChunkedWriteFunc
 (
 )
 )

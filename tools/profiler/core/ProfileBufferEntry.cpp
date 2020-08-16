@@ -1546,7 +1546,7 @@ aOther
 .
 mStringTableWriter
 .
-WriteFunc
+ChunkedWriteFunc
 (
 )
 -
@@ -2767,7 +2767,7 @@ TakeAndSplice
 (
 mFrameTableWriter
 .
-WriteFunc
+ChunkedWriteFunc
 (
 )
 )
@@ -2796,7 +2796,7 @@ TakeAndSplice
 (
 mStackTableWriter
 .
-WriteFunc
+ChunkedWriteFunc
 (
 )
 )

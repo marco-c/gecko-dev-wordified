@@ -1086,7 +1086,7 @@ TakeAndSplice
 (
 mStringTableWriter
 .
-WriteFunc
+ChunkedWriteFunc
 (
 )
 )
