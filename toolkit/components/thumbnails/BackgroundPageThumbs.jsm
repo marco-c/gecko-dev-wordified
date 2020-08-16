@@ -2757,6 +2757,12 @@ _thumbBrowser
 =
 browser
 ;
+browser
+.
+docShellIsActive
+=
+false
+;
 }
 _destroyBrowser
 (
@@ -3816,6 +3822,12 @@ waitTime
 return
 ;
 }
+aBrowser
+.
+docShellIsActive
+=
+true
+;
 /
 /
 The
