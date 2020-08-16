@@ -187,11 +187,6 @@ SelectorHighlighter
 prototype
 =
 {
-typeName
-:
-"
-SelectorHighlighter
-"
 /
 *
 *

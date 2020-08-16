@@ -698,11 +698,6 @@ ActorClassWithSpec
 (
 sourceSpec
 {
-typeName
-:
-"
-source
-"
 initialize
 :
 function

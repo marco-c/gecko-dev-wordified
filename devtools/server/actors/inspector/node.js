@@ -4186,11 +4186,6 @@ ActorClassWithSpec
 (
 nodeListSpec
 {
-typeName
-:
-"
-domnodelist
-"
 initialize
 :
 function

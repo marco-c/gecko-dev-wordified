@@ -194,11 +194,6 @@ assign
 (
 proto
 {
-typeName
-:
-"
-pausedobj
-"
 /
 *
 *

@@ -289,11 +289,6 @@ PausedDebuggerOverlay
 prototype
 =
 {
-typeName
-:
-"
-PausedDebuggerOverlay
-"
 ID_CLASS_PREFIX
 :
 "

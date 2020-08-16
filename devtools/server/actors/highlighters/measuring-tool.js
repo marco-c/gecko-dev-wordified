@@ -421,11 +421,6 @@ MeasuringToolHighlighter
 prototype
 =
 {
-typeName
-:
-"
-MeasuringToolHighlighter
-"
 ID_CLASS_PREFIX
 :
 "

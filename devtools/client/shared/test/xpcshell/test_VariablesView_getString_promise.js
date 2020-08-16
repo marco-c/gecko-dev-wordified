@@ -77,7 +77,7 @@ actor
 "
 conn0
 .
-pausedobj35
+obj35
 "
 extensible
 :
@@ -138,7 +138,7 @@ actor
 "
 conn0
 .
-pausedobj35
+obj35
 "
 extensible
 :
@@ -202,7 +202,7 @@ actor
 "
 conn0
 .
-pausedobj35
+obj35
 "
 extensible
 :

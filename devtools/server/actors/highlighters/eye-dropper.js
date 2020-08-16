@@ -514,11 +514,6 @@ EyeDropper
 prototype
 =
 {
-typeName
-:
-"
-EyeDropper
-"
 ID_CLASS_PREFIX
 :
 "

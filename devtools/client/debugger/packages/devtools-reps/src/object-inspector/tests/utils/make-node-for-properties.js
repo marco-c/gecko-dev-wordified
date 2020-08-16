@@ -181,7 +181,7 @@ conn1
 .
 child1
 /
-pausedobj618
+obj618
 "
 class
 :

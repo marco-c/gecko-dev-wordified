@@ -121,7 +121,7 @@ conn66
 .
 child1
 /
-pausedobj243
+obj243
 "
 class
 :
