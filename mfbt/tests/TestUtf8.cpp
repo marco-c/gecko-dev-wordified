@@ -218,7 +218,7 @@ using
 mozilla
 :
 :
-MakeSpan
+Span
 ;
 using
 mozilla
@@ -1597,7 +1597,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 asciiBytes
 ArrayLength
@@ -1627,7 +1627,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 endNonAsciiBytes
 ArrayLength
@@ -1659,7 +1659,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 badLeading
 ArrayLength
@@ -1728,7 +1728,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 oneBytes
 oneBytesLen
@@ -1791,7 +1791,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 twoBytes
 twoBytesLen
@@ -1857,7 +1857,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 threeBytes
 threeBytesLen
@@ -1928,7 +1928,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 fourBytes
 fourBytesLen
@@ -1994,7 +1994,7 @@ MOZ_RELEASE_ASSERT
 (
 IsUtf8
 (
-MakeSpan
+Span
 (
 maxCodePoint
 maxCodePointLen
@@ -2047,7 +2047,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 onePastMaxCodePoint
 onePastMaxCodePointLen
@@ -2129,7 +2129,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 justBeforeSurrogates
 justBeforeSurrogatesLen
@@ -2177,7 +2177,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 leastSurrogate
 leastSurrogateLen
@@ -2226,7 +2226,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 arbitraryHighSurrogate
 arbitraryHighSurrogateLen
@@ -2275,7 +2275,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 arbitraryLowSurrogate
 arbitraryLowSurrogateLen
@@ -2324,7 +2324,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 greatestSurrogate
 greatestSurrogateLen
@@ -2372,7 +2372,7 @@ IsUtf8
 (
 AsChars
 (
-MakeSpan
+Span
 (
 justAfterSurrogates
 justAfterSurrogatesLen

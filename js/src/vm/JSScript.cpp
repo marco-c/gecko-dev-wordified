@@ -198,7 +198,7 @@ mozilla
 :
 {
 Span
-MakeSpan
+Span
 }
 #
 include

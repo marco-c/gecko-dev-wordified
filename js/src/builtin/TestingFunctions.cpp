@@ -1067,13 +1067,13 @@ using
 mozilla
 :
 :
-MakeSpan
+Maybe
 ;
 using
 mozilla
 :
 :
-Maybe
+Span
 ;
 using
 mozilla
@@ -36325,7 +36325,7 @@ toString
 )
 AsWritableChars
 (
-MakeSpan
+Span
 (
 data
 length

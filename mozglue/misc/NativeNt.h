@@ -3985,7 +3985,7 @@ curIatThunk
 return
 Some
 (
-MakeSpan
+Span
 (
 firstIatThunk
 curIatThunk
@@ -4439,7 +4439,7 @@ rva
 return
 Some
 (
-MakeSpan
+Span
 (
 base
 size

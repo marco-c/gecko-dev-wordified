@@ -2437,7 +2437,7 @@ endif
 auto
 s
 =
-MakeSpan
+Span
 (
 &
 arr
@@ -2500,7 +2500,7 @@ nullptr
 auto
 s
 =
-MakeSpan
+Span
 (
 p
 static_cast
@@ -2558,7 +2558,7 @@ workaround_macro
 (
 )
 {
-MakeSpan
+Span
 (
 p
 2
@@ -3103,7 +3103,7 @@ fail_fast
 auto
 s
 =
-MakeSpan
+Span
 (
 &
 arr
@@ -3164,7 +3164,7 @@ s
 auto
 s
 =
-MakeSpan
+Span
 (
 &
 arr
@@ -3213,7 +3213,7 @@ nullptr
 auto
 s
 =
-MakeSpan
+Span
 (
 p
 p
@@ -3829,7 +3829,7 @@ arr3d
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -3863,7 +3863,7 @@ arr
 auto
 s
 =
-MakeSpan
+Span
 (
 &
 (
@@ -3904,7 +3904,7 @@ arr2d
 auto
 s
 =
-MakeSpan
+Span
 (
 &
 arr3d
@@ -4025,7 +4025,7 @@ arr
 auto
 s
 =
-MakeSpan
+Span
 (
 &
 arr
@@ -4590,7 +4590,7 @@ get_an_array
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -4920,7 +4920,7 @@ get_an_array
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -5187,7 +5187,7 @@ endif
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -5759,7 +5759,7 @@ get_an_array
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -6107,7 +6107,7 @@ endif
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -6389,7 +6389,7 @@ endif
 auto
 s
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -7109,7 +7109,7 @@ endif
 auto
 s
 =
-MakeSpan
+Span
 (
 v
 )
@@ -7151,7 +7151,7 @@ data
 auto
 cs
 =
-MakeSpan
+Span
 (
 cv
 )
@@ -7372,7 +7372,7 @@ v
 auto
 s
 =
-MakeSpan
+Span
 (
 v
 )
@@ -7598,7 +7598,7 @@ v
 auto
 s
 =
-MakeSpan
+Span
 (
 v
 )
@@ -7852,7 +7852,7 @@ v
 auto
 s
 =
-MakeSpan
+Span
 (
 v
 )
@@ -8060,7 +8060,7 @@ str
 auto
 s
 =
-MakeSpan
+Span
 (
 str
 )
@@ -8285,7 +8285,7 @@ str
 auto
 s
 =
-MakeSpan
+Span
 (
 str
 )
@@ -8547,7 +8547,7 @@ r
 auto
 s
 =
-MakeSpan
+Span
 (
 r
 )
@@ -8714,7 +8714,7 @@ literal
 error
 cs
 =
-MakeSpan
+Span
 (
 "
 literal
@@ -8788,7 +8788,7 @@ c
 ;
 cs
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -9036,7 +9036,7 @@ c
 ;
 cs
 =
-MakeSpan
+Span
 (
 arr
 )
@@ -9172,7 +9172,7 @@ literal
 error
 cs
 =
-MakeSpan
+Span
 (
 u
 "
@@ -13827,7 +13827,7 @@ uint8_t
 >
 u
 =
-MakeSpan
+Span
 (
 a
 )
@@ -13912,7 +13912,7 @@ uint8_t
 >
 u
 =
-MakeSpan
+Span
 (
 a
 )

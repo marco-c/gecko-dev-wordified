@@ -3192,7 +3192,7 @@ span
 mozilla
 :
 :
-MakeSpan
+Span
 (
 ptr
 len

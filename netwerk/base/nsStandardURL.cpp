@@ -1082,7 +1082,7 @@ char
 >
 span
 =
-MakeSpan
+Span
 (
 aStr
 +
@@ -1193,7 +1193,7 @@ char
 >
 buffer
 =
-MakeSpan
+Span
 (
 bufferArr
 )

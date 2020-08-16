@@ -5945,7 +5945,7 @@ stream
 >
 WriteBytes
 (
-MakeSpan
+Span
 (
 buffer
 .

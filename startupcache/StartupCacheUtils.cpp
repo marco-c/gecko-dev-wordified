@@ -175,7 +175,7 @@ getter_AddRefs
 (
 stringStream
 )
-MakeSpan
+Span
 (
 buffer
 len

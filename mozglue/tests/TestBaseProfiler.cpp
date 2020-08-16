@@ -24385,7 +24385,7 @@ rb
 .
 PutObjects
 (
-MakeSpan
+Span
 (
 intArray
 )
@@ -24428,7 +24428,7 @@ intArray
 auto
 outSpan
 =
-MakeSpan
+Span
 (
 intArrayOut
 )

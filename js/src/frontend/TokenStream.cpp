@@ -475,12 +475,6 @@ using
 mozilla
 :
 :
-MakeSpan
-;
-using
-mozilla
-:
-:
 Maybe
 ;
 using
@@ -488,6 +482,12 @@ mozilla
 :
 :
 PointerRangeSize
+;
+using
+mozilla
+:
+:
+Span
 ;
 using
 mozilla
@@ -15017,7 +15017,7 @@ atom
 =
 atomizeSourceChars
 (
-MakeSpan
+Span
 (
 chars
 length

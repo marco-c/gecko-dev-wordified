@@ -4205,7 +4205,7 @@ expected
 auto
 sample
 =
-MakeSpan
+Span
 (
 data
 length
@@ -4214,7 +4214,7 @@ length
 auto
 alphaSample
 =
-MakeSpan
+Span
 (
 alphaData
 alphaLength

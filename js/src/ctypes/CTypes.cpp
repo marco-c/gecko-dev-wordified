@@ -21999,7 +21999,7 @@ sourceLinear
 mozilla
 :
 :
-MakeSpan
+Span
 (
 *
 charBuffer
@@ -22822,7 +22822,7 @@ sourceLinear
 mozilla
 :
 :
-MakeSpan
+Span
 (
 charBuffer
 nbytes

@@ -2150,7 +2150,7 @@ AnnexB
 :
 ParseNALEntries
 (
-MakeSpan
+Span
 <
 const
 uint8_t

@@ -22190,7 +22190,7 @@ NS_OK
 auto
 data
 =
-MakeSpan
+Span
 (
 aData
 aLength
@@ -22573,7 +22573,7 @@ DecodeInto
 (
 unicodeDecoder
 data
-MakeSpan
+Span
 (
 aBufOut
 bufferLength

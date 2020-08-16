@@ -1308,7 +1308,7 @@ encryptedSpan
 mozilla
 :
 :
-MakeSpan
+Span
 (
 reinterpret_cast
 <
@@ -1485,7 +1485,7 @@ encryptedSpan
 mozilla
 :
 :
-MakeSpan
+Span
 (
 reinterpret_cast
 <

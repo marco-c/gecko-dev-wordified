@@ -4890,7 +4890,7 @@ VPXDecoder
 :
 GetVP9Profile
 (
-MakeSpan
+Span
 (
 aSample
 -

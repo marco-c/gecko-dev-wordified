@@ -142,7 +142,7 @@ span
 mozilla
 :
 :
-MakeSpan
+Span
 (
 actual
 )

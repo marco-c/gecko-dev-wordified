@@ -1122,13 +1122,10 @@ derCertSpanList
 .
 EmplaceBack
 (
-MakeSpan
-(
 rawDerCertList
 .
 LastElement
 (
-)
 )
 )
 ;

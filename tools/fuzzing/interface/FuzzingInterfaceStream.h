@@ -435,7 +435,7 @@ getter_AddRefs
 stream
 )
 \
-MakeSpan
+Span
 (
 (
 const

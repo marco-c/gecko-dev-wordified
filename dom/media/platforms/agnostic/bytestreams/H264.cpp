@@ -8592,7 +8592,7 @@ extraData
 aProfile
 aConstraints
 aLevel
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -8611,7 +8611,7 @@ Length
 (
 )
 )
-MakeSpan
+Span
 <
 const
 uint8_t

@@ -4985,7 +4985,7 @@ WriteBytes
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 mCert
 -

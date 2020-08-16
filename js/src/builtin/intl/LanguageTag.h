@@ -3215,7 +3215,7 @@ set
 mozilla
 :
 :
-MakeSpan
+Span
 (
 locale_
 .
@@ -3248,7 +3248,7 @@ set
 mozilla
 :
 :
-MakeSpan
+Span
 (
 locale_
 .

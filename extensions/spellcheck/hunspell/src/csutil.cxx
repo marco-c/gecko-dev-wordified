@@ -29077,7 +29077,7 @@ destination
 auto
 src1
 =
-MakeSpan
+Span
 (
 &
 source
@@ -29087,7 +29087,7 @@ source
 auto
 dst1
 =
-MakeSpan
+Span
 (
 uni
 )
@@ -29095,7 +29095,7 @@ uni
 auto
 src2
 =
-MakeSpan
+Span
 (
 &
 uniCased
@@ -29105,7 +29105,7 @@ uniCased
 auto
 dst2
 =
-MakeSpan
+Span
 (
 destination
 )

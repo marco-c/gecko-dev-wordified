@@ -251,7 +251,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -364,7 +364,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -431,7 +431,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -507,7 +507,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -595,7 +595,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -867,7 +867,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -980,7 +980,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -1047,7 +1047,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -1121,7 +1121,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -1209,7 +1209,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -1428,7 +1428,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -1487,7 +1487,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -1555,7 +1555,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -1648,7 +1648,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -1707,7 +1707,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -1795,7 +1795,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 8
@@ -1882,7 +1882,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 8
@@ -1974,7 +1974,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2033,7 +2033,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2092,7 +2092,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2150,7 +2150,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2286,7 +2286,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2345,7 +2345,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2413,7 +2413,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -2506,7 +2506,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2565,7 +2565,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -2653,7 +2653,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 8
@@ -2740,7 +2740,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 8
@@ -2832,7 +2832,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2891,7 +2891,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -2950,7 +2950,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -3008,7 +3008,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 4
@@ -3114,7 +3114,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 6
@@ -3323,7 +3323,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -3576,7 +3576,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 6
@@ -3774,7 +3774,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -4024,7 +4024,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 6
@@ -4513,7 +4513,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -5275,7 +5275,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 6
@@ -5732,7 +5732,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -6458,7 +6458,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -6536,7 +6536,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 3
@@ -6781,7 +6781,7 @@ ringBuffer
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -6859,7 +6859,7 @@ ringBuffer
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 3
@@ -7676,7 +7676,7 @@ ringBuffer1
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -7758,7 +7758,7 @@ ringBuffer2
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -7888,7 +7888,7 @@ ringBuffer2
 .
 Read
 (
-MakeSpan
+Span
 (
 out2
 8
@@ -7981,7 +7981,7 @@ ringBuffer1
 .
 Write
 (
-MakeSpan
+Span
 (
 in
 8
@@ -8063,7 +8063,7 @@ ringBuffer2
 .
 Read
 (
-MakeSpan
+Span
 (
 out
 4
@@ -8193,7 +8193,7 @@ ringBuffer2
 .
 Read
 (
-MakeSpan
+Span
 (
 out2
 8

@@ -4374,7 +4374,7 @@ buffer
 auto
 dst
 =
-MakeSpan
+Span
 (
 buffer
 )
@@ -4384,7 +4384,7 @@ src
 =
 AsBytes
 (
-MakeSpan
+Span
 (
 aBuffer
 aLength

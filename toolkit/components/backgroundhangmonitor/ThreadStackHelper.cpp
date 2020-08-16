@@ -2072,7 +2072,7 @@ if
 (
 MaybeAppendDynamicStackFrame
 (
-MakeSpan
+Span
 (
 buffer
 len
@@ -2727,7 +2727,7 @@ if
 (
 MaybeAppendDynamicStackFrame
 (
-MakeSpan
+Span
 (
 buffer
 len

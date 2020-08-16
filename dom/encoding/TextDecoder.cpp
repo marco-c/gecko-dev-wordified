@@ -872,7 +872,7 @@ Length
 }
 Decode
 (
-MakeSpan
+Span
 (
 data
 length

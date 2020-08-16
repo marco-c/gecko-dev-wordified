@@ -707,7 +707,7 @@ remoteDafsa
 mozilla
 :
 :
-MakeSpan
+Span
 (
 remoteDafsaPtr
 size

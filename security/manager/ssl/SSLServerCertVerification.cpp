@@ -6171,8 +6171,7 @@ uint8_t
 >
 certSpan
 =
-MakeSpan
-(
+{
 rootCert
 -
 >
@@ -6185,7 +6184,7 @@ rootCert
 derCert
 .
 len
-)
+}
 ;
 AccumulateTelemetryForRootCA
 (
@@ -6891,8 +6890,7 @@ uint8_t
 >
 certSpan
 =
-MakeSpan
-(
+{
 rootCert
 -
 >
@@ -6905,7 +6903,7 @@ rootCert
 derCert
 .
 len
-)
+}
 ;
 switch
 (

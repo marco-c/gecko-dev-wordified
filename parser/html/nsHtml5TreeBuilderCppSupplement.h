@@ -4694,7 +4694,7 @@ mImportScanner
 .
 Scan
 (
-MakeSpan
+Span
 (
 aBuffer
 aLength

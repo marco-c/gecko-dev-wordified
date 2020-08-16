@@ -339,7 +339,7 @@ NS_ERROR_OUT_OF_MEMORY
 auto
 src
 =
-MakeSpan
+Span
 (
 aSrc
 )
@@ -349,7 +349,7 @@ dst
 =
 AsWritableBytes
 (
-MakeSpan
+Span
 (
 _retval
 )
@@ -864,7 +864,7 @@ NS_ERROR_OUT_OF_MEMORY
 auto
 src
 =
-MakeSpan
+Span
 (
 reinterpret_cast
 <
@@ -1154,7 +1154,7 @@ NS_ERROR_OUT_OF_MEMORY
 auto
 src
 =
-MakeSpan
+Span
 (
 aString
 )
@@ -1162,7 +1162,7 @@ aString
 auto
 dst
 =
-MakeSpan
+Span
 (
 data
 needed

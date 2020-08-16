@@ -32286,7 +32286,7 @@ StringIsASCII
 mozilla
 :
 :
-MakeSpan
+Span
 (
 reinterpret_cast
 <
@@ -40663,7 +40663,7 @@ linear
 mozilla
 :
 :
-MakeSpan
+Span
 (
 *
 utf8Source

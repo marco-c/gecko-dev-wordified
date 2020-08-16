@@ -1061,7 +1061,7 @@ aChannelIndex
 .
 Read
 (
-MakeSpan
+Span
 (
 aOutBuffer
 *
@@ -1332,7 +1332,7 @@ aChannelIndex
 .
 Write
 (
-MakeSpan
+Span
 (
 aInBuffer
 aInFrames

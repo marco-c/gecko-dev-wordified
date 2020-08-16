@@ -1760,7 +1760,7 @@ Span
 return
 Some
 (
-MakeSpan
+Span
 (
 reinterpret_cast
 <

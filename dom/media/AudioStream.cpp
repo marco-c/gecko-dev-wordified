@@ -4030,7 +4030,7 @@ writer
 =
 AudioBufferWriter
 (
-MakeSpan
+Span
 <
 AudioDataValue
 >

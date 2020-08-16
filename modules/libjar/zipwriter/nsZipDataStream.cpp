@@ -689,7 +689,7 @@ getter_AddRefs
 (
 stream
 )
-MakeSpan
+Span
 (
 aBuffer
 aCount

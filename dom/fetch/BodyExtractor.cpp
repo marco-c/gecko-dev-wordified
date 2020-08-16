@@ -313,7 +313,7 @@ getter_AddRefs
 (
 stream
 )
-MakeSpan
+Span
 (
 data
 aDataLength

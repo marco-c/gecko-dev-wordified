@@ -765,7 +765,7 @@ ComputeState
 return
 ParseFromBuffer
 (
-MakeSpan
+Span
 (
 aBuf
 .
@@ -831,7 +831,7 @@ getter_AddRefs
 (
 stream
 )
-MakeSpan
+Span
 (
 reinterpret_cast
 <

@@ -227,7 +227,7 @@ ContainsWhiteSpace
 mozilla
 :
 :
-MakeSpan
+Span
 (
 buf
 +

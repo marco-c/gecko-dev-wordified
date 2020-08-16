@@ -2029,7 +2029,7 @@ byteStream
 mozilla
 :
 :
-MakeSpan
+Span
 (
 (
 const

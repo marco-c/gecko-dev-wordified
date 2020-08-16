@@ -707,7 +707,7 @@ kEncoderBufferSizeInBytes
 auto
 src
 =
-MakeSpan
+Span
 (
 mOutputBuffer
 )
@@ -715,7 +715,7 @@ mOutputBuffer
 auto
 bufferSpan
 =
-MakeSpan
+Span
 (
 buffer
 )

@@ -1127,7 +1127,7 @@ linear
 mozilla
 :
 :
-MakeSpan
+Span
 (
 buffer
 length

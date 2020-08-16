@@ -2367,7 +2367,7 @@ mInnerStream
 mozilla
 :
 :
-MakeSpan
+Span
 (
 bytes
 bytesLen

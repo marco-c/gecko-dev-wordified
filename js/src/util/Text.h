@@ -1598,7 +1598,7 @@ ConvertLatin1toUtf16
 mozilla
 :
 :
-MakeSpan
+Span
 (
 src
 srclen
@@ -1606,7 +1606,7 @@ srclen
 mozilla
 :
 :
-MakeSpan
+Span
 (
 dst
 srclen
@@ -1645,7 +1645,7 @@ AsChars
 mozilla
 :
 :
-MakeSpan
+Span
 (
 src
 srclen
@@ -1654,7 +1654,7 @@ srclen
 mozilla
 :
 :
-MakeSpan
+Span
 (
 dst
 srclen

@@ -23637,7 +23637,7 @@ aOut
 mozilla
 :
 :
-MakeSpan
+Span
 (
 aTArray
 )

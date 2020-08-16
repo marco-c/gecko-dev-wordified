@@ -1383,12 +1383,12 @@ char16_t
 .
 ConvertLatin1toUtf16
 (
-MakeSpan
+Span
 (
 aSource
 aCount
 )
-MakeSpan
+Span
 (
 aDest
 aCount
@@ -2458,7 +2458,7 @@ UTF_8_ENCODING
 auto
 data
 =
-MakeSpan
+Span
 (
 reinterpret_cast
 <

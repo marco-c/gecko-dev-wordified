@@ -15270,7 +15270,7 @@ false
 auto
 source
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -15326,7 +15326,7 @@ block
 auto
 partial
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -15490,7 +15490,7 @@ block
 auto
 buf
 =
-MakeSpan
+Span
 <
 uint8_t
 >
@@ -15805,7 +15805,7 @@ blockOffset
 auto
 data
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -18339,7 +18339,7 @@ return
 auto
 source
 =
-MakeSpan
+Span
 <
 const
 uint8_t
@@ -18886,7 +18886,7 @@ fill
 auto
 buffer
 =
-MakeSpan
+Span
 <
 char
 >
@@ -19563,7 +19563,7 @@ fill
 auto
 buffer
 =
-MakeSpan
+Span
 <
 char
 >

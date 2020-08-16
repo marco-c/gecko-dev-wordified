@@ -4537,7 +4537,7 @@ for
 auto
 chr
 :
-MakeSpan
+Span
 (
 Substring
 (

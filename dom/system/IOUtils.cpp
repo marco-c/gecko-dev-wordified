@@ -1983,7 +1983,7 @@ uint8_t
 :
 CopyFrom
 (
-MakeSpan
+Span
 (
 aData
 .

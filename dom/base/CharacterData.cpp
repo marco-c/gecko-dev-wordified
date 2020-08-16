@@ -1939,7 +1939,7 @@ bidi
 =
 HasRTLChars
 (
-MakeSpan
+Span
 (
 aBuffer
 aLength

@@ -7664,7 +7664,7 @@ activeButtons
 =
 GetGtkHeaderBarButtonLayout
 (
-MakeSpan
+Span
 (
 buttonLayout
 )

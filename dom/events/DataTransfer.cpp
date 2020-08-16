@@ -6420,7 +6420,7 @@ WriteBytes
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 type
 .
@@ -6537,7 +6537,7 @@ stream
 >
 WriteBytes
 (
-MakeSpan
+Span
 (
 reinterpret_cast
 <
@@ -9062,7 +9062,7 @@ getter_AddRefs
 (
 stringStream
 )
-MakeSpan
+Span
 (
 chrs
 checkedLen

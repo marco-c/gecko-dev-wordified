@@ -1262,7 +1262,7 @@ pathStr
 mozilla
 :
 :
-MakeSpan
+Span
 (
 pathBytes
 .

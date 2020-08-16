@@ -178,7 +178,7 @@ mozilla
 :
 {
 Span
-MakeSpan
+Span
 }
 #
 include
@@ -2425,7 +2425,7 @@ fun_length
 mozilla
 :
 :
-MakeSpan
+Span
 (
 smooshScriptData
 .

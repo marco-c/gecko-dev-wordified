@@ -601,7 +601,7 @@ source
 mozilla
 :
 :
-MakeSpan
+Span
 (
 aCorruptData
 aCorruptLength

@@ -286,7 +286,7 @@ aCx
 aSrc
 AsWritableChars
 (
-MakeSpan
+Span
 (
 aDst
 .

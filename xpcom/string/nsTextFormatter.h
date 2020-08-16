@@ -473,7 +473,7 @@ aFmt
 mozilla
 :
 :
-MakeSpan
+Span
 (
 values
 sizeof
@@ -555,7 +555,7 @@ aFmt
 mozilla
 :
 :
-MakeSpan
+Span
 (
 values
 sizeof

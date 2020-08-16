@@ -2296,7 +2296,7 @@ rv
 =
 WriteStreamBytes
 (
-MakeSpan
+Span
 (
 mSniffingBuffer
 .
@@ -3258,7 +3258,7 @@ mSniffingBuffer
 {
 FeedDetector
 (
-MakeSpan
+Span
 (
 mSniffingBuffer
 .
@@ -9744,7 +9744,7 @@ DoDataAvailable
 (
 AsBytes
 (
-MakeSpan
+Span
 (
 aFromSegment
 aCount

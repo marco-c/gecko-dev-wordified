@@ -2897,7 +2897,7 @@ UTF_8_ENCODING
 >
 DecodeWithBOMRemoval
 (
-MakeSpan
+Span
 (
 aInput
 aInputLength

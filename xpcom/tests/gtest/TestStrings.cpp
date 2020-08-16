@@ -390,7 +390,7 @@ using
 mozilla
 :
 :
-MakeSpan
+Span
 ;
 #
 define
@@ -1779,7 +1779,7 @@ mAsciiOneUtf8
 .
 Append
 (
-MakeSpan
+Span
 (
 mExample3Utf8
 )
@@ -1794,7 +1794,7 @@ mAsciiThreeUtf8
 .
 Append
 (
-MakeSpan
+Span
 (
 mExample3Utf8
 )
@@ -1809,7 +1809,7 @@ mAsciiFifteenUtf8
 .
 Append
 (
-MakeSpan
+Span
 (
 mExample3Utf8
 )
@@ -1824,7 +1824,7 @@ mAsciiHundredUtf8
 .
 Append
 (
-MakeSpan
+Span
 (
 mExample3Utf8
 )
@@ -1839,7 +1839,7 @@ mAsciiThousandUtf8
 .
 Append
 (
-MakeSpan
+Span
 (
 mExample3Utf8
 )
@@ -2073,7 +2073,7 @@ mArOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mArUtf16
 )
@@ -2088,7 +2088,7 @@ mDeOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeUtf16
 )
@@ -2103,7 +2103,7 @@ mDeEditOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditUtf16
 )
@@ -2118,7 +2118,7 @@ mRuOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mRuUtf16
 )
@@ -2133,7 +2133,7 @@ mThOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mThUtf16
 )
@@ -2148,7 +2148,7 @@ mJaOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mJaUtf16
 )
@@ -2163,7 +2163,7 @@ mKoOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mKoUtf16
 )
@@ -2178,7 +2178,7 @@ mTrOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mTrUtf16
 )
@@ -2193,7 +2193,7 @@ mViOneUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mViUtf16
 )
@@ -2208,7 +2208,7 @@ mDeEditOneLatin1
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditLatin1
 )
@@ -2223,7 +2223,7 @@ mArThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mArUtf16
 )
@@ -2238,7 +2238,7 @@ mDeThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeUtf16
 )
@@ -2253,7 +2253,7 @@ mDeEditThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditUtf16
 )
@@ -2268,7 +2268,7 @@ mRuThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mRuUtf16
 )
@@ -2283,7 +2283,7 @@ mThThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mThUtf16
 )
@@ -2298,7 +2298,7 @@ mJaThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mJaUtf16
 )
@@ -2313,7 +2313,7 @@ mKoThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mKoUtf16
 )
@@ -2328,7 +2328,7 @@ mTrThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mTrUtf16
 )
@@ -2343,7 +2343,7 @@ mViThreeUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mViUtf16
 )
@@ -2358,7 +2358,7 @@ mDeEditThreeLatin1
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditLatin1
 )
@@ -2373,7 +2373,7 @@ mArFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mArUtf16
 )
@@ -2388,7 +2388,7 @@ mDeFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeUtf16
 )
@@ -2403,7 +2403,7 @@ mDeEditFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditUtf16
 )
@@ -2418,7 +2418,7 @@ mRuFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mRuUtf16
 )
@@ -2433,7 +2433,7 @@ mThFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mThUtf16
 )
@@ -2448,7 +2448,7 @@ mJaFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mJaUtf16
 )
@@ -2463,7 +2463,7 @@ mKoFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mKoUtf16
 )
@@ -2478,7 +2478,7 @@ mTrFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mTrUtf16
 )
@@ -2493,7 +2493,7 @@ mViFifteenUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mViUtf16
 )
@@ -2508,7 +2508,7 @@ mDeEditFifteenLatin1
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditLatin1
 )
@@ -2523,7 +2523,7 @@ mArHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mArUtf16
 )
@@ -2538,7 +2538,7 @@ mDeHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeUtf16
 )
@@ -2553,7 +2553,7 @@ mDeEditHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditUtf16
 )
@@ -2568,7 +2568,7 @@ mRuHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mRuUtf16
 )
@@ -2583,7 +2583,7 @@ mThHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mThUtf16
 )
@@ -2598,7 +2598,7 @@ mJaHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mJaUtf16
 )
@@ -2613,7 +2613,7 @@ mKoHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mKoUtf16
 )
@@ -2628,7 +2628,7 @@ mTrHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mTrUtf16
 )
@@ -2643,7 +2643,7 @@ mViHundredUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mViUtf16
 )
@@ -2658,7 +2658,7 @@ mDeEditHundredLatin1
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditLatin1
 )
@@ -2673,7 +2673,7 @@ mArThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mArUtf16
 )
@@ -2688,7 +2688,7 @@ mDeThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeUtf16
 )
@@ -2703,7 +2703,7 @@ mDeEditThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditUtf16
 )
@@ -2718,7 +2718,7 @@ mRuThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mRuUtf16
 )
@@ -2733,7 +2733,7 @@ mThThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mThUtf16
 )
@@ -2748,7 +2748,7 @@ mJaThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mJaUtf16
 )
@@ -2763,7 +2763,7 @@ mKoThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mKoUtf16
 )
@@ -2778,7 +2778,7 @@ mTrThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mTrUtf16
 )
@@ -2793,7 +2793,7 @@ mViThousandUtf16
 .
 Append
 (
-MakeSpan
+Span
 (
 mViUtf16
 )
@@ -2808,7 +2808,7 @@ mDeEditThousandLatin1
 .
 Append
 (
-MakeSpan
+Span
 (
 mDeEditLatin1
 )

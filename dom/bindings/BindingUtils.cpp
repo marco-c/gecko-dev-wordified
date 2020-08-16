@@ -17124,7 +17124,7 @@ BeginWriting
 auto
 span
 =
-MakeSpan
+Span
 (
 ptr
 len

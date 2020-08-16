@@ -1853,7 +1853,7 @@ uint8_t
 >
 rspView
 =
-MakeSpan
+Span
 (
 aResponse
 )

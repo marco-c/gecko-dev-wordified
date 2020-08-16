@@ -4378,7 +4378,7 @@ entriesSpan
 mozilla
 :
 :
-MakeSpan
+Span
 (
 entries
 .

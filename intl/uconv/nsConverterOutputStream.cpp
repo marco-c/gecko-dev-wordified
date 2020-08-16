@@ -306,7 +306,7 @@ buffer
 auto
 dst
 =
-MakeSpan
+Span
 (
 buffer
 )
@@ -314,7 +314,7 @@ buffer
 auto
 src
 =
-MakeSpan
+Span
 (
 aChars
 aCount
@@ -558,7 +558,7 @@ buffer
 auto
 dst
 =
-MakeSpan
+Span
 (
 buffer
 )

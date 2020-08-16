@@ -1358,7 +1358,7 @@ auto
 &
 sheet
 :
-MakeSpan
+Span
 (
 aAdoptedStyleSheets
 )

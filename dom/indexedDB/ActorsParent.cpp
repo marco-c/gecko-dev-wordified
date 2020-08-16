@@ -6271,7 +6271,7 @@ rv
 =
 ReadCompressedIndexDataValuesFromBlob
 (
-MakeSpan
+Span
 (
 blobData
 blobDataLength
@@ -21047,7 +21047,7 @@ oldIdvOrErr
 =
 ReadOldCompressedIDVFromBlob
 (
-MakeSpan
+Span
 (
 oldBlob
 oldBlobLength
