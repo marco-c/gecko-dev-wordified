@@ -10178,6 +10178,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachBailout
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
