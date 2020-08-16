@@ -3911,6 +3911,15 @@ new
 func
 reg_universe
 memory_moves
+&
+[
+]
+&
+[
+]
+&
+[
+]
 )
 )
 ;
