@@ -3418,14 +3418,6 @@ artifact_mode
 in
 application
         
-self
-.
-instance
-.
-prepare
-(
-)
-        
 #
 This
 doesn
@@ -3540,6 +3532,15 @@ checkout_root
 )
 =
 r
+            
+self
+.
+instance
+.
+validate_environment
+(
+checkout_root
+)
             
 have_clone
 =
@@ -3717,6 +3718,15 @@ checkout_root
 )
 =
 r
+        
+self
+.
+instance
+.
+validate_environment
+(
+checkout_root
+)
         
 #
 If
