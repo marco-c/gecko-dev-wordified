@@ -46090,7 +46090,7 @@ bool
 CacheIRCompiler
 :
 :
-emitCallProxyHasPropResult
+emitProxyHasPropResult
 (
 ObjOperandId
 objId
