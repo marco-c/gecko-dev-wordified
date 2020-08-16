@@ -4981,6 +4981,11 @@ pdf
 ;
 if
 (
+aDownload
+.
+handleInternally
+|
+|
 (
 !
 useSystemDefault
@@ -5003,13 +5008,6 @@ default
 system
 viewer
 .
-aDownload
-.
-handleInternally
-)
-|
-|
-(
 mimeInfo
 &
 &
