@@ -9987,6 +9987,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachArrayIteratorPrototypeOptimizable
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachObjectCreate
 (
 HandleFunction
