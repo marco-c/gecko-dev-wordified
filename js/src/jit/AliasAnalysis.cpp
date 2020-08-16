@@ -883,6 +883,15 @@ MDefinition
 Opcode
 :
 :
+AddAndStoreSlot
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 ArrayLength
 :
 case
