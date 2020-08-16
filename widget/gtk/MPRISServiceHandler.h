@@ -1241,6 +1241,15 @@ aSupported
 )
 const
 ;
+bool
+EmitPropertiesChangedSignal
+(
+GVariant
+*
+aParameters
+)
+const
+;
 }
 ;
 }
