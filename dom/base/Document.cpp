@@ -85095,7 +85095,7 @@ aElement
 true
 )
 ;
-NotifyFullScreenChangedForMediaControl
+NotifyFullScreenChangedForMediaElement
 (
 aElement
 true
