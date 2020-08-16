@@ -2206,15 +2206,9 @@ msgId
 COMPATIBILITY_TOOLTIP_MESSAGE
 [
 "
-css
--
-compatibility
--
 experimental
 -
 supported
--
-message
 "
 ]
 ;
