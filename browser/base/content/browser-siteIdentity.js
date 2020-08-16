@@ -420,6 +420,8 @@ sessionrestore
 support
 |
 welcomeback
+|
+pioneer
 )
 (
 ?
