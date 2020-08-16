@@ -1607,6 +1607,7 @@ allocNurseryStrings
 )
 {
 auto
+*
 str
 =
 static_cast
@@ -2230,6 +2231,7 @@ allocNurseryBigInts
 )
 {
 auto
+*
 bi
 =
 static_cast
@@ -2743,7 +2745,7 @@ free
 list
 span
 .
-T
+auto
 *
 t
 =
@@ -5968,7 +5970,7 @@ GCRuntime
 gc
 )
 {
-Chunk
+auto
 *
 chunk
 =

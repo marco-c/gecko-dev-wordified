@@ -602,6 +602,7 @@ name
 )
 {
 auto
+*
 typedList
 =
 reinterpret_cast

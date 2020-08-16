@@ -723,7 +723,7 @@ size
 ChunkSize
 )
 ;
-uint8_t
+auto
 *
 start
 =
@@ -948,6 +948,7 @@ gc
 )
 {
 auto
+*
 chunk
 =
 reinterpret_cast
@@ -2662,6 +2663,7 @@ isProxy
 )
 ;
 auto
+*
 obj
 =
 reinterpret_cast
@@ -4422,8 +4424,7 @@ void
 ptr
 )
 {
-volatile
-uint64_t
+auto
 *
 vPtr
 =
@@ -4521,7 +4522,7 @@ stale
 pointers
 now
 .
-void
+auto
 *
 buffer
 =
@@ -8763,7 +8764,7 @@ cell
 cellsWithUid_
 )
 {
-JSObject
+auto
 *
 obj
 =
