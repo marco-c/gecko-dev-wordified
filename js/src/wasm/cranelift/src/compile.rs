@@ -191,7 +191,7 @@ binemit
 Addend
 CodeInfo
 CodeOffset
-NullStackmapSink
+NullStackMapSink
 Reloc
 RelocSink
 TrapSink
@@ -1424,7 +1424,7 @@ self
 trap_relocs
 &
 mut
-NullStackmapSink
+NullStackMapSink
 {
 }
 )
@@ -1551,7 +1551,7 @@ mach_stackmaps
 =
 mach_buf
 .
-stackmaps
+stack_maps
 (
 )
 ;
@@ -1561,7 +1561,7 @@ MachStackMap
 {
 offset_end
 ref
-stackmap
+stack_map
 .
 .
 }
@@ -1590,7 +1590,7 @@ offset
 }
 "
 offset_end
-stackmap
+stack_map
 )
 ;
 stackmaps
@@ -1605,7 +1605,7 @@ inbound_args_size
 /
 0
 offset_end
-stackmap
+stack_map
 )
 ;
 }
