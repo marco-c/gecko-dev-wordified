@@ -10143,6 +10143,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachAtomicsLoad
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
