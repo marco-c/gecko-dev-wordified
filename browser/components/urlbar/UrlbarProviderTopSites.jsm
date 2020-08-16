@@ -480,7 +480,6 @@ queryContext
 )
 {
 return
-(
 !
 queryContext
 .
@@ -491,13 +490,6 @@ restrictSource
 queryContext
 .
 searchString
-&
-&
-!
-queryContext
-.
-searchMode
-)
 ;
 }
 /
