@@ -223,24 +223,6 @@ nightly
 "
     
 "
-https
-:
-/
-/
-mozilla
--
-nightly
--
-updates
-.
-s3
-.
-amazonaws
-.
-com
-"
-    
-"
 http
 :
 /
