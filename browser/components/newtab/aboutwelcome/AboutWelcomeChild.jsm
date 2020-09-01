@@ -1281,7 +1281,7 @@ try
 Note
 that
 we
-speciifically
+specifically
 don
 '
 t
@@ -1321,7 +1321,7 @@ ExperimentAPI
 getExperiment
 (
 {
-group
+featureId
 :
 "
 aboutwelcome
