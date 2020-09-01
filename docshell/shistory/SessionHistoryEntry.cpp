@@ -843,16 +843,6 @@ aContentType
 )
 ;
 }
-/
-/
-FIXME
-Pass
-the
-correct
-ID
-!
-!
-!
 return
 SharedState
 (
@@ -861,7 +851,6 @@ MakeUnique
 SHEntrySharedState
 >
 (
-0
 aTriggeringPrincipal
 aPrincipalToInherit
 aPartitionedPrincipalToInherit
