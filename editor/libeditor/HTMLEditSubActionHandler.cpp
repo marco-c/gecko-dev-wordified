@@ -15996,6 +15996,14 @@ No
 .
 *
 /
+enum
+class
+SelectionWasCollapsed
+{
+Yes
+No
+}
+;
 [
 [
 nodiscard
@@ -17577,7 +17585,7 @@ aStripWrappers
 AutoRangeArray
 &
 aRangesToDelete
-HTMLEditor
+AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
@@ -17957,7 +17965,7 @@ aStripWrappers
 AutoRangeArray
 &
 aRangesToDelete
-HTMLEditor
+AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
@@ -18204,7 +18212,7 @@ aHTMLEditor
 nsRange
 &
 aRange
-HTMLEditor
+AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
@@ -19447,6 +19455,9 @@ selection
 not
 collapsed
 .
+AutoDeleteRangesHandler
+:
+:
 SelectionWasCollapsed
 selectionWasCollapsed
 =
@@ -19456,10 +19467,16 @@ IsCollapsed
 (
 )
 ?
+AutoDeleteRangesHandler
+:
+:
 SelectionWasCollapsed
 :
 :
 Yes
+:
+AutoDeleteRangesHandler
+:
 :
 SelectionWasCollapsed
 :
@@ -19471,6 +19488,9 @@ if
 selectionWasCollapsed
 =
 =
+AutoDeleteRangesHandler
+:
+:
 SelectionWasCollapsed
 :
 :
@@ -27259,7 +27279,7 @@ aHTMLEditor
 nsRange
 &
 aRange
-HTMLEditor
+AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
@@ -27589,7 +27609,7 @@ join
 aSelectionWasCollapsed
 =
 =
-HTMLEditor
+AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
@@ -27960,7 +27980,7 @@ aStripWrappers
 AutoRangeArray
 &
 aRangesToDelete
-HTMLEditor
+AutoDeleteRangesHandler
 :
 :
 SelectionWasCollapsed
