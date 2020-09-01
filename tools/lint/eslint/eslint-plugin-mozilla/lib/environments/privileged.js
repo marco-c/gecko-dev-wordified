@@ -1019,9 +1019,6 @@ false
 IntersectionObserverEntry
 :
 false
-IOUtils
-:
-false
 JSProcessActorChild
 :
 false

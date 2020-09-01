@@ -32,6 +32,12 @@ use
 strict
 "
 ;
+/
+*
+global
+IOUtils
+*
+/
 const
 TEST_ROOT
 =
