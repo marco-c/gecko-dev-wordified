@@ -2978,7 +2978,9 @@ definitionlist
 "
 ATK_ROLE_LIST
 NSAccessibilityListRole
-NSAccessibilityDefinitionListSubrole
+"
+AXDescriptionList
+"
 ROLE_SYSTEM_LIST
 ROLE_SYSTEM_LIST
 java
@@ -3021,7 +3023,7 @@ definition
 ATK_ROLE_PARAGRAPH
 NSAccessibilityGroupRole
 "
-AXDefinition
+AXDescription
 "
 USE_ROLE_STRING
 IA2_ROLE_PARAGRAPH
