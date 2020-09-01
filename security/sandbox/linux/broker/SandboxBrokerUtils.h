@@ -222,6 +222,10 @@ define
 lstatsyscall
 lstat64
 #
+define
+fstatsyscall
+fstat64
+#
 elif
 defined
 (
@@ -240,6 +244,10 @@ stat
 define
 lstatsyscall
 lstat
+#
+define
+fstatsyscall
+fstat
 #
 else
 #
