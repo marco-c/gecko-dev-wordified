@@ -11630,6 +11630,17 @@ by
 the
 call
 .
+LogFrameRequestCallback
+:
+:
+Run
+run
+(
+callback
+.
+mCallback
+)
+;
 MOZ_KnownLive
 (
 callback

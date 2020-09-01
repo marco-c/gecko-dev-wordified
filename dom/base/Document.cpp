@@ -8046,6 +8046,14 @@ mHandle
 aHandle
 )
 {
+LogFrameRequestCallback
+:
+:
+LogDispatch
+(
+mCallback
+)
+;
 }
 Document
 :
