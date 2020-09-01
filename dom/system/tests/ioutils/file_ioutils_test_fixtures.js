@@ -3,12 +3,6 @@
 Utility
 functions
 .
-/
-*
-global
-IOUtils
-*
-/
 Uint8Array
 .
 prototype
