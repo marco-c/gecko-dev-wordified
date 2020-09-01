@@ -385,6 +385,13 @@ login
 )
 ;
 }
+let
+processedPromise
+=
+promiseFormsProcessedInChildFrame
+(
+)
+;
 iframe
 .
 src
@@ -392,9 +399,7 @@ src
 url
 ;
 await
-promiseFormsProcessed
-(
-)
+processedPromise
 ;
 }
 add_task
