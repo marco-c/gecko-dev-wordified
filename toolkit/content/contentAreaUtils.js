@@ -2830,6 +2830,11 @@ persist
 persistArgs
 .
 isPrivate
+Ci
+.
+nsITransfer
+.
+DOWNLOAD_ACCEPTABLE
 )
 ;
 persist
