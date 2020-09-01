@@ -178,14 +178,6 @@ mozilla
 .
 geckoview
 .
-MediaSession
-import
-org
-.
-mozilla
-.
-geckoview
-.
 WebRequestError
 import
 android
@@ -236,7 +228,6 @@ ContentBlockingDelegate
 ContentDelegate
 HistoryDelegate
 MediaDelegate
-MediaSessionDelegate
 NavigationDelegate
 PermissionDelegate
 ProgressDelegate
@@ -330,14 +321,6 @@ HistoryDelegate
 GeckoSession
 .
 HistoryDelegate
-{
-}
-interface
-MediaSessionDelegate
-:
-MediaSession
-.
-Delegate
 {
 }
 interface

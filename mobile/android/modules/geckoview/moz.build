@@ -160,11 +160,6 @@ GeckoViewMedia
 jsm
 '
 '
-GeckoViewMediaControl
-.
-jsm
-'
-'
 GeckoViewModule
 .
 jsm
@@ -226,11 +221,6 @@ jsm
 '
 '
 LoadURIDelegate
-.
-jsm
-'
-'
-MediaUtils
 .
 jsm
 '
