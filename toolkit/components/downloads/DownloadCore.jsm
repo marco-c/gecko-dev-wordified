@@ -10883,14 +10883,6 @@ PotentiallyUnwanted
 ;
 DownloadError
 .
-BLOCK_VERDICT_INSECURE
-=
-"
-Insecure
-"
-;
-DownloadError
-.
 BLOCK_VERDICT_UNCOMMON
 =
 "
