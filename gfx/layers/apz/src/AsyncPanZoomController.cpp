@@ -29538,7 +29538,7 @@ IsApzForceDisabled
 return
 mLastContentPaintMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 ;
@@ -34120,7 +34120,7 @@ ToString
 (
 aLayerMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -34138,7 +34138,7 @@ ClampAndSetScrollOffset
 (
 aLayerMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )

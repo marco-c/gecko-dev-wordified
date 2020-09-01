@@ -27780,7 +27780,7 @@ GetEffectiveScrollOffset
 /
 mLastContentPaintMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -27829,7 +27829,7 @@ TopLeft
 -
 aMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -28257,7 +28257,7 @@ TopLeft
 -
 aMetrics
 .
-GetVisualViewportOffset
+GetVisualScrollOffset
 (
 )
 )
