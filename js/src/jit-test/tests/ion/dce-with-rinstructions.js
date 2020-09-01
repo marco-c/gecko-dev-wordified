@@ -60,9 +60,16 @@ i
 var
 warp
 =
-isWarpEnabled
+getJitCompilerOptions
 (
 )
+[
+"
+warp
+.
+enable
+"
+]
 ;
 /
 /
