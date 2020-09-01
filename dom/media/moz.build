@@ -677,7 +677,7 @@ ChannelMediaDecoder
 h
 '
 '
-CrossGraphTrack
+CrossGraphPort
 .
 h
 '
@@ -1308,7 +1308,7 @@ CloneableWithRangeMediaResource
 cpp
 '
 '
-CrossGraphTrack
+CrossGraphPort
 .
 cpp
 '

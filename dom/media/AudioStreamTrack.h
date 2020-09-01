@@ -116,7 +116,7 @@ h
 #
 include
 "
-CrossGraphTrack
+CrossGraphPort
 .
 h
 "
@@ -301,7 +301,7 @@ private
 /
 /
 Track
-CrossGraphManager
+CrossGraphPort
 per
 AudioOutput
 key
@@ -348,7 +348,7 @@ void
 >
 UniquePtr
 <
-CrossGraphManager
+CrossGraphPort
 >
 >
 mCrossGraphs
