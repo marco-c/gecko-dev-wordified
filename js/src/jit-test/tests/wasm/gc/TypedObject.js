@@ -326,7 +326,7 @@ field
 mut
 (
 ref
-opt
+null
 q
 )
 )
@@ -572,7 +572,7 @@ field
 mut
 (
 ref
-opt
+null
 q
 )
 )
@@ -1029,7 +1029,7 @@ narrow
 externref
 (
 ref
-opt
+null
 q
 )
 (
@@ -1063,7 +1063,7 @@ narrow
 externref
 (
 ref
-opt
+null
 p
 )
 (

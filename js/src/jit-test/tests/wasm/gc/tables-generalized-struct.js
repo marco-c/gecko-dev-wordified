@@ -53,7 +53,7 @@ set
 with
 (
 ref
-opt
+null
 T
 )
 -
@@ -204,7 +204,7 @@ narrow
 externref
 (
 ref
-opt
+null
 dummy
 )
 (

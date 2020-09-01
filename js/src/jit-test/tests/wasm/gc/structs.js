@@ -1542,7 +1542,7 @@ i32
 field
 (
 ref
-opt
+null
 node
 )
 )
@@ -1570,7 +1570,7 @@ local
 list
 (
 ref
-opt
+null
 node
 )
 )
@@ -1836,7 +1836,7 @@ externref
 local
 (
 ref
-opt
+null
 big
 )
 )
@@ -1852,7 +1852,7 @@ narrow
 externref
 (
 ref
-opt
+null
 big
 )
 (
@@ -1909,7 +1909,7 @@ narrow
 externref
 (
 ref
-opt
+null
 big
 )
 (
@@ -1963,7 +1963,7 @@ narrow
 externref
 (
 ref
-opt
+null
 big
 )
 (
@@ -2016,7 +2016,7 @@ narrow
 externref
 (
 ref
-opt
+null
 big
 )
 (
@@ -2293,7 +2293,7 @@ g
 mut
 (
 ref
-opt
+null
 big
 )
 )
@@ -2855,7 +2855,7 @@ i32
 field
 (
 ref
-opt
+null
 cons
 )
 )
@@ -2868,7 +2868,7 @@ g
 mut
 (
 ref
-opt
+null
 cons
 )
 )
@@ -3235,7 +3235,7 @@ narrow
 externref
 (
 ref
-opt
+null
 Node
 )
 (
@@ -3347,7 +3347,7 @@ param
 p
 (
 ref
-opt
+null
 s
 )
 )
@@ -3377,7 +3377,7 @@ param
 p
 (
 ref
-opt
+null
 s
 )
 )
@@ -3933,7 +3933,7 @@ f
 result
 (
 ref
-opt
+null
 p
 )
 )

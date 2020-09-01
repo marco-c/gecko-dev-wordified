@@ -92,7 +92,7 @@ left
 mut
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -104,7 +104,7 @@ right
 mut
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -118,7 +118,7 @@ g
 mut
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -172,7 +172,7 @@ i32
 result
 (
 ref
-opt
+null
 wabbit
 )
 )

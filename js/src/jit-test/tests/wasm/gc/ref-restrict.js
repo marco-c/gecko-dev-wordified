@@ -487,7 +487,7 @@ f
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -588,7 +588,7 @@ f
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -698,7 +698,7 @@ func
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -803,7 +803,7 @@ i32
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -914,7 +914,7 @@ global
 mut
 (
 ref
-opt
+null
 box
 )
 )
@@ -968,7 +968,7 @@ g
 global
 (
 ref
-opt
+null
 box
 )
 )
@@ -1100,7 +1100,7 @@ box
 mut
 (
 ref
-opt
+null
 box
 )
 )
@@ -1159,7 +1159,7 @@ box
 )
 (
 ref
-opt
+null
 box
 )
 (
@@ -1316,7 +1316,7 @@ f1
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -1388,7 +1388,7 @@ f1
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -1579,7 +1579,7 @@ f1
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -1654,7 +1654,7 @@ f1
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -1833,7 +1833,7 @@ func
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -1922,7 +1922,7 @@ func
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -1949,7 +1949,7 @@ i32
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -2155,7 +2155,7 @@ func
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -2247,7 +2247,7 @@ func
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -2277,7 +2277,7 @@ i32
 result
 (
 ref
-opt
+null
 box
 )
 )
@@ -2484,7 +2484,7 @@ func
 param
 (
 ref
-opt
+null
 box
 )
 )
@@ -2516,7 +2516,7 @@ f1
 param
 (
 ref
-opt
+null
 box
 )
 )
