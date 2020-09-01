@@ -138,12 +138,12 @@ root
 ignore
 =
 (
-'
+"
 _staging
-'
-'
+"
+"
 _venv
-'
+"
 )
 )
     
@@ -152,10 +152,10 @@ finder
 .
 find
 (
-'
+"
 *
 *
-'
+"
 )
 def
 create_tarball
@@ -198,9 +198,9 @@ with
 open
 (
 filename
-'
+"
 wb
-'
+"
 )
 as
 fh
@@ -208,6 +208,7 @@ fh
         
 create_tar_gz_from_files
 (
+            
 fh
 files
 filename
@@ -220,8 +221,8 @@ basename
 (
 filename
 )
-                                 
 compresslevel
 =
 6
+        
 )
