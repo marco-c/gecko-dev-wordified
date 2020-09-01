@@ -3848,11 +3848,8 @@ static
 nt
 :
 :
-LoaderAPI
-:
-:
-InitDllBlocklistOOPFnPtr
-gInitDllBlocklistOOPFnPtr
+WinLauncherFunctions
+gWinLauncherFunctions
 ;
 MFBT_API
 void
@@ -3878,8 +3875,6 @@ sInitFlags
 =
 aInitFlags
 ;
-gInitDllBlocklistOOPFnPtr
-=
 glue
 :
 :
@@ -3890,6 +3885,8 @@ StaticInit
 (
 &
 gMozglueLoaderObserver
+&
+gWinLauncherFunctions
 )
 ;
 #
@@ -4996,9 +4993,9 @@ GetAuthenticode
 aSvc
 -
 >
-SetInitDllBlocklistOOPFnPtr
+SetWinLauncherFunctions
 (
-gInitDllBlocklistOOPFnPtr
+gWinLauncherFunctions
 )
 ;
 gMozglueLoaderObserver
