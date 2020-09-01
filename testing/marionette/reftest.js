@@ -1013,7 +1013,7 @@ blank
 "
 loadEventExpected
 :
-false
+true
 }
 )
 ;
