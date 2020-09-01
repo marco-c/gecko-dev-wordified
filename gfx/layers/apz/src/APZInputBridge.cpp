@@ -292,7 +292,7 @@ mStatus
 (
 nsEventStatus_eIgnore
 )
-mTargetIsRoot
+mHandledByRootApzc
 (
 false
 )
@@ -302,10 +302,6 @@ InputBlockState
 :
 :
 NO_BLOCK_ID
-)
-mHitRegionWithApzAwareListeners
-(
-false
 )
 {
 }
