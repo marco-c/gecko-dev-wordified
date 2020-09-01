@@ -628,6 +628,17 @@ x86_64
 '
 )
 :
+ASFLAGS
++
+=
+[
+'
+-
+Dprivate_prefix
+=
+dav1d
+'
+]
 SOURCES
 +
 =
