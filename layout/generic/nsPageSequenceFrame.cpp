@@ -3305,7 +3305,7 @@ mFromPageNum
 mPageData
 -
 >
-mTotNumPages
+mRawNumPages
 )
 {
 return

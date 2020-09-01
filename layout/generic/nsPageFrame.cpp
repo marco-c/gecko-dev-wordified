@@ -1605,7 +1605,7 @@ mPageNum
 mPD
 -
 >
-mTotNumPages
+mRawNumPages
 )
 ;
 aNewStr
@@ -1812,7 +1812,7 @@ get
 mPD
 -
 >
-mTotNumPages
+mRawNumPages
 )
 ;
 aNewStr

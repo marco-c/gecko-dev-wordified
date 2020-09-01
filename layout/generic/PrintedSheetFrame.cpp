@@ -738,7 +738,7 @@ pages
 mPD
 -
 >
-mTotNumPages
+mRawNumPages
 =
 pageFrame
 -
