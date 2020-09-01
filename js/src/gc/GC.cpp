@@ -53743,7 +53743,7 @@ TraceKind
 String
 )
 ;
-break
+return
 ;
 case
 ValueType
@@ -53770,7 +53770,7 @@ TraceKind
 Object
 )
 ;
-break
+return
 ;
 case
 ValueType
@@ -53796,7 +53796,7 @@ TraceKind
 Symbol
 )
 ;
-break
+return
 ;
 case
 ValueType
@@ -53822,7 +53822,7 @@ TraceKind
 BigInt
 )
 ;
-break
+return
 ;
 case
 ValueType
@@ -53851,7 +53851,7 @@ getTraceKind
 )
 )
 ;
-break
+return
 ;
 case
 ValueType
@@ -53914,10 +53914,15 @@ TraceKind
 Null
 )
 ;
-break
+return
 ;
 }
 }
+ReportBadValueTypeAndCrash
+(
+v
+)
+;
 }
 JS
 :
