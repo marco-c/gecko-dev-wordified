@@ -533,15 +533,14 @@ virtual
 nsNSSCertificate
 (
 )
+=
+default
 ;
 mozilla
 :
 :
 UniqueCERTCertificate
 mCert
-;
-bool
-mPermDelete
 ;
 uint32_t
 mCertType
