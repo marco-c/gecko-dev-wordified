@@ -286,15 +286,15 @@ func
 mkCons
 (
 param
-anyref
+externref
 )
 (
 param
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 )
 )
@@ -310,7 +310,7 @@ func
 mkBoxedInt
 (
 result
-anyref
+externref
 )
 )
 )
@@ -319,7 +319,7 @@ func
 mkNil
 (
 result
-anyref
+externref
 )
 ref
 .
@@ -332,7 +332,7 @@ mkConsIgnoringScalar
 (
 param
 hd
-anyref
+externref
 )
 (
 param
@@ -341,11 +341,11 @@ i32
 (
 param
 tl
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 local
@@ -373,7 +373,7 @@ mkList
 )
 (
 result
-anyref
+externref
 )
 call
 mkList20
@@ -383,7 +383,7 @@ func
 mkList20
 (
 result
-anyref
+externref
 )
 ;
 ;

@@ -38,7 +38,7 @@ value
 through
 a
 wasm
-anyref
+externref
 is
 a
 pair
@@ -73,7 +73,7 @@ axes
 global
 variables
 see
-anyref
+externref
 -
 boxing
 .
@@ -83,7 +83,7 @@ js
 -
 tables
 see
-anyref
+externref
 -
 boxing
 .
@@ -96,7 +96,7 @@ parameters
 and
 returns
 see
-anyref
+externref
 -
 boxing
 .
@@ -124,7 +124,7 @@ we
 construct
 with
 the
-anyref
+externref
 type
 ;
 this
@@ -173,7 +173,7 @@ status
 Struct
 fields
 of
-anyref
+externref
 type
 can
 receive
@@ -341,7 +341,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -357,11 +357,11 @@ make
 (
 param
 v
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -438,7 +438,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -453,7 +453,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -479,11 +479,11 @@ get
 (
 param
 o
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -495,7 +495,7 @@ S
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -582,7 +582,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -597,7 +597,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -623,11 +623,11 @@ get
 (
 param
 o
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -639,7 +639,7 @@ S
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -843,7 +843,7 @@ default
 value
 of
 an
-anyref
+externref
 field
 should
 be
@@ -869,7 +869,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -884,7 +884,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -949,7 +949,7 @@ is
 /
 representable
 as
-AnyRef
+ExternRef
 .
 {
 let
@@ -971,7 +971,7 @@ S
 x
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -986,7 +986,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -1108,7 +1108,7 @@ Try
 to
 make
 sure
-anyrefs
+externrefs
 are
 properly
 traced
@@ -1129,7 +1129,7 @@ map
 >
 (
 field
-anyref
+externref
 )
 )
 .
@@ -1159,7 +1159,7 @@ param
 {
 i
 }
-anyref
+externref
 )
 )
 .
@@ -1228,7 +1228,7 @@ params
 }
 (
 result
-anyref
+externref
 )
 (
 struct

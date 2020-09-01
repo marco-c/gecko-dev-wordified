@@ -67,7 +67,7 @@ module
 global
 (
 mut
-anyref
+externref
 )
 (
 ref
@@ -137,7 +137,7 @@ global
 g
 (
 mut
-anyref
+externref
 )
 (
 ref
@@ -156,7 +156,7 @@ set
 )
 (
 param
-anyref
+externref
 )
 local
 .
@@ -177,7 +177,7 @@ get
 )
 (
 result
-anyref
+externref
 )
 global
 .
@@ -207,7 +207,7 @@ g
 )
 (
 mut
-anyref
+externref
 )
 (
 ref
@@ -226,7 +226,7 @@ set
 )
 (
 param
-anyref
+externref
 )
 local
 .
@@ -247,7 +247,7 @@ get
 )
 (
 result
-anyref
+externref
 )
 global
 .

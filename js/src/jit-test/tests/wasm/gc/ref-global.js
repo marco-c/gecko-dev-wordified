@@ -169,7 +169,7 @@ get
 )
 (
 result
-anyref
+externref
 )
 (
 global
@@ -633,7 +633,7 @@ Global
 value
 of
 type
-anyref
+externref
 for
 initializer
 from
@@ -667,13 +667,13 @@ g
 (
 global
 g
-anyref
+externref
 )
 )
 (
 global
 glob
-anyref
+externref
 (
 global
 .
@@ -691,7 +691,7 @@ get
 )
 (
 result
-anyref
+externref
 )
 (
 global

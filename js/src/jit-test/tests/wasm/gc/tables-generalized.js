@@ -106,7 +106,7 @@ table
 -
 of
 -
-anyref
+externref
 new
 WebAssembly
 .
@@ -119,7 +119,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 )
 )
@@ -134,7 +134,7 @@ table
 -
 of
 -
-anyref
+externref
 /
 /
 JS
@@ -144,7 +144,7 @@ table
 -
 of
 -
-anyref
+externref
 new
 WebAssembly
 .
@@ -171,7 +171,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 )
 )
@@ -227,7 +227,7 @@ t
 (
 table
 10
-anyref
+externref
 )
 )
 )
@@ -268,7 +268,7 @@ table
 -
 of
 -
-anyref
+externref
 initial
 values
 shall
@@ -301,7 +301,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 )
 )
@@ -394,7 +394,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 )
 )
@@ -509,7 +509,7 @@ copy
 between
 tables
 of
-anyref
+externref
 (
 currently
 source
@@ -549,7 +549,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 (
 func
@@ -805,7 +805,7 @@ funcref
 to
 table
 (
-anyref
+externref
 )
 should
 not
@@ -834,7 +834,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 (
 func
@@ -941,7 +941,7 @@ copy
 from
 table
 (
-anyref
+externref
 )
 to
 table
@@ -974,7 +974,7 @@ funcref
 (
 table
 10
-anyref
+externref
 )
 (
 func
@@ -1041,7 +1041,7 @@ t
 target
 tables
 of
-anyref
+externref
 assertErrorMessage
 (
 (
@@ -1080,7 +1080,7 @@ t
 "
 )
 10
-anyref
+externref
 )
 (
 elem
@@ -1130,7 +1130,7 @@ Wasm
 Element
 segments
 of
-anyref
+externref
 can
 '
 t
@@ -1173,7 +1173,7 @@ i32
 const
 0
 )
-anyref
+externref
 (
 ref
 .
@@ -1217,7 +1217,7 @@ table
 -
 of
 -
-anyref
+externref
 is
 not
 allowed
@@ -1261,7 +1261,7 @@ const
 (
 table
 10
-anyref
+externref
 )
 (
 elem
@@ -1339,7 +1339,7 @@ segment
 has
 /
 /
-anyref
+externref
 .
 assertErrorMessage
 (
@@ -1363,7 +1363,7 @@ funcref
 )
 (
 elem
-anyref
+externref
 (
 ref
 .
@@ -1457,7 +1457,7 @@ t
 (
 table
 10
-anyref
+externref
 )
 )
 )
@@ -1508,7 +1508,7 @@ table
 -
 of
 -
-anyref
+externref
 assertErrorMessage
 (
 (
@@ -1527,7 +1527,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 (
 type
@@ -1798,7 +1798,7 @@ have
 a
 better
 wrapped
-anyref
+externref
 this
 will
 change
@@ -2188,7 +2188,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 (
 func
@@ -2204,7 +2204,7 @@ f64
 )
 (
 result
-anyref
+externref
 )
 (
 table
@@ -2314,7 +2314,7 @@ bounds
 with
 i32
 x
-anyref
+externref
 -
 works
 no
@@ -2584,7 +2584,7 @@ table
 funcref
 )
 with
-anyref
+externref
 value
 should
 fail
@@ -2628,7 +2628,7 @@ i32
 )
 (
 param
-anyref
+externref
 )
 (
 table
@@ -2699,7 +2699,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 (
 func
@@ -2774,7 +2774,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 (
 func
@@ -2918,7 +2918,7 @@ f
 )
 (
 param
-anyref
+externref
 )
 (
 table
@@ -3436,7 +3436,7 @@ table
 funcref
 )
 with
-anyref
+externref
 initializer
 should
 fail
@@ -3481,7 +3481,7 @@ i32
 )
 (
 param
-anyref
+externref
 )
 (
 result
@@ -3546,7 +3546,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 (
 func
@@ -3669,7 +3669,7 @@ module
 (
 table
 10
-anyref
+externref
 )
 (
 func
@@ -3798,7 +3798,7 @@ size
 on
 table
 of
-anyref
+externref
 for
 (
 let
@@ -3874,7 +3874,7 @@ visibility
 }
 10
 20
-anyref
+externref
 )
 (
 func

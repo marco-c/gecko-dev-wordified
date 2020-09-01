@@ -130,7 +130,7 @@ of
 Ref
 type
 .
-Anyref
+ExternRef
 is
 OK
 though
@@ -359,7 +359,7 @@ and
 globals
 that
 use
-anyref
+externref
 and
 by
 using
@@ -449,7 +449,7 @@ ref
 type
 parameter
 but
-anyref
+externref
 is
 OK
 .
@@ -526,7 +526,7 @@ f
 )
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -550,7 +550,7 @@ return
 ref
 result
 but
-anyref
+externref
 is
 OK
 .
@@ -631,7 +631,7 @@ f
 )
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -658,7 +658,7 @@ take
 ref
 parameter
 but
-anyref
+externref
 is
 OK
 .
@@ -737,7 +737,7 @@ f
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -759,7 +759,7 @@ return
 ref
 type
 but
-anyref
+externref
 is
 OK
 .
@@ -846,7 +846,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 )
 )
@@ -874,7 +874,7 @@ of
 mutability
 )
 though
-anyref
+externref
 is
 OK
 .
@@ -1006,7 +1006,7 @@ g
 global
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -1034,7 +1034,7 @@ g
 "
 (
 global
-anyref
+externref
 )
 )
 )
@@ -1061,7 +1061,7 @@ of
 mutability
 )
 though
-anyref
+externref
 is
 OK
 .
@@ -1202,7 +1202,7 @@ box
 )
 (
 mut
-anyref
+externref
 )
 (
 ref
@@ -1234,7 +1234,7 @@ export
 box
 "
 )
-anyref
+externref
 (
 ref
 .
@@ -1262,7 +1262,7 @@ exposed
 for
 Ref
 but
-anyref
+externref
 is
 OK
 .
@@ -1447,7 +1447,7 @@ func
 f1
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -1493,7 +1493,7 @@ func
 f1
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -1522,7 +1522,7 @@ exposed
 for
 Ref
 though
-anyref
+externref
 is
 OK
 .
@@ -1716,7 +1716,7 @@ func
 f1
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -1765,7 +1765,7 @@ func
 f1
 (
 result
-anyref
+externref
 )
 (
 ref
@@ -1798,7 +1798,7 @@ exposed
 for
 Ref
 though
-anyref
+externref
 is
 OK
 .
@@ -1995,7 +1995,7 @@ fn
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -2057,7 +2057,7 @@ fn
 func
 (
 result
-anyref
+externref
 )
 )
 )
@@ -2080,7 +2080,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 (
 call_indirect
@@ -2120,7 +2120,7 @@ exposed
 for
 Ref
 though
-anyref
+externref
 is
 OK
 .
@@ -2323,7 +2323,7 @@ fn
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -2388,7 +2388,7 @@ fn
 func
 (
 result
-anyref
+externref
 )
 )
 )
@@ -2414,7 +2414,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 (
 call_indirect

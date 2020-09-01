@@ -226,7 +226,7 @@ htype
 func
 (
 param
-anyref
+externref
 )
 )
 )
@@ -237,7 +237,7 @@ itype
 func
 (
 result
-anyref
+externref
 )
 )
 )
@@ -257,7 +257,7 @@ func
 f
 (
 param
-anyref
+externref
 )
 (
 call
@@ -275,7 +275,7 @@ func
 g
 (
 result
-anyref
+externref
 )
 (
 call
