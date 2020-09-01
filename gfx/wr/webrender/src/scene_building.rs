@@ -3226,7 +3226,7 @@ Degree180
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 content_size
 .
@@ -3262,7 +3262,7 @@ Degree270
 LayoutTransform
 :
 :
-create_scale
+scale
 (
 content_size
 .
@@ -3318,7 +3318,7 @@ transform
 =
 transform
 .
-post_translate
+then_translate
 (
 LayoutVector3D
 :
@@ -3369,7 +3369,7 @@ transform
 =
 transform
 .
-post_transform
+then
 (
 &
 rotate
