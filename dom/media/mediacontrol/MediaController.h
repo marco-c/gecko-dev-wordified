@@ -1126,6 +1126,16 @@ ShouldRequestForMainController
 const
 ;
 bool
+ShouldPropagateActionToAllContexts
+(
+const
+MediaControlAction
+&
+aAction
+)
+const
+;
+bool
 mIsActive
 =
 false
