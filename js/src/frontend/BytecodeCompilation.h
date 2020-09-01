@@ -212,6 +212,11 @@ CompilationInfo
 .
 h
 "
+/
+/
+CompilationInfo
+CompilationState
+CompilationGCOutput
 #
 include
 "
@@ -417,6 +422,9 @@ CompileGlobalScript
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 GlobalSharedContext
 &
 globalsc
@@ -441,6 +449,9 @@ CompileGlobalScript
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 GlobalSharedContext
 &
 globalsc
@@ -468,6 +479,9 @@ CompileEvalScript
 CompilationInfo
 &
 compilationInfo
+CompilationState
+&
+compilationState
 EvalSharedContext
 &
 evalsc
