@@ -412,6 +412,3 @@ stack
 "
 "
 progbits
-;
-.
-previous
