@@ -487,6 +487,16 @@ KeyTypePointer
 aKey
 )
 ;
+ResourceType
+As
+(
+)
+const
+{
+return
+mAs
+;
+}
 #
 ifdef
 MOZILLA_INTERNAL_API
