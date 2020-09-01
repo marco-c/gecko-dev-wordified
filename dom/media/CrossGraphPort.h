@@ -175,7 +175,7 @@ class
 CrossGraphTransmitter
 :
 public
-ForwardedInputTrack
+ProcessedMediaTrack
 {
 public
 :
