@@ -15817,7 +15817,7 @@ if
 !
 d
 .
-readRefType
+readHeapType
 (
 env
 -
@@ -15829,6 +15829,7 @@ env
 gcTypesEnabled
 (
 )
+true
 &
 initType
 )

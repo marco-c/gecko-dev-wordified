@@ -3208,8 +3208,10 @@ type
 ;
 MOZ_MUST_USE
 bool
-readRefType
+readHeapType
 (
+bool
+nullable
 RefType
 *
 type
@@ -10480,8 +10482,9 @@ type
 if
 (
 !
-readRefType
+readHeapType
 (
+true
 &
 type
 )
@@ -10615,8 +10618,10 @@ Policy
 >
 :
 :
-readRefType
+readHeapType
 (
+bool
+nullable
 RefType
 *
 type
@@ -10625,7 +10630,7 @@ type
 return
 d_
 .
-readRefType
+readHeapType
 (
 env_
 .
@@ -10635,6 +10640,7 @@ env_
 gcTypesEnabled
 (
 )
+nullable
 type
 )
 ;
