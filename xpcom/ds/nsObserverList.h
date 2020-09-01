@@ -301,7 +301,7 @@ aEnumerator
 ;
 /
 /
-Fill
+Clone
 an
 array
 with
@@ -325,15 +325,12 @@ added
 first
 order
 .
-void
-FillObserverArray
-(
 nsCOMArray
 <
 nsIObserver
 >
-&
-aArray
+ReverseCloneObserverArray
+(
 )
 ;
 /
