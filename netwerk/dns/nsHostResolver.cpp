@@ -3748,6 +3748,12 @@ nsHostRecord
 (
 key
 )
+DNSHTTPSSVCRecordBase
+(
+key
+.
+host
+)
 mTrrLock
 (
 "
