@@ -761,13 +761,17 @@ run_on_projects
 task
 [
 '
-optimization
+if
+-
+dependencies
 '
 ]
 =
-dep
-.
-optimization
+[
+'
+build
+'
+]
         
 #
 clear
