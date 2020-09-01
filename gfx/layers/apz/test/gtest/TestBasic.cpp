@@ -3518,7 +3518,7 @@ GetMetrics
 (
 )
 .
-SetVisualScrollOffset
+SetVisualDestination
 (
 mainThreadOffset
 )
