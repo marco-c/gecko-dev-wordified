@@ -476,7 +476,7 @@ mTargetBrowsingContext
 =
 aLoadState
 .
-SourceBrowsingContext
+TargetBrowsingContext
 (
 )
 ;
