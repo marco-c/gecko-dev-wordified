@@ -1122,7 +1122,7 @@ this
 reordering
 is
 visible
-olny
+only
 at
 the
 global
