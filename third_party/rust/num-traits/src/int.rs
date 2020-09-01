@@ -855,6 +855,7 @@ by
 a
 specified
 amount
+amount
 n
 wrapping
 /
@@ -959,6 +960,7 @@ by
 a
 specified
 amount
+amount
 n
 wrapping
 /
@@ -1062,6 +1064,7 @@ left
 by
 a
 specified
+amount
 amount
 n
 filling
@@ -1176,6 +1179,7 @@ right
 by
 a
 specified
+amount
 amount
 n
 copying
@@ -1299,6 +1303,7 @@ by
 a
 specified
 amount
+amount
 n
 filling
 /
@@ -1412,6 +1417,7 @@ right
 by
 a
 specified
+amount
 amount
 n
 filling

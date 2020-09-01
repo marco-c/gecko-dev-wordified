@@ -1,3 +1,11 @@
+extern
+crate
+num_bigint
+;
+extern
+crate
+num_traits
+;
 use
 num_bigint
 :
@@ -48,9 +56,6 @@ u32
 )
 }
 use
-crate
-:
-:
 ValueVec
 :
 :
@@ -151,6 +156,8 @@ const
 NOT_VALUES
 :
 &
+'
+static
 [
 (
 ValueVec
@@ -317,6 +324,8 @@ const
 BITWISE_VALUES
 :
 &
+'
+static
 [
 (
 ValueVec
@@ -992,6 +1001,8 @@ const
 I64_VALUES
 :
 &
+'
+static
 [
 i64
 ]

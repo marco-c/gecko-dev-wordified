@@ -2005,7 +2005,6 @@ Ok
 )
 )
 }
-pub
 fn
 reserve
 (
