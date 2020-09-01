@@ -655,6 +655,8 @@ wasmparser
 /
 dist
 /
+cjs
+/
 WasmParser
 "
 :
@@ -673,6 +675,8 @@ WasmParser
 wasmparser
 /
 dist
+/
+cjs
 /
 WasmDis
 "
