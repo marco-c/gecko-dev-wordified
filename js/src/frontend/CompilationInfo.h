@@ -1451,6 +1451,11 @@ funcDataLength
 =
 0
 ;
+size_t
+asmJSCount
+=
+0
+;
 }
 ;
 RewindToken
