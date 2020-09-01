@@ -100,6 +100,11 @@ basic
 username
 "
 ;
+requestLongerTimeout
+(
+2
+)
+;
 async
 function
 task_setup
