@@ -21433,6 +21433,11 @@ exitProfile
 c_str
 (
 )
+exitProfile
+.
+length
+(
+)
 )
 ;
 }
