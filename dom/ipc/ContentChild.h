@@ -4653,13 +4653,6 @@ ipc
 IPCResult
 RecvInternalLoad
 (
-const
-MaybeDiscarded
-<
-BrowsingContext
->
-&
-aContext
 nsDocShellLoadState
 *
 aLoadState

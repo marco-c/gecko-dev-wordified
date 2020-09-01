@@ -552,8 +552,6 @@ aSetNavigating
 async
 InternalLoad
 (
-MaybeDiscardedBrowsingContext
-aTargetBC
 nsDocShellLoadState
 aLoadState
 )
