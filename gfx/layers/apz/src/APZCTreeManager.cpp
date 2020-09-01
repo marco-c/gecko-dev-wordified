@@ -425,21 +425,6 @@ mozilla
 /
 layers
 /
-AsyncCompositionManager
-.
-h
-"
-/
-/
-for
-AsyncCompositionManager
-#
-include
-"
-mozilla
-/
-layers
-/
 AsyncDragMetrics
 .
 h
@@ -6346,7 +6331,7 @@ eHorizontal
 ScreenPoint
 translation
 =
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
@@ -6440,7 +6425,7 @@ continue
 ScreenPoint
 translation
 =
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
@@ -6541,7 +6526,7 @@ continue
 ScreenPoint
 translation
 =
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
@@ -15573,7 +15558,7 @@ mScreenPoint
 =
 RoundedToInt
 (
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
@@ -25126,7 +25111,7 @@ geckoPoint
 =
 RoundedToInt
 (
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
@@ -26438,7 +26423,7 @@ ViewAs
 ParentLayerPixel
 >
 (
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
@@ -26518,7 +26503,7 @@ ViewAs
 ParentLayerPixel
 >
 (
-AsyncCompositionManager
+apz
 :
 :
 ComputeFixedMarginsOffset
