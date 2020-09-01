@@ -1451,6 +1451,15 @@ aProxy
 )
 ;
 }
+static
+void
+DiscardFromContentParent
+(
+ContentParent
+*
+aCP
+)
+;
 /
 /
 Create
