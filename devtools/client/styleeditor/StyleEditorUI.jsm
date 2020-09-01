@@ -2340,6 +2340,14 @@ resourceId
 ;
 original
 .
+targetFront
+=
+resource
+.
+targetFront
+;
+original
+.
 mediaRules
 =
 resource
@@ -2620,11 +2628,6 @@ resource
 this
 .
 _window
-this
-.
-_toolbox
-.
-targetList
 this
 .
 _walker
@@ -7319,7 +7322,6 @@ async
 _onResourceAvailable
 (
 {
-targetFront
 resource
 }
 )
