@@ -2415,12 +2415,16 @@ the
 "
 version
 "
-prefix
+or
+"
+uuid
+"
+prefixes
 since
-we
-are
             
 #
+we
+are
 exceeding
 a
 50
@@ -2430,10 +2434,10 @@ and
 external
 things
 are
-unlikely
-to
             
 #
+unlikely
+to
 link
 there
 anyway
@@ -2445,6 +2449,7 @@ bug
 .
             
 if
+(
 version
 and
 prefix
@@ -2453,6 +2458,12 @@ endswith
 (
 version
 )
+)
+or
+prefix
+=
+=
+unique_id
 :
                 
 continue
