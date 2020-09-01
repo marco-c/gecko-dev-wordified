@@ -16183,7 +16183,13 @@ intoScriptStencil
 &
 compilationInfo
 .
-topLevel
+scriptData
+[
+CompilationInfo
+:
+:
+TopLevelIndex
+]
 )
 ;
 }
