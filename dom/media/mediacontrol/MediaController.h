@@ -709,6 +709,11 @@ supportedkeyschange
 ;
 IMPL_EVENT_HANDLER
 (
+playbackstatechange
+)
+;
+IMPL_EVENT_HANDLER
+(
 positionstatechange
 )
 ;
