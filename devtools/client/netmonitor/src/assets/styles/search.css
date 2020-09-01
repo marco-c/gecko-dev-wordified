@@ -131,9 +131,9 @@ var
 (
 -
 -
-table
+theme
 -
-text
+body
 -
 color
 )
@@ -521,15 +521,6 @@ search
 modifiers
 *
 {
--
-moz
--
-user
--
-select
-:
-none
-;
 user
 -
 select
