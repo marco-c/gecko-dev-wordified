@@ -576,6 +576,11 @@ bool
 val
 )
 ;
+void
+setFastWarmUp
+(
+)
+;
 bool
 eagerIonCompilation
 (
