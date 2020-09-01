@@ -575,7 +575,7 @@ argp
 char
 *
 )
-FFI_ALIGN
+ALIGN
 (
 argp
 (

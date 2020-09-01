@@ -52,13 +52,6 @@ float
 .
 h
 "
-#
-include
-<
-math
-.
-h
->
 typedef
 union
 {
@@ -254,8 +247,6 @@ delta
 /
 CHECK
 (
-fabs
-(
 result
 [
 0
@@ -266,7 +257,6 @@ d
 dblit
 (
 f
-)
 )
 <
 DBL_EPSILON

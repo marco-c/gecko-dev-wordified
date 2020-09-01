@@ -375,7 +375,7 @@ STACK_ARG_SIZE
 (
 x
 )
-FFI_ALIGN
+ALIGN
 (
 x
 FFI_SIZEOF_ARG
@@ -1270,7 +1270,7 @@ bytes
 )
 bytes
 =
-FFI_ALIGN
+ALIGN
 (
 bytes
 (

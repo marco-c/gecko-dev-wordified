@@ -810,7 +810,7 @@ ifdef
 PROF
 #
 define
-EFFI_ALIGN
+EALIGN
 (
 name
 alignt
@@ -877,7 +877,7 @@ PROF
 /
 #
 define
-EFFI_ALIGN
+EALIGN
 (
 name
 alignt
