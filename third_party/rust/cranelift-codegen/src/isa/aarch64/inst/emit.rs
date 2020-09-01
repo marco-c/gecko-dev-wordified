@@ -73,13 +73,7 @@ use
 crate
 :
 :
-isa
-:
-:
-aarch64
-:
-:
-lower
+machinst
 :
 :
 ty_bits
@@ -233,7 +227,7 @@ CodeOffset
 mem
 :
 &
-MemArg
+AMode
 state
 :
 &
@@ -250,14 +244,14 @@ Inst
 4
 ]
 >
-MemArg
+AMode
 )
 {
 match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 RegOffset
@@ -268,7 +262,7 @@ ty
 )
 |
 &
-MemArg
+AMode
 :
 :
 SPOffset
@@ -278,7 +272,7 @@ ty
 )
 |
 &
-MemArg
+AMode
 :
 :
 FPOffset
@@ -288,7 +282,7 @@ ty
 )
 |
 &
-MemArg
+AMode
 :
 :
 NominalSPOffset
@@ -306,7 +300,7 @@ match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 RegOffset
@@ -319,7 +313,7 @@ _
 >
 reg
 &
-MemArg
+AMode
 :
 :
 SPOffset
@@ -329,7 +323,7 @@ SPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 NominalSPOffset
@@ -343,7 +337,7 @@ stack_reg
 (
 )
 &
-MemArg
+AMode
 :
 :
 FPOffset
@@ -372,7 +366,7 @@ match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 NominalSPOffset
@@ -449,7 +443,7 @@ off
 let
 mem
 =
-MemArg
+AMode
 :
 :
 Unscaled
@@ -486,7 +480,7 @@ ty
 let
 mem
 =
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -638,7 +632,7 @@ add_inst
 ;
 (
 const_insts
-MemArg
+AMode
 :
 :
 reg
@@ -653,7 +647,7 @@ to_reg
 }
 }
 &
-MemArg
+AMode
 :
 :
 Label
@@ -678,7 +672,7 @@ smallvec
 !
 [
 ]
-MemArg
+AMode
 :
 :
 Label
@@ -1862,7 +1856,7 @@ for
 ld
 /
 st
-MemArg
+AMode
 "
 )
 }
@@ -5784,7 +5778,7 @@ match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 Unscaled
@@ -5811,7 +5805,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -5862,7 +5856,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 RegReg
@@ -5902,7 +5896,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 RegScaled
@@ -5913,7 +5907,7 @@ ty
 )
 |
 &
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -5944,7 +5938,7 @@ match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 RegScaled
@@ -5956,7 +5950,7 @@ RegScaled
 >
 None
 &
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -6004,7 +5998,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 RegExtended
@@ -6042,7 +6036,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 Label
@@ -6275,7 +6269,7 @@ pool
 }
 }
 &
-MemArg
+AMode
 :
 :
 PreIndexed
@@ -6306,7 +6300,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 PostIndexed
@@ -6346,7 +6340,7 @@ mem_finalize
 above
 .
 &
-MemArg
+AMode
 :
 :
 SPOffset
@@ -6356,7 +6350,7 @@ SPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 FPOffset
@@ -6366,7 +6360,7 @@ FPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 NominalSPOffset
@@ -6376,6 +6370,7 @@ NominalSPOffset
 )
 =
 >
+{
 panic
 !
 (
@@ -6390,8 +6385,9 @@ here
 !
 "
 )
+}
 &
-MemArg
+AMode
 :
 :
 RegOffset
@@ -6704,7 +6700,7 @@ match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 Unscaled
@@ -6731,7 +6727,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -6782,7 +6778,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 RegReg
@@ -6822,7 +6818,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 RegScaled
@@ -6833,7 +6829,7 @@ _ty
 )
 |
 &
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -6854,7 +6850,7 @@ match
 mem
 {
 &
-MemArg
+AMode
 :
 :
 RegScaled
@@ -6866,7 +6862,7 @@ RegScaled
 >
 None
 &
-MemArg
+AMode
 :
 :
 RegScaledExtended
@@ -6914,7 +6910,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 RegExtended
@@ -6952,7 +6948,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 Label
@@ -6979,7 +6975,7 @@ implemented
 ;
 }
 &
-MemArg
+AMode
 :
 :
 PreIndexed
@@ -7010,7 +7006,7 @@ rd
 ;
 }
 &
-MemArg
+AMode
 :
 :
 PostIndexed
@@ -7050,7 +7046,7 @@ mem_finalize
 above
 .
 &
-MemArg
+AMode
 :
 :
 SPOffset
@@ -7060,7 +7056,7 @@ SPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 FPOffset
@@ -7070,7 +7066,7 @@ FPOffset
 )
 |
 &
-MemArg
+AMode
 :
 :
 NominalSPOffset
@@ -7080,6 +7076,7 @@ NominalSPOffset
 )
 =
 >
+{
 panic
 !
 (
@@ -7094,8 +7091,9 @@ here
 !
 "
 )
+}
 &
-MemArg
+AMode
 :
 :
 RegOffset
@@ -7139,7 +7137,7 @@ match
 mem
 {
 &
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -7175,7 +7173,7 @@ rt2
 ;
 }
 &
-PairMemArg
+PairAMode
 :
 :
 PreIndexed
@@ -7215,7 +7213,7 @@ rt2
 ;
 }
 &
-PairMemArg
+PairAMode
 :
 :
 PostIndexed
@@ -7291,7 +7289,7 @@ match
 mem
 {
 &
-PairMemArg
+PairAMode
 :
 :
 SignedOffset
@@ -7327,7 +7325,7 @@ rt2
 ;
 }
 &
-PairMemArg
+PairAMode
 :
 :
 PreIndexed
@@ -7367,7 +7365,7 @@ rt2
 ;
 }
 &
-PairMemArg
+PairAMode
 :
 :
 PostIndexed
@@ -10736,7 +10734,7 @@ FpuLoad32
 rd
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -10826,7 +10824,7 @@ FpuLoad64
 rd
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -10916,7 +10914,7 @@ FpuLoad128
 rd
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -14539,7 +14537,7 @@ rd
 rtmp2
 mem
 :
-MemArg
+AMode
 :
 :
 reg_plus_reg_scaled_extended
@@ -14895,7 +14893,7 @@ ULoad64
 rd
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -14994,7 +14992,7 @@ ULoad64
 rd
 mem
 :
-MemArg
+AMode
 :
 :
 Label
@@ -15161,7 +15159,7 @@ offset
 match
 mem
 {
-MemArg
+AMode
 :
 :
 Unscaled
@@ -15179,7 +15177,7 @@ value
 (
 )
 )
-MemArg
+AMode
 :
 :
 UnsignedOffset
@@ -15345,7 +15343,7 @@ be
 spilltmp
 if
 the
-MemArg
+AMode
 on
 this
 instruction
