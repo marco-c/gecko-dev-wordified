@@ -97,9 +97,6 @@ const
 mockMonitorData
 =
 {
-potentiallyBreachedLogins
-:
-8
 numBreaches
 :
 11
