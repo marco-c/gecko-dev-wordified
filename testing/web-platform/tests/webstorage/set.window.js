@@ -360,7 +360,7 @@ Hidden
 because
 no
 [
-OverrideBuiltins
+LegacyOverrideBuiltins
 ]
 .
 assert_equals
@@ -518,7 +518,7 @@ Hidden
 because
 no
 [
-OverrideBuiltins
+LegacyOverrideBuiltins
 ]
 .
 assert_equals
@@ -790,7 +790,7 @@ hidden
 because
 no
 [
-OverrideBuiltins
+LegacyOverrideBuiltins
 ]
 .
 assert_equals
