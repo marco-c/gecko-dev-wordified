@@ -3258,7 +3258,7 @@ tableIndex
 +
 sizeof
 (
-elementType
+elemType
 )
 +
 sizeof
@@ -3317,10 +3317,10 @@ WriteBytes
 (
 cursor
 &
-elementType
+elemType
 sizeof
 (
-elementType
+elemType
 )
 )
 ;
@@ -3402,10 +3402,10 @@ ReadBytes
 (
 cursor
 &
-elementType
+elemType
 sizeof
 (
-elementType
+elemType
 )
 )
 )
