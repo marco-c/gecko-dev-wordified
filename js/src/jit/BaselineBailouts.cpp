@@ -16169,6 +16169,12 @@ BailoutKind
 :
 FunctionKindGuard
 :
+case
+BailoutKind
+:
+:
+PackedArrayGuard
+:
 /
 /
 Do
