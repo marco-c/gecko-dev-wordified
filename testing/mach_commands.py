@@ -3929,6 +3929,10 @@ JS
 shell
 .
 '
+             
+ok_if_tests_disabled
+=
+True
 )
     
 CommandArgument
