@@ -4619,6 +4619,9 @@ validEvents
 =
 [
 "
+click
+"
+"
 command
 "
 "
