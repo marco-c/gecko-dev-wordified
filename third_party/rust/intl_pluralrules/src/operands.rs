@@ -509,7 +509,7 @@ input
 pub
 i
 :
-usize
+u64
 /
 /
 /
@@ -552,7 +552,7 @@ zeros
 pub
 f
 :
-usize
+u64
 /
 /
 /
@@ -565,7 +565,7 @@ zeros
 pub
 t
 :
-usize
+u64
 }
 impl
 <
@@ -723,7 +723,7 @@ dec_pos
 ;
 integer_digits
 =
-usize
+u64
 :
 :
 from_str
@@ -783,7 +783,7 @@ usize
 ;
 fraction_digits0
 =
-usize
+u64
 :
 :
 from_str
@@ -810,7 +810,7 @@ integer
 ;
 fraction_digits
 =
-usize
+u64
 :
 :
 from_str
@@ -830,7 +830,7 @@ integer_digits
 =
 absolute_value
 as
-usize
+u64
 ;
 num_fraction_digits0
 =
@@ -929,7 +929,7 @@ i
 :
 input
 as
-usize
+u64
 v
 :
 0
@@ -1062,7 +1062,7 @@ i
 :
 x
 as
-usize
+u64
 v
 :
 0
