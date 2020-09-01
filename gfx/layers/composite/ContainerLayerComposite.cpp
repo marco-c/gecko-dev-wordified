@@ -384,14 +384,14 @@ mozilla
 /
 layers
 /
-AsyncCompositionManager
+APZUtils
 .
 h
 "
 /
 /
 for
-ViewTransform
+AsyncTransform
 #
 include
 "
