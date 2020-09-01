@@ -2799,12 +2799,6 @@ pi
 ;
 const
 uint8_t
-dummy
-=
-0
-;
-const
-uint8_t
 *
 uploadPtr
 =
@@ -2857,11 +2851,6 @@ length
 (
 )
 )
-;
-uploadPtr
-=
-&
-dummy
 ;
 }
 }
