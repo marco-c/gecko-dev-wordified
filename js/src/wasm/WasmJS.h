@@ -3395,8 +3395,8 @@ maximumLength
 wasm
 :
 :
-TableKind
-tableKind
+RefType
+tableType
 HandleObject
 proto
 )

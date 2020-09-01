@@ -2525,13 +2525,7 @@ seg
 tableIndex
 ]
 .
-kind
-=
-=
-TableKind
-:
-:
-AsmJS
+isAsmJS
 ;
 if
 (

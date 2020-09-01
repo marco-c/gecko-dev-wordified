@@ -4889,7 +4889,7 @@ td
 maximumLength
 td
 .
-kind
+elemType
 proto
 )
 )
