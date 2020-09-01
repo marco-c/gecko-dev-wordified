@@ -30125,7 +30125,7 @@ numOldSlots
 NativeObject
 :
 :
-dynamicSlotsCount
+calculateDynamicSlots
 (
 oldShape
 )
@@ -30133,12 +30133,11 @@ oldShape
 uint32_t
 numNewSlots
 =
-NativeObject
-:
-:
-dynamicSlotsCount
+holder
+-
+>
+numDynamicSlots
 (
-propShape
 )
 ;
 if

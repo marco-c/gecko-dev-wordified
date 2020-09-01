@@ -459,7 +459,7 @@ numFixedSlots
 size_t
 nDynamicSlots
 =
-dynamicSlotsCount
+calculateDynamicSlots
 (
 0
 shape

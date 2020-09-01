@@ -752,7 +752,7 @@ NumDynamicSlots
 ;
 MOZ_ASSERT
 (
-dynamicSlotsCount
+calculateDynamicSlots
 (
 shape
 -

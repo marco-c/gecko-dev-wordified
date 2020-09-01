@@ -10001,7 +10001,7 @@ if
 size_t
 ndynamic
 =
-dynamicSlotsCount
+calculateDynamicSlots
 (
 nfixed
 values
