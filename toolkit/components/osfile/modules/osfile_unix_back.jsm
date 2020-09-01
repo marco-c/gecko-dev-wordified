@@ -3074,9 +3074,11 @@ oflags
 Type
 .
 int
-Type
+"
 .
-int
+.
+.
+"
 )
 ;
 if

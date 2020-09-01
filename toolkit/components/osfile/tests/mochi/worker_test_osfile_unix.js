@@ -263,7 +263,6 @@ Constants
 libc
 .
 O_RDONLY
-0
 )
 ;
 isnot
@@ -349,7 +348,6 @@ Constants
 libc
 .
 O_RDONLY
-0
 )
 ;
 is
@@ -444,6 +442,10 @@ Constants
 libc
 .
 O_TRUNC
+ctypes
+.
+int
+(
 OS
 .
 Constants
@@ -451,6 +453,7 @@ Constants
 libc
 .
 S_IRWXU
+)
 )
 ;
 isnot
@@ -530,6 +533,10 @@ Constants
 libc
 .
 O_TRUNC
+ctypes
+.
+int
+(
 OS
 .
 Constants
@@ -537,6 +544,7 @@ Constants
 libc
 .
 S_IRWXU
+)
 )
 ;
 let
@@ -652,6 +660,10 @@ Constants
 libc
 .
 O_TRUNC
+ctypes
+.
+int
+(
 OS
 .
 Constants
@@ -659,6 +671,7 @@ Constants
 libc
 .
 S_IWUSR
+)
 )
 ;
 info
@@ -1011,7 +1024,6 @@ Constants
 libc
 .
 O_RDONLY
-0
 )
 ;
 isnot
@@ -1067,6 +1079,10 @@ Constants
 libc
 .
 O_TRUNC
+ctypes
+.
+int
+(
 OS
 .
 Constants
@@ -1074,6 +1090,7 @@ Constants
 libc
 .
 S_IRWXU
+)
 )
 ;
 isnot
@@ -1915,6 +1932,10 @@ Constants
 libc
 .
 O_TRUNC
+ctypes
+.
+int
+(
 OS
 .
 Constants
@@ -1922,6 +1943,7 @@ Constants
 libc
 .
 S_IRWXU
+)
 )
 ;
 }
