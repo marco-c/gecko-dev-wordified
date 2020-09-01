@@ -29139,6 +29139,11 @@ uint8_t
 ctypes
 .
 uint8_t
+ctypes
+.
+int32_t
+.
+ptr
 "
 .
 .
