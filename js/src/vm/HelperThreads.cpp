@@ -4308,7 +4308,7 @@ compilationInfo
 .
 input
 .
-init
+initForGlobal
 (
 cx
 )
