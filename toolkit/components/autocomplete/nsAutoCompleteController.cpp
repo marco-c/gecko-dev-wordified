@@ -5997,6 +5997,7 @@ nsIAutoCompleteObserver
 (
 this
 )
+nullptr
 )
 ;
 if
