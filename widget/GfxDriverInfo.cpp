@@ -4298,14 +4298,6 @@ APPEND_DEVICE
 0x98e4
 )
 ;
-#
-endif
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 /
 /
 Evergreen
