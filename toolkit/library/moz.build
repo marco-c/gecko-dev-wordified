@@ -2275,6 +2275,14 @@ it
 into
 libxul
 .
+if
+CONFIG
+[
+'
+COMPILE_ENVIRONMENT
+'
+]
+:
 SOURCES
 +
 =
