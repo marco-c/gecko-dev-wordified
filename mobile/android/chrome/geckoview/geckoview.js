@@ -3137,6 +3137,10 @@ MozFirstContentfulPaint
 :
 {
 }
+MozPaintStatusReset
+:
+{
+}
 contextmenu
 :
 {

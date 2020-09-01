@@ -6202,6 +6202,11 @@ NotifyContentfulPaint
 )
 ;
 void
+NotifyPaintStatusReset
+(
+)
+;
+void
 NotifyDOMContentFlushed
 (
 )
