@@ -62,7 +62,7 @@ IDL
 attribute
 is
 [
-Unforgeable
+LegacyUnforgeable
 ]
 *
 /
