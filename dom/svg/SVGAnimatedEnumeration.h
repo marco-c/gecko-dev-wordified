@@ -199,9 +199,10 @@ SVGAnimationElement
 /
 namespace
 dom
-typedef
-uint8_t
+using
 SVGEnumValue
+=
+uint8_t
 ;
 struct
 SVGEnumMapping

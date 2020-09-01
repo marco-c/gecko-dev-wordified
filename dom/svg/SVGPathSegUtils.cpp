@@ -3300,11 +3300,12 @@ pos
 to
 ;
 }
-typedef
+using
+TraverseFunc
+=
 void
 (
 *
-TraverseFunc
 )
 (
 const

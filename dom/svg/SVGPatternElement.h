@@ -304,13 +304,6 @@ override
 ;
 public
 :
-typedef
-mozilla
-:
-:
-SVGAnimatedPreserveAspectRatio
-SVGAnimatedPreserveAspectRatio
-;
 /
 /
 nsIContent

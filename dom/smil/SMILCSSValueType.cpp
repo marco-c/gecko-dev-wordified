@@ -316,7 +316,9 @@ dom
 namespace
 mozilla
 {
-typedef
+using
+ServoAnimationValues
+=
 CopyableAutoTArray
 <
 RefPtr
@@ -325,7 +327,6 @@ RawServoAnimationValue
 >
 1
 >
-ServoAnimationValues
 ;
 /
 *

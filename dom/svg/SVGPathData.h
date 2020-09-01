@@ -1576,10 +1576,11 @@ sync
 .
 protected
 :
-typedef
+using
+iterator
+=
 float
 *
-iterator
 ;
 /
 *

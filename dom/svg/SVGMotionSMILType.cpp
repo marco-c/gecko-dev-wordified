@@ -1106,12 +1106,13 @@ mU
 ;
 }
 ;
-typedef
+using
+MotionSegmentArray
+=
 FallibleTArray
 <
 MotionSegment
 >
-MotionSegmentArray
 ;
 /
 /

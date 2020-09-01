@@ -1165,11 +1165,12 @@ signatures
 shorter
 below
 :
-typedef
+using
+SMILPreserveAspectRatio
+=
 SVGAnimatedPreserveAspectRatio
 :
 :
-SMILPreserveAspectRatio
 SMILPreserveAspectRatio
 ;
 nsresult

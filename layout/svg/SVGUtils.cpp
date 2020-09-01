@@ -3151,14 +3151,12 @@ MixModeBlender
 {
 public
 :
-typedef
-mozilla
-:
-:
+using
+Factory
+=
 gfx
 :
 :
-Factory
 Factory
 ;
 MixModeBlender

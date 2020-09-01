@@ -189,11 +189,12 @@ Shutdown
 ;
 }
 ;
-typedef
+using
+SVGContentCreatorFunction
+=
 nsresult
 (
 *
-SVGContentCreatorFunction
 )
 (
 nsIContent

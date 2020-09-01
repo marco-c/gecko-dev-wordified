@@ -6754,13 +6754,14 @@ then
 }
 #
 endif
-typedef
+using
+URIObserverHashtable
+=
 nsInterfaceHashtable
 <
 URLAndReferrerInfoHashKey
 nsIMutationObserver
 >
-URIObserverHashtable
 ;
 using
 PaintingPropertyDescriptor
