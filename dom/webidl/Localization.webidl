@@ -509,7 +509,11 @@ messages
 *
 /
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrUAWidget
+"
 Exposed
 =
 Window

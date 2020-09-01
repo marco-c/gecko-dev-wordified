@@ -229,7 +229,11 @@ roots
 *
 /
 [
-ChromeOnly
+Func
+=
+"
+IsChromeOrUAWidget
+"
 Exposed
 =
 Window
