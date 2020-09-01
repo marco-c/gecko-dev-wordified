@@ -1364,6 +1364,7 @@ condition
 with
 monitor
 thread
+{
 MutexAutoLock
 autoLock
 (
@@ -1463,6 +1464,7 @@ FlushPendingEvents
 (
 )
 ;
+}
 StartGamepadMonitoring
 (
 )
