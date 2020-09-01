@@ -1239,19 +1239,7 @@ NS_IsMainThread
 )
 )
 {
-nsIEventTarget
-*
-target
-=
-EventTargetFor
-(
-TaskCategory
-:
-:
-Other
-)
-;
-NS_ProxyRelease
+NS_ReleaseOnMainThread
 (
 "
 DocGroup
@@ -1259,7 +1247,6 @@ DocGroup
 :
 mReactionsStack
 "
-target
 mReactionsStack
 .
 forget
@@ -1267,7 +1254,7 @@ forget
 )
 )
 ;
-NS_ProxyRelease
+NS_ReleaseOnMainThread
 (
 "
 DocGroup
@@ -1275,7 +1262,6 @@ DocGroup
 :
 mArena
 "
-target
 mArena
 .
 forget
