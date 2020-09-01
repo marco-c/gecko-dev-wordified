@@ -63873,7 +63873,14 @@ MInstanceOf
 public
 MUnaryInstruction
 public
-InstanceOfPolicy
+BoxExceptPolicy
+<
+0
+MIRType
+:
+:
+Object
+>
 :
 :
 Data
