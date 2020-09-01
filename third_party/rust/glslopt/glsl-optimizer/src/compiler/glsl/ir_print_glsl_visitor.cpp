@@ -9891,10 +9891,10 @@ for
 NaN
 if
 (
+isnan
+(
 f
-!
-=
-f
+)
 )
 strcpy
 (
