@@ -229,7 +229,7 @@ i64
 field
 (
 mut
-anyref
+externref
 )
 )
 )

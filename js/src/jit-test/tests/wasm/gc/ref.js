@@ -100,7 +100,7 @@ odd
 ;
 ;
 Use
-anyref
+externref
 on
 the
 API
@@ -128,11 +128,11 @@ func
 imp
 (
 param
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 )
 )
@@ -599,7 +599,7 @@ get
 Automatic
 upcast
 to
-anyref
+externref
 new
 WebAssembly
 .
@@ -647,7 +647,7 @@ func
 g
 (
 param
-anyref
+externref
 )
 (
 unreachable
@@ -1584,7 +1584,7 @@ No
 automatic
 downcast
 from
-anyref
+externref
 assertErrorMessage
 (
 (
@@ -1611,7 +1611,7 @@ func
 f
 (
 param
-anyref
+externref
 )
 (
 call

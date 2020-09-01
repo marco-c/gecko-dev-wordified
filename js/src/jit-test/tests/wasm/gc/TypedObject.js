@@ -83,7 +83,7 @@ mkp
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -200,7 +200,7 @@ mkp
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -284,7 +284,7 @@ if
 the
 fields
 are
-anyref
+externref
 the
 structs
 can
@@ -342,7 +342,7 @@ struct
 field
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -357,7 +357,7 @@ mkp
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -383,7 +383,7 @@ mkr
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -532,7 +532,7 @@ type
 /
 /
 However
-anyref
+externref
 fields
 are
 mutable
@@ -581,7 +581,7 @@ q
 field
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -596,7 +596,7 @@ mkq
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -623,7 +623,7 @@ mkp
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -800,7 +800,7 @@ mkp
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -1012,7 +1012,7 @@ func
 f
 (
 param
-anyref
+externref
 )
 (
 result
@@ -1026,7 +1026,7 @@ is_null
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -1046,7 +1046,7 @@ func
 g
 (
 param
-anyref
+externref
 )
 (
 result
@@ -1060,7 +1060,7 @@ is_null
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt

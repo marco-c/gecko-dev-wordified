@@ -58,7 +58,7 @@ func
 item
 (
 result
-anyref
+externref
 )
 )
 )
@@ -69,7 +69,7 @@ prefix
 table
 tbl
 0
-anyref
+externref
 )
 (
 func
@@ -107,7 +107,7 @@ i32
 (
 local
 tmp
-anyref
+externref
 )
 (
 local

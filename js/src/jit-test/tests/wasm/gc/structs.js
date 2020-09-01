@@ -133,7 +133,7 @@ field
 intbox_next
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -204,15 +204,15 @@ f64
 )
 (
 field
-omni_anyref
-anyref
+omni_externref
+externref
 )
 (
 field
-omni_anyrefm
+omni_externrefm
 (
 mut
-anyref
+externref
 )
 )
 )
@@ -448,7 +448,7 @@ mk_point
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -483,11 +483,11 @@ i32
 )
 (
 param
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -795,7 +795,7 @@ mk_bigger
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -1134,7 +1134,7 @@ f64
 (
 field
 f3
-anyref
+externref
 )
 (
 field
@@ -1166,7 +1166,7 @@ f64
 )
 (
 param
-anyref
+externref
 )
 (
 param
@@ -1178,7 +1178,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -1563,7 +1563,7 @@ i32
 )
 (
 result
-anyref
+externref
 )
 (
 local
@@ -1830,7 +1830,7 @@ set
 )
 (
 param
-anyref
+externref
 )
 (
 local
@@ -1849,7 +1849,7 @@ set
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -1894,7 +1894,7 @@ set2
 (
 param
 p
-anyref
+externref
 )
 (
 struct
@@ -1906,7 +1906,7 @@ big
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -1938,7 +1938,7 @@ low
 (
 param
 p
-anyref
+externref
 )
 (
 result
@@ -1960,7 +1960,7 @@ big
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -1987,7 +1987,7 @@ high
 (
 param
 p
-anyref
+externref
 )
 (
 result
@@ -2013,7 +2013,7 @@ big
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -2046,7 +2046,7 @@ mk
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -2315,7 +2315,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 global
@@ -3133,7 +3133,7 @@ cannot
 be
 unboxed
 from
-anyref
+externref
 even
 if
 the
@@ -3196,7 +3196,7 @@ mk
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -3222,17 +3222,17 @@ f
 (
 param
 n
-anyref
+externref
 )
 (
 result
-anyref
+externref
 )
 (
 struct
 .
 narrow
-anyref
+externref
 (
 ref
 opt
@@ -3635,7 +3635,7 @@ f64
 )
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -3705,7 +3705,7 @@ func
 f
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -3780,7 +3780,7 @@ func
 f
 (
 result
-anyref
+externref
 )
 (
 i32
@@ -3858,7 +3858,7 @@ func
 f
 (
 result
-anyref
+externref
 )
 (
 struct
@@ -4330,7 +4330,7 @@ make
 )
 (
 result
-anyref
+externref
 )
 (
 struct
