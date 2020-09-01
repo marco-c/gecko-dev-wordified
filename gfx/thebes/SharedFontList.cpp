@@ -817,6 +817,10 @@ aData
 .
 mVisibility
 )
+mIsSimple
+(
+false
+)
 mIsBadUnderlineFamily
 (
 aData
@@ -829,9 +833,11 @@ aData
 .
 mForceClassic
 )
-mIsSimple
+mIsAltLocale
 (
-false
+aData
+.
+mAltLocale
 )
 {
 MOZ_ASSERT
