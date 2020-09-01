@@ -16161,6 +16161,12 @@ case
 BailoutKind
 :
 :
+FunctionFlagsGuard
+:
+case
+BailoutKind
+:
+:
 FunctionKindGuard
 :
 /
