@@ -32,6 +32,8 @@ absolute_import
 import
 json
 import
+logging
+import
 os
 import
 pytest
@@ -45,6 +47,9 @@ from
 responses
 import
 RequestsMock
+logger
+as
+rsps_logger
 from
 taskgraph
 .
@@ -105,6 +110,15 @@ responses
 (
 )
 :
+    
+rsps_logger
+.
+setLevel
+(
+logging
+.
+WARNING
+)
     
 with
 RequestsMock

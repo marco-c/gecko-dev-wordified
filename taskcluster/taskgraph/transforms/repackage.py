@@ -1442,14 +1442,7 @@ dependencies
 {
 dep_job
 .
-attributes
-.
-get
-(
-'
 kind
-'
-)
 :
 dep_job
 .
@@ -2338,6 +2331,18 @@ dependencies
 '
 :
 dependencies
+            
+'
+if
+-
+dependencies
+'
+:
+[
+dep_job
+.
+kind
+]
             
 '
 attributes
