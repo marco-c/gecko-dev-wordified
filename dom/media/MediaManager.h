@@ -2041,6 +2041,11 @@ mCamerasMuted
 =
 false
 ;
+bool
+mMicrophonesMuted
+=
+false
+;
 /
 /
 Always

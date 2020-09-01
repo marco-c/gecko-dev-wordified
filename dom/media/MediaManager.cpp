@@ -23502,6 +23502,10 @@ windows
 "
 )
 ;
+mMicrophonesMuted
+=
+aMute
+;
 /
 /
 This
@@ -23679,6 +23683,14 @@ aListener
 MuteOrUnmuteCameras
 (
 mCamerasMuted
+)
+;
+aListener
+-
+>
+MuteOrUnmuteMicrophones
+(
+mMicrophonesMuted
 )
 ;
 GetActiveWindows
