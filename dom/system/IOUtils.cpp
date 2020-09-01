@@ -3083,7 +3083,7 @@ rv
 svc
 -
 >
-GetXpcomWillShutdown
+GetProfileBeforeChange
 (
 getter_AddRefs
 (
