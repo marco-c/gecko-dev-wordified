@@ -245,7 +245,6 @@ ProcessedMediaTrack
 {
 public
 :
-explicit
 CrossGraphReceiver
 (
 TrackRate
