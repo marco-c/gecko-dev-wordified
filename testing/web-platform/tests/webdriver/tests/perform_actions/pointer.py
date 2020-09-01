@@ -1545,13 +1545,6 @@ drag_events_captured
     
 assert
 "
-dragexit
-"
-in
-drag_events_captured
-    
-assert
-"
 dragleave
 "
 in
