@@ -1322,9 +1322,10 @@ BiquadFilterType
 Lowpass
 )
 {
+mFrequency
+=
 CreateAudioParam
 (
-mFrequency
 BiquadFilterNodeEngine
 :
 :
@@ -1358,9 +1359,10 @@ SampleRate
 2
 )
 ;
+mDetune
+=
 CreateAudioParam
 (
-mDetune
 BiquadFilterNodeEngine
 :
 :
@@ -1375,9 +1377,10 @@ _ns
 f
 )
 ;
+mQ
+=
 CreateAudioParam
 (
-mQ
 BiquadFilterNodeEngine
 :
 :
@@ -1392,9 +1395,10 @@ _ns
 f
 )
 ;
+mGain
+=
 CreateAudioParam
 (
-mGain
 BiquadFilterNodeEngine
 :
 :

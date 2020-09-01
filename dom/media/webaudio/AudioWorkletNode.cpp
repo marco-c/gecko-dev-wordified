@@ -4732,11 +4732,8 @@ AudioParam
 >
 param
 =
-nullptr
-;
 CreateAudioParam
 (
-param
 audioParamIndex
 +
 +

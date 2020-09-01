@@ -1094,9 +1094,10 @@ ChannelInterpretation
 Speakers
 )
 {
+mDelay
+=
 CreateAudioParam
 (
-mDelay
 DelayNodeEngine
 :
 :

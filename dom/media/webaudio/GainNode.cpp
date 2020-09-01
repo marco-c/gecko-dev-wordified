@@ -752,9 +752,10 @@ ChannelInterpretation
 Speakers
 )
 {
+mGain
+=
 CreateAudioParam
 (
-mGain
 GainNodeEngine
 :
 :

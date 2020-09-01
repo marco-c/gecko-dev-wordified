@@ -3741,9 +3741,10 @@ mBufferSet
 false
 )
 {
+mPlaybackRate
+=
 CreateAudioParam
 (
-mPlaybackRate
 PLAYBACKRATE
 u
 "
@@ -3755,9 +3756,10 @@ _ns
 0f
 )
 ;
+mDetune
+=
 CreateAudioParam
 (
-mDetune
 DETUNE
 u
 "

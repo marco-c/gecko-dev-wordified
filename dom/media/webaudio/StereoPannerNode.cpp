@@ -1078,9 +1078,10 @@ ChannelInterpretation
 Speakers
 )
 {
+mPan
+=
 CreateAudioParam
 (
-mPan
 StereoPannerNodeEngine
 :
 :

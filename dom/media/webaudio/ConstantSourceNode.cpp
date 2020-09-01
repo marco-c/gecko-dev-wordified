@@ -837,9 +837,10 @@ mStartCalled
 false
 )
 {
+mOffset
+=
 CreateAudioParam
 (
-mOffset
 ConstantSourceNodeEngine
 :
 :
