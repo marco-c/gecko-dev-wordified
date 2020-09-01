@@ -823,6 +823,9 @@ exclusion_path
 )
 )
         
+try
+:
+            
 if
 os
 .
@@ -839,7 +842,7 @@ srcdir
 =
 exclusion_path
 :
-            
+                
 #
 exclusion_path
 is
@@ -847,9 +850,33 @@ an
 ancestor
 of
 srcdir
-            
+                
 return
 False
+        
+except
+ValueError
+:
+            
+#
+ValueError
+:
+Paths
+don
+'
+t
+have
+the
+same
+drive
+-
+can
+'
+t
+be
+ours
+            
+pass
     
 return
 True
