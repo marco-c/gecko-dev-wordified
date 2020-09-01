@@ -1885,11 +1885,11 @@ nsPrintData
 >
 mPrtPreview
 ;
+RefPtr
+<
 nsPagePrintTimer
-*
+>
 mPagePrintTimer
-=
-nullptr
 ;
 float
 mScreenDPI
