@@ -547,8 +547,6 @@ nsIInputStream
 aBaseStream
 size_t
 aBlockSize
-CipherStrategy
-aCipherStrategy
 typename
 CipherStrategy
 :
@@ -566,8 +564,6 @@ only
 explicit
 DecryptingInputStream
 (
-CipherStrategy
-aCipherStrategy
 )
 ;
 NS_IMETHOD
@@ -874,7 +870,6 @@ EnsureBuffers
 (
 )
 ;
-const
 CipherStrategy
 mCipherStrategy
 ;

@@ -2145,15 +2145,6 @@ quota
 IPCStreamCipherStrategy
 >
 (
-dom
-:
-:
-quota
-:
-:
-IPCStreamCipherStrategy
-{
-}
 )
 ;
 break
