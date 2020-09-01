@@ -26317,7 +26317,14 @@ csp
 )
 ;
 return
+{
 engine
+url
+:
+submission
+.
+uri
+}
 ;
 }
 /
@@ -26367,7 +26374,10 @@ csp
 )
 {
 let
+{
 engine
+url
+}
 =
 await
 BrowserSearch
@@ -26423,6 +26433,9 @@ engine
 "
 contextmenu
 "
+{
+url
+}
 )
 ;
 }
@@ -26452,7 +26465,10 @@ csp
 )
 {
 let
+{
 engine
+url
+}
 =
 await
 BrowserSearch
@@ -26484,6 +26500,9 @@ engine
 "
 system
 "
+{
+url
+}
 )
 ;
 }
