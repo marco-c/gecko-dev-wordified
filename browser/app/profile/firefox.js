@@ -5138,12 +5138,6 @@ new
 windows
 /
 /
-1
-=
-current
-window
-/
-tab
 2
 =
 new
@@ -5197,7 +5191,7 @@ link
 open_newwindow
 /
 /
-1
+2
 -
 3
 :
