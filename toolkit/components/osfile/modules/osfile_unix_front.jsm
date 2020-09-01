@@ -2783,7 +2783,12 @@ open
 (
 path
 flags
+ctypes
+.
+int
+(
 omode
+)
 )
 path
 )
@@ -5233,7 +5238,6 @@ destPath
 Const
 .
 O_RDONLY
-0
 )
 ;
 if
