@@ -2937,15 +2937,13 @@ create
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 )
 const
 {
 return
-compilationInfo
-.
 stencil
 .
 regExpData

@@ -428,9 +428,6 @@ class
 ParseContext
 ;
 struct
-CompilationInfo
-;
-struct
 CompilationStencil
 ;
 class
@@ -11522,9 +11519,9 @@ create
 JSContext
 *
 cx
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 )
 const
 ;
