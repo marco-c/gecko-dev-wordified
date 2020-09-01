@@ -14188,6 +14188,13 @@ obj
 {
 MOZ_ASSERT
 (
+IsTypeInferenceEnabled
+(
+)
+)
+;
+MOZ_ASSERT
+(
 !
 obj
 -
