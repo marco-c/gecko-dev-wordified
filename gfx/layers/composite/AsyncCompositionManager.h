@@ -1721,7 +1721,7 @@ private
 This
 calculates
 whether
-frame
+GeckoView
 metrics
 should
 be
@@ -1730,10 +1730,10 @@ to
 Java
 .
 bool
-FrameMetricsHaveUpdated
+GeckoViewMetricsHaveUpdated
 (
 const
-FrameMetrics
+GeckoViewMetrics
 &
 aMetrics
 )
@@ -1745,9 +1745,7 @@ holds
 the
 most
 recent
-scroll
-/
-zoom
+GeckoView
 metrics
 sent
 to
@@ -1765,7 +1763,7 @@ when
 it
 changes
 .
-FrameMetrics
+GeckoViewMetrics
 mLastMetrics
 ;
 /

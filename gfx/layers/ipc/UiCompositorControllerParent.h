@@ -136,6 +136,17 @@ include
 "
 mozilla
 /
+layers
+/
+APZUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 Shmem
@@ -433,7 +444,7 @@ void
 NotifyUpdateScreenMetrics
 (
 const
-FrameMetrics
+GeckoViewMetrics
 &
 aMetrics
 )
