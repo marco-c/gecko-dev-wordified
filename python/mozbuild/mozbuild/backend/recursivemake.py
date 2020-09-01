@@ -12199,7 +12199,7 @@ f
 RenamedSourcePath
 )
                 
-dest
+dest_dir
 =
 mozpath
 .
@@ -12207,6 +12207,15 @@ join
 (
 reltarget
 path
+)
+                
+dest_file
+=
+mozpath
+.
+join
+(
+dest_dir
 f
 .
 target_basename
@@ -12300,7 +12309,7 @@ add_pattern_link
 (
 basepath
 wild
-path
+dest_dir
 )
                         
 else
@@ -12314,7 +12323,7 @@ f
 .
 srcdir
 f
-path
+dest_dir
 )
                     
 elif
@@ -12386,7 +12395,7 @@ install_manifest
 .
 add_optional_exists
 (
-dest
+dest_file
 )
                         
 absolute_files
@@ -12408,7 +12417,7 @@ add_link
 f
 .
 full_path
-dest
+dest_file
 )
                 
 else
@@ -12418,7 +12427,7 @@ install_manifest
 .
 add_optional_exists
 (
-dest
+dest_file
 )
                     
 objdir_files
