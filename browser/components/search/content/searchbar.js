@@ -2603,6 +2603,11 @@ telemetrySearchDetails
 selection
 :
 telemetrySearchDetails
+url
+:
+submission
+.
+uri
 }
 ;
 BrowserSearch
