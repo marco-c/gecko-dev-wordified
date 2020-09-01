@@ -476,7 +476,7 @@ mozilla
 /
 layers
 /
-CompositorScreenshotGrabber
+ScreenshotGrabber
 .
 h
 "
@@ -3101,7 +3101,7 @@ CompositingRenderTarget
 >
 mTwoPassTmpTarget
 ;
-CompositorScreenshotGrabber
+ScreenshotGrabber
 mProfilerScreenshotGrabber
 ;
 RefPtr
