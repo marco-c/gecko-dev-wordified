@@ -47888,6 +47888,7 @@ HTMLMediaElement
 (
 this
 )
+this
 ]
 (
 RefPtr
@@ -47914,9 +47915,6 @@ aInfo
 ;
 if
 (
-self
--
->
 mDecoder
 )
 {
@@ -47926,9 +47924,6 @@ SinkInfoPromise
 >
 p
 =
-self
--
->
 mDecoder
 -
 >
@@ -47940,9 +47935,6 @@ aInfo
 >
 Then
 (
-self
--
->
 mAbstractMainThread
 __func__
 [
@@ -48001,17 +47993,11 @@ p
 }
 if
 (
-self
--
->
 mSrcStream
 )
 {
 MOZ_ASSERT
 (
-self
--
->
 mMediaStreamRenderer
 )
 ;
@@ -48021,9 +48007,6 @@ SinkInfoPromise
 >
 p
 =
-self
--
->
 mMediaStreamRenderer
 -
 >
@@ -48035,9 +48018,6 @@ aInfo
 >
 Then
 (
-self
--
->
 mAbstractMainThread
 __func__
 [
@@ -48166,6 +48146,7 @@ HTMLMediaElement
 (
 this
 )
+this
 sinkId
 ]
 (
@@ -48187,9 +48168,6 @@ IsResolve
 )
 )
 {
-self
--
->
 mSink
 =
 std
