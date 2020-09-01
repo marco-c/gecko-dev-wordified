@@ -149,6 +149,11 @@ MOXAccessibleBase
 mm
 '
 '
+MOXLandmarkAccessibles
+.
+mm
+'
+'
 MOXMathAccessibles
 .
 mm
