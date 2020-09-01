@@ -71,10 +71,12 @@ import
 get_push_data
 BACKSTOP_PUSH_INTERVAL
 =
-10
+20
 BACKSTOP_TIME_INTERVAL
 =
 60
+*
+4
 #
 minutes
 logger

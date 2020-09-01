@@ -3424,20 +3424,19 @@ args
 =
 (
 '
-backstop
+push
+-
+interval
 -
 10
--
-pushes
--
-2
--
-hours
+'
+'
+backstop
 '
 )
 )
 (
-Alias
+All
 )
 register_strategy
 (
@@ -3529,43 +3528,6 @@ everything
 away
 except
 on
-20th
-pushes
-.
-    
-register_strategy
-(
-'
-full
--
-backstop
-'
-args
-=
-(
-'
-backstop
--
-20
--
-pushes
--
-4
--
-hours
-'
-)
-)
-(
-Alias
-)
-    
-#
-Optimize
-everything
-away
-except
-on
 10th
 pushes
 where
@@ -3600,15 +3562,11 @@ args
 (
             
 '
-backstop
+push
+-
+interval
 -
 10
--
-pushes
--
-2
--
-hours
 '
             
 Any
@@ -3690,8 +3648,6 @@ On
 20th
 pushes
 "
-full
--
 backstop
 "
 will
@@ -3711,8 +3667,6 @@ On
 10th
 pushes
 "
-full
--
 backstop
 "
 allows
@@ -3776,8 +3730,6 @@ All
 (
             
 '
-full
--
 backstop
 '
             
@@ -3818,15 +3770,11 @@ All
 (
             
 '
-backstop
+push
+-
+interval
 -
 10
--
-pushes
--
-2
--
-hours
 '
             
 Any
