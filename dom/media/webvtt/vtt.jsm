@@ -9273,10 +9273,9 @@ controlBarShown
 controlBar
 ?
 !
-!
 controlBar
 .
-clientHeight
+hidden
 :
 false
 ;
