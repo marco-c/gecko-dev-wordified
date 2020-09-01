@@ -720,9 +720,9 @@ ChromiumCDMParent
 >
 mCDM
 ;
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
 mGMPThread
 ;

@@ -233,7 +233,7 @@ ChromiumCDMProxy
 )
 mGMPThread
 (
-GetGMPAbstractThread
+GetGMPThread
 (
 )
 )
@@ -465,9 +465,9 @@ aTopLevelOrigin
 aGMPName
 )
 ;
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
 thread
 =
@@ -1379,9 +1379,12 @@ IsOnOwnerThread
 {
 return
 mGMPThread
+&
+&
+mGMPThread
 -
 >
-IsCurrentThreadIn
+IsOnCurrentThread
 (
 )
 ;

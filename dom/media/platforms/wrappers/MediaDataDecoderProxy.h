@@ -188,7 +188,7 @@ MediaDataDecoderProxy
 (
 already_AddRefed
 <
-AbstractThread
+nsISerialEventTarget
 >
 aProxyThread
 )
@@ -379,9 +379,9 @@ MediaDataDecoder
 >
 mProxyDecoder
 ;
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
 mProxyThread
 ;

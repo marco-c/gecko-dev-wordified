@@ -205,6 +205,7 @@ bool
 CanDecodeBatch
 (
 )
+const
 override
 {
 return
@@ -350,7 +351,7 @@ mDecoder
 ;
 RefPtr
 <
-AbstractThread
+TaskQueue
 >
 mTaskQueue
 ;

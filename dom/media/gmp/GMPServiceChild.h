@@ -138,9 +138,9 @@ include
 "
 mozilla
 /
-ipc
+gmp
 /
-Transport
+PGMPServiceChild
 .
 h
 "
@@ -149,9 +149,9 @@ include
 "
 mozilla
 /
-gmp
+ipc
 /
-PGMPServiceChild
+Transport
 .
 h
 "
@@ -289,7 +289,7 @@ protected
 void
 InitializePlugins
 (
-AbstractThread
+nsISerialEventTarget
 *
 )
 override

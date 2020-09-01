@@ -124,6 +124,11 @@ define
 MediaTimer_h_
 #
 include
+<
+queue
+>
+#
+include
 "
 mozilla
 /
@@ -192,11 +197,6 @@ nsITimer
 .
 h
 "
-#
-include
-<
-queue
->
 namespace
 mozilla
 {
@@ -804,7 +804,7 @@ public
 explicit
 DelayedScheduler
 (
-AbstractThread
+nsISerialEventTarget
 *
 aTargetThread
 bool
@@ -857,7 +857,7 @@ MOZ_ASSERT
 mTargetThread
 -
 >
-IsCurrentThreadIn
+IsOnCurrentThread
 (
 )
 "
@@ -915,7 +915,7 @@ MOZ_ASSERT
 mTargetThread
 -
 >
-IsCurrentThreadIn
+IsOnCurrentThread
 (
 )
 )
@@ -997,7 +997,7 @@ MOZ_ASSERT
 mTargetThread
 -
 >
-IsCurrentThreadIn
+IsOnCurrentThread
 (
 )
 )
@@ -1017,9 +1017,9 @@ TimeStamp
 }
 private
 :
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
 mTargetThread
 ;
