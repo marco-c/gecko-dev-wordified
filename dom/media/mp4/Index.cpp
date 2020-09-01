@@ -2294,7 +2294,6 @@ groupIndex
 Result
 <
 CryptoScheme
-const
 nsCString
 >
 SampleIterator

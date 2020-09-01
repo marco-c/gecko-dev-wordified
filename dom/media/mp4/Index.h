@@ -294,7 +294,6 @@ scheme
 Result
 <
 CryptoScheme
-const
 nsCString
 >
 GetEncryptionScheme
