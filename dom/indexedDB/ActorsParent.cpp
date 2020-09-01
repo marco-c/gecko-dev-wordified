@@ -23885,9 +23885,10 @@ IsVoid
 )
 {
 return
-Err
+connectionOrErr
+.
+propagateErr
 (
-rv
 )
 ;
 }
