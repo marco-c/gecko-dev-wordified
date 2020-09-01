@@ -2656,14 +2656,14 @@ pdfjsVersion
 .
 6
 .
-302
+318
 '
 ;
 const
 pdfjsBuild
 =
 '
-0f4fc12c
+a6f66891
 '
 ;
 ;
@@ -12126,7 +12126,7 @@ apiVersion
 .
 6
 .
-302
+318
 '
 source
 :
@@ -21284,7 +21284,7 @@ version
 .
 6
 .
-302
+318
 '
 ;
 exports
@@ -21297,7 +21297,7 @@ const
 build
 =
 '
-0f4fc12c
+a6f66891
 '
 ;
 exports
@@ -33051,6 +33051,8 @@ scaledAccentX
 =
 scaledX
 +
+fontSize
+*
 accent
 .
 offset
@@ -33063,6 +33065,8 @@ scaledAccentY
 =
 scaledY
 -
+fontSize
+*
 accent
 .
 offset
