@@ -21326,6 +21326,11 @@ GetSeqFrameAndCountPages
 (
 )
 ;
+Unused
+<
+<
+pageCount
+;
 if
 (
 !
