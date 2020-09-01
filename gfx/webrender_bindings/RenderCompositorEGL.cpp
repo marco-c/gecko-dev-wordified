@@ -462,6 +462,10 @@ mEGLSurface
 (
 EGL_NO_SURFACE
 )
+mBufferAge
+(
+0
+)
 {
 }
 RenderCompositorEGL

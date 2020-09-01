@@ -366,6 +366,10 @@ mGL
 (
 aGL
 )
+mBufferAge
+(
+0
+)
 {
 MOZ_ASSERT
 (
