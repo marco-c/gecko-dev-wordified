@@ -4625,9 +4625,6 @@ class
 MediaStreamTrackListener
 ;
 class
-FirstFrameListener
-;
-class
 ShutdownObserver
 ;
 class
