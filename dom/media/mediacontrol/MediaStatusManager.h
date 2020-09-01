@@ -1556,6 +1556,11 @@ GetSupportedActions
 )
 const
 ;
+void
+StoreMediaSessionContextIdOnWindowContext
+(
+)
+;
 /
 /
 When
