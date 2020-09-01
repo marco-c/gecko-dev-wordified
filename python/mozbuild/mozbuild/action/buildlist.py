@@ -118,6 +118,14 @@ ensureParentDir
     
 lock_file
 )
+from
+mozbuild
+.
+action
+.
+util
+import
+log_build_task
 def
 addEntriesToListFile
 (
@@ -389,8 +397,9 @@ sys
 .
 exit
 (
-main
+log_build_task
 (
+main
 sys
 .
 argv
