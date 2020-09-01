@@ -1413,6 +1413,7 @@ ExitFromType
 eChild
 eTopLevel
 ePuppet
+ePuppetParentToPuppetChild
 }
 ;
 protected
