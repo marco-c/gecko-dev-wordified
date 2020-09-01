@@ -141,6 +141,15 @@ Parser
 .
 h
 "
+#
+include
+"
+frontend
+/
+ParserAtom
+.
+h
+"
 namespace
 js
 {
