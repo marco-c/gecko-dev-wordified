@@ -963,7 +963,7 @@ _histogramBookmarkRoots
 =
 MigrationUtils
 .
-SOURCE_BOOKMARK_ROOTS_BOOKMARKS_UNFILED
+SOURCE_BOOKMARK_ROOTS_UNFILED
 ;
 break
 ;
