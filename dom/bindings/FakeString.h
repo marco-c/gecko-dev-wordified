@@ -690,16 +690,9 @@ Length
 mozilla
 :
 :
-Result
-<
-mozilla
-:
-:
 BulkWriteHandle
 <
 CharT
->
-nsresult
 >
 BulkWrite
 (
@@ -709,6 +702,9 @@ size_type
 aPrefixToPreserve
 bool
 aAllowShrinking
+nsresult
+&
+aRv
 )
 {
 MOZ_ASSERT
@@ -742,6 +738,7 @@ BulkWrite
 aCapacity
 aPrefixToPreserve
 aAllowShrinking
+aRv
 )
 ;
 }
