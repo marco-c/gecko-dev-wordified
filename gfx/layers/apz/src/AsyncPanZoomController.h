@@ -4776,7 +4776,7 @@ offset
 *
 /
 void
-SetScrollOffset
+SetVisualScrollOffset
 (
 const
 CSSPoint
@@ -4811,7 +4811,7 @@ range
 *
 /
 void
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 const
 CSSPoint

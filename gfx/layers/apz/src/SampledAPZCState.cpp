@@ -161,7 +161,7 @@ GetLayoutViewport
 (
 )
 )
-mScrollOffset
+mVisualScrollOffset
 (
 aMetrics
 .
@@ -209,7 +209,7 @@ GetLayoutViewport
 (
 )
 )
-mScrollOffset
+mVisualScrollOffset
 (
 aMetrics
 .
@@ -287,12 +287,12 @@ mLayoutViewport
 )
 &
 &
-mScrollOffset
+mVisualScrollOffset
 =
 =
 aOther
 .
-mScrollOffset
+mVisualScrollOffset
 &
 &
 mZoom
@@ -370,7 +370,7 @@ GetLayoutViewport
 (
 )
 ;
-mScrollOffset
+mVisualScrollOffset
 =
 aMetrics
 .
@@ -404,7 +404,7 @@ void
 SampledAPZCState
 :
 :
-ClampScrollOffset
+ClampVisualScrollOffset
 (
 const
 FrameMetrics
@@ -412,7 +412,7 @@ FrameMetrics
 aMetrics
 )
 {
-mScrollOffset
+mVisualScrollOffset
 =
 aMetrics
 .
@@ -422,7 +422,7 @@ CalculateScrollRange
 .
 ClampPoint
 (
-mScrollOffset
+mVisualScrollOffset
 )
 ;
 FrameMetrics
@@ -432,7 +432,7 @@ KeepLayoutViewportEnclosingVisualViewport
 (
 CSSRect
 (
-mScrollOffset
+mVisualScrollOffset
 aMetrics
 .
 CalculateCompositedSizeInCssPixels
@@ -669,7 +669,7 @@ TopLeft
 )
 =
 =
-mScrollOffset
+mVisualScrollOffset
 )
 {
 return
@@ -689,7 +689,7 @@ mZoom
 ParentLayerPoint
 asyncOffset
 =
-mScrollOffset
+mVisualScrollOffset
 *
 mZoom
 ;
@@ -719,7 +719,7 @@ COORDINATE_EPSILON
 )
 )
 {
-mScrollOffset
+mVisualScrollOffset
 =
 mLayoutViewport
 .

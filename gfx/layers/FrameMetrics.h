@@ -407,7 +407,7 @@ uint32_t
 mScrollGeneration
 ;
 CSSPoint
-mScrollOffset
+mLayoutScrollOffset
 ;
 CSSPoint
 mBaseScrollOffset
@@ -2189,7 +2189,7 @@ aOther
 mBaseScrollOffset
 )
 ;
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 origin
 +
@@ -2431,7 +2431,7 @@ SetLayoutScrollOffset
 (
 aInfo
 .
-mScrollOffset
+mLayoutScrollOffset
 )
 ;
 mBaseScrollOffset
@@ -2674,7 +2674,7 @@ scroll
 range
 .
 void
-ClampAndSetScrollOffset
+ClampAndSetVisualScrollOffset
 (
 const
 CSSPoint
