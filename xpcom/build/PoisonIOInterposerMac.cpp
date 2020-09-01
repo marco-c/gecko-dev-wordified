@@ -121,6 +121,18 @@ PoisonIOInterposer
 .
 h
 "
+/
+/
+Disabled
+until
+bug
+1658385
+is
+fixed
+.
+#
+ifndef
+__aarch64__
 #
 include
 "
@@ -128,6 +140,8 @@ mach_override
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -2422,6 +2436,9 @@ Function
 continue
 ;
 }
+#
+ifndef
+__aarch64__
 DebugOnly
 <
 mach_error_t
@@ -2453,6 +2470,8 @@ t
 err_none
 )
 ;
+#
+endif
 }
 }
 void
