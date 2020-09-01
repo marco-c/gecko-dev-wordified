@@ -3031,10 +3031,10 @@ mozSystemGroup
 true
 }
 }
+}
 allFrames
 :
 true
-}
 }
 }
 }
@@ -3149,10 +3149,10 @@ capture
 true
 }
 }
+}
 allFrames
 :
 true
-}
 }
 }
 }
