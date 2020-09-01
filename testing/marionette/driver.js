@@ -411,19 +411,7 @@ js
 ;
 const
 {
-ElementNotInteractableError
-InsecureCertificateError
-InvalidArgumentError
-InvalidCookieDomainError
-InvalidSelectorError
-NoSuchAlertError
-NoSuchFrameError
-NoSuchWindowError
-SessionNotCreatedError
-UnexpectedAlertOpenError
-UnknownError
-UnsupportedOperationError
-WebDriverError
+error
 }
 =
 ChromeUtils
@@ -2497,6 +2485,8 @@ else
 {
 throw
 new
+error
+.
 NoSuchWindowError
 (
 "
@@ -3040,6 +3030,8 @@ true
 ;
 throw
 new
+error
+.
 NoSuchWindowError
 (
 "
@@ -5405,6 +5397,8 @@ sessionID
 {
 throw
 new
+error
+.
 SessionNotCreatedError
 (
 "
@@ -5515,6 +5509,8 @@ e
 {
 throw
 new
+error
+.
 SessionNotCreatedError
 (
 e
@@ -5994,6 +5990,8 @@ else
 {
 throw
 new
+error
+.
 WebDriverError
 (
 "
@@ -8261,6 +8259,8 @@ e
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Malformed
@@ -10260,6 +10260,8 @@ i
 }
 throw
 new
+error
+.
 UnknownError
 (
 "
@@ -11106,6 +11108,8 @@ else
 {
 throw
 new
+error
+.
 NoSuchWindowError
 (
 Unable
@@ -12281,6 +12285,8 @@ certerror
 {
 throw
 new
+error
+.
 InsecureCertificateError
 (
 )
@@ -12299,6 +12305,8 @@ documentURI
 {
 throw
 new
+error
+.
 UnknownError
 (
 "
@@ -12399,6 +12407,8 @@ length
 {
 throw
 new
+error
+.
 NoSuchFrameError
 (
 Unable
@@ -12469,6 +12479,8 @@ context
 {
 throw
 new
+error
+.
 NoSuchFrameError
 (
 Unable
@@ -12760,6 +12772,8 @@ Chrome
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -13576,6 +13590,8 @@ using
 {
 throw
 new
+error
+.
 InvalidSelectorError
 (
 Strategy
@@ -13864,6 +13880,8 @@ using
 {
 throw
 new
+error
+.
 InvalidSelectorError
 (
 Strategy
@@ -17946,6 +17964,8 @@ protocol
 {
 throw
 new
+error
+.
 InvalidCookieDomainError
 (
 "
@@ -20694,6 +20714,8 @@ mozOr
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 Unknown
@@ -20721,6 +20743,8 @@ mozOr
 {
 throw
 new
+error
+.
 WebDriverError
 (
 Unable
@@ -22077,6 +22101,8 @@ confirm
 :
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 User
@@ -22109,6 +22135,8 @@ dismissDialog
 ;
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 User
@@ -22185,6 +22213,8 @@ ui
 {
 throw
 new
+error
+.
 NoSuchAlertError
 (
 )
@@ -22282,6 +22312,8 @@ acceptDialog
 ;
 throw
 new
+error
+.
 UnexpectedAlertOpenError
 (
 Accepted
@@ -22322,6 +22354,8 @@ dismissDialog
 ;
 throw
 new
+error
+.
 UnexpectedAlertOpenError
 (
 Dismissed
@@ -22341,6 +22375,8 @@ Ignore
 :
 throw
 new
+error
+.
 UnexpectedAlertOpenError
 (
 "
@@ -22903,6 +22939,8 @@ quitSeen
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 {
@@ -23075,6 +23113,8 @@ boolean
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 )
@@ -23139,6 +23179,8 @@ string
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 )
@@ -23476,6 +23518,8 @@ urls
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -23506,6 +23550,8 @@ string
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -23665,6 +23711,8 @@ urls
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -23695,6 +23743,8 @@ string
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -23754,6 +23804,8 @@ _reftest
 {
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -23786,6 +23838,8 @@ Chrome
 {
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -23843,6 +23897,8 @@ screenshot
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -23936,6 +23992,8 @@ _reftest
 {
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -24046,6 +24104,8 @@ _reftest
 {
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 "

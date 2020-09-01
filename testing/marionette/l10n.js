@@ -250,7 +250,7 @@ parser
 ;
 const
 {
-NoSuchElementError
+error
 }
 =
 ChromeUtils
@@ -572,6 +572,8 @@ null
 {
 throw
 new
+error
+.
 NoSuchElementError
 (
 Entity
@@ -762,6 +764,8 @@ null
 {
 throw
 new
+error
+.
 NoSuchElementError
 (
 Property

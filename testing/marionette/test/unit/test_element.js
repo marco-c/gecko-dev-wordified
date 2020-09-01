@@ -2801,7 +2801,9 @@ from
 {
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 run_next_test
@@ -3106,7 +3108,9 @@ fromJSON
 {
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -3123,7 +3127,9 @@ fromJSON
 (
 null
 )
+/
 InvalidArgumentError
+/
 )
 ;
 run_next_test
@@ -3223,7 +3229,9 @@ baz
 bah
 "
 )
+/
 InvalidArgumentError
+/
 )
 ;
 run_next_test
@@ -3507,7 +3515,9 @@ fromJSON
 {
 }
 )
+/
 InvalidArgumentError
+/
 )
 ;
 run_next_test

@@ -161,8 +161,7 @@ js
 ;
 const
 {
-JavaScriptError
-ScriptTimeoutError
+error
 }
 =
 ChromeUtils
@@ -823,6 +822,8 @@ setTimeout
 reject
 (
 new
+error
+.
 ScriptTimeoutError
 (
 Timed
@@ -973,6 +974,8 @@ cloneInto
 reject
 (
 new
+error
+.
 JavaScriptError
 (
 "
@@ -1186,6 +1189,8 @@ if
 (
 err
 instanceof
+error
+.
 ScriptTimeoutError
 )
 {
@@ -1195,6 +1200,8 @@ err
 }
 throw
 new
+error
+.
 JavaScriptError
 (
 err

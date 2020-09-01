@@ -58,8 +58,7 @@ MPL
 /
 const
 {
-InvalidArgumentError
-WebDriverError
+error
 }
 =
 ChromeUtils
@@ -428,6 +427,8 @@ errorResp
 error
 =
 new
+error
+.
 WebDriverError
 (
 "
@@ -1173,6 +1174,8 @@ resp
 sendError
 (
 new
+error
+.
 WebDriverError
 (
 )
@@ -1243,6 +1246,8 @@ resp
 sendError
 (
 new
+error
+.
 WebDriverError
 (
 )
@@ -1266,6 +1271,8 @@ let
 err1
 =
 new
+error
+.
 WebDriverError
 (
 )
@@ -1314,6 +1321,8 @@ let
 err2
 =
 new
+error
+.
 InvalidArgumentError
 (
 )
@@ -1741,7 +1750,9 @@ foo
 }
 ]
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -1766,7 +1777,9 @@ foo
 }
 ]
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -1791,7 +1804,9 @@ foo
 }
 ]
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Assert
@@ -1814,7 +1829,9 @@ null
 }
 ]
 )
+/
 InvalidArgumentError
+/
 )
 ;
 Response

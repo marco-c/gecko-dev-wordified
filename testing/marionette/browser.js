@@ -165,8 +165,7 @@ js
 ;
 const
 {
-NoSuchWindowError
-UnsupportedOperationError
+error
 }
 =
 ChromeUtils
@@ -2024,6 +2023,8 @@ default
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 openWindow
@@ -2229,6 +2230,8 @@ default
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 closeTab
@@ -2481,6 +2484,8 @@ default
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 openTab
@@ -2755,6 +2760,8 @@ default
 :
 throw
 new
+error
+.
 UnsupportedOperationError
 (
 switchToTab

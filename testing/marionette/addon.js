@@ -111,7 +111,7 @@ jsm
 ;
 const
 {
-UnknownError
+error
 }
 =
 ChromeUtils
@@ -297,6 +297,8 @@ error
 {
 throw
 new
+error
+.
 UnknownError
 (
 ERRORS
@@ -323,6 +325,8 @@ err
 {
 throw
 new
+error
+.
 UnknownError
 (
 ERRORS
@@ -512,6 +516,8 @@ e
 {
 throw
 new
+error
+.
 UnknownError
 (
 Expected
@@ -537,6 +543,8 @@ exists
 {
 throw
 new
+error
+.
 UnknownError
 (
 No
@@ -588,6 +596,8 @@ e
 {
 throw
 new
+error
+.
 UnknownError
 (
 Could
@@ -749,6 +759,8 @@ listener
 ;
 throw
 new
+error
+.
 UnknownError
 (
 Uninstall

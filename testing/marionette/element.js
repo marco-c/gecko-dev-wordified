@@ -117,10 +117,7 @@ js
 ;
 const
 {
-InvalidArgumentError
-InvalidSelectorError
-NoSuchElementError
-StaleElementReferenceError
+error
 }
 =
 ChromeUtils
@@ -1413,6 +1410,8 @@ webEl
 {
 throw
 new
+error
+.
 NoSuchElementError
 (
 "
@@ -1486,6 +1485,8 @@ win
 {
 throw
 new
+error
+.
 StaleElementReferenceError
 (
 pprint
@@ -2179,6 +2180,8 @@ selector
 reject
 (
 new
+error
+.
 NoSuchElementError
 (
 msg
@@ -2284,6 +2287,8 @@ e
 {
 throw
 new
+error
+.
 InvalidSelectorError
 (
 Given
@@ -3356,6 +3361,8 @@ e
 {
 throw
 new
+error
+.
 InvalidSelectorError
 (
 {
@@ -3375,6 +3382,8 @@ selector
 }
 throw
 new
+error
+.
 InvalidSelectorError
 (
 No
@@ -3709,6 +3718,8 @@ default
 :
 throw
 new
+error
+.
 InvalidSelectorError
 (
 No
@@ -9188,6 +9199,8 @@ uuid
 }
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -9414,6 +9427,8 @@ json
 }
 throw
 new
+error
+.
 InvalidArgumentError
 (
 pprint
@@ -9689,6 +9704,8 @@ default
 :
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -9999,6 +10016,8 @@ json
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 pprint
@@ -10140,6 +10159,8 @@ json
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 pprint
@@ -10302,6 +10323,8 @@ json
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 pprint
@@ -10424,6 +10447,8 @@ json
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "

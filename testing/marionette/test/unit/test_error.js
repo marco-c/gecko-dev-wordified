@@ -58,33 +58,7 @@ MPL
 /
 const
 {
-ElementClickInterceptedError
-ElementNotAccessibleError
-ElementNotInteractableError
 error
-InsecureCertificateError
-InvalidArgumentError
-InvalidCookieDomainError
-InvalidElementStateError
-InvalidSelectorError
-InvalidSessionIDError
-JavaScriptError
-MoveTargetOutOfBoundsError
-NoSuchAlertError
-NoSuchElementError
-NoSuchFrameError
-NoSuchWindowError
-ScriptTimeoutError
-SessionNotCreatedError
-stack
-StaleElementReferenceError
-TimeoutError
-UnableToSetCookieError
-UnexpectedAlertOpenError
-UnknownCommandError
-UnknownError
-UnsupportedOperationError
-WebDriverError
 }
 =
 ChromeUtils
@@ -286,6 +260,8 @@ error
 isError
 (
 new
+error
+.
 WebDriverError
 (
 )
@@ -299,6 +275,8 @@ error
 isError
 (
 new
+error
+.
 InvalidArgumentError
 (
 )
@@ -445,6 +423,8 @@ error
 isWebDriverError
 (
 new
+error
+.
 WebDriverError
 (
 )
@@ -458,6 +438,8 @@ error
 isWebDriverError
 (
 new
+error
+.
 InvalidArgumentError
 (
 )
@@ -471,6 +453,8 @@ error
 isWebDriverError
 (
 new
+error
+.
 JavaScriptError
 (
 )
@@ -508,6 +492,8 @@ error
 wrap
 (
 new
+error
+.
 WebDriverError
 (
 )
@@ -526,11 +512,15 @@ error
 wrap
 (
 new
+error
+.
 WebDriverError
 (
 )
 )
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -541,6 +531,8 @@ error
 wrap
 (
 new
+error
+.
 InvalidArgumentError
 (
 )
@@ -559,11 +551,15 @@ error
 wrap
 (
 new
+error
+.
 InvalidArgumentError
 (
 )
 )
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -574,11 +570,15 @@ error
 wrap
 (
 new
+error
+.
 InvalidArgumentError
 (
 )
 )
 instanceof
+error
+.
 InvalidArgumentError
 )
 ;
@@ -621,6 +621,8 @@ Error
 )
 )
 instanceof
+error
+.
 UnknownError
 )
 ;
@@ -774,6 +776,8 @@ error
 wrap
 (
 new
+error
+.
 WebDriverError
 (
 "
@@ -943,6 +947,8 @@ error
 stringify
 (
 new
+error
+.
 WebDriverError
 (
 "
@@ -975,6 +981,8 @@ error
 stringify
 (
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -1015,6 +1023,8 @@ equal
 string
 "
 typeof
+error
+.
 stack
 (
 )
@@ -1022,6 +1032,8 @@ stack
 ;
 ok
 (
+error
+.
 stack
 (
 )
@@ -1037,6 +1049,8 @@ test_stack
 ok
 (
 !
+error
+.
 stack
 (
 )
@@ -1067,6 +1081,8 @@ let
 e0
 =
 new
+error
+.
 WebDriverError
 (
 )
@@ -1114,6 +1130,8 @@ let
 e1
 =
 new
+error
+.
 WebDriverError
 (
 "
@@ -1154,6 +1172,8 @@ let
 e2
 =
 new
+error
+.
 JavaScriptError
 (
 "
@@ -1212,6 +1232,8 @@ throws
 )
 =
 >
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1240,6 +1262,8 @@ throws
 )
 =
 >
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1268,6 +1292,8 @@ throws
 )
 =
 >
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1290,6 +1316,8 @@ throws
 )
 =
 >
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1311,6 +1339,8 @@ let
 e1
 =
 new
+error
+.
 WebDriverError
 (
 "
@@ -1321,6 +1351,8 @@ WebDriverError
 let
 e1r
 =
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1344,6 +1376,8 @@ ok
 (
 e1r
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -1387,6 +1421,8 @@ let
 e2
 =
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -1397,6 +1433,8 @@ InvalidArgumentError
 let
 e2r
 =
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1420,6 +1458,8 @@ ok
 (
 e2r
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -1427,6 +1467,8 @@ ok
 (
 e2r
 instanceof
+error
+.
 InvalidArgumentError
 )
 ;
@@ -1490,6 +1532,8 @@ stacktrace
 let
 e3r
 =
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1501,6 +1545,8 @@ ok
 (
 e3r
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -1508,6 +1554,8 @@ ok
 (
 e3r
 instanceof
+error
+.
 NoSuchElementError
 )
 ;
@@ -1560,6 +1608,8 @@ let
 e4j
 =
 new
+error
+.
 JavaScriptError
 (
 "
@@ -1574,6 +1624,8 @@ toJSON
 let
 e4
 =
+error
+.
 WebDriverError
 .
 fromJSON
@@ -1629,6 +1681,8 @@ let
 err
 =
 new
+error
+.
 WebDriverError
 (
 "
@@ -1671,6 +1725,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -1791,6 +1847,8 @@ let
 err1
 =
 new
+error
+.
 ElementClickInterceptedError
 (
 obscuredEl
@@ -1863,6 +1921,8 @@ ok
 (
 err1
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -1880,6 +1940,8 @@ let
 err2
 =
 new
+error
+.
 ElementClickInterceptedError
 (
 obscuredEl
@@ -1957,6 +2019,8 @@ let
 err
 =
 new
+error
+.
 ElementNotAccessibleError
 (
 "
@@ -2000,6 +2064,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2021,6 +2087,8 @@ let
 err
 =
 new
+error
+.
 ElementNotInteractableError
 (
 "
@@ -2064,6 +2132,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2085,6 +2155,8 @@ let
 err
 =
 new
+error
+.
 InsecureCertificateError
 (
 "
@@ -2127,6 +2199,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2148,6 +2222,8 @@ let
 err
 =
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -2190,6 +2266,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2211,6 +2289,8 @@ let
 err
 =
 new
+error
+.
 InvalidCookieDomainError
 (
 "
@@ -2254,6 +2334,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2275,6 +2357,8 @@ let
 err
 =
 new
+error
+.
 InvalidElementStateError
 (
 "
@@ -2318,6 +2402,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2339,6 +2425,8 @@ let
 err
 =
 new
+error
+.
 InvalidSelectorError
 (
 "
@@ -2381,6 +2469,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2402,6 +2492,8 @@ let
 err
 =
 new
+error
+.
 InvalidSessionIDError
 (
 "
@@ -2445,6 +2537,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2466,6 +2560,8 @@ let
 err
 =
 new
+error
+.
 JavaScriptError
 (
 "
@@ -2508,6 +2604,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2516,6 +2614,8 @@ equal
 "
 "
 new
+error
+.
 JavaScriptError
 (
 undefined
@@ -2539,6 +2639,8 @@ let
 inheritedErr
 =
 new
+error
+.
 JavaScriptError
 (
 superErr
@@ -2584,6 +2686,8 @@ let
 err
 =
 new
+error
+.
 MoveTargetOutOfBoundsError
 (
 "
@@ -2629,6 +2733,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2650,6 +2756,8 @@ let
 err
 =
 new
+error
+.
 NoSuchAlertError
 (
 "
@@ -2693,6 +2801,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2714,6 +2824,8 @@ let
 err
 =
 new
+error
+.
 NoSuchElementError
 (
 "
@@ -2757,6 +2869,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2778,6 +2892,8 @@ let
 err
 =
 new
+error
+.
 NoSuchFrameError
 (
 "
@@ -2821,6 +2937,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2842,6 +2960,8 @@ let
 err
 =
 new
+error
+.
 NoSuchWindowError
 (
 "
@@ -2885,6 +3005,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2906,6 +3028,8 @@ let
 err
 =
 new
+error
+.
 ScriptTimeoutError
 (
 "
@@ -2948,6 +3072,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -2969,6 +3095,8 @@ let
 err
 =
 new
+error
+.
 SessionNotCreatedError
 (
 "
@@ -3012,6 +3140,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3033,6 +3163,8 @@ let
 err
 =
 new
+error
+.
 StaleElementReferenceError
 (
 "
@@ -3076,6 +3208,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3097,6 +3231,8 @@ let
 err
 =
 new
+error
+.
 TimeoutError
 (
 "
@@ -3138,6 +3274,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3159,6 +3297,8 @@ let
 err
 =
 new
+error
+.
 UnableToSetCookieError
 (
 "
@@ -3203,6 +3343,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3224,6 +3366,8 @@ let
 err
 =
 new
+error
+.
 UnexpectedAlertOpenError
 (
 "
@@ -3267,6 +3411,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3288,6 +3434,8 @@ let
 err
 =
 new
+error
+.
 UnknownCommandError
 (
 "
@@ -3330,6 +3478,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3351,6 +3501,8 @@ let
 err
 =
 new
+error
+.
 UnknownError
 (
 "
@@ -3393,6 +3545,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;
@@ -3414,6 +3568,8 @@ let
 err
 =
 new
+error
+.
 UnsupportedOperationError
 (
 "
@@ -3456,6 +3612,8 @@ ok
 (
 err
 instanceof
+error
+.
 WebDriverError
 )
 ;

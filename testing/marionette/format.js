@@ -199,6 +199,7 @@ Cu
 .
 import
 (
+*
 "
 chrome
 :
@@ -208,14 +209,16 @@ marionette
 /
 content
 /
-error
+format
 .
 js
 "
 {
 }
+*
 )
 ;
+*
 *
 let
 bool

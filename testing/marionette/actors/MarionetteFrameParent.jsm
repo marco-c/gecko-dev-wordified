@@ -122,7 +122,7 @@ jsm
 ;
 const
 {
-WebDriverError
+error
 }
 =
 ChromeUtils
@@ -331,6 +331,8 @@ result
 )
 {
 throw
+error
+.
 WebDriverError
 .
 fromJSON

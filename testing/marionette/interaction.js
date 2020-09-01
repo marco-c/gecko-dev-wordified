@@ -195,10 +195,7 @@ js
 ;
 const
 {
-ElementClickInterceptedError
-ElementNotInteractableError
-InvalidArgumentError
-InvalidElementStateError
+error
 }
 =
 ChromeUtils
@@ -931,6 +928,8 @@ file
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -1041,6 +1040,8 @@ containerEl
 {
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 pprint
@@ -1096,6 +1097,8 @@ containerEl
 {
 throw
 new
+error
+.
 ElementClickInterceptedError
 (
 containerEl
@@ -1250,6 +1253,8 @@ el
 {
 throw
 new
+error
+.
 InvalidElementStateError
 (
 "
@@ -1385,6 +1390,8 @@ visibilityCheckEl
 {
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 )
@@ -1403,6 +1410,8 @@ el
 {
 throw
 new
+error
+.
 InvalidElementStateError
 (
 "
@@ -2132,6 +2141,8 @@ el
 {
 throw
 new
+error
+.
 InvalidElementStateError
 (
 pprint
@@ -2157,6 +2168,8 @@ el
 {
 throw
 new
+error
+.
 InvalidElementStateError
 (
 pprint
@@ -2185,6 +2198,8 @@ el
 {
 throw
 new
+error
+.
 InvalidElementStateError
 (
 pprint
@@ -2235,6 +2250,8 @@ el
 {
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 pprint
@@ -2344,6 +2361,8 @@ el
 {
 throw
 new
+error
+.
 InvalidElementStateError
 (
 pprint
@@ -3253,6 +3272,8 @@ length
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 pprint
@@ -3300,6 +3321,8 @@ e
 {
 throw
 new
+error
+.
 InvalidArgumentError
 (
 "
@@ -3702,6 +3725,8 @@ containerEl
 {
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 pprint
@@ -3980,6 +4005,8 @@ visibilityCheckEl
 {
 throw
 new
+error
+.
 ElementNotInteractableError
 (
 "
