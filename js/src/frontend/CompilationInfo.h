@@ -1445,6 +1445,11 @@ reference
 Vector
 <
 ScopeStencil
+0
+js
+:
+:
+SystemAllocPolicy
 >
 scopeData
 ;
@@ -1505,10 +1510,6 @@ JSContext
 cx
 )
 :
-scopeData
-(
-cx
-)
 moduleMetadata
 (
 cx
