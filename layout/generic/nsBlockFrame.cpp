@@ -41906,7 +41906,7 @@ nsFrameList
 *
 result
 =
-GetPropTableFrames
+GetProperty
 (
 OverflowOutOfFlowsProperty
 (
@@ -42002,7 +42002,7 @@ nsFrameList
 *
 list
 =
-RemovePropTableFrames
+TakeProperty
 (
 OverflowOutOfFlowsProperty
 (
@@ -42059,7 +42059,7 @@ NS_ASSERTION
 aPropValue
 =
 =
-GetPropTableFrames
+GetProperty
 (
 OverflowOutOfFlowsProperty
 (
