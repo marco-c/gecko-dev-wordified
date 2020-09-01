@@ -1361,7 +1361,7 @@ gfxFontFamily
 aFamilyArray
 )
 ;
-gfxFont
+gfxFontEntry
 *
 SystemFindFontForChar
 (
@@ -1371,8 +1371,6 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
-aPresentation
 const
 gfxFontStyle
 *
@@ -4023,7 +4021,7 @@ given
 character
 null
 otherwise
-gfxFont
+gfxFontEntry
 *
 CommonFontFallback
 (
@@ -4033,8 +4031,6 @@ uint32_t
 aNextCh
 Script
 aRunScript
-eFontPresentation
-aPresentation
 const
 gfxFontStyle
 *
@@ -4060,18 +4056,15 @@ if
 not
 found
 .
-gfxFont
+gfxFontEntry
 *
 GlobalFontFallback
 (
+const
 uint32_t
 aCh
-uint32_t
-aNextCh
 Script
 aRunScript
-eFontPresentation
-aPresentation
 const
 gfxFontStyle
 *
