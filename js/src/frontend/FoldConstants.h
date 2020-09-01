@@ -129,6 +129,9 @@ js
 namespace
 frontend
 {
+struct
+CompilationInfo
+;
 class
 FullParseHandler
 ;
@@ -289,13 +292,16 @@ FoldConstants
 JSContext
 *
 cx
+CompilationInfo
+&
+compilationInfo
 ParseNode
 *
 *
 pnp
 FullParseHandler
 *
-parser
+handler
 )
 ;
 inline
@@ -306,6 +312,9 @@ FoldConstants
 JSContext
 *
 cx
+CompilationInfo
+&
+compilationInfo
 typename
 SyntaxParseHandler
 :
@@ -315,7 +324,7 @@ Node
 pnp
 SyntaxParseHandler
 *
-parser
+handler
 )
 {
 return
