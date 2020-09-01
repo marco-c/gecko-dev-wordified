@@ -828,14 +828,8 @@ SwitchEmitter
 :
 emitLexical
 (
-Handle
-<
-LexicalScope
-:
-:
-Data
+ParserLexicalScopeData
 *
->
 bindings
 )
 {

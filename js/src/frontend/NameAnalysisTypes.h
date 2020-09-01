@@ -122,6 +122,15 @@ type_traits
 #
 include
 "
+frontend
+/
+ParserAtom
+.
+h
+"
+#
+include
+"
 vm
 /
 BytecodeUtil
@@ -1969,7 +1978,8 @@ AtomVector
 =
 Vector
 <
-JSAtom
+const
+ParserAtom
 *
 24
 SystemAllocPolicy

@@ -199,11 +199,9 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
-Handle
-<
-JSAtom
+const
+ParserAtom
 *
->
 name
 Kind
 kind
@@ -241,11 +239,9 @@ NameOpEmitter
 BytecodeEmitter
 *
 bce
-Handle
-<
-JSAtom
+const
+ParserAtom
 *
->
 name
 const
 NameLocation

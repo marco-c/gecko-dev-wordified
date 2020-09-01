@@ -160,6 +160,9 @@ frontend
 struct
 BytecodeEmitter
 ;
+class
+ParserAtom
+;
 /
 /
 Class
@@ -1710,7 +1713,8 @@ MOZ_MUST_USE
 bool
 prepareAtomIndex
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -1727,7 +1731,8 @@ MOZ_MUST_USE
 bool
 emitGet
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -1748,7 +1753,8 @@ MOZ_MUST_USE
 bool
 emitDelete
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -1766,7 +1772,8 @@ MOZ_MUST_USE
 bool
 emitAssignment
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -1775,7 +1782,8 @@ MOZ_MUST_USE
 bool
 emitIncDec
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )

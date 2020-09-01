@@ -210,7 +210,8 @@ PropOpEmitter
 :
 prepareAtomIndex
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -295,7 +296,8 @@ PropOpEmitter
 :
 emitGet
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -864,7 +866,8 @@ PropOpEmitter
 :
 emitDelete
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -1120,7 +1123,8 @@ PropOpEmitter
 :
 emitAssignment
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
@@ -1295,7 +1299,8 @@ PropOpEmitter
 :
 emitIncDec
 (
-JSAtom
+const
+ParserAtom
 *
 prop
 )
