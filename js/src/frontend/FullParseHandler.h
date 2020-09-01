@@ -2085,13 +2085,6 @@ elision
 literal
 -
 >
-setHasArrayHoleOrSpread
-(
-)
-;
-literal
--
->
 setHasNonConstInitializer
 (
 )
@@ -2161,13 +2154,6 @@ kid
 *
 /
 spread
-)
-;
-literal
--
->
-setHasArrayHoleOrSpread
-(
 )
 ;
 literal
