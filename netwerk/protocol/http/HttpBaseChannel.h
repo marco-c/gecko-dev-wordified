@@ -2214,6 +2214,12 @@ DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
 )
 override
 ;
+NS_IMETHOD
+SetWaitForHTTPSSVCRecord
+(
+)
+override
+;
 /
 /
 nsISupportsPriority
