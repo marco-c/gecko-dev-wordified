@@ -1475,6 +1475,13 @@ bool
 aMute
 )
 ;
+void
+OnMicrophoneMute
+(
+bool
+aMute
+)
+;
 bool
 IsActivelyCapturingOrHasAPermission
 (
