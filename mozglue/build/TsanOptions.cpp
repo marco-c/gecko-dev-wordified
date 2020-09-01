@@ -1061,6 +1061,16 @@ JSObject
 \
 n
 "
+"
+race
+:
+JSObject
+:
+:
+fixupAfterMovingGC
+\
+n
+"
 /
 /
 Bug
