@@ -785,6 +785,10 @@ enablePropertyErrorMessageFix
 ;
 extern
 bool
+useOffThreadParseGlobal
+;
+extern
+bool
 enableIteratorHelpers
 ;
 extern
