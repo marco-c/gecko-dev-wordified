@@ -1189,6 +1189,13 @@ Clamp_S32_D32_nofilter_trans_shaderproc
 \
 n
 "
+"
+race
+:
+SkSpriteBlitter_Memcpy
+\
+n
+"
 /
 /
 Bug
