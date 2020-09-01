@@ -140,8 +140,10 @@ MOZ_LOG_TEST
 gForwardedInputTrackLog
 type
 )
+UniquePtr
+<
 CrossGraphPort
-*
+>
 CrossGraphPort
 :
 :
@@ -284,8 +286,10 @@ newGraph
 )
 ;
 }
+UniquePtr
+<
 CrossGraphPort
-*
+>
 CrossGraphPort
 :
 :
@@ -409,6 +413,8 @@ transmitter
 )
 ;
 return
+WrapUnique
+(
 new
 CrossGraphPort
 (
@@ -432,6 +438,7 @@ std
 move
 (
 receiver
+)
 )
 )
 ;
