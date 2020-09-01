@@ -2399,7 +2399,7 @@ by
 silence
 .
 void
-SetEnabled
+SetDisabledTrackMode
 (
 DisabledTrackMode
 aMode
@@ -2967,7 +2967,7 @@ aListener
 ;
 virtual
 void
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
@@ -4710,7 +4710,7 @@ track
 enable
 status
 void
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
