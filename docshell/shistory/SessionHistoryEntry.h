@@ -656,7 +656,7 @@ child
 process
 .
 bool
-mIsLoadFromSessionHistory
+mLoadIsFromSessionHistory
 =
 false
 ;
@@ -671,7 +671,7 @@ relevant
 /
 only
 if
-mIsLoadFromSessionHistory
+mLoadIsFromSessionHistory
 is
 true
 .

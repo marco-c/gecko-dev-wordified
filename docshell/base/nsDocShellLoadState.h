@@ -671,6 +671,12 @@ LoadingSessionHistoryInfo
 aLoadingInfo
 )
 ;
+bool
+LoadIsFromSessionHistory
+(
+)
+const
+;
 const
 nsString
 &
@@ -1372,6 +1378,11 @@ int32_t
 aRequestedIndex
 int32_t
 aSessionHistoryLength
+)
+;
+void
+ClearLoadIsFromSessionHistory
+(
 )
 ;
 protected
