@@ -3372,13 +3372,6 @@ aRv
 ;
 }
 }
-nsresult
-SetAllowContentRetargeting
-(
-bool
-aAllowContentRetargeting
-)
-;
 /
 /
 Using
