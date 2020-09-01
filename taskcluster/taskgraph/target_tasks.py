@@ -103,14 +103,6 @@ taskgraph
 .
 util
 .
-backstop
-import
-is_backstop
-from
-taskgraph
-.
-util
-.
 platforms
 import
 platform_family
@@ -2675,10 +2667,12 @@ return
 True
         
 if
-is_backstop
-(
 parameters
-)
+[
+"
+backstop
+"
+]
 :
             
 return

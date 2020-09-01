@@ -123,14 +123,6 @@ taskgraph
 .
 util
 .
-backstop
-import
-is_backstop
-from
-taskgraph
-.
-util
-.
 bugbug
 import
 BugbugTimeoutException
@@ -1788,12 +1780,14 @@ timeout
 .
         
 if
-is_backstop
-(
 self
 .
 params
-)
+[
+"
+backstop
+"
+]
 or
 self
 .

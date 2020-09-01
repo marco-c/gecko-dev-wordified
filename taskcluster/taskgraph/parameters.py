@@ -315,6 +315,15 @@ text_type
 Required
 (
 '
+backstop
+'
+)
+:
+bool
+    
+Required
+(
+'
 base_repository
 '
 )
@@ -1001,6 +1010,12 @@ app_version
 get_app_version
 (
 )
+            
+'
+backstop
+'
+:
+False
             
 '
 base_repository
