@@ -1014,6 +1014,7 @@ get
 "
 GET
 request
+update
 "
 )
 ;
@@ -2642,6 +2643,7 @@ error
 "
 GET
 request
+update
 "
 ]
 )
