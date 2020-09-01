@@ -157,6 +157,9 @@ class
 PanGestureInput
 ;
 class
+PinchGestureInput
+;
+class
 KeyboardInput
 ;
 namespace
@@ -176,6 +179,9 @@ DragBlockState
 ;
 class
 PanGestureBlockState
+;
+class
+PinchGestureBlockState
 ;
 class
 KeyboardBlockState
