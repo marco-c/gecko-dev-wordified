@@ -357,7 +357,7 @@ mResolution
 #
 ifdef
 XP_WIN
-nsTArray
+CopyableTArray
 <
 uint8_t
 >
