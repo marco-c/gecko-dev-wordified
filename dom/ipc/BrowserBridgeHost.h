@@ -316,12 +316,9 @@ override
 void
 LoadURL
 (
-nsIURI
+nsDocShellLoadState
 *
-aURI
-nsIPrincipal
-*
-aTriggeringPrincipal
+aLoadState
 )
 override
 ;

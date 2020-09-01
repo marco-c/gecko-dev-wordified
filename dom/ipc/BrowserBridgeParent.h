@@ -405,13 +405,9 @@ ipc
 IPCResult
 RecvLoadURL
 (
-const
-nsCString
-&
-aUrl
-nsIPrincipal
+nsDocShellLoadState
 *
-aTriggeringPrincipal
+aLoadState
 )
 ;
 mozilla
