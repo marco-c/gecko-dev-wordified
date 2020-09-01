@@ -578,10 +578,6 @@ Destroy
 (
 )
 ;
-mSourcePort
-=
-nullptr
-;
 }
 RefPtr
 <
