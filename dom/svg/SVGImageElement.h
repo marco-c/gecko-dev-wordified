@@ -364,7 +364,7 @@ override
 /
 /
 <
-imag
+image
 >
 is
 not
@@ -383,12 +383,12 @@ by
 SVGGeometryElement
 .
 return
-SVGGraphicsElement
-:
-:
-IsNodeOfType
+!
 (
 aFlags
+&
+~
+eUSE_TARGET
 )
 ;
 }
