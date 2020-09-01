@@ -2011,6 +2011,13 @@ request
 "
 ]
 }
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 allFrames
 :
 true
