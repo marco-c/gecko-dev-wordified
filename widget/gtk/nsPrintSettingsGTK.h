@@ -330,6 +330,15 @@ nsPrintSettingsGTK
 (
 )
 ;
+explicit
+nsPrintSettingsGTK
+(
+const
+PrintSettingsInitializer
+&
+aSettings
+)
+;
 /
 /
 We
