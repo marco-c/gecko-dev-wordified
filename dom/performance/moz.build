@@ -158,11 +158,6 @@ PerformanceObserverEntryList
 h
 '
 '
-PerformancePaintTiming
-.
-h
-'
-'
 PerformanceResourceTiming
 .
 h
@@ -239,11 +234,6 @@ cpp
 '
 '
 PerformanceObserverEntryList
-.
-cpp
-'
-'
-PerformancePaintTiming
 .
 cpp
 '
