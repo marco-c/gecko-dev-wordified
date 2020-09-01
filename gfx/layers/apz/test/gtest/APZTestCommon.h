@@ -1002,11 +1002,11 @@ MOCK_METHOD1
 NotifyLayerTransforms
 void
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 )
 )

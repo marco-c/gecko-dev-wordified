@@ -3828,11 +3828,11 @@ const
 uint64_t
 &
 aInputBlockId
-const
 nsTArray
 <
 ScrollableLayerGuid
 >
+&
 &
 aTargets
 )
@@ -3888,7 +3888,13 @@ SetConfirmedTargetAPZC
 (
 aLayersId
 aInputBlockId
+std
+:
+:
+move
+(
 aTargets
+)
 )
 ;
 }

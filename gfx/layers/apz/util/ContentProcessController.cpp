@@ -221,11 +221,11 @@ ContentProcessController
 :
 NotifyLayerTransforms
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 aTransforms
 )

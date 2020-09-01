@@ -945,11 +945,11 @@ const
 uint64_t
 &
 aInputBlockId
-const
 nsTArray
 <
 ScrollableLayerGuid
 >
+&
 &
 aTargets
 )
@@ -2847,11 +2847,11 @@ const
 uint64_t
 &
 aInputBlockId
-const
 nsTArray
 <
 ScrollableLayerGuid
 >
+&
 &
 aTargets
 )

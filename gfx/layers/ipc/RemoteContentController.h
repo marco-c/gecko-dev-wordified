@@ -268,11 +268,11 @@ RemoteContentController
 void
 NotifyLayerTransforms
 (
-const
 nsTArray
 <
 MatrixMessage
 >
+&
 &
 aTransforms
 )
