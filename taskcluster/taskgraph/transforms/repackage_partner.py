@@ -133,7 +133,6 @@ util
 .
 partners
 import
-check_if_partners_enabled
 get_partner_config_by_kind
 from
 taskgraph
@@ -560,12 +559,6 @@ transforms
 =
 TransformSequence
 (
-)
-transforms
-.
-add
-(
-check_if_partners_enabled
 )
 transforms
 .
