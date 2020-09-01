@@ -57,7 +57,7 @@ mediacontrol
 /
 tests
 /
-file_media_session_page
+file_iframe_media
 .
 html
 "
