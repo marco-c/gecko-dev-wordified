@@ -370,6 +370,7 @@ AsyncScreenshotHandle
 Compositor
 CompositorCapabilities
 CompositorConfig
+CompositorSurfaceTransform
 DebugFlags
 Device
 FastHashMap
@@ -389,7 +390,6 @@ ThreadListener
 UploadMethod
 WrShaders
 ONE_TIME_USAGE_HINT
-CompositorSurfaceTransform
 }
 ;
 use
