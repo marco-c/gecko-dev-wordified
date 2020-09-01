@@ -13137,6 +13137,7 @@ webViewerUpdateFindControlState
 state
 previous
 matchesCount
+rawQuery
 }
 )
 {
@@ -13161,6 +13162,7 @@ findPrevious
 :
 previous
 matchesCount
+rawQuery
 }
 )
 ;
@@ -33289,6 +33291,19 @@ this
 _requestMatchesCount
 (
 )
+rawQuery
+:
+this
+.
+_state
+?
+this
+.
+_state
+.
+query
+:
+null
 }
 )
 ;
