@@ -774,13 +774,6 @@ aMaximumSize
 ;
 mSlots
 .
-SetCapacity
-(
-aMaximumSize
-)
-;
-mSlots
-.
 SetLength
 (
 aInitialSize
