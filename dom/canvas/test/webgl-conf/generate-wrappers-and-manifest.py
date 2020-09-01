@@ -80,7 +80,7 @@ os
 from
 pathlib
 import
-*
+Path
 import
 re
 import
@@ -1524,7 +1524,7 @@ lines
 indentLen
 )
 :
-  
+    
 split
 =
 lines
@@ -1536,7 +1536,7 @@ split
 n
 '
 )
-  
+    
 if
 len
 (
@@ -1546,10 +1546,10 @@ split
 =
 1
 :
-      
+        
 return
 lines
-  
+    
 ret
 =
 [
@@ -1558,14 +1558,14 @@ split
 0
 ]
 ]
-  
+    
 indentSpaces
 =
 '
 '
 *
 indentLen
-  
+    
 for
 line
 in
@@ -1575,7 +1575,7 @@ split
 :
 ]
 :
-      
+        
 ret
 .
 append
@@ -1584,7 +1584,7 @@ indentSpaces
 +
 line
 )
-  
+    
 return
 '
 \
@@ -2653,17 +2653,6 @@ in
 wrapperPathStrList
 :
         
-#
-print
-(
-'
-wrapperPathStr
-:
-'
-+
-wrapperPathStr
-)
-        
 wrapperManifestPathStr
 =
 ManifestPathStr
@@ -3058,6 +3047,7 @@ section
 .
 format
 (
+                    
 lineNum
 line
 )
@@ -3183,8 +3173,7 @@ curLines
         
 if
 sectionName
-=
-=
+is
 None
 :
             
@@ -3237,6 +3226,7 @@ file
 .
 format
 (
+                
 sectionLineNum
 sectionName
 )
