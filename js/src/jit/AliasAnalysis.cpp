@@ -1363,6 +1363,15 @@ MDefinition
 Opcode
 :
 :
+MegamorphicStoreSlot
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 CompareExchangeTypedArrayElement
 :
 case
