@@ -2029,6 +2029,11 @@ GetUserMediaRequest
 >
 mPendingGUMRequest
 ;
+bool
+mCamerasMuted
+=
+false
+;
 /
 /
 Always

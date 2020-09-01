@@ -23359,6 +23359,10 @@ windows
 "
 )
 ;
+mCamerasMuted
+=
+aMute
+;
 /
 /
 This
@@ -23530,6 +23534,14 @@ added
 return
 ;
 }
+aListener
+-
+>
+MuteOrUnmuteCameras
+(
+mCamerasMuted
+)
+;
 GetActiveWindows
 (
 )
