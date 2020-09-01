@@ -1677,9 +1677,6 @@ portnumber
 "
 *
 /
-[
-noscript
-]
 readonly
 attribute
 ACString
@@ -1702,9 +1699,6 @@ nsIURI
 .
 *
 /
-[
-noscript
-]
 readonly
 attribute
 ACString
