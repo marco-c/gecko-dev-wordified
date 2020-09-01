@@ -29106,6 +29106,15 @@ Opcode
 :
 BoundsCheck
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+GuardElementNotHole
+:
 iter
 +
 +
