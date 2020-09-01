@@ -486,7 +486,7 @@ theme
 We
 get
 the
-3
+4
 built
 -
 in
@@ -504,7 +504,7 @@ test
 .
 assertEq
 (
-4
+5
 themes
 .
 length
