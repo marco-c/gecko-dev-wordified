@@ -859,7 +859,6 @@ default
 if
 any
 .
-const
 cups_dest_t
 *
 dest
@@ -925,6 +924,14 @@ aName
 )
 ;
 }
+sCupsShim
+.
+cupsFreeDests
+(
+1
+dest
+)
+;
 return
 NS_OK
 ;
