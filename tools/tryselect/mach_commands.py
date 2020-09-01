@@ -752,22 +752,6 @@ exit
 (
 )
         
-if
-'
-preset
-'
-not
-in
-self
-.
-parser
-.
-common_groups
-:
-            
-return
-kwargs
-        
 default
 =
 self
@@ -1273,6 +1257,18 @@ kwargs
 )
 :
         
+if
+'
+preset
+'
+in
+self
+.
+parser
+.
+common_groups
+:
+            
 kwargs
 =
 self
