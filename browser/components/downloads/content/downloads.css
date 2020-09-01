@@ -989,9 +989,9 @@ state
 not
 (
 [
-is
+viewable
 -
-pdf
+internally
 ]
 )
 .
@@ -1030,9 +1030,9 @@ state
 not
 (
 [
-is
+viewable
 -
-pdf
+internally
 ]
 )
 .
