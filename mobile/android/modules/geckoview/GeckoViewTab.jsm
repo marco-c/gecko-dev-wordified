@@ -1032,15 +1032,3 @@ GeckoViewTab
 "
 )
 ;
-/
-/
-eslint
--
-disable
--
-line
-no
--
-unused
--
-vars
