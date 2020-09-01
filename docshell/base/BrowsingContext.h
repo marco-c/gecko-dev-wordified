@@ -1351,14 +1351,6 @@ GetLog
 (
 )
 ;
-static
-void
-CleanupContexts
-(
-uint64_t
-aProcessId
-)
-;
 /
 /
 Look
@@ -1712,6 +1704,12 @@ return
 mIsInProcess
 ;
 }
+bool
+IsOwnedByProcess
+(
+)
+const
+;
 bool
 CanHaveRemoteOuterProxies
 (

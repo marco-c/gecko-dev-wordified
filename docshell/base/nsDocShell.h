@@ -2387,6 +2387,15 @@ mWillChangeProcess
 true
 ;
 }
+bool
+WillChangeProcess
+(
+)
+{
+return
+mWillChangeProcess
+;
+}
 /
 /
 Create
