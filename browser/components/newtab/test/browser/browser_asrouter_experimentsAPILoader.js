@@ -777,9 +777,11 @@ client
 RemoteSettings
 (
 "
-messaging
+nimbus
 -
 experiments
+-
+desktop
 "
 )
 ;
