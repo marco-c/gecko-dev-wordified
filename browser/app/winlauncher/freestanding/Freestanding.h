@@ -189,6 +189,9 @@ __STDC_HOSTED__
 =
 1
 #
+define
+MOZ_USE_LAUNCHER_ERROR
+#
 include
 "
 mozilla
