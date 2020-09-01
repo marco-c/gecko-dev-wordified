@@ -2977,12 +2977,6 @@ bool
 >
 mWrittenOnce
 ;
-Atomic
-<
-bool
->
-mStartupFinished
-;
 bool
 mCurTableReferenced
 ;
