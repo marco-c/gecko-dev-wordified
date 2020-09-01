@@ -1798,15 +1798,11 @@ if
 GetSize
 (
 )
-.
-Width
-(
-)
 !
 =
 aReflowOutput
 .
-Width
+PhysicalSize
 (
 )
 )
