@@ -3411,6 +3411,7 @@ is_win
 for_win
 :
                     
+return
 handle_package
 (
 package
@@ -3460,6 +3461,7 @@ PY3
 for_python3
 :
                     
+return
 handle_package
 (
 package
