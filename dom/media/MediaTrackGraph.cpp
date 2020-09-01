@@ -15879,7 +15879,7 @@ void
 MediaTrack
 :
 :
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
@@ -15995,7 +15995,7 @@ void
 MediaTrack
 :
 :
-SetEnabled
+SetDisabledTrackMode
 (
 DisabledTrackMode
 aMode
@@ -16037,7 +16037,7 @@ override
 mTrack
 -
 >
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 mMode
 )
@@ -19369,7 +19369,7 @@ void
 SourceMediaTrack
 :
 :
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 DisabledTrackMode
 aMode
@@ -19517,7 +19517,7 @@ aMode
 MediaTrack
 :
 :
-SetEnabledImpl
+SetDisabledTrackModeImpl
 (
 aMode
 )
