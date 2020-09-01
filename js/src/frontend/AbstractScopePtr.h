@@ -612,13 +612,11 @@ in
 the
 CompilationInfo
 .
-MutableHandle
-<
 frontend
 :
 :
 ScopeStencil
->
+&
 scopeData
 (
 )

@@ -16184,10 +16184,6 @@ intoScriptStencil
 compilationInfo
 .
 topLevel
-.
-get
-(
-)
 )
 ;
 }

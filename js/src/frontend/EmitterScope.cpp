@@ -2636,7 +2636,8 @@ return
 false
 ;
 }
-auto
+ScopeStencil
+&
 scope
 =
 bce
@@ -2654,10 +2655,6 @@ index
 hasEnvironment_
 =
 scope
-.
-get
-(
-)
 .
 hasEnvironment
 (

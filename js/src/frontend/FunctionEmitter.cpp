@@ -4038,10 +4038,6 @@ funbox_
 functionStencil
 (
 )
-.
-get
-(
-)
 )
 )
 {

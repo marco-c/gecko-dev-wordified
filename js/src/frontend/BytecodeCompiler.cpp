@@ -3045,10 +3045,6 @@ moduleMetadata
 compilationInfo
 .
 moduleMetadata
-.
-get
-(
-)
 ;
 uint32_t
 len
@@ -3659,10 +3655,6 @@ compilationInfo
 .
 topLevel
 .
-get
-(
-)
-.
 extent
 =
 SourceExtent
@@ -3766,10 +3758,6 @@ MOZ_ASSERT
 compilationInfo
 .
 topLevel
-.
-get
-(
-)
 .
 functionFlags
 .

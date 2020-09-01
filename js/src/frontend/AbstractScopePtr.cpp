@@ -173,10 +173,8 @@ js
 :
 frontend
 ;
-MutableHandle
-<
 ScopeStencil
->
+&
 AbstractScopePtr
 :
 :
@@ -346,10 +344,6 @@ scopeData
 (
 )
 .
-get
-(
-)
-.
 kind
 (
 )
@@ -392,10 +386,6 @@ isScopeStencil
 {
 return
 scopeData
-(
-)
-.
-get
 (
 )
 .
@@ -447,10 +437,6 @@ isScopeStencil
 {
 return
 scopeData
-(
-)
-.
-get
 (
 )
 .
@@ -520,10 +506,6 @@ scopeData
 (
 )
 .
-get
-(
-)
-.
 isArrow
 (
 )
@@ -589,10 +571,6 @@ isScopeStencil
 {
 return
 scopeData
-(
-)
-.
-get
 (
 )
 .
