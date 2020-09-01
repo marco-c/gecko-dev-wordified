@@ -1989,7 +1989,7 @@ langpack
 .
 enabled
 "
-false
+true
 )
 ;
 /
