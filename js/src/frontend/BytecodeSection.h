@@ -237,6 +237,7 @@ h
 /
 /
 CompilationInfo
+CompilationGCOutput
 #
 include
 "
@@ -936,6 +937,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 const
 ScriptThingsVector
 &

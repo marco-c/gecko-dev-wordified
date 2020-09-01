@@ -251,6 +251,9 @@ AbstractScopePtr
 :
 existingScope
 (
+CompilationGCOutput
+&
+gcOutput
 )
 const
 {
@@ -279,10 +282,6 @@ Scope
 *
 result
 =
-data
-.
-compilationInfo
-.
 gcOutput
 .
 scopes

@@ -67075,17 +67075,6 @@ getRewindToken
 (
 )
 {
-MOZ_ASSERT
-(
-gcOutput
-.
-functions
-.
-empty
-(
-)
-)
-;
 return
 RewindToken
 {

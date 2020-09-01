@@ -214,6 +214,9 @@ frontend
 struct
 CompilationInfo
 ;
+struct
+CompilationGCOutput
+;
 class
 ScopeStencil
 ;
@@ -660,6 +663,12 @@ Scope
 *
 existingScope
 (
+frontend
+:
+:
+CompilationGCOutput
+&
+gcOutput
 )
 const
 ;

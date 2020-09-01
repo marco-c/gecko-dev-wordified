@@ -3768,8 +3768,7 @@ true
 static
 *
 /
-JSScript
-*
+bool
 Smoosh
 :
 :
@@ -3787,6 +3786,9 @@ Utf8Unit
 >
 &
 srcBuf
+CompilationGCOutput
+&
+gcOutput
 bool
 *
 unimplemented
@@ -3804,7 +3806,7 @@ unimplemented
 )
 {
 return
-nullptr
+false
 ;
 }
 if
@@ -3814,11 +3816,12 @@ compilationInfo
 .
 instantiateStencils
 (
+gcOutput
 )
 )
 {
 return
-nullptr
+false
 ;
 }
 #
@@ -3858,7 +3861,7 @@ init
 )
 {
 return
-nullptr
+false
 ;
 }
 if
@@ -3867,8 +3870,6 @@ if
 Disassemble
 (
 cx
-compilationInfo
-.
 gcOutput
 .
 script
@@ -3883,7 +3884,7 @@ Yes
 )
 {
 return
-nullptr
+false
 ;
 }
 printf
@@ -3907,8 +3908,6 @@ if
 Disassemble
 (
 cx
-compilationInfo
-.
 gcOutput
 .
 script
@@ -3923,7 +3922,7 @@ No
 )
 {
 return
-nullptr
+false
 ;
 }
 /
@@ -3939,11 +3938,7 @@ it
 #
 endif
 return
-compilationInfo
-.
-gcOutput
-.
-script
+true
 ;
 }
 bool

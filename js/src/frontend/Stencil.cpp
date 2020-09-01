@@ -565,6 +565,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 Scope
@@ -597,6 +600,7 @@ CallObject
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -655,6 +659,7 @@ LexicalEnvironmentObject
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -677,6 +682,7 @@ VarEnvironmentObject
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -708,6 +714,7 @@ nullptr_t
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -736,6 +743,7 @@ VarEnvironmentObject
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -758,6 +766,7 @@ ModuleEnvironmentObject
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -783,6 +792,7 @@ nullptr_t
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 break
@@ -1038,6 +1048,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 ScriptStencil
 &
 script
@@ -1074,8 +1087,6 @@ length
 (
 )
 function
-compilationInfo
-.
 gcOutput
 .
 sourceObject
@@ -1105,6 +1116,7 @@ EmitScriptThingsVector
 (
 cx
 compilationInfo
+gcOutput
 gcthings
 lazy
 -
@@ -1446,6 +1458,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 MOZ_ASSERT
@@ -1459,8 +1474,6 @@ source
 )
 )
 ;
-compilationInfo
-.
 gcOutput
 .
 sourceObject
@@ -1483,8 +1496,6 @@ source
 if
 (
 !
-compilationInfo
-.
 gcOutput
 .
 sourceObject
@@ -1621,8 +1632,6 @@ ScriptSourceObject
 initFromOptions
 (
 cx
-compilationInfo
-.
 gcOutput
 .
 sourceObject
@@ -1664,6 +1673,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 if
@@ -1685,8 +1697,6 @@ isModule
 )
 )
 {
-compilationInfo
-.
 gcOutput
 .
 module
@@ -1702,8 +1712,6 @@ cx
 if
 (
 !
-compilationInfo
-.
 gcOutput
 .
 module
@@ -1726,8 +1734,6 @@ initModule
 (
 cx
 compilationInfo
-compilationInfo
-.
 gcOutput
 .
 module
@@ -1761,6 +1767,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 for
@@ -1772,6 +1781,7 @@ compilationInfo
 .
 functionScriptStencils
 (
+gcOutput
 )
 )
 {
@@ -1821,8 +1831,6 @@ return
 false
 ;
 }
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -1894,6 +1902,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 /
@@ -1985,8 +1996,6 @@ vector
 if
 (
 !
-compilationInfo
-.
 gcOutput
 .
 scopes
@@ -2032,6 +2041,7 @@ createScope
 (
 cx
 compilationInfo
+gcOutput
 )
 ;
 if
@@ -2044,8 +2054,6 @@ return
 false
 ;
 }
-compilationInfo
-.
 gcOutput
 .
 scopes
@@ -2167,6 +2175,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 for
@@ -2178,6 +2189,7 @@ compilationInfo
 .
 functionScriptStencils
 (
+gcOutput
 )
 )
 {
@@ -2464,6 +2476,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 for
@@ -2475,6 +2490,7 @@ compilationInfo
 .
 functionScriptStencils
 (
+gcOutput
 )
 )
 {
@@ -2559,6 +2575,7 @@ fromStencil
 (
 cx
 compilationInfo
+gcOutput
 scriptStencil
 fun
 )
@@ -2641,6 +2658,7 @@ CreateLazyScript
 (
 cx
 compilationInfo
+gcOutput
 scriptStencil
 fun
 )
@@ -2692,6 +2710,9 @@ cx
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 ScriptStencil
@@ -2727,8 +2748,6 @@ isFunction
 {
 fun
 =
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -2785,8 +2804,6 @@ input
 lazy
 )
 {
-compilationInfo
-.
 gcOutput
 .
 script
@@ -2811,8 +2828,7 @@ fullyInitFromStencil
 (
 cx
 compilationInfo
-compilationInfo
-.
+gcOutput
 gcOutput
 .
 script
@@ -2821,8 +2837,6 @@ fun
 )
 ;
 }
-compilationInfo
-.
 gcOutput
 .
 script
@@ -2834,6 +2848,7 @@ fromStencil
 (
 cx
 compilationInfo
+gcOutput
 script
 fun
 )
@@ -2841,8 +2856,6 @@ fun
 if
 (
 !
-compilationInfo
-.
 gcOutput
 .
 script
@@ -2870,8 +2883,6 @@ isModule
 )
 )
 {
-compilationInfo
-.
 gcOutput
 .
 module
@@ -2879,15 +2890,11 @@ module
 >
 initScriptSlots
 (
-compilationInfo
-.
 gcOutput
 .
 script
 )
 ;
-compilationInfo
-.
 gcOutput
 .
 module
@@ -2906,8 +2913,6 @@ ModuleObject
 createEnvironment
 (
 cx
-compilationInfo
-.
 gcOutput
 .
 module
@@ -2985,6 +2990,9 @@ UpdateEmittedInnerFunctions
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 for
@@ -2996,6 +3004,7 @@ compilationInfo
 .
 functionScriptStencils
 (
+gcOutput
 )
 )
 {
@@ -3114,8 +3123,6 @@ Scope
 *
 scope
 =
-compilationInfo
-.
 gcOutput
 .
 scopes
@@ -3206,6 +3213,9 @@ LinkEnclosingLazyScript
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 for
@@ -3217,6 +3227,7 @@ compilationInfo
 .
 functionScriptStencils
 (
+gcOutput
 )
 )
 {
@@ -3386,6 +3397,9 @@ FunctionsFromExistingLazy
 CompilationInfo
 &
 compilationInfo
+CompilationGCOutput
+&
+gcOutput
 )
 {
 MOZ_ASSERT
@@ -3402,8 +3416,6 @@ idx
 =
 0
 ;
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -3463,8 +3475,6 @@ JSObject
 continue
 ;
 }
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -3500,8 +3510,6 @@ MOZ_ASSERT
 idx
 =
 =
-compilationInfo
-.
 gcOutput
 .
 functions
@@ -3518,6 +3526,9 @@ CompilationInfo
 :
 instantiateStencils
 (
+CompilationGCOutput
+&
+gcOutput
 )
 {
 if
@@ -3554,6 +3565,7 @@ FunctionsFromExistingLazy
 (
 *
 this
+gcOutput
 )
 ;
 }
@@ -3567,6 +3579,7 @@ InstantiateScriptSourceObject
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3582,6 +3595,7 @@ MaybeInstantiateModule
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3597,6 +3611,7 @@ InstantiateFunctions
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3613,6 +3628,7 @@ InstantiateScopes
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3628,6 +3644,7 @@ SetTypeAndNameForExposedFunctions
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3643,6 +3660,7 @@ InstantiateScriptStencils
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3658,6 +3676,7 @@ InstantiateTopLevel
 cx
 *
 this
+gcOutput
 )
 )
 {
@@ -3678,6 +3697,7 @@ UpdateEmittedInnerFunctions
 (
 *
 this
+gcOutput
 )
 ;
 if
@@ -3694,6 +3714,7 @@ LinkEnclosingLazyScript
 (
 *
 this
+gcOutput
 )
 ;
 }
