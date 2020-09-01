@@ -247,7 +247,7 @@ PrepareForUse
 override
 ;
 void
-NofityForUse
+NotifyForUse
 (
 )
 override

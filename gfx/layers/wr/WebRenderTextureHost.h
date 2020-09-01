@@ -588,7 +588,7 @@ const
 override
 ;
 void
-MaybeNofityForUse
+MaybeNotifyForUse
 (
 wr
 :
