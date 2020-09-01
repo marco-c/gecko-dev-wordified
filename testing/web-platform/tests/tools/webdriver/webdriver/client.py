@@ -2848,6 +2848,14 @@ None
             
 return
         
+self
+.
+transport
+.
+close
+(
+)
+        
 body
 =
 {
@@ -3007,6 +3015,14 @@ self
 session_id
 =
 None
+            
+self
+.
+transport
+.
+close
+(
+)
     
 def
 send_command
