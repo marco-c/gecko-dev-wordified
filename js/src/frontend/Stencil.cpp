@@ -7508,10 +7508,10 @@ isSingletonFunction
 }
 }
 void
-CompilationInfo
+CompilationStencil
 :
 :
-dumpStencil
+dump
 (
 )
 {
@@ -7533,7 +7533,7 @@ json
 out
 )
 ;
-dumpStencil
+dump
 (
 json
 )
@@ -7550,10 +7550,10 @@ n
 ;
 }
 void
-CompilationInfo
+CompilationStencil
 :
 :
-dumpStencil
+dump
 (
 js
 :
@@ -7590,8 +7590,6 @@ auto
 &
 data
 :
-stencil
-.
 scriptData
 )
 {
@@ -7624,8 +7622,6 @@ auto
 &
 data
 :
-stencil
-.
 regExpData
 )
 {
@@ -7658,8 +7654,6 @@ auto
 &
 data
 :
-stencil
-.
 bigIntData
 )
 {
@@ -7692,8 +7686,6 @@ auto
 &
 data
 :
-stencil
-.
 objLiteralData
 )
 {
@@ -7726,8 +7718,6 @@ auto
 &
 data
 :
-stencil
-.
 scopeData
 )
 {
@@ -7747,8 +7737,6 @@ endList
 ;
 if
 (
-stencil
-.
 scriptData
 [
 CompilationInfo
@@ -7771,8 +7759,6 @@ moduleMetadata
 "
 )
 ;
-stencil
-.
 moduleMetadata
 .
 dumpFields
