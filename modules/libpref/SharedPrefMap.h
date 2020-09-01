@@ -4668,7 +4668,7 @@ table
 and
 their
 corresponding
-lenghts
+lengths
 .
 /
 /
