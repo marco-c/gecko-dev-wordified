@@ -353,6 +353,9 @@ notification
 -
 button
 "
+primary
+:
+true
 callback
 :
 (
