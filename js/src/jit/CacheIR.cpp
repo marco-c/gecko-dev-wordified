@@ -32581,16 +32581,6 @@ elements
 "
 )
 ;
-MOZ_ASSERT
-(
-thisarray
--
->
-lengthIsWritable
-(
-)
-)
-;
 /
 /
 After
