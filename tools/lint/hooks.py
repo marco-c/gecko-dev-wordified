@@ -202,14 +202,14 @@ hooktype
 .
 decode
 (
-'
+"
 UTF
 -
 8
-'
-'
+"
+"
 replace
-'
+"
 )
     
 #
