@@ -1195,6 +1195,8 @@ createForGlobalScope
 (
 cx
 compilationInfo
+.
+stencil
 ScopeKind
 :
 :
@@ -1328,6 +1330,8 @@ createForVarScope
 (
 cx
 compilationInfo
+.
+stencil
 ScopeKind
 :
 :
@@ -1482,6 +1486,8 @@ createForLexicalScope
 (
 cx
 compilationInfo
+.
+stencil
 ScopeKind
 :
 :
@@ -1677,6 +1683,8 @@ createForFunctionScope
 (
 cx
 compilationInfo
+.
+stencil
 data
 hasParameterExprs
 needsEnvironment
