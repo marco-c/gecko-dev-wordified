@@ -2687,6 +2687,16 @@ mMuted
 =
 aNewState
 ;
+if
+(
+Ended
+(
+)
+)
+{
+return
+;
+}
 nsString
 eventName
 =
