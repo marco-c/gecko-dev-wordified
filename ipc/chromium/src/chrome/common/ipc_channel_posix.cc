@@ -3985,7 +3985,7 @@ if
 (
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 )
@@ -4031,7 +4031,7 @@ while
 !
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 )
@@ -4065,7 +4065,7 @@ msg
 =
 output_queue_
 .
-front
+FirstElement
 (
 )
 .
@@ -5436,7 +5436,7 @@ type
 <
 output_queue_
 .
-size
+Count
 (
 )
 <
@@ -5951,7 +5951,7 @@ AssertAsLargeAsHeader
 ;
 output_queue_
 .
-push
+Push
 (
 std
 :
@@ -5999,9 +5999,18 @@ reset
 (
 )
 ;
+mozilla
+:
+:
+UniquePtr
+<
+Message
+>
+message
+=
 output_queue_
 .
-pop
+Pop
 (
 )
 ;
@@ -6206,7 +6215,7 @@ while
 !
 output_queue_
 .
-empty
+IsEmpty
 (
 )
 )

@@ -131,11 +131,6 @@ macros
 #
 include
 <
-queue
->
-#
-include
-<
 string
 >
 #
@@ -183,6 +178,15 @@ include
 mozilla
 /
 Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Queue
 .
 h
 "
@@ -647,10 +651,10 @@ are
 queued
 here
 .
-std
+mozilla
 :
 :
-queue
+Queue
 <
 mozilla
 :
@@ -659,6 +663,7 @@ UniquePtr
 <
 Message
 >
+64
 >
 output_queue_
 ;
@@ -1126,7 +1131,7 @@ it
 matches
 output_queue_
 .
-size
+Count
 (
 )
 except
