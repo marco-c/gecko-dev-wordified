@@ -104,7 +104,6 @@ from
 voluptuous
 import
 Required
-Optional
 python_test_schema
 =
 Schema
@@ -168,7 +167,7 @@ the
 task
 .
     
-Optional
+Required
 (
 '
 workdir
