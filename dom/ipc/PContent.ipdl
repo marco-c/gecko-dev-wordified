@@ -10442,6 +10442,17 @@ bool
 aNeedsFocus
 )
 ;
+async
+FinalizeFocusOuter
+(
+MaybeDiscardedBrowsingContext
+aContext
+bool
+aCanFocus
+CallerType
+aCallerType
+)
+;
 parent
 :
 async
