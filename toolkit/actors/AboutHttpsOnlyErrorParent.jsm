@@ -598,13 +598,6 @@ scriptSecurityManager
 getSystemPrincipal
 (
 )
-loadFlags
-:
-Ci
-.
-nsIWebNavigation
-.
-LOAD_FLAGS_REPLACE_HISTORY
 }
 )
 ;
