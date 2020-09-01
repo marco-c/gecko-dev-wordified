@@ -2983,7 +2983,7 @@ break
 case
 at
 .
-TOP_SITES_ATTRIBUTION
+PARTNER_LINK_ATTRIBUTION
 :
 PartnerLinkAttribution
 .

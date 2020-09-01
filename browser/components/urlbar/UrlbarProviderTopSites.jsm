@@ -1091,11 +1091,11 @@ favicon
 |
 |
 null
-sendTopSiteAttributionRequest
+sendAttributionRequest
 :
 link
 .
-sendTopSiteAttributionRequest
+sendAttributionRequest
 }
 )
 )
@@ -1168,11 +1168,11 @@ isPinned
 site
 .
 isPinned
-sendTopSiteAttributionRequest
+sendAttributionRequest
 :
 site
 .
-sendTopSiteAttributionRequest
+sendAttributionRequest
 }
 )
 )
