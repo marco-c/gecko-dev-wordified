@@ -104,6 +104,8 @@ main
 (
 output
 input_file
+*
+defines
 )
 :
     
@@ -157,6 +159,27 @@ VERSION
 '
 '
     
+}
+)
+    
+for
+d
+in
+defines
+:
+        
+pp
+.
+context
+.
+update
+(
+{
+d
+:
+'
+1
+'
 }
 )
     

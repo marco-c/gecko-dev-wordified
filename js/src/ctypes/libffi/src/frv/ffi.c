@@ -841,7 +841,7 @@ count
 ?
 24
 :
-ALIGN_DOWN
+FFI_ALIGN_DOWN
 (
 count
 8
@@ -907,7 +907,7 @@ cif
 >
 bytes
 =
-ALIGN
+FFI_ALIGN
 (
 cif
 -
