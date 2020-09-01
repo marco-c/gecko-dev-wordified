@@ -3378,11 +3378,9 @@ self
 .
 _run
 (
-b
 '
 files
 '
-b
 '
 -
 0
