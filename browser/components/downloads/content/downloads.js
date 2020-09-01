@@ -6013,9 +6013,9 @@ element
 hasAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 )
 )
@@ -6025,9 +6025,9 @@ contextMenu
 setAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 "
 true
@@ -6126,9 +6126,9 @@ contextMenu
 removeAttribute
 (
 "
-is
+viewable
 -
-pdf
+internally
 "
 )
 ;
