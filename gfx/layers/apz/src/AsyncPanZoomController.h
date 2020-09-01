@@ -3801,7 +3801,7 @@ UpdateRootFrameMetricsIfChanged
 (
 FrameMetrics
 &
-metrics
+aMetrics
 )
 ;
 private
