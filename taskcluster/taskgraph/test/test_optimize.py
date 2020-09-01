@@ -271,6 +271,9 @@ make_graph
 (
 *
 tasks_and_edges
+*
+*
+kwargs
 )
 :
     
@@ -311,7 +314,8 @@ Task
 )
 }
     
-return
+tg
+=
 TaskGraph
 (
 tasks
@@ -326,6 +330,54 @@ tasks
 edges
 )
 )
+    
+if
+kwargs
+.
+get
+(
+"
+deps
+"
+True
+)
+:
+        
+#
+set
+dependencies
+based
+on
+edges
+        
+for
+l
+r
+name
+in
+tg
+.
+graph
+.
+edges
+:
+            
+tg
+.
+tasks
+[
+l
+]
+.
+dependencies
+[
+name
+]
+=
+r
+    
+return
+tg
 def
 make_opt_graph
 (
@@ -389,6 +441,9 @@ edges
 def
 make_triangle
 (
+deps
+=
+True
 *
 *
 opts
@@ -518,6 +573,10 @@ t1
 dep
 '
 )
+        
+deps
+=
+deps
     
 )
 pytest
@@ -1874,6 +1933,9 @@ param
             
 make_triangle
 (
+deps
+=
+False
 )
             
 {
@@ -2028,6 +2090,9 @@ param
             
 make_triangle
 (
+deps
+=
+False
 )
             
 {
@@ -2108,6 +2173,9 @@ param
             
 make_triangle
 (
+deps
+=
+False
 )
             
 {
