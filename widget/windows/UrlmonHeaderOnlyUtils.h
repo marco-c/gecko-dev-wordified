@@ -482,9 +482,10 @@ uri
 ;
 HRESULT
 hr
-=
-CreateUri
+;
+SAFECALL_URLMON_FUNC
 (
+CreateUri
 aUri
 flags
 0
