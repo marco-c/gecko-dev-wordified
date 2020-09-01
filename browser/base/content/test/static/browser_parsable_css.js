@@ -257,6 +257,8 @@ autocomplete
 item
 |
 svg
+|
+ua
 )
 \
 .
