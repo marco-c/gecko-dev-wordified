@@ -161,6 +161,9 @@ class
 nsIDNSService
 ;
 class
+nsIDNSHTTPSSVCRecord
+;
+class
 nsDNSPrefetch
 final
 :
@@ -320,6 +323,13 @@ bool
 refreshDNS
 =
 false
+)
+;
+nsresult
+FetchHTTPSSVC
+(
+bool
+aRefreshDNS
 )
 ;
 static
