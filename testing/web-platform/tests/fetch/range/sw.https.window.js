@@ -746,9 +746,12 @@ cors
 }
 )
 ;
+await
 promise_rejects_js
 (
 t
+w
+.
 TypeError
 fetchPromise
 )
@@ -786,6 +789,7 @@ document
 }
 )
 ;
+await
 promise_rejects_js
 (
 t
