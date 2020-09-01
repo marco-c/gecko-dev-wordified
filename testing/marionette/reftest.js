@@ -1013,7 +1013,7 @@ blank
 "
 loadEventExpected
 :
-true
+false
 }
 )
 ;
@@ -1067,18 +1067,6 @@ height
 )
 ;
 }
-this
-.
-lastURL
-=
-this
-.
-driver
-.
-currentURL
-.
-href
-;
 this
 .
 setupWindow
