@@ -192,6 +192,12 @@ client
 *
 param
 {
+TargetActor
+}
+targetActor
+*
+param
+{
 nsIConsoleMessage
 }
 message
@@ -199,6 +205,7 @@ message
 /
 shouldHandleMessage
 (
+targetActor
 message
 )
 {
