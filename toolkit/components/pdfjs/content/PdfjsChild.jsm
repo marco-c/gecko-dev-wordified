@@ -288,6 +288,13 @@ PDFJS
 ZoomReset
 "
 :
+case
+"
+PDFJS
+:
+Save
+"
+:
 {
 const
 type
