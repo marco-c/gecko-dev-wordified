@@ -86001,6 +86001,19 @@ Ok
 )
 ;
 }
+MConstant
+*
+protoConst
+=
+constant
+(
+ObjectValue
+(
+*
+protoObject
+)
+)
+;
 MInstanceOf
 *
 ins
@@ -86014,7 +86027,7 @@ alloc
 (
 )
 obj
-protoObject
+protoConst
 )
 ;
 current
@@ -86270,7 +86283,7 @@ alloc
 (
 )
 obj
-protoObject
+protoConst
 )
 ;
 current

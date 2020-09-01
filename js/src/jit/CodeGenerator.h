@@ -1227,7 +1227,8 @@ emitInstanceOf
 LInstruction
 *
 ins
-JSObject
+const
+LAllocation
 *
 prototypeObject
 )
