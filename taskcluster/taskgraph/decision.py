@@ -2164,7 +2164,16 @@ release_eta
 parameters
 [
 '
-release_enable_partners
+release_enable_partner_repack
+'
+]
+=
+False
+    
+parameters
+[
+'
+release_enable_partner_attribution
 '
 ]
 =
