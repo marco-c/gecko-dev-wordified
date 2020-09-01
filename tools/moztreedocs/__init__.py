@@ -104,6 +104,10 @@ mozpack
 manifests
 import
 InstallManifest
+from
+pathlib
+import
+PurePath
 import
 frontmatter
 import
@@ -829,6 +833,17 @@ find
 )
 }
             
+test_dirs
+=
+{
+"
+test
+"
+"
+tests
+"
+}
+            
 excludes
 =
 {
@@ -838,14 +853,17 @@ d
 in
 dirs
 if
-d
-.
-endswith
+set
 (
-'
-test
-'
+PurePath
+(
+d
 )
+.
+parts
+)
+&
+test_dirs
 }
             
 args
