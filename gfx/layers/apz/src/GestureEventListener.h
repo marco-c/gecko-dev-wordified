@@ -580,6 +580,12 @@ bool
 aLongTapEnabled
 )
 ;
+static
+bool
+IsLongTapEnabled
+(
+)
+;
 private
 :
 /

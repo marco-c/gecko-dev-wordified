@@ -3009,6 +3009,12 @@ bool
 aApzcCanConsumeEvents
 )
 ;
+bool
+IsInSlop
+(
+)
+const
+;
 /
 *
 *
