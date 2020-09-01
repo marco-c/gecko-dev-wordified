@@ -148,6 +148,11 @@ DownloadsTaskbar
 jsm
 '
 '
+DownloadsViewableInternally
+.
+jsm
+'
+'
 DownloadsViewUI
 .
 jsm
