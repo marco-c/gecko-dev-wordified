@@ -300,12 +300,6 @@ mDocURL
 nsFont
 mHeadFootFont
 ;
-nsSize
-mReflowSize
-;
-nsMargin
-mReflowMargin
-;
 /
 /
 Margin
@@ -880,9 +874,6 @@ GetCurrentPageFrame
 (
 )
 ;
-nsMargin
-mMargin
-;
 nsSize
 mSize
 ;
@@ -1064,9 +1055,6 @@ mPageNum
 ;
 int32_t
 mTotalPages
-;
-int32_t
-mPrintRangeType
 ;
 int32_t
 mFromPageNum
