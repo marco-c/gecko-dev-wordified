@@ -683,7 +683,7 @@ red
 )
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -720,7 +720,7 @@ not
 applied
 after
 being
-unregistered
+uninstalled
 assertBodyBorderEqualTo
 (
 "
@@ -863,8 +863,6 @@ match
 extension
 .
 metaData
-!
-!
 .
 enabled
 equalTo
@@ -882,8 +880,6 @@ match
 extension
 .
 metaData
-!
-!
 .
 disabledFlags
 and
@@ -907,8 +903,6 @@ match
 extension
 .
 metaData
-!
-!
 .
 disabledFlags
 and
@@ -932,8 +926,6 @@ match
 extension
 .
 metaData
-!
-!
 .
 disabledFlags
 and
@@ -1343,8 +1335,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 description
 "
@@ -1367,8 +1357,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 name
 "
@@ -1380,8 +1368,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 version
 "
@@ -1402,8 +1388,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 enabled
 false
@@ -1413,8 +1397,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 signedState
 WebExtension
@@ -1428,8 +1410,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 blocklistState
 WebExtension
@@ -1554,7 +1534,7 @@ TEST_SUPPORT_EXTENSION_ID
 )
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -1624,7 +1604,7 @@ not
 applied
 after
 being
-unregistered
+uninstalled
 assertBodyBorderEqualTo
 (
 "
@@ -1779,8 +1759,6 @@ assertFalse
 borderify
 .
 metaData
-!
-!
 .
 allowedInPrivateBrowsing
 )
@@ -1822,8 +1800,6 @@ assertTrue
 borderify
 .
 metaData
-!
-!
 .
 allowedInPrivateBrowsing
 )
@@ -1887,8 +1863,6 @@ assertFalse
 borderify
 .
 metaData
-!
-!
 .
 allowedInPrivateBrowsing
 )
@@ -1935,7 +1909,7 @@ assertBodyBorderEqualTo
 )
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -2079,8 +2053,6 @@ metadata
 dummy
 .
 metaData
-!
-!
 assertTrue
 (
 (
@@ -2848,8 +2820,6 @@ extension
 !
 .
 metaData
-!
-!
 .
 signedState
 WebExtension
@@ -2863,8 +2833,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 blocklistState
 WebExtension
@@ -2878,8 +2846,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 name
 "
@@ -5301,7 +5267,7 @@ test
 /
 /
 -
-registers
+installs
 a
 web
 extension
@@ -7829,8 +7795,6 @@ match
 ensure
 .
 metaData
-!
-!
 .
 version
 equalTo
@@ -7838,8 +7802,6 @@ equalTo
 extension
 .
 metaData
-!
-!
 .
 version
 )
@@ -7908,7 +7870,7 @@ HELLO_FROM_PAGE
 Test
 that
 after
-unregistering
+uninstalling
 an
 extension
 all
@@ -7960,7 +7922,7 @@ SessionTabDelegate
 }
 )
 val
-unregister
+uninstall
 =
 controller
 .
@@ -8024,7 +7986,7 @@ sessionRule
 .
 waitForResult
 (
-unregister
+uninstall
 )
 }
 Test
@@ -8399,8 +8361,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 version
 "
@@ -8502,8 +8462,6 @@ assertEquals
 update2
 .
 metaData
-!
-!
 .
 version
 "
@@ -8541,7 +8499,7 @@ blue
 )
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -8578,7 +8536,7 @@ not
 applied
 after
 being
-unregistered
+uninstalled
 assertBodyBorderEqualTo
 (
 "
@@ -8710,8 +8668,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 version
 "
@@ -8842,8 +8798,6 @@ assertEquals
 currentlyInstalled
 .
 metaData
-!
-!
 .
 version
 "
@@ -8857,8 +8811,6 @@ assertEquals
 updatedExtension
 .
 metaData
-!
-!
 .
 version
 "
@@ -8917,8 +8869,6 @@ assertEquals
 update2
 .
 metaData
-!
-!
 .
 version
 "
@@ -8956,7 +8906,7 @@ blue
 )
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -8993,7 +8943,7 @@ not
 applied
 after
 being
-unregistered
+uninstalled
 assertBodyBorderEqualTo
 (
 "
@@ -9127,8 +9077,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 version
 "
@@ -9231,7 +9179,7 @@ update2
 ;
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -9268,7 +9216,7 @@ not
 applied
 after
 being
-unregistered
+uninstalled
 assertBodyBorderEqualTo
 (
 "
@@ -9395,8 +9343,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 version
 "
@@ -9527,8 +9473,6 @@ assertEquals
 currentlyInstalled
 .
 metaData
-!
-!
 .
 version
 "
@@ -9542,8 +9486,6 @@ assertEquals
 updatedExtension
 .
 metaData
-!
-!
 .
 version
 "
@@ -9662,7 +9604,7 @@ red
 )
 /
 /
-Unregister
+Uninstall
 WebExtension
 and
 check
@@ -9699,7 +9641,7 @@ not
 applied
 after
 being
-unregistered
+uninstalled
 assertBodyBorderEqualTo
 (
 "
@@ -9991,8 +9933,6 @@ assertEquals
 extension
 .
 metaData
-!
-!
 .
 version
 "
@@ -10736,8 +10676,6 @@ assertThat
 source
 .
 metaData
-!
-!
 .
 optionsPageUrl
 endsWith
