@@ -2805,7 +2805,7 @@ colGap
 ;
 config
 .
-mColMaxBSize
+mColBSize
 =
 colBSize
 ;
@@ -2861,7 +2861,7 @@ mColGap
 =
 %
 d
-mColMaxBSize
+mColBSize
 =
 %
 d
@@ -2886,7 +2886,7 @@ config
 mColGap
 config
 .
-mColMaxBSize
+mColBSize
 config
 .
 mIsBalancing
@@ -3687,7 +3687,7 @@ mLastBalanceBSize
 >
 aConfig
 .
-mColMaxBSize
+mColBSize
 ;
 const
 bool
@@ -3698,7 +3698,7 @@ mLastBalanceBSize
 =
 aConfig
 .
-mColMaxBSize
+mColBSize
 ;
 COLUMN_SET_LOG
 (
@@ -3717,7 +3717,7 @@ mLastBalanceBSize
 d
 "
 "
-mColMaxBSize
+mColBSize
 =
 %
 d
@@ -3744,7 +3744,7 @@ __func__
 mLastBalanceBSize
 aConfig
 .
-mColMaxBSize
+mColBSize
 isRTL
 aConfig
 .
@@ -3770,7 +3770,7 @@ mLastBalanceBSize
 =
 aConfig
 .
-mColMaxBSize
+mColBSize
 ;
 /
 /
@@ -4583,7 +4583,7 @@ YMost
 >
 aConfig
 .
-mColMaxBSize
+mColBSize
 )
 {
 skipIncremental
@@ -4614,7 +4614,7 @@ XMost
 >
 aConfig
 .
-mColMaxBSize
+mColBSize
 )
 {
 skipIncremental
@@ -4847,7 +4847,7 @@ aConfig
 mColISize
 aConfig
 .
-mColMaxBSize
+mColBSize
 )
 ;
 if
@@ -4892,7 +4892,7 @@ d
 __func__
 aConfig
 .
-mColMaxBSize
+mColBSize
 availSize
 .
 BSize
@@ -5524,7 +5524,7 @@ childContentBEnd
 >
 aConfig
 .
-mColMaxBSize
+mColBSize
 )
 {
 allFit
@@ -8894,7 +8894,7 @@ iterationCount
 ;
 aConfig
 .
-mColMaxBSize
+mColBSize
 =
 nextGuess
 ;
@@ -9026,7 +9026,7 @@ availableContentBSize
 {
 aConfig
 .
-mColMaxBSize
+mColBSize
 =
 availableContentBSize
 ;
@@ -9376,7 +9376,7 @@ else
 {
 aConfig
 .
-mColMaxBSize
+mColBSize
 =
 aConfig
 .
