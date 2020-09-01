@@ -94,7 +94,6 @@ point
 ref
 .
 null
-opt
 point
 )
 )
@@ -113,7 +112,6 @@ point
 ref
 .
 null
-opt
 point
 )
 )
@@ -129,7 +127,6 @@ point
 ref
 .
 null
-opt
 point
 )
 )
@@ -228,7 +225,6 @@ g2
 ref
 .
 null
-opt
 point
 )
 )
@@ -339,7 +335,6 @@ point
 ref
 .
 null
-opt
 point
 )
 )
@@ -434,7 +429,6 @@ glob
 ref
 .
 null
-opt
 point
 )
 )
@@ -976,7 +970,6 @@ box
 ref
 .
 null
-opt
 box
 )
 )
