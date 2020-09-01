@@ -16157,6 +16157,12 @@ BailoutKind
 :
 TagNotEqualGuard
 :
+case
+BailoutKind
+:
+:
+FunctionKindGuard
+:
 /
 /
 Do
