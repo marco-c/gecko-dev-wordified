@@ -22,7 +22,7 @@ value
 through
 a
 wasm
-externref
+anyref
 is
 a
 pair
@@ -79,7 +79,7 @@ gc
 feature
 ]
 see
-externref
+anyref
 -
 boxing
 -
@@ -389,7 +389,7 @@ g
 (
 global
 glob
-externref
+anyref
 )
 )
 (
@@ -402,7 +402,7 @@ f
 )
 (
 result
-externref
+anyref
 )
 (
 global
@@ -495,7 +495,7 @@ global
 glob
 (
 mut
-externref
+anyref
 )
 )
 )
@@ -510,7 +510,7 @@ f
 (
 param
 v
-externref
+anyref
 )
 (
 global
@@ -557,7 +557,7 @@ v
 /
 Tables
 of
-externref
+anyref
 can
 receive
 values
@@ -793,7 +793,7 @@ t
 table
 t
 10
-externref
+anyref
 )
 )
 (
@@ -807,7 +807,7 @@ f
 (
 param
 v
-externref
+anyref
 )
 (
 table
@@ -919,7 +919,7 @@ t
 table
 t
 10
-externref
+anyref
 )
 )
 (
@@ -932,7 +932,7 @@ f
 )
 (
 result
-externref
+anyref
 )
 (
 table
@@ -985,7 +985,7 @@ JS
 functions
 can
 receive
-externref
+anyref
 values
 as
 parameters
@@ -1051,7 +1051,7 @@ func
 returner
 (
 result
-externref
+anyref
 )
 )
 )
@@ -1068,7 +1068,7 @@ func
 receiver
 (
 param
-externref
+anyref
 )
 )
 )
@@ -1082,7 +1082,7 @@ test_returner
 )
 (
 result
-externref
+anyref
 )
 (
 call
@@ -1100,7 +1100,7 @@ test_receiver
 (
 param
 v
-externref
+anyref
 )
 (
 call

@@ -70,11 +70,11 @@ module
 func
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 local
 .
@@ -142,11 +142,11 @@ func
 (
 param
 ref
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 local
 .

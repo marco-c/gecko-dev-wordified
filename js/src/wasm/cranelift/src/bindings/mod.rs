@@ -512,7 +512,7 @@ REF_TYPE
 TypeCode
 :
 :
-ExternRef
+AnyRef
 =
 >
 Ok
@@ -1017,12 +1017,12 @@ u64
 TypeCode
 :
 :
-NullableRef
+OptRef
 |
 TypeCode
 :
 :
-ExternRef
+AnyRef
 |
 TypeCode
 :

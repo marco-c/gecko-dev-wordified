@@ -244,7 +244,7 @@ AnyFuncCode
 0x70
 ;
 const
-ExternRefCode
+AnyrefCode
 =
 0x6f
 ;

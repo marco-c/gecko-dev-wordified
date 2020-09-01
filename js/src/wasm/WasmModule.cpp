@@ -4889,7 +4889,7 @@ td
 maximumLength
 td
 .
-elemType
+kind
 proto
 )
 )
@@ -7528,7 +7528,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 t
 =

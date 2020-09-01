@@ -73068,7 +73068,7 @@ t
 RefType
 :
 :
-extern_
+any
 (
 )
 ;
@@ -79782,7 +79782,7 @@ MOZ_ASSERT
 (
 inputType
 .
-isExternRef
+isAnyRef
 (
 )
 |
@@ -79799,7 +79799,7 @@ MOZ_ASSERT
 (
 outputType
 .
-isExternRef
+isAnyRef
 (
 )
 |
@@ -79816,12 +79816,12 @@ MOZ_ASSERT_IF
 (
 outputType
 .
-isExternRef
+isAnyRef
 (
 )
 inputType
 .
-isExternRef
+isAnyRef
 (
 )
 )
@@ -79849,14 +79849,14 @@ if
 (
 inputType
 .
-isExternRef
+isAnyRef
 (
 )
 &
 &
 outputType
 .
-isExternRef
+isAnyRef
 (
 )
 )
@@ -79894,7 +79894,7 @@ mustUnboxAnyref
 =
 inputType
 .
-isExternRef
+isAnyRef
 (
 )
 ;
@@ -90860,7 +90860,7 @@ emitCompareRef
 RefType
 :
 :
-extern_
+any
 (
 )
 Assembler

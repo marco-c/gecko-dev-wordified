@@ -130,7 +130,7 @@ of
 Ref
 type
 .
-ExternRef
+Anyref
 is
 OK
 though
@@ -359,7 +359,7 @@ and
 globals
 that
 use
-externref
+anyref
 and
 by
 using
@@ -449,7 +449,7 @@ ref
 type
 parameter
 but
-externref
+anyref
 is
 OK
 .
@@ -487,7 +487,7 @@ f
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -526,7 +526,7 @@ f
 )
 (
 param
-externref
+anyref
 )
 (
 unreachable
@@ -550,7 +550,7 @@ return
 ref
 result
 but
-externref
+anyref
 is
 OK
 .
@@ -588,7 +588,7 @@ f
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -596,6 +596,7 @@ box
 ref
 .
 null
+opt
 box
 )
 )
@@ -630,7 +631,7 @@ f
 )
 (
 result
-externref
+anyref
 )
 (
 ref
@@ -657,7 +658,7 @@ take
 ref
 parameter
 but
-externref
+anyref
 is
 OK
 .
@@ -697,7 +698,7 @@ func
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -736,7 +737,7 @@ f
 func
 (
 param
-externref
+anyref
 )
 )
 )
@@ -758,7 +759,7 @@ return
 ref
 type
 but
-externref
+anyref
 is
 OK
 .
@@ -802,7 +803,7 @@ i32
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -845,7 +846,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 )
 )
@@ -873,7 +874,7 @@ of
 mutability
 )
 though
-externref
+anyref
 is
 OK
 .
@@ -913,7 +914,7 @@ global
 mut
 (
 ref
-null
+opt
 box
 )
 )
@@ -967,7 +968,7 @@ g
 global
 (
 ref
-null
+opt
 box
 )
 )
@@ -1005,7 +1006,7 @@ g
 global
 (
 mut
-externref
+anyref
 )
 )
 )
@@ -1033,7 +1034,7 @@ g
 "
 (
 global
-externref
+anyref
 )
 )
 )
@@ -1060,7 +1061,7 @@ of
 mutability
 )
 though
-externref
+anyref
 is
 OK
 .
@@ -1099,7 +1100,7 @@ box
 mut
 (
 ref
-null
+opt
 box
 )
 )
@@ -1107,6 +1108,7 @@ box
 ref
 .
 null
+opt
 box
 )
 )
@@ -1157,13 +1159,14 @@ box
 )
 (
 ref
-null
+opt
 box
 )
 (
 ref
 .
 null
+opt
 box
 )
 )
@@ -1199,7 +1202,7 @@ box
 )
 (
 mut
-externref
+anyref
 )
 (
 ref
@@ -1231,7 +1234,7 @@ export
 box
 "
 )
-externref
+anyref
 (
 ref
 .
@@ -1259,7 +1262,7 @@ exposed
 for
 Ref
 but
-externref
+anyref
 is
 OK
 .
@@ -1313,7 +1316,7 @@ f1
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -1385,7 +1388,7 @@ f1
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -1393,6 +1396,7 @@ box
 ref
 .
 null
+opt
 box
 )
 )
@@ -1443,7 +1447,7 @@ func
 f1
 (
 param
-externref
+anyref
 )
 (
 unreachable
@@ -1489,7 +1493,7 @@ func
 f1
 (
 result
-externref
+anyref
 )
 (
 ref
@@ -1518,7 +1522,7 @@ exposed
 for
 Ref
 though
-externref
+anyref
 is
 OK
 .
@@ -1575,7 +1579,7 @@ f1
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -1650,7 +1654,7 @@ f1
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -1658,6 +1662,7 @@ box
 ref
 .
 null
+opt
 box
 )
 )
@@ -1711,7 +1716,7 @@ func
 f1
 (
 param
-externref
+anyref
 )
 (
 unreachable
@@ -1760,7 +1765,7 @@ func
 f1
 (
 result
-externref
+anyref
 )
 (
 ref
@@ -1793,7 +1798,7 @@ exposed
 for
 Ref
 though
-externref
+anyref
 is
 OK
 .
@@ -1828,7 +1833,7 @@ func
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -1861,6 +1866,7 @@ fn
 ref
 .
 null
+opt
 box
 )
 (
@@ -1916,7 +1922,7 @@ func
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -1943,7 +1949,7 @@ i32
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -1989,7 +1995,7 @@ fn
 func
 (
 param
-externref
+anyref
 )
 )
 )
@@ -2051,7 +2057,7 @@ fn
 func
 (
 result
-externref
+anyref
 )
 )
 )
@@ -2074,7 +2080,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 (
 call_indirect
@@ -2114,7 +2120,7 @@ exposed
 for
 Ref
 though
-externref
+anyref
 is
 OK
 .
@@ -2149,7 +2155,7 @@ func
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -2185,6 +2191,7 @@ fn
 ref
 .
 null
+opt
 box
 )
 (
@@ -2240,7 +2247,7 @@ func
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -2270,7 +2277,7 @@ i32
 result
 (
 ref
-null
+opt
 box
 )
 )
@@ -2316,7 +2323,7 @@ fn
 func
 (
 param
-externref
+anyref
 )
 )
 )
@@ -2381,7 +2388,7 @@ fn
 func
 (
 result
-externref
+anyref
 )
 )
 )
@@ -2407,7 +2414,7 @@ i32
 )
 (
 result
-externref
+anyref
 )
 (
 call_indirect
@@ -2477,7 +2484,7 @@ func
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -2509,7 +2516,7 @@ f1
 param
 (
 ref
-null
+opt
 box
 )
 )
@@ -2550,6 +2557,7 @@ fn
 ref
 .
 null
+opt
 box
 )
 (

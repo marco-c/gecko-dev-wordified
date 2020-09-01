@@ -30,7 +30,7 @@ wasmEvalText
 module
 (
 global
-externref
+anyref
 (
 import
 "
@@ -40,7 +40,7 @@ glob
 externref
 "
 )
-externref
+anyref
 )
 (
 func
@@ -52,12 +52,12 @@ get
 )
 (
 result
-externref
+anyref
 )
 global
 .
 get
-externref
+anyref
 )
 )
 {

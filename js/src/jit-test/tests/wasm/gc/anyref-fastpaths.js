@@ -116,7 +116,7 @@ the
 fast
 path
 unbox
-externref
+anyref
 correctly
 on
 entry
@@ -170,7 +170,7 @@ box
 JS
 values
 into
-externref
+anyref
 correctly
 on
 /
@@ -209,7 +209,7 @@ the
 fast
 path
 unbox
-externref
+anyref
 correctly
 on
 return
@@ -261,7 +261,7 @@ most
 platforms
 .
 function
-js_externref_regarg
+js_anyref_regarg
 (
 p
 )
@@ -310,7 +310,7 @@ ABI
 the
 /
 /
-externref
+anyref
 parameter
 ends
 up
@@ -322,7 +322,7 @@ in
 the
 call
 to
-js_externref_stackarg
+js_anyref_stackarg
 /
 /
 thus
@@ -366,7 +366,7 @@ of
 .
 )
 function
-js_externref_stackarg
+js_anyref_stackarg
 (
 _0
 _1
@@ -435,7 +435,7 @@ func
 f
 (
 param
-externref
+anyref
 )
 )
 )
@@ -491,7 +491,7 @@ i32
 )
 (
 param
-externref
+anyref
 )
 )
 )
@@ -505,11 +505,11 @@ run1
 )
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 (
 call
@@ -538,11 +538,11 @@ run2
 )
 (
 param
-externref
+anyref
 )
 (
 result
-externref
+anyref
 )
 (
 call
@@ -631,10 +631,10 @@ get
 {
 f
 :
-js_externref_regarg
+js_anyref_regarg
 g
 :
-js_externref_stackarg
+js_anyref_stackarg
 }
 }
 )
@@ -806,7 +806,7 @@ box
 JS
 values
 into
-externref
+anyref
 correctly
 on
 /
@@ -850,7 +850,7 @@ was
 returned
 .
 function
-js_returns_externref
+js_returns_anyref
 (
 p
 )
@@ -891,7 +891,7 @@ func
 f
 (
 result
-externref
+anyref
 )
 )
 )
@@ -907,7 +907,7 @@ func
 g
 (
 param
-externref
+anyref
 )
 )
 )
@@ -921,12 +921,12 @@ run1
 )
 (
 result
-externref
+anyref
 )
 (
 local
 tmp
-externref
+anyref
 )
 (
 local
@@ -965,10 +965,10 @@ tmp
 {
 f
 :
-js_returns_externref
+js_returns_anyref
 g
 :
-js_externref_regarg
+js_anyref_regarg
 }
 }
 )

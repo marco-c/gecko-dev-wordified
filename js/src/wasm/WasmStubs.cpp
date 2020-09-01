@@ -2180,7 +2180,7 @@ types
 (
 other
 than
-externref
+anyref
 )
 are
 not
@@ -7814,7 +7814,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 {
 ScratchTagScope
@@ -9079,7 +9079,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 /
 /
@@ -11332,7 +11332,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 /
 /
@@ -15404,7 +15404,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 masm
 .
@@ -17211,7 +17211,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 BoxValueIntoAnyref
 (
@@ -18046,7 +18046,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 masm
 .

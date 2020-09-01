@@ -86,7 +86,7 @@ g1
 mut
 (
 ref
-null
+opt
 point
 )
 )
@@ -94,6 +94,7 @@ point
 ref
 .
 null
+opt
 point
 )
 )
@@ -104,7 +105,7 @@ g2
 mut
 (
 ref
-null
+opt
 point
 )
 )
@@ -112,6 +113,7 @@ point
 ref
 .
 null
+opt
 point
 )
 )
@@ -120,13 +122,14 @@ global
 g3
 (
 ref
-null
+opt
 point
 )
 (
 ref
 .
 null
+opt
 point
 )
 )
@@ -166,7 +169,7 @@ get
 )
 (
 result
-externref
+anyref
 )
 (
 global
@@ -225,6 +228,7 @@ g2
 ref
 .
 null
+opt
 point
 )
 )
@@ -327,7 +331,7 @@ glob
 mut
 (
 ref
-null
+opt
 point
 )
 )
@@ -335,6 +339,7 @@ point
 ref
 .
 null
+opt
 point
 )
 )
@@ -429,6 +434,7 @@ glob
 ref
 .
 null
+opt
 point
 )
 )
@@ -627,7 +633,7 @@ Global
 value
 of
 type
-externref
+anyref
 for
 initializer
 from
@@ -661,13 +667,13 @@ g
 (
 global
 g
-externref
+anyref
 )
 )
 (
 global
 glob
-externref
+anyref
 (
 global
 .
@@ -685,7 +691,7 @@ get
 )
 (
 result
-externref
+anyref
 )
 (
 global
@@ -831,7 +837,7 @@ global
 mut
 (
 ref
-null
+opt
 box
 )
 )
@@ -962,7 +968,7 @@ box
 mut
 (
 ref
-null
+opt
 box
 )
 )
@@ -970,6 +976,7 @@ box
 ref
 .
 null
+opt
 box
 )
 )

@@ -26174,7 +26174,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 /
 /

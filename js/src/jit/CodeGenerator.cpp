@@ -107677,7 +107677,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 /
 /
@@ -108287,7 +108287,7 @@ wasm
 RefType
 :
 :
-Extern
+Any
 :
 case
 wasm

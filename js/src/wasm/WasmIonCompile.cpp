@@ -15981,7 +15981,7 @@ case
 RefType
 :
 :
-Extern
+Any
 :
 MOZ_ASSERT
 (
@@ -30227,7 +30227,7 @@ f
 RefType
 :
 :
-extern_
+any
 (
 )
 JSOp

@@ -2443,7 +2443,7 @@ types
 are
 funcref
 and
-externref
+anyref
 and
 the
 only
@@ -2525,7 +2525,13 @@ seg
 tableIndex
 ]
 .
-isAsmJS
+kind
+=
+=
+TableKind
+:
+:
+AsmJS
 ;
 if
 (

@@ -42,14 +42,14 @@ t
 "
 )
 10
-externref
+anyref
 )
 (
 func
 (
 export
 "
-set_externref
+set_anyref
 "
 )
 (
@@ -58,7 +58,7 @@ i32
 )
 (
 param
-externref
+anyref
 )
 (
 table
@@ -81,7 +81,7 @@ ins
 .
 exports
 .
-set_externref
+set_anyref
 (
 3
 {
@@ -92,7 +92,7 @@ ins
 .
 exports
 .
-set_externref
+set_anyref
 (
 3
 null

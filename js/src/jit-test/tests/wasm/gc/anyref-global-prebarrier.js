@@ -104,7 +104,7 @@ global
 g
 (
 mut
-externref
+anyref
 )
 (
 ref
@@ -123,7 +123,7 @@ set
 )
 (
 param
-externref
+anyref
 )
 local
 .
