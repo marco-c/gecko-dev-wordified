@@ -163,7 +163,7 @@ above
 .
 for
 (
-var
+const
 name
 of
 Reflect
@@ -198,6 +198,16 @@ above
 .
 if
 (
+typeof
+name
+!
+=
+=
+"
+symbol
+"
+&
+&
 name
 !
 =
@@ -217,7 +227,7 @@ true
 }
 for
 (
-var
+const
 name
 of
 Object

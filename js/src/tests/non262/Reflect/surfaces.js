@@ -66,7 +66,7 @@ toString
 '
 [
 object
-Object
+Reflect
 ]
 '
 )
@@ -121,7 +121,7 @@ true
 ;
 for
 (
-var
+const
 name
 in
 Reflect
@@ -212,7 +212,7 @@ above
 .
 for
 (
-var
+const
 name
 of
 Reflect
@@ -250,6 +250,16 @@ above
 .
 if
 (
+typeof
+name
+!
+=
+=
+"
+symbol
+"
+&
+&
 name
 !
 =
@@ -292,7 +302,7 @@ method
 .
 for
 (
-var
+const
 name
 of
 Object
