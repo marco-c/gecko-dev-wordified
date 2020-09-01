@@ -29272,11 +29272,7 @@ lastPaintLayoutOffset
 =
 mLastContentPaintMetrics
 .
-GetLayoutViewport
-(
-)
-.
-TopLeft
+GetLayoutScrollOffset
 (
 )
 ;
