@@ -765,7 +765,10 @@ html
 channel
 =
 {
+encodeURIComponent
+(
 channelName
+)
 }
 ;
     
