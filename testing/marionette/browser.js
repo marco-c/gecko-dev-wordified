@@ -2687,6 +2687,17 @@ true
 .
 *
 *
+return
+{
+Tab
+}
+*
+The
+selected
+tab
+.
+*
+*
 throws
 UnsupportedOperationError
 *
@@ -2759,6 +2770,7 @@ tabBrowser
 )
 {
 return
+null
 ;
 }
 if
@@ -2882,6 +2894,11 @@ this
 .
 messageManager
 )
+;
+return
+this
+.
+tab
 ;
 }
 /
