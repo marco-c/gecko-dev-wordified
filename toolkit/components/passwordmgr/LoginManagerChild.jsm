@@ -11615,7 +11615,7 @@ acceptWildcardMatch
 true
 acceptDifferentSubdomains
 :
-false
+true
 }
 )
 ;
