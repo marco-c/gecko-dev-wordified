@@ -1480,7 +1480,7 @@ JS
 ServoSizes
 "
 "
-js
+JS
 :
 :
 shadow
