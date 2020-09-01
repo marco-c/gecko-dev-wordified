@@ -144,7 +144,7 @@ URL
 *
 param
 {
-nsIURI
+URL
 }
 current
 *
@@ -158,7 +158,7 @@ visiting
 *
 param
 {
-nsIURI
+URL
 =
 }
 future
