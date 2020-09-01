@@ -116,6 +116,9 @@ closed
 "
 )
 ;
+const
+hud
+=
 await
 BrowserConsoleManager
 .
@@ -171,9 +174,15 @@ it
 )
 ;
 await
+waitForAllTargetsToBeAttached
+(
+hud
+)
+;
+await
 BrowserConsoleManager
 .
-toggleBrowserConsole
+closeBrowserConsole
 (
 )
 ;
@@ -182,6 +191,7 @@ opened
 =
 waitForBrowserConsole
 (
+hud
 )
 ;
 await

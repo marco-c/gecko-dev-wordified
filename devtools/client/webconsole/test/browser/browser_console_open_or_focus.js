@@ -334,9 +334,15 @@ Console
 )
 ;
 await
+waitForAllTargetsToBeAttached
+(
+hud
+)
+;
+await
 BrowserConsoleManager
 .
-toggleBrowserConsole
+closeBrowserConsole
 (
 )
 ;
