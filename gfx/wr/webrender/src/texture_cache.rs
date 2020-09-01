@@ -8476,7 +8476,7 @@ descriptor
 .
 size
 .
-is_empty
+is_empty_or_negative
 (
 )
 )

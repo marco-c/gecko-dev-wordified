@@ -3989,7 +3989,6 @@ rect2
 )
 =
 >
-{
 Partial
 (
 rect1
@@ -4008,7 +4007,6 @@ Rect
 zero
 )
 )
-}
 }
 }
 /
@@ -4075,7 +4073,6 @@ dirty_rect
 )
 =
 >
-{
 dirty_rect
 .
 intersection
@@ -4090,7 +4087,6 @@ Rect
 :
 zero
 )
-}
 }
 }
 }
