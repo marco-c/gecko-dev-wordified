@@ -3983,6 +3983,10 @@ stderr
 subprocess
 .
 STDOUT
+                                             
+universal_newlines
+=
+True
 )
             
 print
