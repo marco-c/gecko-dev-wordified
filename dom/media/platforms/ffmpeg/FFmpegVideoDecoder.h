@@ -121,14 +121,14 @@ __FFmpegVideoDecoder_h__
 #
 include
 "
-FFmpegLibWrapper
+FFmpegDataDecoder
 .
 h
 "
 #
 include
 "
-FFmpegDataDecoder
+FFmpegLibWrapper
 .
 h
 "
@@ -147,9 +147,7 @@ include
 "
 mozilla
 /
-widget
-/
-DMABufSurface
+LinkedList
 .
 h
 "
@@ -158,7 +156,9 @@ include
 "
 mozilla
 /
-LinkedList
+widget
+/
+DMABufSurface
 .
 h
 "
@@ -809,9 +809,6 @@ FFmpegVideoDecoder
 FFmpegLibWrapper
 *
 aLib
-TaskQueue
-*
-aTaskQueue
 const
 VideoInfo
 &
@@ -987,6 +984,7 @@ YUVColorSpace
 GetFrameColorSpace
 (
 )
+const
 ;
 MediaResult
 CreateImage
@@ -1004,6 +1002,7 @@ DecodedData
 &
 aResults
 )
+const
 ;
 #
 ifdef

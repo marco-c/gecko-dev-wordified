@@ -278,17 +278,6 @@ MediaRawData
 aFrame
 )
 ;
-AbstractThread
-*
-OwnerThread
-(
-)
-const
-{
-return
-mTaskQueue
-;
-}
 bool
 OnTaskQueue
 (

@@ -2086,7 +2086,6 @@ params
 {
 *
 config
-taskQueue
 compositor
 CreateDecoderParams
 :

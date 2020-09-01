@@ -276,6 +276,15 @@ public
 :
 EMEMediaDataDecoderProxy
 (
+const
+CreateDecoderParams
+&
+aParams
+already_AddRefed
+<
+MediaDataDecoder
+>
+aProxyDecoder
 already_AddRefed
 <
 nsISerialEventTarget
@@ -284,10 +293,6 @@ aProxyThread
 CDMProxy
 *
 aProxy
-const
-CreateDecoderParams
-&
-aParams
 )
 ;
 EMEMediaDataDecoderProxy

@@ -184,10 +184,6 @@ VideoInfo
 &
 mConfig
 ;
-TaskQueue
-*
-mTaskQueue
-;
 layers
 :
 :

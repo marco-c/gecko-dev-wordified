@@ -124,6 +124,13 @@ define
 TheoraDecoder_h_
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
 PlatformDecoderModule
 .
@@ -147,13 +154,6 @@ theoradec
 .
 h
 "
-#
-include
-<
-stdint
-.
-h
->
 namespace
 mozilla
 {
@@ -299,6 +299,7 @@ MediaRawData
 aSample
 )
 ;
+const
 RefPtr
 <
 layers
@@ -308,6 +309,7 @@ KnowsCompositor
 >
 mImageAllocator
 ;
+const
 RefPtr
 <
 layers
@@ -317,6 +319,7 @@ ImageContainer
 >
 mImageContainer
 ;
+const
 RefPtr
 <
 TaskQueue

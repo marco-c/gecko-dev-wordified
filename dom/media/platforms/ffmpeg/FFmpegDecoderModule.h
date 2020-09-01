@@ -409,9 +409,6 @@ V
 mLib
 aParams
 .
-mTaskQueue
-aParams
-.
 VideoConfig
 (
 )
@@ -485,9 +482,6 @@ V
 >
 (
 mLib
-aParams
-.
-mTaskQueue
 aParams
 .
 AudioConfig

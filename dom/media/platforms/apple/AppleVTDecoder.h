@@ -233,9 +233,6 @@ const
 VideoInfo
 &
 aConfig
-TaskQueue
-*
-aTaskQueue
 layers
 :
 :
@@ -533,7 +530,7 @@ MaybeResolveBufferedFrames
 )
 ;
 void
-AssertOnTaskQueueThread
+AssertOnTaskQueue
 (
 )
 {
@@ -709,16 +706,6 @@ need
 not
 be
 processed
-.
-/
-/
-Cleared
-on
-mTaskQueue
-in
-ProcessDrain
-(
-)
 .
 Atomic
 <

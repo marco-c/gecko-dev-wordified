@@ -283,12 +283,6 @@ VideoConfig
 (
 )
 )
-mTaskQueue
-(
-aParams
-.
-mTaskQueue
-)
 mImageContainer
 (
 aParams
