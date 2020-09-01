@@ -2752,9 +2752,9 @@ public
 explicit
 ParserAtomsTable
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 private
