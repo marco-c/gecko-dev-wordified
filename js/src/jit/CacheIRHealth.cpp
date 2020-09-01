@@ -829,7 +829,6 @@ next
 len
 ;
 }
-}
 spew
 -
 >
@@ -840,6 +839,7 @@ endList
 /
 /
 entries
+}
 return
 true
 ;
