@@ -437,6 +437,11 @@ nsMemory
 h
 '
 '
+nsMemoryReporterManager
+.
+h
+'
+'
 nsObjCExceptions
 .
 h
