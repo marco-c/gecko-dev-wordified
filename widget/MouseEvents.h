@@ -1428,10 +1428,6 @@ mContextMenuTrigger
 (
 eNormal
 )
-mExitFrom
-(
-eChild
-)
 mIgnoreRootScrollFrame
 (
 false
@@ -1475,10 +1471,6 @@ aReason
 mContextMenuTrigger
 (
 eNormal
-)
-mExitFrom
-(
-eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -1539,10 +1531,6 @@ aReason
 mContextMenuTrigger
 (
 aContextMenuTrigger
-)
-mExitFrom
-(
-eChild
 )
 mIgnoreRootScrollFrame
 (
@@ -1855,8 +1843,9 @@ mContextMenuTrigger
 /
 /
 mExitFrom
-is
-valid
+contains
+a
+value
 only
 when
 mMessage
@@ -1884,7 +1873,10 @@ a
 child
 widget
 .
+Maybe
+<
 ExitFrom
+>
 mExitFrom
 ;
 /
