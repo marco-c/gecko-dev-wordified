@@ -1031,8 +1031,10 @@ TexturedQuadRGBA
 TexturedVertexRGB
 TexturedVertexRGBA
 TexturedQuadIMC4
+TexturedQuadIdentityIMC4
 TexturedQuadNV12
 TexturedVertexIMC4
+TexturedVertexIdentityIMC4
 TexturedVertexNV12
 ComponentAlphaQuad
 ComponentAlphaVertex
