@@ -9167,18 +9167,6 @@ org
 "
 ;
 const
-ALPENGLOW_THEME_ID
-=
-"
-firefox
--
-alpenglow
-mozilla
-.
-org
-"
-;
-const
 MAX_THEME_COUNT
 =
 6
@@ -9476,7 +9464,6 @@ Set
 DEFAULT_THEME_ID
 LIGHT_THEME_ID
 DARK_THEME_ID
-ALPENGLOW_THEME_ID
 ]
 )
 ;
