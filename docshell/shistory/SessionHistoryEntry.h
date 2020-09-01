@@ -895,17 +895,6 @@ aId
 ;
 static
 void
-UpdateLayoutHistoryState
-(
-uint64_t
-aSessionHistoryEntryID
-nsILayoutHistoryState
-*
-aState
-)
-;
-static
-void
 MaybeSynchronizeSharedStateToInfo
 (
 nsISHEntry
