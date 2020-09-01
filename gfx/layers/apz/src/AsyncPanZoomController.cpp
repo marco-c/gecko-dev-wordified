@@ -32026,7 +32026,7 @@ RepaintUpdateType
 eNone
 ;
 bool
-viewportUpdated
+viewportSizeUpdated
 =
 false
 ;
@@ -32342,7 +32342,7 @@ needContentRepaint
 =
 true
 ;
-viewportUpdated
+viewportSizeUpdated
 =
 true
 ;
@@ -32419,7 +32419,7 @@ GetDevPixelsPerCSSPixel
 &
 &
 !
-viewportUpdated
+viewportSizeUpdated
 &
 &
 !
@@ -34263,7 +34263,7 @@ ScheduleComposite
 }
 if
 (
-viewportUpdated
+viewportSizeUpdated
 )
 {
 /
