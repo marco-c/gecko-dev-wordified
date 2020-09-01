@@ -836,7 +836,7 @@ kRotate0
 libyuv
 :
 :
-FOURCC_UYVY
+FOURCC_YUYV
 )
 ;
 }
