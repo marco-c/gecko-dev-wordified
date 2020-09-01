@@ -2936,6 +2936,14 @@ Args
 aArgs
 )
 ;
+SafeRefPtr
+<
+BackgroundCursorChild
+>
+SafeRefPtrFromThis
+(
+)
+;
 public
 :
 /
