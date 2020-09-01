@@ -465,13 +465,6 @@ nsHistory
 (
 )
 ;
-nsIDocShell
-*
-GetDocShell
-(
-)
-const
-;
 void
 PushOrReplaceState
 (
