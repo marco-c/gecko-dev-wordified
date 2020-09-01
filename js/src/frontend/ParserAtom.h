@@ -2630,7 +2630,10 @@ UniquePtr
 ParserAtomEntry
 >
 ParserAtomLookupHasher
-TempAllocPolicy
+js
+:
+:
+SystemAllocPolicy
 >
 ;
 EntrySet
@@ -2662,11 +2665,6 @@ WellKnownParserAtoms
 (
 JSContext
 *
-cx
-)
-:
-entrySet_
-(
 cx
 )
 {
@@ -2738,7 +2736,10 @@ UniquePtr
 ParserAtomEntry
 >
 ParserAtomLookupHasher
-TempAllocPolicy
+js
+:
+:
+SystemAllocPolicy
 >
 ;
 EntrySet
