@@ -27114,8 +27114,9 @@ optimizeForArray
 {
 tempDef
 =
-temp
+tempFixed
 (
+CallTempReg0
 )
 ;
 }
@@ -32423,8 +32424,9 @@ proxy
 (
 )
 )
-temp
+tempFixed
 (
+CallTempReg0
 )
 )
 ;
@@ -32720,8 +32722,9 @@ rhs
 (
 )
 )
-temp
+tempFixed
 (
+CallTempReg0
 )
 )
 ;
