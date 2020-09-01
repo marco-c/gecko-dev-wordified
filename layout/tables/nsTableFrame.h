@@ -2028,11 +2028,7 @@ NS_UNCONSTRAINEDSIZE
 )
 override
 ;
-virtual
-mozilla
-:
-:
-LogicalSize
+SizeComputationResult
 ComputeSize
 (
 gfxContext

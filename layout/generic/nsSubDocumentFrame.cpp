@@ -4374,7 +4374,10 @@ wm
 virtual
 *
 /
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 nsSubDocumentFrame
 :
 :
@@ -4408,6 +4411,7 @@ aFlags
 )
 {
 return
+{
 ComputeSizeWithIntrinsicDimensions
 (
 aRenderingContext
@@ -4424,6 +4428,11 @@ aBorder
 aPadding
 aFlags
 )
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 void

@@ -451,11 +451,7 @@ aData
 )
 override
 ;
-virtual
-mozilla
-:
-:
-LogicalSize
+SizeComputationResult
 ComputeSize
 (
 gfxContext
@@ -465,7 +461,7 @@ mozilla
 :
 :
 WritingMode
-aWritingMode
+aWM
 const
 mozilla
 :

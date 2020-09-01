@@ -2704,7 +2704,10 @@ GetCanvasSize
 virtual
 *
 /
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 nsHTMLCanvasFrame
 :
 :
@@ -2800,6 +2803,7 @@ canvasSizeInPx
 ;
 }
 return
+{
 ComputeSizeWithIntrinsicDimensions
 (
 aRenderingContext
@@ -2812,6 +2816,11 @@ aBorder
 aPadding
 aFlags
 )
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 void

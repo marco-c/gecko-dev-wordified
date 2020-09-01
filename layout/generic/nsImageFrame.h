@@ -1249,10 +1249,7 @@ NS_FRAME_FIRST_REFLOW
 )
 ;
 }
-mozilla
-:
-:
-LogicalSize
+SizeComputationResult
 ComputeSize
 (
 gfxContext
@@ -1262,7 +1259,7 @@ mozilla
 :
 :
 WritingMode
-aWritingMode
+aWM
 const
 mozilla
 :

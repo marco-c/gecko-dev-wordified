@@ -2551,7 +2551,10 @@ GetIntrinsicRatio
 virtual
 *
 /
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 SVGOuterSVGFrame
 :
 :
@@ -2668,7 +2671,13 @@ for
 us
 .
 return
+{
 aCBSize
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 LogicalSize
@@ -3129,6 +3138,7 @@ width
 ;
 }
 return
+{
 ComputeSizeWithIntrinsicDimensions
 (
 aRenderingContext
@@ -3143,6 +3153,11 @@ aBorder
 aPadding
 aFlags
 )
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 void

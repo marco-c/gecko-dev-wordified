@@ -10668,7 +10668,10 @@ result
 virtual
 *
 /
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 nsTableFrame
 :
 :
@@ -10701,7 +10704,7 @@ ComputeSizeFlags
 aFlags
 )
 {
-LogicalSize
+auto
 result
 =
 nsContainerFrame
@@ -10844,6 +10847,8 @@ minISize
 >
 result
 .
+mLogicalSize
+.
 ISize
 (
 aWM
@@ -10851,6 +10856,8 @@ aWM
 )
 {
 result
+.
+mLogicalSize
 .
 ISize
 (

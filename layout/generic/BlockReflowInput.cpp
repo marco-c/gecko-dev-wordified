@@ -5257,7 +5257,7 @@ GetWritingMode
 (
 )
 ;
-LogicalSize
+auto
 floatSize
 =
 aFloat
@@ -5339,6 +5339,8 @@ nscoord
 floatISize
 =
 floatSize
+.
+mLogicalSize
 .
 ConvertTo
 (

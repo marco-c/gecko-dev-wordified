@@ -42877,7 +42877,10 @@ aWM
 virtual
 *
 /
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 nsIFrame
 :
 :
@@ -45491,7 +45494,13 @@ aWM
 )
 ;
 return
+{
 result
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 nsRect
@@ -74848,6 +74857,8 @@ ComputeSizeFlags
 :
 eDefault
 )
+.
+mLogicalSize
 .
 Height
 (

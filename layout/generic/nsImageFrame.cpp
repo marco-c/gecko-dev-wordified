@@ -6317,7 +6317,10 @@ UpdateIntrinsicRatio
 )
 ;
 }
-LogicalSize
+nsIFrame
+:
+:
+SizeComputationResult
 nsImageFrame
 :
 :
@@ -6355,6 +6358,7 @@ EnsureIntrinsicSizeAndRatio
 )
 ;
 return
+{
 ComputeSizeWithIntrinsicDimensions
 (
 aRenderingContext
@@ -6367,6 +6371,11 @@ aBorder
 aPadding
 aFlags
 )
+AspectRatioUsage
+:
+:
+None
+}
 ;
 }
 /
