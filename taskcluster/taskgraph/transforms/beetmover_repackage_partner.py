@@ -120,6 +120,8 @@ partners
 import
 (
     
+check_if_partners_enabled
+    
 get_ftp_platform
     
 get_partner_config_by_kind
@@ -340,6 +342,12 @@ transforms
 =
 TransformSequence
 (
+)
+transforms
+.
+add
+(
+check_if_partners_enabled
 )
 transforms
 .

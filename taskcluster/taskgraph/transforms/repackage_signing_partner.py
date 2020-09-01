@@ -111,6 +111,7 @@ util
 .
 partners
 import
+check_if_partners_enabled
 get_partner_config_by_kind
 from
 taskgraph
@@ -224,6 +225,12 @@ priority
 '
 ]
 }
+)
+transforms
+.
+add
+(
+check_if_partners_enabled
 )
 transforms
 .

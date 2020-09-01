@@ -98,7 +98,10 @@ util
 .
 partners
 import
+(
 get_partner_config_by_kind
+check_if_partners_enabled
+)
 from
 taskgraph
 .
@@ -111,6 +114,12 @@ transforms
 =
 TransformSequence
 (
+)
+transforms
+.
+add
+(
+check_if_partners_enabled
 )
 transforms
 .
