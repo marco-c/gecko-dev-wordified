@@ -83,6 +83,12 @@ from
 mozfile
 import
 which
+from
+mozpack
+.
+files
+import
+FileListFinder
 class
 MissingVCSTool
 (
@@ -1471,7 +1477,7 @@ abc
 abstractmethod
     
 def
-get_files_in_working_directory
+get_tracked_files_finder
 (
 self
 )
@@ -1482,15 +1488,63 @@ self
 "
 Obtain
 a
-list
+mozpack
+.
+files
+.
+BaseFinder
 of
 managed
 files
 in
 the
 working
+        
 directory
 .
+        
+The
+Finder
+will
+have
+its
+list
+of
+all
+files
+in
+the
+repo
+cached
+for
+its
+        
+entire
+lifetime
+so
+operations
+on
+the
+Finder
+will
+not
+track
+with
+for
+        
+example
+commits
+to
+the
+repo
+during
+the
+Finder
+'
+s
+lifetime
+.
+        
 "
 "
 "
@@ -3281,7 +3335,7 @@ paths
 )
     
 def
-get_files_in_working_directory
+get_tracked_files_finder
 (
 self
 )
@@ -3300,7 +3354,8 @@ forward
 slashes
 .
         
-return
+files
+=
 list
 (
 p
@@ -3318,7 +3373,7 @@ replace
 for
 p
 in
-                    
+                     
 self
 .
 _run
@@ -3343,6 +3398,12 @@ split
 )
 if
 p
+)
+        
+return
+FileListFinder
+(
+files
 )
     
 def
@@ -4384,13 +4445,14 @@ paths
 )
     
 def
-get_files_in_working_directory
+get_tracked_files_finder
 (
 self
 )
 :
         
-return
+files
+=
 [
 p
 for
@@ -4421,6 +4483,12 @@ split
 if
 p
 ]
+        
+return
+FileListFinder
+(
+files
+)
     
 def
 working_directory_clean
