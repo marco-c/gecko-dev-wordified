@@ -19740,6 +19740,16 @@ calls
 \
 Register
 (
+WARP_ENABLE
+"
+warp
+.
+enable
+"
+)
+\
+Register
+(
 WASM_FOLD_OFFSETS
 "
 wasm
