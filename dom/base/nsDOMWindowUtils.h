@@ -156,6 +156,9 @@ class
 nsGlobalWindowOuter
 ;
 class
+nsIDocShell
+;
+class
 nsIWidget
 ;
 class
@@ -425,6 +428,12 @@ dom
 Element
 *
 aElement
+)
+;
+nsIDocShell
+*
+GetDocShell
+(
 )
 ;
 mozilla
