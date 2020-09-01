@@ -7976,6 +7976,18 @@ FAILURE
 28
 )
     
+errors
+[
+"
+NS_ERROR_DOM_INVALID_POINTER_ERR
+"
+]
+=
+FAILURE
+(
+29
+)
+    
 #
 WebCrypto
 API
