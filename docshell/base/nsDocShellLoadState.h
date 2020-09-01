@@ -1378,6 +1378,8 @@ int32_t
 aRequestedIndex
 int32_t
 aSessionHistoryLength
+bool
+aLoadingFromActiveEntry
 )
 ;
 void
