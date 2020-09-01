@@ -276,6 +276,13 @@ etc
 #
 include
 "
+ExpectedGeckoMetrics
+.
+h
+"
+#
+include
+"
 InputQueue
 .
 h
