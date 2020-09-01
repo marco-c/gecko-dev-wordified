@@ -1994,6 +1994,12 @@ aCopyCoalescedEvents
 true
 )
 ;
+mExitFrom
+=
+aEvent
+.
+mExitFrom
+;
 mIgnoreRootScrollFrame
 =
 aEvent
