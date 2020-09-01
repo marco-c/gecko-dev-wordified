@@ -917,8 +917,6 @@ ClientInfo
 &
 aInfo
 bool
-aHasGesture
-bool
 aUrgentStart
 base
 :
@@ -967,8 +965,6 @@ ClientInfo
 &
 &
 aInfo
-bool
-aHasGesture
 Maybe
 <
 bool
@@ -1030,8 +1026,6 @@ nsLoadFlags
 aLoadFlags
 nsContentPolicyType
 aContentPolicyType
-bool
-aHasGesture
 bool
 aUrgentStart
 base
