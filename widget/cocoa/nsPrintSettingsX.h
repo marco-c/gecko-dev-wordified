@@ -187,19 +187,16 @@ NSPrintInfo
 aPrintInfo
 )
 ;
-virtual
 nsresult
 ReadPageFormatFromPrefs
 (
 )
 ;
-virtual
 nsresult
 WritePageFormatToPrefs
 (
 )
 ;
-virtual
 nsresult
 GetEffectivePageSize
 (
@@ -273,7 +270,6 @@ reftest
 -
 paged
 .
-virtual
 nsresult
 SetPaperWidth
 (
@@ -282,7 +278,6 @@ aPaperWidth
 )
 override
 ;
-virtual
 nsresult
 SetPaperHeight
 (
