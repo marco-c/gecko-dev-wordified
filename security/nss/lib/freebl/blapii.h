@@ -310,13 +310,7 @@ helpers
 if
 defined
 (
-_WINDOWS
-)
-&
-&
-defined
-(
-NSS_X86_OR_X64
+_MSC_VER
 )
 #
 define
@@ -335,7 +329,7 @@ post_align
 elif
 defined
 (
-NSS_X86_OR_X64
+__GNUC__
 )
 #
 define

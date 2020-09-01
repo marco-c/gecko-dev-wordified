@@ -2757,13 +2757,11 @@ We
 just
 retransmit
 the
-previous
-Finished
+ACK
 to
 let
 the
 client
-*
 complete
 .
 *

@@ -1793,7 +1793,9 @@ sftk_MAC_Update
 sftk_MACCtx
 *
 ctx
-CK_BYTE_PTR
+const
+CK_BYTE
+*
 data
 unsigned
 int

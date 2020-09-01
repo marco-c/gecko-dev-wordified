@@ -13161,7 +13161,7 @@ schemaAttrsCapacity
 *
 sizeof
 (
-CK_ATTRIBUTE
+CK_ATTRIBUTE_TYPE
 )
 )
 ;
@@ -13241,7 +13241,7 @@ schemaAttrsCapacity
 *
 sizeof
 (
-CK_ATTRIBUTE
+CK_ATTRIBUTE_TYPE
 )
 )
 ;
