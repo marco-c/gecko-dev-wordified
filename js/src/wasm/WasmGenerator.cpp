@@ -2443,7 +2443,7 @@ types
 are
 funcref
 and
-anyref
+externref
 and
 the
 only
