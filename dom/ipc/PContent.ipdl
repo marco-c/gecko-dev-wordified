@@ -3396,6 +3396,16 @@ reason
 )
 ;
 async
+ApplicationBackground
+(
+)
+;
+async
+ApplicationForeground
+(
+)
+;
+async
 GarbageCollect
 (
 )
