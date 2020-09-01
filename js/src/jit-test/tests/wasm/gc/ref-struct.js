@@ -209,7 +209,7 @@ left
 mut
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -221,7 +221,7 @@ right
 mut
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -235,7 +235,7 @@ g
 mut
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -303,7 +303,7 @@ i32
 result
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -353,7 +353,7 @@ if
 result
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -406,7 +406,7 @@ block
 result
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -498,7 +498,7 @@ param
 w
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -615,7 +615,7 @@ param
 w
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -624,7 +624,7 @@ local
 tmp
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -813,7 +813,7 @@ param
 w
 (
 ref
-opt
+null
 wabbit
 )
 )
@@ -1206,14 +1206,14 @@ store
 a
 (
 ref
-opt
+null
 T
 )
 into
 a
 (
 ref
-opt
+null
 U
 )
 field
@@ -1258,7 +1258,7 @@ field
 mut
 (
 ref
-opt
+null
 node
 )
 )
@@ -1276,7 +1276,7 @@ field
 mut
 (
 ref
-opt
+null
 node
 )
 )
@@ -1295,7 +1295,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -1304,7 +1304,7 @@ param
 q
 (
 ref
-opt
+null
 nix
 )
 )
@@ -1386,7 +1386,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -1394,7 +1394,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -1404,12 +1404,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -1510,7 +1510,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -1518,7 +1518,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -1528,12 +1528,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -1561,7 +1561,7 @@ local
 n
 (
 ref
-opt
+null
 node
 )
 )
@@ -1676,7 +1676,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -1684,7 +1684,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -1694,12 +1694,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -1727,7 +1727,7 @@ local
 n
 (
 ref
-opt
+null
 node
 )
 )
@@ -1921,7 +1921,7 @@ i32
 field
 (
 ref
-opt
+null
 node
 )
 )
@@ -1940,7 +1940,7 @@ i32
 field
 (
 ref
-opt
+null
 node
 )
 )
@@ -1954,7 +1954,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -1962,7 +1962,7 @@ node
 result
 (
 ref
-opt
+null
 node2b
 )
 )
@@ -1972,12 +1972,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2b
 )
 (
@@ -2005,7 +2005,7 @@ local
 n
 (
 ref
-opt
+null
 node
 )
 )
@@ -2108,7 +2108,7 @@ i32
 field
 (
 ref
-opt
+null
 node
 )
 )
@@ -2127,7 +2127,7 @@ i32
 field
 (
 ref
-opt
+null
 nodeCopy
 )
 )
@@ -2141,7 +2141,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -2149,7 +2149,7 @@ node
 result
 (
 ref
-opt
+null
 node2b
 )
 )
@@ -2159,12 +2159,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2b
 )
 (
@@ -2192,7 +2192,7 @@ local
 n
 (
 ref
-opt
+null
 node
 )
 )
@@ -2345,7 +2345,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -2353,7 +2353,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -2363,12 +2363,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -2396,7 +2396,7 @@ local
 n
 (
 ref
-opt
+null
 node
 )
 )
@@ -2531,7 +2531,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -2539,7 +2539,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -2549,12 +2549,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -2666,7 +2666,7 @@ externref
 result
 (
 ref
-opt
+null
 node
 )
 )
@@ -2677,7 +2677,7 @@ narrow
 externref
 (
 ref
-opt
+null
 node
 )
 (
@@ -2705,7 +2705,7 @@ local
 n
 (
 ref
-opt
+null
 node
 )
 )
@@ -2819,7 +2819,7 @@ narrow
 externref
 (
 ref
-opt
+null
 node
 )
 (
@@ -2938,7 +2938,7 @@ narrow
 externref
 (
 ref
-opt
+null
 node
 )
 (
@@ -3066,7 +3066,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3149,7 +3149,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3230,7 +3230,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3310,7 +3310,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3403,7 +3403,7 @@ param
 p
 (
 ref
-opt
+null
 snort
 )
 )
@@ -3501,7 +3501,7 @@ param
 p
 (
 ref
-opt
+null
 snort
 )
 )
@@ -3617,7 +3617,7 @@ param
 p
 (
 ref
-opt
+null
 snort
 )
 )
@@ -3625,7 +3625,7 @@ snort
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -3635,12 +3635,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -3727,7 +3727,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3735,7 +3735,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -3745,12 +3745,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -3820,7 +3820,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3828,7 +3828,7 @@ node
 result
 (
 ref
-opt
+null
 node2
 )
 )
@@ -3838,12 +3838,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 (
 ref
-opt
+null
 node2
 )
 (
@@ -3908,7 +3908,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -3971,7 +3971,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -4131,7 +4131,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -4145,7 +4145,7 @@ struct
 narrow
 (
 ref
-opt
+null
 node
 )
 externref
@@ -4231,7 +4231,7 @@ param
 p
 (
 ref
-opt
+null
 node2
 )
 )
@@ -4245,12 +4245,12 @@ struct
 narrow
 (
 ref
-opt
+null
 node2
 )
 (
 ref
-opt
+null
 node
 )
 (
@@ -4337,7 +4337,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
@@ -4445,7 +4445,7 @@ param
 p
 (
 ref
-opt
+null
 node
 )
 )
