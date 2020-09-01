@@ -2104,12 +2104,12 @@ row
 .
 process
 .
-totalResidentSize
+totalResidentUniqueSize
 row
 .
 process
 .
-deltaResidentSize
+deltaResidentUniqueSize
 HARDCODED_ASSUMPTIONS_PROCESS
 )
 ;
