@@ -238,6 +238,24 @@ firefox_android
 ]
     
 "
+avds_dir
+"
+:
+"
+/
+builds
+/
+worker
+/
+workspace
+/
+build
+/
+.
+android
+"
+    
+"
 binary_path
 "
 :
