@@ -659,7 +659,7 @@ if
 (
 contentPrincipal
 .
-isContentPrincipal
+URI
 )
 {
 /
@@ -870,7 +870,9 @@ true
 return
 contentPrincipal
 .
-equalsURI
+URI
+.
+equals
 (
 uri
 )
