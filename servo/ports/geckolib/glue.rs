@@ -40335,7 +40335,7 @@ result
 =
 m
 .
-to_row_major_array
+to_array
 (
 )
 ;
