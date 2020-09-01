@@ -190,7 +190,10 @@ h
 ifdef
 MOZ_GECKO_PROFILER
 namespace
-profilermarkers
+geckoprofiler
+:
+:
+markers
 {
 /
 /
@@ -241,7 +244,10 @@ NoPayload
 /
 /
 namespace
-profilermarkers
+geckoprofiler
+:
+:
+markers
 #
 endif
 /
