@@ -2641,6 +2641,11 @@ numPages
 cv
 .
 printPreviewNumPages
+totalPages
+:
+cv
+.
+rawNumPages
 }
 )
 ;

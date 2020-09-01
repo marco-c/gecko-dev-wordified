@@ -3214,13 +3214,13 @@ UpdatePageCount
 )
 {
 let
-numPages
+totalPages
 =
 message
 .
 data
 .
-numPages
+totalPages
 ;
 this
 .
@@ -3228,7 +3228,7 @@ mTotalPages
 .
 value
 =
-numPages
+totalPages
 ;
 this
 .
@@ -3236,7 +3236,7 @@ mPageTextBox
 .
 max
 =
-numPages
+totalPages
 ;
 }
 }
