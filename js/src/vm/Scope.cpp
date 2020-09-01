@@ -971,6 +971,12 @@ CreateEnvironmentShape
 JSContext
 *
 cx
+frontend
+:
+:
+CompilationInfo
+&
+compilationInfo
 AbstractBindingIter
 <
 const
@@ -1077,6 +1083,7 @@ name
 toJSAtom
 (
 cx
+compilationInfo
 )
 ;
 if
@@ -1888,6 +1895,12 @@ LiftParserScopeData
 JSContext
 *
 cx
+frontend
+:
+:
+CompilationInfo
+&
+compilationInfo
 ParserScopeData
 <
 ConcreteScope
@@ -2026,6 +2039,7 @@ name
 toJSAtom
 (
 cx
+compilationInfo
 )
 .
 unwrapOr
@@ -14058,6 +14072,7 @@ SpecificScopeT
 >
 (
 cx
+compilationInfo
 &
 data
 <
@@ -14119,6 +14134,7 @@ FunctionScope
 >
 (
 cx
+compilationInfo
 &
 this
 -
@@ -14221,6 +14237,7 @@ ModuleScope
 >
 (
 cx
+compilationInfo
 &
 this
 -

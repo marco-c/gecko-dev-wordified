@@ -1059,6 +1059,16 @@ compilation
 ParserAtomsTable
 parserAtoms
 ;
+JS
+:
+:
+RootedVector
+<
+JSAtom
+*
+>
+atoms
+;
 Directives
 directives
 ;
@@ -1533,6 +1543,10 @@ parserAtoms
 (
 cx
 )
+atoms
+(
+cx
+)
 directives
 (
 options
@@ -1801,6 +1815,8 @@ parserAtom
 toJSAtom
 (
 cx
+*
+this
 )
 .
 unwrapOr
@@ -1827,6 +1843,8 @@ parserAtoms
 internJSAtom
 (
 cx
+*
+this
 atom
 )
 ;

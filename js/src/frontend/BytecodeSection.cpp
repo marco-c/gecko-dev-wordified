@@ -550,6 +550,7 @@ data
 toJSAtom
 (
 cx
+compilationInfo
 )
 ;
 if

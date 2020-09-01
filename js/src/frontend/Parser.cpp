@@ -5384,6 +5384,12 @@ parserAtoms
 internJSAtom
 (
 cx_
+this
+-
+>
+getCompilationInfo
+(
+)
 name
 )
 ;
