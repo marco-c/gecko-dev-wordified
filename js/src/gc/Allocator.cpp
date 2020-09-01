@@ -1044,6 +1044,7 @@ allocation
 ObjectSlots
 (
 nDynamicSlots
+0
 )
 ;
 Debug_SetSlotRangeToCrashOnTouch

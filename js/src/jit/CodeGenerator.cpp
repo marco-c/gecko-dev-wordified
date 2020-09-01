@@ -86054,10 +86054,10 @@ getTemp
 )
 )
 ;
-masm
-.
-storeObjShape
-(
+Shape
+*
+shape
+=
 ins
 -
 >
@@ -86069,6 +86069,12 @@ mir
 shape
 (
 )
+;
+masm
+.
+storeObjShape
+(
+shape
 obj
 [
 ]

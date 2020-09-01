@@ -550,9 +550,8 @@ nDynamicSlots
 aobj
 -
 >
-initSlots
+initEmptyDynamicSlots
 (
-nullptr
 )
 ;
 }
