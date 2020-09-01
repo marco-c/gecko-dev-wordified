@@ -561,6 +561,7 @@ URL
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

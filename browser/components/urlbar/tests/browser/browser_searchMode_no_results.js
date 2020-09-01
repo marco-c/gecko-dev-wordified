@@ -846,6 +846,7 @@ blur
 (
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1349,6 +1350,7 @@ open
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1666,6 +1668,7 @@ attribute
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

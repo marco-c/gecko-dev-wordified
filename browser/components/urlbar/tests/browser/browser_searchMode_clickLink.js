@@ -498,6 +498,7 @@ promisePopupClose
 window
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -628,6 +629,7 @@ URL
 "
 )
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode

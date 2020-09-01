@@ -1101,6 +1101,7 @@ KEY_Enter
 await
 resultsPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1531,6 +1532,7 @@ KEY_Enter
 await
 resultsPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -1841,6 +1843,7 @@ oneOffs
 await
 resultsPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
@@ -2155,6 +2158,7 @@ oneOffs
 await
 resultsPromise
 ;
+await
 UrlbarTestUtils
 .
 assertSearchMode
