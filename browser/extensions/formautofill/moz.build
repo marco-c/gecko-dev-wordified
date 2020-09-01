@@ -181,7 +181,9 @@ org
 .
 chrome
 .
-res
+content
+.
+skin
 +
 =
 [
@@ -233,7 +235,9 @@ org
 .
 chrome
 .
-res
+content
+.
+skin
 +
 =
 [
@@ -285,7 +289,9 @@ org
 .
 chrome
 .
-res
+content
+.
+skin
 +
 =
 [
