@@ -1009,6 +1009,11 @@ url
 :
 link
 .
+url_urlbar
+|
+|
+link
+.
 url
 isPinned
 :
