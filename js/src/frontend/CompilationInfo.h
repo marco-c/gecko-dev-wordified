@@ -826,6 +826,11 @@ GCVector
 <
 JSAtom
 *
+0
+js
+:
+:
+SystemAllocPolicy
 >
 atoms
 ;
@@ -897,10 +902,6 @@ options
 options
 (
 options
-)
-atoms
-(
-cx
 )
 {
 }
