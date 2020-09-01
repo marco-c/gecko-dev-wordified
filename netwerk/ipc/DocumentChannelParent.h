@@ -147,6 +147,11 @@ final
 :
 public
 PDocumentChannelParent
+public
+DocumentLoadListener
+:
+:
+ObjectUpgradeHandler
 {
 public
 :
@@ -231,6 +236,15 @@ NS_BINDING_ABORTED
 }
 private
 :
+RefPtr
+<
+ObjectUpgradePromise
+>
+UpgradeObjectLoad
+(
+)
+override
+;
 RefPtr
 <
 PDocumentChannelParent

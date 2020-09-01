@@ -1124,6 +1124,12 @@ IsHandlingUserInput
 ProcessId
 *
 /
+nullptr
+/
+*
+ObjectUpgradeHandler
+*
+/
 &
 rv
 )
