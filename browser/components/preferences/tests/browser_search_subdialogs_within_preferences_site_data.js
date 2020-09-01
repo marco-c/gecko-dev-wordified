@@ -113,13 +113,6 @@ siteDataGroup
 "
 trackingGroup
 "
-"
-pane
--
-experimental
--
-featureGates
-"
 ]
 )
 ;
@@ -210,13 +203,6 @@ cache
 [
 "
 siteDataGroup
-"
-"
-pane
--
-experimental
--
-featureGates
 "
 ]
 )
