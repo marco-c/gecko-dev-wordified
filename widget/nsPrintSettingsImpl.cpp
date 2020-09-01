@@ -438,6 +438,13 @@ aSettings
 mPrintInColor
 )
 ;
+SetResolution
+(
+aSettings
+.
+mResolution
+)
+;
 SetPaperName
 (
 aSettings
