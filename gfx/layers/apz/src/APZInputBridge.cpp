@@ -292,10 +292,6 @@ mStatus
 (
 nsEventStatus_eIgnore
 )
-mHandledByRootApzc
-(
-false
-)
 mInputBlockId
 (
 InputBlockState
