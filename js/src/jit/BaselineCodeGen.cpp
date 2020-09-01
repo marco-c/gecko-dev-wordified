@@ -8561,9 +8561,10 @@ JitOptions
 warpBuilder
 &
 &
+!
 JitOptions
 .
-warpTrialInlining
+disableInlining
 )
 {
 /
