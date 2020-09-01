@@ -2228,10 +2228,6 @@ gtk_window_set_modal
 )
 STUB
 (
-gdk_window_set_opaque_region
-)
-STUB
-(
 gtk_window_set_skip_taskbar_hint
 )
 STUB
@@ -2241,10 +2237,6 @@ gtk_window_set_startup_id
 STUB
 (
 gtk_window_set_title
-)
-STUB
-(
-gtk_window_set_titlebar
 )
 STUB
 (
@@ -2318,6 +2310,10 @@ gdk_screen_get_monitor_workarea
 STUB
 (
 gdk_window_get_type
+)
+STUB
+(
+gdk_window_set_opaque_region
 )
 STUB
 (
@@ -2638,6 +2634,10 @@ gtk_widget_set_valign
 STUB
 (
 gtk_widget_set_visual
+)
+STUB
+(
+gtk_window_set_titlebar
 )
 STUB
 (
