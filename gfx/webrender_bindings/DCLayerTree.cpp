@@ -2515,12 +2515,6 @@ height
 )
 )
 ;
-clip
-.
-Round
-(
-)
-;
 /
 /
 Set
