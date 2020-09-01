@@ -1056,12 +1056,13 @@ rv
 NS_OK
 )
 ;
-ASSERT_TRUE
+ASSERT_STREQ
 (
 JSON
 .
-EqualsLiteral
+get
 (
+)
 "
 {
 \
@@ -1092,7 +1093,6 @@ eyIxIjp7IjAiOiJodHRwczovL21vemlsbGEub3JnLyJ9fQ
 }
 }
 "
-)
 )
 ;
 nsCOMPtr
@@ -1504,12 +1504,13 @@ rv
 NS_OK
 )
 ;
-ASSERT_TRUE
+ASSERT_STREQ
 (
 JSON
 .
-EqualsLiteral
+get
 (
+)
 "
 {
 \
@@ -1556,7 +1557,6 @@ userContextId
 }
 }
 "
-)
 )
 ;
 nsCOMPtr

@@ -3168,7 +3168,7 @@ rv
 return
 rv
 ;
-nsAutoCString
+nsCString
 temp
 ;
 nsDependentCSubstring
@@ -3215,7 +3215,13 @@ rv
 ;
 aOutSalt
 =
+std
+:
+:
+move
+(
 temp
+)
 ;
 return
 NS_OK

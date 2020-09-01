@@ -578,7 +578,7 @@ size
 )
 )
 ;
-nsAutoCString
+nsCString
 base64
 ;
 rv
@@ -626,7 +626,13 @@ rv
 }
 aRecoveryPhrase
 =
+std
+:
+:
+move
+(
 base64
+)
 ;
 return
 NS_OK
@@ -870,7 +876,7 @@ size
 )
 )
 ;
-nsAutoCString
+nsCString
 base64ciphertext
 ;
 rv
@@ -894,8 +900,11 @@ rv
 ;
 }
 aEncryptedBase64Text
-.
-Assign
+=
+std
+:
+:
+move
 (
 base64ciphertext
 )

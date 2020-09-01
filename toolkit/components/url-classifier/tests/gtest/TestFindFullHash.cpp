@@ -193,7 +193,13 @@ aEncodedArray
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 encoded
+)
 )
 ;
 }
