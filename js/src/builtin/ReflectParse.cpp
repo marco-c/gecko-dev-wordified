@@ -23382,6 +23382,8 @@ if
 !
 compilationInfo
 .
+input
+.
 init
 (
 cx
@@ -23486,6 +23488,8 @@ false
 else
 {
 compilationInfo
+.
+input
 .
 setEnclosingScope
 (

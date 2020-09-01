@@ -1452,6 +1452,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+input
+.
 source
 (
 )
@@ -1470,6 +1472,8 @@ create
 (
 cx
 compilationInfo
+.
+input
 .
 source
 (

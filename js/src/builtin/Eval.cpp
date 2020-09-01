@@ -2410,6 +2410,8 @@ if
 !
 compilationInfo
 .
+input
+.
 init
 (
 cx
@@ -2421,6 +2423,8 @@ false
 ;
 }
 compilationInfo
+.
+input
 .
 setEnclosingScope
 (
@@ -3027,6 +3031,8 @@ if
 !
 compilationInfo
 .
+input
+.
 init
 (
 cx
@@ -3038,6 +3044,8 @@ false
 ;
 }
 compilationInfo
+.
+input
 .
 setEnclosingScope
 (
