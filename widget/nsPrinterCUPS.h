@@ -320,6 +320,16 @@ paper
 )
 .
 *
+Returns
+nullptr
+if
+the
+name
+cannot
+be
+localized
+.
+*
 /
 const
 char
