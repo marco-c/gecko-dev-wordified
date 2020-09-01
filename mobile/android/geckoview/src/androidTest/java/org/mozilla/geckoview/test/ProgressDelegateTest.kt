@@ -1962,11 +1962,6 @@ pageTop
 "
 )
 }
-Ignore
-/
-/
-Bug
-1547849
 WithDisplay
 (
 width
