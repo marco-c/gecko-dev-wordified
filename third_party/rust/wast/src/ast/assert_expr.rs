@@ -10,7 +10,7 @@ kw
 Float32
 Float64
 Index
-RefType
+HeapType
 }
 ;
 use
@@ -190,10 +190,13 @@ V128Pattern
 )
 RefNull
 (
-RefType
+Option
+<
+HeapType
 <
 '
 a
+>
 >
 )
 RefExtern

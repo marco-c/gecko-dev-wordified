@@ -161,6 +161,7 @@ module
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -206,6 +207,14 @@ TypeUse
 <
 '
 a
+ast
+:
+:
+FunctionType
+<
+'
+a
+>
 >
 )
 }
