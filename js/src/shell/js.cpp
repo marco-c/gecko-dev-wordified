@@ -24816,10 +24816,13 @@ RootedObject
 infoObject
 (
 cx
+CheckedUnwrapStatic
+(
 privateValue
 .
 toObjectOrNull
 (
+)
 )
 )
 ;
