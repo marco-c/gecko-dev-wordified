@@ -211,7 +211,7 @@ CSSRect
 ;
 fm
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 CSSPoint
 (
@@ -494,7 +494,7 @@ EXPECT_EQ
 325
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -506,7 +506,7 @@ EXPECT_EQ
 330
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -562,7 +562,7 @@ EXPECT_EQ
 300
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -574,7 +574,7 @@ EXPECT_EQ
 300
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -629,7 +629,7 @@ CSSToParentLayerScale2D
 ;
 fm
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 CSSPoint
 (
@@ -786,7 +786,7 @@ EXPECT_EQ
 805
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -798,7 +798,7 @@ EXPECT_EQ
 0
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -831,7 +831,7 @@ EXPECT_EQ
 930
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -843,7 +843,7 @@ EXPECT_EQ
 5
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -999,14 +999,14 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
 x
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1017,14 +1017,14 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
 y
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1431,7 +1431,7 @@ GetZoom
 &
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1440,7 +1440,7 @@ x
 =
 result
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1449,7 +1449,7 @@ x
 &
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1458,7 +1458,7 @@ y
 =
 result
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2381,7 +2381,7 @@ EXPECT_EQ
 325
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2393,7 +2393,7 @@ EXPECT_EQ
 325
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2532,7 +2532,7 @@ EXPECT_EQ
 300
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2544,7 +2544,7 @@ EXPECT_EQ
 325
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2681,7 +2681,7 @@ EXPECT_EQ
 300
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2693,7 +2693,7 @@ EXPECT_EQ
 425
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2829,7 +2829,7 @@ EXPECT_EQ
 300
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2841,7 +2841,7 @@ EXPECT_EQ
 250
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2986,7 +2986,7 @@ EXPECT_EQ
 200
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2998,7 +2998,7 @@ EXPECT_EQ
 250
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -3141,7 +3141,7 @@ EXPECT_EQ
 300
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -3153,7 +3153,7 @@ EXPECT_EQ
 250
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -3318,7 +3318,7 @@ EXPECT_EQ
 400
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -3330,7 +3330,7 @@ EXPECT_EQ
 150
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -3613,14 +3613,14 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
 x
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -3631,14 +3631,14 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
 y
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4225,14 +4225,14 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
 x
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4243,7 +4243,7 @@ EXPECT_EQ
 (
 originalMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4252,7 +4252,7 @@ y
 50
 fm
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .

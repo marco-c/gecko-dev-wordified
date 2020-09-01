@@ -490,7 +490,7 @@ mScrollOffset
 (
 aOther
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )

@@ -165,7 +165,7 @@ mScrollOffset
 (
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -213,7 +213,7 @@ mScrollOffset
 (
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 )
@@ -374,7 +374,7 @@ mScrollOffset
 =
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 ;

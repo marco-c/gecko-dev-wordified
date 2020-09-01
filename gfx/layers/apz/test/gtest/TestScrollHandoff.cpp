@@ -1612,7 +1612,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1629,7 +1629,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1968,7 +1968,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -1985,7 +1985,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2002,7 +2002,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2076,7 +2076,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2093,7 +2093,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -2111,7 +2111,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4141,7 +4141,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4158,7 +4158,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4529,7 +4529,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4546,7 +4546,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4611,7 +4611,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4807,7 +4807,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4825,7 +4825,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .
@@ -4924,7 +4924,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 .

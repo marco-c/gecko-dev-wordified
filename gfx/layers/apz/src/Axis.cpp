@@ -2637,7 +2637,7 @@ GetFrameMetrics
 (
 )
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 *

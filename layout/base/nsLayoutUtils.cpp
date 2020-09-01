@@ -23715,7 +23715,7 @@ Size
 ;
 metrics
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 isRcdRsf
 ?
@@ -64133,7 +64133,7 @@ GetApzScrollPosition
 ;
 metrics
 .
-SetScrollOffset
+SetVisualScrollOffset
 (
 scrollPosition
 )
@@ -68512,7 +68512,7 @@ scrollDelta
 =
 aMetrics
 .
-GetScrollOffset
+GetVisualScrollOffset
 (
 )
 -

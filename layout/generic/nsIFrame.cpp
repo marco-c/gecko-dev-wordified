@@ -51196,7 +51196,7 @@ if
 (
 metrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 !

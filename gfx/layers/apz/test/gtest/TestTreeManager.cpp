@@ -2254,7 +2254,7 @@ aMetrics
 {
 aMetrics
 .
-SetScrollOffset
+SetLayoutScrollOffset
 (
 CSSPoint
 (
@@ -2525,7 +2525,7 @@ aMetrics
 {
 aMetrics
 .
-SetScrollOffset
+SetLayoutScrollOffset
 (
 CSSPoint
 (

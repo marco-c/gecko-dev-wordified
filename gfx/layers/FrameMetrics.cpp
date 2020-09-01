@@ -224,7 +224,9 @@ mLayoutViewport
 .
 MoveTo
 (
-mScrollOffset
+GetVisualScrollOffset
+(
+)
 )
 ;
 return

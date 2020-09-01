@@ -2662,7 +2662,7 @@ scrollOffset
 =
 metrics
 .
-GetScrollOffset
+GetLayoutScrollOffset
 (
 )
 *
