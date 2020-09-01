@@ -859,12 +859,12 @@ NativeLayer
 mAddedLayers
 ;
 uint64_t
-mTotalPixelCount
+mTotalTilePixelCount
 =
 0
 ;
 uint64_t
-mAddedPixelCount
+mAddedTilePixelCount
 =
 0
 ;
