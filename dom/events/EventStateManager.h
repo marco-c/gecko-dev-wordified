@@ -180,7 +180,7 @@ mozilla
 /
 layers
 /
-APZUtils
+APZPublicUtils
 .
 h
 "
