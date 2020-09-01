@@ -12666,6 +12666,11 @@ return
 false
 ;
 }
+bool
+isExternal
+=
+true
+;
 if
 (
 forceExternal
@@ -12692,9 +12697,6 @@ TestExternalStringCallbacks
 }
 else
 {
-bool
-isExternal
-;
 dest
 =
 NewMaybeExternalString
@@ -12717,6 +12719,9 @@ heap
 if
 (
 dest
+&
+&
+isExternal
 )
 {
 mozilla
