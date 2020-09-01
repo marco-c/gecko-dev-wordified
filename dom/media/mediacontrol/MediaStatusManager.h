@@ -1330,7 +1330,7 @@ playback
 state
 .
 MediaSessionPlaybackState
-GetState
+PlaybackState
 (
 )
 const

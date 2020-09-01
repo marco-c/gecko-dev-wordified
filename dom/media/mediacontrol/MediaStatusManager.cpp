@@ -2676,7 +2676,7 @@ MediaSessionPlaybackState
 MediaStatusManager
 :
 :
-GetState
+PlaybackState
 (
 )
 const
