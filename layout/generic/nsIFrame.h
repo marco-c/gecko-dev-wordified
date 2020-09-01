@@ -41042,6 +41042,12 @@ FirstChild
 )
 ;
 aFrameList
+.
+Clear
+(
+)
+;
+aFrameList
 =
 nsFrameList
 (

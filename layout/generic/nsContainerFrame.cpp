@@ -11823,7 +11823,13 @@ overflow
 list
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 tail
+)
 )
 ;
 }
@@ -14954,7 +14960,13 @@ else
 {
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 aList
+)
 )
 ;
 }

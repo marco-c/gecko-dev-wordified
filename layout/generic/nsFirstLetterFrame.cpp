@@ -1949,9 +1949,7 @@ to
 our
 overflow
 list
-const
 nsFrameList
-&
 overflow
 =
 mFrames
@@ -1972,7 +1970,13 @@ NotEmpty
 {
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 overflow
+)
 )
 ;
 }

@@ -6553,9 +6553,7 @@ pick
 them
 up
 .
-const
 nsFrameList
-&
 continuationColumns
 =
 mFrames
@@ -6576,7 +6574,13 @@ NotEmpty
 {
 SetOverflowFrames
 (
+std
+:
+:
+move
+(
 continuationColumns
+)
 )
 ;
 }
