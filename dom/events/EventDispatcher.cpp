@@ -6052,6 +6052,18 @@ target
 nsEventStatus
 status
 =
+aDOMEvent
+&
+&
+aDOMEvent
+-
+>
+DefaultPrevented
+(
+)
+?
+nsEventStatus_eConsumeNoDefault
+:
 aEventStatus
 ?
 *
@@ -7494,7 +7506,7 @@ mDOMEvent
 {
 /
 /
-An
+A
 dom
 :
 :
