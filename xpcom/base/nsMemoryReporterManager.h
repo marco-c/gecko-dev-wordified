@@ -1542,8 +1542,7 @@ aPort
 )
 ;
 #
-elif
-XP_LINUX
+else
 static
 int64_t
 ResidentUnique
@@ -1552,14 +1551,6 @@ pid_t
 aPid
 =
 0
-)
-;
-#
-else
-static
-int64_t
-ResidentUnique
-(
 )
 ;
 #
