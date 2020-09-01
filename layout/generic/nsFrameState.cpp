@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsPageFrame
+.
+h
+"
+#
+include
+"
 nsPlaceholderFrame
 .
 h
