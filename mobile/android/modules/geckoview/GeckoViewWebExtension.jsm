@@ -2483,7 +2483,7 @@ const
 {
 browser
 tab
-windowUtils
+docShell
 }
 =
 aWindow
@@ -2547,7 +2547,7 @@ activated
 {
 windowId
 :
-windowUtils
+docShell
 .
 outerWindowID
 tabId

@@ -11811,7 +11811,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-GetOuterWindowID
+GetDeprecatedOuterWindowID
 (
 uint64_t
 *

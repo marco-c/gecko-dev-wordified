@@ -2482,7 +2482,7 @@ window
 .
 windowUtils
 .
-outerWindowID
+deprecatedOuterWindowID
 =
 =
 winId

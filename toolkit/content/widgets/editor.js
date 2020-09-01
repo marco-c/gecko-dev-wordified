@@ -912,9 +912,7 @@ outerWindowID
 return
 this
 .
-contentWindow
-.
-windowUtils
+docShell
 .
 outerWindowID
 ;
