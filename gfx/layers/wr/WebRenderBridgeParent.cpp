@@ -12369,6 +12369,9 @@ Next
 (
 )
 ;
+#
+ifdef
+MOZ_GECKO_PRFOILER
 TimeStamp
 now
 =
@@ -12408,6 +12411,11 @@ now
 now
 )
 ;
+#
+endif
+/
+/
+MOZ_GECKO_PRFOILER
 return
 ;
 }
@@ -12505,6 +12513,9 @@ mSkippedComposites
 ;
 }
 }
+#
+ifdef
+MOZ_GECKO_PROFILER
 TimeStamp
 now
 =
@@ -12538,6 +12549,11 @@ now
 now
 )
 ;
+#
+endif
+/
+/
+MOZ_GECKO_PROFILER
 return
 ;
 }

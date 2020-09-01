@@ -538,6 +538,11 @@ categoryPair
 docShell
 cause
 )
+struct
+ProfilerBacktrace
+{
+}
+;
 using
 UniqueProfilerBacktrace
 =
