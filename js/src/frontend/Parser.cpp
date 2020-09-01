@@ -60172,6 +60172,8 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
 pos
 (
 )

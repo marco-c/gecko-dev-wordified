@@ -1181,9 +1181,9 @@ newBigInt
 (
 BigIntIndex
 index
-CompilationInfo
+CompilationStencil
 &
-compilationInfo
+stencil
 const
 TokenPos
 &
@@ -1197,7 +1197,7 @@ BigIntLiteral
 >
 (
 index
-compilationInfo
+stencil
 pos
 )
 ;
