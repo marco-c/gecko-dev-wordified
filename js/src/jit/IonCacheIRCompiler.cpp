@@ -16104,6 +16104,8 @@ emitArrayJoinResult
 (
 ObjOperandId
 objId
+StringOperandId
+sepId
 )
 {
 MOZ_CRASH
