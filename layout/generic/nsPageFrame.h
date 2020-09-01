@@ -329,6 +329,7 @@ int32_t
 GetPageNum
 (
 )
+const
 {
 return
 mPageNum
