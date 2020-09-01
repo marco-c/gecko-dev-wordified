@@ -220,7 +220,7 @@ self
 assertIn
 (
 "
-test2
+test
 .
 xhtml
 "
@@ -315,7 +315,7 @@ self
 assertIn
 (
 "
-test2
+test
 .
 xhtml
 "
