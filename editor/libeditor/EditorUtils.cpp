@@ -1048,9 +1048,7 @@ See
 EditorBase
 :
 :
-SetCaretBidiLevelForDeletion
-(
-)
+AutoCaretBidiLevelManager
 .
 MOZ_ASSERT
 (
