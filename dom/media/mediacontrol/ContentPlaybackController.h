@@ -433,6 +433,15 @@ aAction
 )
 const
 ;
+Maybe
+<
+uint64_t
+>
+GetActiveMediaSessionId
+(
+)
+const
+;
 MediaSession
 *
 GetMediaSession
