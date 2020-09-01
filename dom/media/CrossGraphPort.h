@@ -174,8 +174,10 @@ CrossGraphTransmitter
 (
 TrackRate
 aSampleRate
+RefPtr
+<
 CrossGraphReceiver
-*
+>
 aReceiver
 )
 ;
@@ -205,6 +207,7 @@ override
 ;
 private
 :
+const
 RefPtr
 <
 CrossGraphReceiver
