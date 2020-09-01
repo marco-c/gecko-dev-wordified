@@ -5910,8 +5910,7 @@ mWriter
 ChunkedWriteFunc
 (
 )
--
->
+.
 CopyData
 (
 )

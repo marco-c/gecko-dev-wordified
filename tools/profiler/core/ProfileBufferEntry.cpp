@@ -1549,8 +1549,7 @@ mStringTableWriter
 ChunkedWriteFunc
 (
 )
--
->
+.
 CopyData
 (
 )
@@ -2767,7 +2766,7 @@ TakeAndSplice
 (
 mFrameTableWriter
 .
-ChunkedWriteFunc
+TakeChunkedWriteFunc
 (
 )
 )
@@ -2796,7 +2795,7 @@ TakeAndSplice
 (
 mStackTableWriter
 .
-ChunkedWriteFunc
+TakeChunkedWriteFunc
 (
 )
 )
