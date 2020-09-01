@@ -310,6 +310,14 @@ nsPrintSettingsWin
 aPS
 )
 ;
+explicit
+nsPrintSettingsWin
+(
+const
+PrintSettingsInitializer
+&
+)
+;
 /
 *
 *

@@ -140,6 +140,12 @@ mozilla
 :
 ErrorResult
 ;
+using
+mozilla
+:
+:
+PaperInfo
+;
 NS_IMPL_CYCLE_COLLECTION
 (
 nsPaper
