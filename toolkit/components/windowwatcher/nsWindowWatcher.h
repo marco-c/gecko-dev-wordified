@@ -321,6 +321,8 @@ bool
 aCalledFromJS
 bool
 aWidthSpecified
+bool
+aIsForPrinting
 )
 ;
 /
@@ -500,6 +502,7 @@ bool
 aForceNoOpener
 bool
 aForceNoReferrer
+PrintKind
 nsDocShellLoadState
 *
 aLoadState

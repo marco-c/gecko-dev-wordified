@@ -837,6 +837,9 @@ aChromeFlags
 .
 *
 /
+[
+noscript
+]
 BrowsingContext
 provideWindow
 (

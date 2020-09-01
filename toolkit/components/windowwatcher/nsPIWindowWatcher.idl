@@ -293,6 +293,16 @@ mozIDOMWindowProxy
 aWindow
 )
 ;
+cenum
+PrintKind
+:
+8
+{
+PRINT_NONE
+PRINT_REGULAR
+PRINT_PREVIEW
+}
+;
 /
 *
 *
@@ -659,6 +669,9 @@ however
 .
 *
 /
+[
+noscript
+]
 BrowsingContext
 openWindow2
 (
@@ -695,6 +708,9 @@ aForceNoOpener
 in
 boolean
 aForceNoReferrer
+in
+nsPIWindowWatcher_PrintKind
+aPrintKind
 in
 nsDocShellLoadStatePtr
 aLoadState
