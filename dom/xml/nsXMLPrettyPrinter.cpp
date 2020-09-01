@@ -700,6 +700,13 @@ here
 "
 )
 ;
+shadowRoot
+-
+>
+SetIsStaticUAWidget
+(
+)
+;
 /
 /
 Append

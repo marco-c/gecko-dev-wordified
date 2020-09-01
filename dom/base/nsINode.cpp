@@ -21388,11 +21388,10 @@ if
 originalShadowRoot
 &
 &
-!
 originalShadowRoot
 -
 >
-IsUAWidget
+ShouldStaticClone
 (
 )
 )
