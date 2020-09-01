@@ -3813,6 +3813,8 @@ const
 JSClass
 *
 clasp
+AbortSignalIsAborted
+isAborted
 JSContext
 *
 cx
@@ -3829,6 +3831,7 @@ runtime
 initAbortSignalHandling
 (
 clasp
+isAborted
 )
 ;
 }
