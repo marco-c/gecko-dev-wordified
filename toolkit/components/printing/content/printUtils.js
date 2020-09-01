@@ -974,14 +974,6 @@ resizable
 =
 no
 "
-null
-{
-sizeTo
-:
-"
-available
-"
-}
 )
 ;
 }
