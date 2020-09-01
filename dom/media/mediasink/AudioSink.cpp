@@ -202,7 +202,7 @@ h
 "
 #
 define
-PROFILER_MARKER
+PROFILER_AUDIO_MARKER
 (
 tag
 sample
@@ -299,7 +299,7 @@ while
 else
 #
 define
-PROFILER_MARKER
+PROFILER_AUDIO_MARKER
 (
 tag
 sample
@@ -2015,7 +2015,7 @@ Available
 framesToPop
 )
 ;
-PROFILER_MARKER
+PROFILER_AUDIO_MARKER
 (
 "
 PlayAudio
