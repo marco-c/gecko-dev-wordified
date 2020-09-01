@@ -719,9 +719,11 @@ const
 directory
 =
 await
-self
+navigator
 .
-getOriginPrivateDirectory
+storage
+.
+getDirectory
 (
 )
 ;
@@ -794,9 +796,11 @@ const
 parent_directory
 =
 await
-self
+navigator
 .
-getOriginPrivateDirectory
+storage
+.
+getDirectory
 (
 )
 ;

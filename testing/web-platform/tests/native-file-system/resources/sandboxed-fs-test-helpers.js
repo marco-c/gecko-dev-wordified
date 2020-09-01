@@ -87,9 +87,11 @@ const
 dir
 =
 await
-self
+navigator
 .
-getOriginPrivateDirectory
+storage
+.
+getDirectory
 (
 )
 ;
@@ -166,9 +168,11 @@ const
 dir
 =
 await
-self
+navigator
 .
-getOriginPrivateDirectory
+storage
+.
+getDirectory
 (
 )
 ;
