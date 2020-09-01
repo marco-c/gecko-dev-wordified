@@ -834,15 +834,6 @@ GetMainController
 )
 const
 ;
-MediaController
-*
-GetControllerById
-(
-uint64_t
-aId
-)
-const
-;
 bool
 Contains
 (
