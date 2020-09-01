@@ -2087,6 +2087,12 @@ printSettings
 .
 kOutputFormatPDF
 ;
+printSettings
+.
+printToFile
+=
+true
+;
 }
 /
 /
