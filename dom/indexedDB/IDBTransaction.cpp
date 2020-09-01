@@ -1869,7 +1869,8 @@ IDBTransaction
 OpenCursor
 (
 PBackgroundIDBCursorChild
-&
+*
+const
 aBackgroundActor
 const
 OpenCursorParams
@@ -1879,6 +1880,11 @@ aParams
 {
 AssertIsOnOwningThread
 (
+)
+;
+MOZ_ASSERT
+(
+aBackgroundActor
 )
 ;
 MOZ_ASSERT
@@ -1899,7 +1905,6 @@ T__None
 DoWithTransactionChild
 (
 [
-&
 aBackgroundActor
 &
 aParams
@@ -1914,7 +1919,6 @@ actor
 .
 SendPBackgroundIDBCursorConstructor
 (
-&
 aBackgroundActor
 aParams
 )
@@ -1925,7 +1929,8 @@ aParams
 MOZ_ASSERT
 (
 aBackgroundActor
-.
+-
+>
 GetActorEventTarget
 (
 )
