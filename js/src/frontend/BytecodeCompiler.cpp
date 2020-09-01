@@ -2994,9 +2994,6 @@ input
 TokenStreamPosition
 startPosition
 (
-compilationState_
-.
-keepAtoms
 parser
 -
 >
@@ -3787,9 +3784,6 @@ input
 TokenStreamPosition
 startPosition
 (
-compilationState_
-.
-keepAtoms
 parser
 -
 >
