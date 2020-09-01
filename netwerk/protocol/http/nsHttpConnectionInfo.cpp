@@ -4026,13 +4026,9 @@ false
 }
 NetAddr
 netAddr
-;
-PRNetAddrToNetAddr
 (
 &
 prAddr
-&
-netAddr
 )
 ;
 return
