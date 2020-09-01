@@ -7355,13 +7355,6 @@ lastResultCount
 ;
 this
 .
-allHeuristicResults
-=
-[
-]
-;
-this
-.
 pendingHeuristicProviders
 =
 new
