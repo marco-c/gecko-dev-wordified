@@ -2800,7 +2800,7 @@ containing
 a
 Blocklist
 Test
-BluetoothRemoveGattService
+BluetoothRemoteGattService
 and
 *
 its
