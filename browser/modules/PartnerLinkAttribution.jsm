@@ -77,7 +77,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-TopSiteAttribution
+PartnerLinkAttribution
 "
 ]
 ;
@@ -128,7 +128,7 @@ jsm
 )
 ;
 var
-TopSiteAttribution
+PartnerLinkAttribution
 =
 {
 async
