@@ -1291,11 +1291,10 @@ the
 given
 reference
 type
-kind
 .
 If
 the
-targetTypeKind
+targetType
 /
 /
 is
@@ -1398,10 +1397,7 @@ JSContext
 *
 cx
 RefType
-:
-:
-Kind
-targetTypeKind
+targetType
 HandleValue
 v
 MutableHandleFunction
