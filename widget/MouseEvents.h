@@ -1402,7 +1402,7 @@ eControlClick
 }
 ;
 typedef
-bool
+uint8_t
 ExitFromType
 ;
 enum
@@ -1412,6 +1412,7 @@ ExitFromType
 {
 eChild
 eTopLevel
+ePuppet
 }
 ;
 protected
@@ -1865,12 +1866,16 @@ from
 a
 top
 level
+platform
 widget
-or
 /
 /
 a
 child
+widget
+or
+a
+puppet
 widget
 .
 Maybe
