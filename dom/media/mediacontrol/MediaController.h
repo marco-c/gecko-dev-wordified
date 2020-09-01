@@ -704,6 +704,11 @@ deactivated
 ;
 IMPL_EVENT_HANDLER
 (
+metadatachange
+)
+;
+IMPL_EVENT_HANDLER
+(
 supportedkeyschange
 )
 ;
@@ -1010,6 +1015,15 @@ PositionState
 aState
 )
 ;
+void
+HandleMetadataChanged
+(
+const
+MediaMetadataBase
+&
+aMetadata
+)
+;
 /
 /
 This
@@ -1172,6 +1186,9 @@ mSupportedKeysChangedEvent
 ;
 MediaEventListener
 mPositionStateChangedListener
+;
+MediaEventListener
+mMetadataChangedListener
 ;
 MediaEventProducer
 <
