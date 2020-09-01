@@ -334,7 +334,6 @@ SearchTestUtils
 .
 useMockIdleService
 (
-registerCleanupFunction
 )
 ;
 await

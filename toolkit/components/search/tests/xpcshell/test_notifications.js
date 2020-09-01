@@ -41,14 +41,6 @@ originalDefaultEngine
 ;
 SearchTestUtils
 .
-init
-(
-Assert
-registerCleanupFunction
-)
-;
-SearchTestUtils
-.
 initXPCShellAddonManager
 (
 this
