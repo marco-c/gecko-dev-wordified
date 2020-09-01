@@ -5472,6 +5472,17 @@ int32_t
 code
 )
 ;
+JSLinearString
+*
+StringFromCharCodeNoGC
+(
+JSContext
+*
+cx
+int32_t
+code
+)
+;
 JSString
 *
 StringFromCodePoint
