@@ -21399,6 +21399,12 @@ HasCharacter
 (
 aCh
 )
+|
+|
+IsDefaultIgnorable
+(
+aCh
+)
 )
 {
 return
