@@ -347,6 +347,15 @@ source
 >
 buffer
 .
+data
+(
+)
+?
+source
+-
+>
+buffer
+.
 size
 (
 )
@@ -355,6 +364,8 @@ source
 -
 >
 location
+:
+0
 ;
 uintptr_t
 length
@@ -368,6 +379,11 @@ available
 size
 )
 ;
+if
+(
+length
+)
+{
 memcpy
 (
 buffer
@@ -395,6 +411,7 @@ location
 =
 length
 ;
+}
 return
 length
 ;
