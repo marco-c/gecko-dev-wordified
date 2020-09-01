@@ -1925,13 +1925,6 @@ HandleActualPlaybackStateChanged
 (
 )
 ;
-mPlaybackStateChangedEvent
-.
-Notify
-(
-mActualPlaybackState
-)
-;
 }
 void
 MediaStatusManager

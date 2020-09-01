@@ -1075,15 +1075,6 @@ SessionAccessibility
 mSessionAccessibility
 ;
 class
-MediaSessionSupport
-;
-NativePtr
-<
-MediaSessionSupport
->
-mMediaSessionSupport
-;
-class
 GeckoViewSupport
 ;
 /
