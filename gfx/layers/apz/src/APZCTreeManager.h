@@ -4598,8 +4598,11 @@ HitTestResult
 =
 default
 ;
+Maybe
+<
 bool
-TargetIsConfirmedRoot
+>
+HandledByRoot
 (
 )
 const
