@@ -1489,7 +1489,7 @@ shadow
 Object
 "
 "
-js
+JS
 :
 :
 shadow
