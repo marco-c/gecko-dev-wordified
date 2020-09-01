@@ -31,10 +31,16 @@ opcode
 Structure
 |
 reference
+|
+gc
 )
 types
 not
 enabled
+|
+invalid
+heap
+type
 |
 invalid
 inline
