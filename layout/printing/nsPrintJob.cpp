@@ -6308,7 +6308,7 @@ else
 {
 if
 (
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 )
 {
 Telemetry
@@ -6447,7 +6447,7 @@ printing
 .
 if
 (
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 )
 {
 Telemetry
@@ -12488,7 +12488,7 @@ it
 .
 if
 (
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 &
 &
 !
@@ -19859,7 +19859,7 @@ printing
 if
 (
 !
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 &
 &
 mDocViewerPrint
@@ -19972,7 +19972,7 @@ bool
 aIsPrintPreview
 )
 {
-mIsDoingPrintPreview
+mCreatedForPrintPreview
 =
 aIsPrintPreview
 ;
