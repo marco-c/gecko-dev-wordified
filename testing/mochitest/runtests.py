@@ -4690,6 +4690,33 @@ dir
 '
 ]
         
+env
+=
+dict
+(
+os
+.
+environ
+)
+        
+env
+[
+'
+PYTHONPATH
+'
+]
+=
+os
+.
+pathsep
+.
+join
+(
+sys
+.
+path
+)
+        
 #
 start
 the
@@ -4707,6 +4734,9 @@ cmd
 cwd
 =
 SCRIPT_DIR
+env
+=
+env
 )
         
 self
