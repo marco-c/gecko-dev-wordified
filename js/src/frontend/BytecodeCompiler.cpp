@@ -1160,10 +1160,14 @@ compilationInfo
 cx
 compilationInfo
 .
+input
+.
 options
 .
 hideScriptFromDebugger
 compilationInfo
+.
+gcOutput
 .
 script
 )
@@ -1176,6 +1180,8 @@ reset
 ;
 return
 compilationInfo
+.
+gcOutput
 .
 script
 ;
@@ -1502,10 +1508,14 @@ compilationInfo
 cx
 compilationInfo
 .
+input
+.
 options
 .
 hideScriptFromDebugger
 compilationInfo
+.
+gcOutput
 .
 script
 )
@@ -1518,6 +1528,8 @@ reset
 ;
 return
 compilationInfo
+.
+gcOutput
 .
 script
 ;
@@ -2116,6 +2128,8 @@ return
 !
 compilationInfo
 .
+input
+.
 options
 .
 discardSource
@@ -2124,6 +2138,8 @@ discardSource
 !
 compilationInfo
 .
+input
+.
 options
 .
 sourceIsLazy
@@ -2131,6 +2147,8 @@ sourceIsLazy
 &
 !
 compilationInfo
+.
+input
 .
 options
 .
@@ -2196,6 +2214,8 @@ compilationInfo
 cx
 compilationInfo
 .
+input
+.
 options
 sourceBuffer_
 .
@@ -2243,6 +2263,8 @@ compilationInfo
 .
 cx
 compilationInfo
+.
+input
 .
 options
 sourceBuffer_
@@ -2499,6 +2521,8 @@ hadError
 &
 compilationInfo
 .
+state
+.
 directives
 !
 =
@@ -2589,6 +2613,8 @@ MOZ_ASSERT_IF
 (
 compilationInfo
 .
+state
+.
 directives
 .
 strict
@@ -2605,6 +2631,8 @@ MOZ_ASSERT_IF
 (
 compilationInfo
 .
+state
+.
 directives
 .
 asmJS
@@ -2618,6 +2646,8 @@ asmJS
 )
 ;
 compilationInfo
+.
+state
 .
 directives
 =
@@ -2660,6 +2690,8 @@ startPosition
 (
 compilationInfo
 .
+state
+.
 keepAtoms
 parser
 -
@@ -2685,6 +2717,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+stencil
+.
 scriptData
 .
 length
@@ -2702,6 +2736,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 scriptData
 .
@@ -2854,6 +2890,8 @@ canHandleParseFailure
 compilationInfo
 compilationInfo
 .
+state
+.
 directives
 )
 )
@@ -2944,6 +2982,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+gcOutput
+.
 script
 )
 ;
@@ -3017,6 +3057,8 @@ isExceptionPending
 return
 compilationInfo
 .
+gcOutput
+.
 script
 ;
 }
@@ -3050,6 +3092,8 @@ createSourceAndParser
 (
 compilationInfo
 .
+state
+.
 allocScope
 compilationInfo
 )
@@ -3077,6 +3121,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+stencil
+.
 scriptData
 .
 length
@@ -3094,6 +3140,8 @@ if
 (
 !
 compilationInfo
+.
+stencil
 .
 scriptData
 .
@@ -3124,6 +3172,8 @@ moduleMetadata
 =
 compilationInfo
 .
+stencil
+.
 moduleMetadata
 ;
 uint32_t
@@ -3149,10 +3199,14 @@ makeGlobalExtent
 len
 compilationInfo
 .
+input
+.
 options
 .
 lineno
 compilationInfo
+.
+input
 .
 options
 .
@@ -3266,12 +3320,16 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+gcOutput
+.
 script
 )
 ;
 MOZ_ASSERT
 (
 compilationInfo
+.
+gcOutput
 .
 module
 )
@@ -3342,6 +3400,8 @@ isExceptionPending
 ;
 return
 compilationInfo
+.
+gcOutput
 .
 module
 ;
@@ -3428,6 +3488,8 @@ TokenStreamPosition
 startPosition
 (
 compilationInfo
+.
+state
 .
 keepAtoms
 parser
@@ -3517,6 +3579,8 @@ newDirectives
 =
 compilationInfo
 .
+state
+.
 directives
 ;
 fn
@@ -3531,6 +3595,8 @@ syntaxKind
 generatorKind
 asyncKind
 compilationInfo
+.
+state
 .
 directives
 &
@@ -3733,6 +3799,8 @@ column
 .
 compilationInfo
 .
+stencil
+.
 scriptData
 [
 CompilationInfo
@@ -3775,10 +3843,14 @@ extent
 toStringEnd
 compilationInfo
 .
+input
+.
 options
 .
 lineno
 compilationInfo
+.
+input
 .
 options
 .
@@ -3826,6 +3898,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+stencil
+.
 asmJS
 .
 has
@@ -3842,6 +3916,8 @@ index
 MOZ_ASSERT
 (
 compilationInfo
+.
+stencil
 .
 scriptData
 [
@@ -3878,6 +3954,8 @@ JSFunction
 fun
 =
 compilationInfo
+.
+gcOutput
 .
 functions
 [
@@ -4167,6 +4245,8 @@ sourceObjectOut
 =
 compilationInfo
 .
+gcOutput
+.
 sourceObject
 ;
 }
@@ -4187,6 +4267,8 @@ options
 .
 hideScriptFromDebugger
 compilationInfo
+.
+gcOutput
 .
 script
 )
@@ -4879,6 +4961,8 @@ lazyFlags
 =
 compilationInfo
 .
+gcOutput
+.
 script
 -
 >
@@ -4890,6 +4974,8 @@ immutableFlags
 MOZ_ASSERT
 (
 compilationInfo
+.
+gcOutput
 .
 script
 -
@@ -4909,6 +4995,8 @@ NonSyntactic
 =
 =
 compilationInfo
+.
+gcOutput
 .
 script
 -
@@ -5234,6 +5322,8 @@ if
 (
 compilationInfo
 .
+gcOutput
+.
 script
 )
 {
@@ -5263,6 +5353,8 @@ options
 .
 hideScriptFromDebugger
 compilationInfo
+.
+gcOutput
 .
 script
 )
@@ -5555,6 +5647,8 @@ ss
 initFromOptions
 (
 cx
+input
+.
 options
 )
 ;

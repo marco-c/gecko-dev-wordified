@@ -379,6 +379,8 @@ bce
 >
 compilationInfo
 .
+input
+.
 enclosingScope
 -
 >
@@ -2343,6 +2345,8 @@ bce
 >
 compilationInfo
 .
+input
+.
 enclosingScope
 hops
 )
@@ -2644,6 +2648,8 @@ bce
 -
 >
 compilationInfo
+.
+stencil
 .
 scopeData
 [

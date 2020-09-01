@@ -639,6 +639,8 @@ i
 return
 compilationInfo
 .
+stencil
+.
 parserAtoms
 .
 internAscii

@@ -202,6 +202,8 @@ data
 .
 compilationInfo
 .
+stencil
+.
 scopeData
 [
 data
@@ -280,6 +282,8 @@ result
 data
 .
 compilationInfo
+.
+gcOutput
 .
 scopes
 [

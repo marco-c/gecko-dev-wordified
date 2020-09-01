@@ -364,6 +364,8 @@ MOZ_ASSERT
 !
 compilationInfo
 .
+input
+.
 options
 .
 nonSyntacticScope
@@ -438,6 +440,8 @@ ReadOnlyCompileOptions
 options
 =
 compilationInfo
+.
+input
 .
 options
 ;
@@ -1426,6 +1430,8 @@ allowNewTarget_
 =
 compilationInfo
 .
+state
+.
 scopeContext
 .
 allowNewTarget
@@ -1433,6 +1439,8 @@ allowNewTarget
 allowSuperProperty_
 =
 compilationInfo
+.
+state
 .
 scopeContext
 .
@@ -1442,6 +1450,8 @@ allowSuperCall_
 =
 compilationInfo
 .
+state
+.
 scopeContext
 .
 allowSuperCall
@@ -1449,6 +1459,8 @@ allowSuperCall
 allowArguments_
 =
 compilationInfo
+.
+state
 .
 scopeContext
 .
@@ -1458,6 +1470,8 @@ thisBinding_
 =
 compilationInfo
 .
+state
+.
 scopeContext
 .
 thisBinding
@@ -1465,6 +1479,8 @@ thisBinding
 inWith_
 =
 compilationInfo
+.
+state
 .
 scopeContext
 .
@@ -2346,6 +2362,8 @@ AsmJS
 return
 compilationInfo_
 .
+stencil
+.
 asmJS
 .
 putNew
@@ -2426,6 +2444,8 @@ const
 {
 return
 compilationInfo_
+.
+stencil
 .
 scriptData
 [

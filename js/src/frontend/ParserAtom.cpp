@@ -1063,6 +1063,8 @@ AtomIndex
 return
 compilationInfo
 .
+input
+.
 atoms
 [
 atomIndex_
@@ -1166,6 +1168,8 @@ index
 =
 compilationInfo
 .
+input
+.
 atoms
 .
 length
@@ -1176,6 +1180,8 @@ if
 (
 !
 compilationInfo
+.
+input
 .
 atoms
 .
@@ -2599,6 +2605,8 @@ AtomIndex
 (
 compilationInfo
 .
+input
+.
 atoms
 .
 length
@@ -2610,6 +2618,8 @@ if
 (
 !
 compilationInfo
+.
+input
 .
 atoms
 .
@@ -2661,6 +2671,8 @@ AtomIndex
 MOZ_ASSERT
 (
 compilationInfo
+.
+input
 .
 atoms
 [

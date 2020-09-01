@@ -1150,6 +1150,8 @@ alloc_
 (
 compilationInfo
 .
+state
+.
 allocScope
 .
 alloc
@@ -1167,6 +1169,8 @@ nullptr
 usedNames_
 (
 compilationInfo
+.
+state
 .
 usedNames
 )
@@ -1354,6 +1358,8 @@ handler_
 (
 cx
 compilationInfo
+.
+state
 .
 allocScope
 .
@@ -1691,6 +1697,8 @@ FunctionIndex
 (
 compilationInfo_
 .
+stencil
+.
 scriptData
 .
 length
@@ -1720,6 +1728,8 @@ if
 (
 !
 compilationInfo_
+.
+stencil
 .
 scriptData
 .
@@ -5379,6 +5389,8 @@ mbNameId
 =
 compilationInfo_
 .
+stencil
+.
 parserAtoms
 .
 internJSAtom
@@ -8980,6 +8992,8 @@ getCompilationInfo
 (
 )
 .
+state
+.
 usedNames
 .
 getUnboundPrivateNames
@@ -9460,6 +9474,8 @@ getCompilationInfo
 (
 )
 .
+state
+.
 scopeContext
 .
 effectiveScope
@@ -9686,6 +9702,8 @@ getCompilationInfo
 (
 )
 .
+input
+.
 enclosingScope
 )
 {
@@ -9745,6 +9763,8 @@ this
 getCompilationInfo
 (
 )
+.
+input
 .
 enclosingScope
 )
@@ -10665,6 +10685,8 @@ this
 >
 compilationInfo_
 .
+stencil
+.
 moduleMetadata
 )
 )
@@ -10697,6 +10719,8 @@ this
 -
 >
 compilationInfo_
+.
+stencil
 .
 moduleMetadata
 ;
@@ -13020,6 +13044,8 @@ this
 >
 compilationInfo_
 .
+state
+.
 scopeContext
 flags
 syntaxKind
@@ -14602,6 +14628,8 @@ atoms
 ;
 return
 compilationInfo_
+.
+stencil
 .
 parserAtoms
 .
@@ -17450,6 +17478,8 @@ this
 >
 compilationInfo_
 .
+state
+.
 keepAtoms
 tokenStream
 )
@@ -17719,6 +17749,8 @@ this
 -
 >
 compilationInfo_
+.
+state
 .
 keepAtoms
 syntaxParser
@@ -18091,6 +18123,8 @@ this
 >
 compilationInfo_
 .
+state
+.
 keepAtoms
 tokenStream
 )
@@ -18326,6 +18360,8 @@ this
 -
 >
 compilationInfo_
+.
+state
 .
 keepAtoms
 syntaxParser
@@ -19459,6 +19495,8 @@ this
 getCompilationInfo
 (
 )
+.
+state
 .
 scopeContext
 fun
@@ -44362,6 +44400,8 @@ getCompilationInfo
 (
 )
 .
+state
+.
 usedNames
 .
 hasUnboundPrivateNames
@@ -52320,6 +52360,8 @@ this
 >
 compilationInfo_
 .
+state
+.
 keepAtoms
 tokenStream
 )
@@ -59655,6 +59697,8 @@ getCompilationInfo
 (
 )
 .
+stencil
+.
 regExpData
 .
 length
@@ -59671,6 +59715,8 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
 .
 regExpData
 .
@@ -59692,6 +59738,8 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
 .
 regExpData
 [
@@ -60022,6 +60070,8 @@ getCompilationInfo
 (
 )
 .
+stencil
+.
 bigIntData
 .
 length
@@ -60038,6 +60088,8 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
 .
 bigIntData
 .
@@ -60061,6 +60113,8 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
 .
 bigIntData
 [
@@ -67023,6 +67077,8 @@ getRewindToken
 {
 MOZ_ASSERT
 (
+gcOutput
+.
 functions
 .
 empty
@@ -67033,11 +67089,15 @@ empty
 return
 RewindToken
 {
+stencil
+.
 scriptData
 .
 length
 (
 )
+stencil
+.
 asmJS
 .
 count
@@ -67063,6 +67123,8 @@ pos
 {
 if
 (
+stencil
+.
 asmJS
 .
 count
@@ -67086,6 +67148,8 @@ scriptDataLength
 ;
 i
 <
+stencil
+.
 scriptData
 .
 length
@@ -67097,6 +67161,8 @@ i
 +
 )
 {
+stencil
+.
 asmJS
 .
 remove
@@ -67110,6 +67176,8 @@ i
 }
 MOZ_ASSERT
 (
+stencil
+.
 asmJS
 .
 count
@@ -67123,6 +67191,8 @@ asmJSCount
 )
 ;
 }
+stencil
+.
 scriptData
 .
 shrinkTo

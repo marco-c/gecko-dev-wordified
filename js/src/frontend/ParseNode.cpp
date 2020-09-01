@@ -2835,6 +2835,8 @@ cx
 return
 compilationInfo_
 .
+stencil
+.
 bigIntData
 [
 index_
@@ -2856,6 +2858,8 @@ isZero
 {
 return
 compilationInfo_
+.
+stencil
 .
 bigIntData
 [
@@ -2945,6 +2949,8 @@ const
 {
 return
 compilationInfo
+.
+stencil
 .
 regExpData
 [

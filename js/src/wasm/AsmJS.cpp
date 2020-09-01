@@ -8417,6 +8417,8 @@ mbAtom
 =
 compilationInfo_
 .
+stencil
+.
 parserAtoms
 .
 internAscii
@@ -8587,6 +8589,8 @@ auto
 mbAtom
 =
 compilationInfo_
+.
+stencil
 .
 parserAtoms
 .

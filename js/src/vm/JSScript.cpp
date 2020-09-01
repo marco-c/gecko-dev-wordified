@@ -24490,6 +24490,8 @@ cx
 functionOrGlobal
 compilationInfo
 .
+gcOutput
+.
 sourceObject
 scriptStencil
 .

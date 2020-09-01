@@ -334,6 +334,8 @@ MOZ_ASSERT
 (
 compilationInfo
 .
+input
+.
 enclosingScope
 =
 =
@@ -641,6 +643,8 @@ data
 =
 compilationInfo
 .
+stencil
+.
 bigIntData
 [
 index
@@ -701,6 +705,8 @@ data
 =
 compilationInfo
 .
+stencil
+.
 regExpData
 [
 rindex
@@ -760,6 +766,8 @@ ObjLiteralStencil
 data
 =
 compilationInfo
+.
+stencil
 .
 objLiteralData
 [
@@ -828,6 +836,8 @@ GCCellPtr
 (
 compilationInfo
 .
+gcOutput
+.
 scopes
 [
 index
@@ -864,6 +874,8 @@ JS
 GCCellPtr
 (
 compilationInfo
+.
+gcOutput
 .
 functions
 [

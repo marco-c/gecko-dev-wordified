@@ -4334,6 +4334,8 @@ scopeKind
 compilationInfo
 compilationInfo
 .
+state
+.
 directives
 extent
 )
@@ -4407,6 +4409,8 @@ if
 (
 compilationInfo
 .
+gcOutput
+.
 sourceObject
 )
 {
@@ -4415,6 +4419,8 @@ sourceObjects
 infallibleAppend
 (
 compilationInfo
+.
+gcOutput
 .
 sourceObject
 )
