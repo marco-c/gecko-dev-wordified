@@ -188,6 +188,16 @@ CTFontRef
 CFTypeRef
 =
 NULL
+const
+SkFontStyle
+*
+=
+nullptr
+const
+CTFontSymbolicTraits
+*
+=
+nullptr
 )
 ;
 /
