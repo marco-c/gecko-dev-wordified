@@ -141,7 +141,7 @@ source
 )
 {
 let
-searchProvider
+partner
 =
 targetURL
 .
@@ -189,12 +189,12 @@ value
 recordTelemetryEvent
 (
 "
-search_override_exp
+interaction
 "
 objectString
 value
 {
-searchProvider
+partner
 source
 }
 )
@@ -246,7 +246,7 @@ newtabpage
 searchTileOverride
 .
 {
-searchProvider
+partner
 }
 .
 attributionURL
@@ -374,7 +374,7 @@ telemetry
 setEventRecordingEnabled
 (
 "
-top_sites
+partner_link
 "
 true
 )
@@ -386,7 +386,7 @@ telemetry
 recordEvent
 (
 "
-top_sites
+partner_link
 "
 method
 objectString
