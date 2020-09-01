@@ -200,6 +200,15 @@ Vector
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -305,6 +314,8 @@ RefCounted
 <
 PersistentBufferProvider
 >
+public
+SupportsWeakPtr
 {
 public
 :

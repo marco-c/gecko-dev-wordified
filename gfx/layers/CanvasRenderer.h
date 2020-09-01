@@ -871,9 +871,11 @@ final
 {
 public
 :
-PersistentBufferProvider
-*
 const
+WeakPtr
+<
+PersistentBufferProvider
+>
 mReturnTo
 ;
 const
