@@ -201,7 +201,7 @@ h
 "
 ;
 using
-moveonly
+class
 mozilla
 :
 :

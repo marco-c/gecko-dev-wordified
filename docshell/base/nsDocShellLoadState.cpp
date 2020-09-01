@@ -682,7 +682,7 @@ loadingSessionHistoryInfo
 (
 )
 .
-value
+ref
 (
 )
 )
