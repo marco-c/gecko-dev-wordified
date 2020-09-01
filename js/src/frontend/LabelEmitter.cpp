@@ -158,7 +158,9 @@ LabelEmitter
 :
 emitLabel
 (
-HandleAtom
+const
+ParserAtom
+*
 name
 )
 {

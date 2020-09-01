@@ -372,7 +372,8 @@ during
 syntax
 parses
 .
-JSAtom
+const
+ParserAtom
 *
 lastAtom
 ;
@@ -1324,7 +1325,8 @@ DECLARE_AS
 NameNodeType
 newName
 (
-PropertyName
+const
+ParserName
 *
 name
 const
@@ -1436,7 +1438,8 @@ NodeGeneric
 NameNodeType
 newObjectLiteralPropertyName
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -1452,7 +1455,8 @@ NodeName
 NameNodeType
 newPrivateName
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -1509,7 +1513,8 @@ NodeGeneric
 NameNodeType
 newStringLiteral
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -1533,7 +1538,8 @@ NodeUnparenthesizedString
 NameNodeType
 newTemplateStringLiteral
 (
-JSAtom
+const
+ParserAtom
 *
 atom
 const
@@ -2479,7 +2485,8 @@ NodeGeneric
 ContinueStatementType
 newContinueStatement
 (
-PropertyName
+const
+ParserName
 *
 label
 const
@@ -2495,7 +2502,8 @@ NodeGeneric
 BreakStatementType
 newBreakStatement
 (
-PropertyName
+const
+ParserName
 *
 label
 const
@@ -2552,7 +2560,8 @@ NodeGeneric
 LabeledStatementType
 newLabeledStatement
 (
-PropertyName
+const
+ParserName
 *
 label
 Node
@@ -2613,7 +2622,8 @@ NodeGeneric
 NameNodeType
 newPropertyName
 (
-PropertyName
+const
+ParserName
 *
 name
 const
@@ -3721,7 +3731,8 @@ node
 NodePrivateElement
 ;
 }
-PropertyName
+const
+ParserName
 *
 maybeDottedProperty
 (
@@ -3834,12 +3845,13 @@ return
 lastAtom
 -
 >
-asPropertyName
+asName
 (
 )
 ;
 }
-JSAtom
+const
+ParserAtom
 *
 isStringExprStatement
 (
