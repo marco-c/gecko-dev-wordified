@@ -242,7 +242,6 @@ JS_PUBLIC_API
 JSContext
 ;
 struct
-JS_PUBLIC_API
 JSClass
 ;
 class
