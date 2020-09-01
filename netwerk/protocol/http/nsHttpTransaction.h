@@ -2884,6 +2884,12 @@ nsICancelable
 >
 mDNSRequest
 ;
+Maybe
+<
+uint32_t
+>
+mHTTPSSVCReceivedStage
+;
 }
 ;
 }
