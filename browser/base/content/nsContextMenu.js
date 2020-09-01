@@ -11169,7 +11169,7 @@ printFrame
 {
 PrintUtils
 .
-printWindow
+startPrintWindow
 (
 this
 .
