@@ -245,9 +245,6 @@ bool
 aDistinctiveIdentifierRequired
 bool
 aPersistentStateRequired
-nsISerialEventTarget
-*
-aMainThread
 )
 ;
 void

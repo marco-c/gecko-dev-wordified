@@ -1080,9 +1080,6 @@ CDMProxy
 >
 CreateCDMProxy
 (
-nsISerialEventTarget
-*
-aMainThread
 )
 ;
 /
