@@ -103,7 +103,7 @@ PATCH
 #
 define
 BROTLI_VERSION
-0x1000007
+0x1000009
 /
 *
 This
@@ -172,7 +172,7 @@ AGE
 #
 define
 BROTLI_ABI_VERSION
-0x1007000
+0x1009000
 #
 endif
 /

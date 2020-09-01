@@ -126,6 +126,9 @@ BrotliDictionary
 *
 words
 ;
+uint32_t
+num_transforms
+;
 /
 *
 cut
@@ -155,7 +158,12 @@ encoder
 const
 uint16_t
 *
-hash_table
+hash_table_words
+;
+const
+uint8_t
+*
+hash_table_lengths
 ;
 /
 *
