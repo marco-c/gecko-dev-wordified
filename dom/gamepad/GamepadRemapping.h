@@ -629,3 +629,6 @@ namespace
 mozilla
 #
 endif
+/
+/
+mozilla_dom_GamepadRemapping_h_
