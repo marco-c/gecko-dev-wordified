@@ -6007,6 +6007,8 @@ receiver
 JSFunction
 *
 getter
+bool
+sameRealm
 )
 {
 MOZ_ASSERT
@@ -6031,6 +6033,7 @@ callNativeGetterResult_
 (
 receiver
 getter
+sameRealm
 nargsAndFlags
 )
 ;

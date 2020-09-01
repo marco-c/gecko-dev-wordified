@@ -3339,6 +3339,8 @@ ValOperandId
 receiverId
 uint32_t
 getterOffset
+bool
+sameRealm
 uint32_t
 nargsAndFlagsOffset
 )
