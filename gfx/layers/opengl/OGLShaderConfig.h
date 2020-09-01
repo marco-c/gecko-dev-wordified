@@ -370,6 +370,7 @@ SSEdges
 ViewportSize
 VisibleCenter
 YuvColorMatrix
+YuvOffsetVector
 KnownUniformCount
 }
 ;
