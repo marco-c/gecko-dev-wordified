@@ -11733,7 +11733,8 @@ fx_new_tab
 name
 :
 "
-Productivity
+Self
+Improvement
 "
 url
 :
@@ -11748,7 +11749,9 @@ com
 /
 explore
 /
-productivity
+self
+-
+improvement
 ?
 src
 =
@@ -11785,7 +11788,7 @@ fx_new_tab
 name
 :
 "
-Finance
+Business
 "
 url
 :
@@ -11800,7 +11803,7 @@ com
 /
 explore
 /
-finance
+business
 ?
 src
 =
