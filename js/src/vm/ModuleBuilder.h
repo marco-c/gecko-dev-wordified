@@ -514,6 +514,11 @@ frontend
 :
 :
 StencilModuleEntry
+0
+js
+:
+:
+SystemAllocPolicy
 >
 ;
 using
