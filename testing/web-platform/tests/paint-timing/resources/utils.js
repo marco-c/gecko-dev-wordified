@@ -233,7 +233,6 @@ function
 test_fcp
 (
 label
-before_assert_fcp_func
 )
 {
 setup
@@ -342,17 +341,6 @@ assertNoFirstContentfulPaint
 t
 )
 ;
-if
-(
-before_assert_fcp_func
-)
-{
-await
-before_assert_fcp_func
-(
-)
-;
-}
 main
 .
 className
