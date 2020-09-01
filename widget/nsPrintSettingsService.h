@@ -547,12 +547,6 @@ _retval
 /
 /
 Members
-nsCOMPtr
-<
-nsIPrintSettings
->
-mGlobalPrintSettings
-;
 nsCString
 mPrefName
 ;
