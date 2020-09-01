@@ -2061,6 +2061,7 @@ u
 "
 frequency
 "
+_ns
 440
 .
 0f
@@ -2096,6 +2097,7 @@ u
 "
 detune
 "
+_ns
 0
 .
 0f

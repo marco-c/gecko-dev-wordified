@@ -3749,6 +3749,7 @@ u
 "
 playbackRate
 "
+_ns
 1
 .
 0f
@@ -3762,6 +3763,7 @@ u
 "
 detune
 "
+_ns
 0
 .
 0f

@@ -1597,6 +1597,7 @@ u
 "
 PositionX
 "
+_ns
 0
 .
 f
@@ -1613,6 +1614,7 @@ u
 "
 PositionY
 "
+_ns
 0
 .
 f
@@ -1629,6 +1631,7 @@ u
 "
 PositionZ
 "
+_ns
 0
 .
 f
@@ -1645,6 +1648,7 @@ u
 "
 OrientationX
 "
+_ns
 1
 .
 0f
@@ -1661,6 +1665,7 @@ u
 "
 OrientationY
 "
+_ns
 0
 .
 f
@@ -1677,6 +1682,7 @@ u
 "
 OrientationZ
 "
+_ns
 0
 .
 f
