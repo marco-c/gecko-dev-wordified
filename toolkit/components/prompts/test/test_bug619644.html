@@ -352,7 +352,7 @@ body
 if
 (
 !
-isTabModal
+tabModalPromptEnabled
 )
 {
 todo
@@ -425,6 +425,14 @@ runtest
 e
 )
 {
+modalType
+=
+Ci
+.
+nsIPrompt
+.
+MODAL_TYPE_CONTENT
+;
 window
 .
 removeEventListener
