@@ -1263,6 +1263,13 @@ traceable
 SetNewListener
 (
 this
+/
+*
+aMustApplyContentConversion
+=
+*
+/
+true
 getter_AddRefs
 (
 mOrigListener
