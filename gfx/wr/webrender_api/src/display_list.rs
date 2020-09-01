@@ -8648,6 +8648,12 @@ di
 :
 :
 CommonItemProperties
+tag
+:
+di
+:
+:
+ItemTag
 )
 {
 let
@@ -8670,6 +8676,7 @@ common
 :
 *
 common
+tag
 }
 )
 ;

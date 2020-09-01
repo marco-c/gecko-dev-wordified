@@ -6014,8 +6014,12 @@ mVisibleRect
 ;
 aBuilder
 .
-SetHitTestInfo
+PushHitTest
 (
+dest
+dest
+!
+backfaceHidden
 mScrollId
 hitInfo
 SideBits
@@ -6047,12 +6051,6 @@ AsImageKey
 *
 mKey
 )
-)
-;
-aBuilder
-.
-ClearHitTestInfo
-(
 )
 ;
 }
