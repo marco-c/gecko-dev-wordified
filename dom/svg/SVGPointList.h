@@ -195,9 +195,6 @@ DOMSVGPoint
 class
 DOMSVGPointList
 ;
-class
-nsISVGPoint
-;
 }
 /
 /
@@ -271,13 +268,6 @@ DOMSVGPointList
 class
 SVGPointList
 {
-friend
-class
-dom
-:
-:
-nsISVGPoint
-;
 friend
 class
 SVGAnimatedPointList

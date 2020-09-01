@@ -168,7 +168,7 @@ h
 #
 include
 "
-nsISVGPoint
+DOMSVGPoint
 .
 h
 "
@@ -952,7 +952,7 @@ rv
 }
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGTextContentElement
 :
@@ -1013,7 +1013,7 @@ rv
 }
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGTextContentElement
 :

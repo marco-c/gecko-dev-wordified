@@ -1622,7 +1622,7 @@ f
 }
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGGeometryElement
 :
@@ -1669,9 +1669,9 @@ return
 nullptr
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsISVGPoint
+DOMSVGPoint
 >
 point
 =

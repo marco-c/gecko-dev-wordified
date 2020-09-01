@@ -25709,7 +25709,7 @@ element
 /
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGTextFrame
 :
@@ -26231,7 +26231,7 @@ element
 /
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 SVGTextFrame
 :

@@ -149,13 +149,6 @@ SVGAnimatedNumber
 .
 h
 "
-#
-include
-"
-nsISVGPoint
-.
-h
-"
 namespace
 mozilla
 {
@@ -216,6 +209,9 @@ dom
 {
 class
 DOMSVGAnimatedNumber
+;
+class
+DOMSVGPoint
 ;
 using
 SVGGeometryElementBase
@@ -1581,7 +1577,7 @@ GetTotalLength
 ;
 already_AddRefed
 <
-nsISVGPoint
+DOMSVGPoint
 >
 GetPointAtLength
 (
