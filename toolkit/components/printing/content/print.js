@@ -4197,6 +4197,15 @@ handleEvent
 e
 )
 {
+if
+(
+this
+.
+checkValidity
+(
+)
+)
+{
 this
 .
 dispatchSettingsChange
@@ -4212,6 +4221,7 @@ value
 }
 )
 ;
+}
 }
 }
 customElements
