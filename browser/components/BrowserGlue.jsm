@@ -22816,6 +22816,7 @@ true
 .
 then
 (
+async
 willPrompt
 =
 >
@@ -22859,6 +22860,7 @@ passive
 notification
 bar
 .
+await
 win
 .
 DefaultBrowserNotificationOnNewTabPage
