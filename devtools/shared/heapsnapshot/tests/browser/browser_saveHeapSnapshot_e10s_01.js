@@ -35,8 +35,9 @@ zero
 Bug
 1201597
 -
-Sanity
-test
+Test
+to
+verify
 that
 we
 can
@@ -99,6 +100,14 @@ document
 body
 .
 appendChild
+(
+browser
+)
+;
+await
+BrowserTestUtils
+.
+browserLoaded
 (
 browser
 )
