@@ -6326,6 +6326,12 @@ true
 anonymize
 *
 /
+false
+/
+*
+minimizeMemoryUsage
+*
+/
 )
 ;
 if

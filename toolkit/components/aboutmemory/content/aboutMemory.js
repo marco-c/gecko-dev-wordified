@@ -16093,6 +16093,15 @@ null
 gAnonymize
 .
 checked
+/
+*
+minimize
+memory
+usage
+=
+*
+/
+false
 )
 ;
 }

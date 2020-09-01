@@ -198,6 +198,7 @@ _hasMemoryStatistics
 =
 {
 }
+;
 MemoryStats
 .
 _hasMemoryStatistics
@@ -290,6 +291,7 @@ return
 service
 ;
 }
+;
 MemoryStats
 .
 _nsIFile
@@ -369,6 +371,7 @@ return
 f
 ;
 }
+;
 MemoryStats
 .
 constructPathname
@@ -402,6 +405,7 @@ d
 path
 ;
 }
+;
 MemoryStats
 .
 dump
@@ -527,9 +531,7 @@ true
 ;
 try
 {
-var
-value
-=
+void
 mrm
 [
 stat
@@ -703,7 +705,7 @@ START
 dumpfile
 )
 ;
-var
+let
 md
 =
 MemoryStats
@@ -765,6 +767,15 @@ anonymize
 *
 /
 false
+/
+*
+minimize
+memory
+usage
+=
+*
+/
+false
 )
 ;
 }
@@ -773,7 +784,7 @@ if
 dumpDMD
 )
 {
-var
+let
 md
 =
 MemoryStats

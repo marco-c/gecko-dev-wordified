@@ -3798,6 +3798,8 @@ nsISupports
 aFinishDumpingData
 bool
 aAnonymize
+bool
+aMinimizeMemoryUsage
 )
 {
 MOZ_ASSERT
@@ -3952,13 +3954,7 @@ reportsFile
 aFinishDumping
 aFinishDumpingData
 aAnonymize
-/
-*
-minimizeMemoryUsage
-=
-*
-/
-false
+aMinimizeMemoryUsage
 dmdIdent
 )
 ;
