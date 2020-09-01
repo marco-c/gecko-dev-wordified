@@ -14869,7 +14869,7 @@ if
 outputType
 -
 >
-isAnyRef
+isExternRef
 (
 )
 )
@@ -14880,7 +14880,7 @@ if
 inputType
 -
 >
-isAnyRef
+isExternRef
 (
 )
 )

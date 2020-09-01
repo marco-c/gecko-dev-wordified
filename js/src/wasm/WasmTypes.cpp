@@ -1877,7 +1877,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 return
 true
@@ -2009,7 +2009,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 return
 6
@@ -6560,7 +6560,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 literal
 =

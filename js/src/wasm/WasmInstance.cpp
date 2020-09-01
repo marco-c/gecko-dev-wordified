@@ -1489,7 +1489,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 return
 ToWebAssemblyValue_anyref
@@ -2288,7 +2288,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 return
 ToJSValue_anyref
@@ -3861,7 +3861,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 /
 /
@@ -15733,7 +15733,7 @@ case
 RefType
 :
 :
-Any
+Extern
 :
 {
 RootedAnyRef
