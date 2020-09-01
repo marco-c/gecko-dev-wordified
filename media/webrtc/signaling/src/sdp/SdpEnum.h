@@ -397,6 +397,13 @@ Direction
 )
 ;
 }
+enum
+SdpType
+{
+kOffer
+kAnswer
+}
+;
 }
 /
 /

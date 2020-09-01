@@ -1366,6 +1366,11 @@ JsepTransceiver
 transceiver
 )
 ;
+void
+CopyBundleTransports
+(
+)
+;
 nsresult
 FinalizeTransport
 (
