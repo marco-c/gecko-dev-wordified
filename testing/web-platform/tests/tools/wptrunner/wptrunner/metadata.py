@@ -2143,13 +2143,10 @@ os
 .
 path
 .
-split
+dirname
 (
 path
 )
-[
-0
-]
         
 if
 not

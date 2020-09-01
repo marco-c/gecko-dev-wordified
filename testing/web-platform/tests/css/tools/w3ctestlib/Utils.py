@@ -199,13 +199,10 @@ os
 .
 path
 .
-split
+dirname
 (
 path
 )
-[
-0
-]
 def
 isPathInsideBase
 (

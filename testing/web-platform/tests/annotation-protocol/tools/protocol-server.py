@@ -104,13 +104,10 @@ os
 .
 path
 .
-split
+dirname
 (
 __file__
 )
-[
-0
-]
 )
 repo_root
 =

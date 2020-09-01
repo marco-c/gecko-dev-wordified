@@ -1652,13 +1652,10 @@ os
 .
 path
 .
-split
+dirname
 (
 path
 )
-[
-0
-]
 "
 __dir__
 "
