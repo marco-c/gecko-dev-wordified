@@ -627,6 +627,9 @@ void
 const
 LauncherError
 &
+const
+char
+*
 )
 ;
 /

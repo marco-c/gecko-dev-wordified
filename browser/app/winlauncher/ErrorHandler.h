@@ -169,6 +169,12 @@ const
 LauncherError
 &
 aError
+const
+char
+*
+aProcessType
+=
+nullptr
 )
 ;
 /
@@ -218,6 +224,12 @@ T
 >
 &
 aResult
+const
+char
+*
+aProcessType
+=
+nullptr
 )
 {
 MOZ_ASSERT
@@ -248,6 +260,7 @@ aResult
 inspectErr
 (
 )
+aProcessType
 )
 ;
 }
@@ -289,6 +302,12 @@ LauncherError
 >
 &
 aResult
+const
+char
+*
+aProcessType
+=
+nullptr
 )
 {
 LauncherVoidResult
@@ -300,6 +319,7 @@ aResult
 HandleLauncherError
 (
 r
+aProcessType
 )
 ;
 }
