@@ -1691,7 +1691,6 @@ functions
 bool
 Blacklisted
 (
-const
 mozilla
 :
 :
@@ -1711,7 +1710,6 @@ ResetBlacklist
 void
 ReportUnusable
 (
-const
 mozilla
 :
 :
@@ -1720,7 +1718,7 @@ net
 :
 NetAddr
 *
-aAddress
+addr
 )
 ;
 size_t
