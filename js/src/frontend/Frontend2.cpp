@@ -3676,6 +3676,14 @@ len
 )
 )
 {
+js
+:
+:
+ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
