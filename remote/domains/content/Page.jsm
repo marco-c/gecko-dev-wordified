@@ -1351,9 +1351,9 @@ windowId
 :
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 window
 isDefault
 :

@@ -447,9 +447,9 @@ window
 return
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 }
 ;

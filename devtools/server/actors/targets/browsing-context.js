@@ -571,9 +571,9 @@ window
 return
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 }
 function
@@ -739,9 +739,9 @@ window
 return
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 }
 const
