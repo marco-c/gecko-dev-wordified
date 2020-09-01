@@ -116,7 +116,6 @@ crossbeam_channel
 :
 :
 {
-select
 Sender
 Receiver
 }
