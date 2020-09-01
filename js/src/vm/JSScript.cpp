@@ -23144,13 +23144,13 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 )
 {
 uint32_t
 ngcthings
 =
-stencil
+scriptStencil
 .
 gcThings
 .
@@ -23214,7 +23214,7 @@ EmitScriptThingsVector
 (
 cx
 compilationInfo
-stencil
+scriptStencil
 .
 gcThings
 data
@@ -23233,7 +23233,7 @@ false
 }
 if
 (
-stencil
+scriptStencil
 .
 memberInitializers
 )
@@ -23244,7 +23244,7 @@ script
 setMemberInitializers
 (
 *
-stencil
+scriptStencil
 .
 memberInitializers
 )
@@ -23690,7 +23690,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 HandleFunction
 fun
 )
@@ -24095,7 +24095,7 @@ generation
 /
 MOZ_ASSERT
 (
-stencil
+scriptStencil
 .
 gcThings
 .
@@ -24135,7 +24135,7 @@ immutableFlags
 )
 =
 =
-stencil
+scriptStencil
 .
 immutableFlags
 )
@@ -24145,7 +24145,7 @@ script
 >
 resetImmutableFlags
 (
-stencil
+scriptStencil
 .
 immutableFlags
 )
@@ -24180,7 +24180,7 @@ InitFromStencil
 cx
 script
 compilationInfo
-stencil
+scriptStencil
 )
 )
 {
@@ -24206,7 +24206,7 @@ InitFromStencil
 (
 cx
 script
-stencil
+scriptStencil
 )
 )
 {
@@ -24435,14 +24435,14 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 HandleFunction
 fun
 )
 {
 MOZ_ASSERT
 (
-stencil
+scriptStencil
 .
 immutableScriptData
 "
@@ -24491,10 +24491,10 @@ functionOrGlobal
 compilationInfo
 .
 sourceObject
-stencil
+scriptStencil
 .
 extent
-stencil
+scriptStencil
 .
 immutableFlags
 )
@@ -24518,7 +24518,7 @@ fullyInitFromStencil
 cx
 compilationInfo
 script
-stencil
+scriptStencil
 fun
 )
 )
@@ -29387,7 +29387,7 @@ frontend
 :
 ScriptStencil
 &
-stencil
+scriptStencil
 )
 {
 /
@@ -29420,7 +29420,7 @@ std
 :
 move
 (
-stencil
+scriptStencil
 .
 immutableScriptData
 )

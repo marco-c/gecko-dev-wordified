@@ -11561,7 +11561,7 @@ functionBox
 ;
 ScriptStencil
 &
-stencil
+script
 =
 funbox
 -
@@ -11790,7 +11790,7 @@ funbox
 >
 copyFunctionFields
 (
-stencil
+script
 )
 ;
 return
@@ -11895,7 +11895,7 @@ functionBox
 ;
 ScriptStencil
 &
-stencil
+script
 =
 funbox
 -
@@ -11916,7 +11916,7 @@ funbox
 >
 copyFunctionFields
 (
-stencil
+script
 )
 ;
 funbox
@@ -11924,7 +11924,7 @@ funbox
 >
 copyScriptFields
 (
-stencil
+script
 )
 ;
 /
@@ -12067,7 +12067,7 @@ ScriptThingsVector
 &
 gcthings
 =
-stencil
+script
 .
 gcThings
 ;
@@ -16484,7 +16484,7 @@ false
 }
 ScriptStencil
 &
-stencil
+script
 =
 funbox
 -
@@ -16506,7 +16506,7 @@ funbox
 >
 copyFunctionFields
 (
-stencil
+script
 )
 ;
 funbox
@@ -16514,7 +16514,7 @@ funbox
 >
 copyScriptFields
 (
-stencil
+script
 )
 ;
 MOZ_ASSERT_IF

@@ -2042,7 +2042,7 @@ intoScriptStencil
 (
 ScriptStencil
 *
-stencil
+script
 )
 ;
 /

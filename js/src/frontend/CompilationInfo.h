@@ -740,7 +740,7 @@ public
 :
 ScriptStencil
 &
-stencil
+script
 ;
 HandleFunction
 function
@@ -758,16 +758,16 @@ ScriptAndFunction
 (
 ScriptStencil
 &
-stencil
+script
 HandleFunction
 function
 FunctionIndex
 functionIndex
 )
 :
-stencil
+script
 (
-stencil
+script
 )
 function
 (
@@ -2065,7 +2065,7 @@ operator
 {
 ScriptStencil
 &
-stencil
+script
 =
 compilationInfo_
 -
@@ -2086,7 +2086,7 @@ index_
 return
 ScriptAndFunction
 (
-stencil
+script
 compilationInfo_
 -
 >
