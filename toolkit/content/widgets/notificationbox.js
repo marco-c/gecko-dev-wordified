@@ -1870,6 +1870,7 @@ this
 removeNotification
 (
 notification
+true
 )
 ;
 }
