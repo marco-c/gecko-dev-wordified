@@ -2734,6 +2734,10 @@ nsGkAtoms
 :
 :
 TypingTxnName
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 rv
@@ -2885,6 +2889,10 @@ nsGkAtoms
 :
 :
 TypingTxnName
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 rv
@@ -3017,6 +3025,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 rv
@@ -3396,6 +3408,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 /
@@ -5323,6 +5339,10 @@ nsGkAtoms
 :
 :
 IMETxnName
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 MOZ_ASSERT
@@ -8069,6 +8089,10 @@ nsGkAtoms
 :
 :
 DeleteTxnName
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 rv
@@ -9781,6 +9805,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 rv

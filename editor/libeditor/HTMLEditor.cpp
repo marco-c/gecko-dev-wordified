@@ -6613,6 +6613,10 @@ nsGkAtoms
 :
 :
 TypingTxnName
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 rv
@@ -8311,6 +8315,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 /
@@ -8972,6 +8980,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 nsReadingIterator
@@ -10737,6 +10749,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult
@@ -15383,6 +15399,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult
@@ -19216,6 +19236,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 /
@@ -35851,6 +35875,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 IgnoredErrorResult

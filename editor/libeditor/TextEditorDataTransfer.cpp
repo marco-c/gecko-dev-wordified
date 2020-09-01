@@ -1151,6 +1151,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 nsresult
@@ -2226,6 +2230,10 @@ treatAsOneTransaction
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 /
@@ -3961,6 +3969,10 @@ emplace
 (
 *
 this
+ScrollSelectionIntoView
+:
+:
+Yes
 )
 ;
 }
