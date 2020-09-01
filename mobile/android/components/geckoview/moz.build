@@ -94,6 +94,11 @@ GeckoViewExternalAppService
 .
 cpp
 '
+'
+GeckoViewStreamListener
+.
+cpp
+'
 ]
 EXPORTS
 +
@@ -101,6 +106,11 @@ EXPORTS
 [
 '
 GeckoViewExternalAppService
+.
+h
+'
+'
+GeckoViewStreamListener
 .
 h
 '
