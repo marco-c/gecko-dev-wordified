@@ -885,11 +885,13 @@ ColorToRGBA
 (
 GlobalObject
 &
-aGlobal
 const
 nsACString
 &
 aColorString
+const
+Document
+*
 Nullable
 <
 InspectorRGBATuple
