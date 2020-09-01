@@ -20126,10 +20126,6 @@ hit_test
 (
 None
 point
-HitTestFlags
-:
-:
-FIND_ALL
 )
 ;
 for
