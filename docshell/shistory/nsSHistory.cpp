@@ -2778,7 +2778,7 @@ canonical
 BC
 directly
 bool
-shouldBreak
+foundChild
 =
 false
 ;
@@ -2817,7 +2817,7 @@ childBC
 =
 child
 ;
-shouldBreak
+foundChild
 =
 true
 ;
@@ -2864,7 +2864,7 @@ GetBrowsingContext
 (
 )
 ;
-shouldBreak
+foundChild
 =
 true
 ;
@@ -2895,7 +2895,7 @@ time
 .
 if
 (
-shouldBreak
+foundChild
 )
 {
 break
@@ -3957,6 +3957,20 @@ aNewEntry
 )
 ;
 }
+}
+else
+{
+/
+/
+FIXME
+Bug
+1633988
+:
+Need
+to
+update
+entries
+?
 }
 /
 /
