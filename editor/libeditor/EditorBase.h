@@ -5695,6 +5695,11 @@ NeedsBeforeInputEventHandling
 (
 mEditAction
 )
+&
+&
+IsBeforeInputEventEnabled
+(
+)
 ;
 }
 /
@@ -6821,6 +6826,12 @@ mParentData
 }
 private
 :
+bool
+IsBeforeInputEventEnabled
+(
+)
+const
+;
 static
 bool
 NeedsBeforeInputEventHandling
