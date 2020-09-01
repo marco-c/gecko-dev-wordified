@@ -148,6 +148,7 @@ toResource
 (
 styleSheet
 false
+null
 )
 )
 )
@@ -164,6 +165,7 @@ added
 (
 styleSheet
 isNew
+fileName
 )
 =
 >
@@ -175,6 +177,7 @@ toResource
 (
 styleSheet
 isNew
+fileName
 )
 ]
 )
@@ -253,6 +256,7 @@ toResource
 (
 styleSheet
 isNew
+fileName
 )
 {
 return
@@ -265,7 +269,17 @@ TYPES
 .
 STYLESHEET
 styleSheet
+:
+Object
+.
+assign
+(
+styleSheet
+{
 isNew
+fileName
+}
+)
 }
 ;
 }
