@@ -19893,12 +19893,14 @@ slot
 count
 is
 always
-rounded
-to
+one
+less
+than
 a
 power
 of
 2
+.
 MOZ_ASSERT
 (
 nativeTemplateObj
@@ -19908,7 +19910,7 @@ numDynamicSlots
 )
 =
 =
-4
+3
 )
 ;
 static_assert
