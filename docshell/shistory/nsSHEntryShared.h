@@ -551,6 +551,11 @@ mCacheKey
 =
 0
 ;
+bool
+mIsFrameNavigation
+=
+false
+;
 protected
 :
 static
@@ -780,11 +785,6 @@ viewer
 .
 nsWeakPtr
 mSHistory
-;
-bool
-mIsFrameNavigation
-=
-false
 ;
 bool
 mSticky
