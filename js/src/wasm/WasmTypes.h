@@ -2799,10 +2799,7 @@ c
 <
 LowestPrimitiveTypeCode
 ?
-TypeCode
-:
-:
-OptRef
+AbstractReferenceTypeCode
 :
 c
 ;
@@ -2823,10 +2820,7 @@ ptc
 )
 =
 =
-TypeCode
-:
-:
-OptRef
+AbstractReferenceTypeCode
 ;
 }
 /
@@ -3536,10 +3530,7 @@ Ref
 =
 uint8_t
 (
-TypeCode
-:
-:
-OptRef
+AbstractReferenceTypeCode
 )
 }
 ;
