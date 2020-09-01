@@ -75,6 +75,7 @@ from
 voluptuous
 import
 Required
+Optional
 from
 taskgraph
 .
@@ -251,7 +252,7 @@ the
 task
 .
     
-Required
+Optional
 (
 '
 workdir
@@ -2023,15 +2024,6 @@ job
 taskdesc
 )
 :
-    
-run
-=
-job
-[
-'
-run
-'
-]
     
 test
 =
@@ -3869,17 +3861,6 @@ run
 ]
 =
 {
-        
-'
-workdir
-'
-:
-run
-[
-'
-workdir
-'
-]
         
 '
 tooltool
