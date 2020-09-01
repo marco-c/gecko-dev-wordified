@@ -2177,12 +2177,12 @@ connection
 or
 message
 if
+let
+Status
+=
 msg
 .
 command
-=
-=
-Status
 {
 let
 (
