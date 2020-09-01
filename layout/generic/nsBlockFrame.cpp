@@ -42080,8 +42080,11 @@ aList
 }
 else
 {
-SetPropTableFrames
+SetProperty
 (
+OverflowOutOfFlowsProperty
+(
+)
 new
 (
 PresShell
@@ -42091,9 +42094,6 @@ PresShell
 nsFrameList
 (
 aList
-)
-OverflowOutOfFlowsProperty
-(
 )
 )
 ;
