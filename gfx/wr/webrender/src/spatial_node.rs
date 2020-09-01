@@ -2584,7 +2584,7 @@ pre_translate
 scroll_offset
 )
 .
-post_translate
+then_translate
 (
 -
 scroll_offset
@@ -2689,7 +2689,7 @@ relative_transform
 =
 resolved_transform
 .
-post_translate
+then_translate
 (
 snap_offset
 (
@@ -2970,6 +2970,11 @@ masking
 let
 transform
 =
+relative_transform
+.
+then
+(
+&
 state
 .
 coordinate_system_relative_scale_offset
@@ -2977,11 +2982,6 @@ coordinate_system_relative_scale_offset
 to_transform
 (
 )
-.
-pre_transform
-(
-&
-relative_transform
 )
 ;
 /
@@ -3039,7 +3039,7 @@ world_transform
 =
 cur_transform
 .
-post_transform
+then
 (
 &
 parent_system
@@ -6692,7 +6692,7 @@ transform
 LayoutTransform
 :
 :
-create_perspective
+perspective
 (
 100
 .
