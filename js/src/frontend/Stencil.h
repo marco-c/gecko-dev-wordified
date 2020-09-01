@@ -1971,6 +1971,11 @@ FunctionDeclarationVector
 Vector
 <
 FunctionDeclaration
+0
+js
+:
+:
+SystemAllocPolicy
 >
 ;
 /
@@ -2574,11 +2579,6 @@ StencilModuleMetadata
 (
 JSContext
 *
-cx
-)
-:
-functionDecls
-(
 cx
 )
 {
