@@ -412,7 +412,13 @@ return
 new
 CrossGraphPort
 (
+std
+:
+:
+move
+(
 port
+)
 )
 ;
 }
