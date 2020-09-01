@@ -21568,6 +21568,7 @@ typename
 S
 >
 static
+inline
 U16
 textureLinearPackedR8
 (

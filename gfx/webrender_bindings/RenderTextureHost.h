@@ -219,6 +219,9 @@ RenderBufferTextureHost
 class
 RenderTextureHostOGL
 ;
+class
+RenderTextureHostSWGL
+;
 void
 ActivateBindAndTexParameteri
 (
@@ -474,6 +477,17 @@ virtual
 RenderMacIOSurfaceTextureHostOGL
 *
 AsRenderMacIOSurfaceTextureHostOGL
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderTextureHostSWGL
+*
+AsRenderTextureHostSWGL
 (
 )
 {
