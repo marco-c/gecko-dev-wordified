@@ -1076,10 +1076,6 @@ AtomIndex
 (
 )
 ]
-.
-get
-(
-)
 ;
 }
 if
