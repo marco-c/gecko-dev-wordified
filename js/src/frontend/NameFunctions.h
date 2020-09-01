@@ -141,9 +141,6 @@ frontend
 class
 ParseNode
 ;
-struct
-CompilationInfo
-;
 MOZ_MUST_USE
 bool
 NameFunctions
@@ -151,9 +148,6 @@ NameFunctions
 JSContext
 *
 cx
-CompilationInfo
-&
-compilationInfo
 ParseNode
 *
 pn

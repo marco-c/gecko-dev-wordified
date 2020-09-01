@@ -266,8 +266,7 @@ LabelControl
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
+JSAtom
 *
 label
 BytecodeOffset
@@ -284,6 +283,10 @@ Label
 )
 label_
 (
+bce
+-
+>
+cx
 label
 )
 startOffset_

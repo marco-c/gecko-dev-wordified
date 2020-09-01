@@ -515,8 +515,7 @@ MOZ_MUST_USE
 bool
 append
 (
-const
-ParserAtom
+JSAtom
 *
 atom
 GCThingIndex

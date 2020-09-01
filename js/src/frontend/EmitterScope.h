@@ -509,7 +509,7 @@ BytecodeEmitter
 *
 bce
 const
-ParserBindingIter
+BindingIter
 &
 bi
 )
@@ -530,7 +530,7 @@ BytecodeEmitter
 *
 bce
 const
-ParserBindingIter
+BindingIter
 &
 bi
 )
@@ -542,8 +542,7 @@ putNameInCache
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
+JSAtom
 *
 name
 NameLocation
@@ -562,8 +561,7 @@ lookupInCache
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
+JSAtom
 *
 name
 )
@@ -601,8 +599,7 @@ nameCanBeFree
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
+JSAtom
 *
 name
 )
@@ -627,8 +624,7 @@ searchAndCache
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
+JSAtom
 *
 name
 )
@@ -724,8 +720,14 @@ BytecodeEmitter
 bce
 ScopeKind
 kind
-ParserLexicalScopeData
+Handle
+<
+LexicalScope
+:
+:
+Data
 *
+>
 bindings
 )
 ;
@@ -991,8 +993,7 @@ lookup
 BytecodeEmitter
 *
 bce
-const
-ParserAtom
+JSAtom
 *
 name
 )
@@ -1006,8 +1007,7 @@ NameLocation
 >
 locationBoundInScope
 (
-const
-ParserAtom
+JSAtom
 *
 name
 EmitterScope

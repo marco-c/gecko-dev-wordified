@@ -3454,8 +3454,14 @@ MOZ_MUST_USE
 bool
 emitLexical
 (
-ParserLexicalScopeData
+Handle
+<
+LexicalScope
+:
+:
+Data
 *
+>
 bindings
 )
 ;

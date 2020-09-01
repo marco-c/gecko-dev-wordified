@@ -2551,9 +2551,11 @@ MOZ_MUST_USE
 bool
 emitNameCallee
 (
-const
-ParserAtom
+Handle
+<
+JSAtom
 *
+>
 name
 )
 ;
