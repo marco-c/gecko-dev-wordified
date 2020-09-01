@@ -690,6 +690,15 @@ revision
 ]
 =
 rev
+.
+decode
+(
+"
+utf
+-
+8
+"
+)
         
 self
 [
