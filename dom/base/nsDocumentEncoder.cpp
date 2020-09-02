@@ -1325,7 +1325,7 @@ bool
 IncludeInContext
 (
 nsINode
-*
+&
 aNode
 )
 const
@@ -5400,6 +5400,9 @@ NS_ERROR_FAILURE
 ;
 if
 (
+nsDocumentEncoder
+:
+:
 IsInvisibleNodeAndShouldBeSkipped
 (
 *
@@ -5711,6 +5714,7 @@ mRangeNodeContext
 .
 IncludeInContext
 (
+*
 aNode
 )
 )
@@ -6436,6 +6440,7 @@ mRangeNodeContext
 .
 IncludeInContext
 (
+*
 node
 )
 |
@@ -7857,7 +7862,7 @@ bool
 IncludeInContext
 (
 nsINode
-*
+&
 aNode
 )
 const
@@ -9438,7 +9443,7 @@ RangeNodeContext
 IncludeInContext
 (
 nsINode
-*
+&
 aNode
 )
 const
@@ -9451,6 +9456,7 @@ content
 (
 do_QueryInterface
 (
+&
 aNode
 )
 )
