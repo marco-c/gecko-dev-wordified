@@ -88,6 +88,8 @@ useTestEngines
 data
 "
 null
+(
+await
 readJSONFile
 (
 do_get_file
@@ -105,6 +107,7 @@ hint
 .
 json
 "
+)
 )
 )
 .
