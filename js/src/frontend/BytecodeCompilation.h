@@ -424,6 +424,9 @@ extern
 bool
 CompileGlobalScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -444,6 +447,9 @@ extern
 bool
 CompileGlobalScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -467,6 +473,9 @@ extern
 bool
 InstantiateStencils
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo

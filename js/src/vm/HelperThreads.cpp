@@ -4412,6 +4412,7 @@ frontend
 :
 CompileGlobalScriptToStencil
 (
+cx
 *
 compilationInfo
 data
@@ -4513,6 +4514,7 @@ frontend
 :
 InstantiateStencils
 (
+cx
 *
 compilationInfo_
 gcOutput

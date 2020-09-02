@@ -1158,6 +1158,9 @@ static
 bool
 CompileGlobalScriptToStencilImpl
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -1174,14 +1177,6 @@ ScopeKind
 scopeKind
 )
 {
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
-;
 AutoAssertReportedException
 assertException
 (
@@ -1315,6 +1310,9 @@ frontend
 :
 CompileGlobalScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -1334,6 +1332,7 @@ scopeKind
 return
 CompileGlobalScriptToStencilImpl
 (
+cx
 compilationInfo
 srcBuf
 scopeKind
@@ -1346,6 +1345,9 @@ frontend
 :
 CompileGlobalScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -1367,8 +1369,6 @@ ifdef
 JS_ENABLE_SMOOSH
 if
 (
-compilationInfo
-.
 cx
 -
 >
@@ -1385,14 +1385,6 @@ bool
 unimplemented
 =
 false
-;
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
 ;
 JSRuntime
 *
@@ -1445,8 +1437,6 @@ false
 }
 if
 (
-compilationInfo
-.
 cx
 -
 >
@@ -1478,8 +1468,6 @@ result
 }
 if
 (
-compilationInfo
-.
 cx
 -
 >
@@ -1526,6 +1514,7 @@ JS_ENABLE_SMOOSH
 return
 CompileGlobalScriptToStencilImpl
 (
+cx
 compilationInfo
 srcBuf
 scopeKind
@@ -1538,6 +1527,9 @@ frontend
 :
 InstantiateStencils
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -1546,14 +1538,6 @@ CompilationGCOutput
 gcOutput
 )
 {
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
-;
 {
 AutoGeckoProfilerEntry
 pseudoFrame
@@ -1605,8 +1589,6 @@ parsing
 if
 (
 !
-compilationInfo
-.
 cx
 -
 >
@@ -1762,6 +1744,7 @@ if
 !
 CompileGlobalScriptToStencil
 (
+cx
 compilationInfo
 .
 get
@@ -1790,6 +1773,7 @@ if
 !
 InstantiateStencils
 (
+cx
 compilationInfo
 .
 get
@@ -2133,6 +2117,7 @@ if
 !
 InstantiateStencils
 (
+cx
 compilationInfo
 .
 get
@@ -4876,6 +4861,7 @@ if
 !
 InstantiateStencils
 (
+cx
 compilationInfo
 .
 get
