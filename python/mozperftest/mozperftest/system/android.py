@@ -460,7 +460,6 @@ android
 device
 via
 ADB
-    
 "
 "
 "

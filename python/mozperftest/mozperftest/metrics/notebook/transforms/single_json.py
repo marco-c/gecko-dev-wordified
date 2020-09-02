@@ -79,7 +79,6 @@ standardized
 data
 format
 .
-    
 "
 "
 "

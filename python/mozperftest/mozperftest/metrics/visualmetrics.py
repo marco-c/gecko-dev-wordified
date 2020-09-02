@@ -222,7 +222,6 @@ visualmetrics
 .
 py
 script
-    
 "
 "
 "

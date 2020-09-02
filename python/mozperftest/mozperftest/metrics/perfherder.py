@@ -144,7 +144,6 @@ the
 perfherder
 format
 .
-    
 "
 "
 "

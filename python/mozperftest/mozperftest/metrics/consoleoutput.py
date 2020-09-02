@@ -217,7 +217,6 @@ in
 the
 console
 .
-    
 "
 "
 "

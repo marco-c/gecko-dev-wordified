@@ -79,7 +79,6 @@ android
 log
 test
 .
-    
 "
 "
 "
