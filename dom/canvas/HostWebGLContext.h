@@ -469,6 +469,13 @@ friend
 class
 WebGLMemoryTracker
 ;
+friend
+class
+dom
+:
+:
+WebGLParent
+;
 using
 ObjectId
 =

@@ -621,9 +621,17 @@ gl
 mWasTlsOk
 (
 gl
+&
+&
+gl
 -
 >
 mUseTLSIsCurrent
+)
+{
+if
+(
+mGL
 )
 {
 mGL
@@ -633,6 +641,7 @@ mUseTLSIsCurrent
 =
 true
 ;
+}
 }
 ~
 TlsScope
