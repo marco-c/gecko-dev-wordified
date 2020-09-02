@@ -539,6 +539,17 @@ metrics
 =
 metrics
             
+transformer
+=
+self
+.
+get_arg
+(
+"
+transformer
+"
+)
+            
 settings
 =
 True
