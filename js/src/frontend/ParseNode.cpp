@@ -2875,6 +2875,9 @@ NumericLiteral
 :
 toAtom
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -2884,6 +2887,7 @@ const
 return
 NumberToParserAtom
 (
+cx
 compilationInfo
 value
 (

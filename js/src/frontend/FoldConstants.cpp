@@ -3235,6 +3235,9 @@ toAtom
 (
 info
 .
+cx
+info
+.
 compilationInfo
 )
 ;
@@ -8201,6 +8204,9 @@ numeric
 >
 toAtom
 (
+info
+.
+cx
 info
 .
 compilationInfo
