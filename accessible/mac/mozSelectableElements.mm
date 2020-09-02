@@ -121,13 +121,6 @@ h
 #
 import
 "
-nsCocoaUtils
-.
-h
-"
-#
-import
-"
 MacUtils
 .
 h
@@ -138,6 +131,13 @@ include
 Accessible
 -
 inl
+.
+h
+"
+#
+include
+"
+nsCocoaUtils
 .
 h
 "
