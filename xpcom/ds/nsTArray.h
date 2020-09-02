@@ -1829,6 +1829,7 @@ C
 "
 {
 extern
+const
 nsTArrayHeader
 sEmptyTArrayHeader
 ;
@@ -3967,8 +3968,15 @@ EmptyHdr
 MOZ_NONNULL_RETURN
 {
 return
+const_cast
+<
+Header
+*
+>
+(
 &
 sEmptyTArrayHeader
+)
 ;
 }
 }

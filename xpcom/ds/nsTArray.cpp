@@ -213,6 +213,7 @@ alignas
 (
 8
 )
+const
 nsTArrayHeader
 sEmptyTArrayHeader
 =
