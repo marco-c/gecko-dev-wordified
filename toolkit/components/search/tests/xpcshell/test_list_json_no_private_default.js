@@ -87,8 +87,6 @@ test_searchDefaultEngineUS
 )
 {
 await
-SearchTestUtils
-.
 useTestEngines
 (
 "

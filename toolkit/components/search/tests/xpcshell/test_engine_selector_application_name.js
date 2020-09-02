@@ -503,8 +503,6 @@ setup
 )
 {
 await
-SearchTestUtils
-.
 useTestEngines
 (
 "

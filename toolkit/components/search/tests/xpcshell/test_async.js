@@ -43,8 +43,6 @@ promiseStartupManager
 )
 ;
 await
-SearchTestUtils
-.
 useTestEngines
 (
 "

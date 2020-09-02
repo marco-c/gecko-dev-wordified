@@ -749,8 +749,6 @@ useMockIdleService
 )
 ;
 await
-SearchTestUtils
-.
 useTestEngines
 (
 "

@@ -136,8 +136,6 @@ be
 ignored
 .
 await
-SearchTestUtils
-.
 useTestEngines
 (
 )

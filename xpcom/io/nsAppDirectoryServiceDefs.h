@@ -681,6 +681,12 @@ NS_APP_PLUGINS_DIR_LIST
 "
 APluginsDL
 "
+#
+define
+NS_APP_DISTRIBUTION_SEARCH_DIR_LIST
+"
+SrchPluginsDistDL
+"
 /
 /
 -

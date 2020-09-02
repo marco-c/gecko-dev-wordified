@@ -600,24 +600,6 @@ to
 set
 .
 *
-returns
-{
-object
-}
-*
-An
-object
-that
-is
-a
-sinon
-stub
-for
-the
-configuration
-getter
-.
-*
 /
 async
 useTestEngines
@@ -719,7 +701,6 @@ if
 config
 )
 {
-return
 sinon
 .
 stub
@@ -736,6 +717,8 @@ config
 )
 ;
 }
+else
+{
 let
 response
 =
@@ -765,7 +748,6 @@ json
 (
 )
 ;
-return
 sinon
 .
 stub
@@ -783,6 +765,7 @@ json
 data
 )
 ;
+}
 }
 async
 useMochitestEngines
