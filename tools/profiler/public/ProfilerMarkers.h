@@ -690,7 +690,10 @@ profiler_add_marker
 <
 :
 :
-profilermarkers
+geckoprofiler
+:
+:
+markers
 :
 :
 MarkerType
@@ -719,7 +722,10 @@ while
 false
 )
 namespace
-profilermarkers
+geckoprofiler
+:
+:
+markers
 {
 /
 /
@@ -755,7 +761,10 @@ Text
 /
 /
 namespace
-profilermarkers
+geckoprofiler
+:
+:
+markers
 #
 define
 PROFILER_MARKER_TEXT
