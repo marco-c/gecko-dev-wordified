@@ -4591,6 +4591,9 @@ static
 bool
 ParseModuleToStencilImpl
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -4602,14 +4605,6 @@ Unit
 srcBuf
 )
 {
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
-;
 MOZ_ASSERT
 (
 srcBuf
@@ -4684,6 +4679,9 @@ frontend
 :
 ParseModuleToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -4698,6 +4696,7 @@ srcBuf
 return
 ParseModuleToStencilImpl
 (
+cx
 compilationInfo
 srcBuf
 )
@@ -4709,6 +4708,9 @@ frontend
 :
 ParseModuleToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -4723,6 +4725,7 @@ srcBuf
 return
 ParseModuleToStencilImpl
 (
+cx
 compilationInfo
 srcBuf
 )
@@ -4837,6 +4840,7 @@ if
 !
 ParseModuleToStencil
 (
+cx
 compilationInfo
 .
 get

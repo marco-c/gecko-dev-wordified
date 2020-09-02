@@ -4853,6 +4853,7 @@ frontend
 :
 ParseModuleToStencil
 (
+cx
 *
 compilationInfo
 data
