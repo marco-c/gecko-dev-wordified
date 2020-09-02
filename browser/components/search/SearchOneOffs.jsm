@@ -6899,6 +6899,12 @@ selectedButton
 .
 engine
 )
+&
+&
+!
+this
+.
+disableOneOffsHorizontalKeyNavigation
 )
 {
 /
@@ -6959,6 +6965,12 @@ selectedButton
 .
 engine
 )
+&
+&
+!
+this
+.
+disableOneOffsHorizontalKeyNavigation
 )
 {
 /
