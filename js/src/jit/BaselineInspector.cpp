@@ -1494,7 +1494,7 @@ matchOp
 CacheOp
 :
 :
-GuardAndGetNumberFromString
+GuardStringToNumber
 )
 |
 |
@@ -1505,7 +1505,7 @@ matchOp
 CacheOp
 :
 :
-GuardAndGetInt32FromString
+GuardStringToInt32
 )
 )
 {

@@ -13748,7 +13748,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardAndGetInt32FromString
+emitGuardStringToInt32
 (
 StringOperandId
 strId
@@ -14148,7 +14148,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardAndGetNumberFromString
+emitGuardStringToNumber
 (
 StringOperandId
 strId
@@ -14586,7 +14586,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardAndGetNumberFromBoolean
+emitBooleanToNumber
 (
 BooleanOperandId
 booleanId
@@ -14643,7 +14643,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardAndGetIndexFromString
+emitGuardStringToIndex
 (
 StringOperandId
 strId
