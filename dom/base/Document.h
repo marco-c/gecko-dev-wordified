@@ -22550,6 +22550,8 @@ IsEmpty
 void
 UpdateIntersectionObservations
 (
+TimeStamp
+aNowTime
 )
 ;
 void
