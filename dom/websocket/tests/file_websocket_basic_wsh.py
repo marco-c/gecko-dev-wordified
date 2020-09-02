@@ -8,7 +8,7 @@ web_socket_do_extra_handshake
 request
 )
 :
-  
+    
 #
 must
 set
@@ -21,7 +21,7 @@ selected
 version
 from
 ws_requested_protocols
-  
+    
 request
 .
 ws_protocol
@@ -32,7 +32,7 @@ ws_requested_protocols
 [
 0
 ]
-  
+    
 if
 (
 request
@@ -45,7 +45,7 @@ error
 '
 )
 :
-      
+        
 raise
 ValueError
 (
@@ -53,7 +53,7 @@ ValueError
 Error
 '
 )
-  
+    
 pass
 def
 web_socket_transfer_data
@@ -61,11 +61,11 @@ web_socket_transfer_data
 request
 )
 :
-  
+    
 while
 True
 :
-    
+        
 line
 =
 msgutil
@@ -74,7 +74,7 @@ receive_message
 (
 request
 )
-    
+        
 if
 line
 =
@@ -83,7 +83,7 @@ line
 protocol
 '
 :
-      
+            
 msgutil
 .
 send_message
@@ -93,9 +93,9 @@ request
 .
 ws_protocol
 )
-      
+            
 continue
-    
+        
 if
 line
 =
@@ -104,7 +104,7 @@ line
 resource
 '
 :
-      
+            
 msgutil
 .
 send_message
@@ -114,9 +114,9 @@ request
 .
 ws_resource
 )
-      
+            
 continue
-    
+        
 if
 line
 =
@@ -125,7 +125,7 @@ line
 origin
 '
 :
-      
+            
 msgutil
 .
 send_message
@@ -135,9 +135,9 @@ request
 .
 ws_origin
 )
-      
+            
 continue
-    
+        
 msgutil
 .
 send_message
@@ -145,7 +145,7 @@ send_message
 request
 line
 )
-    
+        
 if
 line
 =
@@ -154,5 +154,5 @@ line
 end
 '
 :
-      
+            
 return
