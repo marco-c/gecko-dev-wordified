@@ -8683,21 +8683,6 @@ in
 platform
 :
             
-if
-'
--
-1
--
-refbrow
--
-'
-in
-try_name
-:
-                
-return
-True
-            
 #
 Get
 browsertime
