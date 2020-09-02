@@ -1034,13 +1034,10 @@ Emoji
 ;
 if
 (
+PrefersColor
+(
 aPresentation
-=
-=
-eFontPresentation
-:
-:
-Emoji
+)
 )
 {
 aFontList
