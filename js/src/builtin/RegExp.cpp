@@ -10618,12 +10618,6 @@ capture
 cx
 )
 ;
-RootedLinearString
-linear
-(
-cx
-)
-;
 for
 (
 uint32_t
@@ -10751,6 +10745,8 @@ return
 false
 ;
 }
+JSLinearString
+*
 linear
 =
 str
