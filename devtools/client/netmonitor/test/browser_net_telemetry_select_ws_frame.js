@@ -464,13 +464,14 @@ LongString
 const
 payloadResolved
 =
-waitFor
-(
 monitor
 .
 panelWin
 .
 api
+.
+once
+(
 TEST_EVENTS
 .
 LONGSTRING_RESOLVED

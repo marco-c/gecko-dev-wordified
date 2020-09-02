@@ -268,13 +268,14 @@ click
 )
 ;
 await
-waitFor
-(
 monitor
 .
 panelWin
 .
 api
+.
+once
+(
 TEST_EVENTS
 .
 THROTTLING_CHANGED
