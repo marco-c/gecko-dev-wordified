@@ -453,9 +453,7 @@ add
 responses
 .
 GET
-                    
 url
-                    
 json
 =
 json
@@ -464,7 +462,6 @@ load
 (
 fh
 )
-                    
 status
 =
 200

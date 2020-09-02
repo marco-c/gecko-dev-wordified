@@ -649,7 +649,6 @@ put_bucket_website
 Bucket
 =
 bucket
-        
 WebsiteConfiguration
 =
 configuration
@@ -871,17 +870,14 @@ delete_objects
 Bucket
 =
 bucket
-            
 Delete
 =
 {
-                
 "
 Objects
 "
 :
 keys_to_remove
-            
 }
 #
 NOQA

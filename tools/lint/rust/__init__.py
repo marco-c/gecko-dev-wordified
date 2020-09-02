@@ -749,13 +749,11 @@ binary
 version
 "
 ]
-            
 stderr
 =
 subprocess
 .
 STDOUT
-            
 universal_newlines
 =
 True
