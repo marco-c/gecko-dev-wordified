@@ -889,7 +889,16 @@ row
 next
 (
 reader
+None
 )
+        
+if
+row
+is
+None
+:
+            
+return
         
 name
 =
