@@ -182,6 +182,9 @@ SharedContext
 :
 liftParserAtomToJSAtom
 (
+JSContext
+*
+cx
 const
 ParserAtom
 *
@@ -193,6 +196,7 @@ compilationInfo_
 .
 liftParserAtomToJSAtom
 (
+cx
 atomId
 )
 ;
@@ -206,6 +210,9 @@ SharedContext
 :
 lowerJSAtomToParserAtom
 (
+JSContext
+*
+cx
 JSAtom
 *
 atom
@@ -216,6 +223,7 @@ compilationInfo_
 .
 lowerJSAtomToParserAtom
 (
+cx
 atom
 )
 ;

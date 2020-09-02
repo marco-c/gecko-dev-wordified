@@ -8404,6 +8404,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 entry
 .
 specifier
@@ -8433,6 +8434,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 entry
 .
 localName
@@ -8462,6 +8464,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 entry
 .
 importName
@@ -8491,6 +8494,7 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+cx
 entry
 .
 exportName

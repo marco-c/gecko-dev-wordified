@@ -16454,6 +16454,7 @@ compilationInfo_
 .
 lowerJSAtomToParserAtom
 (
+cx_
 fun
 -
 >
@@ -19394,6 +19395,7 @@ compilationInfo_
 .
 lowerJSAtomToParserAtom
 (
+cx_
 fun
 -
 >

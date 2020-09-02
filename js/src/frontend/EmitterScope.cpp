@@ -2400,6 +2400,10 @@ compilationInfo
 .
 liftParserAtomToJSAtom
 (
+bce
+-
+>
+cx
 name
 )
 ;

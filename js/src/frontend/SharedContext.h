@@ -1761,6 +1761,9 @@ JSAtom
 *
 liftParserAtomToJSAtom
 (
+JSContext
+*
+cx
 const
 ParserAtom
 *
@@ -1773,6 +1776,9 @@ ParserAtom
 *
 lowerJSAtomToParserAtom
 (
+JSContext
+*
+cx
 JSAtom
 *
 atom
