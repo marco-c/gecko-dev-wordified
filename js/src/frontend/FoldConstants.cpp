@@ -276,6 +276,10 @@ PositiveInfinity
 struct
 FoldInfo
 {
+JSContext
+*
+cx
+;
 CompilationInfo
 &
 compilationInfo
@@ -284,18 +288,6 @@ FullParseHandler
 *
 handler
 ;
-JSContext
-*
-cx
-(
-)
-{
-return
-compilationInfo
-.
-cx
-;
-}
 }
 ;
 /
@@ -3165,8 +3157,6 @@ toNumber
 info
 .
 cx
-(
-)
 &
 d
 )
@@ -4043,8 +4033,6 @@ result
 info
 .
 cx
-(
-)
 -
 >
 parserNames
@@ -4074,8 +4062,6 @@ result
 info
 .
 cx
-(
-)
 -
 >
 parserNames
@@ -4105,8 +4091,6 @@ result
 info
 .
 cx
-(
-)
 -
 >
 parserNames
@@ -4136,8 +4120,6 @@ result
 info
 .
 cx
-(
-)
 -
 >
 parserNames
@@ -4179,8 +4161,6 @@ result
 info
 .
 cx
-(
-)
 -
 >
 parserNames
@@ -4209,8 +4189,6 @@ result
 info
 .
 cx
-(
-)
 -
 >
 parserNames
@@ -6634,8 +6612,6 @@ ContainsHoistedDeclaration
 info
 .
 cx
-(
-)
 discarded
 &
 containsHoistedDecls
@@ -8930,8 +8906,6 @@ accum
 info
 .
 cx
-(
-)
 )
 ;
 do
@@ -9191,8 +9165,6 @@ concatAtoms
 info
 .
 cx
-(
-)
 mozilla
 :
 :
@@ -9550,6 +9522,10 @@ Base
 =
 RewritingParseNodeVisitor
 ;
+JSContext
+*
+cx
+;
 CompilationInfo
 &
 compilationInfo
@@ -9567,6 +9543,7 @@ const
 return
 FoldInfo
 {
+cx
 compilationInfo
 handler
 }
@@ -9589,6 +9566,10 @@ handler
 )
 :
 RewritingParseNodeVisitor
+(
+cx
+)
+cx
 (
 cx
 )
@@ -11429,8 +11410,6 @@ Fold
 info
 .
 cx
-(
-)
 info
 .
 compilationInfo
