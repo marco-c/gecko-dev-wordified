@@ -20520,6 +20520,7 @@ CT
 &
 aPoint
 )
+const
 {
 ErrorResult
 error
@@ -20562,6 +20563,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 MOZ_ASSERT
 (
@@ -20667,6 +20669,7 @@ ErrorResult
 &
 aRv
 )
+const
 {
 CollapseSelectionTo
 (
@@ -25419,6 +25422,7 @@ nsIContent
 &
 aAncestorLimit
 )
+const
 override
 ;
 /
@@ -25731,6 +25735,7 @@ MaybeCollapseSelectionAtFirstEditableNode
 bool
 aIgnoreIfSelectionInEditingHost
 )
+const
 ;
 class
 BlobReader

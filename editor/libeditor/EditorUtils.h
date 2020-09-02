@@ -6504,6 +6504,7 @@ nsresult
 >
 ExtendAnchorFocusRangeFor
 (
+const
 EditorBase
 &
 aEditorBase

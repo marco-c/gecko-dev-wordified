@@ -2930,6 +2930,7 @@ nsIContent
 &
 aAncestorLimit
 )
+const
 {
 MOZ_ASSERT
 (
@@ -3351,6 +3352,7 @@ MaybeCollapseSelectionAtFirstEditableNode
 bool
 aIgnoreIfSelectionInEditingHost
 )
+const
 {
 MOZ_ASSERT
 (

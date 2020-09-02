@@ -11259,6 +11259,7 @@ nsresult
 CollapseSelectionToEnd
 (
 )
+const
 ;
 /
 *
@@ -11548,6 +11549,7 @@ EditorRawDOMPoint
 &
 aPoint
 )
+const
 ;
 /
 *
@@ -13689,6 +13691,7 @@ nsIContent
 &
 aAncestorLimit
 )
+const
 ;
 /
 *
