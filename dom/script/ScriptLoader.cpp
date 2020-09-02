@@ -20116,6 +20116,17 @@ aRequest
 mScript
 )
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+aRequest
+-
+>
+isInList
+(
+)
+)
+;
 mBytecodeEncodingQueue
 .
 AppendElement
