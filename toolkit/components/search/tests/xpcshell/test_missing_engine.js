@@ -293,6 +293,8 @@ test_startup_with_missing
 configurationStub
 =
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "
