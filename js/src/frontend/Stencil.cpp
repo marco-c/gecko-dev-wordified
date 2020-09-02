@@ -3498,6 +3498,9 @@ CompilationInfo
 :
 instantiateStencils
 (
+JSContext
+*
+cx
 CompilationGCOutput
 &
 gcOutput
