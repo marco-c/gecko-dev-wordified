@@ -317,6 +317,13 @@ aSession
 void
 UpdateRTCDtlsTransports
 (
+bool
+aMarkAsStable
+)
+;
+void
+RollbackRTCDtlsTransports
+(
 )
 ;
 void
