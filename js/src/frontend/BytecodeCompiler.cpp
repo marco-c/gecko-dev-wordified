@@ -4572,7 +4572,7 @@ Unit
 >
 static
 bool
-InternalParseModuleToStencil
+ParseModuleToStencilImpl
 (
 CompilationInfo
 &
@@ -4679,7 +4679,7 @@ srcBuf
 )
 {
 return
-InternalParseModuleToStencil
+ParseModuleToStencilImpl
 (
 compilationInfo
 srcBuf
@@ -4704,7 +4704,7 @@ srcBuf
 )
 {
 return
-InternalParseModuleToStencil
+ParseModuleToStencilImpl
 (
 compilationInfo
 srcBuf
@@ -4719,7 +4719,7 @@ Unit
 static
 ModuleObject
 *
-CreateModule
+CompileModuleImpl
 (
 JSContext
 *
@@ -4935,7 +4935,7 @@ srcBuf
 )
 {
 return
-CreateModule
+CompileModuleImpl
 (
 cx
 options
@@ -4969,7 +4969,7 @@ srcBuf
 )
 {
 return
-CreateModule
+CompileModuleImpl
 (
 cx
 options
