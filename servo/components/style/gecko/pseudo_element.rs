@@ -363,7 +363,7 @@ Placeholder
 PseudoElement
 :
 :
-FileChooserButton
+FileSelectorButton
 )
 }
 #
@@ -1212,7 +1212,7 @@ enabled
 PseudoElement
 :
 :
-FileChooserButton
+FileSelectorButton
 =
 >
 {
@@ -1229,7 +1229,7 @@ css
 .
 file
 -
-chooser
+selector
 -
 button
 .

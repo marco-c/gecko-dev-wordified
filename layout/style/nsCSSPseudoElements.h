@@ -1024,7 +1024,7 @@ case
 Type
 :
 :
-fileChooserButton
+fileSelectorButton
 :
 return
 mozilla
@@ -1033,7 +1033,7 @@ mozilla
 StaticPrefs
 :
 :
-layout_css_file_chooser_button_enabled
+layout_css_file_selector_button_enabled
 (
 )
 ;

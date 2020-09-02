@@ -924,7 +924,7 @@ button
 :
 file
 -
-chooser
+selector
 -
 button
 {
@@ -3269,7 +3269,7 @@ button
 :
 file
 -
-chooser
+selector
 -
 button
 input
@@ -3438,7 +3438,7 @@ button
 :
 file
 -
-chooser
+selector
 -
 button
 input
@@ -3529,7 +3529,7 @@ button
 :
 file
 -
-chooser
+selector
 -
 button
 {
@@ -3852,7 +3852,7 @@ inherit
 :
 file
 -
-chooser
+selector
 -
 button
 :
@@ -3910,7 +3910,7 @@ buttonhoverface
 :
 file
 -
-chooser
+selector
 -
 button
 :
@@ -3959,7 +3959,7 @@ buttonhovertext
 :
 file
 -
-chooser
+selector
 -
 button
 :
@@ -4044,7 +4044,7 @@ ButtonFace
 :
 file
 -
-chooser
+selector
 -
 button
 :
@@ -4192,7 +4192,7 @@ active
 :
 file
 -
-chooser
+selector
 -
 button
 button
@@ -4327,7 +4327,7 @@ active
 :
 file
 -
-chooser
+selector
 -
 button
 button
@@ -4566,7 +4566,7 @@ selector
 :
 file
 -
-chooser
+selector
 -
 button
 {

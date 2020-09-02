@@ -1401,7 +1401,7 @@ SetPseudoElementType
 PseudoStyleType
 :
 :
-fileChooserButton
+fileSelectorButton
 )
 ;
 /

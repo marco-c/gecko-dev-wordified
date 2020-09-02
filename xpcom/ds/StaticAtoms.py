@@ -26392,13 +26392,13 @@ preview
 PseudoElementAtom
 (
 "
-PseudoElement_fileChooserButton
+PseudoElement_fileSelectorButton
 "
 "
 :
 file
 -
-chooser
+selector
 -
 button
 "
