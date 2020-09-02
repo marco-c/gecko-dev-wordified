@@ -226,6 +226,8 @@ generateArgumentsRectifier
 (
 MacroAssembler
 &
+ArgumentsRectifierKind
+kind
 )
 {
 MOZ_CRASH
