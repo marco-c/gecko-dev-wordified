@@ -175,6 +175,9 @@ MediaStreamTrack
 class
 Promise
 ;
+class
+RTCDtlsTransport
+;
 struct
 RTCRtpContributingSource
 ;
@@ -264,6 +267,17 @@ const
 {
 return
 mTrack
+;
+}
+RTCDtlsTransport
+*
+GetTransport
+(
+)
+const
+{
+return
+nullptr
 ;
 }
 already_AddRefed
