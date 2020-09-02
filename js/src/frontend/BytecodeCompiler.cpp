@@ -769,6 +769,9 @@ MOZ_MUST_USE
 bool
 createSourceAndParser
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -1039,6 +1042,9 @@ createSourceAndParser
 bool
 compileScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -1221,6 +1227,7 @@ compiler
 .
 createSourceAndParser
 (
+cx
 compilationInfo
 )
 )
@@ -1284,6 +1291,7 @@ compiler
 .
 compileScriptToStencil
 (
+cx
 compilationInfo
 &
 globalsc
@@ -2008,6 +2016,7 @@ compiler
 .
 createSourceAndParser
 (
+cx
 compilationInfo
 .
 get
@@ -2089,6 +2098,7 @@ compiler
 .
 compileScriptToStencil
 (
+cx
 compilationInfo
 .
 get
@@ -2313,6 +2323,9 @@ enclosingEnv
 bool
 compile
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -2456,6 +2469,9 @@ FunctionNode
 *
 parse
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -2477,6 +2493,9 @@ parameterListEnd
 bool
 compile
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -2885,6 +2904,9 @@ Unit
 :
 createSourceAndParser
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -2899,8 +2921,6 @@ input
 .
 assignSource
 (
-compilationInfo
-.
 cx
 sourceBuffer_
 )
@@ -2922,8 +2942,6 @@ syntaxParser
 .
 emplace
 (
-compilationInfo
-.
 cx
 compilationInfo
 .
@@ -2973,8 +2991,6 @@ parser
 .
 emplace
 (
-compilationInfo
-.
 cx
 compilationInfo
 .
@@ -3380,6 +3396,9 @@ Unit
 :
 compileScriptToStencil
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -3403,14 +3422,6 @@ parser
 >
 tokenStream
 )
-;
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
 ;
 /
 /
@@ -3710,6 +3721,9 @@ Unit
 :
 compile
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -3720,6 +3734,7 @@ if
 !
 createSourceAndParser
 (
+cx
 compilationInfo
 )
 )
@@ -3728,14 +3743,6 @@ return
 false
 ;
 }
-JSContext
-*
-cx
-=
-compilationInfo
-.
-cx
-;
 /
 /
 Emplace
@@ -4008,6 +4015,9 @@ Unit
 :
 parse
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -4218,6 +4228,9 @@ Unit
 :
 compile
 (
+JSContext
+*
+cx
 CompilationInfo
 &
 compilationInfo
@@ -4543,8 +4556,6 @@ parsing
 if
 (
 !
-compilationInfo
-.
 cx
 -
 >
@@ -4567,8 +4578,6 @@ source
 >
 tryCompressOffThread
 (
-compilationInfo
-.
 cx
 )
 )
@@ -4655,6 +4664,7 @@ compiler
 .
 compile
 (
+cx
 compilationInfo
 )
 )
@@ -5694,6 +5704,7 @@ compiler
 .
 createSourceAndParser
 (
+cx
 compilationInfo
 .
 get
@@ -5714,6 +5725,7 @@ compiler
 .
 parse
 (
+cx
 compilationInfo
 .
 get
@@ -5748,6 +5760,7 @@ compiler
 .
 compile
 (
+cx
 compilationInfo
 .
 get
