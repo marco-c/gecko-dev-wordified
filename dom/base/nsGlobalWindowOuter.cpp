@@ -35452,6 +35452,7 @@ settings
 nullptr
 nullptr
 isPreview
+nullptr
 aError
 )
 ;
@@ -35476,6 +35477,10 @@ nsIDocShell
 aDocShellToCloneInto
 bool
 aIsPreview
+PrintPreviewResolver
+&
+&
+aPrintPreviewCallback
 ErrorResult
 &
 aError
@@ -36531,6 +36536,13 @@ PrintPreview
 (
 aPrintSettings
 aListener
+std
+:
+:
+move
+(
+aPrintPreviewCallback
+)
 )
 ;
 }

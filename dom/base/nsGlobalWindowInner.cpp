@@ -21930,6 +21930,13 @@ aIsPreview
 *
 /
 true
+/
+*
+aPrintPreviewCallback
+=
+*
+/
+nullptr
 aError
 )
 aError
