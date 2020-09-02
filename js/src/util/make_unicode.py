@@ -2958,16 +2958,6 @@ set
 (
 )
     
-non_bmp_folding_map
-=
-{
-}
-    
-non_bmp_rev_folding_map
-=
-{
-}
-    
 for
 row
 in
@@ -2997,26 +2987,6 @@ code
 ]
 =
 mapping
-        
-if
-code
->
-MAX_BMP
-:
-            
-non_bmp_folding_map
-[
-code
-]
-=
-mapping
-            
-non_bmp_rev_folding_map
-[
-mapping
-]
-=
-code
         
 if
 mapping
@@ -3370,9 +3340,6 @@ return
         
 folding_table
 folding_index
-        
-non_bmp_folding_map
-non_bmp_rev_folding_map
         
 folding_tests
     
@@ -4662,9 +4629,6 @@ version
 non_bmp_lower_map
 non_bmp_upper_map
                       
-non_bmp_folding_map
-non_bmp_rev_folding_map
-                      
 codepoint_table
 )
 :
@@ -4867,48 +4831,6 @@ non_bmp_file
 UPPERCASE
 '
 non_bmp_upper_map
-codepoint_table
-)
-        
-non_bmp_file
-.
-write
-(
-'
-\
-n
-'
-)
-        
-make_non_bmp_convert_macro
-(
-non_bmp_file
-'
-CASE_FOLDING
-'
-                                   
-non_bmp_folding_map
-codepoint_table
-)
-        
-non_bmp_file
-.
-write
-(
-'
-\
-n
-'
-)
-        
-make_non_bmp_convert_macro
-(
-non_bmp_file
-'
-REV_CASE_FOLDING
-'
-                                   
-non_bmp_rev_folding_map
 codepoint_table
 )
         
@@ -13849,9 +13771,6 @@ derived_core_properties
 folding_table
 folding_index
             
-non_bmp_folding_map
-non_bmp_rev_folding_map
-            
 folding_tests
         
 )
@@ -13914,9 +13833,6 @@ unicode_version
                       
 non_bmp_lower_map
 non_bmp_upper_map
-                      
-non_bmp_folding_map
-non_bmp_rev_folding_map
                       
 codepoint_table
 )
