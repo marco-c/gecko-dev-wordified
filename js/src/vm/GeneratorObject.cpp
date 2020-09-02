@@ -2700,12 +2700,9 @@ js
 :
 ParserAtomToResumeKind
 (
-frontend
-:
-:
-CompilationInfo
-&
-compilationInfo
+JSContext
+*
+cx
 const
 frontend
 :
@@ -2720,8 +2717,6 @@ if
 atom
 =
 =
-compilationInfo
-.
 cx
 -
 >
@@ -2744,8 +2739,6 @@ if
 atom
 =
 =
-compilationInfo
-.
 cx
 -
 >
@@ -2768,8 +2761,6 @@ MOZ_ASSERT
 atom
 =
 =
-compilationInfo
-.
 cx
 -
 >

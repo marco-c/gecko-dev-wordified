@@ -189,9 +189,6 @@ frontend
 class
 ParserAtom
 ;
-struct
-CompilationInfo
-;
 }
 /
 /
@@ -1433,12 +1430,9 @@ pc
 GeneratorResumeKind
 ParserAtomToResumeKind
 (
-frontend
-:
-:
-CompilationInfo
-&
-compilationInfo
+JSContext
+*
+cx
 const
 frontend
 :
