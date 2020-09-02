@@ -2206,8 +2206,6 @@ Box
 <
 dyn
 FluentType
-+
-Send
 >
 {
 Box
