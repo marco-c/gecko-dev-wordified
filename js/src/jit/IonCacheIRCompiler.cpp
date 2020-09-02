@@ -10453,15 +10453,6 @@ if
 needsPostBarrier
 (
 )
-&
-&
-type
-!
-=
-ReferenceType
-:
-:
-TYPE_STRING
 )
 {
 emitPostBarrierSlot
