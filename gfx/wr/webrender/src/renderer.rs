@@ -12395,7 +12395,7 @@ last_time
 :
 u64
 pub
-gpu_profile
+gpu_profiler
 :
 GpuProfiler
 <
@@ -15818,7 +15818,7 @@ debug_method
 )
 ;
 let
-gpu_profile
+gpu_profiler
 =
 GpuProfiler
 :
@@ -16020,7 +16020,7 @@ clear_caches_with_quads
 last_time
 :
 0
-gpu_profile
+gpu_profiler
 vaos
 :
 RendererVAOs
@@ -20994,7 +20994,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -21042,7 +21042,7 @@ samplers
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 build_samples
 (
@@ -21122,7 +21122,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -21145,7 +21145,7 @@ begin_frame
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 begin_frame
 (
@@ -21881,7 +21881,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -21893,7 +21893,7 @@ frame
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 end_frame
 (
@@ -23200,7 +23200,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -23813,7 +23813,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -25990,7 +25990,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -26338,7 +26338,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -26450,7 +26450,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -26558,7 +26558,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -26583,7 +26583,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -27079,7 +27079,7 @@ _gl
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -27094,7 +27094,7 @@ opaque_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -27233,7 +27233,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -27280,7 +27280,7 @@ disable_depth_write
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -27328,7 +27328,7 @@ _gl
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -27343,7 +27343,7 @@ transparent_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -27971,7 +27971,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -28316,7 +28316,7 @@ framebuffer_kind
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -28390,7 +28390,7 @@ opaque_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -29154,7 +29154,7 @@ unbind
 }
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -30312,7 +30312,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -30326,7 +30326,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -30960,7 +30960,7 @@ opaque_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -31016,7 +31016,7 @@ stats
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -31039,7 +31039,7 @@ transparent_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -31099,7 +31099,7 @@ stats
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -31127,7 +31127,7 @@ transparent_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -31189,7 +31189,7 @@ stats
 ;
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -31274,7 +31274,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -31349,7 +31349,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -31799,7 +31799,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -32046,7 +32046,7 @@ _gm2
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -32120,7 +32120,7 @@ _gm2
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -32205,7 +32205,7 @@ _gm2
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -32301,7 +32301,7 @@ _gm2
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -32430,7 +32430,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -32445,7 +32445,7 @@ alpha_sampler
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_sampler
 (
@@ -32458,7 +32458,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -32776,7 +32776,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -32905,7 +32905,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -33057,7 +33057,7 @@ stats
 }
 self
 .
-gpu_profile
+gpu_profiler
 .
 finish_sampler
 (
@@ -33230,7 +33230,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -33560,7 +33560,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -33743,7 +33743,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -33855,7 +33855,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -33946,7 +33946,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -34199,7 +34199,7 @@ deferred_resolves
 {
 self
 .
-gpu_profile
+gpu_profiler
 .
 place_marker
 (
@@ -35281,7 +35281,7 @@ _timer
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_timer
 (
@@ -35718,7 +35718,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -36223,7 +36223,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
@@ -38102,7 +38102,7 @@ enabled
 {
 self
 .
-gpu_profile
+gpu_profiler
 .
 enable_timers
 (
@@ -38113,7 +38113,7 @@ else
 {
 self
 .
-gpu_profile
+gpu_profiler
 .
 disable_timers
 (
@@ -38145,7 +38145,7 @@ enabled
 {
 self
 .
-gpu_profile
+gpu_profiler
 .
 enable_samplers
 (
@@ -38156,7 +38156,7 @@ else
 {
 self
 .
-gpu_profile
+gpu_profiler
 .
 disable_samplers
 (
@@ -45115,7 +45115,7 @@ _gm
 =
 self
 .
-gpu_profile
+gpu_profiler
 .
 start_marker
 (
