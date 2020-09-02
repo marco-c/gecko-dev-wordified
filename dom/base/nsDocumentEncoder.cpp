@@ -2587,10 +2587,10 @@ nsresult
 SerializeNodePartiallyContainedInRange
 (
 nsINode
-*
+&
 aNode
 nsIContent
-*
+&
 aContent
 const
 StartAndEndContent
@@ -2598,7 +2598,7 @@ StartAndEndContent
 aStartAndEndContent
 const
 nsRange
-*
+&
 aRange
 int32_t
 aDepth
@@ -5767,9 +5767,12 @@ rv
 =
 SerializeNodePartiallyContainedInRange
 (
+*
 aNode
+*
 content
 startAndEndContent
+*
 aRange
 aDepth
 )
@@ -5804,10 +5807,10 @@ RangeSerializer
 SerializeNodePartiallyContainedInRange
 (
 nsINode
-*
+&
 aNode
 nsIContent
-*
+&
 aContent
 const
 StartAndEndContent
@@ -5815,7 +5818,7 @@ StartAndEndContent
 aStartAndEndContent
 const
 nsRange
-*
+&
 aRange
 const
 int32_t
@@ -5867,6 +5870,7 @@ if
 (
 IsTextNode
 (
+&
 aNode
 )
 )
@@ -5876,12 +5880,9 @@ rv
 =
 SerializeTextNode
 (
-*
 aNode
-*
 aContent
 aStartAndEndContent
-*
 aRange
 )
 ;
@@ -5896,6 +5897,7 @@ else
 {
 if
 (
+&
 aNode
 !
 =
@@ -5910,7 +5912,6 @@ mRangeNodeContext
 .
 IncludeInContext
 (
-*
 aNode
 )
 )
@@ -5950,6 +5951,7 @@ aStartAndEndContent
 mStart
 =
 =
+&
 aContent
 )
 &
@@ -5973,6 +5975,7 @@ aStartAndEndContent
 mEnd
 =
 =
+&
 aContent
 )
 &
@@ -6003,7 +6006,6 @@ mNodeSerializer
 .
 SerializeNodeStart
 (
-*
 aNode
 0
 -
@@ -6072,6 +6074,7 @@ aStartAndEndContent
 mStart
 =
 =
+&
 aContent
 &
 &
@@ -6098,6 +6101,7 @@ aStartAndEndContent
 mEnd
 =
 =
+&
 aContent
 &
 &
@@ -6136,8 +6140,7 @@ uint32_t
 childCount
 =
 aContent
--
->
+.
 GetChildCount
 (
 )
@@ -6259,12 +6262,12 @@ serialize
 .
 if
 (
+&
 aNode
 !
 =
 aRange
--
->
+.
 GetEndContainer
 (
 )
@@ -6286,10 +6289,10 @@ rv
 =
 SerializeChildrenOfContent
 (
-*
 aContent
 startOffset
 endOffset
+&
 aRange
 aDepth
 )
@@ -6311,6 +6314,7 @@ this
 node
 if
 (
+&
 aNode
 !
 =
@@ -6324,7 +6328,6 @@ mNodeSerializer
 .
 SerializeNodeEnd
 (
-*
 aNode
 )
 ;
