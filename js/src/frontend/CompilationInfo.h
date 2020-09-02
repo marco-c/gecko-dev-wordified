@@ -1167,9 +1167,6 @@ hold
 onto
 them
 .
-AutoKeepAtoms
-keepAtoms
-;
 Directives
 directives
 ;
@@ -1210,10 +1207,6 @@ enclosingEnv
 nullptr
 )
 :
-keepAtoms
-(
-cx
-)
 directives
 (
 options

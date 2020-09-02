@@ -6,6 +6,8 @@
 Mode
 :
 C
++
++
 ;
 tab
 -
@@ -737,12 +739,7 @@ propId
 =
 AtomToId
 (
-compilationInfo
-.
-liftParserAtomToJSAtom
-(
-atom
-)
+jsatom
 )
 ;
 }
