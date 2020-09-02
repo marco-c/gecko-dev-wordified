@@ -342,6 +342,14 @@ PrettyConfig
 enumerate_arrays
 :
 true
+indentor
+:
+"
+"
+.
+to_string
+(
+)
 .
 .
 ron
