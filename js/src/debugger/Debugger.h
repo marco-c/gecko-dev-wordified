@@ -10762,6 +10762,17 @@ HandleFunction
 fun
 )
 ;
+ArrayObject
+*
+GetFunctionParameterNamesArray
+(
+JSContext
+*
+cx
+HandleFunction
+fun
+)
+;
 bool
 ValueToIdentifier
 (
