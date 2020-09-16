@@ -304,7 +304,7 @@ profiler_is_active
 {
 mCause
 =
-profiler_get_backtrace
+profiler_capture_backtrace
 (
 )
 ;

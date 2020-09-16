@@ -716,7 +716,10 @@ remove
 #
 ifdef
 MOZ_GECKO_PROFILER
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 TakeProfilerBacktrace
 (
 )
@@ -947,7 +950,10 @@ mInterval
 #
 ifdef
 MOZ_GECKO_PROFILER
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 mCause
 ;
 #
