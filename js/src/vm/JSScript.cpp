@@ -545,7 +545,7 @@ include
 "
 vm
 /
-HelperThreads
+HelperThreadState
 .
 h
 "
