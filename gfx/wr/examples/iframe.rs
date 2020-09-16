@@ -112,6 +112,15 @@ use
 webrender
 :
 :
+render_api
+:
+:
+*
+;
+use
+webrender
+:
+:
 api
 :
 :
