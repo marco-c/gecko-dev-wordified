@@ -615,7 +615,13 @@ aWriter
 .
 IntProperty
 (
+mozilla
+:
+:
+MakeStringSpan
+(
 aName
+)
 GetOrAddIndex
 (
 aStr

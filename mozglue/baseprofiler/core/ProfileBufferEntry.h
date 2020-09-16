@@ -608,7 +608,10 @@ aWriter
 .
 IntProperty
 (
+MakeStringSpan
+(
 aName
+)
 GetOrAddIndex
 (
 aStr

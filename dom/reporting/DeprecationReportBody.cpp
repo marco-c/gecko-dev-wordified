@@ -394,10 +394,6 @@ NS_ConvertUTF16toUTF8
 (
 mId
 )
-.
-get
-(
-)
 )
 ;
 /
@@ -432,10 +428,6 @@ NS_ConvertUTF16toUTF8
 (
 mMessage
 )
-.
-get
-(
-)
 )
 ;
 if
@@ -469,10 +461,6 @@ sourceFile
 NS_ConvertUTF16toUTF8
 (
 mSourceFile
-)
-.
-get
-(
 )
 )
 ;

@@ -12737,6 +12737,8 @@ aWriter
 .
 StringElement
 (
+MakeStringSpan
+(
 sc
 .
 ToPtrString
@@ -12745,6 +12747,7 @@ block
 [
 i
 ]
+)
 )
 )
 ;
@@ -13004,7 +13007,10 @@ StringProperty
 "
 dmdEnvVar
 "
+MakeStringSpan
+(
 var
+)
 )
 ;
 }
@@ -13027,11 +13033,14 @@ StringProperty
 "
 mode
 "
+MakeStringSpan
+(
 gOptions
 -
 >
 ModeString
 (
+)
 )
 )
 ;
@@ -13147,6 +13156,8 @@ StringProperty
 "
 addr
 "
+MakeStringSpan
+(
 sc
 .
 ToPtrString
@@ -13155,6 +13166,7 @@ aB
 .
 Address
 (
+)
 )
 )
 )
@@ -13222,6 +13234,8 @@ StringProperty
 "
 alloc
 "
+MakeStringSpan
+(
 isc
 .
 ToIdString
@@ -13230,6 +13244,7 @@ aB
 .
 AllocStackTrace
 (
+)
 )
 )
 )
@@ -13277,6 +13292,8 @@ writer
 .
 StringElement
 (
+MakeStringSpan
+(
 isc
 .
 ToIdString
@@ -13285,6 +13302,7 @@ aB
 .
 ReportStackTrace1
 (
+)
 )
 )
 )
@@ -13303,6 +13321,8 @@ writer
 .
 StringElement
 (
+MakeStringSpan
+(
 isc
 .
 ToIdString
@@ -13311,6 +13331,7 @@ aB
 .
 ReportStackTrace2
 (
+)
 )
 )
 )
@@ -13778,6 +13799,8 @@ StringProperty
 "
 alloc
 "
+MakeStringSpan
+(
 isc
 .
 ToIdString
@@ -13786,6 +13809,7 @@ b
 .
 AllocStackTrace
 (
+)
 )
 )
 )
@@ -13891,11 +13915,14 @@ writer
 .
 StartArrayProperty
 (
+MakeStringSpan
+(
 isc
 .
 ToIdString
 (
 st
+)
 )
 writer
 .
@@ -13941,11 +13968,14 @@ writer
 .
 StringElement
 (
+MakeStringSpan
+(
 isc
 .
 ToIdString
 (
 pc
+)
 )
 )
 ;
@@ -14091,13 +14121,19 @@ writer
 .
 StringProperty
 (
+MakeStringSpan
+(
 isc
 .
 ToIdString
 (
 pc
 )
+)
+MakeStringSpan
+(
 locBuf
+)
 )
 ;
 }

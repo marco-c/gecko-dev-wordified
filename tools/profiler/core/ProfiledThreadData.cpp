@@ -1158,8 +1158,11 @@ StringProperty
 "
 processType
 "
+MakeStringSpan
+(
 XRE_GetProcessTypeString
 (
+)
 )
 )
 ;
@@ -1170,7 +1173,10 @@ StringProperty
 "
 name
 "
+MakeStringSpan
+(
 aName
+)
 )
 ;
 /
@@ -1231,10 +1237,6 @@ StringProperty
 processName
 "
 aProcessName
-.
-Data
-(
-)
 )
 ;
 }
@@ -1258,10 +1260,6 @@ eTLD
 1
 "
 aETLDplus1
-.
-Data
-(
-)
 )
 ;
 }
