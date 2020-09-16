@@ -2128,6 +2128,7 @@ SAVEPOINT
 sp
 ;
 "
+_ns
 const
 uint32_t
 kFileCopyBufferSize
@@ -6334,8 +6335,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TABLE
@@ -6358,7 +6357,7 @@ NULL
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6381,8 +6380,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -6427,7 +6424,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6450,8 +6447,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -6507,7 +6502,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6530,8 +6525,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -6574,7 +6567,7 @@ NULL
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6597,8 +6590,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -6641,7 +6632,7 @@ id
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6778,8 +6769,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TABLE
@@ -6836,7 +6825,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6863,8 +6852,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -6900,7 +6887,7 @@ TEXT
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -6927,8 +6914,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -7000,7 +6985,7 @@ id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7027,8 +7012,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -7092,7 +7075,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7119,8 +7102,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -7201,7 +7182,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7224,8 +7205,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -7250,7 +7229,7 @@ NOT
 NULL
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7277,8 +7256,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -7358,7 +7335,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7381,8 +7358,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -7407,7 +7382,7 @@ NOT
 NULL
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7542,8 +7517,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
@@ -7554,7 +7527,7 @@ dataVersion
 FROM
 database
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -7775,8 +7748,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TABLE
@@ -7807,7 +7778,7 @@ NULL
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -7853,8 +7824,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -7876,7 +7845,7 @@ version
 dataVersion
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -8239,8 +8208,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -8267,7 +8234,7 @@ data
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8291,8 +8258,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -8310,7 +8275,7 @@ FROM
 object_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8363,8 +8328,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -8423,7 +8386,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8447,8 +8410,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -8466,7 +8427,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8550,8 +8511,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -8575,7 +8534,7 @@ data
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8599,8 +8558,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -8617,7 +8574,7 @@ FROM
 ai_object_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8670,8 +8627,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -8726,7 +8681,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8749,8 +8704,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 INSERT
@@ -8768,7 +8721,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8855,8 +8808,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -8880,7 +8831,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8904,8 +8855,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -8923,7 +8872,7 @@ FROM
 index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -8976,8 +8925,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -9054,7 +9001,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9078,8 +9025,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 OR
@@ -9099,7 +9044,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9152,8 +9097,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -9168,7 +9111,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9225,8 +9168,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -9250,7 +9191,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9274,8 +9215,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -9293,7 +9232,7 @@ FROM
 unique_index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9346,8 +9285,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -9431,7 +9368,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9455,8 +9392,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -9474,7 +9409,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9528,8 +9463,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 INDEX
@@ -9543,7 +9476,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9600,8 +9533,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -9622,7 +9553,7 @@ ai_object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9646,8 +9577,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -9664,7 +9593,7 @@ FROM
 ai_index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9717,8 +9646,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -9790,7 +9717,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9814,8 +9741,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 OR
@@ -9834,7 +9759,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9888,8 +9813,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 INDEX
@@ -9903,7 +9826,7 @@ ai_object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -9960,8 +9883,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -9982,7 +9903,7 @@ ai_object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10006,8 +9927,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -10024,7 +9943,7 @@ FROM
 ai_unique_index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10077,8 +9996,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -10157,7 +10074,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10181,8 +10098,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -10199,7 +10114,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10253,8 +10168,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 INDEX
@@ -10268,7 +10181,7 @@ ai_object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10341,8 +10254,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -10366,7 +10277,7 @@ auto_increment
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10390,8 +10301,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -10409,7 +10318,7 @@ FROM
 object_store
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10463,8 +10372,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TABLE
@@ -10505,7 +10412,7 @@ name
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10529,8 +10436,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -10553,7 +10458,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10656,8 +10561,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -10687,7 +10590,7 @@ object_store_autoincrement
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10711,8 +10614,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -10734,7 +10635,7 @@ FROM
 object_store_index
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10787,8 +10688,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -10871,7 +10770,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -10895,8 +10794,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -10919,7 +10816,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -11756,8 +11653,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -11787,7 +11682,7 @@ multientry
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -11811,8 +11706,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -11834,7 +11727,7 @@ FROM
 object_store_index
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -11887,8 +11780,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -11960,7 +11851,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -11984,8 +11875,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -12007,7 +11896,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -12091,8 +11980,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -12116,7 +12003,7 @@ FROM
 ai_object_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -12139,8 +12026,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -12185,7 +12070,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -12208,8 +12093,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 INSERT
@@ -12286,7 +12169,7 @@ ai_index_data
 ai_object_data_id
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -12309,8 +12192,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 INSERT
@@ -12387,7 +12268,7 @@ ai_unique_index_data
 ai_object_data_id
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -12410,8 +12291,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 UPDATE
@@ -12438,7 +12317,7 @@ WHERE
 auto_increment
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13000,8 +12879,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TEMPORARY
@@ -13031,7 +12908,7 @@ file_ids
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13055,8 +12932,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -13078,7 +12953,7 @@ FROM
 object_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13131,8 +13006,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -13196,7 +13069,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13220,8 +13093,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -13240,7 +13111,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13294,8 +13165,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TRIGGER
@@ -13339,7 +13208,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13362,8 +13231,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -13419,7 +13286,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13442,8 +13309,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -13486,7 +13351,7 @@ NULL
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13509,8 +13374,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -13535,7 +13398,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13558,8 +13421,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 INSERT
@@ -13584,7 +13445,7 @@ FROM
 index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13637,8 +13498,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -13717,7 +13576,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13741,8 +13600,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -13760,7 +13617,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13814,8 +13671,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 INDEX
@@ -13829,7 +13684,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13852,8 +13707,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -13878,7 +13731,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13901,8 +13754,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 INSERT
@@ -13927,7 +13778,7 @@ FROM
 unique_index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -13980,8 +13831,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -14067,7 +13916,7 @@ CASCADE
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -14091,8 +13940,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -14110,7 +13957,7 @@ FROM
 temp_upgrade
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -14164,8 +14011,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 INDEX
@@ -14179,7 +14024,7 @@ object_data_id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -16532,8 +16377,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 /
 /
 Drop
@@ -16568,7 +16411,7 @@ TRIGGER
 object_data_delete_trigger
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -16591,8 +16434,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -16621,7 +16462,7 @@ INDEX
 unique_index_data_object_data_id_index
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -16654,8 +16495,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -16725,7 +16564,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -16748,8 +16587,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -16797,7 +16634,7 @@ TEXT
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -16820,8 +16657,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -16895,7 +16730,7 @@ id
 )
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -16918,8 +16753,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -16995,7 +16828,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17018,8 +16851,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17108,7 +16939,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17131,8 +16962,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17220,7 +17049,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17243,8 +17072,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17319,7 +17146,7 @@ WITHOUT
 ROWID
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17342,8 +17169,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17472,7 +17297,7 @@ value
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17495,8 +17320,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -17596,7 +17419,7 @@ value
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17648,8 +17471,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17711,7 +17532,7 @@ object_data
 id
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17734,8 +17555,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17752,7 +17571,7 @@ TRIGGER
 unique_index_data_upgrade_insert_trigger
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17775,8 +17594,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17794,7 +17611,7 @@ TABLE
 unique_index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17817,8 +17634,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17837,7 +17652,7 @@ TO
 unique_index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17889,8 +17704,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17952,7 +17765,7 @@ object_data
 id
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -17975,8 +17788,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -17993,7 +17804,7 @@ TRIGGER
 index_data_upgrade_insert_trigger
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18016,8 +17827,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -18035,7 +17844,7 @@ TABLE
 index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18058,8 +17867,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -18078,7 +17885,7 @@ TO
 index_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18133,8 +17940,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -18216,7 +18021,7 @@ temp_index_data_values
 key
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18239,8 +18044,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -18258,7 +18061,7 @@ TABLE
 temp_index_data_values
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18281,8 +18084,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -18300,7 +18101,7 @@ TABLE
 object_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18323,8 +18124,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 /
 /
@@ -18343,7 +18142,7 @@ TO
 object_data
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18389,8 +18188,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -18405,7 +18202,7 @@ FROM
 object_store_index
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18459,8 +18256,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 ALTER
 TABLE
@@ -18472,7 +18267,7 @@ TO
 object_store_index
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18510,8 +18305,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -18526,7 +18319,7 @@ FROM
 object_store
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18580,8 +18373,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 ALTER
 TABLE
@@ -18593,7 +18384,7 @@ TO
 object_store
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18668,8 +18459,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -18690,7 +18479,7 @@ FROM
 database
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -18798,8 +18587,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 ALTER
 TABLE
@@ -18811,7 +18598,7 @@ TO
 database
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -18864,21 +18651,17 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 COUNT
 (
 *
 )
-"
-"
 FROM
 database
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -18948,8 +18731,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 TRIGGER
@@ -18988,7 +18769,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19011,8 +18792,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -19063,7 +18842,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19086,8 +18865,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -19127,7 +18904,7 @@ NULL
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19334,8 +19111,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 ALTER
 TABLE
@@ -19348,7 +19123,7 @@ locale
 TEXT
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19371,8 +19146,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 ALTER
@@ -19386,7 +19159,7 @@ is_auto_locale
 BOOLEAN
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19409,8 +19182,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 ALTER
@@ -19424,7 +19195,7 @@ value_locale
 BLOB
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19447,8 +19218,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 ALTER
@@ -19462,7 +19231,7 @@ value_locale
 BLOB
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19485,8 +19254,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -19511,7 +19278,7 @@ NOT
 NULL
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19534,8 +19301,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -19560,7 +19325,7 @@ NOT
 NULL
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -19722,8 +19487,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 count
@@ -19742,7 +19505,7 @@ IS
 NOT
 NULL
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -20027,8 +19790,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_data
@@ -20051,7 +19812,7 @@ NOT
 NULL
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -20080,8 +19841,6 @@ rv
 aConnection
 .
 ExecuteSimpleSQL
-(
-nsLiteralCString
 (
 "
 CREATE
@@ -20137,7 +19896,7 @@ file_ids
 END
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -21054,8 +20813,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_data
@@ -21077,7 +20834,7 @@ NOT
 NULL
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -21286,13 +21043,9 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 database
-"
-"
 SET
 origin
 =
@@ -21300,7 +21053,7 @@ origin
 origin
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -21854,8 +21607,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 UPDATE
 DATABASE
@@ -21880,7 +21631,7 @@ LIKE
 '
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -24530,8 +24281,6 @@ connection
 >
 CreateStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -24550,7 +24299,7 @@ name
 origin
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -25934,8 +25683,6 @@ connection
 >
 CreateStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 database
@@ -25954,7 +25701,7 @@ last_vacuum_size
 size
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 vacuumTimeStmt
@@ -57625,10 +57372,7 @@ rv
 =
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 SAVEPOINT_CLAUSE
-)
 )
 ;
 if
@@ -57716,13 +57460,11 @@ rv
 =
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 RELEASE
 "
+_ns
 SAVEPOINT_CLAUSE
-)
 )
 ;
 if
@@ -57832,14 +57574,12 @@ rv
 =
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 ROLLBACK
 TO
 "
+_ns
 SAVEPOINT_CLAUSE
-)
 &
 stmt
 )
@@ -62118,8 +61858,6 @@ connection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 file
@@ -62140,7 +61878,7 @@ id
 :
 id
 "
-)
+_ns
 &
 mUpdateStatement
 )
@@ -62320,8 +62058,6 @@ connection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 id
@@ -62337,7 +62073,7 @@ id
 :
 id
 "
-)
+_ns
 &
 mSelectStatement
 )
@@ -62499,8 +62235,6 @@ connection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -62509,8 +62243,6 @@ file
 id
 refcount
 )
-"
-"
 VALUES
 (
 :
@@ -62519,7 +62251,7 @@ id
 delta
 )
 "
-)
+_ns
 &
 mInsertStatement
 )
@@ -99133,8 +98865,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 last_vacuum_time
@@ -99145,7 +98875,7 @@ FROM
 database
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -99420,8 +99150,6 @@ aConnection
 .
 ExecuteSimpleSQL
 (
-nsLiteralCString
-(
 "
 CREATE
 VIRTUAL
@@ -99443,7 +99171,7 @@ FROM
 __stats__
 ;
 "
-)
+_ns
 )
 ;
 if
@@ -99484,8 +99212,6 @@ rv
 aConnection
 .
 CreateStatement
-(
-nsLiteralCString
 (
 "
 SELECT
@@ -99544,7 +99270,7 @@ rowid
 1
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -99939,8 +99665,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 SUM
@@ -99956,13 +99680,11 @@ SUM
 (
 pgsize
 )
-"
-"
 FROM
 __temp_stats__
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -100334,8 +100056,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 database
@@ -100354,7 +100074,7 @@ last_vacuum_size
 size
 ;
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -103458,8 +103178,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -103481,7 +103199,7 @@ VALUES
 (
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -103547,8 +103265,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 OR
@@ -103572,7 +103288,7 @@ VALUES
 (
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -104101,20 +103817,16 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
 unique_index_data
-"
-"
 WHERE
 index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -104161,20 +103873,16 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
 index_data
-"
-"
 WHERE
 index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -104487,8 +104195,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 index_data_values
@@ -104503,7 +104209,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -104607,21 +104313,15 @@ _ns
 +
 kColumnNameKey
 +
-nsLiteralCString
-(
-"
-"
 "
 FROM
 object_data
-"
-"
 WHERE
 object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -104870,8 +104570,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -104883,7 +104581,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -105156,19 +104854,15 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_data
-"
-"
 SET
 index_data_values
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexDataValues
 +
@@ -105382,8 +105076,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 id
@@ -105398,7 +105090,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -112344,19 +112036,15 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
 origin
 version
-"
-"
 FROM
 database
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -112607,8 +112295,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 id
@@ -112620,7 +112306,7 @@ key_path
 FROM
 object_store
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -113175,8 +112861,6 @@ aConnection
 .
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 "
@@ -113196,7 +112880,7 @@ is_auto_locale
 FROM
 object_store_index
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -114615,11 +114299,11 @@ the
 same
 function
 .
-nsCString
+static
+constexpr
+auto
 metaQuery
 =
-nsLiteralCString
-(
 "
 UPDATE
 object_store_index
@@ -114636,7 +114320,7 @@ id
 :
 id
 "
-)
+_ns
 ;
 nsCOMPtr
 <
@@ -117575,13 +117259,9 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 database
-"
-"
 SET
 version
 =
@@ -117589,7 +117269,7 @@ version
 version
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -118076,17 +117756,13 @@ connection
 >
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
-"
-"
 FROM
 database
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -118195,17 +117871,13 @@ connection
 >
 CreateStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 version
-"
-"
 FROM
 database
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -121931,8 +121603,6 @@ connection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_store
@@ -121952,7 +121622,7 @@ id
 object_store_id
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -124389,8 +124059,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
@@ -124407,7 +124075,7 @@ name
 name
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -124536,8 +124204,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -124563,7 +124229,7 @@ key_path
 )
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -124879,18 +124545,14 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 id
-"
-"
 FROM
 object_store
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -125347,8 +125009,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -125362,7 +125022,7 @@ object_store_id
 object_store_id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -125478,8 +125138,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -125493,7 +125151,7 @@ object_store_id
 object_store_id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -125587,8 +125245,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -125602,7 +125258,7 @@ id
 object_store_id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -125867,8 +125523,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
@@ -125891,7 +125545,7 @@ id
 id
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -126028,8 +125682,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_store
@@ -126049,7 +125701,7 @@ id
 id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -126454,8 +126106,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_data
@@ -126482,7 +126132,7 @@ object_store_id
 object_store_id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -126855,8 +126505,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
@@ -126878,7 +126526,7 @@ name
 name
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -127019,8 +126667,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 INSERT
 INTO
@@ -127063,7 +126709,7 @@ locale
 is_auto_locale
 )
 "
-)
+_ns
 [
 this
 ]
@@ -128620,8 +128266,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_data
@@ -128638,7 +128282,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -129013,8 +128657,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 id
@@ -129031,7 +128673,7 @@ object_store_id
 object_store_id
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -129285,8 +128927,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 /
 *
@@ -129316,7 +128956,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -129341,8 +128981,6 @@ aConnection
 -
 >
 GetCachedStatement
-(
-nsLiteralCString
 (
 "
 /
@@ -129399,7 +129037,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -129415,8 +129053,6 @@ _ns
 +
 kStmtParamNameObjectStoreId
 +
-nsLiteralCString
-(
 "
 ORDER
 BY
@@ -129426,7 +129062,7 @@ object_data_key
 ASC
 ;
 "
-)
+_ns
 &
 selectStmt
 )
@@ -129446,8 +129082,6 @@ aConnection
 -
 >
 GetCachedStatement
-(
-nsLiteralCString
 (
 "
 /
@@ -129478,7 +129112,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -129513,8 +129147,6 @@ aConnection
 -
 >
 GetCachedStatement
-(
-nsLiteralCString
 (
 "
 /
@@ -129571,7 +129203,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -130097,8 +129729,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -130110,7 +129740,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -130142,8 +129772,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -130155,7 +129783,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -130394,8 +130022,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -130409,7 +130035,7 @@ id
 index_id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -130643,8 +130269,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 name
@@ -130676,7 +130300,7 @@ id
 id
 ;
 "
-)
+_ns
 &
 stmt
 )
@@ -130832,8 +130456,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 UPDATE
 object_store_index
@@ -130853,7 +130475,7 @@ id
 id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -132166,8 +131788,6 @@ aConnection
 >
 GetCachedStatement
 (
-nsLiteralCString
-(
 "
 SELECT
 index_data_values
@@ -132182,7 +131802,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -133197,8 +132817,6 @@ _ns
 +
 optReplaceDirective
 +
-nsLiteralCString
-(
 "
 INTO
 object_data
@@ -133216,7 +132834,7 @@ VALUES
 (
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -135376,11 +134994,10 @@ mLimit
 )
 ;
 }
+const
 nsCString
 query
 =
-nsLiteralCString
-(
 "
 SELECT
 file_ids
@@ -135396,7 +135013,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -136312,11 +135929,10 @@ mLimit
 )
 ;
 }
+const
 nsCString
 query
 =
-nsLiteralCString
-(
 "
 SELECT
 key
@@ -136331,7 +135947,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -136981,8 +136597,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -136994,7 +136608,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -137359,8 +136973,6 @@ aConnection
 >
 ExecuteCachedStatement
 (
-nsLiteralCString
-(
 "
 DELETE
 FROM
@@ -137374,7 +136986,7 @@ object_store_id
 object_store_id
 ;
 "
-)
+_ns
 [
 this
 ]
@@ -137510,11 +137122,10 @@ optionalKeyRange
 kColumnNameKey
 )
 ;
+const
 nsCString
 query
 =
-nsLiteralCString
-(
 "
 SELECT
 count
@@ -137532,7 +137143,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameObjectStoreId
 +
@@ -138390,11 +138001,10 @@ mLimit
 )
 ;
 }
+const
 nsCString
 query
 =
-nsLiteralCString
-(
 "
 SELECT
 file_ids
@@ -138408,12 +138018,10 @@ object_data
 INNER
 JOIN
 "
-)
+_ns
 +
 indexTable
 +
-nsLiteralCString
-(
 "
 AS
 index_table
@@ -138448,7 +138056,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameIndexId
 +
@@ -139257,11 +138865,10 @@ mLimit
 )
 ;
 }
+const
 nsCString
 query
 =
-nsLiteralCString
-(
 "
 SELECT
 object_data_key
@@ -139269,7 +138876,7 @@ object_data_key
 "
 FROM
 "
-)
+_ns
 +
 indexTable
 +
@@ -139765,11 +139372,10 @@ optionalKeyRange
 kColumnNameValue
 )
 ;
+const
 nsCString
 query
 =
-nsLiteralCString
-(
 "
 SELECT
 count
@@ -139780,7 +139386,7 @@ count
 "
 FROM
 "
-)
+_ns
 +
 indexTable
 +
@@ -141937,8 +141543,6 @@ continuePrimaryKeyQuery
 =
 aQueryStart
 +
-nsLiteralCString
-(
 "
 AND
 (
@@ -141946,7 +141550,7 @@ AND
 "
 (
 "
-)
+_ns
 +
 GetSortKeyClause
 (
@@ -142386,6 +141990,7 @@ isSome
 (
 )
 ;
+const
 nsCString
 queryStart
 =
@@ -142396,8 +142001,6 @@ _ns
 +
 kColumnNameKey
 +
-nsLiteralCString
-(
 "
 file_ids
 data
@@ -142412,7 +142015,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameId
 ;
@@ -142689,6 +142292,7 @@ isSome
 (
 )
 ;
+const
 nsCString
 queryStart
 =
@@ -142699,8 +142303,6 @@ _ns
 +
 kColumnNameKey
 +
-nsLiteralCString
-(
 "
 FROM
 object_data
@@ -142711,7 +142313,7 @@ object_store_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameId
 ;
@@ -143112,13 +142714,12 @@ columnPairSelectionList
 "
 _ns
 ;
+const
 nsAutoCString
 queryStart
 =
 sortColumnAlias
 +
-nsLiteralCString
-(
 "
 index_table
 .
@@ -143137,12 +142738,10 @@ data
 "
 FROM
 "
-)
+_ns
 +
 indexTable
 +
-nsLiteralCString
-(
 "
 AS
 index_table
@@ -143183,7 +142782,7 @@ index_id
 =
 :
 "
-)
+_ns
 +
 kStmtParamNameId
 ;
