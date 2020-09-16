@@ -402,7 +402,7 @@ messages
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -653,7 +653,7 @@ expected
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

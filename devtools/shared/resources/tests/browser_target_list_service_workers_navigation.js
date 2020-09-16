@@ -690,7 +690,7 @@ related
 requests
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1199,7 +1199,7 @@ related
 requests
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1793,7 +1793,7 @@ related
 requests
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

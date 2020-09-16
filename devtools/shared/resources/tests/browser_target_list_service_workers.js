@@ -550,7 +550,7 @@ related
 requests
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

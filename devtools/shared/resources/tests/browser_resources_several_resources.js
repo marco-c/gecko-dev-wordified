@@ -803,7 +803,7 @@ anymore
 Cleanup
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

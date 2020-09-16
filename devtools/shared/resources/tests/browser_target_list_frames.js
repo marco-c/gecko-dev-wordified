@@ -812,7 +812,7 @@ getAllTargets
 /
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1150,7 +1150,7 @@ onAvailable
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

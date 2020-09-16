@@ -758,12 +758,11 @@ browserconsole
 this
 )
 ;
-await
 this
 .
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

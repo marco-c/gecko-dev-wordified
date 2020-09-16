@@ -1036,7 +1036,7 @@ onDestroyed
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1358,7 +1358,7 @@ target
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1586,7 +1586,7 @@ thrown
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

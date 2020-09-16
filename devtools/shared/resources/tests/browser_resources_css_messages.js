@@ -489,7 +489,7 @@ reset
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -850,7 +850,7 @@ reset
 ;
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

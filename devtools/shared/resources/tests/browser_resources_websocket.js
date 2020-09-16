@@ -684,7 +684,7 @@ correct
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

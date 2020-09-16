@@ -267,7 +267,7 @@ cachedResources1
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -556,7 +556,7 @@ availableResources
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -777,7 +777,7 @@ cleared
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1101,7 +1101,7 @@ availableResources
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
@@ -1479,7 +1479,7 @@ allMessages
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

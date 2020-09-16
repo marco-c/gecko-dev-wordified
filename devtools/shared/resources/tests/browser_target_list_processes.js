@@ -254,7 +254,7 @@ mainProcess
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

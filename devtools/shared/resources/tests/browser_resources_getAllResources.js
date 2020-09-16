@@ -440,7 +440,7 @@ CONSOLE_MESSAGE
 await
 targetList
 .
-stopListening
+destroy
 (
 )
 ;

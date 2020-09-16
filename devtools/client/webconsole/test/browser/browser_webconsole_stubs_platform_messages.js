@@ -600,7 +600,7 @@ resourceWatcher
 .
 targetList
 .
-stopListening
+destroy
 (
 )
 ;
