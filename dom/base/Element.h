@@ -3311,6 +3311,8 @@ ErrorResult
 aError
 )
 ;
+public
+:
 MOZ_CAN_RUN_SCRIPT
 nsIScrollableFrame
 *
