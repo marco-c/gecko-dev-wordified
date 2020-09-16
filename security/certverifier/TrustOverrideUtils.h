@@ -123,14 +123,14 @@ TrustOverrides_h
 #
 include
 "
-nsNSSCertificate
+X509CertValidity
 .
 h
 "
 #
 include
 "
-nsNSSCertValidity
+nsNSSCertificate
 .
 h
 "

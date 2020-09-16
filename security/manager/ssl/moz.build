@@ -615,11 +615,6 @@ nsNSSCertTrust
 cpp
 '
 '
-nsNSSCertValidity
-.
-cpp
-'
-'
 nsNSSComponent
 .
 cpp
@@ -761,6 +756,11 @@ cpp
 '
 '
 VerifySSLServerCertParent
+.
+cpp
+'
+'
+X509CertValidity
 .
 cpp
 '
