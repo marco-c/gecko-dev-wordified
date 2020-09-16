@@ -153,7 +153,7 @@ this
 .
 browsingContext
 .
-top
+browserId
 )
 ;
 break
