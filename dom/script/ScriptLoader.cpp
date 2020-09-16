@@ -14398,6 +14398,7 @@ away
 .
 if
 (
+(
 aRequest
 -
 >
@@ -14410,6 +14411,16 @@ aRequest
 -
 >
 IsBlockingScript
+(
+)
+)
+&
+&
+!
+aRequest
+-
+>
+isInList
 (
 )
 )
