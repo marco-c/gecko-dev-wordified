@@ -2731,6 +2731,8 @@ nsIChannel
 aTrackingChannel
 uint32_t
 aRejectedReason
+bool
+aBlocked
 )
 {
 MOZ_ASSERT
@@ -2788,7 +2790,7 @@ ContentBlockingNotifier
 OnEvent
 (
 aTrackingChannel
-true
+aBlocked
 aRejectedReason
 trackingOrigin
 )
