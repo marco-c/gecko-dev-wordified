@@ -1623,12 +1623,6 @@ empty
 )
 ;
 }
-bool
-IsInTransaction
-(
-)
-const
-;
 void
 CancelCurrentTransaction
 (
