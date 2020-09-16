@@ -350,7 +350,7 @@ getWebExtensionController
 (
 )
 .
-installBuiltIn
+ensureBuiltIn
 (
 "
 resource
@@ -363,6 +363,12 @@ assets
 /
 messaging
 /
+"
+"
+messaging
+example
+.
+com
 "
 )
 .
