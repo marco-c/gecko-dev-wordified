@@ -173,7 +173,10 @@ Do
 not
 crash
 in
-JS_GetPrivate
+JS
+:
+:
+GetPrivate
 '
 ;
 var

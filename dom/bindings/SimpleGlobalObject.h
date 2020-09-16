@@ -369,7 +369,10 @@ the
 type
 provided
 ;
-JS_GetPrivate
+JS
+:
+:
+GetPrivate
 on
 the
 returned

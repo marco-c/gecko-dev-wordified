@@ -392,10 +392,10 @@ aProxy
 )
 )
 "
-js
+JS
 :
 :
-GetObjectPrivate
+GetPrivate
 (
 obj
 )

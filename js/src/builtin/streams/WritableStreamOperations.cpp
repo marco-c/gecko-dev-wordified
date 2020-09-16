@@ -172,7 +172,6 @@ h
 /
 /
 JS_ReportErrorASCII
-JS_SetPrivate
 #
 include
 "
@@ -876,9 +875,11 @@ return
 nullptr
 ;
 }
-JS_SetPrivate
-(
 stream
+-
+>
+setPrivate
+(
 nsISupportsObject_alreadyAddreffed
 )
 ;

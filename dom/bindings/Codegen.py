@@ -14384,7 +14384,7 @@ obj
 finalize
 =
 "
-js
+JS
 :
 :
 SetReservedSlot
@@ -25889,7 +25889,7 @@ protoCache
 )
 {
                   
-js
+JS
 :
 :
 SetReservedSlot
@@ -26759,10 +26759,10 @@ if
 (
 !
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 global
 )
@@ -26878,10 +26878,10 @@ DOMIfaceAndProtoJSClass
 :
 FromJSClass
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 namedPropertiesObject
 )
@@ -27671,10 +27671,10 @@ char
 *
 name
 =
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 aObj
 )
@@ -29440,7 +29440,7 @@ unforgeableHolder
 aCx
           
 &
-js
+JS
 :
 :
 GetReservedSlot
@@ -29991,10 +29991,10 @@ aCx
 )
 !
 =
-js
+JS
 :
 :
-GetObjectCompartment
+GetCompartment
 (
 proto
 )
@@ -32447,7 +32447,7 @@ Value
 oldValue
 (
 aCx
-js
+JS
 :
 :
 GetReservedSlot
@@ -32523,7 +32523,7 @@ args
 )
 {
                   
-js
+JS
 :
 :
 SetReservedSlot
@@ -32692,7 +32692,7 @@ noopRetval
 saveMember
 }
             
-js
+JS
 :
 :
 SetReservedSlot
@@ -66088,7 +66088,7 @@ false
                 
 }
                 
-js
+JS
 :
 :
 SetReservedSlot
@@ -76075,10 +76075,10 @@ MOZ_ASSERT
 (
 JSCLASS_RESERVED_SLOTS
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 slotStorage
 )
@@ -76102,7 +76102,7 @@ JS
 Value
 cachedVal
 =
-js
+JS
 :
 :
 GetReservedSlot
@@ -106500,10 +106500,10 @@ proxy
                                 
 JSCLASS_RESERVED_SLOTS
 (
-js
+JS
 :
 :
-GetObjectClass
+GetClass
 (
 proxy
 )
@@ -121335,6 +121335,53 @@ js
 experimental
 /
 JitInfo
+.
+h
+"
+]
+=
+True
+        
+#
+JS
+:
+:
+GetClass
+JS
+:
+:
+GetCompartment
+JS
+:
+:
+GetReservedSlot
+and
+        
+#
+JS
+:
+:
+SetReservedSlot
+are
+also
+used
+too
+many
+places
+to
+restate
+        
+#
+dependency
+logic
+.
+        
+bindingHeaders
+[
+"
+js
+/
+Object
 .
 h
 "

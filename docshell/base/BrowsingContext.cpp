@@ -9937,10 +9937,10 @@ GetBrowsingContext
 (
 )
 "
-js
+JS
 :
 :
-GetObjectPrivate
+GetPrivate
 (
 obj
 )
