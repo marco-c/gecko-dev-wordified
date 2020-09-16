@@ -265,6 +265,14 @@ AsRenderMacIOSurfaceTextureHostOGL
 )
 override
 ;
+virtual
+RenderDXGITextureHostOGL
+*
+AsRenderDXGITextureHostOGL
+(
+)
+override
+;
 private
 :
 ~

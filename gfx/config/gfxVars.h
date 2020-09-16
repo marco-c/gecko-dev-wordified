@@ -382,6 +382,13 @@ false
 \
 _
 (
+UseWebRenderDCompVideoOverlayWin
+bool
+false
+)
+\
+_
+(
 UseWebRenderTripleBufferingWin
 bool
 false
