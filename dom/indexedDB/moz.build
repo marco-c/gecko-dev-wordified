@@ -359,6 +359,11 @@ ActorsParentCommon
 cpp
 '
 '
+DBSchema
+.
+cpp
+'
+'
 FileInfo
 .
 cpp
@@ -489,11 +494,6 @@ file
 is
 huge
 .
-'
-DBSchema
-.
-cpp
-'
 '
 Key
 .
