@@ -3125,7 +3125,6 @@ arguments
 .
 *
 /
-async
 unwatchTargets
 (
 types
