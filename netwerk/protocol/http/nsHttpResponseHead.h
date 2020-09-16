@@ -1519,6 +1519,12 @@ Control
 is
 set
 .
+MOZ_ASSERT_IF
+(
+mCacheControlNoCache
+mHasCacheControl
+)
+;
 return
 mHasCacheControl
 ?

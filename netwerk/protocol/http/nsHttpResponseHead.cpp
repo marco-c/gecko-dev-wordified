@@ -622,6 +622,12 @@ other
 .
 mContentCharset
 ;
+mHasCacheControl
+=
+other
+.
+mHasCacheControl
+;
 mCacheControlPublic
 =
 other
