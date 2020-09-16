@@ -2684,11 +2684,13 @@ ParserAtom
 *
 lookupChar16Seq
 (
-InflatedChar16Sequence
+const
+SpecificParserAtomLookup
 <
 CharT
 >
-seq
+&
+lookup
 )
 const
 ;
