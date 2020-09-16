@@ -15206,7 +15206,6 @@ let
 scene_builder_channels
 scene_tx
 backend_scene_tx
-scene_rx
 )
 =
 SceneBuilderThreadChannels
@@ -15642,7 +15641,6 @@ result_tx
 scene_tx
 low_priority_scene_tx
 backend_scene_tx
-scene_rx
 device_pixel_ratio
 resource_cache
 backend_notifier
