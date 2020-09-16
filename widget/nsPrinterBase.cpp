@@ -885,7 +885,7 @@ QueryMarginsForPaper
 Promise
 &
 aPromise
-uint64_t
+short
 aPaperId
 )
 {

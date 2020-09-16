@@ -325,7 +325,7 @@ QueryMarginsForPaper
 (
 Promise
 &
-uint64_t
+short
 aPaperId
 )
 ;
@@ -624,7 +624,7 @@ virtual
 MarginDouble
 GetMarginsForPaper
 (
-uint64_t
+short
 aPaperId
 )
 const

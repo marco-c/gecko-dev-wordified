@@ -249,7 +249,7 @@ MarginDouble
 >
 &
 aUnwriteableMargin
-uint64_t
+short
 aPaperId
 =
 0
@@ -323,7 +323,7 @@ Windows
 right
 now
 .
-uint64_t
+short
 mPaperId
 {
 0
