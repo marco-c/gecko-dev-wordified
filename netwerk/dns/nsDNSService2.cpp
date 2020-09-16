@@ -1992,10 +1992,10 @@ kIPv6CStrBufSize
 ;
 if
 (
-NetAddrToString
-(
-&
 addr
+.
+ToStringBuffer
+(
 buf
 sizeof
 (
