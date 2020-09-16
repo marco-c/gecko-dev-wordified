@@ -784,7 +784,7 @@ NS_ERROR_FAILURE
 selection
 -
 >
-CollapseInLimiter
+Collapse
 (
 EditorRawDOMPoint
 (
@@ -806,7 +806,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed

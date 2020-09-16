@@ -762,7 +762,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 pointToInsert
 error
@@ -794,7 +794,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed

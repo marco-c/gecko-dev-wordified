@@ -748,7 +748,7 @@ newLeftContent
 selection
 -
 >
-CollapseInLimiter
+Collapse
 (
 atEndOfLeftNode
 error
@@ -766,7 +766,7 @@ Failed
 Selection
 :
 :
-CollapseInLimiter
+Collapse
 (
 )
 failed

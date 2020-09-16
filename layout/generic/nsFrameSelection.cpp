@@ -5117,7 +5117,7 @@ EndOffset
 sel
 -
 >
-CollapseInLimiter
+Collapse
 (
 node
 offset
@@ -5779,7 +5779,7 @@ IsBrFrame
 sel
 -
 >
-CollapseInLimiter
+Collapse
 (
 sel
 -
@@ -8949,7 +8949,7 @@ index
 ]
 -
 >
-CollapseInLimiter
+Collapse
 (
 aNewFocus
 aContentOffset
@@ -15981,7 +15981,7 @@ contents
 return
 aNormalSelection
 .
-CollapseInLimiter
+Collapse
 (
 aChildContent
 0

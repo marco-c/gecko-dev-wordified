@@ -23470,7 +23470,7 @@ SelectionRefPtr
 )
 -
 >
-CollapseInLimiter
+Collapse
 (
 newCaretPosition
 .
