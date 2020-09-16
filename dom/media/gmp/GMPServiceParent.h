@@ -373,17 +373,6 @@ UpdateContentProcessGMPCapabilities
 (
 )
 ;
-nsISerialEventTarget
-*
-Thread
-(
-)
-const
-{
-return
-mWorkerThread
-;
-}
 private
 :
 friend
@@ -1096,7 +1085,7 @@ nsCOMPtr
 <
 nsISerialEventTarget
 >
-mWorkerThread
+mMainThread
 ;
 }
 ;
