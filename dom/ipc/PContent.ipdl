@@ -10012,6 +10012,15 @@ aContext
 )
 ;
 async
+HistoryReload
+(
+MaybeDiscardedBrowsingContext
+aContext
+uint32_t
+aReloadFlags
+)
+;
+async
 NotifyOnHistoryReload
 (
 MaybeDiscardedBrowsingContext
