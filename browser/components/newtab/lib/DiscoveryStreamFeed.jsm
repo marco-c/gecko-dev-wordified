@@ -11503,13 +11503,15 @@ new_tab_learn_more
 icon
 :
 "
-resource
+chrome
 :
 /
 /
 activity
 -
 stream
+/
+content
 /
 data
 /
