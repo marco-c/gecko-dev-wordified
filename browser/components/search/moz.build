@@ -99,6 +99,11 @@ SearchTelemetry
 .
 jsm
 '
+'
+SearchUIUtils
+.
+jsm
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
