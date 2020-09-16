@@ -12093,10 +12093,10 @@ NS_ERROR_UNEXPECTED
 }
 if
 (
+addr
+.
 IsIPAddrLocal
 (
-&
-addr
 )
 &
 &
@@ -12166,10 +12166,10 @@ buf
 128
 ]
 ;
-NetAddrToString
-(
-&
 addr
+.
+ToStringBuffer
+(
 buf
 sizeof
 (

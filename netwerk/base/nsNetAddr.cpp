@@ -230,10 +230,10 @@ SetLength
 kIPv4CStrBufSize
 )
 ;
-NetAddrToString
-(
-&
 mAddr
+.
+ToStringBuffer
+(
 aAddress
 .
 BeginWriting
@@ -268,10 +268,10 @@ SetLength
 kIPv6CStrBufSize
 )
 ;
-NetAddrToString
-(
-&
 mAddr
+.
+ToStringBuffer
+(
 aAddress
 .
 BeginWriting

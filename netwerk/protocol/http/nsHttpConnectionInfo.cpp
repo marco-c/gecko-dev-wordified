@@ -4112,10 +4112,10 @@ prAddr
 )
 ;
 return
+netAddr
+.
 IsIPAddrLocal
 (
-&
-netAddr
 )
 ;
 }
