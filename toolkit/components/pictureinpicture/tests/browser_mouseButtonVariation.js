@@ -295,7 +295,7 @@ a
 hard
 -
 coded
-2
+15
 pixels
 along
 the
@@ -315,7 +315,7 @@ toggleClientRect
 .
 left
 +
-2
+15
 ;
 let
 toggleTop
@@ -324,7 +324,7 @@ toggleClientRect
 .
 top
 +
-2
+15
 ;
 info
 (
