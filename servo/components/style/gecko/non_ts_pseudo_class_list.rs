@@ -550,6 +550,17 @@ _
 -
 moz
 -
+suppressed
+"
+MozSuppressed
+IN_SUPPRESSED_STATE
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
+)
+(
+"
+-
+moz
+-
 has
 -
 dir

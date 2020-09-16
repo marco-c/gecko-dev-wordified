@@ -3340,9 +3340,11 @@ brokenChanged
 =
 aStates
 .
-HasState
+HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_BROKEN
+|
+NS_EVENT_STATE_SUPPRESSED
 )
 ;
 const
@@ -3351,7 +3353,7 @@ loadingChanged
 =
 aStates
 .
-HasState
+HasAtLeastOneOfStates
 (
 NS_EVENT_STATE_LOADING
 )
