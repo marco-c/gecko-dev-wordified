@@ -472,7 +472,11 @@ must_use
 ret
 =
 "
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 "
 +
 ret
@@ -889,7 +893,11 @@ must_use
 ret
 =
 "
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 "
 +
 ret
