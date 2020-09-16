@@ -812,6 +812,13 @@ support
 .
 baseURL
 "
+"
+browser
+.
+privatebrowsing
+.
+vpnpromourl
+"
 ]
 RPMIsWindowPrivate
 :
