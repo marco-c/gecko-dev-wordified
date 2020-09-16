@@ -4468,12 +4468,10 @@ error
 (
 Could
 not
-install
-default
-add
--
-on
-.
+show
+available
+studies
+ex
 )
 ;
 }
