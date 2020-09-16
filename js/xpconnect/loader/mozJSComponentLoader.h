@@ -557,11 +557,6 @@ mozJSComponentLoader
 >
 sSelf
 ;
-nsresult
-ReallyInit
-(
-)
-;
 void
 UnloadModules
 (
