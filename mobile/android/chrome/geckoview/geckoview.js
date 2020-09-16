@@ -3114,10 +3114,6 @@ DOMTitleChanged
 :
 {
 }
-DOMWindowClose
-:
-{
-}
 "
 MozDOMFullscreen
 :
