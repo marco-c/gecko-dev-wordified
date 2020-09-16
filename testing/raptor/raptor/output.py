@@ -5973,8 +5973,16 @@ type
 tags
 "
 :
+test
+.
+get
+(
+"
+tags
+"
 [
 ]
+)
                 
 "
 extraOptions
@@ -14105,6 +14113,20 @@ extraOptions
 "
 :
 extra_options
+                    
+"
+tags
+"
+:
+test
+.
+get
+(
+"
+tags
+"
+extra_options
+)
                     
 "
 lowerIsBetter
