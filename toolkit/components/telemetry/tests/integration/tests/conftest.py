@@ -545,18 +545,6 @@ server
 server_url
         
 "
-telemetry
-.
-fog
-.
-test
-.
-localhost_port
-"
-:
-1337
-        
-"
 toolkit
 .
 telemetry
