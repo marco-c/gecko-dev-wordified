@@ -189,6 +189,15 @@ initializer_list
 #
 include
 "
+builtin
+/
+ModuleObject
+.
+h
+"
+#
+include
+"
 jit
 /
 AtomicOp
