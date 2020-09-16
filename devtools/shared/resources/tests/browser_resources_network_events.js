@@ -1030,7 +1030,6 @@ onAvailable
 =
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -1040,6 +1039,8 @@ resource
 {
 is
 (
+resource
+.
 resourceType
 ResourceWatcher
 .
@@ -1103,7 +1104,6 @@ onUpdated
 =
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -1113,6 +1113,8 @@ resource
 {
 is
 (
+resource
+.
 resourceType
 ResourceWatcher
 .

@@ -8023,7 +8023,6 @@ onResourceAvailable
 function
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -8031,6 +8030,8 @@ resource
 {
 if
 (
+resource
+.
 resourceType
 =
 =

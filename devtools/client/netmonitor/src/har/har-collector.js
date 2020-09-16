@@ -1091,7 +1091,6 @@ onResourceAvailable
 function
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -1267,7 +1266,6 @@ onResourceUpdated
 function
 (
 {
-resourceType
 targetFront
 resource
 }

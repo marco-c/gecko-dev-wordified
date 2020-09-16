@@ -575,7 +575,6 @@ EXAMPLE_COM_URI
 is
 (
 resource
-?
 .
 resourceType
 resourceWatcher
