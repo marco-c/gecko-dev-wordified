@@ -5178,6 +5178,10 @@ for
 the
 arguments
 analysis
+or
+when
+testing
+ICs
 .
 if
 (
@@ -5187,6 +5191,11 @@ info_
 isAnalysis
 (
 )
+|
+|
+JitOptions
+.
+forceInlineCaches
 )
 {
 return
