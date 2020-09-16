@@ -371,6 +371,8 @@ true
 )
 ;
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "

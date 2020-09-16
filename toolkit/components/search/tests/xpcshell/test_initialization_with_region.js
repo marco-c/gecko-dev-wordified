@@ -321,6 +321,8 @@ useMockIdleService
 )
 ;
 await
+SearchTestUtils
+.
 useTestEngines
 (
 "
