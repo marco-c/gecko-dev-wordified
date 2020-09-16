@@ -175,13 +175,6 @@ defines
         
 self
 .
-non_global_defines
-=
-[
-]
-        
-self
-.
 substs
 =
 {
@@ -570,32 +563,6 @@ autoconf
 .
       
 -
-non_global_defines
-are
-a
-list
-of
-names
-appearing
-in
-defines
-above
-        
-that
-are
-not
-meant
-to
-be
-exported
-in
-ACDEFINES
-(
-see
-below
-)
-      
--
 substs
 is
 a
@@ -619,10 +586,6 @@ from
 all
 the
 defines
-not
-appearing
-in
-non_global_defines
 :
       
 -
@@ -830,9 +793,6 @@ defines
 =
 None
                  
-non_global_defines
-=
-None
 substs
 =
 None
@@ -881,15 +841,6 @@ or
 {
 }
 )
-        
-self
-.
-non_global_defines
-=
-non_global_defines
-or
-[
-]
         
 self
 .
@@ -1186,14 +1137,6 @@ in
 self
 .
 defines
-                          
-if
-name
-not
-in
-self
-.
-non_global_defines
 ]
         
 self
@@ -1492,14 +1435,6 @@ in
 self
 .
 defines
-                         
-if
-name
-not
-in
-self
-.
-non_global_defines
 )
         
 return
@@ -1539,9 +1474,6 @@ topobjdir
 config
 .
 defines
-config
-.
-non_global_defines
 config
 .
 substs
@@ -2418,10 +2350,6 @@ from
 all
 the
 defines
-not
-appearing
-in
-non_global_defines
 :
       
 -
@@ -2618,17 +2546,6 @@ config
 [
 '
 defines
-'
-]
-            
-if
-name
-not
-in
-config
-[
-'
-non_global_defines
 '
 ]
         
