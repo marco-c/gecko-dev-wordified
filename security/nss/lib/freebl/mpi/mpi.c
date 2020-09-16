@@ -16818,6 +16818,11 @@ DIGIT_BIT
 1
 ;
 return
+SIGN
+(
+mp
+)
++
 s_mp_outlen
 (
 bits

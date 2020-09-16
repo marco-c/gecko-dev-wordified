@@ -1782,7 +1782,7 @@ logComponent
 (
 PKIX_ERRORCLASS
 )
-NULL
+0
 ;
 cleanup
 :
@@ -3006,7 +3006,7 @@ logComponent
 (
 PKIX_ERRORCLASS
 )
-NULL
+0
 ;
 PKIX_INCREF
 (
