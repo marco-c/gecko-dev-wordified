@@ -702,6 +702,16 @@ bin_path
 )
 :
     
+#
+TODO
+:
+switch
+to
+llvmpipe
+for
+faster
+tests
+    
 "
 "
 "
@@ -808,6 +818,9 @@ bin_path
 out
 "
 "
+mesa
+"
+"
 src
 "
 "
@@ -818,10 +831,6 @@ targets
 "
 "
 osmesa
-"
-"
-.
-libs
 "
 )
         
@@ -845,6 +854,9 @@ bin_path
 out
 "
 "
+mesa
+"
+"
 src
 "
 "
@@ -854,10 +866,6 @@ mapi
 shared
 -
 glapi
-"
-"
-.
-libs
 "
 )
         
