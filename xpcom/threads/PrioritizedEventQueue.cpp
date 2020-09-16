@@ -1889,16 +1889,6 @@ MOZ_ASSERT
 event
 )
 ;
-mInputTaskManager
--
->
-SetInputHandlingStartTime
-(
-TimeStamp
-(
-)
-)
-;
 break
 ;
 case
