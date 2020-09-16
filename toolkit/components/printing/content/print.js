@@ -3592,6 +3592,8 @@ time
 printerInfo
 .
 _resolved
+=
+true
 ;
 return
 printerInfo
