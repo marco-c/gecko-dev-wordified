@@ -289,6 +289,12 @@ GetIterator_Fallback
 \
 _
 (
+OptimizeSpreadCall_Fallback
+)
+\
+\
+_
+(
 InstanceOf_Fallback
 )
 \
@@ -513,6 +519,11 @@ SetProp
 _
 (
 GetIterator
+)
+\
+_
+(
+OptimizeSpreadCall
 )
 \
 _
