@@ -84,6 +84,13 @@ jsm
 "
 )
 ;
+var
+{
+parseMatchPatterns
+}
+=
+ExtensionUtils
+;
 /
 /
 The
@@ -281,8 +288,7 @@ filter2
 .
 urls
 =
-new
-MatchPatternSet
+parseMatchPatterns
 (
 filter
 .
