@@ -18432,9 +18432,6 @@ aStaticCloneOf
 >
 GetDocShell
 (
-IgnoreErrors
-(
-)
 )
 ;
 NS_ENSURE_STATE
