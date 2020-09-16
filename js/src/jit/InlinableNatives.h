@@ -939,7 +939,7 @@ _
 (
 IntrinsicTypedArrayElementShift
 )
-struct
+class
 JSJitInfo
 ;
 namespace

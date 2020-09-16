@@ -220,6 +220,9 @@ mozilla
 :
 ipc
 ;
+class
+JSJitInfo
+;
 /
 /
 Forward
