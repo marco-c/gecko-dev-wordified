@@ -1698,6 +1698,7 @@ db
 :
 InitializeConnection
 (
+*
 conn
 )
 ;

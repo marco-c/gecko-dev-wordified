@@ -290,6 +290,7 @@ db
 :
 IncrementalVacuum
 (
+*
 this
 )
 )

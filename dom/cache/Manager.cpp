@@ -635,6 +635,7 @@ db
 :
 CreateOrMigrateSchema
 (
+*
 aConn
 )
 ;
@@ -823,6 +824,7 @@ db
 :
 FindOrphanedCacheIds
 (
+*
 aConn
 orphanedCacheIdList
 )
@@ -886,6 +888,7 @@ db
 :
 DeleteCacheId
 (
+*
 aConn
 orphanedCacheIdList
 [
@@ -986,6 +989,7 @@ db
 :
 GetKnownBodyIds
 (
+*
 aConn
 knownBodyIdList
 )
@@ -3563,6 +3567,7 @@ db
 :
 DeleteCacheId
 (
+*
 aConn
 mCacheId
 mDeletedBodyIdList
@@ -3938,6 +3943,7 @@ db
 :
 CacheMatch
 (
+*
 aConn
 mCacheId
 mArgs
@@ -4386,6 +4392,7 @@ db
 :
 CacheMatchAll
 (
+*
 aConn
 mCacheId
 mArgs
@@ -6014,6 +6021,7 @@ db
 :
 CachePut
 (
+*
 mConn
 mCacheId
 e
@@ -7375,6 +7383,7 @@ db
 :
 CacheDelete
 (
+*
 aConn
 mCacheId
 mArgs
@@ -7793,6 +7802,7 @@ db
 :
 CacheKeys
 (
+*
 aConn
 mCacheId
 mArgs
@@ -8237,6 +8247,7 @@ db
 :
 StorageMatch
 (
+*
 aConn
 mNamespace
 mArgs
@@ -8660,6 +8671,7 @@ db
 :
 StorageGetCacheId
 (
+*
 aConn
 mNamespace
 mArgs
@@ -8911,6 +8923,7 @@ db
 :
 StorageGetCacheId
 (
+*
 aConn
 mNamespace
 mArgs
@@ -8963,6 +8976,7 @@ db
 :
 CreateCacheId
 (
+*
 aConn
 &
 mCacheId
@@ -8990,6 +9004,7 @@ db
 :
 StoragePutCache
 (
+*
 aConn
 mNamespace
 mArgs
@@ -9294,6 +9309,7 @@ db
 :
 StorageGetCacheId
 (
+*
 aConn
 mNamespace
 mArgs
@@ -9364,6 +9380,7 @@ db
 :
 StorageForgetCache
 (
+*
 aConn
 mNamespace
 mArgs
@@ -9723,6 +9740,7 @@ db
 :
 StorageGetKeys
 (
+*
 aConn
 mNamespace
 mKeys
