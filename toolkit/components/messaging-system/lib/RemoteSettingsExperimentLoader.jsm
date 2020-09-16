@@ -321,9 +321,9 @@ COLLECTION_ID
 "
 nimbus
 -
-experiments
--
 desktop
+-
+experiments
 "
 ;
 const
