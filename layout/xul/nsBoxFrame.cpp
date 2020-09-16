@@ -2315,6 +2315,7 @@ nsBoxFrame
 HonorPrintBackgroundSettings
 (
 )
+const
 {
 return
 !

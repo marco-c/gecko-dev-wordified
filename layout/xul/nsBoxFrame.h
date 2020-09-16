@@ -869,6 +869,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+const
 override
 ;
 /
