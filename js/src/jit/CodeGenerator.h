@@ -414,6 +414,9 @@ class
 OutOfLineTypedArrayIndexToInt32
 ;
 class
+OutOfLineBoxNonStrictThis
+;
+class
 CodeGenerator
 final
 :
@@ -793,6 +796,14 @@ void
 visitOutOfLineStoreElementHole
 (
 OutOfLineStoreElementHole
+*
+ool
+)
+;
+void
+visitOutOfLineBoxNonStrictThis
+(
+OutOfLineBoxNonStrictThis
 *
 ool
 )
