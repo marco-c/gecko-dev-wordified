@@ -5536,14 +5536,14 @@ ScrollableLayerGuid
 ViewID
 aScrollId
 const
-ScrollUpdateInfo
+ScrollPositionUpdate
 &
 aUpdateInfo
 )
 ;
 Maybe
 <
-ScrollUpdateInfo
+ScrollPositionUpdate
 >
 GetPendingScrollInfoUpdate
 (
