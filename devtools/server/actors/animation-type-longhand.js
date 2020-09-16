@@ -251,14 +251,6 @@ box
 sizing
 "
 "
--
-moz
--
-button
--
-appearance
-"
-"
 caption
 -
 side
