@@ -192,6 +192,7 @@ dom
 namespace
 localstorage
 {
+MOZ_COLD
 void
 ReportInternalError
 (
