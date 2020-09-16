@@ -670,11 +670,15 @@ in
 DEFINES
 '
 '
+non_global_defines
+'
+'
 TOPSRCDIR
 '
 '
 TOPOBJDIR
 '
+                     
 '
 CONFIG_STATUS_DEPS
 '
@@ -714,6 +718,20 @@ DEFINES
 )
     
 }
+    
+sanitized_config
+[
+'
+non_global_defines
+'
+]
+=
+config
+[
+'
+non_global_defines
+'
+]
     
 sanitized_config
 [
@@ -1003,6 +1021,9 @@ defines
 "
                  
 "
+'
+non_global_defines
+'
 '
 substs
 '

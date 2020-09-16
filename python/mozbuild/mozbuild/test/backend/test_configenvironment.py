@@ -298,7 +298,25 @@ e
 '
 f
 "
+'
+extra
+'
+:
+'
+foobar
+'
 }
+                                
+non_global_defines
+=
+[
+'
+extra
+'
+'
+ignore
+'
+]
                                 
 substs
 =
@@ -351,6 +369,16 @@ qux
 '
 }
 )
+        
+#
+non_global_defines
+should
+be
+filtered
+out
+in
+ACDEFINES
+.
         
 #
 Original
