@@ -13439,7 +13439,7 @@ mozboot
 .
 util
 import
-get_state_dir
+get_mach_virtualenv_root
         
 from
 mozbuild
@@ -13458,36 +13458,15 @@ VirtualenvManager
 from
 six
 import
-PY3
-        
-state_dir
-=
-get_state_dir
-(
-)
+PY2
         
 virtualenv_path
 =
-os
-.
-path
-.
-join
+get_mach_virtualenv_root
 (
-state_dir
-'
-_virtualenvs
-'
-                                       
-'
-mach
-'
-if
-PY3
-else
-'
-mach_py2
-'
+py2
+=
+PY2
 )
         
 if
@@ -13648,7 +13627,8 @@ zstandard
 )
         
 if
-PY3
+not
+PY2
 :
             
 #
