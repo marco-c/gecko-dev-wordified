@@ -3752,6 +3752,17 @@ gyp_dir_attrs
 variables
 )
         
+str_vars
+[
+'
+python
+'
+]
+=
+sys
+.
+executable
+        
 self
 .
 _gyp_loader_future
