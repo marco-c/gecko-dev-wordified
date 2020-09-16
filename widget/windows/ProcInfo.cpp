@@ -708,14 +708,6 @@ memoryCounters
 .
 WorkingSetSize
 ;
-info
-.
-virtualMemorySize
-=
-memoryCounters
-.
-PagefileUsage
-;
 /
 /
 Computing
