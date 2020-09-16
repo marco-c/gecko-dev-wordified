@@ -137,8 +137,7 @@ under
 the
 License
 .
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
