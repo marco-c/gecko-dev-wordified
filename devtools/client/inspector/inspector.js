@@ -8022,9 +8022,15 @@ onResourceAvailable
 :
 function
 (
+resources
+)
 {
+for
+(
+const
 resource
-}
+of
+resources
 )
 {
 if
@@ -8137,6 +8143,7 @@ available
 resource
 )
 ;
+}
 }
 }
 }

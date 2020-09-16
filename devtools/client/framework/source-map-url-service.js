@@ -2622,11 +2622,7 @@ this
 _onResourceAvailable
 =
 async
-(
-{
-resource
-}
-)
+resources
 =
 >
 {
@@ -2641,6 +2637,14 @@ _sourcesLoading
 sourcesLoading
 )
 {
+for
+(
+const
+resource
+of
+resources
+)
+{
 this
 .
 _onNewStyleSheet
@@ -2648,6 +2652,7 @@ _onNewStyleSheet
 resource
 )
 ;
+}
 }
 }
 ;
