@@ -179,10 +179,10 @@ of
 /
 GuardObjectNotifier
 and
+the
+MOZ_
+*
 annotations
-MOZ_STACK_CLASS
-and
-MOZ_MUST_USE
 .
 template
 <
