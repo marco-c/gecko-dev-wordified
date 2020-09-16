@@ -1645,17 +1645,6 @@ asJSScript
 (
 )
 ;
-JitScript
-*
-targetJitScript
-=
-targetScript
--
->
-jitScript
-(
-)
-;
 /
 /
 We
@@ -1827,7 +1816,6 @@ raw
 )
 ICScript
 (
-targetJitScript
 InitialWarmUpCount
 allocSize
 depth
