@@ -14815,6 +14815,11 @@ return
 NS_ERROR_FAILURE
 ;
 }
+NS_ENSURE_STATE
+(
+mOwnerContent
+)
+;
 /
 /
 If
