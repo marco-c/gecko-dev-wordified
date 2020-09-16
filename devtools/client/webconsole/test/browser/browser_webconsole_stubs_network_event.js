@@ -557,7 +557,6 @@ addNetworkStub
 =
 (
 {
-targetFront
 resource
 }
 )
@@ -607,7 +606,6 @@ addNetworkUpdateStub
 =
 (
 {
-targetFront
 resource
 }
 )
