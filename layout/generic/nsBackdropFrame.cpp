@@ -411,11 +411,14 @@ NS_UNCONSTRAINEDSIZE
 if
 (
 aFlags
-&
-ComputeSizeFlags
+.
+contains
+(
+ComputeSizeFlag
 :
 :
 ShrinkWrap
+)
 )
 {
 result

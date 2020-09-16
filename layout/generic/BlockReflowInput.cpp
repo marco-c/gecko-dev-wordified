@@ -5320,7 +5320,7 @@ wm
 nsIFrame
 :
 :
-ComputeSizeFlags
+ComputeSizeFlag
 :
 :
 ShrinkWrap
