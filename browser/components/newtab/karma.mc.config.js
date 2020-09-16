@@ -643,7 +643,7 @@ lines
 80
 functions
 :
-90
+89
 branches
 :
 70
