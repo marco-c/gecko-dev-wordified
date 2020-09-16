@@ -1346,9 +1346,7 @@ e
 if
 (
 experimentData
-&
-&
-experimentData
+?
 .
 slug
 )
