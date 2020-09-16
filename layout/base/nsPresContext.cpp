@@ -10829,6 +10829,13 @@ GetMarginInTwips
 (
 )
 ;
+marginTwips
+.
+EnsureAtLeast
+(
+unwriteableTwips
+)
+;
 mDefaultPageMargin
 =
 nsPresContext
@@ -10837,8 +10844,6 @@ nsPresContext
 CSSTwipsToAppUnits
 (
 marginTwips
-+
-unwriteableTwips
 )
 ;
 }
