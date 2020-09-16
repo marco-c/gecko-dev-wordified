@@ -214,6 +214,16 @@ GetNavigator
 (
 )
 ;
+if
+(
+!
+navigator
+)
+{
+return
+nullptr
+;
+}
 return
 navigator
 -
