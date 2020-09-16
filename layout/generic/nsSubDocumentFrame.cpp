@@ -4473,11 +4473,7 @@ aMargin
 const
 LogicalSize
 &
-aBorder
-const
-LogicalSize
-&
-aPadding
+aBorderPadding
 ComputeSizeFlags
 aFlags
 )
@@ -4496,8 +4492,7 @@ GetIntrinsicRatio
 )
 aCBSize
 aMargin
-aBorder
-aPadding
+aBorderPadding
 aFlags
 )
 AspectRatioUsage
