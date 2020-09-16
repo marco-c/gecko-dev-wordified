@@ -32,6 +32,7 @@ This
 module
 is
 available
+only
 if
 Syn
 is
@@ -967,6 +968,7 @@ This
 trait
 is
 available
+only
 if
 Syn
 is
