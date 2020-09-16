@@ -1425,6 +1425,13 @@ about
 welcome
 "
 ]
+remoteTypes
+:
+[
+"
+privilegedabout
+"
+]
 /
 /
 See
