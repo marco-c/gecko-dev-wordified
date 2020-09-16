@@ -175,9 +175,6 @@ namespace
 jit
 {
 class
-MacroAssembler
-;
-class
 Linker
 {
 MacroAssembler

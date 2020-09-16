@@ -149,15 +149,6 @@ include
 "
 vm
 /
-HelperThreadState
-.
-h
-"
-#
-include
-"
-vm
-/
 JSScript
 .
 h

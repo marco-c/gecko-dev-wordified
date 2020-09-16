@@ -230,15 +230,6 @@ h
 #
 include
 "
-vm
-/
-HelperThreadState
-.
-h
-"
-#
-include
-"
 wasm
 /
 WasmBaselineCompile

@@ -160,6 +160,15 @@ include
 "
 jit
 /
+MacroAssembler
+.
+h
+"
+#
+include
+"
+jit
+/
 SharedICRegisters
 .
 h
@@ -172,9 +181,6 @@ jit
 {
 struct
 BytecodeInfo
-;
-class
-MacroAssembler
 ;
 /
 /

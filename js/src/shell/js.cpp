@@ -28971,7 +28971,11 @@ to
 avoid
 races
 .
-WaitForAllHelperThreads
+HelperThreadState
+(
+)
+.
+waitForAllThreads
 (
 )
 ;

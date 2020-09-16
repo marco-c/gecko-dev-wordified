@@ -199,7 +199,7 @@ include
 "
 vm
 /
-HelperThreadState
+HelperThreads
 .
 h
 "

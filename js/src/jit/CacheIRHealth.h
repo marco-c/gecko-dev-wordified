@@ -141,9 +141,6 @@ js
 namespace
 jit
 {
-class
-ICEntry
-;
 /
 /
 [

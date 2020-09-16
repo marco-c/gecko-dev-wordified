@@ -233,15 +233,6 @@ include
 "
 js
 /
-HashTable
-.
-h
-"
-#
-include
-"
-js
-/
 HeapAPI
 .
 h

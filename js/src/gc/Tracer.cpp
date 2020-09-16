@@ -965,11 +965,9 @@ trc
 )
 ;
 }
+JS_PUBLIC_API
 void
-js
-:
-:
-gc
+JS
 :
 :
 TraceIncomingCCWs

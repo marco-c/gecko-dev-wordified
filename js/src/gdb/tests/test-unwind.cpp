@@ -29,16 +29,6 @@ yet
 #
 include
 "
-jsfriendapi
-.
-h
-"
-/
-/
-JSFunctionSpecWithHelp
-#
-include
-"
 jit
 /
 JitOptions
