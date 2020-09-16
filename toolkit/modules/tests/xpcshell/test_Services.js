@@ -408,16 +408,6 @@ nsIThreadManager
 checkService
 (
 "
-uriFixup
-"
-Ci
-.
-nsIURIFixup
-)
-;
-checkService
-(
-"
 urlFormatter
 "
 Ci
