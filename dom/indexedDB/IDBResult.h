@@ -148,6 +148,19 @@ mValue
 ;
 }
 ;
+/
+/
+Not
+final
+to
+allow
+use
+with
+mozilla
+:
+:
+CompactPair
+.
 template
 <
 >
@@ -156,7 +169,6 @@ OkType
 <
 void
 >
-final
 {
 }
 ;
