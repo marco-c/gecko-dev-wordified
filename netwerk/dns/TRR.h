@@ -1009,6 +1009,16 @@ uint16_t
 length
 )
 ;
+void
+StoreIPHintAsDNSRecord
+(
+const
+struct
+SVCB
+&
+aSVCBRecord
+)
+;
 nsCOMPtr
 <
 nsIChannel
