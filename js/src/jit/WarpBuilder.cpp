@@ -3078,7 +3078,10 @@ environment
 See
 :
 |
-InitFromBailout
+BaselineStackBuilder
+:
+:
+buildBaselineFrame
 |
 current
 -

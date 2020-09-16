@@ -7710,7 +7710,10 @@ logic
 in
 /
 /
-InitFromBailout
+BaselineStackBuilder
+:
+:
+buildBaselineFrame
 .
 /
 /
