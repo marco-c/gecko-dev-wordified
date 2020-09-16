@@ -147,7 +147,7 @@ script_type
 =
 ScriptType
 .
-BROWSERTIME
+browsertime
 pytest
 .
 mark
@@ -219,7 +219,7 @@ script_type
 =
 ScriptType
 .
-XPCSHELL
+xpcshell
 def
 test_scriptinfo_failure
 (
