@@ -411,6 +411,13 @@ utsname
 h
 >
 #
+include
+<
+unistd
+.
+h
+>
+#
 elif
 defined
 (
