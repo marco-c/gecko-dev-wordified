@@ -239,7 +239,7 @@ list
 )
     
 def
-settings
+run_settings
 (
 self
 short
