@@ -387,6 +387,14 @@ mir
 )
 ;
 void
+lowerWasmBuiltinTruncateToInt32
+(
+MWasmBuiltinTruncateToInt32
+*
+ins
+)
+;
+void
 lowerTruncateDToInt32
 (
 MTruncateToInt32
