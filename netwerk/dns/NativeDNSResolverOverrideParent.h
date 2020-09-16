@@ -157,8 +157,9 @@ explicit
 NativeDNSResolverOverrideParent
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <
