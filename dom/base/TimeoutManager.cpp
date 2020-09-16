@@ -1830,12 +1830,17 @@ TimeDuration
 (
 )
 ;
-if
-(
+bool
+budgetThrottlingEnabled
+=
 BudgetThrottlingEnabled
 (
 isBackground
 )
+;
+if
+(
+budgetThrottlingEnabled
 &
 &
 mExecutionBudget
@@ -1892,7 +1897,7 @@ factor
 if
 (
 !
-mThrottleTimeouts
+budgetThrottlingEnabled
 &
 &
 isBackground
@@ -1907,7 +1912,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-dom_min_background_timeout_value_before_throttling
+dom_min_background_timeout_value_without_budget_throttling
 (
 )
 )
