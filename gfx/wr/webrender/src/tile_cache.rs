@@ -1697,6 +1697,7 @@ new
 ;
 add_clips
 (
+scroll_root
 prim_instance
 .
 clip_set
@@ -1707,6 +1708,7 @@ mut
 shared_clips
 clip_store
 interners
+spatial_tree
 )
 ;
 self
@@ -1851,6 +1853,11 @@ clear
 ;
 add_clips
 (
+pending_tile_cache
+.
+params
+.
+spatial_node_index
 prim_instance
 .
 clip_set
@@ -1859,6 +1866,7 @@ clip_chain_id
 prim_clips_buffer
 clip_store
 interners
+spatial_tree
 )
 ;
 pending_tile_cache
@@ -2194,6 +2202,9 @@ chain
 fn
 add_clips
 (
+scroll_root
+:
+SpatialNodeIndex
 clip_chain_id
 :
 ClipChainId
@@ -2213,6 +2224,10 @@ interners
 :
 &
 Interners
+spatial_tree
+:
+&
+SpatialTree
 )
 {
 let
@@ -2269,6 +2284,17 @@ clip_node_data
 .
 clip_node_kind
 {
+if
+spatial_tree
+.
+is_ancestor
+(
+clip_chain_node
+.
+spatial_node_index
+scroll_root
+)
+{
 prim_clips
 .
 push
@@ -2287,6 +2313,7 @@ spatial_node_index
 )
 )
 ;
+}
 }
 current_clip_chain_id
 =
