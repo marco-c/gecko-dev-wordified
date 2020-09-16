@@ -1438,13 +1438,14 @@ test_welcome_url
 {
 /
 /
-Disable
+Set
 about
 :
 welcome
 to
-load
-newtab
+use
+trailhead
+flow
 Services
 .
 prefs
