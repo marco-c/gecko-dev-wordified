@@ -333,6 +333,14 @@ BrowsingContext
 aBrowsingContext
 )
 ;
+void
+SetBrowsingContext
+(
+BrowsingContext
+*
+aBrowsingContext
+)
+;
 /
 /
 Create
