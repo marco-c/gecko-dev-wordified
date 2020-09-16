@@ -588,7 +588,6 @@ const
 resource
 :
 root1
-resourceType
 }
 =
 await
@@ -613,6 +612,8 @@ argument
 ;
 is
 (
+root1
+.
 resourceType
 ResourceWatcher
 .

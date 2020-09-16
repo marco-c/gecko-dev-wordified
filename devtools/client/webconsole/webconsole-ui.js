@@ -1942,7 +1942,6 @@ _onResourceAvailable
 _onResourceAvailable
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -1997,6 +1996,8 @@ wrapper
 |
 (
 (
+resource
+.
 resourceType
 =
 =
@@ -2006,6 +2007,8 @@ TYPES
 ERROR_MESSAGE
 |
 |
+resource
+.
 resourceType
 =
 =
@@ -2058,7 +2061,6 @@ resource
 _onResourceUpdated
 (
 {
-resourceType
 targetFront
 resource
 }
@@ -2066,6 +2068,8 @@ resource
 {
 if
 (
+resource
+.
 resourceType
 =
 =
