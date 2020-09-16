@@ -566,8 +566,7 @@ on
 if
 (
 bPointer
-=
-=
+>
 buffer
 .
 length
