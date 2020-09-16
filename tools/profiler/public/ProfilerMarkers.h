@@ -836,7 +836,7 @@ do
 \
 AUTO_PROFILER_STATS
 (
-add_marker_v2_with_Text
+PROFILER_MARKER_TEXT
 )
 ;
 \
