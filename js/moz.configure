@@ -1442,6 +1442,11 @@ enable
 simulator
 '
 target
+'
+-
+-
+help
+'
 )
 def
 simulator
@@ -1449,6 +1454,7 @@ simulator
 jit_enabled
 simulator_enabled
 target
+_
 )
 :
 if
