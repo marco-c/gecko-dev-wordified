@@ -561,7 +561,6 @@ aUserData
 ;
 if
 (
-!
 handler
 -
 >
@@ -574,6 +573,15 @@ value
 )
 )
 )
+{
+g_dbus_method_invocation_return_value
+(
+aInvocation
+nullptr
+)
+;
+}
+else
 {
 g_dbus_method_invocation_return_error
 (
