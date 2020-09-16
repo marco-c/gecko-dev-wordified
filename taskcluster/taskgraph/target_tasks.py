@@ -8235,13 +8235,13 @@ release
 '
         
 '
-esr68
+esr78
 '
 :
 '
 mozilla
 -
-esr68
+esr78
 '
     
 }
