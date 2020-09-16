@@ -14174,8 +14174,6 @@ NULL
 1
 2
 JOF_BYTE
-|
-JOF_IC
 )
 \
 /
