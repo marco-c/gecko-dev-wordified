@@ -461,6 +461,11 @@ successful
 *
 *
 /
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (
@@ -606,6 +611,11 @@ Lock
 (
 )
 ;
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (

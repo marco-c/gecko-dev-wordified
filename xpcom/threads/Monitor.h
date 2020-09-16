@@ -263,6 +263,11 @@ Lock
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 TryLock
 (
