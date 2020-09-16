@@ -1,5 +1,10 @@
+#
+filter
+dumbComments
+emptyLines
+substitution
 /
-*
+/
 This
 Source
 Code
@@ -13,7 +18,8 @@ of
 the
 Mozilla
 Public
-*
+/
+/
 License
 v
 .
@@ -32,7 +38,8 @@ not
 distributed
 with
 this
-*
+/
+/
 file
 You
 can
@@ -154,9 +161,6 @@ single
 /
 screen
 .
-#
-filter
-substitution
 #
 include
 mobile

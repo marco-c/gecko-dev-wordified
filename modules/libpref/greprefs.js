@@ -1,3 +1,7 @@
+#
+filter
+dumbComments
+emptyLines
 /
 /
 Do

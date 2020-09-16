@@ -1,3 +1,8 @@
+#
+filter
+dumbComments
+emptyLines
+substitution
 /
 /
 -
@@ -151,9 +156,6 @@ single
 /
 screen
 .
-#
-filter
-substitution
 #
 ifdef
 XP_UNIX
