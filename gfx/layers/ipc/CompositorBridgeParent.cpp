@@ -12109,6 +12109,11 @@ windowId
 }
 nsCString
 error
+(
+"
+FEATURE_FAILTURE_WEBRENDER_INITIALIZE_UNSPECIFIED
+"
+)
 ;
 RefPtr
 <
