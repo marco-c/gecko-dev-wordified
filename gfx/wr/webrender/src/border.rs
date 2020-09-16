@@ -77,6 +77,7 @@ NormalBorder
 as
 ApiNormalBorder
 RepeatMode
+EdgeAaSegmentMask
 }
 ;
 use
@@ -191,15 +192,6 @@ internal_types
 :
 :
 LayoutPrimitiveInfo
-;
-use
-crate
-:
-:
-segment
-:
-:
-EdgeAaSegmentMask
 ;
 /
 /

@@ -171,7 +171,7 @@ use
 webrender
 :
 :
-render_api
+api
 :
 :
 DebugCommand

@@ -65,6 +65,7 @@ AlphaType
 ClipMode
 ExternalImageType
 ImageRendering
+EdgeAaSegmentMask
 }
 ;
 use
@@ -446,15 +447,6 @@ util
 project_rect
 TransformedRectKind
 }
-;
-use
-crate
-:
-:
-segment
-:
-:
-EdgeAaSegmentMask
 ;
 /
 /
