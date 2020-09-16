@@ -239,7 +239,7 @@ the
 filePath
 inside
 the
-cache
+settings
 file
 to
 simulate
@@ -292,7 +292,7 @@ path
 }
 }
 await
-promiseSaveCacheData
+promiseSaveSettingsData
 (
 data
 )

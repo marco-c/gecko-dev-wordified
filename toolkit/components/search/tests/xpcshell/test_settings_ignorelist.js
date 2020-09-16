@@ -35,7 +35,7 @@ initializing
 from
 the
 search
-cache
+settings
 .
 *
 /
@@ -69,9 +69,7 @@ jsm
 )
 ;
 var
-cacheTemplate
-appPluginsPath
-profPlugins
+settingsTemplate
 ;
 /
 *
@@ -107,7 +105,7 @@ setupRemoteSettings
 (
 )
 ;
-cacheTemplate
+settingsTemplate
 =
 await
 readJSONFile
@@ -124,7 +122,7 @@ json
 )
 )
 ;
-cacheTemplate
+settingsTemplate
 .
 buildID
 =
@@ -135,9 +133,9 @@ getAppInfo
 platformBuildID
 ;
 await
-promiseSaveCacheData
+promiseSaveSettingsData
 (
-cacheTemplate
+settingsTemplate
 )
 ;
 }
@@ -154,8 +152,8 @@ service
 and
 confirm
 the
-cache
-was
+settings
+were
 reset
 *
 /
@@ -163,7 +161,7 @@ add_task
 (
 async
 function
-test_cache_rest
+test_settings_rest
 (
 )
 {
@@ -258,7 +256,7 @@ one
 engine
 in
 the
-cache
+settings
 .
 /
 /
@@ -291,7 +289,7 @@ list
 "
 )
 ;
-removeCacheFile
+removeSettingsFile
 (
 )
 ;

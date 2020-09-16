@@ -1063,7 +1063,7 @@ unload
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;

@@ -37,7 +37,7 @@ search
 service
 without
 existing
-cache
+settings
 file
 .
 *
@@ -206,7 +206,7 @@ xml
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -283,7 +283,7 @@ flush
 let
 promiseCommit
 =
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;

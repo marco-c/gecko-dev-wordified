@@ -1470,7 +1470,7 @@ mozilla
 *
 *
 Current
-cache
+settings
 version
 .
 This
@@ -1482,8 +1482,8 @@ the
 format
 of
 the
-cache
 *
+settings
 file
 is
 modified
@@ -1497,13 +1497,13 @@ number
 *
 The
 current
-cache
+settings
 version
 .
 *
 /
 get
-CACHE_VERSION
+SETTINGS_VERSION
 (
 )
 {

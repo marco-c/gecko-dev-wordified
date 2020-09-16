@@ -130,7 +130,7 @@ search
 init
 (
 )
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ]

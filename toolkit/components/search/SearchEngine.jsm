@@ -7017,7 +7017,7 @@ saved
 to
 the
 search
-cache
+settings
 -
 the
 code
@@ -7646,9 +7646,10 @@ their
 data
 in
 the
-cache
+settings
 /
 /
+file
 so
 just
 store

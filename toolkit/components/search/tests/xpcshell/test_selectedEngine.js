@@ -185,7 +185,7 @@ kTestEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -366,7 +366,7 @@ kTestEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -523,7 +523,7 @@ kTestEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -587,7 +587,7 @@ kDefaultEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -682,7 +682,7 @@ kTestEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -709,7 +709,7 @@ kDefaultEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -809,7 +809,7 @@ name
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -953,7 +953,7 @@ kDefaultEngineName
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;

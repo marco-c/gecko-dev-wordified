@@ -171,7 +171,7 @@ xml
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -214,7 +214,7 @@ be
 commited
 immediately
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -296,7 +296,7 @@ engine1
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
@@ -397,7 +397,7 @@ searchTerms
 )
 ;
 await
-promiseAfterCache
+promiseAfterSettings
 (
 )
 ;
