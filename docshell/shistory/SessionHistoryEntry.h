@@ -939,6 +939,15 @@ SessionHistoryEntry
 aEntry
 )
 ;
+LoadingSessionHistoryInfo
+(
+SessionHistoryEntry
+*
+aEntry
+uint64_t
+aLoadId
+)
+;
 already_AddRefed
 <
 nsDocShellLoadState
