@@ -208,7 +208,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 Log
 .
@@ -1095,7 +1095,7 @@ target
 =
 >
 {
-log
+logger
 .
 trace
 (

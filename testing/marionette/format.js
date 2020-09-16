@@ -142,7 +142,7 @@ defineLazyGetter
 (
 this
 "
-log
+logger
 "
 Log
 .
@@ -754,7 +754,7 @@ catch
 e
 )
 {
-log
+logger
 .
 warn
 (
