@@ -10082,6 +10082,9 @@ event
 return
 ;
 case
+GDK_Reload
+:
+case
 GDK_Refresh
 :
 aWindow
