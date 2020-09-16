@@ -375,12 +375,6 @@ WasmCodeProfilingLabels
 \
 _
 (
-WasmCompileTaskState
-500
-)
-\
-_
-(
 WasmCodeBytesEnd
 500
 )
