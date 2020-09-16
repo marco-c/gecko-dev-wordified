@@ -56,10 +56,6 @@ MPL
 .
 *
 /
-extern
-crate
-nsstring
-;
 use
 nsstring
 :

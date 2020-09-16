@@ -58,7 +58,7 @@ MPL
 /
 /
 /
-/
+!
 The
 automatically
 generated
@@ -71,7 +71,7 @@ some
 types
 /
 /
-/
+!
 which
 are
 defined
@@ -87,7 +87,7 @@ which
 may
 /
 /
-/
+!
 not
 be
 extern
@@ -106,7 +106,7 @@ into
 This
 /
 /
-/
+!
 module
 re
 -
@@ -125,7 +125,7 @@ from
 the
 /
 /
-/
+!
 macro
 .
 /

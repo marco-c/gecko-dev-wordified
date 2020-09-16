@@ -57,6 +57,9 @@ MPL
 *
 /
 use
+crate
+:
+:
 interfaces
 :
 :
@@ -66,6 +69,9 @@ nsISupports
 }
 ;
 use
+crate
+:
+:
 {
 GetterAddrefs
 RefCounted
