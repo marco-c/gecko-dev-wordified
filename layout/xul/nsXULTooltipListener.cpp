@@ -481,7 +481,8 @@ faster
 this
 should
 use
-BoolVarCache
+static
+prefs
 .
 /
 /

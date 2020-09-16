@@ -66,8 +66,7 @@ strict
 Tests
 that
 static
-preference
-varcaches
+preferences
 in
 the
 content
@@ -99,7 +98,8 @@ can
 '
 t
 access
-varcaches
+static
+preference
 values
 from
 JS
@@ -159,8 +159,8 @@ values
 stored
 in
 all
-var
-caches
+static
+prefs
 /
 /
 match
@@ -343,7 +343,7 @@ add_task
 (
 async
 function
-test_sharedMap_var_caches
+test_sharedMap_static_prefs
 (
 )
 {

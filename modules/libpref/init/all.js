@@ -162,9 +162,6 @@ file
 /
 Static
 prefs
-especially
-VarCache
-prefs
 are
 defined
 in
@@ -172,14 +169,14 @@ StaticPrefList
 .
 yaml
 .
-/
-/
 Those
 prefs
 should
 *
 not
 *
+/
+/
 appear
 in
 this
