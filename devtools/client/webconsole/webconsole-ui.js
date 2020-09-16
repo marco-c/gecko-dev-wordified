@@ -1242,6 +1242,11 @@ resourceWatcher
 TYPES
 .
 NETWORK_EVENT
+resourceWatcher
+.
+TYPES
+.
+NETWORK_EVENT_STACKTRACE
 ]
 {
 onAvailable
