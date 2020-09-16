@@ -2484,6 +2484,12 @@ bool
 aFlippedY
 )
 ;
+static
+bool
+IsMainWindowTransparent
+(
+)
+;
 protected
 :
 virtual
@@ -3872,6 +3878,10 @@ mCurrentTimeGetter
 static
 CSDSupportLevel
 sCSDSupportLevel
+;
+static
+bool
+sTransparentMainWindow
 ;
 }
 ;

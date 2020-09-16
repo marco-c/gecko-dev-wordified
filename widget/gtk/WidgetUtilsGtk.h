@@ -137,6 +137,11 @@ IsTouchDeviceSupportPresent
 ;
 }
 ;
+bool
+IsMainWindowTransparent
+(
+)
+;
 }
 /
 /
