@@ -636,8 +636,14 @@ handle_presets
 (
 self
 preset_action
+=
+None
 save
+=
+None
 preset
+=
+None
 *
 *
 kwargs
@@ -751,6 +757,22 @@ sys
 exit
 (
 )
+        
+if
+'
+preset
+'
+not
+in
+self
+.
+parser
+.
+common_groups
+:
+            
+return
+kwargs
         
 default
 =
@@ -1257,18 +1279,6 @@ kwargs
 )
 :
         
-if
-'
-preset
-'
-in
-self
-.
-parser
-.
-common_groups
-:
-            
 kwargs
 =
 self
