@@ -1674,6 +1674,11 @@ defaultPlacements
 :
 [
 "
+managed
+-
+bookmarks
+"
+"
 personal
 -
 bookmarks

@@ -6817,6 +6817,10 @@ join
 ;
 }
 }
+ManagedBookmarks
+:
+{
+}
 NetworkPrediction
 :
 {

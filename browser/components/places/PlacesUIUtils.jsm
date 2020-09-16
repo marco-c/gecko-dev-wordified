@@ -4359,10 +4359,7 @@ boolean
 }
 *
 /
-_openTabset
-:
-function
-PUIU__openTabset
+openTabset
 (
 aItemsToOpen
 aEvent
@@ -4932,7 +4929,7 @@ window
 {
 this
 .
-_openTabset
+openTabset
 (
 urlsToOpen
 event

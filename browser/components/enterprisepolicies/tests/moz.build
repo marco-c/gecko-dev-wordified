@@ -150,6 +150,15 @@ browser
 .
 ini
 '
+'
+browser
+/
+managedbookmarks
+/
+browser
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
