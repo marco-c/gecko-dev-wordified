@@ -2700,7 +2700,7 @@ flags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 ;
 if
 (
@@ -2810,7 +2810,7 @@ nsIFrame
 ComputeSizeFlags
 :
 :
-eDefault
+Default
 ;
 }
 }

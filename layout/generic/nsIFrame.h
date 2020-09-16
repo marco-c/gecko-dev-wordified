@@ -19800,7 +19800,7 @@ parameter
 enum
 ComputeSizeFlags
 {
-eDefault
+Default
 =
 0
 /
@@ -19845,7 +19845,7 @@ block
 .
 *
 /
-eShrinkWrap
+ShrinkWrap
 =
 1
 <
@@ -19908,7 +19908,7 @@ layout
 )
 *
 /
-eUseAutoBSize
+UseAutoBSize
 =
 1
 <
@@ -19971,7 +19971,7 @@ size
 auto
 *
 /
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 =
 1
 <
@@ -19984,7 +19984,7 @@ in
 our
 inline
 axis
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 =
 1
 <
@@ -20092,7 +20092,7 @@ self
 stretch
 *
 /
-eIApplyAutoMinSize
+IApplyAutoMinSize
 =
 1
 <
@@ -34371,7 +34371,7 @@ aSize
 ComputeSizeFlags
 aFlags
 =
-eDefault
+Default
 )
 {
 MOZ_ASSERT

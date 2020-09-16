@@ -5323,7 +5323,7 @@ nsIFrame
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 WritingMode

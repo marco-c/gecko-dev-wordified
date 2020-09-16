@@ -415,7 +415,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 {
 result

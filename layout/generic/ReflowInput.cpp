@@ -13062,7 +13062,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eDefault
+Default
 ;
 if
 (
@@ -13080,7 +13080,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 ;
 }
@@ -13100,7 +13100,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 ;
 }
@@ -13120,7 +13120,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eIApplyAutoMinSize
+IApplyAutoMinSize
 )
 ;
 }
@@ -13140,7 +13140,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 }
@@ -13160,7 +13160,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eUseAutoBSize
+UseAutoBSize
 )
 ;
 }
@@ -13191,7 +13191,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 }
@@ -13215,7 +13215,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 }
@@ -18771,12 +18771,12 @@ isBlockLevel
 ComputeSizeFlags
 :
 :
-eDefault
+Default
 :
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 ;
 if
 (
@@ -18794,7 +18794,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 ;
 }
@@ -18814,7 +18814,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 ;
 }
@@ -18834,7 +18834,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eIApplyAutoMinSize
+IApplyAutoMinSize
 )
 ;
 }
@@ -18854,7 +18854,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 }
@@ -18874,7 +18874,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eUseAutoBSize
+UseAutoBSize
 )
 ;
 }
@@ -19087,7 +19087,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 }
@@ -19217,7 +19217,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 }
@@ -19240,7 +19240,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 ;
 /
@@ -19288,7 +19288,7 @@ computeSizeFlags
 ComputeSizeFlags
 :
 :
-eUseAutoBSize
+UseAutoBSize
 )
 ;
 }

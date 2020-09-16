@@ -44115,7 +44115,7 @@ aFlags
 nsIFrame
 :
 :
-eShrinkWrap
+ShrinkWrap
 )
 &
 &
@@ -44215,7 +44215,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 )
 {
@@ -44476,7 +44476,7 @@ MOZ_UNLIKELY
 (
 aFlags
 &
-eIApplyAutoMinSize
+IApplyAutoMinSize
 )
 )
 {
@@ -44561,7 +44561,7 @@ if
 (
 aFlags
 &
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 {
 /
@@ -44999,7 +44999,7 @@ aFlags
 nsIFrame
 :
 :
-eUseAutoBSize
+UseAutoBSize
 )
 )
 {
@@ -45302,7 +45302,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eBClampMarginBoxMinSize
+BClampMarginBoxMinSize
 )
 )
 {
@@ -46117,7 +46117,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 ;
 result
 =
@@ -46298,7 +46298,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 )
 {
@@ -46367,7 +46367,7 @@ aFlags
 ComputeSizeFlags
 :
 :
-eIClampMarginBoxMinSize
+IClampMarginBoxMinSize
 )
 )
 {
@@ -75473,7 +75473,7 @@ wm
 ComputeSizeFlags
 :
 :
-eDefault
+Default
 )
 .
 mLogicalSize
