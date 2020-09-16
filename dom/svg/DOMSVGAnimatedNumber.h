@@ -123,13 +123,6 @@ DOM_SVG_DOMSVGANIMATEDNUMBER_H_
 #
 include
 "
-nsISupports
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
