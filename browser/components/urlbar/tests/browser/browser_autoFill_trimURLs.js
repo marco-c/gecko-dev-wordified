@@ -623,9 +623,6 @@ http
 /
 /
 "
-isSearchHistory
-:
-false
 }
 }
 {
@@ -683,9 +680,6 @@ https
 /
 /
 "
-isSearchHistory
-:
-false
 }
 }
 {

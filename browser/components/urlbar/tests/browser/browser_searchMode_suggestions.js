@@ -295,9 +295,6 @@ HISTORY
 searchParams
 :
 {
-isSearchHistory
-:
-true
 suggestion
 :
 value
@@ -677,9 +674,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 engine
 :
 suggestionsEngine
@@ -719,9 +713,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 suggestion
 :
 {
@@ -757,9 +748,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 suggestion
 :
 {
@@ -932,9 +920,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 engine
 :
 suggestionsEngine
@@ -964,9 +949,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 suggestion
 :
 {
@@ -1002,9 +984,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 suggestion
 :
 {
@@ -1188,9 +1167,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 engine
 :
 suggestionsEngine
@@ -1220,9 +1196,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 suggestion
 :
 {
@@ -1258,9 +1231,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 suggestion
 :
 {
@@ -1491,9 +1461,6 @@ searchParams
 :
 {
 query
-isSearchHistory
-:
-false
 engine
 :
 suggestionsEngine

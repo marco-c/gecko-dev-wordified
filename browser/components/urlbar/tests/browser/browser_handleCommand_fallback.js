@@ -735,6 +735,12 @@ coherent
 "
 )
 ;
+gURLBar
+.
+handleRevert
+(
+)
+;
 }
 }
 )
