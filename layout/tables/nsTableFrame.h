@@ -2069,6 +2069,9 @@ mozilla
 LogicalSize
 &
 aPadding
+mozilla
+:
+:
 ComputeSizeFlags
 aFlags
 )
@@ -2119,6 +2122,9 @@ mozilla
 LogicalSize
 &
 aPadding
+mozilla
+:
+:
 ComputeSizeFlags
 aFlags
 )

@@ -5317,9 +5317,6 @@ Size
 (
 wm
 )
-nsIFrame
-:
-:
 ComputeSizeFlag
 :
 :
