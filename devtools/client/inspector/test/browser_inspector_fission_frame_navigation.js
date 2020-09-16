@@ -560,9 +560,7 @@ NodeFronts
 Actors
 .
 const
-{
 resource
-}
 =
 await
 navigateIframeTo
