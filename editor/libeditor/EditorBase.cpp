@@ -7676,7 +7676,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 rootElement
 0
@@ -7692,7 +7692,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -7736,7 +7736,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 firstNode
 0
@@ -7752,7 +7752,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -7849,7 +7849,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 parent
 0
@@ -7865,7 +7865,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -8106,7 +8106,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 lastContent
 static_cast
@@ -8128,7 +8128,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -17549,7 +17549,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 &
 aTextNode
@@ -17584,7 +17584,7 @@ rvIgnored
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -20566,7 +20566,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 EditorRawDOMPoint
 (
@@ -20602,7 +20602,7 @@ Failed
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
