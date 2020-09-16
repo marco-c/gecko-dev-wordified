@@ -28971,6 +28971,9 @@ gArgc
 gArgv
 )
 ;
+#
+ifndef
+XP_LINUX
 NS_SetCurrentThreadName
 (
 "
@@ -28978,6 +28981,8 @@ MainThread
 "
 )
 ;
+#
+endif
 AUTO_BASE_PROFILER_LABEL
 (
 "
