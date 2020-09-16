@@ -2128,7 +2128,10 @@ src
 *
 if
 |
-JS_StringHasLatin1Chars
+JS
+:
+:
+StringHasLatin1Chars
 (
 str
 )
