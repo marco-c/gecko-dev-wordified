@@ -9660,9 +9660,6 @@ aNewChannel
 ;
 if
 (
-oldHttpChannel
-&
-&
 newHttpChannel
 )
 {
