@@ -7160,9 +7160,6 @@ type
 "
 topsites
 "
-info
-:
-true
 }
 primary_button
 :
