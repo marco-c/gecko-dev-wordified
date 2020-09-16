@@ -562,7 +562,6 @@ Actors
 const
 {
 resource
-targetFront
 }
 =
 await
@@ -774,6 +773,8 @@ id
 todo
 (
 !
+resource
+.
 targetFront
 .
 getCachedFront
