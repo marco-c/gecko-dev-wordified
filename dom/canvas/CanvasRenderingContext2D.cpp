@@ -12037,9 +12037,8 @@ srcCanvas
 canvas
 -
 >
-GetContextAtIndex
+GetCurrentContext
 (
-0
 )
 ;
 if
