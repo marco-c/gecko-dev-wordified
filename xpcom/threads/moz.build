@@ -287,6 +287,11 @@ IdleTaskRunner
 h
 '
 '
+InputTaskManager
+.
+h
+'
+'
 LazyIdleThread
 .
 h
@@ -458,6 +463,11 @@ cpp
 '
 '
 InputEventStatistics
+.
+cpp
+'
+'
+InputTaskManager
 .
 cpp
 '
