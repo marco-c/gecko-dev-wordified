@@ -1169,11 +1169,9 @@ sdk_max_version
 Version
 (
 '
-10
+11
 .
-15
-.
-6
+0
 '
 )
 if
