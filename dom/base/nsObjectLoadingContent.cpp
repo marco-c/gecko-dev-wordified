@@ -7897,12 +7897,6 @@ return
 NS_EVENT_STATE_SUPPRESSED
 ;
 case
-eFallbackUserDisabled
-:
-return
-NS_EVENT_STATE_USERDISABLED
-;
-case
 eFallbackClickToPlay
 :
 case
@@ -13590,7 +13584,7 @@ REJECT_TYPE
 {
 fallbackType
 =
-eFallbackUserDisabled
+eFallbackDisabled
 ;
 }
 else
