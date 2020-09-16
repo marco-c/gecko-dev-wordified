@@ -16284,11 +16284,6 @@ mozBackingStorePixelRatio
 |
 ctx
 .
-oBackingStorePixelRatio
-|
-|
-ctx
-.
 backingStorePixelRatio
 |
 |
@@ -22289,9 +22284,6 @@ webkitM
 "
 "
 mozM
-"
-"
-oM
 "
 "
 m
