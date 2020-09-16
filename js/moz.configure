@@ -4054,9 +4054,16 @@ cpu
 aarch64
 '
 or
+(
+simulator
+is
+not
+None
+and
 simulator
 .
 arm64
+)
 :
 return
 True
