@@ -2783,6 +2783,7 @@ struct
 OpDeliverReleaseFence
 {
 FileDescriptor
+?
 fenceFd
 ;
 uint64_t
