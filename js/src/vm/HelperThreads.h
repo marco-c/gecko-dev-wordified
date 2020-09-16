@@ -5178,7 +5178,7 @@ PromiseHelperTask
 :
 OffThreadPromiseTask
 public
-RunnableTask
+HelperThreadTask
 {
 PromiseHelperTask
 (
@@ -5292,8 +5292,11 @@ cx
 )
 ;
 void
-runTask
+runTaskLocked
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;
