@@ -214,7 +214,8 @@ resource
 .
 *
 /
-constructor
+async
+watch
 (
 targetActor
 {

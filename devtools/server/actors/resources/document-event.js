@@ -109,6 +109,9 @@ events
 "
 )
 ;
+class
+DocumentEventWatcher
+{
 /
 *
 *
@@ -170,10 +173,8 @@ resource
 .
 *
 /
-class
-DocumentEventWatcher
-{
-constructor
+async
+watch
 (
 targetActor
 {

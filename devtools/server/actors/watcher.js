@@ -1707,6 +1707,7 @@ the
 parent
 process
 )
+await
 Resources
 .
 watchResources

@@ -293,7 +293,8 @@ resource
 class
 ConsoleMessageWatcher
 {
-constructor
+async
+watch
 (
 targetActor
 {

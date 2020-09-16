@@ -279,7 +279,8 @@ resource
 .
 *
 /
-constructor
+async
+watch
 (
 targetActor
 {
@@ -288,6 +289,8 @@ onAvailable
 )
 {
 super
+.
+watch
 (
 targetActor
 {

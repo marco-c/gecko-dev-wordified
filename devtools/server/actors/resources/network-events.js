@@ -213,7 +213,8 @@ resource
 .
 *
 /
-constructor
+async
+watch
 (
 watcherActor
 {

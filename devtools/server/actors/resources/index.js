@@ -923,6 +923,7 @@ to
 .
 *
 /
+async
 function
 watchResources
 (
@@ -1037,6 +1038,13 @@ watcher
 =
 new
 WatcherClass
+(
+)
+;
+await
+watcher
+.
+watch
 (
 watcherOrTargetActor
 {
