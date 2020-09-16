@@ -2970,6 +2970,7 @@ expr
 \
 cleanup
 (
+tryTempResult
 )
 ;
 \
@@ -3580,6 +3581,7 @@ expr
 \
 cleanup
 (
+tryTempResult
 )
 ;
 \

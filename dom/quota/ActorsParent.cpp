@@ -35134,6 +35134,9 @@ QM_PROPAGATE
 [
 ]
 (
+const
+auto
+&
 )
 {
 MOZ_ASSERT
@@ -35169,6 +35172,9 @@ NS_ERROR_FAILURE
 [
 ]
 (
+const
+auto
+&
 )
 {
 NS_WARNING
