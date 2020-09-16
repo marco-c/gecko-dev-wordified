@@ -1058,6 +1058,11 @@ ScrollOrigin
 h
 '
 '
+ScrollPositionUpdate
+.
+h
+'
+'
 ViewportFrame
 .
 h
@@ -1388,6 +1393,11 @@ cpp
 '
 '
 ScrollbarActivity
+.
+cpp
+'
+'
+ScrollPositionUpdate
 .
 cpp
 '
