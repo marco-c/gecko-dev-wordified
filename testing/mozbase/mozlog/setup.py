@@ -70,9 +70,9 @@ mozlog
 PACKAGE_VERSION
 =
 '
-6
+7
 .
-1
+0
 '
 DEPS
 =
@@ -392,24 +392,6 @@ scripts
 :
 main
 "
-          
-]
-          
-'
-pytest11
-'
-:
-[
-              
-'
-mozlog
-=
-mozlog
-.
-pytest_mozlog
-.
-plugin
-'
           
 ]
 }

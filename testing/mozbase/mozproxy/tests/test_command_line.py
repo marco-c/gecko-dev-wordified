@@ -478,9 +478,17 @@ MozbuildObject
 .
 from_environment
 (
+        
 cwd
 =
 here
+virtualenv_name
+=
+'
+python
+-
+test
+'
 )
     
 build
