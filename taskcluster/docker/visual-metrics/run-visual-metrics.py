@@ -720,6 +720,10 @@ result
 =
 0
     
+orig_test_name
+=
+test_name
+    
 if
 test_name
 in
@@ -789,7 +793,7 @@ test_name
 name
 "
 :
-test_name
+orig_test_name
 "
 subtests
 "
