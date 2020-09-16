@@ -1773,17 +1773,6 @@ response
 {
 }
 }
-unwatchRootNode
-:
-{
-request
-:
-{
-}
-oneway
-:
-true
-}
 getOverflowCausingElements
 :
 {
