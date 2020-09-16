@@ -252,6 +252,12 @@ aBugFix
 0
 )
 ;
+static
+bool
+ProcessIsRosettaTranslated
+(
+)
+;
 /
 /
 These
