@@ -2632,10 +2632,8 @@ container
 )
 )
 ;
-RefPtr
-<
 nsWaylandDisplay
->
+*
 waylandDisplay
 =
 WaylandDisplayGet
@@ -2823,10 +2821,8 @@ container
 )
 )
 ;
-RefPtr
-<
 nsWaylandDisplay
->
+*
 waylandDisplay
 =
 WaylandDisplayGet
