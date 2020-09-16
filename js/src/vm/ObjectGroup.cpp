@@ -9796,7 +9796,7 @@ IsAboutToBeFinalizedUnbarriered
 (
 script
 .
-unsafeGet
+unbarrieredAddress
 (
 )
 )
@@ -9810,7 +9810,7 @@ IsAboutToBeFinalizedUnbarriered
 (
 proto
 .
-unsafeGet
+unbarrieredAddress
 (
 )
 )

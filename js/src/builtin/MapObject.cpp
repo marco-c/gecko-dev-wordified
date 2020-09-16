@@ -3420,7 +3420,7 @@ PreBarriered
 .
 newKey
 .
-unsafeClear
+unbarrieredClear
 (
 )
 ;

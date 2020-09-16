@@ -2025,10 +2025,6 @@ shouldTraceGlobal
 &
 &
 global_
-.
-unbarrieredGet
-(
-)
 )
 {
 TraceRoot
@@ -2036,7 +2032,7 @@ TraceRoot
 trc
 global_
 .
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 "
@@ -2752,10 +2748,9 @@ GlobalObject
 *
 global
 =
-*
 global_
 .
-unsafeGet
+unbarrieredGet
 (
 )
 ;
@@ -2766,7 +2761,7 @@ global
 {
 global_
 .
-set
+unbarrieredSet
 (
 MaybeForwarded
 (

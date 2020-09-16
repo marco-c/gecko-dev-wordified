@@ -5584,7 +5584,7 @@ getSlotRef
 SOURCE_URLS
 )
 .
-unsafeSet
+unbarrieredSet
 (
 UndefinedValue
 (

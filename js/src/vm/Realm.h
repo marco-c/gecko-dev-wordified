@@ -5869,7 +5869,7 @@ safe
 to
 use
 |
-unsafeGet
+unbarrieredGet
 (
 )
 |
@@ -5879,10 +5879,10 @@ any
 realm
 that
 is
-*
 on
 -
 stack
+*
 will
 be
 marked
@@ -5896,9 +5896,9 @@ need
 for
 a
 read
-*
 barrier
 on
+*
 it
 .
 Once
@@ -5911,7 +5911,6 @@ handle
 is
 no
 longer
-*
 safe
 to
 use
@@ -5953,7 +5952,7 @@ realm_
 >
 global_
 .
-unsafeGet
+unbarrieredAddress
 (
 )
 )

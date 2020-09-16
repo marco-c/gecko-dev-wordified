@@ -289,10 +289,9 @@ unbarrieredLexicalEnvironment
 const
 {
 return
-*
 lexicalEnv_
 .
-unsafeGet
+unbarrieredGet
 (
 )
 ;
@@ -333,7 +332,7 @@ IsAboutToBeFinalizedUnbarriered
 (
 global_
 .
-unsafeGet
+unbarrieredAddress
 (
 )
 )

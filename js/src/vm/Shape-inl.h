@@ -871,7 +871,7 @@ base
 )
 )
 {
-unsafeSetHeaderPtr
+unbarrieredSetHeaderPtr
 (
 Forwarded
 (

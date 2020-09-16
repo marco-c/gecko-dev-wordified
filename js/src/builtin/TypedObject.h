@@ -4421,7 +4421,7 @@ addressOfShapeFromGC
 return
 shape_
 .
-unsafeUnbarrieredForTracing
+unbarrieredAddress
 (
 )
 ;

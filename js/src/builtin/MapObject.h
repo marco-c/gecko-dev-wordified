@@ -482,13 +482,13 @@ pre
 barrier
 .
 void
-unsafeClear
+unbarrieredClear
 (
 )
 {
 value
 .
-unsafeSet
+unbarrieredSet
 (
 UndefinedValue
 (
