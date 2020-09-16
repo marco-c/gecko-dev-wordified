@@ -1612,6 +1612,12 @@ case
 InlinableNative
 :
 :
+NumberToString
+:
+case
+InlinableNative
+:
+:
 ReflectGetPrototypeOf
 :
 case
