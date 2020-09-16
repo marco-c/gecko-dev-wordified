@@ -334,7 +334,7 @@ ResultImplementation
 &
 )
 =
-default
+delete
 ;
 ResultImplementation
 &
@@ -346,7 +346,7 @@ ResultImplementation
 &
 )
 =
-default
+delete
 ;
 ResultImplementation
 &
@@ -3160,7 +3160,7 @@ Result
 &
 )
 =
-default
+delete
 ;
 Result
 (
@@ -3181,7 +3181,7 @@ Result
 &
 )
 =
-default
+delete
 ;
 Result
 &
