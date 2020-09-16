@@ -2334,6 +2334,28 @@ remote_log
 )
 :
             
+log
+.
+info
+(
+"
+gtest
+|
+update_log
+%
+s
+is
+not
+a
+file
+.
+"
+%
+self
+.
+remote_log
+)
+            
 return
 False
         
@@ -2377,6 +2399,10 @@ log
 info
 (
 "
+gtest
+|
+update_log
+:
 exception
 reading
 log
@@ -2398,6 +2424,21 @@ if
 not
 new_content
 :
+            
+log
+.
+info
+(
+"
+gtest
+|
+update_log
+:
+no
+new
+content
+"
+)
             
 return
 False
