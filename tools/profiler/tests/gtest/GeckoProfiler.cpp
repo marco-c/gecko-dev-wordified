@@ -3290,7 +3290,7 @@ profiler_get_buffer_info
 (
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Not
@@ -3402,7 +3402,7 @@ profiler_get_buffer_info
 (
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Paused
@@ -4017,7 +4017,7 @@ OTHER
 )
 ;
 }
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 M1
@@ -4041,7 +4041,7 @@ ts0
 )
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 M3
@@ -14974,7 +14974,7 @@ profiler_get_buffer_info
 (
 )
 ;
-BASE_PROFILER_ADD_MARKER
+BASE_PROFILER_MARKER_UNTYPED
 (
 "
 Marker

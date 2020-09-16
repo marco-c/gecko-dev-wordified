@@ -1556,6 +1556,15 @@ h
 #
 include
 "
+mozilla
+/
+ProfilerMarkers
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
@@ -29723,7 +29732,7 @@ stage
 eBeforeToggle
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Fullscreen
@@ -29759,7 +29768,7 @@ stage
 eToggleFullscreen
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Fullscreen
@@ -30202,7 +30211,7 @@ stage
 eEnd
 )
 {
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Fullscreen
@@ -30346,7 +30355,7 @@ shouldContinue
 =
 true
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Fullscreen
@@ -30431,7 +30440,7 @@ shouldContinue
 =
 true
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Fullscreen

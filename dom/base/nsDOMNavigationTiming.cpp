@@ -546,7 +546,7 @@ DocShellState
 eActive
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Navigation
@@ -1105,7 +1105,7 @@ Now
 (
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Navigation
@@ -1154,7 +1154,7 @@ Now
 (
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Navigation
@@ -1203,7 +1203,7 @@ Now
 (
 )
 ;
-PROFILER_ADD_MARKER
+PROFILER_MARKER_UNTYPED
 (
 "
 Navigation
