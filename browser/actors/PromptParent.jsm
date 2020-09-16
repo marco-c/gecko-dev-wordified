@@ -1640,11 +1640,15 @@ dialogBox
 open
 (
 uri
+{
+features
+:
 "
 resizable
 =
 no
 "
+}
 bag
 )
 ;

@@ -150,9 +150,11 @@ gSubDialog
 open
 (
 aDialogURL
-unused
-unused2
+{
+closingCallback
+:
 aCallback
+}
 )
 {
 dialogOpened
