@@ -1041,10 +1041,6 @@ is
 present
 "
 )
-.
-clone
-(
-)
 ;
 (
 anti_replay
