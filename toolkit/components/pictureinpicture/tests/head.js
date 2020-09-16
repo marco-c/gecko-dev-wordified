@@ -1774,7 +1774,7 @@ in
 the
 TOGGLE_POLICIES
 from
-PictureInPictureTogglePolicy
+PictureInPictureControls
 .
 jsm
 .
@@ -1960,7 +1960,7 @@ gre
 /
 modules
 /
-PictureInPictureTogglePolicy
+PictureInPictureControls
 .
 jsm
 "
@@ -3292,7 +3292,7 @@ the
 *
 TOGGLE_POLICIES
 from
-PictureInPictureTogglePolicy
+PictureInPictureControls
 .
 jsm
 .
@@ -3626,7 +3626,7 @@ in
 the
 TOGGLE_POLICIES
 from
-PictureInPictureTogglePolicy
+PictureInPictureControls
 .
 jsm
 .

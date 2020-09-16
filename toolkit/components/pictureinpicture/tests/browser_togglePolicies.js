@@ -38,7 +38,7 @@ SHARED_DATA_KEY
 "
 PictureInPicture
 :
-ToggleOverrides
+SiteOverrides
 "
 ;
 const
@@ -59,7 +59,7 @@ gre
 /
 modules
 /
-PictureInPictureTogglePolicy
+PictureInPictureControls
 .
 jsm
 "
@@ -158,7 +158,9 @@ com
 *
 "
 :
+{
 policy
+}
 }
 )
 ;
@@ -406,9 +408,13 @@ com
 *
 "
 :
+{
+policy
+:
 TOGGLE_POLICIES
 .
 HIDDEN
+}
 }
 )
 ;
@@ -594,9 +600,13 @@ page
 html
 "
 :
+{
+policy
+:
 TOGGLE_POLICIES
 .
 HIDDEN
+}
 }
 )
 ;
