@@ -88,12 +88,18 @@ std
 ptr
 ;
 use
+crate
+:
+:
 hidproto
 :
 :
 *
 ;
 use
+crate
+:
+:
 util
 :
 :
@@ -252,7 +258,6 @@ IOCPARM_MASK
 u32
 =
 (
-(
 1
 <
 <
@@ -260,7 +265,6 @@ IOCPARM_SHIFT
 )
 -
 1
-)
 ;
 const
 TYPESHIFT
