@@ -1488,7 +1488,11 @@ accepted
 .
 *
 /
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 LockScreenOrientation
 (
