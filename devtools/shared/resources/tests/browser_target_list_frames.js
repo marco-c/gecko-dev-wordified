@@ -816,6 +816,12 @@ destroy
 (
 )
 ;
+await
+waitForAllTargetsToBeAttached
+(
+targetList
+)
+;
 }
 async
 function
@@ -1152,6 +1158,12 @@ targetList
 .
 destroy
 (
+)
+;
+await
+waitForAllTargetsToBeAttached
+(
+targetList
 )
 ;
 BrowserTestUtils

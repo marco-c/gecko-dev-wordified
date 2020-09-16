@@ -334,15 +334,7 @@ Console
 )
 ;
 await
-waitForAllTargetsToBeAttached
-(
-hud
-)
-;
-await
-BrowserConsoleManager
-.
-closeBrowserConsole
+safeCloseBrowserConsole
 (
 )
 ;

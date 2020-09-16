@@ -206,8 +206,6 @@ hud
 /
 /
 clear
-and
-close
 the
 browser
 console
@@ -216,13 +214,6 @@ await
 clearOutput
 (
 hud
-)
-;
-await
-BrowserConsoleManager
-.
-toggleBrowserConsole
-(
 )
 ;
 }

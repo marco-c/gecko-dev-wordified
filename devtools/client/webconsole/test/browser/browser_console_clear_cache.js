@@ -325,9 +325,7 @@ console
 )
 ;
 await
-BrowserConsoleManager
-.
-toggleBrowserConsole
+safeCloseBrowserConsole
 (
 )
 ;

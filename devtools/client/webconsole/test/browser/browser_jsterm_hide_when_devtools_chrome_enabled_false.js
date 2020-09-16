@@ -456,9 +456,7 @@ browserTab
 )
 ;
 await
-BrowserConsoleManager
-.
-toggleBrowserConsole
+safeCloseBrowserConsole
 (
 )
 ;
@@ -591,9 +589,7 @@ browserTab
 )
 ;
 await
-BrowserConsoleManager
-.
-toggleBrowserConsole
+safeCloseBrowserConsole
 (
 )
 ;
