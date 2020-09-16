@@ -16291,19 +16291,6 @@ Typedef
 cxxtype
 alias
 )
-            
-StmtDecl
-(
-Decl
-(
-Type
-.
-INT
-typevar
-.
-name
-)
-)
         
 ]
         
@@ -16320,11 +16307,19 @@ prelude
 +
 [
             
-StmtExpr
+StmtDecl
 (
-ExprAssn
+Decl
 (
+Type
+.
+INT
 typevar
+.
+name
+)
+init
+=
 ud
 .
 callType
@@ -16332,7 +16327,6 @@ callType
 cls
 .
 var
-)
 )
 )
             
@@ -16383,6 +16377,24 @@ read
 prelude
 +
 [
+            
+StmtDecl
+(
+Decl
+(
+Type
+.
+INT
+typevar
+.
+name
+)
+init
+=
+ExprLiteral
+.
+ZERO
+)
             
 cls
 .
@@ -33788,6 +33800,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                 
 for
@@ -34008,6 +34024,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                 
 for
@@ -34198,6 +34218,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                      
 for
@@ -34895,6 +34919,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                                 
 for
@@ -35515,6 +35543,10 @@ name
 Copy
 '
 )
+initargs
+=
+[
+]
 )
                 
 for
@@ -35878,6 +35910,10 @@ handlevar
 .
 name
 )
+initargs
+=
+[
+]
 )
 ]
             
@@ -35987,6 +36023,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                       
 for
@@ -36210,6 +36250,11 @@ resolve
 .
 name
 )
+init
+=
+ExprLiteral
+.
+FALSE
 )
                       
 _ParamTraits
@@ -36273,6 +36318,10 @@ reason
 .
 name
 )
+initargs
+=
+[
+]
 )
                   
 _ParamTraits
@@ -36468,6 +36517,10 @@ handlevar
 .
 name
 )
+initargs
+=
+[
+]
 )
 ]
             
@@ -36548,6 +36601,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                      
 for
@@ -36748,6 +36805,10 @@ var
 .
 name
 )
+initargs
+=
+[
+]
 )
                          
 for
@@ -37204,6 +37265,11 @@ sendok
 .
 name
 )
+init
+=
+ExprLiteral
+.
+FALSE
 )
                 
 StmtBlock
