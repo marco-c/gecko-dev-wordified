@@ -440,11 +440,10 @@ GetSpec
 name
 )
 ;
-aEntryName
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 name
+aEntryName
 )
 ;
 /
@@ -1443,11 +1442,10 @@ GetProtocolVersion
 protocol
 )
 ;
-mNextHopProtocol
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 protocol
+mNextHopProtocol
 )
 ;
 Unused

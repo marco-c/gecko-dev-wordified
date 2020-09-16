@@ -1739,11 +1739,10 @@ GetPath
 path
 )
 ;
-aOutLibPath
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 path
+aOutLibPath
 )
 ;
 return
@@ -2579,11 +2578,10 @@ str
 )
 )
 {
-sigFilePath
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 str
+sigFilePath
 )
 ;
 }
@@ -2873,9 +2871,7 @@ path
 =
 nullptr
 ;
-str
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 nsDependentCString
 (
@@ -2885,6 +2881,7 @@ c_str
 (
 )
 )
+str
 )
 ;
 if

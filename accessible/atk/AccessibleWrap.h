@@ -326,11 +326,10 @@ static
 nsCString
 returnedString
 ;
-returnedString
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 aString
+returnedString
 )
 ;
 return

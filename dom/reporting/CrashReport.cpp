@@ -349,13 +349,12 @@ default
 "
 _ns
 ;
+CopyUTF8toUTF16
+(
+safe_origin_spec
 data
 .
 mURL
-=
-NS_ConvertUTF8toUTF16
-(
-safe_origin_spec
 )
 ;
 data

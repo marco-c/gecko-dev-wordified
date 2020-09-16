@@ -12255,11 +12255,10 @@ length
 _ns
 ;
 }
-src
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 uri
+src
 )
 ;
 }

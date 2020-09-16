@@ -240,11 +240,10 @@ EmptyString
 }
 else
 {
-mimeType
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 mType
+mimeType
 )
 ;
 }

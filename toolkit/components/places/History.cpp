@@ -13025,11 +13025,10 @@ true
 }
 else
 {
-guid
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 fatGUID
+guid
 )
 ;
 }

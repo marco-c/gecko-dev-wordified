@@ -12354,13 +12354,12 @@ rv
 ChromeFilePropertyBag
 bag
 ;
+CopyUTF8toUTF16
+(
+contentType
 bag
 .
 mType
-=
-NS_ConvertUTF8toUTF16
-(
-contentType
 )
 ;
 nsCOMPtr

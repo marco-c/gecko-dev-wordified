@@ -1608,11 +1608,10 @@ GetHost
 host
 )
 ;
-mHost
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 host
+mHost
 )
 ;
 int32_t

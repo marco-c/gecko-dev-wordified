@@ -1513,11 +1513,10 @@ Command
 FormatJustifyNone
 ;
 }
-cValue
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 value
+cValue
 )
 ;
 }

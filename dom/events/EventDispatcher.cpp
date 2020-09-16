@@ -4999,11 +4999,10 @@ eventTypeU16
 )
 ;
 }
-eventType
-=
-NS_ConvertUTF16toUTF8
+CopyUTF16toUTF8
 (
 eventTypeU16
+eventType
 )
 ;
 nsCOMPtr

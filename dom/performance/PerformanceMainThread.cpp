@@ -259,11 +259,10 @@ rv
 return
 ;
 }
-aSpec
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 spec
+aSpec
 )
 ;
 }

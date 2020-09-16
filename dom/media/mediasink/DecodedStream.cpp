@@ -2273,11 +2273,7 @@ DecodedStreamDataDebugInfo
 aInfo
 )
 {
-aInfo
-.
-mInstance
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 nsPrintfCString
 (
@@ -2287,6 +2283,9 @@ p
 "
 this
 )
+aInfo
+.
+mInstance
 )
 ;
 aInfo

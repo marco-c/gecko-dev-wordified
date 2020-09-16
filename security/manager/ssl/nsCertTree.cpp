@@ -762,11 +762,10 @@ mPort
 hostPort
 )
 ;
-aHostPort
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 hostPort
+aHostPort
 )
 ;
 return
@@ -5713,11 +5712,10 @@ mPort
 hostPort
 )
 ;
-_retval
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 hostPort
+_retval
 )
 ;
 }

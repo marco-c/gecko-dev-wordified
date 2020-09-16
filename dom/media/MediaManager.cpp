@@ -20412,11 +20412,10 @@ return
 rv
 ;
 }
-aId
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 mac
+aId
 )
 ;
 return

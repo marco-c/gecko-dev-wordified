@@ -6628,11 +6628,10 @@ Length
 '
 )
 ;
-workingDirectory
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 cwd
+workingDirectory
 )
 ;
 #

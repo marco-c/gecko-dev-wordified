@@ -286,9 +286,7 @@ args
 "
 )
 ;
-pluginFilename
-=
-NS_ConvertUTF8toUTF16
+CopyUTF8toUTF16
 (
 nsDependentCString
 (
@@ -301,6 +299,7 @@ c_str
 (
 )
 )
+pluginFilename
 )
 ;
 #
