@@ -826,6 +826,12 @@ HelperThread
 #
 ifdef
 DEBUG
+JSContext
+*
+MaybeGetJSContext
+(
+)
+;
 bool
 CurrentThreadIsParseThread
 (
