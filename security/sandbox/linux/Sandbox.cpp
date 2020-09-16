@@ -1708,9 +1708,13 @@ see
 BroadcastSetThreadSandbox
 *
 /
+[
+[
+nodiscard
+]
+]
 static
 bool
-MOZ_MUST_USE
 InstallSyscallFilter
 (
 const
