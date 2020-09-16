@@ -83,7 +83,7 @@ content
 /
 test
 /
-general
+zoom
 /
 zoom_test
 .
