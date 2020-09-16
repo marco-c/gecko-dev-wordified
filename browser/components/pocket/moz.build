@@ -115,6 +115,15 @@ browser
 .
 ini
 '
+'
+test
+/
+unit
+/
+browser
+.
+ini
+'
 ]
 JAR_MANIFESTS
 +
