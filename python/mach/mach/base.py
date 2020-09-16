@@ -58,6 +58,12 @@ __future__
 import
 absolute_import
 unicode_literals
+from
+mach
+.
+telemetry
+import
+Telemetry
 class
 CommandContext
 (
@@ -103,6 +109,14 @@ None
 commands
 =
 None
+                 
+telemetry
+=
+Telemetry
+.
+as_noop
+(
+)
 *
 *
 kwargs
@@ -132,6 +146,12 @@ self
 commands
 =
 commands
+        
+self
+.
+telemetry
+=
+telemetry
         
 self
 .

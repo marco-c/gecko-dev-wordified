@@ -76,7 +76,7 @@ util
 import
 get_state_dir
 from
-mozbuild
+mach
 .
 telemetry
 import
