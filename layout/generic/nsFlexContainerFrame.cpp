@@ -11589,7 +11589,7 @@ isAutoBSize
 /
 /
 in
-nsIFrame
+nsContainerFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
@@ -37095,7 +37095,7 @@ use
 in
 /
 /
-nsIFrame
+nsContainerFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions

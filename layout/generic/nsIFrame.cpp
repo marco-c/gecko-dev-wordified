@@ -43110,7 +43110,7 @@ and
 call
 "
 "
-nsIFrame
+nsContainerFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
@@ -43565,16 +43565,16 @@ updating
 /
 mainAxisCoord
 in
-nsIFrame
+nsContainerFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
 (
 )
+/
+/
 (
 aside
-/
-/
 from
 using
 a
@@ -43586,6 +43586,8 @@ the
 IsUsedFlexBasisContent
 (
 )
+/
+/
 case
 )
 .
