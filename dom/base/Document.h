@@ -7301,13 +7301,6 @@ GetViewportMetaData
 )
 const
 ;
-void
-UpdateForScrollAnchorAdjustment
-(
-nscoord
-aLength
-)
-;
 /
 *
 *
@@ -30178,12 +30171,6 @@ mAutoFocusElement
 ;
 nsCString
 mScrollToRef
-;
-nscoord
-mScrollAnchorAdjustmentLength
-;
-int32_t
-mScrollAnchorAdjustmentCount
 ;
 /
 /
