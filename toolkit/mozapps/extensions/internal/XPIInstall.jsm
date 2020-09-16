@@ -820,9 +820,9 @@ const
 PREF_SELECTED_LWT
 =
 "
-lightweightThemes
+extensions
 .
-selectedThemeID
+activeThemeID
 "
 ;
 const
