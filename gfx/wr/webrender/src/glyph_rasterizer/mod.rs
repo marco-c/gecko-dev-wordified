@@ -7699,10 +7699,6 @@ GlyphCache
 :
 new
 (
-GlyphCache
-:
-:
-DEFAULT_MAX_BYTES_USED
 )
 ;
 let

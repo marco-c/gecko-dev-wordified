@@ -922,9 +922,6 @@ FrameId
 bytes_used
 :
 usize
-max_bytes_used
-:
-usize
 }
 impl
 GlyphCache
@@ -933,7 +930,6 @@ GlyphCache
 /
 /
 The
-default
 space
 usage
 threshold
@@ -950,7 +946,7 @@ fonts
 .
 pub
 const
-DEFAULT_MAX_BYTES_USED
+MAX_BYTES_USED
 :
 usize
 =
@@ -964,9 +960,6 @@ pub
 fn
 new
 (
-max_bytes_used
-:
-usize
 )
 -
 >
@@ -993,7 +986,6 @@ default
 bytes_used
 :
 0
-max_bytes_used
 }
 }
 pub
@@ -1438,9 +1430,10 @@ self
 .
 bytes_used
 <
-self
-.
-max_bytes_used
+GlyphCache
+:
+:
+MAX_BYTES_USED
 {
 return
 ;
@@ -1537,9 +1530,10 @@ self
 .
 bytes_used
 <
-self
-.
-max_bytes_used
+GlyphCache
+:
+:
+MAX_BYTES_USED
 {
 break
 ;
@@ -1563,9 +1557,10 @@ self
 .
 bytes_used
 -
-self
-.
-max_bytes_used
+GlyphCache
+:
+:
+MAX_BYTES_USED
 ;
 if
 !
