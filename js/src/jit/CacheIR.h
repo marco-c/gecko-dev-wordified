@@ -10217,6 +10217,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachStringConstructor
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachStringToStringValueOf
 (
 HandleFunction
