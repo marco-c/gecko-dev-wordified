@@ -1716,18 +1716,6 @@ httpd
 .
 js
 '
-                
-'
-httpd
-.
-manifest
-'
-                
-'
-test_necko
-.
-xpt
-'
             
 ]
             
