@@ -13166,7 +13166,7 @@ failf
 "
 memory
 size
-initial
+minimum
 must
 not
 be
