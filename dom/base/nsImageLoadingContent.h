@@ -826,10 +826,7 @@ will
 have
 the
 NS_EVENT_STATE_BROKEN
-and
-*
-NS_EVENT_STATE_SUPPRESSED
-bits
+bit
 set
 as
 needed
@@ -3778,11 +3775,6 @@ mLoading
 ;
 bool
 mBroken
-:
-1
-;
-bool
-mSuppressed
 :
 1
 ;
