@@ -677,6 +677,17 @@ mozilla
 fenix
 "
 :
+case
+"
+org
+.
+mozilla
+.
+fenix
+.
+nightly
+"
+:
 /
 /
 Official
