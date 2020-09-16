@@ -93,7 +93,6 @@ api
 :
 {
 PrimitiveKeyKind
-EdgeAaSegmentMask
 }
 ;
 use
@@ -119,6 +118,15 @@ malloc_size_of
 :
 :
 MallocSizeOf
+;
+use
+crate
+:
+:
+segment
+:
+:
+EdgeAaSegmentMask
 ;
 use
 crate

@@ -112,9 +112,6 @@ use
 crate
 :
 :
-api
-:
-:
 {
 IdNamespace
 TileSize
