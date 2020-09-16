@@ -35299,6 +35299,9 @@ return
 }
 }
 }
+#
+ifdef
+NS_PRINTING
 nsCOMPtr
 <
 nsIPrintSettingsService
@@ -35456,6 +35459,8 @@ nullptr
 aError
 )
 ;
+#
+endif
 }
 Nullable
 <

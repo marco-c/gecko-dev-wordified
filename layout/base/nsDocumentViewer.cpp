@@ -4096,6 +4096,9 @@ blocked
 "
 )
 ;
+#
+ifdef
+NS_PRINTING
 /
 /
 When
@@ -4132,6 +4135,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 NS_ASSERTION
 (
 !
@@ -10301,10 +10306,8 @@ Dialog
 if
 (
 mPrintJob
-)
-{
-if
-(
+&
+&
 mPrintJob
 -
 >
@@ -10316,7 +10319,6 @@ CheckBeforeDestroy
 return
 NS_OK
 ;
-}
 }
 #
 endif
