@@ -408,6 +408,14 @@ AXTextMarkerRangeRef
 aTextMarkerRange
 )
 ;
+GeckoTextMarkerRange
+(
+const
+AccessibleOrProxy
+&
+aAccessible
+)
+;
 id
 CreateAXTextMarkerRange
 (
