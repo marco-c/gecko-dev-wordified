@@ -73,7 +73,7 @@ h
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
@@ -87,7 +87,7 @@ h
 #
 include
 "
-CSFLog
+sdp_log
 .
 h
 "
@@ -301,7 +301,7 @@ version_reqd
 TRUE
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -1777,7 +1777,7 @@ owner_reqd
 TRUE
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -2147,7 +2147,7 @@ session_name_reqd
 TRUE
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -6382,7 +6382,7 @@ timespec_reqd
 TRUE
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -10463,7 +10463,7 @@ invalid_params
 TRUE
 )
 {
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -10836,7 +10836,7 @@ error
 .
 *
 /
-CSFLogError
+SDPLogError
 (
 logTag
 "

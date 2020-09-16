@@ -66,7 +66,7 @@ h
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
@@ -80,7 +80,7 @@ h
 #
 include
 "
-CSFLog
+sdp_log
 .
 h
 "
@@ -314,7 +314,7 @@ int
 _size_bytes
 )
 {
-CSFLogDebug
+SDPLogDebug
 (
 "
 sdp

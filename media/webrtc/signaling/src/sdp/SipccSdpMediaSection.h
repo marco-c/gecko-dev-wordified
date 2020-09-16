@@ -174,15 +174,7 @@ C
 #
 include
 "
-signaling
-/
-src
-/
-sdp
-/
-sipcc
-/
-sdp
+sipcc_sdp
 .
 h
 "

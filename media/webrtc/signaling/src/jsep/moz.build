@@ -132,6 +132,12 @@ trunk
 /
 webrtc
 '
+'
+/
+third_party
+/
+sipcc
+'
 ]
 UNIFIED_SOURCES
 +

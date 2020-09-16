@@ -66,7 +66,7 @@ h
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
@@ -80,7 +80,7 @@ h
 #
 include
 "
-CSFLog
+sdp_log
 .
 h
 "
@@ -7646,7 +7646,7 @@ sdp_p
 debug_str
 )
 ;
-CSFLogError
+SDPLogError
 (
 logTag
 "
@@ -9672,7 +9672,7 @@ va_end
 ap
 )
 ;
-CSFLogError
+SDPLogError
 (
 "
 SDP

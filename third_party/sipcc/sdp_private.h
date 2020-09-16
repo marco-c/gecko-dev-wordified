@@ -65,7 +65,7 @@ _SIPCC_SDP_PRIVATE_H_
 #
 include
 "
-sdp
+sipcc_sdp
 .
 h
 "
