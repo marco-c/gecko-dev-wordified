@@ -26,6 +26,7 @@ timedelta
 from
 six
 import
+ensure_text
 iterkeys
 itervalues
 iteritems
@@ -4571,11 +4572,9 @@ text
 file
 "
                                    
-dest
+type
 =
-"
-github_checks_text_file
-"
+ensure_text
                                    
 help
 =
