@@ -2286,13 +2286,9 @@ newCreds
 The
 specified
 credentials
-aren
-'
-t
-for
-the
-current
-user
+have
+no
+uid
 /
 )
 ;
