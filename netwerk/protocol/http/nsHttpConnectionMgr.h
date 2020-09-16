@@ -2072,7 +2072,7 @@ mDoNotDestroy
 1
 ;
 bool
-AllowHttp2
+AllowSpdy
 (
 )
 const
@@ -2082,12 +2082,7 @@ mCanUseSpdy
 ;
 }
 void
-DisallowHttp2
-(
-)
-;
-void
-DontReuseHttp3Conn
+DisallowSpdy
 (
 )
 ;
