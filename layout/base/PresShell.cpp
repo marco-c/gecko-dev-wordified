@@ -4813,7 +4813,7 @@ char
 *
 comma
 =
-PL_strchr
+strchr
 (
 flags
 '

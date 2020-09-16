@@ -2008,7 +2008,7 @@ char
 *
 cm
 =
-PL_strchr
+strchr
 (
 flags
 '
