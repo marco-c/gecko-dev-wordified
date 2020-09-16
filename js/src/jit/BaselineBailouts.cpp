@@ -16191,6 +16191,12 @@ case
 BailoutKind
 :
 :
+FunctionScriptGuard
+:
+case
+BailoutKind
+:
+:
 PackedArrayGuard
 :
 /
