@@ -29798,6 +29798,15 @@ nsACString
 aHeader
 )
 {
+if
+(
+mIsBeingDestroyed
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 /
 /
 Refresh
