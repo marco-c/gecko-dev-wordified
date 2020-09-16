@@ -656,8 +656,6 @@ an
 AutoJitContextAlloc
 before
 initializing
-/
-/
 the
 buffer
 .
@@ -1012,10 +1010,8 @@ isDisabled
 !
 instr
 )
-{
 return
 ;
-}
 char
 buffer
 [
@@ -1086,10 +1082,8 @@ isDisabled
 !
 instr
 )
-{
 return
 ;
-}
 char
 buffer
 [
@@ -1172,10 +1166,10 @@ likely
 garbage
 so
 remove
-/
-/
 it
 .
+/
+/
 The
 target
 label
@@ -1213,8 +1207,6 @@ Strip
 the
 #
 and
-/
-/
 later
 .
 size_t
@@ -1370,10 +1362,8 @@ isDisabled
 !
 instr
 )
-{
 return
 ;
-}
 char
 buffer
 [
@@ -1517,13 +1507,11 @@ isDisabled
 (
 )
 )
-{
 return
 LabelDoc
 (
 )
 ;
-}
 return
 spew_
 .
@@ -1758,8 +1746,6 @@ instruction
 marked
 as
 a
-/
-/
 branch
 .
 Emit

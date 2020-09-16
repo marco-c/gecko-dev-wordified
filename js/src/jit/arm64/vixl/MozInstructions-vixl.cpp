@@ -1203,11 +1203,9 @@ ImmUncondBranch
 =
 0
 )
-{
 return
 this
 ;
-}
 /
 /
 Check
@@ -1276,11 +1274,9 @@ Mask
 =
 0xffff0000
 )
-{
 return
 this
 ;
-}
 /
 /
 OK

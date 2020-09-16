@@ -720,7 +720,6 @@ DECLARE
 (
 A
 )
-\
 virtual
 void
 Visit
@@ -1247,10 +1246,6 @@ lastPage_
 }
 ;
 }
-/
-/
-namespace
-vixl
 #
 endif
 /

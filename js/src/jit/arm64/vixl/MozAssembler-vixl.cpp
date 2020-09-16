@@ -577,13 +577,11 @@ offset
 =
 kEndOfLabelUseList
 )
-{
 return
 BufferOffset
 (
 )
 ;
-}
 /
 /
 The
@@ -916,11 +914,9 @@ oom
 (
 )
 )
-{
 return
 kEndOfLabelUseList
 ;
-}
 if
 (
 label
