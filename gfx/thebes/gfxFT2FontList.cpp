@@ -768,7 +768,7 @@ mFilename
 {
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 reader
 =
@@ -845,7 +845,7 @@ if
 fontDataBuf
 )
 {
-CacheAwareZipCursor
+nsZipCursor
 cursor
 (
 item
@@ -3583,7 +3583,7 @@ buffer
 .
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 reader
 =
@@ -3718,7 +3718,7 @@ if
 buffer
 )
 {
-CacheAwareZipCursor
+nsZipCursor
 cursor
 (
 item
@@ -8311,7 +8311,7 @@ ttf
 ;
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 reader
 =
@@ -9106,7 +9106,7 @@ gfxFT2FontList
 :
 AppendFacesFromOmnijarEntry
 (
-CacheAwareZipReader
+nsZipArchive
 *
 aArchive
 const
@@ -9353,7 +9353,7 @@ buffer
 return
 ;
 }
-CacheAwareZipCursor
+nsZipCursor
 cursor
 (
 item
