@@ -1371,10 +1371,12 @@ clearIsIonCompilingOffThread
 script
 )
 ;
+const
 AbortReasonOr
 <
 Ok
 >
+&
 status
 =
 task
@@ -1399,7 +1401,7 @@ isErr
 &
 status
 .
-unwrapErr
+inspectErr
 (
 )
 =
