@@ -633,9 +633,6 @@ class
 AutoAssertNoContentJS
 ;
 class
-AutoKeepAtoms
-;
-class
 EnterDebuggeeNoExecute
 ;
 #
