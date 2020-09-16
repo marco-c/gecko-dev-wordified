@@ -296,8 +296,10 @@ Idle
 {
 mInputTaskManager
 =
-new
 InputTaskManager
+:
+:
+Get
 (
 )
 ;
