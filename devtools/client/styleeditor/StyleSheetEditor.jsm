@@ -3847,9 +3847,7 @@ getStyleSheetOwnerNode
 (
 this
 .
-styleSheet
-.
-actorID
+resourceId
 )
 ;
 await
