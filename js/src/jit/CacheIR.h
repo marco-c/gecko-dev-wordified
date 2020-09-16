@@ -10651,6 +10651,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachObjectIsPrototypeOf
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction

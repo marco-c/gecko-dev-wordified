@@ -13011,12 +13011,13 @@ Object_hasOwnProperty
 1
 0
 )
-JS_FN
+JS_INLINABLE_FN
 (
 js_isPrototypeOf_str
 obj_isPrototypeOf
 1
 0
+ObjectIsPrototypeOf
 )
 JS_FN
 (

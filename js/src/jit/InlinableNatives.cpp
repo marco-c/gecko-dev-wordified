@@ -1696,6 +1696,12 @@ case
 InlinableNative
 :
 :
+ObjectIsPrototypeOf
+:
+case
+InlinableNative
+:
+:
 ObjectToString
 :
 case
