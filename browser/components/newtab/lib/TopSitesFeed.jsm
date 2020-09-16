@@ -1258,6 +1258,15 @@ isStartup
 }
 )
 ;
+Services
+.
+prefs
+.
+clearUserPref
+(
+REMOTE_SETTING_MIGRATION_ID_PREF
+)
+;
 return
 ;
 }
