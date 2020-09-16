@@ -991,13 +991,6 @@ nsIAccessibleRole
 ROLE_TEXT_LEAF
 ;
 const
-ROLE_TIME_EDITOR
-=
-nsIAccessibleRole
-.
-ROLE_TIME_EDITOR
-;
-const
 ROLE_TOGGLE_BUTTON
 =
 nsIAccessibleRole
