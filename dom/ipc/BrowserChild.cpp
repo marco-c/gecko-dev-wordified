@@ -16848,6 +16848,9 @@ AsWebRenderLayerManager
 )
 )
 ;
+nsCString
+error
+;
 return
 aLayerManager
 -
@@ -16869,6 +16872,7 @@ mLayersId
 )
 &
 mTextureFactoryIdentifier
+error
 )
 ;
 }

@@ -12107,6 +12107,9 @@ windowId
 )
 ;
 }
+nsCString
+error
+;
 RefPtr
 <
 wr
@@ -12134,6 +12137,7 @@ widget
 )
 windowId
 aSize
+error
 )
 ;
 if
@@ -12150,6 +12154,13 @@ WebRenderBridgeParent
 CreateDestroyed
 (
 aPipelineId
+std
+:
+:
+move
+(
+error
+)
 )
 ;
 mWrBridge

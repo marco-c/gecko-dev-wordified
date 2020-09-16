@@ -399,6 +399,9 @@ aLayersId
 TextureFactoryIdentifier
 *
 aTextureFactoryIdentifier
+nsCString
+&
+aError
 )
 ;
 void

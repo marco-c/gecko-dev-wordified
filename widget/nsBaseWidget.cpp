@@ -9404,6 +9404,9 @@ mCompositorSession
 TextureFactoryIdentifier
 textureFactoryIdentifier
 ;
+nsCString
+error
+;
 lm
 -
 >
@@ -9434,6 +9437,7 @@ RootLayerTreeId
 )
 &
 textureFactoryIdentifier
+error
 )
 ;
 if
@@ -9489,6 +9493,7 @@ WebRenderError
 :
 :
 INITIALIZE
+error
 )
 ;
 }
