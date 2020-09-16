@@ -711,7 +711,6 @@ aSelf
 )
 {
 auto
-*
 self
 =
 static_cast
