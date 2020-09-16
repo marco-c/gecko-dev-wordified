@@ -29210,6 +29210,13 @@ setNoScriptRval
 true
 )
 ;
+options
+.
+setNonSyntacticScope
+(
+true
+)
+;
 JS
 :
 :
@@ -29247,7 +29254,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+Compile
 (
 cx
 options

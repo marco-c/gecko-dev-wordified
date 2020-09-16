@@ -4871,6 +4871,11 @@ Active
 (
 )
 )
+.
+setNonSyntacticScope
+(
+true
+)
 ;
 if
 (
@@ -4965,7 +4970,7 @@ Borrowed
 {
 script
 =
-CompileForNonSyntacticScope
+Compile
 (
 cx
 options
@@ -5038,7 +5043,7 @@ Borrowed
 {
 script
 =
-CompileForNonSyntacticScope
+Compile
 (
 cx
 options

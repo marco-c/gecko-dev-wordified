@@ -100,7 +100,7 @@ h
 JS
 :
 :
-CompileForNonSyntacticScope
+Compile
 #
 include
 "
@@ -345,6 +345,13 @@ setNoScriptRval
 true
 )
 ;
+options
+.
+setNonSyntacticScope
+(
+true
+)
+;
 JS
 :
 :
@@ -394,7 +401,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+Compile
 (
 cx
 options
@@ -933,6 +940,13 @@ setNoScriptRval
 true
 )
 ;
+options
+.
+setNonSyntacticScope
+(
+true
+)
+;
 JS
 :
 :
@@ -982,7 +996,7 @@ cx
 JS
 :
 :
-CompileForNonSyntacticScope
+Compile
 (
 cx
 options
