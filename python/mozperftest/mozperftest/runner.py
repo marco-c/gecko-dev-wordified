@@ -1023,10 +1023,6 @@ doc
 from
 mozperftest
 .
-test
-.
-browsertime
-.
 script
 import
 ScriptInfo

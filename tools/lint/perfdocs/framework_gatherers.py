@@ -78,10 +78,6 @@ TestManifest
 from
 mozperftest
 .
-test
-.
-browsertime
-.
 script
 import
 ScriptInfo
