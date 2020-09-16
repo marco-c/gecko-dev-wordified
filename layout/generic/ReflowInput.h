@@ -3806,15 +3806,6 @@ IsFloating
 )
 const
 ;
-mozilla
-:
-:
-StyleDisplay
-GetDisplay
-(
-)
-const
-;
 /
 /
 a
