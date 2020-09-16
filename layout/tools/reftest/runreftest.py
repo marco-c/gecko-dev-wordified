@@ -4577,7 +4577,7 @@ append
 "
 MOZ_CHAOSMODE
 =
-3
+0xfb
 "
 )
             
@@ -4618,7 +4618,7 @@ append
 "
 MOZ_CHAOSMODE
 =
-3
+0xfb
 "
 )
             
