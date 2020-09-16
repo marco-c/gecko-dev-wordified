@@ -1969,7 +1969,7 @@ char
 *
 colon
 =
-strchr
+PL_strchr
 (
 dup
 '
@@ -2071,7 +2071,7 @@ char
 *
 eq
 =
-strchr
+PL_strchr
 (
 dup
 '

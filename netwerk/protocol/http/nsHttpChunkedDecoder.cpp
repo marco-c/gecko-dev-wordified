@@ -132,6 +132,13 @@ algorithm
 #
 include
 "
+plstr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused
@@ -1218,7 +1225,7 @@ if
 (
 p
 =
-strchr
+PL_strchr
 (
 buf
 '
@@ -1230,13 +1237,11 @@ buf
 =
 nullptr
 )
-{
 *
 p
 =
 0
 ;
-}
 /
 /
 mChunkRemaining

@@ -6000,7 +6000,7 @@ char
 *
 p
 =
-strchr
+PL_strchr
 (
 buf
 .
