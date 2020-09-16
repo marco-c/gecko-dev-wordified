@@ -1515,9 +1515,7 @@ codes
 size_t
 foundIndex
 ;
-const
 nsDependentCSubstring
-&
 script
 =
 loc

@@ -89,7 +89,6 @@ Rc
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
