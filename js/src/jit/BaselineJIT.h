@@ -3018,8 +3018,6 @@ const
 JSJitFrameIter
 &
 iter
-bool
-invalidate
 BaselineBailoutInfo
 *
 *
