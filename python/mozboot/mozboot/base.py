@@ -1802,10 +1802,6 @@ checkout_root
 )
 :
         
-if
-checkout_root
-:
-            
 mach_binary
 =
 os
@@ -1826,7 +1822,7 @@ mach
 '
 )
 )
-            
+        
 if
 not
 os
@@ -1838,7 +1834,7 @@ exists
 mach_binary
 )
 :
-                
+            
 raise
 ValueError
 (
@@ -1853,7 +1849,7 @@ s
 %
 mach_binary
 )
-            
+        
 cmd
 =
 [
@@ -1869,7 +1865,7 @@ mach
 environment
 '
 ]
-            
+        
 subprocess
 .
 check_call
