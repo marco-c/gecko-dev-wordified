@@ -1992,6 +1992,15 @@ ScrollPositionUpdate
 aUpdate
 )
 ;
+CSSPoint
+ApplyPureRelativeScrollUpdateFrom
+(
+const
+ScrollPositionUpdate
+&
+aUpdate
+)
+;
 void
 UpdatePendingScrollInfo
 (
