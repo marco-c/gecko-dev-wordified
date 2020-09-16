@@ -1787,6 +1787,15 @@ uint64_t
 aOuterWindowId
 )
 ;
+void
+HistoryCommitIndexAndLength
+(
+const
+nsID
+&
+aChangeID
+)
+;
 /
 /
 XXX
