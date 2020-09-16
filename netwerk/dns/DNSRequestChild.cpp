@@ -1117,10 +1117,10 @@ kIPv6CStrBufSize
 ;
 if
 (
-addr
-.
-ToStringBuffer
+NetAddrToString
 (
+&
+addr
 buf
 sizeof
 (

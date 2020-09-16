@@ -10879,10 +10879,10 @@ isLocal
 isLocal
 |
 |
-peerAddr
-.
-IsLoopbackAddr
+IsLoopBackAddress
 (
+&
+peerAddr
 )
 ;
 if

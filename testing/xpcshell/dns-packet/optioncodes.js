@@ -141,13 +141,6 @@ return
 KEY_TAG
 '
 case
-15
-:
-return
-'
-EDNS_ERROR
-'
-case
 26946
 :
 return
@@ -319,13 +312,6 @@ KEY_TAG
 :
 return
 14
-case
-'
-EDNS_ERROR
-'
-:
-return
-15
 case
 '
 DEVICEID

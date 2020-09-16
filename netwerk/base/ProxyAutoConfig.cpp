@@ -4267,10 +4267,10 @@ dottedDecimal
 if
 (
 !
-netAddr
-.
-ToStringBuffer
+NetAddrToString
 (
+&
+netAddr
 dottedDecimal
 sizeof
 (
