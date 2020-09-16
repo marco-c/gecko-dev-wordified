@@ -167,6 +167,9 @@ widget
 CompositorWidget
 >
 aWidget
+nsACString
+&
+aError
 )
 ;
 explicit

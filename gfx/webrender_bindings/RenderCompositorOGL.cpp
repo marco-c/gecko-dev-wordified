@@ -194,6 +194,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 {
 RefPtr

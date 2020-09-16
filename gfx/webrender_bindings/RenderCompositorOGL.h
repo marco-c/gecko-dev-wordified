@@ -169,6 +169,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 ;
 RenderCompositorOGL

@@ -335,6 +335,9 @@ ID3D11DeviceContext
 aCtx
 HWND
 aHwnd
+nsACString
+&
+aError
 )
 ;
 explicit
@@ -699,6 +702,9 @@ Initialize
 (
 HWND
 aHwnd
+nsACString
+&
+aError
 )
 ;
 bool

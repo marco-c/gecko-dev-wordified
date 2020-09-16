@@ -890,6 +890,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 {
 if
@@ -926,6 +929,7 @@ move
 (
 aWidget
 )
+aError
 )
 ;
 #
@@ -943,6 +947,7 @@ move
 (
 aWidget
 )
+aError
 )
 ;
 #
@@ -977,6 +982,7 @@ move
 (
 aWidget
 )
+aError
 )
 ;
 }
@@ -1006,6 +1012,7 @@ RenderCompositorEGL
 Create
 (
 aWidget
+aError
 )
 ;
 if
@@ -1060,6 +1067,7 @@ move
 (
 aWidget
 )
+aError
 )
 ;
 #
@@ -1077,6 +1085,7 @@ move
 (
 aWidget
 )
+aError
 )
 ;
 #

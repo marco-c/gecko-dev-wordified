@@ -311,6 +311,9 @@ widget
 CompositorWidget
 >
 aWidget
+nsACString
+&
+aError
 )
 {
 #

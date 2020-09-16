@@ -995,6 +995,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 ;
 RenderCompositorNativeOGL
@@ -1199,6 +1202,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 ;
 RenderCompositorNativeSWGL

@@ -226,6 +226,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 ;
 explicit
@@ -252,6 +255,9 @@ RenderCompositorANGLE
 bool
 Initialize
 (
+nsACString
+&
+aError
 )
 ;
 bool
@@ -704,11 +710,17 @@ ID3D11Device
 *
 GetDeviceOfEGLDisplay
 (
+nsACString
+&
+aError
 )
 ;
 bool
 CreateSwapChain
 (
+nsACString
+&
+aError
 )
 ;
 void
@@ -734,6 +746,9 @@ aUseAlpha
 bool
 ShutdownEGLLibraryIfNecessary
 (
+nsACString
+&
+aError
 )
 ;
 RefPtr

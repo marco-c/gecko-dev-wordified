@@ -220,6 +220,9 @@ CompositorWidget
 &
 &
 aWidget
+nsACString
+&
+aError
 )
 ;
 RenderCompositor
