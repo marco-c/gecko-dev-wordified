@@ -9999,6 +9999,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachStringToStringValueOf
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachStringChar
 (
 HandleFunction
