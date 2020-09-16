@@ -345,10 +345,8 @@ equal
 metadata
 [
 "
-test
--
+Test
 search
--
 engine
 "
 ]
@@ -364,12 +362,9 @@ equal
 metadata
 [
 "
-a
--
+A
 second
--
 test
--
 engine
 "
 ]
