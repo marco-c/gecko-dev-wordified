@@ -200,6 +200,7 @@ box_
 :
 :
 {
+ButtonAppearance
 Clear
 as
 SpecifiedClear
