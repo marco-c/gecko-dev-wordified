@@ -1269,7 +1269,14 @@ ContentParentId
 aContentParentId
 )
 ;
+Result
+<
+nsCOMPtr
+<
+nsIFile
+>
 nsresult
+>
 GetDirectoryForOrigin
 (
 PersistenceType
@@ -1278,10 +1285,6 @@ const
 nsACString
 &
 aASCIIOrigin
-nsIFile
-*
-*
-aDirectory
 )
 const
 ;
