@@ -31629,11 +31629,6 @@ in
 the
 row
 group
-if
-(
-aFindFirstDamagedRow
-)
-{
 /
 /
 find
@@ -31686,7 +31681,6 @@ ABORT1
 false
 )
 ;
-}
 }
 }
 else

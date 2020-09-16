@@ -12121,11 +12121,6 @@ Time
 beginAfter
 )
 {
-if
-(
-prevIntervalWasZeroDur
-)
-{
 beginAfter
 .
 SetMillis
@@ -12150,7 +12145,6 @@ false
 ;
 continue
 ;
-}
 }
 prevIntervalWasZeroDur
 =

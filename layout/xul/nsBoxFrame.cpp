@@ -6113,11 +6113,6 @@ ownLayerClipState
 aBuilder
 )
 ;
-if
-(
-forceLayer
-)
-{
 /
 /
 Wrap
@@ -6173,7 +6168,6 @@ true
 true
 )
 ;
-}
 }
 }
 void
