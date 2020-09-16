@@ -842,7 +842,7 @@ url
 const
 onNewRoot
 =
-waitForResourceOnce
+waitForNextResource
 (
 resourceWatcher
 resourceWatcher
@@ -850,6 +850,11 @@ resourceWatcher
 TYPES
 .
 ROOT_NODE
+{
+ignoreExistingResources
+:
+true
+}
 )
 ;
 info
