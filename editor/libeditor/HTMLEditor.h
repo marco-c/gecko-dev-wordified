@@ -20587,7 +20587,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 aPoint
 aRv
@@ -20622,7 +20622,7 @@ Failed
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed

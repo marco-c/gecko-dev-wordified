@@ -1383,7 +1383,7 @@ rv
 selection
 -
 >
-Collapse
+CollapseInLimiter
 (
 textNode
 mOffset
@@ -1399,7 +1399,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -2168,7 +2168,7 @@ rv
 selection
 -
 >
-Collapse
+CollapseInLimiter
 (
 aTextNode
 caretOffset
@@ -2184,7 +2184,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -2649,7 +2649,7 @@ rv
 selection
 -
 >
-Collapse
+CollapseInLimiter
 (
 aTextNode
 caretOffset
@@ -2665,7 +2665,7 @@ rv
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed

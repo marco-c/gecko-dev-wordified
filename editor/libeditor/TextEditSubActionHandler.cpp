@@ -1677,7 +1677,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 pointAfterInsertedLineFeed
 )
@@ -1696,7 +1696,7 @@ NS_WARNING
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -2260,7 +2260,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 afterStartContainer
 ignoredError
@@ -2292,7 +2292,7 @@ Failed
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
@@ -3939,7 +3939,7 @@ SelectionRefPtr
 )
 -
 >
-Collapse
+CollapseInLimiter
 (
 pointAfterStringInserted
 ignoredError
@@ -3974,7 +3974,7 @@ Failed
 Selection
 :
 :
-Collapse
+CollapseInLimiter
 (
 )
 failed
