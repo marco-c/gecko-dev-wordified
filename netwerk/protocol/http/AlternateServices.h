@@ -741,6 +741,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+aIsHttp3
 )
 ;
 bool
@@ -1152,6 +1154,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+aHttp2Allowed
 bool
 aHttp3Allowed
 )
