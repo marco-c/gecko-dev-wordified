@@ -189,6 +189,15 @@ established
 +
 send
 messages
+const
+onNetworkEvents
+=
+waitForNetworkEvents
+(
+monitor
+1
+)
+;
 await
 SpecialPowers
 .
@@ -217,6 +226,9 @@ openConnection
 ;
 }
 )
+;
+await
+onNetworkEvents
 ;
 const
 requests

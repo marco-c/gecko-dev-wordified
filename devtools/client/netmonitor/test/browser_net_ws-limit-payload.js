@@ -185,6 +185,15 @@ established
 +
 send
 messages
+const
+onNetworkEvents
+=
+waitForNetworkEvents
+(
+monitor
+1
+)
+;
 await
 SpecialPowers
 .
@@ -237,6 +246,9 @@ toString
 payload
 }
 )
+;
+await
+onNetworkEvents
 ;
 const
 requests
