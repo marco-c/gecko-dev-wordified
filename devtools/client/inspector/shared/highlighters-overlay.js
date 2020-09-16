@@ -573,6 +573,10 @@ TRANSFORM
 shown
 :
 "
+css
+-
+transform
+-
 highlighter
 -
 shown
@@ -580,6 +584,10 @@ shown
 hidden
 :
 "
+css
+-
+transform
+-
 highlighter
 -
 hidden
@@ -8143,6 +8151,10 @@ this
 emit
 (
 "
+css
+-
+transform
+-
 highlighter
 -
 hidden
@@ -9507,6 +9519,10 @@ this
 emit
 (
 "
+css
+-
+transform
+-
 highlighter
 -
 shown
