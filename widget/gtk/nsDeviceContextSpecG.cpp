@@ -1702,10 +1702,6 @@ name
 .
 if
 (
-GtkPrinter
-*
-printer
-=
 mPrintSettings
 -
 >
