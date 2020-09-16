@@ -1268,6 +1268,11 @@ oneOffs
 engine
 .
 name
+entry
+:
+"
+oneoff
+"
 }
 )
 ;
@@ -1827,6 +1832,11 @@ engineName
 defaultEngine
 .
 name
+entry
+:
+"
+shortcut
+"
 }
 )
 ;
@@ -1927,6 +1937,11 @@ engineName
 defaultEngine
 .
 name
+entry
+:
+"
+shortcut
+"
 }
 )
 ;

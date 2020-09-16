@@ -1520,6 +1520,11 @@ result
 payload
 .
 engine
+entry
+:
+"
+topsites_urlbar
+"
 }
 )
 ;

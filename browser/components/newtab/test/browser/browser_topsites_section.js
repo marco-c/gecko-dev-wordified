@@ -1552,6 +1552,11 @@ gURLBar
 searchMode
 {
 engineName
+entry
+:
+"
+topsites_newtab
+"
 }
 "
 The

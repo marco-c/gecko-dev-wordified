@@ -2442,6 +2442,9 @@ searchWithAlias
 "
 Foo
 "
+"
+topsites_newtab
+"
 )
 ;
 }
@@ -3984,6 +3987,9 @@ searchWithAlias
 google
 "
 "
+handoff
+"
+"
 foo
 "
 )
@@ -4170,6 +4176,9 @@ searchWithAlias
 bing
 "
 "
+handoff
+"
+"
 foo
 "
 )
@@ -4348,6 +4357,9 @@ searchWithAlias
 google
 "
 "
+handoff
+"
+"
 foo
 "
 )
@@ -4524,6 +4536,9 @@ fakeUrlBar
 .
 searchWithAlias
 "
+"
+"
+handoff
 "
 "
 foo

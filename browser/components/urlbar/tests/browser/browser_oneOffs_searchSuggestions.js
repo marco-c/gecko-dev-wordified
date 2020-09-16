@@ -1113,6 +1113,11 @@ engineName
 gEngine
 .
 name
+entry
+:
+"
+oneoff
+"
 }
 )
 ;
@@ -1544,6 +1549,11 @@ engineName
 gEngine2
 .
 name
+entry
+:
+"
+oneoff
+"
 }
 )
 ;
@@ -1855,6 +1865,11 @@ engineName
 gEngine2
 .
 name
+entry
+:
+"
+oneoff
+"
 }
 )
 ;
@@ -2170,6 +2185,11 @@ engineName
 gEngine2
 .
 name
+entry
+:
+"
+oneoff
+"
 }
 )
 ;

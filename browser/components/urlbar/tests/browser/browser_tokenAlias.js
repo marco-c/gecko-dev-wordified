@@ -2378,6 +2378,11 @@ result
 payload
 .
 engine
+entry
+:
+"
+keywordoffer
+"
 }
 )
 ;
@@ -3098,6 +3103,11 @@ details
 searchParams
 .
 engine
+entry
+:
+"
+keywordoffer
+"
 }
 )
 ;
@@ -3535,6 +3545,11 @@ result
 payload
 .
 engine
+entry
+:
+"
+keywordoffer
+"
 }
 )
 ;
@@ -3705,6 +3720,11 @@ result
 payload
 .
 engine
+entry
+:
+"
+typed
+"
 }
 )
 ;
