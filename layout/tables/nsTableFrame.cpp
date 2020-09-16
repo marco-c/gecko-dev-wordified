@@ -14727,7 +14727,10 @@ availSize
 ReflowInput
 :
 :
-DUMMY_PARENT_REFLOW_INPUT
+InitFlag
+:
+:
+DummyParentReflowInput
 )
 ;
 nsReflowStatus
@@ -20317,7 +20320,10 @@ Nothing
 ReflowInput
 :
 :
-CALLER_WILL_INIT
+InitFlag
+:
+:
+CallerWillInit
 )
 ;
 InitChildReflowInput
@@ -20509,7 +20515,10 @@ Nothing
 ReflowInput
 :
 :
-CALLER_WILL_INIT
+InitFlag
+:
+:
+CallerWillInit
 )
 ;
 InitChildReflowInput
@@ -21568,7 +21577,10 @@ Nothing
 ReflowInput
 :
 :
-CALLER_WILL_INIT
+InitFlag
+:
+:
+CallerWillInit
 )
 ;
 InitChildReflowInput

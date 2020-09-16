@@ -5281,7 +5281,10 @@ Nothing
 ReflowInput
 :
 :
-CALLER_WILL_INIT
+InitFlag
+:
+:
+CallerWillInit
 )
 ;
 const
