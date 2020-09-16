@@ -270,6 +270,18 @@ SERVER_URL
 )
                 
 "
+telemetry
+.
+fog
+.
+test
+.
+localhost_port
+"
+:
+1337
+                
+"
 toolkit
 .
 telemetry
