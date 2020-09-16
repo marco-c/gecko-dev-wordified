@@ -4882,8 +4882,6 @@ AttrSelectorOperation
 WithValue
 {
 operator
-:
-operator
 case_sensitivity
 :
 case_sensitivity
@@ -5034,8 +5032,6 @@ AttrSelectorOperation
 WithValue
 {
 operator
-:
-operator
 case_sensitivity
 :
 case_sensitivity
@@ -5044,8 +5040,6 @@ to_unconditional
 (
 is_html
 )
-expected_value
-:
 expected_value
 }
 }
