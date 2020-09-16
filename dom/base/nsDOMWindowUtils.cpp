@@ -5672,7 +5672,7 @@ ClearSharedStyleSheetCache
 SharedStyleSheetCache
 :
 :
-ClearForTest
+Clear
 (
 )
 ;
