@@ -3414,7 +3414,9 @@ Length
 i
 )
 {
+const
 nsCString
+&
 keyValue
 =
 keyValues
@@ -3495,7 +3497,9 @@ return
 false
 ;
 }
+const
 nsCString
+&
 key
 =
 splitted
@@ -3503,7 +3507,9 @@ splitted
 0
 ]
 ;
+const
 nsCString
+&
 value
 =
 splitted
@@ -4065,7 +4071,9 @@ return
 false
 ;
 }
+const
 nsCString
+&
 minValue
 =
 versionRange
@@ -4073,7 +4081,9 @@ versionRange
 0
 ]
 ;
+const
 nsCString
+&
 maxValue
 =
 versionRange
@@ -4362,6 +4372,7 @@ i
 )
 {
 nsCString
+&
 blocklistEntry
 =
 aBlocklistEntries
