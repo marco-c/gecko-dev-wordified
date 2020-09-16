@@ -14368,6 +14368,12 @@ case
 CacheKind
 :
 :
+OptimizeSpreadCall
+:
+case
+CacheKind
+:
+:
 ToBool
 :
 case

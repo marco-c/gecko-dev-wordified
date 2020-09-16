@@ -21106,6 +21106,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
+:
 /
 /
 We
@@ -21369,6 +21375,12 @@ CacheKind
 :
 :
 InstanceOf
+:
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
 :
 resultType
 =

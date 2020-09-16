@@ -3760,6 +3760,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
+:
 MOZ_CRASH
 (
 "
@@ -4272,6 +4278,12 @@ CacheKind
 :
 :
 ToPropertyKey
+:
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
 :
 MOZ_CRASH
 (

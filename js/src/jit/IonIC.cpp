@@ -621,6 +621,12 @@ CacheKind
 :
 NewObject
 :
+case
+CacheKind
+:
+:
+OptimizeSpreadCall
+:
 MOZ_CRASH
 (
 "
