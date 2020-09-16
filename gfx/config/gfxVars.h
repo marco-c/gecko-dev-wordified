@@ -568,6 +568,13 @@ false
 \
 _
 (
+UseAHardwareBufferSharedSurface
+bool
+false
+)
+\
+_
+(
 UseEGL
 bool
 false

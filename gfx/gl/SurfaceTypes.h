@@ -137,6 +137,7 @@ IOSurface
 GLXDrawable
 SharedGLTexture
 AndroidSurfaceTexture
+AndroidHardwareBuffer
 EGLSurfaceDMABUF
 }
 ;
