@@ -13509,11 +13509,6 @@ MozBroken
 NonTSPseudoClass
 :
 :
-MozSuppressed
-|
-NonTSPseudoClass
-:
-:
 MozLoading
 |
 NonTSPseudoClass
