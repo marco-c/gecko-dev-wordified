@@ -2190,7 +2190,7 @@ mState
 ;
 }
 void
-AssertStateIsSmoothScroll
+AssertStateIsSmoothMsdScroll
 (
 )
 const
@@ -2203,7 +2203,7 @@ mRecursiveMutex
 ;
 EXPECT_EQ
 (
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 mState
 )
 ;

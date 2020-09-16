@@ -6092,14 +6092,14 @@ mEndZoom
 }
 ;
 class
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 :
 public
 AsyncPanZoomAnimation
 {
 public
 :
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 (
 AsyncPanZoomController
 &
@@ -7041,9 +7041,9 @@ GetDestination
 )
 ;
 }
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 *
-AsSmoothScrollAnimation
+AsSmoothMsdScrollAnimation
 (
 )
 override
@@ -10224,7 +10224,7 @@ case
 ANIMATING_ZOOM
 :
 case
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 :
 case
 OVERSCROLL_ANIMATION
@@ -10431,7 +10431,7 @@ case
 FLING
 :
 case
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 :
 case
 NOTHING
@@ -10985,7 +10985,7 @@ case
 ANIMATING_ZOOM
 :
 case
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 :
 case
 NOTHING
@@ -14980,7 +14980,7 @@ physics
 .
 Note
 that
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 )
 will
@@ -15025,7 +15025,7 @@ c_str
 )
 )
 ;
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 destination
 )
@@ -17386,7 +17386,7 @@ physics
 .
 Note
 that
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 )
 will
@@ -17431,7 +17431,7 @@ c_str
 )
 )
 ;
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 startPosition
 )
@@ -17819,12 +17819,12 @@ if
 mState
 =
 =
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 )
 {
 /
 /
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 scrolls
 are
 cancelled
@@ -18001,7 +18001,7 @@ if
 mState
 =
 =
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 )
 {
 if
@@ -18014,7 +18014,7 @@ aFingersOnTouchpad
 /
 When
 a
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 scroll
 is
 being
@@ -18038,7 +18038,7 @@ cancel
 the
 /
 /
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 scroll
 animations
 enabling
@@ -18074,7 +18074,7 @@ nsEventStatus_eConsumeNoDefault
 }
 /
 /
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 scrolls
 are
 cancelled
@@ -19494,12 +19494,12 @@ if
 mState
 =
 =
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 )
 {
 /
 /
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 scrolls
 are
 cancelled
@@ -24047,7 +24047,7 @@ if
 mState
 !
 =
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 )
 {
 SetState
@@ -24258,7 +24258,7 @@ if
 mState
 =
 =
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 )
 {
 return
@@ -24267,7 +24267,7 @@ Some
 mAnimation
 -
 >
-AsSmoothScrollAnimation
+AsSmoothMsdScrollAnimation
 (
 )
 -
@@ -24658,7 +24658,7 @@ void
 AsyncPanZoomController
 :
 :
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 const
 CSSPoint
@@ -24671,7 +24671,7 @@ if
 mState
 =
 =
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 &
 &
 mAnimation
@@ -24695,13 +24695,13 @@ this
 ;
 RefPtr
 <
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 >
 animation
 (
 static_cast
 <
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 *
 >
 (
@@ -24730,7 +24730,7 @@ CancelAnimation
 ;
 SetState
 (
-SMOOTH_SCROLL
+SMOOTHMSD_SCROLL
 )
 ;
 /
@@ -24782,7 +24782,7 @@ GetZoom
 StartAnimation
 (
 new
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 (
 *
 this
@@ -33601,7 +33601,7 @@ GetDestination
 )
 ;
 }
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 destination
 )
@@ -38178,7 +38178,7 @@ c_str
 )
 )
 ;
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 *
 snapPoint
@@ -38567,7 +38567,7 @@ startPosition
 y
 )
 ;
-SmoothScrollTo
+SmoothMsdScrollTo
 (
 startPosition
 )

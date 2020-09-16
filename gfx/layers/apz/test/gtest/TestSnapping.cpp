@@ -971,7 +971,7 @@ ScreenIntPoint
 apzc
 -
 >
-AssertStateIsSmoothScroll
+AssertStateIsSmoothMsdScroll
 (
 )
 ;

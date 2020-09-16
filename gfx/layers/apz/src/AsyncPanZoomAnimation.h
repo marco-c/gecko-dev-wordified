@@ -175,7 +175,7 @@ class
 KeyboardScrollAnimation
 ;
 class
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 ;
 class
 AsyncPanZoomAnimation
@@ -526,9 +526,9 @@ nullptr
 ;
 }
 virtual
-SmoothScrollAnimation
+SmoothMsdScrollAnimation
 *
-AsSmoothScrollAnimation
+AsSmoothMsdScrollAnimation
 (
 )
 {
