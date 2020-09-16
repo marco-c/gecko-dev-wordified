@@ -562,6 +562,11 @@ WasmBCE
 .
 cpp
 '
+'
+XrayJitInfo
+.
+cpp
+'
 ]
 if
 CONFIG
