@@ -428,7 +428,7 @@ onAvailable
 :
 actions
 .
-addExceptionFromResources
+addExceptionFromResource
 }
 )
 ;

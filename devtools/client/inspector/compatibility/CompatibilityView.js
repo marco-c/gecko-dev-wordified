@@ -1527,15 +1527,9 @@ nodeFront
 }
 _onResourceAvailable
 (
-resources
-)
 {
-for
-(
-const
 resource
-of
-resources
+}
 )
 {
 /
@@ -1595,7 +1589,6 @@ _onChangeAdded
 resource
 )
 ;
-}
 }
 }
 _onTopLevelTargetChanged

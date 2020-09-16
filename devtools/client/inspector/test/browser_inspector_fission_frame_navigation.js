@@ -562,6 +562,7 @@ Actors
 const
 {
 resource
+targetFront
 }
 =
 await
@@ -574,6 +575,7 @@ EXAMPLE_COM_URI
 is
 (
 resource
+?
 .
 resourceType
 resourceWatcher
@@ -773,8 +775,6 @@ id
 todo
 (
 !
-resource
-.
 targetFront
 .
 getCachedFront

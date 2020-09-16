@@ -705,15 +705,9 @@ onResourceAvailable
 }
 onResourceAvailable
 (
-resources
-)
 {
-for
-(
-const
 resource
-of
-resources
+}
 )
 {
 if
@@ -740,7 +734,7 @@ onAddChange
 resource
 )
 ;
-continue
+return
 ;
 }
 if
@@ -857,7 +851,6 @@ onClearChanges
 (
 )
 ;
-}
 }
 }
 /
