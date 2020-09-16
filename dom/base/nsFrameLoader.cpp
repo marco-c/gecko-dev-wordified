@@ -20711,6 +20711,16 @@ totalPageCount
 (
 )
 ;
+info
+.
+mHasSelection
+=
+aInfo
+.
+hasSelection
+(
+)
+;
 promise
 -
 >
