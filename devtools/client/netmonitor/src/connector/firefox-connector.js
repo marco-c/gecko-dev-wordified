@@ -1223,6 +1223,7 @@ for
 const
 {
 resource
+update
 }
 of
 updates
@@ -1254,6 +1255,7 @@ dataProvider
 onNetworkResourceUpdated
 (
 resource
+update
 )
 ;
 }

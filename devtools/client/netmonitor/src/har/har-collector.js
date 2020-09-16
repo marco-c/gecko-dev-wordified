@@ -1279,6 +1279,7 @@ for
 const
 {
 resource
+update
 }
 of
 updates
@@ -1364,7 +1365,7 @@ onNetworkEventUpdate
 ;
 "
 +
-resource
+update
 .
 updateType
 resource
@@ -1395,7 +1396,7 @@ request
 ;
 switch
 (
-resource
+update
 .
 updateType
 )

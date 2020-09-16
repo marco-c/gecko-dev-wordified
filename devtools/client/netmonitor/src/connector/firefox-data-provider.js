@@ -2125,11 +2125,12 @@ async
 onNetworkResourceUpdated
 (
 resource
+update
 )
 {
 switch
 (
-resource
+update
 .
 updateType
 )
@@ -2472,7 +2473,7 @@ actor
 {
 [
 {
-resource
+update
 .
 updateType
 }
