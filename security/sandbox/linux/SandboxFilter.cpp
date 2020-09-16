@@ -2053,7 +2053,11 @@ if
 flags
 &
 ~
+(
 AT_SYMLINK_NOFOLLOW
+|
+AT_NO_AUTOMOUNT
+)
 )
 !
 =
@@ -2088,7 +2092,11 @@ d
 flags
 &
 ~
+(
 AT_SYMLINK_NOFOLLOW
+|
+AT_NO_AUTOMOUNT
+)
 )
 fd
 path
