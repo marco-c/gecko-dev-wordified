@@ -13,12 +13,7 @@ the
 same
 /
 /
-callee
-.
-I
-love
-this
-job
+calleeScript
 .
 var
 g
@@ -96,7 +91,7 @@ assertEq
 (
 env
 .
-callee
+calleeScript
 gw
 .
 makeDebuggeeValue
@@ -105,6 +100,8 @@ g
 .
 f
 )
+.
+script
 )
 ;
 }

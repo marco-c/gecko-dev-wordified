@@ -91,7 +91,7 @@ env
 .
 function
 .
-name
+displayName
 "
 banana3
 "
@@ -149,7 +149,7 @@ parent
 .
 function
 .
-name
+displayName
 "
 banana2
 "
@@ -206,7 +206,7 @@ parent
 .
 function
 .
-name
+displayName
 "
 banana
 "

@@ -395,12 +395,12 @@ const
 ;
 MOZ_MUST_USE
 bool
-getCallee
+getCalleeScript
 (
 JSContext
 *
 cx
-MutableHandleDebuggerObject
+MutableHandleDebuggerScript
 result
 )
 const
