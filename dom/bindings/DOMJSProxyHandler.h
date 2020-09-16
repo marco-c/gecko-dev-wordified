@@ -304,7 +304,7 @@ a
 pointer
 to
 a
-js
+JS
 :
 :
 ExpandoAndGeneration
@@ -344,7 +344,7 @@ stored
 in
 the
 *
-js
+JS
 :
 :
 ExpandoAndGeneration
@@ -1357,6 +1357,9 @@ tracing
 the
 expando
 in
+JS
+:
+:
 ExpandoAndGeneration
 .
 class
