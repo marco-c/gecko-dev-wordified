@@ -9347,6 +9347,8 @@ Instance
 instance
 =
 *
+GetNearestEffectiveTls
+(
 Frame
 :
 :
@@ -9356,11 +9358,10 @@ regs
 .
 fp
 )
+)
 -
 >
 instance
-(
-)
 ;
 MOZ_ASSERT
 (
