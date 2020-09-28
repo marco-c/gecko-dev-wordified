@@ -171,6 +171,15 @@ include
 "
 vm
 /
+EnvironmentObject
+.
+h
+"
+#
+include
+"
+vm
+/
 TypeInference
 .
 h

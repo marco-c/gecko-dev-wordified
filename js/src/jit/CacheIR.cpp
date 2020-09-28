@@ -165,6 +165,15 @@ h
 #
 include
 "
+builtin
+/
+ModuleObject
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineCacheIRCompiler
