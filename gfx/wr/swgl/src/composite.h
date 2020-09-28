@@ -470,6 +470,8 @@ dstBounds
 height
 (
 )
+-
+bandOffset
 bandHeight
 )
 ;
@@ -1415,6 +1417,8 @@ dstBounds
 height
 (
 )
+-
+bandOffset
 bandHeight
 )
 ;
@@ -3182,6 +3186,8 @@ bounds
 height
 (
 )
+-
+bandOffset
 bandHeight
 )
 ;
