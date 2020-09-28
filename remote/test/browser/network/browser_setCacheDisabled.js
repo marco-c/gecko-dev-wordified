@@ -458,13 +458,11 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
 /
-icons
-/
-resizer
+chevron
 .
 svg
 so
