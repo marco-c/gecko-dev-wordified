@@ -2177,6 +2177,8 @@ CertID
 certID
 Time
 time
+Time
+validityBeginning
 Duration
 validityDuration
 /
@@ -2197,15 +2199,6 @@ const
 Input
 *
 aiaExtension
-/
-*
-optional
-*
-/
-const
-Input
-*
-sctExtension
 )
 =
 0
