@@ -2932,13 +2932,6 @@ return
 mMaxHttpResponseHeaderSize
 ;
 }
-const
-nsCString
-&
-Http3QlogDir
-(
-)
-;
 float
 FocusedWindowTransactionRatio
 (
@@ -4227,9 +4220,6 @@ uint32_t
 or
 uint64_t
 .
-nsCString
-mHttp3QlogDir
-;
 /
 /
 The
