@@ -1055,7 +1055,7 @@ URI_CAN_LOAD_IN_PRIVILEGEDABOUT_PROCESS
 }
 {
 "
-ion
+pioneer
 "
 "
 chrome
@@ -1066,7 +1066,7 @@ browser
 /
 content
 /
-ion
+pioneer
 .
 html
 "

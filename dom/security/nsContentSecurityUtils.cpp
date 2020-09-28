@@ -6362,7 +6362,7 @@ addons
 preferences
 debugging
 newinstall
-ion
+pioneer
 devtools
 all
 have
@@ -6446,7 +6446,7 @@ aboutSpec
 "
 about
 :
-ion
+pioneer
 "
 _ns
 )
