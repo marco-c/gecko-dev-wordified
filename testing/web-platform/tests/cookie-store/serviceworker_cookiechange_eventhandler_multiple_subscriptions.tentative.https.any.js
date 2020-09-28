@@ -219,11 +219,6 @@ cookie
 -
 name1
 '
-matchType
-:
-'
-equals
-'
 url
 :
 {
@@ -286,14 +281,7 @@ name
 '
 cookie
 -
-prefix
-'
-matchType
-:
-'
-starts
--
-with
+name2
 '
 }
 ]

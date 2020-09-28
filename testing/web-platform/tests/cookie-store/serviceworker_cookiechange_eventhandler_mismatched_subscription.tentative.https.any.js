@@ -158,11 +158,6 @@ cookie
 -
 name
 '
-matchType
-:
-'
-equals
-'
 url
 :
 {
