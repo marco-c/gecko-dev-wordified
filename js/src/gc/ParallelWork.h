@@ -364,8 +364,17 @@ next
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 {
+AutoUnlockHelperThreadState
+unlock
+(
+lock
+)
+;
 /
 /
 These

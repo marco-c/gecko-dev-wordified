@@ -563,6 +563,9 @@ lock
 void
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 override
 ;

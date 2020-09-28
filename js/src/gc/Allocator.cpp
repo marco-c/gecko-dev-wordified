@@ -5894,8 +5894,17 @@ BackgroundAllocTask
 :
 run
 (
+AutoLockHelperThreadState
+&
+lock
 )
 {
+AutoUnlockHelperThreadState
+unlock
+(
+lock
+)
+;
 TraceLoggerThread
 *
 logger
@@ -5912,7 +5921,7 @@ TraceLogger_GCAllocation
 )
 ;
 AutoLockGC
-lock
+gcLock
 (
 gc
 )
@@ -5928,7 +5937,7 @@ gc
 >
 wantBackgroundAllocation
 (
-lock
+gcLock
 )
 )
 {
@@ -5940,7 +5949,7 @@ chunk
 AutoUnlockGC
 unlock
 (
-lock
+gcLock
 )
 ;
 chunk
