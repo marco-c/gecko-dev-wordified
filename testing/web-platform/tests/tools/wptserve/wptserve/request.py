@@ -995,6 +995,31 @@ request
 attribute
 :
 :
+client_address
+    
+Contains
+a
+tuple
+of
+the
+form
+(
+host
+port
+)
+representing
+the
+client
+'
+s
+address
+.
+    
+.
+.
+attribute
+:
+:
 protocol_version
     
 HTTP
@@ -1381,6 +1406,14 @@ Set
 by
 the
 router
+        
+self
+.
+client_address
+=
+request_handler
+.
+client_address
         
 self
 .
