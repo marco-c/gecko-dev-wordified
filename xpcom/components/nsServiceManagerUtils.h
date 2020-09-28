@@ -135,7 +135,6 @@ nsString
 h
 "
 inline
-const
 nsGetServiceByCID
 do_GetService
 (
@@ -153,7 +152,6 @@ aCID
 ;
 }
 inline
-const
 nsGetServiceByCIDWithError
 do_GetService
 (
@@ -175,7 +173,6 @@ aError
 ;
 }
 inline
-const
 nsGetServiceByContractID
 do_GetService
 (
@@ -193,7 +190,6 @@ aContractID
 ;
 }
 inline
-const
 nsGetServiceByContractIDWithError
 do_GetService
 (
