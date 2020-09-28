@@ -5800,6 +5800,12 @@ this
 process
 before
 .
+if
+(
+!
+sessionHistoryInParent
+)
+{
 let
 requestedIndex
 =
@@ -5929,6 +5935,7 @@ remoteType
 =
 wantRemoteType
 ;
+}
 }
 /
 /
