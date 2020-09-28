@@ -1398,6 +1398,14 @@ mWillGenerateFrame
 bool
 mDestroyed
 ;
+#
+ifdef
+XP_WIN
+bool
+mUseWebRenderDCompVideoOverlayWin
+;
+#
+endif
 /
 /
 Render
