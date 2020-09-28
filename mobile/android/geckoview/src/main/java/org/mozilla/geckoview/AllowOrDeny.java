@@ -108,9 +108,7 @@ mozilla
 geckoview
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

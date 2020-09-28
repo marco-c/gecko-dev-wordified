@@ -141,9 +141,7 @@ util
 GeckoBundle
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

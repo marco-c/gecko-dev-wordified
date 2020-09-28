@@ -111,9 +111,7 @@ camera2
 CameraManager
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

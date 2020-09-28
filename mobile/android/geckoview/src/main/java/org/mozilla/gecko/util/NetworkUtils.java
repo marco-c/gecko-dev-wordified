@@ -120,9 +120,7 @@ net
 NetworkInfo
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

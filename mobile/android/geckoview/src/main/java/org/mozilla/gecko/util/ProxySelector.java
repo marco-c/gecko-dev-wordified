@@ -195,9 +195,7 @@ gecko
 util
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

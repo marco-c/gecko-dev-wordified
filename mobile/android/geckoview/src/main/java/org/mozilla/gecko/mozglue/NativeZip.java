@@ -99,9 +99,7 @@ gecko
 mozglue
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .
