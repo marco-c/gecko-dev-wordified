@@ -278,6 +278,9 @@ handleFullscreenChanged
 (
 )
 {
+debug
+handleFullscreenChanged
+;
 const
 element
 =
