@@ -620,11 +620,11 @@ mModifierStates
 struct
 SpoofingKeyboardInfo
 {
-KeyNameIndex
-mKeyIdx
-;
 nsString
 mKey
+;
+KeyNameIndex
+mKeyIdx
 ;
 SpoofingKeyboardCode
 mSpoofingCode
