@@ -1447,6 +1447,24 @@ config
 topsrcdir
 )
     
+non_unified_sources
+=
+set
+(
+[
+mozpath
+.
+normpath
+(
+s
+)
+for
+s
+in
+non_unified_sources
+]
+)
+    
 def
 target_info
 (
