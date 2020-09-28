@@ -132,13 +132,6 @@ h
 #
 include
 "
-nsITabSource
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
