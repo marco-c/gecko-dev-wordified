@@ -1437,6 +1437,9 @@ topsites_newtab
 topsites_urlbar
 "
 "
+touchbar
+"
+"
 typed
 "
 ]
