@@ -1948,7 +1948,7 @@ InitIdentity
 SprintfLiteral
 (
 serviceName
-DBUS_MRPIS_SERVICE_NAME
+DBUS_MPRIS_SERVICE_NAME
 "
 .
 instance
@@ -2112,7 +2112,7 @@ serviceName
 SprintfLiteral
 (
 serviceName
-DBUS_MRPIS_SERVICE_NAME
+DBUS_MPRIS_SERVICE_NAME
 "
 .
 instance
@@ -4661,6 +4661,7 @@ const
 {
 for
 (
+const
 auto
 &
 listener
