@@ -10538,6 +10538,10 @@ const
 char
 *
 aMessage
+const
+nsCString
+&
+aFailureId
 )
 -
 >

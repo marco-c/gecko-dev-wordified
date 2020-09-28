@@ -853,6 +853,9 @@ FeatureStatus
 :
 Available
 nullptr
+nsCString
+(
+)
 )
 ;
 }
