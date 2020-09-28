@@ -309,9 +309,6 @@ bool
 ion
 ;
 bool
-typeInference
-;
-bool
 warpBuilder
 ;
 bool
@@ -644,12 +641,13 @@ IsTypeInferenceEnabled
 )
 {
 return
+!
 jit
 :
 :
 JitOptions
 .
-typeInference
+warpBuilder
 ;
 }
 }
