@@ -66,9 +66,13 @@ require
 "
 devtools
 /
-shared
+server
+/
+actors
 /
 compatibility
+/
+lib
 /
 MDNCompatibility
 "

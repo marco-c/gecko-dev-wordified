@@ -96,6 +96,9 @@ accessibility
 addon
 '
 '
+compatibility
+'
+'
 descriptors
 '
 '
@@ -169,11 +172,6 @@ js
 '
 '
 common
-.
-js
-'
-'
-compatibility
 .
 js
 '
