@@ -104,9 +104,7 @@ set_permission
 name
 :
 '
-idle
--
-detection
+notifications
 '
 }
 '
