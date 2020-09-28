@@ -252,6 +252,7 @@ mozboot
 mozconfig
 import
 find_mozconfig
+MozconfigBuilder
 from
 mozboot
 .
@@ -2578,6 +2579,12 @@ keys
 )
 )
         
+mozconfig_builder
+=
+MozconfigBuilder
+(
+)
+        
 self
 .
 instance
@@ -2755,6 +2762,7 @@ self
 _output_mozconfig
 (
 application
+mozconfig_builder
 )
             
 sys
@@ -2797,6 +2805,7 @@ s_packages
 application
 )
 (
+mozconfig_builder
 )
         
 hg_installed
@@ -3129,6 +3138,7 @@ self
 _output_mozconfig
 (
 application
+mozconfig_builder
 )
     
 def
@@ -3136,6 +3146,7 @@ _output_mozconfig
 (
 self
 application
+mozconfig_builder
 )
 :
         
@@ -3150,7 +3161,7 @@ generate_mobile_android_mozconfig
 '
 .
         
-mozconfig
+additional_mozconfig
 =
 getattr
 (
@@ -3169,7 +3180,26 @@ application
 )
         
 if
-mozconfig
+additional_mozconfig
+:
+            
+mozconfig_builder
+.
+append
+(
+additional_mozconfig
+)
+        
+raw_mozconfig
+=
+mozconfig_builder
+.
+generate
+(
+)
+        
+if
+raw_mozconfig
 :
             
 mozconfig_path
@@ -3229,7 +3259,7 @@ mozconfig_file
 .
 write
 (
-mozconfig
+raw_mozconfig
 )
                 
 print
@@ -3261,8 +3291,9 @@ suggestion
 MOZCONFIG_SUGGESTION_TEMPLATE
 %
 (
+                    
 mozconfig_path
-mozconfig
+raw_mozconfig
 )
                 
 print

@@ -132,6 +132,7 @@ def
 install_browser_packages
 (
 self
+mozconfig_builder
 )
 :
         
@@ -145,6 +146,7 @@ def
 install_browser_artifact_mode_packages
 (
 self
+mozconfig_builder
 )
 :
         
@@ -161,6 +163,7 @@ def
 install_mobile_android_packages
 (
 self
+mozconfig_builder
 )
 :
         
@@ -168,6 +171,7 @@ self
 .
 ensure_mobile_android_packages
 (
+mozconfig_builder
 artifact_mode
 =
 False
@@ -177,6 +181,7 @@ def
 install_mobile_android_artifact_mode_packages
 (
 self
+mozconfig_builder
 )
 :
         
@@ -184,6 +189,7 @@ self
 .
 ensure_mobile_android_packages
 (
+mozconfig_builder
 artifact_mode
 =
 True
@@ -354,6 +360,7 @@ def
 ensure_mobile_android_packages
 (
 self
+mozconfig_builder
 artifact_mode
 =
 False
@@ -395,6 +402,7 @@ self
 .
 ensure_java
 (
+mozconfig_builder
 )
         
 from
