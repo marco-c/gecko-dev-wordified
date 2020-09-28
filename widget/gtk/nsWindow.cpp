@@ -35942,6 +35942,10 @@ shape
 if
 (
 !
+mGdkWindow
+|
+|
+!
 mDrawInTitlebar
 |
 |
