@@ -5562,7 +5562,7 @@ org
 /
 widget
 /
-macsystemstatusbar
+systemstatusbar
 ;
 1
 "
