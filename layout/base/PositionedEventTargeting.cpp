@@ -180,6 +180,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 MouseEventBinding
@@ -3723,10 +3732,7 @@ mMessage
 mozilla
 :
 :
-layers
-:
-:
-Stringify
+ToString
 (
 aPointRelativeToRootFrame
 )

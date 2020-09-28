@@ -618,6 +618,15 @@ h
 #
 include
 "
+mozilla
+/
+ToString
+.
+h
+"
+#
+include
+"
 ScrollAnimationPhysics
 .
 h
@@ -44611,7 +44620,7 @@ s
 n
 "
 this
-Stringify
+ToString
 (
 currentScrollPos
 )
