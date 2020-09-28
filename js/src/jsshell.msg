@@ -347,17 +347,3 @@ content
 .
 "
 )
-MSG_DEF
-(
-JSSMSG_CACHE_SINGLETON_FAILED
-0
-JSEXN_ERR
-"
-compartment
-cannot
-save
-singleton
-anymore
-.
-"
-)
