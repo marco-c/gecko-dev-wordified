@@ -662,7 +662,7 @@ font
 :
 :
 {
-MozScriptLevel
+MathDepth
 MozScriptMinSize
 MozScriptSizeMultiplier
 XLang
