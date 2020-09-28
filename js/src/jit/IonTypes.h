@@ -1150,6 +1150,8 @@ Bailout
 triggered
 by
 MLoadArgumentsObjectArg
+and
+MArgumentsObjectLength
 .
 ArgumentsObjectAccess
 /
