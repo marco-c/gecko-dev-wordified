@@ -146,6 +146,9 @@ waitForStateTelemetry
 (
 [
 "
+shutdown
+"
+"
 policyDisabled
 "
 ]
