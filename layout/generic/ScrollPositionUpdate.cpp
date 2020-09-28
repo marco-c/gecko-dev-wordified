@@ -122,6 +122,8 @@ NewScrollframe
 (
 uint32_t
 aGeneration
+nsPoint
+aInitialPosition
 )
 {
 ScrollPositionUpdate
@@ -141,6 +143,18 @@ ScrollMode
 :
 :
 Instant
+;
+ret
+.
+mDestination
+=
+CSSPoint
+:
+:
+FromAppUnits
+(
+aInitialPosition
+)
 ;
 return
 ret

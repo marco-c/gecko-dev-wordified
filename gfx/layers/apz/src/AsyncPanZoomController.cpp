@@ -34259,6 +34259,11 @@ s
 to
 %
 s
+(
+updateType
+%
+d
+)
 \
 n
 "
@@ -34287,6 +34292,14 @@ GetVisualDestination
 )
 .
 c_str
+(
+)
+(
+int
+)
+aLayerMetrics
+.
+GetVisualScrollUpdateType
 (
 )
 )
