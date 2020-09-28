@@ -261,7 +261,7 @@ str
         
 expires
 :
-str
+Any
         
 data_reviews
 :
@@ -347,13 +347,10 @@ None
         
 _config
 :
-Optional
-[
 Dict
 [
 str
 Any
-]
 ]
 =
 None
@@ -619,6 +616,33 @@ ValueError
 (
 error
 )
+        
+#
+Store
+the
+config
+but
+only
+after
+validation
+.
+        
+if
+_config
+is
+None
+:
+            
+_config
+=
+{
+}
+        
+self
+.
+_config
+=
+_config
         
 #
 Metrics
@@ -1200,33 +1224,52 @@ bool
 :
         
 return
+self
+.
+_config
+.
+get
+(
+"
+custom_is_expired
+"
 util
 .
 is_expired
+)
 (
 self
 .
 expires
 )
     
-staticmethod
-    
 def
 validate_expires
 (
-expires
+self
 )
--
->
-None
 :
         
 return
+self
+.
+_config
+.
+get
+(
+"
+custom_validate_expires
+"
 util
 .
 validate_expires
+)
 (
+            
+self
+.
 expires
+        
 )
     
 def

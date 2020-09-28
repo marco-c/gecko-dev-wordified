@@ -86,6 +86,8 @@ import
 sys
 import
 click
+import
+glean_parser
 from
 .
 import
@@ -712,6 +714,14 @@ click
 .
 version_option
 (
+glean_parser
+.
+__version__
+prog_name
+=
+"
+glean_parser
+"
 )
 def
 main
