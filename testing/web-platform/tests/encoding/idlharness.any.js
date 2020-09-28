@@ -38,11 +38,10 @@ encoding
 '
 ]
 [
+'
+streams
+'
 ]
-/
-/
-No
-deps
 idl_array
 =
 >
