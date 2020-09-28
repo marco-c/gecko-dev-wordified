@@ -5196,6 +5196,13 @@ NearJump
 "
 NoStubAddressCheck
 )
+TestCase
+(
+"
+OpcodeFF
+"
+NoStubAddressCheck
+)
 #
 elif
 defined
