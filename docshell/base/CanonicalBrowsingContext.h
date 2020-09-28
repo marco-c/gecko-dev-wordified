@@ -1538,6 +1538,16 @@ nsISHEntry
 aNewEntry
 )
 ;
+void
+AddLoadingSessionHistoryEntry
+(
+uint64_t
+aLoadId
+SessionHistoryEntry
+*
+aEntry
+)
+;
 protected
 :
 /
