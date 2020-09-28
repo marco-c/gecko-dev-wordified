@@ -2647,7 +2647,7 @@ NS_OK
 nsresult
 rv
 =
-SetAnonymousElementPositionWithTransaction
+SetAnonymousElementPositionWithoutTransaction
 (
 *
 buttonStyledElement
@@ -2669,9 +2669,11 @@ NS_WARNING
 HTMLEditor
 :
 :
-SetAnonymousElementPositionWithTransaction
+SetAnonymousElementPositionWithoutTransaction
 (
 )
+"
+"
 failed
 "
 )

@@ -3679,7 +3679,7 @@ nsresult
 HTMLEditor
 :
 :
-SetAnonymousElementPositionWithTransaction
+SetAnonymousElementPositionWithoutTransaction
 (
 nsStyledElement
 &
@@ -3690,19 +3690,6 @@ int32_t
 aY
 )
 {
-/
-/
-XXX
-Why
-do
-we
-need
-to
-do
-this
-with
-transaction
-?
 nsresult
 rv
 ;
@@ -3711,7 +3698,7 @@ rv
 mCSSEditUtils
 -
 >
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 aStyledElement
 *
@@ -3736,7 +3723,7 @@ NS_WARNING
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
@@ -3765,7 +3752,7 @@ rv
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
@@ -3785,7 +3772,7 @@ rv
 mCSSEditUtils
 -
 >
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 aStyledElement
 *
@@ -3810,7 +3797,7 @@ NS_WARNING
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
@@ -3839,7 +3826,7 @@ rv
 CSSEditUtils
 :
 :
-SetCSSPropertyPixelsWithTransaction
+SetCSSPropertyPixelsWithoutTransaction
 (
 nsGkAtoms
 :
