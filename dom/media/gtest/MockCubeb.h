@@ -1296,7 +1296,7 @@ is
 created
 at
 Start
-anda
+and
 destroyed
 /
 /

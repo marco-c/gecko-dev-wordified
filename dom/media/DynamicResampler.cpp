@@ -689,7 +689,7 @@ The
 mono
 channel
 is
-allways
+always
 up
 to
 date
