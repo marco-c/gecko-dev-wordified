@@ -161,13 +161,6 @@ defines
 }
     
 '
-non_global_defines
-'
-:
-[
-]
-    
-'
 substs
 '
 :
@@ -199,13 +192,6 @@ defines
 }
         
 '
-non_global_defines
-'
-:
-[
-]
-        
-'
 substs
 '
 :
@@ -269,13 +255,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -357,13 +336,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -461,13 +433,6 @@ defines
 }
         
 '
-non_global_defines
-'
-:
-[
-]
-        
-'
 substs
 '
 :
@@ -559,13 +524,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -645,13 +603,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -737,13 +688,6 @@ defines
 }
         
 '
-non_global_defines
-'
-:
-[
-]
-        
-'
 substs
 '
 :
@@ -790,13 +734,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -855,22 +792,6 @@ MOZ_TRUE_2
 }
         
 '
-non_global_defines
-'
-:
-[
-            
-'
-MOZ_NONGLOBAL_1
-'
-            
-'
-MOZ_NONGLOBAL_2
-'
-        
-]
-        
-'
 substs
 '
 :
@@ -908,13 +829,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -972,13 +886,6 @@ baz
 }
         
 '
-non_global_defines
-'
-:
-[
-]
-        
-'
 substs
 '
 :
@@ -1011,13 +918,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -1055,13 +955,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -1111,13 +1004,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
@@ -1228,13 +1114,6 @@ defines
 }
         
 '
-non_global_defines
-'
-:
-[
-]
-        
-'
 substs
 '
 :
@@ -1284,13 +1163,6 @@ defines
 }
         
 '
-non_global_defines
-'
-:
-[
-]
-        
-'
 substs
 '
 :
@@ -1329,13 +1201,6 @@ defines
 :
 {
 }
-        
-'
-non_global_defines
-'
-:
-[
-]
         
 '
 substs
