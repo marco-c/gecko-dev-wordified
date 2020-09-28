@@ -836,7 +836,6 @@ UrlbarTestUtils
 promiseSearchComplete
 (
 win
-2
 )
 ;
 await
@@ -1810,7 +1809,6 @@ UrlbarTestUtils
 promiseSearchComplete
 (
 win
-2
 )
 ;
 await

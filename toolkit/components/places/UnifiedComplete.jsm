@@ -3972,7 +3972,7 @@ queryContext
 |
 queryContext
 .
-shouldFilterRestrictionTokens
+restrictToken
 ?
 this
 .
