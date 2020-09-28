@@ -153,6 +153,17 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+/
+/
+For
+PerformanceHint
+#
+include
+"
 gc
 /
 ArenaList

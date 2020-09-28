@@ -968,7 +968,10 @@ TraceKind
 Object
 )
 ;
-JS
+js
+:
+:
+gc
 :
 :
 TraceIncomingCCWs
