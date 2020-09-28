@@ -4943,6 +4943,13 @@ int32_t
 aResolver
 )
 ;
+bool
+ShouldUpdateSessionHistory
+(
+uint32_t
+aLoadType
+)
+;
 protected
 :
 virtual

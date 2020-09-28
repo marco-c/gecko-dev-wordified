@@ -633,6 +633,8 @@ const
 nsID
 &
 aChangeID
+uint32_t
+aLoadType
 )
 ;
 /
