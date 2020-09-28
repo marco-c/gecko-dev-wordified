@@ -727,6 +727,8 @@ void
 NotifyOnHistoryReload
 (
 bool
+aForceReload
+bool
 &
 aCanReload
 Maybe

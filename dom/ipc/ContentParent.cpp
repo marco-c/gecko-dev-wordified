@@ -44622,6 +44622,10 @@ BrowsingContext
 >
 &
 aContext
+const
+bool
+&
+aForceReload
 NotifyOnHistoryReloadResolver
 &
 &
@@ -44667,6 +44671,7 @@ get_canonical
 >
 NotifyOnHistoryReload
 (
+aForceReload
 canReload
 loadState
 reloadActiveEntry

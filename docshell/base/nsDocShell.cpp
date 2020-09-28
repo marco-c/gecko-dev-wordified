@@ -24285,6 +24285,14 @@ this
 )
 )
 ;
+bool
+forceReload
+=
+IsForceReloadType
+(
+loadType
+)
+;
 if
 (
 !
@@ -24351,6 +24359,7 @@ GetSingleton
 SendNotifyOnHistoryReload
 (
 mBrowsingContext
+forceReload
 [
 docShell
 doc
@@ -24561,6 +24570,7 @@ Canonical
 >
 NotifyOnHistoryReload
 (
+forceReload
 canReload
 loadState
 reloadingActiveEntry
