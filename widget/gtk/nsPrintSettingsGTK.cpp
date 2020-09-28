@@ -2801,6 +2801,9 @@ mPageSetup
 ;
 CopyUTF8toUTF16
 (
+mozilla
+:
+:
 MakeStringSpan
 (
 name
