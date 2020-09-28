@@ -1365,6 +1365,9 @@ LoadIdentifier
 bool
 ChannelInitialized
 ;
+bool
+TryToReplaceWithSessionHistoryLoad
+;
 LoadingSessionHistoryInfo
 ?
 loadingSessionHistoryInfo

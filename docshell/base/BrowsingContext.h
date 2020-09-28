@@ -1194,6 +1194,12 @@ FIELD
 HasLoadedNonInitialDocument
 bool
 )
+\
+FIELD
+(
+CreatedDynamically
+bool
+)
 /
 /
 BrowsingContext
