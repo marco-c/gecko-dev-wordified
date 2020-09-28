@@ -214,9 +214,6 @@ showPrintProgress
 nsString
 paperName
 ;
-short
-paperData
-;
 double
 paperWidth
 ;
