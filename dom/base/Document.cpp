@@ -97438,7 +97438,7 @@ void
 Document
 :
 :
-SetDocTreeHadAudibleMedia
+SetDocTreeHadMedia
 (
 )
 {
@@ -97470,7 +97470,7 @@ IsDiscarded
 topWc
 -
 >
-GetDocTreeHadAudibleMedia
+GetDocTreeHadMedia
 (
 )
 )
@@ -97480,7 +97480,7 @@ MOZ_ALWAYS_SUCCEEDS
 topWc
 -
 >
-SetDocTreeHadAudibleMedia
+SetDocTreeHadMedia
 (
 true
 )

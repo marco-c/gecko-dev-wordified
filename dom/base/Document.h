@@ -23947,11 +23947,10 @@ Sets
 flags
 for
 media
-autoplay
 telemetry
 .
 void
-SetDocTreeHadAudibleMedia
+SetDocTreeHadMedia
 (
 )
 ;
