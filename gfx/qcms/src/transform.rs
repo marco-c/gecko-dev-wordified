@@ -1411,7 +1411,7 @@ has_alpha
 :
 bool
 =
-false
+true
 ;
 }
 #
