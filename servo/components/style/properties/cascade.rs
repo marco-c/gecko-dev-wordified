@@ -5835,7 +5835,7 @@ contains
 LonghandId
 :
 :
-MozScriptLevel
+MathDepth
 )
 &
 &
@@ -5949,13 +5949,13 @@ delta
 =
 font
 .
-mScriptLevel
+mMathDepth
 .
 saturating_sub
 (
 parent_font
 .
-mScriptLevel
+mMathDepth
 )
 ;
 if

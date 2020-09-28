@@ -2953,7 +2953,7 @@ MozListReversed
 "
                 
 "
-MozScriptLevel
+MathDepth
 "
                 
 "
