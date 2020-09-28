@@ -2642,7 +2642,7 @@ c_str
 )
 mClipRegion
 ?
-Stringify
+ToString
 (
 mClipRegion
 .
