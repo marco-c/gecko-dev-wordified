@@ -307,11 +307,9 @@ gen
 /
 content
 /
-shell
+web_test
 /
 common
-/
-web_test
 /
 fake_bluetooth_chooser
 .

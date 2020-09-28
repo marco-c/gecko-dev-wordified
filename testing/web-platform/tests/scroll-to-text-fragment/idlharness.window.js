@@ -42,6 +42,9 @@ fragment
 ]
 [
 '
+dom
+'
+'
 html
 '
 ]
@@ -54,13 +57,11 @@ idl_array
 add_objects
 (
 {
-Location
+Document
 :
 [
 '
 document
-.
-location
 '
 ]
 FragmentDirective
@@ -68,8 +69,6 @@ FragmentDirective
 [
 '
 document
-.
-location
 .
 fragmentDirective
 '

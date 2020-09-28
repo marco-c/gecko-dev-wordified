@@ -46,7 +46,9 @@ github
 .
 io
 /
-BackgroundSync
+background
+-
+sync
 /
 spec
 /
@@ -54,7 +56,9 @@ idl_test
 (
 [
 '
-BackgroundSync
+background
+-
+sync
 '
 ]
 [

@@ -236,6 +236,13 @@ kwargs
 )
 :
     
+from
+selenium
+.
+webdriver
+import
+DesiredCapabilities
+    
 executor_kwargs
 =
 base_executor_kwargs

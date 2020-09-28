@@ -47,6 +47,12 @@ system
 ]
 [
 '
+storage
+'
+'
+permissions
+'
+'
 streams
 '
 '
