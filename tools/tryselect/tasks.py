@@ -382,6 +382,9 @@ None
 full
 =
 False
+disable_target_task_filter
+=
+False
 )
 :
     
@@ -562,6 +565,22 @@ ci
 '
 )
     
+target_tasks_method
+=
+(
+'
+try_select_tasks
+'
+if
+not
+disable_target_task_filter
+                           
+else
+'
+try_select_tasks_uncommon
+'
+)
+    
 params
 =
 parameters_loader
@@ -587,9 +606,7 @@ try_select
 target_tasks_method
 '
 :
-'
-try_select_tasks
-'
+target_tasks_method
 }
     
 )
