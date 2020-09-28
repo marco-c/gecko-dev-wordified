@@ -3971,7 +3971,7 @@ documentContext
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )

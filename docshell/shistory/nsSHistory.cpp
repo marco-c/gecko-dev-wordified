@@ -2177,7 +2177,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -2787,7 +2787,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 &
@@ -4240,7 +4240,7 @@ shPref
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ;
@@ -11313,7 +11313,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -11385,7 +11385,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -11561,7 +11561,7 @@ XRE_IsParentProcess
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )

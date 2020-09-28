@@ -375,7 +375,7 @@ mSHistoryInParent
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -916,7 +916,7 @@ mSHistoryInParent
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
