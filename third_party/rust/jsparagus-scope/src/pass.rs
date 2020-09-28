@@ -236,7 +236,7 @@ function_declaration_properties
 :
 FunctionDeclarationPropertyMap
 pub
-functions
+scripts
 :
 ScriptStencilList
 pub
@@ -425,7 +425,7 @@ ScopeDataMapAndScriptStencilList
 scope_data_map
 function_stencil_indices
 function_declaration_properties
-functions
+scripts
 error
 }
 =
@@ -447,7 +447,7 @@ pass
 function_declarations
 function_stencil_indices
 function_declaration_properties
-functions
+scripts
 error
 }
 }
@@ -1310,7 +1310,7 @@ ast
 ;
 self
 .
-visit_property_name
+visit_class_element_name
 (
 &
 ast
@@ -1436,7 +1436,7 @@ ast
 ;
 self
 .
-visit_property_name
+visit_class_element_name
 (
 &
 ast

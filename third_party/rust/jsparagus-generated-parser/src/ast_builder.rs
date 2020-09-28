@@ -28032,7 +28032,7 @@ unbox
 /
 MethodDefinition
 :
-PropertyName
+ClassElementName
 (
 UniqueFormalParameters
 )
@@ -28055,7 +28055,7 @@ Box
 <
 '
 alloc
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -28288,7 +28288,7 @@ body_close_loc
 MethodDefinition
 :
 get
-PropertyName
+ClassElementName
 (
 )
 {
@@ -28320,7 +28320,7 @@ Box
 <
 '
 alloc
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -28450,7 +28450,7 @@ body_close_loc
 MethodDefinition
 :
 set
-PropertyName
+ClassElementName
 (
 PropertySetParameterList
 )
@@ -28484,7 +28484,7 @@ Box
 <
 '
 alloc
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -28729,7 +28729,7 @@ body_close_loc
 GeneratorMethod
 :
 *
-PropertyName
+ClassElementName
 (
 UniqueFormalParameters
 )
@@ -28763,7 +28763,7 @@ Box
 <
 '
 alloc
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -29214,7 +29214,7 @@ async
 "
 *
 "
-PropertyName
+ClassElementName
 "
 (
 "
@@ -29256,7 +29256,7 @@ Box
 <
 '
 alloc
-PropertyName
+ClassElementName
 <
 '
 alloc
@@ -30870,7 +30870,7 @@ new_vec
 AsyncMethod
 :
 async
-PropertyName
+ClassElementName
 (
 UniqueFormalParameters
 )
@@ -30904,7 +30904,7 @@ Box
 <
 '
 alloc
-PropertyName
+ClassElementName
 <
 '
 alloc
