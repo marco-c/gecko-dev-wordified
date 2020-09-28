@@ -948,6 +948,16 @@ lock
 Atom
 (
 "
+allowpaymentrequest
+"
+"
+allowpaymentrequest
+"
+)
+    
+Atom
+(
+"
 allowpointerlock
 "
 "
