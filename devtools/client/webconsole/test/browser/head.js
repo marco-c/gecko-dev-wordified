@@ -11188,6 +11188,7 @@ li
 .
 menuitem
 button
+hr
 "
 )
 )
@@ -11569,6 +11570,7 @@ querySelector
 label
 "
 )
+?
 .
 innerText
 =
