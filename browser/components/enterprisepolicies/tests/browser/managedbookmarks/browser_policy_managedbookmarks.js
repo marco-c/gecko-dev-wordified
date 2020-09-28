@@ -630,7 +630,7 @@ document
 getElementById
 (
 "
-placesContextManaged
+placesContext
 "
 )
 ;
@@ -703,7 +703,7 @@ document
 getElementById
 (
 "
-placesContextManaged_open
+placesContext_open
 :
 newtab
 "
@@ -837,7 +837,7 @@ document
 getElementById
 (
 "
-placesContextManaged
+placesContext
 "
 )
 ;
@@ -898,7 +898,7 @@ document
 getElementById
 (
 "
-placesContextManaged_copy
+placesContext_copy
 "
 )
 ;
