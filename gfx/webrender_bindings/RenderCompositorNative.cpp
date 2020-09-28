@@ -662,6 +662,16 @@ CreateSnapshotter
 (
 )
 ;
+if
+(
+!
+mNativeLayerRootSnapshotter
+)
+{
+return
+false
+;
+}
 }
 bool
 success
@@ -763,6 +773,11 @@ CreateSnapshotter
 )
 ;
 }
+if
+(
+mNativeLayerRootSnapshotter
+)
+{
 mNativeLayerRootSnapshotter
 -
 >
@@ -797,6 +812,7 @@ MakeCurrent
 (
 )
 ;
+}
 return
 true
 ;
