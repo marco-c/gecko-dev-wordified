@@ -150,6 +150,9 @@ servo_arc
 '
 stylo_tests
 '
+'
+qcms
+'
 ]
 if
 not
