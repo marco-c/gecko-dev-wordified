@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsIScrollableFrame
+.
+h
+"
+#
+include
+"
 nsNumberControlFrame
 .
 h

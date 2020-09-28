@@ -546,14 +546,7 @@ GetScrollTargetFrame
 (
 )
 override
-{
-return
-do_QueryFrame
-(
-mDropdownFrame
-)
 ;
-}
 #
 ifdef
 DEBUG_FRAME_DUMP
