@@ -122,7 +122,7 @@ include
 "
 mozilla
 /
-Tuple
+ThreadSafeWeakPtr
 .
 h
 "
@@ -132,6 +132,15 @@ include
 mozilla
 /
 TimeStamp
+.
+h
+"
+#
+include
+"
+mozilla
+/
+Tuple
 .
 h
 "
@@ -3082,7 +3091,7 @@ system
 needs
 it
 .
-WeakPtr
+ThreadSafeWeakPtr
 <
 layers
 :
