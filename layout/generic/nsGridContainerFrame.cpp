@@ -392,13 +392,6 @@ CSSAlignUtils
 AlignJustifyFlags
 AlignJustifyFlags
 ;
-typedef
-nsLayoutUtils
-:
-:
-IntrinsicISizeType
-IntrinsicISizeType
-;
 using
 GridTemplate
 =

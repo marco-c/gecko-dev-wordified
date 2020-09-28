@@ -147,6 +147,13 @@ h
 #
 include
 "
+LayoutConstants
+.
+h
+"
+#
+include
+"
 nsSplittableFrame
 .
 h
@@ -155,13 +162,6 @@ h
 include
 "
 nsFrameList
-.
-h
-"
-#
-include
-"
-nsLayoutUtils
 .
 h
 "
@@ -1566,7 +1566,7 @@ aRenderingContext
 InlineIntrinsicISizeData
 *
 aData
-nsLayoutUtils
+mozilla
 :
 :
 IntrinsicISizeType

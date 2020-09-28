@@ -5560,9 +5560,6 @@ GetIntrinsicISize
 gfxContext
 *
 aRenderingContext
-nsLayoutUtils
-:
-:
 IntrinsicISizeType
 aType
 )

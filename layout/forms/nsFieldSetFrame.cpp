@@ -185,6 +185,17 @@ h
 #
 include
 "
+mozilla
+/
+webrender
+/
+WebRenderAPI
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h
@@ -2551,9 +2562,6 @@ GetIntrinsicISize
 gfxContext
 *
 aRenderingContext
-nsLayoutUtils
-:
-:
 IntrinsicISizeType
 aType
 )

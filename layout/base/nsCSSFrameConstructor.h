@@ -261,6 +261,9 @@ struct
 nsGenConInitializer
 ;
 class
+nsBlockFrame
+;
+class
 nsContainerFrame
 ;
 class

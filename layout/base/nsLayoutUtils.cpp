@@ -37471,9 +37471,6 @@ nsIFrame
 IntrinsicSizeOffsetData
 &
 aOffsets
-nsLayoutUtils
-:
-:
 IntrinsicISizeType
 aType
 StyleBoxSizing
