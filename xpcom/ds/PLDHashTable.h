@@ -2821,6 +2821,18 @@ return
 mEntryStore
 ;
 }
+bool
+IsAllocated
+(
+)
+const
+{
+return
+!
+!
+mEntryStore
+;
+}
 Slot
 SlotForIndex
 (
@@ -3673,7 +3685,7 @@ const
 return
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 ?

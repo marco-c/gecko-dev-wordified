@@ -2076,7 +2076,7 @@ if
 !
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -2358,7 +2358,7 @@ MOZ_ASSERT
 (
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -2811,7 +2811,7 @@ MOZ_ASSERT
 (
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -2973,7 +2973,7 @@ MOZ_ASSERT
 (
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -3265,7 +3265,7 @@ MOZ_ASSERT
 (
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -3355,7 +3355,7 @@ if
 !
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -3463,7 +3463,7 @@ if
 !
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -3522,7 +3522,7 @@ if
 !
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -3906,7 +3906,7 @@ if
 !
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -4051,7 +4051,7 @@ if
 !
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
@@ -4245,7 +4245,7 @@ MOZ_ASSERT
 (
 mEntryStore
 .
-Get
+IsAllocated
 (
 )
 )
