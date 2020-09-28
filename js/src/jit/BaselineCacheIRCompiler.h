@@ -418,8 +418,6 @@ Register
 scratch
 CallFlags
 flags
-LiveGeneralRegisterSet
-liveNonGCRegs
 )
 ;
 template
