@@ -1876,10 +1876,12 @@ ANGLE
 is
 disabled
 "
-"
-FEATURE_FAILURE_ANGLE_DISABLED
-"
-_ns
+mFeatureD3D11HwAngle
+-
+>
+GetFailureId
+(
+)
 )
 ;
 }

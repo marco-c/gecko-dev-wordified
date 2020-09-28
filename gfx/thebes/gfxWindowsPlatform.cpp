@@ -1775,6 +1775,10 @@ compositing
 is
 disabled
 "
+"
+FEATURE_FAILURE_HW_ANGLE_D3D11_DISABLED
+"
+_ns
 )
 ;
 }
@@ -7469,7 +7473,7 @@ is
 disabled
 "
 "
-FEATURE_FAILURE_D3D11_DISABLED
+FEATURE_FAILURE_HW_ANGLE_D3D11_DISABLED
 "
 _ns
 )

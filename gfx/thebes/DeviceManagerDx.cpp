@@ -3674,6 +3674,10 @@ doesn
 t
 work
 "
+"
+FEATURE_FAILURE_HW_ANGLE_NEEDS_TEXTURE_SHARING
+"
+_ns
 )
 ;
 }
@@ -3706,6 +3710,10 @@ RenderTargetViews
 need
 recreating
 "
+"
+FEATURE_FAILURE_HW_ANGLE_NEEDS_RTV_RECREATION
+"
+_ns
 )
 ;
 }
