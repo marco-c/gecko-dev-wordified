@@ -5527,7 +5527,7 @@ NS_BINDING_ABORTED
 )
 ;
 return
-RequestOrReason
+Err
 (
 rv
 )
