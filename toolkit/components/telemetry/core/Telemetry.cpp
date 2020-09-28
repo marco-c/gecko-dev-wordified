@@ -6724,7 +6724,6 @@ lock
 =
 telemetry
 ;
-}
 /
 /
 AddRef
@@ -6732,11 +6731,17 @@ for
 the
 local
 reference
+before
+releasing
+the
+lock
+.
 NS_ADDREF
 (
 telemetry
 )
 ;
+}
 /
 /
 AddRef
