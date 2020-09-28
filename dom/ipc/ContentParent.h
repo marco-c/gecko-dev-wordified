@@ -7828,10 +7828,6 @@ const
 nsID
 &
 aChangeID
-const
-uint32_t
-&
-aLoadType
 )
 ;
 mozilla

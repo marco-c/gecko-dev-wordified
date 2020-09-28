@@ -10034,8 +10034,6 @@ uint64_t
 aLoadID
 nsID
 aChangeID
-uint32_t
-aLoadType
 )
 ;
 async

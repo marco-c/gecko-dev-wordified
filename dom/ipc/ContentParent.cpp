@@ -44240,10 +44240,6 @@ const
 nsID
 &
 aChangeID
-const
-uint32_t
-&
-aLoadType
 )
 {
 if
@@ -44267,7 +44263,6 @@ SessionHistoryCommit
 (
 aLoadID
 aChangeID
-aLoadType
 )
 ;
 }
