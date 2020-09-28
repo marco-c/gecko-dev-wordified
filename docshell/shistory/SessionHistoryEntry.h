@@ -775,7 +775,7 @@ false
 bool
 mPersist
 =
-false
+true
 ;
 union
 SharedState
