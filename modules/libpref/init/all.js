@@ -50365,7 +50365,7 @@ DNSv4
 domain
 "
 "
-mozilla
+example
 .
 org
 "
@@ -50385,7 +50385,7 @@ DNSv6
 domain
 "
 "
-mozilla
+example
 .
 org
 "
