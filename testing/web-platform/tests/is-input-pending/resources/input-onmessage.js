@@ -93,7 +93,7 @@ false
 const
 DISPATCH_WAIT_TIME_MS
 =
-200
+500
 ;
 /
 /
