@@ -8367,7 +8367,7 @@ GetInterFrameSpacing
 font
 -
 >
-mScriptLevel
+mMathDepth
 prevFrameType
 mChildFrameType
 &
@@ -9366,7 +9366,7 @@ StyleFont
 )
 -
 >
-mScriptLevel
+mMathDepth
 parent
 aFrame
 )

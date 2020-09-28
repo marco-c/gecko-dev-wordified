@@ -2250,7 +2250,7 @@ NS_MATHML_OPERATOR_FORM_PREFIX
 font
 -
 >
-mScriptLevel
+mMathDepth
 axisHeight
 leading
 em
@@ -2313,7 +2313,7 @@ NS_MATHML_OPERATOR_FORM_INFIX
 font
 -
 >
-mScriptLevel
+mMathDepth
 axisHeight
 leading
 em
@@ -2359,7 +2359,7 @@ NS_MATHML_OPERATOR_FORM_POSTFIX
 font
 -
 >
-mScriptLevel
+mMathDepth
 axisHeight
 leading
 em
@@ -3736,7 +3736,7 @@ NS_MATHML_OPERATOR_FORM_PREFIX
 font
 -
 >
-mScriptLevel
+mMathDepth
 em
 )
 ;
@@ -3839,7 +3839,7 @@ NS_MATHML_OPERATOR_FORM_INFIX
 font
 -
 >
-mScriptLevel
+mMathDepth
 em
 )
 ;
@@ -3872,7 +3872,7 @@ NS_MATHML_OPERATOR_FORM_POSTFIX
 font
 -
 >
-mScriptLevel
+mMathDepth
 em
 )
 ;

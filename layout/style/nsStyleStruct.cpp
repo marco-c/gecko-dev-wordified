@@ -1610,11 +1610,11 @@ aSrc
 .
 mGenericID
 )
-mScriptLevel
+mMathDepth
 (
 aSrc
 .
-mScriptLevel
+mMathDepth
 )
 mMathVariant
 (
@@ -1741,7 +1741,7 @@ StyleGenericFontFamily
 :
 None
 )
-mScriptLevel
+mMathDepth
 (
 0
 )
@@ -2035,12 +2035,12 @@ aNewData
 mGenericID
 |
 |
-mScriptLevel
+mMathDepth
 !
 =
 aNewData
 .
-mScriptLevel
+mMathDepth
 |
 |
 mScriptUnconstrainedSize
