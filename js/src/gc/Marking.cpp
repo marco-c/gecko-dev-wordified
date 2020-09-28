@@ -12385,12 +12385,9 @@ auto
 thingp
 )
 {
-marker
--
->
-traverseEdge
+DoMarking
 (
-obj
+marker
 *
 thingp
 )
