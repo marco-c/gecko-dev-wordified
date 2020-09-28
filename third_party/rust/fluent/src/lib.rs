@@ -507,7 +507,7 @@ new
 !
 args
 .
-insert
+add
 (
 "
 name
@@ -1008,7 +1008,7 @@ new
 (
 args
 .
-insert
+add
 (
 key
 value
