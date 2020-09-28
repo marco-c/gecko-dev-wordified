@@ -360,6 +360,13 @@ h
 #
 include
 "
+nsSubDocumentFrame
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
