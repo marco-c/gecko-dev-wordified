@@ -760,16 +760,6 @@ osmesa
 "
 )
     
-#
-TODO
-:
-switch
-to
-llvmpipe
-for
-faster
-tests
-    
 os
 .
 environ
@@ -780,7 +770,7 @@ GALLIUM_DRIVER
 ]
 =
 "
-softpipe
+llvmpipe
 "
     
 if
@@ -1255,4 +1245,9 @@ subprocess
 check_call
 (
 cmd
+stderr
+=
+subprocess
+.
+STDOUT
 )
