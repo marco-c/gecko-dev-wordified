@@ -852,7 +852,7 @@ get
 (
 )
 ;
-uintptr_t
+MarkBitmapWord
 *
 chunkWords
 =
@@ -1126,7 +1126,7 @@ get
 (
 )
 ;
-uintptr_t
+MarkBitmapWord
 *
 chunkWords
 =

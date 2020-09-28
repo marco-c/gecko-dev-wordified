@@ -30275,7 +30275,7 @@ return
 nullptr
 ;
 }
-uintptr_t
+MarkBitmapWord
 *
 wordp
 ;
@@ -30308,7 +30308,14 @@ mask
 )
 ;
 return
+reinterpret_cast
+<
+uintptr_t
+*
+>
+(
 wordp
+)
 ;
 }
 uintptr_t
@@ -30368,7 +30375,7 @@ ColorBit
 :
 GrayOrBlackBit
 ;
-uintptr_t
+MarkBitmapWord
 *
 wordp
 ;
