@@ -296,6 +296,13 @@ h
 #
 include
 "
+GRefPtr
+.
+h
+"
+#
+include
+"
 gfxXlibSurface
 .
 h
@@ -13360,8 +13367,11 @@ GetMozContainerWidget
 )
 ;
 mTargetDragContext
-.
-steal
+=
+std
+:
+:
+move
 (
 mPendingDragContext
 )
