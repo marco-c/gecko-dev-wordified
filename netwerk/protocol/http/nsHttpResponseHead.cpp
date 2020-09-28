@@ -1023,9 +1023,9 @@ return
 SetHeader_locked
 (
 hdr
-EmptyCString
-(
-)
+"
+"
+_ns
 val
 merge
 )

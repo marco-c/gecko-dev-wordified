@@ -1533,9 +1533,10 @@ integrity
 =
 *
 /
-EmptyString
-(
-)
+u
+"
+"
+_ns
 /
 *
 nsStyleUtil
@@ -1561,9 +1562,10 @@ nonce
 =
 *
 /
-EmptyString
-(
-)
+u
+"
+"
+_ns
 HasAlternateRel
 :
 :

@@ -1348,9 +1348,9 @@ Exception
 (
 aMessage
 aRv
-EmptyCString
-(
-)
+"
+"
+_ns
 nullptr
 nullptr
 )

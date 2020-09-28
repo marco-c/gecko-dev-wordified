@@ -6014,9 +6014,9 @@ uri
 .
 SetUserPass
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 .
 Finalize

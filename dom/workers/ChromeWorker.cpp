@@ -209,9 +209,10 @@ aIsChromeWorker
 *
 /
 WorkerTypeDedicated
-EmptyString
-(
-)
+u
+"
+"
+_ns
 VoidCString
 (
 )

@@ -11408,8 +11408,8 @@ this
 )
 ;
 mFileName
-=
-EmptyCString
+.
+Truncate
 (
 )
 ;

@@ -376,9 +376,9 @@ CreateVideoDecoder
 nsCString
 aNodeId
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 void

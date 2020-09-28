@@ -1385,9 +1385,10 @@ aOther
 .
 mString
 :
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 {
 }

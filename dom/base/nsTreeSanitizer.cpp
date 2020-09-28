@@ -7967,9 +7967,10 @@ nsGkAtoms
 :
 :
 controls
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 )
 ;

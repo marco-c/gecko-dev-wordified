@@ -1780,9 +1780,9 @@ result
 return
 GetInputStreamWithSpec
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 aFilename
 result
 )

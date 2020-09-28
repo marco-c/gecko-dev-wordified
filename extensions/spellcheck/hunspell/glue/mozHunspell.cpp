@@ -1888,9 +1888,10 @@ IsEmpty
 {
 SetDictionary
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

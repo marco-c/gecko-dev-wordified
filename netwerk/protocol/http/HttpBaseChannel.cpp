@@ -15259,9 +15259,10 @@ InitWithSourceURI
 (
 errorText
 mURI
-EmptyString
-(
-)
+u
+"
+"
+_ns
 0
 0
 nsIScriptError
@@ -22411,9 +22412,9 @@ SetUploadStream
 config
 .
 uploadStream
-EmptyCString
-(
-)
+"
+"
+_ns
 config
 .
 uploadStreamLength

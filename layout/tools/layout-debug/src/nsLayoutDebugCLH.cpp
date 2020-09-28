@@ -241,8 +241,8 @@ aFlagPresent
 )
 {
 aValue
-=
-EmptyString
+.
+Truncate
 (
 )
 ;
@@ -357,8 +357,8 @@ CharAt
 )
 {
 aValue
-=
-EmptyString
+.
+Truncate
 (
 )
 ;

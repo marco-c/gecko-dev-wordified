@@ -451,9 +451,9 @@ ds
 AsyncOpenURI
 (
 mPushedURL
-EmptyCString
-(
-)
+"
+"
+_ns
 nsICacheStorage
 :
 :

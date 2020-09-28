@@ -424,9 +424,9 @@ return
 SetHeader
 (
 header
-EmptyCString
-(
-)
+"
+"
+_ns
 value
 merge
 variety
@@ -1015,9 +1015,9 @@ SetHeader_internal
 (
 header
 headerName
-EmptyCString
-(
-)
+"
+"
+_ns
 variety
 )
 ;

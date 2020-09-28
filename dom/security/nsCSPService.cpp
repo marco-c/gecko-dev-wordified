@@ -2502,9 +2502,9 @@ aNewURI
 /
 /
 nsIURI
-EmptyCString
-(
-)
+"
+"
+_ns
 /
 /
 ACString
@@ -2628,9 +2628,9 @@ aNewURI
 /
 /
 nsIURI
-EmptyCString
-(
-)
+"
+"
+_ns
 /
 /
 ACString

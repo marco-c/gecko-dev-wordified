@@ -4113,9 +4113,9 @@ newURI
 .
 SetUserPass
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 .
 Finalize

@@ -584,9 +584,9 @@ string
 return
 HashString
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

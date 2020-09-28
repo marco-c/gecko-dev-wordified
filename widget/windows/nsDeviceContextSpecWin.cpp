@@ -730,9 +730,10 @@ ps
 >
 SetDeviceName
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 ps
@@ -740,9 +741,10 @@ ps
 >
 SetDriverName
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 ps

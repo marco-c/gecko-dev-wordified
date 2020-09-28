@@ -1932,9 +1932,10 @@ nsGkAtoms
 :
 :
 state
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 )
 ;

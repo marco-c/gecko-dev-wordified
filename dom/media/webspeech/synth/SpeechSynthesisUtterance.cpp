@@ -327,9 +327,10 @@ return
 Constructor
 (
 aGlobal
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aRv
 )
 ;

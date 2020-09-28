@@ -5944,9 +5944,9 @@ eMsg
 parser
 .
 eResult
-EmptyCString
-(
-)
+"
+"
+_ns
 parser
 .
 eStack
@@ -8948,9 +8948,10 @@ InitWithWindowID
 (
 msg
 fileName
-EmptyString
-(
-)
+u
+"
+"
+_ns
 lineNo
 0
 0

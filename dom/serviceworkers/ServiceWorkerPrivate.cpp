@@ -6954,8 +6954,8 @@ ReferrerPolicy
 _empty
 ;
 mReferrer
-=
-EmptyString
+.
+Truncate
 (
 )
 ;
@@ -9956,9 +9956,9 @@ WorkerTypeService
 VoidString
 (
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 &
 info
 error

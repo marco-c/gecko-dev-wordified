@@ -344,9 +344,9 @@ getter_AddRefs
 (
 bodyStream
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 if

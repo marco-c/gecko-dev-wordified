@@ -12968,9 +12968,9 @@ GTKToolkit
 >
 SetDesktopStartupID
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

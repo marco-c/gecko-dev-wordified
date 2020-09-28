@@ -334,9 +334,10 @@ VoidString
 (
 )
 :
-EmptyString
-(
-)
+u
+"
+"
+_ns
 ;
 return
 ;
@@ -514,9 +515,10 @@ editorInputEvent
 -
 >
 mMessage
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 )
 ;

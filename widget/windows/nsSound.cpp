@@ -324,9 +324,10 @@ nsSoundPlayer
 )
 mSoundName
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 {
 MOZ_ASSERT

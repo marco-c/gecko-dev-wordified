@@ -3139,9 +3139,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 mMemoryReportPath
 KIND_HEAP
 UNITS_BYTES

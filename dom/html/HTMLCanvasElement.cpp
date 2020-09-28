@@ -4460,9 +4460,10 @@ ExtractData
 aCx
 aSubjectPrincipal
 type
-EmptyString
-(
-)
+u
+"
+"
+_ns
 getter_AddRefs
 (
 stream
@@ -5159,9 +5160,10 @@ GetCurrentJSContext
 )
 aSubjectPrincipal
 type
-EmptyString
-(
-)
+u
+"
+"
+_ns
 getter_AddRefs
 (
 stream

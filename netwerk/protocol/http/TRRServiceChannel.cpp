@@ -2202,9 +2202,9 @@ nsHttpConnectionInfo
 (
 host
 port
-EmptyCString
-(
-)
+"
+"
+_ns
 mUsername
 GetTopWindowOrigin
 (

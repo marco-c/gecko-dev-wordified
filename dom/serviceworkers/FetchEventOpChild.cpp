@@ -514,9 +514,9 @@ NS_CheckContentLoadPolicy
 (
 uri
 aLoadInfo
-EmptyCString
-(
-)
+"
+"
+_ns
 &
 decision
 )
@@ -1995,9 +1995,9 @@ channel
 nsAutoCString
 preferredAltDataType
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 nsCOMPtr

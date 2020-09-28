@@ -527,10 +527,6 @@ endpoint
 ;
 nsCString
 errorDescription
-=
-"
-"
-_ns
 ;
 bool
 ok
@@ -1036,10 +1032,6 @@ endpoint
 ;
 nsCString
 errorDescription
-=
-"
-"
-_ns
 ;
 bool
 ok
@@ -2109,9 +2101,9 @@ callback
 Done
 (
 NS_ERROR_FAILURE
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 return
@@ -2150,9 +2142,9 @@ callback
 Done
 (
 NS_ERROR_FAILURE
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

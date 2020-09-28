@@ -939,8 +939,8 @@ EmptyData
 )
 ;
 mArtUrl
-=
-EmptyCString
+.
+Truncate
 (
 )
 ;

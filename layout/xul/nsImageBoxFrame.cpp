@@ -1526,9 +1526,10 @@ requestContextID
 referrerInfo
 mListener
 mLoadFlags
-EmptyString
-(
-)
+u
+"
+"
+_ns
 getter_AddRefs
 (
 mImageRequest

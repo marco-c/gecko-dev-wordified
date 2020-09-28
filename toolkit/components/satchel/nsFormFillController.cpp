@@ -6635,9 +6635,10 @@ controller
 >
 SetSearchString
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 bool

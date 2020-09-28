@@ -1627,9 +1627,10 @@ SerializeHTMLAttributes
 aElement
 aOriginalElement
 dummyPrefix
-EmptyString
-(
-)
+u
+"
+"
+_ns
 name
 ns
 *

@@ -12238,9 +12238,10 @@ nsIRequest
 :
 :
 LOAD_NORMAL
-EmptyString
-(
-)
+u
+"
+"
+_ns
 getter_AddRefs
 (
 imageRequest

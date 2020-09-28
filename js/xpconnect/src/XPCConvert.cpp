@@ -7350,9 +7350,9 @@ Exception
 (
 msgStr
 rv
-EmptyCString
-(
-)
+"
+"
+_ns
 nullptr
 data
 )

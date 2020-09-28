@@ -1365,9 +1365,9 @@ new
 T
 (
 GTEST_TABLE_V4
-EmptyCString
-(
-)
+"
+"
+_ns
 aFile
 )
 ;
@@ -1455,9 +1455,9 @@ new
 T
 (
 GTEST_TABLE_V4
-EmptyCString
-(
-)
+"
+"
+_ns
 file
 )
 ;

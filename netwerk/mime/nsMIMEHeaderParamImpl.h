@@ -134,9 +134,9 @@ GetParameterHTTP
 (
 aHeaderVal
 aParameterName
-EmptyCString
-(
-)
+"
+"
+_ns
 false
 *
 nullptr

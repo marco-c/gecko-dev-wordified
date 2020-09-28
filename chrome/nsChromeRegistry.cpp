@@ -641,9 +641,10 @@ NS_ConvertUTF8toUTF16
 (
 spec
 )
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 0
 flags

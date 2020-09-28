@@ -1875,9 +1875,10 @@ nsString
 &
 empty
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 ;
 /
 /
@@ -4550,9 +4551,10 @@ mResultHandler
 >
 characters
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 )
 ;

@@ -770,9 +770,9 @@ SMILOverrideStyle
 SetPropertyValue
 (
 mPropID
-EmptyCString
-(
-)
+"
+"
+_ns
 nullptr
 IgnoreErrors
 (

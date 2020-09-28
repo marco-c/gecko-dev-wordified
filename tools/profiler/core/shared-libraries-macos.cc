@@ -1154,9 +1154,9 @@ nameStr
 pathStr
 nameStr
 pathStr
-EmptyCString
-(
-)
+"
+"
+_ns
 archInfo
 ?
 archInfo

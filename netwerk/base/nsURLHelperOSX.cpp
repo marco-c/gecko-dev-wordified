@@ -988,9 +988,9 @@ rv
 =
 NS_NewNativeLocalFile
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 true
 getter_AddRefs
 (

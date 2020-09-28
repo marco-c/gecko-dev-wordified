@@ -3224,9 +3224,9 @@ return
 CloneInternal
 (
 eHonorRef
-EmptyCString
-(
-)
+"
+"
+_ns
 result
 )
 ;

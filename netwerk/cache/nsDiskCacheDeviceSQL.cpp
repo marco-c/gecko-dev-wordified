@@ -4115,9 +4115,9 @@ rv
 NS_GetURIWithNewRef
 (
 uri
-EmptyCString
-(
-)
+"
+"
+_ns
 out
 )
 ;
@@ -7936,9 +7936,9 @@ rv
 NS_GetURIWithNewRef
 (
 aManifestURL
-EmptyCString
-(
-)
+"
+"
+_ns
 getter_AddRefs
 (
 newURI

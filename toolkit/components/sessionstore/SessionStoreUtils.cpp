@@ -8093,9 +8093,10 @@ CreateStorage
 nullptr
 principal
 storagePrincipal
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 getter_AddRefs
 (

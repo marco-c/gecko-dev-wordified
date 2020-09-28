@@ -856,9 +856,10 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-EmptyString
-(
-)
+u
+"
+"
+_ns
 /
 /
 aNonce
@@ -2921,9 +2922,9 @@ text
 html
 "
 _ns
-EmptyCString
-(
-)
+"
+"
+_ns
 aLoadInfo
 )
 ;

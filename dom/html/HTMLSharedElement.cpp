@@ -1276,9 +1276,10 @@ aDocument
 >
 SetBaseTarget
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

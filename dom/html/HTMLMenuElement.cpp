@@ -525,9 +525,10 @@ return
 }
 BuildSubmenu
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 this
 aBuilder
 )

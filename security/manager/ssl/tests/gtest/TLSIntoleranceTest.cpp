@@ -1914,9 +1914,9 @@ helpers
 .
 setInsecureFallbackSites
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 ASSERT_TRUE

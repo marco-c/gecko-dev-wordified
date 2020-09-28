@@ -764,9 +764,9 @@ nsRedirectHistoryEntry
 (
 uriPrincipal
 nullptr
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 newLoadInfo

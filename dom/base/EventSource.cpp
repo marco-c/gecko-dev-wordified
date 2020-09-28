@@ -7251,9 +7251,10 @@ InitWithWindowID
 (
 message
 mScriptFile
-EmptyString
-(
-)
+u
+"
+"
+_ns
 mScriptLine
 mScriptColumn
 nsIScriptError

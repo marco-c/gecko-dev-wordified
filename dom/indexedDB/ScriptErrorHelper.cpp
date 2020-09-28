@@ -596,9 +596,10 @@ aFilename
 aSourceLine
 *
 /
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 aColumnNumber
 aSeverityFlag
@@ -624,9 +625,10 @@ aFilename
 aSourceLine
 *
 /
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 aColumnNumber
 aSeverityFlag

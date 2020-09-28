@@ -5676,9 +5676,9 @@ cic
 PreferAlternativeDataType
 (
 aPreferredAlternativeDataType
-EmptyCString
-(
-)
+"
+"
+_ns
 true
 )
 ;

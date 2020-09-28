@@ -2550,9 +2550,10 @@ nsAString
 &
 aIntegrity
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 /

@@ -3064,10 +3064,10 @@ aUrlWithoutQueryOut
 =
 aUrl
 ;
-*
 aUrlQueryOut
-=
-EmptyCString
+-
+>
+Truncate
 (
 )
 ;

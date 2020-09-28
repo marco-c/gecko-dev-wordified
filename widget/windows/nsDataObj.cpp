@@ -4557,9 +4557,10 @@ nsString
 &
 wideFileName
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 ;
 uint32_t
 nMaxNameLength

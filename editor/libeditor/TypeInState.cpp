@@ -1388,9 +1388,10 @@ PropItem
 (
 aProp
 aAttr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 /

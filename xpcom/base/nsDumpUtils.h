@@ -1048,9 +1048,9 @@ nsACString
 &
 aFoldername
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 Mode
 aMode
 =

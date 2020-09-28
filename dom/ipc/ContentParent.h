@@ -4440,9 +4440,9 @@ aPluginID
 :
 ContentParent
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 aPluginID
 )
 {

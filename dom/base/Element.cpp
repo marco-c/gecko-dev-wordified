@@ -8549,9 +8549,10 @@ SetAttr
 (
 kNameSpaceID_None
 nameAtom
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aTriggeringPrincipal
 true
 )
@@ -24164,9 +24165,10 @@ SetAttr
 (
 kNameSpaceID_None
 aAttr
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 )
 ;

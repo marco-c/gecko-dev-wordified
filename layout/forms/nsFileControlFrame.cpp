@@ -3371,9 +3371,10 @@ nsGkAtoms
 :
 :
 disabled
-EmptyString
-(
-)
+u
+"
+"
+_ns
 true
 )
 ;

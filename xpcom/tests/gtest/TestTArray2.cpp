@@ -4802,9 +4802,9 @@ strArray
 .
 BinaryIndexOf
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 no_index
 )

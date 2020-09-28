@@ -4483,9 +4483,10 @@ InitWithWindowID
 (
 message
 aFileNameA
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 aColumnNumber
 nsIScriptError

@@ -6985,9 +6985,8 @@ be
 used
 .
 return
-EmptyCString
-(
-)
+{
+}
 ;
 }
 }

@@ -577,9 +577,9 @@ identifier
 ;
 }
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 static
@@ -677,9 +677,9 @@ nameStr
 pathStr
 nameStr
 pathStr
-EmptyCString
-(
-)
+"
+"
+_ns
 "
 "
 )

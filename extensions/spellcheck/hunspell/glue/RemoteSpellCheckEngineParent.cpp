@@ -273,9 +273,10 @@ nsString
 >
 (
 false
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 )
 ;

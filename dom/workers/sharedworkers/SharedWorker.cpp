@@ -2060,9 +2060,10 @@ mPresContext
 aVisitor
 .
 mEvent
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

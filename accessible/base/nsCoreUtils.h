@@ -384,9 +384,10 @@ nsAString
 &
 aPseudoElt
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 /

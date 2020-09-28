@@ -454,9 +454,9 @@ aRv
 NS_NewCStringInputStream
 (
 aStream
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 return

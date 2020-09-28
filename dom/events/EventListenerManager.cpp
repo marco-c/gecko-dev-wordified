@@ -4874,9 +4874,10 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-EmptyString
-(
-)
+u
+"
+"
+_ns
 /
 /
 aNonce
@@ -7659,9 +7660,10 @@ CreateEvent
 et
 aPresContext
 aEvent
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 event

@@ -2574,9 +2574,10 @@ else
 {
 MozClearDataAtHelper
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 0
 aSubjectPrincipal
 aRv

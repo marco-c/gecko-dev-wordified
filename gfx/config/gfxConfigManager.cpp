@@ -2073,9 +2073,9 @@ blocked
 by
 platform
 "
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }
@@ -2147,9 +2147,9 @@ is
 unavailable
 .
 "
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

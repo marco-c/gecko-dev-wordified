@@ -1021,9 +1021,9 @@ nsACString
 &
 aPreferredAlternativeDataType
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 /

@@ -754,9 +754,9 @@ doc
 )
 {
 return
-EmptyCString
-(
-)
+"
+"
+_ns
 ;
 }
 return

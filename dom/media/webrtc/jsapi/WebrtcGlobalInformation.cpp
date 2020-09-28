@@ -3400,9 +3400,9 @@ sAecDebugLogDir
 .
 valueOr
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 )
 ;

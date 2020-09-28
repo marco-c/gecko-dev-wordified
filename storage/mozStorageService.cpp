@@ -581,9 +581,9 @@ aHandleReport
 >
 Callback
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 path
 nsIMemoryReporter
 :
@@ -3115,9 +3115,9 @@ mConnection
 SetGrowthIncrement
 (
 mGrowthIncrement
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

@@ -1058,8 +1058,8 @@ aRv
 )
 {
 outSanitized
-=
-EmptyString
+.
+Truncate
 (
 )
 ;

@@ -2966,9 +2966,9 @@ nsCertOverride
 OverrideBits
 )
 aOverrideBits
-EmptyCString
-(
-)
+"
+"
+_ns
 /
 /
 dbkey

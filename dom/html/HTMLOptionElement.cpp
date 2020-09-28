@@ -2028,9 +2028,10 @@ nsGkAtoms
 :
 :
 selected
-EmptyString
-(
-)
+u
+"
+"
+_ns
 false
 )
 ;

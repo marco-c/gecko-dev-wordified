@@ -226,9 +226,9 @@ nsACString
 &
 message
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 /
@@ -347,9 +347,9 @@ nsACString
 &
 aMessage
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 /

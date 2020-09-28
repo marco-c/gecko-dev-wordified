@@ -4624,9 +4624,10 @@ new
 TCPSocket
 (
 aGlobal
-EmptyString
-(
-)
+u
+"
+"
+_ns
 0
 false
 aUseArrayBuffers
@@ -4686,9 +4687,10 @@ new
 TCPSocket
 (
 aGlobal
-EmptyString
-(
-)
+u
+"
+"
+_ns
 0
 false
 aUseArrayBuffers

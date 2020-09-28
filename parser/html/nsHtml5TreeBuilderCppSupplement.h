@@ -3154,9 +3154,10 @@ operation
 (
 ToNewUnicode
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 )
 ;

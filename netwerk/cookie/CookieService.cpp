@@ -2169,9 +2169,9 @@ Construct
 RemoveCookiesWithOriginAttributes
 (
 pattern
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 mPrivateStorage
@@ -15475,9 +15475,9 @@ aAttrs
 cookie
 currentTimeInUsec
 aHostURI
-EmptyCString
-(
-)
+"
+"
+_ns
 aFromHttp
 )
 ;

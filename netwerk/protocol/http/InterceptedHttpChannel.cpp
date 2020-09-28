@@ -4218,9 +4218,9 @@ getter_AddRefs
 (
 mBodyReader
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4917,9 +4917,9 @@ _ns
 nsAutoCString
 subresourceKey
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 GetSubresourceTimeStampKey

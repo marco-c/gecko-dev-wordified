@@ -1299,9 +1299,10 @@ SetProperty
 (
 aProperty
 aValue
-EmptyString
-(
-)
+u
+"
+"
+_ns
 IgnoreErrors
 (
 )

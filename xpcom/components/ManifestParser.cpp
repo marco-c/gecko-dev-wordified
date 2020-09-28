@@ -928,9 +928,10 @@ NS_ConvertUTF8toUTF16
 (
 file
 )
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aLineNumber
 0
 nsIScriptError

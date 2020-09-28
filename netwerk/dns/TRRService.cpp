@@ -3552,9 +3552,9 @@ TRR
 this
 mConfirmationNS
 TRRTYPE_NS
-EmptyCString
-(
-)
+"
+"
+_ns
 false
 )
 ;

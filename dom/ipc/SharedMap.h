@@ -995,9 +995,9 @@ nsACString
 &
 aName
 =
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 :
 mMap

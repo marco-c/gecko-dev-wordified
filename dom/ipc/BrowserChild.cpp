@@ -22990,9 +22990,9 @@ aLocation
 .
 SetUserPass
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 .
 Finalize

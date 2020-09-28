@@ -1741,9 +1741,9 @@ corp
 .
 Assign
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 for

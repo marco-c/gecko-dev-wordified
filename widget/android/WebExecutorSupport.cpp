@@ -1642,12 +1642,8 @@ GetHeaderValues
 (
 )
 ;
-auto
+nsCString
 contentType
-=
-EmptyCString
-(
-)
 ;
 for
 (

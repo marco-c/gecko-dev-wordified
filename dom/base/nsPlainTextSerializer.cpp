@@ -7154,9 +7154,10 @@ DoAddText
 DoAddText
 (
 true
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 }

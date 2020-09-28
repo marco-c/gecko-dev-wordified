@@ -1029,9 +1029,10 @@ aAlertListener
 return
 ShowPersistentNotification
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aAlert
 aAlertListener
 )

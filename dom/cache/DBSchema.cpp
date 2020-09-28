@@ -4692,9 +4692,9 @@ aConn
 SetGrowthIncrement
 (
 kGrowthSize
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 if

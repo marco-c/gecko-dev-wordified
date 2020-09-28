@@ -809,9 +809,10 @@ aURL
 aPolicyType
 aAs
 aType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aSrcset
 aSizes
 aIntegrity

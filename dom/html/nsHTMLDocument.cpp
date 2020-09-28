@@ -1524,9 +1524,9 @@ aDocShell
 >
 SetCharset
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 }

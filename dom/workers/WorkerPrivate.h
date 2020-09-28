@@ -786,9 +786,10 @@ aRv
 nsString
 aId
 =
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 enum

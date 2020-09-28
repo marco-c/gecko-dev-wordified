@@ -619,9 +619,10 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 mContentType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 /
 *
 aUseUrgentStartForChannel
@@ -670,9 +671,10 @@ nsIRequest
 LOAD_NORMAL
 nullptr
 mContentType
-EmptyString
-(
-)
+u
+"
+"
+_ns
 /
 *
 aUseUrgentStartForChannel

@@ -5742,9 +5742,10 @@ kInvalidProcessId
 ModalHangUI
 "
 _ns
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 GetIPCChannel
@@ -6384,9 +6385,10 @@ IsEmpty
 TakeFullMinidump
 (
 aContentPid
-EmptyString
-(
-)
+u
+"
+"
+_ns
 dumpId
 )
 ;

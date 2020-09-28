@@ -9221,9 +9221,10 @@ nsGkAtoms
 :
 :
 width
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 if
@@ -9305,9 +9306,10 @@ nsGkAtoms
 :
 :
 height
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 if

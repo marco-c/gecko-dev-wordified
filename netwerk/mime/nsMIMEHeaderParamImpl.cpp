@@ -889,9 +889,9 @@ DoGetParameter
 aHeaderVal
 aParamName
 HTTP_FIELD_ENCODING
-EmptyCString
-(
-)
+"
+"
+_ns
 false
 nullptr
 aResult
@@ -1053,9 +1053,9 @@ internalDecodeParameter
 (
 med
 charset
-EmptyCString
-(
-)
+"
+"
+_ns
 false
 /
 /

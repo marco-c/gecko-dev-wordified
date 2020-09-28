@@ -393,9 +393,10 @@ mMimeType
 mPackageName
 mClassName
 mAction
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ?
 NS_OK
@@ -433,9 +434,10 @@ mMimeType
 mPackageName
 mClassName
 mAction
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ?
 NS_OK

@@ -12779,9 +12779,10 @@ MakeOrChangeListAndListItemAsSubAction
 (
 *
 tagName
-EmptyString
-(
-)
+u
+"
+"
+_ns
 SelectAllOfCurrentList
 :
 :
@@ -18592,9 +18593,10 @@ u
 _moz_dirty
 "
 _ns
-EmptyString
-(
-)
+u
+"
+"
+_ns
 ignoredError
 )
 ;

@@ -164,9 +164,9 @@ getter_AddRefs
 (
 in
 )
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 if

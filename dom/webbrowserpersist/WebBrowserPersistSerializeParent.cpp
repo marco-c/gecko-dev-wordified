@@ -473,9 +473,9 @@ nsIWebBrowserPersistWriteCompletion
 OnFinish
 mDocument
 mStream
-EmptyCString
-(
-)
+"
+"
+_ns
 NS_ERROR_FAILURE
 )
 ;

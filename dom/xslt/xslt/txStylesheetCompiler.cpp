@@ -4826,9 +4826,10 @@ compiler
 new
 txStylesheetCompiler
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 ReferrerPolicy
 :
 :

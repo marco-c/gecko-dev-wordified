@@ -7046,9 +7046,10 @@ aTextEditor
 .
 InsertTextAsAction
 (
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aPrincipal
 )
 ;

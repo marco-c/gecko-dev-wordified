@@ -1493,9 +1493,10 @@ getUniqueIdentifier
 (
 aRoot
 )
-EmptyString
-(
-)
+u
+"
+"
+_ns
 )
 ;
 return

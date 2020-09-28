@@ -902,9 +902,9 @@ _ns
 nsAutoCString
 subresourceKey
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 )
 ;
 GetSubresourceTimeStampKey

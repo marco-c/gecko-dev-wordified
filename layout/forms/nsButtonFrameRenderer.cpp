@@ -397,9 +397,10 @@ nsGkAtoms
 :
 :
 disabled
-EmptyString
-(
-)
+u
+"
+"
+_ns
 aNotify
 )
 ;

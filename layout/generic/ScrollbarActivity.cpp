@@ -1816,9 +1816,10 @@ opacity
 "
 _ns
 str
-EmptyString
-(
-)
+u
+"
+"
+_ns
 IgnoreErrors
 (
 )

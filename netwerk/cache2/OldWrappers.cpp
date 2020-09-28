@@ -5006,9 +5006,9 @@ rv
 =
 GetCacheSession
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 mWriteToDisk
 mLoadInfo
 mAppCache
@@ -5121,9 +5121,9 @@ rv
 =
 GetCacheSession
 (
-EmptyCString
-(
-)
+"
+"
+_ns
 mWriteToDisk
 mLoadInfo
 mAppCache

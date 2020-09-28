@@ -1142,13 +1142,8 @@ nsGkAtoms
 :
 :
 referrerpolicy
-EmptyCString
-(
-)
-.
-get
-(
-)
+"
+"
 aReferrer
 )
 ;
