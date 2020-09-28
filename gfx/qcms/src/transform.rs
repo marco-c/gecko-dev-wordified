@@ -3006,16 +3006,7 @@ r
 )
 ;
 }
-#
-[
-no_mangle
-]
 pub
-unsafe
-extern
-"
-C
-"
 fn
 set_rgb_colorants
 (
