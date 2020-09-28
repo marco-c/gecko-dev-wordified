@@ -1263,6 +1263,15 @@ Opcode
 :
 FunctionLength
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+FunctionName
+:
 object
 =
 ins
