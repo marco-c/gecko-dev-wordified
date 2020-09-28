@@ -77,7 +77,7 @@ helper
 {
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
@@ -90,7 +90,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -148,7 +148,7 @@ win
 ;
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
@@ -178,7 +178,7 @@ helper
 {
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
@@ -198,7 +198,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -231,7 +231,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -244,7 +244,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -257,7 +257,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -326,7 +326,7 @@ helper
 {
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
@@ -339,7 +339,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -397,7 +397,7 @@ win
 ;
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
@@ -427,7 +427,7 @@ helper
 {
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
@@ -440,7 +440,7 @@ startPrint
 ;
 helper
 .
-assertDialogVisible
+assertDialogOpen
 (
 )
 ;
@@ -827,7 +827,7 @@ VK_ESCAPE
 ;
 helper
 .
-assertDialogHidden
+assertDialogClosed
 (
 )
 ;
