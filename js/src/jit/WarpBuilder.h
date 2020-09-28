@@ -1325,6 +1325,9 @@ MDefinition
 *
 patchInlinedReturns
 (
+CompileInfo
+*
+calleeCompileInfo
 CallInfo
 &
 callInfo
@@ -1340,6 +1343,9 @@ MDefinition
 *
 patchInlinedReturn
 (
+CompileInfo
+*
+calleeCompileInfo
 CallInfo
 &
 callInfo

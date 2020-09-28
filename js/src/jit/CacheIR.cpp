@@ -58559,6 +58559,11 @@ isObject
 )
 )
 {
+*
+skipAttach
+=
+true
+;
 return
 true
 ;
