@@ -220,7 +220,6 @@ onEncrypted
 test
 )
 ;
-return
 testmediasource
 (
 config

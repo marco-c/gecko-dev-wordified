@@ -236,7 +236,6 @@ it
 to
 video
 .
-return
 navigator
 .
 requestMediaKeySystemAccess
