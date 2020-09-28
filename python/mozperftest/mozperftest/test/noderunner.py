@@ -183,14 +183,6 @@ package
         
 self
 .
-mach_cmd
-.
-activate_virtualenv
-(
-)
-        
-self
-.
 verify_node_install
 (
 )

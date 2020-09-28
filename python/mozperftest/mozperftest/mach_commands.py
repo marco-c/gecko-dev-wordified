@@ -926,17 +926,6 @@ task_config
             
 return
         
-#
-run
-locally
-        
-MachCommandBase
-.
-activate_virtualenv
-(
-self
-)
-        
 from
 mozperftest
 .
