@@ -353,6 +353,10 @@ static
 void
 TestCrashyOperation
 (
+const
+char
+*
+label
 void
 (
 *
@@ -539,6 +543,8 @@ fprintf
 stderr
 "
 TestCrashyOperation
+%
+s
 :
 The
 following
@@ -555,6 +561,7 @@ panic
 \
 n
 "
+label
 )
 ;
 aCrashyOperation
@@ -566,6 +573,8 @@ fprintf
 stderr
 "
 TestCrashyOperation
+%
+s
 :
 didn
 '
@@ -576,6 +585,7 @@ crash
 \
 n
 "
+label
 )
 ;
 ASSERT_TRUE
@@ -711,6 +721,9 @@ fprintf
 stderr
 "
 TestCrashyOperation
+%
+s
+:
 '
 exited
 '
@@ -721,6 +734,7 @@ d
 \
 n
 "
+label
 signum
 )
 ;
@@ -794,6 +808,9 @@ fprintf
 stderr
 "
 TestCrashyOperation
+%
+s
+:
 '
 signaled
 '
@@ -804,6 +821,7 @@ d
 \
 n
 "
+label
 signum
 )
 ;
@@ -1124,6 +1142,11 @@ aborts
 .
 TestCrashyOperation
 (
+"
+length
+too
+big
+"
 InitCapacityOk_InitialLengthTooBig
 )
 ;
@@ -1152,6 +1175,12 @@ abort
 .
 TestCrashyOperation
 (
+"
+entry
+store
+too
+big
+"
 InitCapacityOk_InitialEntryStoreTooBig
 )
 ;
@@ -1187,6 +1216,12 @@ size
 .
 TestCrashyOperation
 (
+"
+entry
+size
+too
+big
+"
 InitCapacityOk_EntrySizeTooBig
 )
 ;
