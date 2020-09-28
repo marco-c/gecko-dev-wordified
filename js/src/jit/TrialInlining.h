@@ -727,7 +727,8 @@ BytecodeLocation
 loc
 )
 ;
-void
+MOZ_MUST_USE
+bool
 replaceICStub
 (
 const
