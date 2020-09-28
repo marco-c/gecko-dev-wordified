@@ -458,6 +458,9 @@ something
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -467,6 +470,7 @@ foo
 .
 4
 "
+}
 )
 ;
 await
@@ -478,6 +482,9 @@ else
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 2
 .
@@ -487,6 +494,7 @@ foo
 .
 5
 "
+}
 )
 ;
 await
@@ -629,6 +637,9 @@ a
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -638,6 +649,7 @@ foo
 .
 4
 "
+}
 )
 ;
 /
@@ -741,6 +753,9 @@ b
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 3
 .
@@ -750,6 +765,7 @@ foo
 .
 6
 "
+}
 )
 ;
 await
@@ -859,6 +875,9 @@ xyz
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -868,6 +887,7 @@ foo
 .
 4
 "
+}
 )
 ;
 await
@@ -879,6 +899,9 @@ abc
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 :
 :
@@ -890,6 +913,7 @@ foo
 :
 4
 "
+}
 )
 ;
 /
@@ -991,6 +1015,9 @@ ipv6
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 2001
 :
@@ -1003,6 +1030,7 @@ c
 :
 d
 "
+}
 )
 ;
 await
@@ -1014,6 +1042,9 @@ def
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 :
 :
@@ -1025,6 +1056,7 @@ c
 :
 d
 "
+}
 )
 ;
 /
@@ -1124,6 +1156,9 @@ ipv6b
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 2001
 :
@@ -1136,6 +1171,7 @@ c
 :
 d
 "
+}
 )
 ;
 await
@@ -1147,6 +1183,9 @@ qqqq
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 9
 .
@@ -1156,6 +1195,7 @@ foo
 .
 6
 "
+}
 )
 ;
 /
@@ -1387,6 +1427,9 @@ multiple
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 9
 .
@@ -1396,6 +1439,7 @@ foo
 .
 9
 "
+}
 )
 ;
 let
@@ -1485,8 +1529,11 @@ yuiop
 .
 foo
 "
-undefined
+{
+expectedSuccess
+:
 false
+}
 )
 ;
 inRecord
@@ -1638,6 +1685,9 @@ first
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 3
 .
@@ -1647,6 +1697,7 @@ foo
 .
 6
 "
+}
 )
 ;
 await
@@ -1739,6 +1790,9 @@ second
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -1748,6 +1802,7 @@ foo
 .
 4
 "
+}
 )
 ;
 await
@@ -1759,6 +1814,9 @@ first
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 2
 .
@@ -1768,6 +1826,7 @@ foo
 .
 5
 "
+}
 )
 ;
 }

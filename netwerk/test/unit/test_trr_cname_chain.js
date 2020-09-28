@@ -502,6 +502,9 @@ something
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -511,12 +514,6 @@ foo
 .
 4
 "
-true
-undefined
-"
-"
-false
-{
 flags
 :
 Ci
@@ -647,6 +644,9 @@ a
 .
 foo
 "
+{
+expectedAnswer
+:
 "
 2
 .
@@ -656,6 +656,7 @@ foo
 .
 5
 "
+}
 )
 ;
 await
