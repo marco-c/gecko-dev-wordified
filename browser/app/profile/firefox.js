@@ -4907,9 +4907,6 @@ private
 browsing
 mode
 .
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -4923,11 +4920,9 @@ ui
 .
 enabled
 "
-true
+false
 )
 ;
-#
-endif
 /
 /
 The
