@@ -39114,11 +39114,9 @@ Services
 .
 scriptSecurityManager
 .
-createContentPrincipal
+principalWithOA
 (
 dataPrincipal
-.
-URI
 attrs
 )
 ;

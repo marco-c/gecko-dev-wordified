@@ -1331,11 +1331,9 @@ isContentPrincipal
 return
 secMan
 .
-createContentPrincipal
+principalWithOA
 (
 principal
-.
-URI
 existingPrincipal
 .
 originAttributes
