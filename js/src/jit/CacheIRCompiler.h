@@ -4653,6 +4653,17 @@ objId
 ;
 }
 bool
+emitLoadTypedElementExistsResult
+(
+ObjOperandId
+objId
+Int32OperandId
+indexId
+TypedThingLayout
+layout
+)
+;
+bool
 emitLoadTypedElementResult
 (
 ObjOperandId
