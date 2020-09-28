@@ -2955,6 +2955,7 @@ aContinueOnStopRequestFunc
 nodiscard
 ]
 ]
+MOZ_NEVER_INLINE
 nsresult
 DoConnect
 (
