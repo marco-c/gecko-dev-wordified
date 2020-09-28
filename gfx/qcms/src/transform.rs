@@ -11993,7 +11993,7 @@ profile
 .
 B2A0
 .
-is_null
+is_none
 (
 )
 {
@@ -13371,7 +13371,7 @@ in_0
 .
 A2B0
 .
-is_null
+is_none
 (
 )
 |
@@ -13384,7 +13384,7 @@ out
 .
 B2A0
 .
-is_null
+is_none
 (
 )
 |
