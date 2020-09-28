@@ -229,7 +229,7 @@ mozilla
 MOZ_MTLOG_MODULE
 (
 "
-mediapipeline
+transportbridge
 "
 )
 static
