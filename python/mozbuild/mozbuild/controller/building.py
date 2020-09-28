@@ -7136,6 +7136,12 @@ kwargs
         
 self
 .
+metrics
+=
+None
+        
+self
+.
 mach_context
 =
 None
@@ -7144,6 +7150,7 @@ def
 build
 (
 self
+metrics
 what
 =
 None
@@ -7199,6 +7206,12 @@ used
 "
 "
 "
+        
+self
+.
+metrics
+=
+metrics
         
 self
 .
@@ -7396,10 +7409,6 @@ False
             
 self
 .
-mach_context
-.
-telemetry
-.
 metrics
 .
 mozbuild
@@ -7482,19 +7491,11 @@ clobber
 =
 True
                 
-mozbuild_telemetry
-=
 self
-.
-mach_context
-.
-telemetry
 .
 metrics
 .
 mozbuild
-                
-mozbuild_telemetry
 .
 clobber
 .
@@ -7700,6 +7701,8 @@ self
 .
 configure
 (
+metrics
+                                           
 buildstatus_messages
 =
 True
@@ -7746,12 +7749,6 @@ substs
             
 mozbuild_metrics
 =
-self
-.
-mach_context
-.
-telemetry
-.
 metrics
 .
 mozbuild
@@ -9968,6 +9965,7 @@ def
 configure
 (
 self
+metrics
 options
 =
 None
@@ -10002,6 +10000,12 @@ slow
 down
 builds
 .
+        
+self
+.
+metrics
+=
+metrics
         
 mkdir
 (
@@ -11683,10 +11687,6 @@ clobber
 True
             
 self
-.
-mach_context
-.
-telemetry
 .
 metrics
 .

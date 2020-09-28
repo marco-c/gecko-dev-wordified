@@ -165,7 +165,7 @@ from
 telemetry
 import
 report_invocation_metrics
-Telemetry
+create_telemetry_from_environment
 from
 .
 util
@@ -2748,9 +2748,7 @@ sentry
         
 telemetry
 =
-Telemetry
-.
-from_environment
+create_telemetry_from_environment
 (
 self
 .
@@ -3019,8 +3017,6 @@ report_invocation_metrics
 context
 .
 telemetry
-.
-metrics
 handler
 .
 name
