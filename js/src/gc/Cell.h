@@ -3660,6 +3660,8 @@ tmp
 thing
 )
 ;
+return
+;
 }
 if
 (
@@ -3698,17 +3700,6 @@ runtime
 )
 )
 ;
-if
-(
-!
-JS
-:
-:
-RuntimeHeapIsCollecting
-(
-)
-)
-{
 JS
 :
 :
@@ -3729,7 +3720,6 @@ getTraceKind
 )
 )
 ;
-}
 }
 }
 void
