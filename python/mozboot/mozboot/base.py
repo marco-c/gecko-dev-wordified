@@ -3374,6 +3374,10 @@ path
 if
 name
 .
+lower
+(
+)
+.
 endswith
 (
 '
