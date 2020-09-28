@@ -1956,6 +1956,16 @@ MOZ_DIAGNOSTIC_ASSERT
 ok
 )
 ;
+if
+(
+!
+ok
+)
+{
+return
+false
+;
+}
 nsAutoString
 scheme
 ;
