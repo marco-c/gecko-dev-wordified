@@ -6712,17 +6712,6 @@ CFRelease
 familyNames
 )
 ;
-ApplyWhitelist
-(
-families
-)
-;
-families
-.
-Sort
-(
-)
-;
 SharedFontList
 (
 )
