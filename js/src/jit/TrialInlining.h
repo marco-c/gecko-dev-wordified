@@ -468,6 +468,13 @@ Zone
 zone
 )
 ;
+void
+resetWarmUpCounts
+(
+uint32_t
+count
+)
+;
 JSScript
 *
 owningScript
