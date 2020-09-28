@@ -12162,8 +12162,6 @@ CertID
 certID
 Time
 time
-Time
-validityPeriodBeginning
 Duration
 validityDuration
 /
@@ -12184,6 +12182,15 @@ const
 Input
 *
 aiaExtension
+/
+*
+optional
+*
+/
+const
+Input
+*
+sctExtension
 )
 override
 {
