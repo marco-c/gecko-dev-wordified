@@ -1601,7 +1601,13 @@ VOLUME
 {
 mVolume
 =
+static_cast
+<
+float
+>
+(
 aParam
+)
 ;
 }
 }
@@ -2860,7 +2866,7 @@ aMuted
 ?
 0
 .
-0
+0f
 :
 aVolume
 ;
