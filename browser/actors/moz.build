@@ -483,6 +483,16 @@ PluginParent
 jsm
 '
 '
+PointerLockChild
+.
+jsm
+'
+'
+PointerLockParent
+.
+jsm
+'
+'
 PromptParent
 .
 jsm
