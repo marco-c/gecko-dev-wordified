@@ -2085,7 +2085,6 @@ mozilla
 LazyLogModule
 gPageCacheLog
 ;
-static
 mozilla
 :
 :
@@ -33889,6 +33888,8 @@ aContentViewer
 WindowGlobalChild
 *
 aWindowActor
+bool
+aIsTransientAboutBlank
 )
 {
 /
@@ -34027,6 +34028,10 @@ mLSHE
 }
 if
 (
+!
+aIsTransientAboutBlank
+&
+&
 StaticPrefs
 :
 :
@@ -41183,6 +41188,7 @@ Embed
 (
 viewer
 aActor
+true
 )
 ;
 NS_ENSURE_SUCCESS
