@@ -32104,7 +32104,7 @@ extendedRange
 WSRunScanner
 :
 :
-GetRangeExtendToContainInvisibleWhiteSpacesAtRangeBoundaries
+GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
 aHTMLEditor
 EditorDOMRange

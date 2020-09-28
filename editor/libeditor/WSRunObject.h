@@ -2729,7 +2729,7 @@ aEditingHost
 *
 *
 *
-GetRangeExtendToContainInvisibleWhiteSpacesAtRangeBoundaries
+GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
 )
 returns
@@ -2752,7 +2752,7 @@ spaces
 /
 static
 EditorDOMRange
-GetRangeExtendToContainInvisibleWhiteSpacesAtRangeBoundaries
+GetRangeContainingInvisibleWhiteSpacesAtRangeBoundaries
 (
 const
 HTMLEditor
