@@ -2618,10 +2618,6 @@ equal
 (
 browser
 .
-frameLoader
-.
-remoteTab
-.
 hasBeforeUnload
 expected
 )
@@ -2634,9 +2630,9 @@ expected
 Tests
 that
 the
-nsIRemoteTab
+MozBrowser
 hasBeforeUnload
-attribute
+property
 works
 under
 *
