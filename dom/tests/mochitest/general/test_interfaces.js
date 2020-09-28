@@ -8292,9 +8292,6 @@ MediaMetadata
 insecureContext
 :
 true
-nightly
-:
-true
 }
 /
 /
@@ -8423,9 +8420,6 @@ name
 MediaSession
 "
 insecureContext
-:
-true
-nightly
 :
 true
 }
