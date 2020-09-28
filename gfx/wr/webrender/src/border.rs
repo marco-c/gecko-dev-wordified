@@ -378,6 +378,7 @@ variants
 [
 derive
 (
+Copy
 Clone
 Debug
 Hash
