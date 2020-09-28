@@ -3745,6 +3745,13 @@ UrlbarTokenizer
 RESTRICT
 .
 BOOKMARK
+{
+searchModeEntry
+:
+"
+bookmarkmenu
+"
+}
 )
 ;
 }

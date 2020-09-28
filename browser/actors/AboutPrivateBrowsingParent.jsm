@@ -439,6 +439,13 @@ data
 .
 text
 }
+{
+searchModeEntry
+:
+"
+handoff
+"
+}
 )
 ;
 isFirstChange
@@ -511,6 +518,13 @@ urlBar
 search
 (
 searchAlias
+{
+searchModeEntry
+:
+"
+handoff
+"
+}
 )
 ;
 this
