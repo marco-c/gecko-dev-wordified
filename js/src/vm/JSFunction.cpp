@@ -11711,10 +11711,10 @@ isSelfHostedBuiltin
 )
 )
 {
-BaseScript
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 script
 )

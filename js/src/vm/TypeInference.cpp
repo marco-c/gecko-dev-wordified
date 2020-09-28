@@ -26765,10 +26765,10 @@ into
 the
 heap
 .
-Shape
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 prefixShape
 )

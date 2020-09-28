@@ -934,9 +934,11 @@ trc
 runtime
 (
 )
-ThingIsPermanentAtomOrWellKnownSymbol
-(
 t
+-
+>
+isPermanentAndMayBeShared
+(
 )
 |
 |

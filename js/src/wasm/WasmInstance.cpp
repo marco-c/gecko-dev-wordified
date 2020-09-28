@@ -9000,10 +9000,10 @@ MOZ_ASSERT
 location
 )
 ;
-JSObject
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 *
 reinterpret_cast

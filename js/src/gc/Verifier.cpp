@@ -2109,7 +2109,7 @@ js
 gc
 :
 :
-AssertSafeToSkipBarrier
+AssertSafeToSkipPreWriteBarrier
 (
 TenuredCell
 *

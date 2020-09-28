@@ -1785,9 +1785,11 @@ true
 }
 if
 (
-ThingIsPermanent
-(
 thing
+-
+>
+isPermanentAndMayBeShared
+(
 )
 )
 {

@@ -30332,10 +30332,10 @@ object
 pendingObjectReadBarriers_
 )
 {
-JSObject
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 object
 )
@@ -30350,10 +30350,10 @@ group
 pendingObjectGroupReadBarriers_
 )
 {
-ObjectGroup
+gc
 :
 :
-readBarrier
+ReadBarrier
 (
 group
 )

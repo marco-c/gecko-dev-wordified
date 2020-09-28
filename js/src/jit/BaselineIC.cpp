@@ -4049,10 +4049,10 @@ the
 old
 code
 .
-JitCode
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 jitCode
 (

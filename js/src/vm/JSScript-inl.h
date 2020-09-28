@@ -523,10 +523,10 @@ clearEnclosingScript
 (
 )
 {
-BaseScript
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 toEnclosingScript
 (
@@ -606,10 +606,10 @@ clearEnclosingScope
 (
 )
 {
-Scope
+gc
 :
 :
-preWriteBarrier
+PreWriteBarrier
 (
 toEnclosingScope
 (
