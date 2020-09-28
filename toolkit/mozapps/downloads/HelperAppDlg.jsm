@@ -8839,6 +8839,7 @@ mLauncher
 MIMEInfo
 .
 MIMEType
+primaryExtension
 )
 )
 ;
