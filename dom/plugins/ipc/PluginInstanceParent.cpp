@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+ToString
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -4825,7 +4834,7 @@ size
 c_str
 (
 )
-Stringify
+ToString
 (
 dirty
 )
@@ -5204,7 +5213,7 @@ void
 (
 pluginSurfHandle
 )
-Stringify
+ToString
 (
 dirty
 )
