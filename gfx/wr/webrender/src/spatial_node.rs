@@ -5758,6 +5758,11 @@ enum
 ScrollFrameKind
 {
 PipelineRoot
+{
+is_root_pipeline
+:
+bool
+}
 Explicit
 }
 #

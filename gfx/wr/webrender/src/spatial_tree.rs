@@ -4132,6 +4132,9 @@ ScrollFrameKind
 :
 :
 PipelineRoot
+{
+is_root_pipeline
+}
 =
 >
 {
@@ -4150,8 +4153,12 @@ need
 to
 look
 further
+if
+is_root_pipeline
+{
 break
 ;
+}
 }
 ScrollFrameKind
 :
