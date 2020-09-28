@@ -1909,7 +1909,7 @@ original
 window
 again
 .
-let
+const
 win
 =
 this
@@ -1925,7 +1925,7 @@ isPrivate
 }
 )
 ;
-let
+const
 activated
 =
 waitForEvent
@@ -1936,7 +1936,7 @@ activate
 "
 )
 ;
-let
+const
 focused
 =
 waitForEvent
@@ -1952,7 +1952,7 @@ true
 }
 )
 ;
-let
+const
 startup
 =
 waitForObserverTopic
@@ -1966,6 +1966,9 @@ startup
 -
 finished
 "
+{
+checkFn
+:
 subject
 =
 >
@@ -1973,6 +1976,7 @@ subject
 =
 =
 win
+}
 )
 ;
 win
