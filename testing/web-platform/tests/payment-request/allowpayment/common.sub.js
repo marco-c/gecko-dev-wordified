@@ -36,7 +36,7 @@ bool
 /
 /
 const
-setAllowPaymentRequest
+setAllowPayment
 =
 bool
 ;
@@ -274,7 +274,7 @@ tagName
 ;
 if
 (
-setAllowPaymentRequest
+setAllowPayment
 )
 {
 elm
@@ -282,9 +282,10 @@ elm
 setAttribute
 (
 "
-allowpaymentrequest
+allow
 "
 "
+payment
 "
 )
 ;
