@@ -1063,17 +1063,6 @@ moxColumnHeaderUIElements
 ;
 /
 /
-AXIdentifier
--
-(
-NSString
-*
-_Nullable
-)
-moxIdentifier
-;
-/
-/
 Math
 Attributes
 /
