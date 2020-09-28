@@ -2430,13 +2430,6 @@ input
 .
 maybePromoteKeywordToSearchMode
 (
-{
-entry
-:
-"
-typed
-"
-}
 )
 ;
 /

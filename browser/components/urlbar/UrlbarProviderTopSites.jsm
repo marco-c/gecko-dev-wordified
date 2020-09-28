@@ -1503,7 +1503,7 @@ UrlbarUtils
 .
 KEYWORD_OFFER
 .
-SHOW
+HIDE
 engine
 :
 engine
