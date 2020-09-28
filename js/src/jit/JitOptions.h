@@ -393,6 +393,9 @@ uint32_t
 trialInliningWarmUpThreshold
 ;
 uint32_t
+trialInliningInitialWarmUpCount
+;
+uint32_t
 normalIonWarmUpThreshold
 ;
 uint32_t
