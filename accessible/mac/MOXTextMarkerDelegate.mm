@@ -1047,8 +1047,12 @@ nil
 return
 geckoTextMarker
 .
-LeftWordRange
+Range
 (
+EWhichRange
+:
+:
+eLeftWord
 )
 .
 CreateAXTextMarkerRange
@@ -1091,8 +1095,12 @@ nil
 return
 geckoTextMarker
 .
-RightWordRange
+Range
 (
+EWhichRange
+:
+:
+eRightWord
 )
 .
 CreateAXTextMarkerRange
