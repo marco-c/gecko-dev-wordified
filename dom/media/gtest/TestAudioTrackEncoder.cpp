@@ -116,6 +116,13 @@ AudioGenerator
 .
 h
 "
+#
+include
+"
+AudioSampleFormat
+.
+h
+"
 using
 namespace
 mozilla
@@ -763,6 +770,9 @@ AudioSegment
 segment
 ;
 AudioGenerator
+<
+AudioDataValue
+>
 generator
 (
 2
@@ -817,6 +827,9 @@ AudioSegment
 segment
 ;
 AudioGenerator
+<
+AudioDataValue
+>
 generator
 (
 2
@@ -871,6 +884,9 @@ AudioSegment
 segment
 ;
 AudioGenerator
+<
+AudioDataValue
+>
 generator
 (
 2
@@ -925,6 +941,9 @@ AudioSegment
 segment
 ;
 AudioGenerator
+<
+AudioDataValue
+>
 generator
 (
 2
@@ -979,6 +998,9 @@ AudioSegment
 segment
 ;
 AudioGenerator
+<
+AudioDataValue
+>
 generator
 (
 2
@@ -1331,6 +1353,9 @@ audio
 data
 .
 AudioGenerator
+<
+AudioDataValue
+>
 generator
 (
 channels
