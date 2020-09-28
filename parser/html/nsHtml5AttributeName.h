@@ -2627,6 +2627,11 @@ ATTR_AUTOFOCUS
 static
 nsHtml5AttributeName
 *
+ATTR_AUTOCAPITALIZE
+;
+static
+nsHtml5AttributeName
+*
 ATTR_BGCOLOR
 ;
 static
