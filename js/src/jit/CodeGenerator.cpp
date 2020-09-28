@@ -109364,9 +109364,8 @@ boundLengthOffset
 FunctionExtended
 :
 :
-offsetOfExtendedSlot
+offsetOfBoundFunctionLengthSlot
 (
-BOUND_FUN_LENGTH_SLOT
 )
 ;
 /

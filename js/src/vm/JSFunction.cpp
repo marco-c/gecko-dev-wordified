@@ -8660,6 +8660,15 @@ isBoundFunction
 )
 )
 {
+constexpr
+auto
+lengthSlot
+=
+FunctionExtended
+:
+:
+BOUND_FUNCTION_LENGTH_SLOT
+;
 MOZ_ASSERT
 (
 fun
@@ -8667,7 +8676,7 @@ fun
 >
 getExtendedSlot
 (
-BOUND_FUN_LENGTH_SLOT
+lengthSlot
 )
 .
 isNumber
@@ -8684,7 +8693,7 @@ fun
 >
 getExtendedSlot
 (
-BOUND_FUN_LENGTH_SLOT
+lengthSlot
 )
 )
 ;
@@ -10026,7 +10035,10 @@ bound
 >
 setExtendedSlot
 (
-BOUND_FUN_LENGTH_SLOT
+FunctionExtended
+:
+:
+BOUND_FUNCTION_LENGTH_SLOT
 NumberValue
 (
 length
