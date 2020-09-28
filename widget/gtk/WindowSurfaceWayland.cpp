@@ -137,6 +137,13 @@ h
 #
 include
 "
+gfx2DGlue
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
