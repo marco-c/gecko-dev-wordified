@@ -6943,6 +6943,7 @@ nsITransferable
 *
 aTransferable
 )
+const
 {
 MOZ_ASSERT
 (
@@ -12260,6 +12261,9 @@ return
 NS_OK
 ;
 }
+/
+/
+static
 bool
 HTMLEditor
 :

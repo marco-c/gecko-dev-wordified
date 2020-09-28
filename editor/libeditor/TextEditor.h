@@ -4666,10 +4666,12 @@ first
 bool
 IsSafeToInsertData
 (
+const
 Document
 *
 aSourceDoc
 )
+const
 ;
 /
 *

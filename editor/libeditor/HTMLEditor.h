@@ -28328,6 +28328,7 @@ nsITransferable
 *
 aTransferable
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -28408,6 +28409,7 @@ bool
 aDoDeleteSelection
 )
 ;
+static
 bool
 HavePrivateHTMLFlavor
 (
