@@ -3357,12 +3357,9 @@ frecentIndex
 .
 original_url
 =
-frecent
-[
-frecentIndex
-]
+link
 .
-url
+original_url
 ;
 frecent
 [
