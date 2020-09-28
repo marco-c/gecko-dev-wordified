@@ -4508,6 +4508,8 @@ aBypassCORSChecks
 bool
 aSkipContentPolicyCheckForWebRequest
 bool
+aOriginalFrameSrcLoad
+bool
 aForceInheritPrincipalDropped
 uint64_t
 aInnerWindowID
@@ -4714,7 +4716,7 @@ aSkipContentPolicyCheckForWebRequest
 )
 mOriginalFrameSrcLoad
 (
-false
+aOriginalFrameSrcLoad
 )
 mForceInheritPrincipalDropped
 (
