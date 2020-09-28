@@ -328,6 +328,11 @@ NeckoChannelParams
 ipdlh
 '
 '
+PChannelDiverter
+.
+ipdl
+'
+'
 PDataChannel
 .
 ipdl

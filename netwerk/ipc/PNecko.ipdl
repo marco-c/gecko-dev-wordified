@@ -160,6 +160,10 @@ PDNSRequest
 ;
 include
 protocol
+PChannelDiverter
+;
+include
+protocol
 PFileDescriptorSet
 ;
 include
@@ -452,6 +456,9 @@ manages
 PFileChannel
 ;
 manages
+PChannelDiverter
+;
+manages
 PTransportProvider
 ;
 manages
@@ -703,6 +710,13 @@ PFileChannel
 (
 uint32_t
 channelId
+)
+;
+async
+PChannelDiverter
+(
+ChannelDiverterArgs
+channel
 )
 ;
 async
