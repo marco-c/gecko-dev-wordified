@@ -3263,11 +3263,7 @@ allocate
 .
 *
 /
-HelperThreadState
-(
-)
-.
-waitForAllThreads
+WaitForAllHelperThreads
 (
 )
 ;

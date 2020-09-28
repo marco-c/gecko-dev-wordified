@@ -738,11 +738,9 @@ HelperThreadLock
 :
 MOZ_ASSERT
 (
-HelperThreadState
-(
-)
+gHelperThreadLock
 .
-isLockedByCurrentThread
+ownedByCurrentThread
 (
 )
 )
