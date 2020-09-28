@@ -15409,7 +15409,7 @@ we
 are
 editing
 .
-nsCString
+nsString
 mContentMIMEType
 ;
 RefPtr

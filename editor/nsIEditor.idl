@@ -728,7 +728,7 @@ document
 *
 /
 attribute
-string
+AString
 contentsMIMEType
 ;
 /
