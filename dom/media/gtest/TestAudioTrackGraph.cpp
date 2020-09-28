@@ -3411,7 +3411,7 @@ InputSampleRate
 uint64_t
 preSilenceSamples
 ;
-uint32_t
+float
 estimatedFreq
 ;
 uint32_t
@@ -3438,7 +3438,9 @@ EXPECT_NEAR
 (
 estimatedFreq
 inputFrequency
-10
+/
+aDriftFactor
+5
 )
 ;
 EXPECT_GE
