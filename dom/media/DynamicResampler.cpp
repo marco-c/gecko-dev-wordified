@@ -120,13 +120,13 @@ mInRate
 (
 aInRate
 )
-mOutRate
-(
-aOutRate
-)
 mPreBufferFrames
 (
 aPreBufferFrames
+)
+mOutRate
+(
+aOutRate
 )
 {
 MOZ_ASSERT
