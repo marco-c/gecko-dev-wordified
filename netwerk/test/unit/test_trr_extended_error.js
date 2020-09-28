@@ -427,9 +427,6 @@ something
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -439,7 +436,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 await
@@ -527,11 +523,8 @@ a
 .
 foo
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 Assert
@@ -650,11 +643,8 @@ b
 .
 foo
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 Assert
@@ -769,9 +759,6 @@ c
 .
 foo
 "
-{
-expectedAnswer
-:
 "
 127
 .
@@ -781,7 +768,6 @@ expectedAnswer
 .
 1
 "
-}
 )
 ;
 }
@@ -945,9 +931,6 @@ delay1
 .
 com
 "
-{
-expectedAnswer
-:
 "
 :
 :
@@ -959,7 +942,6 @@ c
 :
 d
 "
-}
 )
 ;
 }
@@ -1122,9 +1104,6 @@ delay2
 .
 com
 "
-{
-expectedAnswer
-:
 "
 :
 :
@@ -1136,7 +1115,6 @@ c
 :
 d
 "
-}
 )
 ;
 }
@@ -1298,9 +1276,6 @@ delay3
 .
 com
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -1310,7 +1285,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 }
@@ -1471,9 +1445,6 @@ delay4
 .
 com
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -1483,7 +1454,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 }
