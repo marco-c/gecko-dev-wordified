@@ -2407,7 +2407,14 @@ Refused0RTT
 )
 ;
 }
-}
+/
+/
+Reset
+Http3Sream
+states
+as
+well
+.
 mSendState
 =
 PREPARING_HEADERS
@@ -2452,6 +2459,7 @@ mFin
 =
 false
 ;
+}
 return
 rv
 ;
