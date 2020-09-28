@@ -1156,6 +1156,15 @@ the
 capture
 module
 .
+std
+:
+:
+atomic
+<
+uint32_t
+>
+_maxFPSNeeded
+;
 /
 /
 Used
