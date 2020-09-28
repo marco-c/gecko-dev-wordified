@@ -15405,6 +15405,18 @@ nsIFrame
 aFrame
 )
 ;
+static
+const
+nsIFrame
+*
+GetDisplayRootFrame
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 /
 *
 *
@@ -19969,6 +19981,7 @@ static
 bool
 AsyncPanZoomEnabled
 (
+const
 nsIFrame
 *
 aFrame
