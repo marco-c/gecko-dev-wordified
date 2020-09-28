@@ -1435,7 +1435,7 @@ com
 /
 f
 "
-fireInputEvents
+fireInputEvent
 :
 true
 }

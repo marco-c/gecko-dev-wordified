@@ -6320,6 +6320,16 @@ UrlbarUtils
 KEYWORD_OFFER
 .
 SHOW
+&
+&
+!
+this
+.
+view
+.
+oneOffSearchButtons
+.
+selectedButton
 )
 {
 this
