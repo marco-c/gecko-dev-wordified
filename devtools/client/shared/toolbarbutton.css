@@ -382,10 +382,7 @@ label
 ]
 )
 :
--
-moz
--
-any
+is
 (
 [
 checked
@@ -436,10 +433,7 @@ label
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 checked
@@ -478,10 +472,7 @@ toolbarbutton
 not
 (
 :
--
-moz
--
-any
+is
 (
 [
 checked
