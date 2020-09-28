@@ -102,7 +102,7 @@ mozbuild
 )
 EXPORTS
 .
-mtransport
+transport
 +
 =
 [
@@ -340,7 +340,7 @@ WebrtcTCPSocketChild
 SOURCES
 +
 =
-mtransport_cppsrcs
+transport_cppsrcs
 FINAL_LIBRARY
 =
 '

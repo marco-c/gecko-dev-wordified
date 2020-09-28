@@ -104,9 +104,13 @@ LOCAL_INCLUDES
 [
 '
 /
+dom
+/
 media
 /
-mtransport
+webrtc
+/
+transport
 '
 '
 /
