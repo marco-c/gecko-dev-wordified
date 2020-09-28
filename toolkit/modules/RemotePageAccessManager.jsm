@@ -787,6 +787,9 @@ RPMSendQuery
 "
 ShouldShowSearchBanner
 "
+"
+ShouldShowVPNPromo
+"
 ]
 RPMAddMessageListener
 :
