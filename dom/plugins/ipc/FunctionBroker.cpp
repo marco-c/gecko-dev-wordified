@@ -1859,7 +1859,6 @@ template
 template
 <
 >
-BROKER_DISABLE_CFGUARD
 BOOL
 GetSaveFileNameWFB
 :
@@ -1972,7 +1971,6 @@ template
 template
 <
 >
-BROKER_DISABLE_CFGUARD
 BOOL
 GetOpenFileNameWFB
 :
@@ -8082,7 +8080,6 @@ template
 template
 <
 >
-BROKER_DISABLE_CFGUARD
 HANDLE
 CreateMutexWFB
 :
