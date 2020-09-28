@@ -20330,6 +20330,11 @@ i
 ;
 }
 }
+GetPlatformDisplayInfo
+(
+aObj
+)
+;
 }
 class
 FrameStatsComparator
