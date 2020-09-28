@@ -360,10 +360,7 @@ hover
 not
 (
 :
--
-moz
--
-any
+is
 (
 :
 active
@@ -434,10 +431,7 @@ state
 /
 button
 :
--
-moz
--
-any
+is
 (
 :
 hover

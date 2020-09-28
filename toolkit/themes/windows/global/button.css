@@ -492,10 +492,7 @@ background
 /
 button
 :
--
-moz
--
-any
+is
 (
 [
 default
@@ -513,10 +510,7 @@ focus
 not
 (
 :
--
-moz
--
-any
+is
 (
 :
 active
