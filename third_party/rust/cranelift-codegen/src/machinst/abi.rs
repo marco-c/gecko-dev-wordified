@@ -89,7 +89,7 @@ function
 .
 pub
 trait
-ABIBody
+ABICallee
 {
 /
 /
@@ -162,7 +162,7 @@ is
 called
 after
 the
-ABIBody
+ABICallee
 is
 constructed
 because
@@ -1581,7 +1581,7 @@ signature
 /
 /
 Unlike
-ABIBody
+ABICallee
 above
 methods
 on
@@ -1615,7 +1615,7 @@ will
 typically
 create
 an
-ABICall
+ABICaller
 when
 creating
 machine
@@ -1674,7 +1674,7 @@ backends
 .
 pub
 trait
-ABICall
+ABICaller
 {
 /
 /
@@ -2043,7 +2043,7 @@ use
 parts
 of
 the
-ABICall
+ABICaller
 object
 in
 emitting

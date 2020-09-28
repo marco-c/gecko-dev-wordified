@@ -131,7 +131,7 @@ machinst
 :
 :
 {
-ABIBody
+ABICallee
 BlockIndex
 BlockLoweringOrder
 LoweredBlock
@@ -562,7 +562,7 @@ queries
 /
 Get
 the
-ABIBody
+ABICallee
 .
 fn
 abi
@@ -575,7 +575,7 @@ self
 >
 &
 dyn
-ABIBody
+ABICallee
 <
 I
 =
@@ -3079,7 +3079,7 @@ abi
 Box
 <
 dyn
-ABIBody
+ABICallee
 <
 I
 =
@@ -7333,7 +7333,7 @@ self
 >
 &
 dyn
-ABIBody
+ABICallee
 <
 I
 =
