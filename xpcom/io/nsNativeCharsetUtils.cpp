@@ -114,15 +114,6 @@ MPL
 .
 *
 /
-#
-include
-"
-xpcom
--
-private
-.
-h
-"
 /
 /
 -

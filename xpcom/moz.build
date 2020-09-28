@@ -239,13 +239,6 @@ config
 .
 h
 '
-'
-xpcom
--
-private
-.
-h
-'
 ]
 EXPORTS
 +
