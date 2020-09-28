@@ -506,6 +506,9 @@ AbstractBindingName
 A
 JSAtom
 *
+or
+ParserAtom
+*
 with
 its
 low
