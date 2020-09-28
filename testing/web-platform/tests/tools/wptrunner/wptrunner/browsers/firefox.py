@@ -1134,6 +1134,20 @@ ccov
 False
 )
     
+executor_kwargs
+[
+"
+browser_version
+"
+]
+=
+run_info_data
+[
+"
+browser_version
+"
+]
+    
 return
 executor_kwargs
 def
