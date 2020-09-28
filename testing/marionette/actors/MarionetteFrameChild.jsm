@@ -272,19 +272,6 @@ super
 ;
 }
 get
-content
-(
-)
-{
-return
-this
-.
-docShell
-.
-domWindow
-;
-}
-get
 innerWindowId
 (
 )
@@ -1000,7 +987,7 @@ isStale
 el
 this
 .
-content
+contentWindow
 )
 )
 {
@@ -1312,7 +1299,7 @@ frame
 :
 this
 .
-content
+contentWindow
 }
 ;
 const
@@ -1454,7 +1441,7 @@ frame
 :
 this
 .
-content
+contentWindow
 }
 ;
 const
@@ -1512,7 +1499,7 @@ getCurrentUrl
 return
 this
 .
-content
+contentWindow
 .
 location
 .
@@ -1766,7 +1753,7 @@ getElementText
 el
 this
 .
-content
+contentWindow
 )
 ;
 }
@@ -1820,7 +1807,7 @@ style
 =
 this
 .
-content
+contentWindow
 .
 getComputedStyle
 (
