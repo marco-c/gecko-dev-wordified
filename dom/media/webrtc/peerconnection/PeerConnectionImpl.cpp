@@ -89,6 +89,10 @@ vector
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h
@@ -105,6 +109,10 @@ h
 #
 include
 "
+common
+/
+time_profiling
+/
 timecard
 .
 h
@@ -203,6 +211,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 AudioConduit
 .
 h
@@ -210,6 +222,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 VideoConduit
 .
 h
@@ -224,6 +240,8 @@ h
 #
 include
 "
+transport
+/
 runnable_utils
 .
 h
@@ -273,6 +291,8 @@ h
 #
 include
 "
+transport
+/
 dtlsidentity
 .
 h

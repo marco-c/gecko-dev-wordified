@@ -66,6 +66,10 @@ h
 #
 include
 "
+media
+-
+conduit
+/
 MediaConduitInterface
 .
 h
@@ -73,6 +77,8 @@ h
 #
 include
 "
+transport
+/
 logging
 .
 h

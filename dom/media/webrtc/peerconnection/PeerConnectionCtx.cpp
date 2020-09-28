@@ -59,6 +59,10 @@ MPL
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h
@@ -80,6 +84,8 @@ h
 #
 include
 "
+transport
+/
 runnable_utils
 .
 h
@@ -103,6 +109,8 @@ h
 #
 include
 "
+common
+/
 browser_logging
 /
 WebRtcLog

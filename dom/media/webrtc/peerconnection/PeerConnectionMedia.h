@@ -161,6 +161,8 @@ mozilla
 #
 include
 "
+transport
+/
 nriceresolver
 .
 h
@@ -168,6 +170,8 @@ h
 #
 include
 "
+transport
+/
 nricemediastream
 .
 h

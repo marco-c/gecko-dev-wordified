@@ -116,6 +116,8 @@ map
 #
 include
 "
+transport
+/
 sigslot
 .
 h
@@ -123,6 +125,8 @@ h
 #
 include
 "
+transport
+/
 transportlayer
 .
 h
@@ -166,6 +170,8 @@ h
 #
 include
 "
+transport
+/
 SrtpFlow
 .
 h
@@ -177,6 +183,8 @@ SRTP_MAX_EXPANSION
 #
 include
 "
+transport
+/
 mediapacket
 .
 h

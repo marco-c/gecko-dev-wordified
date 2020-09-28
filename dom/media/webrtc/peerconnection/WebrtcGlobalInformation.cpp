@@ -128,6 +128,10 @@ type_traits
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h
@@ -135,6 +139,10 @@ h
 #
 include
 "
+common
+/
+browser_logging
+/
 WebRtcLog
 .
 h
@@ -245,6 +253,8 @@ h
 #
 include
 "
+transport
+/
 runnable_utils
 .
 h

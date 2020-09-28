@@ -59,6 +59,10 @@ MPL
 #
 include
 "
+common
+/
+browser_logging
+/
 CSFLog
 .
 h

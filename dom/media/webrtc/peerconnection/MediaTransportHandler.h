@@ -81,6 +81,8 @@ h
 #
 include
 "
+transport
+/
 sigslot
 .
 h
@@ -88,6 +90,8 @@ h
 #
 include
 "
+transport
+/
 transportlayer
 .
 h
@@ -101,6 +105,8 @@ enum
 #
 include
 "
+transport
+/
 dtlsidentity
 .
 h
@@ -134,6 +140,8 @@ h
 #
 include
 "
+transport
+/
 nricectx
 .
 h
@@ -155,6 +163,8 @@ h
 #
 include
 "
+transport
+/
 nr_socket_proxy_config
 .
 h
