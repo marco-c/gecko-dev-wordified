@@ -185,7 +185,7 @@ mozilla
 =
 [
 '
-EarlyBlankWindow
+PreXULSkeletonUI
 .
 h
 '
@@ -326,7 +326,7 @@ SOURCES
 =
 [
 '
-EarlyBlankWindow
+PreXULSkeletonUI
 .
 cpp
 '

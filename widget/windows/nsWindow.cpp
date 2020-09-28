@@ -613,7 +613,7 @@ include
 "
 mozilla
 /
-EarlyBlankWindow
+PreXULSkeletonUI
 .
 h
 "
@@ -6513,7 +6513,7 @@ aParent
 {
 mWnd
 =
-ConsumeEarlyBlankWindowHandle
+ConsumePreXULSkeletonUIHandle
 (
 )
 ;

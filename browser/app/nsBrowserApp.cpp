@@ -161,7 +161,7 @@ include
 "
 mozilla
 /
-EarlyBlankWindow
+PreXULSkeletonUI
 .
 h
 "
@@ -2136,7 +2136,7 @@ XP_WIN
 mozilla
 :
 :
-CreateAndStoreEarlyBlankWindow
+CreateAndStorePreXULSkeletonUI
 (
 GetModuleHandle
 (

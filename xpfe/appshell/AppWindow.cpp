@@ -527,7 +527,7 @@ include
 "
 mozilla
 /
-EarlyBlankWindow
+PreXULSkeletonUI
 .
 h
 "
@@ -11681,7 +11681,7 @@ return
 NS_OK
 ;
 }
-PersistEarlyBlankWindowValues
+PersistPreXULSkeletonUIValues
 (
 aRect
 .

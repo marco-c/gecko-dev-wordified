@@ -791,7 +791,7 @@ include
 "
 mozilla
 /
-EarlyBlankWindow
+PreXULSkeletonUI
 .
 h
 "
@@ -8825,7 +8825,7 @@ org
 }
 if
 (
-GetEarlyBlankWindowEnabled
+GetPreXULSkeletonUIEnabled
 (
 )
 !
@@ -8833,7 +8833,7 @@ GetEarlyBlankWindowEnabled
 shouldBeEnabled
 )
 {
-SetEarlyBlankWindowEnabled
+SetPreXULSkeletonUIEnabled
 (
 shouldBeEnabled
 )
