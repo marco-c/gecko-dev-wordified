@@ -886,6 +886,14 @@ bool
 aOutHasInProcessPrintCallbacks
 )
 ;
+nsresult
+DoRemoteStaticClone
+(
+nsFrameLoader
+*
+aStaticCloneOf
+)
+;
 /
 /
 WebIDL

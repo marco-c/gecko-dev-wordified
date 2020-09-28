@@ -2179,6 +2179,15 @@ GetDocShell
 (
 )
 ;
+if
+(
+!
+docShell
+)
+{
+continue
+;
+}
 RefPtr
 <
 Document

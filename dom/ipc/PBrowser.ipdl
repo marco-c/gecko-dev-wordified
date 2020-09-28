@@ -3921,6 +3921,13 @@ bool
 aImmediately
 )
 ;
+async
+CloneDocumentTreeIntoSelf
+(
+MaybeDiscardedBrowsingContext
+aBc
+)
+;
 parent
 :
 /
