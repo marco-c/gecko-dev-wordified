@@ -68,6 +68,14 @@ i
 +
 )
 {
+assertEq
+(
+d
+.
+slot
+42
+)
+;
 var
 x
 =
