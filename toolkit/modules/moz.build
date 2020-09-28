@@ -1398,6 +1398,11 @@ offlineAppCache
 jsm
 '
 '
+OsEnvironment
+.
+jsm
+'
+'
 OSKeyStore
 .
 jsm
