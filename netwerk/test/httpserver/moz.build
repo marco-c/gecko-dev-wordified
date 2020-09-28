@@ -121,6 +121,11 @@ httpd
 .
 js
 '
+'
+httpd
+.
+manifest
+'
 ]
 TESTING_JS_MODULES
 +
