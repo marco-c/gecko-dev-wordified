@@ -805,11 +805,7 @@ y
 ;
 if
 (
-GetPrimaryFrame
-(
-)
-)
-{
+!
 SVGGeometryProperty
 :
 :
@@ -831,9 +827,7 @@ x
 &
 y
 )
-;
-}
-else
+)
 {
 /
 /
