@@ -1873,10 +1873,9 @@ IOInterposerInit
 {
 #
 if
-!
 defined
 (
-RELEASE_OR_BETA
+EARLY_BETA_OR_EARLIER
 )
 IOInterposer
 :
@@ -1895,10 +1894,9 @@ IOInterposerInit
 {
 #
 if
-!
 defined
 (
-RELEASE_OR_BETA
+EARLY_BETA_OR_EARLIER
 )
 IOInterposer
 :
