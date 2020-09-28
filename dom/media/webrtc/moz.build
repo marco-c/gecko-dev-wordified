@@ -239,7 +239,7 @@ with
 Files
 (
 '
-peerconnection
+jsapi
 /
 *
 *
@@ -505,6 +505,9 @@ DIRS
 common
 '
 '
+jsapi
+'
+'
 jsep
 '
 '
@@ -512,9 +515,6 @@ libwebrtcglue
 '
 '
 transportbridge
-'
-'
-peerconnection
 '
 '
 sdp
