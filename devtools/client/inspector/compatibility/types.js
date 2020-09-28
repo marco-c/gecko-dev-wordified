@@ -255,9 +255,7 @@ should
 be
 one
 of
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 type
 :

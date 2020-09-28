@@ -68,7 +68,9 @@ react
 )
 ;
 const
-MDNCompatibility
+{
+COMPATIBILITY_ISSUE_TYPE
+}
 =
 require
 (
@@ -77,9 +79,7 @@ devtools
 /
 shared
 /
-compatibility
-/
-MDNCompatibility
+constants
 "
 )
 ;
@@ -145,9 +145,7 @@ issues
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY
 property
@@ -198,9 +196,7 @@ unsupportedBrowsers
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY_ALIASES
 property

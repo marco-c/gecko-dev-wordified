@@ -40,7 +40,9 @@ output
 of
 getNodeCssIssues
 const
-MDNCompatibility
+{
+COMPATIBILITY_ISSUE_TYPE
+}
 =
 require
 (
@@ -49,9 +51,7 @@ devtools
 /
 shared
 /
-compatibility
-/
-MDNCompatibility
+constants
 "
 )
 ;
@@ -233,9 +233,7 @@ ISSUE_USER_SELECT
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY_ALIASES
 property
@@ -306,9 +304,7 @@ ISSUE_CLIP
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY
 property

@@ -49,7 +49,9 @@ or
 not
 .
 const
-MDNCompatibility
+{
+COMPATIBILITY_ISSUE_TYPE
+}
 =
 require
 (
@@ -58,9 +60,7 @@ devtools
 /
 shared
 /
-compatibility
-/
-MDNCompatibility
+constants
 "
 )
 ;
@@ -133,9 +133,7 @@ TEST_DATA_SELECTED
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY
 property
@@ -182,9 +180,7 @@ false
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY_ALIASES
 property
@@ -246,9 +242,7 @@ TEST_DATA_SELECTED
 {
 type
 :
-MDNCompatibility
-.
-ISSUE_TYPE
+COMPATIBILITY_ISSUE_TYPE
 .
 CSS_PROPERTY
 property
