@@ -102,13 +102,6 @@ process
 js
 '
 '
-local
--
-tab
-.
-js
-'
-'
 target
 -
 mixin
