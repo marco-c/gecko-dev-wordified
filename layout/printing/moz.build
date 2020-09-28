@@ -188,11 +188,6 @@ nsPrintObject
 cpp
 '
 '
-PrintPreviewUserEventSuppressor
-.
-cpp
-'
-'
 PrintTranslator
 .
 cpp
