@@ -292,7 +292,6 @@ application
 dns
 .
 net
-.
 "
 ;
 const
@@ -1317,13 +1316,11 @@ www
 google
 .
 com
-.
 "
 "
 google
 .
 com
-.
 "
 ]
 safeSearch
@@ -1335,7 +1332,6 @@ forcesafesearch
 google
 .
 com
-.
 "
 ]
 }
@@ -1354,7 +1350,6 @@ www
 youtube
 .
 com
-.
 "
 "
 m
@@ -1362,7 +1357,6 @@ m
 youtube
 .
 com
-.
 "
 "
 youtubei
@@ -1370,7 +1364,6 @@ youtubei
 googleapis
 .
 com
-.
 "
 "
 youtube
@@ -1378,7 +1371,6 @@ youtube
 googleapis
 .
 com
-.
 "
 "
 www
@@ -1388,7 +1380,6 @@ youtube
 nocookie
 .
 com
-.
 "
 ]
 safeSearch
@@ -1400,7 +1391,6 @@ restrict
 youtube
 .
 com
-.
 "
 "
 restrictmoderate
@@ -1408,7 +1398,6 @@ restrictmoderate
 youtube
 .
 com
-.
 "
 ]
 }
@@ -1565,7 +1554,6 @@ sitereview
 zscaler
 .
 com
-.
 "
 ;
 let
@@ -1874,7 +1862,6 @@ TEST_DOMAIN
 doh
 .
 test
-.
 "
 ;
 /
