@@ -198,10 +198,16 @@ optionally_keyed_by
     
 resolve_keyed_by
     
-OptimizationSchema
-    
 taskref_or_string
 )
+from
+taskgraph
+.
+optimize
+.
+schema
+import
+OptimizationSchema
 from
 taskgraph
 .
