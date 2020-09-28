@@ -430,15 +430,7 @@ SVCB
 aOther
 )
 const
-{
-return
-mSvcFieldPriority
-<
-aOther
-.
-mSvcFieldPriority
 ;
-}
 Maybe
 <
 uint16_t
@@ -495,6 +487,11 @@ mSvcDomainName
 ;
 bool
 mHasIPHints
+=
+false
+;
+bool
+mHasEchConfig
 =
 false
 ;
