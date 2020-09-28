@@ -441,14 +441,6 @@ rhs
 )
 ;
 void
-lowerWasmBuiltinTruncateToInt32
-(
-MWasmBuiltinTruncateToInt32
-*
-ins
-)
-;
-void
 lowerDivI
 (
 MDiv
