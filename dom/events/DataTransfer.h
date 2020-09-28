@@ -1431,6 +1431,7 @@ ErrorResult
 &
 aRv
 )
+const
 ;
 void
 SetData
@@ -1892,6 +1893,7 @@ nsIVariant
 *
 aData
 )
+const
 ;
 DataTransferItemList
 *
@@ -2966,6 +2968,7 @@ nsIVariant
 *
 aData
 )
+const
 ;
 nsresult
 SetDataAtInternal

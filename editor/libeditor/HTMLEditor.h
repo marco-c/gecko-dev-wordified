@@ -28388,6 +28388,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 InsertFromDataTransfer
 (
+const
 dom
 :
 :

@@ -11427,6 +11427,7 @@ static
 void
 GetStringFromDataTransfer
 (
+const
 DataTransfer
 *
 aDataTransfer
@@ -11526,6 +11527,7 @@ HTMLEditor
 :
 InsertFromDataTransfer
 (
+const
 DataTransfer
 *
 aDataTransfer
