@@ -277,8 +277,9 @@ mBufferless
 )
 {
 return
-new
 Sample
+.
+obtain
 (
 )
 ;
@@ -348,8 +349,9 @@ final
 Sample
 s
 =
-new
 Sample
+.
+obtain
 (
 )
 ;
