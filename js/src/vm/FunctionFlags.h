@@ -1263,7 +1263,10 @@ emitGuardFunctionIsNonBuiltinCtor
 in
 /
 /
+{
 CacheIRCompiler
+WarpCacheIRTranspiler
+}
 .
 cpp
 .
