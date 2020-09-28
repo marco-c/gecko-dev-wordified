@@ -403,7 +403,7 @@ info
 "
 Playing
 state
-doens
+doesn
 '
 t
 match
