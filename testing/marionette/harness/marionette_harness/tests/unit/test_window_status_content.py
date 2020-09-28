@@ -57,6 +57,7 @@ from
 __future__
 import
 absolute_import
+print_function
 from
 marionette_driver
 import
@@ -189,6 +190,23 @@ content
 "
 )
 :
+            
+print
+(
+"
+Testing
+handles
+with
+context
+{
+}
+"
+.
+format
+(
+context
+)
+)
             
 with
 self
