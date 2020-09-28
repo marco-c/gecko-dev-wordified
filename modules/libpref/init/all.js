@@ -13337,9 +13337,6 @@ ion
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 pref
 (
 "
@@ -13352,8 +13349,6 @@ warp
 false
 )
 ;
-#
-endif
 /
 /
 Duplicated

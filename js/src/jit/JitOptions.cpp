@@ -849,9 +849,6 @@ ion
 true
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 Whether
@@ -865,8 +862,6 @@ typeInference
 true
 )
 ;
-#
-endif
 /
 /
 Whether
@@ -2325,9 +2320,6 @@ bool
 enable
 )
 {
-#
-ifdef
-NIGHTLY_BUILD
 /
 /
 WarpBuilder
@@ -2365,8 +2357,6 @@ enable
 :
 1000
 ;
-#
-endif
 }
 void
 DefaultJitOptions
