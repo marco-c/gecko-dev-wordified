@@ -3547,6 +3547,10 @@ StopAudioCapturingTrack
 )
 ;
 }
+ReleaseAudioWakeLockIfExists
+(
+)
+;
 return
 ;
 }
