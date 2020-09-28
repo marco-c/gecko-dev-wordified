@@ -6147,32 +6147,17 @@ JAVA_HOME
 '
 bin
 '
-'
-jarsigner
-'
 )
             
 if
+which
 (
-os
-.
+'
+jarsigner
+'
 path
-.
-isfile
-(
+=
 possible_jarsigner_path
-)
-                    
-and
-os
-.
-access
-(
-possible_jarsigner_path
-os
-.
-X_OK
-)
 )
 :
                 
@@ -6182,16 +6167,9 @@ os
 .
 path
 .
-dirname
-(
-os
-.
-path
-.
 realpath
 (
 possible_jarsigner_path
-)
 )
         
 else
@@ -6251,6 +6229,7 @@ jarsigner
 )
                 
 if
+(
 os
 .
 path
@@ -6261,22 +6240,22 @@ java
 )
 !
 =
+                    
 os
 .
 path
 .
 realpath
 (
-os
-.
-path
-.
-join
+which
 (
-jdk_bin_dir
 '
 java
 '
+path
+=
+jdk_bin_dir
+)
 )
 )
 :
@@ -6398,16 +6377,14 @@ openjdk8
         
 java
 =
-os
-.
-path
-.
-join
+which
 (
-jdk_bin_dir
 '
 java
 '
+path
+=
+jdk_bin_dir
 )
         
 try
