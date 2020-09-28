@@ -2095,6 +2095,13 @@ LoadInfoArgs
 ?
 loadInfo
 ;
+nsHttpResponseHead
+?
+synthesizedResponseHead
+;
+nsCString
+synthesizedSecurityInfoSerialization
+;
 uint32_t
 cacheKey
 ;
@@ -2110,6 +2117,9 @@ initialRwin
 ;
 bool
 blockAuthPrompt
+;
+bool
+suspendAfterSynthesizeResponse
 ;
 bool
 allowStaleCacheContent
@@ -2177,6 +2187,9 @@ HttpChannelConnectArgs
 {
 uint32_t
 registrarId
+;
+bool
+shouldIntercept
 ;
 }
 ;
