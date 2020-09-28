@@ -5431,11 +5431,6 @@ None
 /
 /
 arbitrary
-unsafe
-extern
-"
-C
-"
 fn
 read_nested_curveType
 (
@@ -5448,7 +5443,7 @@ mem_source
 mut
 curveArray
 :
-*
+&
 mut
 [
 Option
