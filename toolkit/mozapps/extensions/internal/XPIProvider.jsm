@@ -15879,9 +15879,7 @@ addAddonsToCrashReporter
 (
 )
 {
-if
-(
-!
+void
 (
 Services
 .
@@ -15891,6 +15889,15 @@ Ci
 .
 nsICrashReporter
 )
+;
+if
+(
+!
+Services
+.
+appinfo
+.
+annotateCrashReport
 |
 |
 Services
