@@ -380,6 +380,11 @@ Stencil
 cpp
 '
 '
+StencilXdr
+.
+cpp
+'
+'
 SwitchEmitter
 .
 cpp
