@@ -294,15 +294,6 @@ OnManagerThread
 (
 )
 ;
-void
-Error
-(
-const
-MediaResult
-&
-aError
-)
-;
 virtual
 MediaResult
 ProcessDecodedData

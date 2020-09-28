@@ -363,8 +363,8 @@ virtual
 MediaResult
 ProcessOutput
 (
-const
 DecodedOutputIPDL
+&
 &
 aDecodedData
 )

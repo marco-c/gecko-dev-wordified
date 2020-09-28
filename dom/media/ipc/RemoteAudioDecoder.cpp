@@ -186,8 +186,8 @@ RemoteAudioDecoderChild
 :
 ProcessOutput
 (
-const
 DecodedOutputIPDL
+&
 &
 aDecodedData
 )
@@ -211,7 +211,6 @@ DecodedOutputIPDL
 TArrayOfRemoteAudioDataIPDL
 )
 ;
-const
 nsTArray
 <
 RemoteAudioDataIPDL
