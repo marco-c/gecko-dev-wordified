@@ -352,6 +352,10 @@ tostring
 return
 [
 (
+six
+.
+ensure_str
+(
 namestr
 [
 i
@@ -373,6 +377,7 @@ b
 [
 0
 ]
+)
                  
 socket
 .
