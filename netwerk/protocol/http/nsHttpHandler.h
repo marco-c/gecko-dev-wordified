@@ -3098,12 +3098,6 @@ UseHTTPSRRAsAltSvcEnabled
 )
 const
 ;
-bool
-EchConfigEnabled
-(
-)
-const
-;
 private
 :
 nsHttpHandler
