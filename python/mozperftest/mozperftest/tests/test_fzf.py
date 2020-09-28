@@ -125,10 +125,7 @@ test_objects
 path
 "
 :
-str
-(
 EXAMPLE_TEST
-)
 }
 ]
     
@@ -155,10 +152,33 @@ test_preview
     
 content
 =
-str
+Path
 (
 EXAMPLE_TEST
 )
+    
+line
+=
+f
+"
+[
+bt
+]
+[
+sometag
+]
+{
+content
+.
+name
+}
+in
+{
+content
+.
+parent
+}
+"
     
 test_objects
 =
@@ -168,7 +188,10 @@ test_objects
 path
 "
 :
+str
+(
 content
+)
 }
 ]
     
@@ -221,7 +244,10 @@ temp_file
 (
 content
 =
-content
+str
+(
+line
+)
 )
 as
 tasklist
@@ -245,10 +271,12 @@ tasklist
 ]
 )
     
+stdout
+__
+=
 out
-[
-0
-]
+    
+stdout
 .
 seek
 (
@@ -257,17 +285,15 @@ seek
     
 assert
 "
-Owner
+:
+owner
 :
 Performance
 Testing
 Team
 "
 in
-out
-[
-0
-]
+stdout
 .
 read
 (

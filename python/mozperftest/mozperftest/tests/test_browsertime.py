@@ -231,6 +231,12 @@ two
 =
 2
 "
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
     
 )
     
@@ -251,18 +257,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-EXAMPLE_TEST
-]
-)
     
 try
 :
@@ -594,6 +588,12 @@ two
 =
 2
 "
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
     
 )
     
@@ -626,18 +626,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-EXAMPLE_TEST
-]
-)
     
 sys
 =
@@ -785,6 +773,12 @@ two
 =
 2
 "
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
     
 )
     
@@ -796,18 +790,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-EXAMPLE_TEST
-]
-)
     
 sys
 =
@@ -1152,9 +1134,17 @@ env
 =
 get_running_env
 (
+        
 browsertime_install_url
 =
 url
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
+    
 )
     
 browser
@@ -1165,18 +1155,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-EXAMPLE_TEST
-]
-)
     
 sys
 =
@@ -1338,11 +1316,19 @@ env
 =
 get_running_env
 (
+        
 browsertime_install_url
 =
 "
 meh
 "
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
+    
 )
     
 browser
@@ -1353,18 +1339,6 @@ layers
 [
 TEST
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-EXAMPLE_TEST
-]
-)
     
 sys
 =

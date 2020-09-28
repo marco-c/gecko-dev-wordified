@@ -396,6 +396,14 @@ output
 "
 :
 output
+            
+"
+tests
+"
+:
+[
+EXAMPLE_TEST
+]
         
 }
         
@@ -408,18 +416,6 @@ get_running_env
 *
 *
 args
-)
-        
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-EXAMPLE_TEST
-]
 )
         
 with
