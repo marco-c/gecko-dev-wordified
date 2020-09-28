@@ -964,7 +964,7 @@ shutdown
 helpers
 *
 /
-RefPtr
+nsCOMPtr
 <
 nsIAsyncShutdownClient
 >
