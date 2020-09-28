@@ -1345,6 +1345,15 @@ MDefinition
 Opcode
 :
 :
+LoadArgumentsObjectArg
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 CreateThis
 :
 case

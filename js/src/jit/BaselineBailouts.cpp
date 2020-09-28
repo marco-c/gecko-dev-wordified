@@ -16013,6 +16013,12 @@ case
 BailoutKind
 :
 :
+ArgumentsObjectAccess
+:
+case
+BailoutKind
+:
+:
 ArrayPopShift
 :
 case
