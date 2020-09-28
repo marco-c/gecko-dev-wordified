@@ -70,6 +70,10 @@ utils
 import
 download_file
 MachLogger
+_LOADED_MODULES
+=
+{
+}
 class
 Hooks
 (
@@ -187,6 +191,20 @@ exists
 )
 :
             
+path
+=
+str
+(
+hook_module
+)
+            
+if
+path
+not
+in
+_LOADED_MODULES
+:
+                
 spec
 =
 importlib
@@ -198,12 +216,9 @@ spec_from_file_location
 "
 hooks
 "
-str
-(
-hook_module
+path
 )
-)
-            
+                
 hook_module
 =
 importlib
@@ -214,7 +229,7 @@ module_from_spec
 (
 spec
 )
-            
+                
 spec
 .
 loader
@@ -223,12 +238,22 @@ exec_module
 (
 hook_module
 )
+                
+_LOADED_MODULES
+[
+path
+]
+=
+hook_module
             
 self
 .
 _hooks
 =
-hook_module
+_LOADED_MODULES
+[
+path
+]
         
 else
 :
