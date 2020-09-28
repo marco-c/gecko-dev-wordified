@@ -1445,14 +1445,7 @@ LayoutDeviceIsScreenForBounds
 )
 )
 ;
-mozilla
-:
-:
-layers
-:
-:
-ZoomConstraints
-zoomConstraints
+mZoomConstraints
 =
 ComputeZoomConstraintsFromViewportInfo
 (
@@ -1486,13 +1479,13 @@ n
 this
 )
 ;
-zoomConstraints
+mZoomConstraints
 .
 mAllowZoom
 =
 false
 ;
-zoomConstraints
+mZoomConstraints
 .
 mAllowDoubleTapZoom
 =
@@ -1501,7 +1494,7 @@ false
 }
 if
 (
-zoomConstraints
+mZoomConstraints
 .
 mAllowDoubleTapZoom
 )
@@ -1578,7 +1571,7 @@ screenSize
 width
 )
 {
-zoomConstraints
+mZoomConstraints
 .
 mAllowDoubleTapZoom
 =
@@ -1663,7 +1656,7 @@ d
 \
 n
 "
-zoomConstraints
+mZoomConstraints
 .
 mAllowZoom
 )
@@ -1673,7 +1666,7 @@ rcdrsf
 >
 SetZoomableByAPZ
 (
-zoomConstraints
+mZoomConstraints
 .
 mAllowZoom
 )
@@ -1801,7 +1794,7 @@ n
 "
 Stringify
 (
-zoomConstraints
+mZoomConstraints
 )
 .
 c_str
@@ -1821,7 +1814,7 @@ presShellId
 viewId
 Some
 (
-zoomConstraints
+mZoomConstraints
 )
 )
 ;
