@@ -1254,6 +1254,15 @@ Opcode
 :
 ArgumentsObjectLength
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+FunctionLength
+:
 object
 =
 ins
