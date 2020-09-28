@@ -2200,7 +2200,7 @@ chains
 pub
 key
 :
-ClipItemKeyKind
+ClipItemKey
 }
 /
 /
@@ -5648,6 +5648,7 @@ range
 missing
 "
 ]
+pub
 templates
 :
 FastHashMap
@@ -9783,6 +9784,7 @@ Complex
 derive
 (
 Debug
+Copy
 Clone
 Eq
 MallocSizeOf

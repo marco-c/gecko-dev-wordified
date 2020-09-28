@@ -4259,12 +4259,6 @@ scene
 .
 create_hit_tester
 (
-&
-self
-.
-data_stores
-.
-clip
 )
 )
 ;

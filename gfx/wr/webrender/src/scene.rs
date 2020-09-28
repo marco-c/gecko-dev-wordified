@@ -125,10 +125,7 @@ crate
 clip
 :
 :
-{
 ClipStore
-ClipDataStore
-}
 ;
 use
 crate
@@ -1873,10 +1870,6 @@ create_hit_tester
 &
 mut
 self
-clip_data_store
-:
-&
-ClipDataStore
 )
 -
 >
@@ -1901,11 +1894,6 @@ hit_testing_scene
 self
 .
 spatial_tree
-&
-self
-.
-clip_store
-clip_data_store
 )
 }
 }
