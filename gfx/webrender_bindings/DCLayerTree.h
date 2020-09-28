@@ -1556,6 +1556,12 @@ gfx
 IntSize
 mSwapChainSize
 ;
+RefPtr
+<
+RenderTextureHost
+>
+mPrevTexture
+;
 }
 ;
 class
