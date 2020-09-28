@@ -2287,7 +2287,7 @@ Utf8Unit
 *
 utf8Ptr
 uint32_t
-length
+nbyte
 )
 {
 /
@@ -2335,7 +2335,7 @@ UTF8Chars
 utf8
 (
 utf8Ptr
-length
+nbyte
 )
 ;
 if
@@ -2410,7 +2410,7 @@ internLatin1
 (
 cx
 latin1Ptr
-length
+nbyte
 )
 ;
 }
@@ -2424,7 +2424,7 @@ Utf8Unit
 seq
 (
 utf8Ptr
-length
+nbyte
 )
 ;
 /
