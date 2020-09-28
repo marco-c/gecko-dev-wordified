@@ -141,13 +141,6 @@ nsCocoaUtils
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-a11y
-;
 implementation
 mozHeadingAccessible
 -

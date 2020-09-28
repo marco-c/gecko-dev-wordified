@@ -159,11 +159,6 @@ MOXMathAccessibles
 mm
 '
 '
-MOXSearchInfo
-.
-mm
-'
-'
 MOXTextMarkerDelegate
 .
 mm
