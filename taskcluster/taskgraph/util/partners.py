@@ -3193,6 +3193,12 @@ partner
 attribution
 '
 )
+and
+isinstance
+(
+kind_config
+dict
+)
 :
             
 all_configs
@@ -3200,11 +3206,15 @@ all_configs
 deepcopy
 (
 kind_config
-[
+.
+get
+(
 "
 configs
 "
+[
 ]
+)
 )
             
 kind_config
