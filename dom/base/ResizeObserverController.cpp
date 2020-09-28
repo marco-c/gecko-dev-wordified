@@ -380,6 +380,9 @@ FlushType
 :
 :
 Display
+"
+ResizeObserver
+"
 )
 ;
 mRegistered

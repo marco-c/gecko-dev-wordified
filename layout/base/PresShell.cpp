@@ -36542,6 +36542,12 @@ FlushType
 :
 :
 Display
+"
+Synthetic
+mouse
+move
+event
+"
 )
 ;
 mSynthMouseMoveEvent
@@ -65794,6 +65800,10 @@ nsARefreshObserver
 aObserver
 FlushType
 aFlushType
+const
+char
+*
+aObserverDescription
 )
 {
 nsPresContext
@@ -65829,6 +65839,7 @@ AddRefreshObserver
 (
 aObserver
 aFlushType
+aObserverDescription
 )
 ;
 return

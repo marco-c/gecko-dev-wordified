@@ -6901,6 +6901,10 @@ nsARefreshObserver
 aObserver
 FlushType
 aFlushType
+const
+char
+*
+aObserverDescription
 )
 ;
 bool
