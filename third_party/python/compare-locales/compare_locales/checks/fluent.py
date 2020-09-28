@@ -84,6 +84,14 @@ serializer
 import
 serialize_variant_key
 from
+fluent
+.
+syntax
+.
+visitor
+import
+Visitor
+from
 .
 base
 import
@@ -396,8 +404,6 @@ return
 class
 ReferenceMessageVisitor
 (
-ftl
-.
 Visitor
 CSSCheckMixin
 )
@@ -2140,8 +2146,6 @@ class
 TermVisitor
 (
 GenericL10nChecks
-ftl
-.
 Visitor
 )
 :

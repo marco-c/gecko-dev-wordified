@@ -25,11 +25,6 @@ import
 SkipTransform
 from
 .
-transforms
-import
-evaluate
-from
-.
 util
 import
 get_message
@@ -330,9 +325,10 @@ try
 :
                 
 return
+ctx
+.
 evaluate
 (
-ctx
 transform
 )
             
