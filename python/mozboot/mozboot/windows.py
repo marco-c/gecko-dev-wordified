@@ -73,6 +73,10 @@ mozboot
 base
 import
 BaseBootstrapper
+from
+mozfile
+import
+which
 def
 is_aarch64_host
 (
@@ -462,8 +466,6 @@ kwargs
         
 if
 not
-self
-.
 which
 (
 '
@@ -516,32 +518,6 @@ for
 Windows
 .
 '
-)
-    
-def
-which
-(
-self
-name
-*
-extra_search_dirs
-)
-:
-        
-return
-BaseBootstrapper
-.
-which
-(
-self
-name
-+
-'
-.
-exe
-'
-*
-extra_search_dirs
 )
     
 def

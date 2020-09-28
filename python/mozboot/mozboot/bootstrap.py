@@ -81,6 +81,10 @@ distutils
 version
 import
 LooseVersion
+from
+mozfile
+import
+which
 #
 NOTE
 :
@@ -2703,10 +2707,6 @@ True
             
 hg
 =
-self
-.
-instance
-.
 which
 (
 '
@@ -2907,10 +2907,6 @@ configure_hg
                 
 configure_mercurial
 (
-self
-.
-instance
-.
 which
 (
 '
@@ -2937,10 +2933,6 @@ Git
 .
         
 elif
-self
-.
-instance
-.
 which
 (
 '
@@ -3008,21 +3000,12 @@ should_configure_git
                 
 configure_git
 (
-self
-.
-instance
-.
 which
 (
 '
 git
 '
 )
-                              
-self
-.
-instance
-.
 which
 (
 '
@@ -3061,10 +3044,6 @@ name
 if
 not
 (
-self
-.
-instance
-.
 which
 (
 '
@@ -3114,17 +3093,13 @@ name
         
 if
 not
-self
-.
-instance
-.
 which
 (
-"
+'
 moz
 -
 phab
-"
+'
 )
 :
             

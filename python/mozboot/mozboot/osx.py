@@ -98,6 +98,10 @@ mozboot
 base
 import
 BaseBootstrapper
+from
+mozfile
+import
+which
 HOMEBREW_BOOTSTRAP
 =
 '
@@ -2013,8 +2017,6 @@ StrictVersion
             
 select
 =
-self
-.
 which
 (
 '
@@ -2275,8 +2277,6 @@ output
                 
 xcodebuild
 =
-self
-.
 which
 (
 '
@@ -2600,8 +2600,6 @@ self
 .
 brew
 =
-self
-.
 which
 (
 '
@@ -3436,8 +3434,6 @@ self
 .
 port
 =
-self
-.
 which
 (
 '
@@ -3994,8 +3990,6 @@ items
 :
             
 if
-self
-.
 which
 (
 cmd
@@ -4216,8 +4210,6 @@ break
         
 p
 =
-self
-.
 which
 (
 active_cmd
