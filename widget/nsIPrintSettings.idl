@@ -969,6 +969,9 @@ values
 0
 *
 /
+[
+infallible
+]
 attribute
 boolean
 printBGColors
@@ -980,6 +983,9 @@ Background
 Colors
 *
 /
+[
+infallible
+]
 attribute
 boolean
 printBGImages
