@@ -4,6 +4,12 @@ import
 json
 import
 re
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 retrieve_from_stash
 (
@@ -401,11 +407,13 @@ metadata
 =
 {
       
-b
+u
 "
 content_type
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
@@ -417,6 +425,7 @@ Content
 Type
 "
 ]
+)
     
 }
   
