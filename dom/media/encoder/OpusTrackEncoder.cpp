@@ -2692,6 +2692,13 @@ mSamplingRate
 )
 ;
 }
+audiodata
+-
+>
+mDurationBase
+=
+kOpusSamplingRate
+;
 /
 /
 Remove
