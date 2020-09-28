@@ -54,6 +54,8 @@ Sanitizer
 new
 Sanitizer
 (
+{
+}
 )
 '
 ]
