@@ -159,7 +159,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -169,10 +169,10 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -185,7 +185,7 @@ WriteSilence
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -215,7 +215,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -225,7 +225,7 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 float
@@ -261,7 +261,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -291,7 +291,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -301,7 +301,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 rv
@@ -316,7 +316,7 @@ WriteSilence
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -345,7 +345,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -355,7 +355,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 rv
@@ -374,7 +374,7 @@ in
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -403,7 +403,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -413,7 +413,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 float
@@ -441,7 +441,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -471,7 +471,7 @@ ringBuffer
 AvailableWrite
 (
 )
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -481,7 +481,7 @@ ringBuffer
 AvailableRead
 (
 )
-6u
+6
 )
 ;
 for
@@ -517,7 +517,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -547,7 +547,7 @@ ringBuffer
 AvailableWrite
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -557,12 +557,12 @@ ringBuffer
 AvailableRead
 (
 )
-2u
+2
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -605,7 +605,7 @@ out
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -634,7 +634,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -644,12 +644,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -686,7 +686,7 @@ Clear
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -715,7 +715,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -725,7 +725,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 }
@@ -779,7 +779,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -789,10 +789,10 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -805,7 +805,7 @@ WriteSilence
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -835,7 +835,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -845,7 +845,7 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 short
@@ -877,7 +877,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -907,7 +907,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -917,7 +917,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 rv
@@ -932,7 +932,7 @@ WriteSilence
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -961,7 +961,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -971,7 +971,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 rv
@@ -990,7 +990,7 @@ in
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -1019,7 +1019,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -1029,7 +1029,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 short
@@ -1057,7 +1057,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1087,7 +1087,7 @@ ringBuffer
 AvailableWrite
 (
 )
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -1097,7 +1097,7 @@ ringBuffer
 AvailableRead
 (
 )
-6u
+6
 )
 ;
 for
@@ -1131,7 +1131,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1161,7 +1161,7 @@ ringBuffer
 AvailableWrite
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -1171,12 +1171,12 @@ ringBuffer
 AvailableRead
 (
 )
-2u
+2
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1219,7 +1219,7 @@ out
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -1248,7 +1248,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -1258,12 +1258,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1298,7 +1298,7 @@ Clear
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -1327,7 +1327,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -1337,7 +1337,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 }
@@ -1391,7 +1391,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -1401,7 +1401,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 float
@@ -1421,7 +1421,7 @@ in
 4
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -1438,7 +1438,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1468,7 +1468,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -1478,7 +1478,7 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 rv
@@ -1497,7 +1497,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1527,7 +1527,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -1537,7 +1537,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 float
@@ -1565,7 +1565,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1595,7 +1595,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -1605,12 +1605,12 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1658,7 +1658,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1688,7 +1688,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -1698,7 +1698,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 rv
@@ -1717,7 +1717,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1747,7 +1747,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -1757,12 +1757,12 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1805,7 +1805,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -1834,7 +1834,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -1844,12 +1844,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1892,7 +1892,7 @@ out
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -1921,7 +1921,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -1931,12 +1931,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -1984,7 +1984,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2014,7 +2014,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -2024,7 +2024,7 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 rv
@@ -2043,7 +2043,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2073,7 +2073,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -2083,7 +2083,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 rv
@@ -2102,7 +2102,7 @@ in
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -2131,7 +2131,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -2141,7 +2141,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 rv
@@ -2160,7 +2160,7 @@ in
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -2189,7 +2189,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -2199,7 +2199,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 }
@@ -2253,7 +2253,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -2263,7 +2263,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 int16_t
@@ -2279,7 +2279,7 @@ in
 4
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -2296,7 +2296,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2326,7 +2326,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -2336,7 +2336,7 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 rv
@@ -2355,7 +2355,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2385,7 +2385,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -2395,7 +2395,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 int16_t
@@ -2423,7 +2423,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2453,7 +2453,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -2463,12 +2463,12 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -2516,7 +2516,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2546,7 +2546,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -2556,7 +2556,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 rv
@@ -2575,7 +2575,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2605,7 +2605,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -2615,12 +2615,12 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -2663,7 +2663,7 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2692,7 +2692,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -2702,12 +2702,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -2750,7 +2750,7 @@ out
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -2779,7 +2779,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -2789,12 +2789,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -2842,7 +2842,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2872,7 +2872,7 @@ ringBuffer
 AvailableWrite
 (
 )
-6u
+6
 )
 ;
 EXPECT_EQ
@@ -2882,7 +2882,7 @@ ringBuffer
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 rv
@@ -2901,7 +2901,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -2931,7 +2931,7 @@ ringBuffer
 AvailableWrite
 (
 )
-2u
+2
 )
 ;
 EXPECT_EQ
@@ -2941,7 +2941,7 @@ ringBuffer
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 rv
@@ -2960,7 +2960,7 @@ in
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -2989,7 +2989,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -2999,7 +2999,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 rv
@@ -3018,7 +3018,7 @@ in
 EXPECT_EQ
 (
 rv
-0u
+0
 )
 ;
 EXPECT_TRUE
@@ -3047,7 +3047,7 @@ ringBuffer
 AvailableWrite
 (
 )
-0u
+0
 )
 ;
 EXPECT_EQ
@@ -3057,7 +3057,7 @@ ringBuffer
 AvailableRead
 (
 )
-10u
+10
 )
 ;
 }
@@ -3190,7 +3190,7 @@ out_ptr
 =
 out
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -3248,7 +3248,7 @@ Length
 EXPECT_EQ
 (
 rv
-6u
+6
 )
 ;
 EXPECT_TRUE
@@ -3277,7 +3277,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -3287,12 +3287,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -3459,7 +3459,7 @@ Length
 EXPECT_EQ
 (
 rv
-8u
+8
 )
 ;
 EXPECT_TRUE
@@ -3488,7 +3488,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -3498,12 +3498,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -3641,7 +3641,7 @@ out_ptr
 =
 out
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -3699,7 +3699,7 @@ Length
 EXPECT_EQ
 (
 rv
-6u
+6
 )
 ;
 EXPECT_TRUE
@@ -3728,7 +3728,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -3738,12 +3738,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -3899,7 +3899,7 @@ Length
 EXPECT_EQ
 (
 rv
-8u
+8
 )
 ;
 EXPECT_TRUE
@@ -3928,7 +3928,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -3938,12 +3938,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -4100,12 +4100,12 @@ out_ptr
 =
 out
 ;
-uint32_t
+int
 total_frames
 =
 3
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -4129,7 +4129,7 @@ float
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -4137,7 +4137,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -4232,7 +4232,7 @@ x10
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -4262,7 +4262,7 @@ ringBuffer
 AvailableWrite
 (
 )
-7u
+7
 )
 ;
 EXPECT_EQ
@@ -4272,12 +4272,12 @@ ringBuffer
 AvailableRead
 (
 )
-3u
+3
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -4331,7 +4331,7 @@ float
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -4339,7 +4339,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -4434,7 +4434,7 @@ ReadIndex
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -4463,7 +4463,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -4473,12 +4473,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -4619,7 +4619,7 @@ float
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -4627,7 +4627,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -4728,7 +4728,7 @@ ReadIndex
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -4758,7 +4758,7 @@ ringBuffer
 AvailableWrite
 (
 )
-5u
+5
 )
 ;
 EXPECT_EQ
@@ -4768,12 +4768,12 @@ ringBuffer
 AvailableRead
 (
 )
-5u
+5
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -4827,7 +4827,7 @@ float
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -4835,7 +4835,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -4936,7 +4936,7 @@ x10
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -4966,7 +4966,7 @@ ringBuffer
 AvailableWrite
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -4976,12 +4976,12 @@ ringBuffer
 AvailableRead
 (
 )
-2u
+2
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -5039,7 +5039,7 @@ float
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -5047,7 +5047,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -5148,13 +5148,13 @@ x10
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_EQ
 (
 total_frames
-1u
+1
 )
 ;
 EXPECT_TRUE
@@ -5183,7 +5183,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -5193,12 +5193,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -5340,12 +5340,12 @@ out_ptr
 =
 out
 ;
-uint32_t
+int
 total_frames
 =
 3
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -5369,7 +5369,7 @@ short
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -5377,7 +5377,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -5461,7 +5461,7 @@ x10
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -5491,7 +5491,7 @@ ringBuffer
 AvailableWrite
 (
 )
-7u
+7
 )
 ;
 EXPECT_EQ
@@ -5501,12 +5501,12 @@ ringBuffer
 AvailableRead
 (
 )
-3u
+3
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -5560,7 +5560,7 @@ short
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -5568,7 +5568,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -5653,7 +5653,7 @@ ReadIndex
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -5682,7 +5682,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -5692,12 +5692,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -5827,7 +5827,7 @@ short
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -5835,7 +5835,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -5925,7 +5925,7 @@ ReadIndex
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -5955,7 +5955,7 @@ ringBuffer
 AvailableWrite
 (
 )
-5u
+5
 )
 ;
 EXPECT_EQ
@@ -5965,12 +5965,12 @@ ringBuffer
 AvailableRead
 (
 )
-5u
+5
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -6024,7 +6024,7 @@ short
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -6032,7 +6032,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -6122,7 +6122,7 @@ x10
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -6152,7 +6152,7 @@ ringBuffer
 AvailableWrite
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -6162,12 +6162,12 @@ ringBuffer
 AvailableRead
 (
 )
-2u
+2
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -6225,7 +6225,7 @@ short
 aInBuffer
 )
 {
-uint32_t
+int
 inFramesUsed
 =
 std
@@ -6233,7 +6233,7 @@ std
 :
 min
 <
-uint32_t
+int
 >
 (
 total_frames
@@ -6323,13 +6323,13 @@ x10
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_EQ
 (
 total_frames
-1u
+1
 )
 ;
 EXPECT_TRUE
@@ -6358,7 +6358,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -6368,12 +6368,12 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -6465,7 +6465,7 @@ in
 )
 )
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -6478,7 +6478,7 @@ Discard
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -6508,7 +6508,7 @@ ringBuffer
 AvailableWrite
 (
 )
-5u
+5
 )
 ;
 EXPECT_EQ
@@ -6518,7 +6518,7 @@ ringBuffer
 AvailableRead
 (
 )
-5u
+5
 )
 ;
 float
@@ -6546,7 +6546,7 @@ out
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -6576,7 +6576,7 @@ ringBuffer
 AvailableWrite
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -6586,12 +6586,12 @@ ringBuffer
 AvailableRead
 (
 )
-2u
+2
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -6632,7 +6632,7 @@ Discard
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -6661,7 +6661,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -6671,7 +6671,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 ringBuffer
@@ -6693,7 +6693,7 @@ Discard
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -6722,7 +6722,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -6732,7 +6732,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 }
@@ -6788,7 +6788,7 @@ in
 )
 )
 ;
-uint32_t
+int
 rv
 =
 ringBuffer
@@ -6801,7 +6801,7 @@ Discard
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -6831,7 +6831,7 @@ ringBuffer
 AvailableWrite
 (
 )
-5u
+5
 )
 ;
 EXPECT_EQ
@@ -6841,7 +6841,7 @@ ringBuffer
 AvailableRead
 (
 )
-5u
+5
 )
 ;
 short
@@ -6869,7 +6869,7 @@ out
 EXPECT_EQ
 (
 rv
-3u
+3
 )
 ;
 EXPECT_TRUE
@@ -6899,7 +6899,7 @@ ringBuffer
 AvailableWrite
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -6909,12 +6909,12 @@ ringBuffer
 AvailableRead
 (
 )
-2u
+2
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -6955,7 +6955,7 @@ Discard
 EXPECT_EQ
 (
 rv
-2u
+2
 )
 ;
 EXPECT_TRUE
@@ -6984,7 +6984,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -6994,7 +6994,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 ringBuffer
@@ -7016,7 +7016,7 @@ Discard
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_TRUE
@@ -7045,7 +7045,7 @@ ringBuffer
 AvailableWrite
 (
 )
-10u
+10
 )
 ;
 EXPECT_EQ
@@ -7055,7 +7055,7 @@ ringBuffer
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 }
@@ -7118,7 +7118,7 @@ in
 4
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer1
@@ -7139,7 +7139,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7149,7 +7149,7 @@ ringBuffer2
 AvailableRead
 (
 )
-0u
+0
 )
 ;
 rv
@@ -7165,7 +7165,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7175,7 +7175,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 float
@@ -7206,12 +7206,12 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -7316,7 +7316,7 @@ in
 4
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer1
@@ -7337,7 +7337,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 rv
@@ -7353,7 +7353,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7363,7 +7363,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 float
@@ -7394,12 +7394,12 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -7517,7 +7517,7 @@ in
 4
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer1
@@ -7538,7 +7538,7 @@ in
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 rv
@@ -7554,7 +7554,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7564,7 +7564,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 float
@@ -7595,12 +7595,12 @@ out
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -7669,7 +7669,7 @@ in
 7
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer1
@@ -7686,7 +7686,7 @@ in
 EXPECT_EQ
 (
 rv
-8u
+8
 )
 ;
 AudioRingBuffer
@@ -7720,7 +7720,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7730,7 +7730,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7740,7 +7740,7 @@ ringBuffer1
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 short
@@ -7767,7 +7767,7 @@ out
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -7807,7 +7807,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7817,7 +7817,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7827,7 +7827,7 @@ ringBuffer1
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 ringBuffer1
@@ -7850,7 +7850,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -7860,7 +7860,7 @@ ringBuffer2
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -7870,7 +7870,7 @@ ringBuffer1
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 short
@@ -7897,7 +7897,7 @@ out2
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -7974,7 +7974,7 @@ in
 7
 }
 ;
-uint32_t
+int
 rv
 =
 ringBuffer1
@@ -7991,7 +7991,7 @@ in
 EXPECT_EQ
 (
 rv
-8u
+8
 )
 ;
 AudioRingBuffer
@@ -8025,7 +8025,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -8035,7 +8035,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -8045,7 +8045,7 @@ ringBuffer1
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 float
@@ -8072,7 +8072,7 @@ out
 ;
 for
 (
-uint32_t
+int
 i
 =
 0
@@ -8112,7 +8112,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -8122,7 +8122,7 @@ ringBuffer2
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -8132,7 +8132,7 @@ ringBuffer1
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 ringBuffer1
@@ -8155,7 +8155,7 @@ ringBuffer1
 EXPECT_EQ
 (
 rv
-4u
+4
 )
 ;
 EXPECT_EQ
@@ -8165,7 +8165,7 @@ ringBuffer2
 AvailableRead
 (
 )
-8u
+8
 )
 ;
 EXPECT_EQ
@@ -8175,7 +8175,7 @@ ringBuffer1
 AvailableRead
 (
 )
-4u
+4
 )
 ;
 float
@@ -8202,7 +8202,7 @@ out2
 ;
 for
 (
-uint32_t
+int
 i
 =
 0

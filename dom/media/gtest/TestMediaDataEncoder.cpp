@@ -609,9 +609,6 @@ CreateFromImage
 (
 kImageSize
 0
-media
-:
-:
 TimeUnit
 :
 :
@@ -621,9 +618,6 @@ aIndex
 *
 FRAME_DURATION
 )
-media
-:
-:
 TimeUnit
 :
 :
@@ -640,9 +634,6 @@ aIndex
 =
 =
 0
-media
-:
-:
 TimeUnit
 :
 :

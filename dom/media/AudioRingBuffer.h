@@ -207,7 +207,7 @@ public
 explicit
 AudioRingBuffer
 (
-uint32_t
+int
 aSizeInBytes
 )
 ;
@@ -274,7 +274,7 @@ float
 .
 *
 /
-uint32_t
+int
 Write
 (
 const
@@ -308,7 +308,7 @@ short
 .
 *
 /
-uint32_t
+int
 Write
 (
 const
@@ -343,14 +343,14 @@ change
 .
 *
 /
-uint32_t
+int
 Write
 (
 const
 AudioRingBuffer
 &
 aBuffer
-uint32_t
+int
 aSamples
 )
 ;
@@ -366,10 +366,10 @@ zeros
 .
 *
 /
-uint32_t
+int
 WriteSilence
 (
-uint32_t
+int
 aSamples
 )
 ;
@@ -394,7 +394,7 @@ float
 .
 *
 /
-uint32_t
+int
 Read
 (
 const
@@ -427,7 +427,7 @@ short
 .
 *
 /
-uint32_t
+int
 Read
 (
 const
@@ -472,7 +472,7 @@ details
 .
 *
 /
-uint32_t
+int
 ReadNoCopy
 (
 std
@@ -480,7 +480,7 @@ std
 :
 function
 <
-uint32_t
+int
 (
 const
 Span
@@ -529,7 +529,7 @@ details
 .
 *
 /
-uint32_t
+int
 ReadNoCopy
 (
 std
@@ -537,7 +537,7 @@ std
 :
 function
 <
-uint32_t
+int
 (
 const
 Span
@@ -565,10 +565,10 @@ samples
 .
 *
 /
-uint32_t
+int
 Discard
 (
-uint32_t
+int
 aSamples
 )
 ;
@@ -583,7 +583,7 @@ samples
 .
 *
 /
-uint32_t
+int
 Clear
 (
 )
@@ -643,7 +643,7 @@ writing
 .
 *
 /
-uint32_t
+int
 AvailableWrite
 (
 )
@@ -664,7 +664,7 @@ reading
 .
 *
 /
-uint32_t
+int
 AvailableRead
 (
 )
