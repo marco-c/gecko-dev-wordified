@@ -952,7 +952,7 @@ intersects
 ComputedValueFlags
 :
 :
-INHERITS_DISPLAY
+DISPLAY_DEPENDS_ON_INHERITED_STYLE
 )
 &
 &
@@ -987,7 +987,7 @@ intersects
 ComputedValueFlags
 :
 :
-INHERITS_CONTENT
+CONTENT_DEPENDS_ON_INHERITED_STYLE
 )
 &
 &
