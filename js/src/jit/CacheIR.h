@@ -8226,17 +8226,6 @@ id
 )
 ;
 AttachDecision
-tryAttachArgumentsObjectIterator
-(
-HandleObject
-obj
-ObjOperandId
-objId
-HandleId
-id
-)
-;
-AttachDecision
 tryAttachGenericProxy
 (
 HandleObject
