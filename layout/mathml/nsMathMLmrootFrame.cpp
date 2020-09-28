@@ -1287,10 +1287,10 @@ StyleFont
 )
 -
 >
-mMathStyle
+mMathDisplay
 =
 =
-NS_STYLE_MATH_STYLE_NORMAL
+NS_MATHML_DISPLAYSTYLE_BLOCK
 ruleThickness
 leading
 psi

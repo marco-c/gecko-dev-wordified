@@ -2044,10 +2044,10 @@ mScriptLevel
 font
 -
 >
-mMathStyle
+mMathDisplay
 =
 =
-NS_STYLE_MATH_STYLE_NORMAL
+NS_MATHML_DISPLAYSTYLE_BLOCK
 &
 &
 !
