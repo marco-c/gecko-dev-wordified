@@ -606,6 +606,7 @@ Observer
 ;
 private
 :
+const
 RefPtr
 <
 Observer
@@ -626,6 +627,8 @@ mTaskFactory
 ;
 uint32_t
 mNumProcessAttempts
+=
+0
 ;
 /
 /
@@ -642,13 +645,19 @@ process
 RDDProcessHost
 *
 mProcess
+=
+nullptr
 ;
 uint64_t
 mProcessToken
+=
+0
 ;
 RDDChild
 *
 mRDDChild
+=
+nullptr
 ;
 /
 /
