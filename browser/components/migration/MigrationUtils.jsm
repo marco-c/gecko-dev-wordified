@@ -3130,7 +3130,7 @@ MigrationUtils
 =
 Object
 .
-freeze
+seal
 (
 {
 resourceTypes
