@@ -17583,7 +17583,6 @@ document
 .
 *
 /
-virtual
 already_AddRefed
 <
 Document
