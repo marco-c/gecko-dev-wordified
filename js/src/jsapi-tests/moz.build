@@ -492,11 +492,6 @@ testParseJSON
 cpp
 '
 '
-testParserAtom
-.
-cpp
-'
-'
 testPersistentRooted
 .
 cpp
