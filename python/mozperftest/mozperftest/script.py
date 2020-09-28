@@ -1796,5 +1796,27 @@ update
 args
 )
         
+if
+self
+.
+script_type
+=
+=
+ScriptType
+.
+xpcshell
+:
+            
+result
+[
+"
+flavor
+"
+]
+=
+"
+xpcshell
+"
+        
 return
 result

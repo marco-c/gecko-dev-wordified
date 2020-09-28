@@ -525,6 +525,14 @@ platform
 {
             
 "
+nargs
+"
+:
+"
+*
+"
+            
+"
 type
 "
 :
@@ -535,7 +543,7 @@ default
 "
 :
 "
-g5
+linux
 "
             
 "
