@@ -9074,6 +9074,14 @@ mTtl
 )
 )
 ;
+mHostResolver
+-
+>
+MaybeRenewHostRecord
+(
+hostRecord
+)
+;
 /
 /
 Since
