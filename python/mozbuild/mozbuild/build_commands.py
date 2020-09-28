@@ -708,6 +708,10 @@ instr
 build
 (
                 
+self
+.
+metrics
+                
 what
 =
 what
