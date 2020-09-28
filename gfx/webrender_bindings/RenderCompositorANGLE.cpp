@@ -282,6 +282,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 FxROutputHandler
 .
 h
