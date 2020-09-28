@@ -267,6 +267,13 @@ nsIAccessibleEvent
 EVENT_ALERT
 ;
 const
+EVENT_TEXT_SELECTION_CHANGED
+=
+nsIAccessibleEvent
+.
+EVENT_TEXT_SELECTION_CHANGED
+;
+const
 EventsLogger
 =
 {
