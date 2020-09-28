@@ -203,6 +203,13 @@ SetUp
 (
 )
 {
+APZCTesterBase
+:
+:
+SetUp
+(
+)
+;
 APZThreadUtils
 :
 :

@@ -191,10 +191,10 @@ SetUp
 (
 )
 {
-gfxPlatform
+APZCTesterBase
 :
 :
-GetPlatform
+SetUp
 (
 )
 ;
