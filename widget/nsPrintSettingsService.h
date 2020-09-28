@@ -543,6 +543,8 @@ nsIPrintSettings
 *
 _retval
 )
+=
+0
 ;
 /
 /
