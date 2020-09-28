@@ -760,6 +760,17 @@ moxURL
 ;
 /
 /
+AXLinkUIElements
+-
+(
+NSArray
+*
+_Nullable
+)
+moxLinkUIElements
+;
+/
+/
 AXPopupValue
 -
 (
