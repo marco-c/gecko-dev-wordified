@@ -1059,6 +1059,10 @@ trrServer
 expectEarlyFail
 =
 false
+options
+=
+{
+}
 )
 {
 this
@@ -1104,6 +1108,12 @@ resolve
 ;
 }
 )
+;
+this
+.
+options
+=
+options
 ;
 const
 dns
@@ -1198,6 +1208,13 @@ Ci
 nsIDNSService
 .
 RESOLVE_TYPE_DEFAULT
+this
+.
+options
+.
+flags
+|
+|
 0
 resolverInfo
 this
