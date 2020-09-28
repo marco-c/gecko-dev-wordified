@@ -1039,6 +1039,12 @@ gHttpHandler
 DefaultHttp3MaxBlockedStreams
 (
 )
+gHttpHandler
+-
+>
+Http3QlogDir
+(
+)
 getter_AddRefs
 (
 mHttp3Connection
