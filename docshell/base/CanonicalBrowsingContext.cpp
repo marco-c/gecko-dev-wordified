@@ -2267,6 +2267,8 @@ const
 nsID
 &
 aChangeID
+uint32_t
+aLoadType
 )
 {
 for
@@ -2487,6 +2489,14 @@ EmptyString
 )
 ;
 }
+bool
+addEntry
+=
+ShouldUpdateSessionHistory
+(
+aLoadType
+)
+;
 if
 (
 IsTop
@@ -2524,6 +2534,10 @@ UpdateIndex
 ;
 }
 else
+if
+(
+addEntry
+)
 {
 shistory
 -
@@ -2704,6 +2718,11 @@ UpdateIndex
 else
 if
 (
+addEntry
+)
+{
+if
+(
 oldActiveEntry
 )
 {
@@ -2717,6 +2736,8 @@ index
 of
 the
 session
+/
+/
 history
 !
 /
@@ -2856,6 +2877,7 @@ IsInProcess
 )
 )
 ;
+}
 }
 }
 }
