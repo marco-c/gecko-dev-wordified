@@ -418,7 +418,6 @@ email
 .
 {
 }
-}
 '
 .
 format
