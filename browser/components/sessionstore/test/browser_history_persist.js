@@ -231,7 +231,9 @@ sessionHistory
 =
 docShell
 .
-sessionHistory
+browsingContext
+.
+childSessionHistory
 .
 legacySHistory
 ;
@@ -403,7 +405,9 @@ sessionHistory
 =
 docShell
 .
-sessionHistory
+browsingContext
+.
+childSessionHistory
 .
 legacySHistory
 ;
@@ -706,7 +710,9 @@ sessionHistory
 =
 docShell
 .
-sessionHistory
+browsingContext
+.
+childSessionHistory
 .
 legacySHistory
 ;
@@ -878,7 +884,9 @@ sessionHistory
 =
 docShell
 .
-sessionHistory
+browsingContext
+.
+childSessionHistory
 .
 legacySHistory
 ;

@@ -363,7 +363,9 @@ history
 =
 docShell
 .
-sessionHistory
+browsingContext
+.
+childSessionHistory
 .
 legacySHistory
 ;
