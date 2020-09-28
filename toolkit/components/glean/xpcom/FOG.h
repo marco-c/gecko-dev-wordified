@@ -144,6 +144,11 @@ FOG
 =
 default
 ;
+void
+Shutdown
+(
+)
+;
 }
 ;
 }
