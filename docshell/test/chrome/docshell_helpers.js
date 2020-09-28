@@ -2863,7 +2863,7 @@ history
 .
 legacySHistory
 .
-PurgeHistory
+purgeHistory
 (
 history
 .

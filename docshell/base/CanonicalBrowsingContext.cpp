@@ -2716,6 +2716,12 @@ bool
 aReloadActiveEntry
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+!
+aLoadState
+)
+;
 nsISHistory
 *
 shistory

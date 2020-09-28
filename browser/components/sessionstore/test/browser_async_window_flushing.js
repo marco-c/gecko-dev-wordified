@@ -893,7 +893,7 @@ sessionHistory
 .
 legacySHistory
 .
-PurgeHistory
+purgeHistory
 (
 sessionHistory
 .
