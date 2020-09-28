@@ -513,7 +513,7 @@ a11y
 EWhichRange
 :
 :
-eRightWord
+eRightLine
 >
 {
 }
