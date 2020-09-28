@@ -637,6 +637,15 @@ nsIGfxInfo
 :
 :
 FEATURE_WEBGL_OPENGL
+|
+|
+aFeature
+=
+=
+nsIGfxInfo
+:
+:
+FEATURE_WEBGL_MSAA
 )
 {
 *
