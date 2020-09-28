@@ -303,9 +303,15 @@ this
 "
 logger
 "
+(
+)
+=
+>
 Log
 .
 get
+(
+)
 )
 ;
 XPCOMUtils

@@ -252,9 +252,15 @@ this
 "
 logger
 "
+(
+)
+=
+>
 Log
 .
 get
+(
+)
 )
 ;
 /
