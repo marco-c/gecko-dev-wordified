@@ -2618,18 +2618,9 @@ firstPaint
 "
 fcp
 "
-[
 "
-paintTiming
+timeToContentfulPaint
 "
-"
-first
--
-contentful
--
-paint
-"
-]
 )
             
 (
@@ -2651,6 +2642,29 @@ loadEventEnd
 )
         
 )
+        
+chrome_raptor_conversion
+=
+{
+            
+"
+timeToContentfulPaint
+"
+:
+[
+"
+paintTiming
+"
+"
+first
+-
+contentful
+-
+paint
+"
+]
+        
+}
         
 def
 _get_raptor_val
@@ -3490,35 +3504,24 @@ fcp
 continue
                     
 #
-FCP
+chrome
+currently
 uses
-a
 different
-path
-to
-get
-the
-timing
-so
-we
-need
-to
-do
-                    
-#
+names
+(
+and
+locations
+)
+for
 some
-checks
-here
+metrics
                     
 if
-bt
-=
-=
-"
-fcp
-"
+raptor
+in
+chrome_raptor_conversion
 and
-not
 _get_raptor_val
 (
                         
@@ -3537,12 +3540,20 @@ timings
 "
 ]
                         
+chrome_raptor_conversion
+[
 raptor
+]
                     
 )
 :
                         
-continue
+raptor
+=
+chrome_raptor_conversion
+[
+raptor
+]
                     
 #
 XXX

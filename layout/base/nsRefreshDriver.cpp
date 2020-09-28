@@ -7746,8 +7746,6 @@ nsRefreshDriver
 :
 MostRecentRefresh
 (
-bool
-aEnsureTimerStarted
 )
 const
 {
@@ -7777,9 +7775,6 @@ ProcessPendingRestyles
 .
 if
 (
-aEnsureTimerStarted
-&
-&
 !
 ServoStyleSet
 :
