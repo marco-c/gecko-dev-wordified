@@ -420,11 +420,11 @@ from
 /
 WebConsoleOutputWrapper
 .
-dispatchMessageUpdate
+dispatchMessagesUpdate
 using
 /
 /
-NETWORK_MESSAGE_UPDATE
+NETWORK_MESSAGES_UPDATE
 action
 .
 /
