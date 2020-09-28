@@ -686,7 +686,7 @@ NUM_HEAD_FOOT
 ]
 ;
 nsString
-mPaperName
+mPaperId
 ;
 double
 mPaperWidth

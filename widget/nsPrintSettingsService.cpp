@@ -502,12 +502,12 @@ print_in_color
 static
 const
 char
-kPrintPaperName
+kPrintPaperId
 [
 ]
 =
 "
-print_paper_name
+print_paper_id
 "
 ;
 static
@@ -1198,12 +1198,12 @@ showPrintProgress
 aSettings
 -
 >
-GetPaperName
+GetPaperId
 (
 data
 -
 >
-paperName
+paperId
 (
 )
 )
@@ -2074,11 +2074,11 @@ showPrintProgress
 settings
 -
 >
-SetPaperName
+SetPaperId
 (
 data
 .
-paperName
+paperId
 (
 )
 )
@@ -3506,7 +3506,7 @@ height
 &
 GETSTRPREF
 (
-kPrintPaperName
+kPrintPaperId
 str
 )
 ;
@@ -3637,7 +3637,7 @@ height
 aPS
 -
 >
-SetPaperName
+SetPaperId
 (
 str
 )
@@ -3645,7 +3645,7 @@ str
 DUMP_STR
 (
 kReadStr
-kPrintPaperName
+kPrintPaperId
 str
 .
 get
@@ -4938,7 +4938,7 @@ NS_SUCCEEDED
 aPS
 -
 >
-GetPaperName
+GetPaperId
 (
 name
 )
@@ -5005,7 +5005,7 @@ height
 DUMP_STR
 (
 kWriteStr
-kPrintPaperName
+kPrintPaperId
 name
 .
 get
@@ -5020,7 +5020,7 @@ SetString
 (
 GetPrefName
 (
-kPrintPaperName
+kPrintPaperId
 aPrinterName
 )
 name
