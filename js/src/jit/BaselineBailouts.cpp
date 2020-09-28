@@ -16019,6 +16019,12 @@ case
 BailoutKind
 :
 :
+TypedArrayGuard
+:
+case
+BailoutKind
+:
+:
 MegamorphicAccess
 :
 case
