@@ -518,7 +518,7 @@ false
 ;
 case
 "
-minimum
+initial
 "
 :
 case
