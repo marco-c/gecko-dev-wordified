@@ -2994,8 +2994,9 @@ in
 GlobalHelperThreadState
 :
 :
-finishModuleParseTask
+finishSingleParseTask
 instead
+.
 if
 (
 !
