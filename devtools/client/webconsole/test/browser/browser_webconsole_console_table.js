@@ -2643,8 +2643,11 @@ wrappedJSObject
 .
 performance
 .
-getEntries
+getEntriesByType
 (
+"
+navigation
+"
 )
 ;
 }
