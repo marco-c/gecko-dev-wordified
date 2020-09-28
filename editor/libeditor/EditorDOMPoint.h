@@ -7982,11 +7982,14 @@ aOther
 const
 {
 return
+!
+(
 *
 this
 =
 =
 aOther
+)
 ;
 }
 EditorDOMRangeInTexts
