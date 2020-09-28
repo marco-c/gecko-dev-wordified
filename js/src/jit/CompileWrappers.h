@@ -300,6 +300,13 @@ wellKnownSymbols
 )
 ;
 const
+JSClass
+*
+maybeWindowProxyClass
+(
+)
+;
+const
 void
 *
 mainContextPtr

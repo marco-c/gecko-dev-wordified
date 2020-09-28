@@ -1453,6 +1453,15 @@ MDefinition
 Opcode
 :
 :
+LoadWrapperTarget
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 AsmJSLoadHeap
 :
 case
