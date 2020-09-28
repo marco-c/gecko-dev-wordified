@@ -268,10 +268,6 @@ aSharedStateFrom
 nsIURI
 *
 aURI
-const
-nsID
-&
-aDocShellID
 )
 ;
 SessionHistoryInfo
