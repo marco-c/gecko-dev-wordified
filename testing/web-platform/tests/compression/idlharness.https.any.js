@@ -49,6 +49,9 @@ compression
 '
 ]
 [
+'
+streams
+'
 ]
 idl_array
 =
