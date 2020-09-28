@@ -10181,6 +10181,13 @@ mAddresses
 )
 )
 ;
+builder
+.
+SetCanonicalHostname
+(
+mCname
+)
+;
 /
 /
 Set
