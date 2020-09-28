@@ -3057,12 +3057,6 @@ GetSkipContentPolicyCheckForWebRequest
 aLoadInfo
 -
 >
-GetOriginalFrameSrcLoad
-(
-)
-aLoadInfo
--
->
 GetForceInheritPrincipalDropped
 (
 )
@@ -4611,11 +4605,6 @@ bypassCORSChecks
 loadInfoArgs
 .
 skipContentPolicyCheckForWebRequest
-(
-)
-loadInfoArgs
-.
-originalFrameSrcLoad
 (
 )
 loadInfoArgs
