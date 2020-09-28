@@ -2737,10 +2737,7 @@ querySelectorAll
 (
 "
 :
--
-moz
--
-any
+is
 (
 input
 select
