@@ -184,7 +184,7 @@ final
 MarginDouble
 GetMarginsForPaper
 (
-short
+nsString
 aPaperId
 )
 const

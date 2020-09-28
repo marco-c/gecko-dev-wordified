@@ -885,7 +885,9 @@ QueryMarginsForPaper
 Promise
 &
 aPromise
-short
+const
+nsString
+&
 aPaperId
 )
 {
