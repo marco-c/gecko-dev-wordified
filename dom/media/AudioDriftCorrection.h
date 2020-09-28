@@ -320,7 +320,7 @@ now
 it
 is
 at
-5ms
+50ms
 .
 But
 it
@@ -630,9 +630,9 @@ We
 want
 to
 maintain
-4
-ms
-buffered
+the
+desired
+buffer
 int32_t
 bufferedFramesDiff
 =
@@ -1215,7 +1215,7 @@ std
 :
 max
 (
-1
+5
 Preferences
 :
 :
@@ -1228,7 +1228,7 @@ clockdrift
 .
 buffering
 "
-5
+50
 )
 )
 *
