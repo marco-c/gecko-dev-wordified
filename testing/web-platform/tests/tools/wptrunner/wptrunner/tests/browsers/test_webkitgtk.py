@@ -358,6 +358,24 @@ webdriver_binary
 =
 None
     
+kwargs
+[
+"
+pause_after_test
+"
+]
+=
+False
+    
+kwargs
+[
+"
+pause_on_unexpected
+"
+]
+=
+False
+    
 with
 ConfigBuilder
 (
