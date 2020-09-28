@@ -768,7 +768,7 @@ JSFreeOp
 static
 MOZ_ALWAYS_INLINE
 void
-writeBarrierPre
+preWriteBarrier
 (
 Symbol
 *
@@ -796,7 +796,7 @@ asTenured
 (
 )
 .
-writeBarrierPre
+preWriteBarrier
 (
 thing
 )

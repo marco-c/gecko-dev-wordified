@@ -5482,7 +5482,7 @@ WithIncrementalBarrier
 JSString
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 str
 -
@@ -5499,7 +5499,7 @@ left
 JSString
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 str
 -
@@ -5591,7 +5591,7 @@ WithIncrementalBarrier
 JSString
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 str
 -
@@ -5608,7 +5608,7 @@ left
 JSString
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 str
 -
@@ -5877,7 +5877,7 @@ WithIncrementalBarrier
 JSString
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 str
 -
@@ -5894,7 +5894,7 @@ left
 JSString
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 str
 -

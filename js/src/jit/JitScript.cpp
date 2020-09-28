@@ -4684,7 +4684,7 @@ hasBaselineScript
 BaselineScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 script
 -
@@ -4862,7 +4862,7 @@ hasIonScript
 IonScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 script
 -

@@ -712,7 +712,7 @@ trc
 static
 MOZ_ALWAYS_INLINE
 void
-writeBarrierPost
+postWriteBarrier
 (
 void
 *
@@ -731,7 +731,7 @@ js
 gc
 :
 :
-WriteBarrierPostImpl
+PostWriteBarrierImpl
 <
 BigInt
 >

@@ -3986,7 +3986,7 @@ inline
 static
 MOZ_MUST_USE
 bool
-WriteBarrierPostImpl
+PostWriteBarrierImpl
 (
 ObjectT
 *
@@ -4139,7 +4139,7 @@ inline
 static
 MOZ_MUST_USE
 bool
-WriteBarrierPost
+PostWriteBarrier
 (
 MapObject
 *
@@ -4151,7 +4151,7 @@ key
 )
 {
 return
-WriteBarrierPostImpl
+PostWriteBarrierImpl
 (
 map
 key
@@ -4162,7 +4162,7 @@ inline
 static
 MOZ_MUST_USE
 bool
-WriteBarrierPost
+PostWriteBarrier
 (
 SetObject
 *
@@ -4174,7 +4174,7 @@ key
 )
 {
 return
-WriteBarrierPostImpl
+PostWriteBarrierImpl
 (
 set
 key
@@ -4380,7 +4380,7 @@ false
 if
 (
 !
-WriteBarrierPost
+PostWriteBarrier
 (
 &
 obj
@@ -5757,7 +5757,7 @@ key
 if
 (
 !
-WriteBarrierPost
+PostWriteBarrier
 (
 &
 args
@@ -8877,7 +8877,7 @@ false
 if
 (
 !
-WriteBarrierPost
+PostWriteBarrier
 (
 &
 obj
@@ -9629,7 +9629,7 @@ false
 if
 (
 !
-WriteBarrierPost
+PostWriteBarrier
 (
 obj
 key
@@ -10370,7 +10370,7 @@ key
 if
 (
 !
-WriteBarrierPost
+PostWriteBarrier
 (
 &
 args

@@ -19163,7 +19163,7 @@ ASSERT_ANYREF_IS_JSOBJECT
 JSObject
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 cell
 -
@@ -20993,7 +20993,7 @@ ASSERT_ANYREF_IS_JSOBJECT
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 prevPtr
 .
@@ -21029,7 +21029,7 @@ isNull
 JSObject
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 cell
 -

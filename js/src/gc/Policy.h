@@ -253,7 +253,7 @@ v
 Type
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 v
 )
@@ -282,7 +282,7 @@ vp
 Type
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 vp
 prev

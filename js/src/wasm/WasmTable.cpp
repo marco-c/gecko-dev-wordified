@@ -1139,7 +1139,7 @@ tls
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 elem
 .
@@ -1198,7 +1198,7 @@ isTenured
 )
 "
 no
-writeBarrierPost
+postWriteBarrier
 (
 Table
 :
@@ -1658,7 +1658,7 @@ tls
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 elem
 .
@@ -1792,7 +1792,7 @@ tls
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 dst
 .
@@ -1869,7 +1869,7 @@ isTenured
 )
 "
 no
-writeBarrierPost
+postWriteBarrier
 (
 Table
 :

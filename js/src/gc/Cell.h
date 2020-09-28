@@ -1308,7 +1308,7 @@ const
 static
 MOZ_ALWAYS_INLINE
 bool
-needWriteBarrierPre
+needPreWriteBarrier
 (
 JS
 :
@@ -1638,7 +1638,7 @@ thing
 static
 MOZ_ALWAYS_INLINE
 void
-writeBarrierPre
+preWriteBarrier
 (
 Cell
 *
@@ -2280,7 +2280,7 @@ thing
 static
 MOZ_ALWAYS_INLINE
 void
-writeBarrierPre
+preWriteBarrier
 (
 TenuredCell
 *
@@ -2290,7 +2290,7 @@ thing
 static
 MOZ_ALWAYS_INLINE
 void
-writeBarrierPost
+postWriteBarrier
 (
 void
 *
@@ -2945,7 +2945,7 @@ bool
 Cell
 :
 :
-needWriteBarrierPre
+needPreWriteBarrier
 (
 JS
 :
@@ -3037,7 +3037,7 @@ void
 Cell
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 Cell
 *
@@ -3068,7 +3068,7 @@ isTenured
 TenuredCell
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 &
 thing
@@ -3750,7 +3750,7 @@ void
 TenuredCell
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 TenuredCell
 *
@@ -4084,7 +4084,7 @@ void
 TenuredCell
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 void
 *
@@ -5459,7 +5459,7 @@ newValue
 PtrT
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 headerPtr
 (

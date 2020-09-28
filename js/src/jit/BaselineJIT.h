@@ -2457,7 +2457,7 @@ resumeEntriesOffset_
 }
 static
 void
-writeBarrierPre
+preWriteBarrier
 (
 Zone
 *

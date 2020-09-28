@@ -1771,7 +1771,7 @@ see
 JSObject
 :
 :
-writeBarrierPre
+preWriteBarrier
 which
 is
 used
@@ -2646,7 +2646,7 @@ preBarrier
 T
 :
 :
-writeBarrierPre
+preWriteBarrier
 *
 -
 >
@@ -2684,7 +2684,7 @@ preBarrier
 T
 :
 :
-writeBarrierPre
+preWriteBarrier
 *
 *
 GCPtr
@@ -2719,7 +2719,7 @@ postBarrier
 T
 :
 :
-writeBarrierPost
+postWriteBarrier
 *
 -
 >
@@ -2985,7 +2985,7 @@ v
 T
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 v
 )
@@ -3010,7 +3010,7 @@ next
 T
 :
 :
-writeBarrierPost
+postWriteBarrier
 (
 vp
 prev
@@ -3924,7 +3924,7 @@ types
 .
 static
 void
-writeBarrierPre
+preWriteBarrier
 (
 const
 T
@@ -6809,7 +6809,7 @@ slot
 const
 ;
 void
-assertPreconditionForWriteBarrierPost
+assertPreconditionForPostWriteBarrier
 (
 NativeObject
 *
@@ -6892,7 +6892,7 @@ target
 #
 ifdef
 DEBUG
-assertPreconditionForWriteBarrierPost
+assertPreconditionForPostWriteBarrier
 (
 owner
 kind
@@ -7359,7 +7359,7 @@ if
 T1
 :
 :
-needWriteBarrierPre
+needPreWriteBarrier
 (
 zone
 )

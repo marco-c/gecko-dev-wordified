@@ -526,7 +526,7 @@ clearEnclosingScript
 BaseScript
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 toEnclosingScript
 (
@@ -609,7 +609,7 @@ clearEnclosingScope
 Scope
 :
 :
-writeBarrierPre
+preWriteBarrier
 (
 toEnclosingScope
 (

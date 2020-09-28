@@ -416,7 +416,7 @@ void
 HeapSlot
 :
 :
-assertPreconditionForWriteBarrierPost
+assertPreconditionForPostWriteBarrier
 (
 NativeObject
 *
@@ -837,7 +837,7 @@ t
 t
 -
 >
-writeBarrierPre
+preWriteBarrier
 (
 t
 )
@@ -877,7 +877,7 @@ t
 t
 -
 >
-writeBarrierPre
+preWriteBarrier
 (
 t
 )
