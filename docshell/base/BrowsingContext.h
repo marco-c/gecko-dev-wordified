@@ -1156,6 +1156,12 @@ FIELD
 PlatformOverride
 nsString
 )
+\
+FIELD
+(
+HasLoadedNonInitialDocument
+bool
+)
 /
 /
 BrowsingContext
