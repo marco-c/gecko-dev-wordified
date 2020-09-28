@@ -302,6 +302,9 @@ mozilla
 class
 TaskQueue
 ;
+class
+MediaTimer
+;
 namespace
 dom
 {
@@ -2035,6 +2038,12 @@ GetUserMediaRequest
 >
 >
 mPendingGUMRequest
+;
+RefPtr
+<
+MediaTimer
+>
+mDeviceChangeTimer
 ;
 bool
 mCamerasMuted
