@@ -627,6 +627,7 @@ www
 google
 .
 com
+.
 "
 "
 1
@@ -647,6 +648,7 @@ addIPOverride
 google
 .
 com
+.
 "
 "
 1
@@ -669,6 +671,7 @@ forcesafesearch
 google
 .
 com
+.
 "
 "
 1
@@ -696,6 +699,7 @@ www
 youtube
 .
 com
+.
 "
 "
 2
@@ -718,6 +722,7 @@ m
 youtube
 .
 com
+.
 "
 "
 2
@@ -740,6 +745,7 @@ youtubei
 googleapis
 .
 com
+.
 "
 "
 2
@@ -762,6 +768,7 @@ youtube
 googleapis
 .
 com
+.
 "
 "
 2
@@ -786,6 +793,7 @@ youtube
 nocookie
 .
 com
+.
 "
 "
 2
@@ -808,6 +816,7 @@ restrict
 youtube
 .
 com
+.
 "
 "
 2
@@ -830,6 +839,7 @@ restrictmoderate
 youtube
 .
 com
+.
 "
 "
 2
@@ -856,6 +866,7 @@ sitereview
 zscaler
 .
 com
+.
 "
 "
 3
@@ -884,6 +895,7 @@ application
 dns
 .
 net
+.
 "
 "
 4
@@ -1856,6 +1868,7 @@ sitereview
 zscaler
 .
 com
+.
 "
 )
 ;
@@ -1869,6 +1882,7 @@ sitereview
 zscaler
 .
 com
+.
 "
 "
 3
@@ -1897,6 +1911,7 @@ sitereview
 zscaler
 .
 com
+.
 "
 )
 ;
@@ -1910,6 +1925,7 @@ sitereview
 zscaler
 .
 com
+.
 "
 "
 213

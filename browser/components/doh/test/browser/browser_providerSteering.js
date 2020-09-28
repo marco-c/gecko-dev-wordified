@@ -40,6 +40,7 @@ TEST_DOMAIN
 doh
 .
 test
+.
 "
 ;
 const
@@ -549,6 +550,7 @@ googleDomain
 google
 .
 com
+.
 "
 ;
 let
