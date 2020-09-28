@@ -1045,7 +1045,7 @@ d
 \
 n
 "
-Stringify
+ToString
 (
 aPoint
 )
@@ -1669,7 +1669,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 aPoint
 )

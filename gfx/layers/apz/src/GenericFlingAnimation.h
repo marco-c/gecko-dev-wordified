@@ -224,6 +224,15 @@ h
 #
 include
 "
+mozilla
+/
+ToString
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -1769,7 +1778,7 @@ n
 "
 &
 mApzc
-Stringify
+ToString
 (
 velocity
 )
