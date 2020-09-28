@@ -1371,6 +1371,19 @@ pointer
 (
 )
         
+self
+.
+uintptr_t
+=
+gdb
+.
+lookup_type
+(
+'
+uintptr_t
+'
+)
+        
 try
 :
             

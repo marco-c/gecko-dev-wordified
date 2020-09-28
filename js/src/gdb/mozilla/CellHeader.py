@@ -90,6 +90,11 @@ value
 header_
 '
 ]
+[
+'
+mValue
+'
+]
 .
 cast
 (
@@ -99,6 +104,7 @@ def
 get_header_length_and_flags
 (
 value
+cache
 )
 :
     
@@ -125,6 +131,18 @@ value
 header_
 '
 ]
+[
+'
+mValue
+'
+]
+.
+cast
+(
+cache
+.
+uintptr_t
+)
     
 try
 :
