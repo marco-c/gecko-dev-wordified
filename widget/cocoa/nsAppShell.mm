@@ -643,6 +643,10 @@ topic
 =
 %
 s
+state
+=
+%
+s
 shouldKeepDisplayOn
 =
 %
@@ -651,6 +655,14 @@ d
 NS_ConvertUTF16toUTF8
 (
 aTopic
+)
+.
+get
+(
+)
+NS_ConvertUTF16toUTF8
+(
+aState
 )
 .
 get
