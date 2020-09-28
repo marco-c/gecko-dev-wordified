@@ -479,11 +479,6 @@ Compatibility
 IsDolphin
 (
 )
-|
-|
-XRE_IsContentProcess
-(
-)
 )
 {
 RegisterNativeWindow
