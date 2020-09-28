@@ -4661,7 +4661,7 @@ AnimationHelper
 ShouldBeJank
 (
 const
-LayoutDeviceIntRect
+LayoutDeviceRect
 &
 aPrerenderedRect
 SideBits
