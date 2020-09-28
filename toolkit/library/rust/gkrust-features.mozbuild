@@ -504,7 +504,7 @@ if
 CONFIG
 [
 '
-FUZZING_INTERFACES
+LIBFUZZER
 '
 ]
 :
@@ -513,7 +513,7 @@ gkrust_features
 =
 [
 '
-fuzzing_interfaces
+libfuzzer
 '
 ]
 if

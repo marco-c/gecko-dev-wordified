@@ -67,7 +67,7 @@ cfg
 feature
 =
 "
-fuzzing_interfaces
+libfuzzer
 "
 )
 ]
