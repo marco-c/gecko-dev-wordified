@@ -1787,6 +1787,9 @@ false
 advanced_blend_is_coherent
 :
 false
+gpu_supports_render_target_partial_update
+:
+true
 batch_lookback_count
 :
 0
