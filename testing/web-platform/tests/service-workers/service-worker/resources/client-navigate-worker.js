@@ -856,12 +856,9 @@ url
 |
 "
 "
-assert_true
+assert_equals
 (
 client
-=
-=
-=
 null
 )
 ;

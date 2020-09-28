@@ -252,14 +252,12 @@ i
 msg
 )
 {
-assert_true
+assert_equals
 (
 expected_logs
 [
 i
 ]
-=
-=
 msg
 )
 ;

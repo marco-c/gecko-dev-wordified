@@ -64,13 +64,10 @@ function
 result
 )
 {
-assert_true
+assert_equals
 (
 typeof
 result
-=
-=
-=
 '
 object
 '

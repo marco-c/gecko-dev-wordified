@@ -191,11 +191,9 @@ document
 '
 )
 ;
-assert_false
+assert_not_equals
 (
 textChild
-=
-=
 option
 .
 firstChild
@@ -273,13 +271,11 @@ text
 "
 "
 ;
-assert_true
+assert_equals
 (
 option
 .
 firstChild
-=
-=
 null
 '
 Verify

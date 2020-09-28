@@ -211,13 +211,10 @@ function
 (
 )
 {
-assert_true
+assert_equals
 (
 typeof
 method
-=
-=
-=
 '
 function
 '
