@@ -3065,14 +3065,14 @@ path
 )
         
 if
-source_file
-.
-type
-!
-=
 "
 testharness
 "
+not
+in
+source_file
+.
+possible_types
 :
             
 continue
