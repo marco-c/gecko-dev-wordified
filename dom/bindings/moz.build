@@ -488,9 +488,7 @@ media
 /
 webrtc
 /
-media
--
-conduit
+libwebrtcglue
 '
 '
 /

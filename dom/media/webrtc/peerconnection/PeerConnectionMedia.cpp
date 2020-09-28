@@ -252,9 +252,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 WebrtcGmpVideoCodec
 .

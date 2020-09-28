@@ -141,9 +141,7 @@ State
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 MediaConduitInterface
 .

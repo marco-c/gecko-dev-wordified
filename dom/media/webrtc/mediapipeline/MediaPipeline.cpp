@@ -416,9 +416,7 @@ h
 #
 include
 "
-media
--
-conduit
+libwebrtcglue
 /
 WebrtcImageBuffer
 .
