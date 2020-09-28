@@ -181,6 +181,15 @@ aName
 )
 override
 ;
+NS_IMETHOD
+GetSystemName
+(
+nsAString
+&
+aName
+)
+override
+;
 PrintSettingsInitializer
 DefaultSettings
 (
