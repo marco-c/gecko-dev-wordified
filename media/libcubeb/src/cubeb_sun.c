@@ -1837,6 +1837,11 @@ cubeb_stream
 s
 )
 {
+sun_stream_stop
+(
+s
+)
+;
 pthread_mutex_destroy
 (
 &
@@ -1844,11 +1849,6 @@ s
 -
 >
 mutex
-)
-;
-sun_stream_stop
-(
-s
 )
 ;
 if
@@ -3876,7 +3876,7 @@ params
 .
 rate
 =
-stream
+s
 -
 >
 play
