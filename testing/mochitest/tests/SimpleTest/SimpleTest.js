@@ -2714,6 +2714,15 @@ num_failed
 +
 +
 ;
+test
+.
+result
+=
+!
+test
+.
+result
+;
 }
 successInfo
 =
