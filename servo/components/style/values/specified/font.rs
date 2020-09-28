@@ -15460,7 +15460,7 @@ presm
 scriptlevel
 pub
 enum
-MathDepth
+MozScriptLevel
 {
 /
 /
@@ -15551,7 +15551,7 @@ Auto
 impl
 Parse
 for
-MathDepth
+MozScriptLevel
 {
 fn
 parse
@@ -15582,7 +15582,7 @@ t
 >
 Result
 <
-MathDepth
+MozScriptLevel
 ParseError
 <
 '
@@ -15626,7 +15626,7 @@ expect_integer
 return
 Ok
 (
-MathDepth
+MozScriptLevel
 :
 :
 Relative
@@ -15648,7 +15648,7 @@ auto
 ;
 Ok
 (
-MathDepth
+MozScriptLevel
 :
 :
 Auto
