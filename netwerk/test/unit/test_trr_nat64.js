@@ -632,11 +632,8 @@ xyz
 .
 foo
 "
-{
-expectedSuccess
-:
+undefined
 false
-}
 )
 ;
 inRecord

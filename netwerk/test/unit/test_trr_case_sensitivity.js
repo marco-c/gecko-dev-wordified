@@ -652,9 +652,6 @@ example
 .
 com
 "
-{
-expectedAnswer
-:
 "
 1
 .
@@ -664,7 +661,6 @@ expectedAnswer
 .
 4
 "
-}
 )
 ;
 await
@@ -851,9 +847,6 @@ test
 .
 com
 "
-{
-expectedAnswer
-:
 "
 8
 .
@@ -863,7 +856,6 @@ expectedAnswer
 .
 8
 "
-}
 )
 ;
 await
@@ -923,9 +915,6 @@ CAPITAL
 .
 COM
 "
-{
-expectedAnswer
-:
 "
 2
 .
@@ -935,7 +924,6 @@ expectedAnswer
 .
 2
 "
-}
 )
 ;
 await
@@ -948,9 +936,6 @@ CAPITAL
 COM
 .
 "
-{
-expectedAnswer
-:
 "
 2
 .
@@ -960,7 +945,6 @@ expectedAnswer
 .
 2
 "
-}
 )
 ;
 await
