@@ -444,6 +444,13 @@ while
 true
 )
 {
+view
+.
+AlignTo
+(
+kUniversalAlignment
+)
+;
 size_t
 id
 =
