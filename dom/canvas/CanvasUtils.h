@@ -157,13 +157,6 @@ FloatingPoint
 .
 h
 "
-#
-include
-"
-nsLayoutUtils
-.
-h
-"
 class
 nsIPrincipal
 ;

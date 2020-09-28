@@ -173,13 +173,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 imgINotificationObserver
 .
 h
