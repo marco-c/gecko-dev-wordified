@@ -87,9 +87,11 @@ that
 are
 compatible
 with
-civet
+clang
 -
 tidy
+-
+external
 .
 /
 /
