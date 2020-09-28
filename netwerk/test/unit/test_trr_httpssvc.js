@@ -1979,6 +1979,9 @@ test
 .
 com
 "
+{
+expectedAnswer
+:
 "
 1
 .
@@ -1988,6 +1991,7 @@ com
 .
 4
 "
+}
 )
 ;
 /
@@ -2216,6 +2220,9 @@ x
 .
 com
 "
+{
+expectedAnswer
+:
 "
 4
 .
@@ -2225,6 +2232,7 @@ com
 .
 1
 "
+}
 )
 ;
 /
@@ -2401,8 +2409,11 @@ host
 .
 com
 "
-undefined
+{
+expectedSuccess
+:
 false
+}
 )
 ;
 Assert
@@ -2550,8 +2561,11 @@ loop
 .
 com
 "
-undefined
+{
+expectedSuccess
+:
 false
+}
 )
 ;
 Assert
@@ -2652,8 +2666,11 @@ empty
 .
 com
 "
-undefined
+{
+expectedSuccess
+:
 false
+}
 )
 ;
 Assert
