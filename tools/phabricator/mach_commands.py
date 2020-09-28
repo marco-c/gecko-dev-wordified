@@ -158,6 +158,9 @@ import
 logging
         
 import
+os
+        
+import
 shutil
         
 import
@@ -399,23 +402,16 @@ and
 BSD
 distros
 we
-default
-to
+consider
+doing
 a
 user
 installation
 .
             
-command
-.
-append
-(
-"
--
--
-user
-"
-)
+platform_prefers_user_install
+=
+True
         
 elif
 sys
@@ -447,7 +443,9 @@ without
 user
 .
             
-pass
+platform_prefers_user_install
+=
+False
         
 elif
 sys
@@ -487,7 +485,9 @@ is
 preferred
 .
             
-pass
+platform_prefers_user_install
+=
+False
         
 else
 :
@@ -529,6 +529,11 @@ per
 -
 user
 installation
+is
+"
+                
+"
+preferred
 .
 "
                 
@@ -538,6 +543,52 @@ sys
 platform
             
 )
+            
+platform_prefers_user_install
+=
+True
+        
+if
+platform_prefers_user_install
+and
+not
+os
+.
+environ
+.
+get
+(
+'
+VIRTUAL_ENV
+'
+)
+:
+            
+#
+Virtual
+environments
+don
+'
+t
+see
+user
+packages
+so
+only
+perform
+a
+user
+            
+#
+installation
+if
+we
+'
+re
+not
+within
+one
+.
             
 command
 .
