@@ -8033,6 +8033,9 @@ ParseErrorReporter
 quirks_mode
 :
 QuirksMode
+rule_type
+:
+CssRuleType
 )
 -
 >
@@ -8053,10 +8056,7 @@ Author
 url_data
 Some
 (
-CssRuleType
-:
-:
-Style
+rule_type
 )
 ParsingMode
 :
@@ -8177,6 +8177,9 @@ ParsingMode
 quirks_mode
 :
 QuirksMode
+rule_type
+:
+CssRuleType
 )
 -
 >
@@ -8203,10 +8206,7 @@ Author
 url_data
 Some
 (
-CssRuleType
-:
-:
-Style
+rule_type
 )
 parsing_mode
 quirks_mode

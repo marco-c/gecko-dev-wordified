@@ -431,6 +431,13 @@ Consume
 }
 }
 static
+constexpr
+uint16_t
+STYLE_RULE
+=
+1
+;
+static
 void
 ServoSetPropertyByIdBench
 (
@@ -548,6 +555,7 @@ ParsingMode
 Default
 eCompatibility_FullStandards
 nullptr
+STYLE_RULE
 {
 }
 )
@@ -660,6 +668,7 @@ ParsingMode
 Default
 eCompatibility_FullStandards
 nullptr
+STYLE_RULE
 {
 }
 )

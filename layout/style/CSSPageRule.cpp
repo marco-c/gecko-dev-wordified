@@ -540,6 +540,10 @@ GetParsingEnvironmentForRule
 Rule
 (
 )
+CSSRule_Binding
+:
+:
+PAGE_RULE
 )
 ;
 }
