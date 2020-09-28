@@ -672,6 +672,7 @@ const
 char
 *
 aLeadingString
+const
 nsCString
 &
 aCStr
@@ -7767,6 +7768,7 @@ const
 char
 *
 aLeadingString
+const
 nsCString
 &
 aCStr
@@ -8022,6 +8024,7 @@ HTMLEditor
 :
 ParseCFHTML
 (
+const
 nsCString
 &
 aCfhtml
