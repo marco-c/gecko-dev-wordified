@@ -1580,7 +1580,7 @@ MOZ_DIAGNOSTIC_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )

@@ -5630,7 +5630,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -6326,7 +6326,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -8027,7 +8027,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -9364,7 +9364,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -16182,7 +16182,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -18025,7 +18025,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -18210,7 +18210,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -19089,7 +19089,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -23919,7 +23919,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -24188,7 +24188,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -25859,7 +25859,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -26197,7 +26197,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -26295,7 +26295,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -33876,7 +33876,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ?
@@ -33971,7 +33971,7 @@ aIsTransientAboutBlank
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -42588,7 +42588,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -44509,7 +44509,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -48332,7 +48332,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 &
@@ -50535,7 +50535,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -53704,7 +53704,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -53833,7 +53833,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -54033,7 +54033,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -54603,7 +54603,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ?
@@ -54621,7 +54621,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -54857,7 +54857,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ?
@@ -54875,7 +54875,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -55030,7 +55030,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -55266,7 +55266,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -55481,7 +55481,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 &
@@ -56033,7 +56033,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ?
@@ -56084,7 +56084,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -58491,7 +58491,7 @@ LoadIsFromSessionHistory
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -58705,7 +58705,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -64243,7 +64243,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -68103,7 +68103,7 @@ equalUri
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ?
@@ -68394,7 +68394,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -68433,7 +68433,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -68791,7 +68791,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 &
@@ -68833,7 +68833,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -70967,7 +70967,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -71090,7 +71090,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -71178,7 +71178,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -71454,7 +71454,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -71751,7 +71751,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -72300,7 +72300,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -72877,7 +72877,7 @@ MOZ_DIAGNOSTIC_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -74219,7 +74219,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -75231,7 +75231,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 ?
@@ -75252,7 +75252,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -77961,7 +77961,7 @@ if
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -82196,7 +82196,7 @@ GetSessionHistory
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )
@@ -84566,7 +84566,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-fission_sessionHistoryInParent
+fission_sessionHistoryInParent_AtStartup
 (
 )
 )

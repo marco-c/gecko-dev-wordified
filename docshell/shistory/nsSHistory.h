@@ -448,11 +448,6 @@ One
 time
 initialization
 method
-called
-upon
-docshell
-module
-construction
 static
 nsresult
 Startup
