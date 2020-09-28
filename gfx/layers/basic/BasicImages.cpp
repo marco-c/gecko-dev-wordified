@@ -254,17 +254,6 @@ h
 #
 include
 "
-nsAutoRef
-.
-h
-"
-/
-/
-for
-nsCountedRef
-#
-include
-"
 nsCOMPtr
 .
 h
