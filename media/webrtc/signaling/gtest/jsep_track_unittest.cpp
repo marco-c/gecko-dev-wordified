@@ -127,10 +127,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 jsep
 /
 JsepTrack
@@ -140,10 +136,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 sdp
 /
 SipccSdp
@@ -153,10 +145,6 @@ h
 #
 include
 "
-signaling
-/
-src
-/
 sdp
 /
 SdpHelper
