@@ -149,15 +149,6 @@ ipc
 :
 need_ipc
 ;
-use
-std
-:
-:
-sync
-:
-:
-Arc
-;
 /
 /
 /
@@ -601,11 +592,6 @@ CounterMetric
 :
 Parent
 (
-Arc
-:
-:
-new
-(
 crate
 :
 :
@@ -618,7 +604,6 @@ counter
 CounterMetricImpl
 (
 metric
-)
 )
 )
 }
