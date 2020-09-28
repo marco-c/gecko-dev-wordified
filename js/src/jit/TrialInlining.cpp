@@ -236,14 +236,14 @@ icScript
 bool
 isRecursive
 =
-!
-!
 icScript
 -
 >
-inliningRoot
+depth
 (
 )
+>
+0
 ;
 if
 (
@@ -2185,8 +2185,6 @@ pcOffset
 :
 %
 u
-\
-n
 "
 icScript_
 result
