@@ -700,7 +700,6 @@ mozilla
 GenericErrorResult
 <
 OOM
-&
 >
 ReportOutOfMemoryResult
 (
