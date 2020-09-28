@@ -1210,7 +1210,7 @@ InitDWriteSupport
 (
 )
 ;
-bool
+void
 InitGPUProcessSupport
 (
 )
