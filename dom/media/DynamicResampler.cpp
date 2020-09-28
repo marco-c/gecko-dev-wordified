@@ -3018,7 +3018,12 @@ mIsSampleFormatSet
 )
 {
 return
-0
+(
+int
+)
+mResampler
+.
+mPreBufferFrames
 ;
 }
 MOZ_ASSERT
