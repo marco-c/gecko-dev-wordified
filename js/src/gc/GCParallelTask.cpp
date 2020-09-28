@@ -584,12 +584,6 @@ lock
 )
 |
 |
-isFinishing
-(
-lock
-)
-|
-|
 isFinished
 (
 lock

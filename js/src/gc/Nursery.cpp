@@ -1269,11 +1269,6 @@ continue
 ;
 }
 }
-setFinishing
-(
-lock
-)
-;
 }
 void
 js
