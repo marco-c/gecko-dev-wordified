@@ -11627,11 +11627,6 @@ aRv
 )
 const
 ;
-void
-UpdateHadAudibleAutoplayState
-(
-)
-;
 virtual
 void
 MaybeBeginCloningVisually
