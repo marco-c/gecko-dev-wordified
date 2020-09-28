@@ -3476,6 +3476,11 @@ ScreenshotGrabber
 cpp
 '
 '
+ScrollableLayerGuid
+.
+cpp
+'
+'
 ShareableCanvasRenderer
 .
 cpp
