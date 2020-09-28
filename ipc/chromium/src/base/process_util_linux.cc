@@ -234,6 +234,13 @@ ScopeExit
 .
 h
 "
+#
+include
+"
+ProcessUtils
+.
+h
+"
 using
 namespace
 mozilla
@@ -1318,6 +1325,13 @@ InstallChildSignalHandler
 ;
 ReserveFileDescriptors
 (
+)
+;
+SetThisProcessName
+(
+"
+forkserver
+"
 )
 ;
 }
