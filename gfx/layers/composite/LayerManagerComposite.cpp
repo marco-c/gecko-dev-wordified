@@ -952,6 +952,10 @@ RenderSource
 >
 GetWindowContents
 (
+const
+IntSize
+&
+aWindowSize
 )
 override
 ;
@@ -8388,6 +8392,11 @@ mProfilerScreenshotGrabber
 MaybeGrabScreenshot
 (
 window
+bounds
+.
+Size
+(
+)
 )
 ;
 if
@@ -11267,6 +11276,10 @@ WindowLMC
 :
 GetWindowContents
 (
+const
+IntSize
+&
+aWindowSize
 )
 {
 RefPtr

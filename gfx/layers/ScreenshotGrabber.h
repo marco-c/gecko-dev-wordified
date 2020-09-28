@@ -389,6 +389,13 @@ profiler_screenshots
 Window
 &
 aWindow
+const
+gfx
+:
+:
+IntSize
+&
+aWindowSize
 )
 ;
 /
@@ -530,6 +537,13 @@ RenderSource
 >
 GetWindowContents
 (
+const
+gfx
+:
+:
+IntSize
+&
+aWindowSize
 )
 =
 0
