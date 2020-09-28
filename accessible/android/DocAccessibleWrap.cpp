@@ -1196,8 +1196,10 @@ cacheData
 else
 if
 (
+RefPtr
+<
 SessionAccessibility
-*
+>
 sessionAcc
 =
 SessionAccessibility
@@ -1498,8 +1500,10 @@ last
 else
 if
 (
+RefPtr
+<
 SessionAccessibility
-*
+>
 sessionAcc
 =
 SessionAccessibility
@@ -1956,8 +1960,10 @@ cacheData
 else
 if
 (
+RefPtr
+<
 SessionAccessibility
-*
+>
 sessionAcc
 =
 SessionAccessibility
@@ -2250,8 +2256,10 @@ boundsData
 else
 if
 (
+RefPtr
+<
 SessionAccessibility
-*
+>
 sessionAcc
 =
 SessionAccessibility

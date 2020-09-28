@@ -183,8 +183,10 @@ MOZ_ASSERT
 aLastDoc
 )
 ;
+RefPtr
+<
 SessionAccessibility
-*
+>
 sessionAcc
 =
 SessionAccessibility
