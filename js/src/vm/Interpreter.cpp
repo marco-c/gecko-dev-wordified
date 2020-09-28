@@ -23210,6 +23210,16 @@ CASE
 Object
 )
 {
+MOZ_ASSERT
+(
+script
+-
+>
+treatAsRunOnce
+(
+)
+)
+;
 JSObject
 *
 obj
