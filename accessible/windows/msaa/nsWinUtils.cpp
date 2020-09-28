@@ -479,6 +479,14 @@ Compatibility
 IsDolphin
 (
 )
+|
+|
+Compatibility
+:
+:
+IsVisperoShared
+(
+)
 )
 {
 RegisterNativeWindow
