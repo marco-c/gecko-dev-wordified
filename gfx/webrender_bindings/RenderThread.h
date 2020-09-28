@@ -258,7 +258,7 @@ mozilla
 /
 layers
 /
-SynchronousTask
+CompositionRecorder
 .
 h
 "
@@ -269,7 +269,7 @@ mozilla
 /
 layers
 /
-WebRenderCompositionRecorder
+SynchronousTask
 .
 h
 "
