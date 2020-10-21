@@ -2871,7 +2871,7 @@ stat
 maxPaddingBps
 stat
 .
-receiveBandwidthBps
+pacerDelayMs
 stat
 .
 rttMs
