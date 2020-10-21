@@ -49038,8 +49038,6 @@ Background
 Iframe
 "
 DOM
-{
-}
 marker
 )
 ;

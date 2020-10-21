@@ -2138,6 +2138,9 @@ PROFILER_MARKER_TEXT
 TelemetryStopwatch
 "
 OTHER
+.
+WithOptions
+(
 MarkerTiming
 :
 :
@@ -2148,6 +2151,7 @@ timer
 >
 StartTime
 (
+)
 )
 )
 markerText

@@ -1867,11 +1867,15 @@ AUTO_PROFILER_MARKER_TEXT
 NotifyObservers
 "
 OTHER
+.
+WithOptions
+(
 MarkerStack
 :
 :
 Capture
 (
+)
 )
 nsDependentCString
 (
