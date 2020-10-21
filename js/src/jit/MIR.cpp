@@ -260,6 +260,15 @@ h
 #
 include
 "
+jit
+/
+VMFunctions
+.
+h
+"
+#
+include
+"
 js
 /
 Conversions

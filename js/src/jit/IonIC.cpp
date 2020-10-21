@@ -147,6 +147,15 @@ h
 #
 include
 "
+jit
+/
+VMFunctions
+.
+h
+"
+#
+include
+"
 util
 /
 DiagnosticAssertions

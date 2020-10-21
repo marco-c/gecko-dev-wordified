@@ -200,15 +200,6 @@ Snapshots
 .
 h
 "
-#
-include
-"
-jit
-/
-VMFunctions
-.
-h
-"
 namespace
 js
 {
