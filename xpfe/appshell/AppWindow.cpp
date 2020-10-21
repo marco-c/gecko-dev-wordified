@@ -18325,6 +18325,7 @@ fm
 &
 window
 )
+{
 fm
 -
 >
@@ -18333,6 +18334,7 @@ WindowRaised
 window
 )
 ;
+}
 if
 (
 mChromeLoaded
