@@ -145,6 +145,13 @@ h
 #
 include
 "
+CacheCommon
+.
+h
+"
+#
+include
+"
 mozIStorageConnection
 .
 h

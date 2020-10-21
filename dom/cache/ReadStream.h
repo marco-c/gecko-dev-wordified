@@ -134,6 +134,17 @@ include
 "
 mozilla
 /
+dom
+/
+SafeRefPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 FileDescriptor
