@@ -4888,6 +4888,10 @@ n
 this
 )
 ;
+mIsFirstPaint
+=
+false
+;
 return
 ;
 }
