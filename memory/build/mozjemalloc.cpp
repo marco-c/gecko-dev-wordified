@@ -30308,7 +30308,7 @@ kQuantum
 aStats
 -
 >
-small_max
+quantum_max
 =
 kMaxQuantumClass
 ;
