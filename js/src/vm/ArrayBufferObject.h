@@ -522,7 +522,7 @@ TypedObject
 (
 declared
 in
-builtin
+wasm
 /
 TypedObject
 .
