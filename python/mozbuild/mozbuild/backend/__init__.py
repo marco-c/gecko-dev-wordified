@@ -163,6 +163,18 @@ recursivemake
 '
     
 '
+StaticAnalysis
+'
+:
+'
+mozbuild
+.
+backend
+.
+static_analysis
+'
+    
+'
 TestManifest
 '
 :
