@@ -155,13 +155,6 @@ nsDependentSubstring
 .
 h
 "
-#
-include
-"
-nsReadableUtils
-.
-h
-"
 /
 /
 enable
@@ -188,6 +181,13 @@ endif
 include
 "
 nsTString
+.
+h
+"
+#
+include
+"
+nsReadableUtils
 .
 h
 "
