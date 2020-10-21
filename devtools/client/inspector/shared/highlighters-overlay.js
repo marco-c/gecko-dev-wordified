@@ -10615,9 +10615,8 @@ highlighter
 }
 /
 /
-Hide
-any
-visible
+Destroy
+all
 highlighters
 and
 clear
@@ -10645,10 +10644,9 @@ values
 )
 )
 {
-await
 highlighter
 .
-hide
+finalize
 (
 )
 ;
