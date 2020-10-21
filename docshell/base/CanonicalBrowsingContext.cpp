@@ -3850,6 +3850,15 @@ SessionHistoryInfo
 aInfo
 )
 {
+if
+(
+!
+mActiveEntry
+)
+{
+return
+;
+}
 mActiveEntry
 -
 >
