@@ -786,10 +786,13 @@ SetDocumentUseCSS
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 aTextEditor
 .
 AsHTMLEditor
 (
+)
 )
 -
 >

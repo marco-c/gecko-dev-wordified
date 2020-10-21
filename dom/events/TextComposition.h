@@ -2912,6 +2912,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchCompositionEvent
 (
@@ -2959,6 +2960,7 @@ null
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchEvent
 (
@@ -3091,6 +3093,7 @@ composition
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeDispatchCompositionUpdate
 (
@@ -3137,6 +3140,7 @@ event
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 BaseEventFlags
 CloneAndDispatchAs
 (
@@ -3254,6 +3258,7 @@ dispatched
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 OnCompositionEventDispatched
 (
@@ -3339,6 +3344,7 @@ return
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 uint32_t
 GetSelectionStartOffset
 (
@@ -3451,6 +3457,7 @@ aIsSynthesizedEvent
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (

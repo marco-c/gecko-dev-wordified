@@ -266,6 +266,7 @@ aEvent
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SpellCheckIfNeeded
 (
@@ -511,6 +512,7 @@ the
 mouse
 event
 .
+MOZ_CAN_RUN_SCRIPT
 bool
 NotifyIMEOfMouseButtonEvent
 (
