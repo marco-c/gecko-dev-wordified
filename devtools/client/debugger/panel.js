@@ -284,6 +284,13 @@ this
 toolbox
 .
 targetList
+resourceWatcher
+:
+this
+.
+toolbox
+.
+resourceWatcher
 devToolsClient
 :
 this

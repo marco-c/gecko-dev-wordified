@@ -470,6 +470,7 @@ onConnect
 (
 connection
 actions
+store
 )
 ;
 await
