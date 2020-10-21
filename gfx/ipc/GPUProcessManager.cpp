@@ -3497,6 +3497,10 @@ FeatureStatus
 :
 Blocked
 aMessage
+"
+GPU_PROCESS_FALLBACK_TO_SOFTWARE
+"
+_ns
 )
 ;
 #
@@ -3516,6 +3520,10 @@ FeatureStatus
 :
 Blocked
 aMessage
+"
+GPU_PROCESS_FALLBACK_TO_SOFTWARE
+"
+_ns
 )
 ;
 gfxConfig
@@ -3532,6 +3540,10 @@ FeatureStatus
 :
 Blocked
 aMessage
+"
+GPU_PROCESS_FALLBACK_TO_SOFTWARE
+"
+_ns
 )
 ;
 #
