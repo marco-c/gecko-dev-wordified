@@ -3823,7 +3823,7 @@ printSettings
 =
 PSSVC
 .
-globalPrintSettings
+newPrintSettings
 ;
 if
 (
