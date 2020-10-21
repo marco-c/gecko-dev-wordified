@@ -1715,6 +1715,9 @@ aNames
 .
 append
 (
+JS
+:
+:
 PropertyKey
 :
 :
@@ -2176,6 +2179,9 @@ aProperties
 .
 append
 (
+JS
+:
+:
 PropertyKey
 :
 :
