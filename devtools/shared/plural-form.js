@@ -2237,6 +2237,6 @@ get
 *
 eslint
 -
-ensable
+enable
 *
 /
