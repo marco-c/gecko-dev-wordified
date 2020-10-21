@@ -1007,7 +1007,7 @@ r
 >
 r
 .
-resourceId
+channelId
 =
 =
 channelId

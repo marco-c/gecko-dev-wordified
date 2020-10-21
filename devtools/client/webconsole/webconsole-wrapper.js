@@ -425,7 +425,6 @@ Document
 }
 document
 *
-*
 /
 constructor
 (
@@ -585,13 +584,6 @@ data
 )
 }
 webConsoleFront
-resourceWatcher
-:
-this
-.
-hud
-.
-resourceWatcher
 }
 )
 ;

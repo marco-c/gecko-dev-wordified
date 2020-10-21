@@ -160,15 +160,6 @@ collector
 js
 '
 '
-stack
--
-traces
--
-actor
-.
-js
-'
-'
 websocket
 -
 actor

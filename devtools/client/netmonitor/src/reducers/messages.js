@@ -284,7 +284,7 @@ requests
 (
 key
 =
-resourceId
+channelId
 value
 =
 array
@@ -376,7 +376,7 @@ selected
 set
 the
 current
-resourceId
+channelId
 affiliated
 with
 the
@@ -407,7 +407,7 @@ const
 {
 id
 cause
-resourceId
+channelId
 isEventStream
 }
 =
@@ -512,7 +512,7 @@ columnsKey
 }
 currentChannelId
 :
-resourceId
+channelId
 currentChannelType
 currentRequestId
 :
