@@ -45561,6 +45561,8 @@ uint32_t
 aLoadType
 int32_t
 aChildOffset
+uint32_t
+aUpdatedCacheKey
 const
 nsID
 &
@@ -45591,6 +45593,7 @@ aPreviousScrollPos
 aInfo
 aLoadType
 aChildOffset
+aUpdatedCacheKey
 aChangeID
 )
 ;
