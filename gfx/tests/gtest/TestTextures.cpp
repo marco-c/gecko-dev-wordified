@@ -2217,6 +2217,11 @@ CreateForYCbCr
 imageBridge
 clientData
 .
+GetPictureRect
+(
+)
+clientData
+.
 mYSize
 clientData
 .
