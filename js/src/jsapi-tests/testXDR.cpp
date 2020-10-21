@@ -184,6 +184,21 @@ include
 "
 js
 /
+CompileOptions
+.
+h
+"
+/
+/
+JS
+:
+:
+CompileOptions
+#
+include
+"
+js
+/
 SourceText
 .
 h
@@ -285,6 +300,12 @@ cx
 JS
 :
 :
+CompileOptions
+&
+options
+JS
+:
+:
 HandleScript
 script
 )
@@ -359,6 +380,7 @@ JS
 DecodeScript
 (
 cx
+options
 buffer
 &
 script2
@@ -582,6 +604,7 @@ script
 FreezeThaw
 (
 cx
+options
 script
 )
 ;
@@ -772,6 +795,7 @@ script
 FreezeThaw
 (
 cx
+options
 script
 )
 ;
@@ -1264,6 +1288,7 @@ script
 FreezeThaw
 (
 cx
+options
 script
 )
 ;
@@ -1534,6 +1559,7 @@ script
 FreezeThaw
 (
 cx
+options
 script
 )
 ;

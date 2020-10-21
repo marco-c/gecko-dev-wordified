@@ -34169,6 +34169,10 @@ DecodeScript
 JSContext
 *
 cx
+const
+ReadOnlyCompileOptions
+&
+options
 TranscodeBuffer
 &
 buffer
@@ -34446,6 +34450,7 @@ JS
 DecodeScript
 (
 cx
+options
 buffer
 scriptp
 cursorIndex
@@ -34582,6 +34587,10 @@ DecodeScript
 JSContext
 *
 cx
+const
+ReadOnlyCompileOptions
+&
+options
 const
 TranscodeRange
 &
@@ -34750,6 +34759,7 @@ JS
 DecodeScript
 (
 cx
+options
 buffer
 scriptp
 cursorIndex

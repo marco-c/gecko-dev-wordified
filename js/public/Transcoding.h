@@ -408,6 +408,10 @@ DecodeScript
 JSContext
 *
 cx
+const
+ReadOnlyCompileOptions
+&
+options
 TranscodeBuffer
 &
 buffer
@@ -431,6 +435,10 @@ DecodeScript
 JSContext
 *
 cx
+const
+ReadOnlyCompileOptions
+&
+options
 const
 TranscodeRange
 &
