@@ -388,6 +388,13 @@ RemotePrintJobChild
 :
 ProcessPage
 (
+nsTArray
+<
+uint64_t
+>
+&
+&
+aDeps
 )
 {
 MOZ_ASSERT
@@ -413,6 +420,13 @@ Unused
 <
 SendProcessPage
 (
+std
+:
+:
+move
+(
+aDeps
+)
 )
 ;
 }
