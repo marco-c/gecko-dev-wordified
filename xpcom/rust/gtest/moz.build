@@ -99,6 +99,13 @@ Bench
 cpp
 '
 '
+moz_task
+/
+Test
+.
+cpp
+'
+'
 nsstring
 /
 Test
