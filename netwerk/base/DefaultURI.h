@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsIClassInfo
-.
-h
-"
-#
-include
-"
 nsISizeOf
 .
 h
@@ -122,8 +115,6 @@ nsIURI
 public
 nsISerializable
 public
-nsIClassInfo
-public
 nsISizeOf
 {
 public
@@ -131,7 +122,6 @@ public
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIURI
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSICLASSINFO
 virtual
 size_t
 SizeOfExcludingThis
