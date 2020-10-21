@@ -16081,6 +16081,12 @@ BailoutKind
 :
 PackedArrayGuard
 :
+case
+BailoutKind
+:
+:
+HasGetterSetterGuard
+:
 /
 /
 Do

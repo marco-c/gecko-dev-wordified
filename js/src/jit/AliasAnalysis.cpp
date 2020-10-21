@@ -1507,6 +1507,15 @@ MDefinition
 Opcode
 :
 :
+GuardHasGetterSetter
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 AsmJSLoadHeap
 :
 case
