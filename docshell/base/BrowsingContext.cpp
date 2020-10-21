@@ -17010,6 +17010,11 @@ ChildSHistory
 >
 shistory
 =
+Top
+(
+)
+-
+>
 GetChildSessionHistory
 (
 )
