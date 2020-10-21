@@ -1163,6 +1163,15 @@ MesaSoftPipe
 MesaSWRast
 /
 /
+Nouveau
+:
+Open
+-
+source
+nvidia
+MesaNouveau
+/
+/
 A
 generic
 ID

@@ -5783,6 +5783,16 @@ unknown
 ;
 DECLARE_DRIVER_VENDOR_ID
 (
+MesaNouveau
+"
+mesa
+/
+nouveau
+"
+)
+;
+DECLARE_DRIVER_VENDOR_ID
+(
 NonMesaAll
 "
 non
