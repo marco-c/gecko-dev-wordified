@@ -26796,7 +26796,7 @@ isDebuggee
 /
 /
 Ignore
-callback
+generic
 tracers
 .
 /
@@ -26808,7 +26808,7 @@ are
 two
 kinds
 of
-callback
+generic
 tracers
 we
 need
@@ -27260,7 +27260,7 @@ they
 '
 re
 both
-callback
+generic
 tracers
 so
 we
@@ -27312,7 +27312,7 @@ if
 tracer
 -
 >
-isCallbackTracer
+isGenericTracer
 (
 )
 )
