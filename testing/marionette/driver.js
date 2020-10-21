@@ -13303,11 +13303,6 @@ this
 .
 getBrowsingContext
 (
-{
-top
-:
-true
-}
 )
 )
 ;
