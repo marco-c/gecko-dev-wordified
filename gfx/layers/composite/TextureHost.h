@@ -3258,6 +3258,16 @@ UnbindTextureSource
 (
 )
 ;
+virtual
+bool
+IsValid
+(
+)
+{
+return
+true
+;
+}
 /
 *
 *

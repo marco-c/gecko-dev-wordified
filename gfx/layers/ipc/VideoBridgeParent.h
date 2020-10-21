@@ -127,7 +127,7 @@ mozilla
 /
 layers
 /
-PVideoBridgeParent
+ISurfaceAllocator
 .
 h
 "
@@ -138,7 +138,7 @@ mozilla
 /
 layers
 /
-ISurfaceAllocator
+PVideoBridgeParent
 .
 h
 "
@@ -186,6 +186,7 @@ VideoBridgeParent
 *
 GetSingleton
 (
+const
 Maybe
 <
 VideoBridgeSource

@@ -331,6 +331,13 @@ NotifyNotUsed
 )
 override
 ;
+virtual
+bool
+IsValid
+(
+)
+override
+;
 /
 /
 Return

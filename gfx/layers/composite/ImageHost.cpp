@@ -812,6 +812,14 @@ mCurrentTextureSource
 mCurrentTextureHost
 -
 >
+IsValid
+(
+)
+&
+&
+mCurrentTextureHost
+-
+>
 HasIntermediateBuffer
 (
 )
