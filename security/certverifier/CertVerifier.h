@@ -1603,6 +1603,8 @@ DistrustedCAPolicy
 distrustedCAPolicy
 CRLiteMode
 crliteMode
+uint64_t
+crliteCTMergeDelaySeconds
 const
 Vector
 <
@@ -1685,6 +1687,10 @@ mDistrustedCAPolicy
 const
 CRLiteMode
 mCRLiteMode
+;
+const
+uint64_t
+mCRLiteCTMergeDelaySeconds
 ;
 private
 :
