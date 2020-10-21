@@ -4227,7 +4227,7 @@ factory
 .
 *
 /
-createTargetForTab
+createDescriptorForTab
 :
 function
 (
@@ -4237,7 +4237,7 @@ tab
 return
 TargetFactory
 .
-createTargetForTab
+createDescriptorForTab
 (
 tab
 )
