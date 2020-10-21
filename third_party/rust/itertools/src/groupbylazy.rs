@@ -178,8 +178,6 @@ Self
 ChunkIndex
 {
 size
-:
-size
 index
 :
 0
@@ -2766,8 +2764,6 @@ self
 .
 parent
 index
-:
-index
 first
 :
 Some
@@ -3737,8 +3733,6 @@ parent
 self
 .
 parent
-index
-:
 index
 first
 :

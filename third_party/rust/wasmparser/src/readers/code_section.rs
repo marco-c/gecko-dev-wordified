@@ -145,6 +145,7 @@ Type
 derive
 (
 Debug
+Clone
 )
 ]
 pub
@@ -1143,7 +1144,7 @@ assert
 (
 binary_reader
 .
-read_local_count
+read_var_u32
 (
 )
 .
@@ -1593,7 +1594,7 @@ assert
 (
 binary_reader
 .
-read_local_count
+read_var_u32
 (
 )
 .
