@@ -8052,6 +8052,48 @@ runs
 "
 )
     
+parser
+.
+add_argument
+(
+"
+-
+j
+"
+"
+-
+-
+jobs
+"
+type
+=
+int
+default
+=
+0
+                        
+help
+=
+"
+Level
+to
+parallelism
+to
+use
+(
+defaults
+to
+0
+which
+detects
+the
+number
+of
+CPUs
+)
+"
+)
+    
 return
 parser
 def
@@ -8260,6 +8302,18 @@ github_checks_text_file
 ]
 )
     
+jobs
+=
+kwargs
+.
+get
+(
+"
+jobs
+"
+0
+)
+    
 return
 lint
 (
@@ -8268,6 +8322,7 @@ paths
 output_format
 ignore_glob
 github_checks_outputter
+jobs
 )
 #
 best
@@ -8299,6 +8354,9 @@ None
 github_checks_outputter
 =
 None
+jobs
+=
+0
 )
 :
     
@@ -8323,6 +8381,7 @@ Optional
 [
 GitHubChecksOutputter
 ]
+int
 )
 -
 >
@@ -8346,6 +8405,21 @@ int
 last
 =
 None
+    
+if
+jobs
+=
+=
+0
+:
+        
+jobs
+=
+multiprocessing
+.
+cpu_count
+(
+)
     
 with
 io
@@ -8719,6 +8793,10 @@ skip
 ]
     
 if
+jobs
+>
+1
+and
 len
 (
 to_check_content
@@ -8734,6 +8812,7 @@ multiprocessing
 .
 Pool
 (
+jobs
 )
         
 #
