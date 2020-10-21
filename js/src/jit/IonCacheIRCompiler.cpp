@@ -172,6 +172,15 @@ include
 "
 jit
 /
+JitZone
+.
+h
+"
+#
+include
+"
+jit
+/
 JSJitFrameIter
 .
 h

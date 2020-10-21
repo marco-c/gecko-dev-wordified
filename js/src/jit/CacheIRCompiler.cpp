@@ -245,6 +245,15 @@ include
 "
 jit
 /
+JitZone
+.
+h
+"
+#
+include
+"
+jit
+/
 SharedICHelpers
 .
 h

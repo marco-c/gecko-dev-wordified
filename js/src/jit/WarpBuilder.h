@@ -495,6 +495,12 @@ MIRGraph
 class
 WarpSnapshot
 ;
+enum
+class
+CacheKind
+:
+uint8_t
+;
 /
 /
 Data
