@@ -1673,7 +1673,7 @@ aTransform
 )
 ;
 WidgetMouseEvent
-ToWidgetEvent
+ToWidgetMouseEvent
 (
 nsIWidget
 *
@@ -2241,7 +2241,7 @@ IsMomentum
 const
 ;
 WidgetWheelEvent
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 nsIWidget
 *
@@ -2988,7 +2988,7 @@ aTransform
 )
 ;
 WidgetWheelEvent
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 nsIWidget
 *
@@ -3346,7 +3346,7 @@ be
 /
 computed
 by
-ToWidgetEvent
+ToWidgetWheelEvent
 and
 then
 whenever
@@ -3898,7 +3898,7 @@ aDeltaType
 )
 ;
 WidgetWheelEvent
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 nsIWidget
 *

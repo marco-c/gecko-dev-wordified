@@ -1656,7 +1656,7 @@ WidgetMouseEvent
 MouseInput
 :
 :
-ToWidgetEvent
+ToWidgetMouseEvent
 (
 nsIWidget
 *
@@ -2176,7 +2176,7 @@ WidgetWheelEvent
 PanGestureInput
 :
 :
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 nsIWidget
 *
@@ -2815,7 +2815,7 @@ WidgetWheelEvent
 PinchGestureInput
 :
 :
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 nsIWidget
 *
@@ -4328,7 +4328,7 @@ WidgetWheelEvent
 ScrollWheelInput
 :
 :
-ToWidgetEvent
+ToWidgetWheelEvent
 (
 nsIWidget
 *
