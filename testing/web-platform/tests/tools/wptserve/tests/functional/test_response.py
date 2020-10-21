@@ -1813,9 +1813,11 @@ items
 =
 [
 (
+b
 '
 server
 '
+b
 '
 test
 -
@@ -1823,9 +1825,11 @@ h2
 '
 )
 (
+b
 '
 test
 '
+b
 '
 PASS
 '
@@ -2139,9 +2143,11 @@ items
 =
 [
 (
+b
 '
 server
 '
+b
 '
 test
 -
@@ -2149,9 +2155,11 @@ h2
 '
 )
 (
+b
 '
 test
 '
+b
 '
 PASS
 '
@@ -2195,6 +2203,7 @@ push_promise
 path
 =
 =
+b
 '
 /
 push
@@ -2390,6 +2399,7 @@ content
 =
 BytesIO
 (
+b
 "
 Hello
 world
@@ -2472,6 +2482,7 @@ read
 )
 =
 =
+b
 "
 Hello
 world
@@ -2581,6 +2592,7 @@ read
 )
 =
 =
+b
 "
 helloworld
 "
@@ -2728,6 +2740,7 @@ read
 )
 =
 =
+b
 "
 a
 "
@@ -2989,6 +3002,7 @@ server
 ]
 =
 =
+b
 '
 TEST
 -
@@ -3003,6 +3017,7 @@ read
 )
 =
 =
+b
 '
 '
     
@@ -3239,6 +3254,7 @@ _read
 )
 =
 =
+b
 '
 Hello
 world
@@ -3386,6 +3402,7 @@ server
 ]
 =
 =
+b
 '
 TEST
 -
@@ -3400,6 +3417,7 @@ read
 )
 =
 =
+b
 '
 '
 if
