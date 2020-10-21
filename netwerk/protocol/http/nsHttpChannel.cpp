@@ -3880,7 +3880,7 @@ if
 StoragePrincipalHelper
 :
 :
-GetOriginAttributesForNetworkState
+GetOriginAttributesForHSTS
 (
 this
 originAttributes
