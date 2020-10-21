@@ -266,7 +266,7 @@ http
 /
 a
 "
-type
+targetType
 :
 "
 worker
@@ -520,7 +520,7 @@ http
 /
 a
 "
-type
+targetType
 :
 "
 worker

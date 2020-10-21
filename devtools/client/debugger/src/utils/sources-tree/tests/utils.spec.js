@@ -1773,7 +1773,7 @@ example
 com
 /
 "
-type
+targetType
 :
 "
 worker
@@ -1805,7 +1805,7 @@ example
 com
 /
 "
-type
+targetType
 :
 "
 worker
