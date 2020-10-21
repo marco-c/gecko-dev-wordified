@@ -172,7 +172,11 @@ aStyle
 const
 EventStates
 &
-aState
+aElementState
+const
+EventStates
+&
+aDocumentState
 )
 override
 ;
@@ -193,7 +197,11 @@ aStyle
 const
 EventStates
 &
-aState
+aElementState
+const
+EventStates
+&
+aDocumentState
 )
 override
 ;
@@ -211,6 +219,10 @@ const
 ComputedStyle
 &
 aStyle
+const
+EventStates
+&
+aDocumentState
 bool
 aIsRoot
 )
@@ -230,6 +242,10 @@ const
 ComputedStyle
 &
 aStyle
+const
+EventStates
+&
+aDocumentState
 uint32_t
 aDpiRatio
 bool
