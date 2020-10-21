@@ -8159,6 +8159,9 @@ input
 :
 &
 str
+origin
+:
+Origin
 url_data
 :
 &
@@ -8199,10 +8202,7 @@ ParserContext
 :
 new
 (
-Origin
-:
-:
-Author
+origin
 url_data
 Some
 (
