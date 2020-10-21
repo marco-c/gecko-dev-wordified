@@ -418,7 +418,7 @@ GCThingIndex
 js
 :
 :
-RuntimeScriptData
+SharedImmutableScriptData
 #
 include
 "
@@ -2922,7 +2922,7 @@ RefPtr
 js
 :
 :
-RuntimeScriptData
+SharedImmutableScriptData
 >
 sharedData
 =
