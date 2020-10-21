@@ -10539,6 +10539,10 @@ fonts
 :
 usize
 pub
+weak_fonts
+:
+usize
+pub
 images
 :
 usize
