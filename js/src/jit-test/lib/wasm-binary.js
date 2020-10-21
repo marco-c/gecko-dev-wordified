@@ -249,6 +249,11 @@ ExternRefCode
 0x6f
 ;
 const
+EqRefCode
+=
+0x6d
+;
+const
 OptRefCode
 =
 0x6c

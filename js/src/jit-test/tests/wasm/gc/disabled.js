@@ -83,7 +83,7 @@ drop
 ref
 .
 null
-any
+eq
 )
 )
 )
@@ -97,7 +97,7 @@ func
 test
 (
 local
-anyref
+eqref
 )
 )
 )
@@ -110,7 +110,7 @@ func
 test
 (
 param
-anyref
+eqref
 )
 )
 )
@@ -123,13 +123,13 @@ func
 test
 (
 result
-anyref
+eqref
 )
 (
 ref
 .
 null
-any
+eq
 )
 )
 )
@@ -144,7 +144,7 @@ test
 block
 (
 result
-anyref
+eqref
 )
 (
 unreachable
@@ -166,7 +166,7 @@ i32
 )
 (
 local
-anyref
+eqref
 )
 (
 ref
@@ -196,7 +196,7 @@ b
 func
 (
 param
-anyref
+eqref
 )
 )
 )
@@ -215,7 +215,7 @@ b
 func
 (
 result
-anyref
+eqref
 )
 )
 )

@@ -213,7 +213,7 @@ i64
 field
 (
 mut
-externref
+eqref
 )
 )
 )
@@ -351,7 +351,7 @@ const
 ref
 .
 null
-extern
+eq
 )
 )
 (

@@ -306,7 +306,7 @@ externref
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -471,7 +471,7 @@ params
 }
 (
 result
-externref
+eqref
 )
 (
 struct

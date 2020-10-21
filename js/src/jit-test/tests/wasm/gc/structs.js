@@ -432,7 +432,7 @@ mk_point
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -471,7 +471,7 @@ externref
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -779,7 +779,7 @@ mk_bigger
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -1162,7 +1162,7 @@ i32
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -1547,7 +1547,7 @@ i32
 )
 (
 result
-externref
+eqref
 )
 (
 local
@@ -1814,7 +1814,7 @@ set
 )
 (
 param
-externref
+eqref
 )
 (
 local
@@ -1833,7 +1833,7 @@ set
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null
@@ -1878,7 +1878,7 @@ set2
 (
 param
 p
-externref
+eqref
 )
 (
 struct
@@ -1890,7 +1890,7 @@ big
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null
@@ -1922,7 +1922,7 @@ low
 (
 param
 p
-externref
+eqref
 )
 (
 result
@@ -1944,7 +1944,7 @@ big
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null
@@ -1971,7 +1971,7 @@ high
 (
 param
 p
-externref
+eqref
 )
 (
 result
@@ -1997,7 +1997,7 @@ big
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null
@@ -2030,7 +2030,7 @@ mk
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -2278,7 +2278,7 @@ make
 )
 (
 result
-externref
+eqref
 )
 (
 global
@@ -3093,9 +3093,10 @@ wrapped
 object
 cannot
 be
-unboxed
-from
-externref
+passed
+as
+an
+eqref
 even
 if
 the
@@ -3158,7 +3159,7 @@ mk
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -3184,17 +3185,17 @@ f
 (
 param
 n
-externref
+eqref
 )
 (
 result
-externref
+eqref
 )
 (
 struct
 .
 narrow
-externref
+eqref
 (
 ref
 null
@@ -3233,8 +3234,12 @@ n
 n
 )
 ;
-assertEq
+assertErrorMessage
 (
+(
+)
+=
+>
 ins
 .
 f
@@ -3246,7 +3251,14 @@ n
 }
 )
 )
-null
+TypeError
+/
+can
+only
+pass
+a
+TypedObject
+/
 )
 ;
 }
@@ -3597,7 +3609,7 @@ f64
 )
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -3667,7 +3679,7 @@ func
 f
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -3742,7 +3754,7 @@ func
 f
 (
 result
-externref
+eqref
 )
 (
 i32
@@ -3820,7 +3832,7 @@ func
 f
 (
 result
-externref
+eqref
 )
 (
 struct
@@ -4292,7 +4304,7 @@ make
 )
 (
 result
-externref
+eqref
 )
 (
 struct

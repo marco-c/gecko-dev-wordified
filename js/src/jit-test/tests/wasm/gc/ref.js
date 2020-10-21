@@ -94,7 +94,7 @@ odd
 ;
 ;
 Use
-externref
+eqref
 on
 the
 API
@@ -122,11 +122,11 @@ func
 imp
 (
 param
-externref
+eqref
 )
 (
 result
-externref
+eqref
 )
 )
 )
@@ -585,7 +585,7 @@ get
 Automatic
 upcast
 to
-externref
+eqref
 new
 WebAssembly
 .
@@ -633,7 +633,7 @@ func
 g
 (
 param
-externref
+eqref
 )
 (
 unreachable
@@ -1642,7 +1642,7 @@ No
 automatic
 downcast
 from
-externref
+eqref
 assertErrorMessage
 (
 (
@@ -1669,7 +1669,7 @@ func
 f
 (
 param
-externref
+eqref
 )
 (
 call
@@ -1706,7 +1706,7 @@ CompileError
 expression
 has
 type
-externref
+eqref
 but
 expected
 \

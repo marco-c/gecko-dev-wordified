@@ -124,7 +124,7 @@ of
 Ref
 type
 .
-ExternRef
+EqRef
 is
 OK
 though
@@ -353,7 +353,7 @@ and
 globals
 that
 use
-externref
+eqref
 and
 by
 using
@@ -443,7 +443,7 @@ ref
 type
 parameter
 but
-externref
+eqref
 is
 OK
 .
@@ -520,7 +520,7 @@ f
 )
 (
 param
-externref
+eqref
 )
 (
 unreachable
@@ -544,7 +544,7 @@ return
 ref
 result
 but
-externref
+eqref
 is
 OK
 .
@@ -624,13 +624,13 @@ f
 )
 (
 result
-externref
+eqref
 )
 (
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -651,7 +651,7 @@ take
 ref
 parameter
 but
-externref
+eqref
 is
 OK
 .
@@ -730,7 +730,7 @@ f
 func
 (
 param
-externref
+eqref
 )
 )
 )
@@ -752,7 +752,7 @@ return
 ref
 type
 but
-externref
+eqref
 is
 OK
 .
@@ -839,7 +839,7 @@ i32
 )
 (
 result
-externref
+eqref
 )
 )
 )
@@ -867,7 +867,7 @@ of
 mutability
 )
 though
-externref
+eqref
 is
 OK
 .
@@ -999,7 +999,7 @@ g
 global
 (
 mut
-externref
+eqref
 )
 )
 )
@@ -1027,7 +1027,7 @@ g
 "
 (
 global
-externref
+eqref
 )
 )
 )
@@ -1054,7 +1054,7 @@ of
 mutability
 )
 though
-externref
+eqref
 is
 OK
 .
@@ -1193,13 +1193,13 @@ box
 )
 (
 mut
-externref
+eqref
 )
 (
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -1225,12 +1225,12 @@ export
 box
 "
 )
-externref
+eqref
 (
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -1253,7 +1253,7 @@ exposed
 for
 Ref
 but
-externref
+eqref
 is
 OK
 .
@@ -1437,7 +1437,7 @@ func
 f1
 (
 param
-externref
+eqref
 )
 (
 unreachable
@@ -1483,13 +1483,13 @@ func
 f1
 (
 result
-externref
+eqref
 )
 (
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -1512,7 +1512,7 @@ exposed
 for
 Ref
 though
-externref
+eqref
 is
 OK
 .
@@ -1705,7 +1705,7 @@ func
 f1
 (
 param
-externref
+eqref
 )
 (
 unreachable
@@ -1754,13 +1754,13 @@ func
 f1
 (
 result
-externref
+eqref
 )
 (
 ref
 .
 null
-extern
+eq
 )
 )
 )
@@ -1787,7 +1787,7 @@ exposed
 for
 Ref
 though
-externref
+eqref
 is
 OK
 .
@@ -1983,7 +1983,7 @@ fn
 func
 (
 param
-externref
+eqref
 )
 )
 )
@@ -2014,7 +2014,7 @@ fn
 ref
 .
 null
-extern
+eq
 )
 (
 local
@@ -2045,7 +2045,7 @@ fn
 func
 (
 result
-externref
+eqref
 )
 )
 )
@@ -2068,7 +2068,7 @@ i32
 )
 (
 result
-externref
+eqref
 )
 (
 call_indirect
@@ -2108,7 +2108,7 @@ exposed
 for
 Ref
 though
-externref
+eqref
 is
 OK
 .
@@ -2310,7 +2310,7 @@ fn
 func
 (
 param
-externref
+eqref
 )
 )
 )
@@ -2344,7 +2344,7 @@ fn
 ref
 .
 null
-extern
+eq
 )
 (
 local
@@ -2375,7 +2375,7 @@ fn
 func
 (
 result
-externref
+eqref
 )
 )
 )
@@ -2401,7 +2401,7 @@ i32
 )
 (
 result
-externref
+eqref
 )
 (
 call_indirect
