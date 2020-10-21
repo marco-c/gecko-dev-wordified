@@ -194,17 +194,6 @@ struct
 AHardwareBuffer
 ;
 }
-class
-nsIGfxInfo
-;
-template
-<
-typename
-T
->
-class
-nsCOMPtr
-;
 namespace
 angle
 {
