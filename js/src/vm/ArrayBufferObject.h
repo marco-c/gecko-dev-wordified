@@ -139,7 +139,7 @@ include
 "
 builtin
 /
-TypedArrayConstants
+TypedObjectConstants
 .
 h
 "
@@ -522,7 +522,7 @@ TypedObject
 (
 declared
 in
-wasm
+builtin
 /
 TypedObject
 .

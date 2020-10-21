@@ -152,6 +152,15 @@ h
 #
 include
 "
+builtin
+/
+TypedObject
+.
+h
+"
+#
+include
+"
 jit
 /
 Ion

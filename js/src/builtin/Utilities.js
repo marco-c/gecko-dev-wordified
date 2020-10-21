@@ -63,6 +63,13 @@ SelfHostingDefines
 .
 h
 "
+#
+include
+"
+TypedObjectConstants
+.
+h
+"
 /
 /
 Assertions

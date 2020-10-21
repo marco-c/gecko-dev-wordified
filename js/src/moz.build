@@ -2655,6 +2655,13 @@ cpp
 '
 builtin
 /
+TypedObject
+.
+cpp
+'
+'
+builtin
+/
 WeakMapObject
 .
 cpp
@@ -4137,7 +4144,7 @@ msg
 '
 builtin
 /
-TypedArrayConstants
+TypedObjectConstants
 .
 h
 '
@@ -4317,6 +4324,13 @@ js
 builtin
 /
 TypedArray
+.
+js
+'
+'
+builtin
+/
+TypedObject
 .
 js
 '
