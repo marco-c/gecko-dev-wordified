@@ -9374,6 +9374,15 @@ in
 UA
 widgets
 .
+/
+/
+Only
+nsIContent
+can
+fulfill
+this
+condition
+.
 bool
 ChromeOnlyAccess
 (
