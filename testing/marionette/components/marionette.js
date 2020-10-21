@@ -283,7 +283,7 @@ const
 NOTIFY_LISTENING
 =
 "
-remote
+marionette
 -
 listening
 "
