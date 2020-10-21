@@ -3754,8 +3754,6 @@ valid_rect
 :
 tile
 .
-current_descriptor
-.
 device_valid_rect
 .
 translate
