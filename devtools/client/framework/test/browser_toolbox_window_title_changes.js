@@ -793,9 +793,11 @@ expectedTitle
 =
 Developer
 Tools
+-
 {
 name
 }
+-
 {
 url
 }
@@ -807,6 +809,7 @@ expectedTitle
 =
 Developer
 Tools
+-
 {
 url
 }
