@@ -4597,7 +4597,17 @@ MOZ_ASSERT
 aActor
 )
 ;
-delete
+RefPtr
+<
+dom
+:
+:
+GamepadTestChannelChild
+>
+child
+(
+dont_AddRef
+(
 static_cast
 <
 dom
@@ -4608,6 +4618,8 @@ GamepadTestChannelChild
 >
 (
 aActor
+)
+)
 )
 ;
 return
