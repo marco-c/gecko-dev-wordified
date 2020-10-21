@@ -1080,13 +1080,6 @@ GMPServiceParent
 >
 mServiceParents
 ;
-const
-nsCOMPtr
-<
-nsISerialEventTarget
->
-mMainThread
-;
 }
 ;
 nsresult
