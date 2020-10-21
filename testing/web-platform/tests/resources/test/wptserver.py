@@ -226,6 +226,25 @@ serve
 '
 ]
         
+if
+sys
+.
+executable
+:
+            
+wptserve_cmd
+[
+0
+:
+0
+]
+=
+[
+sys
+.
+executable
+]
+        
 logging
 .
 info
