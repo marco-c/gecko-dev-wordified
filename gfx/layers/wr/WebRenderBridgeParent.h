@@ -803,11 +803,6 @@ UpdateBatchingParameters
 (
 )
 ;
-void
-UpdateProfilerUI
-(
-)
-;
 mozilla
 :
 :
