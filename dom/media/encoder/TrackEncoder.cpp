@@ -877,7 +877,7 @@ GetDuration
 )
 >
 =
-GetPacketDuration
+NumInputFramesPerPacket
 (
 )
 )
