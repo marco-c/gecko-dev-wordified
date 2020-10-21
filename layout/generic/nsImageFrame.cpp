@@ -12288,7 +12288,7 @@ currentRatio
 =
 aFrame
 .
-GetComputedIntrinsicRatio
+GetIntrinsicRatio
 (
 )
 ;
