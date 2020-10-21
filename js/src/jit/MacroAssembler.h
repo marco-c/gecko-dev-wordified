@@ -15465,6 +15465,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -15480,6 +15481,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15496,6 +15498,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -15513,6 +15516,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15527,6 +15531,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15541,6 +15546,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15555,6 +15561,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15570,6 +15577,7 @@ DEFINED_ON
 (
 x86
 x64
+arm64
 )
 ;
 inline
@@ -15584,6 +15592,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -15615,6 +15624,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15631,6 +15641,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15647,6 +15658,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15663,6 +15675,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15679,6 +15692,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15696,6 +15710,7 @@ DEFINED_ON
 (
 x86
 x64
+arm64
 )
 ;
 inline
@@ -15712,6 +15727,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15728,6 +15744,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -15749,6 +15766,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15765,6 +15783,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15781,6 +15800,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15798,6 +15818,7 @@ DEFINED_ON
 (
 x86
 x64
+arm64
 )
 ;
 inline
@@ -15814,6 +15835,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -15830,6 +15852,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -15886,6 +15909,26 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+shuffleInt8x16
+(
+const
+uint8_t
+lanes
+[
+16
+]
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 /
@@ -16294,6 +16337,20 @@ DEFINED_ON
 x86_shared
 )
 ;
+inline
+void
+swizzleInt8x16
+(
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
+)
+;
 /
 /
 Integer
@@ -16310,6 +16367,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16324,6 +16382,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16338,6 +16397,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16352,6 +16412,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16370,6 +16431,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16384,6 +16446,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16398,6 +16461,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16412,6 +16476,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16430,6 +16495,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16444,6 +16510,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16478,6 +16545,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16492,6 +16560,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16506,6 +16575,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16520,6 +16590,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16539,6 +16610,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16553,6 +16625,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16567,6 +16640,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16581,6 +16655,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16600,6 +16675,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16614,6 +16690,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16628,6 +16705,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16642,6 +16720,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16663,6 +16742,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16677,6 +16757,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16691,6 +16772,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16705,6 +16787,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16719,6 +16802,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16733,6 +16817,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16754,6 +16839,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16768,6 +16854,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16782,6 +16869,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16796,6 +16884,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16810,6 +16899,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16824,6 +16914,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16846,6 +16937,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16860,6 +16952,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16882,6 +16975,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16896,6 +16990,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -16910,6 +17005,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -16962,6 +17058,20 @@ inline
 void
 leftShiftInt8x16
 (
+Register
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
+leftShiftInt8x16
+(
 Imm32
 count
 FloatRegister
@@ -16988,6 +17098,20 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+leftShiftInt16x8
+(
+Register
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17020,6 +17144,20 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+leftShiftInt32x4
+(
+Register
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17052,6 +17190,20 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+leftShiftInt64x2
+(
+Register
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17120,6 +17272,22 @@ inline
 void
 rightShiftInt8x16
 (
+Register
+rhs
+FloatRegister
+lhsDest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
+rightShiftInt8x16
+(
 Imm32
 count
 FloatRegister
@@ -17156,6 +17324,22 @@ inline
 void
 unsignedRightShiftInt8x16
 (
+Register
+rhs
+FloatRegister
+lhsDest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
+unsignedRightShiftInt8x16
+(
 Imm32
 count
 FloatRegister
@@ -17182,6 +17366,22 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+rightShiftInt16x8
+(
+Register
+rhs
+FloatRegister
+lhsDest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17214,6 +17414,22 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+unsignedRightShiftInt16x8
+(
+Register
+rhs
+FloatRegister
+lhsDest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17246,6 +17462,22 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+rightShiftInt32x4
+(
+Register
+rhs
+FloatRegister
+lhsDest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17278,6 +17510,22 @@ temp
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+unsignedRightShiftInt32x4
+(
+Register
+rhs
+FloatRegister
+lhsDest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 inline
@@ -17377,6 +17625,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17408,6 +17657,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17422,6 +17672,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17436,6 +17687,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -17463,6 +17715,7 @@ wants
 but
 what
 the
+x86
 hardware
 offers
 .
@@ -17482,6 +17735,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -17508,6 +17762,22 @@ DEFINED_ON
 x86_shared
 )
 ;
+inline
+void
+bitwiseSelectSimd128
+(
+FloatRegister
+onTrue
+FloatRegister
+onFalse
+FloatRegister
+maskDest
+)
+DEFINED_ON
+(
+arm64
+)
+;
 /
 /
 Any
@@ -17530,6 +17800,7 @@ DEFINED_ON
 (
 x86
 x64
+arm64
 )
 ;
 /
@@ -17549,6 +17820,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17563,6 +17835,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17577,6 +17850,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -17607,7 +17881,53 @@ x86_shared
 ;
 inline
 void
+bitmaskInt8x16
+(
+FloatRegister
+src
+Register
+dest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
 bitmaskInt16x8
+(
+FloatRegister
+src
+Register
+dest
+)
+DEFINED_ON
+(
+x86_shared
+)
+;
+inline
+void
+bitmaskInt16x8
+(
+FloatRegister
+src
+Register
+dest
+FloatRegister
+temp
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
+bitmaskInt32x4
 (
 FloatRegister
 src
@@ -17627,10 +17947,12 @@ FloatRegister
 src
 Register
 dest
+FloatRegister
+temp
 )
 DEFINED_ON
 (
-x86_shared
+arm64
 )
 ;
 /
@@ -17660,6 +17982,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17702,6 +18025,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17744,6 +18068,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17786,6 +18111,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17805,6 +18131,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -17840,6 +18167,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17875,6 +18203,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17910,6 +18239,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17924,6 +18254,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -17944,6 +18275,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -17958,6 +18290,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -17986,6 +18319,20 @@ x86_shared
 ;
 inline
 void
+minFloat32x4
+(
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
 minFloat64x2
 (
 FloatRegister
@@ -18000,6 +18347,20 @@ temp2
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+minFloat64x2
+(
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 /
@@ -18028,6 +18389,20 @@ x86_shared
 ;
 inline
 void
+maxFloat32x4
+(
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
+)
+;
+inline
+void
 maxFloat64x2
 (
 FloatRegister
@@ -18042,6 +18417,20 @@ temp2
 DEFINED_ON
 (
 x86_shared
+)
+;
+inline
+void
+maxFloat64x2
+(
+FloatRegister
+rhs
+FloatRegister
+lhsDest
+)
+DEFINED_ON
+(
+arm64
 )
 ;
 /
@@ -18060,6 +18449,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18074,6 +18464,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18092,6 +18483,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18106,6 +18498,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18124,6 +18517,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18138,6 +18532,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18156,6 +18551,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18170,6 +18566,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18189,6 +18586,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18203,6 +18601,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18225,6 +18624,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18239,6 +18639,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18261,6 +18662,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18277,6 +18679,7 @@ temp
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18297,6 +18700,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18311,6 +18715,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18325,6 +18730,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18339,6 +18745,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18359,6 +18766,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18373,6 +18781,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18387,6 +18796,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18401,6 +18811,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18415,6 +18826,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18429,6 +18841,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18443,6 +18856,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18457,6 +18871,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18471,6 +18886,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18485,6 +18901,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18531,6 +18948,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18545,6 +18963,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18559,6 +18978,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18573,6 +18993,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18619,6 +19040,7 @@ lhsDest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 /
@@ -18662,6 +19084,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18676,6 +19099,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18690,6 +19114,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18704,6 +19129,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18718,6 +19144,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18732,6 +19159,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18746,6 +19174,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 inline
@@ -18760,6 +19189,7 @@ dest
 DEFINED_ON
 (
 x86_shared
+arm64
 )
 ;
 public
