@@ -448,7 +448,11 @@ const
 ;
 Maybe
 <
+Tuple
+<
 nsCString
+bool
+>
 >
 GetAlpn
 (
@@ -559,7 +563,11 @@ uint16_t
 aPort
 Maybe
 <
+Tuple
+<
 nsCString
+bool
+>
 >
 &
 &
@@ -613,7 +621,11 @@ mPort
 ;
 Maybe
 <
+Tuple
+<
 nsCString
+bool
+>
 >
 mAlpn
 ;
