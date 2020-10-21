@@ -84502,12 +84502,12 @@ AddFrameTypeInfo
 LayoutFrameType
 :
 :
-Root
+XULRoot
 "
-root
+xulroot
 "
 "
-root
+xulroot
 "
 )
 ;

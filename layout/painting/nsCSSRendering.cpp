@@ -8493,7 +8493,7 @@ frameType
 LayoutFrameType
 :
 :
-Root
+XULRoot
 |
 |
 frameType

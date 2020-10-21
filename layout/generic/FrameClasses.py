@@ -954,7 +954,7 @@ Frame
 nsRootBoxFrame
 "
 "
-Root
+XULRoot
 "
 NOT_LEAF
 )
