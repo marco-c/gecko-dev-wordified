@@ -241,7 +241,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 ;

@@ -220,7 +220,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 ;

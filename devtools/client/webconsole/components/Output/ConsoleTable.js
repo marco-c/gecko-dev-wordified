@@ -152,7 +152,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 .

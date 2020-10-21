@@ -182,7 +182,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 ;

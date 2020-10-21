@@ -426,7 +426,7 @@ components
 /
 reps
 /
-reps
+index
 "
 )
 .
