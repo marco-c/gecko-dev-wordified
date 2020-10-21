@@ -124,6 +124,13 @@ h
 #
 include
 "
+InternalResponse
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ErrorResult

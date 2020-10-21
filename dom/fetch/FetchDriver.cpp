@@ -155,6 +155,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h

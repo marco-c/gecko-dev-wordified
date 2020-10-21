@@ -156,6 +156,13 @@ nsIAsyncOutputStream
 .
 h
 "
+#
+include
+"
+nsIGlobalObject
+.
+h
+"
 namespace
 mozilla
 {
