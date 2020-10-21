@@ -133,13 +133,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
@@ -178,6 +171,15 @@ mozilla
 layers
 /
 CompositorThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ToString
 .
 h
 "
@@ -304,12 +306,6 @@ mozilla
 namespace
 wr
 {
-using
-layers
-:
-:
-Stringify
-;
 MOZ_DEFINE_MALLOC_SIZE_OF
 (
 WebRenderMallocSizeOf
@@ -5521,7 +5517,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -5531,7 +5527,7 @@ c_str
 )
 transform
 ?
-Stringify
+ToString
 (
 *
 transform
@@ -5894,7 +5890,7 @@ clipId
 id
 aParent
 ?
-Stringify
+ToString
 (
 aParent
 -
@@ -5913,7 +5909,7 @@ c_str
 nil
 )
 "
-Stringify
+ToString
 (
 aClipRect
 )
@@ -6161,7 +6157,7 @@ mWrState
 spatialId
 .
 id
-Stringify
+ToString
 (
 aContentRect
 )
@@ -6171,7 +6167,7 @@ c_str
 )
 aTopMargin
 ?
-Stringify
+ToString
 (
 *
 aTopMargin
@@ -6186,7 +6182,7 @@ none
 "
 aRightMargin
 ?
-Stringify
+ToString
 (
 *
 aRightMargin
@@ -6201,7 +6197,7 @@ none
 "
 aBottomMargin
 ?
-Stringify
+ToString
 (
 *
 aBottomMargin
@@ -6216,7 +6212,7 @@ none
 "
 aLeftMargin
 ?
-Stringify
+ToString
 (
 *
 aLeftMargin
@@ -6229,7 +6225,7 @@ c_str
 "
 none
 "
-Stringify
+ToString
 (
 aVerticalBounds
 )
@@ -6237,7 +6233,7 @@ aVerticalBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 aHorizontalBounds
 )
@@ -6245,7 +6241,7 @@ aHorizontalBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 aAppliedOffset
 )
@@ -6538,7 +6534,7 @@ space
 id
 aParent
 ?
-Stringify
+ToString
 (
 aParent
 -
@@ -6557,7 +6553,7 @@ c_str
 nil
 )
 "
-Stringify
+ToString
 (
 aContentRect
 )
@@ -6565,7 +6561,7 @@ aContentRect
 c_str
 (
 )
-Stringify
+ToString
 (
 aClipRect
 )
@@ -6648,7 +6644,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -6656,7 +6652,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -6664,7 +6660,7 @@ clip
 c_str
 (
 )
-Stringify
+ToString
 (
 aColor
 )
@@ -6748,7 +6744,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -6756,7 +6752,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -6764,7 +6760,7 @@ clip
 c_str
 (
 )
-Stringify
+ToString
 (
 aColor
 )
@@ -7024,7 +7020,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -7032,7 +7028,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -7175,7 +7171,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -7183,7 +7179,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -7191,7 +7187,7 @@ clip
 c_str
 (
 )
-Stringify
+ToString
 (
 aColor
 )
@@ -7256,7 +7252,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -7264,7 +7260,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -7333,7 +7329,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -7341,7 +7337,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -7585,7 +7581,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -7593,7 +7589,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -8027,7 +8023,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -8035,7 +8031,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -8154,7 +8150,7 @@ s
 n
 "
 mWrState
-Stringify
+ToString
 (
 aBounds
 )
@@ -8162,7 +8158,7 @@ aBounds
 c_str
 (
 )
-Stringify
+ToString
 (
 clip
 )
@@ -8170,7 +8166,7 @@ clip
 c_str
 (
 )
-Stringify
+ToString
 (
 aStretchSize
 )
@@ -8178,7 +8174,7 @@ aStretchSize
 c_str
 (
 )
-Stringify
+ToString
 (
 aTileSpacing
 )
