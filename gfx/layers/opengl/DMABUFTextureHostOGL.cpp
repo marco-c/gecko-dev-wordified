@@ -139,7 +139,7 @@ mozilla
 /
 webrender
 /
-RenderDMABUFTextureHostOGL
+RenderDMABUFTextureHost
 .
 h
 "
@@ -779,7 +779,7 @@ new
 wr
 :
 :
-RenderDMABUFTextureHostOGL
+RenderDMABUFTextureHost
 (
 mSurface
 )

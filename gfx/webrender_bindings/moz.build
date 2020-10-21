@@ -180,11 +180,6 @@ RenderTextureHost
 h
 '
 '
-RenderTextureHostOGL
-.
-h
-'
-'
 RenderTextureHostSWGL
 .
 h
@@ -290,11 +285,6 @@ RenderTextureHost
 cpp
 '
 '
-RenderTextureHostOGL
-.
-cpp
-'
-'
 RenderTextureHostSWGL
 .
 cpp
@@ -347,7 +337,7 @@ RenderCompositorNative
 h
 '
 '
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 .
 h
 '
@@ -367,7 +357,7 @@ RenderCompositorNative
 cpp
 '
 '
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 .
 cpp
 '
@@ -404,7 +394,7 @@ RenderAndroidHardwareBufferTextureHost
 h
 '
 '
-RenderAndroidSurfaceTextureHostOGL
+RenderAndroidSurfaceTextureHost
 .
 h
 '
@@ -419,7 +409,7 @@ RenderAndroidHardwareBufferTextureHost
 cpp
 '
 '
-RenderAndroidSurfaceTextureHostOGL
+RenderAndroidSurfaceTextureHost
 .
 cpp
 '
@@ -459,7 +449,7 @@ RenderCompositorANGLE
 h
 '
 '
-RenderD3D11TextureHostOGL
+RenderD3D11TextureHost
 .
 h
 '
@@ -469,7 +459,7 @@ UNIFIED_SOURCES
 =
 [
 '
-RenderD3D11TextureHostOGL
+RenderD3D11TextureHost
 .
 cpp
 '
@@ -506,7 +496,7 @@ webrender
 =
 [
 '
-RenderDMABUFTextureHostOGL
+RenderDMABUFTextureHost
 .
 h
 '
@@ -516,7 +506,7 @@ SOURCES
 =
 [
 '
-RenderDMABUFTextureHostOGL
+RenderDMABUFTextureHost
 .
 cpp
 '

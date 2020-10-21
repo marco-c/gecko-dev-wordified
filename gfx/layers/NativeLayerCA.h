@@ -205,7 +205,7 @@ namespace
 wr
 {
 class
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 ;
 }
 /
@@ -2943,7 +2943,7 @@ RefPtr
 wr
 :
 :
-RenderMacIOSurfaceTextureHostOGL
+RenderMacIOSurfaceTextureHost
 >
 mTextureHost
 ;

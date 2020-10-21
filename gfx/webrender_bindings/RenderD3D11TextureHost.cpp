@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-RenderD3D11TextureHostOGL
+RenderD3D11TextureHost
 .
 h
 "
@@ -175,10 +175,10 @@ mozilla
 namespace
 wr
 {
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 (
 WindowsHandle
 aHandle
@@ -243,8 +243,8 @@ false
 {
 MOZ_COUNT_CTOR_INHERITED
 (
-RenderDXGITextureHostOGL
-RenderTextureHostOGL
+RenderDXGITextureHost
+RenderTextureHost
 )
 ;
 MOZ_ASSERT
@@ -315,18 +315,18 @@ aHandle
 )
 ;
 }
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 ~
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 (
 )
 {
 MOZ_COUNT_DTOR_INHERITED
 (
-RenderDXGITextureHostOGL
-RenderTextureHostOGL
+RenderDXGITextureHost
+RenderTextureHost
 )
 ;
 DeleteTextureHandle
@@ -336,7 +336,7 @@ DeleteTextureHandle
 }
 ID3D11Texture2D
 *
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 GetD3D11Texture2D
@@ -399,7 +399,7 @@ mTexture
 ;
 }
 bool
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 EnsureD3D11Texture2D
@@ -529,7 +529,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 device
 is
 not
@@ -593,7 +593,7 @@ hr
 NS_WARNING
 (
 "
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 EnsureLockable
@@ -614,7 +614,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 Failed
 to
 open
@@ -651,7 +651,7 @@ true
 ;
 }
 bool
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 EnsureLockable
@@ -872,7 +872,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 egl
 extensions
 are
@@ -1210,7 +1210,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 init
 stream
 failed
@@ -1256,7 +1256,7 @@ wr
 :
 :
 WrExternalImage
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 Lock
@@ -1343,7 +1343,7 @@ is
 not
 suppored
 by
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 .
 "
 ;
@@ -1405,7 +1405,7 @@ gfxCriticalError
 <
 <
 "
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 AcquireSync
 timeout
 hr
@@ -1463,7 +1463,7 @@ height
 ;
 }
 void
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 Unlock
@@ -1496,7 +1496,7 @@ false
 }
 }
 void
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 ClearCachedResources
@@ -1513,7 +1513,7 @@ nullptr
 ;
 }
 void
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 DeleteTextureHandle
@@ -1668,7 +1668,7 @@ mStream
 ;
 }
 GLuint
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 GetGLHandle
@@ -1741,7 +1741,7 @@ gfx
 :
 :
 IntSize
-RenderDXGITextureHostOGL
+RenderDXGITextureHost
 :
 :
 GetSize
@@ -1841,10 +1841,10 @@ mSize
 ;
 }
 }
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 (
 WindowsHandle
 (
@@ -1908,8 +1908,8 @@ false
 {
 MOZ_COUNT_CTOR_INHERITED
 (
-RenderDXGIYCbCrTextureHostOGL
-RenderTextureHostOGL
+RenderDXGIYCbCrTextureHost
+RenderTextureHost
 )
 ;
 /
@@ -2010,18 +2010,18 @@ aHandles
 )
 ;
 }
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 ~
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 (
 )
 {
 MOZ_COUNT_DTOR_INHERITED
 (
-RenderDXGIYCbCrTextureHostOGL
-RenderTextureHostOGL
+RenderDXGIYCbCrTextureHost
+RenderTextureHost
 )
 ;
 DeleteTextureHandle
@@ -2030,7 +2030,7 @@ DeleteTextureHandle
 ;
 }
 bool
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 EnsureLockable
@@ -2205,7 +2205,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 egl
 extensions
 are
@@ -2305,7 +2305,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 device
 is
 not
@@ -2392,7 +2392,7 @@ hr
 NS_WARNING
 (
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 EnsureLockable
@@ -2415,7 +2415,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 Failed
 to
 open
@@ -2672,7 +2672,7 @@ gfxCriticalNote
 <
 <
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 init
 stream
 failed
@@ -2694,7 +2694,7 @@ wr
 :
 :
 WrExternalImage
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 Lock
@@ -2783,7 +2783,7 @@ suppored
 by
 "
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 .
 "
 ;
@@ -2858,7 +2858,7 @@ gfxCriticalError
 <
 <
 "
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 AcquireSync
 timeout
 hr
@@ -2917,7 +2917,7 @@ height
 ;
 }
 void
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 Unlock
@@ -2964,7 +2964,7 @@ false
 }
 }
 void
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 ClearCachedResources
@@ -2981,7 +2981,7 @@ nullptr
 ;
 }
 GLuint
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 GetGLHandle
@@ -3009,7 +3009,7 @@ gfx
 :
 :
 IntSize
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 GetSize
@@ -3046,7 +3046,7 @@ mSizeCbCr
 }
 }
 void
-RenderDXGIYCbCrTextureHostOGL
+RenderDXGIYCbCrTextureHost
 :
 :
 DeleteTextureHandle

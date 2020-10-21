@@ -332,7 +332,7 @@ mozilla
 /
 webrender
 /
-RenderAndroidSurfaceTextureHostOGL
+RenderAndroidSurfaceTextureHost
 .
 h
 "
@@ -4169,7 +4169,7 @@ new
 wr
 :
 :
-RenderAndroidSurfaceTextureHostOGL
+RenderAndroidSurfaceTextureHost
 (
 mSurfTex
 mSize

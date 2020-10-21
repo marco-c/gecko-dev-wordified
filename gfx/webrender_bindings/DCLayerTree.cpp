@@ -173,7 +173,7 @@ mozilla
 /
 webrender
 /
-RenderD3D11TextureHostOGL
+RenderD3D11TextureHost
 .
 h
 "
@@ -4408,7 +4408,7 @@ texture
 texture
 -
 >
-AsRenderDXGITextureHostOGL
+AsRenderDXGITextureHost
 (
 )
 |
@@ -4416,7 +4416,7 @@ AsRenderDXGITextureHostOGL
 texture
 -
 >
-AsRenderDXGITextureHostOGL
+AsRenderDXGITextureHost
 (
 )
 -
@@ -4467,7 +4467,7 @@ size
 texture
 -
 >
-AsRenderDXGITextureHostOGL
+AsRenderDXGITextureHost
 (
 )
 -
@@ -4719,7 +4719,7 @@ size
 aTexture
 -
 >
-AsRenderDXGITextureHostOGL
+AsRenderDXGITextureHost
 (
 )
 -
@@ -5104,7 +5104,7 @@ texture
 aTexture
 -
 >
-AsRenderDXGITextureHostOGL
+AsRenderDXGITextureHost
 (
 )
 ;

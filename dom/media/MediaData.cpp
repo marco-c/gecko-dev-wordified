@@ -2492,15 +2492,6 @@ LayersBackend
 :
 :
 LAYERS_WR
-&
-&
-!
-gfxVars
-:
-:
-UseSoftwareWebRender
-(
-)
 )
 {
 RefPtr
