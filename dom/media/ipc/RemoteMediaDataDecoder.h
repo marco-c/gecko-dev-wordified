@@ -144,7 +144,7 @@ class
 IRemoteDecoderChild
 ;
 class
-RemoteDecoderModule
+RemoteDecoderManagerChild
 ;
 class
 RemoteMediaDataDecoder
@@ -224,7 +224,7 @@ GpuDecoderModule
 ;
 friend
 class
-RemoteDecoderModule
+RemoteDecoderManagerChild
 ;
 /
 /
