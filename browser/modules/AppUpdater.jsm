@@ -1755,7 +1755,7 @@ true
 )
 ;
 let
-state
+success
 =
 this
 .
@@ -1771,12 +1771,8 @@ false
 ;
 if
 (
-state
-=
-=
-"
-failed
-"
+!
+success
 )
 {
 this
