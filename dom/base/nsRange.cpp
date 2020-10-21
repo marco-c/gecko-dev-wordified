@@ -210,6 +210,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsTextFrame
 .
 h
@@ -17012,9 +17019,6 @@ static
 nsresult
 GetPartialTextRect
 (
-nsLayoutUtils
-:
-:
 RectCallback
 *
 aCallback
@@ -17372,9 +17376,6 @@ nsRange
 :
 CollectClientRectsAndText
 (
-nsLayoutUtils
-:
-:
 RectCallback
 *
 aCollector

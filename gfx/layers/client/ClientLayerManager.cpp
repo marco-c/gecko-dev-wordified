@@ -379,6 +379,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

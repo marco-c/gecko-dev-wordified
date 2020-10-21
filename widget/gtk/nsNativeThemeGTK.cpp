@@ -388,6 +388,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsNativeBasicTheme
 .
 h

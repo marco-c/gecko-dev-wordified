@@ -281,6 +281,13 @@ etc
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 TreeTraversal
 .
 h

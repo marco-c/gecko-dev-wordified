@@ -312,6 +312,15 @@ include
 "
 mozilla
 /
+StaticPrefs_nglayout
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 BasePoint

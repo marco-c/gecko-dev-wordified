@@ -1018,6 +1018,13 @@ NS_WARNING
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h

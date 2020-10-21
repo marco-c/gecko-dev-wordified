@@ -241,6 +241,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h

@@ -17486,7 +17486,7 @@ class
 PointInRectChecker
 :
 public
-nsLayoutUtils
+mozilla
 :
 :
 RectCallback

@@ -123,6 +123,13 @@ mozilla_AccessibleCaretEventHub_h
 #
 include
 "
+LayoutConstants
+.
+h
+"
+#
+include
+"
 mozilla
 /
 EventForwards

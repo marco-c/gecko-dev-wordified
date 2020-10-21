@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 prmon
 .
 h
@@ -217,6 +210,9 @@ h
 namespace
 mozilla
 {
+class
+RectCallback
+;
 namespace
 dom
 {
@@ -2234,7 +2230,7 @@ static
 void
 CollectClientRectsAndText
 (
-nsLayoutUtils
+mozilla
 :
 :
 RectCallback

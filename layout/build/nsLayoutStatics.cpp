@@ -992,6 +992,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsThreadManager
 .
 h

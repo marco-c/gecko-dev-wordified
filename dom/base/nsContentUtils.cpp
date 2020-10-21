@@ -1888,6 +1888,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsMappedAttributes
 .
 h
