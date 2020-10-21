@@ -12443,9 +12443,6 @@ frame
 of
 animated
 images
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 res
 =
@@ -26185,9 +26182,6 @@ backends
 are
 different
 .
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 CanvasRenderingContext2D
 :
@@ -26199,9 +26193,6 @@ Element
 aElement
 )
 {
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 res
 ;
@@ -27081,9 +27072,6 @@ intrinsicImgSize
 )
 ;
 }
-nsLayoutUtils
-:
-:
 DirectDrawInfo
 drawInfo
 ;
@@ -27136,9 +27124,6 @@ nsLayoutUtils
 :
 SFE_NO_RASTERIZING_VECTORS
 ;
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 res
 =
@@ -28078,9 +28063,6 @@ CanvasRenderingContext2D
 DrawDirectlyToCanvas
 (
 const
-nsLayoutUtils
-:
-:
 DirectDrawInfo
 &
 aImage

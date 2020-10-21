@@ -225,6 +225,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 using
 namespace
 mozilla

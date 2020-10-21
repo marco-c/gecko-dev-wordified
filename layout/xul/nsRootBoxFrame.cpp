@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 BasicEvents

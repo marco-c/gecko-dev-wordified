@@ -53689,9 +53689,6 @@ return
 false
 ;
 }
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 nsLayoutUtils
 :
@@ -53940,9 +53937,6 @@ return
 result
 ;
 }
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 nsLayoutUtils
 :
@@ -54899,9 +54893,6 @@ return
 result
 ;
 }
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 nsLayoutUtils
 :
@@ -54937,9 +54928,6 @@ aTarget
 )
 ;
 }
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 nsLayoutUtils
 :
@@ -55272,9 +55260,6 @@ return
 result
 ;
 }
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 nsLayoutUtils
 :
@@ -55609,9 +55594,6 @@ return
 result
 ;
 }
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 nsLayoutUtils
 :
@@ -62296,9 +62278,6 @@ apz_test_logging_enabled
 /
 /
 SurfaceFromElementResult
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 :
 :
@@ -62354,9 +62333,6 @@ gfx
 SourceSurface
 >
 &
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 :
 :

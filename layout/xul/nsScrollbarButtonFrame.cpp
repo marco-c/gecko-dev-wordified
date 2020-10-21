@@ -181,6 +181,13 @@ h
 #
 include
 "
+nsLayoutUtils
+.
+h
+"
+#
+include
+"
 nsSliderFrame
 .
 h

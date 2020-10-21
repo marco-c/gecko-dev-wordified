@@ -7327,9 +7327,6 @@ MOZ_ASSERT
 aCanvas
 )
 ;
-nsLayoutUtils
-:
-:
 SurfaceFromElementResult
 result
 =
