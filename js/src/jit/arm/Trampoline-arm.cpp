@@ -158,15 +158,6 @@ JitSpewer
 h
 "
 #
-include
-"
-jit
-/
-Linker
-.
-h
-"
-#
 ifdef
 JS_ION_PERF
 #
