@@ -5210,6 +5210,13 @@ IndirectCall
 "
 NoStubAddressCheck
 )
+TestCase
+(
+"
+MovImm64
+"
+NoStubAddressCheck
+)
 #
 elif
 defined
