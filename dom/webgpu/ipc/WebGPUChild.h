@@ -161,9 +161,6 @@ WGPUTextureViewDescriptor
 /
 namespace
 ffi
-struct
-TextureInfo
-;
 typedef
 MozPromise
 <
