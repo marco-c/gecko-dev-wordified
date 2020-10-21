@@ -2152,12 +2152,6 @@ hostname
 {
 if
 (
-!
-this
-.
-_useRemoteSetting
-&
-&
 this
 .
 store
