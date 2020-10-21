@@ -13172,7 +13172,7 @@ FileFlag
 aFileFlag
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 outputStream
@@ -13452,7 +13452,7 @@ groupPrefix
 originPrefix
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 file
@@ -13481,7 +13481,7 @@ METADATA_TMP_FILE_NAME
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -13628,7 +13628,7 @@ AssertIsOnIOThread
 (
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 file
@@ -13657,7 +13657,7 @@ METADATA_V2_TMP_FILE_NAME
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -13912,7 +13912,7 @@ NS_IsMainThread
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 file
@@ -24043,7 +24043,7 @@ if
 accessed
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -25367,7 +25367,7 @@ nullptr
 #
 ifdef
 DEBUG
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -26280,7 +26280,7 @@ aASCIIOrigin
 )
 const
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -26445,7 +26445,7 @@ MOZ_ASSERT
 mStorageConnection
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 binaryStream
@@ -26536,7 +26536,7 @@ ReadCString
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 group
@@ -26863,7 +26863,7 @@ MOZ_ASSERT
 mStorageConnection
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 binaryStream
@@ -29758,7 +29758,7 @@ persistenceType
 kAllPersistenceTypes
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -29826,7 +29826,7 @@ ProcessRepository
 ;
 }
 {
-QM_DEBUG_TRY_VAR
+QM_DEBUG_TRY_UNWRAP
 (
 const
 int32_t
@@ -30896,7 +30896,7 @@ VALUES
 )
 ;
 {
-QM_DEBUG_TRY_VAR
+QM_DEBUG_TRY_UNWRAP
 (
 const
 int32_t
@@ -34087,7 +34087,7 @@ mStorageConnection
 }
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 storageFile
@@ -34129,7 +34129,7 @@ if
 storageFileExists
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 indexedDBDir
@@ -34166,7 +34166,7 @@ indexedDBDir
 )
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 persistentStorageDir
@@ -34218,7 +34218,7 @@ persistentStorageDir
 ;
 }
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 ss
@@ -34238,7 +34238,7 @@ MOZ_STORAGE_SERVICE_CONTRACTID
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 connection
@@ -34291,7 +34291,7 @@ false
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 connection
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -34349,7 +34349,7 @@ version
 is
 correct
 .
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 storageVersion
@@ -34486,7 +34486,7 @@ newDatabase
 !
 storageVersion
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 storageDir
@@ -34633,7 +34633,7 @@ connection
 )
 ;
 {
-QM_DEBUG_TRY_VAR
+QM_DEBUG_TRY_UNWRAP
 (
 const
 auto
@@ -34872,7 +34872,7 @@ available
 )
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 storageVersion
 MOZ_TO_RESULT_INVOKE
@@ -34909,7 +34909,7 @@ CachedNextGenLocalStorageEnabled
 )
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 (
 auto
@@ -34952,7 +34952,7 @@ if
 initialized
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 version
 LoadLocalStorageArchiveVersion
@@ -34979,7 +34979,7 @@ connection
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 version
 LoadLocalStorageArchiveVersion
@@ -35133,7 +35133,7 @@ available
 )
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 version
 LoadLocalStorageArchiveVersion
@@ -35170,7 +35170,7 @@ cacheUsable
 =
 true
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 int32_t
 cacheVersion
@@ -35324,7 +35324,7 @@ Reset
 }
 else
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 insertStmt
 MOZ_TO_RESULT_INVOKE_TYPED
@@ -35499,7 +35499,7 @@ available
 )
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 cacheVersion
 LoadCacheVersion
@@ -36400,7 +36400,7 @@ mPersistentOriginAttempted
 true
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -36775,7 +36775,7 @@ and
 persistence
 type
 .
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -40786,7 +40786,7 @@ nsACString
 aOrigin
 )
 {
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -44524,7 +44524,7 @@ DoDirectoryWork
 OTHER
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 file
@@ -44574,7 +44574,7 @@ return
 rv
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -47396,7 +47396,7 @@ AssertIsOnIOThread
 (
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -52706,7 +52706,7 @@ metadata
 on
 disk
 .
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -52990,7 +52990,7 @@ originInfo
 if
 needed
 .
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 directory
@@ -53278,7 +53278,7 @@ return
 rv
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -54820,9 +54820,11 @@ MOZ_ASSERT
 aDirectory
 )
 ;
-QM_TRY_VAR
+QM_TRY_INSPECT
 (
+const
 auto
+&
 binaryStream
 GetBinaryInputStream
 (
@@ -54969,7 +54971,7 @@ MOZ_ASSERT
 aDirectory
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 binaryStream
@@ -58023,7 +58025,7 @@ AssertIsOnIOThread
 (
 )
 ;
-QM_DEBUG_TRY_VAR
+QM_DEBUG_TRY_UNWRAP
 (
 const
 bool
@@ -58228,10 +58230,11 @@ OriginProps
 eObsolete
 )
 {
-QM_TRY_VAR
+QM_TRY_INSPECT
 (
 const
 bool
+&
 removed
 MOZ_TO_RESULT_INVOKE
 (
@@ -58471,10 +58474,11 @@ GetLeafName
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_INSPECT
 (
 const
 bool
+&
 removed
 MOZ_TO_RESULT_INVOKE
 (
@@ -59754,7 +59758,7 @@ return
 rv
 ;
 }
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 stream
@@ -60137,7 +60141,7 @@ of
 this
 upgrade
 .
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 morgueDir
@@ -60564,7 +60568,7 @@ mOrigin
 )
 )
 ;
-QM_TRY_VAR
+QM_TRY_UNWRAP
 (
 auto
 newFile
