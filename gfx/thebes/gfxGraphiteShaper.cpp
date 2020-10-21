@@ -3322,7 +3322,6 @@ IsClusterStart
 (
 )
 false
-0
 )
 ;
 }
