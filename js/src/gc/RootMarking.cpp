@@ -3308,7 +3308,13 @@ JS
 CallbackTracer
 (
 rt
-TraceWeakMapKeysValues
+JS
+:
+:
+WeakMapTraceAction
+:
+:
+TraceKeysAndValues
 )
 {
 }
