@@ -3041,7 +3041,7 @@ nsAccUtils
 :
 MustPrune
 (
-child
+text
 )
 )
 {
