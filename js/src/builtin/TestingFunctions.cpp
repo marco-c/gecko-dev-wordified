@@ -12142,6 +12142,11 @@ TraceChildren
 (
 &
 trc
+JS
+:
+:
+GCCellPtr
+(
 parent
 .
 toGCThing
@@ -12151,6 +12156,7 @@ parent
 .
 traceKind
 (
+)
 )
 )
 ;
