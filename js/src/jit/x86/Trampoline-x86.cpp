@@ -5340,8 +5340,7 @@ const
 VMFunctionData
 &
 f
-void
-*
+DynFn
 nativeFun
 uint32_t
 *
