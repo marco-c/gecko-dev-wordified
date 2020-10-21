@@ -11314,6 +11314,9 @@ FEATURE_UNQUALIFIED_WEBRENDER_WINDOWS_8_1
 ;
 #
 endif
+#
+ifndef
+NIGHTLY_BUILD
 /
 /
 Bug
@@ -11334,6 +11337,14 @@ with
 this
 particular
 driver
+.
+Bug
+1671253
+enabled
+this
+on
+nightly
+only
 .
 APPEND_TO_DRIVER_BLOCKLIST2
 (
@@ -11372,6 +11383,8 @@ FEATURE_FAILURE_WEBRENDER_VIDEO_CRASH_INTEL_23
 "
 )
 ;
+#
+endif
 /
 /
 /
