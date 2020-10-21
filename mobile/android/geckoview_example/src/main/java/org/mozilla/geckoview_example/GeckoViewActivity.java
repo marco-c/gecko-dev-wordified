@@ -2492,7 +2492,7 @@ string
 .
 key_remote_debugging
 )
-false
+true
 )
 ;
 boolean
