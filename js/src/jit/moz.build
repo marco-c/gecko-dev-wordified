@@ -386,6 +386,11 @@ KnownClass
 cpp
 '
 '
+Label
+.
+cpp
+'
+'
 LICM
 .
 cpp
