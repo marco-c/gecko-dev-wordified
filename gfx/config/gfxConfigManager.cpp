@@ -1142,7 +1142,6 @@ _ns
 )
 ;
 }
-}
 int32_t
 maxRefreshRate
 =
@@ -1182,6 +1181,7 @@ REFRESH_RATE_TOO_HIGH
 _ns
 )
 ;
+}
 }
 }
 return
