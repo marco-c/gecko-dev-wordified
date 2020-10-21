@@ -137,6 +137,17 @@ mozilla
 /
 gfx
 /
+gfxVars
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 GPUProcessManager
 .
 h
