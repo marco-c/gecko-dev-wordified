@@ -1254,6 +1254,16 @@ _Nullable
 )
 moxInsertionPointLineNumber
 ;
+/
+/
+AXEditableAncestor
+-
+(
+id
+_Nullable
+)
+moxEditableAncestor
+;
 #
 pragma
 mark

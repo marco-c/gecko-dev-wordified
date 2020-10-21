@@ -1001,6 +1001,15 @@ moxRequired
 override
 -
 (
+id
+)
+moxEditableAncestor
+;
+/
+/
+override
+-
+(
 NSArray
 *
 )
