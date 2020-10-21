@@ -803,6 +803,17 @@ MediaHardwareKeysEventSourceMacMediaCenter
 "
 )
 ;
+SetPlaybackState
+(
+dom
+:
+:
+MediaSessionPlaybackState
+:
+:
+None
+)
+;
 EndListeningForEvents
 (
 )
