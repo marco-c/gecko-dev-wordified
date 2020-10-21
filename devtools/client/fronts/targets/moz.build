@@ -108,9 +108,4 @@ mixin
 .
 js
 '
-'
-worker
-.
-js
-'
 )
