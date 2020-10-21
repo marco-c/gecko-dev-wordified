@@ -274,9 +274,9 @@ capabilities
 {
         
 "
-goog
+ms
 :
-chromeOptions
+edgeOptions
 "
 :
 {
@@ -398,9 +398,9 @@ None
 capabilities
 [
 "
-goog
+ms
 :
-chromeOptions
+edgeOptions
 "
 ]
 [
@@ -430,9 +430,9 @@ in
 capabilities
 [
 "
-goog
+ms
 :
-chromeOptions
+edgeOptions
 "
 ]
 :
@@ -440,9 +440,9 @@ chromeOptions
 capabilities
 [
 "
-goog
+ms
 :
-chromeOptions
+edgeOptions
 "
 ]
 [
@@ -465,9 +465,9 @@ in
 capabilities
 [
 "
-goog
+ms
 :
-chromeOptions
+edgeOptions
 "
 ]
 [
@@ -480,9 +480,9 @@ args
 capabilities
 [
 "
-goog
+ms
 :
-chromeOptions
+edgeOptions
 "
 ]
 [
