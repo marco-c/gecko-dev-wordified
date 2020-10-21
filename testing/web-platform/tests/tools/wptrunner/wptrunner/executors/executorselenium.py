@@ -253,6 +253,20 @@ handle
 )
     
 def
+window_handles
+(
+self
+)
+:
+        
+return
+self
+.
+webdriver
+.
+window_handles
+    
+def
 load
 (
 self
@@ -1263,6 +1277,7 @@ def
 send_message
 (
 self
+cmd_id
 message_type
 status
 message
@@ -1274,6 +1289,12 @@ None
 obj
 =
 {
+            
+"
+cmd_id
+"
+:
+cmd_id
             
 "
 type

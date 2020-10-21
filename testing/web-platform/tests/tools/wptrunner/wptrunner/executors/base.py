@@ -4922,6 +4922,17 @@ handle
 :
         
 pass
+    
+def
+window_handles
+(
+self
+)
+:
+        
+return
+[
+]
 class
 ConnectionlessProtocol
 (
@@ -5579,6 +5590,15 @@ action
 "
 ]
         
+cmd_id
+=
+payload
+[
+"
+id
+"
+]
+        
 self
 .
 logger
@@ -5682,6 +5702,7 @@ self
 .
 _send_message
 (
+cmd_id
 "
 complete
 "
@@ -5736,6 +5757,7 @@ self
 .
 _send_message
 (
+cmd_id
 "
 complete
 "
@@ -5786,6 +5808,7 @@ self
 .
 _send_message
 (
+cmd_id
 "
 complete
 "
@@ -5808,6 +5831,7 @@ def
 _send_message
 (
 self
+cmd_id
 message_type
 status
 message
@@ -5824,6 +5848,7 @@ testdriver
 .
 send_message
 (
+cmd_id
 message_type
 status
 message
@@ -5870,12 +5895,6 @@ self
 initial_window
 =
 None
-        
-self
-.
-switched_frame
-=
-False
     
 def
 __enter__
@@ -5894,19 +5913,6 @@ None
             
 return
         
-window_id
-=
-self
-.
-context
-[
-0
-]
-        
-if
-window_id
-:
-            
 self
 .
 initial_window
@@ -5918,7 +5924,7 @@ protocol
 base
 .
 current_window
-            
+        
 self
 .
 logger
@@ -5933,9 +5939,11 @@ window
 s
 "
 %
-window_id
+self
+.
+context
 )
-            
+        
 self
 .
 protocol
@@ -5944,53 +5952,9 @@ testdriver
 .
 switch_to_window
 (
-window_id
-)
-        
-for
-frame_id
-in
 self
 .
 context
-[
-1
-:
-]
-:
-            
-self
-.
-switched_frame
-=
-True
-            
-self
-.
-logger
-.
-debug
-(
-"
-Switching
-to
-frame
-%
-s
-"
-%
-frame_id
-)
-            
-self
-.
-protocol
-.
-testdriver
-.
-switch_to_frame
-(
-frame_id
 )
     
 def
@@ -6005,12 +5969,13 @@ args
 if
 self
 .
-initial_window
+context
 is
-not
 None
 :
             
+return
+        
 self
 .
 logger
@@ -6025,7 +5990,7 @@ initial
 window
 "
 )
-            
+        
 self
 .
 protocol
@@ -6038,32 +6003,20 @@ self
 .
 initial_window
 )
-            
-self
-.
-initial_window
-=
-None
         
-elif
-self
-.
-switched_frame
-:
-            
 self
 .
 protocol
 .
 testdriver
 .
-switch_to_frame
+_switch_to_frame
 (
 None
 )
         
 self
 .
-switched_frame
+initial_window
 =
-False
+None
