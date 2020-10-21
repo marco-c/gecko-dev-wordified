@@ -115,6 +115,7 @@ eLine
 eLeftLine
 eRightLine
 eParagraph
+eStyle
 }
 ;
 }

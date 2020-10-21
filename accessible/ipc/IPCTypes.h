@@ -513,7 +513,7 @@ a11y
 EWhichRange
 :
 :
-eParagraph
+eStyle
 >
 {
 }
