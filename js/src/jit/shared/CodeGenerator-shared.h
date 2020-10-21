@@ -1774,6 +1774,10 @@ wasm
 BytecodeOffset
 (
 )
+bool
+preserveTls
+=
+false
 )
 ;
 void
@@ -1783,7 +1787,7 @@ FloatRegister
 src
 Register
 dest
-MTruncateToInt32
+MInstruction
 *
 mir
 )
@@ -1795,7 +1799,7 @@ FloatRegister
 src
 Register
 dest
-MTruncateToInt32
+MInstruction
 *
 mir
 )
