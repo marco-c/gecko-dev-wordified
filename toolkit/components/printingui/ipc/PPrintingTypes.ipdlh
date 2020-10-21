@@ -172,6 +172,9 @@ printBGColors
 bool
 printBGImages
 ;
+bool
+honorPageRuleMargins
+;
 short
 printRange
 ;

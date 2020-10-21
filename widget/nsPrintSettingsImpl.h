@@ -664,6 +664,9 @@ mShowPrintProgress
 bool
 mShowMarginGuides
 ;
+bool
+mHonorPageRuleMargins
+;
 int32_t
 mPrintPageDelay
 ;
