@@ -459,6 +459,15 @@ include
 "
 jit
 /
+SafepointIndex
+.
+h
+"
+#
+include
+"
+jit
+/
 SharedICHelpers
 .
 h

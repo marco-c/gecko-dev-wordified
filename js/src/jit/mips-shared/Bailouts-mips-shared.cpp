@@ -120,6 +120,15 @@ h
 #
 include
 "
+jit
+/
+SafepointIndex
+.
+h
+"
+#
+include
+"
 vm
 /
 JSScript

@@ -162,6 +162,15 @@ LIR
 .
 h
 "
+#
+include
+"
+jit
+/
+SafepointIndex
+.
+h
+"
 using
 namespace
 js
