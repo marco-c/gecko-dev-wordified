@@ -2799,8 +2799,10 @@ math
 -
 depth
 :
-+
+add
+(
 1
+)
 ;
 }
 /
@@ -2840,6 +2842,8 @@ math
 depth
 :
 auto
+-
+add
 ;
 math
 -
@@ -2902,8 +2906,10 @@ math
 -
 depth
 :
-+
+add
+(
 2
+)
 ;
 math
 -
@@ -3079,8 +3085,10 @@ math
 -
 depth
 :
-+
+add
+(
 1
+)
 ;
 math
 -
@@ -3349,8 +3357,10 @@ math
 -
 depth
 :
-+
+add
+(
 1
+)
 ;
 math
 -
