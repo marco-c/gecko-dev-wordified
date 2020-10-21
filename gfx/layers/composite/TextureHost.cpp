@@ -1680,11 +1680,11 @@ AsCompositorBridgeParentBase
 )
 -
 >
-LookupSurfaceDescriptorForClientDrawTarget
+LookupSurfaceDescriptorForClientTexture
 (
 desc
 .
-drawTarget
+textureId
 (
 )
 )
