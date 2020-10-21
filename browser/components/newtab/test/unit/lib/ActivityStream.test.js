@@ -2202,7 +2202,7 @@ discoverystream
 .
 region
 -
-layout
+basic
 -
 config
 "
@@ -2211,7 +2211,7 @@ config
 returns
 (
 "
-US
+CA
 "
 )
 ;
@@ -2283,7 +2283,7 @@ discoverystream
 .
 region
 -
-layout
+basic
 -
 config
 "
@@ -2292,8 +2292,6 @@ config
 returns
 (
 "
-US
-CA
 "
 )
 ;

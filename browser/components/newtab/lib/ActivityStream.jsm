@@ -683,7 +683,7 @@ config
 "
 ;
 const
-REGION_LAYOUT_CONFIG
+REGION_BASIC_CONFIG
 =
 "
 browser
@@ -698,7 +698,7 @@ discoverystream
 .
 region
 -
-layout
+basic
 -
 config
 "
@@ -2555,7 +2555,7 @@ prefs
 .
 getStringPref
 (
-REGION_LAYOUT_CONFIG
+REGION_BASIC_CONFIG
 )
 |
 |
@@ -2586,7 +2586,6 @@ trim
 )
 ;
 return
-!
 preffedRegions
 .
 includes
