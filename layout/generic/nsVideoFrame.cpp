@@ -1063,6 +1063,7 @@ nsVideoFrame
 GetVideoControls
 (
 )
+const
 {
 if
 (
@@ -4332,17 +4333,17 @@ return
 result
 ;
 }
-static
 Maybe
 <
 nsSize
 >
-GetPosterImageSize
-(
 nsVideoFrame
-*
-aFrame
+:
+:
+PosterImageSize
+(
 )
+const
 {
 /
 /
@@ -4359,9 +4360,6 @@ nsIFrame
 *
 child
 =
-aFrame
--
->
 GetPosterImage
 (
 )
@@ -4575,9 +4573,8 @@ nsSize
 >
 imgSize
 =
-GetPosterImageSize
+PosterImageSize
 (
-this
 )
 )
 {
@@ -4662,6 +4659,7 @@ nsVideoFrame
 ShouldDisplayPoster
 (
 )
+const
 {
 if
 (
@@ -4898,9 +4896,8 @@ nsSize
 >
 imgSize
 =
-GetPosterImageSize
+PosterImageSize
 (
-this
 )
 )
 {
@@ -5188,6 +5185,7 @@ nsVideoFrame
 HasVideoElement
 (
 )
+const
 {
 return
 static_cast
@@ -5214,6 +5212,7 @@ nsVideoFrame
 HasVideoData
 (
 )
+const
 {
 if
 (
