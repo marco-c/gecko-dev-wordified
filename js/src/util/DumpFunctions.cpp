@@ -4359,7 +4359,11 @@ buffer
 1024
 ]
 ;
-getTracingEdgeName
+context
+(
+)
+.
+getEdgeName
 (
 buffer
 sizeof

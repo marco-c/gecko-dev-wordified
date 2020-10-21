@@ -694,10 +694,10 @@ void
 JS
 :
 :
-CallbackTracer
+TracingContext
 :
 :
-getTracingEdgeName
+getEdgeName
 (
 char
 *
@@ -715,12 +715,12 @@ bufferSize
 ;
 if
 (
-contextFunctor_
+functor_
 )
 {
 (
 *
-contextFunctor_
+functor_
 )
 (
 this
@@ -733,7 +733,7 @@ return
 }
 if
 (
-contextIndex_
+index_
 !
 =
 InvalidIndex
@@ -751,8 +751,8 @@ s
 zu
 ]
 "
-contextName_
-contextIndex_
+name_
+index_
 )
 ;
 return
@@ -766,7 +766,7 @@ bufferSize
 %
 s
 "
-contextName_
+name_
 )
 ;
 }
