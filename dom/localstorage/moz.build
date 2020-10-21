@@ -262,6 +262,11 @@ LSWriteOptimizer
 h
 '
 '
+LSWriteOptimizerImpl
+.
+h
+'
+'
 SnappyUtils
 .
 h

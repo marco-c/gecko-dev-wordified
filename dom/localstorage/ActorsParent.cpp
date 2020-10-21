@@ -255,7 +255,7 @@ mozilla
 /
 dom
 /
-LSWriteOptimizer
+LSWriteOptimizerImpl
 .
 h
 "

@@ -142,7 +142,7 @@ h
 #
 include
 "
-LSWriteOptimizer
+LSWriteOptimizerImpl
 .
 h
 "
