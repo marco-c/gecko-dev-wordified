@@ -512,10 +512,9 @@ IPDL
 /
 shutdown
 chain
-RefPtr
-<
 GamepadTestChannelChild
->
+*
+MOZ_NON_OWNING_REF
 mChild
 ;
 explicit
