@@ -325,12 +325,6 @@ SizeTo
 0
 )
 ;
-mPrintOptions
-=
-kPrintOddPages
-|
-kPrintEvenPages
-;
 mHeaderStrs
 [
 0
