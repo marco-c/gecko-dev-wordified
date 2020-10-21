@@ -640,11 +640,6 @@ components
 "
 devtools
 -
-config
-"
-"
-devtools
--
 environment
 "
 "
