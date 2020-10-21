@@ -128,6 +128,15 @@ include
 "
 mozilla
 /
+Assertions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PlatformMutex
 .
 h
