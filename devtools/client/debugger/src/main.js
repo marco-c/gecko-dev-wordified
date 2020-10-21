@@ -73,6 +73,7 @@ dom
 import
 {
 onConnect
+onDisconnect
 }
 from
 "
@@ -183,6 +184,10 @@ destroy
 =
 >
 {
+onDisconnect
+(
+)
+;
 unmountRoot
 (
 )
