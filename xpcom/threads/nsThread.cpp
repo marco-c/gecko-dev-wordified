@@ -4048,11 +4048,6 @@ mIsMainThread
 {
 if
 (
-UseTaskController
-(
-)
-&
-&
 mIsMainThread
 )
 {
@@ -5941,11 +5936,6 @@ if
 mIsMainThread
 &
 &
-UseTaskController
-(
-)
-&
-&
 !
 mIsInLocalExecutionMode
 )
@@ -7283,11 +7273,6 @@ bool
 usingTaskController
 =
 mIsMainThread
-&
-&
-UseTaskController
-(
-)
 ;
 if
 (

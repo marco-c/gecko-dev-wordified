@@ -403,11 +403,6 @@ EventsAvail
 {
 if
 (
-UseTaskController
-(
-)
-&
-&
 aIsMainThread
 )
 {
@@ -2494,11 +2489,6 @@ aObserver
 ;
 if
 (
-UseTaskController
-(
-)
-&
-&
 NS_IsMainThread
 (
 )
