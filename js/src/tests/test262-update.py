@@ -164,6 +164,12 @@ Atomics
 .
 waitAsync
 "
+    
+"
+legacy
+-
+regexp
+"
 ]
 )
 FEATURE_CHECK_NEEDED

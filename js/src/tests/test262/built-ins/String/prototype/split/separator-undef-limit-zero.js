@@ -198,7 +198,10 @@ int32bit
 be
 int
 modulo
-232
+2
+*
+*
+32
 .
 5
 .
