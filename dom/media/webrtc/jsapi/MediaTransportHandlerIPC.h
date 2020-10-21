@@ -184,12 +184,6 @@ aIcePolicy
 )
 override
 ;
-void
-Destroy
-(
-)
-override
-;
 /
 /
 We
@@ -555,6 +549,12 @@ private
 friend
 class
 MediaTransportChild
+;
+void
+Destroy
+(
+)
+override
 ;
 /
 /
