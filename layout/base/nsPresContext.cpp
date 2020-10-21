@@ -9033,13 +9033,6 @@ ThemeChanged
 (
 )
 {
-if
-(
-XRE_IsParentProcess
-(
-)
-)
-{
 /
 /
 NOTE
@@ -9090,7 +9083,6 @@ Capture
 _ns
 )
 ;
-}
 if
 (
 !
