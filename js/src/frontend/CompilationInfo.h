@@ -2821,8 +2821,6 @@ range
 bool
 *
 succeededOut
-=
-nullptr
 )
 ;
 void
