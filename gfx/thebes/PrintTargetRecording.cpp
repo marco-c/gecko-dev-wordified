@@ -732,10 +732,16 @@ gfx
 Factory
 :
 :
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 (
 aRecorder
 aDrawTarget
+aDrawTarget
+-
+>
+GetRect
+(
+)
 )
 ;
 }
