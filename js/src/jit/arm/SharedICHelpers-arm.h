@@ -119,7 +119,7 @@ include
 "
 jit
 /
-BaselineFrame
+BaselineIC
 .
 h
 "
@@ -128,7 +128,7 @@ include
 "
 jit
 /
-BaselineIC
+JitFrames
 .
 h
 "

@@ -131,6 +131,15 @@ include
 "
 jit
 /
+BaselineFrame
+.
+h
+"
+#
+include
+"
+jit
+/
 BaselineJIT
 .
 h
