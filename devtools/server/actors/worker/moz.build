@@ -133,7 +133,7 @@ js
 '
 worker
 -
-target
+descriptor
 -
 actor
 -
