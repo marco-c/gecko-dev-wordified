@@ -1203,6 +1203,14 @@ get_output_from_command
 [
 pip
 "
+list
+"
+"
+-
+-
+format
+"
+"
 freeze
 "
 ]
