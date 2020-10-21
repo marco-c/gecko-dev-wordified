@@ -808,6 +808,14 @@ GCReason
 FINISH_GC
 )
 ;
+void
+WaitForBackgroundTasks
+(
+JSContext
+*
+cx
+)
+;
 /
 *
 *

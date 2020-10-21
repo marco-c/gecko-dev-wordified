@@ -4566,6 +4566,14 @@ FinishGC
 cx
 )
 ;
+gc
+:
+:
+WaitForBackgroundTasks
+(
+cx
+)
+;
 JS
 :
 :
