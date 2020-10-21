@@ -89,6 +89,8 @@ psutil
 import
 argparse
 import
+six
+import
 sys
 import
 os
@@ -392,6 +394,15 @@ some
 problem
 spawning
 .
+            
+data
+=
+six
+.
+ensure_str
+(
+data
+)
             
 reactor
 .
