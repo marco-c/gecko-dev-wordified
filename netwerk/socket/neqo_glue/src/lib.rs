@@ -2201,9 +2201,7 @@ StreamLimitError
 )
 =
 >
-{
 NS_BASE_STREAM_WOULD_BLOCK
-}
 Err
 (
 _
