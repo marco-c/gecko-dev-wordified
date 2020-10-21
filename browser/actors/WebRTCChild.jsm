@@ -2969,7 +2969,6 @@ screen
 window
 browser
 devices
-false
 )
 ;
 if
