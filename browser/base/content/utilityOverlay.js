@@ -2111,6 +2111,11 @@ allowThirdPartyFixup
 boolean
 )
 *
+fromChrome
+(
+boolean
+)
+*
 postData
 (
 nsIInputStream
@@ -2225,6 +2230,11 @@ params
 .
 fromChrome
 =
+params
+.
+fromChrome
+?
+?
 true
 ;
 openLinkIn
