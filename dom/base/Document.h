@@ -5406,7 +5406,7 @@ URI
 /
 Result
 <
-nsCOMPtr
+OwningNonNull
 <
 nsIURI
 >
