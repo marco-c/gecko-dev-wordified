@@ -109,8 +109,6 @@ function
 thunk
 (
 makeArgs
-:
-any
 )
 {
 return
@@ -119,8 +117,6 @@ return
 dispatch
 getState
 }
-:
-ThunkArgs
 )
 =
 >
@@ -134,18 +130,10 @@ getState
 }
 ;
 return
-(
 next
-:
-Function
-)
 =
 >
-(
 action
-:
-ActionType
-)
 =
 >
 {
