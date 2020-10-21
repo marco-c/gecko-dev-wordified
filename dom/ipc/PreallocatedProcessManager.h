@@ -321,6 +321,12 @@ GetPPMImpl
 (
 )
 ;
+static
+bool
+Enabled
+(
+)
+;
 /
 *
 *
