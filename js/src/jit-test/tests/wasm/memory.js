@@ -1233,7 +1233,6 @@ type
 ext
 offset
 align
-value
 )
 [
 {
