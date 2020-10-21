@@ -2798,6 +2798,7 @@ kwargs
 binary
 "
 ]
+browser_channel
 )
 :
                     
