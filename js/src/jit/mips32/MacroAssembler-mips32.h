@@ -3815,9 +3815,6 @@ dest
 void
 handleFailureWithHandlerTail
 (
-void
-*
-handler
 Label
 *
 profilerExitTail
