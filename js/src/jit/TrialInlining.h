@@ -343,6 +343,9 @@ namespace
 jit
 {
 class
+BaselineFrame
+;
+class
 ICEntry
 ;
 class
