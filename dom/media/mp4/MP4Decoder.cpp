@@ -1353,8 +1353,11 @@ platform
 >
 Supports
 (
+SupportDecoderParams
+(
 *
 track
+)
 aDiagnostics
 )
 )

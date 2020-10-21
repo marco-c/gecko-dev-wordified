@@ -258,9 +258,9 @@ bool
 Supports
 (
 const
-TrackInfo
+SupportDecoderParams
 &
-aTrackInfo
+aParams
 DecoderDoctorDiagnostics
 *
 aDiagnostics

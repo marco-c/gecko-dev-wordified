@@ -1771,6 +1771,13 @@ PDMFactory
 (
 )
 ;
+SupportDecoderParams
+params
+{
+*
+config
+}
+;
 if
 (
 !
@@ -1779,8 +1786,7 @@ pdm
 >
 Supports
 (
-*
-config
+params
 nullptr
 /
 *
