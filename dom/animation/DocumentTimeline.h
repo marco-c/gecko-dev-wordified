@@ -181,6 +181,13 @@ DOMHighResTimeStamp
 #
 include
 "
+nsRefreshDriver
+.
+h
+"
+#
+include
+"
 nsRefreshObservers
 .
 h
