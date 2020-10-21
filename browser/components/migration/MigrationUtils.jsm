@@ -1605,8 +1605,7 @@ resources
 )
 {
 return
-[
-]
+0
 ;
 }
 let

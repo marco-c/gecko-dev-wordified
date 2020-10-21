@@ -2555,9 +2555,6 @@ getMigrateData
 this
 .
 _selectedProfile
-this
-.
-_autoMigrate
 )
 )
 ;
@@ -3330,9 +3327,6 @@ getMigrateData
 this
 .
 _selectedProfile
-this
-.
-_autoMigrate
 )
 )
 ;
