@@ -134,6 +134,15 @@ h
 #
 include
 "
+jit
+/
+CompileInfo
+.
+h
+"
+#
+include
+"
 js
 /
 Printf

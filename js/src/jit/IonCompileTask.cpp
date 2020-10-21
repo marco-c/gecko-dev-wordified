@@ -131,6 +131,15 @@ include
 "
 jit
 /
+CompileInfo
+.
+h
+"
+#
+include
+"
+jit
+/
 JitRuntime
 .
 h

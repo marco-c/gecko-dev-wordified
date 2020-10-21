@@ -194,7 +194,7 @@ include
 "
 jit
 /
-CompileInfo
+InlineScriptTree
 .
 h
 "

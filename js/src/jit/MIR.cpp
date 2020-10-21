@@ -217,6 +217,15 @@ include
 "
 jit
 /
+CompileInfo
+.
+h
+"
+#
+include
+"
+jit
+/
 IonBuilder
 .
 h
