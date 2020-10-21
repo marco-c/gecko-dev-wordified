@@ -4905,7 +4905,7 @@ false
 )
 {
 }
-bool
+void
 onChild
 (
 const
@@ -4938,9 +4938,6 @@ TraceProtoAndIfaceCache
 was
 called
 .
-return
-true
-;
 }
 }
 ;

@@ -25116,7 +25116,7 @@ JS
 :
 CallbackTracer
 {
-bool
+void
 onChild
 (
 const
@@ -25315,7 +25315,7 @@ return
 false
 ;
 }
-bool
+void
 CompartmentCheckTracer
 :
 :
@@ -25449,9 +25449,6 @@ isAtomsZone
 )
 ;
 }
-return
-true
-;
 }
 void
 GCRuntime

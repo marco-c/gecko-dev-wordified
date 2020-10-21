@@ -29255,7 +29255,7 @@ UnmarkGray
 )
 {
 }
-bool
+void
 onChild
 (
 const
@@ -29282,9 +29282,6 @@ isMarkedGray
 (
 )
 )
-;
-return
-true
 ;
 }
 }
@@ -29433,7 +29430,7 @@ SystemAllocPolicy
 &
 stack
 ;
-bool
+void
 onChild
 (
 const
@@ -29448,7 +29445,7 @@ override
 ;
 }
 ;
-bool
+void
 UnmarkGrayTracer
 :
 :
@@ -29566,7 +29563,6 @@ kind
 #
 endif
 return
-true
 ;
 }
 TenuredCell
@@ -29719,7 +29715,6 @@ true
 ;
 }
 return
-true
 ;
 }
 if
@@ -29733,7 +29728,6 @@ isMarkedGray
 )
 {
 return
-true
 ;
 }
 tenured
@@ -29762,9 +29756,6 @@ oom
 true
 ;
 }
-return
-true
-;
 }
 void
 UnmarkGrayTracer

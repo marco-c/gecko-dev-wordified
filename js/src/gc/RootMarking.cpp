@@ -3260,7 +3260,7 @@ JS
 :
 CallbackTracer
 {
-bool
+void
 onChild
 (
 const
@@ -3287,9 +3287,6 @@ runtime
 shutdown
 "
 )
-;
-return
-true
 ;
 }
 public
