@@ -1259,14 +1259,11 @@ this
 in
 sync
 with
-emitGuardFunctionIsNonBuiltinCtor
+branchIfNotFunctionIsNonBuiltinCtor
 in
 /
 /
-{
-CacheIRCompiler
-WarpCacheIRTranspiler
-}
+MacroAssembler
 .
 cpp
 .
