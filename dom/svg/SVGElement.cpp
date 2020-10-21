@@ -9437,11 +9437,6 @@ oldValueSet
 )
 ;
 }
-/
-*
-static
-*
-/
 nsAtom
 *
 SVGElement
@@ -9452,6 +9447,17 @@ GetEventNameForAttr
 nsAtom
 *
 aAttr
+)
+{
+if
+(
+IsSVGElement
+(
+nsGkAtoms
+:
+:
+svg
+)
 )
 {
 if
@@ -9486,6 +9492,7 @@ nsGkAtoms
 :
 onSVGScroll
 ;
+}
 if
 (
 aAttr

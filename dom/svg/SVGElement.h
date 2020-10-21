@@ -2483,7 +2483,6 @@ bool
 aNotify
 )
 ;
-static
 nsAtom
 *
 GetEventNameForAttr
