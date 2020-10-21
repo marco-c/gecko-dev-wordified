@@ -293,6 +293,12 @@ LayersBackend
 LAYERS_BASIC
 &
 &
+!
+ident
+.
+mUsingSoftwareWebRender
+&
+&
 ident
 .
 mParentProcessType
