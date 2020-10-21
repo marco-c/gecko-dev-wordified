@@ -27206,8 +27206,6 @@ callInfo
 .
 pushCallStack
 (
-&
-mirGen_
 current
 )
 )
@@ -33026,8 +33024,6 @@ callInfo
 .
 pushCallStack
 (
-&
-mirGen_
 dispatchBlock
 )
 )
@@ -37762,8 +37758,6 @@ callInfo
 .
 savePriorCallStack
 (
-&
-mirGen_
 current
 argc
 +
@@ -40242,9 +40236,6 @@ CallInfo
 :
 savePriorCallStack
 (
-MIRGenerator
-*
-mir
 MBasicBlock
 *
 current
@@ -40848,8 +40839,6 @@ callInfo
 .
 savePriorCallStack
 (
-&
-mirGen_
 current
 4
 )
