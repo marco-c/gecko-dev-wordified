@@ -299,6 +299,12 @@ JS
 Latin1CharsZ
 ;
 using
+JS
+:
+:
+TwoByteCharsZ
+;
+using
 namespace
 js
 ;
