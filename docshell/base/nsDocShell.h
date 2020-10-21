@@ -7659,6 +7659,8 @@ IPC
 void
 MoveLoadingToActiveEntry
 (
+bool
+aCommit
 )
 ;
 private
