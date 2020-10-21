@@ -32332,6 +32332,11 @@ mOldLinkHandlingEnabled
 =
 false
 ;
+bool
+mHasBeforeInputBeenCanceled
+=
+false
+;
 ParagraphSeparator
 mDefaultParagraphSeparator
 ;
