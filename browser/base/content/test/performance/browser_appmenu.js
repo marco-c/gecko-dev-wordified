@@ -192,7 +192,7 @@ js
 ]
 maxCount
 :
-26
+22
 /
 /
 This
