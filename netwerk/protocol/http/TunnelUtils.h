@@ -1758,12 +1758,6 @@ mForcePlainText
 TimeStamp
 mTimestampSyn
 ;
-RefPtr
-<
-nsHttpConnectionInfo
->
-mConnInfo
-;
 /
 /
 mTunneledConn

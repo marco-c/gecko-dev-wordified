@@ -6443,10 +6443,6 @@ return
 false
 ;
 }
-mConnInfo
-=
-aConnInfo
-;
 mTunnelTransport
 =
 new
