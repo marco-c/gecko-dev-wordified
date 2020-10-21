@@ -98,7 +98,7 @@ UNIFIED_SOURCES
 =
 [
 '
-TestFog
+TestFogInit
 .
 cpp
 '
