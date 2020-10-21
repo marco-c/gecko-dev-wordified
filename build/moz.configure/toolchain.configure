@@ -19605,17 +19605,3 @@ cpp
 rtti
 '
 )
-check_prog
-(
-'
-WGET
-'
-(
-'
-wget
-'
-)
-allow_missing
-=
-True
-)
