@@ -598,6 +598,15 @@ storage
 index
 RefPtr
 <
+mozilla
+:
+:
+IdleTaskManager
+>
+mIdleTaskManager
+;
+RefPtr
+<
 nsThread
 >
 mMainThread

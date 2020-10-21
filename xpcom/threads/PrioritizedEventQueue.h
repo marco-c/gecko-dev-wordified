@@ -425,13 +425,6 @@ true
 explicit
 PrioritizedEventQueue
 (
-already_AddRefed
-<
-nsIIdlePeriod
->
-&
-&
-aIdlePeriod
 )
 ;
 virtual
