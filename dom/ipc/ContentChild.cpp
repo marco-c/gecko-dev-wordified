@@ -27602,7 +27602,7 @@ if
 aBC
 -
 >
-IsInProcess
+GetDocShell
 (
 )
 )
