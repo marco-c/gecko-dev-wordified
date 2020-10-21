@@ -780,7 +780,7 @@ TRR_HOST_BLOCKED_TEMPORARY
 /
 /
 host
-blacklisted
+blocklisted
 TRR_SEND_FAILED
 =
 18
@@ -1699,10 +1699,10 @@ addr_info_lock
 when
 calling
 the
-blacklist
+blocklist
 functions
 bool
-Blacklisted
+Blocklisted
 (
 const
 mozilla
@@ -1717,7 +1717,7 @@ query
 )
 ;
 void
-ResetBlacklist
+ResetBlocklist
 (
 )
 ;
@@ -2144,7 +2144,9 @@ s
 lifetime
 .
 uint32_t
-mBlacklistedCount
+mUnusableCount
+=
+0
 ;
 /
 /
@@ -2187,7 +2189,7 @@ nsTArray
 <
 nsCString
 >
-mBlacklistedItems
+mUnusableItems
 ;
 }
 ;

@@ -1357,7 +1357,7 @@ iter
 mHostRecord
 -
 >
-Blacklisted
+Blocklisted
 (
 iter
 (
@@ -1381,13 +1381,13 @@ startedFresh
 If
 everything
 was
-blacklisted
+blocklisted
 we
 want
 to
 reset
 the
-blacklist
+blocklist
 (
 and
 /
@@ -1413,7 +1413,7 @@ nothing
 mHostRecord
 -
 >
-ResetBlacklist
+ResetBlocklist
 (
 )
 ;
@@ -1700,7 +1700,7 @@ if
 mHostRecord
 -
 >
-Blacklisted
+Blocklisted
 (
 &
 address
@@ -2164,7 +2164,7 @@ the
 port
 in
 the
-blacklist
+blocklist
 MutexAutoLock
 lock
 (
