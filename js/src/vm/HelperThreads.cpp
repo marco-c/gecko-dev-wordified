@@ -5365,6 +5365,13 @@ XDROffThreadDecoder
 cx
 &
 options
+XDROffThreadDecoder
+:
+:
+Type
+:
+:
+Single
 /
 *
 sourceObjectOut
@@ -5637,6 +5644,13 @@ XDROffThreadDecoder
 cx
 &
 opts
+XDROffThreadDecoder
+:
+:
+Type
+:
+:
+Multi
 &
 sourceObject
 .
