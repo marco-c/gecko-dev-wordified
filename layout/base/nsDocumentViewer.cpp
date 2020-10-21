@@ -7672,10 +7672,7 @@ dom_disable_beforeunload
 {
 aAction
 =
-PermitUnloadAction
-:
-:
-Unload
+eDontPromptAndUnload
 ;
 }
 *
@@ -7905,10 +7902,7 @@ if
 aAction
 !
 =
-PermitUnloadAction
-:
-:
-Prompt
+ePrompt
 )
 {
 *
@@ -7917,10 +7911,7 @@ aPermitUnload
 aAction
 =
 =
-PermitUnloadAction
-:
-:
-Unload
+eDontPromptAndUnload
 ;
 return
 NS_OK

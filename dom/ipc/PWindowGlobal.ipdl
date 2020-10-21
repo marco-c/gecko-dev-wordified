@@ -236,7 +236,7 @@ mozilla
 dom
 :
 :
-PermitUnloadAction
+XPCOMPermitUnloadAction
 from
 "
 mozilla
@@ -1110,7 +1110,7 @@ CheckPermitUnload
 (
 bool
 aHasInProcessBlocker
-PermitUnloadAction
+XPCOMPermitUnloadAction
 aAction
 )
 returns
