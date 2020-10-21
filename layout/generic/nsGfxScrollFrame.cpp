@@ -16158,7 +16158,10 @@ mOuter
 PresShell
 (
 )
-ScreenMargin
+DisplayPortMargins
+:
+:
+Empty
 (
 )
 0
@@ -28251,7 +28254,10 @@ mOuter
 PresShell
 (
 )
-ScreenMargin
+DisplayPortMargins
+:
+:
+Empty
 (
 )
 0

@@ -3177,7 +3177,13 @@ SetDisplayPortMargins
 (
 aElement
 presShell
+DisplayPortMargins
+:
+:
+WithNoAdjustment
+(
 displayportMargins
+)
 aPriority
 )
 ;
