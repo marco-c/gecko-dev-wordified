@@ -247,14 +247,6 @@ mozilla
 LazyLogModule
 gPageCacheLog
 ;
-namespace
-dom
-=
-mozilla
-:
-:
-dom
-;
 static
 uint32_t
 gEntryID
