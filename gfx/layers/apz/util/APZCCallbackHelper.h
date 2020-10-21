@@ -143,17 +143,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-RepaintRequest
-.
-h
-"
-#
-include
-"
 nsRefreshObservers
 .
 h
@@ -197,6 +186,9 @@ PresShell
 namespace
 layers
 {
+struct
+RepaintRequest
+;
 typedef
 std
 :
