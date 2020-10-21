@@ -394,6 +394,7 @@ Selection
 aSelection
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 OnMouseButtonEvent
 (
@@ -405,6 +406,7 @@ WidgetMouseEvent
 aMouseEvent
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleQueryContentEvent
 (
@@ -555,6 +557,7 @@ nullptr
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 Init
 (
@@ -767,6 +770,7 @@ false
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 MaybeReinitialize
 (
@@ -1059,6 +1063,7 @@ GetState
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 bool
 InitWithEditor
 (
@@ -1685,6 +1690,7 @@ true
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 bool
 UpdateSelectionCache
 (
@@ -1976,6 +1982,7 @@ false
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -1992,11 +1999,13 @@ aDocShell
 ;
 private
 :
+MOZ_CAN_RUN_SCRIPT
 void
 SendFocusSet
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SendSelectionChange
 (

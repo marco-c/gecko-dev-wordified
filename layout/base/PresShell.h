@@ -16068,6 +16068,7 @@ group
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DispatchEventToDOM
 (
@@ -16178,6 +16179,7 @@ cancelable
 .
 *
 /
+MOZ_CAN_RUN_SCRIPT
 void
 DispatchTouchEventToDOM
 (
