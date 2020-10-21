@@ -2564,13 +2564,10 @@ mozAccessible
 *
 webArea
 =
-GetNativeFromGeckoAccessible
-(
 [
 self
-geckoDocument
+topWebArea
 ]
-)
 ;
 [
 webArea
