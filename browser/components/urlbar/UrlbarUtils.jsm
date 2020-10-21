@@ -1424,6 +1424,10 @@ update
 /
 telemetry
 documentation
+and
+Scalars
+.
+yaml
 .
 SEARCH_MODE_ENTRY
 :
@@ -1454,6 +1458,9 @@ tabmenu
 "
 "
 tabtosearch
+"
+"
+tabtosearch_onboard
 "
 "
 topsites_newtab

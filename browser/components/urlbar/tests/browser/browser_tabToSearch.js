@@ -1657,7 +1657,7 @@ TEST_ENGINE_NAME
 entry
 :
 "
-tabtosearch
+tabtosearch_onboard
 "
 isPreview
 :
@@ -1700,7 +1700,7 @@ TEST_ENGINE_NAME
 entry
 :
 "
-tabtosearch
+tabtosearch_onboard
 "
 }
 )
@@ -2827,7 +2827,7 @@ TEST_ENGINE_NAME
 entry
 :
 "
-tabtosearch
+tabtosearch_onboard
 "
 isPreview
 :
@@ -2881,7 +2881,7 @@ result
 entry
 :
 "
-tabtosearch
+tabtosearch_onboard
 "
 }
 )
@@ -3154,7 +3154,7 @@ TEST_ENGINE_NAME
 entry
 :
 "
-tabtosearch
+tabtosearch_onboard
 "
 isPreview
 :
@@ -3208,7 +3208,7 @@ result
 entry
 :
 "
-tabtosearch
+tabtosearch_onboard
 "
 }
 )
