@@ -487,17 +487,6 @@ Relaxed
 >
 mTransparencyMode
 ;
-/
-/
-Locked
-back
-buffer
-of
-BasicCompositor
-uint8_t
-*
-mLockedBackBufferData
-;
 std
 :
 :
