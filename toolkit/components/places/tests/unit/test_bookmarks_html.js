@@ -1617,10 +1617,8 @@ skin
 icons
 /
 error
--
-16
 .
-png
+svg
 "
 )
 ;
