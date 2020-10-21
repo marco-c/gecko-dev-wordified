@@ -11037,7 +11037,7 @@ wheelEvent
 =
 aPanInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 nullptr
 )
@@ -12591,7 +12591,7 @@ wheelEvent
 =
 panInput
 .
-ToWidgetWheelEvent
+ToWidgetEvent
 (
 nullptr
 )
