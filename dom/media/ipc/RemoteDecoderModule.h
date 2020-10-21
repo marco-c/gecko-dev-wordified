@@ -240,14 +240,6 @@ aParams
 )
 override
 ;
-protected
-:
-void
-LaunchRDDProcessIfNeeded
-(
-)
-const
-;
 private
 :
 const
@@ -256,10 +248,6 @@ nsCOMPtr
 nsISerialEventTarget
 >
 mManagerThread
-;
-static
-StaticMutex
-sLaunchMonitor
 ;
 }
 ;

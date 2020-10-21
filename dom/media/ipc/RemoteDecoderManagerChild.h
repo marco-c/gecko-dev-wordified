@@ -224,6 +224,12 @@ GetManagerThread
 (
 )
 ;
+static
+void
+LaunchRDDProcessIfNeeded
+(
+)
+;
 /
 /
 Can
@@ -639,6 +645,10 @@ PRemoteDecoderManagerChild
 &
 aEndpoint
 )
+;
+static
+StaticMutex
+sLaunchMonitor
 ;
 RefPtr
 <
