@@ -32799,6 +32799,13 @@ nullptr
 )
 const
 ;
+inline
+bool
+IsTrueOverflowContainer
+(
+)
+const
+;
 /
 /
 Does

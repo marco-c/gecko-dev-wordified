@@ -5610,9 +5610,11 @@ IsEmpty
 )
 |
 |
-IS_TRUE_OVERFLOW_CONTAINER
-(
 aForFrame
+-
+>
+IsTrueOverflowContainer
+(
 )
 |
 |
