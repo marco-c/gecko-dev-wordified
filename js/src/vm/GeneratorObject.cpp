@@ -477,7 +477,7 @@ argsObj
 genObj
 -
 >
-clearExpressionStack
+clearStackStorage
 (
 )
 ;
@@ -606,7 +606,7 @@ MOZ_ASSERT
 genObj
 -
 >
-hasExpressionStack
+hasStackStorage
 (
 )
 |
@@ -614,7 +614,7 @@ hasExpressionStack
 genObj
 -
 >
-isExpressionStackEmpty
+isStackStorageEmpty
 (
 )
 )
@@ -689,7 +689,7 @@ if
 genObj
 -
 >
-hasExpressionStack
+hasStackStorage
 (
 )
 )
@@ -699,7 +699,7 @@ MOZ_ASSERT
 genObj
 -
 >
-expressionStack
+stackStorage
 (
 )
 .
@@ -717,7 +717,7 @@ result
 genObj
 -
 >
-expressionStack
+stackStorage
 (
 )
 .
@@ -749,7 +749,7 @@ MOZ_ASSERT
 genObj
 -
 >
-expressionStack
+stackStorage
 (
 )
 .
@@ -835,7 +835,7 @@ stack
 genObj
 -
 >
-setExpressionStack
+setStackStorage
 (
 *
 stack
@@ -1378,7 +1378,7 @@ if
 genObj
 -
 >
-hasExpressionStack
+hasStackStorage
 (
 )
 &
@@ -1387,7 +1387,7 @@ hasExpressionStack
 genObj
 -
 >
-isExpressionStackEmpty
+isStackStorageEmpty
 (
 )
 )
@@ -1398,7 +1398,7 @@ len
 genObj
 -
 >
-expressionStack
+stackStorage
 (
 )
 .
@@ -1428,7 +1428,7 @@ src
 genObj
 -
 >
-expressionStack
+stackStorage
 (
 )
 .
@@ -1466,7 +1466,7 @@ len
 genObj
 -
 >
-expressionStack
+stackStorage
 (
 )
 .
