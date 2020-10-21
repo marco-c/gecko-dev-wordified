@@ -800,6 +800,11 @@ DisableSpdy
 )
 override
 ;
+void
+DisableHttp3
+(
+)
+;
 nsHttpTransaction
 *
 QueryHttpTransaction
