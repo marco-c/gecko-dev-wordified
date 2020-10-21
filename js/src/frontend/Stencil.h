@@ -444,6 +444,9 @@ struct
 CompilationInfo
 ;
 struct
+CompilationAtomCache
+;
+struct
 CompilationStencil
 ;
 struct
@@ -1872,9 +1875,9 @@ createSpecificScopeData
 JSContext
 *
 cx
-CompilationInfo
+CompilationAtomCache
 &
-compilationInfo
+atomCache
 CompilationGCOutput
 &
 gcOutput
@@ -2677,9 +2680,9 @@ initModule
 JSContext
 *
 cx
-CompilationInfo
+CompilationAtomCache
 &
-compilationInfo
+atomCache
 JS
 :
 :
