@@ -492,9 +492,6 @@ seenEls
 container
 .
 frame
-container
-.
-shadowRoot
 )
 ;
 if
