@@ -160,7 +160,11 @@ false
 )
 {
 }
-virtual
+bool
+Init
+(
+)
+;
 void
 ActorDestroy
 (
@@ -168,8 +172,7 @@ ActorDestroyReason
 aWhy
 )
 override
-{
-}
+;
 mozilla
 :
 :
@@ -200,6 +203,14 @@ RecvShutdownChannel
 (
 )
 ;
+void
+OnMonitoringStateChanged
+(
+bool
+aNewState
+)
+{
+}
 private
 :
 ~
