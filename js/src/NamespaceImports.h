@@ -293,6 +293,10 @@ ObjectOpResult
 class
 PropertyResult
 ;
+struct
+JS_PUBLIC_API
+PropertyDescriptor
+;
 }
 /
 /
@@ -816,6 +820,12 @@ JS
 :
 :
 PropertyResult
+;
+using
+JS
+:
+:
+PropertyDescriptor
 ;
 using
 JS

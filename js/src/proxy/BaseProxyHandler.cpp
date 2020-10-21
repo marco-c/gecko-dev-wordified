@@ -111,6 +111,13 @@ MPL
 #
 include
 "
+NamespaceImports
+.
+h
+"
+#
+include
+"
 js
 /
 Proxy

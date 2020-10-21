@@ -10924,7 +10924,7 @@ SetProxyReservedSlot
 (
 proxy
 OUTER_WINDOW_SLOT
-js
+JS
 :
 :
 PrivateValue
@@ -16301,7 +16301,7 @@ SetProxyReservedSlot
 (
 outer
 OUTER_WINDOW_SLOT
-js
+JS
 :
 :
 PrivateValue
@@ -16420,7 +16420,7 @@ SetProxyReservedSlot
 (
 obj
 OUTER_WINDOW_SLOT
-js
+JS
 :
 :
 PrivateValue
@@ -16436,7 +16436,7 @@ SetProxyReservedSlot
 (
 outerObject
 OUTER_WINDOW_SLOT
-js
+JS
 :
 :
 PrivateValue
@@ -16527,7 +16527,7 @@ SetProxyReservedSlot
 (
 outerObject
 OUTER_WINDOW_SLOT
-js
+JS
 :
 :
 PrivateValue
@@ -18105,7 +18105,7 @@ SetProxyReservedSlot
 (
 localProxy
 OUTER_WINDOW_SLOT
-js
+JS
 :
 :
 PrivateValue

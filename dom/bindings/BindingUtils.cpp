@@ -5275,7 +5275,7 @@ SetFunctionNativeReserved
 (
 constructor
 CONSTRUCTOR_NATIVE_HOLDER_RESERVED_SLOT
-js
+JS
 :
 :
 PrivateValue
