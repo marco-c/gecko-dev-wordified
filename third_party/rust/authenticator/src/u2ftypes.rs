@@ -85,9 +85,6 @@ util
 :
 io_err
 ;
-use
-log
-;
 pub
 fn
 to_hex

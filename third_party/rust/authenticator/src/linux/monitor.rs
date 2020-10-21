@@ -68,9 +68,6 @@ c_ulong
 ;
 use
 libudev
-;
-use
-libudev
 :
 :
 EventType
