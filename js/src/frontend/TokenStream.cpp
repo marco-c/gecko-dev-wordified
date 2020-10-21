@@ -3489,9 +3489,9 @@ TokenStreamCharsBase
 JSContext
 *
 cx
-ParserAtomsTable
+CompilationInfo
 *
-pasrerAtoms
+compilationInfo
 const
 Unit
 *
@@ -3505,7 +3505,7 @@ startOffset
 TokenStreamCharsShared
 (
 cx
-pasrerAtoms
+compilationInfo
 )
 sourceUnits
 (
@@ -3860,9 +3860,9 @@ TokenStreamSpecific
 JSContext
 *
 cx
-ParserAtomsTable
+CompilationInfo
 *
-pasrerAtoms
+compilationInfo
 const
 ReadOnlyCompileOptions
 &
@@ -3882,7 +3882,7 @@ AnyCharsAccess
 >
 (
 cx
-pasrerAtoms
+compilationInfo
 units
 length
 options

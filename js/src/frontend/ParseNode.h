@@ -427,9 +427,6 @@ frontend
 class
 ParseContext
 ;
-class
-ParserAtomsTable
-;
 struct
 CompilationStencil
 ;
@@ -9820,9 +9817,9 @@ toAtom
 JSContext
 *
 cx
-ParserAtomsTable
+CompilationInfo
 &
-parserAtoms
+compilationInfo
 )
 const
 ;

@@ -1640,7 +1640,7 @@ namespace
 frontend
 {
 struct
-CompilationAtomCache
+CompilationInfo
 ;
 class
 StencilXDR
@@ -4154,9 +4154,9 @@ cx
 frontend
 :
 :
-CompilationAtomCache
+CompilationInfo
 &
-atomCache
+compilationInfo
 const
 ObjLiteralAtomVector
 &
@@ -4186,9 +4186,9 @@ cx
 frontend
 :
 :
-CompilationAtomCache
+CompilationInfo
 &
-atomCache
+compilationInfo
 const
 ObjLiteralAtomVector
 &
@@ -4203,7 +4203,7 @@ return
 InterpretObjLiteral
 (
 cx
-atomCache
+compilationInfo
 atoms
 writer
 .
@@ -4316,9 +4316,9 @@ cx
 frontend
 :
 :
-CompilationAtomCache
+CompilationInfo
 &
-atomCache
+info
 )
 const
 ;
