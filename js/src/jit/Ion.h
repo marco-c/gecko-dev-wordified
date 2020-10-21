@@ -319,9 +319,6 @@ bool
 force
 )
 ;
-struct
-EnterJitData
-;
 /
 /
 Walk
