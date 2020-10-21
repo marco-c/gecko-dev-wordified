@@ -1605,9 +1605,6 @@ StoreOp
 clear_value
 :
 T
-read_only
-:
-bool
 }
 /
 /
@@ -1663,9 +1660,6 @@ T
 default
 (
 )
-read_only
-:
-false
 }
 }
 }

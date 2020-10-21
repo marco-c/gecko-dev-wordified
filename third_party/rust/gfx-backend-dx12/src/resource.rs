@@ -4197,9 +4197,6 @@ by
 this
 DescriptorHeapSlice
 .
-/
-/
-/
 Do
 not
 use
@@ -4275,13 +4272,6 @@ handle_range
 )
 ;
 }
-/
-/
-/
-Clear
-the
-allocator
-.
 pub
 (
 crate
