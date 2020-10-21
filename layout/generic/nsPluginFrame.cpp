@@ -9790,7 +9790,7 @@ mMessage
 ePluginActivate
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -9848,7 +9848,7 @@ mMessage
 ePluginFocus
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

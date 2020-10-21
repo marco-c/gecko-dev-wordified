@@ -2769,7 +2769,7 @@ GetWindow
 (
 )
 ;
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -19253,7 +19253,7 @@ IsInComposedDoc
 {
 if
 (
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

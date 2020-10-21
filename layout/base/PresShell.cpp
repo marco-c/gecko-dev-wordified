@@ -20730,7 +20730,7 @@ GetWindow
 (
 )
 ;
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -44175,7 +44175,7 @@ GetFocusedContentInOurWindow
 )
 const
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

@@ -25968,7 +25968,7 @@ mNeedsFocus
 =
 false
 ;
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -26042,7 +26042,7 @@ is
 being
 destroyed
 .
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
