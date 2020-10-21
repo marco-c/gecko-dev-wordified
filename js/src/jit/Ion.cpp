@@ -221,6 +221,15 @@ include
 "
 jit
 /
+AutoWritableJitCode
+.
+h
+"
+#
+include
+"
+jit
+/
 BacktrackingAllocator
 .
 h
