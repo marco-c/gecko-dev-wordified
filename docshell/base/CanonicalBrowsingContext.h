@@ -225,6 +225,9 @@ nsBrowserStatusFilter
 class
 nsSecureBrowserUI
 ;
+class
+CallerWillNotifyHistoryIndexAndLengthChanges
+;
 namespace
 mozilla
 {
@@ -1618,6 +1621,11 @@ int32_t
 aLength
 )
 ;
+void
+HistoryCommitIndexAndLength
+(
+)
+;
 protected
 :
 /
@@ -1896,6 +1904,10 @@ const
 nsID
 &
 aChangeID
+const
+CallerWillNotifyHistoryIndexAndLengthChanges
+&
+aProofOfCaller
 )
 ;
 /
