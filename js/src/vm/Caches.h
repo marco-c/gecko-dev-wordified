@@ -122,13 +122,6 @@ new
 #
 include
 "
-jsmath
-.
-h
-"
-#
-include
-"
 frontend
 /
 SourceNotes

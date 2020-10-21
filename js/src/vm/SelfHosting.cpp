@@ -195,6 +195,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 selfhosted
 .
 out

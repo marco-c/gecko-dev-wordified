@@ -128,6 +128,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 jit
 /
 JitFrames

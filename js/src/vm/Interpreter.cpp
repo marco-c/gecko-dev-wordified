@@ -199,6 +199,13 @@ h
 #
 include
 "
+jsmath
+.
+h
+"
+#
+include
+"
 jsnum
 .
 h
