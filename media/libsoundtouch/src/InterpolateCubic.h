@@ -575,6 +575,16 @@ InterpolateCubic
 (
 )
 ;
+int
+getLatency
+(
+)
+const
+{
+return
+1
+;
+}
 }
 ;
 }

@@ -624,6 +624,16 @@ InterpolateShannon
 (
 )
 ;
+int
+getLatency
+(
+)
+const
+{
+return
+3
+;
+}
 }
 ;
 }

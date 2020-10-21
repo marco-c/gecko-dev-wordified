@@ -744,6 +744,15 @@ int
 channels
 )
 ;
+virtual
+int
+getLatency
+(
+)
+const
+=
+0
+;
 /
 /
 static
