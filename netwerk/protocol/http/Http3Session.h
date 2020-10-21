@@ -1087,6 +1087,16 @@ Http3Stream
 >
 mCannotDo0RTTStreams
 ;
+/
+/
+The
+following
+variables
+are
+needed
+for
+telemetry
+.
 TimeStamp
 mConnectionIdleStart
 ;
@@ -1098,6 +1108,9 @@ Maybe
 uint64_t
 >
 mFirstStreamIdReuseIdleConnection
+;
+TimeStamp
+mTimerShouldTrigger
 ;
 }
 ;
