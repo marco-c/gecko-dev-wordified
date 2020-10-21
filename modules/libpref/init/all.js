@@ -30874,12 +30874,6 @@ defined
 (
 RELEASE_OR_BETA
 )
-|
-|
-defined
-(
-MOZ_WIDGET_ANDROID
-)
 pref
 (
 "
