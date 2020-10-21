@@ -12673,6 +12673,14 @@ AsLengthPercentage
 ;
 }
 }
+if
+(
+specifiedSizeSuggestion
+!
+=
+nscoord_MAX
+)
+{
 /
 /
 Clamp
@@ -12688,6 +12696,7 @@ size
 property
 if
 it
+'
 s
 /
 /
@@ -12721,14 +12730,6 @@ MainMaxSize
 )
 ;
 }
-if
-(
-specifiedSizeSuggestion
-!
-=
-nscoord_MAX
-)
-{
 /
 /
 We
