@@ -476,12 +476,6 @@ thread
 only
 static
 void
-InitializeThread
-(
-)
-;
-static
-void
 InitForRDDProcess
 (
 Endpoint
@@ -695,6 +689,12 @@ PRemoteDecoderManagerChild
 &
 &
 aEndpoint
+)
+;
+static
+void
+InitializeThread
+(
 )
 ;
 RefPtr

@@ -183,12 +183,6 @@ Args
 public
 :
 static
-void
-Init
-(
-)
-;
-static
 already_AddRefed
 <
 PlatformDecoderModule
