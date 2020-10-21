@@ -168,8 +168,8 @@ frontend
 class
 ParserAtom
 ;
-struct
-CompilationInfo
+class
+ParserAtomsTable
 ;
 }
 /
@@ -2202,9 +2202,9 @@ finishParserAtom
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 )
 ;
 /
