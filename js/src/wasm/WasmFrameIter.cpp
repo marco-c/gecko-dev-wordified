@@ -189,6 +189,15 @@ h
 #
 include
 "
+jit
+/
+JitFrames
+.
+h
+"
+#
+include
+"
 vm
 /
 JitActivation

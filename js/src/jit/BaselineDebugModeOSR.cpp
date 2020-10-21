@@ -167,6 +167,15 @@ include
 "
 jit
 /
+JitFrames
+.
+h
+"
+#
+include
+"
+jit
+/
 JitRuntime
 .
 h
@@ -194,7 +203,7 @@ include
 "
 jit
 /
-JitFrames
+JSJitFrameIter
 -
 inl
 .

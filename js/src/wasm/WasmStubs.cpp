@@ -214,6 +214,15 @@ include
 "
 jit
 /
+JitFrames
+.
+h
+"
+#
+include
+"
+jit
+/
 JitScript
 .
 h

@@ -290,17 +290,6 @@ TraceLoggingGraph
 .
 h
 "
-#
-include
-"
-jit
-/
-JitFrames
--
-inl
-.
-h
-"
 using
 namespace
 js
