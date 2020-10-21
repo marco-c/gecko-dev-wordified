@@ -77,6 +77,12 @@ untriaged
 "
 )
 ;
+SimpleTest
+.
+requestCompleteLog
+(
+)
+;
 add_task
 (
 async
