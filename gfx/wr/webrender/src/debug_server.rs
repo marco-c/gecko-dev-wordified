@@ -69,11 +69,11 @@ use
 api
 :
 :
-crossbeam_channel
+channel
 :
 :
 {
-bounded
+fast_channel
 Sender
 Receiver
 }
@@ -967,7 +967,7 @@ debug_tx
 debug_rx
 )
 =
-bounded
+fast_channel
 (
 64
 )
