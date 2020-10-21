@@ -1194,17 +1194,6 @@ interpretOpNoDebugTrapAddr
 .
 value
 ;
-/
-/
-Note
-:
-keep
-this
-in
-sync
-with
-SetEnterJitData
-.
 data
 .
 osrFrame
