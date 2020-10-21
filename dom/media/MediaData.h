@@ -2666,6 +2666,10 @@ default
 ;
 private
 :
+friend
+class
+ArrayOfRemoteAudioData
+;
 AudioDataValue
 *
 GetAdjustedData

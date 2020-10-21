@@ -299,13 +299,13 @@ virtual
 MediaResult
 ProcessDecodedData
 (
-const
 MediaDataDecoder
 :
 :
 DecodedData
 &
-aDatam
+&
+aData
 DecodedOutputIPDL
 &
 aDecodedData
@@ -347,7 +347,10 @@ ArrayOfRemoteMediaRawData
 aData
 size_t
 aIndex
-DecodedOutputIPDL
+MediaDataDecoder
+:
+:
+DecodedData
 &
 &
 aOutput
