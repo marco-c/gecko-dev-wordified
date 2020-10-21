@@ -162,7 +162,7 @@ this
 .
 autocloseTiming
 =
-3500
+4500
 ;
 this
 .
