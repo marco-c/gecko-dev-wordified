@@ -3333,7 +3333,7 @@ keys
 }
 else
 {
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 entry
 .
