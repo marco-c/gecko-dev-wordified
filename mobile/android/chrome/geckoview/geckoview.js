@@ -1332,6 +1332,14 @@ browser
 ;
 this
 .
+browser
+.
+restoreProgressListeners
+(
+)
+;
+this
+.
 messageManager
 .
 addMessageListener
