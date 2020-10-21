@@ -1464,6 +1464,15 @@ aColor
 )
 ;
 void
+SetProfilerUI
+(
+const
+nsCString
+&
+aUIString
+)
+;
+void
 Pause
 (
 )
