@@ -195,3 +195,13 @@ FINAL_LIBRARY
 '
 browsercomps
 '
+EXTRA_JS_MODULES
++
+=
+[
+'
+MacAttribution
+.
+jsm
+'
+]
