@@ -8734,7 +8734,7 @@ PipeToState
 state
 (
 cx
-NewBuiltinClassInstance
+NewTenuredBuiltinClassInstance
 <
 PipeToState
 >
