@@ -511,6 +511,15 @@ Type
 #
 include
 "
+proxy
+/
+DOMProxy
+.
+h
+"
+#
+include
+"
 util
 /
 CheckedArithmetic

@@ -277,6 +277,15 @@ h
 #
 include
 "
+proxy
+/
+DOMProxy
+.
+h
+"
+#
+include
+"
 vm
 /
 Iteration
