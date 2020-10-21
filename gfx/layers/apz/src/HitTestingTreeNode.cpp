@@ -77,17 +77,6 @@ AsyncPanZoomController
 #
 include
 "
-LayersLogging
-.
-h
-"
-/
-/
-for
-Stringify
-#
-include
-"
 mozilla
 /
 StaticPrefs_layout
@@ -2632,7 +2621,7 @@ mEventRegions
 c_str
 (
 )
-Stringify
+ToString
 (
 mTransform
 )
