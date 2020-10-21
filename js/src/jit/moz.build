@@ -171,6 +171,11 @@ AlignmentMaskAnalysis
 cpp
 '
 '
+AutoDetectInvalidation
+.
+cpp
+'
+'
 BacktrackingAllocator
 .
 cpp
