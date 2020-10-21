@@ -166,6 +166,10 @@ Rect
 &
 aRect
 const
+ComputedStyle
+&
+aStyle
+const
 EventStates
 &
 aState
@@ -183,6 +187,10 @@ Rect
 &
 aRect
 const
+ComputedStyle
+&
+aStyle
+const
 EventStates
 &
 aState
@@ -199,6 +207,10 @@ const
 Rect
 &
 aRect
+const
+ComputedStyle
+&
+aStyle
 bool
 aIsRoot
 )
@@ -214,6 +226,10 @@ const
 Rect
 &
 aRect
+const
+ComputedStyle
+&
+aStyle
 uint32_t
 aDpiRatio
 bool
