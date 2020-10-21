@@ -462,7 +462,7 @@ MOZ_ASSERT
 aPresContext
 -
 >
-UsesExChUnits
+UsesFontMetricsFromStyle
 (
 )
 )
@@ -1288,7 +1288,7 @@ No
 pc
 -
 >
-UsesExChUnits
+UsesFontMetricsFromStyle
 (
 )
 )
