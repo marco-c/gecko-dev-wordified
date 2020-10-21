@@ -1036,6 +1036,7 @@ JSContext
 *
 cx
 )
+const
 {
 mozilla
 :
@@ -1070,6 +1071,7 @@ bool
 isZero
 (
 )
+const
 {
 mozilla
 :
