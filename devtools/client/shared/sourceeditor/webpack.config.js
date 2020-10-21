@@ -486,7 +486,6 @@ minimize
 !
 (
 argv
-?
 .
 optimization
 &
