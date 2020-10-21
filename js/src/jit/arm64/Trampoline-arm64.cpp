@@ -210,6 +210,15 @@ JitActivation
 #
 include
 "
+vm
+/
+JSContext
+.
+h
+"
+#
+include
+"
 jit
 /
 MacroAssembler
