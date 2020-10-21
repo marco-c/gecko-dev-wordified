@@ -5329,7 +5329,7 @@ sub64
 '
 i8x16
 .
-add_saturate_s
+add_sat_s
 '
 Int8Array
 add_sat_s
@@ -5341,7 +5341,7 @@ add_sat_s
 '
 i8x16
 .
-add_saturate_u
+add_sat_u
 '
 Uint8Array
 add_sat_u
@@ -5353,7 +5353,7 @@ add_sat_u
 '
 i16x8
 .
-add_saturate_s
+add_sat_s
 '
 Int16Array
 add_sat_s
@@ -5365,7 +5365,7 @@ add_sat_s
 '
 i16x8
 .
-add_saturate_u
+add_sat_u
 '
 Uint16Array
 add_sat_u
@@ -5377,7 +5377,7 @@ add_sat_u
 '
 i8x16
 .
-sub_saturate_s
+sub_sat_s
 '
 Int8Array
 sub_sat_s
@@ -5389,7 +5389,7 @@ sub_sat_s
 '
 i8x16
 .
-sub_saturate_u
+sub_sat_u
 '
 Uint8Array
 sub_sat_u
@@ -5401,7 +5401,7 @@ sub_sat_u
 '
 i16x8
 .
-sub_saturate_s
+sub_sat_s
 '
 Int16Array
 sub_sat_s
@@ -5413,7 +5413,7 @@ sub_sat_s
 '
 i16x8
 .
-sub_saturate_u
+sub_sat_u
 '
 Uint16Array
 sub_sat_u
@@ -17716,9 +17716,9 @@ const
 0
 )
 (
-v8x16
+v128
 .
-load_splat
+load8_splat
 (
 local
 .
@@ -17752,9 +17752,9 @@ const
 0
 )
 (
-v16x8
+v128
 .
-load_splat
+load16_splat
 (
 local
 .
@@ -17788,9 +17788,9 @@ const
 0
 )
 (
-v32x4
+v128
 .
-load_splat
+load32_splat
 (
 local
 .
@@ -17824,9 +17824,9 @@ const
 0
 )
 (
-v64x2
+v128
 .
-load_splat
+load64_splat
 (
 local
 .
@@ -18120,7 +18120,7 @@ const
 0
 )
 (
-i16x8
+v128
 .
 load8x8_s
 (
@@ -18156,7 +18156,7 @@ const
 0
 )
 (
-i16x8
+v128
 .
 load8x8_u
 (
@@ -18192,7 +18192,7 @@ const
 0
 )
 (
-i32x4
+v128
 .
 load16x4_s
 (
@@ -18228,7 +18228,7 @@ const
 0
 )
 (
-i32x4
+v128
 .
 load16x4_u
 (
@@ -18264,7 +18264,7 @@ const
 0
 )
 (
-i64x2
+v128
 .
 load32x2_s
 (
@@ -18300,7 +18300,7 @@ const
 0
 )
 (
-i64x2
+v128
 .
 load32x2_u
 (
@@ -19023,7 +19023,7 @@ const
 0
 )
 (
-v8x16
+i8x16
 .
 shuffle
 0
@@ -19093,7 +19093,7 @@ const
 0
 )
 (
-v8x16
+i8x16
 .
 shuffle
 8
@@ -19368,7 +19368,7 @@ const
 0
 )
 (
-v8x16
+i8x16
 .
 swizzle
 (

@@ -101,7 +101,7 @@ shuffle
 +
 blend
 for
-v8x16
+i8x16
 .
 shuffle
 ;
@@ -254,7 +254,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -430,7 +430,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -626,7 +626,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -850,7 +850,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -1046,7 +1046,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -1241,7 +1241,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -1435,7 +1435,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -1628,7 +1628,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -1828,7 +1828,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -2032,7 +2032,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -2265,7 +2265,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -2499,7 +2499,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -2724,7 +2724,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -2957,7 +2957,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -3187,7 +3187,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -3420,7 +3420,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -3658,7 +3658,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -3899,7 +3899,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -4189,7 +4189,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -4482,7 +4482,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -4788,7 +4788,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -5018,7 +5018,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -5263,7 +5263,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -5483,7 +5483,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -5688,7 +5688,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -5871,7 +5871,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -6054,7 +6054,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -6243,7 +6243,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -6429,7 +6429,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -6604,7 +6604,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -6782,7 +6782,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -6961,7 +6961,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {
@@ -7137,7 +7137,7 @@ result
 v128
 )
 (
-v8x16
+i8x16
 .
 shuffle
 {

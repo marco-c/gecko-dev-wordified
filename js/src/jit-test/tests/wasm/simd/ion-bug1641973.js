@@ -29,7 +29,7 @@ the
 subsequent
 /
 /
-v8x16
+i8x16
 .
 shuffle
 popping
@@ -83,7 +83,7 @@ v128
 unreachable
 )
 (
-v8x16
+i8x16
 .
 shuffle
 0
