@@ -9413,7 +9413,7 @@ readComparison
 RefType
 :
 :
-extern_
+eq
 (
 )
 &

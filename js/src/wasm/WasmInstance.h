@@ -1828,8 +1828,6 @@ Instance
 *
 instance
 uint32_t
-mustUnboxAnyref
-uint32_t
 outputTypeIndex
 void
 *

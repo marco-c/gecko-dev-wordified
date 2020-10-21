@@ -15571,7 +15571,7 @@ if
 outputType
 -
 >
-isExternRef
+isEqRef
 (
 )
 )
@@ -15582,7 +15582,7 @@ if
 inputType
 -
 >
-isExternRef
+isEqRef
 (
 )
 )

@@ -6023,7 +6023,7 @@ ArgType_Int32
 ArgType_Int32
 }
 )
-Args_General_GeneralInt32Int32General
+Args_General_GeneralInt32General
 =
 detail
 :
@@ -6033,7 +6033,6 @@ MakeABIFunctionType
 ArgType_General
 {
 ArgType_General
-ArgType_Int32
 ArgType_Int32
 ArgType_General
 }
