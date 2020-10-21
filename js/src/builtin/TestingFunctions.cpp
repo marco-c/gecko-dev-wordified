@@ -12019,6 +12019,13 @@ cx
 JS
 :
 :
+TracerKind
+:
+:
+Callback
+JS
+:
+:
 WeakMapTraceAction
 :
 :

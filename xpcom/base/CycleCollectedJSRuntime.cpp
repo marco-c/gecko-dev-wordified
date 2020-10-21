@@ -2767,6 +2767,13 @@ aRt
 JS
 :
 :
+TracerKind
+:
+:
+Callback
+JS
+:
+:
 WeakMapTraceAction
 :
 :
@@ -5040,6 +5047,13 @@ JS
 CallbackTracer
 (
 aRuntime
+JS
+:
+:
+TracerKind
+:
+:
+Callback
 JS
 :
 :
