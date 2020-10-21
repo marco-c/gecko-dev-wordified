@@ -269,6 +269,16 @@ override
 gfx
 :
 :
+ColorDepth
+GetColorDepth
+(
+)
+const
+override
+;
+gfx
+:
+:
 ColorRange
 GetColorRange
 (
