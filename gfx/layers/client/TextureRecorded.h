@@ -260,6 +260,13 @@ OnForwardedToHost
 )
 final
 ;
+TextureFlags
+GetTextureFlags
+(
+)
+const
+final
+;
 private
 :
 DISALLOW_COPY_AND_ASSIGN
