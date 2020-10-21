@@ -12722,8 +12722,12 @@ OwnerDoc
 ;
 dynamicSubframeRemoval
 =
-!
-mIsTopLevelContent
+mPendingBrowsingContext
+-
+>
+IsFrame
+(
+)
 &
 &
 !
