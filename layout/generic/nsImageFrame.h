@@ -1661,6 +1661,11 @@ aFrameContentBox
 ;
 private
 :
+void
+MaybeRecordContentUrlOnImageTelemetry
+(
+)
+;
 /
 /
 random
