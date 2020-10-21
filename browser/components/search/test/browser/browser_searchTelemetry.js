@@ -103,7 +103,7 @@ TEST_PROVIDER_INFO
 example
 :
 {
-regexp
+searchPageRegexp
 :
 /
 ^
@@ -149,12 +149,12 @@ Ad
 .
 html
 /
-queryParam
+queryParamName
 :
 "
 s
 "
-codeParam
+codeParamName
 :
 "
 abc
@@ -166,7 +166,7 @@ codePrefixes
 ff
 "
 ]
-followonParams
+followOnParamNames
 :
 [
 "

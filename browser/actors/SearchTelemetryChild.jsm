@@ -677,7 +677,7 @@ info
 >
 info
 .
-regexp
+searchPageRegexp
 .
 test
 (
