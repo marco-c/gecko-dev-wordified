@@ -480,7 +480,7 @@ it
 is
 compiled
 .
-WasmABIArgGenerator
+ABIArgGenerator
 abi_
 ;
 /
@@ -993,7 +993,7 @@ false
 }
 for
 (
-WasmABIArgIter
+ABIArgIter
 i
 (
 args
