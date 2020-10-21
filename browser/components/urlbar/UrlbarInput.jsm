@@ -18601,6 +18601,16 @@ if
 this
 .
 searchMode
+|
+|
+!
+this
+.
+view
+.
+oneOffSearchButtons
+.
+hasView
 )
 {
 this
