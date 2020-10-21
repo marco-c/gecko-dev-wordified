@@ -244,12 +244,7 @@ true
 microphone
 *
 /
-true
-/
-*
-screen
-*
-/
+SHARE_SCREEN
 )
 ;
 let
@@ -476,7 +471,7 @@ tab1
 linkedBrowser
 true
 true
-true
+SHARE_SCREEN
 )
 ;
 info
@@ -518,7 +513,7 @@ tab2
 linkedBrowser
 true
 false
-true
+SHARE_SCREEN
 )
 ;
 let
