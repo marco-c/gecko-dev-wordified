@@ -21386,14 +21386,6 @@ GetShadowRoot
 if
 (
 originalShadowRoot
-&
-&
-originalShadowRoot
--
->
-ShouldStaticClone
-(
-)
 )
 {
 RefPtr

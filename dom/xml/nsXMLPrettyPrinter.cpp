@@ -700,13 +700,6 @@ here
 "
 )
 ;
-shadowRoot
--
->
-SetIsStaticUAWidget
-(
-)
-;
 /
 /
 Append
