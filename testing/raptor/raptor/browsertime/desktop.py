@@ -167,6 +167,19 @@ binary_path
 )
 )
         
+args_list
+=
+[
+"
+-
+-
+viewPort
+"
+"
+1024x768
+"
+]
+        
 if
 self
 .
@@ -176,28 +189,32 @@ config
 app
 "
 ]
-=
-=
+in
+(
 "
 chrome
 "
+"
+chromium
+"
+)
 :
             
 return
+args_list
++
 [
+                
 "
 -
 -
 browser
 "
-self
-.
-config
-[
+                
 "
-app
+chrome
 "
-]
+                
 "
 -
 -
@@ -205,10 +222,26 @@ chrome
 .
 binaryPath
 "
+                
 binary_path
+                
+"
+-
+-
+xvfbParams
+.
+display
+"
+                
+"
+0
+"
+            
 ]
         
 return
+args_list
++
 [
 "
 -
@@ -274,8 +307,9 @@ raptor
         
 chrome_args
 .
-append
+extend
 (
+[
 "
 -
 -
@@ -285,6 +319,7 @@ first
 -
 run
 "
+]
 )
         
 btime_chrome_args

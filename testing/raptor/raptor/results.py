@@ -3579,6 +3579,7 @@ self
 app
                         
 and
+(
 "
 chrome
 "
@@ -3589,6 +3590,19 @@ app
 .
 lower
 (
+)
+or
+"
+chromium
+"
+in
+self
+.
+app
+.
+lower
+(
+)
 )
                         
 and
