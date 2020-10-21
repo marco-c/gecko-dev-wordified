@@ -1300,10 +1300,10 @@ script
 ;
 pc
 =
-info_
+script_
 -
 >
-startPC
+code
 (
 )
 ;
