@@ -10249,6 +10249,8 @@ const
 MediaFeatureChange
 &
 aChange
+RecurseIntoInProcessSubDocuments
+aRecurseSubDocuments
 )
 {
 /
@@ -10301,6 +10303,17 @@ MediaFeatureValuesChangedAllDocuments
 aChange
 )
 ;
+if
+(
+aRecurseSubDocuments
+=
+=
+RecurseIntoInProcessSubDocuments
+:
+:
+Yes
+)
+{
 /
 /
 And
@@ -10315,6 +10328,7 @@ recurse
 [
 &
 aChange
+aRecurseSubDocuments
 ]
 (
 dom
@@ -10344,6 +10358,7 @@ pc
 MediaFeatureValuesChangedAllDocuments
 (
 aChange
+aRecurseSubDocuments
 )
 ;
 }
@@ -10363,6 +10378,7 @@ EnumerateSubDocuments
 recurse
 )
 ;
+}
 }
 void
 nsPresContext
