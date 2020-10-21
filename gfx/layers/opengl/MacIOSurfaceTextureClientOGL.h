@@ -240,6 +240,16 @@ aOutDescriptor
 override
 ;
 void
+GetSubDescriptor
+(
+RemoteDecoderVideoSubDescriptor
+*
+const
+aOutDesc
+)
+override
+;
+void
 Deallocate
 (
 LayersIPCChannel
