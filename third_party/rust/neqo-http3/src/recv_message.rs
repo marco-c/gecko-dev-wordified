@@ -1024,6 +1024,9 @@ decoder
 &
 mut
 QPackDecoder
+post_readable_event
+:
+bool
 )
 {
 /
@@ -1143,6 +1146,9 @@ WaitingForFinAfterTrailers
 =
 >
 {
+if
+post_readable_event
+{
 self
 .
 conn_events
@@ -1153,6 +1159,7 @@ self
 .
 stream_id
 )
+}
 }
 _
 =
@@ -1483,6 +1490,7 @@ self
 set_state_to_close_pending
 (
 decoder
+post_readable_event
 )
 ;
 break
@@ -1540,11 +1548,16 @@ state
 :
 ?
 }
+fin
+=
+{
+}
 "
 frame
 self
 .
 state
+fin
 )
 ;
 match
@@ -1665,6 +1678,7 @@ self
 set_state_to_close_pending
 (
 decoder
+post_readable_event
 )
 ;
 break

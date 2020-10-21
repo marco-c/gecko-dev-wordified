@@ -116,6 +116,7 @@ neqo_transport
 :
 :
 {
+CongestionControlAlgorithm
 Connection
 FixedConnectionIdManager
 QuicVersion
@@ -516,6 +517,11 @@ new
 )
 )
 )
+&
+CongestionControlAlgorithm
+:
+:
+NewReno
 quic_version
 )
 .
