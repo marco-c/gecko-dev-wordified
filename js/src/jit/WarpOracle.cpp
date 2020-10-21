@@ -6307,6 +6307,7 @@ inlineData
 FindInlinableOpData
 (
 stub
+loc
 )
 ;
 if
