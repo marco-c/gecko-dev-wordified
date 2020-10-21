@@ -1078,6 +1078,8 @@ CheckBacktrackStackLimit
 (
 )
 ;
+public
+:
 static
 bool
 GrowBacktrackStack
@@ -1119,6 +1121,8 @@ size_t
 byteLength
 )
 ;
+private
+:
 inline
 int
 char_size
