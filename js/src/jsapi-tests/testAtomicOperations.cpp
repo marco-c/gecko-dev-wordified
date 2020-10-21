@@ -327,7 +327,7 @@ Lock
 -
 freedom
 predicates
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicLockFree8
 )
@@ -449,7 +449,7 @@ but
 and
 2
 .
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicLockFreeJS
 )
@@ -741,7 +741,7 @@ not
 observable
 here
 .
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicFence
 )
@@ -1757,7 +1757,7 @@ A
 \
 return
 true
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsU8
 )
@@ -1786,7 +1786,7 @@ END_TEST
 (
 testAtomicOperationsU8
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsI8
 )
@@ -1815,7 +1815,7 @@ END_TEST
 (
 testAtomicOperationsI8
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsU16
 )
@@ -1844,7 +1844,7 @@ END_TEST
 (
 testAtomicOperationsU16
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsI16
 )
@@ -1873,7 +1873,7 @@ END_TEST
 (
 testAtomicOperationsI16
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsU32
 )
@@ -1902,7 +1902,7 @@ END_TEST
 (
 testAtomicOperationsU32
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsI32
 )
@@ -1931,7 +1931,7 @@ END_TEST
 (
 testAtomicOperationsI32
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsU64
 )
@@ -1980,7 +1980,7 @@ END_TEST
 (
 testAtomicOperationsU64
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsI64
 )
@@ -2475,7 +2475,7 @@ A
 \
 return
 true
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsF32
 )
@@ -2511,7 +2511,7 @@ END_TEST
 (
 testAtomicOperationsF32
 )
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsF64
 )
@@ -2665,7 +2665,7 @@ B
 \
 return
 true
-BEGIN_TEST
+BEGIN_REUSABLE_TEST
 (
 testAtomicOperationsU8Clamped
 )
