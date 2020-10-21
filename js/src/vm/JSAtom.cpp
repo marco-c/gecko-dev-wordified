@@ -7352,6 +7352,9 @@ std
 is_same_v
 <
 CharsT
+JS
+:
+:
 WTF8Chars
 >
 )
@@ -7438,6 +7441,9 @@ wtf8ByteLength
 return
 AtomizeUTF8OrWTF8Chars
 <
+JS
+:
+:
 WTF8Chars
 >
 (
