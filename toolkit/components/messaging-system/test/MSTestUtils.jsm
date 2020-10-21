@@ -264,9 +264,9 @@ true
 )
 ;
 }
-waitForStoreUpdate
+waitForExperimentUpdate
 (
-store
+ExperimentAPI
 slug
 )
 {
@@ -298,7 +298,7 @@ Promise
 resolve
 =
 >
-store
+ExperimentAPI
 .
 on
 (
