@@ -3725,6 +3725,14 @@ AddrHostRecord
 result
 )
 ;
+void
+MaybeRenewHostRecordLocked
+(
+nsHostRecord
+*
+aRec
+)
+;
 /
 /
 Removes
