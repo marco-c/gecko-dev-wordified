@@ -448,11 +448,6 @@ nsIStandaloneNativeMenu
 idl
 '
 '
-nsISystemStatusBar
-.
-idl
-'
-'
 nsITaskbarProgress
 .
 idl
@@ -715,6 +710,11 @@ idl
 '
 '
 nsISound
+.
+idl
+'
+'
+nsISystemStatusBar
 .
 idl
 '
