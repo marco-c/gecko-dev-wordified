@@ -10417,7 +10417,7 @@ docs
 .
 devices
 .
-sort
+sort_unstable
 (
 )
 ;
