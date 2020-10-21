@@ -147,6 +147,7 @@ bootstrap
 (
 {
 targetList
+resourceWatcher
 devToolsClient
 workers
 panel
@@ -169,6 +170,7 @@ firefox
 "
 }
 targetList
+resourceWatcher
 devToolsClient
 }
 workers
