@@ -164,13 +164,6 @@ js
 '
 modules
 /
-bookmark_repair
-.
-js
-'
-'
-modules
-/
 bookmark_validator
 .
 js
@@ -186,13 +179,6 @@ js
 modules
 /
 browserid_identity
-.
-js
-'
-'
-modules
-/
-collection_repair
 .
 js
 '
