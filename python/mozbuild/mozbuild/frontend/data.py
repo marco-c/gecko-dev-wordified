@@ -4700,7 +4700,7 @@ context
 .
 config
 .
-rust_lib_prefix
+lib_prefix
                                     
 basename
 .
@@ -4718,7 +4718,7 @@ context
 .
 config
 .
-rust_lib_suffix
+lib_suffix
 )
         
 self
