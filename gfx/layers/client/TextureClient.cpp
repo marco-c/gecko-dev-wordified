@@ -1971,11 +1971,9 @@ LAYERS_WR
 aKnowsCompositor
 -
 >
-GetTextureFactoryIdentifier
+UsingSoftwareWebRender
 (
 )
-.
-mUsingSoftwareWebRender
 )
 )
 &
@@ -2109,6 +2107,7 @@ LayersBackend
 LAYERS_OPENGL
 |
 |
+(
 layersBackend
 =
 =
@@ -2116,6 +2115,16 @@ LayersBackend
 :
 :
 LAYERS_WR
+&
+&
+!
+aKnowsCompositor
+-
+>
+UsingSoftwareWebRender
+(
+)
+)
 )
 &
 &
