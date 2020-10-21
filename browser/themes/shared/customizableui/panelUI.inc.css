@@ -6404,7 +6404,7 @@ var
 -
 panel
 -
-disabled
+description
 -
 color
 )
@@ -7260,7 +7260,7 @@ var
 -
 panel
 -
-disabled
+description
 -
 color
 )
@@ -7749,7 +7749,7 @@ var
 -
 panel
 -
-disabled
+description
 -
 color
 )
@@ -10162,7 +10162,7 @@ var
 -
 panel
 -
-disabled
+description
 -
 color
 )
@@ -12133,7 +12133,7 @@ var
 -
 panel
 -
-disabled
+description
 -
 color
 )
@@ -13293,7 +13293,7 @@ var
 -
 panel
 -
-disabled
+description
 -
 color
 )
@@ -16473,11 +16473,18 @@ size
 :
 12px
 ;
-opacity
+color
 :
-0
-.
-75
+var
+(
+-
+-
+panel
+-
+description
+-
+color
+)
 ;
 }
 #
