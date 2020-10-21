@@ -1866,7 +1866,9 @@ This
 will
 force
 calling
-watchTargetResources
+Resources
+.
+watchResources
 on
 the
 new

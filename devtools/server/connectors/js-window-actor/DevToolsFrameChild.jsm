@@ -2377,7 +2377,7 @@ const
 {
 watcherActorID
 connectionPrefix
-watchedResources
+watchedData
 }
 =
 message
@@ -2391,7 +2391,7 @@ _createTargetActor
 (
 watcherActorID
 connectionPrefix
-watchedResources
+watchedData
 )
 ;
 }

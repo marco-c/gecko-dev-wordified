@@ -1232,7 +1232,8 @@ actor
 already
 passed
 to
-watchTargetResources
+watchResources
+.
 *
 param
 Array
