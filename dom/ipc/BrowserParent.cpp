@@ -1073,6 +1073,13 @@ nsISecureBrowserUI
 h
 "
 #
+include
+"
+nsIXULRuntime
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -21713,10 +21720,10 @@ enabled
 if
 (
 !
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

@@ -1192,6 +1192,13 @@ nsWindowWatcher
 h
 "
 #
+include
+"
+nsIXULRuntime
+.
+h
+"
+#
 ifdef
 XP_WIN
 #
@@ -21391,10 +21398,10 @@ early
 .
 if
 (
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

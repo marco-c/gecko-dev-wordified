@@ -431,6 +431,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -12824,10 +12831,10 @@ childSHistory
 {
 if
 (
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

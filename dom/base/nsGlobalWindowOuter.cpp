@@ -1438,6 +1438,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -42044,10 +42051,10 @@ IsTop
 ;
 if
 (
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 )

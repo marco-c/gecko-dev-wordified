@@ -741,6 +741,13 @@ constants
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsSandboxFlags
 .
 h
@@ -13264,10 +13271,10 @@ GetSessionHistory
 if
 (
 !
-StaticPrefs
+mozilla
 :
 :
-fission_sessionHistoryInParent_AtStartup
+SessionHistoryInParent
 (
 )
 &
