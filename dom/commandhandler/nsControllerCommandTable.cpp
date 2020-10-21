@@ -1009,6 +1009,9 @@ CreateEditorCommandTable
 return
 CreateCommandTableWithCommands
 (
+mozilla
+:
+:
 EditorController
 :
 :
@@ -1033,6 +1036,9 @@ CreateEditingCommandTable
 return
 CreateCommandTableWithCommands
 (
+mozilla
+:
+:
 EditorController
 :
 :
@@ -1057,6 +1063,9 @@ CreateHTMLEditorCommandTable
 return
 CreateCommandTableWithCommands
 (
+mozilla
+:
+:
 HTMLEditorController
 :
 :
@@ -1081,6 +1090,9 @@ CreateHTMLEditorDocStateCommandTable
 return
 CreateCommandTableWithCommands
 (
+mozilla
+:
+:
 HTMLEditorController
 :
 :
