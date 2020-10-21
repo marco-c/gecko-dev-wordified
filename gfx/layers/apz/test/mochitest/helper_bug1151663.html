@@ -550,8 +550,6 @@ of
 the
 paints
 .
-SimpleTest
-.
 ok
 (
 compositorTestData
@@ -708,8 +706,6 @@ findRcdNode
 apzcTree
 )
 ;
-SimpleTest
-.
 ok
 (
 rcd
@@ -724,8 +720,6 @@ node
 "
 )
 ;
-SimpleTest
-.
 is
 (
 rcd
@@ -744,14 +738,6 @@ RCD
 "
 )
 ;
-window
-.
-opener
-.
-finishTest
-(
-)
-;
 }
 waitUntilApzStable
 (
@@ -765,6 +751,11 @@ forceLayerTreeToCompositor
 then
 (
 testBug1151663
+)
+.
+finally
+(
+subtestDone
 )
 ;
 <
