@@ -346,11 +346,11 @@ httpsonly
 -
 button
 -
-accept
--
-and
--
 continue
+-
+to
+-
+site
 "
 )
 "
