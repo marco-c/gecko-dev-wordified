@@ -11550,6 +11550,16 @@ cx
 )
 )
 ;
+if
+(
+!
+infoObject
+)
+{
+return
+false
+;
+}
 RootedValue
 elementValue
 (
