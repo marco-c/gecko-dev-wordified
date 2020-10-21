@@ -649,7 +649,7 @@ name
 "
 recording
 .
-dump
+zip
 "
 )
             
@@ -810,8 +810,19 @@ HERE
 "
 example
 .
-dump
+zip
 "
+)
+)
+        
+print
+(
+"
+"
+.
+join
+(
+command
 )
 )
         

@@ -86,7 +86,7 @@ system
 "
 example
 .
-dump
+zip
 "
 )
 pytest
