@@ -716,12 +716,11 @@ KEYWORD_OFFER
 SHOW
 icon
 :
-engine
+UrlbarUtils
 .
-iconURI
-?
+ICON
 .
-spec
+SEARCH_GLASS_INVERTED
 query
 :
 "

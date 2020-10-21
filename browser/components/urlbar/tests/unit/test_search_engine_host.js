@@ -579,6 +579,13 @@ engineName
 engine
 .
 name
+engineIconUri
+:
+UrlbarUtils
+.
+ICON
+.
+SEARCH_GLASS_INVERTED
 uri
 :
 UrlbarUtils
