@@ -3476,6 +3476,11 @@ RenderTrace
 cpp
 '
 '
+RepaintRequest
+.
+cpp
+'
+'
 RotatedBuffer
 .
 cpp
