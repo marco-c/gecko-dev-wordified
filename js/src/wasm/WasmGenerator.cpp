@@ -611,7 +611,7 @@ CompileArgs
 args
 ModuleEnvironment
 *
-env
+moduleEnv
 const
 Atomic
 <
@@ -637,9 +637,9 @@ cancelled_
 (
 cancelled
 )
-env_
+moduleEnv_
 (
-env
+moduleEnv
 )
 linkData_
 (
@@ -1302,7 +1302,7 @@ funcToCodeRange
 appendN
 (
 BAD_CODE_RANGE
-env_
+moduleEnv_
 -
 >
 funcTypes
@@ -1388,12 +1388,12 @@ capacity
 size_t
 codeSectionSize
 =
-env_
+moduleEnv_
 -
 >
 codeSection
 ?
-env_
+moduleEnv_
 -
 >
 codeSection
@@ -1447,7 +1447,7 @@ reserve
 (
 2
 *
-env_
+moduleEnv_
 -
 >
 numFuncDefs
@@ -1535,7 +1535,7 @@ i
 ;
 i
 <
-env_
+moduleEnv_
 -
 >
 funcImportGlobalDataOffsets
@@ -1575,7 +1575,7 @@ return
 false
 ;
 }
-env_
+moduleEnv_
 -
 >
 funcImportGlobalDataOffsets
@@ -1596,7 +1596,7 @@ copy
 clone
 (
 *
-env_
+moduleEnv_
 -
 >
 funcTypes
@@ -1642,7 +1642,7 @@ TableDesc
 &
 table
 :
-env_
+moduleEnv_
 -
 >
 tables
@@ -1688,7 +1688,7 @@ TypeDef
 &
 td
 :
-env_
+moduleEnv_
 -
 >
 types
@@ -1837,7 +1837,7 @@ GlobalDesc
 &
 global
 :
-env_
+moduleEnv_
 -
 >
 globals
@@ -2218,7 +2218,7 @@ exportedFuncs
 .
 resize
 (
-env_
+moduleEnv_
 -
 >
 numFuncs
@@ -2298,7 +2298,7 @@ Export
 &
 exp
 :
-env_
+moduleEnv_
 -
 >
 exports
@@ -2336,7 +2336,7 @@ true
 }
 if
 (
-env_
+moduleEnv_
 -
 >
 startFuncIndex
@@ -2347,7 +2347,7 @@ addOrMerge
 ExportedFunc
 (
 *
-env_
+moduleEnv_
 -
 >
 startFuncIndex
@@ -2363,7 +2363,7 @@ ElemSegment
 *
 seg
 :
-env_
+moduleEnv_
 -
 >
 elemSegments
@@ -2475,7 +2475,7 @@ active
 )
 &
 &
-env_
+moduleEnv_
 -
 >
 tables
@@ -2533,7 +2533,7 @@ GlobalDesc
 &
 global
 :
-env_
+moduleEnv_
 -
 >
 globals
@@ -2680,7 +2680,7 @@ funcType
 clone
 (
 *
-env_
+moduleEnv_
 -
 >
 funcTypes
@@ -2843,7 +2843,7 @@ tasks_
 infallibleEmplaceBack
 (
 *
-env_
+moduleEnv_
 taskState_
 COMPILATION_LIFO_DEFAULT_CHUNK_SIZE
 telemetrySender
@@ -2956,7 +2956,7 @@ if
 GenerateImportFunctions
 (
 *
-env_
+moduleEnv_
 metadataTier_
 -
 >
@@ -4788,7 +4788,7 @@ switch
 task
 -
 >
-env
+moduleEnv
 .
 tier
 (
@@ -4806,7 +4806,7 @@ switch
 task
 -
 >
-env
+moduleEnv
 .
 optimizedBackend
 (
@@ -4827,7 +4827,7 @@ CraneliftCompileFunctions
 task
 -
 >
-env
+moduleEnv
 task
 -
 >
@@ -4874,7 +4874,7 @@ IonCompileFunctions
 task
 -
 >
-env
+moduleEnv
 task
 -
 >
@@ -4924,7 +4924,7 @@ BaselineCompileFunctions
 task
 -
 >
-env
+moduleEnv
 task
 -
 >
@@ -5537,7 +5537,7 @@ MOZ_ASSERT
 (
 funcIndex
 <
-env_
+moduleEnv_
 -
 >
 numFuncs
@@ -5577,7 +5577,7 @@ Optimized
 :
 switch
 (
-env_
+moduleEnv_
 -
 >
 optimizedBackend
@@ -6599,7 +6599,7 @@ if
 GenerateStubs
 (
 *
-env_
+moduleEnv_
 metadataTier_
 -
 >
@@ -6749,7 +6749,7 @@ MOZ_ASSERT
 (
 IsValidStackMapKey
 (
-env_
+moduleEnv_
 -
 >
 debugEnabled
@@ -6872,7 +6872,7 @@ metadata_
 >
 memoryUsage
 =
-env_
+moduleEnv_
 -
 >
 memoryUsage
@@ -6882,7 +6882,7 @@ metadata_
 >
 minMemoryLength
 =
-env_
+moduleEnv_
 -
 >
 minMemoryLength
@@ -6892,7 +6892,7 @@ metadata_
 >
 maxMemoryLength
 =
-env_
+moduleEnv_
 -
 >
 maxMemoryLength
@@ -6902,7 +6902,7 @@ metadata_
 >
 startFuncIndex
 =
-env_
+moduleEnv_
 -
 >
 startFuncIndex
@@ -6917,7 +6917,7 @@ std
 :
 move
 (
-env_
+moduleEnv_
 -
 >
 tables
@@ -6933,7 +6933,7 @@ std
 :
 move
 (
-env_
+moduleEnv_
 -
 >
 globals
@@ -6944,7 +6944,7 @@ metadata_
 >
 nameCustomSectionIndex
 =
-env_
+moduleEnv_
 -
 >
 nameCustomSectionIndex
@@ -6954,7 +6954,7 @@ metadata_
 >
 moduleName
 =
-env_
+moduleEnv_
 -
 >
 moduleName
@@ -6969,7 +6969,7 @@ std
 :
 move
 (
-env_
+moduleEnv_
 -
 >
 funcNames
@@ -6980,7 +6980,7 @@ metadata_
 >
 omitsBoundsChecks
 =
-env_
+moduleEnv_
 -
 >
 hugeMemoryEnabled
@@ -6992,7 +6992,7 @@ metadata_
 >
 v128Enabled
 =
-env_
+moduleEnv_
 -
 >
 v128Enabled
@@ -7009,7 +7009,7 @@ information
 .
 if
 (
-env_
+moduleEnv_
 -
 >
 debugEnabled
@@ -7028,7 +7028,7 @@ const
 size_t
 numFuncTypes
 =
-env_
+moduleEnv_
 -
 >
 funcTypes
@@ -7102,7 +7102,7 @@ i
 .
 appendAll
 (
-env_
+moduleEnv_
 -
 >
 funcTypes
@@ -7134,7 +7134,7 @@ i
 .
 appendAll
 (
-env_
+moduleEnv_
 -
 >
 funcTypes
@@ -7241,7 +7241,7 @@ ModuleHash
 }
 MOZ_ASSERT_IF
 (
-env_
+moduleEnv_
 -
 >
 nameCustomSectionIndex
@@ -7403,7 +7403,7 @@ dataSegments
 .
 reserve
 (
-env_
+moduleEnv_
 -
 >
 dataSegments
@@ -7425,7 +7425,7 @@ DataSegmentEnv
 &
 srcSeg
 :
-env_
+moduleEnv_
 -
 >
 dataSegments
@@ -7505,7 +7505,7 @@ customSections
 .
 reserve
 (
-env_
+moduleEnv_
 -
 >
 customSections
@@ -7527,7 +7527,7 @@ CustomSectionEnv
 &
 srcSec
 :
-env_
+moduleEnv_
 -
 >
 customSections
@@ -7639,7 +7639,7 @@ sec
 }
 if
 (
-env_
+moduleEnv_
 -
 >
 nameCustomSectionIndex
@@ -7653,7 +7653,7 @@ namePayload
 customSections
 [
 *
-env_
+moduleEnv_
 -
 >
 nameCustomSectionIndex
@@ -7691,7 +7691,7 @@ TypeDef
 &
 td
 :
-env_
+moduleEnv_
 -
 >
 types
@@ -7818,7 +7818,7 @@ nullptr
 ;
 if
 (
-env_
+moduleEnv_
 -
 >
 debugEnabled
@@ -7954,7 +7954,7 @@ std
 :
 move
 (
-env_
+moduleEnv_
 -
 >
 imports
@@ -7964,7 +7964,7 @@ std
 :
 move
 (
-env_
+moduleEnv_
 -
 >
 exports
@@ -7981,7 +7981,7 @@ std
 :
 move
 (
-env_
+moduleEnv_
 -
 >
 elemSegments
@@ -8120,7 +8120,7 @@ Optimized
 MOZ_ASSERT
 (
 !
-env_
+moduleEnv_
 -
 >
 debugEnabled

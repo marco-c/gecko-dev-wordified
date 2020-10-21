@@ -837,7 +837,7 @@ HelperThreadTask
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 ;
 CompileTaskState
 &
@@ -860,7 +860,7 @@ CompileTask
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 CompileTaskState
 &
 state
@@ -870,9 +870,9 @@ JSTelemetrySender
 telemetrySender
 )
 :
-env
+moduleEnv
 (
-env
+moduleEnv
 )
 state
 (
@@ -1090,7 +1090,7 @@ cancelled_
 ModuleEnvironment
 *
 const
-env_
+moduleEnv_
 ;
 JSTelemetrySender
 telemetrySender_
@@ -1312,7 +1312,7 @@ isAsmJS
 const
 {
 return
-env_
+moduleEnv_
 -
 >
 isAsmJS
@@ -1327,7 +1327,7 @@ tier
 const
 {
 return
-env_
+moduleEnv_
 -
 >
 tier
@@ -1342,7 +1342,7 @@ mode
 const
 {
 return
-env_
+moduleEnv_
 -
 >
 mode
@@ -1357,7 +1357,7 @@ debugEnabled
 const
 {
 return
-env_
+moduleEnv_
 -
 >
 debugEnabled
@@ -1375,7 +1375,7 @@ CompileArgs
 args
 ModuleEnvironment
 *
-env
+moduleEnv
 const
 Atomic
 <

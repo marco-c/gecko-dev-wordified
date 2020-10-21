@@ -264,7 +264,7 @@ IonCompileFunctions
 const
 ModuleEnvironment
 &
-env
+moduleEnv
 LifoAlloc
 &
 lifo
