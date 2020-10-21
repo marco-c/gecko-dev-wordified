@@ -345,11 +345,6 @@ details
 :
 {
 description
-processId
-:
-process
-.
-id
 }
 }
 ;
