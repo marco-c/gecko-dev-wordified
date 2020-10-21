@@ -88,6 +88,15 @@ setup
 )
 {
 await
+PlacesUtils
+.
+history
+.
+clear
+(
+)
+;
+await
 SpecialPowers
 .
 pushPrefEnv
