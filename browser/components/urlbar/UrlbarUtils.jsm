@@ -1382,10 +1382,8 @@ Set
 (
 [
 "
-"
-/
-/
 Baidu
+"
 "
 Bing
 "
@@ -1404,14 +1402,6 @@ Qwant
 "
 Yandex
 "
-"
-"
-/
-/
-Yandex
-non
--
-EN
 ]
 )
 /
