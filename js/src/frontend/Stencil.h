@@ -415,6 +415,10 @@ h
 /
 ImmutableScriptFlags
 GCThingIndex
+js
+:
+:
+RuntimeScriptData
 #
 include
 "
