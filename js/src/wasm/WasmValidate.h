@@ -883,9 +883,6 @@ FuncTypeWithIdPtrVector
 funcTypes
 ;
 Uint32Vector
-funcTypeIndices
-;
-Uint32Vector
 funcImportGlobalDataOffsets
 ;
 GlobalDescVector

@@ -242,6 +242,8 @@ Iterator
 UniqueBy
 {
 iter
+:
+iter
 used
 :
 HashMap
@@ -250,6 +252,8 @@ HashMap
 new
 (
 )
+f
+:
 f
 }
 }
@@ -935,6 +939,8 @@ iter
 :
 UniqueBy
 {
+iter
+:
 iter
 used
 :

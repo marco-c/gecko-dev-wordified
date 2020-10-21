@@ -118,16 +118,10 @@ use_std
 )
 ]
 use
-crate
-:
-:
 Itertools
 ;
 pub
 use
-crate
-:
-:
 adaptors
 :
 :
@@ -150,9 +144,6 @@ use_std
 ]
 pub
 use
-crate
-:
-:
 put_back_n_impl
 :
 :
@@ -171,9 +162,6 @@ use_std
 ]
 pub
 use
-crate
-:
-:
 multipeek_impl
 :
 :
@@ -192,9 +180,6 @@ use_std
 ]
 pub
 use
-crate
-:
-:
 kmerge_impl
 :
 :
@@ -202,9 +187,6 @@ kmerge
 ;
 pub
 use
-crate
-:
-:
 zip_eq_impl
 :
 :
@@ -212,9 +194,6 @@ zip_eq
 ;
 pub
 use
-crate
-:
-:
 merge_join
 :
 :
@@ -233,9 +212,6 @@ use_std
 ]
 pub
 use
-crate
-:
-:
 rciter_impl
 :
 :
