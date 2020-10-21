@@ -388,6 +388,9 @@ value
 )
 )
 ;
+/
+/
+FIXME
 assertEq
 (
 frame
@@ -415,6 +418,9 @@ value
 43
 )
 ;
+/
+/
+FIXME
 assertEq
 (
 frame
@@ -583,6 +589,9 @@ result
 await
 promise
 ;
+/
+/
+FIXME
 assertEq
 (
 result
