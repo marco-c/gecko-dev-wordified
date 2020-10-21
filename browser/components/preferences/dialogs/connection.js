@@ -2710,13 +2710,14 @@ Services
 .
 uriFixup
 .
-createFixupURI
+getFixupURIInfo
 (
 autoURL
 .
 value
-0
 )
+.
+preferredURI
 .
 spec
 ;

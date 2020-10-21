@@ -1411,13 +1411,15 @@ FIXUP_FLAG_PRIVATE_CONTEXT
 ;
 }
 let
-uriToLoad
+{
+preferredURI
+}
 =
 Services
 .
 uriFixup
 .
-createFixupURI
+getFixupURIInfo
 (
 valueToFixUp
 flags
@@ -1427,7 +1429,7 @@ browser
 .
 loadUrlWithSystemPrincipal
 (
-uriToLoad
+preferredURI
 .
 spec
 )
