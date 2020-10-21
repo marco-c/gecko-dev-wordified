@@ -572,9 +572,9 @@ createScope
 JSContext
 *
 cx
-CompilationInfo
+CompilationInput
 &
-compilationInfo
+input
 CompilationGCOutput
 &
 gcOutput
@@ -610,8 +610,6 @@ CallObject
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -671,8 +669,6 @@ LexicalEnvironmentObject
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -696,8 +692,6 @@ VarEnvironmentObject
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -730,8 +724,6 @@ nullptr_t
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -761,8 +753,6 @@ VarEnvironmentObject
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -786,8 +776,6 @@ ModuleEnvironmentObject
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -814,8 +802,6 @@ nullptr_t
 >
 (
 cx
-compilationInfo
-.
 input
 gcOutput
 )
@@ -2095,6 +2081,8 @@ createScope
 (
 cx
 compilationInfo
+.
+input
 gcOutput
 )
 ;
