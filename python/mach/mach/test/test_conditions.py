@@ -90,9 +90,10 @@ mach
 .
 test
 .
-common
+conftest
 import
 TestBase
+PROVIDER_DIR
 from
 mozunit
 import
@@ -209,7 +210,7 @@ commands
 "
     
 def
-_run_mach
+_run
 (
 self
 args
@@ -220,18 +221,16 @@ _populate_bare_context
 :
         
 return
-TestBase
+self
 .
 _run_mach
 (
-self
 args
 '
 conditions
 .
 py
 '
-                                  
 context_handler
 =
 context_handler
@@ -275,7 +274,7 @@ assertEquals
 )
 self
 .
-_run_mach
+_run
 (
 [
 '
@@ -298,7 +297,7 @@ assertEquals
 )
 self
 .
-_run_mach
+_run
 (
 [
 '
@@ -382,7 +381,7 @@ stderr
 =
 self
 .
-_run_mach
+_run
 (
 [
 name
@@ -442,7 +441,7 @@ stderr
 =
 self
 .
-_run_mach
+_run
 (
 [
 name
@@ -556,9 +555,7 @@ path
 .
 join
 (
-self
-.
-provider_dir
+PROVIDER_DIR
 '
 conditions_invalid
 .
@@ -601,7 +598,7 @@ stderr
 =
 self
 .
-_run_mach
+_run
 (
 [
 '

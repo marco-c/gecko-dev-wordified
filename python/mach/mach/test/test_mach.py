@@ -61,14 +61,6 @@ unicode_literals
 import
 os
 from
-mach
-.
-test
-.
-common
-import
-TestBase
-from
 mozunit
 import
 main
@@ -76,6 +68,7 @@ def
 test_set_isatty_environ
 (
 monkeypatch
+get_mach
 )
 :
     
@@ -119,8 +112,6 @@ True
     
 m
 =
-TestBase
-.
 get_mach
 (
 )
