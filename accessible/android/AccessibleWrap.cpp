@@ -1000,7 +1000,7 @@ newPos
 )
 -
 >
-Pivot
+PivotTo
 (
 java
 :
@@ -1029,7 +1029,7 @@ EVENT_SCROLLING_START
 accessible
 -
 >
-Pivot
+PivotTo
 (
 java
 :
@@ -2056,7 +2056,7 @@ void
 AccessibleWrap
 :
 :
-Pivot
+PivotTo
 (
 int32_t
 aGranularity

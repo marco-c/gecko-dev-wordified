@@ -174,7 +174,7 @@ aID
 acc
 -
 >
-Pivot
+PivotTo
 (
 aGranularity
 aForward
