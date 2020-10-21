@@ -113,8 +113,6 @@ import
 subprocess
 import
 sys
-import
-distutils
 from
 mozbuild
 .
@@ -133,6 +131,12 @@ mozprofile
 permissions
 import
 ServerLocations
+from
+distutils
+.
+spawn
+import
+find_executable
 dbFiles
 =
 [
@@ -813,10 +817,6 @@ return
     
 openssl
 =
-distutils
-.
-spawn
-.
 find_executable
 (
 "
