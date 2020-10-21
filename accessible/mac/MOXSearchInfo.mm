@@ -1547,6 +1547,16 @@ isEqualToString
 AXImageSearchKey
 "
 ]
+|
+|
+[
+key
+isEqualToString
+:
+"
+AXGraphicSearchKey
+"
+]
 )
 {
 RotorRoleRule
