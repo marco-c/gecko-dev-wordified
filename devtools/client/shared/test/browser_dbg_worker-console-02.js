@@ -157,7 +157,7 @@ const
 {
 client
 tab
-workerTargetFront
+workerDescriptorFront
 toolbox
 }
 =
@@ -167,7 +167,7 @@ const
 workerThreadFront
 =
 await
-workerTargetFront
+workerDescriptorFront
 .
 getFront
 (
@@ -441,7 +441,7 @@ WORKER_URL
 await
 waitForWorkerClose
 (
-workerTargetFront
+workerDescriptorFront
 )
 ;
 await

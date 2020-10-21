@@ -171,7 +171,7 @@ const
 {
 client
 tab
-workerTargetFront
+workerDescriptorFront
 toolbox
 }
 =
@@ -338,7 +338,7 @@ WORKER_URL
 await
 waitForWorkerClose
 (
-workerTargetFront
+workerDescriptorFront
 )
 ;
 await

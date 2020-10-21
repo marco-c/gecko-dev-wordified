@@ -121,7 +121,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 true
 url
@@ -164,7 +164,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 false
 url
@@ -207,7 +207,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 false
 url
@@ -275,7 +275,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -346,7 +346,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -386,7 +386,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -458,7 +458,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -531,7 +531,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -605,7 +605,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -671,7 +671,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -737,7 +737,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -809,7 +809,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -875,7 +875,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "
@@ -941,7 +941,7 @@ worker
 -
 example
 "
-workerTargetFront
+workerDescriptorFront
 :
 "
 "

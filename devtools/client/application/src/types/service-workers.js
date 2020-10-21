@@ -115,7 +115,7 @@ PropTypes
 string
 .
 isRequired
-workerTargetFront
+workerDescriptorFront
 :
 PropTypes
 .
