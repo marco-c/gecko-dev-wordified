@@ -13,15 +13,29 @@ check_call
 #
 nosec
 from
+pip
+.
+_internal
+.
+commands
+.
+freeze
+import
+DEV_PKGS
+from
+pip
+.
+_internal
+.
+utils
+.
+compat
+import
+stdlib_pkgs
+from
 .
 import
 click
-from
-.
-_compat
-import
-DEV_PKGS
-stdlib_pkgs
 from
 .
 exceptions
@@ -492,18 +506,26 @@ with
 each
 other
         
+if
+ireq
+.
+match_markers
+(
+)
+:
+            
 key
 =
 key_from_ireq
 (
 ireq
 )
-        
+            
 if
 not
 ignore_conflicts
 :
-            
+                
 existing_ireq
 =
 by_key
@@ -512,11 +534,11 @@ get
 (
 key
 )
-            
+                
 if
 existing_ireq
 :
-                
+                    
 #
 NOTE
 :
@@ -530,13 +552,13 @@ can
 assume
 that
 the
-                
+                    
 #
 requirements
 are
 all
 pinned
-                
+                    
 if
 ireq
 .
@@ -547,14 +569,14 @@ existing_ireq
 .
 specifier
 :
-                    
+                        
 raise
 IncompatibleRequirements
 (
 ireq
 existing_ireq
 )
-        
+            
 #
 TODO
 :
@@ -568,7 +590,7 @@ case
 of
 a
 conflict
-        
+            
 by_key
 [
 key
@@ -1001,6 +1023,10 @@ modules
 "
 "
     
+exit_code
+=
+0
+    
 if
 not
 to_uninstall
@@ -1028,7 +1054,7 @@ date
 )
         
 return
-0
+exit_code
     
 pip_flags
 =
@@ -1080,7 +1106,10 @@ uninstall
 for
 pkg
 in
+sorted
+(
 to_uninstall
+)
 :
                 
 click
@@ -1116,7 +1145,13 @@ install
 for
 ireq
 in
+sorted
+(
 to_install
+key
+=
+key_from_ireq
+)
 :
                 
 click
@@ -1136,6 +1171,10 @@ ireq
 )
 )
 )
+        
+exit_code
+=
+1
     
 if
 ask
@@ -1161,6 +1200,10 @@ changes
 dry_run
 =
 False
+        
+exit_code
+=
+0
     
 if
 not
@@ -1362,4 +1405,4 @@ name
 )
     
 return
-0
+exit_code
