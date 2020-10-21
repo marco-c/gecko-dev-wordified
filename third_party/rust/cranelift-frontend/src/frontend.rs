@@ -7346,7 +7346,7 @@ Triple
 from_str
 (
 "
-arm
+riscv32
 "
 )
 .
@@ -7357,7 +7357,7 @@ Couldn
 '
 t
 create
-arm
+riscv32
 triple
 "
 )
@@ -7396,7 +7396,7 @@ expect
 This
 test
 requires
-arm
+riscv32
 support
 .
 "
@@ -7780,7 +7780,7 @@ Triple
 from_str
 (
 "
-arm
+riscv32
 "
 )
 .
@@ -7791,7 +7791,7 @@ Couldn
 '
 t
 create
-arm
+riscv32
 triple
 "
 )
@@ -7830,7 +7830,7 @@ expect
 This
 test
 requires
-arm
+riscv32
 support
 .
 "
@@ -8184,7 +8184,7 @@ Triple
 from_str
 (
 "
-arm
+riscv32
 "
 )
 .
@@ -8195,7 +8195,7 @@ Couldn
 '
 t
 create
-arm
+riscv32
 triple
 "
 )
@@ -8234,7 +8234,7 @@ expect
 This
 test
 requires
-arm
+riscv32
 support
 .
 "
@@ -8603,7 +8603,7 @@ Triple
 from_str
 (
 "
-arm
+riscv32
 "
 )
 .
@@ -8614,7 +8614,7 @@ Couldn
 '
 t
 create
-arm
+riscv32
 triple
 "
 )
@@ -8653,7 +8653,7 @@ expect
 This
 test
 requires
-arm
+riscv32
 support
 .
 "
@@ -8961,7 +8961,7 @@ Triple
 from_str
 (
 "
-arm
+riscv32
 "
 )
 .
@@ -8972,7 +8972,7 @@ Couldn
 '
 t
 create
-arm
+riscv32
 triple
 "
 )
@@ -9011,7 +9011,7 @@ expect
 This
 test
 requires
-arm
+riscv32
 support
 .
 "
