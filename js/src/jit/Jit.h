@@ -117,12 +117,14 @@ jit_Jit_h
 #
 include
 "
-vm
-/
-JSContext
+jstypes
 .
 h
 "
+struct
+JS_PUBLIC_API
+JSContext
+;
 namespace
 js
 {
