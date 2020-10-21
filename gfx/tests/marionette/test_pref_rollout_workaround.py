@@ -456,9 +456,9 @@ assertEqual
 (
 status
 '
-opt
--
-in
+disabled
+:
+FEATURE_FAILURE_NOT_QUALIFIED
 '
 '
 Should
@@ -466,9 +466,9 @@ start
 out
 as
 WR
-opt
--
-in
+disabled
+not
+qualified
 '
 )
         
@@ -628,9 +628,9 @@ assertEqual
 (
 status
 '
-opt
--
-in
+disabled
+:
+FEATURE_FAILURE_NOT_QUALIFIED
 '
 '
 WR
@@ -761,9 +761,9 @@ assertEqual
 (
 status
 '
-opt
--
-in
+disabled
+:
+FEATURE_FAILURE_NOT_QUALIFIED
 '
 '
 WR
@@ -773,9 +773,7 @@ rollout
 should
 revert
 to
-opt
--
-in
+disabled
 on
 non
 -
@@ -1060,9 +1058,9 @@ assertEqual
 (
 status
 '
-opt
--
-in
+disabled
+:
+FEATURE_FAILURE_IN_EXPERIMENT
 '
 '
 Should
@@ -1070,9 +1068,9 @@ start
 out
 as
 WR
-opt
--
+disabled
 in
+experiment
 '
 )
         
@@ -1354,9 +1352,9 @@ assertEqual
 (
 status
 '
-opt
--
-in
+disabled
+:
+FEATURE_FAILURE_IN_EXPERIMENT
 '
 '
 WR
@@ -1366,9 +1364,7 @@ rollout
 should
 revert
 to
-opt
--
-in
+disabled
 on
 qualifying
 hardware
