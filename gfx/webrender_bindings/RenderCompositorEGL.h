@@ -292,6 +292,13 @@ ShouldDrawPreviousPartialPresentRegions
 )
 override
 ;
+size_t
+GetBufferAge
+(
+)
+const
+override
+;
 ipc
 :
 :
