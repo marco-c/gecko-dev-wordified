@@ -148,6 +148,7 @@ ChannelBlockDecision
 {
 Blocked
 Unblocked
+Allowed
 }
 ;
 class
@@ -185,6 +186,16 @@ ChannelBlockDecision
 Blocked
 ;
 }
+ChannelBlockDecision
+GetDecision
+(
+)
+{
+return
+mDecision
+;
+}
+;
 void
 SetReason
 (
