@@ -272,6 +272,17 @@ isInt64ToBigInt
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+ins
+-
+>
+isMovable
+(
+)
+)
+;
 MResumePoint
 *
 resumePoint
