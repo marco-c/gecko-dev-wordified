@@ -353,6 +353,15 @@ PlainObject
 #
 include
 "
+vm
+/
+Uint8Clamped
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmCode

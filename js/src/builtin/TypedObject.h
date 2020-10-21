@@ -209,6 +209,15 @@ JSObject
 .
 h
 "
+#
+include
+"
+vm
+/
+Uint8Clamped
+.
+h
+"
 /
 *
 *

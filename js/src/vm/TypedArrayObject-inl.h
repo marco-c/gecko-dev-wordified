@@ -271,6 +271,15 @@ h
 #
 include
 "
+vm
+/
+Uint8Clamped
+.
+h
+"
+#
+include
+"
 gc
 /
 ObjectKind
