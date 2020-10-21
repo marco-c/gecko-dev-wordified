@@ -692,6 +692,12 @@ aHandle
 =
 =
 INVALID_HANDLE_VALUE
+|
+|
+aHandle
+=
+=
+nullptr
 )
 {
 return
