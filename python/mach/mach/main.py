@@ -2809,6 +2809,12 @@ get_argument_parser
 context
 )
         
+context
+.
+global_parser
+=
+parser
+        
 if
 not
 len
