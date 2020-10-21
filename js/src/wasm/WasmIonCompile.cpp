@@ -10152,6 +10152,7 @@ New
 alloc
 (
 )
+tlsPointer_
 )
 )
 ;
@@ -10444,6 +10445,7 @@ values
 [
 i
 ]
+tlsPointer_
 )
 )
 ;
