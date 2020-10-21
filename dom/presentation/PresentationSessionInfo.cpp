@@ -319,13 +319,6 @@ mozilla
 :
 dom
 ;
-using
-namespace
-mozilla
-:
-:
-services
-;
 /
 *
 *
