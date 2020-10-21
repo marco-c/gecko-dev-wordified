@@ -243,7 +243,7 @@ h
 "
 /
 /
-XDRParserAtom
+XDRParserAtomData
 #
 include
 "
@@ -2335,7 +2335,7 @@ nullptr
 ;
 MOZ_TRY
 (
-XDRParserAtom
+XDRParserAtomData
 (
 xdr
 &
