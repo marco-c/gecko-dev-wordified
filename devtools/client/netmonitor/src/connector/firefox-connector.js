@@ -921,6 +921,13 @@ owner
 this
 .
 owner
+resourceWatcher
+:
+this
+.
+toolbox
+.
+resourceWatcher
 }
 )
 ;

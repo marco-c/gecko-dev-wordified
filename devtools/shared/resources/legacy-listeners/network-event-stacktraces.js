@@ -120,12 +120,12 @@ ResourceWatcher
 TYPES
 .
 NETWORK_EVENT_STACKTRACE
-channelId
+resourceId
 :
 actor
 .
 channelId
-stacktrace
+stacktraceAvailable
 :
 actor
 .

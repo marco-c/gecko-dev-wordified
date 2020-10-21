@@ -97,7 +97,7 @@ POST
 expected
 :
 {
-stacktrace
+stacktraceAvailable
 :
 true
 lastFrame
