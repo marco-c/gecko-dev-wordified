@@ -3473,6 +3473,15 @@ AnonymousContentKey
 aKey
 )
 ;
+void
+AppendScrollUpdate
+(
+const
+ScrollPositionUpdate
+&
+aUpdate
+)
+;
 /
 /
 owning
