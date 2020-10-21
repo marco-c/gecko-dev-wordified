@@ -2274,6 +2274,9 @@ reverse
 event
 .
 shiftKey
+userPressedTab
+:
+true
 }
 )
 ;
