@@ -57609,10 +57609,10 @@ BrowserParent
 >
 browserParent
 =
-BrowserParent
+IMEStateManager
 :
 :
-GetFocused
+GetActiveBrowserParent
 (
 )
 ;
