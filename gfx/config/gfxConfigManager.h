@@ -210,10 +210,6 @@ mWrCompositorDCompRequired
 (
 false
 )
-mWrPictureCaching
-(
-false
-)
 mWrPartialPresent
 (
 false
@@ -386,9 +382,6 @@ mWrDCompWinEnabled
 ;
 bool
 mWrCompositorDCompRequired
-;
-bool
-mWrPictureCaching
 ;
 bool
 mWrPartialPresent

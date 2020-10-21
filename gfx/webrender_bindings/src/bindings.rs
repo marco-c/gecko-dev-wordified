@@ -7921,9 +7921,6 @@ bool
 allow_texture_swizzling
 :
 bool
-enable_picture_caching
-:
-bool
 allow_scissored_cache_clears
 :
 bool
@@ -8884,7 +8881,6 @@ precache_flags
 namespace_alloc_by_client
 :
 true
-enable_picture_caching
 allow_pixel_local_storage_support
 :
 false
