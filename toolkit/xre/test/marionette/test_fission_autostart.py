@@ -11,7 +11,7 @@ class
 ExperimentStatus
 :
     
-UNKNOWN
+UNENROLLED
 =
 0
     
@@ -22,6 +22,10 @@ ENROLLED_CONTROL
 ENROLLED_TREATMENT
 =
 2
+    
+DISQUALIFIED
+=
+3
 class
 Prefs
 :
@@ -52,6 +56,16 @@ FISSION_AUTOSTART
 fission
 .
 autostart
+'
+    
+FISSION_AUTOSTART_SESSION
+=
+'
+fission
+.
+autostart
+.
+session
 '
 ENV_ENABLE_FISSION
 =
@@ -189,6 +203,38 @@ docShell
 nsILoadContext
 .
 useRemoteSubframes
+            
+fissionAutostartSession
+:
+Services
+.
+prefs
+.
+getBoolPref
+(
+"
+fission
+.
+autostart
+.
+session
+"
+)
+            
+dynamicFissionAutostart
+:
+Services
+.
+prefs
+.
+getBoolPref
+(
+"
+fission
+.
+autostart
+"
+)
           
 }
 ;
@@ -204,8 +250,21 @@ check_fission_status
 self
 enabled
 experiment
+dynamic
+=
+None
 )
 :
+        
+if
+dynamic
+is
+None
+:
+            
+dynamic
+=
+enabled
         
 expected
 =
@@ -228,6 +287,18 @@ useRemoteSubframes
 '
 :
 enabled
+            
+'
+fissionAutostartSession
+'
+:
+enabled
+            
+'
+dynamicFissionAutostart
+'
+:
+dynamic
         
 }
         
@@ -665,6 +736,13 @@ items
 )
 :
                 
+if
+val
+is
+not
+None
+:
+                    
 self
 .
 assertEqual
@@ -949,6 +1027,21 @@ return
         
 self
 .
+check_fission_status
+(
+enabled
+=
+False
+                                  
+experiment
+=
+ExperimentStatus
+.
+UNENROLLED
+)
+        
+self
+.
 restart
 (
 prefs
@@ -974,7 +1067,7 @@ experiment
 =
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
 )
         
 self
@@ -998,7 +1091,7 @@ experiment
 =
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
 )
         
 self
@@ -1026,7 +1119,41 @@ experiment
 =
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
+                                  
+dynamic
+=
+False
+)
+        
+self
+.
+marionette
+.
+clear_pref
+(
+Prefs
+.
+FISSION_AUTOSTART
+)
+        
+self
+.
+check_fission_status
+(
+enabled
+=
+True
+                                  
+experiment
+=
+ExperimentStatus
+.
+UNENROLLED
+                                  
+dynamic
+=
+False
 )
         
 self
@@ -1062,7 +1189,7 @@ ENROLLMENT_STATUS
                                  
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
                                  
 default_branch
 =
@@ -1144,6 +1271,21 @@ return
         
 self
 .
+check_fission_status
+(
+enabled
+=
+False
+                                  
+experiment
+=
+ExperimentStatus
+.
+UNENROLLED
+)
+        
+self
+.
 restart
 (
 prefs
@@ -1179,7 +1321,11 @@ experiment
 =
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
+                                  
+dynamic
+=
+False
 )
         
 self
@@ -1218,7 +1364,7 @@ experiment
 =
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
 )
         
 self
@@ -1232,7 +1378,7 @@ Prefs
 .
 FISSION_AUTOSTART
 :
-False
+None
 }
 )
         
@@ -1248,7 +1394,7 @@ experiment
 =
 ExperimentStatus
 .
-UNKNOWN
+UNENROLLED
 )
         
 self
@@ -1313,17 +1459,14 @@ ENROLLED_CONTROL
         
 self
 .
-restart
+marionette
+.
+set_pref
 (
-prefs
-=
-{
 Prefs
 .
 FISSION_AUTOSTART
-:
 True
-}
 )
         
 self
@@ -1339,4 +1482,58 @@ experiment
 ExperimentStatus
 .
 ENROLLED_CONTROL
+                                  
+dynamic
+=
+True
+)
+        
+self
+.
+assertEqual
+(
+self
+.
+marionette
+.
+get_pref
+(
+Prefs
+.
+ENROLLMENT_STATUS
+)
+                         
+ExperimentStatus
+.
+DISQUALIFIED
+                         
+'
+Setting
+fission
+.
+autostart
+should
+disqualify
+'
+)
+        
+self
+.
+restart
+(
+)
+        
+self
+.
+check_fission_status
+(
+enabled
+=
+True
+                                  
+experiment
+=
+ExperimentStatus
+.
+DISQUALIFIED
 )
