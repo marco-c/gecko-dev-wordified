@@ -1195,13 +1195,6 @@ info
 bin_suffix
 "
 ]
-.
-encode
-(
-'
-ascii
-'
-)
 )
             
 if
