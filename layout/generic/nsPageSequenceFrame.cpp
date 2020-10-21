@@ -3003,7 +3003,7 @@ DateTimeFormat
 FormatPRTime
 (
 kDateFormatShort
-kTimeFormatNoSeconds
+kTimeFormatShort
 now
 formattedDateString
 )

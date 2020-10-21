@@ -245,7 +245,7 @@ in
 the
 format
 string
-kTimeFormatSeconds
+kTimeFormatLong
 /
 /
 provides
@@ -260,7 +260,7 @@ given
 /
 /
 locale
-kTimeFormatNoSeconds
+kTimeFormatShort
 /
 /
 provides

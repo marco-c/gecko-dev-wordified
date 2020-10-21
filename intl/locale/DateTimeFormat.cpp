@@ -1492,7 +1492,7 @@ aTimeFormatSelector
 )
 {
 case
-kTimeFormatSeconds
+kTimeFormatLong
 :
 rv
 =
@@ -1535,7 +1535,7 @@ rv
 break
 ;
 case
-kTimeFormatNoSeconds
+kTimeFormatShort
 :
 rv
 =
