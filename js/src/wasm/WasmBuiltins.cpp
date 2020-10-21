@@ -4390,6 +4390,12 @@ case
 RefType
 :
 :
+Eq
+:
+case
+RefType
+:
+:
 TypeIndex
 :
 /

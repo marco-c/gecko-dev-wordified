@@ -7498,6 +7498,12 @@ RefType
 :
 TypeIndex
 :
+case
+RefType
+:
+:
+Eq
+:
 t
 =
 GlobalObject

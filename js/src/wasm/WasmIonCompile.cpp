@@ -16385,6 +16385,12 @@ RefType
 :
 Extern
 :
+case
+RefType
+:
+:
+Eq
+:
 MOZ_ASSERT
 (
 value

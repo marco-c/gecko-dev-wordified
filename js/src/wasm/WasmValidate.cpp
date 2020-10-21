@@ -12239,6 +12239,12 @@ case
 RefType
 :
 :
+Eq
+:
+case
+RefType
+:
+:
 TypeIndex
 :
 offset
@@ -13762,6 +13768,12 @@ RefType
 :
 :
 Extern
+:
+case
+RefType
+:
+:
+Eq
 :
 break
 ;
