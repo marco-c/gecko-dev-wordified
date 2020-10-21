@@ -214,6 +214,11 @@ PRemotePrintJobParent
 {
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+RemotePrintJobParent
+)
+;
 explicit
 RemotePrintJobParent
 (
