@@ -17108,7 +17108,7 @@ BrowsingContext
 HistoryGo
 (
 int32_t
-aIndex
+aOffset
 std
 :
 :
@@ -17144,7 +17144,7 @@ GetSingleton
 SendHistoryGo
 (
 this
-aIndex
+aOffset
 std
 :
 :
@@ -17187,7 +17187,7 @@ Canonical
 >
 HistoryGo
 (
-aIndex
+aOffset
 std
 :
 :
