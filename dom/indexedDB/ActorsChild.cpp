@@ -4754,7 +4754,7 @@ return
 true
 ;
 }
-IDB_TRY_UNWRAP
+IDB_TRY_VAR
 (
 auto
 principal
@@ -8746,7 +8746,7 @@ IPC_OK
 )
 ;
 }
-IDB_TRY_UNWRAP
+IDB_TRY_VAR
 (
 auto
 principal

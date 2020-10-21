@@ -3863,7 +3863,7 @@ NS_IsMainThread
 int32_t
 schemaVersion
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 schemaVersion
 GetEffectiveSchemaVersion
@@ -4386,7 +4386,7 @@ return
 rv
 ;
 }
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 schemaVersion
 GetEffectiveSchemaVersion
@@ -5288,7 +5288,7 @@ EntryId
 >
 matches
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryAll
@@ -5988,7 +5988,7 @@ isNull
 nsID
 id
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 id
 ExtractId
@@ -6059,7 +6059,7 @@ EntryId
 >
 matches
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryCache
@@ -6093,7 +6093,7 @@ SavedResponse
 SavedResponse
 response
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 response
 ReadResponse
@@ -6171,7 +6171,7 @@ isNothing
 )
 )
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryAll
@@ -6184,7 +6184,7 @@ aCacheId
 }
 else
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryCache
@@ -6237,7 +6237,7 @@ matches
 SavedResponse
 savedResponse
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 savedResponse
 ReadResponse
@@ -6323,7 +6323,7 @@ EntryId
 >
 matches
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryCache
@@ -6517,7 +6517,7 @@ EntryId
 >
 matches
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryCache
@@ -6691,7 +6691,7 @@ isNothing
 )
 )
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryAll
@@ -6704,7 +6704,7 @@ aCacheId
 }
 else
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matches
 QueryCache
@@ -6757,7 +6757,7 @@ matches
 SavedRequest
 savedRequest
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 savedRequest
 ReadRequest
@@ -6866,7 +6866,7 @@ CacheId
 >
 maybeCacheId
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 maybeCacheId
 StorageGetCacheId
@@ -7118,7 +7118,7 @@ SavedResponse
 >
 matchedResponse
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matchedResponse
 CacheMatch
@@ -7254,7 +7254,7 @@ mozIStorageStatement
 >
 state
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 state
 CreateAndBindKeyStatement
@@ -7669,7 +7669,7 @@ mozIStorageStatement
 >
 state
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 state
 CreateAndBindKeyStatement
@@ -8780,7 +8780,7 @@ matchedByVary
 =
 false
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 matchedByVary
 MatchByVaryHeader
@@ -9985,7 +9985,7 @@ isNull
 nsID
 id
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 id
 ExtractId
@@ -11927,7 +11927,7 @@ IsEmpty
 )
 )
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 securityId
 InsertSecurityInfo
@@ -14338,7 +14338,7 @@ savedResponse
 mHasBodyId
 )
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 savedResponse
 .
@@ -15932,7 +15932,7 @@ savedRequest
 mHasBodyId
 )
 {
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 savedRequest
 .
@@ -17783,7 +17783,7 @@ aConn
 int32_t
 schemaVersion
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 schemaVersion
 GetEffectiveSchemaVersion
@@ -18814,7 +18814,7 @@ currentVersion
 =
 0
 ;
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 currentVersion
 GetEffectiveSchemaVersion
@@ -18956,7 +18956,7 @@ currentVersion
 ;
 #
 endif
-CACHE_TRY_UNWRAP
+CACHE_TRY_VAR
 (
 currentVersion
 GetEffectiveSchemaVersion

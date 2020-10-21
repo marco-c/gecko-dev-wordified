@@ -3857,7 +3857,7 @@ __VA_ARGS__
 *
 *
 *
-QM_TRY_UNWRAP
+QM_TRY_VAR
 (
 target
 expr
@@ -3967,7 +3967,7 @@ lvalue
 /
 #
 define
-QM_TRY_UNWRAP
+QM_TRY_VAR
 (
 .
 .
@@ -4043,7 +4043,7 @@ preferred
 over
 *
 *
-QM_TRY_UNWRAP
+QM_TRY_VAR
 (
 const
 auto
@@ -4107,13 +4107,13 @@ ifdef
 DEBUG
 #
 define
-QM_DEBUG_TRY_UNWRAP
+QM_DEBUG_TRY_VAR
 (
 .
 .
 .
 )
-QM_TRY_UNWRAP
+QM_TRY_VAR
 (
 __VA_ARGS__
 )
@@ -4121,7 +4121,7 @@ __VA_ARGS__
 else
 #
 define
-QM_DEBUG_TRY_UNWRAP
+QM_DEBUG_TRY_VAR
 (
 .
 .
