@@ -8433,7 +8433,7 @@ false
 if
 (
 !
-js
+JS
 :
 :
 AddMozDateTimeFormatConstructor
@@ -8450,7 +8450,7 @@ false
 if
 (
 !
-js
+JS
 :
 :
 AddMozDisplayNamesConstructor
