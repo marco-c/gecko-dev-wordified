@@ -807,7 +807,13 @@ initCheck
 =
 42
 ;
+std
+:
+:
+atomic
+<
 int
+>
 Aec
 :
 :

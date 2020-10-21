@@ -99,6 +99,11 @@ memory
 #
 include
 <
+atomic
+>
+#
+include
+<
 stddef
 .
 h
@@ -455,7 +460,13 @@ instance
 counter
 .
 static
+std
+:
+:
+atomic
+<
 int
+>
 instance_count
 ;
 AecCore
