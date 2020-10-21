@@ -338,6 +338,17 @@ nsresult
 aReason
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvOnDataSent
+(
+)
+;
 void
 ActorDestroy
 (
