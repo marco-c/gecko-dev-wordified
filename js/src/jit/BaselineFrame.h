@@ -167,6 +167,9 @@ ICEntry
 class
 ICScript
 ;
+class
+JSJitFrameIter
+;
 /
 /
 The

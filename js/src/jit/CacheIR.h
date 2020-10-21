@@ -272,6 +272,9 @@ Label
 class
 MacroAssembler
 ;
+struct
+Register
+;
 /
 /
 [
