@@ -71,8 +71,6 @@ text
 detection
 -
 api
-.
-tentative
 '
 ]
 [
