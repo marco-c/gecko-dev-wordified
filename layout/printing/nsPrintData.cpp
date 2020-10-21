@@ -413,10 +413,6 @@ mNumPrintablePages
 (
 0
 )
-mNumPagesPrinted
-(
-0
-)
 mShrinkRatio
 (
 1

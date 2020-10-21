@@ -605,9 +605,6 @@ mShrinkToFit
 int32_t
 mNumPrintablePages
 ;
-int32_t
-mNumPagesPrinted
-;
 float
 mShrinkRatio
 ;
