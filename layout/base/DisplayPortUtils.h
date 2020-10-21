@@ -608,6 +608,11 @@ for
 visibility
 testing
 purposes
+relative
+to
+the
+scroll
+frame
 .
 *
 *
@@ -652,13 +657,6 @@ aContent
 nsRect
 *
 aResult
-DisplayportRelativeTo
-aRelativeTo
-=
-DisplayportRelativeTo
-:
-:
-ScrollPort
 )
 ;
 enum
