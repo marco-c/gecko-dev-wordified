@@ -19,6 +19,22 @@ allow
 dead_code
 )
 ]
+#
+!
+[
+allow
+(
+non_snake_case
+)
+]
+#
+!
+[
+allow
+(
+non_camel_case_types
+)
+]
 use
 crate
 :
@@ -304,13 +320,12 @@ Inst
 /
 /
 /
-Nops
+nops
 of
 various
 sizes
 including
 zero
-.
 Nop
 {
 len
@@ -393,7 +408,7 @@ addr
 imm
 )
 reg
-AluRmiR
+Alu_RMI_R
 {
 is_64
 :
@@ -892,7 +907,7 @@ mov
 reg
 reg
 .
-MovRR
+Mov_R_R
 {
 is_64
 :
@@ -970,7 +985,7 @@ AM
 reg32
 "
 .
-MovzxRmR
+MovZX_RM_R
 {
 ext_mode
 :
@@ -1026,7 +1041,7 @@ t
 represent
 that
 .
-Mov64MR
+Mov64_M_R
 {
 src
 :
@@ -1106,7 +1121,7 @@ lq
 addr
 reg
 .
-MovsxRmR
+MovSX_RM_R
 {
 ext_mode
 :
@@ -1160,7 +1175,7 @@ q
 reg
 addr
 .
-MovRM
+Mov_R_M
 {
 size
 :
@@ -1223,7 +1238,7 @@ q
 imm
 reg
 .
-ShiftR
+Shift_R
 {
 size
 :
@@ -1324,7 +1339,7 @@ imm
 )
 reg
 .
-CmpRmiR
+Cmp_RMI_R
 {
 size
 :
@@ -1570,7 +1585,7 @@ reg
 addr
 )
 reg
-XmmRmR
+XMM_RM_R
 {
 op
 :
@@ -1730,7 +1745,7 @@ mem
 stores
 movd
 movq
-XmmMovRM
+Xmm_Mov_R_M
 {
 op
 :
@@ -2345,7 +2360,7 @@ imm
 )
 reg
 .
-XmmCmpRmR
+XMM_Cmp_RM_R
 {
 op
 :
@@ -3945,7 +3960,7 @@ I64
 Self
 :
 :
-AluRmiR
+Alu_RMI_R
 {
 is_64
 op
@@ -4678,7 +4693,7 @@ I64
 Inst
 :
 :
-MovRR
+Mov_R_R
 {
 is_64
 src
@@ -5006,7 +5021,7 @@ V128
 Inst
 :
 :
-XmmRmR
+XMM_RM_R
 {
 op
 src
@@ -5109,7 +5124,7 @@ V128
 Inst
 :
 :
-XmmMovRM
+Xmm_Mov_R_M
 {
 op
 src
@@ -5315,7 +5330,7 @@ V128
 Inst
 :
 :
-XmmCmpRmR
+XMM_Cmp_RM_R
 {
 op
 src
@@ -5914,7 +5929,7 @@ I64
 Inst
 :
 :
-MovzxRmR
+MovZX_RM_R
 {
 ext_mode
 src
@@ -6049,7 +6064,7 @@ I64
 Inst
 :
 :
-MovsxRmR
+MovSX_RM_R
 {
 ext_mode
 src
@@ -6111,7 +6126,7 @@ I64
 Inst
 :
 :
-Mov64MR
+Mov64_M_R
 {
 src
 :
@@ -6306,7 +6321,7 @@ I64
 Inst
 :
 :
-MovRM
+Mov_R_M
 {
 size
 src
@@ -6484,7 +6499,7 @@ I64
 Inst
 :
 :
-ShiftR
+Shift_R
 {
 size
 kind
@@ -6610,7 +6625,7 @@ I64
 Inst
 :
 :
-CmpRmiR
+Cmp_RMI_R
 {
 size
 src
@@ -8031,7 +8046,7 @@ self
 Self
 :
 :
-AluRmiR
+Alu_RMI_R
 {
 op
 src
@@ -8083,7 +8098,7 @@ Sub
 Self
 :
 :
-XmmRmR
+XMM_RM_R
 {
 op
 src
@@ -8457,7 +8472,7 @@ s2
 )
 }
 fn
-suffix_lq
+suffixLQ
 (
 is_64
 :
@@ -8488,7 +8503,7 @@ to_string
 )
 }
 fn
-size_lq
+sizeLQ
 (
 is_64
 :
@@ -8509,7 +8524,7 @@ else
 }
 }
 fn
-suffix_bwlq
+suffixBWLQ
 (
 size
 :
@@ -8625,7 +8640,7 @@ len
 Inst
 :
 :
-AluRmiR
+Alu_RMI_R
 {
 is_64
 op
@@ -8652,7 +8667,7 @@ op
 to_string
 (
 )
-suffix_lq
+suffixLQ
 (
 *
 is_64
@@ -8663,7 +8678,7 @@ src
 show_rru_sized
 (
 mb_rru
-size_lq
+sizeLQ
 (
 *
 is_64
@@ -8677,7 +8692,7 @@ to_reg
 (
 )
 mb_rru
-size_lq
+sizeLQ
 (
 *
 is_64
@@ -8714,7 +8729,7 @@ op
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -8768,7 +8783,7 @@ not
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -8814,7 +8829,7 @@ neg
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -9126,7 +9141,7 @@ mb_rru
 Inst
 :
 :
-XmmMovRM
+Xmm_Mov_R_M
 {
 op
 src
@@ -9172,7 +9187,7 @@ mb_rru
 Inst
 :
 :
-XmmRmR
+XMM_RM_R
 {
 op
 src
@@ -9578,7 +9593,7 @@ mb_rru
 Inst
 :
 :
-XmmCmpRmR
+XMM_Cmp_RM_R
 {
 op
 src
@@ -10000,7 +10015,7 @@ mb_rru
 Inst
 :
 :
-MovRR
+Mov_R_R
 {
 is_64
 src
@@ -10028,7 +10043,7 @@ mov
 to_string
 (
 )
-suffix_lq
+suffixLQ
 (
 *
 is_64
@@ -10039,7 +10054,7 @@ show_ireg_sized
 *
 src
 mb_rru
-size_lq
+sizeLQ
 (
 *
 is_64
@@ -10053,7 +10068,7 @@ to_reg
 (
 )
 mb_rru
-size_lq
+sizeLQ
 (
 *
 is_64
@@ -10063,7 +10078,7 @@ is_64
 Inst
 :
 :
-MovzxRmR
+MovZX_RM_R
 {
 ext_mode
 src
@@ -10187,7 +10202,7 @@ dst_size
 Inst
 :
 :
-Mov64MR
+Mov64_M_R
 {
 src
 dst
@@ -10277,7 +10292,7 @@ mb_rru
 Inst
 :
 :
-MovsxRmR
+MovSX_RM_R
 {
 ext_mode
 src
@@ -10342,7 +10357,7 @@ dst_size
 Inst
 :
 :
-MovRM
+Mov_R_M
 {
 size
 src
@@ -10372,7 +10387,7 @@ mov
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -10396,7 +10411,7 @@ mb_rru
 Inst
 :
 :
-ShiftR
+Shift_R
 {
 size
 kind
@@ -10429,7 +10444,7 @@ kind
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -10471,7 +10486,7 @@ kind
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -10541,7 +10556,7 @@ mb_rru
 Inst
 :
 :
-CmpRmiR
+Cmp_RMI_R
 {
 size
 src
@@ -10569,7 +10584,7 @@ cmp
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -10677,7 +10692,7 @@ cc
 to_string
 (
 )
-suffix_bwlq
+suffixBWLQ
 (
 *
 size
@@ -11297,7 +11312,7 @@ cmpxchg
 {
 }
 "
-suffix_bwlq
+suffixBWLQ
 (
 size
 )
@@ -11640,7 +11655,7 @@ inst
 Inst
 :
 :
-AluRmiR
+Alu_RMI_R
 {
 src
 dst
@@ -12134,7 +12149,7 @@ dst
 Inst
 :
 :
-XmmRmR
+XMM_RM_R
 {
 src
 dst
@@ -12409,7 +12424,7 @@ dst
 Inst
 :
 :
-XmmMovRM
+Xmm_Mov_R_M
 {
 src
 dst
@@ -12438,7 +12453,7 @@ collector
 Inst
 :
 :
-XmmCmpRmR
+XMM_Cmp_RM_R
 {
 src
 dst
@@ -12488,7 +12503,7 @@ dst
 Inst
 :
 :
-MovRR
+Mov_R_R
 {
 src
 dst
@@ -12667,7 +12682,7 @@ tmp_xmm
 Inst
 :
 :
-MovzxRmR
+MovZX_RM_R
 {
 src
 dst
@@ -12696,7 +12711,7 @@ dst
 Inst
 :
 :
-Mov64MR
+Mov64_M_R
 {
 src
 dst
@@ -12735,7 +12750,7 @@ dst
 Inst
 :
 :
-MovsxRmR
+MovSX_RM_R
 {
 src
 dst
@@ -12764,7 +12779,7 @@ dst
 Inst
 :
 :
-MovRM
+Mov_R_M
 {
 src
 dst
@@ -12793,7 +12808,7 @@ collector
 Inst
 :
 :
-ShiftR
+Shift_R
 {
 num_bits
 dst
@@ -12835,7 +12850,7 @@ dst
 Inst
 :
 :
-CmpRmiR
+Cmp_RMI_R
 {
 src
 dst
@@ -14076,7 +14091,7 @@ Nop
 Inst
 :
 :
-AluRmiR
+Alu_RMI_R
 {
 ref
 mut
@@ -14388,7 +14403,7 @@ dst
 Inst
 :
 :
-XmmRmR
+XMM_RM_R
 {
 ref
 mut
@@ -14542,7 +14557,7 @@ rhs_dst
 Inst
 :
 :
-XmmMovRM
+Xmm_Mov_R_M
 {
 ref
 mut
@@ -14573,7 +14588,7 @@ mapper
 Inst
 :
 :
-XmmCmpRmR
+XMM_Cmp_RM_R
 {
 ref
 mut
@@ -14622,7 +14637,7 @@ dst
 Inst
 :
 :
-MovRR
+Mov_R_R
 {
 ref
 mut
@@ -14815,7 +14830,7 @@ tmp_xmm
 Inst
 :
 :
-MovzxRmR
+MovZX_RM_R
 {
 ref
 mut
@@ -14846,7 +14861,7 @@ dst
 Inst
 :
 :
-Mov64MR
+Mov64_M_R
 {
 src
 dst
@@ -14884,7 +14899,7 @@ dst
 Inst
 :
 :
-MovsxRmR
+MovSX_RM_R
 {
 ref
 mut
@@ -14915,7 +14930,7 @@ dst
 Inst
 :
 :
-MovRM
+Mov_R_M
 {
 ref
 mut
@@ -14946,7 +14961,7 @@ mapper
 Inst
 :
 :
-ShiftR
+Shift_R
 {
 ref
 mut
@@ -14967,7 +14982,7 @@ dst
 Inst
 :
 :
-CmpRmiR
+Cmp_RMI_R
 {
 ref
 mut
@@ -15667,7 +15682,7 @@ reg
 Self
 :
 :
-MovRR
+Mov_R_R
 {
 is_64
 src

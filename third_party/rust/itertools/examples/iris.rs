@@ -36,6 +36,16 @@ are
 used
 throughout
 .
+/
+/
+/
+/
+/
+/
+extern
+crate
+itertools
+;
 use
 itertools
 :
@@ -291,6 +301,9 @@ data
 index
 ]
 =
+try
+!
+(
 part
 .
 parse
@@ -301,7 +314,7 @@ f32
 >
 (
 )
-?
+)
 ;
 }
 if

@@ -8,9 +8,6 @@ iter
 Fuse
 ;
 use
-crate
-:
-:
 size_hint
 ;
 /
@@ -196,9 +193,13 @@ fuse
 (
 )
 min
+:
+min
 pos
 :
 0
+filler
+:
 filler
 }
 }
