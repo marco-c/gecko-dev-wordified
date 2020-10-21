@@ -934,6 +934,9 @@ replace_jemalloc_stats
 jemalloc_stats_t
 *
 aStats
+jemalloc_bin_stats_t
+*
+aBinStats
 )
 {
 MutexAutoLock
@@ -944,9 +947,10 @@ sMutex
 ;
 sFuncs
 .
-jemalloc_stats
+jemalloc_stats_internal
 (
 aStats
+aBinStats
 )
 ;
 FdPrintf
@@ -1372,7 +1376,7 @@ h
 aTable
 -
 >
-jemalloc_stats
+jemalloc_stats_internal
 =
 replace_jemalloc_stats
 ;
