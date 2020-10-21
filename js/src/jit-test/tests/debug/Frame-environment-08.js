@@ -354,9 +354,6 @@ value
 )
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 frame
@@ -569,9 +566,6 @@ done
 true
 )
 ;
-/
-/
-FIXME
 assertEq
 (
 result
