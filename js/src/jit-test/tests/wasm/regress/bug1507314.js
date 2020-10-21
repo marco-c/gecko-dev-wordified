@@ -13,7 +13,7 @@ sse4
 if
 (
 !
-wasmCachingIsSupported
+wasmCachingEnabled
 (
 )
 )

@@ -34,7 +34,7 @@ js
 if
 (
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 )

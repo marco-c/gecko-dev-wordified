@@ -452,7 +452,7 @@ SSE4
 '
 simd
 '
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 (
@@ -563,7 +563,7 @@ const
 '
 threads
 '
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 (

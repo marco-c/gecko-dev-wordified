@@ -22,7 +22,7 @@ skip
 if
 :
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 /

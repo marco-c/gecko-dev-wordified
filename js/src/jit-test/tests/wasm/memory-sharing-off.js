@@ -18,7 +18,7 @@ skip
 if
 :
 !
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 /

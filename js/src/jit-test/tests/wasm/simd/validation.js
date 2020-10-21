@@ -10,7 +10,7 @@ skip
 if
 :
 !
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 function

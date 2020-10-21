@@ -10,13 +10,13 @@ skip
 if
 :
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 |
 |
 !
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 var

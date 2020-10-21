@@ -4006,7 +4006,7 @@ that
 if
 (
 !
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 )

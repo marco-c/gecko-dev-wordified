@@ -9,7 +9,7 @@ skip
 -
 if
 :
-wasmSimdSupported
+wasmSimdEnabled
 (
 )
 /
@@ -39,7 +39,7 @@ are
 rejected
 if
 !
-wasmSimdSupported
+wasmSimdEnabled
 so
 no
 need

@@ -16,7 +16,7 @@ wasmReftypesEnabled
 |
 |
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 (

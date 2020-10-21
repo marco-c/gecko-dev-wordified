@@ -419,7 +419,7 @@ We
 do
 not
 use
-wasmStreamingIsSupported
+wasmStreamingEnabled
 (
 )
 here

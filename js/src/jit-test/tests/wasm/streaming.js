@@ -10,7 +10,7 @@ skip
 if
 :
 !
-wasmStreamingIsSupported
+wasmStreamingEnabled
 (
 )
 load

@@ -10,7 +10,7 @@ skip
 if
 :
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 fullcompartmentchecks

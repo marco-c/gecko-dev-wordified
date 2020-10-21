@@ -162,7 +162,7 @@ agent
 if
 (
 !
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 |

@@ -23,7 +23,7 @@ TestComplete
 if
 (
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 )

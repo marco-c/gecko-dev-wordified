@@ -527,7 +527,7 @@ WebAssembly
 |
 |
 !
-wasmThreadsSupported
+wasmThreadsEnabled
 (
 )
 )

@@ -14,7 +14,7 @@ skip
 if
 :
 !
-wasmDebuggingIsSupported
+wasmDebuggingEnabled
 (
 )
 /
