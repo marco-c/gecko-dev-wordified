@@ -235,7 +235,6 @@ BackgroundParentImpl
 (
 )
 ;
-virtual
 void
 ActorDestroy
 (
@@ -244,7 +243,6 @@ aWhy
 )
 override
 ;
-virtual
 PBackgroundTestParent
 *
 AllocPBackgroundTestParent
@@ -256,7 +254,6 @@ aTestArg
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -276,7 +273,6 @@ aTestArg
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundTestParent
 (
@@ -286,7 +282,6 @@ aActor
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PBackgroundIDBFactoryParent
@@ -300,7 +295,6 @@ aLoggingInfo
 )
 override
 ;
-virtual
 already_AddRefed
 <
 net
@@ -317,7 +311,6 @@ aChannelID
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -337,7 +330,6 @@ aLoggingInfo
 )
 override
 ;
-virtual
 PBackgroundIndexedDBUtilsParent
 *
 AllocPBackgroundIndexedDBUtilsParent
@@ -345,7 +337,6 @@ AllocPBackgroundIndexedDBUtilsParent
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundIndexedDBUtilsParent
 (
@@ -355,7 +346,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -368,7 +358,6 @@ RecvFlushPendingFileDeletions
 )
 override
 ;
-virtual
 PBackgroundSDBConnectionParent
 *
 AllocPBackgroundSDBConnectionParent
@@ -384,7 +373,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -408,7 +396,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundSDBConnectionParent
 (
@@ -418,7 +405,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundLSDatabaseParent
 *
 AllocPBackgroundLSDatabaseParent
@@ -438,7 +424,6 @@ aDatastoreId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -466,7 +451,6 @@ aDatastoreId
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundLSDatabaseParent
 (
@@ -476,7 +460,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundLSObserverParent
 *
 AllocPBackgroundLSObserverParent
@@ -488,7 +471,6 @@ aObserverId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -508,7 +490,6 @@ aObserverId
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundLSObserverParent
 (
@@ -518,7 +499,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundLSRequestParent
 *
 AllocPBackgroundLSRequestParent
@@ -530,7 +510,6 @@ aParams
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -550,7 +529,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundLSRequestParent
 (
@@ -560,7 +538,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundLSSimpleRequestParent
 *
 AllocPBackgroundLSSimpleRequestParent
@@ -572,7 +549,6 @@ aParams
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -592,7 +568,6 @@ aParams
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundLSSimpleRequestParent
 (
@@ -602,7 +577,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -615,7 +589,6 @@ RecvLSClearPrivateBrowsing
 )
 override
 ;
-virtual
 PBackgroundLocalStorageCacheParent
 *
 AllocPBackgroundLocalStorageCacheParent
@@ -635,7 +608,6 @@ aPrivateBrowsingId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -663,7 +635,6 @@ aPrivateBrowsingId
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundLocalStorageCacheParent
 (
@@ -673,7 +644,6 @@ aActor
 )
 override
 ;
-virtual
 PBackgroundStorageParent
 *
 AllocPBackgroundStorageParent
@@ -685,7 +655,6 @@ aProfilePath
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -705,7 +674,6 @@ aProfilePath
 )
 override
 ;
-virtual
 bool
 DeallocPBackgroundStorageParent
 (
@@ -715,7 +683,6 @@ aActor
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PBackgroundSessionStorageManagerParent
@@ -729,7 +696,6 @@ aTopContextId
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PIdleSchedulerParent
@@ -739,7 +705,6 @@ AllocPIdleSchedulerParent
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PRemoteLazyInputStreamParent
@@ -757,7 +722,6 @@ aSize
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -781,7 +745,6 @@ aSize
 )
 override
 ;
-virtual
 PTemporaryIPCBlobParent
 *
 AllocPTemporaryIPCBlobParent
@@ -789,7 +752,6 @@ AllocPTemporaryIPCBlobParent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -805,7 +767,6 @@ actor
 )
 override
 ;
-virtual
 bool
 DeallocPTemporaryIPCBlobParent
 (
@@ -815,7 +776,6 @@ aActor
 )
 override
 ;
-virtual
 PFileCreatorParent
 *
 AllocPFileCreatorParent
@@ -850,7 +810,6 @@ aIsFromNsIFile
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -893,7 +852,6 @@ aIsFromNsIFile
 )
 override
 ;
-virtual
 bool
 DeallocPFileCreatorParent
 (
@@ -903,7 +861,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -921,7 +878,6 @@ aData
 )
 override
 ;
-virtual
 bool
 DeallocPRemoteWorkerParent
 (
@@ -931,7 +887,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -955,7 +910,6 @@ aRemoteWorkerData
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -987,7 +941,6 @@ aRemoteWorkerData
 )
 override
 ;
-virtual
 bool
 DeallocPRemoteWorkerControllerParent
 (
@@ -1003,7 +956,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1017,7 +969,6 @@ AllocPRemoteWorkerServiceParent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1033,7 +984,6 @@ aActor
 )
 override
 ;
-virtual
 bool
 DeallocPRemoteWorkerServiceParent
 (
@@ -1043,7 +993,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1081,7 +1030,6 @@ aPortIdentifier
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1121,7 +1069,6 @@ aPortIdentifier
 )
 override
 ;
-virtual
 bool
 DeallocPSharedWorkerParent
 (
@@ -1131,7 +1078,6 @@ aActor
 )
 override
 ;
-virtual
 PFileDescriptorSetParent
 *
 AllocPFileDescriptorSetParent
@@ -1143,7 +1089,6 @@ aFileDescriptor
 )
 override
 ;
-virtual
 bool
 DeallocPFileDescriptorSetParent
 (
@@ -1153,7 +1098,6 @@ aActor
 )
 override
 ;
-virtual
 PVsyncParent
 *
 AllocPVsyncParent
@@ -1161,7 +1105,6 @@ AllocPVsyncParent
 )
 override
 ;
-virtual
 bool
 DeallocPVsyncParent
 (
@@ -1238,7 +1181,6 @@ aCertVerifierFlags
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1306,7 +1248,6 @@ aCertVerifierFlags
 )
 override
 ;
-virtual
 PBroadcastChannelParent
 *
 AllocPBroadcastChannelParent
@@ -1326,7 +1267,6 @@ aChannel
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1354,7 +1294,6 @@ channel
 )
 override
 ;
-virtual
 bool
 DeallocPBroadcastChannelParent
 (
@@ -1364,7 +1303,6 @@ aActor
 )
 override
 ;
-virtual
 PChildToParentStreamParent
 *
 AllocPChildToParentStreamParent
@@ -1372,7 +1310,6 @@ AllocPChildToParentStreamParent
 )
 override
 ;
-virtual
 bool
 DeallocPChildToParentStreamParent
 (
@@ -1382,7 +1319,6 @@ aActor
 )
 override
 ;
-virtual
 PParentToChildStreamParent
 *
 AllocPParentToChildStreamParent
@@ -1390,7 +1326,6 @@ AllocPParentToChildStreamParent
 )
 override
 ;
-virtual
 bool
 DeallocPParentToChildStreamParent
 (
@@ -1400,7 +1335,6 @@ aActor
 )
 override
 ;
-virtual
 PServiceWorkerManagerParent
 *
 AllocPServiceWorkerManagerParent
@@ -1408,7 +1342,6 @@ AllocPServiceWorkerManagerParent
 )
 override
 ;
-virtual
 bool
 DeallocPServiceWorkerManagerParent
 (
@@ -1418,7 +1351,6 @@ aActor
 )
 override
 ;
-virtual
 PCamerasParent
 *
 AllocPCamerasParent
@@ -1426,7 +1358,6 @@ AllocPCamerasParent
 )
 override
 ;
-virtual
 bool
 DeallocPCamerasParent
 (
@@ -1436,7 +1367,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1449,7 +1379,6 @@ RecvShutdownServiceWorkerRegistrar
 )
 override
 ;
-virtual
 dom
 :
 :
@@ -1477,7 +1406,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 bool
 DeallocPCacheStorageParent
 (
@@ -1493,7 +1421,6 @@ aActor
 )
 override
 ;
-virtual
 dom
 :
 :
@@ -1507,7 +1434,6 @@ AllocPCacheParent
 )
 override
 ;
-virtual
 bool
 DeallocPCacheParent
 (
@@ -1523,7 +1449,6 @@ aActor
 )
 override
 ;
-virtual
 already_AddRefed
 <
 dom
@@ -1538,7 +1463,6 @@ AllocPCacheStreamControlParent
 (
 )
 ;
-virtual
 PUDPSocketParent
 *
 AllocPUDPSocketParent
@@ -1557,7 +1481,6 @@ aFilter
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1583,7 +1506,6 @@ aFilter
 )
 override
 ;
-virtual
 bool
 DeallocPUDPSocketParent
 (
@@ -1592,7 +1514,6 @@ PUDPSocketParent
 )
 override
 ;
-virtual
 PMessagePortParent
 *
 AllocPMessagePortParent
@@ -1612,7 +1533,6 @@ aSequenceID
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1640,7 +1560,6 @@ aSequenceID
 )
 override
 ;
-virtual
 bool
 DeallocPMessagePortParent
 (
@@ -1650,7 +1569,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1675,7 +1593,6 @@ aSequenceID
 )
 override
 ;
-virtual
 PQuotaParent
 *
 AllocPQuotaParent
@@ -1683,7 +1600,6 @@ AllocPQuotaParent
 )
 override
 ;
-virtual
 bool
 DeallocPQuotaParent
 (
@@ -1693,7 +1609,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1706,7 +1621,6 @@ RecvShutdownQuotaManager
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1719,7 +1633,6 @@ RecvShutdownBackgroundSessionStorageManagers
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1736,7 +1649,6 @@ aTopContextId
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PFileSystemRequestParent
@@ -1749,7 +1661,6 @@ FileSystemParams
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1775,7 +1686,6 @@ Gamepad
 API
 Background
 IPC
-virtual
 already_AddRefed
 <
 PGamepadEventChannelParent
@@ -1785,7 +1695,6 @@ AllocPGamepadEventChannelParent
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PGamepadTestChannelParent
@@ -1795,7 +1704,6 @@ AllocPGamepadTestChannelParent
 )
 override
 ;
-virtual
 PWebAuthnTransactionParent
 *
 AllocPWebAuthnTransactionParent
@@ -1803,7 +1711,6 @@ AllocPWebAuthnTransactionParent
 )
 override
 ;
-virtual
 bool
 DeallocPWebAuthnTransactionParent
 (
@@ -1813,7 +1720,6 @@ aActor
 )
 override
 ;
-virtual
 already_AddRefed
 <
 PHttpBackgroundChannelParent
@@ -1827,7 +1733,6 @@ aChannelId
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1847,7 +1752,6 @@ aChannelId
 )
 override
 ;
-virtual
 PClientManagerParent
 *
 AllocPClientManagerParent
@@ -1855,7 +1759,6 @@ AllocPClientManagerParent
 )
 override
 ;
-virtual
 bool
 DeallocPClientManagerParent
 (
@@ -1865,7 +1768,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1881,7 +1783,6 @@ aActor
 )
 override
 ;
-virtual
 PMIDIPortParent
 *
 AllocPMIDIPortParent
@@ -1897,7 +1798,6 @@ aSysexEnabled
 )
 override
 ;
-virtual
 bool
 DeallocPMIDIPortParent
 (
@@ -1907,7 +1807,6 @@ aActor
 )
 override
 ;
-virtual
 PMIDIManagerParent
 *
 AllocPMIDIManagerParent
@@ -1915,7 +1814,6 @@ AllocPMIDIManagerParent
 )
 override
 ;
-virtual
 bool
 DeallocPMIDIManagerParent
 (
@@ -1925,7 +1823,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1942,7 +1839,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 PServiceWorkerParent
 *
 AllocPServiceWorkerParent
@@ -1953,7 +1849,6 @@ IPCServiceWorkerDescriptor
 )
 override
 ;
-virtual
 bool
 DeallocPServiceWorkerParent
 (
@@ -1962,7 +1857,6 @@ PServiceWorkerParent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -1982,7 +1876,6 @@ aDescriptor
 )
 override
 ;
-virtual
 PServiceWorkerContainerParent
 *
 AllocPServiceWorkerContainerParent
@@ -1990,7 +1883,6 @@ AllocPServiceWorkerContainerParent
 )
 override
 ;
-virtual
 bool
 DeallocPServiceWorkerContainerParent
 (
@@ -1999,7 +1891,6 @@ PServiceWorkerContainerParent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2015,7 +1906,6 @@ aActor
 )
 override
 ;
-virtual
 PServiceWorkerRegistrationParent
 *
 AllocPServiceWorkerRegistrationParent
@@ -2026,7 +1916,6 @@ IPCServiceWorkerRegistrationDescriptor
 )
 override
 ;
-virtual
 bool
 DeallocPServiceWorkerRegistrationParent
 (
@@ -2035,7 +1924,6 @@ PServiceWorkerRegistrationParent
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2055,7 +1943,6 @@ aDescriptor
 )
 override
 ;
-virtual
 PEndpointForReportParent
 *
 AllocPEndpointForReportParent
@@ -2071,7 +1958,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2095,7 +1981,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2117,7 +2002,6 @@ aEndpoint
 )
 override
 ;
-virtual
 bool
 DeallocPEndpointForReportParent
 (
@@ -2127,7 +2011,6 @@ aActor
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -2152,7 +2035,6 @@ aPrincipalInfo
 )
 override
 ;
-virtual
 dom
 :
 :
@@ -2163,7 +2045,6 @@ AllocPMediaTransportParent
 )
 override
 ;
-virtual
 bool
 DeallocPMediaTransportParent
 (
