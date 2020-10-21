@@ -5874,6 +5874,9 @@ return
 false
 ;
 }
+JS
+:
+:
 Symbol
 *
 sym
@@ -5883,6 +5886,9 @@ stubInfo
 >
 getStubField
 <
+JS
+:
+:
 Symbol
 *
 >

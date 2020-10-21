@@ -15338,6 +15338,9 @@ auto
 *
 symbol
 =
+JS
+:
+:
 Symbol
 :
 :

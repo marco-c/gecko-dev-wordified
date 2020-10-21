@@ -2658,6 +2658,9 @@ JSContext
 cx
 )
 {
+JS
+:
+:
 Symbol
 *
 toPrimitive
