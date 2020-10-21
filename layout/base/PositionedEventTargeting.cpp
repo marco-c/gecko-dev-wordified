@@ -1348,7 +1348,7 @@ return
 elm
 -
 >
-HasListenersFor
+HasNonSystemGroupListenersFor
 (
 nsGkAtoms
 :
@@ -1360,7 +1360,7 @@ ontouchstart
 elm
 -
 >
-HasListenersFor
+HasNonSystemGroupListenersFor
 (
 nsGkAtoms
 :
