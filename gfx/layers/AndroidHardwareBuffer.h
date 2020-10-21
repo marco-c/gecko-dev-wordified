@@ -733,9 +733,6 @@ aOutVirtualAddress
 int
 Unlock
 (
-int32_t
-*
-aFence
 )
 ;
 int
