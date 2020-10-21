@@ -801,7 +801,7 @@ disabled
 SET_DEFAULT
 (
 disableOptimizationLevels
-false
+true
 )
 ;
 /
@@ -862,7 +862,7 @@ builder
 SET_DEFAULT
 (
 warpBuilder
-false
+true
 )
 ;
 /
@@ -1190,7 +1190,7 @@ match
 SET_DEFAULT
 (
 normalIonWarmUpThreshold
-1000
+1500
 )
 ;
 /
