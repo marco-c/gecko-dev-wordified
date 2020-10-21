@@ -971,6 +971,8 @@ to
 e
 )
 ;
+return
+;
 }
 if
 let
@@ -1009,6 +1011,8 @@ to
 "
 e
 )
+;
+return
 ;
 }
 fog
