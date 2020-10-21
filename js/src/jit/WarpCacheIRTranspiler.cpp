@@ -280,6 +280,15 @@ h
 #
 include
 "
+vm
+/
+BytecodeLocation
+.
+h
+"
+#
+include
+"
 gc
 /
 ObjectKind
