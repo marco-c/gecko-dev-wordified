@@ -2593,6 +2593,14 @@ linux
 -
 androideabi
 '
+            
+'
+aarch64
+-
+linux
+-
+android
+'
         
 )
         
