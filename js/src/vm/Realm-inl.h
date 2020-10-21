@@ -328,13 +328,10 @@ js
 gc
 :
 :
-IsAboutToBeFinalizedUnbarriered
+IsAboutToBeFinalized
 (
+&
 global_
-.
-unbarrieredAddress
-(
-)
 )
 ;
 }
