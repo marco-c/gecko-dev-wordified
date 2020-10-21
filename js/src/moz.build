@@ -2655,13 +2655,6 @@ cpp
 '
 builtin
 /
-TypedObject
-.
-cpp
-'
-'
-builtin
-/
 WeakMapObject
 .
 cpp

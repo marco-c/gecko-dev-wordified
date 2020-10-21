@@ -110,14 +110,14 @@ MPL
 /
 #
 ifndef
-builtin_TypedObject_inl_h
+wasm_TypedObject_inl_h
 #
 define
-builtin_TypedObject_inl_h
+wasm_TypedObject_inl_h
 #
 include
 "
-builtin
+wasm
 /
 TypedObject
 .
@@ -196,4 +196,4 @@ TypedObject
 endif
 /
 /
-builtin_TypedObject_inl_h
+wasm_TypedObject_inl_h

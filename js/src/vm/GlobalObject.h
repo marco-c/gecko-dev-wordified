@@ -5207,7 +5207,7 @@ global
 /
 Implemented
 in
-builtin
+wasm
 /
 TypedObject
 .
