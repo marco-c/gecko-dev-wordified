@@ -1443,6 +1443,10 @@ tokenStream
 cx
 &
 compilationInfo
+.
+stencil
+.
+parserAtoms
 options
 units
 length
