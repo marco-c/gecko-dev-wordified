@@ -6288,7 +6288,7 @@ System
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -6335,12 +6335,15 @@ not
 be
 affected
 .
-NS_ENSURE_TRUE
+if
 (
+!
 aWindow
-NS_ERROR_INVALID_ARG
 )
+{
+return
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -6582,9 +6585,10 @@ window
 mFocusedWindow
 )
 )
+{
 return
-NS_OK
 ;
+}
 /
 /
 at
@@ -6663,7 +6667,6 @@ focusedDocShell
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -7110,7 +7113,6 @@ down
 }
 }
 return
-NS_OK
 ;
 }
 /
@@ -7254,9 +7256,6 @@ window
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFocusManager
