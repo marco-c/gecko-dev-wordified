@@ -2465,7 +2465,7 @@ if
 (
 scriptStencil
 .
-sharedData
+immutableScriptData
 )
 {
 /
@@ -2817,7 +2817,7 @@ MOZ_ASSERT
 (
 script
 .
-sharedData
+immutableScriptData
 )
 ;
 if
@@ -8033,7 +8033,7 @@ endList
 ;
 if
 (
-sharedData
+immutableScriptData
 )
 {
 json
@@ -8041,7 +8041,7 @@ json
 formatProperty
 (
 "
-sharedData
+immutableScriptData
 "
 "
 u8
@@ -8050,10 +8050,14 @@ u8
 zu
 ]
 "
-sharedData
+immutableScriptData
 -
 >
-immutableDataLength
+immutableData
+(
+)
+.
+Length
 (
 )
 )
@@ -8066,7 +8070,7 @@ json
 nullProperty
 (
 "
-sharedData
+immutableScriptData
 "
 )
 ;
