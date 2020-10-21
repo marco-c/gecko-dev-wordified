@@ -828,6 +828,9 @@ formhistory
 dynamic
 :
 15
+tabtosearch
+:
+16
 /
 /
 n_values
@@ -1429,6 +1432,9 @@ shortcut
 "
 "
 tabmenu
+"
+"
+tabtosearch
 "
 "
 topsites_newtab
