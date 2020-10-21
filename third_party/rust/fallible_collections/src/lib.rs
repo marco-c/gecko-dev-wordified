@@ -623,8 +623,6 @@ use
 hashbrown
 :
 :
-CollectionAllocErr
-as
 TryReserveError
 ;
 #
