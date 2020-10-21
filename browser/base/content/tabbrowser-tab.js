@@ -765,6 +765,7 @@ visuallyselected
 busy
 crashed
 sharing
+pictureinpicture
 "
 "
 .
