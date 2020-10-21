@@ -181,6 +181,15 @@ architecture
 "
 #
 endif
+#
+include
+"
+jit
+/
+CompactBuffer
+.
+h
+"
 namespace
 js
 {
