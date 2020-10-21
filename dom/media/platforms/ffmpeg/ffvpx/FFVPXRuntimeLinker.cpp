@@ -767,7 +767,7 @@ PlatformDecoderModule
 FFVPXRuntimeLinker
 :
 :
-CreateDecoderModule
+Create
 (
 )
 {
