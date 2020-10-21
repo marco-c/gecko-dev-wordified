@@ -8888,7 +8888,7 @@ if
 success
 )
 {
-cleanupReadyUpdate
+cleanupDownloadingUpdate
 (
 )
 ;
@@ -21694,7 +21694,7 @@ if
 (
 this
 .
-_downloadUpdate
+_downloadingUpdate
 )
 {
 /
