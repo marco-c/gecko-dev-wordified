@@ -269,6 +269,14 @@ lock_test
 )
 ;
 let
+_t
+=
+setup_glean
+(
+None
+)
+;
+let
 common
 =
 CommonMetricData
