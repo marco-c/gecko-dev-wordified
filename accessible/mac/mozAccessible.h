@@ -402,6 +402,10 @@ states
 uint64_t
 mCachedState
 ;
+nsStaticAtom
+*
+mARIARole
+;
 }
 /
 /
