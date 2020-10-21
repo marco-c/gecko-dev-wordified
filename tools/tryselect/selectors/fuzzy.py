@@ -2598,7 +2598,8 @@ extend
 preview
 '
 '
-python
+{
+}
 {
 }
 -
@@ -2626,6 +2627,9 @@ f
 format
 (
                 
+sys
+.
+executable
 PREVIEW_SCRIPT
 dep_cache
 cache_dir
@@ -2649,7 +2653,8 @@ extend
 preview
 '
 '
-python
+{
+}
 {
 }
 -
@@ -2666,6 +2671,9 @@ f
 .
 format
 (
+sys
+.
+executable
 PREVIEW_SCRIPT
 )
         
