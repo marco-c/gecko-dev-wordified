@@ -14999,6 +14999,14 @@ early
 "
 )
 ;
+if
+(
+!
+this
+.
+isOtherInstanceHandlingUpdates
+)
+{
 /
 /
 If
@@ -15029,6 +15037,7 @@ cleanupUpdate
 (
 )
 ;
+}
 return
 ;
 }
