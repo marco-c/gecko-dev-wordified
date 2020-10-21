@@ -358,9 +358,6 @@ mEGLSurfaceSize
 ;
 #
 endif
-EGLint
-mBufferAge
-;
 /
 /
 FileDescriptor
