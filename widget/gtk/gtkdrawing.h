@@ -752,8 +752,10 @@ constants
 *
 *
 /
-typedef
 enum
+WidgetNodeType
+:
+int
 {
 /
 *
@@ -1880,7 +1882,6 @@ MOZ_GTK_WINDOW_DECORATION
 MOZ_GTK_WINDOW_DECORATION_SOLID
 MOZ_GTK_WIDGET_NODE_COUNT
 }
-WidgetNodeType
 ;
 /
 *
