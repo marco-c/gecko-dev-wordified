@@ -1645,7 +1645,7 @@ RecvCheckPermitUnload
 (
 bool
 aHasInProcessBlocker
-XPCOMPermitUnloadAction
+PermitUnloadAction
 aAction
 CheckPermitUnloadResolver
 &
