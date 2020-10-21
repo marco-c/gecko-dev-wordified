@@ -5519,10 +5519,8 @@ if
 (
 aState
 .
-HasAllStates
+HasState
 (
-NS_EVENT_STATE_HOVER
-|
 NS_EVENT_STATE_ACTIVE
 )
 )
@@ -5592,10 +5590,8 @@ if
 (
 aState
 .
-HasAllStates
+HasState
 (
-NS_EVENT_STATE_HOVER
-|
 NS_EVENT_STATE_ACTIVE
 )
 )
@@ -5891,10 +5887,8 @@ isActive
 =
 aState
 .
-HasAllStates
+HasState
 (
-NS_EVENT_STATE_HOVER
-|
 NS_EVENT_STATE_ACTIVE
 )
 ;
