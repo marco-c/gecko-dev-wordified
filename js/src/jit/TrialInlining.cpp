@@ -322,8 +322,11 @@ are
 too
 large
 .
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+JitOptions
+.
+limitScriptSize
 script
 -
 >
