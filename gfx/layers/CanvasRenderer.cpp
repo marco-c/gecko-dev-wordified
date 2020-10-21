@@ -379,9 +379,10 @@ context
 return
 nullptr
 ;
-const
-auto
-&
+RefPtr
+<
+PersistentBufferProvider
+>
 provider
 =
 context
@@ -421,6 +422,10 @@ if
 ss
 )
 {
+provider
+=
+nullptr
+;
 ss
 =
 context
