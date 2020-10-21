@@ -29,6 +29,7 @@ internals
 :
 :
 {
+ungroup
 Ctxt
 Derive
 }
@@ -2527,9 +2528,13 @@ Path
 ty
 )
 =
+ungroup
+(
+&
 field
 .
 ty
+)
 {
 if
 let

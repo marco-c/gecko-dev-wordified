@@ -50,7 +50,10 @@ use
 internals
 :
 :
+{
 attr
+ungroup
+}
 ;
 use
 proc_macro2
@@ -825,10 +828,13 @@ Path
 ty
 )
 =
+ungroup
+(
 &
 field
 .
 ty
+)
 {
 if
 let
@@ -1126,8 +1132,6 @@ visitor
 =
 FindTyParams
 {
-all_type_params
-:
 all_type_params
 relevant_type_params
 :
@@ -1894,8 +1898,6 @@ syn
 :
 Generics
 {
-params
-:
 params
 .
 .
