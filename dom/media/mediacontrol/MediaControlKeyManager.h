@@ -190,17 +190,6 @@ const
 override
 ;
 void
-SetControlledTabBrowsingContextId
-(
-Maybe
-<
-uint64_t
->
-aTopLevelBrowsingContextId
-)
-override
-;
-void
 SetPlaybackState
 (
 MediaSessionPlaybackState
