@@ -528,12 +528,6 @@ JS
 :
 ToInt32
 ;
-using
-mozilla
-:
-:
-CheckedInt
-;
 template
 <
 typename
