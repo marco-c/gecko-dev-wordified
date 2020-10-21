@@ -4617,7 +4617,7 @@ aWM
 GetIntrinsicSize
 (
 )
-GetIntrinsicRatio
+GetAspectRatio
 (
 )
 aCBSize
