@@ -34963,10 +34963,6 @@ zone
 (
 )
 )
-oom
-(
-false
-)
 {
 }
 /
@@ -35067,6 +35063,8 @@ matching
 .
 bool
 oom
+=
+false
 ;
 bool
 addRealm
@@ -35344,10 +35342,6 @@ displayURLString
 (
 cx
 )
-hasSource
-(
-false
-)
 source
 (
 cx
@@ -35362,18 +35356,6 @@ ScriptSourceObject
 nullptr
 )
 )
-)
-hasLine
-(
-false
-)
-line
-(
-0
-)
-innermost
-(
-false
 )
 innermostForRealm
 (
@@ -36941,6 +36923,8 @@ invariant
 /
 bool
 hasSource
+=
+false
 ;
 Rooted
 <
@@ -36965,6 +36949,8 @@ property
 /
 bool
 hasLine
+=
+false
 ;
 /
 *
@@ -36980,6 +36966,8 @@ cover
 unsigned
 int
 line
+=
+0
 ;
 /
 *
@@ -37002,6 +36990,8 @@ true
 /
 bool
 innermost
+=
+false
 ;
 using
 RealmToScriptMap
