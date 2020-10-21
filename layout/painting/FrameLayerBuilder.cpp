@@ -274,6 +274,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EffectCompositor
 .
 h
@@ -27360,7 +27369,7 @@ mLastDisplayPortRect
 bool
 usingDisplayport
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPort

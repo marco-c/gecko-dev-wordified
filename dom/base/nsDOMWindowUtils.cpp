@@ -1078,6 +1078,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ResultExtensions
 .
 h
@@ -2888,7 +2897,7 @@ DisplayPortPropertyData
 >
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 InvalidateForDisplayPortChange
@@ -3161,7 +3170,7 @@ aBottomMargin
 aLeftMargin
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortMargins
@@ -3245,7 +3254,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortBase

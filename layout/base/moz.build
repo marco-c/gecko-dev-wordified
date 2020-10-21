@@ -436,6 +436,11 @@ ArenaObjectID
 h
 '
 '
+DisplayPortUtils
+.
+h
+'
+'
 GeckoMVMContext
 .
 h
@@ -556,6 +561,11 @@ cpp
 '
 '
 AccessibleCaretManager
+.
+cpp
+'
+'
+DisplayPortUtils
 .
 cpp
 '

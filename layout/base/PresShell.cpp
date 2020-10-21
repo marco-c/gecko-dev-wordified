@@ -193,6 +193,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventDispatcher
 .
 h
@@ -40012,7 +40021,7 @@ false
 ;
 if
 (
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 IsMissingDisplayPortBaseRect
@@ -40144,7 +40153,7 @@ aFrame
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortBase
@@ -40177,7 +40186,7 @@ usingDisplayport
 ignoreDisplayPort
 &
 &
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 GetDisplayPortForVisibilityTesting

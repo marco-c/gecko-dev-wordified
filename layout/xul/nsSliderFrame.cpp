@@ -307,6 +307,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -6332,7 +6341,7 @@ return
 if
 (
 !
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort

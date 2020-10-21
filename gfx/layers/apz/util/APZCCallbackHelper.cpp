@@ -233,6 +233,15 @@ include
 "
 mozilla
 /
+DisplayPortUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
@@ -2191,7 +2200,7 @@ return
 bool
 hadDisplayPort
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -2289,7 +2298,7 @@ viewID
 ;
 }
 }
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortMargins
@@ -2306,7 +2315,7 @@ if
 hadDisplayPort
 )
 {
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
@@ -2341,7 +2350,7 @@ AppUnitsPerCSSPixel
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortBaseIfNotSet
@@ -3462,7 +3471,7 @@ viewId
 )
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortBaseIfNotSet
@@ -3494,7 +3503,7 @@ nsRootBoxFrame
 :
 BuildDisplayList
 .
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetDisplayPortMargins
@@ -3507,7 +3516,7 @@ ScreenMargin
 0
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
@@ -4627,7 +4636,7 @@ false
 }
 if
 (
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasDisplayPort
@@ -4688,7 +4697,7 @@ set
 .
 return
 !
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 HasPaintedDisplayPort
@@ -4848,13 +4857,13 @@ mScrollId
 bool
 activated
 =
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 CalculateAndSetDisplayPortMargins
 (
 scrollAncestor
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 RepaintMode
@@ -4882,7 +4891,7 @@ do_QueryFrame
 scrollAncestor
 )
 ;
-nsLayoutUtils
+DisplayPortUtils
 :
 :
 SetZeroMarginDisplayPortOnAsyncScrollableAncestors
