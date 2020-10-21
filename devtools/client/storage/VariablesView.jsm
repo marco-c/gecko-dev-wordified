@@ -17210,7 +17210,7 @@ inspector
 ;
 this
 .
-_nodeFront
+nodeFront
 =
 await
 inspectorFront
@@ -17226,11 +17226,9 @@ _valueGrip
 await
 this
 .
-toolbox
+nodeFront
 .
-getHighlighter
-(
-)
+highlighterFront
 .
 highlight
 (
@@ -17273,11 +17271,9 @@ return
 }
 this
 .
-toolbox
+nodeFront
 .
-getHighlighter
-(
-)
+highlighterFront
 .
 unhighlight
 (
