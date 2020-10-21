@@ -26571,9 +26571,9 @@ defaultAction
 return
 ;
 }
-nsCOMPtr
+RefPtr
 <
-nsIFocusManager
+nsFocusManager
 >
 fm
 =

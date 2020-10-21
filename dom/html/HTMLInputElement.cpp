@@ -22654,7 +22654,7 @@ raised
 a
 window
 .
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

@@ -5383,7 +5383,7 @@ erase
 its
 caret
 .
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

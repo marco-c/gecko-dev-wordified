@@ -20873,7 +20873,7 @@ EnsureDocument
 mPresContext
 )
 ;
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -22164,7 +22164,7 @@ IsElement
 )
 )
 ;
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
@@ -37610,7 +37610,7 @@ GetFocusedContent
 (
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =
