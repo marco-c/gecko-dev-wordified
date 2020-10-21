@@ -20412,6 +20412,15 @@ CacheClientSuspend
 (
 )
 ;
+mMediaCache
+-
+>
+QueueSuspendedStatusUpdate
+(
+lock
+mResourceID
+)
+;
 /
 /
 Step
