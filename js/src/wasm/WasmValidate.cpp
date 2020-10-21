@@ -18993,7 +18993,7 @@ if
 !
 d
 .
-readRefType
+readHeapType
 (
 env
 -
@@ -19003,6 +19003,7 @@ env
 -
 >
 features
+true
 &
 initType
 )
