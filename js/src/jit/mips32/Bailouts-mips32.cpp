@@ -124,6 +124,15 @@ h
 #
 include
 "
+jit
+/
+JitRuntime
+.
+h
+"
+#
+include
+"
 vm
 /
 JSContext

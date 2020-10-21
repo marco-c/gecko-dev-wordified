@@ -216,6 +216,15 @@ include
 "
 jit
 /
+JitRuntime
+.
+h
+"
+#
+include
+"
+jit
+/
 mips32
 /
 Simulator
