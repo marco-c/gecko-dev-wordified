@@ -117,9 +117,9 @@ jit_EdgeCaseAnalysis_h
 #
 include
 "
-jit
+mozilla
 /
-MIRGenerator
+Attributes
 .
 h
 "
@@ -129,6 +129,9 @@ js
 namespace
 jit
 {
+class
+MIRGenerator
+;
 class
 MIRGraph
 ;
