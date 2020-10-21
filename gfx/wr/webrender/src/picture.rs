@@ -35628,6 +35628,8 @@ new_readback
 (
 clipped
 .
+size
+.
 to_i32
 (
 )
