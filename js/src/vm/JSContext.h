@@ -8645,8 +8645,6 @@ cx
 MOZ_ASSERT_IF
 (
 cx
-&
-&
 !
 cx
 -
@@ -8654,6 +8652,8 @@ cx
 isHelperThreadContext
 (
 )
+&
+&
 \
 js
 :

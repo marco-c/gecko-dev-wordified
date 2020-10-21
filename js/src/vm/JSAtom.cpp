@@ -6842,11 +6842,6 @@ uint32_t
 indexValue
 )
 {
-CHECK_THREAD
-(
-cx
-)
-;
 const
 Latin1Char
 *
@@ -6898,11 +6893,6 @@ PinningBehavior
 pin
 )
 {
-CHECK_THREAD
-(
-cx
-)
-;
 return
 AtomizeAndCopyChars
 (
@@ -8141,11 +8131,6 @@ size_t
 length
 )
 {
-CHECK_THREAD
-(
-cx
-)
-;
 LittleEndianChars
 chars
 (
