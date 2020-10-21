@@ -1530,7 +1530,7 @@ mIsGlyph
 (
 false
 )
-mUsesFontMetricsFromStyle
+mUsesExChUnits
 (
 false
 )
@@ -10164,7 +10164,7 @@ DefinitelyRecascadesAllSubtree
 )
 )
 {
-mUsesFontMetricsFromStyle
+mUsesExChUnits
 =
 false
 ;
@@ -11382,7 +11382,7 @@ aUpdatedFont
 auto
 hint
 =
-UsesFontMetricsFromStyle
+UsesExChUnits
 (
 )
 ?

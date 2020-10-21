@@ -1330,12 +1330,6 @@ query
 context
 base_size
 orientation
-false
-/
-*
-retrieve_math_scales
-*
-/
 )
 }
 let
