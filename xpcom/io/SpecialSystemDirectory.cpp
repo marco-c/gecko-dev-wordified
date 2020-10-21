@@ -411,7 +411,7 @@ path_orig
 +
 1
 ;
-HRESULT
+BOOL
 result
 =
 SHGetSpecialFolderPathW
@@ -425,10 +425,7 @@ true
 if
 (
 !
-SUCCEEDED
-(
 result
-)
 )
 {
 return
