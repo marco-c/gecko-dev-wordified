@@ -745,7 +745,7 @@ aChannel
 nsIWebProgressListener
 :
 :
-STATE_UNBLOCKED_UNSAFE_CONTENT
+STATE_UNBLOCKED_TRACKING_CONTENT
 false
 )
 ;
