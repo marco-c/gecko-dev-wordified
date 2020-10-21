@@ -224,6 +224,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsITransferable
 .
 h

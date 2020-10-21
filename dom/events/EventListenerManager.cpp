@@ -420,6 +420,13 @@ h
 #
 include
 "
+nsGenericHTMLElement
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

@@ -255,6 +255,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
@@ -2500,6 +2507,9 @@ text
 change
 offsets
 .
+dom
+:
+:
 Document
 *
 doc
@@ -3651,6 +3661,9 @@ IMEContentObserver
 :
 OnSelectionChange
 (
+dom
+:
+:
 Selection
 &
 aSelection
@@ -12876,6 +12889,9 @@ DocumentObserver
 :
 Observe
 (
+dom
+:
+:
 Document
 *
 aDocument
@@ -12908,6 +12924,9 @@ StopObserving
 .
 RefPtr
 <
+dom
+:
+:
 Document
 >
 newDocument
@@ -12995,6 +13014,9 @@ first
 .
 RefPtr
 <
+dom
+:
+:
 Document
 >
 document
@@ -13131,6 +13153,9 @@ DocumentObserver
 :
 BeginUpdate
 (
+dom
+:
+:
 Document
 *
 aDocument
@@ -13179,6 +13204,9 @@ DocumentObserver
 :
 EndUpdate
 (
+dom
+:
+:
 Document
 *
 aDocument

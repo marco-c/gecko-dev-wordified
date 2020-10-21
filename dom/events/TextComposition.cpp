@@ -4596,6 +4596,9 @@ selectionType
 kIMESelectionTypes
 )
 {
+dom
+:
+:
 Selection
 *
 selection
@@ -4987,6 +4990,9 @@ selectionType
 kIMESelectionTypes
 )
 {
+dom
+:
+:
 Selection
 *
 selection
