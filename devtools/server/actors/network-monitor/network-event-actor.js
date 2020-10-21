@@ -2747,7 +2747,7 @@ header
 .
 *
 /
-addServerTimings
+addSeverTimings
 (
 serverTimings
 )
