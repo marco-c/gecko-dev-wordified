@@ -3,7 +3,7 @@
 Receives
 an
 image
-PerformanceElementTiming
+LargestContentfulPaint
 |
 entry
 |
