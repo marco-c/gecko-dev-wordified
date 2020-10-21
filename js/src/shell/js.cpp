@@ -29302,7 +29302,6 @@ number
 uint32_t
 baseline
 ion
-cranelift
 ;
 MOZ_ALWAYS_TRUE
 (
@@ -29326,6 +29325,12 @@ ion
 )
 )
 ;
+#
+ifdef
+ENABLE_WASM_CRANELIFT
+uint32_t
+cranelift
+;
 MOZ_ALWAYS_TRUE
 (
 JS_GetGlobalJitCompilerOption
@@ -29337,6 +29342,15 @@ cranelift
 )
 )
 ;
+#
+else
+uint32_t
+cranelift
+=
+0
+;
+#
+endif
 if
 (
 baseline
