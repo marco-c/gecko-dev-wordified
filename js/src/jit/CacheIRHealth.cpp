@@ -919,7 +919,7 @@ jitScript
 script
 -
 >
-jitScript
+maybeJitScript
 (
 )
 ;
