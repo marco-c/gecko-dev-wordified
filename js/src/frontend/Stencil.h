@@ -2670,6 +2670,7 @@ ModuleObject
 >
 module
 )
+const
 ;
 #
 if
