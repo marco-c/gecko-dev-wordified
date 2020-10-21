@@ -1930,6 +1930,10 @@ causes
 crashes
 bug
 1566109
+#
+and
+bug
+1468250
 DllBlocklistEntry
 (
 "
@@ -1937,12 +1941,7 @@ Database
 .
 dll
 "
-(
-27
-3
-0
-59
-)
+ALL_VERSIONS
 )
 #
 Hancom
