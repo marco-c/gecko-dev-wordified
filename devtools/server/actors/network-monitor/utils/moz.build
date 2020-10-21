@@ -95,6 +95,13 @@ map
 js
 '
 '
+error
+-
+codes
+.
+js
+'
+'
 wildcard
 -
 to
