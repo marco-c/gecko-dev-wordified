@@ -327,13 +327,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers
@@ -4826,7 +4819,7 @@ char
 (
 )
 stride
-Stringify
+ToString
 (
 size
 )
