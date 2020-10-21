@@ -2983,6 +2983,11 @@ CompositorAnimationStorage
 cpp
 '
 '
+CompositorTypes
+.
+cpp
+'
+'
 Effects
 .
 cpp
