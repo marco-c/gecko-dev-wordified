@@ -610,6 +610,20 @@ per
 sheet
 "
 setting
+and
+whether
+the
+print
+operation
+is
+/
+/
+restricted
+to
+a
+custom
+page
+range
 .
 )
 class
@@ -756,7 +770,7 @@ aDocURL
 )
 ;
 nsresult
-PrePrintNextPage
+PrePrintNextSheet
 (
 nsITimerCallback
 *
@@ -767,7 +781,7 @@ aDone
 )
 ;
 nsresult
-PrintNextPage
+PrintNextSheet
 (
 )
 ;
@@ -1007,7 +1021,7 @@ aChildPhysicalMargin
 ;
 nsIFrame
 *
-GetCurrentPageFrame
+GetCurrentSheetFrame
 (
 )
 ;
