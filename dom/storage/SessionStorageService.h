@@ -159,11 +159,6 @@ ShutDown
 (
 )
 ;
-void
-SendSessionStorageDataToParentProcess
-(
-)
-;
 static
 RefPtr
 <

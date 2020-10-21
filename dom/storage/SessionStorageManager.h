@@ -457,6 +457,12 @@ const
 void
 SendSessionStorageDataToParentProcess
 (
+nsIPrincipal
+&
+aPrincipal
+SessionStorageCache
+&
+aSSCache
 )
 ;
 void
