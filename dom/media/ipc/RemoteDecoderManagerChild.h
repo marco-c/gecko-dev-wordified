@@ -284,6 +284,8 @@ static
 void
 LaunchRDDProcessIfNeeded
 (
+RemoteDecodeIn
+aLocation
 )
 ;
 /
