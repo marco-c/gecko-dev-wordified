@@ -7234,7 +7234,7 @@ window
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -7245,7 +7245,7 @@ Document
 aDocument
 )
 {
-NS_ENSURE_ARG
+MOZ_ASSERT
 (
 aDocument
 )
@@ -7466,9 +7466,6 @@ i
 }
 }
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFocusManager
