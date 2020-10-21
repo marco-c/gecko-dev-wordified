@@ -10151,6 +10151,11 @@ p2a
 #
 endif
 }
+bool
+hasAnchorRect
+=
+true
+;
 if
 (
 anchorRect
@@ -10192,6 +10197,10 @@ y
 1
 1
 )
+;
+hasAnchorRect
+=
+false
 ;
 }
 LOG
@@ -10895,6 +10904,9 @@ the
 tooltips
 if
 (
+hasAnchorRect
+&
+&
 popupFrame
 &
 &
