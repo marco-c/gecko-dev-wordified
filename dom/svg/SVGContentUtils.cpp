@@ -5459,6 +5459,8 @@ const
 LengthPercentage
 &
 aLength
+uint8_t
+aCtxType
 )
 {
 float
@@ -5493,10 +5495,7 @@ ctx
 >
 GetLength
 (
-SVGContentUtils
-:
-:
-XY
+aCtxType
 )
 :
 0

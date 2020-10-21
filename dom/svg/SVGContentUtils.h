@@ -2291,6 +2291,13 @@ aContent
 const
 LengthPercentage
 &
+uint8_t
+aCtxType
+=
+SVGContentUtils
+:
+:
+XY
 )
 ;
 /

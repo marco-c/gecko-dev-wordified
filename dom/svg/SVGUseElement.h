@@ -476,6 +476,14 @@ aAttribute
 const
 override
 ;
+static
+nsCSSPropertyID
+GetCSSPropertyIdForAttrEnum
+(
+uint8_t
+aAttrEnum
+)
+;
 /
 /
 WebIDL
