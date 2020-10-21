@@ -443,7 +443,7 @@ ipc
 :
 SharedMap
 >
-SharedData
+GetSharedData
 (
 )
 ;
