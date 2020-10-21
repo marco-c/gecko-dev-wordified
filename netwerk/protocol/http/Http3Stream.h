@@ -854,6 +854,11 @@ mAttempting0RTT
 =
 false
 ;
+uint32_t
+mSendingBlockedByFlowControlCount
+=
+0
+;
 }
 ;
 }
