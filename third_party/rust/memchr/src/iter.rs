@@ -147,6 +147,7 @@ found_position
 }
 )
 }
+;
 }
 macro_rules
 !
@@ -204,6 +205,7 @@ index
 }
 )
 }
+;
 }
 /
 /

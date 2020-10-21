@@ -710,6 +710,15 @@ pub
 trait
 ToSql
 {
+/
+/
+/
+Converts
+Rust
+value
+to
+SQLite
+value
 fn
 to_sql
 (

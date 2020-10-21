@@ -187,6 +187,14 @@ ValueRef
 _
 >
 {
+/
+/
+/
+Returns
+SQLite
+fundamental
+datatype
+.
 pub
 fn
 data_type

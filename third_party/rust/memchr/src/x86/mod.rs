@@ -31,7 +31,7 @@ cfg
 feature
 =
 "
-use_std
+std
 "
 )
 ]
@@ -331,7 +331,7 @@ cfg
 feature
 =
 "
-use_std
+std
 "
 )
 ]
@@ -621,7 +621,7 @@ not
 feature
 =
 "
-use_std
+std
 "
 )
 )

@@ -1440,8 +1440,7 @@ PhantomData
 &
 '
 a
-(
-)
+Connection
 >
 phantom_to
 :
@@ -1450,8 +1449,7 @@ PhantomData
 &
 '
 b
-(
-)
+Connection
 >
 b
 :

@@ -286,6 +286,8 @@ Self
 Item
 >
 {
+unsafe
+{
 self
 .
 map
@@ -295,6 +297,7 @@ table
 par_iter
 (
 )
+}
 .
 map
 (
@@ -636,6 +639,8 @@ Self
 Item
 >
 {
+unsafe
+{
 self
 .
 map
@@ -645,6 +650,7 @@ table
 par_iter
 (
 )
+}
 .
 map
 (
@@ -970,6 +976,8 @@ Self
 Item
 >
 {
+unsafe
+{
 self
 .
 map
@@ -979,6 +987,7 @@ table
 par_iter
 (
 )
+}
 .
 map
 (
@@ -1356,6 +1365,8 @@ Self
 Item
 >
 {
+unsafe
+{
 self
 .
 map
@@ -1365,6 +1376,7 @@ table
 par_iter
 (
 )
+}
 .
 map
 (
@@ -1658,6 +1670,8 @@ Self
 Item
 >
 {
+unsafe
+{
 self
 .
 map
@@ -1667,6 +1681,7 @@ table
 par_iter
 (
 )
+}
 .
 map
 (

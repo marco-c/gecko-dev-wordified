@@ -1255,6 +1255,7 @@ u8
 >
 Box
 <
+dyn
 DoubleEndedIterator
 <
 Item
@@ -1340,6 +1341,7 @@ u8
 >
 Box
 <
+dyn
 DoubleEndedIterator
 <
 Item
@@ -1434,6 +1436,7 @@ u8
 >
 Box
 <
+dyn
 DoubleEndedIterator
 <
 Item

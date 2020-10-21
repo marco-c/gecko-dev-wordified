@@ -108,7 +108,7 @@ ARRAY_TYPE
 ;
 pub
 (
-crate
+super
 )
 unsafe
 fn
