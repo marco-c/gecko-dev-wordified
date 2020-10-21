@@ -1437,6 +1437,9 @@ create_checkpoint
 (
 name
 iteration
+minimize
+=
+False
 )
 :
             
@@ -1448,6 +1451,7 @@ do_memory_report
 (
 name
 iteration
+minimize
 )
             
 self
@@ -1550,23 +1554,15 @@ TabsOpenSettled
 itr
 )
             
-self
-.
-assertTrue
-(
-self
-.
-do_full_gc
-(
-)
-)
-            
 create_checkpoint
 (
 "
 TabsOpenForceGC
 "
 itr
+minimize
+=
+True
 )
             
 #
@@ -1705,27 +1701,15 @@ TabsClosedSettled
 itr
 )
             
-self
-.
-assertTrue
-(
-self
-.
-do_full_gc
-(
-)
-"
-GC
-ran
-"
-)
-            
 create_checkpoint
 (
 "
 TabsClosedForceGC
 "
 itr
+minimize
+=
+True
 )
         
 #

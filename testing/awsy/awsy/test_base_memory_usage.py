@@ -858,6 +858,9 @@ create_checkpoint
 (
 name
 iteration
+minimize
+=
+False
 )
 :
             
@@ -869,6 +872,7 @@ do_memory_report
 (
 name
 iteration
+minimize
 )
             
 self
@@ -957,29 +961,15 @@ settle
 (
 )
         
-self
-.
-assertTrue
-(
-self
-.
-do_full_gc
-(
-)
-)
-        
-self
-.
-settle
-(
-)
-        
 create_checkpoint
 (
 "
 TabsOpenForceGC
 "
 0
+minimize
+=
+True
 )
         
 self
