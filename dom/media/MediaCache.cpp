@@ -3508,17 +3508,6 @@ Block
 >
 mIndex
 ;
-/
-/
-Writer
-which
-performs
-IO
-asynchronously
-writing
-cache
-blocks
-.
 RefPtr
 <
 MediaBlockCacheBase
