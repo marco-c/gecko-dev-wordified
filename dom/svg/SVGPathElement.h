@@ -423,7 +423,7 @@ double
 *
 aOutput
 )
-const
+override
 {
 return
 mD

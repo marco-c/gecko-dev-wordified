@@ -185,7 +185,7 @@ namespace
 dom
 {
 class
-SVGPathElement
+SVGGeometryElement
 ;
 using
 SVGMPathElementBase
@@ -394,9 +394,7 @@ attribute
 links
 to
 a
-<
-path
->
+Shape
 /
 /
 element
@@ -416,7 +414,7 @@ this
 returns
 nullptr
 .
-SVGPathElement
+SVGGeometryElement
 *
 GetReferencedPath
 (
