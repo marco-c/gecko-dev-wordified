@@ -3055,7 +3055,7 @@ header
 .
 *
 /
-addSeverTimings
+addServerTimings
 (
 serverTimings
 )
