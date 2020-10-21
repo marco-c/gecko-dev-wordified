@@ -1582,12 +1582,7 @@ GetMacSandboxType
 )
 {
 return
-GeckoChildProcessHost
-:
-:
-GetDefaultMacSandboxType
-(
-)
+MacSandboxType_RDD
 ;
 }
 #
