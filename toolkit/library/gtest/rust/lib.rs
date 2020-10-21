@@ -60,6 +60,10 @@ extern
 crate
 bench_collections_gtest
 ;
+extern
+crate
+fog_gtest
+;
 #
 [
 cfg
