@@ -520,7 +520,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .
@@ -1632,7 +1632,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .
@@ -3665,7 +3665,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .
@@ -3949,7 +3949,7 @@ import
 subprocess
     
 #
-TOOD
+TODO
 :
 fail
 if
@@ -3958,7 +3958,7 @@ it
 s
 in
 the
-master
+default
 branch
 ?
 or
@@ -4142,7 +4142,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -4210,7 +4210,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -4271,7 +4271,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -4343,7 +4343,7 @@ C
 %
 s
 diff
-master
+main
 -
 -
 diff
@@ -6176,7 +6176,7 @@ branch
 default
 =
 "
-master
+main
 "
                         
 help

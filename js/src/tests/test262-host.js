@@ -72,7 +72,7 @@ test262
 /
 blob
 /
-master
+main
 /
 INTERPRETING
 .
