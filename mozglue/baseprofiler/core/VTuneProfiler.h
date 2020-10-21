@@ -356,6 +356,14 @@ Shutdown
 (
 )
 ;
+enum
+TracingKind
+{
+TRACING_EVENT
+TRACING_INTERVAL_START
+TRACING_INTERVAL_END
+}
+;
 static
 void
 Trace
