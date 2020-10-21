@@ -190,15 +190,6 @@ TESTING_JS_MODULES
 =
 [
 '
-experiments
-/
-NimbusExperiment
-.
-schema
-.
-json
-'
-'
 schemas
 /
 SpecialMessageActionSchemas
