@@ -295,7 +295,10 @@ Release
 ;
 private
 :
-nsAutoRefCnt
+mozilla
+:
+:
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
 }
