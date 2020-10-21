@@ -7314,9 +7314,7 @@ category
 :
 :
 DOM
-.
-WithOptions
-(
+{
 MarkerTiming
 :
 :
@@ -7327,7 +7325,7 @@ MarkerInnerWindowId
 (
 innerWindowId
 )
-)
+}
 typeStr
 aEvent
 -
@@ -7361,9 +7359,7 @@ category
 :
 :
 DOM
-.
-WithOptions
-(
+{
 MarkerTiming
 :
 :
@@ -7377,7 +7373,7 @@ move
 (
 innerWindowId
 )
-)
+}
 typeStr
 aEvent
 -

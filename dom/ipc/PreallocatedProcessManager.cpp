@@ -1906,16 +1906,12 @@ PROFILER_MARKER_TEXT
 Process
 "
 DOM
-.
-WithOptions
-(
 MarkerTiming
 :
 :
 IntervalUntilNowFrom
 (
 mBlockingStartTime
-)
 )
 "
 Blocked
