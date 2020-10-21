@@ -16516,6 +16516,8 @@ result
 '
 s
 keyword
+or
+engine
 .
 if
 (
@@ -16525,6 +16527,14 @@ result
 payload
 .
 keyword
+&
+&
+!
+result
+.
+payload
+.
+engine
 )
 {
 return
