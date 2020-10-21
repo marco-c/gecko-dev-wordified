@@ -178,6 +178,9 @@ honorPageRuleMargins
 bool
 showMarginGuides
 ;
+bool
+printSelectionOnly
+;
 short
 printRange
 ;
