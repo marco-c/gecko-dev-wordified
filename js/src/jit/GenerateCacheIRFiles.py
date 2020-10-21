@@ -757,7 +757,7 @@ writeValueField
 )
     
 '
-DOMExpandoGenerationField
+RawInt64Field
 '
 :
 (
@@ -765,7 +765,7 @@ DOMExpandoGenerationField
 uint64_t
 '
 '
-writeDOMExpandoGenerationField
+writeRawInt64Field
 '
 )
     
@@ -1914,7 +1914,7 @@ stubOffset
 )
     
 '
-DOMExpandoGenerationField
+RawInt64Field
 '
 :
 (
@@ -2786,7 +2786,7 @@ spewField
 '
     
 '
-DOMExpandoGenerationField
+RawInt64Field
 '
 :
 '
@@ -3813,7 +3813,7 @@ RawPointerField
 1
     
 '
-DOMExpandoGenerationField
+RawInt64Field
 '
 :
 1
