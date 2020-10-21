@@ -186,6 +186,15 @@ wasm_compile_h
 #
 include
 "
+vm
+/
+Runtime
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmModule

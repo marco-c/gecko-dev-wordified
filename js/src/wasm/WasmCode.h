@@ -186,6 +186,15 @@ wasm_code_h
 #
 include
 "
+gc
+/
+Memory
+.
+h
+"
+#
+include
+"
 jit
 /
 shared

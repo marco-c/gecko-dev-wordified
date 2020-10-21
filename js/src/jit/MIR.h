@@ -218,6 +218,15 @@ include
 "
 jit
 /
+CompileInfo
+.
+h
+"
+#
+include
+"
+jit
+/
 FixedList
 .
 h

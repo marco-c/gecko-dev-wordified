@@ -239,6 +239,15 @@ h
 #
 include
 "
+vm
+/
+Realm
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmBaselineCompile

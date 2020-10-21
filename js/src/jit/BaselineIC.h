@@ -328,6 +328,9 @@ class
 CacheIRStubInfo
 ;
 class
+ICScript
+;
+class
 MacroAssembler
 ;
 enum
