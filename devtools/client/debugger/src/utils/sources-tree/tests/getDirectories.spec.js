@@ -276,6 +276,9 @@ name
 "
 FakeThread
 "
+isTopLevel
+:
+false
 }
 ]
 ;
@@ -527,6 +530,9 @@ name
 "
 FakeThread
 "
+isTopLevel
+:
+false
 }
 ]
 ;

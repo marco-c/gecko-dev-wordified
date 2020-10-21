@@ -326,6 +326,9 @@ name
 "
 FakeThread
 "
+isTopLevel
+:
+false
 }
 ]
 ;

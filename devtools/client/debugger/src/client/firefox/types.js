@@ -1092,6 +1092,9 @@ boolean
 isWorkerTarget
 :
 boolean
+isTopLevel
+:
+boolean
 traits
 :
 Object
