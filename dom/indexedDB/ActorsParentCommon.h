@@ -302,12 +302,6 @@ IndexedDBCipherStrategy
 :
 KeyType
 ;
-constexpr
-uint32_t
-kFileCopyBufferSize
-=
-32768
-;
 /
 /
 At
