@@ -2103,7 +2103,7 @@ ipc
 :
 :
 IPCResult
-RecvLaunchRDDProcess
+RecvEnsureRDDProcessAndCreateBridge
 (
 nsresult
 *

@@ -2362,7 +2362,7 @@ NS_NewRunnableFunction
 RemoteDecoderManagerChild
 :
 :
-LaunchRDDProcess
+EnsureRDDProcessAndCreateBridge
 "
 [
 &
@@ -2414,7 +2414,7 @@ Unused
 bgActor
 -
 >
-SendLaunchRDDProcess
+SendEnsureRDDProcessAndCreateBridge
 (
 &
 rv
