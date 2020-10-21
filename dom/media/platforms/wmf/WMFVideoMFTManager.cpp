@@ -6469,6 +6469,7 @@ FromMicroseconds
 1
 )
 pictureRegion
+mKnowsCompositor
 )
 ;
 if

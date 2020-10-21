@@ -469,6 +469,8 @@ supported
 in
 the
 GPU
+or
+RDD
 process
 since
 the
@@ -485,6 +487,11 @@ guard
 if
 (
 XRE_IsGPUProcess
+(
+)
+|
+|
+XRE_IsRDDProcess
 (
 )
 )

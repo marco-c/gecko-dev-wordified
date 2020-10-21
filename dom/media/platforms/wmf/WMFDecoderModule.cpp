@@ -807,6 +807,11 @@ if
 XRE_IsGPUProcess
 (
 )
+|
+|
+XRE_IsRDDProcess
+(
+)
 )
 {
 /
@@ -817,6 +822,8 @@ DXVA
 in
 the
 GPU
+or
+RDD
 process
 .
 testForVPx

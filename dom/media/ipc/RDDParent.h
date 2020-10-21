@@ -302,6 +302,10 @@ PVideoBridgeChild
 &
 &
 aEndpoint
+const
+ContentDeviceData
+&
+aContentDeviceData
 )
 ;
 mozilla
