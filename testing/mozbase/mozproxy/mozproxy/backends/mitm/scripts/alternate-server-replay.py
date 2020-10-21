@@ -979,18 +979,23 @@ os
 .
 path
 .
-splitext
+join
+(
+os
+.
+path
+.
+dirname
 (
 path
 )
-[
-0
-]
 +
 "
+metadata
 .
 json
 "
+)
                 
 if
 os
