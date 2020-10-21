@@ -193,23 +193,17 @@ obj2
 ;
 /
 /
-Same
-UserInteraction
+Unlike
+TelemetryStopwatch
+we
 can
-'
-t
-be
-re
--
-started
-before
-being
-stopped
+clobber
+UserInteractions
+.
 Assert
 .
 ok
 (
-!
 UserInteraction
 .
 start
@@ -223,7 +217,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 start
@@ -238,7 +231,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 start
@@ -253,7 +245,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 running
@@ -266,7 +257,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 running
@@ -280,7 +270,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 running
@@ -296,8 +285,6 @@ Ensure
 that
 we
 can
-'
-t
 finish
 a
 UserInteraction
@@ -312,7 +299,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 finish
@@ -325,7 +311,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 finish
@@ -339,7 +324,6 @@ Assert
 .
 ok
 (
-!
 UserInteraction
 .
 finish
