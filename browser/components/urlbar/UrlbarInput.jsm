@@ -10700,6 +10700,13 @@ return
 }
 if
 (
+Cu
+.
+isInAutomation
+)
+{
+if
+(
 UrlbarPrefs
 .
 get
@@ -10742,6 +10749,7 @@ disabled
 "
 )
 ;
+}
 this
 .
 _toolbar

@@ -179,16 +179,6 @@ PREF_BANNER_SHOWN
 PREF_MAX_SEARCH_BANNER_SHOW_COUNT
 MAX_SHOW_COUNT
 ]
-[
-"
-browser
-.
-urlbar
-.
-disableExtendForTests
-"
-true
-]
 ]
 }
 )
