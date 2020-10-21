@@ -1683,7 +1683,7 @@ nsPageSequenceFrame
 *
 int32_t
 >
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 const
 UniquePtr
@@ -1764,7 +1764,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 false
 "
-GetSeqFrameAndCountPages
+GetSeqFrameAndCountSheets
 needs
 a
 non
@@ -1816,7 +1816,7 @@ the
 total
 number
 of
-pages
+sheets
 return
 {
 seqFrame
@@ -3531,7 +3531,7 @@ int32_t
 nsPrintJob
 :
 :
-GetSeqFrameAndCountPages
+GetSeqFrameAndCountSheets
 (
 )
 {
@@ -3559,7 +3559,7 @@ call
 /
 /
 of
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 )
 .
@@ -3572,7 +3572,7 @@ printDataForPrintPreview
 mPrtPreview
 ;
 return
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 printDataForPrintPreview
 -
@@ -7088,10 +7088,10 @@ return
 auto
 [
 seqFrame
-numPages
+numSheets
 ]
 =
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 printData
 -
@@ -7102,7 +7102,7 @@ mPrintObject
 Unused
 <
 <
-numPages
+numSheets
 ;
 return
 seqFrame
@@ -7205,7 +7205,7 @@ int32_t
 nsPrintJob
 :
 :
-GetPrintPreviewNumPages
+GetPrintPreviewNumSheets
 (
 )
 {
@@ -7237,10 +7237,10 @@ return
 auto
 [
 seqFrame
-numPages
+numSheets
 ]
 =
-GetSeqFrameAndCountPagesInternal
+GetSeqFrameAndCountSheetsInternal
 (
 printData
 -
@@ -7254,7 +7254,7 @@ Unused
 seqFrame
 ;
 return
-numPages
+numSheets
 ;
 }
 /
@@ -8424,7 +8424,7 @@ from
 the
 print
 list
-DonePrintingPages
+DonePrintingSheets
 (
 nullptr
 rv
@@ -11667,7 +11667,7 @@ completes
 asynchronously
 in
 the
-DonePrintingPages
+DonePrintingSheets
 method
 /
 /
@@ -18028,7 +18028,7 @@ bool
 nsPrintJob
 :
 :
-PrePrintPage
+PrePrintSheet
 (
 )
 {
@@ -18109,7 +18109,7 @@ are
 done
 preparing
 the
-page
+sheet
 .
 }
 /
@@ -18182,7 +18182,7 @@ Ask
 mPageSeqFrame
 if
 the
-page
+sheet
 is
 ready
 to
@@ -18193,7 +18193,7 @@ printed
 /
 If
 the
-page
+sheet
 doesn
 '
 t
@@ -18257,7 +18257,7 @@ rv
 ?
 :
 :
-PrintPage
+PrintSheet
 doesn
 '
 t
@@ -18352,7 +18352,7 @@ bool
 nsPrintJob
 :
 :
-PrintPage
+PrintSheet
 (
 nsPrintObject
 *
@@ -18636,7 +18636,7 @@ In
 DV
 :
 :
-PrintPage
+PrintSheet
 PO
 :
 %
@@ -18895,7 +18895,7 @@ WaitForRemotePrint
 /
 Print
 the
-Page
+sheet
 /
 /
 if
@@ -19936,7 +19936,7 @@ bool
 nsPrintJob
 :
 :
-DonePrintingPages
+DonePrintingSheets
 (
 nsPrintObject
 *
@@ -19972,7 +19972,7 @@ In
 DV
 :
 :
-DonePrintingPages
+DonePrintingSheets
 PO
 :
 %
@@ -20167,7 +20167,7 @@ In
 DV
 :
 :
-DonePrintingPages
+DonePrintingSheets
 PO
 :
 %
@@ -21612,7 +21612,7 @@ mPrintPreviewCallback
 (
 PrintPreviewResultInfo
 (
-GetPrintPreviewNumPages
+GetPrintPreviewNumSheets
 (
 )
 GetRawNumPages

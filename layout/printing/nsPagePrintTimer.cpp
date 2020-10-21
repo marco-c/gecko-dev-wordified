@@ -427,7 +427,7 @@ be
 true
 if
 a
-page
+sheet
 is
 actually
 printed
@@ -464,7 +464,7 @@ mPrintJob
 mPrintJob
 -
 >
-PrintPage
+PrintSheet
 (
 mPrintObj
 inRange
@@ -503,7 +503,7 @@ printing
 task
 by
 calling
-DonePrintingPages
+DonePrintingSheets
 .
 (
 !
@@ -513,7 +513,7 @@ mPrintJob
 mPrintJob
 -
 >
-DonePrintingPages
+DonePrintingSheets
 (
 mPrintObj
 NS_OK
@@ -556,7 +556,7 @@ holding
 a
 reference
 when
-DonePrintingPages
+DonePrintingSheets
 /
 /
 returns
@@ -691,7 +691,7 @@ timer
 the
 delay
 between
-pages
+sheets
 (
 timer
 =
@@ -784,7 +784,7 @@ the
 start
 of
 every
-page
+sheet
 .
 mWatchDogCount
 =
@@ -817,7 +817,7 @@ still
 waiting
 for
 the
-page
+sheet
 delay
 timer
 don
@@ -836,7 +836,7 @@ job
 trigger
 the
 next
-page
+sheet
 .
 if
 (
@@ -916,7 +916,7 @@ donePrePrint
 mPrintJob
 -
 >
-PrePrintPage
+PrePrintSheet
 (
 )
 ;
@@ -1083,7 +1083,7 @@ mDone
 mPrintJob
 -
 >
-DonePrintingPages
+DonePrintingSheets
 (
 mPrintObj
 NS_OK
