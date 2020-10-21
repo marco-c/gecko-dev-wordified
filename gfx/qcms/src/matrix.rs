@@ -259,6 +259,7 @@ derive
 (
 Copy
 Clone
+Default
 )
 ]
 pub
