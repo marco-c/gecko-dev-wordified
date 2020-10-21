@@ -2627,13 +2627,15 @@ actor
 *
 param
 {
-WorkerTargetFront
+WorkerDescriptorFront
 }
-workerTargetFront
+workerDescriptorFront
 *
-worker
-actor
+descriptor
 front
+of
+the
+worker
 to
 debug
 *
@@ -2659,7 +2661,7 @@ show
 async
 openWorkerToolbox
 (
-workerTarget
+workerDescriptorFront
 toolId
 )
 {
@@ -2668,7 +2670,7 @@ gDevTools
 .
 showToolbox
 (
-workerTarget
+workerDescriptorFront
 toolId
 Toolbox
 .

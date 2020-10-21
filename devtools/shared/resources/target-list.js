@@ -2484,7 +2484,7 @@ typeName
 =
 =
 "
-workerTarget
+workerDescriptor
 "
 )
 {

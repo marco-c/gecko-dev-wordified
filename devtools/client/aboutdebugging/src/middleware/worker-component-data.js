@@ -222,7 +222,7 @@ isRunning
 !
 worker
 .
-workerTargetFront
+workerDescriptorFront
 ;
 if
 (

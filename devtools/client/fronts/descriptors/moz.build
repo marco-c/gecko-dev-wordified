@@ -102,4 +102,9 @@ webextension
 .
 js
 '
+'
+worker
+.
+js
+'
 )
