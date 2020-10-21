@@ -854,16 +854,6 @@ GetDeviceOfEGLDisplay
 aError
 )
 ;
-if
-(
-!
-displayDevice
-)
-{
-return
-false
-;
-}
 RefPtr
 <
 ID3D11Device
@@ -970,6 +960,11 @@ them
 .
 if
 (
+(
+!
+displayDevice
+|
+|
 device
 .
 get
@@ -978,6 +973,7 @@ get
 !
 =
 displayDevice
+)
 &
 &
 RenderThread
