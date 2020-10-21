@@ -5545,9 +5545,10 @@ the
 start
 offset
 .
-class
 Pivot
 p
+=
+Pivot
 (
 this
 )
@@ -5996,9 +5997,10 @@ the
 end
 offset
 .
-class
 Pivot
 p
+=
+Pivot
 (
 this
 )
