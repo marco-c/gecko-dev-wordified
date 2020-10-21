@@ -5521,7 +5521,12 @@ browsertime
 not
 in
 try_name
-and
+:
+            
+return
+False
+        
+if
 '
 live
 '
