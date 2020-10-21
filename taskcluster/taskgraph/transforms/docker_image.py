@@ -74,6 +74,12 @@ six
 import
 text_type
 import
+mozpack
+.
+path
+as
+mozpath
+import
 taskgraph
 from
 taskgraph
@@ -97,9 +103,11 @@ docker
 import
 (
     
+create_context_tar
+    
 generate_context_hash
     
-create_context_tar
+image_path
 )
 from
 taskgraph
@@ -503,18 +511,6 @@ args
 }
 )
         
-definition
-=
-task
-.
-pop
-(
-'
-definition
-'
-image_name
-)
-        
 packages
 =
 task
@@ -603,19 +599,15 @@ fast
             
 context_path
 =
-os
+mozpath
 .
-path
-.
-join
+relpath
 (
-'
-taskcluster
-'
-'
-docker
-'
-definition
+image_path
+(
+image_name
+)
+GECKO
 )
             
 if
