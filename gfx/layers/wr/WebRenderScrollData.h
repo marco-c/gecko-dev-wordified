@@ -1505,6 +1505,7 @@ ApplyUpdates
 (
 ScrollUpdatesMap
 &
+&
 aUpdates
 uint32_t
 aPaintSequenceNumber

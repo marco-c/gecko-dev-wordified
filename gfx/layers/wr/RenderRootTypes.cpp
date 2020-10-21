@@ -653,10 +653,13 @@ ScrollableLayerGuid
 ViewID
 key
 ;
+nsTArray
+<
 mozilla
 :
 :
 ScrollPositionUpdate
+>
 data
 ;
 if
@@ -692,7 +695,13 @@ map
 Put
 (
 key
+std
+:
+:
+move
+(
 data
+)
 )
 ;
 }
