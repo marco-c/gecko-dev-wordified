@@ -165,6 +165,9 @@ CodeGenerator
 class
 MRootList
 ;
+class
+WarpSnapshot
+;
 /
 /
 IonCompileTask
