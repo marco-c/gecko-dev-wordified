@@ -604,9 +604,16 @@ nsIWidget
 public
 nsSupportsWeakReference
 {
+template
+<
+class
+EventType
+class
+InputType
+>
 friend
 class
-DispatchWheelEventOnMainThread
+DispatchEventOnMainThread
 ;
 friend
 class
