@@ -615,13 +615,6 @@ GetTabEventTarget
 )
 override
 ;
-virtual
-uint64_t
-ChromeOuterWindowID
-(
-)
-override
-;
 NS_FORWARD_SAFE_NSIMESSAGESENDER
 (
 mMessageManager
