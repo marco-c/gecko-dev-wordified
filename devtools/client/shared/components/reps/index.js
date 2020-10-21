@@ -102,6 +102,8 @@ require
 object
 -
 inspector
+/
+index
 "
 )
 ;
