@@ -1597,16 +1597,6 @@ getMainProcess
 (
 )
 ;
-const
-mainProcessFront
-=
-await
-mainProcessDescriptorFront
-.
-getTarget
-(
-)
-;
 dispatch
 (
 {
@@ -1621,7 +1611,7 @@ id
 0
 processFront
 :
-mainProcessFront
+mainProcessDescriptorFront
 }
 }
 )
