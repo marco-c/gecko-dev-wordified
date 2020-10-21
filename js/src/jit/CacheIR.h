@@ -11165,6 +11165,13 @@ calleeFunc
 )
 ;
 AttachDecision
+tryAttachWasmCall
+(
+HandleFunction
+calleeFunc
+)
+;
+AttachDecision
 tryAttachCallNative
 (
 HandleFunction
