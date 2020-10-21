@@ -4049,7 +4049,11 @@ delegate
 ;
 }
 WrapForJNI
-private
+/
+*
+package
+*
+/
 boolean
 usesDarkTheme
 (
