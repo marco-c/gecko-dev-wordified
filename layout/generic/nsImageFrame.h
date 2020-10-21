@@ -699,14 +699,6 @@ nullptr
 const
 final
 ;
-nsresult
-GetIntrinsicImageSize
-(
-nsSize
-&
-aSize
-)
-;
 static
 void
 ReleaseGlobals
