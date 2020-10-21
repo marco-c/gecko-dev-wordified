@@ -44788,7 +44788,7 @@ BrowsingContext
 &
 aContext
 int32_t
-aOffset
+aIndex
 HistoryGoResolver
 &
 &
@@ -44814,7 +44814,7 @@ get_canonical
 >
 HistoryGo
 (
-aOffset
+aIndex
 std
 :
 :
