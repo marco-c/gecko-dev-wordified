@@ -516,6 +516,17 @@ alpn_conv
 "
 h3
 -
+30
+"
+=
+>
+QuicVersion
+:
+:
+Draft30
+"
+h3
+-
 29
 "
 =
