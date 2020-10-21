@@ -27874,6 +27874,13 @@ nullptr
 )
 ;
 void
+storeICScriptInJSContext
+(
+Register
+icScript
+)
+;
+void
 loadBaselineFramePtr
 (
 Register
