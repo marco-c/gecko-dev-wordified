@@ -4471,6 +4471,8 @@ uint32_t
 aLoadType
 )
 ;
+private
+:
 /
 /
 Returns
@@ -4654,8 +4656,6 @@ aPrincipalToInherit
 nsIPrincipal
 *
 aPartitionedPrincipalToInehrit
-uint32_t
-aLoadType
 nsIContentSecurityPolicy
 *
 aCsp
@@ -4667,6 +4667,8 @@ bool
 aCloneSHChildren
 )
 ;
+public
+:
 /
 /
 Helper
