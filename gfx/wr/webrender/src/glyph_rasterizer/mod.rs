@@ -201,6 +201,7 @@ texture_cache
 TextureCache
 TextureCacheHandle
 Eviction
+TargetShader
 }
 ;
 use
@@ -2226,6 +2227,10 @@ Eviction
 :
 :
 Auto
+TargetShader
+:
+:
+Text
 )
 ;
 GlyphCacheEntry

@@ -589,6 +589,7 @@ texture_cache
 TextureCache
 TextureCacheHandle
 Eviction
+TargetShader
 }
 ;
 /
@@ -8713,6 +8714,10 @@ UvRectKind
 :
 Rect
 eviction
+TargetShader
+:
+:
+Default
 )
 ;
 }
