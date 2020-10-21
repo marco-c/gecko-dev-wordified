@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+TaskController
+.
+h
+"
+#
+include
+"
 nsIThreadManager
 .
 h
