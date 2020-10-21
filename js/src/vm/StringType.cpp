@@ -14990,6 +14990,9 @@ hasTwoByteChars
 )
 )
 {
+JS
+:
+:
 Latin1CharsZ
 chars
 =

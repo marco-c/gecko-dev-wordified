@@ -293,6 +293,12 @@ mozilla
 Utf8Unit
 ;
 using
+JS
+:
+:
+Latin1CharsZ
+;
+using
 namespace
 js
 ;
