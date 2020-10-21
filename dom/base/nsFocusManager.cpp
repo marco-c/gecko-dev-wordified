@@ -5875,7 +5875,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -5888,12 +5888,15 @@ bool
 aNeedsFocus
 )
 {
-NS_ENSURE_TRUE
+if
 (
+!
 aWindow
-NS_ERROR_INVALID_ARG
 )
+{
+return
 ;
+}
 nsCOMPtr
 <
 nsPIDOMWindowOuter
@@ -6134,7 +6137,6 @@ window
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -6285,9 +6287,6 @@ System
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsFocusManager
