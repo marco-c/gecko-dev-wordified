@@ -349,6 +349,17 @@ TextureFactoryIdentifier
 aIdentifier
 )
 ;
+/
+/
+The
+sync
+object
+for
+the
+global
+content
+device
+.
 SyncObjectClient
 *
 GetSyncObject
