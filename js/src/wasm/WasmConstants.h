@@ -1679,6 +1679,16 @@ RefFunc
 0xd2
 /
 /
+Function
+references
+RefAsNonNull
+=
+0xd3
+BrOnNull
+=
+0xd4
+/
+/
 GC
 (
 experimental
