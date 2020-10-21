@@ -5266,16 +5266,6 @@ parentIndex
 1
 )
 {
-#
-ifdef
-DEBUG
-setCheckEdges
-(
-false
-)
-;
-#
-endif
 }
 void
 HeapCheckTracerBase
