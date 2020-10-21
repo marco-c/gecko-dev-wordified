@@ -1965,10 +1965,6 @@ args
 =
 [
 python
-'
--
-S
-'
 self
 .
 virtualenv_script_path

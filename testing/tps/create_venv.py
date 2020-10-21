@@ -683,10 +683,6 @@ cmd_args
 sys
 .
 executable
-'
--
-S
-'
 script_path
 target
 ]
