@@ -4408,13 +4408,6 @@ wgt
 :
 BufferDescriptor
 {
-#
-[
-allow
-(
-trivial_casts
-)
-]
 label
 :
 b
