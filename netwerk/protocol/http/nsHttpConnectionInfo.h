@@ -490,6 +490,9 @@ class
 HttpConnectionInfoCloneArgs
 ;
 class
+nsHttpTransaction
+;
+class
 nsHttpConnectionInfo
 final
 :
