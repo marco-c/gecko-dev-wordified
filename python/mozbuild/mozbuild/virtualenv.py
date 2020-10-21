@@ -2599,9 +2599,7 @@ path
 .
 dirname
 (
-os
-.
-__file__
+python_lib
 )
 '
 sitecustomize
