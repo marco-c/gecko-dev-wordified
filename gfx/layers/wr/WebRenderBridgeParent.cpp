@@ -12317,11 +12317,11 @@ mSkippedComposite
 =
 false
 ;
-CompositeToTarget
+mCompositorScheduler
+-
+>
+ScheduleComposition
 (
-mSkippedCompositeId
-nullptr
-nullptr
 )
 ;
 }
@@ -12507,10 +12507,6 @@ time
 mSkippedComposite
 =
 true
-;
-mSkippedCompositeId
-=
-aId
 ;
 ResetPreviousSampleTime
 (
