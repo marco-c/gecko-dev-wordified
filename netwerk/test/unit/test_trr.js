@@ -9442,7 +9442,7 @@ TRR
 only
 that
 resolving
-localhost
+excluded
 with
 TRR
 -
@@ -9585,7 +9585,7 @@ new
 DNSListener
 (
 "
-localhost
+excluded
 "
 "
 192
@@ -9609,7 +9609,7 @@ TRR
 only
 check
 that
-localhost
+excluded
 goes
 directly
 to
@@ -9673,7 +9673,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 "
 )
 ;
@@ -9722,7 +9722,7 @@ new
 DNSListener
 (
 "
-localhost
+excluded
 "
 "
 127
@@ -9805,7 +9805,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 local
 "
 )
@@ -9944,7 +9944,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 local
 other
 "
@@ -10529,7 +10529,7 @@ TRR
 only
 check
 that
-localhost
+excluded
 goes
 directly
 to
@@ -10616,7 +10616,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 "
 )
 ;
@@ -10665,7 +10665,7 @@ new
 DNSListener
 (
 "
-localhost
+excluded
 "
 "
 127
@@ -10750,7 +10750,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 local
 "
 )
@@ -10891,7 +10891,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 local
 other
 "
@@ -11361,7 +11361,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 local
 "
 )
@@ -11590,7 +11590,7 @@ excluded
 domains
 "
 "
-localhost
+excluded
 "
 )
 ;
