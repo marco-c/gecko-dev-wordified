@@ -49,7 +49,7 @@ DisplayNames
 .
 length
 is
-0
+2
 .
 info
 :
@@ -209,7 +209,7 @@ length
 {
 value
 :
-0
+2
 enumerable
 :
 false

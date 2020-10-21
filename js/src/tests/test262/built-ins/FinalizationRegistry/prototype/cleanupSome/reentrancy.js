@@ -102,6 +102,7 @@ callback
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 host
 -

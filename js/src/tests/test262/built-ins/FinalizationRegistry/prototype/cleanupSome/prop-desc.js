@@ -148,6 +148,7 @@ js
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 ]
 -

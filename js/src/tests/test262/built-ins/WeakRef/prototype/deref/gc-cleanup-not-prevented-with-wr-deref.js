@@ -139,6 +139,7 @@ undefined
 features
 :
 [
+cleanupSome
 WeakRef
 host
 -

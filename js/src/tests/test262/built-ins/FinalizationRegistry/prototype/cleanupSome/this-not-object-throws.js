@@ -163,6 +163,7 @@ exception
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 ]
 -

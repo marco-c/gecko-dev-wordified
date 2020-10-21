@@ -250,6 +250,7 @@ finalizationRegistry
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 async
 -

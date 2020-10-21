@@ -305,6 +305,7 @@ removed
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 host
 -

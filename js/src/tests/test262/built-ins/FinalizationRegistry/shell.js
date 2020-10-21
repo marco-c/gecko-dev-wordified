@@ -65,6 +65,8 @@ collectors
 features
 :
 [
+cleanupSome
+FinalizationRegistry
 Symbol
 async
 -
@@ -76,11 +78,6 @@ flags
 non
 -
 deterministic
-]
-features
-:
-[
-FinalizationRegistry
 ]
 defines
 :

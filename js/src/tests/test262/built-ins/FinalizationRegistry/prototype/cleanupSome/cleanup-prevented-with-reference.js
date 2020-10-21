@@ -176,6 +176,7 @@ undefined
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 host
 -

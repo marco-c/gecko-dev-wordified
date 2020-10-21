@@ -171,6 +171,7 @@ undefined
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 ]
 -

@@ -174,6 +174,7 @@ undefined
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 arrow
 -

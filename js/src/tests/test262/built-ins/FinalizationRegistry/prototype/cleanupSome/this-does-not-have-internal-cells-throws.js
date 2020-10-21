@@ -182,6 +182,7 @@ exception
 features
 :
 [
+cleanupSome
 WeakSet
 WeakMap
 FinalizationRegistry

@@ -162,6 +162,7 @@ exception
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 ]
 -

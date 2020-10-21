@@ -215,6 +215,7 @@ HeldValue
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 Symbol
 host

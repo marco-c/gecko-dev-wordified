@@ -227,6 +227,7 @@ js
 features
 :
 [
+cleanupSome
 FinalizationRegistry
 ]
 -
