@@ -10232,12 +10232,9 @@ manager
 param
 )
 {
-this
-.
-filter
-=
-new
 WebsiteFilter
+.
+init
 (
 param
 .
