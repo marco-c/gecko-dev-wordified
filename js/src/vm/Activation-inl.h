@@ -171,7 +171,7 @@ include
 "
 jit
 /
-JSJitFrameIter
+CalleeToken
 .
 h
 "
