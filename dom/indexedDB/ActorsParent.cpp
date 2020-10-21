@@ -8542,6 +8542,7 @@ mExtraInfo
 ;
 #
 else
+MOZ_IMPLICIT
 BorrowedStatement
 (
 NotNull
