@@ -23,6 +23,7 @@ Client
 HandshakeState
 RecordList
 Res
+ResumptionToken
 SecretAgent
 Server
 ZeroRttCheckResult
@@ -766,10 +767,7 @@ Option
 <
 AntiReplay
 >
-Vec
-<
-u8
->
+ResumptionToken
 )
 {
 fixture_init

@@ -1198,9 +1198,17 @@ ConnectionEvent
 :
 :
 ZeroRttRejected
+|
+ConnectionEvent
+:
+:
+ResumptionToken
+(
+.
+.
+)
 =
 >
-{
 return
 Err
 (
@@ -1209,7 +1217,6 @@ Error
 :
 HttpInternal
 )
-}
 ConnectionEvent
 :
 :
