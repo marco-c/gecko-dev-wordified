@@ -1247,7 +1247,7 @@ waitForEvent
 (
 video
 "
-canplay
+canplaythrough
 "
 )
 ;
