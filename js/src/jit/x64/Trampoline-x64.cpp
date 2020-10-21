@@ -5118,7 +5118,8 @@ const
 VMFunctionData
 &
 f
-DynFn
+void
+*
 nativeFun
 uint32_t
 *
@@ -6410,6 +6411,9 @@ generateExceptionTailStub
 MacroAssembler
 &
 masm
+void
+*
+handler
 Label
 *
 profilerExitTail
@@ -6437,6 +6441,7 @@ masm
 .
 handleFailureWithHandlerTail
 (
+handler
 profilerExitTail
 )
 ;
