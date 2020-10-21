@@ -1250,11 +1250,6 @@ aParameters
 )
 const
 ;
-void
-ClearMetadata
-(
-)
-;
 }
 ;
 }
