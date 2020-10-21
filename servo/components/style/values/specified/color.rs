@@ -651,7 +651,7 @@ css
 skip
 )
 ]
-ScrollbarInactive
+ThemedScrollbar
 #
 [
 css
@@ -659,7 +659,7 @@ css
 skip
 )
 ]
-ScrollbarThumb
+ThemedScrollbarInactive
 #
 [
 css
@@ -667,7 +667,7 @@ css
 skip
 )
 ]
-ScrollbarThumbHover
+ThemedScrollbarThumb
 #
 [
 css
@@ -675,7 +675,7 @@ css
 skip
 )
 ]
-ScrollbarThumbActive
+ThemedScrollbarThumbHover
 #
 [
 css
@@ -683,7 +683,15 @@ css
 skip
 )
 ]
-ScrollbarThumbInactive
+ThemedScrollbarThumbActive
+#
+[
+css
+(
+skip
+)
+]
+ThemedScrollbarThumbInactive
 Activeborder
 Activecaption
 Appworkspace
