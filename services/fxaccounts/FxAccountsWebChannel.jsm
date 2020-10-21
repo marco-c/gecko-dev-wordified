@@ -139,6 +139,7 @@ COMMAND_PAIR_PREFERENCES
 FX_OAUTH_CLIENT_ID
 ON_PROFILE_CHANGE_NOTIFICATION
 PREF_LAST_FXA_USER
+SCOPE_OLD_SYNC
 WEBCHANNEL_ID
 log
 logPII
@@ -3618,8 +3619,9 @@ _fxAccounts
 .
 keys
 .
-getKeys
+getKeyForScope
 (
+SCOPE_OLD_SYNC
 )
 ;
 }
@@ -3633,7 +3635,7 @@ log
 error
 (
 "
-getKeys
+getKeyForScope
 errored
 "
 e

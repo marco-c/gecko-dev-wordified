@@ -4527,7 +4527,7 @@ args
 keys
 :
 {
-canGetKeys
+canGetKeyForScope
 (
 )
 {
