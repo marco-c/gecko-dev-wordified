@@ -668,6 +668,13 @@ item
 )
 )
 ;
+click
+(
+"
+pageActionButton
+"
+)
+;
 let
 pagePanel
 =
@@ -687,13 +694,6 @@ waitForEvent
 pagePanel
 "
 popupshown
-"
-)
-;
-click
-(
-"
-pageActionButton
 "
 )
 ;
