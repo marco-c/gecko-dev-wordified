@@ -25708,15 +25708,6 @@ Label
 fail
 )
 ;
-void
-loadWasmTlsRegFromFrame
-(
-Register
-dest
-=
-WasmTlsReg
-)
-;
 template
 <
 typename
