@@ -170,13 +170,6 @@ h
 #
 include
 "
-PrioritizedEventQueue
-.
-h
-"
-#
-include
-"
 ThreadEventTarget
 .
 h
@@ -2518,13 +2511,6 @@ class
 ThreadEventQueue
 <
 EventQueue
->
-;
-template
-class
-ThreadEventQueue
-<
-PrioritizedEventQueue
 >
 ;
 }

@@ -327,11 +327,6 @@ PerformanceCounter
 h
 '
 '
-PrioritizedEventQueue
-.
-h
-'
-'
 Queue
 .
 h
@@ -528,11 +523,6 @@ cpp
 '
 '
 PerformanceCounter
-.
-cpp
-'
-'
-PrioritizedEventQueue
 .
 cpp
 '
