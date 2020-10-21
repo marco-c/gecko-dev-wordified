@@ -39696,7 +39696,7 @@ rhs
 Register
 lhsOutput
 bool
-isSigned
+isUnsigned
 const
 LiveRegisterSet
 &
@@ -39741,7 +39741,7 @@ remainder32
 (
 rhs
 lhsOutput
-isSigned
+isUnsigned
 )
 ;
 }
@@ -39753,7 +39753,7 @@ quotient32
 (
 rhs
 lhsOutput
-isSigned
+isUnsigned
 )
 ;
 }
@@ -39842,7 +39842,7 @@ rhs
 ;
 if
 (
-isSigned
+isUnsigned
 )
 {
 masm
