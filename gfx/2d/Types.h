@@ -2163,7 +2163,6 @@ sRGBColor
 {
 public
 :
-constexpr
 sRGBColor
 (
 )
@@ -2194,7 +2193,6 @@ a
 )
 {
 }
-constexpr
 sRGBColor
 (
 Float
@@ -2225,7 +2223,6 @@ aA
 )
 {
 }
-constexpr
 sRGBColor
 (
 Float
