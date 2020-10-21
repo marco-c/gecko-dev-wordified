@@ -1982,6 +1982,7 @@ CubebUtils
 :
 GetDefaultStreamPrefs
 (
+CUBEB_DEVICE_TYPE_OUTPUT
 )
 ;
 /

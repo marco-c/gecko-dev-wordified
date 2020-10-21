@@ -357,6 +357,8 @@ aBackend
 cubeb_stream_prefs
 GetDefaultStreamPrefs
 (
+cubeb_device_type
+aType
 )
 ;
 char
