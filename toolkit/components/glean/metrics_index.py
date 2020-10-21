@@ -95,7 +95,7 @@ of
 the
 list
 .
-METRICS
+metrics_yamls
 =
 [
     
@@ -141,7 +141,7 @@ of
 the
 list
 .
-PINGS
+pings_yamls
 =
 [
     
