@@ -302,11 +302,6 @@ DisplayportRelativeTo
 :
 :
 ScrollPort
-bool
-*
-aOutPainted
-=
-nullptr
 )
 ;
 /
@@ -978,11 +973,6 @@ aContent
 nsRect
 *
 aResult
-bool
-*
-aOutPainted
-=
-nullptr
 )
 ;
 /
@@ -1045,11 +1035,6 @@ aContent
 nsRect
 *
 aResult
-bool
-*
-aOutPainted
-=
-nullptr
 )
 ;
 /
