@@ -278,13 +278,6 @@ h
 #
 include
 "
-nsLayoutUtils
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -382,13 +375,6 @@ mozilla
 dom
 /
 HTMLCanvasElement
-.
-h
-"
-#
-include
-"
-nsLayoutUtils
 .
 h
 "
