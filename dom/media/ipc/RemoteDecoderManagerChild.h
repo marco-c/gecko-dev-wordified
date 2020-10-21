@@ -212,6 +212,12 @@ RemoteDecodeIn
 aLocation
 )
 ;
+static
+void
+Init
+(
+)
+;
 /
 /
 Can
@@ -699,12 +705,6 @@ PRemoteDecoderManagerChild
 &
 &
 aEndpoint
-)
-;
-static
-void
-InitializeThread
-(
 )
 ;
 RefPtr
