@@ -1280,6 +1280,9 @@ SetSettledPromiseIsHandled
 (
 )
 {
+AutoAllowLegacyScriptExecution
+exemption
+;
 AutoEntryScript
 aes
 (
@@ -2448,6 +2451,9 @@ It
 was
 preserved
 !
+AutoAllowLegacyScriptExecution
+exemption
+;
 AutoEntryScript
 aes
 (

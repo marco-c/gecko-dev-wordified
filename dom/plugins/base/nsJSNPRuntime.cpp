@@ -4198,6 +4198,9 @@ return
 false
 ;
 }
+AutoAllowLegacyScriptExecution
+exemption
+;
 /
 /
 We

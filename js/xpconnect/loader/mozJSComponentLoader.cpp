@@ -5113,6 +5113,9 @@ script
 Scope
 for
 AutoEntryScript
+AutoAllowLegacyScriptExecution
+exemption
+;
 /
 /
 We

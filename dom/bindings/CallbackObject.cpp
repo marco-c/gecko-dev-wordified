@@ -1723,6 +1723,9 @@ down
 return
 ;
 }
+AutoAllowLegacyScriptExecution
+exemption
+;
 mAutoEntryScript
 .
 emplace

@@ -3897,6 +3897,9 @@ NS_ERROR_FAILURE
 nsAutoMicroTask
 mt
 ;
+AutoAllowLegacyScriptExecution
+exemption
+;
 AutoEntryScript
 aes
 (
@@ -21502,6 +21505,9 @@ globalObject
 GetScriptGlobalObject
 (
 )
+;
+AutoAllowLegacyScriptExecution
+exemption
 ;
 Maybe
 <

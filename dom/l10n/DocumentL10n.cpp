@@ -568,6 +568,9 @@ InitialTranslationTriggered
 return
 ;
 }
+AutoAllowLegacyScriptExecution
+exemption
+;
 nsTArray
 <
 RefPtr
@@ -1158,6 +1161,9 @@ nonProtoElements
 Reverse
 (
 )
+;
+AutoAllowLegacyScriptExecution
+exemption
 ;
 nsTArray
 <

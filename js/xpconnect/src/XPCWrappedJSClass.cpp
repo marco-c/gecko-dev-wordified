@@ -2462,6 +2462,9 @@ HasJSGlobal
 NS_ERROR_FAILURE
 )
 ;
+AutoAllowLegacyScriptExecution
+exemption
+;
 AutoEntryScript
 aes
 (
@@ -5680,6 +5683,9 @@ UncheckedUnwrap
 obj
 )
 )
+;
+AutoAllowLegacyScriptExecution
+exemption
 ;
 AutoEntryScript
 aes
