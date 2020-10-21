@@ -482,7 +482,11 @@ GetGlobal
 )
 const
 ;
-void
+Result
+<
+bool
+ErrorResult
+>
 MaybeCreateInitialDocument
 (
 )
