@@ -1822,13 +1822,6 @@ h
 '
 wr
 /
-WebRenderLayersLogging
-.
-h
-'
-'
-wr
-/
 WebRenderMessageUtils
 .
 h
@@ -3628,13 +3621,6 @@ cpp
 wr
 /
 WebRenderLayerManager
-.
-cpp
-'
-'
-wr
-/
-WebRenderLayersLogging
 .
 cpp
 '
