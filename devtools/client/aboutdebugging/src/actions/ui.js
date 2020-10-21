@@ -204,8 +204,10 @@ runtimeId
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -591,8 +593,10 @@ location
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -615,8 +619,10 @@ location
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -737,8 +743,10 @@ locations
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -805,8 +813,10 @@ installAdbAddon
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -893,8 +903,10 @@ uninstallAdbAddon
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -956,8 +968,10 @@ scanUSBRuntimes
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >

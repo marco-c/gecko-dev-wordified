@@ -507,8 +507,10 @@ action
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -725,8 +727,10 @@ features
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1124,8 +1128,10 @@ startRecording
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1264,8 +1270,10 @@ getProfileAndStopProfiler
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1403,8 +1411,10 @@ stopProfilerAndDiscardProfile
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >

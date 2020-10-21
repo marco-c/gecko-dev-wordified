@@ -92,7 +92,11 @@ simTypes
 )
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 simulateFunc

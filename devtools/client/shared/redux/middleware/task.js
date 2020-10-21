@@ -228,8 +228,10 @@ action
 bind
 (
 null
+{
 dispatch
 getState
+}
 )
 )
 .
@@ -256,8 +258,10 @@ action
 return
 action
 (
+{
 dispatch
 getState
+}
 )
 .
 catch

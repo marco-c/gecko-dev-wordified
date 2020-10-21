@@ -506,8 +506,10 @@ random
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1162,8 +1164,10 @@ createThisFirefoxRuntime
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1249,8 +1253,10 @@ false
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1391,8 +1397,10 @@ connectionPromptEnabled
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1509,8 +1517,10 @@ id
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -1705,8 +1715,10 @@ id
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -2150,8 +2162,10 @@ type
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -2779,8 +2793,10 @@ removeRuntimeListeners
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >

@@ -111,7 +111,11 @@ fetchChildren
 accessible
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 accessible
@@ -161,7 +165,11 @@ select
 accessible
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 {
@@ -263,7 +271,11 @@ highlight
 accessible
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 {
@@ -366,7 +378,11 @@ unhighlight
 )
 =
 >
+(
+{
 dispatch
+}
+)
 =
 >
 dispatch

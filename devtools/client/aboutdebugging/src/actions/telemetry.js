@@ -122,8 +122,10 @@ details
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >

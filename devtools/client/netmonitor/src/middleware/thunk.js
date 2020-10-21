@@ -137,8 +137,10 @@ function
 ?
 action
 (
+{
 dispatch
 getState
+}
 )
 :
 next

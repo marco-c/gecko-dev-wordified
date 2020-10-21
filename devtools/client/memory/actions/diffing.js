@@ -143,8 +143,10 @@ function
 return
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 dispatch
@@ -312,8 +314,10 @@ return
 async
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 assert
@@ -731,8 +735,10 @@ heapWorker
 return
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 if
@@ -923,8 +929,10 @@ return
 async
 function
 (
+{
 dispatch
 getState
+}
 )
 {
 assert

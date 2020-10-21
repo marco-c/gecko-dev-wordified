@@ -129,7 +129,10 @@ targetActorID
 return
 function
 (
+{
 dispatch
+getState
+}
 )
 {
 dispatch

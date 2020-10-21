@@ -139,8 +139,10 @@ fetchManifest
 return
 async
 (
+{
 dispatch
 getState
+}
 )
 =
 >
