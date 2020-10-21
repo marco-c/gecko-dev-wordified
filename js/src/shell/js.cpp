@@ -26406,7 +26406,7 @@ setStackSize
 (
 gMaxStackSize
 +
-256
+512
 *
 1024
 )
