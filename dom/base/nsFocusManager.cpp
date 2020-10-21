@@ -4765,7 +4765,7 @@ focusInOtherContentProcess
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsFocusManager
 :
 :
@@ -4776,10 +4776,9 @@ mozIDOMWindowProxy
 aWindow
 )
 {
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
 aWindow
-NS_ERROR_INVALID_ARG
 )
 ;
 nsCOMPtr
@@ -4966,7 +4965,6 @@ window
 )
 {
 return
-NS_OK
 ;
 }
 }
@@ -5005,7 +5003,6 @@ Top
 )
 {
 return
-NS_OK
 ;
 }
 }
@@ -5297,9 +5294,6 @@ true
 mWindowBeingLowered
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 nsresult
