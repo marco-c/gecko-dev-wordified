@@ -54783,6 +54783,10 @@ toAtom
 (
 cx
 compilationInfo
+.
+stencil
+.
+parserAtoms
 )
 ;
 if

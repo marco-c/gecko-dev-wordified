@@ -2489,6 +2489,10 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
+.
+parserAtoms
 &
 node
 &
@@ -9980,6 +9984,10 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
+.
+parserAtoms
 &
 node
 &
@@ -10313,6 +10321,10 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
+.
+parserAtoms
 &
 node
 &
@@ -11002,6 +11014,10 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
+.
+parserAtoms
 &
 node
 &
@@ -13278,6 +13294,10 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
+.
+parserAtoms
 &
 node
 &
@@ -19812,6 +19832,10 @@ this
 getCompilationInfo
 (
 )
+.
+stencil
+.
+parserAtoms
 &
 node
 &
@@ -61757,6 +61781,10 @@ this
 -
 >
 compilationInfo_
+.
+stencil
+.
+parserAtoms
 anyChars
 .
 currentToken

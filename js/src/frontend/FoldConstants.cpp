@@ -287,9 +287,9 @@ JSContext
 *
 cx
 ;
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 ;
 FullParseHandler
 *
@@ -3245,7 +3245,7 @@ info
 cx
 info
 .
-compilationInfo
+parserAtoms
 )
 ;
 if
@@ -8216,7 +8216,7 @@ info
 cx
 info
 .
-compilationInfo
+parserAtoms
 )
 ;
 if
@@ -9188,10 +9188,6 @@ combination
 =
 info
 .
-compilationInfo
-.
-stencil
-.
 parserAtoms
 .
 concatAtoms
@@ -9561,9 +9557,9 @@ JSContext
 *
 cx
 ;
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 ;
 FullParseHandler
 *
@@ -9579,7 +9575,7 @@ return
 FoldInfo
 {
 cx
-compilationInfo
+parserAtoms
 handler
 }
 ;
@@ -9592,9 +9588,9 @@ FoldVisitor
 JSContext
 *
 cx
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 FullParseHandler
 *
 handler
@@ -9608,9 +9604,9 @@ cx
 (
 cx
 )
-compilationInfo
+parserAtoms
 (
-compilationInfo
+parserAtoms
 )
 handler
 (
@@ -11397,9 +11393,9 @@ Fold
 JSContext
 *
 cx
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 FullParseHandler
 *
 handler
@@ -11413,7 +11409,7 @@ FoldVisitor
 visitor
 (
 cx
-compilationInfo
+parserAtoms
 handler
 )
 ;
@@ -11447,7 +11443,7 @@ info
 cx
 info
 .
-compilationInfo
+parserAtoms
 info
 .
 handler
@@ -11464,9 +11460,9 @@ FoldConstants
 JSContext
 *
 cx
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 ParseNode
 *
 *
@@ -11490,7 +11486,7 @@ return
 Fold
 (
 cx
-compilationInfo
+parserAtoms
 handler
 pnp
 )
