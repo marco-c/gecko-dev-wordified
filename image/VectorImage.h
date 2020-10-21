@@ -763,6 +763,11 @@ SendInvalidationNotifications
 (
 )
 ;
+void
+ReportUseCounters
+(
+)
+;
 RefPtr
 <
 SVGDocumentWrapper
