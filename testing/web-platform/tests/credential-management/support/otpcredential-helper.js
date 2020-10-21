@@ -134,7 +134,7 @@ mojom
 /
 sms
 /
-sms_receiver
+webotp_service
 .
 mojom
 -
