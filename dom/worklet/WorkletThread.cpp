@@ -1473,12 +1473,6 @@ nsThread
 MakeNotNull
 <
 ThreadEventQueue
-<
-mozilla
-:
-:
-EventQueue
->
 *
 >
 (

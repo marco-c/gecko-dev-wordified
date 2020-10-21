@@ -126,7 +126,7 @@ include
 "
 mozilla
 /
-AbstractEventQueue
+EventQueue
 .
 h
 "

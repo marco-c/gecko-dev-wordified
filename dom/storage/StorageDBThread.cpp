@@ -2324,9 +2324,6 @@ queue
 MakeRefPtr
 <
 ThreadEventQueue
-<
-EventQueue
->
 >
 (
 MakeUnique

@@ -1034,12 +1034,6 @@ mozilla
 :
 :
 ThreadEventQueue
-<
-mozilla
-:
-:
-EventQueue
->
 >
 (
 mozilla
