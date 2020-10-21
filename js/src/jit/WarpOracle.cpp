@@ -6965,7 +6965,7 @@ StubField
 Type
 :
 :
-RawWord
+RawInt32
 :
 case
 StubField
