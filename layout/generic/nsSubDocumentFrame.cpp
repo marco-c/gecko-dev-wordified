@@ -6310,6 +6310,7 @@ nsSubDocumentFrame
 GetDocShell
 (
 )
+const
 {
 /
 /

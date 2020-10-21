@@ -2404,6 +2404,7 @@ nsHTMLCanvasFrame
 GetCanvasSize
 (
 )
+const
 {
 nsIntSize
 size
