@@ -2606,6 +2606,15 @@ StubField
 Type
 :
 :
+RawPointer
+:
+case
+StubField
+:
+:
+Type
+:
+:
 RawInt64
 :
 case

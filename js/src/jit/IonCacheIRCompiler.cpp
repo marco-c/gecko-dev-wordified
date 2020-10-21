@@ -435,7 +435,7 @@ T
 IonCacheIRCompiler
 :
 :
-rawWordStubField
+rawPointerStubField
 (
 uint32_t
 offset
@@ -457,7 +457,7 @@ uintptr_t
 T
 must
 have
-word
+pointer
 size
 "
 )
@@ -475,7 +475,7 @@ StubField
 Type
 :
 :
-RawWord
+RawPointer
 )
 ;
 }
@@ -6879,7 +6879,7 @@ JSJitInfo
 *
 info
 =
-rawWordStubField
+rawPointerStubField
 <
 const
 JSJitInfo
@@ -7017,7 +7017,7 @@ JSJitInfo
 *
 info
 =
-rawWordStubField
+rawPointerStubField
 <
 const
 JSJitInfo
@@ -14565,7 +14565,7 @@ NativeIterator
 *
 enumerators
 =
-rawWordStubField
+rawPointerStubField
 <
 NativeIterator
 *
@@ -14995,7 +14995,7 @@ ExpandoAndGeneration
 *
 expandoAndGeneration
 =
-rawWordStubField
+rawPointerStubField
 <
 ExpandoAndGeneration
 *

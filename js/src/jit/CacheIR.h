@@ -1588,6 +1588,7 @@ single
 word
 .
 RawWord
+RawPointer
 Shape
 ObjectGroup
 JSObject
@@ -3995,7 +3996,7 @@ StubField
 Type
 :
 :
-RawWord
+RawPointer
 )
 ;
 }

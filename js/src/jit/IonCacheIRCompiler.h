@@ -327,7 +327,7 @@ typename
 T
 >
 T
-rawWordStubField
+rawPointerStubField
 (
 uint32_t
 offset
