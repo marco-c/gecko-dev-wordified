@@ -1929,6 +1929,7 @@ ScriptAndFunction
 {
 public
 :
+const
 ScriptStencil
 &
 script
@@ -1947,6 +1948,7 @@ delete
 ;
 ScriptAndFunction
 (
+const
 ScriptStencil
 &
 script
@@ -2161,6 +2163,7 @@ operator
 (
 )
 {
+const
 ScriptStencil
 &
 script
