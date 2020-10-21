@@ -2550,11 +2550,9 @@ this
 .
 input
 .
-setSearchMode
-(
-{
-}
-)
+searchMode
+=
+null
 ;
 this
 .

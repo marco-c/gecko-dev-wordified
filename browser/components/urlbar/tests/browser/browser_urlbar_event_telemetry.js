@@ -7900,6 +7900,14 @@ topsites_urlbar
 }
 )
 ;
+await
+UrlbarTestUtils
+.
+exitSearchMode
+(
+win
+)
+;
 /
 /
 To

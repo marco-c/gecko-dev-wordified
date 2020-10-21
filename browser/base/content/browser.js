@@ -25488,6 +25488,13 @@ placeholderUpdateListener
 ;
 }
 else
+if
+(
+!
+gURLBar
+.
+searchMode
+)
 {
 this
 .
