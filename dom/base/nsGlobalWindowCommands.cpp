@@ -1516,7 +1516,7 @@ the
 new
 caret
 position
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

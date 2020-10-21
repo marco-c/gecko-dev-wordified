@@ -8660,7 +8660,7 @@ type
 NPWindowTypeDrawable
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

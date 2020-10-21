@@ -1521,7 +1521,7 @@ GetParent
 )
 ;
 }
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

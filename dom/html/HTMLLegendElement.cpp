@@ -529,7 +529,7 @@ instead
 bug
 81481
 .
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

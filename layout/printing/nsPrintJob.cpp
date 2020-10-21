@@ -19676,7 +19676,7 @@ aDoc
 )
 const
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

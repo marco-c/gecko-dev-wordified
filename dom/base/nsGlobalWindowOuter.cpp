@@ -34944,7 +34944,7 @@ focused
 clear
 the
 focus
-nsFocusManager
+nsIFocusManager
 *
 fm
 =
@@ -50200,7 +50200,7 @@ focusedElement
 )
 )
 {
-nsFocusManager
+nsIFocusManager
 *
 fm
 =

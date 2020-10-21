@@ -787,9 +787,9 @@ aForDocumentNavigation
 Adapted
 from
 BrowserParent
-RefPtr
+nsCOMPtr
 <
-nsFocusManager
+nsIFocusManager
 >
 fm
 =
