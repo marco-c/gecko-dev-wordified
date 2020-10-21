@@ -37383,8 +37383,7 @@ setTimeout
 callback
 "
 JS
-.
-WithOptions
+MarkerOptions
 (
 MarkerStack
 :

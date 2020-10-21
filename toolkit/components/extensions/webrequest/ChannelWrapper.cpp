@@ -2043,16 +2043,12 @@ Extension
 Suspend
 "
 NETWORK
-.
-WithOptions
-(
 MarkerTiming
 :
 :
 IntervalUntilNowFrom
 (
 mSuspendTime
-)
 )
 aText
 )

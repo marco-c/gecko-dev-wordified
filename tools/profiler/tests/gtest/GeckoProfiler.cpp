@@ -3297,6 +3297,8 @@ Not
 paused
 "
 OTHER
+{
+}
 )
 ;
 info2
@@ -3408,6 +3410,8 @@ PROFILER_MARKER_UNTYPED
 Paused
 "
 OTHER
+{
+}
 )
 ;
 info2
@@ -3437,6 +3441,8 @@ Paused
 v2
 "
 OTHER
+{
+}
 )
 ;
 Maybe
@@ -4046,6 +4052,8 @@ PROFILER_MARKER_UNTYPED
 M1
 "
 OTHER
+{
+}
 )
 ;
 PROFILER_ADD_MARKER_WITH_PAYLOAD
@@ -4070,6 +4078,8 @@ PROFILER_MARKER_UNTYPED
 M3
 "
 OTHER
+{
+}
 )
 ;
 PROFILER_ADD_MARKER_WITH_PAYLOAD
@@ -4585,8 +4595,6 @@ markers
 MOZ_RELEASE_ASSERT
 (
 profiler_add_marker
-<
->
 (
 "
 default
@@ -4607,6 +4615,8 @@ category
 :
 :
 OTHER
+{
+}
 )
 )
 ;
@@ -4624,9 +4634,6 @@ with
 option
 "
 OTHER
-.
-WithOptions
-(
 MarkerStack
 :
 :
@@ -4634,7 +4641,6 @@ TakeBacktrace
 (
 profiler_capture_backtrace
 (
-)
 )
 )
 )
@@ -4656,6 +4662,8 @@ empty
 options
 "
 OTHER
+{
+}
 NoPayload
 )
 ;
@@ -4694,6 +4702,8 @@ category
 :
 :
 OTHER
+{
+}
 )
 )
 ;
@@ -4864,9 +4874,6 @@ category
 :
 :
 OTHER
-.
-WithOptions
-(
 MarkerTiming
 :
 :
@@ -4874,7 +4881,6 @@ Interval
 (
 ts1
 ts2
-)
 )
 "
 operation
@@ -4952,9 +4958,6 @@ category
 :
 :
 OTHER
-.
-WithOptions
-(
 MarkerTiming
 :
 :
@@ -4962,7 +4965,6 @@ Interval
 (
 ts1
 ts2
-)
 )
 "
 operation2
@@ -5737,6 +5739,8 @@ category
 :
 :
 OTHER
+{
+}
 "
 category
 "
@@ -5766,6 +5770,8 @@ category
 :
 :
 OTHER
+{
+}
 "
 mark
 name
@@ -5796,6 +5802,8 @@ category
 :
 :
 OTHER
+{
+}
 "
 measure
 name
@@ -5850,6 +5858,8 @@ category
 :
 :
 OTHER
+{
+}
 )
 )
 ;
@@ -5876,6 +5886,8 @@ category
 :
 :
 OTHER
+{
+}
 )
 )
 ;
@@ -5902,6 +5914,8 @@ category
 :
 :
 OTHER
+{
+}
 "
 Text
 text
@@ -5932,6 +5946,8 @@ category
 :
 :
 OTHER
+{
+}
 "
 module
 "
@@ -5965,6 +5981,8 @@ category
 :
 :
 OTHER
+{
+}
 123
 456
 )
@@ -5993,6 +6011,8 @@ category
 :
 :
 OTHER
+{
+}
 )
 )
 ;
@@ -14701,6 +14721,8 @@ base
 profiler
 "
 OTHER
+{
+}
 )
 ;
 Maybe

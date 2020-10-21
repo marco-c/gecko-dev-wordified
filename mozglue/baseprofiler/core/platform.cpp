@@ -25682,6 +25682,8 @@ WrapNullTerminatedString
 aMarkerName
 )
 JS
+{
+}
 ProfilerString8View
 :
 :
