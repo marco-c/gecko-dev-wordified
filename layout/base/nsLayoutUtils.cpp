@@ -274,13 +274,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 LayoutLogging
 .
 h
@@ -9369,7 +9362,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 aMargins
 )
@@ -9436,7 +9429,7 @@ s
 \
 n
 "
-Stringify
+ToString
 (
 aMargins
 )
