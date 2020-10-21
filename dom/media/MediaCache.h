@@ -4397,7 +4397,7 @@ FlushPartialBlockInternal
 AutoLock
 &
 bool
-aNotify
+aNotifyAll
 )
 ;
 void
