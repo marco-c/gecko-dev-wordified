@@ -230,6 +230,15 @@ include
 "
 js
 /
+ProfilingStack
+.
+h
+"
+#
+include
+"
+js
+/
 TraceLoggerAPI
 .
 h
