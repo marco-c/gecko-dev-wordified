@@ -1503,6 +1503,16 @@ alloc
 operands
 )
 ;
+if
+(
+!
+clone
+)
+{
+return
+false
+;
+}
 ins
 -
 >

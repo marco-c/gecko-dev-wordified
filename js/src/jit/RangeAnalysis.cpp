@@ -21954,6 +21954,16 @@ alloc
 operands
 )
 ;
+if
+(
+!
+clone
+)
+{
+return
+false
+;
+}
 clone
 -
 >
