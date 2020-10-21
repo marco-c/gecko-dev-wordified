@@ -317,6 +317,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+tests
+"
 frameBC
 null
 /

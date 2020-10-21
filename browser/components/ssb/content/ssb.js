@@ -1010,6 +1010,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+window_print
+"
 params
 .
 openWindowInfo

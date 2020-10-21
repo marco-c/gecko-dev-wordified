@@ -9033,7 +9033,7 @@ aWidthSpecified
 bool
 aForPrinting
 bool
-aForPrintPreview
+aForWindowDotPrint
 nsIURI
 aURIToLoad
 nsCString

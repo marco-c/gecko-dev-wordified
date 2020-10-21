@@ -197,6 +197,9 @@ cmd_pageSetup
 cmd_print
 "
 "
+cmd_print_kb
+"
+"
 cmd_find
 "
 "

@@ -21944,7 +21944,7 @@ Yes
 nsGlobalWindowOuter
 :
 :
-BlockUntilDone
+IsForWindowDotPrint
 :
 :
 No

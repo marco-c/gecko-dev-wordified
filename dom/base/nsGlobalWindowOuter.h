@@ -3681,7 +3681,7 @@ Yes
 ;
 enum
 class
-BlockUntilDone
+IsForWindowDotPrint
 :
 bool
 {
@@ -3714,7 +3714,7 @@ nsIWebProgressListener
 nsIDocShell
 *
 IsPreview
-BlockUntilDone
+IsForWindowDotPrint
 PrintPreviewResolver
 &
 &
@@ -4842,8 +4842,8 @@ PrintKind
 uint8_t
 {
 None
-Print
-PrintPreview
+InternalPrint
+WindowDotPrint
 }
 ;
 /

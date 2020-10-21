@@ -17208,6 +17208,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+app_command
+"
 gBrowser
 .
 selectedBrowser
@@ -37239,6 +37242,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+window_print
+"
 aOpenWindowInfo
 .
 parent
@@ -37506,6 +37512,9 @@ PrintUtils
 .
 startPrintWindow
 (
+"
+window_print
+"
 aParams
 .
 openWindowInfo

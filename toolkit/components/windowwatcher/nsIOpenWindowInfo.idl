@@ -385,8 +385,11 @@ a
 window
 opened
 for
+window
+.
 print
-preview
+(
+)
 .
 *
 When
@@ -408,7 +411,7 @@ infallible
 readonly
 attribute
 boolean
-isForPrintPreview
+isForWindowDotPrint
 ;
 /
 *

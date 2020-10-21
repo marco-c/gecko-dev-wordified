@@ -2924,7 +2924,7 @@ aForPrinting
 const
 bool
 &
-aForPrintPreview
+aForWindowDotPrint
 nsIURI
 *
 aURIToLoad
@@ -4459,7 +4459,7 @@ aForPrinting
 const
 bool
 &
-aForPrintPreview
+aForWindowDotPrint
 nsIURI
 *
 aURIToLoad
