@@ -837,5 +837,6 @@ clientEvents
 addThreadEventListeners
 removeThreadEventListeners
 attachAllTargets
+ensureSourceActor
 }
 ;
