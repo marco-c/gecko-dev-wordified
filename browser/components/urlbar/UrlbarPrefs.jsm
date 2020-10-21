@@ -1378,7 +1378,7 @@ prefs
 "
 update2
 "
-false
+true
 ]
 /
 /
@@ -1409,7 +1409,7 @@ update2
 .
 disableOneOffsHorizontalKeyNavigation
 "
-false
+true
 ]
 /
 /
@@ -1478,7 +1478,7 @@ update2
 .
 localOneOffs
 "
-false
+true
 ]
 /
 /
@@ -1507,7 +1507,7 @@ update2
 .
 oneOffsRefresh
 "
-false
+true
 ]
 /
 /
@@ -1579,7 +1579,7 @@ update2
 .
 tabToComplete
 "
-false
+true
 ]
 ]
 )
