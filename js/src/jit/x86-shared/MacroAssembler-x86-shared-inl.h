@@ -11685,6 +11685,14 @@ lhsDest
 )
 ;
 }
+/
+/
+Widening
+/
+pairwise
+integer
+dot
+product
 void
 MacroAssembler
 :

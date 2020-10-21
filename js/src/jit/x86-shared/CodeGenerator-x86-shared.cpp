@@ -19591,7 +19591,7 @@ wasm
 SimdOp
 :
 :
-I32x4DotSI16x8Experimental
+I32x4DotSI16x8
 :
 masm
 .
