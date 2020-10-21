@@ -907,7 +907,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1125,7 +1125,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1238,7 +1238,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1329,7 +1329,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1411,7 +1411,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 ]
 )
@@ -1500,7 +1500,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1613,7 +1613,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1704,7 +1704,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1791,7 +1791,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 ]
 )
@@ -1877,7 +1877,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main
@@ -1959,7 +1959,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 main

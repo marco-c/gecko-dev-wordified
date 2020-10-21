@@ -298,7 +298,7 @@ selectors
 "
 div
 .
-multistageContainer
+onboardingContainer
 "
 "
 nav
