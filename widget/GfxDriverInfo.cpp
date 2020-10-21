@@ -4404,6 +4404,15 @@ APPEND_RANGE
 0x677f
 )
 ;
+/
+/
+Carrizo
+APPEND_RANGE
+(
+0x9870
+0x9877
+)
+;
 #
 endif
 break
