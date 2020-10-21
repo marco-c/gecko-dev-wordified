@@ -1929,7 +1929,6 @@ ScriptAndFunction
 {
 public
 :
-const
 ScriptStencil
 &
 script
@@ -1948,7 +1947,6 @@ delete
 ;
 ScriptAndFunction
 (
-const
 ScriptStencil
 &
 script
@@ -1982,7 +1980,6 @@ index_
 =
 0
 ;
-const
 CompilationStencil
 &
 stencil_
@@ -1993,7 +1990,6 @@ gcOutput_
 ;
 Iterator
 (
-const
 CompilationStencil
 &
 stencil
@@ -2027,7 +2023,6 @@ public
 explicit
 Iterator
 (
-const
 CompilationStencil
 &
 stencil
@@ -2166,7 +2161,6 @@ operator
 (
 )
 {
-const
 ScriptStencil
 &
 script
@@ -2204,7 +2198,6 @@ static
 Iterator
 end
 (
-const
 CompilationStencil
 &
 stencil
@@ -2230,7 +2223,6 @@ length
 }
 }
 ;
-const
 CompilationStencil
 &
 stencil_
@@ -2242,7 +2234,6 @@ gcOutput_
 explicit
 ScriptStencilIterable
 (
-const
 CompilationStencil
 &
 stencil

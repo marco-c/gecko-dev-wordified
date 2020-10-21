@@ -13873,7 +13873,6 @@ js
 :
 HandleScript
 script
-const
 js
 :
 :
@@ -13936,7 +13935,6 @@ frontend
 CompilationGCOutput
 &
 gcOutput
-const
 js
 :
 :

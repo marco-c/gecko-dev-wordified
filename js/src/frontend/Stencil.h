@@ -1036,7 +1036,6 @@ JSContext
 *
 cx
 )
-const
 {
 mozilla
 :
@@ -1071,7 +1070,6 @@ bool
 isZero
 (
 )
-const
 {
 mozilla
 :
@@ -1631,7 +1629,6 @@ CompilationInfo
 &
 compilationInfo
 )
-const
 ;
 ScopeKind
 kind
@@ -1719,7 +1716,6 @@ CompilationGCOutput
 &
 gcOutput
 )
-const
 ;
 uint32_t
 nextFrameSlot
@@ -1861,7 +1857,6 @@ CompilationGCOutput
 &
 gcOutput
 )
-const
 ;
 template
 <
@@ -1927,7 +1922,6 @@ scopeData
 MutableHandleShape
 shape
 )
-const
 ;
 template
 <
@@ -1950,7 +1944,6 @@ CompilationGCOutput
 &
 gcOutput
 )
-const
 ;
 }
 ;
@@ -2672,7 +2665,6 @@ ModuleObject
 >
 module
 )
-const
 ;
 #
 if
