@@ -173,6 +173,15 @@ JSFunction
 .
 h
 "
+#
+include
+"
+vm
+/
+Runtime
+.
+h
+"
 namespace
 js
 {

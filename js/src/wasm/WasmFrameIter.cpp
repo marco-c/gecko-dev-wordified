@@ -207,6 +207,15 @@ JitActivation
 #
 include
 "
+vm
+/
+JSContext
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmInstance

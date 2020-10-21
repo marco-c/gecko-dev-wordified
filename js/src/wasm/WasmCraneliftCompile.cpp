@@ -216,6 +216,15 @@ h
 #
 include
 "
+vm
+/
+JSContext
+.
+h
+"
+#
+include
+"
 wasm
 /
 cranelift
