@@ -211,6 +211,15 @@ h
 #
 include
 "
+wasm
+/
+WasmTypes
+.
+h
+"
+#
+include
+"
 jit
 /
 shared

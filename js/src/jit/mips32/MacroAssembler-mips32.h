@@ -158,6 +158,15 @@ BytecodeUtil
 .
 h
 "
+#
+include
+"
+wasm
+/
+WasmTypes
+.
+h
+"
 namespace
 js
 {
