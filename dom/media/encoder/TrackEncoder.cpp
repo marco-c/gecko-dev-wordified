@@ -1076,7 +1076,6 @@ mChannelData
 Length
 (
 )
-mTrackRate
 )
 ;
 if
@@ -1247,7 +1246,6 @@ rv
 Init
 (
 DEFAULT_CHANNELS
-mTrackRate
 )
 ;
 Telemetry
@@ -1442,7 +1440,6 @@ count
 Init
 (
 DEFAULT_CHANNELS
-mTrackRate
 )
 ;
 }
