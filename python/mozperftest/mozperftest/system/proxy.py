@@ -150,13 +150,17 @@ line
 )
 :
         
-if
-not
+line
+=
 line
 .
 strip
 (
 )
+        
+if
+not
+line
 :
             
 return
@@ -275,11 +279,14 @@ self
 .
 port
 =
+int
+(
 m
 .
 group
 (
 1
+)
 )
                 
 self
@@ -335,6 +342,24 @@ line
 )
 :
         
+if
+self
+.
+proc
+is
+None
+:
+            
+LOG
+.
+process_output
+(
+line
+)
+        
+else
+:
+            
 LOG
 .
 process_output
@@ -688,17 +713,27 @@ proxy
 "
 )
         
-#
-replace
-with
-artifacts
-        
 command
 =
 [
             
+self
+.
+mach_cmd
+.
+virtualenv_manager
+.
+python_path
+            
+"
+-
+m
+"
+            
 "
 mozproxy
+.
+driver
 "
             
 "
