@@ -523,11 +523,12 @@ startup
 ;
 Preferences
 .
-reset
+set
 (
 prefs
 .
 CLEAR_ON_SHUTDOWN_PREF
+true
 )
 ;
 }
