@@ -2121,6 +2121,7 @@ nsAHttpSegmentReader
 class
 nsAHttpSegmentReader
 {
+NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 public
 :
 /
