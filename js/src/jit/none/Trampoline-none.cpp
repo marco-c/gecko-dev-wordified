@@ -364,8 +364,7 @@ MacroAssembler
 const
 VMFunctionData
 &
-void
-*
+DynFn
 uint32_t
 *
 )
