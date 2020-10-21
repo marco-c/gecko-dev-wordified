@@ -305,6 +305,12 @@ JS
 TwoByteCharsZ
 ;
 using
+JS
+:
+:
+UTF8Chars
+;
+using
 namespace
 js
 ;

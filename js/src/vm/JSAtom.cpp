@@ -7405,6 +7405,9 @@ utf8ByteLength
 return
 AtomizeUTF8OrWTF8Chars
 <
+JS
+:
+:
 UTF8Chars
 >
 (

@@ -6283,6 +6283,9 @@ UniqueTwoByteChars
 UTF8CharsToNewTwoByteCharsZ
 (
 cx
+JS
+:
+:
 UTF8Chars
 (
 reinterpret_cast
