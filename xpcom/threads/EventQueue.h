@@ -433,16 +433,6 @@ aLastEventDelay
 nullptr
 )
 ;
-void
-DidRunEvent
-(
-const
-MutexAutoLock
-&
-aProofOfLock
-)
-{
-}
 /
 /
 Returns
