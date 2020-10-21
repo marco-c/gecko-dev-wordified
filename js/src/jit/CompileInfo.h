@@ -169,7 +169,7 @@ include
 "
 vm
 /
-JSFunction
+JSAtomState
 .
 h
 "
@@ -178,7 +178,7 @@ include
 "
 vm
 /
-Runtime
+JSFunction
 .
 h
 "
