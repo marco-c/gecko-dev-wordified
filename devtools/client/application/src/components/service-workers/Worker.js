@@ -540,7 +540,7 @@ props
 .
 worker
 .
-workerDescriptorFront
+workerTargetFront
 )
 ;
 }
@@ -589,7 +589,7 @@ props
 .
 worker
 .
-workerDescriptorFront
+workerTargetFront
 )
 ;
 }
@@ -678,7 +678,7 @@ props
 .
 worker
 .
-workerDescriptorFront
+workerTargetFront
 ;
 }
 isActive

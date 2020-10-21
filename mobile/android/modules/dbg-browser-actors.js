@@ -193,7 +193,7 @@ list
 ;
 const
 {
-WorkerDescriptorActorList
+WorkerTargetActorList
 }
 =
 require
@@ -346,7 +346,7 @@ aConnection
 workerList
 :
 new
-WorkerDescriptorActorList
+WorkerTargetActorList
 (
 aConnection
 {

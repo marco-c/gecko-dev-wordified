@@ -172,11 +172,11 @@ stateText
 registrationFront
 :
 registration
-workerDescriptorFront
+workerTargetFront
 :
 worker
 .
-workerDescriptorFront
+workerTargetFront
 }
 )
 )

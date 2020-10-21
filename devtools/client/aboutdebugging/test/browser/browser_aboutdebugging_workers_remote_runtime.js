@@ -538,7 +538,7 @@ propertyName
 name
 :
 workerName
-workerDescriptorFront
+workerTargetFront
 :
 {
 actorID

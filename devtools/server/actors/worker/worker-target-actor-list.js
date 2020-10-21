@@ -101,7 +101,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerDescriptorActor
+WorkerTargetActor
 "
 "
 devtools
@@ -110,7 +110,7 @@ server
 /
 actors
 /
-descriptors
+targets
 /
 worker
 "
@@ -336,7 +336,7 @@ in
 addition
 to
 the
-WorkerDescriptorActorList
+WorkerTargetActorList
 /
 /
 listener
@@ -427,7 +427,7 @@ Bug
 separate
 WorkerPauser
 from
-WorkerDescriptorActorList
+WorkerTargetActorList
 and
 give
 /
@@ -607,7 +607,7 @@ origin
 }
 ;
 function
-WorkerDescriptorActorList
+WorkerTargetActorList
 (
 conn
 options
@@ -679,7 +679,7 @@ this
 )
 ;
 }
-WorkerDescriptorActorList
+WorkerTargetActorList
 .
 prototype
 =
@@ -864,7 +864,7 @@ set
 (
 dbg
 new
-WorkerDescriptorActor
+WorkerTargetActor
 (
 this
 .
@@ -1199,7 +1199,7 @@ _workerPauser
 ;
 exports
 .
-WorkerDescriptorActorList
+WorkerTargetActorList
 =
-WorkerDescriptorActorList
+WorkerTargetActorList
 ;

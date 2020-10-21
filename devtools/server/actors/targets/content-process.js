@@ -300,7 +300,7 @@ lazyRequireGetter
 (
 this
 "
-WorkerDescriptorActorList
+WorkerTargetActorList
 "
 "
 devtools
@@ -313,7 +313,7 @@ worker
 /
 worker
 -
-descriptor
+target
 -
 actor
 -
@@ -529,7 +529,7 @@ null
 ;
 this
 .
-_workerDescriptorActorPool
+_workerTargetActorPool
 =
 null
 ;
@@ -996,7 +996,7 @@ this
 _workerList
 =
 new
-WorkerDescriptorActorList
+WorkerTargetActorList
 (
 this
 .
@@ -1100,12 +1100,12 @@ if
 (
 this
 .
-_workerDescriptorActorPool
+_workerTargetActorPool
 )
 {
 this
 .
-_workerDescriptorActorPool
+_workerTargetActorPool
 .
 destroy
 (
@@ -1114,7 +1114,7 @@ destroy
 }
 this
 .
-_workerDescriptorActorPool
+_workerTargetActorPool
 =
 pool
 ;

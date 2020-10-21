@@ -1367,7 +1367,7 @@ is
 handled
 by
 the
-WorkerDescriptorActor
+WorkerTargetActor
 attach
 (
 )
@@ -1507,7 +1507,7 @@ is
 handled
 by
 the
-WorkerDescriptorActor
+WorkerTargetActor
 detach
 (
 )

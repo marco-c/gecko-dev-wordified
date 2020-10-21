@@ -317,7 +317,7 @@ target
 )
 ;
 let
-workerDescriptorFront1
+workerTargetFront1
 =
 findWorker
 (
@@ -326,7 +326,7 @@ WORKER1_URL
 )
 ;
 await
-workerDescriptorFront1
+workerTargetFront1
 .
 attach
 (
@@ -334,7 +334,7 @@ attach
 ;
 ok
 (
-workerDescriptorFront1
+workerTargetFront1
 .
 actorID
 "
@@ -373,14 +373,14 @@ TAB2_URL
 await
 waitForWorkerClose
 (
-workerDescriptorFront1
+workerTargetFront1
 )
 ;
 ok
 (
 !
 !
-workerDescriptorFront1
+workerTargetFront1
 .
 actorID
 "
@@ -416,7 +416,7 @@ target
 )
 ;
 const
-workerDescriptorFront2
+workerTargetFront2
 =
 findWorker
 (
@@ -425,7 +425,7 @@ WORKER2_URL
 )
 ;
 await
-workerDescriptorFront2
+workerTargetFront2
 .
 attach
 (
@@ -433,7 +433,7 @@ attach
 ;
 ok
 (
-workerDescriptorFront2
+workerTargetFront2
 .
 actorID
 "
@@ -470,14 +470,14 @@ goBack
 await
 waitForWorkerClose
 (
-workerDescriptorFront2
+workerTargetFront2
 )
 ;
 ok
 (
 !
 !
-workerDescriptorFront2
+workerTargetFront2
 .
 actorID
 "
@@ -505,7 +505,7 @@ target
 )
 )
 ;
-workerDescriptorFront1
+workerTargetFront1
 =
 findWorker
 (
@@ -514,7 +514,7 @@ WORKER1_URL
 )
 ;
 await
-workerDescriptorFront1
+workerTargetFront1
 .
 attach
 (
@@ -522,7 +522,7 @@ attach
 ;
 ok
 (
-workerDescriptorFront1
+workerTargetFront1
 .
 actorID
 "
