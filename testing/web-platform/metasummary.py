@@ -1677,6 +1677,9 @@ has_key
 prop
 )
 :
+#
+noqa
+W601
             
 target
 [
@@ -1699,6 +1702,9 @@ expected
 "
 )
 :
+#
+noqa
+W601
         
 intermittent
 =
@@ -1964,6 +1970,9 @@ in
 simple_props
 )
 :
+#
+noqa
+W601
         
 return
 True
@@ -1978,6 +1987,9 @@ expected
 "
 )
 :
+#
+noqa
+W601
         
 for
 expected_value
@@ -2927,10 +2939,10 @@ target_link
 )
         
 if
-not
 "
 results
 "
+not
 in
 target_link
 :
@@ -2972,7 +2984,7 @@ subtest
 =
 subtest
 )
-                          
+                         
 for
 result
 in

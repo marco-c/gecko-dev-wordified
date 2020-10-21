@@ -192,12 +192,12 @@ Exception
 (
 "
 Bad
-check_header
+expect_accept
 parameter
 :
 "
 +
-check_header
+expect_accept
 )
     
 if

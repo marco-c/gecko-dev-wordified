@@ -61,10 +61,6 @@ import
 requests
 import
 urlparse
-from
-multiprocessing
-import
-Pool
 treeherder_base
 =
 "
@@ -566,6 +562,7 @@ url
 ]
         
 except
+Exception
 :
             
 return

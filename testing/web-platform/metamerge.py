@@ -7,8 +7,11 @@ os
 from
 collections
 import
-defaultdict
 namedtuple
+from
+six
+import
+iteritems
 from
 wptrunner
 .
@@ -970,12 +973,11 @@ for
 subtest
 ancestor_subtest_manifest
 in
+iteritems
+(
 ancestor_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
@@ -999,12 +1001,11 @@ for
 subtest
 subtest_manifest
 in
+iteritems
+(
 new_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
@@ -1057,6 +1058,9 @@ expected
 )
 )
 and
+#
+noqa
+W601
         
 (
 new_manifest
@@ -1072,6 +1076,9 @@ expected
 )
 )
 :
+#
+noqa
+W601
         
 changes
 .
@@ -1100,6 +1107,9 @@ expected
 "
 )
 and
+#
+noqa
+W601
           
 not
 (
@@ -1116,6 +1126,9 @@ expected
 )
 )
 :
+#
+noqa
+W601
         
 changes
 .
@@ -1139,6 +1152,9 @@ expected
 "
 )
 and
+#
+noqa
+W601
           
 new_manifest
 and
@@ -1152,6 +1168,9 @@ expected
 )
 )
 :
+#
+noqa
+W601
         
 old_expected
 =
@@ -1306,12 +1325,11 @@ for
 test
 test_manifest
 in
+iteritems
+(
 new_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         
@@ -1381,12 +1399,11 @@ for
 test
 test_manifest
 in
+iteritems
+(
 ancestor_manifest
 .
 child_map
-.
-iteritems
-(
 )
 :
         

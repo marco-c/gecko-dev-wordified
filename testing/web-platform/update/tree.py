@@ -1310,6 +1310,9 @@ commit
 message
 .
 py
+#
+noqa
+E501
     
 #
 which

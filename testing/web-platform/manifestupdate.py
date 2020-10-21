@@ -83,12 +83,6 @@ mozlog
 structured
 import
 commandline
-from
-wptrunner
-.
-wptcommandline
-import
-set_from_config
 import
 manifestdownload
 from
@@ -1296,6 +1290,7 @@ path
 .
 abspath
 (
+        
 os
 .
 path
@@ -1420,7 +1415,9 @@ path
 join
 (
 cache_root
+                                       
 wptdir_hash
+                                       
 os
 .
 path

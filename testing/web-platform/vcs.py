@@ -139,7 +139,7 @@ repo_root
 stdout
 =
 devnull
-                                        
+                                      
 stderr
 =
 devnull
@@ -314,7 +314,7 @@ cdup
 cwd
 =
 repo_root
-                                        
+                                      
 stdout
 =
 devnull
