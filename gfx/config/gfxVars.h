@@ -621,13 +621,6 @@ UseEGL
 bool
 false
 )
-\
-_
-(
-AllowGLXOnEGL
-bool
-false
-)
 /
 *
 Add

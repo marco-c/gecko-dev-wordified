@@ -4370,14 +4370,6 @@ gfxVars
 UseEGL
 (
 )
-|
-|
-gfxVars
-:
-:
-AllowGLXOnEGL
-(
-)
 )
 {
 useGlxVsync
