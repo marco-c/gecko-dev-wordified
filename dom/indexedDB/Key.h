@@ -875,7 +875,7 @@ res
 }
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -970,7 +970,7 @@ otherwise
 .
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1053,7 +1053,7 @@ function
 .
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1361,7 +1361,7 @@ of
 mBuffer
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1389,7 +1389,7 @@ aTypeOffset
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1412,7 +1412,7 @@ T
 >
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1437,7 +1437,7 @@ T
 >
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1457,7 +1457,7 @@ aType
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1488,7 +1488,7 @@ aType
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
@@ -1774,7 +1774,7 @@ acquireEmpty
 ;
 IDBResult
 <
-void
+Ok
 IDBSpecialValue
 :
 :
