@@ -272,11 +272,11 @@ in
 use
 .
 "
-)
 .
 format
 (
 port
+)
 )
                     
 else
@@ -292,12 +292,12 @@ error
 {
 }
 "
-)
 .
 format
 (
 port
 error
+)
 )
                 
 elif
@@ -318,12 +318,12 @@ error
 {
 }
 "
-)
 .
 format
 (
 port
 error
+)
 )
                 
 self
@@ -350,12 +350,12 @@ error
 {
 }
 "
-)
 .
 format
 (
 port
 error
+)
 )
                 
 self

@@ -826,11 +826,11 @@ find
 {
 }
 "
-)
 .
 format
 (
 name
+)
 )
 def
 create_suite
@@ -1736,7 +1736,6 @@ PERFHERDER_DATA
 {
 }
 "
-)
 .
 format
 (
@@ -1745,6 +1744,7 @@ json
 dumps
 (
 perf_blob
+)
 )
 )
     
