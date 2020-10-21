@@ -24742,7 +24742,7 @@ this
 .
 _reftest
 .
-abort
+teardown
 (
 )
 ;
