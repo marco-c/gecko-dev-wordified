@@ -326,6 +326,16 @@ ImageContainer
 >
 mImageContainer
 ;
+const
+RefPtr
+<
+layers
+:
+:
+KnowsCompositor
+>
+mImageAllocator
+;
 /
 /
 Keep
