@@ -1162,11 +1162,6 @@ StreamSetVolume
 usize
 f32
 )
-StreamSetName
-(
-usize
-CString
-)
 StreamGetCurrentDevice
 (
 usize
@@ -1289,7 +1284,6 @@ StreamInputLatency
 u32
 )
 StreamVolumeSet
-StreamNameSet
 StreamCurrentDevice
 (
 Device
