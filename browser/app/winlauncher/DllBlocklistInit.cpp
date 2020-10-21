@@ -519,7 +519,7 @@ LAUNCHER_ERROR_FROM_DETOUR_ERROR
 (
 intcpt
 .
-GetLastError
+GetLastDetourError
 (
 )
 )
@@ -557,7 +557,7 @@ LAUNCHER_ERROR_FROM_DETOUR_ERROR
 (
 intcpt
 .
-GetLastError
+GetLastDetourError
 (
 )
 )
