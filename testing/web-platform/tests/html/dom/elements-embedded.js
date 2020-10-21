@@ -293,11 +293,6 @@ allowUserMedia
 "
 boolean
 "
-allowPaymentRequest
-:
-"
-boolean
-"
 width
 :
 "
