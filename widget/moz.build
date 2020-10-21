@@ -970,6 +970,11 @@ CompositorWidget
 h
 '
 '
+IconLoader
+.
+h
+'
+'
 IMEData
 .
 h
@@ -1041,6 +1046,11 @@ cpp
 '
 '
 GfxInfoCollector
+.
+cpp
+'
+'
+IconLoader
 .
 cpp
 '
