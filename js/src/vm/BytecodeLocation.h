@@ -448,6 +448,14 @@ script
 )
 const
 ;
+const
+JSScript
+*
+getDebugOnlyScript
+(
+)
+const
+;
 #
 endif
 inline
