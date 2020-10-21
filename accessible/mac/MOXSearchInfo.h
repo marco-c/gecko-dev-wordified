@@ -166,9 +166,9 @@ a
 weak
 ref
 .
-MOXWebAreaAccessible
+MOXAccessibleBase
 *
-mWebArea
+mRoot
 ;
 /
 /
@@ -270,7 +270,7 @@ params
 andRoot
 :
 (
-MOXWebAreaAccessible
+MOXAccessibleBase
 *
 )
 root
