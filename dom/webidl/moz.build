@@ -6353,6 +6353,11 @@ PopupBlockedEvent
 webidl
 '
 '
+PopupPositionedEvent
+.
+webidl
+'
+'
 PositionStateEvent
 .
 webidl
