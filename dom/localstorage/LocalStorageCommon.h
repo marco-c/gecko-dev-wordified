@@ -2056,7 +2056,7 @@ QM_TRY_INSPECT
 .
 #
 define
-LS_TRY_VAR_GLUE
+LS_TRY_ASSIGN_GLUE
 (
 accessFunction
 .
@@ -2064,7 +2064,7 @@ accessFunction
 .
 )
 \
-QM_TRY_VAR_META
+QM_TRY_ASSIGN_META
 (
 mozilla
 :
@@ -2091,7 +2091,7 @@ LS_TRY_UNWRAP
 .
 .
 )
-LS_TRY_VAR_GLUE
+LS_TRY_ASSIGN_GLUE
 (
 unwrap
 __VA_ARGS__
@@ -2104,7 +2104,7 @@ LS_TRY_INSPECT
 .
 .
 )
-LS_TRY_VAR_GLUE
+LS_TRY_ASSIGN_GLUE
 (
 inspect
 __VA_ARGS__

@@ -1921,7 +1921,9 @@ can
 '
 t
 use
-IDB_TRY_VAR
+IDB_TRY_UNWRAP
+/
+IDB_TRY_INSPECT
 here
 .
 const
@@ -2483,7 +2485,11 @@ t
 use
 ToResultInvoke
 nor
-IDB_TRY_VAR
+/
+/
+IDB_TRY_UNWRAP
+/
+IDB_TRY_INSPECT
 .
 nsCOMPtr
 <

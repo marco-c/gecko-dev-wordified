@@ -5948,12 +5948,16 @@ return
 XXXtt
 :
 :
-CACHE_TRY_VAR
+CACHE_TRY_UNWRAP
+/
+CACHE_TRY_INSPECT
 might
 need
 to
 handle
 cases
+/
+/
 like
 this
 .
