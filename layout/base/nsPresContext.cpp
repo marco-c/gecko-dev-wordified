@@ -10372,7 +10372,7 @@ recurse
 ;
 }
 }
-void
+bool
 nsPresContext
 :
 :
@@ -10387,6 +10387,7 @@ mPendingMediaFeatureValuesChange
 )
 {
 return
+false
 ;
 }
 MediaFeatureChange
@@ -10440,8 +10441,10 @@ mReason
 )
 ;
 }
-if
-(
+const
+bool
+changedStyle
+=
 change
 .
 mRestyleHint
@@ -10450,6 +10453,10 @@ mRestyleHint
 change
 .
 mChangeHint
+;
+if
+(
+changedStyle
 )
 {
 RebuildAllStyleData
@@ -10488,6 +10495,7 @@ isEmpty
 )
 ;
 return
+changedStyle
 ;
 }
 mDocument
@@ -10651,6 +10659,7 @@ isEmpty
 )
 {
 return
+changedStyle
 ;
 }
 /
@@ -10751,6 +10760,16 @@ mql
 ;
 }
 }
+if
+(
+!
+listsToNotify
+.
+IsEmpty
+(
+)
+)
+{
 nsContentUtils
 :
 :
@@ -10800,6 +10819,10 @@ FireChangeEvent
 }
 )
 )
+;
+}
+return
+changedStyle
 ;
 }
 void
