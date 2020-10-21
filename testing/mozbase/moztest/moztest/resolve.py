@@ -2206,6 +2206,11 @@ opt
 |
 debug
 )
+(
+-
+geckoview
+)
+?
 -
 reftest
 (
@@ -2310,6 +2315,11 @@ opt
 |
 debug
 )
+(
+-
+geckoview
+)
+?
 -
 reftest
 -
