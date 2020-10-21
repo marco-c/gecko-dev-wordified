@@ -262,6 +262,10 @@ const
 ModuleEnvironment
 &
 moduleEnv
+const
+CompilerEnvironment
+&
+compilerEnv
 LifoAlloc
 &
 lifo
@@ -307,6 +311,10 @@ const
 ModuleEnvironment
 &
 moduleEnv
+const
+CompilerEnvironment
+&
+compilerEnv
 LifoAlloc
 &
 lifo
