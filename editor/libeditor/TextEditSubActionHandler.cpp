@@ -1672,8 +1672,11 @@ nullptr
 ;
 rv
 =
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
@@ -2255,8 +2258,11 @@ NS_ERROR_FAILURE
 IgnoredErrorResult
 ignoredError
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
@@ -3934,8 +3940,11 @@ IgnoredErrorResult
 (
 )
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >

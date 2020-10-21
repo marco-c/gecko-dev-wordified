@@ -757,8 +757,11 @@ rv
 IgnoredErrorResult
 error
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >

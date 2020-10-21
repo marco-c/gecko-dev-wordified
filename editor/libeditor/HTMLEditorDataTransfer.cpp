@@ -3807,10 +3807,13 @@ content
 IgnoredErrorResult
 ignoredError
 ;
+MOZ_KnownLive
+(
 mHTMLEditor
 .
 SelectionRefPtr
 (
+)
 )
 -
 >
