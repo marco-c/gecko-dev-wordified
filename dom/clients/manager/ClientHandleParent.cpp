@@ -138,6 +138,13 @@ h
 #
 include
 "
+ClientPrincipalUtils
+.
+h
+"
+#
+include
+"
 ClientSourceParent
 .
 h

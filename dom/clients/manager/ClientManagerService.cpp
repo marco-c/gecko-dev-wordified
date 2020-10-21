@@ -124,6 +124,13 @@ h
 #
 include
 "
+ClientHandleParent
+.
+h
+"
+#
+include
+"
 ClientManagerParent
 .
 h
