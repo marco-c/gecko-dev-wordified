@@ -3194,11 +3194,6 @@ bool
 aShowMarginGuides
 )
 {
-NS_ENSURE_ARG_POINTER
-(
-aShowMarginGuides
-)
-;
 *
 aShowMarginGuides
 =
