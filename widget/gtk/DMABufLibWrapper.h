@@ -893,6 +893,16 @@ nsDMABufDevice
 (
 )
 ;
+~
+nsDMABufDevice
+(
+)
+;
+void
+Init
+(
+)
+;
 gbm_device
 *
 GetGbmDevice
@@ -983,6 +993,10 @@ bool
 Configure
 (
 )
+;
+wl_registry
+*
+mRegistry
 ;
 GbmFormat
 mXRGBFormat
