@@ -2839,7 +2839,6 @@ return
 mFlags
 ;
 }
-MOZ_CAN_RUN_SCRIPT
 nsresult
 AddFlags
 (
@@ -2893,7 +2892,6 @@ be
 expensive
 .
 }
-MOZ_CAN_RUN_SCRIPT
 nsresult
 RemoveFlags
 (
@@ -2948,7 +2946,6 @@ be
 expensive
 .
 }
-MOZ_CAN_RUN_SCRIPT
 nsresult
 AddAndRemoveFlags
 (

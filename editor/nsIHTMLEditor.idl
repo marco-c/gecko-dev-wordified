@@ -2512,9 +2512,6 @@ and
 enabled
 *
 /
-[
-setter_can_run_script
-]
 attribute
 boolean
 isCSSEnabled

@@ -1709,7 +1709,7 @@ replace
 with
 MOZ_CAN_RUN_SCRIPT
 .
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HandleDrag
 (
@@ -4560,7 +4560,6 @@ aAmount
 eSelectNoAmount
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 ConstrainFrameAndPointToAnchorSubtree
 (
