@@ -575,6 +575,16 @@ Runnable
 aTask
 )
 ;
+RemoteDecodeIn
+Location
+(
+)
+const
+{
+return
+mLocation
+;
+}
 layers
 :
 :
