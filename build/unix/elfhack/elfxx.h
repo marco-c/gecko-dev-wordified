@@ -3656,7 +3656,7 @@ file
 parent
 )
 {
-int
+auto
 pos
 =
 file

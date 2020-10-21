@@ -4973,7 +4973,7 @@ data
 )
 ;
 }
-int
+auto
 pos
 =
 file
@@ -6850,7 +6850,7 @@ file
 parent
 )
 {
-int
+auto
 pos
 =
 file
@@ -7526,7 +7526,7 @@ file
 parent
 )
 {
-int
+auto
 pos
 =
 file
