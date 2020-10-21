@@ -3261,15 +3261,15 @@ alloc
 )
 LWasmCompareExchangeI64
 (
-useRegister
+useRegisterAtStart
 (
 memoryBase
 )
-useRegister
+useRegisterAtStart
 (
 base
 )
-useInt64Fixed
+useInt64FixedAtStart
 (
 ins
 -
@@ -3283,7 +3283,7 @@ edx
 eax
 )
 )
-useInt64Fixed
+useInt64FixedAtStart
 (
 ins
 -
