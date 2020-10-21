@@ -314,13 +314,6 @@ disconnect_all
 )
 ;
 mHandler
--
->
-Destroy
-(
-)
-;
-mHandler
 =
 nullptr
 ;
