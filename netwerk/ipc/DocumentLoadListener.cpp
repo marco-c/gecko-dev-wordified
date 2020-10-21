@@ -774,16 +774,8 @@ isSrcdoc
 )
 ;
 bool
-isURIUniqueOrigin
+isData
 =
-StaticPrefs
-:
-:
-security_data_uri_unique_opaque_origin
-(
-)
-&
-&
 SchemeIsData
 (
 aLoadState
@@ -800,7 +792,7 @@ inheritAttrs
 &
 &
 !
-isURIUniqueOrigin
+isData
 )
 {
 securityFlags

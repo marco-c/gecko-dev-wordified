@@ -698,12 +698,6 @@ IsLinkUp
 (
 )
 ;
-static
-bool
-IsDataURIUniqueOpaqueOrigin
-(
-)
-;
 /
 /
 Converts
