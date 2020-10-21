@@ -130,6 +130,17 @@ include
 "
 mozilla
 /
+dom
+/
+BrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_browser
 .
 h

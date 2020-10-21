@@ -122,6 +122,11 @@ define
 nsFrameLoaderOwner_h_
 #
 include
+<
+functional
+>
+#
+include
 "
 nsISupports
 .
@@ -143,7 +148,13 @@ class
 BrowsingContext
 ;
 class
+BrowsingContextGroup
+;
+class
 BrowserBridgeChild
+;
+class
+ContentParent
 ;
 struct
 RemotenessOptions

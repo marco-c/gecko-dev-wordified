@@ -199,6 +199,13 @@ h
 #
 include
 "
+nsGlobalWindowOuter
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h

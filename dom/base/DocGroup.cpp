@@ -394,6 +394,9 @@ nsThread
 *
 >
 (
+mozilla
+:
+:
 GetMainThreadSerialEventTarget
 (
 )

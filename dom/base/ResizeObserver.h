@@ -179,6 +179,17 @@ mozilla
 /
 dom
 /
+DOMRect
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BindingDeclarations
 .
 h
