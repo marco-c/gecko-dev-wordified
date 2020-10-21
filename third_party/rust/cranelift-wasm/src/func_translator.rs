@@ -156,12 +156,6 @@ Variable
 }
 ;
 use
-log
-:
-:
-info
-;
-use
 wasmparser
 :
 :
@@ -625,7 +619,10 @@ wasm_translate_function
 (
 )
 ;
-info
+log
+:
+:
+debug
 !
 (
 "
