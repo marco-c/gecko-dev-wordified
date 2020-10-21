@@ -300,13 +300,6 @@ ShouldDrawPreviousPartialPresentRegions
 )
 override
 ;
-size_t
-GetBufferAge
-(
-)
-const
-override
-;
 protected
 :
 RefPtr

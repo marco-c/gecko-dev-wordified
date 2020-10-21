@@ -574,13 +574,7 @@ mSurface
 ;
 }
 bool
-HasExtBufferAge
-(
-)
-const
-;
-bool
-HasKhrPartialUpdate
+HasBufferAge
 (
 )
 const
