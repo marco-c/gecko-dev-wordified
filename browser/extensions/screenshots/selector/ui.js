@@ -3014,6 +3014,15 @@ downloadTitle
 =
 >
 {
+assertIsBlankDocument
+(
+this
+.
+element
+.
+contentDocument
+)
+;
 this
 .
 document
