@@ -4779,14 +4779,12 @@ dest
 const
 ;
 bool
-stubDataEqualsMaybeUpdate
+stubDataEquals
 (
+const
 uint8_t
 *
 stubData
-bool
-*
-updated
 )
 const
 ;
