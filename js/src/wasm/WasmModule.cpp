@@ -8385,13 +8385,6 @@ createFromArrays
 (
 cx
 prototype
-/
-*
-opaque
-=
-*
-/
-true
 allowConstruct
 ids
 fieldTypeObjs
