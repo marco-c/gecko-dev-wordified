@@ -1977,7 +1977,7 @@ StartCacheWrite
 (
 )
 {
-MOZ_ASSERT
+MOZ_DIAGNOSTIC_ASSERT
 (
 !
 mSaveThread
@@ -2343,6 +2343,14 @@ XRE_IsParentProcess
 if
 (
 mChildCache
+&
+&
+!
+mSaveComplete
+&
+&
+!
+mSaveThread
 )
 {
 StartCacheWrite
