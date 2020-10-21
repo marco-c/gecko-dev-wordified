@@ -223,6 +223,12 @@ nsIDocShell
 aShell
 )
 ;
+virtual
+nsresult
+Init
+(
+)
+;
 friend
 class
 TaskbarPreviewCallback
@@ -439,7 +445,7 @@ for
 the
 nsWindow
 WindowHook
-&
+*
 GetWindowHook
 (
 )
