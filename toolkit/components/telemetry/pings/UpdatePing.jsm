@@ -425,7 +425,7 @@ updateManager
 !
 updateManager
 .
-activeUpdate
+readyUpdate
 )
 {
 return
@@ -435,7 +435,7 @@ null
 return
 updateManager
 .
-activeUpdate
+readyUpdate
 ;
 }
 /

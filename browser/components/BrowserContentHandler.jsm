@@ -4435,7 +4435,7 @@ update
 =
 UpdateManager
 .
-activeUpdate
+readyUpdate
 ;
 if
 (
@@ -4511,7 +4511,7 @@ if
 (
 UpdateManager
 .
-activeUpdate
+readyUpdate
 )
 {
 /

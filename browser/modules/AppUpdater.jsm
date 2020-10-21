@@ -680,7 +680,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 &
 &
 (
@@ -688,7 +688,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 state
 =
@@ -702,7 +702,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 state
 =
@@ -718,7 +718,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 state
 =
@@ -790,7 +790,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 &
 &
 (
@@ -798,7 +798,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 state
 =
@@ -812,7 +812,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 state
 =
@@ -869,7 +869,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 )
 {
 errorCode
@@ -878,7 +878,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 errorCode
 ;
@@ -969,7 +969,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 )
 {
 errorCode
@@ -978,7 +978,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 .
 errorCode
 ;
@@ -1082,18 +1082,19 @@ downloading
 ;
 }
 return
+(
 this
 .
 um
 .
-activeUpdate
+downloadingUpdate
 &
 &
 this
 .
 um
 .
-activeUpdate
+downloadingUpdate
 .
 state
 =
@@ -1101,6 +1102,7 @@ state
 "
 downloading
 "
+)
 ;
 }
 /
@@ -1644,7 +1646,7 @@ this
 .
 um
 .
-activeUpdate
+readyUpdate
 ;
 }
 this
@@ -1724,7 +1726,7 @@ this
 .
 um
 .
-activeUpdate
+downloadingUpdate
 ;
 }
 this
