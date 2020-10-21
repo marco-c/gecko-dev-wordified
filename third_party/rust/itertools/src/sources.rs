@@ -62,6 +62,13 @@ information
 .
 #
 [
+derive
+(
+Clone
+)
+]
+#
+[
 deprecated
 (
 note
@@ -851,8 +858,6 @@ A
 Unfold
 {
 f
-:
-f
 state
 :
 initial_state
@@ -1416,8 +1421,6 @@ Iterate
 state
 :
 initial_value
-f
-:
 f
 }
 }
