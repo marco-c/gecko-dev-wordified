@@ -400,6 +400,10 @@ mLock
 EventsAvail
 "
 )
+mIsMainThread
+(
+aIsMainThread
+)
 {
 if
 (
@@ -634,10 +638,7 @@ lock
 .
 if
 (
-InnerQueueT
-:
-:
-SupportsPrioritization
+mIsMainThread
 )
 {
 auto
