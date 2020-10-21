@@ -290,10 +290,6 @@ mEncodingComplete
 (
 false
 )
-mEosSetInEncoder
-(
-false
-)
 mInitialized
 (
 false
