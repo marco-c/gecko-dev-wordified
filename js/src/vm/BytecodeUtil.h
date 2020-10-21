@@ -4553,16 +4553,6 @@ pc
 )
 ;
 }
-typedef
-Vector
-<
-jsbytecode
-*
-4
-SystemAllocPolicy
->
-PcVector
-;
 #
 if
 defined
