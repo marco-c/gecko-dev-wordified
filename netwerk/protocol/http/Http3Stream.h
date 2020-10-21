@@ -339,10 +339,6 @@ mResetRecv
 =
 true
 ;
-mRecvState
-=
-RECEIVED_RESET
-;
 }
 void
 StopSending
@@ -774,7 +770,6 @@ RecvStreamState
 READING_HEADERS
 READING_DATA
 RECEIVED_FIN
-RECEIVED_RESET
 RECV_DONE
 }
 mRecvState
