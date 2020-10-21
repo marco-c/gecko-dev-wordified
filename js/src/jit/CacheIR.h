@@ -11130,16 +11130,7 @@ rhsId
 )
 ;
 AttachDecision
-tryAttachPrimitiveUndefined
-(
-ValOperandId
-lhsId
-ValOperandId
-rhsId
-)
-;
-AttachDecision
-tryAttachObjectUndefined
+tryAttachAnyNullUndefined
 (
 ValOperandId
 lhsId
