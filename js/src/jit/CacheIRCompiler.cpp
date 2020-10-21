@@ -29306,10 +29306,11 @@ masm
 .
 callWithABI
 (
-JS_FUNC_TO_DATA_PTR
+DynamicFunction
+<
+UnaryMathFunctionType
+>
 (
-void
-*
 funPtr
 )
 MoveOp
