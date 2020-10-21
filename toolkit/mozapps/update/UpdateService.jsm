@@ -9308,12 +9308,6 @@ gUpdateDirPermissionFixAttempted
 =
 true
 ;
-AUSTLMY
-.
-pingFixUpdateDirectoryPermissionsAttempted
-(
-)
-;
 LOG
 (
 "
