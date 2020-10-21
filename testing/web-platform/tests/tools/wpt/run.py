@@ -2592,6 +2592,41 @@ binary
 "
 )
         
+if
+kwargs
+[
+"
+mojojs_path
+"
+]
+:
+            
+kwargs
+[
+"
+enable_mojojs
+"
+]
+=
+True
+            
+logger
+.
+info
+(
+"
+-
+-
+mojojs
+-
+path
+is
+provided
+enabling
+MojoJS
+"
+)
+        
 #
 TODO
 (
@@ -2608,7 +2643,7 @@ becomes
 stable
 .
         
-if
+elif
 browser_channel
 in
 self
@@ -2619,6 +2654,8 @@ experimental_channels
 try
 :
                 
+path
+=
 self
 .
 browser
@@ -2652,6 +2689,15 @@ binary
 kwargs
 [
 "
+mojojs_path
+"
+]
+=
+path
+                
+kwargs
+[
+"
 enable_mojojs
 "
 ]
@@ -2665,7 +2711,16 @@ info
 "
 MojoJS
 enabled
+automatically
+(
+mojojs_path
+:
+%
+s
+)
 "
+%
+path
 )
             
 except
