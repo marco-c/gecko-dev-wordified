@@ -219,7 +219,7 @@ data
 }
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

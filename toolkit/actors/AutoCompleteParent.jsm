@@ -819,7 +819,7 @@ AutoCompleteParent
 extends
 JSWindowActorParent
 {
-willDestroy
+didDestroy
 (
 )
 {

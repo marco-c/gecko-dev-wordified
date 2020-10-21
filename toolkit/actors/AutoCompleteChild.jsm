@@ -575,7 +575,7 @@ listener
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

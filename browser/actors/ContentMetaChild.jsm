@@ -612,7 +612,7 @@ Map
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {

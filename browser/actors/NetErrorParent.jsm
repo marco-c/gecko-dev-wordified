@@ -499,7 +499,7 @@ this
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {
