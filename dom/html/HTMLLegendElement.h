@@ -316,7 +316,7 @@ aResult
 const
 override
 ;
-Element
+HTMLFormElement
 *
 GetFormElement
 (
