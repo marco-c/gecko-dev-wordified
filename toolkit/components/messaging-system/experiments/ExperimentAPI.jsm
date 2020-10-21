@@ -816,12 +816,6 @@ false
 filters
 :
 {
-"
-arguments
-.
-slug
-"
-:
 slug
 }
 }
@@ -969,8 +963,6 @@ slug
 return
 recipe
 ?
-.
-arguments
 .
 branches
 ;
