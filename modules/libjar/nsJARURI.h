@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIClassInfo
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -263,8 +256,6 @@ nsIJARURI
 public
 nsISerializable
 public
-nsIClassInfo
-public
 nsINestedURI
 {
 public
@@ -274,7 +265,6 @@ NS_DECL_NSIURI
 NS_DECL_NSIURL
 NS_DECL_NSIJARURI
 NS_DECL_NSISERIALIZABLE
-NS_DECL_NSICLASSINFO
 NS_DECL_NSINESTEDURI
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
