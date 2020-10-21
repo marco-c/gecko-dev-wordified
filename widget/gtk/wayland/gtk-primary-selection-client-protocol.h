@@ -7,7 +7,7 @@ wayland
 scanner
 1
 .
-18
+14
 .
 0
 *
