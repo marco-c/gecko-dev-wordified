@@ -1500,6 +1500,10 @@ the
 /
 mixed
 content
+/
+https
+-
+only
 state
 for
 our
@@ -1509,7 +1513,7 @@ is
 changed
 .
 void
-UpdateSecurityStateForLocationOrMixedContentChange
+UpdateSecurityState
 (
 )
 ;

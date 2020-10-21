@@ -19576,6 +19576,13 @@ mBlockAllMixedContent
 ;
 /
 /
+HTTPS
+-
+Only
+Mode
+flags
+/
+/
 The
 HTTPS_ONLY_EXEMPT
 flag
@@ -19607,11 +19614,6 @@ loadInfo
 GetHttpsOnlyStatus
 (
 )
-&
-nsILoadInfo
-:
-:
-HTTPS_ONLY_EXEMPT
 ;
 nsresult
 rv
