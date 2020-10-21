@@ -1758,7 +1758,6 @@ clone_gl
 notifier
 opts
 None
-size
 )
 .
 unwrap

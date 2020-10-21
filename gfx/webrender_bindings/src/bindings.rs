@@ -9009,7 +9009,6 @@ gl
 notifier
 opts
 shaders
-window_size
 )
 {
 Ok
