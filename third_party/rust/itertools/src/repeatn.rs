@@ -58,6 +58,7 @@ consumed
 [
 derive
 (
+Clone
 Debug
 )
 ]
@@ -128,8 +129,6 @@ elt
 :
 None
 n
-:
-n
 }
 }
 else
@@ -142,8 +141,6 @@ Some
 (
 element
 )
-n
-:
 n
 }
 }

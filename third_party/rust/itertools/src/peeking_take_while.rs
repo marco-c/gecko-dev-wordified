@@ -8,6 +8,9 @@ iter
 Peekable
 ;
 use
+crate
+:
+:
 PutBack
 ;
 #
@@ -22,6 +25,9 @@ use_std
 )
 ]
 use
+crate
+:
+:
 PutBackN
 ;
 /
@@ -618,10 +624,6 @@ Iterator
 PeekingTakeWhile
 {
 iter
-:
-iter
-f
-:
 f
 }
 }
