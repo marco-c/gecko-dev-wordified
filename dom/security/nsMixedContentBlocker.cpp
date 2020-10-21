@@ -6530,7 +6530,7 @@ UI
 topWC
 -
 >
-AddSecurityState
+AddMixedContentSecurityState
 (
 newState
 )

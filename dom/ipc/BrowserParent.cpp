@@ -16636,7 +16636,7 @@ GetBrowsingContext
 )
 -
 >
-UpdateSecurityState
+UpdateSecurityStateForLocationOrMixedContentChange
 (
 )
 ;

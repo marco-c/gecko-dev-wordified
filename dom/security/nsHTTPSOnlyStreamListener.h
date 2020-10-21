@@ -196,9 +196,6 @@ nsHTTPSOnlyStreamListener
 nsIStreamListener
 *
 aListener
-nsILoadInfo
-*
-aLoadInfo
 )
 ;
 private

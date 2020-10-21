@@ -2010,7 +2010,7 @@ void
 WindowContext
 :
 :
-AddSecurityState
+AddMixedContentSecurityState
 (
 uint32_t
 aStateFlags
@@ -2051,16 +2051,6 @@ nsIWebProgressListener
 :
 :
 STATE_BLOCKED_MIXED_ACTIVE_CONTENT
-|
-nsIWebProgressListener
-:
-:
-STATE_HTTPS_ONLY_MODE_UPGRADED
-|
-nsIWebProgressListener
-:
-:
-STATE_HTTPS_ONLY_MODE_UPGRADE_FAILED
 )
 )
 =
@@ -2086,7 +2076,7 @@ Canonical
 )
 -
 >
-AddSecurityState
+AddMixedContentSecurityState
 (
 aStateFlags
 )
@@ -2108,7 +2098,7 @@ GetSingleton
 child
 -
 >
-SendAddSecurityState
+SendAddMixedContentSecurityState
 (
 this
 aStateFlags

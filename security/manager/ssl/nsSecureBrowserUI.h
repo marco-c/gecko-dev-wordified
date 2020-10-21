@@ -215,7 +215,7 @@ aBrowsingContext
 NS_DECL_ISUPPORTS
 NS_DECL_NSISECUREBROWSERUI
 void
-RecomputeSecurityFlags
+UpdateForLocationOrMixedContentChange
 (
 )
 ;
