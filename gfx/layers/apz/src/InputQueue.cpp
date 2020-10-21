@@ -138,13 +138,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

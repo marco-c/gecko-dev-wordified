@@ -124,17 +124,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-/
-/
-for
-AppendToString
-#
-include
-"
 nsAString
 .
 h

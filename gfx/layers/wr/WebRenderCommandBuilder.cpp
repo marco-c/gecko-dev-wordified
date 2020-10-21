@@ -385,13 +385,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 LayerTreeInvalidation
 .
 h
@@ -15209,7 +15202,7 @@ typo
 fprint_stderr
 declared
 in
-LayersLogging
+nsDebug
 .
 h
 }

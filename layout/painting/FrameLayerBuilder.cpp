@@ -200,13 +200,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 MaskLayerImageCache
 .
 h
@@ -35702,7 +35695,7 @@ typo
 fprint_stderr
 declared
 in
-LayersLogging
+nsDebug
 .
 h
 }

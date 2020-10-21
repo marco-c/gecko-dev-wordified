@@ -154,13 +154,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 MLGDevice
 .
 h

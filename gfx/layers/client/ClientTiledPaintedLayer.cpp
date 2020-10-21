@@ -342,13 +342,6 @@ etc
 #
 include
 "
-LayersLogging
-.
-h
-"
-#
-include
-"
 mozilla
 /
 layers

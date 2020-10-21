@@ -647,17 +647,6 @@ etc
 #
 include
 "
-LayersLogging
-.
-h
-"
-/
-/
-for
-Stringify
-#
-include
-"
 Units
 .
 h

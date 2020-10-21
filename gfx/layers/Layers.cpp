@@ -190,17 +190,6 @@ SortLayersBy3DZOrder
 #
 include
 "
-LayersLogging
-.
-h
-"
-/
-/
-for
-AppendToString
-#
-include
-"
 LayerUserData
 .
 h

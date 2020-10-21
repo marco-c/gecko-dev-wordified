@@ -128,17 +128,6 @@ h
 #
 include
 "
-LayersLogging
-.
-h
-"
-/
-/
-for
-AppendToString
-#
-include
-"
 gfx2DGlue
 .
 h

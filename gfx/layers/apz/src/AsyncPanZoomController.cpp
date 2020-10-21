@@ -443,17 +443,6 @@ gfxFloat
 #
 include
 "
-LayersLogging
-.
-h
-"
-/
-/
-for
-print_stderr
-#
-include
-"
 mozilla
 /
 Assertions
