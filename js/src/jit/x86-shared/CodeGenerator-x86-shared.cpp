@@ -17578,7 +17578,7 @@ I8x16AvgrU
 :
 masm
 .
-averageInt8x16
+unsignedAverageInt8x16
 (
 rhs
 lhsDest
@@ -17597,7 +17597,7 @@ I16x8AvgrU
 :
 masm
 .
-averageInt16x8
+unsignedAverageInt16x8
 (
 rhs
 lhsDest
