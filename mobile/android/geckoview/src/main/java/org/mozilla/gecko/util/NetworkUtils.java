@@ -152,9 +152,7 @@ http
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -255,9 +253,7 @@ http
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /

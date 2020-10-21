@@ -390,9 +390,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /

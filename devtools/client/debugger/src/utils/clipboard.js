@@ -71,9 +71,7 @@ https
 :
 /
 /
-dxr
-.
-mozilla
+searchfox
 .
 org
 /
@@ -88,8 +86,6 @@ devtools
 shared
 /
 platform
-/
-content
 /
 clipboard
 .
