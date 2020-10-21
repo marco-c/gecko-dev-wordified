@@ -58,6 +58,17 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
+/
+*
+global
+global
+*
+/
 let
 selection
 ;

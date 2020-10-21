@@ -58,6 +58,11 @@ MPL
 .
 *
 /
+"
+use
+strict
+"
+;
 const
 WAIT_UNTIL_TYPE
 =
