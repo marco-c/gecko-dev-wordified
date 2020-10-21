@@ -1361,9 +1361,6 @@ Inevitable
 :
 return
 "
-BailoutKind
-:
-:
 Inevitable
 "
 ;
@@ -1375,9 +1372,6 @@ DuringVMCall
 :
 return
 "
-BailoutKind
-:
-:
 DuringVMCall
 "
 ;
@@ -1389,9 +1383,6 @@ TooManyArguments
 :
 return
 "
-BailoutKind
-:
-:
 TooManyArguments
 "
 ;
@@ -1403,9 +1394,6 @@ DynamicNameNotFound
 :
 return
 "
-BailoutKind
-:
-:
 DynamicNameNotFound
 "
 ;
@@ -1417,9 +1405,6 @@ Overflow
 :
 return
 "
-BailoutKind
-:
-:
 Overflow
 "
 ;
@@ -1431,9 +1416,6 @@ Round
 :
 return
 "
-BailoutKind
-:
-:
 Round
 "
 ;
@@ -1445,9 +1427,6 @@ NonPrimitiveInput
 :
 return
 "
-BailoutKind
-:
-:
 NonPrimitiveInput
 "
 ;
@@ -1459,9 +1438,6 @@ PrecisionLoss
 :
 return
 "
-BailoutKind
-:
-:
 PrecisionLoss
 "
 ;
@@ -1473,9 +1449,6 @@ TypeBarrierO
 :
 return
 "
-BailoutKind
-:
-:
 TypeBarrierO
 "
 ;
@@ -1487,9 +1460,6 @@ TypeBarrierV
 :
 return
 "
-BailoutKind
-:
-:
 TypeBarrierV
 "
 ;
@@ -1501,9 +1471,6 @@ Hole
 :
 return
 "
-BailoutKind
-:
-:
 Hole
 "
 ;
@@ -1515,9 +1482,6 @@ NoDenseElementsGuard
 :
 return
 "
-BailoutKind
-:
-:
 NoDenseElementsGuard
 "
 ;
@@ -1529,9 +1493,6 @@ NegativeIndex
 :
 return
 "
-BailoutKind
-:
-:
 NegativeIndex
 "
 ;
@@ -1543,9 +1504,6 @@ ObjectIdentityOrTypeGuard
 :
 return
 "
-BailoutKind
-:
-:
 ObjectIdentityOrTypeGuard
 "
 ;
@@ -1557,9 +1515,6 @@ SpecificAtomGuard
 :
 return
 "
-BailoutKind
-:
-:
 SpecifcAtomGuard
 "
 ;
@@ -1571,9 +1526,6 @@ SpecificSymbolGuard
 :
 return
 "
-BailoutKind
-:
-:
 SpecificSymbolGuard
 "
 ;
@@ -1585,9 +1537,6 @@ StringToIndexGuard
 :
 return
 "
-BailoutKind
-:
-:
 StringToIndexGuard
 "
 ;
@@ -1599,9 +1548,6 @@ StringToInt32Guard
 :
 return
 "
-BailoutKind
-:
-:
 StringToInt32Guard
 "
 ;
@@ -1613,9 +1559,6 @@ StringToDoubleGuard
 :
 return
 "
-BailoutKind
-:
-:
 StringToDoubleGuard
 "
 ;
@@ -1627,9 +1570,6 @@ NonInt32Input
 :
 return
 "
-BailoutKind
-:
-:
 NonInt32Input
 "
 ;
@@ -1641,9 +1581,6 @@ NonNumericInput
 :
 return
 "
-BailoutKind
-:
-:
 NonNumericInput
 "
 ;
@@ -1655,9 +1592,6 @@ NonBooleanInput
 :
 return
 "
-BailoutKind
-:
-:
 NonBooleanInput
 "
 ;
@@ -1669,9 +1603,6 @@ NonObjectInput
 :
 return
 "
-BailoutKind
-:
-:
 NonObjectInput
 "
 ;
@@ -1683,9 +1614,6 @@ NonStringInput
 :
 return
 "
-BailoutKind
-:
-:
 NonStringInput
 "
 ;
@@ -1697,9 +1625,6 @@ NonSymbolInput
 :
 return
 "
-BailoutKind
-:
-:
 NonSymbolInput
 "
 ;
@@ -1711,9 +1636,6 @@ NonBigIntInput
 :
 return
 "
-BailoutKind
-:
-:
 NonBigIntInput
 "
 ;
@@ -1725,9 +1647,6 @@ Debugger
 :
 return
 "
-BailoutKind
-:
-:
 Debugger
 "
 ;
@@ -1739,9 +1658,6 @@ FirstExecution
 :
 return
 "
-BailoutKind
-:
-:
 FirstExecution
 "
 ;
@@ -1753,9 +1669,6 @@ NonInt32ArrayLength
 :
 return
 "
-BailoutKind
-:
-:
 NonInt32ArrayLength
 "
 ;
@@ -1767,9 +1680,6 @@ FunctionLength
 :
 return
 "
-BailoutKind
-:
-:
 FunctionLength
 "
 ;
@@ -1781,9 +1691,6 @@ FunctionName
 :
 return
 "
-BailoutKind
-:
-:
 FunctionName
 "
 ;
@@ -1795,9 +1702,6 @@ InvalidCodePoint
 :
 return
 "
-BailoutKind
-:
-:
 InvalidCodePoint
 "
 ;
@@ -1817,9 +1721,6 @@ OverflowInvalidate
 :
 return
 "
-BailoutKind
-:
-:
 OverflowInvalidate
 "
 ;
@@ -1831,9 +1732,6 @@ DoubleOutput
 :
 return
 "
-BailoutKind
-:
-:
 DoubleOutput
 "
 ;
@@ -1850,9 +1748,6 @@ ArgumentCheck
 :
 return
 "
-BailoutKind
-:
-:
 ArgumentCheck
 "
 ;
@@ -1864,9 +1759,6 @@ BoundsCheck
 :
 return
 "
-BailoutKind
-:
-:
 BoundsCheck
 "
 ;
@@ -1878,9 +1770,6 @@ ShapeGuard
 :
 return
 "
-BailoutKind
-:
-:
 ShapeGuard
 "
 ;
@@ -1892,9 +1781,6 @@ ProtoGuard
 :
 return
 "
-BailoutKind
-:
-:
 ProtoGuard
 "
 ;
@@ -1906,9 +1792,6 @@ ProxyGuard
 :
 return
 "
-BailoutKind
-:
-:
 ProxyGuard
 "
 ;
@@ -1920,9 +1803,6 @@ NotProxyGuard
 :
 return
 "
-BailoutKind
-:
-:
 NotProxyGuard
 "
 ;
@@ -1934,9 +1814,6 @@ NotDOMProxyGuard
 :
 return
 "
-BailoutKind
-:
-:
 NotDOMProxyGuard
 "
 ;
@@ -1948,9 +1825,6 @@ NotArrayBufferMaybeSharedGuard
 :
 return
 "
-BailoutKind
-:
-:
 NotArrayBufferMaybeSharedGuard
 "
 ;
@@ -1962,9 +1836,6 @@ TypedArrayGuard
 :
 return
 "
-BailoutKind
-:
-:
 TypedArrayGuard
 "
 ;
@@ -1976,9 +1847,6 @@ MegamorphicAccess
 :
 return
 "
-BailoutKind
-:
-:
 MegamorphicAccess
 "
 ;
@@ -1990,9 +1858,6 @@ ArgumentsObjectAccess
 :
 return
 "
-BailoutKind
-:
-:
 ArgumentsObjectAccess
 "
 ;
@@ -2004,9 +1869,6 @@ ArrayPopShift
 :
 return
 "
-BailoutKind
-:
-:
 ArrayPopShift
 "
 ;
@@ -2018,9 +1880,6 @@ ArraySlice
 :
 return
 "
-BailoutKind
-:
-:
 ArraySlice
 "
 ;
@@ -2032,9 +1891,6 @@ ValueGuard
 :
 return
 "
-BailoutKind
-:
-:
 ValueGuard
 "
 ;
@@ -2046,9 +1902,6 @@ NotOptimizedArgumentsGuard
 :
 return
 "
-BailoutKind
-:
-:
 NotOptimizedArgumentsGuard
 "
 ;
@@ -2060,9 +1913,6 @@ NullOrUndefinedGuard
 :
 return
 "
-BailoutKind
-:
-:
 NullOrUndefinedGuard
 "
 ;
@@ -2074,9 +1924,6 @@ TagNotEqualGuard
 :
 return
 "
-BailoutKind
-:
-:
 TagNotEqualGuard
 "
 ;
@@ -2088,9 +1935,6 @@ FunctionFlagsGuard
 :
 return
 "
-BailoutKind
-:
-:
 FunctionFlagsGuard
 "
 ;
@@ -2102,9 +1946,6 @@ FunctionKindGuard
 :
 return
 "
-BailoutKind
-:
-:
 FunctionKindGuard
 "
 ;
@@ -2116,9 +1957,6 @@ FunctionScriptGuard
 :
 return
 "
-BailoutKind
-:
-:
 FunctionScriptGuard
 "
 ;
@@ -2130,9 +1968,6 @@ PackedArrayGuard
 :
 return
 "
-BailoutKind
-:
-:
 PackedArrayGuard
 "
 ;
@@ -2144,9 +1979,6 @@ HasGetterSetterGuard
 :
 return
 "
-BailoutKind
-:
-:
 HasGetterSetterGuard
 "
 ;
@@ -2158,9 +1990,6 @@ UninitializedLexical
 :
 return
 "
-BailoutKind
-:
-:
 UninitializedLexical
 "
 ;
@@ -2172,9 +2001,6 @@ IonExceptionDebugMode
 :
 return
 "
-BailoutKind
-:
-:
 IonExceptionDebugMode
 "
 ;

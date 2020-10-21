@@ -41805,6 +41805,10 @@ const
 char
 *
 msg
+const
+char
+*
+details
 )
 {
 fprintf
@@ -41816,10 +41820,13 @@ EVENT
 :
 %
 s
+%
+s
 \
 n
 "
 msg
+details
 )
 ;
 }

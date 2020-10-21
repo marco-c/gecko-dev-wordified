@@ -2959,6 +2959,9 @@ fn
 const
 char
 *
+const
+char
+*
 )
 )
 ;

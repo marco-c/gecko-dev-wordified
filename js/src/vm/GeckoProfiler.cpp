@@ -396,6 +396,9 @@ fn
 const
 char
 *
+const
+char
+*
 )
 )
 {
@@ -1385,6 +1388,10 @@ const
 char
 *
 event
+const
+char
+*
+details
 )
 {
 MOZ_ASSERT
@@ -1408,6 +1415,7 @@ nogc
 eventMarker_
 (
 event
+details
 )
 ;
 }
@@ -3495,6 +3503,9 @@ void
 fn
 )
 (
+const
+char
+*
 const
 char
 *

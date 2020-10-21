@@ -17812,7 +17812,6 @@ buf
 JS_smprintf
 (
 "
-Invalidate
 %
 s
 :
@@ -17865,6 +17864,9 @@ geckoProfiler
 .
 markEvent
 (
+"
+Invalidate
+"
 buf
 .
 get

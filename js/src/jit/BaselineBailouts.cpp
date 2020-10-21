@@ -9930,6 +9930,9 @@ geckoProfiler
 .
 markEvent
 (
+"
+Bailout
+"
 buf
 .
 get

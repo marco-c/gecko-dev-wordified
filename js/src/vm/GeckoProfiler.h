@@ -1176,6 +1176,9 @@ eventMarker_
 const
 char
 *
+const
+char
+*
 )
 ;
 public
@@ -1249,6 +1252,9 @@ fn
 const
 char
 *
+const
+char
+*
 )
 )
 ;
@@ -1292,6 +1298,10 @@ const
 char
 *
 event
+const
+char
+*
+details
 )
 ;
 ProfileStringMap
