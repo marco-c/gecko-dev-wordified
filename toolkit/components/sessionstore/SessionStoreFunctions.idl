@@ -101,6 +101,9 @@ nsISupports
 idl
 "
 webidl
+BrowsingContext
+;
+webidl
 Element
 ;
 [
@@ -154,6 +157,9 @@ UpdateSessionStore
 in
 Element
 aBrowser
+in
+BrowsingContext
+aBrowsingContext
 in
 uint32_t
 aFlushId

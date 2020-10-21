@@ -18008,6 +18008,7 @@ funcs
 UpdateSessionStore
 (
 mFrameElement
+mBrowsingContext
 aFlushId
 aIsFinal
 aEpoch
