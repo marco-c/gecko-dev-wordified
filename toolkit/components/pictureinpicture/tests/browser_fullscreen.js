@@ -602,6 +602,12 @@ browser
 =
 >
 {
+await
+ensureVideosReady
+(
+browser
+)
+;
 for
 (
 let
