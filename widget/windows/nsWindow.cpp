@@ -52660,6 +52660,10 @@ true
 )
 ;
 }
+UpdateNonClientMargins
+(
+)
+;
 ChangedDPI
 (
 )
