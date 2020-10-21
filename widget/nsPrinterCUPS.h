@@ -294,6 +294,13 @@ delete
 nsPrinterCUPS
 (
 const
+mozilla
+:
+:
+CommonPaperInfoArray
+*
+aArray
+const
 nsCUPSShim
 &
 aShim
@@ -304,6 +311,10 @@ cups_dest_t
 aPrinter
 )
 :
+nsPrinterBase
+(
+aArray
+)
 mShim
 (
 aShim

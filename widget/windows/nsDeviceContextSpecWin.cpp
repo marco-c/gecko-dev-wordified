@@ -4829,6 +4829,7 @@ nsPrinterWin
 :
 Create
 (
+mCommonPaperInfo
 std
 :
 :
