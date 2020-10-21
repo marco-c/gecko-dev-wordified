@@ -621,6 +621,7 @@ layers
 :
 PreferredCanvasTextureType
 (
+*
 imageBridge
 )
 ;

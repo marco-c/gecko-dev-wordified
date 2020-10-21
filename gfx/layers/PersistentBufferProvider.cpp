@@ -762,6 +762,11 @@ TextureData
 IsRemote
 (
 aKnowsCompositor
+-
+>
+GetCompositorBackendType
+(
+)
 BackendSelector
 :
 :
