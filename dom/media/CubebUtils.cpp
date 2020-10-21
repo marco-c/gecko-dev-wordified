@@ -971,6 +971,9 @@ sndio
 opensl
 "
 "
+oss
+"
+"
 audiotrack
 "
 "
