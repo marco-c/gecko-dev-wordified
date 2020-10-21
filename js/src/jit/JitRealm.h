@@ -1894,7 +1894,7 @@ cx
 ;
 static
 void
-Trace
+TraceAtomZoneRoots
 (
 JSTracer
 *

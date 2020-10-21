@@ -2726,7 +2726,7 @@ void
 JitRuntime
 :
 :
-Trace
+TraceAtomZoneRoots
 (
 JSTracer
 *
