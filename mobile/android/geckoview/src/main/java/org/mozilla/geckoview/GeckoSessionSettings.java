@@ -1118,9 +1118,9 @@ This
 needs
 to
 match
-nsIDocShell
+GeckoViewSettings
 .
-idl
+jsm
 public
 static
 final
