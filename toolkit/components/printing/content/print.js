@@ -5637,7 +5637,6 @@ printer
 .
 createDefaultSettings
 (
-printerName
 )
 ]
 )
