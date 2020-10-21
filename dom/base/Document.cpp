@@ -8897,14 +8897,6 @@ mBlockDOMContentLoaded
 (
 0
 )
-mUseCounters
-(
-0
-)
-mChildDocumentUseCounters
-(
-0
-)
 mUserHasInteracted
 (
 false
