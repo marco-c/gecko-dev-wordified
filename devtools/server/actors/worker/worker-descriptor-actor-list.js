@@ -336,7 +336,7 @@ in
 addition
 to
 the
-WorkerTargetActorList
+WorkerDescriptorActorList
 /
 /
 listener
@@ -427,7 +427,7 @@ Bug
 separate
 WorkerPauser
 from
-WorkerTargetActorList
+WorkerDescriptorActorList
 and
 give
 /
@@ -607,7 +607,7 @@ origin
 }
 ;
 function
-WorkerTargetActorList
+WorkerDescriptorActorList
 (
 conn
 options
@@ -679,7 +679,7 @@ this
 )
 ;
 }
-WorkerTargetActorList
+WorkerDescriptorActorList
 .
 prototype
 =
@@ -1199,7 +1199,7 @@ _workerPauser
 ;
 exports
 .
-WorkerTargetActorList
+WorkerDescriptorActorList
 =
-WorkerTargetActorList
+WorkerDescriptorActorList
 ;
