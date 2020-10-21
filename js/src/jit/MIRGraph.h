@@ -169,9 +169,6 @@ namespace
 jit
 {
 class
-BytecodeAnalysis
-;
-class
 MBasicBlock
 ;
 class
