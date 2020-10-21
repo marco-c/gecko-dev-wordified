@@ -3964,10 +3964,7 @@ dedupedSponsored
 .
 forEach
 (
-(
 link
-index
-)
 =
 >
 {
@@ -3980,6 +3977,15 @@ link
 return
 ;
 }
+let
+index
+=
+link
+.
+sponsored_position
+-
+1
+;
 if
 (
 index
