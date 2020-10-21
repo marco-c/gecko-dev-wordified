@@ -11818,7 +11818,7 @@ java
 GeckoProcessManager
 :
 :
-MarkAsDead
+ShutdownProcess
 (
 selector
 )
