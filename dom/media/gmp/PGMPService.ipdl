@@ -121,6 +121,7 @@ namespace
 gmp
 {
 sync
+refcounted
 protocol
 PGMPService
 {
