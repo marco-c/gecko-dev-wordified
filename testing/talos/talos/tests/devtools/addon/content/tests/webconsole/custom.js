@@ -146,6 +146,9 @@ stream
 batch
 =
 250
+simple
+=
+5000
 ;
 const
 params
@@ -167,6 +170,12 @@ batch
 =
 {
 batch
+}
+&
+simple
+=
+{
+simple
 }
 ;
 const
@@ -215,6 +224,8 @@ sync
 stream
 +
 batch
++
+simple
 )
 ;
 await
