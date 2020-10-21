@@ -53,6 +53,7 @@ isRunOnce
 false
 }
 )
+;
 assertErrorMessage
 (
 (
@@ -76,6 +77,7 @@ isRunOnce
 true
 }
 )
+;
 }
 Error
 "
