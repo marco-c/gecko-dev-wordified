@@ -2772,6 +2772,7 @@ nsHTMLCanvasFrame
 GetIntrinsicRatio
 (
 )
+const
 {
 if
 (

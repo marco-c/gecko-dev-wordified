@@ -495,6 +495,7 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
+const
 final
 {
 return

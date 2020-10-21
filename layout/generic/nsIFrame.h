@@ -19784,6 +19784,7 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
+const
 ;
 /
 *

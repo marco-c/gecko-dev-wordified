@@ -362,6 +362,7 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
+const
 override
 ;
 SizeComputationResult

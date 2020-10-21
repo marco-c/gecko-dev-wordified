@@ -2103,6 +2103,7 @@ SVGOuterSVGFrame
 GetIntrinsicRatio
 (
 )
+const
 {
 if
 (
