@@ -1188,14 +1188,6 @@ onPiPVideo
 ;
 this
 .
-onMediaStreamVideo
-=
-context
-.
-onMediaStreamVideo
-;
-this
-.
 onEditable
 =
 context
@@ -5489,12 +5481,6 @@ enabled
 this
 .
 onVideo
-&
-&
-!
-this
-.
-onMediaStreamVideo
 &
 &
 !
