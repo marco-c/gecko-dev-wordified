@@ -2342,7 +2342,7 @@ ldflags
 set_config
 (
 '
-MOZ_LTO_RUST
+MOZ_LTO_RUST_CROSS
 '
 lto
 .
