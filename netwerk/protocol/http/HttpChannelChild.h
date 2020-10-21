@@ -556,15 +556,6 @@ aFallbackKey
 )
 override
 ;
-NS_IMETHOD
-GetIsAuthChannel
-(
-bool
-*
-aIsAuthChannel
-)
-override
-;
 /
 /
 nsISupportsPriority
