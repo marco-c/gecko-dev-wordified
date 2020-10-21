@@ -183,8 +183,8 @@ js
 namespace
 frontend
 {
-struct
-CompilationInfo
+class
+ParserAtomsTable
 ;
 class
 ParserAtom
@@ -368,9 +368,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 double
 d
 )
@@ -430,9 +430,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 int32_t
 si
 )

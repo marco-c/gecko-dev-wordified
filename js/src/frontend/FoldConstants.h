@@ -270,6 +270,7 @@ if
 FoldConstants
 (
 cx
+parserAtoms
 &
 pn
 parser
@@ -292,9 +293,9 @@ FoldConstants
 JSContext
 *
 cx
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 ParseNode
 *
 *
@@ -312,9 +313,9 @@ FoldConstants
 JSContext
 *
 cx
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 typename
 SyntaxParseHandler
 :
