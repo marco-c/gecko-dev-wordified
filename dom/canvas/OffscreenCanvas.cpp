@@ -222,6 +222,13 @@ GLScreenBuffer
 .
 h
 "
+#
+include
+"
+ImageBitmap
+.
+h
+"
 namespace
 mozilla
 {
@@ -867,6 +874,9 @@ forget
 )
 ;
 }
+layers
+:
+:
 ImageContainer
 *
 OffscreenCanvas

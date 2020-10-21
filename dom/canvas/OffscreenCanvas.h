@@ -130,6 +130,17 @@ include
 "
 mozilla
 /
+dom
+/
+ImageEncoder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DOMEventTargetHelper
 .
 h

@@ -347,6 +347,9 @@ CanvasUtils
 bool
 IsImageExtractionAllowed
 (
+dom
+:
+:
 Document
 *
 aDocument
@@ -615,6 +618,9 @@ return
 true
 ;
 }
+dom
+:
+:
 Document
 *
 topLevelDocument
@@ -920,6 +926,9 @@ privacy_resistFingerprinting_autoDeclineNoUserInputCanvasPrompts
 &
 &
 !
+dom
+:
+:
 UserActivation
 :
 :
@@ -1092,10 +1101,16 @@ XRE_IsContentProcess
 )
 )
 {
+dom
+:
+:
 BrowserChild
 *
 browserChild
 =
+dom
+:
+:
 BrowserChild
 :
 :

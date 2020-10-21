@@ -102,6 +102,11 @@ WEBGL_SHADER_VALIDATOR_H_
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
