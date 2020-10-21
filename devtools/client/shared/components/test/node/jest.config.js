@@ -58,6 +58,17 @@ MPL
 .
 *
 /
+/
+*
+global
+__dirname
+*
+/
+"
+use
+strict
+"
+;
 const
 {
 resolve
