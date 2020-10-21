@@ -123,7 +123,6 @@ flags
 :
 [
 generated
-async
 ]
 negative
 :

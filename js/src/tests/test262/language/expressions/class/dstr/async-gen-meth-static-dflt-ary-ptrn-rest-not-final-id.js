@@ -121,7 +121,6 @@ flags
 :
 [
 generated
-async
 ]
 negative
 :

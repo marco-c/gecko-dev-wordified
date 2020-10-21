@@ -160,7 +160,6 @@ flags
 [
 generated
 onlyStrict
-async
 ]
 negative
 :

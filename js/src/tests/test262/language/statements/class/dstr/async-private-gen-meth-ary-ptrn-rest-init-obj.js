@@ -143,7 +143,6 @@ flags
 :
 [
 generated
-async
 ]
 negative
 :

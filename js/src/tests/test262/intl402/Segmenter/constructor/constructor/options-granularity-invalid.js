@@ -108,9 +108,6 @@ word
 sentence
 "
 "
-line
-"
-"
 grapheme
 "
 )
@@ -183,6 +180,9 @@ SENTENCE
 sentence
 \
 0
+"
+"
+line
 "
 "
 Line
