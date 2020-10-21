@@ -7319,12 +7319,6 @@ EditAction
 :
 eSetWrapWidth
 :
-case
-EditAction
-:
-:
-eRewrap
-:
 /
 /
 While
