@@ -127,6 +127,12 @@ no_conditioned_profile
 "
 :
 True
+        
+"
+browsertime_visualmetrics
+"
+:
+False
     
 }
     
@@ -229,6 +235,17 @@ browsertime_video
 =
 "
 browsertime_video
+"
+    
+options
+[
+"
+browsertime_visualmetrics
+"
+]
+=
+"
+browsertime_visualmetrics
 "
     
 options

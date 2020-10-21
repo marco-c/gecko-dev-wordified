@@ -620,21 +620,17 @@ browsertime_
 )
 :
                     
-value
-=
-outer_kwargs
-.
-pop
-(
-key
-)
-                    
 inner_kwargs
 [
 key
 ]
 =
-value
+outer_kwargs
+.
+get
+(
+key
+)
             
 if
 args

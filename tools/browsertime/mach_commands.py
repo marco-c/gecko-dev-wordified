@@ -3344,9 +3344,7 @@ req
 =
 install_req_from_line
 (
-"
-Pillow
-"
+package
 )
         
 req
