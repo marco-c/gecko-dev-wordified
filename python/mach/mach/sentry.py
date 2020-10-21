@@ -84,8 +84,14 @@ is_telemetry_enabled
 from
 mozversioncontrol
 import
+(
+    
 get_repository_object
+    
 InvalidRepoPath
+    
+MissingVCSTool
+)
 from
 six
 import
@@ -368,7 +374,10 @@ NoopErrorReporter
 )
         
 except
+(
 InvalidRepoPath
+MissingVCSTool
+)
 :
             
 pass
