@@ -2008,7 +2008,7 @@ every
 sweep
 group
 .
-ZoneData
+ZoneOrGCTaskData
 <
 Arena
 *
@@ -2299,8 +2299,9 @@ queueForegroundThingsForSweep
 (
 )
 ;
-void
-releaseForegroundSweptEmptyArenas
+Arena
+*
+takeSweptEmptyArenas
 (
 )
 ;

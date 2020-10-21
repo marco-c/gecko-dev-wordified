@@ -4572,17 +4572,6 @@ SliceBudget
 budget
 )
 ;
-IncrementalProgress
-releaseSweptEmptyArenas
-(
-JSFreeOp
-*
-fop
-SliceBudget
-&
-budget
-)
-;
 void
 startSweepingAtomsTable
 (
