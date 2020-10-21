@@ -115,6 +115,8 @@ redux
 const
 {
 combineReducers
+createStore
+applyMiddleware
 }
 =
 require
@@ -204,16 +206,6 @@ create
 store
 *
 /
-import
-{
-createStore
-applyMiddleware
-}
-from
-"
-redux
-"
-;
 const
 objectInspector
 =
