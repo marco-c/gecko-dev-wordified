@@ -24558,7 +24558,7 @@ if
 (
 aHTMLEditor
 .
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_SUBTREEMODIFIED
 |
@@ -27194,7 +27194,7 @@ if
 (
 aHTMLEditor
 .
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_NODEREMOVED
 |
@@ -37931,7 +37931,7 @@ if
 (
 aHTMLEditor
 .
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_NODEREMOVED
 |
@@ -42189,7 +42189,7 @@ delete
 }
 if
 (
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
 )
@@ -42289,7 +42289,7 @@ ContainerAsText
 ;
 if
 (
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
 )
@@ -42485,7 +42485,7 @@ delete
 }
 if
 (
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
 |
@@ -47120,7 +47120,7 @@ MarkAsHandled
 ;
 if
 (
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 )
 )
@@ -47708,7 +47708,7 @@ rv
 }
 if
 (
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 )
 )

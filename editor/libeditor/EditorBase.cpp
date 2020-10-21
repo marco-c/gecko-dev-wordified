@@ -16044,7 +16044,7 @@ modified
 if
 (
 !
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_CHARACTERDATAMODIFIED
 )

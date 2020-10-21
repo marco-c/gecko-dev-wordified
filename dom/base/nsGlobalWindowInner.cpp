@@ -45774,6 +45774,10 @@ mMayHavePointerEnterLeaveEventListener
 (
 false
 )
+mMayHaveBeforeInputEventListenerForTelemetry
+(
+false
+)
 mOuterWindow
 (
 aOuterWindow

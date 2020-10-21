@@ -12287,7 +12287,7 @@ mayBecomeUnexpectedDOMTree
 =
 aHTMLEditor
 .
-MaybeHasMutationEventListeners
+MayHaveMutationEventListeners
 (
 NS_EVENT_BITS_MUTATION_SUBTREEMODIFIED
 |
