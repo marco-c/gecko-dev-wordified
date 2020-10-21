@@ -205,6 +205,11 @@ GfxInfo
 mm
 '
 '
+IconLoaderHelperCocoa
+.
+mm
+'
+'
 NativeKeyBindings
 .
 mm
@@ -251,11 +256,6 @@ mm
 '
 '
 nsFilePicker
-.
-mm
-'
-'
-nsIconLoaderService
 .
 mm
 '
