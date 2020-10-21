@@ -3266,6 +3266,9 @@ bool
 mTimeoutAccumulated
 ;
 bool
+mExecutedChromeScript
+;
+bool
 mHasScriptActivity
 ;
 /
