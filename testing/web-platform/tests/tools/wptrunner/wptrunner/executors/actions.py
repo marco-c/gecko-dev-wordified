@@ -334,17 +334,6 @@ origin
 selector
 "
 ]
-action
-[
-"
-frame
-"
-]
-[
-"
-frame
-"
-]
 )
         
 self
@@ -369,12 +358,10 @@ get_element
 (
 self
 element_selector
-frame
 )
 :
         
-element
-=
+return
 self
 .
 protocol
@@ -384,11 +371,7 @@ select
 element_by_selector
 (
 element_selector
-frame
 )
-        
-return
-element
 class
 GenerateTestReportAction
 (
