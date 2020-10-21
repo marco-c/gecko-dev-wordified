@@ -451,15 +451,14 @@ rv
 =
 WriteEncodedData
 (
+*
 aData
 [
 i
 ]
 -
 >
-GetFrameData
-(
-)
+mFrameData
 aData
 [
 i
