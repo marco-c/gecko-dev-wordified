@@ -116,6 +116,9 @@ getPatchOfType
 "
 partial
 "
+gUpdateManager
+.
+readyUpdate
 )
 .
 QueryInterface
