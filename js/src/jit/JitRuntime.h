@@ -1578,9 +1578,6 @@ generateExceptionTailStub
 MacroAssembler
 &
 masm
-void
-*
-handler
 Label
 *
 profilerExitTail
