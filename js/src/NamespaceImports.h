@@ -254,9 +254,6 @@ class
 Latin1CharsZ
 ;
 class
-ConstTwoByteChars
-;
-class
 TwoByteChars
 ;
 class
@@ -440,12 +437,6 @@ JS
 :
 :
 ValueType
-;
-using
-JS
-:
-:
-ConstTwoByteChars
 ;
 using
 JS
