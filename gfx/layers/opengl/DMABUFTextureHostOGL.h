@@ -422,9 +422,8 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
+PushDisplayItemFlagSet
+aFlags
 )
 override
 ;

@@ -375,7 +375,7 @@ mozilla
 /
 webrender
 /
-RenderAndroidSurfaceTextureHostOGL
+RenderAndroidSurfaceTextureHost
 .
 h
 "

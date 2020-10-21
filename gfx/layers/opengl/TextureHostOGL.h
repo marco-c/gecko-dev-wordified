@@ -2719,9 +2719,8 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
+PushDisplayItemFlagSet
+aFlags
 )
 override
 ;
@@ -3073,9 +3072,8 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
+PushDisplayItemFlagSet
+aFlags
 )
 override
 ;
@@ -3740,9 +3738,8 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
+PushDisplayItemFlagSet
+aFlags
 )
 override
 ;

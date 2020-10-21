@@ -1546,6 +1546,16 @@ return
 mUseTripleBuffering
 ;
 }
+bool
+SupportsExternalBufferTextures
+(
+)
+const
+{
+return
+mSupportsExternalBufferTextures
+;
+}
 layers
 :
 :
@@ -1725,6 +1735,8 @@ bool
 aUseDComp
 bool
 aUseTripleBuffering
+bool
+aSupportsExternalBufferTextures
 layers
 :
 :
@@ -1782,6 +1794,9 @@ mUseDComp
 ;
 bool
 mUseTripleBuffering
+;
+bool
+mSupportsExternalBufferTextures
 ;
 bool
 mCaptureSequence

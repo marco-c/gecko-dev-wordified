@@ -1371,9 +1371,8 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
+PushDisplayItemFlagSet
+aFlags
 )
 {
 MOZ_ASSERT
@@ -1397,7 +1396,7 @@ aBounds
 aClip
 aFilter
 aImageKeys
-aPreferCompositorSurface
+aFlags
 )
 ;
 }
