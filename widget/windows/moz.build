@@ -304,11 +304,6 @@ GfxInfo
 cpp
 '
 '
-IconLoaderHelperWin
-.
-cpp
-'
-'
 IEnumFE
 .
 cpp
@@ -450,11 +445,6 @@ cpp
 '
 '
 ScreenHelperWin
-.
-cpp
-'
-'
-SystemStatusBar
 .
 cpp
 '
@@ -814,12 +804,6 @@ forms
 layout
 /
 generic
-'
-'
-/
-layout
-/
-style
 '
 '
 /
