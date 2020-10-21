@@ -304,12 +304,13 @@ be
 called
 once
 .
+Result
+<
+PermissionValue
 nsresult
+>
 PromptIfNeeded
 (
-PermissionValue
-*
-aCurrentValue
 )
 ;
 protected
