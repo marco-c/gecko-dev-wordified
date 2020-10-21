@@ -173,6 +173,15 @@ include
 "
 jit
 /
+JitContext
+.
+h
+"
+#
+include
+"
+jit
+/
 shared
 /
 Assembler

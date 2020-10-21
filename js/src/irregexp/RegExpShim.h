@@ -343,6 +343,15 @@ include
 "
 vm
 /
+JSContext
+.
+h
+"
+#
+include
+"
+vm
+/
 MutexIDs
 .
 h
@@ -8205,6 +8214,9 @@ bool
 overflowed
 =
 !
+js
+:
+:
 CheckRecursionLimitDontReport
 (
 cx_
@@ -8334,6 +8346,9 @@ JsHasOverflowed
 {
 return
 !
+js
+:
+:
 CheckRecursionLimitConservativeDontReport
 (
 cx_

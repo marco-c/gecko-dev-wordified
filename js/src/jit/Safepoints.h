@@ -151,6 +151,9 @@ js
 namespace
 jit
 {
+class
+SafepointIndex
+;
 struct
 SafepointSlotEntry
 ;

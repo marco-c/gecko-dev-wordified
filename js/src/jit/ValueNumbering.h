@@ -132,6 +132,15 @@ HashTable
 .
 h
 "
+#
+include
+"
+js
+/
+Vector
+.
+h
+"
 namespace
 js
 {

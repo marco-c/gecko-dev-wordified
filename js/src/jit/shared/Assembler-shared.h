@@ -153,6 +153,15 @@ include
 "
 jit
 /
+JitContext
+.
+h
+"
+#
+include
+"
+jit
+/
 Label
 .
 h
@@ -304,6 +313,10 @@ js
 namespace
 jit
 {
+enum
+class
+FrameType
+;
 namespace
 Disassembler
 {
