@@ -445,9 +445,6 @@ GetEvent
 (
 bool
 aMayWait
-EventQueuePriority
-*
-aPriority
 mozilla
 :
 :
@@ -471,14 +468,6 @@ DidRunEvent
 virtual
 bool
 HasPendingEvent
-(
-)
-=
-0
-;
-virtual
-bool
-HasPendingHighPriorityEvents
 (
 )
 =
