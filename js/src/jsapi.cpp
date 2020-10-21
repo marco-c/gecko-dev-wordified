@@ -34204,6 +34204,8 @@ XDRDecoder
 >
 (
 cx
+&
+options
 buffer
 cursorIndex
 )
@@ -34621,6 +34623,8 @@ XDRDecoder
 >
 (
 cx
+&
+options
 range
 )
 )
