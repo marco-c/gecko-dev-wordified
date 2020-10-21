@@ -3951,7 +3951,9 @@ new_window
 self
 type_hint
 =
-None
+"
+tab
+"
 )
 :
         
