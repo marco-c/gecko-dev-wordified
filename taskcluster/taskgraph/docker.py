@@ -174,8 +174,6 @@ task
 tasks
 [
 '
-build
--
 docker
 -
 image

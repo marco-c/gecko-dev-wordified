@@ -895,8 +895,6 @@ image
 label
 =
 '
-build
--
 docker
 -
 image
