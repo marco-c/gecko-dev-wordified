@@ -6640,7 +6640,7 @@ Extern
 heapType
 =
 "
-externref
+extern
 "
 ;
 break
@@ -6654,7 +6654,7 @@ Func
 heapType
 =
 "
-funcref
+func
 "
 ;
 break
@@ -6669,11 +6669,13 @@ return
 JS_smprintf
 (
 "
+(
 ref
 %
 s
 %
 d
+)
 "
 type
 .
@@ -6703,11 +6705,13 @@ return
 JS_smprintf
 (
 "
+(
 ref
 %
 s
 %
 s
+)
 "
 type
 .
