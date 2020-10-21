@@ -22496,6 +22496,10 @@ this
 -
 >
 compilationInfo_
+.
+stencil
+.
+parserAtoms
 *
 this
 list

@@ -276,8 +276,8 @@ js
 namespace
 frontend
 {
-struct
-CompilationInfo
+class
+ParserAtomsTable
 ;
 class
 ParseContext
@@ -417,9 +417,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 AsmJSParser
 <
 mozilla
@@ -451,9 +451,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 AsmJSParser
 <
 char16_t
