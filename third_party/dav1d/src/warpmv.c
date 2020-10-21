@@ -737,6 +737,10 @@ return
 wm
 -
 >
+u
+.
+p
+.
 alpha
 =
 iclip_wmp
@@ -752,6 +756,10 @@ mat
 wm
 -
 >
+u
+.
+p
+.
 beta
 =
 iclip_wmp
@@ -824,6 +832,10 @@ shift
 wm
 -
 >
+u
+.
+p
+.
 gamma
 =
 iclip_wmp
@@ -874,6 +886,10 @@ y
 wm
 -
 >
+u
+.
+p
+.
 delta
 =
 iclip_wmp
@@ -916,6 +932,10 @@ abs
 wm
 -
 >
+u
+.
+p
+.
 alpha
 )
 +
@@ -926,6 +946,10 @@ abs
 wm
 -
 >
+u
+.
+p
+.
 beta
 )
 >
@@ -942,6 +966,10 @@ abs
 wm
 -
 >
+u
+.
+p
+.
 gamma
 )
 +
@@ -952,6 +980,10 @@ abs
 wm
 -
 >
+u
+.
+p
+.
 delta
 )
 >

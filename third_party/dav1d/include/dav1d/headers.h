@@ -252,6 +252,13 @@ DAV1D_HEADERS_H
 #
 include
 <
+stdint
+.
+h
+>
+#
+include
+<
 stddef
 .
 h
@@ -420,6 +427,7 @@ gamma
 delta
 ;
 }
+p
 ;
 int16_t
 abcd
@@ -428,6 +436,7 @@ abcd
 ]
 ;
 }
+u
 ;
 }
 Dav1dWarpedMotionParams

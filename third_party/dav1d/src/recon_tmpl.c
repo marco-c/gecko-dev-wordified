@@ -11375,6 +11375,10 @@ mvx
 wmp
 -
 >
+u
+.
+p
+.
 alpha
 *
 4
@@ -11382,6 +11386,10 @@ alpha
 wmp
 -
 >
+u
+.
+p
+.
 beta
 *
 7
@@ -11423,6 +11431,10 @@ mvy
 wmp
 -
 >
+u
+.
+p
+.
 gamma
 *
 4
@@ -11430,6 +11442,10 @@ gamma
 wmp
 -
 >
+u
+.
+p
+.
 delta
 *
 4
@@ -11642,6 +11658,8 @@ ref_stride
 wmp
 -
 >
+u
+.
 abcd
 mx
 my
@@ -11667,6 +11685,8 @@ ref_stride
 wmp
 -
 >
+u
+.
 abcd
 mx
 my
