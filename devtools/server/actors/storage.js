@@ -7434,9 +7434,6 @@ handleChildRequest
 }
 return
 {
-onBrowserSwap
-:
-setMessageManager
 onDisconnected
 :
 (
@@ -10079,9 +10076,6 @@ handleChildRequest
 }
 return
 {
-onBrowserSwap
-:
-setMessageManager
 onDisconnected
 :
 (
@@ -20273,9 +20267,6 @@ handleChildRequest
 }
 return
 {
-onBrowserSwap
-:
-setMessageManager
 onDisconnected
 :
 (
