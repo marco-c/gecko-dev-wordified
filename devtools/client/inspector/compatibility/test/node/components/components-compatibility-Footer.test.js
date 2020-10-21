@@ -160,6 +160,8 @@ configureStore
 (
 [
 thunk
+(
+)
 ]
 )
 ;

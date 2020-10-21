@@ -170,6 +170,8 @@ configureStore
 (
 [
 thunk
+(
+)
 ]
 )
 ;
@@ -256,6 +258,8 @@ configureStore
 (
 [
 thunk
+(
+)
 ]
 )
 ;

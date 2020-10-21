@@ -246,6 +246,8 @@ configureStore
 (
 [
 thunk
+(
+)
 ]
 )
 ;
@@ -326,6 +328,8 @@ configureStore
 (
 [
 thunk
+(
+)
 ]
 )
 ;
@@ -410,6 +414,8 @@ configureStore
 (
 [
 thunk
+(
+)
 ]
 )
 ;
