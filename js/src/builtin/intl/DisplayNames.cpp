@@ -1480,7 +1480,7 @@ ldn
 }
 }
 bool
-js
+JS
 :
 :
 AddDisplayNamesConstructor
@@ -1545,7 +1545,7 @@ ctorValue
 ;
 }
 bool
-js
+JS
 :
 :
 AddMozDisplayNamesConstructor

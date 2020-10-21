@@ -1388,7 +1388,7 @@ dif
 }
 }
 bool
-js
+JS
 :
 :
 AddMozDateTimeFormatConstructor
