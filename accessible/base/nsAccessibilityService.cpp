@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsTextFormatter
 .
 h
