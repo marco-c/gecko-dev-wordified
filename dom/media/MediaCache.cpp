@@ -1346,7 +1346,7 @@ methods
 .
 /
 /
-mReentrantMonitor
+mMonitor
 must
 be
 held
@@ -1370,7 +1370,7 @@ reads
 /
 /
 Note
-mReentrantMonitor
+mMonitor
 will
 be
 dropped
@@ -1435,7 +1435,7 @@ mNextResourceID
 }
 /
 /
-mReentrantMonitor
+mMonitor
 must
 be
 held
@@ -1586,7 +1586,7 @@ uint8_t
 ;
 /
 /
-mReentrantMonitor
+mMonitor
 must
 be
 held
