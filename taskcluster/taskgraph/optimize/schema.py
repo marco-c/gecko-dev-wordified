@@ -129,16 +129,6 @@ ALL_COMPONENTS
 )
 }
     
-{
-'
-build
--
-fuzzing
-'
-:
-None
-}
-    
 #
 search
 the
