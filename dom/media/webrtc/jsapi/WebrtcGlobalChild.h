@@ -170,10 +170,6 @@ ipc
 IPCResult
 RecvGetLog
 (
-const
-nsCString
-&
-aPattern
 GetLogResolver
 &
 &
