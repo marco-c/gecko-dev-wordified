@@ -2574,6 +2574,14 @@ ScreenSize
 aBaseSize
 )
 ;
+enum
+class
+ZoomInProgress
+{
+No
+Yes
+}
+;
 /
 *
 *
@@ -2628,6 +2636,11 @@ direction
 of
 the
 velocity
+and
+other
+*
+such
+things
 .
 *
 /
@@ -2644,6 +2657,8 @@ const
 ParentLayerPoint
 &
 aVelocity
+ZoomInProgress
+aZoomInProgress
 )
 ;
 nsEventStatus
