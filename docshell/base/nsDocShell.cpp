@@ -34932,7 +34932,7 @@ Canonical
 )
 -
 >
-UpdateSecurityStateForLocationOrMixedContentChange
+UpdateSecurityState
 (
 )
 ;

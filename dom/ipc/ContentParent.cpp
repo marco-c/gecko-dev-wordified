@@ -26276,7 +26276,7 @@ IPCResult
 ContentParent
 :
 :
-RecvAddMixedContentSecurityState
+RecvAddSecurityState
 (
 const
 MaybeDiscarded
@@ -26311,7 +26311,7 @@ get
 )
 -
 >
-AddMixedContentSecurityState
+AddSecurityState
 (
 aStateFlags
 )

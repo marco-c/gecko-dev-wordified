@@ -1156,7 +1156,7 @@ void
 CanonicalBrowsingContext
 :
 :
-UpdateSecurityStateForLocationOrMixedContentChange
+UpdateSecurityState
 (
 )
 {
@@ -1168,7 +1168,7 @@ mSecureBrowserUI
 mSecureBrowserUI
 -
 >
-UpdateForLocationOrMixedContentChange
+RecomputeSecurityFlags
 (
 )
 ;

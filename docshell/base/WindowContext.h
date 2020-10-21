@@ -976,8 +976,6 @@ aInit
 /
 Add
 new
-mixed
-content
 security
 state
 flags
@@ -990,8 +988,11 @@ be
 some
 of
 the
-four
 nsIWebProgressListener
+'
+HTTPS_ONLY_MODE
+'
+or
 /
 /
 '
@@ -1006,14 +1007,12 @@ be
 called
 on
 the
-/
-/
 top
 window
 context
 .
 void
-AddMixedContentSecurityState
+AddSecurityState
 (
 uint32_t
 aStateFlags

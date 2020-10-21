@@ -6548,7 +6548,7 @@ ipc
 :
 :
 IPCResult
-RecvAddMixedContentSecurityState
+RecvAddSecurityState
 (
 const
 MaybeDiscarded
