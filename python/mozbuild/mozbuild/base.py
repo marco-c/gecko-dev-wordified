@@ -4873,11 +4873,13 @@ _ensure_objdir_exists
         
 args
 =
+[
 self
 .
 _make_path
 (
 )
+]
         
 if
 directory
@@ -5708,9 +5710,7 @@ result
 :
                 
 return
-[
 make
-]
             
 if
 xcode_lisense_error_tmp
