@@ -94,6 +94,9 @@ TestDllInterceptor
 '
 TestIATPatcher
 '
+'
+TestMMPolicy
+'
 ]
 linkage
 =
