@@ -244,11 +244,6 @@ nsContentCreatorFunctions
 .
 h
 "
-/
-/
-#
-define
-DEBUG_REFLOW
 using
 namespace
 mozilla
