@@ -255,6 +255,11 @@ QuotaCommon
 h
 '
 '
+QuotaInfo
+.
+h
+'
+'
 QuotaManager
 .
 h

@@ -1260,11 +1260,6 @@ CreateFileOutputStream
 (
 PERSISTENCE_TYPE_DEFAULT
 aQuotaInfo
-.
-mGroup
-aQuotaInfo
-.
-mOrigin
 Client
 :
 :
@@ -1723,11 +1718,6 @@ CreateFileInputStream
 (
 PERSISTENCE_TYPE_DEFAULT
 aQuotaInfo
-.
-mGroup
-aQuotaInfo
-.
-mOrigin
 Client
 :
 :
@@ -1868,11 +1858,6 @@ GetQuotaObject
 (
 PERSISTENCE_TYPE_DEFAULT
 aQuotaInfo
-.
-mGroup
-aQuotaInfo
-.
-mOrigin
 Client
 :
 :
@@ -4120,11 +4105,6 @@ DecreaseUsageForOrigin
 (
 PERSISTENCE_TYPE_DEFAULT
 aQuotaInfo
-.
-mGroup
-aQuotaInfo
-.
-mOrigin
 Client
 :
 :
