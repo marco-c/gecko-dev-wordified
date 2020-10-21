@@ -1462,7 +1462,7 @@ errors
 JavascriptException
 )
 :
-               
+                
 self
 .
 marionette
@@ -2383,6 +2383,9 @@ assertTrue
 send
 (
 "
+"
+"
+            
 return
 (
 typeof
@@ -2395,6 +2398,7 @@ undefined
 )
 |
 |
+                
 (
 typeof
 Components
@@ -2406,6 +2410,9 @@ utils
 undefined
 '
 )
+        
+"
+"
 "
 )
 )
@@ -2952,10 +2959,10 @@ foo
 }
             
 }
+        
 "
 "
 "
-            
 sandbox
 =
 None
@@ -3007,10 +3014,10 @@ documentElement
 }
             
 }
+        
 "
 "
 "
-            
 sandbox
 =
 None
@@ -3021,6 +3028,44 @@ self
 assert_is_web_element
 (
 el
+)
+        
+self
+.
+assertEqual
+(
+el
+self
+.
+marionette
+.
+find_element
+(
+By
+.
+CSS_SELECTOR
+"
+:
+root
+"
+)
+)
+        
+self
+.
+assertEqual
+(
+el
+.
+get_property
+(
+"
+localName
+"
+)
+"
+html
+"
 )
     
 def

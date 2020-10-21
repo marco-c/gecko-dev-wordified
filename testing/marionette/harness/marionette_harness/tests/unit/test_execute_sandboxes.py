@@ -199,10 +199,10 @@ arguments
 result
 )
 ;
+        
 "
 "
 "
-            
 sandbox
 =
 "
@@ -422,10 +422,15 @@ marionette
 execute_script
 (
 "
-return
-foo
+"
 "
                 
+return
+foo
+            
+"
+"
+"
 sandbox
 =
 "
