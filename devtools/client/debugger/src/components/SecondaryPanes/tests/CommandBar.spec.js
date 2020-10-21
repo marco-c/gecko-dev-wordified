@@ -350,7 +350,6 @@ handler
 {
 handler
 (
-null
 mockEvent
 )
 ;
@@ -622,7 +621,6 @@ handler
 {
 handler
 (
-null
 mockEvent
 )
 ;

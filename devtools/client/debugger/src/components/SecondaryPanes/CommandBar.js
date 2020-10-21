@@ -809,10 +809,7 @@ getKey
 (
 action
 )
-(
-_
 e
-)
 =
 >
 this
@@ -869,10 +866,7 @@ WINNT
 "
 action
 )
-(
-_
 e
-)
 =
 >
 this
