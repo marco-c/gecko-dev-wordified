@@ -819,6 +819,13 @@ GetDocument
 )
 const
 ;
+Document
+*
+GetExtantDoc
+(
+)
+const
+;
 /
 /
 Get
