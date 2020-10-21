@@ -3911,8 +3911,6 @@ http
 example
 .
 org
-/
-test
 "
 ;
 result
