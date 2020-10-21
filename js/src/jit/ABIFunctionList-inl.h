@@ -1304,6 +1304,17 @@ js
 jit
 :
 :
+InvokeFromInterpreterStub
+)
+\
+_
+(
+js
+:
+:
+jit
+:
+:
 LazyLinkTopActivation
 )
 \
