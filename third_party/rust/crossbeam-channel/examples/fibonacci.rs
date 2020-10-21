@@ -7,6 +7,10 @@ fibonacci
 sequence
 generator
 .
+extern
+crate
+crossbeam_channel
+;
 use
 std
 :

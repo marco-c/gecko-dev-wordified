@@ -244,6 +244,16 @@ US
 legal
 .
 html
+#
+[
+macro_use
+]
+extern
+crate
+crossbeam_channel
+as
+cc
+;
 use
 std
 :
@@ -292,11 +302,6 @@ time
 :
 :
 Duration
-;
-use
-crossbeam_channel
-as
-cc
 ;
 pub
 struct
@@ -1275,9 +1280,6 @@ expr
 >
 (
 {
-cc
-:
-:
 crossbeam_channel_internal
 !
 {
@@ -11985,6 +11987,7 @@ recv
 )
 =
 >
+{
 assert_eq
 !
 (
@@ -11995,6 +11998,8 @@ unwrap
 )
 1
 )
+;
+}
 _bar
 =
 rx2
@@ -12004,10 +12009,12 @@ recv
 )
 =
 >
+{
 panic
 !
 (
 )
+}
 }
 tx2
 .
@@ -12032,10 +12039,12 @@ recv
 )
 =
 >
+{
 panic
 !
 (
 )
+}
 bar
 =
 rx2
@@ -12045,6 +12054,7 @@ recv
 )
 =
 >
+{
 assert_eq
 !
 (
@@ -12055,6 +12065,7 @@ unwrap
 )
 2
 )
+}
 }
 drop
 (
@@ -12073,6 +12084,7 @@ recv
 )
 =
 >
+{
 assert
 !
 (
@@ -12082,6 +12094,8 @@ is_err
 (
 )
 )
+;
+}
 _bar
 =
 rx2
@@ -12091,10 +12105,12 @@ recv
 )
 =
 >
+{
 panic
 !
 (
 )
+}
 }
 drop
 (
@@ -12113,6 +12129,7 @@ recv
 )
 =
 >
+{
 assert
 !
 (
@@ -12122,6 +12139,8 @@ is_err
 (
 )
 )
+;
+}
 }
 }
 #
@@ -12231,6 +12250,7 @@ recv
 )
 =
 >
+{
 panic
 !
 (
@@ -12238,6 +12258,7 @@ panic
 1
 "
 )
+}
 _foo
 =
 rx2
@@ -12247,6 +12268,7 @@ recv
 )
 =
 >
+{
 panic
 !
 (
@@ -12254,6 +12276,7 @@ panic
 2
 "
 )
+}
 _foo
 =
 rx3
@@ -12263,6 +12286,7 @@ recv
 )
 =
 >
+{
 panic
 !
 (
@@ -12270,6 +12294,7 @@ panic
 3
 "
 )
+}
 _foo
 =
 rx4
@@ -12279,6 +12304,7 @@ recv
 )
 =
 >
+{
 panic
 !
 (
@@ -12286,6 +12312,7 @@ panic
 4
 "
 )
+}
 foo
 =
 rx5
@@ -12295,6 +12322,7 @@ recv
 )
 =
 >
+{
 assert_eq
 !
 (
@@ -12305,6 +12333,8 @@ unwrap
 )
 4
 )
+;
+}
 }
 }
 #
@@ -12363,10 +12393,12 @@ recv
 )
 =
 >
+{
 panic
 !
 (
 )
+}
 a2
 =
 rx2
@@ -12376,6 +12408,7 @@ recv
 )
 =
 >
+{
 assert
 !
 (
@@ -12385,6 +12418,8 @@ is_err
 (
 )
 )
+;
+}
 }
 }
 #
@@ -12521,6 +12556,7 @@ recv
 )
 =
 >
+{
 assert_eq
 !
 (
@@ -12531,6 +12567,8 @@ unwrap
 )
 1
 )
+;
+}
 _b
 =
 rx2
@@ -12540,10 +12578,12 @@ recv
 )
 =
 >
+{
 panic
 !
 (
 )
+}
 }
 tx3
 .
@@ -12568,6 +12608,7 @@ recv
 )
 =
 >
+{
 assert
 !
 (
@@ -12577,6 +12618,7 @@ is_err
 (
 )
 )
+}
 _b
 =
 rx2
@@ -12586,10 +12628,12 @@ recv
 )
 =
 >
+{
 panic
 !
 (
 )
+}
 }
 t
 .
