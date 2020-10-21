@@ -104,7 +104,7 @@ doesn
 '
 t
 .
-js_option
+option
 (
 '
 -
@@ -160,7 +160,7 @@ enable
 :
 return
 enable
-js_option
+option
 (
 '
 -

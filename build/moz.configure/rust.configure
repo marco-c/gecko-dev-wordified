@@ -107,7 +107,7 @@ error
 message
 there
 .
-js_option
+option
 (
 env
 =
@@ -127,7 +127,7 @@ rust
 compiler
 '
 )
-js_option
+option
 (
 env
 =
@@ -3554,7 +3554,7 @@ Rust
 tests
 below
 .
-js_option
+option
 (
 env
 =
