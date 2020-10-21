@@ -211,7 +211,6 @@ pb_postfix
 =
 isMacOS
 ?
--
 (
 Private
 Browsing
@@ -232,7 +231,6 @@ test_title
 {
 test_title
 }
--
 {
 app_name
 }
@@ -262,7 +260,6 @@ pb_postfix
 {
 test_title
 }
--
 {
 app_name
 }

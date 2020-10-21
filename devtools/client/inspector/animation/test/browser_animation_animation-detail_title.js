@@ -60,7 +60,6 @@ expectedTitle
 :
 "
 cssanimation
--
 CSS
 Animation
 "
@@ -81,7 +80,6 @@ test
 delay
 -
 animation
--
 Script
 Animation
 "
