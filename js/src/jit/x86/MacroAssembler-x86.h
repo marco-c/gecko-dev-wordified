@@ -7474,9 +7474,6 @@ exception
 void
 handleFailureWithHandlerTail
 (
-void
-*
-handler
 Label
 *
 profilerExitTail
