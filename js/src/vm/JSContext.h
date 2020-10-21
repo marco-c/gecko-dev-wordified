@@ -311,7 +311,7 @@ h
 js
 :
 :
-RuntimeScriptDataTable
+SharedImmutableScriptDataTable
 struct
 JS_PUBLIC_API
 JSContext
@@ -2539,7 +2539,7 @@ locks
 js
 :
 :
-RuntimeScriptDataTable
+SharedImmutableScriptDataTable
 &
 scriptDataTable
 (

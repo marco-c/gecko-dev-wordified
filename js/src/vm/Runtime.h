@@ -610,7 +610,7 @@ h
 js
 :
 :
-RuntimeScriptDataTable
+SharedImmutableScriptDataTable
 #
 include
 "
@@ -5944,7 +5944,7 @@ ScriptDataLockData
 js
 :
 :
-RuntimeScriptDataTable
+SharedImmutableScriptDataTable
 >
 scriptDataTable_
 ;
@@ -5953,7 +5953,7 @@ public
 js
 :
 :
-RuntimeScriptDataTable
+SharedImmutableScriptDataTable
 &
 scriptDataTable
 (
