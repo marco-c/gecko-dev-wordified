@@ -1136,6 +1136,11 @@ tenuredBigInts
 this
 0
 )
+nurseryAllocatedStrings
+(
+this
+0
+)
 allocNurseryStrings
 (
 this
