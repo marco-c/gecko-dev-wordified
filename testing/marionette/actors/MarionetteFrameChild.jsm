@@ -396,6 +396,11 @@ receiveMessage
 msg
 )
 {
+try
+{
+let
+result
+;
 const
 {
 name
@@ -415,11 +420,6 @@ fromJSON
 (
 serializedData
 )
-;
-try
-{
-let
-result
 ;
 switch
 (
