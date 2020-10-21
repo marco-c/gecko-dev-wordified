@@ -189,7 +189,7 @@ add_task
 (
 async
 function
-testTXTResolve
+testEsniRequest
 (
 )
 {
@@ -311,7 +311,7 @@ add_task
 (
 async
 function
-testHTTPSSVCResolve
+testEsniHTTPSSVC
 (
 )
 {

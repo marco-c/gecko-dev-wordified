@@ -5290,7 +5290,7 @@ responseData
 for
 use
 with
-test_dns_by_type_resolve
+test_esni_dns_fetch
 .
 js
 if
@@ -7473,7 +7473,7 @@ return
 for
 use
 with
-test_dns_by_type_resolve
+test_esni_dns_fetch
 .
 js
 else
