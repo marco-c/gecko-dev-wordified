@@ -179,6 +179,9 @@ bool
 showMarginGuides
 ;
 bool
+isPrintSelectionRBEnabled
+;
+bool
 printSelectionOnly
 ;
 short
@@ -270,9 +273,6 @@ isInitializedFromPrinter
 ;
 bool
 isInitializedFromPrefs
-;
-int32_t
-optionFlags
 ;
 /
 *

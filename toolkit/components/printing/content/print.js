@@ -3810,15 +3810,9 @@ selection
 .
 settings
 .
-SetPrintOptions
-(
-Ci
-.
-nsIPrintSettings
-.
-kEnableSelectionRB
+isPrintSelectionRBEnabled
+=
 hasSelection
-)
 ;
 document
 .

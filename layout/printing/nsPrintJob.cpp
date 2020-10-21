@@ -5102,12 +5102,8 @@ printData
 mPrintSettings
 -
 >
-SetPrintOptions
+SetIsPrintSelectionRBEnabled
 (
-nsIPrintSettings
-:
-:
-kEnableSelectionRB
 !
 mDisallowSelectionPrint
 &

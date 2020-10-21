@@ -604,9 +604,6 @@ mEdge
 nsIntMargin
 mUnwriteableMargin
 ;
-int32_t
-mPrintOptions
-;
 /
 /
 scriptable
@@ -666,6 +663,9 @@ mShowMarginGuides
 ;
 bool
 mHonorPageRuleMargins
+;
+bool
+mIsPrintSelectionRBEnabled
 ;
 bool
 mPrintSelectionOnly
