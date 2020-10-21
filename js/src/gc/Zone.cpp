@@ -813,7 +813,7 @@ nbytes
 nbytes
 ;
 }
-maybeMallocTriggerZoneGC
+maybeTriggerGCOnMalloc
 (
 )
 ;

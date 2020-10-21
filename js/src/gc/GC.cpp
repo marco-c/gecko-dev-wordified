@@ -20124,7 +20124,7 @@ void
 GCRuntime
 :
 :
-maybeAllocTriggerZoneGC
+maybeTriggerGCAfterAlloc
 (
 Zone
 *
@@ -20318,7 +20318,7 @@ rt
 >
 gc
 .
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 Zone
 :
@@ -20337,7 +20337,7 @@ void
 GCRuntime
 :
 :
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 Zone
 *
@@ -20346,7 +20346,7 @@ zone
 {
 if
 (
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 zone
 zone
@@ -20370,7 +20370,7 @@ TOO_MUCH_MALLOC
 return
 ;
 }
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 zone
 zone
@@ -20395,7 +20395,7 @@ bool
 GCRuntime
 :
 :
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 Zone
 *
@@ -49356,12 +49356,12 @@ next
 )
 )
 {
-maybeAllocTriggerZoneGC
+maybeTriggerGCAfterAlloc
 (
 zone
 )
 ;
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 zone
 )
@@ -50883,7 +50883,7 @@ rt
 >
 gc
 .
-maybeAllocTriggerZoneGC
+maybeTriggerGCAfterAlloc
 (
 target
 -
@@ -50898,7 +50898,7 @@ rt
 >
 gc
 .
-maybeMallocTriggerZoneGC
+maybeTriggerGCAfterMalloc
 (
 target
 -
@@ -58698,7 +58698,7 @@ invocationKind
 lock
 )
 ;
-maybeAllocTriggerZoneGC
+maybeTriggerGCAfterAlloc
 (
 atomsZone
 )
