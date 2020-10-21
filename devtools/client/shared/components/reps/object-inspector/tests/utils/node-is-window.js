@@ -72,11 +72,13 @@ shared
 /
 components
 /
-reps
+test
 /
-reps
+node
 /
 stubs
+/
+reps
 /
 window
 "
