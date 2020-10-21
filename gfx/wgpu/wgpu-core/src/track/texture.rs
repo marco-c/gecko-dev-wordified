@@ -2367,7 +2367,7 @@ last
 TextureUse
 :
 :
-OUTPUT_ATTACHMENT
+ATTACHMENT_WRITE
 }
 )
 ]
@@ -2638,7 +2638,7 @@ last
 TextureUse
 :
 :
-OUTPUT_ATTACHMENT
+ATTACHMENT_WRITE
 }
 )
 )
@@ -2685,7 +2685,7 @@ Some
 TextureUse
 :
 :
-OUTPUT_ATTACHMENT
+ATTACHMENT_WRITE
 )
 last
 :
