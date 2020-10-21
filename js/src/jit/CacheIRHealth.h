@@ -634,7 +634,7 @@ the
 specified
 script
 .
-bool
+void
 rateMyCacheIR
 (
 JSContext
