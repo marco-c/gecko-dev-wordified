@@ -1277,6 +1277,10 @@ empty
 )
 )
 ;
+markAsSetter
+(
+)
+;
 setCallee
 (
 callee
