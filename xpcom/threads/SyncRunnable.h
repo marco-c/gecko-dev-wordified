@@ -139,9 +139,7 @@ include
 "
 mozilla
 /
-dom
-/
-JSExecutionManager
+Monitor
 .
 h
 "
@@ -150,7 +148,9 @@ include
 "
 mozilla
 /
-Monitor
+dom
+/
+JSExecutionManager
 .
 h
 "
@@ -382,7 +382,7 @@ false
 )
 {
 }
-void
+nsresult
 DispatchToThread
 (
 nsIEventTarget
@@ -444,6 +444,7 @@ Run
 )
 ;
 return
+NS_OK
 ;
 }
 }
@@ -518,8 +519,11 @@ Wait
 ;
 }
 }
+return
+rv
+;
 }
-void
+nsresult
 DispatchToThread
 (
 AbstractThread
@@ -553,6 +557,7 @@ Run
 )
 ;
 return
+NS_OK
 ;
 }
 /
@@ -591,6 +596,9 @@ RequiresTailDispatchFromCurrentThread
 )
 )
 ;
+nsresult
+rv
+=
 aThread
 -
 >
@@ -609,6 +617,14 @@ forget
 )
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 mozilla
 :
 :
@@ -632,8 +648,12 @@ Wait
 ;
 }
 }
+return
+rv
+;
+}
 static
-void
+nsresult
 DispatchToThread
 (
 nsIEventTarget
@@ -661,6 +681,7 @@ aRunnable
 )
 )
 ;
+return
 s
 -
 >
@@ -672,7 +693,7 @@ aForceDispatch
 ;
 }
 static
-void
+nsresult
 DispatchToThread
 (
 AbstractThread
@@ -700,6 +721,7 @@ aRunnable
 )
 )
 ;
+return
 s
 -
 >
