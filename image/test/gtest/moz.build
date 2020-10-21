@@ -547,6 +547,11 @@ large
 webp
 '
 '
+multilayer
+.
+avif
+'
+'
 no
 -
 frame
