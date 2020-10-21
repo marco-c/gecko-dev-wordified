@@ -1797,7 +1797,7 @@ list
 RetVal
 (
 "
-domnodelist
+disconnectedNodeArray
 "
 )
 }
