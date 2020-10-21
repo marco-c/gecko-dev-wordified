@@ -2136,7 +2136,7 @@ VectorImage
 (
 )
 {
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
@@ -10514,7 +10514,7 @@ GetDocument
 )
 -
 >
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
@@ -10705,7 +10705,7 @@ this
 invalid
 document
 .
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
@@ -11668,7 +11668,7 @@ void
 VectorImage
 :
 :
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 {
@@ -11698,7 +11698,7 @@ GetDocument
 doc
 -
 >
-ReportUseCounters
+ReportDocumentUseCounters
 (
 )
 ;
