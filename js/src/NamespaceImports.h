@@ -284,14 +284,6 @@ JSScript
 *
 >
 ;
-template
-<
-typename
-UnitT
->
-class
-SourceText
-;
 class
 HandleValueArray
 ;
