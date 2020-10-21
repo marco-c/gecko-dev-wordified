@@ -138,7 +138,7 @@ include
 "
 frontend
 /
-CompilationInfo
+ParserAtom
 .
 h
 "
@@ -612,9 +612,9 @@ cx
 frontend
 :
 :
-CompilationInfo
+ParserAtomsTable
 &
-compilationInfo
+parserAtoms
 InstrumentationKind
 kind
 )
@@ -658,10 +658,6 @@ i
 )
 {
 return
-compilationInfo
-.
-stencil
-.
 parserAtoms
 .
 internAscii
