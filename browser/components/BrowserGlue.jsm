@@ -2583,9 +2583,6 @@ PdfjsChild
 jsm
 "
 }
-enablePreference
-:
-PREF_PDFJS_ISDEFAULT_CACHE_STATE
 allFrames
 :
 true
