@@ -2080,7 +2080,7 @@ if
 (
 this
 .
-hasWatcherSupport
+hasResourceWatcherSupport
 (
 resourceType
 )
@@ -3920,7 +3920,7 @@ targetFront
 )
 ;
 }
-hasWatcherSupport
+hasResourceWatcherSupport
 (
 resourceType
 )
@@ -4121,7 +4121,7 @@ if
 (
 this
 .
-hasWatcherSupport
+hasResourceWatcherSupport
 (
 resourceType
 )
@@ -4615,7 +4615,7 @@ if
 (
 this
 .
-hasWatcherSupport
+hasResourceWatcherSupport
 (
 resourceType
 )
