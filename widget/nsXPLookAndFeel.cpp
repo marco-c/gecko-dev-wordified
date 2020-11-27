@@ -5205,7 +5205,7 @@ nsresult
 nsXPLookAndFeel
 :
 :
-GetColorImpl
+GetColorValue
 (
 ColorID
 aID
@@ -6168,7 +6168,7 @@ nsresult
 nsXPLookAndFeel
 :
 :
-GetIntImpl
+GetIntValue
 (
 IntID
 aID
@@ -6244,14 +6244,18 @@ NS_OK
 }
 }
 return
-NS_ERROR_NOT_AVAILABLE
+NativeGetInt
+(
+aID
+aResult
+)
 ;
 }
 nsresult
 nsXPLookAndFeel
 :
 :
-GetFloatImpl
+GetFloatValue
 (
 FloatID
 aID
@@ -6325,7 +6329,11 @@ NS_OK
 }
 }
 return
-NS_ERROR_NOT_AVAILABLE
+NativeGetFloat
+(
+aID
+aResult
+)
 ;
 }
 void
@@ -6506,7 +6514,7 @@ ScalarID
 WIDGET_DARK_MODE
 NS_SUCCEEDED
 (
-GetIntImpl
+GetIntValue
 (
 IntID
 :
@@ -6618,7 +6626,7 @@ GetInstance
 )
 -
 >
-GetColorImpl
+GetColorValue
 (
 aID
 false
@@ -6651,7 +6659,7 @@ GetInstance
 )
 -
 >
-GetColorImpl
+GetColorValue
 (
 aID
 aUseStandinsForNativeColors
@@ -6685,7 +6693,7 @@ GetInstance
 )
 -
 >
-GetIntImpl
+GetIntValue
 (
 aID
 *
@@ -6718,7 +6726,7 @@ GetInstance
 )
 -
 >
-GetFloatImpl
+GetFloatValue
 (
 aID
 *
@@ -6754,7 +6762,7 @@ GetInstance
 )
 -
 >
-GetFontImpl
+GetFontValue
 (
 aID
 aName

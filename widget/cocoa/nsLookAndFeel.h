@@ -138,7 +138,6 @@ RefreshImpl
 )
 override
 ;
-virtual
 nsresult
 NativeGetColor
 (
@@ -150,9 +149,8 @@ aResult
 )
 override
 ;
-virtual
 nsresult
-GetIntImpl
+NativeGetInt
 (
 IntID
 aID
@@ -162,9 +160,8 @@ aResult
 )
 override
 ;
-virtual
 nsresult
-GetFloatImpl
+NativeGetFloat
 (
 FloatID
 aID
@@ -174,9 +171,8 @@ aResult
 )
 override
 ;
-virtual
 bool
-GetFontImpl
+NativeGetFont
 (
 FontID
 aID
