@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsGlobalWindowOuter
+.
+h
+"
+#
+include
+"
 nsError
 .
 h
