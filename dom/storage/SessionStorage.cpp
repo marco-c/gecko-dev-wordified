@@ -180,9 +180,17 @@ h
 define
 DATASET
 \
-IsSessionOnly
+(
+!
+IsPrivateBrowsing
 (
 )
+&
+&
+IsSessionScopedOrLess
+(
+)
+\
 ?
 SessionStorageCache
 :
@@ -194,6 +202,7 @@ SessionStorageCache
 :
 :
 eDefaultSetType
+)
 namespace
 mozilla
 {

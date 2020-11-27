@@ -2079,7 +2079,7 @@ ClearCaches
 LocalStorageCache
 :
 :
-kUnloadPrivate
+kUnloadComplete
 pattern
 "
 "
