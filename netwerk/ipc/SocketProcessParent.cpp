@@ -653,7 +653,6 @@ nsIAppStartup
 :
 :
 eForceQuit
-1
 &
 userAllowedQuit
 )
