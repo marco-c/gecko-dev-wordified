@@ -1049,6 +1049,8 @@ const
 LinearSum
 &
 sum
+BailoutKind
+bailoutKind
 )
 ;
 MOZ_MUST_USE
