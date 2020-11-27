@@ -246,7 +246,6 @@ private
 :
 const
 AudioInfo
-&
 mInfo
 ;
 nsCOMPtr
