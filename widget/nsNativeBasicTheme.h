@@ -2323,6 +2323,9 @@ Rect
 aRect
 bool
 aHorizontal
+nsIFrame
+*
+aFrame
 const
 ComputedStyle
 &
@@ -2352,6 +2355,9 @@ Rect
 aRect
 bool
 aHorizontal
+nsIFrame
+*
+aFrame
 const
 ComputedStyle
 &
@@ -2377,6 +2383,9 @@ const
 Rect
 &
 aRect
+nsIFrame
+*
+aFrame
 const
 ComputedStyle
 &

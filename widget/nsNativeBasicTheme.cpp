@@ -6033,6 +6033,9 @@ Rect
 aRect
 bool
 aHorizontal
+nsIFrame
+*
+aFrame
 const
 ComputedStyle
 &
@@ -6090,6 +6093,9 @@ Rect
 aRect
 bool
 aHorizontal
+nsIFrame
+*
+aFrame
 const
 ComputedStyle
 &
@@ -6302,6 +6308,9 @@ const
 Rect
 &
 aRect
+nsIFrame
+*
+aFrame
 const
 ComputedStyle
 &
@@ -7646,6 +7655,7 @@ PaintScrollbarThumb
 dt
 devPxRect
 isHorizontal
+aFrame
 *
 nsLayoutUtils
 :
@@ -7691,6 +7701,7 @@ PaintScrollbar
 dt
 devPxRect
 isHorizontal
+aFrame
 *
 nsLayoutUtils
 :
@@ -7720,6 +7731,7 @@ PaintScrollCorner
 (
 dt
 devPxRect
+aFrame
 *
 nsLayoutUtils
 :
