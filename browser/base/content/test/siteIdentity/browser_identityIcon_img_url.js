@@ -777,6 +777,16 @@ allow_hijacking_localhost
 "
 true
 ]
+[
+"
+security
+.
+mixed_content
+.
+upgrade_display_content
+"
+false
+]
 ]
 }
 )
