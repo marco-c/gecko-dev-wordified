@@ -716,7 +716,7 @@ thisModule
 )
 ;
 }
-uint32_t
+long
 CreateStream
 (
 const
@@ -1148,7 +1148,7 @@ return
 S_OK
 ;
 }
-uint32_t
+long
 CopySerializedProxy
 (
 IStream

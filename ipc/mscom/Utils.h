@@ -290,7 +290,7 @@ code
 .
 *
 /
-uint32_t
+long
 CreateStream
 (
 const
@@ -368,7 +368,7 @@ code
 .
 *
 /
-uint32_t
+long
 CopySerializedProxy
 (
 IStream
