@@ -2312,7 +2312,11 @@ trailer
 copy_from_slice
 (
 &
+(
 offset_table_offset
+as
+u64
+)
 .
 to_be_bytes
 (
@@ -3208,7 +3212,7 @@ write_exact
 (
 &
 [
-0x08
+0x09
 ]
 )
 ?
@@ -3232,7 +3236,7 @@ write_exact
 (
 &
 [
-0x09
+0x08
 ]
 )
 ?
