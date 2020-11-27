@@ -1185,6 +1185,14 @@ TotalActiveConnections
 )
 const
 ;
+bool
+RemoveTransFromPendingQ
+(
+nsHttpTransaction
+*
+aTrans
+)
+;
 private
 :
 void
