@@ -585,6 +585,11 @@ FORCE_WHATSNEW_PANEL
 case
 msg
 .
+CLOSE_WHATSNEW_PANEL
+:
+case
+msg
+.
 IMPRESSION
 :
 case
