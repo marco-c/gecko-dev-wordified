@@ -4509,6 +4509,11 @@ menuseparator
 )
 )
 ;
+let
+isPipeWire
+=
+false
+;
 /
 /
 Build
@@ -4723,6 +4728,10 @@ id
 PIPEWIRE_ID
 )
 {
+isPipeWire
+=
+true
+;
 let
 sawcStringId
 =
@@ -5577,6 +5586,12 @@ perms
 EXPIRE_SESSION
 )
 ;
+if
+(
+!
+isPipeWire
+)
+{
 video
 .
 deviceId
@@ -5785,6 +5800,7 @@ constraint
 }
 )
 ;
+}
 }
 ;
 menupopup
