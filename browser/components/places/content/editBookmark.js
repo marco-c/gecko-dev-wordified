@@ -8383,11 +8383,6 @@ onEndUpdateBatch
 )
 {
 }
-onItemVisited
-(
-)
-{
-}
 }
 ;
 XPCOMUtils

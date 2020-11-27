@@ -2859,11 +2859,6 @@ aItemId
 ;
 }
 }
-onItemVisited
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )

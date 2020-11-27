@@ -983,11 +983,6 @@ node
 }
 }
 }
-onItemVisited
-(
-)
-{
-}
 onItemMoved
 (
 id
