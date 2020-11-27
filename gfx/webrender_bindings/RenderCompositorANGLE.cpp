@@ -3352,6 +3352,9 @@ mUsePartialPresent
 &
 !
 mUseAlpha
+&
+&
+mSwapChain1
 )
 {
 /
