@@ -71,6 +71,13 @@ Logging
 .
 h
 "
+#
+include
+"
+nsStringFwd
+.
+h
+"
 nsCString
 StartAecLog
 (

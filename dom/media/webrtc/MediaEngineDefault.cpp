@@ -121,6 +121,15 @@ include
 "
 mozilla
 /
+MediaManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SyncRunnable
 .
 h
