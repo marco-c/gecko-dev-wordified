@@ -5957,6 +5957,10 @@ code
 byteLength
 (
 )
+.
+get
+(
+)
 )
 )
 {

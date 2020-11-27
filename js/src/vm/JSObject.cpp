@@ -26328,6 +26328,10 @@ TypedArrayObject
 byteLength
 (
 )
+.
+get
+(
+)
 ;
 allocKind
 =

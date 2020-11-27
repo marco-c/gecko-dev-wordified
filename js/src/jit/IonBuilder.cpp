@@ -61964,6 +61964,10 @@ tarr
 byteLength
 (
 )
+.
+get
+(
+)
 >
 =
 TypedArrayObject

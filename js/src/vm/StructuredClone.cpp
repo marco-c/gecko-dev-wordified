@@ -7947,6 +7947,10 @@ view
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 )
 {
