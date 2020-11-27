@@ -293,11 +293,7 @@ GetParentObject
 (
 )
 const
-{
-return
-nullptr
 ;
-}
 void
 GetText
 (
