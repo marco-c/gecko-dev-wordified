@@ -1003,6 +1003,18 @@ sRegisterIfAvailable
 {
 if
 (
+__builtin_available
+(
+macos
+10
+.
+16
+*
+)
+)
+{
+if
+(
 VTRegisterSupplementalVideoDecoderIfAvailable
 )
 {
@@ -1014,6 +1026,7 @@ kCMVideoCodecType_VP9
 return
 true
 ;
+}
 }
 return
 false
