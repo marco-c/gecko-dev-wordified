@@ -126,7 +126,6 @@ waitForErrorPage
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -246,7 +245,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -300,7 +298,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -410,7 +407,6 @@ browserLoaded
 browser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

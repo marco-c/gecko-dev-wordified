@@ -2440,7 +2440,6 @@ true
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -2684,7 +2683,6 @@ true
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

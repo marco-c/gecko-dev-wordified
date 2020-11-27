@@ -310,7 +310,6 @@ aWindow
 gBrowser
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

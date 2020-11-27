@@ -474,7 +474,6 @@ FormProcessed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -635,7 +634,6 @@ true
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -1219,7 +1217,6 @@ FormProcessed
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

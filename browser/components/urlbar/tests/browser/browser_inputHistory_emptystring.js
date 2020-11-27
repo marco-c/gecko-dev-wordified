@@ -629,7 +629,6 @@ result
 is
 selected
 .
-await
 BrowserTestUtils
 .
 loadURI

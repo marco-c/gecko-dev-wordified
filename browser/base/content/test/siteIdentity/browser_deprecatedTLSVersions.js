@@ -352,7 +352,6 @@ browser
 Try
 deprecated
 versions
-await
 BrowserTestUtils
 .
 loadURI
@@ -404,7 +403,6 @@ secure
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -461,7 +459,6 @@ secure
 Transition
 to
 secure
-await
 BrowserTestUtils
 .
 loadURI
@@ -516,7 +513,6 @@ Transition
 back
 to
 broken
-await
 BrowserTestUtils
 .
 loadURI
@@ -575,7 +571,6 @@ TLS1
 3
 for
 completeness
-await
 BrowserTestUtils
 .
 loadURI

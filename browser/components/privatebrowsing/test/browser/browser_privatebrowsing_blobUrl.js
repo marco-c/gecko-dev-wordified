@@ -82,7 +82,6 @@ false
 BASE_URI
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -234,7 +233,6 @@ false
 BASE_URI
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

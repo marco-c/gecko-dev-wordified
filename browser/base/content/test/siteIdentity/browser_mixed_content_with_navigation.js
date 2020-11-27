@@ -395,7 +395,6 @@ the
 test
 URI
 .
-await
 BrowserTestUtils
 .
 loadURI
@@ -487,7 +486,6 @@ should
 be
 secure
 .
-await
 BrowserTestUtils
 .
 loadURI
@@ -698,7 +696,6 @@ the
 test
 URI
 .
-await
 BrowserTestUtils
 .
 loadURI

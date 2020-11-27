@@ -519,7 +519,6 @@ top
 level
 context
 )
-await
 BrowserTestUtils
 .
 loadURI

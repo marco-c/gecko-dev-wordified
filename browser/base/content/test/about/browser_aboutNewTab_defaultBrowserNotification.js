@@ -431,7 +431,6 @@ browser
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -609,7 +608,6 @@ robots
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

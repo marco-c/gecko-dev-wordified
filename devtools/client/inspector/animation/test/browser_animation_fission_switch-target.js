@@ -521,7 +521,6 @@ updated
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
