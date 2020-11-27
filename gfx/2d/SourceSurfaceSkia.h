@@ -322,6 +322,12 @@ SkImage
 >
 GetImage
 (
+Maybe
+<
+MutexAutoLock
+>
+*
+aLock
 )
 ;
 bool
