@@ -399,13 +399,6 @@ b
 )
 ;
 }
-typedef
-EnumSet
-<
-ScrollDirection
->
-ScrollDirections
-;
 /
 /
 clang

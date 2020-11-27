@@ -1308,10 +1308,7 @@ selectedContent
 get
 (
 )
-ScrollableDirection
-:
-:
-Horizontal
+HorizontalScrollDirection
 )
 ;
 nsIScrollableFrame
@@ -1328,10 +1325,7 @@ selectedContent
 get
 (
 )
-ScrollableDirection
-:
-:
-Vertical
+VerticalScollDirection
 )
 ;
 /
