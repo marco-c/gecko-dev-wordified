@@ -4762,7 +4762,7 @@ aState
 PaintStrokedEllipse
 (
 aDrawTarget
-aRect
+thumbRect
 thumbColor
 thumbBorderColor
 thumbBorderWidth
