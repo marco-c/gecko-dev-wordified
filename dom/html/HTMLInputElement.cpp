@@ -3233,6 +3233,12 @@ tmp
 )
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 /
 /
 Show
@@ -3433,12 +3439,6 @@ NS_OK
 ;
 }
 }
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
 RefPtr
 <
 Blob
