@@ -7838,6 +7838,13 @@ Error
 .
 BLOCK_VERDICT_POTENTIALLY_UNWANTED
 :
+case
+Downloads
+.
+Error
+.
+BLOCK_VERDICT_INSECURE
+:
 /
 /
 Existing
