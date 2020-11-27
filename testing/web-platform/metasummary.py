@@ -8,7 +8,11 @@ import
 os
 import
 re
+from
+urllib
 import
+parse
+as
 urlparse
 from
 collections
@@ -835,6 +839,9 @@ with
 open
 (
 manifest_path
+"
+rb
+"
 )
 as
 f
@@ -941,6 +948,9 @@ with
 open
 (
 path
+"
+rb
+"
 )
 as
 f
@@ -1403,7 +1413,7 @@ manifest
 in
 manifests
 .
-iterkeys
+keys
 (
 )
 :
@@ -2124,7 +2134,7 @@ sorted
 (
 data
 .
-iteritems
+items
 (
 )
 )
@@ -2145,7 +2155,7 @@ _tests
 }
 )
 .
-iteritems
+items
 (
 )
 :
@@ -2175,7 +2185,7 @@ _subtests
 }
 )
 .
-iteritems
+items
 (
 )
 :
