@@ -1031,10 +1031,10 @@ main
 thread
 .
 MarkerThreadId
+:
+:
+MainThread
 (
-profiler_main_thread_id
-(
-)
 )
 )
 FileIOMarker
@@ -1272,10 +1272,10 @@ main
 thread
 .
 MarkerThreadId
+:
+:
+MainThread
 (
-profiler_main_thread_id
-(
-)
 )
 )
 FileIOMarker
