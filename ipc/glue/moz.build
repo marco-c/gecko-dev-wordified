@@ -301,6 +301,11 @@ ScopedXREEmbed
 h
 "
 "
+SerializedStructuredCloneBuffer
+.
+h
+"
+"
 SharedMemory
 .
 h
