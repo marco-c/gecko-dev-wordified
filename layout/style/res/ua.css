@@ -2931,12 +2931,6 @@ smoother
 /
 transition
 -
-duration
-:
-250ms
-;
-transition
--
 property
 :
 width
