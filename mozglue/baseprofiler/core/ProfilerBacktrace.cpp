@@ -173,8 +173,6 @@ const
 char
 *
 aName
-int
-aThreadId
 UniquePtr
 <
 ProfileChunkedBuffer
@@ -196,10 +194,6 @@ nullptr
 mName
 (
 aName
-)
-mThreadId
-(
-aThreadId
 )
 mOptionalProfileChunkedBufferStorage
 (
@@ -338,8 +332,6 @@ const
 char
 *
 aName
-int
-aThreadId
 ProfileChunkedBuffer
 *
 aExternalProfileChunkedBufferOrNull
@@ -363,10 +355,6 @@ nullptr
 mName
 (
 aName
-)
-mThreadId
-(
-aThreadId
 )
 mProfileChunkedBuffer
 (
@@ -522,7 +510,7 @@ ProfilerBacktrace
 )
 {
 }
-void
+int
 ProfilerBacktrace
 :
 :
@@ -540,6 +528,11 @@ UniqueStacks
 aUniqueStacks
 )
 {
+int
+processedThreadId
+=
+0
+;
 /
 /
 Unlike
@@ -589,6 +582,8 @@ if
 mProfileBuffer
 )
 {
+processedThreadId
+=
 StreamSamplesAndMarkers
 (
 mName
@@ -596,7 +591,7 @@ mName
 c_str
 (
 )
-mThreadId
+0
 *
 mProfileBuffer
 aWriter
@@ -644,6 +639,8 @@ profileBuffer
 mProfileChunkedBuffer
 )
 ;
+processedThreadId
+=
 StreamSamplesAndMarkers
 (
 mName
@@ -651,7 +648,7 @@ mName
 c_str
 (
 )
-mThreadId
+0
 profileBuffer
 aWriter
 "
@@ -701,6 +698,9 @@ nothing
 is
 streamed
 .
+return
+processedThreadId
+;
 }
 }
 /
@@ -793,18 +793,6 @@ ProfileChunkedBuffers
 "
 )
 ;
-int
-threadId
-=
-aER
-.
-ReadObject
-<
-int
->
-(
-)
-;
 std
 :
 :
@@ -844,7 +832,6 @@ name
 c_str
 (
 )
-threadId
 std
 :
 :

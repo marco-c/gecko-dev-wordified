@@ -39450,9 +39450,6 @@ ProfilerBacktrace
 "
 SyncProfile
 "
-profiler_current_thread_id
-(
-)
 std
 :
 :
