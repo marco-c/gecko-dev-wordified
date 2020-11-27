@@ -747,7 +747,7 @@ removed
 at
 once
 using
-removeAllUserFacingLogins
+removeAllLogins
 (
 )
 .
