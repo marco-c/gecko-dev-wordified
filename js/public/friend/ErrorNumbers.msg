@@ -9583,6 +9583,17 @@ with
 }
 "
 )
+MSG_DEF
+(
+JSMSG_ARRAYBUFFER_REQUIRED
+0
+JSEXN_TYPEERR
+"
+ArrayBuffer
+object
+required
+"
+)
 /
 /
 Shared
