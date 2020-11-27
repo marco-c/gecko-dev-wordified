@@ -5401,17 +5401,6 @@ reload_tls_and_pinned_regs
 pos
 )
 ;
-#
-!
-[
-allow
-(
-clippy
-:
-:
-question_mark
-)
-]
 if
 call
 .
