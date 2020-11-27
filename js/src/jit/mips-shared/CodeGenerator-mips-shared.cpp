@@ -12389,7 +12389,7 @@ outOfRange
 ;
 masm
 .
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Assembler
 :
@@ -13063,7 +13063,7 @@ outOfRange
 ;
 masm
 .
-wasmBoundsCheck32
+wasmBoundsCheck
 (
 Assembler
 :

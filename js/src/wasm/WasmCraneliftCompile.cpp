@@ -2029,7 +2029,7 @@ are
 stored
 in
 the
-boundsCheckLimit32
+boundsCheckLimit
 field
 /
 /
@@ -2133,14 +2133,13 @@ static_assert
 offsetof
 (
 TlsData
-boundsCheckLimit32
+boundsCheckLimit
 )
 =
 =
 sizeof
 (
-void
-*
+size_t
 )
 "
 fix
