@@ -18913,6 +18913,18 @@ this
 mState
 )
 ;
+if
+(
+aEvent
+.
+mPanDisplacement
+!
+=
+ScreenPoint
+{
+}
+)
+{
 /
 /
 Call
@@ -18922,7 +18934,7 @@ in
 order
 to
 process
-any
+the
 delta
 included
 in
@@ -18935,6 +18947,7 @@ aEvent
 true
 )
 ;
+}
 EndTouch
 (
 aEvent
