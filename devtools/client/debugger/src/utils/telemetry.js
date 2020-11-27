@@ -349,7 +349,7 @@ telemetry
 ;
 import
 {
-isFirefoxPanel
+isNode
 }
 from
 "
@@ -480,15 +480,9 @@ camelcase
 /
 if
 (
-!
-isFirefoxPanel
+isNode
 (
 )
-&
-&
-window
-.
-dbg
 )
 {
 const
