@@ -7066,7 +7066,6 @@ v_texture
 )
 =
 >
-{
 SwCompositeSource
 :
 :
@@ -7082,7 +7081,6 @@ info
 .
 color_depth
 )
-}
 _
 =
 >
