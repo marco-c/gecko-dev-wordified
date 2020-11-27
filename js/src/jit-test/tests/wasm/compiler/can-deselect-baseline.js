@@ -32,7 +32,7 @@ wasm
 -
 compiler
 =
-ion
+optimizing
 assertEq
 (
 wasmCompileMode

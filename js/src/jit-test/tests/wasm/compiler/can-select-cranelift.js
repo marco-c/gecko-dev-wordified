@@ -11,7 +11,7 @@ wasm
 -
 compiler
 =
-cranelift
+optimizing
 ;
 skip
 -
