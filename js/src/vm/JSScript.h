@@ -11962,11 +11962,6 @@ IMMUTABLE_FLAG_GETTER
 hasMappedArgsObj
 HasMappedArgsObj
 )
-IMMUTABLE_FLAG_GETTER
-(
-isLikelyConstructorWrapper
-IsLikelyConstructorWrapper
-)
 MUTABLE_FLAG_GETTER_SETTER
 (
 hasRunOnce
