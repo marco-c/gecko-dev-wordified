@@ -2142,6 +2142,8 @@ GetModuleHandle
 (
 nullptr
 )
+argc
+argv
 )
 ;
 #
