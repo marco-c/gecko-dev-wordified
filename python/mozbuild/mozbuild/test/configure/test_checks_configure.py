@@ -4623,54 +4623,12 @@ java
 "
 )
         
-jarsigner
-=
-mozpath
-.
-abspath
-(
-"
-/
-usr
-/
-bin
-/
-jarsigner
-"
-)
-        
-keytool
-=
-mozpath
-.
-abspath
-(
-"
-/
-usr
-/
-bin
-/
-keytool
-"
-)
-        
 paths
 =
 {
-            
 java
 :
 None
-            
-jarsigner
-:
-None
-            
-keytool
-:
-None
-        
 }
         
 script
@@ -4787,18 +4745,6 @@ JAVA
 java
                 
 "
-JARSIGNER
-"
-:
-jarsigner
-                
-"
-KEYTOOL
-"
-:
-keytool
-                
-"
 MOZ_JAVA_CODE_COVERAGE
 "
 :
@@ -4833,35 +4779,13 @@ java
 .
 %
 s
-             
-checking
-for
-jarsigner
-.
-.
-.
-%
-s
-             
-checking
-for
-keytool
-.
-.
-.
-%
-s
         
 "
 "
 "
                 
 %
-(
 java
-jarsigner
-keytool
-)
             
 )
         
@@ -4898,42 +4822,6 @@ java
 "
 )
         
-alt_jarsigner
-=
-mozpath
-.
-abspath
-(
-"
-/
-usr
-/
-local
-/
-bin
-/
-jarsigner
-"
-)
-        
-alt_keytool
-=
-mozpath
-.
-abspath
-(
-"
-/
-usr
-/
-local
-/
-bin
-/
-keytool
-"
-)
-        
 alt_java_home
 =
 mozpath
@@ -4952,23 +4840,11 @@ paths
 .
 update
 (
-            
 {
-                
 alt_java
 :
 None
-                
-alt_jarsigner
-:
-None
-                
-alt_keytool
-:
-None
-            
 }
-        
 )
         
 config
@@ -5034,18 +4910,6 @@ JAVA
 alt_java
                 
 "
-JARSIGNER
-"
-:
-alt_jarsigner
-                
-"
-KEYTOOL
-"
-:
-alt_keytool
-                
-"
 MOZ_JAVA_CODE_COVERAGE
 "
 :
@@ -5080,35 +4944,13 @@ java
 .
 %
 s
-             
-checking
-for
-jarsigner
-.
-.
-.
-%
-s
-             
-checking
-for
-keytool
-.
-.
-.
-%
-s
         
 "
 "
 "
                 
 %
-(
 alt_java
-alt_jarsigner
-alt_keytool
-)
             
 )
         
@@ -5221,18 +5063,6 @@ JAVA
 alt_java
                 
 "
-JARSIGNER
-"
-:
-alt_jarsigner
-                
-"
-KEYTOOL
-"
-:
-alt_keytool
-                
-"
 MOZ_JAVA_CODE_COVERAGE
 "
 :
@@ -5267,35 +5097,13 @@ java
 .
 %
 s
-             
-checking
-for
-jarsigner
-.
-.
-.
-%
-s
-             
-checking
-for
-keytool
-.
-.
-.
-%
-s
         
 "
 "
 "
                 
 %
-(
 alt_java
-alt_jarsigner
-alt_keytool
-)
             
 )
         
@@ -5434,18 +5242,6 @@ JAVA
 alt_java
                 
 "
-JARSIGNER
-"
-:
-alt_jarsigner
-                
-"
-KEYTOOL
-"
-:
-alt_keytool
-                
-"
 MOZ_JAVA_CODE_COVERAGE
 "
 :
@@ -5480,35 +5276,13 @@ java
 .
 %
 s
-             
-checking
-for
-jarsigner
-.
-.
-.
-%
-s
-             
-checking
-for
-keytool
-.
-.
-.
-%
-s
         
 "
 "
 "
                 
 %
-(
 alt_java
-alt_jarsigner
-alt_keytool
-)
             
 )
         
@@ -5617,18 +5391,6 @@ JAVA
 java
                 
 "
-JARSIGNER
-"
-:
-jarsigner
-                
-"
-KEYTOOL
-"
-:
-keytool
-                
-"
 MOZ_JAVA_CODE_COVERAGE
 "
 :
@@ -5653,7 +5415,7 @@ run
 del
 paths
 [
-jarsigner
+java
 ]
         
 config
@@ -5700,19 +5462,9 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
-JAVA
-"
-:
-java
-            
 }
-        
 )
         
 self
@@ -5738,15 +5490,6 @@ java
 .
 .
 .
-%
-s
-             
-checking
-for
-jarsigner
-.
-.
-.
 not
 found
              
@@ -5754,7 +5497,7 @@ ERROR
 :
 The
 program
-jarsigner
+java
 was
 not
 found
@@ -5792,11 +5535,6 @@ dir
 "
 "
 "
-                
-%
-(
-java
-)
             
 )
         
