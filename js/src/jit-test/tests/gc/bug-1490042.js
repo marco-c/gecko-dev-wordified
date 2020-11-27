@@ -147,8 +147,7 @@ re
 about
 to
 sweep
-type
-information
+objects
 .
 assertEq
 (
@@ -162,7 +161,7 @@ NotActive
 ;
 gczeal
 (
-20
+21
 )
 ;
 startgc

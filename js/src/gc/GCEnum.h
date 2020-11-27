@@ -368,12 +368,6 @@ YieldBeforeSweepingCaches
 \
 D
 (
-YieldBeforeSweepingTypes
-20
-)
-\
-D
-(
 YieldBeforeSweepingObjects
 21
 )
