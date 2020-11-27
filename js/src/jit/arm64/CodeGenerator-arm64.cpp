@@ -10197,6 +10197,7 @@ type
 Label
 ok
 ;
+{
 ScratchTagScope
 scratch
 (
@@ -10223,6 +10224,7 @@ tag
 )
 )
 ;
+}
 masm
 .
 B
