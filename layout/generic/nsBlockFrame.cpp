@@ -8680,6 +8680,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 ;
 if
@@ -10130,6 +10131,7 @@ reflowInput
 >
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStart
@@ -14533,6 +14535,7 @@ aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BEnd
@@ -17020,6 +17023,7 @@ mReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStart
@@ -56876,6 +56880,7 @@ ri
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStart

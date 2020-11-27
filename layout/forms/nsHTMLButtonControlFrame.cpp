@@ -1350,6 +1350,7 @@ aButtonReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 ;
 LogicalPoint

@@ -1730,6 +1730,15 @@ GetWritingMode
 (
 )
 ;
+const
+auto
+borderPadding
+=
+ComputedLogicalBorderPadding
+(
+wm
+)
+;
 nscoord
 inside
 =
@@ -1738,9 +1747,7 @@ inside
 nscoord
 outside
 =
-ComputedLogicalBorderPadding
-(
-)
+borderPadding
 .
 IStartEnd
 (
@@ -1770,9 +1777,7 @@ Border
 {
 inside
 =
-ComputedLogicalBorderPadding
-(
-)
+borderPadding
 .
 IStartEnd
 (
@@ -1839,6 +1844,7 @@ inside
 =
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStartEnd
@@ -4102,6 +4108,7 @@ ComputedISize
 +
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -5492,6 +5499,7 @@ ComputedBSize
 +
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStartEnd
@@ -8322,6 +8330,7 @@ reflowInput
 >
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStart
@@ -11162,6 +11171,7 @@ aCBReflowInput
 >
 ComputedLogicalBorderPadding
 (
+cbwm
 )
 -
 aCBReflowInput
@@ -12959,6 +12969,7 @@ wm
 )
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 Size
@@ -13105,12 +13116,7 @@ borderPadding
 =
 ComputedLogicalBorderPadding
 (
-)
-.
-ConvertTo
-(
 cbwm
-wm
 )
 ;
 bool
@@ -16133,6 +16139,7 @@ aContainingBlockRI
 >
 ComputedLogicalBorderPadding
 (
+wm
 )
 -
 aContainingBlockRI
@@ -16910,6 +16917,15 @@ SizeTo
 0
 )
 ;
+const
+auto
+borderPadding
+=
+ComputedLogicalBorderPadding
+(
+wm
+)
+;
 ComputedISize
 (
 )
@@ -16918,9 +16934,7 @@ AvailableISize
 (
 )
 -
-ComputedLogicalBorderPadding
-(
-)
+borderPadding
 .
 IStartEnd
 (
@@ -16961,9 +16975,7 @@ AvailableBSize
 (
 )
 -
-ComputedLogicalBorderPadding
-(
-)
+borderPadding
 .
 BStartEnd
 (
@@ -18059,6 +18071,7 @@ ComputedISize
 =
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 IStartEnd
@@ -18916,6 +18929,7 @@ wm
 )
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 Size
@@ -20641,12 +20655,7 @@ borderPadding
 =
 ComputedLogicalBorderPadding
 (
-)
-.
-ConvertTo
-(
 cbWM
-mWritingMode
 )
 ;
 nscoord

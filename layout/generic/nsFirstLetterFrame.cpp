@@ -1061,14 +1061,14 @@ AvailableSize
 )
 ;
 const
-LogicalMargin
-&
+auto
 bp
 =
 aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 ;
 NS_ASSERTION

@@ -613,6 +613,7 @@ aRI
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 .
 BStart

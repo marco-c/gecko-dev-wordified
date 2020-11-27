@@ -6135,14 +6135,14 @@ GetWritingMode
 )
 ;
 const
-LogicalMargin
-&
+auto
 bp
 =
 aReflowInput
 .
 ComputedLogicalBorderPadding
 (
+wm
 )
 ;
 mPadding
