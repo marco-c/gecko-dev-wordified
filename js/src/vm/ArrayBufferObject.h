@@ -344,7 +344,7 @@ CommitBufferMemory
 void
 *
 dataEnd
-uint32_t
+size_t
 delta
 )
 ;
@@ -1819,7 +1819,7 @@ createBufferAndData
 JSContext
 *
 cx
-uint32_t
+BufferSize
 nbytes
 AutoSetNewObjectMetadata
 &
@@ -2331,7 +2331,7 @@ createForContents
 JSContext
 *
 cx
-uint32_t
+BufferSize
 nbytes
 BufferContents
 contents
@@ -2364,7 +2364,7 @@ createZeroed
 JSContext
 *
 cx
-uint32_t
+BufferSize
 nbytes
 HandleObject
 proto
@@ -2380,7 +2380,7 @@ createForTypedObject
 JSContext
 *
 cx
-uint32_t
+BufferSize
 nbytes
 )
 ;
@@ -2472,7 +2472,7 @@ cx
 WasmArrayRawBuffer
 *
 buffer
-uint32_t
+BufferSize
 initialSize
 )
 ;
@@ -3054,7 +3054,7 @@ MOZ_MUST_USE
 bool
 wasmGrowToSizeInPlace
 (
-uint32_t
+BufferSize
 newSize
 Handle
 <
@@ -3078,7 +3078,7 @@ MOZ_MUST_USE
 bool
 wasmMovingGrowToSize
 (
-uint32_t
+BufferSize
 newSize
 Handle
 <
@@ -3147,7 +3147,7 @@ contents
 void
 setByteLength
 (
-uint32_t
+BufferSize
 length
 )
 ;
@@ -3259,7 +3259,7 @@ FOR_ASMJS
 void
 initialize
 (
-size_t
+BufferSize
 byteLength
 BufferContents
 contents
@@ -3304,7 +3304,10 @@ inlineDataPointer
 ;
 initialize
 (
+BufferSize
+(
 byteLength
+)
 BufferContents
 :
 :
@@ -4009,7 +4012,7 @@ including
 the
 header
 page
-uint32_t
+BufferSize
 length_
 ;
 protected
@@ -4031,7 +4034,7 @@ uint64_t
 maxSize
 size_t
 mappedSize
-uint32_t
+BufferSize
 length
 )
 :
@@ -4066,7 +4069,7 @@ WasmArrayRawBuffer
 *
 Allocate
 (
-uint32_t
+BufferSize
 numBytes
 const
 mozilla
@@ -4201,7 +4204,7 @@ return
 maxSize_
 ;
 }
-uint32_t
+BufferSize
 byteLength
 (
 )
@@ -4215,9 +4218,9 @@ MOZ_MUST_USE
 bool
 growToSizeInPlace
 (
-uint32_t
+BufferSize
 oldSize
-uint32_t
+BufferSize
 newSize
 )
 ;
