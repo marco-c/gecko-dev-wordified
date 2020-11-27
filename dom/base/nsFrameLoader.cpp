@@ -145,6 +145,13 @@ checking
 #
 include
 "
+nsFrameLoader
+.
+h
+"
+#
+include
+"
 base
 /
 basictypes
@@ -278,13 +285,6 @@ h
 include
 "
 nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
-nsFrameLoader
 .
 h
 "

@@ -198,6 +198,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h

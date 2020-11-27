@@ -262,14 +262,7 @@ GetParentObject
 (
 )
 const
-{
-return
-ToSupports
-(
-mDocument
-)
 ;
-}
 bool
 IsCurrent
 (

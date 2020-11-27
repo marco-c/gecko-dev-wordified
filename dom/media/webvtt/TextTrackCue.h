@@ -178,17 +178,6 @@ mozilla
 /
 dom
 /
-Document
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLDivElement
 .
 h
@@ -219,6 +208,9 @@ mozilla
 namespace
 dom
 {
+class
+Document
+;
 class
 HTMLTrackElement
 ;

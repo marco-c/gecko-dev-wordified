@@ -183,17 +183,6 @@ h
 #
 include
 "
-mozilla
-/
-extensions
-/
-WebExtensionContentScript
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

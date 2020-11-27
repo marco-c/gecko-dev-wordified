@@ -2227,11 +2227,7 @@ nsAtom
 *
 aName
 )
-{
-return
-nullptr
 ;
-}
 /
 *
 *

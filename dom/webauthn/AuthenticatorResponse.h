@@ -242,11 +242,7 @@ GetParentObject
 (
 )
 const
-{
-return
-mParent
 ;
-}
 void
 GetFormat
 (
