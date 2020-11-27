@@ -239,6 +239,12 @@ AsyncDragMetrics
 class
 QueuedInput
 ;
+enum
+class
+APZHandledResult
+:
+uint8_t
+;
 /
 *
 *
@@ -1103,8 +1109,8 @@ void
 (
 uint64_t
 aInputBlockId
-bool
-aHandledByRootApzc
+APZHandledResult
+aHandledResult
 )
 >
 ;
