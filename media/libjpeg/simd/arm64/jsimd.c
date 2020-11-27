@@ -134,7 +134,7 @@ a
 64
 -
 bit
-ARM
+Arm
 architecture
 .
 *
@@ -759,10 +759,10 @@ environment
 /
 *
 *
-ARMv8
+Armv8
 architectures
 support
-NEON
+Neon
 extensions
 by
 default
@@ -777,7 +777,7 @@ as
 it
 was
 with
-ARMv7
+Armv7
 .
 *
 /

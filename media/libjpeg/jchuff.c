@@ -314,7 +314,7 @@ by
 default
 only
 on
-ARM
+Arm
 processors
 because
 some
@@ -361,7 +361,7 @@ it
 When
 building
 for
-ARMv6
+Armv6
 you
 can
 *

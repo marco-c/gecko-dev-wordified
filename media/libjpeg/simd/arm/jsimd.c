@@ -143,7 +143,7 @@ a
 32
 -
 bit
-ARM
+Arm
 architecture
 .
 *
@@ -754,7 +754,7 @@ a
 chance
 to
 use
-NEON
+Neon
 regardless
 of
 globally

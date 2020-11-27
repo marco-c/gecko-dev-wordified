@@ -31,6 +31,7 @@ C
 -
 2016
 2018
+2020
 D
 .
 R
@@ -4861,7 +4862,7 @@ workspace
 ;
 /
 *
-Slow
+Accurate
 Integer
 Forward
 DCT
@@ -5455,7 +5456,7 @@ output
 ;
 /
 *
-Slow
+Accurate
 Integer
 Inverse
 DCT

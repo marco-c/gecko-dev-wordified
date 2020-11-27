@@ -45,6 +45,7 @@ C
 )
 2011
 2015
+2020
 D
 .
 R
@@ -134,11 +135,11 @@ JSAMPARRAY
 output_buf
 )
 {
-my_upsample_ptr
+my_merged_upsample_ptr
 upsample
 =
 (
-my_upsample_ptr
+my_merged_upsample_ptr
 )
 cinfo
 -
@@ -670,11 +671,11 @@ JSAMPARRAY
 output_buf
 )
 {
-my_upsample_ptr
+my_merged_upsample_ptr
 upsample
 =
 (
-my_upsample_ptr
+my_merged_upsample_ptr
 )
 cinfo
 -

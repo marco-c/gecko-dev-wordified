@@ -16,6 +16,7 @@ C
 )
 2014
 2018
+2020
 D
 .
 R
@@ -263,7 +264,7 @@ distribution
 /
 /
 *
-SLOW
+ACCURATE
 INTEGER
 FORWARD
 DCT

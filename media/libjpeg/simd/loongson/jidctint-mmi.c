@@ -18,6 +18,7 @@ C
 -
 2015
 2018
+2020
 D
 .
 R
@@ -265,7 +266,7 @@ distribution
 /
 /
 *
-SLOW
+ACCUATE
 INTEGER
 INVERSE
 DCT

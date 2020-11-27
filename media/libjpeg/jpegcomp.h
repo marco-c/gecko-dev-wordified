@@ -11,6 +11,7 @@ Copyright
 C
 )
 2010
+2020
 D
 .
 R
@@ -104,6 +105,10 @@ jpeg_width
 define
 _jpeg_height
 jpeg_height
+#
+define
+JERR_ARITH_NOTIMPL
+JERR_NOT_COMPILED
 #
 else
 #

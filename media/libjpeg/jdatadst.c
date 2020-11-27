@@ -957,16 +957,6 @@ dest
 bufsize
 )
 ;
-if
-(
-dest
--
->
-newbuffer
-!
-=
-NULL
-)
 free
 (
 dest

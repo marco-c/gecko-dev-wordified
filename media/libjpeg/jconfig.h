@@ -53,7 +53,7 @@ LIBJPEG_TURBO_VERSION
 .
 0
 .
-4
+6
 /
 *
 libjpeg
@@ -68,7 +68,7 @@ form
 #
 define
 LIBJPEG_TURBO_VERSION_NUMBER
-2000004
+2000006
 /
 *
 Support
