@@ -83,6 +83,9 @@ mod
 error
 ;
 mod
+ffi
+;
+mod
 migration
 ;
 mod
@@ -141,4 +144,11 @@ api
 :
 :
 SYNC_QUOTA_BYTES_PER_ITEM
+;
+pub
+use
+api
+:
+:
+UsageInfo
 ;

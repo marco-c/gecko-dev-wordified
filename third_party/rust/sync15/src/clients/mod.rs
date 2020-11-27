@@ -74,6 +74,12 @@ record
 mod
 ser
 ;
+use
+anyhow
+:
+:
+Result
+;
 pub
 use
 engine
@@ -337,10 +343,6 @@ HashSet
 <
 Command
 >
-failure
-:
-:
-Error
 >
 ;
 /
@@ -446,10 +448,6 @@ Command
 Result
 <
 CommandStatus
-failure
-:
-:
-Error
 >
 ;
 }
