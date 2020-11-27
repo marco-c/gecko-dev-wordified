@@ -10457,12 +10457,11 @@ rval
 .
 set
 (
-TypedArrayObject
-:
-:
+tarray
+-
+>
 bufferValue
 (
-tarray
 )
 )
 ;
