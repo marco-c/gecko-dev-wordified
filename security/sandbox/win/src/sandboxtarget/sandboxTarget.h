@@ -278,6 +278,8 @@ void
 RegisterSandboxStartCallback
 (
 CallbackT
+&
+&
 aCallback
 )
 {
