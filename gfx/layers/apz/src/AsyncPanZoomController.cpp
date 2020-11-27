@@ -10365,6 +10365,12 @@ SnapBackOverscrolledApzc
 this
 )
 ;
+mFlingAccelerator
+.
+Reset
+(
+)
+;
 /
 /
 SnapBackOverscrolledApzc
@@ -13208,6 +13214,12 @@ GetOverscrollHandoffChain
 SnapBackOverscrolledApzc
 (
 this
+)
+;
+mFlingAccelerator
+.
+Reset
+(
 )
 ;
 return
