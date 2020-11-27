@@ -1088,6 +1088,7 @@ resolve
 ;
 return
 uri
+?
 .
 spec
 =
