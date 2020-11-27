@@ -555,9 +555,6 @@ MIRGenerator
 mirGen
 bool
 scriptHasIonScript
-CompilerConstraintList
-*
-constraints
 WarpSnapshot
 *
 snapshot
@@ -566,10 +563,6 @@ snapshot
 mirGen_
 (
 mirGen
-)
-constraints_
-(
-constraints
 )
 snapshot_
 (

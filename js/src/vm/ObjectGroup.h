@@ -241,9 +241,6 @@ class
 AutoSweepObjectGroup
 ;
 class
-CompilerConstraintList
-;
-class
 ObjectGroupRealm
 ;
 class
