@@ -4864,15 +4864,18 @@ assertion_count
 file_result
 .
 extra
-.
-pop
-(
+[
 "
 assertion_count
 "
-)
+]
             
 if
+assertion_count
+is
+not
+None
+and
 assertion_count
 >
 0
