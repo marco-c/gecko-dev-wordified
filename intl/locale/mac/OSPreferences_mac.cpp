@@ -829,7 +829,7 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
@@ -904,7 +904,10 @@ format
 )
 )
 ;
-aRetVal
+nsAutoString
+str
+;
+str
 .
 SetLength
 (
@@ -923,7 +926,7 @@ UniChar
 *
 >
 (
-aRetVal
+str
 .
 BeginWriting
 (
@@ -934,6 +937,13 @@ BeginWriting
 CFRelease
 (
 formatter
+)
+;
+aRetVal
+=
+NS_ConvertUTF16toUTF8
+(
+str
 )
 ;
 return

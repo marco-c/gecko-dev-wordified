@@ -356,7 +356,7 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )

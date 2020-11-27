@@ -576,14 +576,14 @@ bool
 GetPatternForSkeleton
 (
 const
-nsAString
+nsACString
 &
 aSkeleton
 const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
@@ -596,7 +596,7 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
@@ -701,7 +701,7 @@ kMaxCachedPatterns
 nsDataHashtable
 <
 nsCStringHashKey
-nsString
+nsCString
 >
 mPatternCache
 ;
@@ -773,7 +773,7 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
@@ -789,7 +789,7 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
@@ -986,7 +986,7 @@ const
 nsACString
 &
 aLocale
-nsAString
+nsACString
 &
 aRetVal
 )
