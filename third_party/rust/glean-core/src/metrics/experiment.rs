@@ -335,6 +335,23 @@ RecordedExperimentData
 {
 /
 /
+/
+Gets
+the
+recorded
+experiment
+data
+as
+a
+JSON
+value
+.
+/
+/
+/
+/
+/
+/
 For
 JSON
 we
@@ -360,6 +377,7 @@ to
 skip
 /
 /
+/
 extra
 entirely
 .
@@ -377,6 +395,7 @@ for
 this
 /
 /
+/
 since
 that
 would
@@ -389,6 +408,7 @@ doesn
 t
 support
 skipping
+/
 /
 /
 fields
@@ -583,7 +603,7 @@ ExperimentMetric
 /
 /
 /
-Create
+Creates
 a
 new
 experiment
@@ -595,7 +615,6 @@ metric
 /
 /
 /
-#
 #
 Arguments
 /
@@ -832,7 +851,7 @@ new_experiment
 /
 /
 /
-Record
+Records
 an
 experiment
 as
@@ -844,7 +863,6 @@ active
 /
 /
 /
-#
 #
 Arguments
 /
@@ -1007,7 +1025,7 @@ truncated_extras
 =
 extra
 .
-and_then
+map
 (
 |
 extra
@@ -1158,10 +1176,7 @@ truncated_value
 )
 ;
 }
-Some
-(
 temp_map
-)
 }
 )
 ;
@@ -1204,7 +1219,7 @@ value
 /
 /
 /
-Record
+Records
 an
 experiment
 as
@@ -1216,7 +1231,6 @@ inactive
 /
 /
 /
-#
 #
 Arguments
 /
@@ -1336,7 +1350,7 @@ purposes
 /
 /
 /
-Get
+Gets
 the
 currently
 stored

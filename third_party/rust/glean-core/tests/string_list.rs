@@ -940,7 +940,7 @@ meta
 ErrorType
 :
 :
-InvalidValue
+InvalidOverflow
 None
 )
 )
@@ -1035,7 +1035,7 @@ meta
 ErrorType
 :
 :
-InvalidValue
+InvalidOverflow
 None
 )
 )

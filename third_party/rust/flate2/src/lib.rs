@@ -2151,6 +2151,7 @@ like
 "
 .
 pub
+const
 fn
 new
 (
@@ -2189,6 +2190,7 @@ when
 encoding
 .
 pub
+const
 fn
 none
 (
@@ -2214,6 +2216,7 @@ of
 encoding
 .
 pub
+const
 fn
 fast
 (
@@ -2240,6 +2243,7 @@ being
 encoded
 .
 pub
+const
 fn
 best
 (
