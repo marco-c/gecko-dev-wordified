@@ -4393,6 +4393,12 @@ mSandboxScript
 for
 (
 const
+mozilla
+:
+:
+dom
+:
+:
 FakePluginMimeEntry
 &
 mimeEntry
