@@ -878,7 +878,7 @@ WEBRTC_USE_PIPEWIRE
 bool
 allow_pipewire_
 =
-false
+true
 ;
 #
 endif
