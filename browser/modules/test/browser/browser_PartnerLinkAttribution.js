@@ -220,8 +220,7 @@ SearchTestUtils
 .
 init
 (
-Assert
-registerCleanupFunction
+this
 )
 ;
 var
