@@ -1018,11 +1018,9 @@ WrBridge
 )
 -
 >
-GetTextureFactoryIdentifier
+UsingSoftwareWebRender
 (
 )
-.
-mUsingSoftwareWebRender
 )
 {
 name
