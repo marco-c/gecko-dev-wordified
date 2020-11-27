@@ -93,11 +93,6 @@ TestTimeConverter
 .
 cpp
 "
-"
-TestTouchResampler
-.
-cpp
-"
 ]
 FINAL_LIBRARY
 =
