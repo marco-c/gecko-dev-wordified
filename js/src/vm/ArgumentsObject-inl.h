@@ -243,9 +243,6 @@ ArgumentsObject
 :
 setElement
 (
-JSContext
-*
-cx
 uint32_t
 i
 const
@@ -365,17 +362,7 @@ callobj
 .
 setAliasedFormalFromArguments
 (
-cx
 lhs
-r
-.
-front
-(
-)
-.
-propid
-(
-)
 v
 )
 ;

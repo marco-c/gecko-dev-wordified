@@ -2997,13 +2997,6 @@ ObjectOpResult
 result
 )
 {
-MarkTypePropertyNonData
-(
-cx
-obj
-id
-)
-;
 if
 (
 DeletePropertyOp
