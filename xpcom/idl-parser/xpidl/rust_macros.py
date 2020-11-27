@@ -147,6 +147,7 @@ getter
 params
 =
 [
+        
 '
 Param
 {
@@ -166,7 +167,7 @@ s
 '
 %
 x
-              
+        
 for
 x
 in
@@ -178,6 +179,7 @@ iface
 m
 getter
 )
+    
 ]
     
 return
@@ -185,9 +187,9 @@ derive_method_tmpl
 %
 {
         
-'
+"
 name
-'
+"
 :
 rust
 .
@@ -197,30 +199,30 @@ m
 getter
 )
         
-'
+"
 params
-'
+"
 :
-'
-'
+"
+"
 .
 join
 (
 params
 )
         
-'
+"
 ret
-'
+"
 :
-'
+"
 :
 :
 nserror
 :
 :
 nsresult
-'
+"
     
 }
 def
@@ -234,6 +236,7 @@ m
 params
 =
 [
+        
 '
 Param
 {
@@ -253,7 +256,6 @@ s
 '
 %
 x
-              
 for
 x
 in
@@ -264,6 +266,7 @@ methodRawParamList
 iface
 m
 )
+    
 ]
     
 return
@@ -271,9 +274,9 @@ derive_method_tmpl
 %
 {
         
-'
+"
 name
-'
+"
 :
 rust
 .
@@ -282,21 +285,21 @@ methodNativeName
 m
 )
         
-'
+"
 params
-'
+"
 :
-'
-'
+"
+"
 .
 join
 (
 params
 )
         
-'
+"
 ret
-'
+"
 :
 rust
 .
@@ -411,9 +414,9 @@ is
 not
 None
 else
-'
+"
 None
-'
+"
     
 try
 :
@@ -566,29 +569,31 @@ fd
 .
 write
 (
+            
 derive_iface_tmpl
+            
 %
 {
-            
-'
+                
+"
 name
-'
+"
 :
 iface
 .
 name
-            
-'
+                
+"
 base
-'
+"
 :
 base
-            
-'
+                
+"
 methods
-'
+"
 :
-'
+"
 Ok
 (
 &
@@ -599,11 +604,12 @@ n
 s
 ]
 )
-'
+"
 %
 methods
-        
+            
 }
+        
 )
     
 except
@@ -618,27 +624,29 @@ fd
 .
 write
 (
+            
 derive_iface_tmpl
+            
 %
 {
-            
-'
+                
+"
 name
-'
+"
 :
 iface
 .
 name
-            
-'
+                
+"
 base
-'
+"
 :
 base
-            
-'
+                
+"
 methods
-'
+"
 :
 '
 Err
@@ -651,8 +659,9 @@ s
 '
 %
 reason
-        
+            
 }
+        
 )
 header
 =
@@ -710,9 +719,9 @@ write
 header
 %
 {
-'
+"
 relpath
-'
+"
 :
 relpath
 }
@@ -755,9 +764,9 @@ p
 kind
 =
 =
-'
+"
 interface
-'
+"
 :
             
 write_interface

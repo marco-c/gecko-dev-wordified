@@ -1353,6 +1353,7 @@ firefox
 .
 geckodriverPath
 "
+        
 browsertime_options
 [
 "
@@ -1367,6 +1368,7 @@ browsertime
 .
 page_cycles
 "
+        
 "
 1
 "
@@ -1378,6 +1380,7 @@ browsertime
 .
 url
 "
+        
 mock_test
 [
 "
@@ -1392,6 +1395,7 @@ browsertime
 .
 page_cycle_delay
 "
+        
 "
 1000
 "
@@ -1403,6 +1407,7 @@ browsertime
 .
 post_startup_delay
 "
+        
 str
 (
 DEFAULT_TIMEOUT
@@ -1427,6 +1432,7 @@ skipHar
 -
 video
 "
+        
 "
 true
 "
@@ -1436,6 +1442,7 @@ true
 -
 visualMetrics
 "
+        
 "
 false
 "
@@ -1447,6 +1454,7 @@ timeouts
 .
 pageLoad
 "
+        
 str
 (
 DEFAULT_TIMEOUT
@@ -1459,6 +1467,7 @@ timeouts
 .
 script
 "
+        
 str
 (
 DEFAULT_TIMEOUT
@@ -1474,6 +1483,7 @@ resultDir
 -
 n
 "
+        
 "
 1
 "

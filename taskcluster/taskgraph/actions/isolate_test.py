@@ -216,11 +216,11 @@ re
 compile
 (
 r
-'
+"
 Last
 test
 finished
-'
+"
 )
         
 re
@@ -228,9 +228,9 @@ re
 compile
 (
 r
-'
+"
 LeakSanitizer
-'
+"
 )
         
 re
@@ -238,13 +238,13 @@ re
 compile
 (
 r
-'
+"
 Main
 app
 process
 exited
 normally
-'
+"
 )
         
 re
@@ -252,9 +252,9 @@ re
 compile
 (
 r
-'
+"
 ShutdownLeaks
-'
+"
 )
         
 re
@@ -262,7 +262,7 @@ re
 compile
 (
 r
-'
+"
 [
 (
 ]
@@ -274,7 +274,7 @@ js
 [
 )
 ]
-'
+"
 )
         
 re
@@ -282,11 +282,11 @@ re
 compile
 (
 r
-'
+"
 automation
 .
 py
-'
+"
 )
         
 re
@@ -294,7 +294,7 @@ re
 compile
 (
 r
-'
+"
 https
 ?
 :
@@ -320,7 +320,7 @@ d
 .
 ]
 html
-'
+"
 )
         
 re
@@ -328,9 +328,9 @@ re
 compile
 (
 r
-'
+"
 jsreftest
-'
+"
 )
         
 re
@@ -338,9 +338,9 @@ re
 compile
 (
 r
-'
+"
 leakcheck
-'
+"
 )
         
 re
@@ -348,11 +348,11 @@ re
 compile
 (
 r
-'
+"
 mozrunner
 -
 startup
-'
+"
 )
         
 re
@@ -360,10 +360,10 @@ re
 compile
 (
 r
-'
+"
 pid
 :
-'
+"
 )
         
 re
@@ -371,11 +371,11 @@ re
 compile
 (
 r
-'
+"
 remoteautomation
 .
 py
-'
+"
 )
         
 re
@@ -383,11 +383,11 @@ re
 compile
 (
 r
-'
+"
 unknown
 test
 url
-'
+"
 )
     
 ]
@@ -579,6 +579,7 @@ re
 .
 compile
 (
+            
 r
 '
 "
@@ -593,8 +594,8 @@ run_test
 with
 arguments
 '
-                   
-'
+            
+"
 [
 (
 ]
@@ -616,7 +617,8 @@ TestharnessTest
 +
 )
 >
-'
+"
+        
 )
         
 re
@@ -747,9 +749,9 @@ artifacts
 :
         
 if
-'
+"
 name
-'
+"
 not
 in
 artifact
@@ -757,18 +759,18 @@ or
 not
 artifact
 [
-'
+"
 name
-'
+"
 ]
 .
 endswith
 (
-'
+"
 errorsummary
 .
 log
-'
+"
 )
 :
             
@@ -781,9 +783,9 @@ get_artifact
 task_id
 artifact
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -956,10 +958,10 @@ read
 .
 split
 (
-'
+"
 \
 n
-'
+"
 )
 :
             
@@ -1020,17 +1022,17 @@ break
     
 return
 {
-'
+"
 dirs
-'
+"
 :
 sorted
 (
 dirs
 )
-'
+"
 tests
-'
+"
 :
 sorted
 (
@@ -1129,14 +1131,14 @@ task_name
 =
 task_definition
 [
-'
+"
 metadata
-'
+"
 ]
 [
-'
+"
 name
-'
+"
 ]
     
 repeatable_task
@@ -1145,31 +1147,35 @@ False
     
 if
 (
-'
-crashtest
-'
-in
-task_name
-or
-'
-mochitest
-'
-in
-task_name
-or
         
-'
-reftest
-'
+"
+crashtest
+"
 in
 task_name
+        
+or
+"
+mochitest
+"
+in
+task_name
+        
+or
+"
+reftest
+"
+in
+task_name
+        
 and
-'
+"
 jsreftest
-'
+"
 not
 in
 task_name
+    
 )
 :
         
@@ -1181,62 +1187,62 @@ th_dict
 =
 task_definition
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 treeherder
-'
+"
 ]
     
 symbol
 =
 th_dict
 [
-'
+"
 symbol
-'
+"
 ]
     
 is_windows
 =
-'
+"
 windows
-'
+"
 in
 th_dict
 [
-'
+"
 machine
-'
+"
 ]
 [
-'
+"
 platform
-'
+"
 ]
     
 suite
 =
 task_definition
 [
-'
+"
 extra
-'
+"
 ]
 [
-'
+"
 suite
-'
+"
 ]
     
 if
-'
+"
 -
 coverage
-'
+"
 in
 suite
 :
@@ -1250,22 +1256,22 @@ suite
 .
 index
 (
-'
+"
 -
 coverage
-'
+"
 )
 ]
     
 is_wpt
 =
-'
+"
 web
 -
 platform
 -
 tests
-'
+"
 in
 suite
     
@@ -1339,41 +1345,41 @@ deepcopy
 (
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
 )
     
 th_dict
 [
-'
+"
 groupSymbol
-'
+"
 ]
 =
 th_dict
 [
-'
+"
 groupSymbol
-'
+"
 ]
 +
-'
+"
 -
 I
-'
+"
     
 th_dict
 [
-'
+"
 tier
-'
+"
 ]
 =
 3
@@ -1399,14 +1405,14 @@ repeatable_task
         
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 maxRunTime
-'
+"
 ]
 =
 3600
@@ -1438,17 +1444,17 @@ if
 failure_group
 =
 =
-'
+"
 dirs
-'
+"
 :
             
 failure_group_suffix
 =
-'
+"
 -
 id
-'
+"
             
 #
 execute
@@ -1459,13 +1465,13 @@ loops
 repeat_args
 =
 [
-'
+"
 -
 -
 repeat
 =
 4
-'
+"
 ]
 if
 repeatable_task
@@ -1477,17 +1483,17 @@ elif
 failure_group
 =
 =
-'
+"
 tests
-'
+"
 :
             
 failure_group_suffix
 =
-'
+"
 -
 it
-'
+"
             
 #
 execute
@@ -1498,13 +1504,13 @@ loops
 repeat_args
 =
 [
-'
+"
 -
 -
 repeat
 =
 19
-'
+"
 ]
 if
 repeatable_task
@@ -1519,6 +1525,7 @@ logger
 .
 error
 (
+                
 "
 create_isolate_failure_tasks
 :
@@ -1530,9 +1537,11 @@ failure_group
 .
 format
 (
-                
+                    
 failure_group
+                
 )
+            
 )
             
 continue
@@ -1543,23 +1552,24 @@ repeat_args
             
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
 =
 add_args_to_command
 (
+                
 command
-                                                                        
 extra_args
 =
 repeat_args
+            
 )
         
 else
@@ -1567,14 +1577,14 @@ else
             
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
 =
 command
@@ -1654,14 +1664,14 @@ deepcopy
 (
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
 )
         
@@ -1676,9 +1686,9 @@ failure_group
             
 th_dict
 [
-'
+"
 symbol
-'
+"
 ]
 =
 symbol
@@ -1694,10 +1704,10 @@ is_wpt
                 
 failure_path
 =
-'
+"
 \
 \
-'
+"
 .
 join
 (
@@ -1705,9 +1715,9 @@ failure_path
 .
 split
 (
-'
+"
 /
-'
+"
 )
 )
             
@@ -1718,14 +1728,14 @@ is_wpt
 include_args
 =
 [
-'
+"
 -
 -
 include
 =
 {
 }
-'
+"
 .
 format
 (
@@ -1735,24 +1745,24 @@ failure_path
                 
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
 =
 add_args_to_command
 (
                     
 saved_command
-                    
 extra_args
 =
 include_args
+                
 )
             
 else
@@ -1760,26 +1770,27 @@ else
                 
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 env
-'
+"
 ]
 [
-'
+                    
+"
 MOZHARNESS_TEST_PATHS
-'
+"
+                
 ]
 =
 six
 .
 ensure_text
 (
-                    
 json
 .
 dumps
@@ -1801,6 +1812,7 @@ logger
 .
 info
 (
+                
 "
 Creating
 task
@@ -1816,21 +1828,22 @@ command
 .
 format
 (
-                
+                    
 failure_path
-                
 task_definition
 [
-'
+"
 payload
-'
+"
 ]
 [
-'
+"
 command
-'
+"
 ]
+                
 )
+            
 )
             
 for
@@ -1852,29 +1865,29 @@ register_callback_action
     
 name
 =
-'
+"
 isolate
 -
 test
 -
 failures
-'
+"
     
 title
 =
-'
+"
 Isolate
 test
 failures
 in
 job
-'
+"
     
 symbol
 =
-'
+"
 it
-'
+"
     
 description
 =
@@ -1902,82 +1915,80 @@ order
 context
 =
 [
-        
 {
-'
+"
 kind
-'
+"
 :
-'
+"
 test
-'
+"
 }
-    
 ]
     
 schema
 =
 {
         
-'
+"
 type
-'
+"
 :
-'
+"
 object
-'
+"
         
-'
+"
 properties
-'
+"
 :
 {
             
-'
+"
 times
-'
+"
 :
 {
                 
-'
+"
 type
-'
+"
 :
-'
+"
 integer
-'
+"
                 
-'
+"
 default
-'
+"
 :
 1
                 
-'
+"
 minimum
-'
+"
 :
 1
                 
-'
+"
 maximum
-'
+"
 :
 100
                 
-'
+"
 title
-'
+"
 :
-'
+"
 Times
-'
+"
                 
-'
+"
 description
-'
+"
 :
-'
+"
 How
 many
 times
@@ -1986,15 +1997,15 @@ run
 each
 task
 .
-'
+"
             
 }
         
 }
         
-'
+"
 additionalProperties
-'
+"
 :
 False
     
@@ -2027,6 +2038,7 @@ fetch_graph_and_labels
         
 parameters
 graph_config
+    
 )
     
 pre_task
@@ -2037,14 +2049,14 @@ tasks
 [
 task
 [
-'
+"
 metadata
-'
+"
 ]
 [
-'
+"
 name
-'
+"
 ]
 ]
     
@@ -2072,13 +2084,14 @@ decision
 dependencies
 =
 {
+        
 name
 :
 label_to_taskid
 [
 label
 ]
-                    
+        
 for
 name
 label
@@ -2091,12 +2104,14 @@ pre_task
 .
 dependencies
 )
+    
 }
     
 task_definition
 =
 resolve_task_references
 (
+        
 pre_task
 .
 label
@@ -2104,15 +2119,16 @@ pre_task
 .
 task
 dependencies
+    
 )
     
 task_definition
 .
 setdefault
 (
-'
+"
 dependencies
-'
+"
 [
 ]
 )
@@ -2138,33 +2154,32 @@ logger
 .
 info
 (
-'
+"
 isolate_test_failures
 :
 %
 s
-'
+"
 %
 failures
 )
     
 create_isolate_failure_tasks
 (
+        
 task_definition
-                                 
 failures
-                                 
 parameters
 [
-'
+"
 level
-'
+"
 ]
-                                 
 input
 [
-'
+"
 times
-'
+"
 ]
+    
 )

@@ -104,8 +104,8 @@ self
 .
 assertEqual
 (
-'
-'
+"
+"
 parse
 (
 '
@@ -128,10 +128,10 @@ bar
 "
 '
 )
-'
+"
 foo
 bar
-'
+"
 )
         
 self
@@ -147,10 +147,10 @@ bar
 '
 "
 )
-'
+"
 foo
 bar
-'
+"
 )
         
 self
@@ -200,9 +200,9 @@ abc123
 xyz
 "
 )
-'
+"
 xyz
-'
+"
 )
     
 def
@@ -395,9 +395,9 @@ bar
 '
 foo
 =
-'
+"
 bar
-'
+"
 )
 )
         
@@ -492,9 +492,9 @@ bar
 '
 foo
 =
-'
+"
 abc
-'
+"
 )
 )
         
@@ -685,9 +685,9 @@ foo
 )
 '
 )
-'
+"
 foo
-'
+"
 )
         
 self
@@ -1074,6 +1074,7 @@ self
 .
 assertTrue
 (
+            
 parse
 (
 '
@@ -1099,6 +1100,7 @@ match
 !
 '
 )
+        
 )
     
 def
@@ -1941,9 +1943,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

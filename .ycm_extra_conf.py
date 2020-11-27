@@ -100,9 +100,9 @@ dirname
 (
 __file__
 )
-'
+"
 mach
-'
+"
 )
 )
 #
@@ -151,11 +151,11 @@ dirname
 (
 __file__
 )
-'
+"
 mozinfo
 .
 json
-'
+"
 )
 )
 as
@@ -185,13 +185,13 @@ join
 (
 config
 [
-'
+"
 topsrcdir
-'
+"
 ]
-'
+"
 mach
-'
+"
 )
 sys
 .
@@ -211,10 +211,10 @@ filename
 .
 endswith
 (
-'
+"
 .
 h
-'
+"
 )
 :
         
@@ -226,23 +226,23 @@ filename
 .
 endswith
 (
-'
+"
 Inlines
 .
 h
-'
+"
 )
 or
 filename
 .
 endswith
 (
-'
+"
 -
 inl
 .
 h
-'
+"
 )
 :
         
@@ -258,9 +258,9 @@ filename
 1
 ]
 +
-'
+"
 cpp
-'
+"
     
 return
 os
@@ -283,15 +283,15 @@ kwargs
 if
 kwargs
 [
-'
+"
 language
-'
+"
 ]
 =
 =
-'
+"
 cfamily
-'
+"
 :
         
 return
@@ -299,9 +299,9 @@ FlagsForFile
 (
 kwargs
 [
-'
+"
 filename
-'
+"
 ]
 )
     
@@ -344,14 +344,14 @@ is
     
 return
 {
-      
-'
+        
+"
 project_directory
-'
+"
 :
-'
+"
 .
-'
+"
     
 }
 def
@@ -369,9 +369,9 @@ check_output
 (
 [
 path
-'
+"
 compileflags
-'
+"
 filename
 ]
 )
@@ -382,11 +382,11 @@ output
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 flag_list
@@ -467,12 +467,12 @@ x
 .
 startswith
 (
-'
+"
 -
 march
 =
 armv
-'
+"
 )
 ]
     
@@ -500,27 +500,24 @@ c
     
 return
 {
-        
-'
+"
 flags
-'
+"
 :
 final_flags
-        
-'
+"
 do_cache
-'
+"
 :
 True
-    
 }
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 print

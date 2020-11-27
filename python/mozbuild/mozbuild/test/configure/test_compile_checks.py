@@ -148,9 +148,9 @@ a
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 ]
             
@@ -185,9 +185,9 @@ a
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 ]
             
@@ -195,10 +195,10 @@ self
 .
 assertIn
 (
-'
+"
 -
 c
-'
+"
 args
 )
             
@@ -265,7 +265,6 @@ command
 expected_test_content
 =
 None
-                        
 expected_flags
 =
 None
@@ -282,14 +281,14 @@ path
 .
 abspath
 (
-'
+"
 /
 usr
 /
 bin
 /
 mockcc
-'
+"
 )
 :
 self
@@ -304,6 +303,7 @@ expected_test_content
 expected_flags
 =
 expected_flags
+            
 )
         
 }
@@ -317,14 +317,14 @@ path
 join
 (
 topsrcdir
-'
+"
 build
-'
-'
+"
+"
 moz
 .
 configure
-'
+"
 )
         
 mock_compiler_defs
@@ -333,9 +333,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 depends
@@ -664,9 +665,10 @@ C
                 
 )
         
-'
-'
-'
+"
+"
+"
+            
 %
 mozpath
 .
@@ -674,6 +676,7 @@ normsep
 (
 base_dir
 )
+        
 )
         
 config
@@ -696,14 +699,13 @@ config
 {
 }
 [
-'
+"
 /
 bin
 /
 configure
-'
+"
 ]
-                                       
 out
 out
 )
@@ -719,11 +721,11 @@ path
 join
 (
 base_dir
-'
+"
 util
 .
 configure
-'
+"
 )
 )
         
@@ -738,11 +740,11 @@ path
 join
 (
 base_dir
-'
+"
 checks
 .
 configure
-'
+"
 )
 )
         
@@ -763,13 +765,13 @@ path
 join
 (
 base_dir
-'
+"
 compile
 -
 checks
 .
 configure
-'
+"
 )
 )
         
@@ -832,9 +834,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
           
 #
@@ -870,9 +873,10 @@ return
           
 }
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 cmd
@@ -881,9 +885,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 try_compile
@@ -907,9 +912,10 @@ C
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -951,16 +957,16 @@ self
 expected_flags
 =
 [
-'
+"
 -
 -
 extra
-'
-'
+"
+"
 -
 -
 flags
-'
+"
 ]
         
 cmd
@@ -969,9 +975,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 try_compile
@@ -999,9 +1006,10 @@ extra
 ]
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1048,9 +1056,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 have_fn
@@ -1112,9 +1121,10 @@ HAVE_ANOTHERFN
 have_another
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1140,16 +1150,19 @@ self
 .
 assertEqual
 (
-config
-{
             
-'
+config
+            
+{
+                
+"
 HAVE_ANOTHERFN
-'
+"
 :
 True
-        
+            
 }
+        
 )
     
 def
@@ -1165,9 +1178,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 known_flag
@@ -1212,9 +1226,10 @@ HAVE_KNOWN_FLAG
 known_flag
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1242,9 +1257,9 @@ assertEqual
 (
 config
 {
-'
+"
 HAVE_KNOWN_FLAG
-'
+"
 :
 True
 }
@@ -1254,14 +1269,17 @@ self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -1276,10 +1294,12 @@ works
 .
 yes
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
     
 def
@@ -1295,9 +1315,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
           
 #
@@ -1325,9 +1346,10 @@ return
           
 }
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 cmd
@@ -1336,9 +1358,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 check_header
@@ -1350,9 +1373,10 @@ h
 '
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1363,11 +1387,12 @@ self
 .
 do_compile_test
 (
+            
 cmd
-                                                   
 expected_test_content
 =
 expected_test_content
+        
 )
         
 self
@@ -1384,14 +1409,14 @@ assertEqual
 (
 config
 {
-'
+"
 DEFINES
-'
+"
 :
 {
-'
+"
 HAVE_FOO_H
-'
+"
 :
 True
 }
@@ -1402,14 +1427,17 @@ self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -1422,10 +1450,12 @@ h
 .
 yes
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
     
 def
@@ -1441,9 +1471,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 check_headers
@@ -1463,9 +1494,10 @@ when
 never
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1492,8 +1524,8 @@ self
 assertEqual
 (
 out
-'
-'
+"
+"
 )
         
 self
@@ -1502,9 +1534,9 @@ assertEqual
 (
 config
 {
-'
+"
 DEFINES
-'
+"
 :
 {
 }
@@ -1524,9 +1556,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
           
 #
@@ -1570,9 +1603,10 @@ return
           
 }
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 cmd
@@ -1581,9 +1615,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
            
 have_foo
@@ -1619,9 +1654,10 @@ HAVE_FOO_H
 have_foo
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1632,11 +1668,12 @@ self
 .
 do_compile_test
 (
+            
 cmd
-                                                   
 expected_test_content
 =
 expected_test_content
+        
 )
         
 self
@@ -1651,44 +1688,50 @@ self
 .
 assertEqual
 (
+            
 config
-{
             
-'
-HAVE_FOO_H
-'
-:
-True
-            
-'
-DEFINES
-'
-:
 {
                 
-'
+"
 HAVE_FOO_H
-'
+"
 :
 True
+                
+"
+DEFINES
+"
+:
+{
+                    
+"
+HAVE_FOO_H
+"
+:
+True
+                
+}
             
 }
         
-}
 )
         
 self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -1701,10 +1744,12 @@ h
 .
 yes
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
     
 def
@@ -1720,9 +1765,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 baz_bar
@@ -1768,9 +1814,10 @@ HAVE_QUUX_BAR
 quux_bar
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1796,56 +1843,62 @@ self
 .
 assertEqual
 (
+            
 config
-{
             
-'
+{
+                
+"
 HAVE_BAZ_BAR
-'
+"
 :
 True
-            
-'
+                
+"
 HAVE_QUUX_BAR
-'
+"
 :
 True
-            
-'
+                
+"
 DEFINES
-'
+"
 :
 {
-                
-'
+                    
+"
 HAVE_BAZ_FOO_BAR_H
-'
+"
+:
+True
+                    
+"
+HAVE_BAZ_QUUX_FOO_BAR_H
+"
 :
 True
                 
-'
-HAVE_BAZ_QUUX_FOO_BAR_H
-'
-:
-True
+}
             
 }
         
-}
 )
         
 self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -1878,10 +1931,12 @@ h
 .
 yes
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
     
 def
@@ -1897,9 +1952,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 baz_bar
@@ -1956,9 +2012,10 @@ HAVE_QUUX_BAR
 quux_bar
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 config
@@ -1986,9 +2043,9 @@ assertEqual
 (
 config
 {
-'
+"
 DEFINES
-'
+"
 :
 {
 }
@@ -1999,14 +2056,17 @@ self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -2039,10 +2099,12 @@ h
 .
 no
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
 class
 TestWarningChecks
@@ -2063,9 +2125,10 @@ textwrap
 .
 dedent
 (
-'
-'
-'
+            
+"
+"
+"
 \
             
 set_config
@@ -2088,9 +2151,10 @@ warnings_flags
 cxxflags
 )
         
-'
-'
-'
+"
+"
+"
+        
 )
     
 def
@@ -2107,76 +2171,76 @@ in
 (
             
 (
-'
+"
 -
 Wfoo
-'
+"
 [
-'
+"
 -
 Werror
-'
-'
+"
+"
 -
 Wfoo
-'
+"
 ]
 )
             
 (
-'
+"
 -
 Wno
 -
 foo
-'
+"
 [
-'
+"
 -
 Werror
-'
-'
+"
+"
 -
 Wfoo
-'
+"
 ]
 )
             
 (
-'
+"
 -
 Werror
 =
 foo
-'
+"
 [
-'
+"
 -
 Werror
 =
 foo
-'
+"
 ]
 )
             
 (
-'
--
-Wno
--
-error
-=
-foo
-'
-[
-'
+"
 -
 Wno
 -
 error
 =
 foo
-'
+"
+[
+"
+-
+Wno
+-
+error
+=
+foo
+"
 ]
 )
         
@@ -2185,13 +2249,16 @@ foo
             
 cmd
 =
+(
+                
 textwrap
 .
 dedent
 (
-'
-'
-'
+                    
+"
+"
+"
 \
                 
 check_and_add_gcc_warning
@@ -2202,17 +2269,22 @@ s
 '
 )
             
-'
-'
-'
+"
+"
+"
+                    
 %
 flag
+                
 )
+                
 +
 self
 .
 get_warnings
 (
+)
+            
 )
             
 config
@@ -2228,6 +2300,7 @@ cmd
 expected_flags
 =
 expected_flags
+            
 )
             
 self
@@ -2242,40 +2315,46 @@ self
 .
 assertEqual
 (
+                
 config
+                
 {
-                
-'
+                    
+"
 _WARNINGS_CFLAGS
-'
+"
+:
+[
+flag
+]
+                    
+"
+_WARNINGS_CXXFLAGS
+"
 :
 [
 flag
 ]
                 
-'
-_WARNINGS_CXXFLAGS
-'
-:
-[
-flag
-]
-            
 }
+            
 )
             
 self
 .
 assertEqual
 (
+                
 out
+                
 textwrap
 .
 dedent
 (
-'
-'
-'
+                    
+"
+"
+"
 \
                 
 checking
@@ -2308,17 +2387,21 @@ flag
 .
 yes
             
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                        
 flag
 =
 flag
+                    
 )
+                
 )
+            
 )
     
 def
@@ -2330,13 +2413,16 @@ self
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 check_and_add_gcc_warning
@@ -2348,15 +2434,19 @@ Wfoo
 cxx_compiler
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -2382,42 +2472,48 @@ self
 .
 assertEqual
 (
-config
-{
             
-'
+config
+            
+{
+                
+"
 _WARNINGS_CFLAGS
-'
+"
 :
 [
 ]
-            
-'
+                
+"
 _WARNINGS_CXXFLAGS
-'
+"
 :
 [
-'
+"
 -
 Wfoo
-'
+"
 ]
-        
+            
 }
+        
 )
         
 self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -2435,10 +2531,12 @@ Wfoo
 .
 yes
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
     
 def
@@ -2450,13 +2548,16 @@ self
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 depends
@@ -2487,15 +2588,19 @@ when
 never
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -2521,24 +2626,27 @@ self
 .
 assertEqual
 (
+            
 config
+            
 {
-            
-'
+                
+"
 _WARNINGS_CFLAGS
-'
+"
+:
+[
+]
+                
+"
+_WARNINGS_CXXFLAGS
+"
 :
 [
 ]
             
-'
-_WARNINGS_CXXFLAGS
-'
-:
-[
-]
-        
 }
+        
 )
         
 self
@@ -2546,19 +2654,22 @@ self
 assertEqual
 (
 out
-'
-'
+"
+"
 )
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 depends
@@ -2589,15 +2700,19 @@ when
 always
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -2623,42 +2738,48 @@ self
 .
 assertEqual
 (
-config
-{
             
-'
+config
+            
+{
+                
+"
 _WARNINGS_CFLAGS
-'
+"
 :
 [
 ]
-            
-'
+                
+"
 _WARNINGS_CXXFLAGS
-'
+"
 :
 [
-'
+"
 -
 Wfoo
-'
+"
 ]
-        
+            
 }
+        
 )
         
 self
 .
 assertEqual
 (
+            
 out
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 checking
@@ -2676,10 +2797,12 @@ Wfoo
 .
 yes
         
-'
-'
-'
+"
+"
+"
+            
 )
+        
 )
     
 def
@@ -2691,13 +2814,16 @@ self
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 add_gcc_warning
@@ -2708,15 +2834,19 @@ Wfoo
 '
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -2742,32 +2872,35 @@ self
 .
 assertEqual
 (
+            
 config
+            
 {
-            
-'
+                
+"
 _WARNINGS_CFLAGS
-'
+"
 :
 [
-'
+"
 -
 Wfoo
-'
+"
+]
+                
+"
+_WARNINGS_CXXFLAGS
+"
+:
+[
+"
+-
+Wfoo
+"
 ]
             
-'
-_WARNINGS_CXXFLAGS
-'
-:
-[
-'
--
-Wfoo
-'
-]
-        
 }
+        
 )
         
 self
@@ -2775,8 +2908,8 @@ self
 assertEqual
 (
 out
-'
-'
+"
+"
 )
     
 def
@@ -2788,13 +2921,16 @@ self
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 add_gcc_warning
@@ -2806,15 +2942,19 @@ Wfoo
 c_compiler
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -2840,28 +2980,31 @@ self
 .
 assertEqual
 (
-config
-{
             
-'
+config
+            
+{
+                
+"
 _WARNINGS_CFLAGS
-'
+"
 :
 [
-'
+"
 -
 Wfoo
-'
+"
 ]
-            
-'
+                
+"
 _WARNINGS_CXXFLAGS
-'
+"
 :
 [
 ]
-        
+            
 }
+        
 )
         
 self
@@ -2869,8 +3012,8 @@ self
 assertEqual
 (
 out
-'
-'
+"
+"
 )
     
 def
@@ -2882,13 +3025,16 @@ self
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 depends
@@ -2919,15 +3065,19 @@ when
 never
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -2953,24 +3103,27 @@ self
 .
 assertEqual
 (
+            
 config
+            
 {
-            
-'
+                
+"
 _WARNINGS_CFLAGS
-'
+"
+:
+[
+]
+                
+"
+_WARNINGS_CXXFLAGS
+"
 :
 [
 ]
             
-'
-_WARNINGS_CXXFLAGS
-'
-:
-[
-]
-        
 }
+        
 )
         
 self
@@ -2978,19 +3131,22 @@ self
 assertEqual
 (
 out
-'
-'
+"
+"
 )
         
 cmd
 =
+(
+            
 textwrap
 .
 dedent
 (
-'
-'
-'
+                
+"
+"
+"
 \
             
 depends
@@ -3021,15 +3177,19 @@ when
 always
 )
         
-'
-'
-'
+"
+"
+"
+            
 )
+            
 +
 self
 .
 get_warnings
 (
+)
+        
 )
         
 config
@@ -3055,28 +3215,31 @@ self
 .
 assertEqual
 (
-config
-{
             
-'
+config
+            
+{
+                
+"
 _WARNINGS_CFLAGS
-'
+"
 :
 [
-'
+"
 -
 Wfoo
-'
+"
 ]
-            
-'
+                
+"
 _WARNINGS_CXXFLAGS
-'
+"
 :
 [
 ]
-        
+            
 }
+        
 )
         
 self
@@ -3084,16 +3247,16 @@ self
 assertEqual
 (
 out
-'
-'
+"
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

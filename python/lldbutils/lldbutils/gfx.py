@@ -220,10 +220,10 @@ transparent
 if
 value
 &
-0xff000000
+0xFF000000
 !
 =
-0xff000000
+0xFF000000
 :
         
 return
@@ -245,7 +245,7 @@ f
             
 value
 &
-0xff
+0xFF
             
 (
 value
@@ -254,7 +254,7 @@ value
 8
 )
 &
-0xff
+0xFF
             
 (
 value
@@ -263,7 +263,7 @@ value
 16
 )
 &
-0xff
+0xFF
             
 (
 (
@@ -273,7 +273,7 @@ value
 24
 )
 &
-0xff
+0xFF
 )
 /
 255
@@ -297,7 +297,7 @@ color
 (
 value
 &
-0xff
+0xFF
 (
 value
 >
@@ -305,7 +305,7 @@ value
 8
 )
 &
-0xff
+0xFF
 (
 value
 >
@@ -313,7 +313,7 @@ value
 16
 )
 &
-0xff
+0xFF
 )
     
 if
@@ -443,6 +443,8 @@ self
 .
 box_list_base_ptr
 =
+(
+            
 self
 .
 pixman_data
@@ -451,7 +453,6 @@ GetValueAsUnsigned
 (
 0
 )
-\
             
 +
 self
@@ -468,6 +469,8 @@ GetPointeeType
 .
 GetByteSize
 (
+)
+        
 )
     
 def
@@ -643,7 +646,7 @@ CreateValueFromExpression
 (
             
 name
-'
+"
 %
 s
 (
@@ -656,7 +659,7 @@ d
 %
 d
 )
-'
+"
 %
 (
 self
@@ -729,9 +732,9 @@ convert_pixman_box_to_rect
 self
 .
 pixman_extents
-'
+"
 bounds
-'
+"
 )
         
 rect_index
@@ -769,9 +772,9 @@ convert_pixman_box_to_rect
 self
 .
 pixman_extents
-'
+"
 bounds
-'
+"
 )
         
 box_address
@@ -794,8 +797,8 @@ pixman_data
 .
 CreateValueFromAddress
 (
-'
-'
+"
+"
 box_address
 self
 .
@@ -1160,6 +1163,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1175,6 +1179,7 @@ gfx
 .
 summarize_nscolor
 "
+    
 )
     
 debugger
@@ -1202,6 +1207,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1217,12 +1223,14 @@ gfx
 .
 summarize_rect
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1238,6 +1246,7 @@ gfx
 .
 summarize_rect
 "
+    
 )
     
 debugger
@@ -1286,6 +1295,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1301,12 +1311,14 @@ gfx
 .
 summarize_region
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -1322,4 +1334,5 @@ gfx
 .
 summarize_region
 "
+    
 )

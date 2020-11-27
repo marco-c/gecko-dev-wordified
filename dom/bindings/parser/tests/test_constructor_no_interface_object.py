@@ -17,6 +17,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -40,6 +41,7 @@ constructor
 "
 "
 "
+        
 )
         
 results
@@ -82,6 +84,7 @@ parser
 .
 parse
 (
+        
 "
 "
 "
@@ -103,6 +106,7 @@ TestNamedConstructorNoInterfaceObject
 "
 "
 "
+    
 )
     
 #
@@ -130,6 +134,7 @@ parser
 .
 parse
 (
+            
 "
 "
 "
@@ -156,6 +161,7 @@ constructor
 "
 "
 "
+        
 )
         
 results

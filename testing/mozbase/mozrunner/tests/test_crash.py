@@ -80,9 +80,9 @@ mark
 .
 parametrize
 (
-'
+"
 logger
-'
+"
 [
 True
 False
@@ -102,9 +102,9 @@ runner
 app
 =
 =
-'
+"
 chrome
-'
+"
 :
         
 pytest
@@ -134,28 +134,28 @@ None
         
 fn
 =
-'
+"
 check_for_crashes
-'
+"
     
 else
 :
         
 fn
 =
-'
+"
 log_crashes
-'
+"
     
 with
 patch
 (
-'
+"
 mozcrash
 .
 {
 }
-'
+"
 .
 format
 (
@@ -240,9 +240,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

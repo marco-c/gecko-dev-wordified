@@ -257,7 +257,7 @@ cdefgh
 =
 value
 &
-0x3f
+0x3F
     
 return
 (
@@ -291,7 +291,7 @@ cdefgh
 16
 print
 (
-'
+"
 /
 *
 THIS
@@ -312,7 +312,7 @@ py
 .
 *
 /
-'
+"
 )
 for
 i
@@ -325,7 +325,7 @@ range
     
 print
 (
-'
+"
 {
 0x
 %
@@ -338,7 +338,7 @@ d
 0
 }
 }
-'
+"
 %
 (
 encodeDouble
@@ -347,7 +347,7 @@ i
 )
 i
 &
-0xf
+0xF
 i
 >
 >

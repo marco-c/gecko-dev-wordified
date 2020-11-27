@@ -129,7 +129,7 @@ self
 dtds
 =
 [
-'
+"
 chrome
 :
 /
@@ -141,7 +141,7 @@ content
 test_dialog
 .
 dtd
-'
+"
 ]
         
 value
@@ -153,11 +153,11 @@ l10n
 localize_entity
 (
 dtds
-'
+"
 testDialog
 .
 title
-'
+"
 )
         
 self
@@ -165,10 +165,10 @@ self
 assertEqual
 (
 value
-'
+"
 Test
 Dialog
-'
+"
 )
     
 def
@@ -181,7 +181,7 @@ self
 dtds
 =
 [
-'
+"
 chrome
 :
 /
@@ -193,32 +193,33 @@ content
 test_dialog
 .
 dtd
-'
+"
 ]
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
-                          
 self
 .
 l10n
 .
 localize_entity
 dtds
-'
+"
 notExistent
-'
+"
+        
 )
         
 self
 .
 assertRaises
 (
+            
 InvalidArgumentException
-                          
 self
 .
 l10n
@@ -228,17 +229,18 @@ dtds
 [
 0
 ]
-'
+"
 notExistent
-'
+"
+        
 )
         
 self
 .
 assertRaises
 (
+            
 InvalidArgumentException
-                          
 self
 .
 l10n
@@ -246,6 +248,7 @@ l10n
 localize_entity
 dtds
 True
+        
 )
     
 def
@@ -258,7 +261,7 @@ self
 properties
 =
 [
-'
+"
 chrome
 :
 /
@@ -270,7 +273,7 @@ content
 test_dialog
 .
 properties
-'
+"
 ]
         
 value
@@ -282,11 +285,11 @@ l10n
 localize_property
 (
 properties
-'
+"
 testDialog
 .
 title
-'
+"
 )
         
 self
@@ -294,27 +297,31 @@ self
 assertEqual
 (
 value
-'
+"
 Test
 Dialog
-'
+"
 )
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
-                          
+            
 self
 .
 l10n
 .
 localize_property
+            
 properties
-'
+            
+"
 notExistent
-'
+"
+        
 )
     
 def
@@ -327,7 +334,7 @@ self
 properties
 =
 [
-'
+"
 chrome
 :
 /
@@ -339,52 +346,60 @@ locale
 filepicker
 .
 properties
-'
+"
 ]
         
 self
 .
 assertRaises
 (
+            
 NoSuchElementException
-                          
+            
 self
 .
 l10n
 .
 localize_property
+            
 properties
-'
+            
+"
 notExistent
-'
+"
+        
 )
         
 self
 .
 assertRaises
 (
+            
 InvalidArgumentException
-                          
+            
 self
 .
 l10n
 .
 localize_property
+            
 properties
 [
 0
 ]
-'
+            
+"
 notExistent
-'
+"
+        
 )
         
 self
 .
 assertRaises
 (
+            
 InvalidArgumentException
-                          
 self
 .
 l10n
@@ -392,4 +407,5 @@ l10n
 localize_property
 properties
 True
+        
 )

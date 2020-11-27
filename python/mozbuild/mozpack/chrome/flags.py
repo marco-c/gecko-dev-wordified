@@ -86,9 +86,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 for
@@ -134,9 +134,9 @@ false
 0
 "
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -146,9 +146,9 @@ name
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -159,9 +159,9 @@ given
 name
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -183,9 +183,9 @@ definition
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 a
@@ -200,9 +200,9 @@ set
 value
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 definition
@@ -222,7 +222,6 @@ True
 return
         
 assert
-(
 definition
 .
 startswith
@@ -230,7 +229,6 @@ startswith
 self
 .
 name
-)
 )
         
 if
@@ -245,9 +243,9 @@ name
 ]
 !
 =
-'
+"
 =
-'
+"
 :
             
 return
@@ -255,13 +253,13 @@ errors
 .
 fatal
 (
-'
+"
 Malformed
 flag
 :
 %
 s
-'
+"
 %
 definition
 )
@@ -285,24 +283,24 @@ if
 value
 in
 (
-'
+"
 yes
-'
-'
+"
+"
 true
-'
-'
+"
+"
 1
-'
-'
+"
+"
 no
-'
-'
+"
+"
 false
-'
-'
+"
+"
 0
-'
+"
 )
 :
             
@@ -320,14 +318,14 @@ errors
 .
 fatal
 (
-'
+"
 Unknown
 value
 in
 :
 %
 s
-'
+"
 %
 definition
 )
@@ -340,9 +338,9 @@ value
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -363,23 +361,23 @@ for
 comparison
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 value
 in
 (
-'
+"
 yes
-'
-'
+"
+"
 true
-'
-'
+"
+"
 1
-'
+"
 True
 )
 :
@@ -390,15 +388,15 @@ self
 value
 in
 (
-'
+"
 yes
-'
-'
+"
+"
 true
-'
-'
+"
+"
 1
-'
+"
 True
 )
         
@@ -406,15 +404,15 @@ if
 value
 in
 (
-'
+"
 no
-'
-'
+"
+"
 false
-'
-'
+"
+"
 0
-'
+"
 False
 )
 :
@@ -425,15 +423,15 @@ self
 value
 in
 (
-'
+"
 no
-'
-'
+"
+"
 false
-'
-'
+"
+"
 0
-'
+"
 False
 None
 )
@@ -441,13 +439,13 @@ None
 raise
 RuntimeError
 (
-'
+"
 Invalid
 value
 :
 %
 s
-'
+"
 %
 value
 )
@@ -459,9 +457,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Serialize
 the
@@ -482,9 +480,9 @@ add_definition
 call
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 self
@@ -495,8 +493,8 @@ None
 :
             
 return
-'
-'
+"
+"
         
 if
 self
@@ -512,13 +510,13 @@ self
 name
         
 return
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 (
 self
@@ -552,9 +550,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 for
@@ -581,9 +579,9 @@ flag
 string
 "
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -593,9 +591,9 @@ name
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -606,9 +604,9 @@ given
 name
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -631,9 +629,9 @@ definition
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 a
@@ -642,12 +640,11 @@ flag
 definition
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
-(
 definition
 .
 startswith
@@ -655,7 +652,6 @@ startswith
 self
 .
 name
-)
 )
         
 value
@@ -676,9 +672,9 @@ value
 .
 startswith
 (
-'
+"
 =
-'
+"
 )
 :
             
@@ -689,10 +685,10 @@ values
 append
 (
 (
-'
+"
 =
 =
-'
+"
 value
 [
 1
@@ -706,10 +702,10 @@ value
 .
 startswith
 (
-'
+"
 !
 =
-'
+"
 )
 :
             
@@ -720,10 +716,10 @@ values
 append
 (
 (
-'
+"
 !
 =
-'
+"
 value
 [
 2
@@ -740,13 +736,13 @@ errors
 .
 fatal
 (
-'
+"
 Malformed
 flag
 :
 %
 s
-'
+"
 %
 definition
 )
@@ -759,9 +755,9 @@ value
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -888,9 +884,9 @@ qux
 returns
 False
         
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -914,12 +910,12 @@ values
 if
 eval
 (
-'
+"
 value
 %
 s
 val
-'
+"
 %
 comparison
 )
@@ -938,9 +934,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Serialize
 the
@@ -960,9 +956,9 @@ add_definition
 call
 .
         
-'
-'
-'
+"
+"
+"
         
 res
 =
@@ -982,23 +978,23 @@ if
 comparison
 =
 =
-'
+"
 =
 =
-'
+"
 :
                 
 res
 .
 append
 (
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 (
 self
@@ -1015,14 +1011,14 @@ res
 .
 append
 (
-'
+"
 %
 s
 !
 =
 %
 s
-'
+"
 %
 (
 self
@@ -1033,8 +1029,8 @@ val
 )
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -1064,9 +1060,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 for
@@ -1112,9 +1108,9 @@ flag
 version
 "
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1124,9 +1120,9 @@ name
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -1137,9 +1133,9 @@ given
 name
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -1162,9 +1158,9 @@ definition
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 a
@@ -1173,12 +1169,11 @@ flag
 definition
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
-(
 definition
 .
 startswith
@@ -1186,7 +1181,6 @@ startswith
 self
 .
 name
-)
 )
         
 value
@@ -1207,9 +1201,9 @@ value
 .
 startswith
 (
-'
+"
 =
-'
+"
 )
 :
             
@@ -1220,10 +1214,10 @@ values
 append
 (
 (
-'
+"
 =
 =
-'
+"
 LooseVersion
 (
 value
@@ -1249,12 +1243,12 @@ value
 ]
 in
 [
-'
+"
 <
-'
-'
+"
+"
 >
-'
+"
 ]
 :
             
@@ -1265,9 +1259,9 @@ value
 ]
 =
 =
-'
+"
 =
-'
+"
 :
                 
 if
@@ -1284,13 +1278,13 @@ errors
 .
 fatal
 (
-'
+"
 Malformed
 flag
 :
 %
 s
-'
+"
 %
 definition
 )
@@ -1352,13 +1346,13 @@ errors
 .
 fatal
 (
-'
+"
 Malformed
 flag
 :
 %
 s
-'
+"
 %
 definition
 )
@@ -1371,9 +1365,9 @@ value
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -1530,9 +1524,9 @@ matches
 returns
 False
         
-'
-'
-'
+"
+"
+"
         
 value
 =
@@ -1563,12 +1557,12 @@ values
 if
 eval
 (
-'
+"
 value
 %
 s
 val
-'
+"
 %
 comparison
 )
@@ -1587,9 +1581,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Serialize
 the
@@ -1609,9 +1603,9 @@ add_definition
 call
 .
         
-'
-'
-'
+"
+"
+"
         
 res
 =
@@ -1631,23 +1625,23 @@ if
 comparison
 =
 =
-'
+"
 =
 =
-'
+"
 :
                 
 res
 .
 append
 (
-'
+"
 %
 s
 =
 %
 s
-'
+"
 %
 (
 self
@@ -1664,14 +1658,14 @@ res
 .
 append
 (
-'
+"
 %
 s
 %
 s
 %
 s
-'
+"
 %
 (
 self
@@ -1683,8 +1677,8 @@ val
 )
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -1714,9 +1708,9 @@ OrderedDict
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 to
@@ -1735,77 +1729,77 @@ manifest
 entry
 .
     
-'
-'
-'
+"
+"
+"
     
 FLAGS
 =
 {
         
-'
+"
 application
-'
+"
 :
 StringFlag
         
-'
+"
 appversion
-'
+"
 :
 VersionFlag
         
-'
+"
 platformversion
-'
+"
 :
 VersionFlag
         
-'
+"
 contentaccessible
-'
+"
 :
 Flag
         
-'
+"
 os
-'
+"
 :
 StringFlag
         
-'
+"
 osversion
-'
+"
 :
 VersionFlag
         
-'
+"
 abi
-'
+"
 :
 StringFlag
         
-'
+"
 platform
-'
+"
 :
 Flag
         
-'
+"
 xpcnativewrappers
-'
+"
 :
 Flag
         
-'
+"
 tablet
-'
+"
 :
 Flag
         
-'
+"
 process
-'
+"
 :
 StringFlag
     
@@ -1818,7 +1812,7 @@ re
 compile
 (
 r
-'
+"
 (
 [
 !
@@ -1828,7 +1822,7 @@ r
 ]
 +
 )
-'
+"
 )
     
 def
@@ -1840,9 +1834,9 @@ flags
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 a
@@ -1874,9 +1868,9 @@ appversion
 '
 )
         
-'
-'
-'
+"
+"
+"
         
 OrderedDict
 .
@@ -1922,13 +1916,13 @@ errors
 .
 fatal
 (
-'
+"
 Unknown
 flag
 :
 %
 s
-'
+"
 %
 name
 )
@@ -1974,9 +1968,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Serialize
 the
@@ -1985,13 +1979,13 @@ of
 flags
 .
         
-'
-'
-'
+"
+"
+"
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -2018,9 +2012,9 @@ filter
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 whether
@@ -2114,9 +2108,9 @@ appversion
 returns
 False
         
-'
-'
-'
+"
+"
+"
         
 for
 name

@@ -177,7 +177,8 @@ minor
     
 print
 (
-'
+        
+"
 Bootstrap
 currently
 only
@@ -189,9 +190,9 @@ Python
 5
 +
 .
-'
-          
-'
+"
+        
+"
 Please
 try
 re
@@ -203,7 +204,8 @@ python3
 5
 +
 .
-'
+"
+    
 )
     
 sys
@@ -236,9 +238,9 @@ import
 urlopen
 CLONE_MERCURIAL_PULL_FAIL
 =
-'
-'
-'
+"
+"
+"
 Failed
 to
 pull
@@ -316,9 +318,9 @@ Source_Code
 Mercurial
 /
 Bundles
-'
-'
-'
+"
+"
+"
 WINDOWS
 =
 sys
@@ -327,9 +329,9 @@ platform
 .
 startswith
 (
-'
+"
 win32
-'
+"
 )
 or
 sys
@@ -338,29 +340,29 @@ platform
 .
 startswith
 (
-'
+"
 msys
-'
+"
 )
 VCS_HUMAN_READABLE
 =
 {
     
-'
+"
 hg
-'
+"
 :
-'
+"
 Mercurial
-'
+"
     
-'
+"
 git
-'
+"
 :
-'
+"
 Git
-'
+"
 }
 def
 which
@@ -429,20 +431,20 @@ and
 name
 !
 =
-'
+"
 git
 -
 cinnabar
-'
+"
 :
         
 name
 +
 =
-'
+"
 .
 exe
-'
+"
     
 search_dirs
 =
@@ -450,9 +452,9 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 .
 split
@@ -553,7 +555,7 @@ dest
         
 print
 (
-'
+"
 ERROR
 !
 Destination
@@ -566,7 +568,7 @@ not
 a
 directory
 .
-'
+"
 %
 dest
 )
@@ -592,7 +594,7 @@ else
         
 print
 (
-'
+"
 ERROR
 !
 Destination
@@ -604,9 +606,8 @@ but
 is
 nonempty
 .
-'
+"
 %
-              
 dest
 )
         
@@ -622,15 +623,15 @@ no_interactive
     
 repo_name
 =
-'
+"
 mozilla
 -
 unified
-'
+"
     
 print
 (
-'
+"
 Cloning
 into
 %
@@ -641,7 +642,7 @@ s
 .
 .
 .
-'
+"
 %
 (
 repo_name
@@ -669,7 +670,8 @@ dest
 =
 input
 (
-'
+                
+"
 Destination
 directory
 for
@@ -679,9 +681,9 @@ leave
 empty
 to
 use
-'
-                         
-'
+"
+                
+"
 default
 destination
 of
@@ -689,9 +691,10 @@ of
 s
 )
 :
-'
+"
 %
 repo_name
+            
 )
 .
 strip
@@ -795,22 +798,23 @@ as
 well
 .
         
-'
+"
 -
 -
 config
-'
-'
+"
+        
+"
 format
 .
 generaldelta
 =
 true
-'
+"
         
-'
+"
 init
-'
+"
         
 dest
     
@@ -831,7 +835,7 @@ res
         
 print
 (
-'
+"
 unable
 to
 create
@@ -842,7 +846,7 @@ please
 try
 cloning
 manually
-'
+"
 )
         
 return
@@ -896,17 +900,17 @@ path
 join
 (
 dest
-'
+"
 .
 hg
-'
-'
+"
+"
 hgrc
-'
+"
 )
-'
+"
 a
-'
+"
 )
 as
 fh
@@ -916,20 +920,20 @@ fh
 .
 write
 (
-'
+"
 [
 paths
 ]
 \
 n
-'
+"
 )
         
 fh
 .
 write
 (
-'
+"
 default
 =
 https
@@ -947,17 +951,17 @@ mozilla
 unified
 \
 n
-'
+"
 )
         
 fh
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 #
@@ -1012,20 +1016,20 @@ fh
 .
 write
 (
-'
+"
 [
 format
 ]
 \
 n
-'
+"
 )
         
 fh
 .
 write
 (
-'
+"
 #
 This
 is
@@ -1037,20 +1041,20 @@ in
 check
 \
 n
-'
+"
 )
         
 fh
 .
 write
 (
-'
+"
 maxchainlen
 =
 10000
 \
 n
-'
+"
 )
     
 res
@@ -1062,10 +1066,10 @@ call
         
 [
 hg
-'
+"
 pull
-'
-'
+"
+"
 https
 :
 /
@@ -1079,17 +1083,18 @@ org
 mozilla
 -
 unified
-'
+"
 ]
 cwd
 =
 dest
+    
 )
     
 print
 (
-'
-'
+"
+"
 )
     
 if
@@ -1133,16 +1138,16 @@ call
 (
 [
 hg
-'
+"
 update
-'
-'
+"
+"
 -
 r
-'
-'
+"
+"
 central
-'
+"
 ]
 cwd
 =
@@ -1155,7 +1160,8 @@ res
         
 print
 (
-'
+            
+"
 error
 updating
 ;
@@ -1173,13 +1179,14 @@ update
 -
 r
 central
-'
-              
-'
+"
+            
+"
 manually
-'
+"
 %
 dest
+        
 )
     
 return
@@ -1217,11 +1224,11 @@ cinnabar
 =
 which
 (
-'
+"
 git
 -
 cinnabar
-'
+"
 )
         
 if
@@ -1232,7 +1239,8 @@ cinnabar
 cinnabar_url
 =
 (
-'
+                
+"
 https
 :
 /
@@ -1249,13 +1257,13 @@ cinnabar
 /
 archive
 /
-'
-                            
-'
+"
+"
 master
 .
 zip
-'
+"
+            
 )
             
 #
@@ -1336,22 +1344,21 @@ path
 join
 (
 tempdir
-'
+"
 git
 -
 cinnabar
 .
 zip
-'
+"
 )
-                      
 mode
 =
-'
+"
 w
 +
 b
-'
+"
 )
 as
 archive
@@ -1410,13 +1417,13 @@ path
 join
 (
 tempdir
-'
+"
 git
 -
 cinnabar
 -
 master
-'
+"
 )
             
 cinnabar
@@ -1428,11 +1435,11 @@ path
 join
 (
 cinnabar_dir
-'
+"
 git
 -
 cinnabar
-'
+"
 )
             
 #
@@ -1485,13 +1492,13 @@ path
 join
 (
 cinnabar_dir
-'
+"
 git
 -
 remote
 -
 hg
-'
+"
 )
 )
             
@@ -1499,6 +1506,7 @@ os
 .
 chmod
 (
+                
 os
 .
 path
@@ -1506,15 +1514,14 @@ path
 join
 (
 cinnabar_dir
-'
+"
 git
 -
 remote
 -
 hg
-'
+"
 )
-                     
 st
 .
 st_mode
@@ -1522,13 +1529,14 @@ st_mode
 stat
 .
 S_IEXEC
+            
 )
             
 env
 [
-'
+"
 PATH
-'
+"
 ]
 =
 cinnabar_dir
@@ -1539,38 +1547,40 @@ pathsep
 +
 env
 [
-'
+"
 PATH
-'
+"
 ]
             
 subprocess
 .
 check_call
 (
+                
 [
-'
+"
 git
-'
-'
+"
+"
 cinnabar
-'
-'
+"
+"
 download
-'
+"
 ]
-                                  
 cwd
 =
 cinnabar_dir
 env
 =
 env
+            
 )
             
 print
 (
-'
+                
+"
 WARNING
 !
 git
@@ -1581,9 +1591,9 @@ required
 for
 Firefox
 development
-'
-                  
-'
+"
+                
+"
 with
 git
 .
@@ -1594,9 +1604,9 @@ is
 complete
 the
 bootstrapper
-'
-                  
-'
+"
+                
+"
 will
 ask
 if
@@ -1609,9 +1619,9 @@ git
 ;
 answer
 yes
-'
-                  
-'
+"
+                
+"
 and
 be
 sure
@@ -1625,14 +1635,15 @@ your
 PATH
 according
 to
-'
-                  
-'
+"
+                
+"
 the
 bootstrapper
 output
 .
-'
+"
+            
 )
         
 #
@@ -1666,21 +1677,25 @@ check_call
 (
             
 [
+                
 git
-'
+                
+"
 clone
-'
-'
+"
+                
+"
 -
 b
-'
-'
+"
+                
+"
 bookmarks
 /
 central
-'
-             
-'
+"
+                
+"
 hg
 :
 :
@@ -1697,12 +1712,16 @@ org
 mozilla
 -
 unified
-'
+"
+                
 dest
+            
 ]
+            
 env
 =
 env
+        
 )
         
 subprocess
@@ -1711,22 +1730,21 @@ check_call
 (
 [
 git
-'
+"
 config
-'
-'
+"
+"
 fetch
 .
 prune
-'
-'
+"
+"
 true
-'
+"
 ]
 cwd
 =
 dest
-                              
 env
 =
 env
@@ -1738,22 +1756,21 @@ check_call
 (
 [
 git
-'
+"
 config
-'
-'
+"
+"
 pull
 .
 ff
-'
-'
+"
+"
 only
-'
+"
 ]
 cwd
 =
 dest
-                              
 env
 =
 env
@@ -1767,9 +1784,8 @@ path
 .
 join
 (
-            
 dest
-'
+"
 .
 git
 /
@@ -1780,7 +1796,7 @@ fsmonitor
 watchman
 .
 sample
-'
+"
 )
         
 #
@@ -1814,10 +1830,10 @@ watchman_sample
             
 print
 (
-'
+"
 Configuring
 watchman
-'
+"
 )
             
 watchman_config
@@ -1829,7 +1845,7 @@ path
 join
 (
 dest
-'
+"
 .
 git
 /
@@ -1838,7 +1854,7 @@ hooks
 query
 -
 watchman
-'
+"
 )
             
 if
@@ -1855,14 +1871,14 @@ watchman_config
                 
 print
 (
-'
+"
 Copying
 %
 s
 to
 %
 s
-'
+"
 %
 (
 watchman_sample
@@ -1873,10 +1889,12 @@ watchman_config
 copy_args
 =
 [
-'
+                    
+"
 cp
-'
-'
+"
+                    
+"
 .
 git
 /
@@ -1887,9 +1905,9 @@ fsmonitor
 watchman
 .
 sample
-'
-                             
-'
+"
+                    
+"
 .
 git
 /
@@ -1898,7 +1916,8 @@ hooks
 query
 -
 watchman
-'
+"
+                
 ]
                 
 subprocess
@@ -1915,16 +1934,15 @@ config_args
 =
 [
 git
-'
+"
 config
-'
-'
+"
+"
 core
 .
 fsmonitor
-'
-                           
-'
+"
+"
 .
 git
 /
@@ -1933,7 +1951,7 @@ hooks
 query
 -
 watchman
-'
+"
 ]
             
 subprocess
@@ -1962,7 +1980,8 @@ cinnabar
             
 print
 (
-'
+                
+"
 Failed
 to
 install
@@ -1974,9 +1993,9 @@ Try
 performing
 a
 manual
-'
-                  
-'
+"
+                
+"
 installation
 :
 https
@@ -1995,9 +2014,9 @@ cinnabar
 /
 wiki
 /
-'
-                  
-'
+"
+                
+"
 Mozilla
 :
 -
@@ -2012,7 +2031,8 @@ for
 Gecko
 -
 development
-'
+"
+            
 )
         
 if
@@ -2037,9 +2057,9 @@ hg
 =
 which
 (
-'
+"
 hg
-'
+"
 )
     
 if
@@ -2049,7 +2069,8 @@ hg
         
 print
 (
-'
+            
+"
 Mercurial
 is
 not
@@ -2060,35 +2081,35 @@ is
 required
 to
 clone
-'
-              
-'
+"
+            
+"
 Firefox
 %
 s
 .
-'
+"
 %
 (
-                  
-'
+"
 even
 when
 cloning
 with
 Git
-'
+"
 if
 vcs
 =
 =
-'
+"
 git
-'
+"
 else
-'
-'
+"
+"
 )
+        
 )
         
 try
@@ -2176,7 +2197,8 @@ F401
             
 print
 (
-'
+                
+"
 Hint
 :
 have
@@ -2189,15 +2211,16 @@ is
 installed
 to
 a
-'
-                  
-'
+"
+                
+"
 location
 in
 your
 PATH
 ?
-'
+"
+            
 )
         
 except
@@ -2206,7 +2229,7 @@ ImportError
             
 print
 (
-'
+"
 Try
 installing
 hg
@@ -2215,7 +2238,7 @@ pip3
 install
 Mercurial
 .
-'
+"
 )
         
 return
@@ -2225,9 +2248,9 @@ if
 vcs
 =
 =
-'
+"
 hg
-'
+"
 :
         
 binary
@@ -2251,18 +2274,18 @@ binary
             
 print
 (
-'
+"
 Git
 is
 not
 installed
 .
-'
+"
 )
             
 print
 (
-'
+"
 Try
 installing
 git
@@ -2272,7 +2295,7 @@ system
 package
 manager
 .
-'
+"
 )
             
 return
@@ -2296,7 +2319,7 @@ None
     
 print
 (
-'
+"
 Cloning
 Firefox
 %
@@ -2305,14 +2328,13 @@ repository
 to
 %
 s
-'
+"
 %
 (
 VCS_HUMAN_READABLE
 [
 vcs
 ]
-                                                   
 dest
 )
 )
@@ -2321,9 +2343,9 @@ if
 vcs
 =
 =
-'
+"
 hg
-'
+"
 :
         
 return
@@ -2340,9 +2362,9 @@ watchman
 =
 which
 (
-'
+"
 watchman
-'
+"
 )
         
 return
@@ -2375,13 +2397,13 @@ path
 join
 (
 srcdir
-'
+"
 mach
-'
+"
 )
-'
+"
 bootstrap
-'
+"
 ]
     
 if
@@ -2392,13 +2414,13 @@ args
 +
 =
 [
-'
+"
 -
 -
 application
 -
 choice
-'
+"
 application_choice
 ]
     
@@ -2410,13 +2432,13 @@ args
 +
 =
 [
-'
+"
 -
 -
 no
 -
 interactive
-'
+"
 ]
     
 if
@@ -2427,7 +2449,7 @@ args
 +
 =
 [
-'
+"
 -
 -
 no
@@ -2435,19 +2457,19 @@ no
 system
 -
 changes
-'
+"
 ]
     
 print
 (
-'
+"
 Running
 %
 s
-'
+"
 %
-'
-'
+"
+"
 .
 join
 (
@@ -2482,19 +2504,21 @@ parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 application
 -
 choice
-'
+"
+        
 dest
 =
-'
+"
 application_choice
-'
-                      
+"
+        
 help
 =
 '
@@ -2510,8 +2534,8 @@ APPLICATIONS
 "
 in
 '
-                      
-'
+        
+"
 python
 /
 mozboot
@@ -2526,49 +2550,54 @@ instead
 of
 using
 the
-'
-                      
-'
+"
+        
+"
 default
 interactive
 prompt
 .
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 vcs
-'
+"
+        
 dest
 =
-'
+"
 vcs
-'
+"
+        
 default
 =
-'
+"
 hg
-'
+"
+        
 choices
 =
 [
-'
+"
 git
-'
-'
+"
+"
 hg
-'
+"
 ]
-                      
+        
 help
 =
-'
+"
 VCS
 (
 hg
@@ -2582,9 +2611,9 @@ downloading
 the
 source
 code
-'
-                      
-'
+"
+        
+"
 instead
 of
 using
@@ -2593,34 +2622,38 @@ default
 interactive
 prompt
 .
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 no
 -
 interactive
-'
+"
+        
 dest
 =
-'
+"
 no_interactive
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                      
+"
+        
 help
 =
-'
+"
 Answer
 yes
 to
@@ -2633,14 +2666,16 @@ n
 interactive
 prompts
 .
-'
+"
+    
 )
     
 parser
 .
 add_option
 (
-'
+        
+"
 -
 -
 no
@@ -2648,21 +2683,23 @@ no
 system
 -
 changes
-'
+"
+        
 dest
 =
-'
+"
 no_system_changes
-'
+"
+        
 action
 =
-'
+"
 store_true
-'
-                      
+"
+        
 help
 =
-'
+"
 Only
 executes
 actions
@@ -2670,13 +2707,13 @@ that
 leave
 the
 system
-'
-                      
-'
+"
+"
 configuration
 alone
 .
-'
+"
+    
 )
     
 options
@@ -2714,27 +2751,31 @@ return
         
 print
 (
-'
+"
 Clone
 complete
 .
-'
+"
 )
         
 return
 bootstrap
 (
+            
 srcdir
+            
 options
 .
 application_choice
-                         
+            
 options
 .
 no_interactive
+            
 options
 .
 no_system_changes
+        
 )
     
 except
@@ -2743,7 +2784,7 @@ Exception
         
 print
 (
-'
+"
 Could
 not
 bootstrap
@@ -2754,7 +2795,7 @@ filing
 a
 bug
 .
-'
+"
 )
         
 raise
@@ -2762,9 +2803,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

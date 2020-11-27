@@ -207,12 +207,12 @@ self
 .
 assertTrue
 (
+            
 hasattr
 (
 obj
 attr
 )
-                        
 "
 object
 does
@@ -227,6 +227,7 @@ format
 (
 attr
 )
+        
 )
 class
 TestCommand

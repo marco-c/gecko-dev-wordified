@@ -123,12 +123,13 @@ util
 scriptworker
 import
 (
+    
 generate_beetmover_artifact_map
-                                         
+    
 generate_beetmover_upstream_artifacts
-                                         
+    
 get_beetmover_action_scope
-                                         
+    
 get_beetmover_bucket_scope
 )
 from
@@ -158,13 +159,14 @@ schema
 .
 extend
 (
-{
     
+{
+        
 Required
 (
-'
+"
 attributes
-'
+"
 )
 :
 {
@@ -172,74 +174,75 @@ text_type
 :
 object
 }
-    
+        
 Optional
 (
-'
+"
 label
-'
+"
 )
 :
 text_type
-    
+        
 Optional
 (
-'
+"
 treeherder
-'
+"
 )
 :
 task_description_schema
 [
-'
+"
 treeherder
-'
+"
 ]
-    
+        
 Optional
 (
-'
+"
 locale
-'
+"
 )
 :
 text_type
-    
+        
 Optional
 (
-'
+"
 shipping
 -
 phase
-'
+"
 )
 :
 task_description_schema
 [
-'
+"
 shipping
 -
 phase
-'
+"
 ]
-    
+        
 Optional
 (
-'
+"
 shipping
 -
 product
-'
+"
 )
 :
 task_description_schema
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
+    
 }
 )
 transforms
@@ -274,11 +277,11 @@ dep_job
 =
 job
 [
-'
+"
 primary
 -
 dependency
-'
+"
 ]
         
 attributes
@@ -300,18 +303,17 @@ treeherder
 setdefault
 (
             
-'
+"
 symbol
-'
-            
-'
+"
+"
 BMcslang
 (
 N
 {
 }
 )
-'
+"
 .
 format
 (
@@ -319,23 +321,23 @@ attributes
 .
 get
 (
-'
+"
 l10n_chunk
-'
-'
-'
+"
+"
+"
 )
 )
-            
+        
 )
         
 label
 =
 job
 [
-'
+"
 label
-'
+"
 ]
         
 build_platform
@@ -344,9 +346,9 @@ attributes
 .
 get
 (
-'
+"
 build_platform
-'
+"
 )
         
 description
@@ -367,37 +369,37 @@ extra
 }
         
 if
-'
+"
 devedition
-'
+"
 in
 build_platform
 :
             
 extra
 [
-'
+"
 product
-'
+"
 ]
 =
-'
+"
 devedition
-'
+"
         
 else
 :
             
 extra
 [
-'
+"
 product
-'
+"
 ]
 =
-'
+"
 firefox
-'
+"
         
 dependencies
 =
@@ -429,9 +431,9 @@ k
 .
 startswith
 (
-'
+"
 beetmover
-'
+"
 )
 :
                 
@@ -450,9 +452,9 @@ dep_job
 )
         
 if
-'
+"
 chunk_locales
-'
+"
 in
 dep_job
 .
@@ -461,18 +463,18 @@ attributes
             
 attributes
 [
-'
+"
 chunk_locales
-'
+"
 ]
 =
 dep_job
 .
 attributes
 [
-'
+"
 chunk_locales
-'
+"
 ]
         
 attributes
@@ -483,9 +485,9 @@ job
 .
 get
 (
-'
+"
 attributes
-'
+"
 {
 }
 )
@@ -509,56 +511,56 @@ task
 =
 {
             
-'
+"
 label
-'
+"
 :
 label
             
-'
+"
 description
-'
+"
 :
 description
             
-'
+"
 worker
 -
 type
-'
+"
 :
-'
+"
 beetmover
-'
+"
             
-'
+"
 scopes
-'
+"
 :
 [
 bucket_scope
 action_scope
 ]
             
-'
+"
 dependencies
-'
+"
 :
 dependencies
             
-'
+"
 attributes
-'
+"
 :
 attributes
             
-'
+"
 run
 -
 on
 -
 projects
-'
+"
 :
 dep_job
 .
@@ -566,79 +568,79 @@ attributes
 .
 get
 (
-'
+"
 run_on_projects
-'
+"
 )
             
-'
+"
 treeherder
-'
+"
 :
 treeherder
             
-'
+"
 extra
-'
+"
 :
 extra
         
 }
         
 if
-'
+"
 shipping
 -
 phase
-'
+"
 in
 job
 :
             
 task
 [
-'
+"
 shipping
 -
 phase
-'
+"
 ]
 =
 job
 [
-'
+"
 shipping
 -
 phase
-'
+"
 ]
         
 if
-'
+"
 shipping
 -
 product
-'
+"
 in
 job
 :
             
 task
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
 =
 job
 [
-'
+"
 shipping
 -
 product
-'
+"
 ]
         
 yield
@@ -662,7 +664,6 @@ jobs
         
 valid_beetmover_job
 =
-(
 len
 (
 job
@@ -675,7 +676,6 @@ dependencies
 =
 =
 1
-)
         
 if
 not
@@ -768,9 +768,9 @@ beetmover
                 
 refs
 [
-'
+"
 beetmover
-'
+"
 ]
 =
 "
@@ -809,25 +809,26 @@ beetmover
 dependency
 !
 "
+            
 )
         
 worker
 =
 {
             
-'
+"
 implementation
-'
+"
 :
-'
+"
 beetmover
-'
+"
             
-'
+"
 release
 -
 properties
-'
+"
 :
 craft_release_properties
 (
@@ -835,11 +836,11 @@ config
 job
 )
             
-'
+"
 upstream
 -
 artifacts
-'
+"
 :
 generate_beetmover_upstream_artifacts
 (
@@ -851,11 +852,11 @@ locales
             
 )
             
-'
+"
 artifact
 -
 map
-'
+"
 :
 generate_beetmover_artifact_map
 (

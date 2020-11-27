@@ -90,12 +90,14 @@ edge
 servo
 "
 ]
+    
 )
     
 result
 .
 add_argument
 (
+        
 "
 -
 -
@@ -103,15 +105,17 @@ no
 -
 install
 "
+        
 action
 =
 "
 store_true
 "
+        
 default
 =
 False
-                        
+        
 help
 =
 "
@@ -122,6 +126,7 @@ test
 runner
 application
 "
+    
 )
     
 return
@@ -181,7 +186,9 @@ run
 .
 setup_logging
 (
+            
 kwargs
+            
 {
 self
 .
@@ -193,7 +200,7 @@ sys
 .
 stdout
 }
-                                 
+            
 formatter_defaults
 =
 {
@@ -203,6 +210,7 @@ screenshot
 :
 True
 }
+        
 )
     
 def
@@ -435,10 +443,11 @@ manifestupdate
 .
 run
 (
+            
 logger
 =
 logger
-                                  
+            
 src_root
 =
 self
@@ -446,7 +455,7 @@ self
 setup
 .
 topsrcdir
-                                  
+            
 obj_root
 =
 self
@@ -454,8 +463,9 @@ self
 setup
 .
 topobjdir
-                                  
+            
 *
 *
 kwargs
+        
 )

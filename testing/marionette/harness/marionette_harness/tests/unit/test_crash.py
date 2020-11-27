@@ -154,9 +154,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -170,6 +170,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -203,6 +204,7 @@ MOZ_CRASHREPORTER
 "
 "
 "
+            
 )
     
 def
@@ -290,14 +292,14 @@ glob
 .
 glob
 (
-'
+"
 {
 }
 /
 *
 .
 dmp
-'
+"
 .
 format
 (
@@ -453,11 +455,11 @@ self
 .
 skipTest
 (
-'
+"
 Crash
 reporter
 disabled
-'
+"
 )
             
 return
@@ -591,6 +593,7 @@ marionette
 .
 navigate
 (
+                
 "
 about
 :
@@ -611,6 +614,7 @@ else
 content
 "
 )
+            
 )
         
 finally
@@ -646,9 +650,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_AUTOMATION
-'
+"
 )
 :
             
@@ -702,6 +706,7 @@ getvalue
             
 print
 (
+                
 "
 Suppressing
 GECKO
@@ -721,7 +726,7 @@ getvalue
 )
 )
 "
-                  
+                
 "
 to
 the
@@ -731,6 +736,7 @@ this
 test
 .
 "
+            
 )
             
 self
@@ -809,9 +815,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_AUTOMATION
-'
+"
 )
 :
             
@@ -845,7 +851,6 @@ IOError
 Process
 crashed
 "
-                                
 self
 .
 crash
@@ -912,13 +917,15 @@ self
 .
 assertRaisesRegexp
 (
+            
 InvalidSessionIdException
-'
+"
 Please
 start
 a
 session
-'
+"
+        
 )
 :
             
@@ -1044,18 +1051,21 @@ False
             
 Wait
 (
+                
 self
 .
 marionette
+                
 timeout
 =
 self
 .
 socket_timeout
-                 
+                
 ignored_exceptions
 =
 NoSuchWindowException
+            
 )
 .
 until
@@ -1161,13 +1171,15 @@ self
 .
 assertRaisesRegexp
 (
+            
 InvalidSessionIdException
-'
+"
 Please
 start
 a
 session
-'
+"
+        
 )
 :
             
@@ -1280,7 +1292,6 @@ IOError
 Process
 crashed
 "
-                                
 self
 .
 crash
@@ -1396,7 +1407,6 @@ IOError
 Process
 crashed
 "
-                                    
 self
 .
 crash

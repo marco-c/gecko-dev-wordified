@@ -154,6 +154,7 @@ NULL_PARENT_REV
 raise
 Exception
 (
+                
 "
 Encountered
 a
@@ -174,6 +175,7 @@ this
 .
 .
 "
+            
 )
         
 self
@@ -297,14 +299,14 @@ ref
 .
 startswith
 (
-'
+"
 refs
 /
 tags
 /
 mozilla
 -
-'
+"
 )
         
 list
@@ -313,6 +315,7 @@ downstream_git_repo
 .
 references
 )
+    
 )
     
 for
@@ -453,6 +456,7 @@ F
 re
 .
 MULTILINE
+    
 )
     
 for
@@ -620,29 +624,31 @@ subprocess
 .
 check_output
 (
+        
 [
-'
+"
 hg
-'
-'
+"
+"
 log
-'
-'
+"
+"
 -
 r
-'
+"
 revset
-'
+"
 -
 -
 template
-'
-'
+"
+"
 {
 node
 }
-'
+"
 ]
+    
 )
     
 output
@@ -671,31 +677,33 @@ subprocess
 .
 check_output
 (
+        
 [
-'
+"
 hg
-'
-'
+"
+"
 log
-'
-'
+"
+"
 -
 r
-'
+"
 revset
-'
+"
 -
 -
 template
-'
+"
 template
 +
-'
+"
 \
 \
 n
-'
+"
 ]
+    
 )
     
 for
@@ -761,7 +769,7 @@ in
 get_multiple_revs
 (
 query
-'
+"
 {
 node
 }
@@ -771,7 +779,7 @@ p1node
 {
 p2node
 }
-'
+"
 )
 :
         
@@ -1055,9 +1063,9 @@ common_ancestor
 =
 get_single_rev
 (
-'
+"
 .
-'
+"
 )
     
 else
@@ -1067,22 +1075,22 @@ common_ancestor
 =
 get_single_rev
 (
-'
+"
 ancestor
 (
-'
+"
 +
-'
-'
+"
+"
 .
 join
 (
 tails
 )
 +
-'
+"
 )
-'
+"
 )
     
 eprint
@@ -1165,23 +1173,25 @@ new_base
 =
 get_single_rev
 (
-'
+            
+"
 ancestor
 (
-'
+"
 +
 common_ancestor
 +
-'
-'
+"
+"
 +
 git_commit
 .
 hg_rev
 +
-'
+"
 )
-'
+"
+        
 )
         
 if
@@ -1216,17 +1226,20 @@ ancestor
 %
 s
 "
-%
                 
+%
 (
+                    
 git_commit
 .
 commit_obj
 .
 id
+                    
 git_commit
 .
 hg_rev
+                    
 "
 walking
 back
@@ -1235,7 +1248,9 @@ further
 .
 .
 "
+                
 )
+            
 )
             
 continue
@@ -1279,17 +1294,20 @@ ancestor
 %
 s
 "
-%
                 
+%
 (
+                    
 git_commit
 .
 commit_obj
 .
 id
+                    
 git_commit
 .
 hg_rev
+                    
 "
 walking
 back
@@ -1298,7 +1316,9 @@ further
 .
 .
 "
+                
 )
+            
 )
             
 continue
@@ -1326,8 +1346,8 @@ old
 stopping
 walk
 "
-%
             
+%
 (
 git_commit
 .
@@ -1338,6 +1358,7 @@ git_commit
 .
 hg_rev
 )
+        
 )
         
 common_ancestor
@@ -1882,9 +1903,9 @@ strip
 .
 split
 (
-'
+"
 <
-'
+"
 )
     
 if
@@ -1906,9 +1927,9 @@ pieces
 ]
 !
 =
-'
+"
 >
-'
+"
 :
         
 #
@@ -1925,8 +1946,8 @@ pygit2
 Signature
 (
 author
-'
-'
+"
+"
 )
     
 name
@@ -2012,11 +2033,11 @@ relative_path
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
 :
@@ -2078,9 +2099,9 @@ filename
 split
 (
 b
-'
+"
 /
-'
+"
 )
 [
 2
@@ -2118,9 +2139,9 @@ filename
 split
 (
 b
-'
+"
 /
-'
+"
 )
 [
 -
@@ -2311,7 +2332,9 @@ latin
 commit_message
 +
 =
-'
+(
+        
+"
 \
 n
 \
@@ -2338,16 +2361,17 @@ rev
 /
 %
 s
-'
-\
-        
+"
 %
 hg_rev
+        
 +
-'
+"
 \
 n
-'
+"
+    
+)
     
 parents
 =
@@ -2399,12 +2423,12 @@ pygit2
 .
 Signature
 (
-'
+"
 github
 -
 sync
-'
-'
+"
+"
 graphics
 -
 team
@@ -2413,7 +2437,7 @@ mozilla
 staktrace
 .
 com
-'
+"
 )
         
 commit_message
@@ -2596,6 +2620,7 @@ touches_sync_code
             
 eprint
 (
+                
 "
 WARNING
 :
@@ -2615,8 +2640,10 @@ to
 the
 target
 "
+                
 %
 rev
+            
 )
             
 return
@@ -2779,6 +2806,7 @@ s
 rev
 git_parent
 )
+            
 )
             
 return
@@ -2811,6 +2839,7 @@ target
 "
 %
 rev
+        
 )
         
 eprint
@@ -2885,6 +2914,7 @@ merge
     
 eprint
 (
+        
 "
 Building
 git
@@ -2900,12 +2930,14 @@ s
 %
 s
 "
+        
 %
 (
 rev
 git_parent_1
 git_parent_2
 )
+    
 )
     
 commit_obj
@@ -3110,9 +3142,9 @@ getcwd
 )
 NULL_PARENT_REV
 =
-'
+"
 0000000000000000000000000000000000000000
-'
+"
 downstream_git_repo
 =
 pygit2
@@ -3179,17 +3211,17 @@ load_hg_commits
 dict
 (
 )
-'
+"
 only
 (
 .
-'
+"
 +
 base_hg_rev
 +
-'
+"
 )
-'
+"
 )
 eprint
 (
@@ -3244,9 +3276,9 @@ hg_tip
 =
 get_single_rev
 (
-'
+"
 .
-'
+"
 )
 wider_range
 =
@@ -3312,39 +3344,44 @@ check_output
 (
         
 [
-'
+            
+"
 hg
-'
-'
+"
+            
+"
 log
-'
-'
+"
+            
+"
 -
 -
 graph
-'
-         
-'
+"
+            
+"
 -
 r
-'
-'
+"
+            
+"
 descendants
 (
-'
+"
 +
 base_hg_rev
 +
-'
+"
 )
-'
-         
-'
+"
+            
+"
 -
 -
 template
-'
-'
+"
+            
+"
 {
 node
 }
@@ -3356,8 +3393,10 @@ firstline
 \
 \
 n
-'
+"
+        
 ]
+    
 )
     
 for
@@ -3376,14 +3415,14 @@ line
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
-'
+"
+"
 ignore
-'
+"
 )
 )
 #
@@ -3397,9 +3436,9 @@ the
 project
 query
 =
-'
+"
 (
-'
+"
 +
 wider_range
 +
@@ -3428,11 +3467,11 @@ in
 get_multiple_revs
 (
 query
-'
+"
 {
 node
 }
-'
+"
 )
 :
     
@@ -3475,8 +3514,8 @@ the
 target
 code
 "
-%
     
+%
 sum
 (
 [
@@ -3662,9 +3701,11 @@ items
 if
 not
 (
+            
 cset
 .
 touches_sync_code
+            
 or
 len
 (
@@ -3674,10 +3715,12 @@ parents
 )
 >
 1
+            
 or
 rev
 in
 hg_to_git_commit_map
+        
 )
 :
             
@@ -3719,7 +3762,7 @@ downstream_git_repo
 .
 create_reference
 (
-'
+"
 refs
 /
 heads
@@ -3727,7 +3770,7 @@ heads
 github
 -
 sync
-'
+"
 git_tip
 force
 =

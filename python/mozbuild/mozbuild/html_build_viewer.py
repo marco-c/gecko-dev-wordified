@@ -114,12 +114,12 @@ if
 p
 =
 =
-'
+"
 /
 build_resources
 .
 json
-'
+"
 :
             
 self
@@ -133,12 +133,12 @@ self
 .
 send_header
 (
-'
+"
 Content
 -
 Type
-'
-'
+"
+"
 application
 /
 json
@@ -148,7 +148,7 @@ charset
 utf
 -
 8
-'
+"
 )
             
 self
@@ -177,17 +177,17 @@ json
 dumps
 (
 {
-'
+"
 files
-'
+"
 :
 [
-'
+"
 resources
 /
 %
 s
-'
+"
 %
 k
 for
@@ -208,11 +208,11 @@ s
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
             
@@ -223,11 +223,11 @@ p
 .
 startswith
 (
-'
+"
 /
 resources
 /
-'
+"
 )
 :
             
@@ -237,11 +237,11 @@ p
 [
 len
 (
-'
+"
 /
 resources
 /
-'
+"
 )
 :
 ]
@@ -275,12 +275,12 @@ self
 .
 send_header
 (
-'
+"
 Content
 -
 Type
-'
-'
+"
+"
 application
 /
 json
@@ -290,7 +290,7 @@ charset
 utf
 -
 8
-'
+"
 )
             
 self
@@ -319,19 +319,19 @@ if
 p
 =
 =
-'
+"
 /
-'
+"
 :
             
 p
 =
-'
+"
 /
 build_resources
 .
 html
-'
+"
         
 self
 .
@@ -360,10 +360,10 @@ self
 path
 =
 =
-'
+"
 /
 shutdown
-'
+"
 :
             
 self
@@ -514,41 +514,41 @@ send_response
         
 ct
 =
-'
+"
 text
 /
 plain
-'
+"
         
 if
 path
 .
 endswith
 (
-'
+"
 .
 html
-'
+"
 )
 :
             
 ct
 =
-'
+"
 text
 /
 html
-'
+"
         
 self
 .
 send_header
 (
-'
+"
 Content
 -
 Type
-'
+"
 ct
 )
         
@@ -562,9 +562,9 @@ with
 open
 (
 local_path
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -595,9 +595,9 @@ __init__
 self
 address
 =
-'
+"
 localhost
-'
+"
 port
 =
 0
@@ -641,16 +641,16 @@ path
 join
 (
 pkg_dir
-'
+"
 resources
-'
-'
+"
+"
 html
 -
 build
 -
 viewer
-'
+"
 )
         
 assert
@@ -726,7 +726,7 @@ server
 server_address
         
 return
-'
+"
 http
 :
 /
@@ -737,7 +737,7 @@ s
 %
 d
 /
-'
+"
 %
 (
 hostname
@@ -787,9 +787,9 @@ with
 open
 (
 path
-'
+"
 rb
-'
+"
 )
 as
 fh
@@ -854,14 +854,14 @@ status_code
 raise
 Exception
 (
-'
+"
 Non
 -
 200
 HTTP
 response
 code
-'
+"
 )
         
 self

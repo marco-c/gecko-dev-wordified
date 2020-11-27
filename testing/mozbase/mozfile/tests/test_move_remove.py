@@ -484,20 +484,20 @@ f
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
         
 f
 .
 write
 (
-'
+"
 foo
 -
 bar
-'
+"
 )
         
 #
@@ -649,9 +649,9 @@ with
 open
 (
 filepath
-'
+"
 w
-'
+"
 )
 as
 f
@@ -661,11 +661,11 @@ f
 .
 write
 (
-'
+"
 foo
 -
 bar
-'
+"
 )
         
 #
@@ -1125,9 +1125,9 @@ join
 self
 .
 tempdir
-'
+"
 symlink
-'
+"
 )
         
 os
@@ -1293,9 +1293,9 @@ path
 join
 (
 dir_path
-'
+"
 symlink
-'
+"
 )
         
 os
@@ -1392,6 +1392,7 @@ unittest
 .
 skipIf
 (
+        
 mozinfo
 .
 isWin
@@ -1402,7 +1403,7 @@ os
 geteuid
 (
 )
-                     
+        
 "
 Symlinks
 are
@@ -1417,6 +1418,7 @@ test
 as
 root
 "
+    
 )
     
 def
@@ -1454,9 +1456,9 @@ join
 self
 .
 tempdir
-'
+"
 symlink
-'
+"
 )
         
 os
@@ -1548,9 +1550,9 @@ join
 self
 .
 tempdir
-'
+"
 I_do_not_not_exists
-'
+"
 )
         
 try
@@ -1671,10 +1673,10 @@ moved_path
 =
 file_path
 +
-'
+"
 .
 moved
-'
+"
         
 self
 .
@@ -1771,10 +1773,10 @@ moved_path
 =
 file_path
 +
-'
+"
 .
 moved
-'
+"
         
 with
 wait_file_opened_in_thread
@@ -1837,9 +1839,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

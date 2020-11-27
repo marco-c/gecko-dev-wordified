@@ -181,11 +181,11 @@ open
 path
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 fh
@@ -233,8 +233,8 @@ str
 pp_start
 )
 +
-'
-'
+"
+"
 +
 str
 (
@@ -272,11 +272,11 @@ line
 .
 startswith
 (
-'
+"
 /
 /
 line
-'
+"
 )
 :
                 
@@ -326,9 +326,9 @@ prefixes
                 
 src_dir_prefix
 =
-'
+"
 SRCDIR
-'
+"
                 
 parts
 =
@@ -468,21 +468,25 @@ _cmd
 =
 MozbuildObject
 (
+            
 self
 .
 environment
 .
 topsrcdir
+            
 ConfigSettings
 (
 )
-                                   
+            
 log_manager
+            
 self
 .
 environment
 .
 topobjdir
+        
 )
         
 self
@@ -548,7 +552,6 @@ isinstance
 obj
 (
 FinalTargetFiles
-                            
 FinalTargetPreprocessedFiles
 )
 )
@@ -625,10 +628,10 @@ obj_path
 .
 endswith
 (
-'
+"
 .
 in
-'
+"
 )
 :
                     
@@ -658,12 +661,12 @@ exists
 (
 obj_path
 )
-'
+"
 %
 s
 should
 exist
-'
+"
 %
 obj_path
                     
@@ -686,9 +689,12 @@ None
                 
 base
 =
+(
+                    
 obj
 .
 topobjdir
+                    
 if
 f
 .
@@ -700,10 +706,13 @@ obj
 .
 topobjdir
 )
+                    
 else
 obj
 .
 topsrcdir
+                
+)
                 
 self
 .
@@ -712,6 +721,8 @@ _install_mapping
 dest
 ]
 =
+(
+                    
 mozpath
 .
 relpath
@@ -721,7 +732,10 @@ f
 full_path
 base
 )
+                    
 pp_info
+                
+)
     
 def
 consume_finished
@@ -738,20 +752,22 @@ path
 .
 join
 (
+            
 self
 .
 environment
 .
 topobjdir
-'
+"
 _build_manifests
-'
-'
+"
+"
 install
-'
-'
+"
+"
 _tests
-'
+"
+        
 )
         
 install_manifest
@@ -786,9 +802,9 @@ not
 hasattr
 (
 src
-'
+"
 path
-'
+"
 )
 :
                 
@@ -808,10 +824,10 @@ dest
                 
 dest
 =
-'
+"
 _tests
 /
-'
+"
 +
 dest
             
@@ -846,12 +862,12 @@ exists
 (
 obj_path
 )
-'
+"
 %
 s
 should
 exist
-'
+"
 %
 obj_path
                 
@@ -1053,13 +1069,13 @@ self
 environment
 .
 topobjdir
-'
+"
 chrome
 -
 map
 .
 json
-'
+"
 )
         
 with
@@ -1093,8 +1109,9 @@ json
 .
 dump
 (
-[
                 
+[
+                    
 {
 k
 :
@@ -1113,18 +1130,18 @@ iteritems
 chrome_mapping
 )
 }
-                
+                    
 overrides
-                
+                    
 self
 .
 _install_mapping
-                
-{
                     
-'
+{
+                        
+"
 topobjdir
-'
+"
 :
 mozpath
 .
@@ -1136,10 +1153,10 @@ environment
 .
 topobjdir
 )
-                    
-'
+                        
+"
 MOZ_APP_NAME
-'
+"
 :
 self
 .
@@ -1149,14 +1166,14 @@ substs
 .
 get
 (
-'
+"
 MOZ_APP_NAME
-'
+"
 )
-                    
-'
+                        
+"
 OMNIJAR_NAME
-'
+"
 :
 self
 .
@@ -1166,14 +1183,14 @@ substs
 .
 get
 (
-'
+"
 OMNIJAR_NAME
-'
+"
 )
-                    
-'
+                        
+"
 MOZ_MACBUNDLE_NAME
-'
+"
 :
 self
 .
@@ -1183,19 +1200,25 @@ substs
 .
 get
 (
-'
+                            
+"
 MOZ_MACBUNDLE_NAME
-'
+"
+                        
 )
-                
+                    
 }
-            
+                
 ]
+                
 fh
+                
 sort_keys
 =
 True
+                
 indent
 =
 2
+            
 )

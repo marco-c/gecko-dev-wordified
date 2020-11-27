@@ -73,9 +73,9 @@ import
 buildconfig
 TEMPLATE
 =
-'
-'
-'
+"
+"
+"
 /
 /
 This
@@ -457,9 +457,9 @@ Translation
     
 END
 END
-'
-'
-'
+"
+"
+"
 def
 preprocess
 (
@@ -477,9 +477,9 @@ defines
 defines
 marker
 =
-'
+"
 %
-'
+"
 )
     
 pp
@@ -505,9 +505,9 @@ pp
 .
 do_filter
 (
-'
+"
 substitution
-'
+"
 )
     
 pp
@@ -519,14 +519,14 @@ io
 open
 (
 path
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 latin1
-'
+"
 )
 )
     
@@ -574,9 +574,9 @@ line
 .
 split
 (
-'
+"
 #
-'
+"
 1
 )
         
@@ -598,9 +598,9 @@ content
 .
 split
 (
-'
+"
 =
-'
+"
 1
 )
         
@@ -638,11 +638,11 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 buildid
 .
 h
-'
+"
 )
     
 define
@@ -654,16 +654,16 @@ io
 open
 (
 path
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 .
 read
@@ -702,7 +702,7 @@ datetime
 strptime
 (
 buildid
-'
+"
 %
 Y
 %
@@ -715,7 +715,7 @@ H
 M
 %
 S
-'
+"
 )
     
 return
@@ -768,9 +768,9 @@ l
 ]
     
 return
-'
+"
 0
-'
+"
 def
 split_and_normalize_version
 (
@@ -793,16 +793,16 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 ]
 +
 [
-'
+"
 0
-'
+"
 ]
 *
 len
@@ -866,12 +866,12 @@ and
 what
 in
 (
-'
+"
 24
-'
-'
+"
+"
 RT_MANIFEST
-'
+"
 )
 :
             
@@ -885,8 +885,8 @@ generate_module_rc
 (
 binary
 =
-'
-'
+"
+"
 rcinclude
 =
 None
@@ -911,9 +911,9 @@ buildconfig
 .
 substs
 [
-'
+"
 GRE_MILESTONE
-'
+"
 ]
     
 app_version
@@ -924,17 +924,17 @@ substs
 .
 get
 (
-'
+"
 MOZ_APP_VERSION
-'
+"
 )
 or
 milestone
     
 app_winversion
 =
-'
-'
+"
+"
 .
 join
 (
@@ -947,18 +947,19 @@ app_version
     
 milestone_winversion
 =
-'
-'
+"
+"
 .
 join
 (
+        
 split_and_normalize_version
 (
 milestone
 3
 )
+        
 +
-                                    
 [
 str
 (
@@ -968,6 +969,7 @@ buildid
 )
 )
 ]
+    
 )
     
 display_name
@@ -978,12 +980,12 @@ substs
 .
 get
 (
-'
+"
 MOZ_APP_DISPLAYNAME
-'
-'
+"
+"
 Mozilla
-'
+"
 )
     
 milestone_string
@@ -993,9 +995,9 @@ milestone
 flags
 =
 [
-'
+"
 0
-'
+"
 ]
     
 if
@@ -1005,9 +1007,9 @@ substs
 .
 get
 (
-'
+"
 MOZ_DEBUG
-'
+"
 )
 :
         
@@ -1015,17 +1017,17 @@ flags
 .
 append
 (
-'
+"
 VS_FF_DEBUG
-'
+"
 )
         
 milestone_string
 +
 =
-'
+"
 Debug
-'
+"
     
 if
 not
@@ -1035,9 +1037,9 @@ substs
 .
 get
 (
-'
+"
 MOZILLA_OFFICIAL
-'
+"
 )
 :
         
@@ -1045,9 +1047,9 @@ flags
 .
 append
 (
-'
+"
 VS_FF_PRIVATEBUILD
-'
+"
 )
     
 if
@@ -1057,9 +1059,9 @@ substs
 .
 get
 (
-'
+"
 NIGHTLY_BUILD
-'
+"
 )
 :
         
@@ -1067,30 +1069,30 @@ flags
 .
 append
 (
-'
+"
 VS_FF_PRERELEASE
-'
+"
 )
     
 defines
 =
 {
         
-'
+"
 MOZ_APP_DISPLAYNAME
-'
+"
 :
 display_name
         
-'
+"
 MOZ_APP_VERSION
-'
+"
 :
 app_version
         
-'
+"
 MOZ_APP_WINVERSION
-'
+"
 :
 app_winversion
     
@@ -1104,9 +1106,9 @@ path
 .
 relpath
 (
-'
+"
 .
-'
+"
 buildconfig
 .
 topobjdir
@@ -1135,11 +1137,11 @@ path
 join
 (
 srcdir
-'
+"
 module
 .
 ver
-'
+"
 )
     
 if
@@ -1182,7 +1184,7 @@ rcinclude
         
 include
 =
-'
+"
 /
 /
 From
@@ -1194,7 +1196,7 @@ resource
 n
 {
 }
-'
+"
 .
 format
 (
@@ -1209,6 +1211,7 @@ defines
 read
 (
 )
+        
 )
     
 else
@@ -1216,8 +1219,8 @@ else
         
 include
 =
-'
-'
+"
+"
     
 data
 =
@@ -1236,9 +1239,9 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_FILEVERSION
-'
+"
 milestone_winversion
 )
         
@@ -1248,17 +1251,19 @@ overrides
 .
 get
 (
-'
+            
+"
 WIN32_MODULE_PRODUCTVERSION
-'
+"
 milestone_winversion
+        
 )
         
 fileflags
 =
-'
+"
 |
-'
+"
 .
 join
 (
@@ -1271,11 +1276,11 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_COMMENT
-'
-'
-'
+"
+"
+"
 )
         
 copyright
@@ -1284,15 +1289,15 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_COPYRIGHT
-'
-'
+"
+"
 License
 :
 MPL
 2
-'
+"
 )
         
 company
@@ -1301,13 +1306,13 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_COMPANYNAME
-'
-'
+"
+"
 Mozilla
 Foundation
-'
+"
 )
         
 description
@@ -1316,11 +1321,11 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_DESCRIPTION
-'
-'
-'
+"
+"
+"
 )
         
 mfversion
@@ -1329,9 +1334,9 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_FILEVERSION_STRING
-'
+"
 milestone_string
 )
         
@@ -1341,9 +1346,9 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_PRODUCTVERSION_STRING
-'
+"
 milestone_string
 )
         
@@ -1353,11 +1358,11 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_NAME
-'
-'
-'
+"
+"
+"
 )
         
 trademarks
@@ -1366,12 +1371,12 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_TRADEMARKS
-'
-'
+"
+"
 Mozilla
-'
+"
 )
         
 binary
@@ -1380,9 +1385,9 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_ORIGINAL_FILENAME
-'
+"
 binary
 )
         
@@ -1392,9 +1397,9 @@ overrides
 .
 get
 (
-'
+"
 WIN32_MODULE_PRODUCTNAME
-'
+"
 display_name
 )
         
@@ -1406,9 +1411,9 @@ buildid
     
 manifest_id
 =
-'
+"
 2
-'
+"
 if
 binary
 .
@@ -1418,15 +1423,15 @@ lower
 .
 endswith
 (
-'
+"
 .
 dll
-'
+"
 )
 else
-'
+"
 1
-'
+"
     
 if
 binary
@@ -1450,10 +1455,10 @@ join
 srcdir
 binary
 +
-'
+"
 .
 manifest
-'
+"
 )
         
 if
@@ -1473,16 +1478,16 @@ manifest_path
 .
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 \
 \
 \
 \
-'
+"
 )
             
 data
@@ -1513,29 +1518,29 @@ io
 .
 open
 (
-'
+"
 {
 }
 .
 rc
-'
+"
 .
 format
 (
 binary
 or
-'
+"
 module
-'
+"
 )
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 latin1
-'
+"
 )
 as
 fh
@@ -1551,9 +1556,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 generate_module_rc

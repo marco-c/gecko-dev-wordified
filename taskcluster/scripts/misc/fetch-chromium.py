@@ -75,9 +75,9 @@ MPL
 0
 /
 .
-'
-'
-'
+"
+"
+"
 This
 script
 downloads
@@ -114,9 +114,9 @@ a
 REVISION
 file
 .
-'
-'
-'
+"
+"
+"
 from
 __future__
 import
@@ -145,7 +145,7 @@ formatted
 with
 platform
     
-'
+"
 https
 :
 /
@@ -164,9 +164,9 @@ v1
 /
 b
 /
-'
+"
     
-'
+"
 chromium
 -
 browser
@@ -183,7 +183,7 @@ o
 alt
 =
 media
-'
+"
 )
 CHROMIUM_BASE_URL
 =
@@ -200,7 +200,7 @@ revision
 archive
 )
     
-'
+"
 https
 :
 /
@@ -219,9 +219,9 @@ v1
 /
 b
 /
-'
+"
     
-'
+"
 chromium
 -
 browser
@@ -244,43 +244,43 @@ o
 alt
 =
 media
-'
+"
 )
 CHROMIUM_INFO
 =
 {
     
-'
+"
 linux
-'
+"
 :
 {
         
-'
+"
 platform
-'
+"
 :
-'
+"
 Linux_x64
-'
+"
         
-'
+"
 chromium
-'
+"
 :
-'
+"
 chrome
 -
 linux
 .
 zip
-'
+"
         
-'
+"
 result
-'
+"
 :
-'
+"
 chromium
 -
 linux
@@ -288,51 +288,51 @@ linux
 tar
 .
 bz2
-'
+"
         
-'
+"
 chromedriver
-'
+"
 :
-'
+"
 chromedriver_linux64
 .
 zip
-'
+"
     
 }
     
-'
+"
 win32
-'
+"
 :
 {
         
-'
+"
 platform
-'
+"
 :
-'
+"
 Win
-'
+"
         
-'
+"
 chromium
-'
+"
 :
-'
+"
 chrome
 -
 win
 .
 zip
-'
+"
         
-'
+"
 result
-'
+"
 :
-'
+"
 chromium
 -
 win32
@@ -340,51 +340,51 @@ win32
 tar
 .
 bz2
-'
+"
         
-'
+"
 chromedriver
-'
+"
 :
-'
+"
 chromedriver_win32
 .
 zip
-'
+"
     
 }
     
-'
+"
 win64
-'
+"
 :
 {
         
-'
+"
 platform
-'
+"
 :
-'
+"
 Win
-'
+"
         
-'
+"
 chromium
-'
+"
 :
-'
+"
 chrome
 -
 win
 .
 zip
-'
+"
         
-'
+"
 result
-'
+"
 :
-'
+"
 chromium
 -
 win64
@@ -392,51 +392,51 @@ win64
 tar
 .
 bz2
-'
+"
         
-'
+"
 chromedriver
-'
+"
 :
-'
+"
 chromedriver_win32
 .
 zip
-'
+"
     
 }
     
-'
+"
 mac
-'
+"
 :
 {
         
-'
+"
 platform
-'
+"
 :
-'
+"
 Mac
-'
+"
         
-'
+"
 chromium
-'
+"
 :
-'
+"
 chrome
 -
 mac
 .
 zip
-'
+"
         
-'
+"
 result
-'
+"
 :
-'
+"
 chromium
 -
 mac
@@ -444,17 +444,17 @@ mac
 tar
 .
 bz2
-'
+"
         
-'
+"
 chromedriver
-'
+"
 :
-'
+"
 chromedriver_mac64
 .
 zip
-'
+"
     
 }
 }
@@ -467,14 +467,14 @@ msg
     
 print
 (
-'
+"
 build
 -
 chromium
 :
 %
 s
-'
+"
 %
 msg
 )
@@ -486,9 +486,9 @@ filepath
 )
 :
     
-'
-'
-'
+"
+"
+"
 Download
 a
 file
@@ -501,9 +501,9 @@ a
 given
 file
 .
-'
-'
-'
+"
+"
+"
     
 size
 =
@@ -531,9 +531,9 @@ with
 open
 (
 filepath
-'
+"
 wb
-'
+"
 )
 as
 fd
@@ -564,9 +564,9 @@ target
 )
 :
     
-'
-'
-'
+"
+"
+"
 Unzips
 an
 archive
@@ -575,13 +575,13 @@ the
 target
 location
 .
-'
-'
-'
+"
+"
+"
     
 log
 (
-'
+"
 Unpacking
 archive
 at
@@ -592,7 +592,7 @@ to
 :
 %
 s
-'
+"
 %
 (
 zippath
@@ -603,22 +603,22 @@ target
 unzip_command
 =
 [
-'
+"
 unzip
-'
-'
+"
+"
 -
 q
-'
-'
+"
+"
 -
 o
-'
+"
 zippath
-'
+"
 -
 d
-'
+"
 target
 ]
     
@@ -635,9 +635,9 @@ platform
 )
 :
     
-'
-'
-'
+"
+"
+"
 Get
 the
 revision
@@ -647,9 +647,9 @@ latest
 chromium
 build
 .
-'
-'
-'
+"
+"
+"
     
 chromium_platform
 =
@@ -658,9 +658,9 @@ CHROMIUM_INFO
 platform
 ]
 [
-'
+"
 platform
-'
+"
 ]
     
 revision_url
@@ -674,8 +674,7 @@ chromium_platform
     
 log
 (
-        
-'
+"
 Getting
 revision
 number
@@ -688,11 +687,9 @@ build
 .
 .
 .
-'
+"
 %
-        
 chromium_platform
-    
 )
     
 #
@@ -744,11 +741,11 @@ content
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 return
@@ -766,9 +763,9 @@ zippath
 )
 :
     
-'
-'
-'
+"
+"
+"
 Download
 a
 chromium
@@ -781,9 +778,9 @@ or
 the
 latest
 .
-'
-'
-'
+"
+"
+"
     
 if
 not
@@ -804,9 +801,9 @@ CHROMIUM_INFO
 platform
 ]
 [
-'
+"
 platform
-'
+"
 ]
     
 download_url
@@ -817,25 +814,22 @@ format
 (
         
 download_platform
-        
 revision
-        
 CHROMIUM_INFO
 [
 platform
 ]
 [
-'
+"
 chromium
-'
+"
 ]
     
 )
     
 log
 (
-        
-'
+"
 Downloading
 %
 s
@@ -847,14 +841,12 @@ s
 .
 .
 .
-'
+"
 %
-        
 (
 download_platform
 revision
 )
-    
 )
     
 fetch_file
@@ -874,9 +866,9 @@ chromium_dir
 )
 :
     
-'
-'
-'
+"
+"
+"
 Get
 the
 chromedriver
@@ -888,9 +880,9 @@ and
 repackage
 it
 .
-'
-'
-'
+"
+"
+"
     
 download_url
 =
@@ -904,9 +896,9 @@ CHROMIUM_INFO
 platform
 ]
 [
-'
+"
 platform
-'
+"
 ]
         
 revision
@@ -916,9 +908,9 @@ CHROMIUM_INFO
 platform
 ]
 [
-'
+"
 chromedriver
-'
+"
 ]
     
 )
@@ -936,24 +928,24 @@ tempfile
 mkdtemp
 (
 )
-'
+"
 cd
 -
 tmp
 .
 zip
-'
+"
 )
     
 log
 (
-'
+"
 Downloading
 chromedriver
 from
 %
 s
-'
+"
 %
 download_url
 )
@@ -1017,18 +1009,18 @@ if
 filename
 =
 =
-'
+"
 chromedriver
-'
+"
 or
 filename
 =
 =
-'
+"
 chromedriver
 .
 exe
-'
+"
 :
                 
 cd_path
@@ -1063,7 +1055,7 @@ None
 raise
 Exception
 (
-'
+"
 Could
 not
 find
@@ -1072,14 +1064,14 @@ binary
 in
 %
 s
-'
+"
 %
 tmppath
 )
     
 log
 (
-'
+"
 Copying
 chromedriver
 from
@@ -1090,7 +1082,7 @@ to
 :
 %
 s
-'
+"
 %
 (
 cd_path
@@ -1115,9 +1107,9 @@ None
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Download
 and
@@ -1156,9 +1148,9 @@ a
 revision
 .
     
-'
-'
-'
+"
+"
+"
     
 upload_dir
 =
@@ -1168,9 +1160,9 @@ environ
 .
 get
 (
-'
+"
 UPLOAD_DIR
-'
+"
 )
     
 if
@@ -1195,7 +1187,7 @@ try
             
 log
 (
-'
+"
 Creating
 upload
 directory
@@ -1205,7 +1197,7 @@ s
 .
 .
 .
-'
+"
 %
 os
 .
@@ -1269,13 +1261,13 @@ path
 join
 (
 tmppath
-'
+"
 tmp
 -
 chromium
 .
 zip
-'
+"
 )
     
 revision
@@ -1314,6 +1306,7 @@ dirs
 [
         
 d
+        
 for
 d
 in
@@ -1346,10 +1339,10 @@ d
 .
 startswith
 (
-'
+"
 chrome
 -
-'
+"
 )
     
 ]
@@ -1367,7 +1360,7 @@ raise
 Exception
 (
             
-'
+"
 Too
 many
 directories
@@ -1378,7 +1371,7 @@ chrome
 after
 extracting
 .
-'
+"
         
 )
     
@@ -1396,7 +1389,7 @@ raise
 Exception
 (
             
-'
+"
 Could
 not
 find
@@ -1408,7 +1401,7 @@ of
 chromium
 zip
 .
-'
+"
         
 )
     
@@ -1436,20 +1429,20 @@ path
 join
 (
 chromium_dir
-'
+"
 .
 REVISION
-'
+"
 )
     
 with
 open
 (
 revision_file
-'
+"
 w
 +
-'
+"
 )
 as
 f
@@ -1486,25 +1479,25 @@ CHROMIUM_INFO
 platform
 ]
 [
-'
+"
 result
-'
+"
 ]
     
 tar_command
 =
 [
-'
+"
 tar
-'
-'
+"
+"
 cjf
-'
+"
 tar_file
-'
+"
 -
 C
-'
+"
 tmppath
 dirs
 [
@@ -1514,7 +1507,7 @@ dirs
     
 log
 (
-'
+"
 Added
 revision
 to
@@ -1522,14 +1515,14 @@ to
 s
 file
 .
-'
+"
 %
 revision_file
 )
     
 log
 (
-'
+"
 Tarring
 with
 the
@@ -1537,7 +1530,7 @@ command
 :
 %
 s
-'
+"
 %
 str
 (
@@ -1560,9 +1553,9 @@ environ
 .
 get
 (
-'
+"
 UPLOAD_DIR
-'
+"
 )
     
 if
@@ -1583,7 +1576,7 @@ upload
         
 log
 (
-'
+"
 Moving
 %
 s
@@ -1594,7 +1587,7 @@ directory
 .
 .
 .
-'
+"
 %
 tar_file
 )
@@ -1627,9 +1620,9 @@ parse_args
 )
 :
     
-'
-'
-'
+"
+"
+"
 Read
 command
 line
@@ -1638,9 +1631,9 @@ and
 return
 options
 .
-'
-'
-'
+"
+"
+"
     
 parser
 =
@@ -1655,15 +1648,14 @@ parser
 add_argument
 (
         
-'
+"
 -
 -
 platform
-'
-        
+"
 help
 =
-'
+"
 Platform
 version
 of
@@ -1671,8 +1663,7 @@ chromium
 to
 build
 .
-'
-        
+"
 required
 =
 True
@@ -1684,15 +1675,15 @@ parser
 add_argument
 (
         
-'
+"
 -
 -
 revision
-'
+"
         
 help
 =
-'
+"
 Revision
 of
 chromium
@@ -1701,9 +1692,9 @@ build
 to
 get
 .
-'
-             
-'
+"
+        
+"
 (
 Defaults
 to
@@ -1713,7 +1704,7 @@ chromium
 build
 )
 .
-'
+"
         
 default
 =
@@ -1731,9 +1722,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 args

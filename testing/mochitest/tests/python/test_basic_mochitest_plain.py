@@ -114,9 +114,9 @@ get_mozharness_status
 partial
 (
 get_mozharness_status
-'
+"
 mochitest
-'
+"
 )
 def
 test_output_pass
@@ -130,11 +130,11 @@ lines
 =
 runtests
 (
-'
+"
 test_pass
 .
 html
-'
+"
 )
     
 assert
@@ -171,9 +171,9 @@ lines
 =
 filter_action
 (
-'
+"
 test_status
-'
+"
 lines
 )
     
@@ -192,15 +192,15 @@ lines
 0
 ]
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 PASS
-'
+"
 def
 test_output_fail
 (
@@ -213,11 +213,11 @@ lines
 =
 runtests
 (
-'
+"
 test_fail
 .
 html
-'
+"
 )
     
 assert
@@ -252,9 +252,9 @@ lines
 =
 filter_action
 (
-'
+"
 test_status
-'
+"
 lines
 )
     
@@ -273,15 +273,15 @@ lines
 0
 ]
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 FAIL
-'
+"
 pytest
 .
 mark
@@ -305,11 +305,12 @@ lines
 =
 runtests
 (
-'
+        
+"
 test_crash
 .
 html
-'
+"
 environment
 =
 [
@@ -319,6 +320,7 @@ MOZ_CRASHREPORTER_SHUTDOWN
 1
 "
 ]
+    
 )
     
 assert
@@ -353,9 +355,9 @@ crash
 =
 filter_action
 (
-'
+"
 crash
-'
+"
 lines
 )
     
@@ -374,15 +376,15 @@ crash
 0
 ]
 [
-'
+"
 action
-'
+"
 ]
 =
 =
-'
+"
 crash
-'
+"
     
 assert
 crash
@@ -390,9 +392,9 @@ crash
 0
 ]
 [
-'
+"
 signature
-'
+"
 ]
     
 assert
@@ -401,18 +403,18 @@ crash
 0
 ]
 [
-'
+"
 minidump_path
-'
+"
 ]
     
 lines
 =
 filter_action
 (
-'
+"
 test_end
-'
+"
 lines
 )
     
@@ -447,11 +449,12 @@ lines
 =
 runtests
 (
-'
+        
+"
 test_crash
 .
 html
-'
+"
 environment
 =
 [
@@ -461,6 +464,7 @@ MOZ_CRASHREPORTER_SHUTDOWN
 1
 "
 ]
+    
 )
     
 assert
@@ -495,9 +499,9 @@ crash
 =
 filter_action
 (
-'
+"
 crash
-'
+"
 lines
 )
     
@@ -514,26 +518,26 @@ process_output
 =
 filter_action
 (
-'
+"
 process_output
-'
+"
 lines
 )
     
 assert
 any
 (
-'
+"
 ERROR
 :
 AddressSanitizer
-'
+"
 in
 l
 [
-'
+"
 data
-'
+"
 ]
 for
 l
@@ -563,11 +567,11 @@ lines
 =
 runtests
 (
-'
+"
 test_assertion
 .
 html
-'
+"
 )
     
 #
@@ -613,9 +617,9 @@ test_end
 =
 filter_action
 (
-'
+"
 test_end
-'
+"
 lines
 )
     
@@ -659,23 +663,23 @@ test_end
 0
 ]
 [
-'
+"
 status
-'
+"
 ]
 =
 =
-'
+"
 OK
-'
+"
     
 assertions
 =
 filter_action
 (
-'
+"
 assertion_count
-'
+"
 lines
 )
     
@@ -694,9 +698,9 @@ assertions
 0
 ]
 [
-'
+"
 count
-'
+"
 ]
 =
 =
@@ -724,11 +728,11 @@ lines
 =
 runtests
 (
-'
+"
 test_leak
 .
 html
-'
+"
 )
     
 #
@@ -774,9 +778,9 @@ leak_totals
 =
 filter_action
 (
-'
+"
 mozleak_total
-'
+"
 lines
 )
     
@@ -793,9 +797,9 @@ leak_totals
 if
 lt
 [
-'
+"
 bytes
-'
+"
 ]
 =
 =
@@ -815,9 +819,9 @@ len
 (
 lt
 [
-'
+"
 objects
-'
+"
 ]
 )
 =
@@ -845,9 +849,9 @@ True
 assert
 lt
 [
-'
+"
 process
-'
+"
 ]
 =
 =
@@ -858,9 +862,9 @@ tab
 assert
 lt
 [
-'
+"
 bytes
-'
+"
 ]
 =
 =
@@ -869,16 +873,16 @@ bytes
 assert
 lt
 [
-'
+"
 objects
-'
+"
 ]
 =
 =
 [
-'
+"
 IntentionallyLeakedObject
-'
+"
 ]
     
 assert
@@ -896,9 +900,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

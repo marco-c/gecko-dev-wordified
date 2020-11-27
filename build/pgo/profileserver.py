@@ -116,20 +116,20 @@ PATH_MAPPINGS
 =
 {
     
-'
+"
 /
 webkit
 /
 PerformanceTests
-'
+"
 :
-'
+"
 third_party
 /
 webkit
 /
 PerformanceTests
-'
+"
     
 #
 It
@@ -180,18 +180,18 @@ in
 .
 .
     
-'
+"
 /
 talos
-'
+"
 :
-'
+"
 testing
 /
 talos
 /
 talos
-'
+"
 }
 def
 get_crashreports
@@ -215,9 +215,9 @@ environ
 .
 get
 (
-'
+"
 UPLOAD_PATH
-'
+"
 )
     
 if
@@ -252,9 +252,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 )
         
 if
@@ -265,6 +265,7 @@ fetches_dir
 raise
 Exception
 (
+                
 "
 Unable
 to
@@ -274,7 +275,7 @@ in
 automation
 because
 "
-                            
+                
 "
 MOZ_FETCHES_DIR
 is
@@ -284,6 +285,7 @@ in
 the
 environment
 "
+            
 )
         
 stackwalk_binary
@@ -294,13 +296,15 @@ path
 .
 join
 (
+            
 fetches_dir
-'
+"
 minidump_stackwalk
-'
-'
+"
+"
 minidump_stackwalk
-'
+"
+        
 )
         
 if
@@ -309,18 +313,18 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 stackwalk_binary
 +
 =
-'
+"
 .
 exe
-'
+"
         
 minidump_path
 =
@@ -369,9 +373,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 cli
@@ -411,9 +415,9 @@ runner_args
 .
 get
 (
-'
+"
 binary
-'
+"
 )
     
 if
@@ -447,7 +451,7 @@ e
             
 print
 (
-'
+"
 {
 }
 \
@@ -458,7 +462,7 @@ n
 }
 \
 n
-'
+"
 .
 format
 (
@@ -513,7 +517,6 @@ build
 topsrcdir
 v
 )
-        
 for
 k
 v
@@ -530,10 +533,11 @@ httpd
 =
 MozHttpd
 (
+        
 port
 =
 PORT
-                     
+        
 docroot
 =
 os
@@ -552,10 +556,11 @@ build
 pgo
 "
 )
-                     
+        
 path_mappings
 =
 path_mappings
+    
 )
     
 httpd
@@ -579,7 +584,7 @@ add_host
 (
 host
 =
-'
+"
 127
 .
 0
@@ -587,18 +592,16 @@ host
 0
 .
 1
-'
-                       
+"
 port
 =
 PORT
-                       
 options
 =
-'
+"
 primary
 privileged
-'
+"
 )
     
 old_profraw_files
@@ -607,11 +610,11 @@ glob
 .
 glob
 (
-'
+"
 *
 .
 profraw
-'
+"
 )
     
 for
@@ -654,12 +657,12 @@ join
 build
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 profiles
-'
+"
 )
         
 with
@@ -672,15 +675,15 @@ path
 join
 (
 profile_data_dir
-'
+"
 profiles
 .
 json
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -695,14 +698,15 @@ load
 fh
 )
 [
-'
+"
 profileserver
-'
+"
 ]
         
 prefpaths
 =
 [
+            
 os
 .
 path
@@ -711,17 +715,18 @@ join
 (
 profile_data_dir
 profile
-'
+"
 user
 .
 js
-'
+"
 )
-                     
+            
 for
 profile
 in
 base_profiles
+        
 ]
         
 prefs
@@ -887,48 +892,52 @@ profile
 =
 FirefoxProfile
 (
+            
 profile
 =
 profilePath
-                                 
+            
 preferences
 =
 prefs
-                                 
+            
 addons
 =
 [
+                
 os
 .
 path
 .
 join
 (
-                                     
+                    
 build
 .
 topsrcdir
-'
+"
 tools
-'
-'
+"
+"
 quitter
-'
-                                     
-'
+"
+"
 quitter
 mozilla
 .
 org
 .
 xpi
-'
+"
+                
 )
+            
 ]
-                                 
+            
 locations
 =
 locations
+        
 )
         
 env
@@ -1103,26 +1112,26 @@ automation
 process_args
 =
 {
-'
+"
 universal_newlines
-'
+"
 :
 True
 }
         
 if
-'
+"
 UPLOAD_PATH
-'
+"
 in
 env
 :
             
 process_args
 [
-'
+"
 logfile
-'
+"
 ]
 =
 os
@@ -1131,13 +1140,14 @@ path
 .
 join
 (
+                
 env
 [
-'
+"
 UPLOAD_PATH
-'
+"
 ]
-'
+"
 profile
 -
 run
@@ -1145,7 +1155,8 @@ run
 1
 .
 log
-'
+"
+            
 )
         
 #
@@ -1163,18 +1174,19 @@ runner
 =
 FirefoxRunner
 (
+            
 profile
 =
 profile
-                               
+            
 binary
 =
 binary
-                               
+            
 cmdargs
 =
 [
-'
+"
 data
 :
 text
@@ -1192,16 +1204,17 @@ quit
 /
 script
 >
-'
+"
 ]
-                               
+            
 env
 =
 env
-                               
+            
 process_args
 =
 process_args
+        
 )
         
 runner
@@ -1235,7 +1248,6 @@ during
 profile
 initialization
 "
-                  
 %
 ret
 )
@@ -1246,9 +1258,9 @@ process_args
 .
 get
 (
-'
+"
 logfile
-'
+"
 )
             
 if
@@ -1299,10 +1311,10 @@ get_crashreports
 profilePath
 name
 =
-'
+"
 Profile
 initialization
-'
+"
 )
             
 sys
@@ -1379,18 +1391,18 @@ jarlog
 )
         
 if
-'
+"
 UPLOAD_PATH
-'
+"
 in
 env
 :
             
 process_args
 [
-'
+"
 logfile
-'
+"
 ]
 =
 os
@@ -1399,13 +1411,14 @@ path
 .
 join
 (
+                
 env
 [
-'
+"
 UPLOAD_PATH
-'
+"
 ]
-'
+"
 profile
 -
 run
@@ -1413,7 +1426,8 @@ run
 2
 .
 log
-'
+"
+            
 )
         
 cmdargs
@@ -1441,25 +1455,27 @@ runner
 =
 FirefoxRunner
 (
+            
 profile
 =
 profile
-                               
+            
 binary
 =
 binary
-                               
+            
 cmdargs
 =
 cmdargs
-                               
+            
 env
 =
 env
-                               
+            
 process_args
 =
 process_args
+        
 )
         
 runner
@@ -1514,9 +1530,9 @@ process_args
 .
 get
 (
-'
+"
 logfile
-'
+"
 )
             
 if
@@ -1561,10 +1577,10 @@ get_crashreports
 profilePath
 name
 =
-'
+"
 Profiling
 run
-'
+"
 )
             
 sys
@@ -1625,12 +1641,12 @@ get_crashreports
 profilePath
 name
 =
-'
+"
 Firefox
 exited
 successfully
 ?
-'
+"
 )
 !
 =
@@ -1663,9 +1679,9 @@ env
 .
 get
 (
-'
+"
 LLVM_PROFDATA
-'
+"
 )
         
 if
@@ -1678,11 +1694,11 @@ glob
 .
 glob
 (
-'
+"
 *
 .
 profraw
-'
+"
 )
             
 if
@@ -1692,7 +1708,8 @@ profraw_files
                 
 print
 (
-'
+                    
+"
 Could
 not
 find
@@ -1705,13 +1722,15 @@ directory
 :
 %
 s
-'
+"
+                    
 %
 os
 .
 getcwd
 (
 )
+                
 )
                 
 sys
@@ -1727,20 +1746,20 @@ merge_cmd
                 
 llvm_profdata
                 
-'
+"
 merge
-'
+"
                 
-'
+"
 -
 o
-'
+"
                 
-'
+"
 merged
 .
 profdata
-'
+"
             
 ]
 +
@@ -1764,7 +1783,7 @@ rc
                 
 print
 (
-'
+"
 INFRA
 -
 ERROR
@@ -1778,7 +1797,7 @@ data
 Corrupt
 profile
 ?
-'
+"
 )
                 
 #

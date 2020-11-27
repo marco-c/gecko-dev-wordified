@@ -87,11 +87,11 @@ MPL
 .
 DevToolsModules
 (
-'
+"
 properties
 -
 db
 .
 js
-'
+"
 )

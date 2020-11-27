@@ -85,7 +85,4 @@ from
 .
 mixins
 import
-(
-    
 WindowManagerMixin
-)

@@ -78,13 +78,13 @@ v2_file_extensions
 =
 [
         
-'
+"
 vlpset
-'
+"
         
-'
+"
 sbstore
-'
+"
     
 ]
     
@@ -92,13 +92,13 @@ v4_file_extensions
 =
 [
         
-'
+"
 vlpset
-'
+"
         
-'
+"
 metadata
-'
+"
     
 ]
     
@@ -106,47 +106,47 @@ prefs_download_lists
 =
 [
         
-'
+"
 urlclassifier
 .
 blockedTable
-'
+"
         
-'
+"
 urlclassifier
 .
 downloadAllowTable
-'
+"
         
-'
+"
 urlclassifier
 .
 downloadBlockTable
-'
+"
         
-'
+"
 urlclassifier
 .
 malwareTable
-'
+"
         
-'
+"
 urlclassifier
 .
 phishTable
-'
+"
         
-'
+"
 urlclassifier
 .
 trackingTable
-'
+"
         
-'
+"
 urlclassifier
 .
 trackingWhitelistTable
-'
+"
     
 ]
     
@@ -164,7 +164,7 @@ the
 safebrowsing
 files
         
-'
+"
 browser
 .
 safebrowsing
@@ -174,7 +174,7 @@ provider
 mozilla
 .
 nextupdatetime
-'
+"
 :
 1
     
@@ -184,17 +184,17 @@ prefs_safebrowsing
 =
 {
         
-'
+"
 browser
 .
 safebrowsing
 .
 debug
-'
+"
 :
 True
         
-'
+"
 browser
 .
 safebrowsing
@@ -202,11 +202,11 @@ safebrowsing
 blockedURIs
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 browser
 .
 safebrowsing
@@ -214,11 +214,11 @@ safebrowsing
 downloads
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 browser
 .
 safebrowsing
@@ -226,11 +226,11 @@ safebrowsing
 phishing
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 browser
 .
 safebrowsing
@@ -238,21 +238,21 @@ safebrowsing
 malware
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 privacy
 .
 trackingprotection
 .
 enabled
-'
+"
 :
 True
         
-'
+"
 privacy
 .
 trackingprotection
@@ -260,7 +260,7 @@ trackingprotection
 pbmode
 .
 enabled
-'
+"
 :
 True
     
@@ -321,8 +321,8 @@ pref_name
 .
 split
 (
-'
-'
+"
+"
 )
             
 #
@@ -347,10 +347,10 @@ x
 .
 startswith
 (
-'
+"
 moztest
 -
-'
+"
 )
 base_names
 )
@@ -365,8 +365,10 @@ files
 .
 extend
 (
+                    
 [
-'
+                        
+"
 {
 name
 }
@@ -374,7 +376,7 @@ name
 {
 ext
 }
-'
+"
 .
 format
 (
@@ -385,11 +387,12 @@ ext
 =
 ext
 )
-                              
+                        
 for
 f
 in
 base_names
+                        
 if
 f
 and
@@ -397,15 +400,17 @@ f
 .
 endswith
 (
-'
+"
 -
 proto
-'
+"
 )
 =
 =
 is_v4
+                    
 ]
+                
 )
         
 return
@@ -448,32 +453,34 @@ False
 if
 any
 (
+            
 f
 .
 startswith
 (
-'
+"
 goog
 -
-'
+"
 )
 or
 f
 .
 startswith
 (
-'
+"
 googpub
 -
-'
+"
 )
-               
+            
 for
 f
 in
 self
 .
 safebrowsing_v2_files
+        
 )
 :
             
@@ -483,9 +490,10 @@ prefs_provider_update_time
 .
 update
 (
-{
                 
-'
+{
+                    
+"
 browser
 .
 safebrowsing
@@ -495,11 +503,12 @@ provider
 google
 .
 nextupdatetime
-'
+"
 :
 1
-            
+                
 }
+            
 )
         
 self
@@ -516,32 +525,34 @@ True
 if
 any
 (
+            
 f
 .
 startswith
 (
-'
+"
 goog
 -
-'
+"
 )
 or
 f
 .
 startswith
 (
-'
+"
 googpub
 -
-'
+"
 )
-               
+            
 for
 f
 in
 self
 .
 safebrowsing_v4_files
+        
 )
 :
             
@@ -551,9 +562,10 @@ prefs_provider_update_time
 .
 update
 (
-{
                 
-'
+{
+                    
+"
 browser
 .
 safebrowsing
@@ -563,11 +575,12 @@ provider
 google4
 .
 nextupdatetime
-'
+"
 :
 1
-            
+                
 }
+            
 )
         
 #
@@ -613,6 +626,7 @@ path
 .
 join
 (
+            
 self
 .
 marionette
@@ -622,10 +636,10 @@ instance
 profile
 .
 profile
-                                              
-'
+"
 safebrowsing
-'
+"
+        
 )
     
 def
@@ -686,6 +700,7 @@ _
 return
 reduce
 (
+                
 lambda
 state
 pref
@@ -706,7 +721,7 @@ pref
 !
 =
 1
-                          
+                
 self
 .
 prefs_provider_update_time
@@ -714,7 +729,9 @@ prefs_provider_update_time
 keys
 (
 )
+                
 True
+            
 )
         
 try
@@ -734,9 +751,10 @@ until
 (
                 
 check_downloaded
+                
 message
 =
-'
+"
 Not
 all
 safebrowsing
@@ -744,7 +762,8 @@ files
 have
 been
 downloaded
-'
+"
+            
 )
         
 finally
@@ -794,6 +813,7 @@ os
 .
 listdir
 (
+                    
 os
 .
 path
@@ -803,10 +823,11 @@ join
 self
 .
 safebrowsing_path
-'
+"
 google4
-'
+"
 )
+                
 )
                 
 for

@@ -187,12 +187,12 @@ arguments
 .
 checked
 "
-                
 script_args
 =
 [
 box
 ]
+            
 )
         
 box

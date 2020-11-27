@@ -263,12 +263,15 @@ VALID_MIGRATION_BEHAVIORS
 "
 beta_to_release
 "
+    
 "
 central_to_beta
 "
+    
 "
 release_to_esr
 "
+    
 "
 bump_second_digit
 "
@@ -286,9 +289,9 @@ GeckoMigration
 class
 GeckoMigration
 (
+    
 MercurialScript
 VirtualenvMixin
-                     
 AutomationMixin
 MercurialRepoManipulationMixin
 )
@@ -299,17 +302,21 @@ config_options
 [
         
 [
+            
 [
-'
+                
+"
 -
 -
 hg
 -
 user
-'
-]
-{
+"
             
+]
+            
+{
+                
 "
 action
 "
@@ -317,7 +324,7 @@ action
 "
 store
 "
-            
+                
 "
 dest
 "
@@ -325,7 +332,7 @@ dest
 "
 hg_user
 "
-            
+                
 "
 type
 "
@@ -333,7 +340,7 @@ type
 "
 string
 "
-            
+                
 "
 default
 "
@@ -347,7 +354,7 @@ mozilla
 com
 >
 "
-            
+                
 "
 help
 "
@@ -364,22 +371,27 @@ to
 hg
 .
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
-'
+                
+"
 -
 -
 ssh
 -
 user
-'
-]
-{
+"
             
+]
+            
+{
+                
 "
 action
 "
@@ -387,7 +399,7 @@ action
 "
 store
 "
-            
+                
 "
 dest
 "
@@ -395,7 +407,7 @@ dest
 "
 ssh_user
 "
-            
+                
 "
 type
 "
@@ -403,7 +415,7 @@ type
 "
 string
 "
-            
+                
 "
 default
 "
@@ -413,7 +425,7 @@ ffxbld
 -
 merge
 "
-            
+                
 "
 help
 "
@@ -432,22 +444,27 @@ org
 as
 .
 "
-        
+            
 }
+        
 ]
         
 [
+            
 [
-'
+                
+"
 -
 -
 remove
 -
 locale
-'
-]
-{
+"
             
+]
+            
+{
+                
 "
 action
 "
@@ -455,7 +472,7 @@ action
 "
 extend
 "
-            
+                
 "
 dest
 "
@@ -463,7 +480,7 @@ dest
 "
 remove_locales
 "
-            
+                
 "
 type
 "
@@ -471,7 +488,7 @@ type
 "
 string
 "
-            
+                
 "
 help
 "
@@ -492,8 +509,9 @@ to
 repo
 .
 "
-        
+            
 }
+        
 ]
     
 ]
@@ -533,51 +551,51 @@ all_actions
 =
 [
                 
-'
+"
 clobber
-'
+"
                 
-'
+"
 create
 -
 virtualenv
-'
+"
                 
-'
+"
 clean
 -
 repos
-'
+"
                 
-'
+"
 pull
-'
+"
                 
-'
+"
 set_push_to_ssh
-'
+"
                 
-'
+"
 migrate
-'
+"
                 
-'
+"
 bump_second_digit
-'
+"
                 
-'
+"
 bump_and_tag_central
-'
+"
                 
-'
+"
 commit
 -
 changes
-'
+"
                 
-'
+"
 push
-'
+"
             
 ]
             
@@ -585,23 +603,23 @@ default_actions
 =
 [
                 
-'
+"
 clean
 -
 repos
-'
+"
                 
-'
+"
 pull
-'
+"
                 
-'
+"
 set_push_to_ssh
-'
+"
                 
-'
+"
 migrate
-'
+"
             
 ]
             
@@ -616,6 +634,7 @@ self
 run_sanity_check
 (
 )
+    
 #
 Helper
 methods
@@ -642,7 +661,6 @@ sane
 before
 proceeding
 .
-            
 "
 "
 "
@@ -657,9 +675,9 @@ self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
 not
 in
@@ -684,16 +702,18 @@ n
 "
 %
 (
+                
 self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
-                                                    
+                
 VALID_MIGRATION_BEHAVIORS
+            
 )
         
 if
@@ -701,18 +721,20 @@ self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
 =
 =
-'
+"
 beta_to_release
-'
+"
 :
             
 if
+(
+                
 self
 .
 config
@@ -723,8 +745,7 @@ get
 require_remove_locales
 "
 )
-\
-                    
+                
 and
 not
 self
@@ -737,14 +758,17 @@ get
 remove_locales
 "
 )
+                
 and
-'
+"
 migrate
-'
+"
 in
 self
 .
 actions
+            
+)
 :
                 
 message
@@ -785,9 +809,11 @@ config
 .
 get
 (
+                
 "
 remove_locales
 "
+            
 )
 :
                 
@@ -795,6 +821,7 @@ self
 .
 warning
 (
+                    
 "
 -
 -
@@ -812,13 +839,14 @@ re
 using
 beta_to_release
 "
-                             
+                    
 "
 migration_behavior
 !
 \
 n
 "
+                
 )
         
 if
@@ -847,7 +875,6 @@ for
 abs_from_dir
 and
 abs_to_dir
-            
 "
 "
 "
@@ -879,12 +906,12 @@ for
 k
 in
 (
-'
+"
 from
-'
-'
+"
+"
 to
-'
+"
 )
 :
             
@@ -934,11 +961,11 @@ self
 .
 abs_dirs
 [
-'
+"
 abs_
 %
 s_dir
-'
+"
 %
 k
 ]
@@ -952,9 +979,9 @@ join
                     
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
 dir_name
                 
@@ -983,7 +1010,6 @@ repos
 to
 clone
 .
-            
 "
 "
 "
@@ -1032,12 +1058,12 @@ for
 k
 in
 (
-'
+"
 from
-'
-'
+"
+"
 to
-'
+"
 )
 :
             
@@ -1071,14 +1097,15 @@ gecko_repos
 .
 append
 (
-{
                     
+{
+                        
 "
 repo
 "
 :
 url
-                    
+                        
 "
 branch
 "
@@ -1101,22 +1128,22 @@ k
 default
 "
 )
-                    
+                        
 "
 dest
 "
 :
 dirs
 [
-'
+"
 abs_
 %
 s_dir
-'
+"
 %
 k
 ]
-                    
+                        
 "
 vcs
 "
@@ -1124,7 +1151,7 @@ vcs
 "
 hg
 "
-                    
+                        
 #
 "
 hg
@@ -1139,7 +1166,7 @@ use
 of
 a
 share
-                    
+                        
 #
 but
 having
@@ -1152,7 +1179,7 @@ when
 merging
 repos
 .
-                    
+                        
 #
 Solution
 :
@@ -1167,7 +1194,7 @@ share
 directory
 for
 each
-                    
+                        
 #
 gecko
 repo
@@ -1184,14 +1211,15 @@ mercurial
 py
 for
 implementation
-                    
+                        
 "
 use_vcs_unique_share
 "
 :
 True
-                
+                    
 }
+                
 )
             
 else
@@ -1249,9 +1277,9 @@ commit_dirs
 [
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 ]
         
@@ -1305,17 +1333,17 @@ dirs
 .
 get
 (
-'
+"
 abs_from_dir
-'
+"
 )
 dirs
 .
 get
 (
-'
+"
 abs_to_dir
-'
+"
 )
     
 def
@@ -1327,6 +1355,8 @@ cwd
 :
         
 if
+(
+            
 cwd
 =
 =
@@ -1336,44 +1366,45 @@ query_abs_dirs
 (
 )
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+            
 and
-\
-                
 self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
 =
 =
-'
+"
 beta_to_release
-'
+"
+        
+)
 :
             
 return
 [
-'
+"
 -
 -
 new
 -
 branch
-'
-'
+"
+"
 -
 r
-'
-'
+"
+"
 .
-'
+"
 ]
         
 else
@@ -1381,13 +1412,13 @@ else
             
 return
 [
-'
+"
 -
 r
-'
-'
+"
+"
 .
-'
+"
 ]
     
 def
@@ -1433,12 +1464,12 @@ cwd
 .
 get
 (
-'
+"
 paths
-'
-'
+"
+"
 default
-'
+"
 )
             
 username
@@ -1449,11 +1480,11 @@ config
 .
 get
 (
-'
+"
 ssh_user
-'
-'
-'
+"
+"
+"
 )
             
 #
@@ -1485,8 +1516,8 @@ username
 username
 +
 =
-'
-'
+"
+"
             
 push_dest
 =
@@ -1494,18 +1525,18 @@ repo_url
 .
 replace
 (
-'
+"
 https
 :
 /
 /
-'
-'
+"
+"
 ssh
 :
 /
 /
-'
+"
 +
 username
 )
@@ -1516,18 +1547,19 @@ push_dest
 .
 startswith
 (
-'
+"
 ssh
 :
 /
 /
-'
+"
 )
 :
                 
 raise
 Exception
 (
+                    
 '
 Warning
 :
@@ -1545,6 +1577,7 @@ must
 be
 ssh
 '
+                
 )
             
 self
@@ -1552,14 +1585,14 @@ self
 edit_repo_hg_rc
 (
 cwd
-'
+"
 paths
-'
-'
+"
+"
 default
 -
 push
-'
+"
 push_dest
 )
     
@@ -1582,7 +1615,6 @@ for
 the
 from
 repo
-            
 "
 "
 "
@@ -1602,9 +1634,9 @@ query_hg_revision
 (
 dirs
 [
-'
+"
 abs_from_dir
-'
+"
 ]
 )
     
@@ -1627,7 +1659,6 @@ for
 the
 to
 repo
-            
 "
 "
 "
@@ -1647,26 +1678,27 @@ query_hg_revision
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
     
 def
 hg_merge_via_debugsetparents
 (
+        
 self
 cwd
 old_head
 new_head
-                                     
 preserve_tags
 =
 True
 user
 =
 None
+    
 )
 :
         
@@ -1681,7 +1713,6 @@ non
 -
 fastforward
 commits
-            
 "
 "
 "
@@ -1692,14 +1723,14 @@ self
 .
 query_exe
 (
-'
+"
 hg
-'
+"
 return_type
 =
-'
+"
 list
-'
+"
 )
         
 cmd
@@ -1707,9 +1738,9 @@ cmd
 hg
 +
 [
-'
+"
 debugsetparents
-'
+"
 new_head
 old_head
 ]
@@ -1725,7 +1756,6 @@ cwd
 error_list
 =
 HgErrorList
-                         
 halt_on_failure
 =
 True
@@ -1884,13 +1914,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 patch_file
-'
+"
 )
             
 self
@@ -1902,31 +1932,32 @@ subprocess
 .
 list2cmdline
 (
+                    
 hg
 +
 [
-'
+"
 diff
-'
-'
+"
+"
 -
 r
-'
+"
 old_head
-'
+"
 .
 hgtags
-'
-                                        
-'
+"
+"
 -
 U9
-'
-'
+"
+"
 >
-'
+"
 patch_file
 ]
+                
 )
                 
 cwd
@@ -1941,21 +1972,21 @@ run_command
 (
                 
 [
-'
+"
 patch
-'
-'
+"
+"
 -
 R
-'
-'
+"
+"
 -
 p1
-'
-'
+"
+"
 -
 i
-'
+"
 patch_file
 ]
                 
@@ -1990,16 +2021,16 @@ path
 join
 (
 cwd
-'
+"
 .
 hgtags
-'
+"
 )
 open_mode
 =
-'
+"
 a
-'
+"
 )
 as
 (
@@ -2118,9 +2149,9 @@ line
 .
 startswith
 (
-'
+"
 +
-'
+"
 )
 :
                         
@@ -2132,11 +2163,11 @@ line
 .
 replace
 (
-'
+"
 +
-'
-'
-'
+"
+"
+"
 )
                     
 (
@@ -2148,8 +2179,8 @@ line
 .
 split
 (
-'
-'
+"
+"
 )
                     
 if
@@ -2185,18 +2216,17 @@ self
 get_output_from_command
 (
 [
-'
+"
 hg
-'
-'
+"
+"
 status
-'
-'
+"
+"
 .
 hgtags
-'
+"
 ]
-                                               
 cwd
 =
 cwd
@@ -2283,7 +2313,6 @@ m
 r
 only
 )
-            
 "
 "
 "
@@ -2385,9 +2414,9 @@ path
 join
 (
 cwd
-'
+"
 CLOBBER
-'
+"
 )
         
 contents
@@ -2435,8 +2464,8 @@ or
 line
 =
 =
-'
-'
+"
+"
 :
                 
 new_contents
@@ -2471,19 +2500,27 @@ new_contents
 def
 bump_version
 (
+        
 self
+        
 cwd
+        
 curr_version
+        
 next_version
+        
 curr_suffix
-                     
+        
 next_suffix
+        
 bump_major
 =
 False
+        
 use_config_suffix
 =
 False
+    
 )
 :
         
@@ -2501,7 +2538,7 @@ m
 b
 )
 .
-            
+        
 At
 some
 point
@@ -2514,7 +2551,7 @@ these
 filenames
 into
 config
-            
+        
 "
 "
 "
@@ -2864,9 +2901,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
 [
@@ -2893,9 +2930,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
 [
@@ -2908,15 +2945,15 @@ self
 .
 config
 [
-'
+"
 end_tag
-'
+"
 ]
 %
 {
-'
+"
 major_version
-'
+"
 :
 to_fx_major_version
 }
@@ -3021,25 +3058,28 @@ hg_tag
             
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+            
 end_tag
+            
 user
 =
 self
 .
 config
 [
-'
+"
 hg_user
-'
+"
 ]
             
 revision
 =
 base_to_rev
+            
 force
 =
 True
@@ -3053,15 +3093,19 @@ bump_version
             
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+            
 curr_mc_version
+            
 next_mc_version
+            
 "
 a1
 "
+            
 "
 a1
 "
@@ -3087,9 +3131,9 @@ touch_clobber_file
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
     
@@ -3114,7 +3158,7 @@ mozilla
 beta
 behavior
 .
-            
+        
 We
 could
 have
@@ -3126,7 +3170,7 @@ toggled
 by
 flags
 but
-            
+        
 by
 separating
 into
@@ -3138,7 +3182,7 @@ be
 more
 precise
 about
-            
+        
 what
 happens
 in
@@ -3149,14 +3193,14 @@ allowing
 for
 things
 like
-            
+        
 staging
 beta
 user
 repo
 migrations
 .
-            
+        
 "
 "
 "
@@ -3177,9 +3221,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
 [
@@ -3190,23 +3234,29 @@ self
 .
 bump_version
 (
+            
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+            
 next_mb_version
+            
 next_mb_version
+            
 "
 a1
 "
+            
 "
 "
-                          
+            
 use_config_suffix
 =
 True
+        
 )
         
 self
@@ -3226,9 +3276,9 @@ touch_clobber_file
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
     
@@ -3257,7 +3307,7 @@ mozilla
 release
 behavior
 .
-            
+        
 We
 could
 have
@@ -3269,7 +3319,7 @@ toggled
 by
 flags
 but
-            
+        
 by
 separating
 into
@@ -3281,7 +3331,7 @@ be
 more
 precise
 about
-            
+        
 what
 happens
 in
@@ -3292,14 +3342,14 @@ allowing
 for
 things
 like
-            
+        
 staging
 beta
 user
 repo
 migrations
 .
-            
+        
 "
 "
 "
@@ -3344,9 +3394,9 @@ join
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 f
 [
@@ -3364,9 +3414,9 @@ join
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 f
 [
@@ -3375,6 +3425,7 @@ dst
 "
 ]
 )
+            
 )
         
 self
@@ -3409,9 +3460,9 @@ join
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 "
 browser
@@ -3428,9 +3479,9 @@ self
 .
 config
 [
-'
+"
 remove_locales
-'
+"
 ]
             
 )
@@ -3441,9 +3492,9 @@ touch_clobber_file
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
     
@@ -3496,9 +3547,9 @@ touch_clobber_file
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
         
@@ -3510,9 +3561,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
 [
@@ -3523,22 +3574,28 @@ self
 .
 bump_version
 (
+            
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+            
 next_esr_version
+            
 next_esr_version
+            
 "
 "
+            
 "
 "
-                          
+            
 use_config_suffix
 =
 True
+        
 )
     
 def
@@ -3583,9 +3640,9 @@ join
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 f
 )
@@ -3748,6 +3805,7 @@ halt_on_failure
 True
         
 )
+    
 #
 Actions
 {
@@ -3774,7 +3832,7 @@ Bump
 second
 digit
 .
-         
+        
 ESR
 need
 only
@@ -3809,9 +3867,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
         
@@ -3905,9 +3963,9 @@ next_version
 ]
 +
 [
-'
+"
 0
-'
+"
 ]
 )
         
@@ -3928,6 +3986,7 @@ self
 .
 replace
 (
+                
 os
 .
 path
@@ -3936,9 +3995,9 @@ join
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 f
 [
@@ -3947,8 +4006,9 @@ file
 "
 ]
 )
-                         
+                
 curr_version
+                
 next_version
 +
 f
@@ -3957,6 +4017,7 @@ f
 suffix
 "
 ]
+            
 )
         
 self
@@ -3965,9 +4026,9 @@ touch_clobber_file
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
     
@@ -4024,7 +4085,6 @@ Perform
 the
 migration
 .
-            
 "
 "
 "
@@ -4045,9 +4105,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_from_dir
-'
+"
 ]
 )
 [
@@ -4062,9 +4122,9 @@ get_version
 (
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
 )
 [
@@ -4093,15 +4153,15 @@ self
 .
 config
 [
-'
+"
 base_tag
-'
+"
 ]
 %
 {
-'
+"
 major_version
-'
+"
 :
 from_fx_major_version
 }
@@ -4121,20 +4181,22 @@ repo
             
 dirs
 [
-'
+"
 abs_from_dir
-'
+"
 ]
+            
 base_tag
+            
 user
 =
 self
 .
 config
 [
-'
+"
 hg_user
-'
+"
 ]
             
 revision
@@ -4194,15 +4256,16 @@ pull_from_repo
             
 dirs
 [
-'
+"
 abs_from_dir
-'
+"
 ]
+            
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
             
 revision
@@ -4240,13 +4303,15 @@ hg_merge_via_debugsetparents
                 
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+                
 old_head
 =
 base_to_rev
+                
 new_head
 =
 new_from_rev
@@ -4257,9 +4322,9 @@ self
 .
 config
 [
-'
+"
 hg_user
-'
+"
 ]
             
 )
@@ -4272,9 +4337,9 @@ config
 .
 get
 (
-'
+"
 end_tag
-'
+"
 )
 #
 tag
@@ -4294,9 +4359,9 @@ end_tag
 end_tag
 %
 {
-'
+"
 major_version
-'
+"
 :
 to_fx_major_version
 }
@@ -4308,25 +4373,28 @@ hg_tag
                 
 dirs
 [
-'
+"
 abs_to_dir
-'
+"
 ]
+                
 end_tag
+                
 user
 =
 self
 .
 config
 [
-'
+"
 hg_user
-'
+"
 ]
                 
 revision
 =
 base_to_rev
+                
 force
 =
 True
@@ -4348,9 +4416,9 @@ self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
 )
 :
@@ -4359,6 +4427,7 @@ self
 .
 fatal
 (
+                
 "
 Don
 '
@@ -4373,16 +4442,17 @@ migration_behavior
 s
 !
 "
+                
 %
-                       
 self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
+            
 )
         
 getattr
@@ -4392,9 +4462,9 @@ self
 .
 config
 [
-'
+"
 migration_behavior
-'
+"
 ]
 )
 (
@@ -4407,6 +4477,7 @@ self
 .
 info
 (
+            
 "
 Verify
 the
@@ -4421,7 +4492,7 @@ as
 disabling
 features
 "
-                  
+            
 "
 and
 -
@@ -4430,6 +4501,7 @@ commit
 -
 changes
 "
+        
 )
 #
 __main__
@@ -4441,9 +4513,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 GeckoMigration

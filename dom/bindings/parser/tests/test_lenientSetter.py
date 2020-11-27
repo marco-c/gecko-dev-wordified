@@ -70,7 +70,6 @@ parser
 reset
 (
 )
-;
     
 threw
 =
@@ -138,12 +137,16 @@ arguments
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 no
 arguments
 "
+        
 "
 "
 "
@@ -169,6 +172,7 @@ A
 "
 "
 "
+    
 )
     
 #
@@ -199,11 +203,15 @@ attribute
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 PutForwards
 "
+        
 "
 "
 "
@@ -242,6 +250,7 @@ B
 "
 "
 "
+    
 )
     
 #
@@ -272,11 +281,15 @@ attribute
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 Replaceable
 "
+        
 "
 "
 "
@@ -301,6 +314,7 @@ A
 "
 "
 "
+    
 )
     
 #
@@ -328,12 +342,16 @@ only
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 writable
 attribute
 "
+        
 "
 "
 "
@@ -356,6 +374,7 @@ A
 "
 "
 "
+    
 )
     
 #
@@ -379,12 +398,16 @@ attribute
     
 should_throw
 (
+        
 parser
+        
 harness
+        
 "
 static
 attribute
 "
+        
 "
 "
 "
@@ -409,4 +432,5 @@ A
 "
 "
 "
+    
 )

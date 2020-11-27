@@ -90,7 +90,7 @@ import
 MarionetteTestCase
 gfx_rollout_override
 =
-'
+"
 gfx
 .
 webrender
@@ -104,10 +104,10 @@ gfxPref
 default
 -
 override
-'
+"
 hw_qualified_override
 =
-'
+"
 gfx
 .
 webrender
@@ -119,10 +119,10 @@ qualified
 hardware
 -
 override
-'
+"
 rollout_pref
 =
-'
+"
 gfx
 .
 webrender
@@ -130,7 +130,7 @@ webrender
 all
 .
 qualified
-'
+"
 class
 WrPrefRolloutWorkAroundTestCase
 (
@@ -138,9 +138,9 @@ MarionetteTestCase
 )
 :
     
-'
-'
-'
+"
+"
+"
 Test
 cases
 for
@@ -151,7 +151,7 @@ rollout
 work
 around
 .
-       
+    
 Normandy
 sets
 default
@@ -163,7 +163,7 @@ a
 pref
 change
 but
-       
+    
 gfx
 starts
 up
@@ -177,7 +177,7 @@ pref
 s
 default
 value
-       
+    
 so
 we
 save
@@ -192,7 +192,7 @@ it
 on
 startup
 .
-       
+    
 This
 test
 verifies
@@ -204,7 +204,7 @@ load
 the
 default
 value
-       
+    
 and
 that
 the
@@ -218,9 +218,9 @@ the
 rollout
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 test_wr_rollout_workaround_on_non_qualifying_hw
@@ -318,7 +318,7 @@ set_pref
 (
 pref
 =
-'
+"
 layers
 .
 acceleration
@@ -326,7 +326,7 @@ acceleration
 force
 -
 enabled
-'
+"
 value
 =
 True
@@ -430,7 +430,7 @@ wr_status
         
 print
 (
-'
+"
 self
 .
 wr_status
@@ -441,7 +441,7 @@ wr_status
 }
 {
 }
-'
+"
 .
 format
 (
@@ -454,13 +454,16 @@ self
 .
 assertEqual
 (
+            
 status
-'
+            
+"
 disabled
 :
 FEATURE_FAILURE_NOT_QUALIFIED
-'
-'
+"
+            
+"
 Should
 start
 out
@@ -469,20 +472,23 @@ WR
 disabled
 not
 qualified
-'
+"
+        
 )
         
 self
 .
 assertTrue
 (
+            
 compositor
 !
 =
-'
+"
 webrender
-'
-'
+"
+            
+"
 Before
 WR
 rollout
@@ -497,7 +503,8 @@ be
 using
 WR
 .
-'
+"
+        
 )
         
 #
@@ -602,7 +609,7 @@ wr_status
         
 print
 (
-'
+"
 self
 .
 wr_status
@@ -613,7 +620,7 @@ wr_status
 }
 {
 }
-'
+"
 .
 format
 (
@@ -626,13 +633,16 @@ self
 .
 assertEqual
 (
+            
 status
-'
+            
+"
 disabled
 :
 FEATURE_FAILURE_NOT_QUALIFIED
-'
-'
+"
+            
+"
 WR
 rolled
 out
@@ -646,20 +656,23 @@ not
 use
 WR
 .
-'
+"
+        
 )
         
 self
 .
 assertTrue
 (
+            
 compositor
 !
 =
-'
+"
 webrender
-'
-'
+"
+            
+"
 WR
 rolled
 out
@@ -673,7 +686,8 @@ not
 be
 used
 .
-'
+"
+        
 )
         
 #
@@ -735,7 +749,7 @@ wr_status
         
 print
 (
-'
+"
 self
 .
 wr_status
@@ -746,7 +760,7 @@ wr_status
 }
 {
 }
-'
+"
 .
 format
 (
@@ -759,13 +773,16 @@ self
 .
 assertEqual
 (
+            
 status
-'
+            
+"
 disabled
 :
 FEATURE_FAILURE_NOT_QUALIFIED
-'
-'
+"
+            
+"
 WR
 rollback
 of
@@ -780,20 +797,23 @@ non
 qualifying
 hardware
 .
-'
+"
+        
 )
         
 self
 .
 assertTrue
 (
+            
 compositor
 !
 =
-'
+"
 webrender
-'
-'
+"
+            
+"
 After
 roll
 back
@@ -808,11 +828,13 @@ not
 be
 used
 .
-'
+"
+        
 )
     
 skipIf
 (
+        
 platform
 .
 machine
@@ -834,6 +856,7 @@ system
 "
 Windows
 "
+        
 "
 Bug
 1536369
@@ -844,6 +867,7 @@ Windows
 10
 aarch64
 "
+    
 )
     
 def
@@ -923,7 +947,7 @@ set_pref
 (
 pref
 =
-'
+"
 layers
 .
 acceleration
@@ -931,7 +955,7 @@ acceleration
 force
 -
 enabled
-'
+"
 value
 =
 True
@@ -1032,7 +1056,7 @@ wr_status
         
 print
 (
-'
+"
 self
 .
 wr_status
@@ -1043,7 +1067,7 @@ wr_status
 }
 {
 }
-'
+"
 .
 format
 (
@@ -1056,13 +1080,16 @@ self
 .
 assertEqual
 (
+            
 status
-'
+            
+"
 disabled
 :
 FEATURE_FAILURE_IN_EXPERIMENT
-'
-'
+"
+            
+"
 Should
 start
 out
@@ -1071,20 +1098,23 @@ WR
 disabled
 in
 experiment
-'
+"
+        
 )
         
 self
 .
 assertTrue
 (
+            
 compositor
 !
 =
-'
+"
 webrender
-'
-'
+"
+            
+"
 Before
 WR
 rollout
@@ -1097,7 +1127,8 @@ be
 using
 WR
 .
-'
+"
+        
 )
         
 #
@@ -1200,7 +1231,7 @@ wr_status
         
 print
 (
-'
+"
 self
 .
 wr_status
@@ -1211,7 +1242,7 @@ wr_status
 }
 {
 }
-'
+"
 .
 format
 (
@@ -1224,11 +1255,14 @@ self
 .
 assertEqual
 (
+            
 status
-'
+            
+"
 available
-'
-'
+"
+            
+"
 WR
 rolled
 out
@@ -1242,18 +1276,22 @@ available
 #
 1
 .
-'
+"
+        
 )
         
 self
 .
 assertEqual
 (
+            
 compositor
-'
+            
+"
 webrender
-'
-'
+"
+            
+"
 After
 rollout
 on
@@ -1264,7 +1302,8 @@ should
 be
 used
 .
-'
+"
+        
 )
         
 #
@@ -1326,7 +1365,7 @@ wr_status
         
 print
 (
-'
+"
 self
 .
 wr_status
@@ -1337,7 +1376,7 @@ wr_status
 }
 {
 }
-'
+"
 .
 format
 (
@@ -1350,13 +1389,16 @@ self
 .
 assertEqual
 (
+            
 status
-'
+            
+"
 disabled
 :
 FEATURE_FAILURE_IN_EXPERIMENT
-'
-'
+"
+            
+"
 WR
 rollback
 of
@@ -1369,20 +1411,23 @@ on
 qualifying
 hardware
 .
-'
+"
+        
 )
         
 self
 .
 assertTrue
 (
+            
 compositor
 !
 =
-'
+"
 webrender
-'
-'
+"
+            
+"
 After
 roll
 back
@@ -1395,7 +1440,8 @@ not
 be
 used
 .
-'
+"
+        
 )
     
 def
@@ -1426,9 +1472,10 @@ marionette
 .
 execute_script
 (
-'
-'
-'
+            
+"
+"
+"
             
 try
 {
@@ -1493,36 +1540,42 @@ return
             
 }
         
-'
-'
-'
+"
+"
+"
+        
 )
         
 return
+(
+            
 result
 [
-'
+"
 features
-'
+"
 ]
 [
-'
+"
 webrender
-'
+"
 ]
 [
-'
+"
 status
-'
+"
 ]
+            
 result
 [
-'
+"
 features
-'
+"
 ]
 [
-'
+"
 compositor
-'
+"
 ]
+        
+)

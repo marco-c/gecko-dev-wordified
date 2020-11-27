@@ -70,11 +70,11 @@ import
 datetime
 SOURCESTAMP_FILENAME
 =
-'
+"
 sourcestamp
 .
 txt
-'
+"
 def
 buildid_header
 (
@@ -90,9 +90,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_BUILD_DATE
-'
+"
 )
     
 if
@@ -109,14 +109,14 @@ buildid
         
 print
 (
-'
+"
 Ignoring
 invalid
 MOZ_BUILD_DATE
 :
 %
 s
-'
+"
 %
 buildid
 file
@@ -145,7 +145,7 @@ now
 .
 strftime
 (
-'
+"
 %
 Y
 %
@@ -158,7 +158,7 @@ H
 M
 %
 S
-'
+"
 )
     
 output
@@ -204,14 +204,15 @@ subprocess
 .
 check_output
 (
+                
 command
 stderr
 =
 stderr
-                                           
 universal_newlines
 =
 True
+            
 )
     
 except
@@ -219,8 +220,8 @@ Exception
 :
         
 return
-'
-'
+"
+"
 def
 get_hg_info
 (
@@ -232,20 +233,20 @@ repo
 =
 get_program_output
 (
-'
+"
 hg
-'
-'
+"
+"
 -
 R
-'
+"
 workdir
-'
+"
 path
-'
-'
+"
+"
 default
-'
+"
 )
     
 if
@@ -265,23 +266,23 @@ repo
 .
 startswith
 (
-'
+"
 ssh
 :
 /
 /
-'
+"
 )
 :
             
 repo
 =
-'
+"
 https
 :
 /
 /
-'
+"
 +
 repo
 [
@@ -295,9 +296,9 @@ repo
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
     
 changeset
@@ -320,18 +321,18 @@ path
 return
 get_program_output
 (
-'
+"
 hg
-'
-'
+"
+"
 -
 R
-'
+"
 path
-'
+"
 parent
-'
-'
+"
+"
 -
 -
 template
@@ -339,7 +340,7 @@ template
 {
 node
 }
-'
+"
 )
 def
 get_info_from_sourcestamp
@@ -481,9 +482,9 @@ lines
 .
 startswith
 (
-'
+"
 http
-'
+"
 )
 :
         
@@ -523,11 +524,11 @@ lines
 .
 split
 (
-'
+"
 /
 rev
 /
-'
+"
 )
 def
 source_repo_header
@@ -568,9 +569,9 @@ substs
 .
 get
 (
-'
+"
 MOZ_SOURCE_REPO
-'
+"
 )
     
 changeset
@@ -581,15 +582,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_SOURCE_CHANGESET
-'
+"
 )
     
 source
 =
-'
-'
+"
+"
     
 if
 not
@@ -604,7 +605,6 @@ path
 .
 join
 (
-            
 buildconfig
 .
 topsrcdir
@@ -627,10 +627,10 @@ join
 buildconfig
 .
 topsrcdir
-'
+"
 .
 hg
-'
+"
 )
 )
 :
@@ -686,19 +686,20 @@ changeset
 raise
 Exception
 (
-'
+                
+"
 could
 not
 resolve
 changeset
 ;
-'
-                            
-'
+"
+"
 try
 setting
 MOZ_SOURCE_CHANGESET
-'
+"
+            
 )
     
 if
@@ -709,7 +710,7 @@ output
 .
 write
 (
-'
+"
 #
 define
 MOZ_SOURCE_STAMP
@@ -717,7 +718,7 @@ MOZ_SOURCE_STAMP
 s
 \
 n
-'
+"
 %
 changeset
 )
@@ -731,15 +732,15 @@ substs
 .
 get
 (
-'
+"
 MOZ_INCLUDE_SOURCE_INFO
-'
+"
 )
 :
         
 source
 =
-'
+"
 %
 s
 /
@@ -747,7 +748,7 @@ rev
 /
 %
 s
-'
+"
 %
 (
 repo
@@ -758,7 +759,7 @@ output
 .
 write
 (
-'
+"
 #
 define
 MOZ_SOURCE_REPO
@@ -766,7 +767,7 @@ MOZ_SOURCE_REPO
 s
 \
 n
-'
+"
 %
 repo
 )
@@ -775,7 +776,7 @@ output
 .
 write
 (
-'
+"
 #
 define
 MOZ_SOURCE_URL
@@ -783,7 +784,7 @@ MOZ_SOURCE_URL
 s
 \
 n
-'
+"
 %
 source
 )
@@ -795,11 +796,9 @@ args
 :
     
 if
-(
 len
 (
 args
-)
 )
 :
         
@@ -838,9 +837,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

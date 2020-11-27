@@ -146,13 +146,13 @@ sys
 .
 modules
 [
-'
+"
 gyp
 .
 generator
 .
 mozbuild
-'
+"
 ]
 =
 sys
@@ -275,6 +275,7 @@ mozpath
 .
 abspath
 (
+    
 mozpath
 .
 join
@@ -287,8 +288,7 @@ gyp
 .
 __file__
 )
-                                          
-'
+"
 .
 .
 /
@@ -303,7 +303,7 @@ __file__
 /
 .
 .
-'
+"
 )
 )
 script_dir
@@ -313,9 +313,9 @@ mozpath
 join
 (
 chrome_src
-'
+"
 build
-'
+"
 )
 #
 Default
@@ -335,22 +335,26 @@ for
 dirname
 in
 [
-'
+    
+"
 INTERMEDIATE_DIR
-'
-'
+"
+    
+"
 SHARED_INTERMEDIATE_DIR
-'
-'
+"
+    
+"
 PRODUCT_DIR
-'
-                
-'
+"
+    
+"
 LIB_DIR
-'
-'
+"
+    
+"
 SHARED_LIB_DIR
-'
+"
 ]
 :
     
@@ -373,55 +377,62 @@ generator_default_variables
 dirname
 ]
 =
-'
-'
+"
+"
 +
 dirname
 for
 unused
 in
 [
-'
+    
+"
 RULE_INPUT_PATH
-'
-'
+"
+    
+"
 RULE_INPUT_ROOT
-'
-'
+"
+    
+"
 RULE_INPUT_NAME
-'
-               
-'
+"
+    
+"
 RULE_INPUT_DIRNAME
-'
-'
+"
+    
+"
 RULE_INPUT_EXT
-'
-               
-'
+"
+    
+"
 EXECUTABLE_PREFIX
-'
-'
+"
+    
+"
 EXECUTABLE_SUFFIX
-'
-               
-'
+"
+    
+"
 STATIC_LIB_PREFIX
-'
-'
+"
+    
+"
 STATIC_LIB_SUFFIX
-'
-               
-'
+"
+    
+"
 SHARED_LIB_PREFIX
-'
-'
+"
+    
+"
 SHARED_LIB_SUFFIX
-'
-               
-'
+"
+    
+"
 LINKER_SUPPORTS_ICF
-'
+"
 ]
 :
     
@@ -430,8 +441,8 @@ generator_default_variables
 unused
 ]
 =
-'
-'
+"
+"
 class
 GypContext
 (
@@ -508,19 +519,20 @@ TemplateContext
 .
 __init__
 (
+            
 self
 template
 =
-'
+"
 Gyp
-'
-                                 
+"
 allowed_variables
 =
 VARIABLES
 config
 =
 config
+        
 )
 def
 handle_actions
@@ -533,10 +545,10 @@ action_overrides
     
 idir
 =
-'
+"
 INTERMEDIATE_DIR
 /
-'
+"
     
 for
 action
@@ -548,9 +560,9 @@ name
 =
 action
 [
-'
+"
 action_name
-'
+"
 ]
         
 if
@@ -563,7 +575,7 @@ action_overrides
 raise
 RuntimeError
 (
-'
+"
 GYP
 action
 %
@@ -572,7 +584,7 @@ not
 listed
 in
 action_overrides
-'
+"
 %
 name
 )
@@ -581,9 +593,9 @@ outputs
 =
 action
 [
-'
+"
 outputs
-'
+"
 ]
         
 if
@@ -599,7 +611,7 @@ raise
 NotImplementedError
 (
                 
-'
+"
 GYP
 actions
 with
@@ -612,9 +624,10 @@ supported
 :
 %
 s
-'
+"
 %
 name
+            
 )
         
 output
@@ -638,7 +651,7 @@ raise
 NotImplementedError
 (
                 
-'
+"
 GYP
 actions
 outputting
@@ -646,9 +659,9 @@ to
 somewhere
 other
 than
-'
+"
                 
-'
+"
 <
 (
 INTERMEDIATE_DIR
@@ -658,8 +671,7 @@ supported
 :
 %
 s
-'
-                
+"
 %
 output
             
@@ -678,9 +690,9 @@ idir
         
 context
 [
-'
+"
 GENERATED_FILES
-'
+"
 ]
 +
 =
@@ -692,9 +704,9 @@ g
 =
 context
 [
-'
+"
 GENERATED_FILES
-'
+"
 ]
 [
 output
@@ -715,9 +727,9 @@ inputs
 =
 action
 [
-'
+"
 inputs
-'
+"
 ]
 def
 handle_copies
@@ -729,12 +741,12 @@ context
     
 dist
 =
-'
+"
 PRODUCT_DIR
 /
 dist
 /
-'
+"
     
 for
 copy
@@ -746,9 +758,9 @@ dest
 =
 copy
 [
-'
+"
 destination
-'
+"
 ]
         
 if
@@ -765,7 +777,7 @@ raise
 NotImplementedError
 (
                 
-'
+"
 GYP
 copies
 to
@@ -783,9 +795,11 @@ supported
 :
 %
 s
-'
+"
+                
 %
 dest
+            
 )
         
 dest_paths
@@ -801,18 +815,18 @@ dist
 .
 split
 (
-'
+"
 /
-'
+"
 )
         
 exports
 =
 context
 [
-'
+"
 EXPORTS
-'
+"
 ]
         
 while
@@ -839,9 +853,9 @@ sorted
 (
 copy
 [
-'
+"
 files
-'
+"
 ]
 key
 =
@@ -857,13 +871,19 @@ lower
 def
 process_gyp_result
 (
+    
 gyp_result
+    
 gyp_dir_attrs
+    
 path
+    
 config
+    
 output
-                       
+    
 non_unified_sources
+    
 action_overrides
 )
 :
@@ -933,6 +953,7 @@ target
 in
 sorted
 (
+        
 gyp
 .
 common
@@ -945,14 +966,15 @@ path
 .
 replace
 (
-'
+"
 /
-'
+"
 os
 .
 sep
 )
 )
+    
 )
 :
         
@@ -1050,7 +1072,6 @@ dirname
 (
 build_file
 )
-                                 
 mozpath
 .
 dirname
@@ -1061,12 +1082,12 @@ path
         
 subdir
 =
-'
+"
 %
 s_
 %
 s
-'
+"
 %
 (
             
@@ -1102,12 +1123,13 @@ context
 =
 GypContext
 (
+            
 config
+            
 mozpath
 .
 relpath
 (
-            
 mozpath
 .
 join
@@ -1120,6 +1142,7 @@ config
 .
 topobjdir
 )
+        
 )
         
 context
@@ -1156,9 +1179,9 @@ data
 build_file
 ]
 [
-'
+"
 included_files
-'
+"
 ]
 :
             
@@ -1166,6 +1189,7 @@ context
 .
 add_source
 (
+                
 mozpath
 .
 abspath
@@ -1174,7 +1198,6 @@ mozpath
 .
 join
 (
-                
 mozpath
 .
 dirname
@@ -1184,6 +1207,7 @@ build_file
 f
 )
 )
+            
 )
         
 spec
@@ -1207,9 +1231,9 @@ MOZ_DEBUG
         
 c
 =
-'
+"
 Debug
-'
+"
 if
 config
 .
@@ -1217,14 +1241,14 @@ substs
 .
 get
 (
-'
+"
 MOZ_DEBUG
-'
+"
 )
 else
-'
+"
 Release
-'
+"
         
 if
 c
@@ -1232,16 +1256,17 @@ not
 in
 spec
 [
-'
+"
 configurations
-'
+"
 ]
 :
             
 raise
 RuntimeError
 (
-'
+                
+"
 Missing
 %
 s
@@ -1251,37 +1276,38 @@ for
 target
 %
 s
-'
-                               
-'
+"
+                
+"
 in
 %
 s
-'
+"
 %
 (
 c
 target_name
 build_file
 )
+            
 )
         
 target_conf
 =
 spec
 [
-'
+"
 configurations
-'
+"
 ]
 [
 c
 ]
         
 if
-'
+"
 actions
-'
+"
 in
 spec
 :
@@ -1290,18 +1316,18 @@ handle_actions
 (
 spec
 [
-'
+"
 actions
-'
+"
 ]
 context
 action_overrides
 )
         
 if
-'
+"
 copies
-'
+"
 in
 spec
 :
@@ -1310,9 +1336,9 @@ handle_copies
 (
 spec
 [
-'
+"
 copies
-'
+"
 ]
 context
 )
@@ -1341,9 +1367,9 @@ s
 .
 get
 (
-'
+"
 dependencies
-'
+"
 [
 ]
 )
@@ -1352,9 +1378,9 @@ s
 .
 get
 (
-'
+"
 dependencies_original
-'
+"
 [
 ]
 )
@@ -1367,21 +1393,21 @@ targets
 t
 ]
 [
-'
+"
 type
-'
+"
 ]
                 
 if
 ty
 in
 (
-'
+"
 static_library
-'
-'
+"
+"
 shared_library
-'
+"
 )
 :
                     
@@ -1392,9 +1418,9 @@ targets
 t
 ]
 [
-'
+"
 target_name
-'
+"
 ]
                     
 if
@@ -1439,12 +1465,12 @@ if
 ty
 in
 (
-'
+"
 static_library
-'
-'
+"
+"
 none
-'
+"
 )
 :
                     
@@ -1464,9 +1490,9 @@ spec
 .
 get
 (
-'
+"
 libraries
-'
+"
 [
 ]
 )
@@ -1540,9 +1566,9 @@ l
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 :
                 
@@ -1565,10 +1591,10 @@ l
 .
 endswith
 (
-'
+"
 .
 lib
-'
+"
 )
 :
                 
@@ -1639,29 +1665,29 @@ l
 if
 spec
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 none
-'
+"
 :
             
 if
 not
 (
-'
+"
 actions
-'
+"
 in
 spec
 or
-'
+"
 copies
-'
+"
 in
 spec
 )
@@ -1672,21 +1698,21 @@ continue
 elif
 spec
 [
-'
+"
 type
-'
+"
 ]
 in
 (
-'
+"
 static_library
-'
-'
+"
+"
 shared_library
-'
-'
+"
+"
 executable
-'
+"
 )
 :
             
@@ -1718,27 +1744,27 @@ ensure_text
 (
 spec
 [
-'
+"
 target_name
-'
+"
 ]
 )
             
 if
 spec
 [
-'
+"
 type
-'
+"
 ]
 in
 (
-'
+"
 static_library
-'
-'
+"
+"
 shared_library
-'
+"
 )
 :
                 
@@ -1747,9 +1773,9 @@ name
 .
 startswith
 (
-'
+"
 lib
-'
+"
 )
 :
                     
@@ -1763,9 +1789,9 @@ name
                 
 context
 [
-'
+"
 LIBRARY_NAME
-'
+"
 ]
 =
 name
@@ -1775,9 +1801,9 @@ else
                 
 context
 [
-'
+"
 PROGRAM
-'
+"
 ]
 =
 name
@@ -1785,66 +1811,69 @@ name
 if
 spec
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 shared_library
-'
+"
 :
                 
 context
 [
-'
+"
 FORCE_SHARED_LIB
-'
+"
 ]
 =
 True
             
 elif
+(
+                
 spec
 [
-'
+"
 type
-'
+"
 ]
 =
 =
-'
+"
 static_library
-'
+"
+                
 and
-\
-                    
 spec
 .
 get
 (
-'
+"
 variables
-'
+"
 {
 }
 )
 .
 get
 (
-'
+"
 no_expand_libs
-'
-'
+"
+"
 0
-'
+"
 )
 =
 =
-'
+"
 1
-'
+"
+            
+)
 :
                 
 #
@@ -1894,9 +1923,9 @@ library
                 
 context
 [
-'
+"
 NO_EXPAND_LIBS
-'
+"
 ]
 =
 True
@@ -1907,9 +1936,9 @@ use_libs
                 
 context
 [
-'
+"
 USE_LIBS
-'
+"
 ]
 =
 sorted
@@ -1933,9 +1962,9 @@ os_libs
                 
 context
 [
-'
+"
 OS_LIBS
-'
+"
 ]
 =
 os_libs
@@ -1980,9 +2009,9 @@ spec
 .
 get
 (
-'
+"
 sources
-'
+"
 [
 ]
 )
@@ -2013,10 +2042,10 @@ f
 .
 startswith
 (
-'
+"
 INTERMEDIATE_DIR
 /
-'
+"
 )
 :
                     
@@ -2029,13 +2058,13 @@ f
 .
 replace
 (
-'
+"
 INTERMEDIATE_DIR
 /
-'
-'
+"
+"
 !
-'
+"
 )
 )
                 
@@ -2054,10 +2083,10 @@ if
 ext
 =
 =
-'
+"
 .
 h
-'
+"
 :
                     
 continue
@@ -2066,17 +2095,17 @@ if
 ext
 =
 =
-'
+"
 .
 def
-'
+"
 :
                     
 context
 [
-'
+"
 SYMBOLS_FILE
-'
+"
 ]
 =
 s
@@ -2085,10 +2114,10 @@ elif
 ext
 !
 =
-'
+"
 .
 S
-'
+"
 and
 not
 no_unified
@@ -2137,10 +2166,10 @@ if
 ext
 =
 =
-'
+"
 .
 s
-'
+"
 :
                     
 use_defines_in_asflags
@@ -2159,9 +2188,9 @@ sources
             
 context
 [
-'
+"
 SOURCES
-'
+"
 ]
 =
 alphabetical_sorted
@@ -2171,9 +2200,9 @@ sources
             
 context
 [
-'
+"
 UNIFIED_SOURCES
-'
+"
 ]
 =
 alphabetical_sorted
@@ -2187,9 +2216,9 @@ target_conf
 .
 get
 (
-'
+"
 defines
-'
+"
 [
 ]
 )
@@ -2199,17 +2228,17 @@ config
 .
 substs
 [
-'
+"
 CC_TYPE
-'
+"
 ]
 =
 =
-'
+"
 clang
 -
 cl
-'
+"
 and
 no_chromium
 :
@@ -2256,11 +2285,13 @@ short_name
 =
 int
 (
+                    
 msvs_settings
 .
 vs_version
 .
 short_name
+                
 )
                 
 defines
@@ -2282,9 +2313,9 @@ defines
 :
                 
 if
-'
+"
 =
-'
+"
 in
 define
 :
@@ -2296,17 +2327,17 @@ define
 .
 split
 (
-'
+"
 =
-'
+"
 1
 )
                     
 context
 [
-'
+"
 DEFINES
-'
+"
 ]
 [
 name
@@ -2319,9 +2350,9 @@ else
                     
 context
 [
-'
+"
 DEFINES
-'
+"
 ]
 [
 define
@@ -2331,12 +2362,12 @@ True
             
 product_dir_dist
 =
-'
+"
 PRODUCT_DIR
 /
 dist
 /
-'
+"
             
 for
 include
@@ -2345,9 +2376,9 @@ target_conf
 .
 get
 (
-'
+"
 include_dirs
-'
+"
 [
 ]
 )
@@ -2393,14 +2424,14 @@ exports
                     
 include
 =
-'
+"
 !
 /
 dist
 /
 include
 /
-'
+"
 +
 include
 [
@@ -2436,10 +2467,10 @@ way
                     
 include
 =
-'
+"
 !
 /
-'
+"
 +
 mozpath
 .
@@ -2606,9 +2637,9 @@ include
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 :
                         
@@ -2618,6 +2649,7 @@ mozpath
 .
 abspath
 (
+                            
 mozpath
 .
 join
@@ -2631,6 +2663,7 @@ include
 :
 ]
 )
+                        
 )
                     
 elif
@@ -2640,12 +2673,12 @@ include
 startswith
 (
 (
-'
+"
 !
-'
-'
+"
+"
 %
-'
+"
 )
 )
 :
@@ -2656,11 +2689,11 @@ mozpath
 .
 abspath
 (
+                            
 mozpath
 .
 join
 (
-                            
 mozpath
 .
 dirname
@@ -2669,6 +2702,7 @@ build_file
 )
 include
 )
+                        
 )
                     
 if
@@ -2678,12 +2712,12 @@ include
 startswith
 (
 (
-'
+"
 !
-'
-'
+"
+"
 %
-'
+"
 )
 )
 and
@@ -2694,7 +2728,9 @@ path
 .
 exists
 (
+                        
 resolved
+                    
 )
 :
                         
@@ -2702,9 +2738,9 @@ continue
                 
 context
 [
-'
+"
 LOCAL_INCLUDES
-'
+"
 ]
 +
 =
@@ -2714,18 +2750,18 @@ include
             
 context
 [
-'
+"
 ASFLAGS
-'
+"
 ]
 =
 target_conf
 .
 get
 (
-'
+"
 asflags_mozilla
-'
+"
 [
 ]
 )
@@ -2738,17 +2774,17 @@ defines
                 
 context
 [
-'
+"
 ASFLAGS
-'
+"
 ]
 +
 =
 [
-'
+"
 -
 D
-'
+"
 +
 d
 for
@@ -2762,31 +2798,31 @@ config
 .
 substs
 [
-'
+"
 OS_TARGET
-'
+"
 ]
 =
 =
-'
+"
 SunOS
-'
+"
 :
                 
 context
 [
-'
+"
 LDFLAGS
-'
+"
 ]
 =
 target_conf
 .
 get
 (
-'
+"
 ldflags
-'
+"
 [
 ]
 )
@@ -2797,9 +2833,9 @@ target_conf
 .
 get
 (
-'
+"
 cflags_mozilla
-'
+"
 [
 ]
 )
@@ -2812,62 +2848,60 @@ suffix_map
 =
 {
                     
-'
+"
 .
 c
-'
+"
 :
-'
+"
 CFLAGS
-'
+"
                     
-'
+"
 .
 cpp
-'
+"
 :
-'
+"
 CXXFLAGS
-'
+"
                     
-'
+"
 .
 cc
-'
+"
 :
-'
+"
 CXXFLAGS
-'
+"
                     
-'
+"
 .
 m
-'
+"
 :
-'
+"
 CMFLAGS
-'
+"
                     
-'
+"
 .
 mm
-'
+"
 :
-'
+"
 CMMFLAGS
-'
+"
                 
 }
                 
 variables
 =
 (
-                    
 suffix_map
 [
 e
 ]
-                    
 for
 e
 in
@@ -2876,7 +2910,6 @@ if
 e
 in
 suffix_map
-                
 )
                 
 for
@@ -3034,7 +3067,7 @@ necessary
 raise
 NotImplementedError
 (
-'
+"
 Unsupported
 gyp
 target
@@ -3042,13 +3075,13 @@ type
 :
 %
 s
-'
+"
 %
 spec
 [
-'
+"
 type
-'
+"
 ]
 )
         
@@ -3078,15 +3111,15 @@ matters
             
 context
 [
-'
+"
 LOCAL_INCLUDES
-'
+"
 ]
 +
 =
 [
                 
-'
+"
 !
 /
 ipc
@@ -3094,23 +3127,23 @@ ipc
 ipdl
 /
 _ipdlheaders
-'
+"
                 
-'
+"
 /
 ipc
 /
 chromium
 /
 src
-'
+"
                 
-'
+"
 /
 ipc
 /
 glue
-'
+"
             
 ]
             
@@ -3134,55 +3167,55 @@ config
 .
 substs
 [
-'
+"
 OS_TARGET
-'
+"
 ]
 =
 =
-'
+"
 WINNT
-'
+"
 :
                 
 context
 [
-'
+"
 DEFINES
-'
+"
 ]
 [
-'
+"
 UNICODE
-'
+"
 ]
 =
 True
                 
 context
 [
-'
+"
 DEFINES
-'
+"
 ]
 [
-'
+"
 _UNICODE
-'
+"
 ]
 =
 True
         
 context
 [
-'
+"
 COMPILE_FLAGS
-'
+"
 ]
 [
-'
+"
 OS_INCLUDES
-'
+"
 ]
 =
 [
@@ -3452,15 +3485,23 @@ build
 def
 __init__
 (
+        
 self
+        
 config
+        
 gyp_dir_attrs
+        
 path
+        
 output
+        
 executor
-                 
+        
 action_overrides
+        
 non_unified_sources
+    
 )
 :
         
@@ -3543,17 +3584,17 @@ config
 .
 substs
 [
-'
+"
 CC_TYPE
-'
+"
 ]
 =
 =
-'
+"
 clang
 -
 cl
-'
+"
 :
             
 #
@@ -3593,63 +3634,67 @@ environ
 .
 update
 (
+                
 ensure_subprocess_env
 (
+                    
 {
-                
-'
+                        
+"
 GYP_MSVS_OVERRIDE_PATH
-'
+"
 :
-'
+"
 fake_path
-'
-                
-'
+"
+                        
+"
 GYP_MSVS_VERSION
-'
+"
 :
 config
 .
 substs
 [
-'
+"
 MSVS_VERSION
-'
+"
 ]
-            
+                    
 }
+                
 )
+            
 )
         
 params
 =
 {
             
-'
+"
 parallel
-'
+"
 :
 False
             
-'
+"
 generator_flags
-'
+"
 :
 {
 }
             
-'
+"
 build_files
-'
+"
 :
 [
 path
 ]
             
-'
+"
 root_targets
-'
+"
 :
 None
         
@@ -3697,15 +3742,14 @@ mozpath
 join
 (
 script_dir
-'
+"
 gyp_includes
-'
-                                     
-'
+"
+"
 common
 .
 gypi
-'
+"
 )
 ]
             
@@ -3720,6 +3764,7 @@ includes
 .
 extend
 (
+                
 mozpath
 .
 join
@@ -3727,7 +3772,7 @@ join
 chrome_src
 name
 )
-                            
+                
 for
 name
 _
@@ -3736,14 +3781,15 @@ finder
 .
 find
 (
-'
+"
 *
 /
 supplement
 .
 gypi
-'
+"
 )
+            
 )
         
 str_vars
@@ -3757,9 +3803,9 @@ variables
         
 str_vars
 [
-'
+"
 python
-'
+"
 ]
 =
 sys
@@ -3774,19 +3820,19 @@ executor
 .
 submit
 (
+            
 load_gyp
 [
 path
 ]
-'
+"
 mozbuild
-'
-                                                  
+"
 str_vars
 includes
-                                                  
 depth
 params
+        
 )
     
 property
@@ -3898,31 +3944,37 @@ res
 in
 process_gyp_result
 (
+                
 (
 flat_list
 targets
 data
 )
+                
 self
 .
 _gyp_dir_attrs
-                                          
+                
 self
 .
 _path
+                
 self
 .
 _config
+                
 self
 .
 _output
-                                          
+                
 self
 .
 _non_unified_sources
+                
 self
 .
 _action_overrides
+            
 )
 :
                 

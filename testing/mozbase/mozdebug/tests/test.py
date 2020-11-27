@@ -67,9 +67,9 @@ path
 join
 (
 here
-'
+"
 fake_debuggers
-'
+"
 )
     
 def
@@ -96,10 +96,10 @@ d
 .
 endswith
 (
-'
+"
 .
 exe
-'
+"
 )
 :
                 
@@ -111,10 +111,10 @@ d
 -
 len
 (
-'
+"
 .
 exe
-'
+"
 )
 ]
             
@@ -137,9 +137,9 @@ monkeypatch
 .
 setenv
 (
-'
+"
 PATH
-'
+"
 os
 .
 pathsep
@@ -158,25 +158,25 @@ mark
 .
 parametrize
 (
-'
+"
 os_name
-'
+"
 [
-'
+"
 android
-'
-'
+"
+"
 linux
-'
-'
+"
+"
 mac
-'
-'
+"
+"
 win
-'
-'
+"
+"
 unknown
-'
+"
 ]
 )
 def
@@ -209,9 +209,9 @@ mozinfo
 .
 info
 [
-'
+"
 os
-'
+"
 ]
 =
 os_name
@@ -221,9 +221,9 @@ monkeypatch
 setattr
 (
 mozinfo
-'
+"
 find_and_update_from_json
-'
+"
 update_os_name
 )
     
@@ -233,9 +233,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
         
 #
@@ -273,12 +273,12 @@ monkeypatch
 setattr
 (
 sys
-'
+"
 platform
-'
-'
+"
+"
 linux
-'
+"
 )
     
 debuggers
@@ -347,6 +347,8 @@ is
 None
             
 assert
+(
+                
 get_default_debugger_name
 (
 DebuggerSearch
@@ -360,6 +362,8 @@ debuggers
 -
 1
 ]
+            
+)
         
 debuggers
 =
@@ -373,9 +377,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

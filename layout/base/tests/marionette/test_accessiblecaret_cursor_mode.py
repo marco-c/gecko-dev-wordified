@@ -128,9 +128,9 @@ MarionetteTestCase
 )
 :
     
-'
-'
-'
+"
+"
+"
 Test
 cases
 for
@@ -160,9 +160,9 @@ for
 short
 .
     
-'
-'
-'
+"
+"
+"
     
 #
 Element
@@ -171,39 +171,39 @@ IDs
     
 _input_id
 =
-'
+"
 input
-'
+"
     
 _input_padding_id
 =
-'
+"
 input
 -
 padding
-'
+"
     
 _textarea_id
 =
-'
+"
 textarea
-'
+"
     
 _textarea_one_line_id
 =
-'
+"
 textarea
 -
 one
 -
 line
-'
+"
     
 _contenteditable_id
 =
-'
+"
 contenteditable
-'
+"
     
 #
 Test
@@ -213,13 +213,13 @@ files
     
 _cursor_html
 =
-'
+"
 layout
 /
 test_carets_cursor
 .
 html
-'
+"
     
 def
 setUp
@@ -253,25 +253,29 @@ self
 .
 caret_tested_pref
 =
-'
+"
 layout
 .
 accessiblecaret
 .
 enabled
-'
+"
         
 self
 .
 hide_carets_for_mouse
 =
-'
+(
+            
+"
 layout
 .
 accessiblecaret
 .
 hide_carets_for_mouse_input
-'
+"
+        
+)
         
 self
 .
@@ -430,9 +434,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 target_content
 =
@@ -551,12 +555,13 @@ actions
 .
 flick
 (
+            
 el
 first_caret0_x
 first_caret0_y
-                           
 first_caret1_x
 first_caret1_y
+        
 )
 .
 perform
@@ -650,9 +655,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 target_content
 =
@@ -731,17 +736,17 @@ el
 .
 rect
 [
-'
+"
 width
-'
+"
 ]
 el
 .
 rect
 [
-'
+"
 height
-'
+"
 ]
         
 self
@@ -848,9 +853,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 target_content
 =
@@ -1072,9 +1077,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 non_target_content
 =
@@ -1309,9 +1314,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 non_target_content
 =
@@ -1468,8 +1473,10 @@ _contenteditable_id
 def
 test_caret_not_jump_to_front_when_dragging_up_to_editable_content_boundary
 (
+        
 self
 el_id
+    
 )
 :
         
@@ -1505,9 +1512,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 non_target_content
 =
@@ -1650,13 +1657,13 @@ self
 .
 open_test_html
 (
-'
+"
 layout
 /
 test_carets_columns
 .
 html
-'
+"
 )
         
 el
@@ -1670,11 +1677,11 @@ find_element
 By
 .
 ID
-'
+"
 columns
 -
 inner
-'
+"
 )
         
 sel
@@ -1686,9 +1693,9 @@ el
         
 content_to_add
 =
-'
+"
 !
-'
+"
         
 target_content
 =
@@ -1744,13 +1751,13 @@ find_element
 By
 .
 ID
-'
+"
 before
 -
 image
 -
 1
-'
+"
 )
         
 before_image_1
@@ -1807,17 +1814,17 @@ el
 .
 rect
 [
-'
+"
 width
-'
+"
 ]
 el
 .
 rect
 [
-'
+"
 height
-'
+"
 ]
         
 #
@@ -1917,18 +1924,18 @@ el
         
 content_to_add_1
 =
-'
+"
 !
-'
+"
         
 content_to_add_2
 =
-'
+"
 \
 n
 \
 n
-'
+"
         
 target_content
 =
@@ -2049,7 +2056,6 @@ send_keys
 (
 content_to_add_2
 )
-;
         
 #
 Tap

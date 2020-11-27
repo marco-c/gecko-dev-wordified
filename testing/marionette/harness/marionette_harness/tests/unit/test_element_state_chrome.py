@@ -375,9 +375,9 @@ assertTrue
 (
 rect
 [
-'
+"
 x
-'
+"
 ]
 >
 0
@@ -389,9 +389,9 @@ assertTrue
 (
 rect
 [
-'
+"
 y
-'
+"
 ]
 >
 0
@@ -412,6 +412,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 window
@@ -426,6 +427,7 @@ textInput
 )
 ;
 "
+        
 )
         
 self
@@ -460,6 +462,7 @@ marionette
 .
 execute_script
 (
+            
 "
 return
 window
@@ -474,6 +477,7 @@ textInput
 )
 ;
 "
+        
 )
         
 self

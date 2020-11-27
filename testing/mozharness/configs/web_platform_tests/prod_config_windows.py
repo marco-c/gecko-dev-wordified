@@ -268,19 +268,19 @@ exes
 :
 {
         
-'
+"
 python
-'
+"
 :
 sys
 .
 executable
         
-'
+"
 hg
-'
+"
 :
-'
+"
 c
 :
 /
@@ -291,7 +291,7 @@ build
 hg
 /
 hg
-'
+"
     
 }
     
@@ -491,6 +491,7 @@ configuration
 .
 json
 "
+            
 ]
             
 "

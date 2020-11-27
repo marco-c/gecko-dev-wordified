@@ -53,9 +53,9 @@ MPL
 0
 /
 .
-'
-'
-'
+"
+"
+"
 Strip
 all
 files
@@ -68,9 +68,9 @@ the
 given
 directory
 .
-'
-'
-'
+"
+"
+"
 import
 sys
 from
@@ -167,9 +167,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 strip

@@ -77,16 +77,16 @@ subprocess
 check_call
 (
 [
-'
+"
 7z
-'
-'
+"
+"
 x
-'
+"
 package
-'
+"
 core
-'
+"
 ]
 )
     
@@ -94,9 +94,9 @@ shutil
 .
 move
 (
-'
+"
 core
-'
+"
 target
 )
 def
@@ -118,7 +118,7 @@ args
         
 print
 (
-'
+"
 Usage
 :
 exe_7z_extract
@@ -130,8 +130,7 @@ package
 <
 target
 >
-'
-              
+"
 file
 =
 sys
@@ -163,9 +162,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys

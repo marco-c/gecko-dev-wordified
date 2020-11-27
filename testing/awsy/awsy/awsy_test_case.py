@@ -369,9 +369,9 @@ marionette
 .
 set_context
 (
-'
+"
 chrome
-'
+"
 )
         
 self
@@ -395,9 +395,9 @@ self
 .
 testvars
 [
-'
+"
 bin
-'
+"
 ]
         
 self
@@ -410,9 +410,9 @@ testvars
 .
 get
 (
-'
+"
 run_local
-'
+"
 False
 )
         
@@ -429,7 +429,8 @@ for
 patt
 in
 (
-'
+            
+"
 memory
 -
 report
@@ -439,15 +440,15 @@ report
 json
 .
 gz
-'
-                     
-'
+"
+            
+"
 perfherder_data
 .
 json
-'
-                     
-'
+"
+            
+"
 dmd
 -
 *
@@ -455,7 +456,8 @@ dmd
 json
 .
 gz
-'
+"
+        
 )
 :
             
@@ -594,6 +596,7 @@ logger
 .
 info
 (
+            
 "
 areweslimyet
 run
@@ -605,7 +608,7 @@ pages
 d
 iterations
 "
-                         
+            
 "
 %
 d
@@ -614,23 +617,28 @@ perTabPause
 d
 settleWaitTime
 "
-                         
+            
 %
 (
+                
 self
 .
 _pages_to_load
+                
 self
 .
 _iterations
-                            
+                
 self
 .
 _perTabPause
+                
 self
 .
 _settleWaitTime
+            
 )
+        
 )
         
 self
@@ -682,27 +690,29 @@ process_perf_data
 .
 create_perf_data
 (
-                            
+                
 self
 .
 _resultsDir
+                
 self
 .
 perf_suites
 (
 )
-                            
+                
 self
 .
 perf_checkpoints
 (
 )
-                            
+                
 self
 .
 perf_extra_opts
 (
 )
+            
 )
             
 self
@@ -748,9 +758,9 @@ with
 open
 (
 perf_file
-'
+"
 w
-'
+"
 )
 as
 fp
@@ -840,9 +850,9 @@ if
 set
             
 if
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 in
 os
 .
@@ -1029,9 +1039,9 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
                 
@@ -1413,45 +1423,41 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
             
 checkpoint_path
 =
-(
 checkpoint_path
 .
-                               
 replace
 (
-'
+"
 \
 \
-'
-'
+"
+"
 \
 \
 \
 \
-'
+"
 )
 .
-                               
 replace
 (
-'
+"
 /
-'
-'
+"
+"
 \
 \
 \
 \
-'
-)
+"
 )
         
 checkpoint_script
@@ -1549,8 +1555,9 @@ s
 "
 %
 (
+            
 checkpoint_path
-                   
+            
 "
 true
 "
@@ -1560,6 +1567,7 @@ else
 "
 false
 "
+        
 )
         
 checkpoint
@@ -1582,6 +1590,7 @@ checkpoint_script
 script_timeout
 =
 60000
+            
 )
             
 if
@@ -1946,6 +1955,8 @@ gz
         
 dmd_script
 =
+(
+            
 r
 "
 "
@@ -2012,8 +2023,11 @@ false
 "
 "
 "
+            
 %
 ident
+        
+)
         
 try
 :
@@ -2092,8 +2106,11 @@ d
 "
 %
 (
+                
 checkpointName
+                
 iteration
+            
 )
             
 max_wait
@@ -2678,9 +2695,9 @@ marionette
 .
 using_context
 (
-'
+"
 content
-'
+"
 )
 :
             

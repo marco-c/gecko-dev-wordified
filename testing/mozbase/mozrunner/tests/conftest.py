@@ -81,9 +81,9 @@ fixture
 (
 scope
 =
-'
+"
 session
-'
+"
 )
 def
 get_binary
@@ -92,9 +92,9 @@ get_binary
 :
     
 if
-'
+"
 BROWSER_PATH
-'
+"
 in
 os
 .
@@ -105,18 +105,18 @@ os
 .
 environ
 [
-'
+"
 GECKO_BINARY_PATH
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 BROWSER_PATH
-'
+"
 ]
     
 def
@@ -131,15 +131,15 @@ app
 not
 in
 (
-'
+"
 chrome
-'
-'
+"
+"
 chromium
-'
-'
+"
+"
 firefox
-'
+"
 )
 :
             
@@ -167,9 +167,9 @@ if
 app
 =
 =
-'
+"
 firefox
-'
+"
 :
             
 binary
@@ -184,9 +184,9 @@ elif
 app
 =
 =
-'
+"
 chrome
-'
+"
 :
             
 binary
@@ -197,18 +197,18 @@ environ
 .
 get
 (
-'
+"
 CHROME_BINARY_PATH
-'
+"
 )
         
 elif
 app
 =
 =
-'
+"
 chromium
-'
+"
 :
             
 binary
@@ -219,9 +219,9 @@ environ
 .
 get
 (
-'
+"
 CHROMIUM_BINARY_PATH
-'
+"
 )
         
 if
@@ -261,15 +261,15 @@ fixture
 params
 =
 [
-'
+"
 firefox
-'
-'
+"
+"
 chrome
-'
-'
+"
+"
 chromium
-'
+"
 ]
 )
 def
@@ -296,23 +296,23 @@ app
 cmdargs
 =
 [
-'
+"
 -
 -
 headless
-'
+"
 ]
     
 if
 app
 in
 [
-'
+"
 chrome
-'
-'
+"
+"
 chromium
-'
+"
 ]
 :
         
@@ -331,7 +331,7 @@ cmdargs
 .
 append
 (
-'
+"
 -
 -
 remote
@@ -341,7 +341,7 @@ debugging
 port
 =
 9222
-'
+"
 )
         
 #
@@ -361,13 +361,13 @@ cmdargs
 .
 append
 (
-'
+"
 -
 -
 disable
 -
 gpu
-'
+"
 )
     
 runner

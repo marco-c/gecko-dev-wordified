@@ -93,11 +93,11 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 utils
-'
+"
 )
 here
 =
@@ -124,9 +124,9 @@ environ
 .
 get
 (
-'
+"
 EXTERNALTOOLSPATH
-'
+"
 None
 )
 if
@@ -152,11 +152,11 @@ path
 join
 (
 external_tools_path
-'
+"
 tooltool
 .
 py
-'
+"
 )
 def
 transform_platform
@@ -228,20 +228,20 @@ win
 "
     
 if
-'
+"
 {
 platform
 }
-'
+"
 not
 in
 str_to_transform
 and
-'
+"
 {
 x64
 }
-'
+"
 not
 in
 str_to_transform
@@ -251,49 +251,49 @@ return
 str_to_transform
     
 if
-'
+"
 win
-'
+"
 in
 config_platform
 :
         
 platform_id
 =
-'
+"
 win
-'
+"
     
 elif
 config_platform
 =
 =
-'
+"
 mac
-'
+"
 :
         
 platform_id
 =
-'
+"
 osx
-'
+"
     
 else
 :
         
 platform_id
 =
-'
+"
 linux64
-'
+"
     
 if
-'
+"
 {
 platform
 }
-'
+"
 in
 str_to_transform
 :
@@ -304,20 +304,20 @@ str_to_transform
 .
 replace
 (
-'
+"
 {
 platform
 }
-'
+"
 platform_id
 )
     
 if
-'
+"
 {
 x64
 }
-'
+"
 in
 str_to_transform
 and
@@ -328,9 +328,9 @@ None
 :
         
 if
-'
+"
 x86_64
-'
+"
 in
 config_processor
 :
@@ -341,14 +341,14 @@ str_to_transform
 .
 replace
 (
-'
+"
 {
 x64
 }
-'
-'
+"
+"
 _x64
-'
+"
 )
         
 else
@@ -360,13 +360,13 @@ str_to_transform
 .
 replace
 (
-'
+"
 {
 x64
 }
-'
-'
-'
+"
+"
+"
 )
     
 return
@@ -422,11 +422,11 @@ manifest
 "
     
 if
-'
+"
 {
 subtest
 }
-'
+"
 not
 in
 str_to_transform
@@ -440,11 +440,11 @@ str_to_transform
 .
 replace
 (
-'
+"
 {
 subtest
 }
-'
+"
 subtest_name
 )
 def
@@ -476,7 +476,7 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 view
@@ -484,7 +484,7 @@ view
 gecko
 -
 profile
-'
+"
 )
     
 profile_zip_path
@@ -495,9 +495,9 @@ environ
 .
 get
 (
-'
+"
 RAPTOR_LATEST_GECKO_PROFILE_ARCHIVE
-'
+"
 None
 )
     
@@ -521,6 +521,7 @@ LOG_GECKO
 .
 info
 (
+            
 "
 No
 local
@@ -532,7 +533,7 @@ found
 so
 not
 "
-                       
+            
 "
 launching
 profiler
@@ -541,6 +542,7 @@ firefox
 .
 com
 "
+        
 )
         
 return
@@ -610,9 +612,9 @@ with
 open
 (
 yml_file
-'
+"
 w
-'
+"
 )
 as
 outfile

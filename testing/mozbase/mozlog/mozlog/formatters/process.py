@@ -138,6 +138,7 @@ signal
             
 if
 (
+                
 k
 .
 startswith
@@ -157,7 +158,7 @@ startswith
 SIG_
 "
 )
-                    
+                
 and
 k
 !
@@ -165,6 +166,7 @@ k
 "
 SIGCLD
 "
+                
 and
 k
 !
@@ -172,6 +174,7 @@ k
 "
 SIGPOLL
 "
+            
 )
 :
                 
@@ -349,9 +352,9 @@ os
 name
 !
 =
-'
+"
 posix
-'
+"
 :
         
 #

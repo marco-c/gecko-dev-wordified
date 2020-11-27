@@ -90,14 +90,14 @@ MachCommandBase
     
 Command
 (
-'
+"
 cmd_foo
-'
+"
 category
 =
-'
+"
 testing
-'
+"
 )
     
 def
@@ -111,36 +111,35 @@ pass
     
 Command
 (
-'
+"
 cmd_bar
-'
+"
 category
 =
-'
+"
 testing
-'
+"
 )
     
 CommandArgument
 (
-'
+"
 -
 -
 baz
-'
+"
 action
 =
 "
 store_true
 "
-                     
 help
 =
-'
+"
 Run
 with
 baz
-'
+"
 )
     
 def

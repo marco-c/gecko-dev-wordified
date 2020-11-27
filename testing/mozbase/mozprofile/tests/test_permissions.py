@@ -143,11 +143,11 @@ tmpdir
 .
 join
 (
-'
+"
 locations
 .
 txt
-'
+"
 )
     
 locations_file
@@ -179,9 +179,9 @@ tmpdir
 .
 mkdir
 (
-'
+"
 profile
-'
+"
 )
 .
 strpath
@@ -209,23 +209,23 @@ path
 join
 (
 profile_dir
-'
+"
 permissions
 .
 sqlite
-'
+"
 )
     
 select_stmt
 =
-'
+"
 select
 origin
 type
 permission
 from
 moz_hosts
-'
+"
     
 con
 =
@@ -278,7 +278,7 @@ entries
 ]
 =
 =
-'
+"
 http
 :
 /
@@ -288,7 +288,7 @@ mochi
 test
 :
 8888
-'
+"
     
 assert
 entries
@@ -300,9 +300,9 @@ entries
 ]
 =
 =
-'
+"
 allowXULXBL
-'
+"
     
 assert
 entries
@@ -326,7 +326,7 @@ entries
 ]
 =
 =
-'
+"
 http
 :
 /
@@ -338,7 +338,7 @@ http
 0
 .
 1
-'
+"
     
 assert
 entries
@@ -350,9 +350,9 @@ entries
 ]
 =
 =
-'
+"
 allowXULXBL
-'
+"
     
 assert
 entries
@@ -376,7 +376,7 @@ entries
 ]
 =
 =
-'
+"
 http
 :
 /
@@ -390,7 +390,7 @@ http
 1
 :
 8888
-'
+"
     
 assert
 entries
@@ -402,9 +402,9 @@ entries
 ]
 =
 =
-'
+"
 allowXULXBL
-'
+"
     
 assert
 entries
@@ -424,28 +424,28 @@ _locations
 .
 add_host
 (
-'
+"
 a
 .
 b
 .
 c
-'
+"
 port
 =
-'
+"
 8081
-'
+"
 scheme
 =
-'
+"
 https
-'
+"
 options
 =
-'
+"
 noxul
-'
+"
 )
     
 cur
@@ -482,7 +482,7 @@ entries
 ]
 =
 =
-'
+"
 https
 :
 /
@@ -494,7 +494,7 @@ b
 c
 :
 8081
-'
+"
     
 assert
 entries
@@ -506,9 +506,9 @@ entries
 ]
 =
 =
-'
+"
 allowXULXBL
-'
+"
     
 assert
 entries
@@ -540,10 +540,10 @@ cur
 .
 execute
 (
-'
+"
 PRAGMA
 user_version
-'
+"
 )
     
 entries
@@ -674,13 +674,13 @@ user_prefs
 =
 =
 (
-'
+"
 network
 .
 proxy
 .
 type
-'
+"
 2
 )
     
@@ -694,16 +694,18 @@ user_prefs
 ]
 =
 =
-'
+"
 network
 .
 proxy
 .
 autoconfig_url
-'
+"
     
 origins_decl
 =
+(
+        
 "
 var
 knownOrigins
@@ -727,8 +729,7 @@ test
 8888
 '
 "
-\
-                   
+        
 "
 '
 http
@@ -765,6 +766,8 @@ http
 reduce
 "
     
+)
+    
 assert
 origins_decl
 in
@@ -779,6 +782,7 @@ user_prefs
 proxy_check
 =
 (
+        
 "
 '
 http
@@ -793,7 +797,7 @@ test
 8888
 '
 "
-                   
+        
 "
 '
 https
@@ -808,7 +812,7 @@ test
 4443
 '
 "
-                   
+        
 "
 '
 ws
@@ -823,7 +827,7 @@ test
 4443
 '
 "
-                   
+        
 "
 '
 wss
@@ -838,6 +842,7 @@ test
 4443
 '
 "
+    
 )
     
 assert
@@ -872,11 +877,11 @@ tmpdir
 .
 join
 (
-'
+"
 permissions
 .
 sqlite
-'
+"
 )
 .
 strpath
@@ -974,6 +979,7 @@ cursor
 .
 execute
 (
+            
 "
 "
 "
@@ -1011,6 +1017,7 @@ INTEGER
 "
 "
 "
+        
 )
     
 elif
@@ -1024,6 +1031,7 @@ cursor
 .
 execute
 (
+            
 "
 "
 "
@@ -1067,6 +1075,7 @@ INTEGER
 "
 "
 "
+        
 )
     
 elif
@@ -1080,6 +1089,7 @@ cursor
 .
 execute
 (
+            
 "
 "
 "
@@ -1120,6 +1130,7 @@ INTEGER
 "
 "
 "
+        
 )
     
 elif
@@ -1133,6 +1144,7 @@ cursor
 .
 execute
 (
+            
 "
 "
 "
@@ -1167,6 +1179,7 @@ INTEGER
 "
 "
 "
+        
 )
     
 else
@@ -1253,12 +1266,12 @@ databases
     
 select_stmt
 =
-'
+"
 select
 *
 from
 moz_hosts
-'
+"
     
 cur
 =
@@ -1377,11 +1390,11 @@ path
 join
 (
 profile_dir
-'
+"
 permissions
 .
 sqlite
-'
+"
 )
     
 perms
@@ -1391,21 +1404,21 @@ write_db
 open
 (
 locations_file
-'
+"
 w
 +
 b
-'
+"
 )
 )
     
 stmt
 =
-'
+"
 PRAGMA
 user_version
 ;
-'
+"
     
 con
 =
@@ -1458,9 +1471,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

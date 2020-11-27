@@ -106,7 +106,7 @@ Unwanted
 software
 URL
             
-'
+"
 https
 :
 /
@@ -122,13 +122,13 @@ firefox
 unwanted
 .
 html
-'
+"
             
 #
 Phishing
 URL
             
-'
+"
 https
 :
 /
@@ -148,13 +148,13 @@ a
 trap
 .
 html
-'
+"
             
 #
 Malware
 URL
             
-'
+"
 https
 :
 /
@@ -174,7 +174,7 @@ an
 attack
 .
 html
-'
+"
         
 ]
         
@@ -188,13 +188,13 @@ marionette
 .
 get_pref
 (
-'
+"
 browser
 .
 startup
 .
 homepage
-'
+"
 )
         
 self
@@ -223,13 +223,13 @@ marionette
 .
 set_pref
 (
-'
+"
 app
 .
 support
 .
 baseURL
-'
+"
 self
 .
 support_page
@@ -241,7 +241,7 @@ marionette
 .
 set_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -249,7 +249,7 @@ safebrowsing
 phishing
 .
 enabled
-'
+"
 True
 )
         
@@ -259,7 +259,7 @@ marionette
 .
 set_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -267,7 +267,7 @@ safebrowsing
 malware
 .
 enabled
-'
+"
 True
 )
         
@@ -377,13 +377,13 @@ marionette
 .
 clear_pref
 (
-'
+"
 app
 .
 support
 .
 baseURL
-'
+"
 )
             
 self
@@ -392,7 +392,7 @@ marionette
 .
 clear_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -400,7 +400,7 @@ safebrowsing
 malware
 .
 enabled
-'
+"
 )
             
 self
@@ -409,7 +409,7 @@ marionette
 .
 clear_pref
 (
-'
+"
 browser
 .
 safebrowsing
@@ -417,14 +417,14 @@ safebrowsing
 phishing
 .
 enabled
-'
+"
 )
             
 self
 .
 remove_permission
 (
-'
+"
 https
 :
 /
@@ -434,12 +434,12 @@ www
 itisatrap
 .
 org
-'
-'
+"
+"
 safe
 -
 browsing
-'
+"
 )
             
 self
@@ -664,9 +664,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -676,6 +676,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -752,12 +753,14 @@ arguments
 "
 "
 "
+                
 script_args
 =
 [
 host
 permission
 ]
+            
 )
     
 def
@@ -821,6 +824,7 @@ mn
 get_url
 (
 )
+        
 )
     
 def
@@ -859,9 +863,9 @@ marionette
 .
 using_context
 (
-'
+"
 chrome
-'
+"
 )
 :
             
@@ -873,6 +877,7 @@ marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -926,6 +931,7 @@ malware
 "
 "
 "
+            
 )
         
 button
@@ -939,9 +945,9 @@ find_element
 By
 .
 ID
-'
+"
 seeDetailsButton
-'
+"
 )
         
 button
@@ -1024,6 +1030,7 @@ element_stale
 (
 button
 )
+        
 )
         
 #
@@ -1173,9 +1180,9 @@ find_element
 By
 .
 ID
-'
+"
 seeDetailsButton
-'
+"
 )
         
 button
@@ -1195,9 +1202,9 @@ find_element
 By
 .
 ID
-'
+"
 ignore_warning_link
-'
+"
 )
         
 link
@@ -1232,12 +1239,13 @@ element_present
 By
 .
 ID
-'
+"
 main
 -
 feature
-'
+"
 )
+        
 )
         
 self
@@ -1275,7 +1283,7 @@ self
 .
 remove_permission
 (
-'
+"
 https
 :
 /
@@ -1285,10 +1293,10 @@ www
 itisatrap
 .
 org
-'
-'
+"
+"
 safe
 -
 browsing
-'
+"
 )

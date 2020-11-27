@@ -165,13 +165,13 @@ keys
 :
             
 if
-'
+"
 update
 -
 verify
 -
 config
-'
+"
 in
 upstream
 :
@@ -207,46 +207,46 @@ upstream
         
 task
 [
-'
+"
 run
-'
+"
 ]
 =
 {
             
-'
+"
 using
-'
+"
 :
-'
+"
 run
 -
 task
-'
+"
             
-'
+"
 cwd
-'
+"
 :
-'
+"
 {
 checkout
 }
-'
+"
             
-'
+"
 command
-'
+"
 :
 {
                 
-'
+"
 artifact
 -
 reference
-'
+"
 :
-'
+"
 tools
 /
 update
@@ -260,11 +260,11 @@ final
 verification
 .
 sh
-'
-                                      
+"
+                
 +
-'
-'
+"
+"
 .
 join
 (
@@ -273,17 +273,17 @@ final_verify_configs
             
 }
             
-'
+"
 sparse
 -
 profile
-'
+"
 :
-'
+"
 update
 -
 verify
-'
+"
         
 }
         

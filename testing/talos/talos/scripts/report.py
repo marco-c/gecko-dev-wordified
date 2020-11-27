@@ -43,10 +43,10 @@ path
 [
 0
 ]
-'
+"
 .
 .
-'
+"
 )
 )
 def
@@ -61,9 +61,9 @@ platform
 .
 startswith
 (
-'
+"
 OSX
-'
+"
 )
 :
         
@@ -72,19 +72,19 @@ compare
 .
 branch_map
 [
-'
+"
 Inbound
-'
+"
 ]
 [
-'
+"
 pgo
-'
+"
 ]
 [
-'
+"
 id
-'
+"
 ]
     
 return
@@ -92,19 +92,19 @@ compare
 .
 branch_map
 [
-'
+"
 Inbound
-'
+"
 ]
 [
-'
+"
 nonpgo
-'
+"
 ]
 [
-'
+"
 id
-'
+"
 ]
 def
 get_all_test_tuples
@@ -156,7 +156,9 @@ platform
     
 return
 [
+        
 (
+            
 compare
 .
 test_map
@@ -164,26 +166,29 @@ test_map
 test
 ]
 [
-'
+"
 id
-'
+"
 ]
-             
+            
 get_branch
 (
 platform
 )
-             
+            
 compare
 .
 platform_map
 [
 platform
 ]
-             
+            
 test
+            
 platform
+        
 )
+    
 ]
 def
 generate_report
@@ -192,9 +197,9 @@ tuple_list
 filepath
 mode
 =
-'
+"
 variance
-'
+"
 )
 :
     
@@ -243,9 +248,9 @@ data
 =
 data_dict
 [
-'
+"
 test_runs
-'
+"
 ]
             
 data
@@ -327,7 +332,7 @@ point
 .
 strftime
 (
-'
+"
 %
 Y
 -
@@ -336,7 +341,7 @@ m
 -
 %
 d
-'
+"
 )
                 
 time_dict
@@ -383,7 +388,7 @@ datetime
 strptime
 (
 time
-'
+"
 %
 Y
 -
@@ -392,15 +397,15 @@ m
 -
 %
 d
-'
+"
 )
 .
 strftime
 (
-'
+"
 %
 A
-'
+"
 )
                 
 variance
@@ -419,9 +424,9 @@ if
 mode
 =
 =
-'
+"
 variance
-'
+"
 :
                     
 days
@@ -446,9 +451,9 @@ elif
 mode
 =
 =
-'
+"
 count
-'
+"
 :
                     
 days
@@ -496,9 +501,9 @@ if
 mode
 =
 =
-'
+"
 variance
-'
+"
 :
                     
 #
@@ -531,7 +536,6 @@ numpy
 .
 average
 (
-                        
 sorted
 (
 days
@@ -548,16 +552,15 @@ tenth
 +
 1
 ]
-                    
 )
                 
 elif
 mode
 =
 =
-'
+"
 count
-'
+"
 :
                     
 average
@@ -652,9 +655,9 @@ with
 open
 (
 filepath
-'
+"
 wb
-'
+"
 )
 as
 report
@@ -679,11 +682,11 @@ avgs_header
 writerow
 (
 [
-'
+"
 test
 -
 platform
-'
+"
 ]
 +
 list
@@ -991,7 +994,6 @@ add_argument
 -
 platform
 "
-                        
 help
 =
 "
@@ -1021,9 +1023,9 @@ mode
 "
 default
 =
-'
+"
 variance
-'
+"
 )
     
 args
@@ -1042,9 +1044,9 @@ get_all_test_tuples
     
 f
 =
-'
+"
 report
-'
+"
     
 if
 args
@@ -1074,11 +1076,11 @@ tuple_list
 f
 +
 =
-'
+"
 -
 %
 s
-'
+"
 %
 args
 .
@@ -1112,11 +1114,11 @@ tuple_list
 f
 +
 =
-'
+"
 -
 %
 s
-'
+"
 %
 args
 .
@@ -1125,11 +1127,11 @@ test
 f
 +
 =
-'
+"
 -
 %
 s
-'
+"
 %
 args
 .
@@ -1142,10 +1144,10 @@ filepath
 =
 f
 +
-'
+"
 .
 csv
-'
+"
 mode
 =
 args

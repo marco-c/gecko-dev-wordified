@@ -104,13 +104,13 @@ SymbolCode
 enumerators
 PrivateNameSymbol
 =
-0xfffffffd
+0xFFFFFFFD
 InSymbolRegistry
 =
-0xfffffffe
+0xFFFFFFFE
 UniqueSymbol
 =
-0xffffffff
+0xFFFFFFFF
 ptr_pretty_printer
 (
 "
@@ -173,13 +173,13 @@ self
 .
 value
 [
-'
+"
 code_
-'
+"
 ]
 )
 &
-0xffffffff
+0xFFFFFFFF
         
 desc
 =

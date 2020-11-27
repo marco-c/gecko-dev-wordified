@@ -103,14 +103,9 @@ mozproxy
 .
 utils
 import
-(
-    
 download_file_from_url
-    
 tooltool_download
-    
 LOG
-)
 #
 path
 for
@@ -424,7 +419,7 @@ certutil
 if
 not
 (
-                    
+                
 os
 .
 path
@@ -435,7 +430,7 @@ self
 .
 certutil_path
 )
-                    
+                
 and
 os
 .

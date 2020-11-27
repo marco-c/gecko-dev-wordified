@@ -105,10 +105,7 @@ mozpack
 .
 files
 import
-(
-    
 ExecutableFile
-)
 import
 mozpack
 .
@@ -128,9 +125,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 that
@@ -143,9 +140,9 @@ package
 manifest
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -154,8 +151,8 @@ self
 name
 destdir
 =
-'
-'
+"
+"
 xz_compress
 =
 False
@@ -167,8 +164,8 @@ name
 .
 find
 (
-'
-'
+"
+"
 )
 >
 0
@@ -319,9 +316,9 @@ lst
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Split
 [
@@ -348,9 +345,9 @@ into
 ]
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 zip
@@ -372,10 +369,11 @@ re
 .
 compile
 (
+        
 r
-'
-'
-'
+"
+"
+"
         
 \
 s
@@ -440,12 +438,14 @@ s
 |
 )
         
-'
-'
-'
+"
+"
+"
+        
 re
 .
 VERBOSE
+    
 )
     
 staticmethod
@@ -457,9 +457,9 @@ string
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Split
 '
@@ -512,9 +512,9 @@ is
 malformed
 .
         
-'
-'
-'
+"
+"
+"
         
 options
 =
@@ -595,10 +595,10 @@ splits
 raise
 ValueError
 (
-'
+"
 Unrecognized
 input
-'
+"
 +
 splits
 [
@@ -630,10 +630,10 @@ no_match
 raise
 ValueError
 (
-'
+"
 Unrecognized
 input
-'
+"
 +
 no_match
 )
@@ -657,9 +657,9 @@ string
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Split
 '
@@ -719,9 +719,9 @@ is
 malformed
 .
         
-'
-'
-'
+"
+"
+"
         
 splits
 =
@@ -745,11 +745,11 @@ splits
 raise
 ValueError
 (
-'
+"
 No
 component
 found
-'
+"
 )
         
 component
@@ -771,11 +771,11 @@ component
 raise
 ValueError
 (
-'
+"
 No
 component
 found
-'
+"
 )
         
 if
@@ -784,7 +784,7 @@ re
 .
 match
 (
-'
+"
 [
 a
 -
@@ -797,7 +797,7 @@ Z0
 -
 ]
 +
-'
+"
 component
 )
 :
@@ -805,11 +805,11 @@ component
 raise
 ValueError
 (
-'
+"
 Bad
 component
 name
-'
+"
 +
 component
 )
@@ -849,9 +849,9 @@ string
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Create
 a
@@ -861,9 +861,9 @@ a
 string
 .
         
-'
-'
-'
+"
+"
+"
         
 try
 :
@@ -888,13 +888,13 @@ errors
 .
 fatal
 (
-'
+"
 Malformed
 manifest
 :
 %
 s
-'
+"
 %
 e
 )
@@ -907,11 +907,11 @@ options
 .
 pop
 (
-'
+"
 destdir
-'
-'
-'
+"
+"
+"
 )
         
 xz_compress
@@ -920,18 +920,18 @@ options
 .
 pop
 (
-'
+"
 xz_compress
-'
-'
+"
+"
 0
-'
+"
 )
 !
 =
-'
+"
 0
-'
+"
         
 if
 options
@@ -941,7 +941,8 @@ errors
 .
 fatal
 (
-'
+                
+"
 Malformed
 manifest
 :
@@ -950,14 +951,14 @@ options
 s
 not
 recognized
-'
-                         
+"
 %
 options
 .
 keys
 (
 )
+            
 )
         
 return
@@ -978,9 +979,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Class
 for
@@ -1096,9 +1097,9 @@ a
 path
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1108,9 +1109,9 @@ sink
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 the
@@ -1123,9 +1124,9 @@ given
 sink
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -1133,8 +1134,8 @@ _component
 =
 Component
 (
-'
-'
+"
+"
 )
         
 self
@@ -1151,9 +1152,9 @@ str
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Handle
 a
@@ -1172,9 +1173,9 @@ sink
 object
 .
         
-'
-'
-'
+"
+"
+"
         
 #
 Remove
@@ -1197,9 +1198,9 @@ str
 .
 startswith
 (
-'
+"
 ;
-'
+"
 )
 :
             
@@ -1210,18 +1211,18 @@ str
 .
 startswith
 (
-'
+"
 [
-'
+"
 )
 and
 str
 .
 endswith
 (
-'
+"
 ]
-'
+"
 )
 :
             
@@ -1247,9 +1248,9 @@ str
 .
 startswith
 (
-'
+"
 -
-'
+"
 )
 :
             
@@ -1274,8 +1275,8 @@ str
 )
         
 elif
-'
-'
+"
+"
 in
 str
 :
@@ -1284,10 +1285,10 @@ errors
 .
 fatal
 (
-'
+"
 Incompatible
 syntax
-'
+"
 )
         
 else
@@ -1311,9 +1312,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 File
 -
@@ -1348,9 +1349,9 @@ errors
 context
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1392,9 +1393,9 @@ _pp
 .
 context
 [
-'
+"
 FILE
-'
+"
 ]
 self
 .
@@ -1402,9 +1403,9 @@ _pp
 .
 context
 [
-'
+"
 LINE
-'
+"
 ]
 )
 :
@@ -1429,9 +1430,9 @@ defines
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Preprocess
 the
@@ -1458,9 +1459,9 @@ given
 parser
 .
     
-'
-'
-'
+"
+"
+"
     
 pp
 =
@@ -1481,9 +1482,9 @@ pp
 .
 do_filter
 (
-'
+"
 substitution
-'
+"
 )
     
 pp
@@ -1514,9 +1515,9 @@ defines
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Preprocess
 the
@@ -1551,9 +1552,9 @@ the
 sink
 .
     
-'
-'
-'
+"
+"
+"
     
 preprocess
 (
@@ -1571,9 +1572,9 @@ deque
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Queue
 of
@@ -1583,9 +1584,9 @@ to
 make
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 append
@@ -1684,9 +1685,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Helper
 used
@@ -1730,9 +1731,9 @@ the
 input
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1913,10 +1914,11 @@ re
 .
 compile
 (
+        
 r
-'
-'
-'
+"
+"
+"
 (
 ?
 :
@@ -1960,12 +1962,14 @@ quote
 )
     
 )
-'
-'
-'
+"
+"
+"
+        
 re
 .
 VERBOSE
+    
 )
     
 def
@@ -1977,9 +1981,9 @@ file
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 the
@@ -1992,9 +1996,9 @@ given
 path
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 not
@@ -2022,10 +2026,10 @@ path
 .
 endswith
 (
-'
+"
 .
 xpt
-'
+"
 )
 :
             
@@ -2071,11 +2075,11 @@ path
 )
 =
 =
-'
+"
 install
 .
 rdf
-'
+"
 :
                 
 addon
@@ -2112,9 +2116,9 @@ install_rdf
                     
 addon
 =
-'
+"
 unpacked
-'
+"
                 
 self
 .
@@ -2138,11 +2142,11 @@ path
 )
 =
 =
-'
+"
 manifest
 .
 json
-'
+"
 :
                 
 manifest
@@ -2187,9 +2191,9 @@ parsed
 dict
 )
 and
-'
+"
 manifest_version
-'
+"
 in
 parsed
 :
@@ -2216,9 +2220,9 @@ addon_type
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 the
@@ -2242,9 +2246,9 @@ the
 collection
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 mozpath
@@ -2314,9 +2318,9 @@ file
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 the
@@ -2332,9 +2336,9 @@ given
 path
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -2347,16 +2351,16 @@ path
         
 base
 =
-'
-'
+"
+"
         
 if
 hasattr
 (
 file
-'
+"
 path
-'
+"
 )
 :
             
@@ -2388,9 +2392,9 @@ b
 .
 endswith
 (
-'
+"
 /
-'
+"
 +
 path
 )
@@ -2431,11 +2435,11 @@ codecs
 .
 getreader
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 (
 file
@@ -2509,7 +2513,6 @@ self
 formatter
 .
 add_manifest
-                                          
 e
 .
 move
@@ -2606,9 +2609,9 @@ _addons
 addon
 ]
 =
-'
+"
 unpacked
-'
+"
             
 if
 isinstance
@@ -2628,15 +2631,14 @@ errors
 .
 fatal
 (
-'
+"
 Flags
 are
 not
 supported
 on
-'
+"
 +
-                                 
 '
 "
 manifest
@@ -2666,9 +2668,9 @@ True
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Return
 all
@@ -2706,28 +2708,27 @@ as
 well
 .
         
-'
-'
-'
+"
+"
+"
         
 all_bases
 =
 set
 (
+            
 mozpath
 .
 dirname
 (
 m
 )
-                        
 for
 m
 in
 self
 .
 _manifests
-                        
 -
 set
 (
@@ -2735,6 +2736,7 @@ self
 .
 _included_manifests
 )
+        
 )
         
 if
@@ -2796,9 +2798,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Push
 all
@@ -2808,9 +2810,9 @@ the
 formatter
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -2863,6 +2865,7 @@ basedir
 includer
 bases
 )
+        
 )
         
 for
@@ -2875,6 +2878,7 @@ errors
 .
 fatal
 (
+                
 '
 "
 %
@@ -2895,8 +2899,8 @@ outside
 s
 "
 '
+                
 %
-                         
 (
 m
 self
@@ -2905,7 +2909,6 @@ _included_manifests
 [
 m
 ]
-                          
 mozpath
 .
 basedir
@@ -2914,6 +2917,7 @@ m
 bases
 )
 )
+            
 )
         
 for
@@ -2973,9 +2977,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Parser
 sink
@@ -3044,9 +3048,9 @@ bin
 prefix
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -3057,9 +3061,9 @@ formatter
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Initialize
 the
@@ -3092,9 +3096,9 @@ packaging
 job
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -3134,9 +3138,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Remove
 any
@@ -3145,9 +3149,9 @@ bin
 prefix
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 mozpath
@@ -3156,16 +3160,16 @@ basedir
 (
 path
 [
-'
+"
 bin
-'
+"
 ]
 )
 =
 =
-'
+"
 bin
-'
+"
 :
             
 return
@@ -3174,9 +3178,9 @@ mozpath
 relpath
 (
 path
-'
+"
 bin
-'
+"
 )
         
 return
@@ -3191,9 +3195,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 files
@@ -3207,9 +3211,9 @@ given
 component
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 not
@@ -3307,7 +3311,7 @@ errors
 .
 error
 (
-'
+"
 Missing
 file
 (
@@ -3316,7 +3320,7 @@ s
 :
 %
 s
-'
+"
 %
 pattern
 )
@@ -3330,9 +3334,9 @@ pattern
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Remove
 files
@@ -3346,9 +3350,9 @@ given
 component
 .
         
-'
-'
-'
+"
+"
+"
         
 assert
 not
@@ -3360,11 +3364,11 @@ errors
 .
 fatal
 (
-'
+"
 Removal
 is
 unsupported
-'
+"
 )
     
 def
@@ -3377,9 +3381,9 @@ True
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Add
 possibly
@@ -3394,9 +3398,9 @@ the
 formatter
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 auto_root_manifest
@@ -3468,12 +3472,11 @@ mozpath
 join
 (
 path
-                                                       
-'
+"
 chrome
 .
 manifest
-'
+"
 )
 )
 :

@@ -105,7 +105,7 @@ __file__
 )
 VIRTUALENV
 =
-'
+"
 https
 :
 /
@@ -127,7 +127,7 @@ virtualenv
 virtualenv
 .
 py
-'
+"
 def
 which
 (
@@ -138,9 +138,9 @@ os
 .
 environ
 [
-'
+"
 PATH
-'
+"
 ]
 )
 :
@@ -266,11 +266,11 @@ path
 join
 (
 here
-'
+"
 setup
 .
 py
-'
+"
 )
     
 assert
@@ -299,18 +299,18 @@ virtualenv
 =
 which
 (
-'
+"
 virtualenv
-'
+"
 )
 or
 which
 (
-'
+"
 virtualenv
 .
 py
-'
+"
 )
     
 if
@@ -321,7 +321,7 @@ call
 (
 [
 virtualenv
-'
+"
 -
 -
 system
@@ -329,7 +329,7 @@ system
 site
 -
 packages
-'
+"
 here
 ]
 )
@@ -343,16 +343,15 @@ subprocess
 .
 Popen
 (
+            
 [
 sys
 .
 executable
-                                    
-'
+"
 -
-'
-                                    
-'
+"
+"
 -
 -
 system
@@ -360,16 +359,15 @@ system
 site
 -
 packages
-'
-                                    
+"
 here
 ]
-                                   
 stdin
 =
 subprocess
 .
 PIPE
+        
 )
         
 stdout
@@ -405,12 +403,12 @@ for
 i
 in
 (
-'
+"
 bin
-'
-'
+"
+"
 Scripts
-'
+"
 )
 :
         
@@ -445,27 +443,27 @@ else
 raise
 AssertionError
 (
-'
+"
 virtualenv
 binary
 directory
 not
 found
-'
+"
 )
     
 for
 i
 in
 (
-'
+"
 python
-'
-'
+"
+"
 python
 .
 exe
-'
+"
 )
 :
         
@@ -500,12 +498,12 @@ else
 raise
 AssertionError
 (
-'
+"
 virtualenv
 python
 not
 found
-'
+"
 )
     
 #
@@ -526,14 +524,14 @@ abspath
 (
 virtualenv_python
 )
-'
+"
 setup
 .
 py
-'
-'
+"
+"
 develop
-'
+"
 ]
 cwd
 =
@@ -543,9 +541,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

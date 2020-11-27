@@ -635,7 +635,9 @@ add_option
 "
 upload_dir
 "
+            
 str
+            
 "
 "
             
@@ -657,7 +659,7 @@ flows
 "
 "
 "
-            
+        
 Replay
 server
 responses
@@ -681,9 +683,9 @@ i
 type
 =
 =
-'
+"
 websocket
-'
+"
 :
                 
 #
@@ -1128,9 +1130,7 @@ info
 .
 format
 (
-                                
 proto
-                            
 )
                         
 )
@@ -1192,7 +1192,7 @@ flow
 "
 "
 "
-            
+        
 Calculates
 a
 loose
@@ -1369,7 +1369,7 @@ request
 "
 "
 "
-            
+        
 Returns
 the
 next
@@ -1382,7 +1382,7 @@ no
 matching
 flow
 was
-            
+        
 found
 .
         
@@ -1502,6 +1502,7 @@ _not_replayed
 stats
 =
 {
+            
 "
 totals
 "
@@ -1512,7 +1513,7 @@ self
 .
 netlocs
 )
-                 
+            
 "
 calls
 "
@@ -1520,7 +1521,7 @@ calls
 self
 .
 calls
-                 
+            
 "
 replayed
 "
@@ -1528,7 +1529,7 @@ replayed
 self
 .
 _replayed
-                 
+            
 "
 not
 -
@@ -1538,7 +1539,7 @@ replayed
 self
 .
 _not_replayed
-                 
+            
 "
 confidence
 "
@@ -1549,10 +1550,13 @@ confidence
 *
 100
 )
+        
 }
         
 file_name
 =
+(
+            
 "
 mitm_netlocs_
 %
@@ -1560,23 +1564,20 @@ s
 .
 json
 "
+            
 %
-\
-                    
 os
 .
 path
 .
 splitext
 (
-                        
 os
 .
 path
 .
 basename
 (
-                            
 ctx
 .
 options
@@ -1585,13 +1586,13 @@ server_replay_files
 [
 0
 ]
-                        
 )
-                    
 )
 [
 0
 ]
+        
+)
         
 path
 =
@@ -1612,7 +1613,6 @@ ctx
 options
 .
 upload_dir
-                                             
 file_name
 )
 )
@@ -1904,10 +1904,12 @@ calls
 .
 append
 (
+                        
 {
-'
+                            
+"
 time
-'
+"
 :
 str
 (
@@ -1917,27 +1919,29 @@ time
 (
 )
 )
-                                       
-'
+                            
+"
 url
-'
+"
 :
 f
 .
 request
 .
 url
-                                       
-'
+                            
+"
 response_status
-'
+"
 :
 f
 .
 response
 .
 status_code
+                        
 }
+                    
 )
             
 except
@@ -2022,9 +2026,9 @@ if
 hasattr
 (
 signal
-'
+"
 SIGBREAK
-'
+"
 )
 :
     

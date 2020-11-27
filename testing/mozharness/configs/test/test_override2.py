@@ -27,9 +27,9 @@ override_list
 "
 yay
 "
-'
+"
 worked
-'
+"
 ]
     
 "
@@ -41,8 +41,8 @@ override_dict
 yay
 "
 :
-'
+"
 worked
-'
+"
 }
 }

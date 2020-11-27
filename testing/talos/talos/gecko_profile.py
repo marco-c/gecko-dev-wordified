@@ -213,9 +213,9 @@ test_config
 .
 get
 (
-'
+"
 gecko_profile_interval
-'
+"
 1
 )
         
@@ -225,35 +225,35 @@ test_config
 .
 get
 (
-'
+"
 gecko_profile_entries
-'
+"
 1000000
 )
         
 gecko_profile_threads
 =
-'
+"
 GeckoMain
 Compositor
-'
+"
         
 if
 browser_config
 [
-'
+"
 enable_webrender
-'
+"
 ]
 :
             
 gecko_profile_threads
 +
 =
-'
+"
 WR
 Renderer
-'
+"
         
 #
 Make
@@ -290,7 +290,6 @@ join
 self
 .
 upload_dir
-            
 "
 profile_
 {
@@ -304,9 +303,9 @@ format
 (
 test_config
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -347,9 +346,9 @@ symbol_paths
 =
 {
             
-'
+"
 FIREFOX
-'
+"
 :
 tempfile
 .
@@ -357,9 +356,9 @@ mkdtemp
 (
 )
             
-'
+"
 THUNDERBIRD
-'
+"
 :
 tempfile
 .
@@ -367,9 +366,9 @@ mkdtemp
 (
 )
             
-'
+"
 WINDOWS
-'
+"
 :
 tempfile
 .
@@ -383,6 +382,7 @@ LOG
 .
 info
 (
+            
 "
 Activating
 Gecko
@@ -394,7 +394,7 @@ profile
 dir
 :
 "
-                 
+            
 "
 {
 0
@@ -410,16 +410,16 @@ entries
 2
 }
 "
-                 
 .
 format
 (
+                
 gecko_profile_dir
-                         
 gecko_profile_interval
-                         
 gecko_profile_entries
+            
 )
+        
 )
         
 self
@@ -511,9 +511,9 @@ test_config
 .
 get
 (
-'
+"
 gecko_profile_startup
-'
+"
 )
 :
             
@@ -555,16 +555,17 @@ env
 .
 update
 (
+            
 {
-            
-'
+                
+"
 MOZ_PROFILER_STARTUP
-'
+"
 :
-'
+"
 1
-'
-            
+"
+                
 #
 Temporary
 :
@@ -578,7 +579,7 @@ see
 bug
 1630448
 .
-            
+                
 #
 TODO
 :
@@ -593,18 +594,18 @@ or
 bug
 1648325
 .
-            
-'
+                
+"
 MOZ_PROFILER_STARTUP_NO_BASE
-'
+"
 :
-'
+"
 1
-'
-            
-'
+"
+                
+"
 MOZ_PROFILER_STARTUP_INTERVAL
-'
+"
 :
 str
 (
@@ -612,15 +613,15 @@ self
 .
 option
 (
-'
+"
 interval
-'
+"
 )
 )
-            
-'
+                
+"
 MOZ_PROFILER_STARTUP_ENTRIES
-'
+"
 :
 str
 (
@@ -628,40 +629,42 @@ self
 .
 option
 (
-'
+"
 entries
-'
+"
+)
+)
+                
+"
+MOZ_PROFILER_STARTUP_FILTERS
+"
+:
+str
+(
+self
+.
+option
+(
+"
+threads
+"
 )
 )
             
-'
-MOZ_PROFILER_STARTUP_FILTERS
-'
-:
-str
-(
-self
-.
-option
-(
-'
-threads
-'
-)
-)
-        
 }
+        
 )
     
 def
 _save_gecko_profile
 (
+        
 self
 cycle
 symbolicator
 missing_symbols_zip
-                            
 profile_path
+    
 )
 :
         
@@ -672,9 +675,9 @@ with
 open
 (
 profile_path
-'
+"
 r
-'
+"
 )
 as
 profile_file
@@ -695,8 +698,8 @@ dump_and_integrate_missing_symbols
 (
                 
 profile
-                
 missing_symbols_zip
+            
 )
             
 symbolicator
@@ -744,7 +747,6 @@ cycle
 }
 )
 "
-                
 .
 format
 (
@@ -766,6 +768,7 @@ LOG
 .
 critical
 (
+                
 "
 Encountered
 an
@@ -773,7 +776,7 @@ exception
 during
 profile
 "
-                         
+                
 "
 symbolication
 {
@@ -786,17 +789,17 @@ cycle
 }
 )
 "
-                         
 .
 format
 (
 profile_path
 cycle
 )
-                         
+                
 exc_info
 =
 True
+            
 )
     
 def
@@ -844,8 +847,9 @@ symbolicator
 =
 ProfileSymbolicator
 (
-{
             
+{
+                
 #
 Trace
 -
@@ -854,13 +858,13 @@ logging
 (
 verbose
 )
-            
+                
 "
 enableTracing
 "
 :
 0
-            
+                
 #
 Fallback
 server
@@ -870,12 +874,11 @@ is
 not
 found
 locally
-            
+                
 "
 remoteSymbolServer
 "
 :
-                
 "
 https
 :
@@ -891,7 +894,7 @@ symbolicate
 /
 v4
 "
-            
+                
 #
 Maximum
 number
@@ -902,13 +905,13 @@ to
 keep
 in
 memory
-            
+                
 "
 maxCacheEntries
 "
 :
 2000000
-            
+                
 #
 Frequency
 of
@@ -917,20 +920,20 @@ for
 recent
 symbols
 to
-            
+                
 #
 cache
 (
 in
 hours
 )
-            
+                
 "
 prefetchInterval
 "
 :
 12
-            
+                
 #
 Oldest
 file
@@ -941,13 +944,13 @@ prefetch
 in
 hours
 )
-            
+                
 "
 prefetchThreshold
 "
 :
 48
-            
+                
 #
 Maximum
 number
@@ -958,23 +961,23 @@ to
 pre
 -
 fetch
-            
+                
 #
 per
 library
-            
+                
 "
 prefetchMaxSymbolsPerLib
 "
 :
 3
-            
+                
 #
 Default
 symbol
 lookup
 directories
-            
+                
 "
 defaultApp
 "
@@ -982,7 +985,7 @@ defaultApp
 "
 FIREFOX
 "
-            
+                
 "
 defaultOs
 "
@@ -990,7 +993,7 @@ defaultOs
 "
 WINDOWS
 "
-            
+                
 #
 Paths
 to
@@ -1001,7 +1004,7 @@ expressed
 internally
 as
 a
-            
+                
 #
 mapping
 of
@@ -1011,7 +1014,7 @@ platform
 names
 to
 directories
-            
+                
 #
 Note
 :
@@ -1023,14 +1026,14 @@ from
 requests
 are
 converted
-            
+                
 #
 to
 all
 -
 uppercase
 internally
-            
+                
 "
 symbolPaths
 "
@@ -1038,8 +1041,9 @@ symbolPaths
 self
 .
 symbol_paths
-        
+            
 }
+        
 )
         
 if
@@ -1047,9 +1051,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 :
             
@@ -1062,9 +1066,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 )
 :
@@ -1078,9 +1082,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
                 
 )
@@ -1096,9 +1100,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 )
 :
@@ -1112,9 +1116,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
                 
 )
@@ -1130,9 +1134,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
 )
 :
@@ -1143,9 +1147,9 @@ self
 .
 browser_config
 [
-'
+"
 symbols_path
-'
+"
 ]
                 
 symbolicator
@@ -1181,7 +1185,6 @@ join
 self
 .
 upload_dir
-                                           
 "
 missingsymbols
 .
@@ -1214,9 +1217,9 @@ self
 .
 option
 (
-'
+"
 dir
-'
+"
 )
         
 with
@@ -1227,9 +1230,9 @@ ZipFile
 self
 .
 profile_arcname
-'
+"
 a
-'
+"
 mode
 )
 as
@@ -1305,12 +1308,12 @@ self
 .
 _save_gecko_profile
 (
+                    
 cycle
 symbolicator
-                                         
 missing_symbols_zip
-                                         
 profile_path
+                
 )
                 
 #
@@ -1414,15 +1417,13 @@ cycle
                 
 path_in_zip
 =
-\
-                    
 os
 .
 path
 .
 join
 (
-                        
+                    
 "
 profile_
 {
@@ -1436,16 +1437,14 @@ self
 .
 test_config
 [
-'
+"
 name
-'
+"
 ]
 )
-                        
 testname
-                        
 cycle_name
-                    
+                
 )
                 
 LOG
@@ -1465,14 +1464,15 @@ archive
 1
 }
 "
-                    
 .
 format
 (
+                        
 path_in_zip
 self
 .
 profile_arcname
+                    
 )
                 
 )
@@ -1521,13 +1521,13 @@ archive
 .
 format
 (
+                            
 profile_path
-                                              
 path_in_zip
-                                              
 self
 .
 profile_arcname
+                        
 )
                     
 )
@@ -1566,9 +1566,9 @@ os
 .
 environ
 [
-'
+"
 TALOS_LATEST_GECKO_PROFILE_ARCHIVE
-'
+"
 ]
 =
 self
@@ -1609,9 +1609,9 @@ self
 .
 option
 (
-'
+"
 dir
-'
+"
 )
 )
         

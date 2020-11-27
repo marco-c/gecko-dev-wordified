@@ -155,7 +155,6 @@ timeout
 .
 until
 (
-            
 lambda
 _
 :
@@ -178,8 +177,8 @@ self
 .
 assertEqual
 (
+            
 1
-                         
 self
 .
 marionette
@@ -201,6 +200,7 @@ length
 ;
 "
 )
+        
 )
     
 def
@@ -344,12 +344,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -386,10 +388,13 @@ true
 "
 "
 "
+                
 script_timeout
 =
 1000
+            
 )
+        
 )
     
 def
@@ -413,12 +418,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -455,7 +462,9 @@ true
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -502,6 +511,7 @@ self
 .
 assertRaises
 (
+            
 JavascriptException
 self
 .
@@ -509,6 +519,7 @@ marionette
 .
 execute_async_script
 unload
+        
 )
     
 def
@@ -522,13 +533,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
-            
+                
 "
 arguments
 [
@@ -548,7 +560,9 @@ undefined
 )
 ;
 "
+            
 )
+        
 )
     
 def
@@ -560,20 +574,22 @@ self
         
 var1
 =
-'
+"
 testing
-'
+"
         
 self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_script
 (
+                
 "
 "
 "
@@ -600,23 +616,29 @@ testvar
 .
 format
 (
+                    
 var1
+                
 )
+            
 )
+            
 var1
+        
 )
         
 self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
-            
+                
 "
 arguments
 [
@@ -632,8 +654,11 @@ testvar
 new_sandbox
 =
 False
+            
 )
+            
 var1
+        
 )
     
 def
@@ -681,6 +706,7 @@ marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -700,6 +726,7 @@ bar
 "
 "
 "
+            
 )
             
 self
@@ -727,6 +754,7 @@ self
 .
 assertIn
 (
+                
 os
 .
 path
@@ -750,6 +778,7 @@ py
 e
 .
 stacktrace
+            
 )
     
 def
@@ -768,6 +797,7 @@ marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -791,6 +821,7 @@ foo
 "
 "
 "
+            
 )
             
 self
@@ -818,6 +849,7 @@ self
 .
 assertIn
 (
+                
 os
 .
 path
@@ -841,6 +873,7 @@ py
 e
 .
 stacktrace
+            
 )
     
 def
@@ -854,12 +887,14 @@ self
 .
 assertTrue
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -876,7 +911,9 @@ true
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -890,12 +927,15 @@ self
 .
 assertRaises
 (
+            
 JavascriptException
+            
 self
 .
 marionette
 .
 execute_async_script
+            
 "
 "
 "
@@ -940,6 +980,7 @@ arguments
 "
 "
 "
+        
 )
     
 def
@@ -966,6 +1007,7 @@ marionette
 .
 execute_async_script
 (
+            
 "
 this
 .
@@ -977,7 +1019,6 @@ foobar
 ]
 ;
 "
-                                             
 "
 arguments
 [
@@ -987,19 +1028,21 @@ arguments
 )
 ;
 "
+        
 )
         
 self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
-            
+                
 "
 arguments
 [
@@ -1015,11 +1058,14 @@ foobar
 new_sandbox
 =
 False
+            
 )
+            
 [
 23
 42
 ]
+        
 )
     
 def
@@ -1035,6 +1081,7 @@ marionette
 .
 execute_async_script
 (
+            
 "
 this
 .
@@ -1052,13 +1099,13 @@ arguments
 ]
 ;
 "
-                                             
+            
 "
 let
 resolve
 =
 "
-                                             
+            
 "
 arguments
 [
@@ -1070,33 +1117,35 @@ length
 ]
 ;
 "
-                                             
+            
 "
 resolve
 (
 )
 ;
 "
-                                             
+            
 script_args
 =
 [
 23
 42
 ]
+        
 )
         
 self
 .
 assertEqual
 (
+            
 self
 .
 marionette
 .
 execute_async_script
 (
-            
+                
 "
 arguments
 [
@@ -1112,12 +1161,14 @@ foobar
 new_sandbox
 =
 False
+            
 )
             
 [
 23
 42
 ]
+        
 )
     
 #
@@ -1225,7 +1276,6 @@ __webDriverCallback
 )
 ;
 "
-            
 script_args
 =
 [
@@ -1233,6 +1283,7 @@ script_args
 sandbox
 =
 None
+        
 )
     
 def
@@ -1318,13 +1369,16 @@ self
 .
 assertEqual
 (
+            
 5
+            
 self
 .
 marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -1349,7 +1403,9 @@ arguments
 "
 "
 "
+            
 )
+        
 )
     
 def
@@ -1396,6 +1452,7 @@ marionette
 .
 execute_async_script
 (
+                
 "
 "
 "
@@ -1434,6 +1491,7 @@ foo
 "
 "
 "
+            
 )
     
 def

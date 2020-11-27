@@ -245,7 +245,7 @@ re
 compile
 (
 r
-'
+"
 {
 \
 w
@@ -277,13 +277,13 @@ w
 12
 }
 }
-'
+"
 )
-'
+"
 {
 uuid
 }
-'
+"
 )
     
 (
@@ -292,7 +292,7 @@ re
 compile
 (
 r
-'
+"
 talos
 \
 \
@@ -304,10 +304,10 @@ tp5n
 \
 .
 *
-'
+"
 )
 r
-'
+"
 talos
 \
 \
@@ -316,7 +316,7 @@ tests
 {
 tp5n_files
 }
-'
+"
 )
     
 (
@@ -325,7 +325,7 @@ re
 compile
 (
 r
-'
+"
 nvidia
 corporation
 \
@@ -336,13 +336,13 @@ vision
 \
 .
 *
-'
+"
 )
-'
+"
 {
 nvidia_3d_vision
 }
-'
+"
 )
     
 (
@@ -351,7 +351,7 @@ re
 compile
 (
 r
-'
+"
 cltbld
 \
 .
@@ -369,22 +369,23 @@ d
 \
 d
 +
-'
+"
 )
-'
+"
 {
 cltbld
 }
-'
+"
 )
     
 (
+        
 re
 .
 compile
 (
 r
-'
+"
 venv
 \
 \
@@ -404,11 +405,11 @@ _vendor
 \
 .
 *
-'
+"
 )
-     
+        
 r
-'
+"
 venv
 \
 lib
@@ -422,7 +423,8 @@ packages
 {
 pip_vendor
 }
-'
+"
+    
 )
 ]
 stages
@@ -504,9 +506,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 None
 )
     
@@ -856,26 +858,27 @@ csv
 .
 reader
 (
+        
 open
 (
 filename
-'
+"
 rb
-'
+"
 )
 delimiter
 =
-'
-'
+"
+"
 quotechar
 =
 '
 "
 '
-                      
 skipinitialspace
 =
 True
+    
 )
     
 data
@@ -1013,11 +1016,12 @@ main
 key_tuple
 =
 (
+        
 row
 [
 fname_index
 ]
-                 
+        
 "
 %
 s
@@ -1032,21 +1036,23 @@ THREAD_ID_INDEX
 ]
 thread_extra
 )
-                 
+        
 stages
 [
 stage
 ]
+    
 )
     
 total_tuple
 =
 (
+        
 row
 [
 fname_index
 ]
-                   
+        
 "
 %
 s
@@ -1061,10 +1067,11 @@ THREAD_ID_INDEX
 ]
 thread_extra
 )
-                   
+        
 "
 all
 "
+    
 )
     
 if
@@ -1131,9 +1138,9 @@ retVal
 key_tuple
 ]
 [
-'
+"
 DiskReadCount
-'
+"
 ]
 +
 =
@@ -1144,9 +1151,9 @@ retVal
 total_tuple
 ]
 [
-'
+"
 DiskReadCount
-'
+"
 ]
 +
 =
@@ -1165,9 +1172,9 @@ retVal
 key_tuple
 ]
 [
-'
+"
 DiskReadBytes
-'
+"
 ]
 +
 =
@@ -1185,9 +1192,9 @@ retVal
 total_tuple
 ]
 [
-'
+"
 DiskReadBytes
-'
+"
 ]
 +
 =
@@ -1214,9 +1221,9 @@ retVal
 key_tuple
 ]
 [
-'
+"
 DiskWriteCount
-'
+"
 ]
 +
 =
@@ -1227,9 +1234,9 @@ retVal
 total_tuple
 ]
 [
-'
+"
 DiskWriteCount
-'
+"
 ]
 +
 =
@@ -1248,9 +1255,9 @@ retVal
 key_tuple
 ]
 [
-'
+"
 DiskWriteBytes
-'
+"
 ]
 +
 =
@@ -1268,9 +1275,9 @@ retVal
 total_tuple
 ]
 [
-'
+"
 DiskWriteBytes
-'
+"
 ]
 +
 =
@@ -1372,32 +1379,34 @@ cpu
 xperf_cmd
 =
 [
+        
 xperf_path
-                 
-'
+        
+"
 -
 merge
-'
-                 
-'
+"
+        
+"
 %
 s
 .
 user
-'
+"
 %
 etl_filename
-                 
-'
+        
+"
 %
 s
 .
 kernel
-'
+"
 %
 etl_filename
-                 
+        
 etl_filename
+    
 ]
     
 if
@@ -1431,12 +1440,12 @@ xperf_cmd
     
 csv_filename
 =
-'
+"
 %
 s
 .
 csv
-'
+"
 %
 etl_filename
     
@@ -1444,17 +1453,15 @@ xperf_cmd
 =
 [
 xperf_path
-                 
-'
+"
 -
 i
-'
+"
 etl_filename
-                 
-'
+"
 -
 o
-'
+"
 csv_filename
 ]
     
@@ -1626,8 +1633,6 @@ event
 proc
 tid
 =
-\
-        
 row
 [
 EVENTNAME_INDEX
@@ -1881,7 +1886,7 @@ opType
 )
 ]
 =
-\
+(
         
 io
 .
@@ -1903,6 +1908,8 @@ opType
 +
 1
     
+)
+    
 io
 [
 (
@@ -1918,7 +1925,7 @@ opType
 )
 ]
 =
-\
+(
         
 io
 .
@@ -1940,6 +1947,8 @@ opType
 +
 bytes
     
+)
+    
 io
 [
 (
@@ -1951,8 +1960,6 @@ file_io_bytes
 )
 ]
 =
-\
-        
 io
 .
 get
@@ -2084,7 +2091,6 @@ event
 {
 }
 "
-                
 .
 format
 (
@@ -2185,7 +2191,7 @@ opType
 )
 ]
 =
-\
+(
                 
 io
 .
@@ -2207,6 +2213,8 @@ opType
 +
 bytes
             
+)
+            
 io
 [
 (
@@ -2218,8 +2226,6 @@ net_io_bytes
 )
 ]
 =
-\
-                
 io
 .
 get
@@ -2583,33 +2589,41 @@ False
 def
 etlparser
 (
+    
 xperf_path
+    
 etl_filename
+    
 processID
+    
 approot
 =
 None
-              
+    
 configFile
 =
 None
+    
 outputFile
 =
 None
+    
 whitelist_file
 =
 None
-              
+    
 error_filename
 =
 None
+    
 all_stages
 =
 False
+    
 all_threads
 =
 False
-              
+    
 debug
 =
 False
@@ -2633,9 +2647,9 @@ outFile
 open
 (
 outputFile
-'
+"
 w
-'
+"
 )
     
 else
@@ -2755,6 +2769,8 @@ getBrowserPID
 )
         
 elif
+(
+            
 event
 in
 [
@@ -2766,14 +2782,14 @@ FileIoWrite
 "
 ]
 and
-\
-                
 row
 [
 THREAD_ID_INDEX
 ]
 in
 gThreads
+        
+)
 :
             
 fileSummary
@@ -2802,8 +2818,6 @@ Classic
 "
 )
 and
-\
-                
 row
 [
 THREAD_ID_INDEX
@@ -2971,7 +2985,6 @@ whitelist_file
     
 header
 =
-(
 "
 filename
 tid
@@ -2980,11 +2993,9 @@ readcount
 readbytes
 writecount
 "
-              
 "
 writebytes
 "
-)
     
 outFile
 .
@@ -3020,6 +3031,7 @@ filekeys
 =
 filter
 (
+        
 lambda
 x
 :
@@ -3037,8 +3049,8 @@ stages
 0
 ]
 )
+        
 and
-                                
 (
 all_threads
 or
@@ -3056,8 +3068,8 @@ main
 "
 )
 )
+        
 and
-                                
 (
 all_stages
 and
@@ -3072,7 +3084,6 @@ stages
 0
 ]
 or
-                                 
 not
 checkWhitelist
 (
@@ -3083,12 +3094,13 @@ x
 whitelist
 )
 )
-                      
+        
 files
 .
 iterkeys
 (
 )
+    
 )
     
 if
@@ -3137,6 +3149,7 @@ outputData
 =
 filter
 (
+            
 lambda
 x
 :
@@ -3159,10 +3172,12 @@ stages
 ]
 ]
 )
+            
 and
-                                      
 (
+                
 all_stages
+                
 and
 x
 [
@@ -3180,8 +3195,8 @@ stages
 1
 ]
 ]
+                
 or
-                                       
 not
 checkWhitelist
 (
@@ -3191,13 +3206,15 @@ x
 ]
 whitelist
 )
+            
 )
-                            
+            
 files
 .
 iterkeys
 (
 )
+        
 )
     
 else
@@ -3260,9 +3277,9 @@ files
 row
 ]
 [
-'
+"
 DiskReadCount
-'
+"
 ]
             
 files
@@ -3270,9 +3287,9 @@ files
 row
 ]
 [
-'
+"
 DiskReadBytes
-'
+"
 ]
             
 files
@@ -3280,9 +3297,9 @@ files
 row
 ]
 [
-'
+"
 DiskWriteCount
-'
+"
 ]
             
 files
@@ -3290,9 +3307,9 @@ files
 row
 ]
 [
-'
+"
 DiskWriteBytes
-'
+"
 ]
         
 )
@@ -3386,11 +3403,11 @@ path
 join
 (
 dirname
-'
+"
 xperf_whitelist
 .
 json
-'
+"
 )
 )
 :
@@ -3404,11 +3421,11 @@ path
 join
 (
 dirname
-'
+"
 xperf_whitelist
 .
 json
-'
+"
 )
     
 elif
@@ -3425,20 +3442,19 @@ path
 join
 (
 dirname
-'
+"
 xtalos
-'
+"
 )
 )
 and
-\
-            
 os
 .
 path
 .
 exists
 (
+        
 os
 .
 path
@@ -3446,16 +3462,16 @@ path
 join
 (
 dirname
-'
+"
 xtalos
-'
-                                        
-'
+"
+"
 xperf_whitelist
 .
 json
-'
+"
 )
+    
 )
 :
         
@@ -3468,14 +3484,14 @@ path
 join
 (
 dirname
-'
+"
 xtalos
-'
-'
+"
+"
 xperf_whitelist
 .
 json
-'
+"
 )
     
 wl_temp
@@ -3491,9 +3507,9 @@ with
 open
 (
 whitelist_path
-'
+"
 r
-'
+"
 )
 as
 fHandle
@@ -3552,7 +3568,7 @@ path
 .
 exists
 (
-'
+"
 %
 s
 \
@@ -3560,7 +3576,7 @@ s
 dependentlibs
 .
 list
-'
+"
 %
 approot
 )
@@ -3569,7 +3585,7 @@ approot
 with
 open
 (
-'
+"
 %
 s
 \
@@ -3577,12 +3593,12 @@ s
 dependentlibs
 .
 list
-'
+"
 %
 approot
-'
+"
 r
-'
+"
 )
 as
 fhandle
@@ -3604,7 +3620,7 @@ libs
                 
 wl_temp
 [
-'
+"
 {
 firefox
 }
@@ -3612,7 +3628,7 @@ firefox
 \
 %
 s
-'
+"
 %
 lib
 .
@@ -3622,9 +3638,9 @@ strip
 ]
 =
 {
-'
+"
 ignore
-'
+"
 :
 True
 }
@@ -3727,25 +3743,25 @@ replace
 x86
 )
 "
-'
-'
+"
+"
 )
         
 paths
 =
 [
-'
+"
 profile
-'
-'
+"
+"
 firefox
-'
-'
+"
+"
 desktop
-'
-'
+"
+"
 talos
-'
+"
 ]
         
 for
@@ -3756,12 +3772,12 @@ paths
             
 pathname
 =
-'
+"
 %
 s
 \
 \
-'
+"
 %
 path
             
@@ -3817,11 +3833,11 @@ filename
 .
 split
 (
-'
+"
 \
 \
 installtime
-'
+"
 )
         
 if
@@ -3873,9 +3889,9 @@ filename
 .
 split
 (
-'
+"
 refetch
-'
+"
 )
         
 if
@@ -3932,9 +3948,9 @@ wl
 :
             
 if
-'
+"
 ignore
-'
+"
 in
 wl
 [
@@ -3946,16 +3962,18 @@ wl
 filename
 ]
 [
-'
+"
 ignore
-'
+"
 ]
 :
                 
 continue
+        
 #
 too
 noisy
+        
 #
 if
 wl
@@ -3980,6 +3998,7 @@ DiskReadBytes
 ]
 +
 \
+        
 #
 files
 [
@@ -3992,6 +4011,7 @@ DiskWriteBytes
 ]
 )
 :
+        
 #
 print
 "
@@ -4010,6 +4030,7 @@ minimum
 %
 s
 "
+        
 #
 %
 (
@@ -4025,6 +4046,7 @@ DiskReadBytes
 '
 ]
 +
+        
 #
 files
 [
@@ -4036,6 +4058,7 @@ DiskWriteBytes
 '
 ]
 )
+        
 #
 wl
 [
@@ -4047,6 +4070,7 @@ minbytes
 '
 ]
 )
+        
 #
 don
 '
@@ -4055,6 +4079,7 @@ report
 in
 first
 round
+        
 #
 elif
 wl
@@ -4079,6 +4104,7 @@ DiskReadBytes
 ]
 +
 \
+        
 #
 files
 [
@@ -4091,6 +4117,7 @@ DiskWriteBytes
 ]
 )
 :
+        
 #
 errors
 .
@@ -4110,11 +4137,13 @@ expected
 maximum
 :
 "
+        
 #
 "
 %
 s
 "
+        
 #
 %
 (
@@ -4130,6 +4159,7 @@ DiskReadBytes
 '
 ]
 +
+        
 #
 files
 [
@@ -4141,6 +4171,7 @@ DiskWriteBytes
 '
 ]
 )
+        
 #
 wl
 [
@@ -4153,9 +4184,11 @@ maxbytes
 ]
 )
 )
+        
 #
 too
 noisy
+        
 #
 elif
 wl
@@ -4180,6 +4213,7 @@ DiskReadCount
 ]
 +
 \
+        
 #
 files
 [
@@ -4192,6 +4226,7 @@ DiskWriteCount
 ]
 )
 :
+        
 #
 print
 "
@@ -4209,6 +4244,7 @@ minimum
 %
 s
 "
+        
 #
 %
 (
@@ -4224,6 +4260,7 @@ DiskReadCount
 '
 ]
 +
+        
 #
 files
 [
@@ -4235,6 +4272,7 @@ DiskWriteCount
 '
 ]
 )
+        
 #
 wl
 [
@@ -4246,6 +4284,7 @@ mincount
 '
 ]
 )
+        
 #
 don
 '
@@ -4254,6 +4293,7 @@ report
 in
 first
 round
+        
 #
 elif
 wl
@@ -4278,6 +4318,7 @@ DiskReadCount
 ]
 +
 \
+        
 #
 files
 [
@@ -4290,6 +4331,7 @@ DiskWriteCount
 ]
 )
 :
+        
 #
 errors
 .
@@ -4308,11 +4350,13 @@ expected
 maximum
 :
 "
+        
 #
 "
 %
 s
 "
+        
 #
 %
 (
@@ -4328,6 +4372,7 @@ DiskReadCount
 '
 ]
 +
+        
 #
 files
 [
@@ -4339,6 +4384,7 @@ DiskWriteCount
 '
 ]
 )
+        
 #
 wl
 [
@@ -4359,6 +4405,7 @@ errors
 .
 append
 (
+                
 "
 File
 '
@@ -4381,7 +4428,7 @@ were
 not
 expecting
 "
-                          
+                
 "
 it
 .
@@ -4394,7 +4441,7 @@ DiskWriteCount
 %
 s
 "
-                          
+                
 "
 DiskReadBytes
 :
@@ -4405,53 +4452,56 @@ DiskWriteBytes
 %
 s
 "
-                          
+                
 %
 (
+                    
 filename
-                             
+                    
 original_filename
-                             
+                    
 files
 [
 row
 ]
 [
-'
+"
 DiskReadCount
-'
+"
 ]
-                             
+                    
 files
 [
 row
 ]
 [
-'
+"
 DiskWriteCount
-'
+"
 ]
-                             
+                    
 files
 [
 row
 ]
 [
-'
+"
 DiskReadBytes
-'
+"
 ]
-                             
+                    
 files
 [
 row
 ]
 [
-'
+"
 DiskWriteBytes
-'
+"
 ]
+                
 )
+            
 )
     
 if
@@ -4543,9 +4593,9 @@ with
 open
 (
 error_filename
-'
+"
 w
-'
+"
 )
 as
 errorFile
@@ -4555,10 +4605,10 @@ errorFile
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -4604,72 +4654,73 @@ defaults
 args
 =
 {
-'
+        
+"
 xperf_path
-'
+"
 :
-'
+"
 xperf
 .
 exe
-'
-            
-'
+"
+        
+"
 etl_filename
-'
+"
 :
-'
+"
 test
 .
 etl
-'
-            
-'
+"
+        
+"
 outputFile
-'
+"
 :
-'
+"
 etl_output
 .
 csv
-'
-            
-'
+"
+        
+"
 processID
-'
+"
 :
 None
-            
-'
+        
+"
 approot
-'
+"
 :
 None
-            
-'
+        
+"
 whitelist_file
-'
+"
 :
 None
-            
-'
+        
+"
 error_filename
-'
+"
 :
 None
-            
-'
+        
+"
 all_stages
-'
+"
 :
 False
-            
-'
+        
+"
 all_threads
-'
+"
 :
 False
-            
+    
 }
     
 args
@@ -4709,9 +4760,9 @@ args
 .
 get
 (
-'
+"
 processID
-'
+"
 )
 :
         
@@ -4746,9 +4797,9 @@ exists
 (
 args
 [
-'
+"
 xperf_path
-'
+"
 ]
 )
 :
@@ -4758,6 +4809,7 @@ xtalos
 .
 XTalosError
 (
+            
 "
 ERROR
 :
@@ -4770,14 +4822,14 @@ does
 not
 exist
 "
-                                 
 %
 args
 [
-'
+"
 xperf_path
-'
+"
 ]
+        
 )
     
 #
@@ -4789,9 +4841,9 @@ file
     
 args
 [
-'
+"
 configFile
-'
+"
 ]
 =
 config_file
@@ -4897,39 +4949,47 @@ API
     
 etlparser
 (
+        
 args
 .
 xperf_path
+        
 args
 .
 etl_filename
+        
 args
 .
 processID
+        
 args
 .
 approot
-              
+        
 args
 .
 configFile
+        
 args
 .
 outputFile
+        
 args
 .
 whitelist_file
-              
+        
 args
 .
 error_filename
+        
 args
 .
 all_stages
+        
 args
 .
 all_threads
-              
+        
 debug
 =
 args
@@ -4940,6 +5000,7 @@ debug_level
 xtalos
 .
 DEBUG_INFO
+    
 )
 if
 __name__

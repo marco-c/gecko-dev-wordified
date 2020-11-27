@@ -124,11 +124,11 @@ mp
 =
 parse
 (
-'
+"
 defaults
 .
 list
-'
+"
 )
     
 assert
@@ -153,25 +153,25 @@ tests
 if
 test
 [
-'
+"
 name
-'
+"
 ]
 .
 startswith
 (
-'
+"
 foo
-'
+"
 )
 :
             
 assert
 test
 [
-'
+"
 pref
-'
+"
 ]
 =
 =
@@ -186,9 +186,9 @@ else
 :
             
 assert
-'
+"
 pref
-'
+"
 not
 in
 test
@@ -208,21 +208,21 @@ ValueError
         
 parse
 (
-'
+"
 invalid
 -
 defaults
 .
 list
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

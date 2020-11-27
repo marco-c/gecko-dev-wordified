@@ -93,133 +93,133 @@ color_dict
 =
 {
     
-'
+"
 log_test_status_fail
-'
+"
 :
-'
+"
 red
-'
+"
     
-'
+"
 log_process_output
-'
+"
 :
-'
+"
 blue
-'
+"
     
-'
+"
 log_test_status_pass
-'
+"
 :
-'
+"
 green
-'
+"
     
-'
+"
 log_test_status_unexpected_fail
-'
+"
 :
-'
+"
 red
-'
+"
     
-'
+"
 log_test_status_known_intermittent
-'
+"
 :
-'
+"
 yellow
-'
+"
     
-'
+"
 time
-'
+"
 :
-'
+"
 cyan
-'
+"
     
-'
+"
 action
-'
+"
 :
-'
+"
 yellow
-'
+"
     
-'
+"
 pid
-'
+"
 :
-'
+"
 cyan
-'
+"
     
-'
+"
 heading
-'
+"
 :
-'
+"
 bold_yellow
-'
+"
     
-'
+"
 sub_heading
-'
+"
 :
-'
+"
 yellow
-'
+"
     
-'
+"
 error
-'
+"
 :
-'
+"
 red
-'
+"
     
-'
+"
 warning
-'
+"
 :
-'
+"
 yellow
-'
+"
     
-'
+"
 bold
-'
+"
 :
-'
+"
 bold
-'
+"
     
-'
+"
 grey
-'
+"
 :
-'
+"
 grey
-'
+"
     
-'
+"
 normal
-'
+"
 :
-'
+"
 normal
-'
+"
     
-'
+"
 dim
-'
+"
 :
-'
+"
 dim
-'
+"
 }
 def
 format_seconds
@@ -257,7 +257,7 @@ total
 )
     
 return
-'
+"
 %
 2d
 :
@@ -265,7 +265,7 @@ return
 05
 .
 2f
-'
+"
 %
 (
 minutes
@@ -320,36 +320,45 @@ BaseFormatter
 def
 __init__
 (
+        
 self
+        
 start_time
 =
 None
+        
 write_interval
 =
 False
+        
 write_times
 =
 True
-                 
+        
 terminal
 =
 None
+        
 disable_colors
 =
 False
+        
 summary_on_shutdown
 =
 False
-                 
+        
 verbose
 =
 False
+        
 enable_screenshot
 =
 False
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -441,6 +450,7 @@ disable_styling
 disable_colors
 )
 color_dict
+        
 )
         
 self
@@ -486,12 +496,13 @@ summary_on_shutdown
 message_handlers
 =
 {
+            
 "
 colors
 "
 :
 {
-            
+                
 "
 on
 "
@@ -499,7 +510,7 @@ on
 self
 .
 _enable_colors
-            
+                
 "
 off
 "
@@ -507,14 +518,15 @@ off
 self
 .
 _disable_colors
-        
+            
 }
+            
 "
 summary_on_shutdown
 "
 :
 {
-            
+                
 "
 on
 "
@@ -522,7 +534,7 @@ on
 self
 .
 _enable_summary_on_shutdown
-            
+                
 "
 off
 "
@@ -530,8 +542,9 @@ off
 self
 .
 _disable_summary_on_shutdown
-        
+            
 }
+        
 }
         
 for
@@ -790,9 +803,9 @@ itervalues
 (
 data
 [
-'
+"
 tests
-'
+"
 ]
 )
 0
@@ -808,9 +821,9 @@ action
 (
 data
 [
-'
+"
 action
-'
+"
 ]
 .
 upper
@@ -824,9 +837,9 @@ name
 "
         
 if
-'
+"
 name
-'
+"
 in
 data
 :
@@ -842,9 +855,9 @@ s
 (
 data
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -885,9 +898,9 @@ action
 (
 data
 [
-'
+"
 action
-'
+"
 ]
 .
 upper
@@ -923,13 +936,14 @@ self
 summary
 .
 current_suite
-                    
 self
 .
 summary
 .
 current
+                
 )
+            
 )
         
 return
@@ -1106,17 +1120,19 @@ s
 "
 %
 (
+            
 self
 .
 _format_expected
 (
+                
 data
 [
 "
 status
 "
 ]
-                        
+                
 data
 .
 get
@@ -1131,7 +1147,7 @@ status
 "
 ]
 )
-                        
+                
 data
 .
 get
@@ -1142,9 +1158,11 @@ known_intermittent
 [
 ]
 )
+            
 )
-                        
+            
 name
+        
 )
         
 if
@@ -1245,36 +1263,36 @@ count
 =
 summary
 [
-'
+"
 counts
-'
+"
 ]
         
 logs
 =
 summary
 [
-'
+"
 unexpected_logs
-'
+"
 ]
         
 intermittent_logs
 =
 summary
 [
-'
+"
 intermittent_logs
-'
+"
 ]
         
 harness_errors
 =
 summary
 [
-'
+"
 harness_errors
-'
+"
 ]
         
 rv
@@ -1299,7 +1317,6 @@ color_formatter
 .
 sub_heading
 (
-                
 "
 ~
 "
@@ -1309,6 +1326,7 @@ len
 suite
 )
 )
+        
 ]
         
 #
@@ -1324,9 +1342,9 @@ summary
 .
 aggregate
 (
-'
+"
 count
-'
+"
 count
 )
         
@@ -1334,6 +1352,7 @@ rv
 .
 append
 (
+            
 "
 Ran
 {
@@ -1347,6 +1366,7 @@ checks
 .
 format
 (
+                
 sum
 (
 checks
@@ -1355,20 +1375,21 @@ values
 (
 )
 )
-'
-'
+                
+"
+"
 .
 join
 (
-            
+                    
 [
-'
+"
 {
 }
 {
 }
 s
-'
+"
 .
 format
 (
@@ -1390,8 +1411,11 @@ items
 if
 v
 ]
+                
 )
+            
 )
+        
 )
         
 #
@@ -1407,9 +1431,9 @@ summary
 .
 aggregate
 (
-'
+"
 expected
-'
+"
 count
 include_skip
 =
@@ -1424,14 +1448,15 @@ summary
 .
 aggregate
 (
-'
+            
+"
 known_intermittent
-'
-                                                     
+"
 count
 include_skip
 =
 False
+        
 )
         
 intermittents
@@ -1447,6 +1472,8 @@ values
         
 known
 =
+(
+            
 "
 (
 {
@@ -1465,6 +1492,8 @@ intermittents
 else
 "
 "
+        
+)
         
 rv
 .
@@ -1596,9 +1625,9 @@ summary
 .
 aggregate
 (
-'
+"
 unexpected
-'
+"
 count
 )
         
@@ -1639,15 +1668,15 @@ for
 key
 in
 (
-'
+"
 test
-'
-'
+"
+"
 subtest
-'
-'
+"
+"
 assert
-'
+"
 )
 :
                 
@@ -1658,9 +1687,9 @@ count
 key
 ]
 [
-'
+"
 unexpected
-'
+"
 ]
 :
                     
@@ -1673,7 +1702,9 @@ status_str
 .
 join
 (
+                    
 [
+                        
 "
 {
 }
@@ -1686,7 +1717,7 @@ format
 n
 s
 )
-                                        
+                        
 for
 s
 n
@@ -1698,22 +1729,25 @@ count
 key
 ]
 [
-'
+"
 unexpected
-'
+"
 ]
 .
 items
 (
 )
 )
+                    
 ]
+                
 )
                 
 rv
 .
 append
 (
+                    
 "
 {
 }
@@ -1728,7 +1762,7 @@ append
 .
 format
 (
-                          
+                        
 key
 sum
 (
@@ -1737,9 +1771,9 @@ count
 key
 ]
 [
-'
+"
 unexpected
-'
+"
 ]
 .
 values
@@ -1747,7 +1781,9 @@ values
 )
 )
 status_str
+                    
 )
+                
 )
         
 #
@@ -1772,9 +1808,12 @@ rv
 .
 extend
 (
+                
 [
+                    
 "
 "
+                    
 self
 .
 color_formatter
@@ -1783,7 +1822,7 @@ heading
 (
 heading
 )
-                       
+                    
 self
 .
 color_formatter
@@ -1799,20 +1838,22 @@ len
 heading
 )
 )
+                
 ]
+            
 )
             
 if
 count
 [
-'
+"
 subtest
-'
+"
 ]
 [
-'
+"
 count
-'
+"
 ]
 :
                 
@@ -1940,6 +1981,7 @@ testfailed
 =
 any
 (
+            
 count
 [
 key
@@ -1953,16 +1995,17 @@ for
 key
 in
 (
-'
+"
 test
-'
-'
+"
+"
 subtest
-'
-'
+"
+"
 assert
-'
+"
 )
+        
 )
         
 if
@@ -2008,9 +2051,12 @@ rv
 .
 extend
 (
+                
 [
+                    
 "
 "
+                    
 self
 .
 color_formatter
@@ -2019,7 +2065,7 @@ heading
 (
 heading
 )
-                       
+                    
 self
 .
 color_formatter
@@ -2035,20 +2081,22 @@ len
 heading
 )
 )
+                
 ]
+            
 )
             
 if
 count
 [
-'
+"
 subtest
-'
+"
 ]
 [
-'
+"
 count
-'
+"
 ]
 :
                 
@@ -2224,9 +2272,9 @@ action
 (
 data
 [
-'
+"
 action
-'
+"
 ]
 .
 upper
@@ -2271,14 +2319,12 @@ data
 )
         
 if
-(
 "
 expected
 "
 in
 data
 and
-                
 data
 [
 "
@@ -2291,12 +2337,13 @@ data
 .
 get
 (
+            
 "
 known_intermittent
 "
 [
 ]
-)
+        
 )
 :
             
@@ -2400,9 +2447,9 @@ bool
 (
 subtests
 [
-'
+"
 unexpected
-'
+"
 ]
 )
         
@@ -2448,13 +2495,16 @@ data
 status
 "
 ]
+                
 expected_str
+                
 subtests
 [
 "
 pass
 "
 ]
+                
 subtests
 [
 "
@@ -2464,10 +2514,11 @@ count
                 
 subtests
 [
-'
+"
 unexpected
-'
+"
 ]
+            
 )
         
 else
@@ -2615,9 +2666,9 @@ _format_status
 (
 data
 [
-'
+"
 test
-'
+"
 ]
 d
 )
@@ -2672,9 +2723,9 @@ _format_status
 (
 data
 [
-'
+"
 test
-'
+"
 ]
 d
 )
@@ -2692,9 +2743,9 @@ bool
 (
 subtests
 [
-'
+"
 unexpected
-'
+"
 ]
 )
 :
@@ -2724,9 +2775,9 @@ color
 (
 data
 [
-'
+"
 action
-'
+"
 ]
 .
 upper
@@ -2828,9 +2879,9 @@ rv
 +
 data
 [
-'
+"
 primary
-'
+"
 ]
 +
 "
@@ -2843,9 +2894,9 @@ line
 in
 data
 [
-'
+"
 secondary
-'
+"
 ]
 :
             
@@ -2910,11 +2961,13 @@ color_formatter
 .
 log_test_status_unexpected_fail
 (
+                
 "
 UNEXPECTED
 -
 FAIL
 "
+            
 )
         
 return
@@ -3000,6 +3053,7 @@ ERROR
         
 return
 (
+            
 "
 %
 s
@@ -3007,7 +3061,7 @@ s
 LeakSanitizer
 |
 "
-                
+            
 "
 SUMMARY
 :
@@ -3029,8 +3083,8 @@ s
 )
 .
 "
+            
 %
-                
 (
 prefix
 data
@@ -3046,6 +3100,7 @@ allocations
 "
 ]
 )
+        
 )
     
 def
@@ -3082,7 +3137,6 @@ message
 "
 ]
 =
-(
 "
 leakcheck
 :
@@ -3095,27 +3149,29 @@ d
 s
 "
 %
-                               
 (
+            
 data
 [
 "
 process
 "
 ]
+            
 data
 [
 "
 bytes
 "
 ]
+            
 data
 [
 "
 name
 "
 ]
-)
+        
 )
         
 return
@@ -3198,6 +3254,7 @@ message
 ]
 =
 (
+                    
 "
 leakcheck
 :
@@ -3213,7 +3270,7 @@ log
 \
 n
 "
-                                       
+                    
 %
 data
 [
@@ -3221,6 +3278,7 @@ data
 process
 "
 ]
+                
 )
                 
 return
@@ -3245,6 +3303,7 @@ False
                 
 return
 (
+                    
 "
 %
 s
@@ -3258,14 +3317,15 @@ leaks
 \
 n
 "
+                    
 %
-                        
 data
 [
 "
 process
 "
 ]
+                
 )
             
 status
@@ -3282,14 +3342,12 @@ FAIL
 )
             
 return
-(
 "
 %
 s
 leakcheck
 :
 "
-                    
 "
 %
 s
@@ -3304,16 +3362,17 @@ leaks
 n
 "
 %
-                    
 (
+                
 status
+                
 data
 [
 "
 process
 "
 ]
-)
+            
 )
         
 if
@@ -3329,8 +3388,6 @@ bytes
 :
             
 return
-(
-                
 "
 %
 s
@@ -3346,8 +3403,8 @@ detected
 n
 "
 %
-                
 (
+                
 self
 .
 color_formatter
@@ -3358,14 +3415,14 @@ log_test_status_pass
 PASS
 "
 )
-                    
+                
 data
 [
 "
 process
 "
 ]
-)
+            
 )
         
 message
@@ -3442,21 +3499,24 @@ threshold
         
 status
 =
+(
+            
 self
 .
 color_formatter
 .
 log_test_status_unexpected_fail
 (
-            
 "
 UNEXPECTED
 -
 FAIL
 "
 )
+            
 if
 failure
+            
 else
 self
 .
@@ -3467,6 +3527,8 @@ log_test_status_fail
 "
 FAIL
 "
+)
+        
 )
         
 return
@@ -3580,14 +3642,12 @@ pass
 1
         
 if
-(
-'
+"
 expected
-'
+"
 in
 data
 and
-                
 data
 [
 "
@@ -3600,12 +3660,13 @@ data
 .
 get
 (
+            
 "
 known_intermittent
 "
 [
 ]
-)
+        
 )
 :
             
@@ -3641,10 +3702,10 @@ data
 .
 rstrip
 (
-'
+"
 \
 n
-'
+"
 )
     
 def
@@ -3716,7 +3777,6 @@ data
 min_expected
 "
 ]
-                                     
 data
 [
 "
@@ -3775,13 +3835,16 @@ n
 (
             
 action
+            
 data
 [
 "
 count
 "
 ]
+            
 expected
+        
 )
     
 def
@@ -3801,9 +3864,9 @@ pid
 =
 data
 [
-'
+"
 process
-'
+"
 ]
         
 if
@@ -3816,12 +3879,12 @@ isdigit
             
 pid
 =
-'
+"
 pid
 :
 %
 s
-'
+"
 %
 pid
         
@@ -3874,7 +3937,7 @@ rv
 .
 append
 (
-'
+"
 %
 s
 Full
@@ -3882,7 +3945,7 @@ command
 :
 %
 s
-'
+"
 %
 (
 pid
@@ -3899,12 +3962,12 @@ rv
 .
 append
 (
-'
+"
 %
 s
 %
 s
-'
+"
 %
 (
 pid
@@ -3964,9 +4027,11 @@ data
 .
 get
 (
+            
 "
 stackwalk_stderr
 "
+        
 )
 :
             
@@ -3984,6 +4049,7 @@ False
 rv
 =
 [
+            
 "
 pid
 :
@@ -4008,8 +4074,8 @@ Signature
 s
 ]
 "
+            
 %
-              
 (
 data
 .
@@ -4029,6 +4095,7 @@ signature
 "
 ]
 )
+        
 ]
         
 if
@@ -4148,6 +4215,7 @@ rv
 .
 append
 (
+                    
 "
 minidump_stackwalk
 exited
@@ -4157,14 +4225,15 @@ code
 %
 d
 "
+                    
 %
-                          
 data
 [
 "
 stackwalk_returncode
 "
 ]
+                
 )
             
 if
@@ -4295,9 +4364,9 @@ action
 (
 data
 [
-'
+"
 action
-'
+"
 ]
 .
 upper
@@ -4338,9 +4407,9 @@ s
 %
 data
 [
-'
+"
 process
-'
+"
 ]
         
 desc
@@ -4349,9 +4418,9 @@ data
 .
 get
 (
-'
+"
 command
-'
+"
 )
         
 if
@@ -4360,14 +4429,14 @@ desc
             
 rv
 =
-'
+"
 %
 s
 (
 %
 s
 )
-'
+"
 %
 (
 rv
@@ -4397,17 +4466,17 @@ s
 (
 data
 [
-'
+"
 process
-'
+"
 ]
 strstatus
 (
 data
 [
-'
+"
 exitcode
-'
+"
 ]
 )
 )
@@ -4504,9 +4573,9 @@ data
 .
 get
 (
-'
+"
 component
-'
+"
 )
 :
             
@@ -4594,6 +4663,8 @@ data
         
 fmt
 =
+(
+            
 "
 {
 path
@@ -4620,8 +4691,7 @@ normal
 message
 }
 "
-\
-              
+            
 "
 {
 c1
@@ -4638,6 +4708,8 @@ linter
 normal
 }
 "
+        
+)
         
 message
 =
@@ -4678,6 +4750,7 @@ self
 color_formatter
 .
 error
+            
 if
 data
 [
@@ -4687,12 +4760,12 @@ level
 ]
 =
 =
-'
+"
 error
-'
+"
+            
 else
 (
-                
 self
 .
 color_formatter
@@ -4762,10 +4835,10 @@ message
             
 rule
 =
-'
+"
 {
 }
-'
+"
 .
 format
 (
@@ -4849,6 +4922,7 @@ rv
             
 "
 "
+            
 self
 .
 color_formatter
@@ -4857,13 +4931,13 @@ heading
 (
 heading
 )
+            
 self
 .
 color_formatter
 .
 heading
 (
-                
 "
 =
 "
@@ -4873,6 +4947,7 @@ len
 heading
 )
 )
+        
 ]
         
 for
@@ -5012,3 +5087,4 @@ t
 /
 1000
 .
+0

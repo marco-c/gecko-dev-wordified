@@ -173,7 +173,6 @@ the
 expected
 results
 .
-    
 "
 "
 "
@@ -182,19 +181,19 @@ powermeasurer
 .
 _os
 =
-'
+"
 darwin
-'
+"
     
 powermeasurer
 .
 _cpu
 =
-'
+"
 not
 -
 intel
-'
+"
     
 def
 os_side_effect
@@ -240,13 +239,13 @@ mock
 .
 patch
 (
-'
+"
 os
 .
 path
 .
 exists
-'
+"
 return_value
 =
 True
@@ -308,9 +307,9 @@ powermeasurer
 .
 _cpu
 =
-'
+"
 intel
-'
+"
         
 ipg_path
 =
@@ -373,21 +372,21 @@ powermeasurer
 .
 _cpu
 =
-'
+"
 intel
-'
+"
     
 powermeasurer
 .
 _os
 =
-'
+"
 Not
 -
 An
 -
 OS
-'
+"
     
 def
 os_side_effect
@@ -456,13 +455,13 @@ mock
 .
 patch
 (
-'
+"
 os
 .
 path
 .
 exists
-'
+"
 return_value
 =
 False
@@ -481,9 +480,9 @@ powermeasurer
 .
 _os
 =
-'
+"
 darwin
-'
+"
         
 with
 pytest
@@ -503,9 +502,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

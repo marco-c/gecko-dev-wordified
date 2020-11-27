@@ -83,9 +83,9 @@ data
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Generate
 the
@@ -104,9 +104,9 @@ hex
 string
 .
     
-'
-'
-'
+"
+"
+"
     
 return
 hashlib
@@ -127,9 +127,9 @@ contents
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Return
 the
@@ -166,9 +166,9 @@ path
 name
 .
     
-'
-'
-'
+"
+"
+"
     
 digest
 =
@@ -191,9 +191,9 @@ get_generated_sources
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Yield
 tuples
@@ -233,9 +233,9 @@ File
 instance
 .
     
-'
-'
-'
+"
+"
+"
     
 import
 buildconfig
@@ -266,22 +266,22 @@ join
 buildconfig
 .
 topobjdir
-'
+"
 generated
 -
 sources
 .
 json
-'
+"
 )
     
 with
 open
 (
 gen_sources
-'
+"
 r
-'
+"
 )
 as
 f
@@ -301,9 +301,9 @@ f
 in
 data
 [
-'
+"
 sources
-'
+"
 ]
 :
         
@@ -320,9 +320,9 @@ f
 )
 !
 =
-'
+"
 symverscript
-'
+"
 :
             
 yield
@@ -355,13 +355,13 @@ _ipdlheaders
     
 base
 =
-'
+"
 ipc
 /
 ipdl
 /
 _ipdlheaders
-'
+"
     
 finder
 =
@@ -386,14 +386,14 @@ finder
 .
 find
 (
-'
+"
 *
 *
 /
 *
 .
 h
-'
+"
 )
 :
         
@@ -427,9 +427,9 @@ directory
     
 rust_build_kind
 =
-'
+"
 debug
-'
+"
 if
 buildconfig
 .
@@ -437,14 +437,14 @@ substs
 .
 get
 (
-'
+"
 MOZ_DEBUG_RUST
-'
+"
 )
 else
-'
+"
 release
-'
+"
     
 base
 =
@@ -456,16 +456,14 @@ buildconfig
 .
 substs
 [
-'
+"
 RUST_TARGET
-'
+"
 ]
-                        
 rust_build_kind
-                        
-'
+"
 build
-'
+"
 )
     
 finder
@@ -496,26 +494,26 @@ p
 endswith
 (
 (
-'
+"
 .
 rs
-'
-'
+"
+"
 .
 c
-'
-'
+"
+"
 .
 h
-'
-'
+"
+"
 .
 cc
-'
-'
+"
+"
 .
 cpp
-'
+"
 )
 )
 :
@@ -535,9 +533,9 @@ get_s3_region_and_bucket
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Return
 a
@@ -564,19 +562,19 @@ be
 uploaded
 .
     
-'
-'
-'
+"
+"
+"
     
 region
 =
-'
+"
 us
 -
 west
 -
 2
-'
+"
     
 level
 =
@@ -586,23 +584,23 @@ environ
 .
 get
 (
-'
+"
 MOZ_SCM_LEVEL
-'
-'
+"
+"
 1
-'
+"
 )
     
 bucket
 =
 {
         
-'
+"
 1
-'
+"
 :
-'
+"
 gecko
 -
 generated
@@ -610,13 +608,13 @@ generated
 sources
 -
 l1
-'
+"
         
-'
+"
 2
-'
+"
 :
-'
+"
 gecko
 -
 generated
@@ -624,19 +622,19 @@ generated
 sources
 -
 l2
-'
+"
         
-'
+"
 3
-'
+"
 :
-'
+"
 gecko
 -
 generated
 -
 sources
-'
+"
     
 }
 [

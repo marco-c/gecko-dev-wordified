@@ -101,9 +101,9 @@ getattr
 request
 .
 module
-'
+"
 lintargs
-'
+"
 {
 }
 )
@@ -157,9 +157,9 @@ setattr
 lint
 .
 vcs
-'
+"
 get_changed_files
-'
+"
 _fake_vcs_files
 )
         
@@ -168,18 +168,18 @@ setattr
 lint
 .
 vcs
-'
+"
 get_outgoing_files
-'
+"
 _fake_vcs_files
 )
     
 setattr
 (
 lint
-'
+"
 vcs
-'
+"
 Namespace
 (
 )
@@ -188,9 +188,9 @@ Namespace
 setattr
 (
 lint
-'
+"
 mock_vcs
-'
+"
 mock_vcs
 )
     
@@ -202,9 +202,9 @@ fixture
 (
 scope
 =
-'
+"
 session
-'
+"
 )
 def
 filedir
@@ -220,9 +220,9 @@ path
 join
 (
 here
-'
+"
 files
-'
+"
 )
 pytest
 .
@@ -230,9 +230,9 @@ fixture
 (
 scope
 =
-'
+"
 module
-'
+"
 )
 def
 files
@@ -249,17 +249,18 @@ getattr
 request
 .
 module
-'
+"
 files
-'
+"
 [
-'
-'
+"
+"
 ]
 )
     
 return
 [
+        
 os
 .
 path
@@ -269,6 +270,7 @@ join
 filedir
 p
 )
+        
 for
 p
 in
@@ -278,7 +280,7 @@ listdir
 (
 filedir
 )
-            
+        
 if
 any
 (
@@ -293,6 +295,7 @@ suffix
 in
 suffix_filter
 )
+    
 ]
 pytest
 .
@@ -300,9 +303,9 @@ fixture
 (
 scope
 =
-'
+"
 session
-'
+"
 )
 def
 lintdir
@@ -319,9 +322,9 @@ path
 join
 (
 here
-'
+"
 linters
-'
+"
 )
     
 sys
@@ -342,9 +345,9 @@ fixture
 (
 scope
 =
-'
+"
 module
-'
+"
 )
 def
 linters
@@ -363,6 +366,7 @@ names
         
 return
 [
+            
 os
 .
 path
@@ -372,6 +376,7 @@ join
 lintdir
 p
 )
+            
 for
 p
 in
@@ -381,7 +386,7 @@ listdir
 (
 lintdir
 )
-                
+            
 if
 any
 (
@@ -404,7 +409,7 @@ name
 in
 names
 )
-                
+            
 if
 os
 .
@@ -419,10 +424,11 @@ p
 ]
 =
 =
-'
+"
 .
 yml
-'
+"
+        
 ]
     
 return

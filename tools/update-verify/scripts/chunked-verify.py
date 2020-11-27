@@ -109,7 +109,6 @@ logging
 .
 basicConfig
 (
-    
 stream
 =
 sys
@@ -172,7 +171,6 @@ path
 .
 join
 (
-    
 path
 .
 dirname
@@ -348,8 +346,6 @@ and
 options
 .
 thisChunk
-\
-        
 "
 chunks
 and
@@ -449,7 +445,6 @@ verifyConfig
 .
 getChunk
 (
-            
 options
 .
 chunks

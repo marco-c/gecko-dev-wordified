@@ -191,6 +191,7 @@ self
 .
 assertIsInstance
 (
+                
 self
 .
 marionette
@@ -199,6 +200,7 @@ current_window_handle
 six
 .
 string_types
+            
 )
         
 except

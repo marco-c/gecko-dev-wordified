@@ -322,12 +322,12 @@ self
 :
         
 return
-'
+"
 Unknown
 directive
 %
 s
-'
+"
 %
 repr
 (
@@ -374,15 +374,15 @@ self
 .
 sha1
 =
-'
-'
+"
+"
         
 self
 .
 sha256
 =
-'
-'
+"
+"
         
 signerSpecification
 =
@@ -428,10 +428,10 @@ strip
 )
 =
 =
-'
+"
 signer
 :
-'
+"
 :
                 
 readingSignerSpecification
@@ -443,10 +443,10 @@ line
 .
 startswith
 (
-'
+"
 sha1
 :
-'
+"
 )
 :
                 
@@ -462,10 +462,10 @@ strip
 [
 len
 (
-'
+"
 sha1
 :
-'
+"
 )
 :
 ]
@@ -475,10 +475,10 @@ line
 .
 startswith
 (
-'
+"
 sha256
 :
-'
+"
 )
 :
                 
@@ -494,10 +494,10 @@ strip
 [
 len
 (
-'
+"
 sha256
 :
-'
+"
 )
 :
 ]
@@ -541,9 +541,9 @@ pykey
 .
 keyFromSpecification
 (
-'
+"
 default
-'
+"
 )
     
 def
@@ -616,9 +616,11 @@ Attributes
 .
 subtype
 (
+                
 implicitTag
 =
 implicitTag
+            
 )
         
 else
@@ -648,16 +650,16 @@ contentType
         
 contentTypeAttribute
 [
-'
+"
 type
-'
+"
 ]
 =
 univ
 .
 ObjectIdentifier
 (
-'
+"
 1
 .
 2
@@ -671,14 +673,14 @@ ObjectIdentifier
 9
 .
 3
-'
+"
 )
         
 contentTypeAttribute
 [
-'
+"
 values
-'
+"
 ]
 =
 univ
@@ -700,9 +702,9 @@ data
         
 contentTypeAttribute
 [
-'
+"
 values
-'
+"
 ]
 [
 0
@@ -712,7 +714,8 @@ univ
 .
 ObjectIdentifier
 (
-'
+            
+"
 1
 .
 2
@@ -726,7 +729,8 @@ ObjectIdentifier
 7
 .
 1
-'
+"
+        
 )
         
 authenticatedAttributes
@@ -752,16 +756,16 @@ messageDigest
         
 hashAttribute
 [
-'
+"
 type
-'
+"
 ]
 =
 univ
 .
 ObjectIdentifier
 (
-'
+"
 1
 .
 2
@@ -775,14 +779,14 @@ ObjectIdentifier
 9
 .
 4
-'
+"
 )
         
 hashAttribute
 [
-'
+"
 values
-'
+"
 ]
 =
 univ
@@ -798,9 +802,9 @@ AttributeValue
         
 hashAttribute
 [
-'
+"
 values
-'
+"
 ]
 [
 0
@@ -866,7 +870,7 @@ HASH_SHA1
             
 oidString
 =
-'
+"
 1
 .
 3
@@ -878,7 +882,7 @@ oidString
 2
 .
 26
-'
+"
         
 elif
 pykeyHash
@@ -891,7 +895,7 @@ HASH_SHA256
             
 oidString
 =
-'
+"
 2
 .
 16
@@ -909,7 +913,7 @@ oidString
 2
 .
 1
-'
+"
         
 else
 :
@@ -932,9 +936,9 @@ AlgorithmIdentifier
         
 algorithmIdentifier
 [
-'
+"
 algorithm
-'
+"
 ]
 =
 univ
@@ -974,9 +978,9 @@ Null
         
 algorithmIdentifier
 [
-'
+"
 parameters
-'
+"
 ]
 =
 univ
@@ -1038,9 +1042,9 @@ SignerInfo
         
 signerInfo
 [
-'
+"
 version
-'
+"
 ]
 =
 1
@@ -1055,9 +1059,9 @@ IssuerAndSerialNumber
         
 issuerAndSerialNumber
 [
-'
+"
 issuer
-'
+"
 ]
 =
 self
@@ -1070,37 +1074,39 @@ getIssuer
         
 issuerAndSerialNumber
 [
-'
+"
 serialNumber
-'
+"
 ]
 =
 certificate
 [
-'
+"
 tbsCertificate
-'
+"
 ]
 [
-'
+            
+"
 serialNumber
-'
+"
+        
 ]
         
 signerInfo
 [
-'
+"
 issuerAndSerialNumber
-'
+"
 ]
 =
 issuerAndSerialNumber
         
 signerInfo
 [
-'
+"
 digestAlgorithm
-'
+"
 ]
 =
 self
@@ -1120,9 +1126,9 @@ AlgorithmIdentifier
         
 rsa
 [
-'
+"
 algorithm
-'
+"
 ]
 =
 rfc2459
@@ -1131,9 +1137,9 @@ rsaEncryption
         
 rsa
 [
-'
+"
 parameters
-'
+"
 ]
 =
 univ
@@ -1144,14 +1150,13 @@ Null
         
 authenticatedAttributes
 =
-(
-            
 self
 .
 buildAuthenticatedAttributes
 (
+            
 digestValue
-                                              
+            
 implicitTag
 =
 tag
@@ -1161,13 +1166,12 @@ Tag
 tag
 .
 tagClassContext
-                                                                  
 tag
 .
 tagFormatConstructed
 0
 )
-)
+        
 )
         
 authenticatedAttributesTBS
@@ -1181,18 +1185,18 @@ digestValue
         
 signerInfo
 [
-'
+"
 authenticatedAttributes
-'
+"
 ]
 =
 authenticatedAttributes
         
 signerInfo
 [
-'
+"
 digestEncryptionAlgorithm
-'
+"
 ]
 =
 rsa
@@ -1278,9 +1282,9 @@ H
         
 signerInfo
 [
-'
+"
 encryptedDigest
-'
+"
 ]
 =
 univ
@@ -1318,9 +1322,9 @@ ContentInfo
         
 contentInfo
 [
-'
+"
 contentType
-'
+"
 ]
 =
 rfc2315
@@ -1337,9 +1341,9 @@ SignedData
         
 signedData
 [
-'
+"
 version
-'
+"
 ]
 =
 rfc2315
@@ -1373,9 +1377,9 @@ HASH_SHA1
         
 signedData
 [
-'
+"
 digestAlgorithms
-'
+"
 ]
 =
 digestAlgorithms
@@ -1390,9 +1394,9 @@ ContentInfo
         
 dataContentInfo
 [
-'
+"
 contentType
-'
+"
 ]
 =
 rfc2315
@@ -1401,9 +1405,9 @@ data
         
 signedData
 [
-'
+"
 contentInfo
-'
+"
 ]
 =
 dataContentInfo
@@ -1433,6 +1437,7 @@ tag
 tagFormatConstructed
 0
 )
+        
 )
         
 extendedCertificateOrCertificate
@@ -1449,6 +1454,7 @@ decoder
 .
 decode
 (
+            
 self
 .
 signer
@@ -1456,7 +1462,6 @@ signer
 toDER
 (
 )
-                                     
 asn1Spec
 =
 rfc2459
@@ -1464,6 +1469,7 @@ rfc2459
 Certificate
 (
 )
+        
 )
 [
 0
@@ -1471,9 +1477,9 @@ Certificate
         
 extendedCertificateOrCertificate
 [
-'
+"
 certificate
-'
+"
 ]
 =
 certificate
@@ -1487,9 +1493,9 @@ extendedCertificateOrCertificate
         
 signedData
 [
-'
+"
 certificates
-'
+"
 ]
 =
 certificates
@@ -1525,14 +1531,15 @@ self
 .
 buildSignerInfo
 (
+                
 certificate
-                                                                 
 pykey
 .
 HASH_SHA1
 self
 .
 sha1
+            
 )
         
 if
@@ -1558,21 +1565,22 @@ self
 .
 buildSignerInfo
 (
+                
 certificate
-                                                                 
 pykey
 .
 HASH_SHA256
 self
 .
 sha256
+            
 )
         
 signedData
 [
-'
+"
 signerInfos
-'
+"
 ]
 =
 signerInfos
@@ -1612,13 +1620,14 @@ tag
 tagFormatConstructed
 0
 )
+        
 )
         
 contentInfo
 [
-'
+"
 content
-'
+"
 ]
 =
 anyTag
@@ -1640,7 +1649,7 @@ self
         
 output
 =
-'
+"
 -
 -
 -
@@ -1653,7 +1662,7 @@ PKCS7
 -
 -
 -
-'
+"
         
 der
 =
@@ -1679,10 +1688,10 @@ b64
 output
 +
 =
-'
+"
 \
 n
-'
+"
 +
 b64
 [
@@ -1701,7 +1710,7 @@ b64
 output
 +
 =
-'
+"
 \
 n
 -
@@ -1718,7 +1727,7 @@ PKCS7
 -
 \
 n
-'
+"
         
 return
 output
@@ -1750,9 +1759,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 print

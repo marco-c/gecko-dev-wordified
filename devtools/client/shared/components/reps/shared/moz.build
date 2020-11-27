@@ -87,7 +87,7 @@ MPL
 .
 DevToolsModules
 (
-'
+"
 dom
 -
 node
@@ -95,8 +95,8 @@ node
 constants
 .
 js
-'
-'
+"
+"
 grip
 -
 length
@@ -104,5 +104,5 @@ length
 bubble
 .
 js
-'
+"
 )

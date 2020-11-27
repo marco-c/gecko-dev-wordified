@@ -357,6 +357,8 @@ else
                     
 upstream_label
 =
+(
+                        
 "
 repackage
 -
@@ -377,13 +379,15 @@ opt
 .
 format
 (
+                            
+locale
+=
+locale
+platform
+=
+platform
                         
-locale
-=
-locale
-platform
-=
-platform
+)
                     
 )
                     
@@ -439,10 +443,8 @@ for
 .
 format
 (
-                            
 platform
 locale
-                        
 )
                     
 )
@@ -493,13 +495,11 @@ upstream_label
 .
 add
 (
-                    
 (
 upstream_artifact
 stage_platform
 locale
 )
-                
 )
                 
 artifact_part
@@ -534,6 +534,8 @@ locale
                 
 artifact
 =
+(
+                    
 "
 releng
 /
@@ -554,7 +556,7 @@ artifact_part
 .
 format
 (
-                    
+                        
 partner
 =
 partner_config
@@ -563,7 +565,7 @@ partner_config
 campaign
 "
 ]
-                    
+                        
 sub_partner
 =
 partner_config
@@ -572,10 +574,12 @@ partner_config
 content
 "
 ]
-                    
+                        
 artifact_part
 =
 artifact_part
+                    
+)
                 
 )
                 

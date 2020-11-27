@@ -74,12 +74,12 @@ re
 compile
 (
 r
-'
+"
 \
 s
 +
 #
-'
+"
 )
 RE_HTTP
 =
@@ -88,7 +88,7 @@ re
 compile
 (
 r
-'
+"
 HTTP
 \
 (
@@ -109,7 +109,7 @@ HTTP
 )
 \
 )
-'
+"
 )
 RE_PROTOCOL
 =
@@ -118,119 +118,119 @@ re
 compile
 (
 r
-'
+"
 ^
 \
 w
 +
 :
-'
+"
 )
 FAILURE_TYPES
 =
 (
     
-'
+"
 fails
-'
+"
     
-'
+"
 fails
 -
 if
-'
+"
     
-'
+"
 needs
 -
 focus
-'
+"
     
-'
+"
 random
-'
+"
     
-'
+"
 random
 -
 if
-'
+"
     
-'
+"
 silentfail
-'
+"
     
-'
+"
 silentfail
 -
 if
-'
+"
     
-'
+"
 skip
-'
+"
     
-'
+"
 skip
 -
 if
-'
+"
     
-'
+"
 slow
-'
+"
     
-'
+"
 slow
 -
 if
-'
+"
     
-'
+"
 fuzzy
-'
+"
     
-'
+"
 fuzzy
 -
 if
-'
+"
     
-'
+"
 require
 -
 or
-'
+"
     
-'
+"
 asserts
-'
+"
     
-'
+"
 asserts
 -
 if
-'
+"
 )
 PREF_ITEMS
 =
 (
     
-'
+"
 pref
-'
+"
     
-'
+"
 test
 -
 pref
-'
+"
     
-'
+"
 ref
 -
 pref
-'
+"
 )
 RE_ANNOTATION
 =
@@ -239,7 +239,7 @@ re
 compile
 (
 r
-'
+"
 (
 .
 *
@@ -252,7 +252,7 @@ r
 )
 \
 )
-'
+"
 )
 class
 ReftestManifest
@@ -270,7 +270,6 @@ parsed
 reftest
 manifest
 .
-    
 "
 "
 "
@@ -494,15 +493,15 @@ test_dict
 =
 {
                 
-'
+"
 path
-'
+"
 :
 test
                 
-'
+"
 here
-'
+"
 :
 os
 .
@@ -513,15 +512,15 @@ dirname
 test
 )
                 
-'
+"
 manifest
-'
+"
 :
 normalized_path
                 
-'
+"
 name
-'
+"
 :
 os
 .
@@ -532,28 +531,28 @@ basename
 test
 )
                 
-'
+"
 head
-'
+"
 :
-'
-'
+"
+"
                 
-'
+"
 support
 -
 files
-'
+"
 :
-'
-'
+"
+"
                 
-'
+"
 subsuite
-'
+"
 :
-'
-'
+"
+"
             
 }
             
@@ -563,11 +562,11 @@ referenced_test
                 
 test_dict
 [
-'
+"
 referenced
 -
 test
-'
+"
 ]
 =
 referenced_test
@@ -758,16 +757,16 @@ io
 open
 (
 path
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 fh
@@ -787,8 +786,8 @@ splitlines
         
 urlprefix
 =
-'
-'
+"
+"
         
 defaults
 =
@@ -833,9 +832,9 @@ line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
                 
@@ -981,9 +980,9 @@ if
 item
 =
 =
-'
+"
 HTTP
-'
+"
 :
                     
 continue
@@ -1028,7 +1027,6 @@ path
 .
 join
 (
-                        
 mdir
 m
 .
@@ -1054,6 +1052,7 @@ defaults
 raise
 ValueError
 (
+                        
 "
 Error
 parsing
@@ -1065,7 +1064,7 @@ line
 }
 :
 "
-                                     
+                        
 "
 Invalid
 defaults
@@ -1078,22 +1077,22 @@ token
 .
 format
 (
-                                        
 path
 lineno
 item
 )
+                    
 )
                 
 if
 item
 =
 =
-'
+"
 url
 -
 prefix
-'
+"
 :
                     
 urlprefix
@@ -1111,9 +1110,9 @@ if
 item
 =
 =
-'
+"
 include
-'
+"
 :
                     
 self
@@ -1142,16 +1141,16 @@ if
 item
 =
 =
-'
+"
 load
-'
+"
 or
 item
 =
 =
-'
+"
 script
-'
+"
 :
                     
 add_test
@@ -1171,25 +1170,25 @@ if
 item
 =
 =
-'
+"
 =
 =
-'
+"
 or
 item
 =
 =
-'
+"
 !
 =
-'
+"
 or
 item
 =
 =
-'
+"
 print
-'
+"
 :
                     
 add_test

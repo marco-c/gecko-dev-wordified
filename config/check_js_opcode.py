@@ -289,7 +289,7 @@ text
     
 print
 (
-'
+"
 TEST
 -
 PASS
@@ -299,7 +299,7 @@ PASS
 |
 {
 }
-'
+"
 .
 format
 (
@@ -316,7 +316,7 @@ text
     
 print
 (
-'
+"
 TEST
 -
 UNEXPECTED
@@ -328,7 +328,7 @@ FAIL
 |
 {
 }
-'
+"
 .
 format
 (
@@ -356,15 +356,15 @@ path
 join
 (
 topsrcdir
-'
+"
 js
-'
-'
+"
+"
 src
-'
-'
+"
+"
 vm
-'
+"
 )
 )
     
@@ -402,9 +402,9 @@ False
     
 log_pass
 (
-'
+"
 ok
-'
+"
 )
     
 return
@@ -439,9 +439,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main

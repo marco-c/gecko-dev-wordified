@@ -60,28 +60,34 @@ print_function
 __all__
 =
 [
-'
+    
+"
 gencxx
-'
-'
+"
+    
+"
 genipdl
-'
-'
+"
+    
+"
 parse
-'
-'
+"
+    
+"
 typecheck
-'
-'
+"
+    
+"
 writeifmodified
-'
-           
-'
+"
+    
+"
 checkSyncMessage
-'
-'
+"
+    
+"
 checkFixedSyncMessages
-'
+"
 ]
 import
 os
@@ -138,10 +144,10 @@ parse
 specstring
 filename
 =
-'
+"
 /
 stdin
-'
+"
 includedirs
 =
 [
@@ -154,9 +160,9 @@ stderr
 )
 :
     
-'
-'
-'
+"
+"
+"
 Return
 an
 IPDL
@@ -178,9 +184,9 @@ it
 is
 not
 .
-'
-'
-'
+"
+"
+"
     
 #
 The
@@ -235,26 +241,26 @@ if
 ext
 =
 =
-'
+"
 .
 ipdlh
-'
+"
 :
         
 type
 =
-'
+"
 header
-'
+"
     
 else
 :
         
 type
 =
-'
+"
 protocol
-'
+"
     
 try
 :
@@ -268,6 +274,7 @@ name
 .
 parse
 (
+            
 specstring
 os
 .
@@ -278,6 +285,7 @@ abspath
 filename
 )
 includedirs
+        
 )
     
 except
@@ -308,9 +316,9 @@ stderr
 )
 :
     
-'
-'
-'
+"
+"
+"
 Return
 True
 iff
@@ -333,9 +341,9 @@ it
 is
 not
 .
-'
-'
-'
+"
+"
+"
     
 return
 TypeCheck
@@ -391,7 +399,6 @@ join
 (
                 
 outheadersdir
-                
 *
 (
 [
@@ -412,6 +419,7 @@ hdr
 name
 ]
 )
+            
 )
         
 ]
@@ -443,7 +451,6 @@ for
 ast
 filename
 in
-(
 [
 resolveHeader
 (
@@ -454,9 +461,9 @@ hdr
 in
 headers
 ]
-                          
 +
 [
+        
 resolveCpp
 (
 cpp
@@ -465,8 +472,8 @@ for
 cpp
 in
 cpps
+    
 ]
-)
 :
         
 tempfile
@@ -542,11 +549,11 @@ contents
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 dir
@@ -596,9 +603,9 @@ fd
 open
 (
 file
-'
+"
 rb
-'
+"
 )
         
 oldcontents
@@ -627,9 +634,9 @@ fd
 open
 (
 file
-'
+"
 wb
-'
+"
 )
         
 fd

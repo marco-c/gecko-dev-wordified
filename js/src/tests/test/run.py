@@ -73,9 +73,9 @@ path
 join
 (
 testDir
-'
+"
 out
-'
+"
 )
 EXPECTED_DIR
 =
@@ -86,9 +86,9 @@ path
 join
 (
 testDir
-'
+"
 expected
-'
+"
 )
 ex
 =
@@ -99,17 +99,17 @@ path
 join
 (
 testDir
-'
+"
 .
 .
-'
-'
+"
+"
 test262
 -
 export
 .
 py
-'
+"
 )
 importExec
 =
@@ -120,21 +120,21 @@ path
 join
 (
 testDir
-'
+"
 .
 .
-'
-'
+"
+"
 test262
 -
 update
 .
 py
-'
+"
 )
 test262Url
 =
-'
+"
 git
 :
 /
@@ -148,7 +148,7 @@ tc39
 test262
 .
 git
-'
+"
 contextlib
 .
 contextmanager
@@ -216,12 +216,12 @@ path
 join
 (
 testDir
-'
+"
 fixtures
-'
-'
+"
+"
 export
-'
+"
 )
 )
         
@@ -231,18 +231,16 @@ subprocess
 .
 Popen
 (
-            
 [
 ex
 relpath
-'
+"
 -
 -
 out
-'
+"
 OUT_DIR
 ]
-            
 stdout
 =
 subprocess
@@ -292,9 +290,9 @@ cloneDir
             
 branch
 =
-'
+"
 smTempBranch
-'
+"
             
 #
 Clone
@@ -308,25 +306,23 @@ subprocess
 .
 check_call
 (
-                
 [
-'
+"
 git
-'
-'
+"
+"
 clone
-'
-'
+"
+"
 -
 -
 depth
 =
 1
-'
+"
 test262Url
 cloneDir
 ]
-            
 )
             
 #
@@ -340,26 +336,24 @@ subprocess
 .
 check_call
 (
-                
 [
-'
+"
 git
-'
-'
+"
+"
 -
 C
-'
+"
 cloneDir
-'
+"
 checkout
-'
-'
+"
+"
 -
 b
-'
+"
 branch
 ]
-            
 )
             
 #
@@ -390,19 +384,18 @@ check_call
 (
                 
 [
-'
+"
 git
-'
-'
+"
+"
 -
 C
-'
+"
 cloneDir
-'
+"
 rm
-'
-                    
-'
+"
+"
 test
 /
 language
@@ -414,7 +407,7 @@ escaped
 from
 .
 js
-'
+"
 ]
             
 )
@@ -439,19 +432,23 @@ check_call
 (
                 
 [
-'
+                    
+"
 git
-'
-'
+"
+                    
+"
 -
 C
-'
-cloneDir
-'
-mv
-'
+"
                     
-'
+cloneDir
+                    
+"
+mv
+"
+                    
+"
 test
 /
 language
@@ -463,9 +460,9 @@ escaped
 default
 .
 js
-'
+"
                     
-'
+"
 test
 /
 language
@@ -477,8 +474,8 @@ escaped
 foobarbaz
 .
 js
-'
-                 
+"
+                
 ]
             
 )
@@ -497,15 +494,15 @@ path
 join
 (
 testDir
-'
+"
 fixtures
-'
-'
+"
+"
 import
-'
-'
+"
+"
 files
-'
+"
 )
             
 shutil
@@ -520,12 +517,12 @@ path
 join
 (
 cloneDir
-'
+"
 test
-'
-'
+"
+"
 temp42
-'
+"
 )
 )
             
@@ -540,20 +537,20 @@ subprocess
 check_call
 (
 [
-'
+"
 git
-'
-'
+"
+"
 -
 C
-'
+"
 cloneDir
-'
+"
 add
-'
-'
+"
+"
 .
-'
+"
 ]
 )
             
@@ -561,22 +558,23 @@ subprocess
 .
 check_call
 (
+                
 [
-'
+"
 git
-'
-'
+"
+"
 -
 C
-'
+"
 cloneDir
-'
+"
 commit
-'
-'
+"
+"
 -
 m
-'
+"
 '
 "
 local
@@ -584,6 +582,7 @@ foo
 "
 '
 ]
+            
 )
             
 #
@@ -624,17 +623,17 @@ Popen
                 
 [
 importExec
-'
+"
 -
 -
 local
-'
+"
 cloneDir
-'
+"
 -
 -
 out
-'
+"
 OUT_DIR
 ]
                 
@@ -684,29 +683,29 @@ filename
 .
 startswith
 (
-'
+"
 .
-'
+"
 )
-or
             
+or
 filename
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
-or
             
+or
 filename
 .
 endswith
 (
-'
+"
 ~
-'
+"
 )
         
 )
@@ -853,6 +852,7 @@ actualPath
 )
 actualFiles
 )
+        
 )
         
 for
@@ -894,12 +894,12 @@ expectedHandle
 read
 (
 )
-                        
 actualHandle
 .
 read
 (
 )
+                    
 )
     
 def
@@ -938,13 +938,13 @@ expected
 .
 replace
 (
-'
+"
 {
 {
 folder
 }
 }
-'
+"
 folder
 )
         
@@ -994,9 +994,9 @@ assertEqual
 (
 result
 [
-'
+"
 returncode
-'
+"
 ]
 0
 )
@@ -1005,9 +1005,9 @@ self
 .
 compareTrees
 (
-'
+"
 export
-'
+"
 )
     
 def
@@ -1045,12 +1045,12 @@ path
 .
 join
 (
-'
+"
 import
-'
-'
+"
+"
 files
-'
+"
 )
 )
         
@@ -1060,7 +1060,6 @@ compareContents
 (
             
 output
-            
 os
 .
 path
@@ -1068,19 +1067,18 @@ path
 join
 (
 testDir
-'
+"
 expected
-'
-'
+"
+"
 import
-'
-'
+"
+"
 output
 .
 txt
-'
+"
 )
-            
 folder
         
 )
@@ -1088,9 +1086,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 unittest

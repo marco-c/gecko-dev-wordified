@@ -179,9 +179,9 @@ topsrcdir
 build
 .
 topsrcdir
-'
-'
-'
+"
+"
+"
 Helper
 to
 make
@@ -220,9 +220,9 @@ mozunit
 main
 (
 )
-'
-'
-'
+"
+"
+"
 class
 _MozTestResult
 (
@@ -301,8 +301,8 @@ status
 test
 message
 =
-'
-'
+"
+"
 )
 :
         
@@ -366,13 +366,13 @@ _testMethodName
             
 sep
 =
-'
-'
+"
+"
 if
 message
 else
-'
-'
+"
+"
             
 message
 =
@@ -409,11 +409,11 @@ self
 .
 printStatus
 (
-'
+"
 TEST
 -
 PASS
-'
+"
 test
 )
     
@@ -439,11 +439,11 @@ self
 .
 printStatus
 (
-'
+"
 TEST
 -
 SKIP
-'
+"
 test
 )
     
@@ -469,13 +469,13 @@ self
 .
 printStatus
 (
-'
+"
 TEST
 -
 KNOWN
 -
 FAIL
-'
+"
 test
 )
     
@@ -499,13 +499,13 @@ self
 .
 printStatus
 (
-'
+"
 TEST
 -
 UNEXPECTED
 -
 PASS
-'
+"
 test
 )
     
@@ -666,18 +666,18 @@ message
 =
 value
 or
-'
+"
 NO
 MESSAGE
-'
+"
         
 if
 hasattr
 (
 value
-'
+"
 message
-'
+"
 )
 :
             
@@ -739,7 +739,7 @@ tb
             
 message
 =
-'
+"
 line
 {
 0
@@ -748,7 +748,7 @@ line
 {
 1
 }
-'
+"
 .
 format
 (
@@ -825,9 +825,9 @@ cls
 )
 :
     
-'
-'
-'
+"
+"
+"
 Create
 a
 mocked
@@ -840,10 +840,9 @@ the
 given
 class
 .
-    
-'
-'
-'
+"
+"
+"
     
 class
 MockedFile
@@ -960,9 +959,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Normalize
 the
@@ -993,9 +992,9 @@ on
 Windows
 .
     
-'
-'
-'
+"
+"
+"
     
 if
 sys
@@ -1004,9 +1003,9 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
         
@@ -1026,9 +1025,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
 Callable
 that
 acts
@@ -1047,9 +1046,9 @@ more
 info
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1079,9 +1078,9 @@ self
 name
 mode
 =
-'
+"
 r
-'
+"
 buffering
 =
 None
@@ -1159,6 +1158,7 @@ self
 .
 open
 (
+                
 name
 mode
 =
@@ -1166,13 +1166,13 @@ mode
 buffering
 =
 buffering
-                             
 encoding
 =
 encoding
 newline
 =
 newline
+            
 )
         
 #
@@ -1196,9 +1196,9 @@ name
 )
         
 if
-'
+"
 w
-'
+"
 in
 mode
 :
@@ -1240,13 +1240,13 @@ raise
 IOError
 (
 2
-'
+"
 No
 such
 file
 or
 directory
-'
+"
 )
             
 file
@@ -1261,28 +1261,28 @@ content
 )
         
 elif
-'
+"
 a
-'
+"
 in
 mode
 :
             
 read_mode
 =
-'
+"
 rb
-'
+"
 if
-'
+"
 b
-'
+"
 in
 mode
 else
-'
+"
 r
-'
+"
             
 file
 =
@@ -1290,7 +1290,6 @@ self
 .
 _mocked_file
 (
-                
 absname
 mode
 self
@@ -1320,9 +1319,9 @@ mode
 )
         
 if
-'
+"
 a
-'
+"
 in
 mode
 :
@@ -1355,11 +1354,11 @@ None
 raise
 NotImplementedError
 (
-'
+"
 subclass
 must
 implement
-'
+"
 )
 class
 _MockPy2Open
@@ -1389,8 +1388,8 @@ ensure_binary
 content
 or
 b
-'
-'
+"
+"
 )
         
 return
@@ -1420,9 +1419,9 @@ None
 :
         
 if
-'
+"
 b
-'
+"
 in
 mode
 :
@@ -1436,8 +1435,8 @@ ensure_binary
 content
 or
 b
-'
-'
+"
+"
 )
             
 return
@@ -1460,8 +1459,8 @@ ensure_text
 content
 or
 u
-'
-'
+"
+"
 )
             
 return
@@ -1478,9 +1477,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Context
 manager
@@ -1664,9 +1663,9 @@ r
 )
 )
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -1928,7 +1927,6 @@ p
 :
         
 return
-(
 self
 .
 _wrapped_isfile
@@ -1936,13 +1934,11 @@ _wrapped_isfile
 p
 )
 or
-                
 self
 .
 _wrapped_isdir
 (
 p
-)
 )
     
 def
@@ -2044,13 +2040,13 @@ p
 endswith
 (
 (
-'
+"
 /
-'
-'
+"
+"
 \
 \
-'
+"
 )
 )
 else
@@ -2144,21 +2140,21 @@ kwargs
 .
 pop
 (
-'
+"
 runwith
-'
-'
+"
+"
 pytest
-'
+"
 )
     
 if
 runwith
 =
 =
-'
+"
 unittest
-'
+"
 :
         
 unittest
@@ -2194,28 +2190,30 @@ environ
 .
 get
 (
-'
+"
 MACH_STDOUT_ISATTY
-'
+"
 )
 and
 not
 any
 (
+            
 a
 .
 startswith
 (
-'
+"
 -
 -
 color
-'
+"
 )
 for
 a
 in
 args
+        
 )
 :
             
@@ -2223,41 +2221,44 @@ args
 .
 append
 (
-'
+"
 -
 -
 color
 =
 yes
-'
+"
 )
         
 module
 =
 __import__
 (
-'
+"
 __main__
-'
+"
 )
         
 args
 .
 extend
 (
-[
             
-'
+[
+                
+"
 -
 -
 rootdir
-'
+"
+                
 topsrcdir
-            
-'
+                
+"
 -
 c
-'
+"
+                
 os
 .
 path
@@ -2265,54 +2266,57 @@ path
 join
 (
 here
-'
+"
 pytest
 .
 ini
-'
+"
 )
-            
-'
+                
+"
 -
 vv
-'
-            
-'
+"
+                
+"
 -
 p
-'
-'
+"
+                
+"
 mozlog
 .
 pytest_mozlog
 .
 plugin
-'
-            
-'
+"
+                
+"
 -
 p
-'
-'
+"
+                
+"
 mozunit
 .
 pytest_plugin
-'
-            
-'
+"
+                
+"
 -
 p
-'
-'
+"
+                
+"
 no
 :
 cacheprovider
-'
-            
-'
+"
+                
+"
 -
 rsx
-'
+"
 #
 show
 reasons
@@ -2320,12 +2324,13 @@ for
 skip
 /
 xfail
-            
+                
 module
 .
 __file__
-        
+            
 ]
+        
 )
         
 sys

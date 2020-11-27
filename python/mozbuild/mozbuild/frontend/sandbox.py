@@ -207,9 +207,9 @@ default_finder
 =
 FileFinder
 (
-'
+"
 /
-'
+"
 )
 def
 alphabetical_sorted
@@ -225,7 +225,6 @@ x
 lower
 (
 )
-                        
 reverse
 =
 False
@@ -733,8 +732,9 @@ BUILTINS
 =
 ReadOnlyDict
 (
-{
         
+{
+            
 #
 Only
 real
@@ -746,50 +746,51 @@ should
 go
 here
 .
-        
-'
+            
+"
 None
-'
+"
 :
 None
-        
-'
+            
+"
 False
-'
+"
 :
 False
-        
-'
+            
+"
 True
-'
+"
 :
 True
-        
-'
+            
+"
 sorted
-'
+"
 :
 alphabetical_sorted
-        
-'
+            
+"
 int
-'
+"
 :
 int
-        
-'
+            
+"
 set
-'
+"
 :
 set
-        
-'
+            
+"
 tuple
-'
+"
 :
 tuple
-    
+        
 }
+    
 )
     
 def
@@ -813,7 +814,6 @@ ready
 for
 execution
 .
-        
 "
 "
 "
@@ -831,9 +831,9 @@ dict
 __setitem__
 (
 self
-'
+"
 __builtins__
-'
+"
 self
 .
 _builtins
@@ -1047,12 +1047,12 @@ Exception
 raise
 SandboxLoadError
 (
+                
 self
 .
 _context
 .
 source_stack
-                                   
 sys
 .
 exc_info
@@ -1064,6 +1064,7 @@ exc_info
 read_error
 =
 path
+            
 )
         
 self
@@ -1081,8 +1082,8 @@ self
 source
 path
 =
-'
-'
+"
+"
 )
 :
         
@@ -1188,9 +1189,9 @@ compile
 (
 source
 path
-'
+"
 exec
-'
+"
 )
             
 #
@@ -1273,6 +1274,7 @@ path
 def
 exec_function
 (
+        
 self
 func
 args
@@ -1285,12 +1287,12 @@ kwargs
 }
 path
 =
-'
-'
-                      
+"
+"
 becomes_current_path
 =
 True
+    
 )
 :
         
@@ -1307,7 +1309,6 @@ in
 the
 sandbox
 .
-        
 "
 "
 "
@@ -1570,13 +1571,13 @@ path
 raise
 SandboxExecutionError
 (
+                
 source_stack
 type
 (
 actual
 )
 actual
-                                        
 sys
 .
 exc_info
@@ -1585,6 +1586,7 @@ exc_info
 [
 2
 ]
+            
 )
         
 except
@@ -1938,19 +1940,19 @@ or
 key
 =
 =
-'
+"
 __builtins__
-'
+"
 :
             
 raise
 KeyError
 (
-'
+"
 Cannot
 reassign
 builtins
-'
+"
 )
         
 if
@@ -2072,23 +2074,25 @@ value
 raise
 KeyError
 (
-'
+"
 global_ns
-'
-'
+"
+"
 reassign
-'
+"
 key
 )
             
 if
 (
+                
 key
 not
 in
 self
 .
 _context
+                
 and
 isinstance
 (
@@ -2102,13 +2106,14 @@ dict
 and
 not
 value
+            
 )
 :
                 
 raise
 KeyError
 (
-'
+"
 Variable
 %
 s
@@ -2117,7 +2122,7 @@ an
 empty
 value
 .
-'
+"
 %
 key
 )
@@ -2157,10 +2162,10 @@ None
 raise
 NotImplementedError
 (
-'
+"
 Not
 supported
-'
+"
 )
     
 def
@@ -2173,10 +2178,10 @@ self
 raise
 NotImplementedError
 (
-'
+"
 Not
 supported
-'
+"
 )
     
 def

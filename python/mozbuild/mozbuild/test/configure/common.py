@@ -129,43 +129,43 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
         
 return
-'
+"
 /
-'
+"
 .
 join
 (
+            
 p
 .
 split
 (
-'
-'
+"
+"
 1
 )
 [
 0
 ]
 +
-'
+"
 ~
 1
-'
+"
 if
-'
-'
+"
+"
 in
 p
 else
 p
-                        
 for
 p
 in
@@ -175,6 +175,7 @@ split
 (
 path
 )
+        
 )
     
 return
@@ -193,19 +194,19 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 :
         
 return
 path
 +
-'
+"
 .
 exe
-'
+"
     
 return
 path
@@ -408,7 +409,6 @@ p
 path
 ]
 )
-               
 for
 p
 in
@@ -483,9 +483,9 @@ ConfigureSandbox
 )
 :
     
-'
-'
-'
+"
+"
+"
 Wrapper
 around
 the
@@ -615,9 +615,9 @@ takes
 shortcuts
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 __init__
@@ -642,11 +642,11 @@ environ
 .
 get
 (
-'
+"
 PATH
-'
-'
-'
+"
+"
+"
 )
 .
 split
@@ -702,9 +702,9 @@ environ
 )
         
 if
-'
+"
 CONFIG_SHELL
-'
+"
 not
 in
 environ
@@ -712,21 +712,21 @@ environ
             
 environ
 [
-'
+"
 CONFIG_SHELL
-'
+"
 ]
 =
 mozpath
 .
 abspath
 (
-'
+"
 /
 bin
 /
 sh
-'
+"
 )
             
 self
@@ -735,9 +735,9 @@ _subprocess_paths
 [
 environ
 [
-'
+"
 CONFIG_SHELL
-'
+"
 ]
 ]
 =
@@ -751,9 +751,9 @@ append
 (
 environ
 [
-'
+"
 CONFIG_SHELL
-'
+"
 ]
 )
         
@@ -761,12 +761,13 @@ self
 .
 _subprocess_paths
 [
+            
 mozpath
 .
 join
 (
 topsrcdir
-'
+"
 build
 /
 win32
@@ -774,8 +775,9 @@ win32
 vswhere
 .
 exe
-'
+"
 )
+        
 ]
 =
 self
@@ -792,7 +794,6 @@ paths
 os_path
 =
 {
-            
 k
 :
 getattr
@@ -813,11 +814,10 @@ k
 .
 startswith
 (
-'
+"
 _
-'
+"
 )
-        
 }
         
 os_path
@@ -840,12 +840,12 @@ os_contents
         
 exec
 (
-'
+"
 from
 os
 import
 *
-'
+"
 {
 }
 os_contents
@@ -853,9 +853,9 @@ os_contents
         
 os_contents
 [
-'
+"
 path
-'
+"
 ]
 =
 ReadOnlyNamespace
@@ -867,9 +867,9 @@ os_path
         
 os_contents
 [
-'
+"
 environ
-'
+"
 ]
 =
 dict
@@ -900,7 +900,6 @@ config
 environ
 *
 args
-                                                   
 *
 *
 kwargs
@@ -1161,8 +1160,8 @@ self
 .
 value
 =
-'
-'
+"
+"
         
 return
 Buffer
@@ -1230,13 +1229,11 @@ pathsep
 for
 parent
 in
-(
 path
 or
 self
 .
 _search_path
-)
 :
             
 c
@@ -1328,11 +1325,11 @@ OSError
 errno
 .
 ENOENT
-'
+"
 File
 not
 found
-'
+"
 )
         
 func
@@ -1500,13 +1497,13 @@ args
         
 return
 127
-'
-'
-'
+"
+"
+"
 File
 not
 found
-'
+"
     
 def
 vswhere
@@ -1519,12 +1516,12 @@ args
         
 return
 0
-'
+"
 [
 ]
-'
-'
-'
+"
+"
+"
     
 def
 get_config
@@ -1568,12 +1565,14 @@ _execution_queue
             
 if
 (
+                
 func
 =
 =
 self
 .
 _resolve_and_set
+                
 and
 args
 [
@@ -1583,7 +1582,7 @@ is
 self
 .
 _config
-                    
+                
 and
 args
 [
@@ -1592,6 +1591,7 @@ args
 =
 =
 name
+            
 )
 :
                 
@@ -1621,7 +1621,7 @@ TestCase
     
 HOST
 =
-'
+"
 x86_64
 -
 pc
@@ -1629,7 +1629,7 @@ pc
 linux
 -
 gnu
-'
+"
     
 def
 setUp
@@ -1685,8 +1685,8 @@ return
 self
 .
 HOST
-'
-'
+"
+"
     
 def
 config_sub
@@ -1703,37 +1703,46 @@ args
 [
 0
 ]
-'
-'
+"
+"
     
 def
 get_sandbox
 (
+        
 self
+        
 paths
+        
 config
+        
 args
 =
 [
 ]
+        
 environ
 =
 {
 }
+        
 mozconfig
 =
-'
-'
-                    
+"
+"
+        
 out
 =
 None
+        
 logger
 =
 None
+        
 cls
 =
 ConfigureTestSandbox
+    
 )
 :
         
@@ -1748,9 +1757,9 @@ logger
             
 kwargs
 [
-'
+"
 logger
-'
+"
 ]
 =
 logger
@@ -1771,18 +1780,18 @@ StringIO
             
 kwargs
 [
-'
+"
 stdout
-'
+"
 ]
 =
 out
             
 kwargs
 [
-'
+"
 stderr
-'
+"
 ]
 =
 out
@@ -1791,23 +1800,23 @@ if
 hasattr
 (
 self
-'
+"
 TARGET
-'
+"
 )
 :
             
 target
 =
 [
-'
+"
 -
 -
 target
 =
 %
 s
-'
+"
 %
 self
 .
@@ -1869,6 +1878,7 @@ path
 .
 join
 (
+                
 os
 .
 path
@@ -1877,13 +1887,13 @@ dirname
 (
 __file__
 )
-'
+"
 data
-'
-                                          
-'
+"
+"
 empty_mozconfig
-'
+"
+            
 )
         
 try
@@ -1905,11 +1915,11 @@ path
 join
 (
 topsrcdir
-'
+"
 old
 -
 configure
-'
+"
 )
                 
 MOZCONFIG
@@ -1918,11 +1928,12 @@ mozconfig_path
                 
 VIRTUALENV_NAME
 =
-'
+"
 python
 -
 test
-'
+"
+            
 )
             
 paths
@@ -1939,12 +1950,12 @@ mozpath
 join
 (
 topsrcdir
-'
+"
 build
-'
-'
+"
+"
 autoconf
-'
+"
 )
             
 paths
@@ -1954,12 +1965,11 @@ mozpath
 join
 (
 autoconf_dir
-                               
-'
+"
 config
 .
 guess
-'
+"
 )
 ]
 =
@@ -1974,11 +1984,11 @@ mozpath
 join
 (
 autoconf_dir
-'
+"
 config
 .
 sub
-'
+"
 )
 ]
 =
@@ -1990,22 +2000,23 @@ sandbox
 =
 cls
 (
+                
 paths
 config
 environ
 [
-'
+"
 configure
-'
+"
 ]
 +
 target
 +
 args
-                          
 *
 *
 kwargs
+            
 )
             
 sandbox
@@ -2019,11 +2030,11 @@ path
 join
 (
 topsrcdir
-'
+"
 moz
 .
 configure
-'
+"
 )
 )
             

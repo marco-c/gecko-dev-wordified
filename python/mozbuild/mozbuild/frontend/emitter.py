@@ -226,10 +226,7 @@ chrome
 .
 manifest
 import
-(
-    
 Manifest
-)
 from
 .
 reader
@@ -539,9 +536,9 @@ self
 config
 .
 topobjdir
-'
+"
 subconfigures
-'
+"
 )
         
 paths
@@ -626,7 +623,7 @@ return
 ExecutionSummary
 (
             
-'
+"
 Processed
 into
 {
@@ -638,9 +635,9 @@ build
 config
 descriptors
 in
-'
+"
             
-'
+"
 {
 execution_time
 :
@@ -648,7 +645,7 @@ execution_time
 2f
 }
 s
-'
+"
             
 execution_time
 =
@@ -661,6 +658,7 @@ object_count
 self
 .
 _object_count
+        
 )
     
 def
@@ -884,14 +882,14 @@ else
 raise
 Exception
 (
-'
+"
 Unhandled
 output
 type
 :
 %
 s
-'
+"
 %
 type
 (
@@ -921,9 +919,9 @@ substs
 .
 get
 (
-'
+"
 COMPILE_ENVIRONMENT
-'
+"
 )
 :
             
@@ -992,9 +990,9 @@ webidl_attrs
 [
             
 (
-'
+"
 GENERATED_EVENTS_WEBIDL_FILES
-'
+"
 lambda
 c
 :
@@ -1004,9 +1002,9 @@ generated_events_sources
 )
             
 (
-'
+"
 GENERATED_WEBIDL_FILES
-'
+"
 lambda
 c
 :
@@ -1016,9 +1014,9 @@ generated_sources
 )
             
 (
-'
+"
 PREPROCESSED_TEST_WEBIDL_FILES
-'
+"
 lambda
 c
 :
@@ -1028,9 +1026,9 @@ preprocessed_test_sources
 )
             
 (
-'
+"
 PREPROCESSED_WEBIDL_FILES
-'
+"
 lambda
 c
 :
@@ -1040,9 +1038,9 @@ preprocessed_sources
 )
             
 (
-'
+"
 TEST_WEBIDL_FILES
-'
+"
 lambda
 c
 :
@@ -1052,9 +1050,9 @@ test_sources
 )
             
 (
-'
+"
 WEBIDL_FILES
-'
+"
 lambda
 c
 :
@@ -1064,9 +1062,9 @@ sources
 )
             
 (
-'
+"
 WEBIDL_EXAMPLE_INTERFACES
-'
+"
 lambda
 c
 :
@@ -1082,9 +1080,9 @@ ipdl_attrs
 [
             
 (
-'
+"
 IPDL_SOURCES
-'
+"
 lambda
 c
 :
@@ -1094,9 +1092,9 @@ sources
 )
             
 (
-'
+"
 PREPROCESSED_IPDL_SOURCES
-'
+"
 lambda
 c
 :
@@ -1112,9 +1110,9 @@ xpcom_attrs
 [
             
 (
-'
+"
 XPCOM_MANIFESTS
-'
+"
 lambda
 c
 :
@@ -1136,6 +1134,7 @@ cls
 attrs
 in
 (
+            
 (
 self
 .
@@ -1145,15 +1144,14 @@ substs
 .
 get
 (
-'
+"
 WEBIDL_ROOT
-'
+"
 )
-                                  
 WebIDLCollection
 webidl_attrs
 )
-                                 
+            
 (
 self
 .
@@ -1163,16 +1161,16 @@ substs
 .
 get
 (
-'
+"
 IPDL_ROOT
-'
+"
 )
-                                  
 IPDLCollection
 ipdl_attrs
 )
-                                 
+            
 (
+                
 self
 .
 config
@@ -1181,14 +1179,17 @@ substs
 .
 get
 (
-'
+"
 XPCOM_ROOT
-'
+"
 )
-                                  
+                
 XPCOMComponentManifests
+                
 xpcom_attrs
+            
 )
+        
 )
 :
             
@@ -1277,14 +1278,14 @@ mozpath
 join
 (
 root
-'
+"
 test
-'
+"
 )
 ]
 =
 [
-                                             
+                        
 s
 for
 s
@@ -1294,6 +1295,7 @@ collection
 all_test_cpp_basenames
 (
 )
+                    
 ]
                 
 yield
@@ -1381,6 +1383,7 @@ LIBRARY_NAME
 lib
 .
 link_into
+                    
 contexts
 [
 os
@@ -1394,6 +1397,7 @@ lib
 objdir
 )
 ]
+                
 )
             
 candidates
@@ -1469,6 +1473,8 @@ FINAL_LIBRARY
 .
             
 if
+(
+                
 len
 (
 set
@@ -1489,9 +1495,8 @@ len
 (
 candidates
 )
+                
 and
-\
-                    
 len
 (
 set
@@ -1508,6 +1513,8 @@ candidates
 =
 =
 1
+            
+)
 :
                 
 for
@@ -1545,7 +1552,7 @@ defined
 in
 '
                     
-'
+"
 multiple
 places
 :
@@ -1553,17 +1560,17 @@ places
 n
 %
 s
-'
+"
+                    
 %
 (
 lib
 .
 link_into
-                                                  
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1590,6 +1597,7 @@ lib
 objdir
 )
 ]
+                
 )
         
 #
@@ -1712,22 +1720,25 @@ shared_libs
 =
 sorted
 (
+                    
 l
 .
 basename
+                    
 for
 l
 in
 lib
 .
 linked_libraries
-                                     
+                    
 if
 isinstance
 (
 l
 SharedLibrary
 )
+                
 )
                 
 raise
@@ -1751,7 +1762,7 @@ shared
 library
 '
                     
-'
+"
 or
 a
 program
@@ -1761,9 +1772,9 @@ contains
 the
 following
 shared
-'
+"
                     
-'
+"
 library
 names
 :
@@ -1779,7 +1790,7 @@ you
 can
 remove
 the
-'
+"
                     
 '
 static
@@ -1790,16 +1801,16 @@ s
 library
 ?
 '
+                    
 %
 (
 lib
 .
 basename
-                                              
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1823,6 +1834,7 @@ lib
 objdir
 )
 ]
+                
 )
         
 memoize
@@ -1872,7 +1884,6 @@ o
 (
 HostLibrary
 StaticLibrary
-                                    
 SandboxedWasmLibrary
 )
 )
@@ -1966,7 +1977,7 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 Cannot
 link
 the
@@ -1980,9 +1991,9 @@ s
 :
 \
 n
-'
+"
                 
-'
+"
 %
 s
 \
@@ -1991,29 +2002,31 @@ one
 is
 allowed
 .
-'
+"
                 
 %
 (
+                    
 what
-'
+                    
+"
 \
 n
-'
+"
 .
 join
 (
-                    
-'
+                        
+"
 -
 %
 s
-'
+"
 %
 r
 .
 basename
-                    
+                        
 for
 r
 in
@@ -2029,7 +2042,9 @@ r
 .
 basename
 )
+                    
 )
+                
 )
                 
 contexts
@@ -2045,6 +2060,7 @@ obj
 objdir
 )
 ]
+            
 )
         
 #
@@ -2098,13 +2114,14 @@ paths
                 
 if
 (
+                    
 isinstance
 (
 lib
 StaticLibrary
 )
-and
                     
+and
 lib
 .
 link_into
@@ -2113,6 +2130,7 @@ link_into
 outerlib
 .
 basename
+                
 )
 :
                     
@@ -2222,9 +2240,9 @@ objdir_flags
 .
 resolve_flags
 (
-'
+"
 LIBRARY_DEFINES
-'
+"
 lib_defines
 )
                 
@@ -2249,9 +2267,9 @@ objdir_flags
 .
 resolve_flags
 (
-'
+"
 LIBRARY_DEFINES
-'
+"
 lib_defines
 )
         
@@ -2317,29 +2335,29 @@ LIBRARY_NAME_VAR
 =
 {
         
-'
+"
 host
-'
+"
 :
-'
+"
 HOST_LIBRARY_NAME
-'
+"
         
-'
+"
 target
-'
+"
 :
-'
+"
 LIBRARY_NAME
-'
+"
         
-'
+"
 wasm
-'
+"
 :
-'
+"
 SANDBOXED_WASM_LIBRARY_NAME
-'
+"
     
 }
     
@@ -2347,29 +2365,29 @@ LIBSTDCXX_VAR
 =
 {
         
-'
+"
 host
-'
+"
 :
-'
+"
 MOZ_LIBSTDCXX_HOST_VERSION
-'
+"
         
-'
+"
 target
-'
+"
 :
-'
+"
 MOZ_LIBSTDCXX_TARGET_VERSION
-'
+"
         
-'
+"
 wasm
-'
+"
 :
-'
+"
 MOZ_LIBSTDCXX_TARGET_VERSION
-'
+"
     
 }
     
@@ -2377,38 +2395,38 @@ STDCXXCOMPAT_NAME
 =
 {
         
-'
+"
 host
-'
+"
 :
-'
+"
 host_stdc
 +
 +
 compat
-'
+"
         
-'
+"
 target
-'
+"
 :
-'
+"
 stdc
 +
 +
 compat
-'
+"
         
-'
+"
 wasm
-'
+"
 :
-'
+"
 stdc
 +
 +
 compat
-'
+"
     
 }
     
@@ -2480,10 +2498,10 @@ obj
 .
 sources
 [
-'
+"
 .
 cpp
-'
+"
 ]
 =
 extra_sources
@@ -2497,10 +2515,10 @@ obj
 .
 sources
 [
-'
+"
 .
 cpp
-'
+"
 ]
         
 for
@@ -2547,12 +2565,12 @@ variable
 .
 replace
 (
-'
+"
 USE
-'
-'
+"
+"
 OS
-'
+"
 )
 [
 ]
@@ -2612,22 +2630,28 @@ bug
 .
         
 if
+(
+            
 not
 isinstance
 (
+                
 obj
 (
 StaticLibrary
 HostLibrary
 HostSharedLibrary
-                                
 BaseRustProgram
 )
+            
 )
+            
 and
 obj
 .
 cxx_link
+        
+)
 :
             
 if
@@ -2654,10 +2678,10 @@ self
 .
 _link_library
 (
+                    
 context
 obj
 variable
-                                   
 self
 .
 STDCXXCOMPAT_NAME
@@ -2666,6 +2690,7 @@ obj
 .
 KIND
 ]
+                
 )
             
 if
@@ -2674,9 +2699,9 @@ obj
 KIND
 =
 =
-'
+"
 target
-'
+"
 :
                 
 for
@@ -2690,9 +2715,9 @@ substs
 .
 get
 (
-'
+"
 STLPORT_LIBS
-'
+"
 [
 ]
 )
@@ -2722,10 +2747,10 @@ path
 .
 startswith
 (
-'
+"
 static
 :
-'
+"
 )
 and
 obj
@@ -2733,9 +2758,9 @@ obj
 KIND
 =
 =
-'
+"
 target
-'
+"
         
 if
 force_static
@@ -2800,9 +2825,9 @@ dir
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 :
                 
@@ -2812,7 +2837,6 @@ mozpath
 .
 normpath
 (
-                    
 mozpath
 .
 join
@@ -2837,7 +2861,6 @@ mozpath
 .
 normpath
 (
-                    
 mozpath
 .
 join
@@ -2925,11 +2948,11 @@ dir
 .
 startswith
 (
-'
+"
 %
 s
 /
-'
+"
 %
 d
 )
@@ -2938,15 +2961,16 @@ d
 candidates
 =
 [
+                            
 self
 .
 _get_external_library
 (
 dir
 name
-                                                                 
 force_static
 )
+                        
 ]
                         
 break
@@ -2989,7 +3013,6 @@ s
 variable
 path
 name
-                       
 self
 .
 LIBRARY_NAME_VAR
@@ -3000,7 +3023,9 @@ KIND
 ]
 dir
 )
+                    
 context
+                
 )
         
 if
@@ -3179,12 +3204,12 @@ in
 s
 .
 '
+                        
 %
 (
 variable
 path
 name
-                                            
 self
 .
 LIBRARY_NAME_VAR
@@ -3195,7 +3220,9 @@ KIND
 ]
 dir
 )
+                        
 context
+                    
 )
                 
 raise
@@ -3223,19 +3250,19 @@ s
 "
 '
                     
-'
+"
 %
 s
 in
 the
 tree
-'
+"
+                    
 %
 (
 variable
 name
 name
-                                        
 self
 .
 LIBRARY_NAME_VAR
@@ -3245,7 +3272,9 @@ obj
 KIND
 ]
 )
+                    
 context
+                
 )
         
 if
@@ -3293,6 +3322,7 @@ KIND
 )
                 
 context
+            
 )
         
 elif
@@ -3314,13 +3344,12 @@ join
 l
 .
 relsrcdir
-'
+"
 moz
 .
 build
-'
+"
 )
-                     
 for
 l
 in
@@ -3349,19 +3378,22 @@ in
 multiple
 '
                 
-'
+"
 places
 :
 \
 n
 %
 s
-'
+"
+                
 %
 (
+                    
 variable
+                    
 path
-                                     
+                    
 self
 .
 LIBRARY_NAME_VAR
@@ -3370,18 +3402,21 @@ obj
 .
 KIND
 ]
-                                     
-'
+                    
+"
 \
 n
-'
+"
 .
 join
 (
 paths
 )
+                
 )
+                
 context
+            
 )
         
 elif
@@ -3424,7 +3459,7 @@ s
 "
 '
                 
-'
+"
 in
 %
 s
@@ -3438,7 +3473,7 @@ FORCE_STATIC_LIB
 =
 True
 in
-'
+"
                 
 '
 %
@@ -3455,27 +3490,34 @@ static
 "
 .
 '
+                
 %
 (
                     
 variable
+                    
 path
+                    
 name
+                    
 candidates
 [
 0
 ]
 .
 relobjdir
+                    
 candidates
 [
 0
 ]
 .
 relobjdir
+                
 )
                 
 context
+            
 )
         
 elif
@@ -3487,12 +3529,13 @@ StaticLibrary
 and
 isinstance
 (
+            
 candidates
 [
 0
 ]
-                                                           
 SharedLibrary
+        
 )
 :
             
@@ -3575,9 +3618,9 @@ config
 .
 topsrcdir
 dir
-'
+"
 dummy
-'
+"
 )
 )
         
@@ -3667,11 +3710,11 @@ join
 context
 .
 srcdir
-'
+"
 Cargo
 .
 toml
-'
+"
 )
         
 if
@@ -3690,7 +3733,7 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 No
 Cargo
 .
@@ -3700,19 +3743,20 @@ found
 in
 %
 s
-'
+"
 %
 cargo_file
 context
+            
 )
         
 with
 open
 (
 cargo_file
-'
+"
 r
-'
+"
 )
 as
 f
@@ -3730,6 +3774,7 @@ cargo_file
 def
 _verify_deps
 (
+        
 self
 context
 crate_dir
@@ -3737,9 +3782,10 @@ crate_name
 dependencies
 description
 =
-'
+"
 Dependency
-'
+"
+    
 )
 :
         
@@ -3800,7 +3846,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 %
 s
 %
@@ -3814,16 +3860,17 @@ not
 list
 a
 path
-'
+"
+                    
 %
 (
-                        
 description
 dep_crate_name
 crate_name
 )
                     
 context
+                
 )
             
 dep_path
@@ -3832,9 +3879,9 @@ values
 .
 get
 (
-'
+"
 path
-'
+"
 None
 )
             
@@ -3847,7 +3894,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 %
 s
 %
@@ -3861,16 +3908,17 @@ not
 list
 a
 path
-'
+"
+                    
 %
 (
-                        
 description
 dep_crate_name
 crate_name
 )
                     
 context
+                
 )
             
 #
@@ -3906,7 +3954,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 %
 s
 %
@@ -3921,16 +3969,17 @@ non
 -
 relative
 path
-'
+"
+                    
 %
 (
-                        
 description
 dep_crate_name
 crate_name
 )
                     
 context
+                
 )
             
 if
@@ -3941,6 +3990,7 @@ path
 .
 exists
 (
+                
 mozpath
 .
 join
@@ -3953,6 +4003,7 @@ topsrcdir
 crate_dir
 dep_path
 )
+            
 )
 :
                 
@@ -3960,7 +4011,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 %
 s
 %
@@ -3976,21 +4027,23 @@ non
 -
 existent
 path
-'
+"
+                    
 %
 (
-                        
 description
 dep_crate_name
 crate_name
 )
                     
 context
+                
 )
     
 def
 _rust_library
 (
+        
 self
 context
 libname
@@ -3998,10 +4051,10 @@ static_args
 is_gkrust
 =
 False
-                      
 cls
 =
 RustLibrary
+    
 )
 :
         
@@ -4032,14 +4085,14 @@ crate_name
 =
 config
 [
-'
+"
 package
-'
+"
 ]
 [
-'
+"
 name
-'
+"
 ]
         
 if
@@ -4053,7 +4106,7 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 library
 %
 s
@@ -4068,7 +4121,8 @@ defined
 package
 %
 s
-'
+"
+                
 %
 (
 libname
@@ -4076,6 +4130,7 @@ crate_name
 )
                 
 context
+            
 )
         
 #
@@ -4099,9 +4154,9 @@ config
 .
 get
 (
-'
+"
 lib
-'
+"
 None
 )
         
@@ -4114,7 +4169,7 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 Cargo
 .
 toml
@@ -4127,11 +4182,11 @@ no
 lib
 ]
 section
-'
+"
 %
 libname
-                
 context
+            
 )
         
 crate_type
@@ -4140,11 +4195,11 @@ lib_section
 .
 get
 (
-'
+"
 crate
 -
 type
-'
+"
 None
 )
         
@@ -4157,9 +4212,8 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 Can
-\
 '
 t
 determine
@@ -4174,11 +4228,11 @@ from
 Cargo
 .
 toml
-'
+"
 %
 libname
-                
 context
+            
 )
         
 crate_type
@@ -4192,16 +4246,16 @@ if
 crate_type
 !
 =
-'
+"
 staticlib
-'
+"
 :
             
 raise
 SandboxValidationError
 (
                 
-'
+"
 crate
 -
 type
@@ -4213,14 +4267,14 @@ permitted
 for
 %
 s
-'
+"
 %
 (
 crate_type
 libname
 )
-                
 context
+            
 )
         
 cargo_target_dir
@@ -4243,9 +4297,9 @@ config
 .
 get
 (
-'
+"
 dependencies
-'
+"
 {
 }
 )
@@ -4289,7 +4343,7 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 features
 for
 %
@@ -4301,7 +4355,8 @@ duplicates
 :
 %
 s
-'
+"
+                
 %
 (
 libname
@@ -4309,23 +4364,33 @@ features
 )
                 
 context
+            
 )
         
 return
 cls
 (
+            
 context
+            
 libname
+            
 cargo_file
+            
 crate_type
+            
 dependencies
-                   
+            
 features
+            
 cargo_target_dir
+            
 is_gkrust
+            
 *
 *
 static_args
+        
 )
     
 def
@@ -4343,9 +4408,9 @@ context
 .
 get
 (
-'
+"
 GN_DIRS
-'
+"
 [
 ]
 )
@@ -4353,9 +4418,9 @@ GN_DIRS
             
 context
 [
-'
+"
 DIRS
-'
+"
 ]
 +
 =
@@ -4367,9 +4432,9 @@ gn_dir
 =
 context
 [
-'
+"
 GN_DIRS
-'
+"
 ]
 [
 target_dir
@@ -4379,9 +4444,9 @@ for
 v
 in
 (
-'
+"
 variables
-'
+"
 )
 :
                 
@@ -4390,21 +4455,21 @@ not
 getattr
 (
 gn_dir
-'
+"
 variables
-'
+"
 )
 :
                     
 raise
 SandboxValidationError
 (
-'
+                        
+"
 Missing
 value
 for
-'
-                                                 
+"
 '
 GN_DIRS
 [
@@ -4422,7 +4487,9 @@ s
 target_dir
 v
 )
+                        
 context
+                    
 )
             
 non_unified_sources
@@ -4464,16 +4531,15 @@ full_path
 raise
 SandboxValidationError
 (
-'
+"
 Cannot
 find
 %
 s
 .
-'
+"
 %
 source
-                                                 
 context
 )
                 
@@ -4539,9 +4605,9 @@ var
 .
 startswith
 (
-'
+"
 HOST_
-'
+"
 )
 :
                 
@@ -4595,7 +4661,7 @@ s
 name
 '
                     
-'
+"
 because
 it
 is
@@ -4604,10 +4670,10 @@ used
 in
 %
 s
-'
+"
+                    
 %
 (
-                        
 program
 kind
 self
@@ -4619,7 +4685,9 @@ program
 .
 relsrcdir
 )
+                    
 context
+                
 )
         
 for
@@ -4628,15 +4696,15 @@ cls
 in
 [
 (
-'
+"
 PROGRAM
-'
+"
 Program
 )
 (
-'
+"
 HOST_PROGRAM
-'
+"
 HostProgram
 )
 ]
@@ -4680,27 +4748,32 @@ _linkage
 .
 append
 (
+                    
 (
+                        
 context
+                        
 self
 .
 _binaries
 [
 program
 ]
-                                      
+                        
 kind
 .
 replace
 (
-'
+"
 PROGRAM
-'
-'
+"
+"
 USE_LIBS
-'
+"
 )
+                    
 )
+                
 )
                 
 add_program
@@ -4724,19 +4797,21 @@ kind
 cls
 in
 [
+            
 (
-'
+"
 RUST_PROGRAMS
-'
+"
 RustProgram
 )
-                          
+            
 (
-'
+"
 HOST_RUST_PROGRAMS
-'
+"
 HostRustProgram
 )
+        
 ]
 :
             
@@ -4792,9 +4867,9 @@ config
 .
 get
 (
-'
+"
 bin
-'
+"
 None
 )
             
@@ -4807,7 +4882,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 Cargo
 .
 toml
@@ -4820,13 +4895,13 @@ no
 bin
 ]
 section
-'
+"
 %
 context
 .
 srcdir
-                    
 context
+                
 )
             
 defined_binaries
@@ -4834,9 +4909,9 @@ defined_binaries
 {
 b
 [
-'
+"
 name
-'
+"
 ]
 for
 b
@@ -4869,7 +4944,7 @@ raise
 SandboxValidationError
 (
                             
-'
+"
 Cannot
 find
 Cargo
@@ -4879,11 +4954,12 @@ definition
 for
 %
 s
-'
+"
 %
 program
                             
 context
+                        
 )
                     
 check_unique_binary
@@ -4922,27 +4998,28 @@ kind
 cls
 in
 [
-                
+            
 (
-'
+"
 SIMPLE_PROGRAMS
-'
+"
 SimpleProgram
 )
-                
+            
 (
-'
+"
 CPP_UNIT_TESTS
-'
+"
 SimpleProgram
 )
-                
+            
 (
-'
+"
 HOST_SIMPLE_PROGRAMS
-'
+"
 HostSimpleProgram
 )
+        
 ]
 :
             
@@ -4979,7 +5056,7 @@ in
 s
 '
                         
-'
+"
 because
 it
 is
@@ -4988,10 +5065,10 @@ used
 in
 %
 s
-'
+"
+                        
 %
 (
-                            
 program
 kind
 self
@@ -5003,7 +5080,9 @@ program
 .
 relsrcdir
 )
+                        
 context
+                    
 )
                 
 self
@@ -5015,17 +5094,18 @@ program
 =
 cls
 (
+                    
 context
 program
-                                              
 is_unit_test
 =
 kind
 =
 =
-'
+"
 CPP_UNIT_TESTS
-'
+"
+                
 )
                 
 self
@@ -5034,31 +5114,37 @@ _linkage
 .
 append
 (
+                    
 (
+                        
 context
+                        
 self
 .
 _binaries
 [
 program
 ]
-                                      
-'
+                        
+"
 HOST_USE_LIBS
-'
+"
+                        
 if
 kind
 =
 =
-'
+"
 HOST_SIMPLE_PROGRAMS
-'
-                                      
+"
+                        
 else
-'
+"
 USE_LIBS
-'
+"
+                    
 )
+                
 )
                 
 add_program
@@ -5078,9 +5164,9 @@ context
 .
 get
 (
-'
+"
 HOST_LIBRARY_NAME
-'
+"
 )
         
 libname
@@ -5089,9 +5175,9 @@ context
 .
 get
 (
-'
+"
 LIBRARY_NAME
-'
+"
 )
         
 if
@@ -5109,7 +5195,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 LIBRARY_NAME
 and
 HOST_LIBRARY_NAME
@@ -5118,8 +5204,10 @@ have
 a
 different
 value
-'
+"
+                    
 context
+                
 )
             
 is_rust_library
@@ -5128,9 +5216,9 @@ context
 .
 get
 (
-'
+"
 IS_RUST_LIBRARY
-'
+"
 )
             
 if
@@ -5157,9 +5245,9 @@ context
 .
 get
 (
-'
+"
 FORCE_SHARED_LIB
-'
+"
 )
 :
                 
@@ -5203,9 +5291,9 @@ append
 (
 context
 lib
-'
+"
 HOST_USE_LIBS
-'
+"
 )
 )
             
@@ -5222,9 +5310,9 @@ context
 .
 get
 (
-'
+"
 FINAL_LIBRARY
-'
+"
 )
         
 if
@@ -5252,12 +5340,12 @@ relsrcdir
 .
 replace
 (
-'
+"
 /
-'
-'
+"
+"
 _
-'
+"
 )
         
 static_lib
@@ -5266,9 +5354,9 @@ context
 .
 get
 (
-'
+"
 FORCE_STATIC_LIB
-'
+"
 )
         
 shared_lib
@@ -5277,9 +5365,9 @@ context
 .
 get
 (
-'
+"
 FORCE_SHARED_LIB
-'
+"
 )
         
 static_name
@@ -5288,9 +5376,9 @@ context
 .
 get
 (
-'
+"
 STATIC_LIBRARY_NAME
-'
+"
 )
         
 shared_name
@@ -5299,9 +5387,9 @@ context
 .
 get
 (
-'
+"
 SHARED_LIBRARY_NAME
-'
+"
 )
         
 is_framework
@@ -5310,9 +5398,9 @@ context
 .
 get
 (
-'
+"
 IS_FRAMEWORK
-'
+"
 )
         
 soname
@@ -5321,9 +5409,9 @@ context
 .
 get
 (
-'
+"
 SONAME
-'
+"
 )
         
 lib_defines
@@ -5332,9 +5420,9 @@ context
 .
 get
 (
-'
+"
 LIBRARY_DEFINES
-'
+"
 )
         
 wasm_lib
@@ -5343,9 +5431,9 @@ context
 .
 get
 (
-'
+"
 SANDBOXED_WASM_LIBRARY_NAME
-'
+"
 )
         
 shared_args
@@ -5370,21 +5458,23 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 FINAL_LIBRARY
 implies
 FORCE_STATIC_LIB
 .
-'
+"
                     
-'
+"
 Please
 remove
 the
 latter
 .
-'
+"
+                    
 context
+                
 )
             
 if
@@ -5395,21 +5485,23 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 FINAL_LIBRARY
 conflicts
 with
 FORCE_SHARED_LIB
 .
-'
+"
                     
-'
+"
 Please
 remove
 one
 .
-'
+"
+                    
 context
+                
 )
             
 if
@@ -5420,28 +5512,29 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 FINAL_LIBRARY
 conflicts
 with
 IS_FRAMEWORK
 .
-'
-                    
-'
+"
+"
 Please
 remove
 one
 .
-'
+"
+                    
 context
+                
 )
             
 static_args
 [
-'
+"
 link_into
-'
+"
 ]
 =
 final_lib
@@ -5466,21 +5559,22 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 IS_FRAMEWORK
 conflicts
 with
 SONAME
 .
-'
-                        
-'
+"
+"
 Please
 remove
 one
 .
-'
+"
+                        
 context
+                    
 )
                 
 shared_lib
@@ -5489,9 +5583,9 @@ True
                 
 shared_args
 [
-'
+"
 variant
-'
+"
 ]
 =
 SharedLibrary
@@ -5523,20 +5617,20 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 STATIC_LIBRARY_NAME
 requires
 FORCE_STATIC_LIB
-'
-                        
+"
 context
+                    
 )
                 
 static_args
 [
-'
+"
 real_name
-'
+"
 ]
 =
 static_name
@@ -5554,20 +5648,20 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 SHARED_LIBRARY_NAME
 requires
 FORCE_SHARED_LIB
-'
-                        
+"
 context
+                    
 )
                 
 shared_args
 [
-'
+"
 real_name
-'
+"
 ]
 =
 shared_name
@@ -5585,19 +5679,20 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 SONAME
 requires
 FORCE_SHARED_LIB
-'
+"
 context
+                    
 )
                 
 shared_args
 [
-'
+"
 soname
-'
+"
 ]
 =
 soname
@@ -5607,9 +5702,9 @@ context
 .
 get
 (
-'
+"
 NO_EXPAND_LIBS
-'
+"
 )
 :
                 
@@ -5622,7 +5717,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 NO_EXPAND_LIBS
 can
 only
@@ -5632,16 +5727,16 @@ for
 static
 libraries
 .
-'
-                        
+"
 context
+                    
 )
                 
 static_args
 [
-'
+"
 no_expand_lib
-'
+"
 ]
 =
 True
@@ -5664,23 +5759,23 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Both
 FORCE_STATIC_LIB
 and
 FORCE_SHARED_LIB
 are
 True
-'
+"
                         
-'
+"
 but
 neither
 STATIC_LIBRARY_NAME
 or
-'
+"
                         
-'
+"
 SHARED_LIBRARY_NAME
 is
 set
@@ -5691,9 +5786,10 @@ one
 is
 required
 .
-'
+"
                         
 context
+                    
 )
                 
 if
@@ -5712,16 +5808,16 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Both
 FORCE_STATIC_LIB
 and
 FORCE_SHARED_LIB
 are
 True
-'
+"
                         
-'
+"
 but
 STATIC_LIBRARY_NAME
 is
@@ -5729,9 +5825,9 @@ the
 same
 as
 LIBRARY_NAME
-'
+"
                         
-'
+"
 and
 SHARED_LIBRARY_NAME
 is
@@ -5739,22 +5835,24 @@ unset
 .
 Please
 either
-'
+"
                         
-'
+"
 change
 STATIC_LIBRARY_NAME
 or
 LIBRARY_NAME
 or
 set
-'
+"
                         
-'
+"
 SHARED_LIBRARY_NAME
 .
-'
+"
+                        
 context
+                    
 )
                 
 if
@@ -5773,16 +5871,16 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Both
 FORCE_STATIC_LIB
 and
 FORCE_SHARED_LIB
 are
 True
-'
+"
                         
-'
+"
 but
 SHARED_LIBRARY_NAME
 is
@@ -5790,9 +5888,9 @@ the
 same
 as
 LIBRARY_NAME
-'
+"
                         
-'
+"
 and
 STATIC_LIBRARY_NAME
 is
@@ -5800,22 +5898,24 @@ unset
 .
 Please
 either
-'
+"
                         
-'
+"
 change
 SHARED_LIBRARY_NAME
 or
 LIBRARY_NAME
 or
 set
-'
+"
                         
-'
+"
 STATIC_LIBRARY_NAME
 .
-'
+"
+                        
 context
+                    
 )
                 
 if
@@ -5833,25 +5933,25 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Both
 FORCE_STATIC_LIB
 and
 FORCE_SHARED_LIB
 are
 True
-'
+"
                         
-'
+"
 but
 SHARED_LIBRARY_NAME
 is
 the
 same
 as
-'
+"
                         
-'
+"
 STATIC_LIBRARY_NAME
 .
 Please
@@ -5860,9 +5960,10 @@ one
 of
 them
 .
-'
+"
                         
 context
+                    
 )
             
 symbols_file
@@ -5871,9 +5972,9 @@ context
 .
 get
 (
-'
+"
 SYMBOLS_FILE
-'
+"
 )
             
 if
@@ -5889,7 +5990,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 SYMBOLS_FILE
 can
 only
@@ -5899,9 +6000,9 @@ with
 a
 SHARED_LIBRARY
 .
-'
-                        
+"
 context
+                    
 )
                 
 if
@@ -5909,9 +6010,9 @@ context
 .
 get
 (
-'
+"
 DEFFILE
-'
+"
 )
 :
                     
@@ -5919,7 +6020,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 SYMBOLS_FILE
 cannot
 be
@@ -5927,9 +6028,9 @@ used
 along
 DEFFILE
 .
-'
-                        
+"
 context
+                    
 )
                 
 if
@@ -5958,7 +6059,7 @@ raise
 SandboxValidationError
 (
                             
-'
+"
 Path
 specified
 in
@@ -5969,32 +6070,33 @@ exist
 :
 %
 s
-'
+"
                             
-'
+"
 (
 resolved
 to
 %
 s
 )
-'
+"
 %
 (
 symbols_file
-                                                  
 symbols_file
 .
 full_path
 )
+                            
 context
+                        
 )
                     
 shared_args
 [
-'
+"
 symbols_file
-'
+"
 ]
 =
 True
@@ -6016,7 +6118,8 @@ SandboxValidationError
 (
                             
 (
-'
+                                
+"
 Objdir
 file
 specified
@@ -6024,28 +6127,32 @@ in
 SYMBOLS_FILE
 not
 in
-'
+"
+                                
 +
-                             
-'
+"
 GENERATED_FILES
 :
 %
 s
-'
+"
+                            
 )
+                            
 %
 (
 symbols_file
 )
+                            
 context
+                        
 )
                     
 shared_args
 [
-'
+"
 symbols_file
-'
+"
 ]
 =
 symbols_file
@@ -6088,9 +6195,9 @@ append
 (
 context
 lib
-'
+"
 USE_LIBS
-'
+"
 )
 )
                 
@@ -6146,14 +6253,16 @@ __file__
 )
 )
                         
-'
+"
 action
-'
-'
+"
+                        
+"
 generate_symbols_file
 .
 py
-'
+"
+                    
 )
                     
 defines
@@ -6180,21 +6289,25 @@ get_defines
 yield
 GeneratedFile
 (
+                        
 context
+                        
 script
-                                        
-'
+                        
+"
 generate_symbols_file
-'
+"
+                        
 lib
 .
 symbols_file
-                                        
+                        
 [
 symbols_file
 ]
+                        
 defines
-                                        
+                        
 required_during_compile
 =
 [
@@ -6202,6 +6315,7 @@ lib
 .
 symbols_file
 ]
+                    
 )
             
 if
@@ -6214,9 +6328,9 @@ context
 .
 get
 (
-'
+"
 IS_RUST_LIBRARY
-'
+"
 )
                 
 if
@@ -6229,10 +6343,13 @@ self
 .
 _rust_library
 (
+                        
 context
+                        
 libname
+                        
 static_args
-                                             
+                        
 is_gkrust
 =
 bool
@@ -6241,11 +6358,12 @@ context
 .
 get
 (
-'
+"
 IS_GKRUST
-'
+"
 )
 )
+                    
 )
                 
 else
@@ -6283,9 +6401,9 @@ append
 (
 context
 lib
-'
+"
 USE_LIBS
-'
+"
 )
 )
                 
@@ -6308,19 +6426,21 @@ libname
 raise
 SandboxValidationError
 (
-'
+                        
+"
 LIBRARY_DEFINES
 needs
 a
-'
-                                                 
-'
+"
+"
 LIBRARY_NAME
 to
 take
 effect
-'
+"
+                        
 context
+                    
 )
                 
 lib
@@ -6347,21 +6467,23 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 SANDBOXED_WASM_LIBRARY_NAME
 and
 LIBRARY_NAME
 must
 have
 a
-'
+"
                     
-'
+"
 different
 value
 .
-'
+"
+                    
 context
+                
 )
             
 if
@@ -6375,21 +6497,23 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 SANDBOXED_WASM_LIBRARY_NAME
 and
 HOST_LIBRARY_NAME
 must
-'
+"
                     
-'
+"
 have
 a
 different
 value
 .
-'
+"
+                    
 context
+                
 )
             
 if
@@ -6403,21 +6527,23 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 SANDBOXED_WASM_LIBRARY_NAME
 and
 SHARED_NAME
 must
 have
 a
-'
+"
                     
-'
+"
 different
 value
 .
-'
+"
+                    
 context
+                
 )
             
 if
@@ -6431,21 +6557,23 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 SANDBOXED_WASM_LIBRARY_NAME
 and
 STATIC_NAME
 must
 have
 a
-'
+"
                     
-'
+"
 different
 value
 .
-'
+"
+                    
 context
+                
 )
             
 lib
@@ -6480,9 +6608,9 @@ append
 (
 context
 lib
-'
+"
 USE_LIBS
-'
+"
 )
 )
             
@@ -6578,6 +6706,7 @@ and
 not
 all
 (
+            
 isinstance
 (
 l
@@ -6587,6 +6716,7 @@ for
 l
 in
 host_linkables
+        
 )
 :
             
@@ -6691,18 +6821,18 @@ for
 symbol
 in
 (
-'
+"
 SOURCES
-'
-'
+"
+"
 HOST_SOURCES
-'
-'
+"
+"
 UNIFIED_SOURCES
-'
-'
+"
+"
 WASM_SOURCES
-'
+"
 )
 :
             
@@ -6752,14 +6882,15 @@ seen_sources
 raise
 SandboxValidationError
 (
-'
+                        
+"
 Source
 file
 should
 only
-'
-                                                 
-'
+"
+                        
+"
 be
 added
 to
@@ -6769,13 +6900,15 @@ once
 :
 %
 s
-'
+"
 %
 (
 symbol
 f
 )
+                        
 context
+                    
 )
                 
 seen_sources
@@ -6827,9 +6960,9 @@ if
 symbol
 =
 =
-'
+"
 SOURCES
-'
+"
 :
                     
 context_flags
@@ -6871,7 +7004,8 @@ full_path
 raise
 SandboxValidationError
 (
-'
+                        
+"
 File
 listed
 in
@@ -6879,24 +7013,24 @@ in
 s
 does
 not
-'
-                                                 
-'
+"
+                        
+"
 exist
 :
-\
 '
 %
 s
-\
 '
-'
+"
 %
 (
 symbol
 full_path
 )
+                        
 context
+                    
 )
         
 #
@@ -6920,9 +7054,9 @@ assert
 not
 gen_sources
 [
-'
+"
 UNIFIED_SOURCES
-'
+"
 ]
         
 no_pgo
@@ -6931,9 +7065,9 @@ context
 .
 get
 (
-'
+"
 NO_PGO
-'
+"
 )
         
 no_pgo_sources
@@ -6950,7 +7084,6 @@ iteritems
 (
 all_flags
 )
-                          
 if
 flags
 .
@@ -6968,7 +7101,8 @@ no_pgo_sources
 raise
 SandboxValidationError
 (
-'
+                    
+"
 NO_PGO
 and
 SOURCES
@@ -6979,9 +7113,8 @@ SOURCES
 ]
 .
 no_pgo
-'
-                                             
-'
+"
+"
 cannot
 be
 set
@@ -6989,17 +7122,19 @@ at
 the
 same
 time
-'
+"
+                    
 context
+                
 )
             
 passthru
 .
 variables
 [
-'
+"
 NO_PROFILE_GUIDED_OPTIMIZE
-'
+"
 ]
 =
 no_pgo
@@ -7012,9 +7147,9 @@ passthru
 .
 variables
 [
-'
+"
 NO_PROFILE_GUIDED_OPTIMIZE
-'
+"
 ]
 =
 no_pgo_sources
@@ -7086,71 +7221,71 @@ suffix_map
 =
 {
             
-'
+"
 .
 s
-'
+"
 :
 set
 (
 [
-'
+"
 .
 asm
-'
+"
 ]
 )
             
-'
+"
 .
 c
-'
+"
 :
 set
 (
 )
             
-'
+"
 .
 m
-'
+"
 :
 set
 (
 )
             
-'
+"
 .
 mm
-'
+"
 :
 set
 (
 )
             
-'
+"
 .
 cpp
-'
+"
 :
 set
 (
 [
-'
+"
 .
 cc
-'
-'
+"
+"
 .
 cxx
-'
+"
 ]
 )
             
-'
+"
 .
 S
-'
+"
 :
 set
 (
@@ -7284,18 +7419,18 @@ HOST_SOURCES
 HostSources
 HostGeneratedSources
 [
-'
+"
 .
 c
-'
-'
+"
+"
 .
 mm
-'
-'
+"
+"
 .
 cpp
-'
+"
 ]
 )
             
@@ -7305,18 +7440,18 @@ UNIFIED_SOURCES
 UnifiedSources
 None
 [
-'
+"
 .
 c
-'
-'
+"
+"
 .
 mm
-'
-'
+"
+"
 .
 cpp
-'
+"
 ]
 )
         
@@ -7378,38 +7513,38 @@ sources
 if
 sources
 [
-'
+"
 WASM_SOURCES
-'
+"
 ]
 or
 gen_sources
 [
-'
+"
 WASM_SOURCES
-'
+"
 ]
 :
             
 varmap
 [
-'
+"
 WASM_SOURCES
-'
+"
 ]
 =
 (
 WasmSources
 WasmGeneratedSources
 [
-'
+"
 .
 c
-'
-'
+"
+"
 .
 cpp
-'
+"
 ]
 )
         
@@ -7590,7 +7725,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 %
 s
 has
@@ -7599,10 +7734,11 @@ unknown
 file
 type
 .
-'
+"
 %
 f
 context
+                    
 )
             
 for
@@ -7610,6 +7746,7 @@ srcs
 cls
 in
 (
+                
 (
 sources
 [
@@ -7617,7 +7754,7 @@ variable
 ]
 klass
 )
-                              
+                
 (
 gen_sources
 [
@@ -7625,6 +7762,7 @@ variable
 ]
 gen_klass
 )
+            
 )
 :
                 
@@ -7661,31 +7799,36 @@ mozpath
 .
 join
 (
+                            
 self
 .
 config
 .
 topsrcdir
-                                     
+                            
 (
-'
+                                
+"
 third_party
 /
 rust
 /
 rlbox_lucet_sandbox
 /
-'
-                                      
-'
+"
+                                
+"
 c_src
 /
 lucet_sandbox_wrapper
 .
 c
-'
+"
+                            
 )
+                        
 )
+                    
 )
                 
 sorted_files
@@ -7706,9 +7849,10 @@ itertools
 .
 groupby
 (
-                        
+                    
 sorted_files
 canonical_suffix_for_file
+                
 )
 :
                     
@@ -7716,14 +7860,14 @@ if
 canonical_suffix
 in
 (
-'
+"
 .
 cpp
-'
-'
+"
+"
 .
 mm
-'
+"
 )
 :
                         
@@ -7738,14 +7882,14 @@ elif
 canonical_suffix
 in
 (
-'
+"
 .
 s
-'
-'
+"
+"
 .
 S
-'
+"
 )
 :
                         
@@ -7776,9 +7920,9 @@ variable
 .
 startswith
 (
-'
+"
 UNIFIED_
-'
+"
 )
 :
                         
@@ -7790,9 +7934,9 @@ context
 .
 get
 (
-'
+"
 FILES_PER_UNIFIED_FILE
-'
+"
 16
 )
 )
@@ -7870,12 +8014,12 @@ for
 target_var
 in
 (
-'
+"
 SOURCES
-'
-'
+"
+"
 UNIFIED_SOURCES
-'
+"
 )
 :
                     
@@ -7915,9 +8059,9 @@ srcs
 in
 ctxt_sources
 [
-'
+"
 HOST_SOURCES
-'
+"
 ]
 .
 items
@@ -7947,9 +8091,9 @@ srcs
 in
 ctxt_sources
 [
-'
+"
 WASM_SOURCES
-'
+"
 ]
 .
 items
@@ -8041,26 +8185,28 @@ vars
 linkable_items
 in
 (
+            
 (
 (
-'
+"
 SOURCES
-'
-'
+"
+"
 UNIFIED_SOURCES
-'
+"
 )
 linkables
 )
-                                     
+            
 (
 (
-'
+"
 HOST_SOURCES
-'
+"
 )
 host_linkables
 )
+        
 )
 :
             
@@ -8189,15 +8335,15 @@ for
 k
 in
 (
-'
+"
 FINAL_TARGET
-'
-'
+"
+"
 XPI_NAME
-'
-'
+"
+"
 DIST_SUBDIR
-'
+"
 )
 )
 :
@@ -8278,9 +8424,9 @@ ComputedFlags
 context
 context
 [
-'
+"
 COMPILE_FLAGS
-'
+"
 ]
 )
         
@@ -8291,9 +8437,9 @@ ComputedFlags
 context
 context
 [
-'
+"
 LINK_FLAGS
-'
+"
 ]
 )
         
@@ -8304,9 +8450,9 @@ ComputedFlags
 context
 context
 [
-'
+"
 HOST_COMPILE_FLAGS
-'
+"
 ]
 )
         
@@ -8317,9 +8463,9 @@ ComputedFlags
 context
 context
 [
-'
+"
 ASM_FLAGS
-'
+"
 ]
 )
         
@@ -8330,9 +8476,9 @@ ComputedFlags
 context
 context
 [
-'
+"
 WASM_FLAGS
-'
+"
 ]
 )
         
@@ -8390,25 +8536,25 @@ varlist
 =
 [
             
-'
+"
 EXTRA_DSO_LDOPTS
-'
+"
             
-'
+"
 RCFILE
-'
+"
             
-'
+"
 RCINCLUDE
-'
+"
             
-'
+"
 WIN32_EXE_LDFLAGS
-'
+"
             
-'
+"
 USE_EXTENSION_MANIFEST
-'
+"
         
 ]
         
@@ -8442,6 +8588,8 @@ v
 ]
         
 if
+(
+            
 context
 .
 config
@@ -8450,24 +8598,25 @@ substs
 .
 get
 (
-'
+"
 OS_TARGET
-'
+"
 )
 =
 =
-'
+"
 WINNT
-'
+"
+            
 and
-\
-                
 context
 [
-'
+"
 DELAYLOAD_DLLS
-'
+"
 ]
+        
+)
 :
             
 if
@@ -8479,49 +8628,50 @@ substs
 .
 get
 (
-'
+"
 CC_TYPE
-'
+"
 )
 !
 =
-'
+"
 clang
-'
+"
 :
                 
 context
 [
-'
+"
 LDFLAGS
-'
+"
 ]
 .
 extend
 (
+                    
 [
 (
-'
+"
 -
 DELAYLOAD
 :
 %
 s
-'
+"
 %
 dll
 )
-                                           
 for
 dll
 in
 context
 [
-'
+"
 DELAYLOAD_DLLS
-'
+"
 ]
 ]
+                
 )
             
 else
@@ -8529,16 +8679,18 @@ else
                 
 context
 [
-'
+"
 LDFLAGS
-'
+"
 ]
 .
 extend
 (
+                    
 [
+                        
 (
-'
+"
 -
 Wl
 -
@@ -8549,47 +8701,49 @@ DELAYLOAD
 :
 %
 s
-'
+"
 %
 dll
 )
-                                           
+                        
 for
 dll
 in
 context
 [
-'
+"
 DELAYLOAD_DLLS
-'
+"
 ]
+                    
 ]
+                
 )
             
 context
 [
-'
+"
 OS_LIBS
-'
+"
 ]
 .
 append
 (
-'
+"
 delayimp
-'
+"
 )
         
 for
 v
 in
 [
-'
+"
 CMFLAGS
-'
-'
+"
+"
 CMMFLAGS
-'
+"
 ]
 :
             
@@ -8608,9 +8762,9 @@ passthru
 .
 variables
 [
-'
+"
 MOZBUILD_
-'
+"
 +
 v
 ]
@@ -8624,12 +8778,12 @@ for
 v
 in
 [
-'
+"
 CXXFLAGS
-'
-'
+"
+"
 CFLAGS
-'
+"
 ]
 :
             
@@ -8648,11 +8802,11 @@ computed_flags
 .
 resolve_flags
 (
-'
+"
 MOZBUILD_
 %
 s
-'
+"
 %
 v
 context
@@ -8665,15 +8819,15 @@ for
 v
 in
 [
-'
+"
 WASM_CFLAGS
-'
-'
+"
+"
 WASM_CXXFLAGS
-'
-'
+"
+"
 WASM_LDFLAGS
-'
+"
 ]
 :
             
@@ -8692,11 +8846,11 @@ computed_wasm_flags
 .
 resolve_flags
 (
-'
+"
 MOZBUILD_
 %
 s
-'
+"
 %
 v
 context
@@ -8709,12 +8863,12 @@ for
 v
 in
 [
-'
+"
 HOST_CXXFLAGS
-'
-'
+"
+"
 HOST_CFLAGS
-'
+"
 ]
 :
             
@@ -8733,11 +8887,11 @@ computed_host_flags
 .
 resolve_flags
 (
-'
+"
 MOZBUILD_
 %
 s
-'
+"
 %
 v
 context
@@ -8747,17 +8901,17 @@ v
 )
         
 if
-'
+"
 LDFLAGS
-'
+"
 in
 context
 and
 context
 [
-'
+"
 LDFLAGS
-'
+"
 ]
 :
             
@@ -8765,14 +8919,14 @@ computed_link_flags
 .
 resolve_flags
 (
-'
+"
 MOZBUILD
-'
+"
 context
 [
-'
+"
 LDFLAGS
-'
+"
 ]
 )
         
@@ -8782,9 +8936,9 @@ context
 .
 get
 (
-'
+"
 DEFFILE
-'
+"
 )
         
 if
@@ -8798,15 +8952,15 @@ substs
 .
 get
 (
-'
+"
 OS_TARGET
-'
+"
 )
 =
 =
-'
+"
 WINNT
-'
+"
 :
             
 if
@@ -8835,7 +8989,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Path
 specified
 in
@@ -8846,25 +9000,26 @@ exist
 :
 %
 s
-'
+"
                         
-'
+"
 (
 resolved
 to
 %
 s
 )
-'
+"
 %
 (
 deffile
-                                              
 deffile
 .
 full_path
 )
+                        
 context
+                    
 )
                 
 path
@@ -8899,9 +9054,9 @@ substs
 .
 get
 (
-'
+"
 GNU_CC
-'
+"
 )
 :
                 
@@ -8909,9 +9064,9 @@ computed_link_flags
 .
 resolve_flags
 (
-'
+"
 DEFFILE
-'
+"
 [
 path
 ]
@@ -8924,16 +9079,15 @@ computed_link_flags
 .
 resolve_flags
 (
-'
+"
 DEFFILE
-'
-                                                  
+"
 [
-'
+"
 -
 DEF
 :
-'
+"
 +
 path
 ]
@@ -8943,9 +9097,9 @@ dist_install
 =
 context
 [
-'
+"
 DIST_INSTALL
-'
+"
 ]
         
 if
@@ -8958,9 +9112,9 @@ passthru
 .
 variables
 [
-'
+"
 DIST_INSTALL
-'
+"
 ]
 =
 True
@@ -8975,9 +9129,9 @@ passthru
 .
 variables
 [
-'
+"
 NO_DIST_INSTALL
-'
+"
 ]
 =
 True
@@ -9026,7 +9180,6 @@ possible
 .
         
 if
-(
 context
 .
 config
@@ -9035,17 +9188,18 @@ substs
 .
 get
 (
-'
+            
+"
 OS_ARCH
-'
+"
+        
 )
 =
 =
-'
+"
 WINNT
-'
+"
 and
-                
 not
 context
 .
@@ -9055,26 +9209,25 @@ substs
 .
 get
 (
-'
+"
 GNU_CC
-'
-)
+"
 )
 :
             
 use_static_lib
 =
-(
 context
 .
 get
 (
-'
+                
+"
 USE_STATIC_LIBS
-'
+"
+            
 )
 and
-                              
 not
 context
 .
@@ -9084,28 +9237,26 @@ substs
 .
 get
 (
-'
+"
 MOZ_ASAN
-'
-)
+"
 )
             
 rtl_flag
 =
-'
+"
 -
 MT
-'
+"
 if
 use_static_lib
 else
-'
+"
 -
 MD
-'
+"
             
 if
-(
 context
 .
 config
@@ -9114,12 +9265,11 @@ substs
 .
 get
 (
-'
+"
 MOZ_DEBUG
-'
+"
 )
 and
-                    
 not
 context
 .
@@ -9129,27 +9279,28 @@ substs
 .
 get
 (
-'
+                
+"
 MOZ_NO_DEBUG_RTL
-'
-)
+"
+            
 )
 :
                 
 rtl_flag
 +
 =
-'
+"
 d
-'
+"
             
 computed_flags
 .
 resolve_flags
 (
-'
+"
 RTL
-'
+"
 [
 rtl_flag
 ]
@@ -9165,9 +9316,9 @@ substs
 .
 get
 (
-'
+"
 CROSS_COMPILE
-'
+"
 )
 :
                 
@@ -9175,9 +9326,9 @@ computed_host_flags
 .
 resolve_flags
 (
-'
+"
 RTL
-'
+"
 [
 rtl_flag
 ]
@@ -9187,9 +9338,9 @@ computed_wasm_flags
 .
 resolve_flags
 (
-'
+"
 RTL
-'
+"
 [
 rtl_flag
 ]
@@ -9254,9 +9405,9 @@ path
 in
 context
 [
-'
+"
 CONFIGURE_SUBST_FILES
-'
+"
 ]
 :
             
@@ -9268,7 +9419,6 @@ _create_substitution
 (
 ConfigFileSubstitution
 context
-                                            
 path
 )
             
@@ -9293,37 +9443,45 @@ cls
 backend_flags
 in
 (
-                
+            
 (
-'
+                
+"
 DEFINES
-'
+"
+                
 Defines
-(
-computed_flags
-computed_as_flags
-)
-)
                 
 (
-'
+                    
+computed_flags
+                    
+computed_as_flags
+                
+)
+            
+)
+            
+(
+"
 HOST_DEFINES
-'
+"
 HostDefines
 (
 computed_host_flags
 )
 )
-                
+            
 (
-'
+"
 WASM_DEFINES
-'
+"
 WasmDefines
 (
 computed_wasm_flags
 )
 )
+        
 )
 :
             
@@ -9450,41 +9608,41 @@ idl_vars
 =
 (
             
-'
+"
 GENERATED_EVENTS_WEBIDL_FILES
-'
+"
             
-'
+"
 GENERATED_WEBIDL_FILES
-'
+"
             
-'
+"
 PREPROCESSED_TEST_WEBIDL_FILES
-'
+"
             
-'
+"
 PREPROCESSED_WEBIDL_FILES
-'
+"
             
-'
+"
 TEST_WEBIDL_FILES
-'
+"
             
-'
+"
 WEBIDL_FILES
-'
+"
             
-'
+"
 IPDL_SOURCES
-'
+"
             
-'
+"
 PREPROCESSED_IPDL_SOURCES
-'
+"
             
-'
+"
 XPCOM_MANIFESTS
-'
+"
         
 )
         
@@ -9543,9 +9701,9 @@ context
 .
 get
 (
-'
+"
 WEBIDL_EXAMPLE_INTERFACES
-'
+"
 [
 ]
 )
@@ -9555,9 +9713,9 @@ self
 .
 _idls
 [
-'
+"
 WEBIDL_EXAMPLE_INTERFACES
-'
+"
 ]
 .
 add
@@ -9577,9 +9735,9 @@ context
 .
 get
 (
-'
+"
 LOCAL_INCLUDES
-'
+"
 [
 ]
 )
@@ -9616,7 +9774,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Path
 specified
 in
@@ -9633,14 +9791,16 @@ to
 %
 s
 )
-'
-%
+"
                         
+%
 (
 local_include
 full_path
 )
+                        
 context
+                    
 )
                 
 if
@@ -9658,14 +9818,15 @@ full_path
 raise
 SandboxValidationError
 (
-'
+                        
+"
 Path
 specified
 in
 LOCAL_INCLUDES
-'
-                                                 
-'
+"
+                        
+"
 is
 a
 filename
@@ -9677,27 +9838,29 @@ required
 :
 %
 s
-'
-                                                 
-'
+"
+                        
+"
 (
 resolved
 to
 %
 s
 )
-'
+"
 %
 (
 local_include
 full_path
 )
-                                                 
+                        
 context
+                    
 )
             
 if
 (
+                
 full_path
 =
 =
@@ -9706,8 +9869,8 @@ context
 config
 .
 topsrcdir
+                
 or
-                    
 full_path
 =
 =
@@ -9716,6 +9879,7 @@ context
 config
 .
 topobjdir
+            
 )
 :
                 
@@ -9723,14 +9887,14 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 Path
 specified
 in
 LOCAL_INCLUDES
-'
+"
                     
-'
+"
 (
 %
 s
@@ -9747,18 +9911,20 @@ s
 )
 which
 is
-'
+"
                     
-'
+"
 not
 allowed
-'
+"
 %
 (
 local_include
 full_path
 )
+                    
 context
+                
 )
             
 include_obj
@@ -9787,16 +9953,17 @@ computed_flags
 .
 resolve_flags
 (
-'
+            
+"
 LOCAL_INCLUDES
-'
+"
 [
-'
+"
 -
 I
 %
 s
-'
+"
 %
 p
 for
@@ -9804,22 +9971,24 @@ p
 in
 local_includes
 ]
+        
 )
         
 computed_as_flags
 .
 resolve_flags
 (
-'
+            
+"
 LOCAL_INCLUDES
-'
+"
 [
-'
+"
 -
 I
 %
 s
-'
+"
 %
 p
 for
@@ -9827,22 +9996,24 @@ p
 in
 local_includes
 ]
+        
 )
         
 computed_host_flags
 .
 resolve_flags
 (
-'
+            
+"
 LOCAL_INCLUDES
-'
+"
 [
-'
+"
 -
 I
 %
 s
-'
+"
 %
 p
 for
@@ -9850,22 +10021,24 @@ p
 in
 local_includes
 ]
+        
 )
         
 computed_wasm_flags
 .
 resolve_flags
 (
-'
+            
+"
 LOCAL_INCLUDES
-'
+"
 [
-'
+"
 -
 I
 %
 s
-'
+"
 %
 p
 for
@@ -9873,6 +10046,7 @@ p
 in
 local_includes
 ]
+        
 )
         
 for
@@ -9895,13 +10069,15 @@ generated_files
 .
 update
 (
+            
 [
-'
+                
+"
 %
 s
 %
 s
-'
+"
 %
 (
 k
@@ -9913,14 +10089,14 @@ substs
 .
 get
 (
-'
+"
 BIN_SUFFIX
-'
-'
-'
+"
+"
+"
 )
 )
-                                
+                
 for
 k
 in
@@ -9931,7 +10107,9 @@ _binaries
 keys
 (
 )
+            
 ]
+        
 )
         
 components
@@ -9946,58 +10124,58 @@ in
 (
             
 (
-'
+"
 EXPORTS
-'
+"
 Exports
 )
             
 (
-'
+"
 FINAL_TARGET_FILES
-'
+"
 FinalTargetFiles
 )
             
 (
-'
+"
 FINAL_TARGET_PP_FILES
-'
+"
 FinalTargetPreprocessedFiles
 )
             
 (
-'
+"
 LOCALIZED_FILES
-'
+"
 LocalizedFiles
 )
             
 (
-'
+"
 LOCALIZED_PP_FILES
-'
+"
 LocalizedPreprocessedFiles
 )
             
 (
-'
+"
 OBJDIR_FILES
-'
+"
 ObjdirFiles
 )
             
 (
-'
+"
 OBJDIR_PP_FILES
-'
+"
 ObjdirPreprocessedFiles
 )
             
 (
-'
+"
 TEST_HARNESS_FILES
-'
+"
 TestHarnessFiles
 )
         
@@ -10028,16 +10206,16 @@ and
 var
 !
 =
-'
+"
 TEST_HARNESS_FILES
-'
+"
 :
                 
 raise
 SandboxValidationError
 (
                     
-'
+"
 %
 s
 cannot
@@ -10047,11 +10225,11 @@ with
 DIST_INSTALL
 =
 False
-'
+"
 %
 var
-                    
 context
+                
 )
             
 has_prefs
@@ -10077,9 +10255,9 @@ if
 var
 =
 =
-'
+"
 TEST_HARNESS_FILES
-'
+"
 and
 not
 base
@@ -10089,7 +10267,7 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Cannot
 install
 files
@@ -10098,17 +10276,19 @@ the
 root
 of
 TEST_HARNESS_FILES
-'
+"
+                        
 context
+                    
 )
                 
 if
 base
 =
 =
-'
+"
 components
-'
+"
 :
                     
 components
@@ -10122,11 +10302,11 @@ if
 base
 =
 =
-'
+"
 defaults
 /
 pref
-'
+"
 :
                     
 has_prefs
@@ -10145,9 +10325,9 @@ base
 ]
 =
 =
-'
+"
 res
-'
+"
 :
                     
 has_resources
@@ -10162,62 +10342,71 @@ files
                     
 if
 (
+                        
 var
+                        
 in
 (
-'
+                            
+"
 FINAL_TARGET_PP_FILES
-'
-                                
-'
+"
+                            
+"
 OBJDIR_PP_FILES
-'
-                                
-'
+"
+                            
+"
 LOCALIZED_PP_FILES
-'
-)
-and
+"
                         
+)
+                        
+and
 not
 isinstance
 (
 f
 SourcePath
 )
+                    
 )
 :
                         
 raise
 SandboxValidationError
 (
-                                
+                            
 (
-'
+"
 Only
 source
 directory
 paths
 allowed
 in
-'
+"
 +
-                                 
-'
+"
 %
 s
 :
 %
 s
-'
+"
 )
-                                
+                            
 %
 (
+                                
 var
+                                
 f
+                            
 )
+                            
 context
+                        
 )
                     
 if
@@ -10225,9 +10414,9 @@ var
 .
 startswith
 (
-'
+"
 LOCALIZED_
-'
+"
 )
 :
                         
@@ -10244,26 +10433,26 @@ f
 .
 startswith
 (
-'
+"
 en
 -
 US
 /
-'
+"
 )
 :
                                 
 pass
                             
 elif
-'
+"
 locales
 /
 en
 -
 US
 /
-'
+"
 in
 f
 :
@@ -10276,8 +10465,8 @@ else
 raise
 SandboxValidationError
 (
-                                        
-'
+                                    
+"
 %
 s
 paths
@@ -10289,9 +10478,9 @@ en
 US
 /
 or
-'
-                                        
-'
+"
+                                    
+"
 contain
 locales
 /
@@ -10302,14 +10491,19 @@ US
 :
 %
 s
-'
-                                        
+"
+                                    
 %
 (
+                                        
 var
+                                        
 f
+                                    
 )
+                                    
 context
+                                
 )
                     
 if
@@ -10328,9 +10522,9 @@ f
 full_path
                         
 if
-'
+"
 *
-'
+"
 not
 in
 path
@@ -10350,7 +10544,7 @@ raise
 SandboxValidationError
 (
                                 
-'
+"
 File
 listed
 in
@@ -10362,14 +10556,15 @@ exist
 :
 %
 s
-'
-                                
+"
 %
 (
 var
 path
 )
+                                
 context
+                            
 )
                     
 else
@@ -10444,9 +10639,9 @@ not
 in
 generated_files
 and
-'
+"
 /
-'
+"
 not
 in
 f
@@ -10457,7 +10652,8 @@ SandboxValidationError
 (
                                 
 (
-'
+                                    
+"
 Objdir
 file
 listed
@@ -10466,22 +10662,26 @@ in
 s
 not
 in
-'
+"
+                                    
 +
-                                 
-'
+"
 GENERATED_FILES
 :
 %
 s
-'
+"
+                                
 )
+                                
 %
 (
 var
 f
 )
+                                
 context
+                            
 )
                         
 if
@@ -10489,9 +10689,9 @@ var
 .
 startswith
 (
-'
+"
 LOCALIZED_
-'
+"
 )
 :
                             
@@ -10521,7 +10721,8 @@ SandboxValidationError
 (
                                     
 (
-'
+                                        
+"
 Objdir
 file
 listed
@@ -10530,22 +10731,26 @@ in
 s
 not
 in
-'
+"
+                                        
 +
-                                     
-'
+"
 LOCALIZED_GENERATED_FILES
 :
 %
 s
-'
+"
+                                    
 )
+                                    
 %
 (
 var
 f
 )
+                                    
 context
+                                
 )
                         
 else
@@ -10585,14 +10790,14 @@ SandboxValidationError
                                     
 (
                                         
-'
+"
 Outputs
 of
 LOCALIZED_GENERATED_FILES
 cannot
-'
+"
                                         
-'
+"
 be
 used
 in
@@ -10601,7 +10806,7 @@ s
 :
 %
 s
-'
+"
                                     
 )
                                     
@@ -10685,19 +10890,18 @@ context
 .
 get
 (
-'
+"
 XPI_NAME
-'
+"
 )
 or
-                              
 context
 .
 get
 (
-'
+"
 DIST_SUBDIR
-'
+"
 )
 )
 :
@@ -10722,33 +10926,34 @@ defaults
 .
 _children
 [
-'
+"
 pref
-'
+"
 ]
             
 if
 has_resources
 and
 (
+                
 context
 .
 get
 (
-'
+"
 DIST_SUBDIR
-'
+"
 )
 or
-                                  
 context
 .
 get
 (
-'
+"
 XPI_NAME
-'
+"
 )
+            
 )
 :
                 
@@ -10756,7 +10961,7 @@ raise
 SandboxValidationError
 (
                     
-'
+"
 RESOURCES_FILES
 cannot
 be
@@ -10764,13 +10969,14 @@ used
 with
 DIST_SUBDIR
 or
-'
-                    
-'
+"
+"
 XPI_NAME
 .
-'
+"
+                    
 context
+                
 )
             
 yield
@@ -10791,29 +10997,30 @@ c
 .
 endswith
 (
-'
+"
 .
 manifest
-'
+"
 )
 :
                 
 yield
 ChromeManifestEntry
 (
+                    
 context
-'
+                    
+"
 chrome
 .
 manifest
-'
-                                          
+"
+                    
 Manifest
 (
-'
+"
 components
-'
-                                                   
+"
 mozpath
 .
 basename
@@ -10821,6 +11028,7 @@ basename
 c
 )
 )
+                
 )
         
 rust_tests
@@ -10829,9 +11037,9 @@ context
 .
 get
 (
-'
+"
 RUST_TESTS
-'
+"
 [
 ]
 )
@@ -10869,9 +11077,9 @@ context
 .
 get
 (
-'
+"
 RUST_TEST_FEATURES
-'
+"
 [
 ]
 )
@@ -10916,17 +11124,16 @@ computed_as_flags
 .
 resolve_flags
 (
-'
+"
 MOZBUILD
-'
-                                        
+"
 context
 .
 get
 (
-'
+"
 ASFLAGS
-'
+"
 )
 )
         
@@ -10935,9 +11142,9 @@ context
 .
 get
 (
-'
+"
 USE_YASM
-'
+"
 )
 is
 True
@@ -10953,9 +11160,9 @@ substs
 .
 get
 (
-'
+"
 YASM
-'
+"
 )
             
 if
@@ -10966,12 +11173,12 @@ yasm
 raise
 SandboxValidationError
 (
-'
+"
 yasm
 is
 not
 available
-'
+"
 context
 )
             
@@ -10979,9 +11186,9 @@ passthru
 .
 variables
 [
-'
+"
 AS
-'
+"
 ]
 =
 yasm
@@ -10990,36 +11197,36 @@ passthru
 .
 variables
 [
-'
+"
 AS_DASH_C_FLAG
-'
+"
 ]
 =
-'
-'
+"
+"
             
 passthru
 .
 variables
 [
-'
+"
 ASOUTOPTION
-'
+"
 ]
 =
-'
+"
 -
 o
-'
+"
             
 computed_as_flags
 .
 resolve_flags
 (
-'
+                
+"
 OS
-'
-                                            
+"
 context
 .
 config
@@ -11028,12 +11235,13 @@ substs
 .
 get
 (
-'
+"
 YASM_ASFLAGS
-'
+"
 [
 ]
 )
+            
 )
         
 if
@@ -11041,9 +11249,9 @@ context
 .
 get
 (
-'
+"
 USE_NASM
-'
+"
 )
 is
 True
@@ -11059,9 +11267,9 @@ substs
 .
 get
 (
-'
+"
 NASM
-'
+"
 )
             
 if
@@ -11072,12 +11280,12 @@ nasm
 raise
 SandboxValidationError
 (
-'
+"
 nasm
 is
 not
 available
-'
+"
 context
 )
             
@@ -11085,9 +11293,9 @@ passthru
 .
 variables
 [
-'
+"
 AS
-'
+"
 ]
 =
 nasm
@@ -11096,36 +11304,36 @@ passthru
 .
 variables
 [
-'
+"
 AS_DASH_C_FLAG
-'
+"
 ]
 =
-'
-'
+"
+"
             
 passthru
 .
 variables
 [
-'
+"
 ASOUTOPTION
-'
+"
 ]
 =
-'
+"
 -
 o
-'
+"
             
 computed_as_flags
 .
 resolve_flags
 (
-'
+                
+"
 OS
-'
-                                            
+"
 context
 .
 config
@@ -11134,12 +11342,13 @@ substs
 .
 get
 (
-'
+"
 NASM_ASFLAGS
-'
+"
 [
 ]
 )
+            
 )
         
 if
@@ -11147,9 +11356,9 @@ context
 .
 get
 (
-'
+"
 USE_INTEGRATED_CLANGCL_AS
-'
+"
 )
 is
 True
@@ -11164,30 +11373,30 @@ substs
 .
 get
 (
-'
+"
 CC_TYPE
-'
+"
 )
 !
 =
-'
+"
 clang
 -
 cl
-'
+"
 :
                 
 raise
 SandboxValidationError
 (
-'
+"
 clang
 -
 cl
 is
 not
 available
-'
+"
 context
 )
             
@@ -11195,9 +11404,9 @@ passthru
 .
 variables
 [
-'
+"
 AS
-'
+"
 ]
 =
 context
@@ -11208,38 +11417,38 @@ substs
 .
 get
 (
-'
+"
 CC
-'
+"
 )
             
 passthru
 .
 variables
 [
-'
+"
 AS_DASH_C_FLAG
-'
+"
 ]
 =
-'
+"
 -
 c
-'
+"
             
 passthru
 .
 variables
 [
-'
+"
 ASOUTOPTION
-'
+"
 ]
 =
-'
+"
 -
 o
-'
+"
         
 if
 passthru
@@ -11342,12 +11551,12 @@ sub
 .
 input_path
 =
-'
+"
 %
 s
 .
 in
-'
+"
 %
 path
 .
@@ -11431,9 +11640,9 @@ xpidl_module
 =
 context
 [
-'
+"
 XPIDL_MODULE
-'
+"
 ]
         
 if
@@ -11444,30 +11653,32 @@ xpidl_module
 if
 context
 [
-'
+"
 XPIDL_SOURCES
-'
+"
 ]
 :
                 
 raise
 SandboxValidationError
 (
-'
+                    
+"
 XPIDL_MODULE
 must
 be
 defined
 if
-'
-                                             
-'
+"
+"
 XPIDL_SOURCES
 is
 defined
 .
-'
+"
+                    
 context
+                
 )
             
 return
@@ -11476,37 +11687,39 @@ if
 not
 context
 [
-'
+"
 XPIDL_SOURCES
-'
+"
 ]
 :
             
 raise
 SandboxValidationError
 (
-'
+                
+"
 XPIDL_MODULE
 cannot
 be
 defined
-'
-                                         
-'
+"
+"
 unless
 there
 are
 XPIDL_SOURCES
-'
+"
+                
 context
+            
 )
         
 if
 context
 [
-'
+"
 DIST_INSTALL
-'
+"
 ]
 is
 False
@@ -11516,15 +11729,17 @@ self
 .
 log
 (
+                
 logging
 .
 WARN
-'
+                
+"
 mozbuild_warning
-'
+"
+                
 dict
 (
-                
 path
 =
 context
@@ -11532,7 +11747,7 @@ context
 main_path
 )
                 
-'
+"
 {
 path
 }
@@ -11546,7 +11761,8 @@ effect
 on
 XPIDL_SOURCES
 .
-'
+"
+            
 )
         
 for
@@ -11554,9 +11770,9 @@ idl
 in
 context
 [
-'
+"
 XPIDL_SOURCES
-'
+"
 ]
 :
             
@@ -11577,24 +11793,26 @@ full_path
 raise
 SandboxValidationError
 (
-'
+                    
+"
 File
 %
 s
 from
 XPIDL_SOURCES
-'
-                                             
-'
+"
+"
 does
 not
 exist
-'
+"
 %
 idl
 .
 full_path
+                    
 context
+                
 )
         
 yield
@@ -11604,9 +11822,9 @@ context
 xpidl_module
 context
 [
-'
+"
 XPIDL_SOURCES
-'
+"
 ]
 )
     
@@ -11623,9 +11841,9 @@ path
 in
 context
 [
-'
+"
 CONFIGURE_DEFINE_FILES
-'
+"
 ]
 :
             
@@ -11635,6 +11853,7 @@ mozpath
 .
 join
 (
+                
 mozpath
 .
 dirname
@@ -11646,45 +11865,51 @@ dirname
 __file__
 )
 )
-                                  
-'
+                
+"
 action
-'
-'
+"
+                
+"
 process_define_files
 .
 py
-'
+"
+            
 )
             
 yield
 GeneratedFile
 (
+                
 context
+                
 script
-'
+                
+"
 process_define_file
-'
-                                
+"
+                
 six
 .
 text_type
 (
 path
 )
-                                
+                
 [
 Path
 (
 context
 path
 +
-'
+"
 .
 in
-'
+"
 )
 ]
+            
 )
         
 generated_files
@@ -11693,9 +11918,9 @@ context
 .
 get
 (
-'
+"
 GENERATED_FILES
-'
+"
 )
 or
 [
@@ -11707,9 +11932,9 @@ context
 .
 get
 (
-'
+"
 LOCALIZED_GENERATED_FILES
-'
+"
 )
 or
 [
@@ -11733,14 +11958,17 @@ gen
 )
 in
 (
+            
 (
 False
 generated_files
 )
+            
 (
 True
 localized_generated_files
 )
+        
 )
 :
             
@@ -11815,11 +12043,11 @@ function
 .
                     
 if
-'
+"
 .
 py
 :
-'
+"
 in
 script
 :
@@ -11831,21 +12059,21 @@ script
 .
 rsplit
 (
-'
+"
 .
 py
 :
-'
+"
 1
 )
                         
 script
 +
 =
-'
+"
 .
 py
-'
+"
                     
 if
 not
@@ -11863,7 +12091,7 @@ raise
 SandboxValidationError
 (
                             
-'
+"
 Script
 for
 generating
@@ -11875,14 +12103,15 @@ exist
 :
 %
 s
-'
-                            
+"
 %
 (
 f
 script
 )
+                            
 context
+                        
 )
                     
 if
@@ -11899,17 +12128,17 @@ script
 ]
 !
 =
-'
+"
 .
 py
-'
+"
 :
                         
 raise
 SandboxValidationError
 (
                             
-'
+"
 Script
 for
 generating
@@ -11924,14 +12153,16 @@ py
 :
 %
 s
-'
+"
                             
 %
 (
 f
 script
 )
+                            
 context
+                        
 )
                 
 else
@@ -11962,14 +12193,12 @@ i
 )
                     
 if
-(
 isinstance
 (
 p
 SourcePath
 )
 and
-                            
 not
 os
 .
@@ -11981,14 +12210,13 @@ p
 .
 full_path
 )
-)
 :
                         
 raise
 SandboxValidationError
 (
                             
-'
+"
 Input
 for
 generating
@@ -12000,7 +12228,7 @@ exist
 :
 %
 s
-'
+"
                             
 %
 (
@@ -12009,7 +12237,9 @@ p
 .
 full_path
 )
+                            
 context
+                        
 )
                     
 inputs
@@ -12024,10 +12254,15 @@ GeneratedFile
 (
                     
 context
+                    
 script
+                    
 method
+                    
 outputs
+                    
 inputs
+                    
 flags
 .
 flags
@@ -12035,11 +12270,13 @@ flags
 localized
 =
 localized
+                    
 force
 =
 flags
 .
 force
+                
 )
     
 def
@@ -12069,10 +12306,10 @@ context
 .
 get
 (
-'
+"
 %
 s_MANIFESTS
-'
+"
 %
 prefix
 [
@@ -12111,10 +12348,10 @@ context
 .
 get
 (
-'
+"
 %
 s_MANIFESTS
-'
+"
 %
 flavor
 .
@@ -12133,10 +12370,12 @@ self
 .
 _process_reftest_manifest
 (
+                    
 context
 flavor
 path
 manifest
+                
 )
 :
                     
@@ -12182,23 +12421,25 @@ mozpath
 .
 dirname
 (
+            
 mozpath
 .
 relpath
 (
 path
-                                                          
 context
 .
 config
 .
 topsrcdir
 )
+        
 )
         
 manifest_sources
 =
 [
+            
 mozpath
 .
 relpath
@@ -12210,13 +12451,14 @@ config
 .
 topsrcdir
 )
-                            
+            
 for
 pth
 in
 mpmanifest
 .
 source_files
+        
 ]
         
 install_prefix
@@ -12242,15 +12484,14 @@ tests
 raise
 SandboxValidationError
 (
-'
+"
 Empty
 test
 manifest
 :
 %
 s
-'
-                                             
+"
 %
 path
 context
@@ -12276,17 +12517,21 @@ obj
 =
 TestManifest
 (
+                
 context
+                
 path
+                
 mpmanifest
+                
 flavor
 =
 flavor
-                               
+                
 install_prefix
 =
 install_prefix
-                               
+                
 relpath
 =
 mozpath
@@ -12301,20 +12546,21 @@ basename
 path
 )
 )
-                               
+                
 sources
 =
 manifest_sources
-                               
+                
 dupe_manifest
 =
-'
+"
 dupe
 -
 manifest
-'
+"
 in
 defaults
+            
 )
             
 filtered
@@ -12328,9 +12574,9 @@ missing
 [
 t
 [
-'
+"
 name
-'
+"
 ]
 for
 t
@@ -12346,9 +12592,9 @@ exists
 (
 t
 [
-'
+"
 path
-'
+"
 ]
 )
 ]
@@ -12360,7 +12606,8 @@ missing
 raise
 SandboxValidationError
 (
-'
+                    
+"
 Test
 manifest
 (
@@ -12368,9 +12615,9 @@ manifest
 s
 )
 lists
-'
-                                             
-'
+"
+                    
+"
 test
 that
 does
@@ -12379,20 +12626,21 @@ exist
 :
 %
 s
-'
+"
 %
 (
-                                                 
 path
-'
-'
+"
+"
 .
 join
 (
 missing
 )
 )
+                    
 context
+                
 )
             
 out_dir
@@ -12425,6 +12673,7 @@ test
 install_root
 manifest_dir
 out_dir
+                
 )
                 
 obj
@@ -12479,10 +12728,12 @@ deferred_installs
 if
 all
 (
+                        
 [
-'
+                            
+"
 *
-'
+"
 not
 in
 install_path
@@ -12494,6 +12745,7 @@ path
 .
 isfile
 (
+                                
 mozpath
 .
 join
@@ -12503,13 +12755,13 @@ context
 config
 .
 topsrcdir
-                                                            
 install_path
 [
 2
 :
 ]
 )
+                            
 )
                             
 install_path
@@ -12518,7 +12770,9 @@ in
 install_info
 .
 external_installs
+                        
 ]
+                    
 )
 :
                         
@@ -12526,13 +12780,13 @@ raise
 SandboxValidationError
 (
                             
-'
+"
 Error
 processing
 test
-'
+"
                             
-'
+"
 manifest
 %
 s
@@ -12544,22 +12798,24 @@ support
 files
 not
 present
-'
+"
                             
-'
+"
 in
 the
 srcdir
 :
 %
 s
-'
+"
 %
 (
 path
 install_path
 )
+                            
 context
+                        
 )
                 
 obj
@@ -12623,24 +12879,25 @@ mozpath
 .
 relpath
 (
+                        
 test
 [
-'
+"
 path
-'
+"
 ]
-                                                       
 mozpath
 .
 dirname
 (
 test
 [
-'
+"
 manifest
-'
+"
 ]
 )
+                    
 )
                     
 obj
@@ -12653,16 +12910,15 @@ normpath
 (
 test
 [
-'
+"
 path
-'
+"
 ]
 )
 ]
 =
-\
-                        
 (
+                        
 (
 mozpath
 .
@@ -12672,7 +12928,9 @@ out_dir
 manifest_relpath
 )
 )
+                        
 True
+                    
 )
                 
 process_support_files
@@ -12841,13 +13099,13 @@ defaults
 .
 get
 (
-'
+"
 generated
 -
 files
-'
-'
-'
+"
+"
+"
 )
 .
 split
@@ -12895,13 +13153,13 @@ raise
 SandboxValidationError
 (
                         
-'
+"
 Error
 processing
 test
-'
+"
                         
-'
+"
 manifest
 %
 s
@@ -12913,22 +13171,24 @@ generated
 files
 not
 present
-'
+"
                         
-'
+"
 elsewhere
 in
 manifest
 :
 %
 s
-'
+"
 %
 (
 path
 f
 )
+                        
 context
+                    
 )
             
 yield
@@ -12945,13 +13205,13 @@ raise
 SandboxValidationError
 (
                 
-'
+"
 Error
 processing
 test
-'
+"
                 
-'
+"
 manifest
 file
 %
@@ -12959,15 +13219,15 @@ s
 :
 %
 s
-'
+"
+                
 %
 (
 path
-                                          
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -12986,6 +13246,7 @@ exc_info
 )
                 
 context
+            
 )
     
 def
@@ -13011,18 +13272,19 @@ mozpath
 .
 dirname
 (
+            
 mozpath
 .
 relpath
 (
 manifest_full_path
-                                                          
 context
 .
 config
 .
 topsrcdir
 )
+        
 )
         
 #
@@ -13071,23 +13333,27 @@ obj
 =
 TestManifest
 (
+            
 context
+            
 manifest_full_path
+            
 manifest
-                           
+            
 flavor
 =
 flavor
+            
 install_prefix
 =
-'
+"
 %
 s
 /
-'
+"
 %
 flavor
-                           
+            
 relpath
 =
 mozpath
@@ -13095,7 +13361,6 @@ mozpath
 join
 (
 manifest_reldir
-                                                
 mozpath
 .
 basename
@@ -13103,6 +13368,7 @@ basename
 manifest_path
 )
 )
+        
 )
         
 obj
@@ -13123,9 +13389,9 @@ t
 :
 t
 [
-'
+"
 path
-'
+"
 ]
 )
 )
@@ -13147,9 +13413,9 @@ context
 .
 get
 (
-'
+"
 JAR_MANIFESTS
-'
+"
 [
 ]
 )
@@ -13166,15 +13432,16 @@ jar_manifests
 raise
 SandboxValidationError
 (
-'
+                
+"
 While
 JAR_MANIFESTS
 is
 a
 list
-'
-                                         
-'
+"
+                
+"
 it
 is
 currently
@@ -13183,8 +13450,10 @@ to
 one
 value
 .
-'
+"
+                
 context
+            
 )
         
 for
@@ -13271,21 +13540,21 @@ join
 context
 .
 srcdir
-'
+"
 jar
 .
 mn
-'
+"
 )
 )
 :
             
 if
-'
+"
 jar
 .
 mn
-'
+"
 not
 in
 jar_manifests
@@ -13294,7 +13563,8 @@ jar_manifests
 raise
 SandboxValidationError
 (
-'
+                    
+"
 A
 jar
 .
@@ -13302,9 +13572,9 @@ mn
 exists
 but
 it
-'
-                                             
-'
+"
+                    
+"
 is
 not
 referenced
@@ -13315,15 +13585,17 @@ moz
 build
 file
 .
-'
-                                             
-'
+"
+                    
+"
 Please
 define
 JAR_MANIFESTS
 .
-'
+"
+                    
 context
+                
 )
     
 def
@@ -13349,9 +13621,9 @@ context
 .
 get
 (
-'
+"
 DIRS
-'
+"
 [
 ]
 )

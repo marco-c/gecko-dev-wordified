@@ -91,11 +91,11 @@ KeyError
 print
 (
 key
-'
+"
 missing
 from
 baseline
-'
+"
 )
             
 continue
@@ -104,12 +104,12 @@ val_getter
 =
 itemgetter
 (
-'
+"
 average_ms
-'
-'
+"
+"
 stddev_ms
-'
+"
 )
         
 base_avg
@@ -190,7 +190,7 @@ base_t_best
             
 result
 =
-'
+"
 faster
 :
 {
@@ -219,7 +219,7 @@ ms
 }
 %
 )
-'
+"
 .
 format
 (
@@ -227,6 +227,7 @@ format
 t_worst
 base_t_best
 speedup
+            
 )
             
 percent_speedups
@@ -274,7 +275,7 @@ base_t_worst
             
 result
 =
-'
+"
 SLOWER
 :
 {
@@ -303,7 +304,7 @@ ms
 }
 %
 )
-'
+"
 .
 format
 (
@@ -311,6 +312,7 @@ format
 t_best
 base_t_worst
 slowdown
+            
 )
             
 percent_speedups
@@ -325,14 +327,14 @@ else
             
 result
 =
-'
+"
 Meh
 .
-'
+"
         
 print
 (
-'
+"
 {
 :
 30s
@@ -340,7 +342,7 @@ print
 :
 {
 }
-'
+"
 .
 format
 (
@@ -355,7 +357,7 @@ percent_speedups
         
 print
 (
-'
+"
 Average
 speedup
 :
@@ -365,7 +367,7 @@ speedup
 2f
 }
 %
-'
+"
 .
 format
 (
@@ -469,9 +471,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 parser
@@ -518,7 +520,7 @@ parser
 .
 error
 (
-'
+"
 A
 JSON
 filepath
@@ -528,7 +530,7 @@ against
 baseline
 is
 required
-'
+"
 )
     
 try
@@ -551,7 +553,7 @@ parser
 .
 error
 (
-'
+"
 A
 JSON
 filepath
@@ -559,7 +561,7 @@ for
 baseline
 is
 required
-'
+"
 )
     
 main

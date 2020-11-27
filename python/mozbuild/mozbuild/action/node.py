@@ -72,7 +72,6 @@ six
 SCRIPT_ALLOWLIST
 =
 [
-        
 buildconfig
 .
 topsrcdir
@@ -91,13 +90,12 @@ build
 .
 js
 "
-    
 ]
 ALLOWLIST_ERROR
 =
-'
-'
-'
+"
+"
+"
 %
 s
 is
@@ -186,9 +184,9 @@ mozilla
 org
 .
 )
-'
-'
-'
+"
+"
+"
 def
 is_script_in_allowlist
 (
@@ -350,8 +348,8 @@ try
         
 printable_cmd
 =
-'
-'
+"
+"
 .
 join
 (
@@ -447,6 +445,7 @@ stderr
 subprocess
 .
 PIPE
+        
 )
         
 stdout
@@ -560,10 +559,10 @@ line
 )
             
 if
-'
+"
 dep
 :
-'
+"
 in
 line
 :
@@ -576,12 +575,12 @@ line
 .
 replace
 (
-'
+"
 dep
 :
-'
-'
-'
+"
+"
+"
 )
 )
             
@@ -682,6 +681,7 @@ clearly
         
 print
 (
+            
 "
 "
 "
@@ -725,16 +725,19 @@ again
 "
 "
 "
+            
 %
 str
 (
 err
 )
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -875,9 +878,9 @@ substs
 .
 get
 (
-'
+"
 NODEJS
-'
+"
 )
     
 if
@@ -887,6 +890,7 @@ node_interpreter
         
 print
 (
+            
 "
 "
 "
@@ -929,11 +933,13 @@ again
 "
 "
 "
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys
@@ -965,6 +971,7 @@ text_type
         
 print
 (
+            
 "
 moz
 .
@@ -982,12 +989,13 @@ name
 to
 execute
 "
-              
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 sys

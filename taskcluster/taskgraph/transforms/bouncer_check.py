@@ -92,10 +92,7 @@ util
 .
 schema
 import
-(
-    
 resolve_keyed_by
-)
 import
 logging
 logger
@@ -135,6 +132,7 @@ command
 "
 python
 "
+            
 "
 testing
 /
@@ -153,30 +151,32 @@ py
         
 job
 [
-'
+"
 run
-'
+"
 ]
 .
 update
 (
+            
 {
-            
-'
+                
+"
 using
-'
+"
 :
-'
+"
 mach
-'
-            
-'
+"
+                
+"
 mach
-'
+"
 :
 command
-        
+            
 }
+        
 )
         
 yield
@@ -249,6 +249,7 @@ extra_params
 .
 append
 (
+                
 "
 -
 -
@@ -278,6 +279,7 @@ strip
 (
 )
 )
+            
 )
         
 for
@@ -395,40 +397,42 @@ resolve_keyed_by
 item
 =
 job
+                
 field
 =
 field
+                
 item_name
 =
 job
 [
-'
+"
 name
-'
+"
 ]
                 
 *
 *
 {
                     
-'
+"
 project
-'
+"
 :
 config
 .
 params
 [
-'
+"
 project
-'
+"
 ]
                     
-'
+"
 release
 -
 level
-'
+"
 :
 config
 .
@@ -438,19 +442,19 @@ release_level
 (
 )
                     
-'
+"
 release
 -
 type
-'
+"
 :
 config
 .
 params
 [
-'
+"
 release_type
-'
+"
 ]
                 
 }
@@ -526,8 +530,9 @@ mach
 .
 extend
 (
-[
                 
+[
+                    
 "
 -
 -
@@ -555,7 +560,7 @@ field
 "
 ]
 )
-                
+                    
 "
 -
 -
@@ -583,8 +588,9 @@ url
 "
 ]
 )
+                
+]
             
-]
 )
             
 del
@@ -675,17 +681,17 @@ config
 ]
         
 if
-'
+"
 extra
 -
 config
-'
+"
 in
 job
 [
-'
+"
 run
-'
+"
 ]
 :
             
@@ -693,25 +699,25 @@ env
 =
 job
 [
-'
+"
 worker
-'
+"
 ]
 .
 setdefault
 (
-'
+"
 env
-'
+"
 {
 }
 )
             
 env
 [
-'
+"
 EXTRA_MOZHARNESS_CONFIG
-'
+"
 ]
 =
 six
@@ -725,21 +731,22 @@ dumps
 (
 job
 [
-'
+"
 run
-'
+"
 ]
 [
-'
+"
 extra
 -
 config
-'
+"
 ]
 sort_keys
 =
 True
 )
+            
 )
             
 del
@@ -808,8 +815,8 @@ mach
 "
 ]
 =
-'
-'
+"
+"
 .
 join
 (

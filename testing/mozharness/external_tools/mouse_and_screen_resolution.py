@@ -432,11 +432,13 @@ configuration
 -
 url
 "
+        
 dest
 =
 "
 configuration_url
 "
+        
 type
 =
 "
@@ -455,6 +457,7 @@ configuration
 file
 .
 "
+    
 )
     
 parser
@@ -469,11 +472,13 @@ configuration
 -
 file
 "
+        
 dest
 =
 "
 configuration_file
 "
+        
 type
 =
 "
@@ -492,6 +497,7 @@ configuration
 file
 .
 "
+    
 )
     
 (
@@ -506,7 +512,6 @@ parse_args
 )
     
 if
-(
 options
 .
 configuration_url
@@ -514,14 +519,12 @@ configuration_url
 =
 None
 and
-        
 options
 .
 configuration_file
 =
 =
 None
-)
 :
         
 print
@@ -658,6 +661,7 @@ e
             
 print
 (
+                
 "
 This
 branch
@@ -677,6 +681,7 @@ str
 (
 e
 )
+            
 )
             
 print
@@ -846,6 +851,7 @@ try
             
 changeScreenResolution
 (
+                
 new_screen_resolution
 [
 "
@@ -858,6 +864,7 @@ new_screen_resolution
 y
 "
 ]
+            
 )
         
 except
@@ -868,6 +875,7 @@ e
             
 print
 (
+                
 "
 INFRA
 -
@@ -883,7 +891,7 @@ screen
 resolution
 but
 "
-                  
+                
 "
 something
 went
@@ -897,6 +905,7 @@ str
 (
 e
 )
+            
 )
             
 return
@@ -1026,19 +1035,25 @@ current_mouse_position
 )
     
 if
+(
+        
 current_screen_resolution
 !
 =
 new_screen_resolution
+        
 or
 current_mouse_position
 !
 =
 new_mouse_position
+    
+)
 :
         
 print
 (
+            
 "
 INFRA
 -
@@ -1057,6 +1072,7 @@ what
 we
 expected
 "
+        
 )
         
 return
@@ -1156,6 +1172,7 @@ queryScreenResolution
     
 return
 {
+        
 "
 x
 "
@@ -1168,7 +1185,7 @@ GetSystemMetrics
 (
 0
 )
-            
+        
 "
 y
 "
@@ -1181,6 +1198,7 @@ GetSystemMetrics
 (
 1
 )
+    
 }
 def
 changeScreenResolution
@@ -1231,10 +1249,10 @@ calcsize
 "
 )
 *
-'
+"
 \
 x00
-'
+"
     
 DevModeData
 +
@@ -1261,13 +1279,15 @@ H
 "
 )
 *
-'
+"
 \
 x00
-'
+"
     
 dwFields
 =
+(
+        
 (
 xres
 and
@@ -1275,6 +1295,7 @@ DM_PELSWIDTH
 or
 0
 )
+        
 |
 (
 yres
@@ -1283,6 +1304,7 @@ DM_PELSHEIGHT
 or
 0
 )
+        
 |
 (
 BitsPerPixel
@@ -1290,6 +1312,8 @@ and
 DM_BITSPERPEL
 or
 0
+)
+    
 )
     
 DevModeData
@@ -1317,10 +1341,10 @@ l9h32BHL
 "
 )
 *
-'
+"
 \
 x00
-'
+"
     
 DevModeData
 +
@@ -1355,10 +1379,10 @@ calcsize
 "
 )
 *
-'
+"
 \
 x00
-'
+"
     
 return
 windll
@@ -1374,9 +1398,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 sys
