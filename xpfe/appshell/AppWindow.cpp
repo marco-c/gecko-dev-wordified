@@ -12056,6 +12056,15 @@ aRect
 Height
 (
 )
+mWindow
+-
+>
+SizeMode
+(
+)
+=
+=
+nsSizeMode_Maximized
 urlbarX
 urlbarWidth
 mWindow
