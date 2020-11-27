@@ -7690,6 +7690,10 @@ tree
 >
 GetView
 (
+FlushType
+:
+:
+None
 )
 ;
 if

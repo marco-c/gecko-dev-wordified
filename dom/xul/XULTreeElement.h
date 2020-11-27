@@ -315,6 +315,12 @@ nsITreeView
 >
 GetView
 (
+FlushType
+=
+FlushType
+:
+:
+Frames
 )
 ;
 void
