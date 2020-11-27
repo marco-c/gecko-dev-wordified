@@ -1508,6 +1508,15 @@ n
 "
 )
 ;
+Assert
+.
+ok
+(
+request
+.
+supportsHTTP3
+)
+;
 do_test_pending
 (
 )
