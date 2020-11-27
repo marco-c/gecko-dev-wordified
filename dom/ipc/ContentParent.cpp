@@ -4824,7 +4824,7 @@ WITH_COOP_COEP_REMOTE_TYPE_PREFIX
 ;
 }
 bool
-IsPriviligedMozillaRemoteType
+IsPrivilegedMozillaRemoteType
 (
 const
 nsACString

@@ -3234,7 +3234,7 @@ GetRemoteType
 )
 |
 |
-IsPriviligedMozillaRemoteType
+IsPrivilegedMozillaRemoteType
 (
 cc
 -

@@ -9754,7 +9754,7 @@ aContentProcessType
 )
 ;
 bool
-IsPriviligedMozillaRemoteType
+IsPrivilegedMozillaRemoteType
 (
 const
 nsACString
