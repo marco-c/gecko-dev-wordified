@@ -744,6 +744,10 @@ uucp
 #
 afp
         
+554
+#
+rtsp
+        
 556
 #
 remotefs
@@ -784,6 +788,14 @@ ssl
 pop3
 +
 ssl
+        
+1720
+#
+h323hostcall
+        
+1723
+#
+pptp
         
 2049
 #
