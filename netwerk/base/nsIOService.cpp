@@ -919,6 +919,10 @@ nicname
 /
 /
 domain
+69
+/
+/
+tftp
 77
 /
 /
@@ -999,6 +1003,10 @@ loc
 srv
 /
 epmap
+137
+/
+/
+netbios
 139
 /
 /
@@ -1007,6 +1015,10 @@ netbios
 /
 /
 imap2
+161
+/
+/
+snmp
 179
 /
 /
@@ -1116,6 +1128,10 @@ ssl
 pop3
 +
 ssl
+1719
+/
+/
+h323gatestat
 1720
 /
 /
@@ -1150,6 +1166,12 @@ sips
 /
 /
 x11
+6566
+/
+/
+sane
+-
+port
 6665
 /
 /
@@ -1191,6 +1213,10 @@ alternate
 irc
 +
 tls
+10080
+/
+/
+amanda
 0
 /
 /
