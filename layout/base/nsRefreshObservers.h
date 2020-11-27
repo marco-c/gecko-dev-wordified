@@ -152,6 +152,11 @@ define
 LAYOUT_BASE_NSREFRESHOBSERVERS_H_
 #
 include
+<
+functional
+>
+#
+include
 "
 mozilla
 /
