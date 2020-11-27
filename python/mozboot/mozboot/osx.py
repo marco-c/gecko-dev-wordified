@@ -3150,10 +3150,6 @@ packages
 [
             
 '
-nasm
-'
-            
-'
 yasm
 '
         
@@ -3708,10 +3704,6 @@ mode
 packages
 =
 [
-            
-'
-nasm
-'
             
 '
 yasm
@@ -4467,12 +4459,21 @@ checkout_root
 )
 :
         
-#
-installed
-via
-ensure_browser_packages
+from
+mozboot
+import
+nasm
         
-pass
+self
+.
+install_toolchain_artifact
+(
+state_dir
+checkout_root
+nasm
+.
+MACOS_NASM
+)
     
 def
 ensure_node_packages

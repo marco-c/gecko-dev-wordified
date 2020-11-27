@@ -73,3 +73,10 @@ linux64
 -
 nasm
 '
+MACOS_NASM
+=
+'
+macosx64
+-
+nasm
+'
