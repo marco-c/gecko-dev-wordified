@@ -200,10 +200,6 @@ mWrForceDisabled
 (
 false
 )
-mWrSoftwareForceEnabled
-(
-false
-)
 mWrCompositorForceEnabled
 (
 false
@@ -377,9 +373,6 @@ mWrForceEnabled
 ;
 bool
 mWrForceDisabled
-;
-bool
-mWrSoftwareForceEnabled
 ;
 bool
 mWrCompositorForceEnabled
