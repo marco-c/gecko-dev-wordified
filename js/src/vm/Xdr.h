@@ -1671,7 +1671,7 @@ virtual
 frontend
 :
 :
-ParserAtomsTable
+ParserAtomVectorBuilder
 &
 frontendAtoms
 (
@@ -3416,7 +3416,7 @@ hasFinishedAtomTable_
 frontend
 :
 :
-ParserAtomsTable
+ParserAtomVectorBuilder
 &
 frontendAtoms
 (
@@ -3425,7 +3425,7 @@ override
 {
 return
 *
-parserAtoms_
+parserAtomBuilder_
 ;
 }
 LifoAlloc
@@ -3521,9 +3521,9 @@ false
 frontend
 :
 :
-ParserAtomsTable
+ParserAtomVectorBuilder
 *
-parserAtoms_
+parserAtomBuilder_
 =
 nullptr
 ;
