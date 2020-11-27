@@ -2239,6 +2239,11 @@ gfxFontStyle
 aStyle
 =
 nullptr
+nsAtom
+*
+aLanguage
+=
+nullptr
 gfxFloat
 aDevToCssSize
 =
@@ -2296,6 +2301,11 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
+=
+nullptr
 )
 override
 ;

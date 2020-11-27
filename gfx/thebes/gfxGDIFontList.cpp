@@ -5592,6 +5592,9 @@ aFlags
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 gfxFloat
 aDevToCssSize
 )
@@ -5670,6 +5673,7 @@ aFamily
 aOutput
 aFlags
 aStyle
+aLanguage
 aDevToCssSize
 )
 ;
@@ -5684,6 +5688,9 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 )
 {
 FontFamily

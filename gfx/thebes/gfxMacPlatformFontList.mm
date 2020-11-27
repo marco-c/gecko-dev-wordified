@@ -9642,6 +9642,9 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 )
 {
 nsAutoreleasePool
@@ -10078,6 +10081,9 @@ aFlags
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 gfxFloat
 aDevToCssSize
 )
@@ -10208,6 +10214,7 @@ systemFontFamilyName
 aOutput
 flags
 aStyle
+aLanguage
 aDevToCssSize
 )
 ;
@@ -10254,6 +10261,7 @@ aFamily
 aOutput
 aFlags
 aStyle
+aLanguage
 aDevToCssSize
 )
 ;

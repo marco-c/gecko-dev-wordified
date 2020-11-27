@@ -1709,6 +1709,11 @@ gfxFontStyle
 aStyle
 =
 nullptr
+nsAtom
+*
+aLanguage
+=
+nullptr
 gfxFloat
 aDevToCssSize
 =
@@ -3814,6 +3819,11 @@ gfxFontStyle
 aStyle
 =
 nullptr
+nsAtom
+*
+aLanguage
+=
+nullptr
 gfxFloat
 aDevToCssSize
 =
@@ -3840,6 +3850,11 @@ FindFamiliesFlags
 gfxFontStyle
 *
 aStyle
+=
+nullptr
+nsAtom
+*
+aLanguage
 =
 nullptr
 gfxFloat
@@ -3884,6 +3899,7 @@ aFamily
 families
 aFlags
 aStyle
+aLanguage
 aDevToCssSize
 )
 )
@@ -3922,6 +3938,11 @@ gfxFontStyle
 aStyle
 =
 nullptr
+nsAtom
+*
+aLanguage
+=
+nullptr
 gfxFloat
 aDevToCssSize
 =
@@ -3945,6 +3966,7 @@ FindSharedFamily
 aFamily
 aFlags
 aStyle
+aLanguage
 aDevToCssSize
 )
 )
@@ -3958,6 +3980,7 @@ FindUnsharedFamily
 aFamily
 aFlags
 aStyle
+aLanguage
 aDevToCssSize
 )
 )
@@ -4988,6 +5011,11 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
+=
+nullptr
 )
 =
 0

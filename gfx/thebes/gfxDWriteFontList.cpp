@@ -5853,6 +5853,9 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 )
 {
 /
@@ -12601,6 +12604,9 @@ aFlags
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
 gfxFloat
 aDevToCssSize
 )
@@ -12706,6 +12712,7 @@ keyName
 aOutput
 aFlags
 aStyle
+aLanguage
 aDevToCssSize
 )
 ;

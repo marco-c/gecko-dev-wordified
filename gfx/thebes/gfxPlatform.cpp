@@ -12517,6 +12517,11 @@ const
 gfxFontStyle
 *
 aStyle
+nsAtom
+*
+aLanguage
+bool
+aExplicitLanguage
 gfxTextPerfMetrics
 *
 aTextPerf
@@ -12537,6 +12542,8 @@ gfxFontGroup
 (
 aFontFamilyList
 aStyle
+aLanguage
+aExplicitLanguage
 aTextPerf
 aFontMatchingStats
 aUserFontSet

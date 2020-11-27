@@ -873,6 +873,12 @@ aParams
 .
 orientation
 )
+mExplicitLanguage
+(
+aParams
+.
+explicitLanguage
+)
 mTextRunRTL
 (
 false
@@ -916,12 +922,6 @@ ToAppUnits
 )
 /
 mP2A
-aParams
-.
-language
-aParams
-.
-explicitLanguage
 aFont
 .
 sizeAdjust
@@ -1009,6 +1009,8 @@ aFont
 fontlist
 &
 style
+mLanguage
+mExplicitLanguage
 aParams
 .
 textPerf
