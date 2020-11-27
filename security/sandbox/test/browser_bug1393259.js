@@ -506,7 +506,7 @@ wait
 /
 for
 the
-brower
+browser
 to
 detect
 the
