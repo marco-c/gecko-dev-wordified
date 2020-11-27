@@ -377,26 +377,6 @@ prefs
 "
 ]
     
-del
-executor_kwargs
-[
-"
-capabilities
-"
-]
-[
-"
-goog
-:
-chromeOptions
-"
-]
-[
-"
-useAutomationExtension
-"
-]
-    
 assert
 kwargs
 [
