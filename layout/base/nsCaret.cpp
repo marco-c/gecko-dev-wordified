@@ -2563,6 +2563,10 @@ focusNode
 IsContent
 (
 )
+|
+|
+!
+aSelection
 )
 {
 return
