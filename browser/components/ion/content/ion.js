@@ -3780,7 +3780,7 @@ for
 (
 const
 cachedAddon
-in
+of
 cachedAddons
 )
 {
