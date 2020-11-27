@@ -20554,7 +20554,7 @@ Contains
 ci
 -
 >
-GetRoutedHost
+GetOrigin
 (
 )
 )
@@ -20573,7 +20573,7 @@ PutEntry
 ci
 -
 >
-GetRoutedHost
+GetOrigin
 (
 )
 )
@@ -20587,9 +20587,9 @@ nsHttpHandler
 IsHttp3Excluded
 (
 const
-nsACString
-&
-aRoutedHost
+nsHttpConnectionInfo
+*
+ci
 )
 {
 MutexAutoLock
@@ -20603,7 +20603,12 @@ mExcludedHttp3Origins
 .
 Contains
 (
-aRoutedHost
+ci
+-
+>
+GetOrigin
+(
+)
 )
 ;
 }
