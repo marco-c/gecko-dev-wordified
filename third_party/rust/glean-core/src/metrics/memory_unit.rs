@@ -190,7 +190,7 @@ MemoryUnit
 /
 /
 /
-Convert
+Converts
 a
 value
 in
@@ -206,7 +206,6 @@ bytes
 /
 /
 /
-#
 #
 Arguments
 /
@@ -230,9 +229,7 @@ convert
 /
 /
 #
-#
-Return
-value
+Returns
 /
 /
 /

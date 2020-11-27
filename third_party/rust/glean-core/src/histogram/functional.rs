@@ -368,8 +368,11 @@ new
 (
 (
 sample
-+
+.
+saturating_add
+(
 1
+)
 )
 as
 f64
@@ -533,7 +536,7 @@ Functional
 /
 /
 /
-Create
+Creates
 a
 histogram
 with
@@ -589,7 +592,7 @@ buckets_per_magnitude
 /
 /
 /
-Get
+Gets
 a
 snapshot
 of
