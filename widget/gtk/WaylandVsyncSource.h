@@ -512,6 +512,9 @@ Mutex
 mEnabledLock
 ;
 bool
+mIsShutdown
+;
+bool
 mVsyncEnabled
 ;
 bool
