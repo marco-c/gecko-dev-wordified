@@ -153,6 +153,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
 <
 functional
 >

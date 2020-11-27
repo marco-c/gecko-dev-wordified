@@ -97,6 +97,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 JSONWriter
 .
 h

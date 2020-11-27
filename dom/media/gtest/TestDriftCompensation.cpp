@@ -130,6 +130,15 @@ DriftCompensation
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
 using
 namespace
 mozilla

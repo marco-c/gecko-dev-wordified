@@ -258,6 +258,15 @@ Logging
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
 using
 mozilla
 :

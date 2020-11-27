@@ -105,6 +105,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsAsyncRedirectVerifyHelper
 .
 h

@@ -168,6 +168,15 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
 define
 DRIFT_BUFFERING_PREF
 "

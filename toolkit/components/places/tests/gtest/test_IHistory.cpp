@@ -154,6 +154,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_layout
 .
 h

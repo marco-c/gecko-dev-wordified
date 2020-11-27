@@ -156,6 +156,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CanvasTranslator

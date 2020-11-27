@@ -85,6 +85,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
 /
 /
 -

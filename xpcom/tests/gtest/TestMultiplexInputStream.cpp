@@ -126,6 +126,15 @@ h
 #
 include
 "
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h

@@ -251,6 +251,15 @@ include
 "
 mozilla
 /
+SpinEventLoopUntil
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_media
 .
 h

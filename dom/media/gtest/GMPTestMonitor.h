@@ -136,6 +136,15 @@ SchedulerGroup
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SpinEventLoopUntil
+.
+h
+"
 class
 GMPTestMonitor
 {
