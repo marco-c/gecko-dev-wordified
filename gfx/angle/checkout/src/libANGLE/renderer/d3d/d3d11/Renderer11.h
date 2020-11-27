@@ -392,6 +392,9 @@ crbug
 com
 /
 656989
+bool
+allowES3OnFL10_0
+;
 UINT
 B5G6R5support
 ;
