@@ -14631,6 +14631,11 @@ LookAndFeelCache
 &
 &
 aLookAndFeelCache
+widget
+:
+:
+ThemeChangeKind
+aKind
 )
 {
 LookAndFeel
@@ -14646,6 +14651,7 @@ LookAndFeel
 :
 NotifyChangedAllWindows
 (
+aKind
 )
 ;
 return
