@@ -257,8 +257,12 @@ topsites
 -
 description
 "
+get
 nestedPrefs
-:
+(
+)
+{
+return
 Services
 .
 prefs
@@ -301,6 +305,8 @@ sponsored
 :
 [
 ]
+;
+}
 }
 icon
 :
