@@ -724,13 +724,10 @@ Digest
 value
 algorithm
 :
+*
 key
 .
 digest_alg
-.
-clone
-(
-)
 }
 )
 )

@@ -74,9 +74,14 @@ raw
 :
 {
 c_int
-c_ulong
 c_void
 }
+;
+pub
+type
+size_t
+=
+usize
 ;
 extern
 "
@@ -120,9 +125,3 @@ size_t
 c_int
 ;
 }
-pub
-type
-size_t
-=
-c_ulong
-;
