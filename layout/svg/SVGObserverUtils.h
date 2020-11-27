@@ -150,17 +150,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
-include
-"
 nsID
 .
 h
@@ -265,6 +254,9 @@ dom
 {
 class
 CanvasRenderingContext2D
+;
+class
+Element
 ;
 class
 SVGGeometryElement

@@ -181,17 +181,6 @@ mozilla
 /
 dom
 /
-Element
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 HTMLInputElementBinding
 .
 h
@@ -251,6 +240,9 @@ TextInputSelectionController
 namespace
 dom
 {
+class
+Element
+;
 class
 HTMLInputElement
 ;

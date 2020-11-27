@@ -123,13 +123,6 @@ mozilla_RangeUtils_h
 #
 include
 "
-Element
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe

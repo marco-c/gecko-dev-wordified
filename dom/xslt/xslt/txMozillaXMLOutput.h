@@ -157,17 +157,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
 class
 nsIContent
 ;
@@ -194,6 +183,9 @@ Document
 ;
 class
 DocumentFragment
+;
+class
+Element
 ;
 }
 /

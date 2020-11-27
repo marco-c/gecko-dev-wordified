@@ -127,17 +127,6 @@ mozilla
 /
 dom
 /
-Element
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 L10nOverlaysBinding
 .
 h
@@ -164,6 +153,9 @@ dom
 {
 class
 DocumentFragment
+;
+class
+Element
 ;
 class
 L10nOverlays

@@ -230,17 +230,6 @@ ValidityState
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
 class
 nsDOMTokenList
 ;

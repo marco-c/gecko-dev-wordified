@@ -156,17 +156,6 @@ mozilla
 /
 dom
 /
-Element
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 L10nMutations
 .
 h
@@ -221,6 +210,9 @@ mozilla
 namespace
 dom
 {
+class
+Element
+;
 class
 L10nMutations
 ;

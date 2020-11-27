@@ -128,17 +128,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Element
-.
-h
-"
-#
-include
-"
 nsIDOMEventListener
 .
 h
@@ -159,6 +148,9 @@ mozilla
 namespace
 dom
 {
+class
+Element
+;
 class
 MouseEvent
 ;

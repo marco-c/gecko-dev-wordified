@@ -166,6 +166,13 @@ nsIContent
 namespace
 mozilla
 {
+namespace
+dom
+{
+class
+Element
+;
+}
 /
 *
 *
