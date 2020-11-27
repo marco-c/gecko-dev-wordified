@@ -2889,6 +2889,11 @@ mComputedOffsets
 void
 SetComputedLogicalOffsets
 (
+mozilla
+:
+:
+WritingMode
+aWM
 const
 LogicalMargin
 &
@@ -2901,7 +2906,7 @@ aOffsets
 .
 GetPhysicalMargin
 (
-mWritingMode
+aWM
 )
 ;
 }
