@@ -2028,6 +2028,13 @@ auto
 "
 )
 .
+value_name
+(
+"
+ANDROID_STORAGE
+"
+)
+.
 help
 (
 "
