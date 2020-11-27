@@ -586,7 +586,7 @@ LABELS_SQLITE_STORE_QUERY
 const
 char
 *
-GetVFSName
+GetTelemetryVFSName
 (
 bool
 )
@@ -4281,7 +4281,7 @@ memory
 &
 mDBConn
 mFlags
-GetVFSName
+GetTelemetryVFSName
 (
 true
 )
@@ -4584,7 +4584,7 @@ get
 &
 mDBConn
 mFlags
-GetVFSName
+GetTelemetryVFSName
 (
 exclusive
 )
@@ -4641,7 +4641,7 @@ get
 &
 mDBConn
 mFlags
-GetVFSName
+GetTelemetryVFSName
 (
 false
 )
@@ -4777,7 +4777,7 @@ get
 &
 mDBConn
 mFlags
-GetVFSName
+GetTelemetryVFSName
 (
 false
 )
@@ -4982,7 +4982,7 @@ get
 &
 mDBConn
 mFlags
-GetVFSName
+GetTelemetryVFSName
 (
 exclusive
 )
