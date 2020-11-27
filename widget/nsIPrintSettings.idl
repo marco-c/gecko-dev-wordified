@@ -1187,6 +1187,9 @@ attribute
 boolean
 printReversed
 ;
+[
+infallible
+]
 attribute
 boolean
 printInColor
