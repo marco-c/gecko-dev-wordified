@@ -3926,7 +3926,7 @@ if
 IMEStateManager
 :
 :
-CanSendNotificationToTheMainProcess
+CanSendNotificationToWidget
 (
 )
 )
