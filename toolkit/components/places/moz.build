@@ -149,11 +149,6 @@ mozISyncedBookmarksMirror
 idl
 '
 '
-nsIAnnotationService
-.
-idl
-'
-'
 nsIFaviconService
 .
 idl
@@ -233,11 +228,6 @@ cpp
 '
 '
 nsAnnoProtocolHandler
-.
-cpp
-'
-'
-nsAnnotationService
 .
 cpp
 '
