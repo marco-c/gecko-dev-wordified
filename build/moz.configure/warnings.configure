@@ -1857,6 +1857,9 @@ be
 missing
 function
 declarations
+for
+C
+code
 .
 check_and_add_gcc_warning
 (
@@ -1870,6 +1873,7 @@ function
 -
 declaration
 "
+c_compiler
 )
 #
 New
