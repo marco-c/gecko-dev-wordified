@@ -2184,7 +2184,7 @@ aDpiRatio
 ;
 static
 void
-PaintRangeTrackBackground
+PaintRange
 (
 nsIFrame
 *
