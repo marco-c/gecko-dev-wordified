@@ -23952,7 +23952,7 @@ scriptStencil
 .
 gcThings
 .
-length
+size
 (
 )
 ;
@@ -24905,7 +24905,7 @@ scriptStencil
 .
 gcThings
 .
-length
+size
 (
 )
 <
