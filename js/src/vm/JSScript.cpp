@@ -28774,9 +28774,7 @@ copying
 from
 src
 .
-const
 SourceExtent
-&
 extent
 =
 maybeClassExtent
