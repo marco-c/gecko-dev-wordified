@@ -3655,6 +3655,9 @@ nsCString
 mImageAcceptHeader
 ;
 nsCString
+mDocumentAcceptHeader
+;
+nsCString
 mAcceptLanguages
 ;
 nsCString
