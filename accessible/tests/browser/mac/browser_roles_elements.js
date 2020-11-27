@@ -1740,7 +1740,9 @@ accDoc
 "
 tooltip
 "
-null
+"
+AXGroup
+"
 "
 AXUserInterfaceTooltip
 "
