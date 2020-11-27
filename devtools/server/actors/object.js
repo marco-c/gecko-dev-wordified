@@ -358,7 +358,7 @@ given
 object
 *
 -
-sources
+getSourcesManager
 *
 SourcesManager
 getter
@@ -422,7 +422,7 @@ thread
 createValueGrip
 :
 createValueGripHook
-sources
+getSourcesManager
 createEnvironmentActor
 getGripDepth
 incrementGripDepth
@@ -491,7 +491,7 @@ hooks
 createValueGrip
 :
 createValueGripHook
-sources
+getSourcesManager
 createEnvironmentActor
 getGripDepth
 incrementGripDepth
@@ -1637,7 +1637,7 @@ this
 .
 hooks
 .
-sources
+getSourcesManager
 (
 )
 .

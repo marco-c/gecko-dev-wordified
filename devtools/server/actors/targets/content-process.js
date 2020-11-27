@@ -789,7 +789,7 @@ _consoleScope
 ;
 }
 get
-sources
+sourcesManager
 (
 )
 {
@@ -798,7 +798,7 @@ if
 !
 this
 .
-_sources
+_sourcesManager
 )
 {
 assert
@@ -812,14 +812,14 @@ should
 exist
 when
 creating
-sources
+SourcesManager
 .
 "
 )
 ;
 this
 .
-_sources
+_sourcesManager
 =
 new
 SourcesManager
@@ -833,7 +833,7 @@ threadActor
 return
 this
 .
-_sources
+_sourcesManager
 ;
 }
 /
@@ -1372,12 +1372,12 @@ if
 (
 this
 .
-_sources
+_sourcesManager
 )
 {
 this
 .
-_sources
+_sourcesManager
 .
 destroy
 (
@@ -1385,7 +1385,7 @@ destroy
 ;
 this
 .
-_sources
+_sourcesManager
 =
 null
 ;
