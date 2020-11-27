@@ -148,6 +148,9 @@ mozilla
 namespace
 dom
 {
+class
+Performance
+;
 /
 /
 https

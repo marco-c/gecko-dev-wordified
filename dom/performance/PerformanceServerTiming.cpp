@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsITimedChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

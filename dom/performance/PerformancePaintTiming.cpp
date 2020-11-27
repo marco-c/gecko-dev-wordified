@@ -124,6 +124,13 @@ h
 #
 include
 "
+Performance
+.
+h
+"
+#
+include
+"
 MainThreadUtils
 .
 h
@@ -136,6 +143,13 @@ mozilla
 dom
 /
 PerformanceMeasureBinding
+.
+h
+"
+#
+include
+"
+nsRFPService
 .
 h
 "
