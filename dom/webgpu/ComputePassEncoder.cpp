@@ -128,6 +128,13 @@ h
 #
 include
 "
+CommandEncoder
+.
+h
+"
+#
+include
+"
 mozilla
 /
 webgpu

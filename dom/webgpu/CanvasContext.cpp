@@ -176,6 +176,15 @@ WebRenderBridgeChild
 .
 h
 "
+#
+include
+"
+ipc
+/
+WebGPUChild
+.
+h
+"
 namespace
 mozilla
 {

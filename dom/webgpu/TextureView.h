@@ -113,6 +113,17 @@ ObjectModel
 .
 h
 "
+#
+include
+"
+mozilla
+/
+webgpu
+/
+WebGPUTypes
+.
+h
+"
 namespace
 mozilla
 {
