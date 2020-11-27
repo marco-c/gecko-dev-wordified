@@ -8165,6 +8165,7 @@ TextureCache
 new_for_testing
 (
 2048
+1024
 FORMAT
 )
 ;
@@ -8516,6 +8517,7 @@ TextureCache
 new_for_testing
 (
 4096
+1024
 FORMAT
 )
 &
