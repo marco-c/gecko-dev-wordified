@@ -102,6 +102,7 @@ marker
 msg
 expectedRole
 expectedValue
+expectedRange
 )
 {
 let
@@ -176,7 +177,7 @@ stringForRange
 macDoc
 elemRange
 )
-expectedValue
+expectedRange
 {
 msg
 }
