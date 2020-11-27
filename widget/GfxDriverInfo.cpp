@@ -4130,7 +4130,6 @@ APPEND_DEVICE
 /
 skylake
 gt2
-+
 APPEND_DEVICE
 (
 0x1912
@@ -4181,6 +4180,10 @@ APPEND_DEVICE
 0x1921
 )
 ;
+/
+/
+skylake
+gt3
 APPEND_DEVICE
 (
 0x1923
@@ -4201,9 +4204,18 @@ APPEND_DEVICE
 0x192b
 )
 ;
+/
+/
+skylake
+gt4
 APPEND_DEVICE
 (
 0x1932
+)
+;
+APPEND_DEVICE
+(
+0x193a
 )
 ;
 APPEND_DEVICE
