@@ -101,7 +101,9 @@ shared
 /
 specs
 /
-stylesheets
+media
+-
+rule
 "
 )
 ;

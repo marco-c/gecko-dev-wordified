@@ -155,7 +155,9 @@ shared
 /
 specs
 /
-stylesheets
+style
+-
+sheet
 "
 )
 ;
