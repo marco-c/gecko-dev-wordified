@@ -183,8 +183,10 @@ ServiceWorkerRegistrationListener
 Background
 thread
 only
+RefPtr
+<
 ServiceWorkerRegistrationParent
-*
+>
 mActor
 ;
 /

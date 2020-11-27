@@ -598,10 +598,6 @@ ServiceWorkerRegistrationDescriptor
 aDescriptor
 )
 :
-mActor
-(
-nullptr
-)
 mOuter
 (
 nullptr
@@ -638,8 +634,7 @@ Shutdown
 return
 ;
 }
-ServiceWorkerRegistrationChild
-*
+auto
 actor
 =
 ServiceWorkerRegistrationChild
@@ -708,7 +703,13 @@ actor
 ;
 mActor
 =
+std
+:
+:
+move
+(
 actor
+)
 ;
 mActor
 -

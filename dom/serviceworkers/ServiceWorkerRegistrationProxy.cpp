@@ -862,10 +862,6 @@ ServiceWorkerRegistrationDescriptor
 aDescriptor
 )
 :
-mActor
-(
-nullptr
-)
 mEventTarget
 (
 GetCurrentSerialEventTarget

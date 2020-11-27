@@ -254,8 +254,10 @@ IPC_OK
 /
 /
 static
+RefPtr
+<
 ServiceWorkerRegistrationChild
-*
+>
 ServiceWorkerRegistrationChild
 :
 :
@@ -263,14 +265,11 @@ Create
 (
 )
 {
-ServiceWorkerRegistrationChild
-*
+RefPtr
 actor
 =
 new
 ServiceWorkerRegistrationChild
-(
-)
 ;
 if
 (
@@ -356,9 +355,6 @@ mIPCWorkerRef
 )
 )
 {
-delete
-actor
-;
 return
 nullptr
 ;

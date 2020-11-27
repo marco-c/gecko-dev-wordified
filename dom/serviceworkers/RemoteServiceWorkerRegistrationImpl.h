@@ -146,8 +146,10 @@ ServiceWorkerRegistration
 :
 Inner
 {
+RefPtr
+<
 ServiceWorkerRegistrationChild
-*
+>
 mActor
 ;
 ServiceWorkerRegistration

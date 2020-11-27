@@ -159,6 +159,11 @@ mProxy
 bool
 mDeleteSent
 ;
+~
+ServiceWorkerRegistrationParent
+(
+)
+;
 /
 /
 PServiceWorkerRegistrationParent
@@ -220,11 +225,12 @@ override
 ;
 public
 :
-ServiceWorkerRegistrationParent
+NS_INLINE_DECL_REFCOUNTING
 (
+ServiceWorkerRegistrationParent
+override
 )
 ;
-~
 ServiceWorkerRegistrationParent
 (
 )
