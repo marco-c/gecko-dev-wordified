@@ -400,6 +400,7 @@ Frame
 *
 fp_
 ;
+const
 TlsData
 *
 tls_
@@ -619,6 +620,7 @@ return
 fp_
 ;
 }
+const
 TlsData
 *
 tls
@@ -1559,6 +1561,17 @@ the
 passed
 fp
 .
+const
+TlsData
+*
+GetNearestEffectiveTls
+(
+const
+Frame
+*
+fp
+)
+;
 TlsData
 *
 GetNearestEffectiveTls
