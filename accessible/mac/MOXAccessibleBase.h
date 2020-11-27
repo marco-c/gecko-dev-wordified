@@ -653,12 +653,6 @@ MOXTextMarkerSupport
 )
 moxTextMarkerDelegate
 ;
--
-(
-BOOL
-)
-moxIsLiveRegion
-;
 #
 pragma
 mark

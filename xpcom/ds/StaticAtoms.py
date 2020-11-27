@@ -24298,16 +24298,6 @@ valuetext
 Atom
 (
 "
-assertive
-"
-"
-assertive
-"
-)
-    
-Atom
-(
-"
 auto_generated
 "
 "
