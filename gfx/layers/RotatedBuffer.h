@@ -2244,8 +2244,10 @@ mClientOnWhite
 void
 SyncWithObject
 (
+RefPtr
+<
 SyncObjectClient
-*
+>
 aSyncObject
 )
 ;

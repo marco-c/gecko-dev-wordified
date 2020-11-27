@@ -422,8 +422,10 @@ override
 void
 SyncWithObject
 (
+RefPtr
+<
 SyncObjectClient
-*
+>
 aSyncObject
 )
 override

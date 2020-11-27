@@ -3301,8 +3301,10 @@ RemoteRotatedBuffer
 :
 SyncWithObject
 (
+RefPtr
+<
 SyncObjectClient
-*
+>
 aSyncObject
 )
 {

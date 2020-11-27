@@ -1577,7 +1577,8 @@ params
 .
 mKnowsCompositor
 ?
-&
+Some
+(
 params
 .
 mKnowsCompositor
@@ -1586,8 +1587,11 @@ mKnowsCompositor
 GetTextureFactoryIdentifier
 (
 )
+)
 :
-nullptr
+Nothing
+(
+)
 )
 ;
 if

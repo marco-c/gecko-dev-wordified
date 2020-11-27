@@ -1925,8 +1925,10 @@ D3D11TextureData
 :
 SyncWithObject
 (
+RefPtr
+<
 SyncObjectClient
-*
+>
 aSyncObject
 )
 {
@@ -1987,6 +1989,10 @@ SyncObjectD3D11Client
 >
 (
 aSyncObject
+.
+get
+(
+)
 )
 ;
 sync
