@@ -119,7 +119,7 @@ URI
 let
 historyReplacePromise
 =
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )

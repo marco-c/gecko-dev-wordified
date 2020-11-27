@@ -573,7 +573,7 @@ page
 let
 entryReplaced
 =
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )
@@ -972,7 +972,7 @@ entry
 let
 entryReplaced
 =
-promiseOnHistoryReplaceEntryInChild
+promiseOnHistoryReplaceEntry
 (
 browser
 )
