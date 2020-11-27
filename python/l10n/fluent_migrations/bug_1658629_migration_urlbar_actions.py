@@ -102,7 +102,7 @@ ctx
 .
 add_transforms
 (
-        
+            
 "
 browser
 /
@@ -112,7 +112,7 @@ browser
 .
 ftl
 "
-        
+            
 "
 browser
 /
@@ -122,7 +122,7 @@ browser
 .
 ftl
 "
-        
+            
 [
             
 FTL
@@ -173,6 +173,7 @@ searchWithEngine
 "
                     
 {
+                        
 "
 %
 1
@@ -185,6 +186,7 @@ VARIABLE_REFERENCE
 engine
 "
 )
+                    
 }
                     
 normalize_printf
@@ -194,7 +196,7 @@ True
 )
             
 )
-        
+            
 ]
     
 )
@@ -203,7 +205,7 @@ ctx
 .
 add_transforms
 (
-        
+            
 "
 browser
 /
@@ -213,7 +215,7 @@ browser
 .
 ftl
 "
-        
+            
 "
 browser
 /
@@ -223,7 +225,7 @@ browser
 .
 ftl
 "
-        
+            
 [
             
 FTL
@@ -278,6 +280,7 @@ searchInPrivateWindowWithEngine
 "
                     
 {
+                        
 "
 %
 1
@@ -290,6 +293,7 @@ VARIABLE_REFERENCE
 engine
 "
 )
+                    
 }
                     
 normalize_printf
@@ -299,7 +303,7 @@ True
 )
             
 )
-        
+            
 ]
     
 )
@@ -331,7 +335,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -395,7 +398,6 @@ visit
 "
 "
 "
-            
 from_path
 =
 "
@@ -409,7 +411,5 @@ autocomplete
 .
 properties
 "
-        
 )
-    
 )

@@ -101,9 +101,9 @@ import
 ModuleType
 STATE_DIR_FIRST_RUN
 =
-"
-"
-"
+'
+'
+'
 mach
 and
 the
@@ -202,9 +202,9 @@ c
 to
 abort
 .
-"
-"
-"
+'
+'
+'
 .
 lstrip
 (
@@ -220,7 +220,7 @@ MACH_MODULES
 =
 [
     
-"
+'
 build
 /
 valgrind
@@ -228,9 +228,9 @@ valgrind
 mach_commands
 .
 py
-"
+'
     
-"
+'
 devtools
 /
 shared
@@ -242,9 +242,9 @@ generated
 mach_commands
 .
 py
-"
+'
     
-"
+'
 dom
 /
 bindings
@@ -252,9 +252,9 @@ bindings
 mach_commands
 .
 py
-"
+'
     
-"
+'
 js
 /
 src
@@ -266,9 +266,9 @@ rootAnalysis
 mach_commands
 .
 py
-"
+'
     
-"
+'
 layout
 /
 tools
@@ -278,9 +278,9 @@ reftest
 mach_commands
 .
 py
-"
+'
     
-"
+'
 mobile
 /
 android
@@ -288,9 +288,9 @@ android
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mach
@@ -302,9 +302,9 @@ commands
 commandinfo
 .
 py
-"
+'
     
-"
+'
 python
 /
 mach
@@ -316,17 +316,17 @@ commands
 settings
 .
 py
-"
+'
     
-"
+'
 python
 /
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozboot
@@ -336,9 +336,9 @@ mozboot
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -348,9 +348,9 @@ mozbuild
 artifact_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -362,9 +362,9 @@ backend
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -374,9 +374,9 @@ mozbuild
 build_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -388,9 +388,9 @@ code_analysis
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -402,9 +402,9 @@ compilation
 codecomplete
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -416,9 +416,9 @@ frontend
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -430,9 +430,9 @@ vendor
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozbuild
@@ -442,9 +442,9 @@ mozbuild
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozperftest
@@ -454,9 +454,9 @@ mozperftest
 mach_commands
 .
 py
-"
+'
     
-"
+'
 python
 /
 mozrelease
@@ -466,25 +466,25 @@ mozrelease
 mach_commands
 .
 py
-"
+'
     
-"
+'
 remote
 /
 mach_commands
 .
 py
-"
+'
     
-"
+'
 taskcluster
 /
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 awsy
@@ -492,9 +492,9 @@ awsy
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 condprofile
@@ -502,9 +502,9 @@ condprofile
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 firefox
@@ -514,9 +514,9 @@ ui
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 geckodriver
@@ -524,17 +524,17 @@ geckodriver
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 marionette
@@ -542,9 +542,9 @@ marionette
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 mochitest
@@ -552,9 +552,9 @@ mochitest
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 mozharness
@@ -562,9 +562,9 @@ mozharness
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 raptor
@@ -572,9 +572,9 @@ raptor
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 talos
@@ -582,9 +582,9 @@ talos
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 tps
@@ -592,9 +592,9 @@ tps
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 web
@@ -604,9 +604,9 @@ platform
 mach_commands
 .
 py
-"
+'
     
-"
+'
 testing
 /
 xpcshell
@@ -614,9 +614,9 @@ xpcshell
 mach_commands
 .
 py
-"
+'
     
-"
+'
 toolkit
 /
 components
@@ -630,9 +630,9 @@ marionette
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 browsertime
@@ -640,9 +640,9 @@ browsertime
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 compare
@@ -652,9 +652,9 @@ locales
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 lint
@@ -662,17 +662,17 @@ lint
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 moztreedocs
@@ -680,9 +680,9 @@ moztreedocs
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 phabricator
@@ -690,9 +690,9 @@ phabricator
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 power
@@ -700,9 +700,9 @@ power
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 tryselect
@@ -710,9 +710,9 @@ tryselect
 mach_commands
 .
 py
-"
+'
     
-"
+'
 tools
 /
 vcs
@@ -720,71 +720,71 @@ vcs
 mach_commands
 .
 py
-"
+'
 ]
 CATEGORIES
 =
 {
     
-"
+'
 build
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Build
 Commands
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Interact
 with
 the
 build
 system
-"
+'
         
-"
+'
 priority
-"
+'
 :
 80
     
 }
     
-"
+'
 post
 -
 build
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Post
 -
 build
 Commands
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Common
 actions
 performed
@@ -793,99 +793,99 @@ completing
 a
 build
 .
-"
+'
         
-"
+'
 priority
-"
+'
 :
 70
     
 }
     
-"
+'
 testing
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Testing
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Run
 tests
 .
-"
+'
         
-"
+'
 priority
-"
+'
 :
 60
     
 }
     
-"
+'
 ci
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 CI
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Taskcluster
 commands
-"
+'
         
-"
+'
 priority
-"
+'
 :
 59
     
 }
     
-"
+'
 devenv
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Development
 Environment
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Set
 up
 and
@@ -894,42 +894,42 @@ your
 development
 environment
 .
-"
+'
         
-"
+'
 priority
-"
+'
 :
 50
     
 }
     
-"
+'
 build
 -
 dev
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Low
 -
 level
 Build
 System
 Interaction
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Interact
 with
 specific
@@ -939,71 +939,71 @@ the
 build
 system
 .
-"
+'
         
-"
+'
 priority
-"
+'
 :
 20
     
 }
     
-"
+'
 misc
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Potpourri
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Potent
 potables
 and
 assorted
 snacks
 .
-"
+'
         
-"
+'
 priority
-"
+'
 :
 10
     
 }
     
-"
+'
 release
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Release
 automation
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 Commands
 for
 used
@@ -1011,35 +1011,35 @@ in
 release
 automation
 .
-"
+'
         
-"
+'
 priority
-"
+'
 :
 5
     
 }
     
-"
+'
 disabled
-"
+'
 :
 {
         
-"
+'
 short
-"
+'
 :
-"
+'
 Disabled
-"
+'
         
-"
+'
 long
-"
+'
 :
-"
+'
 The
 disabled
 commands
@@ -1055,9 +1055,9 @@ to
 display
 them
 .
-"
+'
         
-"
+'
 These
 commands
 are
@@ -1066,7 +1066,7 @@ for
 your
 current
 context
-"
+'
         
 '
 run
@@ -1082,9 +1082,9 @@ why
 .
 '
         
-"
+'
 priority
-"
+'
 :
 0
     
@@ -1126,9 +1126,9 @@ rstrip
 .
 split
 (
-"
+'
 :
-"
+'
 )
 for
 line
@@ -1150,9 +1150,9 @@ package
 ]
 =
 =
-"
+'
 optional
-"
+'
 :
             
 try
@@ -1187,13 +1187,13 @@ package
 ]
 in
 (
-"
+'
 windows
-"
-"
+'
+'
 !
 windows
-"
+'
 )
 :
             
@@ -1207,9 +1207,9 @@ package
 .
 startswith
 (
-"
+'
 !
-"
+'
 )
             
 is_win
@@ -1219,9 +1219,9 @@ sys
 platform
 =
 =
-"
+'
 win32
-"
+'
             
 if
 is_win
@@ -1253,12 +1253,12 @@ package
 ]
 in
 (
-"
+'
 python2
-"
-"
+'
+'
 python3
-"
+'
 )
 :
             
@@ -1271,9 +1271,9 @@ package
 .
 endswith
 (
-"
+'
 3
-"
+'
 )
             
 is_python3
@@ -1317,11 +1317,11 @@ package
 ]
 =
 =
-"
+'
 packages
 .
 txt
-"
+'
 :
             
 assert
@@ -1365,10 +1365,10 @@ package
 .
 endswith
 (
-"
+'
 .
 pth
-"
+'
 )
 :
             
@@ -1513,7 +1513,7 @@ minor
         
 print
 (
-"
+'
 Python
 2
 .
@@ -1530,17 +1530,17 @@ to
 run
 mach
 .
-"
+'
 )
         
 print
 (
-"
+'
 You
 are
 running
 Python
-"
+'
 platform
 .
 python_version
@@ -1698,15 +1698,15 @@ in
 search_path
 (
 mozilla_dir
-"
+                                
+'
 build
 /
 mach_virtualenv_packages
 .
 txt
-"
+'
 )
-    
 ]
     
 import
@@ -2043,9 +2043,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_LIMIT_NOFILE
-"
+'
 )
         
 if
@@ -2238,6 +2238,7 @@ except
 mozversioncontrol
 .
 InvalidRepoPath
+                
 mozversioncontrol
 .
 MissingVCSTool
@@ -2313,9 +2314,9 @@ handler
 category
 =
 =
-"
+'
 testing
-"
+'
 and
 not
 handler
@@ -2369,9 +2370,9 @@ and
 hasattr
 (
 build
-"
+'
 mozconfig
-"
+'
 )
 :
                     
@@ -2381,29 +2382,28 @@ build
 .
 mozconfig
 [
-"
+'
 configure_args
-"
+'
 ]
                     
 if
 ac_options
 and
-"
+'
 -
 -
 disable
 -
 tests
-"
+'
 in
 ac_options
 :
                         
 print
 (
-                            
-"
+'
 Tests
 have
 been
@@ -2413,9 +2413,9 @@ mozconfig
 with
 the
 flag
-"
-                            
+'
 +
+                              
 '
 "
 ac_add_options
@@ -2429,9 +2429,9 @@ tests
 \
 n
 '
-                            
 +
-"
+                              
+'
 Remove
 the
 flag
@@ -2443,8 +2443,7 @@ to
 enable
 tests
 .
-"
-                        
+'
 )
                         
 sys
@@ -2472,16 +2471,15 @@ pass
 def
 post_dispatch_handler
 (
-        
 context
 handler
 instance
 success
+                              
 start_time
 end_time
 depth
 args
-    
 )
 :
         
@@ -2547,7 +2545,6 @@ return
         
 _finalize_telemetry_glean
 (
-            
 context
 .
 telemetry
@@ -2556,24 +2553,23 @@ handler
 name
 =
 =
-"
+'
 bootstrap
-"
+'
+                                  
 success
-        
 )
         
 _finalize_telemetry_legacy
 (
-            
 context
 instance
 handler
 success
 start_time
+                                   
 end_time
 topsrcdir
-        
 )
     
 def
@@ -2597,9 +2593,9 @@ if
 key
 =
 =
-"
+'
 state_dir
-"
+'
 :
             
 state_dir
@@ -2618,9 +2614,9 @@ environ
 .
 get
 (
-"
+'
 MOZBUILD_STATE_PATH
-"
+'
 )
 :
                 
@@ -2638,8 +2634,7 @@ state_dir
                     
 print
 (
-                        
-"
+'
 Creating
 global
 state
@@ -2650,11 +2645,10 @@ variable
 :
 %
 s
-"
-                        
+'
+                          
 %
 state_dir
-                    
 )
                     
 os
@@ -2690,9 +2684,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_AUTOMATION
-"
+'
 )
 :
                         
@@ -2732,7 +2726,7 @@ exit
                     
 print
 (
-"
+'
 \
 nCreating
 default
@@ -2741,7 +2735,7 @@ directory
 :
 %
 s
-"
+'
 %
 state_dir
 )
@@ -2763,9 +2757,9 @@ if
 key
 =
 =
-"
+'
 local_state_dir
-"
+'
 :
             
 return
@@ -2780,9 +2774,9 @@ if
 key
 =
 =
-"
+'
 topdir
-"
+'
 :
             
 return
@@ -2792,9 +2786,9 @@ if
 key
 =
 =
-"
+'
 pre_dispatch_handler
-"
+'
 :
             
 return
@@ -2804,9 +2798,9 @@ if
 key
 =
 =
-"
+'
 post_dispatch_handler
-"
+'
 :
             
 return
@@ -2816,9 +2810,9 @@ if
 key
 =
 =
-"
+'
 repository
-"
+'
 :
             
 return
@@ -2855,9 +2849,9 @@ data
 .
     
 if
-"
+'
 MACH_MAIN_PID
-"
+'
 not
 in
 os
@@ -2867,9 +2861,9 @@ environ
         
 setenv
 (
-"
+'
 MACH_MAIN_PID
-"
+'
 str
 (
 os
@@ -2959,21 +2953,22 @@ define_category
 category
 meta
 [
-"
+'
 short
-"
+'
 ]
 meta
 [
-"
+'
 long
-"
+'
 ]
+                               
 meta
 [
-"
+'
 priority
-"
+'
 ]
 )
     
@@ -3055,12 +3050,12 @@ driver
 def
 _finalize_telemetry_legacy
 (
-    
 context
 instance
 handler
 success
 start_time
+                               
 end_time
 topsrcdir
 )
@@ -3146,16 +3141,21 @@ mach
 .
 telemetry
 import
+(
+        
 is_telemetry_enabled
+        
 is_applicable_telemetry_environment
+    
+)
     
 if
 not
 (
-        
 is_applicable_telemetry_environment
 (
 )
+            
 and
 is_telemetry_enabled
 (
@@ -3163,7 +3163,6 @@ context
 .
 settings
 )
-    
 )
 :
         
@@ -3191,9 +3190,9 @@ command_attrs
 getattr
 (
 context
-"
+'
 command_attrs
-"
+'
 {
 }
 )
@@ -3211,37 +3210,32 @@ data
 =
 gather_telemetry
 (
-        
 command
 =
 handler
 .
 name
-        
 success
 =
 success
-        
+                            
 start_time
 =
 start_time
-        
 end_time
 =
 end_time
-        
+                            
 mach_context
 =
 context
-        
 instance
 =
 instance
-        
+                            
 command_attrs
 =
 command_attrs
-    
 )
     
 if
@@ -3259,9 +3253,9 @@ join
 get_state_dir
 (
 )
-"
+'
 telemetry
-"
+'
 )
         
 try
@@ -3302,9 +3296,9 @@ path
 join
 (
 telemetry_dir
-"
+'
 outgoing
-"
+'
 )
         
 try
@@ -3355,14 +3349,15 @@ uuid4
 )
 )
 +
-"
+'
 .
 json
-"
+'
 )
-"
+                  
+'
 w
-"
+'
 )
 as
 f
@@ -3397,43 +3392,38 @@ handler
 name
 in
 (
-        
-"
+'
 bootstrap
-"
-        
-"
+'
+'
 doctor
-"
-        
-"
+'
+'
 mach
 -
 commands
-"
-        
-"
+'
+'
 vcs
 -
 setup
-"
-        
-"
+'
+                        
+'
 create
 -
 mach
 -
 environment
-"
-        
-"
+'
+'
 install
 -
 moz
 -
 phab
-"
-        
+'
+                        
 #
 We
 call
@@ -3447,7 +3437,7 @@ which
 would
 cause
 the
-        
+                        
 #
 data
 submission
@@ -3459,11 +3449,10 @@ progress
 of
 make
 .
-        
-"
+                        
+'
 environment
-"
-    
+'
 )
 :
         
@@ -3471,9 +3460,9 @@ return
 False
     
 if
-"
+'
 TEST_MACH_TELEMETRY_NO_SUBMIT
-"
+'
 in
 os
 .
@@ -3525,9 +3514,9 @@ join
 instance
 .
 topsrcdir
-"
+'
 mach
-"
+'
 )
     
 with
@@ -3536,9 +3525,9 @@ open
 os
 .
 devnull
-"
+'
 wb
-"
+'
 )
 as
 devnull
@@ -3548,27 +3537,23 @@ subprocess
 .
 Popen
 (
-            
 [
-                
 sys
 .
 executable
-                
 machpath
-                
-"
+'
 python
-"
-                
-"
+'
+                          
+'
 -
 -
 no
 -
 virtualenv
-"
-                
+'
+                          
 os
 .
 path
@@ -3576,28 +3561,26 @@ path
 join
 (
 topsrcdir
-"
+'
 build
-"
-"
+'
+                                       
+'
 submit_telemetry_data
 .
 py
-"
+'
 )
-                
+                          
 state_dir
-            
 ]
-            
+                         
 stdout
 =
 devnull
-            
 stderr
 =
 devnull
-        
 )
 def
 _finalize_telemetry_glean
@@ -3770,9 +3753,9 @@ memory
 .
 accumulate
 (
-                
 int
 (
+                
 math
 .
 ceil
@@ -3791,7 +3774,6 @@ memory_total
 )
 )
 )
-            
 )
     
 telemetry
@@ -3913,21 +3895,19 @@ self
 .
 _source_dir
 =
-(
-            
 os
 .
 path
 .
 normcase
 (
-                
 os
 .
 path
 .
 abspath
 (
+            
 os
 .
 path
@@ -3944,15 +3924,11 @@ __file__
 )
 )
 )
-            
 )
-            
 +
 os
 .
 sep
-        
-)
         
 self
 .
@@ -3976,6 +3952,7 @@ None
 fromlist
 =
 None
+                 
 level
 =
 -
@@ -4169,9 +4146,9 @@ not
 getattr
 (
 module
-"
+'
 __file__
-"
+'
 None
 )
 :
@@ -4250,14 +4227,14 @@ path
 endswith
 (
 (
-"
+'
 .
 pyc
-"
-"
+'
+'
 .
 pyo
-"
+'
 )
 )
 :

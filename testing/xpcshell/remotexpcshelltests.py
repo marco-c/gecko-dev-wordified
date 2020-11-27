@@ -188,9 +188,9 @@ kwargs
 .
 get
 (
-"
+'
 mobileArgs
-"
+'
 )
         
 for
@@ -367,11 +367,11 @@ join
 self
 .
 remoteTmpDir
-"
+'
 user
 .
 js
-"
+'
 )
         
 self
@@ -469,10 +469,10 @@ name
         
 return
 [
-"
+'
 -
 e
-"
+'
 '
 const
 _TEST_FILE
@@ -486,17 +486,18 @@ s
 ;
 '
 %
+                
 remoteName
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
 ]
     
@@ -517,6 +518,7 @@ pathMapping
 :
             
 if
+(
 os
 .
 path
@@ -536,6 +538,7 @@ path
 abspath
 (
 local
+)
 )
 :
                 
@@ -943,8 +946,8 @@ strip
 .
 split
 (
-"
-"
+'
+'
 )
 :
                 
@@ -1024,9 +1027,9 @@ remoteForLocal
 (
 test
 [
-"
+'
 here
-"
+'
 ]
 )
         
@@ -1036,11 +1039,11 @@ test
 .
 get
 (
-"
+'
 head
-"
-"
-"
+'
+'
+'
 )
         
 return
@@ -1049,9 +1052,9 @@ list
 sanitize_list
 (
 headlist
-"
+'
 head
-"
+'
 )
 )
     
@@ -1106,11 +1109,11 @@ join
 self
 .
 remoteScriptsDir
-"
+'
 head
 .
 js
-"
+'
 )
         
 self
@@ -1124,11 +1127,11 @@ join
 self
 .
 remoteComponentsDir
-"
+'
 httpd
 .
 js
-"
+'
 )
         
 self
@@ -1191,9 +1194,9 @@ self
 .
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 :
             
@@ -1202,11 +1205,11 @@ xpcsCmd
 insert
 (
 1
-"
+'
 -
 -
 greomni
-"
+'
 )
             
 xpcsCmd
@@ -1227,10 +1230,10 @@ xpcsCmd
 insert
 (
 1
-"
+'
 -
 g
-"
+'
 )
             
 xpcsCmd
@@ -1520,8 +1523,11 @@ def
 checkForCrashes
 (
 self
+                        
 dump_directory
+                        
 symbols_path
+                        
 test_name
 =
 None
@@ -1556,16 +1562,17 @@ mozcrash
 .
 log_crashes
 (
-                
 self
 .
 log
+                                           
 dumpDir
+                                           
 symbols_path
+                                           
 test
 =
 test_name
-            
 )
             
 self
@@ -1761,20 +1768,20 @@ test
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -1859,27 +1866,27 @@ False
 if
 options
 [
-"
+'
 log_tbpl_level
-"
+'
 ]
 =
 =
-"
+'
 debug
-"
+'
 or
 options
 [
-"
+'
 log_mach_level
-"
+'
 ]
 =
 =
-"
+'
 debug
-"
+'
 :
             
 verbose
@@ -1892,42 +1899,40 @@ device
 =
 ADBDeviceFactory
 (
-            
 adb
 =
 options
 [
-"
+'
 adbPath
-"
+'
 ]
 or
-"
+'
 adb
-"
-            
+'
+                                       
 device
 =
 options
 [
-"
+'
 deviceSerial
-"
+'
 ]
-            
+                                       
 test_root
 =
 options
 [
-"
+'
 remoteTestRoot
-"
+'
 ]
-            
+                                       
 verbose
 =
 verbose
-        
 )
         
 self
@@ -1975,9 +1980,9 @@ mozinfo
 .
 info
 [
-"
+'
 android_version
-"
+'
 ]
 =
 str
@@ -1993,9 +1998,9 @@ mozinfo
 .
 info
 [
-"
+'
 is_emulator
-"
+'
 ]
 =
 self
@@ -2006,10 +2011,10 @@ _device_serial
 .
 startswith
 (
-"
+'
 emulator
 -
-"
+'
 )
         
 self
@@ -2018,9 +2023,9 @@ localBin
 =
 options
 [
-"
+'
 localBin
-"
+'
 ]
         
 self
@@ -2266,9 +2271,9 @@ remoteDebugger
 =
 options
 [
-"
+'
 debugger
-"
+'
 ]
         
 self
@@ -2277,9 +2282,9 @@ remoteDebuggerArgs
 =
 options
 [
-"
+'
 debuggerArgs
-"
+'
 ]
         
 self
@@ -2288,9 +2293,9 @@ testingModulesDir
 =
 options
 [
-"
+'
 testingModulesDir
-"
+'
 ]
         
 self
@@ -2303,9 +2308,9 @@ env
 if
 options
 [
-"
+'
 objdir
-"
+'
 ]
 :
             
@@ -2321,9 +2326,9 @@ join
 (
 options
 [
-"
+'
 objdir
-"
+'
 ]
 "
 _tests
@@ -2346,9 +2351,9 @@ path
 join
 (
 here
-"
+'
 tests
-"
+'
 )
 )
 :
@@ -2364,9 +2369,9 @@ path
 join
 (
 here
-"
+'
 tests
-"
+'
 )
         
 else
@@ -2407,9 +2412,9 @@ None
 if
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 :
             
@@ -2421,9 +2426,9 @@ ZipFile
 (
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 )
             
@@ -2435,10 +2440,10 @@ posixpath
 .
 join
 (
-                
 self
 .
 remoteBinDir
+                                            
 os
 .
 path
@@ -2447,12 +2452,11 @@ basename
 (
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 )
-            
 )
         
 else
@@ -2467,9 +2471,9 @@ None
 if
 options
 [
-"
+'
 setup
-"
+'
 ]
 :
             
@@ -2517,97 +2521,97 @@ mobileArgs
 =
 {
             
-"
+'
 device
-"
+'
 :
 self
 .
 device
             
-"
+'
 remoteBinDir
-"
+'
 :
 self
 .
 remoteBinDir
             
-"
+'
 remoteScriptsDir
-"
+'
 :
 self
 .
 remoteScriptsDir
             
-"
+'
 remoteComponentsDir
-"
+'
 :
 self
 .
 remoteComponentsDir
             
-"
+'
 remoteModulesDir
-"
+'
 :
 self
 .
 remoteModulesDir
             
-"
+'
 options
-"
+'
 :
 self
 .
 options
             
-"
+'
 remoteDebugger
-"
+'
 :
 self
 .
 remoteDebugger
             
-"
+'
 remoteDebuggerArgs
-"
+'
 :
 self
 .
 remoteDebuggerArgs
             
-"
+'
 pathMapping
-"
+'
 :
 self
 .
 pathMapping
             
-"
+'
 profileDir
-"
+'
 :
 self
 .
 profileDir
             
-"
+'
 remoteTmpDir
-"
+'
 :
 self
 .
 remoteTmpDir
             
-"
+'
 remoteMinidumpDir
-"
+'
 :
 self
 .
@@ -2625,9 +2629,9 @@ self
 .
 mobileArgs
 [
-"
+'
 remoteAPK
-"
+'
 ]
 =
 self
@@ -2875,16 +2879,15 @@ f
 .
 writelines
 (
-                
 [
-                    
+                
 "
 cd
 1
 \
 n
 "
-                    
+                
 "
 echo
 xpcw
@@ -2894,41 +2897,43 @@ cd
 \
 n
 "
-                    
+                
 "
 shift
 \
 n
 "
-                    
-'
+                
+"
 echo
 xpcw
 :
 xpcshell
+\
 "
+\
 "
 \
 n
-'
-                    
-'
+"
+                
+"
 %
 s
 /
 xpcshell
+\
 "
+\
 "
 \
 n
-'
+"
 %
 self
 .
 remoteBinDir
-                
 ]
-            
 )
         
 remoteWrapper
@@ -3001,11 +3006,11 @@ join
 self
 .
 remoteTestRoot
-"
+'
 user
 .
 js
-"
+'
 )
         
 self
@@ -3340,7 +3345,7 @@ log
 .
 info
 (
-"
+'
 ro
 .
 product
@@ -3350,7 +3355,7 @@ cpu
 abilist
 %
 s
-"
+'
 %
 abilistprop
 )
@@ -3362,7 +3367,6 @@ False
 names
 =
 [
-                
 n
 for
 n
@@ -3379,12 +3383,11 @@ n
 .
 startswith
 (
-"
+'
 lib
 /
-"
+'
 )
-            
 ]
             
 self
@@ -3423,8 +3426,8 @@ abilistprop
 .
 split
 (
-"
-"
+'
+'
 )
 )
             
@@ -3436,8 +3439,6 @@ abilist
                 
 abi_found
 =
-(
-                    
 len
 (
 [
@@ -3451,12 +3452,12 @@ n
 .
 startswith
 (
-"
+'
 lib
 /
 %
 s
-"
+'
 %
 abicand
 )
@@ -3464,8 +3465,6 @@ abicand
 )
 >
 0
-                
-)
                 
 if
 abi_found
@@ -3515,7 +3514,6 @@ log
 .
 info
 (
-                        
 "
 device
 cpu
@@ -3531,7 +3529,6 @@ from
 apk
 .
 "
-                    
 )
                     
 abi
@@ -3543,9 +3540,9 @@ names
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 1
@@ -3668,11 +3665,11 @@ abspath
 __file__
 )
 )
-"
+'
 head
 .
 js
-"
+'
 )
         
 remoteFile
@@ -3752,43 +3749,41 @@ in
 binaries
 =
 [
-            
 "
 xpcshell
 "
-            
+                    
 "
 ssltunnel
 "
-            
+                    
 "
 certutil
 "
-            
+                    
 "
 pk12util
 "
-            
+                    
 "
 BadCertAndPinningServer
 "
-            
+                    
 "
 DelegatedCredentialsServer
 "
-            
+                    
 "
 OCSPStaplingServer
 "
-            
+                    
 "
 GenerateOCSPResponse
 "
-            
+                    
 "
 SanctionsTestServer
 "
-        
 ]
         
 for
@@ -3876,7 +3871,6 @@ else
                 
 print
 (
-                    
 "
 *
 *
@@ -3893,19 +3887,18 @@ s
 !
 "
 %
+                      
 (
 fname
 self
 .
 localBin
 )
-                    
 file
 =
 sys
 .
 stderr
-                
 )
         
 local
@@ -3968,9 +3961,9 @@ self
 .
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 :
             
@@ -3980,10 +3973,10 @@ posixpath
 .
 join
 (
-                
 self
 .
 remoteBinDir
+                                        
 os
 .
 path
@@ -3994,12 +3987,11 @@ self
 .
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 )
-            
 )
             
 self
@@ -4012,9 +4004,9 @@ self
 .
 options
 [
-"
+'
 localAPK
-"
+'
 ]
 remoteFile
 )
@@ -4049,9 +4041,9 @@ self
 .
 options
 [
-"
+'
 objdir
-"
+'
 ]
 "
 dist
@@ -4189,10 +4181,10 @@ posixpath
 .
 join
 (
-                        
 self
 .
 remoteBinDir
+                                                
 os
 .
 path
@@ -4203,7 +4195,6 @@ info
 .
 filename
 )
-                    
 )
                     
 self
@@ -4314,11 +4305,11 @@ self
         
 print
 (
-"
+'
 pushing
 %
 s
-"
+'
 %
 self
 .
@@ -4480,13 +4471,11 @@ device
 .
 create_socket_connection
 (
-                
 ADBDevice
 .
 SOCKET_DIRECTION_REVERSE
 port
 port
-            
 )
             
 self
@@ -4543,13 +4532,11 @@ device
 .
 create_socket_connection
 (
-                
 ADBDevice
 .
 SOCKET_DIRECTION_REVERSE
 port
 port
-            
 )
             
 self
@@ -4602,7 +4589,6 @@ test_paths
 verify
 =
 verify
-        
 )
         
 uniqueTestPaths
@@ -4627,9 +4613,9 @@ add
 (
 test
 [
-"
+'
 here
-"
+'
 ]
 )
         
@@ -4744,9 +4730,9 @@ self
 .
 options
 [
-"
+'
 setup
-"
+'
 ]
 :
             
@@ -4781,9 +4767,9 @@ options
 if
 options
 [
-"
+'
 localBin
-"
+'
 ]
 is
 None
@@ -4792,17 +4778,17 @@ None
 if
 options
 [
-"
+'
 objdir
-"
+'
 ]
 :
             
 options
 [
-"
+'
 localBin
-"
+'
 ]
 =
 os
@@ -4813,16 +4799,16 @@ join
 (
 options
 [
-"
+'
 objdir
-"
+'
 ]
-"
+'
 dist
-"
-"
+'
+'
 bin
-"
+'
 )
             
 if
@@ -4835,9 +4821,9 @@ isdir
 (
 options
 [
-"
+'
 localBin
-"
+'
 ]
 )
 :
@@ -4879,16 +4865,16 @@ path
 join
 (
 here
-"
+'
 .
 .
-"
-"
+'
+'
 bin
-"
-"
+'
+'
 xpcshell
-"
+'
 )
 )
 :
@@ -4906,9 +4892,9 @@ archive
             
 options
 [
-"
+'
 localBin
-"
+'
 ]
 =
 os
@@ -4924,13 +4910,13 @@ path
 join
 (
 here
-"
+'
 .
 .
-"
-"
+'
+'
 bin
-"
+'
 )
 )
         
@@ -5005,7 +4991,6 @@ version_info
         
 print
 (
-            
 "
 Error
 :
@@ -5026,13 +5011,11 @@ than
 .
 0
 "
-            
 file
 =
 sys
 .
 stderr
-        
 )
         
 sys
@@ -5074,7 +5057,9 @@ setup_logging
 Remote
 XPCShell
 "
+                                    
 options
+                                    
 {
 "
 tbpl
@@ -5089,23 +5074,22 @@ stdout
 if
 options
 [
-"
+'
 interactive
-"
+'
 ]
 and
 not
 options
 [
-"
+'
 testPath
-"
+'
 ]
 :
         
 print
 (
-            
 "
 Error
 :
@@ -5120,13 +5104,11 @@ interactive
 mode
 !
 "
-            
 file
 =
 sys
 .
 stderr
-        
 )
         
 sys
@@ -5139,9 +5121,9 @@ exit
 if
 options
 [
-"
+'
 xpcshell
-"
+'
 ]
 is
 None
@@ -5149,9 +5131,9 @@ None
         
 options
 [
-"
+'
 xpcshell
-"
+'
 ]
 =
 "
@@ -5179,9 +5161,9 @@ mobile
     
 options
 [
-"
+'
 sequential
-"
+'
 ]
 =
 True
@@ -5192,17 +5174,17 @@ xpcsh
 .
 runTests
 (
-        
 options
+                          
 testClass
 =
 RemoteXPCShellTestThread
+                          
 mobileArgs
 =
 xpcsh
 .
 mobileArgs
-    
 )
 :
         
@@ -5216,9 +5198,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

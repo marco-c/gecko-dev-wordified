@@ -89,9 +89,9 @@ JS_PREFERENCE_FILES
 +
 =
 [
-"
+'
 debugger
 .
 js
-"
+'
 ]

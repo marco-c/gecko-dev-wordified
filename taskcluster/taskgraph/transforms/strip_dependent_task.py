@@ -99,11 +99,11 @@ jobs
 del
 job
 [
-"
+'
 primary
 -
 dependency
-"
+'
 ]
         
 yield

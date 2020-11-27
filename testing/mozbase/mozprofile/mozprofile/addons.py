@@ -496,9 +496,9 @@ join
 self
 .
 profile
-"
+'
 extensions
-"
+'
 )
             
 for
@@ -641,15 +641,14 @@ join
 self
 .
 profile
-"
+'
 extensions
-"
+'
 )
         
 paths
 =
 [
-            
 os
 .
 path
@@ -659,7 +658,7 @@ join
 extensions_path
 addon_id
 )
-            
+                 
 os
 .
 path
@@ -669,12 +668,11 @@ join
 extensions_path
 addon_id
 +
-"
+'
 .
 xpi
-"
+'
 )
-        
 ]
         
 for
@@ -700,7 +698,7 @@ path
 raise
 IOError
 (
-"
+'
 Add
 -
 on
@@ -709,7 +707,7 @@ found
 :
 %
 s
-"
+'
 %
 addon_id
 )
@@ -831,7 +829,7 @@ module_logger
 .
 warning
 (
-"
+'
 Could
 not
 install
@@ -840,7 +838,7 @@ s
 :
 %
 s
-"
+'
 %
 (
 path
@@ -886,7 +884,6 @@ return
 addons
 =
 [
-                
 os
 .
 path
@@ -896,7 +893,6 @@ join
 path
 x
 )
-                
 for
 x
 in
@@ -906,8 +902,8 @@ listdir
 (
 path
 )
-                
 if
+                      
 self
 .
 is_addon
@@ -922,7 +918,6 @@ path
 x
 )
 )
-            
 ]
             
 addons
@@ -963,9 +958,9 @@ addon_details
 .
 get
 (
-"
+'
 id
-"
+'
 )
             
 #
@@ -1018,9 +1013,9 @@ unpack
 or
 addon_details
 [
-"
+'
 unpack
-"
+'
 ]
 )
 :
@@ -1064,9 +1059,9 @@ join
 self
 .
 profile
-"
+'
 extensions
-"
+'
 )
             
 addon_path
@@ -1095,10 +1090,10 @@ addon
 addon_path
 +
 =
-"
+'
 .
 xpi
-"
+'
                 
 #
 move
@@ -1557,26 +1552,31 @@ addon
 details
 =
 {
-"
+            
+'
 id
-"
+'
 :
 None
-"
+            
+'
 unpack
-"
+'
 :
 False
-"
+            
+'
 name
-"
+'
 :
 None
-"
+            
+'
 version
-"
+'
 :
 None
+        
 }
         
 def
@@ -1668,9 +1668,9 @@ name
 .
 split
 (
-"
+'
 :
-"
+'
 )
 [
 1
@@ -1741,8 +1741,8 @@ data
 )
             
 return
-"
-"
+'
+'
 .
 join
 (
@@ -1768,7 +1768,7 @@ addon_path
 raise
 IOError
 (
-"
+'
 Add
 -
 on
@@ -1779,7 +1779,7 @@ exist
 :
 %
 s
-"
+'
 %
 addon_path
 )
@@ -1839,9 +1839,9 @@ zipfile
 ZipFile
 (
 addon_path
-"
+'
 r
-"
+'
 )
                     
 filenames
@@ -1861,11 +1861,11 @@ filelist
 ]
                     
 if
-"
+'
 install
 .
 rdf
-"
+'
 in
 filenames
 :
@@ -1876,19 +1876,19 @@ compressed_file
 .
 read
 (
-"
+'
 install
 .
 rdf
-"
+'
 )
                     
 elif
-"
+'
 manifest
 .
 json
-"
+'
 in
 filenames
 :
@@ -1903,11 +1903,11 @@ compressed_file
 .
 read
 (
-"
+'
 manifest
 .
 json
-"
+'
 )
 .
 decode
@@ -1968,11 +1968,11 @@ path
 join
 (
 addon_path
-"
+'
 install
 .
 rdf
-"
+'
 )
 )
 as
@@ -2001,11 +2001,11 @@ path
 join
 (
 addon_path
-"
+'
 manifest
 .
 json
-"
+'
 )
 )
 as
@@ -2035,8 +2035,7 @@ else
 raise
 IOError
 (
-                    
-"
+'
 Add
 -
 on
@@ -2051,10 +2050,9 @@ directory
 :
 %
 s
-"
+'
 %
 addon_path
-                
 )
         
 except
@@ -2092,30 +2090,30 @@ is_webext
             
 details
 [
-"
+'
 version
-"
+'
 ]
 =
 manifest
 [
-"
+'
 version
-"
+'
 ]
             
 details
 [
-"
+'
 name
-"
+'
 ]
 =
 manifest
 [
-"
+'
 name
-"
+'
 ]
             
 #
@@ -2139,12 +2137,12 @@ for
 location
 in
 (
-"
+'
 applications
-"
-"
+'
+'
 browser_specific_settings
-"
+'
 )
 :
                 
@@ -2153,9 +2151,9 @@ try
                     
 details
 [
-"
+'
 id
-"
+'
 ]
 =
 manifest
@@ -2163,14 +2161,14 @@ manifest
 location
 ]
 [
-"
+'
 gecko
-"
+'
 ]
 [
-"
+'
 id
-"
+'
 ]
                     
 break
@@ -2184,9 +2182,9 @@ pass
 if
 details
 [
-"
+'
 id
-"
+'
 ]
 is
 None
@@ -2194,9 +2192,9 @@ None
                 
 details
 [
-"
+'
 id
-"
+'
 ]
 =
 cls
@@ -2208,9 +2206,9 @@ addon_path
             
 details
 [
-"
+'
 unpack
-"
+'
 ]
 =
 False
@@ -2241,7 +2239,7 @@ em
 get_namespace_id
 (
 doc
-"
+'
 http
 :
 /
@@ -2258,16 +2256,15 @@ em
 -
 rdf
 #
-"
+'
 )
                 
 rdf
 =
 get_namespace_id
 (
-                    
 doc
-"
+'
 http
 :
 /
@@ -2290,8 +2287,7 @@ syntax
 -
 ns
 #
-"
-                
+'
 )
                 
 description
@@ -2302,9 +2298,9 @@ getElementsByTagName
 (
 rdf
 +
-"
+'
 Description
-"
+'
 )
 .
 item
@@ -2465,9 +2461,9 @@ isinstance
 (
 details
 [
-"
+'
 unpack
-"
+'
 ]
 string_types
 )
@@ -2475,16 +2471,16 @@ string_types
             
 details
 [
-"
+'
 unpack
-"
+'
 ]
 =
 details
 [
-"
+'
 unpack
-"
+'
 ]
 .
 lower
@@ -2492,9 +2488,9 @@ lower
 )
 =
 =
-"
+'
 true
-"
+'
         
 #
 If
@@ -2514,9 +2510,9 @@ details
 .
 get
 (
-"
+'
 id
-"
+'
 )
 is
 None
@@ -2528,7 +2524,7 @@ is_webext
 raise
 AddonFormatError
 (
-"
+'
 Add
 -
 on
@@ -2538,7 +2534,7 @@ not
 be
 found
 .
-"
+'
 )
         
 return

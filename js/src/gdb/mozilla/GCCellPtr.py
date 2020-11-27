@@ -125,12 +125,12 @@ gdb
 .
 lookup_type
 (
-"
+'
 JS
 :
 :
 TraceKind
-"
+'
 )
         
 self
@@ -141,7 +141,7 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
@@ -149,7 +149,7 @@ gc
 :
 :
 AllocKind
-"
+'
 )
         
 self
@@ -160,7 +160,7 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
@@ -168,7 +168,7 @@ gc
 :
 :
 Arena
-"
+'
 )
         
 self
@@ -179,7 +179,7 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
@@ -187,7 +187,7 @@ gc
 :
 :
 Cell
-"
+'
 )
         
 self
@@ -198,7 +198,7 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
@@ -206,7 +206,7 @@ gc
 :
 :
 TenuredCell
-"
+'
 )
         
 trace_kinds
@@ -245,14 +245,14 @@ k
 return
 trace_kinds
 [
-"
+'
 JS
 :
 :
 TraceKind
 :
 :
-"
+'
 +
 k
 ]
@@ -267,7 +267,7 @@ k
 return
 alloc_kinds
 [
-"
+'
 js
 :
 :
@@ -277,7 +277,7 @@ gc
 AllocKind
 :
 :
-"
+'
 +
 k
 ]
@@ -306,76 +306,76 @@ Inline
 types
 .
             
-"
+'
 Object
-"
+'
 :
-"
+'
 JSObject
-"
+'
             
-"
+'
 BigInt
-"
+'
 :
-"
+'
 JS
 :
 :
 BigInt
-"
+'
             
-"
+'
 String
-"
+'
 :
-"
+'
 JSString
-"
+'
             
-"
+'
 Symbol
-"
+'
 :
-"
+'
 JS
 :
 :
 Symbol
-"
+'
             
-"
+'
 Shape
-"
+'
 :
-"
+'
 js
 :
 :
 Shape
-"
+'
             
-"
+'
 ObjectGroup
-"
+'
 :
-"
+'
 js
 :
 :
 ObjectGroup
-"
+'
             
-"
+'
 Null
-"
+'
 :
-"
+'
 std
 :
 :
 nullptr_t
-"
+'
             
 #
 Out
@@ -386,22 +386,22 @@ line
 types
 .
             
-"
+'
 BaseShape
-"
+'
 :
-"
+'
 js
 :
 :
 BaseShape
-"
+'
             
-"
+'
 JitCode
-"
+'
 :
-"
+'
 js
 :
 :
@@ -409,40 +409,40 @@ jit
 :
 :
 JitCode
-"
+'
             
-"
+'
 Script
-"
+'
 :
-"
+'
 js
 :
 :
 BaseScript
-"
+'
             
-"
+'
 Scope
-"
+'
 :
-"
+'
 js
 :
 :
 Scope
-"
+'
             
-"
+'
 RegExpShared
-"
+'
 :
-"
+'
 js
 :
 :
 RegExpShared
-"
+'
         
 }
         
@@ -465,45 +465,45 @@ alloc_map
 =
 {
             
-"
+'
 BASE_SHAPE
-"
+'
 :
-"
+'
 BaseShape
-"
+'
             
-"
+'
 JITCODE
-"
+'
 :
-"
+'
 JitCode
-"
+'
             
-"
+'
 SCRIPT
-"
+'
 :
-"
+'
 Script
-"
+'
             
-"
+'
 SCOPE
-"
+'
 :
-"
+'
 Scope
-"
+'
             
-"
+'
 REGEXP_SHARED
-"
+'
 :
-"
+'
 RegExpShared
-"
+'
         
 }
         
@@ -569,9 +569,9 @@ Null
 =
 trace_kind
 (
-"
+'
 Null
-"
+'
 )
         
 self
@@ -582,12 +582,12 @@ gdb
 .
 parse_and_eval
 (
-"
+'
 JS
 :
 :
 OutOfLineTraceKindMask
-"
+'
 )
         
 self
@@ -598,7 +598,7 @@ gdb
 .
 parse_and_eval
 (
-"
+'
 js
 :
 :
@@ -606,16 +606,16 @@ gc
 :
 :
 ArenaMask
-"
+'
 )
 pretty_printer
 (
-"
+'
 JS
 :
 :
 GCCellPtr
-"
+'
 )
 class
 GCCellPtr
@@ -674,9 +674,9 @@ self
 .
 value
 [
-"
+'
 ptr
-"
+'
 ]
         
 kind
@@ -895,7 +895,6 @@ arena_ptr
 .
 reinterpret_cast
 (
-                
 self
 .
 cache
@@ -907,7 +906,6 @@ Arena_t
 pointer
 (
 )
-            
 )
             
 #
@@ -922,9 +920,9 @@ alloc_kind
 =
 arena
 [
-"
+'
 allocKind
-"
+'
 ]
 .
 cast
@@ -942,7 +940,6 @@ alloc_idx
 =
 int
 (
-                
 alloc_kind
 .
 cast
@@ -959,7 +956,6 @@ target
 (
 )
 )
-            
 )
             
 #
@@ -1019,7 +1015,6 @@ GCCellPtr
 .
 format
 (
-            
 type_name
 ptr
 .
@@ -1031,5 +1026,4 @@ cache
 .
 void_ptr_t
 )
-        
 )

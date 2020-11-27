@@ -128,9 +128,9 @@ NODEJS_PATH
 =
 None
 if
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 in
 os
 .
@@ -170,6 +170,7 @@ path
 join
 (
 VALGRIND_SUPP_DIR
+                                        
 "
 cross
 -
@@ -206,6 +207,7 @@ path
 join
 (
 VALGRIND_SUPP_DIR
+                                      
 "
 x86_64
 -
@@ -230,6 +232,7 @@ path
 join
 (
 VALGRIND_SUPP_DIR
+                                      
 "
 i386
 -
@@ -1205,7 +1208,6 @@ plain
 "
 :
 [
-            
 "
 -
 -
@@ -1218,7 +1220,7 @@ bin
 /
 valgrind
 "
-            
+                           
 "
 -
 -
@@ -1229,17 +1231,15 @@ supp
 files
 =
 "
-            
 +
 VALGRIND_SUPP_ARCH
-            
 +
+                               
 "
 "
-            
 +
 VALGRIND_SUPP_CROSS_ARCH
-            
+                           
 "
 -
 -
@@ -1247,7 +1247,6 @@ timeout
 =
 900
 "
-            
 "
 -
 -
@@ -1257,7 +1256,6 @@ timeouts
 =
 50
 "
-        
 ]
         
 "
@@ -1447,7 +1445,6 @@ coverage
 "
 :
 [
-            
 "
 -
 -
@@ -1455,7 +1452,6 @@ flavor
 =
 browser
 "
-            
 "
 -
 -
@@ -1465,7 +1461,6 @@ by
 -
 runtime
 "
-            
 "
 -
 -
@@ -1473,7 +1468,6 @@ timeout
 =
 1200
 "
-        
 ]
         
 "
@@ -1487,7 +1481,6 @@ screenshots
 "
 :
 [
-            
 "
 -
 -
@@ -1495,7 +1488,6 @@ flavor
 =
 browser
 "
-            
 "
 -
 -
@@ -1503,7 +1495,6 @@ subsuite
 =
 screenshots
 "
-        
 ]
         
 "
@@ -1631,7 +1622,6 @@ chrome
 "
 :
 [
-            
 "
 -
 -
@@ -1639,7 +1629,6 @@ flavor
 =
 browser
 "
-            
 "
 -
 -
@@ -1647,7 +1636,6 @@ subsuite
 =
 devtools
 "
-            
 "
 -
 -
@@ -1657,7 +1645,6 @@ by
 -
 runtime
 "
-        
 ]
         
 "
@@ -1671,7 +1658,6 @@ coverage
 "
 :
 [
-            
 "
 -
 -
@@ -1679,7 +1665,6 @@ flavor
 =
 browser
 "
-            
 "
 -
 -
@@ -1687,7 +1672,6 @@ subsuite
 =
 devtools
 "
-            
 "
 -
 -
@@ -1697,7 +1681,6 @@ by
 -
 runtime
 "
-            
 "
 -
 -
@@ -1705,7 +1688,6 @@ timeout
 =
 1200
 "
-        
 ]
         
 "
@@ -1785,6 +1767,7 @@ suite
 =
 crashtest
 "
+                        
 "
 -
 -
@@ -1833,7 +1816,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -1859,7 +1841,7 @@ user
 .
 js
 "
-                
+                       
 "
 -
 -
@@ -1867,7 +1849,7 @@ suite
 =
 jstestbrowser
 "
-                
+                       
 "
 -
 -
@@ -1879,7 +1861,6 @@ jsreftest
 /
 tests
 "
-            
 ]
             
 "
@@ -1919,7 +1900,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -1927,7 +1907,7 @@ suite
 =
 reftest
 "
-                
+                        
 "
 -
 -
@@ -1943,7 +1923,7 @@ enabled
 =
 true
 "
-                
+                        
 "
 -
 -
@@ -1955,7 +1935,6 @@ reftest
 /
 tests
 "
-            
 ]
             
 "
@@ -1997,7 +1976,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -2005,7 +1983,7 @@ suite
 =
 reftest
 "
-                
+                        
 "
 -
 -
@@ -2019,7 +1997,7 @@ disabled
 =
 true
 "
-                
+                        
 "
 -
 -
@@ -2031,7 +2009,6 @@ reftest
 /
 tests
 "
-            
 ]
             
 "
@@ -2077,7 +2054,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -2092,7 +2068,7 @@ s
 "
 +
 XPCSHELL_NAME
-                
+                        
 "
 -
 -
@@ -2107,7 +2083,7 @@ s
 "
 +
 HTTP3SERVER_NAME
-                
+                        
 "
 -
 -
@@ -2123,7 +2099,6 @@ xpcshell
 .
 ini
 "
-            
 ]
             
 "
@@ -2148,7 +2123,6 @@ options
 "
 :
 [
-                
 "
 -
 -
@@ -2163,7 +2137,7 @@ s
 "
 +
 XPCSHELL_NAME
-                
+                        
 "
 -
 -
@@ -2178,7 +2152,7 @@ s
 "
 +
 HTTP3SERVER_NAME
-                
+                        
 "
 -
 -
@@ -2194,13 +2168,12 @@ xpcshell
 .
 ini
 "
-                
+                        
 "
 -
 -
 sequential
 "
-            
 ]
             
 "
@@ -2219,6 +2192,7 @@ all_cppunittest_suites
 "
 :
 {
+        
 "
 cppunittest
 "
@@ -2236,6 +2210,7 @@ cppunittest
 "
 ]
 }
+    
 }
     
 "
@@ -2243,12 +2218,14 @@ all_gtest_suites
 "
 :
 {
+        
 "
 gtest
 "
 :
 [
 ]
+    
 }
     
 "
@@ -2442,7 +2419,6 @@ windows
 "
 python
 "
-                
 "
 .
 .
@@ -2478,7 +2454,6 @@ configuration
 .
 json
 "
-            
 ]
             
 "
@@ -2535,35 +2510,34 @@ unstructured_flavors
 "
 :
 {
-        
 "
 xpcshell
 "
 :
 [
 ]
-        
+                             
 "
 gtest
 "
 :
 [
 ]
-        
+                             
 "
 cppunittest
 "
 :
 [
 ]
-        
+                             
 "
 jittest
 "
 :
 [
 ]
-    
+                             
 }
     
 "

@@ -156,16 +156,16 @@ build_type
 =
 job
 [
-"
+'
 name
-"
+'
 ]
 .
 split
 (
-"
+'
 /
-"
+'
 )
         
 #
@@ -184,25 +184,25 @@ if
 build_type
 =
 =
-"
+'
 pgo
-"
+'
 :
             
 build_platform
 =
 build_platform
 +
-"
+'
 -
 pgo
-"
+'
             
 build_type
 =
-"
+'
 opt
-"
+'
         
 attributes
 =
@@ -210,9 +210,9 @@ job
 .
 setdefault
 (
-"
+'
 attributes
-"
+'
 {
 }
 )
@@ -221,23 +221,21 @@ attributes
 .
 update
 (
-            
 {
-                
-"
-build_platform
-"
-:
-build_platform
-                
-"
-build_type
-"
-:
-build_type
             
-}
+'
+build_platform
+'
+:
+build_platform
+            
+'
+build_type
+'
+:
+build_type
         
+}
 )
         
 yield
@@ -300,9 +298,9 @@ when
 defined
         
 if
-"
+'
 when
-"
+'
 in
 job
 :
@@ -316,27 +314,28 @@ build_platform
 =
 job
 [
-"
+'
 attributes
-"
+'
 ]
 [
-"
+'
 build_platform
-"
+'
 ]
         
 job
 .
 setdefault
 (
-"
+'
 optimization
-"
+'
+                       
 {
-"
+'
 build
-"
+'
 :
 [
 platform_family

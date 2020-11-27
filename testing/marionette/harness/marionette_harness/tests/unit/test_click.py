@@ -168,7 +168,6 @@ fixed_overlay
 =
 inline
 (
-    
 "
 "
 "
@@ -314,7 +313,6 @@ obscured_overlay
 =
 inline
 (
-    
 "
 "
 "
@@ -526,10 +524,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -595,9 +591,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 button
@@ -626,7 +620,6 @@ self
 .
 assertEqual
 (
-            
 1
 self
 .
@@ -644,7 +637,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -738,10 +730,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -759,9 +749,7 @@ p
 "
 "
 "
-            
 )
-        
 )
         
 with
@@ -884,10 +872,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -965,9 +951,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 mtext
@@ -996,7 +980,6 @@ self
 .
 assertEqual
 (
-            
 1
 self
 .
@@ -1014,7 +997,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -1059,7 +1041,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -1076,7 +1057,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -1092,10 +1072,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1127,9 +1105,7 @@ select
 "
 "
 "
-            
 )
-        
 )
         
 select
@@ -1295,10 +1271,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1323,9 +1297,7 @@ select
 "
 "
 "
-            
 )
-        
 )
         
 option
@@ -1377,10 +1349,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1422,9 +1392,7 @@ button
 "
 "
 "
-            
 )
-        
 )
         
 span
@@ -1453,7 +1421,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -1470,7 +1437,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -1486,10 +1452,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1523,9 +1487,7 @@ select
 "
 "
 "
-            
 )
-        
 )
         
 option
@@ -1577,10 +1539,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1624,9 +1584,7 @@ table
 "
 "
 "
-            
 )
-        
 )
         
 tr
@@ -1655,7 +1613,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -1672,7 +1629,6 @@ sandbox
 =
 None
 )
-        
 )
 class
 TestLegacyClick
@@ -1884,10 +1840,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -1982,9 +1936,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -2009,7 +1961,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -2026,7 +1977,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2042,10 +1992,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -2140,9 +2088,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -2167,7 +2113,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -2184,7 +2129,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2200,10 +2144,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -2303,9 +2245,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -2330,7 +2270,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -2347,7 +2286,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2363,10 +2301,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -2448,9 +2384,7 @@ div
 "
 "
 "
-            
 )
-        
 )
         
 self
@@ -2475,7 +2409,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 marionette
@@ -2492,7 +2425,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2625,7 +2557,6 @@ self
 .
 assertFalse
 (
-            
 self
 .
 marionette
@@ -2642,7 +2573,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2658,10 +2588,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -2736,9 +2664,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 button
@@ -2781,11 +2707,10 @@ self
 .
 assertRaisesRegexp
 (
-            
 errors
 .
 ElementClickInterceptedException
-            
+                                     
 "
 does
 not
@@ -2794,7 +2719,6 @@ pointer
 events
 enabled
 "
-        
 )
 :
             
@@ -2808,7 +2732,6 @@ self
 .
 assertFalse
 (
-            
 self
 .
 marionette
@@ -2825,7 +2748,6 @@ sandbox
 =
 None
 )
-        
 )
     
 def
@@ -2841,10 +2763,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -2902,9 +2822,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 button
@@ -2948,10 +2866,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -3009,9 +2925,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 button
@@ -3055,10 +2969,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -3116,9 +3028,7 @@ script
 "
 "
 "
-            
 )
-        
 )
         
 button
@@ -3382,10 +3292,8 @@ marionette
 .
 navigate
 (
-            
 inline
 (
-                
 "
 "
 "
@@ -3459,7 +3367,6 @@ script
 .
 format
 (
-                    
 self
 .
 marionette
@@ -3472,11 +3379,8 @@ clicks
 html
 "
 )
-                
 )
-            
 )
-        
 )
         
 self

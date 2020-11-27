@@ -137,22 +137,22 @@ Action
 =
 namedtuple
 (
-"
+'
 Action
-"
+'
 [
-"
+'
 order
-"
-"
+'
+'
 cb_name
-"
-"
+'
+'
 permission
-"
-"
+'
+'
 action_builder
-"
+'
 ]
 )
 def
@@ -207,9 +207,9 @@ filename
 )
 :
     
-"
-"
-"
+'
+'
+'
 Load
 and
 parse
@@ -222,9 +222,9 @@ to
 save
 some
 time
-"
-"
-"
+'
+'
+'
     
 return
 yaml
@@ -241,9 +241,9 @@ filename
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Generate
 a
@@ -289,9 +289,9 @@ this
 content
 .
     
-"
-"
-"
+'
+'
+'
     
 return
 hash
@@ -307,41 +307,33 @@ filename
 def
 register_callback_action
 (
-    
 name
-    
 title
-    
 symbol
-    
 description
-    
 order
 =
 10000
-    
+                             
 context
 =
 [
 ]
-    
 available
 =
 lambda
 parameters
 :
 True
-    
+                             
 schema
 =
 None
-    
 permission
 =
-"
+'
 generic
-"
-    
+'
 cb_name
 =
 None
@@ -995,13 +987,13 @@ isinstance
 title
 text_type
 )
-"
+'
 title
 must
 be
 a
 string
-"
+'
     
 assert
 isinstance
@@ -1009,13 +1001,13 @@ isinstance
 description
 text_type
 )
-"
+'
 description
 must
 be
 a
 string
-"
+'
     
 title
 =
@@ -1083,13 +1075,13 @@ isinstance
 name
 text_type
 )
-"
+'
 name
 must
 be
 a
 string
-"
+'
         
 assert
 isinstance
@@ -1097,13 +1089,13 @@ isinstance
 order
 int
 )
-"
+'
 order
 must
 be
 an
 integer
-"
+'
         
 assert
 callable
@@ -1113,11 +1105,9 @@ schema
 or
 is_json
 (
-            
 schema
-        
 )
-"
+'
 schema
 must
 be
@@ -1125,7 +1115,7 @@ a
 JSON
 compatible
 object
-"
+'
         
 assert
 isinstance
@@ -1133,13 +1123,13 @@ isinstance
 cb
 FunctionType
 )
-"
+'
 callback
 must
 be
 a
 function
-"
+'
         
 #
 Allow
@@ -1156,8 +1146,8 @@ symbol
 .
         
 if
-"
-"
+'
+'
 not
 in
 symbol
@@ -1174,7 +1164,7 @@ symbol
 <
 =
 25
-"
+'
 symbol
 must
 be
@@ -1183,7 +1173,7 @@ between
 and
 25
 characters
-"
+'
         
 assert
 isinstance
@@ -1191,39 +1181,37 @@ isinstance
 symbol
 text_type
 )
-"
+'
 symbol
 must
 be
 a
 string
-"
+'
         
 assert
 not
 mem
 [
-            
-"
+'
 registered
-"
-        
+'
 ]
-"
+'
 register_callback_action
 must
 be
 used
 as
 decorator
-"
+'
         
 assert
 cb_name
 not
 in
 callbacks
-"
+'
 callback
 name
 {
@@ -1231,13 +1219,11 @@ name
 is
 not
 unique
-"
+'
 .
 format
 (
-            
 cb_name
-        
 )
         
 def
@@ -1277,18 +1263,17 @@ action
             
 repo_param
 =
-"
+'
 {
 }
 head_repository
-"
+'
 .
 format
 (
-                
 graph_config
 [
-"
+'
 project
 -
 repo
@@ -1296,44 +1281,43 @@ repo
 param
 -
 prefix
-"
+'
 ]
-            
 )
             
 repository
 =
 {
                 
-"
+'
 url
-"
+'
 :
 parameters
 [
 repo_param
 ]
                 
-"
+'
 project
-"
+'
 :
 parameters
 [
-"
+'
 project
-"
+'
 ]
                 
-"
+'
 level
-"
+'
 :
 parameters
 [
-"
+'
 level
-"
+'
 ]
             
 }
@@ -1342,18 +1326,17 @@ revision
 =
 parameters
 [
-                
-"
+'
 {
 }
 head_rev
-"
+'
 .
 format
 (
 graph_config
 [
-"
+'
 project
 -
 repo
@@ -1361,21 +1344,20 @@ repo
 param
 -
 prefix
-"
+'
 ]
 )
-            
 ]
             
 push
 =
 {
                 
-"
+'
 owner
-"
+'
 :
-"
+'
 mozilla
 -
 taskcluster
@@ -1384,22 +1366,22 @@ maintenance
 mozilla
 .
 com
-"
+'
                 
-"
+'
 pushlog_id
-"
+'
 :
 parameters
 [
-"
+'
 pushlog_id
-"
+'
 ]
                 
-"
+'
 revision
-"
+'
 :
 revision
             
@@ -1411,9 +1393,8 @@ re
 .
 match
 (
-                
 r
-"
+'
 https
 :
 /
@@ -1433,12 +1414,11 @@ org
 )
 /
 ?
-"
+'
 parameters
 [
 repo_param
 ]
-            
 )
             
 if
@@ -1449,11 +1429,11 @@ match
 raise
 Exception
 (
-"
+'
 Unrecognized
 {
 }
-"
+'
 .
 format
 (
@@ -1465,21 +1445,21 @@ action
 =
 {
                 
-"
+'
 name
-"
+'
 :
 name
                 
-"
+'
 title
-"
+'
 :
 title
                 
-"
+'
 description
-"
+'
 :
 description
                 
@@ -1497,21 +1477,21 @@ is
 creating
 )
                 
-"
+'
 taskGroupId
-"
+'
 :
 decision_task_id
                 
-"
+'
 cb_name
-"
+'
 :
 cb_name
                 
-"
+'
 symbol
-"
+'
 :
 symbol
             
@@ -1521,27 +1501,27 @@ rv
 =
 {
                 
-"
+'
 name
-"
+'
 :
 name
                 
-"
+'
 title
-"
+'
 :
 title
                 
-"
+'
 description
-"
+'
 :
 description
                 
-"
+'
 context
-"
+'
 :
 context
 (
@@ -1556,13 +1536,11 @@ schema
                 
 rv
 [
-"
+'
 schema
-"
+'
 ]
 =
-(
-                    
 schema
 (
 graph_config
@@ -1576,27 +1554,25 @@ schema
 )
 else
 schema
-                
-)
             
 trustDomain
 =
 graph_config
 [
-"
+'
 trust
 -
 domain
-"
+'
 ]
             
 level
 =
 parameters
 [
-"
+'
 level
-"
+'
 ]
             
 tcyml_hash
@@ -1687,9 +1663,9 @@ names
 .
             
 if
-"
+'
 /
-"
+'
 in
 permission
 :
@@ -1697,7 +1673,7 @@ permission
 raise
 Exception
 (
-"
+'
 /
 is
 not
@@ -1708,45 +1684,44 @@ names
 ;
 use
 -
-"
+'
 )
             
 rv
 .
 update
 (
-                
 {
-                    
-"
+                
+'
 kind
-"
+'
 :
-"
+'
 hook
-"
-                    
-"
+'
+                
+'
 hookGroupId
-"
+'
 :
-"
+'
 project
 -
 {
 }
-"
+'
 .
 format
 (
 trustDomain
 )
-                    
-"
+                
+'
 hookId
-"
+'
 :
-"
+'
 in
 -
 tree
@@ -1761,23 +1736,21 @@ action
 /
 {
 }
-"
+'
 .
 format
 (
-                        
 level
 permission
 tcyml_hash
-                    
 )
-                    
-"
+                
+'
 hookPayload
-"
+'
 :
 {
-                        
+                    
 #
 provide
 the
@@ -1789,33 +1762,33 @@ as
 context
 for
 triggerHook
-                        
+                    
 "
 decision
 "
 :
 {
-                            
-"
-action
-"
-:
-action
-                            
-"
-repository
-"
-:
-repository
-                            
-"
-push
-"
-:
-push
                         
+'
+action
+'
+:
+action
+                        
+'
+repository
+'
+:
+repository
+                        
+'
+push
+'
+:
+push
+                    
 }
-                        
+                    
 #
 and
 pass
@@ -1826,39 +1799,39 @@ from
 our
 own
 context
-                        
+                    
 "
 user
 "
 :
 {
-                            
-"
+                        
+'
 input
-"
+'
 :
 {
-"
+'
 eval
-"
+'
 :
-"
+'
 input
-"
+'
 }
-                            
-"
+                        
+'
 taskId
-"
+'
 :
 {
-"
+'
 eval
-"
+'
 :
-"
+'
 taskId
-"
+'
 }
 #
 target
@@ -1867,47 +1840,44 @@ taskId
 or
 null
 )
-                            
-"
+                        
+'
 taskGroupId
-"
+'
 :
 {
-                                
-"
+'
 eval
-"
+'
 :
-"
+'
 taskGroupId
-"
-                            
+'
 }
 #
 target
 task
 group
-                        
-}
-                    
-}
-                    
-"
-extra
-"
-:
-{
-                        
-"
-actionPerm
-"
-:
-permission
                     
 }
                 
 }
+                
+'
+extra
+'
+:
+{
+                    
+'
+actionPerm
+'
+:
+permission
+                
+}
             
+}
 )
             
 return
@@ -1928,9 +1898,9 @@ action_builder
         
 mem
 [
-"
+'
 registered
-"
+'
 ]
 =
 True
@@ -2034,12 +2004,12 @@ isinstance
 parameters
 Parameters
 )
-"
+'
 requires
 instance
 of
 Parameters
-"
+'
     
 actions
 =
@@ -2086,7 +2056,7 @@ is_json
 (
 action
 )
-"
+'
 action
 must
 be
@@ -2094,7 +2064,7 @@ a
 JSON
 compatible
 object
-"
+'
             
 actions
 .
@@ -2106,22 +2076,22 @@ action
 return
 {
         
-"
+'
 version
-"
+'
 :
 1
         
-"
+'
 variables
-"
+'
 :
 {
 }
         
-"
+'
 actions
-"
+'
 :
 actions
     
@@ -2229,14 +2199,14 @@ else
 raise
 Exception
 (
-"
+'
 No
 action
 with
 cb_name
 {
 }
-"
+'
 .
 format
 (
@@ -2246,17 +2216,17 @@ callback
     
 repo_param
 =
-"
+'
 {
 }
 head_repository
-"
+'
 .
 format
 (
 graph_config
 [
-"
+'
 project
 -
 repo
@@ -2264,7 +2234,7 @@ repo
 param
 -
 prefix
-"
+'
 ]
 )
     
@@ -2280,7 +2250,7 @@ head_repository
 .
 startswith
 (
-"
+'
 https
 :
 /
@@ -2291,12 +2261,12 @@ mozilla
 .
 org
 /
-"
+'
 )
     
 expected_scope
 =
-"
+'
 assume
 :
 repo
@@ -2308,11 +2278,10 @@ action
 :
 {
 }
-"
+'
 .
 format
 (
-        
 head_repository
 [
 8
@@ -2321,7 +2290,6 @@ head_repository
 action
 .
 permission
-    
 )
     
 #
@@ -2379,7 +2347,7 @@ get_current_scopes
 raise
 Exception
 (
-"
+'
 Expected
 task
 scope
@@ -2388,7 +2356,7 @@ scope
 for
 this
 action
-"
+'
 .
 format
 (
@@ -2398,13 +2366,13 @@ expected_scope
 def
 trigger_action_callback
 (
-    
 task_group_id
 task_id
 input
 callback
 parameters
 root
+                            
 test
 =
 False
@@ -2484,8 +2452,7 @@ cb
 raise
 Exception
 (
-            
-"
+'
 Unknown
 callback
 :
@@ -2497,22 +2464,20 @@ callbacks
 :
 {
 }
-"
+'
 .
 format
 (
-                
+            
 callback
-"
-"
+'
+'
 .
 join
 (
 callbacks
 )
-            
 )
-        
 )
     
 if
@@ -2593,11 +2558,11 @@ import_sibling_modules
 exceptions
 =
 (
-"
+'
 util
 .
 py
-"
+'
 )
 )
     

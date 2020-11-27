@@ -1237,7 +1237,7 @@ NS_ERROR_UNEXPECTED
 "
 ]
 =
-0x8000FFFF
+0x8000ffff
 #
 Returned
 when
@@ -1252,7 +1252,7 @@ NS_ERROR_OUT_OF_MEMORY
 "
 ]
 =
-0x8007000E
+0x8007000e
 #
 Returned
 when
@@ -1405,7 +1405,7 @@ NS_ERROR_FACTORY_NOT_LOADED
 "
 ]
 =
-0x800401F8
+0x800401f8
 #
 Returned
 when
@@ -4991,8 +4991,6 @@ NS_ERROR_PROXY_MOVED_PERMANENTLY
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5001,8 +4999,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 301
-    
-)
     
 errors
 [
@@ -5059,8 +5055,6 @@ NS_ERROR_PROXY_TEMPORARY_REDIRECT
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5070,8 +5064,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 307
     
-)
-    
 errors
 [
 "
@@ -5079,8 +5071,6 @@ NS_ERROR_PROXY_PERMANENT_REDIRECT
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5089,8 +5079,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 308
-    
-)
     
 #
 Client
@@ -5184,8 +5172,6 @@ NS_ERROR_PROXY_METHOD_NOT_ALLOWED
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5194,8 +5180,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 405
-    
-)
     
 errors
 [
@@ -5237,8 +5221,6 @@ NS_ERROR_PROXY_AUTHENTICATION_FAILED
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5247,8 +5229,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 407
-    
-)
     
 errors
 [
@@ -5321,8 +5301,6 @@ NS_ERROR_PROXY_PRECONDITION_FAILED
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5332,8 +5310,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 412
     
-)
-    
 errors
 [
 "
@@ -5341,8 +5317,6 @@ NS_ERROR_PROXY_REQUEST_ENTITY_TOO_LARGE
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5352,8 +5326,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 413
     
-)
-    
 errors
 [
 "
@@ -5361,8 +5333,6 @@ NS_ERROR_PROXY_REQUEST_URI_TOO_LONG
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5372,8 +5342,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 414
     
-)
-    
 errors
 [
 "
@@ -5381,8 +5349,6 @@ NS_ERROR_PROXY_UNSUPPORTED_MEDIA_TYPE
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5392,8 +5358,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 415
     
-)
-    
 errors
 [
 "
@@ -5401,7 +5365,7 @@ NS_ERROR_PROXY_REQUESTED_RANGE_NOT_SATISFIABLE
 "
 ]
 =
-(
+\
         
 errors
 [
@@ -5412,8 +5376,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 416
     
-)
-    
 errors
 [
 "
@@ -5421,8 +5383,6 @@ NS_ERROR_PROXY_EXPECTATION_FAILED
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5432,8 +5392,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 417
     
-)
-    
 errors
 [
 "
@@ -5441,8 +5399,6 @@ NS_ERROR_PROXY_MISDIRECTED_REQUEST
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5451,8 +5407,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 421
-    
-)
     
 errors
 [
@@ -5493,8 +5447,6 @@ NS_ERROR_PROXY_PRECONDITION_REQUIRED
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5503,8 +5455,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 428
-    
-)
     
 #
 Indicates
@@ -5530,8 +5480,6 @@ NS_ERROR_PROXY_TOO_MANY_REQUESTS
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5541,8 +5489,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 429
     
-)
-    
 errors
 [
 "
@@ -5550,7 +5496,7 @@ NS_ERROR_PROXY_REQUEST_HEADER_FIELDS_TOO_LARGE
 "
 ]
 =
-(
+\
         
 errors
 [
@@ -5561,8 +5507,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 431
     
-)
-    
 errors
 [
 "
@@ -5570,7 +5514,7 @@ NS_ERROR_PROXY_UNAVAILABLE_FOR_LEGAL_REASONS
 "
 ]
 =
-(
+\
         
 errors
 [
@@ -5580,8 +5524,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 451
-    
-)
     
 #
 Server
@@ -5595,8 +5537,6 @@ NS_ERROR_PROXY_INTERNAL_SERVER_ERROR
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5605,8 +5545,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 500
-    
-)
     
 errors
 [
@@ -5647,8 +5585,6 @@ NS_ERROR_PROXY_SERVICE_UNAVAILABLE
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5657,8 +5593,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 503
-    
-)
     
 #
 The
@@ -5698,8 +5632,6 @@ NS_ERROR_PROXY_VERSION_NOT_SUPPORTED
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5709,8 +5641,6 @@ NS_ERROR_PROXY_CODE_BASE
 +
 505
     
-)
-    
 errors
 [
 "
@@ -5718,8 +5648,6 @@ NS_ERROR_PROXY_VARIANT_ALSO_NEGOTIATES
 "
 ]
 =
-(
-        
 errors
 [
 "
@@ -5728,8 +5656,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 506
-    
-)
     
 errors
 [
@@ -5754,7 +5680,7 @@ NS_ERROR_PROXY_NETWORK_AUTHENTICATION_REQUIRED
 "
 ]
 =
-(
+\
         
 errors
 [
@@ -5764,8 +5690,6 @@ NS_ERROR_PROXY_CODE_BASE
 ]
 +
 511
-    
-)
 #
 =
 =
@@ -8428,18 +8352,14 @@ FAILURE
     
 errors
 [
-        
 "
 NS_ERROR_DOM_INVALID_STATE_XHR_MUST_NOT_BE_LOADING_OR_DONE_RESPONSE_TYPE
 "
-    
 ]
 =
 FAILURE
 (
-        
 1021
-    
 )
 #
 NOQA
@@ -8448,18 +8368,14 @@ E501
     
 errors
 [
-        
 "
 NS_ERROR_DOM_INVALID_STATE_XHR_MUST_NOT_BE_LOADING_OR_DONE_OVERRIDE_MIME_TYPE
 "
-    
 ]
 =
 FAILURE
 (
-        
 1037
-    
 )
 #
 NOQA
@@ -8468,11 +8384,9 @@ E501
     
 errors
 [
-        
 "
 NS_ERROR_DOM_INVALID_STATE_XHR_HAS_WRONG_RESPONSETYPE_FOR_RESPONSEXML
 "
-    
 ]
 =
 FAILURE
@@ -8482,18 +8396,14 @@ FAILURE
     
 errors
 [
-        
 "
 NS_ERROR_DOM_INVALID_STATE_XHR_HAS_WRONG_RESPONSETYPE_FOR_RESPONSETEXT
 "
-    
 ]
 =
 FAILURE
 (
-        
 1023
-    
 )
 #
 NOQA
@@ -8502,18 +8412,14 @@ E501
     
 errors
 [
-        
 "
 NS_ERROR_DOM_INVALID_STATE_XHR_CHUNKED_RESPONSETYPES_UNSUPPORTED_FOR_SYNC
 "
-    
 ]
 =
 FAILURE
 (
-        
 1024
-    
 )
 #
 NOQA
@@ -8522,18 +8428,14 @@ E501
     
 errors
 [
-        
 "
 NS_ERROR_DOM_INVALID_ACCESS_XHR_TIMEOUT_AND_RESPONSETYPE_UNSUPPORTED_FOR_SYNC
 "
-    
 ]
 =
 FAILURE
 (
-        
 1025
-    
 )
 #
 NOQA
@@ -8689,9 +8591,7 @@ NS_ERROR_DOM_INVALID_STATE_DOCUMENT_QUERY_COMMAND_SUPPORTED
 =
 FAILURE
 (
-        
 1034
-    
 )
     
 errors
@@ -16739,7 +16639,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -16775,7 +16674,6 @@ h
 "
 "
 "
-    
 )
     
 output
@@ -16876,7 +16774,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -16898,7 +16795,6 @@ uint32_t
 .
 format
 (
-            
 "
 \
 n
@@ -16908,9 +16804,7 @@ join
 (
 items
 )
-        
 )
-    
 )
     
 items
@@ -16956,7 +16850,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -16976,7 +16869,6 @@ ErrorList_h__
 .
 format
 (
-            
 "
 \
 n
@@ -16986,9 +16878,7 @@ join
 (
 items
 )
-        
 )
-    
 )
 def
 error_names_internal_h
@@ -17052,7 +16942,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -17105,7 +16994,6 @@ rv
 "
 "
 "
-    
 )
     
 #
@@ -17203,7 +17091,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -17231,7 +17118,6 @@ ErrorNamesInternal_h__
 "
 "
 "
-    
 )
 def
 error_list_rs
@@ -17244,7 +17130,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -17273,14 +17158,12 @@ nsresult
 "
 "
 "
-    
 )
     
 output
 .
 write
 (
-        
 "
 pub
 const
@@ -17297,14 +17180,12 @@ nsresult
 \
 n
 "
+                 
 .
 format
 (
-            
 MODULE_BASE_OFFSET
-        
 )
-    
 )
     
 for
@@ -17322,7 +17203,6 @@ output
 .
 write
 (
-            
 "
 pub
 const
@@ -17341,17 +17221,15 @@ nsresult
 \
 n
 "
+                     
 .
 format
 (
-                
 mod
 val
 .
 num
-            
 )
-        
 )
     
 for

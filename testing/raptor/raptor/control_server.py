@@ -988,7 +988,6 @@ wfile
 .
 write
 (
-                            
 json
 .
 dumps
@@ -1009,7 +1008,6 @@ utf
 8
 "
 )
-                        
 )
                         
 self
@@ -1227,11 +1225,11 @@ post_body
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
             
 data
@@ -1784,7 +1782,6 @@ data
 0
 ]
 )
-                    
 str
 (
 data
@@ -1797,7 +1794,6 @@ data
 1
 ]
 )
-                    
 str
 (
 data
@@ -2244,9 +2240,9 @@ None
                     
 state
 =
-"
+'
 None
-"
+'
                 
 if
 isinstance
@@ -2264,11 +2260,11 @@ state
 .
 encode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
                 
 self
@@ -3252,7 +3248,6 @@ threading
 .
 Thread
 (
-            
 target
 =
 self
@@ -3267,7 +3262,6 @@ timeout
 :
 0
 }
-        
 )
         
 self
@@ -3486,7 +3480,6 @@ LOG
 .
 critical
 (
-                
 "
 %
 s
@@ -3502,7 +3495,6 @@ request
 self
 .
 app_name
-            
 )
         
 else
@@ -3582,7 +3574,6 @@ LOG
 .
 critical
 (
-                
 "
 %
 s
@@ -3598,7 +3589,6 @@ request
 self
 .
 app_name
-            
 )
         
 else
@@ -3706,7 +3696,6 @@ time
 .
 sleep
 (
-0
 .
 25
 )
@@ -3773,7 +3762,6 @@ time
 .
 sleep
 (
-0
 .
 25
 )

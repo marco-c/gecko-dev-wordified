@@ -83,25 +83,23 @@ schema
 =
 Schema
 (
-    
 {
-        
+    
 Required
 (
-"
+'
 primary
 -
 dependency
-"
-"
+'
+'
 primary
 dependency
 task
-"
+'
 )
 :
 Task
-    
 }
 )
 def
@@ -268,7 +266,7 @@ config
 .
 get
 (
-"
+'
 only
 -
 for
@@ -276,7 +274,7 @@ for
 build
 -
 platforms
-"
+'
 )
     
 not_platforms
@@ -285,7 +283,7 @@ config
 .
 get
 (
-"
+'
 not
 -
 for
@@ -293,7 +291,7 @@ for
 build
 -
 platforms
-"
+'
 )
     
 only_attributes
@@ -302,13 +300,13 @@ config
 .
 get
 (
-"
+'
 only
 -
 for
 -
 attributes
-"
+'
 )
     
 job_template
@@ -317,11 +315,11 @@ config
 .
 get
 (
-"
+'
 job
 -
 template
-"
+'
 )
     
 for
@@ -340,11 +338,11 @@ config
 .
 get
 (
-"
+'
 kind
 -
 dependencies
-"
+'
 [
 ]
 )
@@ -366,9 +364,9 @@ attributes
 .
 get
 (
-"
+'
 build_platform
-"
+'
 )
             
 build_type
@@ -379,9 +377,9 @@ attributes
 .
 get
 (
-"
+'
 build_type
-"
+'
 )
             
 if
@@ -467,11 +465,11 @@ job
 =
 {
             
-"
+'
 primary
 -
 dependency
-"
+'
 :
 task
         
@@ -508,20 +506,20 @@ attributes
 get
 (
             
-"
+'
 shipping_product
-"
+'
 task
 .
 task
 .
 get
 (
-"
+'
 shipping
 -
 product
-"
+'
 )
         
 )
@@ -534,11 +532,11 @@ job
 .
 setdefault
 (
-"
+'
 shipping
 -
 product
-"
+'
 product
 )
         

@@ -396,9 +396,9 @@ join
 self
 .
 _tmp_dir
-"
+'
 profile
-"
+'
 )
         
 self
@@ -426,9 +426,9 @@ self
 :
         
 if
-"
+'
 MOZ_DEVELOPER_REPO_DIR
-"
+'
 in
 os
 .
@@ -442,22 +442,20 @@ path
 .
 join
 (
-                
 os
 .
 environ
 [
-"
+'
 MOZ_DEVELOPER_REPO_DIR
-"
+'
 ]
-"
+'
 testing
-"
-"
+'
+'
 profiles
-"
-            
+'
 )
         
 return
@@ -468,9 +466,9 @@ path
 join
 (
 here
-"
+'
 profile_data
-"
+'
 )
     
 def
@@ -499,9 +497,9 @@ self
 .
 browser_config
 [
-"
+'
 env
-"
+'
 ]
 .
 iteritems
@@ -525,23 +523,23 @@ self
 .
 env
 [
-"
+'
 MOZ_CRASHREPORTER_NO_REPORT
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 if
 self
 .
 browser_config
 [
-"
+'
 symbols_path
-"
+'
 ]
 :
             
@@ -549,14 +547,14 @@ self
 .
 env
 [
-"
+'
 MOZ_CRASHREPORTER
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 else
 :
@@ -565,27 +563,27 @@ self
 .
 env
 [
-"
+'
 MOZ_CRASHREPORTER_DISABLE
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 self
 .
 env
 [
-"
+'
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 self
 .
@@ -596,22 +594,22 @@ LD_LIBRARY_PATH
 "
 ]
 =
+\
+            
 os
 .
 path
 .
 dirname
 (
-            
 self
 .
 browser_config
 [
-"
+'
 browser_path
-"
+'
 ]
-        
 )
     
 def
@@ -627,9 +625,9 @@ self
 .
 browser_config
 [
-"
+'
 extensions
-"
+'
 ]
 [
 :
@@ -642,9 +640,9 @@ test_config
 .
 get
 (
-"
+'
 extensions
-"
+'
 )
 :
             
@@ -656,9 +654,9 @@ self
 .
 test_config
 [
-"
+'
 extensions
-"
+'
 ]
 )
         
@@ -678,9 +676,9 @@ self
 .
 test_config
 [
-"
+'
 profile
-"
+'
 ]
 is
 not
@@ -697,9 +695,9 @@ self
 .
 test_config
 [
-"
+'
 profile
-"
+'
 ]
 )
             
@@ -707,9 +705,9 @@ self
 .
 test_config
 [
-"
+'
 profile_path
-"
+'
 ]
 =
 path
@@ -726,9 +724,9 @@ self
 .
 test_config
 [
-"
+'
 profile_path
-"
+'
 ]
 )
         
@@ -854,18 +852,19 @@ Profile
 .
 clone
 (
-            
 profile_path
+                                
 self
 .
 profile_dir
+                                
 ignore
 =
 _feedback
+                                
 restore
 =
 False
-        
 )
         
 #
@@ -880,17 +879,17 @@ self
 .
 browser_config
 [
-"
+'
 webserver
-"
+'
 ]
         
 if
-"
+'
 :
 /
 /
-"
+'
 not
 in
 webserver
@@ -898,12 +897,12 @@ webserver
             
 webserver
 =
-"
+'
 http
 :
 /
 /
-"
+'
 +
 webserver
         
@@ -911,9 +910,9 @@ interpolation
 =
 {
             
-"
+'
 webserver
-"
+'
 :
 webserver
         
@@ -936,15 +935,15 @@ join
 self
 .
 profile_data_dir
-"
+'
 profiles
 .
 json
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -959,9 +958,9 @@ load
 fh
 )
 [
-"
+'
 talos
-"
+'
 ]
         
 for
@@ -1025,9 +1024,9 @@ browser_config
 .
 get
 (
-"
+'
 preferences
-"
+'
 {
 }
 )
@@ -1043,9 +1042,9 @@ test_config
 .
 get
 (
-"
+'
 preferences
-"
+'
 )
 :
             
@@ -1055,7 +1054,6 @@ dict
 (
                 
 [
-                    
 (
 i
 utils
@@ -1065,7 +1063,7 @@ parse_pref
 j
 )
 )
-                    
+                 
 for
 i
 j
@@ -1074,15 +1072,14 @@ self
 .
 test_config
 [
-"
+'
 preferences
-"
+'
 ]
 .
 items
 (
 )
-                
 ]
             
 )
@@ -1190,9 +1187,9 @@ test_config
 .
 get
 (
-"
+'
 webextensions_folder
-"
+'
 None
 )
         
@@ -1259,9 +1256,9 @@ test_config
 .
 get
 (
-"
+'
 webextensions
-"
+'
 None
 )
         
@@ -1319,9 +1316,9 @@ mozinfo
 os
 =
 =
-"
+'
 win
-"
+'
 :
                     
 filename
@@ -1330,13 +1327,13 @@ filename
 .
 replace
 (
-"
+'
 /
-"
-"
+'
+'
 \
 \
-"
+'
 )
                 
 if
@@ -1345,10 +1342,10 @@ filename
 .
 endswith
 (
-"
+'
 .
 xpi
-"
+'
 )
 :
                     
@@ -1406,17 +1403,19 @@ info
 .
 get
 (
-"
+                
+'
 appname
-"
-"
+'
+                
+'
 firefox
-"
+'
 )
+            
 mozrunner
 .
 Runner
-        
 )
         
 args
@@ -1451,13 +1450,12 @@ runner
 =
 runner_cls
 (
-            
 profile
 =
 self
 .
 profile_dir
-            
+                            
 binary
 =
 self
@@ -1468,17 +1466,16 @@ browser_config
 browser_path
 "
 ]
-            
+                            
 cmdargs
 =
 args
-            
+                            
 env
 =
 self
 .
 env
-        
 )
         
 runner
@@ -1500,7 +1497,6 @@ LOG
 .
 process_start
 (
-            
 proc
 .
 pid
@@ -1520,15 +1516,15 @@ browser_config
 browser_path
 "
 ]
-"
-"
+                                               
+'
+'
 .
 join
 (
 args
 )
 )
-        
 )
         
 try
@@ -1589,9 +1585,9 @@ os
 .
 getenv
 (
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 )
         
 if
@@ -1601,9 +1597,9 @@ test_config
 .
 get
 (
-"
+'
 gecko_profile
-"
+'
 )
 and
 not
@@ -1622,6 +1618,7 @@ MOZ_UPLOAD_DIR
 was
 not
 "
+                         
 "
 set
 "
@@ -1636,9 +1633,9 @@ test_config
 .
 get
 (
-"
+'
 gecko_profile
-"
+'
 )
 :
             
@@ -1648,15 +1645,15 @@ gecko_profile
 =
 GeckoProfile
 (
-                
 upload_dir
+                                              
 self
 .
 browser_config
+                                              
 self
 .
 test_config
-            
 )
             
 self
@@ -1765,9 +1762,9 @@ browser_config
 .
 get
 (
-"
+'
 develop
-"
+'
 False
 )
 :
@@ -1815,7 +1812,6 @@ LOG
 .
 info
 (
-                    
 "
 Collecting
 ccov
@@ -1828,7 +1824,6 @@ the
 talos
 test
 "
-                
 )
             
 gcov_prefix
@@ -1837,9 +1832,9 @@ os
 .
 getenv
 (
-"
+'
 GCOV_PREFIX
-"
+'
 None
 )
             
@@ -1849,19 +1844,19 @@ os
 .
 getenv
 (
-"
+'
 JS_CODE_COVERAGE_OUTPUT_DIR
-"
+'
 None
 )
             
 gcda_archive_folder_name
 =
-"
+'
 gcda
 -
 archive
-"
+'
             
 _gcda_files_found
 =
@@ -2017,7 +2012,6 @@ _gcda_files_found
 .
 append
 (
-                                            
 os
 .
 path
@@ -2027,7 +2021,6 @@ join
 root
 next_file
 )
-                                        
 )
                     
 else
@@ -2037,7 +2030,6 @@ LOG
 .
 info
 (
-                            
 "
 The
 ccov
@@ -2057,7 +2049,6 @@ str
 (
 _ccov_path
 )
-                        
 )
             
 #
@@ -2082,7 +2073,6 @@ LOG
 .
 info
 (
-                    
 "
 Found
 %
@@ -2097,7 +2087,6 @@ Deleting
 .
 .
 "
-                    
 %
 (
 len
@@ -2105,7 +2094,6 @@ len
 _gcda_files_found
 )
 )
-                
 )
                 
 for
@@ -2190,25 +2178,24 @@ path
 .
 join
 (
-                    
 gcov_prefix
+                                                
 gcda_archive_folder_name
+                                                
 self
 .
 test_config
 [
-"
+'
 name
-"
+'
 ]
-                
 )
                 
 LOG
 .
 info
 (
-                    
 "
 Found
 %
@@ -2225,7 +2212,7 @@ archive
 %
 s
 "
-                    
+                         
 %
 (
 len
@@ -2237,7 +2224,6 @@ str
 gcda_archive_top
 )
 )
-                
 )
                 
 if
@@ -2270,7 +2256,6 @@ LOG
 .
 critical
 (
-                            
 "
 Unable
 to
@@ -2283,7 +2268,6 @@ s
 "
 %
 gcda_archive_top
-                        
 )
                 
 for
@@ -2334,20 +2318,19 @@ path
 .
 join
 (
-                        
 gcov_prefix
-                        
+                                                     
 gcda_archive_folder_name
-                        
+                                                     
 self
 .
 test_config
 [
-"
+'
 name
-"
+'
 ]
-                        
+                                                     
 _gcda
 .
 strip
@@ -2359,7 +2342,6 @@ gcov_prefix
 /
 "
 )
-                    
 )
                     
 gcda_archive_dest
@@ -2410,7 +2392,6 @@ LOG
 .
 critical
 (
-                                
 "
 Unable
 to
@@ -2422,7 +2403,6 @@ s
 "
 %
 gcda_archive_dest
-                            
 )
                     
 #
@@ -2453,7 +2433,6 @@ LOG
 .
 info
 (
-                            
 "
 Error
 copying
@@ -2463,7 +2442,6 @@ to
 %
 s
 "
-                            
 %
 (
 str
@@ -2475,7 +2453,6 @@ str
 gcda_archive_dest
 )
 )
-                        
 )
                         
 LOG
@@ -2489,7 +2466,6 @@ LOG
 .
 info
 (
-                    
 "
 Finished
 collecting
@@ -2503,10 +2479,8 @@ to
 %
 s
 "
-                    
 %
 gcda_archive_top
-                
 )
     
 def
@@ -2520,7 +2494,7 @@ LOG
 .
 info
 (
-"
+'
 Initialising
 browser
 for
@@ -2530,15 +2504,16 @@ test
 .
 .
 .
-"
+'
+                 
 %
 self
 .
 test_config
 [
-"
+'
 name
-"
+'
 ]
 )
         
@@ -2567,9 +2542,9 @@ self
 .
 test_config
 [
-"
+'
 name
-"
+'
 ]
 !
 =
@@ -2606,25 +2581,24 @@ LOG
 .
 info
 (
-"
+'
 Browser
 initialized
 .
-"
+'
 )
         
 LOG
 .
 info
 (
-            
-"
+'
 Fission
 enabled
 :
 %
 s
-"
+'
 %
 self
 .
@@ -2632,12 +2606,11 @@ browser_config
 .
 get
 (
-"
+'
 enable_fission
-"
+'
 False
 )
-        
 )
         
 #
@@ -2656,9 +2629,9 @@ browser_config
 .
 get
 (
-"
+'
 code_coverage
-"
+'
 False
 )
 :

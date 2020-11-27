@@ -64,52 +64,52 @@ setup
 find_packages
 VERSION
 =
-"
+'
 0
 .
 1
-"
+'
 setup
 (
     
 author
 =
-"
+'
 Mozilla
 Foundation
-"
+'
     
 author_email
 =
-"
+'
 Mozilla
 Release
 Engineering
-"
+'
     
 name
 =
-"
+'
 mozversioncontrol
-"
+'
     
 description
 =
-"
+'
 Mozilla
 version
 control
 functionality
-"
+'
     
 license
 =
-"
+'
 MPL
 2
 .
 0
-"
+'
     
 packages
 =
@@ -125,7 +125,7 @@ classifiers
 =
 [
         
-"
+'
 Development
 Status
 :
@@ -133,9 +133,9 @@ Status
 3
 -
 Alpha
-"
+'
         
-"
+'
 Topic
 :
 :
@@ -145,9 +145,9 @@ Development
 :
 Build
 Tools
-"
+'
         
-"
+'
 License
 :
 :
@@ -167,9 +167,9 @@ MPL
 .
 0
 )
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -178,9 +178,9 @@ Python
 :
 :
 2
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -191,9 +191,9 @@ Python
 2
 .
 7
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -202,9 +202,9 @@ Python
 :
 :
 3
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -215,9 +215,9 @@ Python
 3
 .
 5
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -229,13 +229,13 @@ Implementation
 :
 :
 CPython
-"
+'
     
 ]
     
 keywords
 =
-"
+'
 mozilla
-"
+'
 )

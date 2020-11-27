@@ -45,14 +45,14 @@ specfilename
 ipdlargv
 =
 [
-"
+'
 python
-"
-"
+'
+'
 ipdl
 .
 py
-"
+'
 ]
 )
 :
@@ -99,9 +99,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Run
 |
 self
@@ -113,9 +113,9 @@ the
 IPDL
 compiler
 .
-"
-"
-"
+'
+'
+'
         
 assert
 self
@@ -132,9 +132,9 @@ mkdtemp
 (
 prefix
 =
-"
+'
 ipdl_unit_test
-"
+'
 )
         
 try
@@ -147,14 +147,17 @@ argv
 extend
 (
 [
-"
+                
+'
 -
 d
-"
+'
 tmpoutdir
+                
 self
 .
 specfilename
+            
 ]
 )
             
@@ -170,7 +173,6 @@ args
 self
 .
 argv
-                
 stdout
 =
 subprocess
@@ -182,11 +184,9 @@ stderr
 subprocess
 .
 PIPE
-                
 universal_newlines
 =
 True
-            
 )
             
 self
@@ -309,14 +309,13 @@ self
         
 return
 (
-            
 self
 .
 returncode
 is
 not
 None
-            
+                
 and
 isinstance
 (
@@ -325,7 +324,7 @@ self
 stdout
 str
 )
-            
+                
 and
 isinstance
 (
@@ -334,7 +333,6 @@ self
 stderr
 str
 )
-        
 )
     
 def
@@ -345,9 +343,9 @@ expectedError
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 True
 iff
@@ -358,14 +356,13 @@ specstring
 resulted
 in
 an
-        
 IPDL
 compiler
 error
 .
-"
-"
-"
+'
+'
+'
         
 assert
 self
@@ -409,9 +406,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 True
 iff
@@ -423,14 +420,13 @@ resulted
 in
 a
 Python
-        
 exception
 being
 raised
 .
-"
-"
-"
+'
+'
+'
         
 assert
 self
@@ -448,7 +444,7 @@ re
 search
 (
 r
-"
+'
 Traceback
 (
 most
@@ -457,7 +453,8 @@ call
 last
 )
 :
-"
+'
+                                     
 self
 .
 stderr
@@ -470,9 +467,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 True
 iff
@@ -483,9 +480,9 @@ specstring
 was
 successful
 .
-"
-"
-"
+'
+'
+'
         
 assert
 self
@@ -496,13 +493,13 @@ completed
         
 return
 (
-            
 not
 self
 .
 exception
 (
 )
+                
 and
 not
 self
@@ -514,6 +511,7 @@ error
 :
 "
 )
+                
 and
 (
 0
@@ -523,5 +521,4 @@ self
 .
 returncode
 )
-        
 )

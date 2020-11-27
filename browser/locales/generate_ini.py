@@ -114,7 +114,7 @@ re
 .
 compile
 (
-"
+'
 ^
 (
 Info
@@ -123,7 +123,7 @@ Title
 )
 Text
 =
-"
+'
 )
     
 #
@@ -142,12 +142,12 @@ codecs
 open
 (
 ini
-"
+'
 rb
-"
-"
+'
+'
 utf_8
-"
+'
 )
 as
 f
@@ -166,11 +166,11 @@ fixup_re
 sub
 (
 r
-"
+'
 \
 1
 =
-"
+'
 line
 )
             
@@ -180,21 +180,20 @@ line
 .
 replace
 (
-                
-"
+'
 %
 MOZ_APP_DISPLAYNAME
 %
-"
+'
+                                
 buildconfig
 .
 substs
 [
-"
+'
 MOZ_APP_DISPLAYNAME
-"
+'
 ]
-            
 )
             
 output
@@ -211,15 +210,15 @@ buildconfig
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
         
 #
@@ -237,12 +236,12 @@ codecs
 open
 (
 ini_append
-"
+'
 rb
-"
-"
+'
+'
 utf_8
-"
+'
 )
 as
 f

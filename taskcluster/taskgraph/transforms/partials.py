@@ -151,11 +151,11 @@ None
     
 locale_output_path
 =
-"
+'
 {
 }
 /
-"
+'
 .
 format
 (
@@ -164,8 +164,8 @@ locale
 if
 locale
 else
-"
-"
+'
+'
     
 artifact_prefix
 =
@@ -190,22 +190,21 @@ data
 .
 append
 (
-            
 {
-                
-"
+            
+'
 type
-"
+'
 :
-"
+'
 file
-"
-                
-"
+'
+            
+'
 path
-"
+'
 :
-"
+'
 /
 home
 /
@@ -215,18 +214,18 @@ artifacts
 /
 {
 }
-"
+'
 .
 format
 (
 filename
 )
-                
-"
+            
+'
 name
-"
+'
 :
-"
+'
 {
 }
 /
@@ -234,7 +233,7 @@ name
 }
 {
 }
-"
+'
 .
 format
 (
@@ -242,31 +241,29 @@ artifact_prefix
 locale_output_path
 filename
 )
-            
-}
         
+}
 )
     
 data
 .
 append
 (
-        
 {
-            
-"
+        
+'
 type
-"
+'
 :
-"
+'
 file
-"
-            
-"
+'
+        
+'
 path
-"
+'
 :
-"
+'
 /
 home
 /
@@ -277,13 +274,13 @@ artifacts
 manifest
 .
 json
-"
-            
-"
+'
+        
+'
 name
-"
+'
 :
-"
+'
 {
 }
 /
@@ -292,16 +289,15 @@ name
 manifest
 .
 json
-"
+'
 .
 format
 (
 artifact_prefix
 locale_output_path
 )
-        
-}
     
+}
 )
     
 return
@@ -371,7 +367,6 @@ release
     
 elif
 (
-        
 project
 in
 [
@@ -386,8 +381,8 @@ comm
 beta
 "
 ]
-        
 or
+          
 project
 .
 startswith
@@ -398,7 +393,6 @@ mozilla
 esr
 "
 )
-        
 or
 project
 .
@@ -410,7 +404,6 @@ comm
 esr
 "
 )
-    
 )
 :
         
@@ -455,9 +448,9 @@ params
 .
 get
 (
-"
+'
 release_history
-"
+'
 )
 :
         
@@ -473,11 +466,11 @@ dep_job
 =
 job
 [
-"
+'
 primary
 -
 dependency
-"
+'
 ]
         
 treeherder
@@ -492,15 +485,15 @@ treeherder
 .
 setdefault
 (
-"
+'
 symbol
-"
-"
+'
+'
 p
 (
 N
 )
-"
+'
 )
         
 label
@@ -509,9 +502,9 @@ job
 .
 get
 (
-"
+'
 label
-"
+'
 "
 partials
 -
@@ -554,9 +547,9 @@ attributes
 .
 get
 (
-"
+'
 locale
-"
+'
 )
         
 if
@@ -565,18 +558,18 @@ locale
             
 attributes
 [
-"
+'
 locale
-"
+'
 ]
 =
 locale
             
 treeherder
 [
-"
+'
 symbol
-"
+'
 ]
 =
 "
@@ -594,55 +587,54 @@ locale
         
 attributes
 [
-"
+'
 shipping_phase
-"
+'
 ]
 =
 job
 [
-"
+'
 shipping
 -
 phase
-"
+'
 ]
         
 build_locale
 =
 locale
 or
-"
+'
 en
 -
 US
-"
+'
         
 build_platform
 =
 attributes
 [
-"
+'
 build_platform
-"
+'
 ]
         
 builds
 =
 get_builds
 (
-            
 config
 .
 params
 [
-"
+'
 release_history
-"
+'
 ]
 build_platform
+                            
 build_locale
-        
 )
         
 #
@@ -685,14 +677,14 @@ continue
 extra
 =
 {
-"
+'
 funsize
-"
+'
 :
 {
-"
+'
 partials
-"
+'
 :
 list
 (
@@ -706,8 +698,8 @@ update_number
         
 locale_suffix
 =
-"
-"
+'
+'
         
 if
 locale
@@ -715,11 +707,11 @@ locale
             
 locale_suffix
 =
-"
+'
 {
 }
 /
-"
+'
 .
 format
 (
@@ -752,12 +744,10 @@ format
 dep_job
 .
 kind
-            
 get_artifact_prefix
 (
 dep_job
 )
-            
 locale_suffix
         
 )
@@ -775,71 +765,71 @@ partial_info
 =
 {
                 
-"
+'
 locale
-"
+'
 :
 build_locale
                 
-"
+'
 from_mar
-"
+'
 :
 builds
 [
 build
 ]
 [
-"
+'
 mar_url
-"
+'
 ]
                 
-"
+'
 to_mar
-"
+'
 :
 {
-"
+'
 artifact
 -
 reference
-"
+'
 :
 artifact_path
 }
                 
-"
+'
 branch
-"
+'
 :
 config
 .
 params
 [
-"
+'
 project
-"
+'
 ]
                 
-"
+'
 update_number
-"
+'
 :
 update_number
                 
-"
+'
 dest_mar
-"
+'
 :
 build
             
 }
             
 if
-"
+'
 product
-"
+'
 in
 builds
 [
@@ -849,9 +839,9 @@ build
                 
 partial_info
 [
-"
+'
 product
-"
+'
 ]
 =
 builds
@@ -859,15 +849,15 @@ builds
 build
 ]
 [
-"
+'
 product
-"
+'
 ]
             
 if
-"
+'
 previousVersion
-"
+'
 in
 builds
 [
@@ -877,9 +867,9 @@ build
                 
 partial_info
 [
-"
+'
 previousVersion
-"
+'
 ]
 =
 builds
@@ -887,15 +877,15 @@ builds
 build
 ]
 [
-"
+'
 previousVersion
-"
+'
 ]
             
 if
-"
+'
 previousBuildNumber
-"
+'
 in
 builds
 [
@@ -905,9 +895,9 @@ build
                 
 partial_info
 [
-"
+'
 previousBuildNumber
-"
+'
 ]
 =
 builds
@@ -915,23 +905,21 @@ builds
 build
 ]
 [
-                    
-"
+'
 previousBuildNumber
-"
-                
+'
 ]
             
 extra
 [
-"
+'
 funsize
-"
+'
 ]
 [
-"
+'
 partials
-"
+'
 ]
 .
 append
@@ -950,18 +938,18 @@ config
 .
 params
 [
-"
+'
 level
-"
+'
 ]
         
 worker
 =
 {
             
-"
+'
 artifacts
-"
+'
 :
 _generate_task_output_files
 (
@@ -974,59 +962,59 @@ keys
 locale
 )
             
-"
+'
 implementation
-"
+'
 :
-"
+'
 docker
 -
 worker
-"
+'
             
-"
+'
 docker
 -
 image
-"
+'
 :
 {
-"
+'
 in
 -
 tree
-"
+'
 :
-"
+'
 funsize
 -
 update
 -
 generator
-"
+'
 }
             
-"
+'
 os
-"
+'
 :
-"
+'
 linux
-"
+'
             
-"
+'
 max
 -
 run
 -
 time
-"
+'
 :
 3600
 if
-"
+'
 asan
-"
+'
 in
 dep_job
 .
@@ -1034,37 +1022,36 @@ label
 else
 900
             
-"
+'
 chain
 -
 of
 -
 trust
-"
+'
 :
 True
             
-"
+'
 taskcluster
 -
 proxy
-"
+'
 :
 True
             
-"
+'
 env
-"
+'
 :
 {
                 
-"
+'
 SIGNING_CERT
-"
+'
 :
 identify_desired_signing_keys
 (
-                    
 config
 .
 params
@@ -1073,29 +1060,29 @@ params
 project
 "
 ]
+                                                              
 config
 .
 params
 [
-"
+'
 release_product
-"
+'
 ]
-                
 )
                 
-"
+'
 EXTRA_PARAMS
-"
+'
 :
-"
+'
 -
 -
 arch
 =
 {
 }
-"
+'
 .
 format
 (
@@ -1105,19 +1092,19 @@ build_platform
 )
 )
                 
-"
+'
 MAR_CHANNEL_ID
-"
+'
 :
 attributes
 [
-"
+'
 mar
 -
 channel
 -
 id
-"
+'
 ]
             
 }
@@ -1134,40 +1121,40 @@ release_level
 )
 =
 =
-"
+'
 staging
-"
+'
 :
             
 worker
 [
-"
+'
 env
-"
+'
 ]
 [
-"
+'
 FUNSIZE_ALLOW_STAGING_PREFIXES
-"
+'
 ]
 =
-"
+'
 true
-"
+'
         
 task
 =
 {
             
-"
+'
 label
-"
+'
 :
 label
             
-"
+'
 description
-"
+'
 :
 "
 {
@@ -1182,44 +1169,44 @@ dep_job
 description
 )
             
-"
+'
 worker
 -
 type
-"
+'
 :
-"
+'
 b
 -
 linux
-"
+'
             
-"
+'
 dependencies
-"
+'
 :
 dependencies
             
-"
+'
 scopes
-"
+'
 :
 [
 ]
             
-"
+'
 attributes
-"
+'
 :
 attributes
             
-"
+'
 run
 -
 on
 -
 projects
-"
+'
 :
 dep_job
 .
@@ -1227,26 +1214,26 @@ attributes
 .
 get
 (
-"
+'
 run_on_projects
-"
+'
 )
             
-"
+'
 treeherder
-"
+'
 :
 treeherder
             
-"
+'
 extra
-"
+'
 :
 extra
             
-"
+'
 worker
-"
+'
 :
 worker
         
@@ -1274,10 +1261,11 @@ level
 =
 =
 3
+\
+                
 and
 any
 (
-            
 [
 build_platform
 .
@@ -1289,29 +1277,28 @@ for
 prefix
 in
 [
-"
+'
 linux
-"
-"
+'
+'
 win
-"
+'
 ]
 ]
-        
 )
 :
             
 task
 [
-"
+'
 scopes
-"
+'
 ]
 .
 append
 (
                 
-"
+'
 auth
 :
 aws
@@ -1342,8 +1329,7 @@ mbsdiff
 -
 cache
 /
-"
-            
+'
 )
         
 yield

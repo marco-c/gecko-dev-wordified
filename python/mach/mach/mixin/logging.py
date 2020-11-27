@@ -162,9 +162,9 @@ if
 hasattr
 (
 self
-"
+'
 _logger
-"
+'
 )
 :
             
@@ -178,9 +178,9 @@ None
             
 name
 =
-"
+'
 .
-"
+'
 .
 join
 (
@@ -415,17 +415,18 @@ log
 (
 level
 format_str
+                         
 extra
 =
 {
-"
+'
 action
-"
+'
 :
 action
-"
+'
 params
-"
+'
 :
 params
 }

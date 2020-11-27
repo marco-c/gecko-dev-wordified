@@ -97,13 +97,13 @@ import
 GeckoPrettyPrinter
 GeckoPrettyPrinter
 (
-"
+'
 nsAutoOwningThread
-"
-"
+'
+'
 ^
 nsAutoOwningThread
-"
+'
 )
 class
 owning_thread_printer
@@ -139,9 +139,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 PRThread
-"
+'
 )
 .
 pointer
@@ -154,9 +154,9 @@ self
 .
 value
 [
-"
+'
 mThread
-"
+'
 ]
 .
 cast
@@ -168,9 +168,9 @@ name
 =
 prthread
 [
-"
+'
 name
-"
+'
 ]
         
 #
@@ -204,9 +204,9 @@ name
 =
 prthread
 [
-"
+'
 tid
-"
+'
 ]
         
 return
@@ -214,13 +214,13 @@ name
 if
 name
 else
-"
+'
 (
 PRThread
 *
 )
 %
 s
-"
+'
 %
 prthread

@@ -24,9 +24,9 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 :
     
@@ -58,7 +58,6 @@ current
 data
 )
 :
-        
 pass
     
 def
@@ -67,7 +66,6 @@ poke
 self
 )
 :
-        
 pass
     
 def
@@ -79,7 +77,6 @@ complete
 True
 )
 :
-        
 pass
     
 def
@@ -88,7 +85,6 @@ beginline
 self
 )
 :
-        
 pass
     
 def
@@ -98,7 +94,6 @@ self
 msg
 )
 :
-        
 sys
 .
 stdout
@@ -107,10 +102,10 @@ write
 (
 msg
 +
-"
+'
 \
 n
-"
+'
 )
     
 staticmethod
@@ -120,7 +115,6 @@ update_granularity
 (
 )
 :
-        
 return
 timedelta
 .
@@ -405,11 +399,11 @@ stdout
 .
 write
 (
-"
+'
 \
 r
 [
-"
+'
 )
         
 for
@@ -426,9 +420,9 @@ set_color
 (
 layout
 [
-"
+'
 color
-"
+'
 ]
 )
             
@@ -438,12 +432,11 @@ stdout
 .
 write
 (
-                
 (
-"
+'
 {
 :
-"
+'
 +
 str
 (
@@ -452,25 +445,25 @@ self
 limit_digits
 )
 +
-"
+'
 d
 }
-"
+'
 )
 .
 format
 (
+                
 data
 [
 layout
 [
-"
+'
 value
-"
+'
 ]
 ]
 )
-            
 )
             
 Terminal
@@ -498,9 +491,9 @@ stdout
 .
 write
 (
-"
+'
 |
-"
+'
 )
             
 else
@@ -512,9 +505,9 @@ stdout
 .
 write
 (
-"
+'
 ]
-"
+'
 )
         
 #
@@ -544,13 +537,13 @@ stdout
 .
 write
 (
-"
+'
 {
 :
 3d
 }
 %
-"
+'
 .
 format
 (
@@ -581,18 +574,18 @@ limit
         
 bar
 =
-"
+'
 =
-"
+'
 *
 barlen
 +
-"
+'
 >
-"
+'
 +
-"
-"
+'
+'
 *
 (
 self
@@ -612,9 +605,9 @@ write
 (
 bar
 +
-"
+'
 |
-"
+'
 )
         
 #
@@ -659,7 +652,7 @@ stdout
 .
 write
 (
-"
+'
 {
 :
 6
@@ -667,7 +660,7 @@ write
 1f
 }
 s
-"
+'
 .
 format
 (
@@ -778,8 +771,7 @@ stdout
 .
 write
 (
-                
-"
+'
 No
 test
 run
@@ -790,9 +782,9 @@ You
 can
 try
 adding
-"
-                
-"
+'
+                             
+'
 -
 -
 run
@@ -812,8 +804,7 @@ more
 tests
 \
 n
-"
-            
+'
 )
             
 return
@@ -852,10 +843,10 @@ stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -878,10 +869,10 @@ stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 self
@@ -919,10 +910,10 @@ stdout
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 staticmethod

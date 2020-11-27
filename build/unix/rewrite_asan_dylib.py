@@ -73,9 +73,9 @@ from
 buildconfig
 import
 substs
-"
-"
-"
+'
+'
+'
 Scans
 the
 given
@@ -108,9 +108,9 @@ with
 executable_path
 instead
 .
-"
-"
-"
+'
+'
+'
 #
 This
 is
@@ -123,13 +123,13 @@ looking
 for
 DYLIB_NAME
 =
-"
+'
 libclang_rt
 .
 asan_osx_dynamic
 .
 dylib
-"
+'
 def
 resolve_rpath
 (
@@ -143,24 +143,23 @@ subprocess
 .
 check_output
 (
-        
 [
 substs
 [
-"
+'
 OTOOL
-"
+'
 ]
-"
+'
 -
 l
-"
+'
 filename
 ]
+                                       
 universal_newlines
 =
 True
-    
 )
     
 currentCmd
@@ -271,7 +270,7 @@ re
 match
 (
 r
-"
+'
 ^
 \
 s
@@ -285,7 +284,7 @@ Z_
 ]
 +
 )
-"
+'
 line
 )
         
@@ -311,9 +310,9 @@ if
 currentCmd
 =
 =
-"
+'
 LC_RPATH
-"
+'
 :
             
 pathMatch
@@ -323,7 +322,7 @@ re
 match
 (
 r
-"
+'
 ^
 \
 s
@@ -341,7 +340,7 @@ d
 +
 \
 )
-"
+'
 line
 )
             
@@ -381,7 +380,7 @@ stderr
 .
 write
 (
-"
+'
 rpath
 could
 not
@@ -392,7 +391,7 @@ from
 s
 \
 n
-"
+'
 %
 filename
 )
@@ -465,10 +464,10 @@ filename
 .
 endswith
 (
-"
+'
 .
 dylib
-"
+'
 )
 or
 os
@@ -498,20 +497,19 @@ check_output
 [
 substs
 [
-"
+'
 OTOOL
-"
+'
 ]
-"
+'
 -
 L
-"
+'
 filename
 ]
 universal_newlines
 =
 True
-                
 )
             
 except
@@ -576,10 +574,10 @@ absDylibPath
 .
 startswith
 (
-"
+'
 executable_path
 /
-"
+'
 )
 :
                         
@@ -595,10 +593,10 @@ absDylibPath
 .
 startswith
 (
-"
+'
 rpath
 /
-"
+'
 )
 :
                             
@@ -615,9 +613,10 @@ absDylibPath
 .
 replace
 (
-"
+                                
+'
 rpath
-"
+'
 rpath
 )
                         
@@ -682,26 +681,24 @@ check_call
 (
                                 
 [
-                                    
 substs
 [
-"
+'
 INSTALL_NAME_TOOL
-"
+'
 ]
-                                    
-"
+'
 -
 id
-"
-                                    
-"
+'
+                                 
+'
 executable_path
 /
-"
+'
 +
 DYLIB_NAME
-                                    
+                                 
 os
 .
 path
@@ -711,9 +708,7 @@ join
 path
 DYLIB_NAME
 )
-                                
 ]
-                            
 )
                             
 dylibCopied
@@ -729,8 +724,7 @@ stderr
 .
 write
 (
-                                
-"
+'
 dylib
 path
 in
@@ -745,14 +739,13 @@ at
 s
 \
 n
-"
-                                
+'
 %
 (
+                                
 filename
 copyDylibPath
 )
-                            
 )
                     
 #
@@ -769,8 +762,8 @@ binary
                     
 relpath
 =
-"
-"
+'
+'
 if
 path
 =
@@ -783,48 +776,44 @@ path
 .
 relpath
 (
+                        
 path
 root
 )
 +
-"
+'
 /
-"
+'
                     
 subprocess
 .
 check_call
 (
-                        
 [
-                            
 substs
 [
-"
+'
 INSTALL_NAME_TOOL
-"
+'
 ]
-                            
-"
+'
 -
 change
-"
-                            
+'
+                                           
 absDylibPath
-                            
-"
+                                           
+'
 executable_path
 /
-"
+'
 +
 relpath
 +
 DYLIB_NAME
-                            
+                                           
 filename
-                        
 ]
-                    
 )
                     
 break
@@ -840,7 +829,7 @@ stderr
 .
 write
 (
-"
+'
 %
 s
 could
@@ -849,7 +838,7 @@ be
 found
 \
 n
-"
+'
 %
 DYLIB_NAME
 )
@@ -864,9 +853,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 for

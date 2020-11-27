@@ -135,18 +135,16 @@ output
 .
 write
 (
-        
 subprocess
 .
 check_output
 (
-            
 [
-                
+        
 sys
 .
 executable
-                
+        
 mozpath
 .
 join
@@ -158,25 +156,20 @@ build
 py
 "
 )
-                
+        
 "
 gecko
 "
-                
 "
 geckolib
 "
-                
 template
-            
+    
 ]
-            
 universal_newlines
 =
 True
-        
 )
-    
 )
     
 #
@@ -292,7 +285,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -516,7 +508,6 @@ endif
 "
 "
 "
-    
 )
     
 #
@@ -708,7 +699,6 @@ flags
 .
 join
 (
-                
 "
 CSSPropFlags
 :
@@ -721,20 +711,19 @@ format
 (
 flag
 )
-                
+                               
 for
 flag
 in
 prop
 .
 flags
-                
+                               
 if
 flag
 not
 in
 COMPILE_TIME_FLAGS
-            
 )
             
 if
@@ -837,7 +826,6 @@ output
 .
 write
 (
-        
 "
 "
 "
@@ -880,5 +868,4 @@ CSS_PROP_DOMPROP_PREFIXED
 "
 "
 "
-    
 )

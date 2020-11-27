@@ -87,11 +87,11 @@ MPL
 .
 DevToolsModules
 (
-"
+'
 rule
 -
 rewriter
 .
 js
-"
+'
 )

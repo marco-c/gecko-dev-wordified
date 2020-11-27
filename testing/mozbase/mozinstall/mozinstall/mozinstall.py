@@ -326,7 +326,7 @@ isMac
         
 plist
 =
-"
+'
 %
 s
 /
@@ -335,7 +335,7 @@ Contents
 Info
 .
 plist
-"
+'
 %
 path
         
@@ -354,7 +354,7 @@ plist
 raise
 InvalidBinary
 (
-"
+'
 %
 s
 /
@@ -365,7 +365,7 @@ Info
 plist
 not
 found
-"
+'
 %
 path
 )
@@ -378,24 +378,23 @@ path
 .
 join
 (
-            
 path
-"
+'
 Contents
 /
 MacOS
 /
-"
+'
+                              
 readPlist
 (
 plist
 )
 [
-"
+'
 CFBundleExecutable
-"
+'
 ]
-        
 )
     
 else
@@ -419,10 +418,10 @@ app_name
 =
 app_name
 +
-"
+'
 .
 exe
-"
+'
         
 for
 root
@@ -630,11 +629,11 @@ src
 )
         
 if
-"
+'
 :
 /
 /
-"
+'
 in
 src
 :
@@ -765,10 +764,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 dmg
-"
+'
 )
 :
             
@@ -789,10 +788,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 exe
-"
+'
 )
 :
             
@@ -1151,10 +1150,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 dmg
-"
+'
 )
     
 elif
@@ -1194,10 +1193,10 @@ lower
 .
 endswith
 (
-"
+'
 .
 exe
-"
+'
 )
 :
             
@@ -1237,9 +1236,9 @@ in
 getattr
 (
 pe_data
-"
+'
 FileInfo
-"
+'
 [
 ]
 )
@@ -1251,9 +1250,9 @@ info
 Key
 =
 =
-"
+'
 StringFileInfo
-"
+'
 :
                         
 for
@@ -1274,9 +1273,9 @@ entries
 )
                 
 return
-"
+'
 BuildID
-"
+'
 not
 in
 data
@@ -1371,7 +1370,7 @@ isdir
 (
 install_folder
 )
-(
+\
         
 '
 installation
@@ -1385,8 +1384,6 @@ exists
 '
 %
 install_folder
-    
-)
     
 #
 On
@@ -1421,19 +1418,19 @@ isWin
         
 uninstall_folder
 =
-"
+'
 %
 s
 \
 \
 uninstall
-"
+'
 %
 install_folder
         
 log_file
 =
-"
+'
 %
 s
 \
@@ -1441,7 +1438,7 @@ s
 uninstall
 .
 log
-"
+'
 %
 uninstall_folder
         
@@ -1466,7 +1463,7 @@ try
 cmdArgs
 =
 [
-"
+'
 %
 s
 \
@@ -1476,13 +1473,13 @@ uninstall
 helper
 .
 exe
-"
+'
 %
 install_folder
-"
+'
 /
 S
-"
+'
 ]
                 
 result
@@ -1504,13 +1501,13 @@ result
 raise
 Exception
 (
-"
+'
 Execution
 of
 uninstaller
 failed
 .
-"
+'
 )
                 
 #
@@ -1591,13 +1588,13 @@ end_time
 raise
 Exception
 (
-"
+'
 Failure
 removing
 uninstall
 folder
 .
-"
+'
 )
             
 except
@@ -1620,8 +1617,7 @@ error
 =
 UninstallError
 (
-                    
-"
+'
 Failed
 to
 uninstall
@@ -1631,7 +1627,7 @@ s
 %
 s
 )
-"
+'
 %
 (
 install_folder
@@ -1640,7 +1636,6 @@ str
 ex
 )
 )
-                
 )
                 
 reraise
@@ -1825,11 +1820,11 @@ with
 open
 (
 name
-"
+'
 w
 +
 b
-"
+'
 )
 as
 fh
@@ -1968,13 +1963,10 @@ path
         
 appDir
 =
-(
-            
 subprocess
 .
 check_output
 (
-                
 '
 hdiutil
 attach
@@ -1987,61 +1979,56 @@ noautoopen
 s
 "
 '
-                
-"
+                                         
+'
 |
 grep
 /
 Volumes
 /
-"
-                
-"
+'
+                                         
+'
 |
 awk
+\
 '
 BEGIN
 {
 FS
 =
-\
 "
 \
 t
-\
 "
 }
 {
 print
 3
 }
+\
 '
-"
+'
 %
 str
 (
 src
 )
-                
+                                         
 shell
 =
 True
-            
 )
-            
 .
 strip
 (
 )
-            
 .
 decode
 (
-"
+'
 ascii
-"
-)
-        
+'
 )
         
 for
@@ -2060,10 +2047,10 @@ appFile
 .
 endswith
 (
-"
+'
 .
 app
-"
+'
 )
 :
                 
@@ -2170,6 +2157,7 @@ quiet
 '
 %
 appDir
+                                  
 shell
 =
 True
@@ -2283,9 +2271,9 @@ filename
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0
@@ -2312,14 +2300,14 @@ os
 .
 environ
 [
-"
+'
 __compat_layer
-"
+'
 ]
 =
-"
+'
 RunAsInvoker
-"
+'
     
 cmd
 =
@@ -2393,24 +2381,22 @@ parser
 .
 add_option
 (
-        
-"
+'
 -
 d
-"
-        
-"
+'
+'
 -
 -
 destination
-"
-        
+'
+                      
 dest
 =
-"
+'
 dest
-"
-        
+'
+                      
 default
 =
 os
@@ -2418,17 +2404,18 @@ os
 getcwd
 (
 )
-        
+                      
 help
 =
-"
+'
 Directory
 to
 install
 application
 into
 .
-"
+'
+                           
 '
 [
 default
@@ -2439,35 +2426,32 @@ default
 "
 ]
 '
-    
 )
     
 parser
 .
 add_option
 (
-        
-"
+'
 -
 -
 app
-"
-        
+'
 dest
 =
-"
+'
 app
-"
-        
+'
+                      
 default
 =
-"
+'
 firefox
-"
-        
+'
+                      
 help
 =
-"
+'
 Application
 being
 installed
@@ -2478,8 +2462,7 @@ default
 %
 default
 ]
-"
-    
+'
 )
     
 (
@@ -2509,7 +2492,7 @@ parser
 .
 error
 (
-"
+'
 An
 installer
 file
@@ -2518,7 +2501,7 @@ to
 be
 specified
 .
-"
+'
 )
     
 src
@@ -2641,7 +2624,7 @@ parser
 .
 error
 (
-"
+'
 An
 installation
 path
@@ -2650,7 +2633,7 @@ to
 be
 specified
 .
-"
+'
 )
     
 #

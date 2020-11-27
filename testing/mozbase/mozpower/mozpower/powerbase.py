@@ -269,9 +269,9 @@ __init__
 self
 logger_name
 =
-"
+'
 mozpower
-"
+'
 os
 =
 None
@@ -469,11 +469,11 @@ finalize_power_measurements
 self
 test_name
 =
-"
+'
 power
 -
 testing
-"
+'
 *
 *
 kwargs
@@ -685,8 +685,8 @@ Power
 Gadget
 measurements
 "
-                
 %
+                
 self
 .
 _os
@@ -726,8 +726,8 @@ location
 %
 s
 "
-                
 %
+                
 exe_path
             
 )

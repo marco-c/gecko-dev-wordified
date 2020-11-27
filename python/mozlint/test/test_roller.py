@@ -141,15 +141,15 @@ read
 (
 linters
 (
-"
+'
 string
-"
-"
+'
+'
 regex
-"
-"
+'
+'
 external
-"
+'
 )
 )
     
@@ -212,11 +212,11 @@ path
 )
 =
 =
-"
+'
 foobar
 .
 js
-"
+'
     
 errors
 =
@@ -263,11 +263,11 @@ container
 rule
 =
 =
-"
+'
 no
 -
 foobar
-"
+'
 def
 test_roll_from_subdir
 (
@@ -282,15 +282,15 @@ read
 (
 linters
 (
-"
+'
 string
-"
-"
+'
+'
 regex
-"
-"
+'
+'
 external
-"
+'
 )
 )
     
@@ -318,9 +318,9 @@ join
 lint
 .
 root
-"
+'
 files
-"
+'
 )
 )
         
@@ -337,11 +337,11 @@ lint
 .
 roll
 (
-"
+'
 foobar
 .
 js
-"
+'
 )
         
 assert
@@ -396,14 +396,14 @@ path
 .
 join
 (
-"
+'
 files
-"
-"
+'
+'
 foobar
 .
 js
-"
+'
 )
 )
         
@@ -461,14 +461,14 @@ path
 .
 join
 (
-"
+'
 files
-"
-"
+'
+'
 foobar
 .
 js
-"
+'
 )
 ]
 )
@@ -635,9 +635,9 @@ read
 (
 linters
 (
-"
+'
 raises
-"
+'
 )
 )
     
@@ -662,9 +662,9 @@ readouterr
 )
     
 assert
-"
+'
 LintException
-"
+'
 in
 err
 def
@@ -681,14 +681,14 @@ lint
 exclude
 =
 [
-"
+'
 *
 *
 /
 foobar
 .
 js
-"
+'
 ]
     
 lint
@@ -697,15 +697,15 @@ read
 (
 linters
 (
-"
+'
 string
-"
-"
+'
+'
 regex
-"
-"
+'
+'
 external
-"
+'
 )
 )
     
@@ -755,9 +755,9 @@ read
 (
 linters
 (
-"
+'
 excludes
-"
+'
 )
 )
     
@@ -807,15 +807,15 @@ read
 (
 linters
 (
-"
+'
 string
-"
-"
+'
+'
 regex
-"
-"
+'
+'
 external
-"
+'
 )
 )
     
@@ -879,13 +879,13 @@ readouterr
 )
     
 assert
-"
+'
 warning
 :
 no
 files
 linted
-"
+'
 in
 out
 def
@@ -903,9 +903,9 @@ read
 (
 linters
 (
-"
+'
 external
-"
+'
 )
 )
     
@@ -922,11 +922,11 @@ path
 join
 (
 filedir
-"
+'
 foobar
 .
 py
-"
+'
 )
 )
     
@@ -967,9 +967,9 @@ read
 (
 linters
 (
-"
+'
 badreturncode
-"
+'
 )
 )
     
@@ -1005,9 +1005,9 @@ failed
 set
 (
 [
-"
+'
 BadReturnCodeLinter
-"
+'
 ]
 )
 def
@@ -1025,9 +1025,9 @@ read
 (
 linters
 (
-"
+'
 warning
-"
+'
 )
 )
     
@@ -1082,9 +1082,9 @@ lint
 .
 lintargs
 [
-"
+'
 show_warnings
-"
+'
 ]
 =
 True
@@ -1152,9 +1152,9 @@ ResultSummary
 (
 lintargs
 [
-"
+'
 root
-"
+'
 ]
 )
     
@@ -1162,9 +1162,9 @@ result
 .
 issues
 [
-"
+'
 count
-"
+'
 ]
 .
 append
@@ -1180,7 +1180,6 @@ mark
 .
 skipif
 (
-    
 platform
 .
 system
@@ -1188,10 +1187,10 @@ system
 )
 =
 =
-"
+'
 Windows
-"
-    
+'
+                    
 reason
 =
 "
@@ -1209,9 +1208,9 @@ mark
 .
 parametrize
 (
-"
+'
 num_procs
-"
+'
 [
 1
 4
@@ -1242,9 +1241,9 @@ lint
 .
 __module__
 ]
-"
+'
 _run_worker
-"
+'
 fake_run_worker
 )
     
@@ -1252,15 +1251,15 @@ linters
 =
 linters
 (
-"
+'
 string
-"
-"
+'
+'
 regex
-"
-"
+'
+'
 external
-"
+'
 )
     
 lint
@@ -1286,9 +1285,9 @@ num_procs
 .
 issues
 [
-"
+'
 count
-"
+'
 ]
 )
     
@@ -1335,7 +1334,6 @@ mark
 .
 skipif
 (
-    
 platform
 .
 system
@@ -1343,10 +1341,10 @@ system
 )
 =
 =
-"
+'
 Windows
-"
-    
+'
+                    
 reason
 =
 "
@@ -1364,10 +1362,10 @@ mark
 .
 parametrize
 (
-"
+'
 max_paths
 expected_jobs
-"
+'
 [
 (
 1
@@ -1407,9 +1405,9 @@ lint
 .
 __module__
 ]
-"
+'
 _run_worker
-"
+'
 fake_run_worker
 )
     
@@ -1434,15 +1432,15 @@ linters
 =
 linters
 (
-"
+'
 string
-"
-"
+'
+'
 regex
-"
-"
+'
+'
 external
-"
+'
 )
 [
 :
@@ -1487,9 +1485,9 @@ num_procs
 .
 issues
 [
-"
+'
 count
-"
+'
 ]
 )
     
@@ -1504,7 +1502,6 @@ mark
 .
 skipif
 (
-    
 platform
 .
 system
@@ -1512,10 +1509,10 @@ system
 )
 =
 =
-"
+'
 Windows
-"
-    
+'
+                    
 reason
 =
 "
@@ -1533,9 +1530,9 @@ mark
 .
 parametrize
 (
-"
+'
 num_procs
-"
+'
 [
 1
 4
@@ -1566,9 +1563,9 @@ lint
 .
 __module__
 ]
-"
+'
 _run_worker
-"
+'
 fake_run_worker
 )
     
@@ -1576,9 +1573,9 @@ linters
 =
 linters
 (
-"
+'
 global
-"
+'
 )
     
 lint
@@ -1604,9 +1601,9 @@ num_procs
 .
 issues
 [
-"
+'
 count
-"
+'
 ]
 )
     
@@ -1621,7 +1618,6 @@ mark
 .
 skipif
 (
-    
 platform
 .
 system
@@ -1629,10 +1625,10 @@ system
 )
 =
 =
-"
+'
 Windows
-"
-    
+'
+                    
 reason
 =
 "
@@ -1650,9 +1646,9 @@ mark
 .
 parametrize
 (
-"
+'
 max_paths
-"
+'
 [
 1
 4
@@ -1682,9 +1678,9 @@ lint
 .
 __module__
 ]
-"
+'
 _run_worker
-"
+'
 fake_run_worker
 )
     
@@ -1709,9 +1705,9 @@ linters
 =
 linters
 (
-"
+'
 global
-"
+'
 )
 [
 :
@@ -1756,9 +1752,9 @@ num_procs
 .
 issues
 [
-"
+'
 count
-"
+'
 ]
 )
     
@@ -1773,7 +1769,6 @@ mark
 .
 skipif
 (
-    
 platform
 .
 system
@@ -1781,10 +1776,10 @@ system
 )
 =
 =
-"
+'
 Windows
-"
-    
+'
+                    
 reason
 =
 "
@@ -1881,23 +1876,23 @@ cmd
 sys
 .
 executable
-"
+'
 runcli
 .
 py
-"
-"
+'
+'
 -
 l
 =
 string
-"
-"
+'
+'
 -
 l
 =
 slow
-"
+'
 ]
     
 env
@@ -1912,9 +1907,9 @@ copy
     
 env
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
 os
@@ -1934,33 +1929,27 @@ subprocess
 .
 Popen
 (
-        
 cmd
-        
 stdout
 =
 subprocess
 .
 PIPE
-        
 stderr
 =
 subprocess
 .
 STDOUT
-        
+                            
 cwd
 =
 here
-        
 env
 =
 env
-        
 universal_newlines
 =
 True
-    
 )
     
 time
@@ -1996,7 +1985,7 @@ out
 )
     
 assert
-"
+'
 warning
 :
 not
@@ -2004,22 +1993,22 @@ all
 files
 were
 linted
-"
+'
 in
 out
     
 assert
-"
+'
 2
 problems
-"
+'
 in
 out
     
 assert
-"
+'
 Traceback
-"
+'
 not
 in
 out
@@ -2117,9 +2106,9 @@ monkeypatch
 setattr
 (
 lint
-"
+'
 _generate_jobs
-"
+'
 fake_generate_jobs
 )
     
@@ -2127,9 +2116,9 @@ linter_path
 =
 linters
 (
-"
+'
 support_files
-"
+'
 )
 [
 0
@@ -2179,11 +2168,11 @@ path
 join
 (
 filedir
-"
+'
 foobar
 .
 js
-"
+'
 )
     
 lint
@@ -2198,11 +2187,11 @@ path
 join
 (
 filedir
-"
+'
 foobar
 .
 py
-"
+'
 )
 ]
 )
@@ -2435,15 +2424,15 @@ read
 (
 linters
 (
-"
+'
 setup
-"
-"
+'
+'
 setupfailed
-"
-"
+'
+'
 setupraised
-"
+'
 )
 )
     
@@ -2463,31 +2452,31 @@ readouterr
 )
     
 assert
-"
+'
 setup
 passed
-"
+'
 in
 out
     
 assert
-"
+'
 setup
 failed
-"
+'
 in
 out
     
 assert
-"
+'
 setup
 raised
-"
+'
 in
 out
     
 assert
-"
+'
 error
 :
 problem
@@ -2495,7 +2484,7 @@ with
 lint
 setup
 skipping
-"
+'
 in
 out
     
@@ -2510,21 +2499,21 @@ failed_setup
 set
 (
 [
-"
+'
 SetupFailedLinter
-"
-"
+'
+'
 SetupRaisedLinter
-"
+'
 ]
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

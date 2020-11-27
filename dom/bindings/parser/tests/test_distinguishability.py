@@ -34,7 +34,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -147,7 +146,6 @@ arg
 "
 "
 "
-    
 )
     
 results
@@ -247,6 +245,7 @@ dictionary
 type
 "
 )
+;
     
 harness
 .
@@ -264,6 +263,7 @@ interface
 type
 "
 )
+;
     
 harness
 .
@@ -282,12 +282,12 @@ interface
 type
 "
 )
+;
     
 harness
 .
 ok
 (
-        
 not
 dictType
 .
@@ -295,7 +295,7 @@ isDistinguishableFrom
 (
 ifaceType
 )
-        
+               
 "
 Dictionary
 not
@@ -304,14 +304,12 @@ from
 callback
 interface
 "
-    
 )
     
 harness
 .
 ok
 (
-        
 not
 ifaceType
 .
@@ -319,7 +317,7 @@ isDistinguishableFrom
 (
 dictType
 )
-        
+               
 "
 Callback
 interface
@@ -328,7 +326,6 @@ distinguishable
 from
 dictionary
 "
-    
 )
     
 nullableUnionType
@@ -361,6 +358,7 @@ union
 type
 "
 )
+;
     
 harness
 .
@@ -378,6 +376,7 @@ interface
 type
 "
 )
+;
     
 harness
 .
@@ -395,12 +394,12 @@ nullable
 type
 "
 )
+;
     
 harness
 .
 ok
 (
-        
 not
 nullableUnionType
 .
@@ -408,7 +407,7 @@ isDistinguishableFrom
 (
 nullableIfaceType
 )
-        
+               
 "
 Nullable
 type
@@ -419,18 +418,17 @@ union
 with
 nullable
 "
+               
 "
 member
 type
 "
-    
 )
     
 harness
 .
 ok
 (
-        
 not
 nullableIfaceType
 .
@@ -438,7 +436,7 @@ isDistinguishableFrom
 (
 nullableUnionType
 )
-        
+               
 "
 Union
 with
@@ -449,11 +447,11 @@ not
 distinguishable
 from
 "
+               
 "
 nullable
 type
 "
-    
 )
     
 parser
@@ -468,7 +466,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -573,7 +570,6 @@ Unrelated2
 "
 "
 "
-    
 )
     
 results
@@ -656,37 +652,38 @@ argTypes
             
 distinguishable
 =
+(
 type1
 is
 not
 type2
 and
+                               
 (
-                
 type1
 in
 unrelatedTypes
 or
+                                
 type2
 in
 unrelatedTypes
-            
+)
 )
             
 harness
 .
 check
 (
-                
 type1
 .
 isDistinguishableFrom
 (
 type2
 )
-                
+                          
 distinguishable
-                
+                          
 "
 Type
 %
@@ -700,8 +697,8 @@ type
 %
 s
 "
-                
 %
+                          
 (
 type1
 "
@@ -714,23 +711,21 @@ not
 "
 type2
 )
-            
 )
             
 harness
 .
 check
 (
-                
 type2
 .
 isDistinguishableFrom
 (
 type1
 )
-                
+                          
 distinguishable
-                
+                          
 "
 Type
 %
@@ -744,8 +739,8 @@ type
 %
 s
 "
-                
 %
+                          
 (
 type2
 "
@@ -758,7 +753,6 @@ not
 "
 type1
 )
-            
 )
     
 parser
@@ -773,7 +767,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -836,7 +829,6 @@ arg3
 "
 "
 "
-    
 )
     
 results
@@ -861,6 +853,7 @@ results
 members
 )
 1
+                  
 "
 Should
 look
@@ -876,7 +869,6 @@ harness
 .
 check
 (
-        
 len
 (
 results
@@ -894,13 +886,13 @@ signatures
 )
 )
 4
+                  
 "
 Should
 have
 four
 signatures
 "
-    
 )
     
 parser
@@ -922,7 +914,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -985,7 +976,6 @@ arg3
 "
 "
 "
-        
 )
         
 results
@@ -1007,9 +997,8 @@ harness
 .
 ok
 (
-        
 threw
-        
+               
 "
 Should
 throw
@@ -1022,14 +1011,13 @@ arg
 are
 not
 "
-        
+               
 "
 all
 the
 same
 type
 "
-    
 )
     
 parser
@@ -1051,7 +1039,6 @@ parser
 .
 parse
 (
-            
 "
 "
 "
@@ -1114,7 +1101,6 @@ arg3
 "
 "
 "
-        
 )
         
 results
@@ -1163,118 +1149,99 @@ table
 argTypes
 =
 [
-        
 "
 long
 "
-        
 "
 short
 "
-        
 "
 long
 ?
 "
-        
 "
 short
 ?
 "
-        
 "
 boolean
 "
-        
+                 
 "
 boolean
 ?
 "
-        
 "
 DOMString
 "
-        
 "
 ByteString
 "
-        
 "
 UTF8String
 "
-        
 "
 Enum
 "
-        
 "
 Enum2
 "
-        
+                 
 "
 Interface
 "
-        
 "
 Interface
 ?
 "
-        
+                 
 "
 AncestorInterface
 "
-        
 "
 UnrelatedInterface
 "
-        
 "
 CallbackInterface
 "
-        
+                 
 "
 CallbackInterface
 ?
 "
-        
 "
 CallbackInterface2
 "
-        
+                 
 "
 object
 "
-        
 "
 Callback
 "
-        
 "
 Callback2
 "
-        
 "
 Dict
 "
-        
+                 
 "
 Dict2
 "
-        
 "
 sequence
 <
 long
 >
 "
-        
 "
 sequence
 <
 short
 >
 "
-        
+                 
 "
 record
 <
@@ -1282,7 +1249,7 @@ DOMString
 object
 >
 "
-        
+                 
 "
 record
 <
@@ -1290,7 +1257,7 @@ USVString
 Dict
 >
 "
-        
+                 
 "
 record
 <
@@ -1298,7 +1265,7 @@ ByteString
 long
 >
 "
-        
+                 
 "
 record
 <
@@ -1306,18 +1273,16 @@ UTF8String
 long
 >
 "
-        
+                 
 "
 any
 "
-        
 "
 Promise
 <
 any
 >
 "
-        
 "
 Promise
 <
@@ -1325,31 +1290,27 @@ any
 >
 ?
 "
-        
+                 
 "
 USVString
 "
-        
 "
 JSString
 "
-        
 "
 ArrayBuffer
 "
-        
 "
 ArrayBufferView
 "
-        
+                 
 "
 Uint8Array
 "
-        
 "
 Uint16Array
 "
-        
+                 
 "
 (
 long
@@ -1357,7 +1318,6 @@ or
 Callback
 )
 "
-        
 "
 (
 long
@@ -1391,21 +1351,18 @@ list2
         
 return
 [
-            
 a
-            
 for
 a
 in
 list1
-            
 if
 a
 not
 in
 list2
-            
 and
+                
 (
 a
 !
@@ -1435,7 +1392,6 @@ any
 ?
 "
 )
-        
 ]
     
 unions
@@ -1515,35 +1471,27 @@ booleans
 strings
 =
 [
-        
 "
 DOMString
 "
-        
 "
 ByteString
 "
-        
 "
 Enum
 "
-        
 "
 Enum2
 "
-        
 "
 USVString
 "
-        
 "
 JSString
 "
-        
 "
 UTF8String
 "
-    
 ]
     
 nonStrings
@@ -1588,74 +1536,63 @@ Uint16Array
 interfaces
 =
 [
-        
 "
 Interface
 "
-        
 "
 Interface
 ?
 "
-        
 "
 AncestorInterface
 "
-        
+                   
 "
 UnrelatedInterface
 "
-    
 ]
 +
 bufferSourceTypes
     
 nullables
 =
+(
 [
-        
 "
 long
 ?
 "
-        
 "
 short
 ?
 "
-        
 "
 boolean
 ?
 "
-        
 "
 Interface
 ?
 "
-        
+                  
 "
 CallbackInterface
 ?
 "
-        
 "
 Dict
 "
-        
 "
 Dict2
 "
-        
+                  
 "
 Date
 ?
 "
-        
 "
 any
 "
-        
 "
 Promise
 <
@@ -1663,9 +1600,9 @@ any
 >
 ?
 "
-    
 ]
 +
+                 
 allBut
 (
 unions
@@ -1678,6 +1615,7 @@ Callback
 )
 "
 ]
+)
 )
     
 sequences
@@ -1722,31 +1660,25 @@ object
 notRelatedInterfaces
 =
 (
-        
 nonObjects
-        
 +
 [
 "
 UnrelatedInterface
 "
 ]
-        
 +
+                            
 otherObjects
-        
 +
 sequences
-        
 +
 bufferSourceTypes
-    
 )
     
 records
 =
 [
-        
 "
 record
 <
@@ -1754,7 +1686,6 @@ DOMString
 object
 >
 "
-        
 "
 record
 <
@@ -1762,7 +1693,7 @@ USVString
 Dict
 >
 "
-        
+                
 "
 record
 <
@@ -1770,7 +1701,6 @@ ByteString
 long
 >
 "
-        
 "
 record
 <
@@ -1778,7 +1708,6 @@ UTF8String
 long
 >
 "
-    
 ]
 #
 JSString
@@ -1816,6 +1745,7 @@ data
 dict
 (
 )
+;
     
 for
 type
@@ -2006,10 +1936,10 @@ notRelatedInterfaces
     
 setDistinguishable
 (
-        
 "
 UnrelatedInterface
 "
+                       
 allBut
 (
 argTypes
@@ -2022,7 +1952,6 @@ UnrelatedInterface
 "
 ]
 )
-    
 )
     
 setDistinguishable
@@ -2110,6 +2039,7 @@ sequence
 long
 >
 "
+                       
 allBut
 (
 argTypes
@@ -2131,6 +2061,7 @@ sequence
 short
 >
 "
+                       
 allBut
 (
 argTypes
@@ -2254,11 +2185,9 @@ object
     
 setDistinguishable
 (
-        
 "
 ArrayBufferView
 "
-        
 allBut
 (
 argTypes
@@ -2277,12 +2206,10 @@ object
 "
 ]
 )
-    
 )
     
 setDistinguishable
 (
-        
 "
 Uint8Array
 "
@@ -2301,12 +2228,10 @@ object
 "
 ]
 )
-    
 )
     
 setDistinguishable
 (
-        
 "
 Uint16Array
 "
@@ -2325,7 +2250,6 @@ object
 "
 ]
 )
-    
 )
     
 setDistinguishable
@@ -2337,6 +2261,7 @@ or
 Callback
 )
 "
+                       
 allBut
 (
 nonUserObjects
@@ -2353,6 +2278,7 @@ or
 Dict
 )
 "
+                       
 allBut
 (
 nonUserObjects
@@ -2618,10 +2544,9 @@ harness
 .
 ok
 (
-                
 not
 threw
-                
+                       
 "
 Should
 not
@@ -2641,13 +2566,11 @@ they
 are
 distinguishable
 "
-                
 %
 (
 type1
 type2
 )
-            
 )
         
 else
@@ -2657,9 +2580,8 @@ harness
 .
 ok
 (
-                
 threw
-                
+                       
 "
 Should
 throw
@@ -2679,13 +2601,11 @@ are
 not
 distinguishable
 "
-                
 %
 (
 type1
 type2
 )
-            
 )
     
 #

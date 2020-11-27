@@ -186,14 +186,14 @@ path
 join
 (
 topsrcdir
-"
+'
 build
-"
-"
+'
+'
 moz
 .
 configure
-"
+'
 )
                 
 sandbox
@@ -207,11 +207,11 @@ path
 join
 (
 base_dir
-"
+'
 checks
 .
 configure
-"
+'
 )
 )
                 
@@ -223,9 +223,9 @@ sandbox
                 
 sandbox
 [
-"
+'
 foo
-"
+'
 ]
 (
 val
@@ -250,15 +250,13 @@ test
 =
 make_test
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 checking
 (
@@ -279,18 +277,16 @@ value
 return
 value
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 test
 (
 True
-"
+'
 checking
 for
 a
@@ -301,13 +297,13 @@ thing
 yes
 \
 n
-"
+'
 )
         
 test
 (
 False
-"
+'
 checking
 for
 a
@@ -318,13 +314,13 @@ thing
 no
 \
 n
-"
+'
 )
         
 test
 (
 42
-"
+'
 checking
 for
 a
@@ -335,15 +331,15 @@ thing
 42
 \
 n
-"
+'
 )
         
 test
 (
-"
+'
 foo
-"
-"
+'
+'
 checking
 for
 a
@@ -354,24 +350,24 @@ thing
 foo
 \
 n
-"
+'
 )
         
 data
 =
 [
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 ]
         
 test
 (
 data
-"
+'
 checking
 for
 a
@@ -383,7 +379,7 @@ thing
 r
 \
 n
-"
+'
 %
 data
 )
@@ -410,15 +406,13 @@ test
 =
 make_test
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 checking
 (
@@ -443,18 +437,16 @@ value
 return
 value
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 test
 (
 True
-"
+'
 checking
 for
 a
@@ -465,13 +457,13 @@ thing
 yes
 \
 n
-"
+'
 )
         
 test
 (
 False
-"
+'
 checking
 for
 a
@@ -482,13 +474,13 @@ thing
 no
 \
 n
-"
+'
 )
         
 test
 (
 42
-"
+'
 checking
 for
 a
@@ -499,15 +491,15 @@ thing
 42
 \
 n
-"
+'
 )
         
 test
 (
-"
+'
 foo
-"
-"
+'
+'
 checking
 for
 a
@@ -518,24 +510,24 @@ thing
 foo
 \
 n
-"
+'
 )
         
 data
 =
 [
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 ]
         
 test
 (
 data
-"
+'
 checking
 for
 a
@@ -547,7 +539,7 @@ thing
 r
 \
 n
-"
+'
 %
 data
 )
@@ -556,15 +548,13 @@ test
 =
 make_test
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 def
 munge
@@ -628,18 +618,16 @@ value
 return
 value
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 test
 (
 True
-"
+'
 checking
 for
 a
@@ -650,13 +638,13 @@ thing
 yes
 \
 n
-"
+'
 )
         
 test
 (
 False
-"
+'
 checking
 for
 a
@@ -668,13 +656,13 @@ not
 found
 \
 n
-"
+'
 )
         
 test
 (
 42
-"
+'
 checking
 for
 a
@@ -685,15 +673,15 @@ thing
 42
 \
 n
-"
+'
 )
         
 test
 (
-"
+'
 foo
-"
-"
+'
+'
 checking
 for
 a
@@ -704,24 +692,24 @@ thing
 foo
 \
 n
-"
+'
 )
         
 data
 =
 [
-"
+'
 foo
-"
-"
+'
+'
 bar
-"
+'
 ]
         
 test
 (
 data
-"
+'
 checking
 for
 a
@@ -733,7 +721,7 @@ foo
 bar
 \
 n
-"
+'
 )
     
 KNOWN_A
@@ -744,7 +732,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
@@ -753,7 +741,7 @@ bin
 known
 -
 a
-"
+'
 )
 )
     
@@ -765,7 +753,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
@@ -776,7 +764,7 @@ bin
 known
 -
 b
-"
+'
 )
 )
     
@@ -788,7 +776,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 home
 /
@@ -798,7 +786,7 @@ bin
 /
 known
 c
-"
+'
 )
 )
     
@@ -810,7 +798,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 lib
 /
@@ -819,59 +807,53 @@ other
 known
 -
 a
-"
+'
 )
 )
     
 def
 get_result
 (
-        
 self
-        
 command
 =
-"
-"
-        
+'
+'
 args
 =
 [
 ]
-        
 environ
 =
 {
 }
-        
+                   
 prog
 =
-"
+'
 /
 bin
 /
 configure
-"
-        
+'
 extra_paths
 =
 None
-        
+                   
 includes
 =
 (
-"
+'
 util
 .
 configure
-"
-"
+'
+'
 checks
 .
 configure
-"
+'
 )
-    
 )
 :
         
@@ -929,9 +911,9 @@ environ
 )
         
 if
-"
+'
 PATH
-"
+'
 not
 in
 environ
@@ -939,9 +921,9 @@ environ
             
 environ
 [
-"
+'
 PATH
-"
+'
 ]
 =
 os
@@ -985,6 +967,7 @@ prog
 ]
 +
 args
+                                       
 out
 out
 )
@@ -998,14 +981,14 @@ path
 join
 (
 topsrcdir
-"
+'
 build
-"
-"
+'
+'
 moz
 .
 configure
-"
+'
 )
         
 for
@@ -1084,6 +1067,7 @@ self
 .
 get_result
 (
+            
 '
 check_prog
 (
@@ -1115,9 +1099,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -1130,7 +1114,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -1141,7 +1125,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -1179,7 +1163,6 @@ c
 )
 )
 '
-        
 )
         
 self
@@ -1196,9 +1179,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -1211,7 +1194,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -1222,7 +1205,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -1260,7 +1243,6 @@ c
 )
 )
 '
-        
 )
         
 self
@@ -1277,9 +1259,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 fake_short_path
 (
@@ -1294,7 +1276,6 @@ self
 .
 assertEqual
 (
-            
 out
 "
 checking
@@ -1308,6 +1289,7 @@ s
 \
 n
 "
+                              
 %
 shell_quote
 (
@@ -1318,7 +1300,6 @@ self
 KNOWN_C
 )
 )
-        
 )
         
 config
@@ -1329,6 +1310,7 @@ self
 .
 get_result
 (
+            
 '
 check_prog
 (
@@ -1365,17 +1347,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -1400,12 +1379,10 @@ Cannot
 find
 foo
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -1439,7 +1416,6 @@ unknown
 )
 )
 '
-        
 )
         
 self
@@ -1463,17 +1439,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -1517,12 +1490,10 @@ Cannot
 find
 foo
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -1556,13 +1527,12 @@ unknown
 )
 '
             
-"
+'
 allow_missing
 =
 True
 )
-"
-        
+'
 )
         
 self
@@ -1587,7 +1557,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -1598,7 +1568,7 @@ not
 found
 \
 n
-"
+'
 )
     
 unittest
@@ -1612,16 +1582,16 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
-"
+'
 Windows
 -
 only
 test
-"
+'
 )
     
 def
@@ -1662,8 +1632,9 @@ c
 )
 )
 '
+            
 [
-"
+'
 FOO
 =
 known
@@ -1671,9 +1642,8 @@ known
 a
 .
 exe
-"
+'
 ]
-        
 )
         
 self
@@ -1690,9 +1660,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -1705,7 +1675,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -1716,7 +1686,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -1756,12 +1726,12 @@ c
 '
             
 [
-"
+'
 FOO
 =
 %
 s
-"
+'
 %
 os
 .
@@ -1777,7 +1747,6 @@ KNOWN_A
 0
 ]
 ]
-        
 )
         
 self
@@ -1794,9 +1763,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -1809,7 +1778,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -1820,7 +1789,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -1865,16 +1834,16 @@ c
 )
 )
 '
+            
 [
-"
+'
 FOO
 =
 known
 -
 a
-"
+'
 ]
-        
 )
         
 self
@@ -1891,9 +1860,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -1906,7 +1875,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -1917,7 +1886,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -1957,18 +1926,17 @@ c
 '
             
 [
-"
+'
 FOO
 =
 %
 s
-"
+'
 %
 self
 .
 KNOWN_A
 ]
-        
 )
         
 self
@@ -1985,9 +1953,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -2000,7 +1968,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -2011,7 +1979,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -2026,16 +1994,16 @@ KNOWN_B
 .
 replace
 (
-"
+'
 known
 -
 b
-"
-"
+'
+'
 known
 -
 a
-"
+'
 )
         
 config
@@ -2069,17 +2037,17 @@ c
 )
 )
 '
+            
 [
-"
+'
 FOO
 =
 %
 s
-"
+'
 %
 path
 ]
-        
 )
         
 self
@@ -2103,17 +2071,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -2139,15 +2104,12 @@ Cannot
 find
 foo
         
-"
-"
-"
-            
+'
+'
+'
 )
-            
 %
 path
-        
 )
         
 config
@@ -2172,15 +2134,15 @@ unknown
 )
 )
 '
+            
 [
-"
+'
 FOO
 =
 known
 c
-"
+'
 ]
-        
 )
         
 self
@@ -2197,9 +2159,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 fake_short_path
 (
@@ -2214,7 +2176,6 @@ self
 .
 assertEqual
 (
-            
 out
 "
 checking
@@ -2228,6 +2189,7 @@ s
 \
 n
 "
+                              
 %
 shell_quote
 (
@@ -2238,7 +2200,6 @@ self
 KNOWN_C
 )
 )
-        
 )
         
 config
@@ -2272,21 +2233,19 @@ unknown
 )
 '
             
-"
+'
 allow_missing
 =
 True
 )
-"
-            
+'
 [
-"
+'
 FOO
 =
 unknown
-"
+'
 ]
-        
 )
         
 self
@@ -2310,17 +2269,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -2345,12 +2301,10 @@ Cannot
 find
 foo
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
     
 def
@@ -2392,7 +2346,6 @@ compiler
 "
 )
 '
-        
 )
         
 self
@@ -2409,9 +2362,9 @@ assertEqual
 (
 config
 {
-"
+'
 CC
-"
+'
 :
 self
 .
@@ -2425,7 +2378,7 @@ assertEqual
 (
             
 out
-"
+'
 checking
 for
 the
@@ -2439,12 +2392,11 @@ compiler
 s
 \
 n
-"
+'
 %
 self
 .
 KNOWN_A
-        
 )
         
 config
@@ -2489,7 +2441,6 @@ compiler
 "
 )
 '
-        
 )
         
 self
@@ -2513,17 +2464,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -2573,12 +2521,10 @@ target
 C
 compiler
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
     
 def
@@ -2596,15 +2542,13 @@ self
 .
 get_result
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -2648,14 +2592,12 @@ ccache
 "
 )
         
-"
-"
-"
-            
+'
+'
+'
 )
-            
 [
-"
+'
 -
 -
 with
@@ -2665,9 +2607,8 @@ ccache
 known
 -
 b
-"
+'
 ]
-        
 )
         
 self
@@ -2684,9 +2625,9 @@ assertEqual
 (
 config
 {
-"
+'
 CCACHE
-"
+'
 :
 self
 .
@@ -2699,7 +2640,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 ccache
@@ -2710,7 +2651,7 @@ ccache
 s
 \
 n
-"
+'
 %
 self
 .
@@ -2723,10 +2664,9 @@ textwrap
 .
 dedent
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -2793,10 +2733,9 @@ input
 compiler
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
         
 config
@@ -2824,9 +2763,9 @@ assertEqual
 (
 config
 {
-"
+'
 CC
-"
+'
 :
 self
 .
@@ -2839,7 +2778,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 cc
@@ -2850,7 +2789,7 @@ cc
 s
 \
 n
-"
+'
 %
 self
 .
@@ -2867,13 +2806,13 @@ get_result
 (
 script
 [
-"
+'
 CC
 =
 known
 -
 b
-"
+'
 ]
 )
         
@@ -2891,9 +2830,9 @@ assertEqual
 (
 config
 {
-"
+'
 CC
-"
+'
 :
 self
 .
@@ -2906,7 +2845,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 cc
@@ -2917,7 +2856,7 @@ cc
 s
 \
 n
-"
+'
 %
 self
 .
@@ -2934,7 +2873,7 @@ get_result
 (
 script
 [
-"
+'
 CC
 =
 known
@@ -2942,7 +2881,7 @@ known
 b
 -
 m32
-"
+'
 ]
 )
         
@@ -2960,9 +2899,9 @@ assertEqual
 (
 config
 {
-"
+'
 CC
-"
+'
 :
 self
 .
@@ -2975,7 +2914,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 cc
@@ -2986,7 +2925,7 @@ cc
 s
 \
 n
-"
+'
 %
 self
 .
@@ -3008,6 +2947,7 @@ self
 .
 get_result
 (
+            
 '
 check_prog
 (
@@ -3042,8 +2982,8 @@ self
 assertEqual
 (
 out
-"
-"
+'
+'
 )
         
 config
@@ -3054,6 +2994,7 @@ self
 .
 get_result
 (
+            
 '
 check_prog
 (
@@ -3065,13 +3006,13 @@ FOO
 )
 '
 [
-"
+'
 FOO
 =
 known
 -
 a
-"
+'
 ]
 )
         
@@ -3089,9 +3030,9 @@ assertEqual
 (
 config
 {
-"
+'
 FOO
-"
+'
 :
 self
 .
@@ -3104,7 +3045,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 foo
@@ -3115,7 +3056,7 @@ foo
 s
 \
 n
-"
+'
 %
 self
 .
@@ -3128,10 +3069,9 @@ textwrap
 .
 dedent
 (
-            
-"
-"
-"
+'
+'
+'
             
 option
 (
@@ -3227,10 +3167,9 @@ CC
 compiler
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
         
 config
@@ -3265,17 +3204,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -3307,12 +3243,10 @@ Cannot
 find
 cc
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -3325,11 +3259,11 @@ get_result
 (
 script
 [
-"
+'
 TARGET
 =
 linux
-"
+'
 ]
 )
         
@@ -3354,17 +3288,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -3396,12 +3327,10 @@ Cannot
 find
 cc
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -3414,11 +3343,11 @@ get_result
 (
 script
 [
-"
+'
 TARGET
 =
 winnt
-"
+'
 ]
 )
         
@@ -3443,17 +3372,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -3487,12 +3413,10 @@ Cannot
 find
 cc
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -3505,11 +3429,11 @@ get_result
 (
 script
 [
-"
+'
 TARGET
 =
 none
-"
+'
 ]
 )
         
@@ -3535,8 +3459,8 @@ self
 assertEqual
 (
 out
-"
-"
+'
+'
 )
         
 config
@@ -3549,18 +3473,19 @@ get_result
 (
 script
 [
-"
+'
 TARGET
 =
 winnt
-"
-"
+'
+                                                       
+'
 CC
 =
 known
 -
 a
-"
+'
 ]
 )
         
@@ -3578,9 +3503,9 @@ assertEqual
 (
 config
 {
-"
+'
 CC
-"
+'
 :
 self
 .
@@ -3593,7 +3518,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 cc
@@ -3604,7 +3529,7 @@ cc
 s
 \
 n
-"
+'
 %
 self
 .
@@ -3621,18 +3546,19 @@ get_result
 (
 script
 [
-"
+'
 TARGET
 =
 none
-"
-"
+'
+                                                       
+'
 CC
 =
 known
 -
 a
-"
+'
 ]
 )
         
@@ -3650,9 +3576,9 @@ assertEqual
 (
 config
 {
-"
+'
 CC
-"
+'
 :
 self
 .
@@ -3665,7 +3591,7 @@ self
 assertEqual
 (
 out
-"
+'
 checking
 for
 cc
@@ -3676,7 +3602,7 @@ cc
 s
 \
 n
-"
+'
 %
 self
 .
@@ -3728,7 +3654,8 @@ e
 .
 exception
 )
-"
+                         
+'
 progs
 must
 resolve
@@ -3738,7 +3665,7 @@ list
 or
 tuple
 !
-"
+'
 )
         
 with
@@ -3807,15 +3734,14 @@ self
 .
 assertEqual
 (
-            
 str
 (
 e
 .
 exception
 )
-            
-"
+                         
+'
 input
 must
 resolve
@@ -3827,16 +3753,15 @@ a
 list
 with
 a
-"
-            
-"
+'
+                         
+'
 single
 element
 or
 a
 string
-"
-        
+'
 )
         
 with
@@ -3906,15 +3831,14 @@ self
 .
 assertEqual
 (
-            
 str
 (
 e
 .
 exception
 )
-            
-"
+                         
+'
 input
 must
 resolve
@@ -3926,16 +3850,15 @@ a
 list
 with
 a
-"
-            
-"
+'
+                         
+'
 single
 element
 or
 a
 string
-"
-        
+'
 )
     
 def
@@ -3979,7 +3902,6 @@ path
 ]
 )
 '
-        
 )
         
 self
@@ -4003,17 +3925,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -4040,12 +3959,10 @@ Cannot
 find
 a
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -4056,7 +3973,6 @@ self
 .
 get_result
 (
-            
 '
 check_prog
 (
@@ -4080,8 +3996,8 @@ s
 ]
 )
 '
-            
 %
+                                              
 os
 .
 path
@@ -4092,7 +4008,6 @@ self
 .
 OTHER_A
 )
-        
 )
         
 self
@@ -4109,9 +4024,9 @@ assertEqual
 (
 config
 {
-"
+'
 A
-"
+'
 :
 self
 .
@@ -4123,17 +4038,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -4145,17 +4057,14 @@ a
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 self
 .
 OTHER_A
-            
 )
-        
 )
         
 dirs
@@ -4183,15 +4092,13 @@ self
 .
 get_result
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 check_prog
@@ -4216,10 +4123,9 @@ s
 ]
 )
         
-"
-"
-"
-                
+'
+'
+'
 %
 os
 .
@@ -4229,9 +4135,7 @@ join
 (
 dirs
 )
-            
 )
-        
 )
         
 self
@@ -4248,9 +4152,9 @@ assertEqual
 (
 config
 {
-"
+'
 A
-"
+'
 :
 self
 .
@@ -4262,17 +4166,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -4284,17 +4185,14 @@ a
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 self
 .
 OTHER_A
-            
 )
-        
 )
         
 dirs
@@ -4322,15 +4220,13 @@ self
 .
 get_result
 (
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 check_prog
@@ -4359,10 +4255,9 @@ s
 ]
 )
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 os
@@ -4377,9 +4272,7 @@ self
 .
 OTHER_A
 )
-            
 )
-        
 )
         
 self
@@ -4396,9 +4289,9 @@ assertEqual
 (
 config
 {
-"
+'
 A
-"
+'
 :
 self
 .
@@ -4410,17 +4303,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -4432,17 +4322,14 @@ a
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 self
 .
 KNOWN_A
-            
 )
-        
 )
         
 config
@@ -4453,7 +4340,6 @@ self
 .
 get_result
 (
-            
 '
 check_prog
 (
@@ -4476,6 +4362,7 @@ s
 )
 '
 %
+                                              
 os
 .
 path
@@ -4486,7 +4373,6 @@ self
 .
 OTHER_A
 )
-        
 )
         
 self
@@ -4510,17 +4396,14 @@ self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -4529,9 +4412,9 @@ a
 .
 .
 .
-"
-"
-"
+'
+'
+'
 #
 noqa
 #
@@ -4541,9 +4424,9 @@ whitespace
 .
 .
                 
-"
-"
-"
+'
+'
+'
             
 DEBUG
 :
@@ -4570,10 +4453,9 @@ not
 %
 r
         
-"
-"
-"
-                
+'
+'
+'
 %
 mozpath
 .
@@ -4583,9 +4465,7 @@ self
 .
 OTHER_A
 )
-            
 )
-        
 )
     
 def
@@ -4613,14 +4493,14 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
 bin
 /
 java
-"
+'
 )
         
 jarsigner
@@ -4629,14 +4509,14 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
 bin
 /
 jarsigner
-"
+'
 )
         
 keytool
@@ -4645,14 +4525,14 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
 bin
 /
 keytool
-"
+'
 )
         
 paths
@@ -4679,10 +4559,9 @@ textwrap
 .
 dedent
 (
-            
-"
-"
-"
+'
+'
+'
 \
                 
 depends
@@ -4732,19 +4611,17 @@ configure
 '
 )
             
-"
-"
-"
-            
+'
+'
+'
 %
 {
-"
+'
 topsrcdir
-"
+'
 :
 topsrcdir
 }
-        
 )
         
 config
@@ -4775,54 +4652,48 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 JAVA
-"
+'
 :
 java
-                
-"
+            
+'
 JARSIGNER
-"
+'
 :
 jarsigner
-                
-"
+            
+'
 KEYTOOL
-"
+'
 :
 keytool
-                
-"
+            
+'
 MOZ_JAVA_CODE_COVERAGE
-"
+'
 :
 False
-            
-}
         
+}
 )
         
 self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
              
 checking
@@ -4852,19 +4723,16 @@ keytool
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 java
 jarsigner
 keytool
 )
-            
 )
-        
 )
         
 #
@@ -4886,7 +4754,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
@@ -4895,7 +4763,7 @@ local
 bin
 /
 java
-"
+'
 )
         
 alt_jarsigner
@@ -4904,7 +4772,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
@@ -4913,7 +4781,7 @@ local
 bin
 /
 jarsigner
-"
+'
 )
         
 alt_keytool
@@ -4922,7 +4790,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
@@ -4931,7 +4799,7 @@ local
 bin
 /
 keytool
-"
+'
 )
         
 alt_java_home
@@ -4952,23 +4820,21 @@ paths
 .
 update
 (
-            
 {
-                
+            
 alt_java
 :
 None
-                
+            
 alt_jarsigner
 :
 None
-                
+            
 alt_keytool
 :
 None
-            
-}
         
+}
 )
         
 config
@@ -4979,26 +4845,27 @@ self
 .
 get_result
 (
-            
 command
 =
 script
-            
+                                              
 extra_paths
 =
 paths
-            
+                                              
 environ
 =
 {
-"
+                                                  
+'
 JAVA_HOME
-"
+'
 :
 alt_java_home
-"
+                                                  
+'
 PATH
-"
+'
 :
 mozpath
 .
@@ -5006,8 +4873,8 @@ dirname
 (
 java
 )
+                                              
 }
-        
 )
         
 self
@@ -5022,54 +4889,48 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 JAVA
-"
+'
 :
 alt_java
-                
-"
+            
+'
 JARSIGNER
-"
+'
 :
 alt_jarsigner
-                
-"
+            
+'
 KEYTOOL
-"
+'
 :
 alt_keytool
-                
-"
+            
+'
 MOZ_JAVA_CODE_COVERAGE
-"
+'
 :
 False
-            
-}
         
+}
 )
         
 self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
              
 checking
@@ -5099,19 +4960,16 @@ keytool
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 alt_java
 alt_jarsigner
 alt_keytool
 )
-            
 )
-        
 )
         
 #
@@ -5153,7 +5011,7 @@ script
 args
 =
 [
-"
+'
 -
 -
 with
@@ -5166,7 +5024,7 @@ path
 =
 %
 s
-"
+'
 %
 mozpath
 .
@@ -5183,9 +5041,10 @@ paths
 environ
 =
 {
-"
+                
+'
 PATH
-"
+'
 :
 mozpath
 .
@@ -5193,8 +5052,8 @@ dirname
 (
 java
 )
+            
 }
-        
 )
         
 self
@@ -5209,54 +5068,48 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 JAVA
-"
+'
 :
 alt_java
-                
-"
+            
+'
 JARSIGNER
-"
+'
 :
 alt_jarsigner
-                
-"
+            
+'
 KEYTOOL
-"
+'
 :
 alt_keytool
-                
-"
+            
+'
 MOZ_JAVA_CODE_COVERAGE
-"
+'
 :
 False
-            
-}
         
+}
 )
         
 self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
              
 checking
@@ -5286,19 +5139,16 @@ keytool
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 alt_java
 alt_jarsigner
 alt_keytool
 )
-            
 )
-        
 )
         
 #
@@ -5348,7 +5198,7 @@ script
 args
 =
 [
-"
+'
 -
 -
 with
@@ -5361,7 +5211,7 @@ path
 =
 %
 s
-"
+'
 %
 mozpath
 .
@@ -5379,9 +5229,9 @@ environ
 =
 {
                 
-"
+'
 PATH
-"
+'
 :
 mozpath
 .
@@ -5390,9 +5240,9 @@ dirname
 java
 )
                 
-"
+'
 JAVA_HOME
-"
+'
 :
 mozpath
 .
@@ -5407,7 +5257,6 @@ java
 )
             
 }
-        
 )
         
 self
@@ -5422,54 +5271,48 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 JAVA
-"
+'
 :
 alt_java
-                
-"
+            
+'
 JARSIGNER
-"
+'
 :
 alt_jarsigner
-                
-"
+            
+'
 KEYTOOL
-"
+'
 :
 alt_keytool
-                
-"
+            
+'
 MOZ_JAVA_CODE_COVERAGE
-"
+'
 :
 False
-            
-}
         
+}
 )
         
 self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
              
 checking
@@ -5499,19 +5342,16 @@ keytool
 %
 s
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 alt_java
 alt_jarsigner
 alt_keytool
 )
-            
 )
-        
 )
         
 #
@@ -5543,7 +5383,7 @@ script
 args
 =
 [
-"
+'
 -
 -
 enable
@@ -5551,7 +5391,7 @@ enable
 java
 -
 coverage
-"
+'
 ]
             
 extra_paths
@@ -5562,9 +5402,9 @@ environ
 =
 {
                 
-"
+'
 PATH
-"
+'
 :
 mozpath
 .
@@ -5573,9 +5413,9 @@ dirname
 java
 )
                 
-"
+'
 JAVA_HOME
-"
+'
 :
 mozpath
 .
@@ -5590,7 +5430,6 @@ java
 )
             
 }
-        
 )
         
 self
@@ -5605,37 +5444,34 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 JAVA
-"
+'
 :
 java
-                
-"
+            
+'
 JARSIGNER
-"
+'
 :
 jarsigner
-                
-"
+            
+'
 KEYTOOL
-"
+'
 :
 keytool
-                
-"
+            
+'
 MOZ_JAVA_CODE_COVERAGE
-"
+'
 :
 True
-            
-}
         
+}
 )
         
 #
@@ -5664,19 +5500,21 @@ self
 .
 get_result
 (
-            
 command
 =
 script
+                                              
 extra_paths
 =
 paths
+                                              
 environ
 =
 {
-"
+                                                  
+'
 PATH
-"
+'
 :
 mozpath
 .
@@ -5684,8 +5522,8 @@ dirname
 (
 java
 )
+                                              
 }
-        
 )
         
 self
@@ -5700,36 +5538,30 @@ self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 JAVA
-"
+'
 :
 java
-            
-}
         
+}
 )
         
 self
 .
 assertEqual
 (
-            
 out
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
              
 checking
@@ -5789,10 +5621,9 @@ dir
 }
 '
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 java
@@ -5811,13 +5642,13 @@ self
         
 mock_pkg_config_version
 =
-"
+'
 0
 .
 10
 .
 0
-"
+'
         
 mock_pkg_config_path
 =
@@ -5825,7 +5656,7 @@ mozpath
 .
 abspath
 (
-"
+'
 /
 usr
 /
@@ -5834,7 +5665,7 @@ bin
 pkg
 -
 config
-"
+'
 )
         
 def
@@ -5855,7 +5686,7 @@ args
 =
 =
 (
-"
+'
 -
 -
 errors
@@ -5863,14 +5694,14 @@ errors
 to
 -
 stdout
-"
-"
+'
+'
 -
 -
 print
 -
 errors
-"
+'
 )
 :
                 
@@ -5894,16 +5725,14 @@ if
 package
 =
 =
-"
+'
 unknown
-"
+'
 :
                     
 return
 (
-                        
 1
-                        
 "
 Package
 unknown
@@ -5921,7 +5750,7 @@ path
 \
 n
 "
-                        
+                            
 "
 Perhaps
 you
@@ -5937,7 +5766,7 @@ pc
 \
 n
 "
-                        
+                            
 "
 to
 the
@@ -5947,7 +5776,7 @@ variable
 \
 n
 "
-                        
+                            
 "
 No
 package
@@ -5956,39 +5785,37 @@ unknown
 '
 found
 "
-                        
-"
-"
-                    
+'
+'
 )
                 
 if
 package
 =
 =
-"
+'
 valid
-"
+'
 :
                     
 return
 0
-"
-"
-"
-"
+'
+'
+'
+'
                 
 if
 package
 =
 =
-"
+'
 new
 >
 1
 .
 1
-"
+'
 :
                     
 return
@@ -6011,8 +5838,8 @@ is
 .
 1
 "
-"
-"
+'
+'
             
 if
 args
@@ -6021,11 +5848,11 @@ args
 ]
 =
 =
-"
+'
 -
 -
 cflags
-"
+'
 :
                 
 assert
@@ -6039,7 +5866,7 @@ args
                 
 return
 0
-"
+'
 -
 I
 /
@@ -6049,14 +5876,14 @@ include
 /
 %
 s
-"
+'
 %
 args
 [
 1
 ]
-"
-"
+'
+'
             
 if
 args
@@ -6065,11 +5892,11 @@ args
 ]
 =
 =
-"
+'
 -
 -
 libs
-"
+'
 :
                 
 assert
@@ -6083,19 +5910,19 @@ args
                 
 return
 0
-"
+'
 -
 l
 %
 s
-"
+'
 %
 args
 [
 1
 ]
-"
-"
+'
+'
             
 if
 args
@@ -6104,18 +5931,18 @@ args
 ]
 =
 =
-"
+'
 -
 -
 version
-"
+'
 :
                 
 return
 0
 mock_pkg_config_version
-"
-"
+'
+'
             
 self
 .
@@ -6155,15 +5982,13 @@ self
 .
 get_result
 (
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 option
@@ -6284,37 +6109,31 @@ configure
 '
 )
             
-"
-"
-"
-                    
+'
+'
+'
 %
 {
-"
+'
 topsrcdir
-"
+'
 :
 topsrcdir
 }
-                
 )
-                
 +
 cmd
-                
 args
 =
 args
-                
 extra_paths
 =
 extra_paths
-                
+                                                   
 includes
 =
 (
 )
-            
 )
         
 extra_paths
@@ -6358,17 +6177,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -6426,12 +6242,10 @@ pkg
 config
 .
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 config
@@ -6440,7 +6254,6 @@ status
 =
 get_result
 (
-            
 "
 pkg_check_modules
 (
@@ -6452,10 +6265,10 @@ valid
 '
 )
 "
+                                            
 extra_paths
 =
 extra_paths
-        
 )
         
 self
@@ -6470,17 +6283,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -6534,41 +6344,36 @@ MOZ_VALID_LIBS
 -
 lvalid
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 mock_pkg_config_path
 mock_pkg_config_version
 )
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 PKG_CONFIG
-"
+'
 :
 mock_pkg_config_path
-                
-"
+            
+'
 MOZ_VALID_CFLAGS
-"
+'
 :
 (
-"
+'
 -
 I
 /
@@ -6577,22 +6382,21 @@ usr
 include
 /
 valid
-"
-)
-                
-"
-MOZ_VALID_LIBS
-"
-:
-(
-"
--
-lvalid
-"
+'
 )
             
-}
+'
+MOZ_VALID_LIBS
+'
+:
+(
+'
+-
+lvalid
+'
+)
         
+}
 )
         
 config
@@ -6601,7 +6405,6 @@ status
 =
 get_result
 (
-            
 "
 pkg_check_modules
 (
@@ -6613,10 +6416,10 @@ unknown
 '
 )
 "
+                                            
 extra_paths
 =
 extra_paths
-        
 )
         
 self
@@ -6631,17 +6434,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -6720,37 +6520,31 @@ unknown
 '
 found
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 mock_pkg_config_path
 mock_pkg_config_version
 )
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 PKG_CONFIG
-"
+'
 :
 mock_pkg_config_path
-            
-}
         
+}
 )
         
 config
@@ -6759,7 +6553,6 @@ status
 =
 get_result
 (
-            
 "
 pkg_check_modules
 (
@@ -6775,10 +6568,10 @@ new
 '
 )
 "
+                                            
 extra_paths
 =
 extra_paths
-        
 )
         
 self
@@ -6793,17 +6586,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -6858,37 +6648,31 @@ is
 .
 1
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 mock_pkg_config_path
 mock_pkg_config_version
 )
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 PKG_CONFIG
-"
+'
 :
 mock_pkg_config_path
-            
-}
         
+}
 )
         
 #
@@ -6907,10 +6691,9 @@ textwrap
 .
 dedent
 (
-            
-"
-"
-"
+'
+'
+'
 \
         
 have_new_module
@@ -6963,10 +6746,9 @@ found
 '
 )
         
-"
-"
-"
-        
+'
+'
+'
 )
         
 config
@@ -6993,17 +6775,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -7063,37 +6842,31 @@ not
 found
 .
         
-"
-"
-"
-                
+'
+'
+'
 %
 (
 mock_pkg_config_path
 mock_pkg_config_version
 )
-            
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 PKG_CONFIG
-"
+'
 :
 mock_pkg_config_path
-            
-}
         
+}
 )
         
 config
@@ -7102,12 +6875,12 @@ status
 =
 get_result
 (
-            
 cmd
+                                            
 args
 =
 [
-"
+'
 -
 -
 disable
@@ -7115,12 +6888,12 @@ disable
 compile
 -
 environment
-"
+'
 ]
+                                            
 extra_paths
 =
 extra_paths
-        
 )
         
 self
@@ -7136,14 +6909,14 @@ self
 assertEqual
 (
 output
-"
+'
 Module
 not
 found
 .
 \
 n
-"
+'
 )
         
 self
@@ -7170,24 +6943,24 @@ args
 ]
 =
 =
-"
+'
 -
 -
 version
-"
+'
 :
                 
 return
 0
-"
+'
 0
 .
 8
 .
 10
-"
-"
-"
+'
+'
+'
             
 self
 .
@@ -7222,7 +6995,6 @@ status
 =
 get_result
 (
-            
 "
 pkg_check_modules
 (
@@ -7234,10 +7006,10 @@ valid
 '
 )
 "
+                                            
 extra_paths
 =
 extra_paths
-        
 )
         
 self
@@ -7252,17 +7024,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -7316,15 +7085,12 @@ or
 newer
 .
         
-"
-"
-"
-                
+'
+'
+'
 %
 mock_pkg_config_path
-            
 )
-        
 )
     
 def
@@ -7337,21 +7103,21 @@ self
 includes
 =
 (
-"
+'
 util
 .
 configure
-"
-"
+'
+'
 checks
 .
 configure
-"
-"
+'
+'
 keyfiles
 .
 configure
-"
+'
 )
         
 config
@@ -7375,7 +7141,6 @@ API
 includes
 =
 includes
-        
 )
         
 self
@@ -7390,17 +7155,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -7414,28 +7176,24 @@ key
 .
 no
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 MOZ_MOZILLA_API_KEY
-"
+'
 :
-"
+'
 no
 -
 mozilla
@@ -7443,10 +7201,9 @@ mozilla
 api
 -
 key
-"
-            
-}
+'
         
+}
 )
         
 config
@@ -7471,7 +7228,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -7492,13 +7249,12 @@ does
 not
 /
 exist
-"
+'
 ]
             
 includes
 =
 includes
-        
 )
         
 self
@@ -7513,17 +7269,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -7559,12 +7312,10 @@ or
 directory
 .
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 self
@@ -7580,12 +7331,12 @@ with
 MockedOpen
 (
 {
-"
+'
 key
-"
+'
 :
-"
-"
+'
+'
 }
 )
 :
@@ -7612,7 +7363,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -7624,13 +7375,12 @@ api
 keyfile
 =
 key
-"
+'
 ]
                 
 includes
 =
 includes
-            
 )
             
 self
@@ -7645,17 +7395,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -7678,12 +7425,10 @@ is
 empty
 .
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
@@ -7699,17 +7444,17 @@ with
 MockedOpen
 (
 {
-"
+'
 key
-"
+'
 :
-"
+'
 fake
 -
 key
 \
 n
-"
+'
 }
 )
 :
@@ -7736,7 +7481,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -7748,13 +7493,12 @@ api
 keyfile
 =
 key
-"
+'
 ]
                 
 includes
 =
 includes
-            
 )
             
 self
@@ -7769,17 +7513,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -7793,52 +7534,47 @@ key
 .
 yes
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 MOZ_MOZILLA_API_KEY
-"
+'
 :
-"
+'
 fake
 -
 key
-"
-                
-}
+'
             
+}
 )
         
 with
 MockedOpen
 (
 {
-"
+'
 default
-"
+'
 :
-"
+'
 default
 -
 key
 \
 n
-"
+'
 }
 )
 :
@@ -7866,10 +7602,10 @@ default
 '
 )
 "
+                
 includes
 =
 includes
-            
 )
             
 self
@@ -7884,17 +7620,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -7908,63 +7641,59 @@ key
 .
 yes
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 MOZ_MOZILLA_API_KEY
-"
+'
 :
-"
+'
 default
 -
 key
-"
-                
-}
+'
             
+}
 )
         
 with
 MockedOpen
 (
 {
-"
+'
 default
-"
+'
 :
-"
+'
 default
 -
 key
 \
 n
-"
-"
+'
+                         
+'
 key
-"
+'
 :
-"
+'
 fake
 -
 key
 \
 n
-"
+'
 }
 )
 :
@@ -7992,10 +7721,10 @@ key
 '
 )
 "
+                
 includes
 =
 includes
-            
 )
             
 self
@@ -8010,17 +7739,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -8034,35 +7760,30 @@ key
 .
 yes
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 MOZ_MOZILLA_API_KEY
-"
+'
 :
-"
+'
 fake
 -
 key
-"
-                
-}
+'
             
+}
 )
     
 def
@@ -8075,21 +7796,21 @@ self
 includes
 =
 (
-"
+'
 util
 .
 configure
-"
-"
+'
+'
 checks
 .
 configure
-"
-"
+'
+'
 keyfiles
 .
 configure
-"
+'
 )
         
 config
@@ -8113,7 +7834,6 @@ API
 includes
 =
 includes
-        
 )
         
 self
@@ -8128,17 +7848,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -8152,28 +7869,24 @@ key
 .
 no
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 config
-            
 {
-                
-"
+            
+'
 MOZ_BING_API_CLIENTID
-"
+'
 :
-"
+'
 no
 -
 bing
@@ -8181,13 +7894,13 @@ bing
 api
 -
 clientid
-"
-                
-"
+'
+            
+'
 MOZ_BING_API_KEY
-"
+'
 :
-"
+'
 no
 -
 bing
@@ -8195,10 +7908,9 @@ bing
 api
 -
 key
-"
-            
-}
+'
         
+}
 )
         
 config
@@ -8223,7 +7935,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -8244,13 +7956,12 @@ does
 not
 /
 exist
-"
+'
 ]
             
 includes
 =
 includes
-        
 )
         
 self
@@ -8265,17 +7976,14 @@ self
 .
 assertEqual
 (
-            
 output
-            
 textwrap
 .
 dedent
 (
-                
-"
-"
-"
+'
+'
+'
 \
             
 checking
@@ -8311,12 +8019,10 @@ or
 directory
 .
         
-"
-"
-"
-            
+'
+'
+'
 )
-        
 )
         
 self
@@ -8332,12 +8038,12 @@ with
 MockedOpen
 (
 {
-"
+'
 key
-"
+'
 :
-"
-"
+'
+'
 }
 )
 :
@@ -8364,7 +8070,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -8376,13 +8082,12 @@ api
 keyfile
 =
 key
-"
+'
 ]
                 
 includes
 =
 includes
-            
 )
             
 self
@@ -8397,17 +8102,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -8430,12 +8132,10 @@ is
 empty
 .
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
@@ -8451,11 +8151,11 @@ with
 MockedOpen
 (
 {
-"
+'
 key
-"
+'
 :
-"
+'
 fake
 -
 id
@@ -8464,7 +8164,7 @@ fake
 key
 \
 n
-"
+'
 }
 )
 :
@@ -8491,7 +8191,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -8503,13 +8203,12 @@ api
 keyfile
 =
 key
-"
+'
 ]
                 
 includes
 =
 includes
-            
 )
             
 self
@@ -8524,17 +8223,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -8548,62 +8244,57 @@ key
 .
 yes
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 MOZ_BING_API_CLIENTID
-"
+'
 :
-"
+'
 fake
 -
 id
-"
-                    
-"
+'
+                
+'
 MOZ_BING_API_KEY
-"
+'
 :
-"
+'
 fake
 -
 key
-"
-                
-}
+'
             
+}
 )
         
 with
 MockedOpen
 (
 {
-"
+'
 key
-"
+'
 :
-"
+'
 fake
 -
 key
 \
 n
-"
+'
 }
 )
 :
@@ -8630,7 +8321,7 @@ API
 args
 =
 [
-"
+'
 -
 -
 with
@@ -8642,13 +8333,12 @@ api
 keyfile
 =
 key
-"
+'
 ]
                 
 includes
 =
 includes
-            
 )
             
 self
@@ -8663,17 +8353,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -8699,12 +8386,10 @@ invalid
 format
 .
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
@@ -8720,13 +8405,13 @@ with
 MockedOpen
 (
 {
-"
+'
 default
 -
 key
-"
+'
 :
-"
+'
 default
 -
 id
@@ -8735,7 +8420,7 @@ default
 key
 \
 n
-"
+'
 }
 )
 :
@@ -8769,7 +8454,6 @@ key
 includes
 =
 includes
-            
 )
             
 self
@@ -8784,17 +8468,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -8808,59 +8489,53 @@ key
 .
 yes
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 MOZ_BING_API_CLIENTID
-"
+'
 :
-"
+'
 default
 -
 id
-"
-                    
-"
+'
+                
+'
 MOZ_BING_API_KEY
-"
+'
 :
-"
+'
 default
 -
 key
-"
-                
-}
+'
             
+}
 )
         
 with
 MockedOpen
 (
-            
 {
-"
+'
 default
 -
 key
-"
+'
 :
-"
+'
 default
 -
 id
@@ -8869,12 +8544,13 @@ default
 key
 \
 n
-"
-"
+'
+                         
+'
 key
-"
+'
 :
-"
+'
 fake
 -
 id
@@ -8883,9 +8559,8 @@ fake
 key
 \
 n
-"
+'
 }
-        
 )
 :
             
@@ -8918,7 +8593,7 @@ key
 args
 =
 [
-"
+'
 -
 -
 with
@@ -8930,13 +8605,12 @@ api
 keyfile
 =
 key
-"
+'
 ]
                 
 includes
 =
 includes
-            
 )
             
 self
@@ -8951,17 +8625,14 @@ self
 .
 assertEqual
 (
-                
 output
-                
 textwrap
 .
 dedent
 (
-                    
-"
-"
-"
+'
+'
+'
 \
                 
 checking
@@ -8975,53 +8646,48 @@ key
 .
 yes
             
-"
-"
-"
-                
+'
+'
+'
 )
-            
 )
             
 self
 .
 assertEqual
 (
-                
 config
-                
 {
-                    
-"
+                
+'
 MOZ_BING_API_CLIENTID
-"
+'
 :
-"
+'
 fake
 -
 id
-"
-                    
-"
+'
+                
+'
 MOZ_BING_API_KEY
-"
+'
 :
-"
+'
 fake
 -
 key
-"
-                
-}
+'
             
+}
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

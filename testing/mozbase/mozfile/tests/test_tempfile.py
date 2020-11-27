@@ -128,7 +128,7 @@ opening
 a
 NamedTemporaryFile
 works
-        
+            
 Refer
 to
 https
@@ -148,7 +148,7 @@ cgi
 id
 =
 818777
-        
+            
 and
 https
 :
@@ -243,9 +243,9 @@ open
 temp
 .
 name
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -294,17 +294,17 @@ notes
 =
 [
 b
-"
+'
 doe
-"
+'
 b
-"
+'
 rae
-"
+'
 b
-"
+'
 mi
-"
+'
 ]
         
 for
@@ -318,12 +318,12 @@ tf
 write
 (
 b
-"
+'
 %
 s
 \
 n
-"
+'
 %
 note
 )
@@ -355,10 +355,10 @@ line
 rstrip
 (
 b
-"
+'
 \
 n
-"
+'
 )
 for
 line
@@ -771,9 +771,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

@@ -195,11 +195,11 @@ title
 .
 replace
 (
-"
+'
 _
-"
-"
-"
+'
+'
+'
 )
 def
 write_processes_enum
@@ -327,9 +327,10 @@ filenames
 raise
 Exception
 (
-"
+'
 We
 don
+\
 '
 t
 support
@@ -340,7 +341,7 @@ than
 one
 file
 .
-"
+'
 )
     
 try
@@ -434,9 +435,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

@@ -66,7 +66,10 @@ unittest
 .
 case
 import
+(
+    
 SkipTest
+)
 def
 parameterized
 (
@@ -318,9 +321,9 @@ not
 hasattr
 (
 func
-"
+'
 metaparameters
-"
+'
 )
 :
             
@@ -396,13 +399,13 @@ FunctionType
 raise
 Exception
 (
-"
+'
 Decorator
 only
 supported
 for
 functions
-"
+'
 )
         
 functools
@@ -502,13 +505,13 @@ FunctionType
 raise
 Exception
 (
-"
+'
 Decorator
 only
 supported
 for
 functions
-"
+'
 )
         
 functools
@@ -537,20 +540,20 @@ marionette
 .
 _send_message
 (
-"
+'
 getContext
-"
+'
 key
 =
-"
+'
 value
-"
+'
 )
 =
 =
-"
+'
 chrome
-"
+'
 :
                 
 raise
@@ -620,13 +623,13 @@ FunctionType
 raise
 Exception
 (
-"
+'
 Decorator
 only
 supported
 for
 functions
-"
+'
 )
         
 functools
@@ -657,15 +660,15 @@ session_capabilities
 .
 get
 (
-"
+'
 browserName
-"
+'
 )
 =
 =
-"
+'
 firefox
-"
+'
 :
                 
 raise
@@ -871,13 +874,13 @@ FunctionType
 raise
 Exception
 (
-"
+'
 Decorator
 only
 supported
 for
 functions
-"
+'
 )
         
 if
@@ -891,12 +894,12 @@ predicate
 raise
 ValueError
 (
-"
+'
 predicate
 must
 be
 callable
-"
+'
 )
         
 functools
@@ -1040,13 +1043,13 @@ FunctionType
 raise
 Exception
 (
-"
+'
 Decorator
 only
 supported
 for
 functions
-"
+'
 )
         
 if
@@ -1060,12 +1063,12 @@ predicate
 raise
 ValueError
 (
-"
+'
 predicate
 must
 be
 callable
-"
+'
 )
         
 functools

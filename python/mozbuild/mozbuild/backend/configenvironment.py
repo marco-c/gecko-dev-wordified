@@ -309,11 +309,11 @@ mod
 =
 ModuleType
 (
-"
+'
 config
 .
 status
-"
+'
 )
             
 mod
@@ -326,11 +326,11 @@ sys
 .
 modules
 [
-"
+'
 config
 .
 status
-"
+'
 ]
 =
 mod
@@ -339,9 +339,9 @@ with
 open
 (
 path
-"
+'
 rt
-"
+'
 )
 as
 fh
@@ -368,9 +368,9 @@ compile
 (
 source
 path
-"
+'
 exec
-"
+'
 dont_inherit
 =
 1
@@ -382,15 +382,15 @@ g
 =
 {
             
-"
+'
 __builtins__
-"
+'
 :
 __builtins__
             
-"
+'
 __file__
-"
+'
 :
 path
         
@@ -437,9 +437,9 @@ name
 in
 l
 [
-"
+'
 __all__
-"
+'
 ]
 :
             
@@ -786,29 +786,22 @@ topobjdir
 def
 __init__
 (
-        
 self
-        
 topsrcdir
-        
 topobjdir
-        
 defines
 =
 None
-        
+                 
 substs
 =
 None
-        
 source
 =
 None
-        
 mozconfig
 =
 None
-    
 )
 :
         
@@ -824,11 +817,11 @@ mozpath
 join
 (
 topobjdir
-"
+'
 config
 .
 status
-"
+'
 )
         
 self
@@ -908,17 +901,17 @@ substs
 .
 get
 (
-"
+'
 LIB_PREFIX
-"
-"
-"
+'
+'
+'
 )
         
 if
-"
+'
 LIB_SUFFIX
-"
+'
 in
 self
 .
@@ -929,19 +922,19 @@ self
 .
 lib_suffix
 =
-"
+'
 .
 %
 s
-"
+'
 %
 self
 .
 substs
 [
-"
+'
 LIB_SUFFIX
-"
+'
 ]
         
 self
@@ -954,11 +947,11 @@ substs
 .
 get
 (
-"
+'
 DLL_PREFIX
-"
-"
-"
+'
+'
+'
 )
         
 self
@@ -971,11 +964,11 @@ substs
 .
 get
 (
-"
+'
 DLL_SUFFIX
-"
-"
-"
+'
+'
+'
 )
         
 self
@@ -988,11 +981,11 @@ substs
 .
 get
 (
-"
+'
 HOST_DLL_PREFIX
-"
-"
-"
+'
+'
+'
 )
         
 self
@@ -1005,11 +998,11 @@ substs
 .
 get
 (
-"
+'
 HOST_DLL_SUFFIX
-"
-"
-"
+'
+'
+'
 )
         
 if
@@ -1019,9 +1012,9 @@ substs
 .
 get
 (
-"
+'
 IMPORT_LIB_SUFFIX
-"
+'
 )
 :
             
@@ -1037,19 +1030,19 @@ self
 .
 import_suffix
 =
-"
+'
 .
 %
 s
-"
+'
 %
 self
 .
 substs
 [
-"
+'
 IMPORT_LIB_SUFFIX
-"
+'
 ]
         
 else
@@ -1081,11 +1074,11 @@ substs
 .
 get
 (
-"
+'
 BIN_SUFFIX
-"
-"
-"
+'
+'
+'
 )
         
 global_defines
@@ -1109,15 +1102,15 @@ ACDEFINES
 "
 ]
 =
-"
-"
+'
+'
 .
 join
 (
             
 [
                 
-"
+'
 -
 D
 %
@@ -1125,7 +1118,7 @@ s
 =
 %
 s
-"
+'
 %
 (
 name
@@ -1141,10 +1134,10 @@ name
 .
 replace
 (
-"
-"
-"
-"
+'
+'
+'
+'
 )
 )
                 
@@ -1190,8 +1183,8 @@ Iterable
 :
                 
 return
-"
-"
+'
+'
 .
 join
 (
@@ -1201,7 +1194,7 @@ obj
 raise
 Exception
 (
-"
+'
 Unhandled
 type
 %
@@ -1209,7 +1202,7 @@ s
 for
 %
 s
-"
+'
 type
 (
 obj
@@ -1224,34 +1217,35 @@ self
 .
 substs
 [
-"
+'
 ALLSUBSTS
-"
+'
 ]
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
             
 sorted
 (
-                
 [
-                    
-"
+                
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
+                    
 name
+                    
 serialize
 (
 name
@@ -1262,15 +1256,15 @@ substs
 name
 ]
 )
-)
                     
+)
+                
 for
 name
 in
 self
 .
 substs
-                    
 if
 self
 .
@@ -1280,24 +1274,23 @@ name
 ]
                 
 ]
-            
 )
-        
+            
 )
         
 self
 .
 substs
 [
-"
+'
 ALLEMPTYSUBSTS
-"
+'
 ]
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1305,13 +1298,15 @@ join
 sorted
 (
 [
-"
+                
+'
 %
 s
 =
-"
+'
 %
 name
+                
 for
 name
 in
@@ -1326,9 +1321,10 @@ substs
 [
 name
 ]
+                
 ]
 )
-        
+            
 )
         
 self
@@ -1358,9 +1354,9 @@ substs
 .
 get
 (
-"
+'
 MOZ_ARTIFACT_BUILDS
-"
+'
 False
 )
     
@@ -1386,6 +1382,7 @@ defines
 name
 ]
 )
+                         
 for
 name
 in
@@ -1421,13 +1418,13 @@ path
 return
 ConfigEnvironment
 (
-            
 config
 .
 topsrcdir
 config
 .
 topobjdir
+                                 
 config
 .
 defines
@@ -1435,7 +1432,6 @@ config
 .
 substs
 path
-        
 )
 class
 PartialConfigDict
@@ -1547,11 +1543,11 @@ join
 self
 .
 _datadir
-"
+'
 config
 .
 track
-"
+'
 )
         
 self
@@ -1899,12 +1895,12 @@ fh
 .
 write
 (
-"
+'
 %
 s
 \
 n
-"
+'
 %
 f
 )
@@ -1929,15 +1925,15 @@ key
 not
 in
 (
-"
+'
 CPP
-"
-"
+'
+'
 CXXCPP
-"
-"
+'
+'
 SHELL
-"
+'
 )
 )
 and
@@ -2418,11 +2414,11 @@ mozpath
 join
 (
 topobjdir
-"
+'
 config
 .
 statusd
-"
+'
 )
         
 self
@@ -2432,9 +2428,9 @@ substs
 PartialConfigDict
 (
 config_statusd
-"
+'
 substs
-"
+'
 environ_override
 =
 True
@@ -2447,9 +2443,9 @@ defines
 PartialConfigDict
 (
 config_statusd
-"
+'
 defines
-"
+'
 )
         
 self
@@ -2470,9 +2466,9 @@ substs
 =
 config
 [
-"
+'
 substs
-"
+'
 ]
 .
 copy
@@ -2483,9 +2479,9 @@ defines
 =
 config
 [
-"
+'
 defines
-"
+'
 ]
 .
 copy
@@ -2495,29 +2491,29 @@ copy
 global_defines
 =
 [
+            
 name
 for
 name
 in
 config
 [
-"
+'
 defines
-"
+'
 ]
+        
 ]
         
 acdefines
 =
-"
-"
+'
+'
 .
 join
 (
-            
 [
-                
-"
+'
 -
 D
 %
@@ -2525,18 +2521,18 @@ s
 =
 %
 s
-"
-                
+'
 %
 (
 name
+                                           
 shell_quote
 (
 config
 [
-"
+'
 defines
-"
+'
 ]
 [
 name
@@ -2545,13 +2541,13 @@ name
 .
 replace
 (
-"
-"
-"
-"
+'
+'
+'
+'
 )
 )
-                
+                              
 for
 name
 in
@@ -2559,16 +2555,14 @@ sorted
 (
 global_defines
 )
-            
 ]
-        
 )
         
 substs
 [
-"
+'
 ACDEFINES
-"
+'
 ]
 =
 acdefines
@@ -2592,9 +2586,9 @@ k
 =
 config
 [
-"
+'
 defines
-"
+'
 ]
 [
 k
@@ -2602,9 +2596,9 @@ k
         
 defines
 [
-"
+'
 ALLDEFINES
-"
+'
 ]
 =
 all_defines
@@ -2636,13 +2630,13 @@ self
         
 return
 [
-"
+'
 (
 wildcard
 %
 s
 )
-"
+'
 %
 f
 for

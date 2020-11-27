@@ -76,7 +76,9 @@ LinuxBootstrapper
 class
 CentOSFedoraBootstrapper
 (
+        
 LinuxBootstrapper
+        
 BaseBootstrapper
 )
 :
@@ -120,9 +122,9 @@ version
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0
@@ -168,17 +170,17 @@ packages
 =
 [
             
-"
+'
 autoconf213
-"
+'
             
-"
+'
 nodejs
-"
+'
             
-"
+'
 which
-"
+'
         
 ]
         
@@ -188,11 +190,11 @@ browser_group_packages
 =
 [
             
-"
+'
 GNOME
 Software
 Development
-"
+'
         
 ]
         
@@ -202,33 +204,33 @@ browser_packages
 =
 [
             
-"
+'
 alsa
 -
 lib
 -
 devel
-"
+'
             
-"
+'
 dbus
 -
 glib
 -
 devel
-"
+'
             
-"
+'
 glibc
 -
 static
-"
+'
             
-"
+'
 gtk2
 -
 devel
-"
+'
 #
 It
 is
@@ -240,57 +242,57 @@ Fedora
 s
 GNOME
 Software
-            
+                           
 #
 Development
 group
 .
             
-"
+'
 libstdc
 +
 +
 -
 static
-"
+'
             
-"
+'
 libXt
 -
 devel
-"
+'
             
-"
+'
 nasm
-"
+'
             
-"
+'
 pulseaudio
 -
 libs
 -
 devel
-"
+'
             
-"
+'
 wireless
 -
 tools
 -
 devel
-"
+'
             
-"
+'
 yasm
-"
+'
             
-"
+'
 gcc
 -
 c
 +
 +
-"
+'
         
 ]
         
@@ -300,7 +302,7 @@ mobile_android_packages
 =
 [
             
-"
+'
 java
 -
 1
@@ -312,7 +314,7 @@ java
 openjdk
 -
 devel
-"
+'
             
 #
 For
@@ -324,9 +326,9 @@ and
 NDK
 .
             
-"
+'
 wget
-"
+'
         
 ]
         
@@ -336,9 +338,9 @@ self
 distro
 in
 (
-"
+'
 centos
-"
+'
 )
 :
             
@@ -349,10 +351,10 @@ group_packages
 =
 [
                 
-"
+'
 Development
 Tools
-"
+'
             
 ]
             
@@ -363,11 +365,11 @@ packages
 =
 [
                 
-"
+'
 curl
 -
 devel
-"
+'
             
 ]
             
@@ -378,11 +380,11 @@ browser_packages
 =
 [
                 
-"
+'
 gtk3
 -
 devel
-"
+'
             
 ]
             
@@ -402,16 +404,16 @@ group_packages
 =
 [
                     
-"
+'
 Development
 Libraries
-"
+'
                     
-"
+'
 GNOME
 Software
 Development
-"
+'
                 
 ]
                 
@@ -422,9 +424,9 @@ packages
 =
 [
                     
-"
+'
 npm
-"
+'
                 
 ]
             
@@ -438,13 +440,13 @@ packages
 =
 [
                     
-"
+'
 redhat
 -
 rpm
 -
 config
-"
+'
                 
 ]
                 
@@ -454,10 +456,10 @@ browser_group_packages
 =
 [
                     
-"
+'
 Development
 Tools
-"
+'
                 
 ]
         
@@ -467,9 +469,9 @@ self
 distro
 =
 =
-"
+'
 fedora
-"
+'
 :
             
 self
@@ -479,13 +481,13 @@ group_packages
 =
 [
                 
-"
+'
 C
 Development
 Tools
 and
 Libraries
-"
+'
             
 ]
             
@@ -496,17 +498,17 @@ packages
 =
 [
                 
-"
+'
 npm
-"
+'
                 
-"
+'
 redhat
 -
 rpm
 -
 config
-"
+'
             
 ]
             
@@ -517,13 +519,13 @@ mobile_android_packages
 =
 [
                 
-"
+'
 ncurses
 -
 compat
 -
 libs
-"
+'
             
 ]
     
@@ -670,9 +672,9 @@ self
 distro
 in
 (
-"
+'
 centos
-"
+'
 )
 and
 self
@@ -686,8 +688,7 @@ version
 yasm
 =
 (
-                
-"
+'
 http
 :
 /
@@ -706,9 +707,9 @@ epel
 /
 i386
 /
-"
-                
-"
+'
+                    
+'
 Packages
 /
 y
@@ -728,8 +729,7 @@ el6
 i686
 .
 rpm
-"
-            
+'
 )
             
 if
@@ -743,16 +743,15 @@ architecture
 ]
 =
 =
-"
+'
 64bit
-"
+'
 :
                 
 yasm
 =
 (
-                    
-"
+'
 http
 :
 /
@@ -771,9 +770,9 @@ epel
 /
 x86_64
 /
-"
-                    
-"
+'
+                        
+'
 Packages
 /
 y
@@ -793,8 +792,7 @@ el6
 x86_64
 .
 rpm
-"
-                
+'
 )
             
 self
@@ -802,13 +800,13 @@ self
 run_as_root
 (
 [
-"
+'
 rpm
-"
-"
+'
+'
 -
 ivh
-"
+'
 yasm
 ]
 )
@@ -857,19 +855,18 @@ android
 .
 ensure_android
 (
-            
-"
+'
 linux
-"
+'
 artifact_mode
 =
 artifact_mode
+                               
 no_interactive
 =
 self
 .
 no_interactive
-        
 )
     
 def
@@ -892,9 +889,9 @@ android
 .
 generate_mozconfig
 (
-"
+'
 linux
-"
+'
 artifact_mode
 =
 artifact_mode
@@ -935,9 +932,9 @@ self
 .
 dnf_install
 (
-"
+'
 mercurial
-"
+'
 )
         
 else
@@ -947,7 +944,7 @@ self
 .
 dnf_update
 (
-"
+'
 mercurial
-"
+'
 )

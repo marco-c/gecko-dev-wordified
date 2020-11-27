@@ -130,9 +130,9 @@ environ
 .
 pop
 (
-"
+'
 MOZCONFIG
-"
+'
 None
 )
         
@@ -142,9 +142,9 @@ environ
 .
 pop
 (
-"
+'
 MOZ_OBJDIR
-"
+'
 None
 )
         
@@ -154,9 +154,9 @@ environ
 .
 pop
 (
-"
+'
 CC
-"
+'
 None
 )
         
@@ -166,9 +166,9 @@ environ
 .
 pop
 (
-"
+'
 CXX
-"
+'
 None
 )
         
@@ -271,15 +271,15 @@ os
 .
 environ
 [
-"
+'
 MOZ_MYCONFIG
-"
+'
 ]
 =
-"
+'
 /
 foo
-"
+'
         
 with
 self
@@ -314,10 +314,10 @@ exception
 .
 startswith
 (
-"
+'
 The
 MOZ_MYCONFIG
-"
+'
 )
 )
     
@@ -347,18 +347,18 @@ error
         
 relative_mozconfig
 =
-"
+'
 .
 mconfig
-"
+'
         
 os
 .
 environ
 [
-"
+'
 MOZCONFIG
-"
+'
 ]
 =
 relative_mozconfig
@@ -408,9 +408,9 @@ with
 open
 (
 path
-"
+'
 w
-"
+'
 )
 as
 f
@@ -471,14 +471,14 @@ self
 .
 assertIn
 (
-"
+'
 exists
 in
 more
 than
 one
 of
-"
+'
 str
 (
 e
@@ -536,7 +536,7 @@ OK
         
 relative_mozconfig
 =
-"
+'
 .
 .
 /
@@ -544,15 +544,15 @@ src
 /
 .
 mconfig
-"
+'
         
 os
 .
 environ
 [
-"
+'
 MOZCONFIG
-"
+'
 ]
 =
 relative_mozconfig
@@ -574,9 +574,9 @@ path
 join
 (
 topdir
-"
+'
 src
-"
+'
 )
         
 os
@@ -595,9 +595,9 @@ path
 join
 (
 topdir
-"
+'
 obj
-"
+'
 )
         
 os
@@ -623,9 +623,9 @@ with
 open
 (
 path
-"
+'
 w
-"
+'
 )
 :
             
@@ -653,7 +653,6 @@ self
 .
 assertEqual
 (
-                
 os
 .
 path
@@ -665,6 +664,7 @@ find_mozconfig
 srcdir
 )
 )
+                             
 os
 .
 path
@@ -673,7 +673,6 @@ realpath
 (
 path
 )
-            
 )
         
 finally
@@ -712,18 +711,18 @@ detected
         
 relative_mozconfig
 =
-"
+'
 .
 mconfig
-"
+'
         
 os
 .
 environ
 [
-"
+'
 MOZCONFIG
-"
+'
 ]
 =
 relative_mozconfig
@@ -799,14 +798,14 @@ self
 .
 assertIn
 (
-"
+'
 does
 not
 exist
 in
 any
 of
-"
+'
 str
 (
 e
@@ -861,18 +860,18 @@ srcdir
         
 relative_mozconfig
 =
-"
+'
 .
 mconfig
-"
+'
         
 os
 .
 environ
 [
-"
+'
 MOZCONFIG
-"
+'
 ]
 =
 relative_mozconfig
@@ -909,9 +908,9 @@ with
 open
 (
 path
-"
+'
 w
-"
+'
 )
 :
             
@@ -939,7 +938,6 @@ self
 .
 assertEqual
 (
-                
 os
 .
 path
@@ -951,6 +949,7 @@ find_mozconfig
 srcdir
 )
 )
+                             
 os
 .
 path
@@ -959,7 +958,6 @@ normpath
 (
 path
 )
-            
 )
         
 finally
@@ -998,12 +996,12 @@ os
 .
 environ
 [
-"
+'
 MOZCONFIG
-"
+'
 ]
 =
-"
+'
 /
 foo
 /
@@ -1014,7 +1012,7 @@ does
 not
 /
 exist
-"
+'
         
 with
 self
@@ -1040,13 +1038,13 @@ self
 .
 assertIn
 (
-"
+'
 path
 that
 does
 not
 exist
-"
+'
 str
 (
 e
@@ -1068,7 +1066,7 @@ exception
 .
 endswith
 (
-"
+'
 /
 foo
 /
@@ -1079,7 +1077,7 @@ does
 not
 /
 exist
-"
+'
 )
 )
     
@@ -1109,9 +1107,9 @@ os
 .
 environ
 [
-"
+'
 MOZCONFIG
-"
+'
 ]
 =
 gettempdir
@@ -1142,14 +1140,14 @@ self
 .
 assertIn
 (
-"
+'
 refers
 to
 a
 non
 -
 file
-"
+'
 str
 (
 e
@@ -1229,9 +1227,9 @@ with
 open
 (
 path
-"
+'
 w
-"
+'
 )
 :
                 
@@ -1309,9 +1307,9 @@ join
 d
 p
 )
-"
+'
 w
-"
+'
 )
 :
                 
@@ -1337,13 +1335,14 @@ self
 .
 assertIn
 (
-"
+'
 Multiple
 default
 mozconfig
 files
 present
-"
+'
+                      
 str
 (
 e
@@ -1402,9 +1401,9 @@ join
 d
 p
 )
-"
+'
 w
-"
+'
 )
 :
                 
@@ -1430,14 +1429,15 @@ self
 .
 assertIn
 (
-"
+'
 This
 implicit
 location
 is
 no
 longer
-"
+'
+                          
 str
 (
 e
@@ -1502,9 +1502,9 @@ os
 .
 environ
 [
-"
+'
 HOME
-"
+'
 ]
 =
 home
@@ -1525,9 +1525,9 @@ with
 open
 (
 path
-"
+'
 w
-"
+'
 )
 :
                 
@@ -1557,14 +1557,15 @@ self
 .
 assertIn
 (
-"
+'
 This
 implicit
 location
 is
 no
 longer
-"
+'
+                          
 str
 (
 e
@@ -1589,9 +1590,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

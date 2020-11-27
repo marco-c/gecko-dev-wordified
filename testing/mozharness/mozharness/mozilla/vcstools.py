@@ -128,11 +128,11 @@ VCSScript
 VCS_TOOLS
 =
 (
-"
+'
 gittool
 .
 py
-"
+'
 )
 class
 VCSToolsScript
@@ -141,9 +141,9 @@ VCSScript
 )
 :
     
-"
-"
-"
+'
+'
+'
 This
 script
 allows
@@ -166,15 +166,15 @@ developer
 mode
 .
     
-"
-"
-"
+'
+'
+'
     
 PreScriptAction
 (
-"
+'
 checkout
-"
+'
 )
     
 def
@@ -192,9 +192,9 @@ config
 .
 get
 (
-"
+'
 developer_mode
-"
+'
 )
 :
             
@@ -396,7 +396,6 @@ self
 .
 fatal
 (
-                        
 "
 This
 machine
@@ -409,7 +408,7 @@ this
 is
 your
 "
-                        
+                               
 "
 local
 machine
@@ -420,7 +419,7 @@ use
 -
 cfg
 "
-                        
+                               
 "
 developer_config
 .
@@ -428,7 +427,6 @@ py
 "
 %
 vcs_tool
-                    
 )
                 
 elif

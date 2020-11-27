@@ -90,12 +90,12 @@ args
 )
 :
     
-"
-"
-"
-"
-"
-"
+'
+'
+'
+'
+'
+'
     
 parser
 =
@@ -109,19 +109,19 @@ parser
 .
 add_argument
 (
-"
+'
 input
-"
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 -
 D
-"
+'
 action
 =
 DefinesAction
@@ -131,15 +131,15 @@ parser
 .
 add_argument
 (
-"
+'
 -
 U
-"
+'
 action
 =
-"
+'
 append
-"
+'
 default
 =
 [
@@ -184,9 +184,9 @@ buildconfig
 .
 defines
 [
-"
+'
 ALLDEFINES
-"
+'
 ]
 )
     
@@ -250,9 +250,9 @@ substs
 .
 get
 (
-"
+'
 MOZ_DEBUG
-"
+'
 )
 :
         
@@ -260,14 +260,14 @@ pp
 .
 context
 [
-"
+'
 DEBUG
-"
+'
 ]
 =
-"
+'
 1
-"
+'
     
 #
 Ensure
@@ -289,29 +289,29 @@ buildconfig
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
         
 pp
 .
 context
 [
-"
+'
 DATA
-"
+'
 ]
 =
-"
+'
 DATA
-"
+'
     
 else
 :
@@ -320,13 +320,13 @@ pp
 .
 context
 [
-"
+'
 DATA
-"
+'
 ]
 =
-"
-"
+'
+'
     
 pp
 .
@@ -340,9 +340,9 @@ pp
 .
 do_filter
 (
-"
+'
 substitution
-"
+'
 )
     
 pp
@@ -408,15 +408,15 @@ buildconfig
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 WINNT
-"
+'
 :
         
 #
@@ -598,16 +598,16 @@ assert
 ext
 =
 =
-"
+'
 .
 def
-"
+'
         
 output
 .
 write
 (
-"
+'
 LIBRARY
 %
 s
@@ -619,14 +619,15 @@ n
 s
 \
 n
-"
+'
+                     
 %
 (
 libname
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -642,9 +643,9 @@ substs
 .
 get
 (
-"
+'
 GCC_USE_GNU_LD
-"
+'
 )
 :
         
@@ -706,8 +707,7 @@ output
 .
 write
 (
-            
-"
+'
 %
 s
 {
@@ -730,22 +730,22 @@ n
 n
 }
 ;
-"
+'
+                     
 %
 (
 libname
-"
+'
 ;
 \
 n
-"
+'
 .
 join
 (
 symbols
 )
 )
-        
 )
     
 elif
@@ -753,15 +753,15 @@ buildconfig
 .
 substs
 [
-"
+'
 OS_TARGET
-"
+'
 ]
 =
 =
-"
+'
 Darwin
-"
+'
 :
         
 #
@@ -791,18 +791,18 @@ output
 .
 write
 (
-"
-"
+'
+'
 .
 join
 (
-"
+'
 _
 %
 s
 \
 n
-"
+'
 %
 s
 for

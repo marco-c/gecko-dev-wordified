@@ -211,19 +211,19 @@ join
 build_obj
 .
 topobjdir
-"
+'
 config
 .
 status
-"
+'
 )
         
 open
 (
 config_status
-"
+'
 w
-"
+'
 )
 .
 close
@@ -281,9 +281,9 @@ EmptyConfig
 default_substs
         
 if
-"
+'
 JS_STANDALONE
-"
+'
 in
 substs
 :
@@ -291,9 +291,9 @@ substs
 del
 substs
 [
-"
+'
 JS_STANDALONE
-"
+'
 ]
         
 config
@@ -367,9 +367,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

@@ -65,13 +65,13 @@ import
 setup
 PACKAGE_VERSION
 =
-"
+'
 1
 .
 0
 .
 0
-"
+'
 try
 :
     
@@ -104,11 +104,11 @@ path
 join
 (
 pwd
-"
+'
 README
 .
 rst
-"
+'
 )
 )
 .
@@ -121,26 +121,26 @@ Exception
     
 description
 =
-"
-"
+'
+'
 setup
 (
     
 name
 =
-"
+'
 mozsystemmonitor
-"
+'
     
 description
 =
-"
+'
 Monitor
 system
 resource
 usage
 .
-"
+'
     
 long_description
 =
@@ -170,8 +170,7 @@ html
 classifiers
 =
 [
-        
-"
+'
 Programming
 Language
 :
@@ -182,9 +181,9 @@ Python
 2
 .
 7
-"
-        
-"
+'
+                 
+'
 Programming
 Language
 :
@@ -195,8 +194,7 @@ Python
 3
 .
 5
-"
-    
+'
 ]
     
 #
@@ -222,43 +220,43 @@ list_classifiers
     
 license
 =
-"
+'
 MPL
 2
 .
 0
-"
+'
     
 keywords
 =
-"
+'
 mozilla
-"
+'
     
 author
 =
-"
+'
 Mozilla
 Automation
 and
 Tools
 Team
-"
+'
     
 author_email
 =
-"
+'
 tools
 lists
 .
 mozilla
 .
 org
-"
+'
     
 url
 =
-"
+'
 https
 :
 /
@@ -276,14 +274,14 @@ tools
 Projects
 /
 Mozbase
-"
+'
     
 packages
 =
 [
-"
+'
 mozsystemmonitor
-"
+'
 ]
     
 version
@@ -293,7 +291,7 @@ PACKAGE_VERSION
 install_requires
 =
 [
-"
+'
 psutil
 >
 =
@@ -302,6 +300,6 @@ psutil
 1
 .
 1
-"
+'
 ]
 )

@@ -26,9 +26,9 @@ use
 RelEng
 infra
     
-"
+'
 developer_mode
-"
+'
 :
 True
     
@@ -36,11 +36,11 @@ True
 mozcrash
 support
     
-"
+'
 download_symbols
-"
+'
 :
-"
+'
 ondemand
-"
+'
 }

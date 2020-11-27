@@ -12,7 +12,6 @@ parser
 .
 parse
 (
-        
 "
 "
 "
@@ -32,8 +31,8 @@ Foo
 "
 "
 "
-    
 )
+;
     
 results
 =
@@ -60,12 +59,12 @@ expectedNames
 sorted
 (
 [
-"
+'
 Foo
-"
-"
+'
+'
 Bar
-"
+'
 ]
 )
     
@@ -91,7 +90,6 @@ harness
 .
 check
 (
-        
 actualNames
 expectedNames
 "
@@ -104,5 +102,4 @@ duplicate
 names
 .
 "
-    
 )

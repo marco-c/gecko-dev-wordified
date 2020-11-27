@@ -87,9 +87,9 @@ MPL
 .
 SharedLibrary
 (
-"
+'
 plugin_child_interpose
-"
+'
 )
 UNIFIED_SOURCES
 +
@@ -110,11 +110,11 @@ OS_LIBS
 +
 =
 [
-"
+'
 -
 framework
 Carbon
-"
+'
 ]
 DIST_INSTALL
 =

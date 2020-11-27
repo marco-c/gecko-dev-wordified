@@ -93,39 +93,39 @@ __all__
 =
 [
     
-"
+'
 IPGEmptyFileError
-"
+'
     
-"
+'
 IPGExecutableMissingError
-"
+'
     
-"
+'
 IPGMissingOutputFileError
-"
+'
     
-"
+'
 IPGTimeoutError
-"
+'
     
-"
+'
 IPGUnknownValueTypeError
-"
+'
     
-"
+'
 MissingProcessorInfoError
-"
+'
     
-"
+'
 MozPower
-"
+'
     
-"
+'
 OsCpuComboMissingError
-"
+'
     
-"
+'
 PlatformUnsupportedError
-"
+'
 ]

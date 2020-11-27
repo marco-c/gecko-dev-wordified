@@ -660,7 +660,7 @@ aa6872140
                 
 date_format
 =
-"
+'
 %
 Y
 -
@@ -669,7 +669,7 @@ m
 -
 %
 d
-"
+'
                 
 req_nightly
 =
@@ -693,7 +693,6 @@ datetime
 .
 strptime
 (
-                    
 out
 .
 rstrip
@@ -713,7 +712,6 @@ rsplit
 1
 ]
 date_format
-                
 )
                 
 if
@@ -1816,47 +1814,48 @@ RUNTIME_LICENSE_PACKAGE_WHITELIST
 =
 {
         
-"
+'
 BSD
 -
 2
 -
 Clause
-"
+'
 :
 [
             
-"
+'
 arrayref
-"
+'
             
-"
+'
 cloudabi
-"
+'
             
-"
+'
 Inflector
-"
+'
             
-"
+'
 mach
-"
+'
             
-"
+'
 qlog
-"
+'
         
 ]
         
-"
+'
 BSD
 -
 3
 -
 Clause
-"
+'
 :
 [
+        
 ]
     
 }

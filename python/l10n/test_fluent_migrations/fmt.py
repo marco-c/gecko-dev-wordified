@@ -75,9 +75,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
 Validate
 recipe
 and
@@ -85,9 +85,10 @@ extract
 some
 metadata
 .
-"
-"
-"
+    
+'
+'
+'
     
 return
 validator
@@ -105,9 +106,9 @@ cmd
 )
 :
     
-"
-"
-"
+'
+'
+'
 Prepare
 object
 dir
@@ -139,9 +140,9 @@ tested
 migrations
 .
     
-"
-"
-"
+'
+'
+'
     
 obj_dir
 =
@@ -152,12 +153,12 @@ join
 cmd
 .
 topobjdir
-"
+'
 python
-"
-"
+'
+'
 l10n
-"
+'
 )
     
 if
@@ -197,11 +198,11 @@ mozpath
 join
 (
 state_dir
-"
+'
 gecko
 -
 strings
-"
+'
 )
 )
 :
@@ -212,17 +213,18 @@ run_process
 (
             
 [
-"
+'
 hg
-"
-"
+'
+'
 pull
-"
-"
+'
+'
 -
 u
-"
+'
 ]
+            
 cwd
 =
 mozpath
@@ -230,11 +232,11 @@ mozpath
 join
 (
 state_dir
-"
+'
 gecko
 -
 strings
-"
+'
 )
         
 )
@@ -248,13 +250,13 @@ run_process
 (
             
 [
-"
+'
 hg
-"
-"
+'
+'
 clone
-"
-"
+'
+'
 https
 :
 /
@@ -270,7 +272,7 @@ l10n
 gecko
 -
 strings
-"
+'
 ]
             
 cwd
@@ -329,11 +331,11 @@ open
 p
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 as
 fh
@@ -405,9 +407,9 @@ references
 )
 :
     
-"
-"
-"
+'
+'
+'
 Test
 the
 given
@@ -514,9 +516,9 @@ is
 different
 .
     
-"
-"
-"
+'
+'
+'
     
 rv
 =
@@ -590,11 +592,9 @@ l10n
     
 migration_module
 =
-(
-        
-"
+'
 .
-"
+'
 .
 join
 (
@@ -604,9 +604,9 @@ paths
 .
 index
 (
-"
+'
 l10n
-"
+'
 )
 +
 1
@@ -616,13 +616,11 @@ l10n
 ]
 )
 +
-"
+'
 .
-"
+'
 +
 migration_name
-    
-)
     
 if
 os
@@ -651,9 +649,9 @@ mozpath
 join
 (
 work_dir
-"
+'
 reference
-"
+'
 )
 )
     
@@ -663,7 +661,6 @@ mozpath
 .
 join
 (
-        
 cmd
 .
 topsrcdir
@@ -671,19 +668,18 @@ cmd
 .
 substs
 [
-"
+'
 MOZ_BUILD_APP
-"
+'
 ]
-"
+'
 locales
-"
-"
+'
+'
 l10n
 .
 toml
-"
-    
+'
 )
     
 pc
@@ -698,11 +694,13 @@ l10n_toml
 env
 =
 {
-"
+        
+'
 l10n_base
-"
+'
 :
 work_dir
+    
 }
 )
     
@@ -711,9 +709,9 @@ pc
 set_locales
 (
 [
-"
+'
 reference
-"
+'
 ]
 )
     
@@ -721,9 +719,9 @@ files
 =
 ProjectFiles
 (
-"
+'
 reference
-"
+'
 [
 pc
 ]
@@ -751,35 +749,31 @@ cmd
 .
 log
 (
-                
 logging
 .
 ERROR
-                
-"
+'
 fluent
 -
 migration
 -
 test
-"
-                
+'
 {
-                    
-"
+                
+'
 file
-"
+'
 :
 to_test
-                    
-"
+                
+'
 ref
-"
+'
 :
 ref
-                
+            
 }
-                
 '
 Reference
 path
@@ -797,7 +791,6 @@ for
 file
 }
 '
-            
 )
             
 rv
@@ -813,9 +806,9 @@ mozpath
 join
 (
 work_dir
-"
+'
 reference
-"
+'
 ref
 )
         
@@ -861,11 +854,11 @@ mozpath
 join
 (
 work_dir
-"
+'
 gecko
 -
 strings
-"
+'
 ref
 )
         
@@ -874,8 +867,8 @@ resources
 [
             
 b
-"
-"
+'
+'
 if
 not
 os
@@ -886,13 +879,14 @@ exists
 (
 f
 )
+            
 else
 open
 (
 f
-"
+'
 rb
-"
+'
 )
 .
 read
@@ -942,9 +936,9 @@ ref_dir
 open
 (
 full_ref
-"
+'
 wb
-"
+'
 )
 .
 write
@@ -972,11 +966,11 @@ join
 get_state_dir
 (
 )
-"
+'
 gecko
 -
 strings
-"
+'
 )
         
 dest
@@ -986,11 +980,11 @@ mozpath
 join
 (
 work_dir
-"
+'
 en
 -
 US
-"
+'
 )
     
 )
@@ -1021,76 +1015,72 @@ _virtualenv_manager
 .
 python_path
         
-"
+'
 -
 m
-"
-        
-"
+'
+'
 fluent
 .
 migrate
 .
 tool
-"
+'
         
-"
+'
 -
 -
 lang
-"
-        
-"
+'
+'
 en
 -
 US
-"
+'
         
-"
+'
 -
 -
 reference
 -
 dir
-"
-        
+'
 mozpath
 .
 join
 (
 work_dir
-"
+'
 reference
-"
+'
 )
         
-"
+'
 -
 -
 localization
 -
 dir
-"
-        
+'
 mozpath
 .
 join
 (
 work_dir
-"
+'
 en
 -
 US
-"
+'
 )
         
-"
+'
 -
 -
 dry
 -
 run
-"
+'
         
 migration_module
     
@@ -1167,30 +1157,26 @@ cmd
 .
 log
 (
-            
 logging
 .
 WARN
-            
-"
+'
 fluent
 -
 migration
 -
 test
-"
-            
+'
 {
-                
-"
+            
+'
 file
-"
+'
 :
 to_test
-            
+        
 }
-            
-"
+'
 No
 migration
 applied
@@ -1198,8 +1184,7 @@ for
 {
 file
 }
-"
-        
+'
 )
         
 return
@@ -1219,9 +1204,9 @@ mozpath
 join
 (
 work_dir
-"
+'
 reference
-"
+'
 ref
 )
             
@@ -1230,11 +1215,11 @@ mozpath
 join
 (
 work_dir
-"
+'
 en
 -
 US
-"
+'
 ref
 )
         
@@ -1243,18 +1228,17 @@ ref
 messages
 =
 [
-        
 l
 .
 desc
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 for
 l
@@ -1264,7 +1248,7 @@ client
 log
 (
 b
-"
+'
 :
 :
 %
@@ -1274,14 +1258,13 @@ s
 :
 %
 s
-"
+'
 %
 (
 tip
 old_tip
 )
 )
-    
 ]
     
 bug
@@ -1290,7 +1273,7 @@ re
 .
 search
 (
-"
+'
 [
 0
 -
@@ -1299,7 +1282,7 @@ search
 {
 5
 }
-"
+'
 migration_name
 )
 .
@@ -1342,30 +1325,26 @@ cmd
 .
 log
 (
-            
 logging
 .
 ERROR
-            
-"
+'
 fluent
 -
 migration
 -
 test
-"
-            
+'
 {
-                
-"
+            
+'
 file
-"
+'
 :
 to_test
-            
+        
 }
-            
-"
+'
 Missing
 or
 wrong
@@ -1375,18 +1354,18 @@ for
 {
 file
 }
-"
-        
+'
 )
     
 if
 any
 (
-"
+        
+'
 part
 {
 }
-"
+'
 .
 format
 (
@@ -1397,6 +1376,7 @@ n
 not
 in
 msg
+        
 for
 n
 msg
@@ -1405,6 +1385,7 @@ enumerate
 (
 messages
 )
+    
 )
 :
         
@@ -1416,29 +1397,25 @@ cmd
 .
 log
 (
-            
 logging
 .
 ERROR
-            
-"
+'
 fluent
 -
 migration
 -
 test
-"
-            
+'
 {
-                
-"
+            
+'
 file
-"
+'
 :
 to_test
-            
+        
 }
-            
 '
 Commit
 messages
@@ -1457,7 +1434,6 @@ for
 file
 }
 '
-        
 )
     
 return

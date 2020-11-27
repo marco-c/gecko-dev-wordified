@@ -40,7 +40,7 @@ MarionetteTestCase
 LABELS_SCRIPT_PRELOADER_REQUESTS
 =
 {
-    
+  
 "
 Hit
 "
@@ -48,7 +48,7 @@ Hit
 "
 0
 "
-    
+  
 "
 HitChild
 "
@@ -56,7 +56,7 @@ HitChild
 "
 1
 "
-    
+  
 "
 Miss
 "
@@ -191,8 +191,8 @@ self
 .
 wait_for_file_change
 (
-            
 start_time
+                                  
 "
 {
 }
@@ -208,15 +208,14 @@ format
 (
 profile
 )
-        
 )
         
 self
 .
 wait_for_file_change
 (
-            
 start_time
+                                  
 "
 {
 }
@@ -234,7 +233,6 @@ format
 (
 profile
 )
-        
 )
         
 self
@@ -516,7 +514,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -555,11 +552,8 @@ resolve
 .
 format
 (
-                    
 name
-                
 )
-            
 )
     
 def
@@ -592,7 +586,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -630,11 +623,8 @@ values
 .
 format
 (
-                    
 name
-                
 )
-            
 )
     
 def

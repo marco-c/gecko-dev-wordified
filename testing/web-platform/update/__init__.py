@@ -90,7 +90,6 @@ path
 .
 insert
 (
-    
 0
 os
 .
@@ -126,7 +125,6 @@ path
 .
 insert
 (
-    
 0
 os
 .

@@ -278,9 +278,7 @@ import
 (
     
 MochitestArgumentParser
-    
 build_obj
-    
 get_default_valgrind_suppression_files
 )
 from
@@ -807,12 +805,12 @@ data
 .
 get
 (
-"
+'
 level
-"
-"
+'
+'
 info
-"
+'
 )
 .
 upper
@@ -820,42 +818,43 @@ upper
 )
         
 if
-"
+'
 js_source
-"
+'
 in
 data
 or
 log_level
 =
 =
-"
+'
 ERROR
-"
+'
 :
             
 data
 .
 pop
 (
-"
+'
 js_source
-"
+'
 None
 )
             
 output
 =
-"
+'
 %
 d
 %
 s
 %
 s
-"
+'
 %
 (
+                
 MochitestFormatter
 .
 log_num
@@ -922,7 +921,7 @@ interleaving
 DELIMITER
 =
 u
-"
+'
 \
 ue175
 \
@@ -931,19 +930,19 @@ uee31
 u2c32
 \
 uacbf
-"
+'
     
 BUFFERED_ACTIONS
 =
 set
 (
 [
-"
+'
 test_status
-"
-"
+'
+'
 log
-"
+'
 ]
 )
     
@@ -951,60 +950,49 @@ VALID_ACTIONS
 =
 set
 (
-        
 [
-            
-"
+'
 suite_start
-"
-            
-"
+'
+'
 suite_end
-"
-            
-"
+'
+'
 test_start
-"
-            
-"
+'
+'
 test_end
-"
-            
-"
+'
+                         
+'
 test_status
-"
-            
-"
+'
+'
 log
-"
-            
-"
+'
+'
 assertion_count
-"
-            
-"
+'
+                         
+'
 buffering_on
-"
-            
-"
+'
+'
 buffering_off
-"
-        
+'
 ]
-    
 )
     
 TEST_PATH_PREFIXES
 =
 [
-        
-"
+'
 /
 tests
 /
-"
-        
-"
+'
+                          
+'
 chrome
 :
 /
@@ -1015,9 +1003,9 @@ content
 /
 a11y
 /
-"
-        
-"
+'
+                          
+'
 chrome
 :
 /
@@ -1028,9 +1016,9 @@ content
 /
 browser
 /
-"
-        
-"
+'
+                          
+'
 chrome
 :
 /
@@ -1041,8 +1029,7 @@ content
 /
 chrome
 /
-"
-    
+'
 ]
     
 def
@@ -1075,9 +1062,9 @@ self
 .
 gecko_id
 =
-"
+'
 GECKO
-"
+'
         
 self
 .
@@ -1208,32 +1195,29 @@ validation
 if
 not
 (
-            
 isinstance
 (
 obj
 dict
 )
-            
 and
-"
+'
 action
-"
+'
 in
 obj
-            
 and
 obj
 [
-"
+                
+'
 action
-"
+'
 ]
 in
 MessageLogger
 .
 VALID_ACTIONS
-        
 )
 :
             
@@ -1263,43 +1247,41 @@ string
 "
         
 if
-"
+'
 subtest
-"
+'
 in
 message
 and
 not
 isinstance
 (
-            
 message
 [
-"
+'
 subtest
-"
+'
 ]
 six
 .
 string_types
-        
 )
 :
             
 message
 [
-"
+'
 subtest
-"
+'
 ]
 =
 str
 (
 message
 [
-"
+'
 subtest
-"
+'
 ]
 )
     
@@ -1328,6 +1310,7 @@ from
 the
 sourcedir
 .
+        
 "
 "
 "
@@ -1337,9 +1320,9 @@ message
 .
 get
 (
-"
+'
 test
-"
+'
 )
 is
 not
@@ -1350,9 +1333,9 @@ test
 =
 message
 [
-"
+'
 test
-"
+'
 ]
             
 for
@@ -1374,9 +1357,9 @@ prefix
                     
 message
 [
-"
+'
 test
-"
+'
 ]
 =
 test
@@ -1399,9 +1382,9 @@ message
 :
         
 if
-"
+'
 message
-"
+'
 in
 message
 :
@@ -1411,9 +1394,9 @@ isinstance
 (
 message
 [
-"
+'
 message
-"
+'
 ]
 bytes
 )
@@ -1421,28 +1404,28 @@ bytes
                 
 message
 [
-"
+'
 message
-"
+'
 ]
 =
 message
 [
-"
+'
 message
-"
+'
 ]
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
-"
+'
+'
 replace
-"
+'
 )
             
 elif
@@ -1451,9 +1434,9 @@ isinstance
 (
 message
 [
-"
+'
 message
-"
+'
 ]
 six
 .
@@ -1463,9 +1446,9 @@ text_type
                 
 message
 [
-"
+'
 message
-"
+'
 ]
 =
 six
@@ -1474,9 +1457,9 @@ text_type
 (
 message
 [
-"
+'
 message
-"
+'
 ]
 )
     
@@ -1646,9 +1629,9 @@ dict
                         
 action
 =
-"
+'
 process_output
-"
+'
                         
 process
 =
@@ -1672,15 +1655,15 @@ dict
                         
 action
 =
-"
+'
 log
-"
+'
                         
 level
 =
-"
+'
 info
-"
+'
                         
 message
 =
@@ -1803,15 +1786,15 @@ side
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 buffering_on
-"
+'
 :
             
 if
@@ -1831,15 +1814,15 @@ return
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 buffering_off
-"
+'
 :
             
 self
@@ -1881,47 +1864,47 @@ FAIL
 .
         
 if
-"
+(
+'
 expected
-"
+'
 in
 message
 or
 (
-            
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 log
-"
-            
+'
 and
 message
 .
 get
 (
-"
+                
+'
 message
-"
-"
-"
+'
+'
+'
 )
 .
 startswith
 (
-"
+'
 TEST
 -
 UNEXPECTED
-"
+'
 )
-        
+)
 )
 :
             
@@ -1953,6 +1936,7 @@ snipped
 =
 len
 (
+                    
 self
 .
 buffered_messages
@@ -2012,7 +1996,6 @@ format
 (
 snipped
 )
-                    
 )
                 
 #
@@ -2054,30 +2037,24 @@ be
 buffered
         
 elif
-(
-            
 self
 .
 buffering
-            
 and
 self
 .
 structured
-            
 and
 message
 [
-"
+'
 action
-"
+'
 ]
 in
 self
 .
 BUFFERED_ACTIONS
-        
-)
 :
             
 self
@@ -2121,15 +2098,15 @@ buffer
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_end
-"
+'
 :
             
 self
@@ -2166,15 +2143,15 @@ False
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_start
-"
+'
 :
             
 self
@@ -2303,9 +2280,9 @@ fromtimestamp
 (
 buf
 [
-"
+'
 time
-"
+'
 ]
 /
 1000
@@ -2313,7 +2290,7 @@ time
 .
 strftime
 (
-"
+'
 %
 H
 :
@@ -2322,7 +2299,7 @@ M
 :
 %
 S
-"
+'
 )
             
 if
@@ -2686,14 +2663,14 @@ log
 .
 info
 (
-"
+'
 psutil
 found
 pid
 %
 s
 dead
-"
+'
 %
 p
 .
@@ -2710,7 +2687,7 @@ log
 .
 info
 (
-"
+'
 failed
 to
 kill
@@ -2719,7 +2696,7 @@ pid
 d
 after
 30s
-"
+'
 %
 p
 .
@@ -2850,9 +2827,10 @@ OpenProcess
 (
             
 PROCESS_QUERY_LIMITED_INFORMATION
+            
 0
+            
 pid
-        
 )
         
 if
@@ -2884,7 +2862,9 @@ kernel32
 .
 GetExitCodeProcess
 (
+                
 pHandle
+                
 ctypes
 .
 byref
@@ -2961,11 +2941,11 @@ kernel32
 .
 GetProcessImageFileNameA
 (
-                
 pHandle
+                                                                      
 pName
+                                                                      
 namesize
-            
 )
             
 if
@@ -3000,18 +2980,18 @@ value
 endswith
 (
 (
-"
+'
 firefox
 .
 exe
-"
-"
+'
+'
 plugin
 -
 container
 .
 exe
-"
+'
 )
 )
         
@@ -3312,9 +3292,9 @@ bool
 (
 options
 [
-"
+'
 keep_open
-"
+'
 ]
 )
         
@@ -3324,9 +3304,9 @@ _utilityPath
 =
 options
 [
-"
+'
 utilityPath
-"
+'
 ]
         
 self
@@ -3335,9 +3315,9 @@ _xrePath
 =
 options
 [
-"
+'
 xrePath
-"
+'
 ]
         
 self
@@ -3346,9 +3326,9 @@ _profileDir
 =
 options
 [
-"
+'
 profilePath
-"
+'
 ]
         
 self
@@ -3357,9 +3337,9 @@ webServer
 =
 options
 [
-"
+'
 webServer
-"
+'
 ]
         
 self
@@ -3368,9 +3348,9 @@ httpPort
 =
 options
 [
-"
+'
 httpPort
-"
+'
 ]
         
 if
@@ -3378,9 +3358,9 @@ options
 .
 get
 (
-"
+'
 remoteWebServer
-"
+'
 )
 =
 =
@@ -3480,7 +3460,6 @@ port
 self
 .
 httpPort
-        
 }
         
 self
@@ -3496,9 +3475,9 @@ options
 .
 get
 (
-"
+'
 httpdPath
-"
+'
 )
 :
             
@@ -3508,9 +3487,9 @@ _httpdPath
 =
 options
 [
-"
+'
 httpdPath
-"
+'
 ]
         
 else
@@ -3859,9 +3838,11 @@ path
 .
 join
 (
+                
 self
 .
 _httpdPath
+                
 "
 httpd
 .
@@ -3933,7 +3914,6 @@ displayResults
 s
 ;
 "
-            
 %
 {
                 
@@ -3947,16 +3927,18 @@ _profileDir
 .
 replace
 (
-"
+                    
+'
 \
 \
-"
-"
+'
+                    
+'
 \
 \
 \
 \
-"
+'
 )
                 
 "
@@ -3989,6 +3971,7 @@ displayResults
 :
 str
 (
+                    
 self
 .
 _keep_open
@@ -3997,7 +3980,6 @@ _keep_open
 lower
 (
 )
-            
 }
             
 "
@@ -4011,14 +3993,15 @@ path
 .
 join
 (
+                
 SCRIPT_DIR
+                
 "
 server
 .
 js
 "
 )
-        
 ]
         
 xpcshell
@@ -4029,10 +4012,10 @@ path
 .
 join
 (
-            
 self
 .
 _utilityPath
+                                
 "
 xpcshell
 "
@@ -4041,11 +4024,10 @@ mozinfo
 .
 info
 [
-"
+'
 bin_suffix
-"
+'
 ]
-        
 )
         
 command
@@ -4064,10 +4046,13 @@ mozprocess
 .
 ProcessHandler
 (
+            
 command
+            
 cwd
 =
 SCRIPT_DIR
+            
 env
 =
 env
@@ -4087,6 +4072,7 @@ _log
 .
 info
 (
+            
 "
 %
 s
@@ -4096,6 +4082,7 @@ launching
 s
 "
 %
+            
 (
 self
 .
@@ -4194,7 +4181,6 @@ time
 .
 sleep
 (
-0
 .
 05
 )
@@ -4202,7 +4188,6 @@ sleep
 i
 +
 =
-0
 .
 05
         
@@ -4236,7 +4221,6 @@ server
 startup
 .
 "
-            
 )
             
 self
@@ -4579,11 +4563,11 @@ SIGINT
         
 scriptPath
 =
-"
+'
 pywebsocket_wrapper
 .
 py
-"
+'
         
 script
 =
@@ -4624,24 +4608,22 @@ cmd
 +
 =
 [
-"
+'
 -
 -
 interactive
-"
+'
 ]
         
 cmd
 +
 =
 [
-            
-"
+'
 -
 H
-"
-            
-"
+'
+'
 127
 .
 0
@@ -4649,34 +4631,29 @@ H
 0
 .
 1
-"
-            
-"
+'
+'
 -
 p
-"
-            
+'
 str
 (
 self
 .
 port
 )
-            
-"
+'
 -
 w
-"
-            
+'
 self
 .
 _scriptdir
-            
-"
+                
+'
 -
 l
-"
-            
+'
 os
 .
 path
@@ -4692,8 +4669,8 @@ websock
 log
 "
 )
-            
-"
+                
+'
 -
 -
 log
@@ -4701,9 +4678,8 @@ log
 level
 =
 debug
-"
-            
-"
+'
+'
 -
 -
 allow
@@ -4715,8 +4691,7 @@ outside
 root
 -
 dir
-"
-        
+'
 ]
         
 env
@@ -4730,9 +4705,9 @@ environ
         
 env
 [
-"
+'
 PYTHONPATH
-"
+'
 ]
 =
 os
@@ -5041,7 +5016,6 @@ config
 .
 write
 (
-                    
 "
 listen
 :
@@ -5059,8 +5033,8 @@ s
 \
 n
 "
-                    
 %
+                             
 (
 loc
 .
@@ -5073,7 +5047,6 @@ self
 sslPort
 customcert
 )
-                
 )
             
 match
@@ -5106,7 +5079,6 @@ config
 .
 write
 (
-                    
 "
 clientauth
 :
@@ -5124,8 +5096,8 @@ s
 \
 n
 "
-                    
 %
+                             
 (
 loc
 .
@@ -5138,7 +5110,6 @@ self
 sslPort
 clientauth
 )
-                
 )
             
 match
@@ -5171,7 +5142,6 @@ config
 .
 write
 (
-                    
 "
 redirhost
 :
@@ -5189,8 +5159,8 @@ s
 \
 n
 "
-                    
 %
+                             
 (
 loc
 .
@@ -5203,42 +5173,40 @@ self
 sslPort
 redirhost
 )
-                
 )
             
 if
 option
 in
 (
-                
-"
+                    
+'
 tls1
-"
-                
-"
+'
+                    
+'
 tls1_1
-"
-                
-"
+'
+                    
+'
 tls1_2
-"
-                
-"
+'
+                    
+'
 tls1_3
-"
-                
-"
+'
+                    
+'
 ssl3
-"
-                
-"
+'
+                    
+'
 rc4
-"
-                
-"
+'
+                    
+'
 failHandshake
-"
-            
+'
 )
 :
                 
@@ -5263,6 +5231,7 @@ s
 n
 "
 %
+                    
 (
 option
 loc
@@ -5275,7 +5244,6 @@ self
 .
 sslPort
 )
-                
 )
     
 def
@@ -5310,6 +5278,7 @@ tempfile
 .
 mkstemp
 (
+            
 prefix
 =
 "
@@ -5411,6 +5380,7 @@ s
 n
 "
 %
+                
 (
 self
 .
@@ -5419,7 +5389,6 @@ self
 .
 webSocketPort
 )
-            
 )
             
 #
@@ -5668,18 +5637,18 @@ os
 name
 =
 =
-"
+'
 nt
-"
+'
 :
             
 ssltunnel
 +
 =
-"
+'
 .
 exe
-"
+'
         
 if
 not
@@ -5716,8 +5685,8 @@ at
 s
 "
 %
+                
 ssltunnel
-            
 )
             
 exit
@@ -5766,6 +5735,7 @@ self
 .
 configFile
 ]
+                                                 
 env
 =
 env
@@ -5871,9 +5841,9 @@ device
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Determine
 if
@@ -5917,9 +5887,9 @@ a
 boolean
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 not
@@ -5930,8 +5900,8 @@ isLinux
         
 return
 False
-"
-"
+'
+'
     
 libc
 =
@@ -5977,9 +5947,9 @@ _fields_
 [
             
 (
-"
+'
 driver
-"
+'
 ctypes
 .
 c_char
@@ -5988,9 +5958,9 @@ c_char
 )
             
 (
-"
+'
 card
-"
+'
 ctypes
 .
 c_char
@@ -5999,9 +5969,9 @@ c_char
 )
             
 (
-"
+'
 bus_info
-"
+'
 ctypes
 .
 c_char
@@ -6010,36 +5980,36 @@ c_char
 )
             
 (
-"
+'
 version
-"
+'
 ctypes
 .
 c_uint32
 )
             
 (
-"
+'
 capabilities
-"
+'
 ctypes
 .
 c_uint32
 )
             
 (
-"
+'
 device_caps
-"
+'
 ctypes
 .
 c_uint32
 )
             
 (
-"
+'
 reserved
-"
+'
 ctypes
 .
 c_uint32
@@ -6071,8 +6041,8 @@ fd
         
 return
 False
-"
-"
+'
+'
     
 vcap
 =
@@ -6101,8 +6071,8 @@ vcap
         
 return
 False
-"
-"
+'
+'
     
 if
 vcap
@@ -6110,16 +6080,16 @@ vcap
 driver
 !
 =
-"
+'
 v4l2
 loopback
-"
+'
 :
         
 return
 False
-"
-"
+'
+'
     
 class
 v4l2_control
@@ -6133,22 +6103,25 @@ Structure
 _fields_
 =
 [
+            
 (
-"
+'
 id
-"
+'
 ctypes
 .
 c_uint32
 )
+            
 (
-"
+'
 value
-"
+'
 ctypes
 .
 c_int32
 )
+        
 ]
     
 #
@@ -6194,7 +6167,7 @@ SUSTAIN_FRAMERATE
     
 VIDIOC_S_CTRL
 =
-0xC008561C
+0xc008561c
     
 control
 =
@@ -6273,9 +6246,9 @@ log
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Find
 the
@@ -6345,9 +6318,9 @@ for
 Linux
 .
     
-"
-"
-"
+'
+'
+'
     
 if
 not
@@ -6389,13 +6362,13 @@ glob
 .
 glob
 (
-"
+'
 /
 dev
 /
 video
 *
-"
+'
 )
 )
 :
@@ -6435,8 +6408,9 @@ log
 .
 error
 (
-"
+'
 Couldn
+\
 '
 t
 find
@@ -6444,7 +6418,7 @@ a
 v4l2loopback
 video
 device
-"
+'
 )
         
 return
@@ -6542,55 +6516,47 @@ subprocess
 .
 check_call
 (
-        
 [
-            
 gst
-            
-"
+'
 videotestsrc
-"
-            
-"
+'
+                           
+'
 pattern
 =
 green
-"
-            
-"
+'
+'
 num
 -
 buffers
 =
 1
-"
-            
-"
+'
+'
 !
-"
-            
-"
+'
+                           
+'
 v4l2sink
-"
-            
-"
+'
+'
 device
 =
 %
 s
-"
+'
 %
 device
-        
 ]
-    
 )
     
 info
 [
-"
+'
 video
-"
+'
 ]
 =
 name
@@ -6627,14 +6593,14 @@ log
 .
 error
 (
-"
+'
 Could
 not
 find
 pactl
 on
 system
-"
+'
 )
         
 return
@@ -6649,17 +6615,18 @@ subprocess
 .
 check_output
 (
+            
 [
 pactl
-"
+'
 list
-"
-"
+'
+'
 short
-"
-"
+'
+'
 modules
-"
+'
 ]
 )
     
@@ -6673,14 +6640,14 @@ log
 .
 error
 (
-"
+'
 Could
 not
 list
 currently
 loaded
 modules
-"
+'
 )
         
 return
@@ -6700,13 +6667,13 @@ splitlines
 )
 if
 b
-"
+'
 module
 -
 null
 -
 sink
-"
+'
 in
 x
 ]
@@ -6724,19 +6691,23 @@ subprocess
 check_call
 (
 [
+                
 pactl
-"
+                
+'
 load
 -
 module
-"
-"
+'
+                
+'
 module
 -
 null
 -
 sink
-"
+'
+            
 ]
 )
         
@@ -6750,7 +6721,7 @@ log
 .
 error
 (
-"
+'
 Could
 not
 load
@@ -6759,7 +6730,7 @@ module
 null
 -
 sink
-"
+'
 )
             
 return
@@ -6780,17 +6751,17 @@ same
     
 info
 [
-"
+'
 audio
-"
+'
 ]
 =
-"
+'
 Monitor
 of
 Null
 Output
-"
+'
     
 return
 info
@@ -6955,9 +6926,9 @@ path
 .
 expanduser
 (
-"
+'
 ~
-"
+'
 )
 :
         
@@ -7109,11 +7080,11 @@ like
     
 test_name
 =
-"
+'
 automation
 .
 py
-"
+'
     
 def
 __init__
@@ -7271,9 +7242,9 @@ logger_options
 .
 get
 (
-"
+'
 log
-"
+'
 )
 :
             
@@ -7283,9 +7254,9 @@ log
 =
 logger_options
 [
-"
+'
 log
-"
+'
 ]
         
 else
@@ -7310,7 +7281,6 @@ specific
 tbpl
 formatter
 "
-            
 )
             
 self
@@ -7321,7 +7291,6 @@ commandline
 .
 setup_logging
 (
-                
 "
 mochitest
 "
@@ -7335,7 +7304,6 @@ sys
 .
 stdout
 }
-            
 )
         
 self
@@ -7344,7 +7312,7 @@ message_logger
 =
 MessageLogger
 (
-            
+                
 logger
 =
 self
@@ -7356,7 +7324,6 @@ quiet
 structured
 =
 True
-        
 )
         
 #
@@ -7415,9 +7382,9 @@ info
 .
 get
 (
-"
+'
 debug
-"
+'
 )
 else
 90
@@ -7497,11 +7464,11 @@ path
 join
 (
 here
-"
+'
 start_desktop
 .
 js
-"
+'
 )
         
 #
@@ -7531,9 +7498,9 @@ kwargs
         
 kwargs
 [
-"
+'
 log
-"
+'
 ]
 =
 self
@@ -7576,15 +7543,18 @@ path
 .
 normpath
 (
+            
 os
 .
 path
 .
 join
 (
+                
 self
 .
 oldcwd
+                
 os
 .
 path
@@ -7623,7 +7593,7 @@ on
 in
 most
 cases
-        
+            
 it
 will
 be
@@ -7679,13 +7649,13 @@ path
 join
 (
 SCRIPT_DIR
-"
+'
 server
 -
 locations
 .
 txt
-"
+'
 )
         
 self
@@ -7725,14 +7695,14 @@ line
 to
 the
 url
-        
+            
 URL
 parameters
 to
 test
 URL
 :
-        
+            
 autorun
 -
 -
@@ -7740,7 +7710,7 @@ kick
 off
 tests
 automatically
-        
+            
 closeWhenDone
 -
 -
@@ -7750,7 +7720,7 @@ browser
 after
 the
 tests
-        
+            
 hideResultsTable
 -
 -
@@ -7761,7 +7731,7 @@ of
 individual
 test
 results
-        
+            
 logFile
 -
 -
@@ -7772,7 +7742,7 @@ to
 an
 absolute
 path
-        
+            
 startAt
 -
 -
@@ -7782,7 +7752,7 @@ test
 to
 start
 at
-        
+            
 endAt
 -
 -
@@ -7792,7 +7762,7 @@ test
 to
 end
 at
-        
+            
 timeout
 -
 -
@@ -7802,7 +7772,7 @@ test
 timeout
 in
 seconds
-        
+            
 repeat
 -
 -
@@ -7841,9 +7811,9 @@ not
 hasattr
 (
 options
-"
+'
 logFile
-"
+'
 )
 :
             
@@ -7859,9 +7829,9 @@ not
 hasattr
 (
 options
-"
+'
 fileLevel
-"
+'
 )
 :
             
@@ -7869,9 +7839,9 @@ options
 .
 fileLevel
 =
-"
+'
 INFO
-"
+'
         
 #
 allow
@@ -7905,15 +7875,15 @@ options
 flavor
 in
 (
-"
+'
 a11y
-"
-"
+'
+'
 browser
-"
-"
+'
+'
 chrome
-"
+'
 )
 :
             
@@ -8026,13 +7996,16 @@ urlOpts
 .
 append
 (
+                    
 "
 logFile
 =
 "
 +
+                    
 encodeURIComponent
 (
+                        
 options
 .
 logFile
@@ -8051,13 +8024,14 @@ fileLevel
 =
 "
 +
+                    
 encodeURIComponent
 (
+                        
 options
 .
 fileLevel
 )
-                
 )
             
 if
@@ -8078,13 +8052,14 @@ consoleLevel
 =
 "
 +
+                    
 encodeURIComponent
 (
+                        
 options
 .
 consoleLevel
 )
-                
 )
             
 if
@@ -8163,6 +8138,7 @@ env
 and
 env
 [
+                    
 "
 MOZ_HIDE_RESULTS_TABLE
 "
@@ -8278,9 +8254,7 @@ test_paths
 [
 0
 ]
-                
 )
-            
 )
 :
                 
@@ -8290,7 +8264,6 @@ urlOpts
 .
 append
 (
-                    
 "
 testname
 =
@@ -8304,6 +8277,7 @@ s
 .
 join
 (
+                    
 [
 self
 .
@@ -8316,7 +8290,6 @@ test_paths
 ]
 ]
 )
-                
 )
             
 if
@@ -8363,15 +8336,16 @@ failureFile
 s
 "
 %
+                    
 self
 .
 getFullPath
 (
+                        
 options
 .
 failureFile
 )
-                
 )
             
 if
@@ -8431,15 +8405,15 @@ dumpOutputDirectory
 %
 s
 "
-                    
 %
+                    
 encodeURIComponent
 (
+                        
 options
 .
 dumpOutputDirectory
 )
-                
 )
             
 if
@@ -8549,6 +8523,8 @@ MOZ_XORIGIN_MOCHITEST
 in
 env
 and
+\
+                    
 env
 [
 "
@@ -8656,31 +8632,31 @@ if
 flavor
 =
 =
-"
+'
 browser
-"
+'
 :
             
 return
-"
+'
 browser
 -
 chrome
-"
+'
         
 elif
 flavor
 =
 =
-"
+'
 plain
-"
+'
 :
             
 return
-"
+'
 mochitest
-"
+'
         
 return
 flavor
@@ -8717,9 +8693,9 @@ options
 flavor
 =
 =
-"
+'
 browser
-"
+'
 :
             
 allow_js_css
@@ -8749,12 +8725,12 @@ options
 flavor
 in
 (
-"
+'
 a11y
-"
-"
+'
+'
 chrome
-"
+'
 )
 :
             
@@ -8839,6 +8815,7 @@ split
 )
         
 return
+(
 testPattern
 .
 match
@@ -8850,22 +8827,22 @@ pathPieces
 ]
 )
 and
+                
 not
 re
 .
 search
 (
-            
 r
-"
+'
 \
 ^
 headers
 \
 ^
-"
+'
 filename
-        
+)
 )
     
 def
@@ -8882,9 +8859,9 @@ options
 flavor
 !
 =
-"
+'
 plain
-"
+'
 :
             
 self
@@ -8929,9 +8906,9 @@ self
 options
 scheme
 =
-"
+'
 http
-"
+'
 )
 :
         
@@ -8939,9 +8916,9 @@ if
 scheme
 =
 =
-"
+'
 https
-"
+'
 :
             
 testHost
@@ -9063,9 +9040,7 @@ test_paths
 [
 0
 ]
-                
 )
-            
 )
 :
                 
@@ -9123,12 +9098,12 @@ options
 flavor
 in
 (
-"
+'
 a11y
-"
-"
+'
+'
 chrome
-"
+'
 )
 :
             
@@ -9154,9 +9129,9 @@ options
 flavor
 =
 =
-"
+'
 browser
-"
+'
 :
             
 testURL
@@ -9201,7 +9176,7 @@ test
 file
 or
 directory
-        
+            
 Build
 a
 manifest
@@ -9220,7 +9195,7 @@ the
 harness
 to
 read
-        
+            
 testsToFilter
 option
 is
@@ -9235,7 +9210,7 @@ provided
 in
 the
 list
-        
+            
 disabled
 -
 -
@@ -9250,7 +9225,7 @@ on
 the
 build
 side
-                    
+                        
 and
 then
 on
@@ -9295,9 +9270,9 @@ and
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 not
 in
@@ -9351,7 +9326,6 @@ manifestparser
 with
 open
 (
-                
 os
 .
 path
@@ -9363,10 +9337,9 @@ options
 .
 testRunManifestFile
 )
-"
+'
 w
-"
-            
+'
 )
 as
 manifestFile
@@ -9381,9 +9354,9 @@ json
 dumps
 (
 {
-"
+'
 tests
-"
+'
 :
 grouped_tests
 }
@@ -9430,11 +9403,15 @@ wsserver
 =
 WebSocketServer
 (
+            
 options
+            
 SCRIPT_DIR
+            
 self
 .
 log
+            
 debuggerInfo
 )
         
@@ -9511,9 +9488,9 @@ xpcshell
 .
 pid
 "
-"
+'
 w
-"
+'
 )
 as
 f
@@ -9578,11 +9555,10 @@ testing
 command
 =
 [
-            
 sys
 .
 executable
-            
+                   
 os
 .
 path
@@ -9592,23 +9568,23 @@ join
 "
 websocketprocessbridge
 "
+                                
 "
 websocketprocessbridge
 .
 py
 "
 )
-            
+                   
 "
 -
 -
 port
 "
-            
+                   
 options
 .
 websocket_process_bridge_port
-        
 ]
         
 self
@@ -9620,6 +9596,7 @@ mozprocess
 ProcessHandler
 (
 command
+                                                                
 cwd
 =
 SCRIPT_DIR
@@ -9639,7 +9616,6 @@ log
 .
 info
 (
-            
 "
 runtests
 .
@@ -9654,14 +9630,13 @@ pid
 %
 d
 "
-            
+                      
 %
 self
 .
 websocketProcessBridge
 .
 pid
-        
 )
         
 #
@@ -9708,7 +9683,6 @@ log
 .
 error
 (
-                    
 "
 runtests
 .
@@ -9720,7 +9694,7 @@ process
 bridge
 failed
 "
-                    
+                               
 "
 to
 launch
@@ -9732,7 +9706,6 @@ dependencies
 installed
 ?
 "
-                
 )
                 
 return
@@ -9790,7 +9763,6 @@ log
 .
 error
 (
-                
 "
 runtests
 .
@@ -9802,7 +9774,7 @@ while
 waiting
 for
 "
-                
+                           
 "
 websocket
 /
@@ -9811,7 +9783,6 @@ bridge
 startup
 .
 "
-            
 )
     
 def
@@ -10001,7 +9972,9 @@ sslTunnel
 =
 SSLTunnel
 (
+            
 options
+            
 logger
 =
 self
@@ -10140,7 +10113,7 @@ more
 importantly
 anything
 they
-        
+            
 might
 spew
 to
@@ -10171,11 +10144,11 @@ log
 .
 info
 (
-"
+'
 Stopping
 web
 server
-"
+'
 )
                 
 self
@@ -10196,13 +10169,13 @@ log
 .
 critical
 (
-"
+'
 Exception
 when
 stopping
 web
 server
-"
+'
 )
         
 if
@@ -10223,12 +10196,12 @@ log
 .
 info
 (
-"
+'
 Stopping
 web
 socket
 server
-"
+'
 )
                 
 self
@@ -10249,14 +10222,14 @@ log
 .
 critical
 (
-"
+'
 Exception
 when
 stopping
 web
 socket
 server
-"
+'
 )
         
 if
@@ -10277,10 +10250,10 @@ log
 .
 info
 (
-"
+'
 Stopping
 ssltunnel
-"
+'
 )
                 
 self
@@ -10301,11 +10274,11 @@ log
 .
 critical
 (
-"
+'
 Exception
 stopping
 ssltunnel
-"
+'
 )
         
 if
@@ -10342,13 +10315,13 @@ log
 .
 info
 (
-"
+'
 Stopping
 websocket
 /
 process
 bridge
-"
+'
 )
             
 except
@@ -10361,14 +10334,14 @@ log
 .
 critical
 (
-"
+'
 Exception
 stopping
 websocket
 /
 process
 bridge
-"
+'
 )
     
 def
@@ -10454,9 +10427,11 @@ path
 .
 join
 (
+                    
 options
 .
 profilePath
+                    
 os
 .
 path
@@ -10484,6 +10459,7 @@ log
 .
 warning
 (
+                    
 "
 runtests
 .
@@ -10498,6 +10474,7 @@ to
 profile
 "
 %
+                    
 abspath
 )
     
@@ -10636,8 +10613,8 @@ yes
 n
 "
 %
+                
 chrometestDir
-            
 )
             
 manifestFile
@@ -10661,10 +10638,9 @@ yes
 \
 n
 "
-                
 %
+                
 chrometestDir
-            
 )
             
 manifestFile
@@ -10688,10 +10664,9 @@ yes
 \
 n
 "
-                
 %
+                
 chrometestDir
-            
 )
             
 if
@@ -10707,7 +10682,6 @@ manifestFile
 .
 write
 (
-                    
 "
 resource
 testing
@@ -10724,10 +10698,10 @@ s
 n
 "
 %
+                                   
 options
 .
 testingModulesDir
-                
 )
         
 if
@@ -10890,7 +10864,6 @@ important
 with
 open
 (
-            
 os
 .
 path
@@ -10909,7 +10882,6 @@ css
 "
 a
 "
-        
 )
 as
 chromeFile
@@ -10962,12 +10934,11 @@ extensions
         
 appDir
 =
-(
-            
 options
 .
 app
 [
+            
 :
 options
 .
@@ -10975,23 +10946,20 @@ app
 .
 rfind
 (
+                
 os
 .
 sep
 )
 ]
-            
 if
 options
 .
 app
-            
 else
 options
 .
 utilityPath
-        
-)
         
 extensionDirs
 =
@@ -11043,16 +11011,20 @@ extensionDirs
 .
 append
 (
+                
 os
 .
 path
 .
 join
 (
+                    
 appDir
+                    
 "
 distribution
 "
+                    
 "
 extensions
 "
@@ -11119,7 +11091,7 @@ path
 )
 or
 (
-                            
+                                
 os
 .
 path
@@ -11138,7 +11110,6 @@ endswith
 xpi
 "
 )
-                        
 )
 :
                             
@@ -11187,6 +11158,7 @@ of
 a
 run
 .
+        
 "
 "
 "
@@ -11197,18 +11169,17 @@ log
 .
 suite_start
 (
-            
 self
 .
 tests_by_manifest
 name
 =
-"
+'
 mochitest
 -
 {
 }
-"
+'
 .
 format
 (
@@ -11216,7 +11187,6 @@ self
 .
 flavor
 )
-        
 )
         
 for
@@ -11226,9 +11196,9 @@ tests
 :
             
 if
-"
+'
 disabled
-"
+'
 in
 test
 :
@@ -11241,9 +11211,9 @@ test_start
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 )
                 
@@ -11253,22 +11223,25 @@ log
 .
 test_end
 (
+                    
 test
 [
-"
+'
 path
-"
+'
 ]
-"
+                    
+'
 SKIP
-"
+'
+                    
 message
 =
 test
 [
-"
+'
 disabled
-"
+'
 ]
 )
     
@@ -11314,7 +11287,6 @@ log
 .
 warning
 (
-                
 "
 runtests
 .
@@ -11327,8 +11299,8 @@ pattern
 file
 "
 +
+                             
 pat_file
-            
 )
             
 return
@@ -11412,7 +11384,6 @@ format
 (
 pat_file
 )
-        
 )
         
 patternRE
@@ -11421,7 +11392,6 @@ re
 .
 compile
 (
-            
 r
 "
 "
@@ -11513,11 +11483,9 @@ s
 "
 "
 "
-            
 re
 .
 X
-        
 )
         
 patterns
@@ -11735,7 +11703,7 @@ True
 "
 "
 "
-        
+          
 This
 method
 is
@@ -11890,22 +11858,20 @@ filters
 .
 append
 (
-                        
 chunk_by_dir
 (
-                            
 options
 .
 thisChunk
+                                                
 options
 .
 totalChunks
+                                                
 options
 .
 chunkByDir
-                        
 )
-                    
 )
                 
 elif
@@ -11919,22 +11885,22 @@ mozinfo
 .
 info
 [
-"
+'
 os
-"
+'
 ]
 =
 =
-"
+'
 android
-"
+'
 :
                         
 platkey
 =
-"
+'
 android
-"
+'
                     
 elif
 mozinfo
@@ -11944,18 +11910,18 @@ isWin
                         
 platkey
 =
-"
+'
 windows
-"
+'
                     
 else
 :
                         
 platkey
 =
-"
+'
 unix
-"
+'
                     
 runtime_file
 =
@@ -11965,14 +11931,12 @@ path
 .
 join
 (
-                        
 SCRIPT_DIR
-                        
-"
+'
 runtimes
-"
-                        
-"
+'
+                                                
+'
 manifest
 -
 runtimes
@@ -11981,13 +11945,12 @@ runtimes
 }
 .
 json
-"
+'
 .
 format
 (
 platkey
 )
-                    
 )
                     
 if
@@ -12058,9 +12021,9 @@ with
 open
 (
 runtime_file
-"
+'
 r
-"
+'
 )
 as
 f
@@ -12091,17 +12054,16 @@ append
                         
 chunk_by_runtime
 (
-                            
 options
 .
 thisChunk
+                                         
 options
 .
 totalChunks
+                                         
 runtimes
-                        
 )
-                    
 )
                 
 else
@@ -12111,17 +12073,16 @@ filters
 .
 append
 (
-                        
 chunk_by_slice
 (
 options
 .
 thisChunk
+                                                  
 options
 .
 totalChunks
 )
-                    
 )
             
 tests
@@ -12143,7 +12104,6 @@ filters
 *
 *
 info
-            
 )
             
 if
@@ -12162,7 +12122,6 @@ log
 .
 error
 (
-                    
 NO_TESTS_FOUND
 .
 format
@@ -12176,7 +12135,6 @@ fmt_filters
 (
 )
 )
-                
 )
         
 paths
@@ -12199,9 +12157,9 @@ tests
 =
 1
 and
-"
+'
 disabled
-"
+'
 in
 test
 :
@@ -12209,9 +12167,9 @@ test
 del
 test
 [
-"
+'
 disabled
-"
+'
 ]
             
 pathAbs
@@ -12224,9 +12182,9 @@ abspath
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 )
             
@@ -12255,20 +12213,20 @@ testRootAbs
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
 .
 strip
 (
-"
+'
 /
-"
+'
 )
             
 if
@@ -12289,7 +12247,7 @@ log
 warning
 (
                     
-"
+'
 Warning
 :
 %
@@ -12303,24 +12261,23 @@ not
 a
 valid
 test
-"
-                    
+'
 %
+                    
 (
 test
 [
-"
+'
 name
-"
+'
 ]
 test
 [
-"
+'
 manifest
-"
+'
 ]
 )
-                
 )
                 
 continue
@@ -12329,9 +12286,9 @@ manifest_key
 =
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
             
 #
@@ -12359,46 +12316,44 @@ separator
 .
             
 if
-"
+'
 ancestor_manifest
-"
+'
 in
 test
 and
-"
+'
 /
-"
+'
 in
 normsep
 (
-                
 test
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
-            
 )
 :
                 
 manifest_key
 =
-"
+'
 {
 }
 :
 {
 }
-"
+'
 .
 format
 (
 test
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
 manifest_key
 )
@@ -12411,13 +12366,13 @@ manifest_key
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
 ]
 .
@@ -12439,9 +12394,9 @@ test
 .
 get
 (
-"
+'
 prefs
-"
+'
 )
 )
             
@@ -12458,9 +12413,9 @@ test
 .
 get
 (
-"
+'
 environment
-"
+'
 )
 )
             
@@ -12468,12 +12423,12 @@ for
 key
 in
 [
-"
+'
 prefs
-"
-"
+'
+'
 environment
-"
+'
 ]
 :
                 
@@ -12487,9 +12442,9 @@ options
 .
 runByManifest
 and
-"
+'
 disabled
-"
+'
 not
 in
 test
@@ -12501,7 +12456,6 @@ log
 .
 error
 (
-                        
 "
 parsing
 {
@@ -12514,7 +12468,7 @@ be
 enabled
 to
 "
-                        
+                                   
 "
 set
 the
@@ -12527,13 +12481,12 @@ format
 (
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 key
 )
-                    
 )
                     
 sys
@@ -12546,82 +12499,82 @@ exit
 testob
 =
 {
-"
+'
 path
-"
+'
 :
 tp
-"
+'
 manifest
-"
+'
 :
 manifest_key
 }
             
 if
-"
+'
 disabled
-"
+'
 in
 test
 :
                 
 testob
 [
-"
+'
 disabled
-"
+'
 ]
 =
 test
 [
-"
+'
 disabled
-"
+'
 ]
             
 if
-"
+'
 expected
-"
+'
 in
 test
 :
                 
 testob
 [
-"
+'
 expected
-"
+'
 ]
 =
 test
 [
-"
+'
 expected
-"
+'
 ]
             
 if
-"
+'
 scheme
-"
+'
 in
 test
 :
                 
 testob
 [
-"
+'
 scheme
-"
+'
 ]
 =
 test
 [
-"
+'
 scheme
-"
+'
 ]
             
 if
@@ -12638,7 +12591,6 @@ path
 .
 join
 (
-                    
 os
 .
 path
@@ -12647,15 +12599,15 @@ dirname
 (
 test
 [
-"
+'
 manifest
-"
+'
 ]
 )
+                                        
 options
 .
 failure_pattern_file
-                
 )
                 
 patterns
@@ -12667,9 +12619,9 @@ getFailurePatterns
 pat_file
 test
 [
-"
+'
 name
-"
+'
 ]
 )
                 
@@ -12679,9 +12631,9 @@ patterns
                     
 testob
 [
-"
+'
 expected
-"
+'
 ]
 =
 patterns
@@ -12769,7 +12721,6 @@ DEFAULT
 pref_not_default
 =
 [
-            
 m
 for
 m
@@ -12790,7 +12741,6 @@ p
 )
 >
 1
-        
 ]
         
 if
@@ -12803,7 +12753,6 @@ log
 .
 error
 (
-                
 "
 The
 '
@@ -12820,7 +12769,7 @@ section
 of
 a
 "
-                
+                           
 "
 manifest
 .
@@ -12835,19 +12784,17 @@ manifests
 .
 format
 (
-                    
-"
+                            
+'
 \
 n
-"
+'
 .
 join
 (
 pref_not_default
 )
-                
 )
-            
 )
             
 sys
@@ -12877,7 +12824,6 @@ too
 env_not_default
 =
 [
-            
 m
 for
 m
@@ -12898,7 +12844,6 @@ p
 )
 >
 1
-        
 ]
         
 if
@@ -12911,7 +12856,6 @@ log
 .
 error
 (
-                
 "
 The
 '
@@ -12928,7 +12872,7 @@ section
 of
 a
 "
-                
+                           
 "
 manifest
 .
@@ -12943,19 +12887,17 @@ manifests
 .
 format
 (
-                    
-"
+                            
+'
 \
 n
-"
+'
 .
 join
 (
 env_not_default
 )
-                
 )
-            
 )
             
 sys
@@ -12976,16 +12918,16 @@ p
 :
 p
 [
-"
+'
 path
-"
+'
 ]
 .
 split
 (
-"
+'
 /
-"
+'
 )
 )
         
@@ -13035,9 +12977,9 @@ open
 options
 .
 dump_tests
-"
+'
 w
-"
+'
 )
 as
 dumpFile
@@ -13052,9 +12994,9 @@ json
 dumps
 (
 {
-"
+'
 active_tests
-"
+'
 :
 paths
 }
@@ -13104,9 +13046,9 @@ run
 .
         
 if
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 in
 os
 .
@@ -13125,24 +13067,24 @@ os
 .
 environ
 [
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 ]
-"
+'
 manifests
 .
 list
-"
+'
 )
             
 with
 open
 (
 artifact
-"
+'
 a
-"
+'
 )
 as
 fh
@@ -13152,10 +13094,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -13260,17 +13202,18 @@ False
 )
         
 elif
+(
 options
 .
 manifestFile
 and
+                
 os
 .
 path
 .
 isfile
 (
-            
 os
 .
 path
@@ -13282,7 +13225,7 @@ options
 .
 manifestFile
 )
-        
+)
 )
 :
             
@@ -13301,12 +13244,13 @@ path
 .
 join
 (
+                    
 SCRIPT_DIR
+                    
 options
 .
 manifestFile
 )
-            
 )
             
 assert
@@ -13343,10 +13287,10 @@ options
 flavor
 )
 +
-"
+'
 .
 ini
-"
+'
             
 masterPath
 =
@@ -13400,7 +13344,7 @@ log
 warning
 (
                     
-"
+'
 TestManifest
 masterPath
 %
@@ -13408,10 +13352,10 @@ s
 does
 not
 exist
-"
+'
 %
+                    
 masterPath
-                
 )
         
 return
@@ -13461,8 +13405,6 @@ replace
 )
         
 if
-(
-            
 "
 MOZ_HIDE_RESULTS_TABLE
 "
@@ -13470,12 +13412,12 @@ in
 os
 .
 environ
-            
 and
 os
 .
 environ
 [
+                
 "
 MOZ_HIDE_RESULTS_TABLE
 "
@@ -13485,8 +13427,6 @@ MOZ_HIDE_RESULTS_TABLE
 "
 1
 "
-        
-)
 :
             
 options
@@ -13515,12 +13455,10 @@ d
 =
 dict
 (
-            
 (
 k
 v
 )
-            
 for
 k
 v
@@ -13532,7 +13470,6 @@ __dict__
 items
 (
 )
-            
 if
 (
 v
@@ -13540,6 +13477,7 @@ is
 None
 )
 or
+                 
 isinstance
 (
 v
@@ -13552,14 +13490,13 @@ numbers
 Number
 )
 )
-        
 )
         
 d
 [
-"
+'
 testRoot
-"
+'
 ]
 =
 self
@@ -13574,9 +13511,9 @@ jscov_dir_prefix
             
 d
 [
-"
+'
 jscovDirPrefix
-"
+'
 ]
 =
 options
@@ -13592,14 +13529,14 @@ keep_open
             
 d
 [
-"
+'
 closeWhenDone
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 content
 =
@@ -13720,16 +13657,18 @@ xrePath
 options
 .
 xrePath
+            
 env
 =
 env
+            
 debugger
 =
 debugger
+            
 useLSan
 =
 useLSan
-        
 )
         
 if
@@ -13787,9 +13726,9 @@ MOZ_HEADLESS
 "
 ]
 =
-"
+'
 1
-"
+'
         
 if
 options
@@ -13810,12 +13749,12 @@ environ
 .
 get
 (
-"
+'
 DMD
-"
-"
+'
+'
 1
-"
+'
 )
         
 #
@@ -13864,26 +13803,26 @@ problematic
         
 if
 (
-            
 options
 .
 flavor
 =
 =
-"
+'
 browser
-"
+'
 or
 not
 options
 .
 e10s
-        
 )
 and
-"
+\
+           
+'
 MOZ_CRASHREPORTER_SHUTDOWN
-"
+'
 in
 browserEnv
 :
@@ -13913,19 +13852,17 @@ parse_key_value
 self
 .
 extraEnv
+                        
 context
 =
-"
+'
 environment
 variable
 in
 manifest
-"
-                    
+'
 )
-                
 )
-            
 )
         
 except
@@ -13999,21 +13936,23 @@ update
                 
 dict
 (
+                    
 parse_key_value
 (
+                        
 options
 .
 environment
+                        
 context
 =
-"
+'
 -
 -
 setenv
-"
+'
 )
 )
-            
 )
         
 except
@@ -14039,19 +13978,17 @@ None
         
 if
 (
-            
 "
 MOZ_PROFILER_STARTUP_FEATURES
 "
 not
 in
 browserEnv
-            
 or
+            
 "
 nativeallocations
 "
-            
 not
 in
 browserEnv
@@ -14066,7 +14003,6 @@ split
 "
 "
 )
-        
 )
 :
             
@@ -14208,7 +14144,6 @@ profile
 .
 json
 "
-            
 )
             
 browserEnv
@@ -14297,7 +14232,6 @@ profile
 .
 json
 "
-                
 )
             
 else
@@ -14309,7 +14243,6 @@ log
 .
 error
 (
-                    
 "
 -
 -
@@ -14324,7 +14257,7 @@ but
 no
 MOZ_UPLOAD_DIR
 "
-                    
+                               
 "
 environment
 variable
@@ -14335,7 +14268,7 @@ Please
 set
 this
 "
-                    
+                               
 "
 environment
 variable
@@ -14348,14 +14281,13 @@ order
 to
 save
 "
-                    
+                               
 "
 a
 performance
 profile
 .
 "
-                
 )
                 
 return
@@ -14399,7 +14331,7 @@ log
 .
 error
 (
-"
+'
 Could
 not
 find
@@ -14410,7 +14342,7 @@ gmp
 fake
 plugin
 !
-"
+'
 )
             
 return
@@ -14614,18 +14546,18 @@ as_dict
 attrs
 =
 [
-"
+'
 pid
-"
-"
+'
+'
 ppid
-"
-"
+'
+'
 name
-"
-"
+'
+'
 username
-"
+'
 ]
 )
                         
@@ -14705,7 +14637,6 @@ log
 .
 info
 (
-                        
 "
 Warning
 :
@@ -14727,7 +14658,6 @@ str
 e
 )
 )
-                    
 )
                     
 #
@@ -14776,23 +14706,23 @@ mozprocess
 .
 ProcessHandler
 (
-                
 [
-"
+'
 ps
-"
-"
+'
+'
 -
 f
-"
+'
 ]
+                                                
 processOutputLine
 =
 _psInfo
+                                                
 universal_newlines
 =
 True
-            
 )
             
 process
@@ -14921,7 +14851,6 @@ log
 .
 info
 (
-                                
 "
 NOT
 killing
@@ -14939,13 +14868,12 @@ orphan
 ?
 )
 "
-                                
 %
+                                          
 (
 pname
 pid
 )
-                            
 )
             
 process
@@ -14954,30 +14882,28 @@ mozprocess
 .
 ProcessHandler
 (
-                
 [
-"
+'
 ps
-"
-"
+'
+'
 -
 o
-"
-"
+'
+'
 pid
 ppid
 comm
-"
+'
 ]
-                
+                                                
 processOutputLine
 =
 _psKill
-                
+                                                
 universal_newlines
 =
 True
-            
 )
             
 process
@@ -15032,9 +14958,9 @@ open
 self
 .
 start_script
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -15064,9 +14990,9 @@ marionette
 .
 using_context
 (
-"
+'
 chrome
-"
+'
 )
 :
             
@@ -15077,7 +15003,6 @@ marionette
 .
 execute_script
 (
-                
 script
 script_args
 =
@@ -15086,7 +15011,6 @@ self
 .
 start_script_kwargs
 )
-            
 )
     
 def
@@ -15209,11 +15133,11 @@ info
 .
 get
 (
-"
+'
 bin_suffix
-"
-"
-"
+'
+'
+'
 )
         
 certutil
@@ -15390,7 +15314,6 @@ pwfilePath
 env
 =
 toolsEnv
-        
 )
         
 if
@@ -15479,21 +15402,19 @@ CT
                 
 call
 (
-                    
 [
-                        
 certutil
-                        
+                      
 "
 -
 A
 "
-                        
+                      
 "
 -
 i
 "
-                        
+                      
 os
 .
 path
@@ -15503,43 +15424,42 @@ join
 options
 .
 certPath
+                                   
 item
 )
-                        
+                      
 "
 -
 d
 "
-                        
+                      
 certdbPath
-                        
+                      
 "
 -
 f
 "
-                        
+                      
 pwfilePath
-                        
+                      
 "
 -
 n
 "
-                        
+                      
 root
-                        
+                      
 "
 -
 t
 "
-                        
+                      
 trustBits
-                    
 ]
-                    
+                     
 env
 =
 toolsEnv
-                
 )
             
 elif
@@ -15554,16 +15474,12 @@ client
                 
 call
 (
-                    
 [
-                        
 pk12util
-                        
 "
 -
 i
 "
-                        
 os
 .
 path
@@ -15575,27 +15491,22 @@ options
 certPath
 item
 )
-                        
+                      
 "
 -
 w
 "
-                        
 pwfilePath
-                        
 "
 -
 d
 "
-                        
 certdbPath
-                    
 ]
-                    
+                     
 env
 =
 toolsEnv
-                
 )
         
 os
@@ -15704,33 +15615,33 @@ webSocketPort
 return
 {
             
-"
+'
 remote
-"
+'
 :
 options
 .
 webServer
             
-"
+'
 http
-"
+'
 :
 options
 .
 httpPort
             
-"
+'
 https
-"
+'
 :
 options
 .
 sslPort
             
-"
+'
 ws
-"
+'
 :
 options
 .
@@ -15791,9 +15702,9 @@ path
 join
 (
 SCRIPT_DIR
-"
+'
 profile_data
-"
+'
 )
         
 #
@@ -15849,12 +15760,12 @@ join
 build_obj
 .
 topsrcdir
-"
+'
 testing
-"
-"
+'
+'
 profiles
-"
+'
 )
             
 if
@@ -15916,13 +15827,13 @@ path
 join
 (
 SCRIPT_DIR
-"
+'
 .
 .
-"
-"
+'
+'
 profiles
-"
+'
 )
 )
             
@@ -15951,15 +15862,15 @@ path
 join
 (
 profile_data_dir
-"
+'
 profiles
 .
 json
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -16130,6 +16041,7 @@ options
 sandboxReadWhitelist
         
 if
+(
 platform
 .
 system
@@ -16141,6 +16053,7 @@ system
 Linux
 "
 or
+            
 platform
 .
 system
@@ -16148,15 +16061,13 @@ system
 )
 in
 (
-            
 "
 Windows
 "
-            
 "
 Microsoft
 "
-        
+)
 )
 :
             
@@ -16176,7 +16087,6 @@ Windows
 sandbox_whitelist_paths
 =
 [
-                
 os
 .
 path
@@ -16191,7 +16101,6 @@ for
 p
 in
 sandbox_whitelist_paths
-            
 ]
         
 #
@@ -16205,23 +16114,22 @@ profile
 =
 Profile
 (
-            
 profile
 =
 options
 .
 profilePath
-            
+                               
 addons
 =
 extensions
-            
+                               
 locations
 =
 self
 .
 locations
-            
+                               
 proxy
 =
 self
@@ -16230,11 +16138,11 @@ proxy
 (
 options
 )
-            
+                               
 whitelistpaths
 =
 sandbox_whitelist_paths
-        
+                               
 )
         
 #
@@ -16328,7 +16236,6 @@ Certificate
 integration
 failed
 "
-            
 )
             
 return
@@ -16394,9 +16301,9 @@ self
 merge_base_profiles
 (
 options
-"
+'
 mochitest
-"
+'
 )
         
 #
@@ -16491,9 +16398,9 @@ options
 flavor
 =
 =
-"
+'
 a11y
-"
+'
 :
             
 prefs
@@ -16513,9 +16420,9 @@ options
 flavor
 =
 =
-"
+'
 browser
-"
+'
 and
 options
 .
@@ -16574,8 +16481,6 @@ performance
         
 if
 (
-            
-(
 mozinfo
 .
 info
@@ -16594,25 +16499,23 @@ debug
 "
 ]
 )
-            
 and
+\
+                
 options
 .
 flavor
 =
 =
-"
+'
 browser
-"
-            
+'
 and
 options
 .
 timeout
 is
 None
-        
-)
 :
             
 self
@@ -16645,6 +16548,7 @@ timeout
 90
         
 if
+(
 mozinfo
 .
 info
@@ -16659,6 +16563,7 @@ os
 win
 "
 and
+                
 mozinfo
 .
 info
@@ -16672,6 +16577,7 @@ processor
 "
 aarch64
 "
+)
 :
             
 extended_timeout
@@ -16688,7 +16594,6 @@ log
 .
 info
 (
-                
 "
 Increasing
 default
@@ -16701,9 +16606,10 @@ seconds
 .
 format
 (
+                
 extended_timeout
-)
             
+)
 )
             
 prefs
@@ -16723,20 +16629,20 @@ if
 getattr
 (
 self
-"
+'
 testRootAbs
-"
+'
 None
 )
 :
             
 prefs
 [
-"
+'
 mochitest
 .
 testRoot
-"
+'
 ]
 =
 self
@@ -16762,49 +16668,49 @@ useTestMediaDevices
             
 prefs
 [
-"
+'
 media
 .
 audio_loopback_dev
-"
+'
 ]
 =
 self
 .
 mediaDevices
 [
-"
+'
 audio
-"
+'
 ]
             
 prefs
 [
-"
+'
 media
 .
 video_loopback_dev
-"
+'
 ]
 =
 self
 .
 mediaDevices
 [
-"
+'
 video
-"
+'
 ]
             
 prefs
 [
-"
+'
 media
 .
 cubeb
 .
 output_device
-"
+'
 ]
 =
 "
@@ -16814,11 +16720,11 @@ Output
             
 prefs
 [
-"
+'
 media
 .
 volume_scale
-"
+'
 ]
 =
 "
@@ -16927,9 +16833,9 @@ self
 profile
 .
 profile
-"
+'
 plugins
-"
+'
 )
         
 ]
@@ -16944,16 +16850,16 @@ path
 .
 join
 (
-"
+'
 gmp
 -
 fake
-"
-"
+'
+'
 1
 .
 0
-"
+'
 )
             
 os
@@ -16962,16 +16868,16 @@ path
 .
 join
 (
-"
+'
 gmp
 -
 fakeopenh264
-"
-"
+'
+'
 1
 .
 0
-"
+'
 )
             
 os
@@ -16980,16 +16886,16 @@ path
 .
 join
 (
-"
+'
 gmp
 -
 clearkey
-"
-"
+'
+'
 0
 .
 1
-"
+'
 )
         
 ]
@@ -16997,7 +16903,6 @@ clearkey
 gmp_paths
 =
 [
-            
 os
 .
 path
@@ -17007,17 +16912,17 @@ join
 parent
 sub
 )
-            
+                     
 for
 parent
 in
 gmp_parentdirs
-            
+                     
 for
 sub
 in
 gmp_subdirs
-            
+                     
 if
 os
 .
@@ -17035,7 +16940,6 @@ parent
 sub
 )
 )
-        
 ]
         
 if
@@ -17055,14 +16959,14 @@ environments
 raise
 EnvironmentError
 (
-"
+'
 Could
 not
 find
 test
 gmp
 plugins
-"
+'
 )
         
 return
@@ -17102,9 +17006,9 @@ if
 hasattr
 (
 self
-"
+'
 manifest
-"
+'
 )
 and
 self
@@ -17141,9 +17045,9 @@ if
 hasattr
 (
 self
-"
+'
 profile
-"
+'
 )
 :
             
@@ -17247,12 +17151,11 @@ the
 test
 harness
 "
-                    
 %
+                    
 options
 .
 pidFile
-                
 )
         
 options
@@ -17296,7 +17199,6 @@ was
 previously
 logged
 "
-            
 )
             
 return
@@ -17318,10 +17220,15 @@ log
 def
 killAndGetStack
 (
+            
 self
+            
 processPID
+            
 utilityPath
+            
 debuggerInfo
+            
 dump_screen
 =
 False
@@ -17401,9 +17308,9 @@ info
 .
 get
 (
-"
+'
 crashreporter
-"
+'
 True
 )
 and
@@ -17427,9 +17334,10 @@ self
 profile
 .
 profile
-"
+                                             
+'
 minidumps
-"
+'
 )
                 
 mozcrash
@@ -17438,6 +17346,7 @@ kill_and_get_minidump
 (
 processPID
 minidump_path
+                                               
 utilityPath
 )
             
@@ -17470,6 +17379,7 @@ log
 .
 info
 (
+                    
 "
 Can
 '
@@ -17677,7 +17587,7 @@ re
 compile
 (
 r
-"
+'
 =
 =
 >
@@ -17693,7 +17603,7 @@ process
 d
 +
 )
-"
+'
 )
         
 with
@@ -17794,7 +17704,8 @@ log
 .
 info
 (
-"
+                
+'
 Automation
 Error
 :
@@ -17805,8 +17716,9 @@ found
 :
 %
 s
-"
+'
 %
+                
 processLog
 )
             
@@ -17843,7 +17755,7 @@ log
 .
 info
 (
-"
+'
 zombiecheck
 |
 Reading
@@ -17852,7 +17764,7 @@ log
 :
 %
 s
-"
+'
 %
 processLog
 )
@@ -17901,8 +17813,8 @@ PID
 d
 "
 %
+                
 processPID
-            
 )
             
 if
@@ -17922,7 +17834,6 @@ log
 .
 error
 (
-                    
 "
 TEST
 -
@@ -17935,7 +17846,7 @@ zombiecheck
 child
 process
 "
-                    
+                               
 "
 %
 d
@@ -17946,7 +17857,6 @@ shutdown
 "
 %
 processPID
-                
 )
                 
 self
@@ -17955,13 +17865,15 @@ killAndGetStack
 (
                     
 processPID
+                    
 utilityPath
+                    
 debuggerInfo
+                    
 dump_screen
 =
 not
 debuggerInfo
-                
 )
         
 return
@@ -17986,21 +17898,21 @@ HAVE_PSUTIL
 attrs
 =
 [
-"
+'
 pid
-"
-"
+'
+'
 ppid
-"
-"
+'
+'
 name
-"
-"
+'
+'
 cmdline
-"
-"
+'
+'
 username
-"
+'
 ]
             
 for
@@ -18017,9 +17929,9 @@ try
 :
                     
 if
-"
+'
 firefox
-"
+'
 in
 proc
 .
@@ -18147,66 +18059,64 @@ firefoxes
 def
 runApp
 (
-        
 self
-        
+               
 testUrl
-        
+               
 env
-        
+               
 app
-        
+               
 profile
-        
+               
 extraArgs
-        
+               
 utilityPath
-        
+               
 debuggerInfo
 =
 None
-        
+               
 valgrindPath
 =
 None
-        
+               
 valgrindArgs
 =
 None
-        
+               
 valgrindSuppFiles
 =
 None
-        
+               
 symbolsPath
 =
 None
-        
+               
 timeout
 =
 -
 1
-        
+               
 detectShutdownLeaks
 =
 False
-        
+               
 screenshotOnFail
 =
 False
-        
+               
 bisectChunk
 =
 None
-        
+               
 marionette_args
 =
 None
-        
+               
 e10s
 =
 True
-    
 )
 :
         
@@ -18357,13 +18267,13 @@ False
 valgrindArgs_split
 =
 (
-                
 [
 ]
 if
 valgrindArgs
 is
 None
+                                  
 else
 shlex
 .
@@ -18371,7 +18281,6 @@ split
 (
 valgrindArgs
 )
-            
 )
             
 valgrindSuppFiles_final
@@ -18389,7 +18298,6 @@ None
 valgrindSuppFiles_final
 =
 [
-                    
 "
 -
 -
@@ -18397,6 +18305,7 @@ suppressions
 =
 "
 +
+                                           
 path
 for
 path
@@ -18408,30 +18317,27 @@ split
 "
 "
 )
-                
 ]
             
 debug_args
 =
 (
-                
 [
 valgrindPath
 ]
-                
+                          
 +
 mozdebug
 .
 get_default_valgrind_args
 (
 )
-                
+                          
 +
 valgrindArgs_split
-                
+                          
 +
 valgrindSuppFiles_final
-            
 )
         
 #
@@ -18473,7 +18379,6 @@ log
 .
 info
 (
-                
 "
 runtests
 .
@@ -18484,7 +18389,7 @@ on
 Valgrind
 .
 "
-                
+                          
 +
 "
 Using
@@ -18497,7 +18402,6 @@ seconds
 "
 %
 timeout
-            
 )
         
 #
@@ -18572,9 +18476,9 @@ mkstemp
 (
 suffix
 =
-"
+'
 pidlog
-"
+'
 )
             
 os
@@ -18665,10 +18569,10 @@ args
 .
 append
 (
-"
+'
 -
 marionette
-"
+'
 )
             
 #
@@ -18707,28 +18611,28 @@ args
 .
 append
 (
-"
+'
 -
 foreground
-"
+'
 )
             
 self
 .
 start_script_kwargs
 [
-"
+'
 testUrl
-"
+'
 ]
 =
 testUrl
 or
-"
+'
 about
 :
 blank
-"
+'
             
 if
 detectShutdownLeaks
@@ -18736,18 +18640,17 @@ detectShutdownLeaks
                 
 env
 [
-"
+'
 MOZ_LOG
-"
+'
 ]
 =
 (
-                    
 env
 [
-"
+'
 MOZ_LOG
-"
+'
 ]
 +
 "
@@ -18755,16 +18658,17 @@ MOZ_LOG
 if
 env
 [
-"
+'
 MOZ_LOG
-"
+'
 ]
 else
 "
 "
-                
 )
 +
+\
+                    
 "
 DocShellAndDOMWindowLeak
 :
@@ -18873,7 +18777,6 @@ lsanLeaks
 bisectChunk
 =
 bisectChunk
-            
 )
             
 def
@@ -18904,40 +18807,37 @@ debuggerInfo
 browserProcessId
                     
 processLog
-                
 )
             
 kp_kwargs
 =
 {
-                
-"
+'
 kill_on_timeout
-"
+'
 :
 False
-                
-"
+                         
+'
 cwd
-"
+'
 :
 SCRIPT_DIR
-                
-"
+                         
+'
 onTimeout
-"
+'
 :
 [
 timeoutHandler
 ]
-            
 }
             
 kp_kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 =
 [
@@ -18993,52 +18893,52 @@ info
 .
 get
 (
-"
+                    
+'
 appname
-"
-"
+'
+                    
+'
 firefox
-"
+'
 )
+                
 mozrunner
 .
 Runner
-            
 )
             
 runner
 =
 runner_cls
 (
-                
 profile
 =
 self
 .
 profile
-                
+                                
 binary
 =
 cmd
-                
+                                
 cmdargs
 =
 args
-                
+                                
 env
 =
 env
-                
+                                
 process_class
 =
 mozprocess
 .
 ProcessHandlerMixin
-                
+                                
 process_args
 =
 kp_kwargs
-            
 )
             
 #
@@ -19050,17 +18950,17 @@ runner
 .
 start
 (
-                
 debug_args
 =
 debug_args
+                         
 interactive
 =
 interactive
+                         
 outputTimeout
 =
 timeout
-            
 )
             
 proc
@@ -19226,10 +19126,9 @@ at
 %
 s
 "
-                                
 %
+                                
 addon_path
-                            
 )
                             
 return
@@ -19480,7 +19379,6 @@ log
 .
 warning
 (
-                    
 "
 runtests
 .
@@ -19498,7 +19396,6 @@ running
 crashed
 ?
 "
-                
 )
                 
 #
@@ -19590,15 +19487,14 @@ code
 %
 s
 "
-                    
 %
+                    
 (
 self
 .
 lastTestSeen
 status
 )
-                
 )
             
 else
@@ -19608,13 +19504,13 @@ self
 .
 lastTestSeen
 =
-"
+'
 Main
 app
 process
 exited
 normally
-"
+'
             
 self
 .
@@ -19635,10 +19531,10 @@ for
 %
 s
 "
-                
 %
 str
 (
+                    
 datetime
 .
 now
@@ -19647,7 +19543,6 @@ now
 -
 startTime
 )
-            
 )
             
 #
@@ -19669,9 +19564,10 @@ checkForZombies
 (
                 
 processLog
+                
 utilityPath
+                
 debuggerInfo
-            
 )
             
 #
@@ -19707,14 +19603,16 @@ log_crashes
 self
 .
 log
+                
 minidump_path
+                
 symbolsPath
+                
 test
 =
 self
 .
 lastTestSeen
-            
 )
             
 if
@@ -19803,7 +19701,7 @@ options
 "
 "
 "
-        
+          
 This
 method
 is
@@ -19819,7 +19717,7 @@ of
 for
 loop
 .
-        
+          
 This
 method
 is
@@ -20094,7 +19992,6 @@ log
 .
 error
 (
-                        
 "
 TEST
 -
@@ -20108,7 +20005,7 @@ Please
 ignore
 repeats
 "
-                        
+                                   
 "
 and
 look
@@ -20125,13 +20022,12 @@ the
 end
 of
 "
-                        
+                                   
 "
 the
 failure
 list
 "
-                    
 )
                     
 bisection_log
@@ -20160,10 +20056,13 @@ bisect
 .
 post_test
 (
+                    
 options
+                    
 self
 .
 expectedError
+                    
 self
 .
 result
@@ -20315,24 +20214,24 @@ test
 .
 get
 (
-"
+'
 scheme
-"
+'
 )
 or
 test
 .
 get
 (
-"
+'
 scheme
-"
+'
 )
 =
 =
-"
+'
 http
-"
+'
 :
                 
 httpTests
@@ -20347,15 +20246,15 @@ test
 .
 get
 (
-"
+'
 scheme
-"
+'
 )
 =
 =
-"
+'
 https
-"
+'
 :
                 
 httpsTests
@@ -20367,14 +20266,14 @@ test
         
 return
 {
-"
+'
 http
-"
+'
 :
 httpTests
-"
+'
 https
-"
+'
 :
 httpsTests
 }
@@ -20994,11 +20893,11 @@ browser
 "
 %
 VERIFY_REPEAT
+                 
 step1
 )
                 
 (
-                    
 "
 2
 .
@@ -21016,16 +20915,14 @@ each
 time
 .
 "
-                    
 %
+                 
 VERIFY_REPEAT_SINGLE_BROWSER
-                    
+                 
 step2
-                
 )
                 
 (
-                    
 "
 3
 .
@@ -21043,16 +20940,14 @@ chaos
 mode
 .
 "
-                    
 %
+                 
 VERIFY_REPEAT
-                    
+                 
 step3
-                
 )
                 
 (
-                    
 "
 4
 .
@@ -21069,7 +20964,7 @@ browser
 each
 time
 "
-                    
+                 
 "
 in
 chaos
@@ -21078,9 +20973,8 @@ mode
 "
 %
 VERIFY_REPEAT_SINGLE_BROWSER
-                    
+                 
 step4
-                
 )
             
 ]
@@ -21188,7 +21082,6 @@ log
 .
 info
 (
-                    
 "
 :
 :
@@ -21206,7 +21099,6 @@ were
 run
 .
 "
-                
 )
                 
 break
@@ -21217,11 +21109,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
             
 self
@@ -21256,11 +21148,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
             
 result
@@ -21317,11 +21209,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 self
@@ -21330,7 +21222,7 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
@@ -21339,7 +21231,7 @@ verification
 summary
 for
 :
-"
+'
 )
         
 self
@@ -21348,11 +21240,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 tests
@@ -21376,17 +21268,17 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 +
 test
 [
-"
+'
 path
-"
+'
 ]
 )
         
@@ -21396,11 +21288,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 for
@@ -21422,7 +21314,7 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
@@ -21431,7 +21323,7 @@ s
 :
 %
 s
-"
+'
 %
 (
 descr
@@ -21448,11 +21340,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 self
@@ -21461,7 +21353,7 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
@@ -21469,7 +21361,7 @@ Test
 verification
 %
 s
-"
+'
 %
 finalResult
 )
@@ -21480,11 +21372,11 @@ log
 .
 info
 (
-"
+'
 :
 :
 :
-"
+'
 )
         
 return
@@ -21533,9 +21425,8 @@ mozinfo
 .
 update
 (
-            
 {
-                
+            
 "
 e10s
 "
@@ -21543,7 +21434,7 @@ e10s
 options
 .
 e10s
-                
+            
 "
 fission
 "
@@ -21554,14 +21445,14 @@ extraPrefs
 .
 get
 (
-"
+'
 fission
 .
 autostart
-"
+'
 False
 )
-                
+            
 "
 headless
 "
@@ -21569,7 +21460,7 @@ headless
 options
 .
 headless
-                
+            
 #
 Until
 the
@@ -21580,7 +21471,7 @@ understand
 default
 pref
 values
-                
+            
 #
 (
 https
@@ -21603,7 +21494,7 @@ id
 )
 this
 value
-                
+            
 #
 should
 by
@@ -21615,15 +21506,15 @@ pref
 value
 indicated
 in
-                
+            
 #
 StaticPrefList
 .
 yaml
 .
-                
+            
 #
-                
+            
 #
 Currently
 for
@@ -21637,7 +21528,7 @@ true
 but
 can
 be
-                
+            
 #
 overridden
 with
@@ -21646,7 +21537,7 @@ with
 setpref
 )
 .
-                
+            
 "
 serviceworker_e10s
 "
@@ -21657,18 +21548,17 @@ extraPrefs
 .
 get
 (
-                    
-"
+                
+'
 dom
 .
 serviceWorkers
 .
 parent_intercept
-"
+'
 True
-                
 )
-                
+            
 "
 socketprocess_e10s
 "
@@ -21679,18 +21569,17 @@ extraPrefs
 .
 get
 (
-                    
-"
+                
+'
 network
 .
 process
 .
 enabled
-"
+'
 False
-                
 )
-                
+            
 "
 socketprocess_networking
 "
@@ -21701,8 +21590,8 @@ extraPrefs
 .
 get
 (
-                    
-"
+                
+'
 network
 .
 http
@@ -21710,11 +21599,10 @@ http
 network_access_on_socket_process
 .
 enabled
-"
+'
 False
-                
 )
-                
+            
 "
 verify
 "
@@ -21722,7 +21610,7 @@ verify
 options
 .
 verify
-                
+            
 "
 verify_fission
 "
@@ -21730,7 +21618,7 @@ verify_fission
 options
 .
 verify_fission
-                
+            
 "
 webrender
 "
@@ -21738,7 +21626,7 @@ webrender
 options
 .
 enable_webrender
-                
+            
 "
 xorigin
 "
@@ -21746,9 +21634,8 @@ xorigin
 options
 .
 xOriginTests
-            
-}
         
+}
 )
         
 self
@@ -21830,18 +21717,18 @@ self
 .
 killNamedProc
 (
-"
+'
 ssltunnel
-"
+'
 )
         
 self
 .
 killNamedProc
 (
-"
+'
 xpcshell
-"
+'
 )
         
 if
@@ -21877,9 +21764,9 @@ mozinfo
 .
 info
 [
-"
+'
 fission
-"
+'
 ]
 and
 not
@@ -21887,9 +21774,9 @@ mozinfo
 .
 info
 [
-"
+'
 e10s
-"
+'
 ]
 :
             
@@ -21948,9 +21835,9 @@ t
 in
 tests
 if
-"
+'
 disabled
-"
+'
 not
 in
 t
@@ -21990,9 +21877,9 @@ options
 [
 t
 [
-"
+'
 path
-"
+'
 ]
 for
 t
@@ -22018,9 +21905,9 @@ set
 (
 t
 [
-"
+'
 manifest
-"
+'
 ]
 for
 t
@@ -22118,7 +22005,6 @@ log
 .
 info
 (
-                    
 "
 The
 following
@@ -22136,19 +22022,17 @@ n
 .
 format
 (
-                        
-"
+                    
+'
 \
 n
-"
+'
 .
 join
 (
 prefs
 )
-                    
 )
-                
 )
                 
 self
@@ -22229,10 +22113,10 @@ n
 format
 (
                         
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -22240,9 +22124,7 @@ self
 .
 extraEnv
 )
-                    
 )
-                
 )
             
 #
@@ -22307,9 +22189,9 @@ tests_in_manifest
 [
 t
 [
-"
+'
 path
-"
+'
 ]
 for
 t
@@ -22318,9 +22200,9 @@ tests
 if
 t
 [
-"
+'
 manifest
-"
+'
 ]
 =
 =
@@ -22413,9 +22295,9 @@ options
 flavor
 =
 =
-"
+'
 browser
-"
+'
 :
             
 print
@@ -22764,11 +22646,9 @@ topobjdir
                 
 view_gecko_profile_from_mochitest
 (
-                    
 profile_path
 options
 profiler_logger
-                
 )
             
 else
@@ -22778,7 +22658,6 @@ profiler_logger
 .
 info
 (
-                    
 "
 The
 profiler
@@ -22790,7 +22669,7 @@ the
 mochitests
 .
 "
-                    
+                                     
 "
 Use
 -
@@ -22801,7 +22680,7 @@ of
 MOZ_PROFILER_SHUTDOWN
 to
 "
-                    
+                                     
 "
 symbolicate
 and
@@ -22811,7 +22690,6 @@ profile
 automatically
 .
 "
-                
 )
             
 #
@@ -22850,6 +22728,8 @@ self
 .
 countfail
 or
+\
+               
 not
 (
 self
@@ -23066,13 +22946,14 @@ get_debugger_info
 options
 .
 debugger
+                
 options
 .
 debuggerArgs
+                
 options
 .
 debuggerInteractive
-            
 )
         
 if
@@ -23198,7 +23079,6 @@ log
 .
 error
 (
-                
 "
 Specified
 -
@@ -23215,7 +23095,7 @@ supp
 -
 files
 "
-                
+                           
 "
 but
 not
@@ -23223,7 +23103,6 @@ not
 -
 valgrind
 "
-            
 )
             
 return
@@ -23352,9 +23231,11 @@ path
 .
 join
 (
+            
 options
 .
 profilePath
+            
 "
 runtests_leaks
 .
@@ -23370,7 +23251,9 @@ self
 .
 buildBrowserEnv
 (
+            
 options
+            
 debuggerInfo
 is
 not
@@ -23441,7 +23324,6 @@ uuid4
 (
 )
 )
-            
 )
         
 status
@@ -23472,11 +23354,11 @@ browserArgs
 extend
 (
 [
-"
+'
 -
 -
 jsconsole
-"
+'
 ]
 )
             
@@ -23493,18 +23375,18 @@ browserArgs
 extend
 (
 [
-"
+'
 -
 wait
 -
 for
 -
 jsdebugger
-"
-"
+'
+'
 -
 jsdebugger
-"
+'
 ]
 )
             
@@ -23763,30 +23645,30 @@ mozinfo
 .
 info
 [
-"
+'
 debug
-"
+'
 ]
-                    
 and
+                    
 options
 .
 flavor
 =
 =
-"
+'
 browser
-"
-                    
+'
 and
+                    
 options
 .
 subsuite
 !
 =
-"
+'
 thunderbird
-"
+'
                 
 )
             
@@ -23794,9 +23676,9 @@ self
 .
 start_script_kwargs
 [
-"
+'
 flavor
-"
+'
 ]
 =
 self
@@ -23812,25 +23694,25 @@ marionette_args
 =
 {
                 
-"
+'
 symbols_path
-"
+'
 :
 options
 .
 symbolsPath
                 
-"
+'
 socket_timeout
-"
+'
 :
 options
 .
 marionette_socket_timeout
                 
-"
+'
 startup_timeout
-"
+'
 :
 options
 .
@@ -23853,25 +23735,25 @@ marionette
 .
 split
 (
-"
+'
 :
-"
+'
 )
                 
 marionette_args
 [
-"
+'
 host
-"
+'
 ]
 =
 host
                 
 marionette_args
 [
-"
+'
 port
-"
+'
 ]
 =
 int
@@ -23947,9 +23829,9 @@ currentTests
 [
 t
 [
-"
+'
 path
-"
+'
 ]
 for
 t
@@ -24034,7 +23916,6 @@ log
 .
 info
 (
-                    
 "
 runtests
 .
@@ -24054,7 +23935,6 @@ options
 .
 e10s
 )
-                
 )
                 
 self
@@ -24063,7 +23943,6 @@ log
 .
 info
 (
-                    
 "
 runtests
 .
@@ -24079,21 +23958,19 @@ fission
 .
 format
 (
-                        
+                    
 mozinfo
 .
 info
 .
 get
 (
-"
+'
 fission
-"
+'
 False
 )
-                    
 )
-                
 )
                 
 self
@@ -24102,7 +23979,6 @@ log
 .
 info
 (
-                    
 "
 runtests
 .
@@ -24121,21 +23997,19 @@ iframes
 .
 format
 (
-                        
+                    
 mozinfo
 .
 info
 .
 get
 (
-"
+'
 xorigin
-"
+'
 False
 )
-                    
 )
-                
 )
                 
 self
@@ -24144,7 +24018,6 @@ log
 .
 info
 (
-                    
 "
 runtests
 .
@@ -24160,21 +24033,19 @@ serviceworker_e10s
 .
 format
 (
-                        
+                    
 mozinfo
 .
 info
 .
 get
 (
-"
+'
 serviceworker_e10s
-"
+'
 False
 )
-                    
 )
-                
 )
                 
 self
@@ -24183,7 +24054,6 @@ log
 .
 info
 (
-                    
 "
 runtests
 .
@@ -24199,21 +24069,19 @@ socketprocess_e10s
 .
 format
 (
-                        
+                    
 mozinfo
 .
 info
 .
 get
 (
-"
+'
 socketprocess_e10s
-"
+'
 False
 )
-                    
 )
-                
 )
                 
 self
@@ -24394,13 +24262,12 @@ application
 \
 n
 "
-            
 )
             
 if
-"
+'
 ADBTimeoutError
-"
+'
 in
 repr
 (
@@ -24548,6 +24415,7 @@ stack_fixer
 get_stack_fixer_function
 (
 utilityPath
+                                                 
 options
 .
 symbolsPath
@@ -24597,15 +24465,14 @@ status
 def
 handleTimeout
 (
-        
 self
 timeout
 proc
 utilityPath
 debuggerInfo
+                      
 browser_pid
 processLog
-    
 )
 :
         
@@ -24647,7 +24514,6 @@ think
 error_message
 =
 (
-            
 "
 TEST
 -
@@ -24663,7 +24529,7 @@ timed
 out
 after
 "
-            
+                         
 "
 %
 d
@@ -24672,7 +24538,6 @@ with
 no
 output
 "
-        
 )
 %
 (
@@ -24753,14 +24618,14 @@ log
 .
 info
 (
-"
+'
 Found
 child
 pids
 :
 %
 s
-"
+'
 %
 child_pids
 )
@@ -24793,7 +24658,7 @@ log
 .
 info
 (
-"
+'
 Failed
 to
 get
@@ -24802,7 +24667,7 @@ for
 pid
 %
 d
-"
+'
 %
 browser_pid
 )
@@ -24840,13 +24705,13 @@ log
 .
 info
 (
-"
+'
 Failed
 to
 get
 child
 procs
-"
+'
 )
                 
 child_procs
@@ -24864,15 +24729,14 @@ self
 .
 killAndGetStack
 (
-                    
 pid
 utilityPath
 debuggerInfo
+                                     
 dump_screen
 =
 not
 debuggerInfo
-                
 )
             
 gone
@@ -24900,14 +24764,14 @@ log
 .
 info
 (
-"
+'
 psutil
 found
 pid
 %
 s
 dead
-"
+'
 %
 p
 .
@@ -24926,7 +24790,7 @@ log
 .
 warning
 (
-"
+'
 failed
 to
 kill
@@ -24935,8 +24799,9 @@ pid
 d
 after
 30s
-"
+'
 %
+                                 
 p
 .
 pid
@@ -24946,15 +24811,14 @@ self
 .
 killAndGetStack
 (
-                
 browser_pid
 utilityPath
 debuggerInfo
+                                 
 dump_screen
 =
 not
 debuggerInfo
-            
 )
             
 gone
@@ -24982,14 +24846,14 @@ log
 .
 info
 (
-"
+'
 psutil
 found
 pid
 %
 s
 dead
-"
+'
 %
 p
 .
@@ -25008,7 +24872,7 @@ log
 .
 warning
 (
-"
+'
 failed
 to
 kill
@@ -25017,8 +24881,9 @@ pid
 d
 after
 30s
-"
+'
 %
+                                 
 p
 .
 pid
@@ -25033,7 +24898,6 @@ log
 .
 error
 (
-                
 "
 psutil
 not
@@ -25044,7 +24908,7 @@ wait
 30s
 before
 "
-                
+                           
 "
 attempting
 to
@@ -25055,7 +24919,7 @@ process
 This
 should
 "
-                
+                           
 "
 not
 occur
@@ -25068,7 +24932,6 @@ bug
 1143547
 .
 "
-            
 )
             
 for
@@ -25081,15 +24944,14 @@ self
 .
 killAndGetStack
 (
-                    
 pid
 utilityPath
 debuggerInfo
+                                     
 dump_screen
 =
 not
 debuggerInfo
-                
 )
             
 if
@@ -25107,15 +24969,14 @@ self
 .
 killAndGetStack
 (
-                
 browser_pid
 utilityPath
 debuggerInfo
+                                 
 dump_screen
 =
 not
 debuggerInfo
-            
 )
     
 def
@@ -25136,7 +24997,6 @@ zipfile
 .
 ZipFile
 (
-                
 "
 {
 }
@@ -25157,15 +25017,13 @@ MOZ_UPLOAD_DIR
 "
 ]
 )
-                
+                                 
 "
 w
 "
-                
 zipfile
 .
 ZIP_DEFLATED
-            
 )
 as
 logzip
@@ -25178,7 +25036,6 @@ glob
 .
 glob
 (
-                    
 "
 {
 }
@@ -25201,7 +25058,6 @@ MOZ_UPLOAD_DIR
 "
 ]
 )
-                
 )
 :
                     
@@ -25255,37 +25111,36 @@ mozrunner
 def
 __init__
 (
-            
+                
 self
-            
+                
 harness
-            
+                
 utilityPath
-            
+                
 symbolsPath
 =
 None
-            
+                
 dump_screen_on_timeout
 =
 True
-            
+                
 dump_screen_on_fail
 =
 False
-            
+                
 shutdownLeaks
 =
 None
-            
+                
 lsanLeaks
 =
 None
-            
+                
 bisectChunk
 =
 None
-        
 )
 :
             
@@ -25503,35 +25358,34 @@ handlers
 handlers
 =
 [
-                
 self
 .
 fix_stack
-                
+                        
 self
 .
 record_last_test
-                
+                        
 self
 .
 dumpScreenOnTimeout
-                
+                        
 self
 .
 dumpScreenOnFail
-                
+                        
 self
 .
 trackShutdownLeaks
-                
+                        
 self
 .
 trackLSANLeaks
-                
+                        
 self
 .
 countline
-            
+                        
 ]
             
 if
@@ -25686,31 +25540,31 @@ pass
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_start
-"
+'
 :
                 
 key
 =
 message
 [
-"
+'
 test
-"
+'
 ]
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -25737,21 +25591,21 @@ PASS
 elif
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_status
-"
+'
 :
                 
 if
-"
+'
 expected
-"
+'
 in
 message
 :
@@ -25760,16 +25614,16 @@ key
 =
 message
 [
-"
+'
 test
-"
+'
 ]
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -25796,31 +25650,31 @@ FAIL
 elif
 message
 [
-"
+'
 status
-"
+'
 ]
 =
 =
-"
+'
 FAIL
-"
+'
 :
                     
 key
 =
 message
 [
-"
+'
 test
-"
+'
 ]
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -25856,57 +25710,52 @@ message
 :
             
 if
-(
-                
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_status
-"
-                
+'
 and
-"
+'
 expected
-"
+'
 in
 message
-                
 and
 message
 [
-"
+                    
+'
 status
-"
+'
 ]
 =
 =
-"
+'
 FAIL
-"
-            
-)
+'
 :
                 
 key
 =
 message
 [
-"
+'
 test
-"
+'
 ]
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -25942,16 +25791,16 @@ message
 get
 (
                         
-"
+'
 message
-"
+'
+                        
 message
 [
-"
+'
 subtest
-"
+'
 ]
-                    
 )
 .
 strip
@@ -25972,15 +25821,15 @@ message
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 log
-"
+'
 :
                 
 line
@@ -25989,25 +25838,25 @@ message
 .
 get
 (
-"
+'
 message
-"
-"
-"
+'
+'
+'
 )
             
 elif
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 process_output
-"
+'
 :
                 
 line
@@ -26016,11 +25865,11 @@ message
 .
 get
 (
-"
+'
 data
-"
-"
-"
+'
+'
+'
 )
             
 else
@@ -26044,9 +25893,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 )
 [
 -
@@ -26142,22 +25991,22 @@ stackFixerFunction
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 log
-"
+'
 :
                     
 message
 [
-"
+'
 message
-"
+'
 ]
 =
 self
@@ -26166,31 +26015,31 @@ stackFixerFunction
 (
 message
 [
-"
+'
 message
-"
+'
 ]
 )
                 
 elif
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 process_output
-"
+'
 :
                     
 message
 [
-"
+'
 data
-"
+'
 ]
 =
 self
@@ -26199,9 +26048,9 @@ stackFixerFunction
 (
 message
 [
-"
+'
 data
-"
+'
 ]
 )
             
@@ -26231,15 +26080,15 @@ harness
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_start
-"
+'
 :
                 
 self
@@ -26250,40 +26099,37 @@ lastTestSeen
 =
 message
 [
-"
+'
 test
-"
+'
 ]
             
 elif
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_end
-"
+'
 :
                 
 if
-(
-                    
 self
 .
 harness
 .
 currentTests
-                    
 and
 message
 [
-"
+'
 test
-"
+'
 ]
 =
 =
@@ -26296,8 +26142,6 @@ currentTests
 -
 1
 ]
-                
-)
 :
                     
 self
@@ -26306,11 +26150,11 @@ harness
 .
 lastTestSeen
 =
-"
+'
 Last
 test
 finished
-"
+'
                 
 else
 :
@@ -26321,21 +26165,21 @@ harness
 .
 lastTestSeen
 =
-"
+'
 {
 }
 (
 finished
 )
-"
+'
 .
 format
 (
 message
 [
-"
+'
 test
-"
+'
 ]
 )
             
@@ -26352,37 +26196,35 @@ message
             
 if
 (
-                
 not
 self
 .
 dump_screen_on_fail
-                
+                    
 and
 self
 .
 dump_screen_on_timeout
-                
+                    
 and
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 test_status
-"
-                
+'
 and
-"
+'
 expected
-"
+'
 in
 message
-                
+                    
 and
 "
 Test
@@ -26392,11 +26234,10 @@ out
 in
 message
 [
-"
+'
 subtest
-"
+'
 ]
-            
 )
 :
                 
@@ -26423,33 +26264,28 @@ message
 :
             
 if
-(
-                
 self
 .
 dump_screen_on_fail
-                
 and
-"
+'
 expected
-"
+'
 in
 message
-                
 and
 message
 [
-"
+                    
+'
 status
-"
+'
 ]
 =
 =
-"
+'
 FAIL
-"
-            
-)
+'
 :
                 
 self
@@ -26481,58 +26317,53 @@ lsanLeaks
 and
 message
 [
-"
+'
 action
-"
+'
 ]
 in
 (
-"
+'
 log
-"
-"
+'
+'
 process_output
-"
+'
 )
 :
                 
 line
 =
-(
-                    
 message
 .
 get
 (
-"
-message
-"
-"
-"
-)
                     
+'
+message
+'
+'
+'
+)
 if
 message
 [
-"
+'
 action
-"
+'
 ]
 =
 =
-"
+'
 log
-"
-                    
+'
 else
 message
 [
-"
+'
 data
-"
+'
 ]
-                
-)
                 
 self
 .
@@ -26736,7 +26567,6 @@ profiler_logger
 .
 error
 (
-            
 "
 No
 profile
@@ -26748,7 +26578,7 @@ profile
 path
 cannot
 "
-            
+                              
 "
 launch
 profiler
@@ -26758,7 +26588,6 @@ firefox
 com
 .
 "
-        
 )
         
 return
@@ -26767,7 +26596,7 @@ profiler_logger
 .
 info
 (
-"
+'
 Loading
 this
 profile
@@ -26775,7 +26604,7 @@ in
 the
 Firefox
 Profiler
-"
+'
 )
     
 view_gecko_profile
@@ -26804,7 +26633,6 @@ logger_options
 key
 :
 value
-        
 for
 key
 value
@@ -26824,25 +26652,23 @@ key
 .
 startswith
 (
-"
+'
 log
-"
+'
 )
 or
 key
 =
 =
-"
+'
 valgrind
-"
-    
+'
 }
     
 runner
 =
 MochitestDesktop
 (
-        
 options
 .
 flavor
@@ -26850,30 +26676,30 @@ logger_options
 options
 .
 stagedAddons
+                              
 quiet
 =
 options
 .
 quiet
-    
 )
     
 if
 hasattr
 (
 options
-"
+'
 log
-"
+'
 )
 :
         
 delattr
 (
 options
-"
+'
 log
-"
+'
 )
     
 options
@@ -26888,15 +26714,15 @@ options
 flavor
 in
 (
-"
+'
 plain
-"
-"
+'
+'
 browser
-"
-"
+'
+'
 chrome
-"
+'
 )
 :
         
@@ -26980,9 +26806,9 @@ MochitestArgumentParser
 (
 app
 =
-"
+'
 generic
-"
+'
 )
     
 options

@@ -87,9 +87,9 @@ argv
 .
 split
 (
-"
+'
 /
-"
+'
 )
 def
 next_match
@@ -136,9 +136,9 @@ if
 component
 =
 =
-"
+'
 *
-"
+'
 :
                 
 for
@@ -215,9 +215,9 @@ if
 component
 =
 =
-"
+'
 *
-"
+'
 :
                 
 for
@@ -304,8 +304,8 @@ dict
         
 print
 (
-"
-"
+'
+'
 .
 join
 (

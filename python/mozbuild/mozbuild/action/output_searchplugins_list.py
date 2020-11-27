@@ -256,10 +256,10 @@ list
 .
 print
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (

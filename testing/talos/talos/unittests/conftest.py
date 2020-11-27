@@ -37,9 +37,9 @@ dirname
 here
 )
 )
-"
+'
 tests
-"
+'
 )
 def
 remove_develop_files
@@ -78,10 +78,10 @@ file_name
 .
 endswith
 (
-"
+'
 .
 develop
-"
+'
 )
 and
 os
@@ -240,9 +240,9 @@ with
 open
 (
 manifestName
-"
+'
 r
-"
+'
 )
 as
 fHandle
@@ -267,13 +267,13 @@ open
 (
 manifestName
 +
-"
+'
 .
 develop
-"
-"
+'
+'
 w
-"
+'
 )
 as
 newHandle
@@ -291,14 +291,14 @@ line
 .
 replace
 (
-"
+'
 localhost
-"
+'
 config
 [
-"
+'
 webserver
-"
+'
 ]
 )
             
@@ -308,12 +308,12 @@ newline
 .
 replace
 (
-"
+'
 page_load_test
-"
-"
+'
+'
 tests
-"
+'
 )
             
 newHandle
@@ -327,10 +327,10 @@ newManifestName
 =
 manifestName
 +
-"
+'
 .
 develop
-"
+'
     
 #
 return

@@ -145,14 +145,14 @@ test
 raise
 ValueError
 (
-"
+'
 Aborting
 (
 test
 -
 19
 )
-"
+'
 )
     
 elif
@@ -460,11 +460,11 @@ resp
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
         
@@ -504,11 +504,11 @@ resp
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
         
@@ -547,11 +547,11 @@ resp
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
         
@@ -659,11 +659,11 @@ resp
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
     
@@ -694,11 +694,11 @@ msg
 =
 =
 u
-"
+'
 a
 \
 ufffdb
-"
+'
 :
             
 #
@@ -732,9 +732,7 @@ msgutil
 .
 send_message
 (
-                
 request
-                
 "
 FAIL
 got
@@ -742,6 +740,7 @@ got
 "
 +
 msg
+                                 
 +
 "
 '
@@ -753,7 +752,6 @@ replacement
 char
 '
 "
-            
 )
     
 elif
@@ -790,14 +788,14 @@ connection
 .
 write
 (
-"
+'
 \
 xff
 \
 x01
 \
 x61
-"
+'
 )
         
 #
@@ -813,14 +811,14 @@ connection
 .
 write
 (
-"
+'
 \
 x01
 \
 x61
 \
 xff
-"
+'
 )
         
 msgutil
@@ -1043,11 +1041,11 @@ resp
 .
 decode
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 )
         
@@ -1285,6 +1283,7 @@ msgutil
 send_message
 (
 request
+                             
 msgutil
 .
 receive_message
@@ -1298,6 +1297,7 @@ msgutil
 send_message
 (
 request
+                             
 msgutil
 .
 receive_message
@@ -1311,6 +1311,7 @@ msgutil
 send_message
 (
 request
+                             
 msgutil
 .
 receive_message
@@ -1357,6 +1358,8 @@ rcv
 =
 =
 3
+\
+           
 and
 ord
 (
@@ -1506,7 +1509,6 @@ msgutil
 .
 send_message
 (
-                
 request
 "
 incorrect
@@ -1522,7 +1524,6 @@ rcv
 "
 '
 "
-            
 )
     
 elif

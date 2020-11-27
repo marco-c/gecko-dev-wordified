@@ -78,6 +78,7 @@ get_application_ini_value
 application_directory
 section
 value
+                              
 fallback
 =
 None
@@ -102,11 +103,11 @@ application_directory
 :
         
 if
-"
+'
 application
 .
 ini
-"
+'
 in
 files
 :
@@ -128,11 +129,11 @@ mozpath
 join
 (
 root
-"
+'
 application
 .
 ini
-"
+'
 )
 )
             

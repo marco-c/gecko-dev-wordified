@@ -95,7 +95,10 @@ OrderedDict
 from
 textwrap
 import
+(
+    
 TextWrapper
+)
 try
 :
     
@@ -146,25 +149,37 @@ from
 .
 clobber
 import
+(
+    
 Clobberer
+)
 from
 .
 .
 base
 import
+(
+    
 MozbuildObject
+)
 from
 .
 .
 backend
 import
+(
+    
 get_backend_class
+)
 from
 .
 .
 testing
 import
+(
+    
 install_test_files
+)
 from
 .
 .
@@ -193,9 +208,9 @@ resolve_target_to_make
 )
 FINDER_SLOW_MESSAGE
 =
-"
-"
-"
+'
+'
+'
 =
 =
 =
@@ -310,23 +325,21 @@ Preferences
 =
 =
 =
-"
-"
-"
+'
+'
+'
 .
 strip
 (
 )
 INSTALL_TESTS_CLOBBER
 =
-"
-"
+'
+'
 .
 join
 (
-    
 [
-        
 TextWrapper
 (
 )
@@ -336,17 +349,17 @@ fill
 line
 )
 +
-"
+'
 \
 n
-"
-        
+'
 for
 line
 in
-"
-"
-"
+                                 
+'
+'
+'
 The
 build
 system
@@ -441,21 +454,20 @@ touch
 {
 clobber_file
 }
-"
-"
-"
+'
+'
+'
 .
 splitlines
 (
 )
-    
 ]
 )
 CLOBBER_REQUESTED_MESSAGE
 =
-"
-"
-"
+'
+'
+'
 =
 =
 =
@@ -547,9 +559,9 @@ changes
 =
 =
 =
-"
-"
-"
+'
+'
+'
 .
 strip
 (
@@ -558,20 +570,20 @@ BuildOutputResult
 =
 namedtuple
 (
-    
-"
+'
 BuildOutputResult
-"
+'
+                               
 (
-"
+'
 warning
-"
-"
+'
+'
 state_changed
-"
-"
+'
+'
 message
-"
+'
 )
 )
 class
@@ -762,9 +774,9 @@ tier_status
 tier
 ]
 =
-"
+'
 active
-"
+'
         
 t
 =
@@ -801,9 +813,9 @@ Python
         
 t
 [
-"
+'
 begin_time
-"
+'
 ]
 =
 time
@@ -852,9 +864,9 @@ tier_status
 tier
 ]
 =
-"
+'
 finished
-"
+'
         
 t
 =
@@ -867,9 +879,9 @@ tier
         
 t
 [
-"
+'
 finish_time
-"
+'
 ]
 =
 time
@@ -880,9 +892,9 @@ time
         
 t
 [
-"
+'
 duration
-"
+'
 ]
 =
 self
@@ -958,27 +970,27 @@ start
 =
 state
 [
-"
+'
 begin_time
-"
+'
 ]
                 
 end
 =
 state
 [
-"
+'
 finish_time
-"
+'
 ]
                 
 duration
 =
 state
 [
-"
+'
 duration
-"
+'
 ]
             
 )
@@ -1045,10 +1057,10 @@ resources
 .
 aggregate_cpu_percent
 (
-            
 start
 =
 start
+                                                           
 end
 =
 end
@@ -1058,7 +1070,6 @@ phase
 per_cpu
 =
 False
-        
 )
         
 cpu_times
@@ -1069,20 +1080,19 @@ resources
 .
 aggregate_cpu_times
 (
-            
 start
 =
 start
 end
 =
 end
+                                                       
 phase
 =
 phase
 per_cpu
 =
 False
-        
 )
         
 io
@@ -1115,18 +1125,18 @@ entry
         
 entry
 [
-"
+'
 cpu_percent
-"
+'
 ]
 =
 cpu_percent
         
 entry
 [
-"
+'
 cpu_times
-"
+'
 ]
 =
 list
@@ -1136,9 +1146,9 @@ cpu_times
         
 entry
 [
-"
+'
 io
-"
+'
 ]
 =
 list
@@ -1184,9 +1194,9 @@ False
             
 d
 [
-"
+'
 cpu_times_fields
-"
+'
 ]
 =
 list
@@ -1198,9 +1208,9 @@ _fields
             
 d
 [
-"
+'
 io_fields
-"
+'
 ]
 =
 list
@@ -1214,9 +1224,9 @@ _fields
             
 d
 [
-"
+'
 virt_fields
-"
+'
 ]
 =
 list
@@ -1230,9 +1240,9 @@ _fields
             
 d
 [
-"
+'
 swap_fields
-"
+'
 ]
 =
 list
@@ -1417,15 +1427,15 @@ errors
 if
 warning
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 error
-"
+'
 :
                 
 return
@@ -1434,9 +1444,9 @@ filename
 =
 warning
 [
-"
+'
 filename
-"
+'
 ]
             
 if
@@ -1454,7 +1464,7 @@ filename
 raise
 Exception
 (
-"
+'
 Could
 not
 find
@@ -1464,8 +1474,9 @@ warning
 :
 %
 s
-"
+'
 %
+                                
 filename
 )
             
@@ -1512,6 +1523,7 @@ _warnings_collector
 WarningsCollector
 (
 on_warning
+                                                     
 objdir
 =
 self
@@ -1758,9 +1770,9 @@ line
 .
 startswith
 (
-"
+'
 BUILDSTATUS
-"
+'
 )
 :
             
@@ -1793,9 +1805,9 @@ if
 action
 =
 =
-"
+'
 TIERS
-"
+'
 :
                 
 self
@@ -1815,9 +1827,9 @@ elif
 action
 =
 =
-"
+'
 TIER_START
-"
+'
 :
                 
 tier
@@ -1840,14 +1852,12 @@ elif
 action
 =
 =
-"
+'
 TIER_FINISH
-"
+'
 :
                 
-(
 tier
-)
 =
 args
                 
@@ -1864,9 +1874,9 @@ elif
 action
 =
 =
-"
+'
 OBJECT_FILE
-"
+'
 :
                 
 self
@@ -1889,9 +1899,9 @@ elif
 action
 =
 =
-"
+'
 BUILD_VERBOSE
-"
+'
 :
                 
 build_dir
@@ -1933,14 +1943,14 @@ else
 raise
 Exception
 (
-"
+'
 Unknown
 build
 status
 :
 %
 s
-"
+'
 %
 action
 )
@@ -1958,9 +1968,9 @@ line
 .
 startswith
 (
-"
+'
 BUILDTASK
-"
+'
 )
 :
             
@@ -2194,9 +2204,9 @@ _warnings_path
 )
         
 if
-"
+'
 MOZ_AUTOMATION
-"
+'
 not
 in
 os
@@ -2210,11 +2220,11 @@ self
 .
 _get_state_filename
 (
-"
+'
 build_tasks
 .
 json
-"
+'
 )
             
 with
@@ -2223,22 +2233,23 @@ io
 open
 (
 build_tasks_path
-"
+'
 w
-"
+'
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
+                         
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 fh
@@ -2248,9 +2259,9 @@ fh
 .
 write
 (
-"
+'
 [
-"
+'
 )
                 
 first
@@ -2296,24 +2307,24 @@ fh
 .
 write
 (
-"
+'
 %
 s
 \
 n
 %
 s
-"
+'
 %
 (
-"
-"
+'
+'
 if
 not
 first
 else
-"
-"
+'
+'
 task
 )
 )
@@ -2326,13 +2337,13 @@ fh
 .
 write
 (
-"
+'
 \
 n
 ]
 \
 n
-"
+'
 )
         
 #
@@ -2403,17 +2414,17 @@ viewer
 .
             
 if
-"
+'
 MOZ_AUTOMATION
-"
+'
 in
 os
 .
 environ
 and
-"
+'
 UPLOAD_PATH
-"
+'
 in
 os
 .
@@ -2428,21 +2439,20 @@ path
 .
 join
 (
-                    
 os
 .
 environ
 [
-"
+'
 UPLOAD_PATH
-"
+'
 ]
-"
+                                                    
+'
 build_resources
 .
 json
-"
-                
+'
 )
                 
 shutil
@@ -2460,48 +2470,42 @@ join
 self
 .
 topsrcdir
-                        
-"
+'
 python
-"
-                        
-"
+'
+'
 mozbuild
-"
-                        
-"
+'
+'
 mozbuild
-"
+'
                         
-"
+'
 resources
-"
-                        
-"
+'
+'
 html
 -
 build
 -
 viewer
-"
+'
                         
-"
+'
 build_resources
 .
 html
-"
-                    
+'
 )
                     
 os
 .
 environ
 [
-"
+'
 UPLOAD_PATH
-"
+'
 ]
-                
 )
             
 else
@@ -2513,11 +2517,11 @@ self
 .
 _get_state_filename
 (
-"
+'
 build_resources
 .
 json
-"
+'
 )
             
 with
@@ -2525,25 +2529,24 @@ io
 .
 open
 (
-                
 build_resources_path
-"
+'
 w
-"
+'
+                         
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 newline
 =
-"
+'
 \
 n
-"
-            
+'
 )
 as
 fh
@@ -2571,7 +2574,6 @@ indent
 =
 2
 )
-                
 )
                 
 fh
@@ -2591,27 +2593,25 @@ self
 .
 log
 (
-                
 logging
 .
 WARNING
-                
-"
+'
 build_resources_error
-"
-                
+'
+                     
 {
-"
+'
 msg
-"
+'
 :
 str
 (
 e
 )
 }
-                
-"
+                     
+'
 Exception
 when
 writing
@@ -2622,8 +2622,7 @@ file
 {
 msg
 }
-"
-            
+'
 )
     
 def
@@ -2671,9 +2670,9 @@ platform
 .
 startswith
 (
-"
+'
 darwin
-"
+'
 )
 :
             
@@ -2704,9 +2703,9 @@ proc
 name
 !
 =
-"
+'
 Finder
-"
+'
 :
                 
 continue
@@ -2752,7 +2751,7 @@ exe
 .
 endswith
 (
-"
+'
 CoreServices
 /
 Finder
@@ -2764,7 +2763,7 @@ Contents
 MacOS
 /
 Finder
-"
+'
 )
 :
                 
@@ -3269,6 +3268,7 @@ aggregate_cpu_percent
 phase
 =
 None
+                                                           
 per_cpu
 =
 False
@@ -3285,6 +3285,7 @@ aggregate_cpu_times
 phase
 =
 None
+                                                       
 per_cpu
 =
 False
@@ -3367,9 +3368,9 @@ build_objects
         
 o
 [
-"
+'
 tiers
-"
+'
 ]
 =
 self
@@ -3409,17 +3410,16 @@ resources
 .
 aggregate_cpu_percent
 (
-                
 usage
 .
 start
+                                                               
 usage
 .
 end
 per_cpu
 =
 False
-            
 )
             
 cpu_times
@@ -3430,17 +3430,16 @@ resources
 .
 aggregate_cpu_times
 (
-                
 usage
 .
 start
+                                                           
 usage
 .
 end
 per_cpu
 =
 False
-            
 )
             
 entry
@@ -3492,6 +3491,7 @@ start
 usage
 .
 start
+                                             
 end
 =
 usage
@@ -3501,9 +3501,9 @@ end
             
 o
 [
-"
+'
 resources
-"
+'
 ]
 .
 append
@@ -3589,9 +3589,9 @@ case
         
 o
 [
-"
+'
 system
-"
+'
 ]
 =
 {
@@ -3603,17 +3603,16 @@ psutil
             
 o
 [
-"
+'
 system
-"
+'
 ]
 .
 update
 (
-                
 dict
 (
-                    
+                
 logical_cpu_count
 =
 psutil
@@ -3621,7 +3620,7 @@ psutil
 cpu_count
 (
 )
-                    
+                
 physical_cpu_count
 =
 psutil
@@ -3632,7 +3631,7 @@ logical
 =
 False
 )
-                    
+                
 swap_total
 =
 psutil
@@ -3643,7 +3642,7 @@ swap_memory
 [
 0
 ]
-                    
+                
 vmem_total
 =
 psutil
@@ -3654,9 +3653,8 @@ virtual_memory
 [
 0
 ]
-                
-)
             
+)
 )
         
 return
@@ -3715,18 +3713,18 @@ cpu_percent
 =
 usage
 [
-"
+'
 cpu_percent
-"
+'
 ]
             
 io_read_bytes
 =
 usage
 [
-"
+'
 io
-"
+'
 ]
 .
 read_bytes
@@ -3735,9 +3733,9 @@ io_write_bytes
 =
 usage
 [
-"
+'
 io
-"
+'
 ]
 .
 write_bytes
@@ -3746,9 +3744,9 @@ io_read_time
 =
 usage
 [
-"
+'
 io
-"
+'
 ]
 .
 read_time
@@ -3757,9 +3755,9 @@ io_write_time
 =
 usage
 [
-"
+'
 io
-"
+'
 ]
 .
 write_time
@@ -3768,9 +3766,7 @@ write_time
         
 message
 =
-(
-            
-"
+'
 Overall
 system
 resources
@@ -3786,9 +3782,10 @@ duration
 }
 s
 ;
-"
+'
+\
             
-"
+'
 CPU
 :
 {
@@ -3799,9 +3796,10 @@ cpu_percent
 }
 %
 ;
-"
+'
+\
             
-"
+'
 Read
 bytes
 :
@@ -3816,9 +3814,10 @@ bytes
 io_write_bytes
 }
 ;
-"
+'
+\
             
-"
+'
 Read
 time
 :
@@ -3832,9 +3831,7 @@ time
 {
 io_write_time
 }
-"
-        
-)
+'
         
 self
 .
@@ -3843,9 +3840,9 @@ log
 logging
 .
 WARNING
-"
+'
 resource_usage
-"
+'
 params
 message
 )
@@ -3887,29 +3884,27 @@ self
 .
 log
 (
-                
 logging
 .
 WARNING
-                
-"
+'
 swap_activity
-"
-                
+'
+                     
 {
-"
+'
 sin
-"
+'
 :
 sin
-"
+'
 sout
-"
+'
 :
 sout
 }
-                
-"
+                     
+'
 Swap
 in
 /
@@ -3925,8 +3920,7 @@ sin
 {
 sout
 }
-"
-            
+'
 )
     
 def
@@ -3946,9 +3940,9 @@ mozfile
 .
 which
 (
-"
+'
 ccache
-"
+'
 )
         
 if
@@ -3967,15 +3961,14 @@ check_output
                     
 [
 ccache
-"
+'
 -
 s
-"
+'
 ]
 universal_newlines
 =
 True
-                
 )
                 
 ccache_stats
@@ -3998,24 +3991,24 @@ log
 logging
 .
 WARNING
-"
+'
 ccache
-"
+'
 {
-"
+'
 msg
-"
+'
 :
 str
 (
 e
 )
 }
-"
+'
 {
 msg
 }
-"
+'
 )
         
 return
@@ -4187,10 +4180,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
             
 if
@@ -4380,13 +4373,13 @@ parts
 =
 [
 (
-"
+'
 bold
-"
-"
+'
+'
 TIER
 :
-"
+'
 )
 ]
         
@@ -4420,17 +4413,17 @@ elif
 status
 =
 =
-"
+'
 finished
-"
+'
 :
                 
 append
 (
 (
-"
+'
 green
-"
+'
 tier
 )
 )
@@ -4441,9 +4434,9 @@ else
 append
 (
 (
-"
+'
 underline_yellow
-"
+'
 tier
 )
 )
@@ -4526,9 +4519,9 @@ environ
 .
 get
 (
-"
+'
 MACH_NO_TERMINAL_FOOTER
-"
+'
 None
 )
 :
@@ -4542,9 +4535,9 @@ environ
 .
 get
 (
-"
+'
 INSIDE_EMACS
-"
+'
 None
 )
 :
@@ -4887,21 +4880,21 @@ log
 logging
 .
 INFO
-"
+'
 build_output
-"
+'
 {
-"
+'
 line
-"
+'
 :
 message
 }
-"
+'
 {
 line
 }
-"
+'
 )
         
 elif
@@ -4913,9 +4906,9 @@ have_handler
 hasattr
 (
 self
-"
+'
 handler
-"
+'
 )
             
 if
@@ -4975,6 +4968,7 @@ in
 a
 terminal
 .
+    
 "
 "
 "
@@ -5043,7 +5037,7 @@ num_files_processed
         
 percent
 =
-"
+'
 (
 %
 .
@@ -5051,7 +5045,7 @@ percent
 %
 %
 )
-"
+'
 %
 (
 processed
@@ -5068,18 +5062,18 @@ parts
 [
             
 (
-"
+'
 dim
-"
-"
+'
+'
 Processing
-"
+'
 )
             
 (
-"
+'
 yellow
-"
+'
 str
 (
 processed
@@ -5087,18 +5081,18 @@ processed
 )
             
 (
-"
+'
 dim
-"
-"
+'
+'
 of
-"
+'
 )
             
 (
-"
+'
 yellow
-"
+'
 str
 (
 total
@@ -5106,18 +5100,18 @@ total
 )
             
 (
-"
+'
 dim
-"
-"
+'
+'
 files
-"
+'
 )
             
 (
-"
+'
 green
-"
+'
 percent
 )
         
@@ -5134,9 +5128,9 @@ parts
 append
 (
 (
-"
+'
 bold
-"
+'
 monitor
 .
 current_file
@@ -5194,8 +5188,8 @@ self
 .
 raw
 =
-"
-"
+'
+'
         
 OutputManager
 .
@@ -5237,10 +5231,10 @@ raw
 =
 line
 +
-"
+'
 \
 n
-"
+'
         
 if
 warning
@@ -5250,18 +5244,15 @@ self
 .
 log
 (
-                
 logging
 .
 INFO
-                
-"
+'
 compiler_warning
-"
-                
+'
 warning
-                
-"
+                     
+'
 Warning
 :
 {
@@ -5275,8 +5266,7 @@ filename
 {
 message
 }
-"
-            
+'
 )
         
 if
@@ -5290,21 +5280,21 @@ log
 logging
 .
 INFO
-"
+'
 build_output
-"
+'
 {
-"
+'
 line
-"
+'
 :
 line
 }
-"
+'
 {
 line
 }
-"
+'
 )
         
 else
@@ -5315,9 +5305,9 @@ have_handler
 hasattr
 (
 self
-"
+'
 handler
-"
+'
 )
             
 if
@@ -5369,26 +5359,26 @@ assert
 output_format
 in
 (
-"
+'
 text
-"
-"
+'
+'
 json
-"
+'
 )
-"
+\
+            
+'
 Invalid
 output
 format
 {
 }
-"
+'
 .
 format
 (
-            
 output_format
-        
 )
         
 path
@@ -5406,9 +5396,9 @@ if
 output_format
 =
 =
-"
+'
 json
-"
+'
 :
             
 self
@@ -5431,22 +5421,22 @@ io
 open
 (
 path
-"
+'
 w
-"
+'
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 f
@@ -5465,29 +5455,27 @@ self
 .
 log
 (
-            
 logging
 .
 INFO
-            
-"
+'
 write_output
-"
-            
+'
+                 
 {
-"
+'
 path
-"
+'
 :
 path
-"
+'
 format
-"
+'
 :
 output_format
 }
-            
-"
+                 
+'
 Wrote
 {
 format
@@ -5497,8 +5485,7 @@ in
 {
 path
 }
-"
-        
+'
 )
 class
 CCacheStats
@@ -5582,14 +5569,14 @@ descriptions
 .
         
 (
-"
+'
 stats_zeroed
-"
-"
+'
+'
 stats
 zero
 time
-"
+'
 )
 #
 Old
@@ -5602,175 +5589,175 @@ ccache
 4
         
 (
-"
+'
 stats_zeroed
-"
-"
+'
+'
 stats
 zeroed
-"
+'
 )
         
 (
-"
+'
 stats_updated
-"
-"
+'
+'
 stats
 updated
-"
+'
 )
         
 (
-"
+'
 cache_hit_direct
-"
-"
+'
+'
 cache
 hit
 (
 direct
 )
-"
+'
 )
         
 (
-"
+'
 cache_hit_preprocessed
-"
-"
+'
+'
 cache
 hit
 (
 preprocessed
 )
-"
+'
 )
         
 (
-"
+'
 cache_hit_rate
-"
-"
+'
+'
 cache
 hit
 rate
-"
+'
 )
         
 (
-"
+'
 cache_miss
-"
-"
+'
+'
 cache
 miss
-"
+'
 )
         
 (
-"
+'
 link
-"
-"
+'
+'
 called
 for
 link
-"
+'
 )
         
 (
-"
+'
 preprocessing
-"
-"
+'
+'
 called
 for
 preprocessing
-"
+'
 )
         
 (
-"
+'
 multiple
-"
-"
+'
+'
 multiple
 source
 files
-"
+'
 )
         
 (
-"
+'
 stdout
-"
-"
+'
+'
 compiler
 produced
 stdout
-"
+'
 )
         
 (
-"
+'
 no_output
-"
-"
+'
+'
 compiler
 produced
 no
 output
-"
+'
 )
         
 (
-"
+'
 empty_output
-"
-"
+'
+'
 compiler
 produced
 empty
 output
-"
+'
 )
         
 (
-"
+'
 failed
-"
-"
+'
+'
 compile
 failed
-"
+'
 )
         
 (
-"
+'
 error
-"
-"
+'
+'
 ccache
 internal
 error
-"
+'
 )
         
 (
-"
+'
 preprocessor_error
-"
-"
+'
+'
 preprocessor
 error
-"
+'
 )
         
 (
-"
+'
 cant_use_pch
-"
+'
 "
 can
 '
@@ -5782,9 +5769,9 @@ header
 )
         
 (
-"
+'
 compiler_missing
-"
+'
 "
 couldn
 '
@@ -5796,99 +5783,99 @@ compiler
 )
         
 (
-"
+'
 cache_file_missing
-"
-"
+'
+'
 cache
 file
 missing
-"
+'
 )
         
 (
-"
+'
 bad_args
-"
-"
+'
+'
 bad
 compiler
 arguments
-"
+'
 )
         
 (
-"
+'
 unsupported_lang
-"
-"
+'
+'
 unsupported
 source
 language
-"
+'
 )
         
 (
-"
+'
 compiler_check_failed
-"
-"
+'
+'
 compiler
 check
 failed
-"
+'
 )
         
 (
-"
+'
 autoconf
-"
-"
+'
+'
 autoconf
 compile
 /
 link
-"
+'
 )
         
 (
-"
+'
 unsupported_code_directive
-"
-"
+'
+'
 unsupported
 code
 directive
-"
+'
 )
         
 (
-"
+'
 unsupported_compiler_option
-"
-"
+'
+'
 unsupported
 compiler
 option
-"
+'
 )
         
 (
-"
+'
 out_stdout
-"
-"
+'
+'
 output
 to
 stdout
-"
+'
 )
         
 (
-"
+'
 out_device
-"
-"
+'
+'
 output
 to
 a
@@ -5896,72 +5883,72 @@ non
 -
 regular
 file
-"
+'
 )
         
 (
-"
+'
 no_input
-"
-"
+'
+'
 no
 input
 file
-"
+'
 )
         
 (
-"
+'
 bad_extra_file
-"
-"
+'
+'
 error
 hashing
 extra
 file
-"
+'
 )
         
 (
-"
+'
 num_cleanups
-"
-"
+'
+'
 cleanups
 performed
-"
+'
 )
         
 (
-"
+'
 cache_files
-"
-"
+'
+'
 files
 in
 cache
-"
+'
 )
         
 (
-"
+'
 cache_size
-"
-"
+'
+'
 cache
 size
-"
+'
 )
         
 (
-"
+'
 cache_max_size
-"
-"
+'
+'
 max
 cache
 size
-"
+'
 )
     
 ]
@@ -5993,26 +5980,26 @@ readonly
 ABSOLUTE_KEYS
 =
 {
-"
+'
 cache_files
-"
-"
+'
+'
 cache_size
-"
-"
+'
+'
 cache_max_size
-"
+'
 }
     
 FORMAT_KEYS
 =
 {
-"
+'
 cache_size
-"
-"
+'
+'
 cache_max_size
-"
+'
 }
     
 GiB
@@ -6191,7 +6178,6 @@ line
 self
 .
 PRIMARY_CONFIG_DESCRIPTION
-            
 )
         
 elif
@@ -6218,7 +6204,6 @@ line
 self
 .
 SECONDARY_CONFIG_DESCRIPTION
-            
 )
         
 else
@@ -6274,7 +6259,7 @@ else
 raise
 ValueError
 (
-"
+'
 Failed
 to
 parse
@@ -6284,7 +6269,7 @@ output
 :
 %
 s
-"
+'
 %
 line
 )
@@ -6358,10 +6343,10 @@ time
 strptime
 (
 raw_value
-"
+'
 %
 c
-"
+'
 )
             
 return
@@ -6391,8 +6376,8 @@ split
         
 unit
 =
-"
-"
+'
+'
         
 if
 len
@@ -6432,7 +6417,7 @@ else
 raise
 ValueError
 (
-"
+'
 Failed
 to
 parse
@@ -6442,15 +6427,15 @@ value
 :
 %
 s
-"
+'
 %
 raw_value
 )
         
 if
-"
+'
 .
-"
+'
 in
 numeric
 :
@@ -6476,12 +6461,12 @@ if
 unit
 in
 (
-"
+'
 GB
-"
-"
+'
+'
 Gbytes
-"
+'
 )
 :
             
@@ -6495,12 +6480,12 @@ elif
 unit
 in
 (
-"
+'
 MB
-"
-"
+'
+'
 Mbytes
-"
+'
 )
 :
             
@@ -6514,12 +6499,12 @@ elif
 unit
 in
 (
-"
+'
 KB
-"
-"
+'
+'
 Kbytes
-"
+'
 )
 :
             
@@ -6553,8 +6538,7 @@ self
         
 return
 (
-            
-"
+'
 ccache
 (
 direct
@@ -6582,9 +6566,9 @@ rate
 %
 }
 ;
-"
-            
-"
+'
+                
+'
 miss
 rate
 :
@@ -6594,18 +6578,19 @@ rate
 1
 %
 }
-"
+'
 .
 format
 (
+                    
 *
 self
 .
 hit_rates
 (
 )
+                
 )
-        
 )
     
 def
@@ -6621,9 +6606,9 @@ self
 .
 _values
 [
-"
+'
 cache_hit_direct
-"
+'
 ]
         
 preprocessed
@@ -6632,9 +6617,9 @@ self
 .
 _values
 [
-"
+'
 cache_hit_preprocessed
-"
+'
 ]
         
 miss
@@ -6643,9 +6628,9 @@ self
 .
 _values
 [
-"
+'
 cache_miss
-"
+'
 ]
         
 total
@@ -6820,13 +6805,12 @@ lines
 .
 append
 (
-                
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 self
@@ -6837,11 +6821,11 @@ ljust
 (
 LEFT_ALIGN
 )
+                                   
 self
 .
 cache_dir
 )
-            
 )
         
 for
@@ -6883,10 +6867,10 @@ FORMAT_KEYS
                 
 value
 =
-"
+'
 %
 15s
-"
+'
 %
 self
 .
@@ -6900,10 +6884,10 @@ else
                 
 value
 =
-"
+'
 %
 8u
-"
+'
 %
 value
             
@@ -6911,12 +6895,12 @@ lines
 .
 append
 (
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
 stat_description
@@ -6930,10 +6914,10 @@ value
 )
         
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -6950,7 +6934,6 @@ self
 relative_values
 =
 [
-            
 v
 for
 k
@@ -6963,6 +6946,7 @@ _values
 items
 (
 )
+                           
 if
 k
 not
@@ -6970,10 +6954,10 @@ in
 self
 .
 ABSOLUTE_KEYS
-        
 ]
         
 return
+(
 all
 (
 v
@@ -6986,9 +6970,9 @@ in
 relative_values
 )
 and
+                
 any
 (
-            
 v
 >
 0
@@ -6996,7 +6980,7 @@ for
 v
 in
 relative_values
-        
+)
 )
     
 def
@@ -7031,12 +7015,12 @@ GiB
 :
             
 return
-"
+'
 %
 .
 1f
 Gbytes
-"
+'
 %
 (
 float
@@ -7058,12 +7042,12 @@ MiB
 :
             
 return
-"
+'
 %
 .
 1f
 Mbytes
-"
+'
 %
 (
 float
@@ -7080,12 +7064,12 @@ else
 :
             
 return
-"
+'
 %
 .
 1f
 Kbytes
-"
+'
 %
 (
 float
@@ -7160,39 +7144,30 @@ None
 def
 build
 (
-        
 self
-        
 metrics
-        
 what
 =
 None
-        
 jobs
 =
 0
-        
 directory
 =
 None
-        
 verbose
 =
 False
-        
+              
 keep_going
 =
 False
-        
 mach_context
 =
 None
-        
 append_env
 =
 None
-    
 )
 :
         
@@ -7245,11 +7220,11 @@ self
 .
 _get_state_filename
 (
-"
+'
 warnings
 .
 json
-"
+'
 )
         
 monitor
@@ -7348,7 +7323,7 @@ what
                 
 print
 (
-"
+'
 Can
 only
 use
@@ -7362,11 +7337,12 @@ with
 an
 explicit
 target
-"
-"
+'
+                      
+'
 name
 .
-"
+'
 )
                 
 return
@@ -7393,9 +7369,9 @@ directory
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                     
@@ -7419,9 +7395,9 @@ mach_context
 .
 command_attrs
 [
-"
+'
 clobber
-"
+'
 ]
 =
 False
@@ -7503,9 +7479,9 @@ mach_context
 .
 command_attrs
 [
-"
+'
 clobber
-"
+'
 ]
 =
 True
@@ -7594,9 +7570,9 @@ substs
 .
 get
 (
-"
+'
 BUILD_BACKENDS
-"
+'
 [
 None
 ]
@@ -7644,7 +7620,6 @@ self
 .
 build_out_of_date
 (
-                
 mozpath
 .
 join
@@ -7652,13 +7627,14 @@ join
 self
 .
 topobjdir
-"
+                                                                     
+'
 config
 .
 status
-"
+'
 )
-                
+                                                        
 mozpath
 .
 join
@@ -7666,22 +7642,22 @@ join
 self
 .
 topobjdir
-"
+                                                                     
+'
 config_status_deps
 .
 in
-"
+'
 )
-            
 )
 :
                 
 if
 previous_backend
 and
-"
+'
 Make
-"
+'
 not
 in
 previous_backend
@@ -7720,23 +7696,21 @@ self
 .
 configure
 (
-                    
 metrics
-                    
+                                           
 buildstatus_messages
 =
 True
-                    
+                                           
 line_handler
 =
 output
 .
 on_line
-                    
+                                           
 append_env
 =
 append_env
-                
 )
                 
 if
@@ -7784,9 +7758,9 @@ substs
 .
 get
 (
-"
+'
 CC_TYPE
-"
+'
 None
 )
 )
@@ -7818,9 +7792,9 @@ set
 (
 get_substs_flag
 (
-"
+'
 MOZ_ARTIFACT_BUILDS
-"
+'
 )
 )
             
@@ -7832,9 +7806,9 @@ set
 (
 get_substs_flag
 (
-"
+'
 MOZ_DEBUG
-"
+'
 )
 )
             
@@ -7846,9 +7820,9 @@ set
 (
 get_substs_flag
 (
-"
+'
 MOZ_OPTIMIZE
-"
+'
 )
 )
             
@@ -7860,9 +7834,9 @@ set
 (
 get_substs_flag
 (
-"
+'
 CCACHE
-"
+'
 )
 )
             
@@ -7874,9 +7848,9 @@ set
 (
 get_substs_flag
 (
-"
+'
 MOZ_USING_SCCACHE
-"
+'
 )
 )
             
@@ -7888,9 +7862,9 @@ set
 (
 get_substs_flag
 (
-"
+'
 CXX_IS_ICECREAM
-"
+'
 )
 )
             
@@ -7902,9 +7876,9 @@ substs
 .
 get
 (
-"
+'
 BUILD_BACKENDS
-"
+'
 [
 None
 ]
@@ -7922,18 +7896,71 @@ status
 None
             
 if
+(
 not
 config_rc
 and
+                
 any
 (
-                
 [
-                    
 self
 .
 backend_out_of_date
 (
+mozpath
+.
+join
+(
+self
+.
+topobjdir
+                                                           
+'
+backend
+.
+%
+sBackend
+'
+%
+                                                           
+backend
+)
+)
+                     
+for
+backend
+in
+all_backends
+]
+)
+)
+:
+                
+print
+(
+'
+Build
+configuration
+changed
+.
+Regenerating
+backend
+.
+'
+)
+                
+args
+=
+[
+config
+.
+substs
+[
+'
+PYTHON3
+'
+]
                         
 mozpath
 .
@@ -7942,68 +7969,12 @@ join
 self
 .
 topobjdir
-"
-backend
-.
-%
-sBackend
-"
-%
-backend
-)
-                    
-)
-                    
-for
-backend
-in
-all_backends
-                
-]
-            
-)
-:
-                
-print
-(
-"
-Build
-configuration
-changed
-.
-Regenerating
-backend
-.
-"
-)
-                
-args
-=
-[
-                    
-config
-.
-substs
-[
-"
-PYTHON3
-"
-]
-                    
-mozpath
-.
-join
-(
-self
-.
-topobjdir
-"
+'
 config
 .
 status
-"
+'
 )
-                
 ]
                 
 self
@@ -8022,9 +7993,9 @@ True
 )
             
 if
-"
+'
 Make
-"
+'
 not
 in
 active_backend
@@ -8094,9 +8065,9 @@ jobs
 =
 0
 and
-"
+'
 make_extra
-"
+'
 in
 self
 .
@@ -8110,9 +8081,9 @@ self
 .
 mozconfig
 [
-"
+'
 make_extra
-"
+'
 ]
 :
                         
@@ -8123,18 +8094,18 @@ param
 .
 split
 (
-"
+'
 =
-"
+'
 )
                         
 if
 key
 =
 =
-"
+'
 MOZ_PARALLEL_BUILD
-"
+'
 :
                             
 jobs
@@ -8187,17 +8158,17 @@ self
 .
 log
 (
-                            
 logging
 .
 WARNING
-"
+'
 clobber
-"
+'
+                                 
 {
-"
+'
 msg
-"
+'
 :
 line
 .
@@ -8205,12 +8176,11 @@ rstrip
 (
 )
 }
-"
+'
 {
 msg
 }
-"
-                        
+'
 )
             
 if
@@ -8278,18 +8248,19 @@ else
 make_dir
 make_target
 =
+\
+                            
 resolve_target_to_make
 (
-                            
 self
 .
 topobjdir
+                                                   
 path_arg
 .
 relpath
 (
 )
-                        
 )
                     
 if
@@ -8358,7 +8329,6 @@ make_target
                         
 print
 (
-                            
 "
 The
 specified
@@ -8369,7 +8339,7 @@ t
 contain
 a
 "
-                            
+                              
 "
 Makefile
 and
@@ -8381,7 +8351,7 @@ one
 is
 the
 "
-                            
+                              
 "
 root
 of
@@ -8393,7 +8363,7 @@ specify
 a
 directory
 "
-                            
+                              
 "
 with
 a
@@ -8407,7 +8377,7 @@ build
 if
 you
 "
-                            
+                              
 "
 want
 to
@@ -8417,7 +8387,6 @@ entire
 tree
 .
 "
-                        
 )
                         
 return
@@ -8493,17 +8462,17 @@ state
                     
 no_build_status
 =
-"
+'
 1
-"
+'
 if
 make_dir
 is
 not
 None
 else
-"
-"
+'
+'
                     
 tgt_env
 =
@@ -8517,9 +8486,9 @@ or
                     
 tgt_env
 [
-"
+'
 NO_BUILDSTATUS_MESSAGES
-"
+'
 ]
 =
 no_build_status
@@ -8534,7 +8503,6 @@ _run_make
 directory
 =
 make_dir
-                        
 target
 =
 make_target
@@ -8544,11 +8512,9 @@ line_handler
 output
 .
 on_line
-                        
 log
 =
 False
-                        
 print_directory
 =
 False
@@ -8556,11 +8522,9 @@ False
 ensure_exit_code
 =
 False
-                        
 num_jobs
 =
 jobs
-                        
 silent
 =
 not
@@ -8573,7 +8537,6 @@ tgt_env
 keep_going
 =
 keep_going
-                    
 )
                     
 if
@@ -8621,48 +8584,44 @@ self
 .
 _run_client_mk
 (
-                    
 line_handler
 =
 output
 .
 on_line
-                    
+                                             
 jobs
 =
 jobs
-                    
+                                             
 verbose
 =
 verbose
-                    
+                                             
 keep_going
 =
 keep_going
-                    
+                                             
 append_env
 =
 append_env
-                
 )
             
 self
 .
 log
 (
-                
 logging
 .
 WARNING
-                
-"
+'
 warning_summary
-"
-                
+'
+                     
 {
-"
+'
 count
-"
+'
 :
 len
 (
@@ -8671,8 +8630,8 @@ monitor
 warnings_database
 )
 }
-                
-"
+                     
+'
 {
 count
 }
@@ -8680,8 +8639,7 @@ compiler
 warnings
 present
 .
-"
-            
+'
 )
             
 #
@@ -8713,9 +8671,9 @@ substs
 .
 get
 (
-"
+'
 BUILD_BACKENDS
-"
+'
 [
 None
 ]
@@ -8744,13 +8702,11 @@ backend_cls
 .
 post_build
 (
-                        
 self
 output
 jobs
 verbose
 status
-                    
 )
                     
 status
@@ -8767,26 +8723,23 @@ self
 .
 log
 (
-                    
 logging
 .
 DEBUG
-                    
-"
+'
 post_build
-"
-                    
+'
 {
-"
+'
 ex
-"
+'
 :
 str
 (
 ex
 )
 }
-                    
+                         
 "
 Unable
 to
@@ -8802,8 +8755,8 @@ build
 step
 ;
 "
-                    
 +
+                         
 "
 failing
 the
@@ -8817,7 +8770,6 @@ ex
 }
 .
 "
-                
 )
                 
 if
@@ -8867,9 +8819,9 @@ mach
 build
             
 if
-"
+'
 MOZ_AUTOMATION
-"
+'
 in
 os
 .
@@ -8916,9 +8868,9 @@ mach_context
 .
 command_attrs
 [
-"
+'
 usage
-"
+'
 ]
 =
 usage
@@ -9058,22 +9010,23 @@ path
 .
 join
 (
-                
 self
 .
 topsrcdir
+                                            
 "
 tools
 "
+                                            
 "
 rewriting
 "
+                                            
 "
 ThirdPartyPaths
 .
 txt
 "
-            
 )
             
 pathToGenerated
@@ -9084,22 +9037,23 @@ path
 .
 join
 (
-                
 self
 .
 topsrcdir
+                                           
 "
 tools
 "
+                                           
 "
 rewriting
 "
+                                           
 "
 Generated
 .
 txt
 "
-            
 )
             
 if
@@ -9118,25 +9072,25 @@ io
 .
 open
 (
-                    
 pathToThirdparty
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 newline
 =
-"
+'
 \
 n
-"
-                
+'
 )
 as
 f
+\
+                     
 io
 .
 open
@@ -9144,17 +9098,17 @@ open
 pathToGenerated
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 newline
 =
-"
+'
 \
 n
-"
+'
 )
 as
 g
@@ -9192,9 +9146,9 @@ s
 .
 strip
 (
-"
+'
 /
-"
+'
 )
 for
 s
@@ -9244,9 +9198,9 @@ normsep
 (
 warning
 [
-"
+'
 filename
-"
+'
 ]
 )
                 
@@ -9278,33 +9232,31 @@ topsrcdir
                 
 warning
 [
-"
+'
 normpath
-"
+'
 ]
 =
 path
                 
 if
 (
-                    
 path
 .
 startswith
 (
 LOCAL_SUPPRESS_DIRS
 )
-                    
 and
-"
+                        
+'
 MOZ_AUTOMATION
-"
+'
 not
 in
 os
 .
 environ
-                
 )
 :
                     
@@ -9338,9 +9290,9 @@ continue
 if
 warning
 [
-"
+'
 column
-"
+'
 ]
 is
 not
@@ -9351,18 +9303,15 @@ self
 .
 log
 (
-                        
 logging
 .
 WARNING
-                        
-"
+'
 compiler_warning
-"
-                        
+'
 warning
-                        
-"
+                             
+'
 warning
 :
 {
@@ -9381,13 +9330,13 @@ column
 flag
 }
 ]
-"
-"
+'
+                             
+'
 {
 message
 }
-"
-                    
+'
 )
                 
 else
@@ -9397,18 +9346,15 @@ self
 .
 log
 (
-                        
 logging
 .
 WARNING
-                        
-"
+'
 compiler_warning
-"
-                        
+'
 warning
-                        
-"
+                             
+'
 warning
 :
 {
@@ -9426,8 +9372,7 @@ flag
 {
 message
 }
-"
-                    
+'
 )
             
 for
@@ -9448,29 +9393,27 @@ self
 .
 log
 (
-                    
 logging
 .
 WARNING
-                    
-"
+'
 suppressed_warning
-"
-                    
+'
+                         
 {
-"
+'
 dir
-"
+'
 :
 d
-"
+'
 count
-"
+'
 :
 count
 }
-                    
-"
+                         
+'
 (
 suppressed
 {
@@ -9482,8 +9425,7 @@ in
 dir
 }
 )
-"
-                
+'
 )
         
 high_finder
@@ -9538,19 +9480,17 @@ self
 .
 log
 (
-                    
 logging
 .
 INFO
-                    
-"
+'
 ccache
-"
-                    
+'
+                         
 {
-"
+'
 msg
-"
+'
 :
 ccache_diff
 .
@@ -9558,13 +9498,11 @@ hit_rate_message
 (
 )
 }
-                    
 "
 {
 msg
 }
 "
-                
 )
         
 notify_minimum_time
@@ -9584,12 +9522,12 @@ environ
 .
 get
 (
-"
+'
 MACH_NOTIFY_MINTIME
-"
-"
+'
+'
 300
-"
+'
 )
 )
         
@@ -9628,18 +9566,18 @@ self
 .
 notify
 (
-"
+'
 Build
 complete
-"
+'
 if
 not
 status
 else
-"
+'
 Build
 failed
-"
+'
 )
         
 if
@@ -9651,34 +9589,32 @@ what
 and
 any
 (
-                
 [
 target
 for
 target
 in
 what
+                             
 if
 target
 not
 in
 (
-"
+'
 faster
-"
-"
+'
+'
 binaries
-"
+'
 )
 ]
-            
 )
 :
                 
 print
 (
-                    
-"
+'
 Hey
 !
 Builds
@@ -9686,9 +9622,9 @@ initiated
 with
 mach
 build
-"
-                    
-"
+'
+                      
+'
 A_SPECIFIC_TARGET
 may
 not
@@ -9697,9 +9633,9 @@ work
 even
 if
 the
-"
-                    
-"
+'
+                      
+'
 code
 being
 built
@@ -9710,15 +9646,14 @@ Consider
 doing
 a
 bare
-"
-                    
-"
+'
+                      
+'
 mach
 build
 instead
 .
-"
-                
+'
 )
             
 return
@@ -9753,7 +9688,7 @@ EXCESSIVE_SWAP_MESSAGE
             
 print
 (
-"
+'
 To
 view
 resource
@@ -9764,14 +9699,15 @@ build
 run
 |
 mach
-"
-"
+'
+                  
+'
 resource
 -
 usage
 |
 .
-"
+'
 )
         
 long_build
@@ -9791,7 +9727,7 @@ output
 on_line
 (
                 
-"
+'
 We
 know
 it
@@ -9805,8 +9741,7 @@ finally
 finished
 successfully
 !
-"
-            
+'
 )
             
 output
@@ -9814,7 +9749,7 @@ output
 on_line
 (
                 
-"
+'
 If
 you
 are
@@ -9827,9 +9762,9 @@ save
 you
 a
 lot
-"
+'
                 
-"
+'
 of
 time
 .
@@ -9839,9 +9774,9 @@ learn
 more
 here
 :
-"
+'
                 
-"
+'
 https
 :
 /
@@ -9853,8 +9788,7 @@ com
 mozilla
 /
 sccache
-"
-            
+'
 )
         
 else
@@ -9864,13 +9798,13 @@ output
 .
 on_line
 (
-"
+'
 Your
 build
 was
 successful
 !
-"
+'
 )
         
 #
@@ -9939,22 +9873,22 @@ self
 .
 substs
 [
-"
+'
 MOZ_BUILD_APP
-"
+'
 ]
 !
 =
-"
+'
 mobile
 /
 android
-"
+'
 :
                     
 print
 (
-"
+'
 To
 take
 your
@@ -9969,7 +9903,7 @@ run
 mach
 run
 |
-"
+'
 )
                 
 app
@@ -9978,30 +9912,30 @@ self
 .
 substs
 [
-"
+'
 MOZ_BUILD_APP
-"
+'
 ]
                 
 if
 app
 in
 (
-"
+'
 browser
-"
-"
+'
+'
 mobile
 /
 android
-"
+'
 )
 :
                     
 print
 (
                         
-"
+'
 For
 more
 information
@@ -10011,9 +9945,9 @@ to
 do
 now
 see
-"
+'
                         
-"
+'
 https
 :
 /
@@ -10033,7 +9967,7 @@ setup
 contributing_code
 .
 html
-"
+'
 #
 noqa
                     
@@ -10076,27 +10010,21 @@ status
 def
 configure
 (
-        
 self
-        
 metrics
-        
 options
 =
 None
-        
 buildstatus_messages
 =
 False
-        
+                  
 line_handler
 =
 None
-        
 append_env
 =
 None
-    
 )
 :
         
@@ -10155,21 +10083,21 @@ log
 logging
 .
 INFO
-"
+'
 build_output
-"
+'
 {
-"
+'
 line
-"
+'
 :
 line
 }
-"
+'
 {
 line
 }
-"
+'
 )
         
 line_handler
@@ -10190,9 +10118,9 @@ or
         
 append_env
 [
-"
+'
 MAKE
-"
+'
 ]
 =
 self
@@ -10245,9 +10173,9 @@ self
 .
 mozconfig
 [
-"
+'
 make_extra
-"
+'
 ]
 or
 [
@@ -10259,9 +10187,9 @@ line
 .
 startswith
 (
-"
+'
 export
-"
+'
 )
 :
                 
@@ -10273,27 +10201,27 @@ line
 [
 len
 (
-"
+'
 export
-"
+'
 )
 :
 ]
 .
 partition
 (
-"
+'
 =
-"
+'
 )
                 
 if
 eq
 =
 =
-"
+'
 =
-"
+'
 :
                     
 append_env
@@ -10351,9 +10279,9 @@ python
                 
 python
 =
-"
+'
 python3
-"
+'
         
 command
 =
@@ -10368,11 +10296,11 @@ join
 self
 .
 topsrcdir
-"
+'
 configure
 .
 py
-"
+'
 )
 ]
         
@@ -10393,20 +10321,20 @@ buildstatus_messages
             
 line_handler
 (
-"
+'
 BUILDSTATUS
 TIERS
 configure
-"
+'
 )
             
 line_handler
 (
-"
+'
 BUILDSTATUS
 TIER_START
 configure
-"
+'
 )
         
 status
@@ -10436,11 +10364,11 @@ buildstatus_messages
             
 line_handler
 (
-"
+'
 BUILDSTATUS
 TIER_FINISH
 configure
-"
+'
 )
         
 if
@@ -10474,16 +10402,16 @@ else
             
 print
 (
-"
+'
 Configure
 complete
 !
-"
+'
 )
             
 print
 (
-"
+'
 Be
 sure
 to
@@ -10497,7 +10425,7 @@ pick
 up
 any
 changes
-"
+'
 )
         
 return
@@ -10531,12 +10459,11 @@ is_clobber_needed
             
 print
 (
-                
 INSTALL_TESTS_CLOBBER
 .
 format
 (
-                    
+                  
 clobber_file
 =
 os
@@ -10548,13 +10475,11 @@ join
 self
 .
 topobjdir
-"
+'
 CLOBBER
-"
+'
 )
-                
 )
-            
 )
             
 sys
@@ -10577,9 +10502,10 @@ topsrcdir
 self
 .
 topobjdir
-"
+                           
+'
 _tests
-"
+'
 )
     
 def
@@ -10692,6 +10618,7 @@ getcwd
 (
 )
 False
+                                         
 clobber_output
 )
         
@@ -10736,24 +10663,23 @@ self
 .
 log
 (
-                
 logging
 .
 WARNING
-                
-"
+                     
+'
 clobber
-"
-                
+'
+                     
 {
-"
+'
 path
-"
+'
 :
 path
 }
-                
-"
+                     
+'
 CLOBBER
 file
 has
@@ -10764,8 +10690,7 @@ removing
 path
 }
 .
-"
-            
+'
 )
             
 mozfile
@@ -10793,23 +10718,23 @@ for
 f
 in
 (
-"
+'
 old
 -
 configure
 .
 vars
-"
-"
+'
+'
 config
 .
 cache
-"
-"
+'
+'
 configure
 .
 pkl
-"
+'
 )
 :
             
@@ -10824,12 +10749,12 @@ mozpath
 .
 join
 (
-"
+'
 js
-"
-"
+'
+'
 src
-"
+'
 f
 )
 )
@@ -10855,9 +10780,9 @@ to
 fail
 .
             
-"
+'
 _virtualenvs
-"
+'
             
 #
 Some
@@ -10879,9 +10804,9 @@ srcdir
 changes
 .
             
-"
+'
 _tests
-"
+'
         
 ]
         
@@ -10907,9 +10832,9 @@ join
 self
 .
 topobjdir
-"
+'
 CLOBBER
-"
+'
 )
 None
 )
@@ -10935,12 +10860,12 @@ join
 self
 .
 topobjdir
-"
+'
 .
 mozconfig
 .
 json
-"
+'
 )
         
 with
@@ -10958,50 +10883,44 @@ six
 .
 ensure_text
 (
-                
 json
 .
 dumps
 (
-                    
 {
-                        
-"
+                
+'
 topsrcdir
-"
+'
 :
 self
 .
 topsrcdir
-                        
-"
+                
+'
 topobjdir
-"
+'
 :
 self
 .
 topobjdir
-                        
-"
+                
+'
 mozconfig
-"
+'
 :
 self
 .
 mozconfig
-                    
+            
 }
-                    
 sort_keys
 =
 True
-                    
 indent
 =
 2
-                
 )
-            
 )
             
 #
@@ -11048,10 +10967,10 @@ unnecessarily
             
 to_write
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -11082,33 +11001,26 @@ to_write
 def
 _run_client_mk
 (
-        
 self
-        
 target
 =
 None
-        
 line_handler
 =
 None
-        
 jobs
 =
 0
-        
+                       
 verbose
 =
 None
-        
 keep_going
 =
 False
-        
 append_env
 =
 None
-    
 )
 :
         
@@ -11124,9 +11036,9 @@ or
         
 append_env
 [
-"
+'
 TOPSRCDIR
-"
+'
 ]
 =
 self
@@ -11135,9 +11047,9 @@ topsrcdir
         
 append_env
 [
-"
+'
 CONFIG_GUESS
-"
+'
 ]
 =
 self
@@ -11177,9 +11089,9 @@ arg
 in
 mozconfig
 [
-"
+'
 make_extra
-"
+'
 ]
 or
 [
@@ -11196,9 +11108,9 @@ arg
 if
 mozconfig
 [
-"
+'
 make_flags
-"
+'
 ]
 :
             
@@ -11206,27 +11118,26 @@ mozconfig_make_lines
 .
 append
 (
-                
-"
+'
 MOZ_MAKE_FLAGS
 =
 %
 s
-"
+'
 %
-"
-"
+                                        
+'
+'
 .
 join
 (
 mozconfig
 [
-"
+'
 make_flags
-"
+'
 ]
 )
-            
 )
         
 objdir
@@ -11244,12 +11155,12 @@ mozconfig_make_lines
 .
 append
 (
-"
+'
 MOZ_OBJDIR
 =
 %
 s
-"
+'
 %
 objdir
 )
@@ -11258,12 +11169,12 @@ mozconfig_make_lines
 .
 append
 (
-"
+'
 OBJDIR
 =
 %
 s
-"
+'
 %
 objdir
 )
@@ -11271,9 +11182,9 @@ objdir
 if
 mozconfig
 [
-"
+'
 path
-"
+'
 ]
 :
             
@@ -11281,36 +11192,35 @@ mozconfig_make_lines
 .
 append
 (
-                
-"
+'
 FOUND_MOZCONFIG
 =
 %
 s
-"
+'
 %
+                                        
 mozpath
 .
 normsep
 (
 mozconfig
 [
-"
+'
 path
-"
+'
 ]
 )
-            
 )
             
 mozconfig_make_lines
 .
 append
 (
-"
+'
 export
 FOUND_MOZCONFIG
-"
+'
 )
         
 #
@@ -11337,7 +11247,6 @@ mozconfig_filtered_lines
 [
             
 line
-            
 for
 line
 in
@@ -11363,14 +11272,14 @@ line
 .
 startswith
 (
-"
+'
 export
-"
+'
 )
 or
-"
+'
 UPLOAD_EXTRA_FILES
-"
+'
 in
 line
         
@@ -11387,14 +11296,15 @@ join
 self
 .
 topobjdir
-"
+                                           
+'
 .
 mozconfig
 -
 client
 -
 mk
-"
+'
 )
         
 with
@@ -11410,10 +11320,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -11432,12 +11342,12 @@ join
 self
 .
 topobjdir
-"
+'
 .
 mozconfig
 .
 mk
-"
+'
 )
         
 with
@@ -11453,10 +11363,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -11485,18 +11395,18 @@ join
 self
 .
 topobjdir
-"
+'
 .
 mozconfig
-"
+'
 )
         
 if
 mozconfig
 [
-"
+'
 path
-"
+'
 ]
 :
             
@@ -11505,13 +11415,13 @@ open
 (
 mozconfig
 [
-"
+'
 path
-"
+'
 ]
-"
+'
 r
-"
+'
 )
 as
 ifh
@@ -11577,45 +11487,41 @@ self
 .
 log
 (
-                
 logging
 .
 WARNING
-                
-"
+'
 mozconfig_content
-"
-                
+'
 {
-                    
-"
+                
+'
 path
-"
+'
 :
 mozconfig
 [
-"
+'
 path
-"
+'
 ]
-                    
-"
+                
+'
 content
-"
+'
 :
-"
+'
 \
 n
-"
+'
 .
 join
 (
 mozconfig_make_lines
 )
-                
+            
 }
-                
-"
+'
 Adding
 make
 options
@@ -11628,15 +11534,14 @@ n
 {
 content
 }
-"
-            
+'
 )
         
 append_env
 [
-"
+'
 OBJDIR
-"
+'
 ]
 =
 mozpath
@@ -11653,60 +11558,58 @@ self
 .
 _run_make
 (
-            
 srcdir
 =
 True
-            
+                              
 filename
 =
-"
+'
 client
 .
 mk
-"
-            
+'
+                              
 allow_parallel
 =
 False
-            
+                              
 ensure_exit_code
 =
 False
-            
+                              
 print_directory
 =
 False
-            
+                              
 target
 =
 target
-            
+                              
 line_handler
 =
 line_handler
-            
+                              
 log
 =
 False
-            
+                              
 num_jobs
 =
 jobs
-            
+                              
 silent
 =
 not
 verbose
-            
+                              
 keep_going
 =
 keep_going
-            
+                              
 append_env
 =
 append_env
-        
 )
     
 def
@@ -11722,25 +11625,24 @@ auto_clobber
 =
 any
 (
-            
 [
-                
+            
 env
 .
 get
 (
-"
+'
 AUTOCLOBBER
-"
+'
 False
 )
-                
+            
 (
 mozconfig
 [
-"
+'
 env
-"
+'
 ]
 or
 {
@@ -11749,41 +11651,40 @@ or
 .
 get
 (
-"
+'
 added
-"
+'
 {
 }
 )
 .
 get
 (
-"
+'
 AUTOCLOBBER
-"
+'
 False
 )
-                
-"
+            
+'
 AUTOCLOBBER
 =
 1
-"
+'
 in
 (
 mozconfig
 [
-"
+'
 make_extra
-"
+'
 ]
 or
 [
 ]
 )
-            
-]
         
+]
 )
         
 from
@@ -11863,6 +11764,7 @@ getcwd
 (
 )
 auto_clobber
+                                         
 clobber_output
 )
         
@@ -11890,13 +11792,14 @@ log
 logging
 .
 WARNING
-"
+'
 clobber
-"
+'
+                     
 {
-"
+'
 msg
-"
+'
 :
 line
 .
@@ -11904,11 +11807,11 @@ rstrip
 (
 )
 }
-"
+'
 {
 msg
 }
-"
+'
 )
         
 clobber_required
@@ -11934,9 +11837,9 @@ mach_context
 .
 command_attrs
 [
-"
+'
 clobber
-"
+'
 ]
 =
 True
@@ -11968,9 +11871,9 @@ env
 .
 get
 (
-"
+'
 TINDERBOX_OUTPUT
-"
+'
 )
 :
                 
@@ -11978,34 +11881,30 @@ self
 .
 log
 (
-                    
 logging
 .
 WARNING
-                    
-"
+'
 clobber
-"
-                    
+'
+                         
 {
-"
+'
 msg
-"
+'
 :
-"
+'
 TinderboxPrint
 :
 auto
 clobber
-"
+'
 }
-                    
-"
+'
 {
 msg
 }
-"
-                
+'
 )
         
 else
@@ -12028,13 +11927,14 @@ log
 logging
 .
 WARNING
-"
+'
 clobber
-"
+'
+                         
 {
-"
+'
 msg
-"
+'
 :
 line
 .
@@ -12042,11 +11942,11 @@ rstrip
 (
 )
 }
-"
+'
 {
 msg
 }
-"
+'
 )
             
 return

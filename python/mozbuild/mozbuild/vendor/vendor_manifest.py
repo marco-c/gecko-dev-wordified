@@ -399,14 +399,11 @@ log
 logging
 .
 INFO
-            
 "
 vendor
 "
-            
 {
 }
-            
 "
 Registering
 changes
@@ -1984,11 +1981,9 @@ args
 [
 script
 ]
-                    
 cwd
 =
 run_dir
-                    
 log_name
 =
 script

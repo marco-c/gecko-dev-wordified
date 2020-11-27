@@ -75,9 +75,9 @@ import
 sys
 MERCURIAL_INSTALL_PROMPT
 =
-"
-"
-"
+'
+'
+'
 Mercurial
 releases
 a
@@ -207,13 +207,15 @@ Mercurial
 Your
 choice
 :
-"
-"
-"
+'
+'
+'
 class
 DebianBootstrapper
 (
+        
 LinuxBootstrapper
+        
 BaseBootstrapper
 )
 :
@@ -242,33 +244,33 @@ COMMON_PACKAGES
 =
 [
         
-"
+'
 autoconf2
 .
 13
-"
+'
         
-"
+'
 build
 -
 essential
-"
+'
         
-"
+'
 nodejs
-"
+'
         
-"
+'
 unzip
-"
+'
         
-"
+'
 uuid
-"
+'
         
-"
+'
 zip
-"
+'
     
 ]
     
@@ -342,29 +344,29 @@ BROWSER_COMMON_PACKAGES
 =
 [
         
-"
+'
 libasound2
 -
 dev
-"
+'
         
-"
+'
 libcurl4
 -
 openssl
 -
 dev
-"
+'
         
-"
+'
 libdbus
 -
 1
 -
 dev
-"
+'
         
-"
+'
 libdbus
 -
 glib
@@ -372,57 +374,57 @@ glib
 1
 -
 dev
-"
+'
         
-"
+'
 libdrm
 -
 dev
-"
+'
         
-"
+'
 libgtk
 -
 3
 -
 dev
-"
+'
         
-"
+'
 libgtk2
 .
 0
 -
 dev
-"
+'
         
-"
+'
 libpulse
 -
 dev
-"
+'
         
-"
+'
 libx11
 -
 xcb
 -
 dev
-"
+'
         
-"
+'
 libxt
 -
 dev
-"
+'
         
-"
+'
 xvfb
-"
+'
         
-"
+'
 yasm
-"
+'
     
 ]
     
@@ -460,7 +462,7 @@ MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
         
-"
+'
 openjdk
 -
 8
@@ -468,7 +470,7 @@ openjdk
 jdk
 -
 headless
-"
+'
 #
 Android
 '
@@ -482,9 +484,9 @@ Java
 exactly
 .
         
-"
+'
 wget
-"
+'
 #
 For
 downloading
@@ -562,9 +564,9 @@ self
 distro
 =
 =
-"
+'
 debian
-"
+'
 :
             
 self
@@ -585,17 +587,16 @@ self
         
 print
 (
-            
-"
+'
 HINT
 :
 Try
 installing
 distutils
 with
-"
-            
-"
+'
+              
+'
 apt
 -
 get
@@ -604,14 +605,12 @@ python3
 -
 distutils
 .
-"
-            
+'
 file
 =
 sys
 .
 stderr
-        
 )
     
 def
@@ -623,7 +622,6 @@ self
         
 print
 (
-            
 "
 HINT
 :
@@ -640,13 +638,12 @@ python3
 pip
 .
 "
-            
+              
 file
 =
 sys
 .
 stderr
-        
 )
     
 def
@@ -780,9 +777,9 @@ self
 .
 apt_install
 (
-"
+'
 nasm
-"
+'
 )
     
 def
@@ -864,19 +861,18 @@ android
 .
 ensure_android
 (
-            
-"
+'
 linux
-"
+'
 artifact_mode
 =
 artifact_mode
+                               
 no_interactive
 =
 self
 .
 no_interactive
-        
 )
     
 def
@@ -899,9 +895,9 @@ android
 .
 generate_mozconfig
 (
-"
+'
 linux
-"
+'
 artifact_mode
 =
 artifact_mode
@@ -999,9 +995,9 @@ self
 .
 apt_install
 (
-"
+'
 mercurial
-"
+'
 )
             
 return
@@ -1032,9 +1028,9 @@ self
 .
 apt_install
 (
-"
+'
 mercurial
-"
+'
 )
             
 return
@@ -1054,12 +1050,12 @@ res
             
 print
 (
-"
+'
 Not
 installing
 Mercurial
 .
-"
+'
 )
             
 return
@@ -1080,19 +1076,19 @@ self
 run_as_root
 (
 [
-"
+'
 pip3
-"
-"
+'
+'
 install
-"
-"
+'
+'
 -
 -
 upgrade
-"
-"
+'
+'
 Mercurial
-"
+'
 ]
 )

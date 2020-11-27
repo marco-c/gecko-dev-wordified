@@ -113,26 +113,22 @@ Python
 __all__
 =
 [
-    
-"
+'
 ProcessHandlerMixin
-"
-    
-"
+'
+'
 ProcessHandler
-"
-    
-"
+'
+'
 LogOutput
-"
-    
-"
+'
+           
+'
 StoreOutput
-"
-    
-"
+'
+'
 StreamOutput
-"
+'
 ]
 #
 Set
@@ -224,21 +220,16 @@ from
 .
 qijo
 import
-(
-        
 JobObjectAssociateCompletionPortInformation
+\
         
 JOBOBJECT_ASSOCIATE_COMPLETION_PORT
-        
 JobObjectExtendedLimitInformation
+\
         
 JOBOBJECT_BASIC_LIMIT_INFORMATION
-        
 JOBOBJECT_EXTENDED_LIMIT_INFORMATION
-        
 IO_COUNTERS
-    
-)
 class
 ProcessHandlerMixin
 (
@@ -704,75 +695,73 @@ TIMEOUT_BEFORE_SIGKILL
 def
 __init__
 (
-            
 self
-            
+                     
 args
-            
+                     
 bufsize
 =
 0
-            
+                     
 executable
 =
 None
-            
+                     
 stdin
 =
 None
-            
+                     
 stdout
 =
 None
-            
+                     
 stderr
 =
 None
-            
+                     
 preexec_fn
 =
 None
-            
+                     
 close_fds
 =
 False
-            
+                     
 shell
 =
 False
-            
+                     
 cwd
 =
 None
-            
+                     
 env
 =
 None
-            
+                     
 universal_newlines
 =
 False
-            
+                     
 startupinfo
 =
 None
-            
+                     
 creationflags
 =
 0
-            
+                     
 ignore_children
 =
 False
-            
+                     
 encoding
 =
-"
+'
 utf
 -
 8
-"
-        
+'
 )
 :
             
@@ -875,75 +864,75 @@ kwargs
 =
 {
                 
-"
+'
 bufsize
-"
+'
 :
 bufsize
                 
-"
+'
 executable
-"
+'
 :
 executable
                 
-"
+'
 stdin
-"
+'
 :
 stdin
                 
-"
+'
 stdout
-"
+'
 :
 stdout
                 
-"
+'
 stderr
-"
+'
 :
 stderr
                 
-"
+'
 preexec_fn
-"
+'
 :
 preexec_fn
                 
-"
+'
 close_fds
-"
+'
 :
 close_fds
                 
-"
+'
 shell
-"
+'
 :
 shell
                 
-"
+'
 cwd
-"
+'
 :
 cwd
                 
-"
+'
 env
-"
+'
 :
 env
                 
-"
+'
 startupinfo
-"
+'
 :
 startupinfo
                 
-"
+'
 creationflags
-"
+'
 :
 creationflags
             
@@ -957,9 +946,9 @@ PY2
                 
 kwargs
 [
-"
+'
 universal_newlines
-"
+'
 ]
 =
 universal_newlines
@@ -983,18 +972,18 @@ universal_newlines
                 
 kwargs
 [
-"
+'
 universal_newlines
-"
+'
 ]
 =
 universal_newlines
                 
 kwargs
 [
-"
+'
 encoding
-"
+'
 ]
 =
 encoding
@@ -1155,6 +1144,7 @@ TextIOWrapper
 self
 .
 stdout
+                                                   
 encoding
 =
 encoding
@@ -1180,6 +1170,7 @@ TextIOWrapper
 self
 .
 stderr
+                                                   
 encoding
 =
 encoding
@@ -1277,9 +1268,9 @@ handle
 getattr
 (
 self
-"
+'
 _handle
-"
+'
 None
 )
                 
@@ -1372,14 +1363,12 @@ winprocess
 .
 TerminateJobObject
 (
-                            
 self
 .
 _job
 winprocess
 .
 ERROR_CONTROL_C_EXIT
-                        
 )
                     
 elif
@@ -1402,14 +1391,12 @@ winprocess
 .
 TerminateProcess
 (
-                            
 self
 .
 _handle
 winprocess
 .
 ERROR_CONTROL_C_EXIT
-                        
 )
                 
 except
@@ -1638,7 +1625,6 @@ ESRCH
                                 
 print
 (
-                                    
 "
 Could
 not
@@ -1649,16 +1635,15 @@ process
 s
 "
 %
+                                      
 self
 .
 pid
-                                    
 file
 =
 sys
 .
 stderr
-                                
 )
                                 
 raise
@@ -1825,7 +1810,7 @@ self
 Popen
 .
 poll
-            
+                
 Check
 if
 child
@@ -1861,9 +1846,9 @@ and
 getattr
 (
 self
-"
+'
 _handle
-"
+'
 None
 )
 :
@@ -1897,7 +1882,7 @@ None
 Popen
 .
 wait
-            
+                
 Called
 to
 wait
@@ -1910,11 +1895,11 @@ shut
 down
 and
 return
-            
+                
 its
 exit
 code
-            
+                
 Returns
 the
 main
@@ -2023,51 +2008,37 @@ after
 0
                     
 (
-                        
 args
-                        
 executable
-                        
 preexec_fn
-                        
 close_fds
-                        
+                     
 pass_fds
-                        
 cwd
-                        
 env
-                        
+                     
 startupinfo
-                        
 creationflags
-                        
 shell
-                        
+                     
 p2cread
-                        
 p2cwrite
-                        
+                     
 c2pread
-                        
 c2pwrite
-                        
+                     
 errread
-                        
 errwrite
-                        
+                     
 restore_signals
-                        
+                     
 gid
-                        
 gids
-                        
 uid
-                        
+                     
 umask
-                        
+                     
 start_new_session
-                    
 )
 =
 args_tuple
@@ -2079,43 +2050,30 @@ PY3
 :
                     
 (
-                        
 args
-                        
 executable
-                        
 preexec_fn
-                        
 close_fds
-                        
+                     
 pass_fds
-                        
 cwd
-                        
 env
-                        
+                     
 startupinfo
-                        
 creationflags
-                        
 shell
-                        
+                     
 p2cread
-                        
 p2cwrite
-                        
+                     
 c2pread
-                        
 c2pwrite
-                        
+                     
 errread
-                        
 errwrite
-                        
+                     
 restore_signals
-                        
 start_new_session
-                    
 )
 =
 args_tuple
@@ -2143,39 +2101,27 @@ to
 6
                     
 (
-                        
 args
-                        
 executable
-                        
 preexec_fn
-                        
 close_fds
-                        
+                     
 cwd
-                        
 env
-                        
 universal_newlines
-                        
 startupinfo
-                        
+                     
 creationflags
-                        
 shell
-                        
+                     
 p2cread
-                        
 p2cwrite
-                        
+                     
 c2pread
-                        
 c2pwrite
-                        
+                     
 errread
-                        
 errwrite
-                    
 )
 =
 args_tuple
@@ -2198,41 +2144,28 @@ and
 later
                     
 (
-                        
 args
-                        
 executable
-                        
 preexec_fn
-                        
 close_fds
-                        
+                     
 cwd
-                        
 env
-                        
 universal_newlines
-                        
 startupinfo
-                        
+                     
 creationflags
-                        
 shell
-                        
 to_close
-                        
+                     
 p2cread
-                        
 p2cwrite
-                        
+                     
 c2pread
-                        
 c2pwrite
-                        
+                     
 errread
-                        
 errwrite
-                    
 )
 =
 args_tuple
@@ -2467,7 +2400,6 @@ this
                     
 print
 (
-                        
 "
 ProcessManager
 UNABLE
@@ -2478,18 +2410,16 @@ objects
 to
 manage
 "
-                        
+                          
 "
 child
 processes
 "
-                        
 file
 =
 sys
 .
 stderr
-                    
 )
                 
 #
@@ -2584,11 +2514,9 @@ CreateProcess
 (
                     
 executable
-                    
 args
                     
 None
-                    
 None
 #
 No
@@ -2612,9 +2540,7 @@ env
 )
                     
 cwd
-                    
 startupinfo
-                
 )
                 
 self
@@ -2730,14 +2656,13 @@ joacp
 =
 JOBOBJECT_ASSOCIATE_COMPLETION_PORT
 (
-                            
 winprocess
 .
 COMPKEY_JOBOBJECT
+                                                                    
 self
 .
 _io_port
-                        
 )
                         
 winprocess
@@ -2971,7 +2896,6 @@ ignored
 )
                             
 0
-                        
 )
 #
 peak
@@ -2985,23 +2909,22 @@ winprocess
 .
 SetInformationJobObject
 (
-                            
 self
 .
 _job
-                            
+                                                           
 JobObjectExtendedLimitInformation
-                            
+                                                           
 addressof
 (
 jeli
 )
-                            
+                                                           
 sizeof
 (
 jeli
 )
-                        
+                                                           
 )
                         
 #
@@ -3094,7 +3017,6 @@ Exception
                         
 print
 (
-                            
 "
 "
 "
@@ -3119,13 +3041,11 @@ processes
 "
 "
 "
-                            
 file
 =
 sys
 .
 stderr
-                        
 )
                         
 tb
@@ -3183,9 +3103,9 @@ if
 getattr
 (
 self
-"
+'
 _procmgrthread
-"
+'
 None
 )
 :
@@ -3333,12 +3253,14 @@ getwindowsversion
 )
                 
 return
+(
 winver
 .
 major
 >
 6
 or
+                        
 winver
 .
 major
@@ -3352,6 +3274,7 @@ minor
 >
 =
 2
+)
             
 #
 Windows
@@ -3484,24 +3407,26 @@ winprocess
 .
 GetQueuedCompletionStatus
 (
-                        
 self
 .
 _io_port
+                                                                      
 byref
 (
 msgid
 )
+                                                                      
 byref
 (
 compkey
 )
+                                                                      
 byref
 (
 pid
 )
+                                                                      
 5000
-                    
 )
                     
 #
@@ -3625,7 +3550,6 @@ MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
                             
 print
 (
-                                
 "
 WARNING
 |
@@ -3636,23 +3560,20 @@ failed
 to
 signal
 "
-                                
+                                  
 "
 process
 shutdown
 "
-                                
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 print
 (
-                                
 "
 Parent
 process
@@ -3664,33 +3585,29 @@ children
 alive
 :
 "
-                                
+                                  
 %
 self
 .
 pid
-                                
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 print
 (
-                                
 "
 PIDS
 :
 %
 s
 "
-                                
 %
-"
-"
+'
+'
 .
 join
 (
@@ -3707,18 +3624,16 @@ self
 _spawned_procs
 ]
 )
-                                
+                                  
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 print
 (
-                                
 "
 Attempting
 to
@@ -3730,13 +3645,12 @@ guarantee
 of
 success
 "
-                                
+                                  
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 self
@@ -3756,9 +3670,9 @@ self
 .
 pid
 :
-"
+'
 FINISHED
-"
+'
 }
 )
                             
@@ -3806,7 +3720,6 @@ loop
                             
 print
 (
-                                
 "
 IO
 Completion
@@ -3814,13 +3727,11 @@ Port
 unexpectedly
 closed
 "
-                                
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 self
@@ -3834,9 +3745,9 @@ self
 .
 pid
 :
-"
+'
 FINISHED
-"
+'
 }
 )
                             
@@ -3867,7 +3778,6 @@ else
                             
 print
 (
-                                
 "
 Error
 Code
@@ -3880,19 +3790,17 @@ IO
 Completion
 Port
 "
-                                
+                                  
 "
 exiting
 "
 %
 errcode
-                                
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 raise
@@ -4022,9 +3930,9 @@ self
 .
 pid
 :
-"
+'
 FINISHED
-"
+'
 }
 )
                             
@@ -4095,7 +4003,6 @@ self
 .
 debug
 (
-                                    
 "
 new
 process
@@ -4107,12 +4014,10 @@ value
 %
 s
 "
-                                    
 %
 pid
 .
 value
-                                
 )
                         
 elif
@@ -4205,6 +4110,7 @@ from
 list
                                 
 del
+(
 self
 .
 _spawned_procs
@@ -4213,21 +4119,17 @@ pid
 .
 value
 ]
+)
                         
 elif
-(
-                            
 msgid
 .
 value
-                            
 =
 =
 winprocess
 .
 JOB_OBJECT_MSG_ABNORMAL_EXIT_PROCESS
-                        
-)
 :
                             
 #
@@ -4466,15 +4368,11 @@ is_alive
 )
                 
 if
-(
-                    
 self
 .
 _job
-                    
 and
 threadalive
-                    
 and
 threading
 .
@@ -4486,8 +4384,6 @@ current_thread
 self
 .
 _procmgrthread
-                
-)
 :
                     
 self
@@ -4512,16 +4408,14 @@ None
 timeout
 =
 (
-                            
 self
 .
 MAX_IOCOMPLETION_PORT_NOTIFICATION_DELAY
-                            
 +
+                                   
 self
 .
 MAX_PROCESS_KILL_DELAY
-                        
 )
                     
 #
@@ -4643,9 +4537,9 @@ pid
 ]
 =
 =
-"
+'
 FINISHED
-"
+'
 :
                             
 self
@@ -4683,7 +4577,6 @@ print_exc
 raise
 OSError
 (
-                            
 "
 IO
 Completion
@@ -4694,7 +4587,6 @@ signal
 process
 shutdown
 "
-                        
 )
                     
 finally
@@ -4714,11 +4606,9 @@ winprocess
 .
 GetExitCodeProcess
 (
-                                
 self
 .
 _handle
-                            
 )
                         
 self
@@ -4892,7 +4782,6 @@ it
                         
 print
 (
-                            
 "
 Timed
 out
@@ -4902,12 +4791,11 @@ process
 to
 close
 "
-                            
+                              
 "
 attempting
 TerminateProcess
 "
-                        
 )
                         
 self
@@ -5020,7 +4908,7 @@ separately
 because
 there
 are
-                
+                    
 cases
 where
 we
@@ -5031,7 +4919,7 @@ these
 without
 killing
 _handle
-                
+                    
 (
 i
 .
@@ -5056,16 +4944,13 @@ place
 "
                 
 if
-(
-                    
 getattr
 (
 self
-"
+'
 _job
-"
+'
 )
-                    
 and
 self
 .
@@ -5075,8 +4960,6 @@ _job
 winprocess
 .
 INVALID_HANDLE_VALUE
-                
-)
 :
                     
 self
@@ -5125,18 +5008,17 @@ _job
 None
                 
 if
-(
-                    
 getattr
 (
 self
-"
+'
 _io_port
-"
+'
 None
 )
-                    
 and
+\
+                        
 self
 .
 _io_port
@@ -5145,8 +5027,6 @@ _io_port
 winprocess
 .
 INVALID_HANDLE_VALUE
-                
-)
 :
                     
 self
@@ -5176,9 +5056,9 @@ if
 getattr
 (
 self
-"
+'
 _procmgrthread
-"
+'
 None
 )
 :
@@ -5306,7 +5186,7 @@ differentiate
 between
 these
 platforms
-                
+                    
 so
 they
 all
@@ -5321,7 +5201,7 @@ it
 is
 necessary
 to
-                
+                    
 craft
 different
 styles
@@ -5332,7 +5212,7 @@ a
 new
 _custom_wait
 method
-                
+                    
 could
 be
 easily
@@ -5532,7 +5412,6 @@ close
                             
 print
 (
-                                
 "
 Encountered
 error
@@ -5547,13 +5426,12 @@ s
 "
 %
 e
-                                
+                                  
 file
 =
 sys
 .
 stderr
-                            
 )
                             
 raise
@@ -5648,7 +5526,6 @@ everything
             
 print
 (
-                
 "
 Unrecognized
 platform
@@ -5657,18 +5534,17 @@ groups
 may
 not
 "
+                  
 "
 be
 managed
 properly
 "
-                
 file
 =
 sys
 .
 stderr
-            
 )
             
 def
@@ -5746,55 +5622,53 @@ pass
 def
 __init__
 (
-        
 self
-        
+                 
 cmd
-        
+                 
 args
 =
 None
-        
+                 
 cwd
 =
 None
-        
+                 
 env
 =
 None
-        
+                 
 ignore_children
 =
 False
-        
+                 
 kill_on_timeout
 =
 True
-        
+                 
 processOutputLine
 =
 (
 )
-        
+                 
 processStderrLine
 =
 (
 )
-        
+                 
 onTimeout
 =
 (
 )
-        
+                 
 onFinish
 =
 (
 )
-        
+                 
 *
 *
 kwargs
-    
 )
 :
         
@@ -5844,8 +5718,8 @@ self
 .
 read_buffer
 =
-"
-"
+'
+'
         
 if
 env
@@ -5992,23 +5866,21 @@ reader
 =
 ProcessReader
 (
-            
 stdout_callback
 =
 processOutputLine
-            
+                                    
 stderr_callback
 =
 processStderrLine
-            
+                                    
 finished_callback
 =
 onFinish
-            
+                                    
 timeout_callback
 =
 onTimeout
-        
 )
         
 #
@@ -6396,37 +6268,35 @@ args
 =
 dict
 (
-            
 stdout
 =
 subprocess
 .
 PIPE
-            
+                    
 stderr
 =
 self
 .
 _stderr
-            
+                    
 cwd
 =
 self
 .
 cwd
-            
+                    
 env
 =
 self
 .
 env
-            
+                    
 ignore_children
 =
 self
 .
 _ignore_children
-        
 )
         
 #
@@ -7016,9 +6886,9 @@ not
 hasattr
 (
 self
-"
+'
 proc
-"
+'
 )
 :
             
@@ -7399,11 +7269,8 @@ PROCESS_QUERY_INFORMATION
 winprocess
 .
 PROCESS_VM_READ
-                    
 False
-                    
 pid
-                
 )
                 
 return
@@ -7725,7 +7592,6 @@ new_pid
                 
 print
 (
-                    
 '
 Child
 process
@@ -7745,8 +7611,8 @@ it
 is
 no
 '
-                    
-"
+                      
+'
 longer
 in
 the
@@ -7760,8 +7626,8 @@ to
 the
 process
 id
-"
-                    
+'
+                      
 '
 "
 %
@@ -7776,19 +7642,18 @@ process
 .
 '
 %
+                      
 (
 self
 .
 pid
 new_pid
 )
-                    
 file
 =
 sys
 .
 stdout
-                
 )
 class
 CallableList
@@ -7853,33 +7718,27 @@ object
 def
 __init__
 (
-        
 self
-        
 stdout_callback
 =
 None
-        
 stderr_callback
 =
 None
-        
+                 
 finished_callback
 =
 None
-        
 timeout_callback
 =
 None
-        
+                 
 timeout
 =
 None
-        
 output_timeout
 =
 None
-    
 )
 :
         
@@ -8008,15 +7867,16 @@ threading
 .
 Thread
 (
-            
 name
 =
 name
+                                  
 target
 =
 self
 .
 _read_stream
+                                  
 args
 =
 (
@@ -8024,7 +7884,6 @@ stream
 queue
 callback
 )
-        
 )
         
 thread
@@ -8117,18 +7976,19 @@ self
 .
 _create_stream_reader
 (
-                
-"
+'
 ProcessReaderStdout
-"
+'
+                                                       
 proc
 .
 stdout
+                                                       
 queue
+                                                       
 self
 .
 stdout_callback
-            
 )
         
 stderr_reader
@@ -8156,18 +8016,19 @@ self
 .
 _create_stream_reader
 (
-                
-"
+'
 ProcessReaderStderr
-"
+'
+                                                       
 proc
 .
 stderr
+                                                       
 queue
+                                                       
 self
 .
 stderr_callback
-            
 )
         
 self
@@ -8178,27 +8039,27 @@ threading
 .
 Thread
 (
-            
 name
 =
-"
+'
 ProcessReader
-"
-            
+'
+                                       
 target
 =
 self
 .
 _read
-            
+                                       
 args
 =
 (
 stdout_reader
+                                             
 stderr_reader
+                                             
 queue
 )
-        
 )
         
 self
@@ -8295,9 +8156,10 @@ is_alive
 (
 )
 )
+\
+                
 or
 (
-            
 stderr_reader
 and
 stderr_reader
@@ -8305,7 +8167,6 @@ stderr_reader
 is_alive
 (
 )
-        
 )
 :
             
@@ -8705,10 +8566,10 @@ line
 +
 ensure
 (
-"
+'
 \
 n
-"
+'
 )
 )
         
@@ -8718,7 +8579,6 @@ TypeError
             
 print
 (
-                
 "
 HEY
 !
@@ -8736,7 +8596,7 @@ to
 encounter
 a
 "
-                
+                  
 "
 type
 error
@@ -8749,7 +8609,7 @@ a
 conversion
 from
 "
-                
+                  
 "
 Python
 2
@@ -8763,7 +8623,7 @@ almost
 definitely
 because
 "
-                
+                  
 "
 you
 '
@@ -8779,7 +8639,7 @@ text
 -
 encoded
 "
-                
+                  
 "
 stream
 or
@@ -8795,7 +8655,7 @@ stream
 Check
 how
 "
-                
+                  
 "
 you
 '
@@ -8808,7 +8668,7 @@ if
 the
 output
 "
-                
+                  
 "
 should
 be
@@ -8820,20 +8680,18 @@ sure
 you
 pass
 "
-                
+                  
 "
 universal_newlines
 =
 True
 .
 "
-                
 file
 =
 sys
 .
 stderr
-            
 )
             
 raise
@@ -8879,9 +8737,9 @@ file_obj
 open
 (
 filename
-"
+'
 a
-"
+'
 )
         
 StreamOutput
@@ -9082,6 +8940,7 @@ True
 storeOutput
 =
 True
+                 
 *
 *
 kwargs
@@ -9092,9 +8951,9 @@ kwargs
 .
 setdefault
 (
-"
+'
 processOutputLine
-"
+'
 [
 ]
 )
@@ -9104,26 +8963,26 @@ callable
 (
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 )
 :
             
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 =
 [
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 ]
         
@@ -9140,9 +8999,9 @@ logfile
             
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 .
 append
@@ -9209,11 +9068,11 @@ codecs
 .
 getwriter
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 (
 sys
@@ -9289,21 +9148,22 @@ if
 not
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 :
                 
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 .
 append
 (
+                    
 StreamOutput
 (
 stdout
@@ -9325,9 +9185,9 @@ text
             
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 .
 append
@@ -9361,9 +9221,9 @@ output
             
 kwargs
 [
-"
+'
 processOutputLine
-"
+'
 ]
 .
 append

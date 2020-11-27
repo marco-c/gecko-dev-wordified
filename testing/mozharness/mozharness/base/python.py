@@ -90,18 +90,18 @@ BLOCK
 *
 *
 *
-"
-"
-"
+'
+'
+'
 Python
 usage
 esp
 .
 virtualenv
 .
-"
-"
-"
+'
+'
+'
 import
 errno
 import
@@ -160,13 +160,10 @@ base
 script
 import
 (
-    
 PostScriptAction
-    
 PostScriptRun
-    
+                                    
 PreScriptAction
-    
 ScriptMixin
 )
 external_tools_path
@@ -203,9 +200,9 @@ __file__
 )
 )
     
-"
+'
 external_tools
-"
+'
 )
 def
 get_tlsv1_post
@@ -295,25 +292,23 @@ poolmanager
 =
 PoolManager
 (
-                
 num_pools
 =
 connections
-                
+                                           
 maxsize
 =
 maxsize
-                
+                                           
 block
 =
 block
-                
+                                           
 ssl_version
 =
 ssl
 .
 PROTOCOL_TLSv1
-            
 )
     
 s
@@ -328,12 +323,12 @@ s
 .
 mount
 (
-"
+'
 https
 :
 /
 /
-"
+'
 TLSV1Adapter
 (
 )
@@ -354,7 +349,6 @@ virtualenv_config_options
 [
     
 [
-        
 [
 "
 -
@@ -364,9 +358,8 @@ virtualenv
 path
 "
 ]
-        
 {
-            
+        
 "
 action
 "
@@ -374,7 +367,7 @@ action
 "
 store
 "
-            
+        
 "
 dest
 "
@@ -382,7 +375,7 @@ dest
 "
 virtualenv_path
 "
-            
+        
 "
 default
 "
@@ -390,7 +383,7 @@ default
 "
 venv
 "
-            
+        
 "
 help
 "
@@ -406,13 +399,11 @@ top
 level
 directory
 "
-        
-}
     
+}
 ]
     
 [
-        
 [
 "
 -
@@ -422,9 +413,8 @@ find
 links
 "
 ]
-        
 {
-            
+        
 "
 action
 "
@@ -432,7 +422,7 @@ action
 "
 extend
 "
-            
+        
 "
 dest
 "
@@ -440,7 +430,7 @@ dest
 "
 find_links
 "
-            
+        
 "
 default
 "
@@ -465,7 +455,7 @@ pub
 /
 "
 ]
-            
+        
 "
 help
 "
@@ -478,13 +468,11 @@ for
 packages
 at
 "
-        
-}
     
+}
 ]
     
 [
-        
 [
 "
 -
@@ -494,9 +482,8 @@ pip
 index
 "
 ]
-        
 {
-            
+        
 "
 action
 "
@@ -504,13 +491,13 @@ action
 "
 store_true
 "
-            
+        
 "
 default
 "
 :
 False
-            
+        
 "
 dest
 "
@@ -518,7 +505,7 @@ dest
 "
 pip_index
 "
-            
+        
 "
 help
 "
@@ -528,13 +515,11 @@ Use
 pip
 indexes
 "
-        
-}
     
+}
 ]
     
 [
-        
 [
 "
 -
@@ -546,9 +531,8 @@ pip
 index
 "
 ]
-        
 {
-            
+        
 "
 action
 "
@@ -556,7 +540,7 @@ action
 "
 store_false
 "
-            
+        
 "
 dest
 "
@@ -564,7 +548,7 @@ dest
 "
 pip_index
 "
-            
+        
 "
 help
 "
@@ -580,9 +564,8 @@ indexes
 default
 )
 "
-        
-}
     
+}
 ]
 ]
 class
@@ -592,9 +575,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 BaseScript
 mixin
 designed
@@ -652,9 +635,9 @@ Depends
 on
 ScriptMixin
     
-"
-"
-"
+'
+'
+'
     
 python_paths
 =
@@ -702,37 +685,30 @@ kwargs
 def
 register_virtualenv_module
 (
-        
 self
-        
 name
 =
 None
-        
 url
 =
 None
-        
 method
 =
 None
-        
+                                   
 requirements
 =
 None
-        
 optional
 =
 False
-        
+                                   
 two_pass
 =
 False
-        
 editable
 =
 False
-    
 )
 :
         
@@ -797,17 +773,16 @@ _virtualenv_modules
 .
 append
 (
-            
 (
 name
 url
 method
 requirements
+                                         
 optional
 two_pass
 editable
 )
-        
 )
     
 def
@@ -841,9 +816,9 @@ query_abs_dirs
 )
         
 if
-"
+'
 abs_virtualenv_dir
-"
+'
 in
 dirs
 :
@@ -851,9 +826,9 @@ dirs
 return
 dirs
 [
-"
+'
 abs_virtualenv_dir
-"
+'
 ]
         
 p
@@ -862,9 +837,9 @@ self
 .
 config
 [
-"
+'
 virtualenv_path
-"
+'
 ]
         
 if
@@ -876,22 +851,21 @@ self
 .
 fatal
 (
-                
-"
+'
 virtualenv_path
 config
 option
 not
 set
 ;
-"
-"
+'
+                       
+'
 this
 should
 never
 happen
-"
-            
+'
 )
         
 if
@@ -920,9 +894,9 @@ join
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 p
 )
@@ -988,9 +962,9 @@ python_paths
             
 bin_dir
 =
-"
+'
 bin
-"
+'
             
 if
 self
@@ -1002,9 +976,9 @@ _is_windows
                 
 bin_dir
 =
-"
+'
 Scripts
-"
+'
             
 virtualenv_path
 =
@@ -1038,7 +1012,6 @@ virtualenv_path
 bin_dir
 binary
 )
-            
 )
         
 return
@@ -1085,15 +1058,13 @@ get_output_from_command
 (
             
 [
-                
 python
-                
-"
+'
 -
 c
-"
-                
-"
+'
+             
+'
 from
 distutils
 .
@@ -1101,20 +1072,18 @@ sysconfig
 import
 get_python_lib
 ;
-"
-                
+'
 +
-"
+             
+'
 print
 (
 get_python_lib
 (
 )
 )
-"
-            
+'
 ]
-        
 )
         
 return
@@ -1125,7 +1094,6 @@ site_packages_path
 def
 package_versions
 (
-        
 self
 pip_freeze_output
 =
@@ -1136,7 +1104,6 @@ WARNING
 log_output
 =
 False
-    
 )
 :
         
@@ -1216,6 +1183,7 @@ not
 in
 path
 "
+                         
 level
 =
 error_level
@@ -1252,7 +1220,6 @@ True
 ignore_errors
 =
 True
-            
 )
             
 if
@@ -1282,7 +1249,6 @@ freeze
                     
 +
 pip_freeze_output
-                
 )
         
 for
@@ -1326,9 +1292,9 @@ line
 .
 startswith
 (
-"
+'
 -
-"
+'
 )
 :
                 
@@ -1361,10 +1327,10 @@ dev
 continue
             
 if
-"
+'
 =
 =
-"
+'
 not
 in
 line
@@ -1374,6 +1340,7 @@ self
 .
 fatal
 (
+                    
 "
 pip_freeze_packages
 :
@@ -1395,10 +1362,10 @@ line
 .
 split
 (
-"
+'
 =
 =
-"
+'
 1
 )
             
@@ -1522,43 +1489,35 @@ packages
 def
 install_module
 (
-        
 self
-        
 module
 =
 None
-        
 module_url
 =
 None
-        
 install_method
 =
 None
-        
+                       
 requirements
 =
 (
 )
-        
 optional
 =
 False
-        
 global_options
 =
 [
 ]
-        
+                       
 no_deps
 =
 False
-        
 editable
 =
 False
-    
 )
 :
         
@@ -1724,9 +1683,9 @@ install_method
 in
 (
 None
-"
+'
 pip
-"
+'
 )
 :
             
@@ -1855,20 +1814,20 @@ command
 +
 =
 [
-"
+'
 -
 -
 timeout
-"
+'
 str
 (
 c
 .
 get
 (
-"
+'
 pip_timeout
-"
+'
 120
 )
 )
@@ -1896,9 +1855,9 @@ c
 .
 get
 (
-"
+'
 find_links
-"
+'
 )
 and
 not
@@ -1914,13 +1873,13 @@ command
 +
 =
 [
-"
+'
 -
 -
 no
 -
 index
-"
+'
 ]
             
 for
@@ -1947,9 +1906,9 @@ elif
 install_method
 =
 =
-"
+'
 easy_install
-"
+'
 :
             
 if
@@ -1973,7 +1932,6 @@ install_method
 easy_install
 '
 "
-                
 )
             
 if
@@ -2005,11 +1963,12 @@ install_module
 requirements
 =
 requirements
+                                    
 install_method
 =
-"
+'
 pip
-"
+'
 )
             
 command
@@ -2020,13 +1979,13 @@ self
 query_python_path
 (
 )
-"
+'
 -
 m
-"
-"
+'
+'
 easy_install
-"
+'
 ]
         
 else
@@ -2055,7 +2014,6 @@ s
                 
 %
 install_method
-            
 )
         
 for
@@ -2065,9 +2023,9 @@ c
 .
 get
 (
-"
+'
 find_links
-"
+'
 [
 ]
 )
@@ -2106,8 +2064,7 @@ self
 .
 info
 (
-                    
-"
+'
 error
 resolving
 %
@@ -2118,8 +2075,9 @@ ignoring
 :
 %
 s
-"
+'
 %
+                          
 (
 parsed
 .
@@ -2128,7 +2086,6 @@ e
 .
 message
 )
-                
 )
                 
 continue
@@ -2173,9 +2130,9 @@ install_method
 in
 (
 None
-"
+'
 pip
-"
+'
 )
 :
                     
@@ -2183,10 +2140,10 @@ command
 +
 =
 [
-"
+'
 -
 e
-"
+'
 ]
                 
 else
@@ -2210,7 +2167,6 @@ s
                         
 %
 install_method
-                    
 )
             
 command
@@ -2252,9 +2208,9 @@ cwd
 =
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
         
 if
@@ -2346,7 +2302,8 @@ FATAL
 error_message
 =
 (
-"
+                
+'
 Could
 not
 install
@@ -2357,36 +2314,35 @@ failed
 all
 attempts
 .
-"
+'
+            
 )
             
 args
 =
 [
-                
 command
-            
 ]
             
 kwargs
 =
 {
                 
-"
+'
 error_list
-"
+'
 :
 VirtualenvErrorList
                 
-"
+'
 cwd
-"
+'
 :
 cwd
                 
-"
+'
 env
-"
+'
 :
 env
                 
@@ -2426,9 +2382,9 @@ retry
 attempt
 works
                 
-"
+'
 error_level
-"
+'
 :
 WARNING
             
@@ -2848,35 +2804,35 @@ path
 .
 join
 (
-"
+'
 {
 base_work_dir
 }
-"
-"
+'
+'
 mozharness
-"
+'
 )
             
-"
+'
 {
 abs_src_dir
 }
-"
+'
         
 ]
         
 if
-"
+'
 abs_src_dir
-"
+'
 not
 in
 dirs
 and
-"
+'
 repo_path
-"
+'
 in
 self
 .
@@ -2885,9 +2841,9 @@ config
             
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
 =
 os
@@ -2900,9 +2856,9 @@ self
 .
 config
 [
-"
+'
 repo_path
-"
+'
 ]
 )
         
@@ -2920,23 +2876,21 @@ path
 .
 join
 (
-                
 d
-"
+'
 third_party
-"
-"
+'
+'
 python
-"
-"
+'
+'
 virtualenv
-"
-"
+'
+'
 virtualenv
 .
 py
-"
-            
+'
 )
             
 try
@@ -3008,9 +2962,9 @@ c
 .
 get
 (
-"
+'
 virtualenv_options
-"
+'
 [
 ]
 )
@@ -3103,7 +3057,6 @@ self
 .
 warning
 (
-                
 "
 creating
 virtualenv
@@ -3114,7 +3067,7 @@ always
 -
 copy
 "
-                
+                         
 "
 due
 to
@@ -3124,7 +3077,6 @@ Redhat
 derived
 distros
 "
-            
 )
         
 else
@@ -3134,13 +3086,13 @@ virtualenv_options
 .
 append
 (
-"
+'
 -
 -
 always
 -
 copy
-"
+'
 )
         
 if
@@ -3186,7 +3138,6 @@ self
 query_python_path
 (
 )
-            
 )
         
 else
@@ -3198,9 +3149,9 @@ mkdir_p
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
 )
             
@@ -3208,7 +3159,6 @@ self
 .
 run_command
 (
-                
 virtualenv
 +
 virtualenv_options
@@ -3216,36 +3166,35 @@ virtualenv_options
 [
 venv_path
 ]
-                
+                             
 cwd
 =
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-                
+                             
 error_list
 =
 VirtualenvErrorList
-                
+                             
 partial_env
 =
 {
-"
+'
 VIRTUALENV_NO_DOWNLOAD
-"
+'
 :
 "
 1
 "
 }
-                
+                             
 halt_on_failure
 =
 True
-            
 )
         
 if
@@ -3259,9 +3208,9 @@ c
 .
 get
 (
-"
+'
 virtualenv_modules
-"
+'
 [
 ]
 )
@@ -3277,9 +3226,9 @@ c
 .
 get
 (
-"
+'
 virtualenv_requirements
-"
+'
 [
 ]
 )
@@ -3298,11 +3247,12 @@ install_module
 requirements
 =
 requirements
+                                
 install_method
 =
-"
+'
 pip
-"
+'
 )
         
 for
@@ -3333,9 +3283,9 @@ module
 .
 get
 (
-"
+'
 name
-"
+'
 None
 )
 :
@@ -3344,9 +3294,9 @@ module_name
 =
 module
 [
-"
+'
 name
-"
+'
 ]
                 
 else
@@ -3356,7 +3306,6 @@ self
 .
 fatal
 (
-                        
 "
 Can
 '
@@ -3371,11 +3320,11 @@ name
 s
 "
 %
+                               
 str
 (
 module
 )
-                    
 )
                 
 module_url
@@ -3384,9 +3333,9 @@ module
 .
 get
 (
-"
+'
 url
-"
+'
 None
 )
                 
@@ -3396,9 +3345,9 @@ module
 .
 get
 (
-"
+'
 global_options
-"
+'
 [
 ]
 )
@@ -3414,10 +3363,10 @@ config
 .
 get
 (
-"
+'
 %
 s_url
-"
+'
 %
 module
 module_url
@@ -3429,72 +3378,62 @@ module
             
 install_method
 =
-"
+'
 pip
-"
+'
             
 if
 module_name
 in
 (
-"
+'
 pywin32
-"
+'
 )
 :
                 
 install_method
 =
-"
+'
 easy_install
-"
+'
             
 self
 .
 install_module
 (
-                
 module
 =
 module_name
-                
+                                
 module_url
 =
 module_url
-                
+                                
 install_method
 =
 install_method
-                
+                                
 requirements
 =
 requirements
-                
+                                
 global_options
 =
 global_options
-            
 )
         
 for
-(
-            
 module
-            
 url
-            
 method
-            
 requirements
-            
 optional
-            
 two_pass
-            
 editable
-        
-)
 in
+\
+                
 self
 .
 _virtualenv_modules
@@ -3512,7 +3451,6 @@ install_module
 module
 =
 module
-                    
 module_url
 =
 url
@@ -3520,7 +3458,6 @@ url
 install_method
 =
 method
-                    
 requirements
 =
 requirements
@@ -3531,11 +3468,9 @@ or
 optional
 =
 optional
-                    
 no_deps
 =
 True
-                    
 editable
 =
 editable
@@ -3550,7 +3485,6 @@ install_module
 module
 =
 module
-                
 module_url
 =
 url
@@ -3558,7 +3492,6 @@ url
 install_method
 =
 method
-                
 requirements
 =
 requirements
@@ -3569,7 +3502,6 @@ or
 optional
 =
 optional
-                
 editable
 =
 editable
@@ -3650,11 +3582,11 @@ path
 join
 (
 bin_dir
-"
+'
 activate_this
 .
 py
-"
+'
 )
         
 exec
@@ -3724,9 +3656,9 @@ opts
 ]
         
 if
-"
+'
 TASKCLUSTER_INSTANCE_TYPE
-"
+'
 in
 os
 .
@@ -3749,20 +3681,21 @@ opts
 .
 append
 (
-"
+'
 taskcluster
 -
 %
 s
-"
+'
 %
+                        
 os
 .
 environ
 [
-"
+'
 TASKCLUSTER_INSTANCE_TYPE
-"
+'
 ]
 )
         
@@ -3781,9 +3714,9 @@ buildbot
             
 instance
 =
-"
+'
 unknown
-"
+'
             
 #
 Try
@@ -3840,17 +3773,17 @@ EC2
 with
 open
 (
-"
+'
 /
 etc
 /
 instance_metadata
 .
 json
-"
-"
+'
+'
 rb
-"
+'
 )
 as
 fh
@@ -3871,20 +3804,21 @@ im
 .
 get
 (
-"
+'
 aws_instance_type
-"
+'
+                                      
 u
-"
+'
 unknown
-"
+'
 )
 .
 encode
 (
-"
+'
 ascii
-"
+'
 )
             
 except
@@ -3910,8 +3844,7 @@ self
 .
 info
 (
-                    
-"
+'
 instance_metadata
 .
 json
@@ -3920,14 +3853,13 @@ found
 ;
 unable
 to
-"
-                    
-"
+'
+                          
+'
 determine
 instance
 type
-"
-                
+'
 )
             
 except
@@ -3938,34 +3870,33 @@ self
 .
 warning
 (
-                    
-"
+'
 error
 reading
 instance_metadata
 :
 %
 s
-"
+'
 %
+                             
 traceback
 .
 format_exc
 (
 )
-                
 )
             
 opts
 .
 append
 (
-"
+'
 buildbot
 -
 %
 s
-"
+'
 %
 instance
 )
@@ -4120,7 +4051,7 @@ self
 .
 register_virtualenv_module
 (
-"
+'
 psutil
 >
 =
@@ -4129,12 +4060,13 @@ psutil
 6
 .
 3
-"
+'
 method
 =
-"
+'
 pip
-"
+'
+                                        
 optional
 =
 True
@@ -4144,31 +4076,30 @@ self
 .
 register_virtualenv_module
 (
-            
-"
+'
 mozsystemmonitor
 =
 =
 0
 .
 4
-"
+'
+                                        
 method
 =
-"
+'
 pip
-"
+'
 optional
 =
 True
-        
 )
         
 self
 .
 register_virtualenv_module
 (
-"
+'
 jsonschema
 =
 =
@@ -4177,12 +4108,13 @@ jsonschema
 5
 .
 1
-"
+'
+                                        
 method
 =
-"
+'
 pip
-"
+'
 )
         
 self
@@ -4238,11 +4170,11 @@ None
     
 PostScriptAction
 (
-"
+'
 create
 -
 virtualenv
-"
+'
 )
     
 def
@@ -4315,7 +4247,7 @@ self
 warning
 (
                 
-"
+'
 Resource
 monitoring
 will
@@ -4330,8 +4262,7 @@ Python
 +
 required
 .
-"
-            
+'
 )
             
 return
@@ -4387,7 +4318,6 @@ self
 .
 warning
 (
-                
 "
 Unable
 to
@@ -4399,12 +4329,12 @@ monitor
 s
 "
 %
+                         
 traceback
 .
 format_exc
 (
 )
-            
 )
     
 PreScriptAction
@@ -4576,9 +4506,9 @@ query_abs_dirs
 (
 )
 [
-"
+'
 abs_blob_upload_dir
-"
+'
 ]
                 
 if
@@ -4610,17 +4540,17 @@ path
 join
 (
 upload_dir
-"
+'
 resource
 -
 usage
 .
 json
-"
+'
 )
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -4630,7 +4560,6 @@ json
 .
 dump
 (
-                        
 self
 .
 _resource_monitor
@@ -4639,13 +4568,13 @@ as_dict
 (
 )
 fh
+                              
 sort_keys
 =
 True
 indent
 =
 4
-                    
 )
             
 except
@@ -4659,14 +4588,15 @@ self
 .
 exception
 (
-"
+'
 could
 not
 upload
 resource
 usage
 JSON
-"
+'
+                               
 level
 =
 WARNING
@@ -4680,7 +4610,6 @@ self
 .
 warning
 (
-                
 "
 Exception
 when
@@ -4692,12 +4621,12 @@ usage
 s
 "
 %
+                         
 traceback
 .
 format_exc
 (
 )
-            
 )
     
 def
@@ -4840,9 +4769,7 @@ io
             
 message
 =
-(
-                
-"
+'
 {
 prefix
 }
@@ -4858,18 +4785,20 @@ duration
 }
 s
 ;
-"
+'
+\
                 
-"
+'
 CPU
 :
 {
 cpu_percent
 }
 ;
-"
+'
+\
                 
-"
+'
 Read
 bytes
 :
@@ -4884,9 +4813,10 @@ bytes
 io_write_bytes
 }
 ;
-"
+'
+\
                 
-"
+'
 Read
 time
 :
@@ -4900,9 +4830,7 @@ time
 {
 io_write_time
 }
-"
-            
-)
+'
             
 #
 XXX
@@ -4950,9 +4878,9 @@ cpu_percent
 )
 )
 +
-"
+'
 %
-"
+'
             
 else
 :
@@ -4983,7 +4911,6 @@ format
 prefix
 =
 prefix
-                        
 duration
 =
 duration
@@ -4991,7 +4918,6 @@ duration
 cpu_percent
 =
 cpu_percent_str
-                        
 io_read_bytes
 =
 io
@@ -5003,7 +4929,6 @@ io_write_bytes
 io
 .
 write_bytes
-                        
 io_read_time
 =
 io
@@ -5037,6 +4962,7 @@ formatting
 s
 "
 %
+                             
 traceback
 .
 format_exc
@@ -5107,149 +5033,142 @@ overall
 .
 append
 (
-                    
 {
-                        
-"
-name
-"
-:
-"
-cpu_percent
-"
-                        
-"
-value
-"
-:
-cpu_percent
                     
-}
+'
+name
+'
+:
+'
+cpu_percent
+'
+                    
+'
+value
+'
+:
+cpu_percent
                 
+}
 )
             
 overall
 .
 extend
 (
-                
 [
-                    
+                
 {
-"
+'
 name
-"
+'
 :
-"
+'
 io_write_bytes
-"
-"
+'
+'
 value
-"
+'
 :
 io
 .
 write_bytes
 }
-                    
+                
 {
-"
+'
 name
-"
+'
 :
-"
+'
 io
 .
 read_bytes
-"
-"
+'
+'
 value
-"
+'
 :
 io
 .
 read_bytes
 }
-                    
+                
 {
-"
+'
 name
-"
+'
 :
-"
+'
 io_write_time
-"
-"
+'
+'
 value
-"
+'
 :
 io
 .
 write_time
 }
-                    
+                
 {
-"
+'
 name
-"
+'
 :
-"
+'
 io_read_time
-"
-"
+'
+'
 value
-"
+'
 :
 io
 .
 read_time
 }
-                
-]
             
+]
 )
             
 suites
 .
 append
 (
-                
 {
-                    
-"
+                
+'
 name
-"
+'
 :
-"
+'
 %
 s
 .
 overall
-"
+'
 %
 perfherder_name
-                    
-"
+                
+'
 extraOptions
-"
+'
 :
 perfherder_options
-                    
 +
 self
 .
 perfherder_resource_options
 (
 )
-                    
-"
+                
+'
 subtests
-"
+'
 :
 overall
-                
-}
             
+}
 )
             
 for
@@ -5292,17 +5211,17 @@ subtests
                     
 {
                         
-"
+'
 name
-"
+'
 :
-"
+'
 time
-"
+'
                         
-"
+'
 value
-"
+'
 :
 phase_duration
                     
@@ -5319,6 +5238,7 @@ aggregate_cpu_percent
 phase
 =
 phase
+                                                       
 per_cpu
 =
 False
@@ -5335,37 +5255,34 @@ subtests
 .
 append
 (
-                        
 {
-                            
-"
+                        
+'
 name
-"
+'
 :
-"
+'
 cpu_percent
-"
-                            
-"
+'
+                        
+'
 value
-"
+'
 :
 rm
 .
 aggregate_cpu_percent
 (
-                                
 phase
 =
 phase
+                                                          
 per_cpu
 =
 False
-                            
 )
-                        
-}
                     
+}
 )
                 
 #
@@ -5425,57 +5342,55 @@ suites
 .
 append
 (
-                    
 {
-                        
-"
+                    
+'
 name
-"
+'
 :
-"
+'
 %
 s
 .
 %
 s
-"
+'
 %
 (
 perfherder_name
 phase
 )
-                        
-"
+                    
+'
 subtests
-"
+'
 :
 subtests
-                    
-}
                 
+}
 )
             
 data
 =
 {
                 
-"
+'
 framework
-"
+'
 :
 {
-"
+'
 name
-"
+'
 :
-"
+'
 job_resource_usage
-"
+'
 }
                 
-"
+'
 suites
-"
+'
 :
 suites
             
@@ -5489,9 +5404,9 @@ path
 .
 join
 (
-                
 external_tools_path
-"
+                                       
+'
 performance
 -
 artifact
@@ -5499,17 +5414,16 @@ artifact
 schema
 .
 json
-"
-            
+'
 )
             
 with
 open
 (
 schema_path
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -5570,14 +5484,14 @@ self
 .
 info
 (
-"
+'
 Validating
 Perfherder
 data
 against
 %
 s
-"
+'
 %
 schema_path
 )
@@ -5594,12 +5508,12 @@ self
 .
 info
 (
-"
+'
 PERFHERDER_DATA
 :
 %
 s
-"
+'
 %
 json
 .
@@ -5611,11 +5525,11 @@ data
         
 log_usage
 (
-"
+'
 Total
 resource
 usage
-"
+'
 duration
 cpu_percent
 cpu_times
@@ -5642,7 +5556,7 @@ self
 .
 _tinderbox_print
 (
-"
+'
 CPU
 usage
 <
@@ -5655,10 +5569,11 @@ br
 1f
 }
 %
-"
+'
 .
 format
 (
+                                  
 cpu_percent
 )
 )
@@ -5667,8 +5582,7 @@ self
 .
 _tinderbox_print
 (
-            
-"
+'
 I
 /
 O
@@ -5687,10 +5601,11 @@ br
 {
 :
 }
-"
+'
 .
 format
 (
+                              
 io
 .
 read_bytes
@@ -5698,15 +5613,13 @@ io
 .
 read_time
 )
-        
 )
         
 self
 .
 _tinderbox_print
 (
-            
-"
+'
 I
 /
 O
@@ -5725,20 +5638,18 @@ br
 {
 :
 }
-"
+'
 .
 format
 (
-                
+                              
 io
 .
 write_bytes
 io
 .
 write_time
-            
 )
-        
 )
         
 #
@@ -5807,9 +5718,9 @@ attr
 .
 startswith
 (
-"
+'
 _
-"
+'
 )
 :
                 
@@ -5819,12 +5730,12 @@ if
 attr
 in
 (
-"
+'
 count
-"
-"
+'
+'
 index
-"
+'
 )
 :
                 
@@ -5909,8 +5820,7 @@ self
 .
 _tinderbox_print
 (
-                    
-"
+'
 CPU
 {
 }
@@ -5931,15 +5841,15 @@ br
 }
 %
 )
-"
+'
 .
 format
 (
+                                      
 attr
 value
 percent
 )
-                
 )
         
 #
@@ -5967,8 +5877,7 @@ self
 .
 _tinderbox_print
 (
-                
-"
+'
 Swap
 in
 /
@@ -5984,14 +5893,14 @@ br
 {
 :
 }
-"
+'
 .
 format
 (
+                                  
 swap_in
 swap_out
 )
-            
 )
         
 for
@@ -6049,12 +5958,12 @@ self
 .
 info
 (
-"
+'
 TinderboxPrint
 :
 %
 s
-"
+'
 %
 message
 )
@@ -6078,9 +5987,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Support
 Python3
 .
@@ -6089,9 +5998,9 @@ Python3
 virtualenv
 creation
 .
-"
-"
-"
+'
+'
+'
     
 py3_initialized_venv
 =
@@ -6106,9 +6015,9 @@ venv_path
 )
 :
         
-"
-"
-"
+'
+'
+'
 We
 don
 '
@@ -6143,9 +6052,9 @@ be
 created
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -6177,11 +6086,11 @@ get_output_from_command
 self
 .
 py3_python_path
-"
+'
 -
 -
 version
-"
+'
 ]
 env
 =
@@ -6190,7 +6099,6 @@ self
 query_env
 (
 )
-        
 )
 .
 split
@@ -6219,13 +6127,13 @@ versions
 assert
 version
 >
-"
+'
 3
 .
 5
 .
 0
-"
+'
         
 self
 .
@@ -6255,9 +6163,9 @@ self
 py3_path_to_executables
 (
 )
-"
+'
 pip
-"
+'
 )
     
 def
@@ -6280,9 +6188,9 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 :
             
@@ -6296,9 +6204,9 @@ join
 self
 .
 py3_venv_path
-"
+'
 Scripts
-"
+'
 )
         
 else
@@ -6314,9 +6222,9 @@ join
 self
 .
 py3_venv_path
-"
+'
 bin
-"
+'
 )
     
 def
@@ -6348,8 +6256,7 @@ py3_initialized_venv
 raise
 Exception
 (
-                    
-"
+'
 You
 need
 to
@@ -6357,16 +6264,15 @@ call
 py3_venv_configuration
 (
 )
-"
-                    
-"
+'
+                                
+'
 before
 using
 this
 method
 .
-"
-                
+'
 )
             
 func
@@ -6391,9 +6297,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Create
 Python
 environment
@@ -6409,9 +6315,9 @@ to
 /
 venv
 .
-"
-"
-"
+'
+'
+'
         
 if
 os
@@ -6430,7 +6336,6 @@ self
 .
 info
 (
-                
 "
 Virtualenv
 %
@@ -6442,7 +6347,7 @@ exist
 ;
 skipping
 "
-                
+                      
 "
 virtualenv
 creation
@@ -6452,7 +6357,6 @@ creation
 self
 .
 py3_venv_path
-            
 )
         
 else
@@ -6462,13 +6366,13 @@ self
 .
 info
 (
-"
+'
 Running
 command
 .
 .
 .
-"
+'
 )
             
 self
@@ -6476,7 +6380,7 @@ self
 run_command
 (
                 
-"
+'
 %
 s
 -
@@ -6484,7 +6388,7 @@ m
 venv
 %
 s
-"
+'
 %
 (
 self
@@ -6510,7 +6414,6 @@ self
 query_env
 (
 )
-            
 )
     
 py3_venv_initialized
@@ -6520,6 +6423,7 @@ py3_install_modules
 (
 self
 modules
+                            
 use_mozharness_pip_config
 =
 True
@@ -6543,7 +6447,7 @@ py3_venv_path
 raise
 Exception
 (
-"
+'
 You
 need
 to
@@ -6553,7 +6457,7 @@ py3_create_venv
 )
 first
 .
-"
+'
 )
         
 for
@@ -6568,9 +6472,9 @@ cmd
 self
 .
 py3_pip_path
-"
+'
 install
-"
+'
 ]
             
 if
@@ -6614,9 +6518,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 We
 have
 information
@@ -6627,9 +6531,9 @@ that
 apply
 to
 pip
-"
-"
-"
+'
+'
+'
         
 c
 =
@@ -6680,20 +6584,20 @@ pip_args
 +
 =
 [
-"
+'
 -
 -
 timeout
-"
+'
 str
 (
 c
 .
 get
 (
-"
+'
 pip_timeout
-"
+'
 120
 )
 )
@@ -6704,9 +6608,9 @@ c
 .
 get
 (
-"
+'
 find_links
-"
+'
 )
 and
 not
@@ -6722,13 +6626,13 @@ pip_args
 +
 =
 [
-"
+'
 -
 -
 no
 -
 index
-"
+'
 ]
         
 #
@@ -6789,9 +6693,9 @@ c
 .
 get
 (
-"
+'
 find_links
-"
+'
 [
 ]
 )
@@ -6830,8 +6734,7 @@ self
 .
 info
 (
-                    
-"
+'
 error
 resolving
 %
@@ -6842,8 +6745,9 @@ ignoring
 :
 %
 s
-"
+'
 %
+                          
 (
 parsed
 .
@@ -6852,7 +6756,6 @@ e
 .
 message
 )
-                
 )
                 
 continue
@@ -6877,9 +6780,9 @@ parsed
 scheme
 !
 =
-"
+'
 https
-"
+'
 :
                 
 trusted_hosts
@@ -6904,13 +6807,13 @@ pip_args
 +
 =
 [
-"
+'
 -
 -
 trusted
 -
 host
-"
+'
 host
 ]
         
@@ -6922,23 +6825,22 @@ py3_venv_initialized
 def
 py3_install_requirement_files
 (
-        
 self
 requirements
 pip_args
 =
 [
 ]
+                                      
 use_mozharness_pip_config
 =
 True
-    
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 requirements
 -
@@ -6949,9 +6851,9 @@ multiple
 requirements
 paths
         
-"
-"
-"
+'
+'
+'
         
 cmd
 =
@@ -6959,9 +6861,9 @@ cmd
 self
 .
 py3_pip_path
-"
+'
 install
-"
+'
 ]
         
 cmd
@@ -6992,10 +6894,10 @@ cmd
 +
 =
 [
-"
+'
 -
 r
-"
+'
 requirement_path
 ]
         
@@ -7022,21 +6924,22 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
-"
-"
-"
+'
+'
+'
 TODO
 :
 unit
 tests
 .
-"
-"
-"
+    
+'
+'
+'
     
 pass

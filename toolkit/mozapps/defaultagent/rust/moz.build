@@ -87,9 +87,9 @@ MPL
 .
 RustLibrary
 (
-"
+'
 defaultagent
 -
 static
-"
+'
 )

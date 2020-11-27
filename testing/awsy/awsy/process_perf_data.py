@@ -131,17 +131,17 @@ CHECKPOINTS
 [
     
 {
-"
+'
 name
-"
+'
 :
 "
 Fresh
 start
 "
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -159,9 +159,9 @@ gz
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Fresh
@@ -171,9 +171,9 @@ start
 30s
 ]
 "
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -191,18 +191,18 @@ gz
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 After
 tabs
 open
 "
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -220,10 +220,9 @@ gz
 }
     
 {
-        
-"
+'
 name
-"
+'
 :
 "
 After
@@ -234,10 +233,9 @@ open
 30s
 ]
 "
-        
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -252,14 +250,12 @@ json
 .
 gz
 "
-    
 }
     
 {
-        
-"
+'
 name
-"
+'
 :
 "
 After
@@ -273,9 +269,9 @@ GC
 ]
 "
         
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -290,14 +286,12 @@ json
 .
 gz
 "
-    
 }
     
 {
-        
-"
+'
 name
-"
+'
 :
 "
 Tabs
@@ -305,10 +299,10 @@ closed
 extra
 processes
 "
-        
-"
+     
+'
 path
-"
+'
 :
 "
 memory
@@ -323,21 +317,20 @@ json
 .
 gz
 "
-    
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Tabs
 closed
 "
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -355,9 +348,9 @@ gz
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Tabs
@@ -367,9 +360,9 @@ closed
 30s
 ]
 "
-"
+'
 path
-"
+'
 :
 "
 memory
@@ -387,10 +380,9 @@ gz
 }
     
 {
-        
-"
+'
 name
-"
+'
 :
 "
 Tabs
@@ -402,10 +394,10 @@ forced
 GC
 ]
 "
-        
-"
+     
+'
 path
-"
+'
 :
 "
 memory
@@ -420,7 +412,6 @@ json
 .
 gz
 "
-    
 }
 ]
 #
@@ -442,17 +433,17 @@ PERF_SUITES
 [
     
 {
-"
+'
 name
-"
+'
 :
 "
 Resident
 Memory
 "
-"
+'
 node
-"
+'
 :
 "
 resident
@@ -460,17 +451,17 @@ resident
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Explicit
 Memory
 "
-"
+'
 node
-"
+'
 :
 "
 explicit
@@ -479,17 +470,17 @@ explicit
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Heap
 Unclassified
 "
-"
+'
 node
-"
+'
 :
 "
 explicit
@@ -501,16 +492,16 @@ unclassified
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 JS
 "
-"
+'
 node
-"
+'
 :
 "
 js
@@ -523,16 +514,16 @@ runtime
 }
     
 {
-"
+'
 name
-"
+'
 :
 "
 Images
 "
-"
+'
 node
-"
+'
 :
 "
 explicit
@@ -651,86 +642,84 @@ of
 target_path
 =
 [
-        
 [
-"
+'
 Start
 -
-"
+'
 0
 ]
-        
+                   
 [
-"
+'
 StartSettled
 -
-"
+'
 0
 ]
-        
+                   
 [
-"
+'
 TabsOpen
 -
-"
+'
 -
 1
 ]
-        
+                   
 [
-"
+'
 TabsOpenSettled
 -
-"
+'
 -
 1
 ]
-        
+                   
 [
-"
+'
 TabsOpenForceGC
 -
-"
+'
 -
 1
 ]
-        
+                   
 [
-"
+'
 TabsClosedExtraProcesses
 -
-"
+'
 -
 1
 ]
-        
+                   
 [
-"
+'
 TabsClosed
 -
-"
+'
 -
 1
 ]
-        
+                   
 [
-"
+'
 TabsClosedSettled
 -
-"
+'
 -
 1
 ]
-        
+                   
 [
-"
+'
 TabsClosedForceGC
 -
-"
+'
 -
 1
 ]
-    
 ]
     
 for
@@ -793,9 +782,9 @@ name
 in
 x
 [
-"
+'
 path
-"
+'
 ]
 ]
             
@@ -811,9 +800,9 @@ indices
 ]
 ]
 [
-"
+'
 path
-"
+'
 ]
 =
 paths
@@ -846,13 +835,13 @@ name
 def
 create_suite
 (
-    
 name
 node
 data_path
 checkpoints
 =
 CHECKPOINTS
+                 
 alertThreshold
 =
 None
@@ -967,29 +956,34 @@ alert
 suite
 =
 {
-"
+        
+'
 name
-"
+'
 :
 name
-"
+        
+'
 subtests
-"
+'
 :
 [
 ]
-"
+        
+'
 lowerIsBetter
-"
+'
 :
 True
-"
+        
+'
 unit
-"
+'
 :
-"
+'
 bytes
-"
+'
+    
 }
     
 if
@@ -998,9 +992,9 @@ alertThreshold
         
 suite
 [
-"
+'
 alertThreshold
-"
+'
 ]
 =
 alertThreshold
@@ -1035,9 +1029,9 @@ stylo_opt
 None
     
 if
-"
+'
 STYLO_FORCE_ENABLED
-"
+'
 in
 os
 .
@@ -1047,9 +1041,9 @@ os
 .
 environ
 [
-"
+'
 STYLO_FORCE_ENABLED
-"
+'
 ]
 :
         
@@ -1060,9 +1054,9 @@ stylo
 "
     
 if
-"
+'
 STYLO_THREADS
-"
+'
 in
 os
 .
@@ -1072,15 +1066,15 @@ os
 .
 environ
 [
-"
+'
 STYLO_THREADS
-"
+'
 ]
 =
 =
-"
+'
 1
-"
+'
 :
         
 stylo_opt
@@ -1103,9 +1097,9 @@ stylo_opt
 )
     
 if
-"
+'
 DMD
-"
+'
 in
 os
 .
@@ -1115,9 +1109,9 @@ os
 .
 environ
 [
-"
+'
 DMD
-"
+'
 ]
 :
         
@@ -1136,16 +1130,15 @@ extra_opts
         
 suite
 [
-"
+'
 extraOptions
-"
+'
 ]
 =
 opts
     
 update_checkpoint_paths
 (
-        
 glob
 .
 glob
@@ -1166,7 +1159,6 @@ report
 )
 )
 checkpoints
-    
 )
     
 total
@@ -1190,9 +1182,9 @@ join
 data_path
 checkpoint
 [
-"
+'
 path
-"
+'
 ]
 )
         
@@ -1202,9 +1194,9 @@ checkpoint
 .
 get
 (
-"
+'
 name_filter
-"
+'
 None
 )
         
@@ -1213,9 +1205,9 @@ checkpoint
 .
 get
 (
-"
+'
 median
-"
+'
 )
 :
             
@@ -1245,11 +1237,10 @@ parse_about_memory
 .
 calculate_memory_report_values
 (
-                
+                                            
 memory_report_path
 node
 name_filter
-            
 )
             
 value
@@ -1336,15 +1327,14 @@ parse_about_memory
 .
 calculate_memory_report_values
 (
-                
+                                            
 memory_report_path
 node
 [
-"
+'
 Main
-"
+'
 ]
-            
 )
             
 totals_uss
@@ -1353,14 +1343,13 @@ parse_about_memory
 .
 calculate_memory_report_values
 (
-                
+                                            
 memory_report_path
-"
+'
 resident
 -
 unique
-"
-            
+'
 )
             
 value
@@ -1374,9 +1363,10 @@ values
 0
 ]
 +
+\
+                
 sum
 (
-                
 [
 v
 for
@@ -1389,58 +1379,57 @@ iteritems
 (
 )
 if
-"
+'
 Main
-"
+'
 not
 in
 k
 ]
-            
 )
         
 subtest
 =
 {
             
-"
+'
 name
-"
+'
 :
 checkpoint
 [
-"
+'
 name
-"
+'
 ]
             
-"
+'
 value
-"
+'
 :
 value
             
-"
+'
 lowerIsBetter
-"
+'
 :
 True
             
-"
+'
 unit
-"
+'
 :
-"
+'
 bytes
-"
+'
         
 }
         
 suite
 [
-"
+'
 subtests
-"
+'
 ]
 .
 append
@@ -1457,9 +1446,9 @@ log
 (
 subtest
 [
-"
+'
 value
-"
+'
 ]
 )
     
@@ -1497,9 +1486,9 @@ Relationship_with_arithmetic_mean_of_logarithms
     
 suite
 [
-"
+'
 value
-"
+'
 ]
 =
 math
@@ -1519,7 +1508,6 @@ suite
 def
 create_perf_data
 (
-    
 data_path
 perf_suites
 =
@@ -1527,6 +1515,7 @@ PERF_SUITES
 checkpoints
 =
 CHECKPOINTS
+                     
 extra_opts
 =
 None
@@ -1578,7 +1567,6 @@ environ
         
 print
 (
-            
 "
 Code
 coverage
@@ -1593,7 +1581,6 @@ be
 gathered
 .
 "
-        
 )
         
 return
@@ -1603,25 +1590,28 @@ return
 perf_blob
 =
 {
-"
+        
+'
 framework
-"
+'
 :
 {
-"
+'
 name
-"
+'
 :
-"
+'
 awsy
-"
+'
 }
-"
+        
+'
 suites
-"
+'
 :
 [
 ]
+    
 }
     
 for
@@ -1632,48 +1622,41 @@ perf_suites
         
 perf_blob
 [
-"
+'
 suites
-"
+'
 ]
 .
 append
 (
-            
 create_suite
 (
-                
+            
 suite
 [
-"
+'
 name
-"
+'
 ]
-                
 suite
 [
-"
+'
 node
-"
+'
 ]
-                
 data_path
-                
 checkpoints
-                
+            
 suite
 .
 get
 (
-"
+'
 alertThreshold
-"
+'
 )
-                
 extra_opts
-            
 )
-        
 )
     
 return
@@ -1682,9 +1665,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 args

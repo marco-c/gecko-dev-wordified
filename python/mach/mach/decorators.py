@@ -113,45 +113,45 @@ the
 command
 .
         
-"
+'
 name
-"
+'
         
-"
+'
 subcommand
-"
+'
         
-"
+'
 category
-"
+'
         
-"
+'
 description
-"
+'
         
-"
+'
 conditions
-"
+'
         
-"
+'
 _parser
-"
+'
         
-"
+'
 arguments
-"
+'
         
-"
+'
 argument_group_names
-"
+'
         
-"
+'
 virtualenv_name
-"
+'
         
-"
+'
 ok_if_tests_disabled
-"
+'
         
 #
 By
@@ -180,9 +180,9 @@ declaration
 order
 .
         
-"
+'
 order
-"
+'
         
 #
 Describes
@@ -232,9 +232,9 @@ is
 executed
 .
         
-"
+'
 cls
-"
+'
         
 #
 The
@@ -264,9 +264,9 @@ is
 optional
 .
         
-"
+'
 metrics_path
-"
+'
         
 #
 The
@@ -306,9 +306,9 @@ the
 function
 .
         
-"
+'
 method
-"
+'
         
 #
 Dict
@@ -327,9 +327,9 @@ this
 command
 .
         
-"
+'
 subcommand_handlers
-"
+'
         
 #
 For
@@ -349,54 +349,45 @@ was
 seen
 .
         
-"
+'
 decl_order
-"
+'
     
 )
     
 def
 __init__
 (
-        
 self
-        
 name
 =
 None
-        
 subcommand
 =
 None
-        
 category
 =
 None
-        
+                 
 description
 =
 None
-        
 conditions
 =
 None
-        
 parser
 =
 None
-        
+                 
 order
 =
 None
-        
 virtualenv_name
 =
 None
-        
 ok_if_tests_disabled
 =
 False
-    
 )
 :
         
@@ -471,29 +462,28 @@ and
 category
 !
 =
-"
+'
 testing
-"
+'
 :
             
 raise
 ValueError
 (
-                
-"
+'
 ok_if_tests_disabled
 should
 only
 be
 set
 for
-"
-"
+'
+                             
+'
 testing
 mach
 commands
-"
-            
+'
 )
         
 self
@@ -681,14 +671,14 @@ _MachCommand
 raise
 ValueError
 (
-"
+'
 can
 only
 operate
 on
 _MachCommand
 instances
-"
+'
 )
         
 for
@@ -753,7 +743,7 @@ raise
 MachError
 (
                 
-"
+'
 Mach
 command
 provider
@@ -765,20 +755,19 @@ be
 a
 subclass
 of
-"
+'
                 
-"
+'
 mozbuild
 .
 base
 .
 MachComandBase
-"
+'
 %
 cls
 .
 __name__
-            
 )
         
 seen_commands
@@ -847,16 +836,15 @@ command_methods
 =
 sorted
 (
-            
 [
-                
+            
 (
 name
 value
 .
 _mach_command
 )
-                
+            
 for
 name
 value
@@ -868,18 +856,17 @@ __dict__
 items
 (
 )
-                
+            
 if
 hasattr
 (
 value
-"
+'
 _mach_command
-"
+'
 )
-            
-]
         
+]
 )
         
 for
@@ -933,32 +920,34 @@ continue
             
 msg
 =
-(
-                
-"
+'
 Mach
 command
+\
 '
 %
 s
+\
 '
 implemented
 incorrectly
 .
-"
-                
+'
 +
-"
+\
+                  
+'
 Conditions
 argument
 must
 take
 a
 list
-"
-                
+'
 +
-"
+\
+                  
+'
 of
 functions
 .
@@ -967,9 +956,7 @@ Found
 s
 instead
 .
-"
-            
-)
+'
             
 if
 not
@@ -1019,9 +1006,9 @@ not
 hasattr
 (
 c
-"
+'
 __call__
-"
+'
 )
 :
                     
@@ -1146,8 +1133,7 @@ seen_commands
 raise
 MachError
 (
-                    
-"
+'
 Command
 referenced
 by
@@ -1156,19 +1142,18 @@ sub
 command
 does
 not
-"
-                    
-"
+'
+                                
+'
 exist
 :
 %
 s
-"
+'
 %
 command
 .
 name
-                
 )
             
 if
@@ -1226,7 +1211,7 @@ subcommand_handlers
 raise
 MachError
 (
-"
+'
 sub
 -
 command
@@ -1235,7 +1220,7 @@ defined
 :
 %
 s
-"
+'
 %
 command
 .
@@ -1541,9 +1526,9 @@ not
 hasattr
 (
 func
-"
+'
 _mach_command
-"
+'
 )
 :
             
@@ -1716,20 +1701,20 @@ _mach_command
 =
 _MachCommand
 (
-            
 name
 =
 command
 subcommand
 =
 subcommand
+                                          
 description
 =
 description
+                                          
 parser
 =
 parser
-        
 )
         
 self
@@ -1762,9 +1747,9 @@ not
 hasattr
 (
 func
-"
+'
 _mach_command
-"
+'
 )
 :
             
@@ -1912,9 +1897,9 @@ kwargs
 .
 get
 (
-"
+'
 nargs
-"
+'
 )
 =
 =
@@ -1955,31 +1940,29 @@ args
 assert
 all
 (
-                
 k
 in
 (
-"
+'
 default
-"
-"
+'
+'
 nargs
-"
-"
+'
+'
 help
-"
-"
+'
+'
 group
-"
-"
+'
+'
 metavar
-"
+'
 )
 for
 k
 in
 kwargs
-            
 )
         
 self
@@ -2004,9 +1987,9 @@ not
 hasattr
 (
 func
-"
+'
 _mach_command
-"
+'
 )
 :
             
@@ -2224,9 +2207,9 @@ not
 hasattr
 (
 func
-"
+'
 _mach_command
-"
+'
 )
 :
             
@@ -2317,17 +2300,16 @@ not
 hasattr
 (
 cls
-"
+'
 config_settings
-"
+'
 )
 :
         
 raise
 MachError
 (
-            
-"
+'
 SettingsProvider
 must
 contain
@@ -2336,9 +2318,9 @@ config_settings
 attribute
 .
 It
-"
-            
-"
+'
+                        
+'
 may
 either
 be
@@ -2353,9 +2335,9 @@ that
 returns
 a
 list
-"
-            
-"
+'
+                        
+'
 of
 tuples
 .
@@ -2369,9 +2351,9 @@ form
 :
 \
 n
-"
-            
-"
+'
+                        
+'
 (
 <
 section
@@ -2395,9 +2377,9 @@ choices
 )
 \
 n
-"
-            
-"
+'
+                        
+'
 as
 specified
 by
@@ -2405,8 +2387,7 @@ ConfigSettings
 .
 _format_metadata
 .
-"
-        
+'
 )
     
 Registrar

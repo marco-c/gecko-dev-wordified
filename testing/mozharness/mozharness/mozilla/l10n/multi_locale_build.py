@@ -193,7 +193,7 @@ Fennec
 multilocale
 builds
 .
-    
+        
 We
 were
 considering
@@ -204,7 +204,7 @@ Firefox
 desktop
 multilocale
 .
-    
+        
 Now
 that
 we
@@ -215,7 +215,7 @@ approach
 for
 B2G
 multilocale
-    
+        
 it
 '
 s
@@ -230,9 +230,8 @@ misnamed
 config_options
 =
 [
-        
 [
-            
+        
 [
 "
 -
@@ -240,9 +239,8 @@ config_options
 locale
 "
 ]
-            
+        
 {
-                
 "
 action
 "
@@ -250,7 +248,7 @@ action
 "
 extend
 "
-                
+         
 "
 dest
 "
@@ -258,7 +256,7 @@ dest
 "
 locales
 "
-                
+         
 "
 type
 "
@@ -266,7 +264,7 @@ type
 "
 string
 "
-                
+         
 "
 help
 "
@@ -281,13 +279,12 @@ s
 to
 repack
 "
-            
+         
 }
-        
+    
 ]
-        
 [
-            
+        
 [
 "
 -
@@ -295,9 +292,8 @@ repack
 objdir
 "
 ]
-            
+        
 {
-                
 "
 action
 "
@@ -305,7 +301,7 @@ action
 "
 store
 "
-                
+         
 "
 dest
 "
@@ -313,7 +309,7 @@ dest
 "
 objdir
 "
-                
+         
 "
 type
 "
@@ -321,7 +317,7 @@ type
 "
 string
 "
-                
+         
 "
 default
 "
@@ -329,7 +325,7 @@ default
 "
 objdir
 "
-                
+         
 "
 help
 "
@@ -339,13 +335,12 @@ Specify
 the
 objdir
 "
-            
+         
 }
-        
+    
 ]
-        
 [
-            
+        
 [
 "
 -
@@ -355,9 +350,8 @@ l10n
 base
 "
 ]
-            
+        
 {
-                
 "
 action
 "
@@ -365,7 +359,7 @@ action
 "
 store
 "
-                
+         
 "
 dest
 "
@@ -373,7 +367,7 @@ dest
 "
 hg_l10n_base
 "
-                
+         
 "
 type
 "
@@ -381,7 +375,7 @@ type
 "
 string
 "
-                
+         
 "
 help
 "
@@ -394,13 +388,12 @@ repo
 base
 directory
 "
-            
+         
 }
-        
+    
 ]
-        
 [
-            
+        
 [
 "
 -
@@ -410,9 +403,8 @@ l10n
 tag
 "
 ]
-            
+        
 {
-                
 "
 action
 "
@@ -420,7 +412,7 @@ action
 "
 store
 "
-                
+         
 "
 dest
 "
@@ -428,7 +420,7 @@ dest
 "
 hg_l10n_tag
 "
-                
+         
 "
 type
 "
@@ -436,7 +428,7 @@ type
 "
 string
 "
-                
+         
 "
 help
 "
@@ -447,13 +439,12 @@ the
 L10n
 tag
 "
-            
+         
 }
-        
+    
 ]
-        
 [
-            
+        
 [
 "
 -
@@ -463,9 +454,8 @@ tag
 override
 "
 ]
-            
+        
 {
-                
 "
 action
 "
@@ -473,7 +463,7 @@ action
 "
 store
 "
-                
+         
 "
 dest
 "
@@ -481,7 +471,7 @@ dest
 "
 tag_override
 "
-                
+         
 "
 type
 "
@@ -489,7 +479,7 @@ type
 "
 string
 "
-                
+         
 "
 help
 "
@@ -503,11 +493,10 @@ for
 all
 repos
 "
-            
+         
 }
-        
-]
     
+]
 ]
     
 def
@@ -531,39 +520,38 @@ MercurialScript
 .
 __init__
 (
-            
 self
-            
 config_options
 =
 self
 .
 config_options
-            
+                                 
 all_actions
 =
 [
-"
+'
 pull
 -
 locale
 -
 source
-"
-"
+'
+                                              
+'
 package
 -
 multi
-"
-"
+'
+                                              
+'
 summary
-"
+'
 ]
-            
+                                 
 require_config_file
 =
 require_config_file
-        
 )
     
 #
@@ -597,9 +585,9 @@ mach
 sys
 .
 executable
-"
+'
 mach
-"
+'
 ]
         
 return_code
@@ -614,7 +602,7 @@ command
 mach
 +
 [
-"
+'
 -
 -
 log
@@ -622,7 +610,7 @@ log
 no
 -
 times
-"
+'
 ]
 +
 args
@@ -631,9 +619,9 @@ cwd
 =
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
         
 )
@@ -646,7 +634,6 @@ self
 .
 fatal
 (
-                
 "
 '
 mach
@@ -661,7 +648,7 @@ successfully
 Please
 check
 "
-                
+                       
 "
 log
 for
@@ -669,14 +656,13 @@ errors
 .
 "
 %
-"
-"
+'
+'
 .
 join
 (
 args
 )
-            
 )
     
 def
@@ -698,9 +684,9 @@ objdir
 =
 dirs
 [
-"
+'
 abs_obj_dir
-"
+'
 ]
         
 #
@@ -734,18 +720,19 @@ self
 _run_mach_command
 (
 [
-"
+'
 package
 -
 multi
 -
 locale
-"
-"
+'
+                                
+'
 -
 -
 locales
-"
+'
 ]
 +
 locales
@@ -767,18 +754,19 @@ self
 .
 run_command
 (
-            
 command
+                         
 cwd
 =
 objdir
+                         
 error_list
 =
 MakefileErrorList
+                         
 halt_on_failure
 =
 True
-        
 )
         
 #
@@ -796,9 +784,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 pass

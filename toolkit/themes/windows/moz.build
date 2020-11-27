@@ -89,10 +89,10 @@ DIRS
 +
 =
 [
-"
+'
 global
-"
-"
+'
+'
 mozapps
-"
+'
 ]

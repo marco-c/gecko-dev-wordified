@@ -152,7 +152,7 @@ utilityPath
 log
 prefix
 =
-"
+'
 mozilla
 -
 test
@@ -160,7 +160,7 @@ test
 fail
 -
 screenshot_
-"
+'
 )
 :
     
@@ -236,9 +236,9 @@ is_structured_log
 hasattr
 (
 log
-"
+'
 process_exit
-"
+'
 )
     
 #
@@ -291,29 +291,29 @@ isMac
 utility
 =
 [
-"
+'
 /
 usr
 /
 sbin
 /
 screencapture
-"
-"
+'
+'
 -
 C
-"
-"
+'
+'
 -
 x
-"
-"
+'
+'
 -
 t
-"
-"
+'
+'
 png
-"
+'
 ]
         
 utilityname
@@ -370,9 +370,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 None
 )
     
@@ -385,14 +385,14 @@ log
 .
 info
 (
-"
+'
 Failed
 to
 retrieve
 MOZ_UPLOAD_DIR
 env
 var
-"
+'
 )
         
 return
@@ -416,12 +416,13 @@ mkstemp
 prefix
 =
 prefix
+            
 suffix
 =
-"
+'
 .
 png
-"
+'
 dir
 =
 parent_dir
@@ -502,6 +503,7 @@ screenshot
 %
 s
 "
+                 
 %
 (
 utility
@@ -520,7 +522,7 @@ device
 log
 prefix
 =
-"
+'
 mozilla
 -
 test
@@ -528,7 +530,7 @@ test
 fail
 -
 screenshot_
-"
+'
 )
 :
     
@@ -601,18 +603,18 @@ logger
     
 utilityname
 =
-"
+'
 screencap
-"
+'
     
 is_structured_log
 =
 hasattr
 (
 log
-"
+'
 process_exit
-"
+'
 )
     
 #
@@ -633,9 +635,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_UPLOAD_DIR
-"
+'
 None
 )
     
@@ -648,14 +650,14 @@ log
 .
 info
 (
-"
+'
 Failed
 to
 retrieve
 MOZ_UPLOAD_DIR
 env
 var
-"
+'
 )
         
 return
@@ -764,8 +766,7 @@ device
 .
 shell_output
 (
-            
-"
+'
 mktemp
 -
 p
@@ -773,25 +774,25 @@ p
 s
 %
 sXXXXXX
-"
+'
 %
+                                       
 (
 device
 .
 test_root
 prefix
 )
-        
 )
         
 pngfilename
 =
 filename
 +
-"
+'
 .
 png
-"
+'
         
 device
 .
@@ -816,14 +817,14 @@ device
 .
 shell_output
 (
-"
+'
 %
 s
 -
 p
 %
 s
-"
+'
 %
 (
 utilityname
@@ -889,6 +890,7 @@ screenshot
 %
 s
 "
+                 
 %
 (
 utilityname

@@ -170,11 +170,11 @@ task
 :
         
 return
-"
+'
 at
 -
 at
-"
+'
 in
 task
 .
@@ -207,9 +207,9 @@ attributes
 =
 {
                 
-"
+'
 run_on_projects
-"
+'
 :
 run_on_projects
             
@@ -219,19 +219,19 @@ parameters
 =
 {
                 
-"
+'
 project
-"
+'
 :
 project
                 
-"
+'
 hg_branch
-"
+'
 :
-"
+'
 default
-"
+'
             
 }
         
@@ -249,14 +249,14 @@ hg_branch
 attributes
 =
 {
-"
+'
 run_on_projects
-"
+'
 :
 [
-"
+'
 all
-"
+'
 ]
 }
         
@@ -269,9 +269,9 @@ None
             
 attributes
 [
-"
+'
 run_on_hg_branches
-"
+'
 ]
 =
 run_on_hg_branches
@@ -290,19 +290,19 @@ parameters
 =
 {
                 
-"
+'
 project
-"
+'
 :
-"
+'
 mozilla
 -
 central
-"
+'
                 
-"
+'
 hg_branch
-"
+'
 :
 hg_branch
             
@@ -325,47 +325,47 @@ target_tasks
 .
 get_method
 (
-"
+'
 default
-"
+'
 )
         
 graph
 =
 TaskGraph
 (
-            
 tasks
 =
 {
-                
-"
+            
+'
 a
-"
+'
 :
 Task
 (
 kind
 =
-"
+'
 build
-"
+'
 label
 =
-"
+'
 a
-"
+'
+                      
 attributes
 =
 attributes
+                      
 task
 =
 {
 }
 )
-            
+        
 }
-            
 graph
 =
 Graph
@@ -373,9 +373,9 @@ Graph
 nodes
 =
 {
-"
+'
 a
-"
+'
 }
 edges
 =
@@ -383,13 +383,12 @@ set
 (
 )
 )
-        
 )
         
 return
-"
+'
 a
-"
+'
 in
 method
 (
@@ -433,15 +432,15 @@ self
 default_matches_project
 (
 [
-"
+'
 all
-"
+'
 ]
-"
+'
 mozilla
 -
 central
-"
+'
 )
 )
         
@@ -454,13 +453,13 @@ self
 default_matches_project
 (
 [
-"
+'
 all
-"
+'
 ]
-"
+'
 baobab
-"
+'
 )
 )
     
@@ -490,23 +489,21 @@ self
 .
 assertFalse
 (
-            
 self
 .
 default_matches_project
 (
 [
-"
+'
 integration
-"
+'
 ]
-"
+'
 mozilla
 -
 central
-"
+'
 )
-        
 )
         
 self
@@ -518,13 +515,13 @@ self
 default_matches_project
 (
 [
-"
+'
 integration
-"
+'
 ]
-"
+'
 baobab
-"
+'
 )
 )
     
@@ -559,15 +556,15 @@ self
 default_matches_project
 (
 [
-"
+'
 release
-"
+'
 ]
-"
+'
 mozilla
 -
 central
-"
+'
 )
 )
         
@@ -580,13 +577,13 @@ self
 default_matches_project
 (
 [
-"
+'
 release
-"
+'
 ]
-"
+'
 baobab
-"
+'
 )
 )
     
@@ -620,11 +617,11 @@ default_matches_project
 (
 [
 ]
-"
+'
 mozilla
 -
 central
-"
+'
 )
 )
         
@@ -638,9 +635,9 @@ default_matches_project
 (
 [
 ]
-"
+'
 baobab
-"
+'
 )
 )
     
@@ -660,9 +657,9 @@ self
 default_matches_hg_branch
 (
 None
-"
+'
 default
-"
+'
 )
 )
         
@@ -675,9 +672,9 @@ self
 default_matches_hg_branch
 (
 None
-"
+'
 GECKOVIEW_62_RELBRANCH
-"
+'
 )
 )
         
@@ -691,9 +688,9 @@ default_matches_hg_branch
 (
 [
 ]
-"
+'
 default
-"
+'
 )
 )
         
@@ -707,9 +704,9 @@ default_matches_hg_branch
 (
 [
 ]
-"
+'
 GECKOVIEW_62_RELBRANCH
-"
+'
 )
 )
         
@@ -722,13 +719,13 @@ self
 default_matches_hg_branch
 (
 [
-"
+'
 all
-"
+'
 ]
-"
+'
 default
-"
+'
 )
 )
         
@@ -736,21 +733,19 @@ self
 .
 assertTrue
 (
-            
 self
 .
 default_matches_hg_branch
 (
 [
-"
+'
 all
-"
+'
 ]
-"
+'
 GECKOVIEW_62_RELBRANCH
-"
+'
 )
-        
 )
         
 self
@@ -762,13 +757,13 @@ self
 default_matches_hg_branch
 (
 [
-"
+'
 default
-"
+'
 ]
-"
+'
 default
-"
+'
 )
 )
         
@@ -782,13 +777,13 @@ default_matches_hg_branch
 (
 [
 r
-"
+'
 default
-"
+'
 ]
-"
+'
 default
-"
+'
 )
 )
         
@@ -796,20 +791,39 @@ self
 .
 assertFalse
 (
-            
 self
 .
 default_matches_hg_branch
 (
 [
 r
-"
+'
 default
-"
+'
 ]
-"
+'
 GECKOVIEW_62_RELBRANCH
-"
+'
+)
+)
+        
+self
+.
+assertTrue
+(
+            
+self
+.
+default_matches_hg_branch
+(
+[
+'
+GECKOVIEW_62_RELBRANCH
+'
+]
+'
+GECKOVIEW_62_RELBRANCH
+'
 )
         
 )
@@ -823,43 +837,18 @@ self
 .
 default_matches_hg_branch
 (
-                
 [
-"
-GECKOVIEW_62_RELBRANCH
-"
-]
-"
-GECKOVIEW_62_RELBRANCH
-"
-            
-)
-        
-)
-        
-self
-.
-assertTrue
-(
-            
-self
-.
-default_matches_hg_branch
-(
-                
-[
-"
+'
 GECKOVIEW_
 \
 d
 +
 _RELBRANCH
-"
+'
 ]
-"
+'
 GECKOVIEW_62_RELBRANCH
-"
-            
+'
 )
         
 )
@@ -873,21 +862,19 @@ self
 .
 default_matches_hg_branch
 (
-                
 [
 r
-"
+'
 GECKOVIEW_
 \
 d
 +
 _RELBRANCH
-"
+'
 ]
-"
+'
 GECKOVIEW_62_RELBRANCH
-"
-            
+'
 )
         
 )
@@ -896,26 +883,24 @@ self
 .
 assertFalse
 (
-            
 self
 .
 default_matches_hg_branch
 (
 [
 r
-"
+'
 GECKOVIEW_
 \
 d
 +
 _RELBRANCH
-"
+'
 ]
-"
+'
 default
-"
+'
 )
-        
 )
     
 def
@@ -929,9 +914,9 @@ tasks
 =
 {
             
-"
+'
 a
-"
+'
 :
 Task
 (
@@ -940,9 +925,9 @@ kind
 None
 label
 =
-"
+'
 a
-"
+'
 attributes
 =
 {
@@ -953,9 +938,9 @@ task
 }
 )
             
-"
+'
 b
-"
+'
 :
 Task
 (
@@ -964,21 +949,21 @@ kind
 None
 label
 =
-"
+'
 b
-"
+'
 attributes
 =
 {
-"
+'
 at
 -
 at
-"
+'
 :
-"
+'
 yep
-"
+'
 }
 task
 =
@@ -986,39 +971,37 @@ task
 }
 )
             
-"
+'
 c
-"
+'
 :
 Task
 (
-                
 kind
 =
 None
 label
 =
-"
+'
 c
-"
+'
 attributes
 =
 {
-"
+'
 run_on_projects
-"
+'
 :
 [
-"
+'
 try
-"
+'
 ]
 }
 task
 =
 {
 }
-            
 )
         
 }
@@ -1031,9 +1014,9 @@ nodes
 =
 set
 (
-"
+'
 abc
-"
+'
 )
 edges
 =
@@ -1115,35 +1098,35 @@ target_tasks
 .
 get_method
 (
-"
+'
 try_tasks
-"
+'
 )
         
 params
 =
 {
             
-"
+'
 try_mode
-"
+'
 :
 None
             
-"
+'
 project
-"
+'
 :
-"
+'
 try
-"
+'
             
-"
+'
 message
-"
+'
 :
-"
-"
+'
+'
         
 }
         
@@ -1201,9 +1184,9 @@ target_tasks
 .
 get_method
 (
-"
+'
 try_tasks
-"
+'
 )
         
 with
@@ -1218,25 +1201,25 @@ params
 =
 {
                 
-"
+'
 try_mode
-"
+'
 :
-"
+'
 try_option_syntax
-"
+'
                 
-"
+'
 message
-"
+'
 :
-"
+'
 try
 :
 -
 p
 all
-"
+'
             
 }
             
@@ -1252,9 +1235,9 @@ params
 }
 )
 [
-"
+'
 b
-"
+'
 ]
 )
     
@@ -1289,36 +1272,36 @@ target_tasks
 .
 get_method
 (
-"
+'
 try_tasks
-"
+'
 )
         
 params
 =
 {
             
-"
+'
 try_mode
-"
+'
 :
-"
+'
 try_task_config
-"
+'
             
-"
+'
 try_task_config
-"
+'
 :
 {
-"
+'
 tasks
-"
+'
 :
 [
-"
+'
 a
-"
+'
 ]
 }
         
@@ -1336,9 +1319,9 @@ params
 }
 )
 [
-"
+'
 a
-"
+'
 ]
 )
 #
@@ -1416,7 +1399,6 @@ filter_tests_without_manifests
             
 Task
 (
-                
 kind
 =
 "
@@ -1430,21 +1412,20 @@ a
 attributes
 =
 {
-"
+'
 test_manifests
-"
+'
 :
 [
-"
+'
 foo
-"
+'
 ]
 }
 task
 =
 {
 }
-            
 )
             
 None
@@ -1483,9 +1464,9 @@ a
 attributes
 =
 {
-"
+'
 test_manifests
-"
+'
 :
 None
 }
@@ -1531,9 +1512,9 @@ a
 attributes
 =
 {
-"
+'
 test_manifests
-"
+'
 :
 None
 }
@@ -1587,9 +1568,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

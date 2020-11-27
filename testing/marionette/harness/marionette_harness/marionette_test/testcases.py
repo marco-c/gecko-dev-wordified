@@ -86,8 +86,12 @@ marionette_driver
 .
 errors
 import
+(
+    
 TimeoutException
+    
 UnresponsiveInstanceException
+)
 from
 mozlog
 import
@@ -319,9 +323,9 @@ func
 .
 __name__
 +
-"
+'
 _
-"
+'
 +
 str
 (
@@ -332,7 +336,7 @@ wrapper
 .
 __doc__
 =
-"
+'
 [
 {
 0
@@ -341,7 +345,7 @@ __doc__
 {
 1
 }
-"
+'
 .
 format
 (
@@ -407,7 +411,7 @@ re
 compile
 (
 r
-"
+'
 [
 \
 .
@@ -418,7 +422,7 @@ r
 -
 /
 ]
-"
+'
 )
     
 def
@@ -454,9 +458,9 @@ and
 hasattr
 (
 v
-"
+'
 metaparameters
-"
+'
 )
 :
                 
@@ -478,9 +482,9 @@ RE_ESCAPE_BAD_CHARS
 .
 sub
 (
-"
+'
 _
-"
+'
 func_suffix
 )
                     
@@ -505,7 +509,6 @@ attrs
 raise
 KeyError
 (
-                            
 "
 {
 0
@@ -520,17 +523,15 @@ on
 1
 }
 "
+                                       
 .
 format
 (
-                                
 wrapper
 .
 __name__
 name
-                            
 )
-                        
 )
                     
 attrs
@@ -647,12 +648,12 @@ kwargs
 .
 pop
 (
-"
+'
 expected
-"
-"
+'
+'
 pass
-"
+'
 )
         
 self
@@ -706,9 +707,9 @@ addSkip
 getattr
 (
 result
-"
+'
 addSkip
-"
+'
 None
 )
         
@@ -732,7 +733,6 @@ warnings
 .
 warn
 (
-                
 "
 TestResult
 has
@@ -743,11 +743,9 @@ skips
 not
 reported
 "
-                
+                          
 RuntimeWarning
-                
 2
-            
 )
             
 result
@@ -760,19 +758,18 @@ self
 def
 assertRaisesRegxp
 (
-        
 self
 expected_exception
 expected_regexp
 callable_obj
 =
 None
+                          
 *
 args
 *
 *
 kwargs
-    
 )
 :
         
@@ -781,24 +778,18 @@ six
 .
 assertRaisesRegex
 (
-            
 self
-            
 expected_exception
-            
 expected_regexp
-            
+                                     
 callable_obj
 =
 None
-            
 *
 args
-            
 *
 *
 kwargs
-        
 )
     
 def
@@ -880,7 +871,6 @@ warnings
 .
 warn
 (
-                    
 "
 TestResult
 has
@@ -888,15 +878,13 @@ no
 addExpectedFailure
 method
 "
-                    
+                              
 "
 reporting
 as
 passes
 "
-                    
 RuntimeWarning
-                
 )
                 
 result
@@ -939,9 +927,9 @@ startTestRun
 getattr
 (
 result
-"
+'
 startTestRun
-"
+'
 None
 )
             
@@ -974,6 +962,7 @@ _testMethodName
 )
         
 if
+(
 getattr
 (
 self
@@ -985,15 +974,15 @@ __unittest_skip__
 False
 )
 or
+                
 getattr
 (
-            
 testMethod
 "
 __unittest_skip__
 "
 False
-        
+)
 )
 :
             
@@ -1012,28 +1001,29 @@ try
                 
 skip_why
 =
+(
 getattr
 (
-                    
 self
 .
 __class__
-"
+'
 __unittest_skip_why__
-"
-"
-"
-                
+'
+'
+'
 )
 or
+                            
 getattr
 (
 testMethod
-"
+'
 __unittest_skip_why__
-"
-"
-"
+'
+'
+'
+)
 )
                 
 self
@@ -1193,9 +1183,9 @@ self
 expected
 =
 =
-"
+'
 fail
-"
+'
 :
                         
 try
@@ -1285,9 +1275,9 @@ addUnexpectedSuccess
 getattr
 (
 result
-"
+'
 addUnexpectedSuccess
-"
+'
 None
 )
                     
@@ -1310,7 +1300,6 @@ warnings
 .
 warn
 (
-                            
 "
 TestResult
 has
@@ -1318,15 +1307,14 @@ no
 addUnexpectedSuccess
 method
 "
-                            
+                                      
 "
 reporting
 as
 failures
 "
-                            
+                                      
 RuntimeWarning
-                        
 )
                         
 result
@@ -1534,9 +1522,9 @@ stopTestRun
 getattr
 (
 result
-"
+'
 stopTestRun
-"
+'
 None
 )
                 
@@ -1631,27 +1619,18 @@ classmethod
 def
 add_tests_to_suite
 (
-        
 cls
-        
 mod_name
-        
 filepath
-        
 suite
-        
 testloader
-        
 marionette
-        
+                           
 fixtures
-        
 testvars
-        
 *
 *
 kwargs
-    
 )
 :
         
@@ -1716,7 +1695,7 @@ filepath
 )
         
 return
-"
+'
 {
 0
 }
@@ -1727,21 +1706,21 @@ return
 {
 2
 }
-"
+'
 .
 format
 (
-            
 rel_path
+                                    
 self
 .
 __class__
 .
 __name__
+                                    
 self
 .
 _testMethodName
-        
 )
     
 def
@@ -2090,13 +2069,13 @@ path
 .
 replace
 (
-"
+'
 \
 \
-"
-"
+'
+'
 /
-"
+'
 )
         
 return
@@ -2130,23 +2109,22 @@ py
 def
 __init__
 (
-        
 self
 marionette_weakref
 fixtures
 methodName
 =
-"
+'
 runTest
-"
+'
+                 
 filepath
 =
-"
-"
+'
+'
 *
 *
 kwargs
-    
 )
 :
         
@@ -2164,9 +2142,9 @@ kwargs
 .
 pop
 (
-"
+'
 testvars
-"
+'
 None
 )
         
@@ -2180,19 +2158,15 @@ __init__
 (
             
 methodName
-            
 marionette_weakref
 =
 marionette_weakref
-            
 fixtures
 =
 fixtures
-            
 *
 *
 kwargs
-        
 )
     
 classmethod
@@ -2200,27 +2174,18 @@ classmethod
 def
 add_tests_to_suite
 (
-        
 cls
-        
 mod_name
-        
 filepath
-        
 suite
-        
 testloader
-        
 marionette
-        
+                           
 fixtures
-        
 testvars
-        
 *
 *
 kwargs
-    
 )
 :
         
@@ -2399,6 +2364,7 @@ name
 )
             
 if
+(
 isinstance
 (
 obj
@@ -2407,12 +2373,14 @@ six
 class_types
 )
 and
+                    
 issubclass
 (
 obj
 unittest
 .
 TestCase
+)
 )
 :
                 
@@ -2435,37 +2403,33 @@ suite
 .
 addTest
 (
-                        
 obj
 (
-                            
 weakref
 .
 ref
 (
 marionette
 )
-                            
+                                      
 fixtures
-                            
+                                      
 methodName
 =
 testname
-                            
+                                      
 filepath
 =
 filepath
-                            
+                                      
 testvars
 =
 testvars
-                            
+                                      
 *
 *
 kwargs
-                        
 )
-                    
 )
     
 def

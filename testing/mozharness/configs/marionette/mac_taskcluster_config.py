@@ -164,7 +164,6 @@ windows
 "
 python
 "
-                
 "
 .
 .
@@ -200,7 +199,6 @@ configuration
 .
 json
 "
-            
 ]
             
 "

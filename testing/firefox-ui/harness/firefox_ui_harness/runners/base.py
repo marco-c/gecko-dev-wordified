@@ -112,9 +112,9 @@ self
 .
 app
 =
-"
+'
 fxdesktop
-"
+'
         
 #
 low
@@ -145,13 +145,13 @@ fixed
         
 moz_log
 =
-"
-"
+'
+'
         
 if
-"
+'
 MOZ_LOG
-"
+'
 in
 os
 .
@@ -164,9 +164,9 @@ os
 .
 environ
 [
-"
+'
 MOZ_LOG
-"
+'
 ]
         
 if
@@ -181,25 +181,25 @@ moz_log
 moz_log
 +
 =
-"
-"
+'
+'
         
 moz_log
 +
 =
-"
+'
 UrlClassifierStreamUpdater
 :
 1
-"
+'
         
 os
 .
 environ
 [
-"
+'
 MOZ_LOG
-"
+'
 ]
 =
 moz_log
@@ -252,11 +252,11 @@ join
 self
 .
 workspace_path
-"
+'
 application
 .
 copy
-"
+'
 )
         
 else
@@ -268,12 +268,12 @@ tempfile
 .
 mkdtemp
 (
-"
+'
 .
 application
 .
 copy
-"
+'
 )
         
 self
@@ -352,10 +352,10 @@ binary
 .
 find
 (
-"
+'
 .
 app
-"
+'
 )
 +
 4

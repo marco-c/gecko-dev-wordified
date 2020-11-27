@@ -626,10 +626,10 @@ tmpl
 .
 startswith
 (
-"
+'
 \
 n
-"
+'
 )
 :
         
@@ -839,10 +839,10 @@ text
 .
 replace
 (
-"
-"
-"
-"
+'
+'
+'
+'
 )
 inline
 {
@@ -863,9 +863,9 @@ compile
 (
     
 r
-"
-"
-"
+'
+'
+'
     
 \
 (
@@ -943,9 +943,9 @@ reporting
     
 )
     
-"
-"
-"
+'
+'
+'
     
 re
 .
@@ -966,10 +966,10 @@ context
 :
     
 assert
-"
+'
 \
 n
-"
+'
 not
 in
 raw
@@ -1036,9 +1036,9 @@ line
 .
 startswith
 (
-"
+'
 #
-"
+'
 )
 :
         
@@ -1071,9 +1071,9 @@ match
 .
 group
 (
-"
+'
 invalid
-"
+'
 )
 is
 not
@@ -1173,9 +1173,9 @@ match
 .
 group
 (
-"
+'
 escaped
-"
+'
 )
 is
 not
@@ -1188,8 +1188,8 @@ append
 (
 VerbatimNode
 (
-"
-"
+'
+'
 )
 )
             
@@ -1212,9 +1212,9 @@ match
 .
 group
 (
-"
+'
 list
-"
+'
 )
         
 expr
@@ -1223,9 +1223,9 @@ match
 .
 group
 (
-"
+'
 expr
-"
+'
 )
         
 assert
@@ -1344,6 +1344,7 @@ line
         
 inline
 =
+(
 match
 .
 span
@@ -1356,6 +1357,7 @@ span
 len
 (
 line
+)
 )
 )
         
@@ -1396,8 +1398,8 @@ and
 list_chr
 =
 =
-"
-"
+'
+'
 :
                 
 children
@@ -1406,8 +1408,8 @@ append
 (
 VerbatimNode
 (
-"
-"
+'
+'
 )
 )
             
@@ -1593,8 +1595,8 @@ children
 return
 VerbatimNode
 (
-"
-"
+'
+'
 )
     
 #
@@ -1623,8 +1625,8 @@ insert
 0
 VerbatimNode
 (
-"
-"
+'
+'
 indent
 =
 True

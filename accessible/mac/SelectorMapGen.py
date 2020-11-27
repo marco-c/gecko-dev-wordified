@@ -345,7 +345,6 @@ re
 .
 findall
 (
-        
 r
 "
 #
@@ -378,11 +377,11 @@ end
 )
 )
 "
+                          
 protocol
 re
 .
 DOTALL
-    
 )
     
 for
@@ -440,7 +439,6 @@ re
 .
 findall
 (
-        
 r
 "
 #
@@ -473,11 +471,11 @@ end
 )
 )
 "
+                          
 protocol
 re
 .
 DOTALL
-    
 )
     
 fd

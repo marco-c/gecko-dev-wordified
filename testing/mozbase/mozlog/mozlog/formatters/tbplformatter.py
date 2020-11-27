@@ -399,7 +399,6 @@ self
 .
 _log
 (
-            
 {
 "
 level
@@ -408,6 +407,7 @@ level
 "
 INFO
 "
+                          
 "
 message
 "
@@ -417,13 +417,13 @@ message
 "
 *
 count
+                          
 "
 component
 "
 :
 component
 }
-        
 )
     
 output_subtests
@@ -457,9 +457,9 @@ data
 .
 get
 (
-"
+'
 component
-"
+'
 )
 :
             
@@ -548,9 +548,9 @@ pid
 =
 data
 [
-"
+'
 process
-"
+'
 ]
         
 if
@@ -563,11 +563,11 @@ isdigit
             
 pid
 =
-"
+'
 PID
 %
 s
-"
+'
 %
 pid
         
@@ -586,9 +586,9 @@ n
 pid
 data
 [
-"
+'
 data
-"
+'
 ]
 )
     
@@ -617,47 +617,47 @@ s
 %
 data
 [
-"
+'
 process
-"
+'
 ]
         
 if
-"
+'
 command
-"
+'
 in
 data
 :
             
 msg
 =
-"
+'
 %
 s
 (
 %
 s
 )
-"
+'
 %
 (
 msg
 data
 [
-"
+'
 command
-"
+'
 ]
 )
         
 return
 msg
 +
-"
+'
 \
 n
-"
+'
     
 output_subtests
     
@@ -687,17 +687,18 @@ n
 (
 data
 [
-"
+'
 process
-"
+'
 ]
+                                         
 strstatus
 (
 data
 [
-"
+'
 exitcode
-"
+'
 ]
 )
 )
@@ -1092,7 +1093,6 @@ rv
 .
 append
 (
-                    
 "
 minidump_stackwalk
 exited
@@ -1102,15 +1102,14 @@ code
 %
 d
 "
-                    
 %
+                          
 data
 [
 "
 stackwalk_returncode
 "
 ]
-                
 )
             
 if
@@ -1215,9 +1214,9 @@ itervalues
 (
 data
 [
-"
+'
 tests
-"
+'
 ]
 )
 0
@@ -1321,7 +1320,6 @@ rv
 .
 append
 (
-                    
 self
 .
 _format_subtests
@@ -1338,7 +1336,6 @@ subtract_context
 =
 True
 )
-                
 )
                 
 rv
@@ -1460,6 +1457,7 @@ data
 min_expected
 "
 ]
+                                     
 data
 [
 "
@@ -1580,6 +1578,7 @@ else
 return
         
 return
+(
 "
 %
 s
@@ -1601,28 +1600,24 @@ assertions
 n
 "
 %
+                
 (
-            
 status
-            
 data
 [
 "
 test
 "
 ]
-            
 data
 [
 "
 count
 "
 ]
-            
 comparison
-            
 expected
-        
+)
 )
     
 def
@@ -1798,14 +1793,12 @@ n
 (
                     
 status
-                    
 data
 [
 "
 test
 "
 ]
-                    
 data
 [
 "
@@ -1814,7 +1807,6 @@ subtest
 ]
                     
 message
-                
 )
                 
 if
@@ -1881,14 +1873,12 @@ n
 (
             
 status
-            
 data
 [
 "
 test
 "
 ]
-            
 data
 [
 "
@@ -1897,7 +1887,6 @@ subtest
 ]
             
 message
-        
 )
     
 def
@@ -1935,12 +1924,10 @@ rv
 .
 append
 (
-                
 self
 .
 _format_subtests
 (
-                    
 data
 .
 get
@@ -1949,12 +1936,11 @@ get
 component
 "
 )
+                                            
 subtract_context
 =
 print_context
-                
 )
-            
 )
             
 if
@@ -2094,7 +2080,6 @@ screenshots
 screenshot_msg
 =
 (
-                    
 "
 \
 nREFTEST
@@ -2116,7 +2101,7 @@ s
 \
 n
 "
-                    
+                                  
 "
 REFTEST
 IMAGE
@@ -2135,10 +2120,10 @@ base64
 %
 s
 "
-                
 )
 %
 (
+                                      
 screenshots
 [
 0
@@ -2148,6 +2133,7 @@ screenshots
 screenshot
 "
 ]
+                                      
 screenshots
 [
 2
@@ -2172,7 +2158,6 @@ screenshots
 screenshot_msg
 =
 (
-                    
 "
 \
 nREFTEST
@@ -2188,8 +2173,8 @@ base64
 %
 s
 "
-                    
 %
+                                  
 screenshots
 [
 0
@@ -2199,16 +2184,15 @@ screenshots
 screenshot
 "
 ]
-                
 )
         
 status
 =
 data
 [
-"
+'
 status
-"
+'
 ]
         
 if
@@ -2365,11 +2349,8 @@ data
 status
 "
 ]
-                    
 test_id
-                    
 message
-                
 )
                 
 if
@@ -2468,19 +2449,19 @@ rv
 .
 append
 (
-"
+'
 |
-"
+'
 .
 join
 (
 sections
 )
 +
-"
+'
 \
 n
-"
+'
 )
         
 if
@@ -2617,9 +2598,9 @@ ERROR
 +
 data
 [
-"
+'
 primary
-"
+'
 ]
 +
 "
@@ -2632,9 +2613,9 @@ line
 in
 data
 [
-"
+'
 secondary
-"
+'
 ]
 :
             
@@ -2724,23 +2705,23 @@ else
         
 data
 [
-"
+'
 rule
-"
+'
 ]
 =
 data
 [
-"
+'
 rule
-"
+'
 ]
 or
 data
 [
-"
+'
 linter
-"
+'
 ]
 or
 "
@@ -2823,14 +2804,12 @@ FAIL
 suffix
 =
 (
-            
 "
 "
-            
 if
 not
 allowed_match
-            
+                  
 else
 "
 INFO
@@ -2847,10 +2826,8 @@ leak
 \
 n
 "
-            
 %
 allowed_match
-        
 )
         
 return
@@ -2906,7 +2883,6 @@ ERROR
         
 return
 (
-            
 "
 %
 s
@@ -2914,7 +2890,7 @@ s
 LeakSanitizer
 |
 "
-            
+                
 "
 SUMMARY
 :
@@ -2936,8 +2912,8 @@ s
 )
 .
 "
-            
 %
+                
 (
 level
 data
@@ -2953,7 +2929,6 @@ allocations
 "
 ]
 )
-        
 )
     
 def
@@ -2965,6 +2940,7 @@ data
 :
         
 return
+(
 "
 TEST
 -
@@ -2983,29 +2959,27 @@ s
 n
 "
 %
+                
 (
-            
 data
 [
 "
 process
 "
 ]
-            
 data
 [
 "
 bytes
 "
 ]
-            
 data
 [
 "
 name
 "
 ]
-        
+)
 )
     
 def
@@ -3055,7 +3029,6 @@ False
                 
 return
 (
-                    
 "
 TEST
 -
@@ -3075,7 +3048,7 @@ log
 \
 n
 "
-                    
+                        
 %
 data
 [
@@ -3083,7 +3056,6 @@ data
 process
 "
 ]
-                
 )
             
 if
@@ -3100,7 +3072,6 @@ False
                 
 return
 (
-                    
 "
 TEST
 -
@@ -3109,7 +3080,7 @@ INFO
 leakcheck
 |
 "
-                    
+                        
 "
 %
 s
@@ -3123,20 +3094,18 @@ leaks
 \
 n
 "
-                    
 %
+                        
 data
 [
 "
 process
 "
 ]
-                
 )
             
 return
 (
-                
 "
 TEST
 -
@@ -3147,7 +3116,7 @@ FAIL
 leakcheck
 |
 "
-                
+                    
 "
 %
 s
@@ -3162,13 +3131,13 @@ leaks
 n
 "
 %
+                    
 data
 [
 "
 process
 "
 ]
-            
 )
         
 if
@@ -3184,6 +3153,7 @@ bytes
 :
             
 return
+(
 "
 TEST
 -
@@ -3201,12 +3171,14 @@ detected
 n
 "
 %
+                    
 data
 [
 "
 process
 "
 ]
+)
         
 #
 Create
@@ -3259,8 +3231,8 @@ max_objects
         
 object_summary
 =
-"
-"
+'
+'
 .
 join
 (
@@ -3293,11 +3265,11 @@ max_objects
 object_summary
 +
 =
-"
+'
 .
 .
 .
-"
+'
         
 message
 =
@@ -3326,16 +3298,13 @@ data
 process
 "
 ]
-            
 data
 [
 "
 bytes
 "
 ]
-            
 object_summary
-        
 )
         
 #
@@ -3424,27 +3393,27 @@ counts
 =
 summary
 [
-"
+'
 counts
-"
+'
 ]
         
 logs
 =
 summary
 [
-"
+'
 unexpected_logs
-"
+'
 ]
         
 intermittent_logs
 =
 summary
 [
-"
+'
 intermittent_logs
-"
+'
 ]
         
 total
@@ -3457,9 +3426,9 @@ summary
 .
 aggregate
 (
-"
+'
 count
-"
+'
 counts
 )
 .
@@ -3478,9 +3447,9 @@ summary
 .
 aggregate
 (
-"
+'
 expected
-"
+'
 counts
 )
 .
@@ -3493,29 +3462,25 @@ intermittents
 =
 sum
 (
-            
 self
 .
 summary
 .
 aggregate
 (
-"
+'
 known_intermittent
-"
+'
 counts
 )
 .
 values
 (
 )
-        
 )
         
 known
 =
-(
-            
 "
 (
 {
@@ -3530,15 +3495,11 @@ format
 (
 intermittents
 )
-            
 if
 intermittents
-            
 else
 "
 "
-        
-)
         
 status_str
 =

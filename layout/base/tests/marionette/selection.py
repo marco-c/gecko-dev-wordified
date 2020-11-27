@@ -122,7 +122,6 @@ self
 .
 sequence
 (
-            
 "
 pointer
 "
@@ -138,7 +137,6 @@ pointerType
 mouse
 "
 }
-        
 )
         
 self
@@ -302,15 +300,15 @@ el_y
 =
 rect
 [
-"
+'
 x
-"
+'
 ]
 rect
 [
-"
+'
 y
-"
+'
 ]
         
 #
@@ -373,21 +371,25 @@ pointer_move
 from_x
 from_y
 )
+\
+                        
 .
 pointer_down
 (
 )
+\
+                        
 .
 pointer_move
 (
-            
 to_x
 to_y
 duration
 =
 duration
-        
 )
+\
+                        
 .
 pointer_up
 (
@@ -532,9 +534,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
 Interface
 for
 manipulating
@@ -602,9 +604,9 @@ move_caret_to_front
 (
 )
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -627,9 +629,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 True
 if
@@ -644,9 +646,9 @@ or
 textarea
 >
 .
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -656,12 +658,12 @@ element
 tag_name
 in
 (
-"
+'
 input
-"
-"
+'
+'
 textarea
-"
+'
 )
     
 def
@@ -671,9 +673,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 a
 command
@@ -731,9 +733,9 @@ execute_script
 )
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -762,9 +764,9 @@ side
 .
             
 return
-"
-"
-"
+'
+'
+'
 var
 sel
 =
@@ -777,17 +779,17 @@ editor
 .
 selection
 ;
-"
-"
-"
+'
+'
+'
         
 else
 :
             
 return
-"
-"
-"
+'
+'
+'
 var
 sel
 =
@@ -797,9 +799,9 @@ getSelection
 (
 )
 ;
-"
-"
-"
+'
+'
+'
     
 def
 move_cursor_by_offset
@@ -812,9 +814,9 @@ False
 )
 :
         
-"
-"
-"
+'
+'
+'
 Move
 cursor
 in
@@ -859,24 +861,21 @@ move
 forward
 .
         
-"
-"
-"
+'
+'
+'
         
 cmd
 =
-(
-            
 self
 .
 js_selection_cmd
 (
 )
-            
 +
-"
-"
-"
+'
+'
+'
               
 for
 (
@@ -919,26 +918,22 @@ character
 }
 }
               
-"
-"
-"
+'
+'
+'
 .
 format
 (
-                
 offset
-"
+'
 backward
-"
+'
 if
 backward
 else
-"
+'
 forward
-"
-            
-)
-        
+'
 )
         
 self
@@ -960,10 +955,9 @@ element
 )
 sandbox
 =
-"
+'
 system
-"
-        
+'
 )
     
 def
@@ -973,9 +967,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Move
 cursor
 in
@@ -988,9 +982,9 @@ of
 the
 content
 .
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -1002,9 +996,9 @@ _input_or_textarea
             
 cmd
 =
-"
-"
-"
+'
+'
+'
 arguments
 [
 0
@@ -1016,18 +1010,18 @@ setSelectionRange
 0
 )
 ;
-"
-"
-"
+'
+'
+'
         
 else
 :
             
 cmd
 =
-"
-"
-"
+'
+'
+'
 var
 sel
 =
@@ -1051,9 +1045,9 @@ firstChild
 0
 )
 ;
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -1075,7 +1069,6 @@ element
 sandbox
 =
 None
-        
 )
     
 def
@@ -1085,9 +1078,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Move
 cursor
 in
@@ -1100,9 +1093,9 @@ of
 the
 content
 .
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -1114,9 +1107,9 @@ _input_or_textarea
             
 cmd
 =
-"
-"
-"
+'
+'
+'
 var
 len
 =
@@ -1141,18 +1134,18 @@ len
 len
 )
 ;
-"
-"
-"
+'
+'
+'
         
 else
 :
             
 cmd
 =
-"
-"
-"
+'
+'
+'
 var
 sel
 =
@@ -1183,9 +1176,9 @@ lastChild
 length
 )
 ;
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -1207,7 +1200,6 @@ element
 sandbox
 =
 None
-        
 )
     
 def
@@ -1218,9 +1210,9 @@ idx
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 selection
@@ -1283,24 +1275,23 @@ current
 selection
 .
         
-"
-"
-"
+'
+'
+'
         
 cmd
 =
-(
-            
 self
 .
 js_selection_cmd
 (
 )
-            
 +
-"
-"
-"
+\
+            
+'
+'
+'
 return
 sel
 .
@@ -1314,15 +1305,13 @@ getClientRects
 (
 )
 ;
-"
-"
-"
+'
+'
+'
 .
 format
 (
 idx
-)
-        
 )
         
 return
@@ -1345,10 +1334,9 @@ element
 )
 sandbox
 =
-"
+'
 system
-"
-        
+'
 )
     
 def
@@ -1358,18 +1346,18 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Get
 selection
 '
 s
 range
 count
-"
-"
-"
+'
+'
+'
         
 cmd
 =
@@ -1379,17 +1367,19 @@ js_selection_cmd
 (
 )
 +
-"
-"
-"
+\
+            
+'
+'
+'
 return
 sel
 .
 rangeCount
 ;
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -1411,10 +1401,9 @@ element
 )
 sandbox
 =
-"
+'
 system
-"
-        
+'
 )
     
 def
@@ -1425,9 +1414,9 @@ location_type
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 start
@@ -1491,9 +1480,9 @@ are
 considered
 .
         
-"
-"
-"
+'
+'
+'
         
 range_count
 =
@@ -1527,23 +1516,20 @@ last_list_length
 =
 last_rect_list
 [
-"
+'
 length
-"
+'
 ]
         
 first_rect
 last_rect
 =
-(
-            
 first_rect_list
 [
-"
+'
 0
-"
+'
 ]
-            
 last_rect_list
 [
 str
@@ -1554,8 +1540,6 @@ last_list_length
 )
 ]
         
-)
-        
 origin_x
 origin_y
 =
@@ -1565,9 +1549,9 @@ element
 .
 rect
 [
-"
+'
 x
-"
+'
 ]
 self
 .
@@ -1575,9 +1559,9 @@ element
 .
 rect
 [
-"
+'
 y
-"
+'
 ]
         
 if
@@ -1587,15 +1571,15 @@ element
 .
 get_property
 (
-"
+'
 dir
-"
+'
 )
 =
 =
-"
+'
 rtl
-"
+'
 :
 #
 such
@@ -1605,12 +1589,12 @@ Arabic
 start_pos
 end_pos
 =
-"
+'
 right
-"
-"
+'
+'
 left
-"
+'
         
 else
 :
@@ -1618,12 +1602,12 @@ else
 start_pos
 end_pos
 =
-"
+'
 left
-"
-"
+'
+'
 right
-"
+'
         
 #
 Calculate
@@ -1639,18 +1623,18 @@ if
 location_type
 =
 =
-"
+'
 center
-"
+'
 :
             
 start_y_offset
 =
 first_rect
 [
-"
+'
 height
-"
+'
 ]
 /
 2
@@ -1661,9 +1645,9 @@ end_y_offset
 =
 last_rect
 [
-"
+'
 height
-"
+'
 ]
 /
 2
@@ -1674,9 +1658,9 @@ elif
 location_type
 =
 =
-"
+'
 caret
-"
+'
 :
             
 #
@@ -1718,9 +1702,9 @@ start_y_offset
 =
 first_rect
 [
-"
+'
 height
-"
+'
 ]
 +
 caret_tip_y_offset
@@ -1729,9 +1713,9 @@ end_y_offset
 =
 last_rect
 [
-"
+'
 height
-"
+'
 ]
 +
 caret_tip_y_offset
@@ -1758,9 +1742,9 @@ caret1_y
 =
 first_rect
 [
-"
+'
 top
-"
+'
 ]
 +
 start_y_offset
@@ -1780,9 +1764,9 @@ caret2_y
 =
 last_rect
 [
-"
+'
 top
-"
+'
 ]
 +
 end_y_offset
@@ -1808,9 +1792,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 start
@@ -1873,18 +1857,18 @@ are
 considered
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
 .
 _selection_location_helper
 (
-"
+'
 center
-"
+'
 )
     
 def
@@ -1894,9 +1878,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 a
 pair
@@ -1953,18 +1937,18 @@ are
 considered
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
 .
 _selection_location_helper
 (
-"
+'
 caret
-"
+'
 )
     
 def
@@ -1974,9 +1958,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 blanking
@@ -2016,18 +2000,18 @@ the
 element
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
 .
 _selection_location_helper
 (
-"
+'
 center
-"
+'
 )
 [
 0
@@ -2040,9 +2024,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 first
@@ -2079,9 +2063,9 @@ the
 element
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -2100,9 +2084,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 second
@@ -2139,9 +2123,9 @@ the
 element
 .
         
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -2160,9 +2144,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Select
 all
 the
@@ -2171,9 +2155,9 @@ in
 the
 element
 .
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -2185,9 +2169,9 @@ _input_or_textarea
             
 cmd
 =
-"
-"
-"
+'
+'
+'
 var
 len
 =
@@ -2222,18 +2206,18 @@ setSelectionRange
 len
 )
 ;
-"
-"
-"
+'
+'
+'
         
 else
 :
             
 cmd
 =
-"
-"
-"
+'
+'
+'
 var
 range
 =
@@ -2303,9 +2287,9 @@ addRange
 range
 )
 ;
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -2327,7 +2311,6 @@ element
 sandbox
 =
 None
-        
 )
     
 property
@@ -2339,9 +2322,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 all
 the
@@ -2350,9 +2333,9 @@ of
 the
 element
 .
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -2369,9 +2352,9 @@ element
 .
 get_property
 (
-"
+'
 value
-"
+'
 )
         
 else
@@ -2393,9 +2376,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 selected
@@ -2407,9 +2390,9 @@ in
 the
 element
 .
-"
-"
-"
+'
+'
+'
         
 cmd
 =
@@ -2419,9 +2402,11 @@ js_selection_cmd
 (
 )
 +
-"
-"
-"
+\
+            
+'
+'
+'
 return
 sel
 .
@@ -2429,9 +2414,9 @@ toString
 (
 )
 ;
-"
-"
-"
+'
+'
+'
         
 return
 self
@@ -2453,8 +2438,7 @@ element
 )
 sandbox
 =
-"
+'
 system
-"
-        
+'
 )

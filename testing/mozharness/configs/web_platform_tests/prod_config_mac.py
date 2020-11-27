@@ -403,7 +403,6 @@ windows
 "
 python
 "
-                
 "
 .
 .
@@ -439,7 +438,6 @@ configuration
 .
 json
 "
-            
 ]
             
 "

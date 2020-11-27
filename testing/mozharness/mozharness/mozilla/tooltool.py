@@ -35,17 +35,18 @@ PythonErrorList
 +
 [
 {
-"
+    
+'
 substr
-"
+'
 :
-"
+'
 ERROR
 -
-"
-"
+'
+'
 level
-"
+'
 :
 ERROR
 }
@@ -75,7 +76,6 @@ path
 .
 normpath
 (
-    
 os
 .
 path
@@ -83,17 +83,18 @@ path
 join
 (
 _here
-"
+'
 .
 .
-"
-"
+'
+'
 .
 .
-"
-"
+'
+                                                     
+'
 external_tools
-"
+'
 )
 )
 class
@@ -204,9 +205,9 @@ the
 token
         
 if
-"
+'
 tooltool_authentication_file
-"
+'
 in
 self
 .
@@ -219,9 +220,9 @@ self
 .
 config
 [
-"
+'
 tooltool_authentication_file
-"
+'
 ]
         
 elif
@@ -235,7 +236,7 @@ _is_windows
 fn
 =
 r
-"
+'
 c
 :
 \
@@ -244,21 +245,21 @@ builds
 relengapi
 .
 tok
-"
+'
         
 else
 :
             
 fn
 =
-"
+'
 /
 builds
 /
 relengapi
 .
 tok
-"
+'
         
 #
 if
@@ -336,6 +337,7 @@ tooltool_fetch
 (
 self
 manifest
+                       
 output_dir
 =
 None
@@ -372,9 +374,9 @@ environ
 .
 get
 (
-"
+'
 TOOLTOOL_CACHE
-"
+'
 )
         
 for
@@ -423,11 +425,10 @@ cmd
 sys
 .
 executable
-                
-"
+'
 -
 u
-"
+'
                 
 os
 .
@@ -438,23 +439,23 @@ join
 self
 .
 topsrcdir
-"
+'
 mach
-"
+'
 )
                 
-"
+'
 artifact
-"
+'
                 
-"
+'
 toolchain
-"
+'
                 
-"
+'
 -
 v
-"
+'
             
 ]
         
@@ -468,11 +469,10 @@ cmd
 sys
 .
 executable
-                
-"
+'
 -
 u
-"
+'
                 
 os
 .
@@ -481,11 +481,11 @@ path
 join
 (
 _external_tools_path
-"
+'
 tooltool
 .
 py
-"
+'
 )
             
 ]
@@ -523,13 +523,13 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 authentication
 -
 file
-"
+'
 auth_file
 ]
 )
@@ -545,13 +545,13 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 tooltool
 -
 manifest
-"
+'
 manifest
 ]
 )
@@ -560,15 +560,15 @@ cmd
 .
 extend
 (
-                
 [
-"
+'
 -
 -
 artifact
 -
 manifest
-"
+'
+                        
 os
 .
 path
@@ -578,14 +578,13 @@ join
 self
 .
 topsrcdir
-"
+'
 toolchains
 .
 json
-"
+'
 )
 ]
-            
 )
         
 else
@@ -596,18 +595,18 @@ cmd
 extend
 (
 [
-"
+'
 fetch
-"
-"
+'
+'
 -
 m
-"
+'
 manifest
-"
+'
 -
 o
-"
+'
 ]
 )
         
@@ -620,22 +619,22 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 cache
 -
 dir
-"
+'
 if
 self
 .
 topsrcdir
 else
-"
+'
 -
 c
-"
+'
 cache
 ]
 )
@@ -648,9 +647,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_TOOLCHAINS
-"
+'
 )
         
 if
@@ -668,7 +667,7 @@ raise
 Exception
 (
                     
-"
+'
 MOZ_TOOLCHAINS
 is
 not
@@ -676,15 +675,14 @@ supported
 for
 tasks
 without
-"
+'
                     
-"
+'
 a
 source
 checkout
 .
-"
-                
+'
 )
             
 cmd
@@ -706,9 +704,9 @@ config
 .
 get
 (
-"
+'
 tooltool_timeout
-"
+'
 10
 *
 60
@@ -732,31 +730,30 @@ cmd
 kwargs
 =
 {
-                
-"
+'
 cwd
-"
+'
 :
 output_dir
-                
-"
+                    
+'
 error_list
-"
+'
 :
 TooltoolErrorList
-                
-"
+                    
+'
 privileged
-"
+'
 :
 privileged
-                
-"
+                    
+'
 output_timeout
-"
+'
 :
 timeout
-            
+                    
 }
             
 good_statuses
@@ -849,15 +846,15 @@ join
 (
 dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 tooltool
 .
 tt
-"
+'
 )
         
 self

@@ -799,7 +799,7 @@ msg
     
 print
 (
-"
+'
 TEST
 -
 UNEXPECTED
@@ -810,7 +810,7 @@ check_vanilla_allocations
 .
 py
 |
-"
+'
 msg
 )
     
@@ -838,22 +838,20 @@ parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 aggressive
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                        
 help
 =
-"
+'
 also
 check
 for
@@ -862,30 +860,30 @@ calloc
 realloc
 and
 free
-"
-    
+'
 )
     
 parser
 .
 add_argument
 (
-"
+'
 file
-"
+'
 type
 =
 str
+                        
 help
 =
-"
+'
 name
 of
 the
 file
 to
 check
-"
+'
 )
     
 args
@@ -943,31 +941,31 @@ substs
 .
 get
 (
-"
+'
 NM
-"
+'
 )
 or
-"
+'
 nm
-"
+'
     
 cmd
 =
 [
 nm
-"
+'
 -
 u
-"
-"
+'
+'
 -
 C
-"
-"
+'
+'
 -
 A
-"
+'
 args
 .
 file
@@ -979,25 +977,24 @@ subprocess
 .
 check_output
 (
-        
 cmd
 universal_newlines
 =
 True
+                                    
 stderr
 =
 subprocess
 .
 PIPE
-    
 )
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
     
 #
@@ -1053,13 +1050,13 @@ long
 .
         
 r
-"
+'
 operator
 new
 \
 (
 unsigned
-"
+'
         
 #
 Matches
@@ -1088,7 +1085,7 @@ long
 .
         
 r
-"
+'
 operator
 new
 \
@@ -1098,12 +1095,12 @@ new
 \
 (
 unsigned
-"
+'
         
 r
-"
+'
 memalign
-"
+'
         
 #
 These
@@ -1148,26 +1145,32 @@ alloc_fns
 +
 =
 [
+            
 r
-"
+'
 malloc
-"
+'
+            
 r
-"
+'
 calloc
-"
+'
+            
 r
-"
+'
 realloc
-"
+'
+            
 r
-"
+'
 free
-"
+'
+            
 r
-"
+'
 strdup
-"
+'
+        
 ]
     
 #
@@ -1190,12 +1193,12 @@ fn
 .
 replace
 (
-"
+'
 \
 \
-"
-"
-"
+'
+'
+'
 )
 for
 fn
@@ -1249,7 +1252,7 @@ malloc
 alloc_fns_re
 =
 r
-"
+'
 (
 [
 ^
@@ -1264,12 +1267,12 @@ s
 +
 U
 (
-"
+'
 +
 r
-"
+'
 |
-"
+'
 .
 join
 (
@@ -1277,9 +1280,9 @@ alloc_fns
 )
 +
 r
-"
+'
 )
-"
+'
     
 #
 This
@@ -1387,12 +1390,12 @@ _M_start_thread
 .
         
 if
-"
+'
 stdc
 +
 +
 compat
-"
+'
 in
 filename
 :
@@ -1554,11 +1557,11 @@ if
 filename
 =
 =
-"
+'
 umutex
 .
 o
-"
+'
 :
             
 continue
@@ -1578,11 +1581,11 @@ if
 filename
 =
 =
-"
+'
 Decimal
 .
 o
-"
+'
 :
             
 continue
@@ -1600,11 +1603,11 @@ if
 filename
 =
 =
-"
+'
 Utility
 .
 o
-"
+'
 :
             
 util_Utility_cpp
@@ -1767,8 +1770,7 @@ util_Utility_cpp
         
 fail
 (
-            
-"
+'
 unexpected
 allocation
 fns
@@ -1780,17 +1782,16 @@ Utility
 .
 cpp
 :
-"
-            
+'
 +
-"
-"
+             
+'
+'
 .
 join
 (
 util_Utility_cpp
 )
-        
 )
     
 #
@@ -1860,7 +1861,7 @@ emit_line_info
         
 print
 (
-"
+'
 check_vanilla_allocations
 .
 py
@@ -1871,13 +1872,12 @@ with
 allocation
 calls
 :
-"
+'
 )
         
 print
 (
-            
-"
+'
 check_vanilla_allocations
 .
 py
@@ -1887,9 +1887,9 @@ in
 unoptimized
 builds
 ;
-"
-            
-"
+'
+              
+'
 util
 /
 Utility
@@ -1897,8 +1897,7 @@ Utility
 cpp
 expected
 .
-"
-        
+'
 )
         
 #
@@ -1943,21 +1942,21 @@ symbol
 cmd
 =
 [
-"
+'
 nm
-"
-"
+'
+'
 -
 u
-"
-"
+'
+'
 -
 C
-"
-"
+'
+'
 -
 l
-"
+'
 args
 .
 file
@@ -1969,25 +1968,24 @@ subprocess
 .
 check_output
 (
-            
 cmd
 universal_newlines
 =
 True
+                                        
 stderr
 =
 subprocess
 .
 PIPE
-        
 )
 .
 split
 (
-"
+'
 \
 n
-"
+'
 )
         
 #
@@ -2033,16 +2031,16 @@ cpp
 alloc_lines_re
 =
 r
-"
+'
 U
 (
 (
-"
+'
 +
 r
-"
+'
 |
-"
+'
 .
 join
 (
@@ -2050,7 +2048,7 @@ alloc_fns
 )
 +
 r
-"
+'
 )
 .
 *
@@ -2067,7 +2065,7 @@ S
 d
 +
 )
-"
+'
         
 for
 line
@@ -2091,30 +2089,29 @@ m
                 
 print
 (
-                    
-"
+'
 check_vanilla_allocations
 .
 py
 :
-"
+'
+                      
 m
 .
 group
 (
 1
 )
-"
+'
 called
 at
-"
+'
 m
 .
 group
 (
 3
 )
-                
 )
     
 if
@@ -2130,7 +2127,7 @@ exit
     
 print
 (
-"
+'
 TEST
 -
 PASS
@@ -2140,7 +2137,7 @@ check_vanilla_allocations
 py
 |
 ok
-"
+'
 )
     
 sys
@@ -2153,9 +2150,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

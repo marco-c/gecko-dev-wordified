@@ -63,17 +63,17 @@ import
 setup
 VERSION
 =
-"
+'
 1
 .
 0
 .
 0
-"
+'
 DEPS
 =
 [
-"
+'
 six
 >
 =
@@ -82,20 +82,20 @@ six
 10
 .
 0
-"
+'
 ]
 setup
 (
     
 name
 =
-"
+'
 mozterm
-"
+'
     
 description
 =
-"
+'
 Terminal
 abstractions
 built
@@ -104,44 +104,44 @@ the
 blessings
 module
 .
-"
+'
     
 license
 =
-"
+'
 MPL
 2
 .
 0
-"
+'
     
 author
 =
-"
+'
 Andrew
 Halberstadt
-"
+'
     
 author_email
 =
-"
+'
 ahalberstadt
 mozilla
 .
 com
-"
+'
     
 url
 =
-"
-"
+'
+'
     
 packages
 =
 [
-"
+'
 mozterm
-"
+'
 ]
     
 version
@@ -152,14 +152,14 @@ classifiers
 =
 [
         
-"
+'
 Environment
 :
 :
 Console
-"
+'
         
-"
+'
 Development
 Status
 :
@@ -167,9 +167,9 @@ Status
 3
 -
 Alpha
-"
+'
         
-"
+'
 License
 :
 :
@@ -189,17 +189,17 @@ MPL
 .
 0
 )
-"
+'
         
-"
+'
 Natural
 Language
 :
 :
 English
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -208,9 +208,9 @@ Python
 :
 :
 2
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -221,9 +221,9 @@ Python
 2
 .
 7
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -232,9 +232,9 @@ Python
 :
 :
 3
-"
+'
         
-"
+'
 Programming
 Language
 :
@@ -245,7 +245,7 @@ Python
 3
 .
 5
-"
+'
     
 ]
     

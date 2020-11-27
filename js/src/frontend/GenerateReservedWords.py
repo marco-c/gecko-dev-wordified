@@ -121,9 +121,9 @@ with
 open
 (
 filename
-"
+'
 r
-"
+'
 )
 as
 f
@@ -169,6 +169,7 @@ index
 1
     
 assert
+(
 len
 (
 reserved_word_list
@@ -176,6 +177,7 @@ reserved_word_list
 !
 =
 0
+)
     
 return
 reserved_word_list
@@ -189,32 +191,32 @@ s
     
 opt
 [
-"
+'
 output
-"
+'
 ]
 .
 write
 (
-"
+'
 {
 }
 {
 }
 \
 n
-"
+'
 .
 format
 (
-"
-"
+'
+'
 *
 opt
 [
-"
+'
 indent_level
-"
+'
 ]
 s
 )
@@ -228,9 +230,9 @@ opt
     
 opt
 [
-"
+'
 indent_level
-"
+'
 ]
 +
 =
@@ -244,9 +246,9 @@ opt
     
 opt
 [
-"
+'
 indent_level
-"
+'
 ]
 -
 =
@@ -260,6 +262,7 @@ column
 :
     
 assert
+(
 len
 (
 reserved_word_list
@@ -267,6 +270,7 @@ reserved_word_list
 !
 =
 0
+)
     
 chars_dict
 =
@@ -332,6 +336,7 @@ unprocessed_columns
 :
     
 assert
+(
 len
 (
 reserved_word_list
@@ -339,12 +344,15 @@ reserved_word_list
 !
 =
 0
+)
     
 assert
+(
 unprocessed_columns
 !
 =
 0
+)
     
 min_count
 =
@@ -385,10 +393,12 @@ index
 )
         
 assert
+(
 span
 !
 =
 0
+)
         
 if
 span
@@ -398,20 +408,24 @@ span
 :
             
 assert
+(
 count
 =
 =
 1
+)
             
 return
 1
 True
         
 assert
+(
 count
 !
 =
 1
+)
         
 if
 index
@@ -457,9 +471,9 @@ min_count
 =
 opt
 [
-"
+'
 use_if_threshold
-"
+'
 ]
 :
         
@@ -479,6 +493,7 @@ column
 :
     
 assert
+(
 len
 (
 reserved_word_list
@@ -486,6 +501,7 @@ reserved_word_list
 !
 =
 0
+)
     
 column_dict
 =
@@ -539,6 +555,7 @@ generate_letter_switch
 opt
 unprocessed_columns
 reserved_word_list
+                           
 columns
 =
 None
@@ -546,6 +563,7 @@ None
 :
     
 assert
+(
 len
 (
 reserved_word_list
@@ -553,6 +571,7 @@ reserved_word_list
 !
 =
 0
+)
     
 if
 not
@@ -595,7 +614,7 @@ unprocessed_columns
 line
 (
 opt
-"
+'
 JSRW_GOT_MATCH
 (
 {
@@ -607,7 +626,7 @@ JSRW_GOT_MATCH
 }
 *
 /
-"
+'
 .
 format
 (
@@ -623,16 +642,16 @@ unprocessed_columns
 >
 opt
 [
-"
+'
 char_tail_test_threshold
-"
+'
 ]
 :
             
 line
 (
 opt
-"
+'
 JSRW_TEST_GUESS
 (
 {
@@ -644,7 +663,7 @@ JSRW_TEST_GUESS
 }
 *
 /
-"
+'
 .
 format
 (
@@ -685,7 +704,7 @@ conds
 .
 append
 (
-"
+'
 JSRW_AT
 (
 {
@@ -695,7 +714,7 @@ JSRW_AT
 =
 {
 }
-"
+'
 .
 format
 (
@@ -707,7 +726,7 @@ quoted
 line
 (
 opt
-"
+'
 if
 (
 {
@@ -715,14 +734,14 @@ if
 )
 {
 {
-"
+'
 .
 format
 (
-"
+'
 &
 &
-"
+'
 .
 join
 (
@@ -739,7 +758,7 @@ opt
 line
 (
 opt
-"
+'
 JSRW_GOT_MATCH
 (
 {
@@ -751,7 +770,7 @@ JSRW_GOT_MATCH
 }
 *
 /
-"
+'
 .
 format
 (
@@ -768,40 +787,42 @@ opt
 line
 (
 opt
-"
+'
 }
-"
+'
 )
         
 line
 (
 opt
-"
+'
 JSRW_NO_MATCH
 (
 )
-"
+'
 )
         
 return
     
 assert
+(
 unprocessed_columns
 !
 =
 0
+)
     
 optimal_column_index
 use_if
 =
 optimal_switch_column
 (
-        
 opt
 reserved_word_list
+                                                         
 columns
+                                                         
 unprocessed_columns
-    
 )
     
 optimal_column
@@ -857,7 +878,7 @@ use_if
 line
 (
 opt
-"
+'
 switch
 (
 JSRW_AT
@@ -868,7 +889,7 @@ JSRW_AT
 )
 {
 {
-"
+'
 .
 format
 (
@@ -897,7 +918,7 @@ use_if
 line
 (
 opt
-"
+'
 if
 (
 JSRW_AT
@@ -912,11 +933,12 @@ JSRW_AT
 )
 {
 {
-"
+'
 .
 format
 (
 optimal_column
+                                                         
 quoted
 )
 )
@@ -927,12 +949,12 @@ else
 line
 (
 opt
-"
+'
 case
 {
 }
 :
-"
+'
 .
 format
 (
@@ -947,14 +969,13 @@ opt
         
 generate_letter_switch
 (
-            
 opt
 unprocessed_columns
 -
 1
+                               
 reserved_word_list_per_column
 columns
-        
 )
         
 dedent
@@ -969,9 +990,9 @@ use_if
 line
 (
 opt
-"
+'
 }
-"
+'
 )
     
 if
@@ -982,19 +1003,19 @@ use_if
 line
 (
 opt
-"
+'
 }
-"
+'
 )
     
 line
 (
 opt
-"
+'
 JSRW_NO_MATCH
 (
 )
-"
+'
 )
 def
 split_list_per_length
@@ -1004,6 +1025,7 @@ reserved_word_list
 :
     
 assert
+(
 len
 (
 reserved_word_list
@@ -1011,6 +1033,7 @@ reserved_word_list
 !
 =
 0
+)
     
 length_dict
 =
@@ -1067,6 +1090,7 @@ reserved_word_list
 :
     
 assert
+(
 len
 (
 reserved_word_list
@@ -1074,22 +1098,21 @@ reserved_word_list
 !
 =
 0
-    
-line
-(
-opt
-"
-/
-*
-"
 )
     
 line
 (
-        
 opt
-        
-"
+'
+/
+*
+'
+)
+    
+line
+(
+opt
+'
 *
 Generating
 switch
@@ -1101,18 +1124,15 @@ of
 }
 entries
 :
-"
+'
 .
 format
 (
-            
 len
 (
 reserved_word_list
 )
-        
 )
-    
 )
     
 for
@@ -1125,11 +1145,11 @@ reserved_word_list
 line
 (
 opt
-"
+'
 *
 {
 }
-"
+'
 .
 format
 (
@@ -1140,10 +1160,10 @@ word
 line
 (
 opt
-"
+'
 *
 /
-"
+'
 )
     
 list_per_length
@@ -1165,9 +1185,9 @@ list_per_length
 <
 opt
 [
-"
+'
 use_if_threshold
-"
+'
 ]
 :
         
@@ -1183,7 +1203,7 @@ use_if
 line
 (
 opt
-"
+'
 switch
 (
 JSRW_LENGTH
@@ -1191,7 +1211,7 @@ JSRW_LENGTH
 )
 )
 {
-"
+'
 )
     
 for
@@ -1208,7 +1228,7 @@ use_if
 line
 (
 opt
-"
+'
 if
 (
 JSRW_LENGTH
@@ -1221,7 +1241,7 @@ JSRW_LENGTH
 )
 {
 {
-"
+'
 .
 format
 (
@@ -1235,12 +1255,12 @@ else
 line
 (
 opt
-"
+'
 case
 {
 }
 :
-"
+'
 .
 format
 (
@@ -1272,9 +1292,9 @@ use_if
 line
 (
 opt
-"
+'
 }
-"
+'
 )
     
 if
@@ -1285,19 +1305,19 @@ use_if
 line
 (
 opt
-"
+'
 }
-"
+'
 )
     
 line
 (
 opt
-"
+'
 JSRW_NO_MATCH
 (
 )
-"
+'
 )
 def
 main
@@ -1318,27 +1338,27 @@ opt
 =
 {
         
-"
+'
 indent_level
-"
+'
 :
 1
         
-"
+'
 use_if_threshold
-"
+'
 :
 3
         
-"
+'
 char_tail_test_threshold
-"
+'
 :
 4
         
-"
+'
 output
-"
+'
 :
 output
     
@@ -1353,9 +1373,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

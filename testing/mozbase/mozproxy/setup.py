@@ -261,13 +261,13 @@ entry_points
 =
 {
         
-"
+'
 console_scripts
-"
+'
 :
 [
             
-"
+'
 mozproxy
 =
 mozproxy
@@ -275,7 +275,7 @@ mozproxy
 driver
 :
 main
-"
+'
         
 ]
     

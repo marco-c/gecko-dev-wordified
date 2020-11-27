@@ -424,13 +424,13 @@ join
 self
 .
 path
-"
+'
 VERSION
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -500,13 +500,13 @@ shell_name
             
 name
 =
-"
+'
 {
 }
 -
 {
 }
-"
+'
 .
 format
 (
@@ -522,72 +522,72 @@ perfherder_data
 =
 {
             
-"
+'
 framework
-"
+'
 :
 {
                 
-"
+'
 name
-"
+'
 :
-"
+'
 js
 -
 bench
-"
+'
             
 }
             
-"
+'
 suites
-"
+'
 :
 [
                 
 {
                     
-"
+'
 lowerIsBetter
-"
+'
 :
 self
 .
 lower_is_better
                     
-"
+'
 name
-"
+'
 :
 name
                     
-"
+'
 shouldAlert
-"
+'
 :
 self
 .
 should_alert
                     
-"
+'
 subtests
-"
+'
 :
 [
 ]
                     
-"
+'
 unit
-"
+'
 :
 self
 .
 unit
                     
-"
+'
 value
-"
+'
 :
 None
                 
@@ -605,9 +605,9 @@ self
 .
 perfherder_data
 [
-"
+'
 suites
-"
+'
 ]
 [
 0
@@ -664,9 +664,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_FETCHES_DIR
-"
+'
 )
         
 if
@@ -758,62 +758,62 @@ Bug
         
 env
 [
-"
+'
 JSGC_DISABLE_POISONING
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 process_args
 =
 {
             
-"
+'
 cmd
-"
+'
 :
 self
 .
 command
             
-"
+'
 cwd
-"
+'
 :
 self
 .
 path
             
-"
+'
 onFinish
-"
+'
 :
 self
 .
 collect_results
             
-"
+'
 processOutputLine
-"
+'
 :
 self
 .
 process_line
             
-"
+'
 stream
-"
+'
 :
 sys
 .
 stdout
             
-"
+'
 env
-"
+'
 :
 env
         
@@ -935,22 +935,22 @@ self
 .
 suite
 [
-"
+'
 subtests
-"
+'
 ]
 .
 append
 (
 {
-"
+'
 name
-"
+'
 :
 test_name
-"
+'
 value
-"
+'
 :
 mean
 }
@@ -971,9 +971,9 @@ self
 .
 suite
 [
-"
+'
 value
-"
+'
 ]
 =
 bench_total
@@ -986,9 +986,9 @@ Benchmark
     
 name
 =
-"
+'
 ares6
-"
+'
     
 path
 =
@@ -998,27 +998,27 @@ path
 .
 join
 (
-"
+'
 third_party
-"
-"
+'
+'
 webkit
-"
-"
+'
+'
 PerformanceTests
-"
-"
+'
+'
 ARES
 -
 6
-"
+'
 )
     
 unit
 =
-"
+'
 ms
-"
+'
     
 property
     
@@ -1043,11 +1043,11 @@ return
 cmd
 +
 [
-"
+'
 cli
 .
 js
-"
+'
 ]
     
 def
@@ -1137,7 +1137,7 @@ search
 (
 score_name
 +
-"
+'
 :
 \
 s
@@ -1162,7 +1162,7 @@ d
 ?
 .
 +
-"
+'
 line
 )
         
@@ -1261,9 +1261,9 @@ self
 .
 _try_find_score
 (
-"
+'
 firstIteration
-"
+'
 line
 )
 :
@@ -1275,9 +1275,9 @@ self
 .
 _try_find_score
 (
-"
+'
 averageWorstCase
-"
+'
 line
 )
 :
@@ -1289,9 +1289,9 @@ self
 .
 _try_find_score
 (
-"
+'
 steadyState
-"
+'
 line
 )
 :
@@ -1304,7 +1304,7 @@ re
 .
 search
 (
-"
+'
 summary
 :
 \
@@ -1330,7 +1330,7 @@ d
 ?
 .
 +
-"
+'
 line
 )
         
@@ -1415,22 +1415,22 @@ self
 .
 suite
 [
-"
+'
 subtests
-"
+'
 ]
 .
 append
 (
 {
-"
+'
 name
-"
+'
 :
 test_name
-"
+'
 value
-"
+'
 :
 mean
 }
@@ -1446,9 +1446,9 @@ self
 .
 suite
 [
-"
+'
 value
-"
+'
 ]
 =
 self
@@ -1463,11 +1463,11 @@ RunOnceBenchmark
     
 name
 =
-"
+'
 six
 -
 speed
-"
+'
     
 path
 =
@@ -1477,27 +1477,27 @@ path
 .
 join
 (
-"
+'
 third_party
-"
-"
+'
+'
 webkit
-"
-"
+'
+'
 PerformanceTests
-"
-"
+'
+'
 six
 -
 speed
-"
+'
 )
     
 unit
 =
-"
+'
 ms
-"
+'
     
 property
     
@@ -1522,11 +1522,11 @@ return
 cmd
 +
 [
-"
+'
 test
 .
 js
-"
+'
 ]
     
 def
@@ -1698,9 +1698,9 @@ RunOnceBenchmark
     
 name
 =
-"
+'
 sunspider
-"
+'
     
 path
 =
@@ -1710,20 +1710,19 @@ path
 .
 join
 (
-        
-"
+'
 third_party
-"
-"
+'
+'
 webkit
-"
-"
+'
+'
 PerformanceTests
-"
-"
+'
+'
 SunSpider
-"
-"
+'
+'
 sunspider
 -
 0
@@ -1731,15 +1730,14 @@ sunspider
 9
 .
 1
-"
-    
+'
 )
     
 unit
 =
-"
+'
 ms
-"
+'
     
 property
     
@@ -1764,7 +1762,7 @@ return
 cmd
 +
 [
-"
+'
 sunspider
 -
 standalone
@@ -1772,7 +1770,7 @@ standalone
 driver
 .
 js
-"
+'
 ]
     
 def
@@ -1944,13 +1942,13 @@ Benchmark
     
 name
 =
-"
+'
 web
 -
 tooling
 -
 benchmark
-"
+'
     
 path
 =
@@ -1960,39 +1958,37 @@ path
 .
 join
 (
-        
-"
+'
 third_party
-"
-"
+'
+'
 webkit
-"
-"
+'
+'
 PerformanceTests
-"
-"
+'
+'
 web
 -
 tooling
 -
 benchmark
-"
-    
+'
 )
     
 main_js
 =
-"
+'
 cli
 .
 js
-"
+'
     
 unit
 =
-"
+'
 score
-"
+'
     
 lower_is_better
 =
@@ -2292,47 +2288,46 @@ self
 .
 suite
 [
-"
+'
 subtests
-"
+'
 ]
 .
 append
 (
-                    
 {
-                        
-"
+                    
+'
 lowerIsBetter
-"
+'
 :
 self
 .
 subtests_lower_is_better
-                        
-"
+                    
+'
 name
-"
+'
 :
 test_name
-                        
-"
+                    
+'
 value
-"
+'
 :
 mean
-                    
-}
                 
+}
 )
+;
                 
 if
 score_name
 =
 =
-"
+'
 mean
-"
+'
 :
                     
 bench_mean
@@ -2343,9 +2338,9 @@ self
 .
 suite
 [
-"
+'
 value
-"
+'
 ]
 =
 bench_mean
@@ -2382,9 +2377,9 @@ RunOnceBenchmark
     
 name
 =
-"
+'
 octane
-"
+'
     
 path
 =
@@ -2394,25 +2389,25 @@ path
 .
 join
 (
-"
+'
 third_party
-"
-"
+'
+'
 webkit
-"
-"
+'
+'
 PerformanceTests
-"
-"
+'
+'
 octane
-"
+'
 )
     
 unit
 =
-"
+'
 score
-"
+'
     
 lower_is_better
 =
@@ -2441,11 +2436,11 @@ return
 cmd
 +
 [
-"
+'
 run
 .
 js
-"
+'
 ]
     
 def
@@ -2565,17 +2560,17 @@ subtest
 .
 startswith
 (
-"
+'
 Score
-"
+'
 )
 :
             
 subtest
 =
-"
+'
 score
-"
+'
         
 if
 subtest
@@ -2710,22 +2705,22 @@ self
 .
 suite
 [
-"
+'
 subtests
-"
+'
 ]
 .
 append
 (
 {
-"
+'
 name
-"
+'
 :
 test_name
-"
+'
 value
-"
+'
 :
 mean
 }
@@ -2735,9 +2730,9 @@ if
 score_name
 =
 =
-"
+'
 score
-"
+'
 :
                     
 bench_score
@@ -2748,9 +2743,9 @@ self
 .
 suite
 [
-"
+'
 value
-"
+'
 ]
 =
 bench_score
@@ -2782,39 +2777,39 @@ all_benchmarks
 =
 {
     
-"
+'
 ares6
-"
+'
 :
 Ares6
     
-"
+'
 six
 -
 speed
-"
+'
 :
 SixSpeed
     
-"
+'
 sunspider
-"
+'
 :
 SunSpider
     
-"
+'
 web
 -
 tooling
 -
 benchmark
-"
+'
 :
 WebToolingBenchmark
     
-"
+'
 octane
-"
+'
 :
 Octane
 }
@@ -2853,17 +2848,17 @@ join
 build
 .
 bindir
-"
+'
 js
-"
+'
 +
 build
 .
 substs
 [
-"
+'
 BIN_SUFFIX
-"
+'
 ]
 )
         
@@ -2907,7 +2902,6 @@ get
 benchmark
 )
 (
-        
 binary
 args
 =
@@ -2915,7 +2909,6 @@ extra_args
 shell_name
 =
 perfherder
-    
 )
     
 res
@@ -2970,11 +2963,9 @@ parser
 .
 add_argument
 (
-        
-"
+'
 benchmark
-"
-        
+'
 choices
 =
 all_benchmarks
@@ -2982,7 +2973,7 @@ all_benchmarks
 keys
 (
 )
-        
+                        
 help
 =
 "
@@ -2995,26 +2986,25 @@ to
 run
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 b
-"
-"
+'
+'
 -
 -
 binary
-"
+'
 default
 =
 None
+                        
 help
 =
 "
@@ -3028,36 +3018,31 @@ to
 use
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 arg
-"
-        
+'
 dest
 =
-"
+'
 extra_args
-"
-        
+'
 action
 =
-"
+'
 append
-"
-        
+'
 default
 =
 None
-        
+                        
 help
 =
 "
@@ -3071,24 +3056,21 @@ JS
 shell
 .
 "
-    
 )
     
 parser
 .
 add_argument
 (
-        
-"
+'
 -
 -
 perfherder
-"
-        
+'
 default
 =
 None
-        
+                        
 help
 =
 "
@@ -3103,7 +3085,6 @@ suite
 name
 .
 "
-    
 )
     
 return
@@ -3152,9 +3133,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

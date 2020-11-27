@@ -63,18 +63,18 @@ import
 setup
 PACKAGE_NAME
 =
-"
+'
 mozleak
-"
+'
 PACKAGE_VERSION
 =
-"
+'
 1
 .
 0
 .
 0
-"
+'
 setup
 (
     
@@ -128,8 +128,7 @@ html
 classifiers
 =
 [
-        
-"
+'
 Programming
 Language
 :
@@ -140,9 +139,9 @@ Python
 2
 .
 7
-"
-        
-"
+'
+                 
+'
 Programming
 Language
 :
@@ -153,8 +152,7 @@ Python
 3
 .
 5
-"
-    
+'
 ]
     
 #
@@ -180,34 +178,34 @@ list_classifiers
     
 keywords
 =
-"
+'
 mozilla
-"
+'
     
 author
 =
-"
+'
 Mozilla
 Automation
 and
 Tools
 team
-"
+'
     
 author_email
 =
-"
+'
 tools
 lists
 .
 mozilla
 .
 org
-"
+'
     
 url
 =
-"
+'
 https
 :
 /
@@ -225,20 +223,20 @@ tools
 Projects
 /
 Mozbase
-"
+'
     
 license
 =
-"
+'
 MPL
-"
+'
     
 packages
 =
 [
-"
+'
 mozleak
-"
+'
 ]
     
 zip_safe

@@ -252,11 +252,11 @@ open
 filename
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
 .
 read
@@ -269,9 +269,9 @@ config
 =
 glbl
 [
-"
+'
 DOMInterfaces
-"
+'
 ]
         
 webRoots
@@ -459,6 +459,7 @@ interfaces
 !
                 
 if
+(
 thing
 .
 interface
@@ -472,6 +473,7 @@ thing
 .
 filename
 (
+)
 )
 :
                     
@@ -539,6 +541,7 @@ n
 s
 "
 %
+                        
 (
 thing
 .
@@ -549,7 +552,6 @@ interface
 .
 location
 )
-                    
 )
             
 assert
@@ -562,14 +564,12 @@ isType
             
 if
 (
-                
 not
 thing
 .
 isInterface
 (
 )
-                
 and
 not
 thing
@@ -577,15 +577,14 @@ thing
 isNamespace
 (
 )
-                
 and
+                
 not
 thing
 .
 isInterfaceMixin
 (
 )
-            
 )
 :
                 
@@ -773,6 +772,7 @@ n
 s
 "
 %
+                            
 (
 partial
 .
@@ -781,7 +781,6 @@ thing
 .
 location
 )
-                        
 )
             
 #
@@ -824,7 +823,6 @@ isExternal
 if
 not
 (
-                    
 iface
 .
 getExtendedAttribute
@@ -833,8 +831,8 @@ getExtendedAttribute
 ChromeOnly
 "
 )
-                    
 or
+                        
 iface
 .
 getExtendedAttribute
@@ -843,7 +841,6 @@ getExtendedAttribute
 Func
 "
 )
-                    
 =
 =
 [
@@ -854,16 +851,16 @@ nsContentUtils
 IsCallerChromeOrFuzzingEnabled
 "
 ]
-                    
 or
+                        
 not
 iface
 .
 hasInterfaceObject
 (
 )
-                    
 or
+                        
 isInWebIDLRoot
 (
 iface
@@ -872,7 +869,6 @@ filename
 (
 )
 )
-                
 )
 :
                     
@@ -950,13 +946,13 @@ n
 s
 "
 %
+                        
 (
 webRoots
 iface
 .
 location
 )
-                    
 )
             
 self
@@ -1125,6 +1121,7 @@ interface
 filename
 (
 )
+                                              
 [
 ]
 )
@@ -1195,13 +1192,13 @@ self
 callbacks
 =
 [
-            
 c
 for
 c
 in
 parseData
 if
+                          
 c
 .
 isCallback
@@ -1214,7 +1211,6 @@ c
 isInterface
 (
 )
-        
 ]
         
 #
@@ -1623,7 +1619,6 @@ unionsForFilename
 [
                                     
 u
-                                    
 for
 u
 in
@@ -1732,17 +1727,16 @@ d
 in
 getDictionariesConvertedToJS
 (
-            
 self
 .
 descriptors
 self
 .
 dictionaries
+                                              
 self
 .
 callbacks
-        
 )
 :
             
@@ -1757,17 +1751,16 @@ d
 in
 getDictionariesConvertedFromJS
 (
-            
 self
 .
 descriptors
 self
 .
 dictionaries
+                                                
 self
 .
 callbacks
-        
 )
 :
             
@@ -1882,9 +1875,9 @@ if
 key
 =
 =
-"
+'
 webIDLFile
-"
+'
 :
                 
 #
@@ -1950,9 +1943,9 @@ elif
 key
 =
 =
-"
+'
 hasInterfaceObject
-"
+'
 :
                 
 getter
@@ -1972,9 +1965,9 @@ elif
 key
 =
 =
-"
+'
 hasInterfacePrototypeObject
-"
+'
 :
                 
 getter
@@ -1994,9 +1987,9 @@ elif
 key
 =
 =
-"
+'
 hasInterfaceOrInterfacePrototypeObject
-"
+'
 :
                 
 getter
@@ -2014,9 +2007,9 @@ elif
 key
 =
 =
-"
+'
 isCallback
-"
+'
 :
                 
 getter
@@ -2036,9 +2029,9 @@ elif
 key
 =
 =
-"
+'
 isJSImplemented
-"
+'
 :
                 
 getter
@@ -2058,9 +2051,9 @@ elif
 key
 =
 =
-"
+'
 isExposedInAnyWorker
-"
+'
 :
                 
 getter
@@ -2080,9 +2073,9 @@ elif
 key
 =
 =
-"
+'
 isExposedInWorkerDebugger
-"
+'
 :
                 
 getter
@@ -2102,9 +2095,9 @@ elif
 key
 =
 =
-"
+'
 isExposedInAnyWorklet
-"
+'
 :
                 
 getter
@@ -2124,9 +2117,9 @@ elif
 key
 =
 =
-"
+'
 isExposedInWindow
-"
+'
 :
                 
 getter
@@ -2146,9 +2139,9 @@ elif
 key
 =
 =
-"
+'
 isSerializable
-"
+'
 :
                 
 getter
@@ -2665,7 +2658,6 @@ booleans
 return
 bool
 (
-        
 (
 member
 .
@@ -2679,25 +2671,24 @@ isMethod
 (
 )
 )
-        
 and
+                
 not
 member
 .
 isStatic
 (
 )
-        
 and
+                
 (
-            
 member
 .
 isUnforgeable
 (
 )
-            
 or
+                 
 descriptor
 .
 interface
@@ -2708,9 +2699,7 @@ getExtendedAttribute
 Unforgeable
 "
 )
-        
 )
-    
 )
 class
 Descriptor
@@ -2774,6 +2763,7 @@ self
 .
 wantsXrays
 =
+(
 not
 interface
 .
@@ -2781,10 +2771,12 @@ isExternal
 (
 )
 and
+                           
 interface
 .
 isExposedInWindow
 (
+)
 )
         
 if
@@ -2896,12 +2888,14 @@ self
 .
 wantsXrayExpandoClass
 =
+(
 interface
 .
 totalMembersInSlots
 !
 =
 0
+)
         
 #
 Read
@@ -3055,9 +3049,9 @@ desc
 .
 get
 (
-"
+'
 nativeType
-"
+'
 nativeTypeDefault
 )
         
@@ -3161,9 +3155,9 @@ desc
 .
 get
 (
-"
+'
 jsImplParent
-"
+'
 self
 .
 nativeType
@@ -3286,15 +3280,15 @@ basename
 .
 replace
 (
-"
+'
 .
 webidl
-"
-"
+'
+'
 Binding
 .
 h
-"
+'
 )
         
 else
@@ -3316,11 +3310,9 @@ interface
 .
 getExtendedAttribute
 (
-                
 "
 HeaderFile
 "
-            
 )
 :
                 
@@ -3399,9 +3391,9 @@ desc
 .
 get
 (
-"
+'
 headerFile
-"
+'
 headerDefault
 )
         
@@ -3470,9 +3462,9 @@ desc
 .
 get
 (
-"
+'
 notflattened
-"
+'
 False
 )
         
@@ -3484,9 +3476,9 @@ desc
 .
 get
 (
-"
+'
 register
-"
+'
 True
 )
         
@@ -3518,7 +3510,6 @@ descendant
 concreteDefault
 =
 (
-            
 not
 self
 .
@@ -3527,8 +3518,8 @@ interface
 isExternal
 (
 )
-            
 and
+                           
 not
 self
 .
@@ -3537,8 +3528,8 @@ interface
 isCallback
 (
 )
-            
 and
+                           
 not
 self
 .
@@ -3547,9 +3538,8 @@ interface
 isNamespace
 (
 )
-            
 and
-            
+                           
 #
 We
 '
@@ -3561,7 +3551,7 @@ that
 leaf
 interfaces
 are
-            
+                           
 #
 concrete
 ;
@@ -3573,7 +3563,7 @@ the
 point
 ?
 Also
-            
+                           
 #
 interfaces
 with
@@ -3581,7 +3571,7 @@ constructors
 had
 better
 be
-            
+                           
 #
 concrete
 ;
@@ -3592,9 +3582,8 @@ you
 construct
 them
 ?
-            
+                           
 (
-                
 not
 self
 .
@@ -3603,8 +3592,8 @@ interface
 hasChildInterfaces
 (
 )
-                
 or
+                            
 self
 .
 interface
@@ -3615,9 +3604,7 @@ ctor
 is
 not
 None
-            
 )
-        
 )
         
 self
@@ -3628,9 +3615,9 @@ desc
 .
 get
 (
-"
+'
 concrete
-"
+'
 concreteDefault
 )
         
@@ -3638,13 +3625,14 @@ self
 .
 hasUnforgeableMembers
 =
+(
 self
 .
 concrete
 and
+                                      
 any
 (
-            
 MemberIsUnforgeable
 (
 m
@@ -3653,12 +3641,13 @@ self
 for
 m
 in
+                                          
 self
 .
 interface
 .
 members
-        
+)
 )
         
 self
@@ -3667,54 +3656,54 @@ operations
 =
 {
             
-"
+'
 IndexedGetter
-"
+'
 :
 None
             
-"
+'
 IndexedSetter
-"
+'
 :
 None
             
-"
+'
 IndexedDeleter
-"
+'
 :
 None
             
-"
+'
 NamedGetter
-"
+'
 :
 None
             
-"
+'
 NamedSetter
-"
+'
 :
 None
             
-"
+'
 NamedDeleter
-"
+'
 :
 None
             
-"
+'
 Stringifier
-"
+'
 :
 None
             
-"
+'
 LegacyCaller
-"
+'
 :
 None
-        
+            
 }
         
 self
@@ -3885,9 +3874,9 @@ isStringifier
                     
 addOperation
 (
-"
+'
 Stringifier
-"
+'
 m
 )
                 
@@ -4022,15 +4011,13 @@ instrumentedProps
 duplicates
 =
 [
-                        
 p
-                        
 for
 p
 in
 uniqueInstrumentedProps
-                        
 if
+                                  
 self
 .
 instrumentedProps
@@ -4041,13 +4028,11 @@ p
 )
 >
 1
-                    
 ]
                     
 raise
 TypeError
 (
-                        
 "
 Duplicated
 instrumented
@@ -4061,8 +4046,8 @@ n
 %
 s
 "
-                        
 %
+                                    
 (
 duplicates
 self
@@ -4071,7 +4056,6 @@ interface
 .
 location
 )
-                    
 )
         
 if
@@ -4149,7 +4133,6 @@ isIdentifierLess
 raise
 TypeError
 (
-                            
 "
 We
 don
@@ -4159,7 +4142,7 @@ support
 legacycaller
 with
 "
-                            
+                                        
 "
 identifier
 .
@@ -4172,7 +4155,6 @@ s
 m
 .
 location
-                        
 )
                     
 if
@@ -4192,7 +4174,6 @@ signatures
 raise
 TypeError
 (
-                            
 "
 We
 don
@@ -4201,7 +4182,7 @@ t
 support
 overloaded
 "
-                            
+                                        
 "
 legacycaller
 .
@@ -4214,14 +4195,13 @@ s
 m
 .
 location
-                        
 )
                     
 addOperation
 (
-"
+'
 LegacyCaller
-"
+'
 m
 )
             
@@ -4266,9 +4246,9 @@ isIndexed
                             
 operation
 =
-"
+'
 Indexed
-"
+'
 +
 operation
                         
@@ -4284,9 +4264,9 @@ isNamed
                             
 operation
 =
-"
+'
 Named
-"
+'
 +
 operation
                         
@@ -4306,9 +4286,9 @@ isGetter
                         
 addIndexedOrNamedOperation
 (
-"
+'
 Getter
-"
+'
 m
 )
                     
@@ -4322,9 +4302,9 @@ isSetter
                         
 addIndexedOrNamedOperation
 (
-"
+'
 Setter
-"
+'
 m
 )
                     
@@ -4338,9 +4318,9 @@ isDeleter
                         
 addIndexedOrNamedOperation
 (
-"
+'
 Deleter
-"
+'
 m
 )
                     
@@ -4362,7 +4342,6 @@ interface
 raise
 TypeError
 (
-                            
 "
 We
 don
@@ -4372,7 +4351,7 @@ support
 legacycaller
 on
 "
-                            
+                                        
 "
 non
 -
@@ -4387,22 +4366,22 @@ n
 s
 "
 %
+                                        
 (
 iface
 iface
 .
 location
 )
-                        
 )
                 
 iface
 .
 setUserData
 (
-"
+'
 hasConcreteDescendant
-"
+'
 True
 )
                 
@@ -4417,36 +4396,33 @@ self
 proxy
 =
 (
-                
 self
 .
 supportsIndexedProperties
 (
 )
-                
 or
+                          
 (
-                    
 self
 .
 supportsNamedProperties
 (
 )
 and
+                           
 not
 self
 .
 hasNamedPropertiesObject
-                
 )
-                
 or
+                          
 self
 .
 isMaybeCrossOriginObject
 (
 )
-            
 )
             
 if
@@ -4456,33 +4432,34 @@ proxy
 :
                 
 if
+(
 self
 .
 isMaybeCrossOriginObject
 (
 )
 and
-(
                     
+(
 self
 .
 supportsIndexedProperties
 (
 )
 or
+                     
 self
 .
 supportsNamedProperties
 (
 )
-                
+)
 )
 :
                     
 raise
 TypeError
 (
-                        
 "
 We
 don
@@ -4493,7 +4470,7 @@ named
 or
 indexed
 "
-                        
+                                    
 "
 properties
 on
@@ -4505,7 +4482,7 @@ origin
 objects
 .
 "
-                        
+                                    
 "
 This
 lets
@@ -4515,7 +4492,7 @@ that
 their
 proxy
 "
-                        
+                                    
 "
 hooks
 are
@@ -4525,7 +4502,7 @@ via
 Xrays
 .
 "
-                        
+                                    
 "
 Fix
 %
@@ -4537,6 +4514,7 @@ n
 s
 "
 %
+                                    
 (
 self
 .
@@ -4547,48 +4525,47 @@ interface
 .
 location
 )
-                    
 )
                 
 if
+(
 not
 self
 .
 operations
 [
-"
+'
 IndexedGetter
-"
+'
 ]
 and
+                    
 (
-                    
 self
 .
 operations
 [
-"
+'
 IndexedSetter
-"
+'
 ]
-                    
 or
+                     
 self
 .
 operations
 [
-"
+'
 IndexedDeleter
-"
+'
 ]
-                
+)
 )
 :
                     
 raise
 SyntaxError
 (
-                        
 "
 %
 s
@@ -4598,7 +4575,7 @@ properties
 but
 does
 "
-                        
+                                      
 "
 not
 have
@@ -4611,8 +4588,8 @@ n
 %
 s
 "
-                        
 %
+                                      
 (
 self
 .
@@ -4623,47 +4600,47 @@ interface
 .
 location
 )
-                    
 )
                 
 if
+(
 not
 self
 .
 operations
 [
-"
+'
 NamedGetter
-"
+'
 ]
 and
-(
                     
+(
 self
 .
 operations
 [
-"
+'
 NamedSetter
-"
+'
 ]
 or
+                     
 self
 .
 operations
 [
-"
+'
 NamedDeleter
-"
+'
 ]
-                
+)
 )
 :
                     
 raise
 SyntaxError
 (
-                        
 "
 %
 s
@@ -4673,7 +4650,7 @@ properties
 but
 does
 "
-                        
+                                      
 "
 not
 have
@@ -4686,8 +4663,8 @@ n
 %
 s
 "
-                        
 %
+                                      
 (
 self
 .
@@ -4698,7 +4675,6 @@ interface
 .
 location
 )
-                    
 )
                 
 iface
@@ -4715,9 +4691,9 @@ iface
 .
 setUserData
 (
-"
+'
 hasProxyDescendant
-"
+'
 True
 )
                     
@@ -4732,9 +4708,9 @@ desc
 .
 get
 (
-"
+'
 wantsQI
-"
+'
 None
 )
 is
@@ -4750,9 +4726,9 @@ desc
 .
 get
 (
-"
+'
 wantsQI
-"
+'
 None
 )
         
@@ -4761,7 +4737,6 @@ self
 wrapperCache
 =
 (
-            
 not
 self
 .
@@ -4770,8 +4745,8 @@ interface
 isCallback
 (
 )
-            
 and
+                             
 not
 self
 .
@@ -4780,18 +4755,17 @@ interface
 isIteratorInterface
 (
 )
-            
 and
+                             
 desc
 .
 get
 (
-"
+'
 wrapperCache
-"
+'
 True
 )
-        
 )
         
 self
@@ -4840,9 +4814,9 @@ self
 implicitJSContext
 =
 [
-"
+'
 constructor
-"
+'
 ]
         
 else
@@ -4856,9 +4830,9 @@ desc
 .
 get
 (
-"
+'
 implicitJSContext
-"
+'
 [
 ]
 )
@@ -4939,6 +4913,7 @@ member
 identifier
 .
 name
+                                                 
 binaryName
 [
 0
@@ -4977,6 +4952,7 @@ maybeAddBinaryName
 (
 member
 )
+;
             
 ctor
 =
@@ -5017,12 +4993,12 @@ _binaryNames
 .
 setdefault
 (
-"
+'
 __legacycaller
-"
-"
+'
+'
 LegacyCall
-"
+'
 )
             
 self
@@ -5031,12 +5007,12 @@ _binaryNames
 .
 setdefault
 (
-"
+'
 __stringifier
-"
-"
+'
+'
 Stringify
-"
+'
 )
             
 #
@@ -5076,8 +5052,8 @@ needsMissingPropUseCounters
 self
 .
 needsMissingPropUseCounters
-                    
 or
+                    
 parent
 .
 getExtendedAttribute
@@ -5086,7 +5062,6 @@ getExtendedAttribute
 InstrumentedProps
 "
 )
-                
 )
                 
 self
@@ -5115,17 +5090,16 @@ maxProtoChainLength
 =
 max
 (
-                
 config
 .
 maxProtoChainLength
+                                             
 len
 (
 self
 .
 prototypeChain
 )
-            
 )
     
 def
@@ -5223,7 +5197,6 @@ self
         
 return
 (
-            
 self
 .
 interface
@@ -5231,8 +5204,8 @@ interface
 hasInterfaceObject
 (
 )
-            
 or
+                
 self
 .
 interface
@@ -5240,7 +5213,6 @@ interface
 hasInterfacePrototypeObject
 (
 )
-        
 )
     
 property
@@ -5288,6 +5260,7 @@ name
 :
             
 if
+(
 attr
 is
 not
@@ -5297,6 +5270,7 @@ attr
 is
 not
 True
+)
 :
                 
 raise
@@ -5436,19 +5410,18 @@ needsSubjectPrincipal
             
 if
 (
-                
 needsSubjectPrincipal
 is
 not
 None
-                
 and
+                
 needsSubjectPrincipal
 is
 not
 True
-                
 and
+                
 needsSubjectPrincipal
 !
 =
@@ -5457,14 +5430,12 @@ needsSubjectPrincipal
 NonSystem
 "
 ]
-            
 )
 :
                 
 raise
 TypeError
 (
-                    
 "
 Unknown
 value
@@ -5476,13 +5447,12 @@ NeedsSubjectPrincipal
 %
 s
 "
-                    
 %
+                                
 needsSubjectPrincipal
 [
 0
 ]
-                
 )
             
 if
@@ -5543,11 +5513,9 @@ member
 .
 getExtendedAttribute
 (
-            
 "
 Throws
 "
-        
 )
         
 canOOM
@@ -5589,9 +5557,9 @@ attrs
 .
 append
 (
-"
+'
 implicitJSContext
-"
+'
 )
         
 if
@@ -5677,6 +5645,7 @@ canOOM
 maybeAppendNeedsSubjectPrincipalToAttrs
 (
 attrs
+                                                    
 needsSubjectPrincipal
 )
             
@@ -5781,15 +5750,12 @@ needsSubjectPrincipalAttr
 "
 GetterNeedsSubjectPrincipal
 "
-                
 if
 getter
-                
 else
 "
 SetterNeedsSubjectPrincipal
 "
-            
 )
             
 needsSubjectPrincipal
@@ -5800,7 +5766,6 @@ getExtendedAttribute
 (
                 
 needsSubjectPrincipalAttr
-            
 )
         
 maybeAppendNeedsSubjectPrincipalToAttrs
@@ -5824,9 +5789,9 @@ self
 .
 operations
 [
-"
+'
 IndexedGetter
-"
+'
 ]
 is
 not
@@ -5909,9 +5874,9 @@ self
 .
 operations
 [
-"
+'
 IndexedGetter
-"
+'
 ]
         
 return
@@ -5936,9 +5901,9 @@ self
 .
 operations
 [
-"
+'
 NamedGetter
-"
+'
 ]
 is
 not
@@ -6002,9 +5967,9 @@ self
 .
 operations
 [
-"
+'
 NamedGetter
-"
+'
 ]
         
 return
@@ -6060,27 +6025,21 @@ is
 .
         
 return
-(
-            
 self
 .
 concrete
-            
 and
 self
 .
 interface
 .
 hasCrossOriginMembers
-            
 and
 not
 self
 .
 isGlobal
 (
-)
-        
 )
     
 def
@@ -6160,7 +6119,6 @@ parent
         
 return
 (
-            
 self
 .
 interface
@@ -6168,13 +6126,12 @@ interface
 isExternal
 (
 )
-            
 or
 self
 .
 concrete
-            
 or
+                
 self
 .
 interface
@@ -6182,11 +6139,10 @@ interface
 hasInterfacePrototypeObject
 (
 )
-            
 or
+                
 any
 (
-                
 (
 m
 .
@@ -6206,7 +6162,6 @@ m
 isStatic
 (
 )
-                
 for
 m
 in
@@ -6215,16 +6170,14 @@ self
 interface
 .
 members
-            
 )
-            
 or
+                
 self
 .
 interface
 .
 parent
-        
 )
     
 def
@@ -6286,13 +6239,14 @@ that
         
 return
 (
-            
+(
 self
 .
 isExposedConditionally
 (
 )
 and
+                 
 not
 self
 .
@@ -6301,15 +6255,16 @@ interface
 isExposedInWindow
 (
 )
-        
 )
 or
+                
 self
 .
 interface
 .
 isExposedInSomeButNotAllWorkers
 (
+)
 )
     
 def
@@ -6322,7 +6277,6 @@ self
 return
 any
 (
-            
 m
 .
 getExtendedAttribute
@@ -6339,7 +6293,6 @@ self
 interface
 .
 members
-        
 )
     
 def
@@ -6351,7 +6304,6 @@ self
         
 return
 (
-            
 self
 .
 interface
@@ -6359,8 +6311,8 @@ interface
 isExposedConditionally
 (
 )
-            
 or
+                
 self
 .
 interface
@@ -6368,7 +6320,6 @@ interface
 isExposedInSomeButNotAllWorkers
 (
 )
-        
 )
     
 def
@@ -6457,19 +6408,19 @@ here
 "
         
 return
+(
 self
 .
 interface
 .
 getExtendedAttribute
 (
-            
 "
 NeedResolve
 "
-        
 )
 and
+                
 self
 .
 interface
@@ -6480,16 +6431,15 @@ name
 not
 in
 [
-            
 "
 HTMLObjectElement
 "
-            
+                                                       
 "
 HTMLEmbedElement
 "
-        
 ]
+)
     
 def
 needsXrayNamedDeleterHook
@@ -6639,7 +6589,6 @@ self
         
 return
 (
-            
 self
 .
 interface
@@ -6647,8 +6596,8 @@ interface
 hasInterfaceObject
 (
 )
-            
 and
+                
 self
 .
 interface
@@ -6656,12 +6605,11 @@ interface
 isExposedInWindow
 (
 )
-            
 and
+                
 self
 .
 register
-        
 )
     
 def
@@ -6782,9 +6730,11 @@ attributes
 "
     
 assert
+(
 includeArgs
 or
 includeReturns
+)
 #
 Must
 want
@@ -6922,17 +6872,15 @@ types
 .
 extend
 (
-        
 a
 .
 type
-        
 for
 a
 in
 members
-        
 if
+                 
 (
 a
 .
@@ -6943,6 +6891,7 @@ and
 (
 includeReturns
 or
+                                  
 (
 includeArgs
 and
@@ -6953,7 +6902,6 @@ readonly
 )
 )
 )
-    
 )
     
 if
@@ -7181,19 +7129,14 @@ hasValueType
 )
             
 assert
-(
-                
 maplikeOrSetlikeOrIterable
 .
 keyType
-                
 =
 =
 maplikeOrSetlikeOrIterable
 .
 valueType
-            
-)
             
 #
 As

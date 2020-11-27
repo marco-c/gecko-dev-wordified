@@ -451,8 +451,8 @@ stream
 .
 write
 (
-"
-"
+'
+'
 .
 join
 (

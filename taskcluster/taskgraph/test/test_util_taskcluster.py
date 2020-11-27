@@ -72,7 +72,10 @@ util
 .
 taskcluster
 import
+(
+    
 parse_time
+)
 class
 TestTCUtils
 (
@@ -107,7 +110,7 @@ datetime
 assert
 parse_time
 (
-"
+'
 2018
 -
 10
@@ -119,7 +122,7 @@ parse_time
 03
 .
 463Z
-"
+'
 )
 =
 =
@@ -128,9 +131,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

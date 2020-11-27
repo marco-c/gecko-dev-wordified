@@ -206,7 +206,6 @@ marionette
 .
 execute_script
 (
-                
 "
 "
 "
@@ -242,7 +241,6 @@ inSafeMode
 "
 "
 "
-            
 )
             
 self

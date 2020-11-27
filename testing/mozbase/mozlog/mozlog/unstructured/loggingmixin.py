@@ -215,7 +215,6 @@ _logger
 =
 getLogger
 (
-                
 "
 .
 "
@@ -226,6 +225,7 @@ join
 self
 .
 __module__
+                                               
 self
 .
 __class__
@@ -233,7 +233,6 @@ __class__
 __name__
 ]
 )
-            
 )
         
 getattr

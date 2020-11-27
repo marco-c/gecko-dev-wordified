@@ -171,9 +171,9 @@ path
 join
 (
 here
-"
+'
 data
-"
+'
 )
 pytest
 .
@@ -181,9 +181,9 @@ fixture
 (
 scope
 =
-"
+'
 module
-"
+'
 )
 def
 topsrcdir
@@ -197,9 +197,9 @@ mozpath
 join
 (
 data_path
-"
+'
 srcdir
-"
+'
 )
 pytest
 .
@@ -207,9 +207,9 @@ fixture
 (
 scope
 =
-"
+'
 module
-"
+'
 )
 def
 create_tests
@@ -278,19 +278,19 @@ kwargs
 .
 get
 (
-"
+'
 flavor
-"
+'
 defaults
 .
 get
 (
-"
+'
 flavor
-"
-"
+'
+'
 manifest
-"
+'
 )
 )
             
@@ -300,20 +300,17 @@ kwargs
 .
 pop
 (
-                
-"
+'
 manifest
-"
-                
+'
 defaults
 .
 pop
 (
-                    
-"
+'
 manifest
-"
-                    
+'
+                                  
 mozpath
 .
 join
@@ -326,14 +323,12 @@ path
 )
 manifest_name
 +
-"
+'
 .
 ini
-"
+'
 )
-                
 )
-            
 )
             
 manifest_abspath
@@ -365,15 +360,15 @@ test
 =
 {
                 
-"
+'
 name
-"
+'
 :
 relpath
                 
-"
+'
 path
-"
+'
 :
 mozpath
 .
@@ -383,29 +378,29 @@ topsrcdir
 path
 )
                 
-"
+'
 relpath
-"
+'
 :
 relpath
                 
-"
+'
 file_relpath
-"
+'
 :
 path
                 
-"
+'
 flavor
-"
+'
 :
-"
+'
 faketest
-"
+'
                 
-"
+'
 dir_relpath
-"
+'
 :
 mozpath
 .
@@ -414,9 +409,9 @@ dirname
 path
 )
                 
-"
+'
 here
-"
+'
 :
 mozpath
 .
@@ -425,15 +420,15 @@ dirname
 manifest_abspath
 )
                 
-"
+'
 manifest
-"
+'
 :
 manifest_abspath
                 
-"
+'
 manifest_relpath
-"
+'
 :
 manifest
             
@@ -473,27 +468,21 @@ for
 k
 in
 [
-                
-"
+'
 ancestor_manifest
-"
-                
-"
+'
+'
 manifest
-"
-                
-"
+'
+'
 manifest_relpath
-"
-                
-"
+'
+'
 path
-"
-                
-"
+'
+'
 relpath
-"
-            
+'
 ]
 :
                 
@@ -519,9 +508,9 @@ p
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 path
@@ -593,9 +582,9 @@ fixture
 (
 scope
 =
-"
+'
 module
-"
+'
 )
 def
 all_tests
@@ -607,12 +596,10 @@ create_tests
 return
 create_tests
 (
-        
 *
 [
-            
+        
 (
-                
 "
 apple
 /
@@ -620,9 +607,8 @@ test_a11y
 .
 html
 "
-                
 {
-                    
+             
 "
 expected
 "
@@ -630,7 +616,7 @@ expected
 "
 pass
 "
-                    
+             
 "
 flavor
 "
@@ -638,13 +624,11 @@ flavor
 "
 a11y
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 banana
 /
@@ -654,9 +638,8 @@ test_xpcshell_A
 .
 js
 "
-                
 {
-                    
+            
 "
 firefox
 -
@@ -666,7 +649,7 @@ appdir
 "
 browser
 "
-                    
+            
 "
 flavor
 "
@@ -674,7 +657,7 @@ flavor
 "
 xpcshell
 "
-                    
+            
 "
 head
 "
@@ -690,13 +673,11 @@ head_http
 .
 js
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 banana
 /
@@ -706,9 +687,8 @@ test_xpcshell_B
 .
 js
 "
-                
 {
-                    
+            
 "
 firefox
 -
@@ -718,7 +698,7 @@ appdir
 "
 browser
 "
-                    
+            
 "
 flavor
 "
@@ -726,7 +706,7 @@ flavor
 "
 xpcshell
 "
-                    
+            
 "
 head
 "
@@ -742,13 +722,11 @@ head_http
 .
 js
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 carrot
 /
@@ -756,9 +734,8 @@ test_included
 .
 js
 "
-                
 {
-                    
+            
 "
 ancestor_manifest
 "
@@ -772,7 +749,7 @@ one
 .
 ini
 "
-                    
+            
 "
 manifest
 "
@@ -786,7 +763,7 @@ shared
 .
 ini
 "
-                    
+            
 "
 flavor
 "
@@ -794,7 +771,7 @@ flavor
 "
 xpcshell
 "
-                    
+            
 "
 stick
 "
@@ -802,13 +779,11 @@ stick
 "
 one
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 carrot
 /
@@ -816,9 +791,8 @@ test_included
 .
 js
 "
-                
 {
-                    
+            
 "
 ancestor_manifest
 "
@@ -832,7 +806,7 @@ two
 .
 ini
 "
-                    
+            
 "
 manifest
 "
@@ -846,7 +820,7 @@ shared
 .
 ini
 "
-                    
+            
 "
 flavor
 "
@@ -854,7 +828,7 @@ flavor
 "
 xpcshell
 "
-                    
+            
 "
 stick
 "
@@ -862,13 +836,11 @@ stick
 "
 two
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 dragonfruit
 /
@@ -878,9 +850,8 @@ test_xpcshell_C
 .
 js
 "
-                
 {
-                    
+            
 "
 flavor
 "
@@ -888,7 +859,7 @@ flavor
 "
 xpcshell
 "
-                    
+            
 "
 generated
 -
@@ -900,7 +871,7 @@ head_update
 .
 js
 "
-                    
+            
 "
 head
 "
@@ -910,7 +881,7 @@ head_update
 .
 js
 "
-                    
+            
 "
 manifest
 "
@@ -922,7 +893,7 @@ xpcshell
 .
 ini
 "
-                    
+            
 "
 reason
 "
@@ -930,7 +901,7 @@ reason
 "
 busted
 "
-                    
+            
 "
 run
 -
@@ -942,7 +913,7 @@ Launches
 application
 .
 "
-                    
+            
 "
 skip
 -
@@ -957,13 +928,11 @@ os
 android
 '
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 dragonfruit
 /
@@ -973,9 +942,8 @@ test_xpcshell_C
 .
 js
 "
-                
 {
-                    
+            
 "
 flavor
 "
@@ -983,7 +951,7 @@ flavor
 "
 xpcshell
 "
-                    
+            
 "
 generated
 -
@@ -995,7 +963,7 @@ head_update
 .
 js
 "
-                    
+            
 "
 head
 "
@@ -1008,7 +976,7 @@ head2
 .
 js
 "
-                    
+            
 "
 manifest
 "
@@ -1022,7 +990,7 @@ xpcshell_updater
 .
 ini
 "
-                    
+            
 "
 reason
 "
@@ -1033,7 +1001,7 @@ don
 t
 work
 "
-                    
+            
 "
 run
 -
@@ -1045,7 +1013,7 @@ Launches
 application
 .
 "
-                    
+            
 "
 skip
 -
@@ -1060,13 +1028,11 @@ os
 android
 '
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 fig
 /
@@ -1078,9 +1044,8 @@ TestInstrumentationA
 .
 java
 "
-                
 {
-                    
+            
 "
 flavor
 "
@@ -1088,7 +1053,7 @@ flavor
 "
 instrumentation
 "
-                    
+            
 "
 manifest
 "
@@ -1102,7 +1067,7 @@ instrumentation
 .
 ini
 "
-                    
+            
 "
 subsuite
 "
@@ -1110,13 +1075,11 @@ subsuite
 "
 background
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 fig
 /
@@ -1128,9 +1091,8 @@ TestInstrumentationB
 .
 java
 "
-                
 {
-                    
+            
 "
 flavor
 "
@@ -1138,7 +1100,7 @@ flavor
 "
 instrumentation
 "
-                    
+            
 "
 manifest
 "
@@ -1152,7 +1114,7 @@ instrumentation
 .
 ini
 "
-                    
+            
 "
 subsuite
 "
@@ -1160,13 +1122,11 @@ subsuite
 "
 browser
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 juniper
 /
@@ -1174,9 +1134,8 @@ browser_chrome
 .
 js
 "
-                
 {
-                    
+            
 "
 flavor
 "
@@ -1186,7 +1145,7 @@ browser
 -
 chrome
 "
-                    
+            
 "
 manifest
 "
@@ -1198,7 +1157,7 @@ browser
 .
 ini
 "
-                    
+            
 "
 skip
 -
@@ -1210,13 +1169,11 @@ e10s
 #
 broken
 "
-                
+         
 }
-            
 )
-            
+        
 (
-                
 "
 kiwi
 /
@@ -1224,9 +1181,8 @@ browser_devtools
 .
 js
 "
-                
 {
-                    
+            
 "
 flavor
 "
@@ -1236,7 +1192,7 @@ browser
 -
 chrome
 "
-                    
+            
 "
 manifest
 "
@@ -1248,7 +1204,7 @@ browser
 .
 ini
 "
-                    
+            
 "
 subsuite
 "
@@ -1256,7 +1212,7 @@ subsuite
 "
 devtools
 "
-                    
+            
 "
 tags
 "
@@ -1264,13 +1220,11 @@ tags
 "
 devtools
 "
-                
+         
 }
-            
 )
-        
-]
     
+]
 )
 pytest
 .
@@ -1278,9 +1232,9 @@ fixture
 (
 scope
 =
-"
+'
 module
-"
+'
 )
 def
 defaults
@@ -1388,7 +1342,6 @@ ini
 }
         
 (
-            
 to_abspath
 (
 "
@@ -1401,7 +1354,6 @@ one
 ini
 "
 )
-            
 to_abspath
 (
 "
@@ -1414,7 +1366,6 @@ shared
 ini
 "
 )
-        
 )
 :
 {
@@ -1432,7 +1383,6 @@ js
 }
         
 (
-            
 to_abspath
 (
 "
@@ -1445,7 +1395,6 @@ two
 ini
 "
 )
-            
 to_abspath
 (
 "
@@ -1458,7 +1407,6 @@ shared
 ini
 "
 )
-        
 )
 :
 {
@@ -1769,17 +1717,17 @@ path
 join
 (
 topobjdir
-"
+'
 all
 -
 tests
 .
 pkl
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1803,17 +1751,17 @@ path
 join
 (
 topobjdir
-"
+'
 test
 -
 defaults
 .
 pkl
-"
+'
 )
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1918,7 +1866,6 @@ resolver
 =
 TestResolver
 (
-        
 topsrcdir
 None
 None
@@ -1928,7 +1875,6 @@ topobjdir
 loader_cls
 =
 loader_cls
-    
 )
     
 resolver
@@ -1989,11 +1935,11 @@ resolver
 .
 tests_by_flavor
 [
-"
+'
 mochitest
 -
 plain
-"
+'
 ]
 )
 =
@@ -2007,9 +1953,9 @@ resolver
 .
 tests_by_flavor
 [
-"
+'
 xpcshell
-"
+'
 ]
 )
 =
@@ -2023,13 +1969,13 @@ resolver
 .
 tests_by_flavor
 [
-"
+'
 web
 -
 platform
 -
 tests
-"
+'
 ]
 )
 =
@@ -2071,13 +2017,13 @@ resolver
 .
 tests_by_flavor
 [
-"
+'
 web
 -
 platform
 -
 tests
-"
+'
 ]
 )
 =
@@ -2156,9 +2102,9 @@ _resolve
 (
 flavor
 =
-"
+'
 xpcshell
-"
+'
 )
 )
 )
@@ -2184,11 +2130,11 @@ _resolve
 paths
 =
 [
-"
+'
 banana
 /
 currant
-"
+'
 ]
 )
 )
@@ -2214,9 +2160,9 @@ _resolve
 (
 under_path
 =
-"
+'
 banana
-"
+'
 )
 )
 )
@@ -2235,14 +2181,14 @@ _resolve
 (
 flavor
 =
-"
+'
 xpcshell
-"
+'
 under_path
 =
-"
+'
 banana
-"
+'
 )
 )
 )
@@ -2267,12 +2213,12 @@ resolve_tests
 paths
 =
 [
-"
+'
 banana
-"
-"
+'
+'
 dragonfruit
-"
+'
 ]
 )
 )
@@ -2317,9 +2263,9 @@ resolve_tests
 paths
 =
 [
-"
+'
 dragonfruit
-"
+'
 ]
 )
 )
@@ -2342,29 +2288,29 @@ tests
 if
 test
 [
-"
+'
 manifest
-"
+'
 ]
 .
 endswith
 (
-"
+'
 xpcshell_updater
 .
 ini
-"
+'
 )
 :
             
 assert
 test
 [
-"
+'
 support
 -
 files
-"
+'
 ]
 =
 =
@@ -2374,11 +2320,11 @@ else
 :
             
 assert
-"
+'
 support
 -
 files
-"
+'
 not
 in
 test
@@ -2400,9 +2346,9 @@ _resolve
 paths
 =
 [
-"
+'
 juniper
-"
+'
 ]
 )
 )
@@ -2431,13 +2377,13 @@ _resolve
 paths
 =
 [
-"
+'
 apple
 /
 a11y
 .
 ini
-"
+'
 ]
 )
 )
@@ -2457,17 +2403,17 @@ tests
 0
 ]
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test_a11y
 .
 html
-"
+'
     
 #
 absolute
@@ -2477,7 +2423,6 @@ tests
 =
 list
 (
-        
 resolver
 .
 _resolve
@@ -2494,17 +2439,16 @@ join
 resolver
 .
 topsrcdir
-"
+'
 apple
 /
 a11y
 .
 ini
-"
+'
 )
 ]
 )
-    
 )
     
 assert
@@ -2522,17 +2466,17 @@ tests
 0
 ]
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 test_a11y
 .
 html
-"
+'
 def
 test_cwd_children_only
 (
@@ -2596,18 +2540,16 @@ tests
 =
 list
 (
-        
 resolver
 .
 resolve_tests
 (
-            
 paths
 =
 [
-"
+'
 currant
-"
+'
 ]
 cwd
 =
@@ -2620,13 +2562,12 @@ join
 resolver
 .
 topsrcdir
-"
-banana
-"
-)
         
+'
+banana
+'
 )
-    
+)
 )
     
 assert
@@ -2656,9 +2597,9 @@ tests
 assert
 t
 [
-"
+'
 here
-"
+'
 ]
 =
 =
@@ -2666,11 +2607,11 @@ mozpath
 .
 join
 (
-            
 resolver
 .
 topobjdir
-"
+                                         
+'
 _tests
 /
 xpcshell
@@ -2678,8 +2619,7 @@ xpcshell
 banana
 /
 currant
-"
-        
+'
 )
 def
 test_various_cwd
@@ -2714,9 +2654,9 @@ resolve_tests
 paths
 =
 [
-"
+'
 banana
-"
+'
 ]
 )
 )
@@ -2732,15 +2672,15 @@ resolve_tests
 paths
 =
 [
-"
+'
 banana
-"
+'
 ]
 cwd
 =
-"
+'
 /
-"
+'
 )
 )
     
@@ -2761,9 +2701,9 @@ resolve_tests
 paths
 =
 [
-"
+'
 banana
-"
+'
 ]
 cwd
 =
@@ -2790,9 +2730,9 @@ resolve_tests
 paths
 =
 [
-"
+'
 banana
-"
+'
 ]
 cwd
 =
@@ -2837,9 +2777,9 @@ resolve_tests
 paths
 =
 [
-"
+'
 fig
-"
+'
 ]
 )
 )
@@ -2864,15 +2804,15 @@ resolve_tests
 paths
 =
 [
-"
+'
 fig
-"
+'
 ]
 subsuite
 =
-"
+'
 browser
-"
+'
 )
 )
     
@@ -2891,19 +2831,19 @@ tests
 0
 ]
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 src
 /
 TestInstrumentationB
 .
 java
-"
+'
     
 tests
 =
@@ -2916,15 +2856,15 @@ resolve_tests
 paths
 =
 [
-"
+'
 fig
-"
+'
 ]
 subsuite
 =
-"
+'
 background
-"
+'
 )
 )
     
@@ -2943,19 +2883,19 @@ tests
 0
 ]
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 src
 /
 TestInstrumentationA
 .
 java
-"
+'
     
 #
 Resolve
@@ -2977,16 +2917,16 @@ resolve_tests
 (
 flavor
 =
-"
+'
 browser
 -
 chrome
-"
+'
 subsuite
 =
-"
+'
 undefined
-"
+'
 )
 )
     
@@ -3005,17 +2945,17 @@ tests
 0
 ]
 [
-"
+'
 name
-"
+'
 ]
 =
 =
-"
+'
 browser_chrome
 .
 js
-"
+'
 def
 test_wildcard_patterns
 (
@@ -3047,12 +2987,12 @@ resolve_tests
 paths
 =
 [
-"
+'
 fig
 /
 *
 *
-"
+'
 ]
 )
 )
@@ -3075,16 +3015,16 @@ tests
 assert
 t
 [
-"
+'
 file_relpath
-"
+'
 ]
 .
 startswith
 (
-"
+'
 fig
-"
+'
 )
     
 tests
@@ -3098,7 +3038,7 @@ resolve_tests
 paths
 =
 [
-"
+'
 *
 *
 /
@@ -3106,13 +3046,13 @@ paths
 *
 .
 js
-"
-"
+'
+'
 apple
 /
 *
 *
-"
+'
 ]
 )
 )
@@ -3136,9 +3076,9 @@ path
 =
 t
 [
-"
+'
 file_relpath
-"
+'
 ]
         
 assert
@@ -3146,19 +3086,19 @@ path
 .
 startswith
 (
-"
+'
 apple
-"
+'
 )
 or
 path
 .
 endswith
 (
-"
+'
 .
 js
-"
+'
 )
 def
 test_resolve_metadata
@@ -3189,9 +3129,9 @@ resolver
 resolve_metadata
 (
 [
-"
+'
 bc
-"
+'
 ]
 )
     
@@ -3200,13 +3140,13 @@ suites
 =
 =
 {
-"
+'
 mochitest
 -
 browser
 -
 chrome
-"
+'
 }
     
 assert
@@ -3223,22 +3163,20 @@ resolver
 .
 resolve_metadata
 (
-        
 [
-"
+'
 mochitest
 -
 a11y
-"
-"
+'
+'
 /
 browser
-"
-"
+'
+'
 xpcshell
-"
+'
 ]
-    
 )
     
 assert
@@ -3246,14 +3184,14 @@ suites
 =
 =
 {
-"
+'
 mochitest
 -
 a11y
-"
-"
+'
+'
 xpcshell
-"
+'
 }
     
 assert
@@ -3261,9 +3199,9 @@ sorted
 (
 t
 [
-"
+'
 file_relpath
-"
+'
 ]
 for
 t
@@ -3274,21 +3212,21 @@ tests
 =
 [
         
-"
+'
 juniper
 /
 browser_chrome
 .
 js
-"
+'
         
-"
+'
 kiwi
 /
 browser_devtools
 .
 js
-"
+'
     
 ]
 def
@@ -3327,13 +3265,13 @@ _resolve
 paths
 =
 [
-"
+'
 carrot
 /
 test_included
 .
 js
-"
+'
 ]
 )
 )
@@ -3353,9 +3291,9 @@ tests
 0
 ]
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
 =
 =
@@ -3365,16 +3303,16 @@ path
 .
 join
 (
-"
+'
 carrot
-"
-"
+'
+'
 xpcshell
 -
 one
 .
 ini
-"
+'
 )
 :
         
@@ -3398,9 +3336,9 @@ tests
 assert
 testOne
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
 =
 =
@@ -3410,24 +3348,24 @@ path
 .
 join
 (
-"
+'
 carrot
-"
-"
+'
+'
 xpcshell
 -
 one
 .
 ini
-"
+'
 )
     
 assert
 testOne
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 =
 =
@@ -3437,52 +3375,52 @@ path
 .
 join
 (
-"
+'
 carrot
-"
-"
+'
+'
 xpcshell
 -
 shared
 .
 ini
-"
+'
 )
     
 assert
 testOne
 [
-"
+'
 head
-"
+'
 ]
 =
 =
-"
+'
 head_one
 .
 js
-"
+'
     
 assert
 testOne
 [
-"
+'
 stick
-"
+'
 ]
 =
 =
-"
+'
 one
-"
+'
     
 assert
 testTwo
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
 =
 =
@@ -3492,24 +3430,24 @@ path
 .
 join
 (
-"
+'
 carrot
-"
-"
+'
+'
 xpcshell
 -
 two
 .
 ini
-"
+'
 )
     
 assert
 testTwo
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 =
 =
@@ -3519,45 +3457,45 @@ path
 .
 join
 (
-"
+'
 carrot
-"
-"
+'
+'
 xpcshell
 -
 shared
 .
 ini
-"
+'
 )
     
 assert
 testTwo
 [
-"
+'
 head
-"
+'
 ]
 =
 =
-"
+'
 head_two
 .
 js
-"
+'
     
 assert
 testTwo
 [
-"
+'
 stick
-"
+'
 ]
 =
 =
-"
+'
 two
-"
+'
 def
 test_task_regexes
 (
@@ -3582,7 +3520,7 @@ task_labels
 =
 [
         
-"
+'
 test
 -
 linux64
@@ -3594,9 +3532,9 @@ browser
 screenshots
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3610,9 +3548,9 @@ screenshots
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3620,9 +3558,9 @@ linux64
 opt
 -
 marionette
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3632,9 +3570,9 @@ opt
 mochitest
 -
 plain
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3646,9 +3584,9 @@ mochitest
 plain
 -
 e10s
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3658,9 +3596,9 @@ opt
 mochitest
 -
 a11y
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3670,9 +3608,9 @@ opt
 mochitest
 -
 browser
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3684,9 +3622,9 @@ mochitest
 browser
 -
 chrome
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3700,9 +3638,9 @@ browser
 chrome
 -
 e10s
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3718,9 +3656,9 @@ chrome
 e10s
 -
 11
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3730,9 +3668,9 @@ opt
 mochitest
 -
 chrome
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3742,9 +3680,9 @@ opt
 mochitest
 -
 devtools
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3756,9 +3694,9 @@ mochitest
 devtools
 -
 chrome
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3768,9 +3706,9 @@ opt
 mochitest
 -
 gpu
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3782,9 +3720,9 @@ mochitest
 gpu
 -
 e10s
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3798,9 +3736,9 @@ media
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3814,9 +3752,9 @@ media
 e10s
 -
 11
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3828,9 +3766,9 @@ mochitest
 screenshots
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3838,9 +3776,9 @@ linux64
 opt
 -
 reftest
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3850,9 +3788,9 @@ opt
 geckoview
 -
 reftest
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3864,9 +3802,9 @@ reftest
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3878,9 +3816,9 @@ reftest
 e10s
 -
 11
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3888,9 +3826,9 @@ linux64
 opt
 -
 robocop
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3900,9 +3838,9 @@ opt
 robocop
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3912,9 +3850,9 @@ opt
 robocop
 -
 e10s
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3926,9 +3864,9 @@ robocop
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3940,9 +3878,9 @@ robocop
 e10s
 -
 11
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3958,9 +3896,9 @@ tests
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3978,9 +3916,9 @@ reftest
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -3998,9 +3936,9 @@ wdspec
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -4014,9 +3952,9 @@ platform
 tests
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -4032,9 +3970,9 @@ test
 e10s
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -4042,9 +3980,9 @@ linux64
 opt
 -
 xpcshell
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -4054,9 +3992,9 @@ opt
 xpcshell
 -
 1
-"
+'
         
-"
+'
 test
 -
 linux64
@@ -4066,7 +4004,7 @@ opt
 xpcshell
 -
 2
-"
+'
     
 ]
     
@@ -4074,17 +4012,17 @@ test_cases
 =
 {
         
-"
+'
 mochitest
 -
 browser
 -
 chrome
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4096,9 +4034,9 @@ mochitest
 browser
 -
 chrome
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4112,19 +4050,19 @@ browser
 chrome
 -
 e10s
-"
+'
         
 ]
         
-"
+'
 mochitest
 -
 chrome
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4134,21 +4072,21 @@ opt
 mochitest
 -
 chrome
-"
+'
         
 ]
         
-"
+'
 mochitest
 -
 devtools
 -
 chrome
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4160,19 +4098,19 @@ mochitest
 devtools
 -
 chrome
-"
+'
         
 ]
         
-"
+'
 mochitest
 -
 media
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4186,19 +4124,19 @@ media
 e10s
 -
 1
-"
+'
         
 ]
         
-"
+'
 mochitest
 -
 plain
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4208,9 +4146,9 @@ opt
 mochitest
 -
 plain
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4222,21 +4160,21 @@ mochitest
 plain
 -
 e10s
-"
+'
         
 ]
         
-"
+'
 mochitest
 -
 plain
 -
 gpu
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4246,9 +4184,9 @@ opt
 mochitest
 -
 gpu
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4260,11 +4198,11 @@ mochitest
 gpu
 -
 e10s
-"
+'
         
 ]
         
-"
+'
 mochitest
 -
 browser
@@ -4272,11 +4210,11 @@ browser
 chrome
 -
 screenshots
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4288,9 +4226,9 @@ browser
 screenshots
 -
 1
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4304,17 +4242,17 @@ screenshots
 e10s
 -
 1
-"
+'
         
 ]
         
-"
+'
 reftest
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4322,9 +4260,9 @@ linux64
 opt
 -
 reftest
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4334,9 +4272,9 @@ opt
 geckoview
 -
 reftest
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4348,17 +4286,17 @@ reftest
 e10s
 -
 1
-"
+'
         
 ]
         
-"
+'
 robocop
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4366,9 +4304,9 @@ linux64
 opt
 -
 robocop
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4378,9 +4316,9 @@ opt
 robocop
 -
 1
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4390,9 +4328,9 @@ opt
 robocop
 -
 e10s
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4404,21 +4342,21 @@ robocop
 e10s
 -
 1
-"
+'
         
 ]
         
-"
+'
 web
 -
 platform
 -
 tests
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4434,9 +4372,9 @@ tests
 e10s
 -
 1
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4450,11 +4388,11 @@ platform
 tests
 -
 1
-"
+'
         
 ]
         
-"
+'
 web
 -
 platform
@@ -4462,11 +4400,11 @@ platform
 tests
 -
 reftest
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4484,11 +4422,11 @@ reftest
 e10s
 -
 1
-"
+'
         
 ]
         
-"
+'
 web
 -
 platform
@@ -4496,11 +4434,11 @@ platform
 tests
 -
 wdspec
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4518,17 +4456,17 @@ wdspec
 e10s
 -
 1
-"
+'
         
 ]
         
-"
+'
 xpcshell
-"
+'
 :
 [
             
-"
+'
 test
 -
 linux64
@@ -4536,9 +4474,9 @@ linux64
 opt
 -
 xpcshell
-"
+'
             
-"
+'
 test
 -
 linux64
@@ -4548,7 +4486,7 @@ opt
 xpcshell
 -
 1
-"
+'
         
 ]
     
@@ -4608,9 +4546,9 @@ TEST_SUITES
 suite
 ]
 [
-"
+'
 task_regex
-"
+'
 ]
         
 assert
@@ -4632,9 +4570,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

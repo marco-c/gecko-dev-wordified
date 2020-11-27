@@ -69,25 +69,25 @@ datetime
 timedelta
 TASK_DURATION_CACHE
 =
-"
+'
 task_duration_history
 .
 json
-"
+'
 GRAPH_QUANTILE_CACHE
 =
-"
+'
 graph_quantile_cache
 .
 csv
-"
+'
 TASK_DURATION_TAG_FILE
 =
-"
+'
 task_duration_tag
 .
 json
-"
+'
 def
 find_all_dependencies
 (
@@ -288,6 +288,7 @@ find_dependency_durations
 (
 dep
 )
+                     
 for
 dep
 in
@@ -728,12 +729,11 @@ quantile
 -
 determine_quantile
 (
-            
 graph_quantile_cache
+                                            
 total_dependency_duration
 +
 total_requested_duration
-        
 )
     
 if
@@ -742,9 +742,9 @@ quantile
         
 output
 [
-"
+'
 quantile
-"
+'
 ]
 =
 quantile
@@ -794,7 +794,6 @@ task_durations
 ]
 =
 {
-        
 task
 :
 int
@@ -813,7 +812,6 @@ for
 task
 in
 tasklist
-    
 }
     
 return

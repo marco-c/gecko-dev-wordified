@@ -378,25 +378,20 @@ major
 from
 itertools
 import
-(
-        
 ifilter
 as
 filter
-        
 ifilterfalse
 as
 filterfalse
-        
 imap
 as
 map
-        
+\
+                          
 izip_longest
 as
 zip_longest
-    
-)
     
 from
 urllib2
@@ -625,7 +620,7 @@ a
 mapping
 table
 .
-    
+        
 Writes
 the
 contents
@@ -639,7 +634,7 @@ the
 |
 println
 |
-    
+        
 function
 with
 the
@@ -651,7 +646,7 @@ a
 comment
 with
 description
-    
+        
 fileDate
 and
 URL
@@ -752,27 +747,17 @@ u
 def
 writeMappingsBinarySearch
 (
-    
 println
-    
 fn_name
-    
 type_name
-    
 name
-    
 validate_fn
-    
 validate_case_fn
-    
+                              
 mappings
-    
 tag_maxlength
-    
 description
-    
 source
-    
 url
 )
 :
@@ -792,7 +777,7 @@ language
 tag
 subtags
 .
-    
+        
 Uses
 the
 contents
@@ -808,7 +793,7 @@ a
 dictionary
 or
 set
-    
+        
 to
 emit
 a
@@ -841,7 +826,6 @@ url
     
 println
 (
-        
 u
 "
 "
@@ -909,19 +893,16 @@ span
 .
 format
 (
-            
 fn_name
 type_name
 name
 validate_fn
 validate_case_fn
-        
 )
 .
 strip
 (
 )
-    
 )
     
 def
@@ -940,7 +921,6 @@ fixed
             
 println
 (
-                
 u
 "
 static
@@ -963,18 +943,16 @@ char
 .
 format
 (
-                    
 name
 len
 (
 subtags
 )
+                                                                    
 length
 +
 1
-                
 )
-            
 )
         
 else
@@ -1038,14 +1016,15 @@ subtags
 entries
 =
 (
-                
 u
-'
+"
+\
 "
 {
 }
+\
 "
-'
+"
 .
 format
 (
@@ -1058,18 +1037,16 @@ length
 +
 2
 )
-                
+                       
 for
 tag
 in
 entries
-                
 if
 tag
 is
 not
 None
-            
 )
             
 println
@@ -1204,7 +1181,6 @@ tag_maxlength
             
 println
 (
-                
 u
 "
 "
@@ -1231,22 +1207,17 @@ length
 .
 format
 (
-                    
 name
 length
-                
 )
 .
 rstrip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 else
@@ -1258,7 +1229,6 @@ False
             
 println
 (
-                
 u
 "
 "
@@ -1271,14 +1241,11 @@ u
 .
 rstrip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 #
@@ -1369,7 +1336,6 @@ dict
                 
 println
 (
-                    
 u
 "
 "
@@ -1411,7 +1377,6 @@ false
 .
 format
 (
-                        
 equals
 (
 subtags
@@ -1427,19 +1392,15 @@ subtags
 0
 ]
 ]
-                    
 )
 .
 strip
 (
-                        
 "
 \
 n
 "
-                    
 )
-                
 )
             
 else
@@ -1447,7 +1408,6 @@ else
                 
 println
 (
-                    
 u
 "
 "
@@ -1463,7 +1423,6 @@ return
 .
 format
 (
-                        
 equals
 (
 subtags
@@ -1471,19 +1430,15 @@ subtags
 0
 ]
 )
-                    
 )
 .
 strip
 (
-                        
 "
 \
 n
 "
-                    
 )
-                
 )
         
 elif
@@ -1514,7 +1469,6 @@ subtags
                     
 println
 (
-                        
 u
 "
 "
@@ -1552,7 +1506,6 @@ true
 .
 format
 (
-                            
 equals
 (
 subtag
@@ -1562,24 +1515,19 @@ mappings
 [
 subtag
 ]
-                        
 )
 .
 strip
 (
-                            
 "
 \
 n
 "
-                        
 )
-                    
 )
                 
 println
 (
-                    
 u
 "
 "
@@ -1594,14 +1542,11 @@ false
 .
 strip
 (
-                        
 "
 \
 n
 "
-                    
 )
-                
 )
             
 else
@@ -1654,7 +1599,6 @@ cond
                 
 println
 (
-                    
 u
 "
 "
@@ -1670,21 +1614,16 @@ return
 .
 format
 (
-                        
 cond
-                    
 )
 .
 strip
 (
-                        
 "
 \
 n
 "
-                    
 )
-                
 )
         
 else
@@ -1734,7 +1673,6 @@ False
                 
 println
 (
-                    
 u
 "
 "
@@ -1794,15 +1732,12 @@ false
 .
 format
 (
-                        
 name
-                    
 )
 .
 rstrip
 (
 )
-                
 )
             
 else
@@ -1810,7 +1745,6 @@ else
                 
 println
 (
-                    
 u
 "
 "
@@ -1834,20 +1768,16 @@ s
 .
 format
 (
-                        
 name
-                    
 )
 .
 rstrip
 (
 )
-                
 )
         
 println
 (
-            
 u
 "
 "
@@ -1860,14 +1790,11 @@ u
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 if
@@ -1876,7 +1803,6 @@ trailing_return
         
 println
 (
-            
 u
 "
 "
@@ -1888,12 +1814,10 @@ false
 "
 "
 "
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -1905,21 +1829,18 @@ u
 .
 lstrip
 (
-            
 "
 \
 n
 "
-        
 )
-    
 )
 def
 writeComplexLanguageTagMappings
 (
-    
 println
 complex_language_mappings
+                                    
 description
 source
 url
@@ -1943,7 +1864,6 @@ url
     
 println
 (
-        
 u
 "
 "
@@ -1999,7 +1919,6 @@ span
 lstrip
 (
 )
-    
 )
     
 #
@@ -2024,9 +1943,10 @@ region
 )
 )
 in
-sorted
 (
         
+sorted
+(
 complex_language_mappings
 .
 items
@@ -2037,6 +1957,7 @@ key
 itemgetter
 (
 0
+)
 )
     
 )
@@ -2092,9 +2013,10 @@ region
 )
 )
 in
-sorted
 (
         
+sorted
+(
 complex_language_mappings
 .
 items
@@ -2105,6 +2027,7 @@ key
 itemgetter
 (
 0
+)
 )
     
 )
@@ -2151,27 +2074,28 @@ False
 cond
 =
 (
-            
 u
-'
+"
 language
 (
 )
 .
 equalTo
 (
+\
 "
 {
 }
+\
 "
 )
-'
+"
 .
 format
 (
 lang
 )
-            
+                
 for
 lang
 in
@@ -2183,7 +2107,6 @@ language_aliases
 [
 key
 ]
-        
 )
         
 cond
@@ -2220,7 +2143,6 @@ cond
         
 println
 (
-            
 u
 "
 "
@@ -2240,27 +2162,21 @@ u
 .
 format
 (
-                
 if_kind
 cond
-            
 )
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
         
 println
 (
-            
 u
 "
 "
@@ -2280,21 +2196,16 @@ setLanguage
 .
 format
 (
-                
 language
-            
 )
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
         
 if
@@ -2306,7 +2217,6 @@ None
             
 println
 (
-                
 u
 "
 "
@@ -2342,21 +2252,16 @@ setScript
 .
 format
 (
-                    
 script
-                
 )
 .
 strip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 if
@@ -2368,7 +2273,6 @@ None
             
 println
 (
-                
 u
 "
 "
@@ -2404,26 +2308,20 @@ setRegion
 .
 format
 (
-                    
 region
-                
 )
 .
 strip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 println
 (
-            
 u
 "
 "
@@ -2436,19 +2334,15 @@ u
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -2460,21 +2354,18 @@ u
 .
 strip
 (
-            
 "
 \
 n
 "
-        
 )
-    
 )
 def
 writeComplexRegionTagMappings
 (
-    
 println
 complex_region_mappings
+                                  
 description
 source
 url
@@ -2498,7 +2389,6 @@ url
     
 println
 (
-        
 u
 "
 "
@@ -2584,7 +2474,6 @@ span
 lstrip
 (
 )
-    
 )
     
 #
@@ -2662,9 +2551,10 @@ non_default_replacements
 )
 )
 in
-sorted
 (
         
+sorted
+(
 complex_region_mappings
 .
 items
@@ -2675,6 +2565,7 @@ key
 itemgetter
 (
 0
+)
 )
     
 )
@@ -2729,9 +2620,10 @@ non_default_replacements
 )
 )
 in
-sorted
 (
         
+sorted
+(
 complex_region_mappings
 .
 items
@@ -2742,6 +2634,7 @@ key
 itemgetter
 (
 0
+)
 )
     
 )
@@ -2788,27 +2681,28 @@ False
 cond
 =
 (
-            
 u
-'
+"
 region
 (
 )
 .
 equalTo
 (
+\
 "
 {
 }
+\
 "
 )
-'
+"
 .
 format
 (
 region
 )
-            
+                
 for
 region
 in
@@ -2820,7 +2714,6 @@ region_aliases
 [
 key
 ]
-        
 )
         
 cond
@@ -2857,7 +2750,6 @@ cond
         
 println
 (
-            
 u
 "
 "
@@ -2877,29 +2769,23 @@ u
 .
 format
 (
-                
 if_kind
 cond
-            
 )
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
         
 replacement_regions
 =
 sorted
 (
-            
 {
 region
 for
@@ -2911,7 +2797,6 @@ region
 in
 non_default_replacements
 }
-        
 )
         
 first_case
@@ -2928,12 +2813,11 @@ replacement_language_script
 =
 sorted
 (
-                
 (
 language
 script
 )
-                
+                                                 
 for
 (
 language
@@ -2942,15 +2826,16 @@ region
 )
 in
 (
+                                                     
 non_default_replacements
+                                                 
 )
-                
+                                                 
 if
 region
 =
 =
 replacement_region
-            
 )
             
 if_kind
@@ -2988,19 +2873,21 @@ None
                     
 return
 u
-'
+"
 language
 (
 )
 .
 equalTo
 (
+\
 "
 {
 }
+\
 "
 )
-'
+"
 .
 format
 (
@@ -3009,7 +2896,7 @@ language
                 
 return
 u
-'
+"
 (
 language
 (
@@ -3017,9 +2904,11 @@ language
 .
 equalTo
 (
+\
 "
 {
 }
+\
 "
 )
 &
@@ -3030,32 +2919,32 @@ script
 .
 equalTo
 (
+\
 "
 {
 }
+\
 "
 )
 )
-'
+"
 .
 format
 (
                     
 language
 script
-                
 )
             
 cond
 =
 (
-                
 compare_tags
 (
 language
 script
 )
-                
+                    
 for
 (
 language
@@ -3063,7 +2952,6 @@ script
 )
 in
 replacement_language_script
-            
 )
             
 cond
@@ -3100,7 +2988,6 @@ cond
             
 println
 (
-                
 u
 "
 "
@@ -3132,18 +3019,14 @@ setRegion
 .
 format
 (
-                    
 if_kind
 cond
 replacement_region
-                
 )
-                
 .
 rstrip
 (
 )
-                
 .
 strip
 (
@@ -3152,12 +3035,10 @@ strip
 n
 "
 )
-            
 )
         
 println
 (
-            
 u
 "
 "
@@ -3187,16 +3068,12 @@ setRegion
 .
 format
 (
-                
 default
-            
 )
-            
 .
 rstrip
 (
 )
-            
 .
 strip
 (
@@ -3205,12 +3082,10 @@ strip
 n
 "
 )
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -3222,14 +3097,11 @@ u
 .
 strip
 (
-            
 "
 \
 n
 "
-        
 )
-    
 )
 def
 writeVariantTagMappings
@@ -3238,6 +3110,7 @@ println
 variant_mappings
 description
 source
+                            
 url
 )
 :
@@ -3260,7 +3133,6 @@ subtags
     
 println
 (
-        
 u
 "
 "
@@ -3349,7 +3221,6 @@ b
 "
 "
 "
-    
 )
     
 writeMappingHeader
@@ -3362,7 +3233,6 @@ url
     
 println
 (
-        
 u
 "
 "
@@ -3639,7 +3509,6 @@ get
 lstrip
 (
 )
-    
 )
     
 first_variant
@@ -3655,9 +3524,10 @@ replacement
 )
 )
 in
-sorted
 (
         
+sorted
+(
 variant_mappings
 .
 items
@@ -3668,6 +3538,7 @@ key
 itemgetter
 (
 0
+)
 )
     
 )
@@ -3694,7 +3565,6 @@ False
         
 println
 (
-            
 u
 "
 "
@@ -3741,22 +3611,17 @@ i
 .
 format
 (
-                
 if_kind
 deprecated_variant
-            
 )
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
         
 if
@@ -3770,7 +3635,6 @@ language
             
 println
 (
-                
 u
 "
 "
@@ -3790,21 +3654,16 @@ setLanguage
 .
 format
 (
-                    
 replacement
-                
 )
 .
 strip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 elif
@@ -3818,7 +3677,6 @@ region
             
 println
 (
-                
 u
 "
 "
@@ -3838,21 +3696,16 @@ setRegion
 .
 format
 (
-                    
 replacement
-                
 )
 .
 strip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 else
@@ -3868,7 +3721,6 @@ variant
             
 println
 (
-                
 u
 "
 "
@@ -3900,26 +3752,20 @@ false
 .
 format
 (
-                    
 replacement
-                
 )
 .
 strip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 println
 (
-            
 u
 "
 "
@@ -3932,19 +3778,15 @@ u
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -3972,21 +3814,18 @@ true
 .
 strip
 (
-            
 "
 \
 n
 "
-        
 )
-    
 )
 def
 writeGrandfatheredMappingsFunction
 (
-    
 println
 grandfathered_mappings
+                                       
 description
 source
 url
@@ -4027,7 +3866,6 @@ url
     
 println
 (
-        
 u
 "
 "
@@ -4510,7 +4348,6 @@ variant
 "
 "
 "
-    
 )
     
 #
@@ -4824,7 +4661,6 @@ z0
 "
 "
 "
-        
 re
 .
 IGNORECASE
@@ -4832,7 +4668,6 @@ IGNORECASE
 re
 .
 VERBOSE
-    
 )
     
 is_first
@@ -4888,8 +4723,6 @@ language
 )
         
 assert
-(
-            
 tag_match
 .
 group
@@ -4900,8 +4733,8 @@ script
 )
 is
 None
-        
-)
+(
+               
 "
 {
 }
@@ -4916,11 +4749,10 @@ subtag
 format
 (
 tag
+)
 )
         
 assert
-(
-            
 tag_match
 .
 group
@@ -4931,8 +4763,8 @@ region
 )
 is
 None
-        
-)
+(
+               
 "
 {
 }
@@ -4947,6 +4779,7 @@ subtag
 format
 (
 tag
+)
 )
         
 tag_variants
@@ -4965,6 +4798,8 @@ tag_variants
 is
 not
 None
+(
+               
 "
 {
 }
@@ -4978,10 +4813,9 @@ format
 (
 tag
 )
+)
         
 assert
-(
-            
 tag_match
 .
 group
@@ -4992,8 +4826,8 @@ privateuse
 )
 is
 None
-        
-)
+(
+               
 "
 {
 }
@@ -5008,6 +4842,7 @@ subtag
 format
 (
 tag
+)
 )
         
 tag_variant
@@ -5025,6 +4860,8 @@ assert
 not
 in
 tag_variant
+(
+               
 "
 {
 }
@@ -5038,6 +4875,7 @@ variant
 format
 (
 tag
+)
 )
         
 modern_match
@@ -5112,7 +4950,6 @@ privateuse
         
 println
 (
-            
 u
 "
 "
@@ -5132,21 +4969,17 @@ u
 .
 format
 (
-                
 tag
 modern
-            
 )
 .
 rstrip
 (
 )
-        
 )
         
 println
 (
-            
 u
 "
 "
@@ -5186,7 +5019,6 @@ variantEqualTo
 .
 format
 (
-                
 "
 "
 if
@@ -5195,16 +5027,15 @@ else
 "
 else
 "
+                   
 tag_language
+                   
 tag_variant
-            
 )
-            
 .
 rstrip
 (
 )
-            
 .
 strip
 (
@@ -5213,7 +5044,6 @@ strip
 n
 "
 )
-        
 )
         
 is_first
@@ -5222,7 +5052,6 @@ False
         
 println
 (
-            
 u
 "
 "
@@ -5243,16 +5072,12 @@ setLanguage
 .
 format
 (
-                
 modern_language
-            
 )
-            
 .
 rstrip
 (
 )
-            
 .
 strip
 (
@@ -5261,7 +5086,6 @@ strip
 n
 "
 )
-        
 )
         
 if
@@ -5273,7 +5097,6 @@ None
             
 println
 (
-                
 u
 "
 "
@@ -5294,16 +5117,12 @@ setScript
 .
 format
 (
-                    
 modern_script
-                
 )
-                
 .
 rstrip
 (
 )
-                
 .
 strip
 (
@@ -5312,7 +5131,6 @@ strip
 n
 "
 )
-            
 )
         
 if
@@ -5324,7 +5142,6 @@ None
             
 println
 (
-                
 u
 "
 "
@@ -5345,16 +5162,12 @@ setRegion
 .
 format
 (
-                    
 modern_region
-                
 )
-                
 .
 rstrip
 (
 )
-                
 .
 strip
 (
@@ -5363,17 +5176,14 @@ strip
 n
 "
 )
-            
 )
         
 assert
-(
-            
 modern_variants
 is
 None
-        
-)
+(
+            
 "
 all
 regular
@@ -5388,10 +5198,10 @@ contain
 variant
 subtags
 "
+)
         
 println
 (
-            
 u
 "
 "
@@ -5412,14 +5222,11 @@ rstrip
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
         
 if
@@ -5431,7 +5238,6 @@ None
             
 println
 (
-                
 u
 "
 "
@@ -5483,16 +5289,12 @@ privateuse
 .
 format
 (
-                    
 modern_privateuse
-                
 )
-                
 .
 rstrip
 (
 )
-                
 .
 rstrip
 (
@@ -5501,12 +5303,10 @@ rstrip
 n
 "
 )
-            
 )
         
 println
 (
-            
 u
 "
 "
@@ -5527,19 +5327,15 @@ rstrip
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -5552,7 +5348,6 @@ true
 "
 "
 "
-    
 )
 def
 readSupplementalData
@@ -5576,11 +5371,11 @@ Intl
 .
 js
 .
-    
+        
 Information
 extracted
 :
-    
+        
 -
 grandfatheredMappings
 :
@@ -5590,11 +5385,11 @@ grandfathered
 tags
 to
 preferred
-      
+          
 complete
 language
 tags
-    
+        
 -
 languageMappings
 :
@@ -5605,7 +5400,7 @@ subtags
 to
 preferred
 subtags
-    
+        
 -
 complexLanguageMappings
 :
@@ -5616,7 +5411,7 @@ subtags
 with
 complex
 rules
-    
+        
 -
 regionMappings
 :
@@ -5627,7 +5422,7 @@ subtags
 to
 preferred
 subtags
-    
+        
 -
 complexRegionMappings
 :
@@ -5638,7 +5433,7 @@ subtags
 with
 complex
 rules
-    
+        
 -
 variantMappings
 :
@@ -5649,7 +5444,7 @@ subtags
 to
 preferred
 subtags
-    
+        
 -
 likelySubtags
 :
@@ -5661,7 +5456,7 @@ generating
 test
 data
 only
-    
+        
 Returns
 these
 mappings
@@ -5928,7 +5723,6 @@ z0
 "
 "
 "
-        
 re
 .
 IGNORECASE
@@ -5936,7 +5730,6 @@ IGNORECASE
 re
 .
 VERBOSE
-    
 )
     
 re_unicode_language_subtag
@@ -5994,7 +5787,6 @@ z
 "
 "
 "
-        
 re
 .
 IGNORECASE
@@ -6002,7 +5794,6 @@ IGNORECASE
 re
 .
 VERBOSE
-    
 )
     
 re_unicode_region_subtag
@@ -6058,7 +5849,6 @@ z
 "
 "
 "
-        
 re
 .
 IGNORECASE
@@ -6066,7 +5856,6 @@ IGNORECASE
 re
 .
 VERBOSE
-    
 )
     
 re_unicode_variant_subtag
@@ -6138,7 +5927,6 @@ z0
 "
 "
 "
-        
 re
 .
 IGNORECASE
@@ -6146,7 +5934,6 @@ IGNORECASE
 re
 .
 VERBOSE
-    
 )
     
 #
@@ -6352,12 +6139,12 @@ identifiers
 unicode_bcp47_grandfathered_tags
 =
 {
-        
 tag
 for
 tag
 in
 grandfathered_tags
+                                        
 if
 re_unicode_language_id
 .
@@ -6365,7 +6152,6 @@ match
 (
 tag
 )
-    
 }
     
 #
@@ -6747,7 +6533,6 @@ case
         
 return
 (
-            
 language
 .
 lower
@@ -6757,7 +6542,7 @@ if
 language
 else
 None
-            
+                
 script
 .
 title
@@ -6767,7 +6552,7 @@ if
 script
 else
 None
-            
+                
 region
 .
 upper
@@ -6777,7 +6562,6 @@ if
 region
 else
 None
-        
 )
     
 tree
@@ -6958,14 +6742,12 @@ replacement
 )
             
 assert
-(
-                
 replacement_match
 is
 not
 None
-            
-)
+(
+                   
 "
 {
 }
@@ -6981,10 +6763,9 @@ format
 (
 replacement
 )
+)
             
 assert
-(
-                
 replacement_match
 .
 group
@@ -6995,8 +6776,8 @@ variants
 )
 is
 None
-            
-)
+(
+                   
 "
 {
 }
@@ -7014,6 +6795,7 @@ format
 type
 replacement
 )
+)
             
 complex_language_mappings
 [
@@ -7022,7 +6804,6 @@ type
 =
 bcp47_canonical
 (
-                
 replacement_match
 .
 group
@@ -7031,7 +6812,7 @@ group
 language
 "
 )
-                
+                                                              
 replacement_match
 .
 group
@@ -7040,7 +6821,7 @@ group
 script
 "
 )
-                
+                                                              
 replacement_match
 .
 group
@@ -7049,7 +6830,6 @@ group
 region
 "
 )
-            
 )
     
 for
@@ -7294,8 +7074,6 @@ replacement
 )
         
 assert
-(
-            
 re_unicode_variant_subtag
 .
 match
@@ -7305,8 +7083,8 @@ type
 is
 not
 None
-        
-)
+(
+               
 "
 {
 }
@@ -7318,6 +7096,7 @@ subtag
 format
 (
 type
+)
 )
         
 #
@@ -7376,8 +7155,6 @@ case
 .
         
 if
-(
-            
 re_unicode_language_subtag
 .
 match
@@ -7387,14 +7164,11 @@ replacement
 is
 not
 None
-            
 and
 replacement
 .
 islower
 (
-)
-        
 )
 :
             
@@ -7423,8 +7197,6 @@ None
 :
             
 assert
-(
-                
 replacement
 .
 isupper
@@ -7436,8 +7208,8 @@ replacement
 isdigit
 (
 )
-            
-)
+(
+                   
 "
 {
 }
@@ -7450,6 +7222,7 @@ replacement
 format
 (
 replacement
+)
 )
             
 variant_mappings
@@ -7468,8 +7241,6 @@ else
 :
             
 assert
-(
-                
 re_unicode_variant_subtag
 .
 match
@@ -7479,8 +7250,8 @@ replacement
 is
 not
 None
-            
-)
+(
+                   
 "
 {
 }
@@ -7493,6 +7264,7 @@ replacement
 format
 (
 replacement
+)
 )
             
 variant_mappings
@@ -7578,14 +7350,12 @@ from_tag
 )
         
 assert
-(
-            
 from_match
 is
 not
 None
-        
-)
+(
+               
 "
 {
 }
@@ -7601,10 +7371,9 @@ format
 (
 from_tag
 )
+)
         
 assert
-(
-            
 from_match
 .
 group
@@ -7615,8 +7384,8 @@ variants
 )
 is
 None
-        
-)
+(
+               
 "
 unexpected
 variant
@@ -7629,6 +7398,7 @@ in
 format
 (
 from_tag
+)
 )
         
 to_tag
@@ -7655,14 +7425,12 @@ to_tag
 )
         
 assert
-(
-            
 to_match
 is
 not
 None
-        
-)
+(
+               
 "
 {
 }
@@ -7678,10 +7446,9 @@ format
 (
 to_tag
 )
+)
         
 assert
-(
-            
 to_match
 .
 group
@@ -7692,8 +7459,8 @@ variants
 )
 is
 None
-        
-)
+(
+               
 "
 unexpected
 variant
@@ -7707,12 +7474,12 @@ format
 (
 to_tag
 )
+)
         
 from_canonical
 =
 bcp47_canonical
 (
-            
 from_match
 .
 group
@@ -7721,7 +7488,7 @@ group
 language
 "
 )
-            
+                                         
 from_match
 .
 group
@@ -7730,7 +7497,7 @@ group
 script
 "
 )
-            
+                                         
 from_match
 .
 group
@@ -7739,14 +7506,12 @@ group
 region
 "
 )
-        
 )
         
 to_canonical
 =
 bcp47_canonical
 (
-            
 to_match
 .
 group
@@ -7755,7 +7520,7 @@ group
 language
 "
 )
-            
+                                       
 to_match
 .
 group
@@ -7764,7 +7529,7 @@ group
 script
 "
 )
-            
+                                       
 to_match
 .
 group
@@ -7773,7 +7538,6 @@ group
 region
 "
 )
-        
 )
         
 likely_subtags
@@ -7834,28 +7598,25 @@ regions
 region_likely_subtags
 =
 [
-            
 (
 from_language
 from_script
 to_region
 )
-            
+                                 
 for
 (
-                
 (
 from_language
 from_script
 from_region
 )
-                
+                                      
 (
 _
 _
 to_region
 )
-            
 )
 in
 likely_subtags
@@ -7863,7 +7624,7 @@ likely_subtags
 items
 (
 )
-            
+                                 
 if
 from_region
 is
@@ -7872,7 +7633,6 @@ and
 to_region
 in
 replacements
-        
 ]
         
 #
@@ -7910,12 +7670,11 @@ region
 default_replacements
 =
 {
-            
 (
 language
 script
 )
-            
+                                
 for
 (
 language
@@ -7924,13 +7683,12 @@ region
 )
 in
 region_likely_subtags
-            
+                                
 if
 region
 =
 =
 default
-        
 }
         
 #
@@ -7980,13 +7738,12 @@ region
 non_default_replacements
 =
 [
-            
 (
 language
 script
 region
 )
-            
+                                    
 for
 (
 language
@@ -7995,7 +7752,7 @@ region
 )
 in
 region_likely_subtags
-            
+                                    
 if
 (
 language
@@ -8004,7 +7761,6 @@ script
 not
 in
 default_replacements
-        
 ]
         
 #
@@ -8042,11 +7798,8 @@ deprecated_region
 ]
 =
 (
-                
 default
-                
 non_default_replacements
-            
 )
         
 else
@@ -8061,49 +7814,48 @@ default
     
 return
 {
-        
 "
 grandfatheredMappings
 "
 :
 grandfathered_mappings
-        
+            
 "
 languageMappings
 "
 :
 language_mappings
-        
+            
 "
 complexLanguageMappings
 "
 :
 complex_language_mappings
-        
+            
 "
 regionMappings
 "
 :
 region_mappings
-        
+            
 "
 complexRegionMappings
 "
 :
 complex_region_mappings_final
-        
+            
 "
 variantMappings
 "
 :
 variant_mappings
-        
+            
 "
 likelySubtags
 "
 :
 likely_subtags
-    
+            
 }
 def
 readUnicodeExtensions
@@ -8332,8 +8084,6 @@ u
 )
             
 assert
-(
-                
 extension
 =
 =
@@ -8347,8 +8097,8 @@ extension
 "
 t
 "
-            
-)
+(
+                   
 "
 unknown
 extension
@@ -8361,6 +8111,7 @@ type
 format
 (
 extension
+)
 )
             
 extension_name
@@ -8577,27 +8328,22 @@ if
 name
 in
 (
-                    
 "
 CODEPOINTS
 "
-                    
 "
 REORDER_CODE
 "
-                    
 "
 RG_KEY_VALUE
 "
-                    
 "
 SUBDIVISION_CODE
 "
-                    
+                            
 "
 PRIVATE_USE
 "
-                
 )
 :
                     
@@ -8617,8 +8363,6 @@ production
 .
                 
 assert
-(
-                    
 typeRE
 .
 match
@@ -8628,8 +8372,8 @@ name
 is
 not
 None
-                
-)
+(
+                       
 "
 {
 }
@@ -8644,6 +8388,7 @@ production
 format
 (
 name
+)
 )
                 
 #
@@ -9071,13 +8816,12 @@ present
                         
 if
 (
-                            
 preferred
 is
 not
 None
-                            
 and
+                            
 name
 in
 mapping
@@ -9087,7 +8831,6 @@ extension
 [
 extension_name
 ]
-                        
 )
 :
                             
@@ -9173,9 +8916,7 @@ extension_name
 }
 )
 [
-                            
 alias_name
-                        
 ]
 =
 name
@@ -9297,8 +9038,6 @@ type
 )
             
 assert
-(
-                
 typeRE
 .
 match
@@ -9308,8 +9047,8 @@ type
 is
 not
 None
-            
-)
+(
+                   
 "
 {
 }
@@ -9324,6 +9063,7 @@ production
 format
 (
 type
+)
 )
             
 #
@@ -9524,7 +9264,6 @@ name
     
 readSupplementalMetadata
 (
-        
 core_file
 .
 open
@@ -9539,7 +9278,6 @@ supplementalMetadata
 xml
 "
 )
-    
 )
     
 return
@@ -9645,7 +9383,6 @@ url
     
 println
 (
-        
 u
 "
 "
@@ -10532,7 +10269,6 @@ endif
 rstrip
 (
 )
-    
 )
     
 source
@@ -10671,34 +10407,30 @@ region_maxlength
     
 writeMappingsBinarySearch
 (
-        
 println
-        
 "
 languageMapping
 "
-        
+                              
 "
 LanguageSubtag
 &
 "
-        
 "
 language
 "
-        
+                              
 "
 IsStructurallyValidLanguageTag
 "
-        
+                              
 "
 IsCanonicallyCasedLanguageTag
 "
-        
+                              
 language_mappings
-        
 language_maxlength
-        
+                              
 "
 Mappings
 from
@@ -10709,48 +10441,41 @@ preferred
 values
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeMappingsBinarySearch
 (
-        
 println
-        
 "
 complexLanguageMapping
 "
-        
+                              
 "
 const
 LanguageSubtag
 &
 "
-        
 "
 language
 "
-        
+                              
 "
 IsStructurallyValidLanguageTag
 "
-        
+                              
 "
 IsCanonicallyCasedLanguageTag
 "
-        
+                              
 complex_language_mappings
 .
 keys
 (
 )
-        
 language_maxlength
-        
+                              
 "
 Language
 subtags
@@ -10759,43 +10484,36 @@ complex
 mappings
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeMappingsBinarySearch
 (
-        
 println
-        
 "
 regionMapping
 "
-        
+                              
 "
 RegionSubtag
 &
 "
-        
 "
 region
 "
-        
+                              
 "
 IsStructurallyValidRegionTag
 "
-        
+                              
 "
 IsCanonicallyCasedRegionTag
 "
-        
+                              
 region_mappings
-        
 region_maxlength
-        
+                              
 "
 Mappings
 from
@@ -10806,48 +10524,41 @@ preferred
 values
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeMappingsBinarySearch
 (
-        
 println
-        
 "
 complexRegionMapping
 "
-        
+                              
 "
 const
 RegionSubtag
 &
 "
-        
 "
 region
 "
-        
+                              
 "
 IsStructurallyValidRegionTag
 "
-        
+                              
 "
 IsCanonicallyCasedRegionTag
 "
-        
+                              
 complex_region_mappings
 .
 keys
 (
 )
-        
 region_maxlength
-        
+                              
 "
 Region
 subtags
@@ -10856,20 +10567,15 @@ complex
 mappings
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeComplexLanguageTagMappings
 (
-        
 println
-        
 complex_language_mappings
-        
+                                    
 "
 Language
 subtags
@@ -10878,20 +10584,15 @@ complex
 mappings
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeComplexRegionTagMappings
 (
-        
 println
-        
 complex_region_mappings
-        
+                                  
 "
 Region
 subtags
@@ -10900,20 +10601,15 @@ complex
 mappings
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeVariantTagMappings
 (
-        
 println
-        
 variant_mappings
-        
+                            
 "
 Mappings
 from
@@ -10924,20 +10620,15 @@ preferred
 values
 .
 "
-        
 source
-        
 url
-    
 )
     
 writeGrandfatheredMappingsFunction
 (
-        
 println
-        
 grandfathered_mappings
-        
+                                       
 "
 Canonicalize
 grandfathered
@@ -10945,11 +10636,9 @@ locale
 identifiers
 .
 "
-        
 source
-        
+                                       
 url
-    
 )
     
 writeUnicodeExtensionsMappings
@@ -11092,8 +10781,8 @@ return
 .
 format
 (
-            
 language
+                               
 "
 -
 "
@@ -11104,6 +10793,7 @@ script
 else
 "
 "
+                               
 "
 -
 "
@@ -11114,7 +10804,6 @@ region
 else
 "
 "
-        
 )
     
 def
@@ -11176,21 +10865,19 @@ region
 )
 =
 (
-                
 language2
-                
+                                          
 script
 if
 script
 else
 script2
-                
+                                          
 region
 if
 region
 else
 region2
-            
 )
         
 #
@@ -11229,14 +10916,12 @@ now
 .
             
 assert
-(
-                
 region
 not
 in
 complex_region_mappings
-            
-)
+\
+                   
 "
 unexpected
 region
@@ -11337,31 +11022,30 @@ Lookup
 searches
 =
 (
-            
 (
 language
 script
 region
 )
-            
+                    
 (
 language
 None
 region
 )
-            
+                    
 (
 language
 script
 None
 )
-            
+                    
 (
 language
 None
 None
 )
-            
+                    
 (
 "
 und
@@ -11369,7 +11053,6 @@ und
 script
 None
 )
-        
 )
         
 search
@@ -11415,7 +11098,6 @@ Return
         
 return
 (
-            
 language
 if
 language
@@ -11424,7 +11106,7 @@ language
 language_s
 else
 language_m
-            
+                
 script
 if
 script
@@ -11433,7 +11115,7 @@ script
 script_s
 else
 script_m
-            
+                
 region
 if
 region
@@ -11442,7 +11124,6 @@ region
 region_s
 else
 region_m
-        
 )
     
 #
@@ -11520,25 +11201,21 @@ for
 trial
 in
 (
-            
 (
 language
 None
 None
 )
-            
 (
 language
 None
 region
 )
-            
 (
 language
 script
 None
 )
-        
 )
 :
             
@@ -11673,7 +11350,6 @@ first
 likely_subtags_canonical
 =
 {
-        
 k
 :
 likely_canonical
@@ -11692,7 +11368,6 @@ likely_subtags
 items
 (
 )
-    
 }
     
 #
@@ -11715,9 +11390,7 @@ maximize
     
 writeMappingsVar
 (
-        
 println
-        
 {
 bcp47
 (
@@ -11740,11 +11413,10 @@ items
 (
 )
 }
-        
+                     
 "
 maxLikelySubtags
 "
-        
 "
 Extracted
 from
@@ -11753,11 +11425,8 @@ likelySubtags
 xml
 .
 "
-        
 source
-        
 url
-    
 )
     
 #
@@ -11780,7 +11449,6 @@ test
 minimized
 =
 {
-        
 tag
 :
 removeLikelySubtags
@@ -11795,7 +11463,6 @@ likely_subtags_canonical
 values
 (
 )
-    
 }
     
 #
@@ -11818,9 +11485,7 @@ minimize
     
 writeMappingsVar
 (
-        
 println
-        
 {
 bcp47
 (
@@ -11843,11 +11508,10 @@ items
 (
 )
 }
-        
+                     
 "
 minLikelySubtags
 "
-        
 "
 Extracted
 from
@@ -11856,16 +11520,12 @@ likelySubtags
 xml
 .
 "
-        
 source
-        
 url
-    
 )
     
 println
 (
-        
 u
 "
 "
@@ -11911,12 +11571,10 @@ maximal
 "
 "
 "
-    
 )
     
 println
 (
-        
 u
 "
 "
@@ -11962,12 +11620,10 @@ minimal
 "
 "
 "
-    
 )
     
 println
 (
-        
 u
 "
 "
@@ -11993,7 +11649,6 @@ reportCompare
 "
 "
 "
-    
 )
 def
 readCLDRVersionFromICU
@@ -12560,9 +12215,8 @@ path
 .
 join
 (
-        
 js_src_builtin_intl_dir
-        
+                             
 "
 .
 .
@@ -12586,7 +12240,6 @@ generated
 .
 js
 "
-    
 )
     
 with
@@ -12979,7 +12632,6 @@ path
 .
 splitext
 (
-            
 os
 .
 path
@@ -12998,7 +12650,6 @@ obj
 [
 0
 ]
-        
 )
 [
 0
@@ -13192,7 +12843,6 @@ zoneNames
 raise
 RuntimeError
 (
-            
 "
 Link
 targets
@@ -13209,7 +12859,6 @@ difference
 (
 zoneNames
 )
-        
 )
 def
 partition
@@ -13351,7 +13000,6 @@ f
 return
 filter
 (
-        
 partial
 (
 isTzFile
@@ -13375,13 +13023,12 @@ z0
 .
 match
 )
-        
+                  
 tzdataDir
 .
 listdir
 (
 )
-    
 )
 def
 readIANAFiles
@@ -13460,7 +13107,6 @@ re
 .
 compile
 (
-        
 r
 "
 Link
@@ -13501,11 +13147,11 @@ s
 ?
 "
 %
+                       
 (
 nameSyntax
 nameSyntax
 )
-    
 )
     
 def
@@ -13807,7 +13453,6 @@ backzones
 links
 =
 {
-            
 name
 :
 target
@@ -13825,7 +13470,6 @@ name
 not
 in
 backzones
-        
 }
         
 links
@@ -13862,7 +13506,7 @@ ICU
 resource
 file
 .
-    
+        
 Yields
 (
 <
@@ -13914,7 +13558,6 @@ asVector
 val
 )
 :
-        
 return
 r
 "
@@ -14339,7 +13982,6 @@ currentTable
 (
 )
 :
-        
 return
 "
 |
@@ -14613,7 +14255,7 @@ icuTzDir
 timezoneTypes
 .
 txt
-    
+        
 and
 returns
 the
@@ -14666,7 +14308,6 @@ toTimeZone
 name
 )
 :
-        
 return
 Zone
 (
@@ -14886,7 +14527,7 @@ icuTzDir
 zoneinfo64
 .
 txt
-    
+        
 and
 returns
 the
@@ -15255,10 +14896,8 @@ zoneinfoLinks
 =
 readICUTimeZonesFromZoneInfo
 (
-        
 icuTzDir
 ignoreFactory
-    
 )
     
 #
@@ -15328,7 +14967,6 @@ inZoneInfo64
 zone
 )
 :
-        
 return
 zone
 in
@@ -15377,11 +15015,9 @@ legacyZones
 zoneinfoLinks
 =
 {
-        
 zone
 :
 target
-        
 for
 (
 zone
@@ -15393,13 +15029,12 @@ zoneinfoLinks
 items
 (
 )
-        
+                     
 if
 zone
 not
 in
 legacyLinks
-    
 }
     
 notFoundInZoneInfo64
@@ -15425,7 +15060,6 @@ notFoundInZoneInfo64
 raise
 RuntimeError
 (
-            
 "
 Missing
 time
@@ -15440,13 +15074,11 @@ s
 "
 %
 notFoundInZoneInfo64
-        
 )
     
 notFoundInZoneInfo64
 =
 [
-        
 zone
 for
 zone
@@ -15462,7 +15094,6 @@ inZoneInfo64
 (
 zone
 )
-    
 ]
     
 if
@@ -15472,7 +15103,6 @@ notFoundInZoneInfo64
 raise
 RuntimeError
 (
-            
 "
 Missing
 time
@@ -15487,7 +15117,6 @@ s
 "
 %
 notFoundInZoneInfo64
-        
 )
     
 #
@@ -15534,10 +15163,9 @@ icuZones
 =
 set
 (
-        
 chain
 (
-            
+        
 (
 zone
 for
@@ -15550,7 +15178,7 @@ not
 in
 typesLinks
 )
-            
+        
 (
 zone
 for
@@ -15558,26 +15186,22 @@ zone
 in
 typesZones
 )
-        
-)
     
+)
 )
     
 icuLinks
 =
 dict
 (
-        
 chain
 (
-            
+        
 (
-                
 (
 zone
 target
 )
-                
 for
 (
 zone
@@ -15589,15 +15213,13 @@ zoneinfoLinks
 items
 (
 )
-                
 if
 zone
 not
 in
 typesZones
-            
 )
-            
+        
 (
 (
 zone
@@ -15615,9 +15237,8 @@ items
 (
 )
 )
-        
-)
     
+)
 )
     
 return
@@ -15649,7 +15270,7 @@ tools
 tzcode
 /
 icuzones
-    
+        
 and
 returns
 the
@@ -15969,7 +15590,6 @@ None
 raise
 RuntimeError
 (
-            
 "
 %
 s
@@ -15984,7 +15604,6 @@ string
 "
 %
 zoneinfo
-        
 )
     
 return
@@ -16019,7 +15638,6 @@ isIANATimeZone
 zone
 )
 :
-        
 return
 zone
 in
@@ -16035,7 +15653,6 @@ isICUTimeZone
 zone
 )
 :
-        
 return
 zone
 in
@@ -16051,7 +15668,6 @@ isICULink
 zone
 )
 :
-        
 return
 zone
 in
@@ -16159,7 +15775,6 @@ expectedMissing
 raise
 RuntimeError
 (
-            
 "
 Not
 all
@@ -16172,7 +15787,7 @@ did
 you
 forget
 "
-            
+                           
 "
 to
 run
@@ -16189,7 +15804,6 @@ s
 "
 %
 missingTimeZones
-        
 )
     
 #
@@ -16225,7 +15839,6 @@ additionalTimeZones
 raise
 RuntimeError
 (
-            
 "
 Additional
 zones
@@ -16236,7 +15849,7 @@ did
 you
 forget
 "
-            
+                           
 "
 to
 run
@@ -16253,7 +15866,6 @@ s
 "
 %
 additionalTimeZones
-        
 )
     
 #
@@ -16378,7 +15990,6 @@ isIANATimeZone
 zone
 )
 :
-        
 return
 zone
 in
@@ -16394,7 +16005,6 @@ isICUTimeZone
 zone
 )
 :
-        
 return
 zone
 in
@@ -16410,7 +16020,6 @@ isICULink
 zone
 )
 :
-        
 return
 zone
 in
@@ -16422,7 +16031,6 @@ isICUZone
 zone
 )
 :
-        
 return
 zone
 in
@@ -16465,7 +16073,6 @@ missingTimeZones
 raise
 RuntimeError
 (
-            
 "
 Not
 all
@@ -16478,7 +16085,7 @@ did
 you
 forget
 "
-            
+                           
 "
 to
 run
@@ -16495,7 +16102,6 @@ s
 "
 %
 missingTimeZones
-        
 )
     
 #
@@ -16535,7 +16141,6 @@ additionalTimeZones
 raise
 RuntimeError
 (
-            
 "
 Additional
 links
@@ -16546,7 +16151,7 @@ did
 you
 forget
 "
-            
+                           
 "
 to
 run
@@ -16563,7 +16168,6 @@ s
 "
 %
 additionalTimeZones
-        
 )
     
 result
@@ -16584,7 +16188,6 @@ ICU
 .
         
 (
-            
 (
 zone
 target
@@ -16593,7 +16196,6 @@ icuLinks
 zone
 ]
 )
-            
 for
 (
 zone
@@ -16605,7 +16207,7 @@ ianaLinks
 items
 (
 )
-            
+         
 if
 isICULink
 (
@@ -16619,7 +16221,6 @@ icuLinks
 [
 zone
 ]
-        
 )
         
 #
@@ -16633,7 +16234,6 @@ ICU
 .
         
 (
-            
 (
 zone
 target
@@ -16641,7 +16241,6 @@ zone
 .
 name
 )
-            
 for
 (
 zone
@@ -16653,13 +16252,11 @@ ianaLinks
 items
 (
 )
-            
 if
 isICUZone
 (
 zone
 )
-        
 )
     
 )
@@ -16694,13 +16291,12 @@ GMT
 result
 =
 (
-        
 (
 zone
 target
 icuTarget
 )
-        
+              
 for
 (
 zone
@@ -16709,7 +16305,7 @@ icuTarget
 )
 in
 result
-        
+              
 if
 target
 not
@@ -16720,7 +16316,6 @@ icuTarget
 not
 in
 utcnames
-    
 )
     
 return
@@ -16767,7 +16362,6 @@ version
 def
 processTimeZones
 (
-    
 tzdataDir
 icuDir
 icuTzDir
@@ -16855,7 +16449,6 @@ ianaLinks
 icuZones
 icuLinks
 ignoreBackzone
-    
 )
     
 if
@@ -17341,7 +16934,6 @@ incorrectLinks
             
 println
 (
-                
 u
 '
 {
@@ -17363,7 +16955,6 @@ s
 s
 ]
 '
-                
 %
 (
 zone
@@ -17373,7 +16964,6 @@ zone
 .
 filename
 )
-            
 )
         
 println
@@ -17394,7 +16984,6 @@ u
         
 println
 (
-            
 u
 "
 /
@@ -17415,7 +17004,6 @@ names
 We
 also
 "
-        
 )
         
 println
@@ -17439,7 +17027,6 @@ zones
         
 println
 (
-            
 u
 "
 /
@@ -17472,7 +17059,6 @@ tzcode
 /
 icuzones
 "
-        
 )
 #
 NOQA
@@ -17602,7 +17188,6 @@ withZone
 fn
 )
 :
-        
 return
 lambda
 zone_target
@@ -17703,12 +17288,11 @@ target
 return
 dict
 (
-        
 chain
 (
-            
+                
 stableZones
-            
+                
 map
 (
 withZone
@@ -17726,9 +17310,8 @@ zone
 )
 updatedLinks
 )
-        
+                
 )
-    
 )
 def
 generateTzDataLinkTestContent
@@ -17746,7 +17329,6 @@ io
 .
 open
 (
-        
 os
 .
 path
@@ -17772,7 +17354,6 @@ newline
 =
 "
 "
-    
 )
 as
 f
@@ -17838,7 +17419,6 @@ version
         
 println
 (
-            
 u
 "
 "
@@ -17875,7 +17455,6 @@ toLowerCase
 "
 "
 "
-        
 )
         
 println
@@ -17944,7 +17523,6 @@ u
         
 println
 (
-            
 u
 "
 "
@@ -18058,12 +17636,10 @@ target
 "
 "
 "
-        
 )
         
 println
 (
-            
 u
 "
 "
@@ -18092,7 +17668,6 @@ ok
 "
 "
 "
-        
 )
 def
 generateTzDataTestBackwardLinks
@@ -18145,7 +17720,6 @@ generateTzDataLinkTestContent
 (
         
 testDir
-        
 version
         
 "
@@ -18192,7 +17766,6 @@ tzfiles
 =
 filterfalse
 (
-        
 {
 "
 backward
@@ -18207,7 +17780,6 @@ listIANAFiles
 (
 tzdataDir
 )
-    
 )
     
 (
@@ -18238,7 +17810,6 @@ generateTzDataLinkTestContent
 (
         
 testDir
-        
 version
         
 "
@@ -18452,7 +18023,6 @@ generateTzDataLinkTestContent
 (
         
 testDir
-        
 version
         
 "
@@ -18479,7 +18049,6 @@ Database
 "
         
 (
-            
 (
 zone
 zone
@@ -18492,17 +18061,15 @@ links
 zone
 ]
 )
-            
+         
 for
 zone
 in
 backzones
-            
 if
 zone
 in
 links
-        
 )
     
 )
@@ -18695,7 +18262,6 @@ generateTzDataLinkTestContent
 (
         
 testDir
-        
 version
         
 "
@@ -18722,7 +18288,6 @@ Database
 "
         
 (
-            
 (
 zone
 target
@@ -18735,7 +18300,7 @@ links
 zone
 ]
 )
-            
+         
 for
 (
 zone
@@ -18747,7 +18312,6 @@ backlinks
 items
 (
 )
-        
 )
     
 )
@@ -18773,7 +18337,6 @@ io
 .
 open
 (
-        
 os
 .
 path
@@ -18799,7 +18362,6 @@ newline
 =
 "
 "
-    
 )
 as
 f
@@ -18890,7 +18452,6 @@ version
         
 println
 (
-            
 u
 "
 "
@@ -18961,7 +18522,6 @@ ok
 "
 "
 "
-        
 )
 def
 generateTzDataTests
@@ -19131,7 +18691,6 @@ path
 .
 join
 (
-        
 topsrcdir
 "
 js
@@ -19146,7 +18705,6 @@ Intl
 /
 DateTimeFormat
 "
-    
 )
     
 if
@@ -19267,8 +18825,6 @@ icuTzDir
     
 url
 =
-(
-        
 "
 https
 :
@@ -19298,8 +18854,6 @@ gz
 "
 %
 version
-    
-)
     
 print
 (
@@ -19460,37 +19014,29 @@ tar
                 
 processTimeZones
 (
-                    
 TzDataFile
 (
 tar
 )
-                    
 icuDir
-                    
 icuTzDir
-                    
 version
-                    
+                                 
 ignoreBackzone
-                    
 ignoreFactory
-                    
 out
-                
 )
                 
 generateTzDataTests
 (
-                    
 TzDataFile
 (
 tar
 )
 version
+                                    
 ignoreBackzone
 dateTimeFormatTestDir
-                
 )
         
 elif
@@ -19506,29 +19052,21 @@ f
             
 processTimeZones
 (
-                
 TzDataDir
 (
 f
 )
-                
 icuDir
-                
 icuTzDir
-                
 version
-                
+                             
 ignoreBackzone
-                
 ignoreFactory
-                
 out
-            
 )
             
 generateTzDataTests
 (
-                
 TzDataDir
 (
 f
@@ -19536,7 +19074,6 @@ f
 version
 ignoreBackzone
 dateTimeFormatTestDir
-            
 )
         
 else
@@ -19911,7 +19448,6 @@ published
         
 println
 (
-            
 u
 "
 "
@@ -19987,7 +19523,6 @@ html
 "
 "
 "
-        
 )
         
 println
@@ -20009,7 +19544,6 @@ entries
 in
 groupby
 (
-            
 sorted
 (
 currencies
@@ -20024,7 +19558,6 @@ itemgetter
 (
 0
 )
-        
 )
 :
             
@@ -20333,7 +19866,6 @@ User
 -
 agent
 "
-            
 "
 Mozilla
 /
@@ -20375,9 +19907,7 @@ randint
 1
 999
 )
-            
 )
-        
 )
         
 with
@@ -20478,7 +20008,6 @@ extension
     
 println
 (
-        
 u
 "
 "
@@ -20668,21 +20197,16 @@ Length
 .
 format
 (
-            
 extension
-        
 )
 .
 rstrip
 (
-            
 "
 \
 n
 "
-        
 )
-    
 )
     
 linear_search_max_length
@@ -20693,7 +20217,6 @@ needs_binary_search
 =
 any
 (
-        
 len
 (
 replacements
@@ -20704,7 +20227,7 @@ items
 )
 >
 linear_search_max_length
-        
+                              
 for
 replacements
 in
@@ -20713,7 +20236,6 @@ mapping
 values
 (
 )
-    
 )
     
 if
@@ -20722,7 +20244,6 @@ needs_binary_search
         
 println
 (
-            
 u
 "
 "
@@ -21145,26 +20666,20 @@ nullptr
 .
 format
 (
-                
 extension
-            
 )
 .
 rstrip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -21339,11 +20854,8 @@ type
 .
 format
 (
-            
 extension
-        
 )
-    
 )
     
 def
@@ -21442,14 +20954,15 @@ max_entries
 entries
 =
 (
-                
 u
-'
+"
+\
 "
 {
 }
+\
 "
-'
+"
 .
 format
 (
@@ -21462,18 +20975,16 @@ length
 +
 2
 )
-                
+                       
 for
 tag
 in
 entries
-                
 if
 tag
 is
 not
 None
-            
 )
             
 println
@@ -21621,28 +21132,29 @@ continue
 cond
 =
 (
-            
 u
-'
+"
 Is
 {
 }
 Key
 (
 key
+\
 "
 {
 }
+\
 "
 )
-'
+"
 .
 format
 (
 extension
 k
 )
-            
+                
 for
 k
 in
@@ -21654,7 +21166,6 @@ key_aliases
 [
 hash_key
 ]
-        
 )
         
 if_kind
@@ -21706,7 +21217,6 @@ cond
         
 println
 (
-            
 u
 "
 "
@@ -21726,22 +21236,17 @@ u
 .
 format
 (
-                
 if_kind
 cond
-            
 )
 .
 strip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
         
 first_key
@@ -21836,7 +21341,6 @@ max_len
             
 println
 (
-                
 u
 "
 "
@@ -21859,21 +21363,16 @@ type
 .
 format
 (
-                    
 extension
-                
 )
 .
 strip
 (
-                    
 "
 \
 n
 "
-                
 )
-            
 )
         
 else
@@ -21890,7 +21389,6 @@ replacements
                 
 println
 (
-                    
 u
 "
 "
@@ -21928,28 +21426,22 @@ return
 .
 format
 (
-                        
 extension
 type
 replacement
-                    
 )
 .
 strip
 (
-                        
 "
 \
 n
 "
-                    
 )
-                
 )
         
 println
 (
-            
 u
 "
 "
@@ -21962,19 +21454,15 @@ u
 .
 lstrip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 println
 (
-        
 u
 "
 "
@@ -21990,14 +21478,11 @@ nullptr
 .
 strip
 (
-            
 "
 \
 n
 "
-        
 )
-    
 )
 def
 readICUUnitResourceFile
@@ -22026,45 +21511,45 @@ unit
 type
 and
 the
-    
+        
 second
 entry
 the
 unit
 name
 .
-    
+        
 Example
 :
-    
+        
 root
 {
-        
+            
 units
 {
-            
+                
 compound
 {
-            
+                
 }
-            
+                
 coordinate
 {
-            
+                
 }
-            
+                
 length
 {
-                
+                    
 meter
 {
+                    
+}
                 
 }
             
 }
-        
-}
-        
+            
 unitsNarrow
 :
 alias
@@ -22076,18 +21561,18 @@ LOCALE
 unitsShort
 "
 }
-        
+            
 unitsShort
 {
-            
+                
 duration
 {
-                
+                    
 day
 {
-                
+                    
 }
-                
+                    
 day
 -
 person
@@ -22105,23 +21590,23 @@ duration
 day
 "
 }
-            
+                
 }
-            
+                
 length
 {
-                
+                    
 meter
 {
+                    
+}
                 
 }
             
 }
         
 }
-    
-}
-    
+        
 Returns
 {
 (
@@ -22641,7 +22126,6 @@ ccoordinate
     
 return
 {
-        
 (
 unit_type
 unit_name
@@ -22664,7 +22148,7 @@ unit_name
 6
 ]
 )
-        
+            
 for
 unit_display
 in
@@ -22679,12 +22163,12 @@ unitsNarrow
 unitsShort
 "
 )
-        
+            
 if
 unit_display
 in
 unit_table
-        
+            
 for
 (
 unit_type
@@ -22699,7 +22183,7 @@ unit_display
 items
 (
 )
-        
+            
 if
 unit_type
 !
@@ -22714,7 +22198,7 @@ unit_type
 "
 coordinate
 "
-        
+            
 for
 unit_name
 in
@@ -22723,7 +22207,6 @@ unit_names
 keys
 (
 )
-    
 }
 def
 computeSupportedUnits
@@ -22751,7 +22234,7 @@ set
 of
 sanctioned
 unit
-    
+        
 identifiers
 compute
 the
@@ -22778,12 +22261,11 @@ unit
 unit_match
 =
 [
-            
 (
 unit_type
 unit_name
 )
-            
+                      
 for
 (
 unit_type
@@ -22791,13 +22273,12 @@ unit_name
 )
 in
 all_units
-            
+                      
 if
 unit_name
 =
 =
 unit
-        
 ]
         
 if
@@ -22879,9 +22360,8 @@ supported_simple_units
 supported_compound_units
 =
 {
-        
 unit_match
-        
+                                
 for
 unit_match
 in
@@ -22890,6 +22370,7 @@ find_match
 (
 unit
 )
+                                                   
 for
 unit
 in
@@ -22897,10 +22378,9 @@ compound_unit_identifiers
 (
 )
 )
-        
+                                
 if
 unit_match
-    
 }
     
 return
@@ -22961,14 +22441,13 @@ unit_tree
 unit_tree_rules
 =
 [
-        
 entry
 [
 "
 rules
 "
 ]
-        
+                       
 for
 entry
 in
@@ -22978,7 +22457,7 @@ data_filter
 resourceFilters
 "
 ]
-        
+                       
 if
 entry
 [
@@ -22993,7 +22472,6 @@ categories
 unit_tree
 "
 ]
-    
 ]
     
 assert
@@ -23159,7 +22637,6 @@ unit
 result
 =
 [
-            
 unit_type
 for
 (
@@ -23173,7 +22650,6 @@ unit_name
 =
 =
 unit
-        
 ]
         
 assert
@@ -23201,14 +22677,13 @@ path
 .
 join
 (
-        
 js_src_builtin_intl_dir
+                                      
 "
 SanctionedSimpleUnitIdentifiersGenerated
 .
 js
 "
-    
 )
     
 with
@@ -23254,7 +22729,6 @@ json
 .
 dumps
 (
-            
 {
 unit
 :
@@ -23267,25 +22741,22 @@ sorted
 sanctioned_units
 )
 }
-            
+                                             
 sort_keys
 =
 True
-            
 indent
 =
 4
-            
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
-        
 )
         
 println
@@ -23295,7 +22766,6 @@ generatedFileWarning
         
 println
 (
-            
 u
 "
 "
@@ -23330,12 +22800,10 @@ Proposal
 "
 "
 "
-        
 )
         
 println
 (
-            
 u
 "
 var
@@ -23350,7 +22818,6 @@ format
 (
 sanctioned_units_object
 )
-        
 )
     
 sanctioned_cpp_file
@@ -23361,14 +22828,12 @@ path
 .
 join
 (
-        
 js_src_builtin_intl_dir
 "
 MeasureUnitGenerated
 .
 h
 "
-    
 )
     
 with
@@ -23415,7 +22880,6 @@ generatedFileWarning
         
 println
 (
-            
 u
 "
 "
@@ -23491,7 +22955,6 @@ off
 "
 "
 "
-        
 )
         
 for
@@ -23533,7 +22996,6 @@ unit_name
         
 println
 (
-            
 u
 "
 "
@@ -23553,14 +23015,11 @@ on
 .
 lstrip
 (
-                
 "
 \
 n
 "
-            
 )
-        
 )
     
 writeUnitTestFiles
@@ -23617,7 +23076,6 @@ path
 .
 join
 (
-        
 js_src_builtin_intl_dir
 "
 .
@@ -23634,7 +23092,6 @@ Intl
 /
 NumberFormat
 "
-    
 )
     
 def
@@ -23748,7 +23205,6 @@ json
 .
 dumps
 (
-                
 [
 unit
 for
@@ -23759,26 +23215,23 @@ sorted
 sanctioned_units
 )
 ]
-                
+                                                
 indent
 =
 indent
-                
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
-            
 )
             
 println
 (
-                
 u
 "
 const
@@ -23791,11 +23244,8 @@ sanctionedSimpleUnitIdentifiers
 .
 format
 (
-                    
 sanctioned_units_array
-                
 )
-            
 )
             
 println
@@ -23805,7 +23255,6 @@ test_content
             
 println
 (
-                
 u
 "
 "
@@ -23835,19 +23284,15 @@ true
 .
 format
 (
-                    
 "
 "
 *
 indent
-                
 )
-            
 )
     
 write_test
 (
-        
 "
 unit
 -
@@ -23857,7 +23302,6 @@ combinations
 .
 js
 "
-        
 u
 "
 "
@@ -23965,7 +23409,6 @@ join
 "
 "
 "
-    
 )
     
 all_units_array
@@ -23974,7 +23417,6 @@ json
 .
 dumps
 (
-        
 [
 "
 -
@@ -23992,24 +23434,23 @@ sorted
 all_units
 )
 ]
+                                 
 indent
 =
 4
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
-    
 )
     
 write_test
 (
-        
 "
 unit
 -
@@ -24019,7 +23460,6 @@ formed
 .
 js
 "
-        
 u
 "
 "
@@ -24036,11 +23476,8 @@ allUnits
 .
 format
 (
-            
 all_units_array
-        
 )
-        
 +
 u
 "
@@ -24269,12 +23706,10 @@ typeAndUnit
 "
 "
 "
-    
 )
     
 write_test
 (
-        
 "
 unit
 -
@@ -24288,7 +23723,6 @@ field
 .
 js
 "
-        
 u
 "
 "
@@ -24607,11 +24041,9 @@ unit
 "
 "
 "
-        
 indent
 =
 2
-    
 )
 def
 updateUnits
@@ -24663,7 +24095,6 @@ io
 .
 open
 (
-        
 "
 SanctionedSimpleUnitIdentifiers
 .
@@ -24681,7 +24112,6 @@ utf
 -
 8
 "
-    
 )
 as
 f
@@ -24967,7 +24397,7 @@ the
 numbering
 system
 name
-    
+        
 and
 the
 value
@@ -24979,10 +24409,10 @@ numbering
 system
 data
 .
-    
+        
 Example
 :
-    
+        
 numberingSystems
 :
 table
@@ -24990,46 +24420,46 @@ table
 nofallback
 )
 {
-        
+            
 numberingSystems
 {
-            
+                
 latn
 {
-                
+                    
 algorithmic
 :
 int
 {
 0
 }
-                
+                    
 desc
 {
 "
 0123456789
 "
 }
-                
+                    
 radix
 :
 int
 {
 10
 }
-            
+                
 }
-            
+                
 roman
 {
-                
+                    
 algorithmic
 :
 int
 {
 1
 }
-                
+                    
 desc
 {
 "
@@ -25039,20 +24469,20 @@ roman
 upper
 "
 }
-                
+                    
 radix
 :
 int
 {
 10
 }
+                
+}
             
 }
         
 }
-    
-}
-    
+        
 Returns
 {
 "
@@ -25073,7 +24503,7 @@ algorithmic
 :
 False
 }
-             
+                 
 "
 roman
 "
@@ -25472,8 +24902,6 @@ group
             
 entry_value
 =
-(
-                
 match
 .
 group
@@ -25499,8 +24927,6 @@ group
 (
 3
 )
-)
-            
 )
             
 table
@@ -25642,7 +25068,6 @@ systems
     
 return
 {
-        
 key
 :
 {
@@ -25662,7 +25087,7 @@ algorithmic
 :
 False
 }
-        
+            
 if
 not
 bool
@@ -25674,7 +25099,7 @@ algorithmic
 "
 ]
 )
-        
+            
 else
 {
 "
@@ -25683,7 +25108,7 @@ algorithmic
 :
 True
 }
-        
+            
 for
 (
 key
@@ -25695,7 +25120,6 @@ numbering_systems
 items
 (
 )
-    
 }
 def
 writeNumberingSystemFiles
@@ -25730,14 +25154,13 @@ path
 .
 join
 (
-        
 js_src_builtin_intl_dir
+                                             
 "
 NumberingSystemsGenerated
 .
 h
 "
-    
 )
     
 with
@@ -25745,7 +25168,6 @@ io
 .
 open
 (
-        
 numbering_systems_js_file
 mode
 =
@@ -25763,7 +25185,6 @@ newline
 =
 "
 "
-    
 )
 as
 f
@@ -25786,7 +25207,6 @@ generatedFileWarning
         
 println
 (
-            
 u
 "
 "
@@ -25818,16 +25238,14 @@ builtin_intl_NumberingSystemsGenerated_h
 "
 "
 "
-        
 )
         
 simple_numbering_systems
 =
 sorted
 (
-            
 name
-            
+                                          
 for
 (
 name
@@ -25839,7 +25257,7 @@ numbering_systems
 items
 (
 )
-            
+                                          
 if
 not
 value
@@ -25848,7 +25266,6 @@ value
 algorithmic
 "
 ]
-        
 )
         
 println
@@ -25878,7 +25295,6 @@ NUMBERING_SYSTEMS_WITH_SIMPLE_DIGIT_MAPPINGS
         
 println
 (
-            
 u
 "
 {
@@ -25887,7 +25303,6 @@ u
 .
 format
 (
-                
 "
 \
 \
@@ -25897,7 +25312,6 @@ n
 .
 join
 (
-                    
 u
 '
 "
@@ -25910,15 +25324,13 @@ format
 (
 name
 )
+                                           
 for
 name
 in
 simple_numbering_systems
-                
 )
-            
 )
-        
 )
         
 println
@@ -26055,7 +25467,6 @@ generatedFileWarning
         
 println
 (
-            
 u
 "
 "
@@ -26139,17 +25550,14 @@ xml
 .
 format
 (
-                
 readCLDRVersionFromICU
 (
 )
-            
 )
 .
 rstrip
 (
 )
-        
 )
         
 numbering_systems_object
@@ -26158,31 +25566,29 @@ json
 .
 dumps
 (
-            
 numbering_systems
-            
+                                              
 indent
 =
 2
-            
+                                              
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
-            
+                                              
 sort_keys
 =
 True
-            
+                                              
 ensure_ascii
 =
 False
-        
 )
         
 println
@@ -26328,9 +25734,7 @@ misc_ns_file
 all_numbering_systems_simple_digits
 =
 {
-        
 name
-        
 for
 (
 name
@@ -26342,7 +25746,7 @@ all_numbering_systems
 items
 (
 )
-        
+                                           
 if
 not
 value
@@ -26351,7 +25755,6 @@ value
 algorithmic
 "
 ]
-    
 }
     
 #
@@ -26383,10 +25786,10 @@ all_numbering_systems_simple_digits
 .
 issuperset
 (
-        
 numbering_systems
-    
 )
+(
+           
 "
 {
 }
@@ -26399,6 +25802,7 @@ numbering_systems
 difference
 (
 all_numbering_systems_simple_digits
+)
 )
 )
     
@@ -26457,6 +25861,8 @@ issubset
 (
 numbering_systems
 )
+(
+           
 "
 {
 }
@@ -26464,14 +25870,13 @@ numbering_systems
 .
 format
 (
-        
 all_numbering_systems_simple_digits
 .
 difference
 (
 numbering_systems
 )
-    
+)
 )
     
 writeNumberingSystemFiles
@@ -26698,10 +26103,10 @@ subparsers
 .
 add_parser
 (
-        
 "
 langtags
 "
+                                             
 help
 =
 "
@@ -26711,24 +26116,24 @@ language
 tags
 data
 "
-    
 )
     
 parser_cldr_tags
 .
 add_argument
 (
-        
 "
 -
 -
 version
 "
+                                  
 metavar
 =
 "
 VERSION
 "
+                                  
 help
 =
 "
@@ -26736,26 +26141,24 @@ CLDR
 version
 number
 "
-    
 )
     
 parser_cldr_tags
 .
 add_argument
 (
-        
 "
 -
 -
 url
 "
-        
+                                  
 metavar
 =
 "
 URL
 "
-        
+                                  
 default
 =
 "
@@ -26779,11 +26182,11 @@ core
 .
 zip
 "
-        
+                                  
 type
 =
 EnsureHttps
-        
+                                  
 help
 =
 "
@@ -26801,20 +26204,18 @@ default
 s
 )
 "
-    
 )
     
 parser_cldr_tags
 .
 add_argument
 (
-        
 "
 -
 -
 out
 "
-        
+                                  
 default
 =
 "
@@ -26822,7 +26223,7 @@ LanguageTagGenerated
 .
 cpp
 "
-        
+                                  
 help
 =
 "
@@ -26838,22 +26239,22 @@ default
 s
 )
 "
-    
 )
     
 parser_cldr_tags
 .
 add_argument
 (
-        
 "
 file
 "
+                                  
 nargs
 =
 "
 ?
 "
+                                  
 help
 =
 "
@@ -26871,7 +26272,6 @@ uses
 URL
 >
 "
-    
 )
     
 parser_cldr_tags
@@ -26904,13 +26304,12 @@ parser_tz
 .
 add_argument
 (
-        
 "
 -
 -
 tz
 "
-        
+                           
 help
 =
 "
@@ -26924,7 +26323,7 @@ omitted
 downloads
 tzdata
 "
-        
+                                
 "
 distribution
 from
@@ -26943,7 +26342,6 @@ time
 zones
 /
 "
-    
 )
     
 #
@@ -27013,7 +26411,6 @@ parser_tz
 .
 add_argument
 (
-        
 "
 -
 -
@@ -27021,13 +26418,13 @@ ignore
 -
 backzone
 "
-        
+                           
 action
 =
 "
 store_true
 "
-        
+                           
 help
 =
 "
@@ -27047,7 +26444,7 @@ to
 generate
 more
 "
-        
+                                
 "
 accurate
 time
@@ -27058,7 +26455,7 @@ the
 actual
 time
 "
-        
+                                
 "
 zones
 as
@@ -27067,20 +26464,18 @@ by
 ICU
 .
 "
-    
 )
     
 parser_tz
 .
 add_argument
 (
-        
 "
 -
 -
 out
 "
-        
+                           
 default
 =
 "
@@ -27088,7 +26483,7 @@ TimeZoneDataGenerated
 .
 h
 "
-        
+                           
 help
 =
 "
@@ -27104,7 +26499,6 @@ default
 s
 )
 "
-    
 )
     
 parser_tz
@@ -27126,7 +26520,6 @@ subparsers
 .
 add_parser
 (
-        
 "
 currency
 "
@@ -27138,26 +26531,24 @@ currency
 digits
 mapping
 "
-    
 )
     
 parser_currency
 .
 add_argument
 (
-        
 "
 -
 -
 url
 "
-        
+                                 
 metavar
 =
 "
 URL
 "
-        
+                                 
 default
 =
 "
@@ -27187,11 +26578,11 @@ xml
 NOQA
 :
 E501
-        
+                                 
 type
 =
 EnsureHttps
-        
+                                 
 help
 =
 "
@@ -27208,7 +26599,7 @@ list
 default
 :
 "
-        
+                                      
 "
 %
 (
@@ -27217,20 +26608,18 @@ default
 s
 )
 "
-    
 )
     
 parser_currency
 .
 add_argument
 (
-        
 "
 -
 -
 out
 "
-        
+                                 
 default
 =
 "
@@ -27238,7 +26627,7 @@ CurrencyDataGenerated
 .
 js
 "
-        
+                                 
 help
 =
 "
@@ -27254,22 +26643,22 @@ default
 s
 )
 "
-    
 )
     
 parser_currency
 .
 add_argument
 (
-        
 "
 file
 "
+                                 
 nargs
 =
 "
 ?
 "
+                                 
 help
 =
 "
@@ -27285,7 +26674,6 @@ uses
 URL
 >
 "
-    
 )
     
 parser_currency
@@ -27307,10 +26695,10 @@ subparsers
 .
 add_parser
 (
-        
 "
 units
 "
+                                         
 help
 =
 "
@@ -27320,7 +26708,6 @@ unit
 identifiers
 mapping
 "
-    
 )
     
 parser_units
@@ -27342,10 +26729,10 @@ subparsers
 .
 add_parser
 (
-        
 "
 numbering
 "
+                                                     
 help
 =
 "
@@ -27355,18 +26742,17 @@ systems
 with
 simple
 "
+                                                          
 "
 digit
 mappings
 "
-    
 )
     
 parser_numbering_systems
 .
 set_defaults
 (
-        
 func
 =
 partial
@@ -27374,7 +26760,6 @@ partial
 updateNumberingSystems
 topsrcdir
 )
-    
 )
     
 args

@@ -439,7 +439,6 @@ enum_labels
                     
 print
 (
-                        
 "
 %
 s_
@@ -449,6 +448,7 @@ s
 %
 d
 "
+                          
 %
 (
 category_cpp
@@ -457,11 +457,9 @@ event_index
 +
 offset
 )
-                        
 file
 =
 output
-                    
 )
     
 print
@@ -502,9 +500,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

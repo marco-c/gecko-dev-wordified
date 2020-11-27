@@ -138,12 +138,14 @@ where
 "
 :
 {
+        
 "
 and
 "
 :
 [
 ]
+    
 }
     
 "
@@ -870,7 +872,6 @@ log
 .
 info
 (
-        
 "
 Comparing
 videos
@@ -884,9 +885,9 @@ TASK_ID
 %
 s
 "
-        
 %
 (
+        
 data
 [
 "
@@ -911,8 +912,8 @@ id
 [
 maxind
 ]
-)
     
+)
 )
     
 #
@@ -1200,6 +1201,7 @@ or
 "
 :
 [
+            
 {
 "
 eq
@@ -1215,6 +1217,7 @@ name
 label_pgo
 }
 }
+            
 {
 "
 eq
@@ -1230,6 +1233,7 @@ name
 label_opt
 }
 }
+        
 ]
 }
     
@@ -1266,6 +1270,7 @@ and
 .
 append
 (
+            
 {
 "
 eq
@@ -1283,6 +1288,7 @@ id
 task_group_id
 }
 }
+        
 )
     
 else
@@ -1302,9 +1308,8 @@ and
 .
 extend
 (
-            
 [
-                
+            
 {
 "
 in
@@ -1328,7 +1333,7 @@ central
 ]
 }
 }
-                
+            
 {
 "
 gte
@@ -1356,9 +1361,8 @@ week
 }
 }
 }
-            
-]
         
+]
 )
     
 return
@@ -2684,9 +2688,11 @@ old_sim2d
 =
 _get_similarity
 (
+            
 old_btime_videos
 new_btime_videos
 output
+        
 )
     
 else

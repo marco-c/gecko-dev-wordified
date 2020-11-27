@@ -137,9 +137,9 @@ path
 join
 (
 here
-"
+'
 providers
-"
+'
 )
 pytest
 .
@@ -169,9 +169,9 @@ if
 key
 =
 =
-"
+'
 topdir
-"
+'
 :
             
 return
@@ -207,19 +207,19 @@ m
 .
 define_category
 (
-"
+'
 testing
-"
-"
+'
+'
 Mach
 unittest
-"
-"
+'
+'
 Testing
 for
 mach
 core
-"
+'
 10
 )
         
@@ -227,19 +227,19 @@ m
 .
 define_category
 (
-"
+'
 misc
-"
-"
+'
+'
 Mach
 misc
-"
-"
+'
+'
 Testing
 for
 mach
 core
-"
+'
 20
 )
         
@@ -415,21 +415,21 @@ stdout
 .
 encoding
 =
-"
+'
 UTF
 -
 8
-"
+'
             
 stderr
 .
 encoding
 =
-"
+'
 UTF
 -
 8
-"
+'
         
 try
 :

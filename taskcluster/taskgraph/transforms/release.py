@@ -119,9 +119,9 @@ config
 .
 params
 [
-"
+'
 release_type
-"
+'
 ]
         
 run_on_release_types
@@ -130,13 +130,13 @@ job
 .
 pop
 (
-"
+'
 run
 -
 on
 -
 releases
-"
+'
 None
 )
         

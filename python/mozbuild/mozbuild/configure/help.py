@@ -95,7 +95,7 @@ self
 intro
 =
 [
-"
+'
 Usage
 :
 %
@@ -103,7 +103,7 @@ s
 [
 options
 ]
-"
+'
 %
 os
 .
@@ -144,9 +144,9 @@ possible_origins
 =
 =
 (
-"
+'
 implied
-"
+'
 )
 :
             
@@ -195,12 +195,12 @@ options
 in
 sorted
 (
-            
 options_by_category
 .
 items
 (
 )
+                                        
 key
 =
 lambda
@@ -210,7 +210,6 @@ x
 [
 0
 ]
-        
 )
 :
             
@@ -218,14 +217,14 @@ ret
 .
 append
 (
-"
-"
+'
+'
 +
 category
 +
-"
+'
 :
-"
+'
 )
             
 for
@@ -260,16 +259,16 @@ choices
 opt
 +
 =
-"
+'
 =
 {
 %
 s
 }
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -303,21 +302,21 @@ help
 help
 +
 =
-"
-"
+'
+'
                     
 help
 +
 =
-"
+'
 [
 %
 s
 ]
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -342,10 +341,10 @@ ret
 .
 append
 (
-"
+'
 %
 s
-"
+'
 %
 opt
 )
@@ -358,16 +357,16 @@ ret
 .
 append
 (
-"
+'
 %
 s
 %
 s
-"
+'
 %
 (
-"
-"
+'
+'
 *
 30
 help
@@ -381,13 +380,13 @@ ret
 .
 append
 (
-"
+'
 %
 -
 24s
 %
 s
-"
+'
 %
 (
 opt
@@ -399,8 +398,8 @@ ret
 .
 append
 (
-"
-"
+'
+'
 )
         
 return
@@ -413,7 +412,7 @@ re
 compile
 (
 r
-"
+'
 {
 (
 [
@@ -434,7 +433,7 @@ r
 *
 )
 }
-"
+'
 )
     
 #
@@ -569,8 +568,8 @@ help
 :
             
 return
-"
-"
+'
+'
         
 if
 option
@@ -578,22 +577,22 @@ option
 prefix
 in
 (
-"
+'
 enable
-"
-"
+'
+'
 with
-"
+'
 )
 :
             
 replacement
 =
 r
-"
+'
 \
 1
-"
+'
         
 elif
 option
@@ -601,22 +600,22 @@ option
 prefix
 in
 (
-"
+'
 disable
-"
-"
+'
+'
 without
-"
+'
 )
 :
             
 replacement
 =
 r
-"
+'
 \
 2
-"
+'
         
 else
 :
@@ -695,7 +694,7 @@ options_formatted
 =
 [
             
-"
+'
 Options
 :
 [
@@ -705,7 +704,7 @@ brackets
 after
 descriptions
 ]
-"
+'
         
 ]
 +
@@ -718,45 +717,45 @@ options_by_category
         
 env_formatted
 =
+(
 [
-"
+'
 Environment
 variables
 :
-"
+'
 ]
 +
+                         
 self
 .
 format_options_by_category
 (
-            
 env_by_category
-        
+)
 )
         
 print
 (
-            
-"
+'
 \
 n
 \
 n
-"
+'
 .
 join
 (
-                
-"
+'
 \
 n
-"
+'
 .
 join
 (
 t
 )
+                          
 for
 t
 in
@@ -765,13 +764,12 @@ self
 .
 intro
 options_formatted
+                                    
 env_formatted
 )
-            
 )
-            
+              
 file
 =
 out
-        
 )

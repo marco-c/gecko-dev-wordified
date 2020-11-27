@@ -126,12 +126,12 @@ path
 join
 (
 GECKO
-"
+'
 taskcluster
-"
-"
+'
+'
 docs
-"
+'
 )
 attr
 .
@@ -284,7 +284,6 @@ if
 not
 match_run_on_projects
 (
-                
 parameters
 [
 "
@@ -294,7 +293,6 @@ project
 verification
 .
 run_on_projects
-            
 )
 :
                 
@@ -696,6 +694,7 @@ doctext
 .
 join
 (
+        
 [
 open
 (
@@ -710,6 +709,7 @@ d
 in
 doc_files
 ]
+    
 )
     
 if
@@ -766,10 +766,10 @@ expression_list
 =
 [
             
-"
+'
 \
 n
-"
+'
 +
 identifier
 +
@@ -892,14 +892,13 @@ file
 {
 }
 "
+                
 .
 format
 (
-                    
 appearing_as
 identifier
 filename
-                
 )
             
 )
@@ -907,9 +906,9 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_task_graph_symbol
@@ -925,13 +924,13 @@ parameters
 "
 "
 "
-    
+        
 This
 function
 verifies
 that
 tuple
-    
+        
 (
 collection
 .
@@ -946,7 +945,7 @@ symbol
 )
 is
 unique
-    
+        
 for
 a
 target
@@ -1016,9 +1015,9 @@ treeherder
 .
 get
 (
-"
+'
 collection
-"
+'
 {
 }
 )
@@ -1071,15 +1070,14 @@ after
 {
 }
 "
+                    
 .
 format
 (
-                        
 task
 .
 label
 collection_keys
-                    
 )
                 
 )
@@ -1090,18 +1088,18 @@ treeherder
 .
 get
 (
-"
+'
 machine
-"
+'
 {
 }
 )
 .
 get
 (
-"
+'
 platform
-"
+'
 )
             
 group_symbol
@@ -1110,9 +1108,9 @@ treeherder
 .
 get
 (
-"
+'
 groupSymbol
-"
+'
 )
             
 symbol
@@ -1121,9 +1119,9 @@ treeherder
 .
 get
 (
-"
+'
 symbol
-"
+'
 )
             
 key
@@ -1225,14 +1223,13 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_trust_domain_v2_routes
 (
-    
 task
 taskgraph
 scratch_pad
@@ -1293,11 +1290,11 @@ format
 (
 graph_config
 [
-"
+'
 trust
 -
 domain
-"
+'
 ]
 )
     
@@ -1313,9 +1310,9 @@ task_dict
 .
 get
 (
-"
+'
 routes
-"
+'
 [
 ]
 )
@@ -1359,10 +1356,10 @@ route
 {
 }
 "
+                    
 .
 format
 (
-                        
 task
 .
 label
@@ -1371,7 +1368,6 @@ scratch_pad
 route
 ]
 route
-                    
 )
                 
 )
@@ -1391,14 +1387,13 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_routes_notification_filters
 (
-    
 task
 taskgraph
 scratch_pad
@@ -1410,7 +1405,7 @@ parameters
 "
 "
 "
-    
+        
 This
 function
 ensures
@@ -1421,10 +1416,10 @@ filters
 for
 notifications
 are
-    
+        
 specified
 .
-    
+        
 See
 :
 https
@@ -1475,26 +1470,26 @@ notify
 valid_filters
 =
 (
-"
+'
 on
 -
 any
-"
-"
+'
+'
 on
 -
 completed
-"
-"
+'
+'
 on
 -
 failed
-"
-"
+'
+'
 on
 -
 exception
-"
+'
 )
     
 task_dict
@@ -1509,9 +1504,9 @@ task_dict
 .
 get
 (
-"
+'
 routes
-"
+'
 [
 ]
 )
@@ -1545,9 +1540,9 @@ route
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 -
@@ -1565,7 +1560,7 @@ raise
 Exception
 (
                     
-"
+'
 {
 }
 has
@@ -1576,16 +1571,15 @@ filter
 {
 }
 )
-"
+'
+                    
 .
 format
 (
-                        
 task
 .
 label
 route_filter
-                    
 )
                 
 )
@@ -1593,9 +1587,9 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_dependency_tiers
@@ -1626,40 +1620,40 @@ task
 label
 ]
 =
-(
-            
 task
 .
 task
 .
 get
 (
-"
+'
 extra
-"
+'
 {
 }
 )
+\
+                                     
 .
 get
 (
-"
+'
 treeherder
-"
+'
 {
 }
 )
+\
+                                     
 .
 get
 (
-"
+'
 tier
-"
+'
 six
 .
 MAXSIZE
-)
-        
 )
     
 else
@@ -1682,9 +1676,9 @@ MAXSIZE
 :
                 
 return
-"
+'
 unknown
-"
+'
             
 return
 tier
@@ -1777,7 +1771,7 @@ raise
 Exception
 (
                         
-"
+'
 {
 }
 (
@@ -1795,22 +1789,20 @@ tier
 {
 }
 )
-"
+'
+                        
 .
 format
 (
-                            
 task
 .
 label
-                            
 printable_tier
 (
 tier
 )
-                            
+                                
 d
-                            
 printable_tier
 (
 tiers
@@ -1818,17 +1810,15 @@ tiers
 d
 ]
 )
-                        
 )
-                    
 )
 verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_required_signoffs
@@ -1887,20 +1877,18 @@ label
 =
 set
 (
-            
 task
 .
 attributes
 .
 get
 (
-"
+'
 required_signoffs
-"
+'
 [
 ]
 )
-        
 )
     
 else
@@ -1924,12 +1912,12 @@ signoffs
 :
                 
 return
-"
+'
 required
 signoff
 {
 }
-"
+'
 .
 format
 (
@@ -1942,17 +1930,17 @@ signoffs
 :
                 
 return
-"
+'
 required
 signoffs
 {
 }
-"
+'
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (
@@ -1964,11 +1952,11 @@ else
 :
                 
 return
-"
+'
 no
 required
 signoffs
-"
+'
         
 for
 task
@@ -2018,7 +2006,7 @@ raise
 Exception
 (
                         
-"
+'
 {
 }
 (
@@ -2034,22 +2022,20 @@ on
 {
 }
 )
-"
+'
+                        
 .
 format
 (
-                            
 task
 .
 label
-                            
 printable_signoff
 (
 required_signoffs
 )
-                            
+                                
 d
-                            
 printable_signoff
 (
 all_required_signoffs
@@ -2057,17 +2043,15 @@ all_required_signoffs
 d
 ]
 )
-                        
 )
-                    
 )
 verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_toolchain_alias
@@ -2083,7 +2067,7 @@ parameters
 "
 "
 "
-    
+        
 This
 function
 verifies
@@ -2127,11 +2111,11 @@ key
 =
 attributes
 [
-"
+'
 toolchain
 -
 alias
-"
+'
 ]
         
 if
@@ -2197,9 +2181,9 @@ verifications
 .
 add
 (
-"
+'
 optimized_task_graph
-"
+'
 )
 def
 verify_always_optimized
@@ -2215,7 +2199,7 @@ parameters
 "
 "
 "
-    
+        
 This
 function
 ensures
@@ -2248,23 +2232,23 @@ task
 .
 get
 (
-"
+'
 workerType
-"
+'
 )
 =
 =
-"
+'
 always
 -
 optimized
-"
+'
 :
         
 raise
 Exception
 (
-"
+'
 Could
 not
 optimize
@@ -2274,7 +2258,7 @@ task
 !
 r
 }
-"
+'
 .
 format
 (
@@ -2287,9 +2271,9 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 run_on_projects
 =
 RELEASE_PROJECTS
@@ -2314,9 +2298,9 @@ attributes
 .
 get
 (
-"
+'
 shippable
-"
+'
 )
 :
         
@@ -2327,34 +2311,35 @@ task
 .
 get
 (
-"
+'
 payload
-"
+'
 {
 }
 )
 .
 get
 (
-"
+'
 env
-"
+'
 {
 }
 )
 .
 get
 (
-"
+'
 USE_SCCACHE
-"
+'
 )
 :
             
 raise
 Exception
 (
-"
+                
+'
 Shippable
 job
 {
@@ -2362,7 +2347,7 @@ job
 cannot
 use
 sccache
-"
+'
 .
 format
 (
@@ -2375,9 +2360,9 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_test_packaging
@@ -2425,9 +2410,8 @@ missing_tests_allowed
 =
 any
 (
-            
 (
-                
+            
 #
 user
 specified
@@ -2436,41 +2420,40 @@ specified
 target
 -
 kind
-                
+            
 parameters
 .
 get
 (
-"
+'
 target
 -
 kind
-"
+'
 )
 is
 not
 None
-                
+            
 #
 manifest
 scheduling
 is
 enabled
-                
+            
 parameters
 [
-"
+'
 test_manifest_loader
-"
+'
 ]
 !
 =
-"
+'
 default
-"
-            
-)
+'
         
+)
 )
         
 exceptions
@@ -2497,9 +2480,9 @@ task
 kind
 =
 =
-"
+'
 build
-"
+'
 and
 not
 task
@@ -2508,8 +2491,7 @@ attributes
 .
 get
 (
-                
-"
+'
 skip
 -
 verify
@@ -2517,8 +2499,7 @@ verify
 test
 -
 packaging
-"
-            
+'
 )
 :
                 
@@ -2530,18 +2511,18 @@ task
 .
 get
 (
-"
+'
 payload
-"
+'
 {
 }
 )
 .
 get
 (
-"
+'
 env
-"
+'
 {
 }
 )
@@ -2552,9 +2533,9 @@ build_env
 .
 get
 (
-"
+'
 MOZ_AUTOMATION_PACKAGE_TESTS
-"
+'
 )
                 
 shippable
@@ -2565,9 +2546,9 @@ attributes
 .
 get
 (
-"
+'
 shippable
-"
+'
 False
 )
                 
@@ -2586,9 +2567,9 @@ if
 package_tests
 !
 =
-"
+'
 1
-"
+'
 :
                     
 #
@@ -2608,8 +2589,7 @@ exceptions
 .
 append
 (
-                            
-"
+'
 Build
 job
 {
@@ -2620,20 +2600,20 @@ and
 does
 not
 specify
-"
-                            
-"
+'
+                                          
+'
 MOZ_AUTOMATION_PACKAGE_TESTS
 =
 1
 in
 the
-"
-                            
-"
+'
+                                          
+'
 environment
 .
-"
+'
 .
 format
 (
@@ -2641,7 +2621,6 @@ task
 .
 label
 )
-                        
 )
                     
 #
@@ -2677,7 +2656,7 @@ exceptions
 append
 (
                             
-"
+'
 Build
 job
 {
@@ -2691,26 +2670,23 @@ and
 does
 not
 specify
-"
+'
                             
-"
+'
 MOZ_AUTOMATION_PACKAGE_TESTS
 =
 1
 in
 the
 environment
-"
+'
 .
 format
 (
-                                
 task
 .
 label
-                            
 )
-                        
 )
                 
 else
@@ -2801,7 +2777,7 @@ exceptions
 append
 (
                                 
-"
+'
 Build
 job
 {
@@ -2811,9 +2787,9 @@ no
 tests
 but
 specifies
-"
+'
                                 
-"
+'
 MOZ_AUTOMATION_PACKAGE_TESTS
 =
 {
@@ -2822,22 +2798,22 @@ in
 the
 environment
 .
-"
+'
                                 
-"
+'
 Unset
 MOZ_AUTOMATION_PACKAGE_TESTS
 in
 the
 task
 definition
-"
+'
                                 
-"
+'
 to
 fix
 .
-"
+'
 .
 format
 (
@@ -2846,7 +2822,6 @@ task
 label
 package_tests
 )
-                            
 )
         
 if
@@ -2875,9 +2850,9 @@ task
 kind
 =
 =
-"
+'
 test
-"
+'
 :
         
 build_task
@@ -2888,9 +2863,9 @@ task
 .
 dependencies
 [
-"
+'
 build
-"
+'
 ]
 ]
         
@@ -2906,9 +2881,9 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_run_known_projects
@@ -3001,9 +2976,9 @@ attributes
 .
 get
 (
-"
+'
 run_on_projects
-"
+'
 )
 :
         
@@ -3015,24 +2990,24 @@ task
 .
 attributes
 [
-"
+'
 run_on_projects
-"
+'
 ]
 )
         
 if
 {
-"
+'
 try
-"
-"
+'
+'
 try
 -
 comm
 -
 central
-"
+'
 }
 &
 set
@@ -3108,6 +3083,7 @@ anyway
         
 valid_projects
 =
+(
 ALL_PROJECTS
 |
 set
@@ -3116,6 +3092,7 @@ RUN_ON_PROJECT_ALIASES
 .
 keys
 (
+)
 )
 )
         
@@ -3169,9 +3146,9 @@ verifications
 .
 add
 (
-"
+'
 full_task_graph
-"
+'
 )
 def
 verify_local_toolchains
@@ -3281,11 +3258,11 @@ attributes
 .
 get
 (
-"
+'
 local
 -
 toolchain
-"
+'
 )
 :
         
@@ -3297,9 +3274,9 @@ attributes
 .
 get
 (
-"
+'
 run_on_projects
-"
+'
 [
 ]
 )

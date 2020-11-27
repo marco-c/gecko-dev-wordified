@@ -66,12 +66,12 @@ assert
 __name__
 =
 =
-"
+'
 __main__
-"
-"
-"
-"
+'
+'
+'
+'
 To
 update
 ANGLE
@@ -344,9 +344,9 @@ angle
 ~
 ~
 ~
-"
-"
-"
+'
+'
+'
 import
 json
 import
@@ -393,15 +393,15 @@ pathlib
 .
 Path
 (
-"
+'
 out
-"
+'
 )
 COMMON_HEADER
 =
 [
     
-"
+'
 #
 Generated
 by
@@ -410,10 +410,10 @@ update
 angle
 .
 py
-"
+'
     
-"
-"
+'
+'
     
 "
 include
@@ -437,24 +437,24 @@ common
 ROOTS
 =
 [
-"
+'
 /
 /
 :
 translator
-"
-"
+'
+'
 /
 /
 :
 libEGL
-"
-"
+'
+'
 /
 /
 :
 libGLESv2
-"
+'
 ]
 CHECK_ONLY
 =
@@ -485,11 +485,11 @@ if
 arg
 =
 =
-"
+'
 -
 -
 check
-"
+'
 :
         
 CHECK_ONLY
@@ -517,14 +517,14 @@ environ
 )
 GN_ENV
 [
-"
+'
 DEPOT_TOOLS_WIN_TOOLCHAIN
-"
+'
 ]
 =
-"
+'
 0
-"
+'
 (
 GIT_REMOTE
 )
@@ -629,8 +629,8 @@ kwargs
     
 print
 (
-"
-"
+'
+'
 args
 )
     
@@ -696,9 +696,9 @@ path
 .
 split
 (
-"
+'
 /
-"
+'
 )
     
 ret
@@ -716,10 +716,10 @@ if
 x
 =
 =
-"
+'
 .
 .
-"
+'
 and
 ret
 :
@@ -742,9 +742,9 @@ x
 continue
     
 return
-"
+'
 /
-"
+'
 .
 join
 (
@@ -950,10 +950,10 @@ return
 -
 print
 (
-"
+'
 Importing
 graph
-"
+'
 )
 #
 shutil
@@ -977,9 +977,9 @@ True
 GN_ARGS
 =
 b
-"
-"
-"
+'
+'
+'
 #
 Build
 arguments
@@ -1021,11 +1021,10 @@ false
 angle_enable_vulkan
 =
 false
-"
-"
-"
+'
+'
+'
 [
-    
 1
 :
 ]
@@ -1033,11 +1032,11 @@ args_gn_path
 =
 OUT_DIR
 /
-"
+'
 args
 .
 gn
-"
+'
 args_gn_path
 .
 write_bytes
@@ -1049,12 +1048,12 @@ try
     
 run_checked
 (
-"
+'
 gn
-"
-"
+'
+'
 gen
-"
+'
 str
 (
 OUT_DIR
@@ -1081,7 +1080,7 @@ buffer
 write
 (
 b
-"
+'
 gn
 failed
 .
@@ -1093,7 +1092,7 @@ PATH
 ?
 \
 n
-"
+'
 )
     
 exit
@@ -1104,42 +1103,35 @@ p
 =
 run_checked
 (
-    
-"
+'
 gn
-"
-    
-"
+'
+'
 desc
-"
-    
-"
+'
+'
 -
 -
 format
 =
 json
-"
-    
+'
 str
 (
 OUT_DIR
 )
-    
-"
+'
 *
-"
-    
+'
 stdout
 =
 subprocess
 .
 PIPE
-    
+                
 shell
 =
 True
-    
 env
 =
 GN_ENV
@@ -1148,11 +1140,11 @@ GN_ENV
 -
 print
 (
-"
+'
 \
 nProcessing
 graph
-"
+'
 )
 descs
 =
@@ -1191,23 +1183,23 @@ platforms
 .
 descs
 [
-"
+'
 /
 /
 :
 angle_common
-"
+'
 ]
 [
-"
+'
 sources
-"
+'
 ]
 +
 =
 [
     
-"
+'
 /
 /
 src
@@ -1217,9 +1209,9 @@ common
 system_utils_linux
 .
 cpp
-"
+'
     
-"
+'
 /
 /
 src
@@ -1229,9 +1221,9 @@ common
 system_utils_mac
 .
 cpp
-"
+'
     
-"
+'
 /
 /
 src
@@ -1241,7 +1233,7 @@ common
 system_utils_posix
 .
 cpp
-"
+'
 ]
 #
 Ready
@@ -1329,12 +1321,12 @@ traverse
 LIBRARY_TYPES
 =
 (
-"
+'
 shared_library
-"
-"
+'
+'
 static_library
-"
+'
 )
 def
 flattened_target
@@ -1371,15 +1363,15 @@ EXPECTED_TYPES
 LIBRARY_TYPES
 +
 (
-"
+'
 source_set
-"
-"
+'
+'
 group
-"
-"
+'
+'
 action
-"
+'
 )
     
 def
@@ -1400,18 +1392,18 @@ dep_type
 =
 dep
 [
-"
+'
 type
-"
+'
 ]
         
 deps
 =
 dep
 [
-"
+'
 deps
-"
+'
 ]
         
 if
@@ -1432,9 +1424,9 @@ if
 dep_type
 =
 =
-"
+'
 copy
-"
+'
 :
             
 assert
@@ -1444,9 +1436,9 @@ deps
 target_name
 dep
 [
-"
+'
 deps
-"
+'
 ]
 )
         
@@ -1529,9 +1521,9 @@ descs
 target_name
 ]
 [
-"
+'
 deps
-"
+'
 ]
 pre
 )
@@ -1717,7 +1709,7 @@ IGNORED_INCLUDES
 {
     
 b
-"
+'
 compiler
 /
 translator
@@ -1725,10 +1717,10 @@ translator
 TranslatorVulkan
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1742,10 +1734,10 @@ winrt
 NativeWindow11WinRT
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1757,10 +1749,10 @@ glx
 DisplayGLX
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1772,10 +1764,10 @@ cgl
 DisplayCGL
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1789,10 +1781,10 @@ ozone
 DisplayOzone
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1806,10 +1798,10 @@ android
 DisplayAndroid
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1821,10 +1813,10 @@ wgl
 DisplayWGL
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1834,10 +1826,10 @@ null
 DisplayNULL
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1849,10 +1841,10 @@ android
 DisplayVkAndroid
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1864,10 +1856,10 @@ fuchsia
 DisplayVkFuchsia
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1879,10 +1871,10 @@ win32
 DisplayVkWin32
 .
 h
-"
+'
     
 b
-"
+'
 libANGLE
 /
 renderer
@@ -1894,82 +1886,82 @@ xcb
 DisplayVkXcb
 .
 h
-"
+'
     
 b
-"
+'
 kernel
 /
 image
 .
 h
-"
+'
 }
 IGNORED_INCLUDE_PREFIXES
 =
 {
     
 b
-"
+'
 android
-"
+'
     
 b
-"
+'
 Carbon
-"
+'
     
 b
-"
+'
 CoreFoundation
-"
+'
     
 b
-"
+'
 CoreServices
-"
+'
     
 b
-"
+'
 IOSurface
-"
+'
     
 b
-"
+'
 mach
-"
+'
     
 b
-"
+'
 mach
 -
 o
-"
+'
     
 b
-"
+'
 OpenGL
-"
+'
     
 b
-"
+'
 pci
-"
+'
     
 b
-"
+'
 sys
-"
+'
     
 b
-"
+'
 wrl
-"
+'
     
 b
-"
+'
 X11
-"
+'
 }
 def
 has_all_includes
@@ -2003,9 +1995,9 @@ flat
 .
 get
 (
-"
+'
 sources
-"
+'
 [
 ]
 )
@@ -2014,9 +2006,9 @@ flat
 .
 get
 (
-"
+'
 outputs
-"
+'
 [
 ]
 )
@@ -2028,9 +2020,9 @@ x
 .
 rsplit
 (
-"
+'
 /
-"
+'
 1
 )
 [
@@ -2072,9 +2064,9 @@ desc
 .
 get
 (
-"
+'
 sources
-"
+'
 [
 ]
 )
@@ -2085,9 +2077,9 @@ cur_file
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 cur_file
         
@@ -2097,10 +2089,10 @@ cur_file
 .
 startswith
 (
-"
+'
 /
 /
-"
+'
 )
 :
             
@@ -2148,9 +2140,9 @@ group
 =
 =
 b
-"
+'
 <
-"
+'
 :
                 
 continue
@@ -2185,9 +2177,9 @@ include
 split
 (
 b
-"
+'
 /
-"
+'
 1
 )
                 
@@ -2212,9 +2204,9 @@ include
 rsplit
 (
 b
-"
+'
 /
-"
+'
 1
 )
 [
@@ -2258,8 +2250,7 @@ x
                 
 print
 (
-                    
-"
+'
 Warning
 in
 {
@@ -2273,17 +2264,14 @@ include
 :
 {
 }
-"
+'
 .
 format
 (
-                        
 target_name
 cur_file
 include
-                    
 )
-                
 )
                 
 ret
@@ -2359,14 +2347,14 @@ target_name
         
 print
 (
-"
-"
+'
+'
 +
 cur
 [
-"
+'
 type
-"
+'
 ]
 target_name
 )
@@ -2382,18 +2370,18 @@ target_name
 if
 cur
 [
-"
+'
 type
-"
+'
 ]
 in
 (
-"
+'
 shared_library
-"
-"
+'
+'
 static_library
-"
+'
 )
 :
             
@@ -2408,9 +2396,9 @@ return
 (
 cur
 [
-"
+'
 deps
-"
+'
 ]
 )
     
@@ -2434,7 +2422,7 @@ descs
 print
 (
 f
-"
+'
 \
 n
 {
@@ -2445,7 +2433,7 @@ libraries
 }
 libraries
 :
-"
+'
 )
 for
 k
@@ -2455,8 +2443,8 @@ libraries
     
 print
 (
-"
-"
+'
+'
 k
 )
 if
@@ -2465,7 +2453,7 @@ CHECK_ONLY
     
 print
 (
-"
+'
 \
 n
 -
@@ -2473,7 +2461,7 @@ n
 check
 complete
 .
-"
+'
 )
     
 exit
@@ -2569,8 +2557,8 @@ import
 vendor_from_git
 print
 (
-"
-"
+'
+'
 )
 vendor_from_git
 .
@@ -2622,7 +2610,7 @@ dest
 .
 append
 (
-"
+'
 {
 }
 {
@@ -2630,12 +2618,12 @@ append
 +
 =
 [
-"
+'
 .
 format
 (
-"
-"
+'
+'
 *
 4
 *
@@ -2668,8 +2656,8 @@ append
 .
 format
 (
-"
-"
+'
+'
 *
 4
 *
@@ -2686,16 +2674,16 @@ dest
 .
 append
 (
-"
+'
 {
 }
 ]
-"
+'
 .
 format
 (
-"
-"
+'
+'
 *
 4
 *
@@ -2707,8 +2695,8 @@ dest
 .
 append
 (
-"
-"
+'
+'
 )
     
 return
@@ -2716,213 +2704,213 @@ REGISTERED_DEFINES
 =
 {
     
-"
+'
 ANGLE_CAPTURE_ENABLED
-"
+'
 :
 True
     
-"
+'
 ANGLE_EGL_LIBRARY_NAME
-"
+'
 :
 False
     
-"
+'
 ANGLE_ENABLE_D3D11
-"
+'
 :
 True
     
-"
+'
 ANGLE_ENABLE_D3D9
-"
+'
 :
 True
     
-"
+'
 ANGLE_ENABLE_DEBUG_ANNOTATIONS
-"
+'
 :
 True
     
-"
+'
 ANGLE_ENABLE_NULL
-"
+'
 :
 False
     
-"
+'
 ANGLE_ENABLE_OPENGL
-"
+'
 :
 False
     
-"
+'
 ANGLE_ENABLE_OPENGL_NULL
-"
+'
 :
 False
     
-"
+'
 ANGLE_ENABLE_ESSL
-"
+'
 :
 True
     
-"
+'
 ANGLE_ENABLE_GLSL
-"
+'
 :
 True
     
-"
+'
 ANGLE_ENABLE_HLSL
-"
+'
 :
 True
     
-"
+'
 ANGLE_GENERATE_SHADER_DEBUG_INFO
-"
+'
 :
 True
     
-"
+'
 ANGLE_GLESV2_LIBRARY_NAME
-"
+'
 :
 True
     
-"
+'
 ANGLE_IS_64_BIT_CPU
-"
+'
 :
 False
     
-"
+'
 ANGLE_PRELOADED_D3DCOMPILER_MODULE_NAMES
-"
+'
 :
 False
     
-"
+'
 ANGLE_USE_EGL_LOADER
-"
+'
 :
 True
     
-"
+'
 CERT_CHAIN_PARA_HAS_EXTRA_FIELDS
-"
+'
 :
 False
     
-"
+'
 CHROMIUM_BUILD
-"
+'
 :
 False
     
-"
+'
 COMPONENT_BUILD
-"
+'
 :
 False
     
-"
+'
 DYNAMIC_ANNOTATIONS_ENABLED
-"
+'
 :
 True
     
-"
+'
 EGL_EGL_PROTOTYPES
-"
+'
 :
 True
     
-"
+'
 EGL_EGLEXT_PROTOTYPES
-"
+'
 :
 True
     
-"
+'
 EGLAPI
-"
+'
 :
 True
     
-"
+'
 FIELDTRIAL_TESTING_ENABLED
-"
+'
 :
 False
     
-"
+'
 FULL_SAFE_BROWSING
-"
+'
 :
 False
     
-"
+'
 GL_API
-"
+'
 :
 True
     
-"
+'
 GL_APICALL
-"
+'
 :
 True
     
-"
+'
 GL_GLES_PROTOTYPES
-"
+'
 :
 True
     
-"
+'
 GL_GLEXT_PROTOTYPES
-"
+'
 :
 True
     
-"
+'
 GPU_INFO_USE_SETUPAPI
-"
+'
 :
 True
     
-"
+'
 LIBANGLE_IMPLEMENTATION
-"
+'
 :
 True
     
-"
+'
 LIBEGL_IMPLEMENTATION
-"
+'
 :
 True
     
-"
+'
 LIBGLESV2_IMPLEMENTATION
-"
+'
 :
 True
     
-"
+'
 NOMINMAX
-"
+'
 :
 True
     
-"
+'
 NO_TCMALLOC
-"
+'
 :
 False
     
@@ -2970,69 +2958,69 @@ with
 this
 object
     
-"
+'
 NTDDI_VERSION
-"
+'
 :
 True
     
-"
+'
 PSAPI_VERSION
-"
+'
 :
 False
     
-"
+'
 SAFE_BROWSING_CSD
-"
+'
 :
 False
     
-"
+'
 SAFE_BROWSING_DB_LOCAL
-"
+'
 :
 False
     
-"
+'
 UNICODE
-"
+'
 :
 True
     
-"
+'
 USE_AURA
-"
+'
 :
 False
     
-"
+'
 V8_DEPRECATION_WARNINGS
-"
+'
 :
 False
     
-"
+'
 WIN32
-"
+'
 :
 False
     
-"
+'
 WIN32_LEAN_AND_MEAN
-"
+'
 :
 False
     
-"
+'
 WINAPI_FAMILY
-"
+'
 :
 False
     
-"
+'
 WINVER
-"
+'
 :
 True
     
@@ -3187,87 +3175,87 @@ pointerInfo
 #
 ^
     
-"
+'
 WTF_USE_DYNAMIC_ANNOTATIONS
-"
+'
 :
 False
     
-"
+'
 _ATL_NO_OPENGL
-"
+'
 :
 True
     
-"
+'
 _CRT_RAND_S
-"
+'
 :
 True
     
-"
+'
 _CRT_SECURE_NO_DEPRECATE
-"
+'
 :
 True
     
-"
+'
 _DEBUG
-"
+'
 :
 False
     
-"
+'
 _HAS_EXCEPTIONS
-"
+'
 :
 True
     
-"
+'
 _HAS_ITERATOR_DEBUGGING
-"
+'
 :
 False
     
-"
+'
 _SCL_SECURE_NO_DEPRECATE
-"
+'
 :
 True
     
-"
+'
 _SECURE_ATL
-"
+'
 :
 True
     
-"
+'
 _UNICODE
-"
+'
 :
 True
     
-"
+'
 _USING_V110_SDK71_
-"
+'
 :
 False
     
-"
+'
 _WIN32_WINNT
-"
+'
 :
 False
     
-"
+'
 _WINDOWS
-"
+'
 :
 False
     
-"
+'
 __STD_C
-"
+'
 :
 False
     
@@ -3275,27 +3263,27 @@ False
 clang
 specific
     
-"
+'
 CR_CLANG_REVISION
-"
+'
 :
 True
     
-"
+'
 NDEBUG
-"
+'
 :
 False
     
-"
+'
 NVALGRIND
-"
+'
 :
 False
     
-"
+'
 _HAS_NODISCARD
-"
+'
 :
 False
 }
@@ -3303,11 +3291,11 @@ False
 -
 print
 (
-"
+'
 \
 nRun
 actions
-"
+'
 )
 required_files
 :
@@ -3321,21 +3309,21 @@ set
 )
 run_checked
 (
-"
+'
 ninja
-"
-"
+'
+'
 -
 C
-"
+'
 str
 (
 OUT_DIR
 )
-"
+'
 :
 commit_id
-"
+'
 )
 required_files
 |
@@ -3344,17 +3332,17 @@ set
 (
 descs
 [
-"
+'
 /
 /
 :
 commit_id
-"
+'
 ]
 [
-"
+'
 outputs
-"
+'
 ]
 )
 #
@@ -3365,11 +3353,11 @@ our
 targets
 print
 (
-"
+'
 \
 nExport
 targets
-"
+'
 )
 #
 Clear
@@ -3383,9 +3371,9 @@ pathlib
 Path
 (
 GECKO_ANGLE_DIR
-"
+'
 targets
-"
+'
 )
 checkout_dir
 =
@@ -3394,9 +3382,9 @@ pathlib
 Path
 (
 GECKO_ANGLE_DIR
-"
+'
 checkout
-"
+'
 )
 shutil
 .
@@ -3471,11 +3459,11 @@ target_name
 .
 startswith
 (
-"
+'
 /
 /
 :
-"
+'
 )
 target_name
     
@@ -3498,9 +3486,9 @@ set
 (
 flat
 [
-"
+'
 sources
-"
+'
 ]
 )
     
@@ -3536,8 +3524,8 @@ lines
 .
 append
 (
-"
-"
+'
+'
 )
     
 for
@@ -3549,9 +3537,9 @@ set
 (
 desc
 [
-"
+'
 defines
-"
+'
 ]
 )
 )
@@ -3569,9 +3557,9 @@ x
 .
 split
 (
-"
+'
 =
-"
+'
 1
 )
             
@@ -3597,9 +3585,9 @@ v
 =
 (
 x
-"
+'
 True
-"
+'
 )
         
 try
@@ -3635,9 +3623,9 @@ False
                 
 line
 =
-"
+'
 #
-"
+'
 +
 line
             
@@ -3655,7 +3643,7 @@ KeyError
 print
 (
 f
-"
+'
 [
 {
 name
@@ -3667,15 +3655,15 @@ define
 {
 k
 }
-"
+'
 )
     
 lines
 .
 append
 (
-"
-"
+'
+'
 )
     
 cxxflags
@@ -3684,16 +3672,16 @@ set
 (
 desc
 [
-"
+'
 cflags
-"
+'
 ]
 +
 desc
 [
-"
+'
 cflags_cc
-"
+'
 ]
 )
     
@@ -3718,15 +3706,15 @@ x
 .
 startswith
 (
-"
+'
 /
 /
-"
+'
 )
 x
             
 yield
-"
+'
 .
 .
 /
@@ -3735,7 +3723,7 @@ yield
 /
 checkout
 /
-"
+'
 +
 x
 [
@@ -3776,9 +3764,9 @@ fixup_paths
 (
 flat
 [
-"
+'
 sources
-"
+'
 ]
 )
 :
@@ -3802,9 +3790,9 @@ x
 .
 rsplit
 (
-"
+'
 .
-"
+'
 1
 )
         
@@ -3812,21 +3800,21 @@ if
 e
 in
 [
-"
+'
 h
-"
-"
+'
+'
 y
-"
-"
+'
+'
 l
-"
-"
+'
+'
 inc
-"
-"
+'
+'
 inl
-"
+'
 ]
 :
             
@@ -3836,15 +3824,15 @@ elif
 e
 in
 [
-"
+'
 cpp
-"
-"
+'
+'
 cc
-"
-"
+'
+'
 c
-"
+'
 ]
 :
             
@@ -3853,9 +3841,9 @@ b
 .
 endswith
 (
-"
+'
 _win
-"
+'
 )
 :
                 
@@ -3880,9 +3868,9 @@ b
 .
 endswith
 (
-"
+'
 _linux
-"
+'
 )
 :
                 
@@ -3920,9 +3908,9 @@ b
 .
 endswith
 (
-"
+'
 _mac
-"
+'
 )
 :
                 
@@ -3947,9 +3935,9 @@ b
 .
 endswith
 (
-"
+'
 _posix
-"
+'
 )
 :
                 
@@ -3974,8 +3962,8 @@ else
                 
 config
 =
-"
-"
+'
+'
 #
 None
 can
@@ -4006,15 +3994,15 @@ elif
 e
 =
 =
-"
+'
 rc
-"
+'
 :
             
 assert
-"
+'
 RCFILE
-"
+'
 not
 in
 extras
@@ -4022,18 +4010,18 @@ extras
 target_name
 extras
 [
-"
+'
 RCFILE
-"
+'
 ]
 x
 )
             
 extras
 [
-"
+'
 RCFILE
-"
+'
 ]
 =
 f
@@ -4051,15 +4039,15 @@ elif
 e
 =
 =
-"
+'
 def
-"
+'
 :
             
 assert
-"
+'
 DEFFILE
-"
+'
 not
 in
 extras
@@ -4067,18 +4055,18 @@ extras
 target_name
 extras
 [
-"
+'
 DEFFILE
-"
+'
 ]
 x
 )
             
 extras
 [
-"
+'
 DEFFILE
-"
+'
 ]
 =
 f
@@ -4112,19 +4100,19 @@ set
 (
 desc
 [
-"
+'
 ldflags
-"
+'
 ]
 )
     
 DEF_PREFIX
 =
-"
+'
 /
 DEF
 :
-"
+'
     
 for
 x
@@ -4163,9 +4151,9 @@ def_path
 )
             
 assert
-"
+'
 DEFFILE
-"
+'
 not
 in
 extras
@@ -4184,18 +4172,18 @@ str
 OUT_DIR
 )
 +
-"
+'
 /
-"
+'
 +
 def_path
             
 def_path
 =
-"
+'
 /
 /
-"
+'
 +
 collapse_dotdots
 (
@@ -4219,9 +4207,9 @@ def_path
             
 extras
 [
-"
+'
 DEFFILE
-"
+'
 ]
 =
 "
@@ -4251,10 +4239,10 @@ x
 -
 len
 (
-"
+'
 .
 lib
-"
+'
 )
 ]
 set
@@ -4263,9 +4251,9 @@ desc
 .
 get
 (
-"
+'
 libs
-"
+'
 [
 ]
 )
@@ -4307,9 +4295,9 @@ x
                 
 x
 =
-"
+'
 #
-"
+'
 +
 x
             
@@ -4332,16 +4320,16 @@ lines
 append_arr
 (
 lines
-"
+'
 LOCAL_INCLUDES
-"
+'
 fixup_paths
 (
 desc
 [
-"
+'
 include_dirs
-"
+'
 ]
 )
 )
@@ -4349,9 +4337,9 @@ include_dirs
 append_arr_commented
 (
 lines
-"
+'
 CXXFLAGS
-"
+'
 cxxflags
 )
     
@@ -4399,9 +4387,9 @@ indent
 append_arr
 (
 lines
-"
+'
 SOURCES
-"
+'
 v
 indent
 =
@@ -4426,9 +4414,9 @@ set
 (
 flat
 [
-"
+'
 deps
-"
+'
 ]
 )
 :
@@ -4443,9 +4431,9 @@ dep_name
 if
 dep
 [
-"
+'
 type
-"
+'
 ]
 in
 LIBRARY_TYPES
@@ -4456,11 +4444,11 @@ dep_name
 .
 startswith
 (
-"
+'
 /
 /
 :
-"
+'
 )
 dep_name
             
@@ -4478,24 +4466,24 @@ dep_name
 append_arr
 (
 lines
-"
+'
 USE_LIBS
-"
+'
 dep_libs
 )
     
 append_arr
 (
 lines
-"
+'
 DIRS
-"
+'
 [
-"
+'
 .
 .
 /
-"
+'
 +
 x
 for
@@ -4508,18 +4496,18 @@ dep_libs
 append_arr
 (
 lines
-"
+'
 OS_LIBS
-"
+'
 os_libs
 )
     
 append_arr_commented
 (
 lines
-"
+'
 LDFLAGS
-"
+'
 ldflags
 )
     
@@ -4543,13 +4531,13 @@ lines
 .
 append
 (
-"
+'
 {
 }
 =
 {
 }
-"
+'
 .
 format
 (
@@ -4562,18 +4550,18 @@ lib_type
 =
 desc
 [
-"
+'
 type
-"
+'
 ]
     
 if
 lib_type
 =
 =
-"
+'
 shared_library
-"
+'
 :
         
 lines
@@ -4600,9 +4588,9 @@ elif
 lib_type
 =
 =
-"
+'
 static_library
-"
+'
 :
         
 lines
@@ -4638,34 +4626,34 @@ mozbuild
 =
 target_dir
 /
-"
+'
 moz
 .
 build
-"
+'
     
 print
 (
-"
-"
-"
-"
+'
+'
+'
+'
 f
-"
+'
 Writing
 {
 mozbuild
 }
-"
+'
 )
     
 data
 =
 b
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -4717,12 +4705,12 @@ the
 files
 print
 (
-"
+'
 \
 nMigrate
 required
 files
-"
+'
 )
 i
 =
@@ -4745,7 +4733,7 @@ stdout
 write
 (
 f
-"
+'
 \
 r
 Copying
@@ -4759,7 +4747,7 @@ len
 required_files
 )
 }
-"
+'
 )
     
 sys
@@ -4775,10 +4763,10 @@ x
 .
 startswith
 (
-"
+'
 /
 /
-"
+'
 )
 x
     
@@ -4831,17 +4819,17 @@ data
 replace
 (
 b
-"
+'
 \
 r
 \
 n
-"
+'
 b
-"
+'
 \
 n
-"
+'
 )
     
 dest
@@ -4852,10 +4840,10 @@ data
 )
 print
 (
-"
+'
 \
 n
 \
 nDone
-"
+'
 )

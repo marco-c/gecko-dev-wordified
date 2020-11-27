@@ -121,8 +121,8 @@ printdent
 self
 str
 =
-"
-"
+'
+'
 )
 :
         
@@ -131,8 +131,8 @@ self
 write
 (
 (
-"
-"
+'
+'
 *
 self
 .
@@ -148,8 +148,8 @@ println
 self
 str
 =
-"
-"
+'
+'
 )
 :
         
@@ -159,10 +159,10 @@ write
 (
 str
 +
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -178,8 +178,8 @@ self
 write
 (
 (
-"
-"
+'
+'
 *
 self
 .
@@ -188,10 +188,10 @@ col
 +
 str
 +
-"
+'
 \
 n
-"
+'
 )
     
 def
@@ -200,7 +200,6 @@ indent
 self
 )
 :
-        
 self
 .
 col
@@ -216,7 +215,6 @@ dedent
 self
 )
 :
-        
 self
 .
 col
@@ -311,9 +309,9 @@ Visitor
 )
 :
     
-"
-"
-"
+'
+'
+'
 Spits
 back
 out
@@ -326,7 +324,6 @@ that
 generated
 this
 .
-    
 Also
 known
 as
@@ -334,9 +331,9 @@ pretty
 -
 printing
 .
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -396,7 +393,7 @@ self
 .
 println
 (
-"
+'
 /
 /
 \
@@ -411,7 +408,7 @@ ipdlc
 n
 /
 /
-"
+'
 )
         
 CodeGen
@@ -498,18 +495,17 @@ self
 .
 println
 (
-"
+'
 /
 *
 Included
 file
 :
-"
+'
 )
             
 IPDLCodeGen
 (
-                
 outf
 =
 self
@@ -520,12 +516,12 @@ indentCols
 self
 .
 indentCols
+                        
 printed
 =
 self
 .
 printed
-            
 )
 .
 visitTranslationUnit
@@ -539,10 +535,10 @@ self
 .
 println
 (
-"
+'
 *
 /
-"
+'
 )
     
 def
@@ -578,7 +574,7 @@ self
 .
 println
 (
-"
+'
 %
 s
 protocol
@@ -587,7 +583,7 @@ s
 \
 n
 {
-"
+'
 %
 (
 p
@@ -669,20 +665,20 @@ self
 .
 println
 (
-"
+'
 }
-"
+'
 )
         
 self
 .
 write
 (
-"
+'
 }
 \
 n
-"
+'
 *
 len
 (
@@ -704,17 +700,17 @@ self
 .
 printdentln
 (
-"
+'
 manager
-"
+'
 +
 mgr
 .
 name
 +
-"
+'
 ;
-"
+'
 )
     
 def
@@ -729,17 +725,17 @@ self
 .
 printdentln
 (
-"
+'
 manages
-"
+'
 +
 mgs
 .
 name
 +
-"
+'
 ;
-"
+'
 )
     
 def
@@ -754,7 +750,7 @@ self
 .
 printdent
 (
-"
+'
 %
 s
 %
@@ -762,7 +758,7 @@ s
 %
 s
 (
-"
+'
 %
 (
 msg
@@ -822,17 +818,17 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
         
 self
 .
 write
 (
-"
+'
 )
-"
+'
 )
         
 if
@@ -851,9 +847,9 @@ self
 .
 println
 (
-"
+'
 ;
-"
+'
 )
             
 return
@@ -874,10 +870,10 @@ self
 .
 printdent
 (
-"
+'
 returns
 (
-"
+'
 )
         
 for
@@ -919,18 +915,18 @@ self
 .
 write
 (
-"
-"
+'
+'
 )
         
 self
 .
 println
 (
-"
+'
 )
 ;
-"
+'
 )
         
 self

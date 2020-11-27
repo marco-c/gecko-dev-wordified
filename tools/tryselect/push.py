@@ -291,21 +291,20 @@ path
 .
 join
 (
-    
 get_state_dir
 (
 srcdir
 =
 True
 )
-"
+'
 history
-"
-"
+'
+'
 try_task_configs
 .
 json
-"
+'
 )
 def
 write_task_config
@@ -325,20 +324,20 @@ join
 vcs
 .
 path
-"
+'
 try_task_config
 .
 json
-"
+'
 )
     
 with
 open
 (
 config_path
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -356,11 +355,11 @@ indent
 separators
 =
 (
-"
-"
-"
+'
+'
+'
 :
-"
+'
 )
 sort_keys
 =
@@ -371,10 +370,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 )
     
 return
@@ -444,9 +443,9 @@ with
 open
 (
 history_path
-"
+'
 r
-"
+'
 )
 as
 fh
@@ -496,9 +495,9 @@ with
 open
 (
 history_path
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -508,10 +507,10 @@ fh
 .
 write
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -579,16 +578,16 @@ try_task_config
 .
 setdefault
 (
-"
+'
 env
-"
+'
 {
 }
 )
 [
-"
+'
 TRY_SELECTOR
-"
+'
 ]
 =
 method
@@ -597,26 +596,24 @@ try_task_config
 .
 update
 (
-        
 {
-            
-"
+        
+'
 version
-"
+'
 :
 1
-            
-"
+        
+'
 tasks
-"
+'
 :
 sorted
 (
 labels
 )
-        
-}
     
+}
 )
     
 if
@@ -644,9 +641,9 @@ try_task_config
 if
 try_task_config
 [
-"
+'
 version
-"
+'
 ]
 =
 =
@@ -659,9 +656,9 @@ try_task_config
 .
 get
 (
-"
+'
 parameters
-"
+'
 {
 }
 )
@@ -671,28 +668,28 @@ parameters
 .
 get
 (
-"
+'
 try_mode
-"
+'
 )
 =
 =
-"
+'
 try_task_config
-"
+'
 :
             
 return
 parameters
 [
-"
+'
 try_task_config
-"
+'
 ]
 [
-"
+'
 tasks
-"
+'
 ]
         
 else
@@ -704,9 +701,9 @@ None
 elif
 try_task_config
 [
-"
+'
 version
-"
+'
 ]
 =
 =
@@ -767,12 +764,12 @@ srcdir
 =
 True
 )
-"
+'
 cache
-"
-"
+'
+'
 taskgraph
-"
+'
 )
     
 graph_cache
@@ -880,6 +877,7 @@ durations
 =
 duration_summary
 (
+        
 dep_cache
 task_labels
 cache_dir
@@ -887,7 +885,6 @@ cache_dir
     
 print
 (
-        
 "
 estimates
 :
@@ -907,7 +904,7 @@ dependencies
 .
 format
 (
-            
+        
 durations
 [
 "
@@ -921,28 +918,26 @@ durations
 selected_count
 "
 ]
-            
+        
 durations
 [
 "
 selected_count
 "
 ]
-            
+        
 durations
 [
 "
 dependency_count
 "
 ]
-        
 )
     
 )
     
 print
 (
-        
 "
 estimates
 :
@@ -955,7 +950,7 @@ duration
 .
 format
 (
-            
+        
 durations
 [
 "
@@ -969,9 +964,8 @@ durations
 selected_duration
 "
 ]
-        
-)
     
+)
 )
     
 print
@@ -1000,7 +994,6 @@ quantile
     
 print
 (
-        
 "
 estimates
 :
@@ -1019,14 +1012,14 @@ around
 .
 format
 (
-            
+        
 durations
 [
 "
 wall_duration_seconds
 "
 ]
-            
+        
 durations
 [
 "
@@ -1052,30 +1045,24 @@ H
 M
 "
 )
-        
 )
     
 )
 def
 push_to_try
 (
-    
 method
-    
 msg
-    
 try_task_config
 =
 None
-    
+                
 push
 =
 True
-    
 closed_tree
 =
 False
-    
 files_to_change
 =
 None
@@ -1094,12 +1081,12 @@ method
 not
 in
 (
-"
+'
 auto
-"
-"
+'
+'
 empty
-"
+'
 )
 :
         
@@ -1130,7 +1117,8 @@ else
     
 commit_message
 =
-"
+(
+'
 %
 s
 %
@@ -1144,16 +1132,14 @@ mach
 try
 %
 s
-"
+'
 %
+                      
 (
-        
 msg
-        
 closed_tree_string
-        
 method
-    
+)
 )
     
 config_path
@@ -1176,15 +1162,15 @@ method
 not
 in
 (
-"
+'
 again
-"
-"
+'
+'
 auto
-"
-"
+'
+'
 empty
-"
+'
 )
 :
             
@@ -1241,9 +1227,9 @@ with
 open
 (
 path
-"
+'
 wb
-"
+'
 )
 as
 fh
@@ -1355,13 +1341,13 @@ e
 ext
 =
 =
-"
+'
 push
 -
 to
 -
 try
-"
+'
 :
                 
 print
@@ -1375,9 +1361,9 @@ e
 ext
 =
 =
-"
+'
 cinnabar
-"
+'
 :
                 
 print

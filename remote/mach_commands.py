@@ -284,7 +284,6 @@ remote
     
 Command
 (
-        
 "
 remote
 "
@@ -293,6 +292,7 @@ category
 "
 misc
 "
+             
 description
 =
 "
@@ -302,7 +302,6 @@ related
 operations
 .
 "
-    
 )
     
 def
@@ -334,12 +333,12 @@ self
 _sub_mach
 (
 [
-"
+'
 help
-"
-"
+'
+'
 remote
-"
+'
 ]
 )
         
@@ -348,7 +347,6 @@ return
     
 SubCommand
 (
-        
 "
 remote
 "
@@ -357,6 +355,7 @@ vendor
 -
 puppeteer
 "
+                
 "
 Pull
 in
@@ -368,28 +367,26 @@ Puppeteer
 client
 .
 "
-    
 )
     
 CommandArgument
 (
-        
 "
 -
 -
 repository
 "
-        
+                     
 metavar
 =
 "
 REPO
 "
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 "
@@ -404,28 +401,26 @@ clone
 from
 .
 "
-    
 )
     
 CommandArgument
 (
-        
 "
 -
 -
 commitish
 "
-        
+                     
 metavar
 =
 "
 COMMITISH
 "
-        
+                     
 required
 =
 True
-        
+                     
 help
 =
 "
@@ -440,7 +435,6 @@ check
 out
 .
 "
-    
 )
     
 def
@@ -482,7 +476,6 @@ shutil
 .
 move
 (
-            
 os
 .
 path
@@ -503,7 +496,6 @@ js
 self
 .
 remotedir
-        
 )
         
 shutil
@@ -557,18 +549,15 @@ tmpdir
             
 git
 (
-                
 "
 checkout
 -
 index
 "
-                
 "
 -
 a
 "
-                
 "
 -
 f
@@ -579,7 +568,6 @@ f
 -
 prefix
 "
-                
 "
 {
 }
@@ -594,7 +582,6 @@ puppeteer_dir
 worktree
 =
 tmpdir
-            
 )
         
 #
@@ -690,7 +677,6 @@ shutil
 .
 move
 (
-            
 os
 .
 path
@@ -711,7 +697,6 @@ js
 "
 )
 puppeteer_dir
-        
 )
         
 import
@@ -833,15 +818,13 @@ yaml
 .
 safe_dump
 (
-                
 annotation
-                
 fh
-                
+                           
 default_flow_style
 =
 False
-                
+                           
 encoding
 =
 "
@@ -849,11 +832,10 @@ utf
 -
 8
 "
-                
+                           
 allow_unicode
 =
 True
-            
 )
 def
 git
@@ -923,9 +905,8 @@ subprocess
 .
 Popen
 (
-        
 cmd
-        
+                             
 env
 =
 {
@@ -937,19 +918,18 @@ GIT_CONFIG_NOSYSTEM
 1
 "
 }
-        
+                             
 stdout
 =
 subprocess
 .
 PIPE
-        
+                             
 stderr
 =
 subprocess
 .
 PIPE
-    
 )
     
 pipe_p
@@ -1128,20 +1108,19 @@ processhandler
 .
 ProcessHandler
 (
-        
 cmd
 =
 "
 npm
 "
-        
+                                      
 args
 =
 list
 (
 args
 )
-        
+                                      
 cwd
 =
 kwargs
@@ -1152,19 +1131,18 @@ get
 cwd
 "
 )
-        
+                                      
 env
 =
 env
-        
+                                      
 universal_newlines
 =
 True
-        
+                                      
 *
 *
 proc_kwargs
-    
 )
     
 if
@@ -1302,7 +1280,6 @@ returncode
 msg
 =
 (
-            
 "
 %
 s
@@ -1319,10 +1296,9 @@ p
 .
 returncode
 )
-            
 if
 cmd
-            
+               
 else
 "
 exit
@@ -1334,7 +1310,6 @@ s
 p
 .
 returncode
-        
 )
         
 exit
@@ -1544,18 +1519,18 @@ line
 .
 startswith
 (
-"
+'
 [
-"
+'
 )
 and
 line
 .
 endswith
 (
-"
+'
 ]
-"
+'
 )
 :
                 
@@ -1646,11 +1621,11 @@ event
 ]
 =
 =
-"
+'
 test
 -
 start
-"
+'
             
 if
 not
@@ -1963,21 +1938,19 @@ logger
 .
 test_end
 (
-                
 test_name
-                
+                                 
 status
 =
 status
-                
+                                 
 expected
 =
 expected_status
-                
+                                 
 known_intermittent
 =
 known_intermittent
-            
 )
             
 if
@@ -2185,7 +2158,6 @@ logger
 .
 error
 (
-                        
 "
 TEST
 -
@@ -2202,7 +2174,6 @@ s
 (
 test_name
 )
-                    
 )
         
 if
@@ -2231,7 +2202,6 @@ logger
 .
 error
 (
-                    
 "
 TEST
 -
@@ -2247,7 +2217,6 @@ s
 (
 test_name
 )
-                
 )
         
 self
@@ -2748,7 +2717,6 @@ mocha_options
 -
 reporter
 "
-            
 "
 .
 /
@@ -2766,7 +2734,6 @@ js
 -
 retries
 "
-            
 "
 0
 "
@@ -2782,7 +2749,6 @@ fullTrace
 -
 timeout
 "
-            
 "
 15000
 "
@@ -2941,7 +2907,6 @@ path
 .
 join
 (
-            
 os
 .
 path
@@ -2950,6 +2915,7 @@ dirname
 (
 __file__
 )
+                                     
 "
 puppeteer
 -
@@ -2957,7 +2923,6 @@ expected
 .
 json
 "
-        
 )
         
 if
@@ -3016,28 +2981,23 @@ proc
 =
 npm
 (
-            
 *
 command
-            
 cwd
 =
 self
 .
 puppeteer_dir
-            
 env
 =
 env
-            
+                   
 processOutputLine
 =
 output_handler
-            
 wait
 =
 False
-        
 )
         
 output_handler
@@ -3193,7 +3153,6 @@ json
 .
 dump
 (
-                    
 output_handler
 .
 new_expected
@@ -3203,6 +3162,7 @@ f
 indent
 =
 2
+                          
 separators
 =
 (
@@ -3212,7 +3172,6 @@ separators
 :
 "
 )
-                
 )
         
 if
@@ -3248,20 +3207,22 @@ p
 .
 add_argument
 (
-        
 "
 -
 -
 product
 "
+                   
 type
 =
 str
+                   
 default
 =
 "
 firefox
 "
+                   
 choices
 =
 [
@@ -3272,24 +3233,22 @@ chrome
 firefox
 "
 ]
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 -
 binary
 "
-        
+                   
 type
 =
 str
-        
+                   
 help
 =
 "
@@ -3305,14 +3264,12 @@ Firefox
 build
 .
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 -
@@ -3320,13 +3277,13 @@ enable
 -
 fission
 "
-        
+                   
 action
 =
 "
 store_true
 "
-        
+                   
 help
 =
 "
@@ -3340,14 +3297,12 @@ in
 Gecko
 .
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 z
@@ -3357,11 +3312,13 @@ z
 -
 headless
 "
+                   
 action
 =
 "
 store_true
 "
+                   
 help
 =
 "
@@ -3372,32 +3329,30 @@ headless
 mode
 .
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 -
 setpref
 "
-        
+                   
 action
 =
 "
 append
 "
-        
+                   
 dest
 =
 "
 extra_prefs
 "
-        
+                   
 metavar
 =
 "
@@ -3409,7 +3364,7 @@ pref
 value
 >
 "
-        
+                   
 help
 =
 "
@@ -3419,32 +3374,30 @@ user
 preferences
 .
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 -
 setopt
 "
-        
+                   
 action
 =
 "
 append
 "
-        
+                   
 dest
 =
 "
 extra_options
 "
-        
+                   
 metavar
 =
 "
@@ -3456,7 +3409,7 @@ option
 value
 >
 "
-        
+                   
 help
 =
 "
@@ -3469,35 +3422,33 @@ puppeteer
 launch
 .
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 v
 "
-        
+                   
 dest
 =
 "
 verbosity
 "
-        
+                   
 action
 =
 "
 count
 "
-        
+                   
 default
 =
 0
-        
+                   
 help
 =
 "
@@ -3509,7 +3460,7 @@ verbosity
 to
 include
 "
-        
+                        
 "
 debug
 level
@@ -3523,7 +3474,7 @@ with
 -
 vv
 "
-        
+                        
 "
 and
 to
@@ -3536,14 +3487,12 @@ with
 -
 vvv
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 -
@@ -3551,23 +3500,23 @@ write
 -
 results
 "
-        
+                   
 action
 =
 "
 store
 "
-        
+                   
 nargs
 =
 "
 ?
 "
-        
+                   
 default
 =
 None
-        
+                   
 const
 =
 os
@@ -3584,6 +3533,7 @@ dirname
 (
 __file__
 )
+                                      
 "
 puppeteer
 -
@@ -3592,7 +3542,7 @@ expected
 json
 "
 )
-        
+                   
 help
 =
 "
@@ -3607,7 +3557,7 @@ defaults
 to
 the
 "
-        
+                        
 "
 expectations
 file
@@ -3618,7 +3568,7 @@ is
 provided
 but
 "
-        
+                        
 "
 no
 path
@@ -3626,30 +3576,28 @@ is
 passed
 )
 "
-    
 )
     
 p
 .
 add_argument
 (
-        
 "
 -
 -
 subset
 "
-        
+                   
 action
 =
 "
 store_true
 "
-        
+                   
 default
 =
 False
-        
+                   
 help
 =
 "
@@ -3664,7 +3612,7 @@ tests
 are
 running
 "
-        
+                        
 "
 so
 checks
@@ -3675,7 +3623,6 @@ should
 be
 skipped
 "
-    
 )
     
 p
@@ -3713,19 +3660,17 @@ MachCommandBase
     
 Command
 (
-        
 "
 puppeteer
 -
 test
 "
-        
 category
 =
 "
 testing
 "
-        
+             
 description
 =
 "
@@ -3735,65 +3680,54 @@ unit
 tests
 .
 "
-        
+             
 parser
 =
 create_parser_puppeteer
-    
 )
     
 def
 puppeteer_test
 (
-        
 self
-        
 binary
 =
 None
-        
 enable_fission
 =
 False
-        
 headless
 =
 False
-        
+                       
 extra_prefs
 =
 None
-        
 extra_options
 =
 None
-        
 verbosity
 =
 0
-        
+                       
 tests
 =
 None
-        
 product
 =
 "
 firefox
 "
-        
 write_results
 =
 None
-        
+                       
 subset
 =
 False
-        
 *
 *
 kwargs
-    
 )
 :
         
@@ -3805,13 +3739,14 @@ commandline
 .
 setup_logging
 (
-            
 "
 puppeteer
 -
 test
 "
+                                                  
 kwargs
+                                                  
 {
 "
 mach
@@ -3821,7 +3756,6 @@ sys
 .
 stdout
 }
-        
 )
         
 #
@@ -3951,10 +3885,12 @@ prefs
 for
 s
 in
+(
 extra_prefs
 or
 [
 ]
+)
 :
             
 kv
@@ -4030,10 +3966,12 @@ options
 for
 s
 in
+(
 extra_options
 or
 [
 ]
+)
 :
             
 kv
@@ -4109,7 +4047,6 @@ prefs
 .
 update
 (
-                
 {
 "
 fission
@@ -4118,6 +4055,7 @@ autostart
 "
 :
 True
+                          
 "
 dom
 .
@@ -4128,7 +4066,6 @@ parent_intercept
 :
 True
 }
-            
 )
         
 if
@@ -4203,49 +4140,47 @@ product
 params
 =
 {
-            
 "
 binary
 "
 :
 binary
-            
+                  
 "
 headless
 "
 :
 headless
-            
+                  
 "
 extra_prefs
 "
 :
 prefs
-            
+                  
 "
 product
 "
 :
 product
-            
+                  
 "
 extra_launcher_options
 "
 :
 options
-            
+                  
 "
 write_results
 "
 :
 write_results
-            
+                  
 "
 subset
 "
 :
 subset
-        
 }
         
 puppeteer
@@ -4474,6 +4409,7 @@ npm
 "
 install
 "
+            
 cwd
 =
 os
@@ -4487,6 +4423,7 @@ self
 topsrcdir
 puppeteer_dir
 )
+            
 env
 =
 env

@@ -121,12 +121,12 @@ keys
 set
 (
 [
-"
+'
 Files
-"
-"
+'
+'
 Path
-"
+'
 ]
 )
     
@@ -166,9 +166,9 @@ parts
 assert
 parts
 [
-"
+'
 Path
-"
+'
 ]
 =
 =
@@ -268,7 +268,6 @@ mark
 .
 skipif
 (
-    
 sys
 .
 version_info
@@ -278,6 +277,7 @@ version_info
 >
 =
 3
+                    
 reason
 =
 "
@@ -357,9 +357,9 @@ dict
 (
 foo
 =
-"
+'
 bar
-"
+'
 )
 )
     
@@ -416,11 +416,11 @@ keys
 =
 =
 [
-"
+'
 user
 .
 js
-"
+'
 ]
     
 lines
@@ -436,11 +436,11 @@ line
 in
 diff
 [
-"
+'
 user
 .
 js
-"
+'
 ]
 .
 splitlines
@@ -449,12 +449,12 @@ splitlines
 ]
     
 assert
-"
+'
 +
 foo
 :
 bar
-"
+'
 in
 lines
     
@@ -498,11 +498,11 @@ keys
 =
 =
 [
-"
+'
 user
 .
 js
-"
+'
 ]
     
 lines
@@ -518,11 +518,11 @@ line
 in
 diff
 [
-"
+'
 user
 .
 js
-"
+'
 ]
 .
 splitlines
@@ -531,33 +531,32 @@ splitlines
 ]
     
 assert
-"
+'
 -
 foo
 :
 bar
-"
+'
 in
 lines
     
 ff_pref_lines
 =
 [
-        
-"
+'
 +
 %
 s
 :
 %
 s
-"
+'
 %
 (
 key
 value
 )
-        
+                     
 for
 key
 value
@@ -571,7 +570,6 @@ preferences
 items
 (
 )
-    
 ]
     
 assert
@@ -588,9 +586,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

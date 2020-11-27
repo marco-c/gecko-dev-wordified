@@ -640,10 +640,12 @@ for
 .
 format
 (
+                
 purpose
 target_task
 .
 description
+            
 )
             
 "
@@ -837,9 +839,9 @@ slugid
 .
 decode
 (
-"
+'
 ascii
-"
+'
 )
     
 return
@@ -1302,13 +1304,13 @@ logger
 .
 debug
 (
-"
+'
 Morphing
 :
 adding
 index
 tasks
-"
+'
 )
     
 #
@@ -1349,9 +1351,9 @@ task
 .
 get
 (
-"
+'
 routes
-"
+'
 [
 ]
 )
@@ -1505,9 +1507,9 @@ task
 dependencies
 =
 {
-"
+'
 parent
-"
+'
 :
 task
 .
@@ -1527,6 +1529,7 @@ label_to_taskid
 =
 amend_taskgraph
 (
+            
 taskgraph
 label_to_taskid
 added
@@ -1536,13 +1539,13 @@ logger
 .
 info
 (
-"
+'
 Added
 {
 }
 index
 tasks
-"
+'
 .
 format
 (
@@ -1823,9 +1826,9 @@ try_config
 =
 parameters
 [
-"
+'
 try_task_config
-"
+'
 ]
     
 rebuild
@@ -1834,9 +1837,9 @@ try_config
 .
 get
 (
-"
+'
 rebuild
-"
+'
 )
     
 if
@@ -1865,9 +1868,9 @@ try_config
 .
 get
 (
-"
+'
 tasks
-"
+'
 [
 ]
 )
@@ -1877,9 +1880,9 @@ task
 .
 attributes
 [
-"
+'
 task_duplicates
-"
+'
 ]
 =
 rebuild

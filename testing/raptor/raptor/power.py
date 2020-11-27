@@ -80,11 +80,11 @@ RaptorLogger
 (
 component
 =
-"
+'
 raptor
 -
 power
-"
+'
 )
 P2_PATH
 =
@@ -299,6 +299,7 @@ device
 .
 shell_bool
 (
+                
 "
 echo
 %
@@ -315,6 +316,7 @@ P2_PATH
 timeout
 =
 timeout
+            
 )
         
 elif
@@ -342,6 +344,7 @@ device
 .
 shell_bool
 (
+                
 "
 echo
 %
@@ -358,6 +361,7 @@ G5_PATH
 timeout
 =
 timeout
+            
 )
     
 except
@@ -399,10 +403,9 @@ Error
 %
 s
 "
-            
 %
+            
 (
-                
 "
 enable
 "
@@ -412,7 +415,6 @@ else
 "
 disable
 "
-                
 "
 {
 }
@@ -430,7 +432,6 @@ __class__
 __name__
 e
 )
-            
 )
         
 )
@@ -481,6 +482,7 @@ device
 .
 shell_output
 (
+                
 "
 cat
 %
@@ -497,6 +499,7 @@ P2_PATH
 timeout
 =
 timeout
+            
 )
 .
 strip
@@ -532,6 +535,7 @@ device
 .
 shell_output
 (
+                
 "
 cat
 %
@@ -548,6 +552,7 @@ G5_PATH
 timeout
 =
 timeout
+            
 )
 .
 strip
@@ -1926,9 +1931,9 @@ android_version
 .
 split
 (
-"
+'
 .
-"
+'
 )
 [
 0
@@ -2006,7 +2011,7 @@ re
 compile
 (
 r
-"
+'
 .
 *
 wifi
@@ -2021,7 +2026,7 @@ d
 )
 .
 *
-"
+'
 )
     
 re_cpu
@@ -2031,7 +2036,7 @@ re
 compile
 (
 r
-"
+'
 .
 *
 cpu
@@ -2046,7 +2051,7 @@ d
 )
 .
 *
-"
+'
 )
     
 re_estimated_power
@@ -2844,15 +2849,15 @@ line
 .
 replace
 (
-"
-"
-"
-"
+'
+'
+'
+'
 )
 =
 =
-"
-"
+'
+'
 :
                 
 break
@@ -2896,9 +2901,9 @@ os_baseline
         
 uid
 =
-"
+'
 all
-"
+'
     
 LOG
 .
@@ -3039,14 +3044,14 @@ major_android_version
         
 power_data
 [
-"
+'
 values
-"
+'
 ]
 [
-"
+'
 proportional
-"
+'
 ]
 =
 float
@@ -3191,19 +3196,20 @@ return
                 
 return
 (
-                    
 100
 *
 (
+                    
 (
 power_measure
 +
 baseline_measure
 )
 /
+                    
 baseline_measure
-)
                 
+)
 )
 -
 100
@@ -3259,17 +3265,17 @@ power_measure
 in
 power_data
 [
-"
+'
 values
-"
+'
 ]
 :
                 
 pc_power_data
 [
-"
+'
 values
-"
+'
 ]
 [
 power_measure
@@ -3281,9 +3287,9 @@ calculate_pc
 (
 power_data
 [
-"
+'
 values
-"
+'
 ]
 [
 power_measure
@@ -3296,9 +3302,9 @@ raptor
 .
 os_baseline_data
 [
-"
+'
 values
-"
+'
 ]
 [
 power_measure

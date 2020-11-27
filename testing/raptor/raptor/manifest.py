@@ -125,11 +125,11 @@ path
 join
 (
 here
-"
+'
 raptor
 .
 ini
-"
+'
 )
 tests_dir
 =
@@ -140,9 +140,9 @@ path
 join
 (
 here
-"
+'
 tests
-"
+'
 )
 LOG
 =
@@ -150,11 +150,11 @@ RaptorLogger
 (
 component
 =
-"
+'
 raptor
 -
 manifest
-"
+'
 )
 LIVE_SITE_TIMEOUT_MULTIPLIER
 =
@@ -165,53 +165,53 @@ required_settings
 =
 [
     
-"
+'
 alert_threshold
-"
+'
     
-"
+'
 apps
-"
+'
     
-"
+'
 lower_is_better
-"
+'
     
-"
+'
 measure
-"
+'
     
-"
+'
 page_cycles
-"
+'
     
-"
+'
 test_url
-"
+'
     
-"
+'
 scenario_time
-"
+'
     
-"
+'
 type
-"
+'
     
-"
+'
 unit
-"
+'
 ]
 playback_settings
 =
 [
     
-"
+'
 playback_pageset_manifest
-"
+'
     
-"
+'
 playback_recordings
-"
+'
 ]
 whitelist_live_site_tests
 =
@@ -331,9 +331,9 @@ app
 in
 test
 [
-"
+'
 apps
-"
+'
 ]
 :
             
@@ -454,14 +454,14 @@ environ
 .
 get
 (
-"
+'
 GECKO_HEAD_REPOSITORY
-"
-"
+'
+'
 n
 /
 a
-"
+'
 )
 :
                 
@@ -482,15 +482,14 @@ listed
 elif
 filter
 (
-                
 lambda
 name
 :
 test
 [
-"
+'
 name
-"
+'
 ]
 .
 startswith
@@ -498,7 +497,6 @@ startswith
 name
 )
 whitelist_live_site_tests
-            
 )
 :
                 
@@ -512,8 +510,7 @@ LOG
 .
 warning
 (
-                    
-"
+'
 %
 s
 is
@@ -523,15 +520,14 @@ to
 run
 with
 use_live_sites
-"
+'
 %
 test
 [
-"
+'
 name
-"
+'
 ]
-                
 )
         
 else
@@ -596,23 +592,24 @@ test_manifest
 .
 active_tests
 (
-        
 exists
 =
 False
+                                      
 disabled
 =
 False
+                                      
 filters
 =
 [
 filter_app
 filter_live_sites
 ]
+                                      
 *
 *
 info
-    
 )
 def
 validate_test_ini
@@ -658,21 +655,21 @@ if
 setting
 =
 =
-"
+'
 measure
-"
+'
 and
 test_details
 [
-"
+'
 type
-"
+'
 ]
 =
 =
-"
+'
 benchmark
-"
+'
 :
             
 continue
@@ -681,21 +678,21 @@ if
 setting
 =
 =
-"
+'
 scenario_time
-"
+'
 and
 test_details
 [
-"
+'
 type
-"
+'
 ]
 !
 =
-"
+'
 scenario
-"
+'
 :
             
 continue
@@ -733,8 +730,6 @@ is
 there
             
 if
-(
-                
 setting
 =
 =
@@ -743,21 +738,18 @@ page
 -
 cycles
 "
-                
 and
 test_details
 .
 get
 (
-"
+'
 browser_cycles
-"
+'
 )
 is
 not
 None
-            
-)
 :
                 
 continue
@@ -770,7 +762,6 @@ LOG
 .
 error
 (
-                
 "
 setting
 '
@@ -786,18 +777,17 @@ in
 %
 s
 "
-                
+                      
 %
 (
 setting
 test_details
 [
-"
+'
 manifest
-"
+'
 ]
 )
-            
 )
     
 test_details
@@ -826,9 +816,9 @@ test_details
 .
 get
 (
-"
+'
 playback
-"
+'
 )
 is
 not
@@ -860,7 +850,6 @@ LOG
 .
 error
 (
-                    
 "
 setting
 '
@@ -876,18 +865,17 @@ in
 %
 s
 "
-                    
+                          
 %
 (
 setting
 test_details
 [
-"
+'
 manifest
-"
+'
 ]
 )
-                
 )
     
 #
@@ -939,9 +927,9 @@ test_details
 .
 get
 (
-"
+'
 alert_on
-"
+'
 )
 is
 not
@@ -992,13 +980,12 @@ inside
         
 test_details
 [
-"
+'
 alert_on
-"
+'
 ]
 =
 [
-            
 _item
 .
 strip
@@ -1009,17 +996,16 @@ _item
 in
 test_details
 [
-"
+'
 alert_on
-"
+'
 ]
 .
 split
 (
-"
-"
+'
+'
 )
-        
 ]
         
 #
@@ -1074,38 +1060,38 @@ test_details
 .
 get
 (
-            
-"
+'
 measure
-"
-        
+'
 )
 is
 None
+\
+                
 and
-"
+'
 youtube
 -
 playback
-"
+'
 in
 test_details
 .
 get
 (
-"
+'
 name
-"
-"
-"
+'
+'
+'
 )
 :
             
 test_details
 [
-"
+'
 measure
-"
+'
 ]
 =
 YOUTUBE_PLAYBACK_MEASURE
@@ -1128,16 +1114,16 @@ regex
         
 measure_as_string
 =
-"
-"
+'
+'
 .
 join
 (
 test_details
 [
-"
+'
 measure
-"
+'
 ]
 )
         
@@ -1157,9 +1143,9 @@ alert_on_value
 in
 test_details
 [
-"
+'
 alert_on
-"
+'
 ]
 :
             
@@ -1181,10 +1167,10 @@ alert_on_value
 .
 replace
 (
-"
+'
 *
-"
-"
+'
+'
 [
 a
 -
@@ -1198,7 +1184,7 @@ _
 %
 ]
 *
-"
+'
 )
             
 #
@@ -1238,7 +1224,6 @@ LOG
 .
 error
 (
-                    
 "
 The
 '
@@ -1255,7 +1240,7 @@ not
 valid
 because
 "
-                    
+                          
 "
 it
 doesn
@@ -1271,9 +1256,9 @@ test
 setting
 !
 "
+                          
 %
 alert_on_value
-                
 )
                 
 valid_settings
@@ -1332,9 +1317,9 @@ first
         
 test_details
 [
-"
+'
 alert_on
-"
+'
 ]
 =
 sorted
@@ -1465,29 +1450,27 @@ string
 return
 urlunsplit
 (
-        
 (
-            
+        
 parsed_url
 .
 scheme
-            
+        
 parsed_url
 .
 netloc
-            
+        
 parsed_url
 .
 path
-            
+        
 final_query_string
-            
+        
 parsed_url
 .
 fragment
-        
-)
     
+)
 )
 def
 write_test_settings_json
@@ -1526,9 +1509,9 @@ transform_platform
 (
 test_details
 [
-"
+'
 test_url
-"
+'
 ]
 oskey
 )
@@ -1551,9 +1534,9 @@ type
 :
 test_details
 [
-"
+'
 type
-"
+'
 ]
             
 "
@@ -1562,9 +1545,9 @@ cold
 :
 test_details
 [
-"
+'
 cold
-"
+'
 ]
             
 "
@@ -1579,9 +1562,9 @@ expected_browser_cycles
 :
 test_details
 [
-"
+'
 expected_browser_cycles
-"
+'
 ]
             
 "
@@ -1592,9 +1575,9 @@ int
 (
 test_details
 [
-"
+'
 page_cycles
-"
+'
 ]
 )
             
@@ -1613,9 +1596,9 @@ host
 if
 test_details
 [
-"
+'
 type
-"
+'
 ]
 =
 =
@@ -1626,16 +1609,16 @@ pageload
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 measure
-"
+'
 ]
 =
 {
@@ -1680,24 +1663,24 @@ m
 in
 test_details
 [
-"
+'
 measure
-"
+'
 ]
 :
             
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 measure
-"
+'
 ]
 [
 m
@@ -1709,30 +1692,29 @@ if
 m
 =
 =
-"
+'
 hero
-"
+'
 :
                 
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 measure
-"
+'
 ]
 [
 m
 ]
 =
 [
-                    
 h
 .
 strip
@@ -1741,19 +1723,19 @@ strip
 for
 h
 in
+                                                                 
 test_details
 [
-"
+'
 hero
-"
+'
 ]
 .
 split
 (
-"
-"
+'
+'
 )
-                
 ]
         
 if
@@ -1782,23 +1764,23 @@ above
             
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 alert_on
-"
+'
 ]
 =
 test_details
 [
-"
+'
 alert_on
-"
+'
 ]
     
 if
@@ -1818,42 +1800,40 @@ None
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 page_timeout
-"
+'
 ]
 =
 int
 (
-            
 test_details
 [
-"
+'
 page_timeout
-"
+'
 ]
-        
 )
     
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 unit
-"
+'
 ]
 =
 test_details
@@ -1870,28 +1850,26 @@ ms
     
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 lower_is_better
-"
+'
 ]
 =
 test_details
 .
 get
 (
-        
 "
 lower_is_better
 "
 True
-    
 )
     
 #
@@ -1909,36 +1887,36 @@ test_details
 .
 get
 (
-"
+'
 subtest_unit
-"
+'
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 unit
-"
+'
 ]
 )
     
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 subtest_unit
-"
+'
 ]
 =
 val
@@ -1949,9 +1927,9 @@ test_details
 .
 get
 (
-"
+'
 subtest_lower_is_better
-"
+'
 )
     
 if
@@ -1972,51 +1950,50 @@ set
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 subtest_lower_is_better
-"
+'
 ]
 =
+(
+            
 test_settings
 [
-            
-"
+'
 raptor
 -
 options
-"
-        
+'
 ]
 [
-"
+'
 lower_is_better
-"
+'
 ]
+)
     
 else
 :
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-            
-"
+'
 subtest_lower_is_better
-"
-        
+'
 ]
 =
 subtest_lower_is_better
@@ -2038,25 +2015,23 @@ None
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 alert_change_type
-"
+'
 ]
 =
 test_details
 [
-            
-"
+'
 alert_change_type
-"
-        
+'
 ]
     
 if
@@ -2076,28 +2051,26 @@ None
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 alert_threshold
-"
+'
 ]
 =
 float
 (
-            
 test_details
 [
-"
+'
 alert_threshold
-"
+'
 ]
-        
 )
     
 if
@@ -2117,27 +2090,25 @@ None
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 screen_capture
-"
+'
 ]
 =
 test_details
 .
 get
 (
-            
 "
 screen_capture
 "
-        
 )
     
 #
@@ -2167,12 +2138,12 @@ False
 threads
 =
 [
-"
+'
 GeckoMain
-"
-"
+'
+'
 Compositor
-"
+'
 ]
         
 #
@@ -2189,15 +2160,15 @@ os
 .
 getenv
 (
-"
+'
 MOZ_WEBRENDER
-"
+'
 )
 =
 =
-"
+'
 1
-"
+'
 :
             
 threads
@@ -2205,12 +2176,12 @@ threads
 extend
 (
 [
-"
+'
 Renderer
-"
-"
+'
+'
 WR
-"
+'
 ]
 )
         
@@ -2219,9 +2190,9 @@ test_details
 .
 get
 (
-"
+'
 gecko_profile_threads
-"
+'
 )
 :
             
@@ -2229,21 +2200,19 @@ test_threads
 =
 filter
 (
-                
 None
 test_details
 [
-"
+'
 gecko_profile_threads
-"
+'
 ]
 .
 split
 (
-"
-"
+'
+'
 )
-            
 )
             
 threads
@@ -2255,68 +2224,63 @@ test_threads
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 .
 update
 (
-            
 {
-                
-"
+            
+'
 gecko_profile
-"
+'
 :
 True
-                
-"
+            
+'
 gecko_profile_entries
-"
+'
 :
 int
 (
-                    
 test_details
 .
 get
 (
-"
+'
 gecko_profile_entries
-"
+'
 1000000
 )
-                
 )
-                
-"
+            
+'
 gecko_profile_interval
-"
+'
 :
 int
 (
-                    
 test_details
 .
 get
 (
-"
+'
 gecko_profile_interval
-"
+'
 1
 )
-                
 )
-                
-"
+            
+'
 gecko_profile_threads
-"
+'
 :
-"
-"
+'
+'
 .
 join
 (
@@ -2325,9 +2289,8 @@ set
 threads
 )
 )
-            
-}
         
+}
 )
     
 if
@@ -2347,36 +2310,36 @@ None
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 newtab_per_cycle
-"
+'
 ]
 =
+\
+            
 bool
 (
-            
 test_details
 [
-"
+'
 newtab_per_cycle
-"
+'
 ]
-        
 )
     
 if
 test_details
 [
-"
+'
 type
-"
+'
 ]
 =
 =
@@ -2387,57 +2350,57 @@ scenario
         
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 scenario_time
-"
+'
 ]
 =
 test_details
 [
-"
+'
 scenario_time
-"
+'
 ]
         
 if
-"
+'
 background_test
-"
+'
 in
 test_details
 :
             
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 background_test
-"
+'
 ]
 =
+\
+                
 bool
 (
-                
 test_details
 [
-"
+'
 background_test
-"
+'
 ]
-            
 )
         
 else
@@ -2445,16 +2408,16 @@ else
             
 test_settings
 [
-"
+'
 raptor
 -
 options
-"
+'
 ]
 [
-"
+'
 background_test
-"
+'
 ]
 =
 False
@@ -2468,9 +2431,9 @@ path
 join
 (
 tests_dir
-"
+'
 json
-"
+'
 )
     
 if
@@ -2496,9 +2459,9 @@ path
 join
 (
 tests_dir
-"
+'
 json
-"
+'
 )
 )
     
@@ -2513,15 +2476,15 @@ join
 jsons_dir
 test_details
 [
-"
+'
 name
-"
+'
 ]
 +
-"
+'
 .
 json
-"
+'
 )
     
 try
@@ -2531,9 +2494,9 @@ with
 open
 (
 settings_file
-"
+'
 w
-"
+'
 )
 as
 out_file
@@ -2586,9 +2549,9 @@ oskey
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 A
 test
@@ -2849,9 +2812,9 @@ is
 invalid
 .
     
-"
-"
-"
+'
+'
+'
     
 tests_to_run
 =
@@ -2908,9 +2871,9 @@ available_tests
 if
 next_test
 [
-"
+'
 name
-"
+'
 ]
 =
 =
@@ -2995,9 +2958,9 @@ split
 (
 next_test
 [
-"
+'
 manifest
-"
+'
 ]
 )
             
@@ -3077,9 +3040,9 @@ below
             
 next_test
 [
-"
+'
 use_live_sites
-"
+'
 ]
 =
 "
@@ -3088,9 +3051,9 @@ true
             
 next_test
 [
-"
+'
 playback
-"
+'
 ]
 =
 None
@@ -3178,9 +3141,9 @@ s
 %
 next_test
 [
-"
+'
 name
-"
+'
 ]
 )
         
@@ -3190,9 +3153,9 @@ next_test
 .
 get
 (
-"
+'
 page_cycles
-"
+'
 1
 )
         
@@ -3202,9 +3165,9 @@ next_test
 .
 get
 (
-"
+'
 browser_cycles
-"
+'
 1
 )
         
@@ -3251,9 +3214,9 @@ next_test
 .
 get
 (
-"
+'
 playback
-"
+'
 )
 is
 not
@@ -3262,52 +3225,54 @@ None
             
 next_test
 [
-"
+'
 playback_pageset_manifest
-"
+'
 ]
 =
+\
+                
 transform_subtest
 (
-                
 next_test
 [
-"
+'
 playback_pageset_manifest
-"
+'
 ]
+                                  
 next_test
 [
-"
+'
 name
-"
+'
 ]
-            
 )
             
 next_test
 [
-"
+'
 playback_recordings
-"
+'
 ]
 =
+\
+                
 transform_subtest
 (
-                
 next_test
 [
-"
+'
 playback_recordings
-"
+'
 ]
+                                  
 next_test
 [
-"
+'
 name
-"
+'
 ]
-            
 )
         
 if
@@ -3320,9 +3285,9 @@ True
             
 next_test
 [
-"
+'
 gecko_profile
-"
+'
 ]
 =
 True
@@ -3331,12 +3296,12 @@ LOG
 .
 info
 (
-"
+'
 gecko
 -
 profiling
 enabled
-"
+'
 )
             
 max_page_cycles
@@ -3348,14 +3313,11 @@ max_browser_cycles
 3
             
 if
-(
-                
-"
+'
 gecko_profile_entries
-"
+'
 in
 args
-                
 and
 args
 .
@@ -3363,15 +3325,13 @@ gecko_profile_entries
 is
 not
 None
-            
-)
 :
                 
 next_test
 [
-"
+'
 gecko_profile_entries
-"
+'
 ]
 =
 str
@@ -3385,8 +3345,7 @@ LOG
 .
 info
 (
-                    
-"
+'
 gecko
 -
 profiling
@@ -3395,23 +3354,19 @@ set
 to
 %
 s
-"
+'
 %
 args
 .
 gecko_profile_entries
-                
 )
             
 if
-(
-                
-"
+'
 gecko_profile_interval
-"
+'
 in
 args
-                
 and
 args
 .
@@ -3419,15 +3374,13 @@ gecko_profile_interval
 is
 not
 None
-            
-)
 :
                 
 next_test
 [
-"
+'
 gecko_profile_interval
-"
+'
 ]
 =
 str
@@ -3441,8 +3394,7 @@ LOG
 .
 info
 (
-                    
-"
+'
 gecko
 -
 profiling
@@ -3451,23 +3403,19 @@ set
 to
 %
 s
-"
+'
 %
 args
 .
 gecko_profile_interval
-                
 )
             
 if
-(
-                
-"
+'
 gecko_profile_threads
-"
+'
 in
 args
-                
 and
 args
 .
@@ -3475,33 +3423,29 @@ gecko_profile_threads
 is
 not
 None
-            
-)
 :
                 
 threads
 =
 filter
 (
-                    
 None
 next_test
 .
 get
 (
-"
+'
 gecko_profile_threads
-"
-"
-"
+'
+'
+'
 )
 .
 split
 (
-"
-"
+'
+'
 )
-                
 )
                 
 threads
@@ -3515,13 +3459,13 @@ gecko_profile_threads
                 
 next_test
 [
-"
+'
 gecko_profile_threads
-"
+'
 ]
 =
-"
-"
+'
+'
 .
 join
 (
@@ -3532,8 +3476,7 @@ LOG
 .
 info
 (
-                    
-"
+'
 gecko
 -
 profiling
@@ -3541,12 +3484,11 @@ extra
 threads
 %
 s
-"
+'
 %
 args
 .
 gecko_profile_threads
-                
 )
         
 else
@@ -3572,9 +3514,9 @@ next_test
 .
 pop
 (
-"
+'
 gecko_profile_entries
-"
+'
 None
 )
             
@@ -3582,9 +3524,9 @@ next_test
 .
 pop
 (
-"
+'
 gecko_profile_interval
-"
+'
 None
 )
             
@@ -3592,9 +3534,9 @@ next_test
 .
 pop
 (
-"
+'
 gecko_profile_threads
-"
+'
 None
 )
         
@@ -3608,9 +3550,9 @@ True
             
 next_test
 [
-"
+'
 debug_mode
-"
+'
 ]
 =
 True
@@ -3681,9 +3623,9 @@ None
             
 next_test
 [
-"
+'
 page_cycles
-"
+'
 ]
 =
 args
@@ -3694,7 +3636,6 @@ LOG
 .
 info
 (
-                
 "
 setting
 page
@@ -3713,7 +3654,6 @@ line
 args
 .
 page_cycles
-            
 )
         
 else
@@ -3726,9 +3666,9 @@ next_test
 .
 get
 (
-"
+'
 page_cycles
-"
+'
 1
 )
 )
@@ -3741,9 +3681,9 @@ max_page_cycles
                 
 next_test
 [
-"
+'
 page_cycles
-"
+'
 ]
 =
 max_page_cycles
@@ -3752,7 +3692,6 @@ LOG
 .
 info
 (
-                    
 "
 setting
 page
@@ -3768,15 +3707,14 @@ profling
 is
 enabled
 "
-                    
+                         
 %
 next_test
 [
-"
+'
 page_cycles
-"
+'
 ]
-                
 )
         
 #
@@ -3829,9 +3767,9 @@ None
             
 next_test
 [
-"
+'
 browser_cycles
-"
+'
 ]
 =
 args
@@ -3842,7 +3780,6 @@ LOG
 .
 info
 (
-                
 "
 setting
 browser
@@ -3857,12 +3794,10 @@ on
 cmd
 line
 "
-                
 %
 args
 .
 browser_cycles
-            
 )
         
 else
@@ -3875,9 +3810,9 @@ next_test
 .
 get
 (
-"
+'
 browser_cycles
-"
+'
 1
 )
 )
@@ -3887,9 +3822,9 @@ max_browser_cycles
                 
 next_test
 [
-"
+'
 browser_cycles
-"
+'
 ]
 =
 max_browser_cycles
@@ -3898,7 +3833,6 @@ LOG
 .
 info
 (
-                    
 "
 setting
 browser
@@ -3914,15 +3848,14 @@ profilng
 is
 enabled
 "
-                    
+                         
 %
 next_test
 [
-"
+'
 browser_cycles
-"
+'
 ]
-                
 )
         
 #
@@ -3957,7 +3890,6 @@ LOG
 .
 info
 (
-                
 "
 setting
 page
@@ -3972,19 +3904,17 @@ on
 cmd
 line
 "
-                
 %
 args
 .
 page_timeout
-            
 )
             
 next_test
 [
-"
+'
 page_timeout
-"
+'
 ]
 =
 args
@@ -4079,9 +4009,9 @@ set
             
 next_test
 [
-"
+'
 browser_cycles
-"
+'
 ]
 =
 1
@@ -4147,27 +4077,27 @@ cycle
             
 next_test
 [
-"
+'
 cold
-"
+'
 ]
 =
 True
             
 next_test
 [
-"
+'
 expected_browser_cycles
-"
+'
 ]
 =
 int
 (
 next_test
 [
-"
+'
 browser_cycles
-"
+'
 ]
 )
             
@@ -4179,9 +4109,9 @@ chimera
                 
 next_test
 [
-"
+'
 page_cycles
-"
+'
 ]
 =
 2
@@ -4191,9 +4121,9 @@ else
                 
 next_test
 [
-"
+'
 page_cycles
-"
+'
 ]
 =
 1
@@ -4244,9 +4174,9 @@ not
 in
 next_test
 [
-"
+'
 name
-"
+'
 ]
 and
 not
@@ -4257,9 +4187,9 @@ browsertime
                 
 next_test
 [
-"
+'
 name
-"
+'
 ]
 +
 =
@@ -4295,18 +4225,18 @@ is
             
 next_test
 [
-"
+'
 cold
-"
+'
 ]
 =
 False
             
 next_test
 [
-"
+'
 expected_browser_cycles
-"
+'
 ]
 =
 1
@@ -4330,9 +4260,9 @@ cycle
         
 next_test
 [
-"
+'
 browser_cycle
-"
+'
 ]
 =
 1
@@ -4378,33 +4308,30 @@ initial_test_url
 =
 next_test
 [
-"
+'
 test_url
-"
+'
 ]
             
 next_test
 [
-"
+'
 test_url
-"
+'
 ]
 =
 add_test_url_params
 (
-                
 initial_test_url
 args
 .
 test_url_params
-            
 )
             
 LOG
 .
 info
 (
-                
 "
 adding
 extra
@@ -4420,7 +4347,7 @@ on
 cmd
 line
 "
-                
+                     
 "
 to
 the
@@ -4435,8 +4362,8 @@ resulting
 %
 s
 "
-                
 %
+                     
 (
 args
 .
@@ -4444,12 +4371,11 @@ test_url_params
 initial_test_url
 next_test
 [
-"
+'
 test_url
-"
+'
 ]
 )
-            
 )
         
 if
@@ -4457,9 +4383,9 @@ next_test
 .
 get
 (
-"
+'
 use_live_sites
-"
+'
 "
 false
 "
@@ -4501,9 +4427,9 @@ off
             
 next_test
 [
-"
+'
 playback
-"
+'
 ]
 =
 None
@@ -4541,24 +4467,24 @@ playback
 in
 next_test
 [
-"
+'
 name
-"
+'
 ]
 :
                 
 next_test
 [
-"
+'
 name
-"
+'
 ]
 =
 next_test
 [
-"
+'
 name
-"
+'
 ]
 +
 "
@@ -4581,32 +4507,28 @@ loads
             
 next_test
 [
-"
+'
 page_timeout
-"
+'
 ]
 =
-(
-                
 int
 (
+                
 next_test
 [
-"
+'
 page_timeout
-"
+'
 ]
 )
 *
 LIVE_SITE_TIMEOUT_MULTIPLIER
             
-)
-            
 LOG
 .
 info
 (
-                
 "
 using
 live
@@ -4619,15 +4541,13 @@ of
 %
 dms
 "
-                
 %
 next_test
 [
-"
+'
 page_timeout
-"
+'
 ]
-            
 )
         
 if
@@ -4669,7 +4589,6 @@ with
 -
 browsertime
 "
-                
 %
 next_test
 .
@@ -4792,9 +4711,9 @@ pageload
             
 next_test
 [
-"
+'
 measure
-"
+'
 ]
 =
 "
@@ -4821,9 +4740,9 @@ next_test
 .
 get
 (
-"
+'
 measure
-"
+'
 )
 is
 not
@@ -4849,15 +4768,15 @@ m
 in
 next_test
 [
-"
+'
 measure
-"
+'
 ]
 .
 split
 (
-"
-"
+'
+'
 )
 ]
 :
@@ -4880,9 +4799,9 @@ m
             
 next_test
 [
-"
+'
 measure
-"
+'
 ]
 =
 _measures
@@ -4906,27 +4825,26 @@ in
 recordings
             
 if
-(
-                
-"
+'
 hero
-"
+'
 in
 next_test
 [
-"
+'
 measure
-"
+'
 ]
-                
 and
+\
+               
 next_test
 .
 get
 (
-"
+'
 use_live_sites
-"
+'
 "
 false
 "
@@ -4936,8 +4854,6 @@ false
 "
 true
 "
-            
-)
 :
                 
 #
@@ -4955,16 +4871,16 @@ list
                 
 next_test
 [
-"
+'
 measure
-"
+'
 ]
 .
 remove
 (
-"
+'
 hero
-"
+'
 )
                 
 #
@@ -4984,9 +4900,9 @@ hero
 del
 next_test
 [
-"
+'
 hero
-"
+'
 ]
         
 if
@@ -4994,9 +4910,9 @@ next_test
 .
 get
 (
-"
+'
 lower_is_better
-"
+'
 )
 is
 not
@@ -5005,9 +4921,42 @@ None
             
 next_test
 [
-"
+'
 lower_is_better
-"
+'
+]
+=
+bool_from_str
+(
+next_test
+.
+get
+(
+'
+lower_is_better
+'
+)
+)
+        
+if
+next_test
+.
+get
+(
+'
+subtest_lower_is_better
+'
+)
+is
+not
+None
+:
+            
+next_test
+[
+'
+subtest_lower_is_better
+'
 ]
 =
 bool_from_str
@@ -5017,44 +4966,9 @@ next_test
 .
 get
 (
-"
-lower_is_better
-"
-)
-            
-)
-        
-if
-next_test
-.
-get
-(
-"
+'
 subtest_lower_is_better
-"
-)
-is
-not
-None
-:
-            
-next_test
-[
-"
-subtest_lower_is_better
-"
-]
-=
-bool_from_str
-(
-                
-next_test
-.
-get
-(
-"
-subtest_lower_is_better
-"
+'
 )
             
 )
@@ -5145,9 +5059,9 @@ settings
 %
 test
 [
-"
+'
 name
-"
+'
 ]
 )
                 

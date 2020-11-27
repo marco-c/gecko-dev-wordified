@@ -178,9 +178,9 @@ errors
 .
 warn
 (
-"
+'
 foo
-"
+'
 )
         
 self
@@ -191,9 +191,9 @@ ErrorMessage
 errors
 .
 error
-"
+'
 foo
-"
+'
 )
         
 self
@@ -204,9 +204,9 @@ ErrorMessage
 errors
 .
 fatal
-"
+'
 foo
-"
+'
 )
         
 self
@@ -219,11 +219,11 @@ get_output
 (
 )
 [
-"
+'
 Warning
 :
 foo
-"
+'
 ]
 )
     
@@ -244,18 +244,18 @@ errors
 .
 warn
 (
-"
+'
 foo
-"
+'
 )
         
 errors
 .
 error
 (
-"
+'
 bar
-"
+'
 )
         
 self
@@ -266,9 +266,9 @@ ErrorMessage
 errors
 .
 fatal
-"
+'
 foo
-"
+'
 )
         
 self
@@ -281,16 +281,16 @@ get_output
 (
 )
 [
-"
+'
 Warning
 :
 foo
-"
-"
+'
+'
 Warning
 :
 bar
-"
+'
 ]
 )
     
@@ -313,9 +313,9 @@ errors
 .
 warn
 (
-"
+'
 1
-"
+'
 )
     
 def
@@ -346,9 +346,9 @@ errors
 .
 error
 (
-"
+'
 1
-"
+'
 )
         
 self
@@ -361,11 +361,11 @@ get_output
 (
 )
 [
-"
+'
 Error
 :
 1
-"
+'
 ]
 )
     
@@ -406,10 +406,10 @@ errors
 .
 error
 (
-"
+'
 %
 d
-"
+'
 %
 i
 )
@@ -423,22 +423,23 @@ self
 get_output
 (
 )
+                          
 [
-"
+'
 Error
 :
 0
-"
-"
+'
+'
 Error
 :
 1
-"
-"
+'
+'
 Error
 :
 2
-"
+'
 ]
 )
     
@@ -470,9 +471,9 @@ errors
 .
 error
 (
-"
+'
 foo
-"
+'
 )
                 
 for
@@ -495,10 +496,10 @@ errors
 .
 warn
 (
-"
+'
 %
 d
-"
+'
 %
 i
 )
@@ -510,10 +511,10 @@ errors
 .
 error
 (
-"
+'
 %
 d
-"
+'
 %
 i
 )
@@ -522,50 +523,49 @@ errors
 .
 error
 (
-"
+'
 bar
-"
+'
 )
         
 self
 .
 assertEquals
 (
-            
 self
 .
 get_output
 (
 )
-            
+                          
 [
-"
+'
 Error
 :
 foo
-"
-"
+'
+'
 Error
 :
 0
-"
-"
+'
+'
 Error
 :
 1
-"
-"
+'
+                           
+'
 Warning
 :
 2
-"
-"
+'
+'
 Error
 :
 bar
-"
+'
 ]
-        
 )
     
 def
@@ -609,9 +609,9 @@ errors
 .
 context
 (
-"
+'
 foo
-"
+'
 1
 )
 :
@@ -626,9 +626,9 @@ get_context
 (
 )
 (
-"
+'
 foo
-"
+'
 1
 )
 )
@@ -637,9 +637,9 @@ errors
 .
 error
 (
-"
+'
 a
-"
+'
 )
                     
 with
@@ -647,9 +647,9 @@ errors
 .
 context
 (
-"
+'
 bar
-"
+'
 2
 )
 :
@@ -664,9 +664,9 @@ get_context
 (
 )
 (
-"
+'
 bar
-"
+'
 2
 )
 )
@@ -675,9 +675,9 @@ errors
 .
 error
 (
-"
+'
 b
-"
+'
 )
                     
 self
@@ -690,9 +690,9 @@ get_context
 (
 )
 (
-"
+'
 foo
-"
+'
 1
 )
 )
@@ -701,25 +701,23 @@ errors
 .
 error
 (
-"
+'
 c
-"
+'
 )
         
 self
 .
 assertEqual
 (
-            
 self
 .
 get_output
 (
 )
-            
 [
-                
-"
+            
+'
 Error
 :
 foo
@@ -727,9 +725,9 @@ foo
 1
 :
 a
-"
-                
-"
+'
+            
+'
 Error
 :
 bar
@@ -737,9 +735,9 @@ bar
 2
 :
 b
-"
-                
-"
+'
+            
+'
 Error
 :
 foo
@@ -747,18 +745,17 @@ foo
 1
 :
 c
-"
-            
-]
+'
         
+]
 )
 if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit

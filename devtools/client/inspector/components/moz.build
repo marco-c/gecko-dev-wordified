@@ -87,9 +87,9 @@ MPL
 .
 DevToolsModules
 (
-"
+'
 InspectorTabPanel
 .
 js
-"
+'
 )

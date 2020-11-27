@@ -130,7 +130,7 @@ steps
     
 lock_path
 =
-"
+'
 {
 }
 /
@@ -139,7 +139,7 @@ gradle
 mach_android
 .
 lockfile
-"
+'
 .
 format
 (
@@ -207,14 +207,14 @@ join
 buildconfig
 .
 topsrcdir
-"
+'
 mach
-"
+'
 )
             
-"
+'
 android
-"
+'
             
 verb
         
@@ -252,40 +252,40 @@ env
 .
 get
 (
-"
+'
 MACH
-"
+'
 )
 :
             
 env
 [
-"
+'
 GRADLE_INVOKED_WITHIN_MACH_BUILD
-"
+'
 ]
 =
-"
+'
 1
-"
+'
         
 if
 env
 .
 get
 (
-"
+'
 LD_LIBRARY_PATH
-"
+'
 )
 :
             
 del
 env
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
         
 subprocess
@@ -312,11 +312,11 @@ inputs
 return
 android
 (
-"
+'
 assemble
 -
 app
-"
+'
 )
 def
 generate_sdk_bindings
@@ -330,13 +330,13 @@ args
 return
 android
 (
-"
+'
 generate
 -
 sdk
 -
 bindings
-"
+'
 *
 args
 )
@@ -352,7 +352,7 @@ args
 return
 android
 (
-"
+'
 generate
 -
 generated
@@ -360,7 +360,7 @@ generated
 jni
 -
 wrappers
-"
+'
 *
 args
 )

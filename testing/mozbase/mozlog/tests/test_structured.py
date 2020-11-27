@@ -226,6 +226,7 @@ os
 getpid
 (
 )
+                        
 "
 thread
 "
@@ -233,6 +234,7 @@ thread
 "
 MainThread
 "
+                        
 "
 source
 "
@@ -296,6 +298,7 @@ keys
 )
 )
 |
+                          
 specials
 set
 (
@@ -393,9 +396,9 @@ sub1
 "
 status
 =
-"
+'
 PASS
-"
+'
 )
         
 self
@@ -412,9 +415,9 @@ sub2
 "
 status
 =
-"
+'
 TIMEOUT
-"
+'
 )
         
 self
@@ -423,31 +426,33 @@ logger
 .
 test_status
 (
-            
 "
 test1
 "
+                                
 "
 sub3
 "
+                                
 status
 =
-"
+'
 FAIL
-"
+'
+                                
 expected
 =
-"
+'
 PASS
-"
+'
+                                
 known_intermittent
 =
 [
-"
+'
 FAIL
-"
+'
 ]
-        
 )
         
 self
@@ -461,9 +466,9 @@ test1
 "
 status
 =
-"
+'
 OK
-"
+'
 )
         
 self
@@ -488,9 +493,9 @@ self
 .
 assertIn
 (
-"
+'
 TIMEOUT
-"
+'
 summary
 .
 unexpected_statuses
@@ -505,9 +510,9 @@ summary
 .
 unexpected_statuses
 [
-"
+'
 TIMEOUT
-"
+'
 ]
 )
         
@@ -515,9 +520,9 @@ self
 .
 assertIn
 (
-"
+'
 PASS
-"
+'
 summary
 .
 expected_statuses
@@ -532,9 +537,9 @@ summary
 .
 expected_statuses
 [
-"
+'
 PASS
-"
+'
 ]
 )
         
@@ -542,9 +547,9 @@ self
 .
 assertIn
 (
-"
+'
 OK
-"
+'
 summary
 .
 expected_statuses
@@ -559,9 +564,9 @@ summary
 .
 expected_statuses
 [
-"
+'
 OK
-"
+'
 ]
 )
         
@@ -569,9 +574,9 @@ self
 .
 assertIn
 (
-"
+'
 FAIL
-"
+'
 summary
 .
 expected_statuses
@@ -586,9 +591,9 @@ summary
 .
 expected_statuses
 [
-"
+'
 FAIL
-"
+'
 ]
 )
         
@@ -596,9 +601,9 @@ self
 .
 assertIn
 (
-"
+'
 FAIL
-"
+'
 summary
 .
 known_intermittent_statuses
@@ -613,9 +618,9 @@ summary
 .
 known_intermittent_statuses
 [
-"
+'
 FAIL
-"
+'
 ]
 )
         
@@ -628,9 +633,9 @@ summary
 .
 action_counts
 [
-"
+'
 test_status
-"
+'
 ]
 )
         
@@ -643,9 +648,9 @@ summary
 .
 action_counts
 [
-"
+'
 test_end
-"
+'
 ]
 )
     
@@ -688,9 +693,9 @@ test1
 "
 status
 =
-"
+'
 PRECONDITION_FAILED
-"
+'
 )
         
 self
@@ -718,9 +723,9 @@ sub1
 "
 status
 =
-"
+'
 PRECONDITION_FAILED
-"
+'
 )
         
 self
@@ -734,9 +739,9 @@ test2
 "
 status
 =
-"
+'
 OK
-"
+'
 )
         
 self
@@ -766,9 +771,9 @@ summary
 .
 expected_statuses
 [
-"
+'
 OK
-"
+'
 ]
 )
         
@@ -781,9 +786,9 @@ summary
 .
 unexpected_statuses
 [
-"
+'
 PRECONDITION_FAILED
-"
+'
 ]
 )
     
@@ -838,9 +843,9 @@ test1
 "
 status
 =
-"
+'
 OK
-"
+'
 )
         
 self
@@ -865,9 +870,9 @@ test2
 "
 status
 =
-"
+'
 OK
-"
+'
 )
         
 self
@@ -892,9 +897,9 @@ self
 .
 assertIn
 (
-"
+'
 ERROR
-"
+'
 summary
 .
 log_level_counts
@@ -909,9 +914,9 @@ summary
 .
 log_level_counts
 [
-"
+'
 ERROR
-"
+'
 ]
 )
         
@@ -919,9 +924,9 @@ self
 .
 assertIn
 (
-"
+'
 OK
-"
+'
 summary
 .
 expected_statuses
@@ -936,9 +941,9 @@ summary
 .
 expected_statuses
 [
-"
+'
 OK
-"
+'
 ]
 )
 class
@@ -1028,9 +1033,9 @@ sub1
 "
 status
 =
-"
+'
 PASS
-"
+'
 )
         
 self
@@ -1047,9 +1052,9 @@ sub2
 "
 status
 =
-"
+'
 TIMEOUT
-"
+'
 )
         
 self
@@ -1091,9 +1096,9 @@ test1
 "
 status
 =
-"
+'
 OK
-"
+'
 )
         
 self
@@ -1112,28 +1117,28 @@ handler
 .
 current
 [
-"
+'
 counts
-"
+'
 ]
         
 self
 .
 assertIn
 (
-"
+'
 timeout
-"
+'
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 )
         
@@ -1144,19 +1149,19 @@ assertEqual
 1
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 [
-"
+'
 timeout
-"
+'
 ]
 )
         
@@ -1164,19 +1169,19 @@ self
 .
 assertIn
 (
-"
+'
 pass
-"
+'
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 )
         
@@ -1187,19 +1192,19 @@ assertEqual
 1
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 [
-"
+'
 pass
-"
+'
 ]
 )
         
@@ -1207,19 +1212,19 @@ self
 .
 assertIn
 (
-"
+'
 ok
-"
+'
 counts
 [
-"
+'
 test
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 )
         
@@ -1230,19 +1235,19 @@ assertEqual
 1
 counts
 [
-"
+'
 test
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 [
-"
+'
 ok
-"
+'
 ]
 )
         
@@ -1250,19 +1255,19 @@ self
 .
 assertIn
 (
-"
+'
 pass
-"
+'
 counts
 [
-"
+'
 assert
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 )
         
@@ -1273,19 +1278,19 @@ assertEqual
 1
 counts
 [
-"
+'
 assert
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 [
-"
+'
 pass
-"
+'
 ]
 )
         
@@ -1293,19 +1298,19 @@ self
 .
 assertIn
 (
-"
+'
 fail
-"
+'
 counts
 [
-"
+'
 assert
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 )
         
@@ -1316,19 +1321,19 @@ assertEqual
 1
 counts
 [
-"
+'
 assert
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 [
-"
+'
 fail
-"
+'
 ]
 )
         
@@ -1340,9 +1345,9 @@ handler
 .
 current
 [
-"
+'
 unexpected_logs
-"
+'
 ]
         
 self
@@ -1360,9 +1365,9 @@ self
 .
 assertIn
 (
-"
+'
 test1
-"
+'
 logs
 )
         
@@ -1375,9 +1380,9 @@ len
 (
 logs
 [
-"
+'
 test1
-"
+'
 ]
 )
 )
@@ -1386,22 +1391,22 @@ self
 .
 assertEqual
 (
-"
+'
 sub2
-"
+'
 logs
 [
-"
+'
 test1
-"
+'
 ]
 [
 0
 ]
 [
-"
+'
 subtest
-"
+'
 ]
 )
     
@@ -1447,9 +1452,9 @@ sub1
 "
 status
 =
-"
+'
 PASS
-"
+'
 )
         
 self
@@ -1463,9 +1468,9 @@ test1
 "
 status
 =
-"
+'
 PRECONDITION_FAILED
-"
+'
 )
         
 self
@@ -1493,9 +1498,9 @@ sub1
 "
 status
 =
-"
+'
 PRECONDITION_FAILED
-"
+'
 )
         
 self
@@ -1512,9 +1517,9 @@ sub2
 "
 status
 =
-"
+'
 PRECONDITION_FAILED
-"
+'
 )
         
 self
@@ -1528,9 +1533,9 @@ test2
 "
 status
 =
-"
+'
 OK
-"
+'
 )
         
 self
@@ -1549,28 +1554,28 @@ handler
 .
 current
 [
-"
+'
 counts
-"
+'
 ]
         
 self
 .
 assertIn
 (
-"
+'
 precondition_failed
-"
+'
 counts
 [
-"
+'
 test
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 )
         
@@ -1581,19 +1586,19 @@ assertEqual
 1
 counts
 [
-"
+'
 test
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 [
-"
+'
 precondition_failed
-"
+'
 ]
 )
         
@@ -1601,19 +1606,19 @@ self
 .
 assertIn
 (
-"
+'
 pass
-"
+'
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 )
         
@@ -1624,19 +1629,19 @@ assertEqual
 1
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 [
-"
+'
 pass
-"
+'
 ]
 )
         
@@ -1644,19 +1649,19 @@ self
 .
 assertIn
 (
-"
+'
 ok
-"
+'
 counts
 [
-"
+'
 test
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 )
         
@@ -1667,19 +1672,19 @@ assertEqual
 1
 counts
 [
-"
+'
 test
-"
+'
 ]
 [
-"
+'
 expected
-"
+'
 ]
 [
-"
+'
 ok
-"
+'
 ]
 )
         
@@ -1687,19 +1692,19 @@ self
 .
 assertIn
 (
-"
+'
 precondition_failed
-"
+'
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 )
         
@@ -1710,19 +1715,19 @@ assertEqual
 2
 counts
 [
-"
+'
 subtest
-"
+'
 ]
 [
-"
+'
 unexpected
-"
+'
 ]
 [
-"
+'
 precondition_failed
-"
+'
 ]
 )
 class
@@ -1759,7 +1764,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -1768,6 +1772,7 @@ action
 "
 suite_start
 "
+                                
 "
 name
 "
@@ -1775,6 +1780,7 @@ name
 "
 logtest
 "
+                                
 "
 tests
 "
@@ -1791,7 +1797,6 @@ test
 ]
 }
 }
-        
 )
         
 self
@@ -1882,6 +1887,7 @@ action
 "
 test_start
 "
+                                
 "
 test
 "
@@ -1898,6 +1904,7 @@ logger
 .
 test_start
 (
+            
 (
 "
 test1
@@ -1927,9 +1934,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -1937,7 +1942,7 @@ action
 "
 test_start
 "
-                
+                                
 "
 test
 "
@@ -1956,7 +1961,7 @@ test1
 ref
 "
 )
-                
+                                
 "
 path
 "
@@ -1968,9 +1973,7 @@ to
 /
 test
 "
-            
 }
-        
 )
         
 self
@@ -2024,9 +2027,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2034,7 +2035,7 @@ action
 "
 log
 "
-                
+                                
 "
 message
 "
@@ -2049,7 +2050,7 @@ in
 progress
 .
 "
-                
+                                
 "
 level
 "
@@ -2057,9 +2058,7 @@ level
 "
 ERROR
 "
-            
 }
-        
 )
         
 self
@@ -2104,7 +2103,6 @@ logger
 .
 test_status
 (
-            
 "
 test1
 "
@@ -2120,22 +2118,20 @@ expected
 "
 FAIL
 "
+                                
 message
 =
 "
 Test
 message
 "
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2143,7 +2139,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 subtest
 "
@@ -2152,7 +2148,7 @@ subtest
 subtest
 name
 "
-                
+                                
 "
 status
 "
@@ -2160,7 +2156,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 message
 "
@@ -2169,7 +2165,7 @@ message
 Test
 message
 "
-                
+                                
 "
 test
 "
@@ -2177,9 +2173,7 @@ test
 "
 test1
 "
-            
 }
-        
 )
         
 self
@@ -2254,9 +2248,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2264,7 +2256,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 subtest
 "
@@ -2273,7 +2265,7 @@ subtest
 subtest
 name
 "
-                
+                                
 "
 status
 "
@@ -2281,7 +2273,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -2289,7 +2281,7 @@ expected
 "
 PASS
 "
-                
+                                
 "
 test
 "
@@ -2297,9 +2289,7 @@ test
 "
 test1
 "
-            
 }
-        
 )
         
 self
@@ -2335,28 +2325,23 @@ self
 .
 assertRaises
 (
-            
 ValueError
-            
 self
 .
 logger
 .
 test_status
-            
 "
 test1
 "
-            
 "
 subtest
 name
 "
-            
+                          
 "
 XXXUNKNOWNXXX
 "
-        
 )
     
 def
@@ -2393,7 +2378,6 @@ logger
 .
 test_status
 (
-            
 "
 test1
 "
@@ -2409,6 +2393,7 @@ expected
 "
 PASS
 "
+                                
 extra
 =
 {
@@ -2418,16 +2403,13 @@ data
 :
 42
 }
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2435,7 +2417,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 subtest
 "
@@ -2444,7 +2426,7 @@ subtest
 subtest
 name
 "
-                
+                                
 "
 status
 "
@@ -2452,7 +2434,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -2460,7 +2442,7 @@ expected
 "
 PASS
 "
-                
+                                
 "
 test
 "
@@ -2468,7 +2450,7 @@ test
 "
 test1
 "
-                
+                                
 "
 extra
 "
@@ -2480,9 +2462,7 @@ data
 :
 42
 }
-            
 }
-        
 )
         
 self
@@ -2541,26 +2521,22 @@ logger
 .
 test_status
 (
-            
 "
 test1
 "
-            
 "
 subtest
 name
 "
-            
 "
 FAIL
 "
-            
 expected
 =
 "
 PASS
 "
-            
+                                
 stack
 =
 "
@@ -2572,16 +2548,13 @@ nof
 \
 nstack
 "
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2589,7 +2562,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 subtest
 "
@@ -2598,7 +2571,7 @@ subtest
 subtest
 name
 "
-                
+                                
 "
 status
 "
@@ -2606,7 +2579,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -2614,7 +2587,7 @@ expected
 "
 PASS
 "
-                
+                                
 "
 test
 "
@@ -2622,7 +2595,7 @@ test
 "
 test1
 "
-                
+                                
 "
 stack
 "
@@ -2636,9 +2609,7 @@ nof
 \
 nstack
 "
-            
 }
-        
 )
         
 self
@@ -2697,7 +2668,6 @@ logger
 .
 test_status
 (
-            
 "
 test1
 "
@@ -2708,6 +2678,7 @@ name
 "
 fail
 "
+                                
 known_intermittent
 =
 [
@@ -2715,16 +2686,13 @@ known_intermittent
 FAIL
 "
 ]
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2732,7 +2700,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 subtest
 "
@@ -2741,7 +2709,7 @@ subtest
 subtest
 name
 "
-                
+                                
 "
 status
 "
@@ -2749,7 +2717,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -2757,7 +2725,7 @@ expected
 "
 PASS
 "
-                
+                                
 "
 known_intermittent
 "
@@ -2767,7 +2735,7 @@ known_intermittent
 FAIL
 "
 ]
-                
+                                
 "
 test
 "
@@ -2775,9 +2743,7 @@ test
 "
 test1
 "
-            
 }
-        
 )
         
 self
@@ -2830,7 +2796,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 pop_last_item
@@ -2844,7 +2809,7 @@ message
 .
 startswith
 (
-                
+            
 "
 test_status
 for
@@ -2861,9 +2826,7 @@ data
 :
 {
 "
-            
 )
-        
 )
     
 def
@@ -2900,7 +2863,6 @@ logger
 .
 test_status
 (
-            
 "
 test1
 "
@@ -2911,22 +2873,20 @@ name
 "
 fail
 "
+                                
 message
 =
 None
 stack
 =
 None
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -2934,7 +2894,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 subtest
 "
@@ -2943,7 +2903,7 @@ subtest
 subtest
 name
 "
-                
+                                
 "
 status
 "
@@ -2951,7 +2911,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -2959,7 +2919,7 @@ expected
 "
 PASS
 "
-                
+                                
 "
 test
 "
@@ -2967,9 +2927,7 @@ test
 "
 test1
 "
-            
 }
-        
 )
         
 self
@@ -3015,6 +2973,7 @@ action
 "
 suite_start
 "
+                             
 "
 tests
 "
@@ -3022,6 +2981,7 @@ tests
 [
 1
 ]
+                             
 "
 name
 "
@@ -3042,6 +3002,7 @@ action
 "
 suite_start
 "
+                                
 "
 tests
 "
@@ -3120,9 +3081,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -3130,7 +3089,7 @@ action
 "
 test_end
 "
-                
+                                
 "
 status
 "
@@ -3138,7 +3097,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -3146,7 +3105,7 @@ expected
 "
 OK
 "
-                
+                                
 "
 message
 "
@@ -3155,7 +3114,7 @@ message
 Test
 message
 "
-                
+                                
 "
 test
 "
@@ -3163,9 +3122,7 @@ test
 "
 test1
 "
-            
 }
-        
 )
         
 self
@@ -3210,6 +3167,7 @@ logger
 .
 test_end
 (
+            
 "
 test1
 "
@@ -3236,9 +3194,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -3246,7 +3202,7 @@ action
 "
 test_end
 "
-                
+                                
 "
 status
 "
@@ -3254,7 +3210,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 extra
 "
@@ -3266,7 +3222,7 @@ data
 :
 123
 }
-                
+                                
 "
 test
 "
@@ -3274,9 +3230,7 @@ test
 "
 test1
 "
-            
 }
-        
 )
         
 self
@@ -3304,6 +3258,7 @@ self
 logger
 .
 test_end
+                          
 "
 test1
 "
@@ -3346,7 +3301,6 @@ logger
 .
 test_end
 (
-            
 "
 test1
 "
@@ -3358,6 +3312,7 @@ expected
 "
 PASS
 "
+                             
 stack
 =
 "
@@ -3369,16 +3324,13 @@ nof
 \
 nstack
 "
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -3386,7 +3338,7 @@ action
 "
 test_end
 "
-                
+                                
 "
 status
 "
@@ -3394,7 +3346,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 test
 "
@@ -3402,7 +3354,7 @@ test
 "
 test1
 "
-                
+                                
 "
 stack
 "
@@ -3416,9 +3368,7 @@ nof
 \
 nstack
 "
-            
 }
-        
 )
         
 self
@@ -3459,7 +3409,6 @@ self
 .
 assertTrue
 (
-            
 self
 .
 pop_last_item
@@ -3473,7 +3422,7 @@ message
 .
 startswith
 (
-                
+            
 "
 test_end
 for
@@ -3490,9 +3439,7 @@ data
 :
 {
 "
-            
 )
-        
 )
         
 self
@@ -3554,7 +3501,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -3563,6 +3509,7 @@ action
 "
 test_end
 "
+                                
 "
 status
 "
@@ -3570,6 +3517,7 @@ status
 "
 PASS
 "
+                                
 "
 test
 "
@@ -3578,7 +3526,6 @@ test
 test2
 "
 }
-        
 )
         
 self
@@ -3642,7 +3589,6 @@ self
 .
 assertTrue
 (
-            
 last_item
 [
 "
@@ -3652,7 +3598,7 @@ message
 .
 startswith
 (
-                
+            
 "
 test_end
 for
@@ -3669,9 +3615,7 @@ data
 :
 {
 "
-            
 )
-        
 )
         
 self
@@ -3711,6 +3655,7 @@ action
 "
 suite_start
 "
+                                
 "
 tests
 "
@@ -3811,6 +3756,7 @@ action
 "
 suite_start
 "
+                                
 "
 tests
 "
@@ -4079,7 +4025,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -4088,6 +4033,7 @@ action
 "
 process_output
 "
+                                
 "
 process
 "
@@ -4095,6 +4041,7 @@ process
 "
 1234
 "
+                                
 "
 data
 "
@@ -4104,7 +4051,6 @@ test
 output
 "
 }
-        
 )
     
 def
@@ -4135,6 +4081,7 @@ action
 "
 process_start
 "
+                                
 "
 process
 "
@@ -4166,7 +4113,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -4175,6 +4121,7 @@ action
 "
 process_exit
 "
+                                
 "
 process
 "
@@ -4182,13 +4129,13 @@ process
 "
 1234
 "
+                                
 "
 exitcode
 "
 :
 0
 }
-        
 )
     
 def
@@ -4237,7 +4184,6 @@ self
 .
 assert_log_equals
 (
-                
 {
 "
 action
@@ -4246,6 +4192,7 @@ action
 "
 log
 "
+                                    
 "
 level
 "
@@ -4255,6 +4202,7 @@ level
 upper
 (
 )
+                                    
 "
 message
 "
@@ -4263,7 +4211,6 @@ message
 message
 "
 }
-            
 )
     
 def
@@ -4377,7 +4324,6 @@ self
 .
 assert_log_equals
 (
-                    
 {
 "
 action
@@ -4386,6 +4332,7 @@ action
 "
 log
 "
+                                        
 "
 level
 "
@@ -4395,6 +4342,7 @@ level
 upper
 (
 )
+                                        
 "
 message
 "
@@ -4403,7 +4351,6 @@ message
 message
 "
 }
-                
 )
         
 finally
@@ -4463,6 +4410,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4470,6 +4418,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4484,7 +4433,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -4493,6 +4441,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4500,6 +4449,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4508,13 +4458,11 @@ message
 test1
 "
 }
-            
 actual
 =
 handler
 .
 last_item
-        
 )
         
 self
@@ -4549,6 +4497,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4556,6 +4505,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4570,7 +4520,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -4579,6 +4528,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4586,6 +4536,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4594,13 +4545,11 @@ message
 test1
 "
 }
-            
 actual
 =
 handler
 .
 last_item
-        
 )
     
 def
@@ -4643,6 +4592,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4650,6 +4600,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4685,6 +4636,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4692,6 +4644,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4727,6 +4680,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4734,6 +4688,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4771,6 +4726,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4778,6 +4734,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4835,7 +4792,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -4844,6 +4800,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -4851,6 +4808,7 @@ level
 "
 INFO
 "
+                                
 "
 message
 "
@@ -4859,6 +4817,7 @@ message
 line
 1
 "
+                                
 "
 source
 "
@@ -4868,7 +4827,6 @@ test
 1
 "
 }
-        
 )
         
 log
@@ -5048,9 +5006,7 @@ self
 .
 assert_log_equals
 (
-                
 {
-                    
 "
 action
 "
@@ -5058,7 +5014,7 @@ action
 "
 log
 "
-                    
+                                    
 "
 level
 "
@@ -5066,7 +5022,7 @@ level
 "
 INFO
 "
-                    
+                                    
 "
 message
 "
@@ -5075,7 +5031,7 @@ message
 line
 2
 "
-                    
+                                    
 "
 source
 "
@@ -5084,9 +5040,7 @@ source
 test
 2
 "
-                
 }
-            
 )
         
 self
@@ -5202,6 +5156,7 @@ action
 "
 suite_start
 "
+                             
 "
 tests
 "
@@ -5209,6 +5164,7 @@ tests
 [
 1
 ]
+                             
 "
 time
 "
@@ -5223,7 +5179,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -5232,6 +5187,7 @@ action
 "
 suite_start
 "
+                                
 "
 tests
 "
@@ -5247,13 +5203,13 @@ default
 "
 ]
 }
+                                
 "
 time
 "
 :
 1234
 }
-        
 )
         
 self
@@ -5293,9 +5249,7 @@ logger
 .
 test_start
 (
-                
 (
-                    
 b
 "
 \
@@ -5319,7 +5273,7 @@ xf0
 \
 x90
 "
-                    
+                                    
 b
 "
 \
@@ -5339,17 +5293,14 @@ x84
 decode
 (
 )
-                    
+                                    
 42
-                    
 u
 "
 \
 u16a4
 "
-                
 )
-            
 )
         
 else
@@ -5361,9 +5312,7 @@ logger
 .
 test_start
 (
-                
 (
-                    
 "
 \
 xf0
@@ -5386,7 +5335,7 @@ xf0
 \
 x90
 "
-                    
+                                    
 "
 \
 x8d
@@ -5401,26 +5350,21 @@ x8d
 \
 x84
 "
-                    
+                                    
 42
-                    
 u
 "
 \
 u16a4
 "
-                
 )
-            
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -5428,14 +5372,14 @@ action
 "
 test_start
 "
-                
+                                
 "
 test
 "
 :
 (
 u
-"
+'
 \
 U00010344
 \
@@ -5444,7 +5388,8 @@ U00010334
 U00010343
 \
 U00010344
-"
+'
+                                         
 u
 "
 42
@@ -5455,9 +5400,7 @@ u
 u16a4
 "
 )
-            
 }
-        
 )
         
 self
@@ -5506,6 +5449,7 @@ action
 "
 log
 "
+                                
 "
 message
 "
@@ -5513,6 +5457,7 @@ message
 "
 1
 "
+                                
 "
 level
 "
@@ -5533,9 +5478,9 @@ info
 1
 (
 2
-"
+'
 3
-"
+'
 )
 "
 s
@@ -5561,9 +5506,7 @@ self
 .
 assert_log_equals
 (
-                
 {
-                    
 "
 action
 "
@@ -5571,7 +5514,7 @@ action
 "
 log
 "
-                    
+                                    
 "
 message
 "
@@ -5595,7 +5538,7 @@ xff
 '
 ]
 "
-                    
+                                    
 "
 level
 "
@@ -5603,9 +5546,7 @@ level
 "
 INFO
 "
-                
 }
-            
 )
         
 else
@@ -5615,9 +5556,7 @@ self
 .
 assert_log_equals
 (
-                
 {
-                    
 "
 action
 "
@@ -5625,7 +5564,7 @@ action
 "
 log
 "
-                    
+                                    
 "
 message
 "
@@ -5650,7 +5589,7 @@ xff
 '
 ]
 "
-                    
+                                    
 "
 level
 "
@@ -5658,9 +5597,7 @@ level
 "
 INFO
 "
-                
 }
-            
 )
         
 self
@@ -5838,6 +5775,7 @@ action
 "
 log
 "
+                                
 "
 message
 "
@@ -5845,6 +5783,7 @@ message
 "
 test
 "
+                                
 "
 level
 "
@@ -5873,7 +5812,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -5882,6 +5820,7 @@ action
 "
 suite_start
 "
+                                
 "
 tests
 "
@@ -5894,6 +5833,7 @@ default
 [
 ]
 }
+                                
 "
 run_info
 "
@@ -5901,7 +5841,6 @@ run_info
 {
 }
 }
-        
 )
         
 self
@@ -5923,6 +5862,7 @@ logger
 .
 test_status
 (
+            
 "
 subtest1
 "
@@ -5945,9 +5885,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -5955,7 +5893,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 test
 "
@@ -5963,7 +5901,7 @@ test
 "
 test1
 "
-                
+                                
 "
 subtest
 "
@@ -5971,7 +5909,7 @@ subtest
 "
 subtest1
 "
-                
+                                
 "
 status
 "
@@ -5979,7 +5917,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 expected
 "
@@ -5987,9 +5925,7 @@ expected
 "
 FAIL
 "
-            
 }
-        
 )
         
 self
@@ -6011,9 +5947,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -6021,7 +5955,7 @@ action
 "
 process_output
 "
-                
+                                
 "
 process
 "
@@ -6029,7 +5963,7 @@ process
 "
 123
 "
-                
+                                
 "
 command
 "
@@ -6037,7 +5971,7 @@ command
 "
 test
 "
-                
+                                
 "
 data
 "
@@ -6045,91 +5979,73 @@ data
 "
 data
 "
-            
 }
-        
 )
         
 self
 .
 assertRaises
 (
-            
 TypeError
-            
 self
 .
 logger
 .
 test_status
-            
 subtest
 =
 "
 subtest2
 "
-            
+                          
 status
 =
 "
 FAIL
 "
-            
 expected
 =
 "
 PASS
 "
-        
 )
         
 self
 .
 assertRaises
 (
-            
 TypeError
-            
 self
 .
 logger
 .
 test_status
-            
 "
 test1
 "
-            
 "
 subtest1
 "
-            
+                          
 "
 PASS
 "
-            
 "
 FAIL
 "
-            
 "
 message
 "
-            
 "
 stack
 "
-            
 {
 }
-            
 [
 ]
-            
 "
 unexpected
 "
-        
 )
         
 self
@@ -6142,6 +6058,7 @@ self
 logger
 .
 test_status
+                          
 "
 test1
 "
@@ -6179,16 +6096,15 @@ structuredlog
 .
 StructuredLogger
 (
-            
 self
 .
 logger
 .
 name
+                                                          
 "
 test_component
 "
-        
 )
         
 component_logger
@@ -6199,6 +6115,7 @@ handlers
 .
 LogLevelFilter
 (
+            
 lambda
 x
 :
@@ -6242,6 +6159,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -6249,6 +6167,7 @@ level
 "
 DEBUG
 "
+                                
 "
 message
 "
@@ -6295,9 +6214,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -6305,7 +6222,7 @@ action
 "
 log
 "
-                
+                                
 "
 level
 "
@@ -6313,7 +6230,7 @@ level
 "
 INFO
 "
-                
+                                
 "
 message
 "
@@ -6322,7 +6239,7 @@ message
 Test
 1
 "
-                
+                                
 "
 component
 "
@@ -6330,9 +6247,7 @@ component
 "
 test_component
 "
-            
 }
-        
 )
         
 component_logger
@@ -6387,9 +6302,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -6397,7 +6310,7 @@ action
 "
 log
 "
-                
+                                
 "
 level
 "
@@ -6405,7 +6318,7 @@ level
 "
 DEBUG
 "
-                
+                                
 "
 message
 "
@@ -6414,7 +6327,7 @@ message
 Test
 3
 "
-                
+                                
 "
 component
 "
@@ -6422,9 +6335,7 @@ component
 "
 test_component
 "
-            
 }
-        
 )
     
 def
@@ -6440,16 +6351,15 @@ structuredlog
 .
 StructuredLogger
 (
-            
 self
 .
 logger
 .
 name
+                                                          
 "
 test_component
 "
-        
 )
         
 self
@@ -6486,6 +6396,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -6493,6 +6404,7 @@ level
 "
 DEBUG
 "
+                                
 "
 message
 "
@@ -6513,6 +6425,7 @@ handlers
 .
 LogLevelFilter
 (
+            
 lambda
 x
 :
@@ -6570,9 +6483,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -6580,7 +6491,7 @@ action
 "
 log
 "
-                
+                                
 "
 level
 "
@@ -6588,7 +6499,7 @@ level
 "
 DEBUG
 "
-                
+                                
 "
 message
 "
@@ -6597,7 +6508,7 @@ message
 Test
 2
 "
-                
+                                
 "
 component
 "
@@ -6605,9 +6516,7 @@ component
 "
 test_component
 "
-            
 }
-        
 )
         
 self
@@ -6653,6 +6562,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -6660,6 +6570,7 @@ level
 "
 DEBUG
 "
+                                
 "
 message
 "
@@ -6746,7 +6657,6 @@ self
 .
 assert_log_equals
 (
-            
 {
 "
 action
@@ -6755,6 +6665,7 @@ action
 "
 log
 "
+                                
 "
 level
 "
@@ -6762,6 +6673,7 @@ level
 "
 DEBUG
 "
+                                
 "
 message
 "
@@ -6772,7 +6684,6 @@ FILTERED
 Test
 "
 }
-        
 )
         
 self
@@ -7020,9 +6931,9 @@ parser
 include_formatters
 =
 [
-"
+'
 raw
-"
+'
 ]
 )
         
@@ -7036,13 +6947,14 @@ in
 commandline
 .
 log_formatters
+                            
 if
 fmt
 !
 =
-"
+'
 raw
-"
+'
 ]
         
 #
@@ -7389,12 +7301,14 @@ b
 INFO
 message
 "
+                          
 b
 "
 ERROR
 message
 "
 ]
+                         
 self
 .
 loglines
@@ -7458,7 +7372,6 @@ level
 error
 "
 ]
-        
 )
         
 logger
@@ -7527,6 +7440,7 @@ ERROR
 message
 "
 ]
+                         
 self
 .
 loglines
@@ -7590,7 +7504,6 @@ level
 debug
 "
 ]
-        
 )
         
 logger
@@ -7654,28 +7567,29 @@ self
 .
 assertEqual
 (
-            
 [
 b
 "
 INFO
 message
 "
+                          
 b
 "
 DEBUG
 message
 "
+                          
 b
 "
 ERROR
 message
 "
 ]
+                         
 self
 .
 loglines
-        
 )
     
 def
@@ -7725,18 +7639,17 @@ self
 .
 assertRaises
 (
-            
 ValueError
 commandline
 .
 setup_logging
+                          
 "
 test_fmtopts
 "
 args
 {
 }
-        
 )
 class
 TestBuffer
@@ -7773,7 +7686,6 @@ pop_last_item
 all_expected
 =
 {
-            
 "
 pid
 "
@@ -7783,7 +7695,7 @@ os
 getpid
 (
 )
-            
+                        
 "
 thread
 "
@@ -7791,7 +7703,7 @@ thread
 "
 MainThread
 "
-            
+                        
 "
 source
 "
@@ -7799,7 +7711,6 @@ source
 "
 testBuffer
 "
-        
 }
         
 specials
@@ -7856,6 +7767,7 @@ keys
 )
 )
 |
+                          
 specials
 set
 (
@@ -8036,9 +7948,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -8046,7 +7956,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 test
 "
@@ -8054,7 +7964,7 @@ test
 "
 test1
 "
-                
+                                
 "
 status
 "
@@ -8062,7 +7972,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 subtest
 "
@@ -8070,9 +7980,7 @@ subtest
 "
 sub1
 "
-            
 }
-        
 )
         
 self
@@ -8245,6 +8153,7 @@ action
 "
 test_end
 "
+                                
 "
 test
 "
@@ -8252,6 +8161,7 @@ test
 "
 test1
 "
+                                
 "
 status
 "
@@ -8456,6 +8366,7 @@ action
 "
 test_start
 "
+                                
 "
 test
 "
@@ -8568,9 +8479,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -8578,7 +8487,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 test
 "
@@ -8586,7 +8495,7 @@ test
 "
 test1
 "
-                
+                                
 "
 subtest
 "
@@ -8594,7 +8503,7 @@ subtest
 "
 sub8
 "
-                
+                                
 "
 status
 "
@@ -8602,7 +8511,7 @@ status
 "
 FAIL
 "
-                
+                                
 "
 expected
 "
@@ -8610,9 +8519,7 @@ expected
 "
 PASS
 "
-            
 }
-        
 )
         
 #
@@ -8630,9 +8537,7 @@ self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -8640,7 +8545,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 test
 "
@@ -8648,7 +8553,7 @@ test
 "
 test1
 "
-                
+                                
 "
 status
 "
@@ -8656,7 +8561,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 subtest
 "
@@ -8664,18 +8569,14 @@ subtest
 "
 sub7
 "
-            
 }
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -8683,7 +8584,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 test
 "
@@ -8691,7 +8592,7 @@ test
 "
 test1
 "
-                
+                                
 "
 status
 "
@@ -8699,7 +8600,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 subtest
 "
@@ -8707,18 +8608,14 @@ subtest
 "
 sub6
 "
-            
 }
-        
 )
         
 self
 .
 assert_log_equals
 (
-            
 {
-                
 "
 action
 "
@@ -8726,7 +8623,7 @@ action
 "
 test_status
 "
-                
+                                
 "
 test
 "
@@ -8734,7 +8631,7 @@ test
 "
 test1
 "
-                
+                                
 "
 status
 "
@@ -8742,7 +8639,7 @@ status
 "
 PASS
 "
-                
+                                
 "
 subtest
 "
@@ -8750,9 +8647,7 @@ subtest
 "
 sub5
 "
-            
 }
-        
 )
         
 self
@@ -8767,6 +8662,7 @@ action
 "
 suite_start
 "
+                                
 "
 tests
 "
@@ -8835,7 +8731,6 @@ self
 data
 =
 [
-            
 {
 "
 action
@@ -8852,7 +8747,7 @@ data
 data_0
 "
 }
-            
+                
 {
 "
 action
@@ -8869,7 +8764,6 @@ data
 data_1
 "
 }
-        
 ]
         
 f
@@ -8907,7 +8801,6 @@ self
 data
 =
 [
-            
 {
 "
 action
@@ -8924,7 +8817,7 @@ data
 data_0
 "
 }
-            
+                
 {
 "
 action
@@ -8941,7 +8834,6 @@ data
 data_1
 "
 }
-        
 ]
         
 f
@@ -8999,33 +8891,32 @@ reader
 .
 imap_log
 (
-            
 reader
 .
 read
 (
 f
 )
+                                   
 {
 "
 action_0
 "
 :
 f_action_0
+                                    
 "
 action_1
 "
 :
 f_action_1
 }
-        
 )
         
 self
 .
 assertEquals
 (
-            
 [
 (
 "
@@ -9044,11 +8935,11 @@ data_1
 "
 )
 ]
+                          
 list
 (
 res_iter
 )
-        
 )
     
 def
@@ -9061,7 +8952,6 @@ self
 data
 =
 [
-            
 {
 "
 action
@@ -9078,7 +8968,7 @@ data
 data_0
 "
 }
-            
+                
 {
 "
 action
@@ -9095,7 +8985,6 @@ data
 data_1
 "
 }
-        
 ]
         
 f
@@ -9115,6 +9004,7 @@ action_0
 "
 :
 0
+                 
 "
 action_1
 "
@@ -9166,26 +9056,26 @@ reader
 .
 each_log
 (
-            
 reader
 .
 read
 (
 f
 )
+                        
 {
 "
 action_0
 "
 :
 f_action_0
+                         
 "
 action_1
 "
 :
 f_action_1
 }
-        
 )
         
 self
@@ -9217,7 +9107,6 @@ self
 data
 =
 [
-            
 {
 "
 action
@@ -9234,7 +9123,7 @@ data
 data_0
 "
 }
-            
+                
 {
 "
 action
@@ -9251,7 +9140,6 @@ data
 data_1
 "
 }
-        
 ]
         
 f

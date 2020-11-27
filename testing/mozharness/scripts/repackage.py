@@ -69,9 +69,9 @@ script_kwargs
 =
 {
             
-"
+'
 all_actions
-"
+'
 :
 [
                 
@@ -93,9 +93,11 @@ __init__
 (
             
 self
+            
 require_config_file
 =
 require_config_file
+            
 *
 *
 script_kwargs
@@ -133,13 +135,13 @@ join
 (
 dirs
 [
-"
+'
 abs_input_dir
-"
+'
 ]
-"
+'
 mar
-"
+'
 )
         
 if
@@ -153,10 +155,10 @@ _is_windows
 mar_path
 +
 =
-"
+'
 .
 exe
-"
+'
         
 if
 mar_path
@@ -248,9 +250,9 @@ dirs
         
 dirs
 [
-"
+'
 abs_input_dir
-"
+'
 ]
 =
 os
@@ -261,13 +263,13 @@ join
 (
 abs_dirs
 [
-"
+'
 base_work_dir
-"
+'
 ]
-"
+'
 fetches
-"
+'
 )
         
 output_dir_suffix
@@ -280,9 +282,9 @@ config
 .
 get
 (
-"
+'
 locale
-"
+'
 )
 :
             
@@ -292,9 +294,9 @@ append
 (
 config
 [
-"
+'
 locale
-"
+'
 ]
 )
         
@@ -303,9 +305,9 @@ config
 .
 get
 (
-"
+'
 repack_id
-"
+'
 )
 :
             
@@ -315,17 +317,17 @@ append
 (
 config
 [
-"
+'
 repack_id
-"
+'
 ]
 )
         
 dirs
 [
-"
+'
 abs_output_dir
-"
+'
 ]
 =
 os
@@ -337,16 +339,15 @@ join
             
 abs_dirs
 [
-"
+'
 abs_work_dir
-"
+'
 ]
-"
+'
 outputs
-"
+'
 *
 output_dir_suffix
-        
 )
         
 for
@@ -412,19 +413,19 @@ subst
 =
 {
             
-"
+'
 package
 -
 name
-"
+'
 :
 config
 [
-"
+'
 package
 -
 name
-"
+'
 ]
             
 #
@@ -438,70 +439,70 @@ for
 Windows
 targets
             
-"
+'
 sfx
 -
 stub
-"
+'
 :
 config
 .
 get
 (
-"
+'
 sfx
 -
 stub
-"
+'
 )
             
-"
+'
 installer
 -
 tag
-"
+'
 :
 config
 [
-"
+'
 installer
 -
 tag
-"
+'
 ]
             
-"
+'
 stub
 -
 installer
 -
 tag
-"
+'
 :
 config
 [
-"
+'
 stub
 -
 installer
 -
 tag
-"
+'
 ]
             
-"
+'
 wsx
 -
 stub
-"
+'
 :
 config
 [
-"
+'
 wsx
 -
 stub
-"
+'
 ]
         
 }
@@ -518,11 +519,11 @@ config
 .
 get
 (
-"
+'
 fetch
 -
 dir
-"
+'
 )
 :
             
@@ -531,11 +532,11 @@ subst
 update
 (
 {
-"
+'
 fetch
 -
 dir
-"
+'
 :
 os
 .
@@ -545,11 +546,11 @@ abspath
 (
 config
 [
-"
+'
 fetch
 -
 dir
-"
+'
 ]
 )
 }
@@ -571,9 +572,9 @@ mkdir_p
 (
 dirs
 [
-"
+'
 abs_output_dir
-"
+'
 ]
 )
         
@@ -594,10 +595,10 @@ command
 sys
 .
 executable
-"
+'
 mach
-"
-"
+'
+'
 -
 -
 log
@@ -605,10 +606,10 @@ log
 no
 -
 times
-"
-"
+'
+'
 repackage
-"
+'
 ]
             
 command
@@ -629,9 +630,9 @@ arg
 in
 repack_config
 [
-"
+'
 args
-"
+'
 ]
 ]
 )
@@ -642,9 +643,9 @@ filename
 in
 repack_config
 [
-"
+'
 inputs
-"
+'
 ]
 .
 items
@@ -656,21 +657,20 @@ command
 .
 extend
 (
-                    
 [
-                        
-"
+                    
+'
 -
 -
 {
 }
-"
+'
 .
 format
 (
 arg
 )
-                        
+                    
 os
 .
 path
@@ -679,30 +679,27 @@ join
 (
 dirs
 [
-"
+'
 abs_input_dir
-"
+'
 ]
 filename
 )
-                    
-]
                 
+]
 )
             
 command
 .
 extend
 (
-                
 [
-                    
-"
+                
+'
 -
 -
 output
-"
-                    
+'
 os
 .
 path
@@ -711,20 +708,19 @@ join
 (
 dirs
 [
-"
+'
 abs_output_dir
-"
+'
 ]
 repack_config
 [
-"
+'
 output
-"
+'
 ]
 )
-                
-]
             
+]
 )
             
 self
@@ -740,9 +736,9 @@ cwd
 =
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
                 
 halt_on_failure
@@ -788,9 +784,9 @@ environ
 .
 get
 (
-"
+'
 MOZ_TOOLCHAINS
-"
+'
 )
         
 manifest_src
@@ -801,9 +797,9 @@ environ
 .
 get
 (
-"
+'
 TOOLTOOL_MANIFEST
-"
+'
 )
         
 if
@@ -817,9 +813,9 @@ config
 .
 get
 (
-"
+'
 tooltool_manifest_src
-"
+'
 )
         
 if
@@ -839,11 +835,10 @@ cmd
 sys
 .
 executable
-            
-"
+'
 -
 u
-"
+'
             
 os
 .
@@ -853,45 +848,44 @@ join
 (
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
-"
+'
 mach
-"
+'
 )
             
-"
+'
 artifact
-"
+'
             
-"
+'
 toolchain
-"
+'
             
-"
+'
 -
 v
-"
+'
             
-"
+'
 -
 -
 retry
-"
-            
-"
+'
+'
 4
-"
+'
             
-"
+'
 -
 -
 artifact
 -
 manifest
-"
+'
             
 os
 .
@@ -901,15 +895,15 @@ join
 (
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
-"
+'
 toolchains
 .
 json
-"
+'
 )
         
 ]
@@ -922,17 +916,16 @@ cmd
 .
 extend
 (
-                
 [
-                    
-"
+                
+'
 -
 -
 tooltool
 -
 manifest
-"
-                    
+'
+                
 os
 .
 path
@@ -941,15 +934,14 @@ join
 (
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
 manifest_src
 )
-                
-]
             
+]
 )
             
 auth_file
@@ -969,13 +961,13 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 authentication
 -
 file
-"
+'
 auth_file
 ]
 )
@@ -986,9 +978,9 @@ config
 .
 get
 (
-"
+'
 tooltool_cache
-"
+'
 )
         
 if
@@ -1000,13 +992,13 @@ cmd
 extend
 (
 [
-"
+'
 -
 -
 cache
 -
 dir
-"
+'
 cache
 ]
 )
@@ -1045,9 +1037,9 @@ cwd
 =
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
 halt_on_failure
 =
@@ -1083,9 +1075,9 @@ the
 token
         
 if
-"
+'
 tooltool_authentication_file
-"
+'
 in
 self
 .
@@ -1098,9 +1090,9 @@ self
 .
 config
 [
-"
+'
 tooltool_authentication_file
-"
+'
 ]
         
 elif
@@ -1114,7 +1106,7 @@ _is_windows
 fn
 =
 r
-"
+'
 c
 :
 \
@@ -1123,21 +1115,21 @@ builds
 relengapi
 .
 tok
-"
+'
         
 else
 :
             
 fn
 =
-"
+'
 /
 builds
 /
 relengapi
 .
 tok
-"
+'
         
 #
 if
@@ -1243,8 +1235,8 @@ query_abs_dirs
         
 abs_mozconfig_path
 =
-"
-"
+'
+'
         
 #
 first
@@ -1258,9 +1250,9 @@ c
 .
 get
 (
-"
+'
 src_mozconfig
-"
+'
 )
 :
             
@@ -1268,13 +1260,13 @@ self
 .
 info
 (
-"
+'
 Using
 in
 -
 tree
 mozconfig
-"
+'
 )
             
 abs_mozconfig_path
@@ -1287,15 +1279,15 @@ join
 (
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
 c
 [
-"
+'
 src_mozconfig
-"
+'
 ]
 )
         
@@ -1306,7 +1298,6 @@ self
 .
 fatal
 (
-                
 "
 '
 src_mozconfig
@@ -1317,7 +1308,7 @@ in
 the
 config
 "
-                
+                       
 "
 in
 order
@@ -1327,7 +1318,6 @@ the
 mozconfig
 .
 "
-            
 )
         
 #
@@ -1367,7 +1357,6 @@ self
 .
 copyfile
 (
-            
 abs_mozconfig_path
 os
 .
@@ -1377,16 +1366,15 @@ join
 (
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
-"
+'
 .
 mozconfig
-"
+'
 )
-        
 )
     
 def
@@ -1410,10 +1398,10 @@ command
 sys
 .
 executable
-"
+'
 mach
-"
-"
+'
+'
 -
 -
 log
@@ -1421,10 +1409,10 @@ log
 no
 -
 times
-"
-"
+'
+'
 configure
-"
+'
 ]
         
 return
@@ -1441,9 +1429,9 @@ cwd
 =
 dirs
 [
-"
+'
 abs_src_dir
-"
+'
 ]
             
 output_timeout
@@ -1461,9 +1449,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 repack

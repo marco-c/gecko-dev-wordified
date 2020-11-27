@@ -217,9 +217,9 @@ if
 hasattr
 (
 fn
-"
+'
 enabled
-"
+'
 )
 :
         
@@ -579,12 +579,12 @@ fn
 add_to_subprinter_list
 (
 fn
-"
+'
 instantiations
 -
 of
 -
-"
+'
 +
 template_name
 )
@@ -1354,9 +1354,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 void
-"
+'
 )
         
 self
@@ -1379,9 +1379,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 uintptr_t
-"
+'
 )
         
 try
@@ -1395,9 +1395,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 JSString
-"
+'
 )
 .
 pointer
@@ -1412,12 +1412,12 @@ gdb
 .
 lookup_type
 (
-"
+'
 JS
 :
 :
 Symbol
-"
+'
 )
 .
 pointer
@@ -1432,9 +1432,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 JSObject
-"
+'
 )
 .
 pointer
@@ -1941,7 +1941,6 @@ gdb
 .
 write
 (
-                
 "
 objfile
 '
@@ -1961,14 +1960,13 @@ printers
 \
 n
 "
-                
+                      
 %
 (
 objfile
 .
 filename
 )
-            
 )
         
 return
@@ -2728,9 +2726,9 @@ not
 hasattr
 (
 self
-"
+'
 display_hint
-"
+'
 )
 or
 self
@@ -2740,9 +2738,9 @@ display_hint
 )
 !
 =
-"
+'
 string
-"
+'
         
 concrete_type
 =
@@ -2795,8 +2793,8 @@ TYPE_CODE_REF
             
 address
 =
-"
-"
+'
+'
 +
 str
 (
@@ -2862,7 +2860,7 @@ r
         
 v
 =
-"
+'
 (
 %
 s
@@ -2871,7 +2869,7 @@ s
 s
 %
 s
-"
+'
 %
 (
 self
@@ -3020,9 +3018,9 @@ if
 hasattr
 (
 f
-"
+'
 enumval
-"
+'
 )
 :
             
@@ -3032,7 +3030,6 @@ field_enum_value
 f
 )
 :
-                
 return
 f
 .
@@ -3047,7 +3044,6 @@ field_enum_value
 f
 )
 :
-                
 return
 f
 .

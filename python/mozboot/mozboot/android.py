@@ -111,14 +111,14 @@ import
 MOZCONFIG_SUGGESTION_TEMPLATE
 NDK_VERSION
 =
-"
+'
 r20
-"
+'
 ANDROID_NDK_EXISTS
 =
-"
-"
-"
+'
+'
+'
 Looks
 like
 you
@@ -135,14 +135,14 @@ at
 :
 %
 s
-"
-"
-"
+'
+'
+'
 ANDROID_SDK_EXISTS
 =
-"
-"
-"
+'
+'
+'
 Looks
 like
 you
@@ -163,14 +163,14 @@ required
 Android
 packages
 .
-"
-"
-"
+'
+'
+'
 ANDROID_SDK_TOO_OLD
 =
-"
-"
-"
+'
+'
+'
 Looks
 like
 you
@@ -219,14 +219,14 @@ run
 bootstrap
 again
 .
-"
-"
-"
+'
+'
+'
 INSTALLING_ANDROID_PACKAGES
 =
-"
-"
-"
+'
+'
+'
 We
 are
 now
@@ -262,14 +262,14 @@ downloaded
 and
 installed
 .
-"
-"
-"
+'
+'
+'
 MOBILE_ANDROID_MOZCONFIG_TEMPLATE
 =
-"
-"
-"
+'
+'
+'
 #
 Build
 GeckoView
@@ -362,14 +362,14 @@ x86_64
 {
 extra_lines
 }
-"
-"
-"
+'
+'
+'
 MOBILE_ANDROID_ARTIFACT_MODE_MOZCONFIG_TEMPLATE
 =
-"
-"
-"
+'
+'
+'
 #
 Build
 GeckoView
@@ -425,9 +425,9 @@ MOZ_OBJDIR
 objdir
 -
 frontend
-"
-"
-"
+'
+'
+'
 class
 GetNdkVersionError
 (
@@ -444,9 +444,9 @@ path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Fetch
 an
@@ -586,9 +586,9 @@ cache
 prematurely
 .
     
-"
-"
-"
+'
+'
+'
     
 old_path
 =
@@ -610,9 +610,9 @@ path
 join
 (
 path
-"
+'
 mozboot
-"
+'
 )
         
 try
@@ -670,14 +670,14 @@ subprocess
 check_call
 (
 [
-"
+'
 wget
-"
-"
+'
+'
 -
 -
 continue
-"
+'
 url
 ]
 )
@@ -688,9 +688,9 @@ url
 .
 split
 (
-"
+'
 /
-"
+'
 )
 [
 -
@@ -721,34 +721,34 @@ file
 .
 endswith
 (
-"
+'
 .
 tar
 .
 gz
-"
+'
 )
 or
 file
 .
 endswith
 (
-"
+'
 .
 tgz
-"
+'
 )
 :
             
 cmd
 =
 [
-"
+'
 tar
-"
-"
+'
+'
 zxf
-"
+'
 abspath
 ]
         
@@ -757,24 +757,24 @@ file
 .
 endswith
 (
-"
+'
 .
 tar
 .
 bz2
-"
+'
 )
 :
             
 cmd
 =
 [
-"
+'
 tar
-"
-"
+'
+'
 jxf
-"
+'
 abspath
 ]
         
@@ -783,23 +783,23 @@ file
 .
 endswith
 (
-"
+'
 .
 zip
-"
+'
 )
 :
             
 cmd
 =
 [
-"
+'
 unzip
-"
-"
+'
+'
 -
 q
-"
+'
 abspath
 ]
         
@@ -808,10 +808,10 @@ file
 .
 endswith
 (
-"
+'
 .
 bin
-"
+'
 )
 :
             
@@ -881,14 +881,14 @@ file
         
 print
 (
-"
+'
 Unpacking
 %
 s
 .
 .
 .
-"
+'
 %
 abspath
 )
@@ -961,7 +961,7 @@ stdout
         
 print
 (
-"
+'
 Unpacking
 %
 s
@@ -969,7 +969,7 @@ s
 .
 .
 DONE
-"
+'
 %
 abspath
 )
@@ -1043,15 +1043,15 @@ path
 join
 (
 ndk_path
-"
+'
 source
 .
 properties
-"
+'
 )
-"
+'
 r
-"
+'
 )
 as
 f
@@ -1070,11 +1070,11 @@ line
 .
 startswith
 (
-"
+'
 Pkg
 .
 Revision
-"
+'
 )
 ]
         
@@ -1087,7 +1087,7 @@ raise
 GetNdkVersionError
 (
                 
-"
+'
 Cannot
 determine
 NDK
@@ -1096,8 +1096,7 @@ from
 source
 .
 properties
-"
-            
+'
 )
         
 if
@@ -1113,7 +1112,8 @@ revision
 raise
 GetNdkVersionError
 (
-"
+                
+'
 Too
 many
 Pkg
@@ -1124,7 +1124,7 @@ in
 source
 .
 properties
-"
+'
 )
         
 (
@@ -1139,9 +1139,9 @@ revision
 .
 split
 (
-"
+'
 =
-"
+'
 )
         
 if
@@ -1153,7 +1153,7 @@ raise
 GetNdkVersionError
 (
                 
-"
+'
 Unexpected
 Pkg
 .
@@ -1163,8 +1163,7 @@ in
 source
 .
 properties
-"
-            
+'
 )
         
 (
@@ -1181,9 +1180,9 @@ strip
 .
 split
 (
-"
+'
 .
-"
+'
 )
         
 if
@@ -1197,13 +1196,14 @@ minor
 raise
 GetNdkVersionError
 (
-"
+                
+'
 Unexpected
 NDK
 version
 string
 :
-"
+'
 +
 version
 )
@@ -1284,8 +1284,8 @@ int_minor
 >
 0
 else
-"
-"
+'
+'
         
 human
 =
@@ -1323,10 +1323,10 @@ environ
 .
 get
 (
-        
-"
+'
 MOZBUILD_STATE_PATH
-"
+'
+                                   
 os
 .
 path
@@ -1339,16 +1339,15 @@ path
 .
 join
 (
-"
+'
 ~
-"
-"
+'
+'
 .
 mozbuild
-"
+'
 )
 )
-    
 )
     
 sdk_path
@@ -1359,11 +1358,10 @@ environ
 .
 get
 (
-        
-"
+'
 ANDROID_SDK_HOME
-"
-        
+'
+                              
 os
 .
 path
@@ -1371,7 +1369,7 @@ path
 join
 (
 mozbuild_path
-"
+'
 android
 -
 sdk
@@ -1379,14 +1377,13 @@ sdk
 {
 0
 }
-"
+'
 .
 format
 (
 os_name
 )
 )
-    
 )
     
 ndk_path
@@ -1397,11 +1394,10 @@ environ
 .
 get
 (
-        
-"
+'
 ANDROID_NDK_HOME
-"
-        
+'
+                              
 os
 .
 path
@@ -1409,7 +1405,7 @@ path
 join
 (
 mozbuild_path
-"
+'
 android
 -
 ndk
@@ -1417,14 +1413,13 @@ ndk
 {
 0
 }
-"
+'
 .
 format
 (
 NDK_VERSION
 )
 )
-    
 )
     
 return
@@ -1455,11 +1450,11 @@ Win64
     
 sdkmanager
 =
-"
+'
 sdkmanager
 .
 bat
-"
+'
 if
 sys
 .
@@ -1467,14 +1462,14 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 else
-"
+'
 sdkmanager
-"
+'
     
 return
 os
@@ -1484,12 +1479,12 @@ path
 join
 (
 sdk_path
-"
+'
 tools
-"
-"
+'
+'
 bin
-"
+'
 sdkmanager
 )
 def
@@ -1499,17 +1494,17 @@ dir
 )
 :
     
-"
-"
-"
+'
+'
+'
 Ensures
 the
 given
 directory
 exists
-"
-"
-"
+'
+'
+'
     
 if
 dir
@@ -1556,30 +1551,26 @@ raise
 def
 ensure_android
 (
-    
 os_name
-    
 artifact_mode
 =
 False
-    
 ndk_only
 =
 False
-    
+                   
 emulator_only
 =
 False
-    
 no_interactive
 =
 False
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Ensure
 the
@@ -1637,9 +1628,9 @@ macosx
 '
 .
     
-"
-"
-"
+'
+'
+'
     
 #
 The
@@ -1709,24 +1700,22 @@ os_name
     
 os_tag
 =
-"
+'
 darwin
-"
+'
 if
 os_name
 =
 =
-"
+'
 macosx
-"
+'
 else
 os_name
     
 sdk_url
 =
-(
-        
-"
+'
 https
 :
 /
@@ -1752,15 +1741,11 @@ tools
 4333796
 .
 zip
-"
+'
 .
 format
 (
-            
 os_tag
-        
-)
-    
 )
     
 ndk_url
@@ -1772,39 +1757,34 @@ os_name
     
 ensure_android_sdk_and_ndk
 (
-        
 mozbuild_path
-        
 os_name
-        
+                               
 sdk_path
 =
 sdk_path
-        
 sdk_url
 =
 sdk_url
-        
+                               
 ndk_path
 =
 ndk_path
-        
 ndk_url
 =
 ndk_url
-        
+                               
 artifact_mode
 =
 artifact_mode
-        
+                               
 ndk_only
 =
 ndk_only
-        
+                               
 emulator_only
 =
 emulator_only
-    
 )
     
 if
@@ -1846,50 +1826,40 @@ sdkmanager
     
 ensure_android_packages
 (
-        
 sdkmanager_tool
 =
 sdkmanager_tool
 (
 sdk_path
 )
-        
+                            
 emulator_only
 =
 emulator_only
-        
+                            
 no_interactive
 =
 no_interactive
-    
 )
 def
 ensure_android_sdk_and_ndk
 (
-    
 mozbuild_path
-    
 os_name
-    
 sdk_path
-    
 sdk_url
-    
 ndk_path
-    
 ndk_url
-    
+                               
 artifact_mode
-    
 ndk_only
-    
 emulator_only
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Ensure
 the
@@ -1940,9 +1910,9 @@ VER
 |
 .
     
-"
-"
-"
+'
+'
+'
     
 #
 It
@@ -2242,7 +2212,6 @@ installations
         
 install_mobile_android_sdk_or_ndk
 (
-            
 sdk_url
 os
 .
@@ -2251,7 +2220,8 @@ path
 join
 (
 mozbuild_path
-"
+                                                                
+'
 android
 -
 sdk
@@ -2259,14 +2229,13 @@ sdk
 {
 0
 }
-"
+'
 .
 format
 (
 os_name
 )
 )
-        
 )
 def
 get_packages_to_install
@@ -2501,9 +2470,9 @@ False
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Use
 the
@@ -2524,9 +2493,9 @@ Android
 packages
 .
     
-"
-"
-"
+'
+'
+'
     
 #
 This
@@ -2566,7 +2535,6 @@ path
 .
 abspath
 (
-            
 os
 .
 path
@@ -2581,7 +2549,8 @@ dirname
 (
 __file__
 )
-"
+                                                         
+'
 android
 -
 emulator
@@ -2589,9 +2558,8 @@ emulator
 packages
 .
 txt
-"
+'
 )
-        
 )
     
 else
@@ -2605,7 +2573,6 @@ path
 .
 abspath
 (
-            
 os
 .
 path
@@ -2620,15 +2587,15 @@ dirname
 (
 __file__
 )
-"
+                                                         
+'
 android
 -
 packages
 .
 txt
-"
+'
 )
-        
 )
     
 print
@@ -2638,9 +2605,9 @@ INSTALLING_ANDROID_PACKAGES
 open
 (
 package_file_name
-"
+'
 rt
-"
+'
 )
 .
 read
@@ -2732,17 +2699,17 @@ q
     
 yes
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
 [
-"
+'
 y
-"
+'
 ]
 *
 100
@@ -2841,8 +2808,8 @@ extra_lines
 .
 append
 (
-"
-"
+'
+'
 )
     
 if
@@ -2879,10 +2846,10 @@ moz_state_dir
         
 extra_lines
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2950,7 +2917,7 @@ zip
     
 base_url
 =
-"
+'
 https
 :
 /
@@ -2968,15 +2935,15 @@ repository
 android
 -
 ndk
-"
+'
     
 if
 os_name
 =
 =
-"
+'
 macosx
-"
+'
 :
         
 #
@@ -2998,9 +2965,9 @@ darwin
         
 os_name
 =
-"
+'
 darwin
-"
+'
     
 if
 sys
@@ -3015,21 +2982,21 @@ maxsize
         
 arch
 =
-"
+'
 x86_64
-"
+'
     
 else
 :
         
 arch
 =
-"
+'
 x86
-"
+'
     
 return
-"
+'
 %
 s
 -
@@ -3043,7 +3010,7 @@ s
 s
 .
 zip
-"
+'
 %
 (
 base_url
@@ -3088,35 +3055,31 @@ parser
 .
 add_option
 (
-        
-"
+'
 -
 a
-"
-        
-"
+'
+'
 -
 -
 artifact
 -
 mode
-"
-        
+'
 dest
 =
-"
+'
 artifact_mode
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                      
 help
 =
-"
+'
 If
 true
 install
@@ -3132,38 +3095,34 @@ Android
 NDK
 )
 .
-"
-    
+'
 )
     
 parser
 .
 add_option
 (
-        
-"
+'
 -
 -
 ndk
 -
 only
-"
-        
+'
 dest
 =
-"
+'
 ndk_only
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                      
 help
 =
-"
+'
 If
 true
 install
@@ -3179,38 +3138,34 @@ Android
 SDK
 )
 .
-"
-    
+'
 )
     
 parser
 .
 add_option
 (
-        
-"
+'
 -
 -
 no
 -
 interactive
-"
-        
+'
 dest
 =
-"
+'
 no_interactive
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                      
 help
 =
-"
+'
 Accept
 the
 Android
@@ -3220,38 +3175,34 @@ without
 user
 interaction
 .
-"
-    
+'
 )
     
 parser
 .
 add_option
 (
-        
-"
+'
 -
 -
 emulator
 -
 only
-"
-        
+'
 dest
 =
-"
+'
 emulator_only
-"
-        
+'
 action
 =
-"
+'
 store_true
-"
-        
+'
+                      
 help
 =
-"
+'
 If
 true
 install
@@ -3268,8 +3219,7 @@ or
 NDK
 )
 .
-"
-    
+'
 )
     
 options
@@ -3295,7 +3245,7 @@ ndk_only
 raise
 NotImplementedError
 (
-"
+'
 Use
 no
 options
@@ -3307,7 +3257,7 @@ and
 the
 SDK
 .
-"
+'
 )
     
 if
@@ -3323,7 +3273,7 @@ emulator_only
 raise
 NotImplementedError
 (
-"
+'
 Use
 no
 options
@@ -3334,7 +3284,7 @@ SDK
 and
 emulators
 .
-"
+'
 )
     
 os_name
@@ -3349,16 +3299,16 @@ system
 )
 =
 =
-"
+'
 Darwin
-"
+'
 :
         
 os_name
 =
-"
+'
 macosx
-"
+'
     
 elif
 platform
@@ -3368,16 +3318,16 @@ system
 )
 =
 =
-"
+'
 Linux
-"
+'
 :
         
 os_name
 =
-"
+'
 linux
-"
+'
     
 elif
 platform
@@ -3387,16 +3337,16 @@ system
 )
 =
 =
-"
+'
 Windows
-"
+'
 :
         
 os_name
 =
-"
+'
 windows
-"
+'
     
 else
 :
@@ -3404,7 +3354,6 @@ else
 raise
 NotImplementedError
 (
-            
 "
 We
 don
@@ -3419,7 +3368,7 @@ SDK
 or
 Android
 "
-            
+                                  
 "
 NDK
 )
@@ -3439,38 +3388,34 @@ system
 (
 )
 )
-        
 )
     
 ensure_android
 (
-        
 os_name
-        
 artifact_mode
 =
 options
 .
 artifact_mode
-        
+                   
 ndk_only
 =
 options
 .
 ndk_only
-        
+                   
 emulator_only
 =
 options
 .
 emulator_only
-        
+                   
 no_interactive
 =
 options
 .
 no_interactive
-    
 )
     
 mozconfig
@@ -3575,10 +3520,10 @@ mozconfig
     
 print
 (
-"
+'
 \
 n
-"
+'
 +
 suggestion
 )
@@ -3589,9 +3534,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys

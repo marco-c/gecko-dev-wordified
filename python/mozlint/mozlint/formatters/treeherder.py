@@ -231,16 +231,16 @@ else
                 
 d
 [
-"
+'
 level
-"
+'
 ]
 =
 d
 [
-"
+'
 level
-"
+'
 ]
 .
 upper
@@ -249,23 +249,23 @@ upper
                 
 d
 [
-"
+'
 rule
-"
+'
 ]
 =
 d
 [
-"
+'
 rule
-"
+'
 ]
 or
 d
 [
-"
+'
 linter
-"
+'
 ]
                 
 message

@@ -118,7 +118,7 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
@@ -126,7 +126,7 @@ BaseShape
 :
 :
 Flag
-"
+'
 )
         
 self
@@ -137,9 +137,8 @@ prettyprinters
 .
 enum_value
 (
-            
 baseshape_flags
-"
+'
 js
 :
 :
@@ -147,8 +146,7 @@ BaseShape
 :
 :
 DELEGATE
-"
-        
+'
 )
         
 self
@@ -159,9 +157,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 JSFunction
-"
+'
 )
 .
 pointer
@@ -176,12 +174,12 @@ gdb
 .
 parse_and_eval
 (
-"
+'
 JSClass
 :
 :
 NON_NATIVE
-"
+'
 )
         
 self
@@ -192,12 +190,12 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
 NativeObject
-"
+'
 )
 .
 pointer
@@ -212,12 +210,12 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
 BaseShape
-"
+'
 )
 .
 pointer
@@ -232,12 +230,12 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
 Shape
-"
+'
 )
 .
 pointer
@@ -252,12 +250,12 @@ gdb
 .
 lookup_type
 (
-"
+'
 js
 :
 :
 ObjectGroup
-"
+'
 )
 .
 pointer
@@ -272,9 +270,9 @@ gdb
 .
 lookup_type
 (
-"
+'
 JSClass
-"
+'
 )
 .
 pointer
@@ -361,9 +359,9 @@ I
 )
 ptr_pretty_printer
 (
-"
+'
 JSObject
-"
+'
 )
 class
 JSObjectPtrOrRef
@@ -457,9 +455,9 @@ non_native
 =
 classp
 [
-"
+'
 flags
-"
+'
 ]
 &
 self
@@ -495,9 +493,9 @@ str
 (
 classp
 [
-"
+'
 name
-"
+'
 ]
 )
         
@@ -528,13 +526,13 @@ non_native
 :
             
 return
-"
+'
 [
 object
 {
 }
 ]
-"
+'
 .
 format
 (
@@ -565,9 +563,9 @@ deref
 (
 native
 [
-"
+'
 shape_
-"
+'
 ]
 )
             
@@ -587,9 +585,9 @@ flags
 =
 baseshape
 [
-"
+'
 flags
-"
+'
 ]
             
 is_delegate
@@ -613,9 +611,9 @@ if
 class_name
 =
 =
-"
+'
 Function
-"
+'
 :
                 
 function
@@ -670,9 +668,9 @@ deref
 (
 function
 [
-"
+'
 atom_
-"
+'
 ]
 )
                 
@@ -685,14 +683,14 @@ atom
 if
 atom
 else
-"
+'
 <
 unnamed
 >
-"
+'
             
 return
-"
+'
 [
 object
 {
@@ -702,38 +700,36 @@ object
 ]
 {
 }
-"
+'
 .
 format
 (
-                
 class_name
-                
-"
-"
+                                            
+'
+'
 +
 name
 if
 name
 else
-"
-"
-                
-"
+'
+'
+                                            
+'
 delegate
-"
+'
 if
 is_delegate
 else
-"
-"
-            
+'
+'
 )
 ref_pretty_printer
 (
-"
+'
 JSObject
-"
+'
 )
 def
 JSObjectRef
@@ -742,7 +738,6 @@ value
 cache
 )
 :
-    
 return
 JSObjectPtrOrRef
 (

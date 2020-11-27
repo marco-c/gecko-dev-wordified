@@ -37,11 +37,11 @@ BytesIO
 HEADERS
 =
 {
-"
+'
 User
 -
 Agent
-"
+'
 :
 "
 wpt
@@ -246,7 +246,6 @@ return
 changeset_iter
 =
 (
-            
 repo
 .
 _run
@@ -263,19 +262,18 @@ rev
 strip
 (
 )
-            
 for
 rev
 in
+                          
 repo
 .
 _run
 (
-                
 "
 log
 "
-                
+                                    
 "
 -
 -
@@ -284,14 +282,14 @@ format
 %
 H
 "
-                
+                                    
 "
 -
 n50
 "
-                
+                                    
 base_rev
-                
+                                    
 "
 testing
 /
@@ -301,7 +299,7 @@ platform
 /
 tests
 "
-                
+                                    
 "
 testing
 /
@@ -313,13 +311,11 @@ mozilla
 /
 tests
 "
-            
 )
 .
 splitlines
 (
 )
-        
 )
     
 else
@@ -357,16 +353,15 @@ repo
 .
 _run
 (
-            
 "
 log
 "
-            
+                                   
 "
 -
 fl50
 "
-            
+                                   
 "
 -
 -
@@ -378,14 +373,13 @@ node
 \
 n
 "
-            
+                                   
 "
 -
 r
 "
-            
 base_rev
-            
+                                   
 "
 testing
 /
@@ -395,7 +389,7 @@ platform
 /
 tests
 "
-            
+                                   
 "
 testing
 /
@@ -407,7 +401,6 @@ mozilla
 /
 tests
 "
-        
 )
 .
 splitlines
@@ -546,7 +539,7 @@ commits
     
 artifact_path
 =
-"
+'
 /
 artifacts
 /
@@ -557,7 +550,7 @@ manifests
 tar
 .
 gz
-"
+'
     
 repos
 =
@@ -573,6 +566,7 @@ mozilla
 -
 central
 "
+             
 "
 integration
 /
@@ -587,8 +581,7 @@ autoland
 cset_url
 =
 (
-        
-"
+'
 https
 :
 /
@@ -607,9 +600,9 @@ json
 -
 pushes
 ?
-"
-        
-"
+'
+                
+'
 changeset
 =
 {
@@ -623,15 +616,13 @@ version
 tipsonly
 =
 1
-"
-    
+'
 )
     
 tc_url
 =
 (
-        
-"
+'
 https
 :
 /
@@ -654,9 +645,9 @@ index
 /
 v1
 /
-"
-        
-"
+'
+              
+'
 task
 /
 gecko
@@ -667,9 +658,9 @@ v2
 name
 }
 .
-"
-        
-"
+'
+              
+'
 revision
 .
 {
@@ -681,14 +672,12 @@ source
 manifest
 -
 upload
-"
-    
+'
 )
     
 default
 =
 (
-        
 "
 https
 :
@@ -713,7 +702,7 @@ index
 v1
 /
 "
-        
+               
 "
 task
 /
@@ -734,8 +723,8 @@ manifest
 upload
 "
 +
+               
 artifact_path
-    
 )
     
 for
@@ -789,15 +778,15 @@ req_headers
 update
 (
 {
-"
+'
 Accept
-"
+'
 :
-"
+'
 application
 /
 json
-"
+'
 }
 )
                 
@@ -805,9 +794,7 @@ req
 =
 get
 (
-                    
 logger
-                    
 cset_url
 .
 format
@@ -819,11 +806,10 @@ repo
 =
 repo_path
 )
-                    
+                          
 headers
 =
 req_headers
-                
 )
                 
 req
@@ -913,9 +899,9 @@ pushes
 =
 result
 [
-"
+'
 pushes
-"
+'
 ]
             
 if
@@ -959,9 +945,9 @@ values
 )
 )
 [
-"
+'
 changesets
-"
+'
 ]
             
 tc_index_url
@@ -1018,7 +1004,6 @@ logger
 .
 info
 (
-        
 "
 Can
 '
@@ -1035,11 +1020,11 @@ using
 the
 most
 "
+                
 "
 recent
 one
 "
-    
 )
     
 return
@@ -1184,7 +1169,6 @@ logger
 .
 warning
 (
-            
 "
 Downloading
 pregenerated
@@ -1193,7 +1177,7 @@ failed
 ;
 got
 "
-            
+                       
 "
 HTTP
 status
@@ -1204,7 +1188,6 @@ d
 req
 .
 status_code
-        
 )
         
 return
@@ -1281,7 +1264,6 @@ logger
 .
 warning
 (
-                
 "
 Failed
 to
@@ -1298,7 +1280,6 @@ paths
 manifest_rel_path
 "
 ]
-            
 )
         
 else
@@ -1311,7 +1292,6 @@ logger
 .
 debug
 (
-                    
 "
 Unpacking
 %
@@ -1332,7 +1312,6 @@ manifest_path
 "
 ]
 )
-                
 )
                 
 src
@@ -1389,7 +1368,6 @@ logger
 .
 warning
 (
-                    
 "
 Failed
 to
@@ -1402,8 +1380,8 @@ n
 %
 s
 "
-                    
 %
+                               
 (
 paths
 [
@@ -1417,7 +1395,6 @@ format_exc
 (
 )
 )
-                
 )
                 
 return
@@ -1453,11 +1430,10 @@ False
 return
 download_manifest
 (
-        
 logger
-        
+                             
 test_paths
-        
+                             
 lambda
 :
 get_commits
@@ -1465,9 +1441,8 @@ get_commits
 logger
 repo_root
 )
-        
+                             
 taskcluster_url
-        
+                             
 force
-    
 )

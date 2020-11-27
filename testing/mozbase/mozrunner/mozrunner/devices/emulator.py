@@ -137,11 +137,11 @@ homedir
 getattr
 (
 context
-"
+'
 homedir
-"
-"
-"
+'
+'
+'
 )
         
 kernel
@@ -153,22 +153,22 @@ path
 join
 (
 homedir
-"
+'
 prebuilts
-"
-"
+'
+'
 qemu
 -
 kernel
-"
-"
+'
+'
 %
 s
-"
-"
+'
+'
 %
 s
-"
+'
 )
         
 sysdir
@@ -180,19 +180,19 @@ path
 join
 (
 homedir
-"
+'
 out
-"
-"
+'
+'
 target
-"
-"
+'
+'
 product
-"
-"
+'
+'
 %
 s
-"
+'
 )
         
 self
@@ -216,20 +216,20 @@ context
 .
 bindir
 or
-"
-"
-"
+'
+'
+'
 emulator
-"
+'
 )
         
 if
 arch
 =
 =
-"
+'
 x86
-"
+'
 :
             
 self
@@ -246,13 +246,13 @@ context
 .
 bindir
 or
-"
-"
-"
+'
+'
+'
 emulator
 -
 x86
-"
+'
 )
             
 self
@@ -262,14 +262,14 @@ kernel
 kernel
 %
 (
-"
+'
 x86
-"
-"
+'
+'
 kernel
 -
 qemu
-"
+'
 )
             
 self
@@ -278,9 +278,9 @@ sysdir
 =
 sysdir
 %
-"
+'
 generic_x86
-"
+'
         
 elif
 avd
@@ -298,19 +298,18 @@ extra_args
 =
 [
                 
-"
+'
 -
 show
 -
 kernel
-"
-                
-"
+'
+'
 -
 debug
-"
+'
                 
-"
+'
 init
 console
 gles
@@ -320,7 +319,7 @@ adbclient
 adb
 avd_config
 socket
-"
+'
             
 ]
         
@@ -334,16 +333,16 @@ kernel
 kernel
 %
 (
-"
+'
 arm
-"
-"
+'
+'
 kernel
 -
 qemu
 -
 armv7
-"
+'
 )
             
 self
@@ -352,24 +351,24 @@ sysdir
 =
 sysdir
 %
-"
+'
 generic
-"
+'
             
 self
 .
 extra_args
 =
 [
-"
+'
 -
 cpu
-"
-"
+'
+'
 cortex
 -
 a8
-"
+'
 ]
         
 if
@@ -479,9 +478,9 @@ app_ctx
 .
 which
 (
-"
+'
 mksdcard
-"
+'
 )
         
 path
@@ -492,9 +491,9 @@ mktemp
 (
 prefix
 =
-"
+'
 sdcard
-"
+'
 dir
 =
 self
@@ -508,13 +507,13 @@ sdargs
 =
 [
 mksdcard
-"
+'
 -
 l
-"
-"
+'
+'
 mySdCard
-"
+'
 sdcard_size
 path
 ]
@@ -531,6 +530,7 @@ stdout
 subprocess
 .
 PIPE
+                              
 stderr
 =
 subprocess
@@ -553,8 +553,7 @@ retcode
 raise
 Exception
 (
-                
-"
+'
 unable
 to
 create
@@ -567,8 +566,8 @@ d
 :
 %
 s
-"
-                
+'
+                            
 %
 (
 retcode
@@ -580,7 +579,6 @@ read
 (
 )
 )
-            
 )
         
 return
@@ -621,45 +619,42 @@ arch
 =
 ArchContext
 (
-            
 kwargs
 .
 pop
 (
-"
+'
 arch
-"
-"
+'
+'
 arm
-"
+'
 )
-            
 app_ctx
-            
+                                
 binary
 =
 kwargs
 .
 pop
 (
-"
+'
 binary
-"
+'
 None
 )
-            
+                                
 avd
 =
 kwargs
 .
 pop
 (
-"
+'
 avd
-"
+'
 None
 )
-        
 )
         
 super
@@ -840,9 +835,9 @@ os
 .
 environ
 [
-"
+'
 ANDROID_TMP
-"
+'
 ]
 =
 self
@@ -883,11 +878,11 @@ join
 self
 .
 logdir
-"
+'
 qemu
 .
 log
-"
+'
 )
             
 if
@@ -910,9 +905,9 @@ qemu_log
             
 qemu_proc_args
 [
-"
+'
 logfile
-"
+'
 ]
 =
 qemu_log
@@ -922,9 +917,9 @@ else
             
 qemu_proc_args
 [
-"
+'
 processOutputLine
-"
+'
 ]
 =
 lambda
@@ -1038,6 +1033,7 @@ datetime
 .
 timedelta
 (
+                    
 seconds
 =
 180
@@ -1047,7 +1043,8 @@ seconds
 raise
 TimeoutException
 (
-"
+                    
+'
 timed
 out
 waiting
@@ -1055,7 +1052,7 @@ for
 emulator
 to
 start
-"
+'
 )
             
 devices
@@ -1113,14 +1110,12 @@ adb
         
 return
 [
-            
 d
 [
-"
+'
 device_serial
-"
+'
 ]
-            
 for
 d
 in
@@ -1129,35 +1124,33 @@ adbhost
 devices
 (
 )
-            
 if
 d
 [
-"
+'
 state
-"
+'
 ]
 !
 =
-"
+'
 offline
-"
-            
+'
 if
+                
 d
 [
-"
+'
 device_serial
-"
+'
 ]
 .
 startswith
 (
-"
+'
 emulator
-"
+'
 )
-        
 ]
     
 def
@@ -1234,9 +1227,9 @@ serial
 .
 rindex
 (
-"
+'
 -
-"
+'
 )
 +
 1
@@ -1369,12 +1362,12 @@ telnet
 .
 write
 (
-"
+'
 %
 s
 \
 n
-"
+'
 %
 command
 )
@@ -1391,10 +1384,10 @@ telnet
 .
 read_until
 (
-"
+'
 \
 n
-"
+'
 )
             
 output
@@ -1413,9 +1406,9 @@ line
 .
 startswith
 (
-"
+'
 OK
-"
+'
 )
 :
                 
@@ -1427,24 +1420,24 @@ line
 .
 startswith
 (
-"
+'
 KO
 :
-"
+'
 )
 :
                 
 raise
 Exception
 (
-"
+'
 bad
 telnet
 response
 :
 %
 s
-"
+'
 %
 line
 )
@@ -1470,9 +1463,9 @@ telnet
 =
 Telnet
 (
-"
+'
 localhost
-"
+'
 self
 .
 port
@@ -1511,11 +1504,11 @@ telnet
 .
 write
 (
-"
+'
 exit
 \
 n
-"
+'
 )
             
 self
@@ -1615,19 +1608,20 @@ qemu_args
 extend
 (
 [
-"
+'
 -
 avd
-"
+'
 self
 .
 arch
 .
 avd
-"
+                          
+'
 -
 port
-"
+'
 str
 (
 self
@@ -1674,9 +1668,9 @@ environ
         
 env
 [
-"
+'
 ANDROID_AVD_HOME
-"
+'
 ]
 =
 self

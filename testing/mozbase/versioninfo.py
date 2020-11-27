@@ -157,9 +157,9 @@ command
 insert
 (
 0
-"
+'
 hg
-"
+'
 )
     
 try
@@ -210,11 +210,11 @@ join
 args
 .
 module
-"
+'
 setup
 .
 py
-"
+'
 )
     
 def
@@ -231,11 +231,11 @@ revisions
 run_hg
 (
 [
-"
+'
 log
-"
+'
 setup
-"
+'
 -
 -
 template
@@ -243,14 +243,14 @@ template
 {
 rev
 }
-"
+'
 ]
 )
 .
 split
 (
-"
-"
+'
+'
 )
 [
 :
@@ -269,19 +269,19 @@ diff
 run_hg
 (
 [
-"
+'
 diff
-"
-"
+'
+'
 -
 c
-"
+'
 rev
 setup
-"
+'
 -
 U0
-"
+'
 ]
 )
             
@@ -308,10 +308,10 @@ line
 .
 startswith
 (
-"
+'
 -
 PACKAGE_VERSION
-"
+'
 )
 :
                     
@@ -334,11 +334,11 @@ split
 .
 strip
 (
-"
-\
-"
 '
 "
+\
+'
+'
 )
 )
                     
@@ -353,10 +353,10 @@ line
 .
 startswith
 (
-"
+'
 +
 PACKAGE_VERSION
-"
+'
 )
 :
                     
@@ -379,11 +379,11 @@ split
 .
 strip
 (
-"
-\
-"
 '
 "
+\
+'
+'
 )
 )
                     
@@ -436,7 +436,6 @@ rev
         
 print
 (
-            
 "
 Could
 not
@@ -457,11 +456,10 @@ args
 module
 v
 or
-"
+'
 latest
-"
+'
 )
-        
 )
         
 sys
@@ -487,14 +485,14 @@ args
 .
 to_ref
 or
-"
+'
 tip
-"
+'
     
 if
-"
+'
 .
-"
+'
 in
 from_ref
 :
@@ -507,9 +505,9 @@ from_ref
 )
     
 if
-"
+'
 .
-"
+'
 in
 to_ref
 :
@@ -523,7 +521,7 @@ to_ref
     
 delim
 =
-"
+'
 \
 x12
 \
@@ -534,25 +532,21 @@ x52
 x99
 \
 x05
-"
+'
     
 changelog
 =
 run_hg
 (
-        
 [
-            
-"
+'
 log
-"
-            
-"
+'
+'
 -
 r
-"
-            
-"
+'
+'
 %
 s
 :
@@ -561,14 +555,14 @@ children
 %
 s
 )
-"
+'
 %
 (
 to_ref
 from_ref
 )
-            
-"
+                        
+'
 -
 -
 template
@@ -578,21 +572,18 @@ desc
 }
 %
 s
-"
+'
 %
 delim
-            
-"
+                        
+'
 -
 M
-"
-            
+'
 args
 .
 module
-        
 ]
-    
 )
 .
 split
@@ -624,21 +615,21 @@ lines
 =
 [
 (
-"
+'
 *
 %
 s
-"
+'
 if
 i
 =
 =
 0
 else
-"
+'
 %
 s
-"
+'
 )
 %
 l
@@ -653,10 +644,10 @@ lines
 ]
         
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -673,10 +664,10 @@ changelog
     
 print
 (
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -758,9 +749,9 @@ info
 directory
 ]
 [
-"
+'
 Name
-"
+'
 ]
         
 dependencies
@@ -788,8 +779,7 @@ values
         
 print
 (
-            
-"
+'
 %
 s
 %
@@ -797,24 +787,24 @@ s
 :
 %
 s
-"
-            
+'
 %
 (
 value
 [
-"
+'
 Name
-"
+'
 ]
 value
 [
-"
+'
 Version
-"
+'
 ]
-"
-"
+                              
+'
+'
 .
 join
 (
@@ -822,14 +812,13 @@ dependencies
 [
 value
 [
-"
+'
 Name
-"
+'
 ]
 ]
 )
 )
-        
 )
 def
 main
@@ -875,9 +864,9 @@ subcommands
 .
 add_parser
 (
-"
+'
 dependencies
-"
+'
 help
 =
 "
@@ -902,9 +891,9 @@ subcommands
 .
 add_parser
 (
-"
+'
 changelog
-"
+'
 help
 =
 "
@@ -919,9 +908,9 @@ p_changelog
 .
 add_argument
 (
-"
+'
 module
-"
+'
 help
 =
 "
@@ -938,23 +927,20 @@ p_changelog
 .
 add_argument
 (
-        
-"
+'
 -
 -
 from
-"
-        
+'
 dest
 =
-"
+'
 from_ref
-"
-        
+'
 default
 =
 None
-        
+                             
 help
 =
 "
@@ -965,7 +951,7 @@ revision
 to
 list
 "
-        
+                             
 "
 changes
 from
@@ -977,30 +963,26 @@ latest
 version
 ]
 "
-    
 )
     
 p_changelog
 .
 add_argument
 (
-        
-"
+'
 -
 -
 to
-"
-        
+'
 dest
 =
-"
+'
 to_ref
-"
-        
+'
 default
 =
 None
-        
+                             
 help
 =
 "
@@ -1011,6 +993,7 @@ revision
 to
 list
 "
+                             
 "
 changes
 to
@@ -1021,7 +1004,6 @@ to
 tip
 ]
 "
-    
 )
     
 p_changelog
@@ -1051,9 +1033,9 @@ args
 .
 append
 (
-"
+'
 dependencies
-"
+'
 )
     
 args
@@ -1075,9 +1057,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

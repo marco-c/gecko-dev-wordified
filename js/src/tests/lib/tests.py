@@ -57,9 +57,9 @@ JITFLAGS
 =
 {
     
-"
+'
 all
-"
+'
 :
 [
         
@@ -74,16 +74,14 @@ and
 ion
         
 [
-            
-"
+'
 -
 -
 ion
 -
 eager
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -93,7 +91,7 @@ offthread
 compile
 =
 off
-"
+'
 #
 implies
 -
@@ -101,28 +99,25 @@ implies
 baseline
 -
 eager
-            
-"
+         
+'
 -
 -
 more
 -
 compartments
-"
-        
+'
 ]
         
 [
-            
-"
+'
 -
 -
 ion
 -
 eager
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -132,9 +127,9 @@ offthread
 compile
 =
 off
-"
-            
-"
+'
+         
+'
 -
 -
 ion
@@ -144,9 +139,8 @@ check
 range
 -
 analysis
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -154,75 +148,72 @@ ion
 extra
 -
 checks
-"
-            
-"
+'
+'
 -
 -
 no
 -
 sse3
-"
-            
-"
+'
+'
 -
 -
 no
 -
 threads
-"
-        
+'
 ]
         
 [
-"
+'
 -
 -
 baseline
 -
 eager
-"
+'
 ]
         
 [
-"
+'
 -
 -
 no
 -
 blinterp
-"
-"
+'
+'
 -
 -
 no
 -
 baseline
-"
-"
+'
+'
 -
 -
 no
 -
 ion
-"
-"
+'
+'
 -
 -
 more
 -
 compartments
-"
+'
 ]
         
 [
-"
+'
 -
 -
 blinterp
 -
 eager
-"
+'
 ]
     
 ]
@@ -248,9 +239,9 @@ specific
 configurations
 .
     
-"
+'
 jstests
-"
+'
 :
 [
         
@@ -265,16 +256,14 @@ and
 ion
         
 [
-            
-"
+'
 -
 -
 ion
 -
 eager
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -284,7 +273,7 @@ offthread
 compile
 =
 off
-"
+'
 #
 implies
 -
@@ -292,56 +281,55 @@ implies
 baseline
 -
 eager
-            
-"
+         
+'
 -
 -
 more
 -
 compartments
-"
-        
+'
 ]
         
 [
-"
+'
 -
 -
 baseline
 -
 eager
-"
+'
 ]
         
 [
-"
+'
 -
 -
 no
 -
 blinterp
-"
-"
+'
+'
 -
 -
 no
 -
 baseline
-"
-"
+'
+'
 -
 -
 no
 -
 ion
-"
-"
+'
+'
 -
 -
 more
 -
 compartments
-"
+'
 ]
     
 ]
@@ -353,31 +341,31 @@ jit_test
 .
 py
     
-"
+'
 ion
-"
+'
 :
 [
         
 [
-"
+'
 -
 -
 baseline
 -
 eager
-"
+'
 ]
         
 [
-"
+'
 -
 -
 ion
 -
 eager
-"
-"
+'
+'
 -
 -
 ion
@@ -387,14 +375,14 @@ offthread
 compile
 =
 off
-"
-"
+'
+'
 -
 -
 more
 -
 compartments
-"
+'
 ]
     
 ]
@@ -406,32 +394,34 @@ testing
 WarpBuilder
 .
     
-"
+'
 warp
-"
+'
 :
 [
+        
 [
-"
+'
 -
 -
 warp
-"
+'
 ]
+        
 [
-"
+'
 -
 -
 warp
-"
-"
+'
+'
 -
 -
 ion
 -
 eager
-"
-"
+'
+'
 -
 -
 ion
@@ -441,45 +431,43 @@ offthread
 compile
 =
 off
-"
-]
+'
 ]
     
-"
+]
+    
+'
 nowarp
-"
+'
 :
 [
         
 [
-"
+'
 -
 -
 no
 -
 warp
-"
+'
 ]
         
 [
-            
-"
+'
 -
 -
 no
 -
 warp
-"
-            
-"
+'
+'
 -
 -
 ion
 -
 eager
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -489,33 +477,32 @@ offthread
 compile
 =
 off
-"
-            
-"
+'
+         
+'
 -
 -
 more
 -
 compartments
-"
-        
+'
 ]
         
 [
-"
+'
 -
 -
 no
 -
 warp
-"
-"
+'
+'
 -
 -
 baseline
 -
 eager
-"
+'
 ]
     
 ]
@@ -534,9 +521,9 @@ longer
 time
 .
     
-"
+'
 debug
-"
+'
 :
 [
         
@@ -551,16 +538,14 @@ and
 ion
         
 [
-            
-"
+'
 -
 -
 ion
 -
 eager
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -570,7 +555,7 @@ offthread
 compile
 =
 off
-"
+'
 #
 implies
 -
@@ -578,25 +563,24 @@ implies
 baseline
 -
 eager
-            
-"
+         
+'
 -
 -
 more
 -
 compartments
-"
-        
+'
 ]
         
 [
-"
+'
 -
 -
 baseline
 -
 eager
-"
+'
 ]
     
 ]
@@ -637,9 +621,9 @@ catch
 races
 .
     
-"
+'
 tsan
-"
+'
 :
 [
         
@@ -647,16 +631,14 @@ tsan
 ]
         
 [
-            
-"
+'
 -
 -
 ion
 -
 eager
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -666,9 +648,8 @@ check
 range
 -
 analysis
-"
-            
-"
+'
+'
 -
 -
 ion
@@ -676,58 +657,56 @@ ion
 extra
 -
 checks
-"
-            
-"
+'
+'
 -
 -
 no
 -
 sse3
-"
-        
+'
 ]
         
 [
-"
+'
 -
 -
 no
 -
 blinterp
-"
-"
+'
+'
 -
 -
 no
 -
 baseline
-"
-"
+'
+'
 -
 -
 no
 -
 ion
-"
+'
 ]
     
 ]
     
-"
+'
 baseline
-"
+'
 :
 [
         
 [
-"
+'
 -
 -
 no
 -
 ion
-"
+'
 ]
     
 ]
@@ -746,39 +725,35 @@ code
 generation
 .
     
-"
+'
 interp
-"
+'
 :
 [
         
 [
-            
-"
+'
 -
 -
 no
 -
 blinterp
-"
-            
-"
+'
+'
 -
 -
 no
 -
 baseline
-"
-            
-"
+'
+'
 -
 -
 no
 -
 asmjs
-"
-            
-"
+'
+'
 -
 -
 wasm
@@ -786,9 +761,9 @@ wasm
 compiler
 =
 none
-"
-            
-"
+'
+         
+'
 -
 -
 no
@@ -796,19 +771,18 @@ no
 native
 -
 regexp
-"
-        
+'
 ]
     
 ]
     
-"
+'
 none
-"
+'
 :
 [
+        
 [
-]
 ]
 #
 no
@@ -817,6 +791,8 @@ normal
 baseline
 and
 ion
+    
+]
 }
 def
 get_jitflags
@@ -864,13 +840,13 @@ if
 variant
 =
 =
-"
+'
 none
-"
+'
 and
-"
+'
 none
-"
+'
 in
 kwargs
 :
@@ -878,9 +854,9 @@ kwargs
 return
 kwargs
 [
-"
+'
 none
-"
+'
 ]
     
 return
@@ -971,13 +947,13 @@ Date
 tests
 .
         
-"
+'
 TZ
-"
+'
 :
-"
+'
 PST8PDT
-"
+'
         
 #
 Force
@@ -987,17 +963,17 @@ to
 English
 .
         
-"
+'
 LC_ALL
-"
+'
 :
-"
+'
 en_US
 .
 UTF
 -
 8
-"
+'
         
 #
 Tell
@@ -1011,13 +987,13 @@ on
 windows
 .
         
-"
+'
 XRE_NO_WINDOWS_CRASH_DIALOG
-"
+'
 :
-"
+'
 1
-"
+'
     
 }
     
@@ -1070,17 +1046,17 @@ platform
 .
 startswith
 (
-"
+'
 linux
-"
+'
 )
 :
         
 env
 [
-"
+'
 LD_LIBRARY_PATH
-"
+'
 ]
 =
 os
@@ -1099,17 +1075,17 @@ platform
 .
 startswith
 (
-"
+'
 darwin
-"
+'
 )
 :
         
 env
 [
-"
+'
 DYLD_LIBRARY_PATH
-"
+'
 ]
 =
 os
@@ -1128,17 +1104,17 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 :
         
 env
 [
-"
+'
 PATH
-"
+'
 ]
 =
 os
@@ -1204,9 +1180,9 @@ None
 )
         
 if
-"
+'
 PATH
-"
+'
 in
 key
 and
@@ -1224,14 +1200,14 @@ environ
 key
 ]
 =
-"
+'
 {
 }
 {
 }
 {
 }
-"
+'
 .
 format
 (
@@ -1396,9 +1372,9 @@ os
 .
 sysconf
 (
-"
+'
 SC_NPROCESSORS_ONLN
-"
+'
 )
 )
         
@@ -1434,9 +1410,9 @@ os
 .
 environ
 [
-"
+'
 NUMBER_OF_PROCESSORS
-"
+'
 ]
 )
         
@@ -1882,17 +1858,17 @@ while
 path
 !
 =
-"
-"
+'
+'
 :
             
 assert
 path
 !
 =
-"
+'
 /
-"
+'
             
 path
 =
@@ -1917,11 +1893,11 @@ self
 .
 root
 path
-"
+'
 shell
 .
 js
-"
+'
 )
             
 if
@@ -1946,10 +1922,10 @@ prefix
 .
 append
 (
-"
+'
 -
 f
-"
+'
 )
         
 prefix
@@ -1970,10 +1946,10 @@ prefix
 .
 append
 (
-"
+'
 -
 f
-"
+'
 )
             
 prefix
@@ -2149,9 +2125,9 @@ enable
 ans
 +
 =
-"
+'
 skip
-"
+'
         
 if
 self
@@ -2165,10 +2141,10 @@ None
 ans
 +
 =
-"
+'
 error
 =
-"
+'
 +
 self
 .
@@ -2184,9 +2160,9 @@ expect
 ans
 +
 =
-"
+'
 fails
-"
+'
         
 if
 self
@@ -2197,9 +2173,9 @@ random
 ans
 +
 =
-"
+'
 random
-"
+'
         
 if
 self
@@ -2210,15 +2186,15 @@ slow
 ans
 +
 =
-"
+'
 slow
-"
+'
         
 if
-"
+'
 -
 d
-"
+'
 in
 self
 .
@@ -2228,9 +2204,9 @@ options
 ans
 +
 =
-"
+'
 debugMode
-"
+'
         
 return
 ans

@@ -103,10 +103,10 @@ emulator
 .
 _run_telnet
 (
-"
+'
 power
 display
-"
+'
 )
         
 for
@@ -116,9 +116,9 @@ response
 :
             
 if
-"
+'
 :
-"
+'
 in
 line
 :
@@ -130,9 +130,9 @@ line
 .
 split
 (
-"
+'
 :
-"
+'
 )
                 
 value
@@ -147,9 +147,9 @@ if
 value
 =
 =
-"
+'
 true
-"
+'
 :
                     
 value
@@ -160,9 +160,9 @@ elif
 value
 =
 =
-"
+'
 false
-"
+'
 :
                     
 value
@@ -173,9 +173,9 @@ elif
 field
 =
 =
-"
+'
 capacity
-"
+'
 :
                     
 value
@@ -194,18 +194,18 @@ value
         
 state
 [
-"
+'
 level
-"
+'
 ]
 =
 status
 .
 get
 (
-"
+'
 capacity
-"
+'
 0
 .
 0
@@ -218,22 +218,22 @@ status
 .
 get
 (
-"
+'
 AC
-"
+'
 )
 =
 =
-"
+'
 online
-"
+'
 :
             
 state
 [
-"
+'
 charging
-"
+'
 ]
 =
 True
@@ -243,9 +243,9 @@ else
             
 state
 [
-"
+'
 charging
-"
+'
 ]
 =
 False
@@ -267,9 +267,9 @@ get_state
 (
 )
 [
-"
+'
 charging
-"
+'
 ]
     
 def
@@ -286,9 +286,9 @@ get_state
 (
 )
 [
-"
+'
 level
-"
+'
 ]
     
 def
@@ -305,12 +305,12 @@ emulator
 .
 _run_telnet
 (
-"
+'
 power
 capacity
 %
 d
-"
+'
 %
 (
 level
@@ -333,22 +333,22 @@ charging
             
 cmd
 =
-"
+'
 power
 ac
 on
-"
+'
         
 else
 :
             
 cmd
 =
-"
+'
 power
 ac
 off
-"
+'
         
 self
 .

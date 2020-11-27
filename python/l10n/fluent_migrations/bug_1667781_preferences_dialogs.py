@@ -101,7 +101,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -152,7 +151,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -166,9 +164,7 @@ addEngine
 .
 ftl
 "
-        
 )
-    
 )
     
 ctx
@@ -202,7 +198,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -259,7 +254,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -273,9 +267,7 @@ clearSiteData
 .
 ftl
 "
-        
 )
-    
 )
     
 ctx
@@ -309,7 +301,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -358,7 +349,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -372,9 +362,7 @@ containers
 .
 ftl
 "
-        
 )
-    
 )
     
 ctx
@@ -408,7 +396,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -457,7 +444,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -471,9 +457,7 @@ permissions
 .
 ftl
 "
-        
 )
-    
 )
     
 ctx
@@ -507,7 +491,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -564,7 +547,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -578,9 +560,7 @@ siteDataSettings
 .
 ftl
 "
-        
 )
-    
 )
     
 ctx
@@ -614,7 +594,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -663,7 +642,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -677,9 +655,7 @@ translation
 .
 ftl
 "
-        
 )
-    
 )
     
 ctx
@@ -713,7 +689,6 @@ ftl
         
 transforms_from
 (
-            
 "
 "
 "
@@ -762,7 +737,6 @@ accesskey
 "
 "
 "
-            
 from_path
 =
 "
@@ -776,7 +750,5 @@ blocklists
 .
 ftl
 "
-        
 )
-    
 )

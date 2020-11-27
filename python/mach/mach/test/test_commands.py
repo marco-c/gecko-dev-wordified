@@ -79,37 +79,37 @@ ALL_COMMANDS
 =
 [
     
-"
+'
 cmd_bar
-"
+'
     
-"
+'
 cmd_foo
-"
+'
     
-"
+'
 cmd_foobar
-"
+'
     
-"
+'
 mach
 -
 commands
-"
+'
     
-"
+'
 mach
 -
 completion
-"
+'
     
-"
+'
 mach
 -
 debug
 -
 commands
-"
+'
 ]
 pytest
 .
@@ -148,11 +148,11 @@ providers
 =
 [
             
-"
+'
 commands
 .
 py
-"
+'
             
 os
 .
@@ -161,14 +161,14 @@ path
 join
 (
 mach_dir
-"
+'
 commands
-"
-"
+'
+'
 commandinfo
 .
 py
-"
+'
 )
         
 ]
@@ -184,9 +184,9 @@ if
 key
 =
 =
-"
+'
 topdir
-"
+'
 :
                 
 return
@@ -275,9 +275,9 @@ stderr
 run_completion
 (
 [
-"
+'
 cmd_f
-"
+'
 ]
 )
     
@@ -335,9 +335,9 @@ stderr
 run_completion
 (
 [
-"
+'
 cmd_foo
-"
+'
 ]
 )
     
@@ -354,14 +354,14 @@ stdout
 format
 (
 [
-"
+'
 help
-"
-"
+'
+'
 -
 -
 arg
-"
+'
 ]
 )
 pytest
@@ -463,9 +463,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

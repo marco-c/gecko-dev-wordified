@@ -103,15 +103,15 @@ filterlist
 __all__
 =
 [
-"
+'
 ManifestParser
-"
-"
+'
+'
 TestManifest
-"
-"
+'
+'
 convert
-"
+'
 ]
 relpath
 =
@@ -148,9 +148,9 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 :
         
@@ -159,9 +159,9 @@ path
 .
 replace
 (
-"
+'
 /
-"
+'
 os
 .
 path
@@ -196,9 +196,9 @@ platform
 .
 startswith
 (
-"
+'
 win
-"
+'
 )
 :
         
@@ -212,9 +212,9 @@ os
 path
 .
 sep
-"
+'
 /
-"
+'
 )
     
 return
@@ -245,34 +245,27 @@ manifests
 def
 __init__
 (
-        
 self
-        
 manifests
 =
 (
 )
-        
 defaults
 =
 None
-        
 strict
 =
 True
-        
 rootdir
 =
 None
-        
+                 
 finder
 =
 None
-        
 handle_defaults
 =
 True
-    
 )
 :
         
@@ -1220,11 +1213,11 @@ codecs
 .
 getreader
 (
-"
+'
 utf
 -
 8
-"
+'
 )
 (
 self
@@ -1253,11 +1246,11 @@ open
 filename
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
             
 here
@@ -1290,9 +1283,9 @@ None
         
 defaults
 [
-"
+'
 here
-"
+'
 ]
 =
 here
@@ -1307,27 +1300,23 @@ defaults
 =
 read_ini
 (
-            
 fp
 =
 fp
-            
 defaults
 =
 defaults
-            
 strict
 =
 self
 .
 strict
-            
+                                      
 handle_defaults
 =
 self
 .
 _handle_defaults
-        
 )
         
 if
@@ -1531,10 +1520,10 @@ section
 .
 startswith
 (
-"
+'
 include
 :
-"
+'
 )
 :
                 
@@ -1542,10 +1531,10 @@ include_file
 =
 read_file
 (
-"
+'
 include
 :
-"
+'
 )
                 
 if
@@ -1564,17 +1553,12 @@ self
 .
 _read
 (
-                        
 root
-                        
 include_file
-                        
 include_defaults
-                        
 parentmanifest
 =
 filename_rel
-                    
 )
                 
 continue
@@ -1594,9 +1578,9 @@ copy
             
 test
 [
-"
+'
 name
-"
+'
 ]
 =
 section
@@ -1620,18 +1604,18 @@ object
             
 test
 [
-"
+'
 manifest
-"
+'
 ]
 =
 filename
             
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 =
 None
@@ -1642,9 +1626,9 @@ filename
                 
 test
 [
-"
+'
 manifest_relpath
-"
+'
 ]
 =
 filename_rel
@@ -1660,9 +1644,9 @@ test
 .
 get
 (
-"
+'
 path
-"
+'
 section
 )
             
@@ -1671,11 +1655,11 @@ _relpath
 path
             
 if
-"
+'
 :
 /
 /
-"
+'
 not
 in
 path
@@ -1769,10 +1753,10 @@ path
 )
                     
 if
-"
+'
 .
 .
-"
+'
 in
 path
 :
@@ -1799,18 +1783,18 @@ path
             
 test
 [
-"
+'
 path
-"
+'
 ]
 =
 path
             
 test
 [
-"
+'
 relpath
-"
+'
 ]
 =
 _relpath
@@ -1871,9 +1855,9 @@ manifests
                 
 test
 [
-"
+'
 ancestor_manifest
-"
+'
 ]
 =
 parentmanifest
@@ -1955,14 +1939,12 @@ exist
 missing
 =
 [
-            
 filename
-            
 for
 filename
 in
 filenames
-            
+                   
 if
 isinstance
 (
@@ -1977,7 +1959,6 @@ path_exists
 (
 filename
 )
-        
 ]
         
 if
@@ -1987,16 +1968,16 @@ missing
 raise
 IOError
 (
-"
+'
 Missing
 files
 :
 %
 s
-"
+'
 %
-"
-"
+'
+'
 .
 join
 (
@@ -2028,9 +2009,9 @@ _defaults
 .
 setdefault
 (
-"
+'
 here
-"
+'
 None
 )
         
@@ -2092,9 +2073,9 @@ filename
                 
 defaults
 [
-"
+'
 here
-"
+'
 ]
 =
 here
@@ -2198,9 +2179,9 @@ kw
 .
 get
 (
-"
+'
 tests
-"
+'
 None
 )
         
@@ -2693,9 +2674,9 @@ test
 .
 get
 (
-"
+'
 manifest
-"
+'
 )
             
 if
@@ -2733,9 +2714,9 @@ return
 [
 i
 [
-"
+'
 path
-"
+'
 ]
 for
 i
@@ -2848,9 +2829,9 @@ missing_paths
 [
 test
 [
-"
+'
 path
-"
+'
 ]
 for
 test
@@ -2867,7 +2848,6 @@ strict
 raise
 IOError
 (
-                    
 "
 Strict
 mode
@@ -2878,7 +2858,7 @@ must
 exist
 .
 "
-                    
+                              
 "
 The
 following
@@ -2892,8 +2872,8 @@ missing
 %
 s
 "
-                    
 %
+                              
 json
 .
 dumps
@@ -2903,12 +2883,10 @@ indent
 =
 2
 )
-                
 )
             
 print
 (
-                
 "
 Warning
 :
@@ -2924,8 +2902,8 @@ missing
 %
 s
 "
-                
 %
+                  
 json
 .
 dumps
@@ -2935,13 +2913,11 @@ indent
 =
 2
 )
-                
 file
 =
 sys
 .
 stderr
-            
 )
         
 return
@@ -3087,14 +3063,12 @@ extensions
 filenames
 =
 [
-                        
 filename
-                        
 for
 filename
 in
 filenames
-                        
+                                 
 if
 os
 .
@@ -3110,14 +3084,12 @@ filename
 ]
 in
 extensions
-                    
 ]
                 
 files
 .
 update
 (
-                    
 [
 os
 .
@@ -3133,7 +3105,6 @@ filename
 in
 filenames
 ]
-                
 )
         
 paths
@@ -3179,35 +3150,29 @@ output
 def
 write
 (
-        
 self
-        
 fp
 =
 sys
 .
 stdout
-        
 rootdir
 =
 None
-        
+              
 global_tags
 =
 None
-        
 global_kwargs
 =
 None
-        
+              
 local_tags
 =
 None
-        
 local_kwargs
 =
 None
-    
 )
 :
         
@@ -3286,9 +3251,9 @@ fp
 open
 (
 fp
-"
+'
 w
-"
+'
 )
             
 close
@@ -3425,11 +3390,11 @@ global_kwargs
             
 print
 (
-"
+'
 [
 DEFAULT
 ]
-"
+'
 file
 =
 fp
@@ -3443,11 +3408,11 @@ global_tags
                 
 print
 (
-"
+'
 %
 s
 =
-"
+'
 %
 tag
 file
@@ -3471,13 +3436,13 @@ items
                 
 print
 (
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 key
@@ -3518,9 +3483,9 @@ path
 =
 test
 [
-"
+'
 name
-"
+'
 ]
             
 if
@@ -3539,9 +3504,9 @@ path
 =
 test
 [
-"
+'
 path
-"
+'
 ]
                 
 if
@@ -3556,9 +3521,9 @@ relpath
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 self
 .
@@ -3574,12 +3539,12 @@ path
             
 print
 (
-"
+'
 [
 %
 s
 ]
-"
+'
 %
 path
 file
@@ -3596,33 +3561,33 @@ reserved
 =
 [
                 
-"
+'
 path
-"
+'
                 
-"
+'
 name
-"
+'
                 
-"
+'
 here
-"
+'
                 
-"
+'
 manifest
-"
+'
                 
-"
+'
 manifest_relpath
-"
+'
                 
-"
+'
 relpath
-"
+'
                 
-"
+'
 ancestor_manifest
-"
+'
             
 ]
             
@@ -3671,13 +3636,13 @@ continue
                 
 print
 (
-"
+'
 %
 s
 =
 %
 s
-"
+'
 %
 (
 key
@@ -4108,9 +4073,9 @@ isabs
 (
 test
 [
-"
+'
 name
-"
+'
 ]
 )
 :
@@ -4121,9 +4086,9 @@ source
 =
 test
 [
-"
+'
 path
-"
+'
 ]
             
 destination
@@ -4139,9 +4104,9 @@ relpath
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 rootdir
 )
@@ -4306,9 +4271,9 @@ isabs
 (
 test
 [
-"
+'
 name
-"
+'
 ]
 )
 :
@@ -4319,9 +4284,9 @@ relpath
 (
 test
 [
-"
+'
 path
-"
+'
 ]
 rootdir
 )
@@ -4827,7 +4792,6 @@ classmethod
 def
 populate_directory_manifests
 (
-        
 cls
 directories
 filename
@@ -4838,10 +4802,10 @@ ignore
 =
 (
 )
+                                     
 overwrite
 =
 False
-    
 )
 :
         
@@ -5034,7 +4998,6 @@ filenames
 and
 not
 (
-                
 os
 .
 path
@@ -5045,7 +5008,6 @@ manifest_path
 )
 and
 overwrite
-            
 )
 :
                 
@@ -5053,9 +5015,9 @@ with
 open
 (
 manifest_path
-"
+'
 w
-"
+'
 )
 as
 manifest
@@ -5069,15 +5031,14 @@ dirnames
                         
 print
 (
-                            
-"
+'
 [
 include
 :
 %
 s
 ]
-"
+'
 %
 os
 .
@@ -5088,11 +5049,9 @@ join
 dirname
 filename
 )
-                            
 file
 =
 manifest
-                        
 )
                     
 for
@@ -5103,12 +5062,12 @@ filenames
                         
 print
 (
-"
+'
 [
 %
 s
 ]
-"
+'
 %
 _filename
 file
@@ -5192,7 +5151,6 @@ classmethod
 def
 from_directories
 (
-        
 cls
 directories
 pattern
@@ -5208,7 +5166,6 @@ None
 relative_to
 =
 None
-    
 )
 :
         
@@ -5343,9 +5300,9 @@ write
 open
 (
 write
-"
+'
 w
-"
+'
 )
         
 if
@@ -5393,6 +5350,7 @@ join
 dirpath
 filename
 )
+                         
 for
 filename
 in
@@ -5411,18 +5369,17 @@ added
 filenames
 =
 [
-                
 filename
 for
 filename
 in
 filenames
+                         
 if
 filename
 !
 =
 opened_manifest_file
-            
 ]
             
 #
@@ -5444,6 +5401,7 @@ relpath
 filename
 relative_to
 )
+                             
 for
 filename
 in
@@ -5457,21 +5415,21 @@ manifest
             
 write_content
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
-                
 [
-"
+                
+'
 [
 {
 }
 ]
-"
+'
 .
 format
 (
@@ -5484,8 +5442,8 @@ for
 filename
 in
 filenames
-]
             
+]
 )
             
 print
@@ -5814,21 +5772,21 @@ tests
             
 test
 [
-"
+'
 expected
-"
+'
 ]
 =
 test
 .
 get
 (
-"
+'
 expected
-"
-"
+'
+'
 pass
-"
+'
 )
         
 #
@@ -5940,9 +5898,9 @@ return
 [
 test
 [
-"
+'
 path
-"
+'
 ]
 for
 test
@@ -6016,8 +5974,8 @@ f
 )
         
 return
-"
-"
+'
+'
 .
 join
 (

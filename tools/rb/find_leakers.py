@@ -139,17 +139,17 @@ obj_to_class
 )
 :
     
-"
-"
-"
+'
+'
+'
 Formats
 and
 prints
 output
 .
-"
-"
-"
+'
+'
+'
     
 items
 =
@@ -157,13 +157,8 @@ items
 ]
     
 for
-(
-        
 obj
-        
 count
-    
-)
 in
 six
 .
@@ -218,20 +213,14 @@ item
 )
     
 for
-(
-        
 obj
-        
 count
-    
-)
 in
 items
 :
         
 print
 (
-            
 "
 {
 obj
@@ -248,22 +237,21 @@ class_name
 .
 format
 (
-                
 obj
 =
 obj
+                                                      
 count
 =
 count
+                                                      
 class_name
 =
 obj_to_class
 [
 obj
 ]
-            
 )
-        
 )
 def
 process_log
@@ -272,9 +260,9 @@ log_lines
 )
 :
     
-"
-"
-"
+'
+'
+'
 Process
 through
 the
@@ -295,9 +283,9 @@ of
 strings
 .
     
-"
-"
-"
+'
+'
+'
     
 allocation
 =
@@ -326,9 +314,9 @@ log_line
 .
 startswith
 (
-"
+'
 <
-"
+'
 )
 :
             
@@ -336,9 +324,13 @@ continue
         
 (
 class_name
+         
 obj
+         
 ignore
+         
 operation
+         
 count
 )
 =
@@ -346,20 +338,18 @@ log_line
 .
 strip
 (
-"
+'
 \
 r
 \
 n
-"
+'
 )
 .
 split
 (
-            
-"
-"
-        
+'
+'
 )
 [
 :
@@ -391,27 +381,30 @@ size
         
 if
 (
+(
 operation
 =
 =
-"
+'
 AddRef
-"
+'
 and
 count
 =
 =
-"
+'
 1
-"
+'
 )
 or
+                
 operation
 =
 =
-"
+'
 Ctor
-"
+'
+)
 :
             
 #
@@ -472,27 +465,30 @@ class_name
         
 elif
 (
+(
 operation
 =
 =
-"
+'
 Release
-"
+'
 and
 count
 =
 =
-"
+'
 0
-"
+'
 )
 or
+              
 operation
 =
 =
-"
+'
 Dtor
-"
+'
+)
 :
             
 #
@@ -528,7 +524,6 @@ allocation
                 
 print
 (
-                    
 "
 An
 object
@@ -541,7 +536,6 @@ t
 allocated
 !
 "
-                
 )
                 
 print
@@ -589,8 +583,8 @@ print_usage
     
 print
 (
-"
-"
+'
+'
 )
     
 print
@@ -613,8 +607,8 @@ file
     
 print
 (
-"
-"
+'
+'
 )
     
 print
@@ -657,8 +651,8 @@ log
     
 print
 (
-"
-"
+'
+'
 )
 def
 main
@@ -666,18 +660,18 @@ main
 )
 :
     
-"
-"
-"
+'
+'
+'
 Main
 method
 of
 the
 script
 .
-"
-"
-"
+'
+'
+'
     
 if
 len
@@ -737,9 +731,9 @@ argv
 [
 1
 ]
-"
+'
 r
-"
+'
 )
 as
 log_file
@@ -763,14 +757,14 @@ else
         
 print
 (
-"
+'
 ERROR
 :
 Invalid
 number
 of
 arguments
-"
+'
 )
         
 print_usage
@@ -780,9 +774,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 main

@@ -142,7 +142,7 @@ run_fragment
 fragment
 function
 =
-"
+'
 gdb
 -
 tests
@@ -150,7 +150,7 @@ tests
 cpp
 :
 breakpoint
-"
+'
 )
 :
     
@@ -231,10 +231,10 @@ gdb
 .
 execute
 (
-"
+'
 frame
 1
-"
+'
 )
     
 global
@@ -282,7 +282,6 @@ expected
 raise
 AssertionError
 (
-            
 "
 "
 "
@@ -300,13 +299,11 @@ r
 "
 "
 "
-            
 %
 (
 expected
 actual
 )
-        
 )
 #
 Assert
@@ -355,7 +352,6 @@ None
 raise
 AssertionError
 (
-            
 "
 "
 "
@@ -374,13 +370,11 @@ r
 "
 "
 "
-            
 %
 (
 expected
 actual
 )
-        
 )
 #
 Assert
@@ -590,9 +584,9 @@ subprinter
 names
 =
 {
-"
+'
 printer
-"
+'
 :
 re
 .
@@ -600,9 +594,9 @@ escape
 (
 printer
 )
-"
+'
 subprinter
-"
+'
 :
 re
 .
@@ -615,7 +609,7 @@ subprinter
 pat
 =
 r
-"
+'
 ^
 (
 +
@@ -649,7 +643,7 @@ s
 *
 \
 n
-"
+'
 %
 names
     
@@ -659,12 +653,12 @@ gdb
 .
 execute
 (
-"
+'
 info
 pretty
 -
 printer
-"
+'
 to_string
 =
 True
@@ -687,7 +681,6 @@ MULTILINE
 raise
 AssertionError
 (
-            
 "
 assert_subprinter_registered
 failed
@@ -700,7 +693,7 @@ printer
 \
 n
 "
-            
+                             
 "
 %
 s
@@ -710,7 +703,7 @@ s
 \
 n
 "
-            
+                             
 "
 '
 info
@@ -723,7 +716,7 @@ says
 \
 n
 "
-            
+                             
 "
 %
 s
@@ -734,7 +727,6 @@ printer
 subprinter
 output
 )
-        
 )
 #
 Request
@@ -749,14 +741,14 @@ gdb
 .
 execute
 (
-"
+'
 set
 python
 print
 -
 stack
 full
-"
+'
 )
 #
 Tell
@@ -779,11 +771,11 @@ gdb
 .
 execute
 (
-"
+'
 set
 confirm
 off
-"
+'
 False
 )
 #
@@ -799,46 +791,46 @@ gdb
 .
 execute
 (
-"
+'
 set
 print
 static
 -
 members
 off
-"
+'
 )
 gdb
 .
 execute
 (
-"
+'
 set
 print
 address
 off
-"
+'
 )
 gdb
 .
 execute
 (
-"
+'
 set
 print
 pretty
 off
-"
+'
 )
 gdb
 .
 execute
 (
-"
+'
 set
 width
 0
-"
+'
 )
 try
 :
@@ -886,11 +878,11 @@ err
     
 header
 =
-"
+'
 \
 nAssertion
 traceback
-"
+'
     
 if
 active_fragment
@@ -899,9 +891,9 @@ active_fragment
 header
 +
 =
-"
+'
 for
-"
+'
 +
 active_fragment
     
@@ -913,11 +905,11 @@ write
 (
 header
 +
-"
+'
 :
 \
 n
-"
+'
 )
     
 (
@@ -945,7 +937,7 @@ stderr
 .
 write
 (
-"
+'
 \
 nTest
 assertion
@@ -953,7 +945,7 @@ failed
 :
 \
 n
-"
+'
 )
     
 sys

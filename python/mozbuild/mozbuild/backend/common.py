@@ -189,7 +189,10 @@ mozbuild
 .
 util
 import
+(
+    
 mkdir
+)
 class
 XPIDLManager
 (
@@ -291,6 +294,7 @@ idl
 .
 full_path
 )
+                                    
 for
 idl
 in
@@ -303,7 +307,6 @@ _stems
 .
 update
 (
-                
 mozpath
 .
 splitext
@@ -318,11 +321,11 @@ idl
 [
 0
 ]
+                               
 for
 idl
 in
 idls
-            
 )
         
 def
@@ -443,14 +446,14 @@ _idls
 raise
 Exception
 (
-"
+'
 IDL
 already
 registered
 :
 %
 s
-"
+'
 %
 basename
 )
@@ -743,9 +746,9 @@ output_path
 )
 =
 =
-"
+'
 Makefile
-"
+'
 :
                 
 return
@@ -809,7 +812,6 @@ self
 .
 _handle_generated_sources
 (
-                
 mozpath
 .
 join
@@ -819,6 +821,7 @@ obj
 objdir
 f
 )
+                                           
 for
 f
 in
@@ -827,35 +830,32 @@ obj
 all_generated_sources
 (
 )
-            
 )
             
 self
 .
 _write_unified_files
 (
-                
 obj
 .
 unified_source_mapping
 obj
 .
 objdir
+                                      
 poison_windows_h
 =
 False
-            
 )
             
 self
 .
 _handle_ipdl_sources
 (
-                
 obj
 .
 objdir
-                
+                                      
 list
 (
 sorted
@@ -867,7 +867,7 @@ all_sources
 )
 )
 )
-                
+                                      
 list
 (
 sorted
@@ -879,7 +879,7 @@ all_preprocessed_sources
 )
 )
 )
-                
+                                      
 list
 (
 sorted
@@ -891,11 +891,10 @@ all_regular_sources
 )
 )
 )
-                
+                                      
 obj
 .
 unified_source_mapping
-            
 )
         
 elif
@@ -966,9 +965,9 @@ if
 hasattr
 (
 self
-"
+'
 _process_unified_sources
-"
+'
 )
 :
                 
@@ -1071,14 +1070,13 @@ itertools
 .
 chain
 (
-                    
 obj
 .
 required_before_compile
+                                         
 obj
 .
 required_during_compile
-                
 )
 :
                     
@@ -1089,9 +1087,9 @@ ObjDirPath
 obj
 .
 _context
-"
+'
 !
-"
+'
 +
 f
 )
@@ -1121,11 +1119,9 @@ Exports
 objdir_files
 =
 [
-                
 f
 .
 full_path
-                
 for
 path
 files
@@ -1137,19 +1133,17 @@ files
 walk
 (
 )
-                
+                            
 for
 f
 in
 files
-                
 if
 isinstance
 (
 f
 ObjDirPath
 )
-            
 ]
             
 if
@@ -1294,11 +1288,11 @@ mozpath
 join
 (
 topobjdir
-"
+'
 binaries
 .
 json
-"
+'
 )
 )
 as
@@ -1309,9 +1303,9 @@ d
 =
 {
                 
-"
+'
 shared_libraries
-"
+'
 :
 sorted
 (
@@ -1336,16 +1330,15 @@ key
 =
 itemgetter
 (
-"
+'
 basename
-"
+'
+)
 )
                 
-)
-                
-"
+'
 programs
-"
+'
 :
 sorted
 (
@@ -1370,11 +1363,10 @@ key
 =
 itemgetter
 (
-"
+'
 program
-"
+'
 )
-                
 )
             
 }
@@ -1413,13 +1405,13 @@ mozpath
 join
 (
 topobjdir
-"
+'
 generated
 -
 sources
 .
 json
-"
+'
 )
 )
 as
@@ -1430,9 +1422,9 @@ d
 =
 {
                 
-"
+'
 sources
-"
+'
 :
 sorted
 (
@@ -1550,6 +1542,7 @@ lib
 (
 HostLibrary
 StaticLibrary
+                                
 SandboxedWasmLibrary
 )
 )
@@ -1668,14 +1661,13 @@ system_libs
 not
 isinstance
 (
-            
 input_bin
 (
 HostLibrary
 StaticLibrary
+                                                 
 SandboxedWasmLibrary
 )
-        
 )
         
 for
@@ -1693,6 +1685,7 @@ lib
 (
 HostLibrary
 StaticLibrary
+                                
 SandboxedWasmLibrary
 )
 )
@@ -1794,9 +1787,9 @@ if
 kind
 =
 =
-"
+'
 target
-"
+'
 :
             
 list_style
@@ -1809,9 +1802,9 @@ substs
 .
 get
 (
-"
+'
 EXPAND_LIBS_LIST_STYLE
-"
+'
 )
         
 else
@@ -1912,9 +1905,9 @@ libxul
             
 list_style
 =
-"
+'
 list
-"
+'
         
 list_file_path
 =
@@ -1948,9 +1941,9 @@ if
 list_style
 =
 =
-"
+'
 linkerscript
-"
+'
 :
             
 ref
@@ -1959,10 +1952,10 @@ list_file_path
             
 content
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -1987,9 +1980,9 @@ elif
 list_style
 =
 =
-"
+'
 filelist
-"
+'
 :
             
 ref
@@ -2005,10 +1998,10 @@ list_file_path
             
 content
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2019,9 +2012,9 @@ elif
 list_style
 =
 =
-"
+'
 list
-"
+'
 :
             
 ref
@@ -2033,10 +2026,10 @@ list_file_path
             
 content
 =
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2089,11 +2082,11 @@ _generated_sources
 .
 update
 (
-            
 mozpath
 .
 relpath
 (
+            
 f
 self
 .
@@ -2105,7 +2098,6 @@ for
 f
 in
 files
-        
 )
     
 def
@@ -2121,22 +2113,20 @@ mozpath
 .
 join
 (
-            
 self
 .
 environment
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 xpcrs
-"
-"
+'
+'
 rt
-"
-        
+'
 )
         
 bindings_bt_dir
@@ -2145,22 +2135,20 @@ mozpath
 .
 join
 (
-            
 self
 .
 environment
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 xpcrs
-"
-"
+'
+'
 bt
-"
-        
+'
 )
         
 include_dir
@@ -2174,12 +2162,12 @@ self
 environment
 .
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 include
-"
+'
 )
         
 self
@@ -2201,12 +2189,12 @@ mozpath
 join
 (
 include_dir
-"
+'
 %
 s
 .
 h
-"
+'
 %
 stem
 )
@@ -2216,12 +2204,12 @@ mozpath
 join
 (
 bindings_rt_dir
-"
+'
 %
 s
 .
 rs
-"
+'
 %
 stem
 )
@@ -2231,12 +2219,12 @@ mozpath
 join
 (
 bindings_bt_dir
-"
+'
 %
 s
 .
 rs
-"
+'
 %
 stem
 )
@@ -2277,12 +2265,12 @@ self
 environment
 .
 topobjdir
-"
+'
 dom
-"
-"
+'
+'
 bindings
-"
+'
 )
         
 all_inputs
@@ -2402,13 +2390,13 @@ mozpath
 join
 (
 bindings_dir
-"
+'
 file
 -
 lists
 .
 json
-"
+'
 )
         
 with
@@ -2467,9 +2455,9 @@ self
 environment
 .
 topobjdir
-"
+'
 dist
-"
+'
 )
         
 )
@@ -2489,40 +2477,36 @@ self
 .
 _write_unified_files
 (
-            
 webidls
 .
 unified_source_mapping
 bindings_dir
+                                  
 poison_windows_h
 =
 True
-        
 )
         
 self
 .
 _handle_webidl_build
 (
-            
 bindings_dir
-            
 webidls
 .
 unified_source_mapping
-            
+                                  
 webidls
-            
+                                  
 manager
 .
 expected_build_output_files
 (
 )
-            
+                                  
 manager
 .
 GLOBAL_DEFINE_FILES
-        
 )
     
 def
@@ -2542,12 +2526,13 @@ join
 manifests
 .
 topobjdir
-"
+                                      
+'
 xpcom
-"
-"
+'
+'
 components
-"
+'
 )
         
 #
@@ -2596,13 +2581,13 @@ mozpath
 join
 (
 components_dir
-"
+'
 manifest
 -
 lists
 .
 json
-"
+'
 )
         
 with
@@ -2633,15 +2618,14 @@ indent
 def
 _write_unified_file
 (
-        
 self
 unified_file
 source_filenames
+                            
 output_directory
 poison_windows_h
 =
 False
-    
 )
 :
         
@@ -2666,13 +2650,13 @@ f
 .
 write
 (
-"
+'
 #
 define
 MOZ_UNIFIED_BUILD
 \
 n
-"
+'
 )
             
 includeTemplate
@@ -2698,12 +2682,12 @@ includeTemplate
 =
 (
                     
-"
+'
 \
 n
-"
+'
                     
-"
+'
 #
 if
 defined
@@ -2719,7 +2703,7 @@ MOZ_WRAPPED_WINDOWS_H
 )
 \
 n
-"
+'
                     
 '
 #
@@ -2763,7 +2747,6 @@ n
 #
 endif
 "
-                
 )
             
 includeTemplate
@@ -2771,18 +2754,18 @@ includeTemplate
 =
 (
                 
-"
+'
 \
 n
-"
+'
                 
-"
+'
 #
 ifdef
 PL_ARENA_CONST_ALIGN_MASK
 \
 n
-"
+'
                 
 '
 #
@@ -2812,28 +2795,28 @@ mode
 n
 '
                 
-"
+'
 #
 undef
 PL_ARENA_CONST_ALIGN_MASK
 \
 n
-"
+'
                 
-"
+'
 #
 endif
 \
 n
-"
+'
                 
-"
+'
 #
 ifdef
 INITGUID
 \
 n
-"
+'
                 
 '
 #
@@ -2863,30 +2846,28 @@ mode
 n
 '
                 
-"
+'
 #
 undef
 INITGUID
 \
 n
-"
+'
                 
-"
+'
 #
 endif
-"
-            
+'
 )
             
 f
 .
 write
 (
-                
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -2900,24 +2881,23 @@ cppfile
 s
 }
 for
+                              
 s
 in
 source_filenames
 )
-            
 )
     
 def
 _write_unified_files
 (
-        
 self
 unified_source_mapping
 output_directory
+                             
 poison_windows_h
 =
 False
-    
 )
 :
         
@@ -2932,12 +2912,11 @@ self
 .
 _write_unified_file
 (
-                
 unified_file
 source_filenames
+                                     
 output_directory
 poison_windows_h
-            
 )
     
 def
@@ -2949,9 +2928,9 @@ filename
 )
 :
         
-"
-"
-"
+'
+'
+'
 Return
 the
 localized
@@ -2999,9 +2978,9 @@ US
 locales
 .
         
-"
-"
-"
+'
+'
+'
         
 ab_cd
 =
@@ -3011,9 +2990,9 @@ environment
 .
 substs
 [
-"
+'
 MOZ_UI_LOCALE
-"
+'
 ]
 [
 0
@@ -3031,9 +3010,9 @@ environment
 .
 substs
 [
-"
+'
 L10NBASEDIR
-"
+'
 ]
 ab_cd
 )
@@ -3056,12 +3035,12 @@ filename
 .
 startswith
 (
-"
+'
 en
 -
 US
 /
-"
+'
 )
 :
             
@@ -3072,27 +3051,29 @@ filename
 .
 split
 (
-"
+'
 en
 -
 US
 /
-"
+'
 )
             
 assert
+(
 not
 e
+)
         
 if
 ab_cd
 =
 =
-"
+'
 en
 -
 US
-"
+'
 :
             
 return
@@ -3100,20 +3081,18 @@ mozpath
 .
 join
 (
-                
 self
 .
 environment
 .
 topsrcdir
 relativesrcdir
-"
+'
 en
 -
 US
-"
+'
 filename
-            
 )
         
 if
@@ -3125,9 +3104,9 @@ relativesrcdir
 )
 =
 =
-"
+'
 locales
-"
+'
 :
             
 l10nrelsrcdir
@@ -3301,9 +3280,9 @@ config
 .
 substs
 [
-"
+'
 MOZ_UI_LOCALE
-"
+'
 ]
 [
 0
@@ -3353,8 +3332,7 @@ e
 raise
 DeprecatedJarManifest
 (
-                
-"
+'
 Parsing
 error
 while
@@ -3364,8 +3342,8 @@ s
 :
 %
 s
-"
-                
+'
+                                        
 %
 (
 obj
@@ -3377,7 +3355,6 @@ e
 .
 message
 )
-            
 )
         
 self
@@ -3412,7 +3389,6 @@ obj
 _context
 .
 config
-            
 )
             
 jar_context
@@ -3465,14 +3441,13 @@ jarinfo
 .
 base
 )
-                
 )
             
 jar_context
 [
-"
+'
 FINAL_TARGET
-"
+'
 ]
 =
 install_target
@@ -3485,9 +3460,9 @@ defines
                 
 jar_context
 [
-"
+'
 DEFINES
-"
+'
 ]
 =
 obj
@@ -3500,36 +3475,36 @@ files
 =
 jar_context
 [
-"
+'
 FINAL_TARGET_FILES
-"
+'
 ]
             
 files_pp
 =
 jar_context
 [
-"
+'
 FINAL_TARGET_PP_FILES
-"
+'
 ]
             
 localized_files
 =
 jar_context
 [
-"
+'
 LOCALIZED_FILES
-"
+'
 ]
             
 localized_files_pp
 =
 jar_context
 [
-"
+'
 LOCALIZED_PP_FILES
-"
+'
 ]
             
 for
@@ -3554,11 +3529,11 @@ relativesrcdir
                         
 src
 =
-"
+'
 /
 %
 s
-"
+'
 %
 jarinfo
 .
@@ -3569,8 +3544,8 @@ else
                         
 src
 =
-"
-"
+'
+'
                     
 src
 =
@@ -3579,11 +3554,11 @@ mozpath
 join
 (
 src
-"
+'
 en
 -
 US
-"
+'
 e
 .
 source
@@ -3607,9 +3582,9 @@ src
 )
                 
 if
-"
+'
 *
-"
+'
 not
 in
 e
@@ -3639,7 +3614,7 @@ raise
 Exception
 (
                             
-"
+'
 %
 s
 :
@@ -3652,8 +3627,7 @@ tried
 %
 s
 )
-"
-                            
+'
 %
 (
 obj
@@ -3666,7 +3640,6 @@ src
 .
 full_path
 )
-                        
 )
                     
 if
@@ -3676,9 +3649,9 @@ source
 .
 startswith
 (
-"
+'
 /
-"
+'
 )
 :
                         
@@ -3687,9 +3660,9 @@ src
 Path
 (
 jar_context
-"
+'
 !
-"
+'
 +
 e
 .
@@ -3759,9 +3732,9 @@ Path
 obj
 .
 _context
-"
+'
 !
-"
+'
 +
 e
 .
@@ -3793,6 +3766,7 @@ src
 RenamedSourcePath
 (
 jar_context
+                                            
 (
 src
 output_basename
@@ -3825,9 +3799,9 @@ preprocess
 :
                     
 if
-"
+'
 *
-"
+'
 in
 e
 .
@@ -3837,8 +3811,7 @@ source
 raise
 Exception
 (
-                            
-"
+'
 %
 s
 :
@@ -3847,16 +3820,15 @@ are
 not
 supported
 with
-"
-                            
-"
+'
+                                        
+'
 preprocessing
-"
+'
 %
 obj
 .
 path
-                        
 )
                     
 if
@@ -3943,6 +3915,7 @@ self
 .
 consume_object
 (
+                    
 FinalTargetPreprocessedFiles
 (
 jar_context
@@ -3979,7 +3952,6 @@ LocalizedPreprocessedFiles
 jar_context
 localized_files_pp
 )
-                
 )
             
 for
@@ -4008,9 +3980,9 @@ m
 .
 replace
 (
-"
+'
 %
-"
+'
 mozpath
 .
 basename
@@ -4020,36 +3992,32 @@ jarinfo
 name
 )
 +
-"
+'
 /
-"
+'
 )
-                
 )
                 
 self
 .
 consume_object
 (
-                    
 ChromeManifestEntry
 (
-                        
+                    
 jar_context
-"
+'
 %
 s
 .
 manifest
-"
+'
 %
 jarinfo
 .
 name
 entry
-                    
 )
-                
 )
     
 def
@@ -4089,9 +4057,7 @@ topobjdir
         
 include_tmpl
 =
-(
-            
-'
+"
 include
 !
 (
@@ -4101,10 +4067,13 @@ concat
 env
 !
 (
+\
 "
 MOZ_TOPOBJDIR
+\
 "
 )
+\
 "
 /
 dist
@@ -4118,12 +4087,11 @@ s
 s
 .
 rs
+\
 "
 )
 )
-'
-        
-)
+"
         
 #
 Ensure
@@ -4148,28 +4116,26 @@ self
 .
 _write_file
 (
-            
 mozpath
 .
 join
 (
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 xpcrs
-"
-"
+'
+'
 rt
-"
-"
+'
+'
 all
 .
 rs
-"
+'
 )
-        
 )
 as
 fh
@@ -4233,28 +4199,26 @@ self
 .
 _write_file
 (
-            
 mozpath
 .
 join
 (
 topobjdir
-"
+'
 dist
-"
-"
+'
+'
 xpcrs
-"
-"
+'
+'
 bt
-"
-"
+'
+'
 all
 .
 rs
-"
+'
 )
-        
 )
 as
 fh

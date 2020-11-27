@@ -90,9 +90,9 @@ EXTRA_JS_MODULES
 workers
 =
 [
-"
+'
 PromiseWorker
 .
 js
-"
+'
 ]
