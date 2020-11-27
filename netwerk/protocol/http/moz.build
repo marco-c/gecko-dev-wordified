@@ -385,6 +385,11 @@ PSpdyPush
 h
 "
 "
+SpeculativeTransaction
+.
+h
+"
+"
 TimingStruct
 .
 h
@@ -583,6 +588,11 @@ HttpInfo
 cpp
 "
 "
+HTTPSRecordResolver
+.
+cpp
+"
+"
 HttpTrafficAnalyzer
 .
 cpp
@@ -714,6 +724,11 @@ cpp
 "
 "
 QuicSocketControl
+.
+cpp
+"
+"
+SpeculativeTransaction
 .
 cpp
 "

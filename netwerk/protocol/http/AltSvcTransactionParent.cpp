@@ -188,7 +188,7 @@ AltSvcMappingValidator
 aValidator
 )
 :
-NullHttpTransaction
+SpeculativeTransaction
 (
 aConnInfo
 aCallbacks

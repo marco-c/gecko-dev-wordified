@@ -121,6 +121,13 @@ nsServerTiming
 .
 h
 "
+#
+include
+"
+nsHttp
+.
+h
+"
 NS_IMPL_ISUPPORTS
 (
 nsServerTiming

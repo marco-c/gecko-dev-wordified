@@ -1490,6 +1490,16 @@ return
 mCurrentTopLevelOuterContentWindowId
 ;
 }
+void
+DoSpeculativeConnection
+(
+SpeculativeTransaction
+*
+aTrans
+bool
+aFetchHTTPSRR
+)
+;
 private
 :
 virtual

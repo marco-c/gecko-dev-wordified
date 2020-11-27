@@ -6722,6 +6722,12 @@ NS_HTTP_DISABLE_IPV6
 |
 NS_HTTP_DISALLOW_HTTP3
 )
+gHttpHandler
+-
+>
+UseHTTPSRRForSpeculativeConnection
+(
+)
 )
 ;
 }
@@ -45365,6 +45371,14 @@ __func__
 if
 (
 mUseHTTPSSVC
+|
+|
+gHttpHandler
+-
+>
+UseHTTPSRRForSpeculativeConnection
+(
+)
 )
 {
 rv

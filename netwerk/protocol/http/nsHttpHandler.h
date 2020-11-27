@@ -2124,6 +2124,10 @@ uint32_t
 caps
 =
 0
+bool
+aFetchHTTPSRR
+=
+false
 )
 {
 TickleWifi
@@ -2153,6 +2157,8 @@ SpeculativeConnect
 clone
 callbacks
 caps
+nullptr
+aFetchHTTPSRR
 )
 ;
 }
@@ -2172,7 +2178,7 @@ nsIInterfaceRequestor
 callbacks
 uint32_t
 caps
-NullHttpTransaction
+SpeculativeTransaction
 *
 aTrans
 )
@@ -3150,6 +3156,12 @@ one
 .
 bool
 FallbackToOriginIfConfigsAreECHAndAllFailed
+(
+)
+const
+;
+bool
+UseHTTPSRRForSpeculativeConnection
 (
 )
 const

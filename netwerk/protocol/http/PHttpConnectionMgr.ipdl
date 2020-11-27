@@ -224,6 +224,8 @@ aCaps
 PAltSvcTransaction
 ?
 aTrans
+bool
+aFetchHTTPSRR
 )
 ;
 }

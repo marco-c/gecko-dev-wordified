@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsCOMArray
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
