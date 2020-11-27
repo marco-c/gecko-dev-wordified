@@ -170,7 +170,9 @@ shared
 /
 specs
 /
-styles
+style
+-
+rule
 "
 )
 ;
