@@ -12696,7 +12696,7 @@ it
 browserParent
 -
 >
-SuspendProgressEventsUntilAfterNextLoadStarts
+SuspendProgressEvents
 (
 )
 ;
