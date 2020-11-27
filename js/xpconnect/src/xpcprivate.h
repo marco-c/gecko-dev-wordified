@@ -10500,9 +10500,6 @@ char
 *
 ToString
 (
-JSContext
-*
-cx
 XPCWrappedNativeTearOff
 *
 to
