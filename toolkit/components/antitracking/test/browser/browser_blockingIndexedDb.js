@@ -10,6 +10,11 @@ antitracking_head
 js
 *
 /
+requestLongerTimeout
+(
+4
+)
+;
 AntiTracking
 .
 runTestInNormalAndPrivateMode
