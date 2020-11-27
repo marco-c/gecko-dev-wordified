@@ -330,7 +330,7 @@ Services
 .
 logins
 .
-removeAllLogins
+removeAllUserFacingLogins
 (
 )
 ;

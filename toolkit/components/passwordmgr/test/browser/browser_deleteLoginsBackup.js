@@ -444,7 +444,7 @@ Services
 .
 logins
 .
-removeAllLogins
+removeAllUserFacingLogins
 (
 )
 is
@@ -548,7 +548,7 @@ info
 "
 Testing
 the
-removeAllLogins
+removeAllUserFacingLogins
 (
 )
 case
@@ -730,7 +730,7 @@ Services
 .
 logins
 .
-removeAllLogins
+removeAllUserFacingLogins
 (
 )
 ;

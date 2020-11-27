@@ -863,6 +863,13 @@ wantUntrusted
 :
 true
 }
+AboutLoginsRemoveAllLogins
+:
+{
+wantUntrusted
+:
+true
+}
 AboutLoginsSortChanged
 :
 {
