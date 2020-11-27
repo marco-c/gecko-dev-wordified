@@ -4734,7 +4734,7 @@ XXX
 bug
 576838
 :
-crazy
+bizarre
 tables
 (
 like
