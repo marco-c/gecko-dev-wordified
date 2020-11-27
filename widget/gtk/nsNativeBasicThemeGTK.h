@@ -245,6 +245,16 @@ aIsRoot
 )
 override
 ;
+bool
+ThemeSupportsScrollbarButtons
+(
+)
+override
+{
+return
+false
+;
+}
 protected
 :
 virtual
