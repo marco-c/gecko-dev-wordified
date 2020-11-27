@@ -36646,6 +36646,9 @@ ReportAllocationOverflow
 cx
 )
 ;
+return
+false
+;
 }
 funbox
 -
