@@ -5629,6 +5629,7 @@ float
 GetCumulativeResolution
 (
 )
+const
 ;
 /
 *
