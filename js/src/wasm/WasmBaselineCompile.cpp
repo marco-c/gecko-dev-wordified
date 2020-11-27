@@ -35536,7 +35536,7 @@ stack
 .
 for
 (
-ABIArgIter
+WasmABIArgIter
 i
 (
 args
@@ -36186,7 +36186,7 @@ stack
 .
 for
 (
-ABIArgIter
+WasmABIArgIter
 i
 (
 args
@@ -38005,7 +38005,7 @@ stackArgAreaSize
 uint32_t
 lineOrBytecode
 ;
-ABIArgGenerator
+WasmABIArgGenerator
 abi
 ;
 bool

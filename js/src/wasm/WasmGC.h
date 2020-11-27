@@ -1951,7 +1951,7 @@ T
 argTypes
 )
 {
-ABIArgIter
+WasmABIArgIter
 <
 const
 T
@@ -1997,7 +1997,7 @@ saSig
 {
 /
 /
-ABIArgIter
+WasmABIArgIter
 :
 :
 ABIArgIter

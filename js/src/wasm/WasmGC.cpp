@@ -914,7 +914,7 @@ false
 }
 for
 (
-ABIArgIter
+WasmABIArgIter
 i
 (
 argTypes
@@ -1285,7 +1285,7 @@ false
 }
 for
 (
-ABIArgIter
+WasmABIArgIter
 i
 (
 args
