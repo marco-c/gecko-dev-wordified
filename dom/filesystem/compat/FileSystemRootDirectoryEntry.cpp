@@ -139,6 +139,13 @@ FileSystemUtils
 .
 h
 "
+#
+include
+"
+CallbackRunnables
+.
+h
+"
 namespace
 mozilla
 {
@@ -177,7 +184,6 @@ FileSystemRootDirectoryEntry
 nsIGlobalObject
 *
 aGlobal
-const
 Sequence
 <
 RefPtr
@@ -185,7 +191,6 @@ RefPtr
 FileSystemEntry
 >
 >
-&
 aEntries
 FileSystem
 *
@@ -201,7 +206,13 @@ aFileSystem
 )
 mEntries
 (
+std
+:
+:
+move
+(
 aEntries
+)
 )
 {
 MOZ_ASSERT

@@ -142,6 +142,17 @@ mozilla
 /
 dom
 /
+FileSystemDirectoryReaderBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 FileSystemUtils
 .
 h

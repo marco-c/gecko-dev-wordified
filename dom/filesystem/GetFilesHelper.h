@@ -148,6 +148,13 @@ h
 #
 include
 "
+nsHashKeys
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -156,6 +163,13 @@ h
 include
 "
 nsTHashtable
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "
