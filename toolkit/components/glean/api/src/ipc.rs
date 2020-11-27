@@ -260,6 +260,17 @@ Vec
 String
 >
 >
+pub
+timing_samples
+:
+HashMap
+<
+MetricId
+Vec
+<
+u128
+>
+>
 }
 /
 /
