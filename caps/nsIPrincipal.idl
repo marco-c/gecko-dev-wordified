@@ -2088,6 +2088,9 @@ Preflight
 Cache
 *
 /
+[
+noscript
+]
 ACString
 getPrefLightCacheKey
 (
@@ -2097,6 +2100,9 @@ aURI
 in
 bool
 aWithCredentials
+in
+const_OriginAttributes
+aOriginAttributes
 )
 ;
 /
