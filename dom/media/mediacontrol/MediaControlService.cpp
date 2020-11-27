@@ -120,6 +120,15 @@ include
 "
 mozilla
 /
+StaticPrefs_media
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

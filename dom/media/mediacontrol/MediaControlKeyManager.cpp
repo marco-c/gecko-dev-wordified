@@ -134,6 +134,13 @@ MediaKeysEventSourceFactory
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 undef
 LOG
 #
