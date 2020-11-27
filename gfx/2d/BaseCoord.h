@@ -250,6 +250,7 @@ generated
 default
 assignment
 operator
+constexpr
 operator
 T
 (
