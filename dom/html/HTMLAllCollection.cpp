@@ -128,6 +128,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
