@@ -442,7 +442,7 @@ NETWORK_EVENT
 ;
 }
 get
-currentWatcher
+currentWatcherFront
 (
 )
 {
@@ -453,7 +453,7 @@ toolbox
 .
 resourceWatcher
 .
-watcher
+watcherFront
 ;
 }
 /
@@ -2264,7 +2264,7 @@ hasResourceWatcherSupport
 &
 this
 .
-currentWatcher
+currentWatcherFront
 )
 {
 const
@@ -2273,7 +2273,7 @@ network
 await
 this
 .
-currentWatcher
+currentWatcherFront
 .
 getNetworkActor
 (
@@ -2348,12 +2348,14 @@ if
 (
 this
 .
+this
+.
 hasResourceWatcherSupport
 &
 &
 this
 .
-currentWatcher
+currentWatcherFront
 )
 {
 const
@@ -2362,7 +2364,7 @@ network
 await
 this
 .
-currentWatcher
+currentWatcherFront
 .
 getNetworkActor
 (
