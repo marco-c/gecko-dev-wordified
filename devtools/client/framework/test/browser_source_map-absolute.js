@@ -207,7 +207,6 @@ const
 newLoc
 =
 await
-await
 new
 Promise
 (

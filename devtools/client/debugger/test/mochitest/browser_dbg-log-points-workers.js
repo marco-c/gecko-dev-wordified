@@ -187,7 +187,6 @@ link
 }
 =
 await
-await
 findConsoleMessage
 (
 dbg
