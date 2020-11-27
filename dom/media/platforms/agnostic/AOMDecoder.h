@@ -376,6 +376,7 @@ mCodec
 ;
 const
 VideoInfo
+&
 mInfo
 ;
 }

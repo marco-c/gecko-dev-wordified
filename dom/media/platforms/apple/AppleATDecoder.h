@@ -265,6 +265,7 @@ config
 .
 const
 AudioInfo
+&
 mConfig
 ;
 /

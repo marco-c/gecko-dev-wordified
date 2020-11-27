@@ -261,7 +261,9 @@ SupportDecoderParams
 (
 aParams
 )
-nullptr
+aParams
+.
+mDiagnostics
 )
 )
 {
@@ -353,7 +355,9 @@ SupportDecoderParams
 (
 aParams
 )
-nullptr
+aParams
+.
+mDiagnostics
 )
 )
 {

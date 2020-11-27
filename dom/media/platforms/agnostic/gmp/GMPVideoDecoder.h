@@ -168,7 +168,6 @@ namespace
 mozilla
 {
 struct
-MOZ_STACK_CLASS
 GMPVideoDecoderParams
 {
 explicit
@@ -192,8 +191,16 @@ ImageContainer
 *
 mImageContainer
 ;
+layers
+:
+:
+LayersBackend
+mLayersBackend
+;
+RefPtr
+<
 GMPCrashHelper
-*
+>
 mCrashHelper
 ;
 }

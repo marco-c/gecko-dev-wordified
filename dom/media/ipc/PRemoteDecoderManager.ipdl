@@ -212,7 +212,7 @@ PRemoteDecoder
 ;
 parent
 :
-async
+sync
 PRemoteDecoder
 (
 RemoteDecoderInfoIPDL
@@ -222,6 +222,13 @@ options
 TextureFactoryIdentifier
 ?
 identifier
+)
+returns
+(
+bool
+success
+nsCString
+aErrorDescription
 )
 ;
 sync

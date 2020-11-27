@@ -352,6 +352,7 @@ mPacketCount
 ;
 const
 VideoInfo
+&
 mInfo
 ;
 }
