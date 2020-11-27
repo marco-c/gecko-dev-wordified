@@ -2589,6 +2589,11 @@ kCFStringEncodingUTF8
 )
 )
 {
+CFRelease
+(
+psname
+)
+;
 return
 false
 ;
@@ -2615,6 +2620,11 @@ cstr
 )
 0
 aBaton
+)
+;
+CFRelease
+(
+psname
 )
 ;
 return
