@@ -721,6 +721,7 @@ content
 Request
 to
 gather
+Places
 telemetry
 data
 .
@@ -751,6 +752,8 @@ observe
 null
 "
 gather
+-
+places
 -
 telemetry
 "
