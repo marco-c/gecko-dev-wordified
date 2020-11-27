@@ -13007,11 +13007,6 @@ cross
 size
 )
 .
-nscoord
-transferredSizeSuggestion
-=
-nscoord_MAX
-;
 if
 (
 aFlexItem
@@ -13046,6 +13041,7 @@ divide
 by
 0
 )
+nscoord
 transferredSizeSuggestion
 =
 MainSizeFromAspectRatio
@@ -13095,7 +13091,6 @@ aFlexItem
 aAxisTracker
 )
 ;
-}
 FLEX_LOGV
 (
 "
@@ -13111,6 +13106,10 @@ transferredSizeSuggestion
 ;
 return
 transferredSizeSuggestion
+;
+}
+return
+nscoord_MAX
 ;
 }
 /
