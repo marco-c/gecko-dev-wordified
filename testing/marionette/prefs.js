@@ -1382,11 +1382,7 @@ actors
 .
 enabled
 "
-Services
-.
-appinfo
-.
-fissionAutostart
+true
 )
 ;
 }
