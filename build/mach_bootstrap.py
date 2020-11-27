@@ -3657,8 +3657,15 @@ mozbuild
 .
 telemetry
 import
+(
+        
 get_cpu_brand
+        
+get_distro_and_version
+        
 get_psutil_stats
+    
+)
     
 mach_metrics
 =
@@ -3707,6 +3714,31 @@ set
 get_cpu_brand
 (
 )
+)
+    
+distro
+version
+=
+get_distro_and_version
+(
+)
+    
+system_metrics
+.
+distro
+.
+set
+(
+distro
+)
+    
+system_metrics
+.
+distro_version
+.
+set
+(
+version
 )
     
 has_psutil
