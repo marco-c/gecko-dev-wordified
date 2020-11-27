@@ -285,7 +285,9 @@ expected
 {
 epsilon
 =
-0
+Number
+.
+MIN_VALUE
 }
 =
 {
