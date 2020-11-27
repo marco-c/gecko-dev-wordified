@@ -529,6 +529,11 @@ IOUtils
 .
 h
 "
+"
+PathUtils
+.
+h
+"
 ]
 UNIFIED_SOURCES
 +
@@ -551,6 +556,11 @@ cpp
 "
 "
 OSFileConstants
+.
+cpp
+"
+"
+PathUtils
 .
 cpp
 "

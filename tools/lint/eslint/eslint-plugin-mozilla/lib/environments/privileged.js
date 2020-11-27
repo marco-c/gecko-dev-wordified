@@ -1292,6 +1292,9 @@ false
 Path2D
 :
 false
+PathUtils
+:
+false
 PaymentAddress
 :
 false
