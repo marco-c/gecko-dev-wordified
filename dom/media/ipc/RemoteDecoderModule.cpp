@@ -244,17 +244,6 @@ gfxConfig
 .
 h
 "
-#
-include
-"
-nsIXULRuntime
-.
-h
-"
-/
-/
-for
-BrowserTabsRemoteAutostart
 namespace
 mozilla
 {
