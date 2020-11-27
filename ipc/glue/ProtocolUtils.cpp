@@ -4222,6 +4222,13 @@ NotifyImpendingShutdown
 (
 )
 {
+if
+(
+CanRecv
+(
+)
+)
+{
 GetIPCChannel
 (
 )
@@ -4231,6 +4238,7 @@ NotifyImpendingShutdown
 (
 )
 ;
+}
 }
 void
 IToplevelProtocol
