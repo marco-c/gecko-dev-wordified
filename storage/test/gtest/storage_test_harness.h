@@ -419,9 +419,10 @@ ss
 >
 OpenSpecialDatabase
 (
-"
-memory
-"
+kMozStorageMemoryStorageKey
+VoidCString
+(
+)
 getter_AddRefs
 (
 conn
