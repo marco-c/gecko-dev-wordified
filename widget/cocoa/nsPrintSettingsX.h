@@ -115,6 +115,12 @@ Cocoa
 .
 h
 >
+/
+/
+clang
+-
+format
+off
 #
 define
 NS_PRINTSETTINGSX_IID
@@ -138,6 +144,12 @@ NS_PRINTSETTINGSX_IID
 }
 \
 }
+/
+/
+clang
+-
+format
+on
 class
 nsPrintSettingsX
 :
