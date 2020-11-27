@@ -3772,6 +3772,7 @@ render
 self
 .
 window_size
+0
 )
 .
 expect
