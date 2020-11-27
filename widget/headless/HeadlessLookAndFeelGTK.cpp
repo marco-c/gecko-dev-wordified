@@ -1166,7 +1166,7 @@ case
 IntID
 :
 :
-MacYosemiteTheme
+MacBigSurTheme
 :
 aResult
 =

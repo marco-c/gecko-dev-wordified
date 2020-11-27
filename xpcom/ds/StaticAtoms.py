@@ -23526,7 +23526,7 @@ theme
 Atom
 (
 "
-_moz_mac_yosemite_theme
+_moz_mac_big_sur_theme
 "
 "
 -
@@ -23534,7 +23534,9 @@ moz
 -
 mac
 -
-yosemite
+big
+-
+sur
 -
 theme
 "

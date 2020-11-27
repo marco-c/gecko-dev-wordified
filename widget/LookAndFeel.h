@@ -819,10 +819,9 @@ to
 determine
 whether
 the
-Mac
-OS
-X
-Yosemite
+macOS
+Big
+Sur
 -
 specific
 *
@@ -862,7 +861,7 @@ metric
 .
 *
 /
-MacYosemiteTheme
+MacBigSurTheme
 /
 *
 *
