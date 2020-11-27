@@ -795,11 +795,6 @@ PageIconProtocolHandler
 js
 "
 "
-PlacesCategoriesStarter
-.
-js
-"
-"
 nsPlacesExpiration
 .
 js

@@ -328,11 +328,6 @@ PlacesBackups
 jsm
 "
 "
-PlacesCategoriesStarter
-.
-jsm
-"
-"
 PlacesDBUtils
 .
 jsm
