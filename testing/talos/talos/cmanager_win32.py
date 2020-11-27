@@ -64,12 +64,24 @@ struct
 from
 ctypes
 import
+(
+    
 byref
+    
 create_string_buffer
+    
 memmove
+    
 Union
+    
 c_double
+    
 c_longlong
+    
+pointer
+    
+Structure
+)
 from
 ctypes
 import
@@ -90,10 +102,6 @@ LPSTR
 LPCSTR
     
 LPCWSTR
-    
-Structure
-    
-pointer
     
 LONG
 )
