@@ -395,9 +395,6 @@ TempAllocator
 namespace
 jit
 class
-AutoClearTypeInferenceStateOnOOM
-;
-class
 AutoSweepBase
 ;
 class
