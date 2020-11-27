@@ -10671,6 +10671,7 @@ non_snake_case
 )
 ]
 pub
+unsafe
 extern
 "
 C
@@ -10689,8 +10690,6 @@ align
 mut
 usize
 )
-{
-unsafe
 {
 *
 size
@@ -10722,7 +10721,6 @@ T
 (
 )
 ;
-}
 }
 }
 ;
@@ -10755,6 +10753,7 @@ non_snake_case
 )
 ]
 pub
+unsafe
 extern
 "
 C
@@ -10774,8 +10773,6 @@ mut
 usize
 )
 {
-unsafe
-{
 *
 size
 =
@@ -10878,7 +10875,6 @@ V
 )
 )
 ;
-}
 }
 }
 ;
@@ -11018,6 +11014,7 @@ non_snake_case
 )
 ]
 pub
+unsafe
 extern
 "
 C
@@ -11041,8 +11038,6 @@ offset
 mut
 usize
 )
-{
-unsafe
 {
 /
 /
@@ -11396,7 +11391,6 @@ usize
 ;
 }
 }
-}
 ;
 }
 member_check
@@ -11523,6 +11517,7 @@ non_snake_case
 )
 ]
 pub
+unsafe
 extern
 "
 C
@@ -11571,8 +11566,6 @@ f_class_null_terminated
 mut
 u16
 )
-{
-unsafe
 {
 *
 f_terminated
@@ -11671,7 +11664,6 @@ bits
 )
 ;
 }
-}
 #
 [
 no_mangle
@@ -11684,6 +11676,7 @@ non_snake_case
 )
 ]
 pub
+unsafe
 extern
 "
 C
@@ -11713,8 +11706,6 @@ mut
 usize
 )
 {
-unsafe
-{
 *
 cstring_capacity
 =
@@ -11747,6 +11738,5 @@ unwrap
 (
 )
 ;
-}
 }
 }
