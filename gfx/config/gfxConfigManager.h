@@ -200,10 +200,6 @@ mWrForceDisabled
 (
 false
 )
-mWrSoftwareForceEnabled
-(
-false
-)
 mWrCompositorForceEnabled
 (
 false
@@ -257,10 +253,6 @@ mIsNightly
 false
 )
 mSafeMode
-(
-false
-)
-mIsHeadless
 (
 false
 )
@@ -383,9 +375,6 @@ bool
 mWrForceDisabled
 ;
 bool
-mWrSoftwareForceEnabled
-;
-bool
 mWrCompositorForceEnabled
 ;
 bool
@@ -445,9 +434,6 @@ mIsNightly
 ;
 bool
 mSafeMode
-;
-bool
-mIsHeadless
 ;
 bool
 mIsWin10OrLater
