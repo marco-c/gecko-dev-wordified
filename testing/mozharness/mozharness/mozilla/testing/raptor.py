@@ -4718,7 +4718,7 @@ android
 "
                 
 "
-chrome85
+chrome86
 .
 manifest
 "
