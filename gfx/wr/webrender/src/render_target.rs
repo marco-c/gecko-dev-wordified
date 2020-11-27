@@ -1768,6 +1768,7 @@ ArrayAllocationTracker
 :
 new
 (
+None
 )
 gpu_supports_fast_clears
 }

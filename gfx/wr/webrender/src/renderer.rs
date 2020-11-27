@@ -25059,6 +25059,7 @@ ArrayAllocationTracker
 :
 new
 (
+None
 )
 Vec
 :
