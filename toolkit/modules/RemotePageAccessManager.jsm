@@ -455,6 +455,13 @@ RPMGetAppBuildID
 *
 "
 ]
+RPMGetInnerMostURI
+:
+[
+"
+*
+"
+]
 RPMIsWindowPrivate
 :
 [
