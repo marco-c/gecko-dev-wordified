@@ -928,6 +928,15 @@ mLock
 if
 (
 mIsDestroyed
+|
+|
+!
+mKnowsCompositor
+-
+>
+GetTextureForwarder
+(
+)
 )
 {
 return
