@@ -5163,6 +5163,8 @@ base
 :
 "
 testing
+/
+mozharness
 "
         
 "
@@ -5170,8 +5172,6 @@ pattern
 "
 :
 "
-mozharness
-/
 *
 *
 "
