@@ -166,11 +166,6 @@ nsMathMLmencloseFrame
 cpp
 "
 "
-nsMathMLmfencedFrame
-.
-cpp
-"
-"
 nsMathMLmfracFrame
 .
 cpp

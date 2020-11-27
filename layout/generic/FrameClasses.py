@@ -610,17 +610,6 @@ NOT_LEAF
 Frame
 (
 "
-nsMathMLmfencedFrame
-"
-"
-None
-"
-NOT_LEAF
-)
-    
-Frame
-(
-"
 nsMathMLmfracFrame
 "
 "
