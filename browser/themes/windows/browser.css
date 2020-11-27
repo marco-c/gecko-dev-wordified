@@ -1692,10 +1692,6 @@ not
 [
 inFullscreen
 ]
-)
-:
-not
-(
 :
 -
 moz
@@ -1719,10 +1715,6 @@ not
 [
 inFullscreen
 ]
-)
-:
-not
-(
 :
 -
 moz
@@ -2368,10 +2360,6 @@ not
 [
 inDOMFullscreen
 ]
-)
-:
-not
-(
 [
 chromehidden
 ~
@@ -2398,10 +2386,6 @@ not
 [
 inDOMFullscreen
 ]
-)
-:
-not
-(
 [
 chromehidden
 ~
@@ -4063,10 +4047,6 @@ not
 moz
 -
 lwtheme
-)
-:
-not
-(
 [
 focused
 =
@@ -4090,10 +4070,6 @@ not
 moz
 -
 lwtheme
-)
-:
-not
-(
 :
 focus
 -

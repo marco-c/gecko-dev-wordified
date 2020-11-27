@@ -1805,15 +1805,7 @@ from
 -
 search
 ]
-)
-:
-not
-(
 script
-)
-:
-not
-(
 stringbundle
 )
 "

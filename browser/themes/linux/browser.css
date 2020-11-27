@@ -1339,10 +1339,6 @@ not
 moz
 -
 lwtheme
-)
-:
-not
-(
 [
 focused
 =
@@ -1366,10 +1362,6 @@ not
 moz
 -
 lwtheme
-)
-:
-not
-(
 :
 focus
 -

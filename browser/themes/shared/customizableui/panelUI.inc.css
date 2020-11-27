@@ -404,10 +404,6 @@ uidensity
 =
 compact
 ]
-)
-:
-not
-(
 [
 chromehidden
 ~
@@ -526,10 +522,6 @@ uidensity
 =
 compact
 ]
-)
-:
-not
-(
 [
 chromehidden
 ~
@@ -13480,10 +13472,6 @@ not
 [
 canShow
 ]
-)
-:
-not
-(
 [
 canRetry
 ]

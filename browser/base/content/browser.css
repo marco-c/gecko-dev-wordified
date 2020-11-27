@@ -1019,10 +1019,6 @@ overflow
 true
 "
 ]
-)
-:
-not
-(
 [
 hashiddentabs
 ]
@@ -1318,10 +1314,6 @@ not
 [
 pinned
 ]
-)
-:
-not
-(
 [
 fadein
 ]
@@ -5045,10 +5037,6 @@ actiontype
 switchtab
 "
 ]
-)
-:
-not
-(
 [
 actiontype
 =
@@ -5056,10 +5044,6 @@ actiontype
 extension
 "
 ]
-)
-:
-not
-(
 [
 searchmode
 ]
@@ -10416,10 +10400,6 @@ collapsed
 =
 true
 ]
-)
-:
-not
-(
 [
 customizing
 =
