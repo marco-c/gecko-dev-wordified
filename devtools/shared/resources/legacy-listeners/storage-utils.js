@@ -218,7 +218,6 @@ function
 targetList
 targetType
 targetFront
-isFissionEnabledOnContentToolbox
 onAvailable
 onUpdated
 onDestroyed

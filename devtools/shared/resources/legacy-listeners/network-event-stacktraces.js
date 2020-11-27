@@ -91,7 +91,6 @@ function
 {
 targetList
 targetFront
-isFissionEnabledOnContentToolbox
 onAvailable
 }
 )
