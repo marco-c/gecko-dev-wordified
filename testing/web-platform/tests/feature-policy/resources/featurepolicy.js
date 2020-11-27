@@ -3764,7 +3764,7 @@ types
 :
 [
 '
-feature
+permissions
 -
 policy
 -

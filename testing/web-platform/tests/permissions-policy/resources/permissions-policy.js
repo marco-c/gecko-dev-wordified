@@ -3642,7 +3642,7 @@ types
 :
 [
 '
-feature
+permissions
 -
 policy
 -

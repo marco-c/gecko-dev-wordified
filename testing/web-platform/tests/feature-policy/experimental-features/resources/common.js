@@ -514,7 +514,7 @@ types
 :
 [
 "
-feature
+permissions
 -
 policy
 -
