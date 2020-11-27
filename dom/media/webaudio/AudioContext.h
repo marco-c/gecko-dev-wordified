@@ -1987,6 +1987,17 @@ DisconnectFromWindow
 (
 )
 ;
+already_AddRefed
+<
+Promise
+>
+CreatePromise
+(
+ErrorResult
+&
+aRv
+)
+;
 void
 RemoveFromDecodeQueue
 (
