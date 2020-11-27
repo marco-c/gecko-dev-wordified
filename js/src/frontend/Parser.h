@@ -3815,8 +3815,6 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
-TopLevelFunction
-isTopLevel
 )
 ;
 public
