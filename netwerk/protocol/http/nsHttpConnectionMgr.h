@@ -1351,6 +1351,8 @@ ConnectionEntry
 *
 ent
 bool
+aNoHttp2
+bool
 aNoHttp3
 )
 ;
@@ -2700,6 +2702,8 @@ nsHttpConnectionInfo
 bool
 allowWildCard
 bool
+aNoHttp2
+bool
 aNoHttp3
 )
 ;
@@ -2758,6 +2762,8 @@ ent
 bool
 justKidding
 bool
+aNoHttp2
+bool
 aNoHttp3
 )
 ;
@@ -2774,6 +2780,8 @@ nsCString
 key
 bool
 justKidding
+bool
+aNoHttp2
 bool
 aNoHttp3
 )
@@ -2814,7 +2822,10 @@ ConnectionEntry
 ent
 HttpConnectionBase
 *
-conn
+connH2
+HttpConnectionBase
+*
+connH3
 )
 ;
 /

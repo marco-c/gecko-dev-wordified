@@ -2086,6 +2086,9 @@ bool
 allowSpdy
 ;
 bool
+allowHttp3
+;
+bool
 allowAltSvc
 ;
 bool

@@ -887,6 +887,10 @@ allowSpdy
 const
 bool
 &
+allowHttp3
+const
+bool
+&
 allowAltSvc
 const
 bool
