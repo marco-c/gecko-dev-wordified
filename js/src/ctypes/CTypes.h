@@ -205,6 +205,17 @@ StringType
 h
 "
 namespace
+JS
+{
+struct
+CTypesCallbacks
+;
+}
+/
+/
+namespace
+JS
+namespace
 js
 {
 namespace

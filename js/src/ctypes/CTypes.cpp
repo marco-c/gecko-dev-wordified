@@ -141,7 +141,15 @@ Type
 JS
 :
 :
+InitCTypesClass
+JS
+:
+:
 SetCTypesActivityCallback
+JS
+:
+:
+SetCTypesCallbacks
 #
 include
 "
