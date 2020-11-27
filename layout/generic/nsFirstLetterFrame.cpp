@@ -2800,11 +2800,9 @@ nsFirstLetterFrame
 GetLogicalSkipSides
 (
 const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
+ReflowInput
+*
+aReflowInput
 )
 const
 {

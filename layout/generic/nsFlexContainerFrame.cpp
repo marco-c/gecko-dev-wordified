@@ -33919,8 +33919,6 @@ const
 FlexboxAxisTracker
 &
 aAxisTracker
-nscoord
-aConsumedBSize
 )
 {
 if
@@ -34030,7 +34028,6 @@ return
 GetEffectiveComputedBSize
 (
 aReflowInput
-aConsumedBSize
 )
 ;
 }
@@ -34370,8 +34367,6 @@ FlexboxAxisTracker
 aAxisTracker
 nscoord
 aSumLineCrossSizes
-nscoord
-aConsumedBSize
 bool
 *
 aIsDefinite
@@ -34603,7 +34598,6 @@ effectiveComputedBSize
 GetEffectiveComputedBSize
 (
 aReflowInput
-aConsumedBSize
 )
 ;
 if
@@ -36374,19 +36368,6 @@ aReflowInput
 borderPadding
 )
 ;
-const
-nscoord
-consumedBSize
-=
-CalcAndCacheConsumedBSize
-(
-aReflowInput
-.
-GetWritingMode
-(
-)
-)
-;
 nscoord
 contentBoxMainSize
 =
@@ -36394,7 +36375,6 @@ GetMainSizeFromReflowInput
 (
 aReflowInput
 axisTracker
-consumedBSize
 )
 ;
 nscoord
@@ -36456,7 +36436,6 @@ mRowGap
 GetEffectiveComputedBSize
 (
 aReflowInput
-consumedBSize
 )
 )
 ;
@@ -36698,7 +36677,6 @@ placeholders
 axisTracker
 mainGapSize
 crossGapSize
-consumedBSize
 hasLineClampEllipsis
 containerInfo
 )
@@ -36752,7 +36730,6 @@ placeholders
 axisTracker
 mainGapSize
 crossGapSize
-consumedBSize
 hasLineClampEllipsis
 containerInfo
 )
@@ -36831,6 +36808,15 @@ LogicalSizeFromFlexRelativeSizes
 (
 contentBoxMainSize
 contentBoxCrossSize
+)
+;
+const
+nscoord
+consumedBSize
+=
+ConsumedBSize
+(
+wm
 )
 ;
 const
@@ -39856,8 +39842,6 @@ nscoord
 aMainGapSize
 nscoord
 aCrossGapSize
-nscoord
-aConsumedBSize
 bool
 aHasLineClampEllipsis
 ComputedFlexContainerInfo
@@ -40769,7 +40753,6 @@ ComputeCrossSize
 aReflowInput
 aAxisTracker
 sumLineCrossSizes
-aConsumedBSize
 &
 isCrossSizeDefinite
 )
