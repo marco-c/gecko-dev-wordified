@@ -104,6 +104,17 @@ MPL
 .
 *
 /
+include
+"
+mozilla
+/
+layers
+/
+LayersMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :

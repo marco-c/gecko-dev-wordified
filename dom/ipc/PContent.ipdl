@@ -357,6 +357,15 @@ PSandboxTesting
 ;
 #
 endif
+include
+"
+mozilla
+/
+AntiTrackingIPCUtils
+.
+h
+"
+;
 using
 refcounted
 class
