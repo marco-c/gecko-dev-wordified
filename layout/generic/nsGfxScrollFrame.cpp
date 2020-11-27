@@ -4903,6 +4903,7 @@ mReflowInput
 .
 ComputedLogicalPadding
 (
+wm
 )
 ;
 nscoord
