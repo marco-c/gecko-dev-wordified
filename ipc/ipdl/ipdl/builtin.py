@@ -365,7 +365,7 @@ mozilla
 /
 ipc
 /
-ProtocolUtils
+ProtocolUtilsFwd
 .
 h
 "
@@ -400,6 +400,16 @@ h
     
 "
 GeckoProfiler
+.
+h
+"
+    
+"
+mozilla
+/
+ipc
+/
+ProtocolUtils
 .
 h
 "
