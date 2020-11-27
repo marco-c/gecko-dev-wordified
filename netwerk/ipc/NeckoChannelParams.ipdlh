@@ -1141,9 +1141,6 @@ bool
 documentHasUserInteracted
 ;
 bool
-documentHasLoaded
-;
-bool
 allowListFutureDocumentsCreatedFromThisRedirectChain
 ;
 nsString
@@ -1609,9 +1606,6 @@ serviceWorkerTaintingSynthesized
 ;
 bool
 documentHasUserInteracted
-;
-bool
-documentHasLoaded
 ;
 bool
 allowListFutureDocumentsCreatedFromThisRedirectChain
