@@ -210,9 +210,7 @@ Cleanup
 ffi
 :
 :
-WGPURenderPass
-*
-const
+WGPURawPass
 mRaw
 ;
 /

@@ -10,7 +10,7 @@ of
 memory
 allocated
 for
-graphics
+gfx
 resources
 .
 use
@@ -857,7 +857,7 @@ types
 pub
 type_mask
 :
-u32
+u64
 }
 /
 /

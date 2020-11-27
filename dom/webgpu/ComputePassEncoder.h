@@ -213,9 +213,7 @@ Cleanup
 ffi
 :
 :
-WGPUComputePass
-*
-const
+WGPURawPass
 mRaw
 ;
 /

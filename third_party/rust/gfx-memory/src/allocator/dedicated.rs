@@ -656,7 +656,7 @@ DedicatedAllocator
 /
 Create
 new
-DedicatedAllocator
+LinearAllocator
 /
 /
 /

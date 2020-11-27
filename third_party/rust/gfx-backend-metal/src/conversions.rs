@@ -1584,7 +1584,7 @@ R8Unorm_sRGB
 if
 self
 .
-format_any8_unorm_srgb_all
+format_r8unorm_srgb_all
 =
 >
 Properties
@@ -1629,7 +1629,7 @@ R8Unorm_sRGB
 if
 self
 .
-format_any8_unorm_srgb_no_write
+format_r8unorm_srgb_no_write
 =
 >
 Properties
@@ -1669,7 +1669,7 @@ R8Snorm
 if
 self
 .
-format_any8_snorm_all
+format_r8snorm_all
 =
 >
 Properties
@@ -2010,7 +2010,7 @@ RG8Unorm_sRGB
 if
 self
 .
-format_any8_unorm_srgb_all
+format_rg8unorm_srgb_all
 =
 >
 Properties
@@ -2055,7 +2055,7 @@ RG8Unorm_sRGB
 if
 self
 .
-format_any8_unorm_srgb_no_write
+format_rg8unorm_srgb_no_write
 =
 >
 Properties
@@ -2095,7 +2095,7 @@ RG8Snorm
 if
 self
 .
-format_any8_snorm_all
+format_rg8snorm_all
 =
 >
 Properties

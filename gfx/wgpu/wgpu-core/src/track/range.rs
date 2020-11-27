@@ -212,7 +212,7 @@ empty
 >
 Self
 {
-Self
+RangedStates
 {
 ranges
 :
@@ -242,7 +242,7 @@ T
 >
 Self
 {
-Self
+RangedStates
 {
 ranges
 :
@@ -303,7 +303,7 @@ T
 >
 Self
 {
-Self
+RangedStates
 {
 ranges
 :
