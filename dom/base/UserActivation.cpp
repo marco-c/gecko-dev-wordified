@@ -435,9 +435,6 @@ CanTreatAsUserInput
 /
 /
 eBasicEventClass
-case
-eFormChange
-:
 /
 /
 eMouseEventClass

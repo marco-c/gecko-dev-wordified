@@ -13142,6 +13142,12 @@ nsIPrincipal
 aSubjectPrincipal
 )
 {
+AutoHandlingUserInputStatePusher
+inputStatePusher
+(
+true
+)
+;
 if
 (
 mType
