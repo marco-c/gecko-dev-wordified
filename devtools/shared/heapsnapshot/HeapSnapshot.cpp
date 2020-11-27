@@ -1425,7 +1425,6 @@ has_
 refPropertyName
 (
 )
-\
 ?
 Some
 (
@@ -1448,7 +1447,6 @@ has_
 strPropertyName
 (
 )
-\
 ?
 Some
 (
@@ -1488,7 +1486,6 @@ property
 ref
 (
 )
-\
 ?
 Some
 (

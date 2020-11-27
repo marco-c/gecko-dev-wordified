@@ -429,7 +429,6 @@ _flags
 &
 XPC_SCRIPTABLE_USE_JSSTUB_FOR_ADDPROPERTY
 )
-\
 ?
 nullptr
 \
@@ -462,7 +461,6 @@ _flags
 &
 XPC_SCRIPTABLE_USE_JSSTUB_FOR_DELPROPERTY
 )
-\
 ?
 nullptr
 \
