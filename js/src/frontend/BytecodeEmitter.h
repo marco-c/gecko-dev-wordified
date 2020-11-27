@@ -2421,6 +2421,15 @@ ValueUsage
 WantValue
 )
 ;
+MOZ_MUST_USE
+bool
+emitDeclarationInstantiation
+(
+ParseNode
+*
+body
+)
+;
 /
 /
 Emit
