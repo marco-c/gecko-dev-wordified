@@ -1637,7 +1637,7 @@ Elements
 uint32_t
 i
 =
-0
+1
 ;
 while
 (
@@ -1688,6 +1688,14 @@ return
 NS_WORDBREAKER_NEED_MORE_TEXT
 ;
 }
+MOZ_ASSERT
+(
+cur
+!
+=
+aPos
+)
+;
 return
 cur
 ;
