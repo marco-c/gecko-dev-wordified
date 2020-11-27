@@ -1449,6 +1449,11 @@ Java
 .
 8
 JDK
+and
+/
+or
+set
+JAVA_HOME
 .
 "
             
