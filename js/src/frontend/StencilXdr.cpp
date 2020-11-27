@@ -4109,7 +4109,7 @@ column
 ;
 MOZ_TRY
 (
-XDRParserAtomOrNull
+XDRTaggedParserAtomIndex
 (
 xdr
 &
@@ -4121,7 +4121,7 @@ specifier
 ;
 MOZ_TRY
 (
-XDRParserAtomOrNull
+XDRTaggedParserAtomIndex
 (
 xdr
 &
@@ -4133,7 +4133,7 @@ localName
 ;
 MOZ_TRY
 (
-XDRParserAtomOrNull
+XDRTaggedParserAtomIndex
 (
 xdr
 &
@@ -4145,7 +4145,7 @@ importName
 ;
 MOZ_TRY
 (
-XDRParserAtomOrNull
+XDRTaggedParserAtomIndex
 (
 xdr
 &
