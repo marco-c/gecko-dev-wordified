@@ -786,9 +786,6 @@ types
 :
 [
 "
-highlighter
-"
-"
 customhighlighter
 "
 ]
