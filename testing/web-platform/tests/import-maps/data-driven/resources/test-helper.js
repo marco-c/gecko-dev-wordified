@@ -59,10 +59,6 @@ const
 script
 =
 '
-common
--
-test
--
 service
 -
 worker
@@ -275,12 +271,12 @@ import
 -
 maps
 /
-common
+data
+-
+driven
 /
 resources
 /
-common
--
 test
 -
 helper
