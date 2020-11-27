@@ -3747,7 +3747,7 @@ directory
 "
 :
 "
-.
+mozharness
 "
             
 "
