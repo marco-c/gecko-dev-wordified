@@ -802,7 +802,7 @@ return
 mDirection
 ;
 }
-int
+size_t
 Level
 (
 )
@@ -1548,7 +1548,10 @@ const
 DirectionType
 mDirection
 ;
+Atomic
+<
 size_t
+>
 mLevel
 ;
 std
