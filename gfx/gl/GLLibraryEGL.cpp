@@ -943,7 +943,7 @@ displayType
 )
 {
 const
-EGLint
+EGLAttrib
 attrib_list
 [
 ]
@@ -966,7 +966,7 @@ display
 =
 egl
 .
-fGetPlatformDisplayEXT
+fGetPlatformDisplay
 (
 LOCAL_EGL_PLATFORM_ANGLE_ANGLE
 displayType
@@ -1108,7 +1108,7 @@ using
 the
 EGLDevice
 const
-EGLint
+EGLAttrib
 attrib_list
 [
 ]
@@ -1121,7 +1121,7 @@ const
 auto
 display
 =
-fGetPlatformDisplayEXT
+fGetPlatformDisplay
 (
 LOCAL_EGL_PLATFORM_DEVICE_EXT
 eglDevice
@@ -2857,7 +2857,7 @@ angleSymbols
 {
 SYMBOL
 (
-GetPlatformDisplayEXT
+GetPlatformDisplay
 )
 END_OF_SYMBOLS
 }
