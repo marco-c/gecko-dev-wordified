@@ -13939,8 +13939,7 @@ IDX_Muted
 {
 MOZ_ASSERT
 (
-!
-GetParent
+IsTop
 (
 )
 "
