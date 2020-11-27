@@ -150,6 +150,17 @@ GPUProcessManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
 namespace
 mozilla
 {

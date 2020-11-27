@@ -284,6 +284,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 SyncObject

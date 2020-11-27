@@ -137,7 +137,7 @@ mozilla
 /
 ipc
 /
-IPDLParamTraits
+ProtocolMessageUtils
 .
 h
 "

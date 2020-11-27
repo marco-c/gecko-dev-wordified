@@ -131,6 +131,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

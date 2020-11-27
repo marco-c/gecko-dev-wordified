@@ -148,6 +148,17 @@ mozilla
 /
 ipc
 /
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ProtocolTypes
 .
 h

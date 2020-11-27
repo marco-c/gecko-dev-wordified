@@ -177,6 +177,17 @@ GPUChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
 using
 namespace
 mozilla

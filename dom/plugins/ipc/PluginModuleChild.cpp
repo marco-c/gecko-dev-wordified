@@ -264,6 +264,17 @@ mozilla
 /
 ipc
 /
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 ProcessChild
 .
 h

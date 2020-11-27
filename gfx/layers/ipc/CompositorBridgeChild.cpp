@@ -396,6 +396,17 @@ include
 "
 mozilla
 /
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webgpu
 /
 WebGPUChild

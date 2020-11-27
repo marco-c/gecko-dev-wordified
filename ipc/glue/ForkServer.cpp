@@ -157,6 +157,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+ProtocolMessageUtils
+.
+h
+"
+#
+include
+"
 nsTraceRefcnt
 .
 h

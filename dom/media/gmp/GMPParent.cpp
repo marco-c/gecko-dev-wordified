@@ -178,6 +178,17 @@ mozilla
 /
 ipc
 /
+Endpoint
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ipc
+/
 GeckoChildProcessHost
 .
 h

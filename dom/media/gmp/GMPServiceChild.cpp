@@ -196,6 +196,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+Endpoint
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

@@ -164,6 +164,17 @@ include
 "
 mozilla
 /
+ipc
+/
+ProtocolMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h
