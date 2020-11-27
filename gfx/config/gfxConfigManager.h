@@ -173,6 +173,10 @@ mFeatureWrPartial
 (
 nullptr
 )
+mFeatureWrSoftware
+(
+nullptr
+)
 mFeatureHwCompositing
 (
 nullptr
@@ -301,6 +305,11 @@ ConfigureWebRenderQualified
 (
 )
 ;
+void
+ConfigureWebRenderSoftware
+(
+)
+;
 nsCOMPtr
 <
 nsIGfxInfo
@@ -330,6 +339,10 @@ mFeatureWrDComp
 FeatureState
 *
 mFeatureWrPartial
+;
+FeatureState
+*
+mFeatureWrSoftware
 ;
 FeatureState
 *
