@@ -1542,7 +1542,10 @@ virtual
 void
 SetSource
 (
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 aSource
 )
 override
@@ -4414,7 +4417,10 @@ ReleaseAcquire
 >
 mFlashPluginState
 ;
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 mSource
 ;
 uint32_t
