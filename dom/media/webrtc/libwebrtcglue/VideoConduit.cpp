@@ -4645,8 +4645,16 @@ vp9_settings
 .
 frameDroppingOn
 =
-frame_dropping
+true
 ;
+/
+/
+This
+must
+be
+true
+for
+VP9
 return
 new
 rtc
