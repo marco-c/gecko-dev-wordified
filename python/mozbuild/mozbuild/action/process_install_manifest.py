@@ -81,6 +81,12 @@ FileRegistry
 from
 mozpack
 .
+errors
+import
+errors
+from
+mozpack
+.
 files
 import
 (
@@ -369,6 +375,14 @@ link_policy
     
 )
     
+with
+errors
+.
+accumulate
+(
+)
+:
+        
 result
 =
 copier
@@ -376,15 +390,15 @@ copier
 copy
 (
 destdir
-                         
+                             
 remove_unaccounted
 =
 remove_unaccounted
-                         
+                             
 remove_all_directory_symlinks
 =
 remove_all_directory_symlinks
-                         
+                             
 remove_empty_directories
 =
 remove_empty_directories
