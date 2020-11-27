@@ -117,6 +117,10 @@ MPL
 #
 include
 "
+mozilla
+/
+dom
+/
 IndexedDatabase
 .
 h

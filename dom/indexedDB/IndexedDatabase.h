@@ -193,9 +193,6 @@ IDBMutableFile
 namespace
 indexedDB
 {
-class
-SerializedStructuredCloneReadInfo
-;
 struct
 StructuredCloneFileBase
 {
