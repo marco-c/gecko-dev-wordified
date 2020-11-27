@@ -1207,7 +1207,7 @@ member
 *
 *
 param
-aWM
+aCBWM
 Writing
 mode
 of
@@ -1269,7 +1269,7 @@ mozilla
 :
 :
 WritingMode
-aWM
+aCBWM
 nscoord
 aPercentBasis
 )
@@ -1298,7 +1298,7 @@ member
 *
 *
 param
-aWM
+aCBWM
 Writing
 mode
 of
@@ -1360,7 +1360,7 @@ mozilla
 :
 :
 WritingMode
-aWM
+aCBWM
 nscoord
 aPercentBasis
 mozilla
@@ -1379,7 +1379,7 @@ mozilla
 :
 :
 WritingMode
-aWM
+aCBWM
 nscoord
 aPercentBasis
 mozilla
