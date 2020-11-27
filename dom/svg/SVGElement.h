@@ -227,6 +227,13 @@ h
 #
 include
 "
+nsCSSPropertyID
+.
+h
+"
+#
+include
+"
 nsChangeHint
 .
 h

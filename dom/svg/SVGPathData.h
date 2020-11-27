@@ -224,6 +224,9 @@ namespace
 mozilla
 {
 struct
+StylePathCommand
+;
+struct
 SVGMark
 ;
 enum
