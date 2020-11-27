@@ -837,6 +837,9 @@ aProofOfLock
 ;
 RefPtr
 <
+mozilla
+:
+:
 TaskQueue
 >
 mWriterTaskQueue
