@@ -1826,14 +1826,29 @@ args
 )
         
 #
-Ensure
-special
--
-typed
-options
-are
-correct
-here
+XXX
+this
+is
+going
+away
+see
+https
+:
+/
+/
+bugzilla
+.
+mozilla
+.
+org
+/
+show_bug
+.
+cgi
+?
+id
+=
+1675102
         
 for
 opt
@@ -1847,13 +1862,25 @@ items
 :
             
 if
+opt
+.
+startswith
+(
+"
+visualmetrics
+"
+)
+or
 "
 metrics
 "
+not
 in
 opt
 :
                 
+continue
+            
 if
 not
 isinstance
@@ -1862,7 +1889,7 @@ val
 list
 )
 :
-                    
+                
 raise
 BadOptionTypeError
 (
@@ -1876,13 +1903,13 @@ a
 list
 "
 )
-                
+            
 for
 metric
 in
 val
 :
-                    
+                
 if
 not
 isinstance
@@ -1891,11 +1918,11 @@ metric
 dict
 )
 :
-                        
+                    
 raise
 BadOptionTypeError
 (
-                            
+                        
 "
 Each
 individual
@@ -1910,7 +1937,7 @@ JSON
 like
 object
 "
-                        
+                    
 )
         
 if

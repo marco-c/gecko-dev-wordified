@@ -343,12 +343,20 @@ get_running_env
 visualmetrics
 =
 True
+        
 perfherder
 =
 True
+        
 verbose
 =
 True
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
     
 )
     
@@ -360,21 +368,6 @@ layers
 [
 METRICS
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-str
-(
-EXAMPLE_TEST
-)
-]
-)
     
 metadata
 .
@@ -634,12 +627,20 @@ get_running_env
 visualmetrics
 =
 True
+        
 perfherder
 =
 True
+        
 verbose
 =
 True
+        
+tests
+=
+[
+EXAMPLE_TEST
+]
     
 )
     
@@ -651,21 +652,6 @@ layers
 [
 METRICS
 ]
-    
-env
-.
-set_arg
-(
-"
-tests
-"
-[
-str
-(
-EXAMPLE_TEST
-)
-]
-)
     
 metadata
 .
