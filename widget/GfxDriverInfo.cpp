@@ -4406,9 +4406,6 @@ APPEND_DEVICE
 0x98e4
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 /
 /
 Carrizo
@@ -4418,6 +4415,9 @@ APPEND_RANGE
 0x9877
 )
 ;
+#
+ifdef
+EARLY_BETA_OR_EARLIER
 /
 /
 R700
