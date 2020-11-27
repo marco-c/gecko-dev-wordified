@@ -4419,6 +4419,9 @@ None
 debug_info
 =
 None
+environ
+=
+None
 *
 *
 kwargs
@@ -4472,6 +4475,20 @@ self
 capabilities
 =
 capabilities
+        
+self
+.
+environ
+=
+environ
+if
+environ
+is
+not
+None
+else
+{
+}
         
 self
 .
@@ -4611,6 +4628,12 @@ session_config
 timeout
 =
 timeout
+                                
+environ
+=
+self
+.
+environ
 )
     
 def
