@@ -1590,17 +1590,6 @@ PictureInPictureChild
 .
 jsm
 "
-events
-:
-{
-MozStopPictureInPicture
-:
-{
-capture
-:
-true
-}
-}
 }
 allFrames
 :
