@@ -101,4 +101,9 @@ helper
 .
 js
 '
+'
+utils
+.
+js
+'
 )
