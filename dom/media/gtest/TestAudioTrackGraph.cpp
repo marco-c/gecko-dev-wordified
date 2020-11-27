@@ -2953,7 +2953,7 @@ WaitUntil
 stream
 -
 >
-FramesProcessedEvent
+FramesVerifiedEvent
 (
 )
 [
@@ -3904,7 +3904,7 @@ WaitUntil
 partnerStream
 -
 >
-FramesProcessedEvent
+FramesVerifiedEvent
 (
 )
 [
