@@ -378,7 +378,7 @@ subPath
 AppendLiteral
 (
 "
-family
+psname
 =
 "
 )
