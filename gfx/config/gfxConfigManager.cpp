@@ -2030,14 +2030,8 @@ IsEnabled
 )
 &
 &
-(
-!
-mIsNightly
-|
-|
 !
 mWrForceAngleNoGPUProcess
-)
 )
 {
 /
