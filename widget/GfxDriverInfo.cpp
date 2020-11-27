@@ -4659,6 +4659,15 @@ ifdef
 EARLY_BETA_OR_EARLIER
 /
 /
+Kaveri
+APPEND_RANGE
+(
+0x1304
+0x131d
+)
+;
+/
+/
 R700
 APPEND_RANGE
 (
