@@ -461,7 +461,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 "
 RemVidParent

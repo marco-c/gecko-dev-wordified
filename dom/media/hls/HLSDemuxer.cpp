@@ -827,7 +827,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 /
 *

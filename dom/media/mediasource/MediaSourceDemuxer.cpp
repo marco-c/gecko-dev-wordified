@@ -220,7 +220,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 "
 MediaSourceDemuxer

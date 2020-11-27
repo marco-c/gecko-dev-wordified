@@ -181,7 +181,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -329,7 +329,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -522,7 +522,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -668,7 +668,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -937,7 +937,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -1180,7 +1180,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -1357,7 +1357,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -1731,7 +1731,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -1890,7 +1890,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -2046,7 +2046,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;
@@ -2265,7 +2265,7 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 )
 ;

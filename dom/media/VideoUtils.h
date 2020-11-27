@@ -1408,7 +1408,7 @@ enum
 class
 MediaThreadType
 {
-CONTROLLER
+SUPERVISOR
 /
 /
 MediaFormatReader

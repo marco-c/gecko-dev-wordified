@@ -665,22 +665,22 @@ Init
 ;
 TaskQueue
 *
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 {
 return
-mPControllerTaskQueue
+mPSupervisorTaskQueue
 ;
 }
 bool
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 const
 {
 return
-mPControllerTaskQueue
+mPSupervisorTaskQueue
 -
 >
 IsCurrentThreadIn
@@ -978,7 +978,7 @@ mDemuxer
 =
 nullptr
 ;
-mPControllerTaskQueue
+mPSupervisorTaskQueue
 =
 nullptr
 ;
@@ -1015,7 +1015,7 @@ RefPtr
 <
 TaskQueue
 >
-mPControllerTaskQueue
+mPSupervisorTaskQueue
 ;
 RefPtr
 <
@@ -1172,7 +1172,7 @@ TaskCategory
 Other
 )
 ;
-mPControllerTaskQueue
+mPSupervisorTaskQueue
 =
 new
 TaskQueue
@@ -1182,13 +1182,13 @@ GetMediaThreadPool
 MediaThreadType
 :
 :
-CONTROLLER
+SUPERVISOR
 )
 "
 MediaBufferDecoder
 :
 :
-mPControllerTaskQueue
+mPSupervisorTaskQueue
 "
 )
 ;
@@ -1343,7 +1343,7 @@ Decode
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1358,7 +1358,7 @@ Init
 >
 Then
 (
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 __func__
@@ -1386,7 +1386,7 @@ OnInitDemuxerCompleted
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1595,7 +1595,7 @@ aError
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1637,7 +1637,7 @@ info
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1786,7 +1786,7 @@ InitDecoder
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1801,7 +1801,7 @@ Init
 >
 Then
 (
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 __func__
@@ -1829,7 +1829,7 @@ OnInitDecoderCompleted
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1849,7 +1849,7 @@ OnInitDecoderFailed
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1890,7 +1890,7 @@ DoDemux
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1906,7 +1906,7 @@ mBatchSize
 >
 Then
 (
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 __func__
@@ -1942,7 +1942,7 @@ aSamples
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -1978,7 +1978,7 @@ aError
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2037,7 +2037,7 @@ DoDecode
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2157,7 +2157,7 @@ rawSampleBatch
 >
 Then
 (
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 __func__
@@ -2213,7 +2213,7 @@ sample
 >
 Then
 (
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 __func__
@@ -2256,7 +2256,7 @@ aResults
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2357,7 +2357,7 @@ aError
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2397,7 +2397,7 @@ DoDrain
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2412,7 +2412,7 @@ Drain
 >
 Then
 (
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 __func__
@@ -2447,7 +2447,7 @@ aResults
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2542,7 +2542,7 @@ aError
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2581,7 +2581,7 @@ ShutdownDecoder
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -2625,7 +2625,7 @@ FinishDecode
 {
 MOZ_ASSERT
 (
-OnPControllerTaskQueue
+OnPSupervisorTaskQueue
 (
 )
 )
@@ -3943,7 +3943,7 @@ rv
 task
 -
 >
-PControllerTaskQueue
+PSupervisorTaskQueue
 (
 )
 -
