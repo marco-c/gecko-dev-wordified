@@ -179,6 +179,11 @@ right
 "
 )
 ;
+await
+waitForTick
+(
+)
+;
 is
 (
 toolbars
