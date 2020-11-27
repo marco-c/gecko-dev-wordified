@@ -21465,6 +21465,16 @@ type
 )
 )
 ;
+mul
+-
+>
+setBailoutKind
+(
+bailoutKind
+(
+)
+)
+;
 /
 /
 Multiplying
