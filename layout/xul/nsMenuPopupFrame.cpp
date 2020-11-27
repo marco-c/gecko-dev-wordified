@@ -14325,8 +14325,6 @@ return
 nullptr
 ;
 }
-else
-{
 #
 ifdef
 XP_WIN
@@ -14368,13 +14366,10 @@ endif
 ifdef
 XP_WIN
 }
-}
 return
 nullptr
 ;
 }
-else
-{
 char16_t
 uniChar
 =
@@ -14440,7 +14435,6 @@ mIncrementalString
 =
 uniChar
 ;
-}
 }
 /
 /
