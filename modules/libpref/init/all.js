@@ -45252,6 +45252,9 @@ Noto
 Sans
 CJK
 KR
+SamsungKorean_v2
+.
+0
 SEC
 CJK
 KR
