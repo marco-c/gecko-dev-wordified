@@ -668,7 +668,6 @@ JS
 OOM
 PARSER_ATOMS_OOM
 ;
-static
 JSAtom
 *
 GetWellKnownAtom
