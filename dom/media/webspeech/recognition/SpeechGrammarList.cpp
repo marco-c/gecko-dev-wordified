@@ -126,6 +126,17 @@ mozilla
 /
 dom
 /
+SpeechGrammar
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SpeechGrammarListBinding
 .
 h

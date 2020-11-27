@@ -215,6 +215,17 @@ include
 "
 mozilla
 /
+dom
+/
+SpeechGrammar
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MediaManager
 .
 h
