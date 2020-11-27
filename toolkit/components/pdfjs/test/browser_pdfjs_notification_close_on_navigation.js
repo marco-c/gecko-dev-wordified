@@ -211,7 +211,6 @@ fallback
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

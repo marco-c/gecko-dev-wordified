@@ -303,7 +303,6 @@ gBrowser
 .
 selectedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI

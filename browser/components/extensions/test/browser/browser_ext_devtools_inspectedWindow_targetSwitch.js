@@ -249,7 +249,6 @@ target
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

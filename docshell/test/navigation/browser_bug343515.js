@@ -580,7 +580,6 @@ to
 a
 different
 page
-await
 BrowserTestUtils
 .
 loadURI
@@ -1217,7 +1216,6 @@ Navigate
 to
 page
 3
-await
 BrowserTestUtils
 .
 loadURI

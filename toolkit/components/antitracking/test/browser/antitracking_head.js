@@ -3598,7 +3598,6 @@ topframe
 "
 )
 {
-await
 BrowserTestUtils
 .
 loadURI

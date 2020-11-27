@@ -302,7 +302,6 @@ animate
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -438,7 +437,6 @@ animate
 }
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -714,7 +712,6 @@ getAnimatePromise
 stopReloadContainer
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -870,7 +867,6 @@ getAnimatePromise
 stopReloadContainer
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

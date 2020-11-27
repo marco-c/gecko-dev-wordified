@@ -722,7 +722,6 @@ icon
 "
 )
 ;
-await
 BrowserTestUtils
 .
 loadURI

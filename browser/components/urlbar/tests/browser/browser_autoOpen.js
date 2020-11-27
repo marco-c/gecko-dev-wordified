@@ -572,7 +572,6 @@ the
 same
 tab
 .
-await
 BrowserTestUtils
 .
 loadURI

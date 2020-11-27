@@ -300,7 +300,6 @@ Load
 the
 page
 .
-await
 BrowserTestUtils
 .
 loadURI
@@ -386,7 +385,6 @@ then
 navigate
 away
 .
-await
 BrowserTestUtils
 .
 loadURI
