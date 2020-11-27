@@ -179,6 +179,13 @@ aFlags
 )
 override
 ;
+uint32_t
+NumberOfChannels
+(
+)
+const
+override
+;
 protected
 :
 void

@@ -221,6 +221,13 @@ aInputMode
 )
 override
 ;
+uint32_t
+NumberOfChannels
+(
+)
+const
+override
+;
 friend
 class
 MediaTrackGraphImpl
