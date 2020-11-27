@@ -350,10 +350,7 @@ maxColumn
 /
 Check
 the
-'
-silently
-zero
-'
+saturation
 behavior
 when
 we
@@ -362,11 +359,10 @@ the
 limit
 of
 the
-srcnotes
-/
-/
 column
-encoding
+/
+/
+representation
 .
 assertEq
 (
@@ -385,6 +381,8 @@ columnNumber
 maxColumn
 }
 )
+maxColumn
++
 1
 )
 ;
