@@ -231,6 +231,12 @@ x86_64
 "
         
 "
+Darwin_aarch64
+-
+gcc3
+"
+        
+"
 Darwin_x86
 -
 gcc3
@@ -377,6 +383,16 @@ u
 i386
 -
 x86_64
+"
+:
+"
+mac
+"
+    
+"
+Darwin_aarch64
+-
+gcc3
 "
 :
 "
