@@ -7647,6 +7647,16 @@ scratch
 Shift
 low
 bytes
+asMasm
+(
+)
+.
+moveSimd128
+(
+src
+dest
+)
+;
 vpsraw
 (
 count
