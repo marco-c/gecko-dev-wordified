@@ -213,14 +213,6 @@ Analysis_None
 "
 ;
 case
-Analysis_DefiniteProperties
-:
-return
-"
-Analysis_DefiniteProperties
-"
-;
-case
 Analysis_ArgumentsUsage
 :
 return
