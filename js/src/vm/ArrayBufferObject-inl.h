@@ -275,7 +275,7 @@ false
 ;
 }
 inline
-uint32_t
+BufferSize
 AnyArrayBufferByteLength
 (
 const
@@ -330,7 +330,7 @@ byteLength
 ;
 }
 inline
-uint32_t
+BufferSize
 ArrayBufferObjectMaybeShared
 :
 :

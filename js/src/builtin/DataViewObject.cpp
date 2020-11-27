@@ -690,6 +690,10 @@ buffer
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 /
 /

@@ -895,6 +895,10 @@ buffer
 byteLength
 (
 )
+.
+get
+(
+)
 >
 0
 !
@@ -1025,6 +1029,10 @@ buffer
 -
 >
 byteLength
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;

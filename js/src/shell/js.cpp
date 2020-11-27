@@ -12762,6 +12762,10 @@ arrayBuffer
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 return
 arrayBuffer
@@ -45059,6 +45063,10 @@ sab
 byteLength
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 if
 (
@@ -45220,6 +45228,10 @@ sab
 -
 >
 byteLength
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;
