@@ -1649,17 +1649,6 @@ nsTableCellFrame
 LogicalSides
 GetLogicalSkipSides
 (
-const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
-aConsumed
-=
-Nothing
-(
-)
 )
 const
 override

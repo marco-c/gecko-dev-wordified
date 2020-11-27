@@ -689,12 +689,6 @@ endif
 LogicalSides
 GetLogicalSkipSides
 (
-const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
 )
 const
 final

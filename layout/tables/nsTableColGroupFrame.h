@@ -1514,16 +1514,6 @@ aCols
 LogicalSides
 GetLogicalSkipSides
 (
-const
-Maybe
-<
-SkipSidesDuringReflow
->
-&
-=
-Nothing
-(
-)
 )
 const
 override
