@@ -675,11 +675,6 @@ i
 ]
 )
 )
-.
-unwrapOr
-(
-nullptr
-)
 ;
 }
 }

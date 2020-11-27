@@ -9212,11 +9212,6 @@ length
 )
 )
 )
-.
-unwrapOr
-(
-nullptr
-)
 ;
 if
 (
