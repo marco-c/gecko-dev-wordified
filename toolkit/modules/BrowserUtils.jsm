@@ -3533,6 +3533,11 @@ url
 let
 linkText
 ;
+let
+isDocumentLevelSelection
+=
+true
+;
 /
 /
 try
@@ -3624,6 +3629,10 @@ selection
 toString
 (
 )
+;
+isDocumentLevelSelection
+=
+false
 ;
 }
 }
@@ -4137,6 +4146,7 @@ selectionStr
 docSelectionIsCollapsed
 :
 collapsed
+isDocumentLevelSelection
 fullText
 linkURL
 :

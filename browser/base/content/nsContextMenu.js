@@ -2903,6 +2903,13 @@ inAboutDevtoolsToolbox
 this
 .
 isContentSelected
+&
+&
+this
+.
+selectionInfo
+.
+isDocumentLevelSelection
 )
 ;
 this
@@ -2925,6 +2932,13 @@ inAboutDevtoolsToolbox
 this
 .
 isContentSelected
+&
+&
+this
+.
+selectionInfo
+.
+isDocumentLevelSelection
 )
 ;
 var
