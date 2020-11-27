@@ -558,13 +558,6 @@ PropTypes
 func
 .
 isRequired
-onShowBoxModelHighlighterForNode
-:
-PropTypes
-.
-func
-.
-isRequired
 onShowGridOutlineHighlight
 :
 PropTypes
