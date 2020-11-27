@@ -4342,7 +4342,7 @@ Linux
 ScreenSizeStatus
 :
 :
-SmallAndMedium
+All
 BatteryStatus
 :
 :
@@ -4350,11 +4350,11 @@ All
 DesktopEnvironment
 :
 :
-GNOME
+All
 WindowProtocol
 :
 :
-X11All
+All
 DriverVendor
 :
 :
@@ -4380,7 +4380,7 @@ V
 0
 )
 "
-FEATURE_ROLLOUT_EARLY_BETA_INTEL_GNOME_XALL_MESA
+FEATURE_ROLLOUT_EARLY_BETA_INTEL_MESA
 "
 "
 Mesa
@@ -4419,11 +4419,11 @@ All
 DesktopEnvironment
 :
 :
-GNOME
+All
 WindowProtocol
 :
 :
-X11All
+All
 DriverVendor
 :
 :
@@ -4449,7 +4449,7 @@ V
 0
 )
 "
-FEATURE_ROLLOUT_EARLY_BETA_ATI_GNOME_XALL_MESA
+FEATURE_ROLLOUT_EARLY_BETA_ATI_MESA
 "
 "
 Mesa
@@ -4485,7 +4485,7 @@ Linux
 ScreenSizeStatus
 :
 :
-SmallAndMedium
+All
 BatteryStatus
 :
 :
