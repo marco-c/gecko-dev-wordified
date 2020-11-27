@@ -119,6 +119,15 @@ MozPromise
 .
 h
 "
+#
+include
+"
+mozilla
+/
+WeakPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -197,6 +206,8 @@ final
 :
 public
 PWebGPUChild
+public
+SupportsWeakPtr
 {
 public
 :
