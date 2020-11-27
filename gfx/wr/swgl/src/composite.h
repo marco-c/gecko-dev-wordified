@@ -4585,7 +4585,6 @@ clang
 -
 format
 on
-static
 constexpr
 double
 YUVMatrix601
