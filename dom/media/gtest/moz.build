@@ -145,11 +145,6 @@ UNIFIED_SOURCES
 =
 [
 "
-MockCubeb
-.
-cpp
-"
-"
 MockMediaResource
 .
 cpp
