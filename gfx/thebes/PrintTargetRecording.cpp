@@ -207,9 +207,9 @@ class
 /
 creates
 a
-DrawTargetWrapAndRecord
+DrawTargetRecording
 using
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 and
 /
 /
@@ -422,7 +422,7 @@ DrawTarget
 to
 pass
 to
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 we
 /
 /
@@ -636,7 +636,7 @@ dt
 {
 dt
 =
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 (
 aRecorder
 dt
@@ -677,7 +677,7 @@ DrawTarget
 PrintTargetRecording
 :
 :
-CreateWrapAndRecordDrawTarget
+CreateRecordingDrawTarget
 (
 DrawEventRecorder
 *
