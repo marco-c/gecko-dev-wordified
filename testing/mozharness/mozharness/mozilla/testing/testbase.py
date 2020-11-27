@@ -196,8 +196,12 @@ testing
 .
 verify_tools
 import
+(
+    
 VerifyToolsMixin
+    
 verify_config_options
+)
 from
 mozharness
 .
@@ -219,60 +223,64 @@ get_credentials
 INSTALLER_SUFFIXES
 =
 (
-'
+    
+"
 .
 apk
-'
+"
 #
 Android
-                      
-'
+    
+"
 .
 tar
 .
 bz2
-'
-'
+"
+    
+"
 .
 tar
 .
 gz
-'
+"
 #
 Linux
-                      
-'
+    
+"
 .
 dmg
-'
+"
 #
 Mac
-                      
-'
+    
+"
 .
 installer
 -
 stub
 .
 exe
-'
-'
+"
+    
+"
 .
 installer
 .
 exe
-'
-'
+"
+    
+"
 .
 exe
-'
-'
+"
+    
+"
 .
 zip
-'
+"
 #
 Windows
-                      
 )
 #
 https
@@ -300,51 +308,54 @@ TOOLTOOL_PLATFORM_DIR
 =
 {
     
-'
+"
 linux
-'
+"
 :
-'
+"
 linux32
-'
+"
     
-'
+"
 linux64
-'
+"
 :
-'
+"
 linux64
-'
+"
     
-'
+"
 win32
-'
+"
 :
-'
+"
 win32
-'
+"
     
-'
+"
 win64
-'
+"
 :
-'
+"
 win32
-'
+"
     
-'
+"
 macosx
-'
+"
 :
-'
+"
 macosx64
-'
+"
 }
 testing_config_options
 =
-[
+(
     
 [
+        
+[
+            
 [
 "
 -
@@ -354,8 +365,9 @@ installer
 url
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -363,7 +375,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -371,13 +383,13 @@ dest
 "
 installer_url
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -390,11 +402,13 @@ installer
 to
 install
 "
-      
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -404,8 +418,9 @@ installer
 path
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -413,7 +428,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -421,13 +436,13 @@ dest
 "
 installer_path
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -441,7 +456,7 @@ to
 install
 .
 "
-      
+                
 "
 This
 is
@@ -459,11 +474,13 @@ and
 extract
 .
 "
-      
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -473,8 +490,9 @@ binary
 path
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -482,7 +500,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -490,13 +508,13 @@ dest
 "
 binary_path
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -519,11 +537,17 @@ with
 install
 .
 "
-      
+#
+NOQA
+:
+E501
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -533,8 +557,9 @@ exe
 suffix
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -542,7 +567,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -550,13 +575,13 @@ dest
 "
 exe_suffix
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -570,11 +595,13 @@ on
 this
 platform
 "
-      
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -584,8 +611,9 @@ test
 url
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -593,7 +621,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -601,13 +629,13 @@ dest
 "
 test_url
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -623,11 +651,13 @@ the
 actual
 tests
 "
-      
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -639,8 +669,9 @@ packages
 url
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -648,7 +679,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -656,13 +687,13 @@ dest
 "
 test_packages_url
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -680,11 +711,13 @@ archives
 to
 download
 "
-      
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -694,8 +727,9 @@ jsshell
 url
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -703,7 +737,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -711,13 +745,13 @@ dest
 "
 jsshell_url
 "
-      
+                
 "
 default
 "
 :
 None
-      
+                
 "
 help
 "
@@ -730,11 +764,13 @@ jsshell
 to
 install
 "
-      
+            
 }
+        
 ]
-    
+        
 [
+            
 [
 "
 -
@@ -744,8 +780,9 @@ download
 symbols
 "
 ]
-     
+            
 {
+                
 "
 action
 "
@@ -753,7 +790,7 @@ action
 "
 store
 "
-      
+                
 "
 dest
 "
@@ -761,7 +798,7 @@ dest
 "
 download_symbols
 "
-      
+                
 "
 type
 "
@@ -769,20 +806,20 @@ type
 "
 choice
 "
-      
+                
 "
 choices
 "
 :
 [
-'
+"
 ondemand
-'
-'
+"
+"
 true
-'
+"
 ]
-      
+                
 "
 help
 "
@@ -796,10 +833,13 @@ reporter
 symbols
 .
 "
-      
+            
 }
+        
 ]
+    
 ]
+    
 +
 copy
 .
@@ -807,8 +847,7 @@ deepcopy
 (
 virtualenv_config_options
 )
-\
-  
+    
 +
 copy
 .
@@ -816,14 +855,14 @@ deepcopy
 (
 try_config_options
 )
-\
-  
+    
 +
 copy
 .
 deepcopy
 (
 verify_config_options
+)
 )
 #
 TestingMixin
@@ -834,12 +873,17 @@ TestingMixin
 class
 TestingMixin
 (
+    
 VirtualenvMixin
+    
 AutomationMixin
+    
 ResourceMonitoringMixin
-                   
+    
 TooltoolMixin
+    
 TryToolsMixin
+    
 VerifyToolsMixin
 )
 :
@@ -981,6 +1025,7 @@ self
 .
 fatal
 (
+                
 "
 Can
 '
@@ -994,12 +1039,13 @@ without
 an
 installer_url
 "
-                       
+                
 "
 or
 test_packages_url
 !
 "
+            
 )
         
 reference_url
@@ -1032,9 +1078,9 @@ parts
 .
 rfind
 (
-'
+"
 /
-'
+"
 )
         
 parts
@@ -1042,9 +1088,9 @@ parts
 2
 ]
 =
-'
+"
 /
-'
+"
 .
 join
 (
@@ -1128,12 +1174,12 @@ test_packages_url
 reference_suffixes
 =
 [
-'
+"
 .
 test_packages
 .
 json
-'
+"
 ]
             
 reference_url
@@ -1165,6 +1211,7 @@ self
 .
 fatal
 (
+                
 "
 Can
 '
@@ -1178,12 +1225,13 @@ without
 an
 installer_url
 "
-                       
+                
 "
 or
 test_packages_url
 !
 "
+            
 )
         
 url
@@ -1257,14 +1305,16 @@ self
 .
 query_prefixed_build_dir_url
 (
-'
+                
+"
 .
 crashreporter
 -
 symbols
 .
 zip
-'
+"
+            
 )
             
 #
@@ -1321,6 +1371,7 @@ self
 .
 warning
 (
+                    
 "
 Cannot
 open
@@ -1339,8 +1390,8 @@ s
 %
 s
 "
+                    
 %
-                             
 (
 symbols_url
 self
@@ -1348,6 +1399,7 @@ self
 installer_url
 ex
 )
+                
 )
                 
 if
@@ -1396,6 +1448,7 @@ self
 .
 warning
 (
+                
 "
 No
 symbols_url
@@ -1408,6 +1461,7 @@ for
 symbols
 .
 "
+            
 )
         
 return
@@ -1432,16 +1486,18 @@ target_dict
 in
 enumerate
 (
+            
 rw_config
 .
 all_cfg_files_and_dicts
+        
 )
 :
             
 if
-'
+"
 developer_config
-'
+"
 in
 target_file
 :
@@ -1474,7 +1530,7 @@ append
 the
 config
 called
-            
+        
 developer_config
 .
 py
@@ -1486,7 +1542,7 @@ to
 run
 a
 job
-            
+        
 outside
 of
 the
@@ -1494,14 +1550,14 @@ Release
 Engineering
 infrastructure
 .
-            
+        
 What
 this
 functions
 accomplishes
 is
 :
-            
+        
 *
 -
 -
@@ -1510,7 +1566,7 @@ installer
 url
 is
 set
-            
+        
 *
 -
 -
@@ -1521,7 +1577,7 @@ is
 set
 if
 needed
-            
+        
 *
 every
 url
@@ -1532,7 +1588,7 @@ another
 external
 to
 the
-                
+            
 Release
 Engineering
 network
@@ -1678,9 +1734,9 @@ c
 .
 get
 (
-'
+"
 test_url
-'
+"
 )
 and
 not
@@ -1688,9 +1744,9 @@ c
 .
 get
 (
-'
+"
 test_packages_url
-'
+"
 )
 :
                 
@@ -1698,6 +1754,7 @@ self
 .
 exception
 (
+                    
 "
 You
 must
@@ -1717,12 +1774,13 @@ packages
 url
 with
 "
-                               
+                    
 "
 developer_config
 .
 py
 "
+                
 )
         
 c
@@ -1802,6 +1860,7 @@ test_packages_url
 =
 _replace_url
 (
+                
 c
 [
 "
@@ -1814,6 +1873,7 @@ c
 replace_urls
 "
 ]
+            
 )
         
 for
@@ -1900,9 +1960,9 @@ kwargs
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 This
 function
@@ -1920,9 +1980,9 @@ releng
 network
 .
         
-'
-'
-'
+"
+"
+"
         
 #
 Code
@@ -1991,6 +2051,7 @@ self
 .
 info
 (
+                    
 "
 NOTICE
 :
@@ -2000,7 +2061,7 @@ from
 outside
 of
 "
-                          
+                    
 "
 Release
 Engineering
@@ -2008,11 +2069,12 @@ network
 require
 LDAP
 "
-                          
+                    
 "
 credentials
 .
 "
+                
 )
             
 self
@@ -2191,9 +2253,9 @@ platform_name
 )
 in
 (
-'
+"
 win64
-'
+"
 )
 and
 platform
@@ -2206,9 +2268,11 @@ architecture
 ]
 in
 (
-'
+                
+"
 x64
-'
+"
+            
 )
 :
                 
@@ -2358,6 +2422,7 @@ URL
         
 if
 (
+            
 self
 .
 config
@@ -2368,18 +2433,19 @@ get
 require_test_zip
 "
 )
-and
             
+and
 not
 self
 .
 test_url
-and
             
+and
 not
 self
 .
 test_packages_url
+        
 )
 :
             
@@ -2459,22 +2525,22 @@ self
 .
 download_file
 (
+            
 self
 .
 test_packages_url
-                                    
 parent_dir
 =
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                    
 error_level
 =
 FATAL
+        
 )
         
 with
@@ -2518,6 +2584,7 @@ self
 .
 fatal
 (
+                    
 "
 There
 was
@@ -2531,7 +2598,7 @@ from
 %
 s
 "
-                           
+                    
 "
 requirements
 :
@@ -2543,23 +2610,23 @@ error
 %
 s
 "
+                    
 %
 (
 source
-                                                                 
 package_requirements
 or
-'
+"
 None
-'
-                                                                 
+"
 err
 or
-'
+"
 No
 error
-'
+"
 )
+                
 )
         
 return
@@ -2621,183 +2688,183 @@ aliases
 =
 {
             
-'
+"
 mochitest
 -
 chrome
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 media
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 plain
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 plain
 -
 gpu
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 webgl1
 -
 core
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 webgl1
 -
 ext
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 webgl2
 -
 core
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 webgl2
 -
 ext
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 webgl2
 -
 deqp
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 mochitest
 -
 webgpu
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 geckoview
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 geckoview
 -
 junit
-'
+"
 :
-'
+"
 mochitest
-'
+"
             
-'
+"
 reftest
 -
 qr
-'
+"
 :
-'
+"
 reftest
-'
+"
             
-'
+"
 crashtest
-'
+"
 :
-'
+"
 reftest
-'
+"
             
-'
+"
 crashtest
 -
 qr
-'
+"
 :
-'
+"
 reftest
-'
+"
             
-'
+"
 reftest
 -
 debug
-'
+"
 :
-'
+"
 reftest
-'
+"
             
-'
+"
 crashtest
 -
 debug
-'
+"
 :
-'
+"
 reftest
-'
+"
         
 }
         
@@ -2831,10 +2898,10 @@ dirs
 .
 get
 (
-'
+            
+"
 abs_test_install_dir
-'
-                                    
+"
 os
 .
 path
@@ -2843,14 +2910,15 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 tests
-'
+"
 )
+        
 )
         
 self
@@ -2996,9 +3064,9 @@ extend
 (
 package_requirements
 [
-'
+"
 common
-'
+"
 ]
 )
         
@@ -3028,6 +3096,7 @@ self
 .
 info
 (
+            
 "
 Downloading
 packages
@@ -3042,12 +3111,13 @@ categories
 %
 s
 "
+            
 %
-                  
 (
 target_packages
 suite_categories
 )
+        
 )
         
 for
@@ -3094,16 +3164,17 @@ extracted
 required_files
 =
 [
+                    
 "
 mach
 "
-                                  
+                    
 "
 mozinfo
 .
 json
 "
-                                  
+                
 ]
                 
 for
@@ -3123,6 +3194,7 @@ self
 .
 info
 (
+                            
 "
 Adding
 '
@@ -3137,12 +3209,14 @@ common
 tests
 archive
 "
-                                  
 .
 format
 (
+                                
 req_file
+                            
 )
+                        
 )
                         
 unpack_dirs
@@ -3195,9 +3269,9 @@ target_dir
 =
 dirs
 [
-'
+"
 abs_test_bin_dir
-'
+"
 ]
             
 if
@@ -3244,7 +3318,6 @@ download_unpack
 (
 url
 target_dir
-                                 
 extract_dirs
 =
 unpack_dirs
@@ -3274,10 +3347,10 @@ dirs
 .
 get
 (
-'
+            
+"
 abs_test_install_dir
-'
-                                    
+"
 os
 .
 path
@@ -3286,14 +3359,15 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 tests
-'
+"
 )
+        
 )
         
 self
@@ -3304,7 +3378,6 @@ self
 .
 test_url
 test_install_dir
-                             
 extract_dirs
 =
 extract_dirs
@@ -3363,43 +3436,49 @@ bugs
         
 return
 (
-'
+            
+"
 structured_suites
-'
+"
 in
 self
 .
 config
+            
 and
-                
 suite_category
 in
 self
 .
 config
 [
-'
+"
 structured_suites
-'
+"
 ]
+        
 )
     
 def
 get_test_output_parser
 (
+        
 self
+        
 suite_category
+        
 strict
 =
 False
-                               
+        
 fallback_parser_class
 =
 DesktopUnittestOutputParser
-                               
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -3460,12 +3539,14 @@ DesktopUnittestOutputParser
 return
 DesktopUnittestOutputParser
 (
+                    
 suite_category
 =
 suite_category
 *
 *
 kwargs
+                
 )
             
 return
@@ -3498,6 +3579,7 @@ suite_category
 return
 StructuredOutputParser
 (
+            
 suite_category
 =
 suite_category
@@ -3507,6 +3589,7 @@ strict
 *
 *
 kwargs
+        
 )
     
 def
@@ -3546,26 +3629,28 @@ self
 .
 download_file
 (
+            
 self
 .
 installer_url
-                                    
+            
 file_name
 =
 file_name
-                                    
+            
 parent_dir
 =
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                    
+            
 error_level
 =
 FATAL
+        
 )
         
 self
@@ -3603,15 +3688,15 @@ config
 .
 get
 (
-'
+"
 download_symbols
-'
+"
 )
 =
 =
-'
+"
 ondemand
-'
+"
 :
             
 self
@@ -3709,9 +3794,9 @@ query_symbols_url
 kwargs
 =
 {
-'
+"
 raise_on_failure
-'
+"
 :
 True
 }
@@ -3759,13 +3844,13 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-'
+"
 symbols
-'
+"
 )
             
 if
@@ -3870,18 +3955,18 @@ org
 for
 attr
 in
-'
+"
 symbols_url
-'
-'
+"
+"
 installer_url
-'
-'
+"
+"
 test_packages_url
-'
-'
+"
+"
 test_url
-'
+"
 :
             
 url
@@ -3942,9 +4027,9 @@ new_url
 )
         
 if
-'
+"
 test_url
-'
+"
 in
 self
 .
@@ -3978,6 +4063,7 @@ self
 .
 error
 (
+                    
 '
 Test
 data
@@ -3993,7 +4079,7 @@ the
 specified
 test
 '
-                           
+                    
 '
 package
 data
@@ -4007,8 +4093,8 @@ be
 ignored
 .
 '
+                    
 %
-                           
 (
 self
 .
@@ -4016,14 +4102,15 @@ config
 .
 get
 (
-'
+"
 test_url
-'
+"
 )
 self
 .
 test_packages_url
 )
+                
 )
             
 self
@@ -4109,12 +4196,14 @@ self
 .
 query_prefixed_build_dir_url
 (
-'
+                    
+"
 .
 test_packages
 .
 json
-'
+"
+                
 )
             
 suite_categories
@@ -4122,9 +4211,9 @@ suite_categories
 suite_categories
 or
 [
-'
+"
 common
-'
+"
 ]
             
 self
@@ -4148,9 +4237,9 @@ config
 .
 get
 (
-'
+"
 download_symbols
-'
+"
 )
 :
             
@@ -4188,9 +4277,9 @@ config
 .
 get
 (
-'
+"
 installer_path
-'
+"
 )
 :
                 
@@ -4202,9 +4291,9 @@ self
 .
 config
 [
-'
+"
 installer_path
-'
+"
 ]
             
 else
@@ -4214,6 +4303,7 @@ self
 .
 fatal
 (
+                    
 "
 "
 "
@@ -4252,6 +4342,7 @@ action
 "
 "
 "
+                
 )
         
 if
@@ -4270,6 +4361,7 @@ self
 .
 fatal
 (
+                
 "
 "
 "
@@ -4301,6 +4393,7 @@ virtualenv_modules
 "
 "
 "
+            
 )
     
 def
@@ -4356,11 +4449,11 @@ cmd
 extend
 (
 [
-'
+"
 -
 -
 app
-'
+"
 app
 ]
 )
@@ -4413,19 +4506,19 @@ get_output_from_command
 cmd
 +
 [
-'
+"
 -
 h
-'
+"
 ]
 )
         
 if
-'
+"
 -
 -
 source
-'
+"
 in
 output
 :
@@ -4434,11 +4527,11 @@ cmd
 .
 append
 (
-'
+"
 -
 -
 source
-'
+"
 )
         
 #
@@ -4464,10 +4557,10 @@ dirs
 .
 get
 (
-'
+                
+"
 abs_app_install_dir
-'
-                                  
+"
 os
 .
 path
@@ -4476,15 +4569,15 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                               
-'
+"
 application
-'
+"
 )
+            
 )
         
 self
@@ -4511,12 +4604,11 @@ extend
 (
 [
 installer_path
-                    
-'
+"
 -
 -
 destination
-'
+"
 target_dir
 ]
 )
@@ -4537,14 +4629,15 @@ self
 .
 get_output_from_command
 (
+            
 cmd
 halt_on_failure
 =
 True
-                                            
 fatal_exit_code
 =
 3
+        
 )
     
 def
@@ -4570,9 +4663,9 @@ config
 .
 get
 (
-'
+"
 application
-'
+"
 )
 )
     
@@ -4607,10 +4700,11 @@ self
 .
 query_exe
 (
+            
 "
 mozuninstall
 "
-                             
+            
 default
 =
 self
@@ -4621,12 +4715,13 @@ query_python_path
 mozuninstall
 "
 )
-                             
+            
 return_type
 =
 "
 list
 "
+        
 )
         
 dirs
@@ -4648,10 +4743,10 @@ dirs
 .
 get
 (
-'
+                
+"
 abs_app_install_dir
-'
-                                   
+"
 os
 .
 path
@@ -4660,15 +4755,15 @@ join
 (
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                                                
-'
+"
 application
-'
+"
 )
+            
 )
         
 cmd
@@ -4697,7 +4792,6 @@ cmd
 halt_on_failure
 =
 True
-                                     
 fatal_exit_code
 =
 3
@@ -4742,9 +4836,9 @@ minidump_stackwalk_path
 None
         
 if
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 in
 os
 .
@@ -4764,18 +4858,19 @@ os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
                 
-'
+"
 minidump_stackwalk
-'
+"
                 
-'
+"
 minidump_stackwalk
-'
+"
+            
 )
             
 if
@@ -4786,22 +4881,22 @@ platform_name
 )
 in
 (
-'
+"
 win32
-'
-'
+"
+"
 win64
-'
+"
 )
 :
                 
 minidump_stackwalk_path
 +
 =
-'
+"
 .
 exe
-'
+"
         
 if
 not
@@ -5110,9 +5205,9 @@ if
 not
 suite
 [
-'
+"
 enabled
-'
+"
 ]
 :
                 
@@ -5123,9 +5218,9 @@ suite
 .
 get
 (
-'
+"
 architectures
-'
+"
 )
 :
                 
@@ -5146,9 +5241,9 @@ not
 in
 suite
 [
-'
+"
 architectures
-'
+"
 ]
 :
                     
@@ -5158,24 +5253,25 @@ cmd
 =
 suite
 [
-'
+"
 cmd
-'
+"
 ]
             
 name
 =
 suite
 [
-'
+"
 name
-'
+"
 ]
             
 self
 .
 info
 (
+                
 "
 Running
 pre
@@ -5195,67 +5291,70 @@ cmd
 s
 '
 "
-                      
+                
 %
 {
-'
+"
 name
-'
+"
 :
 name
-'
+"
 cmd
-'
+"
 :
-'
-'
+"
+"
 .
 join
 (
 cmd
 )
 }
+            
 )
             
 self
 .
 run_command
 (
+                
 cmd
-                             
+                
 cwd
 =
 dirs
 [
-'
+"
 abs_work_dir
-'
+"
 ]
-                             
+                
 error_list
 =
 BaseErrorList
-                             
+                
 halt_on_failure
 =
 suite
 [
-'
+"
 halt_on_failure
-'
+"
 ]
-                             
+                
 fatal_exit_code
 =
 suite
 .
 get
 (
-'
+"
 fatal_exit_code
-'
+"
 3
 )
+            
 )
     
 def
@@ -5288,9 +5387,9 @@ c
 .
 get
 (
-'
+"
 run_cmd_checks_enabled
-'
+"
 )
 :
             
@@ -5302,9 +5401,9 @@ c
 .
 get
 (
-'
+"
 preflight_run_cmd_suites
-'
+"
 [
 ]
 )
@@ -5315,9 +5414,9 @@ c
 .
 get
 (
-'
+"
 preflight_run_cmd_suites
-'
+"
 )
 :
             
@@ -5325,6 +5424,7 @@ self
 .
 warning
 (
+                
 "
 Proceeding
 without
@@ -5334,7 +5434,7 @@ test
 commands
 .
 "
-                         
+                
 "
 These
 are
@@ -5346,7 +5446,7 @@ disabling
 them
 may
 "
-                         
+                
 "
 result
 in
@@ -5355,6 +5455,7 @@ test
 results
 !
 "
+            
 )
     
 def
@@ -5387,9 +5488,9 @@ c
 .
 get
 (
-'
+"
 run_cmd_checks_enabled
-'
+"
 )
 :
             
@@ -5401,9 +5502,9 @@ c
 .
 get
 (
-'
+"
 postflight_run_cmd_suites
-'
+"
 [
 ]
 )
@@ -5429,9 +5530,9 @@ query_abs_dirs
 )
         
 if
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 in
 os
 .
@@ -5440,18 +5541,18 @@ environ
             
 abs_dirs
 [
-'
+"
 abs_fetches_dir
-'
+"
 ]
 =
 os
 .
 environ
 [
-'
+"
 MOZ_FETCHES_DIR
-'
+"
 ]
         
 return

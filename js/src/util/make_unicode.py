@@ -324,31 +324,31 @@ code_point
 ]
         
 return
-'
+"
 {
 }
 {
 }
-'
+"
 .
 format
 (
 name
 (
-'
+"
 (
-'
+"
 +
 alias
 +
-'
+"
 )
-'
+"
 if
 alias
 else
-'
-'
+"
+"
 )
 )
     
@@ -373,7 +373,7 @@ code_point
 ]
         
 return
-'
+"
 U
 +
 {
@@ -384,28 +384,30 @@ U
 }
 {
 }
-'
+"
 .
 format
 (
+            
 code_point
 name
 (
-'
+"
 (
-'
+"
 +
 alias
 +
-'
+"
 )
-'
+"
 if
 alias
 else
-'
-'
+"
+"
 )
+        
 )
 #
 ECMAScript
@@ -438,32 +440,30 @@ names
 CHARACTER
 TABULATION
     
-0xb
+0xB
 #
 LINE
 TABULATION
     
-0xc
+0xC
 #
 FORM
 FEED
     
 ord
 (
-u
-'
+"
 \
 N
 {
 SPACE
 }
-'
+"
 )
     
 ord
 (
-u
-'
+"
 \
 N
 {
@@ -472,13 +472,12 @@ NO
 BREAK
 SPACE
 }
-'
+"
 )
     
 ord
 (
-u
-'
+"
 \
 N
 {
@@ -489,7 +488,7 @@ NO
 BREAK
 SPACE
 }
-'
+"
 )
 #
 also
@@ -505,40 +504,38 @@ line_terminator
 =
 [
     
-0xa
+0xA
 #
 LINE
 FEED
     
-0xd
+0xD
 #
 CARRIAGE
 RETURN
     
 ord
 (
-u
-'
+"
 \
 N
 {
 LINE
 SEPARATOR
 }
-'
+"
 )
     
 ord
 (
-u
-'
+"
 \
 N
 {
 PARAGRAPH
 SEPARATOR
 }
-'
+"
 )
 ]
 #
@@ -560,8 +557,7 @@ compatibility_identifier_part
     
 ord
 (
-u
-'
+"
 \
 N
 {
@@ -571,13 +567,12 @@ NON
 -
 JOINER
 }
-'
+"
 )
     
 ord
 (
-u
-'
+"
 \
 N
 {
@@ -585,7 +580,7 @@ ZERO
 WIDTH
 JOINER
 }
-'
+"
 )
 ]
 FLAG_SPACE
@@ -608,7 +603,7 @@ FLAG_UNICODE_ID_CONTINUE_ONLY
 2
 MAX_BMP
 =
-0xffff
+0xFFFF
 public_domain
 =
 "
@@ -820,7 +815,7 @@ unicode_data
 "
 "
 "
-        
+    
 If
 you
 want
@@ -833,7 +828,7 @@ file
 format
 works
 checkout
-          
+      
 Unicode
 Standard
 Annex
@@ -843,7 +838,7 @@ Annex
 Unicode
 Character
 Database
-          
+      
 http
 :
 /
@@ -874,9 +869,9 @@ delimiter
 =
 str
 (
-'
+"
 ;
-'
+"
 )
 )
     
@@ -930,19 +925,19 @@ name
 .
 startswith
 (
-'
+"
 <
-'
+"
 )
 and
 name
 .
 endswith
 (
-'
+"
 First
 >
-'
+"
 )
 :
             
@@ -1031,12 +1026,12 @@ case_folding
 "
 "
 "
-        
+    
 File
 format
 is
 :
-        
+    
 <
 code
 >
@@ -1068,18 +1063,18 @@ if
 line
 =
 =
-'
+"
 \
 n
-'
+"
 or
 line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
             
@@ -1091,9 +1086,9 @@ line
 .
 split
 (
-'
+"
 ;
-'
+"
 )
         
 if
@@ -1103,12 +1098,12 @@ row
 ]
 in
 [
-'
+"
 F
-'
-'
+"
+"
 T
-'
+"
 ]
 :
             
@@ -1121,15 +1116,13 @@ row
 ]
 in
 [
-'
+"
 C
-'
-'
+"
+"
 S
-'
+"
 ]
-\
-               
 "
 expect
 either
@@ -1190,18 +1183,18 @@ if
 line
 =
 =
-'
+"
 \
 n
-'
+"
 or
 line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
             
@@ -1213,9 +1206,9 @@ line
 .
 split
 (
-'
+"
 #
-'
+"
 )
 [
 0
@@ -1223,9 +1216,9 @@ split
 .
 split
 (
-'
+"
 ;
-'
+"
 )
         
 char_range
@@ -1251,10 +1244,10 @@ strip
 )
         
 if
-'
+"
 .
 .
-'
+"
 not
 in
 char_range
@@ -1282,10 +1275,10 @@ char_range
 .
 split
 (
-'
+"
 .
 .
-'
+"
 )
             
 for
@@ -1363,18 +1356,18 @@ if
 line
 =
 =
-'
+"
 \
 n
-'
+"
 or
 line
 .
 startswith
 (
-'
+"
 #
-'
+"
 )
 :
             
@@ -1386,9 +1379,9 @@ line
 .
 split
 (
-'
+"
 #
-'
+"
 )
 [
 0
@@ -1396,9 +1389,9 @@ split
 .
 split
 (
-'
+"
 ;
-'
+"
 )
         
 code
@@ -1442,8 +1435,8 @@ lower
 .
 split
 (
-'
-'
+"
+"
 )
 ]
 if
@@ -1478,8 +1471,8 @@ upper
 .
 split
 (
-'
-'
+"
+"
 )
 ]
 if
@@ -1520,8 +1513,8 @@ condition
 .
 split
 (
-'
-'
+"
+"
 )
 :
                 
@@ -1750,53 +1743,57 @@ code
         
 if
 (
+            
 entry
+            
 and
 code
 =
 =
 entry
 [
-'
+"
 code
-'
+"
 ]
 +
 entry
 [
-'
+"
 length
-'
+"
 ]
+            
 and
-                
 diff
 =
 =
 entry
 [
-'
+"
 diff
-'
+"
 ]
+            
 and
 lead
 =
 =
 entry
 [
-'
+"
 lead
-'
+"
 ]
+        
 )
 :
             
 entry
 [
-'
+"
 length
-'
+"
 ]
 +
 =
@@ -1808,33 +1805,33 @@ entry
 =
 {
             
-'
+"
 code
-'
+"
 :
 code
             
-'
+"
 diff
-'
+"
 :
 diff
             
-'
+"
 length
-'
+"
 :
 1
             
-'
+"
 lead
-'
+"
 :
 lead
             
-'
+"
 trail
-'
+"
 :
 trail
         
@@ -1876,25 +1873,25 @@ from_code
 =
 entry
 [
-'
+"
 code
-'
+"
 ]
         
 to_code
 =
 entry
 [
-'
+"
 code
-'
+"
 ]
 +
 entry
 [
-'
+"
 length
-'
+"
 ]
 -
 1
@@ -1903,43 +1900,43 @@ diff
 =
 entry
 [
-'
+"
 diff
-'
+"
 ]
         
 lead
 =
 entry
 [
-'
+"
 lead
-'
+"
 ]
         
 from_trail
 =
 entry
 [
-'
+"
 trail
-'
+"
 ]
         
 to_trail
 =
 entry
 [
-'
+"
 trail
-'
+"
 ]
 +
 entry
 [
-'
+"
 length
-'
+"
 ]
 -
 1
@@ -1948,7 +1945,8 @@ lines
 .
 append
 (
-'
+            
+"
 MACRO
 (
 0x
@@ -1981,25 +1979,28 @@ x
 d
 }
 )
-'
+"
 .
 format
 (
-            
+                
 from_code
 to_code
 lead
 from_trail
 to_trail
 diff
+            
 )
+        
 )
         
 comment
 .
 append
 (
-'
+            
+"
 /
 /
 {
@@ -2008,34 +2009,36 @@ append
 .
 {
 }
-'
+"
 .
 format
 (
+                
 codepoint_table
 .
 full_name
 (
 from_code
 )
-                                            
 codepoint_table
 .
 full_name
 (
 to_code
 )
+            
 )
+        
 )
     
 out_file
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2047,17 +2050,17 @@ out_file
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
     
 out_file
 .
 write
 (
-'
+"
 #
 define
 FOR_EACH_NON_BMP_
@@ -2070,7 +2073,7 @@ MACRO
 \
 \
 n
-'
+"
 .
 format
 (
@@ -2082,12 +2085,12 @@ out_file
 .
 write
 (
-'
+"
 \
 \
 \
 n
-'
+"
 .
 join
 (
@@ -2099,10 +2102,10 @@ out_file
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
 def
 process_derived_core_properties
@@ -2139,9 +2142,9 @@ if
 prop
 =
 =
-'
+"
 ID_Start
-'
+"
 :
             
 id_start
@@ -2155,9 +2158,9 @@ if
 prop
 =
 =
-'
+"
 ID_Continue
-'
+"
 :
             
 id_continue
@@ -2402,9 +2405,9 @@ if
 category
 =
 =
-'
+"
 Zs
-'
+"
 :
                 
 non_bmp_space_set
@@ -2485,9 +2488,9 @@ if
 category
 =
 =
-'
+"
 Zs
-'
+"
 or
 code
 in
@@ -2588,13 +2591,13 @@ upper
 =
 up_d
 &
-0xffff
+0xFFFF
         
 lower
 =
 low_d
 &
-0xffff
+0xFFFF
         
 item
 =
@@ -2655,17 +2658,21 @@ return
 (
         
 table
+        
 index
         
 non_bmp_lower_map
+        
 non_bmp_upper_map
         
 non_bmp_space_set
         
 non_bmp_id_start_set
+        
 non_bmp_id_cont_set
         
 codepoint_table
+        
 test_space_table
     
 )
@@ -2934,7 +2941,7 @@ folding
 =
 folding_d
 &
-0xffff
+0xFFFF
         
 item
 =
@@ -2991,12 +2998,9 @@ i
     
 return
 (
-        
 folding_table
 folding_index
-        
 folding_tests
-    
 )
 def
 process_special_casing
@@ -3088,14 +3092,14 @@ code
 lower
 )
 &
-0xffff
+0xFFFF
 (
 code
 +
 upper
 )
 &
-0xffff
+0xFFFF
 )
     
 for
@@ -3109,7 +3113,9 @@ contexts
 in
 read_special_casing
 (
+        
 special_casing
+    
 )
 :
         
@@ -3118,7 +3124,7 @@ code
 <
 =
 MAX_BMP
-'
+"
 Unexpected
 character
 outside
@@ -3127,7 +3133,7 @@ BMP
 :
 %
 s
-'
+"
 %
 code
         
@@ -3139,7 +3145,7 @@ languages
 <
 =
 1
-'
+"
 Expected
 zero
 or
@@ -3149,7 +3155,7 @@ ids
 :
 %
 s
-'
+"
 %
 languages
         
@@ -3161,7 +3167,9 @@ contexts
 <
 =
 1
-'
+(
+            
+"
 Expected
 zero
 or
@@ -3171,9 +3179,11 @@ contexts
 :
 %
 s
-'
+"
 %
 languages
+        
+)
         
 (
 default_lower
@@ -3527,7 +3537,7 @@ if
 ch
 <
 =
-0x7f
+0x7F
 )
     
 def
@@ -3552,7 +3562,7 @@ if
 ch
 <
 =
-0xff
+0xFF
 )
     
 def
@@ -3912,26 +3922,31 @@ characters
 .
     
 assert
-max
-(
-map
-(
-len
-chain
 (
         
+max
+(
+            
+map
+(
+                
+len
+                
+chain
+(
+                    
 unconditional_tolower
 .
 values
 (
 )
-        
+                    
 unconditional_toupper
 .
 values
 (
 )
-        
+                    
 map
 (
 itemgetter
@@ -3944,7 +3959,7 @@ values
 (
 )
 )
-        
+                    
 map
 (
 itemgetter
@@ -3957,23 +3972,25 @@ values
 (
 )
 )
-        
+                    
 map
 (
+                        
 itemgetter
 (
 0
 )
+                        
 chain
 .
 from_iterable
 (
+                            
 d
 .
 values
 (
 )
-                                               
 for
 d
 in
@@ -3982,25 +3999,29 @@ lang_conditional_tolower
 values
 (
 )
+                        
 )
+                    
 )
-        
+                    
 map
 (
+                        
 itemgetter
 (
 0
 )
+                        
 chain
 .
 from_iterable
 (
+                            
 d
 .
 values
 (
 )
-                                               
 for
 d
 in
@@ -4009,15 +4030,22 @@ lang_conditional_toupper
 values
 (
 )
+                        
 )
+                    
 )
-    
+                
 )
+            
 )
+        
 )
+        
 <
 =
 3
+    
+)
     
 #
 Ensure
@@ -4045,41 +4073,51 @@ Algorithms
 assert
 set
 (
-[
         
-'
+[
+            
+"
 After_I
-'
-'
+"
+            
+"
 After_Soft_Dotted
-'
-'
+"
+            
+"
 Final_Sigma
-'
-'
+"
+            
+"
 More_Above
-'
-'
+"
+            
+"
 Not_Before_Dot
-'
-    
+"
+        
 ]
+    
 )
 .
 issuperset
 (
+        
 set
 (
+            
 filter
 (
+                
 partial
 (
 is_not
 None
 )
+                
 chain
 (
-        
+                    
 map
 (
 itemgetter
@@ -4092,7 +4130,7 @@ values
 (
 )
 )
-        
+                    
 map
 (
 itemgetter
@@ -4105,23 +4143,25 @@ values
 (
 )
 )
-        
+                    
 map
 (
+                        
 itemgetter
 (
 1
 )
+                        
 chain
 .
 from_iterable
 (
+                            
 d
 .
 values
 (
 )
-                                               
 for
 d
 in
@@ -4130,25 +4170,29 @@ lang_conditional_tolower
 values
 (
 )
+                        
 )
+                    
 )
-        
+                    
 map
 (
+                        
 itemgetter
 (
 1
 )
+                        
 chain
 .
 from_iterable
 (
+                            
 d
 .
 values
 (
 )
-                                               
 for
 d
 in
@@ -4157,12 +4201,17 @@ lang_conditional_toupper
 values
 (
 )
+                        
 )
+                    
+)
+                
+)
+            
+)
+        
 )
     
-)
-)
-)
 )
     
 #
@@ -4197,8 +4246,11 @@ unconditional_toupper
 =
 =
 [
+        
 0x0053
+        
 0x0053
+    
 ]
     
 #
@@ -4262,12 +4314,15 @@ conditional_tolower
 =
 =
 (
+        
 [
 0x03C2
 ]
-'
+        
+"
 Final_Sigma
-'
+"
+    
 )
     
 return
@@ -4279,21 +4334,19 @@ def
 make_non_bmp_file
 (
 version
-                      
 non_bmp_lower_map
 non_bmp_upper_map
-                      
 codepoint_table
 )
 :
     
 file_name
 =
-'
+"
 UnicodeNonBMP
 .
 h
-'
+"
     
 with
 io
@@ -4303,16 +4356,16 @@ open
 file_name
 mode
 =
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 non_bmp_file
@@ -4329,10 +4382,10 @@ non_bmp_file
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 non_bmp_file
@@ -4358,6 +4411,7 @@ non_bmp_file
 .
 write
 (
+            
 "
 "
 "
@@ -4456,42 +4510,48 @@ point
 "
 "
 "
+        
 )
         
 make_non_bmp_convert_macro
 (
+            
 non_bmp_file
-'
+"
 LOWERCASE
-'
+"
 non_bmp_lower_map
 codepoint_table
+        
 )
         
 non_bmp_file
 .
 write
 (
-'
+"
 \
 n
-'
+"
 )
         
 make_non_bmp_convert_macro
 (
+            
 non_bmp_file
-'
+"
 UPPERCASE
-'
+"
 non_bmp_upper_map
 codepoint_table
+        
 )
         
 non_bmp_file
 .
 write
 (
+            
 "
 "
 "
@@ -4505,6 +4565,7 @@ util_UnicodeNonBMP_h
 "
 "
 "
+        
 )
 def
 write_special_casing_methods
@@ -4542,13 +4603,13 @@ n
 "
         
 return
-'
+"
 0x
 {
 :
 04X
 }
-'
+"
 .
 format
 (
@@ -4567,8 +4628,8 @@ indent
 =
 depth
 *
-'
-'
+"
+"
         
 for
 (
@@ -4589,12 +4650,12 @@ end
 println
 (
 indent
-'
+"
 /
 /
 {
 }
-'
+"
 .
 format
 (
@@ -4612,8 +4673,10 @@ else
                 
 println
 (
+                    
 indent
-'
+                    
+"
 /
 /
 {
@@ -4622,24 +4685,26 @@ indent
 .
 {
 }
-'
+"
 .
 format
 (
+                        
 codepoint_table
 .
 full_name
 (
 start
 )
-                                                     
 codepoint_table
 .
 full_name
 (
 end
 )
+                    
 )
+                
 )
     
 def
@@ -4683,22 +4748,20 @@ end
 "
         
 if
-(
 start
 =
 =
 end
-)
 :
             
 return
-'
+"
 ch
 !
 =
 {
 }
-'
+"
 .
 format
 (
@@ -4709,7 +4772,7 @@ start
 )
         
 return
-'
+"
 ch
 <
 {
@@ -4720,7 +4783,7 @@ ch
 >
 {
 }
-'
+"
 .
 format
 (
@@ -4774,22 +4837,20 @@ end
 "
         
 if
-(
 start
 =
 =
 end
-)
 :
             
 return
-'
+"
 ch
 =
 =
 {
 }
-'
+"
 .
 format
 (
@@ -4805,25 +4866,25 @@ right
 )
 =
 (
-'
+"
 (
-'
-'
+"
+"
 )
-'
+"
 )
 if
 parenthesize
 else
 (
-'
-'
-'
-'
+"
+"
+"
+"
 )
         
 return
-'
+"
 {
 }
 ch
@@ -4840,10 +4901,11 @@ ch
 }
 {
 }
-'
+"
 .
 format
 (
+            
 left
 hexlit
 (
@@ -4854,6 +4916,7 @@ hexlit
 end
 )
 right
+        
 )
     
 def
@@ -4914,10 +4977,10 @@ True
             
 line
 =
-'
+"
 |
 |
-'
+"
 .
 join
 (
@@ -4948,10 +5011,10 @@ spaces
 -
 len
 (
-'
+"
 |
 |
-'
+"
 )
 )
 :
@@ -4980,14 +5043,14 @@ expr
 )
         
 return
-'
+"
 |
 |
 \
 n
 {
 }
-'
+"
 .
 format
 (
@@ -4996,10 +5059,10 @@ spaces
 .
 join
 (
-'
+"
 |
 |
-'
+"
 .
 join
 (
@@ -5092,8 +5155,8 @@ indent
 =
 depth
 *
-'
-'
+"
+"
         
 child_ranges
 =
@@ -5166,7 +5229,7 @@ has_successor
 println
 (
 indent
-'
+"
 if
 (
 ch
@@ -5177,7 +5240,7 @@ ch
 )
 {
 {
-'
+"
 .
 format
 (
@@ -5191,7 +5254,7 @@ max_child
 println
 (
 indent
-'
+"
 return
 ch
 >
@@ -5199,7 +5262,7 @@ ch
 {
 }
 ;
-'
+"
 .
 format
 (
@@ -5213,9 +5276,9 @@ min_child
 println
 (
 indent
-'
+"
 }
-'
+"
 )
             
 else
@@ -5224,12 +5287,12 @@ else
 println
 (
 indent
-'
+"
 return
 {
 }
 ;
-'
+"
 .
 format
 (
@@ -5268,13 +5331,13 @@ indent
 +
 len
 (
-'
+"
 return
-'
+"
 )
 *
-'
-'
+"
+"
         
 else
 :
@@ -5285,13 +5348,13 @@ indent
 +
 len
 (
-'
+"
 return
-'
+"
 )
 *
-'
-'
+"
+"
         
 range_test_expr
 =
@@ -5311,7 +5374,7 @@ min_parent
 println
 (
 indent
-'
+"
 if
 (
 ch
@@ -5321,7 +5384,7 @@ ch
 )
 {
 {
-'
+"
 .
 format
 (
@@ -5335,19 +5398,19 @@ min_child
 println
 (
 indent
-'
+"
 return
 false
 ;
-'
+"
 )
             
 println
 (
 indent
-'
+"
 }
-'
+"
 )
         
 #
@@ -5399,12 +5462,12 @@ depth
 println
 (
 indent
-'
+"
 return
 {
 }
 ;
-'
+"
 .
 format
 (
@@ -5418,7 +5481,7 @@ else
 println
 (
 indent
-'
+"
 if
 (
 ch
@@ -5429,7 +5492,7 @@ ch
 )
 {
 {
-'
+"
 .
 format
 (
@@ -5451,12 +5514,12 @@ depth
 println
 (
 indent
-'
+"
 return
 {
 }
 ;
-'
+"
 .
 format
 (
@@ -5467,9 +5530,9 @@ range_test_expr
 println
 (
 indent
-'
+"
 }
-'
+"
 )
     
 def
@@ -5498,14 +5561,14 @@ mapping
         
 println
 (
-'
+"
 bool
-'
+"
 )
         
 println
 (
-'
+"
 js
 :
 :
@@ -5517,14 +5580,14 @@ ChangesWhenUpperCasedSpecialCasing
 char16_t
 ch
 )
-'
+"
 )
         
 println
 (
-'
+"
 {
-'
+"
 )
         
 assert
@@ -5581,7 +5644,7 @@ character
         
 println
 (
-'
+"
 if
 (
 {
@@ -5589,7 +5652,7 @@ if
 )
 {
 {
-'
+"
 .
 format
 (
@@ -5610,18 +5673,18 @@ code_list
         
 println
 (
-'
+"
 return
 false
 ;
-'
+"
 )
         
 println
 (
-'
+"
 }
-'
+"
 )
         
 for
@@ -5810,7 +5873,7 @@ is_last_block
                 
 println
 (
-'
+"
 if
 (
 ch
@@ -5821,7 +5884,7 @@ ch
 )
 {
 {
-'
+"
 .
 format
 (
@@ -5841,7 +5904,7 @@ else
                 
 println
 (
-'
+"
 if
 (
 ch
@@ -5851,7 +5914,7 @@ ch
 )
 {
 {
-'
+"
 .
 format
 (
@@ -5867,18 +5930,18 @@ matches
                 
 println
 (
-'
+"
 return
 false
 ;
-'
+"
 )
                 
 println
 (
-'
+"
 }
-'
+"
 )
             
 for
@@ -5962,16 +6025,16 @@ is_last_block
                 
 println
 (
-'
+"
 }
-'
+"
 )
         
 println
 (
-'
+"
 }
-'
+"
 )
     
 def
@@ -6002,14 +6065,14 @@ length
         
 println
 (
-'
+"
 size_t
-'
+"
 )
         
 println
 (
-'
+"
 js
 :
 :
@@ -6021,25 +6084,25 @@ LengthUpperCaseSpecialCasing
 char16_t
 ch
 )
-'
+"
 )
         
 println
 (
-'
+"
 {
-'
+"
 )
         
 println
 (
-'
+"
 switch
 (
 ch
 )
 {
-'
+"
 )
         
 for
@@ -6050,6 +6113,7 @@ converted
 in
 sorted
 (
+            
 unconditional_toupper
 .
 items
@@ -6061,12 +6125,14 @@ itemgetter
 (
 0
 )
+        
 )
 :
             
 println
 (
-'
+                
+"
 case
 {
 }
@@ -6079,10 +6145,11 @@ return
 /
 {
 }
-'
+"
 .
 format
 (
+                    
 hexlit
 (
 code
@@ -6091,27 +6158,28 @@ len
 (
 converted
 )
-                                                             
 codepoint_table
 .
 name
 (
 code
 )
+                
 )
+            
 )
         
 println
 (
-'
+"
 }
-'
+"
 )
         
 println
 (
-'
-'
+"
+"
 )
         
 println
@@ -6132,18 +6200,18 @@ input
         
 println
 (
-'
+"
 return
 0
 ;
-'
+"
 )
         
 println
 (
-'
+"
 }
-'
+"
 )
     
 def
@@ -6174,14 +6242,15 @@ characters
         
 println
 (
-'
+"
 void
-'
+"
 )
         
 println
 (
-'
+            
+"
 js
 :
 :
@@ -6199,29 +6268,30 @@ size_t
 *
 index
 )
-'
-)
+"
 #
 NOQA
 :
 E501
         
-println
-(
-'
-{
-'
 )
         
 println
 (
-'
+"
+{
+"
+)
+        
+println
+(
+"
 switch
 (
 ch
 )
 {
-'
+"
 )
         
 for
@@ -6232,6 +6302,7 @@ converted
 in
 sorted
 (
+            
 unconditional_toupper
 .
 items
@@ -6243,12 +6314,14 @@ itemgetter
 (
 0
 )
+        
 )
 :
             
 println
 (
-'
+                
+"
 case
 {
 }
@@ -6257,7 +6330,7 @@ case
 /
 {
 }
-'
+"
 .
 format
 (
@@ -6272,6 +6345,7 @@ name
 code
 )
 )
+            
 )
             
 for
@@ -6282,7 +6356,8 @@ converted
                 
 println
 (
-'
+                    
+"
 elements
 [
 (
@@ -6300,44 +6375,45 @@ index
 /
 {
 }
-'
-                        
+"
 .
 format
 (
+                        
 hexlit
 (
 ch
 )
-                                
 codepoint_table
 .
 name
 (
 ch
 )
+                    
 )
+                
 )
             
 println
 (
-'
+"
 return
 ;
-'
+"
 )
         
 println
 (
-'
+"
 }
-'
+"
 )
         
 println
 (
-'
-'
+"
+"
 )
         
 println
@@ -6358,9 +6434,9 @@ input
         
 println
 (
-'
+"
 }
-'
+"
 )
     
 write_ChangesWhenUpperCasedSpecialCasing
@@ -6369,8 +6445,8 @@ write_ChangesWhenUpperCasedSpecialCasing
     
 println
 (
-'
-'
+"
+"
 )
     
 write_LengthUpperCaseSpecialCasing
@@ -6379,8 +6455,8 @@ write_LengthUpperCaseSpecialCasing
     
 println
 (
-'
-'
+"
+"
 )
     
 write_AppendUpperCaseSpecialCasing
@@ -6409,15 +6485,14 @@ code
 =
 ord
 (
-u
-'
+"
 \
 N
 {
 DOLLAR
 SIGN
 }
-'
+"
 )
 or
 code
@@ -6425,15 +6500,14 @@ code
 =
 ord
 (
-u
-'
+"
 \
 N
 {
 LOW
 LINE
 }
-'
+"
 )
     
 def
@@ -6538,7 +6612,7 @@ predicate
         
 println
 (
-'
+"
 const
 bool
 unicode
@@ -6551,7 +6625,7 @@ unicode
 =
 {
 {
-'
+"
 .
 format
 (
@@ -6595,14 +6669,14 @@ rstrip
         
 println
 (
-'
+"
 /
 *
 {
 }
 *
 /
-'
+"
 .
 format
 (
@@ -6622,7 +6696,7 @@ range
             
 write
 (
-'
+"
 /
 *
 {
@@ -6633,7 +6707,7 @@ write
 }
 *
 /
-'
+"
 .
 format
 (
@@ -6660,70 +6734,69 @@ i
 j
                 
 if
-(
 code
 <
 =
-0x7f
-)
+0x7F
 :
                     
 write
 (
-'
+"
 {
 }
-'
+"
 .
 format
 (
-'
+"
 true
-'
+"
 if
 predicate
 (
 code
 )
 else
-'
+"
 ____
-'
+"
 )
 )
             
 println
 (
-'
-'
+"
+"
 )
         
 println
 (
-'
+"
 }
 ;
-'
+"
 )
     
 println
 (
-'
-'
+"
+"
 )
     
 println
 (
-'
+"
 #
 define
 ____
 false
-'
+"
 )
     
 println
 (
+        
 "
 "
 "
@@ -6776,18 +6849,20 @@ z
 "
 "
 "
+    
 )
     
 write_entries
 (
-'
+"
 js_isidstart
-'
+"
 is_id_start
 )
     
 println
 (
+        
 "
 "
 "
@@ -6851,18 +6926,20 @@ z
 "
 "
 "
+    
 )
     
 write_entries
 (
-'
+"
 js_isident
-'
+"
 is_id_continue
 )
     
 println
 (
+        
 "
 "
 "
@@ -6904,29 +6981,30 @@ r
 "
 "
 "
+    
 )
     
 write_entries
 (
-'
+"
 js_isspace
-'
+"
 is_space
 )
     
 println
 (
-'
-'
+"
+"
 )
     
 println
 (
-'
+"
 #
 undef
 ____
-'
+"
 )
 def
 write_latin1_lookup_tables
@@ -6978,14 +7056,14 @@ code
 upper
 )
 &
-0xffff
+0xFFFF
 (
 code
 +
 lower
 )
 &
-0xffff
+0xFFFF
 flags
 )
     
@@ -7011,7 +7089,7 @@ assert
 lower
 <
 =
-0xff
+0xFF
 "
 lower
 -
@@ -7040,7 +7118,7 @@ mapper
         
 println
 (
-'
+"
 const
 JS
 :
@@ -7056,7 +7134,7 @@ unicode
 =
 {
 {
-'
+"
 .
 format
 (
@@ -7100,14 +7178,14 @@ rstrip
         
 println
 (
-'
+"
 /
 *
 {
 }
 *
 /
-'
+"
 .
 format
 (
@@ -7127,7 +7205,7 @@ range
             
 write
 (
-'
+"
 /
 *
 {
@@ -7138,7 +7216,7 @@ write
 }
 *
 /
-'
+"
 .
 format
 (
@@ -7165,23 +7243,21 @@ i
 j
                 
 if
-(
 code
 <
 =
-0xff
-)
+0xFF
 :
                     
 write
 (
-'
+"
 0x
 {
 :
 02X
 }
-'
+"
 .
 format
 (
@@ -7194,34 +7270,35 @@ code
             
 println
 (
-'
-'
+"
+"
 )
         
 println
 (
-'
+"
 }
 ;
-'
+"
 )
     
 println
 (
-'
-'
+"
+"
 )
     
 write_entries
 (
-'
+"
 latin1ToLowerCaseTable
-'
+"
 toLowerCase
 )
 def
 make_bmp_mapping_test
 (
+    
 version
 codepoint_table
 unconditional_tolower
@@ -7237,7 +7314,7 @@ n
 :
         
 return
-'
+"
 \
 \
 u
@@ -7245,7 +7322,7 @@ u
 :
 04X
 }
-'
+"
 .
 format
 (
@@ -7254,7 +7331,7 @@ n
     
 file_name
 =
-'
+"
 .
 .
 /
@@ -7273,7 +7350,7 @@ lower
 mapping
 .
 js
-'
+"
     
 with
 io
@@ -7283,16 +7360,16 @@ open
 file_name
 mode
 =
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 output
@@ -7308,12 +7385,12 @@ file
 output
 sep
 =
-'
-'
+"
+"
 end
 =
-'
-'
+"
+"
 )
         
 println
@@ -7326,14 +7403,14 @@ file
 output
 sep
 =
-'
-'
+"
+"
 end
 =
-'
+"
 \
 n
-'
+"
 )
         
 write
@@ -7358,12 +7435,12 @@ public_domain
         
 println
 (
-'
+"
 var
 mapping
 =
 [
-'
+"
 )
         
 for
@@ -7402,36 +7479,49 @@ entry
                 
 upper
 =
+(
+                    
 unconditional_toupper
 [
 code
 ]
+                    
 if
 code
 in
 unconditional_toupper
+                    
 else
 [
 upper
 ]
                 
+)
+                
 lower
 =
+(
+                    
 unconditional_tolower
 [
 code
 ]
+                    
 if
 code
 in
 unconditional_tolower
+                    
 else
 [
 lower
 ]
                 
+)
+                
 println
 (
+                    
 '
 [
 "
@@ -7453,6 +7543,7 @@ println
 .
 format
 (
+                        
 "
 "
 .
@@ -7464,7 +7555,7 @@ unicodeEsc
 upper
 )
 )
-                                                          
+                        
 "
 "
 .
@@ -7476,14 +7567,16 @@ unicodeEsc
 lower
 )
 )
-                                                          
+                        
 codepoint_table
 .
 name
 (
 code
 )
+                    
 )
+                
 )
             
 else
@@ -7517,14 +7610,15 @@ code
         
 println
 (
-'
+"
 ]
 ;
-'
+"
 )
         
 write
 (
+            
 "
 "
 "
@@ -7623,10 +7717,12 @@ true
 "
 "
 "
+        
 )
 def
 make_non_bmp_mapping_test
 (
+    
 version
 non_bmp_upper_map
 non_bmp_lower_map
@@ -7636,7 +7732,7 @@ codepoint_table
     
 file_name
 =
-'
+"
 .
 .
 /
@@ -7659,7 +7755,7 @@ lower
 mapping
 .
 js
-'
+"
     
 with
 io
@@ -7669,16 +7765,16 @@ open
 file_name
 mode
 =
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 test_non_bmp_mapping
@@ -7727,6 +7823,7 @@ test_non_bmp_mapping
 .
 write
 (
+                
 "
 "
 "
@@ -7771,28 +7868,33 @@ codePointAt
 .
 format
 (
+                    
 code
+                    
 non_bmp_upper_map
 [
 code
 ]
+                    
+codepoint_table
+.
+name
+(
+code
+)
+                    
+codepoint_table
+.
+name
+(
+non_bmp_upper_map
+[
+code
+]
+)
                 
-codepoint_table
-.
-name
-(
-code
 )
-codepoint_table
-.
-name
-(
-non_bmp_upper_map
-[
-code
-]
-)
-)
+            
 )
         
 for
@@ -7812,6 +7914,7 @@ test_non_bmp_mapping
 .
 write
 (
+                
 "
 "
 "
@@ -7856,34 +7959,40 @@ codePointAt
 .
 format
 (
+                    
 code
+                    
 non_bmp_lower_map
 [
 code
 ]
+                    
+codepoint_table
+.
+name
+(
+code
+)
+                    
+codepoint_table
+.
+name
+(
+non_bmp_lower_map
+[
+code
+]
+)
                 
-codepoint_table
-.
-name
-(
-code
 )
-codepoint_table
-.
-name
-(
-non_bmp_lower_map
-[
-code
-]
-)
-)
+            
 )
         
 test_non_bmp_mapping
 .
 write
 (
+            
 "
 "
 "
@@ -7908,6 +8017,7 @@ true
 "
 "
 "
+        
 )
 def
 make_space_test
@@ -7926,7 +8036,7 @@ c
 :
         
 return
-'
+"
 0x
 {
 :
@@ -7938,7 +8048,7 @@ return
 }
 *
 /
-'
+"
 .
 format
 (
@@ -7953,7 +8063,7 @@ c
     
 file_name
 =
-'
+"
 .
 .
 /
@@ -7970,7 +8080,7 @@ space
 trim
 .
 js
-'
+"
     
 with
 io
@@ -7980,16 +8090,16 @@ open
 file_name
 mode
 =
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 test_space
@@ -8025,7 +8135,7 @@ test_space
 .
 write
 (
-'
+"
 var
 onlySpace
 =
@@ -8035,17 +8145,17 @@ fromCharCode
 (
 \
 n
-'
+"
 )
         
 test_space
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -8061,20 +8171,21 @@ test_space
 .
 write
 (
-'
+"
 \
 n
 )
 ;
 \
 n
-'
+"
 )
         
 test_space
 .
 write
 (
+            
 "
 "
 "
@@ -8166,6 +8277,7 @@ true
 "
 "
 "
+        
 )
 def
 make_regexp_space_test
@@ -8184,7 +8296,7 @@ c
 :
         
 return
-'
+"
 0x
 {
 :
@@ -8196,7 +8308,7 @@ return
 }
 *
 /
-'
+"
 .
 format
 (
@@ -8211,7 +8323,7 @@ c
     
 file_name
 =
-'
+"
 .
 .
 /
@@ -8230,7 +8342,7 @@ escape
 s
 .
 js
-'
+"
     
 with
 io
@@ -8240,16 +8352,16 @@ open
 file_name
 mode
 =
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 test_space
@@ -8285,7 +8397,7 @@ test_space
 .
 write
 (
-'
+"
 var
 onlySpace
 =
@@ -8295,17 +8407,17 @@ fromCodePoint
 (
 \
 n
-'
+"
 )
         
 test_space
 .
 write
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -8321,20 +8433,21 @@ test_space
 .
 write
 (
-'
+"
 \
 n
 )
 ;
 \
 n
-'
+"
 )
         
 test_space
 .
 write
 (
+            
 "
 "
 "
@@ -8633,6 +8746,7 @@ true
 "
 "
 "
+        
 )
 def
 make_icase_test
@@ -8651,13 +8765,13 @@ c
 :
         
 return
-'
+"
 0x
 {
 :
 04X
 }
-'
+"
 .
 format
 (
@@ -8666,7 +8780,7 @@ c
     
 file_name
 =
-'
+"
 .
 .
 /
@@ -8681,7 +8795,7 @@ unicode
 ignoreCase
 .
 js
-'
+"
     
 with
 io
@@ -8691,16 +8805,16 @@ open
 file_name
 mode
 =
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 test_icase
@@ -8736,6 +8850,7 @@ test_icase
 .
 write
 (
+            
 "
 "
 "
@@ -8908,6 +9023,7 @@ ans
 "
 "
 "
+        
 )
         
 for
@@ -8920,7 +9036,8 @@ test_icase
 .
 write
 (
-'
+                
+"
 test
 (
 {
@@ -8933,12 +9050,13 @@ test
 }
 \
 n
-'
+"
 .
 format
 (
-'
-'
+                    
+"
+"
 .
 join
 (
@@ -8948,9 +9066,9 @@ char_hex
 args
 )
 )
-                                                        
-'
-'
+                    
+"
+"
 .
 join
 (
@@ -8959,17 +9077,19 @@ map
 codepoint_table
 .
 name
-                                                                      
 args
 )
 )
+                
 )
+            
 )
         
 test_icase
 .
 write
 (
+            
 "
 "
 "
@@ -8994,25 +9114,30 @@ true
 "
 "
 "
+        
 )
 def
 make_unicode_file
 (
+    
 version
-                      
+    
 table
+    
 index
-                      
+    
 folding_table
+    
 folding_index
-                      
+    
 non_bmp_space_set
-                      
+    
 non_bmp_id_start_set
+    
 non_bmp_id_cont_set
-                      
+    
 unconditional_toupper
-                      
+    
 codepoint_table
 )
 :
@@ -9185,6 +9310,7 @@ idx
 =
 folding_index2
 [
+            
 (
 idx
 <
@@ -9206,6 +9332,7 @@ folding_shift
 1
 )
 )
+        
 ]
         
 assert
@@ -9641,7 +9768,7 @@ println
         
 println
 (
-'
+"
 const
 uint8_t
 unicode
@@ -9654,7 +9781,7 @@ unicode
 =
 {
 {
-'
+"
 .
 format
 (
@@ -9666,8 +9793,8 @@ line
 =
 pad
 =
-'
-'
+"
+"
 *
 4
         
@@ -9733,8 +9860,8 @@ pad
 +
 s
 +
-'
-'
+"
+"
             
 else
 :
@@ -9745,8 +9872,8 @@ line
 +
 s
 +
-'
-'
+"
+"
         
 lines
 .
@@ -9761,10 +9888,10 @@ rstrip
         
 println
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -9774,10 +9901,10 @@ lines
         
 println
 (
-'
+"
 }
 ;
-'
+"
 )
     
 def
@@ -9796,7 +9923,7 @@ println
         
 println
 (
-'
+"
 const
 {
 }
@@ -9810,7 +9937,7 @@ unicode
 =
 {
 {
-'
+"
 .
 format
 (
@@ -9827,19 +9954,19 @@ tbl
             
 println
 (
-'
+"
 {
 {
 {
 }
 }
 }
-'
+"
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -9857,16 +9984,16 @@ d
         
 println
 (
-'
+"
 }
 ;
-'
+"
 )
         
 println
 (
-'
-'
+"
+"
 )
         
 dump
@@ -9878,8 +10005,8 @@ println
         
 println
 (
-'
-'
+"
+"
 )
         
 dump
@@ -9891,8 +10018,8 @@ println
         
 println
 (
-'
-'
+"
+"
 )
     
 def
@@ -9906,14 +10033,14 @@ println
         
 println
 (
-'
+"
 bool
-'
+"
 )
         
 println
 (
-'
+"
 js
 :
 :
@@ -9926,7 +10053,7 @@ unicode
 uint32_t
 codePoint
 )
-'
+"
 .
 format
 (
@@ -9936,9 +10063,9 @@ name
         
 println
 (
-'
+"
 {
-'
+"
 )
         
 for
@@ -9959,7 +10086,8 @@ keys
             
 println
 (
-'
+                
+"
 if
 (
 codePoint
@@ -9991,76 +10119,78 @@ X
 .
 {
 }
-'
-                    
+"
 .
 format
 (
+                    
 from_code
-                            
+                    
 to_code
-                            
+                    
 codepoint_table
 .
 name
 (
 from_code
 )
-                            
+                    
 codepoint_table
 .
 name
 (
 to_code
 )
+                
 )
+            
 )
             
 println
 (
-'
+"
 return
 true
 ;
-'
+"
 )
             
 println
 (
-'
+"
 }
-'
+"
 )
         
 println
 (
-'
+"
 return
 false
 ;
-'
+"
 )
         
 println
 (
-'
+"
 }
-'
+"
 )
         
 println
 (
-'
-'
+"
+"
 )
     
 file_name
 =
-'
+"
 Unicode
 .
 cpp
-'
+"
     
 with
 io
@@ -10068,16 +10198,16 @@ io
 open
 (
 file_name
-'
+"
 w
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
 )
 as
 data_file
@@ -10093,12 +10223,12 @@ file
 data_file
 sep
 =
-'
-'
+"
+"
 end
 =
-'
-'
+"
+"
 )
         
 println
@@ -10111,14 +10241,14 @@ file
 data_file
 sep
 =
-'
-'
+"
+"
 end
 =
-'
+"
 \
 n
-'
+"
 )
         
 write
@@ -10158,23 +10288,23 @@ h
         
 println
 (
-'
-'
+"
+"
 )
         
 println
 (
-'
+"
 using
 namespace
 js
 ;
-'
+"
 )
         
 println
 (
-'
+"
 using
 namespace
 js
@@ -10182,7 +10312,7 @@ js
 :
 unicode
 ;
-'
+"
 )
         
 write
@@ -10192,50 +10322,60 @@ comment
         
 write_table
 (
-'
+            
+"
 CharacterInfo
-'
-                    
-'
+"
+            
+"
 js_charinfo
-'
+"
+            
 table
-                    
-'
+            
+"
 index1
-'
+"
+            
 index1
-                    
-'
+            
+"
 index2
-'
+"
+            
 index2
-                    
+            
 println
+        
 )
         
 write_table
 (
-'
+            
+"
 FoldingInfo
-'
-                    
-'
+"
+            
+"
 js_foldinfo
-'
+"
+            
 folding_table
-                    
-'
+            
+"
 folding_index1
-'
+"
+            
 folding_index1
-                    
-'
+            
+"
 folding_index2
-'
+"
+            
 folding_index2
-                    
+            
 println
+        
 )
         
 #
@@ -10312,22 +10452,24 @@ keys
         
 write_supplemental_identifier_method
 (
-'
+            
+"
 IsIdentifierStartNonBMP
-'
+"
 non_bmp_id_start_set
-                                             
 println
+        
 )
         
 write_supplemental_identifier_method
 (
-'
+            
+"
 IsIdentifierPartNonBMP
-'
+"
 non_bmp_id_cont_set
-                                             
 println
+        
 )
         
 write_special_casing_methods
@@ -10566,6 +10708,7 @@ bytes
         
 print
 (
+            
 "
 %
 d
@@ -10584,7 +10727,6 @@ bytes
 "
 %
 (
-            
 len
 (
 t1
@@ -10596,11 +10738,13 @@ t2
 shift
 bytes
 )
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 print
@@ -10621,7 +10765,6 @@ getsize
 (
 t
 )
-              
 "
 bytes
 "
@@ -10875,8 +11018,8 @@ Best
 "
 end
 =
-'
-'
+"
+"
 file
 =
 sys
@@ -10983,7 +11126,7 @@ None
         
 baseurl
 =
-'
+"
 https
 :
 /
@@ -10993,26 +11136,26 @@ unicode
 org
 /
 Public
-'
+"
         
 if
 version
 =
 =
-'
+"
 UNIDATA
-'
+"
 :
             
 url
 =
-'
+"
 %
 s
 /
 %
 s
-'
+"
 %
 (
 baseurl
@@ -11024,7 +11167,7 @@ else
             
 url
 =
-'
+"
 %
 s
 /
@@ -11032,7 +11175,7 @@ s
 s
 /
 ucd
-'
+"
 %
 (
 baseurl
@@ -11041,10 +11184,10 @@ version
     
 print
 (
-'
+"
 Arguments
 :
-'
+"
 )
     
 if
@@ -11056,41 +11199,41 @@ None
         
 print
 (
-'
+"
 \
 tVersion
 :
 %
 s
-'
+"
 %
 version
 )
         
 print
 (
-'
+"
 \
 tDownload
 url
 :
 %
 s
-'
+"
 %
 url
 )
         
 request_url
 =
-'
+"
 {
 }
 /
 UCD
 .
 zip
-'
+"
 .
 format
 (
@@ -11135,29 +11278,31 @@ for
 fname
 in
 [
-'
+                
+"
 UnicodeData
 .
 txt
-'
-                          
-'
+"
+                
+"
 CaseFolding
 .
 txt
-'
-                          
-'
+"
+                
+"
 DerivedCoreProperties
 .
 txt
-'
-                          
-'
+"
+                
+"
 SpecialCasing
 .
 txt
-'
+"
+            
 ]
 :
                 
@@ -11176,18 +11321,18 @@ else
         
 print
 (
-'
+"
 \
 tUsing
 local
 files
 .
-'
+"
 )
         
 print
 (
-'
+"
 \
 tAlways
 make
@@ -11199,13 +11344,13 @@ newest
 Unicode
 files
 !
-'
+"
 )
     
 print
 (
-'
-'
+"
+"
 )
     
 def
@@ -11279,6 +11424,7 @@ io
 .
 open
 (
+        
 os
 .
 path
@@ -11286,32 +11432,31 @@ path
 join
 (
 base_path
-'
+"
 UnicodeData
 .
 txt
-'
+"
 )
-                 
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
+    
 )
 as
 unicode_data
-\
-            
 io
 .
 open
 (
+        
 os
 .
 path
@@ -11319,32 +11464,31 @@ path
 join
 (
 base_path
-'
+"
 CaseFolding
 .
 txt
-'
+"
 )
-                    
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
+    
 )
 as
 case_folding
-\
-            
 io
 .
 open
 (
+        
 os
 .
 path
@@ -11352,32 +11496,31 @@ path
 join
 (
 base_path
-'
+"
 DerivedCoreProperties
 .
 txt
-'
+"
 )
-                    
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
+    
 )
 as
 derived_core_properties
-\
-            
 io
 .
 open
 (
+        
 os
 .
 path
@@ -11385,23 +11528,23 @@ path
 join
 (
 base_path
-'
+"
 SpecialCasing
 .
 txt
-'
+"
 )
-                    
-'
+"
 r
-'
+"
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
+    
 )
 as
 special_casing
@@ -11411,36 +11554,42 @@ unicode_version
 =
 version_from_file
 (
+            
 derived_core_properties
-'
+"
 DerivedCoreProperties
-'
+"
+        
 )
         
 print
 (
-'
+"
 Processing
 .
 .
 .
-'
+"
 )
         
 (
             
 table
+            
 index
             
 non_bmp_lower_map
+            
 non_bmp_upper_map
             
 non_bmp_space_set
             
 non_bmp_id_start_set
+            
 non_bmp_id_cont_set
             
 codepoint_table
+            
 test_space_table
         
 )
@@ -11452,89 +11601,95 @@ derived_core_properties
 )
         
 (
-            
 folding_table
 folding_index
-            
 folding_tests
-        
 )
 =
 process_case_folding
 (
+            
 case_folding
+        
 )
         
 (
-            
 unconditional_tolower
 unconditional_toupper
-        
 )
 =
 process_special_casing
 (
+            
 special_casing
 table
 index
+        
 )
     
 print
 (
-'
+"
 Generating
 .
 .
 .
-'
+"
 )
     
 make_unicode_file
 (
+        
 unicode_version
-                      
+        
 table
+        
 index
-                      
+        
 folding_table
+        
 folding_index
-                      
+        
 non_bmp_space_set
-                      
+        
 non_bmp_id_start_set
+        
 non_bmp_id_cont_set
-                      
+        
 unconditional_toupper
-                      
+        
 codepoint_table
+    
 )
     
 make_non_bmp_file
 (
+        
 unicode_version
-                      
 non_bmp_lower_map
 non_bmp_upper_map
-                      
 codepoint_table
+    
 )
     
 make_bmp_mapping_test
 (
+        
 unicode_version
-                          
 codepoint_table
 unconditional_tolower
 unconditional_toupper
+    
 )
     
 make_non_bmp_mapping_test
 (
+        
 unicode_version
 non_bmp_upper_map
-                              
 non_bmp_lower_map
 codepoint_table
+    
 )
     
 make_space_test
@@ -11561,9 +11716,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 import
@@ -11587,9 +11742,9 @@ correctly
 .
     
 if
-'
+"
 /
-'
+"
 .
 join
 (
@@ -11620,19 +11775,19 @@ sep
 )
 !
 =
-'
+"
 js
 /
 src
 /
 util
-'
+"
 :
         
 raise
 RuntimeError
 (
-'
+"
 %
 s
 must
@@ -11644,7 +11799,7 @@ js
 src
 /
 util
-'
+"
 %
 sys
 .
@@ -11662,24 +11817,25 @@ ArgumentParser
 (
 description
 =
-'
+"
 Update
 Unicode
 data
 .
-'
+"
 )
     
 parser
 .
 add_argument
 (
-'
+        
+"
 -
 -
 version
-'
-                        
+"
+        
 help
 =
 '
@@ -11778,6 +11934,7 @@ published
 version
 .
 '
+    
 )
     
 parser
