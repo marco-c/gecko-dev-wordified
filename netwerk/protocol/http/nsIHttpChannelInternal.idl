@@ -210,9 +210,6 @@ nsISocketTransport
 interface
 nsIURI
 ;
-interface
-nsIWebSocketConnection
-;
 /
 *
 *
@@ -275,17 +272,6 @@ onUpgradeFailed
 in
 nsresult
 aErrorCode
-)
-;
-[
-must_use
-]
-void
-onWebSocketConnectionAvailable
-(
-in
-nsIWebSocketConnection
-aConnection
 )
 ;
 }
