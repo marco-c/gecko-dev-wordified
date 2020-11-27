@@ -1298,7 +1298,6 @@ status
 )
 =
 >
-return
 Ok
 (
 status
@@ -1344,7 +1343,6 @@ kill
 )
 ?
 ;
-return
 self
 .
 process
@@ -1352,7 +1350,6 @@ process
 wait
 (
 )
-;
 }
 Err
 (
@@ -1360,7 +1357,6 @@ e
 )
 =
 >
-return
 Err
 (
 e

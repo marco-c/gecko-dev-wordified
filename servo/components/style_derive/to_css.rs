@@ -789,11 +789,11 @@ name
 ;
 identifier
 .
-push_str
+push
 (
-"
+'
 (
-"
+'
 )
 ;
 expr

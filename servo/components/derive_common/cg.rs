@@ -2614,11 +2614,11 @@ first
 {
 result
 .
-push_str
+push
 (
-"
+'
 -
-"
+'
 )
 ;
 }

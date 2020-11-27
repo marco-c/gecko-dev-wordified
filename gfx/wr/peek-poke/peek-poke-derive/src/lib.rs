@@ -383,7 +383,9 @@ is
 '
 struct
 '
-match
+matches
+!
+(
 &
 s
 .
@@ -394,7 +396,6 @@ variants
 .
 .
 ]
-{
 [
 v
 ]
@@ -406,14 +407,7 @@ prefix
 is_none
 (
 )
-=
->
-true
-_
-=
->
-false
-}
+)
 }
 fn
 derive_max_size

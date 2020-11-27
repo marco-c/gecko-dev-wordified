@@ -460,7 +460,6 @@ Git
 )
 }
 else
-{
 if
 let
 Some
@@ -501,7 +500,6 @@ Noop
 {
 }
 )
-}
 }
 }
 trait

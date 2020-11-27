@@ -1298,12 +1298,6 @@ patch
 x
 }
 if
-let
-Some
-(
-_
-)
-=
 captures
 .
 name
@@ -1311,6 +1305,10 @@ name
 "
 esr
 "
+)
+.
+is_some
+(
 )
 {
 version
@@ -1497,10 +1495,6 @@ version
 string
 "
 version_string
-)
-.
-into
-(
 )
 )
 )
