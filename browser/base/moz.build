@@ -528,17 +528,6 @@ content
 /
 test
 /
-startup
-/
-browser
-.
-ini
-'
-'
-content
-/
-test
-/
 static
 /
 browser
