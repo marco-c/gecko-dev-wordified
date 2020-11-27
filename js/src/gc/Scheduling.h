@@ -1085,7 +1085,7 @@ property
 For
 *
 example
-CC_FORCED
+CC_WAITING
 is
 where
 the
@@ -1094,11 +1094,11 @@ requires
 the
 mark
 bits
+*
 to
 be
-*
 set
-correctly
+correct
 .
 Also
 EVICT_NURSERY
@@ -1109,8 +1109,8 @@ to
 work
 on
 the
-tenured
 *
+tenured
 heap
 .
 *
