@@ -6974,6 +6974,12 @@ defined
 (
 MOZ_WIDGET_UIKIT
 )
+|
+|
+defined
+(
+MOZ_WAYLAND
+)
 /
 /
 Don
