@@ -161,6 +161,17 @@ mozilla
 /
 dom
 /
+SharedWorker
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 WorkerError
 .
 h
