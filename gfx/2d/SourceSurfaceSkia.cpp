@@ -1124,6 +1124,11 @@ mChangeMutex
 if
 (
 mDrawTarget
+.
+exchange
+(
+nullptr
+)
 )
 {
 /
@@ -1249,10 +1254,6 @@ snapshot
 ;
 }
 }
-mDrawTarget
-=
-nullptr
-;
 }
 }
 }
