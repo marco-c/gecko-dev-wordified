@@ -94,7 +94,6 @@ import
 Any
 Dict
 List
-Optional
 Union
 #
 noqa
@@ -774,16 +773,14 @@ output_dir
 Path
 options
 :
-Optional
-[
 Dict
 [
 str
 Any
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -910,17 +907,6 @@ code
 "
 "
 "
-    
-if
-options
-is
-None
-:
-        
-options
-=
-{
-}
     
 template
 =

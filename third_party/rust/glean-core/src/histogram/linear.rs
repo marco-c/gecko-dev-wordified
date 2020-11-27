@@ -594,7 +594,7 @@ PrecomputedLinear
 /
 /
 /
-Creates
+Create
 a
 histogram
 with

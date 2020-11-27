@@ -309,12 +309,10 @@ None
         
 unit
 :
-Optional
-[
 str
-]
 =
-None
+"
+"
         
 gecko_datapoint
 :
@@ -477,13 +475,6 @@ send_in_pings
 =
 send_in_pings
         
-if
-unit
-is
-not
-None
-:
-            
 self
 .
 unit
@@ -792,16 +783,14 @@ JSONType
         
 config
 :
-Optional
-[
 Dict
 [
 str
 Any
 ]
-]
 =
-None
+{
+}
         
 validated
 :
@@ -904,17 +893,6 @@ instance
 "
 "
 "
-        
-if
-config
-is
-None
-:
-            
-config
-=
-{
-}
         
 metric_type
 =

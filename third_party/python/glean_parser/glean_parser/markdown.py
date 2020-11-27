@@ -309,14 +309,11 @@ extra_info
 def
 ping_desc
 (
-    
 ping_name
 :
 str
 custom_pings_cache
 :
-Optional
-[
 Dict
 [
 str
@@ -324,9 +321,9 @@ pings
 .
 Ping
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -436,11 +433,6 @@ ping
 "
     
 elif
-custom_pings_cache
-is
-not
-None
-and
 ping_name
 in
 custom_pings_cache
@@ -649,14 +641,11 @@ html
 def
 if_empty
 (
-    
 ping_name
 :
 str
 custom_pings_cache
 :
-Optional
-[
 Dict
 [
 str
@@ -664,9 +653,9 @@ pings
 .
 Ping
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -674,11 +663,6 @@ bool
 :
     
 if
-custom_pings_cache
-is
-not
-None
-and
 ping_name
 in
 custom_pings_cache
@@ -781,8 +765,6 @@ ping_name
 str
 custom_pings_cache
 :
-Optional
-[
 Dict
 [
 str
@@ -790,9 +772,9 @@ pings
 .
 Ping
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -806,11 +788,6 @@ str
 :
     
 if
-custom_pings_cache
-is
-not
-None
-and
 ping_name
 in
 custom_pings_cache
@@ -838,8 +815,6 @@ ping_name
 str
 custom_pings_cache
 :
-Optional
-[
 Dict
 [
 str
@@ -847,9 +822,9 @@ pings
 .
 Ping
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -863,11 +838,6 @@ str
 :
     
 if
-custom_pings_cache
-is
-not
-None
-and
 ping_name
 in
 custom_pings_cache
@@ -895,8 +865,6 @@ ping_name
 str
 custom_pings_cache
 :
-Optional
-[
 Dict
 [
 str
@@ -904,9 +872,9 @@ pings
 .
 Ping
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -914,11 +882,6 @@ bool
 :
     
 if
-custom_pings_cache
-is
-not
-None
-and
 ping_name
 in
 custom_pings_cache
@@ -1003,16 +966,14 @@ output_dir
 Path
 options
 :
-Optional
-[
 Dict
 [
 str
 Any
 ]
-]
 =
-None
+{
+}
 )
 -
 >
@@ -1123,17 +1084,6 @@ title
 "
 "
 "
-    
-if
-options
-is
-None
-:
-        
-options
-=
-{
-}
     
 #
 Build
@@ -1262,7 +1212,7 @@ list
 )
     
 for
-_category_key
+category_key
 category_val
 in
 objs
