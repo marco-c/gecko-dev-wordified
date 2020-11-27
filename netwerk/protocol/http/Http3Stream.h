@@ -636,6 +636,19 @@ RecvStreamState
 :
 *
 -
+BEFORE_HEADERS
+:
+*
+The
+stream
+has
+not
+received
+headers
+yet
+.
+*
+-
 READING_HEADERS
 :
 *
@@ -767,6 +780,7 @@ done
 enum
 RecvStreamState
 {
+BEFORE_HEADERS
 READING_HEADERS
 READING_DATA
 RECEIVED_FIN
