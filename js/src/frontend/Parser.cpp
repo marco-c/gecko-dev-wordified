@@ -6821,7 +6821,9 @@ NewGlobalScopeData
 (
 cx_
 scope
-alloc_
+stencilAlloc
+(
+)
 pc_
 )
 ;
@@ -7211,7 +7213,9 @@ NewModuleScopeData
 (
 cx_
 scope
-alloc_
+stencilAlloc
+(
+)
 pc_
 )
 ;
@@ -7429,7 +7433,9 @@ NewEvalScopeData
 (
 cx_
 scope
-alloc_
+stencilAlloc
+(
+)
 pc_
 )
 ;
@@ -8235,7 +8241,9 @@ NewFunctionScopeData
 cx_
 scope
 hasParameterExprs
-alloc_
+stencilAlloc
+(
+)
 pc_
 )
 ;
@@ -8552,7 +8560,9 @@ NewVarScopeData
 (
 cx_
 scope
-alloc_
+stencilAlloc
+(
+)
 pc_
 )
 ;
@@ -8975,7 +8985,9 @@ NewLexicalScopeData
 (
 cx_
 scope
-alloc_
+stencilAlloc
+(
+)
 pc_
 )
 ;
