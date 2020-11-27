@@ -13619,6 +13619,17 @@ return
 true
 ;
 }
+if
+(
+IsLaunching
+(
+)
+)
+{
+return
+true
+;
+}
 /
 /
 If
@@ -13637,8 +13648,7 @@ shutdown
 .
 if
 (
-!
-IsAlive
+IsDead
 (
 )
 )
