@@ -306,6 +306,11 @@ RecordLookAndFeelSpecificTelemetry
 )
 override
 ;
+bool
+ShouldHonorThemeScrollbarColors
+(
+)
+;
 /
 /
 Cached
