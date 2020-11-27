@@ -163,6 +163,9 @@ nsISupportsImpl
 .
 h
 "
+class
+AudioDeviceInfo
+;
 namespace
 mozilla
 {

@@ -159,6 +159,13 @@ h
 #
 include
 "
+AudioSink
+.
+h
+"
+#
+include
+"
 MediaSink
 .
 h
@@ -166,9 +173,6 @@ h
 namespace
 mozilla
 {
-class
-AudioSink
-;
 class
 MediaData
 ;

@@ -193,10 +193,10 @@ StaticPrefs_media
 .
 h
 "
-namespace
-mozilla
-{
 extern
+mozilla
+:
+:
 LazyLogModule
 gMediaDecoderLog
 ;
@@ -319,6 +319,9 @@ endTime
 )
 #
 endif
+namespace
+mozilla
+{
 using
 namespace
 mozilla
@@ -715,6 +718,9 @@ return
 nullptr
 ;
 }
+media
+:
+:
 TimeUnit
 VideoSink
 :
@@ -787,6 +793,9 @@ aType
 ;
 }
 return
+media
+:
+:
 TimeUnit
 :
 :
@@ -795,6 +804,9 @@ Zero
 )
 ;
 }
+media
+:
+:
 TimeUnit
 VideoSink
 :
@@ -1307,6 +1319,9 @@ VideoSink
 Start
 (
 const
+media
+:
+:
 TimeUnit
 &
 aStartTime
@@ -1695,6 +1710,9 @@ nullptr
 }
 mVideoFrameEndTime
 =
+media
+:
+:
 TimeUnit
 :
 :
@@ -2269,6 +2287,9 @@ TimeStamp
 nowTime
 ;
 const
+media
+:
+:
 TimeUnit
 clockTime
 =
@@ -3157,6 +3178,9 @@ the
 playback
 position
 .
+media
+:
+:
 TimeUnit
 lastFrameEndTime
 ;

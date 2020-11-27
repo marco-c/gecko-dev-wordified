@@ -123,6 +123,13 @@ DecodedStream_h_
 #
 include
 "
+AudibilityMonitor
+.
+h
+"
+#
+include
+"
 MediaEventSource
 .
 h
