@@ -215,9 +215,9 @@ we
 only
 profile
 the
-Java
-Main
-Thread
+Android
+UI
+thread
 .
 Ideally
 we
