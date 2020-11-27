@@ -1705,6 +1705,17 @@ destroy
 {
 if
 (
+!
+this
+.
+storageActor
+)
+{
+return
+;
+}
+if
+(
 observationTopics
 )
 {
