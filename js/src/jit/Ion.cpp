@@ -11460,10 +11460,12 @@ Additionally
 JSOp
 :
 :
-DefVar
+GlobalOrEvalDeclInstantiation
 support
 will
 require
+/
+/
 baking
 in
 isEvalFrame

@@ -4599,12 +4599,7 @@ in
 JSOp
 :
 :
-Def
-{
-Var
-Let
-Const
-}
+GlobalOrEvalDeclInstantation
 .
 void
 ReportRuntimeRedeclaration

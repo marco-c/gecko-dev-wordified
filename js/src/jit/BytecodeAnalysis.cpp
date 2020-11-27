@@ -1834,6 +1834,12 @@ JSOp
 :
 FunWithProto
 :
+case
+JSOp
+:
+:
+GlobalOrEvalDeclInstantiation
+:
 result
 .
 usesEnvironmentChain

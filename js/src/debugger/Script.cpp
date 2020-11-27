@@ -8421,6 +8421,12 @@ case
 JSOp
 :
 :
+GlobalOrEvalDeclInstantiation
+:
+case
+JSOp
+:
+:
 SetFunName
 :
 case
@@ -9577,12 +9583,6 @@ JSOp
 :
 :
 CheckThisReinit
-:
-case
-JSOp
-:
-:
-GlobalOrEvalDeclInstantiation
 :
 case
 JSOp
