@@ -127,6 +127,13 @@ nsIObserver
 .
 h
 "
+#
+include
+"
+nsRefPtrHashtable
+.
+h
+"
 /
 /
 Needed
@@ -156,6 +163,9 @@ h
 "
 class
 nsGlobalWindowInner
+;
+class
+nsIGlobalObject
 ;
 namespace
 mozilla

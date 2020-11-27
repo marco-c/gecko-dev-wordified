@@ -193,6 +193,17 @@ GamepadRemapping
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+GamepadPlatformService
+.
+h
+"
 namespace
 mozilla
 {
