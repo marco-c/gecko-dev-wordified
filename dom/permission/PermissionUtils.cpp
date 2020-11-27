@@ -121,6 +121,13 @@ PermissionUtils
 .
 h
 "
+#
+include
+"
+nsIPermissionManager
+.
+h
+"
 namespace
 mozilla
 {
