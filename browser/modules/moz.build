@@ -1017,11 +1017,6 @@ LaterRun
 jsm
 '
 '
-LiveBookmarkMigrator
-.
-jsm
-'
-'
 NewTabPagePreloading
 .
 jsm
