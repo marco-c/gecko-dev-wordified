@@ -205,6 +205,12 @@ focus
 :
 focus
 -
+visible
+"
+"
+:
+focus
+-
 within
 "
 "

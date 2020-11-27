@@ -130,6 +130,17 @@ color
 orange
 ;
 }
+div
+:
+focus
+-
+visible
+{
+color
+:
+wheat
+;
+}
 <
 /
 style
