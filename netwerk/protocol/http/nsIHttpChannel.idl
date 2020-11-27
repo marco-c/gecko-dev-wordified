@@ -3590,16 +3590,7 @@ virtual
 void
 SetSource
 (
-mozilla
-:
-:
-UniquePtr
-<
-mozilla
-:
-:
-ProfileChunkedBuffer
->
+UniqueProfilerBacktrace
 aSource
 )
 {

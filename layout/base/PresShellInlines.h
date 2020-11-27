@@ -217,7 +217,7 @@ mReflowCause
 {
 mReflowCause
 =
-profiler_capture_backtrace
+profiler_get_backtrace
 (
 )
 ;
@@ -298,7 +298,7 @@ mStyleCause
 {
 mStyleCause
 =
-profiler_capture_backtrace
+profiler_get_backtrace
 (
 )
 ;
