@@ -9582,7 +9582,7 @@ case
 JSOp
 :
 :
-CheckGlobalOrEvalDecl
+GlobalOrEvalDeclInstantiation
 :
 case
 JSOp

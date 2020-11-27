@@ -25853,7 +25853,7 @@ bool
 js
 :
 :
-CheckGlobalOrEvalDeclarationConflicts
+GlobalOrEvalDeclInstantiation
 (
 JSContext
 *
@@ -25862,6 +25862,8 @@ HandleObject
 envChain
 HandleScript
 script
+GCThingIndex
+lastFun
 )
 {
 MOZ_ASSERT
