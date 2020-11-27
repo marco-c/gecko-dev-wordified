@@ -1048,6 +1048,11 @@ uri
 =
 =
 aUri
+&
+&
+this
+.
+_eventReceived
 )
 {
 /
@@ -1075,6 +1080,12 @@ the
 second
 one
 .
+debug
+ProgressTracker
+Ignoring
+duplicate
+load
+;
 return
 ;
 }
@@ -2148,6 +2159,12 @@ the
 second
 one
 .
+debug
+StateTracker
+Ignoring
+duplicate
+load
+;
 return
 ;
 }
