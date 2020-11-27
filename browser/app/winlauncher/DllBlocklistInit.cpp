@@ -217,7 +217,7 @@ include
 "
 freestanding
 /
-FunctionTableResolver
+SharedSection
 .
 h
 "

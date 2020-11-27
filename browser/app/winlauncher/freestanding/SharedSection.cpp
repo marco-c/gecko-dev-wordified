@@ -117,7 +117,7 @@ MPL
 #
 include
 "
-FunctionTableResolver
+SharedSection
 .
 h
 "

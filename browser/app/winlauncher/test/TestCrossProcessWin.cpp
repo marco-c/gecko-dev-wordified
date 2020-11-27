@@ -122,7 +122,7 @@ include
 "
 freestanding
 /
-FunctionTableResolver
+SharedSection
 .
 cpp
 "
