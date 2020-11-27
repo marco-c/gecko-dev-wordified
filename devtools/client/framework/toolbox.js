@@ -25059,7 +25059,7 @@ async
 function
 (
 objectActor
-inspectFromAnnotation
+reason
 )
 {
 /
@@ -25106,7 +25106,7 @@ inspectNodeActor
 objectActor
 .
 actor
-inspectFromAnnotation
+reason
 )
 ;
 if
@@ -25122,6 +25122,7 @@ selectTool
 "
 inspector
 "
+reason
 )
 ;
 }
