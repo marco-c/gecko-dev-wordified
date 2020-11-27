@@ -1688,9 +1688,12 @@ Digital
 Guardian
 bug
 1318858
-and
 bug
 1603974
+#
+and
+bug
+1672367
 RedirectToNoOpEntryPoint
 (
 "
@@ -1701,7 +1704,7 @@ dll
 (
 7
 5
-0
+0xffff
 0xffff
 )
 )
@@ -1715,7 +1718,7 @@ dll
 (
 7
 5
-0
+0xffff
 0xffff
 )
 )
