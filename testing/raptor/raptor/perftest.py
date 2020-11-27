@@ -482,6 +482,11 @@ extra_prefs
 {
 }
         
+environment
+=
+{
+}
+        
 project
 =
 "
@@ -734,6 +739,12 @@ extra_prefs
 "
 :
 extra_prefs
+            
+"
+environment
+"
+:
+environment
             
 "
 project

@@ -351,10 +351,14 @@ MOZ_WEBRENDER
 0
 "
         
-for
-var
-val
-in
+self
+.
+runner
+.
+env
+.
+update
+(
 self
 .
 config
@@ -367,18 +371,7 @@ environment
 {
 }
 )
-:
-            
-self
-.
-runner
-.
-env
-[
-var
-]
-=
-val
+)
     
 def
 launch_desktop_browser
