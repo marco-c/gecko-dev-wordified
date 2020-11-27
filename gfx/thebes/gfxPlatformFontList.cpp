@@ -15327,6 +15327,15 @@ Next
 )
 )
 {
+if
+(
+iter
+.
+Data
+(
+)
+)
+{
 iter
 .
 Data
@@ -15340,6 +15349,7 @@ aMallocSizeOf
 aSizes
 )
 ;
+}
 }
 if
 (
