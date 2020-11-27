@@ -8566,7 +8566,7 @@ GetWritingMode
 nscoord
 consumedBSize
 =
-ConsumedBSize
+CalcAndCacheConsumedBSize
 (
 wm
 )
