@@ -209,11 +209,6 @@ persistent
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

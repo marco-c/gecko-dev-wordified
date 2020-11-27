@@ -1314,11 +1314,6 @@ testTables
 testCases
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

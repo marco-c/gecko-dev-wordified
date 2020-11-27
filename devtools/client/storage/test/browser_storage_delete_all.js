@@ -904,11 +904,6 @@ checkState
 afterState
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

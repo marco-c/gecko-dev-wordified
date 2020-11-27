@@ -703,11 +703,6 @@ testTables
 (
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

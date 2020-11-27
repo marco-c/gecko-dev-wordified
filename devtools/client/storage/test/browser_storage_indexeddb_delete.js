@@ -417,11 +417,6 @@ default
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

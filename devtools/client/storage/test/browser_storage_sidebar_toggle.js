@@ -318,11 +318,6 @@ repeat
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

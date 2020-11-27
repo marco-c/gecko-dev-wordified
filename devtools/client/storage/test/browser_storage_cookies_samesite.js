@@ -306,11 +306,6 @@ Strict
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

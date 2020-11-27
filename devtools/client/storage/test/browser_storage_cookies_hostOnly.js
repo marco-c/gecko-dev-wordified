@@ -208,11 +208,6 @@ false
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

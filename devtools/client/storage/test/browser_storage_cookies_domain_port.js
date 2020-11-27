@@ -263,11 +263,6 @@ browser
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

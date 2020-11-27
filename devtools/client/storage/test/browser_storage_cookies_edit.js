@@ -277,11 +277,6 @@ true
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

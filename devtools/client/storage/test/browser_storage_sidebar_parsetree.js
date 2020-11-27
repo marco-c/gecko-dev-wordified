@@ -384,11 +384,6 @@ parseTreeVisible
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

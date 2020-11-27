@@ -470,11 +470,6 @@ delete
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

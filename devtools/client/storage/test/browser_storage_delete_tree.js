@@ -798,11 +798,6 @@ plop
 ]
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;

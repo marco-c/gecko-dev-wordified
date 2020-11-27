@@ -183,11 +183,6 @@ tree
 )
 ;
 }
-await
-finishTests
-(
-)
-;
 }
 )
 ;

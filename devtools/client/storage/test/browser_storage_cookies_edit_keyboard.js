@@ -228,11 +228,6 @@ KEY_Tab
 "
 )
 ;
-await
-finishTests
-(
-)
-;
 }
 )
 ;
