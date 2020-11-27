@@ -30772,15 +30772,6 @@ valueReg
 }
 else
 {
-bool
-allowDouble
-=
-*
-allowDoubleResult_
-&
-&
-allowDoubleForUint32
-;
 masm
 .
 loadFromTypedArray
@@ -30792,7 +30783,7 @@ output
 valueReg
 (
 )
-allowDouble
+allowDoubleForUint32
 scratch1
 failure
 -

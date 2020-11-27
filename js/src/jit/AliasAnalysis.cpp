@@ -1327,15 +1327,6 @@ MDefinition
 Opcode
 :
 :
-CallGetProperty
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 GetDOMProperty
 :
 case
