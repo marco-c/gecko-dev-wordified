@@ -12722,6 +12722,10 @@ OwnerDoc
 ;
 dynamicSubframeRemoval
 =
+!
+aForProcessSwitch
+&
+&
 mPendingBrowsingContext
 -
 >
