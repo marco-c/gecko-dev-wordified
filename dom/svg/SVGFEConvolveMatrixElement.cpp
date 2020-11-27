@@ -150,6 +150,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h

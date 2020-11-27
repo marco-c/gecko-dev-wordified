@@ -150,6 +150,13 @@ h
 #
 include
 "
+nsMathUtils
+.
+h
+"
+#
+include
+"
 nsTextFormatter
 .
 h

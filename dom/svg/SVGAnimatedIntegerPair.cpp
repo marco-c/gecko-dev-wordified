@@ -159,6 +159,13 @@ h
 #
 include
 "
+mozAutoDocUpdate
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SMILValue
