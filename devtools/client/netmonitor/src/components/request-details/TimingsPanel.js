@@ -435,6 +435,7 @@ if
 (
 !
 serverTimings
+?
 .
 length
 )
