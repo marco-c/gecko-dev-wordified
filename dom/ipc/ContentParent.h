@@ -9762,6 +9762,15 @@ nsACString
 aContentProcessType
 )
 ;
+bool
+IsExtensionRemoteType
+(
+const
+nsACString
+&
+aContentProcessType
+)
+;
 inline
 nsISupports
 *
