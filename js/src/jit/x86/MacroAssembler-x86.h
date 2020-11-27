@@ -7085,6 +7085,17 @@ FloatRegister
 srcDest
 )
 ;
+void
+vpshufbSimd128
+(
+const
+SimdConstant
+&
+v
+FloatRegister
+srcDest
+)
+;
 Condition
 testInt32Truthy
 (
