@@ -4118,7 +4118,7 @@ update2
 .
 emptySearchBehavior
 "
-2
+0
 )
 ;
 /
