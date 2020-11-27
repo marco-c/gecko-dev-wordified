@@ -1236,7 +1236,6 @@ mVPXAlpha
 ;
 const
 VideoInfo
-&
 mInfo
 ;
 const
