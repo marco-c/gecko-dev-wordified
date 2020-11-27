@@ -294,6 +294,13 @@ h
 #
 include
 "
+nsFrameMessageManager
+.
+h
+"
+#
+include
+"
 nsICrashReporter
 .
 h

@@ -313,7 +313,11 @@ h
 #
 include
 "
-nsFrameMessageManager
+mozilla
+/
+dom
+/
+MessageManagerCallback
 .
 h
 "

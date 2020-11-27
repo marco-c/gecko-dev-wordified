@@ -288,6 +288,9 @@ h
 #
 endif
 static
+mozilla
+:
+:
 LazyLogModule
 sEventDispatchAndRunLog
 (
