@@ -179,13 +179,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsIThreadRetargetableStreamListener
 .
 h
@@ -217,6 +210,9 @@ Mutex
 .
 h
 "
+class
+nsIHttpChannel
+;
 class
 nsIURI
 ;

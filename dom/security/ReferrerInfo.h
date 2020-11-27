@@ -137,13 +137,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -225,6 +218,9 @@ REFERRERINFO_CID
 }
 \
 }
+class
+nsIHttpChannel
+;
 class
 nsIURI
 ;

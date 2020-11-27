@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h
@@ -132,6 +125,9 @@ nsIThreadRetargetableStreamListener
 .
 h
 "
+class
+nsIHttpChannel
+;
 namespace
 mozilla
 {

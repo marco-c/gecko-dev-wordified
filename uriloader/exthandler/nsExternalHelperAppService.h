@@ -213,13 +213,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
