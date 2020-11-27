@@ -339,8 +339,7 @@ module
 .
 init
 (
-Assert
-registerCleanupFunction
+this
 )
 ;
 return
