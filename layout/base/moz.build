@@ -680,11 +680,6 @@ nsQuoteList
 cpp
 '
 '
-nsRefreshObservers
-.
-cpp
-'
-'
 nsStyleChangeList
 .
 cpp
