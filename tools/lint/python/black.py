@@ -168,6 +168,12 @@ format
     
 BLACK_REQUIREMENTS_PATH
 )
+def
+default_bindir
+(
+)
+:
+    
 #
 We
 use
@@ -182,6 +188,7 @@ that
 gets
 modified
 with
+    
 #
 virtualenv
 '
@@ -197,6 +204,7 @@ doesn
 '
 t
 .
+    
 if
 platform
 .
@@ -209,9 +217,8 @@ system
 Windows
 "
 :
-    
-bindir
-=
+        
+return
 os
 .
 path
@@ -225,11 +232,11 @@ prefix
 Scripts
 "
 )
+    
 else
 :
-    
-bindir
-=
+        
+return
 os
 .
 path
@@ -819,6 +826,7 @@ fix
 None
 *
 log
+virtualenv_bin_path
 )
 :
     
@@ -830,7 +838,11 @@ path
 .
 join
 (
-bindir
+virtualenv_bin_path
+or
+default_bindir
+(
+)
 "
 black
 "
@@ -955,11 +967,15 @@ root
 return
 run_black
 (
+        
 config
+        
 files
+        
 fix
 =
 fix
+        
 log
 =
 lintargs
@@ -968,4 +984,16 @@ lintargs
 log
 "
 ]
+        
+virtualenv_bin_path
+=
+lintargs
+.
+get
+(
+"
+virtualenv_bin_path
+"
+)
+    
 )

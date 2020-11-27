@@ -400,6 +400,12 @@ Issue
 "
 "
 "
+def
+default_bindir
+(
+)
+:
+    
 #
 We
 use
@@ -414,6 +420,7 @@ that
 gets
 modified
 with
+    
 #
 virtualenv
 '
@@ -429,6 +436,7 @@ doesn
 '
 t
 .
+    
 if
 platform
 .
@@ -441,9 +449,8 @@ system
 Windows
 "
 :
-    
-bindir
-=
+        
+return
 os
 .
 path
@@ -457,11 +464,11 @@ prefix
 Scripts
 "
 )
+    
 else
 :
-    
-bindir
-=
+        
+return
 os
 .
 path
@@ -573,6 +580,17 @@ root
 "
 ]
     
+virtualenv_bin_path
+=
+lintargs
+.
+get
+(
+"
+virtualenv_bin_path
+"
+)
+    
 config_path
 =
 os
@@ -609,7 +627,11 @@ path
 .
 join
 (
-bindir
+virtualenv_bin_path
+or
+default_bindir
+(
+)
 "
 autopep8
 "
