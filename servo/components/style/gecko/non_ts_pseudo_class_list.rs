@@ -382,7 +382,7 @@ focus
 visible
 "
 FocusVisible
-IN_FOCUS_VISIBLE_STATE
+IN_FOCUSRING_STATE
 _
 )
 (
