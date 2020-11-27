@@ -1222,23 +1222,6 @@ on
 n
 "
 )
-            
-self
-.
-info
-(
-"
-set
-GLESDynamicVersion
-=
-on
-in
-%
-s
-"
-%
-AF_FILE
-)
         
 #
 extra
