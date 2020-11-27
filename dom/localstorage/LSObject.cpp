@@ -2294,6 +2294,9 @@ const
 auto
 &
 origin
+quota
+:
+:
 QuotaManager
 :
 :
@@ -2786,6 +2789,9 @@ aPrincipal
 >
 Result
 <
+quota
+:
+:
 QuotaInfo
 nsresult
 >
@@ -2807,6 +2813,9 @@ TSystemPrincipalInfo
 )
 {
 return
+quota
+:
+:
 QuotaManager
 :
 :
@@ -2817,6 +2826,9 @@ GetInfoForChrome
 }
 LS_TRY_RETURN
 (
+quota
+:
+:
 QuotaManager
 :
 :
