@@ -1607,7 +1607,7 @@ toolbox
 .
 resourceWatcher
 .
-hasResourceWatcherSupport
+hasWatcherSupport
 (
 this
 .

@@ -112,7 +112,7 @@ function
 (
 {
 resource
-watcherFront
+watcher
 targetFront
 }
 )
@@ -127,7 +127,7 @@ Front
 )
 &
 &
-watcherFront
+watcher
 )
 {
 /

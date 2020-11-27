@@ -465,7 +465,7 @@ is
 await
 parentProcessTarget
 .
-getWatcherFront
+getWatcher
 (
 )
 watcher
@@ -619,7 +619,7 @@ is
 await
 tabTarget
 .
-getWatcherFront
+getWatcher
 (
 )
 watcher
@@ -898,7 +898,7 @@ is
 await
 existingIframeTarget
 .
-getWatcherFront
+getWatcher
 (
 )
 watcher

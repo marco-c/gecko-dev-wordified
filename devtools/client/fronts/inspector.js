@@ -1312,7 +1312,7 @@ watcher
 )
 {
 const
-watcherFront
+watcher
 =
 await
 descriptorFront
@@ -1324,7 +1324,7 @@ getWatcher
 target
 =
 await
-watcherFront
+watcher
 .
 getBrowsingContextTarget
 (
