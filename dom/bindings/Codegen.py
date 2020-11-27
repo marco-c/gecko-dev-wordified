@@ -122960,12 +122960,6 @@ ErrorResult
 .
 h
 "
-                
-"
-GeckoProfiler
-.
-h
-"
             
 )
             
@@ -123193,6 +123187,27 @@ in
 descriptors
         
 )
+        
+#
+XXX
+Not
+sure
+when
+we
+actually
+need
+this
+        
+bindingHeaders
+[
+"
+GeckoProfiler
+.
+h
+"
+]
+=
+True
         
 def
 descriptorHasCrossOriginProperties
