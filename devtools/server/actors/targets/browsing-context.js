@@ -580,7 +580,9 @@ server
 /
 actors
 /
-stylesheets
+style
+-
+sheet
 "
 true
 )

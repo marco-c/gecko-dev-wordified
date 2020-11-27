@@ -1203,7 +1203,9 @@ server
 /
 actors
 /
-stylesheets
+style
+-
+sheets
 "
 {
 prefix
