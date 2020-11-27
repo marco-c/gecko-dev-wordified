@@ -14401,12 +14401,6 @@ aEpoch
 ;
 if
 (
-!
-mPaused
-)
-{
-if
-(
 mIsForcedFirstPaint
 )
 {
@@ -14539,7 +14533,6 @@ notifications
 )
 ;
 }
-}
 return
 ;
 }
@@ -14586,12 +14579,6 @@ RemoveEpochDataPriorTo
 aEpoch
 )
 ;
-if
-(
-!
-mPaused
-)
-{
 std
 :
 :
@@ -14685,7 +14672,6 @@ aCompositeStart
 aCompositeEnd
 )
 ;
-}
 }
 if
 (
