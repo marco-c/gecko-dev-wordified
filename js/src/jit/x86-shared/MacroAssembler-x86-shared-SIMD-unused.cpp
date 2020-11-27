@@ -2191,7 +2191,10 @@ HasAVX
 {
 vmovddup
 (
+Operand
+(
 input
+)
 output
 )
 ;
