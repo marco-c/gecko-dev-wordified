@@ -3187,8 +3187,9 @@ presShell
 DisplayPortMargins
 :
 :
-WithNoAdjustment
+ForContent
 (
+aElement
 displayportMargins
 )
 aPriority
