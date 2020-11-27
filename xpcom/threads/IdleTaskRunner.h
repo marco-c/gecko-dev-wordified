@@ -354,13 +354,6 @@ aTarget
 )
 override
 ;
-void
-SetBudget
-(
-int64_t
-aBudget
-)
-;
 nsresult
 Cancel
 (
