@@ -677,6 +677,15 @@ nsIAccessibleEvent
 :
 :
 EVENT_LIVE_REGION_REMOVED
+&
+&
+aEventType
+!
+=
+nsIAccessibleEvent
+:
+:
+EVENT_NAME_CHANGE
 )
 return
 ;
