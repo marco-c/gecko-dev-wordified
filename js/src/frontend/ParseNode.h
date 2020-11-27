@@ -11627,6 +11627,9 @@ create
 JSContext
 *
 cx
+CompilationAtomCache
+&
+atomCache
 CompilationStencil
 &
 stencil

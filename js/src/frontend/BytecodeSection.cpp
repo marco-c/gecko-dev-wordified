@@ -762,6 +762,7 @@ data
 createRegExp
 (
 cx
+atomCache
 )
 ;
 if

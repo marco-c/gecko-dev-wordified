@@ -20436,6 +20436,16 @@ getCompilationInfo
 (
 )
 .
+input
+.
+atomCache
+parser
+-
+>
+getCompilationInfo
+(
+)
+.
 stencil
 )
 ;
