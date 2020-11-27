@@ -575,7 +575,7 @@ control_stream_local
 ControlStreamLocal
 :
 :
-new
+default
 (
 )
 control_stream_remote
@@ -3074,7 +3074,7 @@ control_stream_local
 ControlStreamLocal
 :
 :
-new
+default
 (
 )
 ;

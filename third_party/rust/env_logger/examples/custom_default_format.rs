@@ -115,6 +115,10 @@ MY_LOG_STYLE
 "
 )
 ;
+let
+mut
+builder
+=
 Builder
 :
 :
@@ -122,6 +126,8 @@ from_env
 (
 env
 )
+;
+builder
 .
 format_level
 (
@@ -131,6 +137,8 @@ false
 format_timestamp_nanos
 (
 )
+;
+builder
 .
 init
 (

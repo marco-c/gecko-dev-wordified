@@ -426,16 +426,6 @@ QuicVersion
 :
 :
 Draft30
-|
-QuicVersion
-:
-:
-Draft31
-|
-QuicVersion
-:
-:
-Draft32
 =
 >
 &
