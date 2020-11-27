@@ -1634,16 +1634,6 @@ gpu_cache
 &
 mut
 GpuCache
-_
-:
-&
-mut
-RenderTaskCache
-_
-:
-&
-mut
-RenderTaskGraph
 profile
 :
 &
