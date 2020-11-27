@@ -2306,7 +2306,7 @@ FirstExecution
 script
 -
 >
-hadFrequentBailouts
+hadLICMBailout
 (
 )
 )
@@ -2314,7 +2314,7 @@ hadFrequentBailouts
 script
 -
 >
-setHadFrequentBailouts
+setHadLICMBailout
 (
 )
 ;
