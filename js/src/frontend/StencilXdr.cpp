@@ -5143,15 +5143,12 @@ xdr
 stencil
 .
 atoms_
-nullptr
 )
 )
 ;
 for
 (
-const
-ParserAtom
-*
+auto
 &
 entry
 :
@@ -5162,7 +5159,7 @@ atoms_
 {
 MOZ_TRY
 (
-XDRParserAtom
+XDRTaggedParserAtomIndex
 (
 xdr
 &

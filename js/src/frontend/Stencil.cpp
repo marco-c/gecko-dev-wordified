@@ -5706,6 +5706,9 @@ defined
 JS_JITSPEW
 )
 void
+frontend
+:
+:
 DumpTaggedParserAtomIndex
 (
 js
@@ -9968,6 +9971,7 @@ data
 dump
 (
 json
+this
 )
 ;
 }
