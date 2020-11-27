@@ -2455,8 +2455,9 @@ kidDesiredSize
 aReflowInput
 )
 ;
+const
 WritingMode
-wm
+kidWM
 =
 kidFrame
 -
@@ -2472,7 +2473,7 @@ aReflowInput
 .
 AvailableSize
 (
-wm
+kidWM
 )
 ;
 ReflowInput
