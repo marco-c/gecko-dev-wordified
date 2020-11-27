@@ -3337,13 +3337,6 @@ objectGroupsGCHeap
 MACRO
 (
 Other
-MallocHeap
-objectGroupsMallocHeap
-)
-\
-MACRO
-(
-Other
 GCHeapUsed
 scopesGCHeap
 )

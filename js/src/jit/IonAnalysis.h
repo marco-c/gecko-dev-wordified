@@ -207,9 +207,6 @@ ObjectGroup
 class
 PlainObject
 ;
-class
-TypeNewScriptInitializer
-;
 namespace
 jit
 {
