@@ -107694,7 +107694,7 @@ ok
 ;
 masm
 .
-wasmBoundsCheck
+wasmBoundsCheck32
 (
 Assembler
 :
