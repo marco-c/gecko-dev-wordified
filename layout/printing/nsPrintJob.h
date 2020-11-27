@@ -2050,6 +2050,11 @@ mDidLoadDataForPrinting
 false
 ;
 bool
+mDoingInitialReflow
+=
+false
+;
+bool
 mIsDestroying
 =
 false
