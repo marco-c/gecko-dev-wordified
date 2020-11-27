@@ -1193,11 +1193,6 @@ AboutPagesUtils
 jsm
 "
 "
-ActorChild
-.
-jsm
-"
-"
 ActorManagerChild
 .
 jsm
