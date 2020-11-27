@@ -124,6 +124,13 @@ h
 #
 include
 "
+ServiceWorkerUtils
+.
+h
+"
+#
+include
+"
 ServiceWorkerPrivate
 .
 h

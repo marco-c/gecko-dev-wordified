@@ -124,6 +124,13 @@ h
 #
 include
 "
+RemoteServiceWorkerImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

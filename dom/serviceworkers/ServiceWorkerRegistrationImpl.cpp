@@ -137,6 +137,17 @@ mozilla
 /
 dom
 /
+DOMMozPromiseRequestHolder
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h

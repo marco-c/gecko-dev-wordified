@@ -273,6 +273,13 @@ StorageAccess
 h
 "
 #
+include
+"
+nsGlobalWindowInner
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

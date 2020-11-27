@@ -141,6 +141,9 @@ namespace
 dom
 {
 class
+ClientState
+;
+class
 ServiceWorkerCloneData
 ;
 class
