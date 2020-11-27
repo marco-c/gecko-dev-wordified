@@ -16115,6 +16115,16 @@ rtcIdentityProvider
 :
 1
 ;
+#
+ifdef
+MOZ_GLEAN
+bool
+glean
+:
+1
+;
+#
+endif
 private
 :
 bool
