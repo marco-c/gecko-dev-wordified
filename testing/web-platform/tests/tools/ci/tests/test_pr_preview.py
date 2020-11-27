@@ -37,6 +37,8 @@ stat
 import
 subprocess
 import
+sys
+import
 tempfile
 import
 threading
@@ -1269,6 +1271,41 @@ cwd
 directory
 )
         
+#
+Explicitly
+create
+the
+default
+branch
+.
+        
+subprocess
+.
+check_call
+(
+            
+[
+'
+git
+'
+'
+checkout
+'
+'
+-
+b
+'
+'
+master
+'
+]
+            
+cwd
+=
+directory
+        
+)
+        
 subprocess
 .
 check_call
@@ -1593,9 +1630,9 @@ Popen
             
 [
                 
-'
-python
-'
+sys
+.
+executable
                 
 subject
                 
@@ -1908,9 +1945,9 @@ Popen
             
 [
                 
-'
-python
-'
+sys
+.
+executable
                 
 subject
                 
