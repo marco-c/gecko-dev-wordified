@@ -692,6 +692,10 @@ ServiceWorkerRegistrationInfo
 ;
 friend
 class
+ServiceWorkerShutdownBlocker
+;
+friend
+class
 ServiceWorkerUnregisterJob
 ;
 friend
