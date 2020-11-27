@@ -68,10 +68,10 @@ EXPORTED_SYMBOLS
 =
 [
 "
-getMarionetteFrameActorProxy
+getMarionetteCommandsActorProxy
 "
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 "
 ]
 ;
@@ -257,7 +257,7 @@ ReferenceStore
 )
 ;
 class
-MarionetteFrameParent
+MarionetteCommandsParent
 extends
 JSWindowActorParent
 {
@@ -417,7 +417,7 @@ name
 {
 case
 "
-MarionetteFrameChild
+MarionetteCommandsChild
 :
 PageLoadEvent
 "
@@ -440,7 +440,7 @@ break
 ;
 case
 "
-MarionetteFrameChild
+MarionetteCommandsChild
 :
 ElementIdCacheAdd
 "
@@ -611,7 +611,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 clearElement
 "
@@ -635,7 +635,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 clickElement
 "
@@ -662,7 +662,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 executeScript
 "
@@ -687,7 +687,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 findElement
 "
@@ -712,7 +712,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 findElements
 "
@@ -735,7 +735,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getActiveElement
 "
@@ -753,7 +753,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getCurrentUrl
 "
@@ -773,7 +773,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementAttribute
 "
@@ -799,7 +799,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementProperty
 "
@@ -824,7 +824,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementRect
 "
@@ -848,7 +848,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementTagName
 "
@@ -872,7 +872,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementText
 "
@@ -897,7 +897,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getElementValueOfCssProperty
 "
@@ -921,7 +921,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getPageSource
 "
@@ -941,7 +941,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 isElementDisplayed
 "
@@ -967,7 +967,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 isElementEnabled
 "
@@ -993,7 +993,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 isElementSelected
 "
@@ -1020,7 +1020,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 sendKeysToElement
 "
@@ -1047,7 +1047,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 performActions
 "
@@ -1069,7 +1069,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 releaseActions
 "
@@ -1091,7 +1091,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 singleTap
 "
@@ -1123,7 +1123,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 switchToFrame
 "
@@ -1161,7 +1161,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 switchToParentFrame
 "
@@ -1198,7 +1198,7 @@ this
 sendQuery
 (
 "
-MarionetteFrameParent
+MarionetteCommandsParent
 :
 getScreenshotRect
 "
@@ -1343,7 +1343,7 @@ that
 will
 dynamically
 create
-MarionetteFrame
+MarionetteCommands
 actors
 for
 a
@@ -1398,7 +1398,7 @@ run
 *
 /
 function
-getMarionetteFrameActorProxy
+getMarionetteCommandsActorProxy
 (
 browsingContextFn
 )
@@ -1527,7 +1527,7 @@ currentWindowGlobal
 getActor
 (
 "
-MarionetteFrame
+MarionetteCommands
 "
 )
 ;
