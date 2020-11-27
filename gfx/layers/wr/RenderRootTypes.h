@@ -164,15 +164,6 @@ WebRenderScrollData
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Variant
-.
-h
-"
 namespace
 mozilla
 {
