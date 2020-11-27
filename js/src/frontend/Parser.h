@@ -7988,6 +7988,8 @@ storedMethodAtom
 FunctionNodeType
 fieldInitializerOpt
 (
+TokenPos
+propNamePos
 Node
 name
 const

@@ -79,16 +79,6 @@ START
 -
 -
 -
--
--
--
--
--
--
--
--
--
--
 v
 '
 field_str
@@ -379,7 +369,7 @@ assertEq
 script
 .
 startColumn
-30
+20
 )
 ;
 /
