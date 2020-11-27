@@ -85,6 +85,13 @@ AtomType
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {
