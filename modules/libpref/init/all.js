@@ -36320,9 +36320,6 @@ set_input_scope_of_url_bar_to_default
 true
 )
 ;
-#
-ifdef
-NS_ENABLE_TSF
 /
 /
 Enable
@@ -37115,11 +37112,6 @@ query_insert_result
 true
 )
 ;
-#
-endif
-/
-/
-NS_ENABLE_TSF
 /
 /
 If
