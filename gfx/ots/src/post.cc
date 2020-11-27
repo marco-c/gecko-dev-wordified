@@ -966,8 +966,7 @@ version
 0x00030000
 )
 {
-return
-Error
+Warning
 (
 "
 Only
@@ -992,6 +991,13 @@ this
 >
 version
 )
+;
+this
+-
+>
+version
+=
+0x00030000
 ;
 }
 if

@@ -932,13 +932,15 @@ uint8_t
 direction
 ;
 uint8_t
-attCollisions
+attrCollisions
 ;
 /
 /
 reserved3
 before
-v5
+v4
+.
+1
 uint8_t
 reserved4
 ;

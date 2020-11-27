@@ -101,14 +101,6 @@ size_t
 length
 )
 ;
-bool
-Serialize
-(
-OTSStream
-*
-out
-)
-;
 }
 ;
 }
