@@ -596,6 +596,9 @@ hud
 "
 illegal
 character
+U
++
+0040
 "
 )
 )
