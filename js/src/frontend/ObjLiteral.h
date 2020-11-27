@@ -4279,6 +4279,13 @@ length
 (
 )
 ;
+atom
+-
+>
+markUsedByStencil
+(
+)
+;
 if
 (
 !
