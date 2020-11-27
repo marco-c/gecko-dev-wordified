@@ -1729,7 +1729,7 @@ HasFunctionAtom
 {
 MOZ_TRY
 (
-XDRParserAtom
+XDRTaggedParserAtomIndex
 (
 xdr
 &
