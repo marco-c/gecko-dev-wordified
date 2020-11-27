@@ -2972,11 +2972,7 @@ this
 .
 resume
 (
-{
-resumeLimit
-:
 null
-}
 )
 stepOver
 :
@@ -2989,15 +2985,11 @@ this
 resume
 (
 {
-resumeLimit
-:
-{
 type
 :
 "
 next
 "
-}
 }
 )
 }
