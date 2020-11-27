@@ -432,6 +432,11 @@ MozStorageStatementRow
 webidl
 "
 "
+NetDashboard
+.
+webidl
+"
+"
 PathUtils
 .
 webidl
