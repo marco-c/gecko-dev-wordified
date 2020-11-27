@@ -2740,12 +2740,15 @@ tmp
 )
 ;
 }
+else
+{
 return
 SolidColorShader
 (
 tmp
 )
 ;
+}
 }
 else
 if
@@ -2856,6 +2859,8 @@ tmp
 )
 ;
 }
+else
+{
 return
 SolidColorShaderMask
 (
@@ -2863,6 +2868,9 @@ tmp
 )
 ;
 }
+}
+else
+{
 return
 float4
 (
@@ -2880,6 +2888,7 @@ float4
 0
 )
 ;
+}
 }
 float3
 ChooseBlendFunc
