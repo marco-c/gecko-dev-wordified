@@ -36456,7 +36456,7 @@ i32Result
 !
 c
 .
-isIntegerZero
+isZeroBits
 (
 )
 ;
