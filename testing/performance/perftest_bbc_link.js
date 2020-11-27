@@ -130,6 +130,11 @@ name
 BBC
 Link
 "
+component
+:
+"
+pageload
+"
 description
 :
 "

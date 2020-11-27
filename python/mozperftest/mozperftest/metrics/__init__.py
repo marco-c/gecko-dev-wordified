@@ -91,6 +91,16 @@ metrics
 visualmetrics
 import
 VisualMetrics
+from
+mozperftest
+.
+metrics
+.
+perfboard
+.
+influx
+import
+Influx
 def
 get_layers
 (
@@ -102,6 +112,7 @@ VisualMetrics
 Perfherder
 ConsoleOutput
 Notebook
+Influx
 def
 pick_metrics
 (
@@ -152,6 +163,7 @@ layers
 Perfherder
 ConsoleOutput
 Notebook
+Influx
     
 return
 Layers
