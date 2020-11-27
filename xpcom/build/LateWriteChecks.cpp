@@ -495,7 +495,7 @@ str
 ;
 str
 .
-AppendPrintf
+AppendVprintf
 (
 aFormat
 list

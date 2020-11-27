@@ -8493,7 +8493,7 @@ T
 >
 :
 :
-AppendPrintf
+AppendVprintf
 (
 const
 char

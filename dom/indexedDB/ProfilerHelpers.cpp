@@ -339,7 +339,7 @@ message
 ;
 message
 .
-AppendPrintf
+AppendVprintf
 (
 aFmt
 args
