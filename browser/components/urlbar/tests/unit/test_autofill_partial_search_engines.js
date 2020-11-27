@@ -197,7 +197,7 @@ tabToSearch
 .
 onboard
 .
-maxShown
+interactionsLeft
 "
 0
 )
@@ -312,7 +312,7 @@ tabToSearch
 .
 onboard
 .
-maxShown
+interactionsLeft
 "
 )
 ;
