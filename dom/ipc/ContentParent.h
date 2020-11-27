@@ -8700,6 +8700,12 @@ ContentParent
 nsCString
 mRemoteType
 ;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mRemoteTypeIsolationPrincipal
+;
 ContentParentId
 mChildID
 ;
