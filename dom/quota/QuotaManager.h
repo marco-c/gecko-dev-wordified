@@ -1161,7 +1161,7 @@ Type
 aClientType
 )
 ;
-bool
+UsageInfo
 GetUsageForClient
 (
 PersistenceType
@@ -1175,9 +1175,6 @@ Client
 :
 Type
 aClientType
-uint64_t
-&
-aUsage
 )
 ;
 void
