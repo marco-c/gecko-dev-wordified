@@ -92,6 +92,12 @@ MPL
 *
 /
 #
+ifndef
+WebAuthnTokenManager_h
+#
+define
+WebAuthnTokenManager_h
+#
 include
 "
 mozilla
@@ -651,3 +657,5 @@ result
 /
 namespace
 mozilla
+#
+endif

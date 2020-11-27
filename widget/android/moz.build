@@ -660,11 +660,6 @@ ScreenHelperAndroid
 cpp
 "
 "
-WebAuthnTokenManager
-.
-cpp
-"
-"
 WebExecutorSupport
 .
 cpp
