@@ -1666,6 +1666,7 @@ element
 resolveElement
 (
 obj
+win
 )
 ;
 }
