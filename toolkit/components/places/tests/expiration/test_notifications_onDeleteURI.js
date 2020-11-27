@@ -627,11 +627,6 @@ REASON_EXPIRED
 )
 ;
 }
-onPageChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 )
