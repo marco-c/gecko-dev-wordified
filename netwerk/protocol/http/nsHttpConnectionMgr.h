@@ -1492,6 +1492,11 @@ aNoHttp3
 )
 ;
 void
+IncreaseNumHalfOpenConns
+(
+)
+;
+void
 DecreaseNumHalfOpenConns
 (
 )
