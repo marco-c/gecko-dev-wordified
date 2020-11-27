@@ -157,6 +157,9 @@ h
 namespace
 mozilla
 {
+class
+Decoder
+;
 namespace
 dom
 {
