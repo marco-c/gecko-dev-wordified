@@ -119,6 +119,7 @@ protocol
 PNecko
 ;
 using
+class
 mozilla
 :
 :
@@ -128,9 +129,11 @@ net
 WebSocketFrameData
 from
 "
-ipc
+mozilla
 /
-IPCMessageUtils
+net
+/
+WebSocketFrame
 .
 h
 "

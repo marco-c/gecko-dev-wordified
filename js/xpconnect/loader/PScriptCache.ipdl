@@ -134,6 +134,7 @@ h
 "
 ;
 using
+struct
 mozilla
 :
 :

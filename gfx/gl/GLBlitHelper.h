@@ -144,9 +144,11 @@ h
 #
 include
 "
+mozilla
+/
 ipc
 /
-IPCMessageUtils
+IPCTypes
 .
 h
 "
