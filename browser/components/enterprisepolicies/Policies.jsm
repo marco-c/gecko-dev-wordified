@@ -7888,6 +7888,10 @@ network
 .
 "
 "
+pdfjs
+.
+"
+"
 places
 .
 "
@@ -7897,6 +7901,10 @@ print
 "
 "
 signon
+.
+"
+"
+spellchecker
 .
 "
 "
