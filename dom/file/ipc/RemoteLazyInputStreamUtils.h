@@ -120,11 +120,6 @@ mozilla_RemoteLazyInputStreamUtils_h
 #
 define
 mozilla_RemoteLazyInputStreamUtils_h
-#
-include
-<
-cstdint
->
 /
 *
 *
@@ -165,15 +160,6 @@ too
 .
 *
 /
-class
-nsIInputStream
-;
-enum
-class
-nsresult
-:
-uint32_t
-;
 namespace
 mozilla
 {

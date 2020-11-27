@@ -303,13 +303,6 @@ h
 #
 include
 "
-nsStreamUtils
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h
