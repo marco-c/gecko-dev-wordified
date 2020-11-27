@@ -220,7 +220,6 @@ pub
 fn
 properties_required
 (
-&
 self
 )
 -
@@ -231,7 +230,6 @@ m
 Properties
 {
 match
-*
 self
 {
 MemoryUsage
@@ -275,6 +273,16 @@ Properties
 CPU_VISIBLE
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+identity_op
+)
+]
 pub
 (
 crate
@@ -282,7 +290,6 @@ crate
 fn
 memory_fitness
 (
-&
 self
 properties
 :
@@ -296,7 +303,6 @@ Properties
 u32
 {
 match
-*
 self
 {
 MemoryUsage

@@ -2210,6 +2210,12 @@ compile
 (
 )
 {
+ir
+.
+fixup_reserved_names
+(
+)
+;
 /
 /
 Do

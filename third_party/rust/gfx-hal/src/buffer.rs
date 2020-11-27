@@ -10,14 +10,6 @@ buffers
 /
 /
 !
-#
-Buffer
-/
-/
-!
-/
-/
-!
 Buffers
 interpret
 memory
@@ -28,6 +20,9 @@ contiguous
 data
 array
 .
+/
+/
+!
 /
 /
 !
