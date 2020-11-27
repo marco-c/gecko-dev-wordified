@@ -1693,17 +1693,6 @@ n
 /
 /
 Bug
-1506910
-"
-race
-:
-gMozillaPoisonValue
-\
-n
-"
-/
-/
-Bug
 1601286
 "
 race

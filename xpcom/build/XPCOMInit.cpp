@@ -1488,10 +1488,6 @@ sInitialized
 =
 true
 ;
-mozPoisonValueInit
-(
-)
-;
 NS_LogInit
 (
 )
@@ -2933,10 +2929,6 @@ NS_InitMinimalXPCOM
 (
 )
 {
-mozPoisonValueInit
-(
-)
-;
 NS_SetMainThread
 (
 )
