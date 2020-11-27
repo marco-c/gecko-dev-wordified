@@ -245,6 +245,16 @@ Resume
 )
 override
 ;
+bool
+SurfaceOriginIsTopLeft
+(
+)
+override
+{
+return
+true
+;
+}
 LayoutDeviceIntSize
 GetBufferSize
 (
