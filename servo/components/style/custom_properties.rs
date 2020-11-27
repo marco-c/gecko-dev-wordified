@@ -4746,6 +4746,12 @@ device
 )
 ;
 }
+map
+.
+shrink_to_fit
+(
+)
+;
 Some
 (
 Arc
