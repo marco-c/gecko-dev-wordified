@@ -90,6 +90,11 @@ DIRS
 =
 [
 '
+object
+-
+inspector
+'
+'
 menu
 '
 '

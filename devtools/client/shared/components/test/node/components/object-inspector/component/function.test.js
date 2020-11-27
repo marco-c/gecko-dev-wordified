@@ -130,8 +130,6 @@ shared
 /
 components
 /
-reps
-/
 object
 -
 inspector
