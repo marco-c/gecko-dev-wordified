@@ -10572,6 +10572,8 @@ MaybeDiscardedBrowsingContext
 aContext
 CallerType
 aCallerType
+uint64_t
+aActionId
 )
 ;
 async
@@ -10593,6 +10595,8 @@ SetActiveBrowsingContext
 (
 MaybeDiscardedBrowsingContext
 aContext
+uint64_t
+aActionId
 )
 ;
 async
@@ -10600,6 +10604,8 @@ UnsetActiveBrowsingContext
 (
 MaybeDiscardedBrowsingContext
 aContext
+uint64_t
+aActionId
 )
 ;
 async
@@ -10625,6 +10631,13 @@ aCallerType
 parent
 :
 async
+InsertNewFocusActionId
+(
+uint64_t
+aActionId
+)
+;
+async
 BlurToParent
 (
 MaybeDiscardedBrowsingContext
@@ -10641,6 +10654,8 @@ bool
 aBrowsingContextToClearHandled
 bool
 aAncestorBrowsingContextToFocusHandled
+uint64_t
+aActionId
 )
 ;
 child
@@ -10658,6 +10673,8 @@ bool
 aIsLeavingDocument
 bool
 aAdjustWidget
+uint64_t
+aActionId
 )
 ;
 async
@@ -10667,6 +10684,15 @@ MaybeDiscardedBrowsingContext
 aFocusedBrowsingContext
 MaybeDiscardedBrowsingContext
 aActiveBrowsingContext
+)
+;
+async
+ReviseActiveBrowsingContext
+(
+MaybeDiscardedBrowsingContext
+aActiveBrowsingContext
+uint64_t
+aActionId
 )
 ;
 both

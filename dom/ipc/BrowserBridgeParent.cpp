@@ -1399,6 +1399,8 @@ BrowserBridgeParent
 :
 RecvActivate
 (
+uint64_t
+aActionId
 )
 {
 mBrowserParent
@@ -1406,6 +1408,7 @@ mBrowserParent
 >
 Activate
 (
+aActionId
 )
 ;
 return
@@ -1424,6 +1427,8 @@ const
 bool
 &
 aWindowLowering
+uint64_t
+aActionId
 )
 {
 mBrowserParent
@@ -1432,6 +1437,7 @@ mBrowserParent
 Deactivate
 (
 aWindowLowering
+aActionId
 )
 ;
 return

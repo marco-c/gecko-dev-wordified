@@ -3758,6 +3758,8 @@ BrowsingContext
 aContext
 CallerType
 aCallerType
+uint64_t
+aActionId
 )
 ;
 mozilla
@@ -3834,6 +3836,8 @@ BrowsingContext
 >
 &
 aContext
+uint64_t
+aActionId
 )
 ;
 mozilla
@@ -3852,6 +3856,8 @@ BrowsingContext
 >
 &
 aContext
+uint64_t
+aActionId
 )
 ;
 mozilla
@@ -3903,6 +3909,19 @@ ipc
 :
 :
 IPCResult
+RecvInsertNewFocusActionId
+(
+uint64_t
+aActionId
+)
+;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
 RecvBlurToParent
 (
 const
@@ -3934,6 +3953,8 @@ bool
 aBrowsingContextToClearHandled
 bool
 aAncestorBrowsingContextToFocusHandled
+uint64_t
+aActionId
 )
 ;
 mozilla

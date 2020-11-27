@@ -311,6 +311,8 @@ aForDocumentNavigation
 void
 Activate
 (
+uint64_t
+aActionId
 )
 ;
 void
@@ -318,6 +320,8 @@ Deactivate
 (
 bool
 aWindowLowering
+uint64_t
+aActionId
 )
 ;
 void

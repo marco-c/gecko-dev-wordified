@@ -26213,6 +26213,12 @@ WindowHidden
 GetOuterWindow
 (
 )
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
 )
 ;
 }

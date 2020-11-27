@@ -754,6 +754,8 @@ iframe
 async
 Activate
 (
+uint64_t
+aActionId
 )
 ;
 async
@@ -761,6 +763,8 @@ Deactivate
 (
 bool
 aWindowLowering
+uint64_t
+aActionId
 )
 ;
 async

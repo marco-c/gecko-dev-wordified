@@ -530,6 +530,8 @@ ipc
 IPCResult
 RecvActivate
 (
+uint64_t
+aActionId
 )
 ;
 mozilla
@@ -545,6 +547,8 @@ const
 bool
 &
 aWindowLowering
+uint64_t
+aActionId
 )
 ;
 mozilla

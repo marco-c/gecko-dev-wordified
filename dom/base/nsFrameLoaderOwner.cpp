@@ -1288,6 +1288,12 @@ ActivateRemoteFrameIfNeeded
 (
 *
 owner
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
 )
 ;
 }

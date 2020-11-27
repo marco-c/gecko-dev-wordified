@@ -34590,6 +34590,16 @@ GetParentCrossChromeBoundary
 ;
 }
 }
+uint64_t
+actionId
+=
+nsFocusManager
+:
+:
+GenerateFocusActionId
+(
+)
+;
 if
 (
 parent
@@ -34617,6 +34627,7 @@ fm
 WindowRaised
 (
 this
+actionId
 )
 ;
 }
@@ -34760,6 +34771,7 @@ RaiseWindow
 (
 this
 aCallerType
+actionId
 )
 ;
 }

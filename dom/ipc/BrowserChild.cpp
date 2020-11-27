@@ -8599,6 +8599,8 @@ BrowserChild
 :
 RecvActivate
 (
+uint64_t
+aActionId
 )
 {
 MOZ_ASSERT
@@ -8611,6 +8613,7 @@ mWebBrowser
 >
 FocusActivate
 (
+aActionId
 )
 ;
 return
@@ -8631,6 +8634,8 @@ BrowserChild
 :
 RecvDeactivate
 (
+uint64_t
+aActionId
 )
 {
 MOZ_ASSERT
@@ -8643,6 +8648,7 @@ mWebBrowser
 >
 FocusDeactivate
 (
+aActionId
 )
 ;
 return
