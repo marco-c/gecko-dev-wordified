@@ -219,6 +219,7 @@ UnavailableNoGpuProcess
 UnavailableNoHwCompositing
 UnavailableNotBuilt
 UnavailableNoAngle
+UnavailableNoWebRender
 /
 /
 This
