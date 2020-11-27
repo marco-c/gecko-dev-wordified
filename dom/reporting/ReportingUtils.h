@@ -128,6 +128,9 @@ nsString
 h
 "
 class
+nsAtom
+;
+class
 nsIGlobalObject
 ;
 namespace

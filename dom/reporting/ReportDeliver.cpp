@@ -165,6 +165,17 @@ mozilla
 /
 dom
 /
+ReportBody
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ReportDeliver
 .
 h
