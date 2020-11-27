@@ -7631,12 +7631,11 @@ by
 the
 main
 thread
-use
 pass
 ResolutionChangeOrigin
 :
 :
-MainThread
+MainThreadAdjustment
 (
 similar
 *
