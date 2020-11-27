@@ -578,7 +578,6 @@ enum
 class
 CallbackFunction
 {
-WillDestroy
 DidDestroy
 ActorCreated
 }
@@ -587,7 +586,7 @@ void
 InvokeCallback
 (
 CallbackFunction
-willDestroy
+callback
 )
 ;
 virtual

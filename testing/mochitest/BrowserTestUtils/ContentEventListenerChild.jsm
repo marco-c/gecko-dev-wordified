@@ -160,7 +160,7 @@ this
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {
