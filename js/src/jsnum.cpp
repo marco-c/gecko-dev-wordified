@@ -3423,10 +3423,8 @@ ES5
 .
 *
 /
+static
 bool
-js
-:
-:
 num_parseInt
 (
 JSContext
