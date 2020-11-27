@@ -6178,6 +6178,12 @@ linux
 "
 in
 platform
+or
+"
+macos
+"
+in
+platform
 :
                         
 return
@@ -6197,6 +6203,12 @@ try_name
 if
 "
 linux
+"
+in
+platform
+or
+"
+macos
 "
 in
 platform
@@ -6263,11 +6275,19 @@ chrome
 variants
                 
 if
+(
 "
 linux
 "
 in
 platform
+or
+"
+macos
+"
+in
+platform
+)
 and
 "
 tp6
