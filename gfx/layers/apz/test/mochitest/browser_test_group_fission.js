@@ -379,6 +379,15 @@ max_tap_time
 ]
 ]
 }
+{
+file
+:
+"
+helper_fission_inactivescroller_under_oopif
+.
+html
+"
+}
 /
 /
 add
@@ -402,7 +411,6 @@ concat
 /
 /
 add
-additional
 WebRender
 -
 specific
