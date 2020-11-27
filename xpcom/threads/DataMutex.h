@@ -367,7 +367,7 @@ MutexType
 class
 DataMutexBase
 {
-private
+public
 :
 class
 MOZ_STACK_CLASS
@@ -641,8 +641,6 @@ mOwner
 ;
 }
 ;
-public
-:
 explicit
 DataMutexBase
 (
