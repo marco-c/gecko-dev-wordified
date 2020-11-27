@@ -190,6 +190,7 @@ return
 mGeckoName
 ;
 }
+WrapForJNI
 private
 static
 final
