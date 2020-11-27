@@ -2522,6 +2522,8 @@ TrackRate
 aRate
 uint32_t
 aChannels
+uint32_t
+aAlreadyBuffered
 )
 override
 {
@@ -5820,6 +5822,9 @@ to
 Audio
 blocks
 )
+uint32_t
+alreadyBuffered
+=
 mScratchBuffer
 .
 Empty
@@ -6210,6 +6215,7 @@ aFrames
 )
 mSampleRate
 mInputChannelCount
+alreadyBuffered
 )
 ;
 }

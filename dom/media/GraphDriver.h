@@ -1314,6 +1314,8 @@ TrackRate
 aRate
 uint32_t
 aChannels
+uint32_t
+aAlreadyBuffered
 )
 =
 0
