@@ -124,6 +124,13 @@ h
 #
 include
 "
+BaseBlobImpl
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SlicedInputStream
