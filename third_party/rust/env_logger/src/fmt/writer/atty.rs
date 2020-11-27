@@ -72,9 +72,6 @@ atty
 mod
 imp
 {
-use
-atty
-;
 pub
 (
 in

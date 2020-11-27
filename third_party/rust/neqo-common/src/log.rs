@@ -416,15 +416,10 @@ as_millis
 )
 %
 1000
-buf
-.
-default_styled_level
-(
 record
 .
 level
 (
-)
 )
 record
 .
