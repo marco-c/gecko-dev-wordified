@@ -340,7 +340,7 @@ void
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 const

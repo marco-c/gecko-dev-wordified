@@ -708,7 +708,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack

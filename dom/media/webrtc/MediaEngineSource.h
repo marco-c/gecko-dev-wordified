@@ -216,7 +216,7 @@ class
 MediaEnginePrefs
 ;
 class
-SourceMediaTrack
+MediaTrack
 ;
 /
 *
@@ -680,15 +680,15 @@ by
 MediaEngine
 when
 a
-SourceMediaTrack
+MediaTrack
 has
 been
 provided
 for
 the
-*
 source
 to
+*
 feed
 data
 to
@@ -711,7 +711,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack

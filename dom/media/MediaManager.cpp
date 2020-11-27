@@ -7053,7 +7053,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack
@@ -28693,7 +28693,7 @@ mAudioDeviceState
 mDevice
 :
 nullptr
-audioStream
+audioTrack
 =
 mAudioDeviceState
 ?
@@ -28726,7 +28726,7 @@ mVideoDeviceState
 mDevice
 :
 nullptr
-videoStream
+videoTrack
 =
 mVideoDeviceState
 ?
@@ -28769,12 +28769,7 @@ audioDevice
 >
 SetTrack
 (
-audioStream
--
->
-AsSourceTrack
-(
-)
+audioTrack
 principal
 )
 ;
@@ -28789,12 +28784,7 @@ videoDevice
 >
 SetTrack
 (
-videoStream
--
->
-AsSourceTrack
-(
-)
+videoTrack
 principal
 )
 ;

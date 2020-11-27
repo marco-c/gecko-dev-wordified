@@ -1572,7 +1572,7 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaTrack
+MediaTrack
 >
 &
 aTrack
@@ -1614,6 +1614,16 @@ MOZ_ASSERT
 aTrack
 )
 ;
+MOZ_ASSERT
+(
+aTrack
+-
+>
+AsSourceTrack
+(
+)
+)
+;
 if
 (
 !
@@ -1650,6 +1660,11 @@ mMutex
 mTrack
 =
 aTrack
+-
+>
+AsSourceTrack
+(
+)
 ;
 mPrincipal
 =
