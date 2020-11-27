@@ -1544,9 +1544,6 @@ GetCompositorHwnd
 )
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 else
 if
 (
@@ -1597,8 +1594,6 @@ GetHwnd
 )
 ;
 }
-#
-endif
 return
 hwnd
 ;
