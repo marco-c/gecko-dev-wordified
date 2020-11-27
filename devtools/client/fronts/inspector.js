@@ -549,7 +549,7 @@ null
 ;
 /
 /
-Highlighter
+CustomHighlighter
 fronts
 are
 managed
