@@ -216,6 +216,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIScriptError
 .
 h
