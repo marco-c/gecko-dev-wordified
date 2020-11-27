@@ -4185,6 +4185,12 @@ break
 if
 (
 !
+params
+.
+avoidBrowserFocus
+&
+&
+!
 focusUrlBar
 &
 &
