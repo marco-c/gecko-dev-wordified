@@ -368,15 +368,6 @@ ClearMappedBuffer
 void
 CommitMappedBuffer
 (
-const
-nsTArray
-<
-DeviceIntRect
->
-*
-aDirtyRects
-=
-nullptr
 )
 ;
 }
