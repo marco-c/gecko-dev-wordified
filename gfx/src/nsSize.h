@@ -198,6 +198,7 @@ nsSize
 >
 Super
 ;
+constexpr
 nsSize
 (
 )
@@ -207,6 +208,7 @@ Super
 )
 {
 }
+constexpr
 nsSize
 (
 nscoord
