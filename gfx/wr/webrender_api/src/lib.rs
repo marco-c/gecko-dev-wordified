@@ -1367,6 +1367,9 @@ wake_up
 (
 &
 self
+composite_needed
+:
+bool
 )
 ;
 /

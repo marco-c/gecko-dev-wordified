@@ -723,6 +723,9 @@ wake_up
 (
 &
 self
+_composite_needed
+:
+bool
 )
 {
 }
