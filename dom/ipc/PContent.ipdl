@@ -421,6 +421,17 @@ include
 "
 mozilla
 /
+dom
+/
+ReferrerInfoUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 ipc
 /
 ByteBufUtils

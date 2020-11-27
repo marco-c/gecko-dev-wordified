@@ -123,6 +123,17 @@ include
 "
 mozilla
 /
+dom
+/
+ReferrerInfoUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 GfxMessageUtils
 .
 h

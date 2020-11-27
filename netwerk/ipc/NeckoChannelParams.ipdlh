@@ -147,6 +147,17 @@ PBackgroundSharedTypes
 include
 DOMTypes
 ;
+include
+"
+mozilla
+/
+dom
+/
+ReferrerInfoUtils
+.
+h
+"
+;
 using
 mozilla
 :
