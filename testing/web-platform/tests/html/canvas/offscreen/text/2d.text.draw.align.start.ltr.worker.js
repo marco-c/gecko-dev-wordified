@@ -238,6 +238,14 @@ CanvasTest
 ;
 ctx
 .
+direction
+=
+'
+ltr
+'
+;
+ctx
+.
 fillStyle
 =
 '
