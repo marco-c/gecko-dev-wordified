@@ -5702,8 +5702,9 @@ shortcut
 )
 {
 return
-"
-"
+shortcut
+.
+restrict
 ;
 }
 return
