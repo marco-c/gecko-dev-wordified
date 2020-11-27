@@ -284,10 +284,6 @@ states
 focusable
 "
 "
-selectable
-text
-"
-"
 opaque
 "
 "
@@ -552,10 +548,6 @@ expectedStates
 [
 "
 unavailable
-"
-"
-selectable
-text
 "
 "
 opaque

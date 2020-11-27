@@ -227,10 +227,6 @@ states
 focusable
 "
 "
-selectable
-text
-"
-"
 opaque
 "
 "
@@ -697,6 +693,10 @@ focusable
 "
 "
 autocompletion
+"
+"
+selectable
+text
 "
 "
 editable
