@@ -439,7 +439,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 size_t
@@ -807,7 +809,9 @@ get
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 {
 return
@@ -1469,7 +1473,9 @@ byteLength
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 {
 JS_ReportErrorNumberASCII

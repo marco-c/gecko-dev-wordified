@@ -31065,12 +31065,14 @@ byteSize
 <
 length
 .
-static_assert
+MOZ_ASSERT
 (
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 <
 =
 INT32_MAX

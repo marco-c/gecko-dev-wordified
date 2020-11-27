@@ -727,7 +727,9 @@ offset
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 /
@@ -843,7 +845,9 @@ viewByteLength
 ArrayBufferObject
 :
 :
-MaxBufferByteLength
+maxBufferByteLength
+(
+)
 )
 ;
 *
