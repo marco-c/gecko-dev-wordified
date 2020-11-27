@@ -445,6 +445,9 @@ const
 nsACString
 &
 aRemoteType
+ErrorResult
+&
+aRv
 )
 ;
 private
