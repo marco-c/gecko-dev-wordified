@@ -349,6 +349,11 @@ nsNativeTheme
 nsITimerCallback
 nsINamed
 )
+/
+*
+static
+*
+/
 EventStates
 nsNativeTheme
 :

@@ -241,6 +241,12 @@ default
 NS_DECL_ISUPPORTS
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
+nsNativeTheme
+(
+)
+;
+public
+:
 enum
 ScrollbarButtonType
 {
@@ -269,10 +275,6 @@ eTreeSortDirection_Natural
 eTreeSortDirection_Ascending
 }
 ;
-nsNativeTheme
-(
-)
-;
 /
 /
 Returns
@@ -288,6 +290,7 @@ see
 EventStateManager
 .
 h
+static
 mozilla
 :
 :
@@ -467,6 +470,7 @@ true
 )
 ;
 }
+static
 bool
 IsFocused
 (
