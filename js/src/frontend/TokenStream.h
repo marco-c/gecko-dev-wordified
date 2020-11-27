@@ -18683,6 +18683,13 @@ return
 ;
 }
 }
+void
+reportIllegalCharacter
+(
+int32_t
+cp
+)
+;
 MOZ_MUST_USE
 bool
 putIdentInCharBuffer

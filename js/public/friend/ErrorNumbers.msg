@@ -4090,11 +4090,14 @@ method
 MSG_DEF
 (
 JSMSG_ILLEGAL_CHARACTER
-0
+1
 JSEXN_SYNTAXERR
 "
 illegal
 character
+{
+0
+}
 "
 )
 MSG_DEF
