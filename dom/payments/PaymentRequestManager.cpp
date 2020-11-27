@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIPaymentActionResponse
+.
+h
+"
+#
+include
+"
 PaymentRequestManager
 .
 h

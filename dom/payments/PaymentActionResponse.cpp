@@ -124,6 +124,13 @@ h
 #
 include
 "
+BasicCardPayment
+.
+h
+"
+#
+include
+"
 PaymentRequestUtils
 .
 h

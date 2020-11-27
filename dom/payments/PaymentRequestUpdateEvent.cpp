@@ -132,6 +132,17 @@ mozilla
 /
 dom
 /
+PaymentRequest
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 RootedDictionary
 .
 h

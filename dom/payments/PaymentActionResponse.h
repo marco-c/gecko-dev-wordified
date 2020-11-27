@@ -123,6 +123,13 @@ mozilla_dom_PaymentActionResponse_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsIPaymentActionResponse
 .
 h

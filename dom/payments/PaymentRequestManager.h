@@ -191,6 +191,15 @@ class
 PaymentRequestChild
 ;
 class
+IPCMethodChangeDetails
+;
+class
+IPCPaymentAddress
+;
+class
+IPCPaymentActionResponse
+;
+class
 IPCPaymentActionRequest
 ;
 /
