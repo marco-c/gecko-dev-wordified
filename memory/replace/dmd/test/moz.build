@@ -116,7 +116,7 @@ if
 CONFIG
 [
 "
-CXX_TYPE
+CC_TYPE
 "
 ]
 =
@@ -133,8 +133,7 @@ CXXFLAGS
 [
 "
 -
-Og
--
+Od
 "
 ]
 else

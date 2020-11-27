@@ -388,7 +388,7 @@ if
 CONFIG
 [
 "
-CXX_TYPE
+CC_TYPE
 "
 ]
 =
