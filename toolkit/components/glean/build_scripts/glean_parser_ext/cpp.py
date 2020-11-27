@@ -87,6 +87,7 @@ from
 util
 import
 generate_metric_ids
+is_implemented_metric_type
 from
 glean_parser
 import
@@ -389,6 +390,13 @@ type_name
 metric_id
 "
 get_metric_id
+)
+            
+(
+"
+is_implemented_type
+"
+is_implemented_metric_type
 )
         
 )
