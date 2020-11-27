@@ -6565,7 +6565,7 @@ if
 gDidInitialSetUp
 )
 {
-var
+let
 {
 ContentSearch
 }
