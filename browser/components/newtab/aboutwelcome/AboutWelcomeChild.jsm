@@ -1663,6 +1663,17 @@ featureId
 "
 aboutwelcome
 "
+/
+/
+Telemetry
+handled
+in
+AboutNewTabService
+.
+jsm
+sendExposurePing
+:
+false
 }
 )
 ;

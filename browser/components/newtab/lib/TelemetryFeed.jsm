@@ -1993,6 +1993,12 @@ of
 Messaging
 System
 *
+*
+return
+{
+bool
+}
+*
 /
 get
 isInCFRCohort
@@ -2006,7 +2012,7 @@ experimentData
 =
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 (
 {
 featureId
@@ -2037,9 +2043,6 @@ catch
 e
 )
 {
-return
-false
-;
 }
 return
 false

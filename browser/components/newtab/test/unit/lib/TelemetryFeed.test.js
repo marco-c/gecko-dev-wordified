@@ -190,7 +190,7 @@ let
 ExperimentAPI
 =
 {
-getExperiment
+getExperimentMetaData
 :
 (
 )
@@ -5801,7 +5801,7 @@ stub
 (
 ExperimentAPI
 "
-getExperiment
+getExperimentMetaData
 "
 )
 .
@@ -6330,7 +6330,7 @@ stub
 (
 ExperimentAPI
 "
-getExperiment
+getExperimentMetaData
 "
 )
 .
@@ -13442,7 +13442,7 @@ should
 return
 false
 if
-getExperiment
+getExperimentMetaData
 throws
 "
 (
@@ -13456,7 +13456,7 @@ stub
 (
 ExperimentAPI
 "
-getExperiment
+getExperimentMetaData
 "
 )
 .
@@ -13502,7 +13502,7 @@ stub
 (
 ExperimentAPI
 "
-getExperiment
+getExperimentMetaData
 "
 )
 .
@@ -13536,7 +13536,7 @@ propertyVal
 (
 ExperimentAPI
 .
-getExperiment
+getExperimentMetaData
 .
 firstCall
 .
