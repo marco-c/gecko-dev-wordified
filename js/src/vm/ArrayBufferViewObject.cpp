@@ -281,7 +281,7 @@ JSObject
 objArg
 )
 {
-NativeObject
+ArrayBufferViewObject
 *
 obj
 =
@@ -291,7 +291,7 @@ objArg
 >
 as
 <
-NativeObject
+ArrayBufferViewObject
 >
 (
 )
@@ -380,10 +380,10 @@ toObject
 )
 )
 ;
-uint32_t
+size_t
 offset
 =
-uint32_t
+size_t
 (
 obj
 -
@@ -393,7 +393,7 @@ getFixedSlot
 BYTEOFFSET_SLOT
 )
 .
-toInt32
+toPrivate
 (
 )
 )
@@ -563,9 +563,12 @@ Int32Value
 setFixedSlot
 (
 BYTEOFFSET_SLOT
-Int32Value
+PrivateValue
+(
+size_t
 (
 0
+)
 )
 )
 ;
@@ -804,7 +807,7 @@ setIsSharedMemory
 initFixedSlot
 (
 BYTEOFFSET_SLOT
-Int32Value
+PrivateValue
 (
 byteOffset
 )
