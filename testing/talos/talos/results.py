@@ -1601,6 +1601,11 @@ results
 [
 ]
         
+prev_line
+=
+"
+"
+        
 for
 line
 in
@@ -1611,6 +1616,42 @@ result
 =
 {
 }
+            
+#
+Bug
+1562883
+-
+Determine
+what
+is
+causing
+a
+single
+line
+to
+get
+            
+#
+written
+on
+multiple
+lines
+.
+            
+if
+prev_line
+:
+                
+line
+=
+prev_line
++
+line
+                
+prev_line
+=
+"
+"
             
 r
 =
@@ -1651,6 +1692,10 @@ r
 =
 2
 :
+                
+prev_line
+=
+line
                 
 continue
             
