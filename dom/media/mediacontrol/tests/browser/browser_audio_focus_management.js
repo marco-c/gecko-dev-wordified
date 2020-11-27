@@ -1,18 +1,3 @@
-/
-*
-eslint
--
-disable
-no
--
-undef
-*
-/
-"
-use
-strict
-"
-;
 const
 PAGE_AUDIBLE
 =
@@ -34,6 +19,8 @@ media
 mediacontrol
 /
 tests
+/
+browser
 /
 file_autoplay
 .
@@ -61,6 +48,8 @@ media
 mediacontrol
 /
 tests
+/
+browser
 /
 file_muted_autoplay
 .
