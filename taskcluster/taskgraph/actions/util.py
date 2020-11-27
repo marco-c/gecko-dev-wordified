@@ -476,10 +476,6 @@ tags
 "
 )
     
-action
-=
-None
-    
 for
 _action
 in
@@ -542,8 +538,7 @@ context
 )
 :
             
-action
-=
+return
 _action
         
 elif
@@ -554,15 +549,9 @@ context
 ]
 :
             
-action
-=
+return
 _action
     
-if
-not
-action
-:
-        
 available_actions
 =
 "
@@ -570,7 +559,6 @@ available_actions
 .
 join
 (
-            
 sorted
 (
 {
@@ -591,13 +579,12 @@ actions
 ]
 }
 )
-        
 )
-        
+    
 raise
 LookupError
 (
-            
+        
 "
 {
 }
@@ -617,16 +604,13 @@ Available
 .
 format
 (
-                
+            
 action_name
 available_actions
-            
-)
         
 )
     
-return
-action
+)
 def
 trigger_action
 (
