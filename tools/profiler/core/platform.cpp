@@ -39757,6 +39757,8 @@ functions
 /
 -
 The
+ProfilerParent
+or
 ProfilerChild
 mutex
 used
@@ -39764,6 +39766,8 @@ to
 store
 and
 process
+/
+/
 buffer
 chunk
 updates
@@ -39784,6 +39788,14 @@ CoreBuffer
 )
 .
 IsThreadSafeAndLockedOnCurrentThread
+(
+)
+|
+|
+ProfilerParent
+:
+:
+IsLockedOnCurrentThread
 (
 )
 |
