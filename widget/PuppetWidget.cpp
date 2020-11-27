@@ -2278,6 +2278,14 @@ compositionEvent
 >
 mNativeIMEContext
 ;
+mContentCache
+.
+OnCompositionEvent
+(
+*
+compositionEvent
+)
+;
 }
 /
 /
