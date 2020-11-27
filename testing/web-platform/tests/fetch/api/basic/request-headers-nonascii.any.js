@@ -1,5 +1,13 @@
 /
 /
+META
+:
+global
+=
+window
+worker
+/
+/
 This
 tests
 characters

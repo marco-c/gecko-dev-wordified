@@ -1,3 +1,11 @@
+/
+/
+META
+:
+global
+=
+window
+worker
 test
 (
 (
