@@ -3482,7 +3482,7 @@ _findDebuggeeScripts
 query
 /
 *
-forBreakpoiontPositions
+forBreakpointPositions
 *
 /
 true

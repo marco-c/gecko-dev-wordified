@@ -1734,6 +1734,9 @@ this
 .
 port
 )
+MOZ_HEADLESS
+:
+null
 }
 ;
 /
@@ -1992,6 +1995,10 @@ data
 {
 dump
 (
+"
+>
+"
++
 data
 )
 ;
