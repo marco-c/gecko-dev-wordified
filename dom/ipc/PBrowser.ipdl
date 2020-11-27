@@ -313,6 +313,17 @@ TransportSecurityInfoUtils
 h
 "
 ;
+include
+"
+mozilla
+/
+ipc
+/
+URIUtils
+.
+h
+"
+;
 using
 mozilla
 :

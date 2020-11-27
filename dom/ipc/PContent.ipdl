@@ -443,6 +443,17 @@ include
 "
 mozilla
 /
+ipc
+/
+URIUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 PermissionDelegateIPCUtils
 .
 h

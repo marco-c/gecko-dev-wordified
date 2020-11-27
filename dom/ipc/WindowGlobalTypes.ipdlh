@@ -137,6 +137,17 @@ h
 "
 ;
 include
+"
+mozilla
+/
+ipc
+/
+URIUtils
+.
+h
+"
+;
+include
 NeckoChannelParams
 ;
 include
