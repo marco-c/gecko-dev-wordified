@@ -4011,12 +4011,6 @@ to
 avoid
 leaks
 :
-iframe
-.
-remove
-(
-)
-;
 doc
 .
 head
@@ -4029,6 +4023,12 @@ innerHTML
 doc
 =
 null
+;
+iframe
+.
+remove
+(
+)
 ;
 iframe
 =
