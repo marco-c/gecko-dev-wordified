@@ -2330,6 +2330,11 @@ submit
 (
 )
 ;
+let
+win
+=
+content
+;
 await
 ContentTaskUtils
 .
@@ -2342,7 +2347,7 @@ waitForCondition
 {
 return
 (
-content
+win
 .
 location
 .
@@ -2352,7 +2357,7 @@ pathname
 actionPathname
 &
 &
-content
+win
 .
 document
 .

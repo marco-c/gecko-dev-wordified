@@ -2259,6 +2259,8 @@ function
 _url
 )
 {
+try
+{
 const
 win
 =
@@ -2294,6 +2296,16 @@ isExpectedUrl
 &
 hasRegistration
 ;
+}
+catch
+(
+e
+)
+{
+return
+false
+;
+}
 }
 )
 )
