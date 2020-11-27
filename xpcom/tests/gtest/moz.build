@@ -265,6 +265,11 @@ TestRWLock
 cpp
 "
 "
+TestSegmentedBuffer
+.
+cpp
+"
+"
 TestSlicedInputStream
 .
 cpp
