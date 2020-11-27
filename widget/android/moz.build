@@ -178,6 +178,9 @@ classes_with_WrapForJNI
 AndroidGamepadManager
 "
 "
+AndroidVsync
+"
+"
 Base64Utils
 "
 "
@@ -322,9 +325,6 @@ SurfaceTextureListener
 TelemetryUtils
 "
 "
-VsyncSource
-"
-"
 WebAuthnTokenManager
 "
 "
@@ -441,6 +441,11 @@ h
 "
 "
 AndroidView
+.
+h
+"
+"
+AndroidVsync
 .
 h
 "
@@ -566,6 +571,11 @@ cpp
 "
 "
 AndroidUiThread
+.
+cpp
+"
+"
+AndroidVsync
 .
 cpp
 "
