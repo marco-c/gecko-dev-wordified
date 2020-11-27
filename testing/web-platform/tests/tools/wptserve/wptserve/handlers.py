@@ -3,8 +3,6 @@ json
 import
 os
 import
-sys
-import
 traceback
 from
 collections
@@ -2333,7 +2331,7 @@ url_base
 )
     
 def
-_set_path_and_load_file
+_load_file
 (
 self
 request
@@ -2347,12 +2345,6 @@ func
 "
         
 This
-modifies
-the
-sys
-.
-path
-and
 loads
 the
 requested
@@ -2448,25 +2440,6 @@ self
 url_base
 )
         
-sys_path
-=
-sys
-.
-path
-[
-:
-]
-        
-sys_modules
-=
-sys
-.
-modules
-.
-copy
-(
-)
-        
 try
 :
             
@@ -2479,23 +2452,6 @@ __file__
 :
 path
 }
-            
-sys
-.
-path
-.
-insert
-(
-0
-os
-.
-path
-.
-dirname
-(
-path
-)
-)
             
 with
 open
@@ -2552,21 +2508,6 @@ HTTPException
 (
 404
 )
-        
-finally
-:
-            
-sys
-.
-path
-=
-sys_path
-            
-sys
-.
-modules
-=
-sys_modules
     
 def
 __call__
@@ -2642,7 +2583,7 @@ path
         
 self
 .
-_set_path_and_load_file
+_load_file
 (
 request
 response
@@ -2854,7 +2795,7 @@ handler
 return
 self
 .
-_set_path_and_load_file
+_load_file
 (
 request
 None
