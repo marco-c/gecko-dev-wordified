@@ -412,6 +412,14 @@ index
 /
 /
 /
+#
+Safety
+/
+/
+/
+/
+/
+/
 If
 index
 >
@@ -616,7 +624,7 @@ new_value
 /
 /
 #
-Panics
+Safety
 /
 /
 /
@@ -633,6 +641,10 @@ Self
 lanes
 (
 )
+the
+behavior
+is
+undefined
 .
 #
 [

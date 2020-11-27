@@ -5,7 +5,6 @@ Vectors
 of
 pointers
 #
-!
 [
 rustfmt
 :

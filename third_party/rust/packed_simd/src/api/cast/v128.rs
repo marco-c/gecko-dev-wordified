@@ -13,7 +13,6 @@ bit
 wide
 vectors
 #
-!
 [
 rustfmt
 :

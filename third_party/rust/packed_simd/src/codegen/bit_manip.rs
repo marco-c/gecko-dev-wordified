@@ -7,7 +7,6 @@ manipulation
 intrinsics
 .
 #
-!
 [
 rustfmt
 :

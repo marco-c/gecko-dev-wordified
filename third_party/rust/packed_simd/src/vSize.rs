@@ -41,6 +41,7 @@ isizex2
 msizex2
 |
 isize_
+u8
 |
 test_v128
 |
@@ -75,6 +76,7 @@ usizex2
 msizex2
 |
 usize_
+u8
 |
 test_v128
 |
@@ -108,6 +110,7 @@ msize
 msizex2
 |
 isize_
+u8
 |
 test_v128
 |
@@ -143,6 +146,7 @@ isizex4
 msizex4
 |
 isize_
+u8
 |
 test_v256
 |
@@ -179,6 +183,7 @@ usizex4
 msizex4
 |
 usize_
+u8
 |
 test_v256
 |
@@ -214,6 +219,7 @@ msize
 msizex4
 |
 isize_
+u8
 |
 test_v256
 |
@@ -251,6 +257,7 @@ isizex8
 msizex8
 |
 isize_
+u8
 |
 test_v512
 |
@@ -272,7 +279,7 @@ From
 A
 vector
 with
-4
+8
 isize
 lanes
 .
@@ -291,6 +298,7 @@ usizex8
 msizex8
 |
 usize_
+u8
 |
 test_v512
 |
@@ -330,6 +338,7 @@ msize
 msizex8
 |
 isize_
+u8
 |
 test_v512
 |
