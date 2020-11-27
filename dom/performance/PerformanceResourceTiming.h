@@ -969,6 +969,15 @@ nsIURI
 >
 mOriginalURI
 ;
+private
+:
+mutable
+Maybe
+<
+DOMHighResTimeStamp
+>
+mCachedStartTime
+;
 }
 ;
 }
