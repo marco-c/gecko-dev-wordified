@@ -13898,6 +13898,7 @@ nsLayoutUtils
 :
 GetTransformToAncestorScale
 (
+const
 nsIFrame
 *
 aFrame
@@ -54037,6 +54038,7 @@ nsLayoutUtils
 :
 GetContentViewerSize
 (
+const
 nsPresContext
 *
 aPresContext
@@ -54249,6 +54251,7 @@ UpdateCompositionBoundsForRCDRSF
 ParentLayerRect
 &
 aCompBounds
+const
 nsPresContext
 *
 aPresContext
@@ -54453,6 +54456,7 @@ nsLayoutUtils
 :
 ScrollbarAreaToExcludeFromCompositionBoundsFor
 (
+const
 nsIFrame
 *
 aScrollFrame
@@ -54864,6 +54868,7 @@ nsLayoutUtils
 :
 CalculateRootCompositionSize
 (
+const
 nsIFrame
 *
 aFrame
@@ -55251,9 +55256,11 @@ nsLayoutUtils
 :
 CalculateScrollableRectForFrame
 (
+const
 nsIScrollableFrame
 *
 aScrollableFrame
+const
 nsIFrame
 *
 aRootFrame
@@ -66062,6 +66069,7 @@ static
 SizeType
 ExpandHeightForDynamicToolbarImpl
 (
+const
 nsPresContext
 *
 aPresContext
@@ -66164,6 +66172,7 @@ nsLayoutUtils
 :
 ExpandHeightForDynamicToolbar
 (
+const
 nsPresContext
 *
 aPresContext
@@ -66187,6 +66196,7 @@ nsLayoutUtils
 :
 ExpandHeightForDynamicToolbar
 (
+const
 nsPresContext
 *
 aPresContext

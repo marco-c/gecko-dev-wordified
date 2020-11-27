@@ -6327,6 +6327,7 @@ static
 gfxSize
 GetTransformToAncestorScale
 (
+const
 nsIFrame
 *
 aFrame
@@ -18168,6 +18169,7 @@ static
 bool
 GetContentViewerSize
 (
+const
 nsPresContext
 *
 aPresContext
@@ -18194,6 +18196,7 @@ mozilla
 ParentLayerRect
 &
 aCompBounds
+const
 nsPresContext
 *
 aPresContext
@@ -18429,6 +18432,7 @@ static
 CSSSize
 CalculateRootCompositionSize
 (
+const
 nsIFrame
 *
 aFrame
@@ -18502,9 +18506,11 @@ static
 nsRect
 CalculateScrollableRectForFrame
 (
+const
 nsIScrollableFrame
 *
 aScrollableFrame
+const
 nsIFrame
 *
 aRootFrame
@@ -19611,6 +19617,7 @@ static
 nsMargin
 ScrollbarAreaToExcludeFromCompositionBoundsFor
 (
+const
 nsIFrame
 *
 aScrollFrame
@@ -21068,6 +21075,7 @@ static
 CSSSize
 ExpandHeightForDynamicToolbar
 (
+const
 nsPresContext
 *
 aPresContext
@@ -21081,6 +21089,7 @@ static
 nsSize
 ExpandHeightForDynamicToolbar
 (
+const
 nsPresContext
 *
 aPresContext
