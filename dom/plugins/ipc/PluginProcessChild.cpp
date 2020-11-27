@@ -1409,16 +1409,6 @@ defined
 (
 XP_MACOSX
 )
-if
-(
-nsCocoaFeatures
-:
-:
-OnYosemiteOrLater
-(
-)
-)
-{
 /
 /
 Explicitly
@@ -1502,7 +1492,6 @@ CGSSetDebugOptions
 0x80000007
 )
 ;
-}
 #
 endif
 return
