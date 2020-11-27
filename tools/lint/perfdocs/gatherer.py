@@ -80,8 +80,14 @@ perfdocs
 .
 framework_gatherers
 import
+(
+    
 RaptorGatherer
+    
 MozperftestGatherer
+    
+TalosGatherer
+)
 logger
 =
 PerfDocLogger
@@ -114,6 +120,12 @@ mozperftest
 "
 :
 MozperftestGatherer
+    
+"
+Talos
+"
+:
+TalosGatherer
 }
 class
 Gatherer
