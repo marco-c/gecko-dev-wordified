@@ -665,14 +665,6 @@ filepicker
 "
 )
 ;
-content
-.
-document
-.
-notifyUserGestureActivation
-(
-)
-;
 input
 .
 click

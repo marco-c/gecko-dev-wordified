@@ -19139,6 +19139,12 @@ SANDBOXED_TOPLEVEL_NAVIGATION_USER_ACTIVATION
 )
 )
 {
+nsCOMPtr
+<
+nsIURI
+>
+iframeUri
+;
 nsContentUtils
 :
 :
