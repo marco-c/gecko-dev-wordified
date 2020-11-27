@@ -87869,10 +87869,6 @@ EnsureStorageAndOriginIsInitialized
 (
 persistenceType
 mQuotaInfo
-Client
-:
-:
-IDB
 )
 )
 ;
