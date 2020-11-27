@@ -1255,7 +1255,7 @@ Args
 aArgs
 )
 {
-RefPtr
+nsCOMPtr
 <
 nsISerialEventTarget
 >
@@ -2961,7 +2961,7 @@ ref
 )
 )
 {
-RefPtr
+nsCOMPtr
 <
 nsISerialEventTarget
 >
@@ -8326,7 +8326,7 @@ file
 =
 aFile
 ;
-RefPtr
+nsCOMPtr
 <
 nsIDirectoryEnumerator
 >
