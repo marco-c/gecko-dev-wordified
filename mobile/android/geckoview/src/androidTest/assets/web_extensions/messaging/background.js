@@ -11,6 +11,19 @@ badNativeApi
 errorerrorerror
 "
 )
+/
+/
+This
+message
+should
+not
+be
+handled
+.
+catch
+(
+runTest
+)
 ;
 async
 function
@@ -153,7 +166,3 @@ testBackgroundPortMessage
 )
 ;
 }
-runTest
-(
-)
-;

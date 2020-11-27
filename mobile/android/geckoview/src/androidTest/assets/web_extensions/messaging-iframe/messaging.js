@@ -11,6 +11,19 @@ badNativeApi
 errorerrorerror
 "
 )
+/
+/
+This
+message
+should
+not
+be
+handled
+.
+catch
+(
+runTest
+)
 ;
 async
 function
@@ -45,7 +58,3 @@ browser
 )
 ;
 }
-runTest
-(
-)
-;
