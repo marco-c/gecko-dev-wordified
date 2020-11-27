@@ -3415,8 +3415,6 @@ Message
 aMsg
 )
 ;
-private
-:
 base
 :
 :
@@ -3430,6 +3428,8 @@ return
 mOtherPid
 ;
 }
+private
+:
 int32_t
 NextId
 (

@@ -17806,10 +17806,18 @@ pid
 mListener
 -
 >
-OtherPid
+OtherPidMaybeInvalid
 (
 )
 ;
+if
+(
+pid
+!
+=
+kInvalidProcessId
+)
+{
 PROFILER_ADD_MARKER_WITH_PAYLOAD
 (
 "
@@ -17849,6 +17857,7 @@ NowUnfuzzed
 )
 )
 ;
+}
 }
 #
 endif
