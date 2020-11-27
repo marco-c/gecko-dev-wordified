@@ -4138,8 +4138,6 @@ items
 after
 we
 inserted
-pinned
-and
 sponsored
 ones
 .
