@@ -2498,17 +2498,6 @@ Ci
 nsIBrowserDOMWindow
 .
 OPEN_NEWTAB
-|
-|
-aWhere
-=
-=
-=
-Ci
-.
-nsIBrowserDOMWindow
-.
-OPEN_SWITCHTAB
 )
 {
 browser
