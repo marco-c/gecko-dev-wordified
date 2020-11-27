@@ -850,11 +850,6 @@ ThinVec
 <
 nsCString
 >
-entry_point
-:
-*
-const
-nsACString
 callback
 :
 *
@@ -874,10 +869,6 @@ ThinVec
 <
 nsCString
 >
-entry_point
-:
-&
-nsACString
 )
 ;
 xpcom_method

@@ -409,8 +409,11 @@ Digest
 value
 algorithm
 :
-*
 algorithm
+.
+clone
+(
+)
 }
 )
 }

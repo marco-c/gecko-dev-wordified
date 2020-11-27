@@ -226,6 +226,17 @@ fill
 mut
 out
 )
+.
+map_err
+(
+|
+_
+|
+ErrorKind
+:
+:
+RngFailure
+)
 ?
 ;
 Ok

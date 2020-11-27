@@ -740,6 +740,8 @@ Ok
 scoped
 {
 ptr
+:
+ptr
 }
 )
 }

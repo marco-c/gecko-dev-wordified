@@ -16,6 +16,12 @@ crate
 DigestAlgorithm
 ;
 use
+failure
+:
+:
+err_msg
+;
+use
 ring
 :
 :
@@ -81,13 +87,7 @@ CryptoError
 :
 Other
 (
-anyhow
-:
-:
-Error
-:
-:
-msg
+err_msg
 (
 "
 Unspecified
