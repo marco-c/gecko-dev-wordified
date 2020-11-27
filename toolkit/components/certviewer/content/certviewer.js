@@ -497,6 +497,7 @@ tabName
 cert
 .
 subject
+?
 .
 entries
 ?
@@ -506,6 +507,11 @@ slice
 -
 1
 )
+[
+0
+]
+?
+.
 [
 1
 ]
