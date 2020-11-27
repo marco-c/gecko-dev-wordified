@@ -153,11 +153,6 @@ gfxVars
 .
 cpp
 "
-"
-WebRenderRollout
-.
-cpp
-"
 ]
 include
 (
