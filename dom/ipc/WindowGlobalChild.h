@@ -1005,17 +1005,6 @@ MaybeDiscardedBrowsingContext
 aNode
 )
 ;
-mozilla
-:
-:
-ipc
-:
-:
-IPCResult
-RecvResetScalingZoom
-(
-)
-;
 virtual
 void
 ActorDestroy
