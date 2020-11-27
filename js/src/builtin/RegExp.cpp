@@ -2298,7 +2298,6 @@ obj
 >
 setShared
 (
-*
 shared
 )
 ;
@@ -3857,7 +3856,6 @@ regexp
 >
 setShared
 (
-*
 shared
 )
 ;
