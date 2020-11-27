@@ -6096,6 +6096,9 @@ aOutSize
 {
 RefPtr
 <
+gfx
+:
+:
 DataSourceSurface
 >
 image
@@ -6143,6 +6146,9 @@ B8G8R8A8
 ;
 RefPtr
 <
+gfx
+:
+:
 DrawTarget
 >
 drawTarget
@@ -6263,6 +6269,9 @@ srcRect
 ;
 RefPtr
 <
+gfx
+:
+:
 SourceSurface
 >
 snapshot
@@ -6276,6 +6285,9 @@ Snapshot
 ;
 RefPtr
 <
+gfx
+:
+:
 DataSourceSurface
 >
 data
