@@ -1697,7 +1697,7 @@ browser
 {
 browser
 .
-leaveModalState
+maybeLeaveModalState
 (
 )
 ;
