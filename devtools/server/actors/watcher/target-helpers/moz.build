@@ -94,4 +94,11 @@ helper
 .
 js
 '
+'
+process
+-
+helper
+.
+js
+'
 )
