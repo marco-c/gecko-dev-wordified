@@ -11450,14 +11450,6 @@ ports
 ]
 +
 )
-(
-[
-0
--
-9
-]
-+
-)
 and
 (
 [
@@ -11468,7 +11460,6 @@ and
 +
 )
 "
-                    
 msg
 0
                 
@@ -11508,22 +11499,6 @@ searchObj
 group
 (
 2
-)
-                    
-self
-.
-env
-[
-"
-MOZHTTP3_PORT_NO_RESPONSE
-"
-]
-=
-searchObj
-.
-group
-(
-3
 )
         
 except
