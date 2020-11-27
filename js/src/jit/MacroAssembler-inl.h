@@ -1383,6 +1383,9 @@ case
 Args_Float32_Float32
 :
 case
+Args_Int_Float32
+:
+case
 Args_Double_Double
 :
 case
