@@ -2606,6 +2606,14 @@ python
 "
             
 "
+-
+-
+no
+-
+activate
+"
+            
+"
 GECKO_PATH
 /
 testing
