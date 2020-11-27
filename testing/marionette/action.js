@@ -2565,7 +2565,7 @@ if
 !
 element
 .
-isDOMElement
+isElement
 (
 obj
 )
@@ -2805,7 +2805,9 @@ source
 .
 *
 *
-Initialized
+Re
+-
+initialized
 in
 listener
 .
@@ -2817,7 +2819,10 @@ action
 .
 inputStateMap
 =
-undefined
+new
+Map
+(
+)
 ;
 /
 *
@@ -2862,7 +2867,9 @@ idempotent
 .
 *
 *
-Initialized
+Re
+-
+initialized
 in
 listener
 .
@@ -2873,7 +2880,8 @@ action
 .
 inputsToCancel
 =
-undefined
+[
+]
 ;
 /
 *
@@ -9529,7 +9537,7 @@ if
 (
 element
 .
-isDOMElement
+isElement
 (
 el
 )
