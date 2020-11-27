@@ -5265,7 +5265,7 @@ JSContext
 *
 cx
 =
-GetCurrentWorkerThreadJSContext
+Context
 (
 )
 ;
