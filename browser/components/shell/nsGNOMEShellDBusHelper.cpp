@@ -232,7 +232,7 @@ nsString
 >
 formatStrings
 ;
-CopyASCIItoUTF16
+CopyUTF8toUTF16
 (
 nsCString
 (
@@ -336,7 +336,6 @@ introspect
 dtd
 \
 "
-;
 >
 \
 n
