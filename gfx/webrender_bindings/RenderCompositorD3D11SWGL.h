@@ -497,8 +497,7 @@ bool
 aIsOpaque
 )
 override
-{
-}
+;
 void
 DestroySurface
 (
@@ -550,8 +549,7 @@ ExternalImageId
 aExternalImage
 )
 override
-{
-}
+;
 void
 AddSurface
 (
@@ -916,6 +914,12 @@ Tile
 KeyHashFn
 >
 mTiles
+;
+RefPtr
+<
+RenderTextureHost
+>
+mExternalImage
 ;
 struct
 IdHashFn

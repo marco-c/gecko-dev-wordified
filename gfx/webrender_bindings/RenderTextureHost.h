@@ -214,6 +214,9 @@ class
 RenderDXGITextureHost
 ;
 class
+RenderDXGIYCbCrTextureHost
+;
+class
 RenderMacIOSurfaceTextureHost
 ;
 class
@@ -469,6 +472,17 @@ virtual
 RenderDXGITextureHost
 *
 AsRenderDXGITextureHost
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderDXGIYCbCrTextureHost
+*
+AsRenderDXGIYCbCrTextureHost
 (
 )
 {
