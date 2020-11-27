@@ -2296,6 +2296,13 @@ aFilters
 )
 )
 ;
+aDisplayListBuilder
+-
+>
+NotifyAndClearScrollFrames
+(
+)
+;
 builderDumpIndex
 =
 mWebRenderCommandBuilder

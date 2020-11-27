@@ -46395,6 +46395,9 @@ nsDisplayScrollInfoLayer
 :
 ComputeScrollMetadata
 (
+nsDisplayListBuilder
+*
+aBuilder
 LayerManager
 *
 aLayerManager
@@ -46468,11 +46471,12 @@ if
 scrollableFrame
 )
 {
-scrollableFrame
+aBuilder
 -
 >
-NotifyApzTransaction
+AddScrollFrameToNotify
 (
+scrollableFrame
 )
 ;
 }
@@ -46529,6 +46533,12 @@ metadata
 =
 ComputeScrollMetadata
 (
+aData
+-
+>
+GetBuilder
+(
+)
 aData
 -
 >

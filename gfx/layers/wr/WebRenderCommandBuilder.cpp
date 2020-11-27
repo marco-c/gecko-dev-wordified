@@ -11980,6 +11980,7 @@ aScrollData
 WebRenderScrollData
 (
 mManager
+aDisplayListBuilder
 )
 ;
 MOZ_ASSERT
@@ -14767,13 +14768,6 @@ blm
 param
 )
 ;
-aDisplayListBuilder
--
->
-NotifyAndClearScrollFrames
-(
-)
-;
 if
 (
 root
@@ -15013,13 +15007,6 @@ BuildLayer
 aDisplayListBuilder
 aManager
 param
-)
-;
-aDisplayListBuilder
--
->
-NotifyAndClearScrollFrames
-(
 )
 ;
 if

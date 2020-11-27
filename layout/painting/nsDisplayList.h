@@ -37072,6 +37072,9 @@ ScrollMetadata
 >
 ComputeScrollMetadata
 (
+nsDisplayListBuilder
+*
+aBuilder
 LayerManager
 *
 aLayerManager
