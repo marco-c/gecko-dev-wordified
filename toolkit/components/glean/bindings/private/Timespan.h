@@ -579,6 +579,7 @@ aStorageName
 }
 private
 :
+const
 uint32_t
 mId
 ;
@@ -624,6 +625,7 @@ GleanTimespan
 =
 default
 ;
+const
 impl
 :
 :

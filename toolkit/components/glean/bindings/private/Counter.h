@@ -481,6 +481,7 @@ aStorageName
 }
 private
 :
+const
 uint32_t
 mId
 ;
@@ -526,6 +527,7 @@ GleanCounter
 =
 default
 ;
+const
 impl
 :
 :
