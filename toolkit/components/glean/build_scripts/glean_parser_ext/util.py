@@ -228,9 +228,6 @@ counter
 "
 timespan
 "
-"
-boolean
-"
 ]
 def
 is_implemented_metric_type
