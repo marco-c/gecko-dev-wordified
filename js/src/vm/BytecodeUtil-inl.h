@@ -775,6 +775,15 @@ BytecodeRange
 cx
 script
 )
+initialLine
+(
+script
+-
+>
+lineno
+(
+)
+)
 lineno
 (
 script
@@ -786,7 +795,12 @@ lineno
 )
 column
 (
-0
+script
+-
+>
+column
+(
+)
 )
 sn
 (
@@ -1365,6 +1379,7 @@ SetLine
 getLine
 (
 sn
+initialLine
 )
 ;
 column
@@ -1459,6 +1474,9 @@ frontPC
 )
 ;
 }
+size_t
+initialLine
+;
 size_t
 lineno
 ;
