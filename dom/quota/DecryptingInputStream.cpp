@@ -128,6 +128,13 @@ DecryptingInputStream_impl
 .
 h
 "
+#
+include
+"
+nsStreamUtils
+.
+h
+"
 namespace
 mozilla
 :

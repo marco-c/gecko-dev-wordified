@@ -122,6 +122,11 @@ define
 dom_quota_quotainfo_h__
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
