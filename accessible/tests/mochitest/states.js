@@ -577,6 +577,13 @@ nsIAccessibleStates
 EXT_STATE_VERTICAL
 ;
 const
+EXT_STATE_SELECTABLE_TEXT
+=
+nsIAccessibleStates
+.
+EXT_STATE_SELECTABLE_TEXT
+;
+const
 kOrdinalState
 =
 false
