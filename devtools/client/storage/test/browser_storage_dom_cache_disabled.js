@@ -351,6 +351,11 @@ checkState
 state
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

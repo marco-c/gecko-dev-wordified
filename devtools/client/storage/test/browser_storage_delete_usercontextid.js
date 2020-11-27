@@ -1860,6 +1860,11 @@ testTables
 storageItemsForDefault
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

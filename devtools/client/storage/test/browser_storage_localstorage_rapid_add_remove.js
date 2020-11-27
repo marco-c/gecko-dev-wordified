@@ -169,6 +169,11 @@ i
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

@@ -277,6 +277,11 @@ true
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

@@ -192,6 +192,11 @@ cell
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

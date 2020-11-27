@@ -136,13 +136,6 @@ index
 js
 '
 '
-local
--
-storage
-.
-js
-'
-'
 network
 -
 events

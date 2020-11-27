@@ -271,6 +271,11 @@ closeWindow
 win
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

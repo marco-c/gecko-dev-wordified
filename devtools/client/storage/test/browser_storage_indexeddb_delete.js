@@ -417,6 +417,11 @@ default
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

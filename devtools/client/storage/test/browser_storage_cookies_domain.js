@@ -258,6 +258,11 @@ browser
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

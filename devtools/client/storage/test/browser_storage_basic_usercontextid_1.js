@@ -1314,6 +1314,11 @@ testTables
 testCases
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

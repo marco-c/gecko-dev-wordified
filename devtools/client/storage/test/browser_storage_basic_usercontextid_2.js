@@ -1230,6 +1230,11 @@ testTables
 testCasesUserContextId
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

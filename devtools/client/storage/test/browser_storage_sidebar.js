@@ -625,6 +625,11 @@ repeat
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

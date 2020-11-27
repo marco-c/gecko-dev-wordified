@@ -384,6 +384,11 @@ parseTreeVisible
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

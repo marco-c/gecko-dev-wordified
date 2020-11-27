@@ -303,6 +303,11 @@ TEST_HOST
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

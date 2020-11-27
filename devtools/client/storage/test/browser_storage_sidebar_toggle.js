@@ -318,6 +318,11 @@ repeat
 )
 ;
 }
+await
+finishTests
+(
+)
+;
 }
 )
 ;

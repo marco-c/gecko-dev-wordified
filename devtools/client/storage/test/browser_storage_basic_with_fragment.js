@@ -1494,6 +1494,11 @@ testTables
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

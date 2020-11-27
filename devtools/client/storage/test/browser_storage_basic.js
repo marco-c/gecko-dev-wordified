@@ -1473,6 +1473,11 @@ testTables
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

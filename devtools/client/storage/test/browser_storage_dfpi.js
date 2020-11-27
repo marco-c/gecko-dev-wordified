@@ -471,6 +471,11 @@ is
 added
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

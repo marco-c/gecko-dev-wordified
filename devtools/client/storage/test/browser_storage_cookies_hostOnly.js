@@ -208,6 +208,11 @@ false
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

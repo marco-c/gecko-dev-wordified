@@ -212,6 +212,11 @@ runTests
 (
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

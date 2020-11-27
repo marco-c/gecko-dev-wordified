@@ -306,6 +306,11 @@ Strict
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

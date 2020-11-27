@@ -90,6 +90,11 @@ searchbox
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

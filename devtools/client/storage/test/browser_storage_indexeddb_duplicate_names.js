@@ -209,6 +209,11 @@ persistent
 ]
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

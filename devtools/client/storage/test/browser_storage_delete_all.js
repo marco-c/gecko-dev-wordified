@@ -904,6 +904,11 @@ checkState
 afterState
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;

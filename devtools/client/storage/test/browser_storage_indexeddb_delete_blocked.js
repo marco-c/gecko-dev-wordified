@@ -470,6 +470,11 @@ delete
 "
 )
 ;
+await
+finishTests
+(
+)
+;
 }
 )
 ;
