@@ -502,7 +502,7 @@ return
 let
 askedUserPromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 browser
 true
@@ -550,7 +550,7 @@ dialog
 let
 closePromise
 =
-waitForProtocolAskDialog
+waitForProtocolAppChooserDialog
 (
 browser
 false
