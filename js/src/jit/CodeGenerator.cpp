@@ -26730,14 +26730,6 @@ output
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-info
-.
-useSingletonForClone
-)
-;
 if
 (
 info

@@ -17464,13 +17464,9 @@ Pass
 false
 for
 singletonType
-and
-useSingletonForClone
 as
 asserted
 in
-/
-/
 WarpOracle
 .
 return
@@ -17498,13 +17494,6 @@ nargs
 /
 *
 singletonType
-=
-*
-/
-false
-/
-*
-useSingletonForClone
 =
 *
 /

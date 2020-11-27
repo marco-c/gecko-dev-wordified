@@ -14012,15 +14012,6 @@ fun
 isSingleton
 (
 )
-|
-|
-ObjectGroup
-:
-:
-useSingletonForClone
-(
-fun
-)
 )
 {
 return
