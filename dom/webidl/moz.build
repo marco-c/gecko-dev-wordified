@@ -4669,11 +4669,11 @@ PerformanceObserverEntryList
 .
 webidl
 "
-'
+"
 PerformancePaintTiming
 .
 webidl
-'
+"
 "
 PerformanceResourceTiming
 .
