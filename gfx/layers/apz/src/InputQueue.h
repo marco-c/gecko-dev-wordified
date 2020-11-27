@@ -362,6 +362,14 @@ aEvent
 uint64_t
 *
 aOutInputBlockId
+Maybe
+<
+bool
+>
+*
+aOutputHandledByRootApzc
+=
+nullptr
 const
 Maybe
 <
@@ -1302,6 +1310,12 @@ aEvent
 uint64_t
 *
 aOutInputBlockId
+Maybe
+<
+bool
+>
+*
+aOutputHandledByRootApzc
 const
 Maybe
 <

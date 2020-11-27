@@ -15269,6 +15269,10 @@ aInput
 result
 .
 mInputBlockId
+&
+result
+.
+mHandledByRootApzc
 touchBehaviors
 .
 IsEmpty
