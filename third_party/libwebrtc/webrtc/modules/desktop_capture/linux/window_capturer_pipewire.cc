@@ -118,7 +118,7 @@ BaseCapturerPipeWire
 CaptureSourceType
 :
 :
-Window
+kWindow
 )
 {
 }
