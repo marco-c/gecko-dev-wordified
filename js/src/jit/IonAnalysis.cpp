@@ -36560,7 +36560,7 @@ bailoutKind
 unbox
 -
 >
-bailoutKindUnchecked
+bailoutKind
 (
 )
 ;
