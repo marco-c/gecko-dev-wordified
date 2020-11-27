@@ -94,6 +94,7 @@ derive
 (
 Default
 Debug
+Clone
 )
 ]
 /
@@ -130,6 +131,10 @@ dynamic_table_references
 usize
 pub
 stream_cancelled_recv
+:
+usize
+pub
+header_acks_recv
 :
 usize
 }

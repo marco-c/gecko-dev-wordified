@@ -98,6 +98,9 @@ env_logger
 :
 {
 fmt
+:
+:
+Color
 Builder
 Env
 }
@@ -169,9 +172,6 @@ style
 .
 set_bg
 (
-fmt
-:
-:
 Color
 :
 :
