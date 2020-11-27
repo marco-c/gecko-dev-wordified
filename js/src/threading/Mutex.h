@@ -554,13 +554,7 @@ prev_
 =
 nullptr
 ;
-mozilla
-:
-:
-Maybe
-<
 ThreadId
->
 owningThread_
 ;
 static
