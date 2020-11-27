@@ -2099,7 +2099,7 @@ T
 +
 offset
 ;
-uint32_t
+size_t
 count
 =
 source
@@ -2109,7 +2109,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -2210,7 +2210,7 @@ int8_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2285,7 +2285,7 @@ uint8_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2354,7 +2354,7 @@ int16_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2423,7 +2423,7 @@ uint16_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2492,7 +2492,7 @@ int32_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2561,7 +2561,7 @@ uint32_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2630,7 +2630,7 @@ int64_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2699,7 +2699,7 @@ uint64_t
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2768,7 +2768,7 @@ float
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2837,7 +2837,7 @@ double
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -2965,9 +2965,9 @@ TypedArrayObject
 target
 HandleObject
 source
-uint32_t
+size_t
 len
-uint32_t
+size_t
 offset
 =
 0
@@ -3040,7 +3040,7 @@ method
 "
 )
 ;
-uint32_t
+size_t
 i
 =
 0
@@ -3080,13 +3080,16 @@ lookup
 or
 conversion
 .
-uint32_t
+size_t
 bound
 =
 std
 :
 :
 min
+<
+size_t
+>
 (
 source
 -
@@ -3310,7 +3313,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 )
@@ -3506,7 +3509,7 @@ get
 )
 )
 ;
-uint32_t
+size_t
 len
 =
 source
@@ -3516,7 +3519,7 @@ getDenseInitializedLength
 (
 )
 ;
-uint32_t
+size_t
 i
 =
 0
@@ -3695,7 +3698,7 @@ cx
 ;
 for
 (
-uint32_t
+size_t
 j
 =
 0
@@ -3859,7 +3862,7 @@ TypedArrayObject
 *
 >
 source
-uint32_t
+size_t
 offset
 )
 {
@@ -3993,7 +3996,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 )
@@ -4007,7 +4010,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 <
@@ -4019,7 +4022,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 -
@@ -4051,7 +4054,7 @@ T
 +
 offset
 ;
-uint32_t
+size_t
 len
 =
 source
@@ -4061,7 +4064,7 @@ length
 (
 )
 .
-deprecatedGetUint32
+get
 (
 )
 ;
@@ -4236,7 +4239,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4302,7 +4305,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4362,7 +4365,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4422,7 +4425,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4482,7 +4485,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4542,7 +4545,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4602,7 +4605,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4662,7 +4665,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4722,7 +4725,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0
@@ -4782,7 +4785,7 @@ data
 ;
 for
 (
-uint32_t
+size_t
 i
 =
 0

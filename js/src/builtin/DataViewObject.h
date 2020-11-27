@@ -398,10 +398,10 @@ const
 CallArgs
 &
 args
-uint32_t
+BufferSize
 *
 byteOffset
-uint32_t
+BufferSize
 *
 byteLength
 )
@@ -444,9 +444,9 @@ create
 JSContext
 *
 cx
-uint32_t
+BufferSize
 byteOffset
-uint32_t
+BufferSize
 byteLength
 Handle
 <

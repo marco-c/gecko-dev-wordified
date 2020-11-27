@@ -455,9 +455,9 @@ cx
 ArrayBufferObjectMaybeShared
 *
 buffer
-uint32_t
+BufferSize
 byteOffset
-uint32_t
+BufferSize
 length
 uint32_t
 bytesPerElement
