@@ -178,6 +178,7 @@ sinon
 import
 {
 getTestState
+itFailsFirefox
 setupTestBrowserHooks
 setupTestPageAndContextHooks
 }
@@ -14850,7 +14851,7 @@ function
 (
 )
 {
-it
+itFailsFirefox
 (
 '
 should
