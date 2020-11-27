@@ -79,7 +79,7 @@ let
 blockMessageByIdStub
 ;
 let
-dispatchStub
+sendTelemetryStub
 ;
 let
 getStringPrefStub
@@ -214,7 +214,7 @@ stub
 (
 )
 ;
-dispatchStub
+sendTelemetryStub
 =
 sandbox
 .
@@ -523,9 +523,9 @@ addImpressionStub
 blockMessageById
 :
 blockMessageByIdStub
-dispatch
+sendTelemetry
 :
-dispatchStub
+sendTelemetryStub
 }
 )
 ;
@@ -1210,9 +1210,9 @@ addImpressionStub
 blockMessageById
 :
 blockMessageByIdStub
-dispatch
+sendTelemetry
 :
-dispatchStub
+sendTelemetryStub
 }
 )
 ;
@@ -1636,7 +1636,7 @@ assert
 .
 calledOnce
 (
-dispatchStub
+sendTelemetryStub
 )
 ;
 assert
@@ -1651,7 +1651,7 @@ assert
 .
 calledWithExactly
 (
-dispatchStub
+sendTelemetryStub
 {
 type
 :

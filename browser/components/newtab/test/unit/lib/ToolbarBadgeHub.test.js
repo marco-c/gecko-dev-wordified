@@ -71,7 +71,7 @@ let
 fakeAddImpression
 ;
 let
-fakeDispatch
+fakeSendTelemetry
 ;
 let
 isBrowserPrivateStub
@@ -156,7 +156,7 @@ stub
 (
 )
 ;
-fakeDispatch
+fakeSendTelemetry
 =
 sandbox
 .
@@ -1390,9 +1390,9 @@ resolves
 addImpression
 :
 fakeAddImpression
-dispatch
+sendTelemetry
 :
-fakeDispatch
+fakeSendTelemetry
 }
 )
 ;
@@ -2120,9 +2120,9 @@ resolves
 addImpression
 :
 fakeAddImpression
-dispatch
+sendTelemetry
 :
-fakeDispatch
+fakeSendTelemetry
 }
 )
 ;
@@ -2791,9 +2791,9 @@ resolves
 (
 )
 {
-dispatch
+sendTelemetry
 :
-fakeDispatch
+fakeSendTelemetry
 }
 )
 ;
@@ -3647,9 +3647,9 @@ resolves
 (
 )
 {
-dispatch
+sendTelemetry
 :
-fakeDispatch
+fakeSendTelemetry
 }
 )
 ;
@@ -3700,7 +3700,7 @@ notCalled
 (
 instance
 .
-_dispatch
+_sendTelemetry
 )
 ;
 }
@@ -3747,7 +3747,7 @@ assert
 .
 calledOnce
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 const
@@ -3757,7 +3757,7 @@ ping
 =
 instance
 .
-_dispatch
+_sendTelemetry
 .
 firstCall
 .

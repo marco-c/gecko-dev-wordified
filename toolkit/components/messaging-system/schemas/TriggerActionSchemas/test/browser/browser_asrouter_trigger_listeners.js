@@ -612,7 +612,6 @@ true
 /
 Initialise
 listener
-await
 openURLListener
 .
 init

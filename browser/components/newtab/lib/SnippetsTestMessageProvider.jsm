@@ -4708,6 +4708,9 @@ getMessages
 )
 {
 return
+Promise
+.
+resolve
 (
 MESSAGES
 (

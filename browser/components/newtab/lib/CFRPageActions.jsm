@@ -448,7 +448,7 @@ PageAction
 constructor
 (
 win
-dispatchToASRouter
+dispatchCFRAction
 )
 {
 this
@@ -567,9 +567,9 @@ instead
 .
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 =
-dispatchToASRouter
+dispatchCFRAction
 ;
 this
 .
@@ -1832,7 +1832,7 @@ action
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -1844,9 +1844,6 @@ data
 :
 action
 }
-{
-browser
-:
 this
 .
 window
@@ -1854,7 +1851,6 @@ window
 gBrowser
 .
 selectedBrowser
-}
 )
 ;
 }
@@ -1865,7 +1861,7 @@ message
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -1887,7 +1883,7 @@ ping
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -1924,7 +1920,7 @@ messageID
 {
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -5607,7 +5603,7 @@ chiclet_open_url
 :
 this
 .
-_dispatchToASRouter
+_dispatchCFRAction
 (
 {
 type
@@ -6623,7 +6619,7 @@ to
 show
 *
 param
-dispatchToASRouter
+dispatchCFRAction
 A
 function
 to
@@ -6646,7 +6642,7 @@ forceRecommendation
 (
 browser
 recommendation
-dispatchToASRouter
+dispatchCFRAction
 )
 {
 /
@@ -6671,8 +6667,6 @@ win
 =
 browser
 .
-browser
-.
 ownerGlobal
 ;
 const
@@ -6688,8 +6682,6 @@ RecommendationMap
 .
 set
 (
-browser
-.
 browser
 {
 id
@@ -6723,7 +6715,7 @@ new
 PageAction
 (
 win
-dispatchToASRouter
+dispatchCFRAction
 )
 )
 ;
@@ -6862,7 +6854,7 @@ to
 show
 *
 param
-dispatchToASRouter
+dispatchCFRAction
 A
 function
 to
@@ -6886,7 +6878,7 @@ addRecommendation
 browser
 host
 recommendation
-dispatchToASRouter
+dispatchCFRAction
 )
 {
 const
@@ -7019,7 +7011,7 @@ new
 PageAction
 (
 win
-dispatchToASRouter
+dispatchCFRAction
 )
 )
 ;

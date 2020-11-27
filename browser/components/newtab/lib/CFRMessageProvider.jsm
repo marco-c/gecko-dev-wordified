@@ -5955,6 +5955,10 @@ getMessages
 )
 {
 return
+Promise
+.
+resolve
+(
 CFR_MESSAGES
 .
 filter
@@ -5966,6 +5970,7 @@ msg
 msg
 .
 exclude
+)
 )
 ;
 }

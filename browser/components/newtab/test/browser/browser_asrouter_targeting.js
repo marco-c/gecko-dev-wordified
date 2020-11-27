@@ -4907,6 +4907,7 @@ numMinutes
 const
 messages
 =
+await
 CFRMessageProvider
 .
 getMessages
@@ -5376,10 +5377,13 @@ checkPatternsValid
 const
 messages
 =
+(
+await
 CFRMessageProvider
 .
 getMessages
 (
+)
 )
 .
 filter
@@ -7067,10 +7071,13 @@ message
 .
 .
 .
+(
+await
 CFRMessageProvider
 .
 getMessages
 (
+)
 )
 .
 find

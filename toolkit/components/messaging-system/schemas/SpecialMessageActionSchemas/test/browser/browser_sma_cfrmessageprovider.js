@@ -69,10 +69,13 @@ test_all_test_messages
 let
 messagesWithButtons
 =
+(
+await
 CFRMessageProvider
 .
 getMessages
 (
+)
 )
 .
 filter

@@ -118,7 +118,7 @@ let
 isBrowserPrivateStub
 ;
 let
-fakeDispatch
+fakeSendTelemetry
 ;
 let
 getEarliestRecordedDateStub
@@ -702,7 +702,7 @@ stub
 (
 )
 ;
-fakeDispatch
+fakeSendTelemetry
 =
 sandbox
 .
@@ -2113,9 +2113,9 @@ waitForInitializedStub
 getMessages
 :
 getMessagesStub
-dispatch
+sendTelemetry
 :
-fakeDispatch
+fakeSendTelemetry
 }
 )
 ;
@@ -3984,7 +3984,7 @@ assert
 .
 calledOnce
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 assert
@@ -4161,7 +4161,7 @@ assert
 .
 calledOnce
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 spy
@@ -4370,7 +4370,7 @@ assert
 .
 calledOnce
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 const
@@ -4382,7 +4382,7 @@ dispatchPayload
 ]
 }
 =
-fakeDispatch
+fakeSendTelemetry
 .
 lastCall
 ;
@@ -4598,7 +4598,7 @@ assert
 .
 calledOnce
 (
-fakeDispatch
+fakeSendTelemetry
 )
 ;
 const
@@ -4610,7 +4610,7 @@ dispatchPayload
 ]
 }
 =
-fakeDispatch
+fakeSendTelemetry
 .
 lastCall
 ;
@@ -4771,16 +4771,12 @@ addEventListener
 browser
 =
 {
-browser
-:
-{
 ownerGlobal
 :
 fakeWindow
 ownerDocument
 :
 fakeDocument
-}
 }
 ;
 fakeElementById
@@ -5111,9 +5107,9 @@ init
 (
 waitForInitializedStub
 {
-dispatch
+sendTelemetry
 :
-fakeDispatch
+fakeSendTelemetry
 getMessages
 :
 getMessagesStub
