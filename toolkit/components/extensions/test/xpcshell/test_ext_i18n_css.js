@@ -957,7 +957,9 @@ DIR
 "
 intl
 .
-uidirection
+l10n
+.
+pseudo
 "
 ;
 /
@@ -1025,7 +1027,9 @@ Preferences
 set
 (
 DIR
-1
+"
+bidi
+"
 )
 ;
 css

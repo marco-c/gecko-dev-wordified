@@ -85,9 +85,13 @@ pushPref
 "
 intl
 .
-uidirection
+l10n
+.
+pseudo
 "
-1
+"
+bidi
+"
 )
 ;
 await
