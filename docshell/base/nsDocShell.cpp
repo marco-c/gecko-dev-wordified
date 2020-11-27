@@ -19040,6 +19040,10 @@ MediaFeatureChangeReason
 :
 DeviceSizeIsPageSizeChange
 }
+MediaFeatureChangePropagation
+:
+:
+JustThisDocument
 )
 ;
 }

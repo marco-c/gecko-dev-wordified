@@ -38201,6 +38201,10 @@ MediaFeatureChange
 :
 kAllChanges
 }
+MediaFeatureChangePropagation
+:
+:
+JustThisDocument
 )
 ;
 /
