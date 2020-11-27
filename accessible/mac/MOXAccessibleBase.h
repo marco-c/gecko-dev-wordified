@@ -659,6 +659,13 @@ mark
 -
 -
 (
+NSString
+*
+)
+description
+;
+-
+(
 BOOL
 )
 isExpired
