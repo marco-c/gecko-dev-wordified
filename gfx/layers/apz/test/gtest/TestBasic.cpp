@@ -1315,15 +1315,6 @@ Destroy
 )
 ;
 }
-#
-ifndef
-MOZ_WIDGET_ANDROID
-/
-/
-Currently
-fails
-on
-Android
 TEST_F
 (
 APZCBasicTester
@@ -1428,8 +1419,6 @@ pointOut
 ;
 }
 }
-#
-endif
 #
 ifndef
 MOZ_WIDGET_ANDROID

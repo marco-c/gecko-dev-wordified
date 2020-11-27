@@ -161,7 +161,7 @@ aShouldTriggerScroll
 {
 /
 /
-One
+Three
 repaint
 request
 for
@@ -180,7 +180,7 @@ _
 .
 Times
 (
-2
+6
 )
 ;
 }

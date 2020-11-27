@@ -3528,15 +3528,6 @@ IsOverscrolled
 }
 #
 endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
-/
-/
-Currently
-fails
-on
-Android
 /
 /
 Test
@@ -3767,8 +3758,6 @@ AssertStateIsFling
 )
 ;
 }
-#
-endif
 /
 /
 Here
