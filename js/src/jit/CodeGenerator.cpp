@@ -78875,11 +78875,11 @@ element
 type
 so
 that
-storeElementTyped
+emitStoreElementTyped
 will
+/
+/
 always
-/
-/
 store
 the
 type
