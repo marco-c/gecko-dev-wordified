@@ -101,11 +101,6 @@ resumed
 "
 attached
 "
-detached
-:
-"
-detached
-"
 running
 :
 "
