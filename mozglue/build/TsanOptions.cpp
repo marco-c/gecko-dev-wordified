@@ -1682,17 +1682,6 @@ fixed
 /
 /
 Bug
-1506812
-"
-race
-:
-BeginBackgroundRead
-\
-n
-"
-/
-/
-Bug
 1619162
 "
 race
