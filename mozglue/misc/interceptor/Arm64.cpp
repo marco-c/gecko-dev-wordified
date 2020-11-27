@@ -121,6 +121,15 @@ Arm64
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ResultVariant
+.
+h
+"
 namespace
 mozilla
 {
