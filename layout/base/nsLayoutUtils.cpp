@@ -57137,9 +57137,11 @@ nsLayoutUtils
 :
 ComputeScrollMetadata
 (
+const
 nsIFrame
 *
 aForFrame
+const
 nsIFrame
 *
 aScrollFrame
@@ -57177,6 +57179,7 @@ ContainerLayerParameters
 aContainerParameters
 )
 {
+const
 nsPresContext
 *
 presContext
@@ -57252,6 +57255,7 @@ GetDocShell
 (
 )
 ;
+const
 BrowsingContext
 *
 bc
@@ -57511,6 +57515,7 @@ GetDisplayPort
 ;
 }
 }
+const
 nsIScrollableFrame
 *
 scrollableFrame
@@ -58265,6 +58270,7 @@ SetScrollParentId
 aScrollParentId
 )
 ;
+const
 nsIFrame
 *
 rootScrollFrame
@@ -58466,6 +58472,7 @@ struct
 ScrollMetadata
 |
 .
+const
 Element
 *
 bodyElement
@@ -58481,6 +58488,7 @@ GetBodyElement
 :
 nullptr
 ;
+const
 nsIFrame
 *
 primaryFrame
@@ -58987,6 +58995,7 @@ the
 viewport
 frame
 .
+const
 nsIFrame
 *
 frameForCompositionBoundsCalculation
@@ -59455,6 +59464,7 @@ apz_test_logging_enabled
 {
 if
 (
+const
 nsIContent
 *
 content
