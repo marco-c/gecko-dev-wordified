@@ -175,13 +175,6 @@ CFFOBJS_H_
 #
 define
 CFFOBJS_H_
-#
-include
-<
-ft2build
-.
-h
->
 FT_BEGIN_HEADER
 FT_LOCAL
 (

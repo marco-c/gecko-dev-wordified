@@ -178,13 +178,12 @@ FTCACHE_H_
 #
 include
 <
-ft2build
+freetype
+/
+ftglyph
 .
 h
 >
-#
-include
-FT_GLYPH_H
 FT_BEGIN_HEADER
 /
 *

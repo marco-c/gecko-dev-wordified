@@ -177,13 +177,6 @@ define
 TTINTERP_H_
 #
 include
-<
-ft2build
-.
-h
->
-#
-include
 "
 ttobjs
 .
@@ -433,8 +426,8 @@ TT_ExecContext
 exc
 FT_F26Dot6
 distance
-FT_F26Dot6
-compensation
+FT_Int
+color
 )
 ;
 /

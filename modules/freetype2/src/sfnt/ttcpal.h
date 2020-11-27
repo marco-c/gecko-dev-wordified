@@ -195,13 +195,6 @@ define
 __TTCPAL_H__
 #
 include
-<
-ft2build
-.
-h
->
-#
-include
 "
 ttload
 .

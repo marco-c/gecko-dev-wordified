@@ -177,7 +177,15 @@ define
 SVCID_H_
 #
 include
-FT_INTERNAL_SERVICE_H
+<
+freetype
+/
+internal
+/
+ftserv
+.
+h
+>
 FT_BEGIN_HEADER
 #
 define

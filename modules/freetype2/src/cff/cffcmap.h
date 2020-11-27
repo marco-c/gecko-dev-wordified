@@ -182,7 +182,15 @@ define
 CFFCMAP_H_
 #
 include
-FT_INTERNAL_CFF_OBJECTS_TYPES_H
+<
+freetype
+/
+internal
+/
+cffotypes
+.
+h
+>
 FT_BEGIN_HEADER
 /
 *

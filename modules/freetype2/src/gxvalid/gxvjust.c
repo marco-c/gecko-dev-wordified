@@ -311,7 +311,13 @@ h
 "
 #
 include
-FT_SFNT_NAMES_H
+<
+freetype
+/
+ftsnames
+.
+h
+>
 /
 *
 *

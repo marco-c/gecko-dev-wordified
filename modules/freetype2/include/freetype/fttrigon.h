@@ -177,7 +177,13 @@ define
 FTTRIGON_H_
 #
 include
-FT_FREETYPE_H
+<
+freetype
+/
+freetype
+.
+h
+>
 #
 ifdef
 FREETYPE_H

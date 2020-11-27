@@ -326,7 +326,14 @@ h
 "
 #
 include
-FT_SFNT_NAMES_H
+<
+freetype
+/
+ftsnames
+.
+h
+>
+FT_BEGIN_HEADER
 FT_LOCAL
 (
 void
@@ -397,6 +404,7 @@ GXV_Validator
 gxvalid
 )
 ;
+FT_END_HEADER
 #
 endif
 /

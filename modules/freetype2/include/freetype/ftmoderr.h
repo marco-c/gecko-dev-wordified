@@ -656,7 +656,13 @@ ft_mod_errors
 *
 #
 include
-FT_MODULE_ERRORS_H
+<
+freetype
+/
+ftmoderr
+.
+h
+>
 *
 *
 *

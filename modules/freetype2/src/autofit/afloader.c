@@ -209,7 +209,15 @@ h
 "
 #
 include
-FT_INTERNAL_CALC_H
+<
+freetype
+/
+internal
+/
+ftcalc
+.
+h
+>
 /
 *
 Initialize

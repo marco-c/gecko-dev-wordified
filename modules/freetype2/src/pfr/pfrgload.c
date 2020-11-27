@@ -200,7 +200,15 @@ definitions
 /
 #
 include
-FT_INTERNAL_DEBUG_H
+<
+freetype
+/
+internal
+/
+ftdebug
+.
+h
+>
 #
 include
 "
@@ -2912,7 +2920,7 @@ FT_TRACE7
 x
 .
 %
-d
+ld
 "
 cur
 -
@@ -3114,7 +3122,7 @@ FT_TRACE7
 y
 .
 %
-d
+ld
 "
 cur
 -

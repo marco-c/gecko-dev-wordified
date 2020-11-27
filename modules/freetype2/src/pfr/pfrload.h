@@ -184,7 +184,15 @@ h
 "
 #
 include
-FT_INTERNAL_STREAM_H
+<
+freetype
+/
+internal
+/
+ftstream
+.
+h
+>
 FT_BEGIN_HEADER
 /
 *

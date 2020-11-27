@@ -178,13 +178,6 @@ define
 T1GLOAD_H_
 #
 include
-<
-ft2build
-.
-h
->
-#
-include
 "
 t1objs
 .

@@ -197,13 +197,6 @@ PCFREAD_H_
 #
 define
 PCFREAD_H_
-#
-include
-<
-ft2build
-.
-h
->
 FT_BEGIN_HEADER
 FT_LOCAL
 (

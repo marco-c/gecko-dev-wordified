@@ -180,13 +180,12 @@ FTMM_H_
 #
 include
 <
-ft2build
+freetype
+/
+t1tables
 .
 h
 >
-#
-include
-FT_TYPE1_TABLES_H
 FT_BEGIN_HEADER
 /
 *

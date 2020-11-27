@@ -184,13 +184,12 @@ FTGASP_H_
 #
 include
 <
-ft2build
+freetype
+/
+freetype
 .
 h
 >
-#
-include
-FT_FREETYPE_H
 #
 ifdef
 FREETYPE_H

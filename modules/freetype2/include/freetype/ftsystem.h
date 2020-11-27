@@ -179,13 +179,6 @@ FTSYSTEM_H_
 #
 define
 FTSYSTEM_H_
-#
-include
-<
-ft2build
-.
-h
->
 FT_BEGIN_HEADER
 /
 *

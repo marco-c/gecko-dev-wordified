@@ -203,7 +203,13 @@ h
 >
 #
 include
-FT_IMAGE_H
+<
+freetype
+/
+ftimage
+.
+h
+>
 #
 endif
 /

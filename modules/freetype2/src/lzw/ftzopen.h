@@ -208,13 +208,13 @@ FTZOPEN_H_
 #
 include
 <
-ft2build
+freetype
+/
+freetype
 .
 h
 >
-#
-include
-FT_FREETYPE_H
+FT_BEGIN_HEADER
 /
 *
 *
@@ -1012,6 +1012,7 @@ out_size
 *
 *
 /
+FT_END_HEADER
 #
 endif
 /

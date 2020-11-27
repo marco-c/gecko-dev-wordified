@@ -198,7 +198,15 @@ h
 "
 #
 include
-FT_INTERNAL_DEBUG_H
+<
+freetype
+/
+internal
+/
+ftdebug
+.
+h
+>
 /
 *
 *
@@ -1679,7 +1687,7 @@ FT_TRACE4
 (
 "
 %
-d
+ld
 "
 idx
 )

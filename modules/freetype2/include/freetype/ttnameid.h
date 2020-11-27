@@ -177,13 +177,6 @@ TTNAMEID_H_
 #
 define
 TTNAMEID_H_
-#
-include
-<
-ft2build
-.
-h
->
 FT_BEGIN_HEADER
 /
 *
