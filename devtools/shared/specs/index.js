@@ -941,7 +941,9 @@ client
 /
 fronts
 /
-stylesheets
+media
+-
+rule
 "
 }
 {
@@ -1704,7 +1706,9 @@ client
 /
 fronts
 /
-stylesheets
+style
+-
+sheet
 "
 }
 {
@@ -1737,7 +1741,9 @@ client
 /
 fronts
 /
-stylesheets
+style
+-
+sheets
 "
 }
 {
