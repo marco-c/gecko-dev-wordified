@@ -24999,16 +24999,6 @@ scriptStencil
 immutableFlags
 )
 ;
-script
--
->
-resetImmutableFlags
-(
-scriptStencil
-.
-immutableFlags
-)
-;
 /
 /
 Derive
