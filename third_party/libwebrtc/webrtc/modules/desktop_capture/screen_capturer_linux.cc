@@ -206,7 +206,7 @@ IsRunningUnderWayland
 )
 {
 return
-BaseCapturerPipeWire
+ScreenCapturerPipeWire
 :
 :
 CreateRawScreenCapturer
