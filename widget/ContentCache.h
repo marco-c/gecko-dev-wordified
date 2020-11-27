@@ -160,6 +160,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WritingModes
 .
 h
@@ -259,6 +268,8 @@ IMENotification
 ContentCache
 (
 )
+=
+default
 ;
 protected
 :
@@ -281,7 +292,10 @@ the
 composition
 string
 .
+Maybe
+<
 uint32_t
+>
 mCompositionStart
 ;
 enum
@@ -2561,7 +2575,10 @@ the
 remote
 process
 .
+Maybe
+<
 uint32_t
+>
 mCompositionStartInChild
 ;
 /
