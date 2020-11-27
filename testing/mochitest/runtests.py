@@ -16792,6 +16792,8 @@ more
 time
         
 if
+(
+            
 mozinfo
 .
 info
@@ -16800,21 +16802,25 @@ info
 tsan
 "
 ]
+            
 and
 options
 .
 flavor
 =
 =
-'
+"
 browser
-'
+"
+            
 and
 options
 .
 timeout
 is
 None
+        
+)
 :
             
 self
