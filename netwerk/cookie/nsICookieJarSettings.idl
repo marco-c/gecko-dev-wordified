@@ -117,6 +117,13 @@ nsISupports
 .
 idl
 "
+#
+include
+"
+nsISerializable
+.
+idl
+"
 interface
 nsIPrincipal
 ;
@@ -164,7 +171,7 @@ ba2a
 interface
 nsICookieJarSettings
 :
-nsISupports
+nsISerializable
 {
 /
 *
