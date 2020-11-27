@@ -571,11 +571,6 @@ onClearHistory
 )
 {
 }
-onPageChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 )

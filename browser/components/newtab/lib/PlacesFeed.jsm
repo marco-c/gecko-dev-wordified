@@ -474,11 +474,6 @@ onManyFrecenciesChanged
 )
 {
 }
-onPageChanged
-(
-)
-{
-}
 onDeleteVisits
 (
 )
