@@ -364,10 +364,10 @@ uint64_t
 aOutInputBlockId
 Maybe
 <
-bool
+APZHandledResult
 >
 *
-aOutputHandledByRootApzc
+aOutputHandledResult
 =
 nullptr
 const
@@ -1312,10 +1312,10 @@ uint64_t
 aOutInputBlockId
 Maybe
 <
-bool
+APZHandledResult
 >
 *
-aOutputHandledByRootApzc
+aOutputHandledResult
 const
 Maybe
 <
