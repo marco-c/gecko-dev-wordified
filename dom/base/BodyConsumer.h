@@ -547,7 +547,7 @@ nullptr
 /
 AbortFollower
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

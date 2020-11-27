@@ -379,7 +379,7 @@ mSignal
 mSignal
 -
 >
-Abort
+SignalAbort
 (
 )
 ;

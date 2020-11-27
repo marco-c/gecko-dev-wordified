@@ -224,8 +224,11 @@ IMPL_EVENT_HANDLER
 responseprogress
 )
 ;
+/
+/
+AbortFollower
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

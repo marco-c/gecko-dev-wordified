@@ -665,7 +665,7 @@ aOriginStack
 /
 AbortFollower
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

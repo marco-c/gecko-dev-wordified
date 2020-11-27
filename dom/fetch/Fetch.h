@@ -1430,7 +1430,7 @@ const
 /
 AbortFollower
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

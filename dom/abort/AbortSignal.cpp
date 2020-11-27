@@ -262,7 +262,7 @@ void
 AbortSignalImpl
 :
 :
-Abort
+SignalAbort
 (
 )
 {
@@ -305,7 +305,7 @@ ForwardRange
 follower
 -
 >
-Abort
+RunAbortAlgorithm
 (
 )
 ;
@@ -556,14 +556,14 @@ void
 AbortSignal
 :
 :
-Abort
+SignalAbort
 (
 )
 {
 AbortSignalImpl
 :
 :
-Abort
+SignalAbort
 (
 )
 ;

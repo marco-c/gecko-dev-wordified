@@ -270,7 +270,7 @@ void
 FetchObserver
 :
 :
-Abort
+RunAbortAlgorithm
 (
 )
 {

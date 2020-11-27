@@ -712,7 +712,7 @@ override
 /
 AbortFollower
 void
-Abort
+RunAbortAlgorithm
 (
 )
 override

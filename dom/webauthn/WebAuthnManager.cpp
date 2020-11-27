@@ -5671,7 +5671,7 @@ void
 WebAuthnManager
 :
 :
-Abort
+RunAbortAlgorithm
 (
 )
 {
