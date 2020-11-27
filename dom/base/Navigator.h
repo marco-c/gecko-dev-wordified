@@ -765,10 +765,6 @@ const
 nsAString
 &
 aURL
-const
-nsAString
-&
-aTitle
 ErrorResult
 &
 aRv
