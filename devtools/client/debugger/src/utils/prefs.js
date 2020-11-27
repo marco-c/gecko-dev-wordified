@@ -88,8 +88,8 @@ isNode
 }
 from
 "
-devtools
--
+.
+/
 environment
 "
 ;

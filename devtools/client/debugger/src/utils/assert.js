@@ -67,8 +67,8 @@ isNodeTest
 }
 from
 "
-devtools
--
+.
+/
 environment
 "
 ;

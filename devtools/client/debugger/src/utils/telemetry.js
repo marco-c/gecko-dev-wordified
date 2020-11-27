@@ -353,8 +353,8 @@ isNode
 }
 from
 "
-devtools
--
+.
+/
 environment
 "
 ;
