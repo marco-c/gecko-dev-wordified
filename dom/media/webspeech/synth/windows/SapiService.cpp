@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown

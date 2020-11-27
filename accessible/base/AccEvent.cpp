@@ -192,6 +192,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h

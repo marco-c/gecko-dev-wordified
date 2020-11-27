@@ -277,6 +277,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ScriptSettings
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

@@ -191,6 +191,13 @@ nsFrameMessageManager
 .
 h
 "
+#
+include
+"
+prenv
+.
+h
+"
 namespace
 mozilla
 :

@@ -139,6 +139,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 ConsoleCommon
 .
 h

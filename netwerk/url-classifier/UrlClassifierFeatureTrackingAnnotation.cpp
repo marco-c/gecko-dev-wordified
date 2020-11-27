@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIClassifiedChannel
 .
 h

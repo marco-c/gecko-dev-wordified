@@ -177,6 +177,13 @@ nsPIDOMWindow
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 define
 DATASET
 \

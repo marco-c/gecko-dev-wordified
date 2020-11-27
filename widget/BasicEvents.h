@@ -210,6 +210,9 @@ endif
 #
 ifdef
 DEBUG
+class
+nsIPrincipal
+;
 namespace
 IPC
 {

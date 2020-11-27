@@ -219,6 +219,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsPrinterWin
 .
 h

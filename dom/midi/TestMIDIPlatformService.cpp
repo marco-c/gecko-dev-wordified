@@ -149,6 +149,13 @@ Unused
 .
 h
 "
+#
+include
+"
+nsIThread
+.
+h
+"
 using
 namespace
 mozilla

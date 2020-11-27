@@ -181,6 +181,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 prenv
 .
 h

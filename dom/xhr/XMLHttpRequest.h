@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 XMLHttpRequestEventTarget
@@ -151,6 +160,9 @@ XMLHttpRequestBinding
 .
 h
 "
+class
+nsIInputStream
+;
 namespace
 mozilla
 {

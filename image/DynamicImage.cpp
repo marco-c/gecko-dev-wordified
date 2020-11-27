@@ -103,6 +103,13 @@ h
 #
 include
 "
+gfxContext
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h

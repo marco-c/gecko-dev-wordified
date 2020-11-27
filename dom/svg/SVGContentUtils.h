@@ -207,6 +207,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h

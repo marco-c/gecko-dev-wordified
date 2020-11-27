@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 AtkSocketAccessible
 .
 h

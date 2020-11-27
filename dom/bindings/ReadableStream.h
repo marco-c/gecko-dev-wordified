@@ -123,6 +123,17 @@ mozilla_dom_ReadableStream_h
 #
 include
 "
+js
+/
+experimental
+/
+TypedData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

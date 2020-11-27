@@ -516,6 +516,17 @@ mozilla
 /
 layers
 /
+BSPTree
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayersTypes
 .
 h

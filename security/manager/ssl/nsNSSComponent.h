@@ -176,6 +176,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 prerror
 .
 h

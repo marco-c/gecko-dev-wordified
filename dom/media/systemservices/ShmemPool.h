@@ -137,6 +137,13 @@ Shmem
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 extern
 mozilla
 :

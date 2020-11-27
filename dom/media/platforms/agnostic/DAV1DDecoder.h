@@ -138,6 +138,13 @@ dav1d
 .
 h
 "
+#
+include
+"
+nsRefPtrHashtable
+.
+h
+"
 namespace
 mozilla
 {

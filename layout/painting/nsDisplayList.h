@@ -481,6 +481,13 @@ h
 #
 include
 "
+nsClassHashtable
+.
+h
+"
+#
+include
+"
 nsTHashtable
 .
 h
@@ -3448,6 +3455,9 @@ nullptr
 const
 ;
 const
+mozilla
+:
+:
 Maybe
 <
 nsPoint
@@ -19562,6 +19572,9 @@ item
 .
 *
 /
+mozilla
+:
+:
 Maybe
 <
 uint16_t
@@ -40713,6 +40726,9 @@ StyleTransform
 &
 aTransform
 const
+mozilla
+:
+:
 Maybe
 <
 mozilla

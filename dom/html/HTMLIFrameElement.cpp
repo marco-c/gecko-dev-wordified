@@ -132,6 +132,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLIFrameElementBinding
 .
 h

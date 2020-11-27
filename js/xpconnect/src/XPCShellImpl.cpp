@@ -506,6 +506,13 @@ MOZ_SANDBOX
 #
 include
 "
+XREShellData
+.
+h
+"
+#
+include
+"
 sandboxBroker
 .
 h

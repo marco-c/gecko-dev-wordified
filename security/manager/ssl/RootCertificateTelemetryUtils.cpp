@@ -179,6 +179,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 pk11pub
 .
 h

@@ -143,6 +143,16 @@ FeaturePolicy
 .
 h
 "
+class
+PickleIterator
+;
+namespace
+IPC
+{
+class
+Message
+;
+}
 namespace
 mozilla
 {

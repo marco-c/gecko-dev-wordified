@@ -175,6 +175,13 @@ nsITimer
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsAccessiblePivot
 ;

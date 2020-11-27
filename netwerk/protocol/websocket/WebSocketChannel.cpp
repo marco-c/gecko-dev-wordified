@@ -359,6 +359,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h

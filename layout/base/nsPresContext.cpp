@@ -170,6 +170,15 @@ include
 "
 mozilla
 /
+CycleCollectedJSContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h

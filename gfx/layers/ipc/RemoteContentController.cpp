@@ -194,6 +194,17 @@ mozilla
 /
 layers
 /
+CompositorBridgeParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 MatrixMessage
 .
 h

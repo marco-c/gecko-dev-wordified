@@ -114,6 +114,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 widget
 /
 CompositorWidgetVsyncObserver

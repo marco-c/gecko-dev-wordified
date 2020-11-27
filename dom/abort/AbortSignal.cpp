@@ -139,6 +139,17 @@ mozilla
 /
 dom
 /
+EventBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 AbortSignalBinding
 .
 h

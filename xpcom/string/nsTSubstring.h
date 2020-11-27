@@ -10008,6 +10008,13 @@ index
 }
 }
 ;
+#
+include
+"
+nsTDependentSubstring
+.
+h
+"
 extern
 template
 class

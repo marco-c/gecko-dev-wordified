@@ -146,6 +146,15 @@ h
 #
 include
 "
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

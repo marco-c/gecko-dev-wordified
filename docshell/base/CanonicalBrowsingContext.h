@@ -230,6 +230,9 @@ class
 nsISHistory
 ;
 class
+nsIWidget
+;
+class
 nsSHistory
 ;
 class
@@ -244,6 +247,10 @@ CallerWillNotifyHistoryIndexAndLengthChanges
 namespace
 mozilla
 {
+enum
+class
+CallState
+;
 namespace
 net
 {

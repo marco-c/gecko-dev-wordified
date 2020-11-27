@@ -267,6 +267,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
 js
 /
 CompileOptions

@@ -408,6 +408,13 @@ nsDeque
 .
 h
 "
+#
+include
+"
+nsIRemoteTab
+.
+h
+"
 class
 nsBrowserStatusFilter
 ;

@@ -156,6 +156,17 @@ mozilla
 /
 dom
 /
+CustomElementRegistry
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ElementInlines
 .
 h

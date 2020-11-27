@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIconChannel
 .
 h
@@ -206,6 +213,13 @@ h
 include
 "
 nsIFileURL
+.
+h
+"
+#
+include
+"
+nsIInputStream
 .
 h
 "

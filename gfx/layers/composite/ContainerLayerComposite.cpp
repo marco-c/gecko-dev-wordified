@@ -318,6 +318,17 @@ mozilla
 /
 layers
 /
+BSPTree
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 Compositor
 .
 h

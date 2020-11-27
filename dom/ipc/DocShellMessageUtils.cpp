@@ -139,6 +139,17 @@ h
 #
 include
 "
+mozilla
+/
+ipc
+/
+IPDLParamTraits
+.
+h
+"
+#
+include
+"
 nsSerializationHelper
 .
 h

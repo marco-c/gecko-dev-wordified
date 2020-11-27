@@ -315,6 +315,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsContentPolicyUtils
 .
 h
@@ -330,6 +337,13 @@ h
 include
 "
 nsDocShellCID
+.
+h
+"
+#
+include
+"
+nsJSEnvironment
 .
 h
 "

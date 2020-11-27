@@ -175,6 +175,13 @@ jni
 .
 h
 "
+namespace
+mozilla
+{
+struct
+StaticXREAppData
+;
+}
 extern
 "
 C
@@ -227,6 +234,9 @@ endif
 namespace
 mozilla
 {
+struct
+StaticXREAppData
+;
 #
 if
 defined

@@ -1763,6 +1763,9 @@ DocLoaderIsEmpty
 bool
 aFlushLayout
 const
+mozilla
+:
+:
 Maybe
 <
 nsresult

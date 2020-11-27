@@ -145,6 +145,13 @@ JS
 :
 :
 NewArrayObject
+#
+include
+"
+nsIFile
+.
+h
+"
 namespace
 mozilla
 :

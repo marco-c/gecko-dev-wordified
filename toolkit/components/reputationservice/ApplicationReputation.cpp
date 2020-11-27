@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsIObserverService
+.
+h
+"
+#
+include
+"
 nsISimpleEnumerator
 .
 h

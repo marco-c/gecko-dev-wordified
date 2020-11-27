@@ -135,6 +135,15 @@ mozISandboxTest
 h
 "
 #
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+#
 if
 !
 defined

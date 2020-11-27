@@ -148,6 +148,17 @@ mozilla
 /
 layers
 /
+APZUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 LayerMetricsWrapper
 .
 h

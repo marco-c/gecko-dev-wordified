@@ -718,6 +718,9 @@ nsAString
 const
 final
 ;
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -729,6 +732,9 @@ nsString
 const
 final
 ;
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo

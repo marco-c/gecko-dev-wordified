@@ -346,6 +346,9 @@ const
 =
 0
 ;
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -443,6 +446,9 @@ implementing
 this
 .
 virtual
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo
@@ -503,6 +509,9 @@ to
 NamedPrinter
 .
 virtual
+mozilla
+:
+:
 Maybe
 <
 PrinterInfo

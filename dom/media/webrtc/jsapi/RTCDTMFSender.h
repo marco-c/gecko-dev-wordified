@@ -89,6 +89,13 @@ RootingAPI
 .
 h
 "
+#
+include
+"
+nsITimer
+.
+h
+"
 class
 nsPIDOMWindowInner
 ;

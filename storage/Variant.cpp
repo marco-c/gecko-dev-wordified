@@ -119,6 +119,13 @@ Variant
 .
 h
 "
+#
+include
+"
+nsCOMPtr
+.
+h
+"
 extern
 "
 C

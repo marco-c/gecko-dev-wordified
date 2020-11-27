@@ -215,6 +215,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsTreeColumns
 .
 h

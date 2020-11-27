@@ -151,6 +151,13 @@ BlockingResourceBase
 .
 h
 "
+#
+include
+"
+nsISupports
+.
+h
+"
 /
 /
 /

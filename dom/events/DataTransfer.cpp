@@ -425,6 +425,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

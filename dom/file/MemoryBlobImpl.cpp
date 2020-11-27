@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsMemory
 .
 h

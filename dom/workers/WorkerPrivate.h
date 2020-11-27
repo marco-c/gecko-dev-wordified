@@ -122,6 +122,11 @@ define
 mozilla_dom_workers_workerprivate_h__
 #
 include
+<
+bitset
+>
+#
+include
 "
 MainThreadUtils
 .
@@ -378,6 +383,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+nsIChannel
 .
 h
 "

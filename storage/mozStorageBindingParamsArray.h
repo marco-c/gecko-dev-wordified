@@ -121,6 +121,13 @@ mozStorageBindingParamsArray_h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

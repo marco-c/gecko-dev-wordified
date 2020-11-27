@@ -245,6 +245,17 @@ include
 "
 mozilla
 /
+layers
+/
+RepaintRequest
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Document

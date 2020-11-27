@@ -162,6 +162,13 @@ TextureSync
 h
 "
 #
+include
+"
+nsClassHashtable
+.
+h
+"
+#
 endif
 namespace
 mozilla

@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h

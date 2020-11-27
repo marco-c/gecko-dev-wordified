@@ -544,6 +544,14 @@ Document
 class
 Feature
 ;
+template
+<
+typename
+T
+>
+class
+Optional
+;
 class
 FeaturePolicyUtils
 ;

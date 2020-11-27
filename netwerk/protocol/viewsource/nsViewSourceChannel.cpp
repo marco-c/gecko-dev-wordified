@@ -206,6 +206,13 @@ nsServiceManagerUtils
 .
 h
 "
+#
+include
+"
+nsViewSourceChannel
+.
+h
+"
 NS_IMPL_ADDREF
 (
 nsViewSourceChannel

@@ -131,6 +131,13 @@ WorkerCommon
 .
 h
 "
+#
+include
+"
+nsISupports
+.
+h
+"
 class
 nsIInputStream
 ;

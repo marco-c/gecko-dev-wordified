@@ -180,6 +180,9 @@ PromiseNativeHandler
 .
 h
 "
+class
+nsIURI
+;
 namespace
 mozilla
 {

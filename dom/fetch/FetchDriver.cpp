@@ -162,6 +162,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h

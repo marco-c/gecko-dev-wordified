@@ -116,6 +116,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 mozalloc
 .
 h

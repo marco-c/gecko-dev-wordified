@@ -131,6 +131,13 @@ h
 #
 include
 "
+VideoLimits
+.
+h
+"
+#
+include
+"
 mozIGeckoMediaPluginService
 .
 h

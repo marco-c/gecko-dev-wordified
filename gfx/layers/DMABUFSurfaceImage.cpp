@@ -166,6 +166,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h

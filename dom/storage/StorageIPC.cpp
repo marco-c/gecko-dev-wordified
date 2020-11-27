@@ -161,6 +161,17 @@ include
 "
 mozilla
 /
+dom
+/
+LocalStorageCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundChild

@@ -131,6 +131,15 @@ h
 #
 include
 "
+mozilla
+/
+PresShell
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

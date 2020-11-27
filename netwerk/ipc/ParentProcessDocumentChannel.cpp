@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsDocShell
 .
 h

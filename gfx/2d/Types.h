@@ -4015,6 +4015,9 @@ constexpr
 bool
 SideIsVertical
 (
+mozilla
+:
+:
 Side
 aSide
 )
@@ -4074,6 +4077,9 @@ constexpr
 Corner
 SideToFullCorner
 (
+mozilla
+:
+:
 Side
 aSide
 bool
@@ -4178,6 +4184,9 @@ constexpr
 HalfCorner
 SideToHalfCorner
 (
+mozilla
+:
+:
 Side
 aSide
 bool

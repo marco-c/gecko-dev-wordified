@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsThread
 .
 h

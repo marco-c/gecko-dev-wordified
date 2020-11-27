@@ -133,6 +133,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DocumentL10nBinding
 .
 h

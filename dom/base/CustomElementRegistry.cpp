@@ -276,6 +276,15 @@ h
 #
 include
 "
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
 nsHTMLTags
 .
 h

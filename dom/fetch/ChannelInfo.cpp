@@ -160,6 +160,13 @@ h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 nsIHttpChannel
 .
 h

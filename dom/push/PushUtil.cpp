@@ -125,6 +125,17 @@ PushUtil
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+UnionTypes
+.
+h
+"
 namespace
 mozilla
 {

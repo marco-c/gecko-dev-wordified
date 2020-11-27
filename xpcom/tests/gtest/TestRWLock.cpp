@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 gtest
 /
 gtest

@@ -415,6 +415,17 @@ mozilla
 /
 dom
 /
+PopupBlocker
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h

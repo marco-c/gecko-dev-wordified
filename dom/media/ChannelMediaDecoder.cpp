@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_media
 .
 h

@@ -164,6 +164,13 @@ h
 #
 include
 "
+nsIGlobalObject
+.
+h
+"
+#
+include
+"
 xpcpublic
 .
 h

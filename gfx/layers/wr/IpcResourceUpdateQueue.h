@@ -180,7 +180,14 @@ layers
 class
 TextureClient
 ;
+class
+WebRenderBridgeChild
+;
 }
+/
+/
+namespace
+layers
 namespace
 wr
 {

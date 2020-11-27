@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsISupportsPriority
 .
 h

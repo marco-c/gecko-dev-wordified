@@ -228,6 +228,13 @@ utility
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 SpecialSystemDirectory
 .
 h

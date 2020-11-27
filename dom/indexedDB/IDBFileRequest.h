@@ -148,6 +148,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+ScriptSettings
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

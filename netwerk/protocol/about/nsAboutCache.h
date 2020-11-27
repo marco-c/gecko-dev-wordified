@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsIOutputStream
 .
 h

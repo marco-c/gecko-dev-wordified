@@ -365,6 +365,13 @@ h
 #
 include
 "
+nsCSSValue
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

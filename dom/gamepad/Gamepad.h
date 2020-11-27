@@ -223,6 +223,13 @@ h
 #
 include
 "
+nsDataHashtable
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

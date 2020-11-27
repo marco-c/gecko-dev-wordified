@@ -235,6 +235,9 @@ class
 nsICanvasRenderingContextInternal
 ;
 class
+nsIInputStream
+;
+class
 nsITimerCallback
 ;
 enum

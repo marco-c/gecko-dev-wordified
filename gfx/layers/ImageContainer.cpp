@@ -136,6 +136,13 @@ memset
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 GLImages
 .
 h
@@ -373,6 +380,13 @@ mozilla
 layers
 /
 TextureClientRecycleAllocator
+.
+h
+"
+#
+include
+"
+nsProxyRelease
 .
 h
 "

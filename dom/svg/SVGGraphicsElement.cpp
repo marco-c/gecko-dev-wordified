@@ -136,6 +136,17 @@ BindContext
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Document
+.
+h
+"
 namespace
 mozilla
 {

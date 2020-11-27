@@ -121,6 +121,13 @@ h
 #
 include
 "
+XREShellData
+.
+h
+"
+#
+include
+"
 application
 .
 ini

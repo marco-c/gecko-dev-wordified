@@ -136,6 +136,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsNPAPIPlugin
 .
 h

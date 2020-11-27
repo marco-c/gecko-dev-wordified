@@ -149,6 +149,13 @@ PromiseNativeHandler
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsIGlobalObject
 ;

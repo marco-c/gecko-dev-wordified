@@ -176,6 +176,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

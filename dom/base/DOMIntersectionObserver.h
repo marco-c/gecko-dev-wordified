@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

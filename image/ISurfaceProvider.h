@@ -174,15 +174,6 @@ include
 "
 mozilla
 /
-Variant
-.
-h
-"
-#
-include
-"
-mozilla
-/
 gfx
 /
 2D

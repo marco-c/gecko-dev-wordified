@@ -102,6 +102,15 @@ __nsFormFillController__
 #
 include
 "
+mozilla
+/
+TimeStamp
+.
+h
+"
+#
+include
+"
 nsIFormFillController
 .
 h

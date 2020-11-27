@@ -383,6 +383,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h

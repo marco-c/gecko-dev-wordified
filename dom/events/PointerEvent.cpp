@@ -162,6 +162,17 @@ include
 "
 mozilla
 /
+dom
+/
+PointerEventHandler
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MouseEvents
 .
 h

@@ -279,6 +279,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsContentCreatorFunctions
 .
 h

@@ -135,6 +135,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 LeakRefPtr
 .
 h

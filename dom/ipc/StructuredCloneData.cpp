@@ -159,6 +159,17 @@ mozilla
 /
 dom
 /
+BlobImpl
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 DOMTypes
 .
 h

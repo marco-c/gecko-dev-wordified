@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsTextFormatter
 .
 h

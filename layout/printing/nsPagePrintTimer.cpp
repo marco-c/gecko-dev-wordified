@@ -126,6 +126,17 @@ include
 "
 mozilla
 /
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

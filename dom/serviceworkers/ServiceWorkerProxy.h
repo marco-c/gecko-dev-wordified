@@ -141,6 +141,9 @@ namespace
 dom
 {
 class
+ClientInfo
+;
+class
 ClientState
 ;
 class

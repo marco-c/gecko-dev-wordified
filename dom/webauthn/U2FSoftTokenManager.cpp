@@ -160,6 +160,15 @@ h
 #
 include
 "
+mozilla
+/
+Preferences
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h

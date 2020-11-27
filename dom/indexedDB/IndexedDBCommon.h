@@ -133,6 +133,12 @@ QuotaCommon
 .
 h
 "
+class
+JSStructuredCloneData
+;
+class
+nsIInputStream
+;
 /
 /
 IndexedDB

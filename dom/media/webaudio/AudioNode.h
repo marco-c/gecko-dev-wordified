@@ -178,6 +178,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryReporting
 .
 h

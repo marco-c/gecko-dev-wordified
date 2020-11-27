@@ -168,6 +168,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
 ClientWebGLContext
 .
 h

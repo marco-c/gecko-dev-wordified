@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIMutableArray
 .
 h
@@ -176,6 +183,13 @@ h
 include
 "
 nsISupportsPrimitives
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

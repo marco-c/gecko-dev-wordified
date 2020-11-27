@@ -208,6 +208,9 @@ UDPSocket
 namespace
 mozilla
 {
+class
+LazyLogModule
+;
 namespace
 net
 {

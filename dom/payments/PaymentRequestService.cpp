@@ -183,6 +183,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsSimpleEnumerator
 .
 h

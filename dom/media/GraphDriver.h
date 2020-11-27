@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 AudioBufferUtils
 .
 h

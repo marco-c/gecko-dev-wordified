@@ -155,6 +155,17 @@ include
 "
 mozilla
 /
+dom
+/
+CanonicalBrowsingContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPtr
 .
 h

@@ -174,6 +174,17 @@ include
 "
 mozilla
 /
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D

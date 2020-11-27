@@ -122,6 +122,15 @@ include
 "
 mozilla
 /
+SizeOfState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadSafeWeakPtr
 .
 h

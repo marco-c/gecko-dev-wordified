@@ -144,6 +144,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BlockingResourceBase
 .
 h

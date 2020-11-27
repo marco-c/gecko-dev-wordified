@@ -375,6 +375,13 @@ h
 #
 include
 "
+nsMemory
+.
+h
+"
+#
+include
+"
 gfxFontConstants
 .
 h

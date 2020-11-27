@@ -110,6 +110,9 @@ PAltServiceChild
 .
 h
 "
+class
+nsIInterfaceRequestor
+;
 namespace
 mozilla
 {

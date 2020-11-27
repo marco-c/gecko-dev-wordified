@@ -137,6 +137,15 @@ h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

@@ -214,6 +214,15 @@ h
 #
 include
 "
+mozilla
+/
+Logging
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h

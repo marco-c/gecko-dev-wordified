@@ -123,6 +123,13 @@ mozilla_TimingParams_h
 #
 include
 "
+X11UndefineNone
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

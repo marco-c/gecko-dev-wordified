@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIAsyncVerifyRedirectCallback
 .
 h

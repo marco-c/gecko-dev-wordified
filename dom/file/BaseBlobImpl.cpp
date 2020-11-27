@@ -128,6 +128,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+BindingDeclarations
+.
+h
+"
+#
+include
+"
 nsRFPService
 .
 h

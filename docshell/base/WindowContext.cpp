@@ -196,6 +196,15 @@ include
 "
 mozilla
 /
+PermissionDelegateIPCUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h

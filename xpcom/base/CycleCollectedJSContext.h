@@ -193,6 +193,13 @@ h
 #
 include
 "
+nsRefPtrHashtable
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

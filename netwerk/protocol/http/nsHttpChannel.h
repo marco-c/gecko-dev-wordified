@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsIApplicationCache
+.
+h
+"
+#
+include
+"
 nsICachingChannel
 .
 h

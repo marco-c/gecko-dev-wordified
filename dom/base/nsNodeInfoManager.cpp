@@ -214,6 +214,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

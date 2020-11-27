@@ -145,6 +145,13 @@ h
 #
 include
 "
+nsJSEnvironment
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

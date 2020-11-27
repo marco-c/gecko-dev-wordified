@@ -180,6 +180,15 @@ include
 "
 mozilla
 /
+AsyncEventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 BasePrincipal
 .
 h

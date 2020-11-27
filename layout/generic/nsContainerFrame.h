@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsISelectionDisplay
+.
+h
+"
+#
+include
+"
 nsSplittableFrame
 .
 h

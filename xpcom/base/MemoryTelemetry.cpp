@@ -267,6 +267,13 @@ h
 #
 include
 "
+nsITelemetry
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h

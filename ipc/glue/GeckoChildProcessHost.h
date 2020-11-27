@@ -161,6 +161,17 @@ h
 #
 include
 "
+chrome
+/
+common
+/
+ipc_message
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc

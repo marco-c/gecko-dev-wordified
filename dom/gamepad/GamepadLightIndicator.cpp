@@ -147,6 +147,15 @@ Promise
 .
 h
 "
+#
+include
+"
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
 namespace
 mozilla
 :

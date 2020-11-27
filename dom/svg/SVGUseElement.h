@@ -256,6 +256,9 @@ namespace
 mozilla
 {
 class
+Encoding
+;
+class
 SVGUseFrame
 ;
 struct

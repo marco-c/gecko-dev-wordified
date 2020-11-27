@@ -439,6 +439,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsSerializationHelper
 .
 h

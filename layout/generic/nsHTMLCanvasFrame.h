@@ -173,6 +173,9 @@ namespace
 layers
 {
 class
+CanvasRenderer
+;
+class
 Layer
 ;
 class

@@ -203,6 +203,13 @@ h
 #
 include
 "
+nsIChannel
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

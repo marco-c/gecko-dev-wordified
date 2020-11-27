@@ -166,6 +166,15 @@ AuthenticatorResponse
 h
 "
 #
+include
+"
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
+#
 ifdef
 OS_WIN
 #

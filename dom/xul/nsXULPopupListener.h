@@ -150,6 +150,9 @@ nsCycleCollectionParticipant
 .
 h
 "
+class
+nsIContent
+;
 namespace
 mozilla
 {

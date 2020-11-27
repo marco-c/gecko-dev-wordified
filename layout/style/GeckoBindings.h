@@ -231,6 +231,14 @@ ServoComputedData
 namespace
 mozilla
 {
+#
+ifdef
+MOZ_GECKO_PROFILER
+class
+AutoProfilerLabel
+;
+#
+endif
 class
 ComputedStyle
 ;

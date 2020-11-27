@@ -129,6 +129,11 @@ WebGLTypes
 .
 h
 "
+#
+include
+<
+memory
+>
 namespace
 mozilla
 {

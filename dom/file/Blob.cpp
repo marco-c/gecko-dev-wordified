@@ -189,6 +189,15 @@ h
 #
 include
 "
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
+#
+include
+"
 MultipartBlobImpl
 .
 h

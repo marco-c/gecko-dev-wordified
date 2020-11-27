@@ -185,6 +185,15 @@ SharedMap
 .
 h
 "
+#
+include
+"
+mozilla
+/
+HoldDropJSObjects
+.
+h
+"
 using
 namespace
 mozilla

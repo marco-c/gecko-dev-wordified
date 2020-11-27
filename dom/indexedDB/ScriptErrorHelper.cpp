@@ -138,6 +138,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -153,6 +160,13 @@ h
 include
 "
 nsIScriptError
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "

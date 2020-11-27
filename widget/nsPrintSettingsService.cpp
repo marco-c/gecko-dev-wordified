@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 nsIStringEnumerator
 .
 h

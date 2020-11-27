@@ -111,6 +111,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 ImageContainer
 .
 h

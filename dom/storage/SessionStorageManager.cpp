@@ -192,6 +192,17 @@ mozilla
 /
 dom
 /
+LocalStorageCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 PBackgroundSessionStorageCache
 .
 h

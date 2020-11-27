@@ -140,6 +140,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 nsArrayUtils
 .
 h

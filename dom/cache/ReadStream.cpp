@@ -205,6 +205,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsStringStream
 .
 h

@@ -170,6 +170,15 @@ h
 #
 include
 "
+mozilla
+/
+Variant
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

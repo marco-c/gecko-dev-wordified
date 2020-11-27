@@ -230,6 +230,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

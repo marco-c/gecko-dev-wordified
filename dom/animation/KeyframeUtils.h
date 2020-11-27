@@ -173,9 +173,6 @@ JSContext
 class
 JSObject
 ;
-class
-ComputedStyle
-;
 struct
 RawServoDeclarationBlock
 ;
@@ -184,6 +181,9 @@ mozilla
 {
 struct
 AnimationProperty
+;
+class
+ComputedStyle
 ;
 enum
 class

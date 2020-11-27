@@ -397,6 +397,13 @@ NS_lroundf
 #
 include
 "
+TiledLayerBuffer
+.
+h
+"
+#
+include
+"
 UnitTransforms
 .
 h

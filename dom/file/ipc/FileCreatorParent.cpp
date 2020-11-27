@@ -154,6 +154,13 @@ MultipartBlobImpl
 .
 h
 "
+#
+include
+"
+nsIFile
+.
+h
+"
 namespace
 mozilla
 :

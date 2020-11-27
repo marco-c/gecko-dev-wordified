@@ -130,6 +130,13 @@ h
 #
 include
 "
+GLTypes
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

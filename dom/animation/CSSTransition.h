@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+ComputedTiming
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Animation

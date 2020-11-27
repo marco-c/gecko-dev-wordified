@@ -162,6 +162,13 @@ h
 /
 for
 ScreenRect
+#
+include
+"
+UnitTransforms
+.
+h
+"
 namespace
 mozilla
 {

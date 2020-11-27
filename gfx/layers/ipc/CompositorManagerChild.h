@@ -200,6 +200,9 @@ namespace
 layers
 {
 class
+CompositorBridgeChild
+;
+class
 CompositorManagerParent
 ;
 class

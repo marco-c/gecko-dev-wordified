@@ -241,6 +241,17 @@ mozilla
 /
 gfx
 /
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
+gfx
+/
 PatternHelpers
 .
 h

@@ -220,6 +220,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

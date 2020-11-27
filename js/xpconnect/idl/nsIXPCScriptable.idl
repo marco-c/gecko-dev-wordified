@@ -125,6 +125,13 @@ TypeDecls
 .
 h
 "
+namespace
+JS
+{
+class
+CallArgs
+;
+}
 %
 }
 interface

@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

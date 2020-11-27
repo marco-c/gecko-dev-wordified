@@ -210,6 +210,14 @@ Document
 class
 DocumentType
 ;
+template
+<
+typename
+T
+>
+class
+Optional
+;
 class
 DOMImplementation
 final

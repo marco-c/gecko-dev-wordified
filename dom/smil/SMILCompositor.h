@@ -169,6 +169,13 @@ h
 #
 include
 "
+nsCSSPropertyID
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -183,6 +190,9 @@ h
 namespace
 mozilla
 {
+class
+ComputedStyle
+;
 /
 /
 -

@@ -139,6 +139,15 @@ RTCConfigurationBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Preferences
+.
+h
+"
 /
 /
 Parsing

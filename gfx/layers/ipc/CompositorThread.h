@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 ThreadSafeRefcountingWithMainThreadDestruction
 .
 h

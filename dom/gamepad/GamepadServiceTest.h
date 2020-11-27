@@ -145,6 +145,17 @@ include
 "
 mozilla
 /
+dom
+/
+TypedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h

@@ -221,6 +221,13 @@ h
 #
 include
 "
+nsIPrefService
+.
+h
+"
+#
+include
+"
 nsIProxyInfo
 .
 h

@@ -142,6 +142,17 @@ mozilla
 /
 dom
 /
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MediaErrorBinding
 .
 h

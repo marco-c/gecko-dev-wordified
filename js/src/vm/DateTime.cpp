@@ -219,6 +219,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 threading
 /
 ExclusiveData

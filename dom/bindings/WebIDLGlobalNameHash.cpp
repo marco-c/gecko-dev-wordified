@@ -255,6 +255,17 @@ mozilla
 /
 dom
 /
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 JSSlots
 .
 h

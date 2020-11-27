@@ -191,6 +191,12 @@ PClientManagerChild
 class
 ServiceWorkerDescriptor
 ;
+enum
+class
+CallerType
+:
+uint32_t
+;
 namespace
 ipc
 {

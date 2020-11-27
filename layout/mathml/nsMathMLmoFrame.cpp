@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsCSSValue
+.
+h
+"
+#
+include
+"
 nsMathMLmoFrame
 .
 h

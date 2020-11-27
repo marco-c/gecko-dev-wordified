@@ -190,6 +190,13 @@ h
 #
 include
 "
+nsIChannelEventSink
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h

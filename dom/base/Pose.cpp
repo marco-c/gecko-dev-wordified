@@ -133,6 +133,15 @@ include
 "
 mozilla
 /
+ErrorResult
+.
+h
+"
+#
+include
+"
+mozilla
+/
 HoldDropJSObjects
 .
 h

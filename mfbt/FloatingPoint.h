@@ -198,6 +198,11 @@ algorithm
 #
 include
 <
+climits
+>
+#
+include
+<
 limits
 >
 #

@@ -187,6 +187,13 @@ BackgroundParent
 .
 h
 "
+#
+include
+"
+xpcpublic
+.
+h
+"
 namespace
 mozilla
 {

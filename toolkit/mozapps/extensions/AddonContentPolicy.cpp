@@ -142,6 +142,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsContentPolicyUtils
 .
 h

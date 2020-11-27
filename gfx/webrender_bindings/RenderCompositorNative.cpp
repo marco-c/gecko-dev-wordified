@@ -178,6 +178,17 @@ mozilla
 /
 layers
 /
+NativeLayer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 SurfacePool
 .
 h

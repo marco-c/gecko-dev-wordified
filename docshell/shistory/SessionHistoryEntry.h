@@ -1601,6 +1601,9 @@ dom
 namespace
 ipc
 {
+class
+IProtocol
+;
 /
 /
 Allow

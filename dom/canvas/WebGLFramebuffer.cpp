@@ -169,6 +169,15 @@ h
 #
 include
 "
+mozilla
+/
+IntegerRange
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

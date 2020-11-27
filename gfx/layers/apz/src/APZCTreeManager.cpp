@@ -478,6 +478,17 @@ mozilla
 /
 layers
 /
+UiCompositorControllerParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 WebRenderScrollDataWrapper
 .
 h

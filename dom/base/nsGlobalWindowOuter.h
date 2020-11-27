@@ -496,6 +496,9 @@ class
 nsIControllers
 ;
 class
+nsIPrintSettings
+;
+class
 nsIScriptContext
 ;
 class
@@ -1726,6 +1729,9 @@ nsIContentSecurityPolicy
 *
 aCSP
 const
+mozilla
+:
+:
 Maybe
 <
 nsILoadInfo
@@ -5643,6 +5649,9 @@ GetInnerScreenRect
 )
 ;
 static
+mozilla
+:
+:
 Maybe
 <
 mozilla
@@ -6582,6 +6591,9 @@ nsIURI
 *
 *
 aCallerURI
+mozilla
+:
+:
 Maybe
 <
 nsID

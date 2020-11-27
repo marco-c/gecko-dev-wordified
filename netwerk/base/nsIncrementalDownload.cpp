@@ -212,6 +212,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

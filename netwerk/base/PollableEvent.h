@@ -136,6 +136,9 @@ TimeStamp
 .
 h
 "
+struct
+PRFileDesc
+;
 namespace
 mozilla
 {

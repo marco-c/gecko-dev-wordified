@@ -160,6 +160,13 @@ h
 #
 include
 "
+nsClassHashtable
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -210,6 +217,13 @@ h
 include
 "
 nsAppDirectoryServiceDefs
+.
+h
+"
+#
+include
+"
+nsIFile
 .
 h
 "

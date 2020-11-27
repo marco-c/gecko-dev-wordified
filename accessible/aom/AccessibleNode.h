@@ -165,6 +165,17 @@ mozilla
 /
 dom
 /
+DOMString
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Nullable
 .
 h

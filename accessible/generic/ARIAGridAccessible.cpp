@@ -142,6 +142,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsIPersistentProperties2
 .
 h

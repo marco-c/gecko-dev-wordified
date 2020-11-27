@@ -95,6 +95,13 @@ nsNetAddr
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 namespace
 mozilla
 {

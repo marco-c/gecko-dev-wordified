@@ -130,6 +130,13 @@ h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 IndexedDatabase
 .
 h

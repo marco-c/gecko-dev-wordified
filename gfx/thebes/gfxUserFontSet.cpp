@@ -208,6 +208,13 @@ gfxOTSUtils
 .
 h
 "
+#
+include
+"
+nsIFontLoadCompleteCallback
+.
+h
+"
 using
 namespace
 mozilla

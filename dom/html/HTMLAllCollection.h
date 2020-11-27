@@ -123,6 +123,15 @@ mozilla_dom_HTMLAllCollection_h
 #
 include
 "
+js
+/
+RootingAPI
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h

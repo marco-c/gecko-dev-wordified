@@ -167,6 +167,15 @@ h
 #
 include
 "
+mozilla
+/
+Encoding
+.
+h
+"
+#
+include
+"
 nsContentSecurityManager
 .
 h

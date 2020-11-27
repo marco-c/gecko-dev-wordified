@@ -291,6 +291,15 @@ LayersSurfaces
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ScopeExit
+.
+h
+"
 /
 *
 TODO

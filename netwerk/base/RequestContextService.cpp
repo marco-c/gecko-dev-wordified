@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIDocumentLoader
 .
 h

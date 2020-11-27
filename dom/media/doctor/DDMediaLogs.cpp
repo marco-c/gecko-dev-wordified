@@ -129,6 +129,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsIThreadManager
 .
 h

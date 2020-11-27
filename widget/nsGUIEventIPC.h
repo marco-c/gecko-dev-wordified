@@ -142,6 +142,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MiscEvents
 .
 h

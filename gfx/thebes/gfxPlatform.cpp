@@ -440,6 +440,13 @@ h
 #
 include
 "
+nsCSSProps
+.
+h
+"
+#
+include
+"
 gfxCrashReporterUtils
 .
 h
@@ -448,6 +455,13 @@ h
 include
 "
 gfxPlatform
+.
+h
+"
+#
+include
+"
+gfxBlur
 .
 h
 "

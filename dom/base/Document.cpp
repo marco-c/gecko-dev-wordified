@@ -1163,6 +1163,17 @@ mozilla
 /
 dom
 /
+PermissionMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 TreeOrderedArrayInlines
 .
 h

@@ -335,6 +335,13 @@ etc
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h

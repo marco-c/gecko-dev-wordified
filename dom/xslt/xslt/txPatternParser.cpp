@@ -149,6 +149,15 @@ txPatternOptimizer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
 using
 mozilla
 :

@@ -131,6 +131,15 @@ PWebAuthnTransaction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+MozPromise
+.
+h
+"
 /
 *
 *

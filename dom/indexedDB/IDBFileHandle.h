@@ -161,6 +161,17 @@ include
 "
 mozilla
 /
+dom
+/
+TypedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DOMEventTargetHelper
 .
 h

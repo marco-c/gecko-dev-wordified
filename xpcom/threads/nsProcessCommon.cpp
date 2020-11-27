@@ -319,6 +319,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsMemory
 .
 h
@@ -745,8 +752,9 @@ nsProcess
 nsProcess
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsProcess
 :

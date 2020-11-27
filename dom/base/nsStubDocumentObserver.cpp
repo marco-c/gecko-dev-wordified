@@ -167,6 +167,15 @@ nsStubDocumentObserver
 .
 h
 "
+#
+include
+"
+mozilla
+/
+EventStates
+.
+h
+"
 NS_IMPL_NSIDOCUMENTOBSERVER_CORE_STUB
 (
 nsStubDocumentObserver

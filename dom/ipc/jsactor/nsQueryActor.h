@@ -145,6 +145,12 @@ WindowGlobalChild
 .
 h
 "
+class
+nsIDOMProcessChild
+;
+class
+nsIDOMProcessParent
+;
 /
 /
 This

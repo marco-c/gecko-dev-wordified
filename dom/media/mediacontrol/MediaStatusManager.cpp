@@ -152,6 +152,13 @@ nsIXULAppInfo
 h
 "
 #
+include
+"
+nsNetUtil
+.
+h
+"
+#
 ifdef
 MOZ_PLACES
 #

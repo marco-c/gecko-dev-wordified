@@ -179,6 +179,13 @@ nsReadableUtils
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 extern
 mozilla
 :

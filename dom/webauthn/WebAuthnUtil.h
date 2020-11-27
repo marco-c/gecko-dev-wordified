@@ -137,6 +137,15 @@ U2FTokenManager
 #
 include
 "
+ipc
+/
+IPCMessageUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

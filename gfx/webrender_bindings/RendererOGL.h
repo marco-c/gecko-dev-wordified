@@ -125,6 +125,17 @@ include
 "
 mozilla
 /
+ipc
+/
+FileDescriptor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 CompositorTypes

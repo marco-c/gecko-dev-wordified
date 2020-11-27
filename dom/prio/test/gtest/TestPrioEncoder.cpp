@@ -151,6 +151,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 mprio
 .
 h

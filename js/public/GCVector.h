@@ -128,6 +128,15 @@ include
 "
 js
 /
+AllocPolicy
+.
+h
+"
+#
+include
+"
+js
+/
 GCPolicyAPI
 .
 h

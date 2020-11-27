@@ -115,6 +115,15 @@ include
 "
 mozilla
 /
+WeakPtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webgpu
 /
 WebGPUTypes

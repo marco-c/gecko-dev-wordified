@@ -181,6 +181,13 @@ h
 #
 include
 "
+nsIDOMEventListener
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -522,6 +529,9 @@ nsILoadGroup
 namespace
 mozilla
 {
+class
+ProfileChunkedBuffer
+;
 namespace
 dom
 {

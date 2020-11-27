@@ -130,6 +130,15 @@ include
 "
 mozilla
 /
+JSONWriter
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 FeaturePolicyBinding

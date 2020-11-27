@@ -183,6 +183,17 @@ gfx
 h
 "
 #
+include
+"
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
+#
 ifdef
 MOZ_X11
 #

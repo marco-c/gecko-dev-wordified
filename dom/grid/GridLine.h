@@ -152,6 +152,9 @@ nsWrapperCache
 .
 h
 "
+class
+nsAtom
+;
 namespace
 mozilla
 {

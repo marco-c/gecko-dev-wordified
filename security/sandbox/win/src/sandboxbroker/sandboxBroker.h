@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

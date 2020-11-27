@@ -278,6 +278,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIStreamLoader
 .
 h

@@ -136,6 +136,17 @@ mozilla
 /
 dom
 /
+TypedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 VRServiceTestBinding
 .
 h

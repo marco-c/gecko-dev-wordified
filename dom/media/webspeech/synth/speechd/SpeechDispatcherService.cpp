@@ -215,6 +215,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 prlink
 .
 h

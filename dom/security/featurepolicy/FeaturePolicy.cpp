@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Feature

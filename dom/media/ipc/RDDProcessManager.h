@@ -158,6 +158,13 @@ TaskFactory
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 namespace
 mozilla
 {

@@ -154,6 +154,17 @@ etc
 #
 include
 "
+mozilla
+/
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h

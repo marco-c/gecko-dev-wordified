@@ -189,6 +189,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 mozilla
 /
 a11y

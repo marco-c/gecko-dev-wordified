@@ -143,6 +143,17 @@ include
 "
 mozilla
 /
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h

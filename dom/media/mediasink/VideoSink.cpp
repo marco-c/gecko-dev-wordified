@@ -155,6 +155,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 MediaQueue
 .
 h

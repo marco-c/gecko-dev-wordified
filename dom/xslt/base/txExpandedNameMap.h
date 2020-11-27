@@ -111,6 +111,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
+#
+include
+"
 nsError
 .
 h

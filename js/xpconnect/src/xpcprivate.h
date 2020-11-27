@@ -830,6 +830,15 @@ include
 "
 mozilla
 /
+BasePrincipal
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CycleCollectedJSContext
 .
 h

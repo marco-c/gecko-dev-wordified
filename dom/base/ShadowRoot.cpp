@@ -262,6 +262,15 @@ include
 "
 mozilla
 /
+ScopeExit
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ServoStyleRuleMap
 .
 h

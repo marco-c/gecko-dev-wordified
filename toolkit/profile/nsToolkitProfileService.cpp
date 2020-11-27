@@ -113,6 +113,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+UniquePtrExtensions
+.
+h
+"
+#
+include
 <
 stdio
 .

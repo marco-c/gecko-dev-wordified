@@ -172,6 +172,13 @@ h
 #
 include
 "
+nsIDOMEventListener
+.
+h
+"
+#
+include
+"
 TimeUnits
 .
 h

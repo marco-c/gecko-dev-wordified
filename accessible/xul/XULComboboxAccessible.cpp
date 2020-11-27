@@ -147,6 +147,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
+#
+include
+"
 nsIDOMXULMenuListElement
 .
 h

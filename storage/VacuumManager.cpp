@@ -209,6 +209,13 @@ h
 #
 include
 "
+mozIStorageStatementCallback
+.
+h
+"
+#
+include
+"
 mozIStorageAsyncStatement
 .
 h

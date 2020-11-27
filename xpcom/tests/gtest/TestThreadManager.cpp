@@ -131,6 +131,13 @@ h
 #
 include
 "
+nsIThread
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h

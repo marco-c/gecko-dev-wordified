@@ -147,6 +147,13 @@ h
 #
 include
 "
+nsIFile
+.
+h
+"
+#
+include
+"
 nsIProperties
 .
 h

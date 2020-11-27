@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

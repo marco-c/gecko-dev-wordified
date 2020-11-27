@@ -118,6 +118,13 @@ nsIInterfaceRequestorUtils
 .
 h
 "
+#
+include
+"
+nsIRedirectResultListener
+.
+h
+"
 /
 /
 Change

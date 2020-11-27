@@ -156,6 +156,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h

@@ -123,6 +123,15 @@ CustomEvent_h__
 #
 include
 "
+js
+/
+Value
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

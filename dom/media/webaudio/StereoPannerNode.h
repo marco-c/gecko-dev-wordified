@@ -137,6 +137,15 @@ include
 "
 mozilla
 /
+RefCounted
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 StereoPannerNodeBinding

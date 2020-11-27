@@ -158,6 +158,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

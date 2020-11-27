@@ -681,6 +681,13 @@ MOZ_SANDBOX
 #
 include
 "
+XREChildData
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SandboxSettings

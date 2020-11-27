@@ -191,6 +191,15 @@ h
 #
 include
 "
+js
+/
+Value
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

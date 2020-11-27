@@ -116,6 +116,17 @@ MPL
 /
 #
 include
+"
+mozilla
+/
+dom
+/
+IdleDeadline
+.
+h
+"
+#
+include
 <
 algorithm
 >
@@ -126,7 +137,7 @@ mozilla
 /
 dom
 /
-IdleDeadline
+Document
 .
 h
 "

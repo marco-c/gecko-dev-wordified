@@ -135,6 +135,13 @@ nsSelectionAmount
 #
 include
 "
+nsISelectionController
+.
+h
+"
+#
+include
+"
 nsDirection
 .
 h

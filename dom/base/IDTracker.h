@@ -184,6 +184,15 @@ plstr
 h
 "
 class
+nsAtom
+;
+class
+nsIContent
+;
+class
+nsINode
+;
+class
 nsIURI
 ;
 class

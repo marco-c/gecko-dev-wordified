@@ -225,6 +225,17 @@ include
 "
 mozilla
 /
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 NeckoChild

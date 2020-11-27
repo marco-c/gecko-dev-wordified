@@ -309,6 +309,17 @@ include
 "
 mozilla
 /
+dom
+/
+Document
+.
+h
+"
+#
+include
+"
+mozilla
+/
 intl
 /
 OSPreferences

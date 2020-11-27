@@ -255,6 +255,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIObserver
 .
 h

@@ -125,6 +125,13 @@ Bootstrap
 h
 "
 #
+include
+"
+XREChildData
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

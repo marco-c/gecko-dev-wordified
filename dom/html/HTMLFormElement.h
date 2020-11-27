@@ -161,6 +161,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+PopupBlocker
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

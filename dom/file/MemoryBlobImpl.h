@@ -161,6 +161,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 nsICloneableInputStream
 .
 h

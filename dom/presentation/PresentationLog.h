@@ -140,6 +140,9 @@ cpp
 namespace
 mozilla
 {
+class
+LazyLogModule
+;
 namespace
 dom
 {

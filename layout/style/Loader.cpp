@@ -564,6 +564,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_dom
+.
+h
+"
+#
+include
+"
 ReferrerInfo
 .
 h

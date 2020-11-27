@@ -156,6 +156,15 @@ include
 "
 mozilla
 /
+Encoding
+.
+h
+"
+#
+include
+"
+mozilla
+/
 FloatingPoint
 .
 h

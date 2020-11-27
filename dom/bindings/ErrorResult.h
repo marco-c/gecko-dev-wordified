@@ -334,6 +334,15 @@ h
 #
 include
 "
+mozilla
+/
+Utf8
+.
+h
+"
+#
+include
+"
 nsISupportsImpl
 .
 h

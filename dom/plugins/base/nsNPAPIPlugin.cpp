@@ -393,6 +393,13 @@ h
 "
 #
 include
+"
+nsMemory
+.
+h
+"
+#
+include
 <
 prinrval
 .

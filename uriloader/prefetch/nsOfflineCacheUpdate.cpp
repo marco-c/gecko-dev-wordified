@@ -192,6 +192,13 @@ h
 #
 include
 "
+nsIHttpChannel
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

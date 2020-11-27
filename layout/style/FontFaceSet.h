@@ -174,6 +174,13 @@ nsICSSLoaderObserver
 .
 h
 "
+#
+include
+"
+nsIDOMEventListener
+.
+h
+"
 struct
 gfxFontFaceSrc
 ;

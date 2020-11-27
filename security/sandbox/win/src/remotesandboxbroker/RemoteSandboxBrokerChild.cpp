@@ -124,6 +124,17 @@ h
 #
 include
 "
+chrome
+/
+common
+/
+ipc_channel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
