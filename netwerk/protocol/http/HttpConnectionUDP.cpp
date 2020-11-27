@@ -554,10 +554,6 @@ mTotalBytesRead
 (
 0
 )
-mContentBytesWritten
-(
-0
-)
 mConnectedTransport
 (
 false
@@ -3892,11 +3888,6 @@ transactionBytes
 &
 again
 )
-;
-mContentBytesWritten
-+
-=
-transactionBytes
 ;
 return
 rv
