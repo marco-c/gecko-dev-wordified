@@ -211,7 +211,7 @@ aCharCode
 ;
 static
 bool
-HasFontTable
+FaceHasTable
 (
 mozilla
 :
@@ -227,7 +227,7 @@ aTableTag
 ;
 static
 nsresult
-CopyFontTable
+CopyFaceTable
 (
 mozilla
 :

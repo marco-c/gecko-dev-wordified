@@ -3231,7 +3231,7 @@ return
 gfxFT2FontEntryBase
 :
 :
-HasFontTable
+FaceHasTable
 (
 face
 aTableTag
@@ -3268,7 +3268,7 @@ return
 gfxFT2FontEntryBase
 :
 :
-CopyFontTable
+CopyFaceTable
 (
 face
 aTableTag
