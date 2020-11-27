@@ -752,6 +752,9 @@ ExperimentFakes
 waitForExperimentUpdate
 (
 ExperimentAPI
+{
+slug
+:
 "
 mochitest
 -
@@ -759,6 +762,7 @@ mochitest
 -
 aboutwelcome
 "
+}
 )
 ;
 ExperimentAPI
@@ -997,11 +1001,15 @@ ExperimentFakes
 waitForExperimentUpdate
 (
 ExperimentAPI
+{
+slug
+:
 "
 mochitest
 -
 aboutwelcome
 "
+}
 )
 ;
 ExperimentAPI
