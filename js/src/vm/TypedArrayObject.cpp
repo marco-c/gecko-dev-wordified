@@ -3456,7 +3456,7 @@ TypedArrayObject
 :
 :
 LENGTH_SLOT
-Int32Value
+PrivateValue
 (
 len
 )

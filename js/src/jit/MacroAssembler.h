@@ -27755,6 +27755,15 @@ Register
 output
 )
 ;
+void
+loadArrayBufferViewLengthInt32
+(
+Register
+obj
+Register
+output
+)
+;
 private
 :
 void

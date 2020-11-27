@@ -16109,9 +16109,12 @@ TypedArrayObject
 :
 :
 LENGTH_SLOT
-Int32Value
+PrivateValue
+(
+size_t
 (
 0
+)
 )
 )
 ;
@@ -16127,7 +16130,7 @@ TypedArrayObject
 :
 :
 LENGTH_SLOT
-Int32Value
+PrivateValue
 (
 count
 )

@@ -1693,10 +1693,13 @@ AssertedCast
 uint32_t
 >
 (
+size_t
+(
 lenSlot
 .
-toInt32
+toPrivate
 (
+)
 )
 )
 ;
