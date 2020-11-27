@@ -17839,7 +17839,10 @@ SetNeedLayoutFlush
 )
 )
 .
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 mStyleCause
 ;
 UniqueProfilerBacktrace
