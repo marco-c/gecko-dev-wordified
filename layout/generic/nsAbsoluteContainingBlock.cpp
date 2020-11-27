@@ -6315,13 +6315,7 @@ kidDesiredSize
 .
 Size
 (
-wm
-)
-.
-ConvertTo
-(
 outerWM
-wm
 )
 ;
 LogicalMargin

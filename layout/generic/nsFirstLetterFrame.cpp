@@ -1386,13 +1386,7 @@ kidMetrics
 .
 Size
 (
-lineWM
-)
-.
-ConvertTo
-(
 wm
-lineWM
 )
 ;
 kid
