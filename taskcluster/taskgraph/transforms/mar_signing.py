@@ -97,12 +97,8 @@ util
 .
 attributes
 import
-(
-    
 copy_attributes_from_dependent_job
-    
 sorted_unique_list
-)
 from
 taskgraph
 .
@@ -153,7 +149,7 @@ SIGNING_FORMATS
 =
 {
     
-"
+'
 mar
 -
 signing
@@ -161,44 +157,44 @@ signing
 autograph
 -
 stage
-"
+'
 :
 {
         
-"
+'
 target
 .
 complete
 .
 mar
-"
+'
 :
 [
-"
+'
 autograph_stage_mar384
-"
+'
 ]
     
 }
     
-"
+'
 default
-"
+'
 :
 {
         
-"
+'
 target
 .
 complete
 .
 mar
-"
+'
 :
 [
-"
+'
 autograph_hash_only_mar384
-"
+'
 ]
     
 }
@@ -233,13 +229,13 @@ locale
         
 artifact_prefix
 =
-"
+'
 {
 }
 /
 {
 }
-"
+'
 .
 format
 (
@@ -252,11 +248,11 @@ else
         
 locale
 =
-"
+'
 en
 -
 US
-"
+'
     
 artifacts
 =
@@ -270,9 +266,8 @@ locale
 upstream_artifacts
 =
 [
-        
 {
-            
+        
 "
 taskId
 "
@@ -284,27 +279,27 @@ task
 reference
 "
 :
-"
+'
 <
 partials
 >
-"
+'
 }
-            
+        
 "
 taskType
 "
 :
-"
+'
 partials
-"
-            
+'
+        
 "
 paths
 "
 :
 [
-                
+            
 "
 {
 }
@@ -318,13 +313,13 @@ format
 artifact_prefix
 path
 )
-                
+            
 for
 path
 version
 in
 artifacts
-                
+            
 #
 TODO
 Use
@@ -340,15 +335,15 @@ Otherwise
 Firefox
 100
 will
-                
-#
 be
+            
+#
 considered
 smaller
 than
 Firefox
 56
-                
+            
 if
 version
 is
@@ -357,12 +352,12 @@ or
 version
 >
 =
-"
+'
 56
-"
-            
+'
+        
 ]
-            
+        
 "
 formats
 "
@@ -372,9 +367,8 @@ formats
 autograph_hash_only_mar384
 "
 ]
-        
-}
     
+}
 ]
     
 old_mar_upstream_artifacts
@@ -392,20 +386,20 @@ task
 reference
 "
 :
-"
+'
 <
 partials
 >
-"
+'
 }
         
 "
 taskType
 "
 :
-"
+'
 partials
-"
+'
         
 "
 paths
@@ -465,9 +459,9 @@ None
 and
 version
 <
-"
+'
 56
-"
+'
         
 ]
         
@@ -523,9 +517,9 @@ SIGNING_FORMATS
         
 kind
 =
-"
+'
 default
-"
+'
     
 for
 artifact
@@ -559,9 +553,8 @@ upstream_artifacts
 .
 append
 (
-                
 {
-                    
+                
 "
 taskId
 "
@@ -573,12 +566,12 @@ task
 reference
 "
 :
-"
+'
 <
 {
 }
 >
-"
+'
 .
 format
 (
@@ -587,15 +580,15 @@ job
 kind
 )
 }
-                    
+                
 "
 taskType
 "
 :
-"
+'
 build
-"
-                    
+'
+                
 "
 paths
 "
@@ -603,7 +596,7 @@ paths
 [
 artifact
 ]
-                    
+                
 "
 formats
 "
@@ -615,9 +608,8 @@ kind
 [
 basename
 ]
-                
-}
             
+}
 )
     
 return
@@ -643,11 +635,11 @@ dep_job
 =
 job
 [
-"
+'
 primary
 -
 dependency
-"
+'
 ]
         
 locale
@@ -658,9 +650,9 @@ attributes
 .
 get
 (
-"
+'
 locale
-"
+'
 )
         
 treeherder
@@ -676,29 +668,29 @@ treeherder
 setdefault
 (
             
-"
+'
 symbol
-"
+'
 join_symbol
 (
 job
 .
 get
 (
-"
+'
 treeherder
 -
 group
-"
-"
+'
+'
 ms
-"
+'
 )
 locale
 or
-"
+'
 N
-"
+'
 )
         
 )
@@ -709,9 +701,9 @@ job
 .
 get
 (
-"
+'
 label
-"
+'
 "
 {
 }
@@ -787,9 +779,9 @@ dep_job
         
 attributes
 [
-"
+'
 required_signoffs
-"
+'
 ]
 =
 sorted_unique_list
@@ -799,37 +791,38 @@ attributes
 .
 get
 (
-"
+'
 required_signoffs
-"
+'
 [
 ]
 )
+            
 job
 .
 pop
 (
-"
+'
 required_signoffs
-"
+'
 )
         
 )
         
 attributes
 [
-"
+'
 shipping_phase
-"
+'
 ]
 =
 job
 [
-"
+'
 shipping
 -
 phase
-"
+'
 ]
         
 if
@@ -838,9 +831,9 @@ locale
             
 attributes
 [
-"
+'
 locale
-"
+'
 ]
 =
 locale
@@ -851,9 +844,9 @@ attributes
 .
 get
 (
-"
+'
 build_platform
-"
+'
 )
         
 if
@@ -862,11 +855,11 @@ config
 kind
 =
 =
-"
+'
 partials
 -
 signing
-"
+'
 :
             
 upstream_artifacts
@@ -879,13 +872,12 @@ config
 .
 params
 [
-"
+'
 release_history
-"
+'
 ]
 build_platform
 locale
-            
 )
         
 else
@@ -908,25 +900,26 @@ job
 get
 (
             
-"
+'
 shippable
-"
+'
+#
+First
+check
+current
+job
+            
 dep_job
 .
 attributes
 .
 get
 (
-"
+                
+'
 shippable
-"
+'
 )
-#
-First
-check
-current
-job
-        
 )
 #
 Then
@@ -958,15 +951,15 @@ task
 =
 {
             
-"
+'
 label
-"
+'
 :
 label
             
-"
+'
 description
-"
+'
 :
 "
 {
@@ -983,127 +976,123 @@ dep_job
 description
 job
 [
-"
+'
 description
 -
 suffix
-"
+'
 ]
-            
 )
             
-"
+'
 worker
 -
 type
-"
+'
 :
 job
 .
 get
 (
-"
+'
 worker
 -
 type
-"
-"
+'
+'
 linux
 -
 signing
-"
+'
 )
             
-"
+'
 worker
-"
+'
 :
 {
-                
-"
+'
 implementation
-"
+'
 :
-"
+'
 scriptworker
 -
 signing
-"
-                
-"
+'
+                       
+'
 upstream
 -
 artifacts
-"
+'
 :
 upstream_artifacts
-                
-"
+                       
+'
 max
 -
 run
 -
 time
-"
+'
 :
 3600
-            
 }
             
-"
+'
 dependencies
-"
+'
 :
 dependencies
             
-"
+'
 attributes
-"
+'
 :
 attributes
             
-"
+'
 scopes
-"
+'
 :
 scopes
             
-"
+'
 run
 -
 on
 -
 projects
-"
+'
 :
 job
 .
 get
 (
-                
-"
+'
 run
 -
 on
 -
 projects
-"
+'
+                                       
 dep_job
 .
 attributes
 .
 get
 (
-"
+'
 run_on_projects
-"
+'
+)
 )
             
-)
-            
-"
+'
 treeherder
-"
+'
 :
 treeherder
         

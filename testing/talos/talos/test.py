@@ -188,9 +188,9 @@ alert_threshold
     
 perfherder_framework
 =
-"
+'
 talos
-"
+'
     
 subtest_alerts
 =
@@ -347,9 +347,9 @@ retval
 =
 [
 (
-"
+'
 name
-"
+'
 self
 .
 name
@@ -462,13 +462,13 @@ lines
 .
 append
 (
-"
+'
 %
 s
 :
 %
 s
-"
+'
 %
 (
 key
@@ -477,10 +477,10 @@ value
 )
         
 return
-"
+'
 \
 n
-"
+'
 .
 join
 (
@@ -547,25 +547,25 @@ keys
 =
 [
         
-"
+'
 url
-"
+'
         
-"
+'
 url_timestamp
-"
+'
         
-"
+'
 timeout
-"
+'
         
-"
+'
 cycles
-"
+'
         
-"
+'
 profile_path
-"
+'
 #
 The
 path
@@ -575,7 +575,7 @@ template
 profile
 .
 This
-        
+                         
 #
 directory
 is
@@ -585,7 +585,7 @@ the
 temporary
 profile
 during
-        
+                         
 #
 initialization
 of
@@ -598,7 +598,7 @@ of
 the
 files
 may
-        
+                         
 #
 be
 overwritten
@@ -609,7 +609,7 @@ need
 to
 be
 reinstalled
-        
+                         
 #
 before
 each
@@ -620,105 +620,105 @@ key
 reinstall
 |
         
-"
+'
 gecko_profile
-"
+'
         
-"
+'
 gecko_profile_interval
-"
+'
         
-"
+'
 gecko_profile_entries
-"
+'
         
-"
+'
 gecko_profile_startup
-"
+'
         
-"
+'
 preferences
-"
+'
         
-"
+'
 xperf_counters
-"
+'
         
-"
+'
 xperf_providers
-"
+'
         
-"
+'
 xperf_user_providers
-"
+'
         
-"
+'
 xperf_stackwalk
-"
+'
         
-"
+'
 tpmozafterpaint
-"
+'
         
-"
+'
 fnbpaint
-"
+'
         
-"
+'
 tphero
-"
+'
         
-"
+'
 tpmanifest
-"
+'
         
-"
+'
 profile
-"
+'
         
-"
+'
 firstpaint
-"
+'
         
-"
+'
 userready
-"
+'
         
-"
+'
 testeventmap
-"
+'
         
-"
+'
 base_vs_ref
-"
+'
         
-"
+'
 extensions
-"
+'
         
-"
+'
 filters
-"
+'
         
-"
+'
 setup
-"
+'
         
-"
+'
 cleanup
-"
+'
         
-"
+'
 webextensions
-"
+'
         
-"
+'
 webextensions_folder
-"
+'
         
-"
+'
 reinstall
-"
+'
 #
 A
 list
@@ -729,7 +729,7 @@ the
 profile
 directory
 that
-        
+                         
 #
 should
 be
@@ -740,7 +740,7 @@ temporary
 profile
 prior
 to
-        
+                         
 #
 running
 each
@@ -750,7 +750,7 @@ avoid
 one
 cycle
 overwriting
-        
+                         
 #
 the
 data
@@ -764,7 +764,7 @@ cycle
 may
 be
 used
-        
+                         
 #
 e
 .
@@ -779,7 +779,7 @@ ensure
 that
 all
 cycles
-        
+                         
 #
 use
 the
@@ -791,7 +791,7 @@ js
 rather
 than
 a
-        
+                         
 #
 more
 recent
@@ -879,7 +879,7 @@ self
 preferences
 =
 {
-                
+              
 BLOCKLIST_PREF
 :
 True
@@ -974,13 +974,13 @@ gecko_profile_entries
     
 url
 =
-"
+'
 startup_test
 /
 tspaint_test
 .
 html
-"
+'
     
 xperf_counters
 =
@@ -1025,9 +1025,9 @@ False
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -1040,7 +1040,7 @@ ts_paint
     
 webextensions
 =
-"
+'
 {
 talos
 }
@@ -1052,18 +1052,18 @@ dummy
 dummy
 .
 xpi
-"
+'
     
 preferences
 =
 {
-"
+'
 xpinstall
 .
 signatures
 .
 required
-"
+'
 :
 False
 }
@@ -1097,9 +1097,9 @@ profile
     
 profile
 =
-"
+'
 simple
-"
+'
 register_test
 (
 )
@@ -1113,7 +1113,7 @@ ts_paint
 preferences
 =
 {
-"
+'
 layout
 .
 css
@@ -1127,7 +1127,7 @@ box
 with
 -
 flex
-"
+'
 :
 True
 }
@@ -1190,7 +1190,7 @@ cycles
 extensions
 =
 [
-"
+'
 {
 talos
 }
@@ -1200,12 +1200,12 @@ startup_test
 startup_about_home_paint
 /
 addon
-"
+'
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -1217,13 +1217,13 @@ startup_about_home_paint
 startup_about_home_paint
 .
 manifest
-"
+'
     
 preferences
 =
 {
         
-"
+'
 browser
 .
 startup
@@ -1233,7 +1233,7 @@ homepage
 abouthome_cache
 .
 enabled
-"
+'
 :
 False
     
@@ -1285,7 +1285,7 @@ cycles
 extensions
 =
 [
-"
+'
 {
 talos
 }
@@ -1295,12 +1295,12 @@ startup_test
 startup_about_home_paint
 /
 addon
-"
+'
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -1312,13 +1312,13 @@ startup_about_home_paint
 startup_about_home_paint
 .
 manifest
-"
+'
     
 preferences
 =
 {
         
-"
+'
 browser
 .
 startup
@@ -1328,7 +1328,7 @@ homepage
 abouthome_cache
 .
 enabled
-"
+'
 :
 True
     
@@ -1355,7 +1355,7 @@ extensions
 =
 [
         
-"
+'
 {
 talos
 }
@@ -1365,21 +1365,21 @@ startup_test
 startup_about_home_paint
 /
 addon
-"
+'
         
-"
+'
 {
 talos
 }
 /
 getinfooffline
-"
+'
     
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -1391,17 +1391,17 @@ startup_about_home_paint
 startup_about_home_paint
 .
 manifest
-"
+'
     
 webextensions_folder
 =
-"
+'
 {
 talos
 }
 /
 webextensions
-"
+'
 register_test
 (
 )
@@ -1474,7 +1474,7 @@ sessionRestored
 extensions
 =
 [
-"
+'
 {
 talos
 }
@@ -1484,7 +1484,7 @@ startup_test
 sessionrestore
 /
 addon
-"
+'
 ]
     
 cycles
@@ -1505,7 +1505,7 @@ gecko_profile_entries
     
 profile_path
 =
-"
+'
 {
 talos
 }
@@ -1515,26 +1515,26 @@ startup_test
 sessionrestore
 /
 profile
-"
+'
     
 reinstall
 =
 [
-"
+'
 sessionstore
 .
 jsonlz4
-"
-"
+'
+'
 sessionstore
 .
 js
-"
-"
+'
+'
 sessionCheckpoints
 .
 json
-"
+'
 ]
     
 #
@@ -1561,31 +1561,31 @@ URL
     
 url
 =
-"
+'
 about
 :
 home
-"
+'
     
 preferences
 =
 {
-"
+'
 browser
 .
 startup
 .
 page
-"
+'
 :
 3
 }
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -1661,23 +1661,23 @@ preferences
 =
 {
         
-"
+'
 browser
 .
 startup
 .
 page
-"
+'
 :
 1
         
-"
+'
 talos
 .
 sessionrestore
 .
 norestore
-"
+'
 :
 True
     
@@ -1752,7 +1752,7 @@ sessionRestored
     
 profile_path
 =
-"
+'
 {
 talos
 }
@@ -1764,7 +1764,7 @@ sessionrestore
 profile
 -
 manywindows
-"
+'
 #
 pageloader
 tests
@@ -1858,13 +1858,13 @@ test
 extensions
 =
 [
-"
+'
 {
 talos
 }
 /
 pageloader
-"
+'
 ]
     
 tpmanifest
@@ -1897,203 +1897,163 @@ None
 keys
 =
 [
-        
-"
+'
 tpmanifest
-"
-        
-"
+'
+'
 tpcycles
-"
-        
-"
+'
+'
 tppagecycles
-"
-        
-"
+'
+'
 tprender
-"
-        
-"
+'
+'
 tpchrome
-"
-        
-"
+'
+            
+'
 tpmozafterpaint
-"
-        
-"
+'
+'
 fnbpaint
-"
-        
-"
+'
+'
 tphero
-"
-        
-"
+'
+'
 tploadnocache
-"
-        
-"
+'
+'
 firstpaint
-"
-        
-"
+'
+            
+'
 userready
-"
-        
-"
+'
+'
 testeventmap
-"
-        
-"
+'
+'
 base_vs_ref
-"
-        
-"
+'
+'
 mainthread
-"
-        
-"
+'
+'
 resolution
-"
-        
-"
+'
+            
+'
 cycles
-"
-        
-"
+'
+'
 gecko_profile
-"
-        
-"
+'
+'
 gecko_profile_interval
-"
-        
-"
+'
+'
 gecko_profile_entries
-"
-        
-"
+'
+            
+'
 tptimeout
-"
-        
-"
+'
+'
 win_counters
-"
-        
-"
+'
+'
 w7_counters
-"
-        
-"
+'
+'
 linux_counters
-"
-        
-"
+'
+'
 mac_counters
-"
-        
-"
+'
+            
+'
 tpscrolltest
-"
-        
-"
+'
+'
 xperf_counters
-"
-        
-"
+'
+'
 timeout
-"
-        
-"
+'
+'
 responsiveness
-"
-        
-"
+'
+            
+'
 profile_path
-"
-        
-"
+'
+'
 xperf_providers
-"
-        
-"
+'
+'
 xperf_user_providers
-"
-        
-"
+'
+'
 xperf_stackwalk
-"
-        
-"
+'
+            
+'
 format_pagename
-"
-        
-"
+'
+'
 filters
-"
-        
-"
+'
+'
 preferences
-"
-        
-"
+'
+'
 extensions
-"
-        
-"
+'
+'
 setup
-"
-        
-"
+'
+'
 cleanup
-"
-        
-"
+'
+            
+'
 lower_is_better
-"
-        
-"
+'
+'
 alert_threshold
-"
-        
-"
+'
+'
 unit
-"
-        
-"
+'
+'
 webextensions
-"
-        
-"
+'
+'
 profile
-"
-        
-"
+'
+            
+'
 suite_should_alert
-"
-        
-"
+'
+'
 subtest_alerts
-"
-        
-"
+'
+'
 perfherder_framework
-"
-        
-"
+'
+'
 pdfpaint
-"
-        
-"
+'
+            
+'
 webextensions_folder
-"
-        
-"
+'
+'
 a11y
-"
-    
+'
 ]
 class
 QuantumPageloadTest
@@ -2155,9 +2115,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
     
 lower_is_better
 =
@@ -2237,14 +2197,14 @@ performance
 extensions
 =
 [
-"
+'
 {
 talos
 }
 /
 pageloader
-"
-"
+'
+'
 {
 talos
 }
@@ -2252,12 +2212,12 @@ talos
 tests
 /
 twinopen
-"
+'
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -2269,7 +2229,7 @@ twinopen
 twinopen
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -2312,26 +2272,28 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
     
 preferences
 =
 {
-"
+        
+'
 browser
 .
 startup
 .
 homepage
-"
+'
 :
-"
+'
 about
 :
 blank
-"
+'
+    
 }
 register_test
 (
@@ -2374,7 +2336,7 @@ rendered
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -2386,7 +2348,7 @@ pdfpaint
 pdfpaint
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -2402,20 +2364,22 @@ True
     
 unit
 =
-"
+'
 ms
-"
+'
     
 preferences
 =
 {
-"
+        
+'
 pdfjs
 .
 eventBusDispatchToDOM
-"
+'
 :
 True
+    
 }
 register_test
 (
@@ -2471,14 +2435,14 @@ load
 extensions
 =
 [
-"
+'
 {
 talos
 }
 /
 pageloader
-"
-"
+'
+'
 {
 talos
 }
@@ -2488,12 +2452,12 @@ tests
 cpstartup
 /
 extension
-"
+'
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -2505,7 +2469,7 @@ cpstartup
 cpstartup
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -2521,9 +2485,9 @@ True
     
 unit
 =
-"
+'
 ms
-"
+'
     
 preferences
 =
@@ -2601,17 +2565,17 @@ open_newwindow
 .
 restriction
         
-"
+'
 browser
 .
 link
 .
 open_newwindow
-"
+'
 :
 3
         
-"
+'
 browser
 .
 link
@@ -2619,7 +2583,7 @@ link
 open_newwindow
 .
 restriction
-"
+'
 :
 2
     
@@ -2669,7 +2633,7 @@ process
 extensions
 =
 [
-"
+'
 {
 talos
 }
@@ -2677,19 +2641,19 @@ talos
 tests
 /
 tabpaint
-"
-"
+'
+'
 {
 talos
 }
 /
 pageloader
-"
+'
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -2701,7 +2665,7 @@ tabpaint
 tabpaint
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -2717,9 +2681,9 @@ True
     
 unit
 =
-"
+'
 ms
-"
+'
     
 preferences
 =
@@ -2797,17 +2761,17 @@ open_newwindow
 .
 restriction
         
-"
+'
 browser
 .
 link
 .
 open_newwindow
-"
+'
 :
 3
         
-"
+'
 browser
 .
 link
@@ -2815,17 +2779,17 @@ link
 open_newwindow
 .
 restriction
-"
+'
 :
 2
         
-"
+'
 browser
 .
 newtab
 .
 preload
-"
+'
 :
 False
     
@@ -2863,7 +2827,7 @@ tabs
 extensions
 =
 [
-"
+'
 {
 talos
 }
@@ -2871,19 +2835,19 @@ talos
 tests
 /
 tabswitch
-"
-"
+'
+'
 {
 talos
 }
 /
 pageloader
-"
+'
 ]
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -2895,7 +2859,7 @@ tabswitch
 tabswitch
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -2913,7 +2877,7 @@ preferences
 =
 {
         
-"
+'
 addon
 .
 test
@@ -2921,7 +2885,7 @@ test
 tabswitch
 .
 urlfile
-"
+'
 :
 os
 .
@@ -2929,22 +2893,24 @@ path
 .
 join
 (
-"
+'
 {
 talos
 }
-"
-"
+'
+                                                     
+'
 tests
-"
-"
+'
+                                                     
+'
 tp5o
 .
 html
-"
+'
 )
         
-"
+'
 addon
 .
 test
@@ -2952,15 +2918,15 @@ test
 tabswitch
 .
 webserver
-"
+'
 :
-"
+'
 {
 webserver
 }
-"
+'
         
-"
+'
 addon
 .
 test
@@ -2968,7 +2934,7 @@ test
 tabswitch
 .
 maxurls
-"
+'
 :
 -
 1
@@ -2977,9 +2943,9 @@ maxurls
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -3232,7 +3198,7 @@ intervals
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -3244,19 +3210,19 @@ tart
 tart
 .
 manifest
-"
+'
     
 extensions
 =
 [
-"
+'
 {
 talos
 }
 /
 pageloader
-"
-"
+'
+'
 {
 talos
 }
@@ -3266,7 +3232,7 @@ tests
 tart
 /
 addon
-"
+'
 ]
     
 tpcycles
@@ -3369,31 +3335,29 @@ False
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 filters
@@ -3417,9 +3381,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -3433,7 +3397,7 @@ tart
 preferences
 =
 {
-"
+'
 layout
 .
 css
@@ -3447,7 +3411,7 @@ box
 with
 -
 flex
-"
+'
 :
 True
 }
@@ -3501,7 +3465,7 @@ page
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -3513,19 +3477,19 @@ devtools
 damp
 .
 manifest
-"
+'
     
 extensions
 =
 [
-"
+'
 {
 talos
 }
 /
 pageloader
-"
-"
+'
+'
 {
 talos
 }
@@ -3535,7 +3499,7 @@ tests
 devtools
 /
 addon
-"
+'
 ]
     
 cycles
@@ -3598,22 +3562,22 @@ prepare
 preferences
 =
 {
-"
+'
 devtools
 .
 memory
 .
 enabled
-"
+'
 :
 True
 }
     
 unit
 =
-"
+'
 ms
-"
+'
     
 subtest_alerts
 =
@@ -3621,9 +3585,9 @@ True
     
 perfherder_framework
 =
-"
+'
 devtools
-"
+'
 register_test
 (
 )
@@ -3698,7 +3662,7 @@ name
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -3710,7 +3674,7 @@ webgl
 glterrain
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -3762,31 +3726,29 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 filters
@@ -3810,10 +3772,10 @@ prepare
     
 unit
 =
-"
+'
 frame
 interval
-"
+'
 register_test
 (
 )
@@ -3869,7 +3831,7 @@ setTimeout
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -3881,7 +3843,7 @@ webgl
 glvideo
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -3942,9 +3904,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -4040,7 +4002,7 @@ resolution
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -4052,7 +4014,7 @@ tp5n
 tp5n
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -4101,122 +4063,112 @@ mac_counters
 xperf_counters
 =
 [
-        
-"
+'
 main_startup_fileio
-"
-        
-"
+'
+'
 main_startup_netio
-"
-        
-"
+'
+                      
+'
 main_normal_fileio
-"
-        
-"
+'
+'
 main_normal_netio
-"
-        
-"
+'
+                      
+'
 nonmain_startup_fileio
-"
-        
-"
+'
+'
 nonmain_normal_fileio
-"
-        
-"
+'
+                      
+'
 nonmain_normal_netio
-"
-        
-"
+'
+'
 mainthread_readcount
-"
-        
-"
+'
+                      
+'
 mainthread_readbytes
-"
-        
-"
+'
+'
 mainthread_writecount
-"
-        
-"
+'
+                      
+'
 mainthread_writebytes
-"
-        
-"
+'
+                      
+'
 time_to_session_store_window_restored_ms
-"
-    
+'
+                      
 ]
     
 xperf_providers
 =
 [
-        
-"
+'
 PROC_THREAD
-"
-        
-"
+'
+'
 LOADER
-"
-        
-"
+'
+'
 HARD_FAULTS
-"
-        
-"
+'
+'
 FILENAME
-"
-        
-"
+'
+                       
+'
 FILE_IO
-"
-        
-"
+'
+'
 FILE_IO_INIT
-"
-    
+'
 ]
     
 xperf_user_providers
 =
 [
-"
+'
 Mozilla
 Generic
 Provider
-"
-"
+'
+                            
+'
 Microsoft
 -
 Windows
 -
 TCPIP
-"
+'
 ]
     
 xperf_stackwalk
 =
 [
-"
+'
 FileCreate
-"
-"
+'
+'
 FileRead
-"
-"
+'
+'
 FileWrite
-"
-"
+'
+'
 FileFlush
-"
-"
+'
+                       
+'
 FileClose
-"
+'
 ]
     
 filters
@@ -4244,7 +4196,7 @@ timeout
     
 setup
 =
-"
+'
 {
 talos
 }
@@ -4263,11 +4215,11 @@ talos
 bcontroller
 .
 json
-"
+'
     
 cleanup
 =
-"
+'
 {
 talos
 }
@@ -4286,40 +4238,38 @@ talos
 bcontroller
 .
 json
-"
+'
     
 preferences
 =
 {
-        
-"
+'
 extensions
 .
 enabledScopes
-"
+'
 :
-"
-"
-        
-"
+'
+'
+                   
+'
 talos
 .
 logfile
-"
+'
 :
-"
+'
 browser_output
 .
 txt
-"
-    
+'
 }
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -4378,7 +4328,7 @@ False
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -4390,34 +4340,34 @@ tp5n
 tp5o
 .
 manifest
-"
+'
     
 win_counters
 =
 [
-"
+'
 %
 Processor
 Time
-"
+'
 ]
     
 w7_counters
 =
 [
-"
+'
 %
 Processor
 Time
-"
+'
 ]
     
 linux_counters
 =
 [
-"
+'
 XRes
-"
+'
 ]
     
 mac_counters
@@ -4462,9 +4412,9 @@ timeout
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -4477,7 +4427,7 @@ tp5o
     
 webextensions
 =
-"
+'
 {
 talos
 }
@@ -4489,18 +4439,18 @@ dummy
 dummy
 .
 xpi
-"
+'
     
 preferences
 =
 {
-"
+'
 xpinstall
 .
 signatures
 .
 required
-"
+'
 :
 False
 }
@@ -4540,7 +4490,7 @@ pageset
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -4552,7 +4502,7 @@ tp5n
 tp5o
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -4590,42 +4540,41 @@ False
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 True
-        
-"
+                   
+'
 apz
 .
 paint_skipping
 .
 enabled
-"
+'
 :
 False
-        
-"
+                   
+'
 layout
 .
 css
@@ -4637,24 +4586,23 @@ behavior
 spring
 -
 constant
-"
+'
 :
 "
 '
 10
 '
 "
-        
-"
+                   
+'
 toolkit
 .
 framesRecording
 .
 bufferSize
-"
+'
 :
 10000
-    
 }
     
 filters
@@ -4678,11 +4626,11 @@ prepare
     
 unit
 =
-"
+'
 1
 /
 FPS
-"
+'
 register_test
 (
 )
@@ -4752,7 +4700,7 @@ systems
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -4764,7 +4712,7 @@ v8_7
 v8
 .
 manifest
-"
+'
     
 gecko_profile_interval
 =
@@ -4789,11 +4737,11 @@ False
 preferences
 =
 {
-"
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
 }
@@ -4810,9 +4758,9 @@ prepare
     
 unit
 =
-"
+'
 score
-"
+'
     
 lower_is_better
 =
@@ -4860,7 +4808,7 @@ harness
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -4872,7 +4820,7 @@ kraken
 kraken
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -4901,11 +4849,11 @@ False
 preferences
 =
 {
-"
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
 }
@@ -4922,9 +4870,9 @@ prepare
     
 unit
 =
-"
+'
 score
-"
+'
 register_test
 (
 )
@@ -4948,7 +4896,7 @@ test
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -4960,7 +4908,7 @@ video
 video
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -4989,8 +4937,7 @@ gecko_profile_entries
 preferences
 =
 {
-        
-"
+'
 full
 -
 screen
@@ -5004,11 +4951,11 @@ trusted
 requests
 -
 only
-"
+'
 :
 False
-        
-"
+                   
+'
 layers
 .
 acceleration
@@ -5016,47 +4963,47 @@ acceleration
 force
 -
 enabled
-"
+'
 :
 False
-        
-"
+                   
+'
 layers
 .
 acceleration
 .
 disabled
-"
+'
 :
 True
-        
-"
+                   
+'
 gfx
 .
 webrender
 .
 software
-"
+'
 :
 True
-        
-"
+                   
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 full
 -
 screen
@@ -5066,11 +5013,11 @@ api
 warning
 .
 timeout
-"
+'
 :
 500
-        
-"
+                   
+'
 media
 .
 ruin
@@ -5080,10 +5027,9 @@ av
 sync
 .
 enabled
-"
+'
 :
 True
-    
 }
     
 filters
@@ -5107,11 +5053,11 @@ prepare
     
 unit
 =
-"
+'
 ms
 /
 frame
-"
+'
     
 lower_is_better
 =
@@ -5234,7 +5180,7 @@ gecko_profile_entries
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5246,13 +5192,13 @@ dromaeo
 css
 .
 manifest
-"
+'
     
 unit
 =
-"
+'
 score
-"
+'
 register_test
 (
 )
@@ -5328,7 +5274,7 @@ gecko_profile_entries
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5340,13 +5286,13 @@ dromaeo
 dom
 .
 manifest
-"
+'
     
 unit
 =
-"
+'
 score
-"
+'
 register_test
 (
 )
@@ -5375,7 +5321,7 @@ thing
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5387,19 +5333,19 @@ tresize
 tresize
 .
 manifest
-"
+'
     
 extensions
 =
 [
-"
+'
 {
 talos
 }
 /
 pageloader
-"
-"
+'
+'
 {
 talos
 }
@@ -5409,7 +5355,7 @@ tests
 tresize
 /
 addon
-"
+'
 ]
     
 tppagecycles
@@ -5453,9 +5399,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -5493,7 +5439,7 @@ only
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5505,7 +5451,7 @@ svgx
 svgm
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -5543,31 +5489,29 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 filters
@@ -5591,9 +5535,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -5631,7 +5575,7 @@ only
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5643,7 +5587,7 @@ svgx
 svgx
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -5681,31 +5625,29 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 filters
@@ -5729,9 +5671,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -5769,7 +5711,7 @@ only
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5781,7 +5723,7 @@ svg_static
 svg_static
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -5828,9 +5770,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -5863,7 +5805,7 @@ performance
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5875,7 +5817,7 @@ svg_opacity
 svg_opacity
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -5922,9 +5864,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -5953,7 +5895,7 @@ thing
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -5965,7 +5907,7 @@ scroll
 scroll
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -6003,42 +5945,41 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 True
-        
-"
+                   
+'
 apz
 .
 paint_skipping
 .
 enabled
-"
+'
 :
 False
-        
-"
+                   
+'
 layout
 .
 css
@@ -6050,24 +5991,23 @@ behavior
 spring
 -
 constant
-"
+'
 :
 "
 '
 10
 '
 "
-        
-"
+                   
+'
 toolkit
 .
 framesRecording
 .
 bufferSize
-"
+'
 :
 10000
-    
 }
     
 filters
@@ -6091,9 +6031,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -6130,7 +6070,7 @@ regressions
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6142,7 +6082,7 @@ a11y
 a11y
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -6163,20 +6103,20 @@ False
 preferences
 =
 {
-"
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
 }
     
 unit
 =
-"
+'
 ms
-"
+'
     
 alert_threshold
 =
@@ -6220,9 +6160,9 @@ False
     
 unit
 =
-"
+'
 score
-"
+'
 register_test
 (
 )
@@ -6248,7 +6188,7 @@ webkit
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6260,7 +6200,7 @@ stylebench
 stylebench
 .
 manifest
-"
+'
 register_test
 (
 )
@@ -6286,7 +6226,7 @@ webkit
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6298,7 +6238,7 @@ motionmark
 animometer
 .
 manifest
-"
+'
 register_test
 (
 )
@@ -6324,7 +6264,7 @@ webkit
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6336,13 +6276,13 @@ motionmark
 webgl
 .
 manifest
-"
+'
     
 unit
 =
-"
+'
 fps
-"
+'
 register_test
 (
 )
@@ -6370,7 +6310,7 @@ webkit
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6382,7 +6322,7 @@ ares6
 ares6
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -6416,7 +6356,7 @@ webkit
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6428,7 +6368,7 @@ motionmark
 htmlsuite
 .
 manifest
-"
+'
 register_test
 (
 )
@@ -6454,7 +6394,7 @@ webkit
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6466,7 +6406,7 @@ jetstream
 jetstream
 .
 manifest
-"
+'
     
 tppagecycles
 =
@@ -6511,8 +6451,6 @@ pages
     
 base_vs_ref
 =
-(
-        
 True
 #
 compare
@@ -6526,11 +6464,9 @@ and
 report
 comparison
     
-)
-    
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6544,7 +6480,7 @@ reftest
 perf_reftest
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -6587,9 +6523,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
     
 lower_is_better
 =
@@ -6633,9 +6569,7 @@ tests
     
 tpmanifest
 =
-(
-        
-"
+'
 {
 talos
 }
@@ -6651,9 +6585,7 @@ singletons
 perf_reftest_singletons
 .
 manifest
-"
-    
-)
+'
     
 tpcycles
 =
@@ -6696,9 +6628,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
     
 lower_is_better
 =
@@ -6756,7 +6688,7 @@ compositor
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6768,7 +6700,7 @@ layout
 displaylist_mutate
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -6839,38 +6771,36 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -6910,7 +6840,7 @@ compositor
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -6922,7 +6852,7 @@ gfx
 rasterflood_svg
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -6993,38 +6923,36 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 unit
 =
-"
+'
 ms
-"
+'
 register_test
 (
 )
@@ -7056,7 +6984,7 @@ busy
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -7068,7 +6996,7 @@ gfx
 rasterflood_gradient
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -7139,31 +7067,29 @@ mode
 preferences
 =
 {
-        
-"
+'
 layout
 .
 frame_rate
-"
+'
 :
 0
-        
-"
+                   
+'
 docshell
 .
 event_starvation_delay_hint
-"
+'
 :
 1
-        
-"
+                   
+'
 dom
 .
 send_after_paint_to_content
-"
+'
 :
 False
-    
 }
     
 lower_is_better
@@ -7172,9 +7098,9 @@ False
     
 unit
 =
-"
+'
 score
-"
+'
 register_test
 (
 )
@@ -7201,7 +7127,7 @@ test
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -7215,7 +7141,7 @@ preferences
 about_preferences_basic
 .
 manifest
-"
+'
     
 #
 this
@@ -7314,9 +7240,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
     
 lower_is_better
 =
@@ -7361,7 +7287,7 @@ enabled
     
 tpmanifest
 =
-"
+'
 {
 talos
 }
@@ -7375,7 +7301,7 @@ newtab
 about_newtab
 .
 manifest
-"
+'
     
 tpcycles
 =
@@ -7418,9 +7344,9 @@ prepare
     
 unit
 =
-"
+'
 ms
-"
+'
     
 lower_is_better
 =
@@ -7433,7 +7359,7 @@ True
 preferences
 =
 {
-        
+            
 #
 ensure
 that
@@ -7446,8 +7372,8 @@ load
 the
 json
 messages
-        
-"
+            
+'
 browser
 .
 newtabpage
@@ -7461,8 +7387,10 @@ asrouter
 providers
 .
 snippets
-"
+'
 :
+\
+            
 '
 {
 "
@@ -7516,8 +7444,8 @@ updateCycleInMs
 14400000
 }
 '
-        
-"
+            
+'
 browser
 .
 newtabpage
@@ -7529,11 +7457,11 @@ stream
 feeds
 .
 snippets
-"
+'
 :
 True
-        
-"
+            
+'
 browser
 .
 newtabpage
@@ -7547,11 +7475,11 @@ feeds
 system
 .
 topstories
-"
+'
 :
 True
-        
-"
+            
+'
 browser
 .
 newtabpage
@@ -7565,11 +7493,11 @@ feeds
 section
 .
 topstories
-"
+'
 :
 True
-        
-"
+            
+'
 browser
 .
 newtabpage
@@ -7585,8 +7513,10 @@ section
 topstories
 .
 options
-"
+'
 :
+\
+            
 '
 {
 "
@@ -7597,12 +7527,8 @@ provider_name
 "
 }
 '
-#
-NOQA
-:
-E501
-        
-"
+            
+'
 browser
 .
 newtabpage
@@ -7614,17 +7540,17 @@ stream
 discoverystream
 .
 endpoints
-"
+'
 :
-"
+'
 http
 :
 /
 /
 fakedomain
-"
-        
-"
+'
+            
+'
 browser
 .
 newtabpage
@@ -7636,8 +7562,10 @@ stream
 discoverystream
 .
 config
-"
+'
 :
+\
+            
 '
 {
 "
@@ -7705,5 +7633,5 @@ json
 "
 }
 '
-    
+            
 }

@@ -426,17 +426,15 @@ subprocess
 .
 Popen
 (
-        
 [
 util
 ]
 +
 args
-        
 env
 =
 env
-        
+                            
 stdin
 =
 subprocess
@@ -446,15 +444,14 @@ if
 inputdata
 else
 None
-        
+                            
 stdout
 =
 outputstream
-        
+                            
 universal_newlines
 =
 True
-    
 )
     
 proc
@@ -511,7 +508,6 @@ locations
 =
 ServerLocations
 (
-        
 os
 .
 path
@@ -521,12 +517,14 @@ join
 build
 .
 topsrcdir
+                                             
 "
 build
 "
 "
 pgo
 "
+                                             
 "
 server
 -
@@ -535,7 +533,6 @@ locations
 txt
 "
 )
-    
 )
     
 SAN
@@ -547,7 +544,6 @@ for
 loc
 in
 [
-        
 i
 for
 i
@@ -574,7 +570,6 @@ in
 i
 .
 options
-    
 ]
 :
         
@@ -670,7 +665,6 @@ fd
 .
 write
 (
-        
 "
 issuer
 :
@@ -695,12 +689,11 @@ Optimization
 \
 n
 "
+)
 #
 NOQA
 :
 E501
-    
-)
     
 fd
 .
@@ -795,7 +788,7 @@ e
         
 print
 (
-"
+'
 {
 }
 \
@@ -806,7 +799,7 @@ n
 }
 \
 n
-"
+'
 .
 format
 (
@@ -839,7 +832,6 @@ path
 .
 join
 (
-        
 build
 .
 topsrcdir
@@ -855,6 +847,7 @@ ssl
 "
 tests
 "
+                          
 "
 unit
 "
@@ -863,7 +856,6 @@ pycert
 .
 py
 "
-    
 )
     
 pykey
@@ -874,7 +866,6 @@ path
 .
 join
 (
-        
 build
 .
 topsrcdir
@@ -890,6 +881,7 @@ ssl
 "
 tests
 "
+                         
 "
 unit
 "
@@ -898,7 +890,6 @@ pykey
 .
 py
 "
-    
 )
     
 with
@@ -991,7 +982,6 @@ for
 spec
 in
 [
-                
 i
 for
 i
@@ -1017,7 +1007,6 @@ endswith
 keyspec
 "
 )
-            
 ]
 :
                 
@@ -1034,6 +1023,7 @@ join
 root
 spec
 )
+                                
 os
 .
 path
@@ -1111,7 +1101,6 @@ format
 (
 pgoserver_certspec
 )
-            
 )
         
 with
@@ -1289,7 +1278,6 @@ certspec_data
 outputstream
 =
 pem_file
-                        
 )
                         
 if
@@ -1303,57 +1291,45 @@ status
 =
 runUtil
 (
-                    
 certutil
-                    
 [
-                        
+                                 
 "
 -
 A
 "
-                        
 "
 -
 n
 "
-                        
 name
-                        
 "
 -
 t
 "
-                        
 "
 P
 "
-                        
 "
 -
 i
 "
-                        
 pem
-                        
+                                 
 "
 -
 d
 "
-                        
 srcDir
-                        
 "
 -
 f
 "
-                        
 pwfile
 .
 name
-                    
+                                 
 ]
-                
 )
                 
 if
@@ -1430,7 +1406,6 @@ server
 raise
 Exception
 (
-                        
 "
 {
 }
@@ -1448,7 +1423,7 @@ client
 .
 keyspec
 "
-                        
+                                    
 "
 or
 XXX
@@ -1466,10 +1441,10 @@ key_type
 .
 format
 (
+                                        
 keyspec
 key_type
 )
-                    
 )
                 
 key_pem
@@ -1573,7 +1548,6 @@ keyspec_data
 outputstream
 =
 pem_file
-                        
 )
                         
 if
@@ -1622,7 +1596,6 @@ cert_pem
 raise
 Exception
 (
-                        
 "
 There
 has
@@ -1636,7 +1609,7 @@ named
 }
 for
 "
-                        
+                                    
 "
 the
 keyspec
@@ -1646,10 +1619,10 @@ keyspec
 .
 format
 (
+                                        
 cert_pem
 keyspec
 )
-                    
 )
                 
 p12
@@ -1678,7 +1651,6 @@ name
                 
 print
 (
-                    
 "
 Converting
 private
@@ -1697,63 +1669,51 @@ p12
 .
 format
 (
+                    
 key_pem
 p12
 )
-                
 )
                 
 status
 =
 runUtil
 (
-                    
 openssl
-                    
 [
-                        
 "
 pkcs12
 "
-                        
 "
 -
 export
 "
-                        
 "
 -
 inkey
 "
-                        
 key_pem
-                        
 "
 -
 in
 "
-                        
+                                           
 cert_pem
-                        
 "
 -
 name
 "
-                        
 name
-                        
 "
 -
 out
 "
-                        
 p12
-                        
 "
 -
 passout
 "
-                        
+                                           
 "
 file
 :
@@ -1762,9 +1722,7 @@ file
 pwfile
 .
 name
-                    
 ]
-                
 )
                 
 if
@@ -1798,7 +1756,6 @@ runUtil
 (
                     
 pk12util
-                    
 [
 "
 -
@@ -1825,7 +1782,6 @@ pwfile
 .
 name
 ]
-                
 )
                 
 if
@@ -1848,7 +1804,6 @@ shutil
 .
 copyfile
 (
-                        
 cert_pem
 os
 .
@@ -1856,6 +1811,7 @@ path
 .
 join
 (
+                        
 srcDir
 "
 {
@@ -1869,7 +1825,6 @@ format
 name
 )
 )
-                    
 )
                 
 elif
@@ -1892,6 +1847,7 @@ path
 .
 join
 (
+                        
 srcDir
 "
 {
@@ -1948,7 +1904,6 @@ format
 (
 key_type
 )
-                    
 )
     
 return

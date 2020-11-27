@@ -104,17 +104,17 @@ BUILDCONFIG
 =
 {
     
-"
+'
 topobjdir
-"
+'
 :
 buildconfig
 .
 topobjdir
     
-"
+'
 MOZ_APP_NAME
-"
+'
 :
 buildconfig
 .
@@ -122,17 +122,17 @@ substs
 .
 get
 (
-"
+'
 MOZ_APP_NAME
-"
-"
+'
+'
 nightly
-"
+'
 )
     
-"
+'
 OMNIJAR_NAME
-"
+'
 :
 buildconfig
 .
@@ -140,19 +140,19 @@ substs
 .
 get
 (
-"
+'
 OMNIJAR_NAME
-"
-"
+'
+'
 omni
 .
 ja
-"
+'
 )
     
-"
+'
 MOZ_MACBUNDLE_NAME
-"
+'
 :
 buildconfig
 .
@@ -160,14 +160,14 @@ substs
 .
 get
 (
-"
+'
 MOZ_MACBUNDLE_NAME
-"
-"
+'
+'
 Nightly
 .
 app
-"
+'
 )
 }
 basic_file
@@ -553,6 +553,8 @@ end_of_record
 "
 class
 TempFile
+(
+)
 :
     
 def
@@ -571,19 +573,19 @@ NamedTemporaryFile
 (
 mode
 =
-"
+'
 w
-"
+'
 delete
 =
 False
 encoding
 =
-"
+'
 utf
 -
 8
-"
+'
 )
         
 self
@@ -969,13 +971,13 @@ join
 buildconfig
 .
 topobjdir
-"
+'
 chrome
 -
 map
 .
 json
-"
+'
 )
         
 self
@@ -1006,7 +1008,7 @@ join
 buildconfig
 .
 topobjdir
-"
+'
 chrome
 -
 map
@@ -1014,7 +1016,7 @@ map
 backup
 .
 json
-"
+'
 )
             
 self
@@ -1043,13 +1045,10 @@ empty_chrome_info
             
 {
 }
-            
 {
 }
-            
 {
 }
-            
 BUILDCONFIG
         
 ]
@@ -1058,9 +1057,9 @@ with
 open
 (
 chrome_map_file
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -1083,10 +1082,10 @@ lcov_rewriter
 LcovFileRewriter
 (
 chrome_map_file
-"
-"
-"
-"
+'
+'
+'
+'
 [
 ]
 )
@@ -1149,12 +1148,12 @@ chrome_map
 generate_pp_info
 (
 fname
-"
+'
 /
 src
 /
 dir
-"
+'
 )
         
 expected
@@ -1167,11 +1166,11 @@ expected
 "
 :
 (
-"
+'
 foo
 .
 js
-"
+'
 1
 )
             
@@ -1181,13 +1180,13 @@ js
 "
 :
 (
-"
+'
 path
 /
 bar
 .
 js
-"
+'
 2
 )
             
@@ -1197,11 +1196,11 @@ js
 "
 :
 (
-"
+'
 foo
 .
 js
-"
+'
 3
 )
             
@@ -1211,13 +1210,13 @@ js
 "
 :
 (
-"
+'
 path
 /
 bar
 .
 js
-"
+'
 2
 )
             
@@ -1227,13 +1226,13 @@ js
 "
 :
 (
-"
+'
 path2
 /
 test
 .
 js
-"
+'
 3
 )
             
@@ -1243,13 +1242,13 @@ js
 "
 :
 (
-"
+'
 path
 /
 baz
 .
 js
-"
+'
 1
 )
             
@@ -1259,11 +1258,11 @@ js
 "
 :
 (
-"
+'
 f
 .
 js
-"
+'
 6
 )
         
@@ -1300,12 +1299,12 @@ chrome_map
 generate_pp_info
 (
 fname
-"
+'
 /
 src
 /
 dir
-"
+'
 )
         
 expected
@@ -1318,11 +1317,11 @@ expected
 "
 :
 (
-"
+'
 foo
 .
 js
-"
+'
 1
 )
             
@@ -1332,13 +1331,13 @@ js
 "
 :
 (
-"
+'
 path
 /
 file
 .
 js
-"
+'
 2
 )
             
@@ -1348,11 +1347,11 @@ js
 "
 :
 (
-"
+'
 foo
 .
 js
-"
+'
 3
 )
         
@@ -1383,11 +1382,11 @@ pp_remap
 "
 :
 (
-"
+'
 dropPreview
 .
 js
-"
+'
 6
 )
             
@@ -1397,11 +1396,11 @@ js
 "
 :
 (
-"
+'
 updater
 .
 js
-"
+'
 6
 )
             
@@ -1411,11 +1410,11 @@ js
 "
 :
 (
-"
+'
 intro
 .
 js
-"
+'
 6
 )
             
@@ -1425,11 +1424,11 @@ js
 "
 :
 (
-"
+'
 undo
 .
 js
-"
+'
 6
 )
             
@@ -1439,11 +1438,11 @@ js
 "
 :
 (
-"
+'
 cells
 .
 js
-"
+'
 6
 )
             
@@ -1453,11 +1452,11 @@ js
 "
 :
 (
-"
+'
 search
 .
 js
-"
+'
 6
 )
             
@@ -1467,11 +1466,11 @@ js
 "
 :
 (
-"
+'
 drop
 .
 js
-"
+'
 6
 )
             
@@ -1481,11 +1480,11 @@ js
 "
 :
 (
-"
+'
 customize
 .
 js
-"
+'
 6
 )
             
@@ -1495,11 +1494,11 @@ js
 "
 :
 (
-"
+'
 dropTargetShim
 .
 js
-"
+'
 6
 )
             
@@ -1509,11 +1508,11 @@ js
 "
 :
 (
-"
+'
 drag
 .
 js
-"
+'
 6
 )
             
@@ -1523,11 +1522,11 @@ js
 "
 :
 (
-"
+'
 dragDataHelper
 .
 js
-"
+'
 6
 )
             
@@ -1537,11 +1536,11 @@ js
 "
 :
 (
-"
+'
 page
 .
 js
-"
+'
 141
 )
             
@@ -1551,11 +1550,11 @@ js
 "
 :
 (
-"
+'
 newTab
 .
 js
-"
+'
 70
 )
             
@@ -1565,11 +1564,11 @@ js
 "
 :
 (
-"
+'
 transformations
 .
 js
-"
+'
 6
 )
             
@@ -1579,11 +1578,11 @@ js
 "
 :
 (
-"
+'
 grid
 .
 js
-"
+'
 6
 )
             
@@ -1593,11 +1592,11 @@ js
 "
 :
 (
-"
+'
 page
 .
 js
-"
+'
 6
 )
             
@@ -1607,11 +1606,11 @@ js
 "
 :
 (
-"
+'
 sites
 .
 js
-"
+'
 6
 )
         
@@ -1626,11 +1625,11 @@ path
 join
 (
 here
-"
+'
 sample_lcov
 .
 info
-"
+'
 )
         
 #
@@ -1843,7 +1842,6 @@ fname
 records
 =
 [
-                
 lcov_file
 .
 parse_record
@@ -1860,7 +1858,6 @@ lcov_file
 iterate_records
 (
 )
-            
 ]
         
 self
@@ -1896,6 +1893,7 @@ self
 assertEqual
 (
 original_line_count
+                         
 sum
 (
 r
@@ -1912,8 +1910,8 @@ self
 .
 assertEqual
 (
-            
 original_covered_line_count
+                         
 sum
 (
 r
@@ -1924,15 +1922,14 @@ r
 in
 records
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 original_function_count
+                         
 sum
 (
 r
@@ -1943,16 +1940,14 @@ r
 in
 records
 )
-        
 )
         
 self
 .
 assertEqual
 (
-            
 original_covered_function_count
-            
+                         
 sum
 (
 r
@@ -1963,7 +1958,6 @@ r
 in
 records
 )
-        
 )
 class
 TestUrlFinder
@@ -1992,13 +1986,13 @@ join
 buildconfig
 .
 topobjdir
-"
+'
 chrome
 -
 map
 .
 json
-"
+'
 )
         
 self
@@ -2029,7 +2023,7 @@ join
 buildconfig
 .
 topobjdir
-"
+'
 chrome
 -
 map
@@ -2037,7 +2031,7 @@ map
 backup
 .
 json
-"
+'
 )
             
 self
@@ -2066,7 +2060,7 @@ dummy_chrome_info
             
 {
                 
-"
+'
 resource
 :
 /
@@ -2075,11 +2069,11 @@ activity
 -
 stream
 /
-"
+'
 :
 [
                     
-"
+'
 dist
 /
 bin
@@ -2095,11 +2089,11 @@ res
 activity
 -
 stream
-"
+'
                 
 ]
                 
-"
+'
 chrome
 :
 /
@@ -2108,11 +2102,11 @@ browser
 /
 content
 /
-"
+'
 :
 [
                     
-"
+'
 dist
 /
 bin
@@ -2126,7 +2120,7 @@ browser
 content
 /
 browser
-"
+'
                 
 ]
             
@@ -2134,7 +2128,7 @@ browser
             
 {
                 
-"
+'
 chrome
 :
 /
@@ -2146,9 +2140,10 @@ content
 netError
 .
 xhtml
-"
+'
 :
-"
+                    
+'
 chrome
 :
 /
@@ -2160,17 +2155,13 @@ content
 aboutNetError
 .
 xhtml
-"
-#
-NOQA
-:
-E501
+'
             
 }
             
 {
                 
-"
+'
 dist
 /
 bin
@@ -2180,16 +2171,19 @@ components
 MainProcessSingleton
 .
 js
-"
+'
 :
 [
-"
+                    
+'
 path1
-"
+'
+                    
 None
+                
 ]
                 
-"
+'
 dist
 /
 bin
@@ -2206,19 +2200,19 @@ com
 bootstrap
 .
 js
-"
+'
 :
 [
                     
-"
+'
 path4
-"
+'
                     
 None
                 
 ]
                 
-"
+'
 dist
 /
 bin
@@ -2230,11 +2224,11 @@ osfile
 osfile_async_worker
 .
 js
-"
+'
 :
 [
                     
-"
+'
 toolkit
 /
 components
@@ -2246,13 +2240,13 @@ modules
 osfile_async_worker
 .
 js
-"
+'
                     
 None
                 
 ]
                 
-"
+'
 dist
 /
 bin
@@ -2271,11 +2265,11 @@ stream
 /
 lib
 /
-"
+'
 :
 [
                     
-"
+'
 browser
 /
 components
@@ -2285,13 +2279,13 @@ newtab
 lib
 /
 *
-"
+'
                     
 None
                 
 ]
                 
-"
+'
 dist
 /
 bin
@@ -2309,11 +2303,11 @@ browser
 aboutNetError
 .
 xhtml
-"
+'
 :
 [
                     
-"
+'
 browser
 /
 base
@@ -2323,13 +2317,13 @@ content
 aboutNetError
 .
 xhtml
-"
+'
                     
 None
                 
 ]
                 
-"
+'
 dist
 /
 bin
@@ -2339,11 +2333,11 @@ modules
 AppConstants
 .
 jsm
-"
+'
 :
 [
                     
-"
+'
 toolkit
 /
 modules
@@ -2351,17 +2345,18 @@ modules
 AppConstants
 .
 jsm
-"
+'
                     
 {
                         
-"
+'
 101
 102
-"
+'
 :
 [
-"
+                            
+'
 toolkit
 /
 modules
@@ -2369,8 +2364,10 @@ modules
 AppConstants
 .
 jsm
-"
+'
+                            
 135
+                        
 ]
                     
 }
@@ -2387,9 +2384,9 @@ with
 open
 (
 chrome_map_file
-"
+'
 w
-"
+'
 )
 as
 fh
@@ -2439,18 +2436,18 @@ app_name
 =
 BUILDCONFIG
 [
-"
+'
 MOZ_APP_NAME
-"
+'
 ]
         
 omnijar_name
 =
 BUILDCONFIG
 [
-"
+'
 OMNIJAR_NAME
-"
+'
 ]
         
 paths
@@ -2458,8 +2455,7 @@ paths
 [
             
 (
-                
-"
+'
 jar
 :
 file
@@ -2477,21 +2473,18 @@ build
 /
 application
 /
-"
-                
+'
 +
 app_name
-                
 +
-"
+             
+'
 /
-"
-                
+'
 +
 omnijar_name
-                
 +
-"
+'
 !
 /
 components
@@ -2499,17 +2492,14 @@ components
 MainProcessSingleton
 .
 js
-"
-                
-"
+'
+'
 path1
-"
-            
+'
 )
             
 (
-                
-"
+'
 jar
 :
 file
@@ -2527,13 +2517,12 @@ build
 /
 application
 /
-"
-                
+'
 +
 app_name
-                
 +
-"
+             
+'
 /
 browser
 /
@@ -2550,12 +2539,10 @@ xpi
 bootstrap
 .
 js
-"
-                
-"
+'
+'
 path4
-"
-            
+'
 )
         
 ]
@@ -2569,10 +2556,10 @@ UrlFinder
 self
 .
 _chrome_map_file
-"
-"
-"
-"
+'
+'
+'
+'
 [
 ]
 )
@@ -2611,7 +2598,7 @@ paths
 =
 [
             
-"
+'
 http
 :
 /
@@ -2625,9 +2612,9 @@ org
 aFile
 .
 js
-"
+'
             
-"
+'
 https
 :
 /
@@ -2641,25 +2628,25 @@ org
 aFile
 .
 js
-"
+'
             
-"
+'
 data
 :
 something
-"
+'
             
-"
+'
 about
 :
 newtab
-"
+'
             
-"
+'
 javascript
 :
 something
-"
+'
         
 ]
         
@@ -2672,10 +2659,10 @@ UrlFinder
 self
 .
 _chrome_map_file
-"
-"
-"
-"
+'
+'
+'
+'
 [
 ]
 )
@@ -2717,8 +2704,7 @@ url
 prefix
             
 (
-                
-"
+'
 resource
 :
 /
@@ -2732,10 +2718,10 @@ osfile
 osfile_async_worker
 .
 js
-"
-                
+'
+             
 (
-"
+'
 toolkit
 /
 components
@@ -2747,10 +2733,9 @@ modules
 osfile_async_worker
 .
 js
-"
+'
 None
 )
-            
 )
             
 #
@@ -2765,8 +2750,7 @@ chrome
 map
             
 (
-                
-"
+'
 resource
 :
 /
@@ -2780,10 +2764,10 @@ lib
 PrefsFeed
 .
 jsm
-"
-                
+'
+             
 (
-"
+'
 browser
 /
 components
@@ -2795,10 +2779,9 @@ lib
 PrefsFeed
 .
 jsm
-"
+'
 None
 )
-            
 )
             
 #
@@ -2810,8 +2793,7 @@ url
 overrides
             
 (
-                
-"
+'
 chrome
 :
 /
@@ -2823,10 +2805,10 @@ content
 netError
 .
 xhtml
-"
-                
+'
+             
 (
-"
+'
 browser
 /
 base
@@ -2836,10 +2818,9 @@ content
 aboutNetError
 .
 xhtml
-"
+'
 None
 )
-            
 )
             
 #
@@ -2851,8 +2832,7 @@ with
 eval
             
 (
-                
-"
+'
 resource
 :
 /
@@ -2870,10 +2850,8 @@ line
 3
 >
 eval
-"
-                
+'
 None
-            
 )
             
 #
@@ -2885,8 +2863,7 @@ with
 Function
             
 (
-                
-"
+'
 resource
 :
 /
@@ -2904,10 +2881,8 @@ line
 3
 >
 Function
-"
-                
+'
 None
-            
 )
             
 #
@@ -2920,8 +2895,7 @@ contains
 "
             
 (
-                
-"
+'
 resource
 :
 /
@@ -2950,12 +2924,12 @@ osfile
 osfile_async_worker
 .
 js
-"
+'
 #
 noqa
-                
+             
 (
-"
+'
 toolkit
 /
 components
@@ -2967,10 +2941,9 @@ modules
 osfile_async_worker
 .
 js
-"
+'
 None
 )
-            
 )
             
 #
@@ -2979,8 +2952,7 @@ with
 pp_info
             
 (
-                
-"
+'
 resource
 :
 /
@@ -2992,11 +2964,9 @@ modules
 AppConstants
 .
 jsm
-"
-                
+'
 (
-                    
-"
+'
 toolkit
 /
 modules
@@ -3004,17 +2974,17 @@ modules
 AppConstants
 .
 jsm
-"
-                    
+'
 {
-                        
-"
+                
+'
 101
 102
-"
+'
 :
 [
-"
+                    
+'
 toolkit
 /
 modules
@@ -3022,14 +2992,14 @@ modules
 AppConstants
 .
 jsm
-"
-135
-]
+'
                     
-}
+135
                 
-)
+]
             
+}
+)
 )
             
 #
@@ -3038,8 +3008,7 @@ with
 query
             
 (
-                
-"
+'
 resource
 :
 /
@@ -3059,10 +3028,10 @@ q
 0
 .
 9098419174803978
-"
-                
+'
+             
 (
-"
+'
 browser
 /
 components
@@ -3074,10 +3043,9 @@ lib
 PrefsFeed
 .
 jsm
-"
+'
 None
 )
-            
 )
         
 ]
@@ -3091,14 +3059,14 @@ UrlFinder
 self
 .
 _chrome_map_file
-"
-"
-"
+'
+'
+'
 dist
 /
 bin
 /
-"
+'
 [
 ]
 )
@@ -3126,9 +3094,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 mozunit
