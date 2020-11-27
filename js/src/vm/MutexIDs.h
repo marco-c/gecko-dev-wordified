@@ -439,6 +439,12 @@ _
 VTuneLock
 600
 )
+\
+_
+(
+ShellTelemetry
+600
+)
 namespace
 js
 {
