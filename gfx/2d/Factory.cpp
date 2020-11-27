@@ -1554,6 +1554,18 @@ Config
 aConfig
 )
 ;
+#
+ifdef
+XP_DARWIN
+NativeFontResourceMac
+:
+:
+RegisterMemoryReporter
+(
+)
+;
+#
+else
 NativeFontResource
 :
 :
@@ -1561,6 +1573,8 @@ RegisterMemoryReporter
 (
 )
 ;
+#
+endif
 }
 void
 Factory
