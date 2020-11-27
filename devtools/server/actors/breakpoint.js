@@ -934,7 +934,7 @@ this
 .
 threadActor
 .
-skipBreakpoints
+skipBreakpointsOption
 )
 {
 return
