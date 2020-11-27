@@ -124,6 +124,13 @@ h
 #
 include
 "
+UDPSocket
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Unused

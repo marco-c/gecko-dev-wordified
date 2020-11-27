@@ -156,6 +156,13 @@ h
 #
 include
 "
+TCPSocketParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
