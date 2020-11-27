@@ -36617,14 +36617,14 @@ passed
 in
 registers
 .
-if
+MOZ_ASSERT
 (
 argument_count
 >
 =
 1
 )
-{
+;
 set_register
 (
 r0
@@ -36635,7 +36635,6 @@ int32_t
 )
 )
 ;
-}
 if
 (
 argument_count

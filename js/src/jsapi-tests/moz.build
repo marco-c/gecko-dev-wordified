@@ -809,11 +809,6 @@ testJitRValueAlloc
 .
 cpp
 "
-"
-testsJit
-.
-cpp
-"
 ]
 if
 CONFIG
