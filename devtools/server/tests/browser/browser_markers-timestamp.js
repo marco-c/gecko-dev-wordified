@@ -51,8 +51,7 @@ strict
 const
 {
 pmmConsoleMethod
-pmmLoadFrameScripts
-pmmClearFrameScripts
+pmmInitWithBrowser
 }
 =
 require
@@ -133,7 +132,7 @@ true
 }
 )
 ;
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )
@@ -342,10 +341,6 @@ have
 correct
 causeName
 "
-)
-;
-pmmClearFrameScripts
-(
 )
 ;
 await

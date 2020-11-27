@@ -73,7 +73,7 @@ strict
 const
 {
 pmmIsProfilerActive
-pmmLoadFrameScripts
+pmmInitWithBrowser
 }
 =
 require
@@ -132,7 +132,7 @@ performance
 "
 )
 ;
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )

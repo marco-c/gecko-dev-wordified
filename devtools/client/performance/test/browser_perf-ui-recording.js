@@ -55,9 +55,8 @@ UI
 /
 const
 {
-pmmLoadFrameScripts
+pmmInitWithBrowser
 pmmIsProfilerActive
-pmmClearFrameScripts
 }
 =
 require
@@ -176,7 +175,7 @@ window
 }
 )
 ;
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )
@@ -265,10 +264,6 @@ await
 teardownToolboxAndRemoveTab
 (
 panel
-)
-;
-pmmClearFrameScripts
-(
 )
 ;
 }

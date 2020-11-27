@@ -67,7 +67,6 @@ strict
 const
 {
 pmmIsProfilerActive
-pmmLoadFrameScripts
 }
 =
 require
@@ -126,11 +125,6 @@ performance
 "
 )
 ;
-pmmLoadFrameScripts
-(
-gBrowser
-)
-;
 await
 firstFront
 .
@@ -171,11 +165,6 @@ secondFront
 .
 connect
 (
-)
-;
-pmmLoadFrameScripts
-(
-gBrowser
 )
 ;
 await

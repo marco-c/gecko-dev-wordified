@@ -104,9 +104,8 @@ prefs
 ;
 const
 {
-pmmLoadFrameScripts
+pmmInitWithBrowser
 pmmStopProfiler
-pmmClearFrameScripts
 }
 =
 require
@@ -251,7 +250,7 @@ new
 buffer
 limit
 .
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )
@@ -546,10 +545,6 @@ await
 teardownToolboxAndRemoveTab
 (
 panel
-)
-;
-pmmClearFrameScripts
-(
 )
 ;
 }

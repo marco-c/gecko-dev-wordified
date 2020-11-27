@@ -99,8 +99,7 @@ const
 {
 pmmIsProfilerActive
 pmmStartProfiler
-pmmLoadFrameScripts
-pmmClearFrameScripts
+pmmInitWithBrowser
 }
 =
 require
@@ -144,7 +143,7 @@ the
 test
 starts
 .
-pmmLoadFrameScripts
+pmmInitWithBrowser
 (
 gBrowser
 )
@@ -327,10 +326,6 @@ automatically
 stopped
 .
 "
-)
-;
-pmmClearFrameScripts
-(
 )
 ;
 gBrowser
