@@ -9607,7 +9607,7 @@ test
 let
 result
 =
-yield
+await
 Promise
 .
 resolve
