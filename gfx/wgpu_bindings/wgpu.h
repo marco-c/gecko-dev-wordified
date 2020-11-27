@@ -146,9 +146,6 @@ WGPU_INLINE
 #
 define
 WGPU_FUNC
-#
-define
-WGPU_DESTRUCTOR_SAFE_FUNC
 extern
 "
 C
@@ -168,9 +165,6 @@ WGPU_INLINE
 #
 undef
 WGPU_FUNC
-#
-undef
-WGPU_DESTRUCTOR_SAFE_FUNC
 }
 /
 /
