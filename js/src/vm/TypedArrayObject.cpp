@@ -3019,7 +3019,9 @@ get
 (
 )
 <
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 /
 BYTES_PER_ELEMENT
 )
@@ -3735,7 +3737,9 @@ len
 )
 >
 =
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 /
 BYTES_PER_ELEMENT
 )
@@ -5204,7 +5208,9 @@ if
 len
 >
 =
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 /
 BYTES_PER_ELEMENT
 )
@@ -5948,7 +5954,9 @@ if
 count
 >
 =
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 /
 BYTES_PER_ELEMENT
 )
@@ -5983,7 +5991,9 @@ get
 (
 )
 <
-MAX_BYTE_LENGTH
+maxByteLength
+(
+)
 )
 ;
 static_assert
