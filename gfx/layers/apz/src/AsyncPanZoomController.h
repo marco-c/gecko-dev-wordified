@@ -11982,6 +11982,12 @@ state
 TimeDuration
 mTouchStartRestingTimeBeforePan
 ;
+Maybe
+<
+ParentLayerCoord
+>
+mMinimumVelocityDuringPan
+;
 /
 /
 Extra
