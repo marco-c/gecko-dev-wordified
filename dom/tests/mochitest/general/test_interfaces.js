@@ -11490,6 +11490,9 @@ name
 "
 Sanitizer
 "
+disabled
+:
+true
 }
 /
 /
