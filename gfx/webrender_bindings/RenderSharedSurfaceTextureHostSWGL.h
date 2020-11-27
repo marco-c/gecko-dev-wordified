@@ -233,9 +233,6 @@ override
 bool
 MapPlane
 (
-RenderCompositor
-*
-aCompositor
 uint8_t
 aChannelIndex
 PlaneInfo
