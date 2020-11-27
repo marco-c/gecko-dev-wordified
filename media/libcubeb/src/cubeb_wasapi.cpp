@@ -12947,7 +12947,7 @@ char
 HANDSFREE_TAG
 =
 "
-BTHHFEENUM
+BTHHFENUM
 "
 ;
 size_t
@@ -12964,6 +12964,17 @@ direction
 =
 =
 eCapture
+&
+&
+strlen
+(
+device_info
+.
+group_id
+)
+>
+=
+len
 &
 &
 strncmp
