@@ -82111,9 +82111,11 @@ toWasmShuffleSimd128
 control
 (
 )
-=
-=
+.
+bitwiseEqual
+(
 control_
+)
 &
 &
 congruentIfOperandsEqual

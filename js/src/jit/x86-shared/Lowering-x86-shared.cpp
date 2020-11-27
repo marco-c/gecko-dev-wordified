@@ -12003,7 +12003,7 @@ if
 (
 rhsConstant
 .
-isIntegerZero
+isZeroBits
 (
 )
 )
