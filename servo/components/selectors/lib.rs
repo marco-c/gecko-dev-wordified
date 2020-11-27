@@ -143,10 +143,6 @@ smallvec
 ;
 extern
 crate
-thin_slice
-;
-extern
-crate
 to_shmem
 ;
 #
