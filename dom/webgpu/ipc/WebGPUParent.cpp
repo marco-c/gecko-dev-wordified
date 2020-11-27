@@ -2794,6 +2794,13 @@ NO_FLAGS
 textureHost
 -
 >
+DisableExternalTextures
+(
+)
+;
+textureHost
+-
+>
 CreateRenderTexture
 (
 aExternalId
