@@ -5200,6 +5200,8 @@ HistoryGo
 (
 int32_t
 aOffset
+uint64_t
+aHistoryEpoch
 std
 :
 :
