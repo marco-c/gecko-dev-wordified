@@ -5995,7 +5995,7 @@ this
 .
 threadActor
 .
-exit
+destroy
 (
 )
 ;
