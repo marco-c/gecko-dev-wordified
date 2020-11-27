@@ -17845,7 +17845,10 @@ ProfileChunkedBuffer
 >
 mStyleCause
 ;
-UniqueProfilerBacktrace
+UniquePtr
+<
+ProfileChunkedBuffer
+>
 mReflowCause
 ;
 #

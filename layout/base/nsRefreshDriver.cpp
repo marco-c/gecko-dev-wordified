@@ -13021,11 +13021,8 @@ ShouldKeepTimerRunningWhileWaitingForFirstContentfulPaint
 )
 )
 {
-PROFILER_TRACING_MARKER
+PROFILER_MARKER
 (
-"
-Paint
-"
 "
 RefreshDriver
 waiting
@@ -13035,7 +13032,12 @@ contentful
 paint
 "
 GRAPHICS
-TRACING_EVENT
+{
+}
+Tracing
+"
+Paint
+"
 )
 ;
 }

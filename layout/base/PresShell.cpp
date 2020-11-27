@@ -63413,10 +63413,10 @@ Paint
 "
 Reflow
 "
-JS
+geckoprofiler
 :
 :
-ProfilingCategoryPair
+category
 :
 :
 LAYOUT
