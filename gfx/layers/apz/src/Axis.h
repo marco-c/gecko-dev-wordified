@@ -2462,6 +2462,12 @@ aSide
 )
 const
 ;
+bool
+CanScrollDownwardsWithDynamicToolbar
+(
+)
+const
+;
 private
 :
 OverscrollBehavior
@@ -2470,6 +2476,12 @@ GetOverscrollBehavior
 )
 const
 override
+;
+ParentLayerCoord
+GetCompositionLengthWithoutDynamicToolbar
+(
+)
+const
 ;
 }
 ;
