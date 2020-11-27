@@ -799,7 +799,7 @@ ChromeUtils
 registerWindowActor
 (
 "
-MarionetteReftestFrame
+MarionetteReftest
 "
 {
 kind
@@ -823,7 +823,7 @@ content
 /
 actors
 /
-MarionetteReftestFrameParent
+MarionetteReftestParent
 .
 jsm
 "
@@ -844,7 +844,7 @@ content
 /
 actors
 /
-MarionetteReftestFrameChild
+MarionetteReftestChild
 .
 jsm
 "
@@ -915,7 +915,7 @@ ChromeUtils
 unregisterWindowActor
 (
 "
-MarionetteReftestFrame
+MarionetteReftest
 "
 )
 ;
@@ -4327,7 +4327,7 @@ currentWindowGlobal
 getActor
 (
 "
-MarionetteReftestFrame
+MarionetteReftest
 "
 )
 ;
