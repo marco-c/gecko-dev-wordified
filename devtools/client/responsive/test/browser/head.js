@@ -4117,11 +4117,9 @@ flag
 =
 =
 =
-Ci
-.
-nsIDocShell
-.
-TOUCHEVENTS_OVERRIDE_ENABLED
+"
+enabled
+"
 expected
 Touch
 events
