@@ -901,12 +901,9 @@ E10SUtils
 getRemoteTypeForURI
 (
 aURI
-/
-*
-multiProcess
-*
-/
-true
+GeckoViewSettings
+.
+useMultiprocess
 /
 *
 useRemoteSubframes
@@ -2823,6 +2820,13 @@ true
 "
 )
 ;
+if
+(
+GeckoViewSettings
+.
+useMultiprocess
+)
+{
 const
 pointerEventsEnabled
 =
@@ -2892,6 +2896,7 @@ E10SUtils
 DEFAULT_REMOTE_TYPE
 )
 ;
+}
 return
 browser
 ;

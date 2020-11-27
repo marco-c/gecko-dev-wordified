@@ -7076,6 +7076,8 @@ int
 screenId
 boolean
 privateMode
+boolean
+isRemote
 )
 ;
 Override
@@ -8677,6 +8679,20 @@ getUsePrivateMode
 (
 )
 ;
+final
+boolean
+isRemote
+=
+runtime
+.
+getSettings
+(
+)
+.
+getUseMultiprocess
+(
+)
+;
 mWindow
 =
 new
@@ -8744,6 +8760,7 @@ mId
 chromeUri
 screenId
 isPrivate
+isRemote
 )
 ;
 }
@@ -8811,6 +8828,7 @@ class
 chromeUri
 screenId
 isPrivate
+isRemote
 )
 ;
 }

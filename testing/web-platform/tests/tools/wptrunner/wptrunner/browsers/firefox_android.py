@@ -601,6 +601,7 @@ prefs_root
 config
 test_type
 extra_prefs
+e10s
                  
 enable_fission
 browser_channel
@@ -623,7 +624,7 @@ config
 test_type
 extra_prefs
                                              
-True
+e10s
 enable_fission
 browser_channel
 None
@@ -700,6 +701,31 @@ preload
 :
 True
         
+}
+)
+        
+if
+self
+.
+e10s
+:
+            
+profile
+.
+set_preferences
+(
+{
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+:
+True
 }
 )
         
@@ -1002,7 +1028,7 @@ self
 .
 e10s
 =
-True
+e10s
         
 self
 .
@@ -1097,6 +1123,8 @@ config
 test_type
                                               
 extra_prefs
+                                              
+e10s
                                               
 False
                                               

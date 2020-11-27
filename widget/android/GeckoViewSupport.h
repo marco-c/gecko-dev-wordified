@@ -476,6 +476,8 @@ int32_t
 aScreenId
 bool
 aPrivateMode
+bool
+aRemote
 )
 ;
 /
