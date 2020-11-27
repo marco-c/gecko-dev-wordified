@@ -1943,6 +1943,9 @@ crashes
 on
 Android
 debug
+#
+if
+0
 TEST_F
 (
 APZCPinchGestureDetectorTester
@@ -2030,6 +2033,8 @@ AssertStateIsFling
 )
 ;
 }
+#
+endif
 #
 endif
 TEST_F

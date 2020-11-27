@@ -2605,16 +2605,6 @@ false
 }
 #
 endif
-#
-ifndef
-MOZ_WIDGET_ANDROID
-/
-/
-Currently
-crashes
-on
-Android
-debug
 TEST_F
 (
 APZCFlingStopTester
@@ -2639,8 +2629,6 @@ true
 )
 ;
 }
-#
-endif
 #
 ifndef
 MOZ_WIDGET_ANDROID

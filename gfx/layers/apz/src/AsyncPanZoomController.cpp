@@ -3289,11 +3289,14 @@ velocity
 is
 smaller
 than
+or
+equal
+to
 this
 amount
+*
 no
 fling
-*
 is
 initiated
 .
@@ -13068,7 +13071,6 @@ if
 %
 f
 >
-=
 %
 f
 \
@@ -13098,6 +13100,7 @@ Length
 (
 )
 <
+=
 StaticPrefs
 :
 :
@@ -23649,6 +23652,7 @@ Length
 (
 )
 <
+=
 StaticPrefs
 :
 :
