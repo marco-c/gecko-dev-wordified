@@ -1119,17 +1119,6 @@ return
 mCookieJarSettings
 ;
 }
-nsICookieJarSettings
-*
-GetCookieJarSettings
-(
-)
-const
-{
-return
-mCookieJarSettings
-;
-}
 bool
 DocumentHasLoaded
 (

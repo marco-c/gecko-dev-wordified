@@ -4253,9 +4253,6 @@ aCacheKey
 nsIReferrerInfo
 *
 aReferrerInfo
-nsICookieJarSettings
-*
-aCookieJarSettings
 nsIInputStream
 *
 aPostData
@@ -4280,7 +4277,6 @@ aURI
 aPrincipal
 aCacheKey
 aReferrerInfo
-aCookieJarSettings
 aPostData
 aExtraHeaders
 aFile
@@ -4314,9 +4310,6 @@ aCacheKey
 nsIReferrerInfo
 *
 aReferrerInfo
-nsICookieJarSettings
-*
-aCookieJarSettings
 nsIInputStream
 *
 aPostData
@@ -4491,7 +4484,6 @@ uri
 aPrincipal
 aCacheKey
 aReferrerInfo
-aCookieJarSettings
 aPostData
 aExtraHeaders
 aFile

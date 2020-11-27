@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsICookieJarSettings
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h
@@ -2054,9 +2047,6 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
-nsICookieJarSettings
-*
-aCookieJarSettings
 nsIArray
 *
 aArrayTransferables
@@ -2160,7 +2150,6 @@ InvokeDragSession
 aDOMNode
 aPrincipal
 aCsp
-aCookieJarSettings
 aArrayTransferables
 aActionType
 aContentPolicyType

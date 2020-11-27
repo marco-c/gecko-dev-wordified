@@ -102,13 +102,6 @@ nsTransferable_h__
 #
 include
 "
-nsICookieJarSettings
-.
-h
-"
-#
-include
-"
 nsIFormatConverter
 .
 h
@@ -494,12 +487,6 @@ mRequestingPrincipal
 ;
 nsContentPolicyType
 mContentPolicyType
-;
-nsCOMPtr
-<
-nsICookieJarSettings
->
-mCookieJarSettings
 ;
 #
 if

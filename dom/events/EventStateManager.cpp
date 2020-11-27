@@ -589,13 +589,6 @@ h
 #
 include
 "
-nsICookieJarSettings
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h
@@ -13100,12 +13093,6 @@ nsIContentSecurityPolicy
 >
 csp
 ;
-nsCOMPtr
-<
-nsICookieJarSettings
->
-cookieJarSettings
-;
 bool
 allowEmptyDataTransfer
 =
@@ -13324,10 +13311,6 @@ principal
 getter_AddRefs
 (
 csp
-)
-getter_AddRefs
-(
-cookieJarSettings
 )
 )
 ;
@@ -13758,7 +13741,6 @@ selection
 remoteDragStartData
 principal
 csp
-cookieJarSettings
 )
 ;
 if
@@ -13858,10 +13840,6 @@ nsIContentSecurityPolicy
 *
 *
 aCsp
-nsICookieJarSettings
-*
-*
-aCookieJarSettings
 )
 {
 *
@@ -13970,7 +13948,6 @@ AddInitialDnDDataTo
 aDataTransfer
 aPrincipal
 aCsp
-aCookieJarSettings
 )
 ;
 mGestureDownDragStartData
@@ -14093,7 +14070,6 @@ dragDataNode
 )
 aPrincipal
 aCsp
-aCookieJarSettings
 )
 ;
 if
@@ -14574,9 +14550,6 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
-nsICookieJarSettings
-*
-aCookieJarSettings
 )
 {
 nsCOMPtr
@@ -15324,7 +15297,6 @@ InvokeDragSessionWithSelection
 aSelection
 aPrincipal
 aCsp
-aCookieJarSettings
 transArray
 action
 event
@@ -15353,7 +15325,6 @@ InvokeDragSessionWithRemoteImage
 dragTarget
 aPrincipal
 aCsp
-aCookieJarSettings
 transArray
 action
 aDragStartData
@@ -15372,7 +15343,6 @@ InvokeDragSessionWithImage
 dragTarget
 aPrincipal
 aCsp
-aCookieJarSettings
 transArray
 action
 dragImage

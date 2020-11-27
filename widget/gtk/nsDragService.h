@@ -150,9 +150,6 @@ gtk
 h
 >
 class
-nsICookieJarSettings
-;
-class
 nsWindow
 ;
 class
@@ -245,9 +242,6 @@ aPrincipal
 nsIContentSecurityPolicy
 *
 aCsp
-nsICookieJarSettings
-*
-aCookieJarSettings
 nsIArray
 *
 anArrayTransferables

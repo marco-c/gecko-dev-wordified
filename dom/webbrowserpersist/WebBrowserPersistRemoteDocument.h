@@ -278,12 +278,6 @@ mSHEntry
 ;
 nsCOMPtr
 <
-nsICookieJarSettings
->
-mCookieJarSettings
-;
-nsCOMPtr
-<
 nsIInputStream
 >
 mPostData
