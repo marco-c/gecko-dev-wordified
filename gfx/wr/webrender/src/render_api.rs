@@ -10711,6 +10711,10 @@ depth_target_textures
 :
 usize
 pub
+texture_upload_pbos
+:
+usize
+pub
 swap_chain
 :
 usize
