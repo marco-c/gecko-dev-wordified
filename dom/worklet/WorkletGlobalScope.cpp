@@ -150,6 +150,17 @@ mozilla
 /
 dom
 /
+WorkletThread
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Console
 .
 h

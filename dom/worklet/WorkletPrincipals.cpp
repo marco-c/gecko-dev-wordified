@@ -124,6 +124,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WorkletImpl
+.
+h
+"
+#
+include
+"
 nsJSPrincipals
 .
 h

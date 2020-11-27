@@ -189,6 +189,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+WorkletGlobalScope
+.
+h
+"
+#
+include
+"
 nsGlobalWindowInner
 .
 h
