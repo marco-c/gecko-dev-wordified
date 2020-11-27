@@ -229,7 +229,10 @@ style
 stylesheets
 :
 :
-AllowImportRules
+import_rule
+:
+:
+ImportSheet
 ;
 use
 style
@@ -238,10 +241,7 @@ style
 stylesheets
 :
 :
-import_rule
-:
-:
-ImportSheet
+AllowImportRules
 ;
 use
 style

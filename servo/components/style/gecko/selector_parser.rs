@@ -202,8 +202,10 @@ parser
 :
 :
 {
-SelectorParseErrorKind
-ParseErrorRecovery
+self
+as
+selector_parser
+Selector
 }
 ;
 use
@@ -214,10 +216,8 @@ parser
 :
 :
 {
-self
-as
-selector_parser
-Selector
+ParseErrorRecovery
+SelectorParseErrorKind
 }
 ;
 use

@@ -476,8 +476,8 @@ rules_iterator
 :
 :
 {
-NestedRuleIterationCondition
 EffectiveRulesIterator
+NestedRuleIterationCondition
 RulesIterator
 }
 ;

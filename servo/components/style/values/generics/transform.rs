@@ -3557,7 +3557,6 @@ z
 )
 =
 >
-{
 Transform3D
 :
 :
@@ -3577,7 +3576,6 @@ None
 as
 f64
 )
-}
 Skew
 (
 theta_x
