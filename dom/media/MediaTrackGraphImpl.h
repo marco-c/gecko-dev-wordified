@@ -1419,7 +1419,7 @@ IterationResult
 OneIteration
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer
@@ -1446,7 +1446,7 @@ IterationResult
 OneIterationImpl
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer

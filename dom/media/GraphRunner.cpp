@@ -408,7 +408,7 @@ GraphRunner
 OneIteration
 (
 GraphTime
-aStateEnd
+aStateTime
 GraphTime
 aIterationEnd
 AudioMixer
@@ -446,7 +446,7 @@ Some
 (
 IterationState
 (
-aStateEnd
+aStateTime
 aIterationEnd
 aMixer
 )
@@ -743,7 +743,7 @@ OneIterationImpl
 mIterationState
 -
 >
-StateEnd
+StateTime
 (
 )
 mIterationState
