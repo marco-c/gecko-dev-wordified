@@ -3985,6 +3985,10 @@ capture
 .
 *
 /
+prio
+(
+input
+)
 async
 ReleaseAllPointerCapture
 (
