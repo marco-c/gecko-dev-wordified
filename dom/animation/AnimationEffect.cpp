@@ -2373,7 +2373,6 @@ MergeOptionalEffectTiming
 (
 mTiming
 aTiming
-mDocument
 aRv
 )
 ;

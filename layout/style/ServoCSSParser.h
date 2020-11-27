@@ -600,15 +600,6 @@ value
 .
 *
 param
-aUrl
-The
-parser
-url
-extra
-data
-.
-*
-param
 aResult
 The
 output
@@ -637,9 +628,6 @@ const
 nsAString
 &
 aValue
-URLExtraData
-*
-aUrl
 nsTimingFunction
 &
 aResult
