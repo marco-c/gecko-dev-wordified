@@ -976,16 +976,12 @@ root
 :
 not
 (
-:
-is
-(
 [
 inFullscreen
 ]
 [
 tabsintitlebar
 ]
-)
 )
 #
 nav

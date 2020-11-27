@@ -4589,9 +4589,6 @@ right
 :
 not
 (
-:
-is
-(
 [
 small
 -
@@ -4602,7 +4599,6 @@ has
 -
 used
 ]
-)
 )
 >
 .
@@ -4969,9 +4965,6 @@ wrapper
 :
 not
 (
-:
-is
-(
 [
 small
 -
@@ -4982,7 +4975,6 @@ has
 -
 used
 ]
-)
 )
 >
 .
@@ -5012,9 +5004,6 @@ wrapper
 :
 not
 (
-:
-is
-(
 [
 small
 -
@@ -5025,7 +5014,6 @@ has
 -
 used
 ]
-)
 )
 .
 hovering
@@ -5063,9 +5051,6 @@ wrapper
 :
 not
 (
-:
-is
-(
 [
 small
 -
@@ -5076,7 +5061,6 @@ has
 -
 used
 ]
-)
 )
 >
 .
@@ -5422,9 +5406,6 @@ wrapper
 :
 not
 (
-:
-is
-(
 [
 small
 -
@@ -5435,7 +5416,6 @@ has
 -
 used
 ]
-)
 )
 >
 .

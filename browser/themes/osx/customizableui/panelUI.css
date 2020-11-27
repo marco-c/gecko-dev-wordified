@@ -275,9 +275,6 @@ subviewbutton
 :
 not
 (
-:
-is
-(
 [
 image
 ]
@@ -288,7 +285,6 @@ targetURI
 bookmark
 -
 item
-)
 )
 >
 .

@@ -4021,9 +4021,6 @@ command
 :
 not
 (
-:
-is
-(
 [
 disabled
 ]
@@ -4032,7 +4029,6 @@ open
 ]
 :
 active
-)
 )
 :
 is

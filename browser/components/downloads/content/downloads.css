@@ -365,9 +365,6 @@ state
 :
 not
 (
-:
-is
-(
 [
 state
 =
@@ -405,7 +402,6 @@ state
 9
 "
 ]
-)
 /
 *
 Blocked
@@ -423,9 +419,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -489,7 +482,6 @@ state
 7
 "
 ]
-)
 /
 *
 Scanning
@@ -614,9 +606,6 @@ state
 :
 not
 (
-:
-is
-(
 [
 state
 =
@@ -690,7 +679,6 @@ state
 9
 "
 ]
-)
 /
 *
 Blocked
@@ -708,9 +696,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -771,7 +756,6 @@ state
 5
 "
 ]
-)
 /
 *
 Starting
@@ -809,9 +793,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -887,7 +868,6 @@ state
 8
 "
 ]
-)
 /
 *
 Blocked
@@ -1048,9 +1028,6 @@ state
 :
 not
 (
-:
-is
-(
 [
 state
 =
@@ -1101,7 +1078,6 @@ state
 4
 "
 ]
-)
 /
 *
 Paused
@@ -1116,9 +1092,6 @@ download
 state
 :
 not
-(
-:
-is
 (
 [
 state
@@ -1139,7 +1112,6 @@ state
 3
 "
 ]
-)
 /
 *
 Canceled

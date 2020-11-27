@@ -360,9 +360,6 @@ hover
 not
 (
 :
-is
-(
-:
 active
 [
 disabled
@@ -392,7 +389,6 @@ default
 true
 "
 ]
-)
 )
 {
 color

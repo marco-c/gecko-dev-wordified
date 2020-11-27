@@ -10754,9 +10754,6 @@ isMultiline
 :
 not
 (
-:
-is
-(
 [
 hidden
 ]
@@ -10765,7 +10762,6 @@ value
 ]
 :
 empty
-)
 )
 "
 ;

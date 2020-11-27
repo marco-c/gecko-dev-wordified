@@ -204,9 +204,6 @@ buttonStateHover
 :
 not
 (
-:
-is
-(
 [
 disabled
 ]
@@ -215,7 +212,6 @@ open
 ]
 :
 active
-)
 )
 :
 is
@@ -231,15 +227,11 @@ menuStateHover
 :
 not
 (
-:
-is
-(
 [
 disabled
 ]
 :
 active
-)
 )
 [
 _moz

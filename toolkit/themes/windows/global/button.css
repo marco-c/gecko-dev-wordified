@@ -510,9 +510,6 @@ focus
 not
 (
 :
-is
-(
-:
 active
 [
 disabled
@@ -535,7 +532,6 @@ checked
 true
 "
 ]
-)
 )
 {
 color
