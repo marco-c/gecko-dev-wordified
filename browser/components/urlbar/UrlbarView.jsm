@@ -13777,6 +13777,14 @@ if
 iconOverride
 &
 &
+(
+source
+|
+|
+engine
+)
+&
+&
 result
 .
 type
