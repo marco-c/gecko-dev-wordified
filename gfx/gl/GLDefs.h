@@ -342,6 +342,13 @@ EGLNativeDisplayType
 )
 /
 /
+EGL_ANGLE_feature_control
+#
+define
+LOCAL_EGL_FEATURE_OVERRIDES_ENABLED_ANGLE
+0x3466
+/
+/
 WGL_NV_DX_interop
 #
 define
