@@ -158,8 +158,10 @@ final
 Background
 thread
 only
+RefPtr
+<
 ServiceWorkerParent
-*
+>
 mActor
 ;
 /

@@ -176,8 +176,10 @@ mOwner
 /
 /
 static
+RefPtr
+<
 ServiceWorkerChild
-*
+>
 ServiceWorkerChild
 :
 :
@@ -185,8 +187,10 @@ Create
 (
 )
 {
+RefPtr
+<
 ServiceWorkerChild
-*
+>
 actor
 =
 new
@@ -278,9 +282,6 @@ mIPCWorkerRef
 )
 )
 {
-delete
-actor
-;
 return
 nullptr
 ;

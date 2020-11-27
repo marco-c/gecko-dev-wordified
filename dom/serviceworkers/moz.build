@@ -150,6 +150,11 @@ ServiceWorkerActors
 h
 '
 '
+ServiceWorkerChild
+.
+h
+'
+'
 ServiceWorkerCloneData
 .
 h
@@ -206,6 +211,11 @@ h
 '
 '
 ServiceWorkerOpPromise
+.
+h
+'
+'
+ServiceWorkerParent
 .
 h
 '
