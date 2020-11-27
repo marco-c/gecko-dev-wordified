@@ -2052,11 +2052,18 @@ os
 .
 path
 .
+abspath
+(
+os
+.
+path
+.
 dirname
 (
 self
 .
 binary
+)
 )
                                
 debugger
