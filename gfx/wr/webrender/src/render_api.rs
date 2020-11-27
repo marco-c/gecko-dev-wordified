@@ -222,7 +222,6 @@ PipelineId
 PropertyBindingId
 PropertyBindingKey
 ExternalEvent
-DocumentLayer
 }
 ;
 use
@@ -6621,7 +6620,6 @@ AddDocument
 (
 DocumentId
 DeviceIntSize
-DocumentLayer
 )
 /
 /
@@ -7722,9 +7720,6 @@ self
 initial_size
 :
 DeviceIntSize
-layer
-:
-DocumentLayer
 )
 -
 >
@@ -7744,7 +7739,6 @@ self
 add_document_with_id
 (
 initial_size
-layer
 new_id
 )
 }
@@ -7762,9 +7756,6 @@ self
 initial_size
 :
 DeviceIntSize
-layer
-:
-DocumentLayer
 id
 :
 u32
@@ -7885,7 +7876,6 @@ AddDocument
 (
 document_id
 initial_size
-layer
 )
 )
 .
@@ -7906,7 +7896,6 @@ AddDocument
 (
 document_id
 initial_size
-layer
 )
 )
 .

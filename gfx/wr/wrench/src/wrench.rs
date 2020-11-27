@@ -1774,7 +1774,6 @@ api
 add_document
 (
 size
-0
 )
 ;
 let

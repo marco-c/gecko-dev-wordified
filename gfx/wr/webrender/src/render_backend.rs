@@ -126,7 +126,6 @@ api
 :
 {
 DocumentId
-DocumentLayer
 ExternalScrollId
 HitTestResult
 }
@@ -849,10 +848,6 @@ pub
 device_rect
 :
 DeviceIntRect
-pub
-layer
-:
-DocumentLayer
 pub
 device_pixel_ratio
 :
@@ -3267,9 +3262,6 @@ DocumentId
 size
 :
 DeviceIntSize
-layer
-:
-DocumentLayer
 default_device_pixel_ratio
 :
 f32
@@ -3304,7 +3296,6 @@ size
 into
 (
 )
-layer
 page_zoom_factor
 :
 1
@@ -4123,13 +4114,6 @@ self
 .
 stamp
 accumulated_scale_factor
-self
-.
-view
-.
-scene
-.
-layer
 self
 .
 view
@@ -6458,7 +6442,6 @@ AddDocument
 (
 document_id
 initial_size
-layer
 )
 =
 >
@@ -6473,7 +6456,6 @@ new
 (
 document_id
 initial_size
-layer
 self
 .
 default_device_pixel_ratio

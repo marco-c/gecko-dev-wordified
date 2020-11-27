@@ -8622,7 +8622,6 @@ api
 add_document
 (
 window_size
-1
 )
 ;
 let
