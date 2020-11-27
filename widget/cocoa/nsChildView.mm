@@ -5720,8 +5720,17 @@ CGEventCreateScrollWheelEvent
 NULL
 units
 3
+(
+int32_t
+)
 aDeltaY
+(
+int32_t
+)
 aDeltaX
+(
+int32_t
+)
 aDeltaZ
 )
 ;
