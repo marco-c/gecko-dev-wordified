@@ -496,9 +496,7 @@ that
 we
 are
 in
-non
--
-preview
+confirmed
 search
 mode
 .

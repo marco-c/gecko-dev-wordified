@@ -1041,7 +1041,7 @@ ownerGlobal
 .
 gURLBar
 .
-maybePromoteResultToSearchMode
+maybeConfirmSearchModeFromResult
 (
 {
 result

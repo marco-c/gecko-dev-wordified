@@ -2511,7 +2511,7 @@ this
 .
 input
 .
-maybePromoteResultToSearchMode
+maybeConfirmSearchModeFromResult
 (
 {
 entry

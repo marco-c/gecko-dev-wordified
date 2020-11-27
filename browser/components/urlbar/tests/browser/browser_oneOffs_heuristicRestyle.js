@@ -1335,7 +1335,7 @@ result
 and
 observe
 it
-promotes
+confirms
 search
 mode
 .
