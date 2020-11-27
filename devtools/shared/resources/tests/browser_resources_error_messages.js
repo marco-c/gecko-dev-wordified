@@ -1815,7 +1815,7 @@ lineNumber
 NUMBER_REGEX
 columnNumber
 :
-NUMBER_REGEX
+1
 functionName
 :
 "
@@ -1961,7 +1961,7 @@ lineNumber
 NUMBER_REGEX
 columnNumber
 :
-NUMBER_REGEX
+1
 functionName
 :
 "
