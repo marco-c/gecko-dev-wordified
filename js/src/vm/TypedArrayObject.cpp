@@ -17481,6 +17481,10 @@ tarr
 byteOffset
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 }
 JS_FRIEND_API

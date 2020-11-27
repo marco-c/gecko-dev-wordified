@@ -7886,6 +7886,10 @@ tarr
 byteOffset
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 ;
 }
@@ -7995,6 +7999,10 @@ view
 -
 >
 byteOffset
+(
+)
+.
+deprecatedGetUint32
 (
 )
 )

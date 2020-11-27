@@ -1563,7 +1563,9 @@ return
 0
 ;
 }
-return
+BufferSize
+offset
+=
 obj
 -
 >
@@ -1599,6 +1601,13 @@ TypedArrayObject
 )
 .
 byteOffset
+(
+)
+;
+return
+offset
+.
+deprecatedGetUint32
 (
 )
 ;

@@ -62774,6 +62774,10 @@ tarr
 byteOffset
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 ;
 byteOffset

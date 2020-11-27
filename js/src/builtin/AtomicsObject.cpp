@@ -4318,6 +4318,10 @@ unwrappedTypedArray
 byteOffset
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 /
 /
@@ -5441,6 +5445,10 @@ unwrappedTypedArray
 -
 >
 byteOffset
+(
+)
+.
+deprecatedGetUint32
 (
 )
 ;
