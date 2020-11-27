@@ -847,6 +847,10 @@ Selection
 class
 WorkerPrivate
 ;
+enum
+class
+ElementCallbackType
+;
 }
 /
 /
@@ -20494,7 +20498,10 @@ static
 void
 EnqueueLifecycleCallback
 (
-Document
+mozilla
+:
+:
+dom
 :
 :
 ElementCallbackType

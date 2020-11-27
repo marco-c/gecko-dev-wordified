@@ -20634,7 +20634,7 @@ nsContentUtils
 :
 EnqueueLifecycleCallback
 (
-Document
+ElementCallbackType
 :
 :
 eAdopted

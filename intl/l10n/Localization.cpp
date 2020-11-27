@@ -170,6 +170,15 @@ Preferences
 h
 "
 #
+include
+"
+mozilla
+/
+Services
+.
+h
+"
+#
 define
 INTL_APP_LOCALES_CHANGED
 "

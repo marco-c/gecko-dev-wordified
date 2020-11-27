@@ -20325,16 +20325,6 @@ GetRootElement
 )
 ;
 }
-enum
-ElementCallbackType
-{
-eConnected
-eDisconnected
-eAdopted
-eAttributeChanged
-eGetCustomInterface
-}
-;
 WindowContext
 *
 GetTopLevelWindowContext
