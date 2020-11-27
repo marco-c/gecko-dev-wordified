@@ -1363,14 +1363,22 @@ bytes
 ]
 ]
         
+if
+cache
+is
+None
+:
+            
+cache
+=
+{
+}
+        
 self
 .
 cache
 =
 cache
-or
-{
-}
 #
 type
 :
@@ -2180,6 +2188,18 @@ in
 [
 None
 dirpath
+if
+dirpath
+!
+=
+b
+"
+.
+"
+else
+b
+"
+"
 ]
 :
                         
