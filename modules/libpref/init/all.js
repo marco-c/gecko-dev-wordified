@@ -2452,7 +2452,7 @@ intermediates
 .
 downloads_per_poll
 "
-100
+5000
 )
 ;
 pref
