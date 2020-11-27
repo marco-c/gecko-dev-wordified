@@ -5805,6 +5805,11 @@ docshell
 "
 )
 ;
+return
+IPC_OK
+(
+)
+;
 }
 docShell
 -
