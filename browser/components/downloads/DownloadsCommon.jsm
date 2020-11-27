@@ -4005,6 +4005,13 @@ newURI
 (
 aDirectory
 )
+Services
+.
+scriptSecurityManager
+.
+getSystemPrincipal
+(
+)
 )
 ;
 }
