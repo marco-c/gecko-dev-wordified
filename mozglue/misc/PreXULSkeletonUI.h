@@ -166,6 +166,10 @@ width
 int
 height
 double
+urlbarHorizontalOffsetCSS
+double
+urlbarWidthCSS
+double
 cssToDevPixelScaling
 )
 ;
