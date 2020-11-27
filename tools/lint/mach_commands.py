@@ -537,6 +537,17 @@ virtualenv_manager
 .
 bin_path
         
+lintargs
+[
+"
+virtualenv_manager
+"
+]
+=
+self
+.
+virtualenv_manager
+        
 for
 path
 in

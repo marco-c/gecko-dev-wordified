@@ -1236,6 +1236,9 @@ def
 setup
 (
 self
+virtualenv_manager
+=
+None
 )
 :
         
@@ -1307,6 +1310,22 @@ linter
 name
 "
 ]
+                
+if
+virtualenv_manager
+is
+not
+None
+:
+                    
+setupargs
+[
+"
+virtualenv_manager
+"
+]
+=
+virtualenv_manager
                 
 start_time
 =
