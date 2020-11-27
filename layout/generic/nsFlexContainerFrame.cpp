@@ -36380,11 +36380,6 @@ consumedBSize
 =
 CalcAndCacheConsumedBSize
 (
-aReflowInput
-.
-GetWritingMode
-(
-)
 )
 ;
 nscoord

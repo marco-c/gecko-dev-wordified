@@ -8588,7 +8588,6 @@ consumedBSize
 =
 CalcAndCacheConsumedBSize
 (
-wm
 )
 ;
 nscoord
