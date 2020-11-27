@@ -290,7 +290,14 @@ mPerformance
 ;
 const
 TimeStamp
-mStartTime
+mRawStarTime
+;
+mutable
+Maybe
+<
+DOMHighResTimeStamp
+>
+mCachedStartTime
 ;
 }
 ;
