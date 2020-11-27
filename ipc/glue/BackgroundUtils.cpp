@@ -3027,6 +3027,12 @@ GetBrowserUpgradeInsecureRequests
 aLoadInfo
 -
 >
+GetBrowserDidUpgradeInsecureRequests
+(
+)
+aLoadInfo
+-
+>
 GetBrowserWouldUpgradeInsecureRequests
 (
 )
@@ -4586,6 +4592,11 @@ upgradeInsecureRequests
 loadInfoArgs
 .
 browserUpgradeInsecureRequests
+(
+)
+loadInfoArgs
+.
+browserDidUpgradeInsecureRequests
 (
 )
 loadInfoArgs

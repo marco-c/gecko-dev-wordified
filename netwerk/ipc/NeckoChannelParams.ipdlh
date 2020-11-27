@@ -906,6 +906,9 @@ bool
 browserUpgradeInsecureRequests
 ;
 bool
+browserDidUpgradeInsecureRequests
+;
+bool
 browserWouldUpgradeInsecureRequests
 ;
 bool

@@ -1405,6 +1405,8 @@ aUpgradeInsecureRequests
 bool
 aBrowserUpgradeInsecureRequests
 bool
+aBrowserDidUpgradeInsecureRequests
+bool
 aBrowserWouldUpgradeInsecureRequests
 bool
 aForceAllowDataURI
@@ -1910,6 +1912,11 @@ false
 ;
 bool
 mBrowserUpgradeInsecureRequests
+=
+false
+;
+bool
+mBrowserDidUpgradeInsecureRequests
 =
 false
 ;
