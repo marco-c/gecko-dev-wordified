@@ -717,6 +717,7 @@ offsetState
 .
 ComputedLogicalMargin
 (
+aWM
 )
 .
 Size

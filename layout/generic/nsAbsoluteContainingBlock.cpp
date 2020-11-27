@@ -5941,12 +5941,7 @@ kidReflowInput
 .
 ComputedLogicalMargin
 (
-)
-.
-ConvertTo
-(
 outerWM
-wm
 )
 ;
 /
@@ -6252,6 +6247,7 @@ kidReflowInput
 .
 ComputedLogicalMargin
 (
+wm
 )
 .
 BStart

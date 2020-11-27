@@ -5182,6 +5182,7 @@ kidReflowInput
 .
 ComputedLogicalMargin
 (
+kidWM
 )
 ;
 LogicalPoint
@@ -5674,6 +5675,7 @@ kidReflowInput
 .
 ComputedLogicalMargin
 (
+wm
 )
 .
 BStartEnd

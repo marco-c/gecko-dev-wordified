@@ -13614,6 +13614,7 @@ aItemReflowInput
 .
 ComputedLogicalMargin
 (
+itemWM
 )
 .
 Size
@@ -16629,12 +16630,7 @@ aFlexItemReflowInput
 .
 ComputedLogicalMargin
 (
-)
-.
-ConvertTo
-(
 mCBWM
-mWM
 )
 )
 mMainMinSize
