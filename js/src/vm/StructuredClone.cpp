@@ -7807,6 +7807,10 @@ tarr
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 )
 {

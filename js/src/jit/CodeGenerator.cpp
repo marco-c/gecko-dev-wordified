@@ -55227,6 +55227,10 @@ ttemplate
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 using
 Fn

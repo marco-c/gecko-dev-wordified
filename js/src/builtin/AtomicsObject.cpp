@@ -776,6 +776,10 @@ typedArray
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 /
 /

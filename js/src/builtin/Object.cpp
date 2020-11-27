@@ -8900,6 +8900,10 @@ tobj
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 ;
 /
 /

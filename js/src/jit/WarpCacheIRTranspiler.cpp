@@ -17510,6 +17510,10 @@ TypedArrayObject
 length
 (
 )
+.
+get
+(
+)
 )
 {
 auto

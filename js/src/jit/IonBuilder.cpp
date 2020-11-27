@@ -62219,6 +62219,10 @@ tarr
 length
 (
 )
+.
+deprecatedGetUint32
+(
+)
 )
 ;
 *

@@ -4486,6 +4486,10 @@ TypedArrayObject
 length
 (
 )
+.
+get
+(
+)
 >
 0
 &
@@ -16299,6 +16303,10 @@ TypedArrayObject
 )
 .
 length
+(
+)
+.
+get
 (
 )
 )

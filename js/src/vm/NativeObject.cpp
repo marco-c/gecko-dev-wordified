@@ -14887,6 +14887,10 @@ TypedArrayObject
 length
 (
 )
+.
+get
+(
+)
 )
 ;
 /
