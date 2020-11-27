@@ -723,17 +723,6 @@ dataSize
 "
 )
 ;
-ok
-(
-!
-packet
-.
-discardRequestBody
-"
-discardRequestBody
-"
-)
-;
 break
 ;
 case
@@ -779,9 +768,6 @@ headersSize
 d
 +
 /
-discardResponseBody
-:
-false
 }
 }
 ;
@@ -842,9 +828,6 @@ contentSize
 d
 +
 /
-discardResponseBody
-:
-false
 }
 ;
 break

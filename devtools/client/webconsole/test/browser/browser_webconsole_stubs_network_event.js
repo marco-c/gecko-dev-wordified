@@ -1015,16 +1015,6 @@ actor
 resource
 .
 actor
-discardRequestBody
-:
-resource
-.
-discardRequestBody
-discardResponseBody
-:
-resource
-.
-discardResponseBody
 startedDateTime
 :
 resource
