@@ -112,7 +112,9 @@ nsJSPrincipals_h__
 #
 include
 "
-jsapi
+js
+/
+Principals
 .
 h
 "
@@ -123,6 +125,15 @@ nsIPrincipal
 .
 h
 "
+struct
+JSContext
+;
+struct
+JSStructuredCloneReader
+;
+struct
+JSStructuredCloneWriter
+;
 namespace
 mozilla
 {
