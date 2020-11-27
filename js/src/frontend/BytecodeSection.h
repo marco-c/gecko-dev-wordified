@@ -1397,6 +1397,8 @@ JSContext
 cx
 uint32_t
 lineNum
+uint32_t
+column
 )
 ;
 /
