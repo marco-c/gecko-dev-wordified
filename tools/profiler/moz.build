@@ -155,6 +155,13 @@ h
 "
 public
 /
+ProfilerMarkerPayload
+.
+h
+"
+"
+public
+/
 ProfilerParent
 .
 h
@@ -219,6 +226,13 @@ cpp
 core
 /
 ProfilerCodeAddressService
+.
+cpp
+"
+"
+core
+/
+ProfilerMarkerPayload
 .
 cpp
 "

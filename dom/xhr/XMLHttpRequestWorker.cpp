@@ -3364,10 +3364,7 @@ profiling
 /
 purposes
 .
-UniquePtr
-<
-ProfileChunkedBuffer
->
+UniqueProfilerBacktrace
 mSource
 ;
 public
@@ -3419,10 +3416,7 @@ UniquePtr
 SerializedStackHolder
 >
 aOriginStack
-UniquePtr
-<
-ProfileChunkedBuffer
->
+UniqueProfilerBacktrace
 aSource
 =
 nullptr
@@ -8864,7 +8858,7 @@ move
 (
 stack
 )
-profiler_capture_backtrace
+profiler_get_backtrace
 (
 )
 )
