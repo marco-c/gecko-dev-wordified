@@ -2741,10 +2741,10 @@ result
 GetIntrinsicISize
 (
 aRenderingContext
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 return
@@ -2778,10 +2778,10 @@ result
 GetIntrinsicISize
 (
 aRenderingContext
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 return

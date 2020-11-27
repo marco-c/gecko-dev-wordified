@@ -6678,10 +6678,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 this
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 if
@@ -6742,10 +6742,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 this
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 if

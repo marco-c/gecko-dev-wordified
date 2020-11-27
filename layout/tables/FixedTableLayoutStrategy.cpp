@@ -788,10 +788,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 cellFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 if
@@ -1888,9 +1888,9 @@ that
 the
 difference
 between
-MIN_ISIZE
+MinISize
 and
-PREF_ISIZE
+PrefISize
 /
 /
 shouldn
@@ -1935,10 +1935,10 @@ aReflowInput
 .
 mRenderingContext
 cellFrame
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 }

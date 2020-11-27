@@ -18334,10 +18334,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 this
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 bool

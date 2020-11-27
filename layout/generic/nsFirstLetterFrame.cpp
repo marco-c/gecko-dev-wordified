@@ -706,10 +706,10 @@ DoInlineIntrinsicISize
 (
 aRenderingContext
 aData
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 }
@@ -768,10 +768,10 @@ DoInlineIntrinsicISize
 (
 aRenderingContext
 aData
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 aData

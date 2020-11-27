@@ -40877,10 +40877,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 this
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-MIN_ISIZE
+MinISize
 )
 ;
 aData
@@ -40925,10 +40925,10 @@ IntrinsicForContainer
 (
 aRenderingContext
 this
-nsLayoutUtils
+IntrinsicISizeType
 :
 :
-PREF_ISIZE
+PrefISize
 )
 ;
 aData
