@@ -680,13 +680,6 @@ h
 #
 include
 <
-assert
-.
-h
->
-#
-include
-<
 ctype
 .
 h
@@ -741,15 +734,10 @@ this
 utility
 *
 /
-typedef
-struct
-sqlite3_vfs
+using
 ObfsVfs
-;
-typedef
-struct
-ObfsFile
-ObfsFile
+=
+sqlite3_vfs
 ;
 /
 *
@@ -767,10 +755,11 @@ defined
 (
 SQLITE_CORE
 )
-typedef
+using
+u8
+=
 unsigned
 char
-u8
 ;
 #
 endif
@@ -907,7 +896,7 @@ the
 file
 *
 /
-char
+bool
 inCkpt
 ;
 /
@@ -1224,7 +1213,7 @@ sqlite3_vfs
 const
 char
 *
-zName
+zPath
 int
 syncDir
 )
@@ -1238,7 +1227,7 @@ sqlite3_vfs
 const
 char
 *
-zName
+zPath
 int
 flags
 int
@@ -1254,7 +1243,7 @@ sqlite3_vfs
 const
 char
 *
-zName
+zPath
 int
 char
 *
@@ -1271,7 +1260,7 @@ sqlite3_vfs
 const
 char
 *
-zFilename
+zPath
 )
 ;
 static
@@ -1329,7 +1318,7 @@ int
 nByte
 char
 *
-zOut
+zBufOut
 )
 ;
 static
@@ -1339,7 +1328,7 @@ obfsSleep
 sqlite3_vfs
 *
 int
-microseconds
+nMicroseconds
 )
 ;
 static
@@ -1813,7 +1802,7 @@ if
 pOut
 =
 =
-0
+nullptr
 )
 {
 pOut
@@ -1835,7 +1824,7 @@ if
 pOut
 =
 =
-0
+nullptr
 )
 {
 sqlite3_log
@@ -1867,7 +1856,7 @@ zFName
 )
 ;
 return
-0
+nullptr
 ;
 }
 p
@@ -2287,7 +2276,7 @@ p
 pPartner
 )
 {
-assert
+MOZ_ASSERT
 (
 p
 -
@@ -2309,14 +2298,14 @@ pPartner
 >
 pPartner
 =
-0
+nullptr
 ;
 p
 -
 >
 pPartner
 =
-0
+nullptr
 ;
 }
 sqlite3_free
@@ -2716,11 +2705,13 @@ if
 zBuf
 =
 =
-0
+nullptr
 )
+{
 return
 SQLITE_IOERR
 ;
+}
 }
 return
 pFile
@@ -3096,7 +3087,7 @@ char
 )
 pArg
 ;
-assert
+MOZ_ASSERT
 (
 azArg
 [
@@ -3104,7 +3095,7 @@ azArg
 ]
 !
 =
-0
+nullptr
 )
 ;
 if
@@ -3115,7 +3106,7 @@ azArg
 ]
 !
 =
-0
+nullptr
 &
 &
 sqlite3_stricmp
@@ -3184,6 +3175,7 @@ p
 >
 pPartner
 )
+{
 p
 -
 >
@@ -3197,6 +3189,7 @@ p
 >
 inCkpt
 ;
+}
 }
 rc
 =
@@ -3566,7 +3559,7 @@ pp
 *
 pp
 =
-0
+nullptr
 ;
 return
 SQLITE_OK
@@ -3669,7 +3662,7 @@ int
 h
 )
 {
-assert
+MOZ_ASSERT
 (
 (
 h
@@ -3973,7 +3966,7 @@ else
 {
 zKey
 =
-0
+nullptr
 ;
 }
 if
@@ -3981,7 +3974,7 @@ if
 zKey
 =
 =
-0
+nullptr
 )
 {
 return
@@ -4307,7 +4300,7 @@ ObfsFile
 )
 pDb
 ;
-assert
+MOZ_ASSERT
 (
 p
 -
@@ -4318,7 +4311,7 @@ pPartner
 pPartner
 =
 =
-0
+nullptr
 )
 ;
 p
@@ -4392,7 +4385,7 @@ char
 *
 zPath
 int
-dirSync
+syncDir
 )
 {
 return
@@ -4409,7 +4402,7 @@ ORIGVFS
 pVfs
 )
 zPath
-dirSync
+syncDir
 )
 ;
 }
@@ -4657,7 +4650,7 @@ sqlite3_vfs
 *
 pVfs
 int
-nMicro
+nMicroseconds
 )
 {
 return
@@ -4673,7 +4666,7 @@ ORIGVFS
 (
 pVfs
 )
-nMicro
+nMicroseconds
 )
 ;
 }
