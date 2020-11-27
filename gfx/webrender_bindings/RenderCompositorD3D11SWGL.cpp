@@ -329,6 +329,15 @@ MOZ_ASSERT
 mContext
 )
 ;
+mSyncObject
+=
+mCompositor
+-
+>
+GetSyncObject
+(
+)
+;
 }
 RenderCompositorD3D11SWGL
 :
