@@ -1,4 +1,14 @@
 /
+*
+eslint
+-
+disable
+no
+-
+undef
+*
+/
+/
 /
 Import
 this
@@ -17,9 +27,6 @@ import
 globals
 -
 from
-.
-.
-/
 .
 .
 /
@@ -98,8 +105,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_non_autoplay
 .

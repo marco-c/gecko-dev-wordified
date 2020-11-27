@@ -1,4 +1,14 @@
 /
+*
+eslint
+-
+disable
+no
+-
+undef
+*
+/
+/
 /
 Import
 this
@@ -17,9 +27,6 @@ import
 globals
 -
 from
-.
-.
-/
 .
 .
 /
@@ -99,8 +106,6 @@ mediacontrol
 /
 tests
 /
-browser
-/
 file_no_src_media
 .
 html
@@ -127,8 +132,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_error_media
 .

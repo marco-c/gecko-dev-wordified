@@ -1,3 +1,13 @@
+/
+*
+eslint
+-
+disable
+no
+-
+undef
+*
+/
 const
 mainPageURL
 =
@@ -19,8 +29,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_main_frame_with_multiple_child_session_frames
 .
@@ -48,8 +56,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_iframe_media
 .

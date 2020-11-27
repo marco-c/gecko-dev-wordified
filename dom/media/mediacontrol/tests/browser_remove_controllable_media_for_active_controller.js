@@ -1,3 +1,13 @@
+/
+*
+eslint
+-
+disable
+no
+-
+undef
+*
+/
 const
 PAGE_URL
 =
@@ -19,8 +29,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_non_autoplay
 .

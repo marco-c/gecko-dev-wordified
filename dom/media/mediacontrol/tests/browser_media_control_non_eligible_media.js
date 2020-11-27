@@ -1,3 +1,13 @@
+/
+*
+eslint
+-
+disable
+no
+-
+undef
+*
+/
 const
 PAGE_NON_ELIGIBLE_MEDIA
 =
@@ -19,8 +29,6 @@ media
 mediacontrol
 /
 tests
-/
-browser
 /
 file_non_eligible_media
 .
@@ -46,9 +54,6 @@ import
 globals
 -
 from
-.
-.
-/
 .
 .
 /
