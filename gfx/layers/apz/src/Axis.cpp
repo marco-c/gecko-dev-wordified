@@ -661,14 +661,14 @@ newVelocity
 mAxisLocked
 ?
 "
-"
-:
-"
 but
 we
 are
 axis
 locked
+"
+:
+"
 "
 )
 ;
