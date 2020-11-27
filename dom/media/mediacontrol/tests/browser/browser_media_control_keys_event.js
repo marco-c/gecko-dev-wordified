@@ -132,7 +132,7 @@ const
 tab
 =
 await
-createTabAndLoad
+createLoadedTabWrapper
 (
 PAGE
 )
@@ -272,11 +272,10 @@ tab
 )
 ;
 await
-BrowserTestUtils
-.
-removeTab
-(
 tab
+.
+close
+(
 )
 ;
 }
@@ -303,7 +302,7 @@ const
 tab
 =
 await
-createTabAndLoad
+createLoadedTabWrapper
 (
 PAGE
 )
@@ -376,11 +375,10 @@ tab
 )
 ;
 await
-BrowserTestUtils
-.
-removeTab
-(
 tab
+.
+close
+(
 )
 ;
 }
