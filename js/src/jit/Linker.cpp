@@ -200,12 +200,6 @@ cx
 )
 ;
 }
-masm
-.
-performPendingReadBarriers
-(
-)
-;
 static
 const
 size_t
