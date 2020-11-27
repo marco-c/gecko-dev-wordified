@@ -123,7 +123,9 @@ mozilla_dom_PushSubscription_h
 #
 include
 "
-jsapi
+js
+/
+RootingAPI
 .
 h
 "

@@ -123,7 +123,9 @@ mozilla_dom_workers_WorkerCommon_h
 #
 include
 "
-jsapi
+js
+/
+TypeDecls
 .
 h
 "
