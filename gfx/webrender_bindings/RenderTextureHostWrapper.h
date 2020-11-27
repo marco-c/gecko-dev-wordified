@@ -275,6 +275,13 @@ AsRenderDXGITextureHost
 )
 override
 ;
+RenderDXGIYCbCrTextureHost
+*
+AsRenderDXGIYCbCrTextureHost
+(
+)
+override
+;
 /
 /
 RenderTextureHostSWGL
