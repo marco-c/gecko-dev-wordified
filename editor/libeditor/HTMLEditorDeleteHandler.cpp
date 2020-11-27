@@ -24564,8 +24564,6 @@ AsText
 )
 )
 ;
-continue
-;
 }
 return
 NS_OK
