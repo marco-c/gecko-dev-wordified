@@ -5481,17 +5481,7 @@ legendReflowInput
 >
 ComputedLogicalOffsets
 (
-)
-.
-ConvertTo
-(
 wm
-legendReflowInput
--
->
-GetWritingMode
-(
-)
 )
 ;
 ReflowInput

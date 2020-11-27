@@ -12532,12 +12532,7 @@ offsets
 =
 ComputedLogicalOffsets
 (
-)
-.
-ConvertTo
-(
 cbwm
-wm
 )
 ;
 if
@@ -12942,6 +12937,7 @@ wm
 +
 ComputedLogicalOffsets
 (
+wm
 )
 .
 Size
