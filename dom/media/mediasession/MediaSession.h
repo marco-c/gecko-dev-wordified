@@ -611,6 +611,11 @@ aState
 )
 ;
 void
+NotifyMediaSessionAttributes
+(
+)
+;
+void
 NotifyPlaybackStateUpdated
 (
 )
