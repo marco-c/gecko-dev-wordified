@@ -1096,6 +1096,15 @@ hooks
 {
 try
 {
+if
+(
+this
+.
+hooks
+.
+onClosed
+)
+{
 this
 .
 hooks
@@ -1104,6 +1113,7 @@ onClosed
 (
 )
 ;
+}
 }
 catch
 (

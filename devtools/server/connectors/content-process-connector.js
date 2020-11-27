@@ -300,11 +300,6 @@ bind
 (
 connection
 )
-onClosed
-(
-)
-{
-}
 }
 ;
 childTransport

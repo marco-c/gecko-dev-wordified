@@ -1262,11 +1262,6 @@ bind
 (
 connection
 )
-onClosed
-(
-)
-{
-}
 }
 ;
 childTransport

@@ -841,14 +841,6 @@ send
 (
 packet
 )
-onClosed
-:
-(
-)
-=
->
-{
-}
 }
 ;
 gMainConnection

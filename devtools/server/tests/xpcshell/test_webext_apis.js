@@ -251,14 +251,6 @@ packet
 ;
 }
 }
-onClosed
-:
-(
-)
-=
->
-{
-}
 }
 ;
 transport

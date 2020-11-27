@@ -282,6 +282,15 @@ this
 hooks
 )
 {
+if
+(
+this
+.
+hooks
+.
+onClosed
+)
+{
 this
 .
 hooks
@@ -290,6 +299,7 @@ onClosed
 (
 )
 ;
+}
 this
 .
 hooks
