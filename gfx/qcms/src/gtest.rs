@@ -1185,6 +1185,9 @@ unsafe
 {
 qcms_profile_precache_output_transform
 (
+&
+mut
+*
 other
 )
 }
@@ -1326,6 +1329,9 @@ unsafe
 {
 qcms_profile_precache_output_transform
 (
+&
+mut
+*
 other
 )
 }
@@ -1950,6 +1956,9 @@ unsafe
 {
 qcms_profile_precache_output_transform
 (
+&
+mut
+*
 srgb_profile
 )
 }
@@ -4178,6 +4187,9 @@ self
 {
 qcms_profile_precache_output_transform
 (
+&
+mut
+*
 self
 .
 out_profile

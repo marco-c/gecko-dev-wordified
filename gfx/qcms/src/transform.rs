@@ -11993,7 +11993,6 @@ bradford_matrix
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -12004,7 +12003,7 @@ qcms_profile_precache_output_transform
 mut
 profile
 :
-*
+&
 mut
 qcms_profile
 )
