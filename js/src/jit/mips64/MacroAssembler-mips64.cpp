@@ -14816,6 +14816,16 @@ isSplatSimd128Load
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+access
+.
+isWidenSimd128Load
+(
+)
+)
+;
 /
 /
 Maybe
