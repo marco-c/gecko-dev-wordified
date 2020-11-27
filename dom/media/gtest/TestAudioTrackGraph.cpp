@@ -177,6 +177,10 @@ clockdrift
 .
 buffering
 "
+using
+namespace
+mozilla
+;
 namespace
 {
 /

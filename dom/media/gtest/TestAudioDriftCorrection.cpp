@@ -143,6 +143,10 @@ gtest
 .
 h
 "
+using
+namespace
+mozilla
+;
 /
 /
 Runs
