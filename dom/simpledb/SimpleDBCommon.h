@@ -133,6 +133,13 @@ QuotaCommon
 .
 h
 "
+#
+include
+"
+nsLiteralString
+.
+h
+"
 /
 /
 SimpleDB
