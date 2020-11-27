@@ -432,17 +432,6 @@ sLinkStatus
 =
 LinkStatus_FAILED
 ;
-#
-ifdef
-MOZ_WAYLAND
-sFFVPXLib
-.
-LinkVAAPILibs
-(
-)
-;
-#
-endif
 /
 /
 We
