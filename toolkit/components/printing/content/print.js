@@ -9165,14 +9165,7 @@ element
 .
 disabled
 =
-element
-.
-name
-!
-=
-"
-cancel
-"
+true
 ;
 }
 }
