@@ -11257,7 +11257,7 @@ FEATURE_UNQUALIFIED_WEBRENDER_NVIDIA_BLOCKED
 ;
 #
 ifndef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 /
 /
 Bug
@@ -11280,12 +11280,16 @@ particular
 driver
 .
 Bug
-1671253
+1674197
 enabled
 this
 on
 nightly
-only
+and
+/
+/
+early
+beta
 .
 APPEND_TO_DRIVER_BLOCKLIST2
 (
