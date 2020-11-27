@@ -267,7 +267,9 @@ param
 {
 nsIPrincipal
 }
+[
 aPrincipal
+]
 -
 Principal
 which
@@ -969,6 +971,9 @@ if
 (
 !
 resetHandlerChoice
+&
+&
+aPrincipal
 )
 {
 let
