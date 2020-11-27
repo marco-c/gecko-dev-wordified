@@ -19328,6 +19328,12 @@ SetLine
 getLine
 (
 sn
+script
+-
+>
+lineno
+(
+)
 )
 ;
 if

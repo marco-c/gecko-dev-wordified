@@ -1414,6 +1414,12 @@ SetLine
 getLine
 (
 sn
+script
+-
+>
+lineno
+(
+)
 )
 ;
 }

@@ -26398,6 +26398,8 @@ PCToLineNumber
 (
 unsigned
 startLine
+unsigned
+startCol
 SrcNote
 *
 notes
@@ -26420,7 +26422,7 @@ startLine
 unsigned
 column
 =
-0
+startCol
 ;
 /
 *
@@ -26549,6 +26551,7 @@ SetLine
 getLine
 (
 sn
+startLine
 )
 ;
 column
@@ -26687,6 +26690,12 @@ script
 -
 >
 lineno
+(
+)
+script
+-
+>
+column
 (
 )
 script
@@ -26910,6 +26919,12 @@ SetLine
 getLine
 (
 sn
+script
+-
+>
+lineno
+(
+)
 )
 ;
 }
@@ -27046,6 +27061,12 @@ SetLine
 getLine
 (
 sn
+script
+-
+>
+lineno
+(
+)
 )
 ;
 }
