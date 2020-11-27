@@ -104,16 +104,6 @@ ContentProcessDomain
 /
 /
 commands
-setDeviceMetricsOverride
-(
-)
-{
-}
-setTouchEmulationEnabled
-(
-)
-{
-}
 /
 *
 *
