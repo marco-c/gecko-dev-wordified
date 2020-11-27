@@ -398,7 +398,11 @@ modified
 field
 set
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Commit
 (
@@ -1612,7 +1616,11 @@ name
 }
 \
 \
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Set
 #
