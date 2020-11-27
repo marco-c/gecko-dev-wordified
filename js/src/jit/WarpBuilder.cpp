@@ -1396,7 +1396,6 @@ MParameter
 :
 :
 THIS_SLOT
-nullptr
 )
 ;
 osrBlock
@@ -1609,7 +1608,6 @@ fallible
 (
 )
 i
-nullptr
 )
 ;
 }
@@ -3213,7 +3211,6 @@ MParameter
 :
 :
 THIS_SLOT
-nullptr
 )
 ;
 current
@@ -3283,7 +3280,6 @@ fallible
 (
 )
 i
-nullptr
 )
 ;
 if
