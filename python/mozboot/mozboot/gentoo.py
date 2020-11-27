@@ -229,18 +229,6 @@ arch
 zip
 '
                           
-'
-sys
--
-devel
-/
-autoconf
-:
-2
-.
-1
-'
-                          
 ]
 )
     

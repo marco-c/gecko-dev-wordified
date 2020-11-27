@@ -100,14 +100,6 @@ packages
 [
             
 '
-autoconf
--
-2
-.
-13
-'
-            
-'
 gmake
 '
             

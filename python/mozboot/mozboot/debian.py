@@ -245,12 +245,6 @@ COMMON_PACKAGES
 [
         
 '
-autoconf2
-.
-13
-'
-        
-'
 build
 -
 essential
