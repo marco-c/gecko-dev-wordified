@@ -210,6 +210,15 @@ use
 crate
 :
 :
+values
+:
+:
+AtomIdent
+;
+use
+crate
+:
+:
 Atom
 ;
 use
@@ -413,7 +422,7 @@ id
 .
 ID
 (
-Atom
+AtomIdent
 )
 /
 /
@@ -428,7 +437,7 @@ name
 .
 Class
 (
-Atom
+AtomIdent
 )
 /
 /
@@ -2880,6 +2889,8 @@ classes
 try_entry
 (
 c
+.
+0
 quirks_mode
 )
 {
@@ -2937,6 +2948,8 @@ ids
 try_entry
 (
 i
+.
+0
 quirks_mode
 )
 {

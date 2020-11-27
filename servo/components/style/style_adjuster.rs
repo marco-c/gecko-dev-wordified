@@ -6441,7 +6441,7 @@ local_name
 =
 &
 *
-local_name
+atom
 !
 (
 "

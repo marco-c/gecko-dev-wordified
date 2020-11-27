@@ -1570,6 +1570,8 @@ push
 (
 c
 .
+0
+.
 clone
 (
 )
@@ -1604,6 +1606,8 @@ classes_added
 push
 (
 c
+.
+0
 .
 clone
 (
