@@ -8603,7 +8603,7 @@ uint32_t
 SimdOp
 :
 :
-V128Load32ZeroExperimental
+V128Load32Zero
 )
 :
 {
@@ -8612,10 +8612,6 @@ LinearMemoryAddress
 Nothing
 >
 addr
-;
-CHECK_SIMD_EXPERIMENTAL
-(
-)
 ;
 CHECK
 (
@@ -8636,7 +8632,7 @@ uint32_t
 SimdOp
 :
 :
-V128Load64ZeroExperimental
+V128Load64Zero
 )
 :
 {
@@ -8645,10 +8641,6 @@ LinearMemoryAddress
 Nothing
 >
 addr
-;
-CHECK_SIMD_EXPERIMENTAL
-(
-)
 ;
 CHECK
 (
