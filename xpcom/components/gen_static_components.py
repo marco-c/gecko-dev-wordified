@@ -4913,6 +4913,38 @@ js_name
     
 )
     
+js_services_json
+=
+{
+}
+    
+for
+entry
+in
+js_services
+.
+values
+(
+)
+:
+        
+for
+iface
+in
+entry
+.
+interfaces
+:
+            
+js_services_json
+[
+iface
+]
+=
+entry
+.
+js_name
+    
 substs
 =
 {
@@ -5397,6 +5429,26 @@ Length
 )
 "
     
+)
+    
+substs
+[
+"
+js_services_json
+"
+]
+=
+json
+.
+dumps
+(
+js_services_json
+sort_keys
+=
+True
+indent
+=
+4
 )
     
 #
@@ -6370,6 +6422,31 @@ endif
 %
 substs
     
+)
+    
+with
+open_output
+(
+"
+services
+.
+json
+"
+)
+as
+fh
+:
+        
+fh
+.
+write
+(
+substs
+[
+"
+js_services_json
+"
+]
 )
     
 return
