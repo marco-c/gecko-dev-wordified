@@ -150,8 +150,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 glean
 {
 NS_IMPL_CLASSINFO
@@ -174,9 +174,6 @@ GleanTimespan
 :
 Start
 (
-JSContext
-*
-cx
 )
 {
 this
@@ -198,9 +195,6 @@ GleanTimespan
 :
 Stop
 (
-JSContext
-*
-cx
 )
 {
 this
@@ -303,9 +297,7 @@ NS_OK
 /
 /
 namespace
-glean
-}
-/
-/
-namespace
 mozilla
+:
+:
+glean

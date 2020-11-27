@@ -139,7 +139,7 @@ now
 *
 *
 param
-value
+aValue
 The
 time
 value
@@ -166,7 +166,7 @@ optional
 ]
 in
 PRTime
-value
+aValue
 )
 ;
 /
@@ -334,9 +334,6 @@ positive
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 add
 (
@@ -505,9 +502,6 @@ to
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 set
 (
@@ -712,9 +706,6 @@ preserved
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 start
 (
@@ -775,9 +766,6 @@ value
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 stop
 (
@@ -944,9 +932,6 @@ to
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 set
 (
@@ -973,9 +958,6 @@ it
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 generateAndSet
 (

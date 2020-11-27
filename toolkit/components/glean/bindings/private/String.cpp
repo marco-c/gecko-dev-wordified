@@ -150,8 +150,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 glean
 {
 NS_IMPL_CLASSINFO
@@ -177,10 +177,7 @@ Set
 const
 nsACString
 &
-value
-JSContext
-*
-cx
+aValue
 )
 {
 this
@@ -190,7 +187,7 @@ mString
 .
 Set
 (
-value
+aValue
 )
 ;
 return
@@ -209,7 +206,7 @@ nsACString
 aStorageName
 JSContext
 *
-cx
+aCx
 JS
 :
 :
@@ -283,7 +280,7 @@ StringValue
 (
 JS_NewUCStringCopyN
 (
-cx
+aCx
 str
 .
 Data
@@ -307,9 +304,7 @@ NS_OK
 /
 /
 namespace
-glean
-}
-/
-/
-namespace
 mozilla
+:
+:
+glean
