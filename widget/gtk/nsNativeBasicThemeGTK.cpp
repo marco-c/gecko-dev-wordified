@@ -111,13 +111,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-gfx
-;
 static
 constexpr
 CSSIntCoord
@@ -752,6 +745,9 @@ aDrawTarget
 FillRect
 (
 aRect
+gfx
+:
+:
 ColorPattern
 (
 ToDeviceColor
@@ -805,6 +801,9 @@ aDrawTarget
 FillRect
 (
 aRect
+gfx
+:
+:
 ColorPattern
 (
 ToDeviceColor
