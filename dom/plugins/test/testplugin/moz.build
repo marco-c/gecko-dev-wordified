@@ -93,6 +93,9 @@ DIRS
 secondplugin
 "
 "
+thirdplugin
+"
+"
 flashplugin
 "
 ]
