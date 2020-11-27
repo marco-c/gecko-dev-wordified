@@ -6498,6 +6498,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+const
 {
 return
 nullptr
