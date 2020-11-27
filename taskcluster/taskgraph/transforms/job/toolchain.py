@@ -1828,7 +1828,8 @@ pop
 "
 arguments
 "
-None
+"
+"
 )
     
 if
