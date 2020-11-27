@@ -6930,7 +6930,7 @@ void
 AudioInputProcessing
 :
 :
-NotifyStarted
+NotifyInputStopped
 (
 MediaTrackGraphImpl
 *
