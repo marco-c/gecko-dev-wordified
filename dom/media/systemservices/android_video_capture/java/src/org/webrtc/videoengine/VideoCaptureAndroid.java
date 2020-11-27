@@ -385,17 +385,6 @@ parts
 [
 1
 ]
-.
-replace
-(
-"
-(
-infrared
-)
-"
-"
-"
-)
 ;
 }
 else
