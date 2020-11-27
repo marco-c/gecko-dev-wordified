@@ -5684,6 +5684,10 @@ update_channel
 ]
                 
 if
+six
+.
+PY2
+and
 isinstance
 (
 update_channel
