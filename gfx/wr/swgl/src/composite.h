@@ -6228,7 +6228,7 @@ occupies
 On
 output
 from
-textureLinearPackedR16
+textureLinearUnpackedR16
 we
 have
 lost
@@ -6280,7 +6280,7 @@ span
 auto
 yPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -6303,7 +6303,7 @@ rescaleBits
 auto
 uPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -6326,7 +6326,7 @@ rescaleBits
 auto
 vPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -6405,7 +6405,7 @@ pixels
 auto
 yPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -6428,7 +6428,7 @@ rescaleBits
 auto
 uPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
@@ -6451,7 +6451,7 @@ rescaleBits
 auto
 vPx
 =
-textureLinearPackedR16
+textureLinearUnpackedR16
 (
 &
 sampler
