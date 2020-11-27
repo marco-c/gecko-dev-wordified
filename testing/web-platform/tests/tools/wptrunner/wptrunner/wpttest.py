@@ -2859,6 +2859,9 @@ protocol
 "
 http
 "
+subdomain
+=
+False
 quic
 =
 False
@@ -2879,6 +2882,7 @@ timeout
                       
 path
 protocol
+subdomain
 quic
 )
         
@@ -3076,6 +3080,12 @@ path
 manifest_test
 .
 path
+                   
+subdomain
+=
+manifest_test
+.
+subdomain
                    
 quic
 =
@@ -3859,6 +3869,9 @@ protocol
 "
 http
 "
+subdomain
+=
+False
 quic
 =
 False
@@ -3887,6 +3900,9 @@ dpi
                                                
 fuzzy
 protocol
+subdomain
+=
+subdomain
 quic
 =
 quic
