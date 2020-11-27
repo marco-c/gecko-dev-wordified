@@ -85,7 +85,7 @@ api
 :
 {
 ImageFormat
-ImageBufferKind
+TextureTarget
 }
 ;
 use
@@ -1578,10 +1578,10 @@ device
 .
 create_texture
 (
-ImageBufferKind
+TextureTarget
 :
 :
-Texture2D
+Default
 image_format
 texture_size
 .

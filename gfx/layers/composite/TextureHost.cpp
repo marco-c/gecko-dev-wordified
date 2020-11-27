@@ -4525,10 +4525,10 @@ TextureHandle
 wr
 :
 :
-ImageBufferKind
+TextureTarget
 :
 :
-TextureRect
+Rect
 )
 :
 wr
