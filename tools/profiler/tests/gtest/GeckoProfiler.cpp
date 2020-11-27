@@ -11623,18 +11623,6 @@ chart
 "
 )
 ;
-/
-/
-TODO
-Uncomment
-when
-fixed
-in
-next
-patch
-.
-/
-/
 EXPECT_EQ_JSON
 (
 schema
@@ -11665,8 +11653,6 @@ label
 "
 )
 ;
-/
-/
 EXPECT_EQ_JSON
 (
 schema
