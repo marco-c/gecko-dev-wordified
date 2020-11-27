@@ -438,7 +438,7 @@ Next
 {
 RefPtr
 <
-nsConnectionEntry
+ConnectionEntry
 >
 ent
 =
@@ -1036,10 +1036,7 @@ Truncate
 ;
 }
 void
-nsHttpConnectionMgr
-:
-:
-nsHalfOpenSocket
+HalfOpenSocket
 :
 :
 PrintDiagnostics
@@ -1994,9 +1991,6 @@ mRestartCount
 ;
 }
 void
-nsHttpConnectionMgr
-:
-:
 PendingTransactionInfo
 :
 :
@@ -2032,7 +2026,7 @@ log
 ;
 RefPtr
 <
-nsHalfOpenSocket
+HalfOpenSocket
 >
 halfOpen
 =
