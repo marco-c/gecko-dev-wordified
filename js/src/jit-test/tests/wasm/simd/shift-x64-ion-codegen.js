@@ -257,11 +257,9 @@ const
 0f
 db
 05
-.
-.
-00
-00
-00
+{
+RIPRADDR
+}
 pandx
 {
 RIPR
