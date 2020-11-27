@@ -101,6 +101,12 @@ yaml
 import
 six
 from
+six
+.
+moves
+import
+input
+from
 mach
 .
 decorators
@@ -321,7 +327,7 @@ try
 return
 strtobool
 (
-raw_input
+input
 (
 prompt
 +
