@@ -4149,6 +4149,7 @@ Vec
 NotificationRequest
 >
 )
+ForceRedraw
 }
 #
 [
