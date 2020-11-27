@@ -286,7 +286,7 @@ unwrap
 test
 ]
 fn
-string_ipc
+datetime_ipc
 (
 )
 {
@@ -304,6 +304,14 @@ _lock
 =
 lock_test
 (
+)
+;
+let
+_t
+=
+setup_glean
+(
+None
 )
 ;
 let
@@ -350,8 +358,7 @@ CommonMetricData
 name
 :
 "
-datetime
-metric
+datetime_metric
 "
 .
 into
