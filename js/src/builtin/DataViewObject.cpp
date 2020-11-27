@@ -5950,12 +5950,11 @@ rval
 .
 set
 (
-DataViewObject
-:
-:
+thisView
+-
+>
 byteOffsetValue
 (
-thisView
 )
 )
 ;
