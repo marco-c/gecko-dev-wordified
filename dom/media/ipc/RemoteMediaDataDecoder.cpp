@@ -124,16 +124,7 @@ h
 #
 include
 "
-base
-/
-thread
-.
-h
-"
-#
-include
-"
-IRemoteDecoderChild
+RemoteDecoderChild
 .
 h
 "
@@ -152,7 +143,7 @@ RemoteMediaDataDecoder
 :
 RemoteMediaDataDecoder
 (
-IRemoteDecoderChild
+RemoteDecoderChild
 *
 aChild
 )

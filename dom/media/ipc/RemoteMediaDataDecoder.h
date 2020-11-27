@@ -138,10 +138,7 @@ namespace
 mozilla
 {
 class
-GpuDecoderModule
-;
-class
-IRemoteDecoderChild
+RemoteDecoderChild
 ;
 class
 RemoteDecoderManagerChild
@@ -218,10 +215,6 @@ RemoteMediaDataDecoder
 {
 public
 :
-friend
-class
-GpuDecoderModule
-;
 friend
 class
 RemoteDecoderManagerChild
@@ -349,7 +342,7 @@ private
 explicit
 RemoteMediaDataDecoder
 (
-IRemoteDecoderChild
+RemoteDecoderChild
 *
 aChild
 )
@@ -401,7 +394,7 @@ thread
 .
 RefPtr
 <
-IRemoteDecoderChild
+RemoteDecoderChild
 >
 mChild
 ;
