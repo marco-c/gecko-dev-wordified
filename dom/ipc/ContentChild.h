@@ -794,11 +794,6 @@ aName
 )
 const
 ;
-void
-LaunchRDDProcess
-(
-)
-;
 #
 if
 defined
