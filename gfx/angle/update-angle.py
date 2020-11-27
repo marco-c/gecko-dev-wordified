@@ -415,10 +415,10 @@ py
 "
 "
     
-"
+'
 include
 (
-'
+"
 .
 .
 /
@@ -430,9 +430,9 @@ moz
 build
 .
 common
-'
-)
 "
+)
+'
 ]
 ROOTS
 =
@@ -2657,14 +2657,14 @@ dest
 .
 append
 (
-"
-{
-}
 '
 {
 }
-'
 "
+{
+}
+"
+'
 .
 format
 (
@@ -3575,6 +3575,17 @@ split
 1
 )
             
+if
+v
+.
+startswith
+(
+'
+"
+'
+)
+:
+                
 v
 =
 f
@@ -3585,6 +3596,20 @@ v
 }
 '
 "
+            
+else
+:
+                
+v
+=
+f
+'
+"
+{
+v
+}
+"
+'
         
 except
 ValueError
@@ -3608,20 +3633,20 @@ try
 line
 =
 f
-"
+'
 DEFINES
 [
-'
+"
 {
 k
 }
-'
+"
 ]
 =
 {
 v
 }
-"
+'
             
 if
 REGISTERED_DEFINES
@@ -3861,19 +3886,19 @@ _win
                 
 config
 =
-"
+'
 CONFIG
 [
-'
+"
 OS_ARCH
-'
+"
 ]
 =
 =
-'
-WINNT
-'
 "
+WINNT
+"
+'
             
 elif
 b
@@ -3896,24 +3921,24 @@ too
                 
 config
 =
-"
+'
 CONFIG
 [
-'
+"
 OS_ARCH
-'
+"
 ]
 not
 in
 (
-'
-Darwin
-'
-'
-WINNT
-'
-)
 "
+Darwin
+"
+"
+WINNT
+"
+)
+'
             
 elif
 b
@@ -3928,19 +3953,19 @@ _mac
                 
 config
 =
-"
+'
 CONFIG
 [
-'
+"
 OS_ARCH
-'
+"
 ]
 =
 =
-'
-Darwin
-'
 "
+Darwin
+"
+'
             
 elif
 b
@@ -3955,19 +3980,19 @@ _posix
                 
 config
 =
-"
+'
 CONFIG
 [
-'
+"
 OS_ARCH
-'
+"
 ]
 !
 =
-'
-WINNT
-'
 "
+WINNT
+"
+'
             
 else
 :
@@ -4037,13 +4062,13 @@ RCFILE
 ]
 =
 f
-"
 '
+"
 {
 x
 }
-'
 "
+'
             
 continue
         
@@ -4082,13 +4107,13 @@ DEFFILE
 ]
 =
 f
-"
 '
+"
 {
 x
 }
-'
 "
+'
             
 continue
         
@@ -4224,12 +4249,12 @@ DEFFILE
 "
 ]
 =
-"
 '
+"
 {
 }
-'
 "
+'
 .
 format
 (
@@ -4581,19 +4606,19 @@ lines
 append
 (
 f
-"
+'
 GeckoSharedLibrary
 (
-'
+"
 {
 name
 }
-'
+"
 linkage
 =
 None
 )
-"
+'
 )
     
 elif
@@ -4610,16 +4635,16 @@ lines
 append
 (
 f
-"
+'
 Library
 (
-'
+"
 {
 name
 }
-'
-)
 "
+)
+'
 )
     
 else
@@ -4628,6 +4653,18 @@ else
 assert
 False
 lib_type
+    
+lines
+.
+append
+(
+"
+"
+)
+;
+#
+EOF
+newline
     
 #
 Write
