@@ -123,13 +123,6 @@ StaticPrefs_widget
 .
 h
 "
-#
-include
-"
-DMABufLibWrapper
-.
-h
-"
 namespace
 mozilla
 {
