@@ -300,6 +300,9 @@ aNewURI
 nsILoadInfo
 *
 aLoadInfo
+mozilla
+:
+:
 Maybe
 <
 nsresult

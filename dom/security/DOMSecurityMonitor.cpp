@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsJSUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_dom
@@ -393,6 +400,9 @@ purposes
 .
 if
 (
+mozilla
+:
+:
 StaticPrefs
 :
 :
