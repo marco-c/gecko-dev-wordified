@@ -12346,14 +12346,12 @@ qcms_transform
 mut
 in_0
 :
-*
-mut
+&
 qcms_profile
 mut
 out
 :
-*
-mut
+&
 qcms_profile
 mut
 samples
@@ -13006,8 +13004,7 @@ qcms_transform_create
 mut
 in_0
 :
-*
-mut
+&
 qcms_profile
 mut
 in_type
@@ -13016,8 +13013,7 @@ qcms_data_type
 mut
 out
 :
-*
-mut
+&
 qcms_profile
 mut
 out_type
