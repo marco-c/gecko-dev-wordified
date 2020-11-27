@@ -4806,10 +4806,6 @@ gpu_cache
 &
 mut
 GpuCache
-render_tasks
-:
-&
-RenderTaskGraph
 prim_headers
 :
 &
@@ -4942,7 +4938,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -5402,7 +5397,6 @@ get_prim_clip_task_address
 prim_info
 .
 clip_task_index
-render_tasks
 )
 ;
 if
@@ -5993,7 +5987,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -7978,7 +7971,6 @@ get_prim_clip_task_address
 child_prim_info
 .
 clip_task_index
-render_tasks
 )
 ;
 let
@@ -10311,22 +10303,24 @@ no_texture
 ;
 let
 backdrop_task_address
+:
+RenderTaskAddress
 =
-render_tasks
-.
-get_task_address
-(
 backdrop_id
+.
+into
+(
 )
 ;
 let
 source_task_address
+:
+RenderTaskAddress
 =
-render_tasks
-.
-get_task_address
-(
 cache_task_id
+.
+into
+(
 )
 ;
 let
@@ -10709,7 +10703,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -11188,7 +11181,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -11430,7 +11422,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -11469,7 +11460,6 @@ transform_id
 batch_features
 ctx
 gpu_cache
-render_tasks
 prim_headers
 )
 ;
@@ -11947,7 +11937,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -11986,7 +11975,6 @@ transform_id
 batch_features
 ctx
 gpu_cache
-render_tasks
 prim_headers
 )
 ;
@@ -12518,7 +12506,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -13394,7 +13381,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -13664,7 +13650,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -13933,7 +13918,6 @@ batch_features
 prim_header_index
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_info
 .
@@ -14315,10 +14299,6 @@ PictureRect
 transform_kind
 :
 TransformedRectKind
-render_tasks
-:
-&
-RenderTaskGraph
 z_id
 :
 ZBufferId
@@ -14382,7 +14362,6 @@ get_clip_task_address
 (
 clip_task_index
 segment_index
-render_tasks
 )
 {
 Some
@@ -14576,10 +14555,6 @@ PictureRect
 transform_kind
 :
 TransformedRectKind
-render_tasks
-:
-&
-RenderTaskGraph
 z_id
 :
 ZBufferId
@@ -14713,7 +14688,6 @@ alpha_blend_mode
 features
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_opacity
 clip_task_index
@@ -14794,7 +14768,6 @@ alpha_blend_mode
 features
 bounding_rect
 transform_kind
-render_tasks
 z_id
 prim_opacity
 clip_task_index
@@ -14877,7 +14850,6 @@ ctx
 get_prim_clip_task_address
 (
 clip_task_index
-render_tasks
 )
 .
 unwrap
@@ -18001,10 +17973,6 @@ ClipTaskIndex
 offset
 :
 i32
-render_tasks
-:
-&
-RenderTaskGraph
 )
 -
 >
@@ -18044,11 +18012,10 @@ task_id
 =
 >
 {
-render_tasks
-.
-get_task_address
-(
 task_id
+.
+into
+(
 )
 }
 ClipMaskKind
@@ -18107,10 +18074,6 @@ self
 clip_task_index
 :
 ClipTaskIndex
-render_tasks
-:
-&
-RenderTaskGraph
 )
 -
 >
@@ -18125,7 +18088,6 @@ get_clip_task_address
 (
 clip_task_index
 0
-render_tasks
 )
 }
 }
