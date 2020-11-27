@@ -1769,7 +1769,6 @@ transform2D
 .
 ScaleFactors
 (
-true
 )
 ;
 if

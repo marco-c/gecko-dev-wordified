@@ -34801,7 +34801,6 @@ CurrentMatrix
 .
 ScaleFactors
 (
-true
 )
 ;
 Matrix

@@ -998,7 +998,6 @@ m
 .
 ScaleFactors
 (
-true
 )
 ;
 mWorldTransform

@@ -27670,7 +27670,6 @@ GetTransform
 .
 ScaleFactors
 (
-true
 )
 ;
 bool
@@ -28233,7 +28232,6 @@ contextMatrix
 .
 ScaleFactors
 (
-true
 )
 )
 ;

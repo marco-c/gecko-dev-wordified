@@ -40088,7 +40088,6 @@ aTransform2d
 .
 ScaleFactors
 (
-true
 )
 ;
 /
@@ -43341,7 +43340,6 @@ transform2d
 .
 ScaleFactors
 (
-true
 )
 ;
 }
