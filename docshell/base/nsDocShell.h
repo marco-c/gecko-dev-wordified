@@ -3985,15 +3985,7 @@ const
 nsAString
 &
 aTitle
-const
-mozilla
-:
-:
-Maybe
-<
 bool
->
-&
 aScrollRestorationIsManual
 nsIStructuredCloneContainer
 *
