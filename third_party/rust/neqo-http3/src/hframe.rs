@@ -257,9 +257,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 enum
 HFrame
 {
@@ -790,9 +787,6 @@ Debug
 )
 ]
 pub
-(
-crate
-)
 struct
 HFrameReader
 {

@@ -592,6 +592,18 @@ marked
 as
 dup
 .
+And
+it
+will
+contain
+padding
+which
+will
+be
+"
+dropped
+"
+.
 check_discarded
 (
 &
@@ -602,7 +614,7 @@ init_pkt_s
 unwrap
 (
 )
-1
+2
 1
 )
 ;

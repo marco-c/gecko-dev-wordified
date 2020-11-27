@@ -187,8 +187,6 @@ assert_eq
 !
 (
 headers
-Some
-(
 vec
 !
 [
@@ -279,7 +277,6 @@ from
 )
 )
 ]
-)
 )
 ;
 assert_eq
@@ -415,8 +412,6 @@ assert_eq
 !
 (
 headers
-Some
-(
 vec
 !
 [
@@ -464,7 +459,6 @@ from
 )
 )
 ]
-)
 )
 ;
 assert_eq

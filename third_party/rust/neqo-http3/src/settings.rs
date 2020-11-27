@@ -80,6 +80,17 @@ to
 those
 terms
 .
+#
+!
+[
+allow
+(
+clippy
+:
+:
+module_name_repetitions
+)
+]
 use
 crate
 :
@@ -215,9 +226,6 @@ Copy
 )
 ]
 pub
-(
-crate
-)
 enum
 HSettingType
 {
@@ -273,9 +281,6 @@ PartialEq
 )
 ]
 pub
-(
-crate
-)
 struct
 HSetting
 {
@@ -324,9 +329,6 @@ PartialEq
 )
 ]
 pub
-(
-crate
-)
 struct
 HSettings
 {
