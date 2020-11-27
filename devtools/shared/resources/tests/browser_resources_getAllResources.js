@@ -256,8 +256,7 @@ waitUntil
 availableResources
 .
 length
-=
-=
+>
 =
 messages
 .
