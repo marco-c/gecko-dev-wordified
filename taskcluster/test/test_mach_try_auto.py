@@ -704,8 +704,10 @@ symbols
 def
 test_tasks_are_not_scheduled
 (
+    
 optimized_task_graph
 filter_tasks
+print_dependents
 func
 )
 :
@@ -774,6 +776,18 @@ optimized_task_graph
 func
 )
 ]
+    
+for
+t
+in
+tasks
+:
+        
+print_dependents
+(
+optimized_task_graph
+t
+)
     
 assert
 tasks
