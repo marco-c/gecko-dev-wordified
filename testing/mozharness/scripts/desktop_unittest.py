@@ -6777,7 +6777,17 @@ path
 .
 join
 (
-dir
+                
+self
+.
+query_abs_dirs
+(
+)
+[
+"
+abs_blob_upload_dir
+"
+]
 "
 system
 -
@@ -6785,6 +6795,7 @@ info
 .
 log
 "
+            
 )
             
 with
