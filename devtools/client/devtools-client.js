@@ -4790,8 +4790,8 @@ prefix
 Call
 Front
 .
-purgeRequestsForDestroy
-instead
+baseFrontClassDestroy
+nstead
 of
 Front
 .
@@ -4840,7 +4840,7 @@ purge
 .
 front
 .
-purgeRequestsForDestroy
+baseFrontClassDestroy
 (
 )
 ;
