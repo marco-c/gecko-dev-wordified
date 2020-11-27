@@ -1736,7 +1736,7 @@ with
 rate
 limiting
 of
-10
+15
 pings
 every
 60
@@ -1776,7 +1776,7 @@ interval
 /
 *
 max
-tasks
+pings
 per
 interval
 *
