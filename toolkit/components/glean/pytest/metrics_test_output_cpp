@@ -192,6 +192,10 @@ timespan_metric
 11
 )
 ;
+}
+namespace
+test_nested
+{
 /
 *
 *
@@ -199,6 +203,8 @@ timespan_metric
 generated
 from
 test
+.
+nested
 .
 uuid_metric
 *
