@@ -116,6 +116,8 @@ from
 collections
 import
 OrderedDict
+import
+six
 SCRIPT_DIR
 =
 os
@@ -878,10 +880,11 @@ utils
 .
 indexed_items
 (
-data
+six
 .
 iteritems
 (
+data
 )
 )
 :

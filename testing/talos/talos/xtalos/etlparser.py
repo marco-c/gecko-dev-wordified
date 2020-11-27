@@ -87,6 +87,8 @@ talos
 xtalos
 import
 xtalos
+import
+six
 EVENTNAME_INDEX
 =
 0
@@ -615,10 +617,9 @@ try
             
 row
 =
-data
-.
 next
 (
+data
 )
         
 except
@@ -2881,10 +2882,11 @@ cntr
 in
 sorted
 (
-io
+six
 .
 iterkeys
 (
+io
 )
 )
 :
@@ -3029,12 +3031,21 @@ in
     
 filekeys
 =
-filter
-(
+[
         
-lambda
 x
-:
+        
+for
+x
+in
+six
+.
+iterkeys
+(
+files
+)
+        
+if
 (
 all_stages
 or
@@ -3094,14 +3105,8 @@ x
 whitelist
 )
 )
-        
-files
-.
-iterkeys
-(
-)
     
-)
+]
     
 if
 debug
@@ -3147,12 +3152,21 @@ mode
         
 outputData
 =
-filter
-(
+[
             
-lambda
 x
-:
+            
+for
+x
+in
+six
+.
+iterkeys
+(
+files
+)
+            
+if
 (
 all_stages
 or
@@ -3208,14 +3222,8 @@ whitelist
 )
             
 )
-            
-files
-.
-iterkeys
-(
-)
         
-)
+]
     
 else
 :

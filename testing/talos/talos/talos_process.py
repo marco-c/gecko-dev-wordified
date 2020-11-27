@@ -62,6 +62,8 @@ pprint
 import
 signal
 import
+six
+import
 sys
 import
 time
@@ -503,6 +505,15 @@ self
 line
 )
 :
+        
+line
+=
+six
+.
+ensure_str
+(
+line
+)
         
 if
 line
@@ -1193,6 +1204,10 @@ got_end_timestamp
 for
 i
 in
+six
+.
+moves
+.
 range
 (
 1

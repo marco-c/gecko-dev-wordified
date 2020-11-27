@@ -119,6 +119,8 @@ from
 uuid
 import
 UUID
+import
+six
 #
 This
 constant
@@ -424,7 +426,13 @@ row
 class
 XPerfAttribute
 (
+six
+.
+with_metaclass
+(
+ABCMeta
 object
+)
 )
 :
     
@@ -509,10 +517,6 @@ __init__
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 #
 Keys
@@ -2187,12 +2191,13 @@ key
 comp
 )
 in
-self
-.
-filters
+six
 .
 iteritems
 (
+self
+.
+filters
 )
 :
             
@@ -2365,12 +2370,13 @@ k
 v
 )
 in
-self
-.
-values
+six
 .
 iteritems
 (
+self
+.
+values
 )
 :
                 
@@ -2924,7 +2930,13 @@ timestamp
 class
 EventExpression
 (
+six
+.
+with_metaclass
+(
+ABCMeta
 object
+)
 )
 :
     
@@ -3008,10 +3020,6 @@ them
 "
 "
 "
-    
-__metaclass__
-=
-ABCMeta
     
 def
 __init__
@@ -7136,10 +7144,9 @@ try
                 
 row
 =
-csvdata
-.
 next
 (
+csvdata
 )
             
 except

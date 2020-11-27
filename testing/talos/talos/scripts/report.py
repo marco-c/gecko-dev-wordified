@@ -11,6 +11,8 @@ csv
 import
 os
 import
+six
+import
 sys
 from
 calendar
@@ -605,6 +607,10 @@ week_avgs
 for
 j
 in
+six
+.
+moves
+.
 range
 (
 7
@@ -800,6 +806,10 @@ y
 for
 i
 in
+six
+.
+moves
+.
 range
 (
 1
@@ -888,6 +898,10 @@ clean_week
 for
 i
 in
+six
+.
+moves
+.
 range
 (
 5
@@ -1056,11 +1070,13 @@ platform
         
 tuple_list
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+tuple_list
+if
 x
 [
 4
@@ -1070,8 +1086,7 @@ x
 args
 .
 platform
-tuple_list
-)
+]
         
 f
 +
@@ -1094,11 +1109,13 @@ test
         
 tuple_list
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+tuple_list
+if
 x
 [
 3
@@ -1108,8 +1125,7 @@ x
 args
 .
 test
-tuple_list
-)
+]
         
 f
 +

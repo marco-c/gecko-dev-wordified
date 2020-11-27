@@ -110,6 +110,8 @@ from
 talos
 import
 utils
+import
+six
 KEY_XRE
 =
 "
@@ -368,12 +370,13 @@ for
 path
 subst
 in
-self
-.
-path_substitutions
+six
 .
 iteritems
 (
+self
+.
+path_substitutions
 )
 :
             
@@ -631,12 +634,13 @@ for
 old_name
 new_name
 in
-self
-.
-name_substitutions
+six
 .
 iteritems
 (
+self
+.
+name_substitutions
 )
 :
             
@@ -735,10 +739,11 @@ errors
 for
 row_key
 in
-test
+six
 .
 iterkeys
 (
+test
 )
 :
             
@@ -887,10 +892,11 @@ utils
 .
 indexed_items
 (
-test
+six
 .
 iteritems
 (
+test
 )
 )
 :
@@ -1148,10 +1154,11 @@ for
 filename
 data
 in
-errors
+six
 .
 iteritems
 (
+errors
 )
 :
             

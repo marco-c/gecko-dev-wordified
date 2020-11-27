@@ -119,6 +119,8 @@ from
 talos
 import
 heavy
+import
+six
 here
 =
 os
@@ -495,6 +497,10 @@ for
 k
 v
 in
+six
+.
+iteritems
+(
 self
 .
 browser_config
@@ -503,9 +509,6 @@ browser_config
 env
 "
 ]
-.
-iteritems
-(
 )
 :
             
@@ -1200,7 +1203,9 @@ if
 isinstance
 (
 webextensions_folder
-basestring
+six
+.
+string_types
 )
 :
             
@@ -1269,7 +1274,9 @@ if
 isinstance
 (
 webextensions
-basestring
+six
+.
+string_types
 )
 :
             

@@ -4,6 +4,8 @@ import
 absolute_import
 import
 math
+import
+six
 "
 "
 "
@@ -559,12 +561,15 @@ odd
 return
 series
 [
+int
+(
 len
 (
 series
 )
 /
 2
+)
 ]
     
 else
@@ -575,12 +580,15 @@ even
         
 middle
 =
+int
+(
 len
 (
 series
 )
 /
 2
+)
 #
 the
 higher
@@ -848,6 +856,10 @@ size
 for
 i
 in
+six
+.
+moves
+.
 range
 (
 0

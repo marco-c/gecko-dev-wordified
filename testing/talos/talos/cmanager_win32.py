@@ -58,6 +58,8 @@ __future__
 import
 absolute_import
 import
+six
+import
 struct
 from
 ctypes
@@ -365,6 +367,10 @@ path
 for
 j
 in
+six
+.
+moves
+.
 range
 (
 0

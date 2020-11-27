@@ -41,6 +41,8 @@ talos
 test
 import
 PageloaderTest
+import
+six
 ORIGINAL_DEFAULTS
 =
 copy
@@ -2247,10 +2249,11 @@ for
 key
 val
 in
-config
+six
 .
 iteritems
 (
+config
 )
 if
 val
