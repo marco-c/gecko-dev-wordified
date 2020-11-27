@@ -426,11 +426,6 @@ OSXNotificationCenter
 mm
 "
 "
-ProcInfo
-.
-mm
-"
-"
 ScreenHelperCocoa
 .
 mm

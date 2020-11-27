@@ -355,11 +355,6 @@ nsWidgetFactory
 cpp
 "
 "
-ProcInfo
-.
-cpp
-"
-"
 ScreenHelperGTK
 .
 cpp
