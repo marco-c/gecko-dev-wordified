@@ -1046,6 +1046,7 @@ h
 "
 ;
 using
+struct
 mozilla
 :
 :
@@ -1078,6 +1079,7 @@ h
 "
 ;
 using
+struct
 mozilla
 :
 :

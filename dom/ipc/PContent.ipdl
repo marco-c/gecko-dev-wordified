@@ -399,6 +399,17 @@ include
 "
 mozilla
 /
+ipc
+/
+ByteBufUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
 PermissionDelegateIPCUtils
 .
 h
