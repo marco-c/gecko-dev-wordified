@@ -1798,12 +1798,11 @@ navigate
 {
 if
 (
-!
 this
 .
 dataProvider
 .
-hasPendingRequests
+isPayloadQueueEmpty
 (
 )
 )
@@ -1832,11 +1831,12 @@ this
 dataProvider
 &
 &
+!
 this
 .
 dataProvider
 .
-hasPendingRequests
+isPayloadQueueEmpty
 (
 )
 )
