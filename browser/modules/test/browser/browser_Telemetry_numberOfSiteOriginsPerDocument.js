@@ -402,6 +402,7 @@ an
 interstitial
 page
 .
+await
 BrowserTestUtils
 .
 loadURI
@@ -434,6 +435,7 @@ another
 test
 page
 .
+await
 BrowserTestUtils
 .
 loadURI

@@ -289,6 +289,7 @@ popup
 with
 NON_POPUP_OPENER
 .
+await
 BrowserTestUtils
 .
 loadURI

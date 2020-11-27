@@ -863,6 +863,7 @@ Load
 the
 URIs
 .
+await
 BrowserTestUtils
 .
 loadURI
@@ -881,6 +882,7 @@ browserLoaded
 bg
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1262,6 +1264,7 @@ that
 everything
 works
 nicely
+await
 BrowserTestUtils
 .
 loadURI
@@ -1282,6 +1285,7 @@ browserLoaded
 bg
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1308,6 +1312,7 @@ Load
 the
 URIs
 .
+await
 BrowserTestUtils
 .
 loadURI
@@ -1326,6 +1331,7 @@ browserLoaded
 bg
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

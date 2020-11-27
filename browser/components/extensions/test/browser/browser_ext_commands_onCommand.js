@@ -814,6 +814,7 @@ openNewBrowserWindow
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1319,6 +1320,7 @@ openNewBrowserWindow
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1562,6 +1564,7 @@ true
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -228,6 +228,7 @@ true
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

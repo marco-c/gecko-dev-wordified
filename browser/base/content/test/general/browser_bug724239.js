@@ -195,6 +195,7 @@ newtab
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -229,6 +230,7 @@ com
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -287,6 +287,7 @@ scrollHeight
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

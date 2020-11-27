@@ -250,6 +250,7 @@ Time
 }
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

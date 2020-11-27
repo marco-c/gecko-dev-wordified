@@ -482,6 +482,7 @@ check
 the
 counts
 .
+await
 BrowserTestUtils
 .
 loadURI
@@ -611,6 +612,7 @@ openNewBrowserWindow
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -793,6 +795,7 @@ gBrowser
 selectedBrowser
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -855,6 +858,7 @@ the
 unique
 count
 .
+await
 BrowserTestUtils
 .
 loadURI
@@ -921,6 +925,7 @@ a
 different
 domain
 .
+await
 BrowserTestUtils
 .
 loadURI
@@ -1159,6 +1164,7 @@ a
 >
 "
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -312,6 +312,7 @@ file_mixedContentFromOnunload_test1
 html
 "
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -419,6 +420,7 @@ file_mixedContentFromOnunload
 html
 "
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -445,6 +447,7 @@ file_mixedContentFromOnunload_test2
 html
 "
 ;
+await
 BrowserTestUtils
 .
 loadURI

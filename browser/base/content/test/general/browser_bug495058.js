@@ -71,6 +71,7 @@ addTab
 gBrowser
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -79,16 +80,6 @@ tab
 .
 linkedBrowser
 uri
-)
-;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-tab
-.
-linkedBrowser
 )
 ;
 let

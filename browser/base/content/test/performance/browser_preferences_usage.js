@@ -1650,6 +1650,7 @@ url
 .
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

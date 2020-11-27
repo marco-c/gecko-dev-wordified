@@ -601,6 +601,7 @@ https
 :
 /
 /
+await
 BrowserTestUtils
 .
 loadURI

@@ -233,6 +233,7 @@ browserLoaded
 browser
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

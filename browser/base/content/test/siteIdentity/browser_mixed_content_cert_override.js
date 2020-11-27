@@ -347,6 +347,7 @@ even
 without
 mixed
 content
+await
 BrowserTestUtils
 .
 loadURI

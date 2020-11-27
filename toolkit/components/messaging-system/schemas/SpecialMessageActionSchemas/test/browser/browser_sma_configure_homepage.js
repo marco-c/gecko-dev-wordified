@@ -729,6 +729,7 @@ home
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

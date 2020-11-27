@@ -934,6 +934,7 @@ where
 it
 came
 from
+await
 BrowserTestUtils
 .
 loadURI

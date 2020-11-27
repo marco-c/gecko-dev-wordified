@@ -192,6 +192,7 @@ navigated
 away
 from
 newtab
+await
 BrowserTestUtils
 .
 loadURI
@@ -281,6 +282,7 @@ and
 confirm
 toolbar
 reappears
+await
 BrowserTestUtils
 .
 loadURI
@@ -532,6 +534,7 @@ example
 should
 show
 toolbar
+await
 BrowserTestUtils
 .
 loadURI
@@ -750,6 +753,7 @@ newtab
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

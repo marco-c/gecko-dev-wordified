@@ -3612,6 +3612,7 @@ null
 isErrorPage
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

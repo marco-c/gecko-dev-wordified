@@ -1055,6 +1055,7 @@ non
 remote
 entry
 .
+await
 BrowserTestUtils
 .
 loadURI

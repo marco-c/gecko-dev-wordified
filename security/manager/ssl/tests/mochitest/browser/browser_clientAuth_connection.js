@@ -1148,6 +1148,7 @@ openNewBrowserWindow
 options
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

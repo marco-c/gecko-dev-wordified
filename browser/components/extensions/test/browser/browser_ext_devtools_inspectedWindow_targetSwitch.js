@@ -249,6 +249,7 @@ target
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

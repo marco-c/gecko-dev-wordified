@@ -426,6 +426,7 @@ blank
 page
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -1104,6 +1104,7 @@ function
 browser
 )
 {
+await
 BrowserTestUtils
 .
 loadURI
@@ -1431,6 +1432,7 @@ blockedIconHidden
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -1724,6 +1726,7 @@ blockedIconHidden
 (
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -372,6 +372,7 @@ includeSubFrames
 /
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -308,6 +308,7 @@ null
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

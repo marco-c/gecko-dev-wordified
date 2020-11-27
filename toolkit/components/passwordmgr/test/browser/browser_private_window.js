@@ -3114,6 +3114,7 @@ browser
 ownerGlobal
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

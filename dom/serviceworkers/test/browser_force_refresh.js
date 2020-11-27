@@ -527,6 +527,7 @@ selectedTab
 =
 tab
 ;
+await
 BrowserTestUtils
 .
 loadURI

@@ -3789,6 +3789,7 @@ blank
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -3799,14 +3800,6 @@ about
 :
 blank
 "
-)
-;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-browser
 )
 ;
 }

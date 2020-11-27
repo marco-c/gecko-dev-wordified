@@ -1155,6 +1155,7 @@ forward
 "
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI

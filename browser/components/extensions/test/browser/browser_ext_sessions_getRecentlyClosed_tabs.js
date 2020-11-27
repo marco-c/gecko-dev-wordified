@@ -359,6 +359,7 @@ config
 ]
 )
 {
+await
 BrowserTestUtils
 .
 loadURI
