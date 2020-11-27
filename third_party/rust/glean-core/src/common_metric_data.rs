@@ -529,7 +529,7 @@ CommonMetricData
 /
 /
 /
-Creates
+Create
 a
 new
 metadata

@@ -494,7 +494,7 @@ UploadResult
 /
 /
 /
-Gets
+Get
 the
 label
 to
