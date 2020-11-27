@@ -353,6 +353,9 @@ ParserAtomEntry
 class
 WellKnownParserAtoms_ROM
 ;
+struct
+CompilationAtomCache
+;
 }
 /
 /
@@ -8774,6 +8777,16 @@ frontend
 :
 :
 WellKnownParserAtoms_ROM
+;
+friend
+struct
+js
+:
+:
+frontend
+:
+:
+CompilationAtomCache
 ;
 private
 :
