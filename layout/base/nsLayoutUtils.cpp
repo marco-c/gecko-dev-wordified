@@ -6229,6 +6229,11 @@ nsIFrame
 aPrimaryFrame
 )
 {
+MOZ_ASSERT
+(
+aPrimaryFrame
+)
+;
 if
 (
 aPrimaryFrame
