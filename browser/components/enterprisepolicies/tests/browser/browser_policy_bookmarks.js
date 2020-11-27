@@ -710,6 +710,11 @@ onItemChanged
 )
 {
 }
+onItemVisited
+(
+)
+{
+}
 onItemMoved
 (
 )

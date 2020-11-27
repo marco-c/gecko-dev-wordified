@@ -503,6 +503,14 @@ change
 )
 ;
 }
+onItemVisited
+:
+(
+)
+=
+>
+{
+}
 onItemMoved
 (
 aItemId

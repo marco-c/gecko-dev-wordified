@@ -2204,6 +2204,11 @@ onManyFrecenciesChanged
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )

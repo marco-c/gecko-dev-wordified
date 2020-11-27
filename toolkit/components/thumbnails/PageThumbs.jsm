@@ -5345,6 +5345,11 @@ onEndUpdateBatch
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )

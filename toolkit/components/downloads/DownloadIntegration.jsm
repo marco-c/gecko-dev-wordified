@@ -7809,6 +7809,11 @@ onEndUpdateBatch
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )

@@ -472,6 +472,11 @@ onDeleteURI
 )
 {
 }
+onPageChanged
+(
+)
+{
+}
 onDeleteVisits
 (
 )
