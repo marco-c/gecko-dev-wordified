@@ -430,7 +430,7 @@ closing
 the
 channel
 .
-sync
+async
 WillClose
 (
 )
