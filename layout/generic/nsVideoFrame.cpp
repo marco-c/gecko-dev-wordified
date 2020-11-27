@@ -4735,13 +4735,7 @@ imgSize
 }
 }
 return
-CSSPixel
-:
-:
-ToAppUnits
-(
-kFallbackIntrinsicSizeInPixels
-)
+kFallbackIntrinsicSize
 ;
 }
 IntrinsicSize
