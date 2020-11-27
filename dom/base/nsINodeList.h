@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIContent
+nsISupports
 .
 h
 "
