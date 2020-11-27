@@ -675,9 +675,6 @@ this
 .
 _startedDateTime
 )
-request
-:
-{
 url
 :
 this
@@ -692,7 +689,6 @@ this
 _request
 .
 method
-}
 isXHR
 :
 this
@@ -703,10 +699,6 @@ cause
 this
 .
 _cause
-response
-:
-{
-}
 timings
 :
 {
@@ -781,10 +773,6 @@ _serial
 this
 .
 _channelId
-updates
-:
-[
-]
 }
 ;
 }
@@ -1809,13 +1797,6 @@ postData
 text
 )
 ;
-const
-dataSize
-=
-postData
-.
-size
-;
 postData
 .
 text
@@ -1836,7 +1817,6 @@ _onEventUpdate
 requestPostData
 "
 {
-dataSize
 }
 )
 ;
@@ -2037,8 +2017,9 @@ _onEventUpdate
 responseStart
 "
 {
-response
-:
+.
+.
+.
 info
 }
 )
@@ -2471,11 +2452,6 @@ contentSize
 content
 .
 size
-encoding
-:
-content
-.
-encoding
 transferredSize
 :
 content
