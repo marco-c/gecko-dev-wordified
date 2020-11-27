@@ -6915,16 +6915,6 @@ menubar
 Atom
 (
 "
-menubutton
-"
-"
-menubutton
-"
-)
-    
-Atom
-(
-"
 menucaption
 "
 "
