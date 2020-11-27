@@ -4642,9 +4642,12 @@ ObjectElements
 FROZEN
 comment
 .
-ITERATED_SINGLETON
-=
+/
+/
 0x200
+is
+unused
+.
 NEW_GROUP_UNKNOWN
 =
 0x400

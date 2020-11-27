@@ -1386,13 +1386,6 @@ shrinkCapacityToInitializedLength
 cx
 )
 ;
-MarkObjectGroupFlags
-(
-cx
-obj
-OBJECT_FLAG_NON_EXTENSIBLE_ELEMENTS
-)
-;
 }
 /
 /
