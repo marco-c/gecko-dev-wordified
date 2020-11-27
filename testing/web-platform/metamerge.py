@@ -553,13 +553,10 @@ base
 compile
 (
 Compiler
-                        
 stream
-                        
 data_cls_getter
 =
 data_cls_getter
-                        
 *
 *
 kwargs
@@ -602,7 +599,6 @@ return
 compile
 (
 f
-                           
 data_cls_getter
 =
 data_cls_getter
@@ -759,6 +755,7 @@ modified
 .
 append
 (
+                    
 "
 %
 s
@@ -793,6 +790,7 @@ item
 4
 )
 )
+                
 )
             
 else
@@ -907,6 +905,7 @@ join
 (
 modified
 )
+        
 )
 TestModified
 =
@@ -931,6 +930,7 @@ ExpectedModified
 =
 namedtuple
 (
+    
 "
 ExpectedModified
 "
@@ -983,10 +983,13 @@ child_map
         
 compare_expected
 (
+            
 changes
+            
 subtest
+            
 ancestor_subtest_manifest
-                         
+            
 new_manifest
 .
 child_map
@@ -995,6 +998,7 @@ get
 (
 subtest
 )
+        
 )
     
 for
@@ -1043,9 +1047,9 @@ new_manifest
 :
     
 if
-(
 not
 (
+        
 ancestor_manifest
 and
 ancestor_manifest
@@ -1056,13 +1060,14 @@ has_key
 expected
 "
 )
-)
-and
 #
 noqa
 W601
-        
+    
+)
+and
 (
+        
 new_manifest
 and
 new_manifest
@@ -1073,12 +1078,12 @@ has_key
 expected
 "
 )
-)
+#
+noqa
+W601
+    
 )
 :
-#
-noqa
-W601
         
 changes
 .
@@ -1086,17 +1091,21 @@ modified
 .
 append
 (
+            
 ExpectedModified
 (
 subtest
 ancestor_manifest
 new_manifest
 )
+        
 )
     
 elif
 (
+        
 ancestor_manifest
+        
 and
 ancestor_manifest
 .
@@ -1106,11 +1115,11 @@ has_key
 expected
 "
 )
-and
 #
 noqa
 W601
-          
+        
+and
 not
 (
 new_manifest
@@ -1124,11 +1133,12 @@ expected
 "
 )
 )
-)
-:
 #
 noqa
 W601
+    
+)
+:
         
 changes
 .
@@ -1141,7 +1151,9 @@ subtest
     
 elif
 (
+        
 ancestor_manifest
+        
 and
 ancestor_manifest
 .
@@ -1151,12 +1163,13 @@ has_key
 expected
 "
 )
-and
 #
 noqa
 W601
-          
+        
+and
 new_manifest
+        
 and
 new_manifest
 .
@@ -1166,11 +1179,12 @@ has_key
 expected
 "
 )
+#
+noqa
+W601
+    
 )
 :
-#
-noqa
-W601
         
 old_expected
 =
@@ -1208,12 +1222,14 @@ modified
 .
 append
 (
+                
 ExpectedModified
 (
 subtest
 ancestor_manifest
 new_manifest
 )
+            
 )
 def
 expected_values_changed
@@ -1371,9 +1387,7 @@ test_differences
 compare_test
 (
 test
-                                            
 ancestor_test_manifest
-                                            
 test_manifest
 )
             
@@ -1387,12 +1401,14 @@ modified
 .
 append
 (
+                    
 TestModified
 (
 test
 test_manifest
 test_differences
 )
+                
 )
     
 for
@@ -1768,9 +1784,11 @@ updated_current_str
 =
 make_changes
 (
+        
 ancestor_manifest
 current_manifest
 new_manifest
+    
 )
     
 if
