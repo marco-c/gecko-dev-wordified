@@ -58,8 +58,6 @@ sys
 import
 urllib
 import
-urlparse
-import
 zipfile
 if
 sys
@@ -496,18 +494,24 @@ requests
 .
 head
 (
-urlparse
+            
+urllib
+.
+parse
 .
 urljoin
 (
 SYMBOL_SERVER_URL
 urllib
 .
+parse
+.
 quote
 (
 filename
 )
 )
+        
 )
         
 return

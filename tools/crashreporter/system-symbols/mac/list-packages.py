@@ -237,7 +237,7 @@ products
 =
 reposadocommon
 .
-getProductInfo
+get_product_info
 (
 )
 args
@@ -250,7 +250,7 @@ p
 in
 products
 .
-iteritems
+items
 (
 )
 :
