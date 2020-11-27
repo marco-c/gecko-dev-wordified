@@ -14414,11 +14414,6 @@ onBeforeItemRemoved
 )
 {
 }
-onItemVisited
-(
-)
-{
-}
 onItemMoved
 (
 aItemId

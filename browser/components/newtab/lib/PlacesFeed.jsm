@@ -537,11 +537,6 @@ onEndUpdateBatch
 )
 {
 }
-onItemVisited
-(
-)
-{
-}
 onItemMoved
 (
 )

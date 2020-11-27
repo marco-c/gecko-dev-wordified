@@ -503,14 +503,6 @@ change
 )
 ;
 }
-onItemVisited
-:
-(
-)
-=
->
-{
-}
 onItemMoved
 (
 aItemId
