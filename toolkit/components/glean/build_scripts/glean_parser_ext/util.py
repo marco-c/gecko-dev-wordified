@@ -226,13 +226,7 @@ IMPLEMENTED_CPP_TYPES
 counter
 "
 "
-string
-"
-"
 timespan
-"
-"
-uuid
 "
 ]
 def
