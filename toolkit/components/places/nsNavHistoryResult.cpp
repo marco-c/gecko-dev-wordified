@@ -22795,8 +22795,6 @@ return
 NS_OK
 ;
 }
-else
-{
 /
 /
 moving
@@ -22929,7 +22927,6 @@ aNewParentGUID
 aSource
 )
 ;
-}
 }
 return
 NS_OK
