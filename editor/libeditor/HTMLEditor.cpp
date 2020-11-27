@@ -20590,7 +20590,7 @@ NS_WARN_IF
 HTMLEditUtils
 :
 :
-IsSimplyEditableNode
+IsRemovableNode
 (
 aContent
 )
