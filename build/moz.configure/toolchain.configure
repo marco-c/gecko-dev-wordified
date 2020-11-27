@@ -5282,6 +5282,11 @@ nasm
 lucetc
 "
 ]
+[
+"
+sccache
+"
+]
 )
 ]
 #
@@ -5804,6 +5809,12 @@ progs
 input
 =
 ccache
+paths
+=
+toolchain_search_path
+allow_missing
+=
+True
 )
 option
 (
