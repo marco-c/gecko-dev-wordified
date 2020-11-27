@@ -698,10 +698,7 @@ mMutex
 )
 mMainThread
 (
-AbstractThread
-:
-:
-MainThread
+GetMainThreadSerialEventTarget
 (
 )
 )
