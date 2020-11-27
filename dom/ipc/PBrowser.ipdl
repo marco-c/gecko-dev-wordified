@@ -224,6 +224,17 @@ mozilla
 /
 dom
 /
+CSPMessageUtils
+.
+h
+"
+;
+include
+"
+mozilla
+/
+dom
+/
 DocShellMessageUtils
 .
 h
