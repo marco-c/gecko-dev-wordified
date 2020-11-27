@@ -183,8 +183,8 @@ FieldSet
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLFieldSetElement
@@ -1814,9 +1814,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

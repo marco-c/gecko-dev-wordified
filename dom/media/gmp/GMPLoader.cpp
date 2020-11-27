@@ -243,8 +243,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 class
@@ -1121,9 +1121,7 @@ mSandboxStarter
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

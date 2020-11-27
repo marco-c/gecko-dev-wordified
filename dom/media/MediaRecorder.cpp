@@ -459,8 +459,8 @@ MAX_AUDIO_BITRATE_BPS
 512kbps
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -13645,12 +13645,10 @@ sUniqueInstance
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 undef
 LOG

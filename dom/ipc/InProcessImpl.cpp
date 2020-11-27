@@ -188,8 +188,8 @@ facilities
 .
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 StaticRefPtr
@@ -2002,9 +2002,7 @@ nsIDOMProcessChild
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

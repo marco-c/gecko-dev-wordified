@@ -234,8 +234,8 @@ media
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -3614,9 +3614,7 @@ mTrack
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

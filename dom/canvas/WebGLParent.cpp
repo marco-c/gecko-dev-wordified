@@ -163,8 +163,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 mozilla
@@ -1985,9 +1985,7 @@ IPC_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

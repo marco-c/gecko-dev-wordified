@@ -288,8 +288,8 @@ endif
 DEBUG
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -4422,9 +4422,7 @@ DOMProxyHandler
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

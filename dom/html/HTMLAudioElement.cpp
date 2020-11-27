@@ -328,8 +328,8 @@ element
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 nsresult
@@ -848,9 +848,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

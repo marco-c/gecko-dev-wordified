@@ -348,8 +348,8 @@ digest
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -17832,9 +17832,7 @@ default
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -268,8 +268,8 @@ Shared
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 extern
@@ -1987,9 +1987,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

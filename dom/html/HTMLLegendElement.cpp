@@ -167,8 +167,8 @@ Legend
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLLegendElement
@@ -683,9 +683,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

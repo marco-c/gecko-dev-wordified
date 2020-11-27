@@ -256,8 +256,8 @@ Clipboard
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 Clipboard
@@ -1457,9 +1457,7 @@ DOMEventTargetHelper
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

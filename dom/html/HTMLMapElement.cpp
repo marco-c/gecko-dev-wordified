@@ -170,8 +170,8 @@ Map
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLMapElement
@@ -315,9 +315,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

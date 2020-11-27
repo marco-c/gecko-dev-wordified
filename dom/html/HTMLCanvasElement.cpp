@@ -518,8 +518,8 @@ Canvas
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -7478,9 +7478,7 @@ GetCurrentContext
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -222,8 +222,8 @@ enabled
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 bool
@@ -1448,9 +1448,7 @@ NS_OK
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

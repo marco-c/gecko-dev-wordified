@@ -149,8 +149,8 @@ IOThreadChild
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 GMPProcessChild
@@ -423,9 +423,7 @@ Shutdown
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

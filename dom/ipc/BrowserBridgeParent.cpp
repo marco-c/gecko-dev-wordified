@@ -241,8 +241,8 @@ hal
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 BrowserBridgeParent
@@ -1620,9 +1620,7 @@ Destroy
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

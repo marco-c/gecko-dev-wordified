@@ -336,8 +336,8 @@ For
 PendingAnimationTracker
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -13004,9 +13004,7 @@ IsRunningOnCompositor
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

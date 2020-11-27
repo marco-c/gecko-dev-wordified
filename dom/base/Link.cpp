@@ -256,8 +256,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 Link
@@ -3594,9 +3594,7 @@ n
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

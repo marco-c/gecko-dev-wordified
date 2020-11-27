@@ -197,8 +197,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 IdleRequest
@@ -418,9 +418,7 @@ handler
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

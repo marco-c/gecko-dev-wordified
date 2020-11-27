@@ -774,8 +774,8 @@ move
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -8495,9 +8495,7 @@ nullptr
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

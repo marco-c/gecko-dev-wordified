@@ -110,8 +110,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 GetUserMediaRequest
@@ -441,9 +441,7 @@ mConstraints
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

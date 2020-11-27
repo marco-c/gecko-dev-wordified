@@ -1165,8 +1165,8 @@ ifdef
 MOZILLA_MAY_SUPPORT_SSE2
 namespace
 mozilla
-{
-namespace
+:
+:
 SSE2
 {
 int32_t
@@ -1186,12 +1186,10 @@ end
 /
 /
 namespace
-SSE2
-}
-/
-/
-namespace
 mozilla
+:
+:
+SSE2
 #
 endif
 #

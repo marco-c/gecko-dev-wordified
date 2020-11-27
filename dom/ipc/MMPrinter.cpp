@@ -193,8 +193,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 LazyLogModule
@@ -617,9 +617,7 @@ get
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -409,8 +409,8 @@ __VA_ARGS__
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 using
@@ -11120,9 +11120,7 @@ FileRequestFlushResponse
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

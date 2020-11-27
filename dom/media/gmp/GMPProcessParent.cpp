@@ -270,8 +270,8 @@ kInvalidFd
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gmp
 {
 #
@@ -1730,9 +1730,7 @@ endif
 /
 /
 namespace
-gmp
-}
-/
-/
-namespace
 mozilla
+:
+:
+gmp

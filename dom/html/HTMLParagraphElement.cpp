@@ -165,8 +165,8 @@ Paragraph
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLParagraphElement
@@ -368,9 +368,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

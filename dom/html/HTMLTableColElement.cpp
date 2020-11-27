@@ -165,8 +165,8 @@ TableCol
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -726,9 +726,7 @@ MapAttributesIntoRule
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

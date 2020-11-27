@@ -168,8 +168,8 @@ Font
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLFontElement
@@ -743,9 +743,7 @@ MapAttributesIntoRule
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -194,8 +194,8 @@ Output
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLOutputElement
@@ -987,9 +987,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

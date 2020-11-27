@@ -356,8 +356,8 @@ Button
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -2629,9 +2629,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

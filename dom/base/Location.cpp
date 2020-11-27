@@ -343,8 +343,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 Location
@@ -3641,9 +3641,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

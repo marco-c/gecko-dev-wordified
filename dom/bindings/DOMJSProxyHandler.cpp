@@ -224,8 +224,8 @@ JS
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 jsid
@@ -2188,9 +2188,7 @@ expando
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

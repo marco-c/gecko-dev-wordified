@@ -1925,8 +1925,8 @@ TRUE
 namespace
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 void
@@ -2028,9 +2028,7 @@ indicator
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

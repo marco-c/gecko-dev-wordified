@@ -188,8 +188,8 @@ AUDIO_TRACK
 1
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 /
@@ -1829,9 +1829,7 @@ aVolume
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

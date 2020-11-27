@@ -210,8 +210,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 MediaKeySystemAccessManager
@@ -4861,12 +4861,10 @@ false
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
 #
 undef
 MKSAM_LOG_DEBUG

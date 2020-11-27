@@ -172,8 +172,8 @@ Template
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLTemplateElement
@@ -380,9 +380,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

@@ -297,8 +297,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLOptionsCollection
@@ -1350,9 +1350,7 @@ aIndex
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

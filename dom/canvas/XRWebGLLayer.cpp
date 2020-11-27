@@ -245,8 +245,8 @@ gl
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 static
@@ -1766,9 +1766,7 @@ DeleteFramebuffer
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

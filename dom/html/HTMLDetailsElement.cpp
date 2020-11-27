@@ -142,8 +142,8 @@ Details
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLDetailsElement
@@ -473,9 +473,7 @@ aGivenProto
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom

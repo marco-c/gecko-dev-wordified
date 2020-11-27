@@ -287,8 +287,8 @@ Meta
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 HTMLMetaElement
@@ -1333,9 +1333,7 @@ this
 /
 /
 namespace
-dom
-}
-/
-/
-namespace
 mozilla
+:
+:
+dom
