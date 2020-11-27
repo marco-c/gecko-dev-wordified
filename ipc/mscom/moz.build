@@ -443,3 +443,12 @@ IPC
 MSCOM
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+"
+windows
+"
+]
