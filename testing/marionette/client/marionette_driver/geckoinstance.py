@@ -787,6 +787,25 @@ updateEnabled
 :
 False
         
+#
+Disable
+the
+GFX
+sanity
+window
+        
+"
+media
+.
+sanity
+-
+test
+.
+disabled
+"
+:
+True
+        
 "
 media
 .
