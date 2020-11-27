@@ -740,10 +740,10 @@ ULONG
 [
 cfg
 (
-target_arch
+target_pointer_width
 =
 "
-x86
+32
 "
 )
 ]
@@ -807,10 +807,10 @@ SIZE_T
 [
 cfg
 (
-target_arch
+target_pointer_width
 =
 "
-x86_64
+64
 "
 )
 ]

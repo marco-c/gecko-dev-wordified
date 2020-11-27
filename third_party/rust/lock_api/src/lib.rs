@@ -590,6 +590,7 @@ is_ok
 /
 /
 !
+unsafe
 fn
 unlock
 (

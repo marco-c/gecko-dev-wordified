@@ -106,6 +106,15 @@ basetsd
 :
 ULONG_PTR
 ;
+use
+shared
+:
+:
+wtypes
+:
+:
+PROPERTYKEY
+;
 DEFINE_GUID
 !
 {

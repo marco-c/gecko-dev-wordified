@@ -332,6 +332,8 @@ mut
 self
 )
 {
+unsafe
+{
 if
 self
 .
@@ -356,6 +358,7 @@ unlock_shared
 (
 )
 ;
+}
 }
 }
 }
@@ -501,6 +504,8 @@ mut
 self
 )
 {
+unsafe
+{
 self
 .
 lock
@@ -509,6 +514,7 @@ unlock_exclusive
 (
 )
 ;
+}
 }
 }
 /
@@ -821,6 +827,8 @@ false
 }
 ;
 }
+unsafe
+{
 self
 .
 lock
@@ -829,6 +837,7 @@ unlock_shared
 (
 )
 ;
+}
 /
 /
 now
@@ -1006,6 +1015,8 @@ contains_key
 key
 )
 ;
+unsafe
+{
 self
 .
 lock
@@ -1014,6 +1025,7 @@ unlock_shared
 (
 )
 ;
+}
 if
 has
 {
@@ -1100,6 +1112,8 @@ clone
 value
 )
 ;
+unsafe
+{
 self
 .
 lock
@@ -1108,6 +1122,7 @@ unlock_exclusive
 (
 )
 ;
+}
 PrepareResult
 :
 :

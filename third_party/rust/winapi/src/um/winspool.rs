@@ -846,7 +846,7 @@ PRINTER_INFO_9W
 {
 pDevMode
 :
-LPDEVMODEA
+LPDEVMODEW
 }
 }
 pub

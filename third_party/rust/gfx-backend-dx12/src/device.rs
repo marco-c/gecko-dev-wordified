@@ -11228,6 +11228,13 @@ root_offset
 =
 2
 ;
+/
+/
+root
+CBV
+costs
+2
+words
 }
 else
 {

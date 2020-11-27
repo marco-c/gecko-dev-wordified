@@ -86,6 +86,15 @@ to
 those
 terms
 .
+use
+shared
+:
+:
+wtypes
+:
+:
+PROPERTYKEY
+;
 DEFINE_GUID
 !
 {

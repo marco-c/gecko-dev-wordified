@@ -102,6 +102,12 @@ Ordering
 }
 ;
 use
+instant
+:
+:
+Instant
+;
+use
 std
 :
 :
@@ -136,10 +142,6 @@ WAIT_INDEFINITE
 }
 }
 thread
-time
-:
-:
-Instant
 }
 ;
 /

@@ -353,6 +353,9 @@ NetUserGetLocalGroups
 servername
 :
 LPCWSTR
+username
+:
+LPCWSTR
 level
 :
 DWORD

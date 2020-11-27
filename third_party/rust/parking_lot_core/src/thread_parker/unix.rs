@@ -130,6 +130,12 @@ MaybeUninit
 }
 ;
 use
+instant
+:
+:
+Instant
+;
+use
 libc
 ;
 use
@@ -141,10 +147,7 @@ thread
 time
 :
 :
-{
 Duration
-Instant
-}
 }
 ;
 /

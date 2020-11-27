@@ -137,6 +137,12 @@ Ordering
 }
 ;
 use
+instant
+:
+:
+Instant
+;
+use
 lock_api
 :
 :
@@ -163,10 +169,7 @@ std
 time
 :
 :
-{
 Duration
-Instant
-}
 ;
 /
 /
@@ -3363,6 +3366,12 @@ MutexGuard
 }
 ;
 use
+instant
+:
+:
+Instant
+;
+use
 std
 :
 :
@@ -3396,10 +3405,7 @@ std
 time
 :
 :
-{
 Duration
-Instant
-}
 ;
 #
 [

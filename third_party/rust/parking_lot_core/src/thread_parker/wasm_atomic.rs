@@ -108,6 +108,12 @@ Ordering
 }
 ;
 use
+instant
+:
+:
+Instant
+;
+use
 std
 :
 :
@@ -117,10 +123,6 @@ convert
 :
 TryFrom
 thread
-time
-:
-:
-Instant
 }
 ;
 /

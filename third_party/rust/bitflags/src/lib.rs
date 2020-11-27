@@ -2217,7 +2217,7 @@ bitflags
 .
 2
 .
-0
+1
 "
 )
 ]
@@ -4479,10 +4479,6 @@ trait
 __BitFlags
 {
 (
-#
-[
-inline
-]
 const
 Flag
 :
@@ -4508,10 +4504,6 @@ allow
 (
 deprecated
 )
-]
-#
-[
-inline
 ]
 (
 ?

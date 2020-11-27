@@ -2364,10 +2364,10 @@ UCHAR
 [
 cfg
 (
-target_arch
+target_pointer_width
 =
 "
-x86
+32
 "
 )
 ]

@@ -119,6 +119,8 @@ allow
 bad_style
 overflowing_literals
 unused_macros
+deprecated
+unused_crate_dependencies
 )
 ]
 #
@@ -221,10 +223,6 @@ cast_sign_loss
 clippy
 :
 :
-const_static_lifetime
-clippy
-:
-:
 doc_markdown
 clippy
 :
@@ -286,6 +284,14 @@ clippy
 :
 :
 used_underscore_binding
+clippy
+:
+:
+redundant_static_lifetimes
+clippy
+:
+:
+missing_safety_doc
 )
 )
 ]
@@ -342,6 +348,10 @@ km
 pub
 mod
 shared
+;
+pub
+mod
+ucrt
 ;
 pub
 mod

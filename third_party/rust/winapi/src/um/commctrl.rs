@@ -4890,10 +4890,10 @@ ToolbarWindow32
 [
 cfg
 (
-target_arch
+target_pointer_width
 =
 "
-x86
+32
 "
 )
 ]
@@ -9538,7 +9538,7 @@ hinst
 HINSTANCE
 lpszText
 :
-LPSTR
+LPWSTR
 lParam
 :
 LPARAM
