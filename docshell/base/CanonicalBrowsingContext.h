@@ -1670,6 +1670,11 @@ HistoryCommitIndexAndLength
 (
 )
 ;
+void
+ResetScalingZoom
+(
+)
+;
 protected
 :
 /
