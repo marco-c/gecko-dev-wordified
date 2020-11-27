@@ -3329,7 +3329,7 @@ generation
 counter
 for
 the
-scroll
+scrollframe
 .
 This
 counter
@@ -3346,7 +3346,10 @@ set
 *
 /
 virtual
-uint32_t
+mozilla
+:
+:
+ScrollGeneration
 CurrentScrollGeneration
 (
 )
@@ -3523,7 +3526,12 @@ virtual
 void
 ResetScrollInfoIfNeeded
 (
-uint32_t
+const
+mozilla
+:
+:
+ScrollGeneration
+&
 aGeneration
 bool
 aApzAnimationInProgress

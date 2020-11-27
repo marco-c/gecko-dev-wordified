@@ -723,10 +723,6 @@ mScrollOffset
 mZoom
 (
 )
-mScrollGeneration
-(
-0
-)
 mRootCompositionSize
 (
 0
@@ -2388,7 +2384,9 @@ mZoom
 void
 SetScrollGeneration
 (
-uint32_t
+const
+ScrollGeneration
+&
 aScrollGeneration
 )
 {
@@ -2397,7 +2395,7 @@ mScrollGeneration
 aScrollGeneration
 ;
 }
-uint32_t
+ScrollGeneration
 GetScrollGeneration
 (
 )
@@ -4024,7 +4022,7 @@ scroll
 offset
 update
 .
-uint32_t
+ScrollGeneration
 mScrollGeneration
 ;
 /
