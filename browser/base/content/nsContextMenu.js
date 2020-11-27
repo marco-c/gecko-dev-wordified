@@ -8196,6 +8196,15 @@ contentData
 .
 referrerInfo
 ;
+let
+cookieJarSettings
+=
+this
+.
+contentData
+.
+cookieJarSettings
+;
 this
 .
 actor
@@ -8268,6 +8277,7 @@ null
 chosen
 data
 referrerInfo
+cookieJarSettings
 null
 /
 /
@@ -9741,6 +9751,15 @@ contentData
 referrerInfo
 ;
 let
+cookieJarSettings
+=
+this
+.
+contentData
+.
+cookieJarSettings
+;
+let
 isPrivate
 =
 PrivateBrowsingUtils
@@ -9834,6 +9853,7 @@ null
 chosen
 data
 referrerInfo
+cookieJarSettings
 null
 /
 /
@@ -9945,6 +9965,7 @@ null
 chosen
 data
 referrerInfo
+cookieJarSettings
 null
 /
 /
@@ -10014,6 +10035,7 @@ dialogTitle
 false
 doc
 referrerInfo
+cookieJarSettings
 this
 .
 frameOuterWindowID
