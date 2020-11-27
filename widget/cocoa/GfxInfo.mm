@@ -2415,7 +2415,7 @@ OSX
 DeviceFamily
 :
 :
-IntelHD3000
+IntelSandyBridge
 nsIGfxInfo
 :
 :

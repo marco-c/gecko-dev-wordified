@@ -9271,7 +9271,7 @@ Windows
 DeviceFamily
 :
 :
-IntelHD3000
+IntelSandyBridge
 GfxDriverInfo
 :
 :
