@@ -31559,6 +31559,17 @@ AccumulateJSTelemetry
 (
 )
 ;
+/
+/
+Accumulate
+page
+load
+metrics
+void
+AccumulatePageLoadTelemetry
+(
+)
+;
 public
 :
 /
