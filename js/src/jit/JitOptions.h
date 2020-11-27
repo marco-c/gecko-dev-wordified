@@ -576,13 +576,6 @@ setFastWarmUp
 (
 )
 ;
-void
-setWarpEnabled
-(
-bool
-enable
-)
-;
 bool
 eagerIonCompilation
 (
