@@ -800,16 +800,6 @@ coordinates
 .
 nsMargin
 &
-ComputedPhysicalMargin
-(
-)
-{
-return
-mComputedMargin
-;
-}
-nsMargin
-&
 ComputedPhysicalBorderPadding
 (
 )
