@@ -4446,7 +4446,7 @@ false
 }
 public
 :
-int32_t
+double
 GetInnerWidthOuter
 (
 mozilla
@@ -4462,7 +4462,7 @@ protected
 nsresult
 GetInnerWidth
 (
-int32_t
+double
 *
 aWidth
 )
@@ -4471,7 +4471,7 @@ override
 void
 SetInnerWidthOuter
 (
-int32_t
+double
 aInnerWidth
 mozilla
 :
@@ -4491,7 +4491,7 @@ aError
 ;
 public
 :
-int32_t
+double
 GetInnerHeightOuter
 (
 mozilla
@@ -4507,7 +4507,7 @@ protected
 nsresult
 GetInnerHeight
 (
-int32_t
+double
 *
 aHeight
 )
@@ -4516,7 +4516,7 @@ override
 void
 SetInnerHeightOuter
 (
-int32_t
+double
 aInnerHeight
 mozilla
 :
@@ -5615,7 +5615,7 @@ GetInnerSize
 mozilla
 :
 :
-CSSIntSize
+CSSSize
 &
 aSize
 )
